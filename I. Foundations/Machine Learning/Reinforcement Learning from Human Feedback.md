@@ -464,13 +464,13 @@ This chapter includes all the definitions, symbols, and operations frequently us
 The majority of modern language models are trained to learn the joint probability distribution of sequences of tokens (words, subwords, or characters) in an autoregressive manner. Autoregression simply means that each next prediction depends on the previous entities in the sequence. Given a sequence of tokens  $x = (x_{1},x_{2},\ldots ,x_{T})$ , the model factorizes the probability of the entire sequence into a product of conditional distributions:
 
 $$
-P _ {\theta} (x) = \prod_ {t = 1} ^ {T} P _ {\theta} \left(x _ {t} \mid x _ {1}, \dots , x _ {t - 1}\right). \tag {1}
+P_{\theta}(x) = \prod_{t=1}^{T} P_{\theta} \left(x_{t} \mid x_{1}, \dots, x_{t-1}\right). \tag{1}
 $$
 
 In order to fit a model that accurately predicts this, the goal is often to maximize the likelihood of the training data as predicted by the current model. To do so we can minimize a negative log-likelihood (NLL) loss:
 
 $$
-\mathcal {L} _ {\mathrm {L M}} (\theta) = - \mathbb {E} _ {x \sim \mathcal {D}} \left[ \sum_ {t = 1} ^ {T} \log P _ {\theta} \left(x _ {t} \mid x _ {<   t}\right) \right]. \tag {2}
+\mathcal{L}_{\mathrm{LM}}(\theta) = -\mathbb{E}_{x \sim \mathcal{D}} \left[ \sum_{t=1}^{T} \log P_{\theta} \left(x_{t} \mid x_{<t}\right) \right]. \tag{2}
 $$
 
 In practice, one uses a cross-entropy loss with respect to each next-token prediction, computed by comparing the true token in a sequence to what was predicted by the model.
@@ -482,7 +482,7 @@ Implementing a language model can take many forms. Modern LMs, including ChatGPT
 - Kullback-Leibler (KL) divergence  $(D_{KL}(P||Q))$ , also known as KL divergence, is a measure of the difference between two probability distributions. For discrete probability distributions  $P$  and  $Q$  defined on the same probability space  $\mathcal{X}$ , the KL distance from  $Q$  to  $P$  is defined as:
 
 $$
-D _ {K L} (P | | Q) = \sum_ {x \in \mathcal {X}} P (x) \log \left(\frac {P (x)}{Q (x)}\right) \tag {3}
+D_{KL}(P||Q) = \sum_{x \in \mathcal{X}} P(x) \log \left(\frac{P(x)}{Q(x)}\right) \tag{3}
 $$
 
 # 3.3 NLP Definitions
@@ -513,7 +513,7 @@ $A(s,a) = Q(s,a) - V(s)$ . Advantage functions (and value functions) can depend 
 - Expectation of Reward Optimization: The primary goal in RL, which involves maximizing the expected cumulative reward:
 
 $$
-\max  _ {\theta} \mathbb {E} _ {s \sim \rho_ {\pi}, a \sim \pi_ {\theta}} [ \sum_ {t = 0} ^ {\infty} \gamma^ {t} r _ {t} ] \tag {4}
+\max_{\theta} \mathbb{E}_{s \sim \rho_{\pi}, a \sim \pi_{\theta}} \left[ \sum_{t=0}^{\infty} \gamma^{t} r_{t} \right] \tag{4}
 $$
 
 where  $\rho_{\pi}$  is the state distribution under policy  $\pi$ , and  $\gamma$  is the discount factor.
@@ -521,7 +521,7 @@ where  $\rho_{\pi}$  is the state distribution under policy  $\pi$ , and  $\gamm
 - Finite Horizon Reward  $(J(\pi_{\theta}))$ : The expected finite-horizon discounted return of the policy  $\pi_{\theta}$ , parameterized by  $\theta$  is defined as:
 
 $$
-J (\pi_ {\theta}) = \mathbb {E} _ {\tau \sim \pi_ {\theta}} \left[ \sum_ {t = 0} ^ {T} \gamma^ {t} r _ {t} \right] \tag {5}
+J(\pi_{\theta}) = \mathbb{E}_{\tau \sim \pi_{\theta}} \left[ \sum_{t=0}^{T} \gamma^{t} r_{t} \right] \tag{5}
 $$
 
 where  $\tau \sim \pi_{\theta}$  denotes trajectories sampled by following policy  $\pi_{\theta}$  and  $T$  is the finite horizon.
@@ -542,7 +542,7 @@ models accessible only via API. The term distillation is now overloaded with a s
 - (Teacher-student) Knowledge Distillation: Knowledge distillation from a specific teacher to student model is a specific type of distillation above and where the term originated. It is a specific deep learning method where a neural network loss is modified to learn from the log-probabilities of the teacher model over multiple potential tokens/logits, instead of learning directly from a chosen output [50]. An example of a modern series of models trained with Knowledge Distillation is Lemma 2 [51] or Lemma 3. For a language modeling setup, the next-token loss function can be modified as follows [52], where the student model  $P_{\theta}$  learns from the teacher distribution  $P_{\phi}$ :
 
 $$
-\mathcal {L} _ {\mathrm {K D}} (\theta) = - \mathbb {E} _ {x \sim \mathcal {D}} \left[ \sum_ {t = 1} ^ {T} P _ {\phi} \left(x _ {t} \mid x _ {<   t}\right) \log P _ {\theta} \left(x _ {t} \mid x _ {<   t}\right) \right]. \tag {6}
+\mathcal{L}_{\mathrm{KD}}(\theta) = -\mathbb{E}_{x \sim \mathcal{D}} \left[ \sum_{t=1}^{T} P_{\phi} \left(x_{t} \mid x_{<t}\right) \log P_{\theta} \left(x_{t} \mid x_{<t}\right) \right]. \tag{6}
 $$
 
 - In-context Learning (ICL): In-context here refers to any information within the context window of the language model. Usually, this is information added to the prompt. The simplest form of in-context learning is adding examples of a similar form before the prompt. Advanced versions can learn which information to include for a specific use-case.  
@@ -555,7 +555,7 @@ $$
 The optimization of reinforcement learning from human feedback (RLHF) builds on top of the standard RL setup. In RL, an agent takes actions,  $a$ , sampled from a policy,  $\pi$ , with respect to the state of the environment,  $s$ , to maximize reward,  $r$  [54]. Traditionally, the environment evolves with respect to a transition or dynamics function  $p(s_{t+1}|s_t, a_t)$ . Hence, across a finite episode, the goal of an RL agent is to solve the following optimization:
 
 $$
-J (\pi) = \mathbb {E} _ {\tau \sim \pi} \left[ \sum_ {t = 0} ^ {\infty} \gamma^ {t} r \left(s _ {t}, a _ {t}\right) \right], \tag {7}
+J(\pi) = \mathbb{E}_{\tau \sim \pi} \left[ \sum_{t=0}^{\infty} \gamma^{t} r \left(s_{t}, a_{t}\right) \right], \tag{7}
 $$
 
 where  $\gamma$  is a discount factor from 0 to 1 that balances the desirability of near- versus future-rewards. Multiple methods for optimizing this expression are discussed in Chapter 11.
@@ -576,7 +576,7 @@ There are multiple core changes from the standard RL setup to that of RLHF:
 Given the single-turn nature of the problem, the optimization can be re-written without the time horizon and discount factor (and the reward models):
 
 $$
-J (\pi) = \mathbb {E} _ {\tau \sim \pi} \left[ r _ {\theta} \left(s _ {t}, a _ {t}\right) \right]. \tag {8}
+J(\pi) = \mathbb{E}_{\tau \sim \pi} \left[ r_{\theta} \left(s_{t}, a_{t}\right) \right]. \tag{8}
 $$
 
 In many ways, the result is that while RLHF is heavily inspired by RL optimizers and problem formulations, the actual implementation is very distinct from traditional RL.
@@ -589,7 +589,7 @@ Figure 3: Standard RLHF loop
 RLHF is implemented from a strong base model, which induces a need to control the optimization from straying too far from the initial policy. In order to succeed in a finetuning regime, RLHF techniques employ multiple types of regularization to control the optimization. The most common change to the optimization function is to add a distance penalty on the difference between the current RLHF policy and the starting point of the optimization:
 
 $$
-J (\pi) = \mathbb {E} _ {\tau \sim \pi} \left[ r _ {\theta} \left(s _ {t}, a _ {t}\right) \right] - \beta \mathcal {D} _ {K L} \left(\pi^ {\mathrm {R L}} (\cdot | s _ {t}) \| \pi^ {\mathrm {r e f}} (\cdot | s _ {t})\right). \tag {9}
+J(\pi) = \mathbb{E}_{\tau \sim \pi} \left[ r_{\theta} \left(s_{t}, a_{t}\right) \right] - \beta \mathcal{D}_{KL} \left(\pi^{\mathrm{RL}} (\cdot | s_{t}) \| \pi^{\mathrm{ref}} (\cdot | s_{t})\right). \tag{9}
 $$
 
 Within this formulation, a lot of study into RLHF training goes into understanding how to spend a certain "KL budget" as measured by a distance from the initial model. For more details, see Chapter 8 on Regularization.
@@ -989,7 +989,7 @@ The most common reward model predicts the probability that a piece of text was c
 There are two popular expressions for how to train a standard reward model for RLHF - they are numerically equivalent. The canonical implementation is derived from the Bradley-Terry model of preference [93]. A Bradley-Terry model of preferences measures the probability that the pairwise comparison for two events drawn from the same distribution, say  $i$  and  $j$ , satisfy the following relation,  $i > j$ :
 
 $$
-P (i > j) = \frac {p _ {i}}{p _ {i} + p _ {j}} \tag {10}
+P(i > j) = \frac{p_{i}}{p_{i} + p_{j}} \tag{10}
 $$
 
 To train a reward model, we must formulate a loss function that satisfies the above relation. The first structure applied is to convert a language model into a model that outputs a scalar value, often in the form of a single classification probability logit. Thus, we can take the score of this model with two samples, the  $i$  and  $j$  above are now completions,  $y_{1}$  and  $y_{2}$ , to one prompt,  $x$  and score both of them with respect to the above model,  $r_{\theta}$ . We denote the conditional scores as  $r_{\theta}(y_i \mid x)$ .
@@ -997,7 +997,7 @@ To train a reward model, we must formulate a loss function that satisfies the ab
 The probability of success for a given reward model in a pairwise comparison becomes:
 
 $$
-P \left(y _ {1} > y _ {2} \mid x\right) = \frac {\exp \left(r _ {\theta} \left(y _ {1} \mid x\right)\right)}{\exp \left(r _ {\theta} \left(y _ {1} \mid x\right)\right) + \exp \left(r _ {\theta} \left(y _ {2} \mid x\right)\right)} \tag {11}
+P \left(y_{1} > y_{2} \mid x\right) = \frac{\exp \left(r_{\theta} \left(y_{1} \mid x\right)\right)}{\exp \left(r_{\theta} \left(y_{1} \mid x\right)\right) + \exp \left(r_{\theta} \left(y_{2} \mid x\right)\right)} \tag{11}
 $$
 
 We denote the preferred completion as  $y_{c}$  (chosen) and the rejected completion as  $y_{r}$ .
@@ -1005,19 +1005,19 @@ We denote the preferred completion as  $y_{c}$  (chosen) and the rejected comple
 Then, by maximizing the log-likelihood of the above function (or alternatively minimizing the negative log-likelihood), we can arrive at the loss function to train a reward model:
 
 $$
-\begin{array}{l} \theta^ {*} = \arg \max  _ {\theta} P (y _ {c} > y _ {r} \mid x) = \arg \max  _ {\theta} \frac {\exp \left(r _ {\theta} \left(y _ {c} \mid x\right)\right)}{\exp \left(r _ {\theta} \left(y _ {c} \mid x\right)\right) + \exp \left(r _ {\theta} \left(y _ {r} \mid x\right)\right)} \\ = \arg \max  _ {\theta} \frac {\exp \left(r _ {\theta} \left(y _ {c} \mid x\right)\right)}{\exp \left(r _ {\theta} \left(y _ {c} \mid x\right)\right) \left(1 + \frac {\exp \left(r _ {\theta} \left(y _ {r} \mid x\right)\right)}{\exp \left(r _ {\theta} \left(y _ {c} \mid x\right)\right)}\right)} \\ = \arg \max  _ {\theta} \frac {1}{1 + \frac {\exp \left(r _ {\theta} \left(y _ {r} \mid x\right)\right)}{\exp \left(r _ {\theta} \left(y _ {c} \mid x\right)\right)}} \tag {12} \\ = \arg \max  _ {\theta} \frac {1}{1 + \exp \left(- \left(r _ {\theta} \left(y _ {c} \mid x\right) - r _ {\theta} \left(y _ {r} \mid x\right)\right)\right)} \\ = \arg \max  _ {\theta} \sigma \left(r _ {\theta} \left(y _ {c} \mid x\right) - r _ {\theta} \left(y _ {r} \mid x\right)\right) \\ = \arg \min  _ {\theta} - \log \left(\sigma \left(r _ {\theta} \left(y _ {c} \mid x\right) - r _ {\theta} \left(y _ {r} \mid x\right)\right)\right) \\ \end{array}
+\begin{array}{l} \theta^{*} = \arg \max_{\theta} P(y_{c} > y_{r} \mid x) = \arg \max_{\theta} \frac{\exp \left(r_{\theta} \left(y_{c} \mid x\right)\right)}{\exp \left(r_{\theta} \left(y_{c} \mid x\right)\right) + \exp \left(r_{\theta} \left(y_{r} \mid x\right)\right)} \\ = \arg \max_{\theta} \frac{\exp \left(r_{\theta} \left(y_{c} \mid x\right)\right)}{\exp \left(r_{\theta} \left(y_{c} \mid x\right)\right) \left(1 + \frac{\exp \left(r_{\theta} \left(y_{r} \mid x\right)\right)}{\exp \left(r_{\theta} \left(y_{c} \mid x\right)\right)}\right)} \\ = \arg \max_{\theta} \frac{1}{1 + \frac{\exp \left(r_{\theta} \left(y_{r} \mid x\right)\right)}{\exp \left(r_{\theta} \left(y_{c} \mid x\right)\right)}} \tag{12} \\ = \arg \max_{\theta} \frac{1}{1 + \exp \left(-\left(r_{\theta} \left(y_{c} \mid x\right) - r_{\theta} \left(y_{r} \mid x\right)\right)\right)} \\ = \arg \max_{\theta} \sigma \left(r_{\theta} \left(y_{c} \mid x\right) - r_{\theta} \left(y_{r} \mid x\right)\right) \\ = \arg \min_{\theta} -\log \left(\sigma \left(r_{\theta} \left(y_{c} \mid x\right) - r_{\theta} \left(y_{r} \mid x\right)\right)\right) \\ \end{array}
 $$
 
 The first form, as in [3] and other works:
 
 $$
-\mathcal {L} (\theta) = - \log \left(\sigma \left(r _ {\theta} \left(y _ {c} \mid x\right) - r _ {\theta} \left(y _ {r} \mid x\right)\right)\right) \tag {13}
+\mathcal{L}(\theta) = -\log \left(\sigma \left(r_{\theta} \left(y_{c} \mid x\right) - r_{\theta} \left(y_{r} \mid x\right)\right)\right) \tag{13}
 $$
 
 Second, as in [17] and other works:
 
 $$
-\mathcal {L} (\theta) = \log \left(1 + e ^ {r _ {\theta} \left(y _ {r} | x\right) - r _ {\theta} \left(y _ {c} | x\right)}\right) \tag {14}
+\mathcal{L}(\theta) = \log \left(1 + e^{r_{\theta} \left(y_{r} | x\right) - r_{\theta} \left(y_{c} | x\right)}\right) \tag{14}
 $$
 
 # 7.2 Architecture
@@ -1085,7 +1085,7 @@ Reward modeling is a relatively under-explored area of RLHF. The traditional rew
 In the case where annotators are providing either scores or rankings on a Likert Scale, the magnitude of the relational quantities can be used in training. The most common practice is to binarize the data direction, implicitly scores of 1 and 0, but the additional information has been used to improve model training. Llama 2 proposes using the margin between two datapoints,  $m(y_{c},y_{r})$ , to distinguish the magnitude of preference:
 
 $$
-\mathcal {L} (\theta) = - \log \left(\sigma \left(r _ {\theta} \left(y _ {c} \mid x\right) - r _ {\theta} \left(y _ {r} \mid x\right) - m \left(y _ {c}, y _ {r}\right)\right)\right) \tag {15}
+\mathcal{L}(\theta) = -\log \left(\sigma \left(r_{\theta} \left(y_{c} \mid x\right) - r_{\theta} \left(y_{r} \mid x\right) - m \left(y_{c}, y_{r}\right)\right)\right) \tag{15}
 $$
 
 For example, each completion is often given a ranking from 1 to 5 in terms of quality. In the case where the chosen sample was assigned a score of 5 and rejected a score of 2, the margin  $m(y_{c},y_{r}) = 5 - 2 = 3$ . Other functions for computing margins can be explored.
@@ -1097,7 +1097,7 @@ Note that in Llama 3 the margin term was removed as the team observed diminishin
 InstructGPT studies the impact of using a variable number of completions per prompt, yet balancing them in the reward model training [3]. To do this, they weight the loss updates per comparison per prompt. At an implementation level, this can be done automatically by including all examples with the same prompt in the same training batch, naturally weighing the different pairs - not doing this caused overfitting to the prompts. The loss function becomes:
 
 $$
-\mathcal {L} (\theta) = - \frac {1}{\binom {K} {2}} \mathbb {E} _ {(x, y _ {c}, y _ {r}) \sim D} \log \left(\sigma \left(r _ {\theta} \left(y _ {c} \mid x\right) - r _ {\theta} \left(y _ {r} \mid x\right)\right)\right) \tag {16}
+\mathcal{L}(\theta) = -\frac{1}{\binom{K}{2}} \mathbb{E}_{(x, y_{c}, y_{r}) \sim D} \log \left(\sigma \left(r_{\theta} \left(y_{c} \mid x\right) - r_{\theta} \left(y_{r} \mid x\right)\right)\right) \tag{16}
 $$
 
 # 7.4.3 K-wise Loss Function
@@ -1107,7 +1107,7 @@ There are many other formulations that can create suitable models of human prefe
 Zhu et al. 2023 [96] formalizes the setup as follows. With a prompt, or state,  $s^i$ ,  $K$  actions  $(a_0^i, a_1^i, \dots, a_{K-1}^i)$  are sampled from  $P(a_0, \dots, a_{K-1}|s^i)$ . Then, labelers are used to rank preferences with  $\sigma^i: [K] \mapsto [K]$  is a function representing action rankings, where  $\sigma^i(0)$  is the most preferred action. This yields a preference model capturing the following:
 
 $$
-P \left(\sigma^ {i} \mid s ^ {i}, a _ {0} ^ {i}, a _ {1} ^ {i}, \dots , a _ {K - 1} ^ {i}\right) = \prod_ {k = 0} ^ {K - 1} \frac {\exp \left(r _ {\theta \star} \left(s ^ {i} , a _ {\sigma^ {i} (k)} ^ {i}\right)\right)}{\sum_ {j = k} ^ {K - 1} \exp \left(r _ {\theta \star} \left(s ^ {i} , a _ {\sigma^ {i} (j)} ^ {i}\right)\right)} \tag {17}
+P \left(\sigma^{i} \mid s^{i}, a_{0}^{i}, a_{1}^{i}, \dots, a_{K-1}^{i}\right) = \prod_{k=0}^{K-1} \frac{\exp \left(r_{\theta \star} \left(s^{i}, a_{\sigma^{i}(k)}^{i}\right)\right)}{\sum_{j=k}^{K-1} \exp \left(r_{\theta \star} \left(s^{i}, a_{\sigma^{i}(j)}^{i}\right)\right)} \tag{17}
 $$
 
 When  $K = 2$ , this reduces to the Bradley-Terry (BT) model for pairwise comparisons. Regardless, once trained, these models are used similarly to other reward models during RLHF training.
@@ -1123,7 +1123,7 @@ The shape of the models used is very similar to a standard reward model, with a 
 To translate, this is implemented as a language modeling head that can predict two classes per token (1 for correct, 0 for incorrect), rather than a classification head of a traditional RM that outputs one logit for the entire sequence. Formally, following [98] this can be shown as:
 
 $$
-\mathcal {L} _ {\mathrm {C E}} (\theta) = - \mathbb {E} _ {(s, r) \sim \mathcal {D}} [ r \log p _ {\theta} (s) + (1 - r) \log (1 - p _ {\theta} (s)) ] \tag {18}
+\mathcal{L}_{\mathrm{CE}}(\theta) = -\mathbb{E}_{(s, r) \sim \mathcal{D}} [ r \log p_{\theta} (s) + (1 - r) \log (1 - p_{\theta} (s)) ] \tag{18}
 $$
 
 where  $r \in 0,1$  is a binary label where 1 applies to a correct answer to a given prompt and 0 applies to an incorrect, and  $p_{\theta}(s)$  is the scalar proportional to predicted probability of correctness from the model being trained.
@@ -1167,7 +1167,7 @@ Process Reward Models (PRMs), originally called Process-supervised Reward Models
 Following [44], a binary-labeled PRM is commonly optimized with a per-step cross-entropy loss:
 
 $$
-\mathcal {L} _ {\mathrm {P R M}} (\theta) = - \mathbb {E} _ {(x, s) \sim \mathcal {D}} \left[ \sum_ {i = 1} ^ {K} y _ {s _ {i}} \log r _ {\theta} \left(s _ {i} \mid x\right) + \left(1 - y _ {s _ {i}}\right) \log \left(1 - r _ {\theta} \left(s _ {i} \mid x\right)\right) \right] \tag {19}
+\mathcal{L}_{\mathrm{PRM}}(\theta) = -\mathbb{E}_{(x, s) \sim \mathcal{D}} \left[ \sum_{i=1}^{K} y_{s_{i}} \log r_{\theta} \left(s_{i} \mid x\right) + \left(1 - y_{s_{i}}\right) \log \left(1 - r_{\theta} \left(s_{i} \mid x\right)\right) \right] \tag{19}
 $$
 
 where  $s$  is a sampled chain-of-thought with  $K$  annotated steps,  $y_{s_i} \in \{0,1\}$  denotes whether the  $i$ -th step is correct, and  $r_{\theta}(s_i \mid x)$  is the PRM's predicted probability that step  $s_i$  is valid conditioned on the original prompt  $x$ .
@@ -1292,13 +1292,13 @@ The most popular variant, used in most RLHF implementations at the time of writi
 The general formulation, when used in an RLHF framework with a reward model,  $r_{\theta}$  is as follows:
 
 $$
-r = r _ {\theta} - \lambda r _ {\text {r e g .}} \tag {20}
+r = r_{\theta} - \lambda r_{\text{reg.}} \tag{20}
 $$
 
 With the reference implementation being:
 
 $$
-r = r _ {\theta} - \lambda_ {\mathrm {K L}} \mathcal {D} _ {\mathrm {K L}} \left(\pi^ {\mathrm {R L}} (y \mid x) \| \pi^ {\text {R e f .}} (y \mid x)\right) \tag {21}
+r = r_{\theta} - \lambda_{\mathrm{KL}} \mathcal{D}_{\mathrm{KL}} \left(\pi^{\mathrm{RL}} (y \mid x) \| \pi^{\text{Ref.}} (y \mid x)\right) \tag{21}
 $$
 
 # 8.1 KL Distances in RL Optimization
@@ -1306,7 +1306,7 @@ $$
 For mathematical definitions, see Chapter 5 on Problem Setup. Recall that KL distance is defined as follows:
 
 $$
-D _ {K L} (P | | Q) = \sum_ {x \in \mathcal {X}} P (x) \log \left(\frac {P (x)}{Q (x)}\right) \tag {22}
+D_{KL}(P||Q) = \sum_{x \in \mathcal{X}} P(x) \log \left(\frac{P(x)}{Q(x)}\right) \tag{22}
 $$
 
 In RLHF, the two distributions of interest are often the distribution of the new model version, say  $P(x)$ , and a distribution of the reference policy, say  $Q(x)$ . Different pieces of optimizers use different KL directions. Throughout this book, the most common "KL Penalty" that is used is called the reverse KL to the reference policy. In practice, this reduces to a Monte Carlo estimate that samples tokens from the RL model and computes probabilities from the reference model. Intuitively, this forward RL has a numerical property that applies a large penalty (a distance) when the new model,  $P$  or  $\pi_{\mathrm{RL}}$  puts substantial probability mass where the original reference model is low probability.
@@ -1322,7 +1322,7 @@ The most common implementation of KL penalties are by comparing the distance bet
 In practice, the implementation of KL distance is often approximated [129], making the implementation far simpler. With the above definition, the summation of KL can be converted to an expectation when sampling directly from the distribution  $P(X)$ . In this case, the distribution  $P(X)$  is the generative distribution of the model currently being trained (i.e. not the reference model). Then, the computation for KL distance changes to the following:
 
 $$
-D _ {\mathrm {K L}} (P \mid \| Q) = \mathbb {E} _ {x \sim P} [ \log P (x) - \log Q (x) ]. \tag {23}
+D_{\mathrm{KL}}(P \mid \| Q) = \mathbb{E}_{x \sim P} [ \log P(x) - \log Q(x) ]. \tag{23}
 $$
 
 This mode is far simpler to implement, particularly when dealing directly with log probabilities used frequently in language model training.

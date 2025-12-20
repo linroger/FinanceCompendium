@@ -198,13 +198,13 @@ Figure 2: We want to minimize the expected risk  $L$  to get  $h^*$ , but we can
 minimizer (ERM), which minimizes the training error:
 
 $$
-\hat {h} _ {\mathrm {E R M}} \in \arg \min  _ {h \in \mathcal {H}} \hat {L} (h). \tag {1}
+\hat{h}_{\mathrm{ERM}} \in \arg\min_{h \in \mathcal{H}} \hat{L}(h). \tag{1}
 $$
 
 Now what can we say about the relationship between  $\hat{L}(\hat{h}_{\mathrm{ERM}})$  and  $L(\hat{h}_{\mathrm{ERM}})$ ? The key point is that  $\hat{h}_{\mathrm{ERM}}$  depends on  $\hat{L}$ , so  $\hat{L}(\hat{h}_{\mathrm{ERM}})$  is no longer an average of i.i.d. random variables; in fact, it's quite a narly beast. Intuitively, the training error should be smaller than the test error and hence less reliable, but how do we formalize this? Using uniform convergence, we will show that:
 
 $$
-\underbrace {L (\hat {h} _ {\mathrm {E R M}})} _ {\mathrm {t e s t e r r o r}} \leq \underbrace {\hat {L} (\hat {h} _ {\mathrm {E R M}})} _ {\mathrm {t r a n i n g e r r o r}} + O _ {p} \left(\sqrt {\frac {\mathrm {C o m p l e x i t y} (\mathcal {H})}{n}}\right). \tag {2}
+\underbrace{L(\hat{h}_{\mathrm{ERM}})}_{\mathrm{test\ error}} \leq \underbrace{\hat{L}(\hat{h}_{\mathrm{ERM}})}_{\mathrm{training\ error}} + O_p\left(\sqrt{\frac{\mathrm{Complexity}(\mathcal{H})}{n}}\right). \tag{2}
 $$
 
 - The rate of convergence is governed by the complexity of  $\mathcal{H}$ . We will devote a good deal of time computing the complexity of various function classes  $\mathcal{H}$ . VC dimension, covering numbers, and Rademacher complexity are different ways of measuring how big a set of functions is. For example, we will see that if  $\mathcal{H}$  contains  $d$ -dimensional linear classifiers that are  $s$ -sparse, then  $\mathrm{Complexity}(\mathcal{H}) = O(s\log d)$ , which means we can tolerate exponentially more irrelevant features! All of these results are distribution-free, makes no assumptions on the underlying data-generating distribution!  
@@ -260,7 +260,7 @@ How do we evaluate?
 - Our primary aim is to upper bound the regret. For example, for finite  $\mathcal{H}$ , we will show:
 
 $$
-\operatorname {R e g r e t} \leq O (\sqrt {T \log | \mathcal {H} |}). \tag {3}
+\operatorname{Regret} \leq O(\sqrt{T \log |\mathcal{H}|}). \tag{3}
 $$
 
 Things to note:
@@ -279,7 +279,7 @@ Things to note:
 - Here's the basic question: Suppose we have data points drawn from an unknown distribution with parameters  $\theta^{*}$ :
 
 $$
-x ^ {(1)}, \dots , x ^ {(n)} \sim p _ {\theta^ {*}}. \tag {4}
+x^{(1)}, \dots, x^{(n)} \sim p_{\theta^*}. \tag{4}
 $$
 
 Can we come up with an estimate  $\hat{\theta}$  (some function of the data) that gets close to  $\theta^{*}$ ?
@@ -294,19 +294,19 @@ Can we come up with an estimate  $\hat{\theta}$  (some function of the data) tha
 - We warmup with a simple classic example from statistics. The goal is to estimate the mean of a Gaussian distribution. Suppose we have  $n$  i.i.d. samples from a Gaussian distribution with unknown mean  $\theta^{*} \in \mathbb{R}^{d}$  and known variance  $\sigma^2 I$  (so that each of the  $d$  components are independent):
 
 $$
-x ^ {(1)}, \dots , x ^ {(n)} \sim \mathcal {N} \left(\theta^ {*}, \sigma^ {2} I\right) \tag {5}
+x^{(1)}, \dots, x^{(n)} \sim \mathcal{N}\left(\theta^*, \sigma^2 I\right) \tag{5}
 $$
 
 - Define  $\hat{\theta}$  to be parameter estimate equal to the sample mean:
 
 $$
-\hat {\theta} = \frac {1}{n} \sum_ {i = 1} ^ {n} x ^ {(i)}. \tag {6}
+\hat{\theta} = \frac{1}{n} \sum_{i=1}^{n} x^{(i)}. \tag{6}
 $$
 
 - Let us study how this estimate  $\hat{\theta}$  deviates from the true parameter  $\theta$ :
 
 $$
-\hat {\theta} - \theta^ {*} \in \mathbb {R} ^ {d}. \tag {7}
+\hat{\theta} - \theta^* \in \mathbb{R}^d. \tag{7}
 $$
 
 This deviation is a random vector which should depend on the number of points  $n$  and the variance  $\sigma^2$ . What do you think the dependence will be?
@@ -316,7 +316,7 @@ This deviation is a random vector which should depend on the number of points  $
 - The sample mean estimate  $\hat{\theta}$  deviates from the true parameter  $\theta^{*}$  according to a Gaussian:
 
 $$
-\hat {\theta} - \theta^ {*} \sim \mathcal {N} \left(0, \frac {\sigma^ {2} I}{n}\right). \tag {8}
+\hat{\theta} - \theta^* \sim \mathcal{N}\left(0, \frac{\sigma^2 I}{n}\right). \tag{8}
 $$
 
 - FIGURE:  $[\hat{\theta}$  in a ball around  $\theta^{*}$  for  $d = 2]$
@@ -337,7 +337,7 @@ Proof of Lemma 1
 - Lemma 1 tells us how the entire estimated vector behaves, but sometimes it's convenient to just get one number that tells us how we're doing. Let's define the mean-squared parameter error, which is the squared distance between the estimate  $\hat{\theta}$  and the true parameter  $\theta^{*}$ :
 
 $$
-\left\| \hat {\theta} - \theta^ {*} \right\| _ {2} ^ {2}. \tag {9}
+\left\|\hat{\theta} - \theta^*\right\|_2^2. \tag{9}
 $$
 
 How do you think the parameter error behaves?
@@ -347,13 +347,13 @@ How do you think the parameter error behaves?
 - The mean-squared parameter error is:
 
 $$
-\left\| \hat {\theta} - \theta^ {*} \right\| _ {2} ^ {2} \sim \frac {\sigma^ {2}}{n} \chi_ {d} ^ {2}, \tag {10}
+\left\|\hat{\theta} - \theta^*\right\|_2^2 \sim \frac{\sigma^2}{n} \chi_d^2, \tag{10}
 $$
 
 and has expected value:
 
 $$
-\mathbb {E} \left[ \| \hat {\theta} - \theta \| _ {2} ^ {2} \right] = \frac {d \sigma^ {2}}{n}. \tag {11}
+\mathbb{E}\left[\|\hat{\theta} - \theta\|_2^2\right] = \frac{d\sigma^2}{n}. \tag{11}
 $$
 
 Proof of Lemma 2
@@ -361,11 +361,11 @@ Proof of Lemma 2
 - Standard properties of chi-squared distributions:
 
 $$
-* \text {I f} v _ {1}, \dots , v _ {d} \sim \mathcal {N} (0, 1), \text {t h e n} \sum_ {j = 1} ^ {d} v _ {j} ^ {2} \sim \chi_ {d} ^ {2}.
+* \text{If } v_1, \dots, v_d \sim \mathcal{N}(0, 1), \text{ then } \sum_{j=1}^{d} v_j^2 \sim \chi_d^2.
 $$
 
 $$
-* \text {I f} z \sim \chi_ {d} ^ {2}, \text {t h e n} \mathbb {E} [ z ] = d \text {a n d} \operatorname {V a r} [ z ] = 2 d.
+* \text{If } z \sim \chi_d^2, \text{ then } \mathbb{E}[z] = d \text{ and } \operatorname{Var}[z] = 2d.
 $$
 
 - By Lemma 1, we know that  $v = \sqrt{\frac{n}{\sigma^2}} (\hat{\theta} - \theta^*) \sim \mathcal{N}(0, I)$ .  
@@ -386,7 +386,7 @@ Takeaways
 - Suppose we have an unknown multinomial distribution over  $d$  choices:  $\theta^{*} \in \Delta_{d}$  (that is,  $\theta = [\theta_{1},\dots,\theta_{d}], \theta_{j} \geq 0$  for each  $j$  and  $\sum_{j=1}^{d} \theta_{j} = 1$ ). Suppose we have  $n$  i.i.d. samples from this unknown multinomial distribution
 
 $$
-x ^ {(1)}, \dots , x ^ {(n)} \sim \operatorname {M u l t i n o m i a l} \left(\theta^ {*}\right), \tag {12}
+x^{(1)}, \dots, x^{(n)} \sim \operatorname{Multinomial}\left(\theta^*\right), \tag{12}
 $$
 
 where each  $x^{(i)} \in \{e_1, \ldots, e_d\}$  and  $e_j \in \{0, 1\}^d$  is an indicator vector that is 1 at position  $j$  and 0 elsewhere.
@@ -394,26 +394,26 @@ where each  $x^{(i)} \in \{e_1, \ldots, e_d\}$  and  $e_j \in \{0, 1\}^d$  is an
 - Consider the empirical distribution as the estimator (same form as the sample mean):
 
 $$
-\hat {\theta} = \frac {1}{n} \sum_ {i = 1} ^ {n} x ^ {(i)}. \tag {13}
+\hat{\theta} = \frac{1}{n} \sum_{i=1}^{n} x^{(i)}. \tag{13}
 $$
 
 Example:
 
 $$
-\begin{array}{l} - \theta^ {*} = [ 0. 2, 0. 5, 0. 3 ] \\ - x ^ {(1)} = [ 0, 1, 0 ], x ^ {(2)} = [ 1, 0, 0 ], x ^ {(3)} = [ 0, 1, 0 ] \\ - \hat {\theta} = [ \frac {1}{3}, \frac {2}{3}, 0 ] \\ \end{array}
+\begin{array}{l} - \theta^* = [0.2, 0.5, 0.3] \\ - x^{(1)} = [0, 1, 0], x^{(2)} = [1, 0, 0], x^{(3)} = [0, 1, 0] \\ - \hat{\theta} = [\frac{1}{3}, \frac{2}{3}, 0] \\ \end{array}
 $$
 
 - We can now ask the same question as we did for Gaussian estimation: what is the parameter error  $\|\hat{\theta} - \theta^{*}\|_{2}^{2}$ ? Before we had gotten a chi-squared distribution because we had Gaussians and could work out everything in closed form. But now, we have multinomial distributions, which makes things more difficult to analyze. How do you think the parameter error will behave?  
 - Fortunately, not all hope is lost. Our strategy will be to study the asymptotic behavior of the estimators. By the central limit theorem, we have
 
 $$
-\sqrt {n} (\hat {\theta} - \theta^ {*}) \xrightarrow {d} \mathcal {N} (0, V), \tag {14}
+\sqrt{n} (\hat{\theta} - \theta^*) \xrightarrow{d} \mathcal{N}(0, V), \tag{14}
 $$
 
 where  $V \stackrel{\mathrm{def}}{=} \mathrm{diag}(\theta^{*}) - \theta^{*}(\theta^{*})^{\top}$  is the asymptotic variance of a single multinomial draw. Written out, the elements of  $V$  are:
 
 $$
-V _ {j k} = \left\{ \begin{array}{l l} \theta_ {j} ^ {*} \left(1 - \theta_ {j} ^ {*}\right) & \text {i f} j = k \\ - \theta_ {j} ^ {*} \theta_ {k} ^ {*} & \text {i f} j \neq k. \end{array} \right. \tag {15}
+V_{jk} = \left\{\begin{array}{ll} \theta_j^*(1 - \theta_j^*) & \text{if } j = k \\ - \theta_j^* \theta_k^* & \text{if } j \neq k. \end{array}\right. \tag{15}
 $$
 
 It is easy to check this by noticing that  $\mathbb{E}[x_j] = \mathbb{E}[x_j^2] = \theta_j^*$ ,  $\mathbb{E}[x_j x_k] = 0$  for  $j \neq k$ . Further sanity check:
@@ -424,7 +424,7 @@ It is easy to check this by noticing that  $\mathbb{E}[x_j] = \mathbb{E}[x_j^2] 
 - Next, we can apply the continuous mapping theorem on the function  $\| \cdot \|_2^2$  (see Appendix), which lets us transfer convergence results through continuous functions:
 
 $$
-n \| \hat {\theta} - \theta^ {*} \| _ {2} ^ {2} \xrightarrow {d} \operatorname {t r} (\mathcal {W} (V, 1)), \tag {16}
+n \|\hat{\theta} - \theta^*\|_2^2 \xrightarrow{d} \operatorname{tr}(\mathcal{W}(V, 1)), \tag{16}
 $$
 
 where  $\mathcal{W}(V,k)$  is the Wishart distribution (multivariate generalization of the chi-squared) with mean matrix  $V$  and  $k$  degrees of freedom. This follows because  $z\sim \mathcal{N}(0,V)$ , then  $zz^{\top}\sim \mathcal{W}(V,1)$ , and  $\| z\| _2^2 = \mathrm{tr}(zz^\top)$ .
@@ -432,13 +432,13 @@ where  $\mathcal{W}(V,k)$  is the Wishart distribution (multivariate generalizat
 - Taking expectations<sup>1</sup> and dividing by  $n$  on both sides yields:
 
 $$
-\begin{array}{l} \mathbb {E} \left[ \| \hat {\theta} - \theta^ {*} \| _ {2} ^ {2} \right] = \left(\sum_ {j = 1} ^ {d} \theta_ {j} ^ {*} \left(1 - \theta_ {j} ^ {*}\right)\right) \frac {1}{n} + o \left(\frac {1}{n}\right) (17) \\ \leq \boxed {\frac {1}{n} + o \left(\frac {1}{n}\right).} (18) \\ \end{array}
+\begin{array}{l} \mathbb{E}\left[\|\hat{\theta} - \theta^*\|_2^2\right] = \left(\sum_{j=1}^{d} \theta_j^*(1 - \theta_j^*)\right) \frac{1}{n} + o\left(\frac{1}{n}\right) \tag{17} \\ \leq \boxed{\frac{1}{n} + o\left(\frac{1}{n}\right).} \tag(18) \\ \end{array}
 $$
 
 - Note that the  $\frac{1}{n}$  term is independent of  $d$ , unlike in the Gaussian case, where the result was  $\frac{d\sigma^2}{n}$ . The difference is that in the Gaussian case, each dimension had standard deviation  $\sigma$ , whereas in the multinomial case here, it is about  $\sqrt{\frac{1}{d}}$  for the uniform distribution.
 
 $$
-[ \text {b e g i n l e c t u r e 2} ] \tag {2}
+[\text{begin lecture 2}] \tag{2}
 $$
 
 # 2.4 Exponential families (Lecture 2)

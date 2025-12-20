@@ -126,7 +126,7 @@ Specific types of continuous random variables include normal, exponential, beta,
 EXAMPLE 1.1.3: Let  $X$  be the amount of time in hours that an electrical component functions before breaking down. This random variable might have the pdf
 
 $$
-f (x) = \lambda \exp (- \lambda x)   I _ {[ 0, \infty)} (x) = \left\{ \begin{array}{l l} \lambda \exp (- \lambda x) & \text {i f} x \geq 0, \\ 0 & \text {i f} x <   0, \end{array} \right.
+f(x) = \lambda \exp(-\lambda x) I_{[0,\infty)}(x) = \left\{ \begin{array}{ll} \lambda \exp(-\lambda x) & \text{if } x \geq 0, \\ 0 & \text{if } x < 0, \end{array} \right.
 $$
 
 which we recognize as an exponential distribution. The probability that the part functions for at least  $c$  hours is  $P(X \geq 100) = \int_{c}^{\infty} f(x) \, dx = \exp(-c\lambda)$ .
@@ -147,7 +147,7 @@ Of course, we may write  $p_{\theta}^{(X)}(x)$  or  $f_{\theta}^{(X)}(x)$  when 
 Let  $X$  be a random variable, and let  $Y = g(X)$ , where  $g$  is some strictly increasing function. The cdf of  $Y$  can be easily obtained from the cdf of  $X$ :
 
 $$
-F ^ {(Y)} (y) = P \bigl (Y \leq y \bigr) = P \bigl [ g (X) \leq y \bigr ] = P \bigl [ X \leq g ^ {- 1} (y) \bigr ] = F ^ {(X)} \bigl [ g ^ {- 1} (y) \bigr ],
+F^{(Y)}(y) = P \bigl (Y \leq y \bigr) = P \bigl [ g(X) \leq y \bigr ] = P \bigl [ X \leq g^{-1}(y) \bigr ] = F^{(X)} \bigl [ g^{-1}(y) \bigr ],
 $$
 
 where  $g^{-1}$  denotes the inverse function of  $g$ .
@@ -155,13 +155,13 @@ where  $g^{-1}$  denotes the inverse function of  $g$ .
 - If  $X$  is discrete, then the pmf of  $Y$  is
 
 $$
-p ^ {(Y)} (y) = P (Y = y) = P [ g (X) = y ] = \sum_ {\{x \in \mathcal {X}: g (x) = y \}} P (X = x) = \sum_ {\{x \in \mathcal {X}: g (x) = y \}} p ^ {(X)} (x).
+p^{(Y)}(y) = P(Y = y) = P[g(X) = y] = \sum_{\{x \in \mathcal{X}: g(x) = y\}} P(X = x) = \sum_{\{x \in \mathcal{X}: g(x) = y\}} p^{(X)}(x).
 $$
 
 - If  $X$  is continuous, then the pdf of  $Y$  can be obtained by differentiating the cdf of  $Y$ :
 
 $$
-f ^ {(Y)} (y) = \frac {d}{d y} F ^ {(Y)} (y) = \left\{\left[ F ^ {(X)} \right] ^ {\prime} \left[ g ^ {- 1} (y) \right] \right\} \left\{\left(g ^ {- 1}\right) ^ {\prime} (y) \right\} = \frac {f ^ {(X)} \left[ g ^ {- 1} (y) \right]}{g ^ {\prime} \left[ g ^ {- 1} (y) \right]}.
+f^{(Y)}(y) = \frac{d}{dy} F^{(Y)}(y) = \left\{\left[ F^{(X)} \right]^{\prime} \left[ g^{-1}(y) \right] \right\} \left\{\left(g^{-1}\right)^{\prime}(y) \right\} = \frac{f^{(X)} \left[ g^{-1}(y) \right]}{g^{\prime} \left[ g^{-1}(y) \right]}.
 $$
 
 # Multiple Random Variables
@@ -175,21 +175,21 @@ Note: When we write  $p(x,y)$  without clarification, we mean the joint pmf  $p^
 - The marginal pmfs of  $X$  and  $Y$  are, respectively,
 
 $$
-p ^ {(X)} (x) = P (X = x) = \sum_ {y \in \mathcal {Y}} P (X = x, Y = y) = \sum_ {y \in \mathcal {Y}} p ^ {(X, Y)} (x, y),
+p^{(X)}(x) = P(X = x) = \sum_{y \in \mathcal{Y}} P(X = x, Y = y) = \sum_{y \in \mathcal{Y}} p^{(X,Y)}(x,y),
 $$
 
 $$
-p ^ {(Y)} (y) = P (Y = y) = \sum_ {x \in \mathcal {X}} P (X = x, Y = y) = \sum_ {x \in \mathcal {X}} p ^ {(X, Y)} (x, y).
+p^{(Y)}(y) = P(Y = y) = \sum_{x \in \mathcal{X}} P(X = x, Y = y) = \sum_{x \in \mathcal{X}} p^{(X,Y)}(x,y).
 $$
 
 - The conditional pmfs of  $X$  given  $Y$  and of  $Y$  given  $X$  are, respectively,
 
 $$
-p ^ {(X | Y)} (x \mid y) = P (X = x \mid Y = y) = \frac {P (X = x , Y = y)}{P (Y = y)} = \frac {p ^ {(X , Y)} (x , y)}{p ^ {(Y)} (y)},
+p^{(X|Y)}(x \mid y) = P(X = x \mid Y = y) = \frac{P(X = x, Y = y)}{P(Y = y)} = \frac{p^{(X,Y)}(x,y)}{p^{(Y)}(y)},
 $$
 
 $$
-p ^ {(Y \mid X)} (y \mid x) = P (Y = y \mid X = x) = \frac {P (X = x , Y = y)}{P (X = x)} = \frac {p ^ {(X , Y)} (x , y)}{p ^ {(X)} (x)}.
+p^{(Y|X)}(y \mid x) = P(Y = y \mid X = x) = \frac{P(X = x, Y = y)}{P(X = x)} = \frac{p^{(X,Y)}(x,y)}{p^{(X)}(x)}.
 $$
 
 Now let  $X$  and  $Y$  be continuous random variables instead.
@@ -197,7 +197,7 @@ Now let  $X$  and  $Y$  be continuous random variables instead.
 - The joint pdf of  $X$  and  $Y$  is a nonnegative function  $f^{(X,Y)}(x,y)$  such that
 
 $$
-\iint_ {A} f ^ {(X, Y)} (x, y) d x d y = P [ (X, Y) \in A ] \qquad \mathrm {f o r a n y s e t} A \subset \mathbb {R} ^ {2} .
+\iint_A f^{(X,Y)}(x,y) \, dx \, dy = P[(X,Y) \in A] \qquad \text{for any set } A \subset \mathbb{R}^2.
 $$
 
 Note: When we write  $f(x,y)$  without clarification, we mean the joint pdf  $f^{(X,Y)}(x,y)$ .
@@ -205,19 +205,19 @@ Note: When we write  $f(x,y)$  without clarification, we mean the joint pdf  $f^
 - The marginal pdfs of  $X$  and  $Y$  are, respectively,
 
 $$
-f ^ {(X)} (x) = \int_ {- \infty} ^ {\infty} f ^ {(X, Y)} (x, y) d y, \quad f ^ {(Y)} (y) = \int_ {- \infty} ^ {\infty} f ^ {(X, Y)} (x, y) d x.
+f^{(X)}(x) = \int_{-\infty}^{\infty} f^{(X,Y)}(x,y) \, dy, \quad f^{(Y)}(y) = \int_{-\infty}^{\infty} f^{(X,Y)}(x,y) \, dx.
 $$
 
 - The conditional pdfs of  $X$  given  $Y$  and of  $Y$  given  $X$  are, respectively,
 
 $$
-f ^ {(X | Y)} (x \mid y) = \frac {f ^ {(X , Y)} (x , y)}{f ^ {(Y)} (y)}, \qquad f ^ {(Y | X)} (y \mid x) = \frac {f ^ {(X , Y)} (x , y)}{f ^ {(X)} (x)}.
+f^{(X|Y)}(x \mid y) = \frac{f^{(X,Y)}(x,y)}{f^{(Y)}(y)}, \qquad f^{(Y|X)}(y \mid x) = \frac{f^{(X,Y)}(x,y)}{f^{(X)}(x)}.
 $$
 
 Note: It may seem intuitively reasonable to think of  $f^{(X|Y)}(x \mid y)$  as "the pdf of  $X$  given that  $Y = y$ ," so that  $\int_{A} f^{(X|Y)}(x \mid y) \, dx = P(X \in A \mid Y = y)$  for any set  $A \subset \mathbb{R}$ . However, this is not technically correct. The quantity  $P(X \in A \mid Y = y)$  cannot even be properly defined using our definition of conditional probability:
 
 $$
-P (X \in A \mid Y = y) = \frac {P (X \in A , Y = y)}{P (Y = y)} = \frac {0}{0}
+P(X \in A \mid Y = y) = \frac{P(X \in A, Y = y)}{P(Y = y)} = \frac{0}{0}
 $$
 
 since  $Y$  is a continuous random variable. See the note on page 146 of DeGroot and Schervish for additional explanation of what conditional pdfs actually represent.
@@ -245,7 +245,7 @@ If the positive part yields  $\infty$  and the negative part yields  $-\infty$ ,
 EXAMPLE 1.2.1: Let  $X$  have a  $t$  distribution with one degree of freedom (also known as a Cauchy distribution), which has the pdf  $f(x) = [\pi(1 + x^2)]^{-1}$  for all  $x \in \mathbb{R}$ . Since the pdf is symmetric about zero, it might seem as though  $E(X)$  should be zero. However, this is false:
 
 $$
-E (X) = \int_ {- \infty} ^ {\infty} \frac {x}{\pi (1 + x ^ {2})} d x = \underbrace {\int_ {0} ^ {\infty} \frac {x}{\pi (1 + x ^ {2})} d x} _ {\mathrm {p o s i t i v e p a r t}} + \underbrace {\int_ {- \infty} ^ {0} \frac {x}{\pi (1 + x ^ {2})} d x} _ {\mathrm {n e g a t i v e p a r t}} = \infty - \infty .
+E(X) = \int_{-\infty}^{\infty} \frac{x}{\pi(1 + x^2)} \, dx = \underbrace{\int_0^{\infty} \frac{x}{\pi(1 + x^2)} \, dx}_{\text{positive part}} + \underbrace{\int_{-\infty}^0 \frac{x}{\pi(1 + x^2)} \, dx}_{\text{negative part}} = \infty - \infty.
 $$
 
 Thus,  $E(X)$  does not exist.
@@ -281,7 +281,7 @@ Note: If either  $E[g(X)]$  or  $E[h(Y)]$  does not exist, then  $\operatorname{
 The variance is simply a special case of the covariance:
 
 $$
-\begin{array}{l} \operatorname {V a r} [ g (X) ] = E \left\{\left[ g (X) \right] ^ {2} \right\} - \left\{E [ g (X) ] \right\} ^ {2} = E [ g (X) g (X) ] - E [ g (X) ] E [ g (X) ] \\ = \operatorname {C o v} [ g (X), g (X) ]. \\ \end{array}
+\begin{array}{l} \operatorname{Var}[g(X)] = E\{[g(X)]^2\} - \{E[g(X)]\}^2 = E[g(X)g(X)] - E[g(X)]E[g(X)] \\ = \operatorname{Cov}[g(X), g(X)]. \\ \end{array}
 $$
 
 We will write  $\operatorname{Cov}_{\theta}[g(X), h(Y)]$  when necessary to explicitly indicate the dependence of the covariance on a parameter value  $\theta$ .
@@ -305,7 +305,7 @@ $\operatorname {Cov}[a + bg(X),h(Y)] = \operatorname {Cov}[g(X),a + bh(Y)] = b\o
 If  $\operatorname{Var}[g(X)] < \infty$  and  $\operatorname{Var}[h(Y)] < \infty$ , then  $\operatorname{Cov}[g(X), h(Y)]$  exists and is finite, and
 
 $$
-\left| \operatorname {C o v} [ g (X), h (Y) ] \right| \leq \sqrt {\operatorname {V a r} [ g (X) ] \operatorname {V a r} [ h (Y) ]},
+\left|\operatorname{Cov}[g(X), h(Y)]\right| \leq \sqrt{\operatorname{Var}[g(X)]\operatorname{Var}[h(Y)]},
 $$
 
 with equality if and only if  $g(X) = a + bh(Y)$  with probability 1 for some constants  $a$  and  $b$ .
@@ -317,7 +317,7 @@ Note: The Cauchy-Schwarz inequality is actually a much more general result than 
 The expectation  $E[g(X)]$  is computed using the pmf or pdf of  $X$ . We may also wish to consider the expectation of  $g(X)$  conditional on the value of some other random variable  $Y$ . We call this the conditional expectation of  $g(X)$  given  $Y = y$  and compute it using the conditional pmf or pdf of  $X$  given  $Y = y$ :
 
 $$
-E \left[ g (X) \mid Y = y \right] = \sum_ {x \in \mathcal {X}} g (x) p ^ {(X | Y)} (x \mid y) \quad \text {o r} \quad E \left[ g (X) \mid Y = y \right] = \int_ {- \infty} ^ {\infty} g (x) f ^ {(X | Y)} (x \mid y) d x.
+E[g(X) \mid Y = y] = \sum_{x \in \mathcal{X}} g(x) p^{(X|Y)}(x \mid y) \quad \text{or} \quad E[g(X) \mid Y = y] = \int_{-\infty}^{\infty} g(x) f^{(X|Y)}(x \mid y) \, dx.
 $$
 
 Notice that computing  $E[g(X) \mid Y = y]$  yields a function of  $y$ , not a random variable. However, we can consider plugging the random variable  $Y$  into this function, which does yield a random variable. This random variable is what we mean when we write  $E[g(X) \mid Y]$ .
@@ -327,7 +327,7 @@ Note: A formal treatment of conditional expectation is a bit more complicated th
 Similarly, the conditional variance of  $g(X)$  is
 
 $$
-\operatorname {V a r} \left[ g (X) \mid Y = y \right] = E \left\{\left[ g (X) \right] ^ {2} \mid Y = y \right\} - \left\{E \left[ g (X) \mid Y = y \right] \right\} ^ {2}.
+\operatorname{Var}[g(X) \mid Y = y] = E\{[g(X)]^2 \mid Y = y\} - \{E[g(X) \mid Y = y]\}^2.
 $$
 
 Again, we might consider either  $\operatorname{Var}[g(X) \mid Y = y]$ , which is a function of  $y$ , or  $\operatorname{Var}[g(X) \mid Y]$ , which is this same function evaluated at  $Y$  (yielding a random variable).
@@ -344,7 +344,7 @@ These results are also sometimes called the law of total expectation and law of 
 EXAMPLE 1.2.2: Let  $X$  be the number of heads in  $Y$  independent flips of a fair coin, and let  $Y$  have a discrete uniform distribution on  $\{1, \ldots, 5\}$ . Then  $p^{(X|Y)}(x \mid y)$  is the pmf of a  $\operatorname{Bin}(y, 1/2)$  distribution, so  $E(X \mid Y = y) = y/2$  and  $\operatorname{Var}(X \mid Y = y) = y/4$  by standard results that we can look up. Also,  $E(Y) = 3$  and  $\operatorname{Var}(Y) = 2$ , again by standard results. Then
 
 $$
-\begin{array}{l} E (X) = E [ E (X \mid Y) ] = E (Y / 2) = E (Y) / 2 = 3 / 2, \\ \operatorname {V a r} (X) = E [ \operatorname {V a r} (X \mid Y) ] + \operatorname {V a r} [ E (X \mid Y) ] \\ = E (Y / 4) + \operatorname {V a r} (Y / 2) = E (Y) / 4 + \operatorname {V a r} (Y) / 4 = 3 / 4 + 2 / 4 = 5 / 4. \\ \end{array}
+\begin{array}{l} E(X) = E[E(X \mid Y)] = E(Y/2) = E(Y)/2 = 3/2, \\ \operatorname{Var}(X) = E[\operatorname{Var}(X \mid Y)] + \operatorname{Var}[E(X \mid Y)] \\ = E(Y/4) + \operatorname{Var}(Y/2) = E(Y)/4 + \operatorname{Var}(Y)/4 = 3/4 + 2/4 = 5/4. \\ \end{array}
 $$
 
 We could have obtained the same results without using these formulas, but the calculations would have been considerably more tedious.  $\diamond$
@@ -404,7 +404,7 @@ Let  $\{Y_{n}:n\geq 1\}$  be a sequence of random variables such that  $\sqrt{n}
 - First, note that since  $1 / \sqrt{n} \to 0$ ,
 
 $$
-Y _ {n} - a = \left(1 / \sqrt {n}\right)\left[ \sqrt {n} \left(Y _ {n} - a\right)\right]\rightarrow_ {D} 0 \cdot Z = 0
+Y_n - a = \left(1/\sqrt{n}\right)\left[\sqrt{n}(Y_n - a)\right] \rightarrow_D 0 \cdot Z = 0
 $$
 
 by Slutsky's theorem. Thus,  $Y_{n} \to_{D} a$ , and hence  $Y_{n} \to_{P} a$ .
@@ -414,7 +414,7 @@ by Slutsky's theorem. Thus,  $Y_{n} \to_{D} a$ , and hence  $Y_{n} \to_{P} a$ .
 However, we can do better than this. Suppose  $g$  is differentiable at  $a$ , so that we may write  $g(Y_{n}) - g(a)\approx g^{\prime}(a)(Y_{n} - a)$  (a first-order Taylor expansion). Then by Slutsky's theorem,
 
 $$
-\sqrt {n} \big [ g (Y _ {n}) - g (a) \big ] \approx g ^ {\prime} (a) \sqrt {n} (Y _ {n} - a) \rightarrow_ {D} g ^ {\prime} (a) Z.
+\sqrt{n}[g(Y_n) - g(a)] \approx g^{\prime}(a)\sqrt{n}(Y_n - a) \rightarrow_D g^{\prime}(a)Z.
 $$
 
 This is the basic idea of a technique called the delta method.
@@ -432,7 +432,7 @@ Proof. Take  $Z \sim N(0, \tau^2)$  in Theorem 1.3.7.
 EXAMPLE 1.3.9: Suppose  $X_1, X_2, \ldots$  are iid from the continuous uniform distribution on  $[0,60]$ , and we want to find the asymptotic distribution of  $(\overline{X}_n)^{-1}$ . We have  $E(X_1) = 30$  and  $\operatorname{Var}(X_1) = 300$ , so  $\sqrt{n} (\overline{X}_n - 30) \to_D N(0,300)$  by the CLT. Our function is  $g(t) = t^{-1}$ , and  $g(30) = 1/30$ . Its derivative is  $g'(t) = -t^{-2}$ , which is continuous at 30, and  $g'(30) = -1/900$ . Then by the Delta Method,
 
 $$
-\sqrt {n} \Big [ \left(\overline {{X}} _ {n}\right) ^ {- 1} - \frac {1}{3 0} \Big ] \rightarrow_ {D} N (0, 1 / 2 7 0 0),
+\sqrt{n}\Big[\left(\overline{X}_n\right)^{-1} - \frac{1}{30}\Big] \rightarrow_D N(0, 1/2700),
 $$
 
 noting that  $300(-1 / 900)^2 = 1 / 2700$ . Thus, for large  $n$ ,  $(\overline{X}_n)^{-1}$  is approximately normal, with mean  $1 / 30$  and variance  $1 / (2700n)$ .
@@ -467,7 +467,7 @@ Let  $\mathbf{Z}$  be a random vector, with  $\pmb{\theta} = E(\pmb{Z})$  and  $
 - If  $V$  is nonsingular, then the elements  $Z_{1},\ldots ,Z_{p}$  of  $\mathbf{Z}$  have joint pdf
 
 $$
-f (z _ {1}, \ldots , z _ {p}) = \frac {1}{(2 \pi) ^ {p / 2} \det {\pmb V} ^ {1 / 2}} \exp \biggl [ - \frac {1}{2} (\pmb z - \pmb \theta) ^ {T} \pmb V ^ {- 1} (\pmb z - \pmb \theta) \biggr ].
+f(z_1, \ldots, z_p) = \frac{1}{(2\pi)^{p/2} (\det \pmb{V})^{1/2}} \exp\biggl[-\frac{1}{2}(\pmb{z} - \pmb{\theta})^T \pmb{V}^{-1}(\pmb{z} - \pmb{\theta})\biggr].
 $$
 
 -  $Z_{i}$  and  $Z_{j}$  are independent if and only if  $V_{ij} = \operatorname{Cov}(Z_{i}, Z_{j}) = 0$ .
@@ -487,7 +487,7 @@ Lemma 2.1.2. The  $\chi_p^2$  distribution is the Gamma  $(p / 2, 1 / 2)$  distr
 Proof. First, note that the pdf of each  $Z_{i}^{2}$  is
 
 $$
-f ^ {(Z _ {i} ^ {2})} (u) = \frac {2 f ^ {(Z _ {i})} (\sqrt {u})}{2 \sqrt {u}} = \frac {1}{\sqrt {2 \pi u}} \exp \left(- \frac {u}{2}\right) = \frac {(1 / 2) ^ {1 / 2}}{\Gamma (1 / 2)} u ^ {- 1 / 2} \exp \left(- \frac {u}{2}\right),
+f^{(Z_i^2)}(u) = \frac{2f^{(Z_i)}(\sqrt{u})}{2\sqrt{u}} = \frac{1}{\sqrt{2\pi u}} \exp\left(-\frac{u}{2}\right) = \frac{(1/2)^{1/2}}{\Gamma(1/2)} u^{-1/2} \exp\left(-\frac{u}{2}\right),
 $$
 
 for  $u > 0$  and zero otherwise, which is the pdf of a Gamma(1/2, 1/2) distribution. Then since  $Z_1^2, \ldots, Z_p^2 \sim \mathrm{iid} \, \mathrm{Gamma}(1/2, 1/2)$ , their sum is  $\sum_{i=1}^{p} Z_i^2 \sim \mathrm{Gamma}(p/2, 1/2)$ . (This result for the gamma distribution is stated and proven as Theorem 5.7.7 of DeGroot & Schervish.)
@@ -499,7 +499,7 @@ The  $\chi_p^2$  distribution has expectation  $p$  and variance  $2p$ .
 Let  $X_{1},\ldots ,X_{n}\sim \mathrm{iid}N(\mu ,\sigma^{2})$  . Two commonly calculated summary statistics are
 
 $$
-\overline {{X}} = \frac {1}{n} \sum_ {i = 1} ^ {n} X _ {i}, \qquad S ^ {2} = \frac {1}{n - 1} \sum_ {i = 1} ^ {n} \left(X _ {i} - \overline {{X}}\right) ^ {2} = \frac {1}{n - 1} \left[ \sum_ {i = 1} ^ {n} X _ {i} ^ {2} - \left(\overline {{X}}\right) ^ {2} \right], \qquad (2. 1. 1)
+\overline{X} = \frac{1}{n}\sum_{i=1}^n X_i, \qquad S^2 = \frac{1}{n-1}\sum_{i=1}^n (X_i - \overline{X})^2 = \frac{1}{n-1}\left[\sum_{i=1}^n X_i^2 - \left(\overline{X}\right)^2\right], \qquad (2.1.1)
 $$
 
 called (respectively) the sample mean and sample variance. By basic results on the normal distribution, it is clear that  $\overline{X} \sim N(\mu, \sigma^2 / n)$ . The distribution of  $S^2$ , as well as the joint distribution of  $\overline{X}$  and  $S^2$ , is provided by the following theorem.

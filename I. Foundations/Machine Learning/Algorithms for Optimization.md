@@ -69,265 +69,35 @@ Preface XV
 
 Acknowledgments XVII
 
-1 Introduction 1
+1 Introduction 11.1 A History 21.2 Optimization Process 41.3 Mathematical Formulation 51.4 Applications 71.5 Minima 101.6 Optimality Conditions 101.7 Overview 151.8 Summary 191.9 Exercises 202 Derivatives and Gradients 232.1 Derivatives 232.2 Derivatives in Multiple Dimensions 252.3 Numerical Differentiation 262.4 Automatic Differentiation 292.5 Regression Gradient 352.6 Simultaneous Perturbation Stochastic Gradient Approximation 362.7 Summary 372.8 Exercises 38
 
-1.1 A History 2  
-1.2 Optimization Process 4  
-1.3 Mathematical Formulation 5  
-1.4 Applications 7  
-1.5 Minima 10  
-1.6 Optimality Conditions 10  
-1.7 Overview 15  
-1.8 Summary 19  
-1.9 Exercises 20
+# 3 Bracketing 433.1 Unimodality 433.2 Finding an Initial Bracket 433.3 Fibonacci Search 453.4 Golden Section Search 473.5 Quadratic Fit Search 513.6 Shubert-Piyavskii Method 533.7 Bisection Method 573.8 Summary 593.9 Exercises 59
 
-2 Derivatives and Gradients 23
+# 4 Local Descent 614.1 Descent Direction Iteration 614.2 Step Factors 624.3 Line Search 634.4 Approximate Line Search 634.5 Trust Region Methods 704.6 Termination Conditions 724.7 Summary 734.8 Exercises 73
 
-2.1 Derivatives 23  
-2.2 Derivatives in Multiple Dimensions 25  
-2.3 Numerical Differentiation 26  
-2.4 Automatic Differentiation 29  
-2.5 Regression Gradient 35  
-2.6 Simultaneous Perturbation Stochastic Gradient Approximation 36  
-2.7 Summary 37  
-2.8 Exercises 38
+# 5 First-Order Methods 755.1 Gradient Descent 755.2 Conjugate Gradient 775-3 Momentum 795.4 Nesterov Momentum 805.5 AdaGrad 805.6 RMSProp 825.7 Adadelta 825.8 Adam 845.9 Hypergradient Descent 845.10 Summary 875.11 Exercises 87
 
-# 3 Bracketing 43
+# 6 Second-Order Methods 916.1 Newton's Method 916.2 Secant Method 936.3 Levenberg-Marquardt Algorithm 966.4 Levenberg-Marquardt for Sum of Squares 986.5 Quasi-Newton Methods 996.6 Summary 1026.7 Exercises 102
 
-3.1 Unimodality 43  
-3.2 Finding an Initial Bracket 43  
-3.3 Fibonacci Search 45  
-3.4 Golden Section Search 47  
-3.5 Quadratic Fit Search 51  
-3.6 Shubert-Piyavskii Method 53  
-3.7 Bisection Method 57  
-3.8 Summary 59  
-3.9 Exercises 59
+# 7 Direct Methods 1097.1 Cyclic Coordinate Search 1097.2 Powell's Method 1117.3 Hooke-Jeeves 1127.4 Generalized Pattern Search 1137.5 Nelder-Mead Simplex Method 1157.6 Divided Rectangles 1207.7 Summary 1277.8 Exercises 127
 
-# 4 Local Descent 61
+# 8 Stochastic Methods 1318.1 Noisy Descent 1318.2 Mesh Adaptive Direct Search 1328.3 Memory-Efficient Zeroth-Order Optimization 1348.4 Simulated Annealing 1368.5 Cross-Entropy Method 1408.6 Natural Evolution Strategies 1448.7 Covariance Matrix Adaptation 1458.8 Summary 1498.9 Exercises 152
 
-4.1 Descent Direction Iteration 61  
-4.2 Step Factors 62  
-4.3 Line Search 63  
-4.4 Approximate Line Search 63  
-4.5 Trust Region Methods 70  
-4.6 Termination Conditions 72  
-4.7 Summary 73  
-4.8 Exercises 73
+# 9 Population Methods 1579.1 Population Iteration 1579.2 Genetic Algorithms 1589.3 Differential Evolution 1669.4 Particle Swarm Optimization 1669.5 Firefly Algorithm 1689.6 Cuckoo Search 1719.7 Hybrid Methods 1739.8 Summary 1739.9 Exercises 175
 
-# 5 First-Order Methods 75
+# 10Constraints 17710.1 Constrained Optimization 17710.2 Constraint Types 17810.3 Transformations to Remove Constraints 17910.4 Removing Affine Equality Constraints 18110.5 Lagrange Multipliers 18210.6 InequalityConstraints 18510.7 Slack Variables 18810.8 Penalty Methods 18810.9 Method of Multipliers 19110.10 Interior Point Methods 19110.11 Summary 19410.12 Exercises 194
 
-5.1 Gradient Descent 75  
-5.2 Conjugate Gradient 77  
-5-3 Momentum 79  
-5.4 Nesterov Momentum 80  
-5.5 AdaGrad 80  
-5.6 RMSProp 82  
-5.7 Adadelta 82  
-5.8 Adam 84  
-5.9 Hypergradient Descent 84  
-5.10 Summary 87  
-5.11 Exercises 87
+# 11 Duality 20111.1 Dual Problem 20111.2 Primal-Dual Methods 20511.3 Dual Ascent 20811.4 Alternating Direction Method of Multipliers 21111.5 ADMM Applications 21511.6 Distributed Methods 22611.7 Summary 23111.8 Exercises 231
 
-# 6 Second-Order Methods 91
+# 12 Linear Programming 24112.1 Problem Formulation 24112.2 Simplex Algorithm 24712.3 Dual Certificates 25812.4 Summary 26112.5 Exercises 261
 
-6.1 Newton's Method 91  
-6.2 Secant Method 93  
-6.3 Levenberg-Marquardt Algorithm 96  
-6.4 Levenberg-Marquardt for Sum of Squares 98  
-6.5 Quasi-Newton Methods 99  
-6.6 Summary 102  
-6.7 Exercises 102
+# 13 Quadratic Programming 26513.1 Problem Formulation 26513.2 Unconstrained Least Squares Problems 26613.3 Least Squares with Linear Inequalities 27013.4 Least Distance Programming 27313.5 Nonnegative Least Squares 27413.6 Solving Least Distance Programs 27613.7 Dual Certificates 28013.8 Summary 28213.9 Exercises 283
 
-# 7 Direct Methods 109
+# 14 Disciplined Convex Programming 28914.1 Canonical Form 28914.2 Verification 29014.3 Canonicalization 29914.4 Solving 30614.5 Summary 30914.6 Exercises 309
 
-7.1 Cyclic Coordinate Search 109  
-7.2 Powell's Method 111  
-7.3 Hooke-Jeeves 112  
-7.4 Generalized Pattern Search 113  
-7.5 Nelder-Mead Simplex Method 115  
-7.6 Divided Rectangles 120  
-7.7 Summary 127  
-7.8 Exercises 127
+# 15 Multiobjective Optimization 31715.1 Pareto Optimality 31715.2 Constraint Methods 32215.3 Weight Methods 32415.4 Multiobjective Population Methods 32715.5 Preference Elicitation 33315.6 Summary 33715.7 Exercises 338
 
-# 8 Stochastic Methods 131
-
-8.1 Noisy Descent 131  
-8.2 Mesh Adaptive Direct Search 132  
-8.3 Memory-Efficient Zeroth-Order Optimization 134  
-8.4 Simulated Annealing 136  
-8.5 Cross-Entropy Method 140  
-8.6 Natural Evolution Strategies 144  
-8.7 Covariance Matrix Adaptation 145  
-8.8 Summary 149  
-8.9 Exercises 152
-
-# 9 Population Methods 157
-
-9.1 Population Iteration 157  
-9.2 Genetic Algorithms 158  
-9.3 Differential Evolution 166  
-9.4 Particle Swarm Optimization 166  
-9.5 Firefly Algorithm 168  
-9.6 Cuckoo Search 171  
-9.7 Hybrid Methods 173  
-9.8 Summary 173  
-9.9 Exercises 175
-
-# 10Constraints 177
-
-10.1 Constrained Optimization 177  
-10.2 Constraint Types 178  
-10.3 Transformations to Remove Constraints 179  
-10.4 Removing Affine Equality Constraints 181  
-10.5 Lagrange Multipliers 182  
-10.6 InequalityConstraints 185  
-10.7 Slack Variables 188  
-10.8 Penalty Methods 188  
-10.9 Method of Multipliers 191  
-10.10 Interior Point Methods 191  
-10.11 Summary 194  
-10.12 Exercises 194
-
-# 11 Duality 201
-
-11.1 Dual Problem 201  
-11.2 Primal-Dual Methods 205  
-11.3 Dual Ascent 208  
-11.4 Alternating Direction Method of Multipliers 211  
-11.5 ADMM Applications 215  
-11.6 Distributed Methods 226  
-11.7 Summary 231  
-11.8 Exercises 231
-
-# 12 Linear Programming 241
-
-12.1 Problem Formulation 241  
-12.2 Simplex Algorithm 247  
-12.3 Dual Certificates 258  
-12.4 Summary 261  
-12.5 Exercises 261
-
-# 13 Quadratic Programming 265
-
-13.1 Problem Formulation 265  
-13.2 Unconstrained Least Squares Problems 266  
-13.3 Least Squares with Linear Inequalities 270  
-13.4 Least Distance Programming 273
-
-13.5 Nonnegative Least Squares 274  
-13.6 Solving Least Distance Programs 276  
-13.7 Dual Certificates 280  
-13.8 Summary 282  
-13.9 Exercises 283
-
-# 14 Disciplined Convex Programming 289
-
-14.1 Canonical Form 289  
-14.2 Verification 290  
-14.3 Canonicalization 299  
-14.4 Solving 306  
-14.5 Summary 309  
-14.6 Exercises 309
-
-# 15 Multiobjective Optimization 317
-
-15.1 Pareto Optimality 317  
-15.2 Constraint Methods 322  
-15.3 Weight Methods 324  
-15.4 Multiobjective Population Methods 327  
-15.5 Preference Elicitation 333  
-15.6 Summary 337  
-15.7 Exercises 338
-
-# 16 Sampling Plans 343
-
-16.1 Full Factorial 343  
-16.2 Random Sampling 344  
-16.3 Uniform Projection Plans 345  
-16.4 Stratified Sampling 346  
-16.5 Space-Filling Metrics 346  
-16.6 Space-Filling Subsets 350  
-16.7 Quasi-Random Sequences 353  
-16.8 Summary 355  
-16.9 Exercises 357
-
-17 Surrogate Models 359
-
-17.1 Fitting Surrogate Models 359  
-17.2 Linear Models 360  
-17.3 Basis Functions 361  
-17.4 Fitting Noisy Objective Functions 366  
-17.5 Model Selection 369  
-17.6 Multifidelity Surrogate Models 378  
-17.7 Summary 379  
-17.8 Exercises 379
-
-18 Probabilistic Surrogate Models 383
-
-18.1 Gaussian Distribution 383  
-18.2 Gaussian Processes 385  
-18.3 Prediction 388  
-18.4 Gradient Measurements 390  
-18.5 Noisy Measurements 393  
-18.6 Fitting Gaussian Processes 395  
-18.7 Summary 395  
-18.8 Exercises 396
-
-19 Surrogate Optimization 405
-
-19.1 Prediction-Based Exploration 405  
-19.2 Error-Based Exploration 406  
-19.3 Lower Confidence Bound Exploration 407  
-19.4 Probability of Improvement Exploration 407  
-19.5 Expected Improvement Exploration 408  
-19.6 Safe Optimization 410  
-19.7 Summary 418  
-19.8 Exercises 418
-
-20 Optimization under Uncertainty 421
-
-20.1 Uncertainty 421  
-20.2 Set-Based Uncertainty 423  
-20.3 Probabilistic Uncertainty 426  
-20.4 Summary 433  
-20.5 Exercises 433
-
-21 Uncertainty Propagation 437  
-21.1 Sampling Methods 437  
-21.2 Taylor Approximation 438  
-21.3 Polynomial Chaos 439  
-21.4 Bayesian Monte Carlo 449  
-21.5 Summary 451  
-21.6 Exercises 453  
-22 Discrete Optimization 457  
-22.1 Integer Programs 458  
-22.2 Rounding 459  
-22.3 Cutting Planes 460  
-22.4 Branch and Bound 465  
-22.5 Dynamic Programming 468  
-22.6 Ant Colony Optimization 471  
-22.7 Summary 475  
-22.8 Exercises 475  
-23 Expression Optimization 483  
-23.1 Grammars 483  
-23.2 Genetic Programming 487  
-23.3 Grammatical Evolution 491  
-23.4 Probabilistic Grammars 495  
-23.5 Probabilistic Prototype Trees 496  
-23.6 Summary 503  
-23.7 Exercises 504  
-24 Multidisciplinary Optimization 509  
-24.1 Disciplinary Analyses 509  
-24.2 Interdisciplinary Compatibility 511  
-24.3 Architectures 515  
-24.4 Multidisciplinary Design Feasible 515  
-24.5 Sequential Optimization 518  
-24.6 Individual Discipline Feasible 520  
-24.7 Collaborative Optimization 525  
-24.8 Simultaneous Analysis and Design 528  
-24.9 Summary 529  
-24.10 Exercises 530
+# 16 Sampling Plans 34316.1 Full Factorial 34316.2 Random Sampling 34416.3 Uniform Projection Plans 34516.4 Stratified Sampling 34616.5 Space-Filling Metrics 34616.6 Space-Filling Subsets 35016.7 Quasi-Random Sequences 35316.8 Summary 35516.9 Exercises 35717 Surrogate Models 35917.1 Fitting Surrogate Models 35917.2 Linear Models 36017.3 Basis Functions 36117.4 Fitting Noisy Objective Functions 36617.5 Model Selection 36917.6 Multifidelity Surrogate Models 37817.7 Summary 37917.8 Exercises 37918 Probabilistic Surrogate Models 38318.1 Gaussian Distribution 38318.2 Gaussian Processes 38518.3 Prediction 38818.4 Gradient Measurements 39018.5 Noisy Measurements 39318.6 Fitting Gaussian Processes 39518.7 Summary 39518.8 Exercises 39619 Surrogate Optimization 40519.1 Prediction-Based Exploration 40519.2 Error-Based Exploration 40619.3 Lower Confidence Bound Exploration 40719.4 Probability of Improvement Exploration 40719.5 Expected Improvement Exploration 40819.6 Safe Optimization 41019.7 Summary 41819.8 Exercises 41820 Optimization under Uncertainty 42120.1 Uncertainty 42120.2 Set-Based Uncertainty 42320.3 Probabilistic Uncertainty 42620.4 Summary 43320.5 Exercises 43321 Uncertainty Propagation 43721.1 Sampling Methods 43721.2 Taylor Approximation 43821.3 Polynomial Chaos 43921.4 Bayesian Monte Carlo 44921.5 Summary 45121.6 Exercises 45322 Discrete Optimization 45722.1 Integer Programs 45822.2 Rounding 45922.3 Cutting Planes 46022.4 Branch and Bound 46522.5 Dynamic Programming 46822.6 Ant Colony Optimization 47122.7 Summary 47522.8 Exercises 47523 Expression Optimization 48323.1 Grammars 48323.2 Genetic Programming 48723.3 Grammatical Evolution 49123.4 Probabilistic Grammars 49523.5 Probabilistic Prototype Trees 49623.6 Summary 50323.7 Exercises 50424 Multidisciplinary Optimization 50924.1 Disciplinary Analyses 50924.2 Interdisciplinary Compatibility 51124.3 Architectures 51524.4 Multidisciplinary Design Feasible 51524.5 Sequential Optimization 51824.6 Individual Discipline Feasible 52024.7 Collaborative Optimization 52524.8 Simultaneous Analysis and Design 52824.9 Summary 52924.10 Exercises 530
 
 # APPENDICES
 
@@ -481,11 +251,11 @@ There are also challenges associated with using optimization for design. We are 
 An optimization problem can be formulated mathematically as follows:15
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} f (\mathbf {x}) \tag {1.1}
+\underset{\mathbf {x}} {\text{minimize}} f (\mathbf {x}) \tag {1.1}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {x} \in \mathcal {X}
+\text{subject} \quad \mathbf {x} \in \mathcal {X}
 $$
 
 Here,  $\mathbf{x}$  is a design point, which can be represented as a vector of values corresponding to different design variables. An  $n$ -dimensional design point is written  $[x_1,\ldots ,x_n]$ , where the  $i$ th design variable is denoted  $x_{i}$ . The elements in this vector can be adjusted to minimize the objective function  $f$ . Any value of  $\mathbf{x}$  in the feasible set  $\mathcal{X}$  that minimizes the objective function is called a solution or minimizer. A particular solution is written  $\mathbf{x}^*$ . Figure 1.3 shows a one-dimensional optimization problem.
@@ -499,19 +269,19 @@ Figure 1.3. A one-dimensional optimization problem. Note that the minimum is mer
 The feasible set  $\mathcal{X}$  may be defined in terms of a set of constraints. Each constraint limits the set of possible solutions, and together the constraints define the feasible set  $\mathcal{X}$ . Feasible design points do not violate any constraints. For example, consider the following optimization problem:
 
 $$
-\underset {x _ {1}, x _ {2}} {\text {m i n i m i z e}} f (x _ {1}, x _ {2})
+\underset{x_{1}, x_{2}} {\text{minimize}} f (x_{1}, x_{2})
 $$
 
 $$
-\text {s u b j e c t} x _ {1} \geq 0 \tag {1.2}
+\text{subject} x_{1} \geq 0 \tag {1.2}
 $$
 
 $$
-x _ {2} \geq 0
+x_{2} \geq 0
 $$
 
 $$
-x _ {1} + x _ {2} \leq 1
+x_{1} + x_{2} \leq 1
 $$
 
 In this problem, the feasible set  $\mathcal{X} = \{\mathbf{x}\in \mathcal{X}\mid x_1\geq 0,x_2\geq 0,x_1 + x_2\leq 1\}$ . This set is plotted in figure 1.4.
@@ -519,11 +289,11 @@ In this problem, the feasible set  $\mathcal{X} = \{\mathbf{x}\in \mathcal{X}\mi
 Constraints are typically written as equalities or inequalities. If constraints involve strict inequalities, then the feasible set might not include the constraint boundary. A potential issue with not including the boundary is illustrated by
 
 $$
-\underset {x} {\text {m i n i m i z e}} x \tag {1.3}
+\underset{x} {\text{minimize}} x \tag {1.3}
 $$
 
 $$
-\begin{array}{l l} \text {s u b j e c t t o} & x > 1 \end{array}
+\begin{array}{l l} \text{subjectto} & x > 1 \end{array}
 $$
 
 The feasible set is shown in figure 1.5. The point  $x = 1$  produces values smaller than any  $x$  greater than 1, but  $x = 1$  is not feasible. We can pick any  $x$  arbitrarily close to, but greater than, 1, but no matter what we pick, we can always find an infinite number of values even closer to 1. We must conclude that the problem has no solution. To avoid such issues, it is often best to include the constraint boundary in the feasible set.
@@ -641,19 +411,19 @@ These conditions are referred to as necessary because all local minima obey thes
 The first-order necessary condition can be derived using the Taylor expansion $^{23}$  about our candidate point  $x^{*}$ :
 
 $$
-f \left(x ^ {*} + h\right) = f \left(x ^ {*}\right) + h f ^ {\prime} \left(x ^ {*}\right) + O \left(h ^ {2}\right) \tag {1.4}
+f \left(x^{*} + h\right) = f \left(x^{*}\right) + h f^{\prime} \left(x^{*}\right) + O \left(h^{2}\right) \tag {1.4}
 $$
 
 $$
-f \left(x ^ {*} - h\right) = f \left(x ^ {*}\right) - h f ^ {\prime} \left(x ^ {*}\right) + O \left(h ^ {2}\right) \tag {1.5}
+f \left(x^{*} - h\right) = f \left(x^{*}\right) - h f^{\prime} \left(x^{*}\right) + O \left(h^{2}\right) \tag {1.5}
 $$
 
 $$
-f \left(x ^ {*} + h\right) \geq f \left(x ^ {*}\right) \Longrightarrow h f ^ {\prime} \left(x ^ {*}\right) \geq 0 \tag {1.6}
+f \left(x^{*} + h\right) \geq f \left(x^{*}\right) \Longrightarrow h f^{\prime} \left(x^{*}\right) \geq 0 \tag {1.6}
 $$
 
 $$
-\begin{array}{l} f \left(x ^ {*} - h\right) \geq f \left(x ^ {*}\right) \Longrightarrow h f ^ {\prime} \left(x ^ {*}\right) \leq 0 (1.7) \\ \Longrightarrow f ^ {\prime} \left(x ^ {*}\right) = 0 (1.8) \\ \end{array}
+\begin{array}{l} f \left(x^{*} - h\right) \geq f \left(x^{*}\right) \Longrightarrow h f^{\prime} \left(x^{*}\right) \leq 0 (1.7) \\ \Longrightarrow f^{\prime} \left(x^{*}\right) = 0 (1.8) \\ \end{array}
 $$
 
 where the asymptotic notation  $O(h^2)$  is reviewed in appendix C.
@@ -661,7 +431,7 @@ where the asymptotic notation  $O(h^2)$  is reviewed in appendix C.
 The second-order necessary condition can also be obtained from the Taylor expansion:
 
 $$
-f \left(x ^ {*} + h\right) = f \left(x ^ {*}\right) + \underbrace {h f ^ {\prime} \left(x ^ {*}\right)} _ {= 0} + \frac {h ^ {2}}{2} f ^ {\prime \prime} \left(x ^ {*}\right) + O \left(h ^ {3}\right) \tag {1.9}
+f \left(x^{*} + h\right) = f \left(x^{*}\right) + \underbrace{h f^{\prime} \left(x^{*}\right)}_{= 0} + \frac{h^{2}}{2} f^{\prime \prime} \left(x^{*}\right) + O \left(h^{3}\right) \tag {1.9}
 $$
 
 21 If  $f'(x) = 0$  and  $f''(x) < 0$ , then  $x$  is a local maximum.  
@@ -680,7 +450,7 @@ first-order and second-order
 We know that the first-order necessary condition must apply:
 
 $$
-f \left(x ^ {*} + h\right) \geq f \left(x ^ {*}\right) \Longrightarrow \frac {h ^ {2}}{2} f ^ {\prime \prime} \left(x ^ {*}\right) \geq 0 \tag {1.10}
+f \left(x^{*} + h\right) \geq f \left(x^{*}\right) \Longrightarrow \frac{h^{2}}{2} f^{\prime \prime} \left(x^{*}\right) \geq 0 \tag {1.10}
 $$
 
 since  $h > 0$ . It follows that  $f''(x^*) \geq 0$  must hold for  $x^*$  to be at a local minimum.
@@ -697,13 +467,13 @@ The first-order necessary condition tells us that the function is not changing a
 These conditions can be obtained from a simple analysis. In order for  $\mathbf{x}^*$  to be at a local minimum, it must be smaller than those values around it:
 
 $$
-f \left(\mathbf {x} ^ {*}\right) \leq f \left(\mathbf {x} ^ {*} + h \mathbf {y}\right) \quad \Leftrightarrow \quad f \left(\mathbf {x} ^ {*} + h \mathbf {y}\right) - f \left(\mathbf {x} ^ {*}\right) \geq 0 \tag {1.11}
+f \left(\mathbf {x}^{*}\right) \leq f \left(\mathbf {x}^{*} + h \mathbf {y}\right) \quad \Leftrightarrow \quad f \left(\mathbf {x}^{*} + h \mathbf {y}\right) - f \left(\mathbf {x}^{*}\right) \geq 0 \tag {1.11}
 $$
 
 If we write the second-order approximation for  $f(\mathbf{x}^{*})$ , we get:
 
 $$
-f \left(\mathbf {x} ^ {*} + h \mathbf {y}\right) = f \left(\mathbf {x} ^ {*}\right) + h \nabla f \left(\mathbf {x} ^ {*}\right) ^ {\top} \mathbf {y} + \frac {1}{2} h ^ {2} \mathbf {y} ^ {\top} \nabla^ {2} f \left(\mathbf {x} ^ {*}\right) \mathbf {y} + O \left(h ^ {3}\right) \tag {1.12}
+f \left(\mathbf {x}^{*} + h \mathbf {y}\right) = f \left(\mathbf {x}^{*}\right) + h \nabla f \left(\mathbf {x}^{*}\right) ^{\top} \mathbf {y} + \frac{1}{2} h^{2} \mathbf {y}^{\top} \nabla^{2} f \left(\mathbf {x}^{*}\right) \mathbf {y} + O \left(h^{3}\right) \tag {1.12}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/15604a284d51371121b4ceda15f6d94831367a24e5bfeaa722ba0ea5e4262629.jpg)  
@@ -730,7 +500,7 @@ Example 1.1. An example three-dimensional visualization and the associated conto
 We know that at a minimum, the first derivative must be zero, and we neglect the higher order terms. Rearranging, we get:
 
 $$
-\frac {1}{2} h ^ {2} \mathbf {y} ^ {\top} \nabla^ {2} f \left(\mathbf {x} ^ {*}\right) \mathbf {y} = f \left(\mathbf {x} ^ {*} + h \mathbf {y}\right) - f \left(\mathbf {x} ^ {*}\right) \geq 0 \tag {1.13}
+\frac{1}{2} h^{2} \mathbf {y}^{\top} \nabla^{2} f \left(\mathbf {x}^{*}\right) \mathbf {y} = f \left(\mathbf {x}^{*} + h \mathbf {y}\right) - f \left(\mathbf {x}^{*}\right) \geq 0 \tag {1.13}
 $$
 
 This is the definition of a positive semidefinite matrix, and we recover the second-order necessary condition. Example 1.2 illustrates how these conditions can be applied to the Rosenbrock banana function.
@@ -738,7 +508,7 @@ This is the definition of a positive semidefinite matrix, and we recover the sec
 Consider the Rosenbrock banana function,
 
 $$
-f (\mathbf {x}) = (1 - x _ {1}) ^ {2} + 5 (x _ {2} - x _ {1} ^ {2}) ^ {2}
+f (\mathbf {x}) = (1 - x_{1}) ^{2} + 5 (x_{2} - x_{1}^{2}) ^{2}
 $$
 
 Does the point  $[1, 1]$  satisfy the first-order and second-order necessary conditions?
@@ -746,13 +516,13 @@ Does the point  $[1, 1]$  satisfy the first-order and second-order necessary con
 The gradient is:
 
 $$
-\nabla f (\mathbf {x}) = \left[ \begin{array}{c} \frac {\partial f}{\partial x _ {1}} \\ \frac {\partial f}{\partial x _ {2}} \end{array} \right] = \left[ \begin{array}{c} 2 \big (1 0 x _ {1} ^ {3} - 1 0 x _ {1} x _ {2} + x _ {1} - 1 \big) \\ 1 0 (x _ {2} - x _ {1} ^ {2}) \end{array} \right]
+\nabla f (\mathbf {x}) = \left[ \begin{array}{c} \frac{\partial f}{\partial x_{1}} \\ \frac{\partial f}{\partial x_{2}} \end{array} \right] = \left[ \begin{array}{c} 2 \big (10 x_{1}^{3} - 10 x_{1} x_{2} + x_{1} - 1 \big) \\ 10 (x_{2} - x_{1}^{2}) \end{array} \right]
 $$
 
 and the Hessian is:
 
 $$
-\nabla^ {2} f (\mathbf {x}) = \left[ \begin{array}{c c} \frac {\partial^ {2} f}{\partial x _ {1} \partial x _ {1}} & \frac {\partial^ {2} f}{\partial x _ {1} \partial x _ {2}} \\ \frac {\partial^ {2} f}{\partial x _ {2} \partial x _ {1}} & \frac {\partial^ {2} f}{\partial x _ {2} \partial x _ {2}} \end{array} \right] = \left[ \begin{array}{c c} - 2 0 (x _ {2} - x _ {1} ^ {2}) + 4 0 x _ {1} ^ {2} + 2 & - 2 0 x _ {1} \\ - 2 0 x _ {1} & 1 0 \end{array} \right]
+\nabla^{2} f (\mathbf {x}) = \left[ \begin{array}{c c} \frac{\partial^{2} f}{\partial x_{1} \partial x_{1}} & \frac{\partial^{2} f}{\partial x_{1} \partial x_{2}} \\ \frac{\partial^{2} f}{\partial x_{2} \partial x_{1}} & \frac{\partial^{2} f}{\partial x_{2} \partial x_{2}} \end{array} \right] = \left[ \begin{array}{c c} - 20 (x_{2} - x_{1}^{2}) + 40 x_{1}^{2} + 2 & - 20 x_{1} \\ - 20 x_{1} & 10 \end{array} \right]
 $$
 
 We compute  $\nabla f(1,1) = 0$ , so the first-order necessary condition is satisfied.
@@ -760,7 +530,7 @@ We compute  $\nabla f(1,1) = 0$ , so the first-order necessary condition is sati
 The Hessian at  $[1,1]$  is:
 
 $$
-\left[ \begin{array}{c c} 4 2 & - 2 0 \\ - 2 0 & 1 0 \end{array} \right]
+\left[ \begin{array}{c c} 42 & - 20 \\ - 20 & 10 \end{array} \right]
 $$
 
 which is positive definite, so the second-order necessary condition is also satisfied.
@@ -851,7 +621,7 @@ Exercise 1.3. Give an example of a function that is bounded below but has no glo
 Solution: Here is one example:
 
 $$
-f (x) = \left\{ \begin{array}{l l} | x | & \text {i f} x \neq 0 \\ 1 & \text {o t h e r w i s e} \end{array} \right.
+f (x) = \left\{ \begin{array}{l l} | x | & \text{if} x \neq 0 \\ 1 & \text{otherwise} \end{array} \right.
 $$
 
 Exercise 1.4. What are the minima and minimizers of the function  $f(x) = \sin (x)$ ?
@@ -887,13 +657,13 @@ The derivative  $f'(x)$  of a function  $f$  of a single variable  $x$  is the r
 We can use the derivative to provide a linear approximation of the function near  $x$ :
 
 $$
-f (x + \Delta x) \approx f (x) + f ^ {\prime} (x) \Delta x \tag {2.1}
+f (x + \Delta x) \approx f (x) + f^{\prime} (x) \Delta x \tag {2.1}
 $$
 
 The derivative is the ratio between the change in  $f$  and the change in  $x$  at the point  $x$ :
 
 $$
-f ^ {\prime} (x) = \frac {\Delta f (x)}{\Delta x} \tag {2.2}
+f^{\prime} (x) = \frac{\Delta f (x)}{\Delta x} \tag {2.2}
 $$
 
 which is the change in  $f(x)$  divided by the change in  $x$  as the step becomes infinitesimally small as illustrated by figure 2.2.
@@ -901,7 +671,7 @@ which is the change in  $f(x)$  divided by the change in  $x$  as the step becom
 The notation  $f'(x)$  can be attributed to Lagrange. We also use the notation created by Leibniz,
 
 $$
-f ^ {\prime} (x) \equiv \frac {d f (x)}{d x} \tag {2.3}
+f^{\prime} (x) \equiv \frac{d f (x)}{d x} \tag {2.3}
 $$
 
 For a more comprehensive review, see S.J. Colley, Vector Calculus, 4th ed. Pearson, 2011.
@@ -921,7 +691,7 @@ which emphasizes the fact that the derivative is the ratio of the change in  $f$
 The limit equation defining the derivative can be presented in three different ways: the forward difference, the central difference, and the backward difference. Each method uses an infinitely small step size  $h$ :
 
 $$
-f ^ {\prime} (x) \equiv \underbrace {\lim  _ {h \rightarrow 0} \frac {f (x + h) - f (x)}{h}} _ {\text {f o r w a r d d i f f e r e n c e}} = \underbrace {\lim  _ {h \rightarrow 0} \frac {f (x + h / 2) - f (x - h / 2)}{h}} _ {\text {c e n t r a l d i f f e r e n c e}} = \underbrace {\lim  _ {h \rightarrow 0} \frac {f (x) - f (x - h)}{h}} _ {\text {b a c k w a r d d i f f e r e n c e}} \tag {2.4}
+f^{\prime} (x) \equiv \underbrace{\lim_{h \rightarrow 0} \frac{f (x + h) - f (x)}{h}}_{\text{forwarddifference}} = \underbrace{\lim_{h \rightarrow 0} \frac{f (x + h / 2) - f (x - h / 2)}{h}}_{\text{centraldifference}} = \underbrace{\lim_{h \rightarrow 0} \frac{f (x) - f (x - h)}{h}}_{\text{backwarddifference}} \tag {2.4}
 $$
 
 If  $f$  can be represented symbolically, symbolic differentiation can often provide an exact analytic expression for  $f'$  by applying derivative rules from calculus. The analytic expression can then be evaluated at any point  $x$ . The process is illustrated in example 2.1.
@@ -943,7 +713,7 @@ Example 2.1. Symbolic differentiation provides analytical derivatives.
 The gradient is the generalization of the derivative to multivariate functions. It captures the local slope of the function, allowing us to predict the effect of taking a small step from a point in any direction. Recall that the derivative is the slope of the tangent line. The gradient points in the direction of steepest ascent of the tangent hyperplane as shown in figure 2.3. A hyperplane in an  $n$ -dimensional space is the set of points that satisfies
 
 $$
-w _ {1} x _ {1} + \dots + w _ {n} x _ {n} = b \tag {2.5}
+w_{1} x_{1} + \dots + w_{n} x_{n} = b \tag {2.5}
 $$
 
 for some vector  $\mathbf{w}$  and scalar  $b$ . A hyperplane has  $n - 1$  dimensions.
@@ -951,7 +721,7 @@ for some vector  $\mathbf{w}$  and scalar  $b$ . A hyperplane has  $n - 1$  dime
 The gradient of  $f$  at  $\mathbf{x}$  is written  $\nabla f(\mathbf{x})$  and is a vector. Each component of that vector is the partial derivative² of  $f$  with respect to that component:
 
 $$
-\nabla f (\mathbf {x}) = \left[ \frac {\partial f (\mathbf {x})}{\partial x _ {1}}, \quad \frac {\partial f (\mathbf {x})}{\partial x _ {2}}, \quad \dots , \quad \frac {\partial f (\mathbf {x})}{\partial x _ {n}} \right] \tag {2.6}
+\nabla f (\mathbf {x}) = \left[ \frac{\partial f (\mathbf {x})}{\partial x_{1}}, \quad \frac{\partial f (\mathbf {x})}{\partial x_{2}}, \quad \dots , \quad \frac{\partial f (\mathbf {x})}{\partial x_{n}} \right] \tag {2.6}
 $$
 
 We use the convention that vectors written with commas are column vectors. For example, we have  $[a,b,c] = [abc]^\top$ . Example 2.2 shows how to compute the gradient of a function at a particular point.
@@ -959,11 +729,11 @@ We use the convention that vectors written with commas are column vectors. For e
 Compute the gradient of  $f(\mathbf{x}) = x_{1}\sin (x_{2}) + 1$  at  $\mathbf{c} = [2,0]$ .
 
 $$
-f (\mathbf {x}) = x _ {1} \sin (x _ {2}) + 1
+f (\mathbf {x}) = x_{1} \sin (x_{2}) + 1
 $$
 
 $$
-\nabla f (\mathbf {x}) = \left[ \frac {\partial f}{\partial x _ {1}}, \frac {\partial f}{\partial x _ {2}} \right] = [ \sin (x _ {2}), x _ {1} \cos (x _ {2}) ]
+\nabla f (\mathbf {x}) = \left[ \frac{\partial f}{\partial x_{1}}, \frac{\partial f}{\partial x_{2}} \right] = [ \sin (x_{2}), x_{1} \cos (x_{2}) ]
 $$
 
 $$
@@ -973,7 +743,7 @@ $$
 The Hessian of a multivariate function is a matrix containing all of the second derivatives with respect to the input. The second derivatives capture information about the local curvature of the function.
 
 $$
-\nabla^ {2} f (\mathbf {x}) = \left[ \begin{array}{c c c c} \frac {\partial^ {2} f (\mathbf {x})}{\partial x _ {1} \partial x _ {1}} & \frac {\partial^ {2} f (\mathbf {x})}{\partial x _ {1} \partial x _ {2}} & \dots & \frac {\partial^ {2} f (\mathbf {x})}{\partial x _ {1} \partial x _ {n}} \\ & \vdots & & \\ \frac {\partial^ {2} f (\mathbf {x})}{\partial x _ {n} \partial x _ {1}} & \frac {\partial^ {2} f (\mathbf {x})}{\partial x _ {n} \partial x _ {2}} & \dots & \frac {\partial^ {2} f (\mathbf {x})}{\partial x _ {n} \partial x _ {n}} \end{array} \right] \tag {2.7}
+\nabla^{2} f (\mathbf {x}) = \left[ \begin{array}{c c c c} \frac{\partial^{2} f (\mathbf {x})}{\partial x_{1} \partial x_{1}} & \frac{\partial^{2} f (\mathbf {x})}{\partial x_{1} \partial x_{2}} & \dots & \frac{\partial^{2} f (\mathbf {x})}{\partial x_{1} \partial x_{n}} \\ & \vdots & & \\ \frac{\partial^{2} f (\mathbf {x})}{\partial x_{n} \partial x_{1}} & \frac{\partial^{2} f (\mathbf {x})}{\partial x_{n} \partial x_{2}} & \dots & \frac{\partial^{2} f (\mathbf {x})}{\partial x_{n} \partial x_{n}} \end{array} \right] \tag {2.7}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/21d4260e093d71c7de38511b9dcfacc0600564ec9570a2a1d1cc44f7f48db95d.jpg)  
@@ -986,7 +756,7 @@ Example 2.2. Computing the gradient at a particular point.
 3 The Hessian is symmetric only if the second derivatives of  $f$  are all continuous in a neighborhood of the point at which it is being evaluated:
 
 $$
-\frac {\partial^ {2} f}{\partial x _ {1} \partial x _ {2}} = \frac {\partial^ {2} f}{\partial x _ {2} \partial x _ {1}}
+\frac{\partial^{2} f}{\partial x_{1} \partial x_{2}} = \frac{\partial^{2} f}{\partial x_{2} \partial x_{1}}
 $$
 
 The directional derivative  $\nabla_{\mathbf{s}}f(\mathbf{x})$  of a multivariate function  $f$  is the instantaneous rate of change of  $f(\mathbf{x})$  as  $\mathbf{x}$  is moved with velocity  $\mathbf{s}$ . The definition is closely related to the definition of a derivative of a univariate function:
@@ -994,13 +764,13 @@ The directional derivative  $\nabla_{\mathbf{s}}f(\mathbf{x})$  of a multivariat
 4 Some texts require that s be a unit vector. See, for example, G.B. Thomas, Calculus and Analytic Geometry, 9th ed. Addison-Wesley, 1968.
 
 $$
-\nabla_ {\mathbf {s}} f (\mathbf {x}) \equiv \underbrace {\lim  _ {h \rightarrow 0} \frac {f (\mathbf {x} + h \mathbf {s}) - f (\mathbf {x})}{h}} _ {\text {f o r w a r d d i f f e r e n c e}} = \underbrace {\lim  _ {h \rightarrow 0} \frac {f (\mathbf {x} + h \mathbf {s} / 2) - f (\mathbf {x} - h \mathbf {s} / 2)}{h}} _ {\text {c e n t r a l d i f f e r e n c e}} = \underbrace {\lim  _ {h \rightarrow 0} \frac {f (\mathbf {x}) - f (\mathbf {x} - h \mathbf {s})}{h}} _ {\text {b a c k w a r d d i f f e r e n c e}} \tag {2.8}
+\nabla_{\mathbf {s}} f (\mathbf {x}) \equiv \underbrace{\lim_{h \rightarrow 0} \frac{f (\mathbf {x} + h \mathbf {s}) - f (\mathbf {x})}{h}}_{\text{forwarddifference}} = \underbrace{\lim_{h \rightarrow 0} \frac{f (\mathbf {x} + h \mathbf {s} / 2) - f (\mathbf {x} - h \mathbf {s} / 2)}{h}}_{\text{centraldifference}} = \underbrace{\lim_{h \rightarrow 0} \frac{f (\mathbf {x}) - f (\mathbf {x} - h \mathbf {s})}{h}}_{\text{backwarddifference}} \tag {2.8}
 $$
 
 The directional derivative can be computed using the gradient of the function:
 
 $$
-\nabla_ {\mathbf {s}} f (\mathbf {x}) = \nabla f (\mathbf {x}) ^ {\top} \mathbf {s} \tag {2.9}
+\nabla_{\mathbf {s}} f (\mathbf {x}) = \nabla f (\mathbf {x}) ^{\top} \mathbf {s} \tag {2.9}
 $$
 
 Another way to compute the directional derivative  $\nabla_{\mathbf{s}}f(\mathbf{x})$  is to define  $g(\alpha)\equiv f(\mathbf{x} + \alpha \mathbf{s})$  and then compute  $g^{\prime}(0)$ , as illustrated in example 2.3.
@@ -1010,25 +780,25 @@ The directional derivative is highest in the gradient direction, and it is lowes
 We wish to compute the directional derivative of  $f(\mathbf{x}) = x_{1}x_{2}$  at  $\mathbf{x} = [1,0]$  in the direction  $\mathbf{s} = [-1, - 1]$ :
 
 $$
-\nabla f (\mathbf {x}) = \left[ \begin{array}{c c} \frac {\partial f}{\partial x _ {1}}, & \frac {\partial f}{\partial x _ {2}} \end{array} \right] = [ x _ {2}, x _ {1} ]
+\nabla f (\mathbf {x}) = \left[ \begin{array}{c c} \frac{\partial f}{\partial x_{1}}, & \frac{\partial f}{\partial x_{2}} \end{array} \right] = [ x_{2}, x_{1} ]
 $$
 
 $$
-\nabla_ {\mathbf {s}} f (\mathbf {x}) = \nabla f (\mathbf {x}) ^ {\top} \mathbf {s} = \left[ \begin{array}{l l} 0 & 1 \end{array} \right] \left[ \begin{array}{l} - 1 \\ - 1 \end{array} \right] = - 1
+\nabla_{\mathbf {s}} f (\mathbf {x}) = \nabla f (\mathbf {x}) ^{\top} \mathbf {s} = \left[ \begin{array}{l l} 0 & 1 \end{array} \right] \left[ \begin{array}{l} - 1 \\ - 1 \end{array} \right] = - 1
 $$
 
 We can also compute the directional derivative as follows:
 
 $$
-g (\alpha) = f (\mathbf {x} + \alpha \mathbf {s}) = (1 - \alpha) (- \alpha) = \alpha^ {2} - \alpha
+g (\alpha) = f (\mathbf {x} + \alpha \mathbf {s}) = (1 - \alpha) (- \alpha) = \alpha^{2} - \alpha
 $$
 
 $$
-g ^ {\prime} (\alpha) = 2 \alpha - 1
+g^{\prime} (\alpha) = 2 \alpha - 1
 $$
 
 $$
-g ^ {\prime} (0) = - 1
+g^{\prime} (0) = - 1
 $$
 
 Example 2.3. Computing a directional derivative.
@@ -1046,33 +816,33 @@ For a more comprehensive treatment of the topics discussed in the remainder of t
 As the name implies, finite difference methods compute the difference between two values that differ by a finite step size. They approximate the derivative definitions in equation (2.4) using small differences:
 
 $$
-f ^ {\prime} (x) \approx \underbrace {\frac {f (x + h) - f (x)}{h}} _ {\text {f o r w a r d d i f f e r e n c e}} \approx \underbrace {\frac {f (x + h / 2) - f (x - h / 2)}{h}} _ {\text {c e n t r a l d i f f e r e n c e}} \approx \underbrace {\frac {f (x) - f (x - h)}{h}} _ {\text {b a c k w a r d d i f f e r e n c e}} \tag {2.10}
+f^{\prime} (x) \approx \underbrace{\frac{f (x + h) - f (x)}{h}}_{\text{forwarddifference}} \approx \underbrace{\frac{f (x + h / 2) - f (x - h / 2)}{h}}_{\text{centraldifference}} \approx \underbrace{\frac{f (x) - f (x - h)}{h}}_{\text{backwarddifference}} \tag {2.10}
 $$
 
 Mathematically, the smaller the step size  $h$ , the better the derivative estimate. Practically, values for  $h$  that are too small can result in numerical cancellation errors. This effect is shown later in figure 2.4. Algorithm 2.1 provides implementations for these methods.
 
 $$
-\begin{array}{l} \text {d i f f _ {f o r w a r d} (f , x ; h = 1 e - 9) = (f (x + h) - f (x)) / h} \\ \text {d i f f _ {c e n t r a l} (f , x ; h = 1 e - 9) = (f (x + h / 2) - f (x - h / 2)) / h} \\ \text {d i f f _ {b a c k w a r d} (f , x ; h = 1 e - 9) = (f (x) - f (x - h)) / h} \end{array}
+\begin{array}{l} \text{diff_{forward} (f , x ; h = 1 e - 9) = (f (x + h) - f (x)) / h} \\ \text{diff_{central} (f , x ; h = 1 e - 9) = (f (x + h / 2) - f (x - h / 2)) / h} \\ \text{diff_{backward} (f , x ; h = 1 e - 9) = (f (x) - f (x - h)) / h} \end{array}
 $$
 
 The finite difference methods can be derived using the Taylor expansion. We will derive the forward difference derivative estimate, beginning with the Taylor expansion of  $f$  about  $x$ :
 
 $$
-f (x + h) = f (x) + \frac {f ^ {\prime} (x)}{1 !} h + \frac {f ^ {\prime \prime} (x)}{2 !} h ^ {2} + \frac {f ^ {\prime \prime \prime} (x)}{3 !} h ^ {3} + \dots \tag {2.11}
+f (x + h) = f (x) + \frac{f^{\prime} (x)}{1 !} h + \frac{f^{\prime \prime} (x)}{2 !} h^{2} + \frac{f^{\prime \prime \prime} (x)}{3 !} h^{3} + \dots \tag {2.11}
 $$
 
 We can rearrange and solve for the first derivative:
 
 $$
-f ^ {\prime} (x) h = f (x + h) - f (x) - \frac {f ^ {\prime \prime} (x)}{2 !} h ^ {2} - \frac {f ^ {\prime \prime \prime} (x)}{3 !} h ^ {3} - \dots \tag {2.12}
+f^{\prime} (x) h = f (x + h) - f (x) - \frac{f^{\prime \prime} (x)}{2 !} h^{2} - \frac{f^{\prime \prime \prime} (x)}{3 !} h^{3} - \dots \tag {2.12}
 $$
 
 $$
-f ^ {\prime} (x) = \frac {f (x + h) - f (x)}{h} - \frac {f ^ {\prime \prime} (x)}{2 !} h - \frac {f ^ {\prime \prime \prime} (x)}{3 !} h ^ {2} - \dots \tag {2.13}
+f^{\prime} (x) = \frac{f (x + h) - f (x)}{h} - \frac{f^{\prime \prime} (x)}{2 !} h - \frac{f^{\prime \prime \prime} (x)}{3 !} h^{2} - \dots \tag {2.13}
 $$
 
 $$
-f ^ {\prime} (x) \approx \frac {f (x + h) - f (x)}{h} \tag {2.14}
+f^{\prime} (x) \approx \frac{f (x + h) - f (x)}{h} \tag {2.14}
 $$
 
 The forward difference approximates the true derivative for small  $h$  with error dependent on  $\frac{f''(x)}{2!} h + \frac{f'''(x)}{3!} h^2 + \dots$ . This error term is  $O(h)$ , meaning the forward difference has linear error as  $h$  approaches zero.
@@ -1088,23 +858,23 @@ Asymptotic notation is covered in appendix C.
 $f(x + h / 2)$  and  $f(x - h / 2)$  are:
 
 $$
-f (x + h / 2) = f (x) + f ^ {\prime} (x) \frac {h}{2} + \frac {f ^ {\prime \prime} (x)}{2 !} \left(\frac {h}{2}\right) ^ {2} + \frac {f ^ {\prime \prime \prime} (x)}{3 !} \left(\frac {h}{2}\right) ^ {3} + \dots \tag {2.15}
+f (x + h / 2) = f (x) + f^{\prime} (x) \frac{h}{2} + \frac{f^{\prime \prime} (x)}{2 !} \left(\frac{h}{2}\right) ^{2} + \frac{f^{\prime \prime \prime} (x)}{3 !} \left(\frac{h}{2}\right) ^{3} + \dots \tag {2.15}
 $$
 
 $$
-f (x - h / 2) = f (x) - f ^ {\prime} (x) \frac {h}{2} + \frac {f ^ {\prime \prime} (x)}{2 !} \left(\frac {h}{2}\right) ^ {2} - \frac {f ^ {\prime \prime \prime} (x)}{3 !} \left(\frac {h}{2}\right) ^ {3} + \dots \tag {2.16}
+f (x - h / 2) = f (x) - f^{\prime} (x) \frac{h}{2} + \frac{f^{\prime \prime} (x)}{2 !} \left(\frac{h}{2}\right) ^{2} - \frac{f^{\prime \prime \prime} (x)}{3 !} \left(\frac{h}{2}\right) ^{3} + \dots \tag {2.16}
 $$
 
 Subtracting these expansions produces:
 
 $$
-f (x + h / 2) - f (x - h / 2) \approx 2 f ^ {\prime} (x) \frac {h}{2} + \frac {2}{3 !} f ^ {\prime \prime \prime} (x) \left(\frac {h}{2}\right) ^ {3} \tag {2.17}
+f (x + h / 2) - f (x - h / 2) \approx 2 f^{\prime} (x) \frac{h}{2} + \frac{2}{3 !} f^{\prime \prime \prime} (x) \left(\frac{h}{2}\right) ^{3} \tag {2.17}
 $$
 
 We rearrange to obtain:
 
 $$
-f ^ {\prime} (x) \approx \frac {f (x + h / 2) - f (x - h / 2)}{h} - \frac {f ^ {\prime \prime \prime} (x) h ^ {2}}{2 4} \tag {2.18}
+f^{\prime} (x) \approx \frac{f (x + h / 2) - f (x - h / 2)}{h} - \frac{f^{\prime \prime \prime} (x) h^{2}}{24} \tag {2.18}
 $$
 
 which shows that the approximation has quadratic error.
@@ -1116,13 +886,13 @@ We often run into the problem of needing to choose a step size  $h$  small enoug
 The Taylor expansion for an imaginary step is:
 
 $$
-f (x + i h) = f (x) + i h f ^ {\prime} (x) - h ^ {2} \frac {f ^ {\prime \prime} (x)}{2 !} - i h ^ {3} \frac {f ^ {\prime \prime \prime} (x)}{3 !} + \dots \tag {2.19}
+f (x + i h) = f (x) + i h f^{\prime} (x) - h^{2} \frac{f^{\prime \prime} (x)}{2 !} - i h^{3} \frac{f^{\prime \prime \prime} (x)}{3 !} + \dots \tag {2.19}
 $$
 
 Taking only the imaginary component of each side produces a derivative approximation:
 
 $$
-\begin{array}{l} \operatorname {I m} \left(f (x + i h)\right) = h f ^ {\prime} (x) - h ^ {3} \frac {f ^ {\prime \prime \prime} (x)}{3 !} + \dots (2.20) \\ \Rightarrow f ^ {\prime} (x) = \frac {\operatorname {I m} (f (x + i h))}{h} + h ^ {2} \frac {f ^ {\prime \prime \prime} (x)}{3 !} - \dots (2.21) \\ = \frac {\operatorname {I m} (f (x + i h))}{h} + O \left(h ^ {2}\right) \text {a s} h \rightarrow 0 (2.22) \\ \end{array}
+\begin{array}{l} \operatorname{Im} \left(f (x + i h)\right) = h f^{\prime} (x) - h^{3} \frac{f^{\prime \prime \prime} (x)}{3 !} + \dots (2.20) \\ \Rightarrow f^{\prime} (x) = \frac{\operatorname{Im} (f (x + i h))}{h} + h^{2} \frac{f^{\prime \prime \prime} (x)}{3 !} - \dots (2.21) \\ = \frac{\operatorname{Im} (f (x + i h))}{h} + O \left(h^{2}\right) \text{as} h \rightarrow 0 (2.22) \\ \end{array}
 $$
 
 8 J. R. R. A. Martins, P. Sturdza, and J.J. Alonso, "The Complex-Step Derivative Approximation," ACM Transactions on Mathematical Software, vol. 29, no. 3, pp. 245-262, 2003. Special care must be taken to ensure that the implementation of  $f$  properly supports complex numbers as input.
@@ -1130,7 +900,7 @@ $$
 An implementation is provided by algorithm 2.2. The real part approximates  $f(x)$  to within  $O(h^2)$  as  $h \to 0$ :
 
 $$
-\begin{array}{l} \operatorname {R e} (f (x + i h)) = f (x) - h ^ {2} \frac {f ^ {\prime \prime} (x)}{2 !} + \dots (2.23) \\ \Rightarrow f (x) = \operatorname {R e} \left(f (x + i h)\right) + h ^ {2} \frac {f ^ {\prime \prime} (x)}{2 !} - \dots (2.24) \\ \end{array}
+\begin{array}{l} \operatorname{Re} (f (x + i h)) = f (x) - h^{2} \frac{f^{\prime \prime} (x)}{2 !} + \dots (2.23) \\ \Rightarrow f (x) = \operatorname{Re} \left(f (x + i h)\right) + h^{2} \frac{f^{\prime \prime} (x)}{2 !} - \dots (2.24) \\ \end{array}
 $$
 
 Thus, we can evaluate both  $f(x)$  and  $f'(x)$  using a single evaluation of  $f$  with complex arguments. Example 2.4 shows the calculations involved for estimating the derivative of a function at a particular point. Algorithm 2.2 implements the complex step method. Figure 2.4 compares the numerical error of the complex step method to the forward and central difference methods as the step size is varied.
@@ -1159,7 +929,7 @@ Example 2.4. The complex step method for estimating derivatives.
 This section introduces algorithms for the numeric evaluation of derivatives of functions specified by a computer program. Key to these automatic differentiation techniques is the application of the chain rule:
 
 $$
-\frac {d}{d x} f (g (x)) = \frac {d}{d x} (f \circ g) (x) = \frac {d f}{d g} \frac {d g}{d x} \tag {2.25}
+\frac{d}{d x} f (g (x)) = \frac{d}{d x} (f \circ g) (x) = \frac{d f}{d g} \frac{d g}{d x} \tag {2.25}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/ef325153579d3b9489d425607660c7d6d7852826685ac77aa3d73b957e33ccd6.jpg)  
@@ -1170,7 +940,7 @@ A program is composed of elementary operations like addition, subtraction, multi
 Consider the function  $f(a, b) = \ln (ab + \max(a, 2))$ . If we want to compute the partial derivative with respect to  $a$  at a point, we need to apply the chain rule several times:
 
 $$
-\begin{array}{l} \frac {\partial f}{\partial a} = \frac {\partial}{\partial a} \ln (a b + \max  (a, 2)) (2.26) \\ = \frac {1}{a b + \max  (a , 2)} \frac {\partial}{\partial a} (a b + \max  (a, 2)) (2.27) \\ = \frac {1}{a b + \operatorname* {m a x} (a , 2)} \left[ \frac {\partial (a b)}{\partial a} + \frac {\partial \operatorname* {m a x} (a , 2)}{\partial a} \right] (2.28) \\ = \frac {1}{a b + \max (a , 2)} \left[ \left(b \frac {\partial a}{\partial a} + a \frac {\partial b}{\partial a}\right) + \left((2 > a) \frac {\partial 2}{\partial a} + (2 <   a) \frac {\partial a}{\partial a}\right) \right] \quad (2. 2 9) \\ = \frac {1}{a b + \max  (a , 2)} [ b + (2 <   a) ] (2.30) \\ \end{array}
+\begin{array}{l} \frac{\partial f}{\partial a} = \frac{\partial}{\partial a} \ln (a b + \max (a, 2)) (2.26) \\ = \frac{1}{a b + \max (a , 2)} \frac{\partial}{\partial a} (a b + \max (a, 2)) (2.27) \\ = \frac{1}{a b + \operatorname* {m a x} (a , 2)} \left[ \frac{\partial (a b)}{\partial a} + \frac{\partial \operatorname* {m a x} (a , 2)}{\partial a} \right] (2.28) \\ = \frac{1}{a b + \max (a , 2)} \left[ \left(b \frac{\partial a}{\partial a} + a \frac{\partial b}{\partial a}\right) + \left((2 > a) \frac{\partial 2}{\partial a} + (2 <   a) \frac{\partial a}{\partial a}\right) \right] \quad (2. 29) \\ = \frac{1}{a b + \max (a , 2)} [ b + (2 <   a) ] (2.30) \\ \end{array}
 $$
 
 This process can be automated through the use of a computational graph. A computational graph represents a function where the nodes are operations and the edges are input-output relations. The leaf nodes of a computational graph
@@ -1189,7 +959,7 @@ There are two methods for automatically differentiating  $f$  using its computat
 Forward accumulation will automatically differentiate a function using a single forward pass through the function's computational graph. The method is equivalent to iteratively expanding the chain rule of the inner operation:
 
 $$
-\frac {d f}{d x} = \frac {d f}{d c _ {4}} \frac {d c _ {4}}{d x} = \frac {d f}{d c _ {4}} \left(\frac {d c _ {4}}{d c _ {3}} \frac {d c _ {3}}{d x}\right) = \frac {d f}{d c _ {4}} \left(\frac {d c _ {4}}{d c _ {3}} \left(\frac {d c _ {3}}{d c _ {2}} \frac {d c _ {2}}{d x} + \frac {d c _ {3}}{d c _ {1}} \frac {d c _ {1}}{d x}\right)\right) \tag {2.31}
+\frac{d f}{d x} = \frac{d f}{d c_{4}} \frac{d c_{4}}{d x} = \frac{d f}{d c_{4}} \left(\frac{d c_{4}}{d c_{3}} \frac{d c_{3}}{d x}\right) = \frac{d f}{d c_{4}} \left(\frac{d c_{4}}{d c_{3}} \left(\frac{d c_{3}}{d c_{2}} \frac{d c_{2}}{d x} + \frac{d c_{3}}{d c_{1}} \frac{d c_{1}}{d x}\right)\right) \tag {2.31}
 $$
 
 To illustrate forward accumulation, we apply it to the example function  $f(a,b) = \ln (ab + \max (a,2))$  to calculate the partial derivative at  $a = 3$ ,  $b = 2$  with respect to  $a$ .
@@ -1218,11 +988,11 @@ $$
 In fact, by passing a dual number into any smooth function  $f$ , we get the evaluation and its derivative. We can show this using the Taylor series:
 
 $$
-f (x) = \sum_ {k = 0} ^ {\infty} \frac {f ^ {(k)} (a)}{k !} (x - a) ^ {k} \tag {2.34}
+f (x) = \sum_{k = 0}^{\infty} \frac{f^{(k)} (a)}{k !} (x - a) ^{k} \tag {2.34}
 $$
 
 $$
-\begin{array}{l} f (a + b \epsilon) = \sum_ {k = 0} ^ {\infty} \frac {f ^ {(k)} (a)}{k !} (a + b \epsilon - a) ^ {k} (2.35) \\ = \sum_ {k = 0} ^ {\infty} \frac {f ^ {(k)} (a) b ^ {k} \epsilon^ {k}}{k !} (2.36) \\ = f (a) + b f ^ {\prime} (a) \epsilon + \epsilon^ {2} \sum_ {k = 2} ^ {\infty} \frac {f ^ {(k)} (a) b ^ {k}}{k !} \epsilon^ {(k - 2)} (2.37) \\ = f (a) + b f ^ {\prime} (a) \epsilon (2.38) \\ \end{array}
+\begin{array}{l} f (a + b \epsilon) = \sum_{k = 0}^{\infty} \frac{f^{(k)} (a)}{k !} (a + b \epsilon - a) ^{k} (2.35) \\ = \sum_{k = 0}^{\infty} \frac{f^{(k)} (a) b^{k} \epsilon^{k}}{k !} (2.36) \\ = f (a) + b f^{\prime} (a) \epsilon + \epsilon^{2} \sum_{k = 2}^{\infty} \frac{f^{(k)} (a) b^{k}}{k !} \epsilon^{(k - 2)} (2.37) \\ = f (a) + b f^{\prime} (a) \epsilon (2.38) \\ \end{array}
 $$
 
 Example 2.5 shows an implementation.
@@ -1234,7 +1004,7 @@ Forward accumulation requires  $n$  passes in order to compute an  $n$ -dimensio
 Like forward accumulation, reverse accumulation will compute the partial derivative with respect to the chosen target variable but iteratively substitutes the outer function instead:
 
 $$
-\frac {d f}{d x} = \frac {d f}{d c _ {4}} \frac {d c _ {4}}{d x} = \left(\frac {d f}{d c _ {3}} \frac {d c _ {3}}{d c _ {4}}\right) \frac {d c _ {4}}{d x} = \left(\left(\frac {d f}{d c _ {2}} \frac {d c _ {2}}{d c _ {3}} + \frac {d f}{d c _ {1}} \frac {d c _ {1}}{d c _ {3}}\right) \frac {d c _ {3}}{d c _ {4}}\right) \frac {d c _ {4}}{d x} \tag {2.39}
+\frac{d f}{d x} = \frac{d f}{d c_{4}} \frac{d c_{4}}{d x} = \left(\frac{d f}{d c_{3}} \frac{d c_{3}}{d c_{4}}\right) \frac{d c_{4}}{d x} = \left(\left(\frac{d f}{d c_{2}} \frac{d c_{2}}{d c_{3}} + \frac{d f}{d c_{1}} \frac{d c_{1}}{d c_{3}}\right) \frac{d c_{3}}{d c_{4}}\right) \frac{d c_{4}}{d x} \tag {2.39}
 $$
 
 This process is the reverse pass, the evaluation of which requires intermediate values that are obtained during a forward pass.
@@ -1300,19 +1070,19 @@ Instead of estimating the gradient at  $\mathbf{x}$  by using a finite differenc
 Given a dataset of  $m$  perturbations and their function evaluations
 
 $$
-\left(\Delta \mathbf {x} ^ {(1)}, f (\mathbf {x} + \Delta \mathbf {x} ^ {(1)})\right), \left(\Delta \mathbf {x} ^ {(2)}, f (\mathbf {x} + \Delta \mathbf {x} ^ {(2)})\right), \dots , \left(\Delta \mathbf {x} ^ {(m)}, f (\mathbf {x} + \Delta \mathbf {x} ^ {(m)})\right) \tag {2.40}
+\left(\Delta \mathbf {x}^{(1)}, f (\mathbf {x} + \Delta \mathbf {x}^{(1)})\right), \left(\Delta \mathbf {x}^{(2)}, f (\mathbf {x} + \Delta \mathbf {x}^{(2)})\right), \dots , \left(\Delta \mathbf {x}^{(m)}, f (\mathbf {x} + \Delta \mathbf {x}^{(m)})\right) \tag {2.40}
 $$
 
 we seek the gradient  $\mathbf{g}$  that is consistent with the first-order Taylor expansion:
 
 $$
-\hat {f} (\mathbf {x} + \Delta \mathbf {x}) = f (\mathbf {x}) + \mathbf {g} ^ {\top} \Delta \mathbf {x} \tag {2.41}
+\hat {f} (\mathbf {x} + \Delta \mathbf {x}) = f (\mathbf {x}) + \mathbf {g}^{\top} \Delta \mathbf {x} \tag {2.41}
 $$
 
 We define the gradient with the closest match to be the one that minimizes the squared distance:
 
 $$
-\underset {\mathbf {g}} {\operatorname {m i n i m i z e}} \sum_ {i = 1} ^ {m} \left(f (\mathbf {x} + \Delta \mathbf {x} ^ {(i)}) - \left(f (\mathbf {x}) + \mathbf {g} ^ {\top} \Delta \mathbf {x} ^ {(i)}\right)\right) ^ {2} \tag {2.42}
+\underset{\mathbf {g}} {\operatorname{minimize}} \sum_{i = 1}^{m} \left(f (\mathbf {x} + \Delta \mathbf {x}^{(i)}) - \left(f (\mathbf {x}) + \mathbf {g}^{\top} \Delta \mathbf {x}^{(i)}\right)\right) ^{2} \tag {2.42}
 $$
 
 14 Linear regression is covered in section 17.2.  
@@ -1322,23 +1092,23 @@ $$
 We can solve this minimization exactly. To do so, we rewrite the optimization problem in matrix form, where we define
 
 $$
-\Delta \mathbf {X} = \left[ \begin{array}{c} \left(\Delta \mathbf {x} ^ {(1)}\right) ^ {\top} \\ \vdots \\ \left(\Delta \mathbf {x} ^ {(m)}\right) ^ {\top} \end{array} \right] \tag {2.43}
+\Delta \mathbf {X} = \left[ \begin{array}{c} \left(\Delta \mathbf {x}^{(1)}\right) ^{\top} \\ \vdots \\ \left(\Delta \mathbf {x}^{(m)}\right) ^{\top} \end{array} \right] \tag {2.43}
 $$
 
 $$
-\Delta \mathbf {f} = \left[ f (\mathbf {x} + \Delta \mathbf {x} ^ {(1)}) - f (\mathbf {x}), \dots , f (\mathbf {x} + \Delta \mathbf {x} ^ {(m)}) - f (\mathbf {x}) \right] \tag {2.44}
+\Delta \mathbf {f} = \left[ f (\mathbf {x} + \Delta \mathbf {x}^{(1)}) - f (\mathbf {x}), \dots , f (\mathbf {x} + \Delta \mathbf {x}^{(m)}) - f (\mathbf {x}) \right] \tag {2.44}
 $$
 
 The optimization problem can then be written as
 
 $$
-\underset {\mathbf {g}} {\operatorname {m i n i m i z e}} \left\| \Delta \mathbf {X} \mathbf {g} - \Delta \mathbf {f} \right\| ^ {2} \tag {2.45}
+\underset{\mathbf {g}} {\operatorname{minimize}} \left\| \Delta \mathbf {X} \mathbf {g} - \Delta \mathbf {f} \right\| ^{2} \tag {2.45}
 $$
 
 This is a linear regression problem that can be solved exactly by finding the pseudoinverse of  $\Delta \mathbf{X}$  and multiplying by  $\Delta \mathbf{f}$ :<sup>17</sup>
 
 $$
-\mathbf {g} = \Delta \mathbf {X} ^ {+} \Delta \mathbf {f} \tag {2.46}
+\mathbf {g} = \Delta \mathbf {X}^{+} \Delta \mathbf {f} \tag {2.46}
 $$
 
 Algorithm 2.3 provides an implementation of this approach in which the perturbations are drawn uniformly from a hypersphere with radius  $\delta$ . Figure 2.7 illustrates this approach on a simple two-dimensional function.
@@ -1369,13 +1139,13 @@ Figure 2.7. Using the regression gradient method to estimate the gradient of the
 This approach approximates the gradient using directional derivatives of  $f$ . A single directional derivative is obtained using a central difference with a perturbation  $\mathbf{z}$  drawn from a zero-mean unit Gaussian distribution and a scalar  $\delta$ :
 
 $$
-\nabla_ {\mathbf {z}} f (\mathbf {x}) \approx \frac {f (\mathbf {x} + \delta \mathbf {z}) - f (\mathbf {x} - \delta \mathbf {z})}{2 \delta} \tag {2.47}
+\nabla_{\mathbf {z}} f (\mathbf {x}) \approx \frac{f (\mathbf {x} + \delta \mathbf {z}) - f (\mathbf {x} - \delta \mathbf {z})}{2 \delta} \tag {2.47}
 $$
 
 A single-sample SPSA estimate is this perturbation scaled by this directional derivative:
 
 $$
-\nabla f (\mathbf {x}) \approx (\nabla_ {\mathbf {z}} f (\mathbf {x})) \mathbf {z} \tag {2.48}
+\nabla f (\mathbf {x}) \approx (\nabla_{\mathbf {z}} f (\mathbf {x})) \mathbf {z} \tag {2.48}
 $$
 
 Averaging many samples can improve the gradient estimate, as done in algorithm 2.4. However, the sample count is typically left quite small or even set to 1 even though the gradient estimate is noisy in the interest of computational efficiency. When used in conjunction with a gradient-based optimization algorithm, the noisy gradient estimate can still provide a useful direction to search for a solution.
@@ -1410,13 +1180,13 @@ Exercise 2.1. Adopt the forward difference method to approximate the Hessian of 
 Solution: An entry of the Hessian can be computed using the forward difference method:
 
 $$
-H _ {i j} = \frac {\partial^ {2} f (\mathbf {x})}{\partial x _ {i} \partial x _ {j}} \approx \frac {\nabla f (\mathbf {x} + h \mathbf {e} _ {j}) _ {i} - \nabla f (\mathbf {x}) _ {i}}{h}
+H_{i j} = \frac{\partial^{2} f (\mathbf {x})}{\partial x_{i} \partial x_{j}} \approx \frac{\nabla f (\mathbf {x} + h \mathbf {e}_{j}) _{i} - \nabla f (\mathbf {x}) _{i}}{h}
 $$
 
 We can thus approximate the  $j$ th column of the Hessian using:
 
 $$
-\mathbf {H} _ {. j} \approx \frac {\nabla f (\mathbf {x} + h \mathbf {e} _ {j}) - \nabla f (x)}{h}
+\mathbf {H}_{. j} \approx \frac{\nabla f (\mathbf {x} + h \mathbf {e}_{j}) - \nabla f (x)}{h}
 $$
 
 Algorithm 2.4. A method for estimating the gradient of a function  $f$  at  $x$  in-place by averaging  $m$  directional derivatives via the simultaneous perturbation gradient approximation. Perturbations are zero-mean with standard deviation  $\delta$ .
@@ -1448,7 +1218,7 @@ Exercise 2.6. Combine the forward and backward difference methods to obtain a di
 Solution: The second-order derivative can be approximated using the central difference on the first-order derivative:
 
 $$
-f ^ {\prime \prime} (x) \approx \frac {f ^ {\prime} (x + h / 2) - f ^ {\prime} (x - h / 2)}{h}
+f^{\prime \prime} (x) \approx \frac{f^{\prime} (x + h / 2) - f^{\prime} (x - h / 2)}{h}
 $$
 
 for small values of  $h$ .
@@ -1456,7 +1226,7 @@ for small values of  $h$ .
 Substituting in the forward and backwards different estimates of  $f^{\prime}(x + h / 2)$  and  $f^{\prime}(x - h / 2)$  yields:
 
 $$
-\begin{array}{l} f ^ {\prime \prime} (x) \approx \frac {\frac {f (x + h / 2 + h / 2) - f (x + h / 2 - h / 2)}{h} - \frac {f (x - h / 2 + h / 2) - f (x - h / 2 - h / 2)}{h}}{h} \\ = \frac {f (x + h) - f (x)}{h ^ {2}} - \frac {f (x) - f (x - h)}{h ^ {2}} \\ = \frac {f (x + h) - 2 f (x) + f (x - h)}{h ^ {2}} \\ \end{array}
+\begin{array}{l} f^{\prime \prime} (x) \approx \frac{\frac{f (x + h / 2 + h / 2) - f (x + h / 2 - h / 2)}{h} - \frac{f (x - h / 2 + h / 2) - f (x - h / 2 - h / 2)}{h}}{h} \\ = \frac{f (x + h) - f (x)}{h^{2}} - \frac{f (x) - f (x - h)}{h^{2}} \\ = \frac{f (x + h) - 2 f (x) + f (x - h)}{h^{2}} \\ \end{array}
 $$
 
 Exercise 2.7. The forward difference derivative approximation evaluates the objective function at  $x$  and  $x + h$ , and divides by  $h$ . Computers use floating point numbers with a finite number of bits. As such, adding  $h$  to  $x$  can produce a floating point number that is not exactly  $x + h$ . This difference can lead to inaccuracies.
@@ -1464,7 +1234,7 @@ Exercise 2.7. The forward difference derivative approximation evaluates the obje
 Plot the absolute relative error of the derivative estimate on  $f(x) = \exp (x)$  for  $x = 0, x = 100$ , and  $x = 600$  for both the forward difference method introduced in the text and a modification that ensures that the step size we divide by is consistent with the difference between  $x$  and  $x + h$ :
 
 $$
-f ^ {\prime} (x) \approx \frac {f (x + h) - f (x)}{(x + h) - x}
+f^{\prime} (x) \approx \frac{f (x + h) - f (x)}{(x + h) - x}
 $$
 
 Does this modification make a difference?
@@ -1551,19 +1321,19 @@ Figure 3.6. For  $n$  queries we are guaranteed to shrink our interval by a fact
 For  $n$  queries, the interval lengths are related to the Fibonacci sequence: 1, 1, 2, 3, 5, 8, and so forth. The first two terms are one, and the following terms are always the sum of the previous two:
 
 $$
-F _ {n} = \left\{ \begin{array}{l l} 1 & \text {i f} n \leq 2 \\ F _ {n - 1} + F _ {n - 2} & \text {o t h e r w i s e} \end{array} \right. \tag {3.1}
+F_{n} = \left\{ \begin{array}{l l} 1 & \text{if} n \leq 2 \\ F_{n - 1} + F_{n - 2} & \text{otherwise} \end{array} \right. \tag {3.1}
 $$
 
 Figure 3.6 shows the relationship between the intervals. Example 3.1 walks through an application to a univariate function.
 
 $$
-\begin{array}{l} I _ {1} = I _ {2} + I _ {3} = 8 I _ {5} \\ \begin{array}{c c c c} & & & I _ {2} = I _ {3} + I _ {4} = 5 I _ {5} \end{array} \\ \begin{array}{c c c c} \hline & & & I _ {3} = I _ {4} + I _ {5} = 3 I _ {5} \\ \hline \end{array} \\ \| I _ {4} = 2 I _ {5} \\ - \mid I _ {5} \\ \end{array}
+\begin{array}{l} I_{1} = I_{2} + I_{3} = 8 I_{5} \\ \begin{array}{c c c c} & & & I_{2} = I_{3} + I_{4} = 5 I_{5} \end{array} \\ \begin{array}{c c c c} \hline & & & I_{3} = I_{4} + I_{5} = 3 I_{5} \\ \hline \end{array} \\ \| I_{4} = 2 I_{5} \\ - \mid I_{5} \\ \end{array}
 $$
 
 The Fibonacci sequence can be determined analytically using Binet's formula:
 
 $$
-F _ {n} = \frac {\varphi^ {n} - (1 - \varphi) ^ {n}}{\sqrt {5}}, \tag {3.2}
+F_{n} = \frac{\varphi^{n} - (1 - \varphi) ^{n}}{\sqrt{5}}, \tag {3.2}
 $$
 
 where  $\varphi = (1 + \sqrt{5}) / 2\approx 1.61803$  is the golden ratio.
@@ -1571,7 +1341,7 @@ where  $\varphi = (1 + \sqrt{5}) / 2\approx 1.61803$  is the golden ratio.
 The ratio between successive values in the Fibonacci sequence is:
 
 $$
-\frac {F _ {n}}{F _ {n - 1}} = \varphi \frac {1 - s ^ {n}}{1 - s ^ {n - 1}} \tag {3.3}
+\frac{F_{n}}{F_{n - 1}} = \varphi \frac{1 - s^{n}}{1 - s^{n - 1}} \tag {3.3}
 $$
 
 where  $s = (1 - \sqrt{5}) / (1 + \sqrt{5}) \approx -0.382$ .
@@ -1607,7 +1377,7 @@ Algorithm 3.2. Fibonacci search to be run on univariate function  $f$ , with bra
 If we take the limit for large  $n$ , we see that the ratio between successive values of the Fibonacci sequence approaches the golden ratio:
 
 $$
-\lim  _ {n \rightarrow \infty} \frac {F _ {n}}{F _ {n - 1}} = \varphi \tag {3.4}
+\lim_{n \rightarrow \infty} \frac{F_{n}}{F_{n - 1}} = \varphi \tag {3.4}
 $$
 
 Golden section search (algorithm 3.3) uses the golden ratio to approximate Fibonacci search. Figure 3.7 shows the relationship between the intervals. Figures 3.8 and 3.9 compare Fibonacci search with golden section search on unimodal and non-unimodal functions, respectively.
@@ -1615,43 +1385,43 @@ Golden section search (algorithm 3.3) uses the golden ratio to approximate Fibon
 Consider using Fibonacci search with five function evaluations to minimize  $f(x) = \exp (x - 2) - x$  over the interval  $[a,b] = [-2,6]$ . The first two function evaluations are made at  $\frac{F_5}{F_6}$  and  $1 - \frac{F_5}{F_6}$ , along the length of the initial bracketing interval:
 
 $$
-f (x ^ {(1)}) = f \left(a + (b - a) \left(1 - \frac {F _ {5}}{F _ {6}}\right)\right) = f (1) = - 0. 6 3 2
+f (x^{(1)}) = f \left(a + (b - a) \left(1 - \frac{F_{5}}{F_{6}}\right)\right) = f (1) = - 0. 63 2
 $$
 
 $$
-f (x ^ {(2)}) = f \left(a + (b - a) \frac {F _ {5}}{F _ {6}}\right) = f (3) = - 0. 2 8 2
+f (x^{(2)}) = f \left(a + (b - a) \frac{F_{5}}{F_{6}}\right) = f (3) = - 0. 28 2
 $$
 
 The evaluation at  $x^{(1)}$  is lower, yielding the new interval  $[a,b] = [-2,3]$ . Two evaluations are needed for the next interval split:
 
 $$
-x _ {\mathrm {l e f t}} = a + (b - a) \left(1 - \frac {F _ {4}}{F _ {5}}\right) = 0
+x_{\mathrm{le ft}} = a + (b - a) \left(1 - \frac{F_{4}}{F_{5}}\right) = 0
 $$
 
 $$
-x _ {\mathrm {r i g h t}} = a + (b - a) \frac {F _ {4}}{F _ {5}} = 1
+x_{\mathrm{ri gh t}} = a + (b - a) \frac{F_{4}}{F_{5}} = 1
 $$
 
 A third function evaluation is thus made at  $x_{\mathrm{left}}$ , as  $x_{\mathrm{right}}$  has already been evaluated:
 
 $$
-f (x ^ {(3)}) = f (0) = 0. 1 3 5
+f (x^{(3)}) = f (0) = 0. 13 5
 $$
 
 The evaluation at  $x^{(1)}$  is lower, yielding the new interval  $[a,b] = [0,3]$ . Two evaluations are needed for the next interval split:
 
 $$
-x _ {\text {l e f t}} = a + (b - a) \left(1 - \frac {F _ {3}}{F _ {4}}\right) = 1
+x_{\text{left}} = a + (b - a) \left(1 - \frac{F_{3}}{F_{4}}\right) = 1
 $$
 
 $$
-x _ {\mathrm {r i g h t}} = a + (b - a) \frac {F _ {3}}{F _ {4}} = 2
+x_{\mathrm{ri gh t}} = a + (b - a) \frac{F_{3}}{F_{4}} = 2
 $$
 
 A fourth functional evaluation is thus made at  $x_{\mathrm{right}}$ , as  $x_{\mathrm{left}}$  has already been evaluated:
 
 $$
-f (x ^ {(4)}) = f (2) = - 1
+f (x^{(4)}) = f (2) = - 1
 $$
 
 The new interval is  $[a, b] = [1, 3]$ . A final evaluation is made just next to the center of the interval at  $2 + \epsilon$ , and it is found to have a slightly higher value than  $f(2)$ . The final interval is  $[1, 2 + \epsilon]$ .
@@ -1700,43 +1470,43 @@ Quadratic fit search leverages our ability to analytically solve for the minimum
 Given bracketing points  $a < b < c$ , we wish to find the coefficients  $p_1, p_2,$  and  $p_3$  for the quadratic function  $q$  that goes through  $(a, y_a), (b, y_b),$  and  $(c, y_c)$ :
 
 $$
-q (x) = p _ {1} + p _ {2} x + p _ {3} x ^ {2} \tag {3.5}
+q (x) = p_{1} + p_{2} x + p_{3} x^{2} \tag {3.5}
 $$
 
 $$
-y _ {a} = p _ {1} + p _ {2} a + p _ {3} a ^ {2} \tag {3.6}
+y_{a} = p_{1} + p_{2} a + p_{3} a^{2} \tag {3.6}
 $$
 
 $$
-y _ {b} = p _ {1} + p _ {2} b + p _ {3} b ^ {2} \tag {3.7}
+y_{b} = p_{1} + p_{2} b + p_{3} b^{2} \tag {3.7}
 $$
 
 $$
-y _ {c} = p _ {1} + p _ {2} c + p _ {3} c ^ {2} \tag {3.8}
+y_{c} = p_{1} + p_{2} c + p_{3} c^{2} \tag {3.8}
 $$
 
 In matrix form, we have
 
 $$
-\left[ \begin{array}{l} y _ {a} \\ y _ {b} \\ y _ {c} \end{array} \right] = \left[ \begin{array}{l l l} 1 & a & a ^ {2} \\ 1 & b & b ^ {2} \\ 1 & c & c ^ {2} \end{array} \right] \left[ \begin{array}{l} p _ {1} \\ p _ {2} \\ p _ {3} \end{array} \right] \tag {3.9}
+\left[ \begin{array}{l} y_{a} \\ y_{b} \\ y_{c} \end{array} \right] = \left[ \begin{array}{l l l} 1 & a & a^{2} \\ 1 & b & b^{2} \\ 1 & c & c^{2} \end{array} \right] \left[ \begin{array}{l} p_{1} \\ p_{2} \\ p_{3} \end{array} \right] \tag {3.9}
 $$
 
 We can solve for the coefficients through matrix inversion:
 
 $$
-\left[ \begin{array}{l} p _ {1} \\ p _ {2} \\ p _ {3} \end{array} \right] = \left[ \begin{array}{c c c} 1 & a & a ^ {2} \\ 1 & b & b ^ {2} \\ 1 & c & c ^ {2} \end{array} \right] ^ {- 1} \left[ \begin{array}{l} y _ {a} \\ y _ {b} \\ y _ {c} \end{array} \right] \tag {3.10}
+\left[ \begin{array}{l} p_{1} \\ p_{2} \\ p_{3} \end{array} \right] = \left[ \begin{array}{c c c} 1 & a & a^{2} \\ 1 & b & b^{2} \\ 1 & c & c^{2} \end{array} \right] ^{- 1} \left[ \begin{array}{l} y_{a} \\ y_{b} \\ y_{c} \end{array} \right] \tag {3.10}
 $$
 
 Our quadratic function is then
 
 $$
-q (x) = y _ {a} \frac {(x - b) (x - c)}{(a - b) (a - c)} + y _ {b} \frac {(x - a) (x - c)}{(b - a) (b - c)} + y _ {c} \frac {(x - a) (x - b)}{(c - a) (c - b)} \tag {3.11}
+q (x) = y_{a} \frac{(x - b) (x - c)}{(a - b) (a - c)} + y_{b} \frac{(x - a) (x - c)}{(b - a) (b - c)} + y_{c} \frac{(x - a) (x - b)}{(c - a) (c - b)} \tag {3.11}
 $$
 
 We can solve for the unique minimum by finding where the derivative is zero:
 
 $$
-x ^ {*} = \frac {1}{2} \frac {y _ {a} \left(b ^ {2} - c ^ {2}\right) + y _ {b} \left(c ^ {2} - a ^ {2}\right) + y _ {c} \left(a ^ {2} - b ^ {2}\right)}{y _ {a} (b - c) + y _ {b} (c - a) + y _ {c} (a - b)} \tag {3.12}
+x^{*} = \frac{1}{2} \frac{y_{a} \left(b^{2} - c^{2}\right) + y_{b} \left(c^{2} - a^{2}\right) + y_{c} \left(a^{2} - b^{2}\right)}{y_{a} (b - c) + y_{b} (c - a) + y_{c} (a - b)} \tag {3.12}
 $$
 
 Quadratic fit search is typically faster than golden section search. It may need safeguards for cases where the next point is very close to other points. A basic implementation is provided in algorithm 3.4. Figure 3.11 shows several iterations of the algorithm.
@@ -1779,7 +1549,7 @@ In contrast with previous methods in this chapter, the Shubert-Piyavskii method<
 The Shubert-Piyavskii method requires that the function be Lipschitz continuous, meaning that it is continuous and there is an upper bound on the magnitude of its derivative. A function  $f$  is Lipschitz continuous on  $[a,b]$  if there exists an  $\ell > 0$  such that:
 
 $$
-\left| f (x) - f (y) \right| \leq \ell | x - y | \text {f o r a l l} x, y \in [ a, b ] \tag {3.13}
+\left| f (x) - f (y) \right| \leq \ell | x - y | \text{forall} x, y \in [ a, b ] \tag {3.13}
 $$
 
 Intuitively,  $\ell$  is as large as the largest unsigned instantaneous rate of change the function attains on  $[a,b]$ . Given a point  $(x_0,f(x_0))$ , we know that the lines  $f(x_0) - \ell (x - x_0)$  for  $x > x_0$  and  $f(x_0) + \ell (x - x_0)$  for  $x < x_0$  form a lower bound of  $f$ .
@@ -1807,7 +1577,7 @@ The algorithm is typically stopped when the difference in height between the min
 The regions in which the minimum could lie can be computed using this update information. For every peak, an uncertainty region can be computed according to:
 
 $$
-\left[ x ^ {(i)} - \frac {1}{\ell} \left(y _ {\min } - y ^ {(i)}\right), x ^ {(i)} + \frac {1}{\ell} \left(y _ {\min } - y ^ {(i)}\right) \right] \tag {3.14}
+\left[ x^{(i)} - \frac{1}{\ell} \left(y_{\min } - y^{(i)}\right), x^{(i)} + \frac{1}{\ell} \left(y_{\min } - y^{(i)}\right) \right] \tag {3.14}
 $$
 
 for each sawtooth lower vertex  $(x^{(i)},y^{(i)})$  and the minimum sawtooth upper vertex  $(x_{\min},y_{\min})$ . A point will contribute an uncertainty region only if  $y^{(i)} < y_{\min}$ . The minimum is located in one of these peak uncertainty regions.
@@ -1967,7 +1737,7 @@ The iterative descent direction procedure involves the following steps:
 4. Compute the next design point according to:
 
 $$
-\mathbf {x} ^ {(k + 1)} \leftarrow \mathbf {x} ^ {(k)} + \alpha^ {(k)} \mathbf {d} ^ {(k)} \tag {4.1}
+\mathbf {x}^{(k + 1)} \leftarrow \mathbf {x}^{(k)} + \alpha^{(k)} \mathbf {d}^{(k)} \tag {4.1}
 $$
 
 There are many different optimization methods, each with their own ways of determining  $\alpha$  and  $\mathbf{d}$ . They typically follow a similar iterative structure, as implemented in algorithm 4.1.
@@ -1992,7 +1762,7 @@ Some algorithms use a fixed step factor. Large steps will tend to result in fast
 Alternatively, we can decay the step factor over time, with the intuition that larger steps are taken early in the optimization process to quickly arrive in the general proximity of a solution and smaller steps are later taken to refine the solution to a true minimum. One common decay scheme is to multiply the step factor by a constant  $\gamma$  at each iteration, where  $0 < \gamma \leq 1$ :
 
 $$
-\alpha^ {(k)} \leftarrow \gamma \alpha^ {(k - 1)} \tag {4.2}
+\alpha^{(k)} \leftarrow \gamma \alpha^{(k - 1)} \tag {4.2}
 $$
 
 2 T. Hastie, R. Tibshirani, and J. H. Friedman, The Elements of Statistical Learning, 2nd ed. Springer, 2017.
@@ -2006,7 +1776,7 @@ This scheme ensures that the step factor decreases over time, which can help the
 Instead of using a fixed or decaying step factor, we can use line search to directly optimize the step factor to minimize the objective function given a descent direction  $\mathbf{d}$ :
 
 $$
-\underset {\alpha} {\text {m i n i m i z e}} f (\mathbf {x} + \alpha \mathbf {d}) \tag {4.3}
+\underset{\alpha} {\text{minimize}} f (\mathbf {x} + \alpha \mathbf {d}) \tag {4.3}
 $$
 
 Line search is a univariate optimization problem, a class of problems covered in chapter 3.4 To inform the search, we can use the derivative of the line search objective, which is simply the directional derivative along  $\mathbf{d}$  at  $\mathbf{x} + \alpha \mathbf{d}$ . Line search is demonstrated in example 4.1 and implemented in algorithm 4.2.
@@ -2024,9 +1794,7 @@ One disadvantage of conducting a line search at each step is the computational c
 
 # 4.4 Approximate Line Search
 
-It is often more computationally efficient to perform more iterations of a descent method than to do exact line search at each iteration, especially if the function and derivative calculations are expensive. Many of the methods discussed so far can benefit from using approximate line search to find a suitable step size with a small number of evaluations. This section discusses methods for searching for a step size that satisfies certain criteria known as the Wolfe conditions.5
-
-3 The convergence of various descent algorithms are discussed in detail by J. Nocedal and S.J. Wright, Numerical Optimization, 2nd ed. Springer, 2006.
+It is often more computationally efficient to perform more iterations of a descent method than to do exact line search at each iteration, especially if the function and derivative calculations are expensive. Many of the methods discussed so far can benefit from using approximate line search to find a suitable step size with a small number of evaluations. This section discusses methods for searching for a step size that satisfies certain criteria known as the Wolfe conditions.53 The convergence of various descent algorithms are discussed in detail by J. Nocedal and S.J. Wright, Numerical Optimization, 2nd ed. Springer, 2006.
 
 4 The Brent-Dekker method, mentioned in the previous chapter, is a commonly used univariate optimization method.
 
@@ -2037,13 +1805,13 @@ Algorithm 4.2. A method for conducting a line search, which finds the optimal st
 Consider conducting a line search on  $f(x_{1},x_{2},x_{3}) = \sin (x_{1}x_{2}) + \exp (x_{2} + x_{3}) - x_{3}$  from  $\mathbf{x} = [1,2,3]$  in the direction  $\mathbf{d} = [0, - 1, - 1]$ . The corresponding optimization problem is:
 
 $$
-\underset {\alpha} {\text {m i n i m i z e}} \sin ((1 + 0 \alpha) (2 - \alpha)) + \exp ((2 - \alpha) + (3 - \alpha)) - (3 - \alpha)
+\underset{\alpha} {\text{minimize}} \sin ((1 + 0 \alpha) (2 - \alpha)) + \exp ((2 - \alpha) + (3 - \alpha)) - (3 - \alpha)
 $$
 
 which simplifies to:
 
 $$
-\underset {\alpha} {\text {m i n i m i z e}} \sin (2 - \alpha) + \exp (5 - 2 \alpha) + \alpha - 3
+\underset{\alpha} {\text{minimize}} \sin (2 - \alpha) + \exp (5 - 2 \alpha) + \alpha - 3
 $$
 
 The minimum is at  $\alpha \approx 3.127$  with  $\mathbf{x} \approx [1, -1.126, -0.126]$ .
@@ -2057,7 +1825,7 @@ Example 4.1. Line search used to minimize a function along a descent direction.
 The first Wolfe condition requires that the step factor  $\alpha$  cause a sufficient decrease in the objective function value. If the descent direction is  $\mathbf{d}^{(k)}$  at step  $k$ , then a first order approximation of the objective function at  $\mathbf{x}^{(k + 1)} = \mathbf{x}^{(k)} + \alpha \mathbf{d}^{(k)}$  is given by:
 
 $$
-f \left(\mathbf {x} ^ {(k + 1)}\right) = f \left(\mathbf {x} ^ {(k)}\right) + \alpha \nabla_ {\mathbf {d} ^ {(k)}} f \left(\mathbf {x} ^ {(k)}\right) \tag {4.4}
+f \left(\mathbf {x}^{(k + 1)}\right) = f \left(\mathbf {x}^{(k)}\right) + \alpha \nabla_{\mathbf {d}^{(k)}} f \left(\mathbf {x}^{(k)}\right) \tag {4.4}
 $$
 
 Since we have a valid descent direction, the directional derivative  $\nabla_{\mathbf{d}^{(k)}}f(\mathbf{x}^{(k)})$  is negative. Hence, if we take a sufficiently small step size, the objective function value at the next design point will be less than the objective function value at the current design point.
@@ -2065,7 +1833,7 @@ Since we have a valid descent direction, the directional derivative  $\nabla_{\m
 Although we could choose a step factor that causes any decrease in the objective function value, it is often beneficial to require a certain amount of decrease related to what could be expected by a first-order approximation. We can define this amount as a fraction  $\beta \in [0,1]$  of the decrease predicted by the first-order approximation, resulting in the condition:
 
 $$
-f \left(\mathbf {x} ^ {(k + 1)}\right) \leq f \left(\mathbf {x} ^ {(k)}\right) + \beta \alpha \nabla_ {\mathbf {d} ^ {(k)}} f \left(\mathbf {x} ^ {(k)}\right) \tag {4.5}
+f \left(\mathbf {x}^{(k + 1)}\right) \leq f \left(\mathbf {x}^{(k)}\right) + \beta \alpha \nabla_{\mathbf {d}^{(k)}} f \left(\mathbf {x}^{(k)}\right) \tag {4.5}
 $$
 
 Figure 4.1 illustrates this condition. If  $\beta = 0$ , then any decrease is acceptable. If  $\beta = 1$ , then the decrease has to be at least as much as what would be predicted by a first-order approximation.
@@ -2092,7 +1860,7 @@ end
 The second Wolfe condition, called the curvature condition, requires the directional derivative at the next iterate to be shallower (less negative):
 
 $$
-\nabla_ {\mathbf {d} ^ {(k)}} f \left(\mathbf {x} ^ {(k + 1)}\right) \geq \sigma \nabla_ {\mathbf {d} ^ {(k)}} f \left(\mathbf {x} ^ {(k)}\right) \tag {4.6}
+\nabla_{\mathbf {d}^{(k)}} f \left(\mathbf {x}^{(k + 1)}\right) \geq \sigma \nabla_{\mathbf {d}^{(k)}} f \left(\mathbf {x}^{(k)}\right) \tag {4.6}
 $$
 
 where the parameter  $\sigma$  controls how shallow the next directional derivative must be. The intuition is that we should probably take a larger step if we are still descending steeply so that we can get closer to a point where the first-order necessary condition for optimality is satisfied.[9]
@@ -2100,7 +1868,7 @@ where the parameter  $\sigma$  controls how shallow the next directional derivat
 An alternative to the curvature condition is the strong curvature condition, which is a more restrictive criterion in that the slope is also required not to be too positive:
 
 $$
-\left| \nabla_ {\mathbf {d} ^ {(k)}} f \left(\mathbf {x} ^ {(k + 1)}\right) \right| \leq - \sigma \nabla_ {\mathbf {d} ^ {(k)}} f \left(\mathbf {x} ^ {(k)}\right) \tag {4·7}
+\left| \nabla_{\mathbf {d}^{(k)}} f \left(\mathbf {x}^{(k + 1)}\right) \right| \leq - \sigma \nabla_{\mathbf {d}^{(k)}} f \left(\mathbf {x}^{(k)}\right) \tag {4·7}
 $$
 
 Algorithm 4.3. The backtracking line search algorithm, which takes objective function  $f$ , its gradient  $\nabla f$ , the current design point  $x$ , a descent direction  $d$ , and the maximum step size  $\alpha$ . We can optionally specify the reduction factor  $p$  and the first Wolfe condition parameter  $\beta$ . Note that the cdot character - aliases to the dot function such that  $a \cdot b$  is equivalent to  $\mathrm{dot}(a, b)$ . The symbol can be created by typing  $\backslash$  cdot and hitting tab.
@@ -2123,7 +1891,7 @@ f (\mathbf {x} + \alpha \mathbf {d}) \geq f (\mathbf {x}) \tag {4.8}
 $$
 
 $$
-f (\mathbf {x} + \alpha \mathbf {d}) > f (\mathbf {x}) + \beta \alpha \nabla_ {\mathbf {d}} f (\mathbf {x}) \tag {4.9}
+f (\mathbf {x} + \alpha \mathbf {d}) > f (\mathbf {x}) + \beta \alpha \nabla_{\mathbf {d}} f (\mathbf {x}) \tag {4.9}
 $$
 
 $$
@@ -2139,19 +1907,19 @@ Consider approximate line search on  $f(x_{1},x_{2}) = x_{1}^{2} + x_{1}x_{2} + 
 We check whether the maximum step size satisfies the first Wolfe condition, where the gradient at  $\mathbf{x}$  is  $\mathbf{g} = [4,5]$ :
 
 $$
-\begin{array}{l} f (\mathbf {x} + \alpha \mathbf {d}) \leq f (\mathbf {x}) + \beta \alpha (\mathbf {g} ^ {\top} \mathbf {d}) \\ f ([ 1, 2 ] + 1 0 \cdot [ - 1, - 1 ]) \leq 7 + 1 0 ^ {- 4} \cdot 1 0 \cdot [ 4, 5 ] ^ {\top} [ - 1, - 1 ] \\ 2 1 7 \leq 6. 9 9 1 \\ \end{array}
+\begin{array}{l} f (\mathbf {x} + \alpha \mathbf {d}) \leq f (\mathbf {x}) + \beta \alpha (\mathbf {g}^{\top} \mathbf {d}) \\ f ([ 1, 2 ] + 10 \cdot [ - 1, - 1 ]) \leq 7 + 10^{- 4} \cdot 10 \cdot [ 4, 5 ] ^{\top} [ - 1, - 1 ] \\ 21 7 \leq 6. 99 1 \\ \end{array}
 $$
 
 Because it is not satisfied, the step size is multiplied by 0.5 to obtain 5, and the first Wolfe condition is checked again:
 
 $$
-\begin{array}{l} f ([ 1, 2 ] + 5 \cdot [ - 1, - 1 ]) \leq 7 + 1 0 ^ {- 4} \cdot 5 \cdot [ 4, 5 ] ^ {\top} [ - 1, - 1 ] \\ 3 7 \leq 6. 9 9 6 \\ \end{array}
+\begin{array}{l} f ([ 1, 2 ] + 5 \cdot [ - 1, - 1 ]) \leq 7 + 10^{- 4} \cdot 5 \cdot [ 4, 5 ] ^{\top} [ - 1, - 1 ] \\ 37 \leq 6. 99 6 \\ \end{array}
 $$
 
 Because it is not satisfied, the step size is multiplied by 0.5 to obtain 2.5, and the first Wolfe condition is checked again:
 
 $$
-\begin{array}{l} f ([ 1, 2 ] + 2. 5 \cdot [ - 1, - 1 ]) \leq 7 + 1 0 ^ {- 4} \cdot 2. 5 \cdot [ 4, 5 ] ^ {\top} [ - 1, - 1 ] \\ 3. 2 5 \leq 6. 9 9 8 \\ \end{array}
+\begin{array}{l} f ([ 1, 2 ] + 2. 5 \cdot [ - 1, - 1 ]) \leq 7 + 10^{- 4} \cdot 2. 5 \cdot [ 4, 5 ] ^{\top} [ - 1, - 1 ] \\ 3. 25 \leq 6. 99 8 \\ \end{array}
 $$
 
 The first Wolfe condition is satisfied, and we terminate the line search.
@@ -2194,11 +1962,11 @@ Descent methods can place too much trust in their first- or second-order informa
 Trust region methods first choose the maximum step size and then the step direction, which is in contrast with line search methods that first choose a step direction and then optimize the step size. A trust region approach finds the next step by minimizing a model of the objective function  $\hat{f}$  over a trust region centered on the current design point  $\mathbf{x}$ . An example of  $\hat{f}$  is a second-order Taylor approximation (see appendix C.2). The radius of the trust region,  $\delta$ , is expanded and contracted based on how well the model predicts function evaluations. The next design point  $\mathbf{x}'$  is obtained by solving:
 
 $$
-\underset {\mathbf {x} ^ {\prime}} {\text {m i n i m i z e}} \quad \hat {f} \left(\mathbf {x} ^ {\prime}\right) \tag {4.11}
+\underset{\mathbf {x}^{\prime}} {\text{minimize}} \quad \hat {f} \left(\mathbf {x}^{\prime}\right) \tag {4.11}
 $$
 
 $$
-\text {s u b j e c t} \quad \| \mathbf {x} - \mathbf {x} ^ {\prime} \| \leq \delta
+\text{subject} \quad \| \mathbf {x} - \mathbf {x}^{\prime} \| \leq \delta
 $$
 
 where the trust region is defined by the positive radius  $\delta$  and a vector norm. $^{14}$  The equation above is a constrained optimization problem, which is covered in chapter 10.
@@ -2206,7 +1974,7 @@ where the trust region is defined by the positive radius  $\delta$  and a vector
 The trust region radius  $\delta$  is expanded or contracted based on the local model's predictive performance. Trust region methods compare the predicted improvement  $\Delta y_{\mathrm{pred}} = f(\mathbf{x}) - \hat{f} (\mathbf{x}^{\prime})$  to the actual improvement  $\Delta y_{\mathrm{act}} = f(\mathbf{x}) - f(\mathbf{x}^{\prime})$ :
 
 $$
-\eta = \frac {\text {a c t u a l i m p r o v e m e n t}}{\text {p r e d i c t e d i m p r o v e m e n t}} = \frac {f (\mathbf {x}) - f \left(\mathbf {x} ^ {\prime}\right)}{f (\mathbf {x}) - \hat {f} \left(\mathbf {x} ^ {\prime}\right)} \tag {4.12}
+\eta = \frac{\text{actualimprovement}}{\text{predictedimprovement}} = \frac{f (\mathbf {x}) - f \left(\mathbf {x}^{\prime}\right)}{f (\mathbf {x}) - \hat {f} \left(\mathbf {x}^{\prime}\right)} \tag {4.12}
 $$
 
 The ratio  $\eta$  is close to 1 when the predicted step size matches the actual step size. If the ratio is too small, such as below a threshold  $\eta_{1}$ , then the improvement is considered sufficiently less than expected, and the trust region radius is scaled down by a factor  $\gamma_{1} < 1$ . If the ratio is sufficiently large, such as above a threshold
@@ -2260,7 +2028,7 @@ Figure 4.7. Trust region optimization used on the Rosenbrock function (appendix 
 Trust regions need not be circular. In some cases, certain directions may have higher trust than others. A norm can be constructed to produce elliptical regions as shown in figure 4.8:
 
 $$
-\left\| \mathbf {x} - \mathbf {x} _ {0} \right\| _ {\mathbf {E}} = \left(\mathbf {x} - \mathbf {x} _ {0}\right) ^ {\top} \mathbf {E} \left(\mathbf {x} - \mathbf {x} _ {0}\right) \tag {4.13}
+\left\| \mathbf {x} - \mathbf {x}_{0} \right\| _{\mathbf {E}} = \left(\mathbf {x} - \mathbf {x}_{0}\right) ^{\top} \mathbf {E} \left(\mathbf {x} - \mathbf {x}_{0}\right) \tag {4.13}
 $$
 
 The ellipse matrix  $\mathbf{E}$  can be updated with each descent iteration, which can involve more complicated adjustments than scaling the trusted region.[15]
@@ -2272,7 +2040,7 @@ There are four common termination conditions for descent direction methods:
 - Maximum iterations. We may want to terminate when the number of iterations  $k$  exceeds some threshold  $k_{\mathrm{max}}$ . Alternatively, we might want to terminate once a maximum amount of elapsed time is exceeded.
 
 $$
-k > k _ {\max } \tag {4.14}
+k > k_{\max } \tag {4.14}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/a9493010a4e445e8cf478fd14253a44a355d3be8bbc9f3f596f51005d94d23a5.jpg)  
@@ -2283,19 +2051,19 @@ Figure 4.8. Trust region optimization can be adaptive to use elliptical trust re
 - Absolute improvement. This termination condition looks at the change in the function value over subsequent steps. If the change is smaller than a given threshold, it will terminate:
 
 $$
-f \left(\mathbf {x} ^ {(k)}\right) - f \left(\mathbf {x} ^ {(k + 1)}\right) <   \epsilon_ {a} \tag {4.15}
+f \left(\mathbf {x}^{(k)}\right) - f \left(\mathbf {x}^{(k + 1)}\right) <   \epsilon_{a} \tag {4.15}
 $$
 
 - Relative improvement. This termination condition also looks at the change in function value but uses the step factor relative to the current function value:
 
 $$
-f \left(\mathbf {x} ^ {(k)}\right) - f \left(\mathbf {x} ^ {(k + 1)}\right) <   \epsilon_ {r} | f \left(\mathbf {x} ^ {(k)}\right) | \tag {4.16}
+f \left(\mathbf {x}^{(k)}\right) - f \left(\mathbf {x}^{(k + 1)}\right) <   \epsilon_{r} | f \left(\mathbf {x}^{(k)}\right) | \tag {4.16}
 $$
 
 - Gradient magnitude. We can also terminate based on the magnitude of the gradient:
 
 $$
-\| \nabla f (\mathbf {x} ^ {(k + 1)}) \| <   \epsilon_ {g} \tag {4.17}
+\| \nabla f (\mathbf {x}^{(k + 1)}) \| <   \epsilon_{g} \tag {4.17}
 $$
 
 In cases where multiple local minima are likely to exist, it can be beneficial to incorporate random restarts after our termination conditions are met where we restart our local descent method from randomly selected initial points.
@@ -2319,7 +2087,7 @@ A descent method applied to  $f(x) = -x$  will also forever proceed in the posit
 Exercise 4.2. The first Wolfe condition requires
 
 $$
-f \left(\mathbf {x} ^ {(k)} + \alpha \mathbf {d} ^ {(k)}\right) \leq f \left(\mathbf {x} ^ {(k)}\right) + \beta \alpha \nabla_ {\mathbf {d} ^ {(k)}} f \left(\mathbf {x} ^ {(k)}\right)
+f \left(\mathbf {x}^{(k)} + \alpha \mathbf {d}^{(k)}\right) \leq f \left(\mathbf {x}^{(k)}\right) + \beta \alpha \nabla_{\mathbf {d}^{(k)}} f \left(\mathbf {x}^{(k)}\right)
 $$
 
 What is the maximum step length  $\alpha$  that satisfies this condition, given that  $f(\mathbf{x}) = 5 + x_1^2 + x_2^2$ ,  $\mathbf{x}^{(k)} = [-1, -1]$ ,  $\mathbf{d} = [1,0]$ , and  $\beta = 10^{-4}$ ?
@@ -2339,19 +2107,19 @@ The previous chapter introduced the general concept of descent direction methods
 The gradient descent method uses the gradient to select the next descent direction  $\mathbf{d}$ . For convenience, we define the gradient at the  $k$ th iterate  $\mathbf{x}^{(k)}$  to be
 
 $$
-\mathbf {g} ^ {(k)} = \nabla f (\mathbf {x} ^ {(k)}) \tag {5.1}
+\mathbf {g}^{(k)} = \nabla f (\mathbf {x}^{(k)}) \tag {5.1}
 $$
 
 The motivation for gradient descent comes from the first-order Taylor series approximation about our current iterate  $\mathbf{x}^{(k)}$ :
 
 $$
-f \left(\mathbf {x} ^ {(k)} + \alpha \mathbf {d}\right) \approx f \left(\mathbf {x} ^ {(k)}\right) + \alpha \mathbf {d} ^ {\top} \mathbf {g} ^ {(k)} \tag {5.2}
+f \left(\mathbf {x}^{(k)} + \alpha \mathbf {d}\right) \approx f \left(\mathbf {x}^{(k)}\right) + \alpha \mathbf {d}^{\top} \mathbf {g}^{(k)} \tag {5.2}
 $$
 
 We can choose the direction  $\mathbf{d}$  that minimizes this first-order approximation subject to the constraint that  $\| \mathbf{d} \| = 1$ . The direction that minimizes this first-order approximation is the direction of steepest descent, which is simply the direction opposite the gradient:
 
 $$
-\mathbf {d} ^ {(k)} = - \frac {\mathbf {g} ^ {(k)}}{\| \mathbf {g} ^ {(k)} \|} \tag {5.3}
+\mathbf {d}^{(k)} = - \frac{\mathbf {g}^{(k)}}{\| \mathbf {g}^{(k)} \|} \tag {5.3}
 $$
 
 Some implementations of gradient descent do not normalize the descent direction. In that case, the step factor  $\alpha$  does not correspond to the step length.
@@ -2363,25 +2131,25 @@ Following the direction of steepest descent is guaranteed to lead to improvement
 We can show that the next direction is orthogonal to the current direction as follows. If we optimize the step size at each step, we have
 
 $$
-\alpha^ {(k)} = \underset {\alpha} {\arg \min } f \left(\mathbf {x} ^ {(k)} + \alpha \mathbf {d} ^ {(k)}\right) \tag {5.4}
+\alpha^{(k)} = \underset{\alpha} {\arg \min } f \left(\mathbf {x}^{(k)} + \alpha \mathbf {d}^{(k)}\right) \tag {5.4}
 $$
 
 The optimization above implies that the directional derivative equals zero. Using equation (2.9), we have
 
 $$
-\nabla f \left(\mathbf {x} ^ {(k)} + \alpha \mathbf {d} ^ {(k)}\right) ^ {\top} \mathbf {d} ^ {(k)} = 0 \tag {5.5}
+\nabla f \left(\mathbf {x}^{(k)} + \alpha \mathbf {d}^{(k)}\right) ^{\top} \mathbf {d}^{(k)} = 0 \tag {5.5}
 $$
 
 We know
 
 $$
-\mathbf {d} ^ {(k + 1)} = - \frac {\nabla f \left(\mathbf {x} ^ {(k)} + \alpha \mathbf {d} ^ {(k)}\right)}{\| \nabla f \left(\mathbf {x} ^ {(k)} + \alpha \mathbf {d} ^ {(k)}\right) \|} \tag {5.6}
+\mathbf {d}^{(k + 1)} = - \frac{\nabla f \left(\mathbf {x}^{(k)} + \alpha \mathbf {d}^{(k)}\right)}{\| \nabla f \left(\mathbf {x}^{(k)} + \alpha \mathbf {d}^{(k)}\right) \|} \tag {5.6}
 $$
 
 Hence,
 
 $$
-\mathbf {d} ^ {(k + 1) \top} \mathbf {d} ^ {(k)} = 0 \tag {5.7}
+\mathbf {d}^{(k + 1) \top} \mathbf {d}^{(k)} = 0 \tag {5.7}
 $$
 
 which means that  $\mathbf{d}^{(k + 1)}$  and  $\mathbf{d}^{(k)}$  are orthogonal.
@@ -2411,7 +2179,7 @@ Algorithm 5.1. The gradient descent method, which follows the direction of gradi
 Gradient descent can perform poorly in narrow valleys. The conjugate gradient method overcomes this issue by borrowing inspiration from methods for optimizing quadratic functions:
 
 $$
-\underset {\mathbf {x}} {\operatorname {m i n i m i z e}} f (\mathbf {x}) = \frac {1}{2} \mathbf {x} ^ {\top} \mathbf {A x} + \mathbf {b} ^ {\top} \mathbf {x} + c \tag {5.8}
+\underset{\mathbf {x}} {\operatorname{minimize}} f (\mathbf {x}) = \frac{1}{2} \mathbf {x}^{\top} \mathbf {A x} + \mathbf {b}^{\top} \mathbf {x} + c \tag {5.8}
 $$
 
 where  $\mathbf{A}$  is symmetric and positive definite, and thus  $f$  has a unique local minimum (section 1.6.2).
@@ -2419,7 +2187,7 @@ where  $\mathbf{A}$  is symmetric and positive definite, and thus  $f$  has a un
 The conjugate gradient method can optimize  $n$ -dimensional quadratic functions in  $n$  steps as shown in figure 5.2. Its directions are mutually conjugate with respect to  $\mathbf{A}$ :
 
 $$
-\mathbf {d} ^ {(i) \top} \mathbf {A} \mathbf {d} ^ {(j)} = 0 \text {f o r a l l} i \neq j \tag {5.9}
+\mathbf {d}^{(i) \top} \mathbf {A} \mathbf {d}^{(j)} = 0 \text{forall} i \neq j \tag {5.9}
 $$
 
 The mutually conjugate vectors are the basis vectors of  $\mathbf{A}$ . They are generally not orthogonal to one another.
@@ -2427,19 +2195,19 @@ The mutually conjugate vectors are the basis vectors of  $\mathbf{A}$ . They are
 The successive conjugate directions are computed using gradient information and the previous descent direction. The algorithm starts with the direction of steepest descent:
 
 $$
-\mathbf {d} ^ {(1)} = - \mathbf {g} ^ {(1)} \tag {5.10}
+\mathbf {d}^{(1)} = - \mathbf {g}^{(1)} \tag {5.10}
 $$
 
 We then use line search to find the next design point. For quadratic functions, the step factor  $\alpha$  can be computed exactly (example 5.1). The update is then:
 
 $$
-\mathbf {x} ^ {(2)} = \mathbf {x} ^ {(1)} + \alpha^ {(1)} \mathbf {d} ^ {(1)} \tag {5.11}
+\mathbf {x}^{(2)} = \mathbf {x}^{(1)} + \alpha^{(1)} \mathbf {d}^{(1)} \tag {5.11}
 $$
 
 Subsequent iterations choose  $\mathbf{d}^{(k + 1)}$  based on the current gradient and a contribution from the previous descent direction:
 
 $$
-\mathbf {d} ^ {(k)} = - \mathbf {g} ^ {(k)} + \beta^ {(k)} \mathbf {d} ^ {(k - 1)} \tag {5.12}
+\mathbf {d}^{(k)} = - \mathbf {g}^{(k)} + \beta^{(k)} \mathbf {d}^{(k - 1)} \tag {5.12}
 $$
 
 for scalar parameter  $\beta$ . Larger values of  $\beta$  indicate that the previous descent direction contributes more strongly.
@@ -2450,19 +2218,19 @@ Figure 5.2. Conjugate gradient descent converges in  $n$  steps when applied to 
 Suppose we want to derive the optimal step factor for a line search on a quadratic function:
 
 $$
-\underset {\alpha} {\text {m i n i m i z e}} f (\mathbf {x} + \alpha \mathbf {d})
+\underset{\alpha} {\text{minimize}} f (\mathbf {x} + \alpha \mathbf {d})
 $$
 
 We can compute the derivative with respect to  $\alpha$ :
 
 $$
-\begin{array}{l} \frac {\partial f (\mathbf {x} + \alpha \mathbf {d})}{\partial \alpha} = \frac {\partial}{\partial \alpha} \left[ \frac {1}{2} (\mathbf {x} + \alpha \mathbf {d}) ^ {\top} \mathbf {A} (\mathbf {x} + \alpha \mathbf {d}) + \mathbf {b} ^ {\top} (\mathbf {x} + \alpha \mathbf {d}) + c \right] \\ = \mathbf {d} ^ {\top} \mathbf {A} (\mathbf {x} + \alpha \mathbf {d}) + \mathbf {d} ^ {\top} \mathbf {b} \\ = \mathbf {d} ^ {\top} (\mathbf {A x} + \mathbf {b}) + \alpha \mathbf {d} ^ {\top} \mathbf {A d} \\ \end{array}
+\begin{array}{l} \frac{\partial f (\mathbf {x} + \alpha \mathbf {d})}{\partial \alpha} = \frac{\partial}{\partial \alpha} \left[ \frac{1}{2} (\mathbf {x} + \alpha \mathbf {d}) ^{\top} \mathbf {A} (\mathbf {x} + \alpha \mathbf {d}) + \mathbf {b}^{\top} (\mathbf {x} + \alpha \mathbf {d}) + c \right] \\ = \mathbf {d}^{\top} \mathbf {A} (\mathbf {x} + \alpha \mathbf {d}) + \mathbf {d}^{\top} \mathbf {b} \\ = \mathbf {d}^{\top} (\mathbf {A x} + \mathbf {b}) + \alpha \mathbf {d}^{\top} \mathbf {A d} \\ \end{array}
 $$
 
 Setting  $\frac{\partial f(\mathbf{x} + \alpha\mathbf{d})}{\partial\alpha} = 0$  results in:
 
 $$
-\alpha = - \frac {\mathbf {d} ^ {\top} (\mathbf {A x} + \mathbf {b})}{\mathbf {d} ^ {\top} \mathbf {A d}}
+\alpha = - \frac{\mathbf {d}^{\top} (\mathbf {A x} + \mathbf {b})}{\mathbf {d}^{\top} \mathbf {A d}}
 $$
 
 Example 5.1. The optimal step factor for a line search on a quadratic function.
@@ -2470,13 +2238,13 @@ Example 5.1. The optimal step factor for a line search on a quadratic function.
 We can derive the best value for  $\beta$  for a known  $\mathbf{A}$ , using the fact that  $\mathbf{d}^{(k)}$  is conjugate to  $\mathbf{d}^{(k-1)}$ :
 
 $$
-\begin{array}{l} \mathbf {d} ^ {(k) \top} \mathbf {A d} ^ {(k - 1)} = 0 (5.13) \\ \Rightarrow \left(- \mathbf {g} ^ {(k)} + \beta^ {(k)} \mathbf {d} ^ {(k - 1)}\right) ^ {\top} \mathbf {A} \mathbf {d} ^ {(k - 1)} = 0 (5.14) \\ \Rightarrow - \mathbf {g} ^ {(k) ^ {\top}} \mathbf {A d} ^ {(k - 1)} + \beta^ {(k)} \mathbf {d} ^ {(k - 1) ^ {\top}} \mathbf {A d} ^ {(k - 1)} = 0 (5.15) \\ \Rightarrow \beta^ {(k)} = \frac {\mathbf {g} ^ {(k) ^ {\top}} \mathbf {A d} ^ {(k - 1)}}{\mathbf {d} ^ {(k - 1) ^ {\top}} \mathbf {A d} ^ {(k - 1)}} (5.16) \\ \end{array}
+\begin{array}{l} \mathbf {d}^{(k) \top} \mathbf {A d}^{(k - 1)} = 0 (5.13) \\ \Rightarrow \left(- \mathbf {g}^{(k)} + \beta^{(k)} \mathbf {d}^{(k - 1)}\right) ^{\top} \mathbf {A} \mathbf {d}^{(k - 1)} = 0 (5.14) \\ \Rightarrow - \mathbf {g}^{(k) ^{\top}} \mathbf {A d}^{(k - 1)} + \beta^{(k)} \mathbf {d}^{(k - 1) ^{\top}} \mathbf {A d}^{(k - 1)} = 0 (5.15) \\ \Rightarrow \beta^{(k)} = \frac{\mathbf {g}^{(k) ^{\top}} \mathbf {A d}^{(k - 1)}}{\mathbf {d}^{(k - 1) ^{\top}} \mathbf {A d}^{(k - 1)}} (5.16) \\ \end{array}
 $$
 
 The conjugate gradient method can be applied to nonquadratic functions as well. Smooth functions behave like quadratic functions close to a local minimum, and the conjugate gradient method will converge quickly in such regions. Unfortunately, we do not know the value of  $\mathbf{A}$  that best approximates  $f$  around  $\mathbf{x}^{(k)}$ . Several updates have been proposed for  $\beta^{(k)}$  that do not require knowing  $\mathbf{A}$  and tend to work well. One is the Fletcher-Reeves<sup>3</sup> update:
 
 $$
-\beta^ {(k)} = \frac {\mathbf {g} ^ {(k) \top} \mathbf {g} ^ {(k)}}{\mathbf {g} ^ {(k - 1) \top} \mathbf {g} ^ {(k - 1)}} \tag {5.17}
+\beta^{(k)} = \frac{\mathbf {g}^{(k) \top} \mathbf {g}^{(k)}}{\mathbf {g}^{(k - 1) \top} \mathbf {g}^{(k - 1)}} \tag {5.17}
 $$
 
 This update is equivalent to setting  $\beta^{(k)}$  to the ratio of the squared norm of the current gradient to the squared norm of the previous gradient.
@@ -2486,13 +2254,13 @@ This update is equivalent to setting  $\beta^{(k)}$  to the ratio of the squared
 An alternative to the Fletcher-Reeves update is the Polak-Ribiere4 update:
 
 $$
-\beta^ {(k)} = \frac {\mathbf {g} ^ {(k) \top} \left(\mathbf {g} ^ {(k)} - \mathbf {g} ^ {(k - 1)}\right)}{\mathbf {g} ^ {(k - 1) \top} \mathbf {g} ^ {(k - 1)}} \tag {5.18}
+\beta^{(k)} = \frac{\mathbf {g}^{(k) \top} \left(\mathbf {g}^{(k)} - \mathbf {g}^{(k - 1)}\right)}{\mathbf {g}^{(k - 1) \top} \mathbf {g}^{(k - 1)}} \tag {5.18}
 $$
 
 Convergence for the Polak-Ribiere method (algorithm 5.2) can be guaranteed if we modify it to allow for automatic resets:
 
 $$
-\beta \leftarrow \max  (\beta , 0) \tag {5.19}
+\beta \leftarrow \max (\beta , 0) \tag {5.19}
 $$
 
 Figure 5.3 shows an example search using this method.
@@ -2513,11 +2281,11 @@ Gradient descent will take a long time to traverse a nearly flat surface as show
 The momentum update equations are:
 
 $$
-\mathbf {v} ^ {(k + 1)} = \beta \mathbf {v} ^ {(k)} - \alpha \mathbf {g} ^ {(k)} \tag {5.20}
+\mathbf {v}^{(k + 1)} = \beta \mathbf {v}^{(k)} - \alpha \mathbf {g}^{(k)} \tag {5.20}
 $$
 
 $$
-\mathbf {x} ^ {(k + 1)} = \mathbf {x} ^ {(k)} + \mathbf {v} ^ {(k + 1)} \tag {5.21}
+\mathbf {x}^{(k + 1)} = \mathbf {x}^{(k)} + \mathbf {v}^{(k + 1)} \tag {5.21}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/20c5fb19530dea78906fc36117ee81a832b705a84b82012cee61fe7d07d3de25.jpg)  
@@ -2557,11 +2325,11 @@ Algorithm 5.3. The momentum method for accelerated descent. The first line in st
 One issue of momentum is that the steps do not slow down enough at the bottom of a valley and tend to overshoot the valley floor. Nesterov momentum<sup>5</sup> modifies the momentum algorithm to use the gradient at the projected future position:
 
 $$
-\mathbf {v} ^ {(k + 1)} = \beta \mathbf {v} ^ {(k)} - \alpha \nabla f \left(\mathbf {x} ^ {(k)} + \beta \mathbf {v} ^ {(k)}\right) \tag {5.22}
+\mathbf {v}^{(k + 1)} = \beta \mathbf {v}^{(k)} - \alpha \nabla f \left(\mathbf {x}^{(k)} + \beta \mathbf {v}^{(k)}\right) \tag {5.22}
 $$
 
 $$
-\mathbf {x} ^ {(k + 1)} = \mathbf {x} ^ {(k)} + \mathbf {v} ^ {(k + 1)} \tag {5.23}
+\mathbf {x}^{(k + 1)} = \mathbf {x}^{(k)} + \mathbf {v}^{(k + 1)} \tag {5.23}
 $$
 
 The Nesterov momentum and momentum descent methods are compared in figure 5.6. An implementation is provided by algorithm 5.4.
@@ -2601,19 +2369,19 @@ large gradients more aggressively than parameters that are frequently subject to
 AdaGrad updates have the form:
 
 $$
-x _ {i} ^ {(k + 1)} = x _ {i} ^ {(k)} - \alpha_ {\text {a d a g r a d}, i} ^ {(k)} g _ {i} ^ {(k)} \tag {5.24}
+x_{i}^{(k + 1)} = x_{i}^{(k)} - \alpha_{\text{adagrad}, i}^{(k)} g_{i}^{(k)} \tag {5.24}
 $$
 
 with componentwise step factors:
 
 $$
-\alpha_ {\text {a d a g r a d}, i} ^ {(k)} = \frac {\alpha}{\epsilon + \sqrt {s _ {i} ^ {(k)}}} \tag {5.25}
+\alpha_{\text{adagrad}, i}^{(k)} = \frac{\alpha}{\epsilon + \sqrt{s_{i}^{(k)}}} \tag {5.25}
 $$
 
 In this equation,  $s_i^{(k)}$  is the sum of the squares of the partial derivatives, with respect to  $x_i$ , up to time step  $k$ ,
 
 $$
-s _ {i} ^ {(k)} = \sum_ {j = 1} ^ {k} \left(g _ {i} ^ {(j)}\right) ^ {2} \tag {5.26}
+s_{i}^{(k)} = \sum_{j = 1}^{k} \left(g_{i}^{(j)}\right) ^{2} \tag {5.26}
 $$
 
 and  $\epsilon$  is a small value, on the order of  $10^{-8}$ , to prevent division by zero. Components with larger partial derivatives will thus receive smaller step factors.
@@ -2638,13 +2406,13 @@ Algorithm 5.5. The AdaGrad accelerated descent method.
 RMSProp (algorithm 5.6) $^{8}$  extends AdaGrad to avoid the effect of a monotonically decreasing step factor. RMSProp maintains a decaying average of squared gradients. This average is updated according to:
 
 $$
-\hat {\mathbf {s}} ^ {(k + 1)} = \gamma \hat {\mathbf {s}} ^ {(k)} + (1 - \gamma) \left(\mathbf {g} ^ {(k)} \odot \mathbf {g} ^ {(k)}\right) \tag {5.27}
+\hat {\mathbf {s}}^{(k + 1)} = \gamma \hat {\mathbf {s}}^{(k)} + (1 - \gamma) \left(\mathbf {g}^{(k)} \odot \mathbf {g}^{(k)}\right) \tag {5.27}
 $$
 
 where the decay  $\gamma \in [0,1]$  is typically close to 0.9. The decaying average of past squared gradients can be substituted into RMSProp's update equation: $^{10}$
 
 $$
-x _ {i} ^ {(k + 1)} = x _ {i} ^ {(k)} - \frac {\alpha}{\epsilon + \sqrt {\hat {s} _ {i} ^ {(k + 1)}}} g _ {i} ^ {(k)} = x _ {i} ^ {(k)} - \frac {\alpha}{\epsilon + \operatorname {R M S} (g _ {i})} g _ {i} ^ {(k)} \tag {5.28}
+x_{i}^{(k + 1)} = x_{i}^{(k)} - \frac{\alpha}{\epsilon + \sqrt{\hat {s}_{i}^{(k + 1)}}} g_{i}^{(k)} = x_{i}^{(k)} - \frac{\alpha}{\epsilon + \operatorname{RM S} (g_{i})} g_{i}^{(k)} \tag {5.28}
 $$
 
 $^{8}$  RMSProp is unpublished and comes from Lecture 6e of Geoff Hinton's Coursera class.  
@@ -2657,7 +2425,7 @@ $^{8}$  RMSProp is unpublished and comes from Lecture 6e of Geoff Hinton's Cours
 Adadelta (algorithm 5.7) $^{11}$  is another method for overcoming AdaGrad's monotonically decreasing step factor. After independently deriving the RMSProp update, the authors noticed that the units in the update equations for gradient descent, momentum, and AdaGrad do not match. To fix this, they use an exponentially decaying average of the square updates:
 
 $$
-x _ {i} ^ {(k + 1)} = x _ {i} ^ {(k)} - \frac {\operatorname {R M S} \left(\Delta x _ {i}\right)}{\epsilon + \operatorname {R M S} \left(g _ {i}\right)} g _ {i} ^ {(k)} \tag {5.29}
+x_{i}^{(k + 1)} = x_{i}^{(k)} - \frac{\operatorname{RM S} \left(\Delta x_{i}\right)}{\epsilon + \operatorname{RM S} \left(g_{i}\right)} g_{i}^{(k)} \tag {5.29}
 $$
 
 11 M.D. Zeiler, "ADADELTA: An Adaptive Learning Rate Method," 2012. arXiv: 1212.5701.
@@ -2765,13 +2533,13 @@ Algorithm 5.8. The Adam accelerated descent method.
 is:
 
 $$
-\begin{array}{l} \frac {\partial f \left(\mathbf {x} ^ {(k + 1)}\right)}{\partial \alpha^ {(k)}} = \left(\mathbf {g} ^ {(k + 1)}\right) ^ {\top} \frac {\partial}{\partial \alpha^ {(k)}} \left(\mathbf {x} ^ {(k)} - \alpha^ {(k)} \mathbf {g} ^ {(k)}\right) (5.35) \\ = \left(\mathbf {g} ^ {(k + 1)}\right) ^ {\top} \left(- \mathbf {g} ^ {(k)}\right) (5.36) \\ \end{array}
+\begin{array}{l} \frac{\partial f \left(\mathbf {x}^{(k + 1)}\right)}{\partial \alpha^{(k)}} = \left(\mathbf {g}^{(k + 1)}\right) ^{\top} \frac{\partial}{\partial \alpha^{(k)}} \left(\mathbf {x}^{(k)} - \alpha^{(k)} \mathbf {g}^{(k)}\right) (5.35) \\ = \left(\mathbf {g}^{(k + 1)}\right) ^{\top} \left(- \mathbf {g}^{(k)}\right) (5.36) \\ \end{array}
 $$
 
 Computing the hypergradient thus requires keeping track of the last gradient. The resulting update rule is:
 
 $$
-\begin{array}{l} \alpha^ {(k)} = \alpha^ {(k - 1)} - \mu \frac {\partial f (\mathbf {x} ^ {(k)})}{\partial \alpha^ {(k - 1)}} (5.37) \\ = \alpha^ {(k - 1)} + \mu \left(\mathbf {g} ^ {(k)}\right) ^ {\top} \mathbf {g} ^ {(k - 1)} (5.38) \\ \end{array}
+\begin{array}{l} \alpha^{(k)} = \alpha^{(k - 1)} - \mu \frac{\partial f (\mathbf {x}^{(k)})}{\partial \alpha^{(k - 1)}} (5.37) \\ = \alpha^{(k - 1)} + \mu \left(\mathbf {g}^{(k)}\right) ^{\top} \mathbf {g}^{(k - 1)} (5.38) \\ \end{array}
 $$
 
 where  $\mu$  is the hypergradient step factor.
@@ -2846,19 +2614,19 @@ Exercise 5.3. Apply gradient descent with a unit step factor to  $f(x) = x^4$  f
 Solution: The derivative is  $f'(x) = 4x^3$ . Starting from  $x^{(1)} = 1$ :
 
 $$
-f ^ {\prime} (1) = 4
+f^{\prime} (1) = 4
 $$
 
 $$
-\rightarrow x ^ {(2)} = 1 - 4 = - 3
+\rightarrow x^{(2)} = 1 - 4 = - 3
 $$
 
 $$
-f ^ {\prime} (- 3) = 4 \cdot (- 2 7) = - 1 0 8
+f^{\prime} (- 3) = 4 \cdot (- 27) = - 10 8
 $$
 
 $$
-\rightarrow x ^ {(3)} = - 3 + 1 0 8 = 1 0 5
+\rightarrow x^{(3)} = - 3 + 10 8 = 10 5
 $$
 
 Exercise 5.4. Apply one step of gradient descent to  $f(x) = e^{x} + e^{-x}$  from  $x^{(1)} = 10$  with both a unit step factor and with exact line search.
@@ -2868,7 +2636,7 @@ Solution: We have  $f'(x) = e^x - e^{-x} \approx e^x$  for large  $x$ . Thus  $f
 Exercise 5.5. The conjugate gradient method can also be used to find a search direction  $\mathbf{d}$  when a local quadratic model of a function is available at the current point. With  $\mathbf{d}$  as search direction, let the model be
 
 $$
-q (\mathbf {d}) = \mathbf {d} ^ {\top} \mathbf {H} \mathbf {d} + \mathbf {b} ^ {\top} \mathbf {d} + \mathbf {c}
+q (\mathbf {d}) = \mathbf {d}^{\top} \mathbf {H} \mathbf {d} + \mathbf {b}^{\top} \mathbf {d} + \mathbf {c}
 $$
 
 for a symmetric matrix  $\mathbf{H}$ . What is the Hessian in this case? What is the gradient of  $q$  when  $\mathbf{d} = \mathbf{0}$ ? What can go wrong if the conjugate gradient method is applied to the quadratic model to get the search direction  $\mathbf{d}$ ?
@@ -2876,7 +2644,7 @@ for a symmetric matrix  $\mathbf{H}$ . What is the Hessian in this case? What is
 Solution: The Hessian is  $2\mathbf{H}$ , and
 
 $$
-\nabla q (\mathbf {d}) = \left(\mathbf {H} + \mathbf {H} ^ {\top}\right) \mathbf {d} + \mathbf {b} = (2 \mathbf {H}) \mathbf {d} + \mathbf {b}
+\nabla q (\mathbf {d}) = \left(\mathbf {H} + \mathbf {H}^{\top}\right) \mathbf {d} + \mathbf {b} = (2 \mathbf {H}) \mathbf {d} + \mathbf {b}
 $$
 
 The gradient is  $\mathbf{b}$  when  $\mathbf{d} = \mathbf{0}$ . The conjugate gradient method may diverge because  $\mathbf{H}$  is not guaranteed to be positive definite.
@@ -2922,7 +2690,7 @@ Knowing the function value and gradient for a design point can help determine th
 In univariate optimization, the quadratic approximation about a point  $x^{(k)}$  comes from the second-order Taylor expansion:
 
 $$
-q (x) = f \left(x ^ {(k)}\right) + \left(x - x ^ {(k)}\right) f ^ {\prime} \left(x ^ {(k)}\right) + \frac {\left(x - x ^ {(k)}\right) ^ {2}}{2} f ^ {\prime \prime} \left(x ^ {(k)}\right) \tag {6.1}
+q (x) = f \left(x^{(k)}\right) + \left(x - x^{(k)}\right) f^{\prime} \left(x^{(k)}\right) + \frac{\left(x - x^{(k)}\right) ^{2}}{2} f^{\prime \prime} \left(x^{(k)}\right) \tag {6.1}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/bce27b800b9118f9f768f929d236e2f48195c833869c2782bf904ce3837079bc.jpg)
@@ -2933,11 +2701,11 @@ Figure 6.1. A comparison of first-order and second-order approximations. Bowl-sh
 Setting the derivative to zero and solving for the root yields the update equation for Newton's method:
 
 $$
-\frac {\partial}{\partial x} q (x) = f ^ {\prime} \left(x ^ {(k)}\right) + \left(x - x ^ {(k)}\right) f ^ {\prime \prime} \left(x ^ {(k)}\right) = 0 \tag {6.2}
+\frac{\partial}{\partial x} q (x) = f^{\prime} \left(x^{(k)}\right) + \left(x - x^{(k)}\right) f^{\prime \prime} \left(x^{(k)}\right) = 0 \tag {6.2}
 $$
 
 $$
-x ^ {(k + 1)} = x ^ {(k)} - \frac {f ^ {\prime} \left(x ^ {(k)}\right)}{f ^ {\prime \prime} \left(x ^ {(k)}\right)} \tag {6.3}
+x^{(k + 1)} = x^{(k)} - \frac{f^{\prime} \left(x^{(k)}\right)}{f^{\prime \prime} \left(x^{(k)}\right)} \tag {6.3}
 $$
 
 This update is shown in figure 6.2.
@@ -2974,7 +2742,7 @@ The final condition guards against overshoot.1
 Newton's method can be extended to multivariate optimization (algorithm 6.1). The multivariate second-order Taylor expansion at  $\mathbf{x}^{(k)}$  is the quadratic:
 
 $$
-q (\mathbf {x}) = f \left(\mathbf {x} ^ {(k)}\right) + \left(\mathbf {g} ^ {(k)}\right) ^ {\top} \left(\mathbf {x} - \mathbf {x} ^ {(k)}\right) + \frac {1}{2} \left(\mathbf {x} - \mathbf {x} ^ {(k)}\right) ^ {\top} \mathbf {H} ^ {(k)} \left(\mathbf {x} - \mathbf {x} ^ {(k)}\right) \tag {6.4}
+q (\mathbf {x}) = f \left(\mathbf {x}^{(k)}\right) + \left(\mathbf {g}^{(k)}\right) ^{\top} \left(\mathbf {x} - \mathbf {x}^{(k)}\right) + \frac{1}{2} \left(\mathbf {x} - \mathbf {x}^{(k)}\right) ^{\top} \mathbf {H}^{(k)} \left(\mathbf {x} - \mathbf {x}^{(k)}\right) \tag {6.4}
 $$
 
 where  $\mathbf{g}^{(k)}$  and  $\mathbf{H}^{(k)}$  are the gradient and Hessian at  $\mathbf{x}^{(k)}$ , respectively.
@@ -2982,13 +2750,13 @@ where  $\mathbf{g}^{(k)}$  and  $\mathbf{H}^{(k)}$  are the gradient and Hessian
 We evaluate the gradient and set it to zero:
 
 $$
-\nabla q (\mathbf {x}) = \mathbf {g} ^ {(k)} + \mathbf {H} ^ {(k)} \left(\mathbf {x} - \mathbf {x} ^ {(k)}\right) = \mathbf {0} \tag {6.5}
+\nabla q (\mathbf {x}) = \mathbf {g}^{(k)} + \mathbf {H}^{(k)} \left(\mathbf {x} - \mathbf {x}^{(k)}\right) = \mathbf {0} \tag {6.5}
 $$
 
 We then solve for the next iterate, thereby obtaining Newton's method in multivariate form:
 
 $$
-\mathbf {x} ^ {(k + 1)} = \mathbf {x} ^ {(k)} - \left(\mathbf {H} ^ {(k)}\right) ^ {- 1} \mathbf {g} ^ {(k)} \tag {6.6}
+\mathbf {x}^{(k + 1)} = \mathbf {x}^{(k)} - \left(\mathbf {H}^{(k)}\right) ^{- 1} \mathbf {g}^{(k)} \tag {6.6}
 $$
 
 ```python
@@ -3000,7 +2768,7 @@ If  $f$  is quadratic and its Hessian is positive definite, then the update conv
 Newton's method can also be used to supply a descent direction to line search or can be modified to use a step factor. Smaller steps toward the minimum or line searches along the descent direction can increase the method's robustness. The descent direction is:
 
 $$
-\mathbf {d} ^ {(k)} = - \left(\mathbf {H} ^ {(k)}\right) ^ {- 1} \mathbf {g} ^ {(k)} \tag {6.7}
+\mathbf {d}^{(k)} = - \left(\mathbf {H}^{(k)}\right) ^{- 1} \mathbf {g}^{(k)} \tag {6.7}
 $$
 
 # 6.2 Secant Method
@@ -3020,25 +2788,25 @@ Termination conditions for descent methods are given in chapter 4.
 With  $\mathbf{x}^{(1)} = [9,8]$ , we will use Newton's method to minimize Booth's function:
 
 $$
-f (\mathbf {x}) = (x _ {1} + 2 x _ {2} - 7) ^ {2} + (2 x _ {1} + x _ {2} - 5) ^ {2}
+f (\mathbf {x}) = (x_{1} + 2 x_{2} - 7) ^{2} + (2 x_{1} + x_{2} - 5) ^{2}
 $$
 
 The gradient of Booth's function is:
 
 $$
-\nabla f (\mathbf {x}) = [ 1 0 x _ {1} + 8 x _ {2} - 3 4, 8 x _ {1} + 1 0 x _ {2} - 3 8 ]
+\nabla f (\mathbf {x}) = [ 10 x_{1} + 8 x_{2} - 34, 8 x_{1} + 10 x_{2} - 38 ]
 $$
 
 The Hessian of Booth's function is:
 
 $$
-\mathbf {H} (\mathbf {x}) = \left[ \begin{array}{l l} 1 0 & 8 \\ 8 & 1 0 \end{array} \right]
+\mathbf {H} (\mathbf {x}) = \left[ \begin{array}{l l} 10 & 8 \\ 8 & 10 \end{array} \right]
 $$
 
 The first iteration of Newton's method yields:
 
 $$
-\begin{array}{l} \mathbf {x} ^ {(2)} = \mathbf {x} ^ {(1)} - \left(\mathbf {H} ^ {(1)}\right) ^ {- 1} \mathbf {g} ^ {(1)} = \left[ \begin{array}{c} 9 \\ 8 \end{array} \right] - \left[ \begin{array}{c c} 1 0 & 8 \\ 8 & 1 0 \end{array} \right] ^ {- 1} \left[ \begin{array}{c} 1 0 \cdot 9 + 8 \cdot 8 - 3 4 \\ 8 \cdot 9 + 1 0 \cdot 8 - 3 8 \end{array} \right] \\ = \left[ \begin{array}{l} 9 \\ 8 \end{array} \right] - \left[ \begin{array}{l l} 1 0 & 8 \\ 8 & 1 0 \end{array} \right] ^ {- 1} \left[ \begin{array}{l} 1 2 0 \\ 1 1 4 \end{array} \right] = \left[ \begin{array}{l} 1 \\ 3 \end{array} \right] \\ \end{array}
+\begin{array}{l} \mathbf {x}^{(2)} = \mathbf {x}^{(1)} - \left(\mathbf {H}^{(1)}\right) ^{- 1} \mathbf {g}^{(1)} = \left[ \begin{array}{c} 9 \\ 8 \end{array} \right] - \left[ \begin{array}{c c} 10 & 8 \\ 8 & 10 \end{array} \right] ^{- 1} \left[ \begin{array}{c} 10 \cdot 9 + 8 \cdot 8 - 34 \\ 8 \cdot 9 + 10 \cdot 8 - 38 \end{array} \right] \\ = \left[ \begin{array}{l} 9 \\ 8 \end{array} \right] - \left[ \begin{array}{l l} 10 & 8 \\ 8 & 10 \end{array} \right] ^{- 1} \left[ \begin{array}{l} 12 0 \\ 11 4 \end{array} \right] = \left[ \begin{array}{l} 1 \\ 3 \end{array} \right] \\ \end{array}
 $$
 
 The gradient at  $\mathbf{x}^{(2)}$  is zero, so we have converged after a single iteration. The Hessian is positive definite everywhere, so  $\mathbf{x}^{(2)}$  is the global minimum.
@@ -3048,13 +2816,13 @@ Example 6.1. Newton's method used to minimize Booth's function; see appendix B.2
 The secant method uses the last two iterates to approximate the second derivative:
 
 $$
-f ^ {\prime \prime} (x ^ {(k)}) \approx \frac {f ^ {\prime} (x ^ {(k)}) - f ^ {\prime} (x ^ {(k - 1)})}{x ^ {(k)} - x ^ {(k - 1)}} \tag {6.8}
+f^{\prime \prime} (x^{(k)}) \approx \frac{f^{\prime} (x^{(k)}) - f^{\prime} (x^{(k - 1)})}{x^{(k)} - x^{(k - 1)}} \tag {6.8}
 $$
 
 This estimate is substituted into Newton's method:
 
 $$
-x ^ {(k + 1)} \leftarrow x ^ {(k)} - \frac {x ^ {(k)} - x ^ {(k - 1)}}{f ^ {\prime} \left(x ^ {(k)}\right) - f ^ {\prime} \left(x ^ {(k - 1)}\right)} f ^ {\prime} \left(x ^ {(k)}\right) \tag {6.9}
+x^{(k + 1)} \leftarrow x^{(k)} - \frac{x^{(k)} - x^{(k - 1)}}{f^{\prime} \left(x^{(k)}\right) - f^{\prime} \left(x^{(k - 1)}\right)} f^{\prime} \left(x^{(k)}\right) \tag {6.9}
 $$
 
 The secant method requires an additional initial design point. It suffers from the same problems as Newton's method and may take more iterations to converge due to approximating the second derivative.
@@ -3088,7 +2856,7 @@ The Levenberg-Marquardt algorithm<sup>5</sup> (algorithm 6.3) automatically inte
 The interpolating update rule is parameterized by a damping factor  $\delta$ :
 
 $$
-\mathbf {x} ^ {\prime} = \mathbf {x} - \left(\mathbf {H} + \delta \mathbf {I}\right) ^ {- 1} \mathbf {g} \tag {6.10}
+\mathbf {x}^{\prime} = \mathbf {x} - \left(\mathbf {H} + \delta \mathbf {I}\right) ^{- 1} \mathbf {g} \tag {6.10}
 $$
 
 When  $\delta$  is small, the update mimics Newton's method. When  $\delta$  is large, the update mimics gradient descent with a step factor  $\alpha \approx 1 / \delta$ .
@@ -3098,7 +2866,7 @@ We adjust the damping factor during descent based on whether our iterates improv
 The Levenberg-Marquardt update rule incorporates a slight adjustment to equation (6.10):
 
 $$
-\mathbf {x} ^ {\prime} = \mathbf {x} - \left(\mathbf {H} + \delta \operatorname {d i a g} (\mathbf {H})\right) ^ {- 1} \mathbf {g} \tag {6.11}
+\mathbf {x}^{\prime} = \mathbf {x} - \left(\mathbf {H} + \delta \operatorname{diag} (\mathbf {H})\right) ^{- 1} \mathbf {g} \tag {6.11}
 $$
 
 which incorporates the diagonal of the Hessian. This leverages information about the Hessian even when mimicking gradient descent, allowing iterates to move further in directions where the gradient is smaller.
@@ -3129,47 +2897,47 @@ with diagonal
 The Levenberg-Marquardt algorithm was originally developed for problems involving sums of squares, for which we can derive an efficient outer product approximation of the Hessian. Consider an objective function:
 
 $$
-f (\mathbf {x}) = \sum_ {i} f _ {i} (\mathbf {x}) ^ {2} \tag {6.12}
+f (\mathbf {x}) = \sum_{i} f_{i} (\mathbf {x}) ^{2} \tag {6.12}
 $$
 
 The gradient of this objective is:
 
 $$
-\nabla f (\mathbf {x}) = 2 \sum_ {i} f _ {i} (\mathbf {x}) \nabla f _ {i} (\mathbf {x}) \tag {6.13}
+\nabla f (\mathbf {x}) = 2 \sum_{i} f_{i} (\mathbf {x}) \nabla f_{i} (\mathbf {x}) \tag {6.13}
 $$
 
 We can form a linear approximation for each of the constituent objective functions at our current iterate  $\mathbf{x}^{(k)}$ :
 
 $$
-f _ {i} (\mathbf {x}) \approx f _ {i} \left(\mathbf {x} ^ {(k)}\right) + \nabla f _ {i} \left(\mathbf {x} ^ {(k)}\right) ^ {\top} \left(\mathbf {x} - \mathbf {x} ^ {(k)}\right) \tag {6.14}
+f_{i} (\mathbf {x}) \approx f_{i} \left(\mathbf {x}^{(k)}\right) + \nabla f_{i} \left(\mathbf {x}^{(k)}\right) ^{\top} \left(\mathbf {x} - \mathbf {x}^{(k)}\right) \tag {6.14}
 $$
 
 Substituting them into the gradient of the overall objective yields<sup>6</sup>
 
 $$
-\begin{array}{l} \nabla f (\mathbf {x}) \approx 2 \sum_ {i} \left(f _ {i} \left(\mathbf {x} ^ {(k)}\right) + \nabla f _ {i} \left(\mathbf {x} ^ {(k)}\right) ^ {\top} \left(\mathbf {x} - \mathbf {x} ^ {(k)}\right)\right) \nabla f _ {i} (\mathbf {x}) (6.15) \\ = 2 \sum_ {i} f _ {i} \left(\mathbf {x} ^ {(k)}\right) \nabla f _ {i} \left(\mathbf {x} ^ {(k)}\right) + 2 \sum_ {i} \nabla f _ {i} \left(\mathbf {x} ^ {(k)}\right) \nabla f _ {i} \left(\mathbf {x} ^ {(k)}\right) ^ {\top} \left(\mathbf {x} - \mathbf {x} ^ {(k)}\right) (6.16) \\ = 2 \tilde {\mathbf {g}} ^ {(k)} + 2 \tilde {\mathbf {H}} ^ {(k)} \left(\mathbf {x} - \mathbf {x} ^ {(k)}\right) (6.17) \\ \end{array}
+\begin{array}{l} \nabla f (\mathbf {x}) \approx 2 \sum_{i} \left(f_{i} \left(\mathbf {x}^{(k)}\right) + \nabla f_{i} \left(\mathbf {x}^{(k)}\right) ^{\top} \left(\mathbf {x} - \mathbf {x}^{(k)}\right)\right) \nabla f_{i} (\mathbf {x}) (6.15) \\ = 2 \sum_{i} f_{i} \left(\mathbf {x}^{(k)}\right) \nabla f_{i} \left(\mathbf {x}^{(k)}\right) + 2 \sum_{i} \nabla f_{i} \left(\mathbf {x}^{(k)}\right) \nabla f_{i} \left(\mathbf {x}^{(k)}\right) ^{\top} \left(\mathbf {x} - \mathbf {x}^{(k)}\right) (6.16) \\ = 2 \tilde {\mathbf {g}}^{(k)} + 2 \tilde {\mathbf {H}}^{(k)} \left(\mathbf {x} - \mathbf {x}^{(k)}\right) (6.17) \\ \end{array}
 $$
 
 where we define
 
 $$
-\tilde {\mathbf {g}} ^ {(k)} = \sum_ {i} f _ {i} \left(\mathbf {x} ^ {(k)}\right) \nabla f _ {i} \left(\mathbf {x} ^ {(k)}\right) \tag {6.18}
+\tilde {\mathbf {g}}^{(k)} = \sum_{i} f_{i} \left(\mathbf {x}^{(k)}\right) \nabla f_{i} \left(\mathbf {x}^{(k)}\right) \tag {6.18}
 $$
 
 $$
-\tilde {\mathbf {H}} ^ {(k)} = \sum_ {i} \nabla f _ {i} \left(\mathbf {x} ^ {(k)}\right) \nabla f _ {i} \left(\mathbf {x} ^ {(k)}\right) ^ {\top} \tag {6.19}
+\tilde {\mathbf {H}}^{(k)} = \sum_{i} \nabla f_{i} \left(\mathbf {x}^{(k)}\right) \nabla f_{i} \left(\mathbf {x}^{(k)}\right) ^{\top} \tag {6.19}
 $$
 
 Setting this gradient to zero and solving for  $x$  yields the new iterate:
 
 $$
-\mathbf {x} ^ {(k + 1)} = \mathbf {x} ^ {(k)} - \left(\tilde {\mathbf {H}} ^ {(k)}\right) ^ {- 1} \tilde {\mathbf {g}} ^ {(k)} \tag {6.20}
+\mathbf {x}^{(k + 1)} = \mathbf {x}^{(k)} - \left(\tilde {\mathbf {H}}^{(k)}\right) ^{- 1} \tilde {\mathbf {g}}^{(k)} \tag {6.20}
 $$
 
 This update matches Newton's method in equation (6.6), except the Hessian is approximated using the outer product of the gradients. Incorporating the damping factor produces the Levenberg-Marquardt update (equation (6.11)):
 
 $$
-\mathbf {x} ^ {(k + 1)} = \mathbf {x} ^ {(k)} - \left(\tilde {\mathbf {H}} ^ {(k)} + \delta \operatorname {d i a g} \left(\tilde {\mathbf {H}} ^ {(k)}\right)\right) ^ {- 1} \tilde {\mathbf {g}} ^ {(k)} \tag {6.21}
+\mathbf {x}^{(k + 1)} = \mathbf {x}^{(k)} - \left(\tilde {\mathbf {H}}^{(k)} + \delta \operatorname{diag} \left(\tilde {\mathbf {H}}^{(k)}\right)\right) ^{- 1} \tilde {\mathbf {g}}^{(k)} \tag {6.21}
 $$
 
 The estimates of the gradient and Hessian are implemented in algorithm 6.4.
@@ -3177,7 +2945,7 @@ The estimates of the gradient and Hessian are implemented in algorithm 6.4.
 This is because the gradient is equal everywhere in a first order approximation:
 
 $$
-\nabla f _ {i} (\mathbf {x}) = \nabla f _ {i} \left(\mathbf {x} ^ {(k)}\right)
+\nabla f_{i} (\mathbf {x}) = \nabla f_{i} \left(\mathbf {x}^{(k)}\right)
 $$
 
 ```julia
@@ -3193,7 +2961,7 @@ end
 Just as the secant method approximates  $f''$  in the univariate case, quasi-Newton methods approximate the inverse Hessian. Quasi-Newton method updates have the form:
 
 $$
-\mathbf {x} ^ {(k + 1)} \leftarrow \mathbf {x} ^ {(k)} - \alpha^ {(k)} \mathbf {Q} ^ {(k)} \mathbf {g} ^ {(k)} \tag {6.22}
+\mathbf {x}^{(k + 1)} \leftarrow \mathbf {x}^{(k)} - \alpha^{(k)} \mathbf {Q}^{(k)} \mathbf {g}^{(k)} \tag {6.22}
 $$
 
 where  $\alpha^{(k)}$  is a scalar step factor and  $\mathbf{Q}^{(k)}$  approximates the inverse of the Hessian at  $\mathbf{x}^{(k)}$ .
@@ -3201,17 +2969,17 @@ where  $\alpha^{(k)}$  is a scalar step factor and  $\mathbf{Q}^{(k)}$  approxim
 These methods typically set  $\mathbf{Q}^{(1)}$  to the identity matrix, and they then apply updates to reflect information learned with each iteration. To simplify the equations for the various quasi-Newton methods, we define the following:
 
 $$
-\gamma^ {(k + 1)} \equiv \mathbf {g} ^ {(k + 1)} - \mathbf {g} ^ {(k)} \tag {6.23}
+\gamma^{(k + 1)} \equiv \mathbf {g}^{(k + 1)} - \mathbf {g}^{(k)} \tag {6.23}
 $$
 
 $$
-\boldsymbol {\delta} ^ {(k + 1)} \equiv \mathbf {x} ^ {(k + 1)} - \mathbf {x} ^ {(k)} \tag {6.24}
+\boldsymbol {\delta}^{(k + 1)} \equiv \mathbf {x}^{(k + 1)} - \mathbf {x}^{(k)} \tag {6.24}
 $$
 
 The Davidon-Fletcher-Powell (DFP) method (algorithm 6.5) uses:7
 
 $$
-\mathbf {Q} \leftarrow \mathbf {Q} - \frac {\mathbf {Q} \gamma \mathbf {\Upsilon} ^ {\top} \mathbf {Q}}{\gamma^ {\top} \mathbf {Q} \gamma} + \frac {\delta \delta^ {\top}}{\delta^ {\top} \gamma} \tag {6.25}
+\mathbf {Q} \leftarrow \mathbf {Q} - \frac{\mathbf {Q} \gamma \mathbf {\Upsilon}^{\top} \mathbf {Q}}{\gamma^{\top} \mathbf {Q} \gamma} + \frac{\delta \delta^{\top}}{\delta^{\top} \gamma} \tag {6.25}
 $$
 
 where all terms on the right hand side are evaluated at the same iteration.
@@ -3221,7 +2989,7 @@ The update for  $\mathbf{Q}$  in the DFP method keeps  $\mathbf{Q}$  symmetric a
 An alternative to DFP, the Broyden-Fletcher-Goldfarb-Shanno (BFGS) method (algorithm 6.6), uses:8
 
 $$
-\mathbf {Q} \leftarrow \mathbf {Q} - \left(\frac {\delta \gamma^ {\top} \mathbf {Q} + \mathbf {Q} \gamma \delta^ {\top}}{\delta^ {\top} \gamma}\right) + \left(1 + \frac {\gamma^ {\top} \mathbf {Q} \gamma}{\delta^ {\top} \gamma}\right) \frac {\delta \delta^ {\top}}{\delta^ {\top} \gamma} \tag {6.26}
+\mathbf {Q} \leftarrow \mathbf {Q} - \left(\frac{\delta \gamma^{\top} \mathbf {Q} + \mathbf {Q} \gamma \delta^{\top}}{\delta^{\top} \gamma}\right) + \left(1 + \frac{\gamma^{\top} \mathbf {Q} \gamma}{\delta^{\top} \gamma}\right) \frac{\delta \delta^{\top}}{\delta^{\top} \gamma} \tag {6.26}
 $$
 
 Algorithm 6.4. An algorithm for computing the gradient and outer product Hessian approximation for a sum-of-squares optimization problem. It takes as input a list of objective functions  $f_{s}$ , their gradients  $\nabla f_{s}$ , and a design  $x$ .
@@ -3269,19 +3037,19 @@ BFGS does better than DFP with approximate line search but still uses an  $n \ti
 The process for computing the descent direction  $\mathbf{d}$  at  $\mathbf{x}$  begins by computing  $\mathbf{q}^{(m)} = \nabla f(\mathbf{x})$ . The remaining vectors  $\mathbf{q}^{(i)}$  for  $i$  from  $m - 1$  down to 1 are computed using
 
 $$
-\mathbf {q} ^ {(i)} = \mathbf {q} ^ {(i + 1)} - \frac {\left(\boldsymbol {\delta} ^ {(i + 1)}\right) ^ {\top} \mathbf {q} ^ {(i + 1)}}{\left(\boldsymbol {\gamma} ^ {(i + 1)}\right) ^ {\top} \boldsymbol {\delta} ^ {(i + 1)}} \boldsymbol {\gamma} ^ {(i + 1)} \tag {6.27}
+\mathbf {q}^{(i)} = \mathbf {q}^{(i + 1)} - \frac{\left(\boldsymbol {\delta}^{(i + 1)}\right) ^{\top} \mathbf {q}^{(i + 1)}}{\left(\boldsymbol {\gamma}^{(i + 1)}\right) ^{\top} \boldsymbol {\delta}^{(i + 1)}} \boldsymbol {\gamma}^{(i + 1)} \tag {6.27}
 $$
 
 These vectors are used to compute another  $m + 1$  vectors, starting with
 
 $$
-\mathbf {z} ^ {(0)} = \frac {\boldsymbol {\gamma} ^ {(m)} \odot \boldsymbol {\delta} ^ {(m)} \odot \mathbf {q} ^ {(m)}}{\left(\boldsymbol {\gamma} ^ {(m)}\right) ^ {\top} \boldsymbol {\gamma} ^ {(m)}} \tag {6.28}
+\mathbf {z}^{(0)} = \frac{\boldsymbol {\gamma}^{(m)} \odot \boldsymbol {\delta}^{(m)} \odot \mathbf {q}^{(m)}}{\left(\boldsymbol {\gamma}^{(m)}\right) ^{\top} \boldsymbol {\gamma}^{(m)}} \tag {6.28}
 $$
 
 and proceeding with  $\mathbf{z}^{(i)}$  for  $i$  from 1 to  $m$  according to
 
 $$
-\mathbf {z} ^ {(i)} = \mathbf {z} ^ {(i - 1)} + \boldsymbol {\delta} ^ {(i - 1)} \left(\frac {\left(\boldsymbol {\delta} ^ {(i - 1)}\right) ^ {\top} \mathbf {q} ^ {(i - 1)}}{\left(\boldsymbol {\gamma} ^ {(i - 1)}\right) ^ {\top} \boldsymbol {\delta} ^ {(i - 1)}} - \frac {\left(\boldsymbol {\gamma} ^ {(i - 1)}\right) ^ {\top} \mathbf {z} ^ {(i - 1)}}{\left(\boldsymbol {\gamma} ^ {(i - 1)}\right) ^ {\top} \boldsymbol {\delta} ^ {(i - 1)}}\right) \tag {6.29}
+\mathbf {z}^{(i)} = \mathbf {z}^{(i - 1)} + \boldsymbol {\delta}^{(i - 1)} \left(\frac{\left(\boldsymbol {\delta}^{(i - 1)}\right) ^{\top} \mathbf {q}^{(i - 1)}}{\left(\boldsymbol {\gamma}^{(i - 1)}\right) ^{\top} \boldsymbol {\delta}^{(i - 1)}} - \frac{\left(\boldsymbol {\gamma}^{(i - 1)}\right) ^{\top} \mathbf {z}^{(i - 1)}}{\left(\boldsymbol {\gamma}^{(i - 1)}\right) ^{\top} \boldsymbol {\delta}^{(i - 1)}}\right) \tag {6.29}
 $$
 
 The descent direction is  $\mathbf{d} = -\mathbf{z}^{(m)}$
@@ -3289,7 +3057,7 @@ The descent direction is  $\mathbf{d} = -\mathbf{z}^{(m)}$
 For minimization, the inverse Hessian  $\mathbf{Q}$  must remain positive definite. The initial Hessian is often set to the diagonal of
 
 $$
-\mathbf {Q} ^ {(1)} = \frac {\boldsymbol {\gamma} ^ {(1)} \left(\boldsymbol {\delta} ^ {(1)}\right) ^ {\top}}{\left(\boldsymbol {\gamma} ^ {(1)}\right) ^ {\top} \boldsymbol {\gamma} ^ {(1)}} \tag {6.30}
+\mathbf {Q}^{(1)} = \frac{\boldsymbol {\gamma}^{(1)} \left(\boldsymbol {\delta}^{(1)}\right) ^{\top}}{\left(\boldsymbol {\gamma}^{(1)}\right) ^{\top} \boldsymbol {\gamma}^{(1)}} \tag {6.30}
 $$
 
 Computing the diagonal for the above expression and substituting the result into  $\mathbf{z}^{(1)} = \mathbf{Q}^{(1)}\mathbf{q}^{(1)}$  results in the equation for  $\mathbf{z}^{(1)}$ .
@@ -3335,7 +3103,7 @@ Solution:  $f^{\prime}(x) = 2x$ ,  $f^{\prime \prime}(x) = 2$ . Thus,  $x^{(2)} 
 Exercise 6.4. Apply Newton's method to  $f(x) = \frac{1}{2}\mathbf{x}^{\top}\mathbf{H}\mathbf{x}$  starting from  $\mathbf{x}^{(1)} = [1,1]$ . What have you observed? Use  $\mathbf{H}$  as follows:
 
 $$
-\mathbf {H} = \left[ \begin{array}{c c} 1 & 0 \\ 0 & 1 0 0 0 \end{array} \right]
+\mathbf {H} = \left[ \begin{array}{c c} 1 & 0 \\ 0 & 10 00 \end{array} \right]
 $$
 
 Next, apply gradient descent to the same optimization problem by stepping with the unnormalized gradient. Do two steps of the algorithm. What have you observed? Finally, apply the conjugate gradient method. How many steps do you need to converge?
@@ -3345,7 +3113,7 @@ Solution: Since  $\nabla f(\mathbf{x}) = \mathbf{H}\mathbf{x},\nabla^{2}f(\mathb
 Gradient descent diverges:
 
 $$
-\begin{array}{l} \mathbf {x} ^ {(2)} = [ 1, 1 ] - [ 1, 1 0 0 0 ] = [ 0, - 9 9 9 ] \\ \mathbf {x} ^ {(3)} = [ 0, - 9 9 9 ] - [ 0, - 1 0 0 0 \cdot 9 9 9 ] = [ 0, 9 9 8 0 0 1 ] \\ \end{array}
+\begin{array}{l} \mathbf {x}^{(2)} = [ 1, 1 ] - [ 1, 10 00 ] = [ 0, - 99 9 ] \\ \mathbf {x}^{(3)} = [ 0, - 99 9 ] - [ 0, - 10 00 \cdot 99 9 ] = [ 0, 99 80 01 ] \\ \end{array}
 $$
 
 Conjugate gradient descent uses the same initial search direction as gradient descent and converges to the minimum in the second step because the optimization objective is quadratic.
@@ -3386,7 +3154,7 @@ Exercise 6.10. Is the outer product approximation of the Hessian given in equati
 Solution: No, the outer product approximation is not necessarily invertible. Consider an outer product formed with  $\mathbf{x} = [x_1, x_2]$ :
 
 $$
-\mathbf {H} = \mathbf {x x} ^ {\top} = \left[ \begin{array}{c c} x _ {1} ^ {2} & x _ {1} x _ {2} \\ x _ {1} x _ {2} & x _ {2} ^ {2} \end{array} \right]
+\mathbf {H} = \mathbf {x x}^{\top} = \left[ \begin{array}{c c} x_{1}^{2} & x_{1} x_{2} \\ x_{1} x_{2} & x_{2}^{2} \end{array} \right]
 $$
 
 This matrix has a determinant  $x_1^2 x_2^2 - x_1 x_2 x_1 x_2 = 0$ , and is thus singular.
@@ -3394,7 +3162,7 @@ This matrix has a determinant  $x_1^2 x_2^2 - x_1 x_2 x_1 x_2 = 0$ , and is thus
 Exercise 6.11. In this problem we will derive the optimization problem from which the Davidon-Fletcher-Powell update is obtained. Start with a quadratic approximation at  $\mathbf{x}^{(k)}$ :
 
 $$
-f ^ {(k)} (\mathbf {x}) = y ^ {(k)} + \left(\mathbf {g} ^ {(k)}\right) ^ {\top} \left(\mathbf {x} - \mathbf {x} ^ {(k)}\right) + \frac {1}{2} \left(\mathbf {x} - \mathbf {x} ^ {(k)}\right) ^ {\top} \mathbf {H} ^ {(k)} \left(\mathbf {x} - \mathbf {x} ^ {(k)}\right)
+f^{(k)} (\mathbf {x}) = y^{(k)} + \left(\mathbf {g}^{(k)}\right) ^{\top} \left(\mathbf {x} - \mathbf {x}^{(k)}\right) + \frac{1}{2} \left(\mathbf {x} - \mathbf {x}^{(k)}\right) ^{\top} \mathbf {H}^{(k)} \left(\mathbf {x} - \mathbf {x}^{(k)}\right)
 $$
 
 where  $y^{(k)}$ ,  $\mathbf{g}^{(k)}$ , and  $\mathbf{H}^{(k)}$  are the objective function value, the true gradient, and a positive definite Hessian approximation at  $\mathbf{x}^{(k)}$ .
@@ -3402,49 +3170,49 @@ where  $y^{(k)}$ ,  $\mathbf{g}^{(k)}$ , and  $\mathbf{H}^{(k)}$  are the object
 The next iterate is chosen using line search to obtain:
 
 $$
-\mathbf {x} ^ {(k + 1)} \leftarrow \mathbf {x} ^ {(k)} - \alpha^ {(k)} \left(\mathbf {H} ^ {(k)}\right) ^ {- 1} \mathbf {g} ^ {(k)}
+\mathbf {x}^{(k + 1)} \leftarrow \mathbf {x}^{(k)} - \alpha^{(k)} \left(\mathbf {H}^{(k)}\right) ^{- 1} \mathbf {g}^{(k)}
 $$
 
 We can construct a new quadratic approximation  $f^{(k + 1)}$  at  $\mathbf{x}^{(k + 1)}$ . The approximation should enforce that the local function evaluation is correct:
 
 $$
-f ^ {(k + 1)} \left(\mathbf {x} ^ {(k + 1)}\right) = y ^ {(k + 1)}
+f^{(k + 1)} \left(\mathbf {x}^{(k + 1)}\right) = y^{(k + 1)}
 $$
 
 and that the local gradient is correct:
 
 $$
-\nabla f ^ {(k + 1)} (\mathbf {x} ^ {(k + 1)}) = \mathbf {g} ^ {(k + 1)}
+\nabla f^{(k + 1)} (\mathbf {x}^{(k + 1)}) = \mathbf {g}^{(k + 1)}
 $$
 
 and that the previous gradient is correct:
 
 $$
-\nabla f ^ {(k + 1)} (\mathbf {x} ^ {(k)}) = \mathbf {g} ^ {(k)}
+\nabla f^{(k + 1)} (\mathbf {x}^{(k)}) = \mathbf {g}^{(k)}
 $$
 
 Show that updating the Hessian approximation to obtain  $\mathbf{H}^{(k + 1)}$  requires:10
 
 $$
-\mathbf {H} ^ {(k + 1)} \boldsymbol {\delta} ^ {(k + 1)} = \boldsymbol {\gamma} ^ {(k + 1)}
+\mathbf {H}^{(k + 1)} \boldsymbol {\delta}^{(k + 1)} = \boldsymbol {\gamma}^{(k + 1)}
 $$
 
 Then, show that in order for  $\mathbf{H}^{(k + 1)}$  to be positive definite, we require:
 
 $$
-\left(\boldsymbol {\delta} ^ {(k + 1)}\right) ^ {\top} \boldsymbol {\gamma} ^ {(k + 1)} > 0
+\left(\boldsymbol {\delta}^{(k + 1)}\right) ^{\top} \boldsymbol {\gamma}^{(k + 1)} > 0
 $$
 
 Finally, assuming that the curvature condition is enforced, explain why one then solves the following optimization problem to obtain  $\mathbf{H}^{(k + 1):12}$
 
 $$
-\underset {\mathbf {H}} {\text {m i n i m i z e}} \quad \| \mathbf {H} - \mathbf {H} ^ {(k)} \|
+\underset{\mathbf {H}} {\text{minimize}} \quad \| \mathbf {H} - \mathbf {H}^{(k)} \|
 $$
 
 subject to  $\mathbf{H} = \mathbf{H}^{\top}$
 
 $$
-\mathbf {H} \boldsymbol {\delta} ^ {(k + 1)} = \boldsymbol {\gamma} ^ {(k + 1)}
+\mathbf {H} \boldsymbol {\delta}^{(k + 1)} = \boldsymbol {\gamma}^{(k + 1)}
 $$
 
 where  $\| \mathbf{H} - \mathbf{H}^{(k)}\|$  is a matrix norm that defines a distance between  $\mathbf{H}$  and  $\mathbf{H}^{(k)}$ .
@@ -3458,25 +3226,25 @@ This condition is called the curvature condition. It can be enforced using the W
 Solution: The new approximation has the form
 
 $$
-f ^ {(k + 1)} (\mathbf {x}) = y ^ {(k + 1)} + \left(\mathbf {g} ^ {(k + 1)}\right) ^ {\top} \left(\mathbf {x} - \mathbf {x} ^ {(k + 1)}\right) + \frac {1}{2} \left(\mathbf {x} - \mathbf {x} ^ {(k + 1)}\right) ^ {\top} \mathbf {H} ^ {(k + 1)} \left(\mathbf {x} - \mathbf {x} ^ {(k + 1)}\right)
+f^{(k + 1)} (\mathbf {x}) = y^{(k + 1)} + \left(\mathbf {g}^{(k + 1)}\right) ^{\top} \left(\mathbf {x} - \mathbf {x}^{(k + 1)}\right) + \frac{1}{2} \left(\mathbf {x} - \mathbf {x}^{(k + 1)}\right) ^{\top} \mathbf {H}^{(k + 1)} \left(\mathbf {x} - \mathbf {x}^{(k + 1)}\right)
 $$
 
 using the true function value and gradient at  $\mathbf{x}^{(k + 1)}$  but requires an updated Hessian  $\mathbf{H}^{(k + 1)}$ . This form automatically satisfies  $f^{(k + 1)}(\mathbf{x}^{(k + 1)}) = y^{(k + 1)}$  and  $\nabla f^{(k + 1)}(\mathbf{x}^{(k + 1)}) = \mathbf{g}^{(k + 1)}$ . We must select the new Hessian to satisfy the third condition:
 
 $$
-\begin{array}{l} \nabla f ^ {(k + 1)} (\mathbf {x} ^ {(k)}) = \mathbf {g} ^ {(k + 1)} + \mathbf {H} ^ {(k + 1)} \left(\mathbf {x} ^ {(k)} - \mathbf {x} ^ {(k + 1)}\right) \\ = \mathbf {g} ^ {(k + 1)} - \mathbf {H} ^ {(k + 1)} \left(\mathbf {x} ^ {(k + 1)} - \mathbf {x} ^ {(k)}\right) \\ = \mathbf {g} ^ {(k + 1)} - \mathbf {H} ^ {(k + 1)} \boldsymbol {\delta} ^ {(k + 1)} \\ = \mathbf {g} ^ {(k)} \\ \end{array}
+\begin{array}{l} \nabla f^{(k + 1)} (\mathbf {x}^{(k)}) = \mathbf {g}^{(k + 1)} + \mathbf {H}^{(k + 1)} \left(\mathbf {x}^{(k)} - \mathbf {x}^{(k + 1)}\right) \\ = \mathbf {g}^{(k + 1)} - \mathbf {H}^{(k + 1)} \left(\mathbf {x}^{(k + 1)} - \mathbf {x}^{(k)}\right) \\ = \mathbf {g}^{(k + 1)} - \mathbf {H}^{(k + 1)} \boldsymbol {\delta}^{(k + 1)} \\ = \mathbf {g}^{(k)} \\ \end{array}
 $$
 
 We can rearrange and substitute to obtain:
 
 $$
-\mathbf {H} ^ {(k + 1)} \boldsymbol {\delta} ^ {(k + 1)} = \boldsymbol {\gamma} ^ {(k + 1)}
+\mathbf {H}^{(k + 1)} \boldsymbol {\delta}^{(k + 1)} = \boldsymbol {\gamma}^{(k + 1)}
 $$
 
 Recall that a matrix  $\mathbf{A}$  is positive definite if for every nonzero vector  $\mathbf{x}^{\top}\mathbf{A}\mathbf{x} > 0$ . If we multiply the secant equation by  $\delta^{(k + 1)}$  we obtain the curvature condition:
 
 $$
-\left(\boldsymbol {\delta} ^ {(k + 1)}\right) ^ {\top} \mathbf {H} ^ {(k + 1)} \boldsymbol {\delta} ^ {(k + 1)} = \left(\boldsymbol {\delta} ^ {(k + 1)}\right) ^ {\top} \boldsymbol {\gamma} ^ {(k + 1)} > 0
+\left(\boldsymbol {\delta}^{(k + 1)}\right) ^{\top} \mathbf {H}^{(k + 1)} \boldsymbol {\delta}^{(k + 1)} = \left(\boldsymbol {\delta}^{(k + 1)}\right) ^{\top} \boldsymbol {\gamma}^{(k + 1)} > 0
 $$
 
 We seek a new positive definite matrix  $\mathbf{H}^{(k + 1)}$ . All positive definite matrices are symmetric, so calculating a new positive definite matrix requires specifying  $n(n + 1) / 2$  variables. The secant equation imposes  $n$  conditions on these variables, leading to an infinite number of solutions. In order to have a unique solution, we choose the positive definite matrix closest to  $\mathbf{H}^{(k)}$ . This objective leads to the desired optimization problem.
@@ -3490,19 +3258,19 @@ Direct methods rely solely on the objective function  $f$ . These methods are al
 Cyclic coordinate search, also known as coordinate descent or taxicab search, simply alternates between coordinate directions for its line search. The search starts from an initial  $\mathbf{x}^{(1)}$  and optimizes the first input:
 
 $$
-\mathbf {x} _ {1} ^ {(2)} = \underset {x _ {1}} {\arg \min } f \left(x _ {1}, x _ {2} ^ {(1)}, x _ {3} ^ {(1)}, \dots , x _ {n} ^ {(1)}\right) \tag {7.1}
+\mathbf {x}_{1}^{(2)} = \underset{x_{1}} {\arg \min } f \left(x_{1}, x_{2}^{(1)}, x_{3}^{(1)}, \dots , x_{n}^{(1)}\right) \tag {7.1}
 $$
 
 Having solved this, it optimizes the next coordinate:
 
 $$
-\mathbf {x} _ {2} ^ {(3)} = \underset {x _ {2}} {\arg \min } f \left(x _ {1} ^ {(2)}, x _ {2}, x _ {3} ^ {(2)}, \dots , x _ {n} ^ {(2)}\right) \tag {7.2}
+\mathbf {x}_{2}^{(3)} = \underset{x_{2}} {\arg \min } f \left(x_{1}^{(2)}, x_{2}, x_{3}^{(2)}, \dots , x_{n}^{(2)}\right) \tag {7.2}
 $$
 
 This process is equivalent to doing a sequence of line searches along the set of  $n$  basis vectors, where the  $i$ th basis vector is all zero except for the  $i$ th component, which has value 1 (algorithm 7.1). For example, the third basis function in a four-dimensional space is  $\mathbf{e}^{(3)} = [0,0,1,0]$ . Figure 7.1 shows an example of a search through a two-dimensional space.
 
 $$
-\text {b a s i s} (i, n) = [ k = = i ? 1. 0: 0. 0 \text {f o r} k \text {i n} 1: n ]
+\text{basis} (i, n) = [ k = = i ? 1. 0: 0. 0 \text{for} k \text{in} 1: n ]
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/1cdafc7c5b6d9ea5fc7c7a74a6c11c7f025dd81954e1776291d340ba6564e400.jpg)  
@@ -3551,19 +3319,19 @@ Powell's method<sup>1</sup> can search in directions that are not orthogonal to 
 The algorithm maintains a list of search directions  $\mathbf{u}^{(1)},\ldots ,\mathbf{u}^{(n)}$ , which are initially the coordinate basis vectors,  $\mathbf{u}^{(i)} = \mathbf{e}^{(i)}$  for all  $i$ . Starting at  $\mathbf{x}^{(1)}$ , Powell's method conducts a line search for each search direction in succession, updating the design point each time:
 
 $$
-\mathbf {x} ^ {(i + 1)} \leftarrow \text {l i n e - s e a r c h} (f, \mathbf {x} ^ {(i)}, \mathbf {u} ^ {(i)}) \text {f o r} i \text {i n} 1: n \tag {7.3}
+\mathbf {x}^{(i + 1)} \leftarrow \text{line - search} (f, \mathbf {x}^{(i)}, \mathbf {u}^{(i)}) \text{for} i \text{in} 1: n \tag {7.3}
 $$
 
 Next, all search directions are shifted down by one index, dropping the oldest search direction,  $\mathbf{u}^{(1)}$ :
 
 $$
-\mathbf {u} ^ {(i)} \leftarrow \mathbf {u} ^ {(i + 1)} \text {f o r} i \text {i n} 1: n - 1 \tag {7.4}
+\mathbf {u}^{(i)} \leftarrow \mathbf {u}^{(i + 1)} \text{for} i \text{in} 1: n - 1 \tag {7.4}
 $$
 
 The last search direction is replaced with the direction from  $\mathbf{x}^{(1)}$  to  $\mathbf{x}^{(n + 1)}$ , which is the overall direction of progress over the last cycle:
 
 $$
-\mathbf {u} ^ {(n)} \leftarrow \mathbf {x} ^ {(n + 1)} - \mathbf {x} ^ {(1)} \tag {7.5}
+\mathbf {u}^{(n)} \leftarrow \mathbf {x}^{(n + 1)} - \mathbf {x}^{(1)} \tag {7.5}
 $$
 
 and another line search is conducted along the new direction to obtain a new  $\mathbf{x}^{(1)}$ . This process is repeated until convergence. Algorithm 7.4 provides an implementation. Figure 7.4 shows an example search trajectory.
@@ -3650,7 +3418,7 @@ Algorithm 7.5. The Hooke-Jeeves method, which takes the target function  $f$ , a
 In contrast with the Hooke-Jeeves method, which searches in the coordinate directions, generalized pattern search can search in arbitrary directions. A pattern  $\mathcal{P}$  can be constructed from a set of directions  $\mathcal{D}$  about an anchoring point  $\mathbf{x}$  with a step size  $\alpha$  according to:
 
 $$
-\mathcal {P} = \left\{\mathbf {x} + \alpha \mathbf {d} \text {f o r e a c h} \mathbf {d} \text {i n} \mathcal {D} \right\} \tag {7.6}
+\mathcal {P} = \left\{\mathbf {x} + \alpha \mathbf {d} \text{foreach} \mathbf {d} \text{in} \mathcal {D} \right\} \tag {7.6}
 $$
 
 The Hooke-Jeeves method uses  $2n$  directions for problems in  $n$  dimensions, but generalized pattern search can use as few as  $n + 1$ .
@@ -3812,7 +3580,7 @@ $$
 After finding a minimizer  $\mathbf{x}^*$  of  $g$ , a minimizer of  $f$  is
 
 $$
-\mathbf {x} ^ {*} \odot (\mathbf {b} - \mathbf {a}) + \mathbf {a} \tag {7.8}
+\mathbf {x}^{*} \odot (\mathbf {b} - \mathbf {a}) + \mathbf {a} \tag {7.8}
 $$
 
 DIRECT maintains a partition of this unit hypercube into hyperrectangular intervals. Each interval has a center  $\mathbf{c}^{(i)}$  and an associated objective function value  $f(\mathbf{c}^{(i)})$ . Each interval also has a radius  $r^{(i)}$ , which is the distance from the center to a vertex. Figure 7.12 shows such a partition and a plot of the intervals' objective function values at their centers with respect to their radii.
@@ -3820,7 +3588,7 @@ DIRECT maintains a partition of this unit hypercube into hyperrectangular interv
 DIRECT begins every iteration by identifying intervals to be split with additional function evaluations. It splits the intervals by reasoning about possible Lipschitz constants. Given a Lipschitz constant  $\ell$ , the lowerbound for an interval is a circular cone extending downwards from its center  $\mathbf{c}^{(i)}$ :
 
 $$
-f (\mathbf {x}) \geq f \left(\mathbf {c} ^ {(i)}\right) - \ell \| \mathbf {x} - \mathbf {c} ^ {(i)} \| _ {2} \tag {7.9}
+f (\mathbf {x}) \geq f \left(\mathbf {c}^{(i)}\right) - \ell \| \mathbf {x} - \mathbf {c}^{(i)} \| _{2} \tag {7.9}
 $$
 
 This lowerbound is constrained by the extents of the interval. Its lowest value is at its vertices, which are all at a distance  $r^{(i)}$  from the center with value  $f(\mathbf{c}^{(i)}) - \ell r^{(i)}$ . Figure 7.13 shows how this minimum value can be seen as the  $x$ -intercept of a line of slope  $\ell$  passing through the point  $(r^{(i)}, f(\mathbf{c}^{(i)}))$ .
@@ -3863,7 +3631,7 @@ These points are the lower-right convex hull.
 The width in a given dimension depends on how many times that dimension has been split. Since DIRECT always splits axis directions by thirds, a dimension that has been split  $d$  times will have a width of  $3^{-d}$ . If we have  $n$  dimensions and track how many times each dimension of a given interval has been split in a vector  $\mathbf{d}$ , then the radius of that interval is
 
 $$
-r = \left\| \left[ \frac {1}{2 \cdot 3 ^ {d _ {1}}}, \dots , \frac {1}{2 \cdot 3 ^ {d _ {n}}} \right] \right\| _ {2} \tag {7.10}
+r = \left\| \left[ \frac{1}{2 \cdot 3^{d_{1}}}, \dots , \frac{1}{2 \cdot 3^{d_{n}}} \right] \right\| _{2} \tag {7.10}
 $$
 
 DIRECT is implemented in algorithm 7.8. Iterations of DIRECT begin by finding all split intervals (algorithm 7.9).<sup>11</sup> It then splits all split intervals (algorithm 7.10). Two iterations of DIRECT in two dimensions are demonstrated in example 7.1.
@@ -3918,7 +3686,7 @@ Algorithm 7.10. The routine for splitting an interval  $\square$ , where  $g$  i
 We can use DIRECT to optimize the flower function over  $x_{1} \in [-1,3]$ ,  $x_{2} \in [-2,1]$ . The function is first normalized to the unit hypercube such that  $x_{1}', x_{2}' \in [0,1]$ :
 
 $$
-f (x _ {1} ^ {\prime}, x _ {2} ^ {\prime}) = \mathrm {f l o w e r} (4 x _ {1} ^ {\prime} - 1, 3 x _ {2} ^ {\prime} - 2)
+f (x_{1}^{\prime}, x_{2}^{\prime}) = \mathrm{fl ow er} (4 x_{1}^{\prime} - 1, 3 x_{2}^{\prime} - 2)
 $$
 
 The objective function is sampled at  $[0.5, 0.5]$  to obtain 0.158. We have a single interval with center  $[0.5, 0.5]$  and side lengths  $[1, 1]$ . The interval is divided twice, first into thirds in  $x_1'$  and then the center interval is divided into thirds in  $x_2'$ .
@@ -3952,7 +3720,7 @@ Exercise 7.1. Previous chapters covered methods that leverage the derivative to 
 Solution: The derivative has  $n$  terms whereas the Hessian has  $n^2$  terms. Each derivative term requires two evaluations when using finite difference methods:  $f(\mathbf{x})$  and  $f(\mathbf{x} + h\mathbf{e}^{(i)})$ . Each Hessian term requires an additional evaluation when using finite difference methods:
 
 $$
-\frac {\partial^ {2} f}{\partial x _ {i} \partial x _ {j}} \approx \frac {f (\mathbf {x} + h \mathbf {e} ^ {(i)} + h \mathbf {e} ^ {(j)}) - f (\mathbf {x} + h \mathbf {e} ^ {(i)}) - f (\mathbf {x} + h \mathbf {e} ^ {(j)}) + f (x)}{h ^ {2}}
+\frac{\partial^{2} f}{\partial x_{i} \partial x_{j}} \approx \frac{f (\mathbf {x} + h \mathbf {e}^{(i)} + h \mathbf {e}^{(j)}) - f (\mathbf {x} + h \mathbf {e}^{(i)}) - f (\mathbf {x} + h \mathbf {e}^{(j)}) + f (x)}{h^{2}}
 $$
 
 Thus, to approximate the gradient, you need  $n + 1$  evaluations, and to approximate the Hessian you need on the order of  $n^2$  evaluations.
@@ -4000,7 +3768,7 @@ This chapter presents a variety of stochastic methods that use randomization str
 Adding stochasticity to gradient descent can be beneficial in large nonlinear optimization problems. Saddle points, where the gradient is very close to zero, can cause descent methods to select step sizes that are too small to be useful. One approach is to add Gaussian noise to each descent step  $\mathbf{d}^{(k)}$ :
 
 $$
-\mathbf {x} ^ {(k + 1)} \leftarrow \mathbf {x} ^ {(k)} + \mathbf {d} ^ {(k)} + \boldsymbol {\epsilon} ^ {(k)} \tag {8.1}
+\mathbf {x}^{(k + 1)} \leftarrow \mathbf {x}^{(k)} + \mathbf {d}^{(k)} + \boldsymbol {\epsilon}^{(k)} \tag {8.1}
 $$
 
 where  $\epsilon^{(k)}$  is zero-mean Gaussian noise with standard deviation  $\sigma$ . The amount of noise is typically reduced over time. The standard deviation of the noise is typically a decreasing sequence  $\sigma^{(k)}$  such as  $1 / k$ . Algorithm 8.1 provides an implementation of this method. Figure 8.1 compares descent with and without noise on a saddle function.
@@ -4029,7 +3797,7 @@ Algorithm 8.1. A noisy descent method, which augments another descent method wit
 Convergence guarantees for stochastic gradient descent require that the positive step sizes be chosen such that:
 
 $$
-\sum_ {k = 1} ^ {\infty} \alpha^ {(k)} = \infty \quad \sum_ {k = 1} ^ {\infty} \left(\alpha^ {(k)}\right) ^ {2} <   \infty \tag {8.2}
+\sum_{k = 1}^{\infty} \alpha^{(k)} = \infty \quad \sum_{k = 1}^{\infty} \left(\alpha^{(k)}\right) ^{2} <   \infty \tag {8.2}
 $$
 
 These conditions ensure that the step sizes decrease and allow the method to converge, but not too quickly so as to become stuck away from a local minimum.
@@ -4041,7 +3809,7 @@ The generalized pattern search methods covered in section 7.4 restricted local e
 The procedure used to sample positive spanning sets (see example 8.1) begins by constructing an initial linearly spanning set in the form of a lower triangular matrix  $\mathbf{L}$ . The diagonal terms in  $\mathbf{L}$  are sampled from  $\pm 1 / \sqrt{\alpha^{(k)}}$ , where  $\alpha^{(k)}$  is the step size at iteration  $k$ . The lower components of  $\mathbf{L}$  are sampled from
 
 $$
-\left\{- 1 / \sqrt {\alpha^ {(k)}} + 1, - 1 / \sqrt {\alpha^ {(k)}} + 2, \dots , 1 / \sqrt {\alpha^ {(k)}} - 1 \right\} \tag {8.3}
+\left\{- 1 / \sqrt{\alpha^{(k)}} + 1, - 1 / \sqrt{\alpha^{(k)}} + 2, \dots , 1 / \sqrt{\alpha^{(k)}} - 1 \right\} \tag {8.3}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/0ef9a1feb2ae08f715838e406861499cf11d761e054ba4540b75cebb08942f5f.jpg)  
@@ -4076,7 +3844,7 @@ Two common methods for obtaining a positive spanning set from the linearly spann
 The step size  $\alpha$  starts at 1, is always a power of 4, and never exceeds 1. Using a power of 4 causes the maximum possible componentwise step size taken in each iteration to be scaled by a factor of 2, as the maximum componentwise step size  $\alpha / \sqrt{\alpha}$  has length  $4^m / \sqrt{4^m} = 2^m$  for integer  $m < 1$ . The step size is updated according to:
 
 $$
-\alpha^ {(k + 1)} \leftarrow \left\{ \begin{array}{l l} \alpha^ {(k)} / 4 & \text {i f n o i m p r o v e m e n t w a s f o u n d i n t h i s i t e r a t i o n} \\ \min  \left(1, 4 \alpha^ {(k)}\right) & \text {o t h e r w i s e} \end{array} \right. \tag {8.4}
+\alpha^{(k + 1)} \leftarrow \left\{ \begin{array}{l l} \alpha^{(k)} / 4 & \text{ifnoimprovementwasfoundinthisiteration} \\ \min \left(1, 4 \alpha^{(k)}\right) & \text{otherwise} \end{array} \right. \tag {8.4}
 $$
 
 Mesh adaptive direct search is opportunistic and does not support dynamic ordering because, after a successful iteration, the new random pattern may not contain the previous successful direction. The algorithm queries a new design point along the accepted descent direction. If  $f(\mathbf{x}^{(k)} = \mathbf{x}^{(k - 1)} + \alpha \mathbf{d}) < f(\mathbf{x}^{(k - 1)})$ ,
@@ -4152,14 +3920,14 @@ aries of memory storage. $^{8}$  Stochastic methods are not merely practical, bu
 This approach uses the simultaneous perturbation stochastic gradient approximation (section 2.6), which approximates the gradient using directional derivatives along randomly chosen directions. $^{10}$  In MeZO, the gradient is estimated and a step is applied in-place such that a separate gradient vector does not need to be allocated, thereby minimizing the memory footprint. The update is as follows:
 
 $$
-\mathbf {x} ^ {\prime} = \mathbf {x} - \alpha \frac {f (\mathbf {x} + \delta \mathbf {z}) - f (\mathbf {x} - \delta \mathbf {z})}{2 \delta} \mathbf {z} \tag {8.5}
+\mathbf {x}^{\prime} = \mathbf {x} - \alpha \frac{f (\mathbf {x} + \delta \mathbf {z}) - f (\mathbf {x} - \delta \mathbf {z})}{2 \delta} \mathbf {z} \tag {8.5}
 $$
 
 for a step factor  $\alpha$ , finite difference scalar  $\delta$ , and perturbation  $\mathbf{z}$  drawn from a zero-mean unit Gaussian distribution. Such an update is called a zero-order stochastic step.
 
 The zero-order stochastic step is implemented in algorithm 8.4. We start by setting our pseudo-random number generator according to the seed, and then randomly perturb our design such that it contains  $\mathbf{x} + \delta \mathbf{z}$ . We then evaluate the objective function to get  $f(\mathbf{x} + \delta \mathbf{z})$ . We again reset the pseudo-random number
 
-8 For example, the Llama 3.1 large language model has 405 billion parameters. A. Grattaftori, A. Dubey, A. Jauhri, A. Pandey, A. Kadian, A. Al-Dahle, et al., "The Llama 3 Herd of Models," 2024. arXiv: 2407.217 83.  
+8 For example, the Llama 3.1 large language model has 405 billion parameters. A. Grattaftori, A. Dubey, A. Jauhri, A. Pandey, A. Kadian, A. Al-Dahle, et al., "The Llama 3 Herd of Models," 2024. arXiv: 2407.21783.  
 In the context of training large language models, this algorithm has shown to lead to a  $12 \times$  memory reduction and a  $2 \times$  speed up in training time. S. Malladi, T. Gao, E. Nichani, A. Damian, J. Lee, D. Chen, et al., "Fine-Tuning Language Models with Just Forward Passes," in Advances in Neural Information Processing Systems (NeurIPS), 2023.  
 10 The simultaneous perturbation stochastic gradient approximation can average over multiple sampled perturbations. It is common to use only a single sampled perurbation per step for MeZO.
 
@@ -4185,7 +3953,7 @@ Algorithm 8.4. A method for improving a design  $x$  in-place based on a single 
 At every iteration, a candidate transition from  $\mathbf{x}$  to  $\mathbf{x}'$  is sampled from a transition distribution  $T$  and is accepted with probability
 
 $$
-\left\{ \begin{array}{l l} 1 & \text {i f} \Delta y \leq 0 \\ e ^ {- \Delta y / t} & \text {i f} \Delta y > 0 \end{array} \right. \tag {8.6}
+\left\{ \begin{array}{l l} 1 & \text{if} \Delta y \leq 0 \\ e^{- \Delta y / t} & \text{if} \Delta y > 0 \end{array} \right. \tag {8.6}
 $$
 
 where  $\Delta y = f(\mathbf{x}^{\prime}) - f(\mathbf{x})$  is the difference in the objective and  $t$  is the temperature. It is this acceptance probability, known as the Metropolis criterion, $^{13}$  that allows the algorithm to escape from local minima when the temperature is high.
@@ -4239,7 +4007,7 @@ In this case, the spread of the transition distribution has the greatest impact 
 A more sophisticated algorithm was introduced by Corana, Marchesi, Martini, and Ridella in 1987 that allows for the step size to change during the search.16 Rather than using a fixed transition distribution, this adaptive simulated annealing method keeps track of a separate step size  $\mathbf{v}$  for each coordinate direction. For a given point  $\mathbf{x}$ , a cycle of random moves is performed in each coordinate direction  $i$  according to:
 
 $$
-\mathbf {x} ^ {\prime} = \mathbf {x} + r v _ {i} \mathbf {e} _ {i} \tag {8.7}
+\mathbf {x}^{\prime} = \mathbf {x} + r v_{i} \mathbf {e}_{i} \tag {8.7}
 $$
 
 where  $r$  is drawn uniformly at random from  $[-1, 1]$  and  $v_{i}$  is the maximum step size in the  $i$ th coordinate direction. Each new point is accepted according to the Metropolis criterion. The number of accepted points in each coordinate direction is stored in a vector  $\mathbf{a}$ .
@@ -4247,7 +4015,7 @@ where  $r$  is drawn uniformly at random from  $[-1, 1]$  and  $v_{i}$  is the m
 After  $n_{s}$  cycles, the step sizes are adjusted with the aim to maintain an approximately equal number of accepted and rejected designs with an average acceptance rate near one-half. Rejecting too many moves is a waste of computational effort, while accepting too many moves indicates that the configuration is evolving too slowly because candidate points are too similar to the current location. The update formula used by Corana, Marchesi, Martini, and Ridella is:
 
 $$
-v _ {i} = \left\{ \begin{array}{l l} v _ {i} \left(1 + c _ {i} \frac {a _ {i} / n _ {s} - 0 . 6}{0 . 4}\right) & \text {i f} a _ {i} > 0. 6 n _ {s} \\ v _ {i} \left(1 + c _ {i} \frac {0 . 4 - a _ {i} / n _ {s}}{0 . 4}\right) ^ {- 1} & \text {i f} a _ {i} <   0. 4 n _ {s} \\ v _ {i} & \text {o t h e r w i s e} \end{array} \right. \tag {8.8}
+v_{i} = \left\{ \begin{array}{l l} v_{i} \left(1 + c_{i} \frac{a_{i} / n_{s} - 0.6}{0.4}\right) & \text{if} a_{i} > 0. 6 n_{s} \\ v_{i} \left(1 + c_{i} \frac{0.4 - a_{i} / n_{s}}{0.4}\right) ^{- 1} & \text{if} a_{i} <   0. 4 n_{s} \\ v_{i} & \text{otherwise} \end{array} \right. \tag {8.8}
 $$
 
 The  $c_{i}$  parameter controls the step variation along each direction and is typically set to 2 as shown in figure 8.4. Algorithm 8.6 implements this update. The temperature is reduced every  $n_t$  step adjustments.
@@ -4284,11 +4052,11 @@ The cross-entropy method requires choosing a family of distributions parameteriz
 Depending on the choice of distribution family, the process of fitting the distribution to the elite samples can be done analytically. In the case of the multivariate normal distribution, the parameters are updated according to the maximum likelihood estimate:
 
 $$
-\boldsymbol {\mu} ^ {(k + 1)} = \frac {1}{m _ {\text {e l i t e}}} \sum_ {i = 1} ^ {m _ {\text {e l i t e}}} \mathbf {x} ^ {(i)} \tag {8.9}
+\boldsymbol {\mu}^{(k + 1)} = \frac{1}{m_{\text{elite}}} \sum_{i = 1}^{m_{\text{elite}}} \mathbf {x}^{(i)} \tag {8.9}
 $$
 
 $$
-\boldsymbol {\Sigma} ^ {(k + 1)} = \frac {1}{m _ {\text {e l i t e}}} \sum_ {i = 1} ^ {m _ {\text {e l i t e}}} \left(\mathbf {x} ^ {(i)} - \boldsymbol {\mu} ^ {(k + 1)}\right) \left(\mathbf {x} ^ {(i)} - \boldsymbol {\mu} ^ {(k + 1)}\right) ^ {\top} \tag {8.10}
+\boldsymbol {\Sigma}^{(k + 1)} = \frac{1}{m_{\text{elite}}} \sum_{i = 1}^{m_{\text{elite}}} \left(\mathbf {x}^{(i)} - \boldsymbol {\mu}^{(k + 1)}\right) \left(\mathbf {x}^{(i)} - \boldsymbol {\mu}^{(k + 1)}\right) ^{\top} \tag {8.10}
 $$
 
 Example 8.3 applies the cross-entropy method to a simple function. Figure 8.6 shows several iterations on a more complex function. Example 8.4 shows the potential limitation of using a multivariate normal distribution for fitting elite samples.
@@ -4358,7 +4126,7 @@ import Distributions: MvNormal
 seed!(0) # set random seed for reproducible results  
 f = x→norm(x)  
 μ = [0.5, 1.5]  
-Σ = [1.0 0.2; 0.2 2.0]  
+Σ = [1.00.2; 0.22.0]  
 P = MvNormal(μ, Σ)  
 k_max = 10  
 P = cross_entropy_method(f, P, k_max)  
@@ -4388,7 +4156,7 @@ Example 8.4. The normal distribution is unable to capture multiple local minima,
 Like the cross-entropy method, natural evolution strategies<sup>19</sup> optimize a proposal distribution parameterized by  $\theta$ . We have to specify the proposal distribution family and the number of samples. The aim is to minimize the expectation  $\mathbb{E}_{\mathbf{x} \sim p(\cdot | \theta)}[f(\mathbf{x})]$ . Instead of fitting elite samples, evolution strategies apply gradient descent. The gradient is estimated from the samples:<sup>20</sup>
 
 $$
-\begin{array}{l} \nabla_ {\boldsymbol {\theta}} \mathbb {E} _ {\mathbf {x} \sim p (\cdot | \boldsymbol {\theta})} [ f (\mathbf {x}) ] = \int \nabla_ {\boldsymbol {\theta}} p (\mathbf {x} \mid \boldsymbol {\theta}) f (\mathbf {x}) d \mathbf {x} (8.11) \\ = \int \frac {p (\mathbf {x} \mid \boldsymbol {\theta})}{p (\mathbf {x} \mid \boldsymbol {\theta})} \nabla_ {\boldsymbol {\theta}} p (\mathbf {x} \mid \boldsymbol {\theta}) f (\mathbf {x}) d \mathbf {x} (8.12) \\ = \int p (\mathbf {x} \mid \theta) \nabla_ {\theta} \log p (\mathbf {x} \mid \theta) f (\mathbf {x}) d \mathbf {x} (8.13) \\ = \mathbb {E} _ {\mathbf {x} \sim p (\cdot | \boldsymbol {\theta})} [ f (\mathbf {x}) \nabla_ {\boldsymbol {\theta}} \log p (\mathbf {x} \mid \boldsymbol {\theta}) ] (8.14) \\ \approx \frac {1}{m} \sum_ {i = 1} ^ {m} f \left(\mathbf {x} ^ {(i)}\right) \nabla_ {\theta} \log p \left(\mathbf {x} ^ {(i)} \mid \theta\right) (8.15) \\ \end{array}
+\begin{array}{l} \nabla_{\boldsymbol {\theta}} \mathbb {E}_{\mathbf {x} \sim p (\cdot | \boldsymbol {\theta})} [ f (\mathbf {x}) ] = \int \nabla_{\boldsymbol {\theta}} p (\mathbf {x} \mid \boldsymbol {\theta}) f (\mathbf {x}) d \mathbf {x} (8.11) \\ = \int \frac{p (\mathbf {x} \mid \boldsymbol {\theta})}{p (\mathbf {x} \mid \boldsymbol {\theta})} \nabla_{\boldsymbol {\theta}} p (\mathbf {x} \mid \boldsymbol {\theta}) f (\mathbf {x}) d \mathbf {x} (8.12) \\ = \int p (\mathbf {x} \mid \theta) \nabla_{\theta} \log p (\mathbf {x} \mid \theta) f (\mathbf {x}) d \mathbf {x} (8.13) \\ = \mathbb {E}_{\mathbf {x} \sim p (\cdot | \boldsymbol {\theta})} [ f (\mathbf {x}) \nabla_{\boldsymbol {\theta}} \log p (\mathbf {x} \mid \boldsymbol {\theta}) ] (8.14) \\ \approx \frac{1}{m} \sum_{i = 1}^{m} f \left(\mathbf {x}^{(i)}\right) \nabla_{\theta} \log p \left(\mathbf {x}^{(i)} \mid \theta\right) (8.15) \\ \end{array}
 $$
 
 Although we do not need the gradient of the objective function, we do need the gradient of the log likelihood,  $\log p(\mathbf{x} \mid \boldsymbol{\theta})$ . Example 8.5 shows how to compute
@@ -4417,13 +4185,13 @@ Another popular method is covariance matrix adaptation,[21] which is also referr
 Covariance matrix adaptation maintains a mean vector  $\mu$ , a covariance matrix  $\Sigma$ , and an additional step-size scalar  $\sigma$ . The covariance matrix only increases or decreases in a single direction with every iteration, whereas the step-size scalar is adapted to control the overall spread of the distribution. At every iteration,  $m$  designs are sampled from the multivariate Gaussian:[23]
 
 $$
-\mathbf {x} \sim \mathcal {N} (\boldsymbol {\mu}, \sigma^ {2} \boldsymbol {\Sigma}) \tag {8.16}
+\mathbf {x} \sim \mathcal {N} (\boldsymbol {\mu}, \sigma^{2} \boldsymbol {\Sigma}) \tag {8.16}
 $$
 
 The designs are then sorted according to their objective function values such that  $f(\mathbf{x}^{(1)}) \leq f(\mathbf{x}^{(2)}) \leq \dots \leq f(\mathbf{x}^{(m)})$ . A new mean vector  $\boldsymbol{\mu}^{(k+1)}$  is formed using a weighted average of the first  $m_{\mathrm{elite}}$  sampled designs:
 
 $$
-\boldsymbol {\mu} ^ {(k + 1)} \leftarrow \sum_ {i = 1} ^ {m _ {\text {e l i t e}}} w _ {i} \mathbf {x} ^ {(i)} \tag {8.17}
+\boldsymbol {\mu}^{(k + 1)} \leftarrow \sum_{i = 1}^{m_{\text{elite}}} w_{i} \mathbf {x}^{(i)} \tag {8.17}
 $$
 
 Algorithm 8.9. The natural evolution strategies method, which takes an objective function  $f$  to be minimized, an initial distribution parameter vector  $\theta$ , an iteration count  $k_{-} \max$ , a sample size  $m$ , and a step factor  $\alpha$ . An optimized parameter vector is returned. The method rand(θ) should sample from the distribution parameterized by  $\theta$ , and  $\nabla \log p(x, \theta)$  should return the log likelihood gradient.
@@ -4435,23 +4203,23 @@ Algorithm 8.9. The natural evolution strategies method, which takes an objective
 The multivariate normal distribution  $\mathcal{N}(\mu, \Sigma)$  with mean  $\mu$  and covariance  $\Sigma$  is a popular distribution family due to having analytic solutions. The likelihood in  $d$  dimensions has the form
 
 $$
-p (\mathbf {x} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}) = (2 \pi) ^ {- \frac {d}{2}} | \boldsymbol {\Sigma} | ^ {- \frac {1}{2}} \exp \left(- \frac {1}{2} (\mathbf {x} - \boldsymbol {\mu}) ^ {\top} \boldsymbol {\Sigma} ^ {- 1} (\mathbf {x} - \boldsymbol {\mu})\right)
+p (\mathbf {x} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}) = (2 \pi) ^{- \frac{d}{2}} | \boldsymbol {\Sigma} | ^{- \frac{1}{2}} \exp \left(- \frac{1}{2} (\mathbf {x} - \boldsymbol {\mu}) ^{\top} \boldsymbol {\Sigma}^{- 1} (\mathbf {x} - \boldsymbol {\mu})\right)
 $$
 
 where  $|\Sigma|$  is the determinant of  $\Sigma$ . The log likelihood is
 
 $$
-\log p (\mathbf {x} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}) = - \frac {d}{2} \log (2 \pi) - \frac {1}{2} \log | \boldsymbol {\Sigma} | - \frac {1}{2} (\mathbf {x} - \boldsymbol {\mu}) ^ {\top} \boldsymbol {\Sigma} ^ {- 1} (\mathbf {x} - \boldsymbol {\mu})
+\log p (\mathbf {x} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}) = - \frac{d}{2} \log (2 \pi) - \frac{1}{2} \log | \boldsymbol {\Sigma} | - \frac{1}{2} (\mathbf {x} - \boldsymbol {\mu}) ^{\top} \boldsymbol {\Sigma}^{- 1} (\mathbf {x} - \boldsymbol {\mu})
 $$
 
 The parameters can be updated using their log likelihood gradients:
 
 $$
-\nabla_ {(\boldsymbol {\mu})} \log p (\mathbf {x} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}) = \boldsymbol {\Sigma} ^ {- 1} (\mathbf {x} - \boldsymbol {\mu})
+\nabla_{(\boldsymbol {\mu})} \log p (\mathbf {x} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}) = \boldsymbol {\Sigma}^{- 1} (\mathbf {x} - \boldsymbol {\mu})
 $$
 
 $$
-\nabla_ {(\boldsymbol {\Sigma})} \log p (\mathbf {x} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}) = \frac {1}{2} \boldsymbol {\Sigma} ^ {- 1} (\mathbf {x} - \boldsymbol {\mu}) (\mathbf {x} - \boldsymbol {\mu}) ^ {\top} \boldsymbol {\Sigma} ^ {- 1} - \frac {1}{2} \boldsymbol {\Sigma} ^ {- 1}
+\nabla_{(\boldsymbol {\Sigma})} \log p (\mathbf {x} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}) = \frac{1}{2} \boldsymbol {\Sigma}^{- 1} (\mathbf {x} - \boldsymbol {\mu}) (\mathbf {x} - \boldsymbol {\mu}) ^{\top} \boldsymbol {\Sigma}^{- 1} - \frac{1}{2} \boldsymbol {\Sigma}^{- 1}
 $$
 
 The term  $\nabla_{(\Sigma)}$  contains the partial derivative of each entry of  $\Sigma$  with respect to the log likelihood.
@@ -4459,7 +4227,7 @@ The term  $\nabla_{(\Sigma)}$  contains the partial derivative of each entry of 
 Directly updating  $\pmb{\Sigma}$  may not result in a positive definite matrix, as is required for covariance matrices. One solution is to represent  $\pmb{\Sigma}$  as a product  $\mathbf{A}^{\top}\mathbf{A}$ , which guarantees that  $\pmb{\Sigma}$  remains positive semidefinite, and then update  $\mathbf{A}$  instead. Replacing  $\pmb{\Sigma}$  by  $\mathbf{A}^{\top}\mathbf{A}$  and taking the gradient with respect to  $\mathbf{A}$  yields:
 
 $$
-\nabla_ {(\mathbf {A})} \log p (\mathbf {x} \mid \boldsymbol {\mu}, \mathbf {A}) = \mathbf {A} \Big [ \nabla_ {(\boldsymbol {\Sigma})} \log p (\mathbf {x} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}) + \nabla_ {(\boldsymbol {\Sigma})} \log p (\mathbf {x} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}) ^ {\top} \Big ]
+\nabla_{(\mathbf {A})} \log p (\mathbf {x} \mid \boldsymbol {\mu}, \mathbf {A}) = \mathbf {A} \Big [ \nabla_{(\boldsymbol {\Sigma})} \log p (\mathbf {x} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}) + \nabla_{(\boldsymbol {\Sigma})} \log p (\mathbf {x} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}) ^{\top} \Big ]
 $$
 
 Example 8.5. A derivation of the log likelihood gradient equations for the multivariate Gaussian distribution. For the original derivation and several more sophisticated solutions for handling the positive definite covariance matrix, see D. Wierstra, T. Schaul, T. Glasmachers, Y. Sun, J. Peters, and J. Schmidhuber, "Natural Evolution Strategies," Journal of Machine Learning Research, no. 15, pp. 949-980, 2014.
@@ -4480,13 +4248,13 @@ $x_{1}$
 where the first  $m_{\text{elite}}$  weights sum to 1, and all the weights approximately sum to 0 and are ordered largest to smallest: $^{24}$
 
 $$
-\sum_ {i = 1} ^ {m _ {\text {e l i t e}}} w _ {i} = 1 \quad \sum_ {i = 1} ^ {m} w _ {i} \approx 0 \quad w _ {1} \geq w _ {2} \geq \dots \geq w _ {m} \tag {8.18}
+\sum_{i = 1}^{m_{\text{elite}}} w_{i} = 1 \quad \sum_{i = 1}^{m} w_{i} \approx 0 \quad w_{1} \geq w_{2} \geq \dots \geq w_{m} \tag {8.18}
 $$
 
 We can approximate the mean update in the cross-entropy method by setting the first  $m_{\mathrm{elite}}$  weights to  $1 / m_{\mathrm{elite}}$ , and setting the remaining weights to zero. Covariance matrix adaptation instead distributes decreasing weight to all  $m$  designs, including some negative weights. The recommended weighting is obtained by normalizing
 
 $$
-w _ {i} ^ {\prime} = \ln \frac {m + 1}{2} - \ln i \text {f o r} i \text {i n} 1: m \tag {8.19}
+w_{i}^{\prime} = \ln \frac{m + 1}{2} - \ln i \text{for} i \text{in} 1: m \tag {8.19}
 $$
 
 to obtain  $\mathbf{w}$ . The positive and negative weights are normalized separately. Figure 8.8 compares the mean updates for covariance matrix adaptation and the cross-entropy method.
@@ -4494,29 +4262,29 @@ to obtain  $\mathbf{w}$ . The positive and negative weights are normalized separ
 The step size is updated using a cumulative variable  $\mathbf{p}_{\sigma}$  that tracks steps over time:
 
 $$
-\mathbf {p} _ {\sigma} ^ {(1)} = \mathbf {0} \tag {8.20}
+\mathbf {p}_{\sigma}^{(1)} = \mathbf {0} \tag {8.20}
 $$
 
 $$
-\mathbf {p} _ {\sigma} ^ {(k + 1)} \leftarrow (1 - c _ {\sigma}) \mathbf {p} _ {\sigma} + \sqrt {c _ {\sigma} (2 - c _ {\sigma}) \mu_ {\mathrm {e f f}}} \left(\boldsymbol {\Sigma} ^ {(k)}\right) ^ {- 1 / 2} \boldsymbol {\delta} _ {w} \tag {8.21}
+\mathbf {p}_{\sigma}^{(k + 1)} \leftarrow (1 - c_{\sigma}) \mathbf {p}_{\sigma} + \sqrt{c_{\sigma} (2 - c_{\sigma}) \mu_{\mathrm{ef f}}} \left(\boldsymbol {\Sigma}^{(k)}\right) ^{- 1 / 2} \boldsymbol {\delta}_{w} \tag {8.21}
 $$
 
 where  $c_{\sigma} < 1$  controls the rate of decay and the right hand term determines whether the step size should be increased or decreased based on the observed samples with respect to the present scale of the distribution. The variance effective selection mass  $\mu_{\mathrm{eff}}$  has the form
 
 $$
-\mu_ {\text {e f f}} = \frac {1}{\sum_ {i = 1} ^ {m _ {\text {e l i t e}}} w _ {i} ^ {2}} \tag {8.22}
+\mu_{\text{eff}} = \frac{1}{\sum_{i = 1}^{m_{\text{elite}}} w_{i}^{2}} \tag {8.22}
 $$
 
 and  $\delta_w$  is computed from the sampled deviations:
 
 $$
-\boldsymbol {\delta} _ {w} = \sum_ {i = 1} ^ {m _ {\text {e l i t e}}} w _ {i} \boldsymbol {\delta} ^ {(i)} \quad \text {f o r} \quad \boldsymbol {\delta} ^ {(i)} = \frac {\mathbf {x} ^ {(i)} - \boldsymbol {\mu} ^ {(k)}}{\sigma^ {(k)}} \tag {8.23}
+\boldsymbol {\delta}_{w} = \sum_{i = 1}^{m_{\text{elite}}} w_{i} \boldsymbol {\delta}^{(i)} \quad \text{for} \quad \boldsymbol {\delta}^{(i)} = \frac{\mathbf {x}^{(i)} - \boldsymbol {\mu}^{(k)}}{\sigma^{(k)}} \tag {8.23}
 $$
 
 The new step size is obtained according to
 
 $$
-\sigma^ {(k + 1)} \leftarrow \sigma^ {(k)} \exp \left(\frac {c _ {\sigma}}{d _ {\sigma}} \left(\frac {\| \mathbf {p} _ {\sigma} \|}{\mathbb {E} \| \mathcal {N} (\mathbf {0} , \mathbf {I}) \|} - 1\right)\right) \tag {8.24}
+\sigma^{(k + 1)} \leftarrow \sigma^{(k)} \exp \left(\frac{c_{\sigma}}{d_{\sigma}} \left(\frac{\| \mathbf {p}_{\sigma} \|}{\mathbb {E} \| \mathcal {N} (\mathbf {0} , \mathbf {I}) \|} - 1\right)\right) \tag {8.24}
 $$
 
 24 In the recommended weighting, the first  $m_{\mathrm{elite}}$  samples are positive, and the remaining samples are nonpositive.
@@ -4527,33 +4295,33 @@ Figure 8.8. Shown is an initial proposal distribution (white contours), six samp
 where
 
 $$
-\mathbb {E} \| \mathcal {N} (\mathbf {0}, \mathbf {I}) \| = \sqrt {2} \frac {\Gamma \left(\frac {n + 1}{2}\right)}{\Gamma \left(\frac {n}{2}\right)} \approx \sqrt {n} \left(1 - \frac {1}{4 n} + \frac {1}{2 1 n ^ {2}}\right) \tag {8.25}
+\mathbb {E} \| \mathcal {N} (\mathbf {0}, \mathbf {I}) \| = \sqrt{2} \frac{\Gamma \left(\frac{n + 1}{2}\right)}{\Gamma \left(\frac{n}{2}\right)} \approx \sqrt{n} \left(1 - \frac{1}{4 n} + \frac{1}{21 n^{2}}\right) \tag {8.25}
 $$
 
 is the expected length of a vector drawn from a Gaussian distribution. Comparing the length of  $\mathbf{p}_{\sigma}$  to its expected length under random selection provides the mechanism by which  $\sigma$  is increased or decreased. The constants  $c_{\sigma}$  and  $d_{\sigma}$  have recommended values:
 
 $$
-c _ {\sigma} = \left(\mu_ {\text {e f f}} + 2\right) / \left(n + \mu_ {\text {e f f}} + 5\right) \tag {8.26}
+c_{\sigma} = \left(\mu_{\text{eff}} + 2\right) / \left(n + \mu_{\text{eff}} + 5\right) \tag {8.26}
 $$
 
 $$
-d _ {\sigma} = 1 + 2 \max  \left(0, \sqrt {\left(\mu_ {\text {e f f}} - 1\right) / (n + 1)} - 1\right) + c _ {\sigma} \tag {8.27}
+d_{\sigma} = 1 + 2 \max \left(0, \sqrt{\left(\mu_{\text{eff}} - 1\right) / (n + 1)} - 1\right) + c_{\sigma} \tag {8.27}
 $$
 
 The covariance matrix is also updated using a cumulative vector:
 
 $$
-\mathbf {p} _ {\Sigma} ^ {(1)} = \mathbf {0} \tag {8.28}
+\mathbf {p}_{\Sigma}^{(1)} = \mathbf {0} \tag {8.28}
 $$
 
 $$
-\mathbf {p} _ {\Sigma} ^ {(k + 1)} \leftarrow (1 - c _ {\Sigma}) \mathbf {p} _ {\Sigma} ^ {(k)} + h _ {\sigma} \sqrt {c _ {\Sigma} (2 - c _ {\Sigma}) \mu_ {\mathrm {e f f}}} \boldsymbol {\delta} _ {w} \tag {8.29}
+\mathbf {p}_{\Sigma}^{(k + 1)} \leftarrow (1 - c_{\Sigma}) \mathbf {p}_{\Sigma}^{(k)} + h_{\sigma} \sqrt{c_{\Sigma} (2 - c_{\Sigma}) \mu_{\mathrm{ef f}}} \boldsymbol {\delta}_{w} \tag {8.29}
 $$
 
 where
 
 $$
-h _ {\sigma} = \left\{ \begin{array}{l l} 1 & \text {i f} \frac {\| \mathbf {p} _ {\sigma} \|}{\sqrt {1 - (1 - c _ {\sigma}) ^ {2 (k + 1)}}} <   \left(1. 4 + \frac {2}{n + 1}\right) \mathbb {E} \| \mathcal {N} (\mathbf {0}, \mathbf {I}) \| \\ 0 & \text {o t h e r w i s e} \end{array} \right. \tag {8.30}
+h_{\sigma} = \left\{ \begin{array}{l l} 1 & \text{if} \frac{\| \mathbf {p}_{\sigma} \|}{\sqrt{1 - (1 - c_{\sigma}) ^{2 (k + 1)}}} <   \left(1. 4 + \frac{2}{n + 1}\right) \mathbb {E} \| \mathcal {N} (\mathbf {0}, \mathbf {I}) \| \\ 0 & \text{otherwise} \end{array} \right. \tag {8.30}
 $$
 
 The  $h_{\sigma}$  stalls the update of  $\mathbf{p}_{\Sigma}$  if  $\| \mathbf{p}_{\Sigma}\|$  is too large, thereby preventing excessive increases in  $\boldsymbol{\Sigma}$  when the step size is too small.
@@ -4561,27 +4329,27 @@ The  $h_{\sigma}$  stalls the update of  $\mathbf{p}_{\Sigma}$  if  $\| \mathbf{
 The update requires the adjusted weights  $\mathbf{w}^{\prime}$ :
 
 $$
-w _ {i} ^ {\prime} = \left\{ \begin{array}{c l} w _ {i} & \text {i f} w _ {i} \geq 0 \\ \frac {n w _ {i}}{\left\| \Sigma^ {- 1 / 2} \boldsymbol {\delta} ^ {(i)} \right\| ^ {2}} & \text {o t h e r w i s e} \end{array} \right. \tag {8.31}
+w_{i}^{\prime} = \left\{ \begin{array}{c l} w_{i} & \text{if} w_{i} \geq 0 \\ \frac{n w_{i}}{\left\| \Sigma^{- 1 / 2} \boldsymbol {\delta}^{(i)} \right\| ^{2}} & \text{otherwise} \end{array} \right. \tag {8.31}
 $$
 
 The covariance update is then
 
 $$
-\boldsymbol {\Sigma} ^ {(k + 1)} \leftarrow \left(1 + \underbrace {c _ {1} c _ {\Sigma} (1 - h _ {\sigma}) (2 - c _ {\Sigma}) - c _ {1} - c _ {\mu}} _ {\text {t y p i c a l l y z e r o}}\right) \boldsymbol {\Sigma} ^ {(k)} + \underbrace {c _ {1} \mathbf {p} _ {\Sigma} \mathbf {p} _ {\Sigma} ^ {\top}} _ {\text {r a n k - o n e u p d a t e}} + \underbrace {c _ {\mu} \sum_ {i = 1} ^ {m _ {\text {e l i t e}}} w _ {i} ^ {\prime} \boldsymbol {\delta} ^ {(i)} (\boldsymbol {\delta} ^ {(i)}) ^ {\top}} _ {\text {r a n k - m _ {e l i t e} u p d a t e}} \tag {8.32}
+\boldsymbol {\Sigma}^{(k + 1)} \leftarrow \left(1 + \underbrace{c_{1} c_{\Sigma} (1 - h_{\sigma}) (2 - c_{\Sigma}) - c_{1} - c_{\mu}}_{\text{typicallyzero}}\right) \boldsymbol {\Sigma}^{(k)} + \underbrace{c_{1} \mathbf {p}_{\Sigma} \mathbf {p}_{\Sigma}^{\top}}_{\text{rank - oneupdate}} + \underbrace{c_{\mu} \sum_{i = 1}^{m_{\text{elite}}} w_{i}^{\prime} \boldsymbol {\delta}^{(i)} (\boldsymbol {\delta}^{(i)}) ^{\top}}_{\text{rank - m_{elite} u p d a t e}} \tag {8.32}
 $$
 
 The constants  $c_{\Sigma}, c_1$  and  $c_{\mu}$  have recommended values
 
 $$
-c _ {\Sigma} = \frac {4 + \mu_ {\text {e f f}} / n}{n + 4 + 2 \mu_ {\text {e f f}} / n} \tag {8.33}
+c_{\Sigma} = \frac{4 + \mu_{\text{eff}} / n}{n + 4 + 2 \mu_{\text{eff}} / n} \tag {8.33}
 $$
 
 $$
-c _ {1} = \frac {2}{(n + 1 . 3) ^ {2} + \mu_ {\mathrm {e f f}}} \tag {8.34}
+c_{1} = \frac{2}{(n + 1.3) ^{2} + \mu_{\mathrm{ef f}}} \tag {8.34}
 $$
 
 $$
-c _ {\mu} = \min  \left(1 - c _ {1}, 2 \frac {\mu_ {\text {e f f}} - 2 + 1 / \mu_ {\text {e f f}}}{(n + 2) ^ {2} + \mu_ {\text {e f f}}}\right) \tag {8.35}
+c_{\mu} = \min \left(1 - c_{1}, 2 \frac{\mu_{\text{eff}} - 2 + 1 / \mu_{\text{eff}}}{(n + 2) ^{2} + \mu_{\text{eff}}}\right) \tag {8.35}
 $$
 
 The covariance update consists of three components: the previous covariance matrix  $\pmb{\Sigma}^{(k)}$ , a rank-one update, and a rank- $m_{\mathrm{elite}}$  update. The rank-one update gets its name from the fact that  $\mathbf{p}_{\Sigma}\mathbf{p}_{\Sigma}^{\top}$  has rank one; it has only one eigenvector along  $\mathbf{p}_{\Sigma}$ . Rank-one updates using the cumulation vector allow for correlations between consecutive steps to be exploited, permitting the covariance matrix to elongate itself more quickly along a favorable axis.
@@ -4629,7 +4397,7 @@ Solution: If the number of elite samples is close to the total number of samples
 Exercise 8.3. The log-likelihood of a value sampled from a Gaussian distribution with mean  $\mu$  and variance  $\nu$  is:
 
 $$
-\ell (x \mid \mu , \nu) = - \frac {1}{2} \ln 2 \pi - \frac {1}{2} \ln \nu - \frac {(x - \mu) ^ {2}}{2 \nu}
+\ell (x \mid \mu , \nu) = - \frac{1}{2} \ln 2 \pi - \frac{1}{2} \ln \nu - \frac{(x - \mu) ^{2}}{2 \nu}
 $$
 
 Show why evolution strategies using Gaussian distributions may encounter difficulties while applying a descent update on the variance when the mean is on the optimum,  $\mu = x^{*}$ .
@@ -4637,7 +4405,7 @@ Show why evolution strategies using Gaussian distributions may encounter difficu
 Solution: The derivative of the log-likelihood with respect to  $\nu$  is:
 
 $$
-\begin{array}{l} \frac {\partial}{\partial \nu} \ell (x \mid \mu , \nu) = \frac {\partial}{\partial \nu} \left(- \frac {1}{2} \ln 2 \pi - \frac {1}{2} \ln \nu - \frac {(x - \mu) ^ {2}}{2 \nu}\right) \\ = - \frac {1}{2 \nu} + \frac {(x - \mu) ^ {2}}{2 \nu^ {2}} \\ \end{array}
+\begin{array}{l} \frac{\partial}{\partial \nu} \ell (x \mid \mu , \nu) = \frac{\partial}{\partial \nu} \left(- \frac{1}{2} \ln 2 \pi - \frac{1}{2} \ln \nu - \frac{(x - \mu) ^{2}}{2 \nu}\right) \\ = - \frac{1}{2 \nu} + \frac{(x - \mu) ^{2}}{2 \nu^{2}} \\ \end{array}
 $$
 
 The second term will be zero if the mean is already optimal. Thus, the derivative is  $-1 / 2\nu$  and decreasing  $\nu$  will increase the likelihood of drawing elite samples. Unfortunately,  $\nu$  is optimized by approaching arbitrarily close to zero. The asymptote near zero in the gradient update will lead to large step sizes, which cannot be taken as  $\nu$  must remain positive.
@@ -4645,11 +4413,11 @@ The second term will be zero if the mean is already optimal. Thus, the derivativ
 Exercise 8.4. Derive the maximum likelihood estimate for the cross-entropy method using multivariate normal distributions:
 
 $$
-\boldsymbol {\mu} ^ {(k + 1)} = \frac {1}{m} \sum_ {i = 1} ^ {m} \mathbf {x} ^ {(i)}
+\boldsymbol {\mu}^{(k + 1)} = \frac{1}{m} \sum_{i = 1}^{m} \mathbf {x}^{(i)}
 $$
 
 $$
-\boldsymbol {\Sigma} ^ {(k + 1)} = \frac {1}{m} \sum_ {i = 1} ^ {m} (\mathbf {x} ^ {(i)} - \boldsymbol {\mu} ^ {(k + 1)}) (\mathbf {x} ^ {(i)} - \boldsymbol {\mu} ^ {(k + 1)}) ^ {\top}
+\boldsymbol {\Sigma}^{(k + 1)} = \frac{1}{m} \sum_{i = 1}^{m} (\mathbf {x}^{(i)} - \boldsymbol {\mu}^{(k + 1)}) (\mathbf {x}^{(i)} - \boldsymbol {\mu}^{(k + 1)}) ^{\top}
 $$
 
 where the maximum likelihood estimates are the parameter values that maximize the likelihood of sampling the individuals  $\{\mathbf{x}^{(1)},\dots ,\mathbf{x}^{(m)}\}$ .
@@ -4657,19 +4425,19 @@ where the maximum likelihood estimates are the parameter values that maximize th
 Solution: The probability density of a design  $\mathbf{x}$  under a multivariate normal distribution with mean  $\mu$  and covariance  $\boldsymbol{\Sigma}$  is
 
 $$
-p (\mathbf {x} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}) = \frac {1}{(2 \pi | \boldsymbol {\Sigma} |) ^ {1 / 2}} \exp \left(- \frac {1}{2} (\mathbf {x} - \boldsymbol {\mu}) ^ {\top} \boldsymbol {\Sigma} ^ {- 1} (\mathbf {x} - \boldsymbol {\mu})\right)
+p (\mathbf {x} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}) = \frac{1}{(2 \pi | \boldsymbol {\Sigma} |) ^{1 / 2}} \exp \left(- \frac{1}{2} (\mathbf {x} - \boldsymbol {\mu}) ^{\top} \boldsymbol {\Sigma}^{- 1} (\mathbf {x} - \boldsymbol {\mu})\right)
 $$
 
 We can simplify the problem by maximizing the log-likelihood instead.25 The log-likelihood is:
 
 $$
-\begin{array}{l} \ln p (\mathbf {x} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}) = - \frac {1}{2} \ln (2 \pi | \boldsymbol {\Sigma} |) - \frac {1}{2} (\mathbf {x} - \boldsymbol {\mu}) ^ {\top} \boldsymbol {\Sigma} ^ {- 1} (\mathbf {x} - \boldsymbol {\mu}) \\ = - \frac {1}{2} \ln (2 \pi | \boldsymbol {\Sigma} |) - \frac {1}{2} \left(\mathbf {x} ^ {\top} \boldsymbol {\Sigma} ^ {- 1} \mathbf {x} - 2 \mathbf {x} ^ {\top} \boldsymbol {\Sigma} ^ {- 1} \boldsymbol {\mu} + \boldsymbol {\mu} ^ {\top} \boldsymbol {\Sigma} ^ {- 1} \boldsymbol {\mu}\right) \\ \end{array}
+\begin{array}{l} \ln p (\mathbf {x} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}) = - \frac{1}{2} \ln (2 \pi | \boldsymbol {\Sigma} |) - \frac{1}{2} (\mathbf {x} - \boldsymbol {\mu}) ^{\top} \boldsymbol {\Sigma}^{- 1} (\mathbf {x} - \boldsymbol {\mu}) \\ = - \frac{1}{2} \ln (2 \pi | \boldsymbol {\Sigma} |) - \frac{1}{2} \left(\mathbf {x}^{\top} \boldsymbol {\Sigma}^{- 1} \mathbf {x} - 2 \mathbf {x}^{\top} \boldsymbol {\Sigma}^{- 1} \boldsymbol {\mu} + \boldsymbol {\mu}^{\top} \boldsymbol {\Sigma}^{- 1} \boldsymbol {\mu}\right) \\ \end{array}
 $$
 
 We begin by maximizing the log-likelihood of the  $m$  individuals with respect to the mean:
 
 $$
-\begin{array}{l} \ell \left(\boldsymbol {\mu} \mid \mathbf {x} ^ {(1)}, \dots , \mathbf {x} ^ {(m)}\right) = \sum_ {i = 1} ^ {m} \ln p \left(\mathbf {x} ^ {(i)} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}\right) \\ = \sum_ {i = 1} ^ {m} - \frac {1}{2} \ln (2 \pi | \boldsymbol {\Sigma} |) - \frac {1}{2} \left(\left(\mathbf {x} ^ {(i)}\right) ^ {\top} \boldsymbol {\Sigma} ^ {- 1} \mathbf {x} ^ {(i)} - 2 \left(\mathbf {x} ^ {(i)}\right) ^ {\top} \boldsymbol {\Sigma} ^ {- 1} \boldsymbol {\mu} + \boldsymbol {\mu} ^ {\top} \boldsymbol {\Sigma} ^ {- 1} \boldsymbol {\mu}\right) \\ \end{array}
+\begin{array}{l} \ell \left(\boldsymbol {\mu} \mid \mathbf {x}^{(1)}, \dots , \mathbf {x}^{(m)}\right) = \sum_{i = 1}^{m} \ln p \left(\mathbf {x}^{(i)} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}\right) \\ = \sum_{i = 1}^{m} - \frac{1}{2} \ln (2 \pi | \boldsymbol {\Sigma} |) - \frac{1}{2} \left(\left(\mathbf {x}^{(i)}\right) ^{\top} \boldsymbol {\Sigma}^{- 1} \mathbf {x}^{(i)} - 2 \left(\mathbf {x}^{(i)}\right) ^{\top} \boldsymbol {\Sigma}^{- 1} \boldsymbol {\mu} + \boldsymbol {\mu}^{\top} \boldsymbol {\Sigma}^{- 1} \boldsymbol {\mu}\right) \\ \end{array}
 $$
 
 25 The log function is concave for positive inputs, so maximizing  $\log f(x)$  also maximizes a strictly positive  $f(x)$ .
@@ -4677,43 +4445,43 @@ $$
 We compute the gradient using the facts that  $\nabla_{\mathbf{z}}\mathbf{z}^{\top}\mathbf{A}\mathbf{z} = \left(\mathbf{A} + \mathbf{A}^{\top}\right)\mathbf{z},$  that  $\nabla_{\mathbf{z}}\mathbf{a}^{\top}\mathbf{z} = \mathbf{a},$  and that  $\boldsymbol{\Sigma}$  is symmetric and positive definite, and thus  $\boldsymbol{\Sigma}^{-1}$  is symmetric:
 
 $$
-\begin{array}{l} \nabla_ {\boldsymbol {\mu}} \ell (\boldsymbol {\mu} \mid \mathbf {x} ^ {(1)}, \dots , \mathbf {x} ^ {(m)}) = \sum_ {i = 1} ^ {m} - \frac {1}{2} \left(\nabla_ {\boldsymbol {\mu}} \left(- 2 (\mathbf {x} ^ {(i)}) ^ {\top} \boldsymbol {\Sigma} ^ {- 1} \boldsymbol {\mu}\right) + \nabla_ {\boldsymbol {\mu}} (\boldsymbol {\mu} ^ {\top} \boldsymbol {\Sigma} ^ {- 1} \boldsymbol {\mu})\right) \\ = \sum_ {i = 1} ^ {m} \left(\nabla_ {\boldsymbol {\mu}} \left(\left(\mathbf {x} ^ {(i)}\right) ^ {\top} \boldsymbol {\Sigma} ^ {- 1} \boldsymbol {\mu}\right) - \frac {1}{2} \nabla_ {\boldsymbol {\mu}} \left(\boldsymbol {\mu} ^ {\top} \boldsymbol {\Sigma} ^ {- 1} \boldsymbol {\mu}\right)\right) \\ = \sum_ {i = 1} ^ {m} \boldsymbol {\Sigma} ^ {- 1} \mathbf {x} ^ {(i)} - \boldsymbol {\Sigma} ^ {- 1} \boldsymbol {\mu} \\ \end{array}
+\begin{array}{l} \nabla_{\boldsymbol {\mu}} \ell (\boldsymbol {\mu} \mid \mathbf {x}^{(1)}, \dots , \mathbf {x}^{(m)}) = \sum_{i = 1}^{m} - \frac{1}{2} \left(\nabla_{\boldsymbol {\mu}} \left(- 2 (\mathbf {x}^{(i)}) ^{\top} \boldsymbol {\Sigma}^{- 1} \boldsymbol {\mu}\right) + \nabla_{\boldsymbol {\mu}} (\boldsymbol {\mu}^{\top} \boldsymbol {\Sigma}^{- 1} \boldsymbol {\mu})\right) \\ = \sum_{i = 1}^{m} \left(\nabla_{\boldsymbol {\mu}} \left(\left(\mathbf {x}^{(i)}\right) ^{\top} \boldsymbol {\Sigma}^{- 1} \boldsymbol {\mu}\right) - \frac{1}{2} \nabla_{\boldsymbol {\mu}} \left(\boldsymbol {\mu}^{\top} \boldsymbol {\Sigma}^{- 1} \boldsymbol {\mu}\right)\right) \\ = \sum_{i = 1}^{m} \boldsymbol {\Sigma}^{- 1} \mathbf {x}^{(i)} - \boldsymbol {\Sigma}^{- 1} \boldsymbol {\mu} \\ \end{array}
 $$
 
 We set the gradient to zero:
 
 $$
-\mathbf {0} = \sum_ {i = 1} ^ {m} \boldsymbol {\Sigma} ^ {- 1} \mathbf {x} ^ {(i)} - \boldsymbol {\Sigma} ^ {- 1} \boldsymbol {\mu}
+\mathbf {0} = \sum_{i = 1}^{m} \boldsymbol {\Sigma}^{- 1} \mathbf {x}^{(i)} - \boldsymbol {\Sigma}^{- 1} \boldsymbol {\mu}
 $$
 
 $$
-\sum_ {i = 1} ^ {m} \boldsymbol {\mu} = \sum_ {i = 1} ^ {m} \mathbf {x} ^ {(i)}
+\sum_{i = 1}^{m} \boldsymbol {\mu} = \sum_{i = 1}^{m} \mathbf {x}^{(i)}
 $$
 
 $$
-m \boldsymbol {\mu} = \sum_ {i = 1} ^ {m} \mathbf {x} ^ {(i)}
+m \boldsymbol {\mu} = \sum_{i = 1}^{m} \mathbf {x}^{(i)}
 $$
 
 $$
-\boldsymbol {\mu} = \frac {1}{m} \sum_ {i = 1} ^ {m} \mathbf {x} ^ {(i)}
+\boldsymbol {\mu} = \frac{1}{m} \sum_{i = 1}^{m} \mathbf {x}^{(i)}
 $$
 
 Next we maximize with respect to the inverse covariance,  $\Lambda = \Sigma^{-1}$ , using the fact that  $|\mathbf{A}^{-1}| = 1 / |\mathbf{A}|$  with  $\mathbf{b}^{(i)} = \mathbf{x}^{(i)} - \boldsymbol{\mu}$ :
 
 $$
-\begin{array}{l} \ell \left(\mathbf {\Lambda} \mid \boldsymbol {\mu}, \mathbf {x} ^ {(1)}, \dots , \mathbf {x} ^ {(m)}\right) = \sum_ {i = 1} ^ {m} - \frac {1}{2} \ln \left(2 \pi | \mathbf {\Lambda} | ^ {- 1}\right) - \frac {1}{2} \left(\left(\mathbf {x} ^ {(i)} - \boldsymbol {\mu}\right) ^ {\top} \mathbf {\Lambda} \left(\mathbf {x} ^ {(i)} - \boldsymbol {\mu}\right)\right) \\ = \sum_ {i = 1} ^ {m} \frac {1}{2} \ln (| \boldsymbol {\Lambda} |) - \frac {1}{2} (\mathbf {b} ^ {(i)}) ^ {\top} \boldsymbol {\Lambda} \mathbf {b} ^ {(i)} \\ \end{array}
+\begin{array}{l} \ell \left(\mathbf {\Lambda} \mid \boldsymbol {\mu}, \mathbf {x}^{(1)}, \dots , \mathbf {x}^{(m)}\right) = \sum_{i = 1}^{m} - \frac{1}{2} \ln \left(2 \pi | \mathbf {\Lambda} | ^{- 1}\right) - \frac{1}{2} \left(\left(\mathbf {x}^{(i)} - \boldsymbol {\mu}\right) ^{\top} \mathbf {\Lambda} \left(\mathbf {x}^{(i)} - \boldsymbol {\mu}\right)\right) \\ = \sum_{i = 1}^{m} \frac{1}{2} \ln (| \boldsymbol {\Lambda} |) - \frac{1}{2} (\mathbf {b}^{(i)}) ^{\top} \boldsymbol {\Lambda} \mathbf {b}^{(i)} \\ \end{array}
 $$
 
 We compute the gradient using the facts that  $\nabla_{\mathbf{A}}|\mathbf{A}| = |\mathbf{A}|\mathbf{A}^{-\top}$  and  $\nabla_{\mathbf{A}}\mathbf{z}^{\top}\mathbf{A}\mathbf{z} = \mathbf{z}\mathbf{z}^{\top}$ :
 
 $$
-\begin{array}{l} \nabla_ {\boldsymbol {\Lambda}} \ell (\boldsymbol {\Lambda} | \boldsymbol {\mu}, \boldsymbol {x} ^ {(1)}, \dots , \boldsymbol {x} ^ {(m)}) = \sum_ {i = 1} ^ {m} \nabla_ {\boldsymbol {\Lambda}} \left(\frac {1}{2} \ln (| \boldsymbol {\Lambda} |) - \frac {1}{2} (\boldsymbol {b} ^ {(i)}) ^ {\top} \boldsymbol {\Lambda} \boldsymbol {b} ^ {(i)}\right) \\ = \sum_ {i = 1} ^ {m} \frac {1}{2 | \boldsymbol {\Lambda} |} \nabla_ {\boldsymbol {\Lambda}} | \boldsymbol {\Lambda} | - \frac {1}{2} \mathbf {b} ^ {(i)} (\mathbf {b} ^ {(i)}) ^ {\top} \\ = \sum_ {i = 1} ^ {m} \frac {1}{2 | \boldsymbol {\Lambda} |} | \boldsymbol {\Lambda} | \boldsymbol {\Lambda} ^ {- \top} - \frac {1}{2} \mathbf {b} ^ {(i)} (\mathbf {b} ^ {(i)}) ^ {\top} \\ = \frac {1}{2} \sum_ {i = 1} ^ {m} \boldsymbol {\Lambda} ^ {- \top} - \mathbf {b} ^ {(i)} \left(\mathbf {b} ^ {(i)}\right) ^ {\top} \\ = \frac {1}{2} \sum_ {i = 1} ^ {m} \boldsymbol {\Sigma} - \mathbf {b} ^ {(i)} \left(\mathbf {b} ^ {(i)}\right) ^ {\top} \\ \end{array}
+\begin{array}{l} \nabla_{\boldsymbol {\Lambda}} \ell (\boldsymbol {\Lambda} | \boldsymbol {\mu}, \boldsymbol {x}^{(1)}, \dots , \boldsymbol {x}^{(m)}) = \sum_{i = 1}^{m} \nabla_{\boldsymbol {\Lambda}} \left(\frac{1}{2} \ln (| \boldsymbol {\Lambda} |) - \frac{1}{2} (\boldsymbol {b}^{(i)}) ^{\top} \boldsymbol {\Lambda} \boldsymbol {b}^{(i)}\right) \\ = \sum_{i = 1}^{m} \frac{1}{2 | \boldsymbol {\Lambda} |} \nabla_{\boldsymbol {\Lambda}} | \boldsymbol {\Lambda} | - \frac{1}{2} \mathbf {b}^{(i)} (\mathbf {b}^{(i)}) ^{\top} \\ = \sum_{i = 1}^{m} \frac{1}{2 | \boldsymbol {\Lambda} |} | \boldsymbol {\Lambda} | \boldsymbol {\Lambda}^{- \top} - \frac{1}{2} \mathbf {b}^{(i)} (\mathbf {b}^{(i)}) ^{\top} \\ = \frac{1}{2} \sum_{i = 1}^{m} \boldsymbol {\Lambda}^{- \top} - \mathbf {b}^{(i)} \left(\mathbf {b}^{(i)}\right) ^{\top} \\ = \frac{1}{2} \sum_{i = 1}^{m} \boldsymbol {\Sigma} - \mathbf {b}^{(i)} \left(\mathbf {b}^{(i)}\right) ^{\top} \\ \end{array}
 $$
 
 and set the gradient to zero:
 
 $$
-\begin{array}{l} \mathbf {0} = \frac {1}{2} \sum_ {i = 1} ^ {m} \boldsymbol {\Sigma} - \mathbf {b} ^ {(i)} \left(\mathbf {b} ^ {(i)}\right) ^ {\top} \\ \sum_ {i = 1} ^ {m} \boldsymbol {\Sigma} = \sum_ {i = 1} ^ {m} \mathbf {b} ^ {(i)} \left(\mathbf {b} ^ {(i)}\right) ^ {\top} \\ \boldsymbol {\Sigma} = \frac {1}{m} \sum_ {i = 1} ^ {m} \left(\mathbf {x} ^ {(i)} - \boldsymbol {\mu}\right) \left(\mathbf {x} ^ {(i)} - \boldsymbol {\mu}\right) ^ {\top} \\ \end{array}
+\begin{array}{l} \mathbf {0} = \frac{1}{2} \sum_{i = 1}^{m} \boldsymbol {\Sigma} - \mathbf {b}^{(i)} \left(\mathbf {b}^{(i)}\right) ^{\top} \\ \sum_{i = 1}^{m} \boldsymbol {\Sigma} = \sum_{i = 1}^{m} \mathbf {b}^{(i)} \left(\mathbf {b}^{(i)}\right) ^{\top} \\ \boldsymbol {\Sigma} = \frac{1}{m} \sum_{i = 1}^{m} \left(\mathbf {x}^{(i)} - \boldsymbol {\mu}\right) \left(\mathbf {x}^{(i)} - \boldsymbol {\mu}\right) ^{\top} \\ \end{array}
 $$
 
 # 9 Population Methods
@@ -4846,7 +4614,7 @@ Figure 9.7. Uniform crossover.
 - In interpolation crossover values are linearly interpolated between the values of the parents  $\mathbf{x}_a$  and  $\mathbf{x}_b$ :
 
 $$
-\mathbf {x} \leftarrow (1 - \lambda) \mathbf {x} _ {a} + \lambda \mathbf {x} _ {b} \tag {9.1}
+\mathbf {x} \leftarrow (1 - \lambda) \mathbf {x}_{a} + \lambda \mathbf {x}_{b} \tag {9.1}
 $$
 
 where  $\lambda$  is a scalar parameter typically set to 0.5.
@@ -4939,11 +4707,10 @@ Differential evolution (algorithm 9.6) attempts to improve each individual in th
 For each individual  $\mathbf{x}$ :
 
 1. Choose three random distinct individuals  $\mathbf{a}$ ,  $\mathbf{b}$ , and  $\mathbf{c}$ .  
-2. Construct an interim design  $\mathbf{z} = \mathbf{a} + w\cdot (\mathbf{b} - \mathbf{c})$  as shown in figure 9.9.7  
-3. Construct the candidate individual  $\mathbf{x}'$  through uniform crossover with  $\mathbf{x}$  and  $\mathbf{z}$  with probability  $p$ , where
+2. Construct an interim design  $\mathbf{z} = \mathbf{a} + w\cdot (\mathbf{b} - \mathbf{c})$  as shown in figure 9.9.73. Construct the candidate individual  $\mathbf{x}'$  through uniform crossover with  $\mathbf{x}$  and  $\mathbf{z}$  with probability  $p$ , where
 
 $$
-x _ {i} ^ {\prime} = \left\{ \begin{array}{l l} z _ {i} & \text {w i t h p r o b a b i l i t y} p \\ x _ {i} & \text {o t h e r w i s e} \end{array} \right. \tag {9.2}
+x_{i}^{\prime} = \left\{ \begin{array}{l l} z_{i} & \text{withprobability} p \\ x_{i} & \text{otherwise} \end{array} \right. \tag {9.2}
 $$
 
 4. Insert the better design between  $\mathbf{x}$  and  $\mathbf{x}'$  into the next generation.
@@ -5007,11 +4774,11 @@ Figure 9.10. Differential evolution with  $p = 0.5$  and  $w = 0.4$  on Ackley's
 At each iteration, each individual is accelerated toward both the best position it has seen and the best position found thus far by any individual. The acceleration is weighted by a random term, with separate random numbers being generated for each acceleration. The update equations are:
 
 $$
-\mathbf {x} ^ {(i)} \leftarrow \mathbf {x} ^ {(i)} + \mathbf {v} ^ {(i)} \tag {9.3}
+\mathbf {x}^{(i)} \leftarrow \mathbf {x}^{(i)} + \mathbf {v}^{(i)} \tag {9.3}
 $$
 
 $$
-\mathbf {v} ^ {(i)} \leftarrow w \mathbf {v} ^ {(i)} + c _ {1} r _ {1} \left(\mathbf {x} _ {\text {b e s t}} ^ {(i)} - \mathbf {x} ^ {(i)}\right) + c _ {2} r _ {2} \left(\mathbf {x} _ {\text {b e s t}} - \mathbf {x} ^ {(i)}\right) \tag {9.4}
+\mathbf {v}^{(i)} \leftarrow w \mathbf {v}^{(i)} + c_{1} r_{1} \left(\mathbf {x}_{\text{best}}^{(i)} - \mathbf {x}^{(i)}\right) + c_{2} r_{2} \left(\mathbf {x}_{\text{best}} - \mathbf {x}^{(i)}\right) \tag {9.4}
 $$
 
 where  $\mathbf{x}_{\mathrm{best}}$  is the best location found so far over all particles;  $\mathbf{x}_{\mathrm{best}}^{(i)}$  is the best location found by the  $i$ th particle;  $w, c_{1}$ , and  $c_{2}$  are parameters; and  $r_{1}$  and  $r_{2}$  are random numbers drawn from the uniform distribution  $\mathcal{U}(0,1)$ .<sup>10</sup> Algorithm 9.7 provides an implementation. Figure 9.11 shows several iterations of the algorithm.
@@ -5031,7 +4798,7 @@ where  $I$  is the attraction intensity and  $\beta$  is a scaling parameter. A 
 The intensity  $I$  decreases as the distance  $r$  between the two fireflies increases and is defined to be 1 when  $r = 0$ . One approach is to model the intensity with a Gaussian brightness drop-off:
 
 $$
-I (r) = e ^ {- \gamma r ^ {2}} \tag {9.6}
+I (r) = e^{- \gamma r^{2}} \tag {9.6}
 $$
 
 where  $\gamma > 0$  is a parameter that controls the rate of decay.
@@ -5277,11 +5044,11 @@ Previous chapters have focused on unconstrained problems where the domain of eac
 Recall the core optimization problem from equation (1.1):
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} f (\mathbf {x}) \tag {10.1}
+\underset{\mathbf {x}} {\text{minimize}} f (\mathbf {x}) \tag {10.1}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {x} \in \mathcal {X}
+\text{subject} \quad \mathbf {x} \in \mathcal {X}
 $$
 
 In the previous chapters, the feasible set  $\mathcal{X}$  was assumed to be  $\mathbb{R}^n$ . In the constrained problems in this chapter, the feasible set is some subset of  $\mathbb{R}^n$ .
@@ -5293,11 +5060,11 @@ Constraints arise naturally when formulating real problems. A hedge fund manager
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/cbbcd160d441e8566a05c473c5ef9f1bc2e564b44a5949cb6c3f187941ec3a1f.jpg)
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad f (x)
+\underset{x} {\text{minimize}} \quad f (x)
 $$
 
 $$
-\text {s u b j e c t} \quad x \in [ a, b ]
+\text{subject} \quad x \in [ a, b ]
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/e1037bd4d260ec47bd106e6b951a7c37d3e90880031762c54732190b06eef206.jpg)  
@@ -5328,15 +5095,15 @@ We have  $g$  representing a less-than inequality constraint. Greater-than inequ
 Any optimization problem can be rewritten using these constraints:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad f (\mathbf {x})
+\underset{\mathbf {x}} {\text{minimize}} \quad f (\mathbf {x})
 $$
 
 $$
-\text {s u b j e c t} \quad h _ {i} (\mathbf {x}) = 0 \quad \text {f o r} i \text {i n} 1: \ell \tag {10.2}
+\text{subject} \quad h_{i} (\mathbf {x}) = 0 \quad \text{for} i \text{in} 1: \ell \tag {10.2}
 $$
 
 $$
-g _ {j} (\mathbf {x}) \leq 0 \quad \mathrm {f o r} j \mathrm {i n} 1: m
+g_{j} (\mathbf {x}) \leq 0 \quad \mathrm{fo r} j \mathrm{in} 1: m
 $$
 
 Of course, we can convert an arbitrary set-membership constraint  $x \in \mathcal{X}$  into an equality constraint:
@@ -5364,7 +5131,7 @@ There are many other categories of constraints. For example, we may have constra
 In some cases, it may be possible to transform a problem so that constraints can be removed. For example, an interval constraint  $a \leq x \leq b$  can be removed by passing  $x$  through a transform (figure 10.5):
 
 $$
-x = t _ {a, b} (\hat {x}) = \frac {b + a}{2} + \frac {b - a}{2} \left(\frac {2 \hat {x}}{1 + \hat {x} ^ {2}}\right) \tag {10.5}
+x = t_{a, b} (\hat {x}) = \frac{b + a}{2} + \frac{b - a}{2} \left(\frac{2 \hat {x}}{1 + \hat {x}^{2}}\right) \tag {10.5}
 $$
 
 Example 10.1 demonstrates this process.
@@ -5381,21 +5148,21 @@ Figure 10.5. This transform ensures that  $x$  is between  $a$  and  $b$ .
 Consider the optimization problem
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad x \sin (x)
+\underset{x} {\text{minimize}} \quad x \sin (x)
 $$
 
 $$
-\text {s u b j e c t} \quad 2 \leq x \leq 6
+\text{subject} \quad 2 \leq x \leq 6
 $$
 
 We can transform the problem to remove the constraints:
 
 $$
-\underset {\hat {x}} {\text {m i n i m i z e}} \quad t _ {2, 6} (\hat {x}) \sin (t _ {2, 6} (\hat {x}))
+\underset{\hat {x}} {\text{minimize}} \quad t_{2, 6} (\hat {x}) \sin (t_{2, 6} (\hat {x}))
 $$
 
 $$
-\underset {\hat {x}} {\text {m i n i m i z e}} \left(4 + 2 \left(\frac {2 \hat {x}}{1 + \hat {x} ^ {2}}\right)\right) \sin \left(4 + 2 \left(\frac {2 \hat {x}}{1 + \hat {x} ^ {2}}\right)\right)
+\underset{\hat {x}} {\text{minimize}} \left(4 + 2 \left(\frac{2 \hat {x}}{1 + \hat {x}^{2}}\right)\right) \sin \left(4 + 2 \left(\frac{2 \hat {x}}{1 + \hat {x}^{2}}\right)\right)
 $$
 
 We can use the optimization method of our choice to solve the unconstrained problem. In doing so, we find two minima:  $\hat{x} \approx 0.242$  and  $\hat{x} \approx 4.139$ , both of which have a function value of approximately  $-4.814$ .
@@ -5411,29 +5178,29 @@ Example 10.1. Removing bounds constraints using a transform on the input variabl
 Consider the constraint:
 
 $$
-h (\mathbf {x}) = c _ {1} x _ {1} + c _ {2} x _ {2} + \dots + c _ {n} x _ {n} = 0
+h (\mathbf {x}) = c_{1} x_{1} + c_{2} x_{2} + \dots + c_{n} x_{n} = 0
 $$
 
 We can solve for  $x_{n}$  using the first  $n - 1$  variables:
 
 $$
-x _ {n} = \frac {1}{c _ {n}} (- c _ {1} x _ {1} - c _ {2} x _ {2} - \dots - c _ {n - 1} x _ {n - 1})
+x_{n} = \frac{1}{c_{n}} (- c_{1} x_{1} - c_{2} x_{2} - \dots - c_{n - 1} x_{n - 1})
 $$
 
 We can transform
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad f (\mathbf {x})
+\underset{\mathbf {x}} {\text{minimize}} \quad f (\mathbf {x})
 $$
 
 $$
-\text {s u b j e c t} \quad h (\mathbf {x}) = 0
+\text{subject} \quad h (\mathbf {x}) = 0
 $$
 
 into
 
 $$
-\underset {x _ {1}, \dots , x _ {n - 1}} {\text {m i n i m i z e}} f \left(\left[ x _ {1}, \dots , x _ {n - 1}, \frac {1}{c _ {n}} \left(- c _ {1} x _ {1} - c _ {2} x _ {2} - \dots - c _ {n - 1} x _ {n - 1}\right) \right]\right)
+\underset{x_{1}, \dots , x_{n - 1}} {\text{minimize}} f \left(\left[ x_{1}, \dots , x_{n - 1}, \frac{1}{c_{n}} \left(- c_{1} x_{1} - c_{2} x_{2} - \dots - c_{n - 1} x_{n - 1}\right) \right]\right)
 $$
 
 Example 10.2. Removing an equality constraint and design variable through a transformation.
@@ -5455,7 +5222,7 @@ $$
 We then apply a change of variables:
 
 $$
-\mathbf {Q} \mathbf {x} = \mathbf {y} = \left[ \begin{array}{c} \mathbf {y} _ {1: m} \\ \mathbf {y} _ {(m + 1: n)} \end{array} \right] \tag {10.8}
+\mathbf {Q} \mathbf {x} = \mathbf {y} = \left[ \begin{array}{c} \mathbf {y}_{1: m} \\ \mathbf {y}_{(m + 1: n)} \end{array} \right] \tag {10.8}
 $$
 
 and find that our constraint is satisfied<sup>3</sup> when  $\mathbf{y}_{1:m}^{*} = \mathbf{L}^{-1}\mathbf{b}$ . The remaining variables in  $\mathbf{y}_{(m+1:n)}$  can take on any values.
@@ -5467,7 +5234,7 @@ See appendix C.7.3 for a review.
 We then define a new problem with  $n - m$  design variables by replacing all instances of  $x$  in our original problem with:4
 
 $$
-\mathbf {x} = \mathbf {Q} ^ {\top} \mathbf {y} = \mathbf {Q} ^ {\top} \left[ \begin{array}{l} \mathbf {y} _ {1: m} ^ {*} \\ \mathbf {y} _ {(m + 1: n)} \end{array} \right] \tag {10.9}
+\mathbf {x} = \mathbf {Q}^{\top} \mathbf {y} = \mathbf {Q}^{\top} \left[ \begin{array}{l} \mathbf {y}_{1: m}^{*} \\ \mathbf {y}_{(m + 1: n)} \end{array} \right] \tag {10.9}
 $$
 
 and remove the affine constraint. Once solved for  $\mathbf{y}_{(m + 1:n)}^*$ , we can recover  $\mathbf{x}^*$  with equation (10.8).
@@ -5477,11 +5244,11 @@ and remove the affine constraint. Once solved for  $\mathbf{y}_{(m + 1:n)}^*$ , 
 The method of Lagrange multipliers is used to optimize a function subject to equality constraints. Consider an optimization problem with a single equality constraint:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} f (\mathbf {x}) \tag {10.10}
+\underset{\mathbf {x}} {\text{minimize}} f (\mathbf {x}) \tag {10.10}
 $$
 
 $$
-\text {s u b j e c t} \quad h (\mathbf {x}) = 0
+\text{subject} \quad h (\mathbf {x}) = 0
 $$
 
 where  $f$  and  $h$  have continuous partial derivatives. Example 10.3 discusses such a problem.
@@ -5511,23 +5278,23 @@ for some Lagrange multiplier  $\lambda$ . We need the scalar  $\lambda$  because
 Consider the minimization problem:
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad - \exp \left(- \left(x _ {1} x _ {2} - \frac {3}{2}\right) ^ {2} - \left(x _ {2} - \frac {3}{2}\right) ^ {2}\right)
+\underset{x} {\text{minimize}} \quad - \exp \left(- \left(x_{1} x_{2} - \frac{3}{2}\right) ^{2} - \left(x_{2} - \frac{3}{2}\right) ^{2}\right)
 $$
 
 $$
-\text {s u b j e c t} x _ {1} - x _ {2} ^ {2} = 0
+\text{subject} x_{1} - x_{2}^{2} = 0
 $$
 
 We substitute the constraint  $x_{1} = x_{2}^{2}$  into the objective function to obtain an unconstrained objective:
 
 $$
-f _ {\mathrm {u n c}} = - \exp \left(- \left(x _ {2} ^ {3} - \frac {3}{2}\right) ^ {2} - \left(x _ {2} - \frac {3}{2}\right) ^ {2}\right)
+f_{\mathrm{un c}} = - \exp \left(- \left(x_{2}^{3} - \frac{3}{2}\right) ^{2} - \left(x_{2} - \frac{3}{2}\right) ^{2}\right)
 $$
 
 whose derivative is:
 
 $$
-\frac {\partial}{\partial x _ {2}} f _ {\mathrm {u n c}} = 6 \exp \left(- \left(x _ {2} ^ {3} - \frac {3}{2}\right) ^ {2} - \left(x _ {2} - \frac {3}{2}\right) ^ {2}\right) \left(x _ {2} ^ {5} - \frac {3}{2} x _ {2} ^ {2} + \frac {1}{3} x _ {2} - \frac {1}{2}\right)
+\frac{\partial}{\partial x_{2}} f_{\mathrm{un c}} = 6 \exp \left(- \left(x_{2}^{3} - \frac{3}{2}\right) ^{2} - \left(x_{2} - \frac{3}{2}\right) ^{2}\right) \left(x_{2}^{5} - \frac{3}{2} x_{2}^{2} + \frac{1}{3} x_{2} - \frac{1}{2}\right)
 $$
 
 Setting the derivative to zero and solving for  $x_{2}$  yields  $x_{2} \approx 1.165$ . The solution to the original optimization problem is thus  $\mathbf{x}^{*} \approx [1.358, 1.165]$ . The optimum lies where the contour line of  $f$  is aligned with  $h$ .
@@ -5553,13 +5320,13 @@ Solving  $\nabla \mathcal{L}(\mathbf{x},\lambda) = \mathbf{0}$  solves equations
 We can use the method of Lagrange multipliers to solve the problem in example 10.3. We form the Lagrangian
 
 $$
-\mathcal {L} \left(x _ {1}, x _ {2}, \lambda\right) = - \exp \left(- \left(x _ {1} x _ {2} - \frac {3}{2}\right) ^ {2} - \left(x _ {2} - \frac {3}{2}\right) ^ {2}\right) - \lambda \left(x _ {1} - x _ {2} ^ {2}\right)
+\mathcal {L} \left(x_{1}, x_{2}, \lambda\right) = - \exp \left(- \left(x_{1} x_{2} - \frac{3}{2}\right) ^{2} - \left(x_{2} - \frac{3}{2}\right) ^{2}\right) - \lambda \left(x_{1} - x_{2}^{2}\right)
 $$
 
 and compute the gradient
 
 $$
-\begin{array}{l} \frac {\partial \mathcal {L}}{\partial x _ {1}} = 2 x _ {2} f (\mathbf {x}) \left(\frac {3}{2} - x _ {1} x _ {2}\right) - \lambda \\ \frac {\partial \mathcal {L}}{\partial x _ {2}} = 2 \lambda x _ {2} + f (\mathbf {x}) \left(- 2 x _ {1} \left(x _ {1} x _ {2} - \frac {3}{2}\right) - 2 \left(x _ {2} - \frac {3}{2}\right)\right) \\ \frac {\partial \mathcal {L}}{\partial \lambda} = x _ {2} ^ {2} - x _ {1} \\ \end{array}
+\begin{array}{l} \frac{\partial \mathcal {L}}{\partial x_{1}} = 2 x_{2} f (\mathbf {x}) \left(\frac{3}{2} - x_{1} x_{2}\right) - \lambda \\ \frac{\partial \mathcal {L}}{\partial x_{2}} = 2 \lambda x_{2} + f (\mathbf {x}) \left(- 2 x_{1} \left(x_{1} x_{2} - \frac{3}{2}\right) - 2 \left(x_{2} - \frac{3}{2}\right)\right) \\ \frac{\partial \mathcal {L}}{\partial \lambda} = x_{2}^{2} - x_{1} \\ \end{array}
 $$
 
 Setting these derivatives to zero and solving yields  $x_{1} \approx 1.358$ ,  $x_{2} \approx 1.165$  and  $\lambda \approx 0.170$ .
@@ -5575,13 +5342,13 @@ Example 10.4. Using the method of Lagrange multipliers to solve the problem in e
 gradients  $\nabla h_{i}(\mathbf{x})$  ..
 
 $$
-\nabla f (\mathbf {x}) = \sum_ {i} \lambda_ {i} \nabla h _ {i} (\mathbf {x}) \tag {10.14}
+\nabla f (\mathbf {x}) = \sum_{i} \lambda_{i} \nabla h_{i} (\mathbf {x}) \tag {10.14}
 $$
 
 We can define a Lagrangian with  $\ell$  Lagrange multipliers for problems with  $\ell$  equality constraints as follows:
 
 $$
-\mathcal {L} (\mathbf {x}, \boldsymbol {\lambda}) = f (\mathbf {x}) - \sum_ {i = 1} ^ {\ell} \lambda_ {i} h _ {i} (\mathbf {x}) = f (\mathbf {x}) - \boldsymbol {\lambda} ^ {\top} \mathbf {h} (\mathbf {x}) \tag {10.15}
+\mathcal {L} (\mathbf {x}, \boldsymbol {\lambda}) = f (\mathbf {x}) - \sum_{i = 1}^{\ell} \lambda_{i} h_{i} (\mathbf {x}) = f (\mathbf {x}) - \boldsymbol {\lambda}^{\top} \mathbf {h} (\mathbf {x}) \tag {10.15}
 $$
 
 Critical points that satisfy  $\nabla \mathcal{L} = \mathbf{0}$  will satisfy both equations (10.14) and  $h_i(\mathbf{x}) = 0$  for all  $\ell$  constraints.
@@ -5591,11 +5358,11 @@ Critical points that satisfy  $\nabla \mathcal{L} = \mathbf{0}$  will satisfy bo
 Consider a problem with a single inequality constraint:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} f (\mathbf {x}) \tag {10.16}
+\underset{\mathbf {x}} {\text{minimize}} f (\mathbf {x}) \tag {10.16}
 $$
 
 $$
-\text {s u b j e c t} \quad g (\mathbf {x}) \leq 0
+\text{subject} \quad g (\mathbf {x}) \leq 0
 $$
 
 A solution may be either on the constraint boundary (figure 10.6) or in the interior of the feasible region (figure 10.7). We discuss these two cases separately.
@@ -5613,7 +5380,7 @@ If the solution to the problem does not lie at the constraint boundary, then the
 We could optimize a problem with an inequality constraint by introducing an infinite step penalty for infeasible points:7
 
 $$
-f _ {\infty \text {- s t e p}} (\mathbf {x}) = f (\mathbf {x}) + \infty (g (\mathbf {x}) > 0) \tag {10.18}
+f_{\infty \text{- step}} (\mathbf {x}) = f (\mathbf {x}) + \infty (g (\mathbf {x}) > 0) \tag {10.18}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/c1168ae5d3f4a8c9319c6f6c1d5775ff142b46316232a49461c88f86ad79401a.jpg)  
@@ -5635,7 +5402,7 @@ $$
 We can recover  $f_{\infty - \mathrm{step}}$  by maximizing with respect to  $\mu$
 
 $$
-f _ {\infty - \text {s t e p}} (\mathbf {x}) = \underset {\mu \geq 0} {\text {m a x i m i z e}} \mathcal {L} (\mathbf {x}, \mu) \tag {10.20}
+f_{\infty - \text{step}} (\mathbf {x}) = \underset{\mu \geq 0} {\text{maximize}} \mathcal {L} (\mathbf {x}, \mu) \tag {10.20}
 $$
 
 For any infeasible  $\mathbf{x}$  we get infinity and for any feasible  $\mathbf{x}$  we get  $f(\mathbf{x})$ .
@@ -5643,7 +5410,7 @@ For any infeasible  $\mathbf{x}$  we get infinity and for any feasible  $\mathbf
 The new optimization problem is thus
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \underset {\mu \geq 0} {\text {m a x i m i z e}} \mathcal {L} (\mathbf {x}, \mu) \tag {10.21}
+\underset{\mathbf {x}} {\text{minimize}} \underset{\mu \geq 0} {\text{maximize}} \mathcal {L} (\mathbf {x}, \mu) \tag {10.21}
 $$
 
 This reformulation is known as the primal problem. Optimizing the primal problem requires finding critical points  $\mathbf{x}^*$  such that:
@@ -5674,11 +5441,11 @@ $$
 These four requirements can be generalized to optimization problems with any number of equality and inequality constraints:8
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad f (\mathbf {x})
+\underset{\mathbf {x}} {\text{minimize}} \quad f (\mathbf {x})
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {g} (\mathbf {x}) \leq \mathbf {0} \tag {10.22}
+\text{subject} \quad \mathbf {g} (\mathbf {x}) \leq \mathbf {0} \tag {10.22}
 $$
 
 $$
@@ -5690,11 +5457,11 @@ where each component of  $\mathbf{g}$  is an inequality constraint and each comp
 1. Feasibility: The constraints are all satisfied:
 
 $$
-\mathbf {g} \left(\mathbf {x} ^ {*}\right) \leq \mathbf {0} \tag {10.23}
+\mathbf {g} \left(\mathbf {x}^{*}\right) \leq \mathbf {0} \tag {10.23}
 $$
 
 $$
-\mathbf {h} \left(\mathbf {x} ^ {*}\right) = \mathbf {0} \tag {10.24}
+\mathbf {h} \left(\mathbf {x}^{*}\right) = \mathbf {0} \tag {10.24}
 $$
 
 2. Dual feasibility: Penalties are toward feasibility:
@@ -5714,7 +5481,7 @@ A constraint or Lagrange multiplier is considered tight if it is equal to zero a
 4. Stationarity: The objective function contour is tangent to each active constraint: $^{11}$
 
 $$
-\nabla f \left(\mathbf {x} ^ {*}\right) + \sum_ {i} \mu_ {i} \nabla g _ {i} \left(\mathbf {x} ^ {*}\right) + \sum_ {j} \lambda_ {j} \nabla h _ {j} \left(\mathbf {x} ^ {*}\right) = \mathbf {0} \tag {10.27}
+\nabla f \left(\mathbf {x}^{*}\right) + \sum_{i} \mu_{i} \nabla g_{i} \left(\mathbf {x}^{*}\right) + \sum_{j} \lambda_{j} \nabla h_{j} \left(\mathbf {x}^{*}\right) = \mathbf {0} \tag {10.27}
 $$
 
 These four conditions are first-order necessary conditions for optimality for problems with smooth constraints. Just as with the conditions for unconstrained optimization, we must verify that critical points are actually minima.
@@ -5732,7 +5499,7 @@ These four conditions are first-order necessary conditions for optimality for pr
 A slack variable is a design variable introduced to an optimization problem that converts an inequality constraint into an equality constraint. We can make the following transformation by introducing a slack variable  $s$ :
 
 $$
-\begin{array}{l l} \underset {\mathbf {x}} {\text {m i n i m i z e}} & f (\mathbf {x}) \\ \text {s u b j e c t t o} & g (\mathbf {x}) \leq 0 \end{array} \quad \Rightarrow \quad \begin{array}{l l} \underset {\mathbf {x}, s} {\text {m i n i m i z e}} & f (\mathbf {x}) \\ \text {s u b j e c t t o} & g (\mathbf {x}) + s = 0 \\ & s \geq 0 \end{array} \tag {10.28}
+\begin{array}{l l} \underset{\mathbf {x}} {\text{minimize}} & f (\mathbf {x}) \\ \text{subjectto} & g (\mathbf {x}) \leq 0 \end{array} \quad \Rightarrow \quad \begin{array}{l l} \underset{\mathbf {x}, s} {\text{minimize}} & f (\mathbf {x}) \\ \text{subjectto} & g (\mathbf {x}) + s = 0 \\ & s \geq 0 \end{array} \tag {10.28}
 $$
 
 The slack variable is constrained to be non-negative. When solved, the value of  $s^*$  is the amount by which the original inequality constraint function  $g(\mathbf{x})$  can increase and remain feasible. The value of  $s^*$  thus represents the available slack in the constraint. If  $s^* = 0$ , then the original inequality constraint is active, and if  $s^* > 0$ , then the original inequality constraint is inactive. Introducing a slack variable increases the number of design variables, but the added problem complexity can sometimes lead to structure exploitable by optimization algorithms.[12]
@@ -5746,11 +5513,11 @@ We can use penalty methods to convert constrained optimization problems into unc
 Consider a general optimization problem:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} f (\mathbf {x})
+\underset{\mathbf {x}} {\text{minimize}} f (\mathbf {x})
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {g} (\mathbf {x}) \leq \mathbf {0} \tag {10.29}
+\text{subject} \quad \mathbf {g} (\mathbf {x}) \leq \mathbf {0} \tag {10.29}
 $$
 
 $$
@@ -5760,13 +5527,13 @@ $$
 A simple penalty method counts the violated constraints:
 
 $$
-p _ {\text {c o u n t}} (\mathbf {x}) = \sum_ {i} \left(g _ {i} (\mathbf {x}) > 0\right) + \sum_ {j} \left(h _ {j} (\mathbf {x}) \neq 0\right) \tag {10.30}
+p_{\text{count}} (\mathbf {x}) = \sum_{i} \left(g_{i} (\mathbf {x}) > 0\right) + \sum_{j} \left(h_{j} (\mathbf {x}) \neq 0\right) \tag {10.30}
 $$
 
 which results in the unconstrained problem that penalizes infeasibility
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} f (\mathbf {x}) + \rho \cdot p _ {\text {c o u n t}} (\mathbf {x}) \tag {10.31}
+\underset{\mathbf {x}} {\text{minimize}} f (\mathbf {x}) + \rho \cdot p_{\text{count}} (\mathbf {x}) \tag {10.31}
 $$
 
 where  $\rho > 0$  adjusts the penalty magnitude. Figure 10.9 shows an example.
@@ -5791,7 +5558,7 @@ This penalty will preserve the problem solution for large values of  $\rho$ , bu
 We can use quadratic penalties to produce a smooth objective function (figure 10.10):
 
 $$
-p _ {\text {q u a d r a t i c}} (\mathbf {x}) = \sum_ {i} \max  \left(g _ {i} (\mathbf {x}), 0\right) ^ {2} + \sum_ {j} h _ {j} (\mathbf {x}) ^ {2} \tag {10.32}
+p_{\text{quadratic}} (\mathbf {x}) = \sum_{i} \max \left(g_{i} (\mathbf {x}), 0\right) ^{2} + \sum_{j} h_{j} (\mathbf {x}) ^{2} \tag {10.32}
 $$
 
 Quadratic penalties close to the constraint boundary are very small and may require  $\rho$  to approach infinity before the solution ceases to violate the constraints. It is common to add a small constant to  $g_{i}(\mathbf{x})$  in the penalty function above to push the search toward the interior of the feasible region.
@@ -5799,7 +5566,7 @@ Quadratic penalties close to the constraint boundary are very small and may requ
 It is also possible to mix a count and a quadratic penalty function (figure 10.11):
 
 $$
-p _ {\text {m i x e d}} (\mathbf {x}) = \rho_ {1} p _ {\text {c o u n t}} (\mathbf {x}) + \rho_ {2} p _ {\text {q u a d r a t i c}} (\mathbf {x}) \tag {10.33}
+p_{\text{mixed}} (\mathbf {x}) = \rho_{1} p_{\text{count}} (\mathbf {x}) + \rho_{2} p_{\text{quadratic}} (\mathbf {x}) \tag {10.33}
 $$
 
 Such a penalty mixture both provides a clear boundary between the feasible region and the infeasible region and can provide gradient information to the solver.
@@ -5810,7 +5577,7 @@ Figure 10.12 shows the progress of the penalty function as  $\rho$  is increased
 Figure 10.9. The original and countenized objective functions for minimizing  $f$  subject to  $x \in [a, b]$ .
 
 $$
-\begin{array}{l} - f (x) \\ - f (x) + \rho p _ {\text {c o u n t}} (x) \\ \end{array}
+\begin{array}{l} - f (x) \\ - f (x) + \rho p_{\text{count}} (x) \\ \end{array}
 $$
 
 Algorithm 10.1. The penalty method for objective function  $f$ , penalty function  $p$ , initial point  $x$ , number of iterations  $k_{\text{max}}$ , initial penalty  $\rho > 0$ , and penalty multiplier  $\gamma > 1$ . The method minimize should be replaced with a suitable unconstrained minimization method.
@@ -5818,7 +5585,7 @@ Algorithm 10.1. The penalty method for objective function  $f$ , penalty functio
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/69a296df3f2430acc25fff9ef578e216ad2183f0ac144cb17bf4444a12dfb459.jpg)
 
 $$
-\begin{array}{l} - - f (x) \\ - f (x) + \rho p _ {\text {q u a d r a t i c}} (x) \\ \end{array}
+\begin{array}{l} - - f (x) \\ - f (x) + \rho p_{\text{quadratic}} (x) \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/097c0addd8ab4c944ae81fc4aeeaacdf3acb09af45479f1d37cf36ed61ce14d0.jpg)  
@@ -5826,7 +5593,7 @@ Figure 10.10. Using a quadratic penalty function for minimizing  $f$  subject to
 Figure 10.11. Using both a mixed penalty function for minimizing  $f$  subject to  $x \in [a, b]$ .
 
 $$
-\begin{array}{l} - - f (x) \\ - f (x) + p _ {\text {m i x e d}} (x) \\ \end{array}
+\begin{array}{l} - - f (x) \\ - f (x) + p_{\text{mixed}} (x) \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/85ef293a7bb84f00adf1efcbca261b769082ad985c8f46cc8bc706d143c8a9ab.jpg)  
@@ -5835,11 +5602,11 @@ Figure 10.12. The penalty method applied to the flower function, appendix B.4, a
 Consider the problem
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad x
+\underset{x} {\text{minimize}} \quad x
 $$
 
 $$
-\text {s u b j e c t} \quad x \geq 5
+\text{subject} \quad x \geq 5
 $$
 
 using a quadratic penalty function.
@@ -5847,13 +5614,13 @@ using a quadratic penalty function.
 The unconstrained objective function is
 
 $$
-f (x) = x + \rho \max  (5 - x, 0) ^ {2}
+f (x) = x + \rho \max (5 - x, 0) ^{2}
 $$
 
 The minimum of the unconstrained objective function is
 
 $$
-x ^ {*} = 5 - \frac {1}{2 \rho}
+x^{*} = 5 - \frac{1}{2 \rho}
 $$
 
 While the minimum of the constrained optimization problem is clearly  $x = 5$ , the minimum of the penalized optimization problem merely approaches  $x = 5$ , requiring an infinite penalty to achieve feasibility.
@@ -5867,13 +5634,13 @@ The method of multipliers, also known as the augmented Lagrange method, combines
 For an optimization problem with equality constraints  $\mathbf{h}(\mathbf{x}) = \mathbf{0}$ , the penalty function is<sup>14</sup>
 
 $$
-p _ {\text {L a g r a n g e}} (\mathbf {x}) = \frac {1}{2} \rho \sum_ {i} \left(h _ {i} (\mathbf {x})\right) ^ {2} + \sum_ {i} \lambda_ {i} h _ {i} (\mathbf {x}) \tag {10.34}
+p_{\text{Lagrange}} (\mathbf {x}) = \frac{1}{2} \rho \sum_{i} \left(h_{i} (\mathbf {x})\right) ^{2} + \sum_{i} \lambda_{i} h_{i} (\mathbf {x}) \tag {10.34}
 $$
 
 In addition to increasing  $\rho$  with each iteration, the linear penalty vector is updated according to<sup>15</sup>
 
 $$
-\boldsymbol {\lambda} ^ {(k + 1)} = \boldsymbol {\lambda} ^ {(k)} + \rho \mathbf {h} (\mathbf {x} ^ {(k + 1)}) \tag {10.35}
+\boldsymbol {\lambda}^{(k + 1)} = \boldsymbol {\lambda}^{(k)} + \rho \mathbf {h} (\mathbf {x}^{(k + 1)}) \tag {10.35}
 $$
 
 Algorithm 10.2 provides an implementation.
@@ -5905,19 +5672,19 @@ Algorithm 10.2. The method of multipliers for objective function  $f$ , equality
 Some examples of barrier functions include the inverse barrier:
 
 $$
-p _ {\text {b a r r i e r}} (\mathbf {x}) = - \sum_ {i} \frac {1}{g _ {i} (\mathbf {x})} \tag {10.36}
+p_{\text{barrier}} (\mathbf {x}) = - \sum_{i} \frac{1}{g_{i} (\mathbf {x})} \tag {10.36}
 $$
 
 and the log barrier:
 
 $$
-p _ {\text {b a r r i e r}} (\mathbf {x}) = - \sum_ {i} \left\{ \begin{array}{l l} \log (- g _ {i} (\mathbf {x})) & \text {i f} g _ {i} (\mathbf {x}) \geq - 1 \\ 0 & \text {o t h e r w i s e} \end{array} \right. \tag {10.37}
+p_{\text{barrier}} (\mathbf {x}) = - \sum_{i} \left\{ \begin{array}{l l} \log (- g_{i} (\mathbf {x})) & \text{if} g_{i} (\mathbf {x}) \geq - 1 \\ 0 & \text{otherwise} \end{array} \right. \tag {10.37}
 $$
 
 A problem with inequality constraints can be transformed into an unconstrained optimization problem
 
 $$
-\underset {\mathbf {x}} {\operatorname {m i n i m i z e}} f (\mathbf {x}) + \frac {1}{\rho} p _ {\text {b a r r i e r}} (\mathbf {x}) \tag {10.38}
+\underset{\mathbf {x}} {\operatorname{minimize}} f (\mathbf {x}) + \frac{1}{\rho} p_{\text{barrier}} (\mathbf {x}) \tag {10.38}
 $$
 
 When  $\rho$  is increased, the penalty for approaching the boundary decreases (figure 10.13).
@@ -5929,18 +5696,18 @@ Like the penalty method, the interior point method begins with a low value for  
 The interior point method requires a strictly feasible point from which to start the search. One method for finding such an interior point is to run the interior point method itself on a related problem with an additional variable  $s$ :
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} f (\mathbf {x}) \quad \Rightarrow \quad \underset {\mathbf {x}, s} {\text {m i n i m i z e}} s \tag {10.39}
+\underset{\mathbf {x}} {\text{minimize}} f (\mathbf {x}) \quad \Rightarrow \quad \underset{\mathbf {x}, s} {\text{minimize}} s \tag {10.39}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {g} (\mathbf {x}) \leq \mathbf {0} \quad \text {s u b j e c t} \quad \mathbf {g} (\mathbf {x}) \leq s \mathbf {1}
+\text{subject} \quad \mathbf {g} (\mathbf {x}) \leq \mathbf {0} \quad \text{subject} \quad \mathbf {g} (\mathbf {x}) \leq s \mathbf {1}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/d10e2785e0ff16289db60884b2479dd5735e7798bc4ae6f2549b744de32df755.jpg)  
 Figure 10.13. The interior point method with an inverse barrier for minimizing  $f$  subject to  $x \in [a, b]$ .
 
 $$
-\begin{array}{l} - - f (x) \\ - f (x) + p _ {\text {b a r r i e r}} (x) \\ - f (x) + \frac {1}{2} p _ {\text {b a r r i e r}} (x) \\ - f (x) + \frac {1}{1 0} p _ {\text {b a r r i e r}} (x) \\ \end{array}
+\begin{array}{l} - - f (x) \\ - f (x) + p_{\text{barrier}} (x) \\ - f (x) + \frac{1}{2} p_{\text{barrier}} (x) \\ - f (x) + \frac{1}{10} p_{\text{barrier}} (x) \\ \end{array}
 $$
 
 ```matlab
@@ -5972,11 +5739,11 @@ This  $s$  serves as an upper bound on all inequality constraints. A feasible pa
 Exercise 10.1. Solve
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad x
+\underset{x} {\text{minimize}} \quad x
 $$
 
 $$
-\text {s u b j e c t} \quad x \geq 0
+\text{subject} \quad x \geq 0
 $$
 
 using the quadratic penalty method with  $\rho > 0$ . Solve the problem in closed form.
@@ -5984,7 +5751,7 @@ using the quadratic penalty method with  $\rho > 0$ . Solve the problem in close
 Solution: First reformulate the problem as  $f(x) = x + \rho \max (-x,0)^2$  for which the derivative is
 
 $$
-f ^ {\prime} (x) = \left\{ \begin{array}{l l} 1 + 2 \rho x & \text {i f} x <   0 \\ 1 & \text {o t h e r w i s e} \end{array} \right.
+f^{\prime} (x) = \left\{ \begin{array}{l l} 1 + 2 \rho x & \text{if} x <   0 \\ 1 & \text{otherwise} \end{array} \right.
 $$
 
 This unconstrained objective function can be solved by setting  $f'(x) = 0$ , which yields the solution  $x^{*} = -\frac{1}{2\rho}$ . Thus, as  $\rho \to \infty$  we have that  $x^{*} \to 0$ .
@@ -6000,7 +5767,7 @@ Solution: You might try to increase the penalty parameter  $\rho$ . It is possib
 Exercise 10.4. Consider a simple univariate minimization problem where you minimize a function  $f(x)$  subject to  $x \geq 0$ . Assume that we know that the constraint is active, that is,  $x^{*} = 0$  where  $x^{*}$  is the minimizer. Also, assume that we know that  $f^{\prime}(x^{*}) > 0$ . Show that solving the same problem with the penalty method
 
 $$
-f (x) + (\min  (x, 0)) ^ {2}
+f (x) + (\min (x, 0)) ^{2}
 $$
 
 yields an infeasible solution with respect to the original problem.
@@ -6024,17 +5791,17 @@ Exercise 10.7. Give an example of a smooth optimization problem, such that, for 
 Solution: Consider the following:
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad x ^ {3}
+\underset{x} {\text{minimize}} \quad x^{3}
 $$
 
 $$
-\text {s u b j e c t} \quad x \geq 0
+\text{subject} \quad x \geq 0
 $$
 
 which is minimized for  $x^{*} = 0$ . Using the quadratic penalty method, we can recast it as
 
 $$
-\underset {x} {\operatorname {m i n i m i z e}} x ^ {3} + \rho (\min  (x, 0)) ^ {2}
+\underset{x} {\operatorname{minimize}} x^{3} + \rho (\min (x, 0)) ^{2}
 $$
 
 For any finite  $\rho$ , the function remains unbounded from below as  $x$  becomes infinitely negative. Furthermore, as  $x$  becomes infinitely negative the function becomes infinitely steep. In other words, if we start the steepest descent method too far to the left, we have  $x^3 + \rho x^2 \approx x^3$ , and the penalty would be ineffective, and the steepest descent method will diverge.
@@ -6046,17 +5813,17 @@ Solution: We can set the objective to 0, and then optimize the resulting problem
 Exercise 10.9. Solve the constrained optimization problem
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad \sin \left(\frac {4}{x}\right)
+\underset{x} {\text{minimize}} \quad \sin \left(\frac{4}{x}\right)
 $$
 
 $$
-\text {s u b j e c t} \quad x \in [ 1, 1 0 ]
+\text{subject} \quad x \in [ 1, 10 ]
 $$
 
 using both the transform  $x = t_{a,b}(\hat{x})$  introduced in equation (10.5) and a sigmoid transform for constraint bounds  $x \in [a, b]$  defined by:
 
 $$
-x = s _ {a, b} (\hat {x}) = a + \frac {(b - a)}{1 + e ^ {- \hat {x}}}
+x = s_{a, b} (\hat {x}) = a + \frac{(b - a)}{1 + e^{- \hat {x}}}
 $$
 
 Why is the  $t_{a,b}$  transform better suited for optimizing our problem than the  $s_{a,b}$  transform?
@@ -6064,7 +5831,7 @@ Why is the  $t_{a,b}$  transform better suited for optimizing our problem than t
 Solution: The problem is minimized at  $x^{*} = 1$ , which is at the constraint boundary. Solving with the  $t_{a,b}$  transform yields the unconstrained objective function:
 
 $$
-f _ {t} (\hat {x}) = \sin \left(\frac {4}{5 . 5 + 4 . 5 \frac {2 \hat {x}}{1 + \hat {x} ^ {2}}}\right)
+f_{t} (\hat {x}) = \sin \left(\frac{4}{5.5 + 4.5 \frac{2 \hat {x}}{1 + \hat {x}^{2}}}\right)
 $$
 
 which has a single global minimum at  $\hat{x} = -1$ , correctly corresponding to  $x^{*}$ .
@@ -6072,7 +5839,7 @@ which has a single global minimum at  $\hat{x} = -1$ , correctly corresponding t
 The  $s_{a,b}$  transform has an unconstrained objective function:
 
 $$
-f _ {s} (\hat {x}) = \sin \left(\frac {4}{1 + \frac {9}{1 + e ^ {- \hat {x}}}}\right)
+f_{s} (\hat {x}) = \sin \left(\frac{4}{1 + \frac{9}{1 + e^{- \hat {x}}}}\right)
 $$
 
 Unfortunately, the lower-bound on  $x$  is reached only as  $\hat{x}$  approaches minus infinity. The unconstrained optimization problem obtained using the sigmoid transform does not have a solution, and the method fails to properly identify the solution of the original problem.
@@ -6092,13 +5859,13 @@ Exercise 10.11. Suppose we want to minimize  $x_1^3 + x_2^2 + x_3$  subject to t
 Solution: We can rearrange the constraint in terms of  $x_{1}$ :
 
 $$
-x _ {1} = 6 - 2 x _ {2} - 3 x _ {3}
+x_{1} = 6 - 2 x_{2} - 3 x_{3}
 $$
 
 and substitute the relation into the objective:
 
 $$
-\underset {x _ {2}, x _ {3}} {\text {m i n i m i z e}} x _ {2} ^ {2} + x _ {3} - (2 x _ {2} + 3 x _ {3} - 6) ^ {3}
+\underset{x_{2}, x_{3}} {\text{minimize}} x_{2}^{2} + x_{3} - (2 x_{2} + 3 x_{3} - 6) ^{3}
 $$
 
 Exercise 10.12. Suppose we want to minimize  $-x_{1} - 2x_{2}$  subject to the constraints  $ax_{1} + x_{2} \leq 5$  and  $x_{1}, x_{2} \geq 0$ . If  $a$  is a bounded constant, what range of values of  $a$  will result in an infinite number of optimal solutions?
@@ -6108,11 +5875,11 @@ Solution: To have infinitely many solutions, we need the boundary of the feasibl
 Exercise 10.13. Consider using a penalty method to optimize
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad 1 - x ^ {2}
+\underset{x} {\text{minimize}} \quad 1 - x^{2}
 $$
 
 $$
-\text {s u b j e c t} \quad | x | \leq 2
+\text{subject} \quad | x | \leq 2
 $$
 
 Optimization with the penalty method typically involves running several optimizations with increasing penalty weights. Impatient engineers may wish to optimize once using a very large penalty weight. Explain what issues are encountered for both the count penalty method and the quadratic penalty method.
@@ -6120,7 +5887,7 @@ Optimization with the penalty method typically involves running several optimiza
 Solution: The transformed objective function is  $f(x) = 1 - x^{2} + \rho p(x)$ , where  $p$  is either a count penalty or a quadratic penalty:
 
 $$
-p _ {\text {c o u n t}} (x) = (| x | > 2) \quad p _ {\text {q u a d r a t i c}} (x) = \max  (| x | - 2, 0) ^ {2}
+p_{\text{count}} (x) = (| x | > 2) \quad p_{\text{quadratic}} (x) = \max (| x | - 2, 0) ^{2}
 $$
 
 The count penalty method does not provide any gradient information to the optimization process. An optimization algorithm initialized outside of the feasible set will be drawn away from the feasible region because  $1 - x^2$  is minimized by moving infinitely far to the left or right from the origin. The large magnitude of the count penalty is not the primary issue; small penalties can lead to similar problems.
@@ -6128,7 +5895,7 @@ The count penalty method does not provide any gradient information to the optimi
 The quadratic penalty method does provide gradient information to the optimization process, guiding searches toward the feasible region. For very large penalties, the quadratic penalty method will produce large gradient values in the infeasible region. In this problem, the partial derivative is:
 
 $$
-\frac {\partial f}{\partial x} = - 2 x + \rho \left\{ \begin{array}{l l} 2 (x - 2) & \text {i f} x > 2 \\ 2 (x + 2) & \text {i f} x <   - 2 \\ 0 & \text {o t h e r w i s e} \end{array} \right.
+\frac{\partial f}{\partial x} = - 2 x + \rho \left\{ \begin{array}{l l} 2 (x - 2) & \text{if} x > 2 \\ 2 (x + 2) & \text{if} x <   - 2 \\ 0 & \text{otherwise} \end{array} \right.
 $$
 
 For very large values of  $\rho$ , the partial derivative in the infeasible region is also large, which can cause problems for optimization methods. If  $\rho$  is not large, then infeasible points may not be sufficiently penalized, resulting in infeasible solutions.
@@ -6138,23 +5905,23 @@ Exercise 10.14. Write down the primal problem from equation (10.21) with a quadr
 Solution: The primal problem with a quadratic penalty function is
 
 $$
-\underset {\mathbf {x}} {\operatorname {m i n i m i z e}} \underset {\lambda} {\operatorname {m a x i m i z e}} f (\mathbf {x}) + \frac {1}{2} \rho \mathbf {h} (\mathbf {x}) ^ {\top} \mathbf {h} (\mathbf {x}) + \boldsymbol {\lambda} ^ {\top} \mathbf {h} (\mathbf {x})
+\underset{\mathbf {x}} {\operatorname{minimize}} \underset{\lambda} {\operatorname{maximize}} f (\mathbf {x}) + \frac{1}{2} \rho \mathbf {h} (\mathbf {x}) ^{\top} \mathbf {h} (\mathbf {x}) + \boldsymbol {\lambda}^{\top} \mathbf {h} (\mathbf {x})
 $$
 
 The update equation for  $\lambda$  with step factor  $\rho$  is
 
 $$
-\boldsymbol {\lambda} ^ {(k + 1)} = \boldsymbol {\lambda} ^ {(k)} + \rho \mathbf {h} (\mathbf {x} ^ {(k + 1)})
+\boldsymbol {\lambda}^{(k + 1)} = \boldsymbol {\lambda}^{(k)} + \rho \mathbf {h} (\mathbf {x}^{(k + 1)})
 $$
 
 Exercise 10.15. Suppose we have an optimization problem with a single squared equality constraint:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad f (\mathbf {x})
+\underset{\mathbf {x}} {\text{minimize}} \quad f (\mathbf {x})
 $$
 
 $$
-\text {s u b j e c t} \quad c ^ {2} (\mathbf {x}) = 0
+\text{subject} \quad c^{2} (\mathbf {x}) = 0
 $$
 
 where  $f$  and  $c$  have continuous partial derivatives. Why can we not determine the Lagrange multiplier  $\lambda$  using the method of Lagrange multipliers in this case?
@@ -6174,7 +5941,7 @@ Solution: Instead of using the constraint  $c^2(\mathbf{x}) = 0$ , we can use th
 Exercise 10.17. Suppose we wish to solve an optimization problem using an interior point method. Could we find an initial feasible point by optimizing the quadratic penalty function?
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} p _ {\text {q u a d r a t i c}} (\mathbf {x})
+\underset{\mathbf {x}} {\text{minimize}} p_{\text{quadratic}} (\mathbf {x})
 $$
 
 Why might this be a good or a bad idea?
@@ -6190,11 +5957,11 @@ The previous chapter presented constrained minimization problems and derived the
 In the previous chapter, we defined a general constrained optimization problem as an optimization problem with any number of equality and inequality constraints:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} f (\mathbf {x})
+\underset{\mathbf {x}} {\text{minimize}} f (\mathbf {x})
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {g} (\mathbf {x}) \leq \mathbf {0} \tag {11.1}
+\text{subject} \quad \mathbf {g} (\mathbf {x}) \leq \mathbf {0} \tag {11.1}
 $$
 
 $$
@@ -6204,7 +5971,7 @@ $$
 The generalized Lagrangian corresponding to this general constrained minimization problem is
 
 $$
-\mathcal {L} (\mathbf {x}, \boldsymbol {\mu}, \lambda) = f (\mathbf {x}) + \sum_ {i} \mu_ {i} g _ {i} (\mathbf {x}) + \sum_ {j} \lambda_ {j} h _ {j} (\mathbf {x}) \tag {11.2}
+\mathcal {L} (\mathbf {x}, \boldsymbol {\mu}, \lambda) = f (\mathbf {x}) + \sum_{i} \mu_{i} g_{i} (\mathbf {x}) + \sum_{j} \lambda_{j} h_{j} (\mathbf {x}) \tag {11.2}
 $$
 
 where  $\mu$  and  $\lambda$  are known as Lagrange multipliers or dual variables.
@@ -6214,7 +5981,7 @@ $^{1}$ Duality is covered in greater depth by S. Boyd and L. Vandenberghe, Conve
 The primal form of the problem is the original optimization problem formulated using the generalized Lagrangian:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \underset {\mu \geq 0, \lambda} {\text {m a x i m i z e}} \mathcal {L} (\mathbf {x}, \mu , \lambda) \tag {11.3}
+\underset{\mathbf {x}} {\text{minimize}} \underset{\mu \geq 0, \lambda} {\text{maximize}} \mathcal {L} (\mathbf {x}, \mu , \lambda) \tag {11.3}
 $$
 
 The interior maximization will drive the value to infinity if any constraints are violated, which ensures that the outer minimization will seek a feasible design. The primal problem is identical to the original problem and is just as difficult to optimize.
@@ -6222,13 +5989,13 @@ The interior maximization will drive the value to infinity if any constraints ar
 The dual form of the optimization problem reverses the order of the minimization and maximization in equation (11.3):
 
 $$
-\underset {\mu \geq 0, \lambda} {\text {m a x i m i z e}} \underset {\mathbf {x}} {\text {m i n i m i z e}} \mathcal {L} (\mathbf {x}, \mu , \lambda) \tag {11.4}
+\underset{\mu \geq 0, \lambda} {\text{maximize}} \underset{\mathbf {x}} {\text{minimize}} \mathcal {L} (\mathbf {x}, \mu , \lambda) \tag {11.4}
 $$
 
 The max-min inequality states that for any function  $f(\mathbf{a}, \mathbf{b})$ :
 
 $$
-\underset {\mathbf {a}} {\text {m a x i m i z e m i n i m i z e}} f (\mathbf {a}, \mathbf {b}) \leq \underset {\mathbf {b}} {\text {m i n i m i z e m a x i m i z e}} f (\mathbf {a}, \mathbf {b}) \tag {11.5}
+\underset{\mathbf {a}} {\text{maximizeminimize}} f (\mathbf {a}, \mathbf {b}) \leq \underset{\mathbf {b}} {\text{minimizemaximize}} f (\mathbf {a}, \mathbf {b}) \tag {11.5}
 $$
 
 The solution to the dual problem is thus a lower bound to the solution of the primal problem. That is,  $d^{*} \leq p^{*}$ , where  $d^{*}$  is the dual value and  $p^{*}$  is the primal value.
@@ -6236,7 +6003,7 @@ The solution to the dual problem is thus a lower bound to the solution of the pr
 The inner minimization in the dual problem is often folded into a dual function,
 
 $$
-\mathcal {D} (\boldsymbol {\mu}, \lambda) = \underset {\mathbf {x}} {\text {m i n i m i z e}} \mathcal {L} (\mathbf {x}, \boldsymbol {\mu}, \lambda) \tag {11.6}
+\mathcal {D} (\boldsymbol {\mu}, \lambda) = \underset{\mathbf {x}} {\text{minimize}} \mathcal {L} (\mathbf {x}, \boldsymbol {\mu}, \lambda) \tag {11.6}
 $$
 
 for notational convenience. The dual function is concave. $^2$  Gradient ascent can be used with this concave function to converge to the global maximum. Optimizing the dual problem is efficient whenever minimizing the Lagrangian with respect to  $\mathbf{x}$  is efficient.
@@ -6252,23 +6019,23 @@ The difference  $p^* - d^*$  between the dual and primal values is called the du
 Consider the optimization problem:
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad \sin (x)
+\underset{x} {\text{minimize}} \quad \sin (x)
 $$
 
 $$
-\text {s u b j e c t} \quad x ^ {2} \leq 1
+\text{subject} \quad x^{2} \leq 1
 $$
 
 The generalized Lagrangian is  $\mathcal{L}(x,\mu) = \sin (x) + \mu (x^2 -1)$ , making the primal problem:
 
 $$
-\underset {x} {\text {m i n i m i z e}} \underset {\mu \geq 0} {\text {m a x i m i z e}} \sin (x) + \mu (x ^ {2} - 1)
+\underset{x} {\text{minimize}} \underset{\mu \geq 0} {\text{maximize}} \sin (x) + \mu (x^{2} - 1)
 $$
 
 and the dual problem:
 
 $$
-\underset {\mu \geq 0} {\text {m a x i m i z e}} \underset {x} {\text {m i n i m i z e}} \sin (x) + \mu (x ^ {2} - 1)
+\underset{\mu \geq 0} {\text{maximize}} \underset{x} {\text{minimize}} \sin (x) + \mu (x^{2} - 1)
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/ce02330269e7de1e1a9dad5e57e323fcaefc2246ee996edb9591c34478acdb5c.jpg)
@@ -6280,25 +6047,25 @@ Example 11.1. The dual function is a lower bound of the primal problem.
 Consider the problem:
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad x _ {1} + x _ {2} + x _ {1} x _ {2}
+\underset{x} {\text{minimize}} \quad x_{1} + x_{2} + x_{1} x_{2}
 $$
 
 $$
-\text {s u b j e c t} \quad x _ {1} ^ {2} + x _ {2} ^ {2} = 1
+\text{subject} \quad x_{1}^{2} + x_{2}^{2} = 1
 $$
 
 The Lagrangian is  $\mathcal{L}(x_1,x_2,\lambda) = x_1 + x_2 + x_1x_2 + \lambda (x_1^2 +x_2^2 -1)$ . We apply the method of Lagrange multipliers to obtain the necessary optimality conditions:
 
 $$
-\frac {\partial \mathcal {L}}{\partial x _ {1}} = 1 + x _ {2} + 2 \lambda x _ {1} = 0
+\frac{\partial \mathcal {L}}{\partial x_{1}} = 1 + x_{2} + 2 \lambda x_{1} = 0
 $$
 
 $$
-\frac {\partial \mathcal {L}}{\partial x _ {2}} = 1 + x _ {1} + 2 \lambda x _ {2} = 0
+\frac{\partial \mathcal {L}}{\partial x_{2}} = 1 + x_{1} + 2 \lambda x_{2} = 0
 $$
 
 $$
-\frac {\partial \mathcal {L}}{\partial \lambda} = x _ {1} ^ {2} + x _ {2} ^ {2} - 1 = 0
+\frac{\partial \mathcal {L}}{\partial \lambda} = x_{1}^{2} + x_{2}^{2} - 1 = 0
 $$
 
 Solving yields four potential solutions, and thus four critical points:
@@ -6310,13 +6077,13 @@ We find that the two optimal solutions are  $[-1,0]$  and  $[0, - 1]$
 The dual function has the form
 
 $$
-\mathcal {D} (\lambda) = \underset {x _ {1}, x _ {2}} {\text {m i n i m i z e}} x _ {1} + x _ {2} + x _ {1} x _ {2} + \lambda \left(x _ {1} ^ {2} + x _ {2} ^ {2} - 1\right)
+\mathcal {D} (\lambda) = \underset{x_{1}, x_{2}} {\text{minimize}} x_{1} + x_{2} + x_{1} x_{2} + \lambda \left(x_{1}^{2} + x_{2}^{2} - 1\right)
 $$
 
 The dual function is unbounded below when  $\lambda$  is less than  $1/2$  (consider  $x_1 \to \infty$  and  $x_2 \to -\infty$ ). For  $\lambda > 1/2$ , setting the gradient to  $\mathbf{0}$  and solving yields  $x_2 = -1 - 2\lambda x_1$  and  $x_1 = (2\lambda - 1)/(1 - 4\lambda^2)$ . When  $\lambda = 1/2$ ,  $x_1 = -1 - x_2$  and  $\mathcal{D}(1/2) = -1$ . Substituting these into the dual function yields:
 
 $$
-\mathcal {D} (\lambda) = \left\{ \begin{array}{l l} - \lambda - \frac {1}{2 \lambda + 1} & \lambda \geq \frac {1}{2} \\ - \infty & \text {o t h e r w i s e} \end{array} \right.
+\mathcal {D} (\lambda) = \left\{ \begin{array}{l l} - \lambda - \frac{1}{2 \lambda + 1} & \lambda \geq \frac{1}{2} \\ - \infty & \text{otherwise} \end{array} \right.
 $$
 
 The dual problem maximize  $\lambda$ $\mathcal{D}(\lambda)$  is maximized at  $\lambda = 1 / 2$
@@ -6334,35 +6101,35 @@ Primal-dual methods build upon the interior point methods introduced in the prev
 As discussed in section 10.10, interior point methods can be used to solve the inequality-constrained optimization problem
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} f (\mathbf {x}) \tag {11.7}
+\underset{\mathbf {x}} {\text{minimize}} f (\mathbf {x}) \tag {11.7}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {g} (\mathbf {x}) \leq \mathbf {0}
+\text{subject} \quad \mathbf {g} (\mathbf {x}) \leq \mathbf {0}
 $$
 
 by approximating infinite discontinuities at the constraint boundaries with smooth barriers:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} f (\mathbf {x}) + \frac {1}{\rho} p _ {\text {b a r r i e r}} (\mathbf {x}) \tag {11.8}
+\underset{\mathbf {x}} {\text{minimize}} f (\mathbf {x}) + \frac{1}{\rho} p_{\text{barrier}} (\mathbf {x}) \tag {11.8}
 $$
 
 These problems are solved repeatedly with increasing values of  $\rho$ , yielding a sequence of designs that converge to a local minimum for the original problem. For the primal-dual method discussed here, we use a logarithmic barrier:
 
 $$
-\underset {\mathbf {x}} {\operatorname {m i n i m i z e}} f (\mathbf {x}) - \frac {1}{\rho} \sum_ {i} \log (- g _ {i} (\mathbf {x})) \tag {11.9}
+\underset{\mathbf {x}} {\operatorname{minimize}} f (\mathbf {x}) - \frac{1}{\rho} \sum_{i} \log (- g_{i} (\mathbf {x})) \tag {11.9}
 $$
 
 Suppose we have a primal solution  $\mathbf{x}^*$  to this barrier problem for a particular value of  $\rho$ . The primal solution will satisfy
 
 $$
-\begin{array}{l} \mathbf {0} = \nabla \left[ f \left(\mathbf {x} ^ {*}\right) - \frac {1}{\rho} \sum_ {i} \log \left(- g _ {i} \left(\mathbf {x} ^ {*}\right)\right) \right] (11.10) \\ = \nabla f (\mathbf {x} ^ {*}) + \frac {1}{\rho} \sum_ {i} \frac {1}{- g _ {i} (\mathbf {x} ^ {*})} \nabla g _ {i} (\mathbf {x} ^ {*}) (11.11) \\ = \nabla f \left(\mathbf {x} ^ {*}\right) + \sum_ {i} \frac {- 1}{\rho g _ {i} \left(\mathbf {x} ^ {*}\right)} \nabla g _ {i} \left(\mathbf {x} ^ {*}\right) (11.12) \\ \end{array}
+\begin{array}{l} \mathbf {0} = \nabla \left[ f \left(\mathbf {x}^{*}\right) - \frac{1}{\rho} \sum_{i} \log \left(- g_{i} \left(\mathbf {x}^{*}\right)\right) \right] (11.10) \\ = \nabla f (\mathbf {x}^{*}) + \frac{1}{\rho} \sum_{i} \frac{1}{- g_{i} (\mathbf {x}^{*})} \nabla g_{i} (\mathbf {x}^{*}) (11.11) \\ = \nabla f \left(\mathbf {x}^{*}\right) + \sum_{i} \frac{- 1}{\rho g_{i} \left(\mathbf {x}^{*}\right)} \nabla g_{i} \left(\mathbf {x}^{*}\right) (11.12) \\ \end{array}
 $$
 
 If we set  $\mu_i^* = -1 / (\rho g_i(\mathbf{x}^*))$ , then we produce a Lagrangian for the inequality-constrained optimization problem in equation (11.7):
 
 $$
-\mathbf {0} = \nabla_ {\mathbf {x}} \mathcal {L} \left(\mathbf {x} ^ {*}, \boldsymbol {\mu} ^ {*}\right) = \nabla f \left(\mathbf {x} ^ {*}\right) + \sum_ {i} \mu_ {i} ^ {*} \nabla g _ {i} \left(\mathbf {x} ^ {*}\right) \tag {11.13}
+\mathbf {0} = \nabla_{\mathbf {x}} \mathcal {L} \left(\mathbf {x}^{*}, \boldsymbol {\mu}^{*}\right) = \nabla f \left(\mathbf {x}^{*}\right) + \sum_{i} \mu_{i}^{*} \nabla g_{i} \left(\mathbf {x}^{*}\right) \tag {11.13}
 $$
 
 4 Primal-dual methods are covered in depth by S.J. Wright, Primal-Dual Interior-Point Methods. SIAM, 1997.
@@ -6372,7 +6139,7 @@ The dual variable satisfies  $\mu^{*} \geq 0$  because  $\mathbf{x}^{*}$  must b
 Written another way, for a design  $\mathbf{x}^*$  to be optimal in equation (11.9), there must exist a  $\mu^{*}$  such that
 
 $$
-- \mu_ {i} ^ {*} g _ {i} \left(\mathbf {x} ^ {*}\right) = \frac {1}{\rho} \text {f o r} i \text {i n} 1: m \tag {11.14}
+- \mu_{i}^{*} g_{i} \left(\mathbf {x}^{*}\right) = \frac{1}{\rho} \text{for} i \text{in} 1: m \tag {11.14}
 $$
 
 This new equation is analogous to complementary slackness, and approaches complementary slackness as  $\rho$  approaches infinity.
@@ -6380,7 +6147,7 @@ This new equation is analogous to complementary slackness, and approaches comple
 The design  $\mathbf{x}^*$  is not a solution to equation (11.7) in general. If there are  $m$  inequality constraints, then the duality gap for  $\mathbf{x}^*$  and  $\boldsymbol{\mu}^{*}$  is:
 
 $$
-\begin{array}{l} p ^ {*} - \mathcal {D} (\boldsymbol {\mu} ^ {*}) = f (\mathbf {x} ^ {*}) - \left(f (\mathbf {x} ^ {*}) + \sum_ {i = 1} ^ {m} \mu_ {i} ^ {*} g _ {i} (\mathbf {x} ^ {*})\right) (11.15) \\ = - \sum_ {i = 1} ^ {m} \frac {- 1}{\rho g _ {i} \left(\mathbf {x} ^ {*}\right)} g _ {i} \left(\mathbf {x} ^ {*}\right) (11.16) \\ = \frac {m}{\rho} (11.17) \\ \end{array}
+\begin{array}{l} p^{*} - \mathcal {D} (\boldsymbol {\mu}^{*}) = f (\mathbf {x}^{*}) - \left(f (\mathbf {x}^{*}) + \sum_{i = 1}^{m} \mu_{i}^{*} g_{i} (\mathbf {x}^{*})\right) (11.15) \\ = - \sum_{i = 1}^{m} \frac{- 1}{\rho g_{i} \left(\mathbf {x}^{*}\right)} g_{i} \left(\mathbf {x}^{*}\right) (11.16) \\ = \frac{m}{\rho} (11.17) \\ \end{array}
 $$
 
 As  $\rho$  increases, the duality gap approaches 0. As a result,  $\mathbf{x}^*$  will approach the solution of our inequality-constrained optimization problem given in equation (11.7).
@@ -6388,13 +6155,13 @@ As  $\rho$  increases, the duality gap approaches 0. As a result,  $\mathbf{x}^*
 Our primal-dual method seeks to satisfy both stationarity and our alternative form of complementary slackness. We rearrange the equations such that they equal zero:
 
 $$
-\begin{array}{l} \nabla f (\mathbf {x}) + \sum_ {i} \mu_ {i} \nabla g _ {i} (\mathbf {x}) = \mathbf {0} \tag {11.18} \\ - \mu_ {i} g _ {i} (\mathbf {x}) - \frac {1}{\rho} = 0 \quad \text {f o r} i \text {i n} 1: m \\ \end{array}
+\begin{array}{l} \nabla f (\mathbf {x}) + \sum_{i} \mu_{i} \nabla g_{i} (\mathbf {x}) = \mathbf {0} \tag {11.18} \\ - \mu_{i} g_{i} (\mathbf {x}) - \frac{1}{\rho} = 0 \quad \text{for} i \text{in} 1: m \\ \end{array}
 $$
 
 The residual is as follows:
 
 $$
-\mathbf {r} (\mathbf {x}, \mu , \rho) = \left[ \begin{array}{c} \nabla f (\mathbf {x}) + \sum_ {i} \mu_ {i} \nabla g _ {i} (\mathbf {x}) \\ - \mu_ {1} g _ {1} (\mathbf {x}) - \frac {1}{\rho} \\ \vdots \\ - \mu_ {m} g _ {m} (\mathbf {x}) - \frac {1}{\rho} \end{array} \right] \tag {11.19}
+\mathbf {r} (\mathbf {x}, \mu , \rho) = \left[ \begin{array}{c} \nabla f (\mathbf {x}) + \sum_{i} \mu_{i} \nabla g_{i} (\mathbf {x}) \\ - \mu_{1} g_{1} (\mathbf {x}) - \frac{1}{\rho} \\ \vdots \\ - \mu_{m} g_{m} (\mathbf {x}) - \frac{1}{\rho} \end{array} \right] \tag {11.19}
 $$
 
 5 Complementary slackness is derived in exercise 11.1. The derivation for this condition is similar.
@@ -6420,7 +6187,7 @@ As with previous interior point methods, this primal-dual method also requires t
 Any negative components in  $\mathbf{d}_{\mu}$  could result in iterates violating  $\mu > 0$  if the steps are too large. Therefore, we bound an initial step size  $\alpha$
 
 $$
-\alpha = \min  \left(\alpha , - (1 - \epsilon) \frac {\mu_ {i}}{d _ {\mu_ {i}}}\right) \text {f o r} i \text {i n} 1: m \text {w h e r e} d _ {\mu_ {i}} <   0 \tag {11.20}
+\alpha = \min \left(\alpha , - (1 - \epsilon) \frac{\mu_{i}}{d_{\mu_{i}}}\right) \text{for} i \text{in} 1: m \text{where} d_{\mu_{i}} <   0 \tag {11.20}
 $$
 
 where  $\epsilon$  is a small positive value that ensures  $\mu_i > 0$  instead of  $\mu_i \geq 0$ . We then enforce  $\mathbf{g}(\mathbf{x}) < 0$  by further reducing  $\alpha$  by a reduction factor  $p$  until it is satisfied. Standard backtracking line search can be used to satisfy the sufficient decrease condition. Algorithm 11.2 provides an implementation, and figure 11.1 demonstrates how it works.
@@ -6432,23 +6199,23 @@ Algorithm 11.1. An algorithm for computing the descent direction for a primal-du
 Suppose we wish to optimize
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad x ^ {2}
+\underset{\mathbf {x}} {\text{minimize}} \quad x^{2}
 $$
 
 $$
-\text {s u b j e c t} \quad (x - 3) ^ {2} \leq 1
+\text{subject} \quad (x - 3) ^{2} \leq 1
 $$
 
 Iterations of our primal-dual method seek to satisfy:
 
 $$
-\mathbf {r} = \left[ \begin{array}{c} \nabla f (x) + \mu \nabla g (x) \\ - \mu g (\mathbf {x}) - \frac {1}{\rho} \end{array} \right] = \left[ \begin{array}{c} 2 x + 2 \mu (x - 3) = 0 \\ - \mu (x - 3) ^ {2} - 1 - 1 / \rho \end{array} \right] = \mathbf {0}
+\mathbf {r} = \left[ \begin{array}{c} \nabla f (x) + \mu \nabla g (x) \\ - \mu g (\mathbf {x}) - \frac{1}{\rho} \end{array} \right] = \left[ \begin{array}{c} 2 x + 2 \mu (x - 3) = 0 \\ - \mu (x - 3) ^{2} - 1 - 1 / \rho \end{array} \right] = \mathbf {0}
 $$
 
 The associated Hessian is:
 
 $$
-\mathbf {H} = \left[ \begin{array}{c c} \nabla^ {2} f (x) + \mu \nabla^ {2} g (x) & \nabla g (x) \\ - \mu \nabla g (x) & - g (x) \end{array} \right] = \left[ \begin{array}{c c} 2 + 2 \mu & 2 (x - 3) \\ - 2 \mu (x - 3) & (x - 3) ^ {2} - 1 \end{array} \right]
+\mathbf {H} = \left[ \begin{array}{c c} \nabla^{2} f (x) + \mu \nabla^{2} g (x) & \nabla g (x) \\ - \mu \nabla g (x) & - g (x) \end{array} \right] = \left[ \begin{array}{c c} 2 + 2 \mu & 2 (x - 3) \\ - 2 \mu (x - 3) & (x - 3) ^{2} - 1 \end{array} \right]
 $$
 
 The descent direction is  $\mathbf{d} = -\mathbf{H}^{-1}\mathbf{r}$  where  $d_{1}$  is the descent direction for  $x$  and  $d_{2}$  is the descent direction for  $\mu$ .
@@ -6460,19 +6227,19 @@ Example 11.3. Calculating the primal-dual descent direction for a simple optimiz
 Recall that the dual problem from equation (11.4) is always a concave optimization problem in  $\mu$  and  $\lambda$ :
 
 $$
-\underset {\mu \geq 0, \lambda} {\text {m a x i m i z e}} \underset {\mathbf {x}} {\text {m i n i m i z e}} \mathcal {L} (\mathbf {x}, \mu , \lambda) \tag {11.21}
+\underset{\mu \geq 0, \lambda} {\text{maximize}} \underset{\mathbf {x}} {\text{minimize}} \mathcal {L} (\mathbf {x}, \mu , \lambda) \tag {11.21}
 $$
 
 When strong duality holds, an optimum  $(\mathbf{x}^{*},\boldsymbol{\mu}^{*},\boldsymbol{\lambda}^{*})$  will satisfy both:
 
 $$
-\mathcal {L} \left(\mathbf {x} ^ {*}, \boldsymbol {\mu} ^ {*}, \lambda^ {*}\right) = \underset {\mathbf {x}} {\operatorname {m i n i m i z e}} \mathcal {L} \left(\mathbf {x}, \boldsymbol {\mu} ^ {*}, \lambda^ {*}\right) \tag {11.22}
+\mathcal {L} \left(\mathbf {x}^{*}, \boldsymbol {\mu}^{*}, \lambda^{*}\right) = \underset{\mathbf {x}} {\operatorname{minimize}} \mathcal {L} \left(\mathbf {x}, \boldsymbol {\mu}^{*}, \lambda^{*}\right) \tag {11.22}
 $$
 
 and
 
 $$
-\mathcal {L} \left(\mathbf {x} ^ {*}, \boldsymbol {\mu} ^ {*}, \lambda^ {*}\right) = \underset {\mu \geq 0, \lambda} {\text {m a x i m i z e}} \mathcal {L} \left(\mathbf {x} ^ {*}, \boldsymbol {\mu}, \lambda\right) \tag {11.23}
+\mathcal {L} \left(\mathbf {x}^{*}, \boldsymbol {\mu}^{*}, \lambda^{*}\right) = \underset{\mu \geq 0, \lambda} {\text{maximize}} \mathcal {L} \left(\mathbf {x}^{*}, \boldsymbol {\mu}, \lambda\right) \tag {11.23}
 $$
 
 This means the optimum can be approached in two ways: by minimizing the Lagrangian with respect to the design with appropriate fixed dual values or by maximizing the Lagrangian with respect to dual values with an appropriate design.
@@ -6515,7 +6282,7 @@ The algorithm proceeds until the norm of the residual is sufficiently decreased 
 Figure 11.1. The primal dual interior point method applied to the Rosenbrock banana function with a circular constraint:
 
 $$
-g (x) = (x _ {1} + 1) ^ {2} + (x _ {2} - 1) ^ {2} - 2
+g (x) = (x_{1} + 1) ^{2} + (x_{2} - 1) ^{2} - 2
 $$
 
 This run was initialized with  $\mathbf{x} = [-1.75,0.75]$  and  $\mu = [0.01]$  using  $\rho = 1.5$ .
@@ -6523,15 +6290,15 @@ This run was initialized with  $\mathbf{x} = [-1.75,0.75]$  and  $\mu = [0.01]$ 
 In dual ascent, we alternate between solving for the primal values given the current values of the dual variables and applying an iteration of gradient ascent to the Lagrangian to update our dual variables. The aim is to move toward a  $(\lambda^{*},\mu^{*})$  that maximizes the Lagrangian for  $\mathbf{x}^*$ . For an iterate  $(\boldsymbol{\mu}^{(k)}\geq \mathbf{0},\boldsymbol{\lambda}^{(k)})$ , our update is:7
 
 $$
-\mathbf {x} ^ {(k)} = \underset {\mathbf {x}} {\arg \min } \mathcal {L} (\mathbf {x}, \boldsymbol {\mu} ^ {(k)}, \boldsymbol {\lambda} ^ {(k)}) \tag {11.24}
+\mathbf {x}^{(k)} = \underset{\mathbf {x}} {\arg \min } \mathcal {L} (\mathbf {x}, \boldsymbol {\mu}^{(k)}, \boldsymbol {\lambda}^{(k)}) \tag {11.24}
 $$
 
 $$
-\boldsymbol {\mu} ^ {(k + 1)} = \boldsymbol {\mu} ^ {(k)} + \alpha^ {(k)} \nabla_ {\boldsymbol {\mu}} \mathcal {L} (\mathbf {x} ^ {(k)}, \boldsymbol {\mu} ^ {(k)}, \boldsymbol {\lambda} ^ {(k)}) = \max  \left(\boldsymbol {\mu} ^ {(k)} + \alpha^ {(k)} \mathbf {g} (\mathbf {x} ^ {(k)}), \mathbf {0}\right) \tag {11.25}
+\boldsymbol {\mu}^{(k + 1)} = \boldsymbol {\mu}^{(k)} + \alpha^{(k)} \nabla_{\boldsymbol {\mu}} \mathcal {L} (\mathbf {x}^{(k)}, \boldsymbol {\mu}^{(k)}, \boldsymbol {\lambda}^{(k)}) = \max \left(\boldsymbol {\mu}^{(k)} + \alpha^{(k)} \mathbf {g} (\mathbf {x}^{(k)}), \mathbf {0}\right) \tag {11.25}
 $$
 
 $$
-\boldsymbol {\lambda} ^ {(k + 1)} = \boldsymbol {\lambda} ^ {(k)} + \alpha^ {(k)} \nabla_ {\boldsymbol {\lambda}} \mathcal {L} \left(\boldsymbol {x} ^ {(k)}, \boldsymbol {\mu} ^ {(k)}, \boldsymbol {\lambda} ^ {(k)}\right) = \boldsymbol {\lambda} ^ {(k)} + \alpha^ {(k)} \mathbf {h} \left(\boldsymbol {x} ^ {(k)}\right) \tag {11.26}
+\boldsymbol {\lambda}^{(k + 1)} = \boldsymbol {\lambda}^{(k)} + \alpha^{(k)} \nabla_{\boldsymbol {\lambda}} \mathcal {L} \left(\boldsymbol {x}^{(k)}, \boldsymbol {\mu}^{(k)}, \boldsymbol {\lambda}^{(k)}\right) = \boldsymbol {\lambda}^{(k)} + \alpha^{(k)} \mathbf {h} \left(\boldsymbol {x}^{(k)}\right) \tag {11.26}
 $$
 
 Dual ascent thus ascends on the dual problem. Algorithm 11.3 provides an implementation.
@@ -6561,21 +6328,21 @@ end
 ```
 
 $$
-\underset {\mathbf {x}} {\operatorname {m i n i m i z e}} \quad f (\mathbf {x}) + \frac {1}{2} \alpha \| \mathbf {h} (\mathbf {x}) \| ^ {2} \tag {11.27}
+\underset{\mathbf {x}} {\operatorname{minimize}} \quad f (\mathbf {x}) + \frac{1}{2} \alpha \| \mathbf {h} (\mathbf {x}) \| ^{2} \tag {11.27}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {h} (\mathbf {x}) = \mathbf {0}
+\text{subject} \quad \mathbf {h} (\mathbf {x}) = \mathbf {0}
 $$
 
 Dual ascent on equation (11.27) reproduces the method of multipliers from section 10.9:
 
 $$
-\mathbf {x} ^ {(k)} = \underset {\mathbf {x}} {\arg \min } f (\mathbf {x}) + \boldsymbol {\lambda} ^ {\top} \mathbf {h} (\mathbf {x}) + \frac {1}{2} \alpha \| \mathbf {h} (\mathbf {x}) \| ^ {2} \tag {11.28}
+\mathbf {x}^{(k)} = \underset{\mathbf {x}} {\arg \min } f (\mathbf {x}) + \boldsymbol {\lambda}^{\top} \mathbf {h} (\mathbf {x}) + \frac{1}{2} \alpha \| \mathbf {h} (\mathbf {x}) \| ^{2} \tag {11.28}
 $$
 
 $$
-\boldsymbol {\lambda} ^ {(k + 1)} = \boldsymbol {\lambda} ^ {(k)} + \alpha \mathbf {h} \left(\boldsymbol {x} ^ {(k)}\right) \tag {11.29}
+\boldsymbol {\lambda}^{(k + 1)} = \boldsymbol {\lambda}^{(k)} + \alpha \mathbf {h} \left(\boldsymbol {x}^{(k)}\right) \tag {11.29}
 $$
 
 # 11.4 Alternating Direction Method of Multipliers
@@ -6583,11 +6350,11 @@ $$
 The alternating direction method of multipliers (ADMM) is a method that can often scale to very large or distributed problems. Like conjugate gradient descent, ADMM can exhibit fast convergence with modest accuracy and produce practical results in a few steps. As with other local descent methods, ADMM is not guaranteed to converge to a global optimum on nonconvex problems. It is particularly useful when the problem can be split across multiple processes or machines. ADMM operates on problems of the form:
 
 $$
-\underset {\mathbf {x} _ {1}, \mathbf {x} _ {2}} {\text {m i n i m i z e}} f _ {1} (\mathbf {x} _ {1}) + f _ {2} (\mathbf {x} _ {2}) \tag {11.30}
+\underset{\mathbf {x}_{1}, \mathbf {x}_{2}} {\text{minimize}} f_{1} (\mathbf {x}_{1}) + f_{2} (\mathbf {x}_{2}) \tag {11.30}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {A} _ {1} \mathbf {x} _ {1} + \mathbf {A} _ {2} \mathbf {x} _ {2} = \mathbf {b}
+\text{subject} \quad \mathbf {A}_{1} \mathbf {x}_{1} + \mathbf {A}_{2} \mathbf {x}_{2} = \mathbf {b}
 $$
 
 Algorithm 11.3. The dual descent method for solving a constrained optimization problem by ascending on the dual problem. The algorithm takes an objective function  $f$ , a vector-valued inequality constraint function  $g$ , a vector-valued equality constraint function  $h$ , and initial variables  $x, \mu$ , and  $\lambda$ . The algorithm can additionally be parameterized by an initial step size  $\alpha$ , a step size reduction factor  $\gamma$ , and a termination threshold  $\Delta_{\min}$  on the change in the dual variables.
@@ -6599,7 +6366,7 @@ Notice that there are two design variables  $\mathbf{x}_1$  and  $\mathbf{x}_2$ 
 We apply the method of multipliers to equation (11.30), introducing a quadratic penalty term controlled by a scalar  $\rho > 0$ :
 
 $$
-f _ {1} \left(\mathbf {x} _ {1}\right) + f _ {2} \left(\mathbf {x} _ {2}\right) + \frac {1}{2} \rho \| \mathbf {A} _ {1} \mathbf {x} _ {1} + \mathbf {A} _ {2} \mathbf {x} _ {2} - \mathbf {b} \| _ {2} ^ {2} \tag {11.31}
+f_{1} \left(\mathbf {x}_{1}\right) + f_{2} \left(\mathbf {x}_{2}\right) + \frac{1}{2} \rho \| \mathbf {A}_{1} \mathbf {x}_{1} + \mathbf {A}_{2} \mathbf {x}_{2} - \mathbf {b} \| _{2}^{2} \tag {11.31}
 $$
 
 This penalty term helps smooth the optimization problem with respect to the equality constraint, and it does not change the optimal value because all feasible points have 0 quadratic penalty.
@@ -6607,31 +6374,31 @@ This penalty term helps smooth the optimization problem with respect to the equa
 We then construct the augmented Lagrangian:
 
 $$
-\mathcal {L} _ {\rho} \left(\mathbf {x} _ {1}, \mathbf {x} _ {2}, \boldsymbol {\lambda}\right) = f _ {1} \left(\mathbf {x} _ {1}\right) + f _ {2} \left(\mathbf {x} _ {2}\right) + \boldsymbol {\lambda} ^ {\top} \left(\mathbf {A} _ {1} \mathbf {x} _ {1} + \mathbf {A} _ {2} \mathbf {x} _ {2} - \mathbf {b}\right) + \frac {1}{2} \rho \| \mathbf {A} _ {1} \mathbf {x} _ {1} + \mathbf {A} _ {2} \mathbf {x} _ {2} - \mathbf {b} \| _ {2} ^ {2} \tag {11.32}
+\mathcal {L}_{\rho} \left(\mathbf {x}_{1}, \mathbf {x}_{2}, \boldsymbol {\lambda}\right) = f_{1} \left(\mathbf {x}_{1}\right) + f_{2} \left(\mathbf {x}_{2}\right) + \boldsymbol {\lambda}^{\top} \left(\mathbf {A}_{1} \mathbf {x}_{1} + \mathbf {A}_{2} \mathbf {x}_{2} - \mathbf {b}\right) + \frac{1}{2} \rho \| \mathbf {A}_{1} \mathbf {x}_{1} + \mathbf {A}_{2} \mathbf {x}_{2} - \mathbf {b} \| _{2}^{2} \tag {11.32}
 $$
 
 The method of multipliers would iterate according to:10
 
 $$
-\left(\mathbf {x} _ {1} ^ {(k + 1)}, \mathbf {x} _ {2} ^ {(k + 1)}\right) = \underset {\mathbf {x} _ {1}, \mathbf {x} _ {2}} {\arg \min } \mathcal {L} _ {\rho} \left(\mathbf {x} _ {1}, \mathbf {x} _ {2}, \boldsymbol {\lambda} ^ {(k)}\right) \tag {11.33}
+\left(\mathbf {x}_{1}^{(k + 1)}, \mathbf {x}_{2}^{(k + 1)}\right) = \underset{\mathbf {x}_{1}, \mathbf {x}_{2}} {\arg \min } \mathcal {L}_{\rho} \left(\mathbf {x}_{1}, \mathbf {x}_{2}, \boldsymbol {\lambda}^{(k)}\right) \tag {11.33}
 $$
 
 $$
-\lambda^ {(k + 1)} = \lambda^ {(k)} + \rho \left(\mathbf {A} _ {1} \mathbf {x} _ {1} + \mathbf {A} _ {2} \mathbf {x} _ {2} - \mathbf {b}\right) \tag {11.34}
+\lambda^{(k + 1)} = \lambda^{(k)} + \rho \left(\mathbf {A}_{1} \mathbf {x}_{1} + \mathbf {A}_{2} \mathbf {x}_{2} - \mathbf {b}\right) \tag {11.34}
 $$
 
 The alternating direction method of multipliers instead alternates between minimizing  $\mathbf{x}_1$  and  $\mathbf{x}_2$  in every iteration:
 
 $$
-\mathbf {x} _ {1} ^ {(k + 1)} = \underset {\mathbf {x} _ {1}} {\arg \min } \mathcal {L} _ {\rho} \left(\mathbf {x} _ {1}, \mathbf {x} _ {2} ^ {(k)}, \boldsymbol {\lambda} ^ {(k)}\right) \tag {11.35}
+\mathbf {x}_{1}^{(k + 1)} = \underset{\mathbf {x}_{1}} {\arg \min } \mathcal {L}_{\rho} \left(\mathbf {x}_{1}, \mathbf {x}_{2}^{(k)}, \boldsymbol {\lambda}^{(k)}\right) \tag {11.35}
 $$
 
 $$
-\mathbf {x} _ {2} ^ {(k + 1)} = \underset {\mathbf {x} _ {2}} {\arg \min } \mathcal {L} _ {\rho} \left(\mathbf {x} _ {1} ^ {(k + 1)}, \mathbf {x} _ {2}, \boldsymbol {\lambda} ^ {(k)}\right) \tag {11.36}
+\mathbf {x}_{2}^{(k + 1)} = \underset{\mathbf {x}_{2}} {\arg \min } \mathcal {L}_{\rho} \left(\mathbf {x}_{1}^{(k + 1)}, \mathbf {x}_{2}, \boldsymbol {\lambda}^{(k)}\right) \tag {11.36}
 $$
 
 $$
-\boldsymbol {\lambda} ^ {(k + 1)} = \boldsymbol {\lambda} ^ {(k)} + \rho \left(\mathbf {A} _ {1} \mathbf {x} _ {1} ^ {(k + 1)} + \mathbf {A} _ {2} \mathbf {x} _ {2} ^ {(k + 1)} - \mathbf {b}\right) \tag {11.37}
+\boldsymbol {\lambda}^{(k + 1)} = \boldsymbol {\lambda}^{(k)} + \rho \left(\mathbf {A}_{1} \mathbf {x}_{1}^{(k + 1)} + \mathbf {A}_{2} \mathbf {x}_{2}^{(k + 1)} - \mathbf {b}\right) \tag {11.37}
 $$
 
 This alternation of direction gives ADMM its name.
@@ -6639,7 +6406,7 @@ This alternation of direction gives ADMM its name.
 Algorithm 11.4 provides a basic implementation of ADMM. This implementation uses stopping criteria based on two residuals, the primal residual  $\mathbf{r}$  that measures how much the equality constraint is violated:
 
 $$
-\mathbf {r} ^ {(k + 1)} = \mathbf {A} _ {1} \mathbf {x} _ {1} ^ {(k + 1)} + \mathbf {A} _ {2} \mathbf {x} _ {2} ^ {(k + 1)} - \mathbf {b} \tag {11.38}
+\mathbf {r}^{(k + 1)} = \mathbf {A}_{1} \mathbf {x}_{1}^{(k + 1)} + \mathbf {A}_{2} \mathbf {x}_{2}^{(k + 1)} - \mathbf {b} \tag {11.38}
 $$
 
 10 Note the similarity to dual ascent.
@@ -6647,13 +6414,13 @@ $$
 and the dual residual  $\mathbf{s}$ :
 
 $$
-\mathbf {s} ^ {(k + 1)} = \rho \mathbf {A} _ {1} ^ {\top} \mathbf {A} _ {2} \left(\mathbf {x} _ {2} ^ {(k + 1)} - \mathbf {x} _ {2} ^ {(k)}\right) \tag {11.39}
+\mathbf {s}^{(k + 1)} = \rho \mathbf {A}_{1}^{\top} \mathbf {A}_{2} \left(\mathbf {x}_{2}^{(k + 1)} - \mathbf {x}_{2}^{(k)}\right) \tag {11.39}
 $$
 
 The dual residual measures how close the design is to satisfying stationarity<sup>11</sup>, in particular that
 
 $$
-\nabla_ {\mathbf {x} _ {1}} \mathcal {L} = \nabla_ {\mathbf {x} _ {1}} f _ {1} (\mathbf {x} _ {1}) + \mathbf {A} _ {1} ^ {\top} \boldsymbol {\lambda} = \mathbf {0} \tag {11.40}
+\nabla_{\mathbf {x}_{1}} \mathcal {L} = \nabla_{\mathbf {x}_{1}} f_{1} (\mathbf {x}_{1}) + \mathbf {A}_{1}^{\top} \boldsymbol {\lambda} = \mathbf {0} \tag {11.40}
 $$
 
 Exercise 11.4 derives this relation.
@@ -6661,7 +6428,7 @@ Exercise 11.4 derives this relation.
 The other stationarity requirement,
 
 $$
-\nabla_ {\mathbf {x} _ {2}} \mathcal {L} = \nabla_ {\mathbf {x} _ {2}} f _ {2} (\mathbf {x} _ {2}) + \mathbf {A} _ {2} ^ {\top} \boldsymbol {\lambda} = \mathbf {0} \tag {11.41}
+\nabla_{\mathbf {x}_{2}} \mathcal {L} = \nabla_{\mathbf {x}_{2}} f_{2} (\mathbf {x}_{2}) + \mathbf {A}_{2}^{\top} \boldsymbol {\lambda} = \mathbf {0} \tag {11.41}
 $$
 
 is automatically enforced with every iteration.
@@ -6689,7 +6456,7 @@ end
 It can be beneficial to keep the primal and dual residuals close to one another as ADMM progresses. $^{12}$  Increasing the penalty parameter will tend to encourage reduction of the primal residual. A simple scheme can be used to automatically regulate the penalty parameter:
 
 $$
-\rho^ {(k + 1)} = \left\{ \begin{array}{l l} \gamma^ {+} \rho^ {(k)} & \text {i f} \| \mathbf {r} ^ {(k)} \| _ {2} > \mu \| \mathbf {s} ^ {(k)} \| _ {2} \\ \gamma^ {-} \rho^ {(k)} & \text {i f} \| \mathbf {s} ^ {(k)} \| _ {2} > \mu \| \mathbf {r} ^ {(k)} \| _ {2} \\ \rho^ {(k)} & \text {o t h e r w i s e} \end{array} \right. \tag {11.42}
+\rho^{(k + 1)} = \left\{ \begin{array}{l l} \gamma^{+} \rho^{(k)} & \text{if} \| \mathbf {r}^{(k)} \| _{2} > \mu \| \mathbf {s}^{(k)} \| _{2} \\ \gamma^{-} \rho^{(k)} & \text{if} \| \mathbf {s}^{(k)} \| _{2} > \mu \| \mathbf {r}^{(k)} \| _{2} \\ \rho^{(k)} & \text{otherwise} \end{array} \right. \tag {11.42}
 $$
 
 Algorithm 11.4. The alternating direction method of multipliers (ADMM) for the objective functions f1 and f2; the equality constraint given by A1, A2, and b; initial design x1 and x2; initial penalty scalar  $\rho >\theta$  and penalty multiplier  $\gamma >1$  ; and convergence thresholds er and es. This implementation uses warm starting, where the current value for x1 and x2 are used to initialize the minimization procedures. The current value is typically close to the minimizer, especially in later iterations, and using it tends to lead to faster convergence than using default initial values.
@@ -6703,7 +6470,7 @@ where  $\gamma^{+} > 1, 1 > \gamma^{-} > 0$ , and  $\mu > 1$ . This approach sca
 The ADMM updates can often be simplified by converting the Lagrangian to scaled form. We replace  $\mathbf{A}_1\mathbf{x}_1 + \mathbf{A}_2\mathbf{x}_2 - \mathbf{b}$  with the residual  $\mathbf{r}$  and write:
 
 $$
-\begin{array}{l} \mathcal {L} _ {\rho} \left(\mathbf {x} _ {1}, \mathbf {x} _ {2}, \boldsymbol {\lambda}\right) = f _ {1} \left(\mathbf {x} _ {1}\right) + f _ {2} \left(\mathbf {x} _ {2}\right) + \boldsymbol {\lambda} ^ {\top} \mathbf {r} + \frac {1}{2} \rho \| \mathbf {r} \| _ {2} ^ {2} (11.43) \\ = f _ {1} \left(\mathbf {x} _ {1}\right) + f _ {2} \left(\mathbf {x} _ {2}\right) + \boldsymbol {\lambda} ^ {\top} \mathbf {r} + \frac {1}{2} \rho \| \mathbf {r} \| _ {2} ^ {2} + \frac {1}{2 \rho} \| \boldsymbol {\lambda} \| _ {2} ^ {2} - \frac {1}{2 \rho} \| \boldsymbol {\lambda} \| _ {2} ^ {2} (11.44) \\ = f _ {1} \left(\mathbf {x} _ {1}\right) + f _ {2} \left(\mathbf {x} _ {2}\right) + \lambda^ {\top} \mathbf {r} + \frac {1}{2} \rho \mathbf {r} ^ {\top} \mathbf {r} + \frac {1}{2 \rho} \lambda^ {\top} \lambda - \frac {1}{2 \rho} \lambda^ {\top} \lambda (11.45) \\ = f _ {1} \left(\mathbf {x} _ {1}\right) + f _ {2} \left(\mathbf {x} _ {2}\right) + \frac {1}{2} \rho \left(\mathbf {r} + \frac {1}{\rho} \boldsymbol {\lambda}\right) ^ {\top} \left(\mathbf {r} + \frac {1}{\rho} \boldsymbol {\lambda}\right) - \frac {1}{2 \rho} \boldsymbol {\lambda} ^ {\top} \boldsymbol {\lambda} (11.46) \\ \end{array}
+\begin{array}{l} \mathcal {L}_{\rho} \left(\mathbf {x}_{1}, \mathbf {x}_{2}, \boldsymbol {\lambda}\right) = f_{1} \left(\mathbf {x}_{1}\right) + f_{2} \left(\mathbf {x}_{2}\right) + \boldsymbol {\lambda}^{\top} \mathbf {r} + \frac{1}{2} \rho \| \mathbf {r} \| _{2}^{2} (11.43) \\ = f_{1} \left(\mathbf {x}_{1}\right) + f_{2} \left(\mathbf {x}_{2}\right) + \boldsymbol {\lambda}^{\top} \mathbf {r} + \frac{1}{2} \rho \| \mathbf {r} \| _{2}^{2} + \frac{1}{2 \rho} \| \boldsymbol {\lambda} \| _{2}^{2} - \frac{1}{2 \rho} \| \boldsymbol {\lambda} \| _{2}^{2} (11.44) \\ = f_{1} \left(\mathbf {x}_{1}\right) + f_{2} \left(\mathbf {x}_{2}\right) + \lambda^{\top} \mathbf {r} + \frac{1}{2} \rho \mathbf {r}^{\top} \mathbf {r} + \frac{1}{2 \rho} \lambda^{\top} \lambda - \frac{1}{2 \rho} \lambda^{\top} \lambda (11.45) \\ = f_{1} \left(\mathbf {x}_{1}\right) + f_{2} \left(\mathbf {x}_{2}\right) + \frac{1}{2} \rho \left(\mathbf {r} + \frac{1}{\rho} \boldsymbol {\lambda}\right) ^{\top} \left(\mathbf {r} + \frac{1}{\rho} \boldsymbol {\lambda}\right) - \frac{1}{2 \rho} \boldsymbol {\lambda}^{\top} \boldsymbol {\lambda} (11.46) \\ \end{array}
 $$
 
 ${}^{13}$  Suggested values include  ${\gamma }_{ + } =$  2,  ${\gamma }_{ - } = {0.5}$  ,and  $\mu  = {10}$  . B.S. He,H.Yang,and S.L.Wang,"Alternating Direction Method with Self-Adaptive Penalty Parameters for Monotone Variational Inequalities," Journal of Optimization Theory and Applications, vol. 106, no. 2, pp. 337-156, 2000.
@@ -6715,21 +6482,21 @@ Figure 11.2. ADMM applied to the flower function (appendix B.4) with the constra
 We can introduce a norm and the scaled dual variable defined to be  $\mathbf{u} = (1 / \rho)\lambda$ :
 
 $$
-\begin{array}{l} \mathcal {L} _ {\rho} \left(\mathbf {x} _ {1}, \mathbf {x} _ {2}, \boldsymbol {\lambda}\right) = f _ {1} \left(\mathbf {x} _ {1}\right) + f _ {2} \left(\mathbf {x} _ {2}\right) + \frac {1}{2} \rho \left\| \mathbf {r} + \frac {1}{\rho} \boldsymbol {\lambda} \right\| _ {2} ^ {2} - \frac {1}{2 \rho} \| \boldsymbol {\lambda} \| _ {2} ^ {2} (11.47) \\ = f _ {1} \left(\mathbf {x} _ {1}\right) + f _ {2} \left(\mathbf {x} _ {2}\right) + \frac {1}{2} \rho \| \mathbf {r} + \mathbf {u} \| _ {2} ^ {2} - \frac {1}{2} \rho \| \mathbf {u} \| _ {2} ^ {2} (11.48) \\ = f _ {1} \left(\mathbf {x} _ {1}\right) + f _ {2} \left(\mathbf {x} _ {2}\right) + \frac {1}{2} \rho \| \mathbf {A} _ {1} \mathbf {x} _ {1} + \mathbf {A} _ {2} \mathbf {x} _ {2} - \mathbf {b} + \mathbf {u} \| _ {2} ^ {2} - \frac {1}{2} \rho \| \mathbf {u} \| _ {2} ^ {2} (11.49) \\ \end{array}
+\begin{array}{l} \mathcal {L}_{\rho} \left(\mathbf {x}_{1}, \mathbf {x}_{2}, \boldsymbol {\lambda}\right) = f_{1} \left(\mathbf {x}_{1}\right) + f_{2} \left(\mathbf {x}_{2}\right) + \frac{1}{2} \rho \left\| \mathbf {r} + \frac{1}{\rho} \boldsymbol {\lambda} \right\| _{2}^{2} - \frac{1}{2 \rho} \| \boldsymbol {\lambda} \| _{2}^{2} (11.47) \\ = f_{1} \left(\mathbf {x}_{1}\right) + f_{2} \left(\mathbf {x}_{2}\right) + \frac{1}{2} \rho \| \mathbf {r} + \mathbf {u} \| _{2}^{2} - \frac{1}{2} \rho \| \mathbf {u} \| _{2}^{2} (11.48) \\ = f_{1} \left(\mathbf {x}_{1}\right) + f_{2} \left(\mathbf {x}_{2}\right) + \frac{1}{2} \rho \| \mathbf {A}_{1} \mathbf {x}_{1} + \mathbf {A}_{2} \mathbf {x}_{2} - \mathbf {b} + \mathbf {u} \| _{2}^{2} - \frac{1}{2} \rho \| \mathbf {u} \| _{2}^{2} (11.49) \\ \end{array}
 $$
 
 Reformulating the ADMM updates with this scaled form yields:
 
 $$
-\mathbf {x} _ {1} ^ {(k + 1)} = \underset {\mathbf {x} _ {1}} {\arg \min } f _ {1} (\mathbf {x} _ {1}) + \frac {1}{2} \rho \left\| \mathbf {A} _ {1} \mathbf {x} _ {1} - \mathbf {v} ^ {(k)} \right\| _ {2} ^ {2} \tag {11.50}
+\mathbf {x}_{1}^{(k + 1)} = \underset{\mathbf {x}_{1}} {\arg \min } f_{1} (\mathbf {x}_{1}) + \frac{1}{2} \rho \left\| \mathbf {A}_{1} \mathbf {x}_{1} - \mathbf {v}^{(k)} \right\| _{2}^{2} \tag {11.50}
 $$
 
 $$
-\mathbf {x} _ {2} ^ {(k + 1)} = \underset {\mathbf {x} _ {2}} {\arg \min } f _ {2} (\mathbf {x} _ {2}) + \frac {1}{2} \rho \left\| \mathbf {A} _ {2} \mathbf {x} _ {2} - \mathbf {w} ^ {(k)} \right\| _ {2} ^ {2} \tag {11.51}
+\mathbf {x}_{2}^{(k + 1)} = \underset{\mathbf {x}_{2}} {\arg \min } f_{2} (\mathbf {x}_{2}) + \frac{1}{2} \rho \left\| \mathbf {A}_{2} \mathbf {x}_{2} - \mathbf {w}^{(k)} \right\| _{2}^{2} \tag {11.51}
 $$
 
 $$
-\mathbf {u} ^ {(k + 1)} = \mathbf {u} ^ {(k)} + \mathbf {A} _ {1} \mathbf {x} _ {1} ^ {(k + 1)} + \mathbf {A} _ {2} \mathbf {x} _ {2} ^ {(k + 1)} - \mathbf {b} = \mathbf {u} ^ {(0)} + \sum_ {j = 1} ^ {k + 1} \mathbf {r} ^ {(j)} \tag {11.52}
+\mathbf {u}^{(k + 1)} = \mathbf {u}^{(k)} + \mathbf {A}_{1} \mathbf {x}_{1}^{(k + 1)} + \mathbf {A}_{2} \mathbf {x}_{2}^{(k + 1)} - \mathbf {b} = \mathbf {u}^{(0)} + \sum_{j = 1}^{k + 1} \mathbf {r}^{(j)} \tag {11.52}
 $$
 
 where  $\mathbf{v}^{(k)} = -\mathbf{A}_2\mathbf{x}_2^{(k)} + \mathbf{b} - \mathbf{u}^{(k)}$  and  $\mathbf{w}^{(k)} = -\mathbf{A}_1\mathbf{x}_1^{(k + 1)} + \mathbf{b} - \mathbf{u}^{(k)}$ . The scaled dual variable is identical to the running sum of the residuals.
@@ -6743,27 +6510,27 @@ Many problems that have been studied over the years can be expressed in ADMM for
 Any constrained optimization problem can be reformulated in ADMM form. An optimization problem expressed as:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} f (\mathbf {x}) \tag {11.53}
+\underset{\mathbf {x}} {\text{minimize}} f (\mathbf {x}) \tag {11.53}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {x} \in \mathcal {X}
+\text{subject} \quad \mathbf {x} \in \mathcal {X}
 $$
 
 has the ADMM form:
 
 $$
-\underset {\mathbf {x} _ {1}, \mathbf {x} _ {2}} {\text {m i n i m i z e}} f _ {1} (\mathbf {x} _ {2}) + f _ {2} (\mathbf {x} _ {2}) \tag {11.54}
+\underset{\mathbf {x}_{1}, \mathbf {x}_{2}} {\text{minimize}} f_{1} (\mathbf {x}_{2}) + f_{2} (\mathbf {x}_{2}) \tag {11.54}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {x} _ {1} - \mathbf {x} _ {2} = \mathbf {0}
+\text{subject} \quad \mathbf {x}_{1} - \mathbf {x}_{2} = \mathbf {0}
 $$
 
 with  $f_{1} = f$  and
 
 $$
-f _ {2} \left(\mathbf {x} _ {2}\right) = \left\{ \begin{array}{l l} 0 & \text {i f} \mathbf {x} _ {2} \in \mathcal {X} \\ \infty & \text {o t h e r w i s e} \end{array} \right. \tag {11.55}
+f_{2} \left(\mathbf {x}_{2}\right) = \left\{ \begin{array}{l l} 0 & \text{if} \mathbf {x}_{2} \in \mathcal {X} \\ \infty & \text{otherwise} \end{array} \right. \tag {11.55}
 $$
 
 We introduced  $\mathbf{x}_2$  as a duplicate of the design vector  $\mathbf{x}_1$ . We continue to minimize the original objective function, but we also introduce a secondary objective  $f_2(\mathbf{x}_2)$  to reflect whether or not our constraint is satisfied. The equality constraint uses  $\mathbf{A}_1 = \mathbf{I}$ ,  $\mathbf{A}_2 = -\mathbf{I}$ , and  $\mathbf{b} = \mathbf{0}$ , resulting in a constraint that enforces equality between  $\mathbf{x}_1$  and  $\mathbf{x}_2$  when the problem is solved. This approach allows  $\mathbf{x}_1$  to balance minimizing  $f$  and reaching consensus with  $\mathbf{x}_2$ , and  $\mathbf{x}_2$  to balance feasibility and reaching consensus with  $\mathbf{x}_1$ . The penalty scalar  $\rho$  increases over time to draw the two designs together for eventual convergence.
@@ -6773,15 +6540,15 @@ Example 11.4 rewrites a constrained optimization problem in ADMM form and shows 
 The ADMM updates for problems in the form of equation (11.54) are:
 
 $$
-\mathbf {x} _ {1} ^ {(k + 1)} = \underset {\mathbf {x} _ {1}} {\arg \min } f _ {1} \left(\mathbf {x} _ {1}\right) + \boldsymbol {\lambda} ^ {\top} \mathbf {x} _ {1} + \frac {1}{2} \rho \left\| \mathbf {x} _ {1} - \mathbf {x} _ {2} ^ {(k)} \right\| _ {2} ^ {2} \tag {11.56}
+\mathbf {x}_{1}^{(k + 1)} = \underset{\mathbf {x}_{1}} {\arg \min } f_{1} \left(\mathbf {x}_{1}\right) + \boldsymbol {\lambda}^{\top} \mathbf {x}_{1} + \frac{1}{2} \rho \left\| \mathbf {x}_{1} - \mathbf {x}_{2}^{(k)} \right\| _{2}^{2} \tag {11.56}
 $$
 
 $$
-\mathbf {x} _ {2} ^ {(k + 1)} = \underset {\mathbf {x} _ {2}} {\arg \min } f _ {2} (\mathbf {x} _ {2}) - \boldsymbol {\lambda} ^ {\top} \mathbf {x} _ {2} + \frac {1}{2} \rho \left\| \mathbf {x} _ {1} ^ {(k + 1)} - \mathbf {x} _ {2} \right\| _ {2} ^ {2} \tag {11.57}
+\mathbf {x}_{2}^{(k + 1)} = \underset{\mathbf {x}_{2}} {\arg \min } f_{2} (\mathbf {x}_{2}) - \boldsymbol {\lambda}^{\top} \mathbf {x}_{2} + \frac{1}{2} \rho \left\| \mathbf {x}_{1}^{(k + 1)} - \mathbf {x}_{2} \right\| _{2}^{2} \tag {11.57}
 $$
 
 $$
-\boldsymbol {\lambda} ^ {(k + 1)} = \boldsymbol {\lambda} ^ {(k)} + \rho \left(\mathbf {x} _ {1} ^ {(k + 1)} - \mathbf {x} _ {2} ^ {(k + 1)}\right) \tag {11.58}
+\boldsymbol {\lambda}^{(k + 1)} = \boldsymbol {\lambda}^{(k)} + \rho \left(\mathbf {x}_{1}^{(k + 1)} - \mathbf {x}_{2}^{(k + 1)}\right) \tag {11.58}
 $$
 
 Both the  $\mathbf{x}_1$ - and  $\mathbf{x}_2$ -updates have an additional quadratic term that biases the solution toward the other design. This form of quadratic minimization is called proximal minimization, with its name reflecting how the minimizer lies in the proximity of the other design. The larger that  $\rho$  is, the larger the bias. Proximal minimization has close ties to gradient descent as shown in example 11.5.
@@ -6789,7 +6556,7 @@ Both the  $\mathbf{x}_1$ - and  $\mathbf{x}_2$ -updates have an additional quadr
 Proximal minimization is also particularly useful for the  $\mathbf{x}_2$ -update. As we recall, in equation (11.54),  $f_2(\mathbf{x}_2)$  is an indicator function for a set membership constraint:
 
 $$
-f _ {2} \left(\mathbf {x} _ {2}\right) = \left\{ \begin{array}{l l} 0 & \text {i f} \mathbf {x} _ {2} \in \mathcal {X} \\ \infty & \text {o t h e r w i s e} \end{array} \right. \tag {11.59}
+f_{2} \left(\mathbf {x}_{2}\right) = \left\{ \begin{array}{l l} 0 & \text{if} \mathbf {x}_{2} \in \mathcal {X} \\ \infty & \text{otherwise} \end{array} \right. \tag {11.59}
 $$
 
 If we ignore the  $\lambda^{\top}\mathbf{x}_2$  term, proximal minimization will find the feasible point closest to  $\mathbf{x}_1^{(k + 1)}$  as shown in example 11.6. In other words,  $\mathbf{x}_2^{(k + 1)}$  is the projection of  $\mathbf{x}_1^{(k + 1)}$  onto  $\mathcal{X}$ .
@@ -6799,49 +6566,49 @@ If we ignore the  $\lambda^{\top}\mathbf{x}_2$  term, proximal minimization will
 Consider the optimization problem
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad \exp (x)
+\underset{x} {\text{minimize}} \quad \exp (x)
 $$
 
 $$
-\text {s u b j e c t} \quad (x - 2) ^ {2} \leq 1
+\text{subject} \quad (x - 2) ^{2} \leq 1
 $$
 
 This problem can be written in ADMM form as:
 
 $$
-\underset {x _ {1}, x _ {2}} {\text {m i n i m i z e}} \quad \exp (x _ {1}) + f _ {2} (x _ {2})
+\underset{x_{1}, x_{2}} {\text{minimize}} \quad \exp (x_{1}) + f_{2} (x_{2})
 $$
 
 $$
-\text {s u b j e c t} \quad x _ {1} - x _ {2} = 0
+\text{subject} \quad x_{1} - x_{2} = 0
 $$
 
 where
 
 $$
-f _ {2} (x _ {2}) = \left\{ \begin{array}{l l} 0 & \text {i f} (x _ {2} - 2) ^ {2} \leq 1 \\ \infty & \text {o t h e r w i s e} \end{array} \right.
+f_{2} (x_{2}) = \left\{ \begin{array}{l l} 0 & \text{if} (x_{2} - 2) ^{2} \leq 1 \\ \infty & \text{otherwise} \end{array} \right.
 $$
 
 Its  $x_{1}$ -update is:
 
 $$
-x _ {1} ^ {(k + 1)} = \underset {x _ {1}} {\arg \min } \exp (x _ {1}) + \lambda \cdot \left(x _ {1} - x _ {2} ^ {(k)}\right) + \frac {1}{2} \rho \left(x _ {1} - x _ {2} ^ {(k)}\right) ^ {2}
+x_{1}^{(k + 1)} = \underset{x_{1}} {\arg \min } \exp (x_{1}) + \lambda \cdot \left(x_{1} - x_{2}^{(k)}\right) + \frac{1}{2} \rho \left(x_{1} - x_{2}^{(k)}\right) ^{2}
 $$
 
 and its  $x_{2}$  -update is:
 
 $$
-x _ {2} ^ {(k + 1)} = \underset {x _ {2}} {\arg \min } f _ {2} (x _ {2}) + \lambda \cdot \left(x _ {1} ^ {(k + 1)} - x _ {2}\right) + \frac {1}{2} \rho \left(x _ {1} ^ {(k + 1)} - x _ {2}\right) ^ {2}
+x_{2}^{(k + 1)} = \underset{x_{2}} {\arg \min } f_{2} (x_{2}) + \lambda \cdot \left(x_{1}^{(k + 1)} - x_{2}\right) + \frac{1}{2} \rho \left(x_{1}^{(k + 1)} - x_{2}\right) ^{2}
 $$
 
 which is equivalent to:
 
 $$
-x _ {2} ^ {(k + 1)} = \underset {x _ {2}} {\arg \min } \quad \lambda \cdot \left(x _ {1} ^ {(k + 1)} - x _ {2}\right) + \frac {1}{2} \rho \left(x _ {1} ^ {(k + 1)} - x _ {2}\right) ^ {2}
+x_{2}^{(k + 1)} = \underset{x_{2}} {\arg \min } \quad \lambda \cdot \left(x_{1}^{(k + 1)} - x_{2}\right) + \frac{1}{2} \rho \left(x_{1}^{(k + 1)} - x_{2}\right) ^{2}
 $$
 
 $$
-\text {s u b j e c t} \quad (x _ {2} - 2) ^ {2} \leq 1
+\text{subject} \quad (x_{2} - 2) ^{2} \leq 1
 $$
 
 Example 11.4. A simple constrained convex optimization problem rewritten in ADMM form.
@@ -6873,13 +6640,13 @@ $\lambda (x_1^{\prime} - x_2) + \frac{1}{2}\rho (x_1^{\prime} - x_2)^2$
 Proximal minimization of a function  $f$  with respect to a point  $\mathbf{p}$  produces a minimizer  $\mathbf{x}$  in the proximity of  $\mathbf{p}$ :
 
 $$
-\underset {\mathbf {x}} {\arg \min } f (\mathbf {x}) + \frac {1}{2} \rho \| \mathbf {x} - \mathbf {p} \| _ {2} ^ {2}
+\underset{\mathbf {x}} {\arg \min } f (\mathbf {x}) + \frac{1}{2} \rho \| \mathbf {x} - \mathbf {p} \| _{2}^{2}
 $$
 
 If  $f$  is differentiable, then we can approximate  $f$  with a first-order Taylor expansion about  $\mathbf{p}$ , where  $f(\mathbf{x}) \approx f(\mathbf{p}) + \nabla f(\mathbf{p})^\top (\mathbf{x} - \mathbf{p})$ . Proximal minimization applied to this approximation yields
 
 $$
-\arg \min  _ {\mathbf {x}} \left(f (\mathbf {p}) + \nabla f (\mathbf {p}) ^ {\top} (\mathbf {x} - \mathbf {p}) + \frac {1}{2} \rho \| \mathbf {x} - \mathbf {p} \| _ {2} ^ {2}\right) = \mathbf {p} - \frac {1}{\rho} \nabla f (\mathbf {p})
+\arg \min_{\mathbf {x}} \left(f (\mathbf {p}) + \nabla f (\mathbf {p}) ^{\top} (\mathbf {x} - \mathbf {p}) + \frac{1}{2} \rho \| \mathbf {x} - \mathbf {p} \| _{2}^{2}\right) = \mathbf {p} - \frac{1}{\rho} \nabla f (\mathbf {p})
 $$
 
 The update is a standard gradient step from  $\mathbf{p}$  with step factor  $1 / \rho$ .
@@ -6893,7 +6660,7 @@ ADMM can be used to re-derive the alternating projections method. $^{15}$  We ha
 This problem can be written in ADMM form as:
 
 $$
-\underset {\mathbf {x} _ {1}, \mathbf {x} _ {2}} {\text {m i n i m i z e}} f _ {1} (\mathbf {x} _ {1}) + f _ {2} (\mathbf {x} _ {2}) \tag {11.60}
+\underset{\mathbf {x}_{1}, \mathbf {x}_{2}} {\text{minimize}} f_{1} (\mathbf {x}_{1}) + f_{2} (\mathbf {x}_{2}) \tag {11.60}
 $$
 
 subject to  $\mathbf{x}_1 - \mathbf{x}_2 = \mathbf{0}$
@@ -6903,13 +6670,13 @@ subject to  $\mathbf{x}_1 - \mathbf{x}_2 = \mathbf{0}$
 where
 
 $$
-f _ {i} \left(\mathbf {x} _ {i}\right) = \left\{ \begin{array}{l l} 0 & \text {i f} \mathbf {x} _ {i} \in \mathcal {X} _ {i} \\ \infty & \text {o t h e r w i s e} \end{array} \right. \tag {11.61}
+f_{i} \left(\mathbf {x}_{i}\right) = \left\{ \begin{array}{l l} 0 & \text{if} \mathbf {x}_{i} \in \mathcal {X}_{i} \\ \infty & \text{otherwise} \end{array} \right. \tag {11.61}
 $$
 
 Consider an objective function that is zero when  $\mathbf{x}_1$  satisfies a convex inequality constraint and positive infinity otherwise. The  $\mathbf{x}_1$ -update is
 
 $$
-\begin{array}{l} \mathbf{x}_{1}^{\prime} = \operatorname *{arg  min}_{\mathbf{x}_{1}}\infty (\mathbf{C}\mathbf{x}_{1} > \mathbf{d}) + \frac{1}{2}\rho \| \mathbf{x}_{1} - \mathbf{v}\|_{2}^{2} \\ = \underset {\mathbf {x} _ {1} \mid \mathbf {C x} _ {1} \leq \mathbf {d}} {\arg \min } \frac {1}{2} \rho \| \mathbf {x} _ {1} - \mathbf {v} \| _ {2} ^ {2} \\ \end{array}
+\begin{array}{l} \mathbf{x}_{1}^{\prime} = \operatorname *{arg  min}_{\mathbf{x}_{1}}\infty (\mathbf{C}\mathbf{x}_{1} > \mathbf{d}) + \frac{1}{2}\rho \| \mathbf{x}_{1} - \mathbf{v}\|_{2}^{2} \\ = \underset{\mathbf {x}_{1} \mid \mathbf {C x}_{1} \leq \mathbf {d}} {\arg \min } \frac{1}{2} \rho \| \mathbf {x}_{1} - \mathbf {v} \| _{2}^{2} \\ \end{array}
 $$
 
 The output of proximal minimization for such a set is shown below for different values of  $\mathbf{v}$ . The feasible set  $\mathcal{X} = \{\mathbf{x}_1 \mid \mathbf{C}\mathbf{x}_1 \leq \mathbf{d}\}$  is drawn in blue. We can see how proximal minimization produces the design  $\mathbf{x}_1$  that is in  $\mathcal{X}$  but closest to  $\mathbf{v}$ .
@@ -6937,15 +6704,15 @@ Example 11.6. Proximal minimization can be used to enforce constraints.
 The ADMM update reduces to:16
 
 $$
-\mathbf {x} _ {1} ^ {(k + 1)} = \underset {\mathbf {x} _ {1} \in \mathcal {X} _ {1}} {\arg \min } \| \mathbf {x} _ {1} - \mathbf {x} _ {2} ^ {(k)} + \mathbf {u} ^ {(k)} \| _ {2} ^ {2} \tag {11.62}
+\mathbf {x}_{1}^{(k + 1)} = \underset{\mathbf {x}_{1} \in \mathcal {X}_{1}} {\arg \min } \| \mathbf {x}_{1} - \mathbf {x}_{2}^{(k)} + \mathbf {u}^{(k)} \| _{2}^{2} \tag {11.62}
 $$
 
 $$
-\mathbf {x} _ {2} ^ {(k + 1)} = \underset {\mathbf {x} _ {2} \in \mathcal {X} _ {2}} {\arg \min } \| \mathbf {x} _ {1} ^ {(k + 1)} - \mathbf {x} _ {2} + \mathbf {u} ^ {(k)} \| _ {2} ^ {2} \tag {11.63}
+\mathbf {x}_{2}^{(k + 1)} = \underset{\mathbf {x}_{2} \in \mathcal {X}_{2}} {\arg \min } \| \mathbf {x}_{1}^{(k + 1)} - \mathbf {x}_{2} + \mathbf {u}^{(k)} \| _{2}^{2} \tag {11.63}
 $$
 
 $$
-\mathbf {u} ^ {(k + 1)} = \mathbf {u} ^ {(k)} + \mathbf {x} _ {1} ^ {(k + 1)} - \mathbf {x} _ {2} ^ {(k + 1)} \tag {11.64}
+\mathbf {u}^{(k + 1)} = \mathbf {u}^{(k)} + \mathbf {x}_{1}^{(k + 1)} - \mathbf {x}_{2}^{(k + 1)} \tag {11.64}
 $$
 
 For this problem, the primal residual  $\mathbf{r}^{(k)} = \mathbf{x}_1^{(k)} - \mathbf{x}_2^{(k)}$  is the difference between a point in  $\mathcal{X}_1$  and a point in  $\mathcal{X}_2$ . Terminating the ADMM iterations when  $\| \mathbf{r}^{(k)}\|_2$  falls below a threshold  $\epsilon$  guarantees that  $\mathcal{X}_1$  and  $\mathcal{X}_2$  are no more than  $\epsilon$  apart. This algorithm is demonstrated in figure 11.4.
@@ -6955,37 +6722,37 @@ For this problem, the primal residual  $\mathbf{r}^{(k)} = \mathbf{x}_1^{(k)} - 
 Unconstrained least squares problems can be formulated as quadratic programs, as covered in section 13.2. Least squares problems assume that the distance metric being minimized is the  $L_{2}$  norm. Using an  $L_{1}$  norm instead results in a least absolute deviation problem, which is often preferred over least squares to provide robustness against large outliers:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad \| \mathbf {A} \mathbf {x} - \mathbf {b} \| _ {1} \tag {11.65}
+\underset{\mathbf {x}} {\text{minimize}} \quad \| \mathbf {A} \mathbf {x} - \mathbf {b} \| _{1} \tag {11.65}
 $$
 
 Such a problem can be written in ADMM form using  $f_{1}(\mathbf{x}_{1}) = 0$  and letting  $\mathbf{x}_2 = \mathbf{A}\mathbf{x}_1 - \mathbf{b}$ :
 
 $$
-\underset {\mathbf {x} _ {1}, \mathbf {x} _ {2}} {\text {m i n i m i z e}} \| \mathbf {x} _ {2} \| _ {1} \tag {11.66}
+\underset{\mathbf {x}_{1}, \mathbf {x}_{2}} {\text{minimize}} \| \mathbf {x}_{2} \| _{1} \tag {11.66}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {A} \mathbf {x} _ {1} - \mathbf {x} _ {2} = \mathbf {b}
+\text{subject} \quad \mathbf {A} \mathbf {x}_{1} - \mathbf {x}_{2} = \mathbf {b}
 $$
 
 This decomposition neatly decouples the  $L_{1}$  minimization problem from the affine constraint. If  $\mathbf{A}^{\top}\mathbf{A}$  is invertible, the ADMM update is:17
 
 $$
-\mathbf {x} _ {1} ^ {\prime} = \left(\mathbf {A} ^ {\top} \mathbf {A}\right) ^ {- 1} \mathbf {A} ^ {\top} (\mathbf {b} + \mathbf {x} _ {2} - \mathbf {u}) \tag {11.67}
+\mathbf {x}_{1}^{\prime} = \left(\mathbf {A}^{\top} \mathbf {A}\right) ^{- 1} \mathbf {A}^{\top} (\mathbf {b} + \mathbf {x}_{2} - \mathbf {u}) \tag {11.67}
 $$
 
 $$
-\mathbf {x} _ {2} ^ {\prime} = S _ {\frac {1}{\rho}} \left(\mathbf {A} \mathbf {x} _ {1} ^ {\prime} - \mathbf {b} + \mathbf {u}\right) \tag {11.68}
+\mathbf {x}_{2}^{\prime} = S_{\frac{1}{\rho}} \left(\mathbf {A} \mathbf {x}_{1}^{\prime} - \mathbf {b} + \mathbf {u}\right) \tag {11.68}
 $$
 
 $$
-\mathbf {u} ^ {\prime} = \mathbf {u} + \mathbf {A x} _ {1} ^ {\prime} - \mathbf {x} _ {2} ^ {\prime} - \mathbf {b} \tag {11.69}
+\mathbf {u}^{\prime} = \mathbf {u} + \mathbf {A x}_{1}^{\prime} - \mathbf {x}_{2}^{\prime} - \mathbf {b} \tag {11.69}
 $$
 
 16 The update is obtained using equations (11.50) to (11.52). For example, the  $\mathbf{x}_1$  update can be derived as follows:
 
 $$
-\begin{array}{l} \mathbf {x} _ {1} ^ {(k + 1)} = \\ = \underset {\mathbf {x} _ {1}} {\arg \min } f _ {1} (\mathbf {x} _ {1}) + \frac {1}{2} \rho \left\| \mathbf {A} _ {1} \mathbf {x} _ {1} - \mathbf {v} ^ {(k)} \right\| _ {2} ^ {2} \\ = \underset {\mathbf {x} _ {1} \in \mathcal {X} _ {1}} {\arg \min } \left\| \mathbf {x} _ {1} - \left(\mathbf {x} _ {2} ^ {(k)} - \mathbf {u} ^ {(k)}\right) \right\| _ {2} ^ {2} \\ = \underset {\mathbf {x} _ {1} \in \mathcal {X} _ {1}} {\arg \min } \left\| \mathbf {x} _ {1} - \mathbf {x} _ {2} ^ {(k)} + \mathbf {u} ^ {(k)} \right\| _ {2} ^ {2} \\ \end{array}
+\begin{array}{l} \mathbf {x}_{1}^{(k + 1)} = \\ = \underset{\mathbf {x}_{1}} {\arg \min } f_{1} (\mathbf {x}_{1}) + \frac{1}{2} \rho \left\| \mathbf {A}_{1} \mathbf {x}_{1} - \mathbf {v}^{(k)} \right\| _{2}^{2} \\ = \underset{\mathbf {x}_{1} \in \mathcal {X}_{1}} {\arg \min } \left\| \mathbf {x}_{1} - \left(\mathbf {x}_{2}^{(k)} - \mathbf {u}^{(k)}\right) \right\| _{2}^{2} \\ = \underset{\mathbf {x}_{1} \in \mathcal {X}_{1}} {\arg \min } \left\| \mathbf {x}_{1} - \mathbf {x}_{2}^{(k)} + \mathbf {u}^{(k)} \right\| _{2}^{2} \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/e56fd56de15ac59d58054a1d795ae97f1ed18a6b0cc6e322f23ecef0ff74216b.jpg)  
@@ -6994,13 +6761,13 @@ Figure 11.4. The first few iterations of the alternating projections method. The
 17 The update is obtained by using the scaled form updates, equations (11.50) to (11.52). For example, the  $\mathbf{x}_1$  update is:
 
 $$
-\begin{array}{l} \mathbf {x} _ {1} ^ {(k + 1)} = \\ = \arg \min  _ {\mathbf {x} _ {1}} f _ {1} (\mathbf {x} _ {1}) + \frac {1}{2} \rho \left\| \mathbf {A} \mathbf {x} _ {1} - \mathbf {v} ^ {(k)} \right\| _ {2} ^ {2} \\ = \underset {\mathbf {x} _ {1}} {\arg \min } \left\| \mathbf {A x} _ {1} - \mathbf {v} ^ {(k)} \right\| _ {2} ^ {2} \\ = \left(\mathbf {A} ^ {\top} \mathbf {A}\right) ^ {- 1} \mathbf {A} _ {1} ^ {\top} \mathbf {v} ^ {(k)} \\ = \left(\mathbf {A} ^ {\top} \mathbf {A}\right) ^ {- 1} \mathbf {A} _ {1} ^ {\top} \left(- (- \mathbf {I}) \mathbf {x} _ {2} ^ {(k)} + \mathbf {b} - \mathbf {u} ^ {(k)}\right) \\ = \left(\mathbf {A} ^ {\top} \mathbf {A}\right) ^ {- 1} \mathbf {A} _ {1} ^ {\top} \left(\mathbf {b} + \mathbf {x} _ {2} ^ {(k)} - \mathbf {u} ^ {(k)}\right) \\ \end{array}
+\begin{array}{l} \mathbf {x}_{1}^{(k + 1)} = \\ = \arg \min_{\mathbf {x}_{1}} f_{1} (\mathbf {x}_{1}) + \frac{1}{2} \rho \left\| \mathbf {A} \mathbf {x}_{1} - \mathbf {v}^{(k)} \right\| _{2}^{2} \\ = \underset{\mathbf {x}_{1}} {\arg \min } \left\| \mathbf {A x}_{1} - \mathbf {v}^{(k)} \right\| _{2}^{2} \\ = \left(\mathbf {A}^{\top} \mathbf {A}\right) ^{- 1} \mathbf {A}_{1}^{\top} \mathbf {v}^{(k)} \\ = \left(\mathbf {A}^{\top} \mathbf {A}\right) ^{- 1} \mathbf {A}_{1}^{\top} \left(- (- \mathbf {I}) \mathbf {x}_{2}^{(k)} + \mathbf {b} - \mathbf {u}^{(k)}\right) \\ = \left(\mathbf {A}^{\top} \mathbf {A}\right) ^{- 1} \mathbf {A}_{1}^{\top} \left(\mathbf {b} + \mathbf {x}_{2}^{(k)} - \mathbf {u}^{(k)}\right) \\ \end{array}
 $$
 
 where the soft thresholding operator  $S_{\kappa}$ , shown in figure 11.5, is
 
 $$
-S _ {\kappa} (\mathbf {x}) _ {i} = \left\{ \begin{array}{l l} x _ {i} + \kappa & \text {i f} x _ {i} <   - \kappa \\ 0 & \text {i f} | x _ {i} | \leq \kappa = \max  (x _ {i} - \kappa , 0) - \max  (- x _ {i} - \kappa , 0) \\ x _ {i} - \kappa & \text {i f} x _ {i} > \kappa \end{array} \right. \tag {11.70}
+S_{\kappa} (\mathbf {x}) _{i} = \left\{ \begin{array}{l l} x_{i} + \kappa & \text{if} x_{i} <   - \kappa \\ 0 & \text{if} | x_{i} | \leq \kappa = \max (x_{i} - \kappa , 0) - \max (- x_{i} - \kappa , 0) \\ x_{i} - \kappa & \text{if} x_{i} > \kappa \end{array} \right. \tag {11.70}
 $$
 
 This problem can be solved very efficiently because we can compute the Cholesky factorization (appendix C.7.1) of  $\mathbf{A}^{\top}\mathbf{A}$  once and re-use it to perform the  $\mathbf{x}_1$ -update in every iteration. An implementation is provided in algorithm 11.5.
@@ -7026,19 +6793,19 @@ end
 This method can be extended to other distance metrics, such as the Huber function:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad \operatorname {h u b e r} (\mathbf {A x} - \mathbf {b}) \tag {11.71}
+\underset{\mathbf {x}} {\text{minimize}} \quad \operatorname{huber} (\mathbf {A x} - \mathbf {b}) \tag {11.71}
 $$
 
 where
 
 $$
-\operatorname {h u b e r} (\mathbf {x}) = \sum_ {i} \operatorname {h u b e r} \left(x _ {i}\right) \tag {11.72}
+\operatorname{huber} (\mathbf {x}) = \sum_{i} \operatorname{huber} \left(x_{i}\right) \tag {11.72}
 $$
 
 and
 
 $$
-\operatorname {h u b e r} (x) = \left\{ \begin{array}{l l} \frac {1}{2} x ^ {2} & \text {i f} | x | \leq 1 \\ | x | - \frac {1}{2} & \text {o t h e r w i s e} \end{array} \right. \tag {11.73}
+\operatorname{huber} (x) = \left\{ \begin{array}{l l} \frac{1}{2} x^{2} & \text{if} | x | \leq 1 \\ | x | - \frac{1}{2} & \text{otherwise} \end{array} \right. \tag {11.73}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/795393ec1208e0f1c5dcee087f333338411301c481907fd85e54e06f3fc5b365.jpg)  
@@ -7053,17 +6820,17 @@ The Huber function is convex and often used for loss functions in machine learni
 The ADMM form of a minimum Huber deviation problem has the same structure:
 
 $$
-\underset {\mathbf {x} _ {1}, \mathbf {x} _ {2}} {\text {m i n i m i z e}} \quad \operatorname {h u b e r} \left(\mathbf {x} _ {2}\right) \tag {11.74}
+\underset{\mathbf {x}_{1}, \mathbf {x}_{2}} {\text{minimize}} \quad \operatorname{huber} \left(\mathbf {x}_{2}\right) \tag {11.74}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {A x} _ {1} - \mathbf {x} _ {2} = \mathbf {b}
+\text{subject} \quad \mathbf {A x}_{1} - \mathbf {x}_{2} = \mathbf {b}
 $$
 
 and has the same updates, except the  $\mathbf{x}_2$ -update is now:
 
 $$
-\mathbf {x} _ {2} ^ {\prime} = \frac {\rho}{1 + \rho} \left(\mathbf {A x} _ {1} ^ {\prime} - \mathbf {b} + \mathbf {u}\right) + \frac {1}{1 + \rho} S _ {1 + 1 / \rho} \left(\mathbf {A x} _ {1} ^ {\prime} - \mathbf {b} + \mathbf {u}\right) \tag {11.75}
+\mathbf {x}_{2}^{\prime} = \frac{\rho}{1 + \rho} \left(\mathbf {A x}_{1}^{\prime} - \mathbf {b} + \mathbf {u}\right) + \frac{1}{1 + \rho} S_{1 + 1 / \rho} \left(\mathbf {A x}_{1}^{\prime} - \mathbf {b} + \mathbf {u}\right) \tag {11.75}
 $$
 
 # 11.5.4 Basis Pursuit
@@ -7071,27 +6838,27 @@ $$
 Equality-constrained  $L_{1}$  minimization problems, known as basis pursuit problems, have the form:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \| \mathbf {x} \| _ {1} \tag {11.76}
+\underset{\mathbf {x}} {\text{minimize}} \| \mathbf {x} \| _{1} \tag {11.76}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {A x} = \mathbf {b}
+\text{subject} \quad \mathbf {A x} = \mathbf {b}
 $$
 
 Such problems are solved to find sparse solutions to  $\mathbf{A}\mathbf{x} = \mathbf{b}$  when the system of linear equations is underdetermined. Applying ADMM to this problem gives rise to the split Bregman method. $^{19}$  A basis pursuit problem can be written in ADMM form as:
 
 $$
-\underset {\mathbf {x} _ {1}, \mathbf {x} _ {2}} {\text {m i n i m i z e}} f _ {1} (\mathbf {x} _ {1}) + \| \mathbf {x} _ {2} \| _ {1} \tag {11.77}
+\underset{\mathbf {x}_{1}, \mathbf {x}_{2}} {\text{minimize}} f_{1} (\mathbf {x}_{1}) + \| \mathbf {x}_{2} \| _{1} \tag {11.77}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {x} - \mathbf {x} _ {2} = \mathbf {0}
+\text{subject} \quad \mathbf {x} - \mathbf {x}_{2} = \mathbf {0}
 $$
 
 where
 
 $$
-f _ {1} \left(\mathbf {x} _ {1}\right) = \left\{ \begin{array}{l l} 0 & \text {i f} \mathbf {A x} _ {1} = \mathbf {b} \\ \infty & \text {o t h e r w i s e} \end{array} \right. \tag {11.78}
+f_{1} \left(\mathbf {x}_{1}\right) = \left\{ \begin{array}{l l} 0 & \text{if} \mathbf {A x}_{1} = \mathbf {b} \\ \infty & \text{otherwise} \end{array} \right. \tag {11.78}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/e443d3635c6623948111ea2097aeca8a3330bb2cc11abc2c816e3da3ccbea94f.jpg)  
@@ -7102,15 +6869,15 @@ Figure 11.6. The Huber function plotted in one dimension.
 with the ADMM update:
 
 $$
-\begin{array}{l} \mathbf {x} _ {1} ^ {\prime} = \underset {\mathbf {x} _ {1} | \mathbf {A x} _ {1} = \mathbf {b}} {\operatorname {m i n i m i z e}} \| (\mathbf {x} _ {2} - \mathbf {u}) - \mathbf {x} _ {1} \| _ {2} (11.79) \\ = \left(\mathbf {I} - \mathbf {A} ^ {\top} \left(\mathbf {A} \mathbf {A} ^ {\top}\right) ^ {- 1} \mathbf {A}\right) \left(\mathbf {x} _ {2} - \mathbf {u}\right) + \mathbf {A} ^ {\top} \left(\mathbf {A} \mathbf {A} ^ {\top}\right) ^ {- 1} \mathbf {b} (11.80) \\ \end{array}
+\begin{array}{l} \mathbf {x}_{1}^{\prime} = \underset{\mathbf {x}_{1} | \mathbf {A x}_{1} = \mathbf {b}} {\operatorname{minimize}} \| (\mathbf {x}_{2} - \mathbf {u}) - \mathbf {x}_{1} \| _{2} (11.79) \\ = \left(\mathbf {I} - \mathbf {A}^{\top} \left(\mathbf {A} \mathbf {A}^{\top}\right) ^{- 1} \mathbf {A}\right) \left(\mathbf {x}_{2} - \mathbf {u}\right) + \mathbf {A}^{\top} \left(\mathbf {A} \mathbf {A}^{\top}\right) ^{- 1} \mathbf {b} (11.80) \\ \end{array}
 $$
 
 $$
-\mathbf {x} _ {2} ^ {\prime} = S _ {\frac {1}{\rho}} \left(\mathbf {x} _ {1} ^ {\prime} + \mathbf {u}\right) \tag {11.81}
+\mathbf {x}_{2}^{\prime} = S_{\frac{1}{\rho}} \left(\mathbf {x}_{1}^{\prime} + \mathbf {u}\right) \tag {11.81}
 $$
 
 $$
-\mathbf {u} ^ {\prime} = \mathbf {u} + \mathbf {x} _ {1} ^ {\prime} - \mathbf {x} _ {2} ^ {\prime} \tag {11.82}
+\mathbf {u}^{\prime} = \mathbf {u} + \mathbf {x}_{1}^{\prime} - \mathbf {x}_{2}^{\prime} \tag {11.82}
 $$
 
 The  $\mathbf{x}_1$ -update finds the  $\mathbf{x}_1'$  closest to  $\mathbf{x}_2 - \mathbf{u}$  that satisfies the equality constraint. In this case we can precompute most of the terms in the  $\mathbf{x}_1$ -update once and re-use them across iterations. We can again factorize  $\mathbf{A}^\top \mathbf{A}$  once and use the factorization to compute the  $\mathbf{x}_1$ -update terms. An algorithm for solving basis pursuit problems with ADMM is given in algorithm 11.6.
@@ -7146,7 +6913,7 @@ Linear regression is underdetermined when there are more features than data poin
 term is added to the objective function to prevent the solution from becoming too complex. If the penalty term is an  $L_{1}$  norm, it is known as the lasso.[21] The  $L_{1}$  term biases  $\mathbf{x}^{\star}$  toward sparse solutions, where entries in  $\mathbf{x}$  are encouraged to be zero, effectively downselecting the feature set. Lasso methods solve problems of the form:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad \frac {1}{2} \| \mathbf {A x} - \mathbf {b} \| _ {2} ^ {2} + \lambda \| \mathbf {x} \| _ {1} \tag {11.83}
+\underset{\mathbf {x}} {\text{minimize}} \quad \frac{1}{2} \| \mathbf {A x} - \mathbf {b} \| _{2}^{2} + \lambda \| \mathbf {x} \| _{1} \tag {11.83}
 $$
 
 where  $\lambda > 0$  scales the  $L_{1}$  regularization term. The lasso method increases  $\lambda$  until a solution with the desired sparsity is found.
@@ -7154,25 +6921,25 @@ where  $\lambda > 0$  scales the  $L_{1}$  regularization term. The lasso method
 An  $L_{1}$ -regularized linear regression problem can be written in ADMM form as:
 
 $$
-\underset {\mathbf {x} _ {1}, \mathbf {x} _ {2}} {\text {m i n i m i z e}} \quad \frac {1}{2} \| \mathbf {A} \mathbf {x} _ {1} - \mathbf {b} \| _ {2} ^ {2} + \lambda \| \mathbf {x} _ {2} \| _ {1} \tag {11.84}
+\underset{\mathbf {x}_{1}, \mathbf {x}_{2}} {\text{minimize}} \quad \frac{1}{2} \| \mathbf {A} \mathbf {x}_{1} - \mathbf {b} \| _{2}^{2} + \lambda \| \mathbf {x}_{2} \| _{1} \tag {11.84}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {x} _ {1} - \mathbf {x} _ {2} = \mathbf {0}
+\text{subject} \quad \mathbf {x}_{1} - \mathbf {x}_{2} = \mathbf {0}
 $$
 
 with the ADMM update:[22]
 
 $$
-\mathbf {x} _ {1} ^ {\prime} = \left(\mathbf {A} ^ {\top} \mathbf {A} + \rho \mathbf {I}\right) ^ {- 1} \left(\mathbf {A} ^ {\top} \mathbf {b} + \rho \left(\mathbf {x} _ {2} - \mathbf {u}\right)\right) \tag {11.85}
+\mathbf {x}_{1}^{\prime} = \left(\mathbf {A}^{\top} \mathbf {A} + \rho \mathbf {I}\right) ^{- 1} \left(\mathbf {A}^{\top} \mathbf {b} + \rho \left(\mathbf {x}_{2} - \mathbf {u}\right)\right) \tag {11.85}
 $$
 
 $$
-\mathbf {x} _ {2} ^ {\prime} = S _ {\frac {\lambda}{\rho}} \left(\mathbf {x} _ {1} ^ {\prime} + \mathbf {u}\right) \tag {11.86}
+\mathbf {x}_{2}^{\prime} = S_{\frac{\lambda}{\rho}} \left(\mathbf {x}_{1}^{\prime} + \mathbf {u}\right) \tag {11.86}
 $$
 
 $$
-\mathbf {u} ^ {\prime} = \mathbf {u} + \mathbf {x} _ {1} ^ {\prime} - \mathbf {x} _ {2} ^ {\prime} \tag {11.87}
+\mathbf {u}^{\prime} = \mathbf {u} + \mathbf {x}_{1}^{\prime} - \mathbf {x}_{2}^{\prime} \tag {11.87}
 $$
 
 Algorithm 11.7 solves  $L_{1}$ -regularized linear regression problems with ADMM.
@@ -7182,7 +6949,7 @@ function l1.regularized(linear_regression( A,b,  $\lambda$  ,x1,x2;  $\rho = 1$ 
 r  $=$  fill(Inf,length(x2))   
  $S = (\kappa ,x)\rightarrow \max .(x\cdot -\kappa ,0)$  - max.(-x.-K,0)   
 while norm(r) > er   
- $\begin{array}{rl} & {\mathrm{x1^{\prime} = (A^{\prime}A + \rho^{*}\mathrm{I})\setminus (A^{\prime}\mathrm{b} + \rho^{*}(x2 - u))}}\\ & {\mathrm{x2^{\prime} = S(\lambda / \rho,x1^{\prime} + u)}}\\ & {\mathrm{u^{\prime} = u + x1^{\prime} - x2^{\prime}}}\\ & {\mathrm{\rho * = V}}\\ & {\mathrm{r = x1^{\prime} - x2^{\prime}}}\\ & {\mathrm{x1,x2,u = x1^{\prime},x2^{\prime},u^{\prime}}}\\ & {\mathrm{end}}\\ & {\mathrm{return x1}}\\ & {\mathrm{end}} \end{array}$
+ $\begin{array}{rl} & {\mathrm{x1^{\prime} = (A^{\prime}A + \rho^{*}\mathrm{I})\setminus (A^{\prime}\mathrm{b} + \rho^{*}(x2 - u))}}\\ & {\mathrm{x2^{\prime} = S(\lambda / \rho,x1^{\prime} + u)}}\\ & {\mathrm{u^{\prime} = u + x1^{\prime} - x2^{\prime}}}\\ & {\mathrm{\rho * = V}}\\ & {\mathrm{r = x1^{\prime} - x2^{\prime}}}\\ & {\mathrm{x1,x2,u = x1^{\prime},x2^{\prime},u^{\prime}}}\\ & {\mathrm{end}}\\ & {\mathrm{returnx1}}\\ & {\mathrm{end}} \end{array}$
 ```
 
 21 The name comes from "least absolute shrinkage and selection operator." R. Tibshirani, "Regression Shrinkage and Selection via the Lasso," Journal of the Royal Statistical Society Series B: Statistical Methodology, vol. 58, no. 1, pp. 267-288, 1996.
@@ -7200,17 +6967,17 @@ ADMM is amendable to distributed computation across multiple processors to impro
 One form of consensus problem consists of a sum of  $k$  convex objectives:23
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad f _ {1} (\mathbf {x}) + \dots + f _ {k} (\mathbf {x}) \tag {11.88}
+\underset{\mathbf {x}} {\text{minimize}} \quad f_{1} (\mathbf {x}) + \dots + f_{k} (\mathbf {x}) \tag {11.88}
 $$
 
 This problem can be written in ADMM form by producing  $k$  separate copies of  $\mathbf{x}_1$  and a single  $\mathbf{x}_2$  vector:
 
 $$
-\underset {\mathbf {x} _ {1} ^ {(1: k)}, \mathbf {x} _ {2}} {\text {m i n i m i z e}} \quad \sum_ {i = 1} ^ {k} f _ {i} \left(\mathbf {x} _ {1} ^ {(i)}\right) \tag {11.89}
+\underset{\mathbf {x}_{1}^{(1: k)}, \mathbf {x}_{2}} {\text{minimize}} \quad \sum_{i = 1}^{k} f_{i} \left(\mathbf {x}_{1}^{(i)}\right) \tag {11.89}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {x} _ {1} ^ {(i)} = \mathbf {x} _ {2} \qquad \text {f o r} i \text {i n} 1: k
+\text{subject} \quad \mathbf {x}_{1}^{(i)} = \mathbf {x}_{2} \qquad \text{for} i \text{in} 1: k
 $$
 
 The copies of  $\mathbf{x}_1$  all represent the same design variable, which all must necessarily match each other when solved. At the beginning, when  $\rho$  is small, each  $\mathbf{x}_1^{(i)}$  will roughly independently minimize its own objective component. Consensus between the  $\mathbf{x}_1$ 's will ultimately be reached as  $\rho$  is increased, and all terms are penalized toward  $\mathbf{x}_2$ .
@@ -7218,17 +6985,17 @@ The copies of  $\mathbf{x}_1$  all represent the same design variable, which all
 The ADMM update for a basic consensus problem is:[24]
 
 $$
-\begin{array}{l} \left(\mathbf {x} _ {1} ^ {(i)}\right) ^ {\prime} = \underset {\mathbf {x} _ {1} ^ {(i)}} {\arg \min } f _ {i} \left(\mathbf {x} _ {1} ^ {(i)}\right) + \left(\boldsymbol {\lambda} ^ {(i)}\right) ^ {\top} \left(\mathbf {x} _ {1} ^ {(i)} - \mathbf {x} _ {2}\right) + \frac {1}{2} \rho \left\| \mathbf {x} _ {1} ^ {(i)} - \mathbf {x} _ {2} \right\| _ {2} ^ {2} (11.90) \\ \mathbf {x} _ {2} ^ {\prime} = \frac {1}{k} \sum_ {i = 1} ^ {k} \left(\left(\mathbf {x} _ {1} ^ {(i)}\right) ^ {\prime} + \frac {1}{\rho} \boldsymbol {\lambda} ^ {(i)}\right) \quad \text {c o n s e n s u s s t e p} (11.91) \\ \end{array}
+\begin{array}{l} \left(\mathbf {x}_{1}^{(i)}\right) ^{\prime} = \underset{\mathbf {x}_{1}^{(i)}} {\arg \min } f_{i} \left(\mathbf {x}_{1}^{(i)}\right) + \left(\boldsymbol {\lambda}^{(i)}\right) ^{\top} \left(\mathbf {x}_{1}^{(i)} - \mathbf {x}_{2}\right) + \frac{1}{2} \rho \left\| \mathbf {x}_{1}^{(i)} - \mathbf {x}_{2} \right\| _{2}^{2} (11.90) \\ \mathbf {x}_{2}^{\prime} = \frac{1}{k} \sum_{i = 1}^{k} \left(\left(\mathbf {x}_{1}^{(i)}\right) ^{\prime} + \frac{1}{\rho} \boldsymbol {\lambda}^{(i)}\right) \quad \text{consensusstep} (11.91) \\ \end{array}
 $$
 
 $$
-\left(\boldsymbol {\lambda} ^ {(i)}\right) ^ {\prime} = \boldsymbol {\lambda} ^ {(i)} + \rho \left(\left(\mathbf {x} _ {1} ^ {(i)}\right) ^ {\prime} - \mathbf {x} _ {2} ^ {\prime}\right) \tag {11.92}
+\left(\boldsymbol {\lambda}^{(i)}\right) ^{\prime} = \boldsymbol {\lambda}^{(i)} + \rho \left(\left(\mathbf {x}_{1}^{(i)}\right) ^{\prime} - \mathbf {x}_{2}^{\prime}\right) \tag {11.92}
 $$
 
 The primal and dual residuals are:
 
 $$
-\mathbf {r} = \left[ \begin{array}{c} \mathbf {x} _ {1} ^ {(1)} - \frac {1}{k} \sum_ {i = 1} ^ {k} \left(\mathbf {x} _ {1} ^ {(i)}\right) ^ {\prime} \\ \vdots \\ \mathbf {x} _ {1} ^ {(k)} - \frac {1}{k} \sum_ {i = 1} ^ {k} \left(\mathbf {x} _ {1} ^ {(i)}\right) ^ {\prime} \end{array} \right] \quad \mathbf {s} = - \rho \left[ \begin{array}{c} \left(\frac {1}{k} \sum_ {i = 1} ^ {k} \left(\mathbf {x} _ {1} ^ {(i)}\right) ^ {\prime}\right) - \left(\frac {1}{k} \sum_ {i = 1} ^ {k} \left(\mathbf {x} _ {1} ^ {(i)}\right)\right) \\ \vdots \\ \left(\frac {1}{k} \sum_ {i = 1} ^ {k} \left(\mathbf {x} _ {1} ^ {(i)}\right) ^ {\prime}\right) - \left(\frac {1}{k} \sum_ {i = 1} ^ {k} \left(\mathbf {x} _ {1} ^ {(i)}\right)\right) \end{array} \right] \tag {11.93}
+\mathbf {r} = \left[ \begin{array}{c} \mathbf {x}_{1}^{(1)} - \frac{1}{k} \sum_{i = 1}^{k} \left(\mathbf {x}_{1}^{(i)}\right) ^{\prime} \\ \vdots \\ \mathbf {x}_{1}^{(k)} - \frac{1}{k} \sum_{i = 1}^{k} \left(\mathbf {x}_{1}^{(i)}\right) ^{\prime} \end{array} \right] \quad \mathbf {s} = - \rho \left[ \begin{array}{c} \left(\frac{1}{k} \sum_{i = 1}^{k} \left(\mathbf {x}_{1}^{(i)}\right) ^{\prime}\right) - \left(\frac{1}{k} \sum_{i = 1}^{k} \left(\mathbf {x}_{1}^{(i)}\right)\right) \\ \vdots \\ \left(\frac{1}{k} \sum_{i = 1}^{k} \left(\mathbf {x}_{1}^{(i)}\right) ^{\prime}\right) - \left(\frac{1}{k} \sum_{i = 1}^{k} \left(\mathbf {x}_{1}^{(i)}\right)\right) \end{array} \right] \tag {11.93}
 $$
 
 The  $\mathbf{x}_1^{(i)}$  updates can be parallelized across processes on a single machine, but can also be parallelized across multiple machines. Synchronization across processes or machines only requires that the inputs  $\mathbf{x}_1^{(i)}, \boldsymbol{\lambda}^{(i)}, \mathbf{x}_2,$  and  $\rho$  be passed back and forth. The implementations of each  $f_i$ , which may be large or contain sensitive information, need not be shared across update processes or the central consensus algorithm. As such, consensus approaches may not purely be motivated by speed.
@@ -7244,7 +7011,7 @@ In general consensus optimization, the objective continues to be separable with 
 We can formulate this problem as ADMM:
 
 $$
-\underset {\mathbf {x} _ {1} ^ {(1: k)}, \mathbf {x} _ {2}} {\text {m i n i m i z e}} \quad \sum_ {i = 1} ^ {k} f _ {i} \left(\mathbf {x} _ {1} ^ {(i)}\right) \tag {11.94}
+\underset{\mathbf {x}_{1}^{(1: k)}, \mathbf {x}_{2}} {\text{minimize}} \quad \sum_{i = 1}^{k} f_{i} \left(\mathbf {x}_{1}^{(i)}\right) \tag {11.94}
 $$
 
 subject to  $\mathbf{x}_1^{(i)} = \mathbf{x}_2^{(i)}$  for  $i$  in  $1:k$
@@ -7285,11 +7052,11 @@ The designs (blue) and  $\mathbf{x}_2$  (red) are initialized to the same value.
 The ADMM update is:
 
 $$
-\begin{array}{l} \left(\mathbf {x} _ {1} ^ {(i)}\right) ^ {\prime} = \underset {\mathbf {x} _ {1} ^ {(i)}} {\arg \min } f _ {i} \left(\mathbf {x} _ {1} ^ {(i)}\right) + \left(\boldsymbol {\lambda} ^ {(i)}\right) ^ {\top} \left(\mathbf {x} _ {1} ^ {(i)} - \mathbf {x} _ {2} ^ {(i)}\right) + \frac {1}{2} \rho \left\| \mathbf {x} _ {1} ^ {(i)} - \mathbf {x} _ {2} ^ {(i)} \right\| _ {2} ^ {2} (11.95) \\ \left. \left(\mathbf {x} _ {2}\right) _ {g} ^ {\prime} = \frac {1}{n _ {g}} \sum_ {i = 1} ^ {k} \left(\sum_ {j} \left(\mathbf {x} _ {1} ^ {(i)}\right) _ {j} ^ {\prime} \text {w h e r e c o m p o n e n t} j \text {c o r r e s p o n d s t o} \left(\mathbf {x} _ {2}\right) _ {g} ^ {\prime}\right) \right. (11.96) \\ \text {f o r} g \text {i n} 1: | \mathbf {x} _ {2} | (11.97) \\ \end{array}
+\begin{array}{l} \left(\mathbf {x}_{1}^{(i)}\right) ^{\prime} = \underset{\mathbf {x}_{1}^{(i)}} {\arg \min } f_{i} \left(\mathbf {x}_{1}^{(i)}\right) + \left(\boldsymbol {\lambda}^{(i)}\right) ^{\top} \left(\mathbf {x}_{1}^{(i)} - \mathbf {x}_{2}^{(i)}\right) + \frac{1}{2} \rho \left\| \mathbf {x}_{1}^{(i)} - \mathbf {x}_{2}^{(i)} \right\| _{2}^{2} (11.95) \\ \left. \left(\mathbf {x}_{2}\right) _{g}^{\prime} = \frac{1}{n_{g}} \sum_{i = 1}^{k} \left(\sum_{j} \left(\mathbf {x}_{1}^{(i)}\right) _{j}^{\prime} \text{wherecomponent} j \text{correspondsto} \left(\mathbf {x}_{2}\right) _{g}^{\prime}\right) \right. (11.96) \\ \text{for} g \text{in} 1: | \mathbf {x}_{2} | (11.97) \\ \end{array}
 $$
 
 $$
-\left(\boldsymbol {\lambda} ^ {(i)}\right) ^ {\prime} = \boldsymbol {\lambda} ^ {(i)} + \rho \left(\left(\mathbf {x} _ {1} ^ {(i)}\right) ^ {\prime} - \left(\mathbf {x} _ {2} ^ {(i)}\right) ^ {\prime}\right) \tag {11.98}
+\left(\boldsymbol {\lambda}^{(i)}\right) ^{\prime} = \boldsymbol {\lambda}^{(i)} + \rho \left(\left(\mathbf {x}_{1}^{(i)}\right) ^{\prime} - \left(\mathbf {x}_{2}^{(i)}\right) ^{\prime}\right) \tag {11.98}
 $$
 
 where  $n_g$  is the number of components across all  $\mathbf{x}_1$  designs that correspond to the  $g$ th component of  $\mathbf{x}_2$ . The  $\mathbf{x}_1$  and  $\lambda$  updates can again be executed in parallel.
@@ -7299,51 +7066,51 @@ The  $x_2$ -update continues to average over the local vectors, but because each
 Suppose we are trying to place 3 bakeries in order to best serve 6 establishments:
 
 $$
-\text {t w o c a f e s a t} \mathbf {e} ^ {(1)} = [ 0. 0, 0. 0 ] \text {a n d} \mathbf {e} ^ {(2)} = [ 0. 5, 0. 0 ]
+\text{twocafesat} \mathbf {e}^{(1)} = [ 0. 0, 0. 0 ] \text{and} \mathbf {e}^{(2)} = [ 0. 5, 0. 0 ]
 $$
 
 $$
-\text {t w o b r u n c h s p o t s a t} \mathbf {e} ^ {(3)} = [ 3. 0, 2. 0 ] \text {a n d} \mathbf {e} ^ {(4)} = [ 0. 5, 3. 0 ]
+\text{twobrunchspotsat} \mathbf {e}^{(3)} = [ 3. 0, 2. 0 ] \text{and} \mathbf {e}^{(4)} = [ 0. 5, 3. 0 ]
 $$
 
 $$
-\text {t w o} \mathbf {e} ^ {(5)} = [ 3. 5, - 0. 5 ] \text {a n d} \mathbf {e} ^ {(6)} = [ 2. 5, 0. 7 ]
+\text{two} \mathbf {e}^{(5)} = [ 3. 5, - 0. 5 ] \text{and} \mathbf {e}^{(6)} = [ 2. 5, 0. 7 ]
 $$
 
 One bakery, at  $\mathbf{b}^{(1)}$ , produces croissants, which are needed at cafes and brunch spots. Another bakery, at  $\mathbf{b}^{(2)}$ , produces baguettes, which are needed at brunch spots and restaurants. The third bakery, at  $\mathbf{b}^{(3)}$ , produces dinner rolls, which are only needed at restaurants. We want to minimize the distance from each establishment to its farthest compatible bakery:
 
 $$
-\underset {\mathbf {b} ^ {(1: 3)}} {\text {m i n i m i z e}} \quad \left\| \mathbf {e} ^ {(1)} - \mathbf {b} ^ {(1)} \right\| + \| \mathbf {e} ^ {(2)} - \mathbf {b} ^ {(1)} \| +
+\underset{\mathbf {b}^{(1: 3)}} {\text{minimize}} \quad \left\| \mathbf {e}^{(1)} - \mathbf {b}^{(1)} \right\| + \| \mathbf {e}^{(2)} - \mathbf {b}^{(1)} \| +
 $$
 
 $$
-\max (\| \mathbf {e} ^ {(3)} - \mathbf {b} ^ {(1)} \|, \| \mathbf {e} ^ {(3)} - \mathbf {b} ^ {(2)} \|) +
+\max (\| \mathbf {e}^{(3)} - \mathbf {b}^{(1)} \|, \| \mathbf {e}^{(3)} - \mathbf {b}^{(2)} \|) +
 $$
 
 $$
-\max  \left(\| \mathbf {e} ^ {(4)} - \mathbf {b} ^ {(1)} \|, \| \mathbf {e} ^ {(4)} - \mathbf {b} ^ {(2)} \|\right) +
+\max \left(\| \mathbf {e}^{(4)} - \mathbf {b}^{(1)} \|, \| \mathbf {e}^{(4)} - \mathbf {b}^{(2)} \|\right) +
 $$
 
 $$
-\max  \left(\| \mathbf {e} ^ {(5)} - \mathbf {b} ^ {(2)} \|, \| \mathbf {e} ^ {(5)} - \mathbf {b} ^ {(3)} \|\right) +
+\max \left(\| \mathbf {e}^{(5)} - \mathbf {b}^{(2)} \|, \| \mathbf {e}^{(5)} - \mathbf {b}^{(3)} \|\right) +
 $$
 
 $$
-\max  \left(\| \mathbf {e} ^ {(6)} - \mathbf {b} ^ {(2)} \|, \| \mathbf {e} ^ {(6)} - \mathbf {b} ^ {(3)} \|\right)
+\max \left(\| \mathbf {e}^{(6)} - \mathbf {b}^{(2)} \|, \| \mathbf {e}^{(6)} - \mathbf {b}^{(3)} \|\right)
 $$
 
 We can formulate this problem as a general consensus optimization problem with  $\mathbf{x}_2 = [b_1^{(1)}, b_2^{(1)}, b_1^{(2)}, b_2^{(2)}, b_1^{(3)}, b_2^{(3)}]$ :
 
 $$
-\begin{array}{l} \underset {\mathbf {x} _ {1} ^ {(1: 6)}, \mathbf {x} _ {2}} {\text {m i n i m i z e}} \| \mathbf {e} ^ {(1)} - \mathbf {x} _ {1} ^ {(1)} \| + \| \mathbf {e} ^ {(2)} - \mathbf {x} _ {1} ^ {(2)} \| + \\ \max (\| \mathbf {e} ^ {(3)} - (\mathbf {x} _ {1} ^ {(3)}) _ {1: 2} \|, \| \mathbf {e} ^ {(3)} - (\mathbf {x} _ {1} ^ {(3)}) _ {3: 4} \|) + \\ \max (\| \mathbf {e} ^ {(4)} - (\mathbf {x} _ {1} ^ {(4)}) _ {1: 2} \|, \| \mathbf {e} ^ {(4)} - (\mathbf {x} _ {1} ^ {(4)}) _ {3: 4} \|) + \\ \max (\| \mathbf {e} ^ {(5)} - (\mathbf {x} _ {1} ^ {(5)}) _ {1: 2} \|, \| \mathbf {e} ^ {(5)} - (\mathbf {x} _ {1} ^ {(5)}) _ {1: 2} \|) + \\ \max (\| \mathbf {e} ^ {(6)} - (\mathbf {x} _ {1} ^ {(6)}) _ {1: 2} \|, \| \mathbf {e} ^ {(6)} - (\mathbf {x} _ {1} ^ {(6)}) _ {1: 2} \|) \\ \end{array}
+\begin{array}{l} \underset{\mathbf {x}_{1}^{(1: 6)}, \mathbf {x}_{2}} {\text{minimize}} \| \mathbf {e}^{(1)} - \mathbf {x}_{1}^{(1)} \| + \| \mathbf {e}^{(2)} - \mathbf {x}_{1}^{(2)} \| + \\ \max (\| \mathbf {e}^{(3)} - (\mathbf {x}_{1}^{(3)}) _{1: 2} \|, \| \mathbf {e}^{(3)} - (\mathbf {x}_{1}^{(3)}) _{3: 4} \|) + \\ \max (\| \mathbf {e}^{(4)} - (\mathbf {x}_{1}^{(4)}) _{1: 2} \|, \| \mathbf {e}^{(4)} - (\mathbf {x}_{1}^{(4)}) _{3: 4} \|) + \\ \max (\| \mathbf {e}^{(5)} - (\mathbf {x}_{1}^{(5)}) _{1: 2} \|, \| \mathbf {e}^{(5)} - (\mathbf {x}_{1}^{(5)}) _{1: 2} \|) + \\ \max (\| \mathbf {e}^{(6)} - (\mathbf {x}_{1}^{(6)}) _{1: 2} \|, \| \mathbf {e}^{(6)} - (\mathbf {x}_{1}^{(6)}) _{1: 2} \|) \\ \end{array}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {x} _ {1} ^ {(1)} = (\mathbf {x} _ {2}) _ {1: 2} \quad \mathbf {x} _ {1} ^ {(2)} = (\mathbf {x} _ {2}) _ {1: 2} \quad \mathbf {x} _ {1} ^ {(3)} = (\mathbf {x} _ {2}) _ {1: 4}
+\text{subject} \quad \mathbf {x}_{1}^{(1)} = (\mathbf {x}_{2}) _{1: 2} \quad \mathbf {x}_{1}^{(2)} = (\mathbf {x}_{2}) _{1: 2} \quad \mathbf {x}_{1}^{(3)} = (\mathbf {x}_{2}) _{1: 4}
 $$
 
 $$
-\mathbf {x} _ {1} ^ {(4)} = (\mathbf {x} _ {2}) _ {1: 4} \quad \mathbf {x} _ {1} ^ {(5)} = (\mathbf {x} _ {2}) _ {3: 6} \quad \mathbf {x} _ {1} ^ {(6)} = (\mathbf {x} _ {2}) _ {3: 6}
+\mathbf {x}_{1}^{(4)} = (\mathbf {x}_{2}) _{1: 4} \quad \mathbf {x}_{1}^{(5)} = (\mathbf {x}_{2}) _{3: 6} \quad \mathbf {x}_{1}^{(6)} = (\mathbf {x}_{2}) _{3: 6}
 $$
 
 Example 11.7. A bakery placement problem formulated as a general consensus problem. A solution is plotted below.
@@ -7374,31 +7141,31 @@ Exercise 11.1. Show how complementary slackness, equation (10.26), must hold for
 Solution: A problem with a duality gap of zero will have equal primal and dual values:
 
 $$
-p ^ {*} = f (\mathbf {x} ^ {*}) = \mathcal {D} (\boldsymbol {\mu} ^ {*}, \boldsymbol {\lambda} ^ {*}) = d ^ {*}
+p^{*} = f (\mathbf {x}^{*}) = \mathcal {D} (\boldsymbol {\mu}^{*}, \boldsymbol {\lambda}^{*}) = d^{*}
 $$
 
 We know that the dual function is:
 
 $$
-\mathcal {D} (\boldsymbol {\mu} ^ {*}, \boldsymbol {\lambda} ^ {*}) = \underset {\mathbf {x}} {\operatorname {m i n i m i z e}} \left(f (\mathbf {x}) + \sum_ {i} \mu_ {i} ^ {*} g _ {i} (\mathbf {x}) + \sum_ {j} \lambda_ {j} ^ {*} h _ {j} (\mathbf {x})\right)
+\mathcal {D} (\boldsymbol {\mu}^{*}, \boldsymbol {\lambda}^{*}) = \underset{\mathbf {x}} {\operatorname{minimize}} \left(f (\mathbf {x}) + \sum_{i} \mu_{i}^{*} g_{i} (\mathbf {x}) + \sum_{j} \lambda_{j}^{*} h_{j} (\mathbf {x})\right)
 $$
 
 The dual function is a lower bound on the Lagrangian:
 
 $$
-\underset {\mathbf {x}} {\operatorname {m i n i m i z e}} \left(f (\mathbf {x}) + \sum_ {i} \mu_ {i} ^ {*} g _ {i} (\mathbf {x}) + \sum_ {j} \lambda_ {j} ^ {*} h _ {j} (\mathbf {x})\right) \leq f \left(\mathbf {x} ^ {*}\right) + \sum_ {i} \mu_ {i} ^ {*} g _ {i} \left(\mathbf {x} ^ {*}\right) + \sum_ {j} \lambda_ {j} ^ {*} h _ {j} \left(\mathbf {x} ^ {*}\right)
+\underset{\mathbf {x}} {\operatorname{minimize}} \left(f (\mathbf {x}) + \sum_{i} \mu_{i}^{*} g_{i} (\mathbf {x}) + \sum_{j} \lambda_{j}^{*} h_{j} (\mathbf {x})\right) \leq f \left(\mathbf {x}^{*}\right) + \sum_{i} \mu_{i}^{*} g_{i} \left(\mathbf {x}^{*}\right) + \sum_{j} \lambda_{j}^{*} h_{j} \left(\mathbf {x}^{*}\right)
 $$
 
 Since we have zero duality gap, we have:
 
 $$
-f \left(\mathbf {x} ^ {*}\right) + \sum_ {i} \mu_ {i} ^ {*} g _ {i} \left(\mathbf {x} ^ {*}\right) + \sum_ {j} \lambda_ {j} ^ {*} h _ {j} \left(\mathbf {x} ^ {*}\right) = f \left(\mathbf {x} ^ {*}\right)
+f \left(\mathbf {x}^{*}\right) + \sum_{i} \mu_{i}^{*} g_{i} \left(\mathbf {x}^{*}\right) + \sum_{j} \lambda_{j}^{*} h_{j} \left(\mathbf {x}^{*}\right) = f \left(\mathbf {x}^{*}\right)
 $$
 
 and since each  $h_j(\mathbf{x}^*) = 0$  and each  $\mu_i^* g_i(\mathbf{x}^*) \leq 0$  at a solution, we conclude that complementary slackness must hold:
 
 $$
-\sum_ {i} \mu_ {i} ^ {*} g _ {i} (\mathbf {x} ^ {*}) = 0 \text {f o r a l l} i
+\sum_{i} \mu_{i}^{*} g_{i} (\mathbf {x}^{*}) = 0 \text{forall} i
 $$
 
 Exercise 11.2. Is the dual problem for a dual problem the same as the primal problem?
@@ -7408,7 +7175,7 @@ Solution: Suppose we have a primal problem with value  $p^*$  and its dual with 
 Exercise 11.3. Consider the  $x_{1}$ -update for an ADMM problem with a quadratic objective:
 
 $$
-f _ {1} (\mathbf {x} _ {1}) = \frac {1}{2} \mathbf {x} _ {1} ^ {\top} \mathbf {Q} \mathbf {x} _ {1} + \mathbf {q} ^ {\top} \mathbf {x} _ {1} + q
+f_{1} (\mathbf {x}_{1}) = \frac{1}{2} \mathbf {x}_{1}^{\top} \mathbf {Q} \mathbf {x}_{1} + \mathbf {q}^{\top} \mathbf {x}_{1} + q
 $$
 
 with positive semidefinite  $\mathbf{Q}$ . What is the update's analytic solution?
@@ -7416,27 +7183,27 @@ with positive semidefinite  $\mathbf{Q}$ . What is the update's analytic solutio
 Solution: The update can be written:
 
 $$
-\underset {\mathbf {x} _ {1}} {\arg \min } \frac {1}{2} \mathbf {x} _ {1} ^ {\top} \mathbf {Q} \mathbf {x} _ {1} + \mathbf {q} ^ {\top} \mathbf {x} _ {1} + q + \lambda^ {\top} \mathbf {x} _ {1} + \frac {1}{2} \rho \| \mathbf {A} \mathbf {x} _ {1} + \mathbf {A} _ {2} \mathbf {x} _ {2} - \mathbf {b} \|
+\underset{\mathbf {x}_{1}} {\arg \min } \frac{1}{2} \mathbf {x}_{1}^{\top} \mathbf {Q} \mathbf {x}_{1} + \mathbf {q}^{\top} \mathbf {x}_{1} + q + \lambda^{\top} \mathbf {x}_{1} + \frac{1}{2} \rho \| \mathbf {A} \mathbf {x}_{1} + \mathbf {A}_{2} \mathbf {x}_{2} - \mathbf {b} \|
 $$
 
 We substitute  $\mathbf{v} = \mathbf{q} + \lambda$  and  $\mathbf{w} = \mathbf{A}_2\mathbf{x}_2 - \mathbf{b}$ . The  $\mathbf{x}_1$ -update becomes:
 
 $$
-\underset {\mathbf {x} _ {1}} {\arg \min } \frac {1}{2} \mathbf {x} _ {1} ^ {\top} \mathbf {Q} \mathbf {x} _ {1} + \mathbf {v} ^ {\top} \mathbf {x} _ {1} + q + \frac {1}{2} \rho \| \mathbf {A} _ {1} \mathbf {x} _ {1} + \mathbf {w} \|
+\underset{\mathbf {x}_{1}} {\arg \min } \frac{1}{2} \mathbf {x}_{1}^{\top} \mathbf {Q} \mathbf {x}_{1} + \mathbf {v}^{\top} \mathbf {x}_{1} + q + \frac{1}{2} \rho \| \mathbf {A}_{1} \mathbf {x}_{1} + \mathbf {w} \|
 $$
 
 $$
-\arg \min  _ {\mathbf {x} _ {1}} \frac {1}{2} \mathbf {x} _ {1} ^ {\top} \mathbf {Q} \mathbf {x} _ {1} + \mathbf {v} ^ {\top} \mathbf {x} _ {1} + \frac {1}{2} \rho \mathbf {x} _ {1} ^ {\top} \mathbf {A} _ {1} ^ {\top} \mathbf {A} _ {1} \mathbf {x} _ {1} - \rho \mathbf {w} ^ {\top} \mathbf {A} _ {1} \mathbf {x} _ {1} + \frac {1}{2} \rho \mathbf {w} ^ {\top} \mathbf {w}
+\arg \min_{\mathbf {x}_{1}} \frac{1}{2} \mathbf {x}_{1}^{\top} \mathbf {Q} \mathbf {x}_{1} + \mathbf {v}^{\top} \mathbf {x}_{1} + \frac{1}{2} \rho \mathbf {x}_{1}^{\top} \mathbf {A}_{1}^{\top} \mathbf {A}_{1} \mathbf {x}_{1} - \rho \mathbf {w}^{\top} \mathbf {A}_{1} \mathbf {x}_{1} + \frac{1}{2} \rho \mathbf {w}^{\top} \mathbf {w}
 $$
 
 $$
-\underset {\mathbf {x} _ {1}} {\arg \min } \frac {1}{2} \mathbf {x} _ {1} ^ {\top} \left(\mathbf {Q} + \rho \mathbf {A} _ {1} ^ {\top} \mathbf {A} _ {1}\right) \mathbf {x} _ {1} + \left(\mathbf {v} - \rho \mathbf {A} _ {1} ^ {\top} \mathbf {w}\right) ^ {\top} \mathbf {x} _ {1}
+\underset{\mathbf {x}_{1}} {\arg \min } \frac{1}{2} \mathbf {x}_{1}^{\top} \left(\mathbf {Q} + \rho \mathbf {A}_{1}^{\top} \mathbf {A}_{1}\right) \mathbf {x}_{1} + \left(\mathbf {v} - \rho \mathbf {A}_{1}^{\top} \mathbf {w}\right) ^{\top} \mathbf {x}_{1}
 $$
 
 The updated design  $\mathbf{x}_1^{\prime}$  can thus be found by solving:
 
 $$
-\left(\mathbf {Q} + \rho \mathbf {A} _ {1} ^ {\top} \mathbf {A} _ {1}\right) \mathbf {x} _ {1} ^ {\prime} = \left(\rho \mathbf {A} _ {1} ^ {\top} \left(\mathbf {A} _ {2} \mathbf {x} _ {2} - \mathbf {b}\right) - \mathbf {q} - \lambda\right)
+\left(\mathbf {Q} + \rho \mathbf {A}_{1}^{\top} \mathbf {A}_{1}\right) \mathbf {x}_{1}^{\prime} = \left(\rho \mathbf {A}_{1}^{\top} \left(\mathbf {A}_{2} \mathbf {x}_{2} - \mathbf {b}\right) - \mathbf {q} - \lambda\right)
 $$
 
 Running ADMM on this problem thus requires repeatedly solving similar systems of linear equations  $\mathbf{Q}_{\rho}\mathbf{x}_1' = \mathbf{q}_{\rho}$ . Such a linear system is typically solved by computing the Cholesky decomposition  $\mathbf{L}\mathbf{L}^{\top} = \mathbf{Q}_{\rho}$  and then efficiently solving  $\mathbf{L}\mathbf{L}^{\top}\mathbf{x}_1' = \mathbf{q}_{\rho}$ . We can save computation by limiting how often  $\rho$  is updated, thereby allowing the factorization for  $\mathbf{Q}_{\rho}$  to be reused.[26]
@@ -7446,13 +7213,13 @@ Exercise 11.4. Show that the dual residual, equation (11.39), measures how close
 Solution: The  $\mathbf{x}_1$  update minimizes  $\mathcal{L}_{\rho}\left(\mathbf{x}_1, \mathbf{x}_2^{(k)}, \lambda^{(k)}\right)$ . As such, the resulting  $\mathbf{x}_1^{(k+1)}$  satisfies
 
 $$
-\begin{array}{l} \mathbf {0} = \nabla_ {\mathbf {x} _ {1}} \mathcal {L} _ {\rho} \left(\mathbf {x} _ {1} ^ {(k + 1)}, \mathbf {x} _ {2} ^ {(k)}, \boldsymbol {\lambda} ^ {(k)}\right) \\ = \nabla_ {\mathbf {x} _ {1}} f _ {1} \left(\mathbf {x} _ {1} ^ {(k + 1)}\right) + \mathbf {A} _ {1} ^ {\top} \boldsymbol {\lambda} ^ {(k)} + \rho \mathbf {A} _ {1} ^ {\top} \left(\mathbf {A} _ {1} \mathbf {x} _ {1} ^ {(k + 1)} + \mathbf {A} _ {2} \mathbf {x} _ {2} ^ {(k)} - \mathbf {b}\right) \\ = \nabla_ {\mathbf {x} _ {1}} f _ {1} \left(\mathbf {x} _ {1} ^ {(k + 1)}\right) + \mathbf {A} _ {1} ^ {\top} \left(\boldsymbol {\lambda} ^ {(k)} + \rho \mathbf {r} ^ {(k + 1)} - \rho \mathbf {r} ^ {(k + 1)} + \rho \left(\mathbf {A} _ {1} \mathbf {x} _ {1} ^ {(k + 1)} + \mathbf {A} _ {2} \mathbf {x} _ {2} ^ {(k)} - \mathbf {b}\right)\right) \\ = \nabla_ {\mathbf {x} _ {1}} f _ {1} \left(\mathbf {x} _ {1} ^ {(k + 1)}\right) + \mathbf {A} _ {1} ^ {\top} \left(\boldsymbol {\lambda} ^ {(k)} + \rho \mathbf {r} ^ {(k + 1)} - \rho \left(\mathbf {A} _ {1} \mathbf {x} _ {1} ^ {(k + 1)} + \mathbf {A} _ {2} \mathbf {x} _ {2} ^ {(k + 1)} - \mathbf {b}\right) + \rho \left(\mathbf {A} _ {1} \mathbf {x} _ {1} ^ {(k + 1)} + \mathbf {A} _ {2} \mathbf {x} _ {2} ^ {(k)} - \mathbf {b}\right)\right) \\ = \nabla_ {\mathbf {x} _ {1}} f _ {1} \left(\mathbf {x} _ {1} ^ {(k + 1)}\right) + \mathbf {A} _ {1} ^ {\top} \left(\boldsymbol {\lambda} ^ {(k)} + \rho \mathbf {r} ^ {(k + 1)} + \rho \mathbf {A} _ {2} \left(\mathbf {x} _ {2} ^ {(k)} - \mathbf {x} _ {2} ^ {(k + 1)}\right)\right) \\ = \nabla_ {\mathbf {x} _ {1}} f _ {1} \left(\mathbf {x} _ {1} ^ {(k + 1)}\right) + \mathbf {A} _ {1} ^ {\top} \left(\boldsymbol {\lambda} ^ {(k + 1)} + \rho \mathbf {A} _ {2} \left(\mathbf {x} _ {2} ^ {(k)} - \mathbf {x} _ {2} ^ {(k + 1)}\right)\right) \\ = \nabla_ {\mathbf {x} _ {1}} f _ {1} \left(\mathbf {x} _ {1} ^ {(k + 1)}\right) + \mathbf {A} _ {1} ^ {\top} \boldsymbol {\lambda} ^ {(k + 1)} + \rho \mathbf {A} _ {1} ^ {\top} \mathbf {A} _ {2} \left(\mathbf {x} _ {2} ^ {(k)} - \mathbf {x} _ {2} ^ {(k + 1)}\right) \\ \end{array}
+\begin{array}{l} \mathbf {0} = \nabla_{\mathbf {x}_{1}} \mathcal {L}_{\rho} \left(\mathbf {x}_{1}^{(k + 1)}, \mathbf {x}_{2}^{(k)}, \boldsymbol {\lambda}^{(k)}\right) \\ = \nabla_{\mathbf {x}_{1}} f_{1} \left(\mathbf {x}_{1}^{(k + 1)}\right) + \mathbf {A}_{1}^{\top} \boldsymbol {\lambda}^{(k)} + \rho \mathbf {A}_{1}^{\top} \left(\mathbf {A}_{1} \mathbf {x}_{1}^{(k + 1)} + \mathbf {A}_{2} \mathbf {x}_{2}^{(k)} - \mathbf {b}\right) \\ = \nabla_{\mathbf {x}_{1}} f_{1} \left(\mathbf {x}_{1}^{(k + 1)}\right) + \mathbf {A}_{1}^{\top} \left(\boldsymbol {\lambda}^{(k)} + \rho \mathbf {r}^{(k + 1)} - \rho \mathbf {r}^{(k + 1)} + \rho \left(\mathbf {A}_{1} \mathbf {x}_{1}^{(k + 1)} + \mathbf {A}_{2} \mathbf {x}_{2}^{(k)} - \mathbf {b}\right)\right) \\ = \nabla_{\mathbf {x}_{1}} f_{1} \left(\mathbf {x}_{1}^{(k + 1)}\right) + \mathbf {A}_{1}^{\top} \left(\boldsymbol {\lambda}^{(k)} + \rho \mathbf {r}^{(k + 1)} - \rho \left(\mathbf {A}_{1} \mathbf {x}_{1}^{(k + 1)} + \mathbf {A}_{2} \mathbf {x}_{2}^{(k + 1)} - \mathbf {b}\right) + \rho \left(\mathbf {A}_{1} \mathbf {x}_{1}^{(k + 1)} + \mathbf {A}_{2} \mathbf {x}_{2}^{(k)} - \mathbf {b}\right)\right) \\ = \nabla_{\mathbf {x}_{1}} f_{1} \left(\mathbf {x}_{1}^{(k + 1)}\right) + \mathbf {A}_{1}^{\top} \left(\boldsymbol {\lambda}^{(k)} + \rho \mathbf {r}^{(k + 1)} + \rho \mathbf {A}_{2} \left(\mathbf {x}_{2}^{(k)} - \mathbf {x}_{2}^{(k + 1)}\right)\right) \\ = \nabla_{\mathbf {x}_{1}} f_{1} \left(\mathbf {x}_{1}^{(k + 1)}\right) + \mathbf {A}_{1}^{\top} \left(\boldsymbol {\lambda}^{(k + 1)} + \rho \mathbf {A}_{2} \left(\mathbf {x}_{2}^{(k)} - \mathbf {x}_{2}^{(k + 1)}\right)\right) \\ = \nabla_{\mathbf {x}_{1}} f_{1} \left(\mathbf {x}_{1}^{(k + 1)}\right) + \mathbf {A}_{1}^{\top} \boldsymbol {\lambda}^{(k + 1)} + \rho \mathbf {A}_{1}^{\top} \mathbf {A}_{2} \left(\mathbf {x}_{2}^{(k)} - \mathbf {x}_{2}^{(k + 1)}\right) \\ \end{array}
 $$
 
 Solving and rearranging produces:
 
 $$
-\rho \mathbf {A} _ {1} ^ {\top} \mathbf {A} _ {2} \left(\mathbf {x} _ {2} ^ {(k + 1)} - \mathbf {x} _ {2} ^ {(k)}\right) = \nabla_ {\mathbf {x} _ {1}} f _ {1} \left(\mathbf {x} _ {1} ^ {(k + 1)}\right) + \mathbf {A} _ {1} ^ {\top} \boldsymbol {\lambda} ^ {(k + 1)}
+\rho \mathbf {A}_{1}^{\top} \mathbf {A}_{2} \left(\mathbf {x}_{2}^{(k + 1)} - \mathbf {x}_{2}^{(k)}\right) = \nabla_{\mathbf {x}_{1}} f_{1} \left(\mathbf {x}_{1}^{(k + 1)}\right) + \mathbf {A}_{1}^{\top} \boldsymbol {\lambda}^{(k + 1)}
 $$
 
 The left hand side of the above equation is the dual residual, and the right hand side is the gradient of the unmodified Lagrangian, which must be zero when stationarity is satisfied. This means the dual residual measures how close the design is to satisfying stationarity in  $\mathbf{x}_1$  for the original problem equation (11.30).
@@ -7476,19 +7243,19 @@ where  $\mathcal{X}_1 = \{\mathbf{x}|\mathbf{C}_1\mathbf{x}\leq \mathbf{d}_1\}$ 
 Run both Dykstra's and von Neumann's alternating projections algorithms on the sets formed by
 
 $$
-\mathbf {C} _ {1} = \left[ \begin{array}{c c} 3. 0 & 1. 0 \\ 0. 5 & - 1. 0 \end{array} \right]
+\mathbf {C}_{1} = \left[ \begin{array}{c c} 3. 0 & 1. 0 \\ 0. 5 & - 1. 0 \end{array} \right]
 $$
 
 $$
-\mathbf {d} _ {1} = \left[ \begin{array}{c} - 3. 5 \\ 3. 5 \end{array} \right]
+\mathbf {d}_{1} = \left[ \begin{array}{c} - 3. 5 \\ 3. 5 \end{array} \right]
 $$
 
 $$
-\mathbf {C} _ {2} = \left[ \begin{array}{c c} - 1. 5 & 1. 0 \\ - 0. 9 & - 1. 0 \end{array} \right]
+\mathbf {C}_{2} = \left[ \begin{array}{c c} - 1. 5 & 1. 0 \\ - 0. 9 & - 1. 0 \end{array} \right]
 $$
 
 $$
-\mathbf {d} _ {2} = \left[ \begin{array}{c} - 2. 7 5 \\ 3. 9 5 \end{array} \right]
+\mathbf {d}_{2} = \left[ \begin{array}{c} - 2. 75 \\ 3. 95 \end{array} \right]
 $$
 
 from  $\mathbf{x}_1^{(0)} = \mathbf{x}_2^{(0)} = \mathbf{0}$ . Does the dual variable help accelerate convergence?
@@ -7508,25 +7275,25 @@ Exercise 11.6. Show how the ADMM update for a consensus problem given in equatio
 Solution: The  $\mathbf{x}_2$ -update for a consensus problem:
 
 $$
-\mathbf {x} _ {2} ^ {\prime} = \frac {1}{k} \sum_ {i = 1} ^ {k} \left(\left(\mathbf {x} _ {1} ^ {(i)}\right) ^ {\prime} + \frac {1}{\rho} \boldsymbol {\lambda} ^ {(i)}\right)
+\mathbf {x}_{2}^{\prime} = \frac{1}{k} \sum_{i = 1}^{k} \left(\left(\mathbf {x}_{1}^{(i)}\right) ^{\prime} + \frac{1}{\rho} \boldsymbol {\lambda}^{(i)}\right)
 $$
 
 can be simplified to:
 
 $$
-\mathbf {x} _ {2} ^ {\prime} = \bar {\mathbf {x}} _ {1} ^ {\prime} + \frac {1}{\rho} \bar {\boldsymbol {\lambda}}
+\mathbf {x}_{2}^{\prime} = \bar {\mathbf {x}}_{1}^{\prime} + \frac{1}{\rho} \bar {\boldsymbol {\lambda}}
 $$
 
 The average over the dual variables,  $\bar{\lambda}$ , is updated according to:
 
 $$
-\begin{array}{l} \bar {\lambda} ^ {\prime} = \bar {\lambda} + \rho \left(\bar {\mathbf {x}} _ {1} ^ {\prime} - \mathbf {x} _ {2} ^ {\prime}\right) \\ = \bar {\lambda} + \rho \left(\bar {x} _ {1} ^ {\prime} - \left(\bar {x} _ {1} ^ {\prime} + \frac {1}{\rho} \bar {\lambda}\right)\right) \\ = 0 \\ \end{array}
+\begin{array}{l} \bar {\lambda}^{\prime} = \bar {\lambda} + \rho \left(\bar {\mathbf {x}}_{1}^{\prime} - \mathbf {x}_{2}^{\prime}\right) \\ = \bar {\lambda} + \rho \left(\bar {x}_{1}^{\prime} - \left(\bar {x}_{1}^{\prime} + \frac{1}{\rho} \bar {\lambda}\right)\right) \\ = 0 \\ \end{array}
 $$
 
 As such, we can drop the second term from the  $\mathbf{x}_2$ -update and use  $\mathbf{x}_2' = \bar{\mathbf{x}}_1'$ , resulting in the ADMM update:
 
 $$
-\begin{array}{l} \left(\mathbf {x} _ {1} ^ {(i)}\right) ^ {\prime} = \underset {\mathbf {x} _ {1}} {\arg \min } \left(f _ {i} \left(\mathbf {x} _ {1} ^ {(i)}\right) + \left(\boldsymbol {\lambda} ^ {(i)}\right) ^ {\top} \left(\mathbf {x} _ {1} ^ {(i)} - \bar {\mathbf {x}} _ {1}\right) + \frac {1}{2} \rho \left\| \mathbf {x} _ {1} ^ {(i)} - \bar {\mathbf {x}} _ {1} \right\| _ {2} ^ {2}\right) \\ \left(\boldsymbol {\lambda} ^ {(i)}\right) ^ {\prime} = \boldsymbol {\lambda} ^ {(i)} + \rho \left(\left(\mathbf {x} _ {1} ^ {(i)}\right) ^ {\prime} - \bar {\mathbf {x}} _ {1} ^ {\prime}\right) \\ \end{array}
+\begin{array}{l} \left(\mathbf {x}_{1}^{(i)}\right) ^{\prime} = \underset{\mathbf {x}_{1}} {\arg \min } \left(f_{i} \left(\mathbf {x}_{1}^{(i)}\right) + \left(\boldsymbol {\lambda}^{(i)}\right) ^{\top} \left(\mathbf {x}_{1}^{(i)} - \bar {\mathbf {x}}_{1}\right) + \frac{1}{2} \rho \left\| \mathbf {x}_{1}^{(i)} - \bar {\mathbf {x}}_{1} \right\| _{2}^{2}\right) \\ \left(\boldsymbol {\lambda}^{(i)}\right) ^{\prime} = \boldsymbol {\lambda}^{(i)} + \rho \left(\left(\mathbf {x}_{1}^{(i)}\right) ^{\prime} - \bar {\mathbf {x}}_{1}^{\prime}\right) \\ \end{array}
 $$
 
 Exercise 11.7. Suppose we have run a shortest-path algorithm on a constrained triangle mesh, and now have a path comprised of tile traversals, using the center of each triangle edge. We now wish to locally optimize this path to find the shortest path that continues to pass through the same triangles as before.[28] How can this problem be framed using general consensus optimization?[29]
@@ -7538,7 +7305,7 @@ Solution: To formulate this problem to be solved using general consensus, we fir
 Let  $\mathbf{p}^{(0)}$  be the starting vertex,  $\mathbf{p}^{(n + 1)}$  be the destination vertex, and  $\mathbf{p}^{(i)}$  for  $i$  in  $1:n$  be the  $n$  vertices at the triangle edges that our path must traverse. We can slide each  $\mathbf{p}^{(i)}$  between its leftmost and rightmost value:
 
 $$
-\mathbf {p} ^ {(i)} = \alpha_ {i} \mathbf {p} _ {\ell} ^ {(i)} + (1 - \alpha_ {i}) \mathbf {p} _ {r} ^ {(i)}
+\mathbf {p}^{(i)} = \alpha_{i} \mathbf {p}_{\ell}^{(i)} + (1 - \alpha_{i}) \mathbf {p}_{r}^{(i)}
 $$
 
 where each interpolant  $\alpha_{i}$  lies in the unit bounds,  $\alpha_{i} \in [0,1]$ .
@@ -7552,17 +7319,17 @@ where each interpolant  $\alpha_{i}$  lies in the unit bounds,  $\alpha_{i} \in 
 The total path length is
 
 $$
-\sum_ {i = 0} ^ {n} \left\| \mathbf {p} ^ {(i + 1)} - \mathbf {p} ^ {(i)} \right\| _ {2}
+\sum_{i = 0}^{n} \left\| \mathbf {p}^{(i + 1)} - \mathbf {p}^{(i)} \right\| _{2}
 $$
 
 Putting this together, our optimization problem is
 
 $$
-\underset {\boldsymbol {\alpha} _ {1: n}} {\text {m i n i m i z e}} \quad \sum_ {i = 0} ^ {n} \left\| \mathbf {p} ^ {(i + 1)} - \mathbf {p} ^ {(i)} \right\| _ {2}
+\underset{\boldsymbol {\alpha}_{1: n}} {\text{minimize}} \quad \sum_{i = 0}^{n} \left\| \mathbf {p}^{(i + 1)} - \mathbf {p}^{(i)} \right\| _{2}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {p} ^ {(i)} = \alpha_ {i} \mathbf {p} _ {\ell} ^ {(i)} + (1 - \alpha_ {i}) \mathbf {p} _ {r} ^ {(i)}
+\text{subject} \quad \mathbf {p}^{(i)} = \alpha_{i} \mathbf {p}_{\ell}^{(i)} + (1 - \alpha_{i}) \mathbf {p}_{r}^{(i)}
 $$
 
 $$
@@ -7572,19 +7339,19 @@ $$
 This problem can be framed using general consensus. The objective function is already broken apart into components, with each component requiring two interpolants:
 
 $$
-\begin{array}{l} f _ {i} \left(\alpha_ {i}, \alpha_ {i + 1}\right) = \left\| \mathbf {p} ^ {(i + 1)} - \mathbf {p} ^ {(i)} \right\| _ {2} \\ = \left\| \left(\alpha_ {i + 1} \mathbf {p} _ {\ell} ^ {(i + 1)} + (1 - \alpha_ {i + 1}) \mathbf {p} _ {r} ^ {(i + 1)}\right) - \left(\alpha_ {i} \mathbf {p} _ {\ell} ^ {(i)} + (1 - \alpha_ {i}) \mathbf {p} _ {r} ^ {(i)}\right) \right\| _ {2} \\ \end{array}
+\begin{array}{l} f_{i} \left(\alpha_{i}, \alpha_{i + 1}\right) = \left\| \mathbf {p}^{(i + 1)} - \mathbf {p}^{(i)} \right\| _{2} \\ = \left\| \left(\alpha_{i + 1} \mathbf {p}_{\ell}^{(i + 1)} + (1 - \alpha_{i + 1}) \mathbf {p}_{r}^{(i + 1)}\right) - \left(\alpha_{i} \mathbf {p}_{\ell}^{(i)} + (1 - \alpha_{i}) \mathbf {p}_{r}^{(i)}\right) \right\| _{2} \\ \end{array}
 $$
 
 The interpolants must all lie within the unit bounds. This can be enforced as an additional objective:
 
 $$
-f _ {n + 1} (\boldsymbol {\alpha}) = \left\{ \begin{array}{l l} \infty & \text {i f} \mathbf {0} \leq \boldsymbol {\alpha} \leq 1 \\ 0 & \text {o t h e r w i s e} \end{array} \right.
+f_{n + 1} (\boldsymbol {\alpha}) = \left\{ \begin{array}{l l} \infty & \text{if} \mathbf {0} \leq \boldsymbol {\alpha} \leq 1 \\ 0 & \text{otherwise} \end{array} \right.
 $$
 
 However, it is often simpler to enforce the unit bounds in the  $\mathbf{x}_1^{(i)}$  -updates:
 
 $$
-\left(\mathbf {x} _ {1} ^ {(i)}\right) ^ {\prime} = \underset {\mathbf {0} \leq \mathbf {x} _ {1} \leq 1} {\arg \min } f _ {i} (\mathbf {x} _ {1} ^ {(i)}) + \left(\boldsymbol {\lambda} ^ {(i)}\right) ^ {\top} \left(\mathbf {x} _ {1} ^ {(i)} - \mathbf {x} _ {2} ^ {(i)}\right) + \frac {1}{2} \rho \left\| \mathbf {x} _ {1} ^ {(i)} - \mathbf {x} _ {2} ^ {(i)} \right\| _ {2} ^ {2}
+\left(\mathbf {x}_{1}^{(i)}\right) ^{\prime} = \underset{\mathbf {0} \leq \mathbf {x}_{1} \leq 1} {\arg \min } f_{i} (\mathbf {x}_{1}^{(i)}) + \left(\boldsymbol {\lambda}^{(i)}\right) ^{\top} \left(\mathbf {x}_{1}^{(i)} - \mathbf {x}_{2}^{(i)}\right) + \frac{1}{2} \rho \left\| \mathbf {x}_{1}^{(i)} - \mathbf {x}_{2}^{(i)} \right\| _{2}^{2}
 $$
 
 In general consensus, we would maintain a global copy of the interpolants,  $\mathbf{x}_2 = \alpha$ . Each component would then optimize a local vector  $\mathbf{x}_1^{(i)}$  that only contains entries corresponding to relevant components.
@@ -7592,33 +7359,33 @@ In general consensus, we would maintain a global copy of the interpolants,  $\ma
 Exercise 11.8. Consider a simplified model of economic trade in the United States with three commodities: artichokes, oranges, and potatoes. The states California, Florida, and Idaho each produce some quantity of these commodities every year:
 
 $$
-\mathbf {p} _ {\mathrm {C}} = [ 3. 0, 1. 5, 1. 5 ]
+\mathbf {p}_{\mathrm{C}} = [ 3. 0, 1. 5, 1. 5 ]
 $$
 
 $$
-\mathbf {p} _ {F} = [ 0. 0, 3. 0, 0. 5 ]
+\mathbf {p}_{F} = [ 0. 0, 3. 0, 0. 5 ]
 $$
 
 $$
-\mathbf {p} _ {I} = [ 0. 0, 0. 0, 5. 0 ]
+\mathbf {p}_{I} = [ 0. 0, 0. 0, 5. 0 ]
 $$
 
 Each state can give commodities to or receive commodities from a central exchange. Let the amount of commodities received by a state be represented by  $\mathbf{x}$ . For example,  $\mathbf{x}_{\mathrm{C}} = [-0.6, 0.2, 0.3]$  would mean that California provides 0.6 units of artichokes to the exchange, but then receives 0.2 units of oranges and 0.3 units of potatoes. The exchange must enforce equilibrium, with the net inflow of every commodity matching its outflow:
 
 $$
-\sum_ {s \in (C, F, I)} \mathbf {x} _ {s} = \mathbf {0}
+\sum_{s \in (C, F, I)} \mathbf {x}_{s} = \mathbf {0}
 $$
 
 Each state desires all commodities according to a sigmoid utility function
 
 $$
-u (c) = \frac {2}{1 + e ^ {- c}} - 1
+u (c) = \frac{2}{1 + e^{- c}} - 1
 $$
 
 where  $c = p + x$  is the amount of a particular commodity that the state ends up with. A state's total utility depends both on the amount of a particular commodity and the total amount of commodities:
 
 $$
-U (\mathbf {c}) = u \left(c _ {\text {a r t i c h o k e s}}\right) + u \left(c _ {\text {o r a n g e s}}\right) + u \left(c _ {\text {p o t a t o e s}}\right) + u \left(\| \mathbf {c} \|\right)
+U (\mathbf {c}) = u \left(c_{\text{artichokes}}\right) + u \left(c_{\text{oranges}}\right) + u \left(c_{\text{potatoes}}\right) + u \left(\| \mathbf {c} \|\right)
 $$
 
 Express this problem in ADMM form, despite the fact that the utility function is nonconvex. What is its ADMM update, in scaled form?
@@ -7626,11 +7393,11 @@ Express this problem in ADMM form, despite the fact that the utility function is
 Solution: Our optimization problem is
 
 $$
-\underset {\mathbf {x}} {\text {m a x i m i z e}} \quad \sum_ {s \in \mathcal {S}} U \left(\mathbf {p} _ {s} + \mathbf {x} _ {s}\right)
+\underset{\mathbf {x}} {\text{maximize}} \quad \sum_{s \in \mathcal {S}} U \left(\mathbf {p}_{s} + \mathbf {x}_{s}\right)
 $$
 
 $$
-\text {s u b j e c t} \quad \sum_ {s \in \mathcal {S}} x _ {s} = 0
+\text{subject} \quad \sum_{s \in \mathcal {S}} x_{s} = 0
 $$
 
 where  $\mathcal{S} = \{C,F,I\}$  is the set of states.
@@ -7638,11 +7405,11 @@ where  $\mathcal{S} = \{C,F,I\}$  is the set of states.
 The objective function is nonconvex. Nevertheless, the corresponding ADMM form is
 
 $$
-\underset {\mathbf {x}, \mathbf {z}} {\text {m i n i m i z e}} \quad \left(\sum_ {s \in \mathcal {S}} - U (\mathbf {p} _ {s} + \mathbf {x} _ {s})\right) + \left(\sum_ {s \in \mathcal {S}} \mathbf {z} _ {s} = \mathbf {0}\right) \cdot \infty
+\underset{\mathbf {x}, \mathbf {z}} {\text{minimize}} \quad \left(\sum_{s \in \mathcal {S}} - U (\mathbf {p}_{s} + \mathbf {x}_{s})\right) + \left(\sum_{s \in \mathcal {S}} \mathbf {z}_{s} = \mathbf {0}\right) \cdot \infty
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {x} - \mathbf {z} = \mathbf {0}
+\text{subject} \quad \mathbf {x} - \mathbf {z} = \mathbf {0}
 $$
 
 where we have used  $\mathbf{x}$  and  $\mathbf{z}$  instead of  $\mathbf{x}_1$  and  $\mathbf{x}_2$  for notational convenience.
@@ -7650,21 +7417,21 @@ where we have used  $\mathbf{x}$  and  $\mathbf{z}$  instead of  $\mathbf{x}_1$ 
 The ADMM update for this problem in scaled form is thus
 
 $$
-\mathbf {x} _ {s} ^ {(k + 1)} = \underset {\mathbf {x}} {\arg \min } - U (\mathbf {p} _ {s} + \mathbf {x}) + \frac {1}{2} \rho \sum_ {s \in \mathcal {S}} \left\| \mathbf {x} _ {s} - \mathbf {z} _ {s} ^ {(k)} + \mathbf {u} _ {s} ^ {(k)} \right\| _ {2} ^ {2}
+\mathbf {x}_{s}^{(k + 1)} = \underset{\mathbf {x}} {\arg \min } - U (\mathbf {p}_{s} + \mathbf {x}) + \frac{1}{2} \rho \sum_{s \in \mathcal {S}} \left\| \mathbf {x}_{s} - \mathbf {z}_{s}^{(k)} + \mathbf {u}_{s}^{(k)} \right\| _{2}^{2}
 $$
 
 $$
-\mathbf {z} ^ {(k + 1)} = \underset {\mathbf {z} | \sum_ {s \in \mathcal {S}} \mathbf {z} _ {s} = \mathbf {0}} {\arg \min } \frac {1}{2} \rho \sum_ {s \in \mathcal {S}} \left\| \mathbf {x} _ {s} ^ {(k + 1)} - \mathbf {z} _ {s} + \mathbf {u} _ {s} ^ {(k)} \right\| _ {2} ^ {2}
+\mathbf {z}^{(k + 1)} = \underset{\mathbf {z} | \sum_{s \in \mathcal {S}} \mathbf {z}_{s} = \mathbf {0}} {\arg \min } \frac{1}{2} \rho \sum_{s \in \mathcal {S}} \left\| \mathbf {x}_{s}^{(k + 1)} - \mathbf {z}_{s} + \mathbf {u}_{s}^{(k)} \right\| _{2}^{2}
 $$
 
 $$
-\mathbf {u} _ {s} ^ {(k + 1)} = \mathbf {u} _ {s} ^ {k} + \mathbf {x} _ {s} ^ {(k + 1)} - \mathbf {z} _ {s} ^ {(k + 1)}
+\mathbf {u}_{s}^{(k + 1)} = \mathbf {u}_{s}^{k} + \mathbf {x}_{s}^{(k + 1)} - \mathbf {z}_{s}^{(k + 1)}
 $$
 
 Exercise 11.9. We can simplify the  $\mathbf{z}$ -update for the exchange problem in the previous exercise by noticing that solving the  $\mathbf{z}$ -update produces:
 
 $$
-\mathbf {z} _ {s} ^ {(k + 1)} = \mathbf {x} _ {s} ^ {(k + 1)} + \mathbf {u} _ {s} ^ {(k)} + \frac {1}{| \mathcal {S} |} \sum_ {t \in \mathcal {S}} \left(\mathbf {x} _ {t} ^ {(k + 1)} + \mathbf {u} _ {t} ^ {(k)}\right) = \mathbf {x} _ {s} ^ {(k + 1)} + \mathbf {u} _ {s} ^ {(k)} + \bar {\mathbf {x}} ^ {(k + 1)} + \bar {\mathbf {u}} ^ {(k)}
+\mathbf {z}_{s}^{(k + 1)} = \mathbf {x}_{s}^{(k + 1)} + \mathbf {u}_{s}^{(k)} + \frac{1}{| \mathcal {S} |} \sum_{t \in \mathcal {S}} \left(\mathbf {x}_{t}^{(k + 1)} + \mathbf {u}_{t}^{(k)}\right) = \mathbf {x}_{s}^{(k + 1)} + \mathbf {u}_{s}^{(k)} + \bar {\mathbf {x}}^{(k + 1)} + \bar {\mathbf {u}}^{(k)}
 $$
 
 Make this substitution and derive a simplified ADMM update that neither requires a  $z$ -update nor separate  $\mathbf{u}$  vectors for each state. Can any aspects of this problem be solved in parallel?
@@ -7672,7 +7439,7 @@ Make this substitution and derive a simplified ADMM update that neither requires
 Solution: Substituting the updated  $\mathbf{z}$  vectors into the  $u$ -update produces:
 
 $$
-\begin{array}{l} \mathbf {u} _ {\mathrm {s}} ^ {(k + 1)} = \mathbf {u} _ {\mathrm {s}} ^ {k} + \mathbf {x} _ {\mathrm {s}} ^ {(k + 1)} - \mathbf {z} _ {\mathrm {s}} ^ {(k + 1)} \\ = \mathbf {u} _ {s} ^ {k} + \mathbf {x} _ {s} ^ {(k + 1)} - \left(\mathbf {x} _ {s} ^ {(k + 1)} + \mathbf {u} _ {s} ^ {(k)} + \bar {\mathbf {x}} ^ {(k + 1)} + \bar {\mathbf {u}} ^ {(k)}\right) \\ = \bar {\mathbf {u}} ^ {(k)} + \bar {\mathbf {x}} ^ {(k + 1)} \\ \end{array}
+\begin{array}{l} \mathbf {u}_{\mathrm{s}}^{(k + 1)} = \mathbf {u}_{\mathrm{s}}^{k} + \mathbf {x}_{\mathrm{s}}^{(k + 1)} - \mathbf {z}_{\mathrm{s}}^{(k + 1)} \\ = \mathbf {u}_{s}^{k} + \mathbf {x}_{s}^{(k + 1)} - \left(\mathbf {x}_{s}^{(k + 1)} + \mathbf {u}_{s}^{(k)} + \bar {\mathbf {x}}^{(k + 1)} + \bar {\mathbf {u}}^{(k)}\right) \\ = \bar {\mathbf {u}}^{(k)} + \bar {\mathbf {x}}^{(k + 1)} \\ \end{array}
 $$
 
 from which we can see that the  $\mathbf{u}_s$  values are all equal. We can thus use a single  $\mathbf{u}$ .
@@ -7680,7 +7447,7 @@ from which we can see that the  $\mathbf{u}_s$  values are all equal. We can thu
 The final procedure for this exchange problem is:
 
 $$
-\begin{array}{l} \mathbf {x} _ {s} ^ {(k + 1)} = \underset {\mathbf {x}} {\arg \min } - U (\mathbf {p} _ {s} + \mathbf {x}) + \frac {1}{2} \rho \left\| \mathbf {x} _ {s} - \mathbf {x} _ {s} ^ {(k)} + \bar {\mathbf {x}} ^ {(k)} + \mathbf {u} ^ {(k)} \right\| _ {2} ^ {2} \\ \mathbf {u} ^ {(k + 1)} = \mathbf {u} ^ {k} + \bar {\mathbf {x}} _ {\mathrm {s}} ^ {(k + 1)} \\ \end{array}
+\begin{array}{l} \mathbf {x}_{s}^{(k + 1)} = \underset{\mathbf {x}} {\arg \min } - U (\mathbf {p}_{s} + \mathbf {x}) + \frac{1}{2} \rho \left\| \mathbf {x}_{s} - \mathbf {x}_{s}^{(k)} + \bar {\mathbf {x}}^{(k)} + \mathbf {u}^{(k)} \right\| _{2}^{2} \\ \mathbf {u}^{(k + 1)} = \mathbf {u}^{k} + \bar {\mathbf {x}}_{\mathrm{s}}^{(k + 1)} \\ \end{array}
 $$
 
 for which the  $x$ -updates can all be carried out in parallel.
@@ -7692,7 +7459,7 @@ Solution: The objective function is not convex, but descent methods can still be
 Solving the problem yields:
 
 $$
-\begin{array}{l} \mathbf {x} _ {C} = \left[ \begin{array}{l l} - 0. 4 4 8, - 0. 0 3 5, & 0. 0 8 0 \end{array} \right] \\ \mathbf {x} _ {F} = \left[ \begin{array}{c c} 0. 2 2 9, - 0. 2 8 2, & 0. 3 7 3 \end{array} \right] \\ \mathbf {x} _ {I} = \left[ \begin{array}{c c} 0. 2 1 9, & 0. 3 1 7, - 0. 4 5 3 \end{array} \right] \\ \end{array}
+\begin{array}{l} \mathbf {x}_{C} = \left[ \begin{array}{l l} - 0. 44 8, - 0. 03 5, & 0. 08 0 \end{array} \right] \\ \mathbf {x}_{F} = \left[ \begin{array}{c c} 0. 22 9, - 0. 28 2, & 0. 37 3 \end{array} \right] \\ \mathbf {x}_{I} = \left[ \begin{array}{c c} 0. 21 9, & 0. 31 7, - 0. 45 3 \end{array} \right] \\ \end{array}
 $$
 
 The goods received by each state as the algorithm progresses is presented below. We can see how each state primarily trades away the good that it has in excess in order to receive goods that it lacks from other states. The initial quantities do not sum to zero, but as the algorithm progresses and  $\rho$  increases, that constraint is increasingly enforced.
@@ -7706,11 +7473,11 @@ The goods received by each state as the algorithm progresses is presented below.
 Exercise 11.11. Consider a problem of the form<sup>30</sup>
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad f (\mathbf {x})
+\underset{\mathbf {x}} {\text{minimize}} \quad f (\mathbf {x})
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {g} (\mathbf {x}) \leq \mathbf {1}
+\text{subject} \quad \mathbf {g} (\mathbf {x}) \leq \mathbf {1}
 $$
 
 $$
@@ -7724,7 +7491,7 @@ $$
 where each equality constraint function has the form
 
 $$
-h _ {i} (\mathbf {x}) = c _ {i} x _ {1} ^ {a _ {i 1}} x _ {2} ^ {a _ {i 2}} \dots x _ {m} ^ {a _ {i m}} = c _ {i} \prod_ {j} x _ {j} ^ {a _ {i j}}
+h_{i} (\mathbf {x}) = c_{i} x_{1}^{a_{i 1}} x_{2}^{a_{i 2}} \dots x_{m}^{a_{i m}} = c_{i} \prod_{j} x_{j}^{a_{i j}}
 $$
 
 for  $c_{i} > 0$  and  $a_{ij} \in \mathbb{R}$ , called a monomial. The objective function and the inequality constraint functions are sums of any number of monomials.
@@ -7736,25 +7503,25 @@ Problems of this form can be converted into convex problems by taking the log of
 Solution: The log of a monomial is:
 
 $$
-\log \left(c _ {i} \prod_ {j} x _ {j} ^ {a _ {i j}}\right) = \log c _ {i} + \sum_ {j} a _ {i j} \log x _ {j}
+\log \left(c_{i} \prod_{j} x_{j}^{a_{i j}}\right) = \log c_{i} + \sum_{j} a_{i j} \log x_{j}
 $$
 
 Applying the change of variables  $z_{j} = \log x_{j}$  results in an affine constraint:
 
 $$
-\log \left(c _ {i} \prod_ {j} x _ {j} ^ {a _ {i j}}\right) = 1 \quad \Rightarrow \quad \sum_ {j} a _ {i j} z _ {j} = - \log c _ {i}
+\log \left(c_{i} \prod_{j} x_{j}^{a_{i j}}\right) = 1 \quad \Rightarrow \quad \sum_{j} a_{i j} z_{j} = - \log c_{i}
 $$
 
 The log of a sum of monomials is:
 
 $$
-\log \left(\sum_ {i} c _ {i} \prod_ {j} x _ {j} ^ {a _ {i j}}\right)
+\log \left(\sum_{i} c_{i} \prod_{j} x_{j}^{a_{i j}}\right)
 $$
 
 If we apply the same change of variables, rewritten as  $\exp z_{j} = x_{j}$ , we get a function in log-sum-exp form:
 
 $$
-\log \left(\sum_ {i} c _ {i} \prod_ {j} \left(\exp z _ {j}\right) ^ {a _ {i j}}\right) = \log \left(\sum_ {i} \exp \left(\log c _ {i} + \sum_ {j} a _ {i j} z _ {j}\right)\right)
+\log \left(\sum_{i} c_{i} \prod_{j} \left(\exp z_{j}\right) ^{a_{i j}}\right) = \log \left(\sum_{i} \exp \left(\log c_{i} + \sum_{j} a_{i j} z_{j}\right)\right)
 $$
 
 The resulting problem thus has such a log-sum-exp objective, log-sum-exp inequality constraints, and affine equality constraints.
@@ -7768,15 +7535,15 @@ Linear programming involves solving optimization problems with linear objective 
 A linear programming problem, called a linear program, can be expressed in several forms. Each linear program consists of a linear objective function and a set of linear constraints:2
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad \mathbf {c} ^ {\top} \mathbf {x}
+\underset{\mathbf {x}} {\text{minimize}} \quad \mathbf {c}^{\top} \mathbf {x}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {w} _ {\mathrm {L E}} ^ {(i) \top} \mathbf {x} \leq b _ {i} \quad \text {f o r a l l} i \tag {12.1}
+\text{subject} \quad \mathbf {w}_{\mathrm{LE}}^{(i) \top} \mathbf {x} \leq b_{i} \quad \text{forall} i \tag {12.1}
 $$
 
 $$
-\mathbf {w} _ {\mathrm {E Q}} ^ {(j) \top} \mathbf {x} = b _ {j} \quad \text {f o r a l l} j
+\mathbf {w}_{\mathrm{EQ}}^{(j) \top} \mathbf {x} = b_{j} \quad \text{forall} j
 $$
 
 where  $i$  and  $j$  vary over finite sets of constraints. Such an optimization problem is given in example 12.1. Transforming real problems into this mathematical form is often nontrivial. This text focuses on the algorithms for obtaining solutions, but other texts discuss how to go about modeling real problems.<sup>3</sup> Several interesting conversions are given in example 12.2.
@@ -7790,21 +7557,21 @@ As discussed in section 10.2, we can transform greater-than inequalities into le
 The following problem has a linear objective and linear constraints, making it a linear program.
 
 $$
-\underset {x _ {1}, x _ {2}, x _ {3}} {\text {m i n i m i z e}} 2 x _ {1} - 3 x _ {2} + 7 x _ {3}
+\underset{x_{1}, x_{2}, x_{3}} {\text{minimize}} 2 x_{1} - 3 x_{2} + 7 x_{3}
 $$
 
 subject to  $2x_{1} + 3x_{2} - 8x_{3}\leq$  5
 
 $$
-4 x _ {1} + x _ {2} + 3 x _ {3} \leq 9
+4 x_{1} + x_{2} + 3 x_{3} \leq 9
 $$
 
 $$
-x _ {1} - 5 x _ {2} - 3 x _ {3} \geq - 4
+x_{1} - 5 x_{2} - 3 x_{3} \geq - 4
 $$
 
 $$
-\begin{array}{l l} x _ {1} + & x _ {2} + 2 x _ {3} = \quad 1 \end{array}
+\begin{array}{l l} x_{1} + & x_{2} + 2 x_{3} = \quad 1 \end{array}
 $$
 
 Example 12.1. An example linear program.
@@ -7812,17 +7579,17 @@ Example 12.1. An example linear program.
 Many problems can be converted into linear programs that have the same solution. Two examples are  $L_{1}$  and  $L_{\infty}$  minimization problems:
 
 $$
-\operatorname {m i n i m i z e} \| \mathbf {A x} - \mathbf {b} \| _ {1} \quad \text {m i n i m i z e} \| \mathbf {A x} - \mathbf {b} \| _ {\infty}
+\operatorname{minimize} \| \mathbf {A x} - \mathbf {b} \| _{1} \quad \text{minimize} \| \mathbf {A x} - \mathbf {b} \| _{\infty}
 $$
 
 The first problem is equivalent to solving
 
 $$
-\underset {\mathbf {x}, \mathbf {s}} {\text {m i n i m i z e}} \quad \mathbf {1} ^ {\top} \mathbf {s}
+\underset{\mathbf {x}, \mathbf {s}} {\text{minimize}} \quad \mathbf {1}^{\top} \mathbf {s}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {A x} - \mathbf {b} \leq \quad \mathbf {s}
+\text{subject} \quad \mathbf {A x} - \mathbf {b} \leq \quad \mathbf {s}
 $$
 
 $$
@@ -7834,11 +7601,11 @@ with the additional variables  $\mathbf{s}$ .
 The second problem is equivalent to solving
 
 $$
-\underset {\mathbf {x}, t} {\text {m i n i m i z e}} \quad t
+\underset{\mathbf {x}, t} {\text{minimize}} \quad t
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {A x} - \mathbf {b} \leq \quad t \mathbf {1}
+\text{subject} \quad \mathbf {A x} - \mathbf {b} \leq \quad t \mathbf {1}
 $$
 
 $$
@@ -7854,15 +7621,15 @@ Example 12.2. Common norm minimization problems that can be converted into linea
 We can write linear programs more compactly using matrices and arrive at the general form:4
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad \mathbf {c} ^ {\top} x
+\underset{x} {\text{minimize}} \quad \mathbf {c}^{\top} x
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {A} _ {\mathrm {L E}} \mathbf {x} \leq \mathbf {b} _ {\mathrm {L E}} \tag {12.2}
+\text{subject} \quad \mathbf {A}_{\mathrm{LE}} \mathbf {x} \leq \mathbf {b}_{\mathrm{LE}} \tag {12.2}
 $$
 
 $$
-\mathbf {A} _ {\mathrm {E Q}} \mathbf {x} = \mathbf {b} _ {\mathrm {E Q}}
+\mathbf {A}_{\mathrm{EQ}} \mathbf {x} = \mathbf {b}_{\mathrm{EQ}}
 $$
 
 Here, each constraint is elementwise. For example, in writing
@@ -7878,11 +7645,11 @@ we mean  $a_{i}\leq b_{i}$  for all  $i$
 The general linear program given in equation (12.2) can be converted into standard form where all constraints are less-than inequalities and the design variables are nonnegative
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad \mathbf {c} ^ {\top} x
+\underset{x} {\text{minimize}} \quad \mathbf {c}^{\top} x
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {A x} \leq \mathbf {b} \tag {12.3}
+\text{subject} \quad \mathbf {A x} \leq \mathbf {b} \tag {12.3}
 $$
 
 $$
@@ -7892,23 +7659,23 @@ $$
 Equality constraints are split in two:
 
 $$
-\mathbf {A} _ {\mathrm {E Q}} \mathbf {x} = \mathbf {b} _ {\mathrm {E Q}} \rightarrow \left\{\begin{array}{c}\mathbf {A} _ {\mathrm {E Q}} \mathbf {x} \leq \mathbf {b} _ {\mathrm {E Q}}\\- \mathbf {A} _ {\mathrm {E Q}} \mathbf {x} \leq - \mathbf {b} _ {\mathrm {E Q}}\end{array}\right. \tag {12.4}
+\mathbf {A}_{\mathrm{EQ}} \mathbf {x} = \mathbf {b}_{\mathrm{EQ}} \rightarrow \left\{\begin{array}{c}\mathbf {A}_{\mathrm{EQ}} \mathbf {x} \leq \mathbf {b}_{\mathrm{EQ}}\\- \mathbf {A}_{\mathrm{EQ}} \mathbf {x} \leq - \mathbf {b}_{\mathrm{EQ}}\end{array}\right. \tag {12.4}
 $$
 
 We must ensure that all  $\mathbf{x}$  entries are nonnegative as well. Suppose we start with a linear program where  $\mathbf{x}$  is not constrained to be nonnegative:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad \mathbf {c} ^ {\top} \mathbf {x} \tag {12.5}
+\underset{\mathbf {x}} {\text{minimize}} \quad \mathbf {c}^{\top} \mathbf {x} \tag {12.5}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {A x} \leq \mathbf {b}
+\text{subject} \quad \mathbf {A x} \leq \mathbf {b}
 $$
 
 We replace  $\mathbf{x}$  with  $\mathbf{x}^{+} - \mathbf{x}^{-}$  and constrain  $\mathbf{x}^{+} \geq \mathbf{0}$  and  $\mathbf{x}^{-} \geq \mathbf{0}$ :
 
 $$
-\begin{array}{l} \underset {\mathbf {x} ^ {+}, \mathbf {x} ^ {-}} {\text {m i n i m i z e}} \quad \left[ \begin{array}{c c} \mathbf {c} ^ {\top} & - \mathbf {c} ^ {\top} \end{array} \right] \left[ \begin{array}{c} \mathbf {x} ^ {+} \\ \mathbf {x} ^ {-} \end{array} \right] \\ \text {s u b j e c t} \quad \left[ \begin{array}{l l} \mathbf {A} & - \mathbf {A} \end{array} \right] \left[ \begin{array}{l} \mathbf {x} ^ {+} \\ \mathbf {x} ^ {-} \end{array} \right] \leq \mathbf {b} \tag {12.6} \\ \left[ \begin{array}{c} \mathbf {x} ^ {+} \\ \mathbf {x} ^ {-} \end{array} \right] \geq \mathbf {0} \\ \end{array}
+\begin{array}{l} \underset{\mathbf {x}^{+}, \mathbf {x}^{-}} {\text{minimize}} \quad \left[ \begin{array}{c c} \mathbf {c}^{\top} & - \mathbf {c}^{\top} \end{array} \right] \left[ \begin{array}{c} \mathbf {x}^{+} \\ \mathbf {x}^{-} \end{array} \right] \\ \text{subject} \quad \left[ \begin{array}{l l} \mathbf {A} & - \mathbf {A} \end{array} \right] \left[ \begin{array}{l} \mathbf {x}^{+} \\ \mathbf {x}^{-} \end{array} \right] \leq \mathbf {b} \tag {12.6} \\ \left[ \begin{array}{c} \mathbf {x}^{+} \\ \mathbf {x}^{-} \end{array} \right] \geq \mathbf {0} \\ \end{array}
 $$
 
 The linear objective function  $\mathbf{c}^{\top}\mathbf{x}$  forms a flat ramp. The function increases in the direction of  $\mathbf{c}$ , and, as a result, all contour lines are perpendicular to  $\mathbf{c}$  and parallel to one another as shown in figure 12.1.
@@ -7933,7 +7700,7 @@ Figure 12.3. The intersection of linear constraints is a convex set.
 Linear programs are often solved in equality form:
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad \mathbf {c} ^ {\top} \mathbf {x}
+\underset{x} {\text{minimize}} \quad \mathbf {c}^{\top} \mathbf {x}
 $$
 
 subject to  $\mathbf{A}\mathbf{x} = \mathbf{b}$  (12.7)
@@ -7970,27 +7737,27 @@ by introducing slack variables  $\mathbf{s}$ . These variables take up the extra
 Starting with a linear program:
 
 $$
-\begin{array}{l} \underset {\mathbf {x}} {\text {m i n i m i z e}} \quad \mathbf {c} ^ {\top} \mathbf {x} \\ \text {s u b j e c t} \quad \mathbf {A x} \leq \mathbf {b} \tag {12.9} \\ x \geq 0 \\ \end{array}
+\begin{array}{l} \underset{\mathbf {x}} {\text{minimize}} \quad \mathbf {c}^{\top} \mathbf {x} \\ \text{subject} \quad \mathbf {A x} \leq \mathbf {b} \tag {12.9} \\ x \geq 0 \\ \end{array}
 $$
 
 Consider the standard-form linear program:
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad x
+\underset{x} {\text{minimize}} \quad x
 $$
 
 $$
-\text {s u b j e c t} \quad x \geq 1
+\text{subject} \quad x \geq 1
 $$
 
 When we convert this to equality form, we get
 
 $$
-\underset {x, s} {\text {m i n i m i z e}} x
+\underset{x, s} {\text{minimize}} x
 $$
 
 $$
-\text {s u b j e c t} \quad x - s = 1
+\text{subject} \quad x - s = 1
 $$
 
 $$
@@ -8006,11 +7773,11 @@ Example 12.3. Feasible sets for the equality form are hyperplanes.
 We introduce the slack variables:
 
 $$
-\underset {\mathbf {x}, \mathbf {s}} {\text {m i n i m i z e}} \quad \left[ \begin{array}{c c} \mathbf {c} ^ {\top} & \mathbf {0} ^ {\top} \end{array} \right] \left[ \begin{array}{c} \mathbf {x} \\ \mathbf {s} \end{array} \right]
+\underset{\mathbf {x}, \mathbf {s}} {\text{minimize}} \quad \left[ \begin{array}{c c} \mathbf {c}^{\top} & \mathbf {0}^{\top} \end{array} \right] \left[ \begin{array}{c} \mathbf {x} \\ \mathbf {s} \end{array} \right]
 $$
 
 $$
-\text {s u b j e c t} \quad \left[ \begin{array}{l l} \mathbf {A} & \mathbf {I} \end{array} \right] \left[ \begin{array}{l} \mathbf {x} \\ \mathbf {s} \end{array} \right] = \mathbf {b} \tag {12.10}
+\text{subject} \quad \left[ \begin{array}{l l} \mathbf {A} & \mathbf {I} \end{array} \right] \left[ \begin{array}{l} \mathbf {x} \\ \mathbf {s} \end{array} \right] = \mathbf {b} \tag {12.10}
 $$
 
 $$
@@ -8022,51 +7789,51 @@ Example 12.4 demonstrates converting from standard to equality form.
 Consider the linear program
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad 5 x _ {1} + 4 x _ {2}
+\underset{\mathbf {x}} {\text{minimize}} \quad 5 x_{1} + 4 x_{2}
 $$
 
 $$
-\text {s u b j e c t} \quad 2 x _ {1} + 3 x _ {2} \leq 5
+\text{subject} \quad 2 x_{1} + 3 x_{2} \leq 5
 $$
 
 $$
-\begin{array}{l l} 4 x _ {1} + & x _ {2} \leq 1 1 \end{array}
+\begin{array}{l l} 4 x_{1} + & x_{2} \leq 11 \end{array}
 $$
 
 To convert to equality form, we first introduce two slack variables:
 
 $$
-\underset {x, s} {\text {m i n i m i z e}} \quad 5 x _ {1} + 4 x _ {2}
+\underset{x, s} {\text{minimize}} \quad 5 x_{1} + 4 x_{2}
 $$
 
 $$
-\text {s u b j e c t} \quad 2 x _ {1} + 3 x _ {2} + s _ {1} = 5
+\text{subject} \quad 2 x_{1} + 3 x_{2} + s_{1} = 5
 $$
 
 $$
-4 x _ {1} + x _ {2} + s _ {2} = 1 1
+4 x_{1} + x_{2} + s_{2} = 11
 $$
 
 $$
-s _ {1}, s _ {2} \geq 0
+s_{1}, s_{2} \geq 0
 $$
 
 We then split  $x$ :
 
 $$
-\underset {\mathbf {x} ^ {+}, \mathbf {x} ^ {-}, \mathbf {s}} {\text {m i n i m i z e}} \quad 5 (x _ {1} ^ {+} - x _ {1} ^ {-}) + 4 (x _ {2} ^ {+} - x _ {2} ^ {-})
+\underset{\mathbf {x}^{+}, \mathbf {x}^{-}, \mathbf {s}} {\text{minimize}} \quad 5 (x_{1}^{+} - x_{1}^{-}) + 4 (x_{2}^{+} - x_{2}^{-})
 $$
 
 $$
-\text {s u b j e c t} \quad 2 \left(x _ {1} ^ {+} - x _ {1} ^ {-}\right) + 3 \left(x _ {2} ^ {+} - x _ {2} ^ {-}\right) + s _ {1} = 5
+\text{subject} \quad 2 \left(x_{1}^{+} - x_{1}^{-}\right) + 3 \left(x_{2}^{+} - x_{2}^{-}\right) + s_{1} = 5
 $$
 
 $$
-4 \left(x _ {1} ^ {+} - x _ {1} ^ {-}\right) + \left(x _ {2} ^ {+} - x _ {2} ^ {-}\right) + s _ {2} = 1 1
+4 \left(x_{1}^{+} - x_{1}^{-}\right) + \left(x_{2}^{+} - x_{2}^{-}\right) + s_{2} = 11
 $$
 
 $$
-x _ {1} ^ {+}, x _ {1} ^ {-}, x _ {2} ^ {+}, x _ {2} ^ {-}, s _ {1}, s _ {2} \geq 0
+x_{1}^{+}, x_{1}^{-}, x_{2}^{+}, x_{2}^{-}, s_{1}, s_{2} \geq 0
 $$
 
 # 12.2 Simplex Algorithm
@@ -8100,7 +7867,7 @@ This is analogous to identifying a vertex in standard form with  $n - m$  active
 For a problem with 5 design variables and 3 constraints, setting 2 variables to zero uniquely defines a point.
 
 $$
-\left[ \begin{array}{l l l l l} a _ {1 1} & a _ {1 2} & a _ {1 3} & a _ {1 4} & a _ {1 5} \\ a _ {2 1} & a _ {2 2} & a _ {2 3} & a _ {2 4} & a _ {2 5} \\ a _ {3 1} & a _ {3 2} & a _ {3 3} & a _ {3 4} & a _ {3 5} \end{array} \right] \left[ \begin{array}{l} x _ {1} \\ 0 \\ x _ {3} \\ x _ {4} \\ 0 \end{array} \right] = \left[ \begin{array}{l l l} a _ {1 1} & a _ {1 3} & a _ {1 4} \\ a _ {2 1} & a _ {2 3} & a _ {2 4} \\ a _ {3 1} & a _ {3 3} & a _ {3 4} \end{array} \right] \left[ \begin{array}{l} x _ {1} \\ x _ {3} \\ x _ {4} \end{array} \right] = \left[ \begin{array}{l} b _ {1} \\ b _ {2} \\ b _ {3} \end{array} \right]
+\left[ \begin{array}{l l l l l} a_{11} & a_{12} & a_{13} & a_{14} & a_{15} \\ a_{21} & a_{22} & a_{23} & a_{24} & a_{25} \\ a_{31} & a_{32} & a_{33} & a_{34} & a_{35} \end{array} \right] \left[ \begin{array}{l} x_{1} \\ 0 \\ x_{3} \\ x_{4} \\ 0 \end{array} \right] = \left[ \begin{array}{l l l} a_{11} & a_{13} & a_{14} \\ a_{21} & a_{23} & a_{24} \\ a_{31} & a_{33} & a_{34} \end{array} \right] \left[ \begin{array}{l} x_{1} \\ x_{3} \\ x_{4} \end{array} \right] = \left[ \begin{array}{l} b_{1} \\ b_{2} \\ b_{3} \end{array} \right]
 $$
 
 Example 12.5. Setting  $n - m$  components of  $\mathbf{x}$  to zero can uniquely define a point.
@@ -8110,13 +7877,13 @@ The indices into the components  $1:n$  of any vertex can be partitioned into tw
 - The design values associated with indices in  $\mathcal{V}$  are zero:
 
 $$
-i \in \mathcal {V} \quad \Longrightarrow \quad x _ {i} = 0 \tag {12.11}
+i \in \mathcal {V} \quad \Longrightarrow \quad x_{i} = 0 \tag {12.11}
 $$
 
 - The design values associated with indices in  $\mathcal{B}$  may or may not be zero:
 
 $$
-i \in \mathcal {B} \quad \Longrightarrow x _ {i} \geq 0 \tag {12.12}
+i \in \mathcal {B} \quad \Longrightarrow x_{i} \geq 0 \tag {12.12}
 $$
 
 -  $\mathcal{B}$  has exactly  $m$  elements and  $\nu$  has exactly  $n - m$  elements.
@@ -8126,7 +7893,7 @@ We use  $\mathbf{x}_{\mathcal{B}}$  to refer to the vector consisting of the com
 The vertex associated with a partition  $(\mathcal{B},\mathcal{V})$  can be obtained using the  $m\times m$  matrix  $\mathbf{A}_{\mathcal{B}}$  formed by the  $m$  columns of  $\mathbf{A}$  selected by  $\mathcal{B}$ :
 
 $$
-\mathbf {A} \mathbf {x} = \mathbf {A} _ {\mathcal {B}} \mathbf {x} _ {\mathcal {B}} = \mathbf {b} \quad \rightarrow \quad \mathbf {x} _ {\mathcal {B}} = \mathbf {A} _ {\mathcal {B}} ^ {- 1} \mathbf {b} \tag {12.13}
+\mathbf {A} \mathbf {x} = \mathbf {A}_{\mathcal {B}} \mathbf {x}_{\mathcal {B}} = \mathbf {b} \quad \rightarrow \quad \mathbf {x}_{\mathcal {B}} = \mathbf {A}_{\mathcal {B}}^{- 1} \mathbf {b} \tag {12.13}
 $$
 
 Knowing  $\mathbf{x}_{\mathcal{B}}$  is sufficient to construct  $\mathbf{x}$ ; the remaining design variables are zero. Algorithm 12.1 implements this procedure, and example 12.6 demonstrates verifying that a given design point is a vertex.
@@ -8168,13 +7935,13 @@ $$
 Consider the design point  $\mathbf{x} = [1, 1, 0, 0]$ . We can verify that  $\mathbf{x}$  is feasible and that it has no more than three nonzero components. We can choose either  $\mathcal{B} = \{1, 2, 3\}$  or  $\mathcal{B} = \{1, 2, 4\}$ . Both
 
 $$
-\mathbf {A} _ {\{1, 2, 3 \}} = \left[ \begin{array}{c c c} 1 & 1 & 1 \\ 0 & - 1 & 2 \\ 2 & 1 & 2 \end{array} \right]
+\mathbf {A}_{\{1, 2, 3 \}} = \left[ \begin{array}{c c c} 1 & 1 & 1 \\ 0 & - 1 & 2 \\ 2 & 1 & 2 \end{array} \right]
 $$
 
 and
 
 $$
-\mathbf {A} _ {\{1, 2, 4 \}} = \left[ \begin{array}{c c c} 1 & 1 & 1 \\ 0 & - 1 & 3 \\ 2 & 1 & - 1 \end{array} \right]
+\mathbf {A}_{\{1, 2, 4 \}} = \left[ \begin{array}{c c c} 1 & 1 & 1 \\ 0 & - 1 & 3 \\ 2 & 1 & - 1 \end{array} \right]
 $$
 
 are invertible. Thus,  $\mathbf{x}$  is a vertex of the feasible set polytope.
@@ -8184,7 +7951,7 @@ are invertible. Thus,  $\mathbf{x}$  is a vertex of the feasible set polytope.
 The first-order necessary conditions for optimality are used to determine when a vertex is optimal and to inform how to transition to a more favorable vertex. We construct a Lagrangian for the equality form of the linear program:12
 
 $$
-\mathcal {L} (\mathbf {x}, \mu , \lambda) = \mathbf {c} ^ {\top} \mathbf {x} - \mu^ {\top} \mathbf {x} - \lambda^ {\top} (\mathbf {A x} - \mathbf {b}) \tag {12.14}
+\mathcal {L} (\mathbf {x}, \mu , \lambda) = \mathbf {c}^{\top} \mathbf {x} - \mu^{\top} \mathbf {x} - \lambda^{\top} (\mathbf {A x} - \mathbf {b}) \tag {12.14}
 $$
 
 with the following necessary conditions:
@@ -8192,13 +7959,13 @@ with the following necessary conditions:
 1 For example,  $\mathcal{B} = \{1,2\}$  for the constraints
 
 $$
-\left[ \begin{array}{c c c} 1 & 2 & 0 \\ 1 & 2 & 1 \end{array} \right] \left[ \begin{array}{c} x _ {1} \\ x _ {2} \\ x _ {3} \end{array} \right] = \left[ \begin{array}{c} 1 \\ 1 \end{array} \right]
+\left[ \begin{array}{c c c} 1 & 2 & 0 \\ 1 & 2 & 1 \end{array} \right] \left[ \begin{array}{c} x_{1} \\ x_{2} \\ x_{3} \end{array} \right] = \left[ \begin{array}{c} 1 \\ 1 \end{array} \right]
 $$
 
 corresponds to
 
 $$
-\left[ \begin{array}{c c} 1 & 2 \\ 1 & 2 \end{array} \right] \left[ \begin{array}{c} x _ {1} \\ x _ {2} \end{array} \right] = \left[ \begin{array}{c} 1 \\ 1 \end{array} \right]
+\left[ \begin{array}{c c} 1 & 2 \\ 1 & 2 \end{array} \right] \left[ \begin{array}{c} x_{1} \\ x_{2} \end{array} \right] = \left[ \begin{array}{c} 1 \\ 1 \end{array} \right]
 $$
 
 which does not produce an invertible  $\mathbf{A}_B$  and does not have a unique solution.
@@ -8217,31 +7984,31 @@ The necessary conditions are also sufficient conditions for optimality for linea
 We can decompose the stationarity condition into  $\mathcal{B}$  and  $\nu$  components:
 
 $$
-\mathbf {A} ^ {\top} \lambda + \mu = \mathbf {c} \quad \rightarrow \quad \left\{\begin{array}{l}\mathbf {A} _ {\mathcal {B}} ^ {\top} \lambda + \mu_ {\mathcal {B}} = \mathbf {c} _ {\mathcal {B}}\\\mathbf {A} _ {\mathcal {V}} ^ {\top} \lambda + \mu_ {\mathcal {V}} = \mathbf {c} _ {\mathcal {V}}\end{array}\right. \tag {12.15}
+\mathbf {A}^{\top} \lambda + \mu = \mathbf {c} \quad \rightarrow \quad \left\{\begin{array}{l}\mathbf {A}_{\mathcal {B}}^{\top} \lambda + \mu_{\mathcal {B}} = \mathbf {c}_{\mathcal {B}}\\\mathbf {A}_{\mathcal {V}}^{\top} \lambda + \mu_{\mathcal {V}} = \mathbf {c}_{\mathcal {V}}\end{array}\right. \tag {12.15}
 $$
 
 We can choose  $\mu_{\mathcal{B}} = 0$  to satisfy complementary slackness. The value of  $\lambda$  can be computed from  $\mathcal{B}$ :<sup>13</sup>
 
 $$
-\mathbf {A} _ {\mathcal {B}} ^ {\top} \lambda + \underbrace {\mu_ {\mathcal {B}}} _ {= 0} = \mathbf {c} _ {\mathcal {B}} \tag {12.16}
+\mathbf {A}_{\mathcal {B}}^{\top} \lambda + \underbrace{\mu_{\mathcal {B}}}_{= 0} = \mathbf {c}_{\mathcal {B}} \tag {12.16}
 $$
 
 $$
-\lambda = \mathbf {A} _ {\mathcal {B}} ^ {- \top} \mathbf {c} _ {\mathcal {B}} \tag {12.17}
+\lambda = \mathbf {A}_{\mathcal {B}}^{- \top} \mathbf {c}_{\mathcal {B}} \tag {12.17}
 $$
 
 We can use this to obtain
 
 $$
-\mathbf {A} _ {\mathcal {V}} ^ {\top} \boldsymbol {\lambda} + \boldsymbol {\mu} _ {\mathcal {V}} = \mathbf {c} _ {\mathcal {V}} \tag {12.18}
+\mathbf {A}_{\mathcal {V}}^{\top} \boldsymbol {\lambda} + \boldsymbol {\mu}_{\mathcal {V}} = \mathbf {c}_{\mathcal {V}} \tag {12.18}
 $$
 
 $$
-\boldsymbol {\mu} _ {\mathcal {V}} = \mathbf {c} _ {\mathcal {V}} - \mathbf {A} _ {\mathcal {V}} ^ {\top} \boldsymbol {\lambda} \tag {12.19}
+\boldsymbol {\mu}_{\mathcal {V}} = \mathbf {c}_{\mathcal {V}} - \mathbf {A}_{\mathcal {V}}^{\top} \boldsymbol {\lambda} \tag {12.19}
 $$
 
 $$
-\boldsymbol {\mu} _ {\mathcal {V}} = \mathbf {c} _ {\mathcal {V}} - \left(\mathbf {A} _ {\mathcal {B}} ^ {- 1} \mathbf {A} _ {\mathcal {V}}\right) ^ {\top} \mathbf {c} _ {\mathcal {B}} \tag {12.20}
+\boldsymbol {\mu}_{\mathcal {V}} = \mathbf {c}_{\mathcal {V}} - \left(\mathbf {A}_{\mathcal {B}}^{- 1} \mathbf {A}_{\mathcal {V}}\right) ^{\top} \mathbf {c}_{\mathcal {B}} \tag {12.20}
 $$
 
 Knowing  $\mu_{\mathcal{V}}$  allows us to assess the optimality of the vertices. If  $\mu_{\mathcal{V}}$  contains negative components, then dual feasibility is not satisfied and the vertex is suboptimal.
@@ -8253,7 +8020,7 @@ The simplex algorithm maintains a partition  $(\mathcal{B},\mathcal{V})$ , which
 13 We use  $\mathbf{A}^{-\top}$  to refer to the transpose of the inverse of  $\mathbf{A}$ :
 
 $$
-\mathbf {A} ^ {- \top} = \left(\mathbf {A} ^ {- 1}\right) ^ {\top} = \left(\mathbf {A} ^ {\top}\right) ^ {- 1}
+\mathbf {A}^{- \top} = \left(\mathbf {A}^{- 1}\right) ^{\top} = \left(\mathbf {A}^{\top}\right) ^{- 1}
 $$
 
 14 The vertex given by  $\mathcal{B} = \{1,2,3\}$  and  $\mathcal{V} = \{4\}$  in example 12.6 can be moved to the vertex given by  $\mathcal{B} = \{1,2,4\}$  and  $\mathcal{V} = \{3\}$  by swapping indices 3 and 4 between  $\mathcal{B}$  and  $\mathcal{V}$ .
@@ -8261,7 +8028,7 @@ $$
 A transition  $\mathbf{x} \rightarrow \mathbf{x}'$  between vertices must satisfy  $\mathbf{A}\mathbf{x}' = \mathbf{b}$ . Starting with a partition defined by  $\mathcal{B}$ , we choose an entering index  $q \in \mathcal{V}$  that is to enter  $\mathcal{B}$  using one of the heuristics described near the end of this section. The new vertex  $\mathbf{x}'$  must satisfy:
 
 $$
-\mathbf {A} \mathbf {x} ^ {\prime} = \mathbf {A} _ {\mathcal {B}} \mathbf {x} _ {\mathcal {B}} ^ {\prime} + \mathbf {A} _ {\{q \}} x _ {q} ^ {\prime} = \mathbf {A} _ {\mathcal {B}} \mathbf {x} _ {\mathcal {B}} = \mathbf {A} \mathbf {x} = \mathbf {b} \tag {12.21}
+\mathbf {A} \mathbf {x}^{\prime} = \mathbf {A}_{\mathcal {B}} \mathbf {x}_{\mathcal {B}}^{\prime} + \mathbf {A}_{\{q \}} x_{q}^{\prime} = \mathbf {A}_{\mathcal {B}} \mathbf {x}_{\mathcal {B}} = \mathbf {A} \mathbf {x} = \mathbf {b} \tag {12.21}
 $$
 
 Originally, the value at the entering index  $q \in \mathcal{V}$  is zero. To obtain  $x_{q}^{\prime}$ , we increase  $x_{q}$  until the component of  $\mathbf{x}^{\prime}$  corresponding to the leaving index  $p \in \mathcal{B}$  becomes zero, after which  $p$  can be moved to  $\mathcal{V}$ . We do not increase  $x_{q}$  any further because it could result in other components in  $\mathcal{B}$  becoming negative. This action is referred to as pivoting.
@@ -8269,19 +8036,19 @@ Originally, the value at the entering index  $q \in \mathcal{V}$  is zero. To ob
 We can solve for the new design point
 
 $$
-\mathbf {x} _ {\mathcal {B}} ^ {\prime} = \mathbf {x} _ {\mathcal {B}} - \mathbf {A} _ {\mathcal {B}} ^ {- 1} \mathbf {A} _ {\{q \}} x _ {q} ^ {\prime} \tag {12.22}
+\mathbf {x}_{\mathcal {B}}^{\prime} = \mathbf {x}_{\mathcal {B}} - \mathbf {A}_{\mathcal {B}}^{- 1} \mathbf {A}_{\{q \}} x_{q}^{\prime} \tag {12.22}
 $$
 
 A particular leaving index  $p \in \mathcal{B}$  becomes active when:
 
 $$
-\left(\mathbf {x} _ {\mathcal {B}} ^ {\prime}\right) _ {p} = 0 = \left(\mathbf {x} _ {\mathcal {B}}\right) _ {p} - \left(\mathbf {A} _ {\mathcal {B}} ^ {- 1} \mathbf {A} _ {\{q \}}\right) _ {p} x _ {q} ^ {\prime} \tag {12.23}
+\left(\mathbf {x}_{\mathcal {B}}^{\prime}\right) _{p} = 0 = \left(\mathbf {x}_{\mathcal {B}}\right) _{p} - \left(\mathbf {A}_{\mathcal {B}}^{- 1} \mathbf {A}_{\{q \}}\right) _{p} x_{q}^{\prime} \tag {12.23}
 $$
 
 and is thus obtained by increasing  $x_{q} = 0$  to  $x_{q}^{\prime}$  with:
 
 $$
-x _ {q} ^ {\prime} = \frac {\left(\mathbf {x} _ {\mathcal {B}}\right) _ {p}}{\left(\mathbf {A} _ {\mathcal {B}} ^ {- 1} \mathbf {A} _ {\{q \}}\right) _ {p}} \tag {12.24}
+x_{q}^{\prime} = \frac{\left(\mathbf {x}_{\mathcal {B}}\right) _{p}}{\left(\mathbf {A}_{\mathcal {B}}^{- 1} \mathbf {A}_{\{q \}}\right) _{p}} \tag {12.24}
 $$
 
 The leaving index  $p$  is selected from  $\mathcal{B}$  so that it increases the value of variable with entering index  $q$  the least. Since this new value of the variable associated with index  $q$  is given by the ratio shown in equation (12.24), this selection criterion for the leaving index  $p$  is referred to as the minimum ratio test. The minimum ratio test computes equation (12.24) for each potential leaving index and selects the one with the minimum  $x_{q}^{\prime}$ . We then swap  $p$  and  $q$  between  $\mathcal{B}$  and  $\mathcal{V}$ . This edge transition is implemented in algorithm 12.2.
@@ -8289,13 +8056,13 @@ The leaving index  $p$  is selected from  $\mathcal{B}$  so that it increases th
 The effect that a transition has on the objective function can be computed using  $x_{q}^{\prime}$ . The objective function value at the new vertex is
 
 $$
-\mathbf {c} ^ {\top} \mathbf {x} ^ {\prime} = \mathbf {c} _ {\mathcal {B}} ^ {\top} \mathbf {x} _ {\mathcal {B}} ^ {\prime} + c _ {q} x _ {q} ^ {\prime} \tag {12.25}
+\mathbf {c}^{\top} \mathbf {x}^{\prime} = \mathbf {c}_{\mathcal {B}}^{\top} \mathbf {x}_{\mathcal {B}}^{\prime} + c_{q} x_{q}^{\prime} \tag {12.25}
 $$
 
 We apply equation (12.22) and expand:
 
 $$
-\begin{array}{l} \mathbf {c} ^ {\top} \mathbf {x} ^ {\prime} = \mathbf {c} _ {\mathcal {B}} ^ {\top} \left(\mathbf {x} _ {\mathcal {B}} - \mathbf {A} _ {\mathcal {B}} ^ {- 1} \mathbf {A} _ {\{q \}} x _ {q} ^ {\prime}\right) + c _ {q} x _ {q} ^ {\prime} (12.26) \\ = \mathbf {c} _ {\mathcal {B}} ^ {\top} \mathbf {x} _ {\mathcal {B}} - \mathbf {c} _ {\mathcal {B}} ^ {\top} \mathbf {A} _ {\mathcal {B}} ^ {- 1} \mathbf {A} _ {\{q \}} x _ {q} ^ {\prime} + c _ {q} x _ {q} ^ {\prime} (12.27) \\ \end{array}
+\begin{array}{l} \mathbf {c}^{\top} \mathbf {x}^{\prime} = \mathbf {c}_{\mathcal {B}}^{\top} \left(\mathbf {x}_{\mathcal {B}} - \mathbf {A}_{\mathcal {B}}^{- 1} \mathbf {A}_{\{q \}} x_{q}^{\prime}\right) + c_{q} x_{q}^{\prime} (12.26) \\ = \mathbf {c}_{\mathcal {B}}^{\top} \mathbf {x}_{\mathcal {B}} - \mathbf {c}_{\mathcal {B}}^{\top} \mathbf {A}_{\mathcal {B}}^{- 1} \mathbf {A}_{\{q \}} x_{q}^{\prime} + c_{q} x_{q}^{\prime} (12.27) \\ \end{array}
 $$
 
 ```javascript
@@ -8307,25 +8074,25 @@ Algorithm 12.2. A method for computing the index  $p$  and the new coordinate va
 By applying equation (12.18) to the entering index, we obtain
 
 $$
-\mathbf {A} _ {\{q \}} ^ {\top} \boldsymbol {\lambda} + \mu_ {q} = c _ {q} \tag {12.28}
+\mathbf {A}_{\{q \}}^{\top} \boldsymbol {\lambda} + \mu_{q} = c_{q} \tag {12.28}
 $$
 
 We can replace  $\lambda$  using equation (12.17) and rearrange, yielding:
 
 $$
-\mathbf {A} _ {\{q \}} ^ {\top} \mathbf {A} _ {\mathcal {B}} ^ {- \top} \mathbf {c} _ {\mathcal {B}} = \mathbf {c} _ {\mathcal {B}} ^ {\top} \mathbf {A} _ {\mathcal {B}} ^ {- 1} \mathbf {A} _ {\{q \}} = c _ {q} - \mu_ {q} \tag {12.29}
+\mathbf {A}_{\{q \}}^{\top} \mathbf {A}_{\mathcal {B}}^{- \top} \mathbf {c}_{\mathcal {B}} = \mathbf {c}_{\mathcal {B}}^{\top} \mathbf {A}_{\mathcal {B}}^{- 1} \mathbf {A}_{\{q \}} = c_{q} - \mu_{q} \tag {12.29}
 $$
 
 Substituting equation (12.29) into equation (12.27) yields:
 
 $$
-\begin{array}{l} \mathbf {c} ^ {\top} \mathbf {x} ^ {\prime} = \mathbf {c} _ {\mathcal {B}} ^ {\top} \mathbf {x} _ {\mathcal {B}} - \left(c _ {q} - \mu_ {q}\right) x _ {q} ^ {\prime} + c _ {q} x _ {q} ^ {\prime} (12.30) \\ = \mathbf {c} ^ {\top} \mathbf {x} + \mu_ {q} x _ {q} ^ {\prime} (12.31) \\ \end{array}
+\begin{array}{l} \mathbf {c}^{\top} \mathbf {x}^{\prime} = \mathbf {c}_{\mathcal {B}}^{\top} \mathbf {x}_{\mathcal {B}} - \left(c_{q} - \mu_{q}\right) x_{q}^{\prime} + c_{q} x_{q}^{\prime} (12.30) \\ = \mathbf {c}^{\top} \mathbf {x} + \mu_{q} x_{q}^{\prime} (12.31) \\ \end{array}
 $$
 
 Choosing an entering index  $q$  thus decreases the objective function value by
 
 $$
-\mathbf {c} ^ {\top} \mathbf {x} ^ {\prime} - \mathbf {c} ^ {\top} \mathbf {x} = \mu_ {q} x _ {q} ^ {\prime} \tag {12.32}
+\mathbf {c}^{\top} \mathbf {x}^{\prime} - \mathbf {c}^{\top} \mathbf {x} = \mu_{q} x_{q}^{\prime} \tag {12.32}
 $$
 
 The objective function decreases only if  $\mu_q$  is negative. In order to progress toward optimality, we must choose an index  $q$  in  $\mathcal{V}$  such that  $\mu_q$  is negative. If all components of  $\mu_V$  are nonnegative, we have found a global optimum.
@@ -8348,13 +8115,13 @@ The optimization phase of the simplex algorithm is implemented in algorithm 12.4
 The auxiliary linear program to be solved in the initialization phase includes extra variables  $\mathbf{z} \in \mathbb{R}^m$ , which we seek to zero out:
 
 $$
-\begin{array}{l} \underset {x, z} {\text {m i n i m i z e}} \quad \left[ \begin{array}{c c} \mathbf {0} ^ {\top} & \mathbf {1} ^ {\top} \end{array} \right] \left[ \begin{array}{c} \mathbf {x} \\ \mathbf {z} \end{array} \right] \\ \text {s u b j e c t} \quad \left[ \begin{array}{l l} \mathbf {A} & \mathbf {Z} \end{array} \right] \left[ \begin{array}{l} \mathbf {x} \\ \mathbf {z} \end{array} \right] = \mathbf {b} \tag {12.33} \\ \left[ \begin{array}{c} \mathbf {x} \\ \mathbf {z} \end{array} \right] \geq \mathbf {0} \\ \end{array}
+\begin{array}{l} \underset{x, z} {\text{minimize}} \quad \left[ \begin{array}{c c} \mathbf {0}^{\top} & \mathbf {1}^{\top} \end{array} \right] \left[ \begin{array}{c} \mathbf {x} \\ \mathbf {z} \end{array} \right] \\ \text{subject} \quad \left[ \begin{array}{l l} \mathbf {A} & \mathbf {Z} \end{array} \right] \left[ \begin{array}{l} \mathbf {x} \\ \mathbf {z} \end{array} \right] = \mathbf {b} \tag {12.33} \\ \left[ \begin{array}{c} \mathbf {x} \\ \mathbf {z} \end{array} \right] \geq \mathbf {0} \\ \end{array}
 $$
 
 where  $\mathbf{Z}$  is a diagonal matrix whose diagonal entries are
 
 $$
-Z _ {i i} = \left\{ \begin{array}{l l} + 1 & \text {i f} b _ {i} \geq 0 \\ - 1 & \text {o t h e r w i s e .} \end{array} \right. \tag {12.34}
+Z_{i i} = \left\{ \begin{array}{l l} + 1 & \text{if} b_{i} \geq 0 \\ - 1 & \text{otherwise .} \end{array} \right. \tag {12.34}
 $$
 
 For constraint  $\mathbf{A}^{\top}\mathbf{x} = \mathbf{b}\rightarrow$ $\alpha \mathbf{A}^{\top}\mathbf{x} = \alpha \mathbf{b},\alpha >0,$  we do not change the solution but the Lagrange multipliers are scaled,  $\lambda \to \alpha^{-1}\lambda$
@@ -8370,19 +8137,19 @@ and the initial vertex defined by  $\mathcal{B} = \{3,4\}$ . After verifying tha
 We extract  $\mathbf{x}_{\mathcal{B}}$
 
 $$
-\mathbf {x} _ {\mathcal {B}} = \mathbf {A} _ {\mathcal {B}} ^ {- 1} \mathbf {b} = \left[ \begin{array}{c c} 1 & 0 \\ 0 & 1 \end{array} \right] ^ {- 1} \left[ \begin{array}{c} 9 \\ 2 \end{array} \right] = \left[ \begin{array}{c} 9 \\ 2 \end{array} \right]
+\mathbf {x}_{\mathcal {B}} = \mathbf {A}_{\mathcal {B}}^{- 1} \mathbf {b} = \left[ \begin{array}{c c} 1 & 0 \\ 0 & 1 \end{array} \right] ^{- 1} \left[ \begin{array}{c} 9 \\ 2 \end{array} \right] = \left[ \begin{array}{c} 9 \\ 2 \end{array} \right]
 $$
 
 We then compute  $\lambda$ :
 
 $$
-\boldsymbol {\lambda} = \mathbf {A} _ {\mathcal {B}} ^ {- \top} \mathbf {c} _ {\mathcal {B}} = \left[ \begin{array}{c c} 1 & 0 \\ 0 & 1 \end{array} \right] ^ {- \top} \left[ \begin{array}{c} 0 \\ 0 \end{array} \right] = \mathbf {0}
+\boldsymbol {\lambda} = \mathbf {A}_{\mathcal {B}}^{- \top} \mathbf {c}_{\mathcal {B}} = \left[ \begin{array}{c c} 1 & 0 \\ 0 & 1 \end{array} \right] ^{- \top} \left[ \begin{array}{c} 0 \\ 0 \end{array} \right] = \mathbf {0}
 $$
 
 and  $\mu_{\mathcal{V}}$
 
 $$
-\boldsymbol {\mu} _ {\mathcal {V}} = \mathbf {c} _ {\mathcal {V}} - \left(\mathbf {A} _ {\mathcal {B}} ^ {- 1} \mathbf {A} _ {\mathcal {V}}\right) ^ {\top} \mathbf {c} _ {\mathcal {B}} = \left[ \begin{array}{l} 3 \\ - 1 \end{array} \right] - \left(\left[ \begin{array}{l l} 1 & 0 \\ 0 & 1 \end{array} \right] ^ {- 1} \left[ \begin{array}{l l} 1 & 1 \\ - 4 & 2 \end{array} \right]\right) ^ {\top} \left[ \begin{array}{l} 0 \\ 0 \end{array} \right] = \left[ \begin{array}{l} 3 \\ - 1 \end{array} \right]
+\boldsymbol {\mu}_{\mathcal {V}} = \mathbf {c}_{\mathcal {V}} - \left(\mathbf {A}_{\mathcal {B}}^{- 1} \mathbf {A}_{\mathcal {V}}\right) ^{\top} \mathbf {c}_{\mathcal {B}} = \left[ \begin{array}{l} 3 \\ - 1 \end{array} \right] - \left(\left[ \begin{array}{l l} 1 & 0 \\ 0 & 1 \end{array} \right] ^{- 1} \left[ \begin{array}{l l} 1 & 1 \\ - 4 & 2 \end{array} \right]\right) ^{\top} \left[ \begin{array}{l} 0 \\ 0 \end{array} \right] = \left[ \begin{array}{l} 3 \\ - 1 \end{array} \right]
 $$
 
 Because  $\mu_{\mathcal{V}}$  contains negative elements, our current  $\mathcal{B}$  is suboptimal. We will pivot on the index of the only negative element,  $q = 2$ . An edge transition is run from  $\mathbf{x}_{\mathcal{B}}$  in the direction  $-\mathbf{A}_{\mathcal{B}}^{-1}\mathbf{A}_{\{q\}} = [1,2]$ .
@@ -8392,7 +8159,7 @@ Using equation (12.22), we increase  $x_{q}^{\prime}$  until a new constraint be
 In the second iteration, we find:
 
 $$
-\mathbf {x} _ {\mathcal {B}} = \left[ \begin{array}{c} 1 \\ 8 \end{array} \right], \quad \boldsymbol {\lambda} = \left[ \begin{array}{c} 0 \\ - 1 / 2 \end{array} \right], \quad \boldsymbol {\mu} _ {\mathcal {V}} = \left[ \begin{array}{c} 1 \\ 1 / 2 \end{array} \right].
+\mathbf {x}_{\mathcal {B}} = \left[ \begin{array}{c} 1 \\ 8 \end{array} \right], \quad \boldsymbol {\lambda} = \left[ \begin{array}{c} 0 \\ - 1 / 2 \end{array} \right], \quad \boldsymbol {\mu}_{\mathcal {V}} = \left[ \begin{array}{c} 1 \\ 1 / 2 \end{array} \right].
 $$
 
 The vertex is optimal because  $\mu_{\mathcal{V}}$  has no negative entries. Our algorithm thus terminates with  $\mathcal{B} = \{2,3\}$ , for which the design point is  $\mathbf{x}^{*} = [0,1,8,0]$ .
@@ -8455,13 +8222,13 @@ In other words,  $z_{j} = |b_{j}|$ .
 Consider the equality-form linear program:
 
 $$
-\begin{array}{l} \underset {x _ {1}, x _ {2}, x _ {3}} {\text {m i n i m i z e}} \quad c _ {1} x _ {1} + c _ {2} x _ {2} + c _ {3} x _ {3} \\ \text {s u b j e c t} \quad 2 x _ {1} - 1 x _ {2} + 2 x _ {3} = 1 \\ 5 x _ {1} + 1 x _ {2} - 3 x _ {3} = - 2 \\ x _ {1}, x _ {2}, x _ {3} \geq 0 \\ \end{array}
+\begin{array}{l} \underset{x_{1}, x_{2}, x_{3}} {\text{minimize}} \quad c_{1} x_{1} + c_{2} x_{2} + c_{3} x_{3} \\ \text{subject} \quad 2 x_{1} - 1 x_{2} + 2 x_{3} = 1 \\ 5 x_{1} + 1 x_{2} - 3 x_{3} = - 2 \\ x_{1}, x_{2}, x_{3} \geq 0 \\ \end{array}
 $$
 
 We can identify a feasible vertex by solving:
 
 $$
-\begin{array}{l} \underset {x _ {1}, x _ {2}, x _ {3}, z _ {1}, z _ {2}} {\text {m i n i m i z e}} \quad z _ {1} + z _ {2} \\ \text {s u b j e c t} \quad 2 x _ {1} - 1 x _ {2} + 2 x _ {3} + z _ {1} = 1 \\ 5 x _ {1} + 1 x _ {2} - 3 x _ {3} - z _ {2} = - 2 \\ x _ {1}, x _ {2}, x _ {3}, z _ {1}, z _ {2} \geq 0 \\ \end{array}
+\begin{array}{l} \underset{x_{1}, x_{2}, x_{3}, z_{1}, z_{2}} {\text{minimize}} \quad z_{1} + z_{2} \\ \text{subject} \quad 2 x_{1} - 1 x_{2} + 2 x_{3} + z_{1} = 1 \\ 5 x_{1} + 1 x_{2} - 3 x_{3} - z_{2} = - 2 \\ x_{1}, x_{2}, x_{3}, z_{1}, z_{2} \geq 0 \\ \end{array}
 $$
 
 with an initial vertex defined by  $\mathcal{B} = \{4,5\}$ .
@@ -8469,7 +8236,7 @@ with an initial vertex defined by  $\mathcal{B} = \{4,5\}$ .
 The initial vertex has:
 
 $$
-\mathbf {x} _ {\mathcal {B}} ^ {(1)} = \mathbf {A} _ {\mathcal {B}} ^ {- 1} \mathbf {b} _ {\mathcal {B}} = \left[ \begin{array}{c c} 1 & 0 \\ 0 & - 1 \end{array} \right] ^ {- 1} \left[ \begin{array}{c} 1 \\ - 2 \end{array} \right] = \left[ \begin{array}{c} 1 \\ 2 \end{array} \right]
+\mathbf {x}_{\mathcal {B}}^{(1)} = \mathbf {A}_{\mathcal {B}}^{- 1} \mathbf {b}_{\mathcal {B}} = \left[ \begin{array}{c c} 1 & 0 \\ 0 & - 1 \end{array} \right] ^{- 1} \left[ \begin{array}{c} 1 \\ - 2 \end{array} \right] = \left[ \begin{array}{c} 1 \\ 2 \end{array} \right]
 $$
 
 and is thus  $\mathbf{x}^{(1)} = [0,0,0,1,2]$ . Solving the auxiliary problem yields  $\mathbf{x}^* \approx [0.045, 1.713, 1.312, 0, 0]$ . Thus [0.045, 1.713, 1.312] is a feasible vertex in the original problem.
@@ -8495,7 +8262,7 @@ Linear programs are linear and convex, and can be shown to have zero duality gap
 The primal linear program can be converted to its dual form:
 
 $$
-\begin{array}{l} \max  _ {\mu \geq 0, \lambda} \min  _ {\mathbf {x}} \mathcal {L} (\mathbf {x}, \mu , \lambda) = \max  _ {\mu \geq 0, \lambda} \min  _ {\mathbf {x}} \mathbf {c} ^ {\top} \mathbf {x} - \mu^ {\top} \mathbf {x} - \lambda^ {\top} (\mathbf {A x} - \mathbf {b}) (12.35) \\ = \max  _ {\mu \geq 0, \lambda} \min  _ {x} (\mathbf {c} - \boldsymbol {\mu} - \mathbf {A} ^ {\top} \boldsymbol {\lambda}) ^ {\top} \mathbf {x} + \boldsymbol {\lambda} ^ {\top} \mathbf {b} (12.36) \\ \end{array}
+\begin{array}{l} \max_{\mu \geq 0, \lambda} \min_{\mathbf {x}} \mathcal {L} (\mathbf {x}, \mu , \lambda) = \max_{\mu \geq 0, \lambda} \min_{\mathbf {x}} \mathbf {c}^{\top} \mathbf {x} - \mu^{\top} \mathbf {x} - \lambda^{\top} (\mathbf {A x} - \mathbf {b}) (12.35) \\ = \max_{\mu \geq 0, \lambda} \min_{x} (\mathbf {c} - \boldsymbol {\mu} - \mathbf {A}^{\top} \boldsymbol {\lambda}) ^{\top} \mathbf {x} + \boldsymbol {\lambda}^{\top} \mathbf {b} (12.36) \\ \end{array}
 $$
 
 From the first-order necessary conditions, we know  $\mathbf{c} - \boldsymbol{\mu} - \mathbf{A}^{\top}\boldsymbol{\lambda} = \mathbf{0}$ , which allows us to drop the first term in the objective above. In addition, we know  $\boldsymbol{\mu} = \mathbf{c} - \mathbf{A}^{\top}\boldsymbol{\lambda} \geq \mathbf{0}$ , which implies  $\mathbf{A}^{\top}\boldsymbol{\lambda} \leq \mathbf{c}$ . In summary, we have:
@@ -8505,19 +8272,19 @@ Primal Form (equality)
 Dual Form
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad \mathbf {c} ^ {\top} \mathbf {x}
+\underset{\mathbf {x}} {\text{minimize}} \quad \mathbf {c}^{\top} \mathbf {x}
 $$
 
 $$
-\underset {\lambda} {\text {m a x i m i z e}} \quad \mathbf {b} ^ {\top} \boldsymbol {\lambda}
+\underset{\lambda} {\text{maximize}} \quad \mathbf {b}^{\top} \boldsymbol {\lambda}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {A x} = \mathbf {b}
+\text{subject} \quad \mathbf {A x} = \mathbf {b}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {A} ^ {\top} \lambda \leq \mathbf {c}
+\text{subject} \quad \mathbf {A}^{\top} \lambda \leq \mathbf {c}
 $$
 
 $$
@@ -8556,19 +8323,19 @@ $$
 We would like to determine whether  $\mathbf{x}^{*} = [2,0,1]$  and  $\lambda^{*} = [1,0,0]$  are an optimal solution pair. We first verify that  $\mathbf{x}^{*}$  is feasible:
 
 $$
-\mathbf {A} \mathbf {x} ^ {*} = [ 1, - 2, 5 ] = \mathbf {b}, \quad \mathbf {x} ^ {*} \geq \mathbf {0}
+\mathbf {A} \mathbf {x}^{*} = [ 1, - 2, 5 ] = \mathbf {b}, \quad \mathbf {x}^{*} \geq \mathbf {0}
 $$
 
 We then verify that  $\lambda^{*}$  is dual-feasible:
 
 $$
-\mathbf {A} ^ {\top} \boldsymbol {\lambda} ^ {*} = [ 1, 1, - 1 ] \leq \mathbf {c}
+\mathbf {A}^{\top} \boldsymbol {\lambda}^{*} = [ 1, 1, - 1 ] \leq \mathbf {c}
 $$
 
 Finally, we verify that  $p^*$  and  $d^{*}$  are the same:
 
 $$
-p ^ {*} = \mathbf {c} ^ {\top} \mathbf {x} ^ {*} = 1 = \mathbf {b} ^ {\top} \boldsymbol {\lambda} ^ {*} = d ^ {*}
+p^{*} = \mathbf {c}^{\top} \mathbf {x}^{*} = 1 = \mathbf {b}^{\top} \boldsymbol {\lambda}^{*} = d^{*}
 $$
 
 We conclude that  $(\mathbf{x}^{*},\lambda^{*})$  are optimal.
@@ -8601,35 +8368,35 @@ Exercise 12.3. Suppose we want to minimize  $6x_{1} + 5x_{2}$  subject to the co
 Solution: The linear program was given to us in general form. To transform it to equality form, we first invert the inequality constraint:
 
 $$
-\underset {x _ {1}, x _ {2}} {\text {m i n i m i z e}} \quad 6 x _ {1} + 5 x _ {2}
+\underset{x_{1}, x_{2}} {\text{minimize}} \quad 6 x_{1} + 5 x_{2}
 $$
 
 $$
-\text {s u b j e c t} \quad - 3 x _ {1} + 2 x _ {2} \leq - 5
+\text{subject} \quad - 3 x_{1} + 2 x_{2} \leq - 5
 $$
 
 We then split our design variables by sign to obtain standard form:
 
 $$
-\underset {x _ {1} ^ {\pm}, x _ {2} ^ {\pm}} {\text {m i n i m i z e}} \quad 6 x _ {1} ^ {+} + 5 x _ {2} ^ {+} - 6 x _ {1} ^ {-} - 5 x _ {2} ^ {-}
+\underset{x_{1}^{\pm}, x_{2}^{\pm}} {\text{minimize}} \quad 6 x_{1}^{+} + 5 x_{2}^{+} - 6 x_{1}^{-} - 5 x_{2}^{-}
 $$
 
 subject to
 
 $$
-x _ {1} ^ {\pm}, x _ {2} ^ {\pm} \geq 0
+x_{1}^{\pm}, x_{2}^{\pm} \geq 0
 $$
 
 Finally, we add a slack variable  $x_{3} \geq 0$  to obtain equality form:
 
 $$
-\underset {x _ {1} ^ {\pm}, x _ {2} ^ {\pm}, x _ {3}} {\text {m i n i m i z e}} \quad 6 x _ {1} ^ {+} + 5 x _ {2} ^ {+} - 6 x _ {1} ^ {-} - 5 x _ {2} ^ {-}
+\underset{x_{1}^{\pm}, x_{2}^{\pm}, x_{3}} {\text{minimize}} \quad 6 x_{1}^{+} + 5 x_{2}^{+} - 6 x_{1}^{-} - 5 x_{2}^{-}
 $$
 
 subject to  $-3x_{1}^{+} + 2x_{2}^{+} + 3x_{1}^{-} - 2x_{2}^{-} + x_{3} = -5$
 
 $$
-x _ {1} ^ {\pm}, x _ {2} ^ {\pm}, x _ {3} \geq 0
+x_{1}^{\pm}, x_{2}^{\pm}, x_{3} \geq 0
 $$
 
 Exercise 12.4. Consider the equality-form linear program with
@@ -8643,7 +8410,7 @@ and the initial vertex defined by  $\mathcal{B} = \{1,2,3,4\}$ . Verify that  $\
 Solution: We can verify that  $\mathcal{B} = \{1,2,3,4\}$  is a feasible vertex by verifying that  $\mathbf{A}_{\mathcal{B}}$  is invertible. We have:
 
 $$
-\mathbf {A} _ {\mathcal {B}} = \left[ \begin{array}{c c c c} - 1 & - 1 & 1 & 0 \\ 1 & - 2 & 0 & 1 \\ 2 & 1 & 0 & 0 \\ - 1 & 1 & 0 & 0 \end{array} \right]
+\mathbf {A}_{\mathcal {B}} = \left[ \begin{array}{c c c c} - 1 & - 1 & 1 & 0 \\ 1 & - 2 & 0 & 1 \\ 2 & 1 & 0 & 0 \\ - 1 & 1 & 0 & 0 \end{array} \right]
 $$
 
 which is invertible.
@@ -8651,19 +8418,19 @@ which is invertible.
 We begin an iteration of the simplex algorithm by extracting  $\mathbf{x}_{\mathcal{B}}$ :
 
 $$
-\mathbf {x} _ {\mathcal {B}} = \mathbf {A} _ {\mathcal {B}} ^ {- 1} \mathbf {b} = \left[ \begin{array}{c c c c} - 1 & - 1 & 1 & 0 \\ 1 & - 2 & 0 & 1 \\ 2 & 1 & 0 & 0 \\ - 1 & 1 & 0 & 0 \end{array} \right] ^ {- 1} \left[ \begin{array}{c} - 1 \\ 1 \\ 7 \\ 1 \end{array} \right] = \left[ \begin{array}{c} 2 \\ 3 \\ 4 \\ 5 \end{array} \right]
+\mathbf {x}_{\mathcal {B}} = \mathbf {A}_{\mathcal {B}}^{- 1} \mathbf {b} = \left[ \begin{array}{c c c c} - 1 & - 1 & 1 & 0 \\ 1 & - 2 & 0 & 1 \\ 2 & 1 & 0 & 0 \\ - 1 & 1 & 0 & 0 \end{array} \right] ^{- 1} \left[ \begin{array}{c} - 1 \\ 1 \\ 7 \\ 1 \end{array} \right] = \left[ \begin{array}{c} 2 \\ 3 \\ 4 \\ 5 \end{array} \right]
 $$
 
 We then compute  $\mu_{\mathcal{V}}$
 
 $$
-\boldsymbol {\mu} _ {\mathcal {V}} = \mathbf {c} _ {\mathcal {V}} - \left(\mathbf {A} _ {\mathcal {B}} ^ {- 1} \mathbf {A} _ {\mathcal {V}}\right) ^ {\top} \mathbf {c} _ {\mathcal {B}} = \left[ \begin{array}{l} 0 \\ 0 \end{array} \right] - \left(\left[ \begin{array}{c c c c} - 1 & - 1 & 1 & 0 \\ 1 & - 2 & 0 & 1 \\ 2 & 1 & 0 & 0 \\ - 1 & 1 & 0 & 0 \end{array} \right] ^ {- 1} \left[ \begin{array}{c c} 0 & 0 \\ 0 & 0 \\ 1 & 0 \\ 0 & 1 \end{array} \right]\right) ^ {\top} \left[ \begin{array}{l} 1 \\ 3 \\ 0 \\ 0 \end{array} \right] = \left[ \begin{array}{l} - 4 / 3 \\ - 5 / 3 \end{array} \right]
+\boldsymbol {\mu}_{\mathcal {V}} = \mathbf {c}_{\mathcal {V}} - \left(\mathbf {A}_{\mathcal {B}}^{- 1} \mathbf {A}_{\mathcal {V}}\right) ^{\top} \mathbf {c}_{\mathcal {B}} = \left[ \begin{array}{l} 0 \\ 0 \end{array} \right] - \left(\left[ \begin{array}{c c c c} - 1 & - 1 & 1 & 0 \\ 1 & - 2 & 0 & 1 \\ 2 & 1 & 0 & 0 \\ - 1 & 1 & 0 & 0 \end{array} \right] ^{- 1} \left[ \begin{array}{c c} 0 & 0 \\ 0 & 0 \\ 1 & 0 \\ 0 & 1 \end{array} \right]\right) ^{\top} \left[ \begin{array}{l} 1 \\ 3 \\ 0 \\ 0 \end{array} \right] = \left[ \begin{array}{l} - 4 / 3 \\ - 5 / 3 \end{array} \right]
 $$
 
 We find that  $\mu_{\gamma}$  contains negative elements, so our current  $\mathcal{B}$  is suboptimal. We can select from the two negative elements, and will choose according to the minimum ratio test. The ratios are:
 
 $$
-\begin{array}{l} \mathbf {x} _ {(q = 5)} ^ {\prime} = \left[ \frac {(\mathbf {x} _ {\mathcal {B}}) _ {p}}{(\mathbf {A} _ {\mathcal {B}} ^ {- 1} \mathbf {A} _ {\{5 \}}) _ {p}} \mathrm {f o r} p \in \{1, 2, 3, 4 \} \right] = [ 6, 9, 6, 1 6 ] \\ \mathbf {x} _ {(q = 6)} ^ {\prime} = \left[ \frac {(\mathbf {x} _ {B}) _ {p}}{(\mathbf {A} _ {B} ^ {- 1} \mathbf {A} _ {\{6 \}}) _ {p}} \mathrm {f o r} p \in \{1, 2, 3, 4 \} \right] = [ - 6, 4. 5, 1 2, 3 ] \\ \end{array}
+\begin{array}{l} \mathbf {x}_{(q = 5)}^{\prime} = \left[ \frac{(\mathbf {x}_{\mathcal {B}}) _{p}}{(\mathbf {A}_{\mathcal {B}}^{- 1} \mathbf {A}_{\{5 \}}) _{p}} \mathrm{fo r} p \in \{1, 2, 3, 4 \} \right] = [ 6, 9, 6, 16 ] \\ \mathbf {x}_{(q = 6)}^{\prime} = \left[ \frac{(\mathbf {x}_{B}) _{p}}{(\mathbf {A}_{B}^{- 1} \mathbf {A}_{\{6 \}}) _{p}} \mathrm{fo r} p \in \{1, 2, 3, 4 \} \right] = [ - 6, 4. 5, 12, 3 ] \\ \end{array}
 $$
 
 The minimum (positive) ratio is thus 3, achieved with  $q = 6$  and  $p = 4$ . Hence, we update  $\mathcal{B}$  by removing 4 and introducing 6 to obtain  $\mathcal{B}' = \{1,2,3,6\}$ .
@@ -8683,21 +8450,21 @@ and we perform an edge transition to move index  $q = 4$  into  $\mathcal{B} = \
 Solution: The minimum ratio test produces:
 
 $$
-x _ {q} ^ {\prime} = 1 \text {f o r} p = 1
+x_{q}^{\prime} = 1 \text{for} p = 1
 $$
 
 $$
-x _ {q} ^ {\prime} = 2 \text {f o r} p = 2
+x_{q}^{\prime} = 2 \text{for} p = 2
 $$
 
 $$
-x _ {q} ^ {\prime} = 3 \text {f o r} p = 3
+x_{q}^{\prime} = 3 \text{for} p = 3
 $$
 
 According to the minimum ratio test, we would select  $p = 1$  as our entering index. If we choose  $p = 2$  instead, then our new design would have  $\mathcal{B} = \{1,3,4\}$ , which corresponds to the design:
 
 $$
-\mathbf {x} _ {\mathcal {B}} = \left[ \begin{array}{c c c} 1 & 0 & 1 \\ 0 & 0 & 1 \\ 0 & 1 & 1 \end{array} \right] ^ {- 1} \left[ \begin{array}{c} 1 \\ 2 \\ 3 \end{array} \right] = \left[ \begin{array}{c} - 1 \\ 1 \\ 2 \end{array} \right]
+\mathbf {x}_{\mathcal {B}} = \left[ \begin{array}{c c c} 1 & 0 & 1 \\ 0 & 0 & 1 \\ 0 & 1 & 1 \end{array} \right] ^{- 1} \left[ \begin{array}{c} 1 \\ 2 \\ 3 \end{array} \right] = \left[ \begin{array}{c} - 1 \\ 1 \\ 2 \end{array} \right]
 $$
 
 This design has a negative component, which is not feasible for a linear program in standard form.
@@ -8705,11 +8472,11 @@ This design has a negative component, which is not feasible for a linear program
 Exercise 12.7. Reformulate the linear program
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad \mathbf {c} ^ {\top} \mathbf {x}
+\underset{\mathbf {x}} {\text{minimize}} \quad \mathbf {c}^{\top} \mathbf {x}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {A x} \geq \mathbf {0}
+\text{subject} \quad \mathbf {A x} \geq \mathbf {0}
 $$
 
 into an unconstrained optimization problem with a log barrier penalty.
@@ -8717,7 +8484,7 @@ into an unconstrained optimization problem with a log barrier penalty.
 Solution: We can rewrite the problem:
 
 $$
-\underset {\mathbf {x}} {\operatorname {m i n i m i z e}} \mathbf {c} ^ {\top} \mathbf {x} - \mu \sum_ {i} \ln \left(\mathbf {A} _ {\{i \}} ^ {\top} \mathbf {x}\right)
+\underset{\mathbf {x}} {\operatorname{minimize}} \mathbf {c}^{\top} \mathbf {x} - \mu \sum_{i} \ln \left(\mathbf {A}_{\{i \}}^{\top} \mathbf {x}\right)
 $$
 
 # 13 Quadratic Programming
@@ -8729,15 +8496,15 @@ Quadratic programming involves solving optimization problems with quadratic obje
 Like a linear program, a quadratic programming problem, or quadratic program, can be expressed in multiple forms. One general form for a quadratic program is the linear program from equation (12.2) with an additional quadratic objective term:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad \frac {1}{2} \mathbf {x} ^ {\top} \mathbf {Q} \mathbf {x} + \mathbf {q} ^ {\top} \mathbf {x}
+\underset{\mathbf {x}} {\text{minimize}} \quad \frac{1}{2} \mathbf {x}^{\top} \mathbf {Q} \mathbf {x} + \mathbf {q}^{\top} \mathbf {x}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {C} _ {\mathrm {L E}} \mathbf {x} \leq \mathbf {d} _ {\mathrm {L E}} \tag {13.1}
+\text{subject} \quad \mathbf {C}_{\mathrm{LE}} \mathbf {x} \leq \mathbf {d}_{\mathrm{LE}} \tag {13.1}
 $$
 
 $$
-\mathbf {C} _ {\mathrm {E Q}} \mathbf {x} = \mathbf {d} _ {\mathrm {E Q}}
+\mathbf {C}_{\mathrm{EQ}} \mathbf {x} = \mathbf {d}_{\mathrm{EQ}}
 $$
 
 Here  $1/2\mathbf{x}^{\top}\mathbf{Q}\mathbf{x}$  produces quadratic components  $1/2Q_{ii}x_i^2$  and product components  $(1/2Q_{ij} + 1/2Q_{ji})x_ix_j$ .
@@ -8749,15 +8516,15 @@ This chapter is a short introduction to quadratic programs and one method used t
 When  $\mathbf{Q}$  is positive definite, then  $\mathbf{x}^{\top}\mathbf{Q}\mathbf{x} > 0$  for all  $\mathbf{x} \neq \mathbf{0}$  and the objective is convex. It is then possible to factor  $\mathbf{Q}$  into  $\mathbf{U}^{\top}\mathbf{U}$  using a Cholesky decomposition, and the quadratic program can be written as a least-squares problem:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad \| \mathbf {A} \mathbf {x} - \mathbf {b} \|
+\underset{\mathbf {x}} {\text{minimize}} \quad \| \mathbf {A} \mathbf {x} - \mathbf {b} \|
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {C} _ {\mathrm {L E}} \mathbf {x} \leq \mathbf {d} _ {\mathrm {L E}} \tag {13.2}
+\text{subject} \quad \mathbf {C}_{\mathrm{LE}} \mathbf {x} \leq \mathbf {d}_{\mathrm{LE}} \tag {13.2}
 $$
 
 $$
-\mathbf {C} _ {\mathrm {E Q}} \mathbf {x} = \mathbf {d} _ {\mathrm {E Q}}
+\mathbf {C}_{\mathrm{EQ}} \mathbf {x} = \mathbf {d}_{\mathrm{EQ}}
 $$
 
 with  $\mathbf{A} = \mathbf{U}$  and  $\mathbf{b} = -\mathbf{U}^{-\top}\mathbf{q}$ . A solution to a least squares problem  $\mathbf{x}^*$  is a vector that minimizes the Euclidean length of  $\mathbf{Ax} - \mathbf{b}$  while satisfying the linear constraints, as shown in example 13.1.2
@@ -8771,13 +8538,13 @@ The feasible set for a quadratic program has the same form as the feasible set f
 We first consider least squares problems without any constraints:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad \| \mathbf {A} \mathbf {x} - \mathbf {b} \| \tag {13.3}
+\underset{\mathbf {x}} {\text{minimize}} \quad \| \mathbf {A} \mathbf {x} - \mathbf {b} \| \tag {13.3}
 $$
 
 The objective is minimized when  $\mathbf{A}\mathbf{x}$  is as close to  $\mathbf{b}$  as possible. If  $\mathbf{A}$  is invertible, then we have a unique solution that drives the objective to zero:
 
 $$
-\mathbf {x} ^ {*} = \mathbf {A} ^ {- 1} \mathbf {b} \tag {13.4}
+\mathbf {x}^{*} = \mathbf {A}^{- 1} \mathbf {b} \tag {13.4}
 $$
 
 2 Minimizing the Euclidean length is equivalent to minimizing its square:  $\| \mathbf{A}\mathbf{x} - \mathbf{b}\| ^2$  , which is a quadratic objective function. Problem equivalence is demonstrated in exercise 13.5.  
@@ -8791,7 +8558,7 @@ Figure 13.1. The series of transformations applied to quadratic programs with po
 The following problem has a quadratic objective and linear constraints, making it a quadratic program:
 
 $$
-\begin{array}{l l} \underset {x _ {1}, x _ {2}} {\text {m i n i m i z e}} & \left\| \left[ \begin{array}{c c} 2 & 1 \\ - 4 & 3 \end{array} \right] \left[ \begin{array}{c} x _ {1} \\ x _ {2} \end{array} \right] - \left[ \begin{array}{c} 1 \\ 2 \end{array} \right] \right\| \\ \text {s u b j e c t t o} & \begin{array}{l l l} 2 x _ {1} & - 1 x _ {2} & \geq 2 \\ 1 x _ {1} & - 3 x _ {2} & \leq 4 \end{array} \end{array}
+\begin{array}{l l} \underset{x_{1}, x_{2}} {\text{minimize}} & \left\| \left[ \begin{array}{c c} 2 & 1 \\ - 4 & 3 \end{array} \right] \left[ \begin{array}{c} x_{1} \\ x_{2} \end{array} \right] - \left[ \begin{array}{c} 1 \\ 2 \end{array} \right] \right\| \\ \text{subjectto} & \begin{array}{l l l} 2 x_{1} & - 1 x_{2} & \geq 2 \\ 1 x_{1} & - 3 x_{2} & \leq 4 \end{array} \end{array}
 $$
 
 Below we show a contour plot of the objective function. The linear constraint boundaries are shown with the feasible set shaded.
@@ -8812,25 +8579,25 @@ Figure 13.2. Quadratic program constraint forms with different solutions. In the
 If  $\mathbf{A}$  is not invertible, then solving the least squares problem is slightly more complicated, but we can still derive a solution analytically. In fact, similar to linear programs, multiple solutions can exist. An  $\mathbf{A} \in \mathbb{R}^{m \times n}$  that is rank  $k$  always has a complete orthogonal decomposition given by
 
 $$
-\mathbf {A} = \mathbf {U} \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V} ^ {\top} \tag {13.5}
+\mathbf {A} = \mathbf {U} \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V}^{\top} \tag {13.5}
 $$
 
 for orthogonal matrix  $\mathbf{U} \in \mathbb{R}^{m \times m}$ , orthogonal matrix  $\mathbf{V} \in \mathbb{R}^{n \times n}$ , and full-rank matrix  $\mathbf{T} \in \mathbb{R}^{k \times k}$ . We can substitute this decomposition into our objective function:
 
 $$
-\left\| \mathbf {A} \mathbf {x} - \mathbf {b} \right\| ^ {2} = \left\| \mathbf {U} \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V} ^ {\top} \mathbf {x} - \mathbf {b} \right\| ^ {2} \tag {13.6}
+\left\| \mathbf {A} \mathbf {x} - \mathbf {b} \right\| ^{2} = \left\| \mathbf {U} \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V}^{\top} \mathbf {x} - \mathbf {b} \right\| ^{2} \tag {13.6}
 $$
 
 An orthogonal matrix's inverse is equal to its transpose, and multiplication by an orthogonal matrix preserves Euclidean length:
 
 $$
-\begin{array}{l} \left\| \mathbf {A} \mathbf {x} - \mathbf {b} \right\| ^ {2} = \left\| \mathbf {U} ^ {- 1} \mathbf {U} \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V} ^ {\top} \mathbf {x} - \mathbf {U} ^ {- 1} \mathbf {b} \right\| ^ {2} (13.7) \\ = \left\| \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \left(\mathbf {V} ^ {\top} \mathbf {x}\right) - \left(\mathbf {U} ^ {\top} \mathbf {b}\right) \right\| ^ {2} (13.8) \\ \end{array}
+\begin{array}{l} \left\| \mathbf {A} \mathbf {x} - \mathbf {b} \right\| ^{2} = \left\| \mathbf {U}^{- 1} \mathbf {U} \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V}^{\top} \mathbf {x} - \mathbf {U}^{- 1} \mathbf {b} \right\| ^{2} (13.7) \\ = \left\| \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \left(\mathbf {V}^{\top} \mathbf {x}\right) - \left(\mathbf {U}^{\top} \mathbf {b}\right) \right\| ^{2} (13.8) \\ \end{array}
 $$
 
 If we split our matrices after the first  $k$  rows, we can further simplify to:
 
 $$
-\begin{array}{l} \left\| \mathbf {A} \mathbf {x} - \mathbf {b} \right\| ^ {2} = \left\| \left[ \begin{array}{c} \mathbf {T V} _ {(1: k, \cdot)} ^ {\top} \mathbf {x} - \mathbf {U} _ {(1: k, \cdot)} ^ {\top} \mathbf {b} \\ - \mathbf {U} _ {(k + 1: m, \cdot)} ^ {\top} \mathbf {b} \end{array} \right] \right\| ^ {2} (13.9) \\ = \left\| \mathbf {T} \mathbf {V} _ {(1: k, \cdot)} ^ {\top} \mathbf {x} - \mathbf {U} _ {(1: k, \cdot)} ^ {\top} \mathbf {b} \right\| ^ {2} + \left\| \mathbf {U} _ {(k + 1: m, \cdot)} ^ {\top} \mathbf {b} \right\| ^ {2} (13.10) \\ \end{array}
+\begin{array}{l} \left\| \mathbf {A} \mathbf {x} - \mathbf {b} \right\| ^{2} = \left\| \left[ \begin{array}{c} \mathbf {T V}_{(1: k, \cdot)}^{\top} \mathbf {x} - \mathbf {U}_{(1: k, \cdot)}^{\top} \mathbf {b} \\ - \mathbf {U}_{(k + 1: m, \cdot)}^{\top} \mathbf {b} \end{array} \right] \right\| ^{2} (13.9) \\ = \left\| \mathbf {T} \mathbf {V}_{(1: k, \cdot)}^{\top} \mathbf {x} - \mathbf {U}_{(1: k, \cdot)}^{\top} \mathbf {b} \right\| ^{2} + \left\| \mathbf {U}_{(k + 1: m, \cdot)}^{\top} \mathbf {b} \right\| ^{2} (13.10) \\ \end{array}
 $$
 
 Let us split  $\mathbf{V}^{\top}\mathbf{x}$  into a component  $\mathbf{v}_{\mathrm{active}} = \mathbf{V}_{(1:k,\cdot)}^{\top}\mathbf{x}$  that is active in the objective and a component  $\mathbf{v}_{\mathrm{free}} = \mathbf{V}_{(k + 1:n,\cdot)}^{\top}\mathbf{x}$  that is not. Varying the free component does not change the objective value, making it free to vary.
@@ -8838,13 +8605,13 @@ Let us split  $\mathbf{V}^{\top}\mathbf{x}$  into a component  $\mathbf{v}_{\mat
 The objective only depends on the active component:
 
 $$
-\left\| \mathbf {A} \mathbf {x} - \mathbf {b} \right\| ^ {2} = \left\| \mathbf {T} \mathbf {v} _ {\text {a c t i v e}} - \mathbf {U} _ {(1: k, \cdot)} ^ {\top} \mathbf {b} \right\| ^ {2} + \left\| \mathbf {U} _ {(k + 1: m, \cdot)} ^ {\top} \mathbf {b} \right\| ^ {2} \tag {13.11}
+\left\| \mathbf {A} \mathbf {x} - \mathbf {b} \right\| ^{2} = \left\| \mathbf {T} \mathbf {v}_{\text{active}} - \mathbf {U}_{(1: k, \cdot)}^{\top} \mathbf {b} \right\| ^{2} + \left\| \mathbf {U}_{(k + 1: m, \cdot)}^{\top} \mathbf {b} \right\| ^{2} \tag {13.11}
 $$
 
 and is minimized when
 
 $$
-\mathbf {v} _ {\text {a c t i v e}} ^ {*} = \mathbf {T} ^ {- 1} \mathbf {U} _ {(1: k, \cdot)} ^ {\top} \mathbf {b} \tag {13.12}
+\mathbf {v}_{\text{active}}^{*} = \mathbf {T}^{- 1} \mathbf {U}_{(1: k, \cdot)}^{\top} \mathbf {b} \tag {13.12}
 $$
 
 Alternative derivations are provided in Section 12.2 of the textbook by S. Boyd and L. Vandenberghe, Introduction to Applied Linear Algebra: Vectors, Matrices, and Least Squares. Cambridge University Press, 2018.  
@@ -8853,33 +8620,33 @@ One popular choice is the singular value decomposition.
 While  $\mathbf{v}_{\mathrm{active}}^{*}$  is unique, the overall optimal design is nonunique because  $\mathbf{v}_{\mathrm{free}}$  can take on any value. We can ensure uniqueness by stipulating that  $\mathbf{v}_{\mathrm{free}} = \mathbf{0}$ . In this case,
 
 $$
-\begin{array}{l} \mathbf {x} ^ {*} = \mathbf {V} \left[ \begin{array}{c} \mathbf {v} _ {\text {a c t i v e}} ^ {*} \\ \mathbf {0} \end{array} \right] (13.13) \\ = \mathbf {V} \left[ \begin{array}{c} \mathbf {T} ^ {- 1} \mathbf {U} _ {(1: k, \cdot)} ^ {\top} \mathbf {b} \\ \mathbf {0} \end{array} \right] (13.14) \\ = \mathbf {V} \left[ \begin{array}{l l} \mathbf {T} ^ {- 1} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \left[ \begin{array}{l l} \mathbf {U} _ {(1: k, \cdot)} ^ {\top} & \mathbf {U} _ {(k + 1: n, \cdot)} ^ {\top} \end{array} \right] \mathbf {b} (13.15) \\ = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T} ^ {- 1} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top} \mathbf {b} (13.16) \\ \end{array}
+\begin{array}{l} \mathbf {x}^{*} = \mathbf {V} \left[ \begin{array}{c} \mathbf {v}_{\text{active}}^{*} \\ \mathbf {0} \end{array} \right] (13.13) \\ = \mathbf {V} \left[ \begin{array}{c} \mathbf {T}^{- 1} \mathbf {U}_{(1: k, \cdot)}^{\top} \mathbf {b} \\ \mathbf {0} \end{array} \right] (13.14) \\ = \mathbf {V} \left[ \begin{array}{l l} \mathbf {T}^{- 1} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \left[ \begin{array}{l l} \mathbf {U}_{(1: k, \cdot)}^{\top} & \mathbf {U}_{(k + 1: n, \cdot)}^{\top} \end{array} \right] \mathbf {b} (13.15) \\ = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T}^{- 1} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top} \mathbf {b} (13.16) \\ \end{array}
 $$
 
 We can show that the equation above is equivalent to
 
 $$
-\mathbf {x} ^ {*} = \mathbf {A} ^ {+} \mathbf {b} \tag {13.17}
+\mathbf {x}^{*} = \mathbf {A}^{+} \mathbf {b} \tag {13.17}
 $$
 
 where  $\mathbf{A}^{+}$  is the pseudoinverse of  $\mathbf{A}$ . The pseudoinverse can be computed without a complete orthogonal decomposition:
 
 $$
-\mathbf {A} ^ {+} = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T} ^ {- 1} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top} \tag {13.18}
+\mathbf {A}^{+} = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T}^{- 1} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top} \tag {13.18}
 $$
 
 In particular,  $\mathbf{A}^{+}$  can be computed using matrix transposes, inverses, and products depending on the linear independence of the rows or columns:8
 
 $$
-\mathbf {A} ^ {+} = \left(\mathbf {A} ^ {\top} \mathbf {A}\right) ^ {- 1} \mathbf {A} ^ {\top} \quad \text {w h e n t h e c o l u m n s o f A a r e l i n e a r l y i n d e p e n d e n t} \tag {13.19}
+\mathbf {A}^{+} = \left(\mathbf {A}^{\top} \mathbf {A}\right) ^{- 1} \mathbf {A}^{\top} \quad \text{whenthecolumnsof Aarelinearlyindependent} \tag {13.19}
 $$
 
 $$
-\mathbf {A} ^ {+} = \mathbf {A} ^ {\top} \left(\mathbf {A} \mathbf {A} ^ {\top}\right) ^ {- 1} \quad \text {w h e n t h e r o w s o f A a r e l i n e a r l y i n d e p e n d e n t} \tag {13.20}
+\mathbf {A}^{+} = \mathbf {A}^{\top} \left(\mathbf {A} \mathbf {A}^{\top}\right) ^{- 1} \quad \text{whentherowsofAarelinearlyindependent} \tag {13.20}
 $$
 
 $$
-\mathbf {A} ^ {+} = \mathbf {A} ^ {- 1} \quad \text {w h e n} \mathbf {A} \text {i s i n v e r t i b l e} \tag {13.21}
+\mathbf {A}^{+} = \mathbf {A}^{- 1} \quad \text{when} \mathbf {A} \text{isinvertible} \tag {13.21}
 $$
 
 The function pinv in Julia computes the pseudoinverse of a matrix.
@@ -8891,11 +8658,11 @@ Exercise 13.7 shows that these formulations are equivalent to equation (13.18).
 The general least squares program given in equation (13.2) can be converted into a least squares with linear inequalities. Here, all constraints are greater-than inequalities:9
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad \| \mathbf {A} \mathbf {x} - \mathbf {b} \| \tag {13.22}
+\underset{\mathbf {x}} {\text{minimize}} \quad \| \mathbf {A} \mathbf {x} - \mathbf {b} \| \tag {13.22}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {C x} \geq \mathbf {d}
+\text{subject} \quad \mathbf {C x} \geq \mathbf {d}
 $$
 
 To arrive at this form, less-than inequalities can simply be negated. While equality constraints could be split into two, as was done with linear programs, it is more common to eliminate them as covered in section 10.4. Elimination avoids numerical instability that can occur when working with competing inequalities without an interior.
@@ -8903,27 +8670,27 @@ To arrive at this form, less-than inequalities can simply be negated. While equa
 Equality constraints are eliminated using an LQ decomposition  $\mathbf{C}_{\mathrm{EQ}} = \mathbf{L}\mathbf{Q}$  and replacing  $\mathbf{x}$  in our problem with:
 
 $$
-\mathbf {x} = \mathbf {Q} ^ {\top} \left[ \begin{array}{l} \mathbf {y} _ {1: m} ^ {*} \\ \mathbf {y} _ {(m + 1: n)} \end{array} \right] \tag {13.23}
+\mathbf {x} = \mathbf {Q}^{\top} \left[ \begin{array}{l} \mathbf {y}_{1: m}^{*} \\ \mathbf {y}_{(m + 1: n)} \end{array} \right] \tag {13.23}
 $$
 
 where  $\mathbf{y}_{1:m}^{*} = \mathbf{L}^{-1}\mathbf{b}$ . We can substitute this to produce:
 
 $$
-\underset {\mathbf {y} _ {(m + 1: n)}} {\text {m i n i m i z e}} \quad \left\| \mathbf {A Q} ^ {\top} \left[ \begin{array}{l} \mathbf {y} _ {1: m} ^ {*} \\ \mathbf {y} _ {(m + 1: n)} \end{array} \right] - \mathbf {b} \right\| \tag {13.24}
+\underset{\mathbf {y}_{(m + 1: n)}} {\text{minimize}} \quad \left\| \mathbf {A Q}^{\top} \left[ \begin{array}{l} \mathbf {y}_{1: m}^{*} \\ \mathbf {y}_{(m + 1: n)} \end{array} \right] - \mathbf {b} \right\| \tag {13.24}
 $$
 
 $$
-\text {s u b j e c t t o} \quad \mathbf {C Q} ^ {\top} \left[ \begin{array}{c} \mathbf {y} _ {1: m} ^ {*} \\ \mathbf {y} _ {(m + 1: n)} \end{array} \right] \geq \mathbf {d}
+\text{subjectto} \quad \mathbf {C Q}^{\top} \left[ \begin{array}{c} \mathbf {y}_{1: m}^{*} \\ \mathbf {y}_{(m + 1: n)} \end{array} \right] \geq \mathbf {d}
 $$
 
 which can be simplified to:
 
 $$
-\underset {\mathbf {y} _ {(m + 1: n)}} {\text {m i n i m i z e}} \left. \left\| \left(\mathbf {A Q} ^ {\top}\right) _ {(m + 1: n, \cdot)} \mathbf {y} _ {(m + 1: n)} - \left(\mathbf {b} - \left(\mathbf {A Q} ^ {\top}\right) _ {(1: m, \cdot)} \mathbf {y} _ {1: m} ^ {*}\right) \right\| \right. \tag {13.25}
+\underset{\mathbf {y}_{(m + 1: n)}} {\text{minimize}} \left. \left\| \left(\mathbf {A Q}^{\top}\right) _{(m + 1: n, \cdot)} \mathbf {y}_{(m + 1: n)} - \left(\mathbf {b} - \left(\mathbf {A Q}^{\top}\right) _{(1: m, \cdot)} \mathbf {y}_{1: m}^{*}\right) \right\| \right. \tag {13.25}
 $$
 
 $$
-\text {s u b j e c t} \left(\mathbf {C Q} ^ {\top}\right) _ {(n + 1: m, \cdot)} \mathbf {y} _ {(m + 1: n)} \geq \left(\mathbf {d} - \left(\mathbf {C Q} ^ {\top}\right) _ {(1: n, \cdot)} \mathbf {y} _ {1: m} ^ {*}\right)
+\text{subject} \left(\mathbf {C Q}^{\top}\right) _{(n + 1: m, \cdot)} \mathbf {y}_{(m + 1: n)} \geq \left(\mathbf {d} - \left(\mathbf {C Q}^{\top}\right) _{(1: n, \cdot)} \mathbf {y}_{1: m}^{*}\right)
 $$
 
 Algorithm 13.1 implements a method for solving a quadratic program in general form by following this conversion. Example 13.2 demonstrates this algorithm.
@@ -8972,7 +8739,7 @@ Algorithm 13.1. A method for solving a quadratic program in general form. This i
 Consider the following quadratic program in general form:
 
 $$
-\begin{array}{l} \underset {\mathbf {x}} {\text {m i n i m i z e}} \quad \left\| \left[ \begin{array}{r r r} 1 & 2 & 3 \\ - 2 & 0 & 0 \end{array} \right] \mathbf {x} - \left[ \begin{array}{l} 1 \\ 2 \end{array} \right] \right\| \\ \text {s u b j e c t t o} \qquad \left[ \begin{array}{c c c} 0 & 0 & 1 \\ 1 & 0 & 0 \end{array} \right] \mathbf {x} \leq \left[ \begin{array}{c} 1 \\ 1 \end{array} \right] \\ \left[ \begin{array}{c c c} 0 & 0 & 1 \\ 1 & 0 & 0 \end{array} \right] \mathbf {x} \geq \left[ \begin{array}{c} 0 \\ 0 \end{array} \right] \\ \left[ \begin{array}{c c c} 0 & - 1 & 1 \end{array} \right] \mathbf {x} = \left[ \begin{array}{c} 0 \end{array} \right] \\ \end{array}
+\begin{array}{l} \underset{\mathbf {x}} {\text{minimize}} \quad \left\| \left[ \begin{array}{r r r} 1 & 2 & 3 \\ - 2 & 0 & 0 \end{array} \right] \mathbf {x} - \left[ \begin{array}{l} 1 \\ 2 \end{array} \right] \right\| \\ \text{subjectto} \qquad \left[ \begin{array}{c c c} 0 & 0 & 1 \\ 1 & 0 & 0 \end{array} \right] \mathbf {x} \leq \left[ \begin{array}{c} 1 \\ 1 \end{array} \right] \\ \left[ \begin{array}{c c c} 0 & 0 & 1 \\ 1 & 0 & 0 \end{array} \right] \mathbf {x} \geq \left[ \begin{array}{c} 0 \\ 0 \end{array} \right] \\ \left[ \begin{array}{c c c} 0 & - 1 & 1 \end{array} \right] \mathbf {x} = \left[ \begin{array}{c} 0 \end{array} \right] \\ \end{array}
 $$
 
 This quadratic program is constrained to lie within a square planar region  $0 \leq x_{1} \leq 1, 0 \leq x_{3} \leq 1$ , and  $x_{2} = x_{3}$ .
@@ -8980,7 +8747,7 @@ This quadratic program is constrained to lie within a square planar region  $0 \
 We can solve this quadratic program by first transforming it into a least squares program with inequalities according to algorithm 13.1. When we do this, we get  $\mathbf{y}_1 = [0]$  and we solve:
 
 $$
-\begin{array}{l} \underset {\mathbf {y} _ {2}} {\text {m i n i m i z e}} \quad \left\| \left[ \begin{array}{c c} 3. 2 0 7 & 1. 7 9 3 \\ - 1. 4 1 4 & 1. 4 1 4 \end{array} \right] \mathbf {y} _ {2} - \left[ \begin{array}{c} 1 \\ 2 \end{array} \right] \right\| \\ \text {s u b j e c t t o} \quad \left[ \begin{array}{c c} 0. 5 0 0 & 0. 5 0 0 \\ 0. 7 0 7 & - 0. 7 0 7 \\ - 0. 5 0 0 & - 0. 5 0 0 \\ - 0. 7 0 7 & 0. 7 0 7 \end{array} \right] \mathbf {y} _ {2} \geq \left[ \begin{array}{c} 0 \\ 0 \\ - 1 \\ - 1 \end{array} \right] \\ \end{array}
+\begin{array}{l} \underset{\mathbf {y}_{2}} {\text{minimize}} \quad \left\| \left[ \begin{array}{c c} 3. 20 7 & 1. 79 3 \\ - 1. 41 4 & 1. 41 4 \end{array} \right] \mathbf {y}_{2} - \left[ \begin{array}{c} 1 \\ 2 \end{array} \right] \right\| \\ \text{subjectto} \quad \left[ \begin{array}{c c} 0. 50 0 & 0. 50 0 \\ 0. 70 7 & - 0. 70 7 \\ - 0. 50 0 & - 0. 50 0 \\ - 0. 70 7 & 0. 70 7 \end{array} \right] \mathbf {y}_{2} \geq \left[ \begin{array}{c} 0 \\ 0 \\ - 1 \\ - 1 \end{array} \right] \\ \end{array}
 $$
 
 Below we show the original problem (left) and the simplified problem (right). The feasible region in both problems is shown in blue.
@@ -8997,11 +8764,11 @@ Example 13.2. An example showing how a 3-dimensional quadratic program with an e
 A least squares problem with linear inequalities can be solved by transforming it into a least distance program:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \| \mathbf {x} \| \tag {13.26}
+\underset{\mathbf {x}} {\text{minimize}} \| \mathbf {x} \| \tag {13.26}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {G x} \geq \mathbf {h}
+\text{subject} \quad \mathbf {G x} \geq \mathbf {h}
 $$
 
 where  $\mathbf{G} \in \mathbb{R}^{m \times n}$ ,  $\mathbf{x} \in \mathbb{R}^n$ , and  $\mathbf{h} \in \mathbb{R}^m$ . In other words, we have  $n$  design variables and we seek a design that is as close to the origin as possible while satisfying the inequalities  $\mathbf{Gx} \geq \mathbf{h}$ . Figure 13.3 shows a simple least distance program.
@@ -9009,7 +8776,7 @@ where  $\mathbf{G} \in \mathbb{R}^{m \times n}$ ,  $\mathbf{x} \in \mathbb{R}^n$
 As we saw in equation (13.11), minimizing  $\| \mathbf{A}\mathbf{x} = \mathbf{b}\|$  in our least squares problem with linear inequalities is equivalent to minimizing
 
 $$
-\left\| \mathbf {T} \mathbf {v} _ {\text {a c t i v e}} - \mathbf {U} _ {(1: k, \cdot)} ^ {\top} \mathbf {b} \right\| ^ {2} \tag {13.27}
+\left\| \mathbf {T} \mathbf {v}_{\text{active}} - \mathbf {U}_{(1: k, \cdot)}^{\top} \mathbf {b} \right\| ^{2} \tag {13.27}
 $$
 
 where  $\mathbf{v}_{\mathrm{active}} = \mathbf{V}_{(1:k,\cdot)}^{\top}\mathbf{x}$  and  $\mathbf{U},\mathbf{T},$  and  $\mathbf{V}$  are given by a complete orthogonal decomposition (equation (C.38)).
@@ -9017,27 +8784,27 @@ where  $\mathbf{v}_{\mathrm{active}} = \mathbf{V}_{(1:k,\cdot)}^{\top}\mathbf{x}
 Using this objective and substituting  $\mathbf{x} = \mathbf{V}_{(1:k,\cdot)}\mathbf{v}_{\mathrm{active}}$  into the inequality for our least squares problem with linear inequalities yields
 
 $$
-\underset {\mathbf {v}} {\text {m i n i m i z e}} \quad \left\| \mathbf {T} \mathbf {v} _ {\text {a c t i v e}} - \mathbf {U} _ {(1: k, \cdot)} ^ {\top} \mathbf {b} \right\| ^ {2} \tag {13.28}
+\underset{\mathbf {v}} {\text{minimize}} \quad \left\| \mathbf {T} \mathbf {v}_{\text{active}} - \mathbf {U}_{(1: k, \cdot)}^{\top} \mathbf {b} \right\| ^{2} \tag {13.28}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {C V} _ {(1: k, r)} \mathbf {v} _ {\text {a v i t e}} \geq \mathbf {d}
+\text{subject} \quad \mathbf {C V}_{(1: k, r)} \mathbf {v}_{\text{avite}} \geq \mathbf {d}
 $$
 
 We then drop the squaring and apply another change of variables,
 
 $$
-\mathbf {z} = \mathbf {T} \mathbf {v} _ {\text {a c t i v e}} - \mathbf {U} _ {(1: k, \cdot)} ^ {\top} \mathbf {b} \tag {13.29}
+\mathbf {z} = \mathbf {T} \mathbf {v}_{\text{active}} - \mathbf {U}_{(1: k, \cdot)}^{\top} \mathbf {b} \tag {13.29}
 $$
 
 and our problem becomes a least distance program:
 
 $$
-\underset {\mathbf {z}} {\text {m i n i m i z e}} \| \mathbf {z} \| \tag {13.30}
+\underset{\mathbf {z}} {\text{minimize}} \| \mathbf {z} \| \tag {13.30}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {C V} _ {(1: k, \cdot)} \mathbf {T} ^ {- 1} \mathbf {z} \geq \mathbf {d} - \mathbf {C V} _ {(1: k, \cdot)} \mathbf {T} ^ {- 1} \mathbf {U} _ {(1: k, \cdot)} ^ {\top} \mathbf {b}
+\text{subject} \quad \mathbf {C V}_{(1: k, \cdot)} \mathbf {T}^{- 1} \mathbf {z} \geq \mathbf {d} - \mathbf {C V}_{(1: k, \cdot)} \mathbf {T}^{- 1} \mathbf {U}_{(1: k, \cdot)}^{\top} \mathbf {b}
 $$
 
 Algorithm 13.2 converts a least squares problem with inequalities into a least distance program, solves it, and backs out the solution. Figure 13.4 shows a least distance program obtained from a least squares problem with inequalities. Before we discuss how to solve least distance programs, we will first introduce and solve a final quadratic problem form.
@@ -9057,7 +8824,7 @@ $$
 Figure 13.4. The least-squares problem with inequalities from example 13.2 can be converted to a least distance program, as shown here. It has:
 
 $$
-\mathbf {G} = \left[ \begin{array}{c c} - 0. 1 7 6 & 0. 1 3 8 \\ - 0. 0 9 9 & - 0. 4 9 \\ 0. 1 7 6 & - 0. 1 3 8 \\ 0. 0 9 9 & 0. 4 9 \end{array} \right]
+\mathbf {G} = \left[ \begin{array}{c c} - 0. 17 6 & 0. 13 8 \\ - 0. 09 9 & - 0. 49 \\ 0. 17 6 & - 0. 13 8 \\ 0. 09 9 & 0. 49 \end{array} \right]
 $$
 
 $$
@@ -9093,11 +8860,11 @@ Algorithm 13.2. A method for solving a least squares program with linear inequal
 Quadratic programs are often solved in the form of a nonnegative least squares (NNLS) problem:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad \| \mathbf {E} \mathbf {x} - \mathbf {f} \| \tag {13.31}
+\underset{\mathbf {x}} {\text{minimize}} \quad \| \mathbf {E} \mathbf {x} - \mathbf {f} \| \tag {13.31}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {x} \geq \mathbf {0}
+\text{subject} \quad \mathbf {x} \geq \mathbf {0}
 $$
 
 where  $\mathbf{E} \in \mathbb{R}^{m \times n}$ ,  $\mathbf{x} \in \mathbb{R}^n$ , and  $\mathbf{f} \in \mathbb{R}^n$ . In other words, we have  $n$  nonnegative design variables and we seek to minimize the Euclidean length of a system of  $m$  equations. Geometrically, we are trying to find the point in the positive quadrant closest to  $\mathbf{f}$  under the linear transform  $\mathbf{E}$ . Figure 13.5 show a simple nonnegative least squares problem.
@@ -9110,17 +8877,17 @@ The  $n$  design values are again partitioned into two sets  $\mathcal{B}$  and 
 Figure 13.5. An example nonnegative least squares quadratic program with
 
 $$
-\mathbf {E} = \left[ \begin{array}{c c} 2 & 1 \\ - 4 & 3 \end{array} \right] \quad \mathbf {f} = \left[ \begin{array}{c} 3 \\ - 1 0 \end{array} \right]
+\mathbf {E} = \left[ \begin{array}{c c} 2 & 1 \\ - 4 & 3 \end{array} \right] \quad \mathbf {f} = \left[ \begin{array}{c} 3 \\ - 10 \end{array} \right]
 $$
 
 with indices in  $\mathcal{B}$  may be positive:
 
 $$
-i \in \mathcal {B} \Rightarrow x _ {i} \geq 0 \tag {13.32}
+i \in \mathcal {B} \Rightarrow x_{i} \geq 0 \tag {13.32}
 $$
 
 $$
-i \in \mathcal {V} \Rightarrow x _ {i} = 0 \tag {13.33}
+i \in \mathcal {V} \Rightarrow x_{i} = 0 \tag {13.33}
 $$
 
 Intuitively,  $\mathcal{V}$  refers to all active constraints, and  $\mathcal{B}$  refers to all inactive constraints. The indices in  $\mathcal{B}$  and  $\mathcal{V}$  are changed as the algorithm proceeds, which corresponds to enforcing or relaxing equality constraints.
@@ -9130,15 +8897,15 @@ Suppose we have a partitioning of constraints between  $\mathcal{B}$  and  $\nu$
 Furthermore, from the KKT conditions, we know that the gradient of our objective function at a solution is balanced by our active constraints:
 
 $$
-\nabla f \left(\mathbf {x} ^ {*}\right) + \sum_ {i} \mu_ {i} \nabla g _ {i} \left(\mathbf {x} ^ {*}\right) = \mathbf {0} \tag {13-34}
+\nabla f \left(\mathbf {x}^{*}\right) + \sum_{i} \mu_{i} \nabla g_{i} \left(\mathbf {x}^{*}\right) = \mathbf {0} \tag {13-34}
 $$
 
 $$
-\nabla_ {\mathbf {x}} \frac {1}{2} \| \mathbf {E} \mathbf {x} - \mathbf {f} \| ^ {2} + \mu (- 1) = \mathbf {0} \tag {13.35}
+\nabla_{\mathbf {x}} \frac{1}{2} \| \mathbf {E} \mathbf {x} - \mathbf {f} \| ^{2} + \mu (- 1) = \mathbf {0} \tag {13.35}
 $$
 
 $$
-\boldsymbol {\mu} = \mathbf {E} ^ {\top} (\mathbf {E x} - \mathbf {f}) \tag {13.36}
+\boldsymbol {\mu} = \mathbf {E}^{\top} (\mathbf {E x} - \mathbf {f}) \tag {13.36}
 $$
 
 where  $\mu_i \geq 0$  for all  $i \in \mathcal{V}$  and  $\mu_i = 0$  for all  $i \in \mathcal{B}$  for which  $x_i > 0$ . Each  $\mu_i$  reflects the degree to which a particular constraint fights against the gradient.
@@ -9148,7 +8915,7 @@ We begin with all constraints active,  $\mathcal{B} = \emptyset$ , which corresp
 Next, we compute a new tentative solution,  $\mathbf{z} = \mathrm{minimize}_{\mathbf{x}}\| \mathbf{E}_{\mathcal{B}}\mathbf{x} - \mathbf{f}\|$ . We then modify our working solution  $\mathbf{x}$  by taking the largest possible step toward  $\mathbf{z}$  while keeping all entries nonnegative:
 
 $$
-\mathbf {x} _ {\mathcal {B}} \leftarrow \mathbf {x} _ {\mathcal {B}} + \alpha \left(\mathbf {z} _ {\mathcal {B}} - \mathbf {x} _ {\mathcal {B}}\right) \tag {13.37}
+\mathbf {x}_{\mathcal {B}} \leftarrow \mathbf {x}_{\mathcal {B}} + \alpha \left(\mathbf {z}_{\mathcal {B}} - \mathbf {x}_{\mathcal {B}}\right) \tag {13.37}
 $$
 
 for  $\alpha \in (0,1]$ . Here,  $\alpha$  is usually one, but relaxing the constraint may cause other constraints to be violated, in which case at least one entry in  $\mathbf{z}$  is negative. When that happens, each component  $j$  will need to satisfy  $x_{j} + \alpha (z_{j} - x_{j})\geq 0$ . Rearranging gives us  $\alpha \leq x_{j} / (x_{j} - z_{j})$ . We set  $\alpha$  to the smallest  $x_{j} / (x_{j} - z_{j})$  among all violated entries.
@@ -9162,17 +8929,17 @@ Algorithm 13.3 iteratively relaxes constraints until a solution is found. Note t
 A least distance program, equation (13.26), is solved by forming a nonnegative least squares problem, equation (13.31):
 
 $$
-\underset {\mathbf {y}} {\text {m i n i m i z e}} \quad \| \mathbf {E} \mathbf {y} - \mathbf {f} \| \tag {13.38}
+\underset{\mathbf {y}} {\text{minimize}} \quad \| \mathbf {E} \mathbf {y} - \mathbf {f} \| \tag {13.38}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {y} \geq \mathbf {0}
+\text{subject} \quad \mathbf {y} \geq \mathbf {0}
 $$
 
 where
 
 $$
-\mathbf {E} = \left[ \begin{array}{l} \mathbf {G} ^ {\top} \\ \mathbf {h} ^ {\top} \end{array} \right] \quad \mathbf {f} = \left[ \begin{array}{l} \mathbf {0} \\ 1 \end{array} \right] \tag {13.39}
+\mathbf {E} = \left[ \begin{array}{l} \mathbf {G}^{\top} \\ \mathbf {h}^{\top} \end{array} \right] \quad \mathbf {f} = \left[ \begin{array}{l} \mathbf {0} \\ 1 \end{array} \right] \tag {13.39}
 $$
 
 The corresponding NNLS problem thus has as many design variables as  $\mathbf{G}$  has rows.
@@ -9180,13 +8947,13 @@ The corresponding NNLS problem thus has as many design variables as  $\mathbf{G}
 The solution  $\mathbf{y}^*$  to the NNLS problem can be used to obtain the solution  $\mathbf{x}^*$  to our least distance problem. First, we compute the residual vector:
 
 $$
-\mathbf {r} = \mathbf {E} \mathbf {y} ^ {*} - \mathbf {f} \tag {13.40}
+\mathbf {r} = \mathbf {E} \mathbf {y}^{*} - \mathbf {f} \tag {13.40}
 $$
 
 Then, we construct an  $n$ -dimensional solution vector  $\mathbf{x}^*$  with components:
 
 $$
-x _ {j} ^ {*} = - \frac {r _ {j}}{r _ {n + 1}} \tag {13.41}
+x_{j}^{*} = - \frac{r_{j}}{r_{n + 1}} \tag {13.41}
 $$
 
 This procedure is implemented in algorithm 13.4. It is used to solve an example least distance program in example 13.4.
@@ -9283,13 +9050,13 @@ Algorithm 13.4. A method for solving a least distance program qp. The solve meth
 our residual vector is  $-r_{n + 1}$ . This can be shown by expanding:
 
 $$
-\begin{array}{l} \left\| \mathbf {r} \right\| ^ {2} = \mathbf {r} ^ {\top} \mathbf {r} (13.42) \\ = \mathbf {r} ^ {\top} \left(\mathbf {E y} ^ {*} - \mathbf {f}\right) (13.43) \\ = \mathbf {r} ^ {\top} \mathbf {E} \mathbf {y} ^ {*} - \mathbf {r} ^ {\top} \mathbf {f} (13.44) \\ = \left(\mathbf {E} ^ {\top} \mathbf {r}\right) ^ {\top} \mathbf {y} ^ {*} - \mathbf {r} ^ {\top} \mathbf {f} (13.45) \\ \end{array}
+\begin{array}{l} \left\| \mathbf {r} \right\| ^{2} = \mathbf {r}^{\top} \mathbf {r} (13.42) \\ = \mathbf {r}^{\top} \left(\mathbf {E y}^{*} - \mathbf {f}\right) (13.43) \\ = \mathbf {r}^{\top} \mathbf {E} \mathbf {y}^{*} - \mathbf {r}^{\top} \mathbf {f} (13.44) \\ = \left(\mathbf {E}^{\top} \mathbf {r}\right) ^{\top} \mathbf {y}^{*} - \mathbf {r}^{\top} \mathbf {f} (13.45) \\ \end{array}
 $$
 
 The left term involves a dot product with the gradient of the NNLS objective function at our solution:
 
 $$
-\nabla_ {\mathbf {y}} \frac {1}{2} \| \mathbf {E} \mathbf {y} - \mathbf {f} \| ^ {2} \Bigg | _ {\mathbf {y} ^ {*}} = \mathbf {E} ^ {\top} \left(\mathbf {E} \mathbf {y} ^ {*} - \mathbf {f}\right) = \mathbf {E} ^ {\top} \mathbf {r} \tag {13.46}
+\nabla_{\mathbf {y}} \frac{1}{2} \| \mathbf {E} \mathbf {y} - \mathbf {f} \| ^{2} \Bigg | _{\mathbf {y}^{*}} = \mathbf {E}^{\top} \left(\mathbf {E} \mathbf {y}^{*} - \mathbf {f}\right) = \mathbf {E}^{\top} \mathbf {r} \tag {13.46}
 $$
 
 We can show that the left term  $\left(\mathbf{E}^{\top}\mathbf{r}\right)^{\top}\mathbf{y}^{*}$  is zero. By equation (13.36), we have  $\boldsymbol{\mu}^{\top}\mathbf{y}^{*}$ , and by complementary slackness we know  $\boldsymbol{\mu}^{\top}\mathbf{g}(\mathbf{y}^{*}) = 0$ . Since  $\mathbf{g}(\mathbf{y}^{*}) = -\mathbf{y}^{*}$ , the term is zero.
@@ -9301,7 +9068,7 @@ Now we can show that  $\mathbf{x}^*$  is a feasible solution. If we solved our N
 This arises from equation (13.36) and the fact that  $\mu \geq 0$
 
 $$
-\mathbf {0} \leq \mathbf {E} ^ {\top} \mathbf {r} = \left[ \begin{array}{l l} \mathbf {G} & \mathbf {h} \end{array} \right] \left[ \begin{array}{l} \mathbf {x} ^ {*} \\ - 1 \end{array} \right] (- r _ {n + 1}) = (\mathbf {G} \mathbf {x} ^ {*} - \mathbf {h}) \| \mathbf {r} \| ^ {2} \tag {13.47}
+\mathbf {0} \leq \mathbf {E}^{\top} \mathbf {r} = \left[ \begin{array}{l l} \mathbf {G} & \mathbf {h} \end{array} \right] \left[ \begin{array}{l} \mathbf {x}^{*} \\ - 1 \end{array} \right] (- r_{n + 1}) = (\mathbf {G} \mathbf {x}^{*} - \mathbf {h}) \| \mathbf {r} \| ^{2} \tag {13.47}
 $$
 
 We can rearrange to obtain  $\mathbf{G}\mathbf{x}^{*}\geq \mathbf{h}$  , which proves feasibility.
@@ -9309,25 +9076,25 @@ We can rearrange to obtain  $\mathbf{G}\mathbf{x}^{*}\geq \mathbf{h}$  , which p
 Next we will show that the KKT condition of stationarity holds. The gradient of our objective function at our solution is balanced by our active constraints:
 
 $$
-\nabla f \left(\mathbf {x} ^ {*}\right) + \sum_ {i} \mu_ {i} \nabla g _ {i} \left(\mathbf {x} ^ {*}\right) = \mathbf {0} \tag {13.48}
+\nabla f \left(\mathbf {x}^{*}\right) + \sum_{i} \mu_{i} \nabla g_{i} \left(\mathbf {x}^{*}\right) = \mathbf {0} \tag {13.48}
 $$
 
 $$
-\left. \nabla_ {\mathbf {x}} \frac {1}{2} \| \mathbf {x} \| ^ {2} \right| _ {\mathbf {x} ^ {*}} - \mu \nabla_ {\mathbf {x}} \left(G ^ {\top} \mathbf {x} ^ {*} - \mathbf {h}\right) = \mathbf {0} \tag {13.49}
+\left. \nabla_{\mathbf {x}} \frac{1}{2} \| \mathbf {x} \| ^{2} \right| _{\mathbf {x}^{*}} - \mu \nabla_{\mathbf {x}} \left(G^{\top} \mathbf {x}^{*} - \mathbf {h}\right) = \mathbf {0} \tag {13.49}
 $$
 
 $$
-\mathbf {x} ^ {*} - \mathbf {G} ^ {\top} \boldsymbol {\mu} = \mathbf {0} \tag {13.50}
+\mathbf {x}^{*} - \mathbf {G}^{\top} \boldsymbol {\mu} = \mathbf {0} \tag {13.50}
 $$
 
 $$
-\mathbf {x} ^ {*} = \mathbf {G} ^ {\top} \boldsymbol {\mu} \tag {13.51}
+\mathbf {x}^{*} = \mathbf {G}^{\top} \boldsymbol {\mu} \tag {13.51}
 $$
 
 We can match this with our construction for  $\mathbf{x}^*$ :
 
 $$
-\begin{array}{l} \mathbf {x} ^ {*} = - \frac {1}{r _ {n + 1}} \mathbf {r} _ {1: n} (13.52) \\ = - \frac {1}{r _ {n + 1}} \left(\mathbf {E} \mathbf {y} ^ {*} - \mathbf {f}\right) _ {1: n} (13.53) \\ = - \frac {1}{r _ {n + 1}} \mathbf {G} ^ {\top} \mathbf {y} ^ {*} (13.54) \\ = \mathbf {G} ^ {\top} \mathbf {y} ^ {*} \| \mathbf {r} \| ^ {- 2} (13.55) \\ \end{array}
+\begin{array}{l} \mathbf {x}^{*} = - \frac{1}{r_{n + 1}} \mathbf {r}_{1: n} (13.52) \\ = - \frac{1}{r_{n + 1}} \left(\mathbf {E} \mathbf {y}^{*} - \mathbf {f}\right) _{1: n} (13.53) \\ = - \frac{1}{r_{n + 1}} \mathbf {G}^{\top} \mathbf {y}^{*} (13.54) \\ = \mathbf {G}^{\top} \mathbf {y}^{*} \| \mathbf {r} \| ^{- 2} (13.55) \\ \end{array}
 $$
 
 We satisfy stationarity with  $\mu = \mathbf{y}^{*}\| \mathbf{r}\|^{-2}$ . Furthermore, we satisfy both dual feasibility and complementary slackness as  $\mathbf{y}_i^*$  is zero for active constraints and positive for inactive constraints. We thus have a primal-dual pair satisfying the KKT conditions for a convex problem, which is sufficient for optimality, implying  $\mathbf{x}^*$  is optimal for the least-distance problem.
@@ -9359,11 +9126,11 @@ Example 13.4. Solving a simple least distance program using an intermediary nonn
 Consider a general constrained quadratic program
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad \frac {1}{2} \mathbf {x} ^ {\top} \mathbf {Q} \mathbf {x} + \mathbf {q} ^ {\top} \mathbf {x} + q
+\underset{\mathbf {x}} {\text{minimize}} \quad \frac{1}{2} \mathbf {x}^{\top} \mathbf {Q} \mathbf {x} + \mathbf {q}^{\top} \mathbf {x} + q
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {A x} \leq \mathbf {b} \tag {13.56}
+\text{subject} \quad \mathbf {A x} \leq \mathbf {b} \tag {13.56}
 $$
 
 $$
@@ -9375,7 +9142,7 @@ with positive-definite  $\mathbf{Q}$ .
 Its Lagrangian is also quadratic:
 
 $$
-\begin{array}{l} \mathcal {L} (\mathbf {x}, \boldsymbol {\mu}, \boldsymbol {\lambda}) = \frac {1}{2} \mathbf {x} ^ {\top} \mathbf {Q} \mathbf {x} + \mathbf {q} ^ {\top} \mathbf {x} + q + \boldsymbol {\mu} ^ {\top} (\mathbf {A} \mathbf {x} - \mathbf {b}) + \boldsymbol {\lambda} ^ {\top} (\mathbf {C} \mathbf {x} - \mathbf {d}) (13.57) \\ = \frac {1}{2} \mathbf {x} ^ {\top} \mathbf {Q} \mathbf {x} + \left(\mathbf {q} + \mathbf {A} ^ {\top} \boldsymbol {\mu} + \mathbf {C} ^ {\top} \boldsymbol {\lambda}\right) ^ {\top} \mathbf {x} + \left(q - \boldsymbol {\mu} ^ {\top} \mathbf {b} - \boldsymbol {\lambda} ^ {\top} \mathbf {d}\right) (13.58) \\ = \frac {1}{2} \mathbf {x} ^ {\top} \mathbf {Q} \mathbf {x} + \mathbf {e} ^ {\top} \mathbf {x} + f (13.59) \\ \end{array}
+\begin{array}{l} \mathcal {L} (\mathbf {x}, \boldsymbol {\mu}, \boldsymbol {\lambda}) = \frac{1}{2} \mathbf {x}^{\top} \mathbf {Q} \mathbf {x} + \mathbf {q}^{\top} \mathbf {x} + q + \boldsymbol {\mu}^{\top} (\mathbf {A} \mathbf {x} - \mathbf {b}) + \boldsymbol {\lambda}^{\top} (\mathbf {C} \mathbf {x} - \mathbf {d}) (13.57) \\ = \frac{1}{2} \mathbf {x}^{\top} \mathbf {Q} \mathbf {x} + \left(\mathbf {q} + \mathbf {A}^{\top} \boldsymbol {\mu} + \mathbf {C}^{\top} \boldsymbol {\lambda}\right) ^{\top} \mathbf {x} + \left(q - \boldsymbol {\mu}^{\top} \mathbf {b} - \boldsymbol {\lambda}^{\top} \mathbf {d}\right) (13.58) \\ = \frac{1}{2} \mathbf {x}^{\top} \mathbf {Q} \mathbf {x} + \mathbf {e}^{\top} \mathbf {x} + f (13.59) \\ \end{array}
 $$
 
 where we choose to define  $\mathbf{e} = \mathbf{q} + \mathbf{A}^{\top}\boldsymbol{\mu} + \mathbf{C}^{\top}\boldsymbol{\lambda}$  and  $f = q - \boldsymbol{\mu}^{\top}\mathbf{b} - \boldsymbol{\lambda}^{\top}\mathbf{d}$ .
@@ -9383,23 +9150,23 @@ where we choose to define  $\mathbf{e} = \mathbf{q} + \mathbf{A}^{\top}\boldsymb
 The dual function is
 
 $$
-\begin{array}{l} \mathcal {D} (\mu \geq 0, \lambda) = \underset {\mathbf {x}} {\operatorname {m i n i m i z e}} \mathcal {L} (\mathbf {x}, \mu , \lambda) (13.60) \\ = \underset {\mathbf {x}} {\operatorname {m i n i m i z e}} \frac {1}{2} \mathbf {x} ^ {\top} \mathbf {Q} \mathbf {x} + \mathbf {e} ^ {\top} \mathbf {x} + f (13.61) \\ \end{array}
+\begin{array}{l} \mathcal {D} (\mu \geq 0, \lambda) = \underset{\mathbf {x}} {\operatorname{minimize}} \mathcal {L} (\mathbf {x}, \mu , \lambda) (13.60) \\ = \underset{\mathbf {x}} {\operatorname{minimize}} \frac{1}{2} \mathbf {x}^{\top} \mathbf {Q} \mathbf {x} + \mathbf {e}^{\top} \mathbf {x} + f (13.61) \\ \end{array}
 $$
 
 The dual function is an unconstrained convex optimization problem, and can thus be solved by finding where the gradient is zero. We thus get an analytic solution,  $\mathbf{x}^{*} = -\mathbf{Q}^{-1}\mathbf{e}$ . If we make that substitution and simplify, we get:
 
 $$
-\mathcal {D} (\boldsymbol {\mu} \geq \mathbf {0}, \boldsymbol {\lambda}) = - \frac {1}{2} \mathbf {e} ^ {\top} \mathbf {Q} ^ {- 1} \mathbf {e} + f \tag {13.62}
+\mathcal {D} (\boldsymbol {\mu} \geq \mathbf {0}, \boldsymbol {\lambda}) = - \frac{1}{2} \mathbf {e}^{\top} \mathbf {Q}^{- 1} \mathbf {e} + f \tag {13.62}
 $$
 
 The dual problem is thus:
 
 $$
-\underset {\mu , \lambda} {\text {m a x i m i z e}} - \frac {1}{2} \mathbf {e} ^ {\top} \mathbf {Q} ^ {- 1} \mathbf {e} + f \tag {13.63}
+\underset{\mu , \lambda} {\text{maximize}} - \frac{1}{2} \mathbf {e}^{\top} \mathbf {Q}^{- 1} \mathbf {e} + f \tag {13.63}
 $$
 
 $$
-\text {s u b j e c t} \quad \mu \geq 0
+\text{subject} \quad \mu \geq 0
 $$
 
 This dual problem may be easier to solve than the primal problem.
@@ -9437,7 +9204,7 @@ Solution: Any linear program can trivially be represented as a quadratic program
 For a linear program to be translated into a least squares problem, we would need to be able to write a linear objective function  $\mathbf{c}^{\top}\mathbf{x}$  in a quadratic form. We can expand the squared-norm objective:
 
 $$
-\begin{array}{l} \mathbf {c} ^ {\top} \mathbf {x} = \frac {1}{2} \| \mathbf {A x} + \mathbf {b} \| ^ {2} = \frac {1}{2} (\mathbf {A x} + \mathbf {b}) ^ {\top} (\mathbf {A x} + \mathbf {b}) \\ = \frac {1}{2} (\mathbf {A x}) ^ {\top} \mathbf {A x} + \frac {1}{2} \mathbf {b} ^ {\top} \mathbf {A x} + \frac {1}{2} (\mathbf {A x}) ^ {\top} \mathbf {b} + \frac {1}{2} \mathbf {b} ^ {\top} \mathbf {b} \\ = \frac {1}{2} \mathbf {x} ^ {\top} \mathbf {A} ^ {\top} \mathbf {A x} + \mathbf {b} ^ {\top} \mathbf {A x} + \frac {1}{2} \mathbf {b} ^ {\top} \mathbf {b} \\ \end{array}
+\begin{array}{l} \mathbf {c}^{\top} \mathbf {x} = \frac{1}{2} \| \mathbf {A x} + \mathbf {b} \| ^{2} = \frac{1}{2} (\mathbf {A x} + \mathbf {b}) ^{\top} (\mathbf {A x} + \mathbf {b}) \\ = \frac{1}{2} (\mathbf {A x}) ^{\top} \mathbf {A x} + \frac{1}{2} \mathbf {b}^{\top} \mathbf {A x} + \frac{1}{2} (\mathbf {A x}) ^{\top} \mathbf {b} + \frac{1}{2} \mathbf {b}^{\top} \mathbf {b} \\ = \frac{1}{2} \mathbf {x}^{\top} \mathbf {A}^{\top} \mathbf {A x} + \mathbf {b}^{\top} \mathbf {A x} + \frac{1}{2} \mathbf {b}^{\top} \mathbf {b} \\ \end{array}
 $$
 
 While we could ignore the constant  $\frac{1}{2}\mathbf{b}^{\top}\mathbf{b}$ , we would need  $\mathbf{b}^{\top}\mathbf{A} = \mathbf{c}^{\top}$  and  $\frac{1}{2}\mathbf{A}^{\top}\mathbf{A} = \mathbf{0}$ . Because these constraints are not reconcileable, linear programs cannot generally be translated into least squares problems.
@@ -9447,7 +9214,7 @@ Exercise 13.5. Show that a least-squares problem (equation (13.2)) is equivalent
 Solution: The constraints in equations (13.1) and (13.2) are the same. To show equivalence, we can focus on the objectives:
 
 $$
-\begin{array}{l} \underset {\mathbf {x}} {\text {m i n i m i z e}} \| \mathbf {A} \mathbf {x} - \mathbf {b} \| = \underset {\mathbf {x}} {\text {m i n i m i z e}} \left\| \mathbf {U} \mathbf {x} + \mathbf {U} ^ {- \top} \mathbf {q} \right\| \\ = \underset {\mathbf {x}} {\operatorname {m i n i m i z e}} \left\| \mathbf {U} \mathbf {x} + \mathbf {U} ^ {- \top} \mathbf {q} \right\| ^ {2} \\ = \underset {\mathbf {x}} {\operatorname {m i n i m i z e}} \left(\mathbf {U} \mathbf {x} + \mathbf {U} ^ {- \top} \mathbf {q}\right) ^ {\top} \left(\mathbf {U} \mathbf {x} + \mathbf {U} ^ {- \top} \mathbf {q}\right) \\ = \underset {\mathbf {x}} {\operatorname {m i n i m i z e}} \left(\mathbf {x} ^ {\top} \mathbf {U} ^ {\top} + \mathbf {q} ^ {\top} \mathbf {U} ^ {- 1}\right) \left(\mathbf {U} \mathbf {x} + \mathbf {U} ^ {- \top} \mathbf {q}\right) \\ = \underset {\mathbf {x}} {\text {m i n i m i z e}} \mathbf {x} ^ {\top} \mathbf {U} ^ {\top} \mathbf {U x} + \mathbf {x} ^ {\top} \mathbf {U} ^ {\top} \mathbf {U} ^ {- \top} \mathbf {q} + \mathbf {q} ^ {\top} \mathbf {U} ^ {- 1} \mathbf {U x} + \mathbf {q} ^ {\top} \mathbf {U} ^ {- 1} \mathbf {U} ^ {- \top} \mathbf {q} \\ = \underset {x} {\text {m i n i m i z e}} x ^ {\top} Q x + x ^ {\top} q + q ^ {\top} x + q ^ {\top} q \\ = \underset {\mathbf {x}} {\text {m i n i m i z e}} \mathbf {x} ^ {\top} \mathbf {Q} \mathbf {x} + 2 \mathbf {q} ^ {\top} \mathbf {x} \\ = \underset {\mathbf {x}} {\text {m i n i m i z e}} \frac {1}{2} \mathbf {x} ^ {\top} \mathbf {Q} \mathbf {x} + \mathbf {q} ^ {\top} \mathbf {x} \\ \end{array}
+\begin{array}{l} \underset{\mathbf {x}} {\text{minimize}} \| \mathbf {A} \mathbf {x} - \mathbf {b} \| = \underset{\mathbf {x}} {\text{minimize}} \left\| \mathbf {U} \mathbf {x} + \mathbf {U}^{- \top} \mathbf {q} \right\| \\ = \underset{\mathbf {x}} {\operatorname{minimize}} \left\| \mathbf {U} \mathbf {x} + \mathbf {U}^{- \top} \mathbf {q} \right\| ^{2} \\ = \underset{\mathbf {x}} {\operatorname{minimize}} \left(\mathbf {U} \mathbf {x} + \mathbf {U}^{- \top} \mathbf {q}\right) ^{\top} \left(\mathbf {U} \mathbf {x} + \mathbf {U}^{- \top} \mathbf {q}\right) \\ = \underset{\mathbf {x}} {\operatorname{minimize}} \left(\mathbf {x}^{\top} \mathbf {U}^{\top} + \mathbf {q}^{\top} \mathbf {U}^{- 1}\right) \left(\mathbf {U} \mathbf {x} + \mathbf {U}^{- \top} \mathbf {q}\right) \\ = \underset{\mathbf {x}} {\text{minimize}} \mathbf {x}^{\top} \mathbf {U}^{\top} \mathbf {U x} + \mathbf {x}^{\top} \mathbf {U}^{\top} \mathbf {U}^{- \top} \mathbf {q} + \mathbf {q}^{\top} \mathbf {U}^{- 1} \mathbf {U x} + \mathbf {q}^{\top} \mathbf {U}^{- 1} \mathbf {U}^{- \top} \mathbf {q} \\ = \underset{x} {\text{minimize}} x^{\top} Q x + x^{\top} q + q^{\top} x + q^{\top} q \\ = \underset{\mathbf {x}} {\text{minimize}} \mathbf {x}^{\top} \mathbf {Q} \mathbf {x} + 2 \mathbf {q}^{\top} \mathbf {x} \\ = \underset{\mathbf {x}} {\text{minimize}} \frac{1}{2} \mathbf {x}^{\top} \mathbf {Q} \mathbf {x} + \mathbf {q}^{\top} \mathbf {x} \\ \end{array}
 $$
 
 Exercise 13.6. What are some relative advantages and disadvantages between solving a general least squares problem using the techniques presented in this chapter as opposed to using an interior point method?
@@ -9461,13 +9228,13 @@ Interior point methods can also be used to solve quadratic programs. Interior po
 Exercise 13.7. Use the complete orthogonal decomposition in equation (C.38) together with equations (13.19) to (13.21) to show that the psuedoinverse of a matrix is always
 
 $$
-\mathbf {A} ^ {+} = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T} ^ {- 1} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top}
+\mathbf {A}^{+} = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T}^{- 1} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top}
 $$
 
 Solution: When  $\mathbf{A}$  is invertible, the pseudoinverse is given by equation (13.21):
 
 $$
-\mathbf {A} ^ {+} = \mathbf {A} ^ {- 1} = \left(\mathbf {U} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V} ^ {\top}\right) ^ {- 1} = \left(\mathbf {V} ^ {\top}\right) ^ {- 1} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] ^ {- 1} \mathbf {U} ^ {- 1} = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T} ^ {- 1} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top}
+\mathbf {A}^{+} = \mathbf {A}^{- 1} = \left(\mathbf {U} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V}^{\top}\right) ^{- 1} = \left(\mathbf {V}^{\top}\right) ^{- 1} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] ^{- 1} \mathbf {U}^{- 1} = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T}^{- 1} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top}
 $$
 
 where we use the fact that  $\mathbf{T}$  is diagonal,  $\mathbf{U}$  and  $\mathbf{V}$  are orthogonal, and an orthogonal matrix's inverse is equal to its transpose.
@@ -9475,13 +9242,13 @@ where we use the fact that  $\mathbf{T}$  is diagonal,  $\mathbf{U}$  and  $\mat
 When the columns of  $\mathbf{A}$  are linearly independent, the pseudoinverse is given by equation (13.19):
 
 $$
-\begin{array}{l} \mathbf {A} ^ {+} = \left(\mathbf {A} ^ {\top} \mathbf {A}\right) ^ {- 1} \mathbf {A} ^ {\top} \\ = \left(\left(\mathbf {U} \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V} ^ {\top}\right) ^ {\top} \left(\mathbf {U} \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V} ^ {\top}\right)\right) ^ {- 1} \left(\mathbf {U} \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V} ^ {\top}\right) ^ {\top} \\ = \left(\mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top} \mathbf {U} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V} ^ {\top}\right) ^ {- 1} \left(\mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top}\right) \\ = \left(\mathbf {V} \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V} ^ {\top}\right) ^ {- 1} \left(\mathbf {V} \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top}\right) \\ = \left(\mathbf {V} \left[ \begin{array}{c c} \mathbf {T} ^ {2} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V} ^ {\top}\right) ^ {- 1} \left(\mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top}\right) \\ = \left(\mathbf {V} ^ {\top}\right) ^ {- 1} \left[ \begin{array}{c c} \mathbf {T} ^ {2} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] ^ {- 1} \mathbf {V} ^ {- 1} \left(\mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top}\right) \\ = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T} ^ {- 2} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V} ^ {\top} \mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top} \\ = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T} ^ {- 2} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top} \\ = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T} ^ {- 1} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top} \\ \end{array}
+\begin{array}{l} \mathbf {A}^{+} = \left(\mathbf {A}^{\top} \mathbf {A}\right) ^{- 1} \mathbf {A}^{\top} \\ = \left(\left(\mathbf {U} \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V}^{\top}\right) ^{\top} \left(\mathbf {U} \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V}^{\top}\right)\right) ^{- 1} \left(\mathbf {U} \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V}^{\top}\right) ^{\top} \\ = \left(\mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top} \mathbf {U} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V}^{\top}\right) ^{- 1} \left(\mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top}\right) \\ = \left(\mathbf {V} \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V}^{\top}\right) ^{- 1} \left(\mathbf {V} \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top}\right) \\ = \left(\mathbf {V} \left[ \begin{array}{c c} \mathbf {T}^{2} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V}^{\top}\right) ^{- 1} \left(\mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top}\right) \\ = \left(\mathbf {V}^{\top}\right) ^{- 1} \left[ \begin{array}{c c} \mathbf {T}^{2} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] ^{- 1} \mathbf {V}^{- 1} \left(\mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top}\right) \\ = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T}^{- 2} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V}^{\top} \mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top} \\ = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T}^{- 2} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top} \\ = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T}^{- 1} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top} \\ \end{array}
 $$
 
 When the rows of  $\mathbf{A}$  are linearly independent, the pseudoinverse is given by equation (13.20):
 
 $$
-\begin{array}{l} \mathbf {A} ^ {+} = \mathbf {A} ^ {\top} \left(\mathbf {A} \mathbf {A} ^ {\top}\right) ^ {- 1} \\ = \left(\mathbf {U} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V} ^ {\top}\right) ^ {\top} \left(\left(\mathbf {U} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V} ^ {\top}\right) \left(\mathbf {U} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V} ^ {\top}\right) ^ {\top}\right) ^ {- 1} \\ = \left(\mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top}\right) \left(\mathbf {U} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V} ^ {\top} \mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top}\right) ^ {- 1} \\ = \left(\mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top}\right) \left(\mathbf {U} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top}\right) ^ {- 1} \\ = \left(\mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top}\right) \left(\mathbf {U} \left[ \begin{array}{c c} \mathbf {T} ^ {2} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top}\right) ^ {- 1} \\ = \left(\mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top}\right) \left(\left(\mathbf {U} ^ {\top}\right) ^ {- 1} \left[ \begin{array}{c c} \mathbf {T} ^ {2} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] ^ {- 1} (\mathbf {U}) ^ {- 1}\right) \\ = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top} \mathbf {U} \left[ \begin{array}{c c} \mathbf {T} ^ {- 2} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top} \\ = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \left[ \begin{array}{c c} \mathbf {T} ^ {- 2} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top} \\ = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T} ^ {- 1} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U} ^ {\top} \\ \end{array}
+\begin{array}{l} \mathbf {A}^{+} = \mathbf {A}^{\top} \left(\mathbf {A} \mathbf {A}^{\top}\right) ^{- 1} \\ = \left(\mathbf {U} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V}^{\top}\right) ^{\top} \left(\left(\mathbf {U} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V}^{\top}\right) \left(\mathbf {U} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V}^{\top}\right) ^{\top}\right) ^{- 1} \\ = \left(\mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top}\right) \left(\mathbf {U} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V}^{\top} \mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top}\right) ^{- 1} \\ = \left(\mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top}\right) \left(\mathbf {U} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top}\right) ^{- 1} \\ = \left(\mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top}\right) \left(\mathbf {U} \left[ \begin{array}{c c} \mathbf {T}^{2} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top}\right) ^{- 1} \\ = \left(\mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top}\right) \left(\left(\mathbf {U}^{\top}\right) ^{- 1} \left[ \begin{array}{c c} \mathbf {T}^{2} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] ^{- 1} (\mathbf {U}) ^{- 1}\right) \\ = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top} \mathbf {U} \left[ \begin{array}{c c} \mathbf {T}^{- 2} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top} \\ = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \left[ \begin{array}{c c} \mathbf {T}^{- 2} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top} \\ = \mathbf {V} \left[ \begin{array}{c c} \mathbf {T}^{- 1} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {U}^{\top} \\ \end{array}
 $$
 
 # 14 Disciplined Convex Programming
@@ -9493,29 +9260,29 @@ Convex optimization problems are those with a convex objective function and cons
 A convex program is a general optimization problem in which the objective and all inequality constraints are convex, and the equality constraints are affine:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad f (\mathbf {x})
+\underset{\mathbf {x}} {\text{minimize}} \quad f (\mathbf {x})
 $$
 
 $$
-\text {s u b j e c t} \quad g _ {j} (\mathbf {x}) \leq 0 \quad \text {f o r} j \text {i n} 1: m \tag {14.1}
+\text{subject} \quad g_{j} (\mathbf {x}) \leq 0 \quad \text{for} j \text{in} 1: m \tag {14.1}
 $$
 
 $$
-\mathbf {A} \mathbf {x} = \mathbf {b} \quad \text {f o r} \mathbf {A} \in \mathbb {R} ^ {\ell \times n}, \mathbf {b} \in \mathbb {R} ^ {\ell}
+\mathbf {A} \mathbf {x} = \mathbf {b} \quad \text{for} \mathbf {A} \in \mathbb {R}^{\ell \times n}, \mathbf {b} \in \mathbb {R}^{\ell}
 $$
 
 The canonical form of a disciplined convex program is:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad \mathbf {c} ^ {\top} \mathbf {x} + d
+\underset{\mathbf {x}} {\text{minimize}} \quad \mathbf {c}^{\top} \mathbf {x} + d
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {x} \in S \tag {14.2}
+\text{subject} \quad \mathbf {x} \in S \tag {14.2}
 $$
 
 $$
-\mathbf {A} \mathbf {x} = \mathbf {b} \quad \text {f o r} \mathbf {A} \in \mathbb {R} ^ {\ell \times n}, \mathbf {b} \in \mathbb {R} ^ {\ell}
+\mathbf {A} \mathbf {x} = \mathbf {b} \quad \text{for} \mathbf {A} \in \mathbb {R}^{\ell \times n}, \mathbf {b} \in \mathbb {R}^{\ell}
 $$
 
 1 M. Grant, S. Boyd, and Y. Ye, "Disciplined Convex Programming," Global Optimization: From Theory to Implementation, pp. 155-210, 2006.
@@ -9527,10 +9294,10 @@ where  $S \subset \mathbb{R}^n$  is a convex set. We will discuss  $S$  and the 
 We can use Convex.jl to transform the following optimization problem into a canonical form that can then be solved using the SCS solver:
 
 ```txt
-$\begin{array}{rl} & {\underset {x}{\mathrm{minimize}}\quad \| \mathbf{Ax} - \mathbf{b}\|_{1}}\\ & {\mathrm{subject~to}\quad \| \mathbf{Cx} - \mathbf{d}\|_{1.5}\leq 3} \end{array}$    
+$\begin{array}{rl} & {\underset{x}{\mathrm{minimize}}\quad \| \mathbf{Ax} - \mathbf{b}\|_{1}}\\ & {\mathrm{subject~to}\quad \| \mathbf{Cx} - \mathbf{d}\|_{1.5}\leq 3} \end{array}$    
 julia> using Convex, SCS;  
-julia> A = [2 -1; 1 3]; b = [4, -5];  
-julia> C = [0 1; 3 -4]; d = [-1, 0];  
+julia> A = [2 -1; 13]; b = [4, -5];  
+julia> C = [01; 3 -4]; d = [-1, 0];  
 julia> x = Variable(2);  
 julia> problem = minimize(  
 norm(A*x - b, 1),  
@@ -9562,7 +9329,7 @@ The input problem can be a minimization, a maximization, or a feasibility proble
 The constraints in a given minimization problem must be convex if they are inequality constraints, and affine if they are equality constraints. We can stipulate this more concretely by introducing a few top-level production rules for an input constraint  $\mathcal{C}$ :5
 
 $$
-\begin{array}{l} \mathcal {C} \mapsto \text {a f f i n e} = \text {a f f i n e} \\ \mathcal {C} \mapsto \text {c o n v e x} \leq \text {c o n c a v e} \\ \mathcal {C} \mapsto \text {c o n v e x} <   \text {c o n c a v e} \\ \begin{array}{l l} \text {1 4 . 3} \end{array} \\ \mathcal {C} \mapsto \operatorname {c o n c a v e} \geq \operatorname {c o n v e x} \\ \mathcal {C} \mapsto \text {c o n c a v e} > \text {c o n v e x} \\ \mathcal {C} \mapsto (\text {a f f i n e}, \text {a f f i n e}, \dots , \text {a f f i n e}) \in \text {c o n v e x s e t} \\ \end{array}
+\begin{array}{l} \mathcal {C} \mapsto \text{affine} = \text{affine} \\ \mathcal {C} \mapsto \text{convex} \leq \text{concave} \\ \mathcal {C} \mapsto \text{convex} <   \text{concave} \\ \begin{array}{l l} \text{14.3} \end{array} \\ \mathcal {C} \mapsto \operatorname{concave} \geq \operatorname{convex} \\ \mathcal {C} \mapsto \text{concave} > \text{convex} \\ \mathcal {C} \mapsto (\text{affine}, \text{affine}, \dots , \text{affine}) \in \text{convexset} \\ \end{array}
 $$
 
 These production rules ensure that all disciplined convex program constraints have one of the above forms. The final entry ensures that set membership constraints only involve affine expressions.
@@ -9574,7 +9341,7 @@ As we can see, determining whether an expression is affine, convex, or concave i
 We need base symbols from which to construct our more complicated affine, convex, and concave expressions. Our most basic terminal symbols are numeric constants and problem variables, both of which are affine:
 
 $$
-a f f i n e \mapsto \text {c o n s t} \mid \text {v a r} \tag {14.4}
+a f f i n e \mapsto \text{const} \mid \text{var} \tag {14.4}
 $$
 
 3Grammars are covered in section 23.1.  
@@ -9609,7 +9376,7 @@ The atom library is extensible. Domain experts are free to introduce new functio
 Disciplined convex programming does not allow products between non-constant expressions. This is because, in general, knowing the affine / convex / concave nature of each of the two expressions involved in a product is not enough to know whether the overall expression is affine, convex, or concave.<sup>6</sup> All numeric expressions must be product-free expressions:<sup>7</sup>
 
 $$
-a + b _ {1} x _ {1} + b _ {2} x _ {2} + \dotsb b _ {n} x _ {n} + c _ {1} f _ {1} (\boldsymbol {\epsilon} _ {1}) + c _ {2} f _ {2} (\boldsymbol {\epsilon} _ {2}) + \dotsb + c _ {q} f _ {q} (\boldsymbol {\epsilon} _ {q}) \quad (1 4. 5)
+a + b_{1} x_{1} + b_{2} x_{2} + \dotsb b_{n} x_{n} + c_{1} f_{1} (\boldsymbol {\epsilon}_{1}) + c_{2} f_{2} (\boldsymbol {\epsilon}_{2}) + \dotsb + c_{q} f_{q} (\boldsymbol {\epsilon}_{q}) \quad (14. 5)
 $$
 
 where  $\mathbf{x}$  is the design vector;  $a$ ,  $\mathbf{b}$ , and  $\mathbf{c}$  are constants; the functions  $f_{1:q}$  are defined in the atom library; and each  $\epsilon_j$  represents function arguments. All arguments to atom-library functions must also be product-free expressions.
@@ -9636,11 +9403,11 @@ Similarly, for  $c_{j}f_{j}(\cdot)$  to be a concave expression,  $c_{j}$  must 
 Consider the following convex optimization problem:
 
 $$
-\underset {x _ {1}, x _ {2}} {\text {m i n i m i z e}} c _ {1} \exp \left(x _ {1} + 3 x _ {2}\right)
+\underset{x_{1}, x_{2}} {\text{minimize}} c_{1} \exp \left(x_{1} + 3 x_{2}\right)
 $$
 
 $$
-\text {s u b j e c t} \quad 3 + 2 x _ {1} + c _ {2} \max  \left(x _ {1}, x _ {2}\right) <   c _ {3} \log \left(x _ {2}\right)
+\text{subject} \quad 3 + 2 x_{1} + c_{2} \max \left(x_{1}, x_{2}\right) <   c_{3} \log \left(x_{2}\right)
 $$
 
 We can verify that our objective function is convex. We have  $c_{1} \exp(x_{1} + 3x_{2})$ , which involves a call to exp in our atom library. We know from our atom library that exp is convex, and so our sign rule requires that  $c_{1} \geq 0$ . Finally, we verify that the argument is affine, which  $x_{1} + 3x_{2}$  is.
@@ -9678,7 +9445,7 @@ Example 14.3. Applying the composition rules to example expressions.
 9 These ranges and domains of constituent functions are stored in the atom library metadata.
 
 $$
-\operatorname {r a n g e} (g) \subseteq a + b _ {1} \operatorname {r a n g e} \left(x _ {1}\right) + \dots + b _ {n} \operatorname {r a n g e} \left(x _ {n}\right) + c _ {1} \operatorname {r a n g e} \left(f _ {1}\right) + \dots + c _ {q} \operatorname {r a n g e} \left(f _ {q}\right) \tag {14.6}
+\operatorname{range} (g) \subseteq a + b_{1} \operatorname{range} \left(x_{1}\right) + \dots + b_{n} \operatorname{range} \left(x_{n}\right) + c_{1} \operatorname{range} \left(f_{1}\right) + \dots + c_{q} \operatorname{range} \left(f_{q}\right) \tag {14.6}
 $$
 
 where  $\mathrm{range}(f)$  provides simple interval bounds for a function  $f$  and  $+$  denotes Minkowski addition.
@@ -9694,7 +9461,7 @@ f (x) = 1 / x
 $$
 
 $$
-g (\mathbf {x}) = 3 + 2 \log (1 + x _ {1}) - \sin x _ {2}
+g (\mathbf {x}) = 3 + 2 \log (1 + x_{1}) - \sin x_{2}
 $$
 
 for  $x_1 \in [0, \infty]$  and  $x_2 \in [-\pi, 0]$ . We know that  $f(x)$  is convex and nonincreasing for  $x > 0$ , and concave and nonincreasing for  $x < 0$ . Thus, the range of  $g(\mathbf{x})$  is crucial in determining the curvature of our expression.
@@ -9702,7 +9469,7 @@ for  $x_1 \in [0, \infty]$  and  $x_2 \in [-\pi, 0]$ . We know that  $f(x)$  is 
 We know that  $g(\mathbf{x})$  is concave, because  $2\log x$  for  $x \geq 1$  is concave and  $\sin x$  for  $x \in [-\pi, 0]$  is convex, and so  $-\sin x$  is concave. We apply equation (14.6) to our  $g(\mathbf{x})$  expression to bound its range:
 
 $$
-\begin{array}{l} \operatorname {r a n g e} (g) \subseteq 3 + 2 \cdot \operatorname {r a n g e} (\log (1 + x _ {1})) - \sin x _ {2} \\ = [ 3, 3 ] + 2 \cdot [ 0, \infty ] - [ - 1, 0 ] \\ = [ 3, 3 ] + [ 0, \infty ] + [ 0, 1 ] \\ = [ 3, \infty ] \\ \end{array}
+\begin{array}{l} \operatorname{range} (g) \subseteq 3 + 2 \cdot \operatorname{range} (\log (1 + x_{1})) - \sin x_{2} \\ = [ 3, 3 ] + 2 \cdot [ 0, \infty ] - [ - 1, 0 ] \\ = [ 3, 3 ] + [ 0, \infty ] + [ 0, 1 ] \\ = [ 3, \infty ] \\ \end{array}
 $$
 
 The bounded range is thus  $g(\mathbf{x}) \in [3, \infty]$ , a domain within which  $f(x)$  is convex and nonincreasing. This fact, and the fact that  $g(\mathbf{x})$  is concave, means  $f(g(\mathbf{x}))$  is convex.
@@ -9785,15 +9552,15 @@ Canonicalization is the process of finding a disciplined convex program in a can
 Consider the following optimization problem:
 
 $$
-\underset {x _ {1}, x _ {2}} {\text {m i n i m i z e}} \operatorname {p o w} \left(a _ {1} x _ {1} + a _ {2} x _ {2} - b _ {1}, 2\right)
+\underset{x_{1}, x_{2}} {\text{minimize}} \operatorname{pow} \left(a_{1} x_{1} + a_{2} x_{2} - b_{1}, 2\right)
 $$
 
 $$
-\text {s u b j e c t} \quad c _ {1} x _ {1} + c _ {2} x _ {2} = d
+\text{subject} \quad c_{1} x_{1} + c_{2} x_{2} = d
 $$
 
 $$
-\sqrt {\min  \left(x _ {1} , x _ {2}\right)} \geq 1 - \log (x _ {2})
+\sqrt{\min \left(x_{1} , x_{2}\right)} \geq 1 - \log (x_{2})
 $$
 
 In the first stage of verification, we construct expression trees for the objective and each side of each constraint and verify that these expressions are product-free. In the second stage of verification, we construct an expression tree for the overall problem, and verify the additional DCP rules.
@@ -9807,8 +9574,8 @@ Example 14.6. An illustration of automatic verification for disciplined convex p
 We can use Convex.jl to show the results of automatic verification on the problem from example 14.1:
 
 ```txt
-julia> A = [2 -1; 1 3]; b = [4, -5];  
-julia> C = [0 1; 3 -4]; d = [-1, 0];  
+julia> A = [2 -1; 13]; b = [4, -5];  
+julia> C = [01; 3 -4]; d = [-1, 0];  
 julia> x = Variable(2);  
 julia> problem = minimize(  
 norm(A*x - b, 1),  
@@ -9844,15 +9611,15 @@ Example 14.7. Using Convex.jl to perform automatic verification.
 Canonicalization will produce a problem in partitioned canonical form:
 
 $$
-\underset {\mathbf {x} ^ {(1)}, \dots , \mathbf {x} ^ {(k)}} {\text {m i n i m i z e}} d + \sum_ {i = 1} ^ {k} (\mathbf {c} ^ {(i)}) ^ {\top} \mathbf {x} ^ {(i)}
+\underset{\mathbf {x}^{(1)}, \dots , \mathbf {x}^{(k)}} {\text{minimize}} d + \sum_{i = 1}^{k} (\mathbf {c}^{(i)}) ^{\top} \mathbf {x}^{(i)}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {x} ^ {(i)} \in S ^ {(i)} \quad \text {f o r} i \text {i n} 1: k \tag {14.8}
+\text{subject} \quad \mathbf {x}^{(i)} \in S^{(i)} \quad \text{for} i \text{in} 1: k \tag {14.8}
 $$
 
 $$
-\sum_ {i = 1} ^ {k} \mathbf {A} ^ {(i)} \mathbf {x} ^ {(i)} = \mathbf {b}
+\sum_{i = 1}^{k} \mathbf {A}^{(i)} \mathbf {x}^{(i)} = \mathbf {b}
 $$
 
 where each set  $S^{(i)}$  is a convex set defined in the atom library<sup>12</sup>. These sets contain any nonlinearities necessary for representing the optimization problem. Each set operates directly on a subset of  $\mathbf{x}$ , so any coupling happens through  $\mathbf{A}\mathbf{x} = \mathbf{b}$ .
@@ -9866,27 +9633,27 @@ Linearization makes all of our product-free expressions linear and makes all fun
 Linearization operates on the problem's product-free expressions. These expressions can either be objective functions, in which case they are standalone, or the left or right-hand sides of a constraint. Given a product-free expression:
 
 $$
-a + \mathbf {b} ^ {\top} \mathbf {x} + \sum_ {j = 1} ^ {q} c _ {j} f _ {j} (\boldsymbol {\epsilon} _ {j}) \tag {14.9}
+a + \mathbf {b}^{\top} \mathbf {x} + \sum_{j = 1}^{q} c_{j} f_{j} (\boldsymbol {\epsilon}_{j}) \tag {14.9}
 $$
 
 the linearized form is:
 
 $$
-a + \mathbf {b} ^ {\top} \mathbf {x} + \mathbf {c} ^ {\top} \mathbf {v} \tag {14.10}
+a + \mathbf {b}^{\top} \mathbf {x} + \mathbf {c}^{\top} \mathbf {v} \tag {14.10}
 $$
 
 with:
 
 $$
-f _ {j} (\epsilon_ {j}) \leq v _ {j} \text {i f} f _ {j} \text {i s c o n v e x}
+f_{j} (\epsilon_{j}) \leq v_{j} \text{if} f_{j} \text{isconvex}
 $$
 
 $$
-f _ {j} (\epsilon_ {j}) \geq v _ {j} \text {i f} f _ {j} \text {i s c o n c a v e} \tag {14.11}
+f_{j} (\epsilon_{j}) \geq v_{j} \text{if} f_{j} \text{isconcave} \tag {14.11}
 $$
 
 $$
-f o r j \text {i n} 1: q
+f o r j \text{in} 1: q
 $$
 
 where we have introduced  $q$  atom variables  $\mathbf{v}$  and  $q$  new inequality constraints.
@@ -9896,11 +9663,11 @@ We must simplify any arguments that are not already simple variables. If  $f_{j}
 When linearizing a product-free expression in an inequality constraint, we introduce a slack variable  $s \geq 0$  to transform the inequality into an equality:
 
 $$
-a + \mathbf {b} ^ {\top} \mathbf {x} + \mathbf {c} ^ {\top} \mathbf {v} \leq d \Rightarrow a + \mathbf {b} ^ {\top} \mathbf {x} + \mathbf {c} ^ {\top} \mathbf {v} + s = d \tag {14.12}
+a + \mathbf {b}^{\top} \mathbf {x} + \mathbf {c}^{\top} \mathbf {v} \leq d \Rightarrow a + \mathbf {b}^{\top} \mathbf {x} + \mathbf {c}^{\top} \mathbf {v} + s = d \tag {14.12}
 $$
 
 $$
-a + \mathbf {b} ^ {\top} \mathbf {x} + \mathbf {c} ^ {\top} \mathbf {v} \geq d \Rightarrow a + \mathbf {b} ^ {\top} \mathbf {x} + \mathbf {c} ^ {\top} \mathbf {v} - s = d
+a + \mathbf {b}^{\top} \mathbf {x} + \mathbf {c}^{\top} \mathbf {v} \geq d \Rightarrow a + \mathbf {b}^{\top} \mathbf {x} + \mathbf {c}^{\top} \mathbf {v} - s = d
 $$
 
 This process is applied recursively until all expressions have been linearized. In practice, it can be simpler to work bottom up, starting with the innermost function arguments and working our way up to the top level inequalities and objective functions.
@@ -9922,7 +9689,7 @@ There is an additional step, set decomposition, which converts all set membershi
 16 Second order cone programs are convex optimization problems with linear objectives  $\mathbf{q}^{\dagger}\mathbf{x}$ , affine equality constraints  $\mathbf{A}\mathbf{x} = \mathbf{b}$ , and second order cone constraints:
 
 $$
-\left\| \mathbf {C} _ {i} \mathbf {x} + \mathbf {d} _ {i} \right\| _ {2} \leq \mathbf {e} _ {i} ^ {\top} \mathbf {x} + f _ {i}
+\left\| \mathbf {C}_{i} \mathbf {x} + \mathbf {d}_{i} \right\| _{2} \leq \mathbf {e}_{i}^{\top} \mathbf {x} + f_{i}
 $$
 
 17 M. Grant and S. Boyd, "Graph Implementations for Nonsmooth Convex Programs," in Recent Advances in Learning and Control, 2008.
@@ -9930,7 +9697,7 @@ $$
 Consider again the product-free expression for  $x_{1} \in [0,\infty]$  and  $x_{2} \in [-\pi, 0]$ :
 
 $$
-\operatorname {p o w} (3 + 2 \log (1 + x _ {1}) - \sin (x _ {2}), - 1)
+\operatorname{pow} (3 + 2 \log (1 + x_{1}) - \sin (x_{2}), - 1)
 $$
 
 We first consider the innermost arguments,  $1 + x_{1}$  and  $x_{2}$ . These are affine, and thus need not be linearized.
@@ -9938,29 +9705,29 @@ We first consider the innermost arguments,  $1 + x_{1}$  and  $x_{2}$ . These ar
 The next larger expression  $3 + 2\log (1 + x_1) - \sin (x_2)$  is not affine. We introduce new variables and constraints, producing:
 
 $$
-3 + 2 v _ {1} - v _ {2}
+3 + 2 v_{1} - v_{2}
 $$
 
 subject to  $\log (u_{1,1})\geq v_1$
 
 $$
-u _ {1, 1} = 1 + x _ {1}
+u_{1, 1} = 1 + x_{1}
 $$
 
 $$
-\sin (x _ {2}) \leq v _ {2}
+\sin (x_{2}) \leq v_{2}
 $$
 
 We return to the top-level expression, now  $\mathrm{pow}(3 + 2v_1 - v_2, -1)$ . We similarly introduce a variables and a new constraint:
 
 $$
-v _ {3}
+v_{3}
 $$
 
 subject to  $\operatorname{pow}(u_{3,1}, -1) \leq v_3$
 
 $$
-u _ {3, 1} = 3 + 2 v _ {1} - v _ {2}
+u_{3, 1} = 3 + 2 v_{1} - v_{2}
 $$
 
 We have thus successfully linearized our expression by introducing 5 new variables and 5 new constraints.
@@ -9970,13 +9737,13 @@ Example 14.8. Linearizing a product-free expression that has already been verifi
 Suppose we have a disciplined convex program that contains  $|x|$ . This atom is nonlinear, and does not fit the form accepted by conventional linear or quadratic solvers. However,  $|x|$  can be represented as the solution to a linear program:
 
 $$
-\begin{array}{r l r} & \min  _ {y} & y \\ | x | & \Rightarrow & \text {s u b j e c t t o} \quad y \quad \geq x \\ & & y \quad \geq - x \end{array} \tag {14.13}
+\begin{array}{r l r} & \min_{y} & y \\ | x | & \Rightarrow & \text{subjectto} \quad y \quad \geq x \\ & & y \quad \geq - x \end{array} \tag {14.13}
 $$
 
 A linearized disciplined convex program can incorporate this transformation. For example, if the original problem has a constraint  $|2x + 3| \leq 5$ , then its linearized form would be have a graph expansion as follows:
 
 $$
-\begin{array}{c c c} \underset {\mathbf {x}} {\text {m i n i m i z e}} \dots & \underset {\mathbf {x}, v} {\text {m i n i m i z e}} \dots \\ \vdots & & \vdots \\ v = | u | & \Rightarrow & v \geq u \\ u = 2 x + 3 & & v \geq - u \\ v + s = 5 & & u = 2 x + 3 \\ s \geq 0 & & v + s = 5 \\ & & s \geq 0 \end{array} \tag {14.14}
+\begin{array}{c c c} \underset{\mathbf {x}} {\text{minimize}} \dots & \underset{\mathbf {x}, v} {\text{minimize}} \dots \\ \vdots & & \vdots \\ v = | u | & \Rightarrow & v \geq u \\ u = 2 x + 3 & & v \geq - u \\ v + s = 5 & & u = 2 x + 3 \\ s \geq 0 & & v + s = 5 \\ & & s \geq 0 \end{array} \tag {14.14}
 $$
 
 Replacing  $|x|$  in this way has produced a linear program, and in so doing has removed the problematic nondifferentiable point. This transformation for  $|x|$  can be derived using properties of convex functions.
@@ -9984,11 +9751,11 @@ Replacing  $|x|$  in this way has produced a linear program, and in so doing has
 A convex function is only convex if its epigraph is a convex set, and a concave function is only concave if its hypograph is a concave set. The epigraph is the region above and including a function, whereas the hypograph is the region below and including a function:
 
 $$
-\operatorname {e p i} f = \left\{\left(\mathbf {x}, y\right) \in \mathbb {R} ^ {n} \times \mathbb {R} \mid y \geq f (\mathbf {x}) \right\} \tag {14.15}
+\operatorname{epi} f = \left\{\left(\mathbf {x}, y\right) \in \mathbb {R}^{n} \times \mathbb {R} \mid y \geq f (\mathbf {x}) \right\} \tag {14.15}
 $$
 
 $$
-\mathbf {h y p o} f = \left\{\left(\mathbf {x}, y\right) \in \mathbb {R} ^ {n} \times \mathbb {R} \mid y \leq f (\mathbf {x}) \right\}
+\mathbf {h y p o} f = \left\{\left(\mathbf {x}, y\right) \in \mathbb {R}^{n} \times \mathbb {R} \mid y \leq f (\mathbf {x}) \right\}
 $$
 
 Examples of such sets are given in figure 14.3.
@@ -9999,13 +9766,13 @@ Figure 14.3. The blue region above the extended-valued convex function  $f(x) = 
 We can thus replace a convex or concave function with a minimization or maximization problem based on its epigraph or hypograph, respectively:
 
 $$
-\begin{array}{l l} \text {f o r c o n v e x} f, & f (\mathbf {x}) = \begin{array}{c c} \min  _ {y} & y \\ \text {s u b j e c t t o} & (\mathbf {x}, y) \in \mathbf {e p i} f \end{array} \\ & \text {f o r c o n c a v e} f, & f (\mathbf {x}) = \begin{array}{c c} \max  _ {y} & y \\ \text {s u b j e c t t o} & (\mathbf {x}, y) \in \mathbf {h y p o} f \end{array} \end{array} \tag {14.16}
+\begin{array}{l l} \text{forconvex} f, & f (\mathbf {x}) = \begin{array}{c c} \min_{y} & y \\ \text{subjectto} & (\mathbf {x}, y) \in \mathbf {e p i} f \end{array} \\ & \text{forconcave} f, & f (\mathbf {x}) = \begin{array}{c c} \max_{y} & y \\ \text{subjectto} & (\mathbf {x}, y) \in \mathbf {h y p o} f \end{array} \end{array} \tag {14.16}
 $$
 
 The epigraph of the real absolute value function  $f(x) = |x|$  is:
 
 $$
-\operatorname {e p i} | x | = \{(x, y) \mid y \geq x, y \geq - x \} \tag {14.17}
+\operatorname{epi} | x | = \{(x, y) \mid y \geq x, y \geq - x \} \tag {14.17}
 $$
 
 This epigraph is shown in figure 14.4.
@@ -10029,11 +9796,11 @@ Figure 14.4. The epigraph for  $|x|$  can be formed by two linear inequalities. 
 Both  $L_{1}$  (Manhattan) norms and  $L_{\infty}$  (Chebyshev) norms can be converted into equivalent linear programs:
 
 $$
-\begin{array}{r c l} \| \mathbf {x} \| _ {1} & \Rightarrow & \underset {\mathbf {v}} {\text {m i n i m i z e}} \quad \mathbf {1} ^ {\top} \mathbf {v} \\ & & \text {s u b j e c t t o} \quad - \mathbf {v} \leq \mathbf {x} \leq \mathbf {v} \end{array}
+\begin{array}{r c l} \| \mathbf {x} \| _{1} & \Rightarrow & \underset{\mathbf {v}} {\text{minimize}} \quad \mathbf {1}^{\top} \mathbf {v} \\ & & \text{subjectto} \quad - \mathbf {v} \leq \mathbf {x} \leq \mathbf {v} \end{array}
 $$
 
 $$
-\| \mathbf {x} \| _ {\infty} \Rightarrow \begin{array}{l l} \underset {v} {\text {m i n i m i z e}} & v \\ \text {s u b j e c t t o} & - v \mathbf {1} \leq \mathbf {x} \leq v \mathbf {1} \end{array}
+\| \mathbf {x} \| _{\infty} \Rightarrow \begin{array}{l l} \underset{v} {\text{minimize}} & v \\ \text{subjectto} & - v \mathbf {1} \leq \mathbf {x} \leq v \mathbf {1} \end{array}
 $$
 
 Again, such graph expansions change our original problem into a well-known form for which many solvers exist.
@@ -10041,7 +9808,7 @@ Again, such graph expansions change our original problem into a well-known form 
 The more general  $L_{p}$ -norm for  $p \geq 1$  can also be transformed into another DCP:
 
 $$
-\| \mathbf {x} \| _ {p} \quad \Rightarrow \quad \underset {\mathbf {v}} {\text {m i n i m i z e}} \quad \mathbf {1} ^ {\top} \mathbf {v} \\ \text {s u b j e c t t o} \quad | x _ {i} | ^ {p} \leq v _ {i} \quad \text {f o r} i \text {i n} 1: m \tag {14.18}
+\| \mathbf {x} \| _{p} \quad \Rightarrow \quad \underset{\mathbf {v}} {\text{minimize}} \quad \mathbf {1}^{\top} \mathbf {v} \\ \text{subjectto} \quad | x_{i} | ^{p} \leq v_{i} \quad \text{for} i \text{in} 1: m \tag {14.18}
 $$
 
 This form can be optimized using interior point methods (section 10.10).
@@ -10051,7 +9818,7 @@ Example 14.9. Graph implementations for several norms. This example was adapted 
 If our problem is recognized to be a least squares problem, we can simplify by squaring our objective, thereby removing the square root:
 
 $$
-\underset {\mathbf {x}} {\operatorname {m i n i m i z e}} \quad \| \mathbf {A} \mathbf {x} - \mathbf {b} \| _ {2} \quad \Rightarrow \quad \underset {\mathbf {x}} {\operatorname {m i n i m i z e}} \quad \| \mathbf {A} \mathbf {x} - \mathbf {b} \| _ {2} ^ {2}
+\underset{\mathbf {x}} {\operatorname{minimize}} \quad \| \mathbf {A} \mathbf {x} - \mathbf {b} \| _{2} \quad \Rightarrow \quad \underset{\mathbf {x}} {\operatorname{minimize}} \quad \| \mathbf {A} \mathbf {x} - \mathbf {b} \| _{2}^{2}
 $$
 
 The least squares problem has a known solution,  $\mathbf{x} = \left(\mathbf{A}^{\top}\mathbf{A}\right)^{-1}\mathbf{A}^{\top}\mathbf{b}$ , and can be solved efficiently as discussed in section 13.2.
@@ -10065,11 +9832,11 @@ One common solution technique is to use interior point methods (section 10.10). 
 Interior point methods move all equality constraints, other than affine constraints, into the objective function using a barrier function:
 
 $$
-\underset {\mathbf {x}} {\operatorname {m i n i m i z e}} \quad \mathbf {c} ^ {\top} \mathbf {x} + d + \frac {1}{\rho} p _ {\text {b a r r i e r}} (\mathbf {x}) \tag {14.19}
+\underset{\mathbf {x}} {\operatorname{minimize}} \quad \mathbf {c}^{\top} \mathbf {x} + d + \frac{1}{\rho} p_{\text{barrier}} (\mathbf {x}) \tag {14.19}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {A x} = \mathbf {b}
+\text{subject} \quad \mathbf {A x} = \mathbf {b}
 $$
 
 The optimal solution approaches the solution of the original problem as  $\rho$  approaches infinity. Interior point methods such as algorithm 10.3 iteratively solve this formulation, increasing  $\rho$  as they go. Intermediate solutions remain feasible, and are thus in the interior of the feasible set.
@@ -10077,19 +9844,19 @@ The optimal solution approaches the solution of the original problem as  $\rho$ 
 Each iteration typically solves equation (14.19) with Newton's method from an initial point  $\mathbf{x}$ . Here, the search direction  $\Delta \mathbf{x}$  is obtained jointly with the dual parameters  $\mu$  by solving the augmented system:20
 
 $$
-\left[ \begin{array}{c c} \nabla^ {2} p _ {\text {b a r r i e r}} (\mathbf {x}) & \mathbf {A} ^ {\top} \\ \mathbf {A} & \mathbf {0} \end{array} \right] \left[ \begin{array}{l} \Delta \mathbf {x} \\ \boldsymbol {\mu} \end{array} \right] = - \left[ \begin{array}{c} \rho \mathbf {c} + \nabla p _ {\text {b a r r i e r}} (\mathbf {x}) \\ \mathbf {A x} - \mathbf {b} \end{array} \right] = - \left[ \begin{array}{l} \mathbf {r} _ {d} \\ \mathbf {r} _ {p} \end{array} \right] \tag {14.20}
+\left[ \begin{array}{c c} \nabla^{2} p_{\text{barrier}} (\mathbf {x}) & \mathbf {A}^{\top} \\ \mathbf {A} & \mathbf {0} \end{array} \right] \left[ \begin{array}{l} \Delta \mathbf {x} \\ \boldsymbol {\mu} \end{array} \right] = - \left[ \begin{array}{c} \rho \mathbf {c} + \nabla p_{\text{barrier}} (\mathbf {x}) \\ \mathbf {A x} - \mathbf {b} \end{array} \right] = - \left[ \begin{array}{l} \mathbf {r}_{d} \\ \mathbf {r}_{p} \end{array} \right] \tag {14.20}
 $$
 
 The left hand side of the augmented system is symmetric but not invertible. In some cases we know that  $\nabla^2 p_{\mathrm{barrier}}(\mathbf{x})$  is positive definite,[21] and we can transform the problem. Here, we rearrange the top row to obtain
 
 $$
-\Delta \mathbf {x} = - \nabla^ {2} p _ {\text {b a r r i e r}} (\mathbf {x}) ^ {- 1} \left(\mathbf {r} _ {d} + \mathbf {A} ^ {\top} \boldsymbol {\mu}\right) \tag {14.21}
+\Delta \mathbf {x} = - \nabla^{2} p_{\text{barrier}} (\mathbf {x}) ^{- 1} \left(\mathbf {r}_{d} + \mathbf {A}^{\top} \boldsymbol {\mu}\right) \tag {14.21}
 $$
 
 which can be substituted into the second row to obtain
 
 $$
-\left(\mathbf {A} ^ {\top} \nabla^ {2} p _ {\text {b a r r i e r}} (\mathbf {x}) ^ {- 1} \mathbf {A}\right) \boldsymbol {\mu} = \mathbf {r} _ {p} - \mathbf {A} \nabla^ {2} p _ {\text {b a r r i e r}} (\mathbf {x}) ^ {- 1} r _ {d} \tag {14.22}
+\left(\mathbf {A}^{\top} \nabla^{2} p_{\text{barrier}} (\mathbf {x}) ^{- 1} \mathbf {A}\right) \boldsymbol {\mu} = \mathbf {r}_{p} - \mathbf {A} \nabla^{2} p_{\text{barrier}} (\mathbf {x}) ^{- 1} r_{d} \tag {14.22}
 $$
 
 Inverting an arbitrary  $n \times n$  matrix is  $O(n^{3})$ . Unfortunately, canonicalization introduces many additional variables into our problem, resulting in a large Hessian matrix  $\nabla^2 p_{\mathrm{barrier}}(\mathbf{x})$ . Fortunately, a DCP in partitioned canonical form is comprised of many independent atoms that depend on different subsets of our expanded design variables  $\mathbf{x}$ , resulting in a sparse Hessian matrix with block-diagonal
@@ -10101,7 +9868,7 @@ Inverting an arbitrary  $n \times n$  matrix is  $O(n^{3})$ . Unfortunately, can
 structure:
 
 $$
-\left[ \begin{array}{c c c c} \nabla^ {2} p _ {\text {b a r r i e r}} ^ {(1)} (\mathbf {x} ^ {(1)}) & & & \\ & \nabla^ {2} p _ {\text {b a r r i e r}} ^ {(2)} (\mathbf {x} ^ {(2)}) & & \\ & & \ddots & \\ & & & \nabla^ {2} p _ {\text {b a r r i e r}} ^ {(k)} (\mathbf {x} ^ {(k)}) \end{array} \right] \tag {14.23}
+\left[ \begin{array}{c c c c} \nabla^{2} p_{\text{barrier}}^{(1)} (\mathbf {x}^{(1)}) & & & \\ & \nabla^{2} p_{\text{barrier}}^{(2)} (\mathbf {x}^{(2)}) & & \\ & & \ddots & \\ & & & \nabla^{2} p_{\text{barrier}}^{(k)} (\mathbf {x}^{(k)}) \end{array} \right] \tag {14.23}
 $$
 
 The inverse of a block-diagonal matrix is simply a block-diagonal matrix whose entries are the inverses of each block. By exploiting this structure, the inversion becomes extremely efficient.
@@ -10124,7 +9891,7 @@ Exercise 14.1. We can use extended-valued functions to conveniently extend funct
 Show that if we have a convex function  $f$  defined over a convex set  $S$ , then its extended-value extension
 
 $$
-g (\mathbf {x}) = \left\{ \begin{array}{l l} f (\mathbf {x}) & \text {i f} x \in \mathcal {S} \\ \infty & \text {o t h e r w i s e} \end{array} \right.
+g (\mathbf {x}) = \left\{ \begin{array}{l l} f (\mathbf {x}) & \text{if} x \in \mathcal {S} \\ \infty & \text{otherwise} \end{array} \right.
 $$
 
 is also convex.
@@ -10174,71 +9941,71 @@ Solution: We can introduce a new atom to support squares. Let us call this atom 
 Exercise 14.3. Linearize the optimization problem from example 14.7:
 
 $$
-\begin{array}{l} \underset {x _ {1}, x _ {2}} {\text {m i n i m i z e}} \quad \operatorname {p o w} \left(a _ {1} x _ {1} + a _ {2} x _ {2} - b _ {1}, 2\right) \\ \text {s u b j e c t} \quad c _ {1} x _ {1} + c _ {2} x _ {2} = d \\ \sqrt {\min  \left(x _ {1} , x _ {2}\right)} \geq 1 - \log (x _ {2}) \\ \end{array}
+\begin{array}{l} \underset{x_{1}, x_{2}} {\text{minimize}} \quad \operatorname{pow} \left(a_{1} x_{1} + a_{2} x_{2} - b_{1}, 2\right) \\ \text{subject} \quad c_{1} x_{1} + c_{2} x_{2} = d \\ \sqrt{\min \left(x_{1} , x_{2}\right)} \geq 1 - \log (x_{2}) \\ \end{array}
 $$
 
 Solution: First we linearize the objective function, introducing  $v_{1}$  and  $u_{1,1}$ :
 
 $$
-\begin{array}{r c l} & \underset {x _ {1}, x _ {2}, v _ {1}, u _ {1, 1}} {\text {m i n i m i z e}} & v _ {1} \\ \operatorname {p o w} (a _ {1} x _ {1} + a _ {2} x _ {2} - b _ {1}, 2) & \Rightarrow & \text {s u b j e c t t o} \quad u _ {1, 1} = a _ {1} x _ {1} + a _ {2} x _ {2} - b _ {1} \\ & & \operatorname {p o w} (u _ {1, 1}, 2) \leq v _ {1} \end{array}
+\begin{array}{r c l} & \underset{x_{1}, x_{2}, v_{1}, u_{1, 1}} {\text{minimize}} & v_{1} \\ \operatorname{pow} (a_{1} x_{1} + a_{2} x_{2} - b_{1}, 2) & \Rightarrow & \text{subjectto} \quad u_{1, 1} = a_{1} x_{1} + a_{2} x_{2} - b_{1} \\ & & \operatorname{pow} (u_{1, 1}, 2) \leq v_{1} \end{array}
 $$
 
 The affine constraint does not need to be linearized, so we next linearize the left-hand side of the inequality constraint. We start by recursing in and linearizing  $\min(x_1, x_2)$ , introducing  $v_2, u_{2,1}$ , and  $u_{2,2}$ :
 
 $$
-\begin{array}{r c l} & \text {m i n i m i z e} & v _ {2} \\ \min  (x _ {1}, x _ {2}) & \Rightarrow & \text {s u b j e c t t o} \quad u _ {2, 1} = x _ {1} \\ & & u _ {2, 2} = x _ {2} \\ & & \min  (u _ {2, 1}, u _ {2, 2}) \geq v _ {2} \end{array}
+\begin{array}{r c l} & \text{minimize} & v_{2} \\ \min (x_{1}, x_{2}) & \Rightarrow & \text{subjectto} \quad u_{2, 1} = x_{1} \\ & & u_{2, 2} = x_{2} \\ & & \min (u_{2, 1}, u_{2, 2}) \geq v_{2} \end{array}
 $$
 
 We then linearize  $\sqrt{v_2}$ , introducing  $v_{3}$  and  $u_{3,1}$ :
 
 $$
-\begin{array}{c c c} & \text {m i n i m i z e} & v _ {3} \\ \sqrt {v _ {2}} & \Rightarrow & \text {s u b j e c t t o} \quad u _ {3, 1} = v _ {2} \\ & & \sqrt {u _ {3 , 1}} \geq v _ {3} \end{array}
+\begin{array}{c c c} & \text{minimize} & v_{3} \\ \sqrt{v_{2}} & \Rightarrow & \text{subjectto} \quad u_{3, 1} = v_{2} \\ & & \sqrt{u_{3 , 1}} \geq v_{3} \end{array}
 $$
 
 We next linearize the right-hand side of the inequality constraint, introducing  $v_4$  and  $u_{4,1}$ :
 
 $$
-\begin{array}{r c l} & \text {m i n i m i z e} & 1 - v _ {4} \\ 1 - \log (x _ {2}) & \Rightarrow & \text {s u b j e c t t o} \quad u _ {4, 1} = x _ {2} \\ & & \log (u _ {4, 1}) \geq v _ {4} \end{array}
+\begin{array}{r c l} & \text{minimize} & 1 - v_{4} \\ 1 - \log (x_{2}) & \Rightarrow & \text{subjectto} \quad u_{4, 1} = x_{2} \\ & & \log (u_{4, 1}) \geq v_{4} \end{array}
 $$
 
 We conclude by introducing a slack variable  $s \geq 0$  to make our top-level inequality constraint linear:
 
 $$
-v _ {3} \geq 1 - v _ {4} \quad \Rightarrow \quad v _ {3} = 1 - v _ {4} + s
+v_{3} \geq 1 - v_{4} \quad \Rightarrow \quad v_{3} = 1 - v_{4} + s
 $$
 
 Our linearized problem is thus:
 
 $$
-\begin{array}{c} \text {m i n i m i z e} \\ \mathbf {x} _ {1: 2}, u _ {1, 1}, \mathbf {u} _ {2, 1: 2}, u _ {3, 1}, u _ {4, 1}, \mathbf {v} _ {1: 4} \\ \text {s u b j e c t t o} \end{array}
+\begin{array}{c} \text{minimize} \\ \mathbf {x}_{1: 2}, u_{1, 1}, \mathbf {u}_{2, 1: 2}, u_{3, 1}, u_{4, 1}, \mathbf {v}_{1: 4} \\ \text{subjectto} \end{array}
 $$
 
 $$
-v _ {1}
+v_{1}
 $$
 
 $$
-c _ {1} x _ {1} + c _ {2} x _ {2} = d
+c_{1} x_{1} + c_{2} x_{2} = d
 $$
 
 $$
-v _ {3} = 1 - v _ {4} + s
+v_{3} = 1 - v_{4} + s
 $$
 
 $$
-\sqrt {u _ {3 , 1}} \geq v _ {3}
+\sqrt{u_{3 , 1}} \geq v_{3}
 $$
 
 $$
-\operatorname {p o w} (u _ {1, 1}, 2) \leq v _ {1}
+\operatorname{pow} (u_{1, 1}, 2) \leq v_{1}
 $$
 
 $$
-\min  (u _ {2, 1}, u _ {2, 2}) \geq v _ {2}
+\min (u_{2, 1}, u_{2, 2}) \geq v_{2}
 $$
 
 $$
-\log (u _ {4, 1}) \geq v _ {4}
+\log (u_{4, 1}) \geq v_{4}
 $$
 
 $$
@@ -10246,23 +10013,23 @@ s \geq 0
 $$
 
 $$
-u _ {1, 1} = a _ {1} x _ {1} + a _ {2} x _ {2} - b _ {1}
+u_{1, 1} = a_{1} x_{1} + a_{2} x_{2} - b_{1}
 $$
 
 $$
-u _ {2, 1} = x _ {1}
+u_{2, 1} = x_{1}
 $$
 
 $$
-u _ {2, 2} = x _ {2}
+u_{2, 2} = x_{2}
 $$
 
 $$
-u _ {3, 1} = v _ {2}
+u_{3, 1} = v_{2}
 $$
 
 $$
-u _ {4, 1} = x _ {2}
+u_{4, 1} = x_{2}
 $$
 
 Exercise 14.4. Convert the graph-expanded  $p$ -norm problem in example 14.9 into an unconstrained problem using log barriers.[23] In doing so, please remove the absolute value.
@@ -10270,7 +10037,7 @@ Exercise 14.4. Convert the graph-expanded  $p$ -norm problem in example 14.9 int
 Solution: We start with the problem,
 
 $$
-\underset {\mathbf {x}, \mathbf {v}} {\text {m i n i m i z e}} \quad \mathbf {1} ^ {\top} \mathbf {v}
+\underset{\mathbf {x}, \mathbf {v}} {\text{minimize}} \quad \mathbf {1}^{\top} \mathbf {v}
 $$
 
 subject to  $|\mathbf{a}_i^\top \mathbf{x} - b_i|^p\leq v_i$  for  $i$  in  $1:m$
@@ -10278,27 +10045,25 @@ subject to  $|\mathbf{a}_i^\top \mathbf{x} - b_i|^p\leq v_i$  for  $i$  in  $1:m
 we first exponentiate the inequalities by  $2 / p$  in order to drop the absolute value: $^{24}$
 
 $$
-\left| \mathbf {a} _ {i} ^ {\top} \mathbf {x} - b _ {i} \right| ^ {p} \leq v _ {i} \quad \Rightarrow \quad \left| \mathbf {a} _ {i} ^ {\top} \mathbf {x} - b _ {i} \right| ^ {2} \leq v _ {i} ^ {2 / p}
+\left| \mathbf {a}_{i}^{\top} \mathbf {x} - b_{i} \right| ^{p} \leq v_{i} \quad \Rightarrow \quad \left| \mathbf {a}_{i}^{\top} \mathbf {x} - b_{i} \right| ^{2} \leq v_{i}^{2 / p}
 $$
 
 We then move the right-hand side to the left to obtain the form  $g(\cdot) \leq 0$ :
 
 $$
-\underset {\mathbf {x}, \mathbf {v}} {\text {m i n i m i z e}} \quad \mathbf {1} ^ {\top} \mathbf {v}
+\underset{\mathbf {x}, \mathbf {v}} {\text{minimize}} \quad \mathbf {1}^{\top} \mathbf {v}
 $$
 
 subject to  $\left(\mathbf{a}_i^\top \mathbf{x} - b_i\right)^2 - v_i^{2/p} \leq 0$  for  $i$  in  $1:m$
 
-We can then construct a log barrier for the constraints using equation (10.37):25
-
-23 Log barrier functions are given in equation (10.37).
+We can then construct a log barrier for the constraints using equation (10.37):2523 Log barrier functions are given in equation (10.37).
 
 24 We know that both sides of the inequality are nonnegative. We want to exponentiate with a positive value to avoid changing the sign. Since  $p \geq 1$ , we know that  $2 / p \geq 0$ .
 
 25 Note that we use  $\infty$  to produce an extended-real value function.
 
 $$
-p _ {\text {b a r r i e r}} (\mathbf {x}, \mathbf {v}) = - \sum_ {i} \left\{ \begin{array}{l l} \log \left(v _ {i} ^ {2 / p} - \left(\mathbf {a} _ {i} ^ {\top} \mathbf {x} - b _ {i}\right) ^ {2}\right) & \text {i f} (\mathbf {x}, \mathbf {v}) \text {i s f e a s i b l e w i t h r e s p e c t t o c o n s t r a i n t i} \\ \infty & \text {o t h e r w i s e} \end{array} \right.
+p_{\text{barrier}} (\mathbf {x}, \mathbf {v}) = - \sum_{i} \left\{ \begin{array}{l l} \log \left(v_{i}^{2 / p} - \left(\mathbf {a}_{i}^{\top} \mathbf {x} - b_{i}\right) ^{2}\right) & \text{if} (\mathbf {x}, \mathbf {v}) \text{isfeasiblewithrespecttoconstrainti} \\ \infty & \text{otherwise} \end{array} \right.
 $$
 
 Exercise 14.5. Consider the atom  $f(x) = \sqrt{x}$  for  $x \geq 0$ . Derive a graph implementation that avoids the nondifferentiability at  $x = 0$ .
@@ -10306,19 +10071,19 @@ Exercise 14.5. Consider the atom  $f(x) = \sqrt{x}$  for  $x \geq 0$ . Derive a 
 Solution: Because we know  $\sqrt{x}$  is concave, we use its hypograph:
 
 $$
-\operatorname {h y p o} \sqrt {x} = \left\{\left(x, y\right) \mid x \geq 0, y \leq \sqrt {x} \right\}
+\operatorname{hypo} \sqrt{x} = \left\{\left(x, y\right) \mid x \geq 0, y \leq \sqrt{x} \right\}
 $$
 
 We can equivalently express the hypograph as:
 
 $$
-\operatorname {h y p o} \sqrt {x} = \left\{(x, y) \mid x \geq 0, \max  (y, 0) ^ {2} \leq x \right\}
+\operatorname{hypo} \sqrt{x} = \left\{(x, y) \mid x \geq 0, \max (y, 0) ^{2} \leq x \right\}
 $$
 
 We can drop  $x \geq 0$  because it will automatically be satisfied when  $\max(y, 0)^2 \leq x$  is satisfied. We can drop the max because  $y^2$  is already nonnegative. These changes result in the following graph implementation:
 
 $$
-\begin{array}{r c l} \sqrt {x} & \Rightarrow & \underset {y} {\operatorname {a r g m a x}} \qquad y \\ & & \text {s u b j e c t t o} \quad y ^ {2} \leq x \end{array}
+\begin{array}{r c l} \sqrt{x} & \Rightarrow & \underset{y} {\operatorname{argmax}} \qquad y \\ & & \text{subjectto} \quad y^{2} \leq x \end{array}
 $$
 
 The graph implementation is differentiable everywhere.
@@ -10326,11 +10091,11 @@ The graph implementation is differentiable everywhere.
 Exercise 14.6. Canonicalize the following convex problem and apply the graph implementations from example 14.9:
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad \| \mathbf {A x} - \mathbf {b} \| _ {1}
+\underset{x} {\text{minimize}} \quad \| \mathbf {A x} - \mathbf {b} \| _{1}
 $$
 
 $$
-\text {s u b j e c t} \quad \| \mathbf {C x} - \mathbf {d} \| _ {1. 5} \leq 3
+\text{subject} \quad \| \mathbf {C x} - \mathbf {d} \| _{1. 5} \leq 3
 $$
 
 where
@@ -10348,23 +10113,23 @@ Solution: The norms are both convex, and because they contain affine expressions
 Linearizing the problem produces:
 
 $$
-\begin{array}{l} \underset {x, v, s} {\text {m i n i m i z e}} \quad v _ {1} \\ \text {s u b j e c t} v _ {1} = \| \mathbf {A x} - \mathbf {b} \| _ {1} \\ v _ {2} = \left\| \mathbf {C x} - \mathbf {d} \right\| _ {1. 5} \\ v _ {2} + s = 3 \\ s \geq 0 \\ \end{array}
+\begin{array}{l} \underset{x, v, s} {\text{minimize}} \quad v_{1} \\ \text{subject} v_{1} = \| \mathbf {A x} - \mathbf {b} \| _{1} \\ v_{2} = \left\| \mathbf {C x} - \mathbf {d} \right\| _{1. 5} \\ v_{2} + s = 3 \\ s \geq 0 \\ \end{array}
 $$
 
 We then apply a graph expansion for the  $L_{1}$  norm:
 
 $$
-\underset {\mathbf {x}, \mathbf {y} ^ {(1)}, \mathbf {v}, s} {\text {m i n i m i z e}} \quad \mathbf {1} ^ {\top} \mathbf {y} ^ {(1)}
+\underset{\mathbf {x}, \mathbf {y}^{(1)}, \mathbf {v}, s} {\text{minimize}} \quad \mathbf {1}^{\top} \mathbf {y}^{(1)}
 $$
 
 subject to  $-\mathbf{y}^{(1)}\leq \mathbf{A}\mathbf{x} - \mathbf{b}\leq \mathbf{y}^{(1)}$
 
 $$
-v _ {2} = \left\| \mathbf {C x} - \mathbf {d} \right\| _ {1. 5}
+v_{2} = \left\| \mathbf {C x} - \mathbf {d} \right\| _{1. 5}
 $$
 
 $$
-v _ {2} + s = 3
+v_{2} + s = 3
 $$
 
 $$
@@ -10378,15 +10143,15 @@ minimize  $\mathbf{1}^{\top}\mathbf{y}^{(1)} + \mathbf{1}^{\top}\mathbf{y}^{(2)}
 subject to  $-\mathbf{y}^{(1)}\leq \mathbf{A}\mathbf{x} - \mathbf{b}\leq \mathbf{y}^{(1)}$
 
 $$
-\left| x _ {2} + 1 \right| ^ {1. 5} \leq y _ {1} ^ {(2)}
+\left| x_{2} + 1 \right| ^{1. 5} \leq y_{1}^{(2)}
 $$
 
 $$
-\left| 3 x _ {1} - 4 x _ {2} \right| ^ {1. 5} \leq y _ {2} ^ {(2)}
+\left| 3 x_{1} - 4 x_{2} \right| ^{1. 5} \leq y_{2}^{(2)}
 $$
 
 $$
-\mathbf {1} ^ {\top} \mathbf {y} ^ {(2)} + s = 3
+\mathbf {1}^{\top} \mathbf {y}^{(2)} + s = 3
 $$
 
 $$
@@ -10398,7 +10163,7 @@ Exercise 14.7. The augmented system in equation (14.20) comes from applying Newt
 Solution: We start by multiplying the objective function by  $\rho$ :
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad \rho \mathbf {c} ^ {\top} \mathbf {x} + \rho d + p _ {\text {b a r r i e r}} (\mathbf {x})
+\underset{\mathbf {x}} {\text{minimize}} \quad \rho \mathbf {c}^{\top} \mathbf {x} + \rho d + p_{\text{barrier}} (\mathbf {x})
 $$
 
 subject to  $\mathbf{A}\mathbf{x} = \mathbf{b}$
@@ -10406,25 +10171,25 @@ subject to  $\mathbf{A}\mathbf{x} = \mathbf{b}$
 To apply Newton's method, we replace the original objective  $f$  with its second-order Taylor approximation about the current design  $x$ :
 
 $$
-\begin{array}{l} \hat {f} (\Delta \mathbf {x}) = f (\mathbf {x}) + \nabla f (\mathbf {x}) ^ {\top} \Delta \mathbf {x} + \frac {1}{2} \Delta \mathbf {x} ^ {\top} \nabla^ {2} f (\mathbf {x}) \Delta \mathbf {x} \\ = \rho \mathbf {c} ^ {\top} \mathbf {x} + \rho d + p _ {\text {b a r r i e r}} (\mathbf {x}) + \left(\rho \mathbf {c} + \nabla p _ {\text {b a r r i e r}} (\mathbf {x})\right) ^ {\top} \Delta \mathbf {x} + \frac {1}{2} \Delta \mathbf {x} ^ {\top} \nabla^ {2} p _ {\text {b a r r i e r}} (\mathbf {x}) \Delta \mathbf {x} \\ \end{array}
+\begin{array}{l} \hat {f} (\Delta \mathbf {x}) = f (\mathbf {x}) + \nabla f (\mathbf {x}) ^{\top} \Delta \mathbf {x} + \frac{1}{2} \Delta \mathbf {x}^{\top} \nabla^{2} f (\mathbf {x}) \Delta \mathbf {x} \\ = \rho \mathbf {c}^{\top} \mathbf {x} + \rho d + p_{\text{barrier}} (\mathbf {x}) + \left(\rho \mathbf {c} + \nabla p_{\text{barrier}} (\mathbf {x})\right) ^{\top} \Delta \mathbf {x} + \frac{1}{2} \Delta \mathbf {x}^{\top} \nabla^{2} p_{\text{barrier}} (\mathbf {x}) \Delta \mathbf {x} \\ \end{array}
 $$
 
 From the KKT conditions, we know that a solution must satisfy both  $\nabla \hat{f} (\Delta \mathbf{x}) + \mathbf{A}^{\top}\boldsymbol {\mu} = \mathbf{0}$  and  $\mathbf{A}(\mathbf{x} + \Delta \mathbf{x}) = \mathbf{b}$ . The first constraint works out to be:
 
 $$
-\begin{array}{l} \nabla \hat {f} (\Delta \mathbf {x}) + \mathbf {A} ^ {\top} \boldsymbol {\mu} = \mathbf {0} \\ \rho \mathbf {c} + \nabla p _ {\text {b a r r i e r}} (\mathbf {x}) + \nabla^ {2} p _ {\text {b a r r i e r}} (\mathbf {x}) \Delta \mathbf {x} + \mathbf {A} ^ {\top} \boldsymbol {\mu} = \mathbf {0} \\ \nabla^ {2} p _ {\text {b a r r i e r}} (\mathbf {x}) \Delta \mathbf {x} + \mathbf {A} ^ {\top} \boldsymbol {\mu} = - (\rho \mathbf {c} + \nabla p _ {\text {b a r r i e r}} (\mathbf {x})) \\ \end{array}
+\begin{array}{l} \nabla \hat {f} (\Delta \mathbf {x}) + \mathbf {A}^{\top} \boldsymbol {\mu} = \mathbf {0} \\ \rho \mathbf {c} + \nabla p_{\text{barrier}} (\mathbf {x}) + \nabla^{2} p_{\text{barrier}} (\mathbf {x}) \Delta \mathbf {x} + \mathbf {A}^{\top} \boldsymbol {\mu} = \mathbf {0} \\ \nabla^{2} p_{\text{barrier}} (\mathbf {x}) \Delta \mathbf {x} + \mathbf {A}^{\top} \boldsymbol {\mu} = - (\rho \mathbf {c} + \nabla p_{\text{barrier}} (\mathbf {x})) \\ \end{array}
 $$
 
 If we include the second constraint we get:
 
 $$
-\begin{array}{l} \nabla^ {2} p _ {\text {b a r r i e r}} (\mathbf {x}) \Delta \mathbf {x} + \mathbf {A} ^ {\top} \boldsymbol {\mu} = - (\rho \mathbf {c} + \nabla p _ {\text {b a r r i e r}} (\mathbf {x})) \\ \mathbf {A} (\mathbf {x} + \Delta \mathbf {x}) = \mathbf {b} \\ \end{array}
+\begin{array}{l} \nabla^{2} p_{\text{barrier}} (\mathbf {x}) \Delta \mathbf {x} + \mathbf {A}^{\top} \boldsymbol {\mu} = - (\rho \mathbf {c} + \nabla p_{\text{barrier}} (\mathbf {x})) \\ \mathbf {A} (\mathbf {x} + \Delta \mathbf {x}) = \mathbf {b} \\ \end{array}
 $$
 
 which produces the augmented system:
 
 $$
-\left[ \begin{array}{c c} \nabla^ {2} p _ {\text {b a r r i e r}} (\mathbf {x}) & \mathbf {A} ^ {\top} \\ \mathbf {A} & \mathbf {0} \end{array} \right] \left[ \begin{array}{c} \Delta \mathbf {x} \\ \boldsymbol {\mu} \end{array} \right] = - \left[ \begin{array}{c} \rho \mathbf {c} + \nabla p _ {\text {b a r r i e r}} (\mathbf {x}) \\ \mathbf {A x} - \mathbf {b} \end{array} \right]
+\left[ \begin{array}{c c} \nabla^{2} p_{\text{barrier}} (\mathbf {x}) & \mathbf {A}^{\top} \\ \mathbf {A} & \mathbf {0} \end{array} \right] \left[ \begin{array}{c} \Delta \mathbf {x} \\ \boldsymbol {\mu} \end{array} \right] = - \left[ \begin{array}{c} \rho \mathbf {c} + \nabla p_{\text{barrier}} (\mathbf {x}) \\ \mathbf {A x} - \mathbf {b} \end{array} \right]
 $$
 
 # 15 Multiobjective Optimization
@@ -10444,7 +10209,7 @@ In single-objective optimization, two design points  $\mathbf{x}$  and  $\mathbf
 In multiobjective optimization, our objective function  $f$  returns an  $m$ -dimensional vector of values  $\mathbf{y}$  when evaluated at a design point  $\mathbf{x}$ . The different dimensions of  $\mathbf{y}$  correspond to different objectives, sometimes also referred to as metrics or criteria. We can objectively rank two design points  $\mathbf{x}$  and  $\mathbf{x}'$  only when one is better in at least one objective and no worse in any other. That is,  $\mathbf{x}$  dominates  $\mathbf{x}'$  if and only if
 
 $$
-f _ {i} (\mathbf {x}) \leq f _ {i} \left(\mathbf {x} ^ {\prime}\right) \text {f o r i i n 1 : m}
+f_{i} (\mathbf {x}) \leq f_{i} \left(\mathbf {x}^{\prime}\right) \text{foriin 1 : m}
 $$
 
 and  $f_{i}(\mathbf{x}) <   f_{i}(\mathbf{x}^{\prime})$  for some  $i$  (15.1)
@@ -10452,7 +10217,7 @@ and  $f_{i}(\mathbf{x}) <   f_{i}(\mathbf{x}^{\prime})$  for some  $i$  (15.1)
 as compactly implemented in algorithm 15.1.
 
 $$
-\text {d o m i n a t e s} (y, y ^ {\prime}) = \operatorname {a l l} (y. \leq y ^ {\prime}) \& \& \text {a n y} (y. <   y ^ {\prime})
+\text{dominates} (y, y^{\prime}) = \operatorname{all} (y. \leq y^{\prime}) \& \& \text{any} (y. <   y^{\prime})
 $$
 
 Figure 15.1 shows that in multiple dimensions there are regions with dominance ambiguity. This ambiguity arises whenever  $\mathbf{x}$  is better in some objectives and  $\mathbf{x}'$  is better in others. Several methods exist for resolving these ambiguities.
@@ -10484,7 +10249,7 @@ jective, weakly Pareto-optimal points are those such that no other point improve
 Several methods discussed below use another special point. We define the utopia point to be the point in the objective space consisting of the component-wise optima:
 
 $$
-y _ {i} ^ {\text {u t o p i a}} = \underset {\mathbf {x} \in \mathcal {X}} {\operatorname {m i n i m i z e}} f _ {i} (\mathbf {x}) \tag {15.2}
+y_{i}^{\text{utopia}} = \underset{\mathbf {x} \in \mathcal {X}} {\operatorname{minimize}} f_{i} (\mathbf {x}) \tag {15.2}
 $$
 
 The utopia point is often not attainable; optimizing one component typically requires a tradeoff in another component.
@@ -10528,15 +10293,15 @@ Constraints can be used to cut out sections of the Pareto frontier and obtain a 
 The constraint method constrains all but one of the objectives. Here we choose  $f_{1}$  without loss of generality:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad f _ {1} (\mathbf {x})
+\underset{\mathbf {x}} {\text{minimize}} \quad f_{1} (\mathbf {x})
 $$
 
 $$
-\text {s u b j e c t} f _ {2} (\mathbf {x}) \leq c _ {2}
+\text{subject} f_{2} (\mathbf {x}) \leq c_{2}
 $$
 
 $$
-f _ {3} (\mathbf {x}) \leq c _ {3} \tag {15-3}
+f_{3} (\mathbf {x}) \leq c_{3} \tag {15-3}
 $$
 
 $$
@@ -10544,7 +10309,7 @@ $$
 $$
 
 $$
-\begin{array}{l} f _ {m} (\mathbf {x}) \leq c _ {m} \\ \mathbf {x} \in \mathcal {X} \\ \end{array}
+\begin{array}{l} f_{m} (\mathbf {x}) \leq c_{m} \\ \mathbf {x} \in \mathcal {X} \\ \end{array}
 $$
 
 Given the vector  $\mathbf{c}$ , the constraint method produces a unique optimal point in the criterion space, provided that the constraints are feasible. The constraint method can be used to generate Pareto frontiers by varying  $\mathbf{c}$  as shown in figure 15.5.
@@ -10573,7 +10338,7 @@ A designer can sometimes identify preferences between the objectives and encode 
 The weighted sum method (algorithm 15.3) uses a vector of weights  $\mathbf{w}$  to convert  $\mathbf{f}$  to a single objective  $f$ :2
 
 $$
-f (\mathbf {x}) = \mathbf {w} ^ {\top} \mathbf {f} (\mathbf {x}) \tag {15.4}
+f (\mathbf {x}) = \mathbf {w}^{\top} \mathbf {f} (\mathbf {x}) \tag {15.4}
 $$
 
 where the weights are nonnegative and sum to 1. The weights can be interpreted as costs associated with each objective. The Pareto frontier can be extracted by varying  $\mathbf{w}$  and solving the associated optimization problem with the objective in equation (15.4). In two dimensions, we vary  $w_{1}$  from 0 to 1, setting  $w_{2} = 1 - w_{1}$ . This approach is illustrated in figure 15.7.
@@ -10606,7 +10371,7 @@ Algorithm 15.3. The weighted sum method for generating a Pareto frontier, which 
 Goal programming $^3$  is a method for converting a multiobjective function to a single-objective function by minimizing an  $L_p$  norm $^4$  between  $\mathbf{f}(\mathbf{x})$  and a goal point:
 
 $$
-\underset {\mathbf {x} \in \mathcal {X}} {\operatorname {m i n i m i z e}} \left\| \mathbf {f} (\mathbf {x}) - \mathbf {y} ^ {\text {g o a l}} \right\| _ {p} \tag {15.5}
+\underset{\mathbf {x} \in \mathcal {X}} {\operatorname{minimize}} \left\| \mathbf {f} (\mathbf {x}) - \mathbf {y}^{\text{goal}} \right\| _{p} \tag {15.5}
 $$
 
 where the goal point is typically the utopia point. The equation above does not involve a vector of weights, but the other methods discussed in this chapter can be thought of as generalizations of goal programming. This approach is illustrated in figure 15.9.
@@ -10622,7 +10387,7 @@ An overview is presented in D. Jones and M. Tamiz, Practical Goal Programming. S
 The weighted exponential sum combines goal programming and the weighted sum method<sup>5</sup>
 
 $$
-f (\mathbf {x}) = \sum_ {i = 1} ^ {m} w _ {i} \left(f _ {i} (\mathbf {x}) - y _ {i} ^ {\text {g o a l}}\right) ^ {p} \tag {15.6}
+f (\mathbf {x}) = \sum_{i = 1}^{m} w_{i} \left(f_{i} (\mathbf {x}) - y_{i}^{\text{goal}}\right) ^{p} \tag {15.6}
 $$
 
 where  $\mathbf{w}$  is a vector of positive weights that sum to 1 and  $p \geq 1$  is an exponent similar to that used in  $L_{p}$  norms. As before, zero-valued weights can result in weakly Pareto-optimal points.
@@ -10634,13 +10399,13 @@ The weighted exponential sum weighs each component of the distance between the s
 Using higher values of  $p$  with the weighted exponential sum objective tends to produce better coverage of the Pareto frontier because the distance contours are able to enter nonconvex regions of the Pareto frontier. The weighted min-max method, also called the weighted Tchebycheff method, is the limit as  $p$  approaches infinity:6
 
 $$
-f (\mathbf {x}) = \max  _ {i} \left[ w _ {i} \left(f _ {i} (\mathbf {x}) - y _ {i} ^ {\text {g o a l}}\right) \right] \tag {15.7}
+f (\mathbf {x}) = \max_{i} \left[ w_{i} \left(f_{i} (\mathbf {x}) - y_{i}^{\text{goal}}\right) \right] \tag {15.7}
 $$
 
 The weighted min-max method can provide the complete Pareto-optimal set by scanning over the weights but will also produce weakly Pareto-optimal points. The method can be augmented to produce only the Pareto frontier
 
 $$
-f (\mathbf {x}) = \max  _ {i} \left[ w _ {i} \left(f _ {i} (\mathbf {x}) - y _ {i} ^ {\text {g o a l}}\right) \right] + \rho \mathbf {f} (\mathbf {x}) ^ {\top} \mathbf {y} ^ {\text {g o a l}} \tag {15.8}
+f (\mathbf {x}) = \max_{i} \left[ w_{i} \left(f_{i} (\mathbf {x}) - y_{i}^{\text{goal}}\right) \right] + \rho \mathbf {f} (\mathbf {x}) ^{\top} \mathbf {y}^{\text{goal}} \tag {15.8}
 $$
 
 where  $\rho$  is a small positive scalar with values typically between 0.0001 and 0.01. The added term requires that all terms in  $\mathbf{y}_{\mathrm{goal}}$  be positive, which can be accomplished by shifting the objective function. By definition,  $\mathbf{f}(\mathbf{x}) \geq \mathbf{y}_{\mathrm{goal}}$  for all  $\mathbf{x}$ . Any weakly Pareto-optimal point will have  $\mathbf{f}(\mathbf{x})^{\top} \mathbf{y}_{\mathrm{goal}}$  larger than a strongly Pareto-optimal point closer to  $\mathbf{y}_{\mathrm{goal}}$ .
@@ -10650,15 +10415,15 @@ where  $\rho$  is a small positive scalar with values typically between 0.0001 a
 The maximization can be removed by including an additional parameter  $\lambda$ :
 
 $$
-\underset {\mathbf {x}, \lambda} {\text {m i n i m i z e}} \quad \lambda
+\underset{\mathbf {x}, \lambda} {\text{minimize}} \quad \lambda
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {x} \in \mathcal {X}
+\text{subject} \quad \mathbf {x} \in \mathcal {X}
 $$
 
 $$
-\mathbf {w} \odot (\mathbf {f} (\mathbf {x}) - \mathbf {y} ^ {\text {g o a l}}) - \lambda \mathbf {1} \leq \mathbf {0}
+\mathbf {w} \odot (\mathbf {f} (\mathbf {x}) - \mathbf {y}^{\text{goal}}) - \lambda \mathbf {1} \leq \mathbf {0}
 $$
 
 # 15.3.5 Exponential Weighted Criterion
@@ -10666,7 +10431,7 @@ $$
 The exponential weighted criterion<sup>7</sup> was motivated by the inability of the weighted sum method to obtain points on nonconvex portions of the Pareto frontier. It constructs a scalar objective function according to
 
 $$
-f (\mathbf {x}) = \sum_ {i = 1} ^ {m} \left(e ^ {p w _ {i}} - 1\right) e ^ {p f _ {i} (\mathbf {x})} \tag {15.9}
+f (\mathbf {x}) = \sum_{i = 1}^{m} \left(e^{p w_{i}} - 1\right) e^{p f_{i} (\mathbf {x})} \tag {15.9}
 $$
 
 Each objective is individually transformed and reweighted. High values of  $p$  can lead to numerical overflow.
@@ -10852,33 +10617,33 @@ Figure 15.16. Preference elicitation schemes often involve asking experts their 
 Suppose the outcomes of the expert queries have resulted in a set of criterion pairs
 
 $$
-\left\{\left(\mathbf {a} ^ {(1)}, \mathbf {b} ^ {(1)}\right), \dots , \left(\mathbf {a} ^ {(n)}, \mathbf {b} ^ {(n)}\right) \right\} \tag {15.10}
+\left\{\left(\mathbf {a}^{(1)}, \mathbf {b}^{(1)}\right), \dots , \left(\mathbf {a}^{(n)}, \mathbf {b}^{(n)}\right) \right\} \tag {15.10}
 $$
 
 where  $\mathbf{a}^{(i)}$  is preferable to  $\mathbf{b}^{(i)}$  in each pair. For each of these preferences, the weight vector must satisfy
 
 $$
-\mathbf {w} ^ {\top} \mathbf {a} ^ {(i)} <   \mathbf {w} ^ {\top} \mathbf {b} ^ {(i)} \Longrightarrow \left(\mathbf {a} ^ {(i)} - \mathbf {b} ^ {(i)}\right) ^ {\top} \mathbf {w} <   0 \tag {15.11}
+\mathbf {w}^{\top} \mathbf {a}^{(i)} <   \mathbf {w}^{\top} \mathbf {b}^{(i)} \Longrightarrow \left(\mathbf {a}^{(i)} - \mathbf {b}^{(i)}\right) ^{\top} \mathbf {w} <   0 \tag {15.11}
 $$
 
 In order to be consistent with the data, the weight vector must satisfy
 
 $$
-\left\{ \begin{array}{l} \left(\mathbf {a} ^ {(i)} - \mathbf {b} ^ {(i)}\right) ^ {\top} \mathbf {w} <   0 \text {f o r} i \text {i n} 1: n \\ \mathbf {1} ^ {\top} \mathbf {w} = 1 \\ \mathbf {w} \geq \mathbf {0} \end{array} \right. \tag {15.12}
+\left\{ \begin{array}{l} \left(\mathbf {a}^{(i)} - \mathbf {b}^{(i)}\right) ^{\top} \mathbf {w} <   0 \text{for} i \text{in} 1: n \\ \mathbf {1}^{\top} \mathbf {w} = 1 \\ \mathbf {w} \geq \mathbf {0} \end{array} \right. \tag {15.12}
 $$
 
 Many different weight vectors could potentially satisfy the above equation. One approach is to choose a  $\mathbf{w}$  that best separates  $\mathbf{w}^{\top} \mathbf{a}^{(i)}$  from  $\mathbf{w}^{\top} \mathbf{b}^{(i)}$
 
 $$
-\underset {\mathbf {w}} {\text {m i n i m i z e}} \quad \sum_ {i = 1} ^ {n} \left(\mathbf {a} ^ {(i)} - \mathbf {b} ^ {(i)}\right) ^ {\top} \mathbf {w}
+\underset{\mathbf {w}} {\text{minimize}} \quad \sum_{i = 1}^{n} \left(\mathbf {a}^{(i)} - \mathbf {b}^{(i)}\right) ^{\top} \mathbf {w}
 $$
 
 $$
-\text {s u b j e c t} \quad \left(\mathbf {a} ^ {(i)} - \mathbf {b} ^ {(i)}\right) ^ {\top} \mathbf {w} <   0 \quad \text {f o r} i \text {i n} 1: n \tag {15.13}
+\text{subject} \quad \left(\mathbf {a}^{(i)} - \mathbf {b}^{(i)}\right) ^{\top} \mathbf {w} <   0 \quad \text{for} i \text{in} 1: n \tag {15.13}
 $$
 
 $$
-\mathbf {1} ^ {\top} \mathbf {w} = 1 \quad \mathbf {w} \geq \mathbf {0}
+\mathbf {1}^{\top} \mathbf {w} = 1 \quad \mathbf {w} \geq \mathbf {0}
 $$
 
 It is often desirable to choose the next weight vector such that it minimizes the distance from the previous weight vector. We can replace the objective function in equation (15.13) with  $\| \mathbf{w} - \mathbf{w}^{(n)}\| _1$ , thereby ensuring that our new weight vector  $\mathbf{w}^{(n + 1)}$  is as close as possible to our current one.[18]
@@ -10896,7 +10661,7 @@ $Q$ -Eval<sup>19</sup>, shown in figure 15.17, is a greedy elicitation strategy 
 1. Compute the prime analytic center  $\mathbf{c}$  of  $\mathcal{W}$ , which is the point that maximizes the sum of the logarithms of the distances between itself and the closest point on each nonredundant constraint in  $\mathcal{W}$ :
 
 $$
-\mathbf {c} = \underset {\mathbf {w} \in \mathcal {W}} {\arg \max } \sum_ {i = 1} ^ {n} \ln \left(\left(\mathbf {b} ^ {(i)} - \mathbf {a} ^ {(i)}\right) ^ {\top} \mathbf {w}\right) \tag {15.14}
+\mathbf {c} = \underset{\mathbf {w} \in \mathcal {W}} {\arg \max } \sum_{i = 1}^{n} \ln \left(\left(\mathbf {b}^{(i)} - \mathbf {a}^{(i)}\right) ^{\top} \mathbf {w}\right) \tag {15.14}
 $$
 
 2. Compute the normal distance from the bisecting hyperplane between each pair of points and the center.  
@@ -10930,7 +10695,7 @@ The previous section discussed query methods that select query pairs for efficie
 One such method, decision quality improvement,[21] is based on the idea that if we have to commit to a particular weight, we should commit to the one for which the worst-case objective value is lowest:
 
 $$
-\mathbf {x} ^ {*} = \underset {\mathbf {x} \in \mathcal {X}} {\arg \min } \underset {\mathbf {w} \in \mathcal {W}} {\max } \mathbf {w} ^ {\top} \mathbf {f} (\mathbf {x}) \tag {15.15}
+\mathbf {x}^{*} = \underset{\mathbf {x} \in \mathcal {X}} {\arg \min } \underset{\mathbf {w} \in \mathcal {W}} {\max } \mathbf {w}^{\top} \mathbf {f} (\mathbf {x}) \tag {15.15}
 $$
 
 This minimax decision is robust because it provides an upper bound on the objective value.
@@ -10938,7 +10703,7 @@ This minimax decision is robust because it provides an upper bound on the object
 The minimax regret $^{22}$  instead minimizes the maximum amount of regret the user can have when selecting a particular design:
 
 $$
-\mathbf {x} ^ {*} = \underset {\mathbf {x} \in \mathcal {X}} {\arg \min } \underbrace {\underset {\mathbf {w} \in \mathcal {W} \mathbf {x} ^ {\prime} \in \mathcal {X}} {\max } \mathbf {w} ^ {\top} \mathbf {f} (\mathbf {x}) - \mathbf {w} ^ {\top} \mathbf {f} \left(\mathbf {x} ^ {\prime}\right)} _ {\text {m a x i m u m r e g r e t}} \tag {15.16}
+\mathbf {x}^{*} = \underset{\mathbf {x} \in \mathcal {X}} {\arg \min } \underbrace{\underset{\mathbf {w} \in \mathcal {W} \mathbf {x}^{\prime} \in \mathcal {X}} {\max } \mathbf {w}^{\top} \mathbf {f} (\mathbf {x}) - \mathbf {w}^{\top} \mathbf {f} \left(\mathbf {x}^{\prime}\right)}_{\text{maximumregret}} \tag {15.16}
 $$
 
 where  $\mathbf{w}^{\top}\mathbf{f}(\mathbf{x}) - \mathbf{w}^{\top}\mathbf{f}(\mathbf{x}^{\prime})$  is the regret associated with choosing design  $\mathbf{x}$  instead of design  $\mathbf{x}^{\prime}$  under the preference weight vector  $\mathbf{w}$ . Minimax regret can be viewed as accounting for the decision system's uncertainty with respect to the designer's true utility function.
@@ -10997,23 +10762,23 @@ Solution: For example, if  $\mathbf{y}^{\mathrm{goal}}$  is in the criterion set
 Exercise 15.8. Use the constraint method to obtain the Pareto curve for the optimization problem:
 
 $$
-\underset {x} {\text {m i n i m i z e}} \left[ x ^ {2}, (x - 2) ^ {2} \right]
+\underset{x} {\text{minimize}} \left[ x^{2}, (x - 2) ^{2} \right]
 $$
 
 Solution: The constraint method constrains all but one objective. A Pareto curve can be generated by varying the constraints. If we constrain the first objective, each optimization problem has the form:
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad (x - 2) ^ {2}
+\underset{x} {\text{minimize}} \quad (x - 2) ^{2}
 $$
 
 $$
-\text {s u b j e c t} \quad x ^ {2} \leq c
+\text{subject} \quad x^{2} \leq c
 $$
 
 The constraint can be satisfied only for  $c \geq 0$ . This allows  $x$  to vary between  $\pm \sqrt{c}$ . The first objective is optimized by minimizing the deviation of  $x$  from 2. Thus, for a given value of  $c$ , we obtain:
 
 $$
-x ^ {*} = \left\{ \begin{array}{l l} 2 & \text {i f} c \geq 4 \\ \sqrt {c} & \text {i f} c \in [ 0, 4) \\ \text {u n d e f i n e d} & \text {o t h e r w i s e} \end{array} \right.
+x^{*} = \left\{ \begin{array}{l l} 2 & \text{if} c \geq 4 \\ \sqrt{c} & \text{if} c \in [ 0, 4) \\ \text{undefined} & \text{otherwise} \end{array} \right.
 $$
 
 The resulting Pareto curve is:
@@ -11023,11 +10788,11 @@ The resulting Pareto curve is:
 Exercise 15.9. Suppose we have a multiobjective optimization problem where the two objectives are as follows:
 
 $$
-f _ {1} (x) = - (x - 2) \sin (x)
+f_{1} (x) = - (x - 2) \sin (x)
 $$
 
 $$
-f _ {2} (x) = - (x + 3) ^ {2} \sin (x)
+f_{2} (x) = - (x + 3) ^{2} \sin (x)
 $$
 
 With  $x \in \{-5, -3, -1, 1, 3, 5\}$ , plot the points in the criterion space. How many points are on the Pareto frontier?
@@ -11130,7 +10895,7 @@ Figure 16.7. A uniform projection plan that is not space-filling.
 The ability of the sampling plan to fill a hyperrectangular design space  $\mathcal{H}$  can be measured by its discrepancy. If  $X$  has low discrepancy, then a randomly chosen subset of the design space should contain a fraction of samples proportional to the subset's volume relative to that of  $\mathcal{H}$ . The discrepancy associated with  $X$  is the maximum difference between the fraction of samples in a hyperrectangular subset  $H$  and the fraction of the subset's volume with respect to the volume of the design space:
 
 $$
-d (X) = \sup  _ {H \in \mathcal {H}} \left| \frac {\# (X \cap H)}{\# (X \cap \mathcal {H})} - \frac {\lambda (H)}{\lambda (\mathcal {H})} \right| \tag {16.1}
+d (X) = \sup_{H \in \mathcal {H}} \left| \frac{\# (X \cap H)}{\# (X \cap \mathcal {H})} - \frac{\lambda (H)}{\lambda (\mathcal {H})} \right| \tag {16.1}
 $$
 
 where  $\# (X\cap H)$  is the number of points in  $X$  that lie in the hyperrectangle  $H$ . Note that  $\# (X\cap \mathcal{H})$  will be the number of points in  $X$ , as all points lie in the design space. The value  $\lambda (H)$  is the  $n$ -dimensional volume of the given hyperrectangle, which is the product of its side lengths. The term supremum is very similar to maximization but allows a solution to exist for problems where  $H$  merely approaches a particular rectangular subset, as seen in example 16.1.<sup>6</sup> Computing the discrepancy in this way for hyperrectangles can be difficult, and it can be even less straightforward for non-hyperrectangles.
@@ -11151,7 +10916,7 @@ This definition of discrepancy requires hyperrectangles. The notion of discrepan
 Consider the set:
 
 $$
-X = \left\{\left[ \frac {1}{5}, \frac {1}{5} \right], \left[ \frac {2}{5}, \frac {1}{5} \right], \left[ \frac {1}{1 0}, \frac {3}{5} \right], \left[ \frac {9}{1 0}, \frac {3}{1 0} \right], \left[ \frac {1}{5 0}, \frac {1}{5 0} \right], \left[ \frac {3}{5}, \frac {4}{5} \right] \right\}
+X = \left\{\left[ \frac{1}{5}, \frac{1}{5} \right], \left[ \frac{2}{5}, \frac{1}{5} \right], \left[ \frac{1}{10}, \frac{3}{5} \right], \left[ \frac{9}{10}, \frac{3}{10} \right], \left[ \frac{1}{50}, \frac{1}{50} \right], \left[ \frac{3}{5}, \frac{4}{5} \right] \right\}
 $$
 
 The discrepancy of  $X$  with respect to the unit square is determined by a rectangular subset  $H$  that either has very small area but contains very many points or has very large area and contains very few points.
@@ -11203,13 +10968,13 @@ end
 The comparison scheme in section 16.5.2 typically results in a challenging optimization problem with many local minima. An alternative is to search for a plan that minimizes the Morris-Mitchell criterion (algorithm 16.6):7
 
 $$
-\Phi_ {q} (X) = \left(\sum_ {i} d _ {i} ^ {- q}\right) ^ {1 / q} \tag {16.2}
+\Phi_{q} (X) = \left(\sum_{i} d_{i}^{- q}\right) ^{1 / q} \tag {16.2}
 $$
 
 where  $d_{i}$  is the  $i$ th pairwise distance between points in  $X$  and  $q > 0$  is a tunable parameter. Morris and Mitchell recommend optimizing:
 
 $$
-\underset {X} {\text {m i n i m i z e}} \underset {q \in \{1, 2, 5, 1 0, 2 0, 5 0, 1 0 0 \}} {\text {m a x i m i z e}} \Phi_ {q} (X) \tag {16.3}
+\underset{X} {\text{minimize}} \underset{q \in \{1, 2, 5, 10, 20, 50, 10 0 \}} {\text{maximize}} \Phi_{q} (X) \tag {16.3}
 $$
 
 ```matlab
@@ -11244,21 +11009,21 @@ The degree to which  $S$  fills the design space can be quantified using the max
 norm, but we typically use  $L_{2}$ , the Euclidean distance:
 
 $$
-d _ {\max } (X, S) = \underset {\mathbf {x} \in X} {\operatorname {m a x i m i z e}} \underset {\mathbf {s} \in S} {\operatorname {m i n i m i z e}} \| \mathbf {s} - \mathbf {x} \| _ {p} \tag {16.4}
+d_{\max } (X, S) = \underset{\mathbf {x} \in X} {\operatorname{maximize}} \underset{\mathbf {s} \in S} {\operatorname{minimize}} \| \mathbf {s} - \mathbf {x} \| _{p} \tag {16.4}
 $$
 
 $$
-\begin{array}{l} \min  _ {\text {d i s t}} (a, B, p) = \operatorname {m i n i m u m} (\operatorname {n o r m} (a - b, p) \text {f o r} b \text {i n} B) \\ d _ {-} \max  (A, B, p = 2) = \operatorname {m a x i m u m} (\operatorname {m i n} _ {\text {d i s t}} (a, B, p) \text {f o r} a \text {i n} A) \end{array}
+\begin{array}{l} \min_{\text{dist}} (a, B, p) = \operatorname{minimum} (\operatorname{norm} (a - b, p) \text{for} b \text{in} B) \\ d_{-} \max (A, B, p = 2) = \operatorname{maximum} (\operatorname{min}_{\text{dist}} (a, B, p) \text{for} a \text{in} A) \end{array}
 $$
 
 A space-filling sampling plan is one that minimizes this metric. $^{10}$  Finding a space-filling sampling plan with  $m$  elements is an optimization problem
 
 $$
-\underset {S} {\text {m i n i m i z e}} d _ {\max } (X, S)
+\underset{S} {\text{minimize}} d_{\max } (X, S)
 $$
 
 $$
-\text {s u b j e c t} S \subseteq X \tag {16.5}
+\text{subject} S \subseteq X \tag {16.5}
 $$
 
 $$
@@ -11331,7 +11096,7 @@ Algorithm 16.9. Exchange subset selection for finding m-element sampling plans t
 Quasi-random sequences, $^{11}$  also called low-discrepancy sequences, are often used in the context of trying to approximate an integral over a multidimensional space:
 
 $$
-\int_ {\mathcal {X}} f (\mathbf {x}) d \mathbf {x} \approx \frac {v}{m} \sum_ {i = 1} ^ {m} f \left(\mathbf {x} ^ {(i)}\right) \tag {16.6}
+\int_{\mathcal {X}} f (\mathbf {x}) d \mathbf {x} \approx \frac{v}{m} \sum_{i = 1}^{m} f \left(\mathbf {x}^{(i)}\right) \tag {16.6}
 $$
 
 where each  $\mathbf{x}^{(i)}$  is sampled uniformly at random over the domain  $\mathcal{X}$  and  $v$  is the volume of  $\mathcal{X}$ . This approximation is known as Monte Carlo integration.
@@ -11345,13 +11110,13 @@ Quasi-random sequences are typically constructed for the unit  $n$ -dimensional 
 Simple recurrence relations of the form:
 
 $$
-x ^ {(k + 1)} = x ^ {(k)} + c \pmod {1} \tag {16.7}
+x^{(k + 1)} = x^{(k)} + c \pmod {1} \tag {16.7}
 $$
 
 produce space-filling sets provided that  $c$  is irrational. The value of  $c$  leading to the smallest discrepancy is
 
 $$
-c = 1 - \varphi = \frac {\sqrt {5} - 1}{2} \approx 0. 6 1 8 0 3 4 \tag {16.8}
+c = 1 - \varphi = \frac{\sqrt{5} - 1}{2} \approx 0. 61 80 34 \tag {16.8}
 $$
 
 where  $\varphi$  is the golden ratio.13
@@ -11359,7 +11124,7 @@ where  $\varphi$  is the golden ratio.13
 We can construct a space-filling set over  $n$  dimensions using an additive recurrence sequence for each coordinate, each with its own value of  $c$ . The square roots of the primes are known to be irrational, and can thus be used to obtain different sequences for each coordinate:
 
 $$
-c _ {1} = \sqrt {2}, \quad c _ {2} = \sqrt {3}, \quad c _ {3} = \sqrt {5}, \quad c _ {4} = \sqrt {7}, \quad c _ {5} = \sqrt {1 1}, \quad \ldots \qquad (1 6. 9)
+c_{1} = \sqrt{2}, \quad c_{2} = \sqrt{3}, \quad c_{3} = \sqrt{5}, \quad c_{4} = \sqrt{7}, \quad c_{5} = \sqrt{11}, \quad \ldots \qquad (16. 9)
 $$
 
 11C. Lemieux, Monte Carlo and Quasi-Monte Carlo Sampling. Springer, 2009.
@@ -11389,13 +11154,13 @@ end
 The Halton sequence is a multidimensional quasi-random space-filling set. $^{14}$  The single-dimensional version, called van der Corput sequences, generates sequences where the unit interval is divided into powers of base  $b$ . For example,  $b = 2$  produces:
 
 $$
-X = \left\{\frac {1}{2}, \frac {1}{4}, \frac {3}{4}, \frac {1}{8}, \frac {5}{8}, \frac {3}{8}, \frac {7}{8}, \frac {1}{1 6}, \dots \right\} \tag {16.10}
+X = \left\{\frac{1}{2}, \frac{1}{4}, \frac{3}{4}, \frac{1}{8}, \frac{5}{8}, \frac{3}{8}, \frac{7}{8}, \frac{1}{16}, \dots \right\} \tag {16.10}
 $$
 
 whereas  $b = 5$  produces:
 
 $$
-X = \left\{\frac {1}{5}, \frac {2}{5}, \frac {3}{5}, \frac {4}{5}, \frac {1}{2 5}, \frac {6}{2 5}, \frac {1 1}{2 5}, \dots \right\} \tag {16.11}
+X = \left\{\frac{1}{5}, \frac{2}{5}, \frac{3}{5}, \frac{4}{5}, \frac{1}{25}, \frac{6}{25}, \frac{11}{25}, \dots \right\} \tag {16.11}
 $$
 
 The values for  $b = 2$  are shown in figure 16.11.
@@ -11440,7 +11205,7 @@ For large primes, we can get correlation in the first few numbers. Such a correl
 Sobol sequences are quasi-random space-filling sequences for  $n$ -dimensional hypercubes. $^{16}$  They are generated by xoring the previous Sobol number with a set of direction numbers:
 
 $$
-X _ {j} ^ {(i)} = X _ {j} ^ {(i - 1)} \underline {{\vee}} v _ {j} ^ {(k)} \tag {16.12}
+X_{j}^{(i)} = X_{j}^{(i - 1)} \underline {{\vee}} v_{j}^{(k)} \tag {16.12}
 $$
 
 where  $v_{j}^{(k)}$  is the  $j$ th bit of the  $k$ th direction number. The symbol  $\underline{\vee}$  denotes the XOR operation, which returns true if and only if both inputs are different. Tables of good direction numbers have been provided by various authors. $^{17}$
@@ -11474,13 +11239,13 @@ Exercise 16.1. Filling a multidimensional space requires exponentially more poin
 Solution: The one-dimensional unit hypercube is  $x \in [0,1]$ , and its volume is 1. In this case the required side length  $\ell$  is 0.5. The two-dimensional unit hypercube is the unit square  $x_{i} \in [0,1]$  for  $i \in \{1,2\}$ , which has a 2-dimensional volume, or area, of 1. The area of a square with side length  $\ell$  is  $\ell^2$ , so we solve:
 
 $$
-\ell^ {2} = \frac {1}{2} \quad \Longrightarrow \quad \ell = \frac {\sqrt {2}}{2} \approx 0. 7 0 7
+\ell^{2} = \frac{1}{2} \quad \Longrightarrow \quad \ell = \frac{\sqrt{2}}{2} \approx 0. 70 7
 $$
 
 An  $n$ -dimensional hypercube has volume  $\ell^n$ . We thus solve:
 
 $$
-\ell^ {n} = \frac {1}{2} \quad \Longrightarrow \quad \ell = 2 ^ {- 1 / n}
+\ell^{n} = \frac{1}{2} \quad \Longrightarrow \quad \ell = 2^{- 1 / n}
 $$
 
 The side length approaches one.
@@ -11490,7 +11255,7 @@ Exercise 16.2. Suppose that you sample randomly inside a unit sphere in  $n$  di
 Solution: The probability that a randomly sampled point is within  $\epsilon$ -distance from the surface is just the ratio of the volumes. Thus:
 
 $$
-P \left(\| x \| _ {2} > 1 - \epsilon\right) = 1 - P \left(\| x \| _ {2} <   1 - \epsilon\right) = 1 - (1 - \epsilon) ^ {n} \rightarrow 1
+P \left(\| x \| _{2} > 1 - \epsilon\right) = 1 - P \left(\| x \| _{2} <   1 - \epsilon\right) = 1 - (1 - \epsilon) ^{n} \rightarrow 1
 $$
 
 as  $n\to \infty$
@@ -11500,7 +11265,7 @@ as  $n\to \infty$
 Exercise 16.3. We have a sampling plan  $X = \{\mathbf{x}^{(1)},\ldots ,\mathbf{x}^{(10)}\}$ , where
 
 $$
-\mathbf {x} ^ {(i)} = [ \cos (2 \pi i / 1 0), \sin (2 \pi i / 1 0) ]
+\mathbf {x}^{(i)} = [ \cos (2 \pi i / 10), \sin (2 \pi i / 10) ]
 $$
 
 Suppose we use the Morris-Mitchell criterion with an  $L_{2}$  norm with the parameter  $q$  is set to 2. In other words, we want to evaluate  $\Phi_2(X)$ . If we add [2,3] to each  $\mathbf{x}^{(i)}$ , will  $\Phi_2(X)$  change? Why or why not?
@@ -11512,7 +11277,7 @@ Exercise 16.4. Additive recurrence requires that the multiplicative factor  $c$ 
 Solution: A rational number can be written as a fraction of two integers  $a / b$ . It follows that the sequence repeats every  $b$  iterations:
 
 $$
-\begin{array}{l} x ^ {(k + 1)} = x ^ {(k)} + \frac {a}{b} \pmod {1} \\ x ^ {(k)} = x ^ {(0)} + k \frac {a}{b} \pmod {1} \\ = x ^ {(0)} + k \frac {a}{b} + a \pmod {1} \\ = x ^ {(0)} + (k + b) \frac {a}{b} \pmod {1} \\ = x ^ {(k + b)} \\ \end{array}
+\begin{array}{l} x^{(k + 1)} = x^{(k)} + \frac{a}{b} \pmod {1} \\ x^{(k)} = x^{(0)} + k \frac{a}{b} \pmod {1} \\ = x^{(0)} + k \frac{a}{b} + a \pmod {1} \\ = x^{(0)} + (k + b) \frac{a}{b} \pmod {1} \\ = x^{(k + b)} \\ \end{array}
 $$
 
 # 17 Surrogate Models
@@ -11526,25 +11291,25 @@ A surrogate model  $\hat{f}$  parameterized by  $\theta$  is designed to mimic t
 Suppose we have  $m$  design points
 
 $$
-X = \left\{\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(2)}, \dots , \mathbf {x} ^ {(m)} \right\} \tag {17.1}
+X = \left\{\mathbf {x}^{(1)}, \mathbf {x}^{(2)}, \dots , \mathbf {x}^{(m)} \right\} \tag {17.1}
 $$
 
 and associated function evaluations
 
 $$
-\mathbf {y} = \left\{y ^ {(1)}, y ^ {(2)}, \dots , y ^ {(m)} \right\} \tag {17.2}
+\mathbf {y} = \left\{y^{(1)}, y^{(2)}, \dots , y^{(m)} \right\} \tag {17.2}
 $$
 
 For a particular set of parameters, the model will predict
 
 $$
-\hat {\mathbf {y}} = \left\{\hat {f} _ {\boldsymbol {\theta}} \left(\mathbf {x} ^ {(1)}\right), \hat {f} _ {\boldsymbol {\theta}} \left(\mathbf {x} ^ {(2)}\right), \dots , \hat {f} _ {\boldsymbol {\theta}} \left(\mathbf {x} ^ {(m)}\right) \right\} \tag {17.3}
+\hat {\mathbf {y}} = \left\{\hat {f}_{\boldsymbol {\theta}} \left(\mathbf {x}^{(1)}\right), \hat {f}_{\boldsymbol {\theta}} \left(\mathbf {x}^{(2)}\right), \dots , \hat {f}_{\boldsymbol {\theta}} \left(\mathbf {x}^{(m)}\right) \right\} \tag {17.3}
 $$
 
 Fitting a model to a set of points requires tuning the parameters to minimize the difference between the true evaluations and those predicted by the model, typically according to an  $L_{p}$  norm:
 
 $$
-\underset {\theta} {\text {m i n i m i z e}} \| \mathbf {y} - \hat {\mathbf {y}} \| _ {p} \tag {17.4}
+\underset{\theta} {\text{minimize}} \| \mathbf {y} - \hat {\mathbf {y}} \| _{p} \tag {17.4}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/37e80381a84dc33fab382a6f8fadb828aad6ea11bbbe90c1c8a9161166ddd815.jpg)  
@@ -11561,7 +11326,7 @@ This form of model fitting is called regression. A large body of work exists for
 A simple surrogate model is the linear model, which has the form<sup>3</sup>
 
 $$
-\hat {f} = w _ {0} + \mathbf {w} ^ {\top} \mathbf {x} \quad \theta = \left\{w _ {0}, \mathbf {w} \right\} \tag {17.5}
+\hat {f} = w_{0} + \mathbf {w}^{\top} \mathbf {x} \quad \theta = \left\{w_{0}, \mathbf {w} \right\} \tag {17.5}
 $$
 
 For an  $n$ -dimensional design space, the linear model has  $n + 1$  parameters, and thus requires at least  $n + 1$  samples to fit unambiguously.
@@ -11569,25 +11334,25 @@ For an  $n$ -dimensional design space, the linear model has  $n + 1$  parameters
 Instead of having both  $\mathbf{w}$  and  $w_{0}$  as parameters, it is common to construct a single vector of parameters  $\theta = [w_0,\mathbf{w}]$  and prepend 1 to the vector  $\mathbf{x}$  to get
 
 $$
-\hat {f} = \boldsymbol {\theta} ^ {\top} \mathbf {x} \tag {17.6}
+\hat {f} = \boldsymbol {\theta}^{\top} \mathbf {x} \tag {17.6}
 $$
 
 Finding an optimal  $\theta$  requires solving a linear regression problem:
 
 $$
-\underset {\theta} {\text {m i n i m i z e}} \| \mathbf {y} - \hat {\mathbf {y}} \| _ {2} ^ {2} \tag {17.7}
+\underset{\theta} {\text{minimize}} \| \mathbf {y} - \hat {\mathbf {y}} \| _{2}^{2} \tag {17.7}
 $$
 
 which is equivalent to solving
 
 $$
-\underset {\theta} {\text {m i n i m i z e}} \| \mathbf {y} - \mathbf {X} \theta \| _ {2} ^ {2} \tag {17.8}
+\underset{\theta} {\text{minimize}} \| \mathbf {y} - \mathbf {X} \theta \| _{2}^{2} \tag {17.8}
 $$
 
 where  $\mathbf{X}$  is a design matrix formed from  $m$  data points
 
 $$
-\mathbf {X} = \left[ \begin{array}{c} \left(\mathbf {x} ^ {(1)}\right) ^ {\top} \\ \left(\mathbf {x} ^ {(2)}\right) ^ {\top} \\ \vdots \\ \left(\mathbf {x} ^ {(m)}\right) ^ {\top} \end{array} \right] \tag {17.9}
+\mathbf {X} = \left[ \begin{array}{c} \left(\mathbf {x}^{(1)}\right) ^{\top} \\ \left(\mathbf {x}^{(2)}\right) ^{\top} \\ \vdots \\ \left(\mathbf {x}^{(m)}\right) ^{\top} \end{array} \right] \tag {17.9}
 $$
 
 2 K. P. Murphy, Machine Learning: A Probabilistic Perspective. MIT Press, 2012.
@@ -11612,7 +11377,7 @@ Algorithm 17.1 implements methods for computing a design matrix and for solving 
 Linear regression has an analytic solution
 
 $$
-\boldsymbol {\theta} = \mathbf {X} ^ {+} \mathbf {y} \tag {17.10}
+\boldsymbol {\theta} = \mathbf {X}^{+} \mathbf {y} \tag {17.10}
 $$
 
 where  $\mathbf{X}^{+}$  is the Moore-Penrose pseudoinverse of  $\mathbf{X}$ , as covered in section 13.2.
@@ -11622,13 +11387,13 @@ where  $\mathbf{X}^{+}$  is the Moore-Penrose pseudoinverse of  $\mathbf{X}$ , a
 The linear model is a linear combination of the components of  $\mathbf{x}$ :
 
 $$
-\hat {f} (\mathbf {x}) = \theta_ {1} x _ {1} + \dots + \theta_ {n} x _ {n} = \sum_ {i = 1} ^ {n} \theta_ {i} x _ {i} = \boldsymbol {\theta} ^ {\top} \mathbf {x} \tag {17.11}
+\hat {f} (\mathbf {x}) = \theta_{1} x_{1} + \dots + \theta_{n} x_{n} = \sum_{i = 1}^{n} \theta_{i} x_{i} = \boldsymbol {\theta}^{\top} \mathbf {x} \tag {17.11}
 $$
 
 which is a specific example of a more general linear combination of basis functions
 
 $$
-\hat {f} (\mathbf {x}) = \theta_ {1} b _ {1} (\mathbf {x}) + \dots + \theta_ {q} b _ {q} (\mathbf {x}) = \sum_ {i = 1} ^ {q} \theta_ {i} b _ {i} (\mathbf {x}) = \boldsymbol {\theta} ^ {\top} \mathbf {b} (\mathbf {x}) \tag {17.12}
+\hat {f} (\mathbf {x}) = \theta_{1} b_{1} (\mathbf {x}) + \dots + \theta_{q} b_{q} (\mathbf {x}) = \sum_{i = 1}^{q} \theta_{i} b_{i} (\mathbf {x}) = \boldsymbol {\theta}^{\top} \mathbf {b} (\mathbf {x}) \tag {17.12}
 $$
 
 In the case of linear regression, the basis functions simply extract each component,  $b_{i}(\mathbf{x}) = x_{i}$ .
@@ -11636,7 +11401,7 @@ In the case of linear regression, the basis functions simply extract each compon
 Any surrogate model represented as a linear combination of basis functions can be fit using regression:
 
 $$
-\underset {\theta} {\text {m i n i m i z e}} \| \mathbf {y} - \mathbf {B} \theta \| _ {2} ^ {2} \tag {17.13}
+\underset{\theta} {\text{minimize}} \| \mathbf {y} - \mathbf {B} \theta \| _{2}^{2} \tag {17.13}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/535aa03723a6435a544df7ba0fcfe2061fda5ff36b95b364ce4f898ce8cd9d36.jpg)
@@ -11653,13 +11418,13 @@ The bottom-left subfigure shows the model obtained for two repeated points, in t
 where  $\mathbf{B}$  is the basis matrix formed from  $m$  data points:
 
 $$
-\mathbf {B} = \left[ \begin{array}{c} \mathbf {b} \left(\mathbf {x} ^ {(1)}\right) ^ {\top} \\ \mathbf {b} \left(\mathbf {x} ^ {(2)}\right) ^ {\top} \\ \vdots \\ \mathbf {b} \left(\mathbf {x} ^ {(m)}\right) ^ {\top} \end{array} \right] \tag {17.14}
+\mathbf {B} = \left[ \begin{array}{c} \mathbf {b} \left(\mathbf {x}^{(1)}\right) ^{\top} \\ \mathbf {b} \left(\mathbf {x}^{(2)}\right) ^{\top} \\ \vdots \\ \mathbf {b} \left(\mathbf {x}^{(m)}\right) ^{\top} \end{array} \right] \tag {17.14}
 $$
 
 The weighting parameters can be obtained using the pseudoinverse
 
 $$
-\boldsymbol {\theta} = \mathbf {B} ^ {+} \mathbf {y} \tag {17.15}
+\boldsymbol {\theta} = \mathbf {B}^{+} \mathbf {y} \tag {17.15}
 $$
 
 Algorithm 17.2 implements this more general regression procedure.
@@ -11684,7 +11449,7 @@ From the Taylor series expansion<sup>4</sup> we know that any infinitely differe
 In one dimension, a polynomial model of degree  $k$  has the form
 
 $$
-\hat {f} (x) = \theta_ {0} + \theta_ {1} x + \theta_ {2} x ^ {2} + \theta_ {3} x ^ {3} + \dots + \theta_ {k} x ^ {k} = \sum_ {i = 0} ^ {k} \theta_ {i} x ^ {i} \tag {17.16}
+\hat {f} (x) = \theta_{0} + \theta_{1} x + \theta_{2} x^{2} + \theta_{3} x^{3} + \dots + \theta_{k} x^{k} = \sum_{i = 0}^{k} \theta_{i} x^{i} \tag {17.16}
 $$
 
 Hence, we have a set of basis functions  $b_{i}(x) = x^{i}$  for  $i$  ranging from 0 to  $k$ .
@@ -11696,7 +11461,7 @@ Covered in appendix C.2.
 In two dimensions, a polynomial model of degree  $k$  has basis functions of the form
 
 $$
-b _ {i j} (\mathbf {x}) = x _ {1} ^ {i} x _ {2} ^ {j} \text {f o r} i, j \in \{0, \dots , k \}, i + j \leq k \tag {17.17}
+b_{i j} (\mathbf {x}) = x_{1}^{i} x_{2}^{j} \text{for} i, j \in \{0, \dots , k \}, i + j \leq k \tag {17.17}
 $$
 
 Fitting a polynomial surrogate model is a regression problem, so a polynomial model is linear in higher dimensional space (figure 17.3). Any linear combination of basis functions can be viewed as linear regression in a higher dimensional space.
@@ -11722,27 +11487,27 @@ Any continuous function over a finite domain can be represented using an infinit
 integrable univariate function  $f$  on an interval  $[a,b]$
 
 $$
-f (x) = \frac {\theta_ {0}}{2} + \sum_ {i = 1} ^ {\infty} \theta_ {i} ^ {(\sin)} \sin \left(\frac {2 \pi i x}{b - a}\right) + \theta_ {i} ^ {(\cos)} \cos \left(\frac {2 \pi i x}{b - a}\right) \tag {17.18}
+f (x) = \frac{\theta_{0}}{2} + \sum_{i = 1}^{\infty} \theta_{i}^{(\sin)} \sin \left(\frac{2 \pi i x}{b - a}\right) + \theta_{i}^{(\cos)} \cos \left(\frac{2 \pi i x}{b - a}\right) \tag {17.18}
 $$
 
 where
 
 $$
-\theta_ {0} = \frac {2}{b - a} \int_ {a} ^ {b} f (x) d x \tag {17.19}
+\theta_{0} = \frac{2}{b - a} \int_{a}^{b} f (x) d x \tag {17.19}
 $$
 
 $$
-\theta_ {i} ^ {(\sin)} = \frac {2}{b - a} \int_ {a} ^ {b} f (x) \sin \left(\frac {2 \pi i x}{b - a}\right) d x \tag {17.20}
+\theta_{i}^{(\sin)} = \frac{2}{b - a} \int_{a}^{b} f (x) \sin \left(\frac{2 \pi i x}{b - a}\right) d x \tag {17.20}
 $$
 
 $$
-\theta_ {i} ^ {(\cos)} = \frac {2}{b - a} \int_ {a} ^ {b} f (x) \cos \left(\frac {2 \pi i x}{b - a}\right) d x \tag {17.21}
+\theta_{i}^{(\cos)} = \frac{2}{b - a} \int_{a}^{b} f (x) \cos \left(\frac{2 \pi i x}{b - a}\right) d x \tag {17.21}
 $$
 
 Just as the first few terms of a Taylor series are used in polynomial models, so too are the first few terms of the Fourier series used in sinusoidal models. The bases for a single component over the domain  $x \in [a,b]$  are:
 
 $$
-\left\{ \begin{array}{l l} b _ {0} (x) & = 1 / 2 \\ b _ {i} ^ {(\sin)} (x) & = \sin \left(\frac {2 \pi i x}{b - a}\right) \\ b _ {i} ^ {(\cos)} (x) & = \cos \left(\frac {2 \pi i x}{b - a}\right) \end{array} \right. \tag {17.22}
+\left\{ \begin{array}{l l} b_{0} (x) & = 1 / 2 \\ b_{i}^{(\sin)} (x) & = \sin \left(\frac{2 \pi i x}{b - a}\right) \\ b_{i}^{(\cos)} (x) & = \cos \left(\frac{2 \pi i x}{b - a}\right) \end{array} \right. \tag {17.22}
 $$
 
 We can combine the terms for multidimensional sinusoidal models in the same way we combine terms in polynomial models. Algorithm 17.4 can be used to construct sinusoidal basis functions. Several cases for sinusoidal regression are shown in figure 17.4.
@@ -11754,7 +11519,7 @@ A radial function<sup>6</sup>  $\psi$  is a function that depends only on the di
 Radial basis functions require specifying the center points. One approach when fitting radial basis functions to a set of data points is to use the data points as the centers. For a set of  $m$  points, one thus constructs  $m$  radial basis functions
 
 $$
-b _ {i} (\mathbf {x}) = \psi \left(\left\| \mathbf {x} - \mathbf {x} ^ {(i)} \right\|\right) \quad \text {f o r} i \text {i n} 1: m \tag {17.23}
+b_{i} (\mathbf {x}) = \psi \left(\left\| \mathbf {x} - \mathbf {x}^{(i)} \right\|\right) \quad \text{for} i \text{in} 1: m \tag {17.23}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/9bf12105df8608b5a7b7440b2c1c91b425e4ad10d25b6000cd7f86e03390b2b4.jpg)
@@ -11818,7 +11583,7 @@ x
 Figure 17.6. Several different Gaussian radial basis functions used to fit  $x \sin(5x)$  based on four noise-free samples.
 
 $$
-\underset {\theta} {\text {m i n i m i z e}} \quad \| \mathbf {y} - \mathbf {B} \theta \| _ {2} ^ {2} + \lambda \| \theta \| _ {2} ^ {2} \tag {17.24}
+\underset{\theta} {\text{minimize}} \quad \| \mathbf {y} - \mathbf {B} \theta \| _{2}^{2} + \lambda \| \theta \| _{2}^{2} \tag {17.24}
 $$
 
 where  $\lambda \geq 0$  is a smoothing parameter, with  $\lambda = 0$  resulting in no smoothing.
@@ -11826,7 +11591,7 @@ where  $\lambda \geq 0$  is a smoothing parameter, with  $\lambda = 0$  resultin
 The optimal parameter vector is given by:
 
 $$
-\boldsymbol {\theta} = \left(\mathbf {B} ^ {\top} \mathbf {B} + \lambda \mathbf {I}\right) ^ {- 1} \mathbf {B} ^ {\top} \mathbf {y} \tag {17.25}
+\boldsymbol {\theta} = \left(\mathbf {B}^{\top} \mathbf {B} + \lambda \mathbf {I}\right) ^{- 1} \mathbf {B}^{\top} \mathbf {y} \tag {17.25}
 $$
 
 where  $\mathbf{I}$  is the identity matrix. The matrix  $(\mathbf{B}^{\top}\mathbf{B} + \lambda \mathbf{I})$  is not always invertible if  $\lambda = 0$ . However, we can always produce an invertible matrix with a positive  $\lambda$ .
@@ -11854,13 +11619,13 @@ Figure 17.7. Several different Gaussian radial basis functions used to fit  $x\s
 So far, we have discussed how to fit a particular model to data. This section explains how to select which model to use. We generally want to minimize generalization error, which is a measure of the error of the model on the full design space, including points that may not be included in the data used to train the model. One way to measure generalization error is to use the expected squared error of its predictions:
 
 $$
-\epsilon_ {\text {g e n}} = \mathbb {E} _ {\mathbf {x} \sim \mathcal {X}} \left[ \left(f (\mathbf {x}) - \hat {f} (\mathbf {x})\right) ^ {2} \right] \tag {17.26}
+\epsilon_{\text{gen}} = \mathbb {E}_{\mathbf {x} \sim \mathcal {X}} \left[ \left(f (\mathbf {x}) - \hat {f} (\mathbf {x})\right) ^{2} \right] \tag {17.26}
 $$
 
 Of course, we cannot calculate this generalization error exactly because it requires knowing the function we are trying to approximate. It may be tempting to estimate the generalization error of a model from the training error. One way to measure training error is to use the mean squared error (MSE) of the model evaluated on the  $m$  samples used for training:
 
 $$
-\epsilon_ {\text {t r a i n}} = \frac {1}{m} \sum_ {i = 1} ^ {m} \left(f \left(\mathbf {x} ^ {(i)}\right) - \hat {f} \left(\mathbf {x} ^ {(i)}\right)\right) ^ {2} \tag {17.27}
+\epsilon_{\text{train}} = \frac{1}{m} \sum_{i = 1}^{m} \left(f \left(\mathbf {x}^{(i)}\right) - \hat {f} \left(\mathbf {x}^{(i)}\right)\right) ^{2} \tag {17.27}
 $$
 
 However, performing well on the training data does not necessarily correspond to low generalization error. Complex models may reduce the error on the training set, but they may not provide good predictions in other points in the design space as illustrated in example 17.1.<sup>9</sup>
@@ -11885,7 +11650,7 @@ Algorithm 17.7. A method for training a model and then validating it on a metric
 Consider fitting polynomials of varying degrees to evaluations of the objective function
 
 $$
-f (x) = x / 1 0 + \sin (x) / 4 + \exp \left(- x ^ {2}\right)
+f (x) = x / 10 + \sin (x) / 4 + \exp \left(- x^{2}\right)
 $$
 
 Below we plot polynomial surrogate models of varying degrees using the same nine evaluations evenly spaced over  $[-4, 4]$ . The training and generalization error are shown as well, where generalization is calculated over  $[-5, 5]$ .
@@ -11925,7 +11690,7 @@ A simple approach to estimating the generalization error is the holdout method, 
 The holdout error for a model  $\hat{f}$  fit to the training set is
 
 $$
-\epsilon_ {\text {h o l d o u t}} = \frac {1}{h} \sum_ {(\mathbf {x}, y) \in \mathcal {D} _ {h}} \left(y - \hat {f} (\mathbf {x})\right) ^ {2} \tag {17.28}
+\epsilon_{\text{holdout}} = \frac{1}{h} \sum_{(\mathbf {x}, y) \in \mathcal {D}_{h}} \left(y - \hat {f} (\mathbf {x})\right) ^{2} \tag {17.28}
 $$
 
 ```julia
@@ -11970,11 +11735,11 @@ generalization error  $\mu$  and  $\sigma$
 Using a train-test partition can be wasteful because our model tuning can take advantage only of a segment of our data. Better results are often obtained by using  $k$ -fold cross validation. $^{11}$  Here, the original dataset  $\mathcal{D}$  is randomly partitioned into  $k$  sets  $\mathcal{D}_1, \ldots, \mathcal{D}_k$  of equal, or approximately equal, size, as shown in figure 17.10 and implemented in algorithm 17.10. We then train  $k$  models, one on each subset of  $k - 1$  sets, and we use the withheld set to estimate the generalization error. The cross-validation estimate of generalization error is the mean generalization error over all folds. $^{12}$
 
 $$
-\epsilon_ {\text {c r o s s - v a l i d a t i o n}} = \frac {1}{k} \sum_ {i = 1} ^ {k} \epsilon_ {\text {c r o s s - v a l i d a t i o n}} ^ {(i)} \tag {17.29}
+\epsilon_{\text{cross - validation}} = \frac{1}{k} \sum_{i = 1}^{k} \epsilon_{\text{cross - validation}}^{(i)} \tag {17.29}
 $$
 
 $$
-\epsilon_ {\text {c r o s s - v a l i d a t i o n}} ^ {(i)} = \frac {1}{| \mathcal {D} _ {\text {t e s t}} ^ {(i)} |} \sum_ {(\mathbf {x}, y) \in \mathcal {D} _ {\text {t e s t}} ^ {(i)}} \left(y - \hat {f} ^ {(i)} (\mathbf {x})\right) ^ {2} \tag {17.30}
+\epsilon_{\text{cross - validation}}^{(i)} = \frac{1}{| \mathcal {D}_{\text{test}}^{(i)} |} \sum_{(\mathbf {x}, y) \in \mathcal {D}_{\text{test}}^{(i)}} \left(y - \hat {f}^{(i)} (\mathbf {x})\right) ^{2} \tag {17.30}
 $$
 
 where  $\epsilon_{\mathrm{cross - validation}}^{(i)}$  and  $\mathcal{D}_{\mathrm{test}}^{(i)}$  are the cross-validation estimate and the withheld test set, respectively, for the  $i$ th fold.
@@ -12015,7 +11780,7 @@ The bootstrap method<sup>14</sup> uses multiple bootstrap samples, which consist
 If  $b$  bootstrap samples are made, then the bootstrap estimate of the generalization error is the mean of the corresponding generalization error estimates  $\epsilon_{\mathrm{test}}^{(1)}, \ldots, \epsilon_{\mathrm{test}}^{(b)}$ :
 
 $$
-\begin{array}{l} \epsilon_ {\mathrm {b o o t}} = \frac {1}{b} \sum_ {i = 1} ^ {b} \epsilon_ {\mathrm {t e s t}} ^ {(i)} (17.31) \\ = \frac {1}{m} \sum_ {j = 1} ^ {m} \frac {1}{b} \sum_ {i = 1} ^ {b} \left(y ^ {(j)} - \hat {f} ^ {(i)} \left(\mathbf {x} ^ {(j)}\right)\right) ^ {2} (17.32) \\ \end{array}
+\begin{array}{l} \epsilon_{\mathrm{bo ot}} = \frac{1}{b} \sum_{i = 1}^{b} \epsilon_{\mathrm{te st}}^{(i)} (17.31) \\ = \frac{1}{m} \sum_{j = 1}^{m} \frac{1}{b} \sum_{i = 1}^{b} \left(y^{(j)} - \hat {f}^{(i)} \left(\mathbf {x}^{(j)}\right)\right) ^{2} (17.32) \\ \end{array}
 $$
 
 where  $\hat{f}^{(i)}$  is the model fit to the  $i$ th bootstrap sample. The bootstrap method is implemented in algorithm 17.12.
@@ -12023,7 +11788,7 @@ where  $\hat{f}^{(i)}$  is the model fit to the  $i$ th bootstrap sample. The bo
 The bootstrap error in equation (17.31) tests models on data points to which they were fit. The leave-one-out bootstrap estimate removes this source of bias by only evaluating fitted models to withheld data:
 
 $$
-\epsilon_ {\text {l e a v e - o n e - o u t - b o o t}} = \frac {1}{m} \sum_ {j = 1} ^ {m} \frac {1}{c _ {- j}} \sum_ {i = 1} ^ {b} \left\{ \begin{array}{l l} \left(y ^ {(j)} - \hat {f} ^ {(i)} \left(\mathbf {x} ^ {(j)}\right)\right) ^ {2} & \text {i f j t h i n d e x w a s n o t i n t h e i t h b o o t s t r a p s a m p l e} \\ 0 & \text {o t h e r w i s e} \end{array} \right. \tag {17.33}
+\epsilon_{\text{leave - one - out - boot}} = \frac{1}{m} \sum_{j = 1}^{m} \frac{1}{c_{- j}} \sum_{i = 1}^{b} \left\{ \begin{array}{l l} \left(y^{(j)} - \hat {f}^{(i)} \left(\mathbf {x}^{(j)}\right)\right) ^{2} & \text{ifjthindexwasnotintheithbootstrapsample} \\ 0 & \text{otherwise} \end{array} \right. \tag {17.33}
 $$
 
 where  $c_{-j}$  is the number of bootstrap samples that do not contain index  $j$ . The leave-one-out bootstrap method is implemented in algorithm 17.13.
@@ -12031,7 +11796,7 @@ where  $c_{-j}$  is the number of bootstrap samples that do not contain index  $
 The probability of a particular index not being in a bootstrap sample is:
 
 $$
-\left(1 - \frac {1}{m}\right) ^ {m} \approx e ^ {- 1} \approx 0. 3 6 8 \tag {17.34}
+\left(1 - \frac{1}{m}\right) ^{m} \approx e^{- 1} \approx 0. 36 8 \tag {17.34}
 $$
 
 so a bootstrap sample is expected to have on average  $0.632m$  distinct indices from the original dataset.
@@ -12041,7 +11806,7 @@ so a bootstrap sample is expected to have on average  $0.632m$  distinct indices
 Suppose we want to fit a noisy objective function using radial basis functions with the noise hyperparameter  $\lambda$  (section 17.4). We can use cross validation to determine  $\lambda$ . We are given ten samples from our noisy objective function. In practice, the objective function will be unknown, but this example uses
 
 $$
-f (x) = \sin (2 x) \cos (1 0 x) + \epsilon / 1 0
+f (x) = \sin (2 x) \cos (10 x) + \epsilon / 10
 $$
 
 where  $x \in [0,1]$  and  $\epsilon$  is random noise with zero mean and unit variance,  $\epsilon \sim \mathcal{N}(0,1)$ .
@@ -12109,7 +11874,7 @@ Algorithm 17.13. A method for computing the leave-one-out bootstrap generalizati
 Unfortunately, the leave-one-out bootstrap estimate introduces a new bias due to the varying test set sizes. The 0.632 bootstrap estimate<sup>15</sup> (algorithm 17.14) alleviates this bias:
 
 $$
-\epsilon_ {0. 6 3 2 \text {- b o o t}} = 0. 6 3 2 \epsilon_ {\text {l e a v e - o n e - o u t - b o o t}} + 0. 3 6 8 \epsilon_ {\text {b o o t}} \tag {17.35}
+\epsilon_{0. 63 2 \text{- boot}} = 0. 63 2 \epsilon_{\text{leave - one - out - boot}} + 0. 36 8 \epsilon_{\text{boot}} \tag {17.35}
 $$
 
 ```txt
@@ -12144,7 +11909,7 @@ In this section, we assume we have two datasets, a low-fidelity dataset  $X_{\el
 There are many methods for constructing  $\hat{f}_h(\mathbf{x})$  from  $X_{\ell}$  and  $X_{h}$ . One approach is to train a low-fidelity surrogate model  $\hat{f}_{\ell}(\mathbf{x})$  using  $X_{\ell}$  and then use  $X_{h}$  to find a transformation that makes  $\hat{f}_{\ell}(\mathbf{x})$  match  $f_{h}(\mathbf{x})$  as closely as possible. This transformation can take different forms, such as an affine transformation defined by scaling and offset parameters. An affine transformation would lead to a multifidelity model with the form:
 
 $$
-\hat {f} _ {h} (\mathbf {x}) = a _ {0} + a _ {1} \hat {f} _ {\ell} (\mathbf {x}) \tag {17.36}
+\hat {f}_{h} (\mathbf {x}) = a_{0} + a_{1} \hat {f}_{\ell} (\mathbf {x}) \tag {17.36}
 $$
 
 where  $a_0$  and  $a_1$  are free parameters in the model. This transformation is just another surrogate model, and the parameters can be fit using the high fidelity data just as in section 17.2.
@@ -12178,19 +11943,19 @@ Exercise 17.1. Derive an expression satisfied by the optimum of the regression p
 Solution: The linear regression objective function is
 
 $$
-\left\| \mathbf {y} - \mathbf {X} \boldsymbol {\theta} \right\| _ {2} ^ {2}
+\left\| \mathbf {y} - \mathbf {X} \boldsymbol {\theta} \right\| _{2}^{2}
 $$
 
 We take the gradient and set it to zero:
 
 $$
-\nabla (\mathbf {y} - \mathbf {X} \theta) ^ {\top} (\mathbf {y} - \mathbf {X} \theta) = - 2 \mathbf {X} ^ {\top} (\mathbf {y} - \mathbf {X} \theta) = \mathbf {0}
+\nabla (\mathbf {y} - \mathbf {X} \theta) ^{\top} (\mathbf {y} - \mathbf {X} \theta) = - 2 \mathbf {X}^{\top} (\mathbf {y} - \mathbf {X} \theta) = \mathbf {0}
 $$
 
 which yields the normal equation
 
 $$
-\mathbf {x} ^ {\top} \mathbf {x} \boldsymbol {\theta} = \mathbf {x} ^ {\top} \mathbf {y}
+\mathbf {x}^{\top} \mathbf {x} \boldsymbol {\theta} = \mathbf {x}^{\top} \mathbf {y}
 $$
 
 Exercise 17.2. When would we use a more descriptive model, for example, with polynomial features, versus a simpler model like linear regression?
@@ -12231,7 +11996,7 @@ Solution: Here we tune the parameters of an aircraft collision avoidance system 
 We have access to a simulator  $\mathfrak{sim}$ , which typically takes a scenario description  $\mathbf{s}$  containing initial conditions and descriptions of scenario-related events, and then simulates the behavior of two or more aircraft and the parameterized aircraft collision avoidance system to produce a trajectory,  $\mathfrak{sim}(\mathbf{x},\mathbf{s}) \to \tau$ . We quantify the performance of the collision avoidance system by evaluating whether the resulting trajectory includes a near mid-air collision, has_nmac(τ). Our optimization objective is to minimize the frequency of near mid-air collisions under some distribution of scenarios  $S$ :
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \underset {\mathbf {s} \in S} {\mathbb {E}} [ \operatorname {h a s} _ {-} \operatorname {n m a c} (\operatorname {s i m} (\mathbf {x}, \mathbf {s})) ]
+\underset{\mathbf {x}} {\text{minimize}} \underset{\mathbf {s} \in S} {\mathbb {E}} [ \operatorname{has}_{-} \operatorname{nmac} (\operatorname{sim} (\mathbf {x}, \mathbf {s})) ]
 $$
 
 The functions  $f_{\ell}$  and  $f_{h}$  both notionally have the form:
@@ -12263,7 +12028,7 @@ The previous chapter discussed how to construct surrogate models from evaluated 
 Before introducing Gaussian processes, we will first review some relevant properties of the multivariate Gaussian distribution, often also referred to as the multivariate normal distribution. An  $n$ -dimensional Gaussian distribution is parameterized by its mean  $\mu$  and its covariance matrix  $\Sigma$ . The probability density at  $\mathbf{x}$  is
 
 $$
-\mathcal {N} (\mathbf {x} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}) = (2 \pi) ^ {- n / 2} | \boldsymbol {\Sigma} | ^ {- 1 / 2} \exp \left(- \frac {1}{2} (\mathbf {x} - \boldsymbol {\mu}) ^ {\top} \boldsymbol {\Sigma} ^ {- 1} (\mathbf {x} - \boldsymbol {\mu})\right) \tag {18.1}
+\mathcal {N} (\mathbf {x} \mid \boldsymbol {\mu}, \boldsymbol {\Sigma}) = (2 \pi) ^{- n / 2} | \boldsymbol {\Sigma} | ^{- 1 / 2} \exp \left(- \frac{1}{2} (\mathbf {x} - \boldsymbol {\mu}) ^{\top} \boldsymbol {\Sigma}^{- 1} (\mathbf {x} - \boldsymbol {\mu})\right) \tag {18.1}
 $$
 
 Figure 18.1 shows contour plots of the density functions with different covariance matrices. Covariance matrices are always positive semidefinite.
@@ -12286,27 +12051,27 @@ Figure 18.1. Multivariate Gaussians with different covariance matrices.
 Two jointly Gaussian random variables  $\mathbf{a}$  and  $\mathbf{b}$  can be written
 
 $$
-\left[ \begin{array}{l} \mathbf {a} \\ \mathbf {b} \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{l} \mu_ {\mathbf {a}} \\ \mu_ {\mathbf {b}} \end{array} \right], \left[ \begin{array}{l l} \mathbf {A} & \mathbf {C} \\ \mathbf {C} ^ {\top} & \mathbf {B} \end{array} \right]\right) \tag {18.3}
+\left[ \begin{array}{l} \mathbf {a} \\ \mathbf {b} \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{l} \mu_{\mathbf {a}} \\ \mu_{\mathbf {b}} \end{array} \right], \left[ \begin{array}{l l} \mathbf {A} & \mathbf {C} \\ \mathbf {C}^{\top} & \mathbf {B} \end{array} \right]\right) \tag {18.3}
 $$
 
 The marginal distribution<sup>2</sup> for a vector of random variables is given by its corresponding mean and covariance
 
 $$
-\mathbf {a} \sim \mathcal {N} \left(\mu_ {\mathrm {a}}, \mathbf {A}\right) \quad \mathbf {b} \sim \mathcal {N} \left(\mu_ {\mathrm {b}}, \mathbf {B}\right) \tag {18.4}
+\mathbf {a} \sim \mathcal {N} \left(\mu_{\mathrm{a}}, \mathbf {A}\right) \quad \mathbf {b} \sim \mathcal {N} \left(\mu_{\mathrm{b}}, \mathbf {B}\right) \tag {18.4}
 $$
 
 The conditional distribution for a multivariate Gaussian also has a convenient closed-form solution:
 
 $$
-\mathbf {a} \mid \mathbf {b} \sim \mathcal {N} \left(\mu_ {\mathbf {a} | \mathbf {b}}, \Sigma_ {\mathbf {a} | \mathbf {b}}\right) \tag {18.5}
+\mathbf {a} \mid \mathbf {b} \sim \mathcal {N} \left(\mu_{\mathbf {a} | \mathbf {b}}, \Sigma_{\mathbf {a} | \mathbf {b}}\right) \tag {18.5}
 $$
 
 $$
-\mu_ {\mathbf {a} \mid \mathbf {b}} = \mu_ {\mathbf {a}} + \mathbf {C B} ^ {- 1} (\mathbf {b} - \mu_ {\mathbf {b}}) \tag {18.6}
+\mu_{\mathbf {a} \mid \mathbf {b}} = \mu_{\mathbf {a}} + \mathbf {C B}^{- 1} (\mathbf {b} - \mu_{\mathbf {b}}) \tag {18.6}
 $$
 
 $$
-\boldsymbol {\Sigma} _ {\mathbf {a} \mid \mathbf {b}} = \mathbf {A} - \mathbf {C B} ^ {- 1} \mathbf {C} ^ {\top} \tag {18.7}
+\boldsymbol {\Sigma}_{\mathbf {a} \mid \mathbf {b}} = \mathbf {A} - \mathbf {C B}^{- 1} \mathbf {C}^{\top} \tag {18.7}
 $$
 
 Example 18.1 illustrates how to extract the marginal and conditional distributions from a multivariate Gaussian.
@@ -12320,7 +12085,7 @@ $$
 We have a joint Gaussian distribution over two variables  $x_{1}$  and  $x_{2}$ :
 
 $$
-\left[ \begin{array}{c} x _ {1} \\ x _ {2} \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{c} 0 \\ 1 \end{array} \right], \left[ \begin{array}{c c} 3 & 1 \\ 1 & 2 \end{array} \right]\right)
+\left[ \begin{array}{c} x_{1} \\ x_{2} \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{c} 0 \\ 1 \end{array} \right], \left[ \begin{array}{c c} 3 & 1 \\ 1 & 2 \end{array} \right]\right)
 $$
 
 The marginal distribution for  $x_{1}$  is  $\mathcal{N}(0,3)$ , and the marginal distribution for  $x_{2}$  is  $\mathcal{N}(1,2)$ .
@@ -12328,7 +12093,7 @@ The marginal distribution for  $x_{1}$  is  $\mathcal{N}(0,3)$ , and the margina
 The conditional distribution for  $x_{1}$  given  $x_{2} = 2$  is
 
 $$
-\begin{array}{l} \mu_ {x _ {1} \mid x _ {2} = 2} = 0 + 1 \cdot 2 ^ {- 1} \cdot (2 - 1) = 0. 5 \\ \Sigma_ {x _ {1} \mid x _ {2} = 2} = 3 - 1 \cdot 2 ^ {- 1} \cdot 1 = 2. 5 \\ x _ {1} \mid (x _ {2} = 2) \sim \mathcal {N} (0. 5, 2. 5) \\ \end{array}
+\begin{array}{l} \mu_{x_{1} \mid x_{2} = 2} = 0 + 1 \cdot 2^{- 1} \cdot (2 - 1) = 0. 5 \\ \Sigma_{x_{1} \mid x_{2} = 2} = 3 - 1 \cdot 2^{- 1} \cdot 1 = 2. 5 \\ x_{1} \mid (x_{2} = 2) \sim \mathcal {N} (0. 5, 2. 5) \\ \end{array}
 $$
 
 Example 18.1. Marginal and conditional distributions for a multivariate Gaussian.
@@ -12340,7 +12105,7 @@ In the previous chapter, we approximated the objective function  $f$  using a su
 A Gaussian process is a distribution over functions. For any finite set of points  $X = \{\mathbf{x}^{(1)},\dots ,\mathbf{x}^{(|X|)}\}$ , the associated function evaluations  $\left\{y_{1},\ldots ,y_{|X|}\right\}$  are distributed according to:
 
 $$
-\left[ \begin{array}{c} y _ {1} \\ \vdots \\ y _ {| X |} \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{c} m (\mathbf {x} ^ {(1)}) \\ \vdots \\ m (\mathbf {x} ^ {(| X |)}) \end{array} \right], \left[ \begin{array}{c c c} k (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(1)}) & \dots & k (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(| X |)}) \\ \vdots & \ddots & \vdots \\ k (\mathbf {x} ^ {(| X |)}, \mathbf {x} ^ {(1)}) & \dots & k (\mathbf {x} ^ {(| X |)}, \mathbf {x} ^ {(| X |)}) \end{array} \right]\right) \tag {18.8}
+\left[ \begin{array}{c} y_{1} \\ \vdots \\ y_{| X |} \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{c} m (\mathbf {x}^{(1)}) \\ \vdots \\ m (\mathbf {x}^{(| X |)}) \end{array} \right], \left[ \begin{array}{c c c} k (\mathbf {x}^{(1)}, \mathbf {x}^{(1)}) & \dots & k (\mathbf {x}^{(1)}, \mathbf {x}^{(| X |)}) \\ \vdots & \ddots & \vdots \\ k (\mathbf {x}^{(| X |)}, \mathbf {x}^{(1)}) & \dots & k (\mathbf {x}^{(| X |)}, \mathbf {x}^{(| X |)}) \end{array} \right]\right) \tag {18.8}
 $$
 
 where  $m(\mathbf{x})$  is a mean function and  $k(\mathbf{x},\mathbf{x}^{\prime})$  is the covariance function, or kernel. The mean function can represent prior knowledge about the function. The kernel controls the smoothness of the functions. Methods for constructing the mean vector and covariance matrix using mean and covariance functions are given in algorithm 18.1.
@@ -12356,21 +12121,21 @@ $$
 and the covariance function produces the covariance:
 
 $$
-k \left(\mathbf {x}, \mathbf {x} ^ {\prime}\right) =
+k \left(\mathbf {x}, \mathbf {x}^{\prime}\right) =
 $$
 
 $$
-\mathbb {E} \left[ (f (\mathbf {x}) - m (\mathbf {x})) (f (\mathbf {x} ^ {\prime}) - m (\mathbf {x} ^ {\prime})) \right]
+\mathbb {E} \left[ (f (\mathbf {x}) - m (\mathbf {x})) (f (\mathbf {x}^{\prime}) - m (\mathbf {x}^{\prime})) \right]
 $$
 
 $$
-\begin{array}{l} \mu (X, m) = [ m (x) f o r x i n X ] \\ \Sigma (X, k) = [ k (x, x ^ {\prime}) f o r x i n X, x ^ {\prime} i n X ] \\ K (X, X ^ {\prime}, k) = [ k (x, x ^ {\prime}) f o r x i n X, x ^ {\prime} i n X ^ {\prime} ] \end{array}
+\begin{array}{l} \mu (X, m) = [ m (x) f o r x i n X ] \\ \Sigma (X, k) = [ k (x, x^{\prime}) f o r x i n X, x^{\prime} i n X ] \\ K (X, X^{\prime}, k) = [ k (x, x^{\prime}) f o r x i n X, x^{\prime} i n X^{\prime} ] \end{array}
 $$
 
 A common kernel function is the squared exponential kernel, where
 
 $$
-k \left(x, x ^ {\prime}\right) = \exp \left(- \frac {\left\| \mathbf {x} - \mathbf {x} ^ {\prime} \right\| ^ {2}}{2 \ell^ {2}}\right) \tag {18.9}
+k \left(x, x^{\prime}\right) = \exp \left(- \frac{\left\| \mathbf {x} - \mathbf {x}^{\prime} \right\| ^{2}}{2 \ell^{2}}\right) \tag {18.9}
 $$
 
 The parameter  $\ell$  corresponds to what is called the characteristic length-scale, which can be thought of as the distance we have to travel in design space until the objective function value changes significantly. Hence, larger values of  $\ell$  result in smoother functions. Figure 18.2 shows functions sampled from a Gaussian process with a zero-mean function and a squared exponential kernel with different characteristic length-scales.
@@ -12438,17 +12203,17 @@ Gaussian processes are able to represent distributions over functions using cond
 is
 
 $$
-\left[ \begin{array}{l} \hat {\mathbf {y}} \\ \mathbf {y} \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{l} \mathbf {m} \left(X ^ {*}\right) \\ \mathbf {m} (X) \end{array} \right], \left[ \begin{array}{l l} \mathbf {K} \left(X ^ {*}, X ^ {*}\right) & \mathbf {K} \left(X ^ {*}, X\right) \\ \mathbf {K} (X, X ^ {*}) & \mathbf {K} (X, X) \end{array} \right]\right) \tag {18.10}
+\left[ \begin{array}{l} \hat {\mathbf {y}} \\ \mathbf {y} \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{l} \mathbf {m} \left(X^{*}\right) \\ \mathbf {m} (X) \end{array} \right], \left[ \begin{array}{l l} \mathbf {K} \left(X^{*}, X^{*}\right) & \mathbf {K} \left(X^{*}, X\right) \\ \mathbf {K} (X, X^{*}) & \mathbf {K} (X, X) \end{array} \right]\right) \tag {18.10}
 $$
 
 In the equation above, we use the functions  $\mathbf{m}$  and  $\mathbf{K}$ , which are defined as follows:
 
 $$
-\mathbf {m} (X) = \left[ m \left(\mathbf {x} ^ {(1)}\right), \dots , m \left(\mathbf {x} ^ {(| X |)}\right) \right] \tag {18.11}
+\mathbf {m} (X) = \left[ m \left(\mathbf {x}^{(1)}\right), \dots , m \left(\mathbf {x}^{(| X |)}\right) \right] \tag {18.11}
 $$
 
 $$
-\mathbf {K} (X, X ^ {\prime}) = \left[ \begin{array}{c c c} k \left(\mathbf {x} ^ {(1)}, \mathbf {x} ^ {\prime (1)}\right) & \dots & k \left(\mathbf {x} ^ {(1)}, \mathbf {x} ^ {\prime \left(| X ^ {\prime} |\right)}\right) \\ \vdots & \ddots & \vdots \\ k \left(\mathbf {x} ^ {\left(| X |\right)}, \mathbf {x} ^ {\prime (1)}\right) & \dots & k \left(\mathbf {x} ^ {\left(| X |\right)}, \mathbf {x} ^ {\prime \left(| X ^ {\prime} |\right)}\right) \end{array} \right] \tag {18.12}
+\mathbf {K} (X, X^{\prime}) = \left[ \begin{array}{c c c} k \left(\mathbf {x}^{(1)}, \mathbf {x}^{\prime (1)}\right) & \dots & k \left(\mathbf {x}^{(1)}, \mathbf {x}^{\prime \left(| X^{\prime} |\right)}\right) \\ \vdots & \ddots & \vdots \\ k \left(\mathbf {x}^{\left(| X |\right)}, \mathbf {x}^{\prime (1)}\right) & \dots & k \left(\mathbf {x}^{\left(| X |\right)}, \mathbf {x}^{\prime \left(| X^{\prime} |\right)}\right) \end{array} \right] \tag {18.12}
 $$
 
 The conditional distribution is given by
@@ -12456,7 +12221,7 @@ The conditional distribution is given by
 In the language of Bayesian statistics, the posterior distribution is the distribution of possible unobserved values conditioned on observed values.
 
 $$
-\hat {\mathbf {y}} \mid \mathbf {y} \sim \mathcal {N} \left(\underbrace {\mathbf {m} (X ^ {*}) + \mathbf {K} (X ^ {*} , X) \mathbf {K} (X , X) ^ {- 1} (\mathbf {y} - \mathbf {m} (X))} _ {\text {m e a n}}, \underbrace {\mathbf {K} (X ^ {*} , X ^ {*}) - \mathbf {K} (X ^ {*} , X) \mathbf {K} (X , X) ^ {- 1} \mathbf {K} (X , X ^ {*})} _ {\text {c o v a r i a n c e}}\right) \tag {18.13}
+\hat {\mathbf {y}} \mid \mathbf {y} \sim \mathcal {N} \left(\underbrace{\mathbf {m} (X^{*}) + \mathbf {K} (X^{*} , X) \mathbf {K} (X , X) ^{- 1} (\mathbf {y} - \mathbf {m} (X))}_{\text{mean}}, \underbrace{\mathbf {K} (X^{*} , X^{*}) - \mathbf {K} (X^{*} , X) \mathbf {K} (X , X) ^{- 1} \mathbf {K} (X , X^{*})}_{\text{covariance}}\right) \tag {18.13}
 $$
 
 Note that the covariance does not depend on  $\mathbf{y}$ . This distribution is often referred to as the posterior distribution. A method for computing and sampling from the posterior distribution defined by a Gaussian process is given in algorithm 18.3.
@@ -12470,7 +12235,7 @@ Base.rand(GP,X)  $=$  mvrand  $(\mu (X,\mathrm{GP.m}),\Sigma (X,\mathrm{GP.k}))$
 The predicted mean can be written as a function of  $\mathbf{x}$ :
 
 $$
-\begin{array}{l} \hat {\mu} (\mathbf {x}) = m (\mathbf {x}) + \mathbf {K} (\mathbf {x}, X) \mathbf {K} (X, X) ^ {- 1} (\mathbf {y} - \mathbf {m} (X)) (18.14) \\ = m (\mathbf {x}) + \boldsymbol {\theta} ^ {\top} \mathbf {K} (X, \mathbf {x}) (18.15) \\ \end{array}
+\begin{array}{l} \hat {\mu} (\mathbf {x}) = m (\mathbf {x}) + \mathbf {K} (\mathbf {x}, X) \mathbf {K} (X, X) ^{- 1} (\mathbf {y} - \mathbf {m} (X)) (18.14) \\ = m (\mathbf {x}) + \boldsymbol {\theta}^{\top} \mathbf {K} (X, \mathbf {x}) (18.15) \\ \end{array}
 $$
 
 where  $\theta = \mathbf{K}(X,X)^{-1}(\mathbf{y} - \mathbf{m}(X))$  can be computed once and reused for different values of  $\mathbf{x}$ . Notice the similarity to the surrogate models in the previous chapter. The value of the Gaussian process beyond the surrogate models discussed previously is that it also quantifies our uncertainty in our predictions.
@@ -12478,7 +12243,7 @@ where  $\theta = \mathbf{K}(X,X)^{-1}(\mathbf{y} - \mathbf{m}(X))$  can be compu
 The variance of the predicted mean can also be obtained as a function of  $\mathbf{x}$ :
 
 $$
-\hat {v} (\mathbf {x}) = \mathbf {K} (\mathbf {x}, \mathbf {x}) - \mathbf {K} (\mathbf {x}, X) \mathbf {K} (X, X) ^ {- 1} \mathbf {K} (X, \mathbf {x}) \tag {18.16}
+\hat {v} (\mathbf {x}) = \mathbf {K} (\mathbf {x}, \mathbf {x}) - \mathbf {K} (\mathbf {x}, X) \mathbf {K} (X, X) ^{- 1} \mathbf {K} (X, \mathbf {x}) \tag {18.16}
 $$
 
 Algorithm 18.3. The function mvnr and samples from a multivariate Gaussian with an added inflation factor to prevent numerical issues. The method rand samples a Gaussian process GP at the given design points in matrix X.
@@ -12486,7 +12251,7 @@ Algorithm 18.3. The function mvnr and samples from a multivariate Gaussian with 
 In some cases, it is more convenient to formulate equations in terms of the standard deviation, which is the square root of the variance:
 
 $$
-\hat {\sigma} (\mathbf {x}) = \sqrt {\hat {v} (\mathbf {x})} \tag {18.17}
+\hat {\sigma} (\mathbf {x}) = \sqrt{\hat {v} (\mathbf {x})} \tag {18.17}
 $$
 
 The standard deviation has the same units as the mean. From the standard deviation, we can compute the  $95\%$  confidence region, which is an interval containing  $95\%$  of the probability mass associated with the distribution over  $y$  given  $\mathbf{x}$ . For a particular  $\mathbf{x}$ , the  $95\%$  confidence region is given by  $\hat{\mu}(\mathbf{x}) \pm 1.96\hat{\sigma}(\mathbf{x})$ . One may want to use a confidence level different from  $95\%$ , but we will use  $95\%$  for the plots in this chapter. Figure 18.5 shows a plot of a confidence region associated with a Gaussian process fit to four function evaluations.
@@ -12499,7 +12264,7 @@ Figure 18.5. A Gaussian process using the squared exponential kernel and its  $9
 Gradient observations can be incorporated into Gaussian processes in a manner consistent with the existing Gaussian process machinery.7 The Gaussian process is extended to include both the function value and its gradient:
 
 $$
-\left[ \begin{array}{l} \mathbf {y} \\ \nabla \mathbf {y} \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{l} \mathbf {m} _ {f} \\ \mathbf {m} _ {\nabla} \end{array} \right], \left[ \begin{array}{l l} \mathbf {K} _ {f f} & \mathbf {K} _ {f \nabla} \\ \mathbf {K} _ {\nabla f} & \mathbf {K} _ {\nabla \nabla} \end{array} \right]\right) \tag {18.18}
+\left[ \begin{array}{l} \mathbf {y} \\ \nabla \mathbf {y} \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{l} \mathbf {m}_{f} \\ \mathbf {m}_{\nabla} \end{array} \right], \left[ \begin{array}{l l} \mathbf {K}_{f f} & \mathbf {K}_{f \nabla} \\ \mathbf {K}_{\nabla f} & \mathbf {K}_{\nabla \nabla} \end{array} \right]\right) \tag {18.18}
 $$
 
 7 For an overview, see for example A. O'Hagan, "Some Bayesian Numerical Analysis," Bayesian Statistics, vol. 4, J.M. Bernardo, J.O. Berger, A.P. Dawid, and A.F.M. Smith, eds., pp. 345-363, 1992.
@@ -12509,19 +12274,19 @@ where  $\mathbf{y} \sim \mathcal{N}\big(\mathbf{m}_f, \mathbf{K}_{ff}\big)$  is 
 These covariance matrices are constructed using covariance functions. The linearity of Gaussians causes these covariance functions to be related:
 
 $$
-k _ {f f} \left(\mathbf {x}, \mathbf {x} ^ {\prime}\right) = k \left(\mathbf {x}, \mathbf {x} ^ {\prime}\right) \tag {18.19}
+k_{f f} \left(\mathbf {x}, \mathbf {x}^{\prime}\right) = k \left(\mathbf {x}, \mathbf {x}^{\prime}\right) \tag {18.19}
 $$
 
 $$
-k _ {\nabla f} \left(\mathbf {x}, \mathbf {x} ^ {\prime}\right) = \nabla_ {\mathbf {x}} k \left(\mathbf {x}, \mathbf {x} ^ {\prime}\right) \tag {18.20}
+k_{\nabla f} \left(\mathbf {x}, \mathbf {x}^{\prime}\right) = \nabla_{\mathbf {x}} k \left(\mathbf {x}, \mathbf {x}^{\prime}\right) \tag {18.20}
 $$
 
 $$
-k _ {f \nabla} (\mathbf {x}, \mathbf {x} ^ {\prime}) = \nabla_ {\mathbf {x} ^ {\prime}} k (\mathbf {x}, \mathbf {x} ^ {\prime}) \tag {18.21}
+k_{f \nabla} (\mathbf {x}, \mathbf {x}^{\prime}) = \nabla_{\mathbf {x}^{\prime}} k (\mathbf {x}, \mathbf {x}^{\prime}) \tag {18.21}
 $$
 
 $$
-k _ {\nabla \nabla} \left(\mathbf {x}, \mathbf {x} ^ {\prime}\right) = \nabla_ {\mathbf {x}} \nabla_ {\mathbf {x} ^ {\prime}} k \left(\mathbf {x}, \mathbf {x} ^ {\prime}\right) \tag {18.22}
+k_{\nabla \nabla} \left(\mathbf {x}, \mathbf {x}^{\prime}\right) = \nabla_{\mathbf {x}} \nabla_{\mathbf {x}^{\prime}} k \left(\mathbf {x}, \mathbf {x}^{\prime}\right) \tag {18.22}
 $$
 
 Example 18.2 uses these relations to derive the higher-order covariance functions for a particular kernel.
@@ -12529,17 +12294,17 @@ Example 18.2 uses these relations to derive the higher-order covariance function
 Consider the squared exponential covariance function
 
 $$
-k _ {f f} (\mathbf {x}, \mathbf {x} ^ {\prime}) = \exp \left(- \frac {1}{2} \| \mathbf {x} - \mathbf {x} ^ {\prime} \| ^ {2}\right)
+k_{f f} (\mathbf {x}, \mathbf {x}^{\prime}) = \exp \left(- \frac{1}{2} \| \mathbf {x} - \mathbf {x}^{\prime} \| ^{2}\right)
 $$
 
 We can use equations (18.19) to (18.22) to obtain the other covariance functions necessary for using Gaussian processes with gradient information:
 
 $$
-k _ {\nabla f} \left(\mathbf {x}, \mathbf {x} ^ {\prime}\right) _ {i} = - \left(\mathbf {x} _ {i} - \mathbf {x} _ {i} ^ {\prime}\right) \exp \left(- \frac {1}{2} \left\| \mathbf {x} - \mathbf {x} ^ {\prime} \right\| ^ {2}\right)
+k_{\nabla f} \left(\mathbf {x}, \mathbf {x}^{\prime}\right) _{i} = - \left(\mathbf {x}_{i} - \mathbf {x}_{i}^{\prime}\right) \exp \left(- \frac{1}{2} \left\| \mathbf {x} - \mathbf {x}^{\prime} \right\| ^{2}\right)
 $$
 
 $$
-k _ {\nabla \nabla} (\mathbf {x}, \mathbf {x} ^ {\prime}) _ {i j} = - \Big ((i = j) - (\mathbf {x} _ {i} - \mathbf {x} _ {i} ^ {\prime}) (\mathbf {x} _ {j} - \mathbf {x} _ {j} ^ {\prime}) \Big) \exp \left(- \frac {1}{2} \| \mathbf {x} - \mathbf {x} ^ {\prime} \| ^ {2}\right)
+k_{\nabla \nabla} (\mathbf {x}, \mathbf {x}^{\prime}) _{i j} = - \Big ((i = j) - (\mathbf {x}_{i} - \mathbf {x}_{i}^{\prime}) (\mathbf {x}_{j} - \mathbf {x}_{j}^{\prime}) \Big) \exp \left(- \frac{1}{2} \| \mathbf {x} - \mathbf {x}^{\prime} \| ^{2}\right)
 $$
 
 As a reminder, Boolean expressions, such as  $(i = j)$ , return 1 if true and 0 if false.
@@ -12551,7 +12316,7 @@ Example 18.2. Deriving covariance functions for a Gaussian process with gradient
 Prediction can be accomplished in the same manner as with a traditional Gaussian process. We first construct the joint distribution
 
 $$
-\left[ \begin{array}{l} \hat {\mathbf {y}} \\ \mathbf {y} \\ \nabla \mathbf {y} \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{l} \mathbf {m} _ {f} \left(X ^ {*}\right) \\ \mathbf {m} _ {f} (X) \\ \mathbf {m} _ {\nabla} (X) \end{array} \right], \left[ \begin{array}{l l l} \mathbf {K} _ {f f} \left(X ^ {*}, X ^ {*}\right) & \mathbf {K} _ {f f} \left(X ^ {*}, X\right) & \mathbf {K} _ {f \nabla} \left(X ^ {*}, X\right) \\ \mathbf {K} _ {f f} (X, X ^ {*}) & \mathbf {K} _ {f f} (X, X) & \mathbf {K} _ {f \nabla} (X, X) \\ \mathbf {K} _ {\nabla f} (X, X ^ {*}) & \mathbf {K} _ {\nabla f} (X, X) & \mathbf {K} _ {\nabla \nabla} (X, X) \end{array} \right]\right) \tag {18.23}
+\left[ \begin{array}{l} \hat {\mathbf {y}} \\ \mathbf {y} \\ \nabla \mathbf {y} \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{l} \mathbf {m}_{f} \left(X^{*}\right) \\ \mathbf {m}_{f} (X) \\ \mathbf {m}_{\nabla} (X) \end{array} \right], \left[ \begin{array}{l l l} \mathbf {K}_{f f} \left(X^{*}, X^{*}\right) & \mathbf {K}_{f f} \left(X^{*}, X\right) & \mathbf {K}_{f \nabla} \left(X^{*}, X\right) \\ \mathbf {K}_{f f} (X, X^{*}) & \mathbf {K}_{f f} (X, X) & \mathbf {K}_{f \nabla} (X, X) \\ \mathbf {K}_{\nabla f} (X, X^{*}) & \mathbf {K}_{\nabla f} (X, X) & \mathbf {K}_{\nabla \nabla} (X, X) \end{array} \right]\right) \tag {18.23}
 $$
 
 For a Gaussian process over  $n$ -dimensional design vectors given  $m$  pairs of function and gradient evaluations and  $\ell$  query points, the covariance blocks have the following dimensions:
@@ -12573,7 +12338,7 @@ Example 18.3 constructs such a covariance matrix.
 Suppose we have evaluated a function and its gradient at two locations,  $\mathbf{x}^{(1)}$  and  $\mathbf{x}^{(2)}$ , and we wish to predict the function value at  $\hat{\mathbf{x}}$ . We can infer the joint distribution over  $\hat{\mathbf{y}}, \mathbf{y}$ , and  $\nabla \mathbf{y}$  using a Gaussian process. The covariance matrix is:
 
 $$
-\left[ \begin{array}{l l l l l l l} k _ {f f} (\hat {\mathbf {x}}, \hat {\mathbf {x}}) & k _ {f f} (\hat {\mathbf {x}}, \mathbf {x} ^ {(1)}) & k _ {f f} (\hat {\mathbf {x}}, \mathbf {x} ^ {(2)}) & k _ {f \nabla} (\hat {\mathbf {x}}, \mathbf {x} ^ {(1)}) _ {1} & k _ {f \nabla} (\hat {\mathbf {x}}, \mathbf {x} ^ {(1)}) _ {2} & k _ {f \nabla} (\hat {\mathbf {x}}, \mathbf {x} ^ {(2)}) _ {1} & k _ {f \nabla} (\hat {\mathbf {x}}, \mathbf {x} ^ {(2)}) _ {2} \\ k _ {f f} (\mathbf {x} ^ {(1)}, \hat {\mathbf {x}}) & k _ {f f} (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(1)}) & k _ {f f} (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(2)}) & k _ {f \nabla} (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(1)}) _ {1} & k _ {f \nabla} (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(2)}) _ {2} & k _ {f \nabla} (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(2)}) _ {1} & k _ {f \nabla} (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(2)}) _ {2} \\ k _ {f f} (\mathbf {x} ^ {(2)}, \hat {\mathbf {x}}) & k _ {f f} (\mathbf {x} ^ {(2)}, \mathbf {x} ^ {(1)}) & k _ {f f} (\mathbf {x} ^ {(2)}, \mathbf {x} ^ {(2)}) & k _ {f \nabla} (\mathbf {x} ^ {(2)}, \mathbf {x} ^ {(1)}) _ {1} & k _ {f \nabla} (\mathbf {x} ^ {(2)}, \mathbf {x} ^ {(1)}) _ {2} & k _ {f \nabla} (\mathbf {x} ^ {(2)}, \mathbf {x} ^ {(2)}) _ {1} & k _ {f \nabla} (\mathbf {x} ^ {(2)}, \mathbf {x} ^ {(2)}) _ {2} \\ k _ {\nabla f} (\mathbf {x} ^ {(1)}, \hat {\mathbf {x}}) _ {1} & k _ {\nabla f} (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(1)}) _ {1} & k _ {\nabla f} (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(2)}) _ {1} & k _ {\nabla \nabla} (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(1)}) _ {1 1} & k _ {\nabla \nabla} (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(1)}) _ {1 2} & k _ {\nabla \nabla} (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(2)}) _ {1 1} & k _ {\nabla \nabla} (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(2)}) _ {1 2} \\ k _ {\nabla f} (\mathbf {x} ^ {(1)}, \hat {\mathbf {x}}) _ {2} & k _ {\nabla f} (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(1)}) _ {2} & k _ {\nabla f} (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(2)}) _ {2} & k _ {\nabla \nabla} (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(1)}) _ {2 1} & k _ {\nabla \nabla} (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(1)}) _ {2 2} & k _ {\nabla \nabla} (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(2)}) _ {2 1} & k _ {\nabla \nabla} (\mathbf {x} ^ {(1)}, \mathbf {x} ^ {(2)}) _ {2 2} \\ k _ {\nabla f} (\mathbf {x} ^ {(2)}, \hat {\mathbf {x}}) _ {1} & k _ {\nabla f} (\mathbf {x} ^ {(2)}, \mathbf {x} ^ {(1)}) _ {1} & k _ {\nabla f} (\mathbf {x} ^ {(2)}, \mathbf {x} ^ {(2)}) _ {1} & k _ {\nabla \nabla} (\mathbf {x} ^ {(2)}, \mathbf {x} ^ {(1)}) _ {1 1} & k _ {\nabla \nabla} (\mathbf {x} ^ {(2)}, \mathbf {x} ^ {(1)}) _ {1 2} & k _ {\nabla \nabla} (\mathbf {x} ^ {(2)}, \mathbf {x} ^ {(2)}) _ {1 1} & k _ {\nabla \nabla} (\mathbf {x} ^ {(2)}, \mathbf {x} ^ {(2)}) _ {1 2} \\ k _ {\nabla f} (\mathbf {x} ^ {(2)}, \hat {\mathbf {x}}) _ {2} & k _ {\nabla f} (\mathbf {x} ^ {(2)}, \mathbf {x} ^ {(1)}) _ {2} & k _ {\nabla f} (\mathbf {x} ^ {(2)}, \mathbf {x} ^ {(2)}) _ {2} & k _ {\nabla \nabla} (\mathbf {x} ^ {(2)}, \mathbf {x} ^ {(1)}) _ {2 1} & k _ {\nabla \nabla} (\mathbf {x} ^ {(2)}, \mathbf {x} ^ {(1)}) _ {2 2} & k _ {\nabla \nabla} (\mathbf {x} ^ {(2)}, \mathbf {x} ^ {(2)}) _ {2 1} & k _ {\nabla \nabla} (\mathbf {x} ^ {(2)}, \mathbf {x} ^ {(2)}) _ {2 2}. \end{array} \right]
+\left[ \begin{array}{l l l l l l l} k_{f f} (\hat {\mathbf {x}}, \hat {\mathbf {x}}) & k_{f f} (\hat {\mathbf {x}}, \mathbf {x}^{(1)}) & k_{f f} (\hat {\mathbf {x}}, \mathbf {x}^{(2)}) & k_{f \nabla} (\hat {\mathbf {x}}, \mathbf {x}^{(1)}) _{1} & k_{f \nabla} (\hat {\mathbf {x}}, \mathbf {x}^{(1)}) _{2} & k_{f \nabla} (\hat {\mathbf {x}}, \mathbf {x}^{(2)}) _{1} & k_{f \nabla} (\hat {\mathbf {x}}, \mathbf {x}^{(2)}) _{2} \\ k_{f f} (\mathbf {x}^{(1)}, \hat {\mathbf {x}}) & k_{f f} (\mathbf {x}^{(1)}, \mathbf {x}^{(1)}) & k_{f f} (\mathbf {x}^{(1)}, \mathbf {x}^{(2)}) & k_{f \nabla} (\mathbf {x}^{(1)}, \mathbf {x}^{(1)}) _{1} & k_{f \nabla} (\mathbf {x}^{(1)}, \mathbf {x}^{(2)}) _{2} & k_{f \nabla} (\mathbf {x}^{(1)}, \mathbf {x}^{(2)}) _{1} & k_{f \nabla} (\mathbf {x}^{(1)}, \mathbf {x}^{(2)}) _{2} \\ k_{f f} (\mathbf {x}^{(2)}, \hat {\mathbf {x}}) & k_{f f} (\mathbf {x}^{(2)}, \mathbf {x}^{(1)}) & k_{f f} (\mathbf {x}^{(2)}, \mathbf {x}^{(2)}) & k_{f \nabla} (\mathbf {x}^{(2)}, \mathbf {x}^{(1)}) _{1} & k_{f \nabla} (\mathbf {x}^{(2)}, \mathbf {x}^{(1)}) _{2} & k_{f \nabla} (\mathbf {x}^{(2)}, \mathbf {x}^{(2)}) _{1} & k_{f \nabla} (\mathbf {x}^{(2)}, \mathbf {x}^{(2)}) _{2} \\ k_{\nabla f} (\mathbf {x}^{(1)}, \hat {\mathbf {x}}) _{1} & k_{\nabla f} (\mathbf {x}^{(1)}, \mathbf {x}^{(1)}) _{1} & k_{\nabla f} (\mathbf {x}^{(1)}, \mathbf {x}^{(2)}) _{1} & k_{\nabla \nabla} (\mathbf {x}^{(1)}, \mathbf {x}^{(1)}) _{11} & k_{\nabla \nabla} (\mathbf {x}^{(1)}, \mathbf {x}^{(1)}) _{12} & k_{\nabla \nabla} (\mathbf {x}^{(1)}, \mathbf {x}^{(2)}) _{11} & k_{\nabla \nabla} (\mathbf {x}^{(1)}, \mathbf {x}^{(2)}) _{12} \\ k_{\nabla f} (\mathbf {x}^{(1)}, \hat {\mathbf {x}}) _{2} & k_{\nabla f} (\mathbf {x}^{(1)}, \mathbf {x}^{(1)}) _{2} & k_{\nabla f} (\mathbf {x}^{(1)}, \mathbf {x}^{(2)}) _{2} & k_{\nabla \nabla} (\mathbf {x}^{(1)}, \mathbf {x}^{(1)}) _{21} & k_{\nabla \nabla} (\mathbf {x}^{(1)}, \mathbf {x}^{(1)}) _{22} & k_{\nabla \nabla} (\mathbf {x}^{(1)}, \mathbf {x}^{(2)}) _{21} & k_{\nabla \nabla} (\mathbf {x}^{(1)}, \mathbf {x}^{(2)}) _{22} \\ k_{\nabla f} (\mathbf {x}^{(2)}, \hat {\mathbf {x}}) _{1} & k_{\nabla f} (\mathbf {x}^{(2)}, \mathbf {x}^{(1)}) _{1} & k_{\nabla f} (\mathbf {x}^{(2)}, \mathbf {x}^{(2)}) _{1} & k_{\nabla \nabla} (\mathbf {x}^{(2)}, \mathbf {x}^{(1)}) _{11} & k_{\nabla \nabla} (\mathbf {x}^{(2)}, \mathbf {x}^{(1)}) _{12} & k_{\nabla \nabla} (\mathbf {x}^{(2)}, \mathbf {x}^{(2)}) _{11} & k_{\nabla \nabla} (\mathbf {x}^{(2)}, \mathbf {x}^{(2)}) _{12} \\ k_{\nabla f} (\mathbf {x}^{(2)}, \hat {\mathbf {x}}) _{2} & k_{\nabla f} (\mathbf {x}^{(2)}, \mathbf {x}^{(1)}) _{2} & k_{\nabla f} (\mathbf {x}^{(2)}, \mathbf {x}^{(2)}) _{2} & k_{\nabla \nabla} (\mathbf {x}^{(2)}, \mathbf {x}^{(1)}) _{21} & k_{\nabla \nabla} (\mathbf {x}^{(2)}, \mathbf {x}^{(1)}) _{22} & k_{\nabla \nabla} (\mathbf {x}^{(2)}, \mathbf {x}^{(2)}) _{21} & k_{\nabla \nabla} (\mathbf {x}^{(2)}, \mathbf {x}^{(2)}) _{22}. \end{array} \right]
 $$
 
 Example 18.3. Constructing the covariance matrix for a Gaussian process with gradient observations.
@@ -12581,17 +12346,17 @@ Example 18.3. Constructing the covariance matrix for a Gaussian process with gra
 The conditional distribution follows the same Gaussian relations as in equation (18.13):
 
 $$
-\hat {\mathbf {y}} \mid \mathbf {y}, \nabla \mathbf {y} \sim \mathcal {N} (\boldsymbol {\mu} _ {\nabla}, \boldsymbol {\Sigma} _ {\nabla}) \tag {18.25}
+\hat {\mathbf {y}} \mid \mathbf {y}, \nabla \mathbf {y} \sim \mathcal {N} (\boldsymbol {\mu}_{\nabla}, \boldsymbol {\Sigma}_{\nabla}) \tag {18.25}
 $$
 
 where:
 
 $$
-\boldsymbol {\mu} _ {\nabla} = \mathbf {m} _ {f} \left(X ^ {*}\right) + \left[ \begin{array}{l} \mathbf {K} _ {f f} (X, X ^ {*}) \\ \mathbf {K} _ {\nabla f} (X, X ^ {*}) \end{array} \right] ^ {\top} \left[ \begin{array}{l l} \mathbf {K} _ {f f} (X, X) & \mathbf {K} _ {f \nabla} (X, X) \\ \mathbf {K} _ {\nabla f} (X, X) & \mathbf {K} _ {\nabla \nabla} (X, X) \end{array} \right] ^ {- 1} \left[ \begin{array}{l} \mathbf {y} - \mathbf {m} _ {f} (X) \\ \nabla \mathbf {y} - \mathbf {m} _ {\nabla} (X) \end{array} \right] \tag {18.26}
+\boldsymbol {\mu}_{\nabla} = \mathbf {m}_{f} \left(X^{*}\right) + \left[ \begin{array}{l} \mathbf {K}_{f f} (X, X^{*}) \\ \mathbf {K}_{\nabla f} (X, X^{*}) \end{array} \right] ^{\top} \left[ \begin{array}{l l} \mathbf {K}_{f f} (X, X) & \mathbf {K}_{f \nabla} (X, X) \\ \mathbf {K}_{\nabla f} (X, X) & \mathbf {K}_{\nabla \nabla} (X, X) \end{array} \right] ^{- 1} \left[ \begin{array}{l} \mathbf {y} - \mathbf {m}_{f} (X) \\ \nabla \mathbf {y} - \mathbf {m}_{\nabla} (X) \end{array} \right] \tag {18.26}
 $$
 
 $$
-\boldsymbol {\Sigma} _ {\nabla} = \mathbf {K} _ {f f} (X ^ {*}, X ^ {*}) - \left[ \begin{array}{l} \mathbf {K} _ {f f} (X, X ^ {*}) \\ \mathbf {K} _ {\nabla f} (X, X ^ {*}) \end{array} \right] ^ {\top} \left[ \begin{array}{l l} \mathbf {K} _ {f f} (X, X) & \mathbf {K} _ {f \nabla} (X, X) \\ \mathbf {K} _ {\nabla f} (X, X) & \mathbf {K} _ {\nabla \nabla} (X, X) \end{array} \right] ^ {- 1} \left[ \begin{array}{l} \mathbf {K} _ {f f} (X, X ^ {*}) \\ \mathbf {K} _ {\nabla f} (X, X ^ {*}) \end{array} \right] \tag {18.27}
+\boldsymbol {\Sigma}_{\nabla} = \mathbf {K}_{f f} (X^{*}, X^{*}) - \left[ \begin{array}{l} \mathbf {K}_{f f} (X, X^{*}) \\ \mathbf {K}_{\nabla f} (X, X^{*}) \end{array} \right] ^{\top} \left[ \begin{array}{l l} \mathbf {K}_{f f} (X, X) & \mathbf {K}_{f \nabla} (X, X) \\ \mathbf {K}_{\nabla f} (X, X) & \mathbf {K}_{\nabla \nabla} (X, X) \end{array} \right] ^{- 1} \left[ \begin{array}{l} \mathbf {K}_{f f} (X, X^{*}) \\ \mathbf {K}_{\nabla f} (X, X^{*}) \end{array} \right] \tag {18.27}
 $$
 
 The regions obtained when including gradient observations are compared to those without gradient observations in figure 18.6.
@@ -12614,21 +12379,21 @@ We can model noisy evaluations as  $y = f(\mathbf{x}) + z$ , where  $f$  is dete
 The new joint distribution is:
 
 $$
-\left[ \begin{array}{l} \hat {\mathbf {y}} \\ \mathbf {y} \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{l} \mathbf {m} \left(X ^ {*}\right) \\ \mathbf {m} (X) \end{array} \right], \left[ \begin{array}{l l} \mathbf {K} \left(X ^ {*}, X ^ {*}\right) & \mathbf {K} \left(X ^ {*}, X\right) \\ \mathbf {K} (X, X ^ {*}) & \mathbf {K} (X, X) + \nu \mathbf {I} \end{array} \right]\right) \tag {18.28}
+\left[ \begin{array}{l} \hat {\mathbf {y}} \\ \mathbf {y} \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{l} \mathbf {m} \left(X^{*}\right) \\ \mathbf {m} (X) \end{array} \right], \left[ \begin{array}{l l} \mathbf {K} \left(X^{*}, X^{*}\right) & \mathbf {K} \left(X^{*}, X\right) \\ \mathbf {K} (X, X^{*}) & \mathbf {K} (X, X) + \nu \mathbf {I} \end{array} \right]\right) \tag {18.28}
 $$
 
 with conditional distribution:
 
 $$
-\hat {\mathbf {y}} \mid \mathbf {y}, v \sim \mathcal {N} \left(\boldsymbol {\mu} ^ {*}, \boldsymbol {\Sigma} ^ {*}\right) \tag {18.29}
+\hat {\mathbf {y}} \mid \mathbf {y}, v \sim \mathcal {N} \left(\boldsymbol {\mu}^{*}, \boldsymbol {\Sigma}^{*}\right) \tag {18.29}
 $$
 
 $$
-\boldsymbol {\mu} ^ {*} = \mathbf {m} \left(X ^ {*}\right) + \mathbf {K} \left(X ^ {*}, X\right) \left(\mathbf {K} (X, X) + \nu \mathbf {I}\right) ^ {- 1} (\mathbf {y} - \mathbf {m} (X)) \tag {18.30}
+\boldsymbol {\mu}^{*} = \mathbf {m} \left(X^{*}\right) + \mathbf {K} \left(X^{*}, X\right) \left(\mathbf {K} (X, X) + \nu \mathbf {I}\right) ^{- 1} (\mathbf {y} - \mathbf {m} (X)) \tag {18.30}
 $$
 
 $$
-\boldsymbol {\Sigma} ^ {*} = \mathbf {K} \left(X ^ {*}, X ^ {*}\right) - \mathbf {K} \left(X ^ {*}, X\right) \left(\mathbf {K} (X, X) + v \mathbf {I}\right) ^ {- 1} \mathbf {K} \left(X, X ^ {*}\right) \tag {18.31}
+\boldsymbol {\Sigma}^{*} = \mathbf {K} \left(X^{*}, X^{*}\right) - \mathbf {K} \left(X^{*}, X\right) \left(\mathbf {K} (X, X) + v \mathbf {I}\right) ^{- 1} \mathbf {K} \left(X, X^{*}\right) \tag {18.31}
 $$
 
 As the equations above show, accounting for Gaussian noise is straightforward and the posterior distribution can be computed analytically. Figure 18.7 shows a noisy Gaussian process. Algorithm 18.4 implements prediction for Gaussian processes with noisy measurements.
@@ -12662,7 +12427,7 @@ The choice of kernel and parameters has a large effect on the form of the Gaussi
 10 Alternatively, we could maximize the pseudolikelihood as discussed by C.E. Rasmussen and C.K.I. Williams, Gaussian Processes for Machine Learning. MIT Press, 2006.
 
 $$
-\log p (\mathbf {y} \mid X, \nu , \theta) = - \frac {n}{2} \log 2 \pi - \frac {1}{2} \log | \mathbf {K} _ {\theta} (X, X) + \nu \mathbf {I} | - \frac {1}{2} (\mathbf {y} - \mathbf {m} _ {\theta} (X)) ^ {\top} \left(\mathbf {K} _ {\theta} (X, X) + \nu \mathbf {I}\right) ^ {- 1} (\mathbf {y} - \mathbf {m} _ {\theta} (X)) \tag {18.32}
+\log p (\mathbf {y} \mid X, \nu , \theta) = - \frac{n}{2} \log 2 \pi - \frac{1}{2} \log | \mathbf {K}_{\theta} (X, X) + \nu \mathbf {I} | - \frac{1}{2} (\mathbf {y} - \mathbf {m}_{\theta} (X)) ^{\top} \left(\mathbf {K}_{\theta} (X, X) + \nu \mathbf {I}\right) ^{- 1} (\mathbf {y} - \mathbf {m}_{\theta} (X)) \tag {18.32}
 $$
 
 where the mean and covariance functions are parameterized by  $\theta$ .
@@ -12670,17 +12435,17 @@ where the mean and covariance functions are parameterized by  $\theta$ .
 Let us assume a zero mean such that  $\mathbf{m}_{\theta}(X) = \mathbf{0}$  and  $\theta$  refers only to the parameters for the Gaussian process covariance function. We can arrive at a maximum likelihood estimate by gradient ascent. The gradient is then given by
 
 $$
-\frac {\partial}{\partial \boldsymbol {\theta} _ {j}} \log p (\mathbf {y} \mid X, \boldsymbol {\theta}) = \frac {1}{2} \mathbf {y} ^ {\top} \mathbf {K} ^ {- 1} \frac {\partial \mathbf {K}}{\partial \boldsymbol {\theta} _ {j}} \mathbf {K} ^ {- 1} \mathbf {y} - \frac {1}{2} \operatorname {t r} \left(\boldsymbol {\Sigma} _ {\boldsymbol {\theta}} ^ {- 1} \frac {\partial \mathbf {K}}{\partial \boldsymbol {\theta} _ {j}}\right) \tag {18.33}
+\frac{\partial}{\partial \boldsymbol {\theta}_{j}} \log p (\mathbf {y} \mid X, \boldsymbol {\theta}) = \frac{1}{2} \mathbf {y}^{\top} \mathbf {K}^{- 1} \frac{\partial \mathbf {K}}{\partial \boldsymbol {\theta}_{j}} \mathbf {K}^{- 1} \mathbf {y} - \frac{1}{2} \operatorname{tr} \left(\boldsymbol {\Sigma}_{\boldsymbol {\theta}}^{- 1} \frac{\partial \mathbf {K}}{\partial \boldsymbol {\theta}_{j}}\right) \tag {18.33}
 $$
 
 where  $\pmb{\Sigma}_{\theta} = \mathbf{K}_{\theta}(X,X) + \nu \mathbf{I}$ . Above, we use the matrix derivative relations
 
 $$
-\frac {\partial \mathbf {K} ^ {- 1}}{\partial \theta_ {j}} = - \mathbf {K} ^ {- 1} \frac {\partial \mathbf {K}}{\partial \theta_ {j}} \mathbf {K} ^ {- 1} \tag {18.34}
+\frac{\partial \mathbf {K}^{- 1}}{\partial \theta_{j}} = - \mathbf {K}^{- 1} \frac{\partial \mathbf {K}}{\partial \theta_{j}} \mathbf {K}^{- 1} \tag {18.34}
 $$
 
 $$
-\frac {\partial \log | \mathbf {K} |}{\partial \boldsymbol {\theta} _ {j}} = \operatorname {t r} \left(\mathbf {K} ^ {- 1} \frac {\partial \mathbf {K}}{\partial \boldsymbol {\theta} _ {j}}\right) \tag {18.35}
+\frac{\partial \log | \mathbf {K} |}{\partial \boldsymbol {\theta}_{j}} = \operatorname{tr} \left(\mathbf {K}^{- 1} \frac{\partial \mathbf {K}}{\partial \boldsymbol {\theta}_{j}}\right) \tag {18.35}
 $$
 
 where  $\operatorname{tr}(\mathbf{A})$  denotes the trace of a matrix  $\mathbf{A}$ , defined to be the sum of the elements on the main diagonal.
@@ -12711,21 +12476,21 @@ Exercise 18.3. Consider the function  $f(x) = \sin (x) / (x^2 + 1)$  over  $[-5,
 Assume zero-mean functions and noise-free observations, and use the covariance functions:
 
 $$
-k _ {f f} (x, x ^ {\prime}) = \exp \left(- \frac {1}{2} \| x - x ^ {\prime} \| _ {2} ^ {2}\right)
+k_{f f} (x, x^{\prime}) = \exp \left(- \frac{1}{2} \| x - x^{\prime} \| _{2}^{2}\right)
 $$
 
 $$
-k _ {\nabla f} (x, x ^ {\prime}) = \left(x ^ {\prime} - x\right) \exp \left(- \frac {1}{2} \| x - x ^ {\prime} \| _ {2} ^ {2}\right)
+k_{\nabla f} (x, x^{\prime}) = \left(x^{\prime} - x\right) \exp \left(- \frac{1}{2} \| x - x^{\prime} \| _{2}^{2}\right)
 $$
 
 $$
-k _ {\nabla \nabla} (x, x ^ {\prime}) = ((x - x ^ {\prime}) ^ {2} - 1) \exp (- \frac {1}{2} \| x - x ^ {\prime} \| _ {2} ^ {2})
+k_{\nabla \nabla} (x, x^{\prime}) = ((x - x^{\prime}) ^{2} - 1) \exp (- \frac{1}{2} \| x - x^{\prime} \| _{2}^{2})
 $$
 
 Solution: The derivative of  $f$  is
 
 $$
-\frac {(x ^ {2} + 1) \cos (x) - 2 x \sin (x)}{(x ^ {2} + 1) ^ {2}}
+\frac{(x^{2} + 1) \cos (x) - 2 x \sin (x)}{(x^{2} + 1) ^{2}}
 $$
 
 Below we plot the predictive distribution for Gaussian processes with and without derivative information. The maximum standard deviation in the predicted distribution over  $[-5,5]$  for the Gaussian process with derivative information is approximately 0.377 at  $x \approx \pm 3.8$ .
@@ -12748,13 +12513,13 @@ Exercise 18.4. Derive the relation  $k_{f\nabla}(\mathbf{x},\mathbf{x}^{\prime})
 Solution: This can be derived according to:
 
 $$
-\begin{array}{l} k _ {f \nabla} (\mathbf {x}, \mathbf {x} ^ {\prime}) _ {i} = \operatorname {c o v} \left(f (\mathbf {x}), \frac {\partial}{\partial x _ {i} ^ {\prime}} f (\mathbf {x} ^ {\prime})\right) \\ = \mathbb {E} \left[ \left(f (\mathbf {x}) - \mathbb {E} [ f (\mathbf {x}) ]\right) \left(\frac {\partial}{\partial x _ {i} ^ {\prime}} f (\mathbf {x} ^ {\prime}) - \mathbb {E} \left[ \frac {\partial}{\partial x _ {i} ^ {\prime}} f (\mathbf {x} ^ {\prime}) \right]\right) \right] \\ = \mathbb {E} \left[ \left(f (\mathbf {x}) - \mathbb {E} [ f (\mathbf {x}) ]\right) \left(\frac {\partial}{\partial x _ {i} ^ {\prime}} f (\mathbf {x} ^ {\prime}) - \frac {\partial}{\partial x _ {i} ^ {\prime}} \mathbb {E} [ f (\mathbf {x} ^ {\prime}) ]\right) \right] \\ = \mathbb {E} \left[ \left(f (\mathbf {x}) - \mathbb {E} [ f (\mathbf {x}) ]\right) \frac {\partial}{\partial x _ {i} ^ {\prime}} \left(f (\mathbf {x} ^ {\prime}) - \mathbb {E} [ f (\mathbf {x} ^ {\prime}) ]\right) \right] \\ = \frac {\partial}{\partial x _ {i} ^ {\prime}} \mathbb {E} \left[ (f (\mathbf {x}) - \mathbb {E} [ f (\mathbf {x}) ]) \left(f (\mathbf {x} ^ {\prime}) - \mathbb {E} [ f (\mathbf {x} ^ {\prime}) ]\right) \right] \\ = \frac {\partial}{\partial x _ {i} ^ {\prime}} \operatorname {c o v} \left(f (\mathbf {x}), f \left(\mathbf {x} ^ {\prime}\right)\right) \\ = \frac {\partial}{\partial x _ {i} ^ {\prime}} k _ {f f} (\mathbf {x}, \mathbf {x} ^ {\prime}) \\ \end{array}
+\begin{array}{l} k_{f \nabla} (\mathbf {x}, \mathbf {x}^{\prime}) _{i} = \operatorname{cov} \left(f (\mathbf {x}), \frac{\partial}{\partial x_{i}^{\prime}} f (\mathbf {x}^{\prime})\right) \\ = \mathbb {E} \left[ \left(f (\mathbf {x}) - \mathbb {E} [ f (\mathbf {x}) ]\right) \left(\frac{\partial}{\partial x_{i}^{\prime}} f (\mathbf {x}^{\prime}) - \mathbb {E} \left[ \frac{\partial}{\partial x_{i}^{\prime}} f (\mathbf {x}^{\prime}) \right]\right) \right] \\ = \mathbb {E} \left[ \left(f (\mathbf {x}) - \mathbb {E} [ f (\mathbf {x}) ]\right) \left(\frac{\partial}{\partial x_{i}^{\prime}} f (\mathbf {x}^{\prime}) - \frac{\partial}{\partial x_{i}^{\prime}} \mathbb {E} [ f (\mathbf {x}^{\prime}) ]\right) \right] \\ = \mathbb {E} \left[ \left(f (\mathbf {x}) - \mathbb {E} [ f (\mathbf {x}) ]\right) \frac{\partial}{\partial x_{i}^{\prime}} \left(f (\mathbf {x}^{\prime}) - \mathbb {E} [ f (\mathbf {x}^{\prime}) ]\right) \right] \\ = \frac{\partial}{\partial x_{i}^{\prime}} \mathbb {E} \left[ (f (\mathbf {x}) - \mathbb {E} [ f (\mathbf {x}) ]) \left(f (\mathbf {x}^{\prime}) - \mathbb {E} [ f (\mathbf {x}^{\prime}) ]\right) \right] \\ = \frac{\partial}{\partial x_{i}^{\prime}} \operatorname{cov} \left(f (\mathbf {x}), f \left(\mathbf {x}^{\prime}\right)\right) \\ = \frac{\partial}{\partial x_{i}^{\prime}} k_{f f} (\mathbf {x}, \mathbf {x}^{\prime}) \\ \end{array}
 $$
 
 where we have used  $\mathbb{E}\left[\frac{\partial}{\partial x} f\right] = \frac{\partial}{\partial x}\mathbb{E}[f]$ . We can convince ourselves that this is true:
 
 $$
-\begin{array}{l} \mathbb {E} \left[ \frac {\partial}{\partial x} f \right] = \mathbb {E} \left[ \lim  _ {h \rightarrow 0} \frac {f (x + h) - f (x)}{h} \right] \\ = \lim  _ {h \rightarrow 0} \mathbb {E} \left[ \frac {f (x + h) - f (x)}{h} \right] \\ = \lim  _ {h \rightarrow 0} \frac {1}{h} (\mathbb {E} [ f (x + h) ] - \mathbb {E} [ f (x) ]) \\ = \frac {\partial}{\partial x} \mathbb {E} [ f (x) ] \\ \end{array}
+\begin{array}{l} \mathbb {E} \left[ \frac{\partial}{\partial x} f \right] = \mathbb {E} \left[ \lim_{h \rightarrow 0} \frac{f (x + h) - f (x)}{h} \right] \\ = \lim_{h \rightarrow 0} \mathbb {E} \left[ \frac{f (x + h) - f (x)}{h} \right] \\ = \lim_{h \rightarrow 0} \frac{1}{h} (\mathbb {E} [ f (x + h) ] - \mathbb {E} [ f (x) ]) \\ = \frac{\partial}{\partial x} \mathbb {E} [ f (x) ] \\ \end{array}
 $$
 
 provided that the objective function is differentiable.
@@ -12764,7 +12529,7 @@ Exercise 18.5. Suppose we have a multivariate Gaussian distribution over two var
 Solution: Let us write the joint Gaussian distribution as:
 
 $$
-\left[ \begin{array}{c} a \\ b \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{c} \mu_ {a} \\ \mu_ {b} \end{array} \right], \left[ \begin{array}{c c} \nu_ {a} & \nu_ {c c} \\ \nu_ {c c} & \nu_ {b} \end{array} \right]\right)
+\left[ \begin{array}{c} a \\ b \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{c} \mu_{a} \\ \mu_{b} \end{array} \right], \left[ \begin{array}{c c} \nu_{a} & \nu_{c c} \\ \nu_{c c} & \nu_{b} \end{array} \right]\right)
 $$
 
 The marginal distribution over  $a$  is  $\mathcal{N}(\mu_a, \nu_a)$ , which has variance  $\nu_a$ . The conditional distribution for  $a$  has variance  $\nu_a - \nu_c^2 / \nu_b$ . We know  $\nu_b$  must be positive in order for the original covariance matrix to be positive definite. Thus,  $\nu_c^2 / \nu_b$  is positive and  $\nu_a - \nu_c^2 / \nu_b \leq \nu_a$ .
@@ -12784,7 +12549,7 @@ Exercise 18.7. Equation (18.10) provides the joint distribution over observed ev
 Solution: We begin by writing a joint distribution over our low-fidelity and high-fidelity data:
 
 $$
-\left[ \begin{array}{c} \mathbf {y} _ {\ell} \\ \mathbf {y} _ {h} \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{c} \mathbf {m} _ {\ell} (X _ {\ell}) \\ \mathbf {m} _ {h} (X _ {h}) \end{array} \right], \left[ \begin{array}{c c} \mathbf {K} _ {\ell \ell} (X _ {\ell}, X _ {\ell}) & \mathbf {K} _ {\ell h} (X _ {\ell}, X _ {h}) \\ \mathbf {K} _ {h \ell} (X _ {h}, X _ {\ell}) & \mathbf {K} _ {h h} (X _ {h}, X _ {h}) \end{array} \right]\right)
+\left[ \begin{array}{c} \mathbf {y}_{\ell} \\ \mathbf {y}_{h} \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{c} \mathbf {m}_{\ell} (X_{\ell}) \\ \mathbf {m}_{h} (X_{h}) \end{array} \right], \left[ \begin{array}{c c} \mathbf {K}_{\ell \ell} (X_{\ell}, X_{\ell}) & \mathbf {K}_{\ell h} (X_{\ell}, X_{h}) \\ \mathbf {K}_{h \ell} (X_{h}, X_{\ell}) & \mathbf {K}_{h h} (X_{h}, X_{h}) \end{array} \right]\right)
 $$
 
 The mean functions  $m_{\ell}(\mathbf{x})$  and  $m_h(\mathbf{x})$  represent our mean predictions for the low- and high-fidelity values in the absence of nearby supporting data, and can typically be obtained using priors or by fitting (non-probabilistic) surrogate models.
@@ -12792,7 +12557,7 @@ The mean functions  $m_{\ell}(\mathbf{x})$  and  $m_h(\mathbf{x})$  represent ou
 We can then expand this joint distribution to include high-fidelity values we wish to predict  $\hat{y}_h$  at points  $X^*$ :
 
 $$
-\left[ \begin{array}{c} \hat {\mathbf {y}} _ {h} \\ \mathbf {y} _ {\ell} \\ \mathbf {y} _ {h} \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{c} \mathbf {m} _ {h} (X ^ {*}) \\ \mathbf {m} _ {\ell} (X _ {\ell}) \\ \mathbf {m} _ {h} (X _ {h}) \end{array} \right], \left[ \begin{array}{c c c} \mathbf {K} _ {h h} (X ^ {*}, X ^ {*}) & \mathbf {K} _ {\ell h} (X ^ {*}, X _ {\ell}) & \mathbf {K} _ {h h} (X ^ {*}, X _ {h}) \\ \mathbf {K} _ {\ell h} (X _ {\ell}, X ^ {*}) & \mathbf {K} _ {\ell \ell} (X _ {\ell}, X _ {\ell}) & \mathbf {K} _ {\ell h} (X _ {\ell}, X _ {h}) \\ \mathbf {K} _ {h h} (X _ {h}, X ^ {*}) & \mathbf {K} _ {\ell h} (X _ {h}, X _ {\ell}) & \mathbf {K} _ {h h} (X _ {h}, X _ {h}) \end{array} \right]\right)
+\left[ \begin{array}{c} \hat {\mathbf {y}}_{h} \\ \mathbf {y}_{\ell} \\ \mathbf {y}_{h} \end{array} \right] \sim \mathcal {N} \left(\left[ \begin{array}{c} \mathbf {m}_{h} (X^{*}) \\ \mathbf {m}_{\ell} (X_{\ell}) \\ \mathbf {m}_{h} (X_{h}) \end{array} \right], \left[ \begin{array}{c c c} \mathbf {K}_{h h} (X^{*}, X^{*}) & \mathbf {K}_{\ell h} (X^{*}, X_{\ell}) & \mathbf {K}_{h h} (X^{*}, X_{h}) \\ \mathbf {K}_{\ell h} (X_{\ell}, X^{*}) & \mathbf {K}_{\ell \ell} (X_{\ell}, X_{\ell}) & \mathbf {K}_{\ell h} (X_{\ell}, X_{h}) \\ \mathbf {K}_{h h} (X_{h}, X^{*}) & \mathbf {K}_{\ell h} (X_{h}, X_{\ell}) & \mathbf {K}_{h h} (X_{h}, X_{h}) \end{array} \right]\right)
 $$
 
 This joint distribution is analogous to equation (18.10), and very closely reflects equation (18.23). Notice that because we are inferring high-fidelity data, we treat the inferred measurements as high-fidelity with respect to the mean and kernel functions.
@@ -12800,13 +12565,13 @@ This joint distribution is analogous to equation (18.10), and very closely refle
 The conditional distribution has a mean:
 
 $$
-\mathbf {m} _ {h} (X ^ {*}) + \left[ \begin{array}{c c} \mathbf {K} _ {\ell h} (X ^ {*}, X _ {\ell}) & \mathbf {K} _ {h h} (X ^ {*}, X _ {h}) \end{array} \right] \left[ \begin{array}{c c} \mathbf {K} _ {\ell \ell} (X _ {\ell}, X _ {\ell}) & \mathbf {K} _ {\ell h} (X _ {\ell}, X _ {h}) \\ \mathbf {K} _ {\ell h} (X _ {h}, X _ {\ell}) & \mathbf {K} _ {h h} (X _ {h}, X _ {h}) \end{array} \right] ^ {- 1} \left(\left[ \begin{array}{c} \mathbf {y} _ {\ell} \\ \mathbf {y} _ {h} \end{array} \right] - \left[ \begin{array}{c} \mathbf {m} _ {\ell} (X _ {\ell}) \\ \mathbf {m} _ {h} (X _ {h}) \end{array} \right]\right)
+\mathbf {m}_{h} (X^{*}) + \left[ \begin{array}{c c} \mathbf {K}_{\ell h} (X^{*}, X_{\ell}) & \mathbf {K}_{h h} (X^{*}, X_{h}) \end{array} \right] \left[ \begin{array}{c c} \mathbf {K}_{\ell \ell} (X_{\ell}, X_{\ell}) & \mathbf {K}_{\ell h} (X_{\ell}, X_{h}) \\ \mathbf {K}_{\ell h} (X_{h}, X_{\ell}) & \mathbf {K}_{h h} (X_{h}, X_{h}) \end{array} \right] ^{- 1} \left(\left[ \begin{array}{c} \mathbf {y}_{\ell} \\ \mathbf {y}_{h} \end{array} \right] - \left[ \begin{array}{c} \mathbf {m}_{\ell} (X_{\ell}) \\ \mathbf {m}_{h} (X_{h}) \end{array} \right]\right)
 $$
 
 The predicted high-fidelity mean as a function of  $\mathbf{x}$  is then given by:
 
 $$
-\hat {\mu} _ {h} (\mathbf {x}) = \mathbf {m} _ {h} (\mathbf {x}) + \left[ \begin{array}{l l} \mathbf {K} _ {\ell h} (\mathbf {x}, X _ {\ell}) & \mathbf {K} _ {h h} (\mathbf {x}, X _ {h}) \end{array} \right] \left[ \begin{array}{l l} \mathbf {K} _ {\ell \ell} (X _ {\ell}, X _ {\ell}) & \mathbf {K} _ {\ell h} (X _ {\ell}, X _ {h}) \\ \mathbf {K} _ {h \ell} (X _ {h}, X _ {\ell}) & \mathbf {K} _ {h h} (X _ {h}, X _ {h}) \end{array} \right] ^ {- 1} \left[ \begin{array}{l} \mathbf {y} _ {\ell} - \mathbf {m} _ {\ell} (X _ {\ell}) \\ \mathbf {y} _ {h} - \mathbf {m} _ {h} (X _ {h}) \end{array} \right]
+\hat {\mu}_{h} (\mathbf {x}) = \mathbf {m}_{h} (\mathbf {x}) + \left[ \begin{array}{l l} \mathbf {K}_{\ell h} (\mathbf {x}, X_{\ell}) & \mathbf {K}_{h h} (\mathbf {x}, X_{h}) \end{array} \right] \left[ \begin{array}{l l} \mathbf {K}_{\ell \ell} (X_{\ell}, X_{\ell}) & \mathbf {K}_{\ell h} (X_{\ell}, X_{h}) \\ \mathbf {K}_{h \ell} (X_{h}, X_{\ell}) & \mathbf {K}_{h h} (X_{h}, X_{h}) \end{array} \right] ^{- 1} \left[ \begin{array}{l} \mathbf {y}_{\ell} - \mathbf {m}_{\ell} (X_{\ell}) \\ \mathbf {y}_{h} - \mathbf {m}_{h} (X_{h}) \end{array} \right]
 $$
 
 Exercise 18.8. Fit a Gaussian process to the following data
@@ -12816,7 +12581,7 @@ x s = \left[ - 0. 8, \quad - 0. 6, \quad - 0. 4, \quad - 0. 2, \quad 0. 0, \quad
 $$
 
 $$
-y s = \left[ - 0. 4 6 3, - 0. 1 4 8, 0. 2 7 7, 0. 5 1 2, 0. 4 2 5, 0. 0 5 2, - 0. 4 0 4, - 0. 6 4 4, - 0. 9 9 6, - 0. 3 6 0 \right]
+y s = \left[ - 0. 46 3, - 0. 14 8, 0. 27 7, 0. 51 2, 0. 42 5, 0. 05 2, - 0. 40 4, - 0. 64 4, - 0. 99 6, - 0. 36 0 \right]
 $$
 
 using a mean function based on a 5th-order polynomial fit and a squared exponential kernel with  $\ell = 0.25$ . Plot the mean prediction of your model and its  $95\%$  confidence interval.
@@ -12824,13 +12589,13 @@ using a mean function based on a 5th-order polynomial fit and a squared exponent
 Solution: Linear regression with 5th-order polynomial bases on the given data produces the weights:
 
 $$
-\theta = [ 0. 4 1 9, - 0. 9 9 1, - 3. 3 0 8, 1. 3 2 4, 2. 4 7 1, - 0. 2 9 8 ]
+\theta = [ 0. 41 9, - 0. 99 1, - 3. 30 8, 1. 32 4, 2. 47 1, - 0. 29 8 ]
 $$
 
 We then construct our Gaussian process using the mean function
 
 $$
-m (x) = \theta_ {1} + \theta_ {2} x + \theta_ {3} x ^ {2} + \theta_ {4} x ^ {3} + \theta_ {5} x ^ {4} + \theta_ {6} x ^ {5}
+m (x) = \theta_{1} + \theta_{2} x + \theta_{3} x^{2} + \theta_{4} x^{3} + \theta_{5} x^{4} + \theta_{6} x^{5}
 $$
 
 and a squared exponential kernel with  $\ell = 0.25$ :
@@ -12844,13 +12609,13 @@ x s = [ - 0. 7, \quad 0. 5, \quad 0. 9 ]
 $$
 
 $$
-y s = [ - 0. 2 2 0, - 0. 7 3 7, - 1. 4 4 9 ]
+y s = [ - 0. 22 0, - 0. 73 7, - 1. 44 9 ]
 $$
 
 Extend that Gaussian process into a multifidelity Gaussian process by incorporating separate estimates for the high-fidelity data. Again use linear regression to determine a mean function  $m_h(x)$ , but use  $m_{\ell}(x)$  as one of the bases in addition to a 2nd-order polynomial:
 
 $$
-m _ {h} (x) = \theta_ {1} m _ {\ell} (x) + \theta_ {2} + \theta_ {3} x + \theta_ {4} x ^ {2}
+m_{h} (x) = \theta_{1} m_{\ell} (x) + \theta_{2} + \theta_{3} x + \theta_{4} x^{2}
 $$
 
 Under this scheme, the high-fidelity model is explicitly correlated with the low-fidelity model through the learned weight  $\theta_{1}$ . We have  $k_{\ell h}(x,x^{\prime}) = \theta_{1}k_{\ell \ell}(x,x^{\prime})$ . Similarly, the covariance of the high-fidelity function is at least  $k_{hh}(x,x^{\prime}) = \theta_{1}^{2}k_{\ell \ell}(x,x^{\prime})$ .
@@ -12860,13 +12625,13 @@ Use your mean functions and exercise 18.7 to construct a multifidelity Gaussian 
 Solution: Linear regression to learn the high-fidelity basis weights yields:
 
 $$
-\theta h i = [ 0. 2 5 6, - 0. 1 1 2, - 0. 5 3 6, - 0. 8 2 0 ]
+\theta h i = [ 0. 25 6, - 0. 11 2, - 0. 53 6, - 0. 82 0 ]
 $$
 
 Below we show a multifidelity Gaussian process using these mean functions. The low-fidelity kernel  $k_{\ell \ell}$  is a squared exponential kernel with  $\ell = 0.25$ , and the cross-term kernels are thus:
 
 $$
-k _ {\ell h} (\mathbf {x}, \mathbf {x} ^ {\prime}) = k _ {h \ell} (\mathbf {x}, \mathbf {x} ^ {\prime}) = 0. 2 5 6 k _ {\ell \ell} (\mathbf {x}, \mathbf {x} ^ {\prime})
+k_{\ell h} (\mathbf {x}, \mathbf {x}^{\prime}) = k_{h \ell} (\mathbf {x}, \mathbf {x}^{\prime}) = 0. 25 6 k_{\ell \ell} (\mathbf {x}, \mathbf {x}^{\prime})
 $$
 
 It is common practice to represent the high-fidelity estimates in multifidelity surrogate optimization as adjustments to a low-fidelity model. In this context, the additional bases are called a corrector function.
@@ -12886,7 +12651,7 @@ $$
 Use leave-one-out cross-validation to select the kernel that maximizes the likelihood of predicting the withheld pair given a Gaussian process over the other pairs in the fold. Assume zero mean with no noise. Select from the kernels:
 
 $$
-\exp (- \| x - x ^ {\prime} \|) \qquad \exp (- \| x - x ^ {\prime} \| ^ {2}) \qquad (1 + \| x - x ^ {\prime} \|) ^ {- 1} \qquad (1 + \| x - x ^ {\prime} \| ^ {2}) ^ {- 1} \qquad (1 + \| x - x ^ {\prime} \|) ^ {- 2}
+\exp (- \| x - x^{\prime} \|) \qquad \exp (- \| x - x^{\prime} \| ^{2}) \qquad (1 + \| x - x^{\prime} \|) ^{- 1} \qquad (1 + \| x - x^{\prime} \| ^{2}) ^{- 1} \qquad (1 + \| x - x^{\prime} \|) ^{- 2}
 $$
 
 Solution: Maximizing the product of the likelihoods is equivalent to maximizing the sum of the log likelihoods. Here are the log likelihoods of the third point given the other points using each kernel:
@@ -12896,23 +12661,23 @@ Solution: Maximizing the product of the likelihoods is equivalent to maximizing 
 Computing these values over all five folds yields the total log likelihoods:
 
 $$
-\exp (- \| x - x ^ {\prime} \|) \rightarrow - 8. 6 8 8
+\exp (- \| x - x^{\prime} \|) \rightarrow - 8. 68 8
 $$
 
 $$
-\exp \left(- \| x - x ^ {\prime} \| ^ {2}\right)\rightarrow - 9. 0 1 0
+\exp \left(- \| x - x^{\prime} \| ^{2}\right)\rightarrow - 9. 01 0
 $$
 
 $$
-\left(1 + \left\| x - x ^ {\prime} \right\|\right) ^ {- 1} \rightarrow - 9. 5 7 9
+\left(1 + \left\| x - x^{\prime} \right\|\right) ^{- 1} \rightarrow - 9. 57 9
 $$
 
 $$
-(1 + \| x - x ^ {\prime} \| ^ {2}) ^ {- 1} \rightarrow - 1 0. 1 9 5
+(1 + \| x - x^{\prime} \| ^{2}) ^{- 1} \rightarrow - 10. 19 5
 $$
 
 $$
-(1 + \| x - x ^ {\prime} \|) ^ {- 2} \rightarrow - 8. 0 8 8
+(1 + \| x - x^{\prime} \|) ^{- 2} \rightarrow - 8. 08 8
 $$
 
 It follows that the kernel that maximizes the leave-one-out cross-validated likelihood is the rational quadratic kernel  $(1 + \| x - x' \|)^{-2}$ .
@@ -12928,7 +12693,7 @@ In prediction-based exploration, we select the minimizer of the surrogate functi
 If we use a Gaussian process surrogate model, prediction-based optimization has us select the minimizer of the mean function
 
 $$
-\mathbf {x} ^ {(m + 1)} = \underset {\mathbf {x} \in \mathcal {X}} {\arg \min } \hat {\mu} (\mathbf {x}) \tag {19.1}
+\mathbf {x}^{(m + 1)} = \underset{\mathbf {x} \in \mathcal {X}} {\arg \min } \hat {\mu} (\mathbf {x}) \tag {19.1}
 $$
 
 where  $\hat{\mu}(\mathbf{x})$  is the predicted mean of a Gaussian process at a design point  $\mathbf{x}$  based on the previous  $m$  design points. The process is illustrated in figure 19.1.
@@ -12949,7 +12714,7 @@ Error-based exploration seeks to increase confidence in the true function. A Gau
 The next sample point is:
 
 $$
-x ^ {(m + 1)} = \underset {\mathbf {x} \in \mathcal {X}} {\arg \max } \hat {\sigma} (\mathbf {x}) \tag {19.2}
+x^{(m + 1)} = \underset{\mathbf {x} \in \mathcal {X}} {\arg \max } \hat {\sigma} (\mathbf {x}) \tag {19.2}
 $$
 
 where  $\hat{\sigma}(\mathbf{x})$  is the standard deviation of a Gaussian process at a design point  $\mathbf{x}$  based on the previous  $m$  design points. The process is illustrated in figure 19.2.
@@ -12977,7 +12742,7 @@ Figure 19.3. Lower confidence bound exploration trades off between minimizing un
 We can sometimes obtain faster convergence by selecting the design point that maximizes the chance that the new point will be better than the samples we have seen so far. The improvement for a function sampled at  $\mathbf{x}$  producing  $y = f(\mathbf{x})$  is
 
 $$
-I (y) = \left\{ \begin{array}{l l} y _ {\min } - y & \text {i f} y <   y _ {\min } \\ 0 & \text {o t h e r w i s e} \end{array} \right. \tag {19.4}
+I (y) = \left\{ \begin{array}{l l} y_{\min } - y & \text{if} y <   y_{\min } \\ 0 & \text{otherwise} \end{array} \right. \tag {19.4}
 $$
 
 where  $y_{\mathrm{min}}$  is the minimum value sampled so far.
@@ -12985,7 +12750,7 @@ where  $y_{\mathrm{min}}$  is the minimum value sampled so far.
 The probability of improvement at points where  $\hat{\sigma} > 0$  is
 
 $$
-\begin{array}{l} P (y <   y _ {\min }) = \int_ {- \infty} ^ {y _ {\min }} \mathcal {N} (y \mid \hat {\mu}, \hat {\sigma} ^ {2}) d y (19.5) \\ = \Phi \left(\frac {y _ {\min } - \hat {\mu}}{\hat {\sigma}}\right) (19.6) \\ \end{array}
+\begin{array}{l} P (y <   y_{\min }) = \int_{- \infty}^{y_{\min }} \mathcal {N} (y \mid \hat {\mu}, \hat {\sigma}^{2}) d y (19.5) \\ = \Phi \left(\frac{y_{\min } - \hat {\mu}}{\hat {\sigma}}\right) (19.6) \\ \end{array}
 $$
 
 where  $\Phi$  is the standard normal cumulative distribution function (see appendix C.8). This calculation (algorithm 19.1) is shown in figure 19.4. Figure 19.5 illustrates this process. When  $\hat{\sigma} = 0$ , which occurs at points where we have noiseless measurements, the probability of improvement is zero.
@@ -13010,13 +12775,13 @@ We can focus our exploration of points that maximize our expected improvement ov
 Through a substitution
 
 $$
-z = \frac {y - \hat {\mu}}{\hat {\sigma}} \quad y _ {\min } ^ {\prime} = \frac {y _ {\min } - \hat {\mu}}{\hat {\sigma}} \tag {19.7}
+z = \frac{y - \hat {\mu}}{\hat {\sigma}} \quad y_{\min }^{\prime} = \frac{y_{\min } - \hat {\mu}}{\hat {\sigma}} \tag {19.7}
 $$
 
 we can write the improvement in equation (19.4) as
 
 $$
-I (y) = \left\{ \begin{array}{l l} \hat {\sigma} \left(y _ {\min } ^ {\prime} - z\right) & \text {i f} z <   y _ {\min } ^ {\prime} \text {a n d} \hat {\sigma} > 0 \\ 0 & \text {o t h e r w i s e} \end{array} \right. \tag {19.8}
+I (y) = \left\{ \begin{array}{l l} \hat {\sigma} \left(y_{\min }^{\prime} - z\right) & \text{if} z <   y_{\min }^{\prime} \text{and} \hat {\sigma} > 0 \\ 0 & \text{otherwise} \end{array} \right. \tag {19.8}
 $$
 
 where  $\hat{\mu}$  and  $\hat{\sigma}$  are the predicted mean and standard deviation at the sample point  $\mathbf{x}$ .
@@ -13024,7 +12789,7 @@ where  $\hat{\mu}$  and  $\hat{\sigma}$  are the predicted mean and standard dev
 We can calculate the expected improvement using the distribution predicted by the Gaussian process:
 
 $$
-\begin{array}{l} \mathbb {E} [ I (y) ] = \hat {\sigma} \int_ {- \infty} ^ {y _ {\min } ^ {\prime}} \left(y _ {\min } ^ {\prime} - z\right) \mathcal {N} (z \mid 0, 1) d z (19.9) \\ = \hat {\sigma} \left[ y _ {\min } ^ {\prime} \int_ {- \infty} ^ {y _ {\min } ^ {\prime}} \mathcal {N} (z \mid 0, 1) d z - \int_ {- \infty} ^ {y _ {\min } ^ {\prime}} z \mathcal {N} (z \mid 0, 1) d z \right] (19.10) \\ = \hat {\sigma} \left[ y _ {\min } ^ {\prime} P \left(z \leq y _ {\min } ^ {\prime}\right) + \mathcal {N} \left(y _ {\min } ^ {\prime} \mid 0, 1\right) - \underbrace {\mathcal {N} (- \infty \mid 0 , 1)} _ {= 0} \right] (19.11) \\ = \left(y _ {\min } - \hat {\mu}\right) P \left(y \leq y _ {\min }\right) + \hat {\sigma} ^ {2} \mathcal {N} \left(y _ {\min } \mid \hat {\mu}, \hat {\sigma} ^ {2}\right) (19.12) \\ \end{array}
+\begin{array}{l} \mathbb {E} [ I (y) ] = \hat {\sigma} \int_{- \infty}^{y_{\min }^{\prime}} \left(y_{\min }^{\prime} - z\right) \mathcal {N} (z \mid 0, 1) d z (19.9) \\ = \hat {\sigma} \left[ y_{\min }^{\prime} \int_{- \infty}^{y_{\min }^{\prime}} \mathcal {N} (z \mid 0, 1) d z - \int_{- \infty}^{y_{\min }^{\prime}} z \mathcal {N} (z \mid 0, 1) d z \right] (19.10) \\ = \hat {\sigma} \left[ y_{\min }^{\prime} P \left(z \leq y_{\min }^{\prime}\right) + \mathcal {N} \left(y_{\min }^{\prime} \mid 0, 1\right) - \underbrace{\mathcal {N} (- \infty \mid 0 , 1)}_{= 0} \right] (19.11) \\ = \left(y_{\min } - \hat {\mu}\right) P \left(y \leq y_{\min }\right) + \hat {\sigma}^{2} \mathcal {N} \left(y_{\min } \mid \hat {\mu}, \hat {\sigma}^{2}\right) (19.12) \\ \end{array}
 $$
 
 Figure 19.6 illustrates this process using algorithm 19.2.
@@ -13053,11 +12818,11 @@ Figure 19.7. SafeOpt solves safe exploration problems that minimize  $f$  while 
 ith sample, SafeOpt calculates the upper and lower confidence bounds:
 
 $$
-u _ {i} (\mathbf {x}) = \hat {\mu} _ {i - 1} (\mathbf {x}) + \sqrt {\beta \hat {v} _ {i - 1} (\mathbf {x})} \tag {19.13}
+u_{i} (\mathbf {x}) = \hat {\mu}_{i - 1} (\mathbf {x}) + \sqrt{\beta \hat {v}_{i - 1} (\mathbf {x})} \tag {19.13}
 $$
 
 $$
-\ell_ {i} (\mathbf {x}) = \hat {\mu} _ {i - 1} (\mathbf {x}) - \sqrt {\beta \hat {v} _ {i - 1} (\mathbf {x})} \tag {19.14}
+\ell_{i} (\mathbf {x}) = \hat {\mu}_{i - 1} (\mathbf {x}) - \sqrt{\beta \hat {v}_{i - 1} (\mathbf {x})} \tag {19.14}
 $$
 
 where larger values of  $\beta$  yield wider confidence regions. Such bounds are shown in figure 19.8.
@@ -13074,7 +12839,7 @@ $u(x)$
 The Gaussian process predicts a distribution over  $f(\mathbf{x})$  for any design point. Being Gaussian, these predictions can provide only a probabilistic guarantee of safety up to an arbitrary factor:4
 
 $$
-P (f (\mathbf {x}) \leq y _ {\max }) = \Phi \left(\frac {y _ {\max } - \hat {\mu} (\mathbf {x})}{\sqrt {\hat {v} (\mathbf {x})}}\right) \geq P _ {\text {s a f e}} \tag {19.15}
+P (f (\mathbf {x}) \leq y_{\max }) = \Phi \left(\frac{y_{\max } - \hat {\mu} (\mathbf {x})}{\sqrt{\hat {v} (\mathbf {x})}}\right) \geq P_{\text{safe}} \tag {19.15}
 $$
 
 The predicted safe region  $S$  consists of the design points that provide a probability of safety greater than the required level  $P_{\mathrm{safe}}$ , as illustrated in figure 19.9. The safe region can also be defined in terms of Lipschitz upper bounds constructed from upper bounds evaluated at previously sampled points.
@@ -13084,7 +12849,7 @@ SafeOpt chooses a safe sample point that balances the desire to localize a reach
 The set of potential minimizers consists of the safe points whose lower confidence bound is lower than the lowest upper bound:
 
 $$
-\mathcal {M} _ {i} = \left\{\mathbf {x} \in \mathcal {S} _ {i} \mid \ell_ {i} (\mathbf {x}) \leq \min  _ {\mathbf {x} ^ {\prime} \in \mathcal {S} _ {i}} u _ {i} \left(\mathbf {x} ^ {\prime}\right) \right\} \tag {19.16}
+\mathcal {M}_{i} = \left\{\mathbf {x} \in \mathcal {S}_{i} \mid \ell_{i} (\mathbf {x}) \leq \min_{\mathbf {x}^{\prime} \in \mathcal {S}_{i}} u_{i} \left(\mathbf {x}^{\prime}\right) \right\} \tag {19.16}
 $$
 
 4 Note the similarity to the probability of improvement.
@@ -13125,7 +12890,7 @@ objective function
 Given an initial safe point $^6$ $\mathbf{x}^{(1)}$ , SafeOpt chooses the design point among sets  $\mathcal{M}$  and  $\mathcal{E}$  with the greatest uncertainty, as quantified by the width  $w_{i}(x) = u(x) - \ell(x)$ :
 
 $$
-\begin{array}{l} x ^ {(i)} = \arg \max  w _ {i} (\mathbf {x}) \tag {19.17} \\ \mathbf {x} \in \bar {\mathcal {M}} _ {i} \bigcup \mathcal {E} _ {i} \\ \end{array}
+\begin{array}{l} x^{(i)} = \arg \max w_{i} (\mathbf {x}) \tag {19.17} \\ \mathbf {x} \in \bar {\mathcal {M}}_{i} \bigcup \mathcal {E}_{i} \\ \end{array}
 $$
 
 SafeOpt proceeds until a termination condition is met. It is common to run the algorithm for a fixed number of iterations or until the maximum width is less than a set threshold.
@@ -13275,7 +13040,7 @@ Set-based uncertainty approaches assume that  $\mathbf{z}$  belongs to a set  $\
 In problems with set-based uncertainty, we often want to minimize the maximum possible value of the objective function. Such a minimax approach solves the optimization problem
 
 $$
-\underset {\mathbf {x} \in \mathcal {X}} {\text {m i n i m i z e}} \underset {\mathbf {z} \in \mathcal {Z}} {\text {m a x i m i z e}} f (\mathbf {x}, \mathbf {z}) \tag {20.1}
+\underset{\mathbf {x} \in \mathcal {X}} {\text{minimize}} \underset{\mathbf {z} \in \mathcal {Z}} {\text{maximize}} f (\mathbf {x}, \mathbf {z}) \tag {20.1}
 $$
 
 In other words, we want to find an  $\mathbf{x}$  that minimizes  $f$ , assuming the worst-case value for  $\mathbf{z}$ .
@@ -13283,13 +13048,13 @@ In other words, we want to find an  $\mathbf{x}$  that minimizes  $f$ , assuming
 This optimization is equivalent to defining a modified objective function
 
 $$
-f _ {\mathrm {m o d}} (\mathbf {x}) = \underset {\mathbf {z} \in \mathcal {Z}} {\text {m a x i m i z e}} f (\mathbf {x}, \mathbf {z}) \tag {20.2}
+f_{\mathrm{mo d}} (\mathbf {x}) = \underset{\mathbf {z} \in \mathcal {Z}} {\text{maximize}} f (\mathbf {x}, \mathbf {z}) \tag {20.2}
 $$
 
 and then solving
 
 $$
-\underset {\mathbf {x} \in \mathcal {X}} {\text {m i n i m i z e}} f _ {\mathrm {m o d}} (\mathbf {x}) \tag {20.3}
+\underset{\mathbf {x} \in \mathcal {X}} {\text{minimize}} f_{\mathrm{mo d}} (\mathbf {x}) \tag {20.3}
 $$
 
 Example 20.1 shows this optimization on a univariate problem and illustrates the effect of different levels of uncertainty.
@@ -13297,7 +13062,7 @@ Example 20.1 shows this optimization on a univariate problem and illustrates the
 In problems where we have feasibility constraints, our optimization problem becomes
 
 $$
-\underset {\mathbf {x} \in \mathcal {X}} {\text {m i n i m i z e}} \underset {\mathbf {z} \in \mathcal {Z}} {\text {m a x i m i z e}} f (\mathbf {x}, \mathbf {z}) \text {s u b j e c t t o} (\mathbf {x}, \mathbf {z}) \in \mathcal {F} \text {a n d} (\mathbf {x}, \mathbf {z} ^ {\prime}) \in \mathcal {F} \text {f o r a l l} \mathbf {z} ^ {\prime} \tag {20.4}
+\underset{\mathbf {x} \in \mathcal {X}} {\text{minimize}} \underset{\mathbf {z} \in \mathcal {Z}} {\text{maximize}} f (\mathbf {x}, \mathbf {z}) \text{subjectto} (\mathbf {x}, \mathbf {z}) \in \mathcal {F} \text{and} (\mathbf {x}, \mathbf {z}^{\prime}) \in \mathcal {F} \text{forall} \mathbf {z}^{\prime} \tag {20.4}
 $$
 
 Example 20.2 shows the effect of applying minimax on the space of feasible design points when there are constraints.
@@ -13307,7 +13072,7 @@ Also called the robust counterpart approach or robust regularization.
 Consider the objective function
 
 $$
-f (x, z) = f (x + z) = f (\tilde {x}) = \left\{ \begin{array}{l l} - \tilde {x} & \text {i f} \tilde {x} \leq 0 \\ \tilde {x} ^ {2} & \text {o t h e r w i s e} \end{array} \right.
+f (x, z) = f (x + z) = f (\tilde {x}) = \left\{ \begin{array}{l l} - \tilde {x} & \text{if} \tilde {x} \leq 0 \\ \tilde {x}^{2} & \text{otherwise} \end{array} \right.
 $$
 
 where  $\tilde{x} = x + z$ , with a set-based uncertainty region  $z \in [-\epsilon, \epsilon]$ . The minimax approach is a minimization problem over the modified objective function  $f_{\mathrm{mod}}(x) = \mathrm{maximize}_{z \in [-\epsilon, \epsilon]} f(x, z)$ .
@@ -13321,7 +13086,7 @@ Example 20.1. Example of a minimax approach to optimization under set-based unce
 Consider an uncertain feasible set in the form of a rotated ellipse, where  $(\mathbf{x},z)\in \mathcal{F}$  if and only if  $z\in [0,\pi /2]$  and
 
 $$
-\left(x _ {1} \cos z + x _ {2} \sin z\right) ^ {2} + \left(x _ {1} \sin z - x _ {2} \cos z\right) ^ {2} / 1 6 \leq 1
+\left(x_{1} \cos z + x_{2} \sin z\right) ^{2} + \left(x_{1} \sin z - x_{2} \cos z\right) ^{2} / 16 \leq 1
 $$
 
 When  $z = 0$ , the major axis of the ellipse is vertical. Increasing values of  $z$  slowly rotates it counter clockwise to horizontal at  $z = \pi / 2$ . The figure below shows the vertical and horizontal ellipses and the set of all points that are feasible for at least one  $z$  in blue.
@@ -13337,7 +13102,7 @@ Example 20.2. The minimax approach applied to uncertainty in the feasible set.
 Instead of assuming the uncertainty set  $\mathcal{Z}$  is fixed, an alternative approach known as information-gap decision theory parameterizes the uncertainty set by a nonnegative scalar gap parameter  $\epsilon$ . The gap controls the volume of the parameterized set  $\mathcal{Z}(\epsilon)$  centered at some nominal value  $\bar{\mathbf{z}} = \mathcal{Z}(0)$ . One way to define  $\mathcal{Z}(\epsilon)$  is as a hypersphere of radius  $\epsilon$  centered at a nominal point  $\bar{\mathbf{z}}$ :
 
 $$
-\mathcal {Z} (\epsilon) = \left\{\mathbf {z} \mid \| \mathbf {z} - \bar {\mathbf {z}} \| _ {2} \leq \epsilon \right\} \tag {20.5}
+\mathcal {Z} (\epsilon) = \left\{\mathbf {z} \mid \| \mathbf {z} - \bar {\mathbf {z}} \| _{2} \leq \epsilon \right\} \tag {20.5}
 $$
 
 Figure 20.2 illustrates this definition in two dimensions.
@@ -13347,7 +13112,7 @@ By parameterizing the uncertainty set, we avoid committing to a particular uncer
 In information-gap decision theory, we try to find the design point that allows for the largest gap while preserving feasibility. This design point can be obtained by solving the following optimization problem:
 
 $$
-\mathbf {x} ^ {*} = \underset {\mathbf {x} \in \mathcal {X}} {\arg \max } \underset {\epsilon \in [ 0, \infty)} {\operatorname {m a x i m i z e}} \left\{ \begin{array}{l l} \epsilon & \text {i f} (\mathbf {x}, \mathbf {z}) \in \mathcal {F} \text {f o r a l l} \mathbf {z} \in \mathcal {Z} (\epsilon) \\ 0 & \text {o t h e r w i s e} \end{array} \right. \tag {20.6}
+\mathbf {x}^{*} = \underset{\mathbf {x} \in \mathcal {X}} {\arg \max } \underset{\epsilon \in [ 0, \infty)} {\operatorname{maximize}} \left\{ \begin{array}{l l} \epsilon & \text{if} (\mathbf {x}, \mathbf {z}) \in \mathcal {F} \text{forall} \mathbf {z} \in \mathcal {Z} (\epsilon) \\ 0 & \text{otherwise} \end{array} \right. \tag {20.6}
 $$
 
 This optimization focuses on finding designs that ensure feasibility in the presence of uncertainty. In fact, equation (20.6) does not explicitly include the objective function  $f$ . However, we can incorporate the constraint that  $f(\mathbf{x},\mathbf{z})$  be no greater than some threshold  $y_{\mathrm{max}}$ . Such performance constraints can help us avoid excessive risk aversion. Figure 20.3 and example 20.3 illustrate the application of information-gap decision theory.
@@ -13365,7 +13130,7 @@ Figure 20.2. A parametrized uncertainty set  $\mathcal{Z}(\epsilon)$  in the for
 Figure 20.3. Information-gap decision theory applied to an objective function with additive noise  $f(\tilde{\mathbf{x}})$  with  $\tilde{\mathbf{x}} = \mathbf{x} + \mathbf{z}$  and a circular uncertainty set
 
 $$
-\mathcal {Z} (\epsilon) = \left\{\mathbf {z} \mid \| z \| _ {2} \leq \epsilon \right\}
+\mathcal {Z} (\epsilon) = \left\{\mathbf {z} \mid \| z \| _{2} \leq \epsilon \right\}
 $$
 
 The design  $\mathbf{x}^*$  is optimal under information-gap decision theory as it allows for the largest possible  $\epsilon$
@@ -13387,7 +13152,7 @@ We can also combine elements of the previous section on set-based uncertainty wi
 One way to convert the distribution output by  $f$  into a scalar value is to use the expected value or mean. The expected value is the average output that we can expect when considering all outputs of  $f(\mathbf{x},\mathbf{z})$  for all  $\mathbf{z} \in \mathcal{Z}$  and their corresponding probabilities. The expected value as a function of the design point  $\mathbf{x}$  is
 
 $$
-\mathbb {E} _ {\mathbf {z} \sim p} [ f (\mathbf {x}, \mathbf {z}) ] = \int_ {\mathcal {Z}} f (\mathbf {x}, \mathbf {z}) p (\mathbf {z}) d \mathbf {z} \tag {20.7}
+\mathbb {E}_{\mathbf {z} \sim p} [ f (\mathbf {x}, \mathbf {z}) ] = \int_{\mathcal {Z}} f (\mathbf {x}, \mathbf {z}) p (\mathbf {z}) d \mathbf {z} \tag {20.7}
 $$
 
 The expected value does not necessarily correspond to the objective function without noise, as illustrated in example 20.4.
@@ -13399,7 +13164,7 @@ Computing the integral in equation (20.7) analytically may not be possible. One 
 Besides optimizing with respect to the expected value of the function, we may also be interested in choosing design points whose value is not overly sensitive to uncertainty. $^{12}$  Such regions can be quantified using the variance of  $f$ :
 
 $$
-\begin{array}{l} \operatorname {V a r} [ f (\mathbf {x}, \mathbf {z}) ] = \mathbb {E} _ {\mathbf {z} \sim p} \left[ \left(f (\mathbf {x}, \mathbf {z}) - \mathbb {E} _ {\mathbf {z} \sim p} [ f (\mathbf {x}, \mathbf {z}) ]\right) ^ {2} \right] (20.8) \\ = \int_ {\mathcal {Z}} f (\mathbf {x}, \mathbf {z}) ^ {2} p (\mathbf {z}) d \mathbf {z} - \mathbb {E} _ {\mathbf {z} \sim p} [ f (\mathbf {x}, \mathbf {z}) ] ^ {2} (20.9) \\ \end{array}
+\begin{array}{l} \operatorname{Var} [ f (\mathbf {x}, \mathbf {z}) ] = \mathbb {E}_{\mathbf {z} \sim p} \left[ \left(f (\mathbf {x}, \mathbf {z}) - \mathbb {E}_{\mathbf {z} \sim p} [ f (\mathbf {x}, \mathbf {z}) ]\right) ^{2} \right] (20.8) \\ = \int_{\mathcal {Z}} f (\mathbf {x}, \mathbf {z}) ^{2} p (\mathbf {z}) d \mathbf {z} - \mathbb {E}_{\mathbf {z} \sim p} [ f (\mathbf {x}, \mathbf {z}) ] ^{2} (20.9) \\ \end{array}
 $$
 
 Further discussion of various metrics can be found in A. Shapiro, D. Dentcheva, and A. Ruszczyński, Lectures on Stochastic Programming: Modeling and Theory, 2nd ed. SIAM, 2014.  
@@ -13410,7 +13175,7 @@ Sometimes designers seek plateau-like regions where the output of the objective 
 One common model is to apply zero-mean Gaussian noise to the function output,  $f(\mathbf{x}, \mathbf{z}) = f(\mathbf{x}) + \mathbf{z}$ , as was the case with Gaussian processes in chapter 19. The expected value is equivalent to the noise-free case:
 
 $$
-\mathbb {E} _ {\mathbf {z} \sim \mathcal {N} (\mathbf {0}, \boldsymbol {\Sigma})} [ f (\mathbf {x}) + \mathbf {z} ] = \mathbb {E} _ {\mathbf {z} \sim \mathcal {N} (\mathbf {0}, \boldsymbol {\Sigma})} [ f (\mathbf {x}) ] + \mathbb {E} _ {\mathbf {z} \sim \mathcal {N} (\mathbf {0}, \boldsymbol {\Sigma})} [ \mathbf {z} ] = f (\mathbf {x})
+\mathbb {E}_{\mathbf {z} \sim \mathcal {N} (\mathbf {0}, \boldsymbol {\Sigma})} [ f (\mathbf {x}) + \mathbf {z} ] = \mathbb {E}_{\mathbf {z} \sim \mathcal {N} (\mathbf {0}, \boldsymbol {\Sigma})} [ f (\mathbf {x}) ] + \mathbb {E}_{\mathbf {z} \sim \mathcal {N} (\mathbf {0}, \boldsymbol {\Sigma})} [ \mathbf {z} ] = f (\mathbf {x})
 $$
 
 It is also common to add noise directly to the design vector,  $f(\mathbf{x},\mathbf{z}) = f(\mathbf{x} + \mathbf{z}) = f(\tilde{\mathbf{x}})$ . In such cases the expected value is affected by the variance of zero-mean Gaussian noise.
@@ -13430,7 +13195,7 @@ We call design points with large variance sensitive and design points with small
 An alternative metric against which to optimize is statistical feasibility. Given  $p(\mathbf{z})$ , we can compute the probability a design point  $\mathbf{x}$  is feasible:
 
 $$
-P (\mathbf {x} \in \mathcal {F}) = \int_ {\mathcal {Z}} ((\mathbf {x}, \mathbf {z}) \in \mathcal {F}) p (\mathbf {z}) d \mathbf {z} \tag {20.10}
+P (\mathbf {x} \in \mathcal {F}) = \int_{\mathcal {Z}} ((\mathbf {x}, \mathbf {z}) \in \mathcal {F}) p (\mathbf {z}) d \mathbf {z} \tag {20.10}
 $$
 
 This probability can be estimated through sampling. If we are also interested in ensuring that the objective value does not exceed a certain threshold, we can incorporate a constraint  $f(\mathbf{x}, \mathbf{z}) \leq y_{\max}$  as is done with information-gap decision theory. Unlike the expected value and variance metrics, we want to maximize this metric.
@@ -13453,7 +13218,7 @@ Figure 20.4. Probabilistic approaches produce probability distributions over the
 Consider the objective function  $f(x, z) = x^{2} + z$ , with  $z$  drawn from a Gamma distribution that depends on  $x$ . We can construct a function  $\text{dist}(x)$  that returns a Gamma distribution from the Distributions.jl package:
 
 $$
-\operatorname {d i s t} (x) = \operatorname {G a m m a} (2 / (1 + \operatorname {a b s} (x)), 2)
+\operatorname{dist} (x) = \operatorname{Gamma} (2 / (1 + \operatorname{abs} (x)), 2)
 $$
 
 This distribution has mean  $4 / (1 + |x|)$  and variance  $8 / (1 + |x|)$ .
@@ -13469,13 +13234,13 @@ Example 20.5. Considering both the expected value and the variance in optimizati
 The mean-variance tradeoff often arises in finance, where there is uncertainty in return on investments. Suppose we have a budget  $b$  available for investment and a design  $\mathbf{x}$  is a stock portfolio, with  $x_{i}$  being the amount of money allocated to the  $i$ th stock. Stock returns  $\mathbf{z}$  are modeled as Gaussian with  $\mathbf{z} \sim \mathcal{N}(\boldsymbol{\mu}, \boldsymbol{\Sigma})$ . The return of a portfolio is then
 
 $$
-y = f (\mathbf {x}, \mathbf {z}) = x _ {1} z _ {1} + x _ {2} z _ {2} + \dots = \mathbf {x} ^ {\top} \mathbf {z}
+y = f (\mathbf {x}, \mathbf {z}) = x_{1} z_{1} + x_{2} z_{2} + \dots = \mathbf {x}^{\top} \mathbf {z}
 $$
 
 which is also Gaussian with
 
 $$
-y \sim \mathcal {N} (\mathbf {x} ^ {\top} \boldsymbol {\mu}, \mathbf {x} ^ {\top} \boldsymbol {\Sigma} \mathbf {x})
+y \sim \mathcal {N} (\mathbf {x}^{\top} \boldsymbol {\mu}, \mathbf {x}^{\top} \boldsymbol {\Sigma} \mathbf {x})
 $$
 
 We wish to maximize the expected return while minimizing its variance. If we weight the expected return by  $w$  and variance by  $1 - w$ , we arrive at the following problem:
@@ -13483,13 +13248,13 @@ We wish to maximize the expected return while minimizing its variance. If we wei
 minimize
 
 $$
-- w \mathbf {x} ^ {\top} \boldsymbol {\mu} + (1 - w) \mathbf {x} ^ {\top} \boldsymbol {\Sigma} \mathbf {x}
+- w \mathbf {x}^{\top} \boldsymbol {\mu} + (1 - w) \mathbf {x}^{\top} \boldsymbol {\Sigma} \mathbf {x}
 $$
 
 subject to
 
 $$
-\mathbf {x} ^ {\top} \mathbf {1} = b
+\mathbf {x}^{\top} \mathbf {1} = b
 $$
 
 $$
@@ -13503,13 +13268,13 @@ This formulation is known as Markowitz portfolio optimization. The first constra
 Example 20.6. Considering both the expected value and the variance in portfolio optimization with
 
 $$
-\mu = \left[ \begin{array}{c c c} 0. 2 6 & 0. 0 8 & 0. 7 4 \end{array} \right]
+\mu = \left[ \begin{array}{c c c} 0. 26 & 0. 08 & 0. 74 \end{array} \right]
 $$
 
 and
 
 $$
-\boldsymbol {\Sigma} = \left[ \begin{array}{c c c} 0. 2 1 & 0. 0 3 & 0. 0 1 \\ 0. 0 3 & 0. 0 6 & 0. 0 4 \\ 0. 0 1 & 0. 0 4 & 0. 9 4 \end{array} \right]
+\boldsymbol {\Sigma} = \left[ \begin{array}{c c c} 0. 21 & 0. 03 & 0. 01 \\ 0. 03 & 0. 06 & 0. 04 \\ 0. 01 & 0. 04 & 0. 94 \end{array} \right]
 $$
 
 Markowitz portfolio optimization is named for the American economist Harry Max Markowitz (1927-2023). H. Markowitz, "Portfolio Selection," Journal of Finance, vol. 7, no. 1, pp. 77-91, 1952.
@@ -13560,11 +13325,11 @@ where  $z$  is zero-mean noise with variance 0.01.
 Solution: The deterministic optimization problem is:
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad x ^ {2}
+\underset{x} {\text{minimize}} \quad x^{2}
 $$
 
 $$
-\text {s u b j e c t} \quad \gamma x ^ {- 2} \leq 1
+\text{subject} \quad \gamma x^{- 2} \leq 1
 $$
 
 The optimal cross-section length as a function of the factor of safety is  $x = \sqrt{\gamma}$ . We can thus substitute  $\sqrt{\gamma}$  for the cross-section length in each uncertainty formulation and evaluate the probability that the design does not fail. Note that all designs have a 50% chance of failure when the factor of safety is one, due to the symmetry of the normal distribution.
@@ -13576,17 +13341,17 @@ Exercise 20.3. The six-sigma method is a special case of statistical feasibility
 Consider the optimization problem
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}}
+\underset{\mathbf {x}} {\text{minimize}}
 $$
 
 subject to
 
 $$
-x _ {1}
+x_{1}
 $$
 
 $$
-e ^ {x _ {1}} \leq x _ {2} + z \leq 2 e ^ {x _ {1}}
+e^{x_{1}} \leq x_{2} + z \leq 2 e^{x_{1}}
 $$
 
 with  $z\sim \mathcal{N}(0,1)$ . Find the optimal design  $x^{*}$  such that  $(x,z)$  is feasible for all  $|z|\leq 6$
@@ -13611,11 +13376,11 @@ As discussed in the previous chapter, probabilistic approaches to optimization u
 The mean and variance of the objective function at a particular design point can be approximated using Monte Carlo integration, which approximates the integral using  $m$  samples  $\mathbf{z}^{(1)},\ldots ,\mathbf{z}^{(m)}$ , from the distribution  $p$  over  $\mathcal{Z}$ . These estimates are also called the sample mean and sample variance:
 
 $$
-\mathbb {E} _ {\mathbf {z} \sim p} [ f (\mathbf {z}) ] \approx \hat {\mu} = \frac {1}{m} \sum_ {i = 1} ^ {m} f \left(\mathbf {z} ^ {(i)}\right) \tag {21.1}
+\mathbb {E}_{\mathbf {z} \sim p} [ f (\mathbf {z}) ] \approx \hat {\mu} = \frac{1}{m} \sum_{i = 1}^{m} f \left(\mathbf {z}^{(i)}\right) \tag {21.1}
 $$
 
 $$
-\operatorname {V a r} _ {\mathbf {z} \sim p} [ f (\mathbf {z}) ] \approx \hat {v} = \left(\frac {1}{m} \sum_ {i = 1} ^ {m} f \left(\mathbf {z} ^ {(i)}\right) ^ {2}\right) - \hat {\mu} ^ {2} \tag {21.2}
+\operatorname{Var}_{\mathbf {z} \sim p} [ f (\mathbf {z}) ] \approx \hat {v} = \left(\frac{1}{m} \sum_{i = 1}^{m} f \left(\mathbf {z}^{(i)}\right) ^{2}\right) - \hat {\mu}^{2} \tag {21.2}
 $$
 
 In the equation above, and for the rest of this chapter, we drop  $\mathbf{x}$  from  $f(\mathbf{x},\mathbf{z})$  for notational convenience, but the dependency on  $\mathbf{x}$  still exists. For each new design point  $\mathbf{x}$  in our optimization process, we recompute the mean and variance.
@@ -13631,23 +13396,23 @@ A desirable property of this sampling-based approach is that  $p$  does not need
 Another way to estimate  $\hat{\mu}$  and  $\hat{v}$  is to use the Taylor series approximation for  $f$  at a fixed design point  $\mathbf{x}$ . For the moment, we will assume that the  $n$  components of  $\mathbf{z}$  are uncorrelated and have finite variance. We will denote the mean of the distribution over  $\mathbf{z}$  as  $\mu$  and the variances of the individual components of  $\mathbf{z}$  as  $\nu$ . The following is the second-order Taylor series approximation of  $f(\mathbf{z})$  at the point  $\mathbf{z} = \boldsymbol{\mu}$ :
 
 $$
-\hat {f} (\mathbf {z}) = f (\boldsymbol {\mu}) + \sum_ {i = 1} ^ {n} \frac {\partial f}{\partial z _ {i}} (z _ {i} - \mu_ {i}) + \frac {1}{2} \sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {n} \frac {\partial^ {2} f}{\partial z _ {i} \partial z _ {j}} (z _ {i} - \mu_ {i}) (z _ {j} - \mu_ {j}) \qquad (2 1. 3)
+\hat {f} (\mathbf {z}) = f (\boldsymbol {\mu}) + \sum_{i = 1}^{n} \frac{\partial f}{\partial z_{i}} (z_{i} - \mu_{i}) + \frac{1}{2} \sum_{i = 1}^{n} \sum_{j = 1}^{n} \frac{\partial^{2} f}{\partial z_{i} \partial z_{j}} (z_{i} - \mu_{i}) (z_{j} - \mu_{j}) \qquad (21. 3)
 $$
 
 From this approximation, we can analytically compute estimates of the mean and variance of  $f$ :
 
 $$
-\hat {\mu} = f (\boldsymbol {\mu}) + \frac {1}{2} \sum_ {i = 1} ^ {n} \left. \frac {\partial^ {2} f}{\partial z _ {i} ^ {2}} v _ {i} \right| _ {\mathbf {z} = \boldsymbol {\mu}} \tag {21.4}
+\hat {\mu} = f (\boldsymbol {\mu}) + \frac{1}{2} \sum_{i = 1}^{n} \left. \frac{\partial^{2} f}{\partial z_{i}^{2}} v_{i} \right| _{\mathbf {z} = \boldsymbol {\mu}} \tag {21.4}
 $$
 
 $$
-\hat {v} = \sum_ {i = 1} ^ {n} \left(\frac {\partial f}{\partial z _ {i}}\right) ^ {2} v _ {i} + \frac {1}{2} \sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {n} \left(\frac {\partial^ {2} f}{\partial z _ {i} \partial z _ {j}}\right) ^ {2} v _ {i} v _ {j} \Bigg | _ {\mathbf {z} = \boldsymbol {\mu}} \tag {21.5}
+\hat {v} = \sum_{i = 1}^{n} \left(\frac{\partial f}{\partial z_{i}}\right) ^{2} v_{i} + \frac{1}{2} \sum_{i = 1}^{n} \sum_{j = 1}^{n} \left(\frac{\partial^{2} f}{\partial z_{i} \partial z_{j}}\right) ^{2} v_{i} v_{j} \Bigg | _{\mathbf {z} = \boldsymbol {\mu}} \tag {21.5}
 $$
 
 The higher-order terms can be neglected to obtain a first-order approximation:
 
 $$
-\hat {\mu} = f (\boldsymbol {\mu}) \quad \hat {v} = \sum_ {i = 1} ^ {n} \left(\frac {\partial f}{\partial z _ {i}}\right) ^ {2} v _ {i} \Bigg | _ {\mathbf {z} = \boldsymbol {\mu}} \tag {21.6}
+\hat {\mu} = f (\boldsymbol {\mu}) \quad \hat {v} = \sum_{i = 1}^{n} \left(\frac{\partial f}{\partial z_{i}}\right) ^{2} v_{i} \Bigg | _{\mathbf {z} = \boldsymbol {\mu}} \tag {21.6}
 $$
 
 We can relax the assumption that the components of  $\mathbf{z}$  are uncorrelated, but it makes the mathematics more complex. In practice, it can be easier to transform the random variables so that they are uncorrelated. We can transform a vector of  $n$  correlated random variables  $\mathbf{c}$  with covariance matrix  $\mathbf{C}$  into  $m$  uncorrelated
@@ -13687,7 +13452,7 @@ Polynomial chaos is a method for fitting a polynomial to evaluations of  $f(\mat
 In one dimension, we approximate  $f(z)$  with a surrogate model consisting of  $k$  polynomial basis functions,  $b_{1},\ldots ,b_{k}$ :
 
 $$
-f (z) \approx \hat {f} (z) = \sum_ {i = 1} ^ {k} \theta_ {i} b _ {i} (z) \tag {21.7}
+f (z) \approx \hat {f} (z) = \sum_{i = 1}^{k} \theta_{i} b_{i} (z) \tag {21.7}
 $$
 
 In contrast with the Monte Carlo methods discussed in section 21.1, our samples of  $z$  do not have to be randomly drawn from  $p$ . In fact, it may be desirable to obtain samples using one of the sampling plans discussed in chapter 16. We will discuss how to obtain the basis coefficients in section 21.3.2.
@@ -13697,13 +13462,13 @@ Consider the objective function  $f(x,z) = \sin (x + z_1)\cos (x + z_2)$ , where
 The first and second partial derivatives of  $f$  with respect to the  $zs$  are
 
 $$
-\begin{array}{l} \frac {\partial f}{\partial z _ {1}} = \cos (x + z _ {1}) \cos (x + z _ {2}) \quad \frac {\partial^ {2} f}{\partial z _ {2} ^ {2}} = - \sin (x + z _ {1}) \cos (x + z _ {2}) \\ \frac {\partial f}{\partial z _ {2}} = - \sin (x + z _ {1}) \sin (x + z _ {2}) \quad \frac {\partial^ {2} f}{\partial z _ {1} \partial z _ {2}} = - \cos (x + z _ {1}) \sin (x + z _ {2}) \\ \frac {\partial^ {2} f}{\partial z _ {1} ^ {2}} = - \sin (x + z _ {1}) \cos (x + z _ {2}) \\ \end{array}
+\begin{array}{l} \frac{\partial f}{\partial z_{1}} = \cos (x + z_{1}) \cos (x + z_{2}) \quad \frac{\partial^{2} f}{\partial z_{2}^{2}} = - \sin (x + z_{1}) \cos (x + z_{2}) \\ \frac{\partial f}{\partial z_{2}} = - \sin (x + z_{1}) \sin (x + z_{2}) \quad \frac{\partial^{2} f}{\partial z_{1} \partial z_{2}} = - \cos (x + z_{1}) \sin (x + z_{2}) \\ \frac{\partial^{2} f}{\partial z_{1}^{2}} = - \sin (x + z_{1}) \cos (x + z_{2}) \\ \end{array}
 $$
 
 which allow us to construct the Taylor approximation using equation (21.4) and equation (21.5):
 
 $$
-\begin{array}{l} \hat {\mu} (x) = 0. 8 5 \sin (x) \cos (x) \\ \hat {v} (x) = 0. 1 \cos^ {4} (x) + 0. 2 \sin^ {4} (x) + 0. 0 4 5 \sin^ {2} (x) \cos^ {2} (x) \\ \end{array}
+\begin{array}{l} \hat {\mu} (x) = 0. 85 \sin (x) \cos (x) \\ \hat {v} (x) = 0. 1 \cos^{4} (x) + 0. 2 \sin^{4} (x) + 0. 04 5 \sin^{2} (x) \cos^{2} (x) \\ \end{array}
 $$
 
 We can use taylor_approx for a given  $x$  using:
@@ -13722,31 +13487,31 @@ Example 21.1. The Taylor approximation applied to a univariate design problem wi
 We can use the surrogate model  $\hat{f}$  to estimate the mean:
 
 $$
-\begin{array}{l} \hat {\mu} = \mathbb {E} [ \hat {f} ] (21.8) \\ = \int_ {\mathcal {Z}} \hat {f} (z) p (z) d z (21.9) \\ = \int_ {\mathcal {Z}} \sum_ {i = 1} ^ {k} \theta_ {i} b _ {i} (z) p (z) d z (21.10) \\ = \sum_ {i = 1} ^ {k} \theta_ {i} \int_ {\mathcal {Z}} b _ {i} (z) p (z) d z (21.11) \\ = \theta_ {1} \int_ {\mathcal {Z}} b _ {1} (z) p (z) d z + \dots + \theta_ {k} \int_ {\mathcal {Z}} b _ {k} (z) p (z) d z (21.12) \\ \end{array}
+\begin{array}{l} \hat {\mu} = \mathbb {E} [ \hat {f} ] (21.8) \\ = \int_{\mathcal {Z}} \hat {f} (z) p (z) d z (21.9) \\ = \int_{\mathcal {Z}} \sum_{i = 1}^{k} \theta_{i} b_{i} (z) p (z) d z (21.10) \\ = \sum_{i = 1}^{k} \theta_{i} \int_{\mathcal {Z}} b_{i} (z) p (z) d z (21.11) \\ = \theta_{1} \int_{\mathcal {Z}} b_{1} (z) p (z) d z + \dots + \theta_{k} \int_{\mathcal {Z}} b_{k} (z) p (z) d z (21.12) \\ \end{array}
 $$
 
 We can also estimate the variance:
 
 $$
-\begin{array}{l} \hat {v} = \mathbb {E} \left[ \left(\hat {f} - \mathbb {E} [ \hat {f} ]\right) ^ {2} \right] (21.13) \\ = \mathbb {E} \left[ \hat {f} ^ {2} - 2 \hat {f} \mathbb {E} [ \hat {f} ] + \mathbb {E} [ \hat {f} ] ^ {2} \right] (21.14) \\ = \mathbb {E} \left[ \hat {f} ^ {2} \right] - \mathbb {E} \left[ \hat {f} \right] ^ {2} (21.15) \\ = \int_ {\mathcal {Z}} \hat {f} (z) ^ {2} p (z) d z - \mu^ {2} (21.16) \\ = \int_ {\mathcal {Z}} \sum_ {i = 1} ^ {k} \sum_ {j = 1} ^ {k} \theta_ {i} \theta_ {j} b _ {i} (z) b _ {j} (z) p (z) d z - \mu^ {2} (21.17) \\ = \int_ {\mathcal {Z}} \left(\sum_ {i = 1} ^ {k} \theta_ {i} ^ {2} b _ {i} (z) ^ {2} + 2 \sum_ {i = 2} ^ {k} \sum_ {j = 1} ^ {i - 1} \theta_ {i} \theta_ {j} b _ {i} (z) b _ {j} (z)\right) p (z) d z - \mu^ {2} (21.18) \\ = \sum_ {i = 1} ^ {k} \theta_ {i} ^ {2} \int_ {\mathcal {Z}} b _ {i} (z) ^ {2} p (z) d z + 2 \sum_ {i = 2} ^ {k} \sum_ {j = 1} ^ {i - 1} \theta_ {i} \theta_ {j} \int_ {\mathcal {Z}} b _ {i} (z) b _ {j} (z) p (z) d z - \mu^ {2} (21.19) \\ \end{array}
+\begin{array}{l} \hat {v} = \mathbb {E} \left[ \left(\hat {f} - \mathbb {E} [ \hat {f} ]\right) ^{2} \right] (21.13) \\ = \mathbb {E} \left[ \hat {f}^{2} - 2 \hat {f} \mathbb {E} [ \hat {f} ] + \mathbb {E} [ \hat {f} ] ^{2} \right] (21.14) \\ = \mathbb {E} \left[ \hat {f}^{2} \right] - \mathbb {E} \left[ \hat {f} \right] ^{2} (21.15) \\ = \int_{\mathcal {Z}} \hat {f} (z) ^{2} p (z) d z - \mu^{2} (21.16) \\ = \int_{\mathcal {Z}} \sum_{i = 1}^{k} \sum_{j = 1}^{k} \theta_{i} \theta_{j} b_{i} (z) b_{j} (z) p (z) d z - \mu^{2} (21.17) \\ = \int_{\mathcal {Z}} \left(\sum_{i = 1}^{k} \theta_{i}^{2} b_{i} (z) ^{2} + 2 \sum_{i = 2}^{k} \sum_{j = 1}^{i - 1} \theta_{i} \theta_{j} b_{i} (z) b_{j} (z)\right) p (z) d z - \mu^{2} (21.18) \\ = \sum_{i = 1}^{k} \theta_{i}^{2} \int_{\mathcal {Z}} b_{i} (z) ^{2} p (z) d z + 2 \sum_{i = 2}^{k} \sum_{j = 1}^{i - 1} \theta_{i} \theta_{j} \int_{\mathcal {Z}} b_{i} (z) b_{j} (z) p (z) d z - \mu^{2} (21.19) \\ \end{array}
 $$
 
 The mean and variance can be efficiently computed if the basis functions are chosen to be orthogonal under  $p$ . Two basis functions  $b_{i}$  and  $b_{j}$  are orthogonal with respect to a probability density  $p(z)$  if
 
 $$
-\int_ {\mathcal {Z}} b _ {i} (z) b _ {j} (z) p (z) d z = 0 \quad \text {i f} i \neq j \tag {21.20}
+\int_{\mathcal {Z}} b_{i} (z) b_{j} (z) p (z) d z = 0 \quad \text{if} i \neq j \tag {21.20}
 $$
 
 If the chosen basis functions are all orthogonal to one another and the first basis function is  $b_{1}(z) = 1$ , the mean is:
 
 $$
-\begin{array}{l} \hat {\mu} = \theta_ {1} \int_ {\mathcal {Z}} b _ {1} (z) p (z) d z + \theta_ {2} \int_ {\mathcal {Z}} b _ {2} (z) p (z) d z + \dots + \theta_ {k} \int_ {\mathcal {Z}} b _ {k} (z) p (z) d z (21.21) \\ = \theta_ {1} \int_ {\mathcal {Z}} b _ {1} (z) ^ {2} p (z) d z + \theta_ {2} \int_ {\mathcal {Z}} b _ {1} (z) b _ {2} (z) p (z) d z + \dots + \theta_ {k} \int_ {\mathcal {Z}} b _ {1} (z) b _ {k} (z) p (z) d z (21.22) \\ = \theta_ {1} \int_ {\mathcal {Z}} p (z) d z + 0 + \dots + 0 (21.23) \\ = \theta_ {1} (21.24) \\ \end{array}
+\begin{array}{l} \hat {\mu} = \theta_{1} \int_{\mathcal {Z}} b_{1} (z) p (z) d z + \theta_{2} \int_{\mathcal {Z}} b_{2} (z) p (z) d z + \dots + \theta_{k} \int_{\mathcal {Z}} b_{k} (z) p (z) d z (21.21) \\ = \theta_{1} \int_{\mathcal {Z}} b_{1} (z) ^{2} p (z) d z + \theta_{2} \int_{\mathcal {Z}} b_{1} (z) b_{2} (z) p (z) d z + \dots + \theta_{k} \int_{\mathcal {Z}} b_{1} (z) b_{k} (z) p (z) d z (21.22) \\ = \theta_{1} \int_{\mathcal {Z}} p (z) d z + 0 + \dots + 0 (21.23) \\ = \theta_{1} (21.24) \\ \end{array}
 $$
 
 Similarly, the variance is:
 
 $$
-\begin{array}{l} \hat {v} = \sum_ {i = 1} ^ {k} \theta_ {i} ^ {2} \int_ {\mathcal {Z}} b _ {i} (z) ^ {2} p (z) d z + 2 \sum_ {i = 2} ^ {k} \sum_ {j = 1} ^ {i - 1} \theta_ {i} \theta_ {j} \int_ {\mathcal {Z}} b _ {i} (z) b _ {j} (z) p (z) d z - \mu^ {2} (21.25) \\ = \sum_ {i = 1} ^ {k} \theta_ {i} ^ {2} \int_ {\mathcal {Z}} b _ {i} (z) ^ {2} p (z) d z - \mu^ {2} (21.26) \\ = \theta_ {1} ^ {2} \int_ {\mathcal {Z}} b _ {1} (z) ^ {2} p (z) d z + \sum_ {i = 2} ^ {k} \theta_ {i} ^ {2} \int_ {\mathcal {Z}} b _ {i} (z) ^ {2} p (z) d z - \theta_ {1} ^ {2} (21.27) \\ = \sum_ {i = 2} ^ {k} \theta_ {i} ^ {2} \int_ {\mathcal {Z}} b _ {i} (z) ^ {2} p (z) d z (21.28) \\ \end{array}
+\begin{array}{l} \hat {v} = \sum_{i = 1}^{k} \theta_{i}^{2} \int_{\mathcal {Z}} b_{i} (z) ^{2} p (z) d z + 2 \sum_{i = 2}^{k} \sum_{j = 1}^{i - 1} \theta_{i} \theta_{j} \int_{\mathcal {Z}} b_{i} (z) b_{j} (z) p (z) d z - \mu^{2} (21.25) \\ = \sum_{i = 1}^{k} \theta_{i}^{2} \int_{\mathcal {Z}} b_{i} (z) ^{2} p (z) d z - \mu^{2} (21.26) \\ = \theta_{1}^{2} \int_{\mathcal {Z}} b_{1} (z) ^{2} p (z) d z + \sum_{i = 2}^{k} \theta_{i}^{2} \int_{\mathcal {Z}} b_{i} (z) ^{2} p (z) d z - \theta_{1}^{2} (21.27) \\ = \sum_{i = 2}^{k} \theta_{i}^{2} \int_{\mathcal {Z}} b_{i} (z) ^{2} p (z) d z (21.28) \\ \end{array}
 $$
 
 The mean thus falls immediately from fitting a surrogate model to the observed data, and the variance can be very efficiently computed given the values  $\int_{\mathcal{Z}} b_i(z)^2 p(z) dz$  for a choice of basis functions and probability distribution. Example 21.2 uses these procedures to estimate the mean and variance with different sample sizes.
@@ -13754,17 +13519,17 @@ The mean thus falls immediately from fitting a surrogate model to the observed d
 Polynomial chaos approximates the function using  $k$ th degree orthogonal polynomial basis functions with  $i$  in  $1: k + 1$  and  $b_{1} = 1$ . All orthogonal polynomials satisfy the recurrence relation:
 
 $$
-b _ {i + 1} (z) = \left\{ \begin{array}{l l} \left(z - \alpha_ {i}\right) b _ {i} (z) & \text {f o r} i = 1 \\ \left(z - \alpha_ {i}\right) b _ {i} (z) - \beta_ {i} b _ {i - 1} (z) & \text {f o r} i > 1 \end{array} \right. \tag {21.29}
+b_{i + 1} (z) = \left\{ \begin{array}{l l} \left(z - \alpha_{i}\right) b_{i} (z) & \text{for} i = 1 \\ \left(z - \alpha_{i}\right) b_{i} (z) - \beta_{i} b_{i - 1} (z) & \text{for} i > 1 \end{array} \right. \tag {21.29}
 $$
 
 with  $b_{1}(z) = 1$  and weights
 
 $$
-\alpha_ {i} = \frac {\int_ {\mathcal {Z}} z b _ {i} (z) ^ {2} p (z) d z}{\int_ {\mathcal {Z}} b _ {i} (z) ^ {2} p (z) d z} \tag {21.30}
+\alpha_{i} = \frac{\int_{\mathcal {Z}} z b_{i} (z) ^{2} p (z) d z}{\int_{\mathcal {Z}} b_{i} (z) ^{2} p (z) d z} \tag {21.30}
 $$
 
 $$
-\beta_ {i} = \frac {\int_ {\mathcal {Z}} b _ {i} (z) ^ {2} p (z) d z}{\int_ {\mathcal {Z}} b _ {i - 1} (z) ^ {2} p (z) d z} \tag {21.31}
+\beta_{i} = \frac{\int_{\mathcal {Z}} b_{i} (z) ^{2} p (z) d z}{\int_{\mathcal {Z}} b_{i - 1} (z) ^{2} p (z) d z} \tag {21.31}
 $$
 
 6 Integrals of this form can be efficiently computed using Gaussian quadrature, covered in appendix C.9.
@@ -13772,7 +13537,7 @@ $$
 Consider optimizing the (unknown) objective function
 
 $$
-f (x, z) = 1 - e ^ {- (x + z - 1) ^ {2}} - 2 e ^ {- (x + z - 3) ^ {2}}
+f (x, z) = 1 - e^{- (x + z - 1) ^{2}} - 2 e^{- (x + z - 3) ^{2}}
 $$
 
 with  $z$  known to be drawn from a zero-mean unit-Gaussian distribution.
@@ -13840,11 +13605,11 @@ Figure 21.1. Orthogonal basis functions for uniform, exponential, and unit Gauss
 Consider the function  $f(z) = \sin(\pi z)$  with input  $z$  drawn from a uniform distribution over the domain  $[-1, 1]$ . The true mean and variance can be computed analytically:
 
 $$
-\mu = \int_ {a} ^ {b} f (z) p (z) d z = \int_ {- 1} ^ {1} \sin (\pi z) \frac {1}{2} d z = 0 \tag {21.32}
+\mu = \int_{a}^{b} f (z) p (z) d z = \int_{- 1}^{1} \sin (\pi z) \frac{1}{2} d z = 0 \tag {21.32}
 $$
 
 $$
-\nu = \int_ {a} ^ {b} f (z) ^ {2} p (z) d z - \mu^ {2} = \int_ {- 1} ^ {1} \sin^ {2} (\pi z) \frac {1}{2} d z - 0 = \frac {1}{2} \tag {21.33}
+\nu = \int_{a}^{b} f (z) ^{2} p (z) d z - \mu^{2} = \int_{- 1}^{1} \sin^{2} (\pi z) \frac{1}{2} d z - 0 = \frac{1}{2} \tag {21.33}
 $$
 
 Suppose we have five samples of  $f$  at  $z = \{-1, -0.2, 0.3, 0.7, 0.9\}$ . We can fit a Legendre polynomial to the data to obtain our surrogate model  $\hat{f}$ . Polynomials of different degrees yield:
@@ -13877,17 +13642,17 @@ Algorithm 21.3. The Stieltjes algorithm for constructing the next polynomial bas
 Consider the function  $f(z) = \sin(\pi z)$  with input  $z$  drawn from a truncated Gaussian distribution with mean 3 and variance 1 over the domain [2, 5]. The true mean and variance are:
 
 $$
-\mu = \int_ {a} ^ {b} f (z) p (z) d z = \int_ {2} ^ {5} \sin (\pi z) p (z) d z \approx 0. 1 0 4
+\mu = \int_{a}^{b} f (z) p (z) d z = \int_{2}^{5} \sin (\pi z) p (z) d z \approx 0. 10 4
 $$
 
 $$
-\nu = \int_ {a} ^ {b} f (z) ^ {2} p (z) d z - \mu^ {2} = \int_ {2} ^ {5} \sin^ {2} (\pi z) p (z) d z - 0. 1 0 4 ^ {2} \approx 0. 4 9 5
+\nu = \int_{a}^{b} f (z) ^{2} p (z) d z - \mu^{2} = \int_{2}^{5} \sin^{2} (\pi z) p (z) d z - 0. 10 4^{2} \approx 0. 49 5
 $$
 
 where the probability density of the truncated Gaussian is:
 
 $$
-p (z) = \left\{ \begin{array}{l l} \frac {\mathcal {N} (z | 3 , 1)}{\int_ {2} ^ {5} \mathcal {N} (\tau | 3 , 1)   d \tau} & \text {i f} z \in [ 2, 5 ] \\ 0 & \text {o t h e r w i s e} \end{array} \right.
+p (z) = \left\{ \begin{array}{l l} \frac{\mathcal {N} (z | 3 , 1)}{\int_{2}^{5} \mathcal {N} (\tau | 3 , 1)   d \tau} & \text{if} z \in [ 2, 5 ] \\ 0 & \text{otherwise} \end{array} \right.
 $$
 
 Suppose we have five samples of  $f$  at  $z = \{2.1, 2.5, 3.3, 3.9, 4.7\}$ . We can fit orthogonal polynomials to the data to obtain our surrogate model  $\hat{f}$ . Polynomials of different degrees yield:
@@ -13907,11 +13672,11 @@ Example 21.4. Legendre polynomials constructed using the Stieltjes method to est
 We multiply each side of equation (21.7) by the  $j$ th basis and our probability density function and integrate:
 
 $$
-f (z) \approx \sum_ {i = 1} ^ {k} \theta_ {i} b _ {i} (z) \tag {21.34}
+f (z) \approx \sum_{i = 1}^{k} \theta_{i} b_{i} (z) \tag {21.34}
 $$
 
 $$
-\begin{array}{l} \int_ {\mathcal {Z}} f (z) b _ {j} (z) p (z) d z \approx \int_ {\mathcal {Z}} \left(\sum_ {i = 1} ^ {k} \theta_ {i} b _ {i} (z)\right) b _ {j} (z) p (z) d z (21.35) \\ = \sum_ {i = 1} ^ {k} \theta_ {i} \int_ {\mathcal {Z}} b _ {i} (z) b _ {j} (z) p (z) d z (21.36) \\ = \theta_ {j} \int_ {\mathcal {Z}} b _ {j} (z) ^ {2} p (z) d z (21.37) \\ \end{array}
+\begin{array}{l} \int_{\mathcal {Z}} f (z) b_{j} (z) p (z) d z \approx \int_{\mathcal {Z}} \left(\sum_{i = 1}^{k} \theta_{i} b_{i} (z)\right) b_{j} (z) p (z) d z (21.35) \\ = \sum_{i = 1}^{k} \theta_{i} \int_{\mathcal {Z}} b_{i} (z) b_{j} (z) p (z) d z (21.36) \\ = \theta_{j} \int_{\mathcal {Z}} b_{j} (z) ^{2} p (z) d z (21.37) \\ \end{array}
 $$
 
 where we made use of the orthogonality property from equation (21.20).
@@ -13919,7 +13684,7 @@ where we made use of the orthogonality property from equation (21.20).
 It follows that the  $j$ th coefficient is:
 
 $$
-\theta_ {j} = \frac {\int_ {\mathcal {Z}} f (z) b _ {j} (z) p (z) d z}{\int_ {\mathcal {Z}} b _ {j} (z) ^ {2} p (z) d z} \tag {21.38}
+\theta_{j} = \frac{\int_{\mathcal {Z}} f (z) b_{j} (z) p (z) d z}{\int_{\mathcal {Z}} b_{j} (z) ^{2} p (z) d z} \tag {21.38}
 $$
 
 The denominator of equation (21.38) typically has a known analytic solution or can be inexpensively precomputed. Calculating the coefficient thus primarily requires solving the integral in the numerator, which can be done numerically using Gaussian quadrature.<sup>9</sup>
@@ -13929,7 +13694,7 @@ The denominator of equation (21.38) typically has a known analytic solution or c
 Polynomial chaos can be applied to functions with multiple random inputs. Multivariate basis functions over  $m$  variables are constructed as a product over univariate orthogonal polynomials:
 
 $$
-b _ {i} (\mathbf {z}) = \prod_ {j = 1} ^ {m} b _ {a _ {j}} \left(z _ {j}\right) \tag {21.39}
+b_{i} (\mathbf {z}) = \prod_{j = 1}^{m} b_{a_{j}} \left(z_{j}\right) \tag {21.39}
 $$
 
 where  $\mathbf{a}$  is an assignment vector that assigns the  $a_{j}$ th basis function to the  $j$ th random component. This basis function construction is demonstrated in example 21.5.
@@ -13952,7 +13717,7 @@ end
 A multivariate polynomial chaos approximation with  $k$  basis functions is still a linear combination of terms
 
 $$
-f (\mathbf {z}) \approx \hat {f} (\mathbf {z}) = \sum_ {i = 1} ^ {k} \theta_ {i} b _ {i} (\mathbf {z}) \tag {21.40}
+f (\mathbf {z}) \approx \hat {f} (\mathbf {z}) = \sum_{i = 1}^{k} \theta_{i} b_{i} (\mathbf {z}) \tag {21.40}
 $$
 
 where the mean and variance can be computed using the equations in section 21.3.1, provided that  $b_{1}(\mathbf{z}) = 1$ .
@@ -13970,19 +13735,19 @@ Algorithm 21.4. A method for constructing multivariate basis functions where bas
 Gaussian process  $p(\hat{f})$ :
 
 $$
-\begin{array}{l} \mathbb {E} _ {\mathbf {z} \sim p} [ f ] \approx \mathbb {E} _ {\hat {f} \sim p (\hat {f})} \left[ \mathbb {E} _ {\mathbf {z} \sim p} \left[ \hat {f} \right] \right] (21.41) \\ = \int_ {\hat {\mathcal {F}}} \left(\int_ {\mathcal {Z}} \hat {f} (\mathbf {z}) p (\mathbf {z}) d \mathbf {z}\right) p (\hat {f}) d \hat {f} (21.42) \\ = \int_ {\mathcal {Z}} \left(\int_ {\hat {\mathbf {f}}} \hat {f} (\mathbf {z}) p (\hat {f}) d \hat {f}\right) p (\mathbf {z}) d \mathbf {z} (21.43) \\ = \int_ {\mathcal {Z}} \hat {\mu} (\mathbf {z}) p (\mathbf {z}) d \mathbf {z} (21.44) \\ \end{array}
+\begin{array}{l} \mathbb {E}_{\mathbf {z} \sim p} [ f ] \approx \mathbb {E}_{\hat {f} \sim p (\hat {f})} \left[ \mathbb {E}_{\mathbf {z} \sim p} \left[ \hat {f} \right] \right] (21.41) \\ = \int_{\hat {\mathcal {F}}} \left(\int_{\mathcal {Z}} \hat {f} (\mathbf {z}) p (\mathbf {z}) d \mathbf {z}\right) p (\hat {f}) d \hat {f} (21.42) \\ = \int_{\mathcal {Z}} \left(\int_{\hat {\mathbf {f}}} \hat {f} (\mathbf {z}) p (\hat {f}) d \hat {f}\right) p (\mathbf {z}) d \mathbf {z} (21.43) \\ = \int_{\mathcal {Z}} \hat {\mu} (\mathbf {z}) p (\mathbf {z}) d \mathbf {z} (21.44) \\ \end{array}
 $$
 
 where  $\hat{\mu} (\mathbf{z})$  is the predicted mean under the Gaussian process and  $\hat{\mathcal{F}}$  is the space of functions. The variance of the estimate is
 
 $$
-\begin{array}{l} \operatorname {V a r} _ {\mathbf {z} \sim p} [ f ] \approx \operatorname {V a r} _ {\hat {f} \sim p (\hat {f})} \left[ \mathbb {E} _ {\mathbf {z} \sim p} [ \hat {f} ] \right] (21.45) \\ = \int_ {\hat {f}} \left(\int_ {\mathcal {Z}} \hat {f} (\mathbf {z}) p (\mathbf {z}) d \mathbf {z} - \int_ {\mathcal {Z}} \mathbb {E} _ {\hat {f} \sim p (\hat {f})} [ \hat {f} \left(\mathbf {z} ^ {\prime}\right) ] p \left(\mathbf {z} ^ {\prime}\right) d \mathbf {z} ^ {\prime}\right) ^ {2} p (\hat {f}) d \hat {f} (21.46) \\ = \int_ {\mathcal {Z}} \int_ {\mathcal {Z}} \int_ {\hat {\mathbf {F}}} \left[ \hat {f} (\mathbf {z}) - \mathbb {E} _ {\hat {f} \sim p (\hat {f})} [ \hat {f} (\mathbf {z}) ] \right] \left[ \hat {f} \left(\mathbf {z} ^ {\prime}\right) - \mathbb {E} _ {\hat {f} \sim p (\hat {f})} [ \hat {f} \left(\mathbf {z} ^ {\prime}\right) ] \right] p (\hat {f}) d \hat {f} p (\mathbf {z}) p \left(\mathbf {z} ^ {\prime}\right) d \mathbf {z} d \mathbf {z} ^ {\prime} (21.47) \\ = \int_ {\mathcal {Z}} \int_ {\mathcal {Z}} \operatorname {C o v} \left(\hat {f} (\mathbf {z}), \hat {f} \left(\mathbf {z} ^ {\prime}\right)\right) p (\mathbf {z}) p \left(\mathbf {z} ^ {\prime}\right) d \mathbf {z} d \mathbf {z} ^ {\prime} (21.48) \\ \end{array}
+\begin{array}{l} \operatorname{Var}_{\mathbf {z} \sim p} [ f ] \approx \operatorname{Var}_{\hat {f} \sim p (\hat {f})} \left[ \mathbb {E}_{\mathbf {z} \sim p} [ \hat {f} ] \right] (21.45) \\ = \int_{\hat {f}} \left(\int_{\mathcal {Z}} \hat {f} (\mathbf {z}) p (\mathbf {z}) d \mathbf {z} - \int_{\mathcal {Z}} \mathbb {E}_{\hat {f} \sim p (\hat {f})} [ \hat {f} \left(\mathbf {z}^{\prime}\right) ] p \left(\mathbf {z}^{\prime}\right) d \mathbf {z}^{\prime}\right) ^{2} p (\hat {f}) d \hat {f} (21.46) \\ = \int_{\mathcal {Z}} \int_{\mathcal {Z}} \int_{\hat {\mathbf {F}}} \left[ \hat {f} (\mathbf {z}) - \mathbb {E}_{\hat {f} \sim p (\hat {f})} [ \hat {f} (\mathbf {z}) ] \right] \left[ \hat {f} \left(\mathbf {z}^{\prime}\right) - \mathbb {E}_{\hat {f} \sim p (\hat {f})} [ \hat {f} \left(\mathbf {z}^{\prime}\right) ] \right] p (\hat {f}) d \hat {f} p (\mathbf {z}) p \left(\mathbf {z}^{\prime}\right) d \mathbf {z} d \mathbf {z}^{\prime} (21.47) \\ = \int_{\mathcal {Z}} \int_{\mathcal {Z}} \operatorname{Cov} \left(\hat {f} (\mathbf {z}), \hat {f} \left(\mathbf {z}^{\prime}\right)\right) p (\mathbf {z}) p \left(\mathbf {z}^{\prime}\right) d \mathbf {z} d \mathbf {z}^{\prime} (21.48) \\ \end{array}
 $$
 
 where Cov is the posterior covariance under the Gaussian process:
 
 $$
-\operatorname {C o v} \left(\hat {f} (\mathbf {z}), \hat {f} \left(\mathbf {z} ^ {\prime}\right)\right) = k \left(\mathbf {z}, \mathbf {z} ^ {\prime}\right) - k (\mathbf {z}, Z) \mathbf {K} (Z, Z) ^ {- 1} k (Z, \mathbf {z} ^ {\prime}) \tag {21.49}
+\operatorname{Cov} \left(\hat {f} (\mathbf {z}), \hat {f} \left(\mathbf {z}^{\prime}\right)\right) = k \left(\mathbf {z}, \mathbf {z}^{\prime}\right) - k (\mathbf {z}, Z) \mathbf {K} (Z, Z) ^{- 1} k (Z, \mathbf {z}^{\prime}) \tag {21.49}
 $$
 
 where  $Z$  contains the observed inputs.
@@ -13990,25 +13755,25 @@ where  $Z$  contains the observed inputs.
 Analytic expressions exist for the mean and variance for the special case where  $\mathbf{z}$  is Gaussian.11 Under a Gaussian kernel,
 
 $$
-k \left(\mathbf {x}, \mathbf {x} ^ {\prime}\right) = \exp \left(- \frac {1}{2} \sum_ {i = 1} ^ {n} \frac {\left(x _ {i} - x _ {i} ^ {\prime}\right) ^ {2}}{w _ {i} ^ {2}}\right) \tag {21.50}
+k \left(\mathbf {x}, \mathbf {x}^{\prime}\right) = \exp \left(- \frac{1}{2} \sum_{i = 1}^{n} \frac{\left(x_{i} - x_{i}^{\prime}\right) ^{2}}{w_{i}^{2}}\right) \tag {21.50}
 $$
 
 the mean for Gaussian uncertainty  $\mathbf{z}\sim \mathcal{N}(\boldsymbol{\mu}_{\mathbf{z}},\boldsymbol{\Sigma}_{\mathbf{z}})$  is
 
 $$
-\mathbb {E} _ {\mathbf {z} \sim p} [ f ] \approx \mathbb {E} _ {\hat {f} \sim p (\hat {f})} \left[ \mathbb {E} _ {\mathbf {z} \sim p} [ \hat {f} ] \right] = \mathbf {q} ^ {\top} \mathbf {K} ^ {- 1} \mathbf {y} \tag {21.51}
+\mathbb {E}_{\mathbf {z} \sim p} [ f ] \approx \mathbb {E}_{\hat {f} \sim p (\hat {f})} \left[ \mathbb {E}_{\mathbf {z} \sim p} [ \hat {f} ] \right] = \mathbf {q}^{\top} \mathbf {K}^{- 1} \mathbf {y} \tag {21.51}
 $$
 
 with
 
 $$
-q _ {i} = \left| \mathbf {W} ^ {- 1} \boldsymbol {\Sigma} _ {\mathbf {z}} + \mathbf {I} \right| ^ {- 1 / 2} \exp \left(- \frac {1}{2} \left(\boldsymbol {\mu} _ {\mathbf {z}} - \mathbf {z} ^ {(i)}\right) ^ {\top} \left(\boldsymbol {\Sigma} _ {\mathbf {z}} + \mathbf {W}\right) ^ {- 1} \left(\boldsymbol {\mu} _ {\mathbf {z}} - \mathbf {z} ^ {(i)}\right)\right) \tag {21.52}
+q_{i} = \left| \mathbf {W}^{- 1} \boldsymbol {\Sigma}_{\mathbf {z}} + \mathbf {I} \right| ^{- 1 / 2} \exp \left(- \frac{1}{2} \left(\boldsymbol {\mu}_{\mathbf {z}} - \mathbf {z}^{(i)}\right) ^{\top} \left(\boldsymbol {\Sigma}_{\mathbf {z}} + \mathbf {W}\right) ^{- 1} \left(\boldsymbol {\mu}_{\mathbf {z}} - \mathbf {z}^{(i)}\right)\right) \tag {21.52}
 $$
 
 It is also required that the covariance function obey the product correlation rule, that is, it can be written as the product of a univariate positive-definite function  $r$ :
 
 $$
-k (\mathbf {x}, \mathbf {x} ^ {\prime}) = \prod_ {i = 1} ^ {n} r \left(x _ {i} - x _ {i} ^ {\prime}\right)
+k (\mathbf {x}, \mathbf {x}^{\prime}) = \prod_{i = 1}^{n} r \left(x_{i} - x_{i}^{\prime}\right)
 $$
 
 Analytic results exist for polynomial kernels and mixtures of Gaussians. C.E. Rasmussen and Z. Ghahramani, "Bayesian Monte Carlo," in Advances in Neural Information Processing Systems (NIPS), 2003.
@@ -14018,7 +13783,7 @@ where  $\mathbf{W} = \mathrm{diag}[w_1^2, \ldots, w_n^2]$ , and we have construc
 The variance is
 
 $$
-\operatorname {V a r} _ {\mathbf {z} \sim p} [ f ] = | 2 \mathbf {W} ^ {- 1} \boldsymbol {\Sigma} _ {\mathbf {z}} + \mathbf {I} | ^ {- 1 / 2} - \mathbf {q} ^ {\top} \mathbf {K} ^ {- 1} \mathbf {q} \tag {21.53}
+\operatorname{Var}_{\mathbf {z} \sim p} [ f ] = | 2 \mathbf {W}^{- 1} \boldsymbol {\Sigma}_{\mathbf {z}} + \mathbf {I} | ^{- 1 / 2} - \mathbf {q}^{\top} \mathbf {K}^{- 1} \mathbf {q} \tag {21.53}
 $$
 
 Even when the analytic expressions are not available, there are many problems for which numerically evaluating the expectation is sufficiently inexpensive that the Gaussian process approach is better than a Monte Carlo estimation.
@@ -14059,19 +13824,19 @@ $$
 $$
 
 $$
-\mathbf {K} = \left[ \begin{array}{c c c c c} 1 & 0. 6 0 7 & 0. 6 0 7 & 0. 6 0 7 & 0. 6 0 7 \\ 0. 6 0 7 & 1 & 0. 1 3 5 & 0. 3 6 8 & 0. 3 6 8 \\ 0. 6 0 7 & 0. 1 3 5 & 1 & 0. 3 6 8 & 0. 3 6 8 \\ 0. 6 0 7 & 0. 3 6 8 & 0. 3 6 8 & 1 & 0. 1 3 5 \\ 0. 6 0 7 & 0. 3 6 8 & 0. 3 6 8 & 0. 1 3 5 & 1 \end{array} \right]
+\mathbf {K} = \left[ \begin{array}{c c c c c} 1 & 0. 60 7 & 0. 60 7 & 0. 60 7 & 0. 60 7 \\ 0. 60 7 & 1 & 0. 13 5 & 0. 36 8 & 0. 36 8 \\ 0. 60 7 & 0. 13 5 & 1 & 0. 36 8 & 0. 36 8 \\ 0. 60 7 & 0. 36 8 & 0. 36 8 & 1 & 0. 13 5 \\ 0. 60 7 & 0. 36 8 & 0. 36 8 & 0. 13 5 & 1 \end{array} \right]
 $$
 
 $$
-\mathbf {q} = \left[ 0. 5 7 7, 0. 4 5 0, 0. 4 5 0, 0. 4 1 7, 0. 4 1 7 \right]
+\mathbf {q} = \left[ 0. 57 7, 0. 45 0, 0. 45 0, 0. 41 7, 0. 41 7 \right]
 $$
 
 $$
-\mathbb {E} _ {\mathbf {Z} \sim p} [ f ] = 0. 0
+\mathbb {E}_{\mathbf {Z} \sim p} [ f ] = 0. 0
 $$
 
 $$
-\operatorname {V a r} _ {\mathbf {z} \sim p} [ f ] = 0. 3 2 7
+\operatorname{Var}_{\mathbf {z} \sim p} [ f ] = 0. 32 7
 $$
 
 Below we plot the expected value as a function of  $x$  using the same approach with ten random samples of  $\mathbf{z}$  at each point.
@@ -14104,13 +13869,13 @@ Exercise 21.2. Let  $x^{(1)}, x^{(2)}, \ldots, x^{(m)}$  be a random sample of i
 Solution: We begin by substituting in the definition of the sample mean:
 
 $$
-\begin{array}{l} \operatorname {V a r} (\hat {\mu}) = \operatorname {V a r} \left(\frac {x ^ {(1)} + x ^ {(2)} + \cdots + x ^ {(m)}}{m}\right) \\ = \operatorname {V a r} \left(\frac {1}{m} x ^ {(1)} + \frac {1}{m} x ^ {(2)} + \dots + \frac {1}{m} x ^ {(m)}\right) \\ \end{array}
+\begin{array}{l} \operatorname{Var} (\hat {\mu}) = \operatorname{Var} \left(\frac{x^{(1)} + x^{(2)} + \cdots + x^{(m)}}{m}\right) \\ = \operatorname{Var} \left(\frac{1}{m} x^{(1)} + \frac{1}{m} x^{(2)} + \dots + \frac{1}{m} x^{(m)}\right) \\ \end{array}
 $$
 
 The variance of the sum of two independent variables is the sum of the variances of the two variables. It follows that:
 
 $$
-\begin{array}{l} \operatorname {V a r} (\hat {\mu}) = \operatorname {V a r} \left(\frac {1}{m} x ^ {(1)}\right) + \operatorname {V a r} \left(\frac {1}{m} x ^ {(2)}\right) + \dots + \operatorname {V a r} \left(\frac {1}{m} x ^ {(m)}\right) \\ = \frac {1}{m ^ {2}} \operatorname {V a r} \left(x ^ {(1)}\right) + \frac {1}{m ^ {2}} \operatorname {V a r} \left(x ^ {(2)}\right) + \dots + \frac {1}{m ^ {2}} \operatorname {V a r} \left(x ^ {(m)}\right) \\ = \frac {1}{m ^ {2}} (\nu + \nu + \dots + \nu) \\ = \frac {1}{m ^ {2}} (m v) \\ = \frac {\nu}{m} \\ \end{array}
+\begin{array}{l} \operatorname{Var} (\hat {\mu}) = \operatorname{Var} \left(\frac{1}{m} x^{(1)}\right) + \operatorname{Var} \left(\frac{1}{m} x^{(2)}\right) + \dots + \operatorname{Var} \left(\frac{1}{m} x^{(m)}\right) \\ = \frac{1}{m^{2}} \operatorname{Var} \left(x^{(1)}\right) + \frac{1}{m^{2}} \operatorname{Var} \left(x^{(2)}\right) + \dots + \frac{1}{m^{2}} \operatorname{Var} \left(x^{(m)}\right) \\ = \frac{1}{m^{2}} (\nu + \nu + \dots + \nu) \\ = \frac{1}{m^{2}} (m v) \\ = \frac{\nu}{m} \\ \end{array}
 $$
 
 Exercise 21.3. Derive the recurrence relation equation (21.29) that is satisfied by all orthogonal polynomials.
@@ -14118,13 +13883,13 @@ Exercise 21.3. Derive the recurrence relation equation (21.29) that is satisfied
 Solution: The three-term recurrence relation for orthogonal polynomials is central to their construction and use. A key to the derivation is noticing that a multiple of  $z$  can be shifted from one basis to the other:
 
 $$
-\int_ {\mathcal {Z}} \left(z b _ {i} (z)\right) b _ {j} (z) p (z) d z = \int_ {\mathcal {Z}} b _ {i} (z) \left(z b _ {j} (z)\right) p (z) d z
+\int_{\mathcal {Z}} \left(z b_{i} (z)\right) b_{j} (z) p (z) d z = \int_{\mathcal {Z}} b_{i} (z) \left(z b_{j} (z)\right) p (z) d z
 $$
 
 We must show that
 
 $$
-b _ {i + 1} (z) = \left\{ \begin{array}{l l} (z - \alpha_ {i}) b _ {i} (z) & \text {f o r} i = 1 \\ (z - \alpha_ {i}) b _ {i} (z) - \beta_ {i} b _ {i - 1} (z) & \text {f o r} i > 1 \end{array} \right.
+b_{i + 1} (z) = \left\{ \begin{array}{l l} (z - \alpha_{i}) b_{i} (z) & \text{for} i = 1 \\ (z - \alpha_{i}) b_{i} (z) - \beta_{i} b_{i - 1} (z) & \text{for} i > 1 \end{array} \right.
 $$
 
 produces orthogonal polynomials.
@@ -14132,7 +13897,7 @@ produces orthogonal polynomials.
 We notice that  $b_{i+1} - zb_i$  is a polynomial of degree at most  $i$ , allowing us to write it as a linear combination of the first  $i$  orthogonal polynomials:
 
 $$
-b _ {i + 1} (z) - z b _ {i} (z) = - \alpha_ {i} b _ {i} (z) - \beta_ {i} b _ {i - 1} (z) + \sum_ {j = 0} ^ {i - 2} \gamma_ {i j} b _ {j} (z)
+b_{i + 1} (z) - z b_{i} (z) = - \alpha_{i} b_{i} (z) - \beta_{i} b_{i - 1} (z) + \sum_{j = 0}^{i - 2} \gamma_{i j} b_{j} (z)
 $$
 
 for constants  $\alpha_{i},\beta_{i}$  , and  $\gamma_{ij}$
@@ -14140,17 +13905,17 @@ for constants  $\alpha_{i},\beta_{i}$  , and  $\gamma_{ij}$
 Multiplying both sides by  $b_{i}$  and  $p$  and then integrating yields:
 
 $$
-\int_ {\mathcal {Z}} (b _ {i + 1} (z) - z b _ {i} (z)) b _ {i} (z) p (z) d z = \int_ {\mathcal {Z}} \left(- \alpha_ {i} b _ {i} (z) - \beta_ {i} b _ {i - 1} (z) + \sum_ {j = 0} ^ {i - 2} \gamma_ {i j} b _ {j} (z)\right) b _ {i} (z) p (z) d z
+\int_{\mathcal {Z}} (b_{i + 1} (z) - z b_{i} (z)) b_{i} (z) p (z) d z = \int_{\mathcal {Z}} \left(- \alpha_{i} b_{i} (z) - \beta_{i} b_{i - 1} (z) + \sum_{j = 0}^{i - 2} \gamma_{i j} b_{j} (z)\right) b_{i} (z) p (z) d z
 $$
 
 $$
-\begin{array}{l} \int_ {\mathcal {Z}} b _ {i + 1} (z) b _ {i} (z) p (z) d z - \int_ {\mathcal {Z}} z b _ {i} (z) b _ {i} (z) p (z) d z = - \int_ {\mathcal {Z}} \alpha_ {i} b _ {i} (z) b _ {i} (z) p (z) d z - \\ - \int_ {\mathcal {Z}} \beta_ {i} b _ {i - 1} (z) b _ {i} (z) p (z) d z + \\ + \sum_ {j = 0} ^ {i - 2} \int_ {\mathcal {Z}} \gamma_ {i j} b _ {j} (z) b _ {i} (z) p (z) d z \\ - \int_ {\mathcal {Z}} z b _ {i} ^ {2} (z) p (z) d z = - \alpha_ {i} \int_ {\mathcal {Z}} b _ {i} ^ {2} (z) p (z) d z \\ \end{array}
+\begin{array}{l} \int_{\mathcal {Z}} b_{i + 1} (z) b_{i} (z) p (z) d z - \int_{\mathcal {Z}} z b_{i} (z) b_{i} (z) p (z) d z = - \int_{\mathcal {Z}} \alpha_{i} b_{i} (z) b_{i} (z) p (z) d z - \\ - \int_{\mathcal {Z}} \beta_{i} b_{i - 1} (z) b_{i} (z) p (z) d z + \\ + \sum_{j = 0}^{i - 2} \int_{\mathcal {Z}} \gamma_{i j} b_{j} (z) b_{i} (z) p (z) d z \\ - \int_{\mathcal {Z}} z b_{i}^{2} (z) p (z) d z = - \alpha_{i} \int_{\mathcal {Z}} b_{i}^{2} (z) p (z) d z \\ \end{array}
 $$
 
 producing our expression for  $\alpha_{i}$ :
 
 $$
-\alpha_ {i} = \frac {\int_ {\mathcal {Z}} z b _ {i} ^ {2} (z) p (z) d z}{\int_ {\mathcal {Z}} b _ {i} ^ {2} (z) p (z) d z}
+\alpha_{i} = \frac{\int_{\mathcal {Z}} z b_{i}^{2} (z) p (z) d z}{\int_{\mathcal {Z}} b_{i}^{2} (z) p (z) d z}
 $$
 
 The expression for  $\beta_{i}$  with  $i\geq 1$  is obtained instead by multiplying both sides by  $b_{i - 1}$  and  $p$  and then integrating.
@@ -14158,13 +13923,13 @@ The expression for  $\beta_{i}$  with  $i\geq 1$  is obtained instead by multipl
 Multiplying both sides by  $b_{k}$ , with  $k < i - 1$ , similarly produces:
 
 $$
-- \int_ {\mathcal {Z}} z b _ {i} (z) b _ {k} (z) p (z) d z = \gamma_ {i k} \int_ {\mathcal {Z}} b _ {k} ^ {2} (z) p (z) d z
+- \int_{\mathcal {Z}} z b_{i} (z) b_{k} (z) p (z) d z = \gamma_{i k} \int_{\mathcal {Z}} b_{k}^{2} (z) p (z) d z
 $$
 
 The shift property can be applied to yield:
 
 $$
-\int_ {\mathcal {Z}} z b _ {i} (z) b _ {k} (z) p (z) d z = \int_ {\mathcal {Z}} b _ {i} (z) \left(z b _ {k} (z)\right) p (z) d z = 0
+\int_{\mathcal {Z}} z b_{i} (z) b_{k} (z) p (z) d z = \int_{\mathcal {Z}} b_{i} (z) \left(z b_{k} (z)\right) p (z) d z = 0
 $$
 
 as  $z b_{k}(z)$  is a polynomial of at most order  $i - 1$ , and, by orthogonality, the integral is zero. It follows that all  $\gamma_{ik}$  are zero, and the three term recurrence relation is established.
@@ -14174,25 +13939,25 @@ Exercise 21.4. Suppose we have fitted a polynomial chaos model of an objective f
 Solution: We can derive a gradient approximation using the partial derivative of  $f$  with respect to a design component  $x_{i}$ :
 
 $$
-\frac {\partial}{\partial x _ {i}} f (\mathbf {x}, \mathbf {z}) \approx b _ {1} (\mathbf {z}) \frac {\partial}{\partial x _ {i}} \theta_ {1} (\mathbf {x}) + \dots + b _ {k} (\mathbf {z}) \frac {\partial}{\partial x _ {i}} \theta_ {k} (\mathbf {x})
+\frac{\partial}{\partial x_{i}} f (\mathbf {x}, \mathbf {z}) \approx b_{1} (\mathbf {z}) \frac{\partial}{\partial x_{i}} \theta_{1} (\mathbf {x}) + \dots + b_{k} (\mathbf {z}) \frac{\partial}{\partial x_{i}} \theta_{k} (\mathbf {x})
 $$
 
 If we have  $m$  samples, we can write these partial derivatives in matrix form:
 
 $$
-\left[ \begin{array}{c} \frac {\partial}{\partial x _ {i}} f (\mathbf {x}, \mathbf {z} ^ {(1)}) \\ \vdots \\ \frac {\partial}{\partial x _ {i}} f (\mathbf {x}, \mathbf {z} ^ {(m)}) \end{array} \right] \approx \left[ \begin{array}{c c c} b _ {1} (\mathbf {z} ^ {(1)}) & \dots & b _ {k} (\mathbf {z} ^ {(1)}) \\ \vdots & \ddots & \vdots \\ b _ {1} (\mathbf {z} ^ {(m)}) & \dots & b _ {k} (\mathbf {z} ^ {(m)}) \end{array} \right] \left[ \begin{array}{c} \frac {\partial}{\partial x _ {i}} \theta_ {1} (\mathbf {x}) \\ \vdots \\ \frac {\partial}{\partial x _ {i}} \theta_ {k} (\mathbf {x}) \end{array} \right]
+\left[ \begin{array}{c} \frac{\partial}{\partial x_{i}} f (\mathbf {x}, \mathbf {z}^{(1)}) \\ \vdots \\ \frac{\partial}{\partial x_{i}} f (\mathbf {x}, \mathbf {z}^{(m)}) \end{array} \right] \approx \left[ \begin{array}{c c c} b_{1} (\mathbf {z}^{(1)}) & \dots & b_{k} (\mathbf {z}^{(1)}) \\ \vdots & \ddots & \vdots \\ b_{1} (\mathbf {z}^{(m)}) & \dots & b_{k} (\mathbf {z}^{(m)}) \end{array} \right] \left[ \begin{array}{c} \frac{\partial}{\partial x_{i}} \theta_{1} (\mathbf {x}) \\ \vdots \\ \frac{\partial}{\partial x_{i}} \theta_{k} (\mathbf {x}) \end{array} \right]
 $$
 
 We can solve for approximations of  $\frac{\partial}{\partial x_i}\theta_1(\mathbf{x}),\ldots ,\frac{\partial}{\partial x_i}\theta_k(\mathbf{x})$  using the pseudoinverse:
 
 $$
-\left[ \begin{array}{c} \frac {\partial}{\partial x _ {i}} \theta_ {1} (\mathbf {x}) \\ \vdots \\ \frac {\partial}{\partial x _ {i}} \theta_ {k} (\mathbf {x}) \end{array} \right] \approx \left[ \begin{array}{c c c} b _ {1} (\mathbf {z} ^ {(1)}) & \dots & b _ {k} (\mathbf {z} ^ {(1)}) \\ \vdots & \ddots & \vdots \\ b _ {1} (\mathbf {z} ^ {(m)}) & \dots & b _ {k} (\mathbf {z} ^ {(m)}) \end{array} \right] ^ {+} \left[ \begin{array}{c} \frac {\partial}{\partial x _ {i}} f (\mathbf {x}, \mathbf {z} ^ {(1)}) \\ \vdots \\ \frac {\partial}{\partial x _ {i}} f (\mathbf {x}, \mathbf {z} ^ {(m)}) \end{array} \right]
+\left[ \begin{array}{c} \frac{\partial}{\partial x_{i}} \theta_{1} (\mathbf {x}) \\ \vdots \\ \frac{\partial}{\partial x_{i}} \theta_{k} (\mathbf {x}) \end{array} \right] \approx \left[ \begin{array}{c c c} b_{1} (\mathbf {z}^{(1)}) & \dots & b_{k} (\mathbf {z}^{(1)}) \\ \vdots & \ddots & \vdots \\ b_{1} (\mathbf {z}^{(m)}) & \dots & b_{k} (\mathbf {z}^{(m)}) \end{array} \right] ^{+} \left[ \begin{array}{c} \frac{\partial}{\partial x_{i}} f (\mathbf {x}, \mathbf {z}^{(1)}) \\ \vdots \\ \frac{\partial}{\partial x_{i}} f (\mathbf {x}, \mathbf {z}^{(m)}) \end{array} \right]
 $$
 
 Exercise 21.5. Consider an objective function  $f(\mathbf{x}, \mathbf{z})$  with design variables  $\mathbf{x}$  and random variables  $\mathbf{z}$ . As discussed in chapter 20, optimization under uncertainty often involves minimizing a linear combination of the estimated mean and variance:
 
 $$
-f _ {\mathrm {m o d}} (\mathbf {x}, \mathbf {z}) = \alpha \hat {\mu} (\mathbf {x}) + (1 - \alpha) \hat {v} (\mathbf {x})
+f_{\mathrm{mo d}} (\mathbf {x}, \mathbf {z}) = \alpha \hat {\mu} (\mathbf {x}) + (1 - \alpha) \hat {v} (\mathbf {x})
 $$
 
 How can one use polynomial chaos to estimate the gradient of  $f_{\mathrm{mod}}$  with respect to a design variable  $\mathbf{x}$ ?
@@ -14200,13 +13965,13 @@ How can one use polynomial chaos to estimate the gradient of  $f_{\mathrm{mod}}$
 Solution: The estimated mean and variance have coefficients which depend on the design variables:
 
 $$
-\begin{array}{l} \hat {\mu} (\mathbf {x}) = \theta_ {1} (\mathbf {x}) \\ \hat {v} (\mathbf {x}) = \sum_ {i = 2} ^ {k} \theta_ {i} ^ {2} (\mathbf {x}) \int_ {\mathcal {Z}} b _ {i} (\mathbf {z}) ^ {2} p (\mathbf {z}) d \mathbf {z} \\ \end{array}
+\begin{array}{l} \hat {\mu} (\mathbf {x}) = \theta_{1} (\mathbf {x}) \\ \hat {v} (\mathbf {x}) = \sum_{i = 2}^{k} \theta_{i}^{2} (\mathbf {x}) \int_{\mathcal {Z}} b_{i} (\mathbf {z}) ^{2} p (\mathbf {z}) d \mathbf {z} \\ \end{array}
 $$
 
 The partial derivative of  $f_{\mathrm{mod}}$  with respect to the  $i$ th design component is
 
 $$
-\frac {\partial}{\partial x _ {i}} f _ {\mathrm {m o d}} (\mathbf {x}) = \alpha \frac {\partial \theta_ {1} (\mathbf {x})}{\partial x _ {i}} + 2 (1 - \alpha) \sum_ {i = 2} ^ {k} \theta_ {i} (\mathbf {x}) \frac {\partial \theta_ {i} (\mathbf {x})}{x _ {i}} \int_ {\mathcal {Z}} b _ {i} (\mathbf {z}) ^ {2} p (\mathbf {z}) d \mathbf {z}
+\frac{\partial}{\partial x_{i}} f_{\mathrm{mo d}} (\mathbf {x}) = \alpha \frac{\partial \theta_{1} (\mathbf {x})}{\partial x_{i}} + 2 (1 - \alpha) \sum_{i = 2}^{k} \theta_{i} (\mathbf {x}) \frac{\partial \theta_{i} (\mathbf {x})}{x_{i}} \int_{\mathcal {Z}} b_{i} (\mathbf {z}) ^{2} p (\mathbf {z}) d \mathbf {z}
 $$
 
 This computation requires the gradient of the coefficients with respect to  $\mathbf{x}$ , which is estimated in exercise 21.4.
@@ -14218,15 +13983,15 @@ Previous chapters have focused on optimizing problems involving design variables
 Discrete optimization constrains the design to be integral. Consider the problem:
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad x _ {1} + x _ {2}
+\underset{x} {\text{minimize}} \quad x_{1} + x_{2}
 $$
 
 $$
-\text {s u b j e c t} \quad \| \mathbf {x} \| \leq 2
+\text{subject} \quad \| \mathbf {x} \| \leq 2
 $$
 
 $$
-\mathbf {x} \mathrm {i s i n t e g r a l}
+\mathbf {x} \mathrm{is in te gr al}
 $$
 
 The optimum in the continuous case is  $\mathbf{x}^{*} = [-\sqrt{2}, -\sqrt{2}]$  with a value of  $y = -2\sqrt{2} \approx -2.828$ . If  $x_{1}$  and  $x_{2}$  are constrained to be integer-valued, then the best we can do is to have  $y = -2$  with  $\mathbf{x}^{*} \in \{[-2,0], [-1, -1], [0, -2]\}$ .
@@ -14244,11 +14009,11 @@ An integer program is a linear program $^2$  with integral constraints. By integ
 An integer program in standard form is expressed as:
 
 $$
-\underset {x} {\text {m i n i m i z e}} \quad \mathbf {c} ^ {\top} x
+\underset{x} {\text{minimize}} \quad \mathbf {c}^{\top} x
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {A x} \leq \mathbf {b} \tag {22.1}
+\text{subject} \quad \mathbf {A x} \leq \mathbf {b} \tag {22.1}
 $$
 
 $$
@@ -14256,7 +14021,7 @@ x \geq 0
 $$
 
 $$
-\mathbf {x} \in \mathbb {Z} ^ {n}
+\mathbf {x} \in \mathbb {Z}^{n}
 $$
 
 where  $\mathbb{Z}^n$  is the set of  $n$ -dimensional integral vectors. As with linear programs,  $\mathbf{c} \in \mathbb{R}^n$ ,  $\mathbf{A} \in \mathbb{R}^{m \times n}$ , and  $\mathbf{b} \in \mathbb{R}^m$ .
@@ -14264,11 +14029,11 @@ where  $\mathbb{Z}^n$  is the set of  $n$ -dimensional integral vectors. As with
 Like linear programs, integer programs are often solved in equality form. Transforming an integer program to equality form often requires adding additional slack variables  $\mathbf{s}$  that do not need to be integral. Thus, the equality form for integral programs is:
 
 $$
-\underset {\mathbf {x}, \mathbf {s}} {\text {m i n i m i z e}} \quad \mathbf {c} ^ {\top} \mathbf {x}
+\underset{\mathbf {x}, \mathbf {s}} {\text{minimize}} \quad \mathbf {c}^{\top} \mathbf {x}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {A x} + \mathbf {s} = \mathbf {b}
+\text{subject} \quad \mathbf {A x} + \mathbf {s} = \mathbf {b}
 $$
 
 $$
@@ -14280,17 +14045,17 @@ s \geq 0
 $$
 
 $$
-\mathbf {x} \in \mathbb {Z} ^ {n}
+\mathbf {x} \in \mathbb {Z}^{n}
 $$
 
 More generally, a mixed integer program (algorithm 22.1) includes both continuous and discrete design components. Such a problem, in equality form, is expressed as:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad \mathbf {c} ^ {\top} \mathbf {x}
+\underset{\mathbf {x}} {\text{minimize}} \quad \mathbf {c}^{\top} \mathbf {x}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {A x} = \mathbf {b} \tag {22.3}
+\text{subject} \quad \mathbf {A x} = \mathbf {b} \tag {22.3}
 $$
 
 $$
@@ -14298,7 +14063,7 @@ x \geq 0
 $$
 
 $$
-\mathbf {x} _ {\mathcal {D}} \in \mathbb {Z} ^ {| \mathcal {D} |}
+\mathbf {x}_{\mathcal {D}} \in \mathbb {Z}^{| \mathcal {D} |}
 $$
 
 where  $\mathcal{D}$  is a set of indices corresponding to the design variables that are constrained to be discrete. Here,  $\mathbf{x} = [\mathbf{x}_{\mathcal{D}}, \mathbf{x}_{\mathcal{C}}]$ , where  $\mathbf{x}_{\mathcal{D}}$  represents the vector of discrete design variables and  $\mathbf{x}_{\mathcal{C}}$  the vector of continuous design variables.
@@ -14386,7 +14151,7 @@ Each iteration of algorithm 22.4 introduces cutting planes that make nonintegral
 We wish to add constraints that cut out nonintegral components of  $\mathbf{x}_c^*$ . For an LP in equality form with constraint  $\mathbf{A}\mathbf{x} = \mathbf{b}$ , recall from section 12.2.1 that we can partition a vertex solution  $\mathbf{x}_c^*$  to arrive at
 
 $$
-\mathbf {A} _ {\mathcal {B}} \mathbf {x} _ {\mathcal {B}} ^ {*} + \mathbf {A} _ {\mathcal {V}} \mathbf {x} _ {\mathcal {V}} ^ {*} = \mathbf {b} \tag {22.4}
+\mathbf {A}_{\mathcal {B}} \mathbf {x}_{\mathcal {B}}^{*} + \mathbf {A}_{\mathcal {V}} \mathbf {x}_{\mathcal {V}}^{*} = \mathbf {b} \tag {22.4}
 $$
 
 where  $\mathbf{x}_{\mathcal{V}}^{*} = \mathbf{0}$ . The nonintegral components of  $\mathbf{x}_c^*$  will thus occur only in  $\mathbf{x}_{\mathcal{B}}^{*}$ .
@@ -14432,13 +14197,13 @@ Algorithm 22.4. The cutting plane method solves a given mixed integer program MI
 We will now create a constraint for design index  $b \in \mathcal{B} \cap \mathcal{D}$  where  $x_{c}^{*}$  is nonintegral. Equation (22.4) holds for any feasible  $\mathbf{x}$ . Multiplying by  $\mathbf{A}_{\mathcal{B}}^{-1}$  produces:
 
 $$
-\mathbf {x} _ {\mathcal {B}} + \mathbf {A} _ {\mathcal {B}} ^ {- 1} \mathbf {A} _ {\mathcal {V}} \mathbf {x} _ {\mathcal {V}} = \mathbf {A} _ {\mathcal {B}} ^ {- 1} \mathbf {b} \tag {22.5}
+\mathbf {x}_{\mathcal {B}} + \mathbf {A}_{\mathcal {B}}^{- 1} \mathbf {A}_{\mathcal {V}} \mathbf {x}_{\mathcal {V}} = \mathbf {A}_{\mathcal {B}}^{- 1} \mathbf {b} \tag {22.5}
 $$
 
 or equivalently
 
 $$
-\mathbf {x} _ {\mathcal {B}} + \bar {\mathbf {A}} \mathbf {x} _ {\mathcal {V}} = \bar {\mathbf {b}} \tag {22.6}
+\mathbf {x}_{\mathcal {B}} + \bar {\mathbf {A}} \mathbf {x}_{\mathcal {V}} = \bar {\mathbf {b}} \tag {22.6}
 $$
 
 where  $\bar{\mathbf{A}} = \mathbf{A}_{\mathcal{B}}^{-1}\mathbf{A}_{\mathcal{V}}$  and  $\bar{\mathbf{b}} = \mathbf{A}_{\mathcal{B}}^{-1}\mathbf{b}$
@@ -14446,19 +14211,19 @@ where  $\bar{\mathbf{A}} = \mathbf{A}_{\mathcal{B}}^{-1}\mathbf{A}_{\mathcal{V}}
 We can expand equation (22.6) for component  $b$  into its integral and fractional parts:
 
 $$
-x _ {b} + \sum_ {v \in \mathcal {V}} \left(\bar {A} _ {b v} + \left\lfloor \bar {A} _ {b v} \right\rfloor - \left\lfloor \bar {A} _ {b v} \right\rfloor\right) x _ {v} = \bar {b} _ {b} + \left\lfloor \bar {b} _ {b} \right\rfloor - \left\lfloor \bar {b} _ {b} \right\rfloor \tag {22.7}
+x_{b} + \sum_{v \in \mathcal {V}} \left(\bar {A}_{b v} + \left\lfloor \bar {A}_{b v} \right\rfloor - \left\lfloor \bar {A}_{b v} \right\rfloor\right) x_{v} = \bar {b}_{b} + \left\lfloor \bar {b}_{b} \right\rfloor - \left\lfloor \bar {b}_{b} \right\rfloor \tag {22.7}
 $$
 
 and we move all integers to the left-hand side:9
 
 $$
-x _ {b} - \underbrace {\left\lfloor \bar {b} _ {b} \right\rfloor} _ {\text {i n t e g e r}} + \sum_ {v \in \mathcal {V}} \underbrace {\left(\left\lfloor \bar {A} _ {b v} \right\rfloor\right)} _ {\text {i n t e g e r}} x _ {v} = \underbrace {\bar {b} _ {b} - \left\lfloor \bar {b} _ {b} \right\rfloor} _ {\text {f r a c t i o n}} - \sum_ {v \in \mathcal {V}} \underbrace {\left(\bar {A} _ {b v} - \left\lfloor \bar {A} _ {b v} \right\rfloor\right)} _ {\text {f r a c t i o n}} x _ {v} \tag {22.8}
+x_{b} - \underbrace{\left\lfloor \bar {b}_{b} \right\rfloor}_{\text{integer}} + \sum_{v \in \mathcal {V}} \underbrace{\left(\left\lfloor \bar {A}_{b v} \right\rfloor\right)}_{\text{integer}} x_{v} = \underbrace{\bar {b}_{b} - \left\lfloor \bar {b}_{b} \right\rfloor}_{\text{fraction}} - \sum_{v \in \mathcal {V}} \underbrace{\left(\bar {A}_{b v} - \left\lfloor \bar {A}_{b v} \right\rfloor\right)}_{\text{fraction}} x_{v} \tag {22.8}
 $$
 
 The right side contains the fractional terms. It must be less than 1, since  $0 \leq \bar{b}_b - \left\lfloor \bar{b}_b \right\rfloor < 1$  and the remaining term is negative. The left side forces the right to be an integer, so:
 
 $$
-\bar {b} _ {b} - \left\lfloor \bar {b} _ {b} \right\rfloor - \sum_ {v \in \mathcal {V}} \left(\bar {A} _ {b v} - \left\lfloor \bar {A} _ {b v} \right\rfloor\right) x _ {v} \leq 0 \tag {22.9}
+\bar {b}_{b} - \left\lfloor \bar {b}_{b} \right\rfloor - \sum_{v \in \mathcal {V}} \left(\bar {A}_{b v} - \left\lfloor \bar {A}_{b v} \right\rfloor\right) x_{v} \leq 0 \tag {22.9}
 $$
 
 will hold for all integers in the feasible set and will not hold for  $\mathbf{x}_c^*$ .
@@ -14466,13 +14231,13 @@ will hold for all integers in the feasible set and will not hold for  $\mathbf{x
 We can introduce this new cutting plane constraint to cut out our relaxed solution while preserving the feasibility of integer solutions in the feasible set. The constraint is written in equality form using a new integral slack variable  $x_{k}$ :
 
 $$
-x _ {k} + \sum_ {v \in \mathcal {V}} \left(\left\lfloor \bar {A} _ {b v} \right\rfloor - \bar {A} _ {b v}\right) x _ {v} = \left\lfloor \bar {b} _ {b} \right\rfloor - \bar {b} _ {b} \tag {22.10}
+x_{k} + \sum_{v \in \mathcal {V}} \left(\left\lfloor \bar {A}_{b v} \right\rfloor - \bar {A}_{b v}\right) x_{v} = \left\lfloor \bar {b}_{b} \right\rfloor - \bar {b}_{b} \tag {22.10}
 $$
 
 Using equation (22.5) with  $\mathbf{x}_{\mathcal{V}}^{*} = \mathbf{0}$ , we can replace  $\bar{b}_b$  with  $x_b^*$  to get
 
 $$
-x _ {k} + \sum_ {v \in \mathcal {V}} \left(\left\lfloor \bar {A} _ {b v} \right\rfloor - \bar {A} _ {b v}\right) x _ {v} = \left\lfloor x _ {b} ^ {*} \right\rfloor - x _ {b} ^ {*} \tag {22.11}
+x_{k} + \sum_{v \in \mathcal {V}} \left(\left\lfloor \bar {A}_{b v} \right\rfloor - \bar {A}_{b v}\right) x_{v} = \left\lfloor x_{b}^{*} \right\rfloor - x_{b}^{*} \tag {22.11}
 $$
 
 Each iteration of algorithm 22.4 thus increases the number of constraints and the number of variables until solving the LP produces an integral solution. Only the components corresponding to the original design variables are returned.
@@ -14486,41 +14251,41 @@ Note that  $\lfloor x\rfloor$  , or floor of  $x$  ,rounds  $x$  down to the nea
 Consider the integer program:
 
 $$
-\begin{array}{l} \underset {\mathbf {x}} {\text {m i n i m i z e}} 2 x _ {1} + x _ {2} + 3 x _ {3} \\ \text {s u b j e c t} \quad \left[ \begin{array}{c c c} 0. 5 & - 0. 5 & 1. 0 \\ 2. 0 & 0. 5 & - 1. 5 \end{array} \right] \mathbf {x} = \left[ \begin{array}{c} 2. 5 \\ - 1. 5 \end{array} \right] \\ \mathbf {x} \geq \mathbf {0} \quad \mathbf {x} \in \mathbb {Z} ^ {3} \\ \end{array}
+\begin{array}{l} \underset{\mathbf {x}} {\text{minimize}} 2 x_{1} + x_{2} + 3 x_{3} \\ \text{subject} \quad \left[ \begin{array}{c c c} 0. 5 & - 0. 5 & 1. 0 \\ 2. 0 & 0. 5 & - 1. 5 \end{array} \right] \mathbf {x} = \left[ \begin{array}{c} 2. 5 \\ - 1. 5 \end{array} \right] \\ \mathbf {x} \geq \mathbf {0} \quad \mathbf {x} \in \mathbb {Z}^{3} \\ \end{array}
 $$
 
 The relaxed solution is  $\mathbf{x}^{*}\approx [0.818,0,2.091]$ , yielding:
 
 $$
-\mathbf {A} _ {\mathcal {B}} = \left[ \begin{array}{c c} 0. 5 & 1 \\ 2 & - 1. 5 \end{array} \right] \quad \mathbf {A} _ {\mathcal {V}} = \left[ \begin{array}{c} - 0. 5 \\ 0. 5 \end{array} \right] \quad \bar {\mathbf {A}} = \left[ \begin{array}{c} - 0. 0 9 1 \\ - 0. 4 5 5 \end{array} \right] \quad \bar {\mathbf {b}} = \left[ \begin{array}{c} 0. 8 1 8 \\ 2. 0 9 1 \end{array} \right]
+\mathbf {A}_{\mathcal {B}} = \left[ \begin{array}{c c} 0. 5 & 1 \\ 2 & - 1. 5 \end{array} \right] \quad \mathbf {A}_{\mathcal {V}} = \left[ \begin{array}{c} - 0. 5 \\ 0. 5 \end{array} \right] \quad \bar {\mathbf {A}} = \left[ \begin{array}{c} - 0. 09 1 \\ - 0. 45 5 \end{array} \right] \quad \bar {\mathbf {b}} = \left[ \begin{array}{c} 0. 81 8 \\ 2. 09 1 \end{array} \right]
 $$
 
 From equation (22.11), the constraint for  $x_{1}$  with slack variable  $x_{4}$  is:
 
 $$
-\begin{array}{l} x _ {4} + (\lfloor - 0. 0 9 1 \rfloor - (- 0. 0 9 1)) x _ {2} = \lfloor 0. 8 1 8 \rfloor - 0. 8 1 8 \\ x _ {4} - 0. 9 0 9 x _ {2} = - 0. 8 1 8 \\ \end{array}
+\begin{array}{l} x_{4} + (\lfloor - 0. 09 1 \rfloor - (- 0. 09 1)) x_{2} = \lfloor 0. 81 8 \rfloor - 0. 81 8 \\ x_{4} - 0. 90 9 x_{2} = - 0. 81 8 \\ \end{array}
 $$
 
 The constraint for  $x_{3}$  with slack variable  $x_{5}$  is:
 
 $$
-\begin{array}{l} x _ {5} + (\lfloor - 0. 4 5 5 \rfloor - (- 0. 4 5 5)) x _ {2} = \lfloor 2. 0 9 1 \rfloor - 2. 0 9 1 \\ x _ {5} - 0. 5 4 5 x _ {2} = - 0. 0 9 1 \\ \end{array}
+\begin{array}{l} x_{5} + (\lfloor - 0. 45 5 \rfloor - (- 0. 45 5)) x_{2} = \lfloor 2. 09 1 \rfloor - 2. 09 1 \\ x_{5} - 0. 54 5 x_{2} = - 0. 09 1 \\ \end{array}
 $$
 
 The modified integer program has:
 
 $$
-\mathbf {A} = \left[ \begin{array}{c c c c c} 0. 5 & - 0. 5 & 1 & 0 & 0 \\ 2 & 0. 5 & - 1. 5 & 0 & 0 \\ 0 & - 0. 9 0 9 & 0 & 1 & 0 \\ 0 & - 0. 5 4 5 & 0 & 0 & 1 \end{array} \right] \quad \mathbf {b} = \left[ \begin{array}{c} 2. 5 \\ - 1. 5 \\ - 0. 8 1 8 \\ - 0. 0 9 1 \end{array} \right] \quad \mathbf {c} = \left[ \begin{array}{c} 2 \\ 1 \\ 3 \\ 0 \\ 0 \end{array} \right]
+\mathbf {A} = \left[ \begin{array}{c c c c c} 0. 5 & - 0. 5 & 1 & 0 & 0 \\ 2 & 0. 5 & - 1. 5 & 0 & 0 \\ 0 & - 0. 90 9 & 0 & 1 & 0 \\ 0 & - 0. 54 5 & 0 & 0 & 1 \end{array} \right] \quad \mathbf {b} = \left[ \begin{array}{c} 2. 5 \\ - 1. 5 \\ - 0. 81 8 \\ - 0. 09 1 \end{array} \right] \quad \mathbf {c} = \left[ \begin{array}{c} 2 \\ 1 \\ 3 \\ 0 \\ 0 \end{array} \right]
 $$
 
 Solving the modified LP, we get  $\mathbf{x}^{*} \approx [0.9, 0.9, 2.5, 0.0, 0.4]$ . Since this point is not integral, we repeat the procedure with constraints:
 
 $$
-x _ {6} - 0. 9 x _ {4} = - 0. 9 \quad x _ {7} - 0. 9 x _ {4} = - 0. 9
+x_{6} - 0. 9 x_{4} = - 0. 9 \quad x_{7} - 0. 9 x_{4} = - 0. 9
 $$
 
 $$
-x _ {8} - 0. 5 x _ {4} = - 0. 5 \quad x _ {9} - 0. 4 x _ {4} = - 0. 4
+x_{8} - 0. 5 x_{4} = - 0. 5 \quad x_{9} - 0. 4 x_{4} = - 0. 4
 $$
 
 and solve a third LP to obtain:  $\mathbf{x}^{*} = [1,2,3,1,1,0,0,0,0]$  with a final solution of  $\mathbf{x}_i^* = [1,2,3]$ .
@@ -14538,7 +14303,7 @@ The algorithm begins with a priority queue containing a single LP relaxation of 
 If the dequeued solution has one or more components in  $\mathcal{D}$  that are nonintegral, we choose from  $\mathbf{x}_c^*$  a component that is farthest from an integer value. Suppose this component corresponds to the  $i$ th design variable. We branch by considering two new LPs, each one created by adding one of the following constraints to the dequeued LP: $^{13}$
 
 $$
-x _ {i} \leq \left\lfloor x _ {i, c} ^ {*} \right\rfloor \quad \text {o r} \quad x _ {i} \geq \left\lceil x _ {i, c} ^ {*} \right\rceil \tag {22.12}
+x_{i} \leq \left\lfloor x_{i, c}^{*} \right\rfloor \quad \text{or} \quad x_{i} \geq \left\lceil x_{i, c}^{*} \right\rceil \tag {22.12}
 $$
 
 as shown in figure 22.4. Example 22.4 demonstrates this process.
@@ -14569,7 +14334,7 @@ Algorithm 22.5. The branch and bound algorithm for solving a mixed integer progr
 Consider a relaxed solution  $\mathbf{x}_c^* = [3,2.4,1.2,5.8]$  for an integer program with  $\mathbf{c} = [-1, - 2, - 3, - 4]$ . The lower bound is
 
 $$
-y \geq \mathbf {c} ^ {\top} \mathbf {x} _ {c} ^ {*} = - 3 4. 6
+y \geq \mathbf {c}^{\top} \mathbf {x}_{c}^{*} = - 34. 6
 $$
 
 We branch on a nonintegral coordinate of  $\mathbf{x}_c^*$ , typically the one farthest from an integer value. In this case, we choose the first nonintegral coordinate,  $x_{2,c}^*$ , which is 0.4 from the nearest integer value. We then consider two new LPs, one with  $x_2\leq 2$  as an additional constraint and the other with  $x_{2}\geq 3$  as an additional constraint.
@@ -14583,19 +14348,19 @@ and we return the best feasible integral solution. Example 22.5 shows how branch
 We can use branch and bound to solve the integer program in example 22.3. As before, the relaxed solution is  $\mathbf{x}_c^* = [0.818, 0, 2.09]$ , with a value of 7.909. We branch on the first component, resulting in two integer programs, one with  $x_1 \leq 0$  and one with  $x_1 \geq 1$ :
 
 $$
-\mathbf {A} _ {\text {l e f t}} = \left[ \begin{array}{c c c c} 0. 5 & - 0. 5 & 1 & 0 \\ 2 & 0. 5 & - 1. 5 & 0 \\ 1 & 0 & 0 & 1 \end{array} \right]
+\mathbf {A}_{\text{left}} = \left[ \begin{array}{c c c c} 0. 5 & - 0. 5 & 1 & 0 \\ 2 & 0. 5 & - 1. 5 & 0 \\ 1 & 0 & 0 & 1 \end{array} \right]
 $$
 
 $$
-\mathbf {b} _ {\text {l e f t}} = \left[ \begin{array}{c} 2. 5 \\ - 1. 5 \\ 0 \end{array} \right] \qquad \mathbf {c} _ {\text {l e f t}} = \left[ \begin{array}{c} 2 \\ 1 \\ 3 \\ 0 \end{array} \right]
+\mathbf {b}_{\text{left}} = \left[ \begin{array}{c} 2. 5 \\ - 1. 5 \\ 0 \end{array} \right] \qquad \mathbf {c}_{\text{left}} = \left[ \begin{array}{c} 2 \\ 1 \\ 3 \\ 0 \end{array} \right]
 $$
 
 $$
-\mathbf {A} _ {\text {r i g h t}} = \left[ \begin{array}{c c c c} 0. 5 & - 0. 5 & 1 & 0 \\ 2 & 0. 5 & - 1. 5 & 0 \\ 1 & 0 & 0 & - 1 \end{array} \right]
+\mathbf {A}_{\text{right}} = \left[ \begin{array}{c c c c} 0. 5 & - 0. 5 & 1 & 0 \\ 2 & 0. 5 & - 1. 5 & 0 \\ 1 & 0 & 0 & - 1 \end{array} \right]
 $$
 
 $$
-\mathbf {b} _ {\text {r i g h t}} = \left[ \begin{array}{c} 2. 5 \\ - 1. 5 \\ 1 \end{array} \right] \qquad \mathbf {c} _ {\text {r i g h t}} = \left[ \begin{array}{c} 2 \\ 1 \\ 3 \\ 0 \end{array} \right]
+\mathbf {b}_{\text{right}} = \left[ \begin{array}{c} 2. 5 \\ - 1. 5 \\ 1 \end{array} \right] \qquad \mathbf {c}_{\text{right}} = \left[ \begin{array}{c} 2 \\ 1 \\ 3 \\ 0 \end{array} \right]
 $$
 
 The left LP with  $x_{1} \leq 0$  is infeasible. The right LP with  $x_{1} \geq 1$  has a relaxed solution,  $\mathbf{x}_c^* = [1,2,3,0]$ , and a value of 13. We have thus obtained our integral solution,  $\mathbf{x}_i^* = [1,2,3]$ .
@@ -14648,15 +14413,15 @@ The knapsack problem is a well-known combinatorial optimization problem that oft
 $v_{i}$ . The design vector  $\mathbf{x}$  consists of binary values that indicate whether an item is packed. The total weight cannot exceed our integral capacity  $w_{\mathrm{max}}$ , and we seek to maximize the total value of packed items. Hence, we have the following optimization problem:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} - \sum_ {i = 1} ^ {n} v _ {i} x _ {i}
+\underset{\mathbf {x}} {\text{minimize}} - \sum_{i = 1}^{n} v_{i} x_{i}
 $$
 
 $$
-\text {s u b j e c t} \quad \sum_ {i = 1} ^ {n} w _ {i} x _ {i} \leq w _ {\max } \tag {22.13}
+\text{subject} \quad \sum_{i = 1}^{n} w_{i} x_{i} \leq w_{\max } \tag {22.13}
 $$
 
 $$
-x _ {i} \in \{0, 1 \} \text {f o r} i \text {i n} 1: n
+x_{i} \in \{0, 1 \} \text{for} i \text{in} 1: n
 $$
 
 There are  $2^{n}$  possible design vectors, which makes direct enumeration for large  $n$  intractable. However, we can use dynamic programming. The 0-1 knapsack problem has optimal substructure and overlapping subproblems. Suppose we have already solved the knapsack problems involving the first  $i - 1$  items and all capacities up to  $w_{\mathrm{max}}$ . Now consider a larger problem with one additional item, item  $i$  with weight  $w_{i}$  and value  $v_{i}$ . The optimal solution will either include or exclude the new item.
@@ -14667,7 +14432,7 @@ There are  $2^{n}$  possible design vectors, which makes direct enumeration for 
 We can define a recurrence relation knapsack  $(i, w_{\max})$  that returns the sum of the values of the items in an optimally packed knapsack when considering the first  $i$  items with a remaining capacity of  $w_{\max}$ . This recurrence relation can be written as follows:
 
 $$
-\operatorname {k n a p s a c k} (i, w _ {\max }) = \left\{ \begin{array}{l l} 0 & \text {i f} i = 0 \\ \operatorname {k n a p s a c k} (i - 1, w _ {\max }) & \text {i f} w _ {i} > w _ {\max } \\ \max  \left\{ \begin{array}{l l} \operatorname {k n a p s a c k} (i - 1, w _ {\max }) & (\text {d i s c a r d n e w i t e m}) \\ \operatorname {k n a p s a c k} (i - 1, w _ {\max } - w _ {i}) + v _ {i} & (\text {i n c l u d e n e w i t e m}) \end{array} \right. & \text {o t h e r w i s e} \end{array} \right. \tag {22.14}
+\operatorname{knapsack} (i, w_{\max }) = \left\{ \begin{array}{l l} 0 & \text{if} i = 0 \\ \operatorname{knapsack} (i - 1, w_{\max }) & \text{if} w_{i} > w_{\max } \\ \max \left\{ \begin{array}{l l} \operatorname{knapsack} (i - 1, w_{\max }) & (\text{discardnewitem}) \\ \operatorname{knapsack} (i - 1, w_{\max } - w_{i}) + v_{i} & (\text{includenewitem}) \end{array} \right. & \text{otherwise} \end{array} \right. \tag {22.14}
 $$
 
 Algorithm 22.7 provides an implementation.
@@ -14712,7 +14477,7 @@ changing effective edge lengths in the graph or networking issues that remove ed
 Ants move stochastically based on the attractiveness of the edges available to them. The attractiveness of transition  $i \rightarrow j$  depends on the pheromone level and an optional prior factor:
 
 $$
-A (i \rightarrow j) = \tau (i \rightarrow j) ^ {\alpha} \eta (i \rightarrow j) ^ {\beta} \tag {22.15}
+A (i \rightarrow j) = \tau (i \rightarrow j) ^{\alpha} \eta (i \rightarrow j) ^{\beta} \tag {22.15}
 $$
 
 where  $\alpha$  and  $\beta$  are exponents for the pheromone level  $\tau$  and prior factor  $\eta$ , respectively. For problems involving shortest paths, we can set the prior factor to the inverse edge length  $\ell(i \to j)$  to encourage the traversal of shorter paths:  $\eta(i \to j) = 1 / \ell(i \to j)$ . A method for computing the edge attractiveness is given in algorithm 22.8.
@@ -14735,7 +14500,7 @@ return A
 The probability of edge transition  $i\rightarrow j$  is:
 
 $$
-P (i \rightarrow j) = \frac {A (i \rightarrow j)}{\sum_ {j ^ {\prime} \in \mathcal {J}} A (i \rightarrow j ^ {\prime})} \tag {22.16}
+P (i \rightarrow j) = \frac{A (i \rightarrow j)}{\sum_{j^{\prime} \in \mathcal {J}} A (i \rightarrow j^{\prime})} \tag {22.16}
 $$
 
 Ants affect subsequent generations by depositing pheromones. There are several methods for modeling pheromone deposition. One approach is to deposit pheromones after a path is completed.[21] Ants that do not find a path do not deposit pheromones. For shortest path problems, a successful ant that has established a path of length  $\ell$  deposits  $1 / \ell$  pheromones on each edge it traversed.
@@ -14771,7 +14536,7 @@ Ant colony optimization also models pheromone evaporation, which naturally occur
 For  $m$  ants at iteration  $k$ , the effective pheromone update is
 
 $$
-\tau (i \rightarrow j) ^ {(k + 1)} = (1 - \rho) \tau (i \rightarrow j) ^ {(k)} + \sum_ {a = 1} ^ {m} \frac {1}{\ell^ {(a)}} ((i \rightarrow j) \in \mathcal {P} ^ {(a)}) \tag {22.17}
+\tau (i \rightarrow j) ^{(k + 1)} = (1 - \rho) \tau (i \rightarrow j) ^{(k)} + \sum_{a = 1}^{m} \frac{1}{\ell^{(a)}} ((i \rightarrow j) \in \mathcal {P}^{(a)}) \tag {22.17}
 $$
 
 22 It is common to use  $\rho = 1 / 2$
@@ -14824,7 +14589,7 @@ Exercise 22.1. A Boolean satisfiability problem, often abbreviated SAT, requires
 Consider the Boolean objective function:
 
 $$
-f (\mathbf {x}) = x _ {1} \wedge (x _ {2} \vee \neg x _ {3}) \wedge (\neg x _ {1} \vee \neg x _ {2})
+f (\mathbf {x}) = x_{1} \wedge (x_{2} \vee \neg x_{3}) \wedge (\neg x_{1} \vee \neg x_{2})
 $$
 
 Find an optimal design using enumeration. How many designs must be considered for an  $n$ -dimensional design vector in the worst case?
@@ -14844,21 +14609,21 @@ Solution: Because the Boolean satisfiability problem simply seeks a valid soluti
 The  $\wedge$  "and" statements divide  $f$  into separate Boolean expressions, each of which must be true. We convert the expressions to linear constraints:
 
 $$
-x _ {1} \Rightarrow x _ {1} \geq 1
+x_{1} \Rightarrow x_{1} \geq 1
 $$
 
 $$
-x _ {2} \vee \neg x _ {3} \Longrightarrow x _ {2} + (1 - x _ {3}) \geq 1
+x_{2} \vee \neg x_{3} \Longrightarrow x_{2} + (1 - x_{3}) \geq 1
 $$
 
 $$
-\neg x _ {1} \lor \neg x _ {2} \Rightarrow (1 - x _ {1}) + (1 - x _ {2}) \geq 1
+\neg x_{1} \lor \neg x_{2} \Rightarrow (1 - x_{1}) + (1 - x_{2}) \geq 1
 $$
 
 where each expression must be satisfied  $(\geq 1)$  and a negated variable  $\neg x_{i}$  is simply  $1 - x_{i}$ . The resulting integer linear program is:
 
 $$
-\begin{array}{l} \underset {x} {\text {m i n i m i z e}} \quad 0 \\ \text {s u b j e c t} \quad x _ {1} \geq 1 \\ x _ {2} - x _ {3} \geq 0 \\ - x _ {1} - x _ {2} \geq - 1 \\ \mathbf {x} \in \mathbb {N} ^ {3} \\ \end{array}
+\begin{array}{l} \underset{x} {\text{minimize}} \quad 0 \\ \text{subject} \quad x_{1} \geq 1 \\ x_{2} - x_{3} \geq 0 \\ - x_{1} - x_{2} \geq - 1 \\ \mathbf {x} \in \mathbb {N}^{3} \\ \end{array}
 $$
 
 This approach can be used to transform any Boolean satisfiability problem into an integer linear program.
@@ -14886,21 +14651,21 @@ The relaxed knapsack problem can be efficiently solved with a greedy approach. I
 We begin by branching on the first item. The subtree with  $x_{1} = 0$  has the subproblem:
 
 $$
-\underset {x _ {2: 6}} {\text {m i n i m i z e}} - \sum_ {i = 2} ^ {6} v _ {i} x _ {i}
+\underset{x_{2: 6}} {\text{minimize}} - \sum_{i = 2}^{6} v_{i} x_{i}
 $$
 
 $$
-\text {s u b j e c t} \quad \sum_ {i = 2} ^ {6} w _ {i} x _ {i} \leq 2 0
+\text{subject} \quad \sum_{i = 2}^{6} w_{i} x_{i} \leq 20
 $$
 
 whereas the subtree with  $x_{1} = 1$  has the subproblem:
 
 $$
-\underset {\mathbf {x} _ {2: 6}} {\text {m i n i m i z e}} \quad - 9 - \sum_ {i = 2} ^ {6} v _ {i} x _ {i}
+\underset{\mathbf {x}_{2: 6}} {\text{minimize}} \quad - 9 - \sum_{i = 2}^{6} v_{i} x_{i}
 $$
 
 $$
-\text {s u b j e c t} \quad \sum_ {i = 2} ^ {6} w _ {i} x _ {i} \leq 1 3
+\text{subject} \quad \sum_{i = 2}^{6} w_{i} x_{i} \leq 13
 $$
 
 We can construct a lower bound for both subtrees using the greedy approach. We sort the remaining items by value to weight:
@@ -14916,19 +14681,19 @@ The subtree with  $x_{1} = 1$  has the better lower bound, so the algorithm cont
 Exercise 22.5. Discrete variables are often used to control whether or not a constraint applies. Consider using a binary variable  $z$  to control whether one of two inequality constraints applies:
 
 $$
-\underset {\mathbf {x}, z} {\text {m i n i m i z e}} \quad \mathbf {c} ^ {\top} \mathbf {x}
+\underset{\mathbf {x}, z} {\text{minimize}} \quad \mathbf {c}^{\top} \mathbf {x}
 $$
 
 $$
-\text {s u b j e c t} \quad \mathbf {a} _ {0} ^ {\top} \mathbf {x} \leq b _ {0} \quad \text {w h e n} z = 0
+\text{subject} \quad \mathbf {a}_{0}^{\top} \mathbf {x} \leq b_{0} \quad \text{when} z = 0
 $$
 
 $$
-\mathbf {a} _ {1} ^ {\top} \mathbf {x} \leq b _ {1} \quad \text {w h e n} z = 1
+\mathbf {a}_{1}^{\top} \mathbf {x} \leq b_{1} \quad \text{when} z = 1
 $$
 
 $$
-\mathrm {D} x \leq \mathrm {c}
+\mathrm{D} x \leq \mathrm{c}
 $$
 
 $$
@@ -14942,15 +14707,15 @@ $$
 We multiply by  $z$  or  $(1 - z)$  to zero out the left-hand side when appropriate:
 
 $$
-\underset {\mathbf {x}, z} {\text {m i n i m i z e}} \quad \mathbf {c} ^ {\top} \mathbf {x}
+\underset{\mathbf {x}, z} {\text{minimize}} \quad \mathbf {c}^{\top} \mathbf {x}
 $$
 
 $$
-\text {s u b j e c t} \quad z \mathbf {a} _ {0} ^ {\top} \mathbf {x} \leq b _ {0}
+\text{subject} \quad z \mathbf {a}_{0}^{\top} \mathbf {x} \leq b_{0}
 $$
 
 $$
-\begin{array}{l} (1 - z) \mathbf {a} _ {1} ^ {\top} \mathbf {x} \leq b _ {1} \\ D x \leq c \\ x \geq 0 \\ z \in \{0, 1 \} \\ \end{array}
+\begin{array}{l} (1 - z) \mathbf {a}_{1}^{\top} \mathbf {x} \leq b_{1} \\ D x \leq c \\ x \geq 0 \\ z \in \{0, 1 \} \\ \end{array}
 $$
 
 Unfortunately, these products prevent the overall optimization problem from being a mixed-integer linear program. Show that there is an alternative formulation by which the binary variable can be incorporated that results in a mixed-integer linear program. Assume that there is a large scalar value  $M$  that exceeds the maximum values of  $\mathbf{a}_0^\top \mathbf{x} - b_0$  and  $\mathbf{a}_1^\top \mathbf{x} - b_1$  for feasible values of  $\mathbf{x}$ .
@@ -14958,7 +14723,7 @@ Unfortunately, these products prevent the overall optimization problem from bein
 Solution: We can use the large scalar  $M$  to ensure that each constraint is satisfied based on  $z$ :
 
 $$
-\begin{array}{l} \underset {\mathbf {x}, z} {\text {m i n i m i z e}} \quad \mathbf {c} ^ {\top} \mathbf {x} \\ \text {s u b j e c t} \quad \mathbf {a} _ {0} ^ {\top} \mathbf {x} \leq b _ {0} + M z \\ \mathbf {a} _ {1} ^ {\top} \mathbf {x} \leq b _ {1} + M \cdot (1 - z) \\ D x \leq c \\ x \geq 0 \\ z \in \{0, 1 \} \\ \end{array}
+\begin{array}{l} \underset{\mathbf {x}, z} {\text{minimize}} \quad \mathbf {c}^{\top} \mathbf {x} \\ \text{subject} \quad \mathbf {a}_{0}^{\top} \mathbf {x} \leq b_{0} + M z \\ \mathbf {a}_{1}^{\top} \mathbf {x} \leq b_{1} + M \cdot (1 - z) \\ D x \leq c \\ x \geq 0 \\ z \in \{0, 1 \} \\ \end{array}
 $$
 
 When  $z = 0$ , the first constraint behaves as normal and the second constraint is automatically satisfied, as  $M$  drives up the right-hand side. When  $z = 1$ , the opposite occurs. The added terms are linear in  $z$ , so the resulting constraints are linear, and the overall problem is a mixed-integer program. This technique is called the big  $M$  method.
@@ -14966,25 +14731,25 @@ When  $z = 0$ , the first constraint behaves as normal and the second constraint
 Exercise 22.6. Consider a job shop scheduling problem with three jobs that each require completing four phases in a prescribed order on each of four different machines:
 
 $$
-\text {j o b} 1: \text {m a c h i n e s} 1 \rightarrow 2 \rightarrow 3 \rightarrow 4
+\text{job} 1: \text{machines} 1 \rightarrow 2 \rightarrow 3 \rightarrow 4
 $$
 
 $$
-\text {j o b} 2: \text {m a c h i n e s} 2 \rightarrow 3 \rightarrow 4 \rightarrow 1
+\text{job} 2: \text{machines} 2 \rightarrow 3 \rightarrow 4 \rightarrow 1
 $$
 
 $$
-\text {j o b} 3: \text {m a c h i n e s} 3 \rightarrow 4 \rightarrow 1 \rightarrow 2
+\text{job} 3: \text{machines} 3 \rightarrow 4 \rightarrow 1 \rightarrow 2
 $$
 
 Each job phase has a duration:
 
 $$
-\text {j o b} 1: \text {d u r a t i o n s} [ 2, 3, 4, 1 ]
+\text{job} 1: \text{durations} [ 2, 3, 4, 1 ]
 $$
 
 $$
-\begin{array}{l} \text {j o b 2 : d u r a t i o n s [ 2 , 2 , 5 , 3 ]} \end{array}
+\begin{array}{l} \text{job2 : durations [ 2 , 2 , 5 , 3 ]} \end{array}
 $$
 
 $$
@@ -15013,7 +14778,7 @@ $$
 We can enforce that job phase  $p$  starts after the previous phase  $p - 1$  ends with:
 
 $$
-t _ {j, p} \geq t _ {j, p - 1} + \Delta t _ {j, p - 1}
+t_{j, p} \geq t_{j, p - 1} + \Delta t_{j, p - 1}
 $$
 
 where  $\Delta t_{j,p}$  is the duration of phase  $p$  of job  $j$ . We include 9 such constraints for the 3 subsequent phase pairs for the 3 jobs.
@@ -15021,7 +14786,7 @@ where  $\Delta t_{j,p}$  is the duration of phase  $p$  of job  $j$ . We include
 We must enforce that job  $j$  starts after job  $k$  on machine  $m$  if job phase  $j$  precedes  $k$ . These constraints are added for the specific job phases that occur on the specified machine. For example, for machine 1, we must ensure that job 1 phase 1 precedes job 2 phase 4 when  $z_{1,2,1} = 1$ . We formulate this using the big  $M$  method as:
 
 $$
-t _ {2, 4} \geq t _ {1, 1} + \Delta t _ {1, 1} - M \times (1 - z _ {1, 2, 1})
+t_{2, 4} \geq t_{1, 1} + \Delta t_{1, 1} - M \times (1 - z_{1, 2, 1})
 $$
 
 where  $M$  is a very large scalar value. The big  $M$  method effectively removes the constraint when job 1 phase 1 does not precedes job 2 phase 4, while keeping the constraint linear. We include 24 such constraints for the 6 ordered job pairs across the 4 machines.
@@ -15029,7 +14794,7 @@ where  $M$  is a very large scalar value. The big  $M$  method effectively remov
 We can enforce that one job precedes the other in each job pair  $(j \neq k)$  and each machine  $m$  with
 
 $$
-z _ {j, k, m} + z _ {k, j, m} = 1
+z_{j, k, m} + z_{k, j, m} = 1
 $$
 
 We include 12 such constraints for the 3 unordered job pairs and 4 machines.
@@ -15037,7 +14802,7 @@ We include 12 such constraints for the 3 unordered job pairs and 4 machines.
 Finally, we enforce that the total time to complete all jobs  $T$  comes after the last job ends by enforcing that it comes after every job  $j$ :
 
 $$
-T \geq t _ {j, 4} + \Delta t _ {j, 4}
+T \geq t_{j, 4} + \Delta t_{j, 4}
 $$
 
 We include 3 such constraints for the 3 jobs.
@@ -15053,7 +14818,7 @@ Solution: The solution above is an optimal solution output by a mixed integer pr
 One way to remedy this issue is to solve the problem a second time starting from the current design, holding the precedences  $\mathbf{z}$  fixed, but now minimizing all phase start times:
 
 $$
-\text {m i n i m i z e} \left(\sum_ {j = 1} ^ {3} \sum_ {p = 1} ^ {4} t _ {j, p}\right)
+\text{minimize} \left(\sum_{j = 1}^{3} \sum_{p = 1}^{4} t_{j, p}\right)
 $$
 
 Solving this second optimization problem yields:
@@ -15112,7 +14877,7 @@ to generate  $x + \ln 2$ . Blue nodes are unexpanded types.
 Consider a grammar that allows for the generation of simple English statements:
 
 $$
-\mathrm {S} \mapsto \mathbb {N} \mathrm {V}
+\mathrm{S} \mapsto \mathbb {N} \mathrm{V}
 $$
 
 $$
@@ -15120,15 +14885,15 @@ $$
 $$
 
 $$
-\mathbb {A} \mapsto \text {r a p i d y l} | \text {e f f e c i e n t l y}
+\mathbb {A} \mapsto \text{rapidyl} | \text{effeciently}
 $$
 
 $$
-\mathbb {N} \mapsto \text {A l i c e} | \text {B o b} | \text {M y k e l} | \text {T i m}
+\mathbb {N} \mapsto \text{Alice} | \text{Bob} | \text{Mykel} | \text{Tim}
 $$
 
 $$
-\mathbb {V} \mapsto \text {r u n s} | \text {r e a d s} | \text {w r i t e s}
+\mathbb {V} \mapsto \text{runs} | \text{reads} | \text{writes}
 $$
 
 The types  $\mathbb{S}, \mathbb{N}, \mathbb{V}$ , and  $\mathbb{A}$  correspond to statements, nouns, verbs, and adverbs, respectively. An expression is generated by starting with the type  $\mathbb{S}$  and iteratively replacing types:
@@ -15146,7 +14911,7 @@ Not all terminal symbol categories must be used. For instance, the statement "Al
 Example 23.1. A grammar for producing simple English statements. Using | on the right-hand side of an expression is shorthand for or. Thus, the rule
 
 $$
-\mathbb {A} \mapsto \text {r a p i d l y} | \text {e f f e c t i n t l y}
+\mathbb {A} \mapsto \text{rapidly} | \text{effectintly}
 $$
 
 is equivalent to having two rules,  $\mathbb{A}\mapsto$  rapidly and  $\mathbb{A}\mapsto$  efficiently.
@@ -15399,19 +15164,19 @@ Algorithm 23.4. A method for decoding an integer design vector to produce an exp
 Consider a grammar for real-valued strings:
 
 $$
-\mathbb {R} \mapsto \mathbb {D} \mathbb {D} ^ {\prime} \mathbb {P} \mathbb {E}
+\mathbb {R} \mapsto \mathbb {D} \mathbb {D}^{\prime} \mathbb {P} \mathbb {E}
 $$
 
 $$
-\mathbb {D} ^ {\prime} \mapsto \mathbb {D} \left. \mathbb {D} ^ {\prime} \right| \epsilon
+\mathbb {D}^{\prime} \mapsto \mathbb {D} \left. \mathbb {D}^{\prime} \right| \epsilon
 $$
 
 $$
-\mathbb {P} \mapsto . \mathbb {D} \mathbb {D} ^ {\prime} | \epsilon
+\mathbb {P} \mapsto . \mathbb {D} \mathbb {D}^{\prime} | \epsilon
 $$
 
 $$
-\mathbb {E} \mapsto \operatorname {E S D} \mathbb {D} ^ {\prime} | \epsilon
+\mathbb {E} \mapsto \operatorname{ES D} \mathbb {D}^{\prime} | \epsilon
 $$
 
 $$
@@ -15428,7 +15193,7 @@ Suppose our design is [205, 52, 4, 27, 10, 59, 6] and we have the starting symbo
 
 Next we must replace  $\mathbb{D}$ . There are 10 options. We select  $205 \bmod_{1} 10 = 5$ , and thus obtain  $4\mathbb{D}'\mathbb{P}\mathbb{E}$
 
-Next we replace  $\mathbb{D}'$ , which has two options. We select index  $52 \bmod_1 2 = 2$ , which corresponds to  $\epsilon$ .
+Next we replace  $\mathbb{D}'$ , which has two options. We select index  $52 \bmod_12 = 2$ , which corresponds to  $\epsilon$ .
 
 Continuing in this manner we produce the string  $4E + 8$ .
 
@@ -15566,7 +15331,7 @@ The probability of generating  $x_{\mathrm{best}}$  is the product of the probab
 Consider a probabilistic grammar for strings composed entirely of "a"s:
 
 $$
-\begin{array}{l} \mathbb {A} \mapsto \mathrm {a} \mathbb {A} \quad w _ {1} ^ {\mathbb {A}} = 1 \\ \mapsto \mathrm {a} \mathbb {B} \mathrm {a} \mathbb {A} \quad w _ {2} ^ {\mathbb {A}} = 3 \\ \mapsto \epsilon \quad w _ {3} ^ {\mathbb {A}} = 2 \\ \mathbb {B} \mapsto \mathrm {a B} \quad w _ {1} ^ {\mathbb {B}} = 4 \\ \mapsto \epsilon \quad w _ {2} ^ {\mathrm {B}} = 1 \\ \end{array}
+\begin{array}{l} \mathbb {A} \mapsto \mathrm{a} \mathbb {A} \quad w_{1}^{\mathbb {A}} = 1 \\ \mapsto \mathrm{a} \mathbb {B} \mathrm{a} \mathbb {A} \quad w_{2}^{\mathbb {A}} = 3 \\ \mapsto \epsilon \quad w_{3}^{\mathbb {A}} = 2 \\ \mathbb {B} \mapsto \mathrm{aB} \quad w_{1}^{\mathbb {B}} = 4 \\ \mapsto \epsilon \quad w_{2}^{\mathrm{B}} = 1 \\ \end{array}
 $$
 
 where we have a set of weights  $\mathbf{w}$  for each parent type and  $\epsilon$  is an empty string.
@@ -15582,7 +15347,7 @@ Suppose we sample the second rule and obtain a  $\mathbb{B}$  a A.
 Next we sample a rule to apply to  $\mathbb{B}$ . The probability distribution over the two possible rules is:
 
 $$
-\begin{array}{l} \begin{array}{r l} P (\mathbb {B} \mapsto \mathrm {a B}) = 4 / (4 + 1) & = 4 / 5 \end{array} \\ P (\mathbb {B} \mapsto \epsilon) = 1 / (4 + 1) = 1 / 5 \\ \end{array}
+\begin{array}{l} \begin{array}{r l} P (\mathbb {B} \mapsto \mathrm{aB}) = 4 / (4 + 1) & = 4 / 5 \end{array} \\ P (\mathbb {B} \mapsto \epsilon) = 1 / (4 + 1) = 1 / 5 \\ \end{array}
 $$
 
 Suppose we sample the second rule and obtain a  $\epsilon$  a  $\mathbb{A}$
@@ -15590,7 +15355,7 @@ Suppose we sample the second rule and obtain a  $\epsilon$  a  $\mathbb{A}$
 Next we sample a rule to apply to  $\mathbb{A}$ . Suppose we sample  $\mathbb{A} \mapsto \epsilon$  to obtain a  $\epsilon$  a  $\epsilon$ , which produces the "a" string "aa". The probability of the sequence of rules applied to produce "aa" under the probabilistic grammar is:
 
 $$
-P (\mathbb {A} \mapsto \mathsf {a B a A}) P (\mathbb {B} \mapsto \epsilon) P (\mathbb {A} \mapsto \epsilon) = \frac {1}{2} \cdot \frac {1}{5} \cdot \frac {1}{3} = \frac {1}{3 0}
+P (\mathbb {A} \mapsto \mathsf {a B a A}) P (\mathbb {B} \mapsto \epsilon) P (\mathbb {A} \mapsto \epsilon) = \frac{1}{2} \cdot \frac{1}{5} \cdot \frac{1}{3} = \frac{1}{30}
 $$
 
 Note that this is not the same as the probability of obtaining "aa", as other sequences of production rules could also have produced it.
@@ -15665,7 +15430,7 @@ Figure 23.8. A probabilistic prototype tree initially contains only the root nod
 compute a target probability for  $P(x_{\mathrm{best}})$ :
 
 $$
-P _ {\text {t a r g e t}} = P \left(x _ {\text {b e s t}}\right) + \left(1 - P \left(x _ {\text {b e s t}}\right)\right) \cdot \alpha \cdot \frac {\epsilon - y _ {\text {e l i t e}}}{\epsilon - y _ {\text {b e s t}}} \tag {23.1}
+P_{\text{target}} = P \left(x_{\text{best}}\right) + \left(1 - P \left(x_{\text{best}}\right)\right) \cdot \alpha \cdot \frac{\epsilon - y_{\text{elite}}}{\epsilon - y_{\text{best}}} \tag {23.1}
 $$
 
 where  $\alpha$  and  $\epsilon$  are positive constants. The fraction on the right-hand side produces larger steps toward expressions with better objective function values. The target probability can be calculated using algorithm 23.13.
@@ -15689,7 +15454,7 @@ end
 The target probability is used to adjust the probability vectors in the probabilistic prototype tree. The probabilities associated with the chosen nodes are increased iteratively until the target probability is exceeded:
 
 $$
-P \left(x _ {\text {b e s t}} ^ {(i)}\right) \leftarrow P \left(x _ {\text {b e s t}} ^ {(i)}\right) + c \cdot \alpha \cdot \left(1 - P \left(x _ {\text {b e s t}} ^ {(i)}\right)\right) \tag {23.2}
+P \left(x_{\text{best}}^{(i)}\right) \leftarrow P \left(x_{\text{best}}^{(i)}\right) + c \cdot \alpha \cdot \left(1 - P \left(x_{\text{best}}^{(i)}\right)\right) \tag {23.2}
 $$
 
 for all  $i$  where  $x_{\mathrm{best}}^{(i)}$  is the  $i$ th rule applied in expression  $x_{\mathrm{best}}$  and  $c$  is a scalar. $^{16}$
@@ -15697,7 +15462,7 @@ for all  $i$  where  $x_{\mathrm{best}}^{(i)}$  is the  $i$ th rule applied in e
 The adapted probability vectors are then renormalized to 1 by downscaling the values of all nonincreased vector components proportionally to their current value. The probability vector  $\mathbf{p}$ , where the  $i$ th component was increased, is adjusted according to:
 
 $$
-p _ {j} \leftarrow p _ {j} \frac {1 - p _ {i}}{\| \mathbf {p} \| _ {1} - p _ {i}} \text {f o r} j \neq i \tag {23.3}
+p_{j} \leftarrow p_{j} \frac{1 - p_{i}}{\| \mathbf {p} \| _{1} - p_{i}} \text{for} j \neq i \tag {23.3}
 $$
 
 The learning update is implemented in algorithm 23.14.
@@ -15719,13 +15484,13 @@ Algorithm 23.14. A method for applying a learning update to a probabilistic prot
 generating  $\mathbf{x}_{\mathrm{best}}$ . Each component in  $\mathbf{p}$  is mutated with a probability proportional to the problem size:
 
 $$
-\frac {p _ {\text {m u t a t i o n}}}{\# \mathbf {p} \sqrt {\# \mathbf {x} _ {\text {b e s t}}}} \tag {23.4}
+\frac{p_{\text{mutation}}}{\# \mathbf {p} \sqrt{\# \mathbf {x}_{\text{best}}}} \tag {23.4}
 $$
 
 where  $p_{\text{mutation}}$  is a mutation parameter,  $\# \mathbf{p}$  is the number of components in  $\mathbf{p}$ , and  $\# \mathbf{x}_{\text{best}}$  is the number of rules applied in  $\mathbf{x}_{\text{best}}$ . A component  $i$ , selected for mutation, is adjusted according to:
 
 $$
-p _ {i} \leftarrow p _ {i} + \beta \cdot \left(1 - p _ {i}\right) \tag {23.5}
+p_{i} \leftarrow p_{i} + \beta \cdot \left(1 - p_{i}\right) \tag {23.5}
 $$
 
 where  $\beta$  controls the amount of mutation. Small probabilities undergo larger mutations than do larger probabilities. All mutated probability vectors must be renormalized. Mutation is implemented in algorithm 23.15 and visualized in figure 23.9.
@@ -15830,9 +15595,7 @@ R
 
 ↓
 
-1
-
-2
+12
 
 π
 
@@ -15842,9 +15605,7 @@ II
 
 F
 
-1
-
-2
+12
 
 π
 
@@ -15869,7 +15630,7 @@ Suppose we have constructed all expressions up to height  $h$ . All expressions 
 It follows that the number of expressions of height  $h + 1$  are:18
 
 $$
-a _ {h + 1} = 2 a _ {h} \left(a _ {0} + \dots + a _ {h - 1}\right) + a _ {h} ^ {2}
+a_{h + 1} = 2 a_{h} \left(a_{0} + \dots + a_{h - 1}\right) + a_{h}^{2}
 $$
 
 This corresponds to OEIS sequence Aoo1699.
@@ -15879,7 +15640,7 @@ Exercise 23.3. Define a grammar which can generate any nonnegative integer.
 Solution: One can use the following grammar and the starting symbol  $\mathbb{I}$ :
 
 $$
-\mathbb {I} \mapsto \mathbb {D} + 1 0 \times \mathbb {I}
+\mathbb {I} \mapsto \mathbb {D} + 10 \times \mathbb {I}
 $$
 
 $$
@@ -15917,23 +15678,23 @@ $$
 $$
 
 $$
-\mathrm {V P} \mapsto \mathrm {V A D V}
+\mathrm{VP} \mapsto \mathrm{VA DV}
 $$
 
 $$
-\mathbb {A D J} \mapsto a | \text {t h e} | \text {b i g} | \text {l i t l e} | \text {b l u e} | \text {r e d}
+\mathbb {A D J} \mapsto a | \text{the} | \text{big} | \text{litle} | \text{blue} | \text{red}
 $$
 
 $$
-\mathbb {N} \mapsto \text {m o u s e} | \text {c a t} | \text {d o g} | \text {p o n y}
+\mathbb {N} \mapsto \text{mouse} | \text{cat} | \text{dog} | \text{pony}
 $$
 
 $$
-\mathbb {V} \mapsto \operatorname {r a n} | \operatorname {s a t} | \operatorname {s l e p t} | \operatorname {a t e}
+\mathbb {V} \mapsto \operatorname{ran} | \operatorname{sat} | \operatorname{slept} | \operatorname{ate}
 $$
 
 $$
-\mathbb {A D V} \mapsto \text {q u i e t l y} | \text {q u i c k l y} | \text {s o u n d l y} | \text {h a p p l i y}
+\mathbb {A D V} \mapsto \text{quietly} | \text{quickly} | \text{soundly} | \text{happliy}
 $$
 
 What is the phenotype corresponding to the genotype [2, 10, 19, 0, 6] and the starting symbol $?
@@ -15971,7 +15732,7 @@ Score each individual according to:
 Figure 23.10. The rotation period  $t_{c}$  of a child gear attached to the rim of a parent gear depends on the rotation period of the parent gear,  $t_{p}$  and the ratio of the gears' radii.
 
 $$
-\left(\underset {\text {h a n d s}} {\operatorname {m i n i m i z e}} \left(1 - t _ {\text {h a n d}}\right) ^ {2}\right) + \left(\underset {\text {h a n d s}} {\operatorname {m i n i m i z e}} \left(6 0 - t _ {\text {h a n d}}\right) ^ {2}\right) + \left(\underset {\text {h a n d s}} {\operatorname {m i n i m i z e}} \left(3 6 0 0 - t _ {\text {h a n d}}\right) ^ {2}\right) + \# \text {n o d e s} \cdot 1 0 ^ {- 3}
+\left(\underset{\text{hands}} {\operatorname{minimize}} \left(1 - t_{\text{hand}}\right) ^{2}\right) + \left(\underset{\text{hands}} {\operatorname{minimize}} \left(60 - t_{\text{hand}}\right) ^{2}\right) + \left(\underset{\text{hands}} {\operatorname{minimize}} \left(36 00 - t_{\text{hand}}\right) ^{2}\right) + \# \text{nodes} \cdot 10^{- 3}
 $$
 
 where  $t_{\text{hand}}$  is the rotation period of a particular hand in seconds and #nodes is the number of nodes in the expression tree. Ignore rotation direction.
@@ -15979,15 +15740,15 @@ where  $t_{\text{hand}}$  is the rotation period of a particular hand in seconds
 Solution: We define a grammar for the clock problem. Let  $\mathbb{G}_r$  be the symbol for a gear of radius  $r$ , let  $\mathbb{A}$  be an axle, let  $\mathbb{R}$  be a rim, and let  $\mathbb{H}$  be a hand. Our grammar is:
 
 $$
-\mathbb {G} _ {r} \mapsto \mathbb {R} \mathbb {A} \mid \epsilon
+\mathbb {G}_{r} \mapsto \mathbb {R} \mathbb {A} \mid \epsilon
 $$
 
 $$
-\mathbb {R} \mapsto \mathbb {R} \mathbb {R} | \mathbb {G} _ {r} | \epsilon
+\mathbb {R} \mapsto \mathbb {R} \mathbb {R} | \mathbb {G}_{r} | \epsilon
 $$
 
 $$
-\mathbb {A} \mapsto \mathbb {A} \mathbb {A} | \mathbb {G} _ {r} | \mathrm {H} | \epsilon
+\mathbb {A} \mapsto \mathbb {A} \mathbb {A} | \mathbb {G}_{r} | \mathrm{H} | \epsilon
 $$
 
 which allows each gear to have any number of rim and axle children. The expression  $\epsilon$  is an empty terminal.
@@ -16010,11 +15771,11 @@ Solution: Any of the methods covered in this chapter can be used to complete the
 One such suitable grammar is:22
 
 $$
-\mathbb {R} \mapsto 4 \mid 4 4 \mid 4 4 4 \mid 4 4 4 4 \mid \mathbb {R} + \mathbb {R} \mid \mathbb {R} - \mathbb {R} \mid \mathbb {R} \times \mathbb {R} \mid \mathbb {R} / \mathbb {R} \mid
+\mathbb {R} \mapsto 4 \mid 44 \mid 44 4 \mid 44 44 \mid \mathbb {R} + \mathbb {R} \mid \mathbb {R} - \mathbb {R} \mid \mathbb {R} \times \mathbb {R} \mid \mathbb {R} / \mathbb {R} \mid
 $$
 
 $$
-\mathbb {R} ^ {\mathbb {R}} \mid \lfloor \mathbb {R} \rfloor \mid \lceil \mathbb {R} \rceil \mid \sqrt {\mathbb {R}} \mid \mathbb {R}! \mid \Gamma (\mathbb {R})
+\mathbb {R}^{\mathbb {R}} \mid \lfloor \mathbb {R} \rfloor \mid \lceil \mathbb {R} \rceil \mid \sqrt{\mathbb {R}} \mid \mathbb {R}! \mid \Gamma (\mathbb {R})
 $$
 
 We round evaluated expressions to the nearest integer. An expression that is rounded up can be contained inside a ceiling operation, and an expression that is rounded down can be contained inside a floor operation, so all such expressions are valid.
@@ -16022,15 +15783,15 @@ We round evaluated expressions to the nearest integer. An expression that is rou
 Exercise 23.9. Consider the probabilistic grammar
 
 $$
-\mathbb {R} \mapsto \mathbb {R} + \mathbb {R} | \mathbb {R} \times \mathbb {R} | \mathbb {F} | \mathbb {I} w _ {\mathbb {R}} = [ 1, 1, 5, 5 ]
+\mathbb {R} \mapsto \mathbb {R} + \mathbb {R} | \mathbb {R} \times \mathbb {R} | \mathbb {F} | \mathbb {I} w_{\mathbb {R}} = [ 1, 1, 5, 5 ]
 $$
 
 $$
-\mathbb {F} \mapsto 1. 5 \mid \infty \quad w _ {\mathbb {F}} = [ 4, 3 ]
+\mathbb {F} \mapsto 1. 5 \mid \infty \quad w_{\mathbb {F}} = [ 4, 3 ]
 $$
 
 $$
-\mathbb {I} \mapsto 1 \mid 2 \mid 3 \qquad \qquad w _ {\mathbb {I}} = [ 1, 1, 1 ]
+\mathbb {I} \mapsto 1 \mid 2 \mid 3 \qquad \qquad w_{\mathbb {I}} = [ 1, 1, 1 ]
 $$
 
 What is the generation probability of the expression  $1.5 + 2$ ?
@@ -16038,11 +15799,11 @@ What is the generation probability of the expression  $1.5 + 2$ ?
 Solution: The expression is obtained by applying the production rules:
 
 $$
-\mathbb {R} \mapsto \mathbb {R} + \mathbb {R} \quad P = 1 / 1 2
+\mathbb {R} \mapsto \mathbb {R} + \mathbb {R} \quad P = 1 / 12
 $$
 
 $$
-\mathbb {R} \mapsto \mathbb {F} \quad P = 5 / 1 2
+\mathbb {R} \mapsto \mathbb {F} \quad P = 5 / 12
 $$
 
 $$
@@ -16050,7 +15811,7 @@ $$
 $$
 
 $$
-\mathbb {R} \mapsto \mathbb {I} \qquad \qquad P = 5 / 1 2
+\mathbb {R} \mapsto \mathbb {I} \qquad \qquad P = 5 / 12
 $$
 
 $$
@@ -16060,7 +15821,7 @@ $$
 which has a probability of
 
 $$
-\frac {1}{1 2} \frac {5}{1 2} \frac {4}{7} \frac {5}{1 2} \frac {1}{3} = \frac {2 5}{9 0 7 2} \approx 0. 0 0 2 7 6
+\frac{1}{12} \frac{5}{12} \frac{4}{7} \frac{5}{12} \frac{1}{3} = \frac{25}{90 72} \approx 0. 00 27 6
 $$
 
 Exercise 23.10. What is the probabilistic grammar from the previous question after clearing the counts and applying a learning update on  $1.5 + 2$ ?
@@ -16068,15 +15829,15 @@ Exercise 23.10. What is the probabilistic grammar from the previous question aft
 Solution: The learning update clears all counts and then increments each production rule each time it is applied. The five applied rules are each incremented once, resulting in:
 
 $$
-\mathbb {R} \mapsto \mathbb {R} + \mathbb {R} \mid \mathbb {R} \times \mathbb {R} \mid \mathbb {F} \mid \mathbb {I} w _ {\mathbb {R}} = [ 1, 0, 1, 1 ]
+\mathbb {R} \mapsto \mathbb {R} + \mathbb {R} \mid \mathbb {R} \times \mathbb {R} \mid \mathbb {F} \mid \mathbb {I} w_{\mathbb {R}} = [ 1, 0, 1, 1 ]
 $$
 
 $$
-\mathbb {F} \mapsto 1. 5 \mid \infty \quad w _ {\mathbb {F}} = [ 1, 0 ]
+\mathbb {F} \mapsto 1. 5 \mid \infty \quad w_{\mathbb {F}} = [ 1, 0 ]
 $$
 
 $$
-\mathbb {I} \mapsto 1 \mid 2 \mid 3 \quad w _ {\mathbb {I}} = [ 0, 1, 0 ]
+\mathbb {I} \mapsto 1 \mid 2 \mid 3 \quad w_{\mathbb {I}} = [ 0, 1, 0 ]
 $$
 
 22 The gamma function  $\Gamma (x)$  is an extension of the factorial function which accepts real and complexvalued inputs. For positive integers  $x$  it produces  $(x - 1)!$
@@ -16092,7 +15853,7 @@ There are many different disciplinary analyses that might factor into a design. 
 In an MDO setting, we still have a set of design variables as before, but we also keep track of the outputs, or response variables, of each disciplinary analysis.2 We write the response variables of the  $i$ th disciplinary analysis as  $\mathbf{y}^{(i)}$ . In general, the  $i$ th disciplinary analysis  $F_{i}$  can depend on the design variables or the response variables from any other discipline:
 
 $$
-\mathbf {y} ^ {(i)} \leftarrow F _ {i} \left(\mathbf {x}, \mathbf {y} ^ {(1)}, \dots , \mathbf {y} ^ {(i - 1)}, \mathbf {y} ^ {(i + 1)}, \dots , \mathbf {y} ^ {(m)}\right) \tag {24.1}
+\mathbf {y}^{(i)} \leftarrow F_{i} \left(\mathbf {x}, \mathbf {y}^{(1)}, \dots , \mathbf {y}^{(i - 1)}, \mathbf {y}^{(i + 1)}, \dots , \mathbf {y}^{(m)}\right) \tag {24.1}
 $$
 
 where  $m$  is the total number of disciplines. The inputs to a computational fluid dynamics analysis for an aircraft may include the deflections of the wing, which
@@ -16108,7 +15869,7 @@ In order to make reasoning about disciplinary analyses easier, we introduce the 
 A disciplinary analysis is a function that takes an assignment and uses the design point and response variables from other analyses to overwrite the response variable for its discipline:
 
 $$
-\mathcal {A} ^ {\prime} \leftarrow F _ {i} (\mathcal {A}) \tag {24.2}
+\mathcal {A}^{\prime} \leftarrow F_{i} (\mathcal {A}) \tag {24.2}
 $$
 
 where  $F_{i}(\mathcal{A})$  updates  $\mathbf{y}^{(i)}$  in  $\mathcal{A}$  to produce  $\mathcal{A}'$ .
@@ -16133,7 +15894,7 @@ end
 The assignment may be initialized with guesses for  $y^{(1)}$  and  $y^{(2)}$ , and a known input for  $x$ . For example:
 
 $$
-A = \operatorname {D i c t} \left(" x" \Rightarrow 1, " y 1" \Rightarrow 2, " y 2" \Rightarrow 3\right)
+A = \operatorname{Dict} \left(" x" \Rightarrow 1, " y 1" \Rightarrow 2, " y 2" \Rightarrow 3\right)
 $$
 
 3 A dictionary, also called an associative array, is a common data structure that allows indexing by keys rather than integers. See appendix A.1.8.
@@ -16145,7 +15906,7 @@ Example 24.1. Basic code syntax for the assignment-based representation of multi
 Evaluating the objective function value and feasibility of a design point  $\mathbf{x}$  requires obtaining values for the response variables that satisfy interdisciplinary compatibility, which means that the response variables must be consistent with the disciplinary analyses. Interdisciplinary compatibility holds for a particular assignment if the assignment is unchanged under all disciplinary analyses:
 
 $$
-F _ {i} (\mathcal {A}) = \mathcal {A} \text {f o r i n 1 : i m} \tag {24.3}
+F_{i} (\mathcal {A}) = \mathcal {A} \text{forin1 : im} \tag {24.3}
 $$
 
 Running any analysis will produce the same values. Finding an assignment that satisfies interdisciplinary compatibility is called a multidisciplinary analysis.
@@ -16206,15 +15967,15 @@ Algorithm 24.1. The Gauss-Seidel algorithm for conducting a multidisciplinary an
 Consider a multidisciplinary design optimization problem with one design variable  $x$  and three disciplines, each with one response variable:
 
 $$
-y ^ {(1)} \gets F _ {1} (x, y ^ {(2)}, y ^ {(3)}) = y ^ {(2)} - x
+y^{(1)} \gets F_{1} (x, y^{(2)}, y^{(3)}) = y^{(2)} - x
 $$
 
 $$
-y ^ {(2)} \leftarrow F _ {2} (x, y ^ {(1)}, y ^ {(3)}) = \sin (y ^ {(1)} + y ^ {(3)})
+y^{(2)} \leftarrow F_{2} (x, y^{(1)}, y^{(3)}) = \sin (y^{(1)} + y^{(3)})
 $$
 
 $$
-y ^ {(3)} \leftarrow F _ {3} (x, y ^ {(1)}, y ^ {(2)}) = \cos (x + y ^ {(1)} + y ^ {(2)})
+y^{(3)} \leftarrow F_{3} (x, y^{(1)}, y^{(2)}) = \cos (x + y^{(1)} + y^{(2)})
 $$
 
 The disciplinary analyses can be implemented as:
@@ -16237,7 +15998,7 @@ end
 Consider running a multidisciplinary analysis for  $x = 1$ , having initialized our assignment with all 1's:
 
 $$
-A = \operatorname {D i c t} \left(" x" \Rightarrow 1, " y 1" \Rightarrow 1, " y 2" \Rightarrow 1, " y 3" \Rightarrow 1\right)
+A = \operatorname{Dict} \left(" x" \Rightarrow 1, " y 1" \Rightarrow 1, " y 2" \Rightarrow 1, " y 3" \Rightarrow 1\right)
 $$
 
 Running the Gauss-Seidel algorithm with the ordering  $F_{1}, F_{2}, F_{3}$  converges, but running with  $F_{1}, F_{3}, F_{2}$  does not.
@@ -16253,15 +16014,15 @@ the merged disciplines are acyclic then an ordering exists in which the analyses
 Multidisciplinary design optimization problems can be written:
 
 $$
-\underset {\mathbf {x}} {\text {m i n i m i z e}} \quad f (\mathcal {A})
+\underset{\mathbf {x}} {\text{minimize}} \quad f (\mathcal {A})
 $$
 
 $$
-\text {s u b j e c t} \quad \mathcal {A} \in \mathcal {X} \tag {24.4}
+\text{subject} \quad \mathcal {A} \in \mathcal {X} \tag {24.4}
 $$
 
 $$
-F _ {i} (\mathcal {A}) = \mathcal {A} \text {f o r e a c h d i s c i p l i n e} i \in 1: m
+F_{i} (\mathcal {A}) = \mathcal {A} \text{foreachdiscipline} i \in 1: m
 $$
 
 where the objective function  $f$  and feasible set  $\mathcal{X}$  depend on both the design and response variables. The design variables in the assignment are specified by the optimizer. The condition  $F_{i}(\mathcal{A}) = \mathcal{A}$  ensures that the  $i$ th discipline is consistent with the values in  $\mathcal{A}$ . This last condition enforces interdisciplinary compatibility.
@@ -16366,7 +16127,7 @@ pling and response variables is typically reached through iteration. Equality is
 Figure 24.9 shows the general IDF architecture. The system-level optimizer operates on the coupling variables and uses these to populate an assignment that is copied to the disciplinary analysis in each iteration:
 
 $$
-\mathcal {A} [ \mathbf {x}, \mathbf {y} ^ {(1)}, \dots , \mathbf {y} ^ {(m)} ] \leftarrow [ \mathbf {x}, \mathbf {c} ^ {(1)}, \dots , \mathbf {c} ^ {(m)} ] \tag {24.5}
+\mathcal {A} [ \mathbf {x}, \mathbf {y}^{(1)}, \dots , \mathbf {y}^{(m)} ] \leftarrow [ \mathbf {x}, \mathbf {c}^{(1)}, \dots , \mathbf {c}^{(m)} ] \tag {24.5}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/815e27648be4c72abc2f2464a05c8dd1a157c7feefd39623d4ad2f6358b9d009.jpg)  
@@ -16389,11 +16150,11 @@ The collaborative optimization architecture (figure 24.12) breaks a problem into
 The  $i$ th subproblem has the form:
 
 $$
-\underset {\mathbf {x} ^ {(i)}} {\text {m i n i m i z e}} f _ {i} \left(\mathbf {x} ^ {(i)}, \mathbf {y} ^ {(i)}\right) \tag {24.6}
+\underset{\mathbf {x}^{(i)}} {\text{minimize}} f_{i} \left(\mathbf {x}^{(i)}, \mathbf {y}^{(i)}\right) \tag {24.6}
 $$
 
 $$
-\text {s u b j e c t} \quad [ \mathbf {x} ^ {(i)}, \mathbf {y} ^ {(i)} ] \in \mathcal {X} _ {i}
+\text{subject} \quad [ \mathbf {x}^{(i)}, \mathbf {y}^{(i)} ] \in \mathcal {X}_{i}
 $$
 
 with  $\mathbf{x}^{(i)}$  containing a subset of the design variables  $\mathbf{x}$  and response variables  $\mathbf{y}^{(i)}$ . The constraint ensures that the solution satisfies discipline-specific constraints.
@@ -16401,13 +16162,13 @@ with  $\mathbf{x}^{(i)}$  containing a subset of the design variables  $\mathbf{
 Interdisciplinary compatibility requires that the global variables  $\mathbf{x}_g^{(i)}$  and  $\mathbf{y}_g^{(i)}$  agree between all disciplines. We define a set of coupling variables  $\mathcal{A}_g$  that includes variables corresponding to all design and response variables that are global in at least one subproblem. Agreement is enforced by constraining each  $\mathbf{x}_g^{(i)}$  and  $\mathbf{y}_g^{(i)}$  to match its corresponding coupling variables:
 
 $$
-\mathbf {x} _ {g} ^ {(i)} = \mathcal {A} _ {g} \left[ \mathbf {x} _ {g} ^ {(i)} \right] \quad \text {a n d} \quad \mathbf {y} _ {g} ^ {(i)} = \mathcal {A} _ {g} \left[ \mathbf {y} _ {g} ^ {(i)} \right] \tag {24.7}
+\mathbf {x}_{g}^{(i)} = \mathcal {A}_{g} \left[ \mathbf {x}_{g}^{(i)} \right] \quad \text{and} \quad \mathbf {y}_{g}^{(i)} = \mathcal {A}_{g} \left[ \mathbf {y}_{g}^{(i)} \right] \tag {24.7}
 $$
 
 where  $\mathcal{A}_g[\mathbf{x}_g^{(i)}]$  and  $\mathcal{A}_g[\mathbf{y}_g^{(i)}]$  are the coupling variables corresponding to the global design and response variables in the  $i$ th discipline. This constraint is enforced using the subproblem objective function:
 
 $$
-f _ {i} = \left\| \mathbf {x} _ {g} ^ {(i)} - \mathcal {A} _ {g} \left[ \mathbf {x} _ {g} ^ {(i)} \right] \right\| _ {2} ^ {2} + \left\| \mathbf {y} _ {g} ^ {(i)} - \mathcal {A} _ {g} \left[ \mathbf {y} _ {g} ^ {(i)} \right] \right\| _ {2} ^ {2} \tag {24.8}
+f_{i} = \left\| \mathbf {x}_{g}^{(i)} - \mathcal {A}_{g} \left[ \mathbf {x}_{g}^{(i)} \right] \right\| _{2}^{2} + \left\| \mathbf {y}_{g}^{(i)} - \mathcal {A}_{g} \left[ \mathbf {y}_{g}^{(i)} \right] \right\| _{2}^{2} \tag {24.8}
 $$
 
 Each subproblem thus seeks feasible solutions that minimally deviate from the coupling variables.
@@ -16445,7 +16206,7 @@ The simultaneous analysis and design (SAND) architecture avoids the central chal
 Any disciplinary analysis can be transformed into residual form. The residual  $r_i(\mathcal{A})$  is used to indicate whether an assignment  $\mathcal{A}$  is compatible with the  $i$ th discipline. If  $F_i(\mathcal{A}) = \mathcal{A}$ , then  $r_i(\mathcal{A}) = 0$ ; otherwise,  $r_i(\mathcal{A}) \neq 0$ . We can obtain a residual form using the disciplinary analysis:
 
 $$
-r _ {i} (\mathcal {A}) = \left\| F _ {i} (\mathcal {A}) - \mathcal {A} [ \mathbf {y} ^ {(i)} ] \right\| \tag {24.9}
+r_{i} (\mathcal {A}) = \left\| F_{i} (\mathcal {A}) - \mathcal {A} [ \mathbf {y}^{(i)} ] \right\| \tag {24.9}
 $$
 
 though this is typically inefficient, as demonstrated in example 24.7.
@@ -16453,13 +16214,13 @@ though this is typically inefficient, as demonstrated in example 24.7.
 Consider a disciplinary analysis that solves the equation  $\mathbf{A}\mathbf{y} = \mathbf{x}$ . The analysis is  $F(\mathbf{x}) = \mathbf{A}^{-1}\mathbf{x}$ , which requires an expensive matrix inversion. We can construct a residual form using equation (24.9):
 
 $$
-r _ {1} (\mathbf {x}, \mathbf {y}) = \| F (\mathbf {x}) - \mathbf {y} \| = \left\| \mathbf {A} ^ {- 1} \mathbf {x} - \mathbf {y} \right\|
+r_{1} (\mathbf {x}, \mathbf {y}) = \| F (\mathbf {x}) - \mathbf {y} \| = \left\| \mathbf {A}^{- 1} \mathbf {x} - \mathbf {y} \right\|
 $$
 
 Alternatively, we can use the original constraint to construct a more efficient residual form:
 
 $$
-r _ {2} (\mathbf {x}, \mathbf {y}) = \| \mathbf {A} \mathbf {y} - \mathbf {x} \|
+r_{2} (\mathbf {x}, \mathbf {y}) = \| \mathbf {A} \mathbf {y} - \mathbf {x} \|
 $$
 
 The residual form of a discipline consists of the set of disciplinary equations that are solved by the disciplinary analysis. $^{10}$  It is often much easier to evaluate a residual than to run a disciplinary analysis. In SAND, figure 24.14, the analysis effort is the responsibility of the optimizer.
@@ -16524,21 +16285,21 @@ We use two simplified analyses in place of more sophisticated analyses used to c
 Formulate the spring-pendulum problem under the multidisciplinary design feasible architecture, and then solve it according to that architecture for:
 
 $$
-m = 1 \mathrm {k g}, \ell = 1 \mathrm {m}, g = 9. 8 1 \mathrm {m} / \mathrm {s} ^ {2}, \theta_ {\max } = 1 0 ^ {\circ}
+m = 1 \mathrm{kg}, \ell = 1 \mathrm{m}, g = 9. 81 \mathrm{m} / \mathrm{s}^{2}, \theta_{\max } = 10^{\circ}
 $$
 
 Solution: The spring-pendulum problem under the multidisciplinary design feasible architecture is:
 
 $$
-\underset {k} {\text {m i n i m i z e}} \quad f (\mathrm {M D A} (k)) \quad \text {s u b j e c t t o} \quad k > 0
+\underset{k} {\text{minimize}} \quad f (\mathrm{MD A} (k)) \quad \text{subjectto} \quad k > 0
 $$
 
 $$
-\theta \leq \theta_ {\max }
+\theta \leq \theta_{\max }
 $$
 
 $$
-\mathrm {M D A} (k) \text {c o n v e r g e d}
+\mathrm{MD A} (k) \text{converged}
 $$
 
 where  $\mathrm{MDA}(k)$  performs a multidisciplinary analysis on the two disciplinary analyses: a loads analysis that computes  $\mathcal{A}[M] = mg\ell \cos(\mathcal{A}[\theta])$  and a displacement analysis that computes  $\mathcal{A}[\theta] = \mathcal{A}[M] / \mathcal{A}[k]$ . Whether the multidisciplinary design analysis converged is included as an additional response variable in order to enforce convergence.
@@ -16550,23 +16311,23 @@ Exercise 24.5. Formulate the spring-pendulum problem under the individual design
 Solution: The spring-pendulum problem under the individual design feasible architecture is:
 
 $$
-\underset {k, \theta_ {c}, M _ {c}} {\text {m i n i m i z e}} k
+\underset{k, \theta_{c}, M_{c}} {\text{minimize}} k
 $$
 
 $$
-\text {s u b j e c t} \quad k > 0
+\text{subject} \quad k > 0
 $$
 
 $$
-\theta_ {c} = F _ {\text {d i s p l a c e m e n t}} \left(k, M _ {c}\right)
+\theta_{c} = F_{\text{displacement}} \left(k, M_{c}\right)
 $$
 
 $$
-M _ {c} = F _ {\text {l o a d s}} \left(\theta_ {c}\right)
+M_{c} = F_{\text{loads}} \left(\theta_{c}\right)
 $$
 
 $$
-\theta \leq \theta_ {\max }
+\theta \leq \theta_{\max }
 $$
 
 where  $\theta_c$  and  $M_c$  are the additional coupling variables under control of the optimizer. The two disciplinary analyses can be executed in parallel.
@@ -16576,7 +16337,7 @@ Exercise 24.6. Formulate the spring-pendulum under the collaborative optimizatio
 Solution: The two disciplinary optimization problems for the spring-pendulum problem under the collaborative optimization architecture are:
 
 $$
-\underset {k, M} {\text {m i n i m i z e}} J _ {\text {d i s p l a c e m e n t}} = (k _ {g} - \mathcal {A} [ k _ {g} ]) ^ {2} + (M _ {g} - \mathcal {A} [ M _ {g} ]) ^ {2} + (F _ {\text {d i s p l a c e m e n t}} (k _ {g}, M _ {g}) - \theta) ^ {2}
+\underset{k, M} {\text{minimize}} J_{\text{displacement}} = (k_{g} - \mathcal {A} [ k_{g} ]) ^{2} + (M_{g} - \mathcal {A} [ M_{g} ]) ^{2} + (F_{\text{displacement}} (k_{g}, M_{g}) - \theta) ^{2}
 $$
 
 subject to  $\theta_{g}\leq \theta_{\mathrm{max}}$
@@ -16588,7 +16349,7 @@ $$
 and
 
 $$
-\underset {\theta_ {g}} {\text {m i n i m i z e}} \quad J _ {\text {l o a d s}} = (\theta_ {g} - \theta) ^ {2} + (F _ {\text {l o a d s}} (\theta_ {g}) - M) ^ {2}
+\underset{\theta_{g}} {\text{minimize}} \quad J_{\text{loads}} = (\theta_{g} - \theta) ^{2} + (F_{\text{loads}} (\theta_{g}) - M) ^{2}
 $$
 
 where the subscript  $g$  indicates a global variable. The global variables are  $\mathcal{A}_g = \{k_g,\theta_g,M_g\}$
@@ -16596,7 +16357,7 @@ where the subscript  $g$  indicates a global variable. The global variables are 
 The system-level optimization problem is:
 
 $$
-\begin{array}{l} \underset {k _ {g}, \theta_ {g}, M _ {g}} {\text {m i n i m i z e}} k _ {g} \\ \text {s u b j e c t} \quad J _ {\text {s t r u c t u r e s}} = 0 \\ J _ {\mathrm {l o a d s}} = 0 \\ \end{array}
+\begin{array}{l} \underset{k_{g}, \theta_{g}, M_{g}} {\text{minimize}} k_{g} \\ \text{subject} \quad J_{\text{structures}} = 0 \\ J_{\mathrm{lo ad s}} = 0 \\ \end{array}
 $$
 
 # APPENDICES
@@ -16660,10 +16421,8 @@ Float64
 Here, Int64 denotes a 64-bit integer, and Float64 denotes a 64-bit floating-point value. We can perform the standard mathematical operations:
 
 ```txt
-julia> x = 4  
-4  
-julia> y = 2  
-2  
+julia> x = 44  
+julia> y = 22  
 julia> x + y  
 6  
 julia> x - y  
@@ -16738,9 +16497,7 @@ An array comprehension can be used to create vectors:
 ```txt
 julia> [sin(x) for x in 1:5]  
 5-element Vector{Float64}:  
-0.841471  
-0.909297  
-0.14112  
+0.8414710.9092970.14112  
 -0.756802  
 -0.958924
 ```
@@ -16759,8 +16516,7 @@ Vector{Float64} (alias for Array{Float64,1})
 We index into vectors using square brackets:
 
 ```txt
-julia> x[1] # first element is indexed by 1  
-3.1415  
+julia> x[1] # first element is indexed by 13.1415  
 julia> x[3] # third element  
 2.7182  
 julia> x[end] # use end to reference the end of the array  
@@ -16774,27 +16530,21 @@ We can pull out a range of elements from an array. Ranges are specified using a 
 ```julia
 julia> x = [1, 2, 5, 3, 1]  
 5-element Vector{Int64}:  
-    1  
-    2  
-    5  
-    3  
+    12  
+    53  
     1  
 julia> x[1:3] # pull out the first three elements  
 3-element Vector{Int64}:  
-    1  
-    2  
+    12  
     5  
 julia> x[1:2:end] # pull out every other element  
 3-element Vector{Int64}:  
-    1  
-    5  
+    15  
     1  
 julia> x[end:-1:1] # pull out all the elements in reverse order  
 5-element Vector{Int64}:  
-    1  
-    3  
-    5  
-    2  
+    13  
+    52  
     1
 ```
 
@@ -16809,10 +16559,8 @@ julia> [x, x] # concatenation
 [1, 2, 5, 3, 1]  
 julia> push!(x, -1) # add an element to the end  
 6-element Vector{Int64}:  
-1  
-2  
-5  
-3  
+12  
+53  
 1  
 -1  
 julia> pop!(x) # remove an element from the end  
@@ -16822,21 +16570,15 @@ julia> pop!(x) # remove an element from the end
 ```julia
 julia> append!(x, [2, 3]) # append [2, 3] to the end of x  
 7-element Vector{Int64}:  
-1  
-2  
-5  
-3  
-1  
-2  
+12  
+53  
+12  
 3  
 julia> sort!(x) # sort the elements, altering the same vector  
 7-element Vector{Int64}:  
-1  
-1  
-2  
-2  
-3  
-3  
+11  
+22  
+33  
 5  
 julia> sort(x); # sort the elements as a new vector  
 julia> x[1] = 2; print(x) # change the first element to 2  
@@ -16845,12 +16587,10 @@ julia> x = [1, 2];
 julia> y = [3, 4];  
 julia> x + y # add vectors  
 2-element Vector{Int64}:  
-4  
-6  
+46  
 julia> 3x - [1, 2] # multiply by a scalar and subtract  
 2-element Vector{Int64}:  
-2  
-4  
+24  
 julia> using LinearAlgebra  
 julia> dot(x, y) # dot product available after using LinearAlgebra  
 11  
@@ -16864,17 +16604,17 @@ It is often useful to apply various functions elementwise to vectors. This is a 
 
 ```txt
 julia> x .\* y # elementwise multiplication   
-2-element Vector{Int64}: 3 8   
+2-element Vector{Int64}: 38   
 julia> x .^ 2 # elementwise squaring   
-2-element Vector{Int64}: 1 4   
+2-element Vector{Int64}: 14   
 julia> sin.(x) # elementwise application of sin   
-2-element Vector{Float64}: 0.841471 0.909297   
+2-element Vector{Float64}: 0.8414710.909297   
 julia> sqrt.x # elementwise application of sqrt   
-2-element Vector{Float64}: 1.0 1.41421   
+2-element Vector{Float64}: 1.01.41421   
 julia> min.(x, a) # elementwise min between x and a scalar   
 2-element Vector{ForwardDiff.Dual{Nothing, Int64, 1}}: Dual{Nothing}  $(1,0)$  Dual{Nothing}  $(2,0)$    
 julia> x .= y # assign all elements of x to those in y   
-2-element Vector{Int64}: 3 4
+2-element Vector{Int64}: 34
 ```
 
 Arrays are assigned by reference; they are not copied when assigned to a new variable. To make a copy, we use the copy function.
@@ -16891,8 +16631,7 @@ julia> x[1] #x is not changed
 4   
 julia> x.  $=$  y# assign all elements of x to those in y   
 3-element Vector{Int64}:   
-5   
-2   
+52   
 3
 ```
 
@@ -16901,7 +16640,7 @@ julia> x.  $=$  y# assign all elements of x to those in y
 A matrix is a two-dimensional array. Like a vector, it is constructed using square brackets. We use spaces to delimit elements in the same row and semicolons to delimit rows. We can also index into the matrix and output submatrices using ranges. Some of the operations require the use of the built-in LinearAlgebra package:
 
 ```julia
-julia> X = [1 2 3; 4 5 6; 7 8 9; 10 11 12];  
+julia> X = [12 3; 45 6; 78 9; 101112];  
 julia> typeof(X) # a 2-dimensional array of Int64s  
 Matrix{Int64} (alias for Array{Int64, 2})  
 julia> X[2] # second element using column-major ordering  
@@ -16910,25 +16649,22 @@ julia> X[3,2] # element in third row and second column
 8  
 julia> X[1,:] # extract the first row  
 3-element Vector{Int64}:  
-1  
-2  
+12  
 3  
 julia> X(:,2] # extract the second column  
 4-element Vector{Int64}:  
-2  
-5  
-8  
-11  
+25  
+811  
 julia> X[:,1:2] # extract the first two columns  
 4×2 Matrix{Int64}:  
-1 2  
-4 5  
-7 8  
-10 11  
+12  
+45  
+78  
+1011  
 julia> X[1:2,1:2] # extract a 2x2 submatrix from the top left of x  
 2×2 Matrix{Int64}:  
-1 2  
-4 5  
+12  
+45  
 julia> Matrix{Float64} # alias for a 2-dimensional array  
 Matrix{Float64} (alias for Array{Float64, 2})
 ```
@@ -16943,51 +16679,37 @@ julia> Matrix(1.0I(3))
 
 Matrix operations include the following:  
 ```txt
-1.0 0.0 0.0  
-0.0 1.0 0.0  
-0.0 0.0 1.0  
+1.00.00.00.01.00.00.00.01.0  
 julia> Matrix(Diagonal([3, 2, 1])) # 3x3 diagonal matrix  
 3x3 Matrix{Int64}:  
-3 0 0  
-0 2 0  
-0 0 1  
+30 00 20  
+00 1  
 julia> zeros(3,2) # 3x2 matrix of zeros  
 3x2 Matrix{Float64}:  
-0.0 0.0  
-0.0 0.0  
-0.0 0.0  
+0.00.00.00.00.00.0  
 julia> rand(3,2) # 3x2 random matrix  
 3x2 Matrix{Float64}:  
-0.0681745 0.0839341  
-0.87598 0.584453  
-0.949442 0.390314  
+0.06817450.08393410.875980.5844530.9494420.390314  
 julia> [sin(x + y) for x in 1:3, y in 1:2] # array comprehension  
 3x2 Matrix{Float64}:  
-0.909297 0.14112  
-0.14112 -0.756802  
+0.9092970.141120.14112 -0.756802  
 -0.756802 -0.958924
 ```
 
 ```txt
 julia> X' # complex conjugate transpose  
 3×4 adjoint( ::Matrix{Int64} ) with eltype Int64:  
-1 4 7 10  
-2 5 8 11  
-3 6 9 12  
+14 7102 58 113 69 12  
 julia> 3X .+ 2 # multiplying by scalar and adding scalar  
 4×3 Matrix{Int64}:  
-5 8 11  
-14 17 20  
-23 26 29  
-32 35 38  
-julia> X = [1 3; 3 1]; # create an invertible matrix  
+58 11141720232629323538  
+julia> X = [13; 31]; # create an invertible matrix  
 julia> inv(X) # inversion  
 2×2 Matrix{Float64}:  
--0.125 0.375  
-0.375 -0.125  
+-0.1250.3750.375 -0.125  
 julia> pinv(X) # pseudoinverse  
 2×2 Matrix{Float64}:  
--0.125 0.375
+-0.1250.375
 ```
 
 ```txt
@@ -16996,47 +16718,40 @@ julia> det(X) # determinant
 -8.0  
 julia> [X X] # horizontal concatenation, same as hcat(X, X)  
 2×4 Matrix{Int64}:  
-1 3 1 3  
-3 1 3 1  
+13 13  
+31 31  
 julia> [X; X] # vertical concatenation, same as vcat(X, X)  
 4×2 Matrix{Int64}:  
-1 3  
-3 1  
-1 3  
-3 1  
+13  
+31  
+13  
+31  
 julia> sin.(X) # elementwise application of sin  
 2×2 Matrix{Float64}:  
-0.841471 0.14112  
-0.14112 0.841471  
+0.8414710.141120.141120.841471  
 julia> map(sin, X) # elementwise application of sin  
 2×2 Matrix{Float64}:  
-0.841471 0.14112  
-0.14112 0.841471  
+0.8414710.141120.141120.841471  
 julia> vec(X) # reshape an array as a vector  
 4-element Vector{Int64}:  
-1  
-3  
-3  
-1
+13  
+31
 ```
 
 The backslash operator  $\backslash$  is used to efficiently solve linear systems  $\mathbf{A}\mathbf{x} = \mathbf{b}$  and associated least squares problems:
 
 ```txt
-julia> A = [1 0; 1 -2]; # define a full-rank square matrix  
+julia> A = [10; 1 -2]; # define a full-rank square matrix  
 julia> b = [32, -4]; # define a vector  
 julia> x = A\b # solve the linear system Ax = b  
 2-element Vector{Float64}:  
-32.0  
-18.0  
+32.018.0  
 julia> A*x - b # verify the solution (should be close to zero)  
 2-element Vector{Float64}:  
-0.0  
-0.0  
-julia> A = [1 2; 3 4; 5 6]; # define matrix with more rows than columns  
+0.00.0  
+julia> A = [12; 34; 56]; # define matrix with more rows than columns  
 julia> b = [0, 8, 9]; # define a vector  
-julia> x = A\b # solve the least squares problem min_x ||Ax - b||_2  
-2-element Vector{Float64}:
+julia> x = A\b # solve the least squares problem min_x ||Ax - b||_22-element Vector{Float64}:
 ```
 
 ```txt
@@ -17044,17 +16759,14 @@ julia> x = A\b # solve the least squares problem min_x ||Ax - b||_2
 -1.08333   
 julia> norm(A\*x - b) # compute the residual   
 2.85774   
-julia> A = [1 2 3; 4 5 6]; # define a matrix with more columns than rows   
+julia> A = [12 3; 45 6]; # define a matrix with more columns than rows   
 julia> b = [7, 8]; # define a vector   
 julia> x = A\b # solve the problem min_x ||x||_2 such that Ax = b   
 3-element Vector{Float64}:   
--3.05556   
-0.111111   
-3.27778   
+-3.055560.1111113.27778   
 julia> A\*x - b # verify the solution (should be close to zero)   
 2-element Vector{Float64}:   
--1.77636e-15   
-1.77636e-15
+-1.77636e-151.77636e-15
 ```
 
 # A.1.6 Tuples
@@ -17122,14 +16834,11 @@ A dictionary is a collection of key-value pairs. Key-value pairs are indicated w
 
 ```julia
 julia> x = Dict(); # empty dictionary  
-julia> x[3] = 4 # associate key 3 with value 4  
-4  
+julia> x[3] = 4 # associate key 3 with value 44  
 julia> x = Dict(3 => 4, 5 => 1) # create a dictionary with two key-value pairs  
 Dict{Int64, Int64} with 2 entries:  
-    5 => 1  
-    3 => 4  
-julia> x[5] # return the value associated with key 5  
-1  
+    5 => 13 => 4  
+julia> x[5] # return the value associated with key 51  
 julia> haskey(x, 3) # check whether dictionary has key 3  
 true  
 julia> haskey(x, 4) # check whether dictionary has key 4  
@@ -17196,8 +16905,7 @@ Julia supports parametric types, which are types that take parameters. The param
 ```txt
 julia> x = Dict(3 => 1.4, 1 => 5.9)  
 Dict{Int64, Float64} with 2 entries:  
-3 => 1.4  
-1 => 5.9
+3 => 1.41 => 5.9
 ```
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/b72b5943e2a949d9f93577f844205f0816215f7dc87e68db248f78c1be892097.jpg)  
@@ -17248,8 +16956,7 @@ julia> g(h, 5, 10)
 101  
 julia> g(x→sin(x)+1, 10, 20)  
 2-element Vector{Float64}:  
-0.4559788891106302  
-1.9129452507276277
+0.45597888911063021.9129452507276277
 ```
 
 # A.2.3 Optional Arguments
@@ -17327,8 +17034,7 @@ julia> f(b...)
 julia> c = ([0,0],[1,1]);  
 julia> f([2,2], c...)  
 2-element Vector{Int64}:  
-1  
-1
+11
 ```
 
 # A.3 Control Flow
@@ -17397,8 +17103,7 @@ julia> collect enumerated(X)) # return the count and the element
 (3, "ignore")  
 julia> collect(eachindex(X)) # equivalent to 1:length(X)  
 3-element Vector[Int64];  
-1  
-2  
+12  
 3  
 julia> Y = [-5, -0.5, 0];  
 julia> collect(zip(X, Y)) # iterate over multiple iterators simultaneously  
@@ -17422,10 +17127,9 @@ julia> collect(subsets(X)) # iterate over all subsets
 ["feed", "sing", "ignore"]  
 julia> collect(eachindex(X)) # iterate over indices into a collection  
 3-element Vector{Int64}:  
-1  
-2  
+12  
 3  
-julia> Z = [1 2; 3 4; 5 6];  
+julia> Z = [12; 34; 56];  
 julia> import Base(.)terators: product  
 julia> collect/product(X,Y)) # iterate over Cartesian product of multiple iterators  
 3x3 Matrix{Tuple:String, Float64}]:  
@@ -17464,7 +17168,7 @@ Figure B.1. The two-dimensional version of Ackley's function. The global minimum
 Ackley's function is defined for any number of dimensions  $d$ :
 
 $$
-f (\mathbf {x}) = - a \exp \left(- b \sqrt {\frac {1}{d} \sum_ {i = 1} ^ {d} x _ {i} ^ {2}}\right) - \exp \left(\frac {1}{d} \sum_ {i = 1} ^ {d} \cos \left(c x _ {i}\right)\right) + a + \exp (1) \tag {B.1}
+f (\mathbf {x}) = - a \exp \left(- b \sqrt{\frac{1}{d} \sum_{i = 1}^{d} x_{i}^{2}}\right) - \exp \left(\frac{1}{d} \sum_{i = 1}^{d} \cos \left(c x_{i}\right)\right) + a + \exp (1) \tag {B.1}
 $$
 
 with a global minimum at the origin with an optimal value of zero. Typically,  $a = 20$ ,  $b = 0.2$ , and  $c = 2\pi$ . Ackley's function is implemented in algorithm B.1.
@@ -17488,13 +17192,13 @@ Figure B.2. Booth's function with a global minimum at [1,3].
 Its equation is given by
 
 $$
-f (\mathbf {x}) = (x _ {1} + 2 x _ {2} - 7) ^ {2} + (2 x _ {1} + x _ {2} - 5) ^ {2} \tag {B.2}
+f (\mathbf {x}) = (x_{1} + 2 x_{2} - 7) ^{2} + (2 x_{1} + x_{2} - 5) ^{2} \tag {B.2}
 $$
 
 with a global minimum at  $[1,3]$  with an optimal value of zero. It is implemented in algorithm B.2.
 
 $$
-\operatorname {b o o t h} (x) = (x [ 1 ] + 2 x [ 2 ] - 7) ^ {\wedge} 2 + (2 x [ 1 ] + x [ 2 ] - 5) ^ {\wedge} 2
+\operatorname{booth} (x) = (x [ 1 ] + 2 x [ 2 ] - 7) ^{\wedge} 2 + (2 x [ 1 ] + x [ 2 ] - 5) ^{\wedge} 2
 $$
 
 Algorithm B.2. Booth's function with two-dimensional input vector  $\mathbf{x}$ .
@@ -17504,7 +17208,7 @@ Algorithm B.2. Booth's function with two-dimensional input vector  $\mathbf{x}$ 
 The Branin function (figure B.3) is a two-dimensional function,
 
 $$
-f (\mathbf {x}) = a \left(x _ {2} - b x _ {1} ^ {2} + c x _ {1} - r\right) ^ {2} + s (1 - t) \cos \left(x _ {1}\right) + s \tag {B.3}
+f (\mathbf {x}) = a \left(x_{2} - b x_{1}^{2} + c x_{1} - r\right) ^{2} + s (1 - t) \cos \left(x_{1}\right) + s \tag {B.3}
 $$
 
 with recommended values  $a = 1, b = 5.1 / (4\pi^2), c = 5 / \pi, r = 6, s = 10,$  and  $t = 1 / (8\pi)$ .
@@ -17515,7 +17219,7 @@ Figure B.3. The Branin function, with four global minima.
 It has no local minima aside from global minima with  $x_{1} = \pi + 2\pi m$  for integral  $m$ . Four of these minima are:
 
 $$
-\left\{\left[ \begin{array}{l} - \pi \\ 1 2. 2 7 5 \end{array} \right], \left[ \begin{array}{l} \pi \\ 2. 2 7 5 \end{array} \right], \left[ \begin{array}{l} 3 \pi \\ 2. 4 7 5 \end{array} \right], \left[ \begin{array}{l} 5 \pi \\ 1 2. 8 7 5 \end{array} \right] \right\} \tag {B.4}
+\left\{\left[ \begin{array}{l} - \pi \\ 12. 27 5 \end{array} \right], \left[ \begin{array}{l} \pi \\ 2. 27 5 \end{array} \right], \left[ \begin{array}{l} 3 \pi \\ 2. 47 5 \end{array} \right], \left[ \begin{array}{l} 5 \pi \\ 12. 87 5 \end{array} \right] \right\} \tag {B.4}
 $$
 
 with  $f(\mathbf{x}^{*})\approx 0.397887$  . It is implemented in algorithm B.3.
@@ -17538,7 +17242,7 @@ Figure B.4. The flower function.
 The equation is
 
 $$
-f (\mathbf {x}) = a \| \mathbf {x} \| + b \sin \left(c \tan^ {- 1} \left(x _ {2}, x _ {1}\right)\right) \tag {B.5}
+f (\mathbf {x}) = a \| \mathbf {x} \| + b \sin \left(c \tan^{- 1} \left(x_{2}, x_{1}\right)\right) \tag {B.5}
 $$
 
 with its parameters typically set to  $a = 1, b = 1$ , and  $c = 4$ .
@@ -17563,7 +17267,7 @@ Figure B.5. The Michalewicz function.
 Its equation is
 
 $$
-f (\mathbf {x}) = - \sum_ {i = 1} ^ {d} \sin \left(x _ {i}\right) \sin^ {2 m} \left(\frac {i x _ {i} ^ {2}}{\pi}\right) \tag {B.6}
+f (\mathbf {x}) = - \sum_{i = 1}^{d} \sin \left(x_{i}\right) \sin^{2 m} \left(\frac{i x_{i}^{2}}{\pi}\right) \tag {B.6}
 $$
 
 where the parameter  $m$ , typically 10, controls the steepness. The global minimum depends on the number of dimensions. In two dimensions the minimum is at approximately [2.20, 1.57] with  $f(\mathbf{x}^{*}) = -1.8011$ . It is implemented in algorithm B.5.
@@ -17585,7 +17289,7 @@ The Rosenbrock function (figure B.6), also called Rosenbrock's valley or Rosenbr
 The Rosenbrock function is
 
 $$
-f (\mathbf {x}) = (a - x _ {1}) ^ {2} + b (x _ {2} - x _ {1} ^ {2}) ^ {2} \qquad \mathrm {(B . 7)}
+f (\mathbf {x}) = (a - x_{1}) ^{2} + b (x_{2} - x_{1}^{2}) ^{2} \qquad \mathrm{(B . 7)}
 $$
 
 with a global minimum at  $[a, a^2]$  at which  $f(\mathbf{x}^*) = 0$ . This text uses  $a = 1$  and  $b = 5$ .
@@ -17595,13 +17299,13 @@ with a global minimum at  $[a, a^2]$  at which  $f(\mathbf{x}^*) = 0$ . This tex
 Figure B.6. The Rosenbrock function with  $a = 1$  and  $b = 5$ . The global minimum is at [1,1].
 
 $$
-\operatorname {r o s e n b r o c k} (x; a = 1, b = 5) = (a - x [ 1 ]) ^ {\wedge} 2 + b * (x [ 2 ] - x [ 1 ] ^ {\wedge} 2) ^ {\wedge} 2
+\operatorname{rosenbrock} (x; a = 1, b = 5) = (a - x [ 1 ]) ^{\wedge} 2 + b * (x [ 2 ] - x [ 1 ] ^{\wedge} 2) ^{\wedge} 2
 $$
 
 The Rosenbrock function can be extended to multiple dimensions. One common extension $^2$  for  $n$  dimensions is:
 
 $$
-f (\mathbf {x}) = \sum_ {i = 1} ^ {n - 1} (a - x _ {i}) ^ {2} + b \left(x _ {i + 1} - x _ {i} ^ {2}\right) ^ {2} \tag {B.8}
+f (\mathbf {x}) = \sum_{i = 1}^{n - 1} (a - x_{i}) ^{2} + b \left(x_{i + 1} - x_{i}^{2}\right) ^{2} \tag {B.8}
 $$
 
 The Rosenbrock function is implemented in algorithm B.6. The multidimensional Rosenbrock function is implemented in algorithm B.7.
@@ -17627,7 +17331,7 @@ Wheeler's ridge (figure B.7) is a two-dimensional function with a single global 
 The function is given by
 
 $$
-f (\mathbf {x}) = - \exp \left(- \left(x _ {1} x _ {2} - a\right) ^ {2} - \left(x _ {2} - a\right) ^ {2}\right) \tag {B.9}
+f (\mathbf {x}) = - \exp \left(- \left(x_{1} x_{2} - a\right) ^{2} - \left(x_{2} - a\right) ^{2}\right) \tag {B.9}
 $$
 
 Figure B.7. Wheeler's ridge showing the two ridges and the peak containing the global minimum.
@@ -17638,7 +17342,7 @@ Figure B.8. A contour plot of the minimal region of Wheeler's ridge.
 with  $a$  typically equal to 1.5, for which the global optimum of  $-1$  is at  $[1,3/2]$ .
 
 $$
-w h e e l e r (x, a = 1. 5) = - \exp (- (x [ 1 ] * x [ 2 ] - a) ^ {\wedge} 2 - (x [ 2 ] - a) ^ {\wedge} 2)
+w h e e l e r (x, a = 1. 5) = - \exp (- (x [ 1 ] * x [ 2 ] - a) ^{\wedge} 2 - (x [ 2 ] - a) ^{\wedge} 2)
 $$
 
 Wheeler's ridge has a smooth contour plot (figure B.8) when evaluated over  $x_{1} \in [0,3]$  and  $x_{2} \in [0,3]$ . It is implemented in algorithm B.8.
@@ -17654,7 +17358,7 @@ $$
 where  $\theta = x_{1}$  and  $r$  is obtained by passing  $x_{2}$  through
 
 $$
-r = \frac {1}{2} + \frac {1}{2} \left(\frac {2 x _ {2}}{1 + x _ {2} ^ {2}}\right) \tag {B.11}
+r = \frac{1}{2} + \frac{1}{2} \left(\frac{2 x_{2}}{1 + x_{2}^{2}}\right) \tag {B.11}
 $$
 
 The Pareto frontier has  $r = 1$  and mod  $(\theta, 2\pi) \in [0, \pi/2]$  or  $r = -1$  and mod  $(\theta, 2\pi) \in [\pi, 3\pi/2]$ .
@@ -17681,7 +17385,7 @@ Asymptotic notation is often used to characterize the growth of a function. This
 Mathematically, if  $f(x) = O(g(x))$  as  $x \to a$  then the absolute value of  $f(x)$  is bounded by the absolute value of  $g(x)$  times some positive and finite  $c$  for values of  $x$  sufficiently close to  $a$ :
 
 $$
-| f (x) | \leq c | g (x) | \quad \text {f o r} x \rightarrow a \tag {C.1}
+| f (x) | \leq c | g (x) | \quad \text{for} x \rightarrow a \tag {C.1}
 $$
 
 Writing  $f(x) = O(g(x))$  is a common abuse of the equal sign. For example,  $x^{2} = O(x^{2})$  and  $2x^{2} = O(x^{2})$ , but, of course,  $x^{2} \neq 2x^{2}$ . In some mathematical texts,  $O(g(x))$  represents the set of all functions that do not grow faster than  $g(x)$ . One might write, for example,  $5x^{2} \in O(x^{2})$ . An example of asymptotic notation is given in example C.1.
@@ -17701,7 +17405,7 @@ Consider  $f(x) = \cos (x) + x + 10x^{3 / 2} + 3x^2$ . Here,  $f$  is a linear c
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/15c65a42a59eb2d0d1837375aca2792b02caa5eb77fd0cb88c77944a7590f8bc.jpg)
 
 $$
-- - f (x) - - 1 6 x ^ {3 / 2} - - 1 2 x ^ {2} - - 6 x ^ {3}
+- - f (x) - - 16 x^{3 / 2} - - 12 x^{2} - - 6 x^{3}
 $$
 
 There is no constant  $c$  such that  $f(x)$  is always less than  $c|x^{3/2}|$  for sufficiently large values of  $x$ . The same is true for  $\cos(x)$  and  $x$ . We do find that there are values for  $c$  such that  $c|x^2|$  and  $c|x^3|$  are always greater than  $f(x)$  for sufficiently large  $x$ . Hence,  $f(x) = O(x^3)$ , and in general  $f(x) = O(x^m)$  for  $m \geq 2$ , along with other function classes like  $f(x) = e^x$ . We typically discuss the order that provides the tightest upper bound. Thus,  $f = O(x^2)$  as  $x \to \infty$ .
@@ -17715,13 +17419,13 @@ The Taylor expansion, also called the Taylor series, of a function is critical t
 From the first fundamental theorem of calculus,2 we know that
 
 $$
-f (x + h) = f (x) + \int_ {0} ^ {h} f ^ {\prime} (x + a) d a \tag {C.2}
+f (x + h) = f (x) + \int_{0}^{h} f^{\prime} (x + a) d a \tag {C.2}
 $$
 
 Nesting this definition produces the Taylor expansion of  $f$  about  $x$ :
 
 $$
-\begin{array}{l} f (x + h) = f (x) + \int_ {0} ^ {h} \left(f ^ {\prime} (x) + \int_ {0} ^ {a} f ^ {\prime \prime} (x + b) d b\right) d a (C.3) \\ = f (x) + f ^ {\prime} (x) h + \int_ {0} ^ {h} \int_ {0} ^ {a} f ^ {\prime \prime} (x + b) d b d a (C.4) \\ = f (x) + f ^ {\prime} (x) h + \int_ {0} ^ {h} \int_ {0} ^ {a} \left(f ^ {\prime \prime} (x) + \int_ {0} ^ {b} f ^ {\prime \prime \prime} (x + c) d c\right) d b d a \quad (\mathrm {C}. 5) \\ = f (x) + f ^ {\prime} (x) h + \frac {f ^ {\prime \prime} (x)}{2 !} h ^ {2} + \int_ {0} ^ {h} \int_ {0} ^ {a} \int_ {0} ^ {b} f ^ {\prime \prime \prime} (x + c) d c d b d a (C.6) \\ \end{array}
+\begin{array}{l} f (x + h) = f (x) + \int_{0}^{h} \left(f^{\prime} (x) + \int_{0}^{a} f^{\prime \prime} (x + b) d b\right) d a (C.3) \\ = f (x) + f^{\prime} (x) h + \int_{0}^{h} \int_{0}^{a} f^{\prime \prime} (x + b) d b d a (C.4) \\ = f (x) + f^{\prime} (x) h + \int_{0}^{h} \int_{0}^{a} \left(f^{\prime \prime} (x) + \int_{0}^{b} f^{\prime \prime \prime} (x + c) d c\right) d b d a \quad (\mathrm{C}. 5) \\ = f (x) + f^{\prime} (x) h + \frac{f^{\prime \prime} (x)}{2 !} h^{2} + \int_{0}^{h} \int_{0}^{a} \int_{0}^{b} f^{\prime \prime \prime} (x + c) d c d b d a (C.6) \\ \end{array}
 $$
 
 $$
@@ -17729,13 +17433,13 @@ $$
 $$
 
 $$
-\begin{array}{l} = f (x) + \frac {f ^ {\prime} (x)}{1 !} h + \frac {f ^ {\prime \prime} (x)}{2 !} h ^ {2} + \frac {f ^ {\prime \prime \prime} (x)}{3 !} h ^ {3} + \dots (C.8) \\ = \sum_ {n = 0} ^ {\infty} \frac {f ^ {(n)} (x)}{n !} h ^ {n} (C.9) \\ \end{array}
+\begin{array}{l} = f (x) + \frac{f^{\prime} (x)}{1 !} h + \frac{f^{\prime \prime} (x)}{2 !} h^{2} + \frac{f^{\prime \prime \prime} (x)}{3 !} h^{3} + \dots (C.8) \\ = \sum_{n = 0}^{\infty} \frac{f^{(n)} (x)}{n !} h^{n} (C.9) \\ \end{array}
 $$
 
 In some contexts, it may be more convenient to write the Taylor expansion of  $f(x)$  about a point  $x_0$  such that it is a function solely of  $x$  instead of  $f(x + h)$ :
 
 $$
-f (x) = \sum_ {n = 0} ^ {\infty} \frac {f ^ {(n)} \left(x _ {0}\right)}{n !} \left(x - x _ {0}\right) ^ {n} \tag {C.10}
+f (x) = \sum_{n = 0}^{\infty} \frac{f^{(n)} \left(x_{0}\right)}{n !} \left(x - x_{0}\right) ^{n} \tag {C.10}
 $$
 
 The Taylor expansion represents a function as an infinite sum of polynomial terms based on repeated derivatives at a single point. Any analytic function can be represented by its Taylor expansion within a local neighborhood.
@@ -17745,7 +17449,7 @@ A function can be locally approximated by using the first few terms of the Taylo
 2 The first fundamental theorem of calculus relates a function to the integral of its derivative:
 
 $$
-f (b) - f (a) = \int_ {a} ^ {b} f ^ {\prime} (x) d x
+f (b) - f (a) = \int_{a}^{b} f^{\prime} (x) d x
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/2fab448e7dd6d07bc97a4265ef7f4c11dcbfabd037f5c833f5b22aa7b4d2e2d0.jpg)  
@@ -17754,13 +17458,13 @@ Figure C.1. Successive approximations of  $\cos (x)$  about 1 based on the first
 A linear Taylor approximation uses the first two terms of the Taylor expansion:
 
 $$
-f (x) \approx f \left(x _ {0}\right) + f ^ {\prime} \left(x _ {0}\right) \left(x - x _ {0}\right) \tag {C.11}
+f (x) \approx f \left(x_{0}\right) + f^{\prime} \left(x_{0}\right) \left(x - x_{0}\right) \tag {C.11}
 $$
 
 A quadratic Taylor approximation uses the first three terms:
 
 $$
-f (x) \approx f \left(x _ {0}\right) + f ^ {\prime} \left(x _ {0}\right) \left(x - x _ {0}\right) + \frac {1}{2} f ^ {\prime \prime} \left(x _ {0}\right) \left(x - x _ {0}\right) ^ {2} \tag {C.12}
+f (x) \approx f \left(x_{0}\right) + f^{\prime} \left(x_{0}\right) \left(x - x_{0}\right) + \frac{1}{2} f^{\prime \prime} \left(x_{0}\right) \left(x - x_{0}\right) ^{2} \tag {C.12}
 $$
 
 and so on.
@@ -17768,7 +17472,7 @@ and so on.
 In multiple dimensions, the Taylor expansion about  $\mathbf{x}_0$  generalizes to
 
 $$
-f (\mathbf {x}) = f \left(\mathbf {x} _ {0}\right) + \nabla f \left(\mathbf {x} _ {0}\right) ^ {\top} \left(\mathbf {x} - \mathbf {x} _ {0}\right) + \frac {1}{2} \left(\mathbf {x} - \mathbf {x} _ {0}\right) ^ {\top} \nabla^ {2} f \left(\mathbf {x} _ {0}\right) \left(\mathbf {x} - \mathbf {x} _ {0}\right) + \dots \tag {C.13}
+f (\mathbf {x}) = f \left(\mathbf {x}_{0}\right) + \nabla f \left(\mathbf {x}_{0}\right) ^{\top} \left(\mathbf {x} - \mathbf {x}_{0}\right) + \frac{1}{2} \left(\mathbf {x} - \mathbf {x}_{0}\right) ^{\top} \nabla^{2} f \left(\mathbf {x}_{0}\right) \left(\mathbf {x} - \mathbf {x}_{0}\right) + \dots \tag {C.13}
 $$
 
 The first two terms form the tangent plane at  $\mathbf{x}_0$ . The third term incorporates local curvature. This text will use only the first three terms shown here.
@@ -17784,7 +17488,7 @@ $$
 for some  $\alpha \in [0,1]$ . Convex combinations can be made from  $m$  vectors,
 
 $$
-w _ {1} \mathbf {v} ^ {(1)} + w _ {2} \mathbf {v} ^ {(2)} + \dots + w _ {m} \mathbf {v} ^ {(m)} \tag {C.15}
+w_{1} \mathbf {v}^{(1)} + w_{2} \mathbf {v}^{(2)} + \dots + w_{m} \mathbf {v}^{(m)} \tag {C.15}
 $$
 
 with nonnegative weights  $\mathbf{w}$  that sum to one.
@@ -17854,7 +17558,7 @@ Figure C.5. Convexity and unimodality are not the same thing.
 A norm is a function that assigns a length to a vector. To compute the distance between two vectors, we evaluate the norm of the difference between those two vectors. For example, the distance between points  $\mathbf{a}$  and  $\mathbf{b}$  using the Euclidean norm is
 
 $$
-\left\| \mathbf {a} - \mathbf {b} \right\| _ {2} = \sqrt {\left(a _ {1} - b _ {1}\right) ^ {2} + \left(a _ {2} - b _ {2}\right) ^ {2} + \cdots + \left(a _ {n} - b _ {n}\right) ^ {2}} \tag {C.19}
+\left\| \mathbf {a} - \mathbf {b} \right\| _{2} = \sqrt{\left(a_{1} - b_{1}\right) ^{2} + \left(a_{2} - b_{2}\right) ^{2} + \cdots + \left(a_{n} - b_{n}\right) ^{2}} \tag {C.19}
 $$
 
 A function  $f$  is a norm  $\mathrm{if}^4$
@@ -17868,7 +17572,7 @@ The  $L_{p}$  norms are a commonly used set of norms parameterized by a scalar  
 The  $L_{p}$  norms are defined according to:
 
 $$
-\left\| \mathbf {x} \right\| _ {p} = \lim  _ {\rho \rightarrow p} \left(| x _ {1} | ^ {\rho} + | x _ {2} | ^ {\rho} + \dots + | x _ {n} | ^ {\rho}\right) ^ {\frac {1}{\rho}} \tag {C.20}
+\left\| \mathbf {x} \right\| _{p} = \lim_{\rho \rightarrow p} \left(| x_{1} | ^{\rho} + | x_{2} | ^{\rho} + \dots + | x_{n} | ^{\rho}\right) ^{\frac{1}{\rho}} \tag {C.20}
 $$
 
 where the limit is necessary for defining the infinity norm,  $L_{\infty}$ .
@@ -17880,19 +17584,19 @@ This section derives two common gradients:  $\nabla_{\mathbf{x}}\mathbf{b}^{\top
 To obtain  $\nabla_{\mathbf{x}}\mathbf{b}^{\top}\mathbf{x}$ , we first expand the dot product:
 
 $$
-\mathbf {b} ^ {\top} \mathbf {x} = \left[ b _ {1} x _ {1} + b _ {2} x _ {2} + \dots + b _ {n} x _ {n} \right] \tag {C.21}
+\mathbf {b}^{\top} \mathbf {x} = \left[ b_{1} x_{1} + b_{2} x_{2} + \dots + b_{n} x_{n} \right] \tag {C.21}
 $$
 
 The partial derivative with respect to a single coordinate is:
 
 $$
-\frac {\partial}{\partial x _ {i}} \mathbf {b} ^ {\top} \mathbf {x} = b _ {i} \tag {C.22}
+\frac{\partial}{\partial x_{i}} \mathbf {b}^{\top} \mathbf {x} = b_{i} \tag {C.22}
 $$
 
 Thus, the gradient is:
 
 $$
-\nabla_ {\mathbf {x}} \mathbf {b} ^ {\top} \mathbf {x} = \nabla_ {\mathbf {x}} \mathbf {x} ^ {\top} \mathbf {b} = \mathbf {b} \tag {C.23}
+\nabla_{\mathbf {x}} \mathbf {b}^{\top} \mathbf {x} = \nabla_{\mathbf {x}} \mathbf {x}^{\top} \mathbf {b} = \mathbf {b} \tag {C.23}
 $$
 
 4 Some properties that follow from these axioms include:
@@ -17908,15 +17612,15 @@ $$
 5 The  $L_{\infty}$  norm is also referred to as the max norm, Chebyshev distance, or chessboard distance. The latter name comes from the minimum number of moves a chess king needs to move between two chess squares.
 
 $$
-L _ {1} \colon \| \mathbf {x} \| _ {1} = | x _ {1} | + | x _ {2} | + \dots + | x _ {n} |
+L_{1} \colon \| \mathbf {x} \| _{1} = | x_{1} | + | x_{2} | + \dots + | x_{n} |
 $$
 
 $$
-L _ {2} \colon \| \mathbf {x} \| _ {2} = \sqrt {x _ {1} ^ {2} + x _ {2} ^ {2} + \cdots + x _ {n} ^ {2}}
+L_{2} \colon \| \mathbf {x} \| _{2} = \sqrt{x_{1}^{2} + x_{2}^{2} + \cdots + x_{n}^{2}}
 $$
 
 $$
-L _ {\infty}: \| \mathbf {x} \| _ {\infty} = \max  \left(\left| x _ {1} \right|, \left| x _ {2} \right|, \dots , \left| x _ {n} \right|\right)
+L_{\infty}: \| \mathbf {x} \| _{\infty} = \max \left(\left| x_{1} \right|, \left| x_{2} \right|, \dots , \left| x_{n} \right|\right)
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/31599c98-0508-4426-95fa-1cc50cbc03bb/f5e942c2a4662983ff4339061243e7bfcdc7039fb652e248cd4ee431f8a88a4c.jpg)  
@@ -17925,19 +17629,19 @@ Table C.1. Common  $L_{p}$  norms. The illustrations show the shape of the norm 
 To obtain  $\nabla_{\mathbf{x}}\mathbf{x}^{\top}\mathbf{A}\mathbf{x}$  for a square matrix  $\mathbf{A}$ , we first expand  $\mathbf{x}^{\top}\mathbf{A}\mathbf{x}$ :
 
 $$
-\begin{array}{l} \mathbf {x} ^ {\top} \mathbf {A} \mathbf {x} = \left[ \begin{array}{l} x _ {1} \\ x _ {2} \\ \dots \\ x _ {n} \end{array} \right] ^ {\top} \left[ \begin{array}{c c c c} a _ {1 1} & a _ {1 2} & \dots & a _ {1 n} \\ a _ {2 1} & a _ {2 2} & \dots & a _ {2 n} \\ \vdots & \vdots & \ddots & \vdots \\ a _ {n 1} & a _ {n 2} & \dots & a _ {n n} \end{array} \right] \left[ \begin{array}{l} x _ {1} \\ x _ {2} \\ \dots \\ x _ {n} \end{array} \right] (C.24) \\ = \left[ \begin{array}{c} x _ {1} \\ x _ {2} \\ \dots \\ x _ {n} \end{array} \right] ^ {\top} \left[ \begin{array}{c} x _ {1} a _ {1 1} + x _ {2} a _ {1 2} + \dots + x _ {n} a _ {1 n} \\ x _ {1} a _ {2 1} + x _ {2} a _ {2 2} + \dots + x _ {n} a _ {2 n} \\ \vdots \\ x _ {1} a _ {n 1} + x _ {2} a _ {n 2} + \dots + x _ {n} a _ {n n} \end{array} \right] (C.25) \\ x _ {1} ^ {2} a _ {1 1} + x _ {1} x _ {2} a _ {1 2} + \dots + x _ {1} x _ {n} a _ {1 n} + \\ = \begin{array}{c} x _ {1} x _ {2} a _ {2 1} + x _ {2} ^ {2} a _ {2 2} + \dots + x _ {2} x _ {n} a _ {2 n} + \\ \vdots \end{array} (C.26) \\ x _ {1} x _ {n} a _ {n 1} + x _ {2} x _ {n} a _ {n 2} + \dots + x _ {n} ^ {2} a _ {n n} \\ \end{array}
+\begin{array}{l} \mathbf {x}^{\top} \mathbf {A} \mathbf {x} = \left[ \begin{array}{l} x_{1} \\ x_{2} \\ \dots \\ x_{n} \end{array} \right] ^{\top} \left[ \begin{array}{c c c c} a_{11} & a_{12} & \dots & a_{1 n} \\ a_{21} & a_{22} & \dots & a_{2 n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{n 1} & a_{n 2} & \dots & a_{n n} \end{array} \right] \left[ \begin{array}{l} x_{1} \\ x_{2} \\ \dots \\ x_{n} \end{array} \right] (C.24) \\ = \left[ \begin{array}{c} x_{1} \\ x_{2} \\ \dots \\ x_{n} \end{array} \right] ^{\top} \left[ \begin{array}{c} x_{1} a_{11} + x_{2} a_{12} + \dots + x_{n} a_{1 n} \\ x_{1} a_{21} + x_{2} a_{22} + \dots + x_{n} a_{2 n} \\ \vdots \\ x_{1} a_{n 1} + x_{2} a_{n 2} + \dots + x_{n} a_{n n} \end{array} \right] (C.25) \\ x_{1}^{2} a_{11} + x_{1} x_{2} a_{12} + \dots + x_{1} x_{n} a_{1 n} + \\ = \begin{array}{c} x_{1} x_{2} a_{21} + x_{2}^{2} a_{22} + \dots + x_{2} x_{n} a_{2 n} + \\ \vdots \end{array} (C.26) \\ x_{1} x_{n} a_{n 1} + x_{2} x_{n} a_{n 2} + \dots + x_{n}^{2} a_{n n} \\ \end{array}
 $$
 
 The partial derivative with respect to the  $i$ th component is
 
 $$
-\frac {\partial}{\partial x _ {i}} \mathbf {x} ^ {\top} \mathbf {A} \mathbf {x} = \sum_ {j = 1} ^ {n} x _ {j} \left(a _ {i j} + a _ {j i}\right) \tag {C.27}
+\frac{\partial}{\partial x_{i}} \mathbf {x}^{\top} \mathbf {A} \mathbf {x} = \sum_{j = 1}^{n} x_{j} \left(a_{i j} + a_{j i}\right) \tag {C.27}
 $$
 
 The gradient is thus:
 
 $$
-\begin{array}{l} \nabla_ {\mathbf {x}} \mathbf {x} ^ {\top} \mathbf {A} \mathbf {x} = \left[ \begin{array}{c} \sum_ {j = 1} ^ {n} x _ {j} \left(a _ {1 j} + a _ {j 1}\right) \\ \sum_ {j = 1} ^ {n} x _ {j} \left(a _ {2 j} + a _ {j 2}\right) \\ \vdots \\ \sum_ {j = 1} ^ {n} x _ {j} \left(a _ {n j} + a _ {j n}\right) \end{array} \right] (C.28) \\ = \left[ \begin{array}{c c c c} a _ {1 1} + a _ {1 1} & a _ {1 2} + a _ {2 1} & \dots & a _ {1 n} + a _ {n 1} \\ a _ {2 1} + a _ {1 2} & a _ {2 2} + a _ {2 2} & \dots & a _ {2 n} + a _ {n 2} \\ \vdots & \vdots & \ddots & \vdots \\ a _ {n 1} + a _ {1 n} & a _ {n 2} + a _ {2 n} & \dots & a _ {n n} + a _ {n n} \end{array} \right] \left[ \begin{array}{l} x _ {1} \\ x _ {2} \\ \vdots \\ x _ {n} \end{array} \right] (C.29) \\ = \left(\mathbf {A} + \mathbf {A} ^ {\top}\right) \mathbf {x} (C.30) \\ \end{array}
+\begin{array}{l} \nabla_{\mathbf {x}} \mathbf {x}^{\top} \mathbf {A} \mathbf {x} = \left[ \begin{array}{c} \sum_{j = 1}^{n} x_{j} \left(a_{1 j} + a_{j 1}\right) \\ \sum_{j = 1}^{n} x_{j} \left(a_{2 j} + a_{j 2}\right) \\ \vdots \\ \sum_{j = 1}^{n} x_{j} \left(a_{n j} + a_{j n}\right) \end{array} \right] (C.28) \\ = \left[ \begin{array}{c c c c} a_{11} + a_{11} & a_{12} + a_{21} & \dots & a_{1 n} + a_{n 1} \\ a_{21} + a_{12} & a_{22} + a_{22} & \dots & a_{2 n} + a_{n 2} \\ \vdots & \vdots & \ddots & \vdots \\ a_{n 1} + a_{1 n} & a_{n 2} + a_{2 n} & \dots & a_{n n} + a_{n n} \end{array} \right] \left[ \begin{array}{l} x_{1} \\ x_{2} \\ \vdots \\ x_{n} \end{array} \right] (C.29) \\ = \left(\mathbf {A} + \mathbf {A}^{\top}\right) \mathbf {x} (C.30) \\ \end{array}
 $$
 
 # C.6 Positive Definiteness
@@ -17947,7 +17651,7 @@ The positive definiteness of matrices arises in linear algebra and optimization 
 Positive definiteness is useful in optimization because it guarantees that a function has a unique global minimum under certain conditions. For example, if the matrix  $\mathbf{A}$  is positive definite in the function  $f(\mathbf{x}) = \mathbf{x}^{\top}\mathbf{A}\mathbf{x}$ , then  $f$  has a unique global minimum. If  $f$  is instead simply a twice-differentiable function, then the second-order Taylor approximation of  $f$  at  $\mathbf{x}_0$  is
 
 $$
-f (\mathbf {x}) \approx f \left(\mathbf {x} _ {0}\right) + \nabla f \left(\mathbf {x} _ {0}\right) ^ {\top} \left(\mathbf {x} - \mathbf {x} _ {0}\right) + \frac {1}{2} \left(\mathbf {x} - \mathbf {x} _ {0}\right) ^ {\top} \mathbf {H} _ {0} \left(\mathbf {x} - \mathbf {x} _ {0}\right) \tag {C.31}
+f (\mathbf {x}) \approx f \left(\mathbf {x}_{0}\right) + \nabla f \left(\mathbf {x}_{0}\right) ^{\top} \left(\mathbf {x} - \mathbf {x}_{0}\right) + \frac{1}{2} \left(\mathbf {x} - \mathbf {x}_{0}\right) ^{\top} \mathbf {H}_{0} \left(\mathbf {x} - \mathbf {x}_{0}\right) \tag {C.31}
 $$
 
 where  $\mathbf{H}_0$  is the Hessian of  $f$  evaluated at  $\mathbf{x}_0$ . Knowing that  $(\mathbf{x} - \mathbf{x}_0)^\top \mathbf{H}_0(\mathbf{x} - \mathbf{x}_0)$  has a unique global minimum is sufficient to determine whether the quadratic approximation has a unique global minimum.
@@ -17961,7 +17665,7 @@ A matrix decomposition or matrix factorization is the decomposition of a matrix 
 A Cholesky decomposition of  $\mathbf{A}$  satisfies
 
 $$
-\mathbf {A} = \mathbf {L L} ^ {\top} \tag {C.32}
+\mathbf {A} = \mathbf {L L}^{\top} \tag {C.32}
 $$
 
 where  $\mathbf{L}$  is a lower triangular matrix with positive diagonal entries. This decomposition is unique when  $\mathbf{A}$  is positive definite.
@@ -17975,31 +17679,29 @@ Solving a system of linear equations  $\mathbf{A}\mathbf{x} = \mathbf{b}$  for a
 In Julia, the Cholesky decomposition is provided by the cholesky method in LinearAlgebra.jl:
 
 ```txt
-julia> A = [21.0 -5.0 12.0; -5.0 13.0 -6.0; 12.0 -6.0 9.0];  
+julia> A = [21.0 -5.012.0; -5.013.0 -6.0; 12.0 -6.09.0];  
 julia> d = cholesky(A);  
 julia> d.L  
 3×3 LinearAlgebra.LowerTriangular{Float64, Matrix{Float64}}:  
 4.58258 · ·  
--1.09109 3.4365 · ·  
-2.61861 -0.914552 1.143  
+-1.091093.4365 · ·  
+2.61861 -0.9145521.143  
 julia> d.L*d.L'  
 3×3 Matrix{Float64}:  
-21.0 -5.0 12.0  
--5.0 13.0 -6.0  
-12.0 -6.0 9.0
+21.0 -5.012.0  
+-5.013.0 -6.012.0 -6.09.0
 ```
 
 The cholesky method also provides an upper triangular matrix  $U$  such that  $\mathbf{A} = \mathbf{U}^{\top}\mathbf{U}$ :
 
 ```txt
 julia> d.U  
-3×3 LinearAlgebra. UpperTriangular{Float64, Matrix{Float64}}: 4.58258 -1.09109 2.61861  
+3×3 LinearAlgebra. UpperTriangular{Float64, Matrix{Float64}}: 4.58258 -1.091092.61861  
 • 3.4365 -0.914552  
 • 1.143  
 julia> d.U'*d.U  
-3×3 Matrix{Float64}: 21.0 -5.0 12.0  
--5.0 13.0 -6.0  
-12.0 -6.0 9.0
+3×3 Matrix{Float64}: 21.0 -5.012.0  
+-5.013.0 -6.012.0 -6.09.0
 ```
 
 # C.7.2 LDL Decomposition
@@ -18007,7 +17709,7 @@ julia> d.U'*d.U
 An LDL decomposition modifies the Cholesky decomposition to incorporate an additional diagonal matrix  $\mathbf{D}$  such that:
 
 $$
-\mathbf {A} = \mathbf {L D L} ^ {\top} \tag {C.33}
+\mathbf {A} = \mathbf {L D L}^{\top} \tag {C.33}
 $$
 
 and  $\mathbf{L}$  is a lower triangular matrix whose diagonal entries are all 1. This decomposition is sometimes called the square-root-free Cholesky decomposition because it avoids computing square roots.
@@ -18015,7 +17717,7 @@ and  $\mathbf{L}$  is a lower triangular matrix whose diagonal entries are all 1
 We can recover a Cholesky decomposition from this decomposition through
 
 $$
-\mathbf {A} = \mathbf {L D L} ^ {\top} = \mathbf {L D} ^ {1 / 2} \left(\mathbf {D} ^ {1 / 2}\right) ^ {\top} \mathbf {L} ^ {\top} = \left(\mathbf {L D} ^ {1 / 2}\right) \left(\mathbf {L D} ^ {1 / 2}\right) ^ {\top} \tag {C.34}
+\mathbf {A} = \mathbf {L D L}^{\top} = \mathbf {L D}^{1 / 2} \left(\mathbf {D}^{1 / 2}\right) ^{\top} \mathbf {L}^{\top} = \left(\mathbf {L D}^{1 / 2}\right) \left(\mathbf {L D}^{1 / 2}\right) ^{\top} \tag {C.34}
 $$
 
 In Julia, the LDL decomposition is provided by the ldt method in LinearAlgebra.jl. The implementation requires that A be tridiagonal.
@@ -18033,7 +17735,7 @@ for an  $m \times n$  lower triangular  $\mathbf{L}$  and an  $n \times n$  orth
 An orthogonal matrix, or orthonormal matrix, satisfies  $\mathbf{Q}^{\top}\mathbf{Q} = \mathbf{Q}\mathbf{Q}^{\top} = \mathbf{I}$ . As such, the transpose of an orthogonal matrix is also its inverse,  $\mathbf{Q}^{\top} = \mathbf{Q}^{-1}$ . Multiplication by an Orthogonal matrix also preserves the dot product:
 
 $$
-\mathbf {u} \cdot \mathbf {v} = \mathbf {u} ^ {\top} \mathbf {v} = \mathbf {u} ^ {\top} \mathbf {Q} ^ {\top} \mathbf {Q} \mathbf {v} = (\mathbf {Q} \mathbf {u}) ^ {\top} (\mathbf {Q} \mathbf {v}) \tag {C.36}
+\mathbf {u} \cdot \mathbf {v} = \mathbf {u}^{\top} \mathbf {v} = \mathbf {u}^{\top} \mathbf {Q}^{\top} \mathbf {Q} \mathbf {v} = (\mathbf {Q} \mathbf {u}) ^{\top} (\mathbf {Q} \mathbf {v}) \tag {C.36}
 $$
 
 In Julia, the LQ decomposition is provided by the lq method in LinearAlgebra.jl:
@@ -18043,15 +17745,13 @@ julia> d = lq(A)
 LinearAlgebra.LQ{Float64, Matrix{Float64}, Vector{Float64}}  
 L factor:  
 3×3 Matrix{Float64}:  
--24.6982 0.0 0.0  
-9.79829 -11.5756 0.0  
--15.7906 3.22047 1.13328  
+-24.69820.00.09.79829 -11.57560.0  
+-15.79063.220471.13328  
 Q factor: 3×3 LinearAlgebra.LQPackedQ{Float64, Matrix{Float64}, Vector{Float64}}  
 julia> d.L * d.Q  
 3×3 Matrix{Float64}:  
-21.0 -5.0 12.0  
--5.0 13.0 -6.0  
-12.0 -6.0 9.0
+21.0 -5.012.0  
+-5.013.0 -6.012.0 -6.09.0
 ```
 
 # C.7.4 Singular Value Decomposition
@@ -18059,7 +17759,7 @@ julia> d.L * d.Q
 A singular value decomposition of an  $m \times n$  matrix  $\mathbf{A}$  satisfies
 
 $$
-\mathbf {A} = \mathbf {U S V} ^ {\top} \tag {C.37}
+\mathbf {A} = \mathbf {U S V}^{\top} \tag {C.37}
 $$
 
 where  $\mathbf{U}$  is an  $m \times m$  orthogonal matrix,  $\mathbf{S}$  is an  $m \times n$  nonnegative diagonal matrix, and  $\mathbf{V}$  is an  $n \times n$  orthogonal matrix. Singular value decomposition is useful in a wide range of applications, including least squares fitting, computing the pseudoinverse, identifying the rank of a matrix, and dimensionality reduction.
@@ -18073,30 +17773,26 @@ julia> d = svd(A)
 LinearAlgebra.SVD{Float64, Float64, Matrix{Float64}, Vector{Float64}}  
 U factor:  
 3×3 Matrix{Float64}:  
--0.771231 -0.445746 -0.454438  
-0.376402 -0.89506 0.239144  
--0.513346 0.0133833 0.858077  
+-0.771231 -0.445746 -0.4544380.376402 -0.895060.239144  
+-0.5133460.01338330.858077  
 singular values:  
 3-element Vector{Float64}:  
-31.4277  
-10.5997  
-0.972612  
+31.427710.59970.972612  
 Vt factor:  
 3×3 Matrix{Float64}:  
--0.771231 0.376402 -0.513346  
--0.445746 -0.89506 0.0133833  
--0.454438 0.239144 0.858077  
+-0.7712310.376402 -0.513346  
+-0.445746 -0.895060.0133833  
+-0.4544380.2391440.858077  
 julia> d.U * Diagonal(d.S) * d.Vt  
 3×3 Matrix{Float64}:  
-21.0 -5.0 12.0  
--5.0 13.0 -6.0  
-12.0 -6.0 9.0
+21.0 -5.012.0  
+-5.013.0 -6.012.0 -6.09.0
 ```
 
 The singular value decomposition is an example of a complete orthogonal decomposition,
 
 $$
-\mathbf {A} = \mathbf {U} \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V} ^ {\top} \tag {C.38}
+\mathbf {A} = \mathbf {U} \left[ \begin{array}{l l} \mathbf {T} & \mathbf {0} \\ \mathbf {0} & \mathbf {0} \end{array} \right] \mathbf {V}^{\top} \tag {C.38}
 $$
 
 where  $\mathbf{U}$  is an  $m \times m$  orthogonal matrix,  $\mathbf{T}$  is an  $m \times n$  nonnegative diagonal matrix, and  $\mathbf{V}$  is an  $n \times n$  orthogonal matrix.
@@ -18108,7 +17804,7 @@ where  $\mathbf{U}$  is an  $m \times m$  orthogonal matrix,  $\mathbf{T}$  is a
 The probability density function for a univariate Gaussian, also called the normal distribution, is:
 
 $$
-\mathcal {N} (x \mid \mu , \nu) = \frac {1}{\sqrt {2 \pi \nu}} e ^ {- \frac {(x - \mu) ^ {2}}{2 \nu}} \tag {C.39}
+\mathcal {N} (x \mid \mu , \nu) = \frac{1}{\sqrt{2 \pi \nu}} e^{- \frac{(x - \mu) ^{2}}{2 \nu}} \tag {C.39}
 $$
 
 where  $\mu$  is the mean and  $\nu$  is the variance. The standard deviation is  $\sigma = \sqrt{\nu}$ . This distribution is plotted in figure C.6.
@@ -18116,13 +17812,13 @@ where  $\mu$  is the mean and  $\nu$  is the variance. The standard deviation is
 The cumulative distribution function of a distribution maps  $x$  to the probability that drawing a value from that distribution will produce a value less than or equal to  $x$ . For a univariate Gaussian, the cumulative distribution function is given by
 
 $$
-\Phi (x) \equiv \frac {1}{2} + \frac {1}{2} \operatorname {e r f} \left(\frac {x - \mu}{\sigma \sqrt {2}}\right) \tag {C.40}
+\Phi (x) \equiv \frac{1}{2} + \frac{1}{2} \operatorname{erf} \left(\frac{x - \mu}{\sigma \sqrt{2}}\right) \tag {C.40}
 $$
 
 where erf is the error function:
 
 $$
-\operatorname {e r f} (x) \equiv \frac {2}{\sqrt {\pi}} \int_ {0} ^ {x} e ^ {- \tau^ {2}} d \tau \tag {C.41}
+\operatorname{erf} (x) \equiv \frac{2}{\sqrt{\pi}} \int_{0}^{x} e^{- \tau^{2}} d \tau \tag {C.41}
 $$
 
 # C.9 Gaussian Quadrature
@@ -18130,7 +17826,7 @@ $$
 Gaussian quadrature is a technique for approximating integrals using a weighted sum of function evaluations. $^{10}$  The general form of the approximation is
 
 $$
-\int_ {a} ^ {b} p (x) f (x) d x \approx \sum_ {i = 1} ^ {m} w _ {i} f \left(x _ {i}\right) \tag {C.42}
+\int_{a}^{b} p (x) f (x) d x \approx \sum_{i = 1}^{m} w_{i} f \left(x_{i}\right) \tag {C.42}
 $$
 
 where  $p(x)$  is a known nonnegative weight function<sup>11</sup> over the finite or infinite interval  $[a, b]$ .
@@ -18149,7 +17845,7 @@ The weight function is often a probability density function in practice.
 Given a domain and a weight function, we can compute a class of orthogonal polynomials. We will use  $b_{i}(x)$  to denote an orthogonal polynomial<sup>12</sup> of degree  $i$ . Any polynomial of degree  $m$  can be represented as a linear combination of the orthogonal polynomials up to degree  $m$ . We form a quadrature rule by selecting  $m$  points  $x_{i}$  to be the zeros of the orthogonal polynomial  $p_{m}$  and obtain the weights by solving the system of equations:
 
 $$
-\sum_ {i = 1} ^ {m} b _ {k} \left(x _ {i}\right) w _ {i} = \left\{ \begin{array}{l l} \int_ {a} ^ {b} p (x) b _ {0} (x) ^ {2} d x & \text {f o r} k = 0 \\ 0 & \text {f o r} k = 1, \dots , m - 1 \end{array} \right. \tag {C.43}
+\sum_{i = 1}^{m} b_{k} \left(x_{i}\right) w_{i} = \left\{ \begin{array}{l l} \int_{a}^{b} p (x) b_{0} (x) ^{2} d x & \text{for} k = 0 \\ 0 & \text{for} k = 1, \dots , m - 1 \end{array} \right. \tag {C.43}
 $$
 
 12 Orthogonal polynomials are covered in chapter 21.
@@ -18159,11 +17855,11 @@ Consider the Legendre polynomials for integration over  $[-1, 1]$  with the weig
 The Legendre polynomial of degree 3 is  $\mathrm{Le}_3(x) = \frac{5}{2} x^3 - \frac{3}{2} x$ , which has roots at  $x_1 = -\sqrt{3/5}$ ,  $x_2 = 0$ , and  $x_3 = \sqrt{3/5}$ . The Legendre polynomials of lesser degree are  $\mathrm{Le}_0(x) = 1$ ,  $\mathrm{Le}_1(x) = x$ , and  $\mathrm{Le}_2(x) = \frac{3}{2} x^2 - \frac{1}{2}$ . The weights are obtained by solving the system of equations:
 
 $$
-\left[ \begin{array}{c c c} \mathrm {L e} _ {0} (- \sqrt {3 / 5}) & \mathrm {L e} _ {0} (0) & \mathrm {L e} _ {0} (\sqrt {3 / 5}) \\ \mathrm {L e} _ {1} (- \sqrt {3 / 5}) & \mathrm {L e} _ {1} (0) & \mathrm {L e} _ {1} (\sqrt {3 / 5}) \\ \mathrm {L e} _ {2} (- \sqrt {3 / 5}) & \mathrm {L e} _ {2} (0) & \mathrm {L e} _ {2} (\sqrt {3 / 5}) \end{array} \right] \left[ \begin{array}{c} w _ {1} \\ w _ {2} \\ w _ {3} \end{array} \right] = \left[ \begin{array}{c} \int_ {- 1} ^ {1} \mathrm {L e} _ {0} (x) ^ {2}   d x \\ 0 \\ 0 \end{array} \right]
+\left[ \begin{array}{c c c} \mathrm{Le}_{0} (- \sqrt{3 / 5}) & \mathrm{Le}_{0} (0) & \mathrm{Le}_{0} (\sqrt{3 / 5}) \\ \mathrm{Le}_{1} (- \sqrt{3 / 5}) & \mathrm{Le}_{1} (0) & \mathrm{Le}_{1} (\sqrt{3 / 5}) \\ \mathrm{Le}_{2} (- \sqrt{3 / 5}) & \mathrm{Le}_{2} (0) & \mathrm{Le}_{2} (\sqrt{3 / 5}) \end{array} \right] \left[ \begin{array}{c} w_{1} \\ w_{2} \\ w_{3} \end{array} \right] = \left[ \begin{array}{c} \int_{- 1}^{1} \mathrm{Le}_{0} (x) ^{2}   d x \\ 0 \\ 0 \end{array} \right]
 $$
 
 $$
-\left[ \begin{array}{c c c} 1 & 1 & 1 \\ - \sqrt {3 / 5} & 0 & \sqrt {3 / 5} \\ 4 / 1 0 & - 1 / 2 & 4 / 1 0 \end{array} \right] \left[ \begin{array}{c} w _ {1} \\ w _ {2} \\ w _ {3} \end{array} \right] = \left[ \begin{array}{c} 2 \\ 0 \\ 0 \end{array} \right]
+\left[ \begin{array}{c c c} 1 & 1 & 1 \\ - \sqrt{3 / 5} & 0 & \sqrt{3 / 5} \\ 4 / 10 & - 1 / 2 & 4 / 10 \end{array} \right] \left[ \begin{array}{c} w_{1} \\ w_{2} \\ w_{3} \end{array} \right] = \left[ \begin{array}{c} 2 \\ 0 \\ 0 \end{array} \right]
 $$
 
 which yields  $w_{1} = w_{3} = 5 / 9$  and  $w_{2} = 8 / 9$ .
@@ -18171,7 +17867,7 @@ which yields  $w_{1} = w_{3} = 5 / 9$  and  $w_{2} = 8 / 9$ .
 Consider integrating the 5th degree polynomial  $f(x) = x^{5} - 2x^{4} + 3x^{3} + 5x^{2} - x + 4$ . The exact value is  $\int_{-1}^{1} p(x)f(x) \, dx = 158 / 15 \approx 10.533$ . The quadrature rule produces the same value:
 
 $$
-\sum_ {i = 1} ^ {3} w _ {i} f (x _ {i}) = \frac {5}{9} f \left(- \sqrt {\frac {3}{5}}\right) + \frac {8}{9} f (0) + \frac {5}{9} f \left(\sqrt {\frac {3}{5}}\right) \approx 1 0. 5 3 3.
+\sum_{i = 1}^{3} w_{i} f (x_{i}) = \frac{5}{9} f \left(- \sqrt{\frac{3}{5}}\right) + \frac{8}{9} f (0) + \frac{5}{9} f \left(\sqrt{\frac{3}{5}}\right) \approx 10. 53 3.
 $$
 
 Example C.3. Obtaining a 3-term quadrature rule for exactly integrating polynomials up to degree 5.
@@ -18181,7 +17877,7 @@ Gauss solved equation (C.43) for the interval  $[-1, 1]$  and the weighting func
 We can transform any integral over the bounded interval  $[a, b]$  to an integral over  $[-1, 1]$  using the transformation
 
 $$
-\int_ {a} ^ {b} f (x) d x = \frac {b - a}{2} \int_ {- 1} ^ {1} f \left(\frac {b - a}{2} x + \frac {a + b}{2}\right) d x \tag {C.44}
+\int_{a}^{b} f (x) d x = \frac{b - a}{2} \int_{- 1}^{1} f \left(\frac{b - a}{2} x + \frac{a + b}{2}\right) d x \tag {C.44}
 $$
 
 Quadrature rules can thus be precalculated for the Legendre polynomials and then applied to integration over any finite interval. [13] Example C.4 applies such a transformation and algorithm C.2 implements integral transformations in a Gaussian quadrature method for finite domains.
@@ -18189,13 +17885,13 @@ Quadrature rules can thus be precalculated for the Legendre polynomials and then
 Consider integrating  $f(x) = x^{5} - 2x^{4} + 3x^{3} + 5x^{2} - x + 4$  over  $[-3,5]$ . We can transform this into an integration over  $[-1,1]$  using equation (C.44):
 
 $$
-\int_ {- 3} ^ {5} f (x) d x = \frac {5 + 3}{2} \int_ {- 1} ^ {1} f \left(\frac {5 + 3}{2} x + \frac {5 - 3}{2}\right) d x = 4 \int_ {- 1} ^ {1} f (4 x + 1) d x
+\int_{- 3}^{5} f (x) d x = \frac{5 + 3}{2} \int_{- 1}^{1} f \left(\frac{5 + 3}{2} x + \frac{5 - 3}{2}\right) d x = 4 \int_{- 1}^{1} f (4 x + 1) d x
 $$
 
 We use the 3-term quadrature rule obtained in example C.3 to integrate  $g(x) = 4f(4x + 1) = 4096x^5 + 3072x^4 + 1280y^3 + 768y^2 + 240y + 40$  over  $[-1,1]$ :
 
 $$
-\int_ {- 1} ^ {1} p (x) g (x) d x = \frac {5}{9} g (- \sqrt {3 / 5}) + \frac {8}{9} g (0) + \frac {5}{9} g (\sqrt {3 / 5}) = 1 8 2 0. 8
+\int_{- 1}^{1} p (x) g (x) d x = \frac{5}{9} g (- \sqrt{3 / 5}) + \frac{8}{9} g (0) + \frac{5}{9} g (\sqrt{3 / 5}) = 18 20. 8
 $$
 
 13 Similar techniques can be applied to integration over infinite intervals, such as  $[0,\infty)$  using the Laguerre polynomials and  $(-\infty ,\infty)$  using the Hermite polynomials.

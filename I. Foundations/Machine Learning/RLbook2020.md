@@ -81,9 +81,7 @@ Identifiers: LCCN 2018023826 | ISBN 9780262039246 (hardcover : alk. paper)
 
 Subjects: LCSH: Reinforcement learning.
 
-Classification: LCC Q325.6 .R45 2018 | DDC 006.3/1--dc23 LC record available at https://lccn.loc.gov/2018023826
-
-10 9 8 7 6 5 4 3 2 1
+Classification: LCC Q325.6 .R452018 | DDC 006.3/1--dc23 LC record available at https://lccn.loc.gov/2018023826109 87 65 43 21
 
 In memory of A. Harry Klopf
 
@@ -95,235 +93,43 @@ Preface to the First Edition xvii
 
 Summary of Notation xix
 
-1 Introduction 1
+1 Introduction 11.1 Reinforcement Learning 11.2 Examples 41.3 Elements of Reinforcement Learning 61.4 Limitations and Scope 71.5 An Extended Example: Tic-Tac-Toe 81.6 Summary 131.7 Early History of Reinforcement Learning 13
 
-1.1 Reinforcement Learning 1  
-1.2 Examples 4  
-1.3 Elements of Reinforcement Learning 6  
-1.4 Limitations and Scope 7  
-1.5 An Extended Example: Tic-Tac-Toe 8  
-1.6 Summary 13  
-1.7 Early History of Reinforcement Learning 13
+I Tabular Solution Methods 232 Multi-armed Bandits 252.1 A  $k$ -armed Bandit Problem 252.2 Action-value Methods 272.3 The 10-armed Testbed 282.4 Incremental Implementation 302.5 Tracking a Nonstationary Problem 322.6 Optimistic Initial Values 342.7 Upper-Confidence-Bound Action Selection 352.8 Gradient Bandit Algorithms 372.9 Associative Search (Contextual Bandits) 412.10 Summary 42
 
-I Tabular Solution Methods 23
+# 3 Finite Markov Decision Processes 473.1 The Agent-Environment Interface 473.2 Goals and Rewards 533.3 Returns and Episodes 543.4 Unified Notation for Episodic and Continuing Tasks 573.5 Policies and Value Functions 583.6 Optimal Policies and Optimal Value Functions 623.7 Optimality and Approximation 673.8 Summary 68
 
-2 Multi-armed Bandits 25
+# 4 Dynamic Programming 734.1 Policy Evaluation (Prediction) 744.2 Policy Improvement 764.3 Policy Iteration 804.4 Value Iteration 824.5 Asynchronous Dynamic Programming 854.6 Generalized Policy Iteration 864.7 Efficiency of Dynamic Programming 874.8 Summary 88
 
-2.1 A  $k$ -armed Bandit Problem 25  
-2.2 Action-value Methods 27  
-2.3 The 10-armed Testbed 28  
-2.4 Incremental Implementation 30  
-2.5 Tracking a Nonstationary Problem 32  
-2.6 Optimistic Initial Values 34  
-2.7 Upper-Confidence-Bound Action Selection 35  
-2.8 Gradient Bandit Algorithms 37  
-2.9 Associative Search (Contextual Bandits) 41  
-2.10 Summary 42
+# 5 Monte Carlo Methods 915.1 Monte Carlo Prediction 925.2 Monte Carlo Estimation of Action Values 965.3 Monte Carlo Control 975.4 Monte Carlo Control without Exploring Starts 1005.5 Off-policy Prediction via Importance Sampling 1035.6 Incremental Implementation 1095.7 Off-policy Monte Carlo Control 1105.8 *Discounting-aware Importance Sampling 1125.9 \*Per-decision Importance Sampling 1145.10 Summary 115
 
-# 3 Finite Markov Decision Processes 47
+# 6 Temporal-Difference Learning 1196.1 TD Prediction 1196.2 Advantages of TD Prediction Methods 1246.3 Optimality of TD(0) 1266.4Sarsa:On-policyTDControl 1296.5 Q-learning: Off-policy TD Control 1316.6 Expected Sarsa 1336.7 Maximization Bias and Double Learning 1346.8 Games, Afterstates, and Other Special Cases 1366.9 Summary 138
 
-3.1 The Agent-Environment Interface 47  
-3.2 Goals and Rewards 53  
-3.3 Returns and Episodes 54  
-3.4 Unified Notation for Episodic and Continuing Tasks 57  
-3.5 Policies and Value Functions 58  
-3.6 Optimal Policies and Optimal Value Functions 62  
-3.7 Optimality and Approximation 67  
-3.8 Summary 68
+# 7  $n$  -step Bootstrapping 1417.1  $n$  -step TD Prediction 1427.2  $n$  -stepSarsa 1457.3  $n$  -step Off-policy Learning 1487.4 *Per-decision Methods with Control Variates 1507.5 Off-policy Learning Without Importance Sampling: The  $n$ -step Tree Backup Algorithm 1527.6 \*A Unifying Algorithm:  $n$  -step  $Q(\sigma)$  1547.7 Summary 157
 
-# 4 Dynamic Programming 73
-
-4.1 Policy Evaluation (Prediction) 74  
-4.2 Policy Improvement 76  
-4.3 Policy Iteration 80  
-4.4 Value Iteration 82  
-4.5 Asynchronous Dynamic Programming 85  
-4.6 Generalized Policy Iteration 86  
-4.7 Efficiency of Dynamic Programming 87  
-4.8 Summary 88
-
-# 5 Monte Carlo Methods 91
-
-5.1 Monte Carlo Prediction 92  
-5.2 Monte Carlo Estimation of Action Values 96  
-5.3 Monte Carlo Control 97  
-5.4 Monte Carlo Control without Exploring Starts 100  
-5.5 Off-policy Prediction via Importance Sampling 103  
-5.6 Incremental Implementation 109  
-5.7 Off-policy Monte Carlo Control 110  
-5.8 *Discounting-aware Importance Sampling 112  
-5.9 \*Per-decision Importance Sampling 114  
-5.10 Summary 115
-
-# 6 Temporal-Difference Learning 119
-
-6.1 TD Prediction 119  
-6.2 Advantages of TD Prediction Methods 124  
-6.3 Optimality of TD(0) 126  
-6.4Sarsa:On-policyTDControl 129  
-6.5 Q-learning: Off-policy TD Control 131  
-6.6 Expected Sarsa 133  
-6.7 Maximization Bias and Double Learning 134  
-6.8 Games, Afterstates, and Other Special Cases 136  
-6.9 Summary 138
-
-# 7  $n$  -step Bootstrapping 141
-
-7.1  $n$  -step TD Prediction 142  
-7.2  $n$  -stepSarsa 145  
-7.3  $n$  -step Off-policy Learning 148  
-7.4 *Per-decision Methods with Control Variates 150  
-7.5 Off-policy Learning Without Importance Sampling: The  $n$ -step Tree Backup Algorithm 152  
-7.6 \*A Unifying Algorithm:  $n$  -step  $Q(\sigma)$  154  
-7.7 Summary 157
-
-# 8 Planning and Learning with Tabular Methods 159
-
-8.1 Models and Planning 159  
-8.2 Dyna: Integrated Planning, Acting, and Learning 161  
-8.3 When the Model Is Wrong 166  
-8.4 Prioritized Sweeping 168  
-8.5 Expected vs. Sample Updates 172  
-8.6 Trajectory Sampling 174  
-8.7 Real-time Dynamic Programming 177  
-8.8 Planning at Decision Time 180  
-8.9 Heuristic Search 181  
-8.10 Rollout Algorithms 183  
-8.11 Monte Carlo Tree Search 185  
-8.12 Summary of the Chapter 188  
-8.13 Summary of Part I: Dimensions 189
+# 8 Planning and Learning with Tabular Methods 1598.1 Models and Planning 1598.2 Dyna: Integrated Planning, Acting, and Learning 1618.3 When the Model Is Wrong 1668.4 Prioritized Sweeping 1688.5 Expected vs. Sample Updates 1728.6 Trajectory Sampling 1748.7 Real-time Dynamic Programming 1778.8 Planning at Decision Time 1808.9 Heuristic Search 1818.10 Rollout Algorithms 1838.11 Monte Carlo Tree Search 1858.12 Summary of the Chapter 1888.13 Summary of Part I: Dimensions 189
 
 # II Approximate Solution Methods 195
 
-# 9 On-policy Prediction with Approximation 197
+# 9 On-policy Prediction with Approximation 1979.1 Value-function Approximation 1989.2 The Prediction Objective (VE) 1999.3 Stochastic-gradient and Semi-gradient Methods 2009.4 Linear Methods 2049.5 Feature Construction for Linear Methods 2109.5.1 Polynomials 2109.5.2 Fourier Basis 2119.5.3 Coarse Coding 2159.5.4 Tile Coding 2179.5.5 Radial Basis Functions 2219.6 Selecting Step-Size Parameters Manually 2229.7 Nonlinear Function Approximation: Artificial Neural Networks 2239.8 Least-Squares TD 2289.9 Memory-based Function Approximation 2309.10 Kernel-based Function Approximation 2329.11 Looking Deeper at On-policy Learning: Interest and Emphasis 2349.12 Summary 236
 
-9.1 Value-function Approximation 198  
-9.2 The Prediction Objective (VE) 199  
-9.3 Stochastic-gradient and Semi-gradient Methods 200  
-9.4 Linear Methods 204  
-9.5 Feature Construction for Linear Methods 210
+# 10 On-policy Control with Approximation 24310.1 Episodic Semi-gradient Control 24310.2 Semi-gradient  $n$  -step Sarsa 24710.3 Average Reward: A New Problem Setting for Continuing Tasks 24910.4 Deprecating the Discounted Setting 25310.5 Differential Semi-gradient  $n$  -step Sarsa 25510.6 Summary 256
 
-9.5.1 Polynomials 210  
-9.5.2 Fourier Basis 211  
-9.5.3 Coarse Coding 215  
-9.5.4 Tile Coding 217  
-9.5.5 Radial Basis Functions 221
+# 11\*Off-policy Methods with Approximation 25711.1 Semi-gradient Methods 25811.2 Examples of Off-policy Divergence 26011.3 The Deadly Triad 26411.4 Linear Value-function Geometry 26611.5 Gradient Descent in the Bellman Error 26911.6 The Bellman Error is Not Learnable 27411.7 Gradient-TD Methods 27811.8 Emphatic-TD Methods 28111.9 Reducing Variance 28311.10 Summary 284
 
-9.6 Selecting Step-Size Parameters Manually 222  
-9.7 Nonlinear Function Approximation: Artificial Neural Networks 223  
-9.8 Least-Squares TD 228
+# 12 Eligibility Traces 28712.1 The  $\lambda$  -return 28812.2 TD(λ) 29212.3  $n$  -step Truncated  $\lambda$  -return Methods 29512.4 Redoing Updates: Online  $\lambda$ -return Algorithm 29712.5 True Online  $\mathrm{TD}(\lambda)$  29912.6 *Dutch Traces in Monte Carlo Learning 30112.7 Sarsa(λ) 30312.8 Variable  $\lambda$  and  $\gamma$  30712.9 Off-policy Traces with Control Variates 30912.10 Watkins's  $Q(\lambda)$  to Tree-Backup  $(\lambda)$  31212.11 Stable Off-policy Methods with Traces 31412.12 Implementation Issues 31612.13 Conclusions 317
 
-9.9 Memory-based Function Approximation 230  
-9.10 Kernel-based Function Approximation 232  
-9.11 Looking Deeper at On-policy Learning: Interest and Emphasis 234  
-9.12 Summary 236
-
-# 10 On-policy Control with Approximation 243
-
-10.1 Episodic Semi-gradient Control 243  
-10.2 Semi-gradient  $n$  -step Sarsa 247  
-10.3 Average Reward: A New Problem Setting for Continuing Tasks 249  
-10.4 Deprecating the Discounted Setting 253  
-10.5 Differential Semi-gradient  $n$  -step Sarsa 255  
-10.6 Summary 256
-
-# 11\*Off-policy Methods with Approximation 257
-
-11.1 Semi-gradient Methods 258  
-11.2 Examples of Off-policy Divergence 260  
-11.3 The Deadly Triad 264  
-11.4 Linear Value-function Geometry 266  
-11.5 Gradient Descent in the Bellman Error 269  
-11.6 The Bellman Error is Not Learnable 274  
-11.7 Gradient-TD Methods 278  
-11.8 Emphatic-TD Methods 281  
-11.9 Reducing Variance 283  
-11.10 Summary 284
-
-# 12 Eligibility Traces 287
-
-12.1 The  $\lambda$  -return 288  
-12.2 TD(λ) 292  
-12.3  $n$  -step Truncated  $\lambda$  -return Methods 295  
-12.4 Redoing Updates: Online  $\lambda$ -return Algorithm 297  
-12.5 True Online  $\mathrm{TD}(\lambda)$  299  
-12.6 *Dutch Traces in Monte Carlo Learning 301  
-12.7 Sarsa(λ) 303  
-12.8 Variable  $\lambda$  and  $\gamma$  307  
-12.9 Off-policy Traces with Control Variates 309  
-12.10 Watkins's  $Q(\lambda)$  to Tree-Backup  $(\lambda)$  312  
-12.11 Stable Off-policy Methods with Traces 314  
-12.12 Implementation Issues 316  
-12.13 Conclusions 317
-
-# 13 Policy Gradient Methods 321
-
-13.1 Policy Approximation and its Advantages 322  
-13.2 The Policy Gradient Theorem 324  
-13.3 REINFORCE: Monte Carlo Policy Gradient 326  
-13.4 REINFORCE with Baseline 329  
-13.5 Actor-Critic Methods 331  
-13.6 Policy Gradient for Continuing Problems 333  
-13.7 Policy Parameterization for Continuous Actions 335  
-13.8 Summary 337
+# 13 Policy Gradient Methods 32113.1 Policy Approximation and its Advantages 32213.2 The Policy Gradient Theorem 32413.3 REINFORCE: Monte Carlo Policy Gradient 32613.4 REINFORCE with Baseline 32913.5 Actor-Critic Methods 33113.6 Policy Gradient for Continuing Problems 33313.7 Policy Parameterization for Continuous Actions 33513.8 Summary 337
 
 # III Looking Deeper 339
 
-# 14 Psychology 341
+# 14 Psychology 34114.1 Prediction and Control 34214.2 Classical Conditioning 34314.2.1 Blocking and Higher-order Conditioning 34514.2.2 The Rescorla-Wagner Model 34614.2.3 The TD Model 34914.2.4 TD Model Simulations 35014.3 Instrumental Conditioning 35714.4 Delayed Reinforcement 36114.5 Cognitive Maps 36314.6 Habitual and Goal-directed Behavior 36414.7 Summary 368
 
-14.1 Prediction and Control 342  
-14.2 Classical Conditioning 343
+# 15 Neuroscience 37715.1 Neuroscience Basics 37815.2 Reward Signals, Reinforcement Signals, Values, and Prediction Errors 38015.3 The Reward Prediction Error Hypothesis 38115.4 Dopamine 38315.5 Experimental Support for the Reward Prediction Error Hypothesis 38715.6 TD Error/Dopamine Correspondence 39015.7 Neural Actor-Critic 39515.8 Actor and Critic Learning Rules 39815.9 Hedonistic Neurons 40215.10 Collective Reinforcement Learning 40415.11 Model-based Methods in the Brain 40715.12Addiction 40915.13 Summary 410
 
-14.2.1 Blocking and Higher-order Conditioning 345  
-14.2.2 The Rescorla-Wagner Model 346  
-14.2.3 The TD Model 349  
-14.2.4 TD Model Simulations 350
+# 16 Applications and Case Studies 42116.1 TD-Gammon 42116.2 Samuel's Checkers Player 42616.3 Watson's Daily-Double Waging 42916.4 Optimizing Memory Control 43216.5 Human-level Video Game Play 43616.6 Mastering the Game of Go 44116.6.1 AlphaGo 44416.6.2 AlphaGo Zero 44716.7 Personalized Web Services 45016.8 Thermal Soaring 453
 
-14.3 Instrumental Conditioning 357  
-14.4 Delayed Reinforcement 361  
-14.5 Cognitive Maps 363  
-14.6 Habitual and Goal-directed Behavior 364  
-14.7 Summary 368
-
-# 15 Neuroscience 377
-
-15.1 Neuroscience Basics 378  
-15.2 Reward Signals, Reinforcement Signals, Values, and Prediction Errors 380  
-15.3 The Reward Prediction Error Hypothesis 381  
-15.4 Dopamine 383  
-15.5 Experimental Support for the Reward Prediction Error Hypothesis 387  
-15.6 TD Error/Dopamine Correspondence 390  
-15.7 Neural Actor-Critic 395  
-15.8 Actor and Critic Learning Rules 398  
-15.9 Hedonistic Neurons 402  
-15.10 Collective Reinforcement Learning 404  
-15.11 Model-based Methods in the Brain 407  
-15.12Addiction 409  
-15.13 Summary 410
-
-# 16 Applications and Case Studies 421
-
-16.1 TD-Gammon 421  
-16.2 Samuel's Checkers Player 426  
-16.3 Watson's Daily-Double Waging 429  
-16.4 Optimizing Memory Control 432  
-16.5 Human-level Video Game Play 436  
-16.6 Mastering the Game of Go 441
-
-16.6.1 AlphaGo 444  
-16.6.2 AlphaGo Zero 447
-
-16.7 Personalized Web Services 450  
-16.8 Thermal Soaring 453
-
-# 17 Frontiers 459
-
-17.1 General Value Functions and Auxiliary Tasks 459  
-17.2 Temporal Abstraction via Options 461  
-17.3 Observations and State 464  
-17.4 Designing Reward Signals 469  
-17.5 Remaining Issues 472  
-17.6 Reinforcement Learning and the Future of Artificial Intelligence 475
+# 17 Frontiers 45917.1 General Value Functions and Auxiliary Tasks 45917.2 Temporal Abstraction via Options 46117.3 Observations and State 46417.4 Designing Reward Signals 46917.5 Remaining Issues 47217.6 Reinforcement Learning and the Future of Artificial Intelligence 475
 
 # References 481
 
@@ -596,7 +402,7 @@ Figure 1.1: A sequence of tic-tac-toe moves. The solid black lines represent the
 can be written as
 
 $$
-V (S _ {t}) \leftarrow V (S _ {t}) + \alpha \Big [ V (S _ {t + 1}) - V (S _ {t}) \Big ],
+V (S_{t}) \leftarrow V (S_{t}) + \alpha \Big [ V (S_{t + 1}) - V (S_{t}) \Big ],
 $$
 
 where  $\alpha$  is a small positive fraction called the step-size parameter, which influences the rate of learning. This update rule is an example of a temporal-difference learning method, so called because its changes are based on a difference,  $V(S_{t + 1}) - V(S_t)$ , between estimates at two successive times.
@@ -761,7 +567,7 @@ This is the original form of the  $k$ -armed bandit problem, so named by analogy
 In our  $k$ -armed bandit problem, each of the  $k$  actions has an expected or mean reward given that action is selected; let us call this the value of that action. We denote the action selected on time step  $t$  as  $A_{t}$ , and the corresponding reward as  $R_{t}$ . The value then of an arbitrary action  $a$ , denoted  $q_{*}(a)$ , is the expected reward given that  $a$  is selected:
 
 $$
-q _ {*} (a) \doteq \mathbb {E} \left[ R _ {t} \mid A _ {t} = a \right].
+q_{*} (a) \doteq \mathbb{E} \left[ R_{t} \mid A_{t} = a \right].
 $$
 
 If you knew the value of each action, then it would be trivial to solve the  $k$ -armed bandit problem: you would always select the action with highest value. We assume that you do not know the action values with certainty, although you may have estimates. We denote the estimated value of action  $a$  at time step  $t$  as  $Q_{t}(a)$ . We would like  $Q_{t}(a)$  to be close to  $q_{*}(a)$ .
@@ -779,7 +585,7 @@ In this book we do not worry about balancing exploration and exploitation in a s
 We begin by looking more closely at methods for estimating the values of actions and for using the estimates to make action selection decisions, which we collectively call action-value methods. Recall that the true value of an action is the mean reward when that action is selected. One natural way to estimate this is by averaging the rewards actually received:
 
 $$
-Q _ {t} (a) \doteq \frac {\text {s u m o f r e w a r d s w h e n a t a k e n p r i o r t o} t}{\text {n u m b e r o f t i m e s a t a k e n p r i o r t o} t} = \frac {\sum_ {i = 1} ^ {t - 1} R _ {i} \cdot \mathbb {1} _ {A _ {i} = a}}{\sum_ {i = 1} ^ {t - 1} \mathbb {1} _ {A _ {i} = a}}, \tag {2.1}
+Q_{t} (a) \doteq \frac{\text{sum of rewards when a taken prior to} t}{\text{number of times a taken prior to} t} = \frac{\sum_{i = 1} ^{t - 1} R_{i} \cdot \mathbb{1}_{A_{i} = a}}{\sum_{i = 1} ^{t - 1} \mathbb{1}_{A_{i} = a}}, \tag {2.1}
 $$
 
 where  $\mathbb{1}_{predicate}$  denotes the random variable that is 1 if predicate is true and 0 if it is not. If the denominator is zero, then we instead define  $Q_{t}(a)$  as some default value, such as 0. As the denominator goes to infinity, by the law of large numbers,  $Q_{t}(a)$  converges to  $q_{*}(a)$ . We call this the sample-average method for estimating action values because each estimate is an average of the sample of relevant rewards. Of course this is just one way to estimate action values, and not necessarily the best one. Nevertheless, for now let us stay with this simple estimation method and turn to the question of how the estimates might be used to select actions.
@@ -787,7 +593,7 @@ where  $\mathbb{1}_{predicate}$  denotes the random variable that is 1 if predic
 The simplest action selection rule is to select one of the actions with the highest estimated value, that is, one of the greedy actions as defined in the previous section. If there is more than one greedy action, then a selection is made among them in some arbitrary way, perhaps randomly. We write this greedy action selection method as
 
 $$
-A _ {t} \doteq \underset {a} {\operatorname {a r g m a x}} Q _ {t} (a), \tag {2.2}
+A_{t} \doteq \underset{a} {\operatorname{argmax}} Q_{t} (a), \tag {2.2}
 $$
 
 where  $\mathrm{argmax}_a$  denotes the action  $a$  for which the expression that follows is maximized (with ties broken arbitrarily). Greedy action selection always exploits current knowledge to maximize immediate reward; it spends no time at all sampling apparently inferior actions to see if they might really be better. A simple alternative is to behave greedily most of the time, but every once in a while, say with small probability  $\varepsilon$ , instead select randomly
@@ -827,7 +633,7 @@ The action-value methods we have discussed so far all estimate action values as 
 To simplify notation we concentrate on a single action. Let  $R_{i}$  now denote the reward received after the  $i$ th selection of this action, and let  $Q_{n}$  denote the estimate of its action value after it has been selected  $n - 1$  times, which we can now write simply as
 
 $$
-Q _ {n} \doteq \frac {R _ {1} + R _ {2} + \cdots + R _ {n - 1}}{n - 1}.
+Q_{n} \doteq \frac{R_{1} + R_{2} + \cdots + R_{n - 1}}{n - 1}.
 $$
 
 The obvious implementation would be to maintain a record of all the rewards and then perform this computation whenever the estimated value was needed. However, if this is done, then the memory and computational requirements would grow over time as more rewards are seen. Each additional reward would require additional memory to store it and additional computation to compute the sum in the numerator.
@@ -835,7 +641,7 @@ The obvious implementation would be to maintain a record of all the rewards and 
 As you might suspect, this is not really necessary. It is easy to devise incremental formulas for updating averages with small, constant computation required to process each new reward. Given  $Q_{n}$  and the  $n$ th reward,  $R_{n}$ , the new average of all  $n$  rewards can be computed by
 
 $$
-\begin{array}{l} Q _ {n + 1} = \frac {1}{n} \sum_ {i = 1} ^ {n} R _ {i} \\ = \frac {1}{n} \left(R _ {n} + \sum_ {i = 1} ^ {n - 1} R _ {i}\right) \\ = \frac {1}{n} \left(R _ {n} + (n - 1) \frac {1}{n - 1} \sum_ {i = 1} ^ {n - 1} R _ {i}\right) \\ = \frac {1}{n} \left(R _ {n} + (n - 1) Q _ {n}\right) \\ = \frac {1}{n} \left(R _ {n} + n Q _ {n} - Q _ {n}\right) \\ = Q _ {n} + \frac {1}{n} \left[ R _ {n} - Q _ {n} \right], \tag {2.3} \\ \end{array}
+\begin{array}{l} Q_{n + 1} = \frac{1}{n} \sum_{i = 1} ^{n} R_{i} \\ = \frac{1}{n} \left(R_{n} + \sum_{i = 1} ^{n - 1} R_{i}\right) \\ = \frac{1}{n} \left(R_{n} + (n - 1) \frac{1}{n - 1} \sum_{i = 1} ^{n - 1} R_{i}\right) \\ = \frac{1}{n} \left(R_{n} + (n - 1) Q_{n}\right) \\ = \frac{1}{n} \left(R_{n} + n Q_{n} - Q_{n}\right) \\ = Q_{n} + \frac{1}{n} \left[ R_{n} - Q_{n} \right], \tag {2.3} \\ \end{array}
 $$
 
 which holds even for  $n = 1$ , obtaining  $Q_{2} = R_{1}$  for arbitrary  $Q_{1}$ . This implementation requires memory only for  $Q_{n}$  and  $n$ , and only the small computation (2.3) for each new reward.
@@ -843,7 +649,7 @@ which holds even for  $n = 1$ , obtaining  $Q_{2} = R_{1}$  for arbitrary  $Q_{1
 This update rule (2.3) is of a form that occurs frequently throughout this book. The general form is
 
 $$
-\text {N e w E s t i m a t e} \leftarrow \text {O l d E s t i m a t e} + \text {S t e p S i z e} \left[ \text {T a r g e t} - \text {O l d E s t i m a t e} \right]. \tag {2.4}
+\text{New Estimate} \leftarrow \text{Old Estimate} + \text{Step Size} \left[ \text{Target} - \text{Old Estimate} \right]. \tag {2.4}
 $$
 
 The expression  $\left[\text{Target} - \text{OldEstimate}\right]$  is an error in the estimate. It is reduced by taking a step toward the "Target." The target is presumed to indicate a desirable direction in which to move, though it may be noisy. In the case above, for example, the target is the  $n$ th reward.
@@ -869,7 +675,7 @@ $$
 Loop forever:
 
 $$
-A \leftarrow \left\{ \begin{array}{l l} \operatorname {a r g m a x} _ {a} Q (a) & \text {w i t h p r o b a b i l i t y} 1 - \varepsilon \quad (\text {b r e a k i n g t i e s r a n d o m l y}) \\ \text {a r a n d o m a c t i o n} & \text {w i t h p r o b a b i l i t y} \varepsilon \end{array} \right.
+A \leftarrow \left\{ \begin{array}{l l} \operatorname{argmax}_{a} Q (a) & \text{with probability} 1 - \varepsilon \quad (\text{breaking ties randomly}) \\ \text{a random action} & \text{with probability} \varepsilon \end{array} \right.
 $$
 
 $$
@@ -881,7 +687,7 @@ N (A) \leftarrow N (A) + 1
 $$
 
 $$
-Q (A) \leftarrow Q (A) + \frac {1}{N (A)} \left[ R - Q (A) \right]
+Q (A) \leftarrow Q (A) + \frac{1}{N (A)} \left[ R - Q (A) \right]
 $$
 
 # 2.5 Tracking a Nonstationary Problem
@@ -889,13 +695,13 @@ $$
 The averaging methods discussed so far are appropriate for stationary bandit problems, that is, for bandit problems in which the reward probabilities do not change over time. As noted earlier, we often encounter reinforcement learning problems that are effectively nonstationary. In such cases it makes sense to give more weight to recent rewards than to long-past rewards. One of the most popular ways of doing this is to use a constant step-size parameter. For example, the incremental update rule (2.3) for updating an average  $Q_{n}$  of the  $n - 1$  past rewards is modified to be
 
 $$
-Q _ {n + 1} \doteq Q _ {n} + \alpha \left[ R _ {n} - Q _ {n} \right], \tag {2.5}
+Q_{n + 1} \doteq Q_{n} + \alpha \left[ R_{n} - Q_{n} \right], \tag {2.5}
 $$
 
 where the step-size parameter  $\alpha \in (0,1]$  is constant. This results in  $Q_{n + 1}$  being a weighted average of past rewards and the initial estimate  $Q_{1}$ :
 
 $$
-\begin{array}{l} Q _ {n + 1} = Q _ {n} + \alpha \left[ R _ {n} - Q _ {n} \right] \\ = \alpha R _ {n} + (1 - \alpha) Q _ {n} \\ = \alpha R _ {n} + (1 - \alpha) [ \alpha R _ {n - 1} + (1 - \alpha) Q _ {n - 1} ] \\ = \alpha R _ {n} + (1 - \alpha) \alpha R _ {n - 1} + (1 - \alpha) ^ {2} Q _ {n - 1} \\ = \alpha R _ {n} + (1 - \alpha) \alpha R _ {n - 1} + (1 - \alpha) ^ {2} \alpha R _ {n - 2} + \\ \dots + (1 - \alpha) ^ {n - 1} \alpha R _ {1} + (1 - \alpha) ^ {n} Q _ {1} \\ = (1 - \alpha) ^ {n} Q _ {1} + \sum_ {i = 1} ^ {n} \alpha (1 - \alpha) ^ {n - i} R _ {i}. \tag {2.6} \\ \end{array}
+\begin{array}{l} Q_{n + 1} = Q_{n} + \alpha \left[ R_{n} - Q_{n} \right] \\ = \alpha R_{n} + (1 - \alpha) Q_{n} \\ = \alpha R_{n} + (1 - \alpha) [ \alpha R_{n - 1} + (1 - \alpha) Q_{n - 1} ] \\ = \alpha R_{n} + (1 - \alpha) \alpha R_{n - 1} + (1 - \alpha)^{2} Q_{n - 1} \\ = \alpha R_{n} + (1 - \alpha) \alpha R_{n - 1} + (1 - \alpha)^{2} \alpha R_{n - 2} + \\ \dots + (1 - \alpha)^{n - 1} \alpha R_{1} + (1 - \alpha)^{n} Q_{1} \\ = (1 - \alpha)^{n} Q_{1} + \sum_{i = 1} ^{n} \alpha (1 - \alpha)^{n - i} R_{i}. \tag {2.6} \\ \end{array}
 $$
 
 We call this a weighted average because the sum of the weights is  $(1 - \alpha)^n + \sum_{i=1}^n \alpha(1 - \alpha)^{n-i} = 1$ , as you can check for yourself. Note that the weight,  $\alpha(1 - \alpha)^{n-i}$ , given to the reward  $R_i$  depends on how many rewards ago,  $n - i$ , it was observed. The quantity  $1 - \alpha$  is less than 1, and thus the weight given to  $R_i$  decreases as the number of intervening rewards increases. In fact, the weight decays exponentially according to the exponent on  $1 - \alpha$ . (If  $1 - \alpha = 0$ , then all the weight goes on the very last reward,  $R_n$ , because of the convention that  $0^0 = 1$ .) Accordingly, this is sometimes called an exponential recency-weighted average.
@@ -903,7 +709,7 @@ We call this a weighted average because the sum of the weights is  $(1 - \alpha)
 Sometimes it is convenient to vary the step-size parameter from step to step. Let  $\alpha_{n}(a)$  denote the step-size parameter used to process the reward received after the  $n$ th selection of action  $a$ . As we have noted, the choice  $\alpha_{n}(a) = \frac{1}{n}$  results in the sample-average method, which is guaranteed to converge to the true action values by the law of large numbers. But of course convergence is not guaranteed for all choices of the sequence  $\{\alpha_{n}(a)\}$ . A well-known result in stochastic approximation theory gives us the conditions required to assure convergence with probability 1:
 
 $$
-\sum_ {n = 1} ^ {\infty} \alpha_ {n} (a) = \infty \quad \text {a n d} \quad \sum_ {n = 1} ^ {\infty} \alpha_ {n} ^ {2} (a) <   \infty . \tag {2.7}
+\sum_{n = 1} ^{\infty} \alpha_{n} (a) = \infty \quad \text{and } \quad \sum_{n = 1} ^{\infty} \alpha_{n} ^{2} (a) <   \infty . \tag {2.7}
 $$
 
 The first condition is required to guarantee that the steps are large enough to eventually overcome any initial conditions or random fluctuations. The second condition guarantees that eventually the steps become small enough to assure convergence.
@@ -932,13 +738,13 @@ Exercise 2.6: Mysterious Spikes The results shown in Figure 2.3 should be quite 
 Exercise 2.7: Unbiased Constant-Step-Size Trick In most of this chapter we have used sample averages to estimate action values because sample averages do not produce the initial bias that constant step sizes do (see the analysis leading to (2.6)). However, sample averages are not a completely satisfactory solution because they may perform poorly on nonstationary problems. Is it possible to avoid the bias of constant step sizes while retaining their advantages on nonstationary problems? One way is to use a step size of
 
 $$
-\beta_ {n} \doteq \alpha / \bar {\sigma} _ {n}, \tag {2.8}
+\beta_{n} \doteq \alpha / \bar{\sigma}_{n}, \tag {2.8}
 $$
 
 to process the  $n$ th reward for a particular action, where  $\alpha > 0$  is a conventional constant step size, and  $\bar{o}_n$  is a trace of one that starts at 0:
 
 $$
-\bar {o} _ {n} \doteq \bar {o} _ {n - 1} + \alpha (1 - \bar {o} _ {n - 1}), \quad \text {f o r} n > 0, \quad \text {w i t h} \bar {o} _ {0} \doteq 0. \tag {2.9}
+\bar{o}_{n} \doteq \bar{o}_{n - 1} + \alpha (1 - \bar{o}_{n - 1}), \quad \text{for } n > 0, \quad \text{with } \bar{o}_{0} \doteq 0. \tag {2.9}
 $$
 
 Carry out an analysis like that in (2.6) to show that  $Q_{n}$  is an exponential recency-weighted average without initial bias.
@@ -948,7 +754,7 @@ Carry out an analysis like that in (2.6) to show that  $Q_{n}$  is an exponentia
 Exploration is needed because there is always uncertainty about the accuracy of the action-value estimates. The greedy actions are those that look best at present, but some of the other actions may actually be better.  $\varepsilon$ -greedy action selection forces the non-greedy actions to be tried, but indiscriminately, with no preference for those that are nearly greedy or particularly uncertain. It would be better to select among the non-greedy actions according to their potential for actually being optimal, taking into account both how close their estimates are to being maximal and the uncertainties in those estimates. One effective way of doing this is to select actions according to
 
 $$
-A _ {t} \doteq \underset {a} {\arg \max } \left[ Q _ {t} (a) + c \sqrt {\frac {\ln t}{N _ {t} (a)}} \right], \tag {2.10}
+A_{t} \doteq \underset{a} {\arg \max } \left[ Q_{t} (a) + c \sqrt{\frac{\ln t}{N_{t} (a)}} \right], \tag {2.10}
 $$
 
 where  $\ln t$  denotes the natural logarithm of  $t$  (the number that  $e \approx 2.71828$  would have to be raised to in order to equal  $t$ ),  $N_{t}(a)$  denotes the number of times that action  $a$  has
@@ -969,7 +775,7 @@ Exercise 2.8: UCB Spikes In Figure 2.4 the UCB algorithm shows a distinct spike 
 So far in this chapter we have considered methods that estimate action values and use those estimates to select actions. This is often a good approach, but it is not the only one possible. In this section we consider learning a numerical preference for each action  $a$ , which we denote  $H_{t}(a) \in \mathbb{R}$ . The larger the preference, the more often that action is taken, but the preference has no interpretation in terms of reward. Only the relative preference of one action over another is important; if we add 1000 to all the action preferences there is no effect on the action probabilities, which are determined according to a soft-max distribution (i.e., Gibbs or Boltzmann distribution) as follows:
 
 $$
-\Pr \left\{A _ {t} = a \right\} \doteq \frac {e ^ {H _ {t} (a)}}{\sum_ {b = 1} ^ {k} e ^ {H _ {t} (b)}} \doteq \pi_ {t} (a), \tag {2.11}
+\Pr \left\{A_{t} = a \right\} \doteq \frac{e^{H_{t} (a)}}{\sum_{b = 1} ^{k} e^{H_{t} (b)}} \doteq \pi_{t} (a), \tag {2.11}
 $$
 
 where here we have also introduced a useful new notation,  $\pi_t(a)$ , for the probability of taking action  $a$  at time  $t$ . Initially all action preferences are the same (e.g.,  $H_1(a) = 0$ , for all  $a$ ) so that all actions have an equal probability of being selected.
@@ -979,11 +785,11 @@ Exercise 2.9 Show that in the case of two actions, the soft-max distribution is 
 There is a natural learning algorithm for soft-max action preferences based on the idea of stochastic gradient ascent. On each step, after selecting action  $A_{t}$  and receiving the reward  $R_{t}$ , the action preferences are updated by:
 
 $$
-H _ {t + 1} \left(A _ {t}\right) \doteq H _ {t} \left(A _ {t}\right) + \alpha \left(R _ {t} - \bar {R} _ {t}\right) \left(1 - \pi_ {t} \left(A _ {t}\right)\right), \quad \text {a n d} \tag {2.12}
+H_{t + 1} \left(A_{t}\right) \doteq H_{t} \left(A_{t}\right) + \alpha \left(R_{t} - \bar{R}_{t}\right) \left(1 - \pi_{t} \left(A_{t}\right)\right), \quad \text{and } \tag {2.12}
 $$
 
 $$
-H _ {t + 1} (a) \doteq H _ {t} (a) - \alpha \left(R _ {t} - \bar {R} _ {t}\right) \pi_ {t} (a), \quad \text {f o r a l l} a \neq A _ {t},
+H_{t + 1} (a) \doteq H_{t} (a) - \alpha \left(R_{t} - \bar{R}_{t}\right) \pi_{t} (a), \quad \text{for all} a \neq A_{t},
 $$
 
 where  $\alpha > 0$  is a step-size parameter, and  $\bar{R}_t \in \mathbb{R}$  is the average of the rewards up to but not including time  $t$  (with  $\bar{R}_1 \doteq R_1$ ), which can be computed incrementally as described in Section 2.4 (or Section 2.5 if the problem is nonstationary). The  $\bar{R}_t$  term serves as a baseline with which the reward is compared. If the reward is higher than the baseline, then the probability of taking  $A_t$  in the future is increased, and if the reward is below baseline, then the probability is decreased. The non-selected actions move in the opposite direction.
@@ -998,13 +804,13 @@ Figure 2.5: Average performance of the gradient bandit algorithm with and withou
 One can gain a deeper insight into the gradient bandit algorithm by understanding it as a stochastic approximation to gradient ascent. In exact gradient ascent, each action preference  $H_{t}(a)$  would be incremented in proportion to the increment's effect on performance:
 
 $$
-H _ {t + 1} (a) \doteq H _ {t} (a) + \alpha \frac {\partial \mathbb {E} [ R _ {t} ]}{\partial H _ {t} (a)}, \tag {2.13}
+H_{t + 1} (a) \doteq H_{t} (a) + \alpha \frac{\partial \mathbb{E} [ R_{t} ]}{\partial H_{t} (a)}, \tag {2.13}
 $$
 
 where the measure of performance here is the expected reward:
 
 $$
-\mathbb {E} [ R _ {t} ] = \sum_ {x} \pi_ {t} (x) q _ {*} (x),
+\mathbb{E} [ R_{t} ] = \sum_{x} \pi_{t} (x) q_{*} (x),
 $$
 
 and the measure of the increment's effect is the partial derivative of this performance measure with respect to the action preference. Of course, it is not possible to implement gradient ascent exactly in our case because by assumption we do not know the  $q_{*}(x)$ , but in fact the updates of our algorithm (2.12) are equal to (2.13) in expected value, making the algorithm an instance of stochastic gradient ascent. The calculations showing this require only beginning calculus, but take several
@@ -1012,7 +818,7 @@ and the measure of the increment's effect is the partial derivative of this perf
 steps. First we take a closer look at the exact performance gradient:
 
 $$
-\begin{array}{l} \frac {\partial \mathbb {E} [ R _ {t} ]}{\partial H _ {t} (a)} = \frac {\partial}{\partial H _ {t} (a)} \left[ \sum_ {x} \pi_ {t} (x) q _ {*} (x) \right] \\ = \sum_ {x} q _ {*} (x) \frac {\partial \pi_ {t} (x)}{\partial H _ {t} (a)} \\ = \sum_ {x} \left(q _ {*} (x) - B _ {t}\right) \frac {\partial \pi_ {t} (x)}{\partial H _ {t} (a)}, \\ \end{array}
+\begin{array}{l} \frac{\partial \mathbb{E} [ R_{t} ]}{\partial H_{t} (a)} = \frac{\partial}{\partial H_{t} (a)} \left[ \sum_{x} \pi_{t} (x) q_{*} (x) \right] \\ = \sum_{x} q_{*} (x) \frac{\partial \pi_{t} (x)}{\partial H_{t} (a)} \\ = \sum_{x} \left(q_{*} (x) - B_{t}\right) \frac{\partial \pi_{t} (x)}{\partial H_{t} (a)}, \\ \end{array}
 $$
 
 where  $B_{t}$ , called the baseline, can be any scalar that does not depend on  $x$ . We can include a baseline here without changing the equality because the gradient sums to zero over all the actions,  $\sum_{x}\frac{\partial\pi_{t}(x)}{\partial H_{t}(a)} = 0$ . As  $H_{t}(a)$  is changed, some actions' probabilities go up and some go down, but the sum of the changes must be zero because the sum of the probabilities is always one.
@@ -1020,25 +826,25 @@ where  $B_{t}$ , called the baseline, can be any scalar that does not depend on 
 Next we multiply each term of the sum by  $\pi_t(x) / \pi_t(x)$ :
 
 $$
-\frac {\partial \mathbb {E} [ R _ {t} ]}{\partial H _ {t} (a)} = \sum_ {x} \pi_ {t} (x) \big (q _ {*} (x) - B _ {t} \big) \frac {\partial \pi_ {t} (x)}{\partial H _ {t} (a)} / \pi_ {t} (x).
+\frac{\partial \mathbb{E} [ R_{t} ]}{\partial H_{t} (a)} = \sum_{x} \pi_{t} (x) \big (q_{*} (x) - B_{t} \big) \frac{\partial \pi_{t} (x)}{\partial H_{t} (a)} / \pi_{t} (x).
 $$
 
 The equation is now in the form of an expectation, summing over all possible values  $x$  of the random variable  $A_{t}$ , then multiplying by the probability of taking those values. Thus:
 
 $$
-\begin{array}{l} = \mathbb {E} \left[ \left(q _ {*} (A _ {t}) - B _ {t}\right) \frac {\partial \pi_ {t} (A _ {t})}{\partial H _ {t} (a)} / \pi_ {t} (A _ {t}) \right] \\ = \mathbb {E} \left[ \left(R _ {t} - \bar {R} _ {t}\right) \frac {\partial \pi_ {t} (A _ {t})}{\partial H _ {t} (a)} / \pi_ {t} (A _ {t}) \right], \\ \end{array}
+\begin{array}{l} = \mathbb{E} \left[ \left(q_{*} (A_{t}) - B_{t}\right) \frac{\partial \pi_{t} (A_{t})}{\partial H_{t} (a)} / \pi_{t} (A_{t}) \right] \\ = \mathbb{E} \left[ \left(R_{t} - \bar{R}_{t}\right) \frac{\partial \pi_{t} (A_{t})}{\partial H_{t} (a)} / \pi_{t} (A_{t}) \right], \\ \end{array}
 $$
 
 where here we have chosen the baseline  $B_{t} = \bar{R}_{t}$  and substituted  $R_{t}$  for  $q_{*}(A_{t})$  which is permitted because  $\mathbb{E}[R_t|A_t] = q_*(A_t)$ . Shortly we will establish that  $\frac{\partial\pi_t(x)}{\partial H_t(a)} = \pi_t(x)\big(\mathbb{1}_{a = x} - \pi_t(a)\big)$ , where  $\mathbb{1}_{a = x}$  is defined to be 1 if  $a = x$ , else 0. Assuming that for now, we have
 
 $$
-\begin{array}{l} = \mathbb {E} \left[ \left(R _ {t} - \bar {R} _ {t}\right) \pi_ {t} (A _ {t}) \left(\mathbb {1} _ {a = A _ {t}} - \pi_ {t} (a)\right) / \pi_ {t} (A _ {t}) \right] \\ = \mathbb {E} \left[ \left(R _ {t} - \bar {R} _ {t}\right) \left(\mathbb {1} _ {a = A _ {t}} - \pi_ {t} (a)\right) \right]. \\ \end{array}
+\begin{array}{l} = \mathbb{E} \left[ \left(R_{t} - \bar{R}_{t}\right) \pi_{t} (A_{t}) \left(\mathbb{1}_{a = A_{t}} - \pi_{t} (a)\right) / \pi_{t} (A_{t}) \right] \\ = \mathbb{E} \left[ \left(R_{t} - \bar{R}_{t}\right) \left(\mathbb{1}_{a = A_{t}} - \pi_{t} (a)\right) \right]. \\ \end{array}
 $$
 
 Recall that our plan has been to write the performance gradient as an expectation of something that we can sample on each step, as we have just done, and then update on each step in proportion to the sample. Substituting a sample of the expectation above for the performance gradient in (2.13) yields:
 
 $$
-H _ {t + 1} (a) = H _ {t} (a) + \alpha \bigl (R _ {t} - \bar {R} _ {t} \bigr) \bigl (\mathbb {1} _ {a = A _ {t}} - \pi_ {t} (a) \bigr), \qquad \mathrm {f o r a l l} a,
+H_{t + 1} (a) = H_{t} (a) + \alpha \bigl (R_{t} - \bar{R}_{t} \bigr) \bigl (\mathbb{1}_{a = A_{t}} - \pi_{t} (a) \bigr), \qquad \mathrm{for all} a,
 $$
 
 which you may recognize as being equivalent to our original algorithm (2.12).
@@ -1046,13 +852,13 @@ which you may recognize as being equivalent to our original algorithm (2.12).
 Thus it remains only to show that  $\frac{\partial\pi_t(x)}{\partial H_t(a)} = \pi_t(x)\big(\mathbb{1}_{a = x} - \pi_t(a)\big)$ , as we assumed. Recall the standard quotient rule for derivatives:
 
 $$
-\frac {\partial}{\partial x} \left[ \frac {f (x)}{g (x)} \right] = \frac {\frac {\partial f (x)}{\partial x} g (x) - f (x) \frac {\partial g (x)}{\partial x}}{g (x) ^ {2}}.
+\frac{\partial}{\partial x} \left[ \frac{f (x)}{g (x)} \right] = \frac{\frac{\partial f (x)}{\partial x} g (x) - f (x) \frac{\partial g (x)}{\partial x}}{g (x)^{2}}.
 $$
 
 Using this, we can write
 
 $$
-\begin{array}{l} \frac {\partial \pi_ {t} (x)}{\partial H _ {t} (a)} = \frac {\partial}{\partial H _ {t} (a)} \pi_ {t} (x) \\ = \frac {\partial}{\partial H _ {t} (a)} \left[ \frac {e ^ {H _ {t} (x)}}{\sum_ {y = 1} ^ {k} e ^ {H _ {t} (y)}} \right] \\ = \frac {\frac {\partial e ^ {H _ {t} (x)}}{\partial H _ {t} (a)} \sum_ {y = 1} ^ {k} e ^ {H _ {t} (y)} - e ^ {H _ {t} (x)} \frac {\partial \sum_ {y = 1} ^ {k} e ^ {H _ {t} (y)}}{\partial H _ {t} (a)}}{\left(\sum_ {y = 1} ^ {k} e ^ {H _ {t} (y)}\right) ^ {2}} \quad (\text {b y}) \\ = \frac {\mathbb {1} _ {a = x} e ^ {H _ {t} (x)} \sum_ {y = 1} ^ {k} e ^ {H _ {t} (y)} - e ^ {H _ {t} (x)} e ^ {H _ {t} (a)}}{\left(\sum_ {y = 1} ^ {k} e ^ {H _ {t} (y)}\right) ^ {2}} \quad \text {(b e c a u s e} \frac {\partial e ^ {x}}{\partial x} = e ^ {x}) \\ = \frac {\mathbb {1} _ {a = x} e ^ {H _ {t} (x)}}{\sum_ {y = 1} ^ {k} e ^ {H _ {t} (y)}} - \frac {e ^ {H _ {t} (x)} e ^ {H _ {t} (a)}}{\left(\sum_ {y = 1} ^ {k} e ^ {H _ {t} (y)}\right) ^ {2}} \\ = \mathbb {1} _ {a = x} \pi_ {t} (x) - \pi_ {t} (x) \pi_ {t} (a) \\ = \pi_ {t} (x) \left(\mathbb {1} _ {a = x} - \pi_ {t} (a)\right). \tag {Q.E.D.} \\ \end{array}
+\begin{array}{l} \frac{\partial \pi_{t} (x)}{\partial H_{t} (a)} = \frac{\partial}{\partial H_{t} (a)} \pi_{t} (x) \\ = \frac{\partial}{\partial H_{t} (a)} \left[ \frac{e^{H_{t} (x)}}{\sum_{y = 1} ^{k} e^{H_{t} (y)}} \right] \\ = \frac{\frac{\partial e^{H_{t} (x)}}{\partial H_{t} (a)} \sum_{y = 1} ^{k} e^{H_{t} (y)} - e^{H_{t} (x)} \frac{\partial \sum_{y = 1} ^{k} e^{H_{t} (y)}}{\partial H_{t} (a)}}{\left(\sum_{y = 1} ^{k} e^{H_{t} (y)}\right)^{2}} \quad (\text{by}) \\ = \frac{\mathbb{1}_{a = x} e^{H_{t} (x)} \sum_{y = 1} ^{k} e^{H_{t} (y)} - e^{H_{t} (x)} e^{H_{t} (a)}}{\left(\sum_{y = 1} ^{k} e^{H_{t} (y)}\right)^{2}} \quad \text{(because} \frac{\partial e^{x}}{\partial x} = e^{x}) \\ = \frac{\mathbb{1}_{a = x} e^{H_{t} (x)}}{\sum_{y = 1} ^{k} e^{H_{t} (y)}} - \frac{e^{H_{t} (x)} e^{H_{t} (a)}}{\left(\sum_{y = 1} ^{k} e^{H_{t} (y)}\right)^{2}} \\ = \mathbb{1}_{a = x} \pi_{t} (x) - \pi_{t} (x) \pi_{t} (a) \\ = \pi_{t} (x) \left(\mathbb{1}_{a = x} - \pi_{t} (a)\right). \tag {Q.E.D.} \\ \end{array}
 $$
 
 We have just shown that the expected update of the gradient bandit algorithm is equal to the gradient of expected reward, and thus that the algorithm is an instance of stochastic gradient ascent. This assures us that the algorithm has robust convergence properties.
@@ -1134,13 +940,13 @@ Figure 3.1: The agent-environment interaction in a Markov decision process.
 More specifically, the agent and environment interact at each of a sequence of discrete time steps,  $t = 0,1,2,3,\ldots^2$ . At each time step  $t$ , the agent receives some representation of the environment's state,  $S_{t} \in \mathbb{S}$ , and on that basis selects an action,  $A_{t} \in \mathcal{A}(s)$ . One time step later, in part as a consequence of its action, the agent receives a numerical reward,  $R_{t+1} \in \mathbb{R} \subset \mathbb{R}$ , and finds itself in a new state,  $S_{t+1}$ . The MDP and agent together thereby give rise to a sequence or trajectory that begins like this:
 
 $$
-S _ {0}, A _ {0}, R _ {1}, S _ {1}, A _ {1}, R _ {2}, S _ {2}, A _ {2}, R _ {3}, \dots \tag {3.1}
+S_{0}, A_{0}, R_{1}, S_{1}, A_{1}, R_{2}, S_{2}, A_{2}, R_{3}, \dots \tag {3.1}
 $$
 
 In a finite MDP, the sets of states, actions, and rewards  $(\mathcal{S},\mathcal{A},$  and  $\mathcal{R})$  all have a finite number of elements. In this case, the random variables  $R_{t}$  and  $S_{t}$  have well defined discrete probability distributions dependent only on the preceding state and action. That is, for particular values of these random variables,  $s^{\prime}\in \mathcal{S}$  and  $r\in \mathcal{R}$ , there is a probability of those values occurring at time  $t$ , given particular values of the preceding state and action:
 
 $$
-p \left(s ^ {\prime}, r \mid s, a\right) \doteq \Pr \left\{S _ {t} = s ^ {\prime}, R _ {t} = r \mid S _ {t - 1} = s, A _ {t - 1} = a \right\}, \tag {3.2}
+p \left(s^{\prime}, r \mid s, a\right) \doteq \Pr \left\{S_{t} = s^{\prime}, R_{t} = r \mid S_{t - 1} = s, A_{t - 1} = a \right\}, \tag {3.2}
 $$
 
 for all  $s', s \in \mathbb{S}$ ,  $r \in \mathbb{R}$ , and  $a \in \mathcal{A}(s)$ . The function  $p$  defines the dynamics of the MDP. The dot over the equals sign in the equation reminds us that it is a definition (in this case of the function  $p$ ) rather than a fact that follows from previous definitions. The dynamics function  $p: \mathbb{S} \times \mathbb{R} \times \mathbb{S} \times \mathcal{A} \to [0,1]$  is an ordinary deterministic function of four arguments. The  $|'|$  in the middle of it comes from the notation for conditional probability,
@@ -1148,7 +954,7 @@ for all  $s', s \in \mathbb{S}$ ,  $r \in \mathbb{R}$ , and  $a \in \mathcal{A}(
 but here it just reminds us that  $p$  specifies a probability distribution for each choice of  $s$  and  $a$ , that is, that
 
 $$
-\sum_ {s ^ {\prime} \in \mathcal {S}} \sum_ {r \in \mathcal {R}} p \left(s ^ {\prime}, r \mid s, a\right) = 1, \text {f o r a l l} s \in \mathcal {S}, a \in \mathcal {A} (s). \tag {3.3}
+\sum_{s^{\prime} \in \mathcal{S}} \sum_{r \in \mathcal{R}} p \left(s^{\prime}, r \mid s, a\right) = 1, \text{for all} s \in \mathcal{S}, a \in \mathcal{A} (s). \tag {3.3}
 $$
 
 In a Markov decision process, the probabilities given by  $p$  completely characterize the environment's dynamics. That is, the probability of each possible value for  $S_{t}$  and  $R_{t}$  depends on the immediately preceding state and action,  $S_{t-1}$  and  $A_{t-1}$ , and, given them, not at all on earlier states and actions. This is best viewed as a restriction not on the decision process, but on the state. The state must include information about all aspects of the past agent-environment interaction that make a difference for the future. If it does, then the state is said to have the Markov property. We will assume the Markov property throughout this book, though starting in Part II we will consider approximation methods that do not rely on it, and in Chapter 17 we consider how a Markov state can be efficiently learned and constructed from non-Markov observations.
@@ -1156,19 +962,19 @@ In a Markov decision process, the probabilities given by  $p$  completely charac
 From the four-argument dynamics function,  $p$ , one can compute anything else one might want to know about the environment, such as the state-transition probabilities (which we denote, with a slight abuse of notation, as a three-argument function  $p: \mathcal{S} \times \mathcal{S} \times \mathcal{A} \to [0,1]$ ),
 
 $$
-p \left(s ^ {\prime} \mid s, a\right) \doteq \Pr \left\{S _ {t} = s ^ {\prime} \mid S _ {t - 1} = s, A _ {t - 1} = a \right\} = \sum_ {r \in \mathcal {R}} p \left(s ^ {\prime}, r \mid s, a\right). \tag {3.4}
+p \left(s^{\prime} \mid s, a\right) \doteq \Pr \left\{S_{t} = s^{\prime} \mid S_{t - 1} = s, A_{t - 1} = a \right\} = \sum_{r \in \mathcal{R}} p \left(s^{\prime}, r \mid s, a\right). \tag {3.4}
 $$
 
 We can also compute the expected rewards for state-action pairs as a two-argument function  $r: \mathcal{S} \times \mathcal{A} \to \mathbb{R}$ :
 
 $$
-r (s, a) \doteq \mathbb {E} \left[ R _ {t} \mid S _ {t - 1} = s, A _ {t - 1} = a \right] = \sum_ {r \in \mathcal {R}} r \sum_ {s ^ {\prime} \in \mathcal {S}} p \left(s ^ {\prime}, r \mid s, a\right), \tag {3.5}
+r (s, a) \doteq \mathbb{E} \left[ R_{t} \mid S_{t - 1} = s, A_{t - 1} = a \right] = \sum_{r \in \mathcal{R}} r \sum_{s^{\prime} \in \mathcal{S}} p \left(s^{\prime}, r \mid s, a\right), \tag {3.5}
 $$
 
 and the expected rewards for state-action next-state triples as a three-argument function  $r:\mathcal{S}\times \mathcal{A}\times \mathcal{S}\to \mathbb{R},$
 
 $$
-r \left(s, a, s ^ {\prime}\right) \doteq \mathbb {E} \left[ R _ {t} \mid S _ {t - 1} = s, A _ {t - 1} = a, S _ {t} = s ^ {\prime} \right] = \sum_ {r \in \mathcal {R}} r \frac {p \left(s ^ {\prime} , r \mid s , a\right)}{p \left(s ^ {\prime} \mid s , a\right)}. \tag {3.6}
+r \left(s, a, s^{\prime}\right) \doteq \mathbb{E} \left[ R_{t} \mid S_{t - 1} = s, A_{t - 1} = a, S_{t} = s^{\prime} \right] = \sum_{r \in \mathcal{R}} r \frac{p \left(s^{\prime} , r \mid s , a\right)}{p \left(s^{\prime} \mid s , a\right)}. \tag {3.6}
 $$
 
 In this book, we usually use the four-argument  $p$  function (3.2), but each of these other notations are also occasionally convenient.
@@ -1234,7 +1040,7 @@ is thus critical that the rewards we set up truly indicate what we want accompli
 So far we have discussed informally the objective of learning. We have said that the agent's goal is to maximize the cumulative reward it receives in the long run. How might this be defined formally? If the sequence of rewards received after time step  $t$  is denoted  $R_{t+1}, R_{t+2}, R_{t+3}, \ldots$ , then what precise aspect of this sequence do we wish to maximize? In general, we seek to maximize the expected return, where the return, denoted  $G_t$ , is defined as some specific function of the reward sequence. In the simplest case the return is the sum of the rewards:
 
 $$
-G _ {t} \dot {=} R _ {t + 1} + R _ {t + 2} + R _ {t + 3} + \dots + R _ {T}, \tag {3.7}
+G_{t} \dot {=} R_{t + 1} + R_{t + 2} + R_{t + 3} + \dots + R_{T}, \tag {3.7}
 $$
 
 where  $T$  is a final time step. This approach makes sense in applications in which there is a natural notion of final time step, that is, when the agent–environment interaction breaks naturally into subsequences, which we call episodes, $^7$  such as plays of a game, trips through a maze, or any sort of repeated interaction. Each episode ends in a special state called the terminal state, followed by a reset to a standard starting state or to a sample from a standard distribution of starting states. Even if you think of episodes as ending in different ways, such as winning and losing a game, the next episode begins independently of how the previous one ended. Thus the episodes can all be considered to end in the same terminal state, with different rewards for the different outcomes. Tasks with episodes of this kind are called episodic tasks. In episodic tasks we sometimes need to distinguish the set of all nonterminal states, denoted  $\mathcal{S}$ , from the set of all states plus the terminal state, denoted  $\mathcal{S}^+$ . The time of termination,  $T$ , is a random variable that normally varies from episode to episode.
@@ -1246,7 +1052,7 @@ On the other hand, in many cases the agent-environment interaction does not brea
 The additional concept that we need is that of discounting. According to this approach, the agent tries to select actions so that the sum of the discounted rewards it receives over the future is maximized. In particular, it chooses  $A_{t}$  to maximize the expected discounted return:
 
 $$
-G _ {t} \doteq R _ {t + 1} + \gamma R _ {t + 2} + \gamma^ {2} R _ {t + 3} + \dots = \sum_ {k = 0} ^ {\infty} \gamma^ {k} R _ {t + k + 1}, \tag {3.8}
+G_{t} \doteq R_{t + 1} + \gamma R_{t + 2} + \gamma^{2} R_{t + 3} + \dots = \sum_{k = 0} ^{\infty} \gamma^{k} R_{t + k + 1}, \tag {3.8}
 $$
 
 where  $\gamma$  is a parameter,  $0\leq \gamma \leq 1$ , called the discount rate.
@@ -1256,7 +1062,7 @@ The discount rate determines the present value of future rewards: a reward recei
 Returns at successive time steps are related to each other in a way that is important for the theory and algorithms of reinforcement learning:
 
 $$
-\begin{array}{l} G _ {t} \doteq R _ {t + 1} + \gamma R _ {t + 2} + \gamma^ {2} R _ {t + 3} + \gamma^ {3} R _ {t + 4} + \dots \\ = R _ {t + 1} + \gamma \left(R _ {t + 2} + \gamma R _ {t + 3} + \gamma^ {2} R _ {t + 4} + \dots\right) \\ = R _ {t + 1} + \gamma G _ {t + 1} \tag {3.9} \\ \end{array}
+\begin{array}{l} G_{t} \doteq R_{t + 1} + \gamma R_{t + 2} + \gamma^{2} R_{t + 3} + \gamma^{3} R_{t + 4} + \dots \\ = R_{t + 1} + \gamma \left(R_{t + 2} + \gamma R_{t + 3} + \gamma^{2} R_{t + 4} + \dots\right) \\ = R_{t + 1} + \gamma G_{t + 1} \tag {3.9} \\ \end{array}
 $$
 
 Note that this works for all time steps  $t < T$ , even if termination occurs at  $t + 1$ , provided we define  $G_{T} = 0$ . This often makes it easy to compute returns from reward sequences.
@@ -1264,7 +1070,7 @@ Note that this works for all time steps  $t < T$ , even if termination occurs at
 Note that although the return (3.8) is a sum of an infinite number of terms, it is still finite if the reward is nonzero and constant—if  $\gamma < 1$ . For example, if the reward is a constant  $+1$ , then the return is
 
 $$
-G _ {t} = \sum_ {k = 0} ^ {\infty} \gamma^ {k} = \frac {1}{1 - \gamma}. \tag {3.10}
+G_{t} = \sum_{k = 0} ^{\infty} \gamma^{k} = \frac{1}{1 - \gamma}. \tag {3.10}
 $$
 
 Exercise 3.5 The equations in Section 3.1 are for the continuing case and need to be modified (very slightly) to apply to episodic tasks. Show that you know the modifications needed by giving the modified version of (3.3).
@@ -1300,7 +1106,7 @@ We need one other convention to obtain a single notation that covers both episod
 Here the solid square represents the special absorbing state corresponding to the end of an episode. Starting from  $S_0$ , we get the reward sequence  $+1, +1, +1, 0, 0, 0, \ldots$ . Summing these, we get the same return whether we sum over the first  $T$  rewards (here  $T = 3$ ) or over the full infinite sequence. This remains true even if we introduce discounting. Thus, we can define the return, in general, according to (3.8), using the convention of omitting episode numbers when they are not needed, and including the possibility that  $\gamma = 1$  if the sum remains defined (e.g., because all episodes terminate). Alternatively, we can write
 
 $$
-G _ {t} \doteq \sum_ {k = t + 1} ^ {T} \gamma^ {k - t - 1} R _ {k}, \tag {3.11}
+G_{t} \doteq \sum_{k = t + 1} ^{T} \gamma^{k - t - 1} R_{k}, \tag {3.11}
 $$
 
 including the possibility that  $T = \infty$  or  $\gamma = 1$  (but not both). We use these conventions throughout the rest of the book to simplify notation and to express the close parallels
@@ -1318,7 +1124,7 @@ Exercise 3.11 If the current state is  $S_{t}$ , and actions are selected accord
 The value function of a state  $s$  under a policy  $\pi$ , denoted  $v_{\pi}(s)$ , is the expected return when starting in  $s$  and following  $\pi$  thereafter. For MDPs, we can define  $v_{\pi}$  formally by
 
 $$
-v _ {\pi} (s) \doteq \mathbb {E} _ {\pi} \left[ G _ {t} \mid S _ {t} = s \right] = \mathbb {E} _ {\pi} \left[ \sum_ {k = 0} ^ {\infty} \gamma^ {k} R _ {t + k + 1} \mid S _ {t} = s \right], \text {f o r a l l} s \in \mathcal {S}, \tag {3.12}
+v_{\pi} (s) \doteq \mathbb{E}_{\pi} \left[ G_{t} \mid S_{t} = s \right] = \mathbb{E}_{\pi} \left[ \sum_{k = 0} ^{\infty} \gamma^{k} R_{t + k + 1} \mid S_{t} = s \right], \text{for all} s \in \mathcal{S}, \tag {3.12}
 $$
 
 where  $\mathbb{E}_{\pi}[\cdot]$  denotes the expected value of a random variable given that the agent follows policy  $\pi$ , and  $t$  is any time step. Note that the value of the terminal state, if any, is always zero. We call the function  $v_{\pi}$  the state-value function for policy  $\pi$ .
@@ -1326,7 +1132,7 @@ where  $\mathbb{E}_{\pi}[\cdot]$  denotes the expected value of a random variabl
 Similarly, we define the value of taking action  $a$  in state  $s$  under a policy  $\pi$ , denoted  $q_{\pi}(s,a)$ , as the expected return starting from  $s$ , taking the action  $a$ , and thereafter following policy  $\pi$ :
 
 $$
-q _ {\pi} (s, a) \doteq \mathbb {E} _ {\pi} \left[ G _ {t} \mid S _ {t} = s, A _ {t} = a \right] = \mathbb {E} _ {\pi} \left[ \sum_ {k = 0} ^ {\infty} \gamma^ {k} R _ {t + k + 1} \mid S _ {t} = s, A _ {t} = a \right]. \tag {3.13}
+q_{\pi} (s, a) \doteq \mathbb{E}_{\pi} \left[ G_{t} \mid S_{t} = s, A_{t} = a \right] = \mathbb{E}_{\pi} \left[ \sum_{k = 0} ^{\infty} \gamma^{k} R_{t + k + 1} \mid S_{t} = s, A_{t} = a \right]. \tag {3.13}
 $$
 
 We call  $q_{\pi}$  the action-value function for policy  $\pi$ .
@@ -1342,7 +1148,7 @@ averages are kept for each action taken in each state, then these averages will 
 A fundamental property of value functions used throughout reinforcement learning and dynamic programming is that they satisfy recursive relationships similar to that which we have already established for the return (3.9). For any policy  $\pi$  and any state  $s$ , the following consistency condition holds between the value of  $s$  and the value of its possible successor states:
 
 $$
-\begin{array}{l} v _ {\pi} (s) \doteq \mathbb {E} _ {\pi} [ G _ {t} \mid S _ {t} = s ] \\ = \mathbb {E} _ {\pi} \left[ R _ {t + 1} + \gamma G _ {t + 1} \mid S _ {t} = s \right] \quad (\text {b y}) \\ = \sum_ {a} \pi (a | s) \sum_ {s ^ {\prime}} \sum_ {r} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r + \gamma \mathbb {E} _ {\pi} \left[ G _ {t + 1} \mid S _ {t + 1} = s ^ {\prime} \right] \right] \\ = \sum_ {a} \pi (a | s) \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r + \gamma v _ {\pi} \left(s ^ {\prime}\right) \right], \quad \text {f o r a l l} s \in \mathcal {S}, \tag {3.14} \\ \end{array}
+\begin{array}{l} v_{\pi} (s) \doteq \mathbb{E}_{\pi} [ G_{t} \mid S_{t} = s ] \\ = \mathbb{E}_{\pi} \left[ R_{t + 1} + \gamma G_{t + 1} \mid S_{t} = s \right] \quad (\text{by}) \\ = \sum_{a} \pi (a | s) \sum_{s^{\prime}} \sum_{r} p \left(s^{\prime}, r \mid s, a\right) \left[ r + \gamma \mathbb{E}_{\pi} \left[ G_{t + 1} \mid S_{t + 1} = s^{\prime} \right] \right] \\ = \sum_{a} \pi (a | s) \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) \left[ r + \gamma v_{\pi} \left(s^{\prime}\right) \right], \quad \text{for all} s \in \mathcal{S}, \tag {3.14} \\ \end{array}
 $$
 
 where it is implicit that the actions,  $a$ , are taken from the set  $\mathcal{A}(s)$ , that the next states,  $s'$ , are taken from the set  $\mathcal{S}$  (or from  $\mathbb{S}^+$  in the case of an episodic problem), and that the rewards,  $r$ , are taken from the set  $\mathcal{R}$ . Note also how in the last equation we have merged the two sums, one over all the values of  $s'$  and the other over all the values of  $r$ , into one sum over all the possible values of both. We use this kind of merged sum often to simplify formulas. Note how the final expression can be read easily as an expected value. It is really a sum over all values of the three variables,  $a$ ,  $s'$ , and  $r$ . For each triple, we compute its probability,  $\pi(a|s)p(s', r|s, a)$ , weight the quantity in brackets by that probability, then sum over all possibilities to get an expected value.
@@ -1396,7 +1202,7 @@ Give the equation corresponding to this intuition and diagram for the action val
 Solving a reinforcement learning task means, roughly, finding a policy that achieves a lot of reward over the long run. For finite MDPs, we can precisely define an optimal policy in the following way. Value functions define a partial ordering over policies. A policy  $\pi$  is defined to be better than or equal to a policy  $\pi'$  if its expected return is greater than or equal to that of  $\pi'$  for all states. In other words,  $\pi \geq \pi'$  if and only if  $v_{\pi}(s) \geq v_{\pi'}(s)$  for all  $s \in S$ . There is always at least one policy that is better than or equal to all other policies. This is an optimal policy. Although there may be more than one, we denote all the optimal policies by  $\pi_*$ . They share the same state-value function, called the optimal state-value function, denoted  $v_*$ , and defined as
 
 $$
-v _ {*} (s) \doteq \max  _ {\pi} v _ {\pi} (s), \tag {3.15}
+v_{*} (s) \doteq \max_{\pi} v_{\pi} (s), \tag {3.15}
 $$
 
 for all  $s\in \mathcal{S}$
@@ -1404,13 +1210,13 @@ for all  $s\in \mathcal{S}$
 Optimal policies also share the same optimal action-value function, denoted  $q_{*}$ , and defined as
 
 $$
-q _ {*} (s, a) \doteq \max  _ {\pi} q _ {\pi} (s, a), \tag {3.16}
+q_{*} (s, a) \doteq \max_{\pi} q_{\pi} (s, a), \tag {3.16}
 $$
 
 for all  $s \in \mathbb{S}$  and  $a \in \mathcal{A}(s)$ . For the state-action pair  $(s, a)$ , this function gives the expected return for taking action  $a$  in state  $s$  and thereafter following an optimal policy. Thus, we can write  $q_*$  in terms of  $v_*$  as follows:
 
 $$
-q _ {*} (s, a) = \mathbb {E} \left[ R _ {t + 1} + \gamma v _ {*} \left(S _ {t + 1}\right) \mid S _ {t} = s, A _ {t} = a \right]. \tag {3.17}
+q_{*} (s, a) = \mathbb{E} \left[ R_{t + 1} + \gamma v_{*} \left(S_{t + 1}\right) \mid S_{t} = s, A_{t} = a \right]. \tag {3.17}
 $$
 
 Example 3.7: Optimal Value Functions for Golf The lower part of Figure 3.3 shows the contours of a possible optimal action-value function  $q_{*}(s, \text{driver})$ . These are the values of each state if we first play a stroke with the driver and afterward select either the driver or the putter, whichever is better. The driver enables us to hit the ball farther, but with less accuracy. We can reach the hole in one shot using the driver only if we are already very close; thus the -1 contour for  $q_{*}(s, \text{driver})$  covers only a small portion of the green. If we have two strokes, however, then we can reach the hole from much farther away, as shown by the -2 contour. In this case we don't have to drive all the way to within the small -1 contour, but only to anywhere on the green; from there we can use the putter. The optimal action-value function gives the values after committing to a particular first action, in this case, to the driver, but afterward using whichever actions are best. The -3 contour is still farther out and includes the starting tee. From the tee, the best sequence of actions is two drives and one putt, sinking the ball in three strokes.
@@ -1418,13 +1224,13 @@ Example 3.7: Optimal Value Functions for Golf The lower part of Figure 3.3 shows
 Because  $v_{*}$  is the value function for a policy, it must satisfy the self-consistency condition given by the Bellman equation for state values (3.14). Because it is the optimal value function, however,  $v_{*}$ 's consistency condition can be written in a special form without reference to any specific policy. This is the Bellman equation for  $v_{*}$ , or the Bellman optimality equation. Intuitively, the Bellman optimality equation expresses the fact that the value of a state under an optimal policy must equal the expected return for the best action from that state:
 
 $$
-\begin{array}{l} v_{*}(s) = \max_{a\in \mathcal{A}(s)}q_{\pi_{*}}(s,a) \\ = \max _ {a} \mathbb {E} _ {\pi_ {*}} [ G _ {t} \mid S _ {t} = s, A _ {t} = a ] \\ = \max  _ {a} \mathbb {E} _ {\pi_ {*}} \left[ R _ {t + 1} + \gamma G _ {t + 1} \mid S _ {t} = s, A _ {t} = a \right] (by(3.9)) \\ = \max  _ {a} \mathbb {E} \left[ R _ {t + 1} + \gamma v _ {*} \left(S _ {t + 1}\right) \mid S _ {t} = s, A _ {t} = a \right] (3.18) \\ = \max  _ {a} \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r + \gamma v _ {*} \left(s ^ {\prime}\right) \right]. (3.19) \\ \end{array}
+\begin{array}{l} v_{*}(s) = \max_{a\in \mathcal{A}(s)}q_{\pi_{*}}(s,a) \\ = \max_{a} \mathbb{E}_{\pi_{*}} [ G_{t} \mid S_{t} = s, A_{t} = a ] \\ = \max_{a} \mathbb{E}_{\pi_{*}} \left[ R_{t + 1} + \gamma G_{t + 1} \mid S_{t} = s, A_{t} = a \right] (by(3.9)) \\ = \max_{a} \mathbb{E} \left[ R_{t + 1} + \gamma v_{*} \left(S_{t + 1}\right) \mid S_{t} = s, A_{t} = a \right] (3.18) \\ = \max_{a} \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) \left[ r + \gamma v_{*} \left(s^{\prime}\right) \right]. (3.19) \\ \end{array}
 $$
 
 The last two equations are two forms of the Bellman optimality equation for  $v_{*}$ . The Bellman optimality equation for  $q_{*}$  is
 
 $$
-\begin{array}{l} q _ {*} (s, a) = \mathbb {E} \left[ R _ {t + 1} + \gamma \max  _ {a ^ {\prime}} q _ {*} (S _ {t + 1}, a ^ {\prime}) \Big | S _ {t} = s, A _ {t} = a \right] \\ = \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r + \gamma \max  _ {a ^ {\prime}} q _ {*} \left(s ^ {\prime}, a ^ {\prime}\right) \right]. \tag {3.20} \\ \end{array}
+\begin{array}{l} q_{*} (s, a) = \mathbb{E} \left[ R_{t + 1} + \gamma \max_{a^{\prime}} q_{*} (S_{t + 1}, a^{\prime}) \Big | S_{t} = s, A_{t} = a \right] \\ = \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) \left[ r + \gamma \max_{a^{\prime}} q_{*} \left(s^{\prime}, a^{\prime}\right) \right]. \tag {3.20} \\ \end{array}
 $$
 
 The backup diagrams in the figure below show graphically the spans of future states and actions considered in the Bellman optimality equations for  $v_{*}$  and  $q_{*}$ . These are the same as the backup diagrams for  $v_{\pi}$  and  $q_{\pi}$  presented earlier except that arcs have been added at the agent's choice points to represent that the maximum over that choice is taken rather than the expected value given some policy. The backup diagram on the left graphically represents the Bellman optimality equation (3.19) and the backup diagram on the right graphically represents (3.20).
@@ -1457,13 +1263,13 @@ Figure 3.5: Optimal solutions to the gridworld example.
 Example 3.9: Bellman Optimality Equations for the Recycling Robot Using (3.19), we can explicitly give the Bellman optimality equation for the recycling robot example. To make things more compact, we abbreviate the states high and low, and the actions search, wait, and recharge respectively by h, l, s, w, and re. Because there are only two states, the Bellman optimality equation consists of two equations. The equation for  $v_{*}(\mathbf{h})$  can be written as follows:
 
 $$
-\begin{array}{l} \begin{array}{r l r} {v _ {*} (\mathbf {h})} & = & {\max \left\{ \begin{array}{l} p (\mathbf {h} | \mathbf {h}, \mathbf {s}) [ r (\mathbf {h}, \mathbf {s}, \mathbf {h}) + \gamma v _ {*} (\mathbf {h}) ] + p (\mathbf {l} | \mathbf {h}, \mathbf {s}) [ r (\mathbf {h}, \mathbf {s}, \mathbf {l}) + \gamma v _ {*} (\mathbf {l}) ], \\ p (\mathbf {h} | \mathbf {h}, \mathbf {w}) [ r (\mathbf {h}, \mathbf {w}, \mathbf {h}) + \gamma v _ {*} (\mathbf {h}) ] + p (\mathbf {l} | \mathbf {h}, \mathbf {w}) [ r (\mathbf {h}, \mathbf {w}, \mathbf {l}) + \gamma v _ {*} (\mathbf {l}) ] \end{array} \right\}} \end{array} \\ \begin{array}{r l} {=} & {\max \left\{\alpha [ r _ {\mathbf {s}} + \gamma v _ {*} (\mathbf {h}) ] + (1 - \alpha) [ r _ {\mathbf {s}} + \gamma v _ {*} (\mathbf {l}) ], 1 [ r _ {\mathbf {w}} + \gamma v _ {*} (\mathbf {h}) ] + 0 [ r _ {\mathbf {w}} + \gamma v _ {*} (\mathbf {l}) ] \right\}} \end{array} \\ \begin{array}{r l} {=} & {\max \left\{ \begin{array}{l} r _ {\mathsf {s}} + \gamma [ \alpha v _ {*} (\mathsf {h}) + (1 - \alpha) v _ {*} (\mathsf {1}) ], \\ r _ {\mathsf {w}} + \gamma v _ {*} (\mathsf {h}) \end{array} \right\}.} \end{array} \\ \end{array}
+\begin{array}{l} \begin{array}{r l r} {v_{*} (\mathbf{h})} & = & {\max \left\{ \begin{array}{l} p (\mathbf{h} | \mathbf{h}, \mathbf{s}) [ r (\mathbf{h}, \mathbf{s}, \mathbf{h}) + \gamma v_{*} (\mathbf{h}) ] + p (\mathbf{l} | \mathbf{h}, \mathbf{s}) [ r (\mathbf{h}, \mathbf{s}, \mathbf{l}) + \gamma v_{*} (\mathbf{l}) ], \\ p (\mathbf{h} | \mathbf{h}, \mathbf{w}) [ r (\mathbf{h}, \mathbf{w}, \mathbf{h}) + \gamma v_{*} (\mathbf{h}) ] + p (\mathbf{l} | \mathbf{h}, \mathbf{w}) [ r (\mathbf{h}, \mathbf{w}, \mathbf{l}) + \gamma v_{*} (\mathbf{l}) ] \end{array} \right\}} \end{array} \\ \begin{array}{r l} {=} & {\max \left\{\alpha [ r_{\mathbf{s}} + \gamma v_{*} (\mathbf{h}) ] + (1 - \alpha) [ r_{\mathbf{s}} + \gamma v_{*} (\mathbf{l}) ], 1 [ r_{\mathbf{w}} + \gamma v_{*} (\mathbf{h}) ] + 0 [ r_{\mathbf{w}} + \gamma v_{*} (\mathbf{l}) ] \right\}} \end{array} \\ \begin{array}{r l} {=} & {\max \left\{ \begin{array}{l} r_{\mathsf{s}} + \gamma [ \alpha v_{*} (\mathsf{h}) + (1 - \alpha) v_{*} (\mathsf{1}) ], \\ r_{\mathsf{w}} + \gamma v_{*} (\mathsf{h}) \end{array} \right\}.} \end{array} \\ \end{array}
 $$
 
 Following the same procedure for  $v_{*}(1)$  yields the equation
 
 $$
-v _ {*} (\mathbf {l}) = \max \left\{ \begin{array}{l} \beta r _ {\mathbf {s}} - 3 (1 - \beta) + \gamma [ (1 - \beta) v _ {*} (\mathbf {h}) + \beta v _ {*} (\mathbf {l}) ], \\ r _ {\mathbf {w}} + \gamma v _ {*} (\mathbf {l}), \\ \gamma v _ {*} (\mathbf {h}) \end{array} \right\}.
+v_{*} (\mathbf{l}) = \max \left\{ \begin{array}{l} \beta r_{\mathbf{s}} - 3 (1 - \beta) + \gamma [ (1 - \beta) v_{*} (\mathbf{h}) + \beta v_{*} (\mathbf{l}) ], \\ r_{\mathbf{w}} + \gamma v_{*} (\mathbf{l}), \\ \gamma v_{*} (\mathbf{h}) \end{array} \right\}.
 $$
 
 For any choice of  $r_{\mathbf{s}}$ ,  $r_{\overline{\mathbf{v}}}$ ,  $\alpha$ ,  $\beta$ , and  $\gamma$ , with  $0 \leq \gamma < 1$ ,  $0 \leq \alpha, \beta \leq 1$ , there is exactly one pair of numbers,  $v_{*}(\mathbf{h})$  and  $v_{*}(1)$ , that simultaneously satisfy these two nonlinear equations.
@@ -1563,13 +1369,13 @@ Starting with this chapter, we usually assume that the environment is a finite M
 The key idea of DP, and of reinforcement learning generally, is the use of value functions to organize and structure the search for good policies. In this chapter we show how DP can be used to compute the value functions defined in Chapter 3. As discussed there, we can easily obtain optimal policies once we have found the optimal value functions,  $v_{*}$  or  $q_{*}$ , which satisfy the Bellman optimality equations:
 
 $$
-\begin{array}{l} v _ {*} (s) = \max  _ {a} \mathbb {E} \left[ R _ {t + 1} + \gamma v _ {*} \left(S _ {t + 1}\right) \mid S _ {t} = s, A _ {t} = a \right] \\ = \max  _ {a} \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r + \gamma v _ {*} \left(s ^ {\prime}\right) \right], \tag {4.1} \\ \end{array}
+\begin{array}{l} v_{*} (s) = \max_{a} \mathbb{E} \left[ R_{t + 1} + \gamma v_{*} \left(S_{t + 1}\right) \mid S_{t} = s, A_{t} = a \right] \\ = \max_{a} \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) \left[ r + \gamma v_{*} \left(s^{\prime}\right) \right], \tag {4.1} \\ \end{array}
 $$
 
 or
 
 $$
-\begin{array}{l} q _ {*} (s, a) = \mathbb {E} \left[ R _ {t + 1} + \gamma \max  _ {a ^ {\prime}} q _ {*} (S _ {t + 1}, a ^ {\prime}) \mid S _ {t} = s, A _ {t} = a \right] \\ = \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r + \gamma \max  _ {a ^ {\prime}} q _ {*} \left(s ^ {\prime}, a ^ {\prime}\right) \right], \tag {4.2} \\ \end{array}
+\begin{array}{l} q_{*} (s, a) = \mathbb{E} \left[ R_{t + 1} + \gamma \max_{a^{\prime}} q_{*} (S_{t + 1}, a^{\prime}) \mid S_{t} = s, A_{t} = a \right] \\ = \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) \left[ r + \gamma \max_{a^{\prime}} q_{*} \left(s^{\prime}, a^{\prime}\right) \right], \tag {4.2} \\ \end{array}
 $$
 
 for all  $s \in \mathcal{S}$ ,  $a \in \mathcal{A}(s)$ , and  $s' \in \mathcal{S}^+$ . As we shall see, DP algorithms are obtained by turning Bellman equations such as these into assignments, that is, into update rules for improving approximations of the desired value functions.
@@ -1579,7 +1385,7 @@ for all  $s \in \mathcal{S}$ ,  $a \in \mathcal{A}(s)$ , and  $s' \in \mathcal{S
 First we consider how to compute the state-value function  $v_{\pi}$  for an arbitrary policy  $\pi$ . This is called policy evaluation in the DP literature. We also refer to it as the prediction problem. Recall from Chapter 3 that, for all  $s \in S$ ,
 
 $$
-\begin{array}{l} v _ {\pi} (s) \doteq \mathbb {E} _ {\pi} \left[ G _ {t} \mid S _ {t} = s \right] \\ = \mathbb {E} _ {\pi} \left[ R _ {t + 1} + \gamma G _ {t + 1} \mid S _ {t} = s \right] \quad (\text {f r o m (3 . 9)}) \\ = \mathbb {E} _ {\pi} \left[ R _ {t + 1} + \gamma v _ {\pi} \left(S _ {t + 1}\right) \mid S _ {t} = s \right] (4.3) \\ = \sum_ {a} \pi (a | s) \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r + \gamma v _ {\pi} \left(s ^ {\prime}\right) \right], (4.4) \\ \end{array}
+\begin{array}{l} v_{\pi} (s) \doteq \mathbb{E}_{\pi} \left[ G_{t} \mid S_{t} = s \right] \\ = \mathbb{E}_{\pi} \left[ R_{t + 1} + \gamma G_{t + 1} \mid S_{t} = s \right] \quad (\text{from  (3.9)}) \\ = \mathbb{E}_{\pi} \left[ R_{t + 1} + \gamma v_{\pi} \left(S_{t + 1}\right) \mid S_{t} = s \right] (4.3) \\ = \sum_{a} \pi (a | s) \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) \left[ r + \gamma v_{\pi} \left(s^{\prime}\right) \right], (4.4) \\ \end{array}
 $$
 
 where  $\pi(a|s)$  is the probability of taking action  $a$  in state  $s$  under policy  $\pi$ , and the expectations are subscripted by  $\pi$  to indicate that they are conditional on  $\pi$  being followed. The existence and uniqueness of  $v_{\pi}$  are guaranteed as long as either  $\gamma < 1$  or eventual termination is guaranteed from all states under the policy  $\pi$ .
@@ -1587,7 +1393,7 @@ where  $\pi(a|s)$  is the probability of taking action  $a$  in state  $s$  unde
 If the environment's dynamics are completely known, then (4.4) is a system of  $|\mathcal{S}|$  simultaneous linear equations in  $|\mathcal{S}|$  unknowns (the  $v_{\pi}(s), s \in \mathcal{S}$ ). In principle, its solution is a straightforward, if tedious, computation. For our purposes, iterative solution methods are most suitable. Consider a sequence of approximate value functions  $v_0, v_1, v_2, \ldots$ , each mapping  $\mathcal{S}^+$  to  $\mathbb{R}$  (the real numbers). The initial approximation,  $v_0$ , is chosen arbitrarily (except that the terminal state, if any, must be given value 0), and each successive approximation is obtained by using the Bellman equation for  $v_{\pi}$  (4.4) as an update rule:
 
 $$
-\begin{array}{l} v _ {k + 1} (s) \quad \doteq \quad \mathbb {E} _ {\pi} \left[ R _ {t + 1} + \gamma v _ {k} \left(S _ {t + 1}\right) \mid S _ {t} = s \right] \\ = \sum_ {a} \pi (a | s) \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r + \gamma v _ {k} \left(s ^ {\prime}\right) \right], \tag {4.5} \\ \end{array}
+\begin{array}{l} v_{k + 1} (s) \quad \doteq \quad \mathbb{E}_{\pi} \left[ R_{t + 1} + \gamma v_{k} \left(S_{t + 1}\right) \mid S_{t} = s \right] \\ = \sum_{a} \pi (a | s) \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) \left[ r + \gamma v_{k} \left(s^{\prime}\right) \right], \tag {4.5} \\ \end{array}
 $$
 
 for all  $s \in \mathbb{S}$ . Clearly,  $v_{k} = v_{\pi}$  is a fixed point for this update rule because the Bellman equation for  $v_{\pi}$  assures us of equality in this case. Indeed, the sequence  $\{v_k\}$  can be shown in general to converge to  $v_{\pi}$  as  $k \to \infty$  under the same conditions that guarantee the existence of  $v_{\pi}$ . This algorithm is called iterative policy evaluation.
@@ -1621,7 +1427,7 @@ v \leftarrow V (s)
 $$
 
 $$
-V (s) \leftarrow \sum_ {a} \pi (a | s) \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r | s, a\right) \left[ r + \gamma V \left(s ^ {\prime}\right) \right]
+V (s) \leftarrow \sum_{a} \pi (a | s) \sum_{s^{\prime}, r} p \left(s^{\prime}, r | s, a\right) \left[ r + \gamma V \left(s^{\prime}\right) \right]
 $$
 
 $$
@@ -1656,7 +1462,7 @@ Figure 4.1: Convergence of iterative policy evaluation on a small gridworld. The
 following the existing policy,  $\pi$ . The value of this way of behaving is
 
 $$
-\begin{array}{l} q _ {\pi} (s, a) \doteq \mathbb {E} \left[ R _ {t + 1} + \gamma v _ {\pi} \left(S _ {t + 1}\right) \mid S _ {t} = s, A _ {t} = a \right] \tag {4.6} \\ = \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r + \gamma v _ {\pi} \left(s ^ {\prime}\right) \right]. \\ \end{array}
+\begin{array}{l} q_{\pi} (s, a) \doteq \mathbb{E} \left[ R_{t + 1} + \gamma v_{\pi} \left(S_{t + 1}\right) \mid S_{t} = s, A_{t} = a \right] \tag {4.6} \\ = \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) \left[ r + \gamma v_{\pi} \left(s^{\prime}\right) \right]. \\ \end{array}
 $$
 
 The key criterion is whether this is greater than or less than  $v_{\pi}(s)$ . If it is greater—that is, if it is better to select  $a$  once in  $s$  and thereafter follow  $\pi$  than it would be to follow  $\pi$  all the time—then one would expect it to be better still to select  $a$  every time  $s$  is encountered, and that the new policy would in fact be a better one overall.
@@ -1664,13 +1470,13 @@ The key criterion is whether this is greater than or less than  $v_{\pi}(s)$ . I
 That this is true is a special case of a general result called the policy improvement theorem. Let  $\pi$  and  $\pi'$  be any pair of deterministic policies such that, for all  $s \in S$ ,
 
 $$
-q _ {\pi} (s, \pi^ {\prime} (s)) \geq v _ {\pi} (s). \tag {4.7}
+q_{\pi} (s, \pi^{\prime} (s)) \geq v_{\pi} (s). \tag {4.7}
 $$
 
 Then the policy  $\pi'$  must be as good as, or better than,  $\pi$ . That is, it must obtain greater or equal expected return from all states  $s \in \mathcal{S}$ :
 
 $$
-v _ {\pi^ {\prime}} (s) \geq v _ {\pi} (s). \tag {4.8}
+v_{\pi^{\prime}} (s) \geq v_{\pi} (s). \tag {4.8}
 $$
 
 Moreover, if there is strict inequality of (4.7) at any state, then there must be strict inequality of (4.8) at that state.
@@ -1680,13 +1486,13 @@ The policy improvement theorem applies to the two policies that we considered at
 The idea behind the proof of the policy improvement theorem is easy to understand. Starting from (4.7), we keep expanding the  $q_{\pi}$  side with (4.6) and reapplying (4.7) until we get  $v_{\pi^{\prime}}(s)$ :
 
 $$
-\begin{array}{l} v _ {\pi} (s) \leq q _ {\pi} (s, \pi^ {\prime} (s)) \\ = \mathbb {E} \left[ R _ {t + 1} + \gamma v _ {\pi} \left(S _ {t + 1}\right) \mid S _ {t} = s, A _ {t} = \pi^ {\prime} (s) \right] (by(4.6)) \\ = \mathbb {E} _ {\pi^ {\prime}} \left[ R _ {t + 1} + \gamma v _ {\pi} \left(S _ {t + 1}\right) \mid S _ {t} = s \right] \\ \leq \mathbb {E} _ {\pi^ {\prime}} \left[ R _ {t + 1} + \gamma q _ {\pi} \left(S _ {t + 1}, \pi^ {\prime} \left(S _ {t + 1}\right)\right) \mid S _ {t} = s \right] (by(4.7)) \\ = \mathbb {E} _ {\pi^ {\prime}} \left[ R _ {t + 1} + \gamma \mathbb {E} \left[ R _ {t + 2} + \gamma v _ {\pi} \left(S _ {t + 2}\right) \mid S _ {t + 1}, A _ {t + 1} = \pi^ {\prime} \left(S _ {t + 1}\right) \right] \mid S _ {t} = s \right] \\ = \mathbb {E} _ {\pi^ {\prime}} \left[ R _ {t + 1} + \gamma R _ {t + 2} + \gamma^ {2} v _ {\pi} \left(S _ {t + 2}\right) \mid S _ {t} = s \right] \\ \leq \mathbb {E} _ {\pi^ {\prime}} \left[ R _ {t + 1} + \gamma R _ {t + 2} + \gamma^ {2} R _ {t + 3} + \gamma^ {3} v _ {\pi} \left(S _ {t + 3}\right) \mid S _ {t} = s \right] \\ \end{array}
+\begin{array}{l} v_{\pi} (s) \leq q_{\pi} (s, \pi^{\prime} (s)) \\ = \mathbb{E} \left[ R_{t + 1} + \gamma v_{\pi} \left(S_{t + 1}\right) \mid S_{t} = s, A_{t} = \pi^{\prime} (s) \right] (by(4.6)) \\ = \mathbb{E}_{\pi^{\prime}} \left[ R_{t + 1} + \gamma v_{\pi} \left(S_{t + 1}\right) \mid S_{t} = s \right] \\ \leq \mathbb{E}_{\pi^{\prime}} \left[ R_{t + 1} + \gamma q_{\pi} \left(S_{t + 1}, \pi^{\prime} \left(S_{t + 1}\right)\right) \mid S_{t} = s \right] (by(4.7)) \\ = \mathbb{E}_{\pi^{\prime}} \left[ R_{t + 1} + \gamma \mathbb{E} \left[ R_{t + 2} + \gamma v_{\pi} \left(S_{t + 2}\right) \mid S_{t + 1}, A_{t + 1} = \pi^{\prime} \left(S_{t + 1}\right) \right] \mid S_{t} = s \right] \\ = \mathbb{E}_{\pi^{\prime}} \left[ R_{t + 1} + \gamma R_{t + 2} + \gamma^{2} v_{\pi} \left(S_{t + 2}\right) \mid S_{t} = s \right] \\ \leq \mathbb{E}_{\pi^{\prime}} \left[ R_{t + 1} + \gamma R_{t + 2} + \gamma^{2} R_{t + 3} + \gamma^{3} v_{\pi} \left(S_{t + 3}\right) \mid S_{t} = s \right] \\ \end{array}
 $$
 
 ：
 
 $$
-\begin{array}{l} \leq \mathbb {E} _ {\pi^ {\prime}} \left[ R _ {t + 1} + \gamma R _ {t + 2} + \gamma^ {2} R _ {t + 3} + \gamma^ {3} R _ {t + 4} + \dots \mid S _ {t} = s \right] \\ = v _ {\pi^ {\prime}} (s). \\ \end{array}
+\begin{array}{l} \leq \mathbb{E}_{\pi^{\prime}} \left[ R_{t + 1} + \gamma R_{t + 2} + \gamma^{2} R_{t + 3} + \gamma^{3} R_{t + 4} + \dots \mid S_{t} = s \right] \\ = v_{\pi^{\prime}} (s). \\ \end{array}
 $$
 
 So far we have seen how, given a policy and its value function, we can easily evaluate a change in the policy at a single state. It is a natural extension to consider changes at
@@ -1694,7 +1500,7 @@ So far we have seen how, given a policy and its value function, we can easily ev
 all states, selecting at each state the action that appears best according to  $q_{\pi}(s,a)$ . In other words, to consider the new greedy policy,  $\pi'$ , given by
 
 $$
-\begin{array}{l} \pi^ {\prime} (s) \quad \doteq \quad \underset {a} {\operatorname {a r g m a x}} q _ {\pi} (s, a) \\ = \underset {a} {\arg \max } \mathbb {E} \left[ R _ {t + 1} + \gamma v _ {\pi} \left(S _ {t + 1}\right) \mid S _ {t} = s, A _ {t} = a \right] \tag {4.9} \\ = \arg \max  _ {a} \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r + \gamma v _ {\pi} \left(s ^ {\prime}\right) \right], \\ \end{array}
+\begin{array}{l} \pi^{\prime} (s) \quad \doteq \quad \underset{a} {\operatorname{argmax}} q_{\pi} (s, a) \\ = \underset{a} {\arg \max } \mathbb{E} \left[ R_{t + 1} + \gamma v_{\pi} \left(S_{t + 1}\right) \mid S_{t} = s, A_{t} = a \right] \tag {4.9} \\ = \arg \max_{a} \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) \left[ r + \gamma v_{\pi} \left(s^{\prime}\right) \right], \\ \end{array}
 $$
 
 where  $\arg\max_{a}$  denotes the value of  $a$  at which the expression that follows is maximized (with ties broken arbitrarily). The greedy policy takes the action that looks best in the short term—after one step of lookahead—according to  $v_{\pi}$ . By construction, the greedy policy meets the conditions of the policy improvement theorem (4.7), so we know that it is as good as, or better than, the original policy. The process of making a new policy that improves on an original policy, by making it greedy with respect to the value function of the original policy, is called policy improvement.
@@ -1702,7 +1508,7 @@ where  $\arg\max_{a}$  denotes the value of  $a$  at which the expression that f
 Suppose the new greedy policy,  $\pi^{\prime}$ , is as good as, but not better than, the old policy  $\pi$ . Then  $v_{\pi} = v_{\pi^{\prime}}$ , and from (4.9) it follows that for all  $s \in S$ :
 
 $$
-\begin{array}{l} v _ {\pi^ {\prime}} (s) = \max  _ {a} \mathbb {E} \left[ R _ {t + 1} + \gamma v _ {\pi^ {\prime}} \left(S _ {t + 1}\right) \mid S _ {t} = s, A _ {t} = a \right] \\ = \max  _ {a} \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r + \gamma v _ {\pi^ {\prime}} \left(s ^ {\prime}\right) \right]. \\ \end{array}
+\begin{array}{l} v_{\pi^{\prime}} (s) = \max_{a} \mathbb{E} \left[ R_{t + 1} + \gamma v_{\pi^{\prime}} \left(S_{t + 1}\right) \mid S_{t} = s, A_{t} = a \right] \\ = \max_{a} \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) \left[ r + \gamma v_{\pi^{\prime}} \left(s^{\prime}\right) \right]. \\ \end{array}
 $$
 
 But this is the same as the Bellman optimality equation (4.1), and therefore,  $v_{\pi'}$  must be  $v_*$ , and both  $\pi$  and  $\pi'$  must be optimal policies. Policy improvement thus must give us a strictly better policy except when the original policy is already optimal.
@@ -1718,7 +1524,7 @@ $s \in \mathcal{S}$ , illustrating policy improvement. Although in this case the
 Once a policy,  $\pi$ , has been improved using  $v_{\pi}$  to yield a better policy,  $\pi'$ , we can then compute  $v_{\pi'}$  and improve it again to yield an even better  $\pi''$ . We can thus obtain a sequence of monotonically improving policies and value functions:
 
 $$
-\pi_ {0} \xrightarrow {\mathrm {E}} v _ {\pi_ {0}} \xrightarrow {\mathrm {I}} \pi_ {1} \xrightarrow {\mathrm {E}} v _ {\pi_ {1}} \xrightarrow {\mathrm {I}} \pi_ {2} \xrightarrow {\mathrm {E}} \dots \xrightarrow {\mathrm {I}} \pi_ {*} \xrightarrow {\mathrm {E}} v _ {*},
+\pi_{0} \xrightarrow {\mathrm{E}} v_{\pi_{0}} \xrightarrow {\mathrm{I}} \pi_{1} \xrightarrow {\mathrm{E}} v_{\pi_{1}} \xrightarrow {\mathrm{I}} \pi_{2} \xrightarrow {\mathrm{E}} \dots \xrightarrow {\mathrm{I}} \pi_{*} \xrightarrow {\mathrm{E}} v_{*},
 $$
 
 where  $\xrightarrow{\mathrm{E}}$  denotes a policy evaluation and  $\xrightarrow{\mathrm{I}}$  denotes a policy improvement. Each policy is guaranteed to be a strict improvement over the previous one (unless it is already optimal). Because a finite MDP has only a finite number of deterministic policies, this process must converge to an optimal policy and the optimal value function in a finite number of iterations.
@@ -1787,7 +1593,7 @@ In fact, the policy evaluation step of policy iteration can be truncated in seve
 case is when policy evaluation is stopped after just one sweep (one update of each state). This algorithm is called value iteration. It can be written as a particularly simple update operation that combines the policy improvement and truncated policy evaluation steps:
 
 $$
-\begin{array}{l} v _ {k + 1} (s) \quad \doteq \quad \max  _ {a} \mathbb {E} \left[ R _ {t + 1} + \gamma v _ {k} \left(S _ {t + 1}\right) \mid S _ {t} = s, A _ {t} = a \right] \\ = \max  _ {a} \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r + \gamma v _ {k} \left(s ^ {\prime}\right) \right], \tag {4.10} \\ \end{array}
+\begin{array}{l} v_{k + 1} (s) \quad \doteq \quad \max_{a} \mathbb{E} \left[ R_{t + 1} + \gamma v_{k} \left(S_{t + 1}\right) \mid S_{t} = s, A_{t} = a \right] \\ = \max_{a} \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) \left[ r + \gamma v_{k} \left(s^{\prime}\right) \right], \tag {4.10} \\ \end{array}
 $$
 
 for all  $s \in \mathcal{S}$ . For arbitrary  $v_0$ , the sequence  $\{v_k\}$  can be shown to converge to  $v_*$  under the same conditions that guarantee the existence of  $v_*$ .
@@ -1809,7 +1615,7 @@ $\begin{array}{rl} & {\Delta \gets 0}\\ & {\mathrm{Loop~for~each} s\in \mathcal{
 Output a deterministic policy,  $\pi \approx \pi_{*}$ , such that
 
 $$
-\pi (s) = \operatorname {a r g m a x} _ {a} \sum_ {s ^ {\prime}, r} p (s ^ {\prime}, r | s, a) \left[ r + \gamma V (s ^ {\prime}) \right]
+\pi (s) = \operatorname{argmax}_{a} \sum_{s^{\prime}, r} p (s^{\prime}, r | s, a) \left[ r + \gamma V (s^{\prime}) \right]
 $$
 
 Value iteration effectively combines, in each of its sweeps, one sweep of policy evaluation and one sweep of policy improvement. Faster convergence is often achieved by interposing multiple policy evaluation sweeps between each policy improvement sweep. In general, the entire class of truncated policy iteration algorithms can be thought of as sequences of sweeps, some of which use policy evaluation updates and some of which use value iteration updates. Because the max operation in (4.10) is the only difference between
@@ -1998,7 +1804,7 @@ We are now ready to consider how Monte Carlo estimation can be used in control, 
 To begin, let us consider a Monte Carlo version of classical policy iteration. In this method, we perform alternating complete steps of policy evaluation and policy improvement, beginning with an arbitrary policy  $\pi_0$  and ending with the optimal policy and optimal action-value function:
 
 $$
-\pi_ {0} \xrightarrow {\mathrm {E}} q _ {\pi_ {0}} \xrightarrow {\mathrm {I}} \pi_ {1} \xrightarrow {\mathrm {E}} q _ {\pi_ {1}} \xrightarrow {\mathrm {I}} \pi_ {2} \xrightarrow {\mathrm {E}} \dots \xrightarrow {\mathrm {I}} \pi_ {*} \xrightarrow {\mathrm {E}} q _ {*},
+\pi_{0} \xrightarrow {\mathrm{E}} q_{\pi_{0}} \xrightarrow {\mathrm{I}} \pi_{1} \xrightarrow {\mathrm{E}} q_{\pi_{1}} \xrightarrow {\mathrm{I}} \pi_{2} \xrightarrow {\mathrm{E}} \dots \xrightarrow {\mathrm{I}} \pi_{*} \xrightarrow {\mathrm{E}} q_{*},
 $$
 
 where  $\xrightarrow{\mathrm{E}}$  denotes a complete policy evaluation and  $\xrightarrow{\mathrm{I}}$  denotes a complete policy improvement. Policy evaluation is done exactly as described in the preceding section. Many episodes are experienced, with the approximate action-value function approaching the true function asymptotically. For the moment, let us assume that we do indeed observe an infinite number of episodes and that, in addition, the episodes are generated with exploring starts. Under these assumptions, the Monte Carlo methods will compute each  $q_{\pi_k}$  exactly, for arbitrary  $\pi_k$ .
@@ -2006,7 +1812,7 @@ where  $\xrightarrow{\mathrm{E}}$  denotes a complete policy evaluation and  $\x
 Policy improvement is done by making the policy greedy with respect to the current value function. In this case we have an action-value function, and therefore no model is needed to construct the greedy policy. For any action-value function  $q$ , the corresponding greedy policy is the one that, for each  $s \in S$ , deterministically chooses an action with maximal action-value:
 
 $$
-\pi (s) \doteq \arg \max  _ {a} q (s, a). \tag {5.1}
+\pi (s) \doteq \arg \max_{a} q (s, a). \tag {5.1}
 $$
 
 Policy improvement then can be done by constructing each  $\pi_{k+1}$  as the greedy policy with respect to  $q_{\pi_k}$ . The policy improvement theorem (Section 4.2) then applies to  $\pi_k$
@@ -2014,7 +1820,7 @@ Policy improvement then can be done by constructing each  $\pi_{k+1}$  as the gr
 and  $\pi_{k + 1}$  because, for all  $s\in S$
 
 $$
-\begin{array}{l} q _ {\pi_ {k}} (s, \pi_ {k + 1} (s)) = q _ {\pi_ {k}} (s, \underset {a} {\operatorname {a r g m a x}} q _ {\pi_ {k}} (s, a)) \\ = \max  _ {a} q _ {\pi_ {k}} (s, a) \\ \geq q _ {\pi_ {k}} (s, \pi_ {k} (s)) \\ \geq v _ {\pi_ {k}} (s). \\ \end{array}
+\begin{array}{l} q_{\pi_{k}} (s, \pi_{k + 1} (s)) = q_{\pi_{k}} (s, \underset{a} {\operatorname{argmax}} q_{\pi_{k}} (s, a)) \\ = \max_{a} q_{\pi_{k}} (s, a) \\ \geq q_{\pi_{k}} (s, \pi_{k} (s)) \\ \geq v_{\pi_{k}} (s). \\ \end{array}
 $$
 
 As we discussed in the previous chapter, the theorem assures us that each  $\pi_{k + 1}$  is uniformly better than  $\pi_{k}$ , or just as good as  $\pi_{k}$ , in which case they are both optimal policies. This in turn assures us that the overall process converges to the optimal policy and optimal value function. In this way Monte Carlo methods can be used to find optimal policies given only sample episodes and no other knowledge of the environment's dynamics.
@@ -2051,18 +1857,18 @@ The overall idea of on-policy Monte Carlo control is still that of GPI. As in Mo
 On-policy first-visit MC control (for  $\varepsilon$ -soft policies), estimates  $\pi \approx \pi_*$  
 Algorithm parameter: small  $\varepsilon >0$    
 Initialize:  $\pi \gets$  an arbitrary  $\varepsilon$  -soft policy  $Q(s,a)\in \mathbb{R}$  (arbitrarily), for all  $s\in S$ $a\in \mathcal{A}(s)$  Returns(s,a)  $\leftarrow$  empty list, for all  $s\in S$ $a\in \mathcal{A}(s)$    
-Repeat forever (for each episode): Generate an episode following  $\pi$  ..  $S_0,A_0,R_1,\ldots ,S_{T - 1},A_{T - 1},R_T$ $G\gets 0$  Loop for each step of episode,  $t = T - 1,T - 2,\dots ,0$ $G\gets \gamma G + R_{t + 1}$  Unless the pair  $S_{t},A_{t}$  appears in  $S_0,A_0,S_1,A_1\dots ,S_{t - 1},A_{t - 1}$  . Append  $G$  to Returns(St,At)  $Q(S_{t},A_{t})\gets$  average(Returns(St,At))  $A^{*}\gets \operatorname {argmax}_{a}Q(S_{t},a)$  (with ties broken arbitrarily) For all  $a\in \mathcal{A}(S_t)$ $\pi (a|S_t)\gets \left\{ \begin{array}{ll}1 - \varepsilon +\varepsilon /|\mathcal{A}(S_t)| & \text{if} a = A^*\\ \varepsilon /|\mathcal{A}(S_t)| & \text{if} a\neq A^* \end{array} \right.$
+Repeat forever (for each episode): Generate an episode following  $\pi$  ..  $S_0,A_0,R_1,\ldots ,S_{T - 1},A_{T - 1},R_T$ $G\gets 0$  Loop for each step of episode,  $t = T - 1,T - 2,\dots ,0$ $G\gets \gamma G + R_{t + 1}$  Unless the pair  $S_{t},A_{t}$  appears in  $S_0,A_0,S_1,A_1\dots ,S_{t - 1},A_{t - 1}$  . Append  $G$  to Returns(St,At)  $Q(S_{t},A_{t})\gets$  average(Returns(St,At))  $A^{*}\gets \operatorname{argmax}_{a}Q(S_{t},a)$  (with ties broken arbitrarily) For all  $a\in \mathcal{A}(S_t)$ $\pi (a|S_t)\gets \left\{ \begin{array}{ll}1 - \varepsilon +\varepsilon /|\mathcal{A}(S_t)| & \text{if} a = A^*\\ \varepsilon /|\mathcal{A}(S_t)| & \text{if} a\neq A^* \end{array} \right.$
 
 That any  $\varepsilon$ -greedy policy with respect to  $q_{\pi}$  is an improvement over any  $\varepsilon$ -soft policy  $\pi$  is assured by the policy improvement theorem. Let  $\pi'$  be the  $\varepsilon$ -greedy policy. The conditions of the policy improvement theorem apply because for any  $s \in \mathbb{S}$ :
 
 $$
-\begin{array}{l} q _ {\pi} (s, \pi^ {\prime} (s)) = \sum_ {a} \pi^ {\prime} (a | s) q _ {\pi} (s, a) \\ = \frac {\varepsilon}{| \mathcal {A} (s) |} \sum_ {a} q _ {\pi} (s, a) + (1 - \varepsilon) \max  _ {a} q _ {\pi} (s, a) \tag {5.2} \\ \geq \frac {\varepsilon}{| \mathcal {A} (s) |} \sum_ {a} q _ {\pi} (s, a) + (1 - \varepsilon) \sum_ {a} \frac {\pi (a | s) - \frac {\varepsilon}{| \mathcal {A} (s) |}}{1 - \varepsilon} q _ {\pi} (s, a) \\ \end{array}
+\begin{array}{l} q_{\pi} (s, \pi^{\prime} (s)) = \sum_{a} \pi^{\prime} (a | s) q_{\pi} (s, a) \\ = \frac{\varepsilon}{| \mathcal{A} (s) |} \sum_{a} q_{\pi} (s, a) + (1 - \varepsilon) \max_{a} q_{\pi} (s, a) \tag {5.2} \\ \geq \frac{\varepsilon}{| \mathcal{A} (s) |} \sum_{a} q_{\pi} (s, a) + (1 - \varepsilon) \sum_{a} \frac{\pi (a | s) - \frac{\varepsilon}{| \mathcal{A} (s) |}}{1 - \varepsilon} q_{\pi} (s, a) \\ \end{array}
 $$
 
 (the sum is a weighted average with nonnegative weights summing to 1, and as such it must be less than or equal to the largest number averaged)
 
 $$
-\begin{array}{l} = \frac {\varepsilon}{| \mathcal {A} (s) |} \sum_ {a} q _ {\pi} (s, a) - \frac {\varepsilon}{| \mathcal {A} (s) |} \sum_ {a} q _ {\pi} (s, a) + \sum_ {a} \pi (a | s) q _ {\pi} (s, a) \\ = v _ {\pi} (s). \\ \end{array}
+\begin{array}{l} = \frac{\varepsilon}{| \mathcal{A} (s) |} \sum_{a} q_{\pi} (s, a) - \frac{\varepsilon}{| \mathcal{A} (s) |} \sum_{a} q_{\pi} (s, a) + \sum_{a} \pi (a | s) q_{\pi} (s, a) \\ = v_{\pi} (s). \\ \end{array}
 $$
 
 Thus, by the policy improvement theorem,  $\pi' \geq \pi$  (i.e.,  $v_{\pi'}(s) \geq v_{\pi}(s)$ , for all  $s \in \mathcal{S}$ ). We now prove that equality can hold only when both  $\pi'$  and  $\pi$  are optimal among the  $\varepsilon$ -soft policies, that is, when they are better than or equal to all other  $\varepsilon$ -soft policies.
@@ -2070,13 +1876,13 @@ Thus, by the policy improvement theorem,  $\pi' \geq \pi$  (i.e.,  $v_{\pi'}(s) 
 Consider a new environment that is just like the original environment, except with the requirement that policies be  $\varepsilon$ -soft "moved inside" the environment. The new environment has the same action and state set as the original and behaves as follows. If in state  $s$  and taking action  $a$ , then with probability  $1 - \varepsilon$  the new environment behaves exactly like the old environment. With probability  $\varepsilon$  it repicks the action at random, with equal probabilities, and then behaves like the old environment with the new, random action. The best one can do in this new environment with general policies is the same as the best one could do in the original environment with  $\varepsilon$ -soft policies. Let  $\widetilde{v}_*$  and  $\widetilde{q}_*$  denote the optimal value functions for the new environment. Then a policy  $\pi$  is optimal among  $\varepsilon$ -soft policies if and only if  $v_{\pi} = \widetilde{v}_{*}$ . We know that  $\widetilde{v}_*$  is the unique solution to the Bellman optimality equation (3.19) with altered transition probabilities:
 
 $$
-\begin{array}{l} \widetilde {v} _ {*} (s) = \max  _ {a} \sum_ {s ^ {\prime}, r} \left[ (1 - \varepsilon) p \left(s ^ {\prime}, r \mid s, a\right) + \sum_ {a ^ {\prime}} \frac {\varepsilon}{\left| \mathcal {A} (s) \right|} p \left(s ^ {\prime}, r \mid s, a ^ {\prime}\right) \right] \left[ r + \gamma \widetilde {v} _ {*} \left(s ^ {\prime}\right) \right] \\ = (1 - \varepsilon) \max  _ {a} \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r + \gamma \widetilde {v} _ {*} \left(s ^ {\prime}\right) \right] \\ + \frac {\varepsilon}{| \mathcal {A} (s) |} \sum_ {a} \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r + \gamma \widetilde {v} _ {*} \left(s ^ {\prime}\right) \right]. \\ \end{array}
+\begin{array}{l} \widetilde {v}_{*} (s) = \max_{a} \sum_{s^{\prime}, r} \left[ (1 - \varepsilon) p \left(s^{\prime}, r \mid s, a\right) + \sum_{a^{\prime}} \frac{\varepsilon}{\left| \mathcal{A} (s) \right|} p \left(s^{\prime}, r \mid s, a^{\prime}\right) \right] \left[ r + \gamma \widetilde {v}_{*} \left(s^{\prime}\right) \right] \\ = (1 - \varepsilon) \max_{a} \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) \left[ r + \gamma \widetilde {v}_{*} \left(s^{\prime}\right) \right] \\ + \frac{\varepsilon}{| \mathcal{A} (s) |} \sum_{a} \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) \left[ r + \gamma \widetilde {v}_{*} \left(s^{\prime}\right) \right]. \\ \end{array}
 $$
 
 When equality holds and the  $\varepsilon$ -soft policy  $\pi$  is no longer improved, then we also know, from (5.2), that
 
 $$
-\begin{array}{l} v _ {\pi} (s) = (1 - \varepsilon) \max  _ {a} q _ {\pi} (s, a) + \frac {\varepsilon}{| \mathcal {A} (s) |} \sum_ {a} q _ {\pi} (s, a) \\ = (1 - \varepsilon) \max  _ {a} \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r + \gamma v _ {\pi} \left(s ^ {\prime}\right) \right] \\ + \frac {\varepsilon}{| \mathcal {A} (s) |} \sum_ {a} \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r + \gamma v _ {\pi} \left(s ^ {\prime}\right) \right]. \\ \end{array}
+\begin{array}{l} v_{\pi} (s) = (1 - \varepsilon) \max_{a} q_{\pi} (s, a) + \frac{\varepsilon}{| \mathcal{A} (s) |} \sum_{a} q_{\pi} (s, a) \\ = (1 - \varepsilon) \max_{a} \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) \left[ r + \gamma v_{\pi} \left(s^{\prime}\right) \right] \\ + \frac{\varepsilon}{| \mathcal{A} (s) |} \sum_{a} \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) \left[ r + \gamma v_{\pi} \left(s^{\prime}\right) \right]. \\ \end{array}
 $$
 
 However, this equation is the same as the previous one, except for the substitution of  $v_{\pi}$  for  $\widetilde{v}_{*}$ . Because  $\widetilde{v}_{*}$  is the unique solution, it must be that  $v_{\pi} = \widetilde{v}_{*}$ .
@@ -2098,13 +1904,13 @@ In order to use episodes from  $b$  to estimate values for  $\pi$ , we require t
 Almost all off-policy methods utilize importance sampling, a general technique for estimating expected values under one distribution given samples from another. We apply importance sampling to off-policy learning by weighting returns according to the relative probability of their trajectories occurring under the target and behavior policies, called the importance-sampling ratio. Given a starting state  $S_{t}$ , the probability of the subsequent state-action trajectory,  $A_{t}, S_{t + 1}, A_{t + 1}, \ldots, S_{T}$ , occurring under any policy  $\pi$  is
 
 $$
-\begin{array}{l} \Pr \left\{A _ {t}, S _ {t + 1}, A _ {t + 1}, \dots , S _ {T} \mid S _ {t}, A _ {t: T - 1} \sim \pi \right\} \\ = \pi (A _ {t} | S _ {t}) p (S _ {t + 1} | S _ {t}, A _ {t}) \pi (A _ {t + 1} | S _ {t + 1}) \dots p (S _ {T} | S _ {T - 1}, A _ {T - 1}) \\ = \prod_ {k = t} ^ {T - 1} \pi (A _ {k} | S _ {k}) p (S _ {k + 1} | S _ {k}, A _ {k}), \\ \end{array}
+\begin{array}{l} \Pr \left\{A_{t}, S_{t + 1}, A_{t + 1}, \dots , S_{T} \mid S_{t}, A_{t: T - 1} \sim \pi \right\} \\ = \pi (A_{t} | S_{t}) p (S_{t + 1} | S_{t}, A_{t}) \pi (A_{t + 1} | S_{t + 1}) \dots p (S_{T} | S_{T - 1}, A_{T - 1}) \\ = \prod_{k = t} ^{T - 1} \pi (A_{k} | S_{k}) p (S_{k + 1} | S_{k}, A_{k}), \\ \end{array}
 $$
 
 where  $p$  here is the state-transition probability function defined by (3.4). Thus, the relative probability of the trajectory under the target and behavior policies (the importance-sampling ratio) is
 
 $$
-\rho_ {t: T - 1} \doteq \frac {\prod_ {k = t} ^ {T - 1} \pi \left(A _ {k} \mid S _ {k}\right) p \left(S _ {k + 1} \mid S _ {k} , A _ {k}\right)}{\prod_ {k = t} ^ {T - 1} b \left(A _ {k} \mid S _ {k}\right) p \left(S _ {k + 1} \mid S _ {k} , A _ {k}\right)} = \prod_ {k = t} ^ {T - 1} \frac {\pi \left(A _ {k} \mid S _ {k}\right)}{b \left(A _ {k} \mid S _ {k}\right)}. \tag {5.3}
+\rho_{t: T - 1} \doteq \frac{\prod_{k = t} ^{T - 1} \pi \left(A_{k} \mid S_{k}\right) p \left(S_{k + 1} \mid S_{k} , A_{k}\right)}{\prod_{k = t} ^{T - 1} b \left(A_{k} \mid S_{k}\right) p \left(S_{k + 1} \mid S_{k} , A_{k}\right)} = \prod_{k = t} ^{T - 1} \frac{\pi \left(A_{k} \mid S_{k}\right)}{b \left(A_{k} \mid S_{k}\right)}. \tag {5.3}
 $$
 
 Although the trajectory probabilities depend on the MDP's transition probabilities, which are generally unknown, they appear identically in both the numerator and denominator, and thus cancel. The importance sampling ratio ends up depending only on the two policies and the sequence, not on the MDP.
@@ -2112,13 +1918,13 @@ Although the trajectory probabilities depend on the MDP's transition probabiliti
 Recall that we wish to estimate the expected returns (values) under the target policy, but all we have are returns  $G_{t}$  due to the behavior policy. These returns have the wrong expectation  $\mathbb{E}[G_t|S_t = s] = v_b(s)$  and so cannot be averaged to obtain  $v_{\pi}$ . This is where importance sampling comes in. The ratio  $\rho_{t:T - 1}$  transforms the returns to have the right expected value:
 
 $$
-\mathbb {E} \left[ \rho_ {t: T - 1} G _ {t} \mid S _ {t} = s \right] = v _ {\pi} (s). \tag {5.4}
+\mathbb{E} \left[ \rho_{t: T - 1} G_{t} \mid S_{t} = s \right] = v_{\pi} (s). \tag {5.4}
 $$
 
 Now we are ready to give a Monte Carlo algorithm that averages returns from a batch of observed episodes following policy  $b$  to estimate  $v_{\pi}(s)$ . It is convenient here to number time steps in a way that increases across episode boundaries. That is, if the first episode of the batch ends in a terminal state at time 100, then the next episode begins at time  $t = 101$ . This enables us to use time-step numbers to refer to particular steps in particular episodes. In particular, we can define the set of all time steps in which state  $s$  is visited, denoted  $\mathcal{T}(s)$ . This is for an every-visit method; for a first-visit method,  $\mathcal{T}(s)$  would only include time steps that were first visits to  $s$  within their episodes. Also, let  $T(t)$  denote the first time of termination following time  $t$ , and  $G_{t}$  denote the return after  $t$  up through  $T(t)$ . Then  $\{G_t\}_{t\in \mathcal{T}(s)}$  are the returns that pertain to state  $s$ , and  $\{\rho_{t:T(t) - 1}\}_{t\in \mathcal{T}(s)}$  are the corresponding importance-sampling ratios. To estimate  $v_{\pi}(s)$ , we simply scale the returns by the ratios and average the results:
 
 $$
-V (s) \doteq \frac {\sum_ {t \in \mathcal {T} (s)} \rho_ {t : T (t) - 1} G _ {t}}{| \mathcal {T} (s) |}. \tag {5.5}
+V (s) \doteq \frac{\sum_{t \in \mathcal{T} (s)} \rho_{t : T (t) - 1} G_{t}}{| \mathcal{T} (s) |}. \tag {5.5}
 $$
 
 When importance sampling is done as a simple average in this way it is called ordinary importance sampling.
@@ -2126,7 +1932,7 @@ When importance sampling is done as a simple average in this way it is called or
 An important alternative is weighted importance sampling, which uses a weighted average, defined as
 
 $$
-V (s) \doteq \frac {\sum_ {t \in \mathcal {T} (s)} \rho_ {t : T (t) - 1} G _ {t}}{\sum_ {t \in \mathcal {T} (s)} \rho_ {t : T (t) - 1}}, \tag {5.6}
+V (s) \doteq \frac{\sum_{t \in \mathcal{T} (s)} \rho_{t : T (t) - 1} G_{t}}{\sum_{t \in \mathcal{T} (s)} \rho_{t : T (t) - 1}}, \tag {5.6}
 $$
 
 or zero if the denominator is zero. To understand these two varieties of importance sampling, consider the estimates of their first-visit methods after observing a single return from state  $s$ . In the weighted-average estimate, the ratio  $\rho_{t:T(t) - 1}$  for the single return cancels in the numerator and denominator, so that the estimate is equal to the observed return independent of the ratio (assuming the ratio is nonzero). Given that this return was the only one observed, this is a reasonable estimate, but its expectation is  $v_b(s)$  rather than  $v_{\pi}(s)$ , and in this statistical sense it is biased. In contrast, the first-visit version of the ordinary importance-sampling estimator (5.5) is always  $v_{\pi}(s)$  in expectation (it is unbiased), but it can be extreme. Suppose the ratio were ten, indicating that the trajectory observed is ten times as likely under the target policy as under the behavior policy. In this case the ordinary importance-sampling estimate would be ten times the observed return. That is, it would be quite far from the observed return even though the episode's trajectory is considered very representative of the target policy.
@@ -2154,7 +1960,7 @@ The lower part of Figure 5.4 shows ten independent runs of the first-visit MC al
 We can verify that the variance of the importance-sampling-scaled returns is infinite in this example by a simple calculation. The variance of any random variable  $X$  is the expected value of the deviation from its mean  $\bar{X}$ , which can be written
 
 $$
-\operatorname {V a r} [ X ] \doteq \mathbb {E} \left[ \left(X - \bar {X}\right) ^ {2} \right] = \mathbb {E} \left[ X ^ {2} - 2 X \bar {X} + \bar {X} ^ {2} \right] = \mathbb {E} \left[ X ^ {2} \right] - \bar {X} ^ {2}.
+\operatorname{Var} [ X ] \doteq \mathbb{E} \left[ \left(X - \bar{X}\right)^{2} \right] = \mathbb{E} \left[ X^{2} - 2 X \bar{X} + \bar{X} ^{2} \right] = \mathbb{E} \left[ X^{2} \right] - \bar{X} ^{2}.
 $$
 
 Thus, if the mean is finite, as it is in our case, the variance is infinite if and only if the expectation of the square of the random variable is infinite. Thus, we need only show
@@ -2162,17 +1968,17 @@ Thus, if the mean is finite, as it is in our case, the variance is infinite if a
 that the expected square of the importance-sampling-scaled return is infinite:
 
 $$
-\mathbb {E} \left[ \left(\prod_ {t = 0} ^ {T - 1} \frac {\pi (A _ {t} | S _ {t})}{b (A _ {t} | S _ {t})} G _ {0}\right) ^ {2} \right].
+\mathbb{E} \left[ \left(\prod_{t = 0} ^{T - 1} \frac{\pi (A_{t} | S_{t})}{b (A_{t} | S_{t})} G_{0}\right)^{2} \right].
 $$
 
 To compute this expectation, we break it down into cases based on episode length and termination. First note that, for any episode ending with the right action, the importance sampling ratio is zero, because the target policy would never take this action; these episodes thus contribute nothing to the expectation (the quantity in parenthesis will be zero) and can be ignored. We need only consider episodes that involve some number (possibly zero) of left actions that transition back to the nonterminal state, followed by a left action transitioning to termination. All of these episodes have a return of 1, so the  $G_0$  factor can be ignored. To get the expected square we need only consider each length of episode, multiplying the probability of the episode's occurrence by the square of its importance-sampling ratio, and add these up:
 
 $$
-\begin{array}{l} = \frac {1}{2} \cdot 0. 1 \left(\frac {1}{0 . 5}\right) ^ {2} \quad (\text {t h e l e n g t h 1 e p i s o d e}) \\ + \frac {1}{2} \cdot 0. 9 \cdot \frac {1}{2} \cdot 0. 1 \left(\frac {1}{0 . 5} \frac {1}{0 . 5}\right) ^ {2} \quad (\text {t h e l e n g t h 2 e p i s o d e}) \\ + \frac {1}{2} \cdot 0. 9 \cdot \frac {1}{2} \cdot 0. 9 \cdot \frac {1}{2} \cdot 0. 1 \left(\frac {1}{0 . 5} \frac {1}{0 . 5} \frac {1}{0 . 5}\right) ^ {2} \quad (\text {t h e l e n g t h 3 e p i s o d e}) \\ + \dots \\ \end{array}
+\begin{array}{l} = \frac{1}{2} \cdot 0. 1 \left(\frac{1}{0.5}\right)^{2} \quad (\text{the length 1episode}) \\ + \frac{1}{2} \cdot 0. 9 \cdot \frac{1}{2} \cdot 0. 1 \left(\frac{1}{0.5} \frac{1}{0.5}\right)^{2} \quad (\text{the length 2episode}) \\ + \frac{1}{2} \cdot 0. 9 \cdot \frac{1}{2} \cdot 0. 9 \cdot \frac{1}{2} \cdot 0. 1 \left(\frac{1}{0.5} \frac{1}{0.5} \frac{1}{0.5}\right)^{2} \quad (\text{the length 3episode}) \\ + \dots \\ \end{array}
 $$
 
 $$
-= 0. 1 \sum_ {k = 0} ^ {\infty} 0. 9 ^ {k} \cdot 2 ^ {k} \cdot 2 = 0. 2 \sum_ {k = 0} ^ {\infty} 1. 8 ^ {k} = \infty .
+= 0. 1 \sum_{k = 0} ^{\infty} 0. 9^{k} \cdot 2^{k} \cdot 2 = 0. 2 \sum_{k = 0} ^{\infty} 1. 8^{k} = \infty .
 $$
 
 Exercise 5.6 What is the equation analogous to (5.6) for action values  $Q(s, a)$  instead of state values  $V(s)$ , again given returns generated using  $b$ ?
@@ -2190,19 +1996,19 @@ In ordinary importance sampling, the returns are scaled by the importance sampli
 Suppose we have a sequence of returns  $G_{1}, G_{2}, \ldots, G_{n - 1}$ , all starting in the same state and each with a corresponding random weight  $W_{i}$  (e.g.,  $W_{i} = \rho_{t_{i}:T(t_{i}) - 1}$ ). We wish to form the estimate
 
 $$
-V _ {n} \doteq \frac {\sum_ {k = 1} ^ {n - 1} W _ {k} G _ {k}}{\sum_ {k = 1} ^ {n - 1} W _ {k}}, \quad n \geq 2, \tag {5.7}
+V_{n} \doteq \frac{\sum_{k = 1} ^{n - 1} W_{k} G_{k}}{\sum_{k = 1} ^{n - 1} W_{k}}, \quad n \geq 2, \tag {5.7}
 $$
 
 and keep it up-to-date as we obtain a single additional return  $G_{n}$ . In addition to keeping track of  $V_{n}$ , we must maintain for each state the cumulative sum  $C_n$  of the weights given to the first  $n$  returns. The update rule for  $V_{n}$  is
 
 $$
-V _ {n + 1} \doteq V _ {n} + \frac {W _ {n}}{C _ {n}} \left[ G _ {n} - V _ {n} \right], \quad n \geq 1, \tag {5.8}
+V_{n + 1} \doteq V_{n} + \frac{W_{n}}{C_{n}} \left[ G_{n} - V_{n} \right], \quad n \geq 1, \tag {5.8}
 $$
 
 and
 
 $$
-C _ {n + 1} \doteq C _ {n} + W _ {n + 1},
+C_{n + 1} \doteq C_{n} + W_{n + 1},
 $$
 
 where  $C_0 \doteq 0$  (and  $V_{1}$  is arbitrary and thus need not be specified). The box on the next page contains a complete episode-by-episode incremental algorithm for Monte Carlo policy evaluation. The algorithm is nominally for the off-policy case, using weighted importance sampling, but applies as well to the on-policy case just by choosing the target and behavior policies as the same (in which case  $(\pi = b)$ ,  $W$  is always 1). The approximation  $Q$  converges to  $q_{\pi}$  (for all encountered state-action pairs) while actions are selected according to a potentially different policy,  $b$ .
@@ -2231,7 +2037,7 @@ Off-policy Monte Carlo control methods use one of the techniques presented in th
 The box on the next page shows an off-policy Monte Carlo control method, based on GPI and weighted importance sampling, for estimating  $\pi_*$  and  $q_*$ . The target policy  $\pi \approx \pi_*$  is the greedy policy with respect to  $Q$ , which is an estimate of  $q_{\pi}$ . The behavior policy  $b$  can be anything, but in order to assure convergence of  $\pi$  to the optimal policy, an infinite number of returns must be obtained for each pair of state and action. This can be assured by choosing  $b$  to be  $\varepsilon$ -soft. The policy  $\pi$  converges to optimal at all encountered states even though actions are selected according to a different soft policy  $b$ , which may change between or even within episodes.
 
 Off-policy MC control, for estimating  $\pi \approx \pi_{*}$  
-Initialize, for all  $s\in \mathcal{S}$ $a\in \mathcal{A}(s)$ $Q(s,a)\in \mathbb{R}$  (arbitrarily)  $C(s,a)\gets 0$ $\pi (s)\leftarrow \operatorname {argmax}_aQ(s,a)\quad (\text{with ties broken consistently})$    
+Initialize, for all  $s\in \mathcal{S}$ $a\in \mathcal{A}(s)$ $Q(s,a)\in \mathbb{R}$  (arbitrarily)  $C(s,a)\gets 0$ $\pi (s)\leftarrow \operatorname{argmax}_aQ(s,a)\quad (\text{withtiesbrokenconsistently})$    
 Loop forever (for each episode):  $b\gets$  any soft policy Generate an episode using  $b$  ..  $S_0,A_0,R_1,\ldots ,S_{T - 1},A_{T - 1},RT$ $G\gets 0$ $W\gets 1$  Loop for each step of episode,  $t = T - 1,T - 2,\dots ,0$  .  $G\gets \gamma G + R_{t + 1}$ $C(S_t,A_t)\gets C(S_t,A_t) + W$ $Q(S_{t},A_{t})\gets Q(S_{t},A_{t}) + \frac{W}{C(S_{t},A_{t})} [G - Q(S_{t},A_{t})]$ $\pi (S_t)\gets \mathrm{argmax}_aQ(S_t,a)$  (with ties broken consistently) If  $A_{t}\neq \pi (S_{t})$  then exit inner Loop (proceed to next episode)  $W\gets W\frac{1}{b(A_t|S_t)}$
 
 A potential problem is that this method learns only from the tails of episodes, when all of the remaining actions in the episode are greedy. If nongreedy actions are common, then learning will be slow, particularly for states appearing in the early portions of long episodes. Potentially, this could greatly slow learning. There has been insufficient experience with off-policy Monte Carlo methods to assess how serious this problem is. If it is serious, the most important way to address it is probably by incorporating temporal-difference learning, the algorithmic idea developed in the next chapter. Alternatively, if  $\gamma$  is less than 1, then the idea developed in the next section may also help significantly.
@@ -2256,31 +2062,31 @@ For example, consider the case where episodes are long and  $\gamma$  is signifi
 The essence of the idea is to think of discounting as determining a probability of termination or, equivalently, a degree of partial termination. For any  $\gamma \in [0,1)$ , we can think of the return  $G_{0}$  as partly terminating in one step, to the degree  $1 - \gamma$ , producing a return of just the first reward,  $R_{1}$ , and as partly terminating after two steps, to the degree  $(1 - \gamma)\gamma$ , producing a return of  $R_{1} + R_{2}$ , and so on. The latter degree corresponds to terminating on the second step,  $1 - \gamma$ , and not having already terminated on the first step,  $\gamma$ . The degree of termination on the third step is thus  $(1 - \gamma)\gamma^{2}$ , with the  $\gamma^{2}$  reflecting that termination did not occur on either of the first two steps. The partial returns here are called flat partial returns:
 
 $$
-\bar {G} _ {t: h} \doteq R _ {t + 1} + R _ {t + 2} + \dots + R _ {h}, \quad 0 \leq t <   h \leq T,
+\bar{G}_{t: h} \doteq R_{t + 1} + R_{t + 2} + \dots + R_{h}, \quad 0 \leq t <   h \leq T,
 $$
 
 where "flat" denotes the absence of discounting, and "partial" denotes that these returns do not extend all the way to termination but instead stop at  $h$ , called the horizon (and  $T$  is the time of termination of the episode). The conventional full return  $G_{t}$  can be viewed as a sum of flat partial returns as suggested above as follows:
 
 $$
-\begin{array}{l} G _ {t} \dot {=} R _ {t + 1} + \gamma R _ {t + 2} + \gamma^ {2} R _ {t + 3} + \dots + \gamma^ {T - t - 1} R _ {T} \\ = (1 - \gamma) R _ {t + 1} \\ + (1 - \gamma) \gamma \left(R _ {t + 1} + R _ {t + 2}\right) \\ + (1 - \gamma) \gamma^ {2} \left(R _ {t + 1} + R _ {t + 2} + R _ {t + 3}\right) \\ \end{array}
+\begin{array}{l} G_{t} \dot {=} R_{t + 1} + \gamma R_{t + 2} + \gamma^{2} R_{t + 3} + \dots + \gamma^{T - t - 1} R_{T} \\ = (1 - \gamma) R_{t + 1} \\ + (1 - \gamma) \gamma \left(R_{t + 1} + R_{t + 2}\right) \\ + (1 - \gamma) \gamma^{2} \left(R_{t + 1} + R_{t + 2} + R_{t + 3}\right) \\ \end{array}
 $$
 
 ：
 
 $$
-\begin{array}{l} + (1 - \gamma) \gamma^ {T - t - 2} \left(R _ {t + 1} + R _ {t + 2} + \dots + R _ {T - 1}\right) \\ + \gamma^ {T - t - 1} \left(R _ {t + 1} + R _ {t + 2} + \dots + R _ {T}\right) \\ = (1 - \gamma) \sum_ {h = t + 1} ^ {T - 1} \gamma^ {h - t - 1} \bar {G} _ {t: h} + \gamma^ {T - t - 1} \bar {G} _ {t: T}. \\ \end{array}
+\begin{array}{l} + (1 - \gamma) \gamma^{T - t - 2} \left(R_{t + 1} + R_{t + 2} + \dots + R_{T - 1}\right) \\ + \gamma^{T - t - 1} \left(R_{t + 1} + R_{t + 2} + \dots + R_{T}\right) \\ = (1 - \gamma) \sum_{h = t + 1} ^{T - 1} \gamma^{h - t - 1} \bar{G}_{t: h} + \gamma^{T - t - 1} \bar{G}_{t: T}. \\ \end{array}
 $$
 
 Now we need to scale the flat partial returns by an importance sampling ratio that is similarly truncated. As  $\bar{G}_{t:h}$  only involves rewards up to a horizon  $h$ , we only need the ratio of the probabilities up to  $h - 1$ . We define an ordinary importance-sampling estimator, analogous to (5.5), as
 
 $$
-V (s) \doteq \frac {\sum_ {t \in \mathcal {T} (s)} \left((1 - \gamma) \sum_ {h = t + 1} ^ {T (t) - 1} \gamma^ {h - t - 1} \rho_ {t : h - 1} \bar {G} _ {t : h} + \gamma^ {T (t) - t - 1} \rho_ {t : T (t) - 1} \bar {G} _ {t : T (t)}\right)}{| \mathcal {T} (s) |}, \tag {5.9}
+V (s) \doteq \frac{\sum_{t \in \mathcal{T} (s)} \left((1 - \gamma) \sum_{h = t + 1} ^{T (t) - 1} \gamma^{h - t - 1} \rho_{t : h - 1} \bar{G}_{t : h} + \gamma^{T (t) - t - 1} \rho_{t : T (t) - 1} \bar{G}_{t : T (t)}\right)}{| \mathcal{T} (s) |}, \tag {5.9}
 $$
 
 and a weighted importance-sampling estimator, analogous to (5.6), as
 
 $$
-V (s) \doteq \frac {\sum_ {t \in \mathcal {T} (s)} \left((1 - \gamma) \sum_ {h = t + 1} ^ {T (t) - 1} \gamma^ {h - t - 1} \rho_ {t : h - 1} \bar {G} _ {t : h} + \gamma^ {T (t) - t - 1} \rho_ {t : T (t) - 1} \bar {G} _ {t : T (t)}\right)}{\sum_ {t \in \mathcal {T} (s)} \left(\left(1 - \gamma\right) \sum_ {h = t + 1} ^ {T (t) - 1} \gamma^ {h - t - 1} \rho_ {t : h - 1} + \gamma^ {T (t) - t - 1} \rho_ {t : T (t) - 1}\right)}. \tag {5.10}
+V (s) \doteq \frac{\sum_{t \in \mathcal{T} (s)} \left((1 - \gamma) \sum_{h = t + 1} ^{T (t) - 1} \gamma^{h - t - 1} \rho_{t : h - 1} \bar{G}_{t : h} + \gamma^{T (t) - t - 1} \rho_{t : T (t) - 1} \bar{G}_{t : T (t)}\right)}{\sum_{t \in \mathcal{T} (s)} \left(\left(1 - \gamma\right) \sum_{h = t + 1} ^{T (t) - 1} \gamma^{h - t - 1} \rho_{t : h - 1} + \gamma^{T (t) - t - 1} \rho_{t : T (t) - 1}\right)}. \tag {5.10}
 $$
 
 We call these two estimators discounting-aware importance sampling estimators. They take into account the discount rate but have no effect (are the same as the off-policy estimators from Section 5.5) if  $\gamma = 1$ .
@@ -2290,43 +2096,43 @@ We call these two estimators discounting-aware importance sampling estimators. T
 There is one more way in which the structure of the return as a sum of rewards can be taken into account in off-policy importance sampling, a way that may be able to reduce variance even in the absence of discounting (that is, even if  $\gamma = 1$ ). In the off-policy estimators (5.5) and (5.6), each term of the sum in the numerator is itself a sum:
 
 $$
-\begin{array}{l} \rho_ {t: T - 1} G _ {t} = \rho_ {t: T - 1} \left(R _ {t + 1} + \gamma R _ {t + 2} + \dots + \gamma^ {T - t - 1} R _ {T}\right) \\ = \rho_ {t: T - 1} R _ {t + 1} + \gamma \rho_ {t: T - 1} R _ {t + 2} + \dots + \gamma^ {T - t - 1} \rho_ {t: T - 1} R _ {T}. \tag {5.11} \\ \end{array}
+\begin{array}{l} \rho_{t: T - 1} G_{t} = \rho_{t: T - 1} \left(R_{t + 1} + \gamma R_{t + 2} + \dots + \gamma^{T - t - 1} R_{T}\right) \\ = \rho_{t: T - 1} R_{t + 1} + \gamma \rho_{t: T - 1} R_{t + 2} + \dots + \gamma^{T - t - 1} \rho_{t: T - 1} R_{T}. \tag {5.11} \\ \end{array}
 $$
 
 The off-policy estimators rely on the expected values of these terms, which can be written in a simpler way. Note that each sub-term of (5.11) is a product of a random reward and a random importance-sampling ratio. For example, the first sub-term can be written, using (5.3), as
 
 $$
-\rho_ {t: T - 1} R _ {t + 1} = \frac {\pi (A _ {t} | S _ {t})}{b (A _ {t} | S _ {t})} \frac {\pi (A _ {t + 1} | S _ {t + 1})}{b (A _ {t + 1} | S _ {t + 1})} \frac {\pi (A _ {t + 2} | S _ {t + 2})}{b (A _ {t + 2} | S _ {t + 2})} \dots \frac {\pi (A _ {T - 1} | S _ {T - 1})}{b (A _ {T - 1} | S _ {T - 1})} R _ {t + 1}. \tag {5.12}
+\rho_{t: T - 1} R_{t + 1} = \frac{\pi (A_{t} | S_{t})}{b (A_{t} | S_{t})} \frac{\pi (A_{t + 1} | S_{t + 1})}{b (A_{t + 1} | S_{t + 1})} \frac{\pi (A_{t + 2} | S_{t + 2})}{b (A_{t + 2} | S_{t + 2})} \dots \frac{\pi (A_{T - 1} | S_{T - 1})}{b (A_{T - 1} | S_{T - 1})} R_{t + 1}. \tag {5.12}
 $$
 
 Of all these factors, one might suspect that only the first and the last (the reward) are related; all the others are for events that occurred after the reward. Moreover, the expected value of all these other factors is one:
 
 $$
-\mathbb {E} \left[ \frac {\pi \left(A _ {k} \mid S _ {k}\right)}{b \left(A _ {k} \mid S _ {k}\right)} \right] \doteq \sum_ {a} b (a \mid S _ {k}) \frac {\pi (a \mid S _ {k})}{b (a \mid S _ {k})} = \sum_ {a} \pi (a \mid S _ {k}) = 1. \tag {5.13}
+\mathbb{E} \left[ \frac{\pi \left(A_{k} \mid S_{k}\right)}{b \left(A_{k} \mid S_{k}\right)} \right] \doteq \sum_{a} b (a \mid S_{k}) \frac{\pi (a \mid S_{k})}{b (a \mid S_{k})} = \sum_{a} \pi (a \mid S_{k}) = 1. \tag {5.13}
 $$
 
 With a few more steps, one can show that, as suspected, all of these other factors have no effect in expectation, in other words, that
 
 $$
-\mathbb {E} \left[ \rho_ {t: T - 1} R _ {t + 1} \right] = \mathbb {E} \left[ \rho_ {t: t} R _ {t + 1} \right]. \tag {5.14}
+\mathbb{E} \left[ \rho_{t: T - 1} R_{t + 1} \right] = \mathbb{E} \left[ \rho_{t: t} R_{t + 1} \right]. \tag {5.14}
 $$
 
 If we repeat this process for the  $k$ th sub-term of (5.11), we get
 
 $$
-\mathbb {E} \left[ \rho_ {t: T - 1} R _ {t + k} \right] = \mathbb {E} \left[ \rho_ {t: t + k - 1} R _ {t + k} \right].
+\mathbb{E} \left[ \rho_{t: T - 1} R_{t + k} \right] = \mathbb{E} \left[ \rho_{t: t + k - 1} R_{t + k} \right].
 $$
 
 It follows then that the expectation of our original term (5.11) can be written
 
 $$
-\mathbb {E} [ \rho_ {t: T - 1} G _ {t} ] = \mathbb {E} \left[ \tilde {G} _ {t} \right],
+\mathbb{E} [ \rho_{t: T - 1} G_{t} ] = \mathbb{E} \left[ \tilde {G}_{t} \right],
 $$
 
 where
 
 $$
-\tilde {G} _ {t} = \rho_ {t: t} R _ {t + 1} + \gamma \rho_ {t: t + 1} R _ {t + 2} + \gamma^ {2} \rho_ {t: t + 2} R _ {t + 3} + \dots + \gamma^ {T - t - 1} \rho_ {t: T - 1} R _ {T}.
+\tilde {G}_{t} = \rho_{t: t} R_{t + 1} + \gamma \rho_{t: t + 1} R_{t + 2} + \gamma^{2} \rho_{t: t + 2} R_{t + 3} + \dots + \gamma^{T - t - 1} \rho_{t: T - 1} R_{T}.
 $$
 
 We call this idea per-decision importance sampling.
@@ -2334,7 +2140,7 @@ We call this idea per-decision importance sampling.
 It follows immediately that there is an alternate importance-sampling estimator, with the same unbiased expectation (in the first-visit case) as the ordinary-importance-sampling estimator (5.5), using  $\tilde{G}_t$ :
 
 $$
-V (s) \doteq \frac {\sum_ {t \in \mathcal {T} (s)} \tilde {G} _ {t}}{| \mathcal {T} (s) |}, \tag {5.15}
+V (s) \doteq \frac{\sum_{t \in \mathcal{T} (s)} \tilde {G}_{t}}{| \mathcal{T} (s) |}, \tag {5.15}
 $$
 
 which we might expect to sometimes be of lower variance.
@@ -2393,13 +2199,13 @@ As usual, we start by focusing on the policy evaluation or prediction problem, t
 Both TD and Monte Carlo methods use experience to solve the prediction problem. Given some experience following a policy  $\pi$ , both methods update their estimate  $V$  of  $v_{\pi}$  for the nonterminal states  $S_{t}$  occurring in that experience. Roughly speaking, Monte Carlo methods wait until the return following the visit is known, then use that return as a target for  $V(S_{t})$ . A simple every-visit Monte Carlo method suitable for nonstationary environments is
 
 $$
-V \left(S _ {t}\right) \leftarrow V \left(S _ {t}\right) + \alpha \left[ G _ {t} - V \left(S _ {t}\right) \right], \tag {6.1}
+V \left(S_{t}\right) \leftarrow V \left(S_{t}\right) + \alpha \left[ G_{t} - V \left(S_{t}\right) \right], \tag {6.1}
 $$
 
 where  $G_{t}$  is the actual return following time  $t$ , and  $\alpha$  is a constant step-size parameter (c.f., Equation 2.4). Let us call this method constant-  $\alpha$  MC. Whereas Monte Carlo methods must wait until the end of the episode to determine the increment to  $V(S_{t})$  (only then is  $G_{t}$  known), TD methods need to wait only until the next time step. At time  $t + 1$  they immediately form a target and make a useful update using the observed reward  $R_{t + 1}$  and the estimate  $V(S_{t + 1})$ . The simplest TD method makes the update
 
 $$
-V \left(S _ {t}\right) \leftarrow V \left(S _ {t}\right) + \alpha \left[ R _ {t + 1} + \gamma V \left(S _ {t + 1}\right) - V \left(S _ {t}\right) \right] \tag {6.2}
+V \left(S_{t}\right) \leftarrow V \left(S_{t}\right) + \alpha \left[ R_{t + 1} + \gamma V \left(S_{t + 1}\right) - V \left(S_{t}\right) \right] \tag {6.2}
 $$
 
 immediately on transition to  $S_{t + 1}$  and receiving  $R_{t + 1}$ . In effect, the target for the Monte Carlo update is  $G_{t}$ , whereas the target for the TD update is  $R_{t + 1} + \gamma V(S_{t + 1})$ . This TD method is called  $TD(0)$ , or one-step  $TD$ , because it is a special case of the TD( $\lambda$ ) and  $n$ -step TD methods developed in Chapter 12 and Chapter 7. The box below specifies TD(0) completely in procedural form.
@@ -2423,7 +2229,7 @@ $A\gets$  action given by  $\pi$  for  $S$
 Take action  $A$ , observe  $R, S'$
 
 $$
-\begin{array}{l} V (S) \leftarrow V (S) + \alpha \left[ R + \gamma V \left(S ^ {\prime}\right) - V (S) \right] \\ S \gets S ^ {\prime} \\ \end{array}
+\begin{array}{l} V (S) \leftarrow V (S) + \alpha \left[ R + \gamma V \left(S^{\prime}\right) - V (S) \right] \\ S \gets S^{\prime} \\ \end{array}
 $$
 
 until  $S$  is terminal
@@ -2431,7 +2237,7 @@ until  $S$  is terminal
 Because TD(0) bases its update in part on an existing estimate, we say that it is a bootstrapping method, like DP. We know from Chapter 3 that
 
 $$
-\begin{array}{l} v _ {\pi} (s) \doteq \mathbb {E} _ {\pi} \left[ G _ {t} \mid S _ {t} = s \right] (6.3) \\ = \mathbb {E} _ {\pi} \left[ R _ {t + 1} + \gamma G _ {t + 1} \mid S _ {t} = s \right] \quad (\text {f r o m (3 . 9)}) \\ = \mathbb {E} _ {\pi} \left[ R _ {t + 1} + \gamma v _ {\pi} \left(S _ {t + 1}\right) \mid S _ {t} = s \right]. (6.4) \\ \end{array}
+\begin{array}{l} v_{\pi} (s) \doteq \mathbb{E}_{\pi} \left[ G_{t} \mid S_{t} = s \right] (6.3) \\ = \mathbb{E}_{\pi} \left[ R_{t + 1} + \gamma G_{t + 1} \mid S_{t} = s \right] \quad (\text{from  (3.9)}) \\ = \mathbb{E}_{\pi} \left[ R_{t + 1} + \gamma v_{\pi} \left(S_{t + 1}\right) \mid S_{t} = s \right]. (6.4) \\ \end{array}
 $$
 
 Roughly speaking, Monte Carlo methods use an estimate of (6.3) as a target, whereas DP methods use an estimate of (6.4) as a target. The Monte Carlo target is an estimate because the expected value in (6.3) is not known; a sample return is used in place of the real expected return. The DP target is an estimate not because of the expected values, which are assumed to be completely provided by a model of the environment, but because  $v_{\pi}(S_{t + 1})$  is not known and the current estimate,  $V(S_{t + 1})$ , is used instead. The TD target is an estimate for both reasons: it samples the expected values in (6.4) and it uses the current estimate  $V$  instead of the true  $v_{\pi}$ . Thus, TD methods combine the sampling of
@@ -2447,13 +2253,13 @@ of DP methods in that they are based on a single sample successor rather than on
 Finally, note that the quantity in brackets in the TD(0) update is a sort of error, measuring the difference between the estimated value of  $S_{t}$  and the better estimate  $R_{t + 1} + \gamma V(S_{t + 1})$ . This quantity, called the TD error, arises in various forms throughout reinforcement learning:
 
 $$
-\delta_ {t} \doteq R _ {t + 1} + \gamma V \left(S _ {t + 1}\right) - V \left(S _ {t}\right). \tag {6.5}
+\delta_{t} \doteq R_{t + 1} + \gamma V \left(S_{t + 1}\right) - V \left(S_{t}\right). \tag {6.5}
 $$
 
 Notice that the TD error at each time is the error in the estimate made at that time. Because the TD error depends on the next state and next reward, it is not actually available until one time step later. That is,  $\delta_t$  is the error in  $V(S_{t})$ , available at time  $t + 1$ . Also note that if the array  $V$  does not change during the episode (as it does not in Monte Carlo methods), then the Monte Carlo error can be written as a sum of TD errors:
 
 $$
-\begin{array}{l} G _ {t} - V \left(S _ {t}\right) = R _ {t + 1} + \gamma G _ {t + 1} - V \left(S _ {t}\right) + \gamma V \left(S _ {t + 1}\right) - \gamma V \left(S _ {t + 1}\right) \quad \text {(f r o m (3 . 9))} \\ = \delta_ {t} + \gamma \left(G _ {t + 1} - V \left(S _ {t + 1}\right)\right) \\ = \delta_ {t} + \gamma \delta_ {t + 1} + \gamma^ {2} (G _ {t + 2} - V (S _ {t + 2})) \\ = \delta_ {t} + \gamma \delta_ {t + 1} + \gamma^ {2} \delta_ {t + 2} + \dots + \gamma^ {T - t - 1} \delta_ {T - 1} + \gamma^ {T - t} \left(G _ {T} - V (S _ {T})\right) \\ = \delta_ {t} + \gamma \delta_ {t + 1} + \gamma^ {2} \delta_ {t + 2} + \dots + \gamma^ {T - t - 1} \delta_ {T - 1} + \gamma^ {T - t} (0 - 0) \\ = \sum_ {k = t} ^ {T - 1} \gamma^ {k - t} \delta_ {k}. \tag {6.6} \\ \end{array}
+\begin{array}{l} G_{t} - V \left(S_{t}\right) = R_{t + 1} + \gamma G_{t + 1} - V \left(S_{t}\right) + \gamma V \left(S_{t + 1}\right) - \gamma V \left(S_{t + 1}\right) \quad \text{(from (3.9))} \\ = \delta_{t} + \gamma \left(G_{t + 1} - V \left(S_{t + 1}\right)\right) \\ = \delta_{t} + \gamma \delta_{t + 1} + \gamma^{2} (G_{t + 2} - V (S_{t + 2})) \\ = \delta_{t} + \gamma \delta_{t + 1} + \gamma^{2} \delta_{t + 2} + \dots + \gamma^{T - t - 1} \delta_{T - 1} + \gamma^{T - t} \left(G_{T} - V (S_{T})\right) \\ = \delta_{t} + \gamma \delta_{t + 1} + \gamma^{2} \delta_{t + 2} + \dots + \gamma^{T - t - 1} \delta_{T - 1} + \gamma^{T - t} (0 - 0) \\ = \sum_{k = t} ^{T - 1} \gamma^{k - t} \delta_{k}. \tag {6.6} \\ \end{array}
 $$
 
 This identity is not exact if  $V$  is updated during the episode (as it is in  $\mathrm{TD}(0)$ ), but if the step size is small then it may still hold approximately. Generalizations of this identity play an important role in the theory and algorithms of temporal-difference learning.
@@ -2570,7 +2376,7 @@ The first step is to learn an action-value function rather than a state-value fu
 In the previous section we considered transitions from state to state and learned the values of states. Now we consider transitions from state-action pair to state-action pair, and learn the values of state-action pairs. Formally these cases are identical: they are both Markov chains with a reward process. The theorems assuring the convergence of state values under TD(0) also apply to the corresponding algorithm for action values:
 
 $$
-Q \left(S _ {t}, A _ {t}\right) \leftarrow Q \left(S _ {t}, A _ {t}\right) + \alpha \left[ R _ {t + 1} + \gamma Q \left(S _ {t + 1}, A _ {t + 1}\right) - Q \left(S _ {t}, A _ {t}\right) \right]. \tag {6.7}
+Q \left(S_{t}, A_{t}\right) \leftarrow Q \left(S_{t}, A_{t}\right) + \alpha \left[ R_{t + 1} + \gamma Q \left(S_{t + 1}, A_{t + 1}\right) - Q \left(S_{t}, A_{t}\right) \right]. \tag {6.7}
 $$
 
 This update is done after every transition from a nonterminal state  $S_{t}$ . If  $S_{t + 1}$  is terminal, then  $Q(S_{t + 1}, A_{t + 1})$  is defined as zero. This rule uses every element of the quintuple of events,  $(S_{t}, A_{t}, R_{t + 1}, S_{t + 1}, A_{t + 1})$ , that make up a transition from one state-action pair to the next. This quintuple gives rise to the name Sarsa for the algorithm. The backup diagram for Sarsa is as shown to the right.
@@ -2602,11 +2408,11 @@ Take action  $A$ , observe  $R, S'$
 Choose  $A^{\prime}$  from  $S^{\prime}$  using policy derived from  $Q$  (e.g.,  $\varepsilon$ -greedy)
 
 $$
-Q (S, A) \leftarrow Q (S, A) + \alpha \left[ R + \gamma Q \left(S ^ {\prime}, A ^ {\prime}\right) - Q (S, A) \right]
+Q (S, A) \leftarrow Q (S, A) + \alpha \left[ R + \gamma Q \left(S^{\prime}, A^{\prime}\right) - Q (S, A) \right]
 $$
 
 $$
-S \leftarrow S ^ {\prime}; A \leftarrow A ^ {\prime};
+S \leftarrow S^{\prime}; A \leftarrow A^{\prime};
 $$
 
 until  $S$  is terminal
@@ -2630,7 +2436,7 @@ Exercise 6.10: Stochastic Wind (programming) Re-solve the windy gridworld task w
 One of the early breakthroughs in reinforcement learning was the development of an off-policy TD control algorithm known as  $Q$ -learning (Watkins, 1989), defined by
 
 $$
-Q \left(S _ {t}, A _ {t}\right) \leftarrow Q \left(S _ {t}, A _ {t}\right) + \alpha \left[ R _ {t + 1} + \gamma \max  _ {a} Q \left(S _ {t + 1}, a\right) - Q \left(S _ {t}, A _ {t}\right) \right]. \tag {6.8}
+Q \left(S_{t}, A_{t}\right) \leftarrow Q \left(S_{t}, A_{t}\right) + \alpha \left[ R_{t + 1} + \gamma \max_{a} Q \left(S_{t + 1}, a\right) - Q \left(S_{t}, A_{t}\right) \right]. \tag {6.8}
 $$
 
 In this case, the learned action-value function,  $Q$ , directly approximates  $q_{*}$ , the optimal action-value function, independent of the policy being followed. This dramatically simplifies the analysis of the algorithm and enabled early convergence proofs. The policy still has an effect in that it determines which state-action pairs are visited and updated. However, all that is required for correct convergence is that all pairs continue to be updated. As we observed in Chapter 5, this is a minimal requirement in the sense that any method guaranteed to find optimal behavior in the general case must require it. Under this assumption and a variant of the usual stochastic approximation conditions on the sequence of step-size parameters,  $Q$  has been shown to converge with probability 1 to  $q_{*}$ . The Q-learning algorithm is shown below in procedural form.
@@ -2663,7 +2469,7 @@ Exercise 6.12 Suppose action selection is greedy. Is Q-learning then exactly the
 Consider the learning algorithm that is just like Q-learning except that instead of the maximum over next state-action pairs it uses the expected value, taking into account how likely each action is under the current policy. That is, consider the algorithm with the update rule
 
 $$
-\begin{array}{l} Q \left(S _ {t}, A _ {t}\right) \leftarrow Q \left(S _ {t}, A _ {t}\right) + \alpha \left[ R _ {t + 1} + \gamma \mathbb {E} _ {\pi} \left[ Q \left(S _ {t + 1}, A _ {t + 1}\right) \mid S _ {t + 1} \right] - Q \left(S _ {t}, A _ {t}\right) \right] \\ = Q \left(S _ {t}, A _ {t}\right) + \alpha \left[ R _ {t + 1} + \gamma \sum_ {a} \pi (a | S _ {t + 1}) Q \left(S _ {t + 1}, a\right) - Q \left(S _ {t}, A _ {t}\right) \right], \tag {6.9} \\ \end{array}
+\begin{array}{l} Q \left(S_{t}, A_{t}\right) \leftarrow Q \left(S_{t}, A_{t}\right) + \alpha \left[ R_{t + 1} + \gamma \mathbb{E}_{\pi} \left[ Q \left(S_{t + 1}, A_{t + 1}\right) \mid S_{t + 1} \right] - Q \left(S_{t}, A_{t}\right) \right] \\ = Q \left(S_{t}, A_{t}\right) + \alpha \left[ R_{t + 1} + \gamma \sum_{a} \pi (a | S_{t + 1}) Q \left(S_{t + 1}, a\right) - Q \left(S_{t}, A_{t}\right) \right], \tag {6.9} \\ \end{array}
 $$
 
 but that otherwise follows the schema of Q-learning. Given the next state,  $S_{t + 1}$ , this algorithm moves deterministically in the same direction as Sarsa moves in expectation, and accordingly it is called Expected Sarsa. Its backup diagram is shown on the right in Figure 6.4.
@@ -2698,7 +2504,7 @@ Are there algorithms that avoid maximization bias? To start, consider a bandit c
 The idea of double learning extends naturally to algorithms for full MDPs. For example, the double learning algorithm analogous to Q-learning, called Double Q-learning, divides the time steps in two, perhaps by flipping a coin on each step. If the coin comes up heads, the update is
 
 $$
-Q _ {1} \left(S _ {t}, A _ {t}\right) \leftarrow Q _ {1} \left(S _ {t}, A _ {t}\right) + \alpha \left[ R _ {t + 1} + \gamma Q _ {2} \left(S _ {t + 1}, \underset {a} {\arg \max } Q _ {1} \left(S _ {t + 1}, a\right)\right) - Q _ {1} \left(S _ {t}, A _ {t}\right) \right]. \tag {6.10}
+Q_{1} \left(S_{t}, A_{t}\right) \leftarrow Q_{1} \left(S_{t}, A_{t}\right) + \alpha \left[ R_{t + 1} + \gamma Q_{2} \left(S_{t + 1}, \underset{a} {\arg \max } Q_{1} \left(S_{t + 1}, a\right)\right) - Q_{1} \left(S_{t}, A_{t}\right) \right]. \tag {6.10}
 $$
 
 If the coin comes up tails, then the same update is done with  $Q_{1}$  and  $Q_{2}$  switched, so that  $Q_{2}$  is updated. The two approximate value functions are treated completely symmetrically. The behavior policy can use both action-value estimates. For example, an  $\varepsilon$ -greedy policy for Double Q-learning could be based on the average (or sum) of the two action-value estimates. A complete algorithm for Double Q-learning is given in the box below. This is the algorithm used to produce the results in Figure 6.5. In that example, double learning seems to eliminate the harm caused by maximization bias. Of course there are also double versions of Sarsa and Expected Sarsa.
@@ -2722,17 +2528,17 @@ Take action  $A$ , observe  $R, S'$
 With 0.5 probability:
 
 $$
-Q _ {1} (S, A) \leftarrow Q _ {1} (S, A) + \alpha \Big (R + \gamma Q _ {2} \big (S ^ {\prime}, \arg \max  _ {a} Q _ {1} \left(S ^ {\prime}, a\right) \big) - Q _ {1} (S, A) \Big)
+Q_{1} (S, A) \leftarrow Q_{1} (S, A) + \alpha \Big (R + \gamma Q_{2} \big (S^{\prime}, \arg \max_{a} Q_{1} \left(S^{\prime}, a\right) \big) - Q_{1} (S, A) \Big)
 $$
 
 else:
 
 $$
-Q _ {2} (S, A) \leftarrow Q _ {2} (S, A) + \alpha \Big (R + \gamma Q _ {1} \big (S ^ {\prime}, \operatorname {a r g m a x} _ {a} Q _ {2} \left(S ^ {\prime}, a\right) \big) - Q _ {2} (S, A) \Big)
+Q_{2} (S, A) \leftarrow Q_{2} (S, A) + \alpha \Big (R + \gamma Q_{1} \big (S^{\prime}, \operatorname{argmax}_{a} Q_{2} \left(S^{\prime}, a\right) \big) - Q_{2} (S, A) \Big)
 $$
 
 $$
-S \gets S ^ {\prime}
+S \gets S^{\prime}
 $$
 
 until  $S$  is terminal
@@ -2814,25 +2620,25 @@ More formally, consider the update of the estimated value of state  $S_{t}$  as 
 complete return:
 
 $$
-G _ {t} \doteq R _ {t + 1} + \gamma R _ {t + 2} + \gamma^ {2} R _ {t + 3} + \dots + \gamma^ {T - t - 1} R _ {T},
+G_{t} \doteq R_{t + 1} + \gamma R_{t + 2} + \gamma^{2} R_{t + 3} + \dots + \gamma^{T - t - 1} R_{T},
 $$
 
 where  $T$  is the last time step of the episode. Let us call this quantity the target of the update. Whereas in Monte Carlo updates the target is the return, in one-step updates the target is the first reward plus the discounted estimated value of the next state, which we call the one-step return:
 
 $$
-G _ {t: t + 1} \doteq R _ {t + 1} + \gamma V _ {t} (S _ {t + 1}),
+G_{t: t + 1} \doteq R_{t + 1} + \gamma V_{t} (S_{t + 1}),
 $$
 
 where  $V_{t}:\mathbb{S}\to \mathbb{R}$  here is the estimate at time  $t$  of  $v_{\pi}$ . The subscripts on  $G_{t:t + 1}$  indicate that it is a truncated return for time  $t$  using rewards up until time  $t + 1$ , with the discounted estimate  $\gamma V_{t}(S_{t + 1})$  taking the place of the other terms  $\gamma R_{t + 2} + \gamma^{2}R_{t + 3} + \dots +\gamma^{T - t - 1}R_{T}$  of the full return, as discussed in the previous chapter. Our point now is that this idea makes just as much sense after two steps as it does after one. The target for a two-step update is the two-step return:
 
 $$
-G _ {t: t + 2} \doteq R _ {t + 1} + \gamma R _ {t + 2} + \gamma^ {2} V _ {t + 1} \left(S _ {t + 2}\right),
+G_{t: t + 2} \doteq R_{t + 1} + \gamma R_{t + 2} + \gamma^{2} V_{t + 1} \left(S_{t + 2}\right),
 $$
 
 where now  $\gamma^2 V_{t + 1}(S_{t + 2})$  corrects for the absence of the terms  $\gamma^2 R_{t + 3} + \gamma^3 R_{t + 4} + \dots + \gamma^{T - t - 1}R_T$ . Similarly, the target for an arbitrary  $n$ -step update is the  $n$ -step return:
 
 $$
-G _ {t: t + n} \dot {=} R _ {t + 1} + \gamma R _ {t + 2} + \dots + \gamma^ {n - 1} R _ {t + n} + \gamma^ {n} V _ {t + n - 1} \left(S _ {t + n}\right), \tag {7.1}
+G_{t: t + n} \dot {=} R_{t + 1} + \gamma R_{t + 2} + \dots + \gamma^{n - 1} R_{t + n} + \gamma^{n} V_{t + n - 1} \left(S_{t + n}\right), \tag {7.1}
 $$
 
 for all  $n, t$  such that  $n \geq 1$  and  $0 \leq t < T - n$ . All  $n$ -step returns can be considered approximations to the full return, truncated after  $n$  steps and then corrected for the remaining missing terms by  $V_{t + n - 1}(S_{t + n})$ . If  $t + n \geq T$  (if the  $n$ -step return extends to or beyond termination), then all the missing terms are taken as zero, and the  $n$ -step return defined to be equal to the ordinary full return ( $G_{t:t + n} \doteq G_t$  if  $t + n \geq T$ ).
@@ -2840,7 +2646,7 @@ for all  $n, t$  such that  $n \geq 1$  and  $0 \leq t < T - n$ . All  $n$ -step
 Note that  $n$ -step returns for  $n > 1$  involve future rewards and states that are not available at the time of transition from  $t$  to  $t + 1$ . No real algorithm can use the  $n$ -step return until after it has seen  $R_{t+n}$  and computed  $V_{t+n-1}$ . The first time these are available is  $t + n$ . The natural state-value learning algorithm for using  $n$ -step returns is thus
 
 $$
-V _ {t + n} \left(S _ {t}\right) \doteq V _ {t + n - 1} \left(S _ {t}\right) + \alpha \left[ G _ {t: t + n} - V _ {t + n - 1} \left(S _ {t}\right) \right], \quad 0 \leq t <   T, \tag {7.2}
+V_{t + n} \left(S_{t}\right) \doteq V_{t + n - 1} \left(S_{t}\right) + \alpha \left[ G_{t: t + n} - V_{t + n - 1} \left(S_{t}\right) \right], \quad 0 \leq t <   T, \tag {7.2}
 $$
 
 while the values of all other states remain unchanged:  $V_{t + n}(s) = V_{t + n - 1}(s)$ , for all  $s \neq S_t$ . We call this algorithm  $n$ -step  $TD$ . Note that no changes at all are made during the first  $n - 1$  steps of each episode. To make up for that, an equal number of additional updates are made at the end of the episode, after termination and before starting the next episode. Complete pseudocode is given in the box on the next page.
@@ -2862,7 +2668,7 @@ place of the error in (7.2) would actually be a slightly different algorithm. Wo
 The  $n$ -step return uses the value function  $V_{t + n - 1}$  to correct for the missing rewards beyond  $R_{t + n}$ . An important property of  $n$ -step returns is that their expectation is guaranteed to be a better estimate of  $v_{\pi}$  than  $V_{t + n - 1}$  is, in a worst-state sense. That is, the worst error of the expected  $n$ -step return is guaranteed to be less than or equal to  $\gamma^n$  times the worst error under  $V_{t + n - 1}$ :
 
 $$
-\left. \max  _ {s} \left| \mathbb {E} _ {\pi} \left[ G _ {t: t + n} \mid S _ {t} = s \right] - v _ {\pi} (s) \right| \leq \gamma^ {n} \max  _ {s} \left| V _ {t + n - 1} (s) - v _ {\pi} (s) \right|, \right. \tag {7.3}
+\left. \max_{s} \left| \mathbb{E}_{\pi} \left[ G_{t: t + n} \mid S_{t} = s \right] - v_{\pi} (s) \right| \leq \gamma^{n} \max_{s} \left| V_{t + n - 1} (s) - v_{\pi} (s) \right|, \right. \tag {7.3}
 $$
 
 for all  $n \geq 1$ . This is called the error reduction property of  $n$ -step returns. Because of the error reduction property, one can show formally that all  $n$ -step TD methods converge to the correct predictions under appropriate technical conditions. The  $n$ -step TD methods thus form a family of sound methods, with one-step TD methods and Monte Carlo methods as extreme members.
@@ -2887,13 +2693,13 @@ produce an on-policy TD control method. The  $n$ -step version of Sarsa we call 
 The main idea is to simply switch states for actions (state-action pairs) and then use an  $\varepsilon$ -greedy policy. The backup diagrams for  $n$ -step Sarsa (shown in Figure 7.3), like those of  $n$ -step TD (Figure 7.1), are strings of alternating states and actions, except that the Sarsa ones all start and end with an action rather than a state. We redefine  $n$ -step returns (update targets) in terms of estimated action values:
 
 $$
-G _ {t: t + n} \doteq R _ {t + 1} + \gamma R _ {t + 2} + \dots + \gamma^ {n - 1} R _ {t + n} + \gamma^ {n} Q _ {t + n - 1} \left(S _ {t + n}, A _ {t + n}\right), \quad n \geq 1, 0 \leq t <   T - n, \tag {7.4}
+G_{t: t + n} \doteq R_{t + 1} + \gamma R_{t + 2} + \dots + \gamma^{n - 1} R_{t + n} + \gamma^{n} Q_{t + n - 1} \left(S_{t + n}, A_{t + n}\right), \quad n \geq 1, 0 \leq t <   T - n, \tag {7.4}
 $$
 
 with  $G_{t:t+n} \doteq G_t$  if  $t + n \geq T$ . The natural algorithm is then
 
 $$
-Q _ {t + n} \left(S _ {t}, A _ {t}\right) \doteq Q _ {t + n - 1} \left(S _ {t}, A _ {t}\right) + \alpha \left[ G _ {t: t + n} - Q _ {t + n - 1} \left(S _ {t}, A _ {t}\right) \right], \quad 0 \leq t <   T, \tag {7.5}
+Q_{t + n} \left(S_{t}, A_{t}\right) \doteq Q_{t + n - 1} \left(S_{t}, A_{t}\right) + \alpha \left[ G_{t: t + n} - Q_{t + n - 1} \left(S_{t}, A_{t}\right) \right], \quad 0 \leq t <   T, \tag {7.5}
 $$
 
 while the values of all other states remain unchanged:  $Q_{t + n}(s,a) = Q_{t + n - 1}(s,a)$ , for all  $s, a$  such that  $s \neq S_t$  or  $a \neq A_t$ . This is the algorithm we call  $n$ -step Sarsa. Pseudocode is shown in the box on the next page, and an example of why it can speed up learning compared to one-step methods is given in Figure 7.4.
@@ -2914,7 +2720,7 @@ Figure 7.4: Gridworld example of the speedup of policy learning due to the use o
 Exercise 7.4 Prove that the  $n$ -step return of Sarsa (7.4) can be written exactly in terms of a novel TD error, as
 
 $$
-G _ {t: t + n} = Q _ {t - 1} \left(S _ {t}, A _ {t}\right) + \sum_ {k = t} ^ {\min  (t + n, T) - 1} \gamma^ {k - t} \left[ R _ {k + 1} + \gamma Q _ {k} \left(S _ {k + 1}, A _ {k + 1}\right) - Q _ {k - 1} \left(S _ {k}, A _ {k}\right) \right]. \tag {7.6}
+G_{t: t + n} = Q_{t - 1} \left(S_{t}, A_{t}\right) + \sum_{k = t} ^{\min  (t + n, T) - 1} \gamma^{k - t} \left[ R_{k + 1} + \gamma Q_{k} \left(S_{k + 1}, A_{k + 1}\right) - Q_{k - 1} \left(S_{k}, A_{k}\right) \right]. \tag {7.6}
 $$
 
 □
@@ -2922,13 +2728,13 @@ $$
 What about Expected Sarsa? The backup diagram for the  $n$ -step version of Expected Sarsa is shown on the far right in Figure 7.3. It consists of a linear string of sample actions and states, just as in  $n$ -step Sarsa, except that its last element is a branch over all action possibilities weighted, as always, by their probability under  $\pi$ . This algorithm can be described by the same equation as  $n$ -step Sarsa (above) except with the  $n$ -step return redefined as
 
 $$
-G _ {t: t + n} \doteq R _ {t + 1} + \dots + \gamma^ {n - 1} R _ {t + n} + \gamma^ {n} \bar {V} _ {t + n - 1} \left(S _ {t + n}\right), \quad t + n <   T, \tag {7.7}
+G_{t: t + n} \doteq R_{t + 1} + \dots + \gamma^{n - 1} R_{t + n} + \gamma^{n} \bar{V}_{t + n - 1} \left(S_{t + n}\right), \quad t + n <   T, \tag {7.7}
 $$
 
 (with  $G_{t:t+n} \dot{=} G_t$  for  $t + n \geq T$ ) where  $\bar{V}_t(s)$  is the expected approximate value of state  $s$ , using the estimated action values at time  $t$ , under the target policy:
 
 $$
-\bar {V} _ {t} (s) \doteq \sum_ {a} \pi (a | s) Q _ {t} (s, a), \quad \text {f o r a l l} s \in \mathbb {S}. \tag {7.8}
+\bar{V}_{t} (s) \doteq \sum_{a} \pi (a | s) Q_{t} (s, a), \quad \text{for all} s \in \mathbb{S}. \tag {7.8}
 $$
 
 Expected approximate values are used in developing many of the action-value methods in the rest of this book. If  $s$  is terminal, then its expected approximate value is defined to be 0.
@@ -2938,19 +2744,19 @@ Expected approximate values are used in developing many of the action-value meth
 Recall that off-policy learning is learning the value function for one policy,  $\pi$ , while following another policy,  $b$ . Often,  $\pi$  is the greedy policy for the current action-value-function estimate, and  $b$  is a more exploratory policy, perhaps  $\varepsilon$ -greedy. In order to use the data from  $b$  we must take into account the difference between the two policies, using their relative probability of taking the actions that were taken (see Section 5.5). In  $n$ -step methods, returns are constructed over  $n$  steps, so we are interested in the relative probability of just those  $n$  actions. For example, to make a simple off-policy version of  $n$ -step TD, the update for time  $t$  (actually made at time  $t + n$ ) can simply be weighted by  $\rho_{t:t + n - 1}$ :
 
 $$
-V _ {t + n} \left(S _ {t}\right) \doteq V _ {t + n - 1} \left(S _ {t}\right) + \alpha \rho_ {t: t + n - 1} \left[ G _ {t: t + n} - V _ {t + n - 1} \left(S _ {t}\right) \right], \quad 0 \leq t <   T, \tag {7.9}
+V_{t + n} \left(S_{t}\right) \doteq V_{t + n - 1} \left(S_{t}\right) + \alpha \rho_{t: t + n - 1} \left[ G_{t: t + n} - V_{t + n - 1} \left(S_{t}\right) \right], \quad 0 \leq t <   T, \tag {7.9}
 $$
 
 where  $\rho_{t:t + n - 1}$ , called the importance sampling ratio, is the relative probability under the two policies of taking the  $n$  actions from  $A_{t}$  to  $A_{t + n - 1}$  (cf. Eq. 5.3):
 
 $$
-\rho_ {t: h} \doteq \prod_ {k = t} ^ {\min  (h, T - 1)} \frac {\pi \left(A _ {k} \mid S _ {k}\right)}{b \left(A _ {k} \mid S _ {k}\right)}. \tag {7.10}
+\rho_{t: h} \doteq \prod_{k = t} ^{\min  (h, T - 1)} \frac{\pi \left(A_{k} \mid S_{k}\right)}{b \left(A_{k} \mid S_{k}\right)}. \tag {7.10}
 $$
 
 For example, if any one of the actions would never be taken by  $\pi$  (i.e.,  $\pi(A_k|S_k) = 0$ ) then the  $n$ -step return should be given zero weight and be totally ignored. On the other hand, if by chance an action is taken that  $\pi$  would take with much greater probability than  $b$  does, then this will increase the weight that would otherwise be given to the return. This makes sense because that action is characteristic of  $\pi$  (and therefore we want to learn about it) but is selected only rarely by  $b$  and thus rarely appears in the data. To make up for this we have to over-weight it when it does occur. Note that if the two policies are actually the same (the on-policy case) then the importance sampling ratio is always 1. Thus our new update (7.9) generalizes and can completely replace our earlier  $n$ -step TD update. Similarly, our previous  $n$ -step Sarsa update can be completely replaced by a simple off-policy form:
 
 $$
-Q _ {t + n} \left(S _ {t}, A _ {t}\right) \doteq Q _ {t + n - 1} \left(S _ {t}, A _ {t}\right) + \alpha \rho_ {t + 1: t + n} \left[ G _ {t: t + n} - Q _ {t + n - 1} \left(S _ {t}, A _ {t}\right) \right], \tag {7.11}
+Q_{t + n} \left(S_{t}, A_{t}\right) \doteq Q_{t + n - 1} \left(S_{t}, A_{t}\right) + \alpha \rho_{t + 1: t + n} \left[ G_{t: t + n} - Q_{t + n - 1} \left(S_{t}, A_{t}\right) \right], \tag {7.11}
 $$
 
 for  $0 \leq t < T$ . Note that the importance sampling ratio here starts and ends one step later than for  $n$ -step TD (7.9). This is because here we are updating a state-action pair. We do not have to care how likely we were to select the action; now that we have selected it we want to learn fully from what happens, with importance sampling only for subsequent actions. Pseudocode for the full algorithm is shown in the box below.
@@ -2960,7 +2766,7 @@ Input: an arbitrary behavior policy  $b$  such that  $b(a|s) > 0$ , for all  $s 
 Initialize  $Q(s, a)$  arbitrarily, for all  $s \in \mathcal{S}, a \in \mathcal{A}$   
 Initialize  $\pi$  to be greedy with respect to  $Q$ , or as a fixed given policy  
 Algorithm parameters: step size  $\alpha \in (0,1]$ , a positive integer  $n$   
-All store and access operations (for  $S_t, A_t, \text{and} R_t$ ) can take their index mod  $n + 1$   
+All store and access operations (for  $S_t, A_t, \text{and } R_t$ ) can take their index mod  $n + 1$   
 Loop for each episode:  
 Initialize and store  $S_0 \neq$  terminal  
 Select and store an action  $A_0 \sim b(\cdot | S_0)$ $T \gets \infty$   
@@ -2985,13 +2791,13 @@ The off-policy version of  $n$ -step Expected Sarsa would use the same update as
 The multi-step off-policy methods presented in the previous section are simple and conceptually clear, but are probably not the most efficient. A more sophisticated approach would use per-decision importance sampling ideas such as were introduced in Section 5.9. To understand this approach, first note that the ordinary  $n$ -step return (7.1), like all returns, can be written recursively. For the  $n$  steps ending at horizon  $h$ , the  $n$ -step return can be written
 
 $$
-G _ {t: h} = R _ {t + 1} + \gamma G _ {t + 1: h}, \quad t <   h <   T, \tag {7.12}
+G_{t: h} = R_{t + 1} + \gamma G_{t + 1: h}, \quad t <   h <   T, \tag {7.12}
 $$
 
 where  $G_{h:h} \doteq V_{h-1}(S_h)$ . (Recall that this return is used at time  $h$ , previously denoted  $t + n$ .) Now consider the effect of following a behavior policy  $b$  that is not the same as the target policy  $\pi$ . All of the resulting experience, including the first reward  $R_{t+1}$  and the next state  $S_{t+1}$ , must be weighted by the importance sampling ratio for time  $t$ ,  $\rho_t = \frac{\pi(A_t|S_t)}{b(A_t|S_t)}$ . One might be tempted to simply weight the righthand side of the above equation, but one can do better. Suppose the action at time  $t$  would never be selected by  $\pi$ , so that  $\rho_t$  is zero. Then a simple weighting would result in the  $n$ -step return being zero, which could result in high variance when it was used as a target. Instead, in this more sophisticated approach, one uses an alternate, off-policy definition of the  $n$ -step return ending at horizon  $h$ , as
 
 $$
-G _ {t: h} \doteq \rho_ {t} \left(R _ {t + 1} + \gamma G _ {t + 1: h}\right) + \left(1 - \rho_ {t}\right) V _ {h - 1} \left(S _ {t}\right), \quad t <   h <   T, \tag {7.13}
+G_{t: h} \doteq \rho_{t} \left(R_{t + 1} + \gamma G_{t + 1: h}\right) + \left(1 - \rho_{t}\right) V_{h - 1} \left(S_{t}\right), \quad t <   h <   T, \tag {7.13}
 $$
 
 where again  $G_{h:h} \doteq V_{h-1}(S_h)$ . In this approach, if  $\rho_t$  is zero, then instead of the target being zero and causing the estimate to shrink, the target is the same as the estimate and causes no change. The importance sampling ratio being zero means we should ignore the sample, so leaving the estimate unchanged seems appropriate. The second, additional term in (7.13) is called a control variate (for obscure reasons). Notice that the control variate does not change the expected update; the importance sampling ratio has expected value one (Section 5.9) and is uncorrelated with the estimate, so the expected value of the control variate is zero. Also note that the off-policy definition (7.13) is a strict generalization of the earlier on-policy definition of the  $n$ -step return (7.1), as the two are identical in the on-policy case, in which  $\rho_t$  is always 1.
@@ -3005,7 +2811,7 @@ For action values, the off-policy definition of the  $n$ -step return is a littl
 First note that for action values the  $n$ -step on-policy return ending at horizon  $h$ , expectation form (7.7), can be written recursively just as in (7.12), except that for action values the recursion ends with  $G_{h:h} \doteq \bar{V}_{h-1}(S_h)$  as in (7.8). An off-policy form with control variates is
 
 $$
-\begin{array}{l} G _ {t: h} \doteq R _ {t + 1} + \gamma \Big (\rho_ {t + 1} G _ {t + 1: h} + \bar {V} _ {h - 1} (S _ {t + 1}) - \rho_ {t + 1} Q _ {h - 1} (S _ {t + 1}, A _ {t + 1}) \Big), \\ = R _ {t + 1} + \gamma \rho_ {t + 1} \left(G _ {t + 1: h} - Q _ {h - 1} \left(S _ {t + 1}, A _ {t + 1}\right)\right) + \gamma \bar {V} _ {h - 1} \left(S _ {t + 1}\right), \quad t <   h \leq T. \tag {7.14} \\ \end{array}
+\begin{array}{l} G_{t: h} \doteq R_{t + 1} + \gamma \Big (\rho_{t + 1} G_{t + 1: h} + \bar{V}_{h - 1} (S_{t + 1}) - \rho_{t + 1} Q_{h - 1} (S_{t + 1}, A_{t + 1}) \Big), \\ = R_{t + 1} + \gamma \rho_{t + 1} \left(G_{t + 1: h} - Q_{h - 1} \left(S_{t + 1}, A_{t + 1}\right)\right) + \gamma \bar{V}_{h - 1} \left(S_{t + 1}\right), \quad t <   h \leq T. \tag {7.14} \\ \end{array}
 $$
 
 If  $h < T$ , then the recursion ends with  $G_{h:h} \doteq Q_{h-1}(S_h, A_h)$ , whereas, if  $h \geq T$ , the recursion ends with and  $G_{T-1:h} \doteq R_T$ . The resultant prediction algorithm (after combining with (7.5)) is analogous to Expected Sarsa.
@@ -3041,25 +2847,25 @@ We can think of the 3-step tree-backup update as consisting of 6 half-steps, alt
 Now let us develop the detailed equations for the  $n$ -step tree-backup algorithm. The one-step return (target) is the same as that of Expected Sarsa,
 
 $$
-G _ {t: t + 1} \doteq R _ {t + 1} + \gamma \sum_ {a} \pi (a | S _ {t + 1}) Q _ {t} \left(S _ {t + 1}, a\right), \tag {7.15}
+G_{t: t + 1} \doteq R_{t + 1} + \gamma \sum_{a} \pi (a | S_{t + 1}) Q_{t} \left(S_{t + 1}, a\right), \tag {7.15}
 $$
 
 for  $t < T - 1$ , and the two-step tree-backup return is
 
 $$
-\begin{array}{l} G _ {t: t + 2} \doteq R _ {t + 1} + \gamma \sum_ {a \neq A _ {t + 1}} \pi (a | S _ {t + 1}) Q _ {t + 1} (S _ {t + 1}, a) \\ + \gamma \pi (A _ {t + 1} | S _ {t + 1}) \left(R _ {t + 2} + \gamma \sum_ {a} \pi (a | S _ {t + 2}) Q _ {t + 1} (S _ {t + 2}, a)\right) \\ = R _ {t + 1} + \gamma \sum_ {a \neq A _ {t + 1}} \pi (a | S _ {t + 1}) Q _ {t + 1} (S _ {t + 1}, a) + \gamma \pi (A _ {t + 1} | S _ {t + 1}) G _ {t + 1: t + 2}, \\ \end{array}
+\begin{array}{l} G_{t: t + 2} \doteq R_{t + 1} + \gamma \sum_{a \neq A_{t + 1}} \pi (a | S_{t + 1}) Q_{t + 1} (S_{t + 1}, a) \\ + \gamma \pi (A_{t + 1} | S_{t + 1}) \left(R_{t + 2} + \gamma \sum_{a} \pi (a | S_{t + 2}) Q_{t + 1} (S_{t + 2}, a)\right) \\ = R_{t + 1} + \gamma \sum_{a \neq A_{t + 1}} \pi (a | S_{t + 1}) Q_{t + 1} (S_{t + 1}, a) + \gamma \pi (A_{t + 1} | S_{t + 1}) G_{t + 1: t + 2}, \\ \end{array}
 $$
 
 for  $t < T - 2$ . The latter form suggests the general recursive definition of the tree-backup  $n$ -step return:
 
 $$
-G _ {t: t + n} \doteq R _ {t + 1} + \gamma \sum_ {a \neq A _ {t + 1}} \pi (a | S _ {t + 1}) Q _ {t + n - 1} \left(S _ {t + 1}, a\right) + \gamma \pi \left(A _ {t + 1} \mid S _ {t + 1}\right) G _ {t + 1: t + n}, \tag {7.16}
+G_{t: t + n} \doteq R_{t + 1} + \gamma \sum_{a \neq A_{t + 1}} \pi (a | S_{t + 1}) Q_{t + n - 1} \left(S_{t + 1}, a\right) + \gamma \pi \left(A_{t + 1} \mid S_{t + 1}\right) G_{t + 1: t + n}, \tag {7.16}
 $$
 
 for  $t < T - 1, n \geq 2$ , with the  $n = 1$  case handled by (7.15) except for  $G_{T - 1:t + n} \doteq R_T$ . This target is then used with the usual action-value update rule from  $n$ -step Sarsa:
 
 $$
-Q _ {t + n} \left(S _ {t}, A _ {t}\right) \doteq Q _ {t + n - 1} \left(S _ {t}, A _ {t}\right) + \alpha \left[ G _ {t: t + n} - Q _ {t + n - 1} \left(S _ {t}, A _ {t}\right) \right],
+Q_{t + n} \left(S_{t}, A_{t}\right) \doteq Q_{t + n - 1} \left(S_{t}, A_{t}\right) + \alpha \left[ G_{t: t + n} - Q_{t + n - 1} \left(S_{t}, A_{t}\right) \right],
 $$
 
 for  $0 \leq t < T$ , while the values of all other state-action pairs remain unchanged:  $Q_{t + n}(s,a) = Q_{t + n - 1}(s,a)$ , for all  $s, a$  such that  $s \neq S_t$  or  $a \neq A_t$ . Pseudocode for this algorithm is shown in the box on the next page.
@@ -3067,7 +2873,7 @@ for  $0 \leq t < T$ , while the values of all other state-action pairs remain un
 Exercise 7.11 Show that if the approximate action values are unchanging, then the tree-backup return (7.16) can be written as a sum of expectation-based TD errors:
 
 $$
-G _ {t: t + n} = Q \left(S _ {t}, A _ {t}\right) + \sum_ {k = t} ^ {\min  (t + n - 1, T - 1)} \delta_ {k} \prod_ {i = t + 1} ^ {k} \gamma \pi \left(A _ {i} \mid S _ {i}\right),
+G_{t: t + n} = Q \left(S_{t}, A_{t}\right) + \sum_{k = t} ^{\min  (t + n - 1, T - 1)} \delta_{k} \prod_{i = t + 1} ^{k} \gamma \pi \left(A_{i} \mid S_{i}\right),
 $$
 
 where  $\delta_t \doteq R_{t+1} + \gamma \bar{V}_t(S_{t+1}) - Q(S_t, A_t)$  and  $\bar{V}_t$  is given by (7.8).
@@ -3093,13 +2899,13 @@ And of course there would be many other possibilities, as suggested by the last 
 Now let us develop the equations of  $n$ -step  $Q(\sigma)$ . First we write the tree-backup  $n$ -step return (7.16) in terms of the horizon  $h = t + n$  and then in terms of the expected approximate value  $\bar{V}$  (7.8):
 
 $$
-\begin{array}{l} G _ {t: h} = R _ {t + 1} + \gamma \sum_ {a \neq A _ {t + 1}} \pi (a | S _ {t + 1}) Q _ {h - 1} \left(S _ {t + 1}, a\right) + \gamma \pi \left(A _ {t + 1} \mid S _ {t + 1}\right) G _ {t + 1: h} \\ = R _ {t + 1} + \gamma \bar {V} _ {h - 1} \left(S _ {t + 1}\right) - \gamma \pi \left(A _ {t + 1} \mid S _ {t + 1}\right) Q _ {h - 1} \left(S _ {t + 1}, A _ {t + 1}\right) + \gamma \pi \left(A _ {t + 1} \mid S _ {t + 1}\right) G _ {t + 1: h} \\ = R _ {t + 1} + \gamma \pi (A _ {t + 1} | S _ {t + 1}) \Big (G _ {t + 1: h} - Q _ {h - 1} (S _ {t + 1}, A _ {t + 1}) \Big) + \gamma \bar {V} _ {h - 1} (S _ {t + 1}), \\ \end{array}
+\begin{array}{l} G_{t: h} = R_{t + 1} + \gamma \sum_{a \neq A_{t + 1}} \pi (a | S_{t + 1}) Q_{h - 1} \left(S_{t + 1}, a\right) + \gamma \pi \left(A_{t + 1} \mid S_{t + 1}\right) G_{t + 1: h} \\ = R_{t + 1} + \gamma \bar{V}_{h - 1} \left(S_{t + 1}\right) - \gamma \pi \left(A_{t + 1} \mid S_{t + 1}\right) Q_{h - 1} \left(S_{t + 1}, A_{t + 1}\right) + \gamma \pi \left(A_{t + 1} \mid S_{t + 1}\right) G_{t + 1: h} \\ = R_{t + 1} + \gamma \pi (A_{t + 1} | S_{t + 1}) \Big (G_{t + 1: h} - Q_{h - 1} (S_{t + 1}, A_{t + 1}) \Big) + \gamma \bar{V}_{h - 1} (S_{t + 1}), \\ \end{array}
 $$
 
 after which it is exactly like the  $n$ -step return for Sarsa with control variates (7.14) except with the action probability  $\pi(A_{t+1}|S_{t+1})$  substituted for the importance-sampling ratio  $\rho_{t+1}$ . For  $Q(\sigma)$ , we slide linearly between these two cases:
 
 $$
-\begin{array}{l} G _ {t: h} \doteq R _ {t + 1} + \gamma \left(\sigma_ {t + 1} \rho_ {t + 1} + (1 - \sigma_ {t + 1}) \pi \left(A _ {t + 1} \mid S _ {t + 1}\right)\right) \left(G _ {t + 1: h} - Q _ {h - 1} \left(S _ {t + 1}, A _ {t + 1}\right)\right) \\ + \gamma \bar {V} _ {h - 1} \left(S _ {t + 1}\right), \tag {7.17} \\ \end{array}
+\begin{array}{l} G_{t: h} \doteq R_{t + 1} + \gamma \left(\sigma_{t + 1} \rho_{t + 1} + (1 - \sigma_{t + 1}) \pi \left(A_{t + 1} \mid S_{t + 1}\right)\right) \left(G_{t + 1: h} - Q_{h - 1} \left(S_{t + 1}, A_{t + 1}\right)\right) \\ + \gamma \bar{V}_{h - 1} \left(S_{t + 1}\right), \tag {7.17} \\ \end{array}
 $$
 
 for  $t < h \leq T$ . The recursion ends with  $G_{h:h} \doteq Q_{h-1}(S_h, A_h)$  if  $h < T$ , or with  $G_{T-1:T} \doteq R_T$  if  $h = T$ . Then we use the earlier update for  $n$ -step Sarsa without importance-sampling ratios (7.5) instead of (7.11), because now the ratios are incorporated in the  $n$ -step return. A complete algorithm is given in the box.
@@ -3208,7 +3014,7 @@ Models can be used to mimic or simulate experience. Given a starting state and a
 The word planning is used in several different ways in different fields. We use the term to refer to any computational process that takes a model as input and produces or improves a policy for interacting with the modeled environment:
 
 $$
-\begin{array}{c c} \text {m o d e l} & \xrightarrow {\text {p l a n n i n g}} \quad \text {p o l i c y} \end{array}
+\begin{array}{c c} \text{model} & \xrightarrow {\text{planning}} \quad \text{policy} \end{array}
 $$
 
 In artificial intelligence, there are two distinct approaches to planning according to our definition. State-space planning, which includes the approach we take in this book, is viewed primarily as a search through the state space for an optimal policy or an optimal path to a goal. Actions cause transitions from state to state, and value functions are computed over states. In what we call plan-space planning, planning is instead a search through the space of plans. Operators transform one plan into another, and value functions, if any, are defined over the space of plans. Plan-space planning includes evolutionary methods and "partial-order planning," a common kind of planning in artificial intelligence in which the ordering of steps is not completely determined at all stages of planning. Plan-space methods are difficult to apply efficiently to the stochastic sequential decision problems that are the focus in reinforcement learning, and we do not consider them further (but see, e.g., Russell and Norvig, 2010).
@@ -3216,7 +3022,7 @@ In artificial intelligence, there are two distinct approaches to planning accord
 The unified view we present in this chapter is that all state-space planning methods share a common structure, a structure that is also present in the learning methods presented in this book. It takes the rest of the chapter to develop this view, but there are two basic ideas: (1) all state-space planning methods involve computing value functions as a key intermediate step toward improving the policy, and (2) they compute value functions by updates or backup operations applied to simulated experience. This common structure can be diagrammed as follows:
 
 $$
-\text {m o d e l} \quad \longrightarrow \quad \begin{array}{c c c c c} \text {s i m u l a t e d} & \text {b a c k u p s} \\ \text {e x p e r i e n c e} & \text {v a l u e s} & \text {p o l i c y} \end{array}
+\text{model} \quad \longrightarrow \quad \begin{array}{c c c c c} \text{simulated} & \text{backups} \\ \text{experience} & \text{values} & \text{policy} \end{array}
 $$
 
 Dynamic programming methods clearly fit this structure: they make sweeps through the space of states, generating for each state the distribution of possible transitions. Each distribution is then used to compute a backed-up value (update target) and update the
@@ -3362,11 +3168,11 @@ S, A \leftarrow f i r s t (P Q u e u e)
 $$
 
 $$
-R, S ^ {\prime} \leftarrow M o d e l (S, A)
+R, S^{\prime} \leftarrow M o d e l (S, A)
 $$
 
 $$
-Q (S, A) \leftarrow Q (S, A) + \alpha \left[ R + \gamma \max  _ {a} Q \left(S ^ {\prime}, a\right) - Q (S, A) \right]
+Q (S, A) \leftarrow Q (S, A) + \alpha \left[ R + \gamma \max_{a} Q \left(S^{\prime}, a\right) - Q (S, A) \right]
 $$
 
 Loop for all  $\bar{S},\bar{A}$  predicted to lead to  $S$
@@ -3374,7 +3180,7 @@ Loop for all  $\bar{S},\bar{A}$  predicted to lead to  $S$
 $\bar{R}\gets$  predicted reward for  $\bar{S},\bar{A},S$
 
 $$
-P \leftarrow | \bar {R} + \gamma \max  _ {a} Q (S, a) - Q (\bar {S}, \bar {A}) |.
+P \leftarrow | \bar{R} + \gamma \max_{a} Q (S, a) - Q (\bar{S}, \bar{A}) |.
 $$
 
 if  $P > \theta$  then insert  $\bar{S},\bar{A}$  into  $PQuee$  with priority  $P$
@@ -3419,13 +3225,13 @@ updates certainly yield a better estimate because they are uncorrupted by sampli
 For concreteness, consider the expected and sample updates for approximating  $q_*$ , and the special case of discrete states and actions, a table-lookup representation of the approximate value function,  $Q$ , and a model in the form of estimated dynamics,  $\hat{p}(s', r|s, a)$ . The expected update for a state-action pair,  $s, a$ , is:
 
 $$
-Q (s, a) \leftarrow \sum_ {s ^ {\prime}, r} \hat {p} \left(s ^ {\prime}, r \mid s, a\right) \left[ r + \gamma \max  _ {a ^ {\prime}} Q \left(s ^ {\prime}, a ^ {\prime}\right) \right]. \tag {8.1}
+Q (s, a) \leftarrow \sum_{s^{\prime}, r} \hat {p} \left(s^{\prime}, r \mid s, a\right) \left[ r + \gamma \max_{a^{\prime}} Q \left(s^{\prime}, a^{\prime}\right) \right]. \tag {8.1}
 $$
 
 The corresponding sample update for  $s, a$ , given a sample next state and reward,  $S'$  and  $R$  (from the model), is the Q-learning-like update:
 
 $$
-Q (s, a) \leftarrow Q (s, a) + \alpha \left[ R + \gamma \max  _ {a ^ {\prime}} Q \left(S ^ {\prime}, a ^ {\prime}\right) - Q (s, a) \right], \tag {8.2}
+Q (s, a) \leftarrow Q (s, a) + \alpha \left[ R + \gamma \max_{a^{\prime}} Q \left(S^{\prime}, a^{\prime}\right) - Q (s, a) \right], \tag {8.2}
 $$
 
 where  $\alpha$  is the usual positive step-size parameter.
@@ -3702,7 +3508,7 @@ Viewing each update as a conventional training example in this way enables us to
 Up to now we have not specified an explicit objective for prediction. In the tabular case a continuous measure of prediction quality was not necessary because the learned value function could come to equal the true value function exactly. Moreover, the learned values at each state were decoupled—an update at one state affected no other. But with genuine approximation, an update at one state affects many others, and it is not possible to get the values of all states exactly correct. By assumption we have far more states than weights, so making one state's estimate more accurate invariably means making others' less accurate. We are obligated then to say which states we care most about. We must specify a state distribution  $\mu(s) \geq 0$ ,  $\sum_{s} \mu(s) = 1$ , representing how much we care about the error in each state  $s$ . By the error in a state  $s$  we mean the square of the difference between the approximate value  $\hat{v}(s, \mathbf{w})$  and the true value  $v_{\pi}(s)$ . Weighting this over the state space by  $\mu$ , we obtain a natural objective function, the mean square value error, denoted  $\overline{\mathrm{VE}}$ :
 
 $$
-\overline {{\mathrm {V E}}} (\mathbf {w}) \doteq \sum_ {s \in \mathcal {S}} \mu (s) \left[ v _ {\pi} (s) - \hat {v} (s, \mathbf {w}) \right] ^ {2}. \tag {9.1}
+\overline{{\mathrm{VE}}} (\mathbf{w}) \doteq \sum_{s \in \mathcal{S}} \mu (s) \left[ v_{\pi} (s) - \hat {v} (s, \mathbf{w}) \right] ^{2}. \tag {9.1}
 $$
 
 The square root of this measure, the root  $\overline{\mathrm{VE}}$ , gives a rough measure of how much the approximate values differ from the true values and is often used in plots. Often  $\mu(s)$  is chosen to be the fraction of time spent in  $s$ . Under on-policy training this is called the on-policy distribution; we focus entirely on this case in this chapter. In continuing tasks, the on-policy distribution is the stationary distribution under  $\pi$ .
@@ -3712,13 +3518,13 @@ The square root of this measure, the root  $\overline{\mathrm{VE}}$ , gives a ro
 In an episodic task, the on-policy distribution is a little different in that it depends on how the initial states of episodes are chosen. Let  $h(s)$  denote the probability that an episode begins in each state  $s$ , and let  $\eta(s)$  denote the number of time steps spent, on average, in state  $s$  in a single episode. Time is spent in a state  $s$  if episodes start in  $s$ , or if transitions are made into  $s$  from a preceding state  $\bar{s}$  in which time is spent:
 
 $$
-\eta (s) = h (s) + \sum_ {\bar {s}} \eta (\bar {s}) \sum_ {a} \pi (a | \bar {s}) p (s | \bar {s}, a), \quad \text {f o r a l l} s \in \mathcal {S}. \tag {9.2}
+\eta (s) = h (s) + \sum_{\bar{s}} \eta (\bar{s}) \sum_{a} \pi (a | \bar{s}) p (s | \bar{s}, a), \quad \text{for all} s \in \mathcal{S}. \tag {9.2}
 $$
 
 This system of equations can be solved for the expected number of visits  $\eta(s)$ . The on-policy distribution is then the fraction of time spent in each state normalized to sum to one:
 
 $$
-\mu (s) = \frac {\eta (s)}{\sum_ {s ^ {\prime}} \eta \left(s ^ {\prime}\right)}, \quad \text {f o r a l l} s \in \mathcal {S}. \tag {9.3}
+\mu (s) = \frac{\eta (s)}{\sum_{s^{\prime}} \eta \left(s^{\prime}\right)}, \quad \text{for all} s \in \mathcal{S}. \tag {9.3}
 $$
 
 This is the natural choice without discounting. If there is discounting  $(\gamma < 1)$  it should be treated as a form of termination, which can be done simply by including a factor of  $\gamma$  in the second term of (9.2).
@@ -3742,13 +3548,13 @@ weight vector at each step. For now, let us assume that, on each step, we observ
 We assume that states appear in examples with the same distribution,  $\mu$ , over which we are trying to minimize the  $\overline{\mathrm{VE}}$  as given by (9.1). A good strategy in this case is to try to minimize error on the observed examples. Stochastic gradient-descent (SGD) methods do this by adjusting the weight vector after each example by a small amount in the direction that would most reduce the error on that example:
 
 $$
-\begin{array}{l} \mathbf {w} _ {t + 1} \doteq \mathbf {w} _ {t} - \frac {1}{2} \alpha \nabla \left[ v _ {\pi} \left(S _ {t}\right) - \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right) \right] ^ {2} (9.4) \\ = \mathbf {w} _ {t} + \alpha \left[ v _ {\pi} \left(S _ {t}\right) - \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right) \right] \nabla \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right), (9.5) \\ \end{array}
+\begin{array}{l} \mathbf{w}_{t + 1} \doteq \mathbf{w}_{t} - \frac{1}{2} \alpha \nabla \left[ v_{\pi} \left(S_{t}\right) - \hat {v} \left(S_{t}, \mathbf{w}_{t}\right) \right] ^{2} (9.4) \\ = \mathbf{w}_{t} + \alpha \left[ v_{\pi} \left(S_{t}\right) - \hat {v} \left(S_{t}, \mathbf{w}_{t}\right) \right] \nabla \hat {v} \left(S_{t}, \mathbf{w}_{t}\right), (9.5) \\ \end{array}
 $$
 
 where  $\alpha$  is a positive step-size parameter, and  $\nabla f(\mathbf{w})$ , for any scalar expression  $f(\mathbf{w})$  that is a function of a vector (here  $\mathbf{w}$ ), denotes the column vector of partial derivatives of the expression with respect to the components of the vector:
 
 $$
-\nabla f (\mathbf {w}) \doteq \left(\frac {\partial f (\mathbf {w})}{\partial w _ {1}}, \frac {\partial f (\mathbf {w})}{\partial w _ {2}}, \dots , \frac {\partial f (\mathbf {w})}{\partial w _ {d}}\right) ^ {\top}. \tag {9.6}
+\nabla f (\mathbf{w}) \doteq \left(\frac{\partial f (\mathbf{w})}{\partial w_{1}}, \frac{\partial f (\mathbf{w})}{\partial w_{2}}, \dots , \frac{\partial f (\mathbf{w})}{\partial w_{d}}\right)^{\top}. \tag {9.6}
 $$
 
 This derivative vector is the gradient of  $f$  with respect to  $\mathbf{w}$ . SGD methods are "gradient descent" methods because the overall step in  $\mathbf{w}_t$  is proportional to the negative gradient of the example's squared error (9.4). This is the direction in which the error falls most rapidly. Gradient descent methods are called "stochastic" when the update is done, as here, on only a single example, which might have been selected stochastically. Over many examples, making small steps, the overall effect is to minimize an average performance measure such as the  $\overline{\mathrm{VE}}$ .
@@ -3760,7 +3566,7 @@ We turn now to the case in which the target output, here denoted  $U_{t} \in \ma
 these cases we cannot perform the exact update (9.5) because  $v_{\pi}(S_t)$  is unknown, but we can approximate it by substituting  $U_{t}$  in place of  $v_{\pi}(S_{t})$ . This yields the following general SGD method for state-value prediction:
 
 $$
-\mathbf {w} _ {t + 1} \doteq \mathbf {w} _ {t} + \alpha \left[ U _ {t} - \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right) \right] \nabla \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right). \tag {9.7}
+\mathbf{w}_{t + 1} \doteq \mathbf{w}_{t} + \alpha \left[ U_{t} - \hat {v} \left(S_{t}, \mathbf{w}_{t}\right) \right] \nabla \hat {v} \left(S_{t}, \mathbf{w}_{t}\right). \tag {9.7}
 $$
 
 If  $U_{t}$  is an unbiased estimate, that is, if  $\mathbb{E}[U_t|S_t = s] = v_\pi (s)$ , for each  $t$ , then  $\mathbf{w}_t$  is guaranteed to converge to a local optimum under the usual stochastic approximation conditions (2.7) for decreasing  $\alpha$ .
@@ -3784,7 +3590,7 @@ Generate an episode  $S_0, A_0, R_1, S_1, A_1, \ldots, R_T, S_T$  using  $\pi$
 Loop for each step of episode,  $t = 0,1,\dots ,T - 1$
 
 $$
-\mathbf {w} \leftarrow \mathbf {w} + \alpha \left[ G _ {t} - \hat {v} (S _ {t}, \mathbf {w}) \right] \nabla \hat {v} (S _ {t}, \mathbf {w})
+\mathbf{w} \leftarrow \mathbf{w} + \alpha \left[ G_{t} - \hat {v} (S_{t}, \mathbf{w}) \right] \nabla \hat {v} (S_{t}, \mathbf{w})
 $$
 
 One does not obtain the same guarantees if a bootstrapping estimate of  $v_{\pi}(S_t)$  is used as the target  $U_t$  in (9.7). Bootstrapping targets such as  $n$ -step returns  $G_{t:t+n}$  or the DP target  $\sum_{a,s',r} \pi(a|S_t)p(s',r|S_t,a)[r + \gamma \hat{v}(s',\mathbf{w}_t)]$  all depend on the current value of the weight vector  $\mathbf{w}_t$ , which implies that they will be biased and that they will not produce a true gradient-descent method. One way to look at this is that the key step from (9.4) to (9.5) relies on the target being independent of  $\mathbf{w}_t$ . This step would not be valid if a bootstrapping estimate were used in place of  $v_{\pi}(S_t)$ . Bootstrapping methods are not in fact instances of true gradient descent (Barnard, 1993). They take into account the effect of changing the weight vector  $\mathbf{w}_t$  on the estimate, but ignore its effect on the target. They include only a part of the gradient and, accordingly, we call them semi-gradient methods.
@@ -3827,7 +3633,7 @@ One of the most important special cases of function approximation is that in whi
 by the inner product between  $\mathbf{w}$  and  $\mathbf{x}(s)$ :
 
 $$
-\hat {v} (s, \mathbf {w}) \doteq \mathbf {w} ^ {\top} \mathbf {x} (s) \doteq \sum_ {i = 1} ^ {d} w _ {i} x _ {i} (s). \tag {9.8}
+\hat {v} (s, \mathbf{w}) \doteq \mathbf{w} ^{\top} \mathbf{x} (s) \doteq \sum_{i = 1} ^{d} w_{i} x_{i} (s). \tag {9.8}
 $$
 
 In this case the approximate value function is said to be linear in the weights, or simply linear.
@@ -3837,13 +3643,13 @@ The vector  $\mathbf{x}(s)$  is called a feature vector representing state  $s$ 
 It is natural to use SGD updates with linear function approximation. The gradient of the approximate value function with respect to  $\mathbf{w}$  in this case is
 
 $$
-\nabla \hat {v} (s, \mathbf {w}) = \mathbf {x} (s).
+\nabla \hat {v} (s, \mathbf{w}) = \mathbf{x} (s).
 $$
 
 Thus, in the linear case the general SGD update (9.7) reduces to a particularly simple form:
 
 $$
-\mathbf {w} _ {t + 1} \doteq \mathbf {w} _ {t} + \alpha \left[ U _ {t} - \hat {v} (S _ {t}, \mathbf {w} _ {t}) \right] \mathbf {x} (S _ {t}).
+\mathbf{w}_{t + 1} \doteq \mathbf{w}_{t} + \alpha \left[ U_{t} - \hat {v} (S_{t}, \mathbf{w}_{t}) \right] \mathbf{x} (S_{t}).
 $$
 
 Because it is so simple, the linear SGD case is one of the most favorable for mathematical analysis. Almost all useful convergence results for learning systems of all kinds are for linear (or simpler) function approximation methods.
@@ -3853,25 +3659,25 @@ In particular, in the linear case there is only one optimum (or, in degenerate c
 The semi-gradient TD(0) algorithm presented in the previous section also converges under linear function approximation, but this does not follow from general results on SGD; a separate theorem is necessary. The weight vector converged to is also not the global optimum, but rather a point near the local optimum. It is useful to consider this important case in more detail, specifically for the continuing case. The update at each time  $t$  is
 
 $$
-\begin{array}{l} \mathbf {w} _ {t + 1} \doteq \mathbf {w} _ {t} + \alpha \left(R _ {t + 1} + \gamma \mathbf {w} _ {t} ^ {\top} \mathbf {x} _ {t + 1} - \mathbf {w} _ {t} ^ {\top} \mathbf {x} _ {t}\right) \mathbf {x} _ {t} \tag {9.9} \\ = \mathbf {w} _ {t} + \alpha \left(R _ {t + 1} \mathbf {x} _ {t} - \mathbf {x} _ {t} \left(\mathbf {x} _ {t} - \gamma \mathbf {x} _ {t + 1}\right) ^ {\top} \mathbf {w} _ {t}\right), \\ \end{array}
+\begin{array}{l} \mathbf{w}_{t + 1} \doteq \mathbf{w}_{t} + \alpha \left(R_{t + 1} + \gamma \mathbf{w}_{t} ^{\top} \mathbf{x}_{t + 1} - \mathbf{w}_{t} ^{\top} \mathbf{x}_{t}\right) \mathbf{x}_{t} \tag {9.9} \\ = \mathbf{w}_{t} + \alpha \left(R_{t + 1} \mathbf{x}_{t} - \mathbf{x}_{t} \left(\mathbf{x}_{t} - \gamma \mathbf{x}_{t + 1}\right)^{\top} \mathbf{w}_{t}\right), \\ \end{array}
 $$
 
 where here we have used the notational shorthand  $\mathbf{x}_t = \mathbf{x}(S_t)$ . Once the system has reached steady state, for any given  $\mathbf{w}_t$ , the expected next weight vector can be written
 
 $$
-\mathbb {E} \left[ \mathbf {w} _ {t + 1} \mid \mathbf {w} _ {t} \right] = \mathbf {w} _ {t} + \alpha (\mathbf {b} - \mathbf {A} \mathbf {w} _ {t}), \tag {9.10}
+\mathbb{E} \left[ \mathbf{w}_{t + 1} \mid \mathbf{w}_{t} \right] = \mathbf{w}_{t} + \alpha (\mathbf{b} - \mathbf{A} \mathbf{w}_{t}), \tag {9.10}
 $$
 
 where
 
 $$
-\mathbf {b} \doteq \mathbb {E} \left[ R _ {t + 1} \mathbf {x} _ {t} \right] \in \mathbb {R} ^ {d} \quad \text {a n d} \quad \mathbf {A} \doteq \mathbb {E} \left[ \mathbf {x} _ {t} \left(\mathbf {x} _ {t} - \gamma \mathbf {x} _ {t + 1}\right) ^ {\top} \right] \in \mathbb {R} ^ {d \times d} \tag {9.11}
+\mathbf{b} \doteq \mathbb{E} \left[ R_{t + 1} \mathbf{x}_{t} \right] \in \mathbb{R} ^{d} \quad \text{and } \quad \mathbf{A} \doteq \mathbb{E} \left[ \mathbf{x}_{t} \left(\mathbf{x}_{t} - \gamma \mathbf{x}_{t + 1}\right)^{\top} \right] \in \mathbb{R} ^{d \times d} \tag {9.11}
 $$
 
 From (9.10) it is clear that, if the system converges, it must converge to the weight vector  $\mathbf{w}_{\mathrm{TD}}$  at which
 
 $$
-\begin{array}{l} \mathbf {b} - \mathbf {A} \mathbf {w} _ {\mathrm {T D}} = \mathbf {0} \\ \Rightarrow \quad \mathbf {b} = \mathbf {A} \mathbf {w} _ {\mathrm {T D}} \\ \Rightarrow \quad \mathbf {w} _ {\mathrm {T D}} \doteq \mathbf {A} ^ {- 1} \mathbf {b}. \tag {9.12} \\ \end{array}
+\begin{array}{l} \mathbf{b} - \mathbf{A} \mathbf{w}_{\mathrm{TD}} = \mathbf{0} \\ \Rightarrow \quad \mathbf{b} = \mathbf{A} \mathbf{w}_{\mathrm{TD}} \\ \Rightarrow \quad \mathbf{w}_{\mathrm{TD}} \doteq \mathbf{A} ^{- 1} \mathbf{b}. \tag {9.12} \\ \end{array}
 $$
 
 This quantity is called the  $TD$  fixed point. In fact linear semi-gradient  $TD(0)$  converges to this point. Some of the theory proving its convergence, and the existence of the inverse above, is given in the box.
@@ -3881,7 +3687,7 @@ This quantity is called the  $TD$  fixed point. In fact linear semi-gradient  $T
 What properties assure convergence of the linear TD(0) algorithm (9.9)? Some insight can be gained by rewriting (9.10) as
 
 $$
-\mathbb {E} \left[ \mathbf {w} _ {t + 1} \mid \mathbf {w} _ {t} \right] = (\mathbf {I} - \alpha \mathbf {A}) \mathbf {w} _ {t} + \alpha \mathbf {b}. \tag {9.13}
+\mathbb{E} \left[ \mathbf{w}_{t + 1} \mid \mathbf{w}_{t} \right] = (\mathbf{I} - \alpha \mathbf{A}) \mathbf{w}_{t} + \alpha \mathbf{b}. \tag {9.13}
 $$
 
 Note that the matrix  $\mathbf{A}$  multiplies the weight vector  $\mathbf{w}_t$  and not  $\mathbf{b}$ ; only  $\mathbf{A}$  is important to convergence. To develop intuition, consider the special case in which  $\mathbf{A}$  is a diagonal matrix. If any of the diagonal elements are negative, then the corresponding diagonal element of  $\mathbf{I} - \alpha \mathbf{A}$  will be greater than one, and the corresponding component of  $\mathbf{w}_t$  will be amplified, which will lead to divergence if continued. On the other hand, if the diagonal elements of  $\mathbf{A}$  are all positive, then  $\alpha$  can be chosen smaller than one over the largest of them, such that  $\mathbf{I} - \alpha \mathbf{A}$  is diagonal with all diagonal elements between 0 and 1. In this case the first term of the update tends to shrink  $\mathbf{w}_t$ , and stability is assured. In general,  $\mathbf{w}_t$  will be reduced toward zero whenever  $\mathbf{A}$  is positive definite, meaning  $y^\top \mathbf{A}y > 0$  for any real vector  $y \neq 0$ . Positive definiteness also ensures that the inverse  $\mathbf{A}^{-1}$  exists.
@@ -3889,7 +3695,7 @@ Note that the matrix  $\mathbf{A}$  multiplies the weight vector  $\mathbf{w}_t$
 For linear TD(0), in the continuing case with  $\gamma < 1$ , the  $\mathbf{A}$  matrix (9.11) can be written
 
 $$
-\begin{array}{l} \mathbf {A} = \sum_ {s} \mu (s) \sum_ {a} \pi (a | s) \sum_ {r, s ^ {\prime}} p (r, s ^ {\prime} | s, a) \mathbf {x} (s) \left(\mathbf {x} (s) - \gamma \mathbf {x} (s ^ {\prime})\right) ^ {\top} \\ = \sum_ {s} \mu (s) \sum_ {s ^ {\prime}} p \left(s ^ {\prime} \mid s\right) \mathbf {x} (s) \left(\mathbf {x} (s) - \gamma \mathbf {x} \left(s ^ {\prime}\right)\right) ^ {\top} \\ = \sum_ {s} \mu (s) \mathbf {x} (s) \left(\mathbf {x} (s) - \gamma \sum_ {s ^ {\prime}} p \left(s ^ {\prime} \mid s\right) \mathbf {x} \left(s ^ {\prime}\right)\right) ^ {\top} \\ \mathbf {\Sigma} = \mathbf {X} ^ {\top} \mathbf {D} (\mathbf {I} - \gamma \mathbf {P}) \mathbf {X}, \\ \end{array}
+\begin{array}{l} \mathbf{A} = \sum_{s} \mu (s) \sum_{a} \pi (a | s) \sum_{r, s^{\prime}} p (r, s^{\prime} | s, a) \mathbf{x} (s) \left(\mathbf{x} (s) - \gamma \mathbf{x} (s^{\prime})\right)^{\top} \\ = \sum_{s} \mu (s) \sum_{s^{\prime}} p \left(s^{\prime} \mid s\right) \mathbf{x} (s) \left(\mathbf{x} (s) - \gamma \mathbf{x} \left(s^{\prime}\right)\right)^{\top} \\ = \sum_{s} \mu (s) \mathbf{x} (s) \left(\mathbf{x} (s) - \gamma \sum_{s^{\prime}} p \left(s^{\prime} \mid s\right) \mathbf{x} \left(s^{\prime}\right)\right)^{\top} \\ \mathbf{\Sigma} = \mathbf{X} ^{\top} \mathbf{D} (\mathbf{I} - \gamma \mathbf{P}) \mathbf{X}, \\ \end{array}
 $$
 
 where  $\mu(s)$  is the stationary distribution under  $\pi$ ,  $p(s'|s)$  is the probability of transition from  $s$  to  $s'$  under policy  $\pi$ ,  $\mathbf{P}$  is the  $|\mathcal{S}| \times |\mathcal{S}|$  matrix of these probabilities,
@@ -3899,7 +3705,7 @@ $\mathbf{D}$  is the  $|\mathbb{S}| \times |\mathbb{S}|$  diagonal matrix with t
 For a key matrix of this form, positive definiteness is assured if all of its columns sum to a nonnegative number. This was shown by Sutton (1988, p. 27) based on two previously established theorems. One theorem says that any matrix  $\mathbf{M}$  is positive definite if and only if the symmetric matrix  $\mathbf{S} = \mathbf{M} + \mathbf{M}^{\top}$  is positive definite (Sutton 1988, appendix). The second theorem says that any symmetric real matrix  $\mathbf{S}$  is positive definite if all of its diagonal entries are positive and greater than the sum of the absolute values of the corresponding off-diagonal entries (Varga 1962, p. 23). For our key matrix,  $\mathbf{D}(\mathbf{I} - \gamma \mathbf{P})$ , the diagonal entries are positive and the off-diagonal entries are negative, so all we have to show is that each row sum plus the corresponding column sum is positive. The row sums are all positive because  $\mathbf{P}$  is a stochastic matrix and  $\gamma < 1$ . Thus it only remains to show that the column sums are nonnegative. Note that the row vector of the column sums of any matrix  $\mathbf{M}$  can be written as  $\mathbf{1}^{\top}\mathbf{M}$ , where  $\mathbf{1}$  is the column vector with all components equal to 1. Let  $\pmb{\mu}$  denote the  $|\mathsf{S}|$ -vector of the  $\mu(s)$ , where  $\pmb{\mu} = \mathbf{P}^{\top}\pmb{\mu}$  by virtue of  $\pmb{\mu}$  being the stationary distribution. The column sums of our key matrix, then, are:
 
 $$
-\begin{array}{l} \mathbf {1} ^ {\top} \mathbf {D} (\mathbf {I} - \gamma \mathbf {P}) = \boldsymbol {\mu} ^ {\top} (\mathbf {I} - \gamma \mathbf {P}) \\ = \boldsymbol {\mu} ^ {\top} - \gamma \boldsymbol {\mu} ^ {\top} \mathbf {P} \\ = \boldsymbol {\mu} ^ {\top} - \gamma \boldsymbol {\mu} ^ {\top} \quad (\text {b e c a u s e} \boldsymbol {\mu} \text {i s t h e s t a t i o n a r y d i s t r i b u t i o n}) \\ = (1 - \gamma) \boldsymbol {\mu} ^ {\top}, \\ \end{array}
+\begin{array}{l} \mathbf{1} ^{\top} \mathbf{D} (\mathbf{I} - \gamma \mathbf{P}) = \boldsymbol{\mu} ^{\top} (\mathbf{I} - \gamma \mathbf{P}) \\ = \boldsymbol{\mu} ^{\top} - \gamma \boldsymbol{\mu} ^{\top} \mathbf{P} \\ = \boldsymbol{\mu} ^{\top} - \gamma \boldsymbol{\mu} ^{\top} \quad (\text{because} \boldsymbol{\mu} \text{isthestationarydistribution}) \\ = (1 - \gamma) \boldsymbol{\mu} ^{\top}, \\ \end{array}
 $$
 
 all components of which are positive. Thus, the key matrix and its  $\mathbf{A}$  matrix are positive definite, and on-policy  $\mathrm{TD}(0)$  is stable. (Additional conditions and a schedule for reducing  $\alpha$  over time are needed to prove convergence with probability one.)
@@ -3907,7 +3713,7 @@ all components of which are positive. Thus, the key matrix and its  $\mathbf{A}$
 At the TD fixed point, it has also been proven (in the continuing case) that the VE is within a bounded expansion of the lowest possible error:
 
 $$
-\overline {{\mathrm {V E}}} \left(\mathbf {w} _ {\mathrm {T D}}\right) \leq \frac {1}{1 - \gamma} \min  _ {\mathbf {w}} \overline {{\mathrm {V E}}} (\mathbf {w}). \tag {9.14}
+\overline{{\mathrm{VE}}} \left(\mathbf{w}_{\mathrm{TD}}\right) \leq \frac{1}{1 - \gamma} \min_{\mathbf{w}} \overline{{\mathrm{VE}}} (\mathbf{w}). \tag {9.14}
 $$
 
 That is, the asymptotic error of the TD method is no more than  $\frac{1}{1 - \gamma}$  times the smallest possible error, that attained in the limit by the Monte Carlo method. Because  $\gamma$  is often near one, this expansion factor can be quite large, so there is substantial potential loss in asymptotic performance with the TD method. On the other hand, recall that the TD methods are often of vastly reduced variance compared to Monte Carlo methods, and thus faster, as we saw in Chapters 6 and 7. Which method will be best depends on the nature of the approximation and problem, and on how long learning continues.
@@ -3949,13 +3755,13 @@ Until  $\tau = T - 1$
 The key equation of this algorithm, analogous to (7.2), is
 
 $$
-\mathbf {w} _ {t + n} \doteq \mathbf {w} _ {t + n - 1} + \alpha \left[ G _ {t: t + n} - \hat {v} \left(S _ {t}, \mathbf {w} _ {t + n - 1}\right) \nabla \hat {v} \left(S _ {t}, \mathbf {w} _ {t + n - 1}\right), \quad 0 \leq t <   T, \right. \tag {9.15}
+\mathbf{w}_{t + n} \doteq \mathbf{w}_{t + n - 1} + \alpha \left[ G_{t: t + n} - \hat {v} \left(S_{t}, \mathbf{w}_{t + n - 1}\right) \nabla \hat {v} \left(S_{t}, \mathbf{w}_{t + n - 1}\right), \quad 0 \leq t <   T, \right. \tag {9.15}
 $$
 
 where the  $n$ -step return is generalized from (7.1) to
 
 $$
-G _ {t: t + n} \doteq R _ {t + 1} + \gamma R _ {t + 2} + \dots + \gamma^ {n - 1} R _ {t + n} + \gamma^ {n} \hat {v} \left(S _ {t + n}, \mathbf {w} _ {t + n - 1}\right), \quad 0 \leq t \leq T - n. \tag {9.16}
+G_{t: t + n} \doteq R_{t + 1} + \gamma R_{t + 2} + \dots + \gamma^{n - 1} R_{t + n} + \gamma^{n} \hat {v} \left(S_{t + n}, \mathbf{w}_{t + n - 1}\right), \quad 0 \leq t \leq T - n. \tag {9.16}
 $$
 
 Exercise 9.1 Show that tabular methods such as presented in Part I of this book are a special case of linear function approximation. What would the feature vectors be?  $\square$
@@ -3977,7 +3783,7 @@ take more complex interactions into account. Such feature vectors enable approxi
 Suppose each state  $s$  corresponds to  $k$  numbers,  $s_1, s_2, \ldots, s_k$ , with each  $s_i \in \mathbb{R}$ . For this  $k$ -dimensional state space, each order- $n$  polynomial-basis feature  $x_i$  can be written as
 
 $$
-x _ {i} (s) = \Pi_ {j = 1} ^ {k} s _ {j} ^ {c _ {i, j}}, \tag {9.17}
+x_{i} (s) = \Pi_{j = 1} ^{k} s_{j} ^{c_{i, j}}, \tag {9.17}
 $$
 
 where each  $c_{i,j}$  is an integer in the set  $\{0,1,\ldots ,n\}$  for an integer  $n\geq 0$ . These features make up the order-  $n$  polynomial basis for dimension  $k$ , which contains  $(n + 1)^k$  different features.
@@ -4001,7 +3807,7 @@ Furthermore, if you set  $\tau$  to twice the length of the interval of interest
 Following this logic and letting  $\tau = 2$  so that the features are defined over the half- $\tau$  interval [0,1], the one-dimensional order- $n$  Fourier cosine basis consists of the  $n + 1$  features
 
 $$
-x _ {i} (s) = \cos (i \pi s), \quad s \in [ 0, 1 ],
+x_{i} (s) = \cos (i \pi s), \quad s \in [ 0, 1 ],
 $$
 
 for  $i = 0, \dots, n$ . Figure 9.3 shows one-dimensional Fourier cosine features  $x_{i}$ , for  $i = 1,2,3,4$ ;  $x_{0}$  is a constant function.
@@ -4020,7 +3826,7 @@ This same reasoning applies to the Fourier cosine series approximation in the mu
 Suppose each state  $s$  corresponds to a vector of  $k$  numbers,  $\mathbf{s} = (s_1,s_2,\dots,s_k)^\top$ , with each  $s_i\in [0,1]$ . The  $i$ th feature in the order- $n$  Fourier cosine basis can then be written
 
 $$
-x _ {i} (s) = \cos (\pi \mathbf {s} ^ {\top} \mathbf {c} ^ {i}), \tag {9.18}
+x_{i} (s) = \cos (\pi \mathbf{s} ^{\top} \mathbf{c} ^{i}), \tag {9.18}
 $$
 
 where  $\mathbf{c}^i = (c_1^i,\dots ,c_k^i)^\top$ , with  $c_{j}^{i}\in \{0,\ldots ,n\}$  for  $j = 1,\dots ,k$  and  $i = 1,\dots ,(n + 1)^k$ . This defines a feature for each of the  $(n + 1)^k$  possible integer vectors  $\mathbf{c}^i$ . The inner
@@ -4179,7 +3985,7 @@ Exercise 9.4 Suppose we believe that one of two state dimensions is more likely 
 Radial basis functions (RBFs) are the natural generalization of coarse coding to continuous-valued features. Rather than each feature being either 0 or 1, it can be anything in the interval [0, 1], reflecting various degrees to which the feature is present. A typical RBF feature,  $x_{i}$ , has a Gaussian (bell-shaped) response  $x_{i}(s)$  dependent only on the distance between the state,  $s$ , and the feature's prototypical or center state,  $c_{i}$ , and relative to the feature's width,  $\sigma_{i}$ :
 
 $$
-x _ {i} (s) \doteq \exp \left(- \frac {| | s - c _ {i} | | ^ {2}}{2 \sigma_ {i} ^ {2}}\right).
+x_{i} (s) \doteq \exp \left(- \frac{| | s - c_{i} | | ^{2}}{2 \sigma_{i} ^{2}}\right).
 $$
 
 The norm or distance metric of course can be chosen in whatever way seems most appropriate to the states and task at hand. The figure below shows a one-dimensional example with a Euclidean distance metric.
@@ -4202,7 +4008,7 @@ To get some intuitive feel for how to set the step-size parameter manually, it i
 With general function approximation there is not such a clear notion of number of experiences with a state, as each state may be similar to and dissimilar from all the others to various degrees. However, there is a similar rule that gives similar behavior in the case of linear function approximation. Suppose you wanted to learn in about  $\tau$  experiences with substantially the same feature vector. A good rule of thumb for setting the step-size parameter of linear SGD methods is then
 
 $$
-\alpha \doteq \left(\tau \mathbb {E} \left[ \mathbf {x} ^ {\top} \mathbf {x} \right]\right) ^ {- 1}, \tag {9.19}
+\alpha \doteq \left(\tau \mathbb{E} \left[ \mathbf{x} ^{\top} \mathbf{x} \right]\right)^{- 1}, \tag {9.19}
 $$
 
 where  $\mathbf{x}$  is a random feature vector chosen from the same distribution as input vectors will be in the SGD. This method works best if the feature vectors do not vary greatly in length; ideally  $\mathbf{x}^{\top}\mathbf{x}$  is a constant.
@@ -4268,25 +4074,25 @@ All the methods we have discussed so far in this chapter have required computati
 As we established in Section 9.4 TD(0) with linear function approximation converges asymptotically (for appropriately decreasing step sizes) to the TD fixed point:
 
 $$
-\mathbf {w} _ {\mathrm {T D}} = \mathbf {A} ^ {- 1} \mathbf {b},
+\mathbf{w}_{\mathrm{TD}} = \mathbf{A} ^{- 1} \mathbf{b},
 $$
 
 where
 
 $$
-\mathbf {A} \doteq \mathbb {E} \left[ \mathbf {x} _ {t} \left(\mathbf {x} _ {t} - \gamma \mathbf {x} _ {t + 1}\right) ^ {\top} \right] \quad \text {a n d} \quad \mathbf {b} \doteq \mathbb {E} \left[ R _ {t + 1} \mathbf {x} _ {t} \right].
+\mathbf{A} \doteq \mathbb{E} \left[ \mathbf{x}_{t} \left(\mathbf{x}_{t} - \gamma \mathbf{x}_{t + 1}\right)^{\top} \right] \quad \text{and } \quad \mathbf{b} \doteq \mathbb{E} \left[ R_{t + 1} \mathbf{x}_{t} \right].
 $$
 
 Why, one might ask, must we compute this solution iteratively? This is wasteful of data! Could one not do better by computing estimates of  $\mathbf{A}$  and  $\mathbf{b}$ , and then directly computing the TD fixed point? The Least-Squares  $TD$  algorithm, commonly known as LSTD, does exactly this. It forms the natural estimates
 
 $$
-\widehat {\mathbf {A}} _ {t} \doteq \sum_ {k = 0} ^ {t - 1} \mathbf {x} _ {k} \left(\mathbf {x} _ {k} - \gamma \mathbf {x} _ {k + 1}\right) ^ {\top} + \varepsilon \mathbf {I} \quad \text {a n d} \quad \widehat {\mathbf {b}} _ {t} \doteq \sum_ {k = 0} ^ {t - 1} R _ {k + 1} \mathbf {x} _ {k}, \tag {9.20}
+\widehat {\mathbf{A}}_{t} \doteq \sum_{k = 0} ^{t - 1} \mathbf{x}_{k} \left(\mathbf{x}_{k} - \gamma \mathbf{x}_{k + 1}\right)^{\top} + \varepsilon \mathbf{I} \quad \text{and } \quad \widehat {\mathbf{b}}_{t} \doteq \sum_{k = 0} ^{t - 1} R_{k + 1} \mathbf{x}_{k}, \tag {9.20}
 $$
 
 where  $\mathbf{I}$  is the identity matrix, and  $\varepsilon \mathbf{I}$ , for some small  $\varepsilon > 0$ , ensures that  $\widehat{\mathbf{A}}_t$  is always invertible. It might seem that these estimates should both be divided by  $t$ , and indeed they should; as defined here, these are really estimates of  $t$  times  $\mathbf{A}$  and  $t$  times  $\mathbf{b}$ . However, the extra  $t$  factors cancel out when LSTD uses these estimates to estimate the TD fixed point as
 
 $$
-\mathbf {w} _ {t} \doteq \widehat {\mathbf {A}} _ {t} ^ {- 1} \widehat {\mathbf {b}} _ {t}. \tag {9.21}
+\mathbf{w}_{t} \doteq \widehat {\mathbf{A}}_{t} ^{- 1} \widehat {\mathbf{b}}_{t}. \tag {9.21}
 $$
 
 This algorithm is the most data efficient form of linear  $\mathrm{TD}(0)$ , but it is also more expensive computationally. Recall that semi-gradient  $\mathrm{TD}(0)$  requires memory and per-step computation that is only  $O(d)$ .
@@ -4296,7 +4102,7 @@ How complex is LSTD? As it is written above the complexity seems to increase wit
 A potentially greater problem is that our final computation (9.21) uses the inverse of  $\widehat{\mathbf{A}}_t$ , and the computational complexity of a general inverse computation is  $O(d^3)$ . Fortunately, an inverse of a matrix of our special form—a sum of outer products—can also be updated incrementally with only  $O(d^2)$  computations, as
 
 $$
-\begin{array}{l} \widehat {\mathbf {A}} _ {t} ^ {- 1} = \left(\widehat {\mathbf {A}} _ {t - 1} + \mathbf {x} _ {t - 1} (\mathbf {x} _ {t - 1} - \gamma \mathbf {x} _ {t}) ^ {\top}\right) ^ {- 1} \quad \mathrm {(f r o m (9 . 2 0))} \\ = \widehat {\mathbf {A}} _ {t - 1} ^ {- 1} - \frac {\widehat {\mathbf {A}} _ {t - 1} ^ {- 1} \mathbf {x} _ {t - 1} \left(\mathbf {x} _ {t - 1} - \gamma \mathbf {x} _ {t}\right) ^ {\top} \widehat {\mathbf {A}} _ {t - 1} ^ {- 1}}{1 + \left(\mathbf {x} _ {t - 1} - \gamma \mathbf {x} _ {t}\right) ^ {\top} \widehat {\mathbf {A}} _ {t - 1} ^ {- 1} \mathbf {x} _ {t - 1}}, \tag {9.22} \\ \end{array}
+\begin{array}{l} \widehat {\mathbf{A}}_{t} ^{- 1} = \left(\widehat {\mathbf{A}}_{t - 1} + \mathbf{x}_{t - 1} (\mathbf{x}_{t - 1} - \gamma \mathbf{x}_{t})^{\top}\right)^{- 1} \quad \mathrm{(from (9.20))} \\ = \widehat {\mathbf{A}}_{t - 1} ^{- 1} - \frac{\widehat {\mathbf{A}}_{t - 1} ^{- 1} \mathbf{x}_{t - 1} \left(\mathbf{x}_{t - 1} - \gamma \mathbf{x}_{t}\right)^{\top} \widehat {\mathbf{A}}_{t - 1} ^{- 1}}{1 + \left(\mathbf{x}_{t - 1} - \gamma \mathbf{x}_{t}\right)^{\top} \widehat {\mathbf{A}}_{t - 1} ^{- 1} \mathbf{x}_{t - 1}}, \tag {9.22} \\ \end{array}
 $$
 
 for  $t > 0$ , with  $\widehat{\mathbf{A}}_0 \doteq \varepsilon \mathbf{I}$ . Although the identity (9.22), known as the Sherman-Morrison formula, is superficially complicated, it involves only vector-matrix and vector-vector multiplications and thus is only  $O(d^2)$ . Thus we can store the inverse matrix  $\widehat{\mathbf{A}}_t^{-1}$ , maintain it with (9.22), and then use it in (9.21), all with only  $O(d^2)$  memory and per-step computation. The complete algorithm is given in the box on the next page.
@@ -4310,13 +4116,13 @@ Input: feature representation  $\mathbf{x}:\mathbb{S}^{+}\to \mathbb{R}^{d}$  su
 Algorithm parameter: small  $\varepsilon >0$
 
 $$
-\widehat {\mathbf {A} ^ {- 1}} \leftarrow \varepsilon^ {- 1} \mathbf {I}
+\widehat {\mathbf{A} ^{- 1}} \leftarrow \varepsilon^{- 1} \mathbf{I}
 $$
 
 A  $d\times d$  matrix
 
 $$
-\widehat {\mathbf {b}} \gets \mathbf {0}
+\widehat {\mathbf{b}} \gets \mathbf{0}
 $$
 
 A  $d$ -dimensional vector
@@ -4330,23 +4136,23 @@ Loop for each step of episode:
 Choose and take action  $A \sim \pi(\cdot|S)$ , observe  $R, S'$ ;  $\mathbf{x}' \leftarrow \mathbf{x}(S')$
 
 $$
-\mathbf {v} \leftarrow \widehat {\mathbf {A} ^ {- 1}} ^ {\top} \left(\mathbf {x} - \gamma \mathbf {x} ^ {\prime}\right)
+\mathbf{v} \leftarrow \widehat {\mathbf{A} ^{- 1}} ^{\top} \left(\mathbf{x} - \gamma \mathbf{x} ^{\prime}\right)
 $$
 
 $$
-\widehat {\mathbf {A} ^ {- 1}} \leftarrow \widehat {\mathbf {A} ^ {- 1}} - \left(\widehat {\mathbf {A} ^ {- 1}} \mathbf {x}\right) \mathbf {v} ^ {\top} / \left(1 + \mathbf {v} ^ {\top} \mathbf {x}\right)
+\widehat {\mathbf{A} ^{- 1}} \leftarrow \widehat {\mathbf{A} ^{- 1}} - \left(\widehat {\mathbf{A} ^{- 1}} \mathbf{x}\right) \mathbf{v} ^{\top} / \left(1 + \mathbf{v} ^{\top} \mathbf{x}\right)
 $$
 
 $$
-\widehat {\mathbf {b}} \leftarrow \widehat {\mathbf {b}} + R \mathbf {x}
+\widehat {\mathbf{b}} \leftarrow \widehat {\mathbf{b}} + R \mathbf{x}
 $$
 
 $$
-\mathbf {w} \leftarrow \widehat {\mathbf {A} ^ {- 1} \mathbf {\hat {b}}}
+\mathbf{w} \leftarrow \widehat {\mathbf{A} ^{- 1} \mathbf{\hat {b}}}
 $$
 
 $$
-S \leftarrow S ^ {\prime}; \mathbf {x} \leftarrow \mathbf {x} ^ {\prime}
+S \leftarrow S^{\prime}; \mathbf{x} \leftarrow \mathbf{x} ^{\prime}
 $$
 
 until  $S^{\prime}$  is terminal
@@ -4380,7 +4186,7 @@ Viewed slightly differently,  $k(s,s')$  is a measure of the strength of general
 Kernel regression is the memory-based method that computes a kernel weighted average of the targets of all examples stored in memory, assigning the result to the query state. If  $\mathcal{D}$  is the set of stored examples, and  $g(s^{\prime})$  denotes the target for state  $s^\prime$  in a stored example, then kernel regression approximates the target function, in this case a value function depending on  $\mathcal{D}$ , as
 
 $$
-\hat {v} (s, \mathcal {D}) = \sum_ {s ^ {\prime} \in \mathcal {D}} k \left(s, s ^ {\prime}\right) g \left(s ^ {\prime}\right). \tag {9.23}
+\hat {v} (s, \mathcal{D}) = \sum_{s^{\prime} \in \mathcal{D}} k \left(s, s^{\prime}\right) g \left(s^{\prime}\right). \tag {9.23}
 $$
 
 The weighted average method described above is a special case in which  $k(s, s')$  is non-zero only when  $s$  and  $s'$  are close to one another so that the sum need not be computed over all of  $\mathcal{D}$ .
@@ -4390,7 +4196,7 @@ A common kernel is the Gaussian radial basis function (RBF) used in RBF function
 Of course, many issues have to be addressed for practical implementation of kernel regression, issues that are beyond the scope of our brief discussion. However, it turns out that any linear parametric regression method like those we described in Section 9.4, with states represented by feature vectors  $\mathbf{x}(s) = (x_{1}(s), x_{2}(s), \ldots, x_{d}(s))^{\top}$ , can be recast as kernel regression where  $k(s, s')$  is the inner product of the feature vector representations of  $s$  and  $s'$ ; that is
 
 $$
-k (s, s ^ {\prime}) = \mathbf {x} (s) ^ {\top} \mathbf {x} (s ^ {\prime}). \tag {9.24}
+k (s, s^{\prime}) = \mathbf{x} (s)^{\top} \mathbf{x} (s^{\prime}). \tag {9.24}
 $$
 
 Kernel regression with this kernel function produces the same approximation that a linear parametric method would if it used these feature vectors and learned with the same training data.
@@ -4406,13 +4212,13 @@ One reason we have treated all states encountered equally is that then we are up
 We now introduce some new concepts. First we introduce a non-negative scalar measure, a random variable  $I_{t}$  called interest, indicating the degree to which we are interested in accurately valuing the state (or state-action pair) at time  $t$ . If we don't care at all about the state, then the interest should be zero; if we fully care, it might be one, though it is formally allowed to take any non-negative value. The interest can be set in any causal way; for example, it may depend on the trajectory up to time  $t$  or the learned parameters at time  $t$ . The distribution  $\mu$  in the VE (9.1) is then defined as the distribution of states encountered while following the target policy, weighted by the interest. Second, we introduce another non-negative scalar random variable, the emphasis  $M_{t}$ . This scalar multiplies the learning update and thus emphasizes or de-emphasizes the learning done at time  $t$ . The general  $n$ -step learning rule, replacing (9.15), is
 
 $$
-\mathbf {w} _ {t + n} \doteq \mathbf {w} _ {t + n - 1} + \alpha M _ {t} \left[ G _ {t: t + n} - \hat {v} \left(S _ {t}, \mathbf {w} _ {t + n - 1}\right) \right] \nabla \hat {v} \left(S _ {t}, \mathbf {w} _ {t + n - 1}\right), \quad 0 \leq t <   T, \tag {9.25}
+\mathbf{w}_{t + n} \doteq \mathbf{w}_{t + n - 1} + \alpha M_{t} \left[ G_{t: t + n} - \hat {v} \left(S_{t}, \mathbf{w}_{t + n - 1}\right) \right] \nabla \hat {v} \left(S_{t}, \mathbf{w}_{t + n - 1}\right), \quad 0 \leq t <   T, \tag {9.25}
 $$
 
 with the  $n$ -step return given by (9.16) and the emphasis determined recursively from the interest by:
 
 $$
-M _ {t} = I _ {t} + \gamma^ {n} M _ {t - n}, \quad 0 \leq t <   T, \tag {9.26}
+M_{t} = I_{t} + \gamma^{n} M_{t - n}, \quad 0 \leq t <   T, \tag {9.26}
 $$
 
 with  $M_{t} \doteq 0$ , for all  $t < 0$ . These equations are taken to include the Monte Carlo case, for which  $G_{t:t+n} = G_{t}$ , all the updates are made at end of the episode,  $n = T - t$ , and  $M_{t} = I_{t}$ .
@@ -4512,13 +4318,13 @@ The extension of the semi-gradient prediction methods of Chapter 9 to action val
 prediction is
 
 $$
-\mathbf {w} _ {t + 1} \doteq \mathbf {w} _ {t} + \alpha \left[ U _ {t} - \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t}\right) \right] \nabla \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t}\right). \tag {10.1}
+\mathbf{w}_{t + 1} \doteq \mathbf{w}_{t} + \alpha \left[ U_{t} - \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t}\right) \right] \nabla \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t}\right). \tag {10.1}
 $$
 
 For example, the update for the one-step Sarsa method is
 
 $$
-\mathbf {w} _ {t + 1} \doteq \mathbf {w} _ {t} + \alpha \left[ R _ {t + 1} + \gamma \hat {q} \left(S _ {t + 1}, A _ {t + 1}, \mathbf {w} _ {t}\right) - \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t}\right) \right] \nabla \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t}\right). \tag {10.2}
+\mathbf{w}_{t + 1} \doteq \mathbf{w}_{t} + \alpha \left[ R_{t + 1} + \gamma \hat {q} \left(S_{t + 1}, A_{t + 1}, \mathbf{w}_{t}\right) - \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t}\right) \right] \nabla \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t}\right). \tag {10.2}
 $$
 
 We call this method episodic semi-gradient one-step Sarsa. For a constant policy, this method converges in the same way that TD(0) does, with the same kind of error bound (9.14).
@@ -4548,11 +4354,11 @@ can build up enough inertia to carry it up the steep slope even though it is slo
 The reward in this problem is  $-1$  on all time steps until the car moves past its goal position at the top of the mountain, which ends the episode. There are three possible actions: full throttle forward  $(+1)$ , full throttle reverse  $(-1)$ , and zero throttle  $(0)$ . The car moves according to a simplified physics. Its position,  $x_{t}$ , and velocity,  $\dot{x}_t$ , are updated by
 
 $$
-x _ {t + 1} \doteq b o u n d \big [ x _ {t} + \dot {x} _ {t + 1} \big ]
+x_{t + 1} \doteq b o u n d \big [ x_{t} + \dot {x}_{t + 1} \big ]
 $$
 
 $$
-\dot {x} _ {t + 1} \doteq b o u n d \big [ \dot {x} _ {t} + 0. 0 0 1 A _ {t} - 0. 0 0 2 5 \cos (3 x _ {t}) \big ],
+\dot {x}_{t + 1} \doteq b o u n d \big [ \dot {x}_{t} + 0. 00 1 A_{t} - 0. 00 25 \cos (3 x_{t}) \big ],
 $$
 
 where the bound operation enforces  $-1.2 \leq x_{t+1} \leq 0.5$  and  $-0.07 \leq \dot{x}_{t+1} \leq 0.07$ . In addition, when  $x_{t+1}$  reached the left bound,  $\dot{x}_{t+1}$  was reset to zero. When it reached the right bound, the goal was reached and the episode was terminated. Each episode started from a random position  $x_t \in [-0.6, -0.4)$  and zero velocity. To convert the two continuous state variables to binary features, we used grid-tilings as in Figure 9.9. We used 8 tilings, with each tile covering  $1/8$ th of the bounded distance in each dimension,
@@ -4560,7 +4366,7 @@ where the bound operation enforces  $-1.2 \leq x_{t+1} \leq 0.5$  and  $-0.07 \l
 and asymmetrical offsets as described in Section 9.5.4. $^{1}$  The feature vectors  $\mathbf{x}(s,a)$  created by tile coding were then combined linearly with the parameter vector to approximate the action-value function:
 
 $$
-\hat {q} (s, a, \mathbf {w}) \doteq \mathbf {w} ^ {\top} \mathbf {x} (s, a) = \sum_ {i = 1} ^ {d} w _ {i} \cdot x _ {i} (s, a), \tag {10.3}
+\hat {q} (s, a, \mathbf{w}) \doteq \mathbf{w} ^{\top} \mathbf{x} (s, a) = \sum_{i = 1} ^{d} w_{i} \cdot x_{i} (s, a), \tag {10.3}
 $$
 
 for each pair of state,  $s$ , and action,  $a$ .
@@ -4577,13 +4383,13 @@ Figure 10.2: Mountain Car learning curves for the semi-gradient Sarsa method wit
 We can obtain an  $n$ -step version of episodic semi-gradient Sarsa by using an  $n$ -step return as the update target in the semi-gradient Sarsa update equation (10.1). The  $n$ -step return immediately generalizes from its tabular form (7.4) to a function approximation form:
 
 $$
-G _ {t: t + n} \doteq R _ {t + 1} + \gamma R _ {t + 2} + \dots + \gamma^ {n - 1} R _ {t + n} + \gamma^ {n} \hat {q} \left(S _ {t + n}, A _ {t + n}, \mathbf {w} _ {t + n - 1}\right), \quad t + n <   T, \tag {10.4}
+G_{t: t + n} \doteq R_{t + 1} + \gamma R_{t + 2} + \dots + \gamma^{n - 1} R_{t + n} + \gamma^{n} \hat {q} \left(S_{t + n}, A_{t + n}, \mathbf{w}_{t + n - 1}\right), \quad t + n <   T, \tag {10.4}
 $$
 
 with  $G_{t:t+n} \doteq G_t$  if  $t + n \geq T$ , as usual. The  $n$ -step update equation is
 
 $$
-\mathbf {w} _ {t + n} \doteq \mathbf {w} _ {t + n - 1} + \alpha \left[ G _ {t: t + n} - \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t + n - 1}\right) \right] \nabla \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t + n - 1}\right), \quad 0 \leq t <   T. \tag {10.5}
+\mathbf{w}_{t + n} \doteq \mathbf{w}_{t + n - 1} + \alpha \left[ G_{t: t + n} - \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t + n - 1}\right) \right] \nabla \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t + n - 1}\right), \quad 0 \leq t <   T. \tag {10.5}
 $$
 
 Complete pseudocode is given in the box below.
@@ -4656,7 +4462,7 @@ We now introduce a third classical setting—alongside the episodic and discount
 In the average-reward setting, the quality of a policy  $\pi$  is defined as the average rate of reward, or simply average reward, while following that policy, which we denote as  $r(\pi)$ :
 
 $$
-\begin{array}{l} r (\pi) \doteq \lim  _ {h \rightarrow \infty} \frac {1}{h} \sum_ {t = 1} ^ {h} \mathbb {E} \left[ R _ {t} \mid S _ {0}, A _ {0: t - 1} \sim \pi \right] (10.6) \\ = \lim  _ {t \rightarrow \infty} \mathbb {E} \left[ R _ {t} \mid S _ {0}, A _ {0: t - 1} \sim \pi \right], (10.7) \\ = \sum_ {s} \mu_ {\pi} (s) \sum_ {a} \pi (a | s) \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r | s, a\right) r, \\ \end{array}
+\begin{array}{l} r (\pi) \doteq \lim_{h \rightarrow \infty} \frac{1}{h} \sum_{t = 1} ^{h} \mathbb{E} \left[ R_{t} \mid S_{0}, A_{0: t - 1} \sim \pi \right] (10.6) \\ = \lim_{t \rightarrow \infty} \mathbb{E} \left[ R_{t} \mid S_{0}, A_{0: t - 1} \sim \pi \right], (10.7) \\ = \sum_{s} \mu_{\pi} (s) \sum_{a} \pi (a | s) \sum_{s^{\prime}, r} p \left(s^{\prime}, r | s, a\right) r, \\ \end{array}
 $$
 
 where the expectations are conditioned on the initial state,  $S_0$ , and on the subsequent actions,  $A_0, A_1, \ldots, A_{t-1}$ , being taken according to  $\pi$ . The second and third equations hold if the steady-state distribution,  $\mu_{\pi}(s) \doteq \lim_{t \to \infty} \operatorname*{Pr}\{S_t = s \mid A_{0:t-1} \sim \pi \}$ , exists and is independent of  $S_0$ , in other words, if the MDP is ergodic. In an ergodic MDP, the starting state and any early decision made by the agent can have only a temporary effect; in the long run the expectation of being in a state depends only on the policy and the MDP transition probabilities. Ergodicity is sufficient but not necessary to guarantee the existence of the limit in (10.6).
@@ -4666,31 +4472,31 @@ There are subtle distinctions that can be drawn between different kinds of optim
 Note that the steady state distribution  $\mu_{\pi}$  is the special distribution under which, if you select actions according to  $\pi$ , you remain in the same distribution. That is, for which
 
 $$
-\sum_ {s} \mu_ {\pi} (s) \sum_ {a} \pi (a | s) p \left(s ^ {\prime} \mid s, a\right) = \mu_ {\pi} \left(s ^ {\prime}\right). \tag {10.8}
+\sum_{s} \mu_{\pi} (s) \sum_{a} \pi (a | s) p \left(s^{\prime} \mid s, a\right) = \mu_{\pi} \left(s^{\prime}\right). \tag {10.8}
 $$
 
 In the average-reward setting, returns are defined in terms of differences between rewards and the average reward:
 
 $$
-G _ {t} \doteq R _ {t + 1} - r (\pi) + R _ {t + 2} - r (\pi) + R _ {t + 3} - r (\pi) + \dots . \tag {10.9}
+G_{t} \doteq R_{t + 1} - r (\pi) + R_{t + 2} - r (\pi) + R_{t + 3} - r (\pi) + \dots . \tag {10.9}
 $$
 
 This is known as the differential return, and the corresponding value functions are known as differential value functions. Differential value functions are defined in terms of the new return just as conventional value functions were defined in terms of the discounted return; thus we will use the same notation,  $v_{\pi}(s) \doteq \mathbb{E}_{\pi}[G_t|S_t = s]$  and  $q_{\pi}(s,a) \doteq \mathbb{E}_{\pi}[G_t|S_t = s,A_t = a]$  (similarly for  $v_{*}$  and  $q_{*}$ ), for differential value functions. Differential value functions also have Bellman equations, just slightly different from those we have seen earlier. We simply remove all  $\gamma$ s and replace all rewards by the difference between the reward and the true average reward:
 
 $$
-v _ {\pi} (s) = \sum_ {a} \pi (a | s) \sum_ {r, s ^ {\prime}} p \left(s ^ {\prime}, r | s, a\right) \left[ r - r (\pi) + v _ {\pi} \left(s ^ {\prime}\right) \right],
+v_{\pi} (s) = \sum_{a} \pi (a | s) \sum_{r, s^{\prime}} p \left(s^{\prime}, r | s, a\right) \left[ r - r (\pi) + v_{\pi} \left(s^{\prime}\right) \right],
 $$
 
 $$
-q _ {\pi} (s, a) = \sum_ {r, s ^ {\prime}} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r - r (\pi) + \sum_ {a ^ {\prime}} \pi \left(a ^ {\prime} \mid s ^ {\prime}\right) q _ {\pi} \left(s ^ {\prime}, a ^ {\prime}\right) \right],
+q_{\pi} (s, a) = \sum_{r, s^{\prime}} p \left(s^{\prime}, r \mid s, a\right) \left[ r - r (\pi) + \sum_{a^{\prime}} \pi \left(a^{\prime} \mid s^{\prime}\right) q_{\pi} \left(s^{\prime}, a^{\prime}\right) \right],
 $$
 
 $$
-v _ {*} (s) = \max  _ {a} \sum_ {r, s ^ {\prime}} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r - \max  _ {\pi} r (\pi) + v _ {*} \left(s ^ {\prime}\right) \right], \text {a n d}
+v_{*} (s) = \max_{a} \sum_{r, s^{\prime}} p \left(s^{\prime}, r \mid s, a\right) \left[ r - \max_{\pi} r (\pi) + v_{*} \left(s^{\prime}\right) \right], \text{and }
 $$
 
 $$
-q _ {*} (s, a) = \sum_ {r, s ^ {\prime}} p \left(s ^ {\prime}, r \mid s, a\right) \left[ r - \max  _ {\pi} r (\pi) + \max  _ {a ^ {\prime}} q _ {*} \left(s ^ {\prime}, a ^ {\prime}\right) \right]
+q_{*} (s, a) = \sum_{r, s^{\prime}} p \left(s^{\prime}, r \mid s, a\right) \left[ r - \max_{\pi} r (\pi) + \max_{a^{\prime}} q_{*} \left(s^{\prime}, a^{\prime}\right) \right]
 $$
 
 (cf. (3.14), Exercise 3.17, (3.19), and (3.20)).
@@ -4698,13 +4504,13 @@ $$
 There is also a differential form of the two TD errors:
 
 $$
-\delta_ {t} \doteq R _ {t + 1} - \bar {R} _ {t} + \hat {v} \left(S _ {t + 1}, \mathbf {w} _ {t}\right) - \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right), \tag {10.10}
+\delta_{t} \doteq R_{t + 1} - \bar{R}_{t} + \hat {v} \left(S_{t + 1}, \mathbf{w}_{t}\right) - \hat {v} \left(S_{t}, \mathbf{w}_{t}\right), \tag {10.10}
 $$
 
 and
 
 $$
-\delta_ {t} \doteq R _ {t + 1} - \bar {R} _ {t} + \hat {q} \left(S _ {t + 1}, A _ {t + 1}, \mathbf {w} _ {t}\right) - \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t}\right), \tag {10.11}
+\delta_{t} \doteq R_{t + 1} - \bar{R}_{t} + \hat {q} \left(S_{t + 1}, A_{t + 1}, \mathbf{w}_{t}\right) - \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t}\right), \tag {10.11}
 $$
 
 where  $\bar{R}_t$  is an estimate at time  $t$  of the average reward  $r(\pi)$ . With these alternate definitions, most of our algorithms and many theoretical results carry through to the average-reward setting without change.
@@ -4712,7 +4518,7 @@ where  $\bar{R}_t$  is an estimate at time  $t$  of the average reward  $r(\pi)$
 For example, an average reward version of semi-gradient Sarsa could be defined just as in (10.2) except with the differential version of the TD error. That is, by
 
 $$
-\mathbf {w} _ {t + 1} \doteq \mathbf {w} _ {t} + \alpha \delta_ {t} \nabla \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t}\right), \tag {10.12}
+\mathbf{w}_{t + 1} \doteq \mathbf{w}_{t} + \alpha \delta_{t} \nabla \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t}\right), \tag {10.12}
 $$
 
 with  $\delta_t$  given by (10.11). Pseudocode for a complete algorithm is given in the box on the next page. One limitation of this algorithm is that it does not converge to the differential values but to the differential values plus an arbitrary offset. Notice that the Bellman equations and TD errors given above are unaffected if all the values are shifted by the same amount. Thus, the offset may not matter in practice. How this algorithm could be changed to eliminate the offset is an interesting question for future research.
@@ -4736,29 +4542,29 @@ Take action  $A$ , observe  $R, S'$
 Choose  $A^{\prime}$  as a function of  $\hat{q} (S^{\prime},\cdot ,\mathbf{w})$  (e.g.,  $\varepsilon$  -greedy)
 
 $$
-\delta \leftarrow R - \bar {R} + \hat {q} (S ^ {\prime}, A ^ {\prime}, \mathbf {w}) - \hat {q} (S, A, \mathbf {w})
+\delta \leftarrow R - \bar{R} + \hat {q} (S^{\prime}, A^{\prime}, \mathbf{w}) - \hat {q} (S, A, \mathbf{w})
 $$
 
 $$
-\bar {R} \leftarrow \bar {R} + \beta \delta
+\bar{R} \leftarrow \bar{R} + \beta \delta
 $$
 
 $$
-\mathbf {w} \leftarrow \mathbf {w} + \alpha \delta \nabla \hat {q} (S, A, \mathbf {w})
+\mathbf{w} \leftarrow \mathbf{w} + \alpha \delta \nabla \hat {q} (S, A, \mathbf{w})
 $$
 
 $$
-S \gets S ^ {\prime}
+S \gets S^{\prime}
 $$
 
 $$
-A \leftarrow A ^ {\prime}
+A \leftarrow A^{\prime}
 $$
 
 Exercise 10.6 Suppose there is an MDP that under any policy produces the deterministic sequence of rewards  $+1, 0, +1, 0, +1, 0, \ldots$  going on forever. Technically, this violates ergodicity; there is no stationary limiting distribution  $\mu_{\pi}$  and the limit (10.7) does not exist. Nevertheless, the average reward (10.6) is well defined. What is it? Now consider two states in this MDP. From A, the reward sequence is exactly as described above, starting with a  $+1$ , whereas, from B, the reward sequence starts with a 0 and then continues with  $+1, 0, +1, 0, \ldots$ . We would like to compute the differential values of A and B. Unfortunately, the differential return (10.9) is not well defined when starting from these states as the implicit limit does not exist. To repair this, one could alternatively define the differential value of a state as
 
 $$
-v _ {\pi} (s) \doteq \lim  _ {\gamma \rightarrow 1} \lim  _ {h \rightarrow \infty} \sum_ {t = 0} ^ {h} \gamma^ {t} \left(\mathbb {E} _ {\pi} \left[ R _ {t + 1} \mid S _ {0} = s \right] - r (\pi)\right). \tag {10.13}
+v_{\pi} (s) \doteq \lim_{\gamma \rightarrow 1} \lim_{h \rightarrow \infty} \sum_{t = 0} ^{h} \gamma^{t} \left(\mathbb{E}_{\pi} \left[ R_{t + 1} \mid S_{0} = s \right] - r (\pi)\right). \tag {10.13}
 $$
 
 Under this definition, what are the differential values of states A and B?
@@ -4791,7 +4597,7 @@ The root cause of the difficulties with the discounted control setting is that w
 Perhaps discounting can be saved by choosing an objective that sums discounted values over the distribution with which states occur under the policy:
 
 $$
-\begin{array}{l} J (\pi) = \sum_ {s} \mu_ {\pi} (s) v _ {\pi} ^ {\gamma} (s) \quad \text {(w h e r e} v _ {\pi} ^ {\gamma} \text {i s t h e d i s c o u n t e d v a l u e f u n c t i o n)} \\ = \sum_ {s} \mu_ {\pi} (s) \sum_ {a} \pi (a | s) \sum_ {s ^ {\prime}} \sum_ {r} p \left(s ^ {\prime}, r \mid s, a\right) [ r + \gamma v _ {\pi} ^ {\gamma} \left(s ^ {\prime}\right) ] \quad (\text {B e l l m a n E q .}) \\ = r (\pi) + \sum_ {s} \mu_ {\pi} (s) \sum_ {a} \pi (a | s) \sum_ {s ^ {\prime}} \sum_ {r} p \left(s ^ {\prime}, r | s, a\right) \gamma v _ {\pi} ^ {\gamma} \left(s ^ {\prime}\right) \quad \text {(f r o m (1 0 . 7))} \\ = r (\pi) + \gamma \sum_ {s ^ {\prime}} v _ {\pi} ^ {\gamma} \left(s ^ {\prime}\right) \sum_ {s} \mu_ {\pi} (s) \sum_ {a} \pi (a | s) p \left(s ^ {\prime} \mid s, a\right) \quad \text {(f r o m (3 . 4))} \\ = r (\pi) + \gamma \sum_ {s ^ {\prime}} v _ {\pi} ^ {\gamma} \left(s ^ {\prime}\right) \mu_ {\pi} \left(s ^ {\prime}\right) \quad \text {(f r o m (1 0 . 8))} \\ = r (\pi) + \gamma J (\pi) \\ = r (\pi) + \gamma r (\pi) + \gamma^ {2} J (\pi) \\ = r (\pi) + \gamma r (\pi) + \gamma^ {2} r (\pi) + \gamma^ {3} r (\pi) + \dots \\ = \frac {1}{1 - \gamma} r (\pi). \\ \end{array}
+\begin{array}{l} J (\pi) = \sum_{s} \mu_{\pi} (s) v_{\pi} ^{\gamma} (s) \quad \text{(where} v_{\pi} ^{\gamma} \text{isthediscountedvaluefunction)} \\ = \sum_{s} \mu_{\pi} (s) \sum_{a} \pi (a | s) \sum_{s^{\prime}} \sum_{r} p \left(s^{\prime}, r \mid s, a\right) [ r + \gamma v_{\pi} ^{\gamma} \left(s^{\prime}\right) ] \quad (\text{Bellman Eq .}) \\ = r (\pi) + \sum_{s} \mu_{\pi} (s) \sum_{a} \pi (a | s) \sum_{s^{\prime}} \sum_{r} p \left(s^{\prime}, r | s, a\right) \gamma v_{\pi} ^{\gamma} \left(s^{\prime}\right) \quad \text{(from (10.7))} \\ = r (\pi) + \gamma \sum_{s^{\prime}} v_{\pi} ^{\gamma} \left(s^{\prime}\right) \sum_{s} \mu_{\pi} (s) \sum_{a} \pi (a | s) p \left(s^{\prime} \mid s, a\right) \quad \text{(from (3.4))} \\ = r (\pi) + \gamma \sum_{s^{\prime}} v_{\pi} ^{\gamma} \left(s^{\prime}\right) \mu_{\pi} \left(s^{\prime}\right) \quad \text{(from (10.8))} \\ = r (\pi) + \gamma J (\pi) \\ = r (\pi) + \gamma r (\pi) + \gamma^{2} J (\pi) \\ = r (\pi) + \gamma r (\pi) + \gamma^{2} r (\pi) + \gamma^{3} r (\pi) + \dots \\ = \frac{1}{1 - \gamma} r (\pi). \\ \end{array}
 $$
 
 The proposed discounted objective orders policies identically to the undiscounted (average reward) objective. The discount rate  $\gamma$  does not influence the ordering!
@@ -4805,13 +4611,13 @@ In fact, the lack of a policy improvement theorem is also a theoretical lacuna f
 In order to generalize to  $n$ -step bootstrapping, we need an  $n$ -step version of the TD error. We begin by generalizing the  $n$ -step return (7.4) to its differential form, with function approximation:
 
 $$
-G _ {t: t + n} \doteq R _ {t + 1} - \bar {R} _ {t + n - 1} + \dots + R _ {t + n} - \bar {R} _ {t + n - 1} + \hat {q} \left(S _ {t + n}, A _ {t + n}, \mathbf {w} _ {t + n - 1}\right), \tag {10.14}
+G_{t: t + n} \doteq R_{t + 1} - \bar{R}_{t + n - 1} + \dots + R_{t + n} - \bar{R}_{t + n - 1} + \hat {q} \left(S_{t + n}, A_{t + n}, \mathbf{w}_{t + n - 1}\right), \tag {10.14}
 $$
 
 where  $\bar{R}$  is an estimate of  $r(\pi)$ ,  $n\geq 1$ , and  $t + n < T$ . If  $t + n\geq T$ , then we define  $G_{t:t + n}\doteq G_t$  as usual. The  $n$ -step TD error is then
 
 $$
-\delta_ {t} \doteq G _ {t: t + n} - \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w}\right), \tag {10.15}
+\delta_{t} \doteq G_{t: t + n} - \hat {q} \left(S_{t}, A_{t}, \mathbf{w}\right), \tag {10.15}
 $$
 
 after which we can apply our usual semi-gradient Sarsa update (10.12). Pseudocode for the complete algorithm is given in the box.
@@ -4843,15 +4649,15 @@ $\tau \gets t - n + 1$  ( $\tau$  is the time whose estimate is being updated)
 If  $\tau \geq 0$ :
 
 $$
-\delta \leftarrow \sum_ {i = \tau + 1} ^ {\tau + n} \left(R _ {i} - \bar {R}\right) + \hat {q} \left(S _ {\tau + n}, A _ {\tau + n}, \mathbf {w}\right) - \hat {q} \left(S _ {\tau}, A _ {\tau}, \mathbf {w}\right)
+\delta \leftarrow \sum_{i = \tau + 1} ^{\tau + n} \left(R_{i} - \bar{R}\right) + \hat {q} \left(S_{\tau + n}, A_{\tau + n}, \mathbf{w}\right) - \hat {q} \left(S_{\tau}, A_{\tau}, \mathbf{w}\right)
 $$
 
 $$
-\bar {R} \leftarrow \bar {R} + \beta \delta
+\bar{R} \leftarrow \bar{R} + \beta \delta
 $$
 
 $$
-\mathbf {w} \leftarrow \mathbf {w} + \alpha \delta \nabla \hat {q} \left(S _ {\tau}, A _ {\tau}, \mathbf {w}\right)
+\mathbf{w} \leftarrow \mathbf{w} + \alpha \delta \nabla \hat {q} \left(S_{\tau}, A_{\tau}, \mathbf{w}\right)
 $$
 
 Exercise 10.9 In the differential semi-gradient  $n$ -step Sarsa algorithm, the step-size parameter on the average reward,  $\beta$ , needs to be quite small so that  $\bar{R}$  becomes a good long-term estimate of the average reward. Unfortunately,  $\bar{R}$  will then be biased by its initial value for many steps, which may make learning inefficient. Alternatively, one could use a sample average of the observed rewards for  $\bar{R}$ . That would initially adapt rapidly but in the long run would also adapt slowly. As the policy slowly changed,  $\bar{R}$  would also change; the potential for such long-term nonstationarity makes sample-average methods ill-suited. In fact, the step-size parameter on the average reward is a perfect place to use the unbiased constant-step-size trick from Exercise 2.7. Describe the specific changes needed to the boxed algorithm for differential semi-gradient  $n$ -step Sarsa to use this trick.
@@ -4890,37 +4696,37 @@ We begin by describing how the methods developed in earlier chapters for the off
 In Chapter 7 we described a variety of tabular off-policy algorithms. To convert them to semi-gradient form, we simply replace the update to an array  $(V$  or  $Q)$  to an update to a weight vector  $(\mathbf{w})$ , using the approximate value function  $(\hat{v}$  or  $\hat{q})$  and its gradient. Many of these algorithms use the per-step importance sampling ratio:
 
 $$
-\rho_ {t} \doteq \rho_ {t: t} = \frac {\pi \left(A _ {t} \mid S _ {t}\right)}{b \left(A _ {t} \mid S _ {t}\right)}. \tag {11.1}
+\rho_{t} \doteq \rho_{t: t} = \frac{\pi \left(A_{t} \mid S_{t}\right)}{b \left(A_{t} \mid S_{t}\right)}. \tag {11.1}
 $$
 
 For example, the one-step, state-value algorithm is semi-gradient off-policy TD(0), which is just like the corresponding on-policy algorithm (page 203) except for the addition of  $\rho_t$ :
 
 $$
-\mathbf {w} _ {t + 1} \doteq \mathbf {w} _ {t} + \alpha \rho_ {t} \delta_ {t} \nabla \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right), \tag {11.2}
+\mathbf{w}_{t + 1} \doteq \mathbf{w}_{t} + \alpha \rho_{t} \delta_{t} \nabla \hat {v} \left(S_{t}, \mathbf{w}_{t}\right), \tag {11.2}
 $$
 
 where  $\delta_t$  is defined appropriately depending on whether the problem is episodic and discounted, or continuing and undiscounted using average reward:
 
 $$
-\delta_ {t} \dot {=} R _ {t + 1} + \gamma \hat {v} \left(S _ {t + 1}, \mathbf {w} _ {t}\right) - \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right), \text {o r} \tag {11.3}
+\delta_{t} \dot {=} R_{t + 1} + \gamma \hat {v} \left(S_{t + 1}, \mathbf{w}_{t}\right) - \hat {v} \left(S_{t}, \mathbf{w}_{t}\right), \text{or} \tag {11.3}
 $$
 
 $$
-\delta_ {t} \doteq R _ {t + 1} - \bar {R} _ {t} + \hat {v} \left(S _ {t + 1}, \mathbf {w} _ {t}\right) - \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right). \tag {11.4}
+\delta_{t} \doteq R_{t + 1} - \bar{R}_{t} + \hat {v} \left(S_{t + 1}, \mathbf{w}_{t}\right) - \hat {v} \left(S_{t}, \mathbf{w}_{t}\right). \tag {11.4}
 $$
 
 For action values, the one-step algorithm is semi-gradient Expected Sarsa:
 
 $$
-\mathbf {w} _ {t + 1} \doteq \mathbf {w} _ {t} + \alpha \delta_ {t} \nabla \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t}\right), \text {w i t h} \tag {11.5}
+\mathbf{w}_{t + 1} \doteq \mathbf{w}_{t} + \alpha \delta_{t} \nabla \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t}\right), \text{with } \tag {11.5}
 $$
 
 $$
-\delta_ {t} \doteq R _ {t + 1} + \gamma \sum_ {a} \pi (a | S _ {t + 1}) \hat {q} (S _ {t + 1}, a, \mathbf {w} _ {t}) - \hat {q} (S _ {t}, A _ {t}, \mathbf {w} _ {t}), \text {o r} \tag {episodic}
+\delta_{t} \doteq R_{t + 1} + \gamma \sum_{a} \pi (a | S_{t + 1}) \hat {q} (S_{t + 1}, a, \mathbf{w}_{t}) - \hat {q} (S_{t}, A_{t}, \mathbf{w}_{t}), \text{or} \tag {episodic}
 $$
 
 $$
-\delta_ {t} \doteq R _ {t + 1} - \bar {R} _ {t} + \sum_ {a} \pi (a | S _ {t + 1}) \hat {q} \big (S _ {t + 1}, a, \mathbf {w} _ {t} \big) - \hat {q} \big (S _ {t}, A _ {t}, \mathbf {w} _ {t} \big). \quad \mathrm {(c o n t i n u i n g)}
+\delta_{t} \doteq R_{t + 1} - \bar{R}_{t} + \sum_{a} \pi (a | S_{t + 1}) \hat {q} \big (S_{t + 1}, a, \mathbf{w}_{t} \big) - \hat {q} \big (S_{t}, A_{t}, \mathbf{w}_{t} \big). \quad \mathrm{(continuing)}
 $$
 
 Note that this algorithm does not use importance sampling. In the tabular case it is clear that this is appropriate because the only sample action is  $A_{t}$ , and in learning its value we do not have to consider any other actions. With function approximation it is less clear because we might want to weight different state-action pairs differently once they all contribute to the same overall approximation. Proper resolution of this issue awaits a more thorough understanding of the theory of function approximation in reinforcement learning.
@@ -4928,17 +4734,17 @@ Note that this algorithm does not use importance sampling. In the tabular case i
 In the multi-step generalizations of these algorithms, both the state-value and action-value algorithms involve importance sampling. The  $n$ -step version of semi-gradient Sarsa is
 
 $$
-\mathbf {w} _ {t + n} \doteq \mathbf {w} _ {t + n - 1} + \alpha \rho_ {t + 1} \dots \rho_ {t + n} \left[ G _ {t: t + n} - \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t + n - 1}\right) \right] \nabla \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t + n - 1}\right) \tag {11.6}
+\mathbf{w}_{t + n} \doteq \mathbf{w}_{t + n - 1} + \alpha \rho_{t + 1} \dots \rho_{t + n} \left[ G_{t: t + n} - \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t + n - 1}\right) \right] \nabla \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t + n - 1}\right) \tag {11.6}
 $$
 
 with
 
 $$
-G _ {t: t + n} \doteq R _ {t + 1} + \dots + \gamma^ {n - 1} R _ {t + n} + \gamma^ {n} \hat {q} \left(S _ {t + n}, A _ {t + n}, \mathbf {w} _ {t + n - 1}\right), \text {o r} \tag {episodic}
+G_{t: t + n} \doteq R_{t + 1} + \dots + \gamma^{n - 1} R_{t + n} + \gamma^{n} \hat {q} \left(S_{t + n}, A_{t + n}, \mathbf{w}_{t + n - 1}\right), \text{or} \tag {episodic}
 $$
 
 $$
-G _ {t: t + n} \doteq R _ {t + 1} - \bar {R} _ {t} + \dots + R _ {t + n} - \bar {R} _ {t + n - 1} + \hat {q} (S _ {t + n}, A _ {t + n}, \mathbf {w} _ {t + n - 1}), (\mathrm {c o n t i n u i n g})
+G_{t: t + n} \doteq R_{t + 1} - \bar{R}_{t} + \dots + R_{t + n} - \bar{R}_{t + n - 1} + \hat {q} (S_{t + n}, A_{t + n}, \mathbf{w}_{t + n - 1}), (\mathrm{continuing})
 $$
 
 where here we are being slightly informal in our treatment of the ends of episodes. In the first equation, the  $\rho_{k}$ s for  $k\geq T$  (where  $T$  is the last time step of the episode) should be taken to be 1, and  $G_{t:t + n}$  should be taken to be  $G_{t}$  if  $t + n\geq T$ .
@@ -4946,11 +4752,11 @@ where here we are being slightly informal in our treatment of the ends of episod
 Recall that we also presented in Chapter 7 an off-policy algorithm that does not involve importance sampling at all: the  $n$ -step tree-backup algorithm. Here is its semi-gradient version:
 
 $$
-\mathbf {w} _ {t + n} \doteq \mathbf {w} _ {t + n - 1} + \alpha \left[ G _ {t: t + n} - \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t + n - 1}\right) \right] \nabla \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t + n - 1}\right), \tag {11.7}
+\mathbf{w}_{t + n} \doteq \mathbf{w}_{t + n - 1} + \alpha \left[ G_{t: t + n} - \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t + n - 1}\right) \right] \nabla \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t + n - 1}\right), \tag {11.7}
 $$
 
 $$
-G _ {t: t + n} \doteq \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t + n - 1}\right) + \sum_ {k = t} ^ {t + n - 1} \delta_ {k} \prod_ {i = t + 1} ^ {k} \gamma \pi \left(A _ {i} \mid S _ {i}\right), \tag {11.8}
+G_{t: t + n} \doteq \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t + n - 1}\right) + \sum_{k = t} ^{t + n - 1} \delta_{k} \prod_{i = t + 1} ^{k} \gamma \pi \left(A_{i} \mid S_{i}\right), \tag {11.8}
 $$
 
 with  $\delta_t$  as defined at the top of this page for Expected Sarsa. We also defined in Chapter 7 an algorithm that unifies all action-value algorithms:  $n$ -step  $Q(\sigma)$ . We leave the semigroup form of that algorithm, and also of the  $n$ -step state-value algorithm, as exercises for the reader.
@@ -4974,13 +4780,13 @@ Suppose initially  $w = 10$ . The transition will then be from a state of estima
 To see this definitively we have to look more carefully at the sequence of updates. The TD error on a transition between the two states is
 
 $$
-\delta_ {t} = R _ {t + 1} + \gamma \hat {v} (S _ {t + 1}, \mathbf {w} _ {t}) - \hat {v} (S _ {t}, \mathbf {w} _ {t}) = 0 + \gamma 2 w _ {t} - w _ {t} = (2 \gamma - 1) w _ {t},
+\delta_{t} = R_{t + 1} + \gamma \hat {v} (S_{t + 1}, \mathbf{w}_{t}) - \hat {v} (S_{t}, \mathbf{w}_{t}) = 0 + \gamma 2 w_{t} - w_{t} = (2 \gamma - 1) w_{t},
 $$
 
 and the off-policy semi-gradient TD(0) update (from (11.2)) is
 
 $$
-w _ {t + 1} = w _ {t} + \alpha \rho_ {t} \delta_ {t} \nabla \hat {v} (S _ {t}, w _ {t}) = w _ {t} + \alpha \cdot 1 \cdot (2 \gamma - 1) w _ {t} \cdot 1 = (1 + \alpha (2 \gamma - 1)) w _ {t}.
+w_{t + 1} = w_{t} + \alpha \rho_{t} \delta_{t} \nabla \hat {v} (S_{t}, w_{t}) = w_{t} + \alpha \cdot 1 \cdot (2 \gamma - 1) w_{t} \cdot 1 = (1 + \alpha (2 \gamma - 1)) w_{t}.
 $$
 
 Note that the importance sampling ratio,  $\rho_{t}$ , is 1 on this transition because there is only one action available from the first state, so its probabilities of being taken under the target and behavior policies must both be 1. In the final update above, the new parameter is the old parameter times a scalar constant,  $1 + \alpha (2\gamma - 1)$ . If this constant is greater than 1, then the system is unstable and  $w$  will go to positive or negative infinity depending on its initial value. Here this constant is greater than 1 whenever  $\gamma > 0.5$ . Note that stability does not depend on the specific step size, as long as  $\alpha > 0$ . Smaller or larger step sizes would affect the rate at which  $w$  goes to infinity, but not whether it goes there or not.
@@ -5001,7 +4807,7 @@ overall weight vector  $\mathbf{w} \in \mathbb{R}^8$ ; this corresponds to a fea
 If we apply semi-gradient TD(0) to this problem (11.2), then the weights diverge to infinity, as shown in Figure 11.2 (left). The instability occurs for any positive step size, no matter how small. In fact, it even occurs if an expected update is done as in dynamic programming (DP), as shown in Figure 11.2 (right). That is, if the weight vector,  $\mathbf{w}_k$ , is updated for all states at the same time in a semi-gradient way, using the DP (expectation-based) target:
 
 $$
-\mathbf {w} _ {k + 1} \doteq \mathbf {w} _ {k} + \frac {\alpha}{| \mathcal {S} |} \sum_ {s} \left(\mathbb {E} _ {\pi} \left[ R _ {t + 1} + \gamma \hat {v} \left(S _ {t + 1}, \mathbf {w} _ {k}\right) \mid S _ {t} = s \right] - \hat {v} (s, \mathbf {w} _ {k})\right) \nabla \hat {v} (s, \mathbf {w} _ {k}). \tag {11.9}
+\mathbf{w}_{k + 1} \doteq \mathbf{w}_{k} + \frac{\alpha}{| \mathcal{S} |} \sum_{s} \left(\mathbb{E}_{\pi} \left[ R_{t + 1} + \gamma \hat {v} \left(S_{t + 1}, \mathbf{w}_{k}\right) \mid S_{t} = s \right] - \hat {v} (s, \mathbf{w}_{k})\right) \nabla \hat {v} (s, \mathbf{w}_{k}). \tag {11.9}
 $$
 
 In this case, there is no randomness and no asynchrony, just as in a classical DP update. The method is conventional except in its use of semi-gradient function approximation. Yet still the system is unstable.
@@ -5026,7 +4832,7 @@ solution was found at each step. The counterexample is formed by extending the  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-27/49679741-8fd3-4cf0-866b-8d1b426c0b71/f4db198c575d74bb9a9311d6a10216a64a03ded23b072f67f3ce223f9253176d.jpg)
 
 $$
-\begin{array}{l} w _ {k + 1} = \underset {w \in \mathbb {R}} {\arg \min } \sum_ {s \in \mathcal {S}} \left(\hat {v} (s, w) - \mathbb {E} _ {\pi} \left[ R _ {t + 1} + \gamma \hat {v} \left(S _ {t + 1}, w _ {k}\right) \mid S _ {t} = s \right]\right) ^ {2} \\ = \underset {w \in \mathbb {R}} {\operatorname {a r g m i n}} \left(w - \gamma 2 w _ {k}\right) ^ {2} + \left(2 w - (1 - \varepsilon) \gamma 2 w _ {k}\right) ^ {2} \\ = \frac {6 - 4 \varepsilon}{5} \gamma w _ {k}. \tag {11.10} \\ \end{array}
+\begin{array}{l} w_{k + 1} = \underset{w \in \mathbb{R}} {\arg \min } \sum_{s \in \mathcal{S}} \left(\hat {v} (s, w) - \mathbb{E}_{\pi} \left[ R_{t + 1} + \gamma \hat {v} \left(S_{t + 1}, w_{k}\right) \mid S_{t} = s \right]\right)^{2} \\ = \underset{w \in \mathbb{R}} {\operatorname{argmin}} \left(w - \gamma 2 w_{k}\right)^{2} + \left(2 w - (1 - \varepsilon) \gamma 2 w_{k}\right)^{2} \\ = \frac{6 - 4 \varepsilon}{5} \gamma w_{k}. \tag {11.10} \\ \end{array}
 $$
 
 The sequence  $\{w_k\}$  diverges when  $\gamma > \frac{5}{6 - 4\varepsilon}$  and  $w_0 \neq 0$ .
@@ -5074,7 +4880,7 @@ Now consider a single fixed policy  $\pi$ . We assume that its true value functi
 If  $v_{\pi}$  cannot be represented exactly, what representable value function is closest to it? This turns out to be a subtle question with multiple answers. To begin, we need a measure of the distance between two value functions. Given two value functions  $v_{1}$  and  $v_{2}$ , we can talk about the vector difference between them,  $v = v_{1} - v_{2}$ . If  $v$  is small, then the two value functions are close to each other. But how are we to measure the size of this difference vector? The conventional Euclidean norm is not appropriate because, as discussed in Section 9.2, some states are more important than others because they occur more frequently or because we are more interested in them (Section 9.11). As in Section 9.2, let us use the distribution  $\mu : \mathbb{S} \to [0,1]$  to specify the degree to which we care about different states being accurately valued (often taken to be the on-policy distribution). We can then define the distance between value functions using the norm
 
 $$
-\| v \| _ {\mu} ^ {2} \doteq \sum_ {s \in \mathcal {S}} \mu (s) v (s) ^ {2}. \tag {11.11}
+\| v \| _{\mu} ^{2} \doteq \sum_{s \in \mathcal{S}} \mu (s) v (s)^{2}. \tag {11.11}
 $$
 
 Note that the  $\overline{\mathrm{VE}}$  from Section 9.2 can be written simply using this norm as  $\overline{\mathrm{VE}}(\mathbf{w}) = \| v_{\mathbf{w}} - v_{\pi} \|_{\mu}^2$ . For any value function  $v$ , the operation of finding its closest value function in the subspace of representable value functions is a projection operation. We define a
@@ -5085,7 +4891,7 @@ Figure 11.3: The geometry of linear value-function approximation. Shown is the t
 projection operator  $\Pi$  that takes an arbitrary value function to the representable function that is closest in our norm:
 
 $$
-\Pi v \doteq v _ {\mathbf {w}} \text {w h e r e} \mathbf {w} = \underset {\mathbf {w} \in \mathbb {R} ^ {d}} {\arg \min } \| v - v _ {\mathbf {w}} \| _ {\mu} ^ {2}. \tag {11.12}
+\Pi v \doteq v_{\mathbf{w}} \text{where} \mathbf{w} = \underset{\mathbf{w} \in \mathbb{R} ^{d}} {\arg \min } \| v - v_{\mathbf{w}} \| _{\mu} ^{2}. \tag {11.12}
 $$
 
 The representable value function that is closest to the true value function  $v_{\pi}$  is thus its projection,  $\Pi v_{\pi}$ , as suggested in Figure 11.3. This is the solution asymptotically found by Monte Carlo methods, albeit often very slowly. The projection operation is discussed more fully in the box on the next page.
@@ -5093,7 +4899,7 @@ The representable value function that is closest to the true value function  $v_
 TD methods find different solutions. To understand their rationale, recall that the Bellman equation for value function  $v_{\pi}$  is
 
 $$
-v _ {\pi} (s) = \sum_ {a} \pi (a | s) \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) [ r + \gamma v _ {\pi} \left(s ^ {\prime}\right) ], \quad \text {f o r a l l} s \in \mathcal {S}. \tag {11.16}
+v_{\pi} (s) = \sum_{a} \pi (a | s) \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) [ r + \gamma v_{\pi} \left(s^{\prime}\right) ], \quad \text{for all} s \in \mathcal{S}. \tag {11.16}
 $$
 
 # The projection matrix
@@ -5101,25 +4907,25 @@ $$
 For a linear function approximator, the projection operation is linear, which implies that it can be represented as an  $|\mathcal{S}| \times |\mathcal{S}|$  matrix:
 
 $$
-\Pi \doteq \mathbf {X} \left(\mathbf {X} ^ {\top} \mathbf {D} \mathbf {X}\right) ^ {- 1} \mathbf {X} ^ {\top} \mathbf {D}, \tag {11.13}
+\Pi \doteq \mathbf{X} \left(\mathbf{X} ^{\top} \mathbf{D} \mathbf{X}\right)^{- 1} \mathbf{X} ^{\top} \mathbf{D}, \tag {11.13}
 $$
 
 where, as in Section 9.4,  $\mathbf{D}$  denotes the  $|\mathcal{S}| \times |\mathcal{S}|$  diagonal matrix with the  $\mu(s)$  on the diagonal, and  $\mathbf{X}$  denotes the  $|\mathcal{S}| \times d$  matrix whose rows are the feature vectors  $\mathbf{x}(s)^{\top}$ , one for each state  $s$ . If the inverse in (11.13) does not exist, then the pseudoinverse is substituted. Using these matrices, the squared norm of a vector can be written
 
 $$
-\left\| v \right\| _ {\mu} ^ {2} = v ^ {\top} \mathbf {D} v, \tag {11.14}
+\left\| v \right\| _{\mu} ^{2} = v^{\top} \mathbf{D} v, \tag {11.14}
 $$
 
 and the approximate linear value function can be written
 
 $$
-v _ {\mathbf {w}} = \mathbf {X} \mathbf {w}. \tag {11.15}
+v_{\mathbf{w}} = \mathbf{X} \mathbf{w}. \tag {11.15}
 $$
 
 The true value function  $v_{\pi}$  is the only value function that solves (11.16) exactly. If an approximate value function  $v_{\mathbf{w}}$  were substituted for  $v_{\pi}$ , the difference between the right and left sides of the modified equation could be used as a measure of how far off  $v_{\mathbf{w}}$  is from  $v_{\pi}$ . We call this the Bellman error at state  $s$ :
 
 $$
-\begin{array}{l} \bar {\delta} _ {\mathbf {w}} (s) \doteq \left(\sum_ {a} \pi (a | s) \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) [ r + \gamma v _ {\mathbf {w}} \left(s ^ {\prime}\right) ]\right) - v _ {\mathbf {w}} (s) (11.17) \\ = \mathbb {E} _ {\pi} \left[ R _ {t + 1} + \gamma v _ {\mathbf {w}} \left(S _ {t + 1}\right) - v _ {\mathbf {w}} \left(S _ {t}\right) \mid S _ {t} = s, A _ {t} \sim \pi \right], (11.18) \\ \end{array}
+\begin{array}{l} \bar{\delta}_{\mathbf{w}} (s) \doteq \left(\sum_{a} \pi (a | s) \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) [ r + \gamma v_{\mathbf{w}} \left(s^{\prime}\right) ]\right) - v_{\mathbf{w}} (s) (11.17) \\ = \mathbb{E}_{\pi} \left[ R_{t + 1} + \gamma v_{\mathbf{w}} \left(S_{t + 1}\right) - v_{\mathbf{w}} \left(S_{t}\right) \mid S_{t} = s, A_{t} \sim \pi \right], (11.18) \\ \end{array}
 $$
 
 which shows clearly the relationship of the Bellman error to the TD error (11.3). The Bellman error is the expectation of the TD error.
@@ -5127,7 +4933,7 @@ which shows clearly the relationship of the Bellman error to the TD error (11.3)
 The vector of all the Bellman errors, at all states,  $\bar{\delta}_{\mathbf{w}} \in \mathbb{R}^{|S|}$ , is called the Bellman error vector (shown as BE in Figure 11.3). The overall size of this vector, in the norm, is an overall measure of the error in the value function, called the mean square Bellman error:
 
 $$
-\overline {{\mathrm {B E}}} (\mathbf {w}) = \left\| \bar {\delta} _ {\mathbf {w}} \right\| _ {\mu} ^ {2}. \tag {11.19}
+\overline{{\mathrm{BE}}} (\mathbf{w}) = \left\| \bar{\delta}_{\mathbf{w}} \right\| _{\mu} ^{2}. \tag {11.19}
 $$
 
 It is not possible in general to reduce the  $\overline{\mathrm{BE}}$  to zero (at which point  $v_{\mathbf{w}} = v_{\pi}$ ), but for linear function approximation there is a unique value of  $\mathbf{w}$  for which the  $\overline{\mathrm{BE}}$  is minimized. This point in the representable-function subspace (labeled min  $\overline{\mathrm{BE}}$  in Figure 11.3) is different in general from that which minimizes the  $\overline{\mathrm{VE}}$  (shown as  $\Pi v_{\pi}$ ). Methods that seek to minimize the  $\overline{\mathrm{BE}}$  are discussed in the next two sections.
@@ -5137,7 +4943,7 @@ The Bellman error vector is shown in Figure 11.3 as the result of applying the B
 defined by
 
 $$
-\left(B _ {\pi} v\right) (s) \doteq \sum_ {a} \pi (a | s) \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) [ r + \gamma v \left(s ^ {\prime}\right) ], \tag {11.20}
+\left(B_{\pi} v\right) (s) \doteq \sum_{a} \pi (a | s) \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) [ r + \gamma v \left(s^{\prime}\right) ], \tag {11.20}
 $$
 
 for all  $s \in \mathbb{S}$ ,  $v: \mathbb{S} \to \mathbb{R}$ . The Bellman error vector for  $v_{\mathbf{w}}$  can be written  $\bar{\delta}_{\mathbf{w}} = B_{\pi}v_{\mathbf{w}} - v_{\mathbf{w}}$ .
@@ -5145,7 +4951,7 @@ for all  $s \in \mathbb{S}$ ,  $v: \mathbb{S} \to \mathbb{R}$ . The Bellman erro
 If the Bellman operator is applied to a value function in the representable subspace, then, in general, it will produce a new value function that is outside the subspace, as suggested in the figure. In dynamic programming (without function approximation), this operator is applied repeatedly to the points outside the representable space, as suggested by the gray arrows in the top of Figure 11.3. Eventually that process converges to the true value function  $v_{\pi}$ , the only fixed point for the Bellman operator, the only value function for which
 
 $$
-v _ {\pi} = B _ {\pi} v _ {\pi}, \tag {11.21}
+v_{\pi} = B_{\pi} v_{\pi}, \tag {11.21}
 $$
 
 which is just another way of writing the Bellman equation for  $\pi$  (11.16).
@@ -5155,7 +4961,7 @@ With function approximation, however, the intermediate value functions lying out
 In this case we are interested in the projection of the Bellman error vector back into the representable space. This is the projected Bellman error vector  $\Pi \bar{\delta}_{\mathbf{w}}$ , shown in Figure 11.3 as PBE. The size of this vector, in the norm, is another measure of error in the approximate value function. For any approximate value function  $v_{\mathbf{w}}$ , we define the mean square Projected Bellman error, denoted  $\overline{\mathrm{PBE}}$ , as
 
 $$
-\overline {{\mathrm {P B E}}} (\mathbf {w}) = \left\| \Pi \bar {\delta} _ {\mathbf {w}} \right\| _ {\mu} ^ {2}. \tag {11.22}
+\overline{{\mathrm{PBE}}} (\mathbf{w}) = \left\| \Pi \bar{\delta}_{\mathbf{w}} \right\| _{\mu} ^{2}. \tag {11.22}
 $$
 
 With linear function approximation there always exists an approximate value function (within the subspace) with zero  $\overline{\mathrm{PBE}}$ ; this is the TD fixed point,  $\mathbf{w}_{\mathrm{TD}}$ , introduced in Section 9.4. As we have seen, this point is not always stable under semi-gradient TD methods and off-policy training. As shown in the figure, this value function is generally different from those minimizing  $\overline{\mathrm{VE}}$  or  $\overline{\mathrm{BE}}$ . Methods that are guaranteed to converge to it are discussed in Sections 11.7 and 11.8.
@@ -5171,19 +4977,19 @@ The appeal of SGD is so strong that great effort has gone into finding a practic
 To begin, let us consider not the Bellman error, but something more immediate and naive. Temporal difference learning is driven by the TD error. Why not take the minimization of the expected square of the TD error as the objective? In the general function-approximation case, the one-step TD error with discounting is
 
 $$
-\delta_ {t} = R _ {t + 1} + \gamma \hat {v} (S _ {t + 1}, \mathbf {w} _ {t}) - \hat {v} (S _ {t}, \mathbf {w} _ {t}).
+\delta_{t} = R_{t + 1} + \gamma \hat {v} (S_{t + 1}, \mathbf{w}_{t}) - \hat {v} (S_{t}, \mathbf{w}_{t}).
 $$
 
 A possible objective function then is what one might call the mean square  $TD$  error:
 
 $$
-\begin{array}{l} \overline {{\mathrm {T D E}}} (\mathbf {w}) = \sum_ {s \in \mathcal {S}} \mu (s) \mathbb {E} \left[ \delta_ {t} ^ {2} \mid S _ {t} = s, A _ {t} \sim \pi \right] \\ = \sum_ {s \in \mathbb {S}} \mu (s) \mathbb {E} \left[ \rho_ {t} \delta_ {t} ^ {2} \mid S _ {t} = s, A _ {t} \sim b \right] \\ = \mathbb {E} _ {b} \left[ \rho_ {t} \delta_ {t} ^ {2} \right]. \quad (\text {i f} \mu \text {i s t h e d i s t r i b u t i o n e n c o u n t e r e d u n d e r} b) \\ \end{array}
+\begin{array}{l} \overline{{\mathrm{TDE}}} (\mathbf{w}) = \sum_{s \in \mathcal{S}} \mu (s) \mathbb{E} \left[ \delta_{t} ^{2} \mid S_{t} = s, A_{t} \sim \pi \right] \\ = \sum_{s \in \mathbb{S}} \mu (s) \mathbb{E} \left[ \rho_{t} \delta_{t} ^{2} \mid S_{t} = s, A_{t} \sim b \right] \\ = \mathbb{E}_{b} \left[ \rho_{t} \delta_{t} ^{2} \right]. \quad (\text{if} \mu \text{isthedistributionencounteredunder} b) \\ \end{array}
 $$
 
 The last equation is of the form needed for SGD; it gives the objective as an expectation that can be sampled from experience (remember the experience is due to the behavior policy  $b$ ). Thus, following the standard SGD approach, one can derive the per-step update based on a sample of this expected value:
 
 $$
-\begin{array}{l} \mathbf {w} _ {t + 1} = \mathbf {w} _ {t} - \frac {1}{2} \alpha \nabla \left(\rho_ {t} \delta_ {t} ^ {2}\right) \\ = \mathbf {w} _ {t} - \alpha \rho_ {t} \delta_ {t} \nabla \delta_ {t} \\ = \mathbf {w} _ {t} + \alpha \rho_ {t} \delta_ {t} \left(\nabla \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right) - \gamma \nabla \hat {v} \left(S _ {t + 1}, \mathbf {w} _ {t}\right)\right), \tag {11.23} \\ \end{array}
+\begin{array}{l} \mathbf{w}_{t + 1} = \mathbf{w}_{t} - \frac{1}{2} \alpha \nabla \left(\rho_{t} \delta_{t} ^{2}\right) \\ = \mathbf{w}_{t} - \alpha \rho_{t} \delta_{t} \nabla \delta_{t} \\ = \mathbf{w}_{t} + \alpha \rho_{t} \delta_{t} \left(\nabla \hat {v} \left(S_{t}, \mathbf{w}_{t}\right) - \gamma \nabla \hat {v} \left(S_{t + 1}, \mathbf{w}_{t}\right)\right), \tag {11.23} \\ \end{array}
 $$
 
 which you will recognize as the same as the semi-gradient TD algorithm (11.2) except for the additional final term. This term completes the gradient and makes this a true SGD algorithm with excellent convergence guarantees. Let us call this algorithm the naive
@@ -5211,7 +5017,7 @@ A tabular representation is used in the A-split example, so the true state value
 A better idea would seem to be minimizing the mean square Bellman error  $(\overline{\mathrm{BE}})$ . If the exact values are learned, the Bellman error is zero everywhere. Thus, a Bellman-error-minimizing algorithm should have no trouble with the A-split example. We cannot expect to achieve zero Bellman error in general, as it would involve finding the true value function, which we presume is outside the space of representable value functions. But getting close to this ideal is a natural-seeming goal. As we have seen, the Bellman error is also closely related to the TD error. The Bellman error for a state is the expected TD error in that state. So let's repeat the derivation above with the expected TD error (all expectations here are implicitly conditional on  $S_{t}$ ):
 
 $$
-\begin{array}{l} \mathbf {w} _ {t + 1} = \mathbf {w} _ {t} - \frac {1}{2} \alpha \nabla \left(\mathbb {E} _ {\pi} [ \delta_ {t} ] ^ {2}\right) \\ \mathbf {\alpha} = \mathbf {w} _ {t} - \frac {1}{2} \alpha \nabla (\mathbb {E} _ {b} [ \rho_ {t} \delta_ {t} ] ^ {2}) \\ = \mathbf {w} _ {t} - \alpha \mathbb {E} _ {b} [ \rho_ {t} \delta_ {t} ] \nabla \mathbb {E} _ {b} [ \rho_ {t} \delta_ {t} ] \\ = \mathbf {w} _ {t} - \alpha \mathbb {E} _ {b} \left[ \rho_ {t} \left(R _ {t + 1} + \gamma \hat {v} \left(S _ {t + 1}, \mathbf {w}\right) - \hat {v} \left(S _ {t}, \mathbf {w}\right)\right) \right] \mathbb {E} _ {b} \left[ \rho_ {t} \nabla \delta_ {t} \right] \\ = \mathbf {w} _ {t} + \alpha \Big [ \mathbb {E} _ {b} \big [ \rho_ {t} (R _ {t + 1} + \gamma \hat {v} (S _ {t + 1}, \mathbf {w})) \big ] - \hat {v} (S _ {t}, \mathbf {w}) \Big ] \Big [ \nabla \hat {v} (S _ {t}, \mathbf {w}) - \gamma \mathbb {E} _ {b} \big [ \rho_ {t} \nabla \hat {v} (S _ {t + 1}, \mathbf {w}) \big ] \Big ]. \\ \end{array}
+\begin{array}{l} \mathbf{w}_{t + 1} = \mathbf{w}_{t} - \frac{1}{2} \alpha \nabla \left(\mathbb{E}_{\pi} [ \delta_{t} ] ^{2}\right) \\ \mathbf{\alpha} = \mathbf{w}_{t} - \frac{1}{2} \alpha \nabla (\mathbb{E}_{b} [ \rho_{t} \delta_{t} ] ^{2}) \\ = \mathbf{w}_{t} - \alpha \mathbb{E}_{b} [ \rho_{t} \delta_{t} ] \nabla \mathbb{E}_{b} [ \rho_{t} \delta_{t} ] \\ = \mathbf{w}_{t} - \alpha \mathbb{E}_{b} \left[ \rho_{t} \left(R_{t + 1} + \gamma \hat {v} \left(S_{t + 1}, \mathbf{w}\right) - \hat {v} \left(S_{t}, \mathbf{w}\right)\right) \right] \mathbb{E}_{b} \left[ \rho_{t} \nabla \delta_{t} \right] \\ = \mathbf{w}_{t} + \alpha \Big [ \mathbb{E}_{b} \big [ \rho_{t} (R_{t + 1} + \gamma \hat {v} (S_{t + 1}, \mathbf{w})) \big ] - \hat {v} (S_{t}, \mathbf{w}) \Big ] \Big [ \nabla \hat {v} (S_{t}, \mathbf{w}) - \gamma \mathbb{E}_{b} \big [ \rho_{t} \nabla \hat {v} (S_{t + 1}, \mathbf{w}) \big ] \Big ]. \\ \end{array}
 $$
 
 This update and various ways of sampling it are referred to as the residual-gradient algorithm. If you simply used the sample values in all the expectations, then the equation above reduces almost exactly to (11.23), the naive residual-gradient algorithm.<sup>1</sup> But this is naive, because the equation above involves the next state,  $S_{t+1}$ , appearing in two expectations that are multiplied together. To get an unbiased sample of the product, two independent samples of the next state are required, but during normal interaction with an external environment only one is obtained. One expectation or the other can be sampled, but not both.
@@ -5259,7 +5065,7 @@ If an objective cannot be learned, it does indeed draw its utility into question
 To understand this, it is useful to bring in another natural objective function, this time one that is clearly learnable. One error that is always observable is that between the value estimate at each time and the return from that time. The mean square return error, denoted  $\overline{\mathrm{RE}}$ , is the expectation, under  $\mu$ , of the square of this error. In the on-policy case the  $\overline{\mathrm{RE}}$  can be written
 
 $$
-\begin{array}{l} \overline {{\mathrm {R E}}} (\mathbf {w}) = \mathbb {E} \left[ \left(G _ {t} - \hat {v} (S _ {t}, \mathbf {w})\right) ^ {2} \right] \\ = \overline {{\mathrm {V E}}} (\mathbf {w}) + \mathbb {E} \left[ \left(G _ {t} - v _ {\pi} (S _ {t})\right) ^ {2} \right]. \tag {11.24} \\ \end{array}
+\begin{array}{l} \overline{{\mathrm{RE}}} (\mathbf{w}) = \mathbb{E} \left[ \left(G_{t} - \hat {v} (S_{t}, \mathbf{w})\right)^{2} \right] \\ = \overline{{\mathrm{VE}}} (\mathbf{w}) + \mathbb{E} \left[ \left(G_{t} - v_{\pi} (S_{t})\right)^{2} \right]. \tag {11.24} \\ \end{array}
 $$
 
 Thus, the two objectives are the same except for a variance term that does not depend on the parameter vector. The two objectives must therefore have the same optimal parameter value  $\mathbf{w}^*$ . The overall relationships are summarized in the left side of Figure 11.4.
@@ -5302,43 +5108,43 @@ We now consider SGD methods for minimizing the  $\overline{\mathrm{PBE}}$ . As t
 To derive an SGD method for the PBE (assuming linear function approximation) we begin by expanding and rewriting the objective (11.22) in matrix terms:
 
 $$
-\begin{array}{l} \overline {{\mathrm {P B E}}} (\mathbf {w}) = \left\| \Pi \bar {\delta} _ {\mathbf {w}} \right\| _ {\mu} ^ {2} \\ = \left(\Pi \bar {\delta} _ {\mathbf {w}}\right) ^ {\top} \mathbf {D} \Pi \bar {\delta} _ {\mathbf {w}} \quad (\text {f r o m (1 1 . 1 4)}) \\ = \bar {\delta} _ {\mathbf {w}} ^ {\top} \Pi^ {\top} \mathbf {D} \Pi \bar {\delta} _ {\mathbf {w}} \\ = \bar {\delta} _ {\mathbf {w}} ^ {\top} \mathbf {D} \mathbf {X} \left(\mathbf {X} ^ {\top} \mathbf {D} \mathbf {X}\right) ^ {- 1} \mathbf {X} ^ {\top} \mathbf {D} \bar {\delta} _ {\mathbf {w}} \tag {11.25} \\ \end{array}
+\begin{array}{l} \overline{{\mathrm{PBE}}} (\mathbf{w}) = \left\| \Pi \bar{\delta}_{\mathbf{w}} \right\| _{\mu} ^{2} \\ = \left(\Pi \bar{\delta}_{\mathbf{w}}\right)^{\top} \mathbf{D} \Pi \bar{\delta}_{\mathbf{w}} \quad (\text{from  (11.14)}) \\ = \bar{\delta}_{\mathbf{w}} ^{\top} \Pi^{\top} \mathbf{D} \Pi \bar{\delta}_{\mathbf{w}} \\ = \bar{\delta}_{\mathbf{w}} ^{\top} \mathbf{D} \mathbf{X} \left(\mathbf{X} ^{\top} \mathbf{D} \mathbf{X}\right)^{- 1} \mathbf{X} ^{\top} \mathbf{D} \bar{\delta}_{\mathbf{w}} \tag {11.25} \\ \end{array}
 $$
 
 (using (11.13) and the identity  $\Pi^{\top}\mathbf{D}\Pi = \mathbf{D}\mathbf{X}\left(\mathbf{X}^{\top}\mathbf{D}\mathbf{X}\right)^{-1}\mathbf{X}^{\top}\mathbf{D})$
 
 $$
-= \left(\mathbf {X} ^ {\top} \mathbf {D} \bar {\delta} _ {\mathbf {w}}\right) ^ {\top} \left(\mathbf {X} ^ {\top} \mathbf {D} \mathbf {X}\right) ^ {- 1} \left(\mathbf {X} ^ {\top} \mathbf {D} \bar {\delta} _ {\mathbf {w}}\right). \tag {11.26}
+= \left(\mathbf{X} ^{\top} \mathbf{D} \bar{\delta}_{\mathbf{w}}\right)^{\top} \left(\mathbf{X} ^{\top} \mathbf{D} \mathbf{X}\right)^{- 1} \left(\mathbf{X} ^{\top} \mathbf{D} \bar{\delta}_{\mathbf{w}}\right). \tag {11.26}
 $$
 
 The gradient with respect to  $\mathbf{w}$  is
 
 $$
-\nabla \overline {{\mathrm {P B E}}} (\mathbf {w}) = 2 \nabla \left[ \mathbf {X} ^ {\top} \mathbf {D} \bar {\delta} _ {\mathbf {w}} \right] ^ {\top} \left(\mathbf {X} ^ {\top} \mathbf {D} \mathbf {X}\right) ^ {- 1} \left(\mathbf {X} ^ {\top} \mathbf {D} \bar {\delta} _ {\mathbf {w}}\right).
+\nabla \overline{{\mathrm{PBE}}} (\mathbf{w}) = 2 \nabla \left[ \mathbf{X} ^{\top} \mathbf{D} \bar{\delta}_{\mathbf{w}} \right] ^{\top} \left(\mathbf{X} ^{\top} \mathbf{D} \mathbf{X}\right)^{- 1} \left(\mathbf{X} ^{\top} \mathbf{D} \bar{\delta}_{\mathbf{w}}\right).
 $$
 
 To turn this into an SGD method, we have to sample something on every time step that has this quantity as its expected value. Let us take  $\mu$  to be the distribution of states visited under the behavior policy. All three of the factors above can then be written in terms of expectations under this distribution. For example, the last factor can be written
 
 $$
-\mathbf {X} ^ {\top} \mathbf {D} \bar {\delta} _ {\mathbf {w}} = \sum_ {s} \mu (s) \mathbf {x} (s) \bar {\delta} _ {\mathbf {w}} (s) = \mathbb {E} [ \rho_ {t} \delta_ {t} \mathbf {x} _ {t} ],
+\mathbf{X} ^{\top} \mathbf{D} \bar{\delta}_{\mathbf{w}} = \sum_{s} \mu (s) \mathbf{x} (s) \bar{\delta}_{\mathbf{w}} (s) = \mathbb{E} [ \rho_{t} \delta_{t} \mathbf{x}_{t} ],
 $$
 
 which is just the expectation of the semi-gradient TD(0) update (11.2). The first factor is the transpose of the gradient of this update:
 
 $$
-\begin{array}{l} \nabla \mathbb {E} \left[ \rho_ {t} \delta_ {t} \mathbf {x} _ {t} \right] ^ {\top} = \mathbb {E} \left[ \rho_ {t} \nabla \delta_ {t} ^ {\top} \mathbf {x} _ {t} ^ {\top} \right] \\ = \mathbb {E} \left[ \rho_ {t} \nabla \left(R _ {t + 1} + \gamma \mathbf {w} ^ {\top} \mathbf {x} _ {t + 1} - \mathbf {w} ^ {\top} \mathbf {x} _ {t}\right) ^ {\top} \mathbf {x} _ {t} ^ {\top} \right] \quad (\text {u s i n g}) \\ = \mathbb {E} \left[ \rho_ {t} \left(\gamma \mathbf {x} _ {t + 1} - \mathbf {x} _ {t}\right) \mathbf {x} _ {t} ^ {\top} \right]. \\ \end{array}
+\begin{array}{l} \nabla \mathbb{E} \left[ \rho_{t} \delta_{t} \mathbf{x}_{t} \right] ^{\top} = \mathbb{E} \left[ \rho_{t} \nabla \delta_{t} ^{\top} \mathbf{x}_{t} ^{\top} \right] \\ = \mathbb{E} \left[ \rho_{t} \nabla \left(R_{t + 1} + \gamma \mathbf{w} ^{\top} \mathbf{x}_{t + 1} - \mathbf{w} ^{\top} \mathbf{x}_{t}\right)^{\top} \mathbf{x}_{t} ^{\top} \right] \quad (\text{using}) \\ = \mathbb{E} \left[ \rho_{t} \left(\gamma \mathbf{x}_{t + 1} - \mathbf{x}_{t}\right) \mathbf{x}_{t} ^{\top} \right]. \\ \end{array}
 $$
 
 Finally, the middle factor is the inverse of the expected outer-product matrix of the feature vectors:
 
 $$
-\mathbf {X} ^ {\top} \mathbf {D} \mathbf {X} = \sum_ {s} \mu (s) \mathbf {x} (s) \mathbf {x} (s) ^ {\top} = \mathbb {E} \left[ \mathbf {x} _ {t} \mathbf {x} _ {t} ^ {\top} \right].
+\mathbf{X} ^{\top} \mathbf{D} \mathbf{X} = \sum_{s} \mu (s) \mathbf{x} (s) \mathbf{x} (s)^{\top} = \mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right].
 $$
 
 Substituting these expectations for the three factors in our expression for the gradient of the PBE, we get
 
 $$
-\nabla \overline {{\mathrm {P B E}}} (\mathbf {w}) = 2 \mathbb {E} \left[ \rho_ {t} \left(\gamma \mathbf {x} _ {t + 1} - \mathbf {x} _ {t}\right) \mathbf {x} _ {t} ^ {\top} \right] \mathbb {E} \left[ \mathbf {x} _ {t} \mathbf {x} _ {t} ^ {\top} \right] ^ {- 1} \mathbb {E} \left[ \rho_ {t} \delta_ {t} \mathbf {x} _ {t} \right]. \tag {11.27}
+\nabla \overline{{\mathrm{PBE}}} (\mathbf{w}) = 2 \mathbb{E} \left[ \rho_{t} \left(\gamma \mathbf{x}_{t + 1} - \mathbf{x}_{t}\right) \mathbf{x}_{t} ^{\top} \right] \mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] ^{- 1} \mathbb{E} \left[ \rho_{t} \delta_{t} \mathbf{x}_{t} \right]. \tag {11.27}
 $$
 
 It might not be obvious that we have made any progress by writing the gradient in this form. It is a product of three expressions and the first and last are not independent. They both depend on the next feature vector  $\mathbf{x}_{t + 1}$ ; we cannot simply sample both of these expectations and then multiply the samples. This would give us a biased estimate of the gradient just as in the residual-gradient algorithm.
@@ -5348,13 +5154,13 @@ Another idea would be to estimate the three expectations separately and then com
 The idea of storing some estimates separately and then combining them with samples is a good one and is also used in Gradient-TD methods. Gradient-TD methods estimate and store the product of the second two factors in (11.27). These factors are a  $d \times d$  matrix and a  $d$ -vector, so their product is just a  $d$ -vector, like  $\mathbf{w}$  itself. We denote this second learned vector as  $\mathbf{v}$ :
 
 $$
-\mathbf {v} \approx \mathbb {E} \left[ \mathbf {x} _ {t} \mathbf {x} _ {t} ^ {\top} \right] ^ {- 1} \mathbb {E} \left[ \rho_ {t} \delta_ {t} \mathbf {x} _ {t} \right]. \tag {11.28}
+\mathbf{v} \approx \mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] ^{- 1} \mathbb{E} \left[ \rho_{t} \delta_{t} \mathbf{x}_{t} \right]. \tag {11.28}
 $$
 
 This form is familiar to students of linear supervised learning. It is the solution to a linear least-squares problem that tries to approximate  $\rho_t\delta_t$  from the features. The standard SGD method for incrementally finding the vector  $\mathbf{v}$  that minimizes the expected squared error  $(\mathbf{v}^{\top}\mathbf{x}_t - \rho_t\delta_t)^2$  is known as the Least Mean Square (LMS) rule (here augmented with an importance sampling ratio):
 
 $$
-\mathbf {v} _ {t + 1} \doteq \mathbf {v} _ {t} + \beta \rho_ {t} \left(\delta_ {t} - \mathbf {v} _ {t} ^ {\top} \mathbf {x} _ {t}\right) \mathbf {x} _ {t},
+\mathbf{v}_{t + 1} \doteq \mathbf{v}_{t} + \beta \rho_{t} \left(\delta_{t} - \mathbf{v}_{t} ^{\top} \mathbf{x}_{t}\right) \mathbf{x}_{t},
 $$
 
 where  $\beta > 0$  is another step-size parameter. We can use this method to effectively achieve (11.28) with  $O(d)$  storage and per-step computation.
@@ -5362,7 +5168,7 @@ where  $\beta > 0$  is another step-size parameter. We can use this method to ef
 Given a stored estimate  $\mathbf{v}_t$  approximating (11.28), we can update our main parameter vector  $\mathbf{w}_t$  using SGD methods based on (11.27). The simplest such rule is
 
 $$
-\begin{array}{l} \mathbf {w} _ {t + 1} = \mathbf {w} _ {t} - \frac {1}{2} \alpha \nabla \overline {{\mathrm {P B E}}} (\mathbf {w} _ {t}) \quad \text {(t h e g e n e r a l S G D r u l e)} \\ = \mathbf {w} _ {t} - \frac {1}{2} \alpha 2 \mathbb {E} \left[ \rho_ {t} \left(\gamma \mathbf {x} _ {t + 1} - \mathbf {x} _ {t}\right) \mathbf {x} _ {t} ^ {\top} \right] \mathbb {E} \left[ \mathbf {x} _ {t} \mathbf {x} _ {t} ^ {\top} \right] ^ {- 1} \mathbb {E} \left[ \rho_ {t} \delta_ {t} \mathbf {x} _ {t} \right] \quad (\text {f r o m (1 1 . 2 7)}) \\ = \mathbf {w} _ {t} + \alpha \mathbb {E} \left[ \rho_ {t} \left(\mathbf {x} _ {t} - \gamma \mathbf {x} _ {t + 1}\right) \mathbf {x} _ {t} ^ {\top} \right] \mathbb {E} \left[ \mathbf {x} _ {t} \mathbf {x} _ {t} ^ {\top} \right] ^ {- 1} \mathbb {E} \left[ \rho_ {t} \delta_ {t} \mathbf {x} _ {t} \right] (11.29) \\ \approx \mathbf {w} _ {t} + \alpha \mathbb {E} \left[ \rho_ {t} \left(\mathbf {x} _ {t} - \gamma \mathbf {x} _ {t + 1}\right) \mathbf {x} _ {t} ^ {\top} \right] \mathbf {v} _ {t} \quad (\text {b a s e d o n (1 1 . 2 8)}) \\ \approx \mathbf {w} _ {t} + \alpha \rho_ {t} \left(\mathbf {x} _ {t} - \gamma \mathbf {x} _ {t + 1}\right) \mathbf {x} _ {t} ^ {\top} \mathbf {v} _ {t}. (sampling) \\ \end{array}
+\begin{array}{l} \mathbf{w}_{t + 1} = \mathbf{w}_{t} - \frac{1}{2} \alpha \nabla \overline{{\mathrm{PBE}}} (\mathbf{w}_{t}) \quad \text{(the general SGDrule)} \\ = \mathbf{w}_{t} - \frac{1}{2} \alpha 2 \mathbb{E} \left[ \rho_{t} \left(\gamma \mathbf{x}_{t + 1} - \mathbf{x}_{t}\right) \mathbf{x}_{t} ^{\top} \right] \mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] ^{- 1} \mathbb{E} \left[ \rho_{t} \delta_{t} \mathbf{x}_{t} \right] \quad (\text{from  (11.27)}) \\ = \mathbf{w}_{t} + \alpha \mathbb{E} \left[ \rho_{t} \left(\mathbf{x}_{t} - \gamma \mathbf{x}_{t + 1}\right) \mathbf{x}_{t} ^{\top} \right] \mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] ^{- 1} \mathbb{E} \left[ \rho_{t} \delta_{t} \mathbf{x}_{t} \right] (11.29) \\ \approx \mathbf{w}_{t} + \alpha \mathbb{E} \left[ \rho_{t} \left(\mathbf{x}_{t} - \gamma \mathbf{x}_{t + 1}\right) \mathbf{x}_{t} ^{\top} \right] \mathbf{v}_{t} \quad (\text{based on (11.28)}) \\ \approx \mathbf{w}_{t} + \alpha \rho_{t} \left(\mathbf{x}_{t} - \gamma \mathbf{x}_{t + 1}\right) \mathbf{x}_{t} ^{\top} \mathbf{v}_{t}. (sampling) \\ \end{array}
 $$
 
 This algorithm is called  $GTD2$ . Note that if the final inner product  $(\mathbf{x}_t^\top \mathbf{v}_t)$  is done first, then the entire algorithm is of  $O(d)$  complexity.
@@ -5370,7 +5176,7 @@ This algorithm is called  $GTD2$ . Note that if the final inner product  $(\math
 A slightly better algorithm can be derived by doing a few more analytic steps before substituting in  $\mathbf{v}_t$ . Continuing from (11.29):
 
 $$
-\begin{array}{l} \mathbf {w} _ {t + 1} = \mathbf {w} _ {t} + \alpha \mathbb {E} \big [ \rho_ {t} (\mathbf {x} _ {t} - \gamma \mathbf {x} _ {t + 1}) \mathbf {x} _ {t} ^ {\top} \big ] \mathbb {E} \big [ \mathbf {x} _ {t} \mathbf {x} _ {t} ^ {\top} \big ] ^ {- 1} \mathbb {E} \big [ \rho_ {t} \delta_ {t} \mathbf {x} _ {t} \big ] \\ = \mathbf {w} _ {t} + \alpha \left(\mathbb {E} \left[ \rho_ {t} \mathbf {x} _ {t} \mathbf {x} _ {t} ^ {\top} \right] - \gamma \mathbb {E} \left[ \rho_ {t} \mathbf {x} _ {t + 1} \mathbf {x} _ {t} ^ {\top} \right]\right) \mathbb {E} \left[ \mathbf {x} _ {t} \mathbf {x} _ {t} ^ {\top} \right] ^ {- 1} \mathbb {E} [ \rho_ {t} \delta_ {t} \mathbf {x} _ {t} ] \\ = \mathbf {w} _ {t} + \alpha \left(\mathbb {E} \left[ \mathbf {x} _ {t} \mathbf {x} _ {t} ^ {\top} \right] - \gamma \mathbb {E} \left[ \rho_ {t} \mathbf {x} _ {t + 1} \mathbf {x} _ {t} ^ {\top} \right]\right) \mathbb {E} \left[ \mathbf {x} _ {t} \mathbf {x} _ {t} ^ {\top} \right] ^ {- 1} \mathbb {E} [ \rho_ {t} \delta_ {t} \mathbf {x} _ {t} ] \\ = \mathbf {w} _ {t} + \alpha \left(\mathbb {E} \left[ \rho_ {t} \delta_ {t} \mathbf {x} _ {t} \right] - \gamma \mathbb {E} \left[ \rho_ {t} \mathbf {x} _ {t + 1} \mathbf {x} _ {t} ^ {\top} \right] \mathbb {E} \left[ \mathbf {x} _ {t} \mathbf {x} _ {t} ^ {\top} \right] ^ {- 1} \mathbb {E} \left[ \rho_ {t} \delta_ {t} \mathbf {x} _ {t} \right]\right) \\ \approx \mathbf {w} _ {t} + \alpha \left(\mathbb {E} \left[ \rho_ {t} \delta_ {t} \mathbf {x} _ {t} \right] - \gamma \mathbb {E} \left[ \rho_ {t} \mathbf {x} _ {t + 1} \mathbf {x} _ {t} ^ {\top} \right] \mathbf {v} _ {t}\right) \quad (\text {b a s e d o n (1 1 . 2 8)}) \\ \approx \mathbf {w} _ {t} + \alpha \rho_ {t} \left(\delta_ {t} \mathbf {x} _ {t} - \gamma \mathbf {x} _ {t + 1} \mathbf {x} _ {t} ^ {\top} \mathbf {v} _ {t}\right), \quad (\text {s a m p l i n g}) \\ \end{array}
+\begin{array}{l} \mathbf{w}_{t + 1} = \mathbf{w}_{t} + \alpha \mathbb{E} \big [ \rho_{t} (\mathbf{x}_{t} - \gamma \mathbf{x}_{t + 1}) \mathbf{x}_{t} ^{\top} \big ] \mathbb{E} \big [ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \big ] ^{- 1} \mathbb{E} \big [ \rho_{t} \delta_{t} \mathbf{x}_{t} \big ] \\ = \mathbf{w}_{t} + \alpha \left(\mathbb{E} \left[ \rho_{t} \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] - \gamma \mathbb{E} \left[ \rho_{t} \mathbf{x}_{t + 1} \mathbf{x}_{t} ^{\top} \right]\right) \mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] ^{- 1} \mathbb{E} [ \rho_{t} \delta_{t} \mathbf{x}_{t} ] \\ = \mathbf{w}_{t} + \alpha \left(\mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] - \gamma \mathbb{E} \left[ \rho_{t} \mathbf{x}_{t + 1} \mathbf{x}_{t} ^{\top} \right]\right) \mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] ^{- 1} \mathbb{E} [ \rho_{t} \delta_{t} \mathbf{x}_{t} ] \\ = \mathbf{w}_{t} + \alpha \left(\mathbb{E} \left[ \rho_{t} \delta_{t} \mathbf{x}_{t} \right] - \gamma \mathbb{E} \left[ \rho_{t} \mathbf{x}_{t + 1} \mathbf{x}_{t} ^{\top} \right] \mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] ^{- 1} \mathbb{E} \left[ \rho_{t} \delta_{t} \mathbf{x}_{t} \right]\right) \\ \approx \mathbf{w}_{t} + \alpha \left(\mathbb{E} \left[ \rho_{t} \delta_{t} \mathbf{x}_{t} \right] - \gamma \mathbb{E} \left[ \rho_{t} \mathbf{x}_{t + 1} \mathbf{x}_{t} ^{\top} \right] \mathbf{v}_{t}\right) \quad (\text{based on (11.28)}) \\ \approx \mathbf{w}_{t} + \alpha \rho_{t} \left(\delta_{t} \mathbf{x}_{t} - \gamma \mathbf{x}_{t + 1} \mathbf{x}_{t} ^{\top} \mathbf{v}_{t}\right), \quad (\text{sampling}) \\ \end{array}
 $$
 
 which again is  $O(d)$  if the final product  $(\mathbf{x}_t^\top \mathbf{v}_t)$  is done first. This algorithm is known as either  $TD(0)$  with gradient correction (TDC) or, alternatively, as  $GTD(0)$ .
@@ -5401,7 +5207,7 @@ If there is discounting, it can be treated as partial or probabilistic terminati
 The one-step Emphatic-TD algorithm for learning episodic state values is defined by:
 
 $$
-\begin{array}{l} \delta_ {t} = R _ {t + 1} + \gamma \hat {v} \left(S _ {t + 1}, \mathbf {w} _ {t}\right) - \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right), \\ \mathbf {w} _ {t + 1} = \mathbf {w} _ {t} + \alpha M _ {t} \rho_ {t} \delta_ {t} \nabla \hat {v} (S _ {t}, \mathbf {w} _ {t}), \\ M _ {t} = \gamma \rho_ {t - 1} M _ {t - 1} + I _ {t}, \\ \end{array}
+\begin{array}{l} \delta_{t} = R_{t + 1} + \gamma \hat {v} \left(S_{t + 1}, \mathbf{w}_{t}\right) - \hat {v} \left(S_{t}, \mathbf{w}_{t}\right), \\ \mathbf{w}_{t + 1} = \mathbf{w}_{t} + \alpha M_{t} \rho_{t} \delta_{t} \nabla \hat {v} (S_{t}, \mathbf{w}_{t}), \\ M_{t} = \gamma \rho_{t - 1} M_{t - 1} + I_{t}, \\ \end{array}
 $$
 
 with  $I_{t}$ , the interest, being arbitrary and  $M_{t}$ , the emphasis, being initialized to  $M_{-1} = 0$ . How does this algorithm perform on Baird's counterexample? Figure 11.6 shows the trajectory in expectation of the components of the parameter vector (for the case in which  $I_{t} = 1$ , for all  $t$ ). There are some oscillations but eventually everything converges and the  $\overline{\mathrm{VE}}$  goes to zero. These trajectories are obtained by iteratively computing the expectation of the parameter vector trajectory without any of the variance due to sampling of transitions and rewards. We do not show the results of applying the Emphatic-TD algorithm directly because its variance on Baird's counterexample is so high that it is nigh impossible to get consistent results in computational experiments. The algorithm converges to the optimal solution in theory on this problem, but in practice it does not. We turn to the topic of reducing the variance of all these algorithms in the next section.
@@ -5479,7 +5285,7 @@ As usual, first we fully develop the ideas for state values and prediction, then
 In Chapter 7 we defined an  $n$ -step return as the sum of the first  $n$  rewards plus the estimated value of the state reached in  $n$  steps, each appropriately discounted (7.1). The general form of that equation, for any parameterized function approximator, is
 
 $$
-G _ {t: t + n} \dot {=} R _ {t + 1} + \gamma R _ {t + 2} + \dots + \gamma^ {n - 1} R _ {t + n} + \gamma^ {n} \hat {v} \left(S _ {t + n}, \mathbf {w} _ {t + n - 1}\right), \quad 0 \leq t \leq T - n, \tag {12.1}
+G_{t: t + n} \dot {=} R_{t + 1} + \gamma R_{t + 2} + \dots + \gamma^{n - 1} R_{t + n} + \gamma^{n} \hat {v} \left(S_{t + n}, \mathbf{w}_{t + n - 1}\right), \quad 0 \leq t \leq T - n, \tag {12.1}
 $$
 
 where  $\hat{v}(s, \mathbf{w})$  is the approximate value of state  $s$  given weight vector  $\mathbf{w}$  (Chapter 9), and  $T$  is the time of episode termination, if any. We noted in Chapter 7 that each  $n$ -step return, for  $n \geq 1$ , is a valid update target for a tabular learning update, just as it is for an approximate SGD learning update such as (9.7).
@@ -5493,7 +5299,7 @@ For example, the compound update for the case mentioned at the start of this sec
 The  $\mathrm{TD}(\lambda)$  algorithm can be understood as one particular way of averaging  $n$ -step updates. This average contains all the  $n$ -step updates, each weighted proportionally to  $\lambda^{n-1}$  (where  $\lambda \in [0,1)$ ), and is normalized by a factor of  $1 - \lambda$  to ensure that the weights sum to 1 (Figure 12.1). The resulting update is toward a return, called the  $\lambda$ -return, defined in its state-based form by
 
 $$
-G _ {t} ^ {\lambda} \doteq (1 - \lambda) \sum_ {n = 1} ^ {\infty} \lambda^ {n - 1} G _ {t: t + n}. \tag {12.2}
+G_{t} ^{\lambda} \doteq (1 - \lambda) \sum_{n = 1} ^{\infty} \lambda^{n - 1} G_{t: t + n}. \tag {12.2}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-27/49679741-8fd3-4cf0-866b-8d1b426c0b71/9b97e736d60a1c77b7d74bd728bada29d467b357880d88e51a56c1391689db6e.jpg)  
@@ -5508,7 +5314,7 @@ Figure 12.2: Weighting given in the  $\lambda$ -return to each of the  $n$ -step
 we want, we can separate these post-termination terms from the main sum, yielding
 
 $$
-G _ {t} ^ {\lambda} = (1 - \lambda) \sum_ {n = 1} ^ {T - t - 1} \lambda^ {n - 1} G _ {t: t + n} + \lambda^ {T - t - 1} G _ {t}, \tag {12.3}
+G_{t} ^{\lambda} = (1 - \lambda) \sum_{n = 1} ^{T - t - 1} \lambda^{n - 1} G_{t: t + n} + \lambda^{T - t - 1} G_{t}, \tag {12.3}
 $$
 
 as indicated in the figures. This equation makes it clearer what happens when  $\lambda = 1$ . In this case the main sum goes to zero, and the remaining term reduces to the conventional return. Thus, for  $\lambda = 1$ , updating according to the  $\lambda$ -return is a Monte Carlo algorithm. On the other hand, if  $\lambda = 0$ , then the  $\lambda$ -return reduces to  $G_{t:t + 1}$ , the one-step return. Thus, for  $\lambda = 0$ , updating according to the  $\lambda$ -return is a one-step TD method.
@@ -5520,7 +5326,7 @@ Exercise 12.2 The parameter  $\lambda$  characterizes how fast the exponential w
 We are now ready to define our first learning algorithm based on the  $\lambda$ -return: the off-line  $\lambda$ -return algorithm. As an off-line algorithm, it makes no changes to the weight vector during the episode. Then, at the end of the episode, a whole sequence of off-line updates are made according to our usual semi-gradient rule, using the  $\lambda$ -return as the target:
 
 $$
-\mathbf {w} _ {t + 1} \doteq \mathbf {w} _ {t} + \alpha \left[ G _ {t} ^ {\lambda} - \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right) \right] \nabla \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right), \quad t = 0, \dots , T - 1. \tag {12.4}
+\mathbf{w}_{t + 1} \doteq \mathbf{w}_{t} + \alpha \left[ G_{t} ^{\lambda} - \hat {v} \left(S_{t}, \mathbf{w}_{t}\right) \right] \nabla \hat {v} \left(S_{t}, \mathbf{w}_{t}\right), \quad t = 0, \dots , T - 1. \tag {12.4}
 $$
 
 The  $\lambda$ -return gives us an alternative way of moving smoothly between Monte Carlo and one-step TD methods that can be compared with the  $n$ -step bootstrapping way developed in Chapter 7. There we assessed effectiveness on a 19-state random walk task (Example 7.1, page 144). Figure 12.3 shows the performance of the off-line  $\lambda$ -return algorithm on this task alongside that of the  $n$ -step methods (repeated from Figure 7.2). The experiment was just as described earlier except that for the  $\lambda$ -return algorithm we varied  $\lambda$  instead of  $n$ . The performance measure used is the estimated root-mean-square error between the correct and estimated values of each state measured at the end of the episode, averaged over the first 10 episodes and the 19 states. Note that overall performance of the off-line  $\lambda$ -return algorithms is comparable to that of the  $n$ -step algorithms. In both cases we get best performance with an intermediate value of the bootstrapping parameter,  $n$  for  $n$ -step methods and  $\lambda$  for the off-line  $\lambda$ -return algorithm.
@@ -5544,11 +5350,11 @@ With function approximation, the eligibility trace is a vector  $\mathbf{z}_t \i
 In  $\mathrm{TD}(\lambda)$ , the eligibility trace vector is initialized to zero at the beginning of the episode, is incremented on each time step by the value gradient, and then fades away by  $\gamma \lambda$ :
 
 $$
-\begin{array}{l} \mathbf {z} _ {- 1} \doteq \mathbf {0}, \\ \mathbf {z} _ {-} \doteq c _ {t}) \mathbf {z} _ {-} \quad \downarrow \nabla \hat {\mathbf {x}} (S, \mathbf {w} _ {-}), \quad 0 <   t <   T. \end{array} \tag {12.5}
+\begin{array}{l} \mathbf{z}_{- 1} \doteq \mathbf{0}, \\ \mathbf{z}_{-} \doteq c_{t}) \mathbf{z}_{-} \quad \downarrow \nabla \hat {\mathbf{x}} (S, \mathbf{w}_{-}), \quad 0 <   t <   T. \end{array} \tag {12.5}
 $$
 
 $$
-\mathbf {z} _ {t} \doteq \gamma \lambda \mathbf {z} _ {t - 1} + \nabla \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right), \quad 0 \leq t \leq T, \tag {12.5}
+\mathbf{z}_{t} \doteq \gamma \lambda \mathbf{z}_{t - 1} + \nabla \hat {v} \left(S_{t}, \mathbf{w}_{t}\right), \quad 0 \leq t \leq T, \tag {12.5}
 $$
 
 where  $\gamma$  is the discount rate and  $\lambda$  is the parameter introduced in the previous section, which we henceforth call the trace-decay parameter. The eligibility trace keeps track of which components of the weight vector have contributed, positively or negatively, to recent state valuations, where "recent" is defined in terms of  $\gamma \lambda$ . (Recall that in linear function approximation,  $\nabla \hat{v}(S_t, \mathbf{w}_t)$  is the feature vector,  $\mathbf{x}_t$ , in which case the eligibility trace vector is just a sum of past, fading, input vectors.) The trace is said to indicate the eligibility of each component of the weight vector for undergoing learning changes
@@ -5556,13 +5362,13 @@ where  $\gamma$  is the discount rate and  $\lambda$  is the parameter introduce
 should a reinforcing event occur. The reinforcing events we are concerned with are the moment-by-moment one-step TD errors. The TD error for state-value prediction is
 
 $$
-\delta_ {t} \doteq R _ {t + 1} + \gamma \hat {v} (S _ {t + 1}, \mathbf {w} _ {t}) - \hat {v} (S _ {t}, \mathbf {w} _ {t}). \tag {12.6}
+\delta_{t} \doteq R_{t + 1} + \gamma \hat {v} (S_{t + 1}, \mathbf{w}_{t}) - \hat {v} (S_{t}, \mathbf{w}_{t}). \tag {12.6}
 $$
 
 In  $\mathrm{TD}(\lambda)$ , the weight vector is updated on each step proportional to the scalar TD error and the vector eligibility trace:
 
 $$
-\mathbf {w} _ {t + 1} \doteq \mathbf {w} _ {t} + \alpha \delta_ {t} \mathbf {z} _ {t}. \tag {12.7}
+\mathbf{w}_{t + 1} \doteq \mathbf{w}_{t} + \alpha \delta_{t} \mathbf{z}_{t}. \tag {12.7}
 $$
 
 # Semi-gradient  $\mathrm{TD}(\lambda)$  for estimating  $\hat{v}\approx v_{\pi}$
@@ -5611,7 +5417,7 @@ Figure 12.6: 19-state Random walk results (Example 7.1): Performance of  $\mathr
 Linear  $\mathrm{TD}(\lambda)$  has been proved to converge in the on-policy case if the step-size parameter is reduced over time according to the usual conditions (2.7). Just as discussed in Section 9.4, convergence is not to the minimum-error weight vector, but to a nearby weight vector that depends on  $\lambda$ . The bound on solution quality presented in that section (9.14) can now be generalized to apply for any  $\lambda$ . For the continuing discounted case,
 
 $$
-\overline {{\mathrm {V E}}} (\mathbf {w} _ {\infty}) \leq \frac {1 - \gamma \lambda}{1 - \gamma} \min  _ {\mathbf {w}} \overline {{\mathrm {V E}}} (\mathbf {w}). \tag {12.8}
+\overline{{\mathrm{VE}}} (\mathbf{w}_{\infty}) \leq \frac{1 - \gamma \lambda}{1 - \gamma} \min_{\mathbf{w}} \overline{{\mathrm{VE}}} (\mathbf{w}). \tag {12.8}
 $$
 
 That is, the asymptotic error is no more than  $\frac{1 - \gamma\lambda}{1 - \gamma}$  times the smallest possible error. As  $\lambda$  approaches 1, the bound approaches the minimum error (and it is loosest at  $\lambda = 0$ ). In practice, however,  $\lambda = 1$  is often the poorest choice, as will be illustrated later in Figure 12.14.
@@ -5629,7 +5435,7 @@ continuing case, the  $\lambda$ -return is technically never known, as it depend
 In general, we define the truncated  $\lambda$ -return for time  $t$ , given data only up to some later horizon,  $h$ , as
 
 $$
-G _ {t: h} ^ {\lambda} \doteq (1 - \lambda) \sum_ {n = 1} ^ {h - t - 1} \lambda^ {n - 1} G _ {t: t + n} + \lambda^ {h - t - 1} G _ {t: h}, \quad 0 \leq t <   h \leq T. \tag {12.9}
+G_{t: h} ^{\lambda} \doteq (1 - \lambda) \sum_{n = 1} ^{h - t - 1} \lambda^{n - 1} G_{t: t + n} + \lambda^{h - t - 1} G_{t: h}, \quad 0 \leq t <   h \leq T. \tag {12.9}
 $$
 
 If you compare this equation with the  $\lambda$ -return (12.3), it is clear that the horizon  $h$  is playing the same role as was previously played by  $T$ , the time of termination. Whereas in the  $\lambda$ -return there is a residual weight given to the conventional return  $G_{t}$ , here it is given to the longest available  $n$ -step return,  $G_{t:h}$  (Figure 12.2).
@@ -5642,19 +5448,19 @@ Figure 12.7: The backup diagram for Truncated TD(λ).
 end of the episode.  $\mathrm{TTD}(\lambda)$  is defined by (cf. (9.15)):
 
 $$
-\mathbf {w} _ {t + n} \doteq \mathbf {w} _ {t + n - 1} + \alpha \left[ G _ {t: t + n} ^ {\lambda} - \hat {v} \left(S _ {t}, \mathbf {w} _ {t + n - 1}\right) \right] \nabla \hat {v} \left(S _ {t}, \mathbf {w} _ {t + n - 1}\right), \quad 0 \leq t <   T.
+\mathbf{w}_{t + n} \doteq \mathbf{w}_{t + n - 1} + \alpha \left[ G_{t: t + n} ^{\lambda} - \hat {v} \left(S_{t}, \mathbf{w}_{t + n - 1}\right) \right] \nabla \hat {v} \left(S_{t}, \mathbf{w}_{t + n - 1}\right), \quad 0 \leq t <   T.
 $$
 
 This algorithm can be implemented efficiently so that per-step computation does not scale with  $n$  (though of course memory must). Much as in  $n$ -step TD methods, no updates are made on the first  $n - 1$  time steps of each episode, and  $n - 1$  additional updates are made upon termination. Efficient implementation relies on the fact that the  $k$ -step  $\lambda$ -return can be written exactly as
 
 $$
-G _ {t: t + k} ^ {\lambda} = \hat {v} \left(S _ {t}, \mathbf {w} _ {t - 1}\right) + \sum_ {i = t} ^ {t + k - 1} (\gamma \lambda) ^ {i - t} \delta_ {i} ^ {\prime}, \tag {12.10}
+G_{t: t + k} ^{\lambda} = \hat {v} \left(S_{t}, \mathbf{w}_{t - 1}\right) + \sum_{i = t} ^{t + k - 1} (\gamma \lambda)^{i - t} \delta_{i} ^{\prime}, \tag {12.10}
 $$
 
 where
 
 $$
-\delta_ {t} ^ {\prime} \doteq R _ {t + 1} + \gamma \hat {v} (S _ {t + 1}, \mathbf {w} _ {t}) - \hat {v} (S _ {t}, \mathbf {w} _ {t - 1}).
+\delta_{t} ^{\prime} \doteq R_{t + 1} + \gamma \hat {v} (S_{t + 1}, \mathbf{w}_{t}) - \hat {v} (S_{t}, \mathbf{w}_{t - 1}).
 $$
 
 Exercise 12.5 Several times in this book (often in exercises) we have established that returns can be written as sums of TD errors if the value function is held constant. Why is (12.10) another instance of this? Prove (12.10).
@@ -5666,7 +5472,7 @@ Choosing the truncation parameter  $n$  in Truncated TD( $\lambda$ ) involves a 
 The idea is that, on each time step as you gather a new increment of data, you go back and redo all the updates since the beginning of the current episode. The new updates will be better than the ones you previously made because now they can take into account the time step's new data. That is, the updates are always towards an  $n$ -step truncated  $\lambda$ -return target, but they always use the latest horizon. In each pass over that episode you can use a slightly longer horizon and obtain slightly better results. Recall that the truncated  $\lambda$ -return is defined in (12.9) as
 
 $$
-G _ {t: h} ^ {\lambda} \doteq (1 - \lambda) \sum_ {n = 1} ^ {h - t - 1} \lambda^ {n - 1} G _ {t: t + n} + \lambda^ {h - t - 1} G _ {t: h}.
+G_{t: h} ^{\lambda} \doteq (1 - \lambda) \sum_{n = 1} ^{h - t - 1} \lambda^{n - 1} G_{t: t + n} + \lambda^{h - t - 1} G_{t: h}.
 $$
 
 Let us step through how this target could ideally be used if computational complexity was not an issue. The episode begins with an estimate at time 0 using the weights  $\mathbf{w}_0$  from the end of the previous episode. Learning begins when the data horizon is extended to time step 1. The target for the estimate at step 0, given the data up to horizon 1, could only be the one-step return  $G_{0:1}$ , which includes  $R_1$  and bootstraps from the estimate  $\hat{v}(S_1, \mathbf{w}_0)$ . Note that this is exactly what  $G_{0:1}^{\lambda}$  is, with the sum in the first term of the
@@ -5676,33 +5482,33 @@ equation degenerating to zero. Using this update target, we construct  $\mathbf{
 This conceptual algorithm involves multiple passes over the episode, one at each horizon, each generating a different sequence of weight vectors. To describe it clearly we have to distinguish between the weight vectors computed at the different horizons. Let us use  $\mathbf{w}_t^h$  to denote the weights used to generate the value at time  $t$  in the sequence up to horizon  $h$ . The first weight vector  $\mathbf{w}_0^h$  in each sequence is that inherited from the previous episode (so they are the same for all  $h$ ), and the last weight vector  $\mathbf{w}_h^h$  in each sequence defines the ultimate weight-vector sequence of the algorithm. At the final horizon  $h = T$  we obtain the final weights  $\mathbf{w}_T^T$  which will be passed on to form the initial weights of the next episode. With these conventions, the three first sequences described in the previous paragraph can be given explicitly:
 
 $$
-h = 1: \quad \mathbf {w} _ {1} ^ {1} \doteq \mathbf {w} _ {0} ^ {1} + \alpha \left[ G _ {0: 1} ^ {\lambda} - \hat {v} (S _ {0}, \mathbf {w} _ {0} ^ {1}) \right] \nabla \hat {v} (S _ {0}, \mathbf {w} _ {0} ^ {1}),
+h = 1: \quad \mathbf{w}_{1} ^{1} \doteq \mathbf{w}_{0} ^{1} + \alpha \left[ G_{0: 1} ^{\lambda} - \hat {v} (S_{0}, \mathbf{w}_{0} ^{1}) \right] \nabla \hat {v} (S_{0}, \mathbf{w}_{0} ^{1}),
 $$
 
 $$
-h = 2: \quad \mathbf {w} _ {1} ^ {2} \doteq \mathbf {w} _ {0} ^ {2} + \alpha \left[ G _ {0; 2} ^ {\lambda} - \hat {v} (S _ {0}, \mathbf {w} _ {0} ^ {2}) \right] \nabla \hat {v} (S _ {0}, \mathbf {w} _ {0} ^ {2}),
+h = 2: \quad \mathbf{w}_{1} ^{2} \doteq \mathbf{w}_{0} ^{2} + \alpha \left[ G_{0; 2} ^{\lambda} - \hat {v} (S_{0}, \mathbf{w}_{0} ^{2}) \right] \nabla \hat {v} (S_{0}, \mathbf{w}_{0} ^{2}),
 $$
 
 $$
-\mathbf {w} _ {2} ^ {2} \doteq \mathbf {w} _ {1} ^ {2} + \alpha \left[ G _ {1: 2} ^ {\lambda} - \hat {v} (S _ {1}, \mathbf {w} _ {1} ^ {2}) \right] \nabla \hat {v} (S _ {1}, \mathbf {w} _ {1} ^ {2}),
+\mathbf{w}_{2} ^{2} \doteq \mathbf{w}_{1} ^{2} + \alpha \left[ G_{1: 2} ^{\lambda} - \hat {v} (S_{1}, \mathbf{w}_{1} ^{2}) \right] \nabla \hat {v} (S_{1}, \mathbf{w}_{1} ^{2}),
 $$
 
 $$
-h = 3: \quad \mathbf {w} _ {1} ^ {3} \doteq \mathbf {w} _ {0} ^ {3} + \alpha \left[ G _ {0: 3} ^ {\lambda} - \hat {v} (S _ {0}, \mathbf {w} _ {0} ^ {3}) \right] \nabla \hat {v} (S _ {0}, \mathbf {w} _ {0} ^ {3}),
+h = 3: \quad \mathbf{w}_{1} ^{3} \doteq \mathbf{w}_{0} ^{3} + \alpha \left[ G_{0: 3} ^{\lambda} - \hat {v} (S_{0}, \mathbf{w}_{0} ^{3}) \right] \nabla \hat {v} (S_{0}, \mathbf{w}_{0} ^{3}),
 $$
 
 $$
-\mathbf {w} _ {2} ^ {3} \doteq \mathbf {w} _ {1} ^ {3} + \alpha \left[ G _ {1: 3} ^ {\lambda} - \hat {v} (S _ {1}, \mathbf {w} _ {1} ^ {3}) \right] \nabla \hat {v} (S _ {1}, \mathbf {w} _ {1} ^ {3}),
+\mathbf{w}_{2} ^{3} \doteq \mathbf{w}_{1} ^{3} + \alpha \left[ G_{1: 3} ^{\lambda} - \hat {v} (S_{1}, \mathbf{w}_{1} ^{3}) \right] \nabla \hat {v} (S_{1}, \mathbf{w}_{1} ^{3}),
 $$
 
 $$
-\mathbf {w} _ {3} ^ {3} \doteq \mathbf {w} _ {2} ^ {3} + \alpha \left[ G _ {2; 3} ^ {\lambda} - \hat {v} (S _ {2}, \mathbf {w} _ {2} ^ {3}) \right] \nabla \hat {v} (S _ {2}, \mathbf {w} _ {2} ^ {3}).
+\mathbf{w}_{3} ^{3} \doteq \mathbf{w}_{2} ^{3} + \alpha \left[ G_{2; 3} ^{\lambda} - \hat {v} (S_{2}, \mathbf{w}_{2} ^{3}) \right] \nabla \hat {v} (S_{2}, \mathbf{w}_{2} ^{3}).
 $$
 
 The general form for the update is
 
 $$
-\mathbf {w} _ {t + 1} ^ {h} \dot {=} \mathbf {w} _ {t} ^ {h} + \alpha \left[ G _ {t; h} ^ {\lambda} - \hat {v} \left(S _ {t}, \mathbf {w} _ {t} ^ {h}\right) \right] \nabla \hat {v} \left(S _ {t}, \mathbf {w} _ {t} ^ {h}\right), 0 \leq t <   h \leq T.
+\mathbf{w}_{t + 1} ^{h} \dot {=} \mathbf{w}_{t} ^{h} + \alpha \left[ G_{t; h} ^{\lambda} - \hat {v} \left(S_{t}, \mathbf{w}_{t} ^{h}\right) \right] \nabla \hat {v} \left(S_{t}, \mathbf{w}_{t} ^{h}\right), 0 \leq t <   h \leq T.
 $$
 
 This update, together with  $\mathbf{w}_t\dot{=}\mathbf{w}_t^t$  defines the online  $\lambda$ -return algorithm.
@@ -5721,7 +5527,7 @@ The online  $\lambda$ -return algorithm just presented is currently the best per
 The derivation of true online  $\mathrm{TD}(\lambda)$  is a little too complex to present here (see the next section and the appendix to the paper by van Seijen et al., 2016) but its strategy is simple. The sequence of weight vectors produced by the online  $\lambda$ -return algorithm can be arranged in a triangle:
 
 $$
-\begin{array}{c c c c c c} \mathbf {w} _ {0} ^ {0} & & & & \\ \mathbf {w} _ {0} ^ {1} & \mathbf {w} _ {1} ^ {1} & & & \\ \mathbf {w} _ {0} ^ {2} & \mathbf {w} _ {1} ^ {2} & \mathbf {w} _ {2} ^ {2} & & \\ \mathbf {w} _ {0} ^ {3} & \mathbf {w} _ {1} ^ {3} & \mathbf {w} _ {2} ^ {3} & \mathbf {w} _ {3} ^ {3} & & \\ \vdots & \vdots & \vdots & \vdots & \ddots & \\ \mathbf {w} _ {0} ^ {T} & \mathbf {w} _ {1} ^ {T} & \mathbf {w} _ {2} ^ {T} & \mathbf {w} _ {3} ^ {T} & \dots & \mathbf {w} _ {T} ^ {T} \end{array}
+\begin{array}{c c c c c c} \mathbf{w}_{0} ^{0} & & & & \\ \mathbf{w}_{0} ^{1} & \mathbf{w}_{1} ^{1} & & & \\ \mathbf{w}_{0} ^{2} & \mathbf{w}_{1} ^{2} & \mathbf{w}_{2} ^{2} & & \\ \mathbf{w}_{0} ^{3} & \mathbf{w}_{1} ^{3} & \mathbf{w}_{2} ^{3} & \mathbf{w}_{3} ^{3} & & \\ \vdots & \vdots & \vdots & \vdots & \ddots & \\ \mathbf{w}_{0} ^{T} & \mathbf{w}_{1} ^{T} & \mathbf{w}_{2} ^{T} & \mathbf{w}_{3} ^{T} & \dots & \mathbf{w}_{T} ^{T} \end{array}
 $$
 
 One row of this triangle is produced on each time step. It turns out that the weight vectors on the diagonal, the  $\mathbf{w}_t^t$ , are the only ones really needed. The first,  $\mathbf{w}_0^0$ , is the initial weight
@@ -5729,13 +5535,13 @@ One row of this triangle is produced on each time step. It turns out that the we
 vector of the episode, the last,  $\mathbf{w}_T^T$ , is the final weight vector, and each weight vector along the way,  $\mathbf{w}_t^t$ , plays a role in bootstrapping in the  $n$ -step returns of the updates. In the final algorithm the diagonal weight vectors are renamed without a superscript,  $\mathbf{w}_t \doteq \mathbf{w}_t^t$ . The strategy then is to find a compact, efficient way of computing each  $\mathbf{w}_t^t$  from the one before. If this is done, for the linear case in which  $\hat{v}(s,\mathbf{w}) = \mathbf{w}^\top \mathbf{x}(s)$ , then we arrive at the true online TD( $\lambda$ ) algorithm:
 
 $$
-\mathbf {w} _ {t + 1} \doteq \mathbf {w} _ {t} + \alpha \delta_ {t} \mathbf {z} _ {t} + \alpha \left(\mathbf {w} _ {t} ^ {\top} \mathbf {x} _ {t} - \mathbf {w} _ {t - 1} ^ {\top} \mathbf {x} _ {t}\right) (\mathbf {z} _ {t} - \mathbf {x} _ {t}),
+\mathbf{w}_{t + 1} \doteq \mathbf{w}_{t} + \alpha \delta_{t} \mathbf{z}_{t} + \alpha \left(\mathbf{w}_{t} ^{\top} \mathbf{x}_{t} - \mathbf{w}_{t - 1} ^{\top} \mathbf{x}_{t}\right) (\mathbf{z}_{t} - \mathbf{x}_{t}),
 $$
 
 where we have used the shorthand  $\mathbf{x}_t \doteq \mathbf{x}(S_t)$ ,  $\delta_t$  is defined as in TD( $\lambda$ ) (12.6), and  $\mathbf{z}_t$  is defined by
 
 $$
-\mathbf {z} _ {t} \dot {=} \gamma \lambda \mathbf {z} _ {t - 1} + \left(1 - \alpha \gamma \lambda \mathbf {z} _ {t - 1} ^ {\top} \mathbf {x} _ {t}\right) \mathbf {x} _ {t}. \tag {12.11}
+\mathbf{z}_{t} \dot {=} \gamma \lambda \mathbf{z}_{t - 1} + \left(1 - \alpha \gamma \lambda \mathbf{z}_{t - 1} ^{\top} \mathbf{x}_{t}\right) \mathbf{x}_{t}. \tag {12.11}
 $$
 
 This algorithm has been proven to produce exactly the same sequence of weight vectors,  $\mathbf{w}_t$ ,  $0 \leq t \leq T$ , as the online  $\lambda$ -return algorithm (van Seijen et al. 2016). Thus the results on the random walk task on the left of Figure 12.8 are also its results on that task. Now, however, the algorithm is much less expensive. The memory requirements of true online  $\mathrm{TD}(\lambda)$  are identical to those of conventional  $\mathrm{TD}(\lambda)$ , while the per-step computation is increased by about  $50\%$  (there is one more inner product in the eligibility-trace update). Overall, the per-step computational complexity remains of  $O(d)$ , the same as  $\mathrm{TD}(\lambda)$ . Pseudocode for the complete algorithm is given in the box.
@@ -5755,13 +5561,13 @@ Loop for each episode:
 Initialize state and obtain initial feature vector  $\mathbf{x}$
 
 $$
-\mathbf {z} \leftarrow 0
+\mathbf{z} \leftarrow 0
 $$
 
 (a  $d$  -dimensional vector)
 
 $$
-V _ {o l d} \leftarrow 0
+V_{o l d} \leftarrow 0
 $$
 
 (a temporary scalar variable)
@@ -5773,31 +5579,31 @@ Choose  $A\sim \pi$
 Take action  $A$ , observe  $R$ ,  $\mathbf{x}'$  (feature vector of the next state)
 
 $$
-V \leftarrow \mathbf {w} ^ {\top} \mathbf {x}
+V \leftarrow \mathbf{w} ^{\top} \mathbf{x}
 $$
 
 $$
-V ^ {\prime} \leftarrow \mathbf {w} ^ {\top} \mathbf {x} ^ {\prime}
+V^{\prime} \leftarrow \mathbf{w} ^{\top} \mathbf{x} ^{\prime}
 $$
 
 $$
-\delta \leftarrow R + \gamma V ^ {\prime} - V
+\delta \leftarrow R + \gamma V^{\prime} - V
 $$
 
 $$
-\mathbf {z} \leftarrow \gamma \lambda \mathbf {z} + \left(1 - \alpha \gamma \lambda \mathbf {z} ^ {\top} \mathbf {x}\right) \mathbf {x}
+\mathbf{z} \leftarrow \gamma \lambda \mathbf{z} + \left(1 - \alpha \gamma \lambda \mathbf{z} ^{\top} \mathbf{x}\right) \mathbf{x}
 $$
 
 $$
-\mathbf {w} \leftarrow \mathbf {w} + \alpha (\delta + V - V _ {o l d}) \mathbf {z} - \alpha (V - V _ {o l d}) \mathbf {x}
+\mathbf{w} \leftarrow \mathbf{w} + \alpha (\delta + V - V_{o l d}) \mathbf{z} - \alpha (V - V_{o l d}) \mathbf{x}
 $$
 
 $$
-V _ {o l d} \leftarrow V ^ {\prime}
+V_{o l d} \leftarrow V^{\prime}
 $$
 
 $$
-\mathbf {x} \gets \mathbf {x} ^ {\prime}
+\mathbf{x} \gets \mathbf{x} ^{\prime}
 $$
 
 until  $\mathbf{x}' = \mathbf{0}$  (signaling arrival at a terminal state)
@@ -5807,7 +5613,7 @@ The eligibility trace (12.11) used in true online  $\mathrm{TD}(\lambda)$  is ca
 Earlier work often used a third kind of trace called the replacing trace, defined only for the tabular case or for binary feature vectors such as those produced by tile coding. The replacing trace is defined on a component-by-component basis depending on whether the component of the feature vector was 1 or 0:
 
 $$
-z _ {i, t} \doteq \left\{ \begin{array}{l l} 1 & \text {i f} x _ {i, t} = 1 \\ \gamma \lambda z _ {i, t - 1} & \text {o t h e r w i s e .} \end{array} \right. \tag {12.12}
+z_{i, t} \doteq \left\{ \begin{array}{l l} 1 & \text{if} x_{i, t} = 1 \\ \gamma \lambda z_{i, t - 1} & \text{otherwise .} \end{array} \right. \tag {12.12}
 $$
 
 Nowadays, we see replacing traces as crude approximations to Dutch traces, which largely supersede them. Dutch traces usually perform better than replacing traces and have a clearer theoretical basis. Accumulating traces remain of interest for nonlinear function approximations where Dutch traces are not available.
@@ -5819,7 +5625,7 @@ Although eligibility traces are closely associated historically with TD learning
 The linear version of the gradient Monte Carlo prediction algorithm (page 202) makes the following sequence of updates, one for each time step of the episode:
 
 $$
-\mathbf {w} _ {t + 1} \doteq \mathbf {w} _ {t} + \alpha \left[ G - \mathbf {w} _ {t} ^ {\top} \mathbf {x} _ {t} \right] \mathbf {x} _ {t}, \quad 0 \leq t <   T. \tag {12.13}
+\mathbf{w}_{t + 1} \doteq \mathbf{w}_{t} + \alpha \left[ G - \mathbf{w}_{t} ^{\top} \mathbf{x}_{t} \right] \mathbf{x}_{t}, \quad 0 \leq t <   T. \tag {12.13}
 $$
 
 To simplify the example, we assume here that the return  $G$  is a single reward received at the end of the episode (this is why  $G$  is not subscripted by time) and that there is no discounting. In this case the update is also known as the Least Mean Square (LMS) rule. As a Monte Carlo algorithm, all the updates depend on the final reward/return, so none can be made until the end of the episode. The MC algorithm is an off-line algorithm and we do not seek to improve this aspect of it. Rather we seek merely an implementation of this algorithm with computational advantages. We will still update the weight vector only at the end of the episode, but we will do some computation during each step of the episode and less at its end. This will give a more equal distribution of computation— $O(d)$  per step—and also remove the need to store the feature vectors at each step for use later at the end of each episode. Instead, we will introduce an additional vector memory, the eligibility trace, keeping in it a summary of all the feature vectors seen so far. This will be sufficient to efficiently recreate exactly the same overall update as the sequence of MC
@@ -5827,31 +5633,31 @@ To simplify the example, we assume here that the return  $G$  is a single reward
 updates (12.13), by the end of the episode:
 
 $$
-\begin{array}{l} \mathbf {w} _ {T} = \mathbf {w} _ {T - 1} + \alpha (G - \mathbf {w} _ {T - 1} ^ {\top} \mathbf {x} _ {T - 1}) \mathbf {x} _ {T - 1} \\ = \mathbf {w} _ {T - 1} + \alpha \mathbf {x} _ {T - 1} \left(- \mathbf {x} _ {T - 1} ^ {\top} \mathbf {w} _ {T - 1}\right) + \alpha G \mathbf {x} _ {T - 1} \\ = \left(\mathbf {I} - \alpha \mathbf {x} _ {T - 1} \mathbf {x} _ {T - 1} ^ {\top}\right) \mathbf {w} _ {T - 1} + \alpha G \mathbf {x} _ {T - 1} \\ = \mathbf {F} _ {T - 1} \mathbf {w} _ {T - 1} + \alpha G \mathbf {x} _ {T - 1} \\ \end{array}
+\begin{array}{l} \mathbf{w}_{T} = \mathbf{w}_{T - 1} + \alpha (G - \mathbf{w}_{T - 1} ^{\top} \mathbf{x}_{T - 1}) \mathbf{x}_{T - 1} \\ = \mathbf{w}_{T - 1} + \alpha \mathbf{x}_{T - 1} \left(- \mathbf{x}_{T - 1} ^{\top} \mathbf{w}_{T - 1}\right) + \alpha G \mathbf{x}_{T - 1} \\ = \left(\mathbf{I} - \alpha \mathbf{x}_{T - 1} \mathbf{x}_{T - 1} ^{\top}\right) \mathbf{w}_{T - 1} + \alpha G \mathbf{x}_{T - 1} \\ = \mathbf{F}_{T - 1} \mathbf{w}_{T - 1} + \alpha G \mathbf{x}_{T - 1} \\ \end{array}
 $$
 
 where  $\mathbf{F}_t\dot{=} \mathbf{I} - \alpha \mathbf{x}_t\mathbf{x}_t^\top$  is a forgetting, or fading, matrix. Now, recursing,
 
 $$
-\begin{array}{l} = \mathbf {F} _ {T - 1} \left(\mathbf {F} _ {T - 2} \mathbf {w} _ {T - 2} + \alpha G \mathbf {x} _ {T - 2}\right) + \alpha G \mathbf {x} _ {T - 1} \\ = \mathbf {F} _ {T - 1} \mathbf {F} _ {T - 2} \mathbf {w} _ {T - 2} + \alpha G \left(\mathbf {F} _ {T - 1} \mathbf {x} _ {T - 2} + \mathbf {x} _ {T - 1}\right) \\ = \mathbf {F} _ {T - 1} \mathbf {F} _ {T - 2} \left(\mathbf {F} _ {T - 3} \mathbf {w} _ {T - 3} + \alpha G \mathbf {x} _ {T - 3}\right) + \alpha G \left(\mathbf {F} _ {T - 1} \mathbf {x} _ {T - 2} + \mathbf {x} _ {T - 1}\right) \\ = \mathbf {F} _ {T - 1} \mathbf {F} _ {T - 2} \mathbf {F} _ {T - 3} \mathbf {w} _ {T - 3} + \alpha G \left(\mathbf {F} _ {T - 1} \mathbf {F} _ {T - 2} \mathbf {x} _ {T - 3} + \mathbf {F} _ {T - 1} \mathbf {x} _ {T - 2} + \mathbf {x} _ {T - 1}\right) \\ \end{array}
+\begin{array}{l} = \mathbf{F}_{T - 1} \left(\mathbf{F}_{T - 2} \mathbf{w}_{T - 2} + \alpha G \mathbf{x}_{T - 2}\right) + \alpha G \mathbf{x}_{T - 1} \\ = \mathbf{F}_{T - 1} \mathbf{F}_{T - 2} \mathbf{w}_{T - 2} + \alpha G \left(\mathbf{F}_{T - 1} \mathbf{x}_{T - 2} + \mathbf{x}_{T - 1}\right) \\ = \mathbf{F}_{T - 1} \mathbf{F}_{T - 2} \left(\mathbf{F}_{T - 3} \mathbf{w}_{T - 3} + \alpha G \mathbf{x}_{T - 3}\right) + \alpha G \left(\mathbf{F}_{T - 1} \mathbf{x}_{T - 2} + \mathbf{x}_{T - 1}\right) \\ = \mathbf{F}_{T - 1} \mathbf{F}_{T - 2} \mathbf{F}_{T - 3} \mathbf{w}_{T - 3} + \alpha G \left(\mathbf{F}_{T - 1} \mathbf{F}_{T - 2} \mathbf{x}_{T - 3} + \mathbf{F}_{T - 1} \mathbf{x}_{T - 2} + \mathbf{x}_{T - 1}\right) \\ \end{array}
 $$
 
 .
 
 $$
-\begin{array}{l} = \underbrace {\mathbf {F} _ {T - 1} \mathbf {F} _ {T - 2} \cdots \mathbf {F} _ {0} \mathbf {w} _ {0}} _ {\mathbf {a} _ {T - 1}} + \alpha G \underbrace {\sum_ {k = 0} ^ {T - 1} \mathbf {F} _ {T - 1} \mathbf {F} _ {T - 2} \cdots \mathbf {F} _ {k + 1} \mathbf {x} _ {k}} _ {\mathbf {Z} _ {T - 1}} \\ = \mathbf {a} _ {T - 1} + \alpha G \mathbf {z} _ {T - 1}, \tag {12.14} \\ \end{array}
+\begin{array}{l} = \underbrace {\mathbf{F}_{T - 1} \mathbf{F}_{T - 2} \cdots \mathbf{F}_{0} \mathbf{w}_{0}}_{\mathbf{a}_{T - 1}} + \alpha G \underbrace {\sum_{k = 0} ^{T - 1} \mathbf{F}_{T - 1} \mathbf{F}_{T - 2} \cdots \mathbf{F}_{k + 1} \mathbf{x}_{k}}_{\mathbf{Z}_{T - 1}} \\ = \mathbf{a}_{T - 1} + \alpha G \mathbf{z}_{T - 1}, \tag {12.14} \\ \end{array}
 $$
 
 where  $\mathbf{a}_{T - 1}$  and  $\mathbf{z}_{T - 1}$  are the values at time  $T - 1$  of two auxiliary memory vectors that can be updated incrementally without knowledge of  $G$  and with  $O(d)$  complexity per time step. The  $\mathbf{z}_t$  vector is in fact a Dutch-style eligibility trace. It is initialized to  $\mathbf{z}_0 = \mathbf{x}_0$  and then updated according to
 
 $$
-\begin{array}{l} \mathbf {z} _ {t} \doteq \sum_ {k = 0} ^ {t} \mathbf {F} _ {t} \mathbf {F} _ {t - 1} \dots \mathbf {F} _ {k + 1} \mathbf {x} _ {k}, \quad 1 \leq t <   T \\ = \sum_ {k = 0} ^ {t - 1} \mathbf {F} _ {t} \mathbf {F} _ {t - 1} \dots \mathbf {F} _ {k + 1} \mathbf {x} _ {k} + \mathbf {x} _ {t} \\ = \mathbf {F} _ {t} \sum_ {k = 0} ^ {t - 1} \mathbf {F} _ {t - 1} \mathbf {F} _ {t - 2} \dots \mathbf {F} _ {k + 1} \mathbf {x} _ {k} + \mathbf {x} _ {t} \\ = \mathbf {F} _ {t} \mathbf {z} _ {t - 1} + \mathbf {x} _ {t} \\ = \left(\mathbf {I} - \alpha \mathbf {x} _ {t} \mathbf {x} _ {t} ^ {\top}\right) \mathbf {z} _ {t - 1} + \mathbf {x} _ {t} \\ = \mathbf {z} _ {t - 1} - \alpha \mathbf {x} _ {t} \mathbf {x} _ {t} ^ {\top} \mathbf {z} _ {t - 1} + \mathbf {x} _ {t} \\ = \mathbf {z} _ {t - 1} - \alpha \left(\mathbf {z} _ {t - 1} ^ {\top} \mathbf {x} _ {t}\right) \mathbf {x} _ {t} + \mathbf {x} _ {t} \\ = \mathbf {z} _ {t - 1} + \left(1 - \alpha \mathbf {z} _ {t - 1} ^ {\top} \mathbf {x} _ {t}\right) \mathbf {x} _ {t}, \\ \end{array}
+\begin{array}{l} \mathbf{z}_{t} \doteq \sum_{k = 0} ^{t} \mathbf{F}_{t} \mathbf{F}_{t - 1} \dots \mathbf{F}_{k + 1} \mathbf{x}_{k}, \quad 1 \leq t <   T \\ = \sum_{k = 0} ^{t - 1} \mathbf{F}_{t} \mathbf{F}_{t - 1} \dots \mathbf{F}_{k + 1} \mathbf{x}_{k} + \mathbf{x}_{t} \\ = \mathbf{F}_{t} \sum_{k = 0} ^{t - 1} \mathbf{F}_{t - 1} \mathbf{F}_{t - 2} \dots \mathbf{F}_{k + 1} \mathbf{x}_{k} + \mathbf{x}_{t} \\ = \mathbf{F}_{t} \mathbf{z}_{t - 1} + \mathbf{x}_{t} \\ = \left(\mathbf{I} - \alpha \mathbf{x}_{t} \mathbf{x}_{t} ^{\top}\right) \mathbf{z}_{t - 1} + \mathbf{x}_{t} \\ = \mathbf{z}_{t - 1} - \alpha \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \mathbf{z}_{t - 1} + \mathbf{x}_{t} \\ = \mathbf{z}_{t - 1} - \alpha \left(\mathbf{z}_{t - 1} ^{\top} \mathbf{x}_{t}\right) \mathbf{x}_{t} + \mathbf{x}_{t} \\ = \mathbf{z}_{t - 1} + \left(1 - \alpha \mathbf{z}_{t - 1} ^{\top} \mathbf{x}_{t}\right) \mathbf{x}_{t}, \\ \end{array}
 $$
 
 which is the dutch trace for the case of  $\gamma \lambda = 1$  (cf. Eq. 12.11). The  $\mathbf{a}_t$  auxiliary vector is initialized to  $\mathbf{a}_0 = \mathbf{w}_0$  and then updated according to
 
 $$
-\mathbf {a} _ {t} \doteq \mathbf {F} _ {t} \mathbf {F} _ {t - 1} \dots \mathbf {F} _ {0} \mathbf {w} _ {0} = \mathbf {F} _ {t} \mathbf {a} _ {t - 1} = \mathbf {a} _ {t - 1} - \alpha \mathbf {x} _ {t} \mathbf {x} _ {t} ^ {\top} \mathbf {a} _ {t - 1}, 1 \le t <   T.
+\mathbf{a}_{t} \doteq \mathbf{F}_{t} \mathbf{F}_{t - 1} \dots \mathbf{F}_{0} \mathbf{w}_{0} = \mathbf{F}_{t} \mathbf{a}_{t - 1} = \mathbf{a}_{t - 1} - \alpha \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \mathbf{a}_{t - 1}, 1 \le t <   T.
 $$
 
 The auxiliary vectors,  $\mathbf{a}_t$  and  $\mathbf{z}_t$ , are updated on each time step  $t < T$  and then, at time  $T$  when  $G$  is observed, they are used in (12.14) to compute  $\mathbf{w}_T$ . In this way we achieve exactly the same final result as the MC/LMS algorithm that has poor computational properties (12.13), but now with an incremental algorithm whose time and memory complexity per step is  $O(d)$ . This is surprising and intriguing because the notion of an eligibility trace (and the Dutch trace in particular) has arisen in a setting without temporal-difference (TD) learning (in contrast to van Seijen and Sutton, 2014). It seems eligibility traces are not specific to TD learning at all; they are more fundamental than that. The need for eligibility traces seems to arise whenever one tries to learn long-term predictions in an efficient manner.
@@ -5861,13 +5667,13 @@ The auxiliary vectors,  $\mathbf{a}_t$  and  $\mathbf{z}_t$ , are updated on eac
 Very few changes in the ideas already presented in this chapter are required in order to extend eligibility-traces to action-value methods. To learn approximate action values,  $\hat{q}(s,a,\mathbf{w})$ , rather than approximate state values,  $\hat{v}(s,\mathbf{w})$ , we need to use the action-value form of the  $n$ -step return, from Chapter 10:
 
 $$
-G _ {t: t + n} \doteq R _ {t + 1} + \dots + \gamma^ {n - 1} R _ {t + n} + \gamma^ {n} \hat {q} \left(S _ {t + n}, A _ {t + n}, \mathbf {w} _ {t + n - 1}\right), \quad t + n <   T,
+G_{t: t + n} \doteq R_{t + 1} + \dots + \gamma^{n - 1} R_{t + n} + \gamma^{n} \hat {q} \left(S_{t + n}, A_{t + n}, \mathbf{w}_{t + n - 1}\right), \quad t + n <   T,
 $$
 
 with  $G_{t:t+n} \doteq G_t$  if  $t + n \geq T$ . Using this, we can form the action-value form of the  $\lambda$ -return, which is otherwise identical to the state-value form (12.3). The action-value form of the off-line  $\lambda$ -return algorithm (12.4) simply uses  $\hat{q}$  rather than  $\hat{v}$ :
 
 $$
-\mathbf {w} _ {t + 1} \doteq \mathbf {w} _ {t} + \alpha \left[ G _ {t} ^ {\lambda} - \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t}\right) \right] \nabla \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t}\right), \quad t = 0, \dots , T - 1, \tag {12.15}
+\mathbf{w}_{t + 1} \doteq \mathbf{w}_{t} + \alpha \left[ G_{t} ^{\lambda} - \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t}\right) \right] \nabla \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t}\right), \quad t = 0, \dots , T - 1, \tag {12.15}
 $$
 
 where  $G_{t}^{\lambda} \doteq G_{t:\infty}^{\lambda}$ . The compound backup diagram for this forward view is shown in Figure 12.9. Notice the similarity to the diagram of the TD( $\lambda$ ) algorithm (Figure 12.1). The first update looks ahead one full step, to the next state-action pair, the second looks ahead two steps, to the second state-action pair, and so on. A final update is based on the complete return. The weighting of each  $n$ -step update in the  $\lambda$ -return is just as in TD( $\lambda$ ) and the  $\lambda$ -return algorithm (12.3).
@@ -5875,19 +5681,19 @@ where  $G_{t}^{\lambda} \doteq G_{t:\infty}^{\lambda}$ . The compound backup dia
 The temporal-difference method for action values, known as Sarsa(λ), approximates this forward view. It has the same update rule as given earlier for TD(λ):
 
 $$
-\mathbf {w} _ {t + 1} \dot {=} \mathbf {w} _ {t} + \alpha \delta_ {t} \mathbf {z} _ {t},
+\mathbf{w}_{t + 1} \dot {=} \mathbf{w}_{t} + \alpha \delta_{t} \mathbf{z}_{t},
 $$
 
 except, naturally, using the action-value form of the TD error:
 
 $$
-\delta_ {t} \doteq R _ {t + 1} + \gamma \hat {q} \left(S _ {t + 1}, A _ {t + 1}, \mathbf {w} _ {t}\right) - \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t}\right), \tag {12.16}
+\delta_{t} \doteq R_{t + 1} + \gamma \hat {q} \left(S_{t + 1}, A_{t + 1}, \mathbf{w}_{t}\right) - \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t}\right), \tag {12.16}
 $$
 
 and the action-value form of the eligibility trace:
 
 $$
-\begin{array}{l} \mathbf {z} _ {- 1} \doteq \mathbf {0}, \\ \mathbf {z} _ {t} \doteq \gamma \lambda \mathbf {z} _ {t - 1} + \nabla \hat {q} (S _ {t}, A _ {t}, \mathbf {w} _ {t}), \quad 0 \leq t \leq T. \\ \end{array}
+\begin{array}{l} \mathbf{z}_{- 1} \doteq \mathbf{0}, \\ \mathbf{z}_{t} \doteq \gamma \lambda \mathbf{z}_{t - 1} + \nabla \hat {q} (S_{t}, A_{t}, \mathbf{w}_{t}), \quad 0 \leq t \leq T. \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-27/49679741-8fd3-4cf0-866b-8d1b426c0b71/8efd32a3aea5c2df92d72124a49723ec2572926d3ce7d929d924cd2b8684f45b.jpg)  
@@ -5981,7 +5787,7 @@ Introducing the function  $\gamma$ , the termination function, is particularly s
 estimate. Now the return is defined more generally as
 
 $$
-\begin{array}{l} G _ {t} \dot {=} R _ {t + 1} + \gamma_ {t + 1} G _ {t + 1} \\ = R _ {t + 1} + \gamma_ {t + 1} R _ {t + 2} + \gamma_ {t + 1} \gamma_ {t + 2} R _ {t + 3} + \gamma_ {t + 1} \gamma_ {t + 2} \gamma_ {t + 3} R _ {t + 4} + \dots \\ = \sum_ {k = t} ^ {\infty} \left(\prod_ {i = t + 1} ^ {k} \gamma_ {i}\right) R _ {k + 1}, \tag {12.17} \\ \end{array}
+\begin{array}{l} G_{t} \dot {=} R_{t + 1} + \gamma_{t + 1} G_{t + 1} \\ = R_{t + 1} + \gamma_{t + 1} R_{t + 2} + \gamma_{t + 1} \gamma_{t + 2} R_{t + 3} + \gamma_{t + 1} \gamma_{t + 2} \gamma_{t + 3} R_{t + 4} + \dots \\ = \sum_{k = t} ^{\infty} \left(\prod_{i = t + 1} ^{k} \gamma_{i}\right) R_{k + 1}, \tag {12.17} \\ \end{array}
 $$
 
 where, to assure the sums are finite, we require that  $\prod_{k = t}^{\infty}\gamma_k = 0$  with probability one for all  $t$ . One convenient aspect of this definition is that it enables the episodic setting and its algorithms to be presented in terms of a single stream of experience, without special terminal states, start distributions, or termination times. An erstwhile terminal state becomes a state at which  $\gamma (s) = 0$  and which transitions to the start distribution. In that way (and by choosing  $\gamma (\cdot)$  as a constant in all other states) we can recover the classical episodic setting as a special case. State dependent termination includes other prediction cases such as pseudo termination, in which we seek to predict a quantity without altering the flow of the Markov process. Discounted returns can be thought of as such a quantity, in which case state-dependent termination unifies the episodic and discounted-continuing cases. (The undiscounted-continuing case still needs some special treatment.)
@@ -5989,25 +5795,25 @@ where, to assure the sums are finite, we require that  $\prod_{k = t}^{\infty}\g
 The generalization to variable bootstrapping is not a change in the problem, like discounting, but a change in the solution strategy. The generalization affects the  $\lambda$ -returns for states and actions. The new state-based  $\lambda$ -return can be written recursively as
 
 $$
-G _ {t} ^ {\lambda_ {s}} \doteq R _ {t + 1} + \gamma_ {t + 1} \left((1 - \lambda_ {t + 1}) \hat {v} \left(S _ {t + 1}, \mathbf {w} _ {t}\right) + \lambda_ {t + 1} G _ {t + 1} ^ {\lambda_ {s}}\right), \tag {12.18}
+G_{t} ^{\lambda_{s}} \doteq R_{t + 1} + \gamma_{t + 1} \left((1 - \lambda_{t + 1}) \hat {v} \left(S_{t + 1}, \mathbf{w}_{t}\right) + \lambda_{t + 1} G_{t + 1} ^{\lambda_{s}}\right), \tag {12.18}
 $$
 
 where now we have added the "s" to the superscript  $\lambda$  to remind us that this is a return that bootstraps from state values, distinguishing it from returns that bootstrap from action values, which we present below with "a" in the superscript. This equation says that the  $\lambda$ -return is the first reward, undiscounted and unaffected by bootstrapping, plus possibly a second term to the extent that we are not discounting at the next state (that is, according to  $\gamma_{t+1}$ ; recall that this is zero if the next state is terminal). To the extent that we aren't terminating at the next state, we have a second term which is itself divided into two cases depending on the degree of bootstrapping in the state. To the extent we are bootstrapping, this term is the estimated value at the state, whereas, to the extent that we are not bootstrapping, the term is the  $\lambda$ -return for the next time step. The action-based  $\lambda$ -return is either the Sarsa form
 
 $$
-G _ {t} ^ {\lambda a} \doteq R _ {t + 1} + \gamma_ {t + 1} \left((1 - \lambda_ {t + 1}) \hat {q} \left(S _ {t + 1}, A _ {t + 1}, \mathbf {w} _ {t}\right) + \lambda_ {t + 1} G _ {t + 1} ^ {\lambda a}\right), \tag {12.19}
+G_{t} ^{\lambda a} \doteq R_{t + 1} + \gamma_{t + 1} \left((1 - \lambda_{t + 1}) \hat {q} \left(S_{t + 1}, A_{t + 1}, \mathbf{w}_{t}\right) + \lambda_{t + 1} G_{t + 1} ^{\lambda a}\right), \tag {12.19}
 $$
 
 or the Expected Sarsa form,
 
 $$
-G _ {t} ^ {\lambda a} \doteq R _ {t + 1} + \gamma_ {t + 1} \left((1 - \lambda_ {t + 1}) \bar {V} _ {t} \left(S _ {t + 1}\right) + \lambda_ {t + 1} G _ {t + 1} ^ {\lambda a}\right), \tag {12.20}
+G_{t} ^{\lambda a} \doteq R_{t + 1} + \gamma_{t + 1} \left((1 - \lambda_{t + 1}) \bar{V}_{t} \left(S_{t + 1}\right) + \lambda_{t + 1} G_{t + 1} ^{\lambda a}\right), \tag {12.20}
 $$
 
 where (7.8) is generalized to function approximation as
 
 $$
-\bar {V} _ {t} (s) \doteq \sum_ {a} \pi (a | s) \hat {q} (s, a, \mathbf {w} _ {t}). \tag {12.21}
+\bar{V}_{t} (s) \doteq \sum_{a} \pi (a | s) \hat {q} (s, a, \mathbf{w}_{t}). \tag {12.21}
 $$
 
 Exercise 12.7 Generalize the three recursive equations above to their truncated versions, defining  $G_{t:h}^{\lambda s}$  and  $G_{t:h}^{\lambda a}$ .
@@ -6019,19 +5825,19 @@ The final step is to incorporate importance sampling. For methods using non-trun
 In the state case, our final definition of the  $\lambda$ -return generalizes (12.18), after the model of (7.13), to
 
 $$
-G _ {t} ^ {\lambda s} \doteq \rho_ {t} \left(R _ {t + 1} + \gamma_ {t + 1} \left((1 - \lambda_ {t + 1}) \hat {v} \left(S _ {t + 1}, \mathbf {w} _ {t}\right) + \lambda_ {t + 1} G _ {t + 1} ^ {\lambda s}\right)\right) + (1 - \rho_ {t}) \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right), \tag {12.22}
+G_{t} ^{\lambda s} \doteq \rho_{t} \left(R_{t + 1} + \gamma_{t + 1} \left((1 - \lambda_{t + 1}) \hat {v} \left(S_{t + 1}, \mathbf{w}_{t}\right) + \lambda_{t + 1} G_{t + 1} ^{\lambda s}\right)\right) + (1 - \rho_{t}) \hat {v} \left(S_{t}, \mathbf{w}_{t}\right), \tag {12.22}
 $$
 
 where  $\rho_{t} = \frac{\pi(A_{t}|S_{t})}{b(A_{t}|S_{t})}$  is the usual single-step importance sampling ratio. Much like the other returns we have seen in this book, this final  $\lambda$ -return can be approximated simply in terms of sums of the state-based TD error,
 
 $$
-\delta_ {t} ^ {s} \doteq R _ {t + 1} + \gamma_ {t + 1} \hat {v} \left(S _ {t + 1}, \mathbf {w} _ {t}\right) - \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right), \tag {12.23}
+\delta_{t} ^{s} \doteq R_{t + 1} + \gamma_{t + 1} \hat {v} \left(S_{t + 1}, \mathbf{w}_{t}\right) - \hat {v} \left(S_{t}, \mathbf{w}_{t}\right), \tag {12.23}
 $$
 
 as
 
 $$
-G _ {t} ^ {\lambda s} \approx \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right) + \rho_ {t} \sum_ {k = t} ^ {\infty} \delta_ {k} ^ {s} \prod_ {i = t + 1} ^ {k} \gamma_ {i} \lambda_ {i} \rho_ {i}, \tag {12.24}
+G_{t} ^{\lambda s} \approx \hat {v} \left(S_{t}, \mathbf{w}_{t}\right) + \rho_{t} \sum_{k = t} ^{\infty} \delta_{k} ^{s} \prod_{i = t + 1} ^{k} \gamma_{i} \lambda_{i} \rho_{i}, \tag {12.24}
 $$
 
 with the approximation becoming exact if the approximate value function does not change.
@@ -6043,7 +5849,7 @@ Exercise 12.9 The truncated version of the general off-policy return is denoted 
 The above form of the  $\lambda$ -return (12.24) is convenient to use in a forward-view update,
 
 $$
-\begin{array}{l} \mathbf {w} _ {t + 1} = \mathbf {w} _ {t} + \alpha \left(G _ {t} ^ {\lambda s} - \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right)\right) \nabla \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right) \\ \approx \mathbf {w} _ {t} + \alpha \rho_ {t} \left(\sum_ {k = t} ^ {\infty} \delta_ {k} ^ {s} \prod_ {i = t + 1} ^ {k} \gamma_ {i} \lambda_ {i} \rho_ {i}\right) \nabla \hat {v} (S _ {t}, \mathbf {w} _ {t}), \\ \end{array}
+\begin{array}{l} \mathbf{w}_{t + 1} = \mathbf{w}_{t} + \alpha \left(G_{t} ^{\lambda s} - \hat {v} \left(S_{t}, \mathbf{w}_{t}\right)\right) \nabla \hat {v} \left(S_{t}, \mathbf{w}_{t}\right) \\ \approx \mathbf{w}_{t} + \alpha \rho_{t} \left(\sum_{k = t} ^{\infty} \delta_{k} ^{s} \prod_{i = t + 1} ^{k} \gamma_{i} \lambda_{i} \rho_{i}\right) \nabla \hat {v} (S_{t}, \mathbf{w}_{t}), \\ \end{array}
 $$
 
 which to the experienced eye looks like an eligibility-based TD update—the product is like an eligibility trace and it is multiplied by TD errors. But this is just one time step of a forward view. The relationship that we are looking for is that the forward-view update, summed over time, is approximately equal to a backward-view update, summed over time (this relationship is only approximate because again we ignore changes in the value
@@ -6051,23 +5857,23 @@ which to the experienced eye looks like an eligibility-based TD update—the pro
 function). The sum of the forward-view update over time is
 
 $$
-\begin{array}{l} \sum_ {t = 0} ^ {\infty} \left(\mathbf {w} _ {t + 1} - \mathbf {w} _ {t}\right) \approx \sum_ {t = 0} ^ {\infty} \sum_ {k = t} ^ {\infty} \alpha \rho_ {t} \delta_ {k} ^ {s} \nabla \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right) \prod_ {i = t + 1} ^ {k} \gamma_ {i} \lambda_ {i} \rho_ {i} \\ = \sum_ {k = 0} ^ {\infty} \sum_ {t = 0} ^ {k} \alpha \rho_ {t} \nabla \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right) \delta_ {k} ^ {s} \prod_ {i = t + 1} ^ {k} \gamma_ {i} \lambda_ {i} \rho_ {i} \\ \end{array}
+\begin{array}{l} \sum_{t = 0} ^{\infty} \left(\mathbf{w}_{t + 1} - \mathbf{w}_{t}\right) \approx \sum_{t = 0} ^{\infty} \sum_{k = t} ^{\infty} \alpha \rho_{t} \delta_{k} ^{s} \nabla \hat {v} \left(S_{t}, \mathbf{w}_{t}\right) \prod_{i = t + 1} ^{k} \gamma_{i} \lambda_{i} \rho_{i} \\ = \sum_{k = 0} ^{\infty} \sum_{t = 0} ^{k} \alpha \rho_{t} \nabla \hat {v} \left(S_{t}, \mathbf{w}_{t}\right) \delta_{k} ^{s} \prod_{i = t + 1} ^{k} \gamma_{i} \lambda_{i} \rho_{i} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \text {(u s i n g t h e s u m m a t i o n r u l e :} \sum_ {t = x} ^ {y} \sum_ {k = t} ^ {y} = \sum_ {k = x} ^ {y} \sum_ {t = x} ^ {k}) \\ = \sum_ {k = 0} ^ {\infty} \alpha \delta_ {k} ^ {s} \sum_ {t = 0} ^ {k} \rho_ {t} \nabla \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right) \prod_ {i = t + 1} ^ {k} \gamma_ {i} \lambda_ {i} \rho_ {i}, \\ \end{array}
+\begin{array}{l} \text{(usingthesummationrule :} \sum_{t = x} ^{y} \sum_{k = t} ^{y} = \sum_{k = x} ^{y} \sum_{t = x} ^{k}) \\ = \sum_{k = 0} ^{\infty} \alpha \delta_{k} ^{s} \sum_{t = 0} ^{k} \rho_{t} \nabla \hat {v} \left(S_{t}, \mathbf{w}_{t}\right) \prod_{i = t + 1} ^{k} \gamma_{i} \lambda_{i} \rho_{i}, \\ \end{array}
 $$
 
 which would be in the form of the sum of a backward-view TD update if the entire expression from the second sum on could be written and updated incrementally as an eligibility trace, which we now show can be done. That is, we show that if this expression was the trace at time  $k$ , then we could update it from its value at time  $k - 1$  by:
 
 $$
-\begin{array}{l} \mathbf {z} _ {k} = \sum_ {t = 0} ^ {k} \rho_ {t} \nabla \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right) \prod_ {i = t + 1} ^ {k} \gamma_ {i} \lambda_ {i} \rho_ {i} \\ = \sum_ {t = 0} ^ {k - 1} \rho_ {t} \nabla \hat {v} (S _ {t}, \mathbf {w} _ {t}) \prod_ {i = t + 1} ^ {k} \gamma_ {i} \lambda_ {i} \rho_ {i} + \rho_ {k} \nabla \hat {v} (S _ {k}, \mathbf {w} _ {k}) \\ = \gamma_ {k} \lambda_ {k} \rho_ {k} \underbrace {\sum_ {t = 0} ^ {k - 1} \rho_ {t} \nabla \hat {v} (S _ {t} , \mathbf {w} _ {t}) \prod_ {i = t + 1} ^ {k - 1} \gamma_ {i} \lambda_ {i} \rho_ {i}} _ {\mathbf {z} _ {k - 1}} + \rho_ {k} \nabla \hat {v} (S _ {k}, \mathbf {w} _ {k}) \\ = \rho_ {k} \left(\gamma_ {k} \lambda_ {k} \mathbf {z} _ {k - 1} + \nabla \hat {v} \left(S _ {k}, \mathbf {w} _ {k}\right)\right), \\ \end{array}
+\begin{array}{l} \mathbf{z}_{k} = \sum_{t = 0} ^{k} \rho_{t} \nabla \hat {v} \left(S_{t}, \mathbf{w}_{t}\right) \prod_{i = t + 1} ^{k} \gamma_{i} \lambda_{i} \rho_{i} \\ = \sum_{t = 0} ^{k - 1} \rho_{t} \nabla \hat {v} (S_{t}, \mathbf{w}_{t}) \prod_{i = t + 1} ^{k} \gamma_{i} \lambda_{i} \rho_{i} + \rho_{k} \nabla \hat {v} (S_{k}, \mathbf{w}_{k}) \\ = \gamma_{k} \lambda_{k} \rho_{k} \underbrace {\sum_{t = 0} ^{k - 1} \rho_{t} \nabla \hat {v} (S_{t} , \mathbf{w}_{t}) \prod_{i = t + 1} ^{k - 1} \gamma_{i} \lambda_{i} \rho_{i}}_{\mathbf{z}_{k - 1}} + \rho_{k} \nabla \hat {v} (S_{k}, \mathbf{w}_{k}) \\ = \rho_{k} \left(\gamma_{k} \lambda_{k} \mathbf{z}_{k - 1} + \nabla \hat {v} \left(S_{k}, \mathbf{w}_{k}\right)\right), \\ \end{array}
 $$
 
 which, changing the index from  $k$  to  $t$ , is the general accumulating trace update for state values:
 
 $$
-\mathbf {z} _ {t} \doteq \rho_ {t} \left(\gamma_ {t} \lambda_ {t} \mathbf {z} _ {t - 1} + \nabla \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right)\right), \tag {12.25}
+\mathbf{z}_{t} \doteq \rho_{t} \left(\gamma_{t} \lambda_{t} \mathbf{z}_{t - 1} + \nabla \hat {v} \left(S_{t}, \mathbf{w}_{t}\right)\right), \tag {12.25}
 $$
 
 This eligibility trace, together with the usual semi-gradient parameter-update rule for  $\mathrm{TD}(\lambda)$  (12.7), forms a general  $\mathrm{TD}(\lambda)$  algorithm that can be applied to either on-policy or off-policy data. In the on-policy case, the algorithm is exactly  $\mathrm{TD}(\lambda)$  because  $\rho_{t}$  is always 1 and (12.25) becomes the usual accumulating trace (12.5) (extended to variable  $\lambda$  and  $\gamma$ ). In the off-policy case, the algorithm often works well but, as a semi-gradient method, is not guaranteed to be stable. In the next few sections we will consider extensions of it that do guarantee stability.
@@ -6077,19 +5883,19 @@ A very similar series of steps can be followed to derive the off-policy eligibil
 off-policy case after the model of (7.14) to produce
 
 $$
-\begin{array}{l} G _ {t} ^ {\lambda a} \doteq R _ {t + 1} + \gamma_ {t + 1} \left(\left(1 - \lambda_ {t + 1}\right) \bar {V} _ {t} \left(S _ {t + 1}\right) + \lambda_ {t + 1} \left[ \rho_ {t + 1} G _ {t + 1} ^ {\lambda a} + \bar {V} _ {t} \left(S _ {t + 1}\right) - \rho_ {t + 1} \hat {q} \left(S _ {t + 1}, A _ {t + 1}, \mathbf {w} _ {t}\right) \right]\right) \\ = R _ {t + 1} + \gamma_ {t + 1} \left(\bar {V} _ {t} \left(S _ {t + 1}\right) + \lambda_ {t + 1} \rho_ {t + 1} \left[ G _ {t + 1} ^ {\lambda a} - \hat {q} \left(S _ {t + 1}, A _ {t + 1}, \mathbf {w} _ {t}\right) \right]\right) \tag {12.26} \\ \end{array}
+\begin{array}{l} G_{t} ^{\lambda a} \doteq R_{t + 1} + \gamma_{t + 1} \left(\left(1 - \lambda_{t + 1}\right) \bar{V}_{t} \left(S_{t + 1}\right) + \lambda_{t + 1} \left[ \rho_{t + 1} G_{t + 1} ^{\lambda a} + \bar{V}_{t} \left(S_{t + 1}\right) - \rho_{t + 1} \hat {q} \left(S_{t + 1}, A_{t + 1}, \mathbf{w}_{t}\right) \right]\right) \\ = R_{t + 1} + \gamma_{t + 1} \left(\bar{V}_{t} \left(S_{t + 1}\right) + \lambda_{t + 1} \rho_{t + 1} \left[ G_{t + 1} ^{\lambda a} - \hat {q} \left(S_{t + 1}, A_{t + 1}, \mathbf{w}_{t}\right) \right]\right) \tag {12.26} \\ \end{array}
 $$
 
 where  $\bar{V}_t(S_{t + 1})$  is as given by (12.21). Again the  $\lambda$ -return can be written approximately as the sum of TD errors,
 
 $$
-G _ {t} ^ {\lambda a} \approx \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t}\right) + \sum_ {k = t} ^ {\infty} \delta_ {k} ^ {a} \prod_ {i = t + 1} ^ {k} \gamma_ {i} \lambda_ {i} \rho_ {i}, \tag {12.27}
+G_{t} ^{\lambda a} \approx \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t}\right) + \sum_{k = t} ^{\infty} \delta_{k} ^{a} \prod_{i = t + 1} ^{k} \gamma_{i} \lambda_{i} \rho_{i}, \tag {12.27}
 $$
 
 using the expectation form of the action-based TD error:
 
 $$
-\delta_ {t} ^ {a} = R _ {t + 1} + \gamma_ {t + 1} \bar {V} _ {t} \left(S _ {t + 1}\right) - \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t}\right). \tag {12.28}
+\delta_{t} ^{a} = R_{t + 1} + \gamma_{t + 1} \bar{V}_{t} \left(S_{t + 1}\right) - \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t}\right). \tag {12.28}
 $$
 
 As before, the approximation becomes exact if the approximate value function does not change.
@@ -6101,7 +5907,7 @@ Exercise 12.11 The truncated version of the general off-policy return is denoted
 Using steps entirely analogous to those for the state case, one can write a forward-view update based on (12.27), transform the sum of the updates using the summation rule, and finally derive the following form for the eligibility trace for action values:
 
 $$
-\mathbf {z} _ {t} \doteq \gamma_ {t} \lambda_ {t} \rho_ {t} \mathbf {z} _ {t - 1} + \nabla \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t}\right). \tag {12.29}
+\mathbf{z}_{t} \doteq \gamma_{t} \lambda_{t} \rho_{t} \mathbf{z}_{t - 1} + \nabla \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t}\right). \tag {12.29}
 $$
 
 This eligibility trace, together with the expectation-based TD error (12.28) and the usual semi-gradient parameter-update rule (12.7), forms an elegant, efficient Expected Sarsa  $(\lambda)$  algorithm that can be applied to either on-policy or off-policy data. It is probably the best algorithm of this type at the current time (though of course it is not guaranteed to be stable until combined in some way with one of the methods presented in the following sections). In the on-policy case with constant  $\lambda$  and  $\gamma$ , and the usual state-action TD error (12.16), the algorithm would be identical to the Sarsa  $(\lambda)$  algorithm presented in Section 12.7.
@@ -6128,13 +5934,13 @@ Figure 12.12: The backup diagram for Watkins's  $\mathrm{Q}(\lambda)$ . The seri
 The concept of  $\mathrm{TB}(\lambda)$  is straightforward. As shown in its backup diagram in Figure 12.13, the tree-backup updates of each length (from Section 7.5) are weighted in the usual way dependent on the bootstrapping parameter  $\lambda$ . To get the detailed equations, with the right indices on the general bootstrapping and discounting parameters, it is best to start with a recursive form (12.20) for the  $\lambda$ -return using action values, and then expand the bootstrapping case of the target after the model of (7.16):
 
 $$
-\begin{array}{l} G _ {t} ^ {\lambda a} \doteq R _ {t + 1} + \gamma_ {t + 1} \left((1 - \lambda_ {t + 1}) \bar {V} _ {t} (S _ {t + 1}) + \lambda_ {t + 1} \left[ \sum_ {a \neq A _ {t + 1}} \pi (a | S _ {t + 1}) \hat {q} (S _ {t + 1}, a, \mathbf {w} _ {t}) + \pi (A _ {t + 1} | S _ {t + 1}) G _ {t + 1} ^ {\lambda a} \right]\right) \\ = R _ {t + 1} + \gamma_ {t + 1} \left(\bar {V} _ {t} \left(S _ {t + 1}\right) + \lambda_ {t + 1} \pi \left(A _ {t + 1} \mid S _ {t + 1}\right) \left(G _ {t + 1} ^ {\lambda a} - \hat {q} \left(S _ {t + 1}, A _ {t + 1}, \mathbf {w} _ {t}\right)\right)\right) \\ \end{array}
+\begin{array}{l} G_{t} ^{\lambda a} \doteq R_{t + 1} + \gamma_{t + 1} \left((1 - \lambda_{t + 1}) \bar{V}_{t} (S_{t + 1}) + \lambda_{t + 1} \left[ \sum_{a \neq A_{t + 1}} \pi (a | S_{t + 1}) \hat {q} (S_{t + 1}, a, \mathbf{w}_{t}) + \pi (A_{t + 1} | S_{t + 1}) G_{t + 1} ^{\lambda a} \right]\right) \\ = R_{t + 1} + \gamma_{t + 1} \left(\bar{V}_{t} \left(S_{t + 1}\right) + \lambda_{t + 1} \pi \left(A_{t + 1} \mid S_{t + 1}\right) \left(G_{t + 1} ^{\lambda a} - \hat {q} \left(S_{t + 1}, A_{t + 1}, \mathbf{w}_{t}\right)\right)\right) \\ \end{array}
 $$
 
 As per the usual pattern, it can also be written approximately (ignoring changes in the approximate value function) as a sum of TD errors,
 
 $$
-G _ {t} ^ {\lambda a} \approx \hat {q} (S _ {t}, A _ {t}, \mathbf {w} _ {t}) + \sum_ {k = t} ^ {\infty} \delta_ {k} ^ {a} \prod_ {i = t + 1} ^ {k} \gamma_ {i} \lambda_ {i} \pi (A _ {i} | S _ {i}),
+G_{t} ^{\lambda a} \approx \hat {q} (S_{t}, A_{t}, \mathbf{w}_{t}) + \sum_{k = t} ^{\infty} \delta_{k} ^{a} \prod_{i = t + 1} ^{k} \gamma_{i} \lambda_{i} \pi (A_{i} | S_{i}),
 $$
 
 using the expectation form of the action-based TD error (12.28).
@@ -6142,7 +5948,7 @@ using the expectation form of the action-based TD error (12.28).
 Following the same steps as in the previous section, we arrive at a special eligibility trace update involving the target-policy probabilities of the selected actions,
 
 $$
-\mathbf {z} _ {t} \dot {=} \gamma_ {t} \lambda_ {t} \pi (A _ {t} | S _ {t}) \mathbf {z} _ {t - 1} + \nabla \hat {q} (S _ {t}, A _ {t}, \mathbf {w} _ {t}).
+\mathbf{z}_{t} \dot {=} \gamma_{t} \lambda_{t} \pi (A_{t} | S_{t}) \mathbf{z}_{t - 1} + \nabla \hat {q} (S_{t}, A_{t}, \mathbf{w}_{t}).
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-27/49679741-8fd3-4cf0-866b-8d1b426c0b71/0e0b1ca0dee56b3412932bd7d687197b8d1cf2b015881853c47a0fde8c0452ea.jpg)  
@@ -6159,13 +5965,13 @@ Several methods using eligibility traces have been proposed that achieve guarant
 $GTD(\lambda)$  is the eligibility-trace algorithm analogous to TDC, the better of the two state-value Gradient-TD prediction algorithms discussed in Section 11.7. Its goal is to learn a parameter  $\mathbf{w}_t$  such that  $\hat{v}(s,\mathbf{w})\doteq \mathbf{w}_t^\top \mathbf{x}(s)\approx v_\pi(s)$ , even from data that is due to following another policy  $b$ . Its update is
 
 $$
-\mathbf {w} _ {t + 1} \doteq \mathbf {w} _ {t} + \alpha \delta_ {t} ^ {s} \mathbf {z} _ {t} - \alpha \gamma_ {t + 1} (1 - \lambda_ {t + 1}) (\mathbf {z} _ {t} ^ {\top} \mathbf {v} _ {t}) \mathbf {x} _ {t + 1},
+\mathbf{w}_{t + 1} \doteq \mathbf{w}_{t} + \alpha \delta_{t} ^{s} \mathbf{z}_{t} - \alpha \gamma_{t + 1} (1 - \lambda_{t + 1}) (\mathbf{z}_{t} ^{\top} \mathbf{v}_{t}) \mathbf{x}_{t + 1},
 $$
 
 with  $\delta_t^s$ ,  $\mathbf{z}_t$ , and  $\rho_t$  defined in the usual ways for state values (12.23) (12.25) (11.1), and
 
 $$
-\mathbf {v} _ {t + 1} \doteq \mathbf {v} _ {t} + \beta \delta_ {t} ^ {s} \mathbf {z} _ {t} - \beta \left(\mathbf {v} _ {t} ^ {\top} \mathbf {x} _ {t}\right) \mathbf {x} _ {t}, \tag {12.30}
+\mathbf{v}_{t + 1} \doteq \mathbf{v}_{t} + \beta \delta_{t} ^{s} \mathbf{z}_{t} - \beta \left(\mathbf{v}_{t} ^{\top} \mathbf{x}_{t}\right) \mathbf{x}_{t}, \tag {12.30}
 $$
 
 where, as in Section 11.7,  $\mathbf{v} \in \mathbb{R}^d$  is a vector of the same dimension as  $\mathbf{w}$ , initialized to  $\mathbf{v}_0 = \mathbf{0}$ , and  $\beta > 0$  is a second step-size parameter.
@@ -6173,19 +5979,19 @@ where, as in Section 11.7,  $\mathbf{v} \in \mathbb{R}^d$  is a vector of the sa
 $GQ(\lambda)$  is the Gradient-TD algorithm for action values with eligibility traces. Its goal is to learn a parameter  $\mathbf{w}_t$  such that  $\hat{q}(s, a, \mathbf{w}_t) \doteq \mathbf{w}_t^\top \mathbf{x}(s, a) \approx q_\pi(s, a)$  from off-policy data. If the target policy is  $\varepsilon$ -greedy, or otherwise biased toward the greedy policy for  $\hat{q}$ , then  $\mathrm{GQ}(\lambda)$  can be used as a control algorithm. Its update is
 
 $$
-\mathbf {w} _ {t + 1} \doteq \mathbf {w} _ {t} + \alpha \delta_ {t} ^ {a} \mathbf {z} _ {t} - \alpha \gamma_ {t + 1} (1 - \lambda_ {t + 1}) \left(\mathbf {z} _ {t} ^ {\top} \mathbf {v} _ {t}\right) \bar {\mathbf {x}} _ {t + 1},
+\mathbf{w}_{t + 1} \doteq \mathbf{w}_{t} + \alpha \delta_{t} ^{a} \mathbf{z}_{t} - \alpha \gamma_{t + 1} (1 - \lambda_{t + 1}) \left(\mathbf{z}_{t} ^{\top} \mathbf{v}_{t}\right) \bar{\mathbf{x}}_{t + 1},
 $$
 
 where  $\bar{\mathbf{x}}_t$  is the average feature vector for  $S_{t}$  under the target policy,
 
 $$
-\bar {\mathbf {x}} _ {t} \doteq \sum_ {a} \pi (a | S _ {t}) \mathbf {x} (S _ {t}, a),
+\bar{\mathbf{x}}_{t} \doteq \sum_{a} \pi (a | S_{t}) \mathbf{x} (S_{t}, a),
 $$
 
 $\delta_t^a$  is the expectation form of the TD error, which can be written
 
 $$
-\delta_ {t} ^ {a} \doteq R _ {t + 1} + \gamma_ {t + 1} \mathbf {w} _ {t} ^ {\top} \bar {\mathbf {x}} _ {t + 1} - \mathbf {w} _ {t} ^ {\top} \mathbf {x} _ {t},
+\delta_{t} ^{a} \doteq R_{t + 1} + \gamma_{t + 1} \mathbf{w}_{t} ^{\top} \bar{\mathbf{x}}_{t + 1} - \mathbf{w}_{t} ^{\top} \mathbf{x}_{t},
 $$
 
 $\mathbf{z}_t$  is defined in the usual way for action values (12.29), and the rest is as in  $\mathrm{GTD}(\lambda)$  including the update for  $\mathbf{v}_t$  (12.30).
@@ -6193,7 +5999,7 @@ $\mathbf{z}_t$  is defined in the usual way for action values (12.29), and the r
 $HTD(\lambda)$  is a hybrid state-value algorithm combining aspects of  $\mathrm{GTD}(\lambda)$  and  $\mathrm{TD}(\lambda)$ . Its most appealing feature is that it is a strict generalization of  $\mathrm{TD}(\lambda)$  to off-policy learning, meaning that if the behavior policy happens to be the same as the target policy, then  $\mathrm{HTD}(\lambda)$  becomes the same as  $\mathrm{TD}(\lambda)$ , which is not true for  $\mathrm{GTD}(\lambda)$ . This is appealing because  $\mathrm{TD}(\lambda)$  is often faster than  $\mathrm{GTD}(\lambda)$  when both algorithms converge, and  $\mathrm{TD}(\lambda)$  requires setting only a single step size.  $\mathrm{HTD}(\lambda)$  is defined by
 
 $$
-\begin{array}{l} \mathbf {w} _ {t + 1} \doteq \mathbf {w} _ {t} + \alpha \delta_ {t} ^ {s} \mathbf {z} _ {t} + \alpha \left(\left(\mathbf {z} _ {t} - \mathbf {z} _ {t} ^ {b}\right) ^ {\top} \mathbf {v} _ {t}\right) \left(\mathbf {x} _ {t} - \gamma_ {t + 1} \mathbf {x} _ {t + 1}\right), \\ \mathbf {v} _ {t + 1} \doteq \mathbf {v} _ {t} + \beta \delta_ {t} ^ {s} \mathbf {z} _ {t} - \beta \left(\mathbf {z} _ {t} ^ {b ^ {\top}} \mathbf {v} _ {t}\right) (\mathbf {x} _ {t} - \gamma_ {t + 1} \mathbf {x} _ {t + 1}), \quad \mathrm {w i t h} \mathbf {v} _ {0} \doteq \mathbf {0}, \\ \mathbf {z} _ {t} \doteq \rho_ {t} \left(\gamma_ {t} \lambda_ {t} \mathbf {z} _ {t - 1} + \mathbf {x} _ {t}\right), \quad \text {w i t h} \mathbf {z} _ {- 1} \doteq \mathbf {0}, \\ \mathbf {z} _ {t} ^ {b} \doteq \gamma_ {t} \lambda_ {t} \mathbf {z} _ {t - 1} ^ {b} + \mathbf {x} _ {t}, \quad \text {w i t h} \mathbf {z} _ {- 1} ^ {b} \doteq \mathbf {0}, \\ \end{array}
+\begin{array}{l} \mathbf{w}_{t + 1} \doteq \mathbf{w}_{t} + \alpha \delta_{t} ^{s} \mathbf{z}_{t} + \alpha \left(\left(\mathbf{z}_{t} - \mathbf{z}_{t} ^{b}\right)^{\top} \mathbf{v}_{t}\right) \left(\mathbf{x}_{t} - \gamma_{t + 1} \mathbf{x}_{t + 1}\right), \\ \mathbf{v}_{t + 1} \doteq \mathbf{v}_{t} + \beta \delta_{t} ^{s} \mathbf{z}_{t} - \beta \left(\mathbf{z}_{t} ^{b^{\top}} \mathbf{v}_{t}\right) (\mathbf{x}_{t} - \gamma_{t + 1} \mathbf{x}_{t + 1}), \quad \mathrm{with} \mathbf{v}_{0} \doteq \mathbf{0}, \\ \mathbf{z}_{t} \doteq \rho_{t} \left(\gamma_{t} \lambda_{t} \mathbf{z}_{t - 1} + \mathbf{x}_{t}\right), \quad \text{with } \mathbf{z}_{- 1} \doteq \mathbf{0}, \\ \mathbf{z}_{t} ^{b} \doteq \gamma_{t} \lambda_{t} \mathbf{z}_{t - 1} ^{b} + \mathbf{x}_{t}, \quad \text{with } \mathbf{z}_{- 1} ^{b} \doteq \mathbf{0}, \\ \end{array}
 $$
 
 where  $\beta > 0$  again is a second step-size parameter. In addition to the second set of weights,  $\mathbf{v}_t$ ,  $\mathrm{HTD}(\lambda)$  also has a second set of eligibility traces,  $\mathbf{z}_t^b$ . These are conventional accumulating eligibility traces for the behavior policy and become equal to  $\mathbf{z}_t$  if all the  $\rho_t$  are 1, which causes the last term in the  $\mathbf{w}_t$  update to be zero and the overall update to reduce to  $\mathrm{TD}(\lambda)$ .
@@ -6203,11 +6009,11 @@ Emphatic  $TD(\lambda)$  is the extension of the one-step Emphatic-TD algorithm 
 high variance and potentially slow convergence. Emphatic  $\mathrm{TD}(\lambda)$  is defined by
 
 $$
-\mathbf {w} _ {t + 1} \dot {=} \mathbf {w} _ {t} + \alpha \delta_ {t} \mathbf {z} _ {t}
+\mathbf{w}_{t + 1} \dot {=} \mathbf{w}_{t} + \alpha \delta_{t} \mathbf{z}_{t}
 $$
 
 $$
-\begin{array}{l} \delta_ {t} \dot {=} R _ {t + 1} + \gamma_ {t + 1} \mathbf {w} _ {t} ^ {\top} \mathbf {x} _ {t + 1} - \mathbf {w} _ {t} ^ {\top} \mathbf {x} _ {t} \\ \mathbf {z} _ {t} \doteq \rho_ {t} \left(\gamma_ {t} \lambda_ {t} \mathbf {z} _ {t - 1} + M _ {t} \mathbf {x} _ {t}\right), \quad \text {w i t h} \mathbf {z} _ {- 1} \doteq \mathbf {0}, \\ M _ {t} \dot {=} \lambda_ {t} I _ {t} + (1 - \lambda_ {t}) F _ {t} \\ F _ {t} \doteq \rho_ {t - 1} \gamma_ {t} F _ {t - 1} + I _ {t}, \quad \text {w i t h} F _ {0} \doteq i (S _ {0}), \\ \end{array}
+\begin{array}{l} \delta_{t} \dot {=} R_{t + 1} + \gamma_{t + 1} \mathbf{w}_{t} ^{\top} \mathbf{x}_{t + 1} - \mathbf{w}_{t} ^{\top} \mathbf{x}_{t} \\ \mathbf{z}_{t} \doteq \rho_{t} \left(\gamma_{t} \lambda_{t} \mathbf{z}_{t - 1} + M_{t} \mathbf{x}_{t}\right), \quad \text{with } \mathbf{z}_{- 1} \doteq \mathbf{0}, \\ M_{t} \dot {=} \lambda_{t} I_{t} + (1 - \lambda_{t}) F_{t} \\ F_{t} \doteq \rho_{t - 1} \gamma_{t} F_{t - 1} + I_{t}, \quad \text{with } F_{0} \doteq i (S_{0}), \\ \end{array}
 $$
 
 where  $M_t \geq 0$  is the general form of emphasis,  $F_t \geq 0$  is termed the follow-on trace, and  $I_t \geq 0$  is the interest, as described in Section 11.8. Note that  $M_t$ , like  $\delta_t$ , is not really an additional memory variable. It can be removed from the algorithm by substituting its definition into the eligibility-trace equation. Pseudocode and software for the true online version of Emphatic-TD( $\lambda$ ) are available on the web (Sutton, 2015b).
@@ -6271,7 +6077,7 @@ In this chapter we consider something new. So far in this book almost all the me
 In this chapter we consider methods for learning the policy parameter based on the gradient of some scalar performance measure  $J(\pmb{\theta})$  with respect to the policy parameter. These methods seek to maximize performance, so their updates approximate gradient ascent in  $J$ :
 
 $$
-\boldsymbol {\theta} _ {t + 1} = \boldsymbol {\theta} _ {t} + \alpha \widehat {\nabla J (\boldsymbol {\theta} _ {t})}, \tag {13.1}
+\boldsymbol{\theta}_{t + 1} = \boldsymbol{\theta}_{t} + \alpha \widehat {\nabla J (\boldsymbol{\theta}_{t})}, \tag {13.1}
 $$
 
 where  $\widehat{\nabla J(\pmb{\theta}_t)}\in \mathbb{R}^{d'}$  is a stochastic estimate whose expectation approximates the gradient of the performance measure with respect to its argument  $\pmb{\theta}_t$ . All methods that follow this general schema we call policy gradient methods, whether or not they also learn an approximate value function. Methods that learn approximations to both policy and value functions are often called actor-critic methods, where 'actor' is a reference to the learned policy, and 'critic' refers to the learned value function, usually a state-value function. First we treat the episodic case, in which performance is defined as the value of the start state under the parameterized policy, before going on to consider the continuing case, in
@@ -6285,7 +6091,7 @@ In policy gradient methods, the policy can be parameterized in any way, as long 
 If the action space is discrete and not too large, then a natural and common kind of parameterization is to form parameterized numerical preferences  $h(s,a,\pmb{\theta}) \in \mathbb{R}$  for each state-action pair. The actions with the highest preferences in each state are given the highest probabilities of being selected, for example, according to an exponential soft-max distribution:
 
 $$
-\pi (a | s, \boldsymbol {\theta}) \doteq \frac {e ^ {h (s , a , \boldsymbol {\theta})}}{\sum_ {b} e ^ {h (s , b , \boldsymbol {\theta})}}, \tag {13.2}
+\pi (a | s, \boldsymbol{\theta}) \doteq \frac{e^{h (s , a , \boldsymbol{\theta})}}{\sum_{b} e^{h (s , b , \boldsymbol{\theta})}}, \tag {13.2}
 $$
 
 where  $e \approx 2.71828$  is the base of the natural logarithm. Note that the denominator here is just what is required so that the action probabilities in each state sum to one. We call this kind of policy parameterization soft-max in action preferences.
@@ -6293,7 +6099,7 @@ where  $e \approx 2.71828$  is the base of the natural logarithm. Note that the 
 The action preferences themselves can be parameterized arbitrarily. For example, they might be computed by a deep artificial neural network (ANN), where  $\theta$  is the vector of all the connection weights of the network (as in the AlphaGo system described in Section 16.6). Or the preferences could simply be linear in features,
 
 $$
-h (s, a, \boldsymbol {\theta}) = \boldsymbol {\theta} ^ {\top} \mathbf {x} (s, a), \tag {13.3}
+h (s, a, \boldsymbol{\theta}) = \boldsymbol{\theta} ^{\top} \mathbf{x} (s, a), \tag {13.3}
 $$
 
 using feature vectors  $\mathbf{x}(s,a)\in \mathbb{R}^{d^{\prime}}$  constructed by any of the methods described in Section 9.5.
@@ -6325,7 +6131,7 @@ The episodic and continuing cases define the performance measure,  $J(\theta)$ ,
 In this section we treat the episodic case, for which we define the performance measure as the value of the start state of the episode. We can simplify the notation without losing any meaningful generality by assuming that every episode starts in some particular (non-random) state  $s_0$ . Then, in the episodic case we define performance as
 
 $$
-J (\boldsymbol {\theta}) \doteq v _ {\pi_ {\boldsymbol {\theta}}} (s _ {0}), \tag {13.4}
+J (\boldsymbol{\theta}) \doteq v_{\pi_{\boldsymbol{\theta}}} (s_{0}), \tag {13.4}
 $$
 
 where  $v_{\pi_\theta}$  is the true value function for  $\pi_\theta$ , the policy determined by  $\pmb{\theta}$ . From here on in our discussion we will assume no discounting  $(\gamma = 1)$  for the episodic case, although for completeness we do include the possibility of discounting in the boxed algorithms.
@@ -6337,19 +6143,19 @@ With function approximation it may seem challenging to change the policy paramet
 With just elementary calculus and re-arranging of terms, we can prove the policy gradient theorem from first principles. To keep the notation simple, we leave it implicit in all cases that  $\pi$  is a function of  $\theta$ , and all gradients are also implicitly with respect to  $\theta$ . First note that the gradient of the state-value function can be written in terms of the action-value function as
 
 $$
-\begin{array}{l} \nabla v _ {\pi} (s) = \nabla \left[ \sum_ {a} \pi (a | s) q _ {\pi} (s, a) \right], \quad \text {f o r a l l} s \in \mathcal {S} \tag {Exercise 3.18} \\ = \sum_ {a} \left[ \nabla \pi (a | s) q _ {\pi} (s, a) + \pi (a | s) \nabla q _ {\pi} (s, a) \right] (\text {p r o d u c t r u l e o f c a l c u l u s}) \\ = \sum_ {a} \left[ \nabla \pi (a | s) q _ {\pi} (s, a) + \pi (a | s) \nabla \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r | s, a\right) \left(r + v _ {\pi} \left(s ^ {\prime}\right)\right) \right] \\ \end{array}
+\begin{array}{l} \nabla v_{\pi} (s) = \nabla \left[ \sum_{a} \pi (a | s) q_{\pi} (s, a) \right], \quad \text{for all} s \in \mathcal{S} \tag {Exercise 3.18} \\ = \sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \nabla q_{\pi} (s, a) \right] (\text{product rule of calculus}) \\ = \sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \nabla \sum_{s^{\prime}, r} p \left(s^{\prime}, r | s, a\right) \left(r + v_{\pi} \left(s^{\prime}\right)\right) \right] \\ \end{array}
 $$
 
 (Exercise 3.19 and Equation 3.2)
 
 $$
-\begin{array}{l} = \sum_ {a} \left[ \nabla \pi (a | s) q _ {\pi} (s, a) + \pi (a | s) \sum_ {s ^ {\prime}} p \left(s ^ {\prime} \mid s, a\right) \nabla v _ {\pi} \left(s ^ {\prime}\right) \right] \tag {Eq.3.4} \\ = \sum_ {a} \left[ \nabla \pi (a | s) q _ {\pi} (s, a) + \pi (a | s) \sum_ {s ^ {\prime}} p \left(s ^ {\prime} \mid s, a\right) \right. \quad (\text {u n r o l l i n g}) \\ \left. \sum_ {a ^ {\prime}} \left[ \nabla \pi (a ^ {\prime} | s ^ {\prime}) q _ {\pi} (s ^ {\prime}, a ^ {\prime}) + \pi (a ^ {\prime} | s ^ {\prime}) \sum_ {s ^ {\prime \prime}} p (s ^ {\prime \prime} | s ^ {\prime}, a ^ {\prime}) \nabla v _ {\pi} (s ^ {\prime \prime}) \right] \right] \\ = \sum_ {x \in \mathcal {S}} \sum_ {k = 0} ^ {\infty} \Pr (s \rightarrow x, k, \pi) \sum_ {a} \nabla \pi (a | x) q _ {\pi} (x, a), \\ \end{array}
+\begin{array}{l} = \sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \sum_{s^{\prime}} p \left(s^{\prime} \mid s, a\right) \nabla v_{\pi} \left(s^{\prime}\right) \right] \tag {Eq.3.4} \\ = \sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \sum_{s^{\prime}} p \left(s^{\prime} \mid s, a\right) \right. \quad (\text{unrolling}) \\ \left. \sum_{a^{\prime}} \left[ \nabla \pi (a^{\prime} | s^{\prime}) q_{\pi} (s^{\prime}, a^{\prime}) + \pi (a^{\prime} | s^{\prime}) \sum_{s^{\prime \prime}} p (s^{\prime \prime} | s^{\prime}, a^{\prime}) \nabla v_{\pi} (s^{\prime \prime}) \right] \right] \\ = \sum_{x \in \mathcal{S}} \sum_{k = 0} ^{\infty} \Pr (s \rightarrow x, k, \pi) \sum_{a} \nabla \pi (a | x) q_{\pi} (x, a), \\ \end{array}
 $$
 
 after repeated unrolling, where  $\operatorname*{Pr}(s\to x,k,\pi)$  is the probability of transitioning from state  $s$  to state  $x$  in  $k$  steps under policy  $\pi$ . It is then immediate that
 
 $$
-\begin{array}{l} \nabla J (\pmb {\theta}) = \nabla v _ {\pi} (s _ {0}) \\ = \sum_ {s} \left(\sum_ {k = 0} ^ {\infty} \Pr (s _ {0} \rightarrow s, k, \pi)\right) \sum_ {a} \nabla \pi (a | s) q _ {\pi} (s, a) \\ = \sum_ {s} \eta (s) \sum_ {a} \nabla \pi (a | s) q _ {\pi} (s, a) \quad (\text {b o x p a g e 1 9 9}) \\ = \sum_ {s ^ {\prime}} \eta (s ^ {\prime}) \sum_ {s} \frac {\eta (s)}{\sum_ {s ^ {\prime}} \eta (s ^ {\prime})} \sum_ {a} \nabla \pi (a | s) q _ {\pi} (s, a) \\ = \sum_ {s ^ {\prime}} \eta \left(s ^ {\prime}\right) \sum_ {s} \mu (s) \sum_ {a} \nabla \pi (a | s) q _ {\pi} (s, a) (Eq.9.3) \\ \propto \sum_ {s} \mu (s) \sum_ {a} \nabla \pi (a | s) q _ {\pi} (s, a) (Q.E.D.) \\ \end{array}
+\begin{array}{l} \nabla J (\pmb{\theta}) = \nabla v_{\pi} (s_{0}) \\ = \sum_{s} \left(\sum_{k = 0} ^{\infty} \Pr (s_{0} \rightarrow s, k, \pi)\right) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) \\ = \sum_{s} \eta (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) \quad (\text{boxpage 19 9}) \\ = \sum_{s^{\prime}} \eta (s^{\prime}) \sum_{s} \frac{\eta (s)}{\sum_{s^{\prime}} \eta (s^{\prime})} \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) \\ = \sum_{s^{\prime}} \eta \left(s^{\prime}\right) \sum_{s} \mu (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) (Eq.9.3) \\ \propto \sum_{s} \mu (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) (Q.E.D.) \\ \end{array}
 $$
 
 on the state distribution is a function of the environment and is typically unknown. How can we estimate the performance gradient with respect to the policy parameter when the gradient depends on the unknown effect of policy changes on the state distribution?
@@ -6357,7 +6163,7 @@ on the state distribution is a function of the environment and is typically unkn
 Fortunately, there is an excellent theoretical answer to this challenge in the form of the policy gradient theorem, which provides an analytic expression for the gradient of performance with respect to the policy parameter (which is what we need to approximate for gradient ascent (13.1)) that does not involve the derivative of the state distribution. The policy gradient theorem for the episodic case establishes that
 
 $$
-\nabla J (\boldsymbol {\theta}) \propto \sum_ {s} \mu (s) \sum_ {a} q _ {\pi} (s, a) \nabla \pi (a | s, \boldsymbol {\theta}), \tag {13.5}
+\nabla J (\boldsymbol{\theta}) \propto \sum_{s} \mu (s) \sum_{a} q_{\pi} (s, a) \nabla \pi (a | s, \boldsymbol{\theta}), \tag {13.5}
 $$
 
 where the gradients are column vectors of partial derivatives with respect to the components of  $\theta$ , and  $\pi$  denotes the policy corresponding to parameter vector  $\theta$ . The symbol  $\propto$  here means "proportional to". In the episodic case, the constant of proportionality is the average length of an episode, and in the continuing case it is 1, so that the relationship is actually an equality. The distribution  $\mu$  here (as in Chapters 9 and 10) is the on-policy distribution under  $\pi$  (see page 199). The policy gradient theorem is proved for the episodic case in the box on the previous page.
@@ -6367,13 +6173,13 @@ where the gradients are column vectors of partial derivatives with respect to th
 We are now ready to derive our first policy-gradient learning algorithm. Recall our overall strategy of stochastic gradient ascent (13.1), which requires a way to obtain samples such that the expectation of the sample gradient is proportional to the actual gradient of the performance measure as a function of the parameter. The sample gradients need only be proportional to the gradient because any constant of proportionality can be absorbed into the step size  $\alpha$ , which is otherwise arbitrary. The policy gradient theorem gives an exact expression proportional to the gradient; all that is needed is some way of sampling whose expectation equals or approximates this expression. Notice that the right-hand side of the policy gradient theorem is a sum over states weighted by how often the states occur under the target policy  $\pi$ ; if  $\pi$  is followed, then states will be encountered in these proportions. Thus
 
 $$
-\begin{array}{l} \nabla J (\boldsymbol {\theta}) \propto \sum_ {s} \mu (s) \sum_ {a} q _ {\pi} (s, a) \nabla \pi (a | s, \boldsymbol {\theta}) \\ = \mathbb {E} _ {\pi} \left[ \sum_ {a} q _ {\pi} \left(S _ {t}, a\right) \nabla \pi (a \mid S _ {t}, \boldsymbol {\theta}) \right]. \tag {13.6} \\ \end{array}
+\begin{array}{l} \nabla J (\boldsymbol{\theta}) \propto \sum_{s} \mu (s) \sum_{a} q_{\pi} (s, a) \nabla \pi (a | s, \boldsymbol{\theta}) \\ = \mathbb{E}_{\pi} \left[ \sum_{a} q_{\pi} \left(S_{t}, a\right) \nabla \pi (a \mid S_{t}, \boldsymbol{\theta}) \right]. \tag {13.6} \\ \end{array}
 $$
 
 We could stop here and instantiate our stochastic gradient-ascent algorithm (13.1) as
 
 $$
-\boldsymbol {\theta} _ {t + 1} \doteq \boldsymbol {\theta} _ {t} + \alpha \sum_ {a} \hat {q} \left(S _ {t}, a, \mathbf {w}\right) \nabla \pi (a | S _ {t}, \boldsymbol {\theta}), \tag {13.7}
+\boldsymbol{\theta}_{t + 1} \doteq \boldsymbol{\theta}_{t} + \alpha \sum_{a} \hat {q} \left(S_{t}, a, \mathbf{w}\right) \nabla \pi (a | S_{t}, \boldsymbol{\theta}), \tag {13.7}
 $$
 
 where  $\hat{q}$  is some learned approximation to  $q_{\pi}$ . This algorithm, which has been called an all-actions method because its update involves all of the actions, is promising and
@@ -6383,26 +6189,26 @@ deserving of further study, but our current interest is the classical REINFORCE 
 We continue our derivation of REINFORCE by introducing  $A_{t}$  in the same way as we introduced  $S_{t}$  in (13.6)—by replacing a sum over the random variable's possible values by an expectation under  $\pi$ , and then sampling the expectation. Equation (13.6) involves an appropriate sum over actions, but each term is not weighted by  $\pi(a|S_{t},\pmb{\theta})$  as is needed for an expectation under  $\pi$ . So we introduce such a weighting, without changing the equality, by multiplying and then dividing the summed terms by  $\pi(a|S_{t},\pmb{\theta})$ . Continuing from (13.6), we have
 
 $$
-\begin{array}{l} \nabla J (\boldsymbol {\theta}) \propto \mathbb {E} _ {\pi} \left[ \sum_ {a} \pi (a | S _ {t}, \boldsymbol {\theta}) q _ {\pi} (S _ {t}, a) \frac {\nabla \pi (a | S _ {t} , \boldsymbol {\theta})}{\pi (a | S _ {t} , \boldsymbol {\theta})} \right] \\ = \mathbb {E} _ {\pi} \left[ q _ {\pi} \left(S _ {t}, A _ {t}\right) \frac {\nabla \pi \left(A _ {t} \mid S _ {t} , \boldsymbol {\theta}\right)}{\pi \left(A _ {t} \mid S _ {t} , \boldsymbol {\theta}\right)} \right] \quad (\text {r e p l a c i n g} a \text {b y t h e s a m p l e} A _ {t} \sim \pi) \\ = \mathbb {E} _ {\pi} \left[ G _ {t} \frac {\nabla \pi \left(A _ {t} \mid S _ {t} , \boldsymbol {\theta}\right)}{\pi \left(A _ {t} \mid S _ {t} , \boldsymbol {\theta}\right)} \right], \quad \text {(b e c a u s e} \mathbb {E} _ {\pi} \left[ G _ {t} \mid S _ {t}, A _ {t} \right] = q _ {\pi} \left(S _ {t}, A _ {t}\right)) \\ \end{array}
+\begin{array}{l} \nabla J (\boldsymbol{\theta}) \propto \mathbb{E}_{\pi} \left[ \sum_{a} \pi (a | S_{t}, \boldsymbol{\theta}) q_{\pi} (S_{t}, a) \frac{\nabla \pi (a | S_{t} , \boldsymbol{\theta})}{\pi (a | S_{t} , \boldsymbol{\theta})} \right] \\ = \mathbb{E}_{\pi} \left[ q_{\pi} \left(S_{t}, A_{t}\right) \frac{\nabla \pi \left(A_{t} \mid S_{t} , \boldsymbol{\theta}\right)}{\pi \left(A_{t} \mid S_{t} , \boldsymbol{\theta}\right)} \right] \quad (\text{replacing} a \text{bythesample} A_{t} \sim \pi) \\ = \mathbb{E}_{\pi} \left[ G_{t} \frac{\nabla \pi \left(A_{t} \mid S_{t} , \boldsymbol{\theta}\right)}{\pi \left(A_{t} \mid S_{t} , \boldsymbol{\theta}\right)} \right], \quad \text{(because} \mathbb{E}_{\pi} \left[ G_{t} \mid S_{t}, A_{t} \right] = q_{\pi} \left(S_{t}, A_{t}\right)) \\ \end{array}
 $$
 
 where  $G_{t}$  is the return as usual. The final expression in brackets is exactly what is needed, a quantity that can be sampled on each time step whose expectation is proportional to the gradient. Using this sample to instantiate our generic stochastic gradient ascent algorithm (13.1) yields the REINFORCE update:
 
 $$
-\boldsymbol {\theta} _ {t + 1} \doteq \boldsymbol {\theta} _ {t} + \alpha G _ {t} \frac {\nabla \pi \left(A _ {t} \mid S _ {t} , \boldsymbol {\theta} _ {t}\right)}{\pi \left(A _ {t} \mid S _ {t} , \boldsymbol {\theta} _ {t}\right)}. \tag {13.8}
+\boldsymbol{\theta}_{t + 1} \doteq \boldsymbol{\theta}_{t} + \alpha G_{t} \frac{\nabla \pi \left(A_{t} \mid S_{t} , \boldsymbol{\theta}_{t}\right)}{\pi \left(A_{t} \mid S_{t} , \boldsymbol{\theta}_{t}\right)}. \tag {13.8}
 $$
 
 This update has an intuitive appeal. Each increment is proportional to the product of a return  $G_{t}$  and a vector, the gradient of the probability of taking the action actually taken divided by the probability of taking that action. The vector is the direction in parameter space that most increases the probability of repeating the action  $A_{t}$  on future visits to state  $S_{t}$ . The update increases the parameter vector in this direction proportional to the return, and inversely proportional to the action probability. The former makes sense because it causes the parameter to move most in the directions that favor actions that yield the highest return. The latter makes sense because otherwise actions that are selected frequently are at an advantage (the updates will be more often in their direction) and might win out even if they do not yield the highest return.
 
 Note that REINFORCE uses the complete return from time  $t$ , which includes all future rewards up until the end of the episode. In this sense REINFORCE is a Monte Carlo algorithm and is well defined only for the episodic case with all updates made in retrospect after the episode is completed (like the Monte Carlo algorithms in Chapter 5). This is shown explicitly in the boxed algorithm on the next page.
 
-Notice that the update in the last line of pseudocode appears rather different from the REINFORCE update rule (13.8). One difference is that the pseudocode uses the compact expression  $\nabla \ln \pi (A_t|S_t,\pmb {\theta}_t)$  for the fractional vector  $\frac{\nabla\pi(A_t|S_t,\pmb{\theta}_t)}{\pi(A_t|S_t,\pmb{\theta}_t)}$  in (13.8). That these two expressions for the vector are equivalent follows from the identity  $\nabla \ln x = \frac{\nabla x}{x}$ .
+Notice that the update in the last line of pseudocode appears rather different from the REINFORCE update rule (13.8). One difference is that the pseudocode uses the compact expression  $\nabla \ln \pi (A_t|S_t,\pmb{\theta}_t)$  for the fractional vector  $\frac{\nabla\pi(A_t|S_t,\pmb{\theta}_t)}{\pi(A_t|S_t,\pmb{\theta}_t)}$  in (13.8). That these two expressions for the vector are equivalent follows from the identity  $\nabla \ln x = \frac{\nabla x}{x}$ .
 
 This vector has been given several names and notations in the literature; we will refer to it simply as the eligibility vector. Note that it is the only place that the policy parameterization appears in the algorithm.
 
 # REINFORCE: Monte-Carlo Policy-Gradient Control (episodic) for  $\pi_*$
 
-Input: a differentiable policy parameterization  $\pi (a|s,\pmb {\theta})$
+Input: a differentiable policy parameterization  $\pi (a|s,\pmb{\theta})$
 
 Algorithm parameter: step size  $\alpha >0$
 
@@ -6415,11 +6221,11 @@ Generate an episode  $S_0, A_0, R_1, \ldots, S_{T-1}, A_{T-1}, R_T$ , following 
 Loop for each step of the episode  $t = 0,1,\ldots ,T - 1$
 
 $$
-G \leftarrow \sum_ {k = t + 1} ^ {T} \gamma^ {k - t - 1} R _ {k} \tag {Gt}
+G \leftarrow \sum_{k = t + 1} ^{T} \gamma^{k - t - 1} R_{k} \tag {Gt}
 $$
 
 $$
-\boldsymbol {\theta} \leftarrow \boldsymbol {\theta} + \alpha \gamma^ {t} G \nabla \ln \pi \left(A _ {t} \mid S _ {t}, \boldsymbol {\theta}\right)
+\boldsymbol{\theta} \leftarrow \boldsymbol{\theta} + \alpha \gamma^{t} G \nabla \ln \pi \left(A_{t} \mid S_{t}, \boldsymbol{\theta}\right)
 $$
 
 The second difference between the pseudocode update and the REINFORCE update equation (13.8) is that the former includes a factor of  $\gamma^t$ . This is because, as mentioned earlier, in the text we are treating the non-discounted case ( $\gamma = 1$ ) while in the boxed algorithms we are giving the algorithms for the general discounted case. All of the ideas go through in the discounted case with appropriate adjustments (including to the box on page 199) but involve additional complexity that distracts from the main ideas.
@@ -6436,7 +6242,7 @@ As a stochastic gradient method, REINFORCE has good theoretical convergence prop
 Exercise 13.3 In Section 13.1 we considered policy parameterizations using the soft-max in action preferences (13.2) with linear action preferences (13.3). For this parameterization, prove that the eligibility vector is
 
 $$
-\nabla \ln \pi (a | s, \boldsymbol {\theta}) = \mathbf {x} (s, a) - \sum_ {b} \pi (b | s, \boldsymbol {\theta}) \mathbf {x} (s, b), \tag {13.9}
+\nabla \ln \pi (a | s, \boldsymbol{\theta}) = \mathbf{x} (s, a) - \sum_{b} \pi (b | s, \boldsymbol{\theta}) \mathbf{x} (s, b), \tag {13.9}
 $$
 
 using the definitions and elementary calculus.
@@ -6446,19 +6252,19 @@ using the definitions and elementary calculus.
 The policy gradient theorem (13.5) can be generalized to include a comparison of the action value to an arbitrary baseline  $b(s)$ :
 
 $$
-\nabla J (\boldsymbol {\theta}) \propto \sum_ {s} \mu (s) \sum_ {a} \left(q _ {\pi} (s, a) - b (s)\right) \nabla \pi (a | s, \boldsymbol {\theta}). \tag {13.10}
+\nabla J (\boldsymbol{\theta}) \propto \sum_{s} \mu (s) \sum_{a} \left(q_{\pi} (s, a) - b (s)\right) \nabla \pi (a | s, \boldsymbol{\theta}). \tag {13.10}
 $$
 
 The baseline can be any function, even a random variable, as long as it does not vary with  $a$ ; the equation remains valid because the subtracted quantity is zero:
 
 $$
-\sum_ {a} b (s) \nabla \pi (a | s, \pmb {\theta}) = b (s) \nabla \sum_ {a} \pi (a | s, \pmb {\theta}) = b (s) \nabla 1 = 0.
+\sum_{a} b (s) \nabla \pi (a | s, \pmb{\theta}) = b (s) \nabla \sum_{a} \pi (a | s, \pmb{\theta}) = b (s) \nabla 1 = 0.
 $$
 
 The policy gradient theorem with baseline (13.10) can be used to derive an update rule using similar steps as in the previous section. The update rule that we end up with is a new version of REINFORCE that includes a general baseline:
 
 $$
-\boldsymbol {\theta} _ {t + 1} \doteq \boldsymbol {\theta} _ {t} + \alpha \left(G _ {t} - b \left(S _ {t}\right)\right) \frac {\nabla \pi \left(A _ {t} \mid S _ {t} , \boldsymbol {\theta} _ {t}\right)}{\pi \left(A _ {t} \mid S _ {t} , \boldsymbol {\theta} _ {t}\right)}. \tag {13.11}
+\boldsymbol{\theta}_{t + 1} \doteq \boldsymbol{\theta}_{t} + \alpha \left(G_{t} - b \left(S_{t}\right)\right) \frac{\nabla \pi \left(A_{t} \mid S_{t} , \boldsymbol{\theta}_{t}\right)}{\pi \left(A_{t} \mid S_{t} , \boldsymbol{\theta}_{t}\right)}. \tag {13.11}
 $$
 
 Because the baseline could be uniformly zero, this update is a strict generalization of REINFORCE. In general, the baseline leaves the expected value of the update unchanged, but it can have a large effect on its variance. For example, we saw in Section 2.8 that an analogous baseline can significantly reduce the variance (and thus speed the learning) of gradient bandit algorithms. In the bandit algorithms the baseline was just a number (the average of the rewards seen so far), but for MDPs the baseline should vary with state. In some states all actions have high values and we need a high baseline to differentiate the higher valued actions from the less highly valued ones; in other states all actions will have low values and a low baseline is appropriate.
@@ -6469,7 +6275,7 @@ Because REINFORCE is a Monte Carlo method for learning the policy parameter,  $\
 
 # REINFORCE with Baseline (episodic), for estimating  $\pi_{\theta} \approx \pi_*$
 
-Input: a differentiable policy parameterization  $\pi (a|s,\pmb {\theta})$
+Input: a differentiable policy parameterization  $\pi (a|s,\pmb{\theta})$
 
 Input: a differentiable state-value function parameterization  $\hat{v}(s, \mathbf{w})$
 
@@ -6484,19 +6290,19 @@ Generate an episode  $S_0, A_0, R_1, \ldots, S_{T-1}, A_{T-1}, R_T$ , following 
 Loop for each step of the episode  $t = 0,1,\ldots ,T - 1$
 
 $$
-G \leftarrow \sum_ {k = t + 1} ^ {T} \gamma^ {k - t - 1} R _ {k} \tag {Gt}
+G \leftarrow \sum_{k = t + 1} ^{T} \gamma^{k - t - 1} R_{k} \tag {Gt}
 $$
 
 $$
-\delta \leftarrow G - \hat {v} (S _ {t}, \mathbf {w})
+\delta \leftarrow G - \hat {v} (S_{t}, \mathbf{w})
 $$
 
 $$
-\mathbf {w} \leftarrow \mathbf {w} + \alpha^ {\mathbf {w}} \delta \nabla \hat {v} \left(S _ {t}, \mathbf {w}\right)
+\mathbf{w} \leftarrow \mathbf{w} + \alpha^{\mathbf{w}} \delta \nabla \hat {v} \left(S_{t}, \mathbf{w}\right)
 $$
 
 $$
-\boldsymbol {\theta} \leftarrow \boldsymbol {\theta} + \alpha^ {\boldsymbol {\theta}} \gamma^ {t} \delta \nabla \ln \pi \left(A _ {t} \mid S _ {t}, \boldsymbol {\theta}\right)
+\boldsymbol{\theta} \leftarrow \boldsymbol{\theta} + \alpha^{\boldsymbol{\theta}} \gamma^{t} \delta \nabla \ln \pi \left(A_{t} \mid S_{t}, \boldsymbol{\theta}\right)
 $$
 
 This algorithm has two step sizes, denoted  $\alpha^{\theta}$  and  $\alpha^{\mathbf{w}}$  (where  $\alpha^{\theta}$  is the  $\alpha$  in (13.11)). Choosing the step size for values (here  $\alpha^{\mathbf{w}}$ ) is relatively easy; in the linear case we have rules of thumb for setting it, such as  $\alpha^{\mathbf{w}} = 0.1 / \mathbb{E}\big[\| \nabla \hat{v} (S_t,\mathbf{w})\|_\mu^2\big]$  (see Section 9.6). It is much less clear how to set the step size for the policy parameters,  $\alpha^{\theta}$ , whose best value depends on the range of variation of the rewards and on the policy parameterization.
@@ -6513,7 +6319,7 @@ In REINFORCE with baseline, the learned state-value function estimates the value
 First consider one-step actor-critic methods, the analog of the TD methods introduced in Chapter 6 such as TD(0), Sarsa(0), and Q-learning. The main appeal of one-step methods is that they are fully online and incremental, yet avoid the complexities of eligibility traces. They are a special case of the eligibility trace methods, but easier to understand. One-step actor-critic methods replace the full return of REINFORCE (13.11) with the one-step return (and use a learned state-value function as the baseline) as follows:
 
 $$
-\begin{array}{l} \boldsymbol {\theta} _ {t + 1} \doteq \boldsymbol {\theta} _ {t} + \alpha \left(G _ {t: t + 1} - \hat {v} \left(S _ {t}, \mathbf {w}\right)\right) \frac {\nabla \pi \left(A _ {t} \mid S _ {t} , \boldsymbol {\theta} _ {t}\right)}{\pi \left(A _ {t} \mid S _ {t} , \boldsymbol {\theta} _ {t}\right)} (13.12) \\ = \boldsymbol {\theta} _ {t} + \alpha \left(R _ {t + 1} + \gamma \hat {v} \left(S _ {t + 1}, \mathbf {w}\right) - \hat {v} \left(S _ {t}, \mathbf {w}\right)\right) \frac {\nabla \pi \left(A _ {t} \mid S _ {t} , \boldsymbol {\theta} _ {t}\right)}{\pi \left(A _ {t} \mid S _ {t} , \boldsymbol {\theta} _ {t}\right)} (13.13) \\ = \boldsymbol {\theta} _ {t} + \alpha \delta_ {t} \frac {\nabla \pi \left(A _ {t} \mid S _ {t} , \boldsymbol {\theta} _ {t}\right)}{\pi \left(A _ {t} \mid S _ {t} , \boldsymbol {\theta} _ {t}\right)}. (13.14) \\ \end{array}
+\begin{array}{l} \boldsymbol{\theta}_{t + 1} \doteq \boldsymbol{\theta}_{t} + \alpha \left(G_{t: t + 1} - \hat {v} \left(S_{t}, \mathbf{w}\right)\right) \frac{\nabla \pi \left(A_{t} \mid S_{t} , \boldsymbol{\theta}_{t}\right)}{\pi \left(A_{t} \mid S_{t} , \boldsymbol{\theta}_{t}\right)} (13.12) \\ = \boldsymbol{\theta}_{t} + \alpha \left(R_{t + 1} + \gamma \hat {v} \left(S_{t + 1}, \mathbf{w}\right) - \hat {v} \left(S_{t}, \mathbf{w}\right)\right) \frac{\nabla \pi \left(A_{t} \mid S_{t} , \boldsymbol{\theta}_{t}\right)}{\pi \left(A_{t} \mid S_{t} , \boldsymbol{\theta}_{t}\right)} (13.13) \\ = \boldsymbol{\theta}_{t} + \alpha \delta_{t} \frac{\nabla \pi \left(A_{t} \mid S_{t} , \boldsymbol{\theta}_{t}\right)}{\pi \left(A_{t} \mid S_{t} , \boldsymbol{\theta}_{t}\right)}. (13.14) \\ \end{array}
 $$
 
 The natural state-value-function learning method to pair with this is semi-gradient TD(0). Pseudocode for the complete algorithm is given in the box at the top of the next page. Note that it is now a fully online, incremental algorithm, with states, actions, and rewards processed as they occur and then never revisited.
@@ -6522,13 +6328,13 @@ One-step Actor-Critic (episodic), for estimating  $\pi_{\theta} \approx \pi_*$
 Input: a differentiable policy parameterization  $\pi (a|s,\theta)$   
 Input: a differentiable state-value function parameterization  $\hat{v} (s,\mathbf{w})$   
 Parameters: step sizes  $\alpha^{\theta} > 0$ ,  $\alpha^{\mathbf{w}} > 0$   
-Initialize policy parameter  $\pmb {\theta}\in \mathbb{R}^{d^{\prime}}$  and state-value weights  $\mathbf{w}\in \mathbb{R}^{d}$  (e.g., to 0)  
+Initialize policy parameter  $\pmb{\theta}\in \mathbb{R}^{d^{\prime}}$  and state-value weights  $\mathbf{w}\in \mathbb{R}^{d}$  (e.g., to 0)  
 Loop forever (for each episode):  
 Initialize  $S$  (first state of episode)  
  $I\gets 1$   
 Loop while  $S$  is not terminal (for each time step):  
- $A\sim \pi (\cdot |S,\pmb {\theta})$   
-Take action  $A$ , observe  $S^{\prime},R$ $\delta \leftarrow R + \gamma \hat{v} (S^{\prime},\mathbf{w}) - \hat{v} (S,\mathbf{w})$  (if  $S^{\prime}$  is terminal, then  $\hat{v} (S^{\prime},\mathbf{w})\doteq 0$ $\mathbf{w}\leftarrow \mathbf{w} + \alpha^{\mathbf{w}}\delta \nabla \hat{v} (S,\mathbf{w})$ $\pmb {\theta}\leftarrow \pmb {\theta} + \alpha^{\pmb{\theta}}I\delta \nabla \ln \pi (A|S,\pmb {\theta})$ $I\leftarrow \gamma I$ $S\gets S^{\prime}$
+ $A\sim \pi (\cdot |S,\pmb{\theta})$   
+Take action  $A$ , observe  $S^{\prime},R$ $\delta \leftarrow R + \gamma \hat{v} (S^{\prime},\mathbf{w}) - \hat{v} (S,\mathbf{w})$  (if  $S^{\prime}$  is terminal, then  $\hat{v} (S^{\prime},\mathbf{w})\doteq 0$ $\mathbf{w}\leftarrow \mathbf{w} + \alpha^{\mathbf{w}}\delta \nabla \hat{v} (S,\mathbf{w})$ $\pmb{\theta}\leftarrow \pmb{\theta} + \alpha^{\pmb{\theta}}I\delta \nabla \ln \pi (A|S,\pmb{\theta})$ $I\leftarrow \gamma I$ $S\gets S^{\prime}$
 
 The generalizations to the forward view of  $n$ -step methods and then to a  $\lambda$ -return algorithm are straightforward. The one-step return in (13.12) is merely replaced by  $G_{t:t+n}$  or  $G_t^\lambda$  respectively. The backward view of the  $\lambda$ -return algorithm is also straightforward, using separate eligibility traces for the actor and critic, each after the patterns in Chapter 12. Pseudocode for the complete algorithm is given in the box below.
 
@@ -6552,20 +6358,20 @@ Take action  $A$ , observe  $S', R$ $\delta \gets R + \gamma \hat{v}(S',\mathbf{
 As discussed in Section 10.3, for continuing problems without episode boundaries we need to define performance in terms of the average rate of reward per time step:
 
 $$
-\begin{array}{l} J (\boldsymbol {\theta}) \doteq r (\pi) \doteq \lim  _ {h \rightarrow \infty} \frac {1}{h} \sum_ {t = 1} ^ {h} \mathbb {E} \left[ R _ {t} \mid S _ {0}, A _ {0: t - 1} \sim \pi \right] \tag {13.15} \\ = \lim  _ {t \rightarrow \infty} \mathbb {E} \left[ R _ {t} \mid S _ {0}, A _ {0: t - 1} \sim \pi \right] \\ = \sum_ {s} \mu (s) \sum_ {a} \pi (a | s) \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r \mid s, a\right) r, \\ \end{array}
+\begin{array}{l} J (\boldsymbol{\theta}) \doteq r (\pi) \doteq \lim_{h \rightarrow \infty} \frac{1}{h} \sum_{t = 1} ^{h} \mathbb{E} \left[ R_{t} \mid S_{0}, A_{0: t - 1} \sim \pi \right] \tag {13.15} \\ = \lim_{t \rightarrow \infty} \mathbb{E} \left[ R_{t} \mid S_{0}, A_{0: t - 1} \sim \pi \right] \\ = \sum_{s} \mu (s) \sum_{a} \pi (a | s) \sum_{s^{\prime}, r} p \left(s^{\prime}, r \mid s, a\right) r, \\ \end{array}
 $$
 
 where  $\mu$  is the steady-state distribution under  $\pi$ ,  $\mu(s) \doteq \lim_{t \to \infty} \operatorname*{Pr}\{S_t = s | A_{0:t} \sim \pi\}$ , which is assumed to exist and to be independent of  $S_0$  (an ergodicity assumption). Remember that this is the special distribution under which, if you select actions according to  $\pi$ , you remain in the same distribution:
 
 $$
-\sum_ {s} \mu (s) \sum_ {a} \pi (a | s, \boldsymbol {\theta}) p \left(s ^ {\prime} \mid s, a\right) = \mu \left(s ^ {\prime}\right), \text {f o r a l l} s ^ {\prime} \in \mathcal {S}. \tag {13.16}
+\sum_{s} \mu (s) \sum_{a} \pi (a | s, \boldsymbol{\theta}) p \left(s^{\prime} \mid s, a\right) = \mu \left(s^{\prime}\right), \text{for all} s^{\prime} \in \mathcal{S}. \tag {13.16}
 $$
 
 Complete pseudocode for the actor-critic algorithm in the continuing case (backward view) is given in the box below.
 
 # Actor-Critic with Eligibility Traces (continuing), for estimating  $\pi_{\theta} \approx \pi_*$
 
-Input: a differentiable policy parameterization  $\pi (a|s,\pmb {\theta})$
+Input: a differentiable policy parameterization  $\pi (a|s,\pmb{\theta})$
 
 Input: a differentiable state-value function parameterization  $\hat{v}(s, \mathbf{w})$
 
@@ -6584,43 +6390,43 @@ $\mathbf{z}^{\theta}\gets \mathbf{0}$  ( $d'$ -component eligibility trace vecto
 Loop forever (for each time step):
 
 $$
-A \sim \pi (\cdot | S, \boldsymbol {\theta})
+A \sim \pi (\cdot | S, \boldsymbol{\theta})
 $$
 
 Take action  $A$ , observe  $S', R$
 
 $$
-\delta \leftarrow R - \bar {R} + \hat {v} (S ^ {\prime}, \mathbf {w}) - \hat {v} (S, \mathbf {w})
+\delta \leftarrow R - \bar{R} + \hat {v} (S^{\prime}, \mathbf{w}) - \hat {v} (S, \mathbf{w})
 $$
 
 $$
-\bar {R} \leftarrow \bar {R} + \alpha^ {\bar {R}} \delta
+\bar{R} \leftarrow \bar{R} + \alpha^{\bar{R}} \delta
 $$
 
 $$
-\mathbf {z} ^ {\mathbf {w}} \leftarrow \lambda^ {\mathbf {w}} \mathbf {z} ^ {\mathbf {w}} + \nabla \hat {v} (S, \mathbf {w})
+\mathbf{z} ^{\mathbf{w}} \leftarrow \lambda^{\mathbf{w}} \mathbf{z} ^{\mathbf{w}} + \nabla \hat {v} (S, \mathbf{w})
 $$
 
 $$
-\mathbf {z} ^ {\theta} \leftarrow \lambda^ {\theta} \mathbf {z} ^ {\theta} + \nabla \ln \pi (A | S, \theta)
+\mathbf{z} ^{\theta} \leftarrow \lambda^{\theta} \mathbf{z} ^{\theta} + \nabla \ln \pi (A | S, \theta)
 $$
 
 $$
-\mathbf {w} \leftarrow \mathbf {w} + \alpha^ {\mathbf {w}} \delta \mathbf {z} ^ {\mathbf {w}}
+\mathbf{w} \leftarrow \mathbf{w} + \alpha^{\mathbf{w}} \delta \mathbf{z} ^{\mathbf{w}}
 $$
 
 $$
-\boldsymbol {\theta} \leftarrow \boldsymbol {\theta} + \alpha^ {\boldsymbol {\theta}} \delta \mathbf {z} ^ {\boldsymbol {\theta}}
+\boldsymbol{\theta} \leftarrow \boldsymbol{\theta} + \alpha^{\boldsymbol{\theta}} \delta \mathbf{z} ^{\boldsymbol{\theta}}
 $$
 
 $$
-S \gets S ^ {\prime}
+S \gets S^{\prime}
 $$
 
 Naturally, in the continuing case, we define values,  $v_{\pi}(s) \doteq \mathbb{E}_{\pi}[G_t|S_t = s]$  and  $q_{\pi}(s,a) \doteq \mathbb{E}_{\pi}[G_t|S_t = s,A_t = a]$ , with respect to the differential return:
 
 $$
-G _ {t} \doteq R _ {t + 1} - r (\pi) + R _ {t + 2} - r (\pi) + R _ {t + 3} - r (\pi) + \dots . \tag {13.17}
+G_{t} \doteq R_{t + 1} - r (\pi) + R_{t + 2} - r (\pi) + R_{t + 3} - r (\pi) + \dots . \tag {13.17}
 $$
 
 With these alternate definitions, the policy gradient theorem as given for the episodic case (13.5) remains true for the continuing case. A proof is given in the box on the next page. The forward and backward view equations also remain the same.
@@ -6630,23 +6436,23 @@ With these alternate definitions, the policy gradient theorem as given for the e
 The proof of the policy gradient theorem for the continuing case begins similarly to the episodic case. Again we leave it implicit in all cases that  $\pi$  is a function of  $\pmb{\theta}$  and that the gradients are with respect to  $\pmb{\theta}$ . Recall that in the continuing case  $J(\pmb{\theta}) = r(\pi)$  (13.15) and that  $v_{\pi}$  and  $q_{\pi}$  denote values with respect to the differential return (13.17). The gradient of the state-value function can be written, for any  $s \in \mathbb{S}$ , as
 
 $$
-\begin{array}{l} \nabla v _ {\pi} (s) = \nabla \left[ \sum_ {a} \pi (a | s) q _ {\pi} (s, a) \right], \quad \text {f o r a l l} s \in \mathcal {S} \tag {Exercise 3.18} \\ = \sum_ {a} \left[ \nabla \pi (a | s) q _ {\pi} (s, a) + \pi (a | s) \nabla q _ {\pi} (s, a) \right] \quad (\text {p r o d u c t r u l e o f c a l c u l u s}) \\ = \sum_ {a} \left[ \nabla \pi (a | s) q _ {\pi} (s, a) + \pi (a | s) \nabla \sum_ {s ^ {\prime}, r} p \left(s ^ {\prime}, r | s, a\right) \left(r - r (\boldsymbol {\theta}) + v _ {\pi} \left(s ^ {\prime}\right)\right) \right] \\ = \sum_ {a} \left[ \nabla \pi (a | s) q _ {\pi} (s, a) + \pi (a | s) \left[ - \nabla r (\theta) + \sum_ {s ^ {\prime}} p \left(s ^ {\prime} \mid s, a\right) \nabla v _ {\pi} \left(s ^ {\prime}\right) \right] \right]. \\ \end{array}
+\begin{array}{l} \nabla v_{\pi} (s) = \nabla \left[ \sum_{a} \pi (a | s) q_{\pi} (s, a) \right], \quad \text{for all} s \in \mathcal{S} \tag {Exercise 3.18} \\ = \sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \nabla q_{\pi} (s, a) \right] \quad (\text{product rule of calculus}) \\ = \sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \nabla \sum_{s^{\prime}, r} p \left(s^{\prime}, r | s, a\right) \left(r - r (\boldsymbol{\theta}) + v_{\pi} \left(s^{\prime}\right)\right) \right] \\ = \sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \left[ - \nabla r (\theta) + \sum_{s^{\prime}} p \left(s^{\prime} \mid s, a\right) \nabla v_{\pi} \left(s^{\prime}\right) \right] \right]. \\ \end{array}
 $$
 
 After re-arranging terms, we obtain
 
 $$
-\nabla r (\pmb {\theta}) = \sum_ {a} \left[ \nabla \pi (a | s) q _ {\pi} (s, a) + \pi (a | s) \sum_ {s ^ {\prime}} p (s ^ {\prime} | s, a) \nabla v _ {\pi} (s ^ {\prime}) \right] - \nabla v _ {\pi} (s).
+\nabla r (\pmb{\theta}) = \sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \sum_{s^{\prime}} p (s^{\prime} | s, a) \nabla v_{\pi} (s^{\prime}) \right] - \nabla v_{\pi} (s).
 $$
 
 Notice that the left-hand side can be written  $\nabla J(\pmb{\theta})$ , and that it does not depend on  $s$ . Thus the right-hand side does not depend on  $s$  either, and we can safely sum it over all  $s \in \mathbb{S}$ , weighted by  $\mu(s)$ , without changing it (because  $\sum_{s} \mu(s) = 1$ ):
 
 $$
-\begin{array}{l} \nabla J (\boldsymbol {\theta}) = \sum_ {s} \mu (s) \left(\sum_ {a} \left[ \nabla \pi (a | s) q _ {\pi} (s, a) + \pi (a | s) \sum_ {s ^ {\prime}} p \left(s ^ {\prime} \mid s, a\right) \nabla v _ {\pi} \left(s ^ {\prime}\right) \right] - \nabla v _ {\pi} (s)\right) \\ = \sum_ {s} \mu (s) \sum_ {a} \nabla \pi (a | s) q _ {\pi} (s, a) \\ + \sum_ {s} \mu (s) \sum_ {a} \pi (a | s) \sum_ {s ^ {\prime}} p \left(s ^ {\prime} \mid s, a\right) \nabla v _ {\pi} \left(s ^ {\prime}\right) - \sum_ {s} \mu (s) \nabla v _ {\pi} (s) \\ \end{array}
+\begin{array}{l} \nabla J (\boldsymbol{\theta}) = \sum_{s} \mu (s) \left(\sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \sum_{s^{\prime}} p \left(s^{\prime} \mid s, a\right) \nabla v_{\pi} \left(s^{\prime}\right) \right] - \nabla v_{\pi} (s)\right) \\ = \sum_{s} \mu (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) \\ + \sum_{s} \mu (s) \sum_{a} \pi (a | s) \sum_{s^{\prime}} p \left(s^{\prime} \mid s, a\right) \nabla v_{\pi} \left(s^{\prime}\right) - \sum_{s} \mu (s) \nabla v_{\pi} (s) \\ \end{array}
 $$
 
 $$
-\begin{array}{l} = \sum_ {s} \mu (s) \sum_ {a} \nabla \pi (a | s) q _ {\pi} (s, a) \\ + \sum_ {s ^ {\prime}} \underbrace {\sum_ {s} \mu (s) \sum_ {a} \pi (a | s) p \left(s ^ {\prime} \mid s , a\right)} _ {\mu \left(s ^ {\prime}\right)} \nabla v _ {\pi} \left(s ^ {\prime}\right) - \sum_ {s} \mu (s) \nabla v _ {\pi} (s) \\ = \sum_ {s} \mu (s) \sum_ {a} \nabla \pi (a | s) q _ {\pi} (s, a) + \sum_ {s ^ {\prime}} \mu \left(s ^ {\prime}\right) \nabla v _ {\pi} \left(s ^ {\prime}\right) - \sum_ {s} \mu (s) \nabla v _ {\pi} (s) \\ = \sum_ {s} \mu (s) \sum_ {a} \nabla \pi (a | s) q _ {\pi} (s, a). \quad \text {Q . E . D .} \\ \end{array}
+\begin{array}{l} = \sum_{s} \mu (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) \\ + \sum_{s^{\prime}} \underbrace {\sum_{s} \mu (s) \sum_{a} \pi (a | s) p \left(s^{\prime} \mid s , a\right)}_{\mu \left(s^{\prime}\right)} \nabla v_{\pi} \left(s^{\prime}\right) - \sum_{s} \mu (s) \nabla v_{\pi} (s) \\ = \sum_{s} \mu (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) + \sum_{s^{\prime}} \mu \left(s^{\prime}\right) \nabla v_{\pi} \left(s^{\prime}\right) - \sum_{s} \mu (s) \nabla v_{\pi} (s) \\ = \sum_{s} \mu (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a). \quad \text{Q . E . D .} \\ \end{array}
 $$
 
 # 13.7 Policy Parameterization for Continuous Actions
@@ -6656,7 +6462,7 @@ Policy-based methods offer practical ways of dealing with large action spaces, e
 The probability density function for the normal distribution is conventionally written
 
 $$
-p (x) \doteq \frac {1}{\sigma \sqrt {2 \pi}} \exp \left(- \frac {(x - \mu) ^ {2}}{2 \sigma^ {2}}\right), \tag {13.18}
+p (x) \doteq \frac{1}{\sigma \sqrt{2 \pi}} \exp \left(- \frac{(x - \mu)^{2}}{2 \sigma^{2}}\right), \tag {13.18}
 $$
 
 where  $\mu$  and  $\sigma$  here are the mean and standard deviation of the normal distribution, and of course  $\pi$  here is just the number  $\pi \approx 3.14159$ . The probability density functions for several different means and standard deviations are shown to the right. The value  $p(x)$  is the density of the probability at  $x$ , not the probability can be greater than 1; it is the total area under  $p(x)$  that must sum to 1. In general, one can take the integral under  $p(x)$  for any range of  $x$  values to get the probability of  $x$  falling within that range.
@@ -6666,7 +6472,7 @@ where  $\mu$  and  $\sigma$  here are the mean and standard deviation of the nor
 To produce a policy parameterization, the policy can be defined as the normal probability density over a real-valued scalar action, with mean and standard deviation given by parametric function approximators that depend on the state. That is,
 
 $$
-\pi (a | s, \boldsymbol {\theta}) \doteq \frac {1}{\sigma (s , \boldsymbol {\theta}) \sqrt {2 \pi}} \exp \left(- \frac {(a - \mu (s , \boldsymbol {\theta})) ^ {2}}{2 \sigma (s , \boldsymbol {\theta}) ^ {2}}\right), \tag {13.19}
+\pi (a | s, \boldsymbol{\theta}) \doteq \frac{1}{\sigma (s , \boldsymbol{\theta}) \sqrt{2 \pi}} \exp \left(- \frac{(a - \mu (s , \boldsymbol{\theta}))^{2}}{2 \sigma (s , \boldsymbol{\theta})^{2}}\right), \tag {13.19}
 $$
 
 where  $\mu : \mathbb{S} \times \mathbb{R}^{d'} \to \mathbb{R}$  and  $\sigma : \mathbb{S} \times \mathbb{R}^{d'} \to \mathbb{R}^+$  are two parameterized function approximators.
@@ -6674,7 +6480,7 @@ where  $\mu : \mathbb{S} \times \mathbb{R}^{d'} \to \mathbb{R}$  and  $\sigma : 
 To complete the example we need only give a form for these approximators. For this we divide the policy's parameter vector into two parts,  $\pmb{\theta} = [\pmb{\theta}_{\mu}, \pmb{\theta}_{\sigma}]^{\top}$ , one part to be used for the approximation of the mean and one part for the approximation of the standard deviation. The mean can be approximated as a linear function. The standard deviation must always be positive and is better approximated as the exponential of a linear function. Thus
 
 $$
-\mu (s, \boldsymbol {\theta}) \doteq \boldsymbol {\theta} _ {\mu} ^ {\top} \mathbf {x} _ {\mu} (s) \quad \text {a n d} \quad \sigma (s, \boldsymbol {\theta}) \doteq \exp \left(\boldsymbol {\theta} _ {\sigma} ^ {\top} \mathbf {x} _ {\sigma} (s)\right), \tag {13.20}
+\mu (s, \boldsymbol{\theta}) \doteq \boldsymbol{\theta}_{\mu} ^{\top} \mathbf{x}_{\mu} (s) \quad \text{and } \quad \sigma (s, \boldsymbol{\theta}) \doteq \exp \left(\boldsymbol{\theta}_{\sigma} ^{\top} \mathbf{x}_{\sigma} (s)\right), \tag {13.20}
 $$
 
 where  $\mathbf{x}_{\mu}(s)$  and  $\mathbf{x}_{\sigma}(s)$  are state feature vectors perhaps constructed by one of the methods described in Section 9.5. With these definitions, all the algorithms described in the rest of this chapter can be applied to learn to select real-valued actions.
@@ -6682,11 +6488,11 @@ where  $\mathbf{x}_{\mu}(s)$  and  $\mathbf{x}_{\sigma}(s)$  are state feature v
 Exercise 13.4 Show that for the Gaussian policy parameterization (Equations 13.19 and 13.20) the eligibility vector has the following two parts:
 
 $$
-\nabla \ln \pi (a | s, \pmb {\theta} _ {\mu}) = \frac {\nabla \pi (a | s , \pmb {\theta} _ {\mu})}{\pi (a | s , \pmb {\theta})} = \frac {1}{\sigma (s , \pmb {\theta}) ^ {2}} \big (a - \mu (s, \pmb {\theta}) \big) \mathbf {x} _ {\mu} (s), \mathrm {a n d}
+\nabla \ln \pi (a | s, \pmb{\theta}_{\mu}) = \frac{\nabla \pi (a | s , \pmb{\theta}_{\mu})}{\pi (a | s , \pmb{\theta})} = \frac{1}{\sigma (s , \pmb{\theta})^{2}} \big (a - \mu (s, \pmb{\theta}) \big) \mathbf{x}_{\mu} (s), \mathrm{and}
 $$
 
 $$
-\nabla \ln \pi (a | s, \pmb {\theta} _ {\sigma}) = \frac {\nabla \pi (a | s , \pmb {\theta} _ {\sigma})}{\pi (a | s , \pmb {\theta})} = \left(\frac {(a - \mu (s , \pmb {\theta})) ^ {2}}{\sigma (s , \pmb {\theta}) ^ {2}} - 1\right) \mathbf {x} _ {\sigma} (s).
+\nabla \ln \pi (a | s, \pmb{\theta}_{\sigma}) = \frac{\nabla \pi (a | s , \pmb{\theta}_{\sigma})}{\pi (a | s , \pmb{\theta})} = \left(\frac{(a - \mu (s , \pmb{\theta}))^{2}}{\sigma (s , \pmb{\theta})^{2}} - 1\right) \mathbf{x}_{\sigma} (s).
 $$
 
 Exercise 13.5 A Bernoulli-logistic unit is a stochastic neuron-like unit used in some ANNs (Section 9.7). Its input at time  $t$  is a feature vector  $\mathbf{x}(S_t)$ ; its output,  $A_t$ , is a random variable having two values, 0 and 1, with  $\operatorname{Pr}\{A_t = 1\} = P_t$  and  $\operatorname{Pr}\{A_t = 0\} = 1 - P_t$  (the Bernoulli distribution). Let  $h(s,0,\pmb{\theta})$  and  $h(s,1,\pmb{\theta})$  be the preferences in state  $s$  for the unit's two actions given policy parameter  $\pmb{\theta}$ . Assume that the difference between the action preferences is given by a weighted sum of the unit's input vector, that is, assume that  $h(s,1,\pmb{\theta}) - h(s,0,\pmb{\theta}) = \pmb{\theta}^\top \mathbf{x}(s)$ , where  $\pmb{\theta}$  is the unit's weight vector.
@@ -6804,11 +6610,11 @@ Rescorla and Wagner considered a compound CS AX, consisting of component stimuli
 the stimulus components change according to these expressions:
 
 $$
-\Delta V _ {\mathrm {A}} = \alpha_ {\mathrm {A}} \beta_ {\mathrm {Y}} \left(R _ {\mathrm {Y}} - V _ {\mathrm {A X}}\right)
+\Delta V_{\mathrm{A}} = \alpha_{\mathrm{A}} \beta_{\mathrm{Y}} \left(R_{\mathrm{Y}} - V_{\mathrm{AX}}\right)
 $$
 
 $$
-\Delta V _ {\mathrm {X}} = \alpha_ {\mathrm {X}} \beta_ {\mathrm {Y}} \left(R _ {\mathrm {Y}} - V _ {\mathrm {A X}}\right),
+\Delta V_{\mathrm{X}} = \alpha_{\mathrm{X}} \beta_{\mathrm{Y}} \left(R_{\mathrm{Y}} - V_{\mathrm{AX}}\right),
 $$
 
 where  $\alpha_{\mathrm{A}}\beta_{\mathrm{Y}}$  and  $\alpha_{\mathrm{X}}\beta_{\mathrm{Y}}$  are the step-size parameters, which depend on the identities of the CS components and the US, and  $R_{\mathrm{Y}}$  is the asymptotic level of associative strength that the US Y can support. (Rescorla and Wagner used  $\lambda$  here instead of  $R$ , but we use  $R$  to avoid confusion with our use of  $\lambda$  and because we usually think of this as the magnitude of a reward signal, with the caveat that the US in classical conditioning is not necessarily rewarding or penalizing.) A key assumption of the model is that the aggregate associative strength  $V_{\mathrm{AX}}$  is equal to  $V_{\mathrm{A}} + V_{\mathrm{X}}$ . The associative strengths as changed by these  $\Delta s$  become the associative strengths at the beginning of the next trial.
@@ -6824,7 +6630,7 @@ Therefore, assume that trial-type, or state,  $s$  is described by a real-valued
 compound CS, is present on the trial and 0 otherwise. Then if the  $d$ -dimensional vector of associative strengths is  $\mathbf{w}$ , the aggregate associative strength for trial-type  $s$  is
 
 $$
-\hat {v} (s, \mathbf {w}) = \mathbf {w} ^ {\top} \mathbf {x} (s). \tag {14.1}
+\hat {v} (s, \mathbf{w}) = \mathbf{w} ^{\top} \mathbf{x} (s). \tag {14.1}
 $$
 
 This corresponds to a value estimate in reinforcement learning, and we think of it as the US prediction.
@@ -6832,13 +6638,13 @@ This corresponds to a value estimate in reinforcement learning, and we think of 
 Now temporally let  $t$  denote the number of a complete trial and not its usual meaning as a time step (we revert to  $t$ 's usual meaning when we extend this to the TD model below), and assume that  $S_{t}$  is the state corresponding to trial  $t$ . Conditioning trial  $t$  updates the associative strength vector  $\mathbf{w}_t$  to  $\mathbf{w}_{t+1}$  as follows:
 
 $$
-\mathbf {w} _ {t + 1} = \mathbf {w} _ {t} + \alpha \delta_ {t} \mathbf {x} \left(S _ {t}\right), \tag {14.2}
+\mathbf{w}_{t + 1} = \mathbf{w}_{t} + \alpha \delta_{t} \mathbf{x} \left(S_{t}\right), \tag {14.2}
 $$
 
 where  $\alpha$  is the step-size parameter, and—because here we are describing the Rescorla-Wagner model— $\delta_t$  is the prediction error
 
 $$
-\delta_ {t} = R _ {t} - \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right). \tag {14.3}
+\delta_{t} = R_{t} - \hat {v} \left(S_{t}, \mathbf{w}_{t}\right). \tag {14.3}
 $$
 
 $R_{t}$  is the target of the prediction on trial  $t$ , that is, the magnitude of the US, or in Rescorla and Wagner's terms, the associative strength that the US on the trial can support. Note that because of the factor  $\mathbf{x}(S_t)$  in (14.2), only the associative strengths of CS components present on a trial are adjusted as a result of that trial. You can think of the prediction error as a measure of surprise, and the aggregate associative strength as the animal's expectation that is violated when it does not match the target US magnitude.
@@ -6864,13 +6670,13 @@ Below we describe some of the state representations that have been used with the
 the representation and just assume that each state  $s$  is represented by a feature vector  $\mathbf{x}(s) = (x_{1}(s), x_{2}(s), \ldots, x_{n}(s))^{\top}$ . Then the aggregate associative strength corresponding to a state  $s$  is given by (14.1), the same as for the Rescorla-Wagner model, but the TD model updates the associative strength vector,  $\mathbf{w}$ , differently. With  $t$  now labeling a time step instead of a complete trial, the TD model governs learning according to this update:
 
 $$
-\mathbf {w} _ {t + 1} = \mathbf {w} _ {t} + \alpha \delta_ {t} \mathbf {z} _ {t}, \tag {14.4}
+\mathbf{w}_{t + 1} = \mathbf{w}_{t} + \alpha \delta_{t} \mathbf{z}_{t}, \tag {14.4}
 $$
 
 which replaces  $\mathbf{x}_t(S_t)$  in the Rescorla-Wagner update (14.2) with  $\mathbf{z}_t$ , a vector of eligibility traces, and instead of the  $\delta_t$  of (14.3), here  $\delta_t$  is a TD error:
 
 $$
-\delta_ {t} = R _ {t + 1} + \gamma \hat {v} \left(S _ {t + 1}, \mathbf {w} _ {t}\right) - \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right), \tag {14.5}
+\delta_{t} = R_{t + 1} + \gamma \hat {v} \left(S_{t + 1}, \mathbf{w}_{t}\right) - \hat {v} \left(S_{t}, \mathbf{w}_{t}\right), \tag {14.5}
 $$
 
 where  $\gamma$  is a discount factor (between 0 and 1),  $R_{t}$  is the prediction target at time  $t$ , and  $\hat{v}(S_{t+1}, \mathbf{w}_{t})$  and  $\hat{v}(S_{t}, \mathbf{w}_{t})$  are aggregate associative strengths at  $t+1$  and  $t$  as defined by (14.1).
@@ -6878,7 +6684,7 @@ where  $\gamma$  is a discount factor (between 0 and 1),  $R_{t}$  is the predic
 Each component  $i$  of the eligibility-trace vector  $\mathbf{z}_t$  increments or decrements according to the component  $x_i(S_t)$  of the feature vector  $\mathbf{x}(S_t)$ , and otherwise decays with a rate determined by  $\gamma \lambda$ :
 
 $$
-\mathbf {z} _ {t} = \gamma \lambda \mathbf {z} _ {t - 1} + \mathbf {x} \left(S _ {t}\right). \tag {14.6}
+\mathbf{z}_{t} = \gamma \lambda \mathbf{z}_{t - 1} + \mathbf{x} \left(S_{t}\right). \tag {14.6}
 $$
 
 Here  $\lambda$  is the usual eligibility trace decay parameter.
@@ -7375,7 +7181,7 @@ More than one set of learning rules can be used in actor-critic neural networks 
 the parameters for the critic and actor  $(\mathbf{w}$  and  $\pmb{\theta}$ ), according to
 
 $$
-\begin{array}{l} \delta_ {t} = R _ {t + 1} + \gamma \hat {v} (S _ {t + 1}, \mathbf {w}) - \hat {v} (S _ {t}, \mathbf {w}), \\ \mathbf {z} _ {t} ^ {\mathbf {w}} = \gamma \lambda^ {\mathbf {w}} \mathbf {z} _ {t - 1} ^ {\mathbf {w}} + \nabla \hat {v} (S _ {t}, \mathbf {w}), \\ \mathbf {z} _ {t} ^ {\boldsymbol {\theta}} = \gamma \lambda^ {\boldsymbol {\theta}} \mathbf {z} _ {t - 1} ^ {\boldsymbol {\theta}} + \nabla \ln \pi \left(A _ {t} \mid S _ {t}, \boldsymbol {\theta}\right), \\ \mathbf {w} \leftarrow \mathbf {w} + \alpha^ {\mathbf {w}} \delta_ {t} \mathbf {z} _ {t} ^ {\mathbf {w}}, \\ \boldsymbol {\theta} \leftarrow \boldsymbol {\theta} + \alpha^ {\theta} \delta \mathbf {z} _ {t} ^ {\theta}, \\ \end{array}
+\begin{array}{l} \delta_{t} = R_{t + 1} + \gamma \hat {v} (S_{t + 1}, \mathbf{w}) - \hat {v} (S_{t}, \mathbf{w}), \\ \mathbf{z}_{t} ^{\mathbf{w}} = \gamma \lambda^{\mathbf{w}} \mathbf{z}_{t - 1} ^{\mathbf{w}} + \nabla \hat {v} (S_{t}, \mathbf{w}), \\ \mathbf{z}_{t} ^{\boldsymbol{\theta}} = \gamma \lambda^{\boldsymbol{\theta}} \mathbf{z}_{t - 1} ^{\boldsymbol{\theta}} + \nabla \ln \pi \left(A_{t} \mid S_{t}, \boldsymbol{\theta}\right), \\ \mathbf{w} \leftarrow \mathbf{w} + \alpha^{\mathbf{w}} \delta_{t} \mathbf{z}_{t} ^{\mathbf{w}}, \\ \boldsymbol{\theta} \leftarrow \boldsymbol{\theta} + \alpha^{\theta} \delta \mathbf{z}_{t} ^{\theta}, \\ \end{array}
 $$
 
 where  $\gamma \in [0,1)$  is a discount-rate parameter,  $\lambda^{\mathbf{w}}\in [0,1]$  and  $\lambda^{\theta}\in [0,1]$  are bootstrapping parameters for the critic and the actor respectively, and  $\alpha^{\mathbf{w}} > 0$  and  $\alpha^{\theta} > 0$  are analogous step-size parameters.
@@ -7383,7 +7189,7 @@ where  $\gamma \in [0,1)$  is a discount-rate parameter,  $\lambda^{\mathbf{w}}\
 Think of the approximate value function  $\hat{v}$  as the output of a single linear neuron-like unit, called the critic unit and labeled  $V$  in Figure 15.5a. Then the value function is a linear function of the feature-vector representation of state  $s$ ,  $\mathbf{x}(s) = (x_1(s), \ldots, x_n(s))^{\top}$ , parameterized by a weight vector  $\mathbf{w} = (w_1, \ldots, w_n)^{\top}$ :
 
 $$
-\hat {v} (s, \mathbf {w}) = \mathbf {w} ^ {\top} \mathbf {x} (s). \tag {15.1}
+\hat {v} (s, \mathbf{w}) = \mathbf{w} ^{\top} \mathbf{x} (s). \tag {15.1}
 $$
 
 Each  $x_{i}(s)$  is like the presynaptic signal to a neuron's synapse whose efficacy is  $w_{i}$ . The weights of the critic are incremented according to the rule above by  $\alpha^{\mathbf{w}}\delta_{t}\mathbf{z}_{t}^{\mathbf{w}}$ , where the reinforcement signal,  $\delta_{t}$ , corresponds to a dopamine signal being broadcast to all of the critic unit's synapses. The eligibility trace vector,  $\mathbf{z}_t^{\mathbf{w}}$ , for the critic unit is a trace (average of recent values) of  $\nabla \hat{v} (S_t,\mathbf{w})$ . Because  $\hat{v} (s,\mathbf{w})$  is linear in the weights,  $\nabla \hat{v} (S_t,\mathbf{w}) = \mathbf{x}(S_t)$ .
@@ -7397,16 +7203,16 @@ The actor in Figure 15.5a is a one-layer network of  $k$  neuron-like actor unit
 units to follow the actor-critic algorithm given in the equations above is for each to be a Bernoulli-logistic unit. This means that the output of each actor unit at each time is a random variable,  $A_{t}$ , taking value 0 or 1. Think of value 1 as the neuron firing, that is, emitting an action potential. The weighted sum,  $\pmb{\theta}^{\top}\mathbf{x}(S_t)$ , of a unit's input vector determines the unit's action probabilities via the exponential soft-max distribution (13.2), which for two actions is the logistic function:
 
 $$
-\pi (1 | s, \boldsymbol {\theta}) = 1 - \pi (0 | s, \boldsymbol {\theta}) = \frac {1}{1 + \exp \left(- \boldsymbol {\theta} ^ {\top} \mathbf {x} (s)\right)}. \tag {15.2}
+\pi (1 | s, \boldsymbol{\theta}) = 1 - \pi (0 | s, \boldsymbol{\theta}) = \frac{1}{1 + \exp \left(- \boldsymbol{\theta} ^{\top} \mathbf{x} (s)\right)}. \tag {15.2}
 $$
 
 The weights of each actor unit are incremented, as above, by:  $\pmb{\theta} \gets \pmb{\theta} + \alpha^{\pmb{\theta}} \delta_{t} \mathbf{z}_{t}^{\pmb{\theta}}$ , where  $\delta$  again corresponds to the dopamine signal: the same reinforcement signal that is sent to all the critic unit's synapses. Figure 15.5a shows  $\delta_{t}$  being broadcast to all the synapses of all the actor units (which makes this actor network a team of reinforcement learning agents, something we discuss in Section 15.10 below). The actor eligibility trace vector  $\mathbf{z}_{t}^{\pmb{\theta}}$  is a trace (average of recent values) of  $\nabla \ln \pi(A_{t}|S_{t},\pmb{\theta})$ . To understand this eligibility trace refer to Exercise 13.5, which defines this kind of unit and asks you to give a learning rule for it. That exercise asked you to express  $\nabla \ln \pi(a|s,\pmb{\theta})$  in terms of  $a$ ,  $\mathbf{x}(s)$ , and  $\pi(a|s,\pmb{\theta})$  (for arbitrary state  $s$  and action  $a$ ) by calculating the gradient. For the action and state actually occurring at time  $t$ , the answer is
 
 $$
-\nabla \ln \pi \left(A _ {t} \mid S _ {t}, \boldsymbol {\theta}\right) = \left(A _ {t} - \pi \left(1 \mid S _ {t}, \boldsymbol {\theta}\right)\right) \mathbf {x} \left(S _ {t}\right). \tag {15.3}
+\nabla \ln \pi \left(A_{t} \mid S_{t}, \boldsymbol{\theta}\right) = \left(A_{t} - \pi \left(1 \mid S_{t}, \boldsymbol{\theta}\right)\right) \mathbf{x} \left(S_{t}\right). \tag {15.3}
 $$
 
-Unlike the non-contingent eligibility trace of a critic synapse that only accumulates the presynaptic activity  $\mathbf{x}(S_t)$ , the eligibility trace of an actor unit's synapse in addition depends on the activity of the actor unit itself. We call this a contingent eligibility trace because it is contingent on this postsynaptic activity. The eligibility trace at each synapse continually decays, but increments or decrements depending on the activity of the presynaptic neuron and whether or not the postsynaptic neuron fires. The factor  $A_{t} - \pi (1|S_{t},\pmb {\theta})$  in (15.3) is positive when  $A_{t} = 1$  and negative otherwise. The postsynaptic contingency in the eligibility traces of actor units is the only difference between the critic and actor learning rules. By keeping information about what actions were taken in what states, contingent eligibility traces allow credit for reward (positive  $\delta$ ), or blame for punishment (negative  $\delta$ ), to be apportioned among the policy parameters (the efficacies of the actor units' synapses) according to the contributions these parameters made to the units' outputs that could have influenced later values of  $\delta$ . Contingent eligibility traces mark the synapses as to how they should be modified to alter the units' future responses to favor positive values of  $\delta$ .
+Unlike the non-contingent eligibility trace of a critic synapse that only accumulates the presynaptic activity  $\mathbf{x}(S_t)$ , the eligibility trace of an actor unit's synapse in addition depends on the activity of the actor unit itself. We call this a contingent eligibility trace because it is contingent on this postsynaptic activity. The eligibility trace at each synapse continually decays, but increments or decrements depending on the activity of the presynaptic neuron and whether or not the postsynaptic neuron fires. The factor  $A_{t} - \pi (1|S_{t},\pmb{\theta})$  in (15.3) is positive when  $A_{t} = 1$  and negative otherwise. The postsynaptic contingency in the eligibility traces of actor units is the only difference between the critic and actor learning rules. By keeping information about what actions were taken in what states, contingent eligibility traces allow credit for reward (positive  $\delta$ ), or blame for punishment (negative  $\delta$ ), to be apportioned among the policy parameters (the efficacies of the actor units' synapses) according to the contributions these parameters made to the units' outputs that could have influenced later values of  $\delta$ . Contingent eligibility traces mark the synapses as to how they should be modified to alter the units' future responses to favor positive values of  $\delta$ .
 
 What do the critic and actor learning rules suggest about how efficacies of corticostriatal synapses change? Both learning rules are related to Donald Hebb's classic proposal that whenever a presynaptic signal participates in activating the postsynaptic neuron, the synapse's efficacy increases (Hebb, 1949). The critic and actor learning rules share with Hebb's proposal the idea that changes in a synapse's efficacy depend on the interaction of several factors. In the critic learning rule the interaction is between the reinforcement signal  $\delta$  and eligibility traces that depend only on presynaptic signals. Neuroscientists call this a two-factor learning rule because the interaction is between two signals or
 
@@ -7414,7 +7220,7 @@ quantities. The actor learning rule, on the other hand, is a three-factor learni
 
 Some subtleties about signal timing for the actor and critic learning rules deserve closer attention. In defining the neuron-like actor and critic units, we ignored the small amount of time it takes synaptic input to effect the firing of a real neuron. When an action potential from the presynaptic neuron arrives at a synapse, neurotransmitter molecules are released that diffuse across the synaptic cleft to the postsynaptic neuron, where they bind to receptors on the postsynaptic neuron's surface; this activates molecular machinery that causes the postsynaptic neuron to fire (or to inhibit its firing in the case of inhibitory synaptic input). This process can take several tens of milliseconds. According to (15.1) and (15.2), though, the input to a critic and actor unit instantaneously produces the unit's output. Ignoring activation time like this is common in abstract models of Hebbian-style plasticity in which synaptic efficacies change according to a simple product of simultaneous pre- and postsynaptic activity. More realistic models must take activation time into account.
 
-Activation time is especially important for a more realistic actor unit because it influences how contingent eligibility traces have to work in order to properly apportion credit for reinforcement to the appropriate synapses. The expression  $\left(A_{t} - \pi (1|S_{t},\pmb {\theta})\right)\mathbf{x}(S_{t})$  defining contingent eligibility traces for the actor unit's learning rule given above includes the postsynaptic factor  $\left(A_t - \pi (1|S_t,\pmb {\theta})\right)$  and the presynaptic factor  $\mathbf{x}(S_t)$ . This works because by ignoring activation time, the presynaptic activity  $\mathbf{x}(S_t)$  participates in causing the postsynaptic activity appearing in  $\left(A_{t} - \pi (1|S_{t},\pmb {\theta})\right)$ . To assign credit for reinforcement correctly, the presynaptic factor defining the eligibility trace must be a cause of the postsynaptic factor that also defines the trace. Contingent eligibility traces for a more realistic actor unit would have to take activation time into account. (Activation time should not be confused with the time required for a neuron to receive a reinforcement signal influenced by that neuron's activity. The function of eligibility traces is to span this time interval which is generally much longer than the activation time. We discuss this further in the following section.)
+Activation time is especially important for a more realistic actor unit because it influences how contingent eligibility traces have to work in order to properly apportion credit for reinforcement to the appropriate synapses. The expression  $\left(A_{t} - \pi (1|S_{t},\pmb{\theta})\right)\mathbf{x}(S_{t})$  defining contingent eligibility traces for the actor unit's learning rule given above includes the postsynaptic factor  $\left(A_t - \pi (1|S_t,\pmb{\theta})\right)$  and the presynaptic factor  $\mathbf{x}(S_t)$ . This works because by ignoring activation time, the presynaptic activity  $\mathbf{x}(S_t)$  participates in causing the postsynaptic activity appearing in  $\left(A_{t} - \pi (1|S_{t},\pmb{\theta})\right)$ . To assign credit for reinforcement correctly, the presynaptic factor defining the eligibility trace must be a cause of the postsynaptic factor that also defines the trace. Contingent eligibility traces for a more realistic actor unit would have to take activation time into account. (Activation time should not be confused with the time required for a neuron to receive a reinforcement signal influenced by that neuron's activity. The function of eligibility traces is to span this time interval which is generally much longer than the activation time. We discuss this further in the following section.)
 
 There are hints from neuroscience for how this process might work in the brain. Neuroscientists have discovered a form of Hebbian plasticity called spike-timing-dependent plasticity (STDP) that lends plausibility to the existence of actor-like synaptic plasticity in the brain. STDP is a Hebbian-style plasticity, but changes in a synapse's efficacy depend on the relative timing of presynaptic and postsynaptic action potentials. The dependence can take different forms, but in the one most studied, a synapse increases in strength if spikes incoming via that synapse arrive shortly before the postsynaptic neuron fires. If the timing relation is reversed, with a presynaptic spike arriving shortly after the postsynaptic neuron fires, then the strength of the synapse decreases. STDP is a type of Hebbian plasticity that takes the activation time of a neuron into account, which is one of the ingredients needed for actor-like learning.
 
@@ -7574,7 +7380,7 @@ synaptic learning rule somewhat similar to Seung's mentioned above in which each
 
 15.10 Research on the behavior of reinforcement learning agents in team and game problems has a long history roughly occurring in three phases. To the best of our knowledge, the first phase began with investigations by the Russian mathematician and physicist M. L. Tsetlin. A collection of his work was published as Tsetlin (1973) after his death in 1966. Our Sections 1.7 and 4.8 refer to his study of learning automata in connection to bandit problems. The Tsetlin collection also includes studies of learning automata in team and game problems, which led to later work in this area using stochastic learning automata as described by Narendra and Thathachar (1974, 1989), Viswanathan and Narendra (1974), Lakshmivarahan and Narendra (1982), Narendra and Wheeler (1983), and Thathachar and Sastry (2002). Thathachar and Sastry (2011) is a more recent comprehensive account. These studies were mostly restricted to non-associative learning automata, meaning that they did not address associative, or contextual, bandit problems (Section 2.9).
 
-The second phase began with the extension of learning automata to the associative, or contextual, case. Barto, Sutton, and Brouwer (1981) and Barto and Sutton (1981b) experimented with associative stochastic learning automata in single-layer ANNs to which a global reinforcement signal was broadcast. The learning algorithm was an associative extension of the Alopex algorithm of Harth and Tzanakou (1974). Barto et al. called neuron-like elements implementing this kind of learning associative search elements (ASEs). Barto and Anandan (1985) introduced an associative reinforcement learning algorithm called the associative reward-penalty  $(\mathrm{A}_{\mathrm{R - P}})$  algorithm. They proved a convergence result by combining theory of stochastic learning automata with theory of pattern classification. Barto (1985, 1986) and Barto and Jordan (1987) described results with teams of  $\mathrm{A}_{\mathrm{R - P}}$  units connected into multi-layer ANNs, showing that they could learn nonlinear functions, such as XOR and others, with a globally-broadcast reinforcement signal. Barto (1985) extensively discussed this approach to ANNs and how this type of learning rule is related to others in the literature at that time. Williams (1992) mathematically analyzed and broadened this class of learning rules and related their use to the error backpropagation method for training multilayer ANNs. Williams (1988) described several ways that backpropagation and reinforcement learning can be combined for training ANNs. Williams (1992) showed that a special case of the  $\mathrm{A}_{\mathrm{R - P}}$  algorithm is a REINFORCE algorithm, although better results were obtained with the general  $\mathrm{A}_{\mathrm{R - P}}$  algorithm (Barto, 1985).
+The second phase began with the extension of learning automata to the associative, or contextual, case. Barto, Sutton, and Brouwer (1981) and Barto and Sutton (1981b) experimented with associative stochastic learning automata in single-layer ANNs to which a global reinforcement signal was broadcast. The learning algorithm was an associative extension of the Alopex algorithm of Harth and Tzanakou (1974). Barto et al. called neuron-like elements implementing this kind of learning associative search elements (ASEs). Barto and Anandan (1985) introduced an associative reinforcement learning algorithm called the associative reward-penalty  $(\mathrm{A}_{\mathrm{R -P}})$  algorithm. They proved a convergence result by combining theory of stochastic learning automata with theory of pattern classification. Barto (1985, 1986) and Barto and Jordan (1987) described results with teams of  $\mathrm{A}_{\mathrm{R -P}}$  units connected into multi-layer ANNs, showing that they could learn nonlinear functions, such as XOR and others, with a globally-broadcast reinforcement signal. Barto (1985) extensively discussed this approach to ANNs and how this type of learning rule is related to others in the literature at that time. Williams (1992) mathematically analyzed and broadened this class of learning rules and related their use to the error backpropagation method for training multilayer ANNs. Williams (1988) described several ways that backpropagation and reinforcement learning can be combined for training ANNs. Williams (1992) showed that a special case of the  $\mathrm{A}_{\mathrm{R -P}}$  algorithm is a REINFORCE algorithm, although better results were obtained with the general  $\mathrm{A}_{\mathrm{R -P}}$  algorithm (Barto, 1985).
 
 The third phase of interest in teams of reinforcement learning agents was influenced by increased understanding of the role of dopamine as a widely broadcast neuromodulator and speculation about the existence of reward-modulated STDP. Much more so than earlier research, this research considers details of synaptic plasticity and other constraints from neuroscience. Publications include the following (chronologically and alphabetically): Bartlett and Baxter (1999, 2000), Xie and Seung (2004), Baras and Meir (2007), Farries and Fairhall (2007), Florian (2007), Izhikevich (2007), Pecevski, Maass, and Legenstein (2008), Legenstein, Pecevski, and Maass (2008), Kolodziejski, Porr, and Wörgötter (2009), Urbanczik and Senn (2009), and Vasilaki, Frémaux, Urbanczik, Senn, and Gerstner (2009). Nowé, Vrancx, and De Hauwere (2012) reviewed more recent developments in the wider field of multi-agent reinforcement learning
 
@@ -7622,7 +7428,7 @@ Given a representation of a backgammon position, the network computed its estima
 their corresponding weights and summed at the hidden unit. The output,  $h(j)$ , of hidden unit  $j$  was a nonlinear sigmoid function of the weighted sum:
 
 $$
-h (j) = \sigma \left(\sum_ {i} w _ {i j} x _ {i}\right) = \frac {1}{1 + e ^ {- \sum_ {i} w _ {i j} x _ {i}}},
+h (j) = \sigma \left(\sum_{i} w_{i j} x_{i}\right) = \frac{1}{1 + e^{- \sum_{i} w_{i j} x_{i}}},
 $$
 
 where  $x_{i}$  is the value of the  $i$ th input unit and  $w_{ij}$  is the weight of its connection to the  $j$ th hidden unit (all the weights in the network together make up the parameter vector  $\mathbf{w}$ ). The output of the sigmoid is always between 0 and 1, and has a natural interpretation as a probability based on a summation of evidence. The computation from hidden units to the output unit was entirely analogous. Each connection from a hidden unit to the output unit had a separate weight. The output unit formed the weighted sum and then passed it through the same sigmoid nonlinearity.
@@ -7630,13 +7436,13 @@ where  $x_{i}$  is the value of the  $i$ th input unit and  $w_{ij}$  is the wei
 TD-Gammon used the semi-gradient form of the  $\mathrm{TD}(\lambda)$  algorithm described in Section 12.2, with the gradients computed by the error backpropagation algorithm (Rumelhart, Hinton, and Williams, 1986). Recall that the general update rule for this case is
 
 $$
-\mathbf {w} _ {t + 1} \doteq \mathbf {w} _ {t} + \alpha \left[ R _ {t + 1} + \gamma \hat {v} \left(S _ {t + 1}, \mathbf {w} _ {t}\right) - \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right) \right] \mathbf {z} _ {t}, \tag {16.1}
+\mathbf{w}_{t + 1} \doteq \mathbf{w}_{t} + \alpha \left[ R_{t + 1} + \gamma \hat {v} \left(S_{t + 1}, \mathbf{w}_{t}\right) - \hat {v} \left(S_{t}, \mathbf{w}_{t}\right) \right] \mathbf{z}_{t}, \tag {16.1}
 $$
 
 where  $\mathbf{w}_t$  is the vector of all modifiable parameters (in this case, the weights of the network) and  $\mathbf{z}_t$  is a vector of eligibility traces, one for each component of  $\mathbf{w}_t$ , updated by
 
 $$
-\mathbf {z} _ {t} \doteq \gamma \lambda \mathbf {z} _ {t - 1} + \nabla \hat {v} \left(S _ {t}, \mathbf {w} _ {t}\right),
+\mathbf{z}_{t} \doteq \gamma \lambda \mathbf{z}_{t - 1} + \nabla \hat {v} \left(S_{t}, \mathbf{w}_{t}\right),
 $$
 
 with  $\mathbf{z}_0\dot{=}\mathbf{0}$ . The gradient in this equation can be computed efficiently by the backpropagation procedure. For the backgammon application, in which  $\gamma = 1$  and the reward is always zero except upon winning, the TD error portion of the learning rule is usually just  $\hat{v} (S_{t + 1},\mathbf{w}) - \hat{v} (S_t,\mathbf{w})$ , as suggested in Figure 16.1.
@@ -7703,7 +7509,7 @@ Tesauro et al. used the reinforcement learning approach of TD-Gammon described a
 With the previously learned value function  $\hat{v}$  and in-category DD confidence  $p_{DD}$ , WATSON computed  $\hat{q}(s, bet)$  for each legal round-dollar bet as follows:
 
 $$
-\hat {q} (s, \text {b e t}) = p _ {D D} \times \hat {v} \left(S _ {W} + \text {b e t}, \dots\right) + \left(1 - p _ {D D}\right) \times \hat {v} \left(S _ {W} - \text {b e t}, \dots\right), \tag {16.2}
+\hat {q} (s, \text{bet}) = p_{D D} \times \hat {v} \left(S_{W} + \text{bet}, \dots\right) + \left(1 - p_{D D}\right) \times \hat {v} \left(S_{W} - \text{bet}, \dots\right), \tag {16.2}
 $$
 
 where  $S_W$  is WATSON's current score, and  $\hat{v}$  gives the estimated value for the game state after WATSON's response to the DD clue, which is either correct or incorrect. Computing an action value this way corresponds to the insight from Exercise 3.19 that an action value is the expected next state value given the action (except that here it is the expected next afterstate value because the full next state of the entire game depends on the next square selection).
@@ -7803,7 +7609,7 @@ DQN's reward signal indicated how a games's score changed from one time step to 
 After DQN selected an action, the action was executed by the game emulator, which returned a reward and the next video frame. The frame was preprocessed and added to the four-frame stack that became the next input to the network. Skipping for the moment the changes to the basic Q-learning procedure made by Mnih et al., DQN used the following semi-gradient form of Q-learning to update the network's weights:
 
 $$
-\mathbf {w} _ {t + 1} = \mathbf {w} _ {t} + \alpha \left[ R _ {t + 1} + \gamma \max  _ {a} \hat {q} \left(S _ {t + 1}, a, \mathbf {w} _ {t}\right) - \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t}\right) \right] \nabla \hat {q} \left(S _ {t}, A _ {t}, \mathbf {w} _ {t}\right), \tag {16.3}
+\mathbf{w}_{t + 1} = \mathbf{w}_{t} + \alpha \left[ R_{t + 1} + \gamma \max_{a} \hat {q} \left(S_{t + 1}, a, \mathbf{w}_{t}\right) - \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t}\right) \right] \nabla \hat {q} \left(S_{t}, A_{t}, \mathbf{w}_{t}\right), \tag {16.3}
 $$
 
 where  $\mathbf{w}_t$  is the vector of the network's weights,  $A_{t}$  is the action selected at time step  $t$ , and  $S_{t}$  and  $S_{t + 1}$  are respectively the preprocessed image stacks input to the network at time steps  $t$  and  $t + 1$ .
@@ -7821,7 +7627,7 @@ Mnih et al. modified standard Q-learning in a second way to improve its stabilit
 To address this problem Mnih et al. used a technique that brought Q-learning closer to the simpler supervised-learning case while still allowing it to bootstrap. Whenever a certain number,  $C$ , of updates had been done to the weights  $\mathbf{w}$  of the action-value network, they inserted the network's current weights into another network and held these duplicate weights fixed for the next  $C$  updates of  $\mathbf{w}$ . The outputs of this duplicate network over the next  $C$  updates of  $\mathbf{w}$  were used as the Q-learning targets. Letting  $\tilde{q}$  denote the output of this duplicate network, then instead of (16.3) the update rule was:
 
 $$
-\mathbf {w} _ {t + 1} = \mathbf {w} _ {t} + \alpha \Big [ R _ {t + 1} + \gamma \max _ {a} \tilde {q} (S _ {t + 1}, a, \mathbf {w} _ {t}) - \hat {q} (S _ {t}, A _ {t}, \mathbf {w} _ {t}) \Big ] \nabla \hat {q} (S _ {t}, A _ {t}, \mathbf {w} _ {t}).
+\mathbf{w}_{t + 1} = \mathbf{w}_{t} + \alpha \Big [ R_{t + 1} + \gamma \max_{a} \tilde {q} (S_{t + 1}, a, \mathbf{w}_{t}) - \hat {q} (S_{t}, A_{t}, \mathbf{w}_{t}) \Big ] \nabla \hat {q} (S_{t}, A_{t}, \mathbf{w}_{t}).
 $$
 
 A final modification of standard Q-learning was also found to improve stability. They clipped the error term  $R_{t + 1} + \gamma \max_a\tilde{q} (S_{t + 1},a,\mathbf{w}_t) - \hat{q} (S_t,A_t,\mathbf{w}_t)$  so that it remained in the interval  $[-1,1]$ .
@@ -7865,7 +7671,7 @@ The DeepMind team called AlphaGo's modification of basic MCTS "asynchronous poli
 Then, also in contrast to basic MCTS, which evaluates the newly-added state node solely by the return of a rollout initiated from it, APV-MCTS evaluated the node in two ways: by this return of the rollout, but also by a value function,  $v_{\theta}$ , learned previously by a reinforcement learning method. If  $s$  was the newly-added node, its value became
 
 $$
-v (s) = (1 - \eta) v _ {\theta} (s) + \eta G, \tag {16.4}
+v (s) = (1 - \eta) v_{\theta} (s) + \eta G, \tag {16.4}
 $$
 
 where  $G$  was the return of the rollout and  $\eta$  controlled the mixing of the values resulting from these two evaluation methods. In AlphaGo, these values were supplied by the value network, another 13-layer deep convolutional ANN that was trained as we describe below to output estimated values of board positions. APV-MCTS's rollouts in AlphaGo were simulated games with both players using a fast rollout policy provided by a simple linear network, also trained by supervised learning before play. Throughout its execution, APV-MCTS kept track of how many simulations passed through each edge of the search tree, and when its execution completed, the most-visited edge from the root node was selected as the action to take, here the move AlphaGo actually made in a game.
@@ -7957,11 +7763,11 @@ To measure the performance of the policies produced by the greedy and LTV approa
 website visitors:
 
 $$
-\mathrm {C T R} = \frac {\text {T o t a l \# o f C l i c k s}}{\text {T o t a l \# o f V i s i t s}},
+\mathrm{CTR} = \frac{\text{Total \#of Clicks}}{\text{Total \#of Visits}},
 $$
 
 $$
-\mathrm {L T V} = \frac {\text {T o t a l \# o f C l i c k s}}{\text {T o t a l \# o f V i s i t o r s}}.
+\mathrm{LTV} = \frac{\text{Total \#of Clicks}}{\text{Total \#of Visitors}}.
 $$
 
 Figure 16.8 illustrates how these metrics differ. Each circle represents a user visit to the site; black circles are visits at which the user clicks. Each row represents visits by a particular user. By not distinguishing between visitors, the CTR for these sequences is 0.35, whereas the LTV is 1.5. Because LTV is larger than CTR to the extent that
@@ -8001,7 +7807,7 @@ The overall objective of thermal soaring is to gain as much altitude as possible
 Learning was by one-step Sarsa, with actions selected according to a soft-max distribution based on normalized action values. Specifically, the action probabilities were computed according to (13.2) with action preferences:
 
 $$
-h (s, a, \boldsymbol {\theta}) = \frac {\hat {q} (s , a , \boldsymbol {\theta}) - \operatorname* {m i n} _ {b} \hat {q} (s , b , \boldsymbol {\theta})}{\tau \left(\operatorname * {m a x} _ {b} \hat {q} (s , b , \boldsymbol {\theta}) - \operatorname * {m i n} _ {b} \hat {q} (s , b , \boldsymbol {\theta})\right)},
+h (s, a, \boldsymbol{\theta}) = \frac{\hat {q} (s , a , \boldsymbol{\theta}) - \operatorname* {m i n}_{b} \hat {q} (s , b , \boldsymbol{\theta})}{\tau \left(\operatorname * {m a x}_{b} \hat {q} (s , b , \boldsymbol{\theta}) - \operatorname * {m i n}_{b} \hat {q} (s , b , \boldsymbol{\theta})\right)},
 $$
 
 where  $\pmb{\theta}$  is a parameter vector with one component for each action and aggregated group of states, and  $\hat{q}(s,a,\pmb{\theta})$  merely returned the component corresponding to  $s,a$  in the usual way for state aggregation methods. The above equation forms the action preferences by normalizing the approximate action values to the interval [0,1] then dividing by  $\tau$ , a positive "temperature parameter." As  $\tau$  increases, the probability of selecting an action becomes less dependent on its preference; as  $\tau$  decreases toward zero, the probability of selecting the most highly-preferred action approaches one, making the policy approach the greedy policy. The temperature parameter  $\tau$  was initialized to 2.0 and incrementally decreased to 0.2 during learning. Action preferences were computed from the current estimates of the action values: the action with the maximum estimated action value was given preference  $1 / \tau$ , the action with the minimum estimated action value was given preference 0, and the preferences of the other actions were scaled between these extremes. The step-size and discount-rate parameters were fixed at 0.1 and 0.98 respectively.
@@ -8036,7 +7842,7 @@ In this final chapter we touch on some topics that are beyond the scope of this 
 Over the course of this book, our notion of value function has become quite general. With off-policy learning we allowed a value function to be conditional on an arbitrary target policy. Then in Section 12.8 we generalized discounting to a termination function  $\gamma : \mathcal{S} \mapsto [0,1]$ , so that a different discount rate could be applied at each time step in determining the return (12.17). This allowed us to express predictions about how much reward we will get over an arbitrary, state-dependent horizon. The next, and perhaps final, step is to generalize beyond rewards to permit predictions about arbitrary signals. Rather than predicting the sum of future rewards, we might predict the sum of the future values of a sound or color sensation, or of an internal, highly processed signal such as another prediction. Whatever signal is added up in this way in a value-function-like prediction, we call it the cumulant of that prediction. We formalize it in a cumulant signal  $C_t \in \mathbb{R}$ . Using this, a general value function, or GVF, is written
 
 $$
-v _ {\pi , \gamma , C} (s) \doteq \mathbb {E} \left[ \sum_ {k = t} ^ {\infty} \left(\prod_ {i = t + 1} ^ {k} \gamma \left(S _ {i}\right)\right) C _ {k + 1} \mid S _ {t} = s, A _ {t: \infty} \sim \pi \right]. \tag {17.1}
+v_{\pi , \gamma , C} (s) \doteq \mathbb{E} \left[ \sum_{k = t} ^{\infty} \left(\prod_{i = t + 1} ^{k} \gamma \left(S_{i}\right)\right) C_{k + 1} \mid S_{t} = s, A_{t: \infty} \sim \pi \right]. \tag {17.1}
 $$
 
 As with conventional value functions (such as  $v_{\pi}$  or  $q_*$ ) this is an ideal function that we seek to approximate with a parameterized form, which we might continue to denote  $\hat{v}(s,\mathbf{w})$ , although of course there would have to be a different  $\mathbf{w}$  for each prediction, that is, for each choice of  $\pi$ ,  $\gamma$ , and  $C$ . Because a GVF has no necessary connection to reward, it is perhaps a misnomer to call it a value function. You might simply call it a prediction or, to make it more distinctive, a forecast (Ring, in preparation). Whatever it is called, it
@@ -8070,13 +7876,13 @@ Options are designed so that they are interchangeable with low-level actions. Fo
 Perhaps the most important generalization made possible by option ideas is that of the environmental model as developed in Chapters 3, 4, and 8. The conventional model of an action is the state-transition probabilities and the expected immediate reward for taking the action in each state. How do conventional action models generalize to option models? For options, the appropriate model is again of two parts, one corresponding to the state transition resulting from executing the option and one corresponding to the expected cumulative reward along the way. The reward part of an option model, analogous to the expected reward for state-action pairs (3.5), is
 
 $$
-r (s, \omega) \doteq \mathbb {E} \left[ R _ {1} + \gamma R _ {2} + \gamma^ {2} R _ {3} + \dots + \gamma^ {\tau - 1} R _ {\tau} \mid S _ {0} = s, A _ {0: \tau - 1} \sim \pi_ {\omega}, \tau \sim \gamma_ {\omega} \right], \tag {17.2}
+r (s, \omega) \doteq \mathbb{E} \left[ R_{1} + \gamma R_{2} + \gamma^{2} R_{3} + \dots + \gamma^{\tau - 1} R_{\tau} \mid S_{0} = s, A_{0: \tau - 1} \sim \pi_{\omega}, \tau \sim \gamma_{\omega} \right], \tag {17.2}
 $$
 
 for all options  $\omega$  and all states  $s\in \mathbb{S}$ , where  $\tau$  is the random time step at which the option terminates according to  $\gamma_{\omega}$ . Note the role of the overall discounting parameter  $\gamma$  in this equation—discounting is according to  $\gamma$ , but termination of the option is according to  $\gamma_{\omega}$ . The state-transition part of an option model is a little more subtle. This part of the model characterizes the probability of each possible resulting state (as in (3.4)), but now this state may result after various numbers of time steps, each of which must be discounted differently. The model for option  $\omega$  specifies, for each state  $s$  that  $\omega$  might start executing in, and for each state  $s'$  that  $\omega$  might terminate in,
 
 $$
-p \left(s ^ {\prime} \mid s, \omega\right) \doteq \sum_ {k = 1} ^ {\infty} \gamma^ {k} \Pr \left\{S _ {k} = s ^ {\prime}, \tau = k \mid S _ {0} = s, A _ {0: k - 1} \sim \pi_ {\omega}, \tau \sim \gamma_ {\omega} \right\}. \tag {17.3}
+p \left(s^{\prime} \mid s, \omega\right) \doteq \sum_{k = 1} ^{\infty} \gamma^{k} \Pr \left\{S_{k} = s^{\prime}, \tau = k \mid S_{0} = s, A_{0: k - 1} \sim \pi_{\omega}, \tau \sim \gamma_{\omega} \right\}. \tag {17.3}
 $$
 
 Note that, because of the factor of  $\gamma^k$ , this  $p(s'|s,\omega)$  is no longer a transition probability and no longer sums to one over all values of  $s'$ . (Nevertheless, we continue to use the  $|\cdot |$  notation in  $p$ .)
@@ -8084,13 +7890,13 @@ Note that, because of the factor of  $\gamma^k$ , this  $p(s'|s,\omega)$  is no 
 The above definition of the transition part of an option model allows us to formulate Bellman equations and dynamic programming algorithms that apply to all options, including low-level actions as a special case. For example, the general Bellman equation for the state values of a hierarchical policy  $\pi$  is
 
 $$
-v _ {\pi} (s) = \sum_ {\omega \in \Omega (s)} \pi (\omega | s) \left[ r (s, \omega) + \sum_ {s ^ {\prime}} p \left(s ^ {\prime} \mid s, \omega\right) v _ {\pi} \left(s ^ {\prime}\right) \right], \tag {17.4}
+v_{\pi} (s) = \sum_{\omega \in \Omega (s)} \pi (\omega | s) \left[ r (s, \omega) + \sum_{s^{\prime}} p \left(s^{\prime} \mid s, \omega\right) v_{\pi} \left(s^{\prime}\right) \right], \tag {17.4}
 $$
 
 where  $\Omega(s)$  denotes the set of options available in state  $s$ . If  $\Omega(s)$  includes only the low-level actions, then this equation reduces to a version of the usual Bellman equation (3.14), except of course  $\gamma$  is included in the new  $p$  (17.3) and thus does not appear. Similarly, the corresponding planning algorithms also have no  $\gamma$ . For example, the value iteration algorithm with options, analogous to (4.10), is
 
 $$
-v _ {k + 1} (s) \doteq \max  _ {\omega \in \Omega (s)} \left[ r (s, \omega) + \sum_ {s ^ {\prime}} p \left(s ^ {\prime} \mid s, \omega\right) v _ {k} \left(s ^ {\prime}\right) \right], \text {f o r a l l} s \in \mathcal {S}.
+v_{k + 1} (s) \doteq \max_{\omega \in \Omega (s)} \left[ r (s, \omega) + \sum_{s^{\prime}} p \left(s^{\prime} \mid s, \omega\right) v_{k} \left(s^{\prime}\right) \right], \text{for all} s \in \mathcal{S}.
 $$
 
 If  $\Omega(s)$  includes all the low-level actions available in each state  $s$ , then this algorithm converges to the conventional  $v_*$ , from which the optimal policy can be computed. However, it is particularly useful to plan with options when only a subset of the possible options are considered (in  $\Omega(s)$ ) in each state. Value iteration will then converge to the best hierarchical policy limited to the restricted set of options. Although this policy may be sub-optimal, convergence can be much faster because fewer options are considered and because each option can jump over many time steps.
@@ -8110,7 +7916,7 @@ Nevertheless, there are many issues that cannot be investigated without a more e
 First, we would change the problem. The environment would emit not its states, but only observations—signals that depend on its state but, like a robot's sensors, provide only partial information about it. For convenience, without loss of generality, we assume that the reward is a direct, known function of the observation (perhaps the observation is a vector, and the reward is one of its components). The environmental interaction would then have no explicit states or rewards, but could simply be an alternating sequence of actions  $A_{t} \in \mathcal{A}$  and observations  $O_{t} \in \mathcal{O}$ :
 
 $$
-A _ {0}, O _ {1}, A _ {1}, O _ {2}, A _ {2}, O _ {3}, A _ {3}, O _ {4}, \dots ,
+A_{0}, O_{1}, A_{1}, O_{2}, A_{2}, O_{3}, A_{3}, O_{4}, \dots ,
 $$
 
 going on forever (cf. Equation 3.1) or forming episodes each ending with a special terminal observation.
@@ -8120,13 +7926,13 @@ Second, we can recover the idea of state as used in this book from the sequence 
 To be more explicit about the Markov property it is useful to formalize possible futures. Let a test be any specific sequence of alternating actions and observations that might occur in the future. For example, a three-step test might be denoted  $\tau = a_{1}o_{1}a_{2}o_{2}a_{3}o_{3}$ . The probability of this test given a specific history  $h$  is defined as
 
 $$
-p (\tau | h) \doteq \Pr \left\{O _ {t + 1} = o _ {1}, O _ {t + 2} = o _ {2}, O _ {t + 3} = o _ {3} \mid H _ {t} = h, A _ {t} = a _ {1}, A _ {t + 1} = a _ {2}, A _ {t + 2} = a _ {3} \right\}. \tag {17.5}
+p (\tau | h) \doteq \Pr \left\{O_{t + 1} = o_{1}, O_{t + 2} = o_{2}, O_{t + 3} = o_{3} \mid H_{t} = h, A_{t} = a_{1}, A_{t + 1} = a_{2}, A_{t + 2} = a_{3} \right\}. \tag {17.5}
 $$
 
 Formally,  $f$  is Markov if and only if, for any test  $\tau$ , and for any histories  $h$  and  $h'$  that map to the same state under  $f$ , the test's probabilities given the two histories are equal:
 
 $$
-f (h) = f \left(h ^ {\prime}\right) \Rightarrow p (\tau | h) = p \left(\tau \mid h ^ {\prime}\right), \quad \text {f o r a l l} h, h ^ {\prime}, \tau \in \left\{\mathcal {A} \times \mathcal {O} \right\} ^ {*}. \tag {17.6}
+f (h) = f \left(h^{\prime}\right) \Rightarrow p (\tau | h) = p \left(\tau \mid h^{\prime}\right), \quad \text{for all} h, h^{\prime}, \tau \in \left\{\mathcal{A} \times \mathcal{O} \right\} ^{*}. \tag {17.6}
 $$
 
 A Markov state summarizes all the information in the history necessary for determining any test's probability. In fact, it summarizes all that is necessary for making any prediction, including any GVF. It also summarizes all that is necessary for optimal behavior: if  $f$  is Markov, then there is always a deterministic function  $\pi$  such that choosing  $A_{t} \doteq \pi(f(H_{t}))$  is an optimal policy.
@@ -8134,7 +7940,7 @@ A Markov state summarizes all the information in the history necessary for deter
 The third step in extending reinforcement learning to partial observability is to deal with certain computational considerations. As mentioned earlier, we want the state to be compact—relatively small compared to the history. (The identity function, for example, is not a good  $f$  even though it is Markov, because the corresponding state  $S_{t} = H_{t}$  would grow unboundedly with time.) In addition, we don't really want a function  $f$  that takes whole histories. Instead, we want an  $f$  that can be compactly implemented with an incremental, recursive update that computes  $S_{t+1}$  from  $S_{t}$ , incorporating only the next increment of data,  $A_{t}$  and  $O_{t+1}$ :
 
 $$
-S _ {t + 1} \doteq u \left(S _ {t}, A _ {t}, O _ {t + 1}\right), \text {f o r a l l} t \geq 0, \tag {17.7}
+S_{t + 1} \doteq u \left(S_{t}, A_{t}, O_{t + 1}\right), \text{for all} t \geq 0, \tag {17.7}
 $$
 
 with the first state  $S_0$  given. The function  $u$  is called the state-update function. For example, if  $f$  were the identity  $(S_t = H_t)$ , then  $u$  would merely extend  $S_t$  by appending  $A_t$  and  $O_{t+1}$  to it. Given  $f$ , it is always possible to construct a corresponding  $u$ , but it may
@@ -8147,7 +7953,7 @@ not be computationally convenient and, as in the identity example, it may not pr
 A common strategy for finding a Markov state is to look for something compact that is recursively updatable and enables accurate short-term predictions. In fact, it is only necessary to make accurate one-step predictions. An important fact is that, if an  $f$  is incrementally updatable, then it is Markov if and only if all one-step tests can be accurately predicted, that is, if and only if
 
 $$
-f (h) = f \left(h ^ {\prime}\right) \Rightarrow \Pr \left\{O _ {t + 1} = o \mid H _ {t} = h, A _ {t} = a \right\} = \Pr \left\{O _ {t + 1} = o \mid H _ {t} = h ^ {\prime}, A _ {t} = a \right\}, \tag {17.8}
+f (h) = f \left(h^{\prime}\right) \Rightarrow \Pr \left\{O_{t + 1} = o \mid H_{t} = h, A_{t} = a \right\} = \Pr \left\{O_{t + 1} = o \mid H_{t} = h^{\prime}, A_{t} = a \right\}, \tag {17.8}
 $$
 
 for all  $h, h' \in \{\mathcal{A} \times \mathcal{O}\}^*$ ,  $o \in \mathcal{O}$  and  $a \in \mathcal{A}$ . Accurate one-step predictions are informationally sufficient, together with the state-update function, to accurately predict the probability of any test of any length. This can be done by iteratively and alternately making one-step predictions and applying the state-update function. From the whole tree of possibilities the exact probability of any test or the expectation of any GVF can be determined. These observations have led many researchers to focus on one-step predictions rather than directly on multi-step predictions such as GVFs. However, note
@@ -8157,13 +7963,13 @@ that determining long-term predictions from single-step predictions is exponenti
 An example of obtaining Markov states through a state-update function is provided by the popular Bayesian approach known as Partially Observable MDPs, or POMDPs. In this approach the environment is assumed to have a well defined latent state  $X_{t}$  that underlies and produces the environment's observations, but is never available to the agent (and is not to be confused with the state  $S_{t}$  used by the agent to make predictions and decisions). The natural Markov state,  $S_{t}$ , for a POMDP is the distribution over the latent states given the history, called the belief state. For concreteness, assume the usual case in which there are a finite number of hidden states,  $X_{t} \in \{1,2,\dots,d\}$ . Then the belief state is the vector  $S_{t} \doteq \mathbf{s}_{t} \in [0,1]^{d}$  with components
 
 $$
-\mathbf {s} _ {t} [ i ] \doteq \Pr \left\{X _ {t} = i \mid H _ {t} \right\}, \text {f o r a l l p o s s i b l e l a t e n t s t a t e s} i \in \{1, 2, \dots , d \}. \tag {17.9}
+\mathbf{s}_{t} [ i ] \doteq \Pr \left\{X_{t} = i \mid H_{t} \right\}, \text{for all possible latent states} i \in \{1, 2, \dots , d \}. \tag {17.9}
 $$
 
 The belief state remains the same size (same number of components) even as  $t$  grows. It can also be incrementally updated by Bayes' rule, assuming complete knowledge of the internal workings of the environment. Specifically, the  $i$ th component of the belief-state update function is
 
 $$
-u (\mathbf {s}, a, o) [ i ] \doteq \frac {\sum_ {x = 1} ^ {d} \mathbf {s} [ x ] p (i , o | x , a)}{\sum_ {x = 1} ^ {d} \sum_ {x ^ {\prime} = 1} ^ {d} \mathbf {s} [ x ] p \left(x ^ {\prime} , o | x , a\right)}, \quad \text {f o r a l l} a \in \mathcal {A}, o \in \mathcal {O}, \tag {17.10}
+u (\mathbf{s}, a, o) [ i ] \doteq \frac{\sum_{x = 1} ^{d} \mathbf{s} [ x ] p (i , o | x , a)}{\sum_{x = 1} ^{d} \sum_{x^{\prime} = 1} ^{d} \mathbf{s} [ x ] p \left(x^{\prime} , o | x , a\right)}, \quad \text{for all} a \in \mathcal{A}, o \in \mathcal{O}, \tag {17.10}
 $$
 
 and for all belief states  $\mathbf{s}$  with components  $\mathbf{s}[x]$ , where the four-argument  $p$  function here is not the usual one for MDPs (as in Chapter 3), but the analogous one for POMDPs, in terms of the latent state:  $p(x', o|x, a) \doteq \operatorname*{Pr}\{X_t = x', O_t = o \mid X_{t-1} = x, A_{t-1} = a\}$ . This approach is popular in theoretical work and has many significant applications, but its assumptions and computational complexity scale poorly, and we do not recommend it as an approach to artificial intelligence.
@@ -8197,7 +8003,7 @@ In practice, designing a reward signal is often left to an informal trial-and-er
 It is tempting to address the sparse reward problem by rewarding the agent for achieving subgoals that the designer thinks are important way stations to the overall goal. But augmenting the reward signal with well-intentioned supplemental rewards may lead the agent to behave differently from what is intended; the agent may end up not achieving the overall goal. A better way to provide such guidance is to leave the reward signal alone and instead augment the value-function approximation with an initial guess of what it should ultimately be, or augment it with initial guesses as to what certain parts of it should be. For example, suppose we wants to offer  $v_0: \mathcal{S} \to \mathbb{R}$  as an initial guess at the true optimal value function  $v_*$ , and that we are using linear function approximation with features  $\mathbf{x}: \mathcal{S} \to \mathbb{R}^d$ . Then we would define the initial value function approximation as
 
 $$
-\hat {v} (s, \mathbf {w}) \doteq \mathbf {w} ^ {\top} \mathbf {x} (s) + v _ {0} (s), \tag {17.11}
+\hat {v} (s, \mathbf{w}) \doteq \mathbf{w} ^{\top} \mathbf{x} (s) + v_{0} (s), \tag {17.11}
 $$
 
 and update the weights  $\mathbf{w}$  as usual. If the initial weight vector is  $\mathbf{0}$ , then the initial value function will be  $v_{0}$ , but the asymptotic solution quality will be determined by the feature vectors as usual. This initialization can also be done for arbitrary nonlinear approximators and arbitrary forms of  $v_{0}$ , though it is not guaranteed to always accelerate learning.
@@ -9408,7 +9214,7 @@ dimensions of reinforcement learning methods, 189-191
 
 direct and indirect RL, 162, 164, 192
 
-discounting，55,199，243，249，282，324，328 427，459
+discounting，55,199，243，249，282，324，328427，459
 
 in pole balancing, 56
 
@@ -9878,13 +9684,9 @@ radial basis functions (RBFs), 221-222
 
 random walk, 95
 
-5-state, 125, 126, 127
+5-state, 125, 126, 12719-state, 144, 291
 
-19-state, 144, 291
-
-TD  $(\lambda)$  results on, 294, 295, 299
-
-1000-state, 203-209, 217, 218
+TD  $(\lambda)$  results on, 294, 295, 2991000-state, 203-209, 217, 218
 
 Fourier and polynomial bases, 214
 

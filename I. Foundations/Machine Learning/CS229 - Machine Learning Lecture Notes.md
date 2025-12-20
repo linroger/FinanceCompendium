@@ -234,7 +234,7 @@ Here, the  $x$ 's are two-dimensional vectors in  $\mathbb{R}^2$ . For instance,
 To perform supervised learning, we must decide how we're going to represent functions/hypotheses  $h$  in a computer. As an initial choice, let's say we decide to approximate  $y$  as a linear function of  $x$ :
 
 $$
-h _ {\theta} (x) = \theta_ {0} + \theta_ {1} x _ {1} + \theta_ {2} x _ {2}
+h_{\theta} (x) = \theta_{0} + \theta_{1} x_{1} + \theta_{2} x_{2}
 $$
 
 Here, the  $\theta_{i}$ 's are the parameters (also called weights) parameterizing the space of linear functions mapping from  $\mathcal{X}$  to  $\mathcal{Y}$ . When there is no risk of
@@ -242,7 +242,7 @@ Here, the  $\theta_{i}$ 's are the parameters (also called weights) parameterizi
 confusion, we will drop the  $\theta$  subscript in  $h_{\theta}(x)$ , and write it more simply as  $h(x)$ . To simplify our notation, we also introduce the convention of letting  $x_0 = 1$  (this is the intercept term), so that
 
 $$
-h (x) = \sum_ {i = 0} ^ {d} \theta_ {i} x _ {i} = \theta^ {T} x,
+h (x) = \sum_{i = 0}^{d} \theta_{i} x_{i} = \theta^{T} x,
 $$
 
 where on the right-hand side above we are viewing  $\theta$  and  $x$  both as vectors, and here  $d$  is the number of input variables (not counting  $x_0$ ).
@@ -250,7 +250,7 @@ where on the right-hand side above we are viewing  $\theta$  and  $x$  both as v
 Now, given a training set, how do we pick, or learn, the parameters  $\theta$ ? One reasonable method seems to be to make  $h(x)$  close to  $y$ , at least for the training examples we have. To formalize this, we will define a function that measures, for each value of the  $\theta$ 's, how close the  $h(x^{(i)})$ ’s are to the corresponding  $y^{(i)}$ ’s. We define the cost function:
 
 $$
-J (\theta) = \frac {1}{2} \sum_ {i = 1} ^ {n} (h _ {\theta} (x ^ {(i)}) - y ^ {(i)}) ^ {2}.
+J (\theta) = \frac{1}{2} \sum_{i = 1}^{n} (h_{\theta} (x^{(i)}) - y^{(i)})^{2}.
 $$
 
 If you've seen linear regression before, you may recognize this as the familiar least-squares cost function that gives rise to the ordinary least squares regression model. Whether or not you have seen it previously, let's keep going, and we'll eventually show this to be a special case of a much broader family of algorithms.
@@ -260,7 +260,7 @@ If you've seen linear regression before, you may recognize this as the familiar 
 We want to choose  $\theta$  so as to minimize  $J(\theta)$ . To do so, let's use a search algorithm that starts with some "initial guess" for  $\theta$ , and that repeatedly changes  $\theta$  to make  $J(\theta)$  smaller, until hopefully we converge to a value of  $\theta$  that minimizes  $J(\theta)$ . Specifically, let's consider the gradient descent algorithm, which starts with some initial  $\theta$ , and repeatedly performs the update:
 
 $$
-\theta_ {j} := \theta_ {j} - \alpha \frac {\partial}{\partial \theta_ {j}} J (\theta).
+\theta_{j} := \theta_{j} - \alpha \frac{\partial}{\partial \theta_{j}} J (\theta).
 $$
 
 (This update is simultaneously performed for all values of  $j = 0, \ldots, d$ .) Here,  $\alpha$  is called the learning rate. This is a very natural algorithm that repeatedly takes a step in the direction of steepest decrease of  $J$ .
@@ -270,13 +270,13 @@ In order to implement this algorithm, we have to work out what is the partial de
 case of if we have only one training example  $(x,y)$ , so that we can neglect the sum in the definition of  $J$ . We have:
 
 $$
-\begin{array}{l} \frac {\partial}{\partial \theta_ {j}} J (\theta) = \frac {\partial}{\partial \theta_ {j}} \frac {1}{2} (h _ {\theta} (x) - y) ^ {2} \\ = 2 \cdot \frac {1}{2} (h _ {\theta} (x) - y) \cdot \frac {\partial}{\partial \theta_ {j}} (h _ {\theta} (x) - y) \\ = \left(h _ {\theta} (x) - y\right) \cdot \frac {\partial}{\partial \theta_ {j}} \left(\sum_ {i = 0} ^ {d} \theta_ {i} x _ {i} - y\right) \\ = \left(h _ {\theta} (x) - y\right) x _ {j} \\ \end{array}
+\begin{array}{l} \frac{\partial}{\partial \theta_{j}} J (\theta) = \frac{\partial}{\partial \theta_{j}} \frac{1}{2} (h_{\theta} (x) - y)^{2} \\ = 2 \cdot \frac{1}{2} (h_{\theta} (x) - y) \cdot \frac{\partial}{\partial \theta_{j}} (h_{\theta} (x) - y) \\ = \left(h_{\theta} (x) - y\right) \cdot \frac{\partial}{\partial \theta_{j}} \left(\sum_{i = 0}^{d} \theta_{i} x_{i} - y\right) \\ = \left(h_{\theta} (x) - y\right) x_{j} \\ \end{array}
 $$
 
 For a single training example, this gives the update rule:
 
 $$
-\theta_ {j} := \theta_ {j} + \alpha \left(y ^ {(i)} - h _ {\theta} (x ^ {(i)})\right) x _ {j} ^ {(i)}.
+\theta_{j} := \theta_{j} + \alpha \left(y^{(i)} - h_{\theta} (x^{(i)})\right) x_{j}^{(i)}.
 $$
 
 The rule is called the LMS update rule (LMS stands for "least mean squares"), and is also known as the Widrow-Hoff learning rule. This rule has several properties that seem natural and intuitive. For instance, the magnitude of the update is proportional to the error term  $(y^{(i)} - h_{\theta}(x^{(i)}))$ ; thus, for instance, if we are encountering a training example on which our prediction nearly matches the actual value of  $y^{(i)}$ , then we find that there is little need to change the parameters; in contrast, a larger change to the parameters will be made if our prediction  $h_{\theta}(x^{(i)})$  has a large error (i.e., if it is very far from  $y^{(i)}$ ).
@@ -286,7 +286,7 @@ We'd derived the LMS rule for when there was only a single training example. The
 Repeat until convergence {
 
 $$
-\theta_ {j} := \theta_ {j} + \alpha \sum_ {i = 1} ^ {n} \left(y ^ {(i)} - h _ {\theta} \left(x ^ {(i)}\right)\right) x _ {j} ^ {(i)}, (\text {f o r e v e r y} j) \tag {1.1}
+\theta_{j} := \theta_{j} + \alpha \sum_{i = 1}^{n} \left(y^{(i)} - h_{\theta} \left(x^{(i)}\right)\right) x_{j}^{(i)}, (\text{fo re ve ry} j) \tag {1.1}
 $$
 
 }
@@ -294,7 +294,7 @@ $$
 By grouping the updates of the coordinates into an update of the vector  $\theta$ , we can rewrite update (1.1) in a slightly more succinct way:
 
 $$
-\theta := \theta + \alpha \sum_ {i = 1} ^ {n} \left(y ^ {(i)} - h _ {\theta} (x ^ {(i)})\right) x ^ {(i)}
+\theta := \theta + \alpha \sum_{i = 1}^{n} \left(y^{(i)} - h_{\theta} (x^{(i)})\right) x^{(i)}
 $$
 
 The reader can easily verify that the quantity in the summation in the update rule above is just  $\partial J(\theta) / \partial \theta_{j}$  (for the original definition of  $J$ ). So, this is simply gradient descent on the original cost function  $J$ . This method looks at every example in the entire training set on every step, and is called batch gradient descent. Note that, while gradient descent can be susceptible to local minima in general, the optimization problem we have posed here for linear regression has only one global, and no other local, optima; thus gradient descent always converges (assuming the learning rate  $\alpha$  is not too large) to the global minimum. Indeed,  $J$  is a convex quadratic function. Here is an example of gradient descent as it is run to minimize a quadratic function.
@@ -314,7 +314,7 @@ The above results were obtained with batch gradient descent. There is an alterna
 Loop{
 
 $$
-\begin{array}{l} \text {f o r} i = 1 \text {t o} n, \left\{\right. \\ \theta_ {j} := \theta_ {j} + \alpha \left(y ^ {(i)} - h _ {\theta} (x ^ {(i)})\right) x _ {j} ^ {(i)}, \quad (\text {f o r e v e r y} j) \tag {1.2} \\ \end{array}
+\begin{array}{l} \text{fo r} i = 1 \text{to} n, \left\{\right. \\ \theta_{j} := \theta_{j} + \alpha \left(y^{(i)} - h_{\theta} (x^{(i)})\right) x_{j}^{(i)}, \quad (\text{fo re ve ry} j) \tag {1.2} \\ \end{array}
 $$
 
 }
@@ -324,7 +324,7 @@ $$
 By grouping the updates of the coordinates into an update of the vector  $\theta$ , we can rewrite update (1.2) in a slightly more succinct way:
 
 $$
-\theta := \theta + \alpha \left(y ^ {(i)} - h _ {\theta} (x ^ {(i)})\right) x ^ {(i)}
+\theta := \theta + \alpha \left(y^{(i)} - h_{\theta} (x^{(i)})\right) x^{(i)}
 $$
 
 In this algorithm, we repeatedly run through the training set, and each time we encounter a training example, we update the parameters according to the gradient of the error with respect to that single training example only. This algorithm is called stochastic gradient descent (also incremental gradient descent). Whereas batch gradient descent has to scan through the entire training set before taking a single step—a costly operation if  $n$  is large—stochastic gradient descent can start making progress right away, and
@@ -340,19 +340,19 @@ Gradient descent gives one way of minimizing  $J$ . Let's discuss a second way o
 For a function  $f: \mathbb{R}^{n \times d} \mapsto \mathbb{R}$  mapping from  $n$ -by-  $d$  matrices to the real numbers, we define the derivative of  $f$  with respect to  $A$  to be:
 
 $$
-\nabla_ {A} f (A) = \left[ \begin{array}{c c c} \frac {\partial f}{\partial A _ {1 1}} & \dots & \frac {\partial f}{\partial A _ {1 d}} \\ \vdots & \ddots & \vdots \\ \frac {\partial f}{\partial A _ {n 1}} & \dots & \frac {\partial f}{\partial A _ {n d}} \end{array} \right]
+\nabla_{A} f (A) = \left[ \begin{array}{c c c} \frac{\partial f}{\partial A_{1 1}} & \dots & \frac{\partial f}{\partial A_{1 d}} \\ \vdots & \ddots & \vdots \\ \frac{\partial f}{\partial A_{n 1}} & \dots & \frac{\partial f}{\partial A_{n d}} \end{array} \right]
 $$
 
 Thus, the gradient  $\nabla_A f(A)$  is itself an  $n$ -by- $d$  matrix, whose  $(i,j)$ -element is  $\partial f / \partial A_{ij}$ . For example, suppose  $A = \left[ \begin{array}{cc}A_{11} & A_{12}\\ A_{21} & A_{22} \end{array} \right]$  is a 2-by-2 matrix, and the function  $f:\mathbb{R}^{2\times 2}\mapsto \mathbb{R}$  is given by
 
 $$
-f (A) = \frac {3}{2} A _ {1 1} + 5 A _ {1 2} ^ {2} + A _ {2 1} A _ {2 2}.
+f (A) = \frac{3}{2} A_{1 1} + 5 A_{1 2}^{2} + A_{2 1} A_{2 2}.
 $$
 
 Here,  $A_{ij}$  denotes the  $(i,j)$  entry of the matrix  $A$ . We then have
 
 $$
-\nabla_ {A} f (A) = \left[ \begin{array}{c c} \frac {3}{2} & 1 0 A _ {1 2} \\ A _ {2 2} & A _ {2 1} \end{array} \right].
+\nabla_{A} f (A) = \left[ \begin{array}{c c} \frac{3}{2} & 1 0 A_{1 2} \\ A_{2 2} & A_{2 1} \end{array} \right].
 $$
 
 # 1.2.2 Least squares revisited
@@ -362,43 +362,43 @@ Armed with the tools of matrix derivatives, let us now proceed to find in closed
 Given a training set, define the design matrix  $X$  to be the  $n$ -by-  $d$  matrix (actually  $n$ -by-  $d + 1$ , if we include the intercept term) that contains the training examples' input values in its rows:
 
 $$
-X = \left[ \begin{array}{c} - (x ^ {(1)}) ^ {T} - \\ - (x ^ {(2)}) ^ {T} - \\ \vdots \\ - (x ^ {(n)}) ^ {T} - \end{array} \right].
+X = \left[ \begin{array}{c} - (x^{(1)})^{T} - \\ - (x^{(2)})^{T} - \\ \vdots \\ - (x^{(n)})^{T} - \end{array} \right].
 $$
 
 Also, let  $\vec{y}$  be the  $n$ -dimensional vector containing all the target values from the training set:
 
 $$
-\vec {y} = \left[ \begin{array}{c} y ^ {(1)} \\ y ^ {(2)} \\ \vdots \\ y ^ {(n)} \end{array} \right].
+\vec{y} = \left[ \begin{array}{c} y^{(1)} \\ y^{(2)} \\ \vdots \\ y^{(n)} \end{array} \right].
 $$
 
 Now, since  $h_{\theta}(x^{(i)}) = (x^{(i)})^T\theta$ , we can easily verify that
 
 $$
-\begin{array}{l} X \theta - \vec {y} = \left[ \begin{array}{c} (x ^ {(1)}) ^ {T} \theta \\ \vdots \\ (x ^ {(n)}) ^ {T} \theta \end{array} \right] - \left[ \begin{array}{c} y ^ {(1)} \\ \vdots \\ y ^ {(n)} \end{array} \right] \\ = \left[ \begin{array}{c} h _ {\theta} (x ^ {(1)}) - y ^ {(1)} \\ \vdots \\ h _ {\theta} (x ^ {(n)}) - y ^ {(n)} \end{array} \right]. \\ \end{array}
+\begin{array}{l} X \theta - \vec{y} = \left[ \begin{array}{c} (x^{(1)})^{T} \theta \\ \vdots \\ (x^{(n)})^{T} \theta \end{array} \right] - \left[ \begin{array}{c} y^{(1)} \\ \vdots \\ y^{(n)} \end{array} \right] \\ = \left[ \begin{array}{c} h_{\theta} (x^{(1)}) - y^{(1)} \\ \vdots \\ h_{\theta} (x^{(n)}) - y^{(n)} \end{array} \right]. \\ \end{array}
 $$
 
 Thus, using the fact that for a vector  $z$ , we have that  $z^T z = \sum_i z_i^2$ :
 
 $$
-\begin{array}{l} \frac {1}{2} (X \theta - \vec {y}) ^ {T} (X \theta - \vec {y}) = \frac {1}{2} \sum_ {i = 1} ^ {n} \left(h _ {\theta} \left(x ^ {(i)}\right) - y ^ {(i)}\right) ^ {2} \\ = J (\theta) \\ \end{array}
+\begin{array}{l} \frac{1}{2} (X \theta - \vec{y})^{T} (X \theta - \vec{y}) = \frac{1}{2} \sum_{i = 1}^{n} \left(h_{\theta} \left(x^{(i)}\right) - y^{(i)}\right)^{2} \\ = J (\theta) \\ \end{array}
 $$
 
 Finally, to minimize  $J$ , let's find its derivatives with respect to  $\theta$ . Hence,
 
 $$
-\begin{array}{l} \nabla_ {\theta} J (\theta) = \nabla_ {\theta} \frac {1}{2} (X \theta - \vec {y}) ^ {T} (X \theta - \vec {y}) \\ { = } { \frac { 1 } { 2 } \nabla _ { \theta } \left( ( X \theta ) ^ { T } X \theta - ( X \theta ) ^ { T } \vec { y } - \vec { y } ^ { T } ( X \theta ) + \vec { y } ^ { T } \vec { y } \right) } \\ = \frac {1}{2} \nabla_ {\theta} \left(\theta^ {T} \left(X ^ {T} X\right) \theta - \bar {y} ^ {T} (X \theta) - \bar {y} ^ {T} (X \theta)\right) \\ = \frac {1}{2} \nabla_ {\theta} \left(\theta^ {T} \left(X ^ {T} X\right) \theta - 2 \left(X ^ {T} \vec {y}\right) ^ {T} \theta\right) \\ = \frac {1}{2} \left(2 X ^ {T} X \theta - 2 X ^ {T} \vec {y}\right) \\ = X ^ {T} X \theta - X ^ {T} \vec {y} \\ \end{array}
+\begin{array}{l} \nabla_{\theta} J (\theta) = \nabla_{\theta} \frac{1}{2} (X \theta - \vec{y})^{T} (X \theta - \vec{y}) \\ { = } { \frac{ 1 } { 2 } \nabla_{ \theta } \left( ( X \theta )^{ T } X \theta - ( X \theta )^{ T } \vec{ y } - \vec{ y }^{ T } ( X \theta ) + \vec{ y }^{ T } \vec{ y } \right) } \\ = \frac{1}{2} \nabla_{\theta} \left(\theta^{T} \left(X^{T} X\right) \theta - \bar {y}^{T} (X \theta) - \bar {y}^{T} (X \theta)\right) \\ = \frac{1}{2} \nabla_{\theta} \left(\theta^{T} \left(X^{T} X\right) \theta - 2 \left(X^{T} \vec{y}\right)^{T} \theta\right) \\ = \frac{1}{2} \left(2 X^{T} X \theta - 2 X^{T} \vec{y}\right) \\ = X^{T} X \theta - X^{T} \vec{y} \\ \end{array}
 $$
 
 In the third step, we used the fact that  $a^T b = b^T a$ , and in the fifth step used the facts  $\nabla_x b^T x = b$  and  $\nabla_x x^T A x = 2 A x$  for symmetric matrix  $A$  (for more details, see Section 4.3 of "Linear Algebra Review and Reference"). To minimize  $J$ , we set its derivatives to zero, and obtain the normal equations:
 
 $$
-X ^ {T} X \theta = X ^ {T} \vec {y}
+X^{T} X \theta = X^{T} \vec{y}
 $$
 
 Thus, the value of  $\theta$  that minimizes  $J(\theta)$  is given in closed form by the equation
 
 $$
-\boldsymbol {\theta} = (X ^ {T} X) ^ {- 1} X ^ {T} \vec {y}. ^ {3}
+\boldsymbol {\theta} = (X^{T} X)^{- 1} X^{T} \vec{y}. ^ {3}
 $$
 
 # 1.3 Probabilistic interpretation
@@ -408,19 +408,19 @@ When faced with a regression problem, why might linear regression, and specifica
 Let us assume that the target variables and the inputs are related via the equation
 
 $$
-y ^ {(i)} = \theta^ {T} x ^ {(i)} + \epsilon^ {(i)},
+y^{(i)} = \theta^{T} x^{(i)} + \epsilon^{(i)},
 $$
 
 where  $\epsilon^{(i)}$  is an error term that captures either unmodeled effects (such as if there are some features very pertinent to predicting housing price, but that we'd left out of the regression), or random noise. Let us further assume that the  $\epsilon^{(i)}$  are distributed IID (independently and identically distributed) according to a Gaussian distribution (also called a Normal distribution) with mean zero and some variance  $\sigma^2$ . We can write this assumption as “ $\epsilon^{(i)} \sim \mathcal{N}(0, \sigma^2)$ ” I.e., the density of  $\epsilon^{(i)}$  is given by
 
 $$
-p (\epsilon^ {(i)}) = \frac {1}{\sqrt {2 \pi} \sigma} \exp \left(- \frac {(\epsilon^ {(i)}) ^ {2}}{2 \sigma^ {2}}\right).
+p (\epsilon^{(i)}) = \frac{1}{\sqrt{2 \pi} \sigma} \exp \left(- \frac{(\epsilon^{(i)})^{2}}{2 \sigma^{2}}\right).
 $$
 
 This implies that
 
 $$
-p (y ^ {(i)} | x ^ {(i)}; \theta) = \frac {1}{\sqrt {2 \pi} \sigma} \exp \left(- \frac {(y ^ {(i)} - \theta^ {T} x ^ {(i)}) ^ {2}}{2 \sigma^ {2}}\right).
+p (y^{(i)} | x^{(i)}; \theta) = \frac{1}{\sqrt{2 \pi} \sigma} \exp \left(- \frac{(y^{(i)} - \theta^{T} x^{(i)})^{2}}{2 \sigma^{2}}\right).
 $$
 
 The notation  $p(y^{(i)}|x^{(i)};\theta)$  indicates that this is the distribution of  $y^{(i)}$  given  $x^{(i)}$  and parameterized by  $\theta$ . Note that we should not condition on  $\theta$  (" $p(y^{(i)}|x^{(i)},\theta)$ ) since  $\theta$  is not a random variable. We can also write the distribution of  $y^{(i)}$  as  $y^{(i)} \mid x^{(i)}$ ;  $\theta \sim \mathcal{N}(\theta^T x^{(i)},\sigma^2)$ .
@@ -428,13 +428,13 @@ The notation  $p(y^{(i)}|x^{(i)};\theta)$  indicates that this is the distributi
 Given  $X$  (the design matrix, which contains all the  $x^{(i)}$ 's) and  $\theta$ , what is the distribution of the  $y^{(i)}$ 's? The probability of the data is given by  $p(\vec{y} | X; \theta)$ . This quantity is typically viewed as a function of  $\vec{y}$  (and perhaps  $X$ ), for a fixed value of  $\theta$ . When we wish to explicitly view this as a function of  $\theta$ , we will instead call it the likelihood function:
 
 $$
-L (\theta) = L (\theta ; X, \vec {y}) = p (\vec {y} | X; \theta).
+L (\theta) = L (\theta ; X, \vec{y}) = p (\vec{y} | X; \theta).
 $$
 
 Note that by the independence assumption on the  $\epsilon^{(i)}$ 's (and hence also the  $y^{(i)}$ 's given the  $x^{(i)}$ 's), this can also be written
 
 $$
-\begin{array}{l} L (\theta) = \prod_ {i = 1} ^ {n} p (y ^ {(i)} \mid x ^ {(i)}; \theta) \\ = \prod_ {i = 1} ^ {n} \frac {1}{\sqrt {2 \pi} \sigma} \exp \left(- \frac {(y ^ {(i)} - \theta^ {T} x ^ {(i)}) ^ {2}}{2 \sigma^ {2}}\right). \\ \end{array}
+\begin{array}{l} L (\theta) = \prod_{i = 1}^{n} p (y^{(i)} \mid x^{(i)}; \theta) \\ = \prod_{i = 1}^{n} \frac{1}{\sqrt{2 \pi} \sigma} \exp \left(- \frac{(y^{(i)} - \theta^{T} x^{(i)})^{2}}{2 \sigma^{2}}\right). \\ \end{array}
 $$
 
 Now, given this probabilistic model relating the  $y^{(i)}$ 's and the  $x^{(i)}$ 's, what is a reasonable way of choosing our best guess of the parameters  $\theta$ ? The principal of maximum likelihood says that we should choose  $\theta$  so as to make the data as high probability as possible. I.e., we should choose  $\theta$  to maximize  $L(\theta)$ .
@@ -442,13 +442,13 @@ Now, given this probabilistic model relating the  $y^{(i)}$ 's and the  $x^{(i)}
 Instead of maximizing  $L(\theta)$ , we can also maximize any strictly increasing function of  $L(\theta)$ . In particular, the derivations will be a bit simpler if we instead maximize the log likelihood  $\ell(\theta)$ :
 
 $$
-\begin{array}{l} \ell (\theta) = \log L (\theta) \\ = \log \prod_ {i = 1} ^ {n} \frac {1}{\sqrt {2 \pi} \sigma} \exp \left(- \frac {(y ^ {(i)} - \theta^ {T} x ^ {(i)}) ^ {2}}{2 \sigma^ {2}}\right) \\ = \sum_ {i = 1} ^ {n} \log {\frac {1}{\sqrt {2 \pi} \sigma}} \exp \left(- \frac {(y ^ {(i)} - \theta^ {T} x ^ {(i)}) ^ {2}}{2 \sigma^ {2}}\right) \\ { = } { n \log \frac { 1 } { \sqrt { 2 \pi } \sigma } - \frac { 1 } { \sigma ^ { 2 } } \cdot \frac { 1 } { 2 } \sum _ { i = 1 } ^ { n } ( y ^ { ( i ) } - \theta ^ { T } x ^ { ( i ) } ) ^ { 2 } . } \\ \end{array}
+\begin{array}{l} \ell (\theta) = \log L (\theta) \\ = \log \prod_{i = 1}^{n} \frac{1}{\sqrt{2 \pi} \sigma} \exp \left(- \frac{(y^{(i)} - \theta^{T} x^{(i)})^{2}}{2 \sigma^{2}}\right) \\ = \sum_{i = 1}^{n} \log{\frac{1}{\sqrt{2 \pi} \sigma}} \exp \left(- \frac{(y^{(i)} - \theta^{T} x^{(i)})^{2}}{2 \sigma^{2}}\right) \\ { = } { n \log \frac{ 1 } { \sqrt{ 2 \pi } \sigma } - \frac{ 1 } { \sigma^{ 2 } } \cdot \frac{ 1 } { 2 } \sum_{ i = 1 }^{ n } ( y^{ ( i ) } - \theta^{ T } x^{ ( i ) } )^{ 2 } . } \\ \end{array}
 $$
 
 Hence, maximizing  $\ell (\theta)$  gives the same answer as minimizing
 
 $$
-\frac {1}{2} \sum_ {i = 1} ^ {n} (y ^ {(i)} - \theta^ {T} x ^ {(i)}) ^ {2},
+\frac{1}{2} \sum_{i = 1}^{n} (y^{(i)} - \theta^{T} x^{(i)})^{2},
 $$
 
 which we recognize to be  $J(\theta)$ , our original least-squares cost function.
@@ -486,7 +486,7 @@ Here, the  $w^{(i)}$ 's are non-negative valued weights. Intuitively, if  $w^{(i
 A fairly standard choice for the weights is<sup>4</sup>
 
 $$
-w ^ {(i)} = \exp \left(- \frac {(x ^ {(i)} - x) ^ {2}}{2 \tau^ {2}}\right)
+w^{(i)} = \exp \left(- \frac{(x^{(i)} - x)^{2}}{2 \tau^{2}}\right)
 $$
 
 Note that the weights depend on the particular point  $x$  at which we're trying to evaluate  $x$ . Moreover, if  $|x^{(i)} - x|$  is small, then  $w^{(i)}$  is close to 1; and if  $|x^{(i)} - x|$  is large, then  $w^{(i)}$  is small. Hence,  $\theta$  is chosen giving a much higher "weight" to the (errors on) training examples close to the query point  $x$ . (Note also that while the formula for the weights takes a form that is cosmetically similar to the density of a Gaussian distribution, the  $w^{(i)}$ 's do not directly have anything to do with Gaussians, and in particular the  $w^{(i)}$  are not random variables, normally distributed or otherwise.) The parameter  $\tau$  controls how quickly the weight of a training example falls off with distance of its  $x^{(i)}$  from the query point  $x$ ;  $\tau$  is called the bandwidth parameter, and is also something that you'll get to experiment with in your homework.
@@ -506,13 +506,13 @@ We could approach the classification problem ignoring the fact that  $y$  is dis
 To fix this, let's change the form for our hypotheses  $h_{\theta}(x)$ . We will choose
 
 $$
-h _ {\theta} (x) = g (\theta^ {T} x) = \frac {1}{1 + e ^ {- \theta^ {T} x}},
+h_{\theta} (x) = g (\theta^{T} x) = \frac{1}{1 + e^{- \theta^{T} x}},
 $$
 
 where
 
 $$
-g (z) = \frac {1}{1 + e ^ {- z}}
+g (z) = \frac{1}{1 + e^{- z}}
 $$
 
 is called the logistic function or the sigmoid function. Here is a plot showing  $g(z)$ :
@@ -524,7 +524,7 @@ Notice that  $g(z)$  tends towards 1 as  $z \to \infty$ , and  $g(z)$  tends tow
 For now, let's take the choice of  $g$  as given. Other functions that smoothly increase from 0 to 1 can also be used, but for a couple of reasons that we'll see later (when we talk about GLMs, and when we talk about generative learning algorithms), the choice of the logistic function is a fairly natural one. Before moving on, here's a useful property of the derivative of the sigmoid function, which we write as  $g'$ :
 
 $$
-\begin{array}{l} g ^ {\prime} (z) = \frac {d}{d z} \frac {1}{1 + e ^ {- z}} \\ = \frac {1}{(1 + e ^ {- z}) ^ {2}} \left(e ^ {- z}\right) \\ = \frac {1}{\left(1 + e ^ {- z}\right)} \cdot \left(1 - \frac {1}{\left(1 + e ^ {- z}\right)}\right) \\ = g (z) (1 - g (z)). \\ \end{array}
+\begin{array}{l} g^{\prime} (z) = \frac{d}{d z} \frac{1}{1 + e^{- z}} \\ = \frac{1}{(1 + e^{- z})^{2}} \left(e^{- z}\right) \\ = \frac{1}{\left(1 + e^{- z}\right)} \cdot \left(1 - \frac{1}{\left(1 + e^{- z}\right)}\right) \\ = g (z) (1 - g (z)). \\ \end{array}
 $$
 
 So, given the logistic regression model, how do we fit  $\theta$  for it? Following how we saw least squares regression could be derived as the maximum likelihood estimator under a set of assumptions, let's endow our classification model with a set of probabilistic assumptions, and then fit the parameters via maximum likelihood.
@@ -532,41 +532,41 @@ So, given the logistic regression model, how do we fit  $\theta$  for it? Follow
 Let us assume that
 
 $$
-P (y = 1 \mid x; \theta) = h _ {\theta} (x)
+P (y = 1 \mid x; \theta) = h_{\theta} (x)
 $$
 
 $$
-P (y = 0 \mid x; \theta) = 1 - h _ {\theta} (x)
+P (y = 0 \mid x; \theta) = 1 - h_{\theta} (x)
 $$
 
 Note that this can be written more compactly as
 
 $$
-p (y \mid x; \theta) = \left(h _ {\theta} (x)\right) ^ {y} \left(1 - h _ {\theta} (x)\right) ^ {1 - y}
+p (y \mid x; \theta) = \left(h_{\theta} (x)\right)^{y} \left(1 - h_{\theta} (x)\right)^{1 - y}
 $$
 
 Assuming that the  $n$  training examples were generated independently, we can then write down the likelihood of the parameters as
 
 $$
-\begin{array}{l} L (\theta) = p (\vec {y} \mid X; \theta) \\ = \prod_ {i = 1} ^ {n} p \left(y ^ {(i)} \mid x ^ {(i)}; \theta\right) \\ = \prod_ {i = 1} ^ {n} \left(h _ {\theta} \left(x ^ {(i)}\right)\right) ^ {y ^ {(i)}} \left(1 - h _ {\theta} \left(x ^ {(i)}\right)\right) ^ {1 - y ^ {(i)}} \\ \end{array}
+\begin{array}{l} L (\theta) = p (\vec{y} \mid X; \theta) \\ = \prod_{i = 1}^{n} p \left(y^{(i)} \mid x^{(i)}; \theta\right) \\ = \prod_{i = 1}^{n} \left(h_{\theta} \left(x^{(i)}\right)\right)^{y^{(i)}} \left(1 - h_{\theta} \left(x^{(i)}\right)\right)^{1 - y^{(i)}} \\ \end{array}
 $$
 
 As before, it will be easier to maximize the log likelihood:
 
 $$
-\ell (\theta) = \log L (\theta) = \sum_ {i = 1} ^ {n} y ^ {(i)} \log h (x ^ {(i)}) + (1 - y ^ {(i)}) \log (1 - h (x ^ {(i)})) \qquad (2. 1)
+\ell (\theta) = \log L (\theta) = \sum_{i = 1}^{n} y^{(i)} \log h (x^{(i)}) + (1 - y^{(i)}) \log (1 - h (x^{(i)})) \qquad (2. 1)
 $$
 
 How do we maximize the likelihood? Similar to our derivation in the case of linear regression, we can use gradient ascent. Written in vectorial notation, our updates will therefore be given by  $\theta \coloneqq \theta +\alpha \nabla_{\theta}\ell (\theta)$ . (Note the positive rather than negative sign in the update formula, since we're maximizing, rather than minimizing, a function now.) Let's start by working with just one training example  $(x,y)$ , and take derivatives to derive the stochastic gradient ascent rule:
 
 $$
-\begin{array}{l} \frac {\partial}{\partial \theta_ {j}} \ell (\theta) = \left(y \frac {1}{g (\theta^ {T} x)} - (1 - y) \frac {1}{1 - g (\theta^ {T} x)}\right) \frac {\partial}{\partial \theta_ {j}} g (\theta^ {T} x) \\ = \left(y \frac {1}{g \left(\theta^ {T} x\right)} - (1 - y) \frac {1}{1 - g \left(\theta^ {T} x\right)}\right) g \left(\theta^ {T} x\right) \left(1 - g \left(\theta^ {T} x\right)\right) \frac {\partial}{\partial \theta_ {j}} \theta^ {T} x \\ = \left(y \left(1 - g \left(\theta^ {T} x\right)\right) - (1 - y) g \left(\theta^ {T} x\right)\right) x _ {j} \\ = \left(y - h _ {\theta} (x)\right) x _ {j} \tag {2.2} \\ \end{array}
+\begin{array}{l} \frac{\partial}{\partial \theta_{j}} \ell (\theta) = \left(y \frac{1}{g (\theta^{T} x)} - (1 - y) \frac{1}{1 - g (\theta^{T} x)}\right) \frac{\partial}{\partial \theta_{j}} g (\theta^{T} x) \\ = \left(y \frac{1}{g \left(\theta^{T} x\right)} - (1 - y) \frac{1}{1 - g \left(\theta^{T} x\right)}\right) g \left(\theta^{T} x\right) \left(1 - g \left(\theta^{T} x\right)\right) \frac{\partial}{\partial \theta_{j}} \theta^{T} x \\ = \left(y \left(1 - g \left(\theta^{T} x\right)\right) - (1 - y) g \left(\theta^{T} x\right)\right) x_{j} \\ = \left(y - h_{\theta} (x)\right) x_{j} \tag {2.2} \\ \end{array}
 $$
 
 Above, we used the fact that  $g'(z) = g(z)(1 - g(z))$ . This therefore gives us the stochastic gradient ascent rule
 
 $$
-\theta_ {j} := \theta_ {j} + \alpha \left(y ^ {(i)} - h _ {\theta} (x ^ {(i)})\right) x _ {j} ^ {(i)}
+\theta_{j} := \theta_{j} + \alpha \left(y^{(i)} - h_{\theta} (x^{(i)})\right) x_{j}^{(i)}
 $$
 
 If we compare this to the LMS update rule, we see that it looks identical; but this is not the same algorithm, because  $h_{\theta}(x^{(i)})$  is now defined as a non-linear function of  $\theta^T x^{(i)}$ . Nonetheless, it's a little surprising that we end up with the same update rule for a rather different algorithm and learning problem. Is this coincidence, or is there a deeper reason behind this? We'll answer this when we get to GLM models.
@@ -574,25 +574,25 @@ If we compare this to the LMS update rule, we see that it looks identical; but t
 Remark 2.1.1: An alternative notational viewpoint of the same loss function is also useful, especially for Section 7.1 where we study nonlinear models. Let  $\ell_{\mathrm{logistic}}:\mathbb{R}\times \{0,1\} \to \mathbb{R}_{\geq 0}$  be the logistic loss defined as
 
 $$
-\ell_ {\mathrm {l o g i s t i c}} (t, y) \triangleq y \log (1 + \exp (- t)) + (1 - y) \log (1 + \exp (t)). \qquad (2. 3)
+\ell_{\mathrm{lo gi st ic}} (t, y) \triangleq y \log (1 + \exp (- t)) + (1 - y) \log (1 + \exp (t)). \qquad (2. 3)
 $$
 
 One can verify by plugging in  $h_{\theta}(x) = 1 / (1 + e^{-\theta^{\top}x})$  that the negative log-likelihood (the negation of  $\ell(\theta)$  in equation (2.1)) can be re-written as
 
 $$
-- \ell (\theta) = \ell_ {\mathrm {l o g i s t i c}} (\theta^ {\top} x, y). \tag {2.4}
+- \ell (\theta) = \ell_{\mathrm{lo gi st ic}} (\theta^{\top} x, y). \tag {2.4}
 $$
 
 Oftentimes  $\theta^{\top}x$  or  $t$  is called the logit. Basic calculus gives us that
 
 $$
-\begin{array}{l} \frac {\partial \ell_ {\mathrm {l o g i s t i c}} (t , y)}{\partial t} = y \frac {- \exp (- t)}{1 + \exp (- t)} + (1 - y) \frac {1}{1 + \exp (- t)} (2.5) \\ = 1 / (1 + \exp (- t)) - y. (2.6) \\ \end{array}
+\begin{array}{l} \frac{\partial \ell_{\mathrm{lo gi st ic}} (t , y)}{\partial t} = y \frac{- \exp (- t)}{1 + \exp (- t)} + (1 - y) \frac{1}{1 + \exp (- t)} (2.5) \\ = 1 / (1 + \exp (- t)) - y. (2.6) \\ \end{array}
 $$
 
 Then, using the chain rule, we have that
 
 $$
-\begin{array}{l} \frac {\partial}{\partial \theta_ {j}} \ell (\theta) = - \frac {\partial \ell_ {\mathrm {l o g i s t i c}} (t , y)}{\partial t} \cdot \frac {\partial t}{\partial \theta_ {j}} (2.7) \\ = (y - 1 / (1 + \exp (- t))) \cdot x _ {j} = (y - h _ {\theta} (x)) x _ {j}, (2.8) \\ \end{array}
+\begin{array}{l} \frac{\partial}{\partial \theta_{j}} \ell (\theta) = - \frac{\partial \ell_{\mathrm{lo gi st ic}} (t , y)}{\partial t} \cdot \frac{\partial t}{\partial \theta_{j}} (2.7) \\ = (y - 1 / (1 + \exp (- t))) \cdot x_{j} = (y - h_{\theta} (x)) x_{j}, (2.8) \\ \end{array}
 $$
 
 which is consistent with the derivation in equation (2.2). We will see this viewpoint can be extended nonlinear models in Section 7.1.
@@ -604,13 +604,13 @@ We now digress to talk briefly about an algorithm that's of some historical inte
 theory. Consider modifying the logistic regression method to "force" it to output values that are either 0 or 1 or exactly. To do so, it seems natural to change the definition of  $g$  to be the threshold function:
 
 $$
-g (z) = \left\{ \begin{array}{l l} 1 & \mathrm {i f} z \geq 0 \\ 0 & \mathrm {i f} z <   0 \end{array} \right.
+g (z) = \left\{ \begin{array}{l l} 1 & \mathrm{if} z \geq 0 \\ 0 & \mathrm{if} z <   0 \end{array} \right.
 $$
 
 If we then let  $h_{\theta}(x) = g(\theta^T x)$  as before but using this modified definition of  $g$ , and if we use the update rule
 
 $$
-\theta_ {j} := \theta_ {j} + \alpha (y ^ {(i)} - h _ {\theta} (x ^ {(i)})) x _ {j} ^ {(i)}.
+\theta_{j} := \theta_{j} + \alpha (y^{(i)} - h_{\theta} (x^{(i)})) x_{j}^{(i)}.
 $$
 
 then we have the perceptron learning algorithm.
@@ -630,7 +630,7 @@ $\phi_1, \ldots, \phi_k$ , the probabilities  $P(y = 1 \mid x; \theta), \ldots, 
 Define the softmax function softmax:  $\mathbb{R}^k\to \mathbb{R}^k$  as
 
 $$
-\operatorname {s o f t m a x} \left(t _ {1}, \dots , t _ {k}\right) = \left[ \begin{array}{c} \frac {\exp \left(t _ {1}\right)}{\sum_ {j = 1} ^ {k} \exp \left(t _ {j}\right)} \\ \vdots \\ \frac {\exp \left(t _ {k}\right)}{\sum_ {j = 1} ^ {k} \exp \left(t _ {j}\right)} \end{array} \right]. \tag {2.9}
+\operatorname{so ft ma x} \left(t_{1}, \dots , t_{k}\right) = \left[ \begin{array}{c} \frac{\exp \left(t_{1}\right)}{\sum_{j = 1}^{k} \exp \left(t_{j}\right)} \\ \vdots \\ \frac{\exp \left(t_{k}\right)}{\sum_{j = 1}^{k} \exp \left(t_{j}\right)} \end{array} \right]. \tag {2.9}
 $$
 
 The inputs to the softmax function, the vector  $t$  here, are often called logits. Note that by definition, the output of the softmax function is always a probability vector whose entries are nonnegative and sum up to 1.
@@ -638,61 +638,61 @@ The inputs to the softmax function, the vector  $t$  here, are often called logi
 Let  $(t_1, \ldots, t_k) = (\theta_1^\top x, \dots, \theta_k^\top x)$ . We apply the softmax function to  $(t_1, \ldots, t_k)$ , and use the output as the probabilities  $P(y = 1 \mid x; \theta), \ldots, P(y = k \mid x; \theta)$ . We obtain the following probabilistic model:
 
 $$
-\left[ \begin{array}{c} P (y = 1 \mid x; \theta) \\ \vdots \\ P (y = k \mid x; \theta) \end{array} \right] = \operatorname {s o f t m a x} \left(t _ {1}, \dots , t _ {k}\right) = \left[ \begin{array}{c} \frac {\exp \left(\theta_ {1} ^ {\top} x\right)}{\sum_ {j = 1} ^ {k} \exp \left(\theta_ {j} ^ {\top} x\right)} \\ \vdots \\ \frac {\exp \left(\theta_ {k} ^ {\top} x\right)}{\sum_ {j = 1} ^ {k} \exp \left(\theta_ {j} ^ {\top} x\right)} \end{array} \right]. \tag {2.10}
+\left[ \begin{array}{c} P (y = 1 \mid x; \theta) \\ \vdots \\ P (y = k \mid x; \theta) \end{array} \right] = \operatorname{so ft ma x} \left(t_{1}, \dots , t_{k}\right) = \left[ \begin{array}{c} \frac{\exp \left(\theta_{1}^{\top} x\right)}{\sum_{j = 1}^{k} \exp \left(\theta_{j}^{\top} x\right)} \\ \vdots \\ \frac{\exp \left(\theta_{k}^{\top} x\right)}{\sum_{j = 1}^{k} \exp \left(\theta_{j}^{\top} x\right)} \end{array} \right]. \tag {2.10}
 $$
 
 For notational convenience, we will let  $\phi_{i} = \frac{\exp(t_{i})}{\sum_{j = 1}^{k}\exp(t_{j})}$ . More succinctly, the equation above can be written as:
 
 $$
-P (y = i \mid x; \theta) = \phi_ {i} = \frac {\exp (t _ {i})}{\sum_ {j = 1} ^ {k} \exp (t _ {j})} = \frac {\exp (\theta_ {i} ^ {\top} x)}{\sum_ {j = 1} ^ {k} \exp (\theta_ {j} ^ {\top} x)}. \tag {2.11}
+P (y = i \mid x; \theta) = \phi_{i} = \frac{\exp (t_{i})}{\sum_{j = 1}^{k} \exp (t_{j})} = \frac{\exp (\theta_{i}^{\top} x)}{\sum_{j = 1}^{k} \exp (\theta_{j}^{\top} x)}. \tag {2.11}
 $$
 
 Next, we compute the negative log-likelihood of a single example  $(x,y)$ .
 
 $$
-- \log p (y \mid x, \theta) = - \log \left(\frac {\exp \left(t _ {y}\right)}{\sum_ {j = 1} ^ {k} \exp \left(t _ {j}\right)}\right) = - \log \left(\frac {\exp \left(\theta_ {y} ^ {\top} x\right)}{\sum_ {j = 1} ^ {k} \exp \left(\theta_ {j} ^ {\top} x\right)}\right) \tag {2.12}
+- \log p (y \mid x, \theta) = - \log \left(\frac{\exp \left(t_{y}\right)}{\sum_{j = 1}^{k} \exp \left(t_{j}\right)}\right) = - \log \left(\frac{\exp \left(\theta_{y}^{\top} x\right)}{\sum_{j = 1}^{k} \exp \left(\theta_{j}^{\top} x\right)}\right) \tag {2.12}
 $$
 
 Thus, the loss function, the negative log-likelihood of the training data, is given as
 
 $$
-\ell (\theta) = \sum_ {i = 1} ^ {n} - \log \left(\frac {\exp \left(\theta_ {y ^ {(i)}} ^ {\top} x ^ {(i)}\right)}{\sum_ {j = 1} ^ {k} \exp \left(\theta_ {j} ^ {\top} x ^ {(i)}\right)}\right). \tag {2.13}
+\ell (\theta) = \sum_{i = 1}^{n} - \log \left(\frac{\exp \left(\theta_{y^{(i)}}^{\top} x^{(i)}\right)}{\sum_{j = 1}^{k} \exp \left(\theta_{j}^{\top} x^{(i)}\right)}\right). \tag {2.13}
 $$
 
 It's convenient to define the cross-entropy loss  $\ell_{\mathrm{ce}}: \mathbb{R}^k \times \{1, \ldots, k\} \to \mathbb{R}_{\geq 0}$  which modularizes in the complex equation above:
 
 $$
-\ell_ {\mathrm {c e}} \left(\left(t _ {1}, \dots , t _ {k}\right), y\right) = - \log \left(\frac {\exp \left(t _ {y}\right)}{\sum_ {j = 1} ^ {k} \exp \left(t _ {j}\right)}\right). \tag {2.14}
+\ell_{\mathrm{ce}} \left(\left(t_{1}, \dots , t_{k}\right), y\right) = - \log \left(\frac{\exp \left(t_{y}\right)}{\sum_{j = 1}^{k} \exp \left(t_{j}\right)}\right). \tag {2.14}
 $$
 
 With this notation, we can simply rewrite equation (2.13) as
 
 $$
-\ell (\theta) = \sum_ {i = 1} ^ {n} \ell_ {\mathrm {c e}} ((\theta_ {1} ^ {\top} x ^ {(i)}, \dots , \theta_ {k} ^ {\top} x ^ {(i)}), y ^ {(i)}). \tag {2.15}
+\ell (\theta) = \sum_{i = 1}^{n} \ell_{\mathrm{ce}} ((\theta_{1}^{\top} x^{(i)}, \dots , \theta_{k}^{\top} x^{(i)}), y^{(i)}). \tag {2.15}
 $$
 
 Moreover, conveniently, the cross-entropy loss also has a simple gradient. Let  $t = (t_1,\ldots ,t_k)$ , and recall  $\phi_{i} = \frac{\exp(t_{i})}{\sum_{j = 1}^{k}\exp(t_{j})}$ . By basic calculus, we can derive
 
 $$
-\frac {\partial \ell_ {\mathrm {c e}} (t , y)}{\partial t _ {i}} = \phi_ {i} - 1 \{y = i \}, \tag {2.16}
+\frac{\partial \ell_{\mathrm{ce}} (t , y)}{\partial t_{i}} = \phi_{i} - 1 \{y = i \}, \tag {2.16}
 $$
 
 where  $1\{\cdot \}$  is the indicator function, that is,  $1\{y = i\} = 1$  if  $y = i$ , and  $1\{y = i\} = 0$  if  $y \neq i$ . Alternatively, in vectorized notations, we have the following form which will be useful for Chapter 7:
 
 $$
-\frac {\partial \ell_ {\mathrm {c e}} (t , y)}{\partial t} = \phi - e _ {y}, \tag {2.17}
+\frac{\partial \ell_{\mathrm{ce}} (t , y)}{\partial t} = \phi - e_{y}, \tag {2.17}
 $$
 
 where  $e_s \in \mathbb{R}^k$  is the  $s$ -th natural basis vector (where the  $s$ -th entry is 1 and all other entries are zeros.) Using Chain rule, we have that
 
 $$
-\frac {\partial \ell_ {\mathrm {c e}} ((\theta_ {1} ^ {\top} x , \ldots , \theta_ {k} ^ {\top} x) , y)}{\partial \theta_ {i}} = \frac {\partial \ell (t , y)}{\partial t _ {i}} \cdot \frac {\partial t _ {i}}{\partial \theta_ {i}} = (\phi_ {i} - 1 \{y = i \}) \cdot x. \qquad (2. 1 8)
+\frac{\partial \ell_{\mathrm{ce}} ((\theta_{1}^{\top} x , \ldots , \theta_{k}^{\top} x) , y)}{\partial \theta_{i}} = \frac{\partial \ell (t , y)}{\partial t_{i}} \cdot \frac{\partial t_{i}}{\partial \theta_{i}} = (\phi_{i} - 1 \{y = i \}) \cdot x. \qquad (2. 1 8)
 $$
 
 Therefore, the gradient of the loss with respect to the part of parameter  $\theta_{i}$  is
 
 $$
-\frac {\partial \ell (\theta)}{\partial \theta_ {i}} = \sum_ {j = 1} ^ {n} \left(\phi_ {i} ^ {(j)} - 1 \{y ^ {(j)} = i \}\right) \cdot x ^ {(j)}, \tag {2.19}
+\frac{\partial \ell (\theta)}{\partial \theta_{i}} = \sum_{j = 1}^{n} \left(\phi_{i}^{(j)} - 1 \{y^{(j)} = i \}\right) \cdot x^{(j)}, \tag {2.19}
 $$
 
 where  $\phi_i^{(j)} = \frac{\exp(\theta_i^\top x^{(j)})}{\sum_{s=1}^k \exp(\theta_s^\top x^{(j)})}$  is the probability that the model predicts item  $i$  for example  $x^{(j)}$ . With the gradients above, one can implement (stochastic) gradient descent to minimize the loss function  $\ell(\theta)$ .
@@ -710,7 +710,7 @@ Returning to logistic regression with  $g(z)$  being the sigmoid function, let's
 To get us started, let's consider Newton's method for finding a zero of a function. Specifically, suppose we have some function  $f: \mathbb{R} \mapsto \mathbb{R}$ , and we wish to find a value of  $\theta$  so that  $f(\theta) = 0$ . Here,  $\theta \in \mathbb{R}$  is a real number. Newton's method performs the following update:
 
 $$
-\theta := \theta - \frac {f (\theta)}{f ^ {\prime} (\theta)}.
+\theta := \theta - \frac{f (\theta)}{f^{\prime} (\theta)}.
 $$
 
 This method has a natural interpretation in which we can think of it as approximating the function  $f$  via a linear function that is tangent to  $f$  at the current guess  $\theta$ , solving for where that linear function equals to zero, and letting the next guess for  $\theta$  be where that linear function is zero.
@@ -722,7 +722,7 @@ In the leftmost figure, we see the function  $f$  plotted along with the line  $
 Newton's method gives a way of getting to  $f(\theta) = 0$ . What if we want to use it to maximize some function  $\ell$ ? The maxima of  $\ell$  correspond to points where its first derivative  $\ell'(\theta)$  is zero. So, by letting  $f(\theta) = \ell'(\theta)$ , we can use the same algorithm to maximize  $\ell$ , and we obtain update rule:
 
 $$
-\theta := \theta - \frac {\ell^ {\prime} (\theta)}{\ell^ {\prime \prime} (\theta)}.
+\theta := \theta - \frac{\ell^{\prime} (\theta)}{\ell^{\prime \prime} (\theta)}.
 $$
 
 (Something to think about: How would this change if we wanted to use Newton's method to minimize rather than maximize a function?)
@@ -730,13 +730,13 @@ $$
 Lastly, in our logistic regression setting,  $\theta$  is vector-valued, so we need to generalize Newton's method to this setting. The generalization of Newton's method to this multidimensional setting (also called the Newton-Raphson method) is given by
 
 $$
-\theta := \theta - H ^ {- 1} \nabla_ {\theta} \ell (\theta).
+\theta := \theta - H^{- 1} \nabla_{\theta} \ell (\theta).
 $$
 
 Here,  $\nabla_{\theta}\ell (\theta)$  is, as usual, the vector of partial derivatives of  $\ell (\theta)$  with respect to the  $\theta_{i}$ 's; and  $H$  is an  $d$ -by-  $d$  matrix (actually,  $d + 1 - by - d + 1$ , assuming that we include the intercept term) called the Hessian, whose entries are given by
 
 $$
-H _ {i j} = \frac {\partial^ {2} \ell (\theta)}{\partial \theta_ {i} \partial \theta_ {j}}.
+H_{i j} = \frac{\partial^{2} \ell (\theta)}{\partial \theta_{i} \partial \theta_{j}}.
 $$
 
 Newton's method typically enjoys faster convergence than (batch) gradient descent, and requires many fewer iterations to get very close to the minimum. One iteration of Newton's can, however, be more expensive than one iteration of gradient descent, since it requires finding and inverting an  $d$ -by- $d$  Hessian; but so long as  $d$  is not too large, it is usually much faster overall. When Newton's method is applied to maximize the logistic regression log likelihood function  $\ell(\theta)$ , the resulting method is also called Fisher scoring.
@@ -752,7 +752,7 @@ So far, we've seen a regression example, and a classification example. In the re
 To work our way up to GLMs, we will begin by defining exponential family distributions. We say that a class of distributions is in the exponential family if it can be written in the form
 
 $$
-p (y; \eta) = b (y) \exp (\eta^ {T} T (y) - a (\eta)) \tag {3.1}
+p (y; \eta) = b (y) \exp (\eta^{T} T (y) - a (\eta)) \tag {3.1}
 $$
 
 Here,  $\eta$  is called the natural parameter (also called the canonical parameter) of the distribution;  $T(y)$  is the sufficient statistic (for the distributions we consider, it will often be the case that  $T(y) = y$ ); and  $a(\eta)$  is the log partition function. The quantity  $e^{-a(\eta)}$  essentially plays the role of a normalization constant, that makes sure the distribution  $p(y;\eta)$  sums/integrates over  $y$  to 1.
@@ -764,13 +764,13 @@ We now show that the Bernoulli and the Gaussian distributions are examples of ex
 We write the Bernoulli distribution as:
 
 $$
-\begin{array}{l} p (y; \phi) = \phi^ {y} (1 - \phi) ^ {1 - y} \\ = \exp (y \log \phi + (1 - y) \log (1 - \phi)) \\ = \exp \left(\left(\log \left(\frac {\phi}{1 - \phi}\right)\right) y + \log (1 - \phi)\right). \\ \end{array}
+\begin{array}{l} p (y; \phi) = \phi^{y} (1 - \phi)^{1 - y} \\ = \exp (y \log \phi + (1 - y) \log (1 - \phi)) \\ = \exp \left(\left(\log \left(\frac{\phi}{1 - \phi}\right)\right) y + \log (1 - \phi)\right). \\ \end{array}
 $$
 
 Thus, the natural parameter is given by  $\eta = \log (\phi /(1 - \phi))$ . Interestingly, if we invert this definition for  $\eta$  by solving for  $\phi$  in terms of  $\eta$ , we obtain  $\phi = 1 / (1 + e^{-\eta})$ . This is the familiar sigmoid function! This will come up again when we derive logistic regression as a GLM. To complete the formulation of the Bernoulli distribution as an exponential family distribution, we also have
 
 $$
-\begin{array}{l} T (y) = y \\ a (\eta) = - \log (1 - \phi) \\ = \log (1 + e ^ {\eta}) \\ b (y) = 1 \\ \end{array}
+\begin{array}{l} T (y) = y \\ a (\eta) = - \log (1 - \phi) \\ = \log (1 + e^{\eta}) \\ b (y) = 1 \\ \end{array}
 $$
 
 This shows that the Bernoulli distribution can be written in the form of Equation (3.1), using an appropriate choice of  $T$ ,  $a$  and  $b$ .
@@ -780,13 +780,13 @@ Let's now move on to consider the Gaussian distribution. Recall that, when deriv
 then have:
 
 $$
-\begin{array}{l} {p (y; \mu)} = {\frac {1}{\sqrt {2 \pi}} \exp \left(- \frac {1}{2} (y - \mu) ^ {2}\right)} \\ = \frac {1}{\sqrt {2 \pi}} \exp \left(- \frac {1}{2} y ^ {2}\right) \cdot \exp \left(\mu y - \frac {1}{2} \mu^ {2}\right) \\ \end{array}
+\begin{array}{l} {p (y; \mu)} = {\frac{1}{\sqrt{2 \pi}} \exp \left(- \frac{1}{2} (y - \mu)^{2}\right)} \\ = \frac{1}{\sqrt{2 \pi}} \exp \left(- \frac{1}{2} y^{2}\right) \cdot \exp \left(\mu y - \frac{1}{2} \mu^{2}\right) \\ \end{array}
 $$
 
 Thus, we see that the Gaussian is in the exponential family, with
 
 $$
-\begin{array}{l} \eta = \mu \\ T (y) = y \\ a (\eta) = \mu^ {2} / 2 \\ = \eta^ {2} / 2 \\ b (y) = \left(1 / \sqrt {2 \pi}\right) \exp (- y ^ {2} / 2). \\ \end{array}
+\begin{array}{l} \eta = \mu \\ T (y) = y \\ a (\eta) = \mu^{2} / 2 \\ = \eta^{2} / 2 \\ b (y) = \left(1 / \sqrt{2 \pi}\right) \exp (- y^{2} / 2). \\ \end{array}
 $$
 
 There're many other distributions that are members of the exponential family: The multinomial (which we'll see later), the Poisson (for modelling count-data; also see the problem set); the gamma and the exponential (for modelling continuous, non-negative random variables, such as time-intervals); the beta and the Dirichlet (for distributions over probabilities); and many more. In the next section, we will describe a general "recipe" for constructing models in which  $y$  (given  $x$  and  $\theta$ ) comes from any of these distributions.
@@ -808,7 +808,7 @@ The third of these assumptions might seem the least well justified of the above,
 To show that ordinary least squares is a special case of the GLM family of models, consider the setting where the target variable  $y$  (also called the response variable in GLM terminology) is continuous, and we model the conditional distribution of  $y$  given  $x$  as a Gaussian  $\mathcal{N}(\mu, \sigma^2)$ . (Here,  $\mu$  may depend  $x$ .) So, we let the ExponentialFamily  $(\eta)$  distribution above be the Gaussian distribution. As we saw previously, in the formulation of the Gaussian as an exponential family distribution, we had  $\mu = \eta$ . So, we have
 
 $$
-\begin{array}{l} h _ {\theta} (x) = E [ y | x; \theta ] \\ = \mu \\ = \eta \\ = \theta^ {T} x. \\ \end{array}
+\begin{array}{l} h_{\theta} (x) = E [ y | x; \theta ] \\ = \mu \\ = \eta \\ = \theta^{T} x. \\ \end{array}
 $$
 
 The first equality follows from Assumption 2, above; the second equality follows from the fact that  $y|x;\theta \sim \mathcal{N}(\mu ,\sigma^2)$ , and so its expected value is given
@@ -820,7 +820,7 @@ by  $\mu$ ; the third equality follows from Assumption 1 (and our earlier deriva
 We now consider logistic regression. Here we are interested in binary classification, so  $y \in \{0,1\}$ . Given that  $y$  is binary-valued, it therefore seems natural to choose the Bernoulli family of distributions to model the conditional distribution of  $y$  given  $x$ . In our formulation of the Bernoulli distribution as an exponential family distribution, we had  $\phi = 1 / (1 + e^{-\eta})$ . Furthermore, note that if  $y|x; \theta \sim \mathrm{Bernoulli}(\phi)$ , then  $\operatorname{E}[y|x;\theta] = \phi$ . So, following a similar derivation as the one for ordinary least squares, we get:
 
 $$
-\begin{array}{l} h _ {\theta} (x) = E [ y | x; \theta ] \\ = \phi \\ = 1 / \left(1 + e ^ {- \eta}\right) \\ = 1 / \left(1 + e ^ {- \theta^ {T} x}\right) \\ \end{array}
+\begin{array}{l} h_{\theta} (x) = E [ y | x; \theta ] \\ = \phi \\ = 1 / \left(1 + e^{- \eta}\right) \\ = 1 / \left(1 + e^{- \theta^{T} x}\right) \\ \end{array}
 $$
 
 So, this gives us hypothesis functions of the form  $h_{\theta}(x) = 1 / (1 + e^{-\theta^T x})$ . If you are previously wondering how we came up with the form of the logistic function  $1 / (1 + e^{-z})$ , this gives one answer: Once we assume that  $y$  conditioned on  $x$  is Bernoulli, it arises as a consequence of the definition of GLMs and exponential family distributions.
@@ -844,13 +844,13 @@ After modeling  $p(y)$  (called the class priors) and  $p(x|y)$ , our algorithm
 can then use Bayes rule to derive the posterior distribution on  $y$  given  $x$ :
 
 $$
-p (y | x) = \frac {p (x | y) p (y)}{p (x)}.
+p (y | x) = \frac{p (x | y) p (y)}{p (x)}.
 $$
 
 Here, the denominator is given by  $p(x) = p(x|y = 1)p(y = 1) + p(x|y = 0)p(y = 0)$  (you should be able to verify that this is true from the standard properties of probabilities), and thus can also be expressed in terms of the quantities  $p(x|y)$  and  $p(y)$  that we've learned. Actually, if we're calculating  $p(y|x)$  in order to make a prediction, then we don't actually need to calculate the denominator, since
 
 $$
-\begin{array}{l} \arg \max _ {y} p (y | x) = \arg \max _ {y} \frac {p (x | y) p (y)}{p (x)} \\ = \arg \max  _ {y} p (x | y) p (y). \\ \end{array}
+\begin{array}{l} \arg \max_{y} p (y | x) = \arg \max_{y} \frac{p (x | y) p (y)}{p (x)} \\ = \arg \max_{y} p (x | y) p (y). \\ \end{array}
 $$
 
 # 4.1 Gaussian discriminant analysis
@@ -862,7 +862,7 @@ The first generative learning algorithm that we'll look at is Gaussian discrimin
 The multivariate normal distribution in  $d$ -dimensions, also called the multivariate Gaussian distribution, is parameterized by a mean vector  $\mu \in \mathbb{R}^d$  and a covariance matrix  $\Sigma \in \mathbb{R}^{d\times d}$ , where  $\Sigma \geq 0$  is symmetric and positive semi-definite. Also written “ $\mathcal{N}(\mu, \Sigma)$ ”, its density is given by:
 
 $$
-p (x; \mu , \Sigma) = \frac {1}{(2 \pi) ^ {d / 2} | \Sigma | ^ {1 / 2}} \exp \left(- \frac {1}{2} (x - \mu) ^ {T} \Sigma^ {- 1} (x - \mu)\right).
+p (x; \mu , \Sigma) = \frac{1}{(2 \pi)^{d / 2} | \Sigma | ^ {1 / 2}} \exp \left(- \frac{1}{2} (x - \mu)^{T} \Sigma^{- 1} (x - \mu)\right).
 $$
 
 In the equation above,  $|\Sigma|$  denotes the determinant of the matrix  $\Sigma$ .
@@ -870,7 +870,7 @@ In the equation above,  $|\Sigma|$  denotes the determinant of the matrix  $\Sig
 For a random variable  $X$  distributed  $\mathcal{N}(\mu, \Sigma)$ , the mean is (unsurprisingly) given by  $\mu$ :
 
 $$
-\operatorname {E} [ X ] = \int_ {x} x p (x; \mu , \Sigma) d x = \mu
+\operatorname{E} [ X ] = \int_{x} x p (x; \mu , \Sigma) d x = \mu
 $$
 
 The covariance of a vector-valued random variable  $Z$  is defined as  $\operatorname{Cov}(Z) = \operatorname{E}[(Z - \operatorname{E}[Z])(Z - \operatorname{E}[Z])^T]$ . This generalizes the notion of the variance of a
@@ -878,7 +878,7 @@ The covariance of a vector-valued random variable  $Z$  is defined as  $\operato
 real-valued random variable. The covariance can also be defined as  $\operatorname{Cov}(Z) = \operatorname{E}[ZZ^T] - (\operatorname{E}[Z])(\operatorname{E}[Z])^T$ . (You should be able to prove to yourself that these two definitions are equivalent.) If  $X \sim \mathcal{N}(\mu, \Sigma)$ , then
 
 $$
-\operatorname {C o v} (X) = \Sigma .
+\operatorname{Co v} (X) = \Sigma .
 $$
 
 Here are some examples of what the density of a Gaussian distribution looks like:
@@ -950,53 +950,53 @@ $$
 When we have a classification problem in which the input features  $x$  are continuous-valued random variables, we can then use the Gaussian Discriminant Analysis (GDA) model, which models  $p(x|y)$  using a multivariate normal distribution. The model is:
 
 $$
-y \sim \operatorname {B e r n o u l l i} (\phi)
+y \sim \operatorname{Be rn ou ll i} (\phi)
 $$
 
 $$
-x | y = 0 \sim \mathcal {N} (\mu_ {0}, \Sigma)
+x | y = 0 \sim \mathcal {N} (\mu_{0}, \Sigma)
 $$
 
 $$
-x | y = 1 \sim \mathcal {N} (\mu_ {1}, \Sigma)
+x | y = 1 \sim \mathcal {N} (\mu_{1}, \Sigma)
 $$
 
 Writing out the distributions, this is:
 
 $$
-p (y) = \phi^ {y} (1 - \phi) ^ {1 - y}
+p (y) = \phi^{y} (1 - \phi)^{1 - y}
 $$
 
 $$
-p (x | y = 0) = \frac {1}{(2 \pi) ^ {d / 2} | \Sigma | ^ {1 / 2}} \exp \left(- \frac {1}{2} (x - \mu_ {0}) ^ {T} \Sigma^ {- 1} (x - \mu_ {0})\right)
+p (x | y = 0) = \frac{1}{(2 \pi)^{d / 2} | \Sigma | ^ {1 / 2}} \exp \left(- \frac{1}{2} (x - \mu_{0})^{T} \Sigma^{- 1} (x - \mu_{0})\right)
 $$
 
 $$
-p (x | y = 1) = \frac {1}{(2 \pi) ^ {d / 2} | \Sigma | ^ {1 / 2}} \exp \left(- \frac {1}{2} (x - \mu_ {1}) ^ {T} \Sigma^ {- 1} (x - \mu_ {1})\right)
+p (x | y = 1) = \frac{1}{(2 \pi)^{d / 2} | \Sigma | ^ {1 / 2}} \exp \left(- \frac{1}{2} (x - \mu_{1})^{T} \Sigma^{- 1} (x - \mu_{1})\right)
 $$
 
 Here, the parameters of our model are  $\phi$ ,  $\Sigma$ ,  $\mu_0$  and  $\mu_1$ . (Note that while there're two different mean vectors  $\mu_0$  and  $\mu_1$ , this model is usually applied using only one covariance matrix  $\Sigma$ .) The log-likelihood of the data is given by
 
 $$
-\begin{array}{l} \ell (\phi , \mu_ {0}, \mu_ {1}, \Sigma) = \log \prod_ {i = 1} ^ {n} p (x ^ {(i)}, y ^ {(i)}; \phi , \mu_ {0}, \mu_ {1}, \Sigma) \\ = \log \prod_ {i = 1} ^ {n} p (x ^ {(i)} | y ^ {(i)}; \mu_ {0}, \mu_ {1}, \Sigma) p (y ^ {(i)}; \phi). \\ \end{array}
+\begin{array}{l} \ell (\phi , \mu_{0}, \mu_{1}, \Sigma) = \log \prod_{i = 1}^{n} p (x^{(i)}, y^{(i)}; \phi , \mu_{0}, \mu_{1}, \Sigma) \\ = \log \prod_{i = 1}^{n} p (x^{(i)} | y^{(i)}; \mu_{0}, \mu_{1}, \Sigma) p (y^{(i)}; \phi). \\ \end{array}
 $$
 
 By maximizing  $\ell$  with respect to the parameters, we find the maximum likelihood estimate of the parameters (see problem set 1) to be:
 
 $$
-\phi = \frac {1}{n} \sum_ {i = 1} ^ {n} 1 \left\{y ^ {(i)} = 1 \right\}
+\phi = \frac{1}{n} \sum_{i = 1}^{n} 1 \left\{y^{(i)} = 1 \right\}
 $$
 
 $$
-\mu_ {0} = \frac {\sum_ {i = 1} ^ {n} 1 \{y ^ {(i)} = 0 \} x ^ {(i)}}{\sum_ {i = 1} ^ {n} 1 \{y ^ {(i)} = 0 \}}
+\mu_{0} = \frac{\sum_{i = 1}^{n} 1 \{y^{(i)} = 0 \} x^{(i)}}{\sum_{i = 1}^{n} 1 \{y^{(i)} = 0 \}}
 $$
 
 $$
-\mu_ {1} = \frac {\sum_ {i = 1} ^ {n} 1 \{y ^ {(i)} = 1 \} x ^ {(i)}}{\sum_ {i = 1} ^ {n} 1 \{y ^ {(i)} = 1 \}}
+\mu_{1} = \frac{\sum_{i = 1}^{n} 1 \{y^{(i)} = 1 \} x^{(i)}}{\sum_{i = 1}^{n} 1 \{y^{(i)} = 1 \}}
 $$
 
 $$
-\Sigma = \frac {1}{n} \sum_ {i = 1} ^ {n} \left(x ^ {(i)} - \mu_ {y ^ {(i)}}\right) \left(x ^ {(i)} - \mu_ {y ^ {(i)}}\right) ^ {T}.
+\Sigma = \frac{1}{n} \sum_{i = 1}^{n} \left(x^{(i)} - \mu_{y^{(i)}}\right) \left(x^{(i)} - \mu_{y^{(i)}}\right)^{T}.
 $$
 
 Pictorially, what the algorithm is doing can be seen in as follows:
@@ -1010,7 +1010,7 @@ Shown in the figure are the training set, as well as the contours of the two Gau
 The GDA model has an interesting relationship to logistic regression. If we view the quantity  $p(y = 1|x;\phi ,\mu_0,\mu_1,\Sigma)$  as a function of  $x$ , we'll find that it can be expressed in the form
 
 $$
-p (y = 1 | x; \phi , \Sigma , \mu_ {0}, \mu_ {1}) = \frac {1}{1 + \exp (- \theta^ {T} x)},
+p (y = 1 | x; \phi , \Sigma , \mu_{0}, \mu_{1}) = \frac{1}{1 + \exp (- \theta^{T} x)},
 $$
 
 where  $\theta$  is some appropriate function of  $\phi, \Sigma, \mu_0, \mu_1$ . This is exactly the form that logistic regression—a discriminative algorithm—used to model  $p(y = 1|x)$ .
@@ -1036,7 +1036,7 @@ Let's say we have a training set (a set of emails labeled as spam or non-spam). 
 We will represent an email via a feature vector whose length is equal to the number of words in the dictionary. Specifically, if an email contains the  $j$ -th word of the dictionary, then we will set  $x_{j} = 1$ ; otherwise, we let  $x_{j} = 0$ . For instance, the vector
 
 $$
-x = \left[ \begin{array}{l l} 1 & \text {a} \\ 0 & \text {a a r d v a r k} \\ 0 & \text {a a r d w o l f} \\ \vdots & \vdots \\ 1 & \text {b u y} \\ \vdots & \vdots \\ 0 & \text {z y g m u r g y} \end{array} \right]
+x = \left[ \begin{array}{l l} 1 & \text{a} \\ 0 & \text{aa rd va rk} \\ 0 & \text{aa rd wo lf} \\ \vdots & \vdots \\ 1 & \text{bu y} \\ \vdots & \vdots \\ 0 & \text{zy gm ur gy} \end{array} \right]
 $$
 
 is used to represent an email that contains the words “a” and “buy,” but not
@@ -1050,7 +1050,7 @@ To model  $p(x|y)$ , we will therefore make a very strong assumption. We will as
 We now have:
 
 $$
-\begin{array}{l} p (x _ {1}, \dots , x _ {5 0 0 0 0} | y) \\ = p \left(x _ {1} | y\right) p \left(x _ {2} | y, x _ {1}\right) p \left(x _ {3} | y, x _ {1}, x _ {2}\right) \dots p \left(x _ {5 0 0 0 0} | y, x _ {1}, \dots , x _ {4 9 9 9 9}\right) \\ = p \left(x _ {1} | y\right) p \left(x _ {2} | y\right) p \left(x _ {3} | y\right) \dots p \left(x _ {5 0 0 0 0} | y\right) \\ = \prod_ {j = 1} ^ {d} p (x _ {j} | y) \\ \end{array}
+\begin{array}{l} p (x_{1}, \dots , x_{5 0 0 0 0} | y) \\ = p \left(x_{1} | y\right) p \left(x_{2} | y, x_{1}\right) p \left(x_{3} | y, x_{1}, x_{2}\right) \dots p \left(x_{5 0 0 0 0} | y, x_{1}, \dots , x_{4 9 9 9 9}\right) \\ = p \left(x_{1} | y\right) p \left(x_{2} | y\right) p \left(x_{3} | y\right) \dots p \left(x_{5 0 0 0 0} | y\right) \\ = \prod_{j = 1}^{d} p (x_{j} | y) \\ \end{array}
 $$
 
 The first equality simply follows from the usual properties of probabilities, and the second equality used the NB assumption. We note that even though
@@ -1060,21 +1060,21 @@ the Naive Bayes assumption is an extremely strong assumptions, the resulting alg
 Our model is parameterized by  $\phi_{j|y=1} = p(x_j = 1 | y = 1)$ ,  $\phi_{j|y=0} = p(x_j = 1 | y = 0)$ , and  $\phi_y = p(y = 1)$ . As usual, given a training set  $\{(x^{(i)}, y^{(i)}); i = 1, \ldots, n\}$ , we can write down the joint likelihood of the data:
 
 $$
-\mathcal {L} \left(\phi_ {y}, \phi_ {j | y = 0}, \phi_ {j | y = 1}\right) = \prod_ {i = 1} ^ {n} p \left(x ^ {(i)}, y ^ {(i)}\right).
+\mathcal {L} \left(\phi_{y}, \phi_{j | y = 0}, \phi_{j | y = 1}\right) = \prod_{i = 1}^{n} p \left(x^{(i)}, y^{(i)}\right).
 $$
 
 Maximizing this with respect to  $\phi_y, \phi_{j|y=0}$  and  $\phi_{j|y=1}$  gives the maximum likelihood estimates:
 
 $$
-\phi_ {j | y = 1} = \frac {\sum_ {i = 1} ^ {n} 1 \{x _ {j} ^ {(i)} = 1 \wedge y ^ {(i)} = 1 \}}{\sum_ {i = 1} ^ {n} 1 \{y ^ {(i)} = 1 \}}
+\phi_{j | y = 1} = \frac{\sum_{i = 1}^{n} 1 \{x_{j}^{(i)} = 1 \wedge y^{(i)} = 1 \}}{\sum_{i = 1}^{n} 1 \{y^{(i)} = 1 \}}
 $$
 
 $$
-\phi_ {j | y = 0} = \frac {\sum_ {i = 1} ^ {n} 1 \{x _ {j} ^ {(i)} = 1 \wedge y ^ {(i)} = 0 \}}{\sum_ {i = 1} ^ {n} 1 \{y ^ {(i)} = 0 \}}
+\phi_{j | y = 0} = \frac{\sum_{i = 1}^{n} 1 \{x_{j}^{(i)} = 1 \wedge y^{(i)} = 0 \}}{\sum_{i = 1}^{n} 1 \{y^{(i)} = 0 \}}
 $$
 
 $$
-\phi_ {y} = \frac {\sum_ {i = 1} ^ {n} 1 \{y ^ {(i)} = 1 \}}{n}
+\phi_{y} = \frac{\sum_{i = 1}^{n} 1 \{y^{(i)} = 1 \}}{n}
 $$
 
 In the equations above, the “ $\wedge$ ” symbol means “and.” The parameters have a very natural interpretation. For instance,  $\phi_{j|y=1}$  is just the fraction of the spam  $(y = 1)$  emails in which word  $j$  does appear.
@@ -1082,7 +1082,7 @@ In the equations above, the “ $\wedge$ ” symbol means “and.” The paramet
 Having fit all these parameters, to make a prediction on a new example with features  $x$ , we then simply calculate
 
 $$
-\begin{array}{l} p (y = 1 | x) = \frac {p (x | y = 1) p (y = 1)}{p (x)} \\ = \frac {\left(\prod_ {j = 1} ^ {d} p (x _ {j} | y = 1)\right) p (y = 1)}{\left(\prod_ {j = 1} ^ {d} p (x _ {j} | y = 1)\right) p (y = 1) + \left(\prod_ {j = 1} ^ {d} p (x _ {j} | y = 0)\right) p (y = 0)}, \\ \end{array}
+\begin{array}{l} p (y = 1 | x) = \frac{p (x | y = 1) p (y = 1)}{p (x)} \\ = \frac{\left(\prod_{j = 1}^{d} p (x_{j} | y = 1)\right) p (y = 1)}{\left(\prod_{j = 1}^{d} p (x_{j} | y = 1)\right) p (y = 1) + \left(\prod_{j = 1}^{d} p (x_{j} | y = 0)\right) p (y = 0)}, \\ \end{array}
 $$
 
 and pick whichever class has the higher posterior probability.
@@ -1100,11 +1100,11 @@ The Naive Bayes algorithm as we have described it will work fairly well for many
 Consider spam/email classification, and let's suppose that, we are in the year of 20xx, after completing CS229 and having done excellent work on the project, you decide around May 20xx to submit work you did to the NeurIPS conference for publication. Because you end up discussing the conference in your emails, you also start getting messages with the word "neurips" in it. But this is your first NeurIPS paper, and until this time, you had not previously seen any emails containing the word "neurips"; in particular "neurips" did not ever appear in your training set of spam/non-spam emails. Assuming that "neurips" was the 35000th word in the dictionary, your Naive Bayes spam filter therefore had picked its maximum likelihood estimates of the parameters  $\phi_{35000|y}$  to be
 
 $$
-\phi_ {3 5 0 0 0 | y = 1} = \frac {\sum_ {i = 1} ^ {n} 1 \{x _ {3 5 0 0 0} ^ {(i)} = 1 \wedge y ^ {(i)} = 1 \}}{\sum_ {i = 1} ^ {n} 1 \{y ^ {(i)} = 1 \}} = 0
+\phi_{3 5 0 0 0 | y = 1} = \frac{\sum_{i = 1}^{n} 1 \{x_{3 5 0 0 0}^{(i)} = 1 \wedge y^{(i)} = 1 \}}{\sum_{i = 1}^{n} 1 \{y^{(i)} = 1 \}} = 0
 $$
 
 $$
-\phi_ {3 5 0 0 0 | y = 0} = \frac {\sum_ {i = 1} ^ {n} 1 \{x _ {3 5 0 0 0} ^ {(i)} = 1 \wedge y ^ {(i)} = 0 \}}{\sum_ {i = 1} ^ {n} 1 \{y ^ {(i)} = 0 \}} = 0
+\phi_{3 5 0 0 0 | y = 0} = \frac{\sum_{i = 1}^{n} 1 \{x_{3 5 0 0 0}^{(i)} = 1 \wedge y^{(i)} = 0 \}}{\sum_{i = 1}^{n} 1 \{y^{(i)} = 0 \}} = 0
 $$
 
 I.e., because it has never seen "neurips" before in either spam or non-spam training examples, it thinks the probability of seeing it in either type of email is zero. Hence, when trying to decide if one of these messages containing
@@ -1112,7 +1112,7 @@ I.e., because it has never seen "neurips" before in either spam or non-spam trai
 "neurips" is spam, it calculates the class posterior probabilities, and obtains
 
 $$
-\begin{array}{l} p (y = 1 | x) = \frac {\prod_ {j = 1} ^ {d} p (x _ {j} | y = 1) p (y = 1)}{\prod_ {j = 1} ^ {d} p (x _ {j} | y = 1) p (y = 1) + \prod_ {j = 1} ^ {d} p (x _ {j} | y = 0) p (y = 0)} \\ = \begin{array}{c} 0 \\ 0 \end{array} . \\ \end{array}
+\begin{array}{l} p (y = 1 | x) = \frac{\prod_{j = 1}^{d} p (x_{j} | y = 1) p (y = 1)}{\prod_{j = 1}^{d} p (x_{j} | y = 1) p (y = 1) + \prod_{j = 1}^{d} p (x_{j} | y = 0) p (y = 0)} \\ = \begin{array}{c} 0 \\ 0 \end{array} . \\ \end{array}
 $$
 
 This is because each of the terms “ $\prod_{j=1}^{d} p(x_j | y)$ ” includes a term  $p(x_{35000} | y) = 0$  that is multiplied into it. Hence, our algorithm obtains  $0 / 0$ , and doesn’t know how to make a prediction.
@@ -1120,13 +1120,13 @@ This is because each of the terms “ $\prod_{j=1}^{d} p(x_j | y)$ ” includes 
 Stating the problem more broadly, it is statistically a bad idea to estimate the probability of some event to be zero just because you haven't seen it before in your finite training set. Take the problem of estimating the mean of a multinomial random variable  $z$  taking values in  $\{1, \ldots, k\}$ . We can parameterize our multinomial with  $\phi_j = p(z = j)$ . Given a set of  $n$  independent observations  $\{z^{(1)}, \ldots, z^{(n)}\}$ , the maximum likelihood estimates are given by
 
 $$
-\phi_ {j} = \frac {\sum_ {i = 1} ^ {n} 1 \{z ^ {(i)} = j \}}{n}.
+\phi_{j} = \frac{\sum_{i = 1}^{n} 1 \{z^{(i)} = j \}}{n}.
 $$
 
 As we saw previously, if we were to use these maximum likelihood estimates, then some of the  $\phi_j$ 's might end up as zero, which was a problem. To avoid this, we can use Laplace smoothing, which replaces the above estimate with
 
 $$
-\phi_ {j} = \frac {1 + \sum_ {i = 1} ^ {n} 1 \{z ^ {(i)} = j \}}{k + n}.
+\phi_{j} = \frac{1 + \sum_{i = 1}^{n} 1 \{z^{(i)} = j \}}{k + n}.
 $$
 
 Here, we've added 1 to the numerator, and  $k$  to the denominator. Note that  $\sum_{j=1}^{k} \phi_j = 1$  still holds (check this yourself!), which is a desirable property since the  $\phi_j$ 's are estimates for probabilities that we know must sum to 1. Also,  $\phi_j \neq 0$  for all values of  $j$ , solving our problem of probabilities being estimated as zero. Under certain (arguably quite strong) conditions, it can be shown that the Laplace smoothing actually gives the optimal estimator of the  $\phi_j$ 's.
@@ -1134,7 +1134,7 @@ Here, we've added 1 to the numerator, and  $k$  to the denominator. Note that  $
 Returning to our Naive Bayes classifier, with Laplace smoothing, we therefore obtain the following estimates of the parameters:
 
 $$
-\begin{array}{l} \phi_ {j | y = 1} = \frac {1 + \sum_ {i = 1} ^ {n} 1 \{x _ {j} ^ {(i)} = 1 \wedge y ^ {(i)} = 1 \}}{2 + \sum_ {i = 1} ^ {n} 1 \{y ^ {(i)} = 1 \}} \\ \phi_ {j | y = 0} = \frac {1 + \sum_ {i = 1} ^ {n} 1 \{x _ {j} ^ {(i)} = 1 \wedge y ^ {(i)} = 0 \}}{2 + \sum_ {i = 1} ^ {n} 1 \{y ^ {(i)} = 0 \}} \\ \end{array}
+\begin{array}{l} \phi_{j | y = 1} = \frac{1 + \sum_{i = 1}^{n} 1 \{x_{j}^{(i)} = 1 \wedge y^{(i)} = 1 \}}{2 + \sum_{i = 1}^{n} 1 \{y^{(i)} = 1 \}} \\ \phi_{j | y = 0} = \frac{1 + \sum_{i = 1}^{n} 1 \{x_{j}^{(i)} = 1 \wedge y^{(i)} = 0 \}}{2 + \sum_{i = 1}^{n} 1 \{y^{(i)} = 0 \}} \\ \end{array}
 $$
 
 (In practice, it usually doesn't matter much whether we apply Laplace smoothing to  $\phi_y$  or not, since we will typically have a fair fraction each of spam and non-spam messages, so  $\phi_y$  will be a reasonable estimate of  $p(y = 1)$  and will be quite far from 0 anyway.)
@@ -1154,31 +1154,31 @@ The parameters for our new model are  $\phi_y = p(y)$  as before,  $\phi_{k|y=1}
 If we are given a training set  $\{(x^{(i)},y^{(i)});i = 1,\ldots ,n\}$  where  $x^{(i)} = (x_1^{(i)},x_2^{(i)},\dots,x_{d_i}^{(i)})$  (here,  $d_{i}$  is the number of words in the  $i$ -training example), the likelihood of the data is given by
 
 $$
-\begin{array}{l} \mathcal {L} \left(\phi_ {y}, \phi_ {k | y = 0}, \phi_ {k | y = 1}\right) = \prod_ {i = 1} ^ {n} p \left(x ^ {(i)}, y ^ {(i)}\right) \\ = \prod_ {i = 1} ^ {n} \left(\prod_ {j = 1} ^ {d _ {i}} p \left(x _ {j} ^ {(i)} \mid y; \phi_ {k \mid y = 0}, \phi_ {k \mid y = 1}\right)\right) p \left(y ^ {(i)}; \phi_ {y}\right). \\ \end{array}
+\begin{array}{l} \mathcal {L} \left(\phi_{y}, \phi_{k | y = 0}, \phi_{k | y = 1}\right) = \prod_{i = 1}^{n} p \left(x^{(i)}, y^{(i)}\right) \\ = \prod_{i = 1}^{n} \left(\prod_{j = 1}^{d_{i}} p \left(x_{j}^{(i)} \mid y; \phi_{k \mid y = 0}, \phi_{k \mid y = 1}\right)\right) p \left(y^{(i)}; \phi_{y}\right). \\ \end{array}
 $$
 
 Maximizing this yields the maximum likelihood estimates of the parameters:
 
 $$
-\phi_ {k \mid y = 1} = \frac {\sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {d _ {i}} 1 \left\{x _ {j} ^ {(i)} = k \wedge y ^ {(i)} = 1 \right\}}{\sum_ {i = 1} ^ {n} 1 \left\{y ^ {(i)} = 1 \right\} d _ {i}}
+\phi_{k \mid y = 1} = \frac{\sum_{i = 1}^{n} \sum_{j = 1}^{d_{i}} 1 \left\{x_{j}^{(i)} = k \wedge y^{(i)} = 1 \right\}}{\sum_{i = 1}^{n} 1 \left\{y^{(i)} = 1 \right\} d_{i}}
 $$
 
 $$
-\phi_ {k | y = 0} = \frac {\sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {d _ {i}} 1 \left\{x _ {j} ^ {(i)} = k \wedge y ^ {(i)} = 0 \right\}}{\sum_ {i = 1} ^ {n} 1 \left\{y ^ {(i)} = 0 \right\} d _ {i}}
+\phi_{k | y = 0} = \frac{\sum_{i = 1}^{n} \sum_{j = 1}^{d_{i}} 1 \left\{x_{j}^{(i)} = k \wedge y^{(i)} = 0 \right\}}{\sum_{i = 1}^{n} 1 \left\{y^{(i)} = 0 \right\} d_{i}}
 $$
 
 $$
-\phi_ {y} = \frac {\sum_ {i = 1} ^ {n} 1 \{y ^ {(i)} = 1 \}}{n}.
+\phi_{y} = \frac{\sum_{i = 1}^{n} 1 \{y^{(i)} = 1 \}}{n}.
 $$
 
 If we were to apply Laplace smoothing (which is needed in practice for good performance) when estimating  $\phi_{k|y=0}$  and  $\phi_{k|y=1}$ , we add 1 to the numerators and  $|V|$  to the denominators, and obtain:
 
 $$
-\phi_ {k | y = 1} = \frac {1 + \sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {d _ {i}} 1 \{x _ {j} ^ {(i)} = k \wedge y ^ {(i)} = 1 \}}{| V | + \sum_ {i = 1} ^ {n} 1 \{y ^ {(i)} = 1 \} d _ {i}}
+\phi_{k | y = 1} = \frac{1 + \sum_{i = 1}^{n} \sum_{j = 1}^{d_{i}} 1 \{x_{j}^{(i)} = k \wedge y^{(i)} = 1 \}}{| V | + \sum_{i = 1}^{n} 1 \{y^{(i)} = 1 \} d_{i}}
 $$
 
 $$
-\phi_ {k | y = 0} = \frac {1 + \sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {d _ {i}} 1 \{x _ {j} ^ {(i)} = k \wedge y ^ {(i)} = 0 \}}{| V | + \sum_ {i = 1} ^ {n} 1 \{y ^ {(i)} = 0 \} d _ {i}}.
+\phi_{k | y = 0} = \frac{1 + \sum_{i = 1}^{n} \sum_{j = 1}^{d_{i}} 1 \{x_{j}^{(i)} = k \wedge y^{(i)} = 0 \}}{| V | + \sum_{i = 1}^{n} 1 \{y^{(i)} = 0 \} d_{i}}.
 $$
 
 While not necessarily the very best classification algorithm, the Naive Bayes classifier often works surprisingly well. It is often also a very good "first thing to try," given its simplicity and ease of implementation.
@@ -1194,13 +1194,13 @@ Recall that in our discussion about linear regression, we considered the problem
 We start by considering fitting cubic functions  $y = \theta_3x^3 + \theta_2x^2 + \theta_1x + \theta_0$ . It turns out that we can view the cubic function as a linear function over the a different set of feature variables (defined below). Concretely, let the function  $\phi: \mathbb{R} \to \mathbb{R}^4$  be defined as
 
 $$
-\phi (x) = \left[ \begin{array}{c} 1 \\ x \\ x ^ {2} \\ x ^ {3} \end{array} \right] \in \mathbb {R} ^ {4}. \tag {5.1}
+\phi (x) = \left[ \begin{array}{c} 1 \\ x \\ x^{2} \\ x^{3} \end{array} \right] \in \mathbb {R}^{4}. \tag {5.1}
 $$
 
 Let  $\theta \in \mathbb{R}^4$  be the vector containing  $\theta_0, \theta_1, \theta_2, \theta_3$  as entries. Then we can rewrite the cubic function in  $x$  as:
 
 $$
-\theta_ {3} x ^ {3} + \theta_ {2} x ^ {2} + \theta_ {1} x + \theta_ {0} = \theta^ {T} \phi (x)
+\theta_{3} x^{3} + \theta_{2} x^{2} + \theta_{1} x + \theta_{0} = \theta^{T} \phi (x)
 $$
 
 Thus, a cubic function of the variable  $x$  can be viewed as a linear function over the variables  $\phi(x)$ . To distinguish between these two sets of variables, in the context of kernel methods, we will call the "original" input value the input attributes of a problem (in this case,  $x$ , the living area). When the
@@ -1212,19 +1212,19 @@ original input is mapped to some new set of quantities  $\phi(x)$ , we will call
 We will derive the gradient descent algorithm for fitting the model  $\theta^T\phi (x)$ . First recall that for ordinary least square problem where we were to fit  $\theta^T x$ , the batch gradient descent update is (see the first lecture note for its derivation):
 
 $$
-\begin{array}{l} \theta := \theta + \alpha \sum_ {i = 1} ^ {n} \left(y ^ {(i)} - h _ {\theta} (x ^ {(i)})\right) x ^ {(i)} \\ := \theta + \alpha \sum_ {i = 1} ^ {n} \left(y ^ {(i)} - \theta^ {T} x ^ {(i)}\right) x ^ {(i)}. \tag {5.2} \\ \end{array}
+\begin{array}{l} \theta := \theta + \alpha \sum_{i = 1}^{n} \left(y^{(i)} - h_{\theta} (x^{(i)})\right) x^{(i)} \\ := \theta + \alpha \sum_{i = 1}^{n} \left(y^{(i)} - \theta^{T} x^{(i)}\right) x^{(i)}. \tag {5.2} \\ \end{array}
 $$
 
 Let  $\phi : \mathbb{R}^d \to \mathbb{R}^p$  be a feature map that maps attribute  $x$  (in  $\mathbb{R}^d$ ) to the features  $\phi(x)$  in  $\mathbb{R}^p$ . (In the motivating example in the previous subsection, we have  $d = 1$  and  $p = 4$ .) Now our goal is to fit the function  $\theta^T \phi(x)$ , with  $\theta$  being a vector in  $\mathbb{R}^p$  instead of  $\mathbb{R}^d$ . We can replace all the occurrences of  $x^{(i)}$  in the algorithm above by  $\phi(x^{(i)})$  to obtain the new update:
 
 $$
-\theta := \theta + \alpha \sum_ {i = 1} ^ {n} \left(y ^ {(i)} - \theta^ {T} \phi \left(x ^ {(i)}\right)\right) \phi \left(x ^ {(i)}\right) \tag {5.3}
+\theta := \theta + \alpha \sum_{i = 1}^{n} \left(y^{(i)} - \theta^{T} \phi \left(x^{(i)}\right)\right) \phi \left(x^{(i)}\right) \tag {5.3}
 $$
 
 Similarly, the corresponding stochastic gradient descent update rule is
 
 $$
-\theta := \theta + \alpha \left(y ^ {(i)} - \theta^ {T} \phi \left(x ^ {(i)}\right)\right) \phi \left(x ^ {(i)}\right) \tag {5.4}
+\theta := \theta + \alpha \left(y^{(i)} - \theta^{T} \phi \left(x^{(i)}\right)\right) \phi \left(x^{(i)}\right) \tag {5.4}
 $$
 
 # 5.3 LMS with the kernel trick
@@ -1234,7 +1234,7 @@ The gradient descent update, or stochastic gradient update above becomes computa
 contains all the monomials of  $x$  with degree  $\leq 3$
 
 $$
-\phi (x) = \left[ \begin{array}{c} 1 \\ x _ {1} \\ x _ {2} \\ \vdots \\ x _ {1} ^ {2} \\ x _ {1} x _ {2} \\ x _ {1} x _ {3} \\ \vdots \\ x _ {2} x _ {1} \\ \vdots \\ x _ {1} ^ {3} \\ x _ {1} ^ {2} x _ {2} \\ \vdots \end{array} \right]. \tag {5.5}
+\phi (x) = \left[ \begin{array}{c} 1 \\ x_{1} \\ x_{2} \\ \vdots \\ x_{1}^{2} \\ x_{1} x_{2} \\ x_{1} x_{3} \\ \vdots \\ x_{2} x_{1} \\ \vdots \\ x_{1}^{3} \\ x_{1}^{2} x_{2} \\ \vdots \end{array} \right]. \tag {5.5}
 $$
 
 The dimension of the features  $\phi(x)$  is on the order of  $d^3$ . This is a prohibitively long vector for computational purpose — when  $d = 1000$ , each update requires at least computing and storing a  $1000^3 = 10^9$  dimensional vector, which is  $10^6$  times slower than the update rule for ordinary least squares updates (5.2).
@@ -1244,25 +1244,25 @@ It may appear at first that such  $d^3$  runtime per update and memory usage are
 For simplicity, we assume the initialize the value  $\theta = 0$ , and we focus on the iterative update (5.3). The main observation is that at any time,  $\theta$  can be represented as a linear combination of the vectors  $\phi(x^{(1)}), \ldots, \phi(x^{(n)})$ . Indeed, we can show this inductively as follows. At initialization,  $\theta = 0 = \sum_{i=1}^{n} 0 \cdot \phi(x^{(i)})$ . Assume at some point,  $\theta$  can be represented as
 
 $$
-\theta = \sum_ {i = 1} ^ {n} \beta_ {i} \phi \left(x ^ {(i)}\right) \tag {5.6}
+\theta = \sum_{i = 1}^{n} \beta_{i} \phi \left(x^{(i)}\right) \tag {5.6}
 $$
 
 for some  $\beta_1, \ldots, \beta_n \in \mathbb{R}$ . Then we claim that in the next round,  $\theta$  is still a linear combination of  $\phi(x^{(1)}), \ldots, \phi(x^{(n)})$  because
 
 $$
-\begin{array}{l} \theta := \theta + \alpha \sum_ {i = 1} ^ {n} \left(y ^ {(i)} - \theta^ {T} \phi (x ^ {(i)})\right) \phi (x ^ {(i)}) \\ = \sum_ {i = 1} ^ {n} \beta_ {i} \phi (x ^ {(i)}) + \alpha \sum_ {i = 1} ^ {n} \left(y ^ {(i)} - \theta^ {T} \phi (x ^ {(i)})\right) \phi (x ^ {(i)}) \\ = \sum_ {i = 1} ^ {n} \underbrace {\left(\beta_ {i} + \alpha \left(y ^ {(i)} - \theta^ {T} \phi (x ^ {(i)})\right)\right)} _ {\text {n e w} \beta_ {i}} \phi (x ^ {(i)}) \tag {5.7} \\ \end{array}
+\begin{array}{l} \theta := \theta + \alpha \sum_{i = 1}^{n} \left(y^{(i)} - \theta^{T} \phi (x^{(i)})\right) \phi (x^{(i)}) \\ = \sum_{i = 1}^{n} \beta_{i} \phi (x^{(i)}) + \alpha \sum_{i = 1}^{n} \left(y^{(i)} - \theta^{T} \phi (x^{(i)})\right) \phi (x^{(i)}) \\ = \sum_{i = 1}^{n} \underbrace {\left(\beta_{i} + \alpha \left(y^{(i)} - \theta^{T} \phi (x^{(i)})\right)\right)}_{\text{ne w} \beta_{i}} \phi (x^{(i)}) \tag {5.7} \\ \end{array}
 $$
 
 You may realize that our general strategy is to implicitly represent the  $p$ -dimensional vector  $\theta$  by a set of coefficients  $\beta_{1},\ldots ,\beta_{n}$ . Towards doing this, we derive the update rule of the coefficients  $\beta_{1},\ldots ,\beta_{n}$ . Using the equation above, we see that the new  $\beta_{i}$  depends on the old one via
 
 $$
-\beta_ {i} := \beta_ {i} + \alpha \left(y ^ {(i)} - \theta^ {T} \phi \left(x ^ {(i)}\right)\right) \tag {5.8}
+\beta_{i} := \beta_{i} + \alpha \left(y^{(i)} - \theta^{T} \phi \left(x^{(i)}\right)\right) \tag {5.8}
 $$
 
 Here we still have the old  $\theta$  on the RHS of the equation. Replacing  $\theta$  by  $\theta = \sum_{j=1}^{n} \beta_j \phi(x^{(j)})$  gives
 
 $$
-\forall i \in \{1, \dots , n \}, \beta_ {i} := \beta_ {i} + \alpha \left(y ^ {(i)} - \sum_ {j = 1} ^ {n} \beta_ {j} \phi (x ^ {(j)}) ^ {T} \phi (x ^ {(i)})\right)
+\forall i \in \{1, \dots , n \}, \beta_{i} := \beta_{i} + \alpha \left(y^{(i)} - \sum_{j = 1}^{n} \beta_{j} \phi (x^{(j)})^{T} \phi (x^{(i)})\right)
 $$
 
 We often rewrite  $\phi(x^{(j)})^T\phi(x^{(i)})$  as  $\langle \phi(x^{(j)}), \phi(x^{(i)}) \rangle$  to emphasize that it's the inner product of the two feature vectors. Viewing  $\beta_i$ 's as the new representation of  $\theta$ , we have successfully translated the batch gradient descent algorithm into an algorithm that updates the value of  $\beta$  iteratively. It may appear that at every iteration, we still need to compute the values of  $\langle \phi(x^{(j)}), \phi(x^{(i)}) \rangle$  for all pairs of  $i, j$ , each of which may take roughly  $O(p)$  operation. However, two important properties come to rescue:
@@ -1273,7 +1273,7 @@ We often rewrite  $\phi(x^{(j)})^T\phi(x^{(i)})$  as  $\langle \phi(x^{(j)}), \p
 necessarily require computing  $\phi(x^{(i)})$  explicitly. This is because:
 
 $$
-\begin{array}{l} \langle \phi (x), \phi (z) \rangle = 1 + \sum_ {i = 1} ^ {d} x _ {i} z _ {i} + \sum_ {i, j \in \{1, \dots , d \}} x _ {i} x _ {j} z _ {i} z _ {j} + \sum_ {i, j, k \in \{1, \dots , d \}} x _ {i} x _ {j} x _ {k} z _ {i} z _ {j} z _ {k} \\ = 1 + \sum_ {i = 1} ^ {d} x _ {i} z _ {i} + \left(\sum_ {i = 1} ^ {d} x _ {i} z _ {i}\right) ^ {2} + \left(\sum_ {i = 1} ^ {d} x _ {i} z _ {i}\right) ^ {3} \\ = 1 + \langle x, z \rangle + \langle x, z \rangle^ {2} + \langle x, z \rangle^ {3} \tag {5.9} \\ \end{array}
+\begin{array}{l} \langle \phi (x), \phi (z) \rangle = 1 + \sum_{i = 1}^{d} x_{i} z_{i} + \sum_{i, j \in \{1, \dots , d \}} x_{i} x_{j} z_{i} z_{j} + \sum_{i, j, k \in \{1, \dots , d \}} x_{i} x_{j} x_{k} z_{i} z_{j} z_{k} \\ = 1 + \sum_{i = 1}^{d} x_{i} z_{i} + \left(\sum_{i = 1}^{d} x_{i} z_{i}\right)^{2} + \left(\sum_{i = 1}^{d} x_{i} z_{i}\right)^{3} \\ = 1 + \langle x, z \rangle + \langle x, z \rangle^{2} + \langle x, z \rangle^{3} \tag {5.9} \\ \end{array}
 $$
 
 Therefore, to compute  $\langle \phi(x), \phi(z) \rangle$ , we can first compute  $\langle x, z \rangle$  with  $O(d)$  time and then take another constant number of operations to compute  $1 + \langle x, z \rangle + \langle x, z \rangle^2 + \langle x, z \rangle^3$ .
@@ -1290,13 +1290,13 @@ To wrap up the discussion, we write the down the final algorithm as follows:
 2. Loop:
 
 $$
-\forall i \in \{1, \dots , n \}, \beta_ {i} := \beta_ {i} + \alpha \left(y ^ {(i)} - \sum_ {j = 1} ^ {n} \beta_ {j} K \left(x ^ {(i)}, x ^ {(j)}\right)\right) \tag {5.11}
+\forall i \in \{1, \dots , n \}, \beta_{i} := \beta_{i} + \alpha \left(y^{(i)} - \sum_{j = 1}^{n} \beta_{j} K \left(x^{(i)}, x^{(j)}\right)\right) \tag {5.11}
 $$
 
 Or in vector notation, letting  $K$  be the  $n \times n$  matrix with  $K_{ij} = K(x^{(i)},x^{(j)})$ , we have
 
 $$
-\beta := \beta + \alpha (\vec {y} - K \beta)
+\beta := \beta + \alpha (\vec{y} - K \beta)
 $$
 
 With the algorithm above, we can update the representation  $\beta$  of the vector  $\theta$  efficiently with  $O(n)$  time per update. Finally, we need to show that
@@ -1304,7 +1304,7 @@ With the algorithm above, we can update the representation  $\beta$  of the vect
 the knowledge of the representation  $\beta$  suffices to compute the prediction  $\theta^T\phi (x)$ . Indeed, we have
 
 $$
-\theta^ {T} \phi (x) = \sum_ {i = 1} ^ {n} \beta_ {i} \phi \left(x ^ {(i)}\right) ^ {T} \phi (x) = \sum_ {i = 1} ^ {n} \beta_ {i} K \left(x ^ {(i)}, x\right) \tag {5.12}
+\theta^{T} \phi (x) = \sum_{i = 1}^{n} \beta_{i} \phi \left(x^{(i)}\right)^{T} \phi (x) = \sum_{i = 1}^{n} \beta_{i} K \left(x^{(i)}, x\right) \tag {5.12}
 $$
 
 You may realize that fundamentally all we need to know about the feature map  $\phi(\cdot)$  is encapsulated in the corresponding kernel function  $K(\cdot, \cdot)$ . We will expand on this in the next section.
@@ -1322,19 +1322,19 @@ If we can answer this question by giving a precise characterization of valid ker
 Suppose  $x, z \in \mathbb{R}^d$ , and let's first consider the function  $K(\cdot, \cdot)$  defined as:
 
 $$
-K (x, z) = (x ^ {T} z) ^ {2}.
+K (x, z) = (x^{T} z)^{2}.
 $$
 
 We can also write this as
 
 $$
-\begin{array}{l} K (x, z) = \left(\sum_ {i = 1} ^ {d} x _ {i} z _ {i}\right) \left(\sum_ {j = 1} ^ {d} x _ {j} z _ {j}\right) \\ = \sum_ {i = 1} ^ {d} \sum_ {j = 1} ^ {d} x _ {i} x _ {j} z _ {i} z _ {j} \\ = \sum_ {i, j = 1} ^ {d} \left(x _ {i} x _ {j}\right) \left(z _ {i} z _ {j}\right) \\ \end{array}
+\begin{array}{l} K (x, z) = \left(\sum_{i = 1}^{d} x_{i} z_{i}\right) \left(\sum_{j = 1}^{d} x_{j} z_{j}\right) \\ = \sum_{i = 1}^{d} \sum_{j = 1}^{d} x_{i} x_{j} z_{i} z_{j} \\ = \sum_{i, j = 1}^{d} \left(x_{i} x_{j}\right) \left(z_{i} z_{j}\right) \\ \end{array}
 $$
 
 Thus, we see that  $K(x,z) = \langle \phi (x),\phi (z)\rangle$  is the kernel function that corresponds to the feature mapping  $\phi$  given (shown here for the case of  $d = 3$ ) by
 
 $$
-\phi (x) = \left[ \begin{array}{l} x _ {1} x _ {1} \\ x _ {1} x _ {2} \\ x _ {1} x _ {3} \\ x _ {2} x _ {1} \\ x _ {2} x _ {2} \\ x _ {2} x _ {3} \\ x _ {3} x _ {1} \\ x _ {3} x _ {2} \\ x _ {3} x _ {3} \end{array} \right].
+\phi (x) = \left[ \begin{array}{l} x_{1} x_{1} \\ x_{1} x_{2} \\ x_{1} x_{3} \\ x_{2} x_{1} \\ x_{2} x_{2} \\ x_{2} x_{3} \\ x_{3} x_{1} \\ x_{3} x_{2} \\ x_{3} x_{3} \end{array} \right].
 $$
 
 Revisiting the computational efficiency perspective of kernel, note that whereas calculating the high-dimensional  $\phi(x)$  requires  $O(d^2)$  time, finding  $K(x,z)$  takes only  $O(d)$  time—linear in the dimension of the input attributes.
@@ -1342,7 +1342,7 @@ Revisiting the computational efficiency perspective of kernel, note that whereas
 For another related example, also consider  $K(\cdot ,\cdot)$  defined by
 
 $$
-\begin{array}{l} K (x, z) = \left(x ^ {T} z + c\right) ^ {2} \\ = \sum_ {i, j = 1} ^ {d} (x _ {i} x _ {j}) (z _ {i} z _ {j}) + \sum_ {i = 1} ^ {d} (\sqrt {2 c} x _ {i}) (\sqrt {2 c} z _ {i}) + c ^ {2}. \\ \end{array}
+\begin{array}{l} K (x, z) = \left(x^{T} z + c\right)^{2} \\ = \sum_{i, j = 1}^{d} (x_{i} x_{j}) (z_{i} z_{j}) + \sum_{i = 1}^{d} (\sqrt{2 c} x_{i}) (\sqrt{2 c} z_{i}) + c^{2}. \\ \end{array}
 $$
 
 (Check this yourself.) This function  $K$  is a kernel function that corresponds
@@ -1350,7 +1350,7 @@ $$
 to the feature mapping (again shown for  $d = 3$ )
 
 $$
-\phi (x) = \left[ \begin{array}{l} x _ {1} x _ {1} \\ x _ {1} x _ {2} \\ x _ {1} x _ {3} \\ x _ {2} x _ {1} \\ x _ {2} x _ {2} \\ x _ {2} x _ {3} \\ x _ {3} x _ {1} \\ x _ {3} x _ {2} \\ x _ {3} x _ {3} \\ \sqrt {2 c} x _ {1} \\ \sqrt {2 c} x _ {2} \\ \sqrt {2 c} x _ {3} \\ c \end{array} \right],
+\phi (x) = \left[ \begin{array}{l} x_{1} x_{1} \\ x_{1} x_{2} \\ x_{1} x_{3} \\ x_{2} x_{1} \\ x_{2} x_{2} \\ x_{2} x_{3} \\ x_{3} x_{1} \\ x_{3} x_{2} \\ x_{3} x_{3} \\ \sqrt{2 c} x_{1} \\ \sqrt{2 c} x_{2} \\ \sqrt{2 c} x_{3} \\ c \end{array} \right],
 $$
 
 and the parameter  $c$  controls the relative weighting between the  $x_{i}$  (first order) and the  $x_{i}x_{j}$  (second order) terms.
@@ -1362,7 +1362,7 @@ Kernels as similarity metrics. Now, let's talk about a slightly different view o
 Given this intuition, suppose that for some learning problem that you're working on, you've come up with some function  $K(x,z)$  that you think might be a reasonable measure of how similar  $x$  and  $z$  are. For instance, perhaps you chose
 
 $$
-K (x, z) = \exp \left(- \frac {| | x - z | | ^ {2}}{2 \sigma^ {2}}\right).
+K (x, z) = \exp \left(- \frac{| | x - z | | ^ {2}}{2 \sigma^{2}}\right).
 $$
 
 This is a reasonable measure of  $x$  and  $z$ 's similarity, and is close to 1 when  $x$  and  $z$  are close, and near 0 when  $x$  and  $z$  are far apart. Does there exist
@@ -1374,7 +1374,7 @@ Necessary conditions for valid kernels. Suppose for now that  $K$  is indeed a v
 Now, if  $K$  is a valid kernel, then  $K_{ij} = K(x^{(i)},x^{(j)}) = \phi (x^{(i)})^T\phi (x^{(j)}) = \phi (x^{(j)})^T\phi (x^{(i)}) = K(x^{(j)},x^{(i)}) = K_{ji}$ , and hence  $K$  must be symmetric. Moreover, letting  $\phi_k(x)$  denote the  $k$ -th coordinate of the vector  $\phi (x)$ , we find that for any vector  $z$ , we have
 
 $$
-\begin{array}{l} z ^ {T} K z = \sum_ {i} \sum_ {j} z _ {i} K _ {i j} z _ {j} \\ = \sum_ {i} \sum_ {j} z _ {i} \phi (x ^ {(i)}) ^ {T} \phi (x ^ {(j)}) z _ {j} \\ = \sum_ {i} \sum_ {j} z _ {i} \sum_ {k} \phi_ {k} (x ^ {(i)}) \phi_ {k} (x ^ {(j)}) z _ {j} \\ = \sum_ {k} \sum_ {i} \sum_ {j} z _ {i} \phi_ {k} (x ^ {(i)}) \phi_ {k} (x ^ {(j)}) z _ {j} \\ = \sum_ {k} \left(\sum_ {i} z _ {i} \phi_ {k} (x ^ {(i)})\right) ^ {2} \\ \geq 0. \\ \end{array}
+\begin{array}{l} z^{T} K z = \sum_{i} \sum_{j} z_{i} K_{i j} z_{j} \\ = \sum_{i} \sum_{j} z_{i} \phi (x^{(i)})^{T} \phi (x^{(j)}) z_{j} \\ = \sum_{i} \sum_{j} z_{i} \sum_{k} \phi_{k} (x^{(i)}) \phi_{k} (x^{(j)}) z_{j} \\ = \sum_{k} \sum_{i} \sum_{j} z_{i} \phi_{k} (x^{(i)}) \phi_{k} (x^{(j)}) z_{j} \\ = \sum_{k} \left(\sum_{i} z_{i} \phi_{k} (x^{(i)})\right)^{2} \\ \geq 0. \\ \end{array}
 $$
 
 The second-to-last step uses the fact that  $\sum_{i,j}a_ia_j = (\sum_i a_i)^2$  for  $a_i = z_i\phi_k(x^{(i)})$ . Since  $z$  was arbitrary, this shows that  $K$  is positive semi-definite  $(K\geq 0)$ .
@@ -1416,7 +1416,7 @@ Notice that the point A is very far from the decision boundary. If we are asked 
 To make our discussion of SVMs easier, we'll first need to introduce a new notation for talking about classification. We will be considering a linear classifier for a binary classification problem with labels  $y$  and features  $x$ . From now, we'll use  $y \in \{-1, 1\}$  (instead of  $\{0, 1\}$ ) to denote the class labels. Also, rather than parameterizing our linear classifier with the vector  $\theta$ , we will use parameters  $w, b$ , and write our classifier as
 
 $$
-h _ {w, b} (x) = g \left(w ^ {T} x + b\right).
+h_{w, b} (x) = g \left(w^{T} x + b\right).
 $$
 
 Here,  $g(z) = 1$  if  $z \geq 0$ , and  $g(z) = -1$  otherwise. This "  $w, b$ " notation allows us to explicitly treat the intercept term  $b$  separately from the other parameters. (We also drop the convention we had previously of letting  $x_0 = 1$  be an extra coordinate in the input feature vector.) Thus,  $b$  takes the role of what was previously  $\theta_0$ , and  $w$  takes the role of  $[\theta_1 \ldots \theta_d]^T$ .
@@ -1428,7 +1428,7 @@ Note also that, from our definition of  $g$  above, our classifier will directly
 Let's formalize the notions of the functional and geometric margins. Given a training example  $(x^{(i)},y^{(i)})$ , we define the functional margin of  $(w,b)$  with respect to the training example as
 
 $$
-\hat {\gamma} ^ {(i)} = y ^ {(i)} (w ^ {T} x ^ {(i)} + b).
+\hat {\gamma}^{(i)} = y^{(i)} (w^{T} x^{(i)} + b).
 $$
 
 Note that if  $y^{(i)} = 1$ , then for the functional margin to be large (i.e., for our prediction to be confident and correct), we need  $w^T x^{(i)} + b$  to be a large positive number. Conversely, if  $y^{(i)} = -1$ , then for the functional margin to be large, we need  $w^T x^{(i)} + b$  to be a large negative number. Moreover, if  $y^{(i)}(w^T x^{(i)} + b) > 0$ , then our prediction on this example is correct. (Check this yourself.) Hence, a large functional margin represents a confident and a correct prediction.
@@ -1440,7 +1440,7 @@ if we replace  $w$  with  $2w$  and  $b$  with  $2b$ , then since  $g(w^T x + b)
 Given a training set  $S = \{(x^{(i)},y^{(i)});i = 1,\dots ,n\}$ , we also define the function margin of  $(w,b)$  with respect to  $S$  as the smallest of the functional margins of the individual training examples. Denoted by  $\hat{\gamma}$ , this can therefore be written:
 
 $$
-\hat {\gamma} = \min _ {i = 1, \dots , n} \hat {\gamma} ^ {(i)}.
+\hat {\gamma} = \min_{i = 1, \dots , n} \hat {\gamma}^{(i)}.
 $$
 
 Next, let's talk about geometric margins. Consider the picture below:
@@ -1454,19 +1454,19 @@ How can we find the value of  $\gamma^{(i)}$ ? Well,  $w / ||w||$  is a unit-len
 find that the point  $B$  is given by  $x^{(i)} - \gamma^{(i)}\cdot w / ||w||$ . But this point lies on the decision boundary, and all points  $x$  on the decision boundary satisfy the equation  $w^{T}x + b = 0$ . Hence,
 
 $$
-w ^ {T} \left(x ^ {(i)} - \gamma^ {(i)} \frac {w}{| | w | |}\right) + b = 0.
+w^{T} \left(x^{(i)} - \gamma^{(i)} \frac{w}{| | w | |}\right) + b = 0.
 $$
 
 Solving for  $\gamma^{(i)}$  yields
 
 $$
-\gamma^ {(i)} = \frac {w ^ {T} x ^ {(i)} + b}{| | w | |} = \left(\frac {w}{| | w | |}\right) ^ {T} x ^ {(i)} + \frac {b}{| | w | |}.
+\gamma^{(i)} = \frac{w^{T} x^{(i)} + b}{| | w | |} = \left(\frac{w}{| | w | |}\right)^{T} x^{(i)} + \frac{b}{| | w | |}.
 $$
 
 This was worked out for the case of a positive training example at A in the figure, where being on the "positive" side of the decision boundary is good. More generally, we define the geometric margin of  $(w,b)$  with respect to a training example  $(x^{(i)},y^{(i)})$  to be
 
 $$
-\gamma^ {(i)} = y ^ {(i)} \left(\left(\frac {w}{| | w | |}\right) ^ {T} x ^ {(i)} + \frac {b}{| | w | |}\right).
+\gamma^{(i)} = y^{(i)} \left(\left(\frac{w}{| | w | |}\right)^{T} x^{(i)} + \frac{b}{| | w | |}\right).
 $$
 
 Note that if  $||w|| = 1$ , then the functional margin equals the geometric margin—this thus gives us a way of relating these two different notions of margin. Also, the geometric margin is invariant to rescaling of the parameters; i.e., if we replace  $w$  with  $2w$  and  $b$  with  $2b$ , then the geometric margin does not change. This will in fact come in handy later. Specifically, because of this invariance to the scaling of the parameters, when trying to fit  $w$  and  $b$  to training data, we can impose an arbitrary scaling constraint on  $w$  without changing anything important; for instance, we can demand that  $||w|| = 1$ , or  $|w_1| = 5$ , or  $|w_1 + b| + |w_2| = 2$ , and any of these can be satisfied simply by rescaling  $w$  and  $b$ .
@@ -1474,7 +1474,7 @@ Note that if  $||w|| = 1$ , then the functional margin equals the geometric marg
 Finally, given a training set  $S = \{(x^{(i)},y^{(i)});i = 1,\ldots ,n\}$ , we also define the geometric margin of  $(w,b)$  with respect to  $S$  to be the smallest of the geometric margins on the individual training examples:
 
 $$
-\gamma = \min _ {i = 1, \dots , n} \gamma^ {(i)}.
+\gamma = \min_{i = 1, \dots , n} \gamma^{(i)}.
 $$
 
 # 6.4 The optimal margin classifier (option reading)
@@ -1486,7 +1486,7 @@ on the training set and a good "fit" to the training data. Specifically, this wi
 For now, we will assume that we are given a training set that is linearly separable; i.e., that it is possible to separate the positive and negative examples using some separating hyperplane. How will we find the one that achieves the maximum geometric margin? We can pose the following optimization problem:
 
 $$
-\begin{array}{l} \max _ {\gamma , w, b} \quad \gamma \\ \begin{array}{l l} \text {s . t .} & y ^ {(i)} \left(w ^ {T} x ^ {(i)} + b\right) \geq \gamma , i = 1, \dots , n \end{array} \\ | | w | | = 1. \\ \end{array}
+\begin{array}{l} \max_{\gamma , w, b} \quad \gamma \\ \begin{array}{l l} \text{s .t .} & y^{(i)} \left(w^{T} x^{(i)} + b\right) \geq \gamma , i = 1, \dots , n \end{array} \\ | | w | | = 1. \\ \end{array}
 $$
 
 I.e., we want to maximize  $\gamma$ , subject to each training example having functional margin at least  $\gamma$ . The  $||w|| = 1$  constraint moreover ensures that the functional margin equals to the geometric margin, so we are also guaranteed that all the geometric margins are at least  $\gamma$ . Thus, solving this problem will result in  $(w,b)$  with the largest possible geometric margin with respect to the training set.
@@ -1494,7 +1494,7 @@ I.e., we want to maximize  $\gamma$ , subject to each training example having fu
 If we could solve the optimization problem above, we'd be done. But the  $||w|| = 1$  constraint is a nasty (non-convex) one, and this problem certainly isn't in any format that we can plug into standard optimization software to solve. So, let's try transforming the problem into a nicer one. Consider:
 
 $$
-\begin{array}{l} \max _ {\hat {\gamma}, w, b} \frac {\hat {\gamma}}{| | w | |} \\ \begin{array}{l l} \text {s . t .} & y ^ {(i)} (w ^ {T} x ^ {(i)} + b) \geq \hat {\gamma}, i = 1, \dots , n \end{array} \\ \end{array}
+\begin{array}{l} \max_{\hat {\gamma}, w, b} \frac{\hat {\gamma}}{| | w | |} \\ \begin{array}{l l} \text{s .t .} & y^{(i)} (w^{T} x^{(i)} + b) \geq \hat {\gamma}, i = 1, \dots , n \end{array} \\ \end{array}
 $$
 
 Here, we're going to maximize  $\hat{\gamma} /||w||$ , subject to the functional margins all being at least  $\hat{\gamma}$ . Since the geometric and functional margins are related by  $\gamma = \hat{\gamma} /||w|$ , this will give us the answer we want. Moreover, we've gotten rid of the constraint  $||w|| = 1$  that we didn't like. The downside is that we now have a nasty (again, non-convex) objective  $\frac{\hat{\gamma}}{||w||}$  function; and, we still don't have any off-the-shelf software that can solve this form of an optimization problem.
@@ -1508,7 +1508,7 @@ $$
 Since multiplying  $w$  and  $b$  by some constant results in the functional margin being multiplied by that same constant, this is indeed a scaling constraint, and can be satisfied by rescaling  $w, b$ . Plugging this into our problem above, and noting that maximizing  $\hat{\gamma} / ||w|| = 1 / ||w||$  is the same thing as minimizing  $||w||^2$ , we now have the following optimization problem:
 
 $$
-\begin{array}{l} \min _ {w, b} \frac {1}{2} | | w | | ^ {2} \\ \begin{array}{l} \text {s . t .} y ^ {(i)} \left(w ^ {T} x ^ {(i)} + b\right) \geq 1, i = 1, \dots , n \end{array} \\ \end{array}
+\begin{array}{l} \min_{w, b} \frac{1}{2} | | w | | ^ {2} \\ \begin{array}{l} \text{s .t .} y^{(i)} \left(w^{T} x^{(i)} + b\right) \geq 1, i = 1, \dots , n \end{array} \\ \end{array}
 $$
 
 We've now transformed the problem into a form that can be efficiently solved. The above is an optimization problem with a convex quadratic objective and only linear constraints. Its solution gives us the optimal margin classifier. This optimization problem can be solved using commercial quadratic programming (QP) code. $^{1}$
@@ -1522,19 +1522,19 @@ Let's temporarily put aside SVMs and maximum margin classifiers, and talk about 
 Consider a problem of the following form:
 
 $$
-\begin{array}{l} \begin{array}{c c} \min  _ {w} & f (w) \end{array} \\ \begin{array}{l l} \text {s . t .} & h _ {i} (w) = 0, i = 1, \dots , l. \end{array} \\ \end{array}
+\begin{array}{l} \begin{array}{c c} \min_{w} & f (w) \end{array} \\ \begin{array}{l l} \text{s .t .} & h_{i} (w) = 0, i = 1, \dots , l. \end{array} \\ \end{array}
 $$
 
 Some of you may recall how the method of Lagrange multipliers can be used to solve it. (Don't worry if you haven't seen it before.) In this method, we define the Lagrangian to be
 
 $$
-\mathcal {L} (w, \beta) = f (w) + \sum_ {i = 1} ^ {l} \beta_ {i} h _ {i} (w)
+\mathcal {L} (w, \beta) = f (w) + \sum_{i = 1}^{l} \beta_{i} h_{i} (w)
 $$
 
 Here, the  $\beta_{i}$ 's are called the Lagrange multipliers. We would then find and set  $\mathcal{L}$ 's partial derivatives to zero:
 
 $$
-\frac {\partial \mathcal {L}}{\partial w _ {i}} = 0; \frac {\partial \mathcal {L}}{\partial \beta_ {i}} = 0,
+\frac{\partial \mathcal {L}}{\partial w_{i}} = 0; \frac{\partial \mathcal {L}}{\partial \beta_{i}} = 0,
 $$
 
 and solve for  $w$  and  $\beta$ .
@@ -1544,37 +1544,37 @@ In this section, we will generalize this to constrained optimization problems in
 Consider the following, which we'll call the primal optimization problem:
 
 $$
-\begin{array}{l} \begin{array}{c c} \min  _ {w} & f (w) \end{array} \\ \begin{array}{l l} \text {s . t .} & g _ {i} (w) \leq 0, i = 1, \dots , k \end{array} \\ h _ {i} (w) = 0, \quad i = 1, \dots , l. \\ \end{array}
+\begin{array}{l} \begin{array}{c c} \min_{w} & f (w) \end{array} \\ \begin{array}{l l} \text{s .t .} & g_{i} (w) \leq 0, i = 1, \dots , k \end{array} \\ h_{i} (w) = 0, \quad i = 1, \dots , l. \\ \end{array}
 $$
 
 To solve it, we start by defining the generalized Lagrangian
 
 $$
-\mathcal {L} (w, \alpha , \beta) = f (w) + \sum_ {i = 1} ^ {k} \alpha_ {i} g _ {i} (w) + \sum_ {i = 1} ^ {l} \beta_ {i} h _ {i} (w).
+\mathcal {L} (w, \alpha , \beta) = f (w) + \sum_{i = 1}^{k} \alpha_{i} g_{i} (w) + \sum_{i = 1}^{l} \beta_{i} h_{i} (w).
 $$
 
 Here, the  $\alpha_{i}$ 's and  $\beta_{i}$ 's are the Lagrange multipliers. Consider the quantity
 
 $$
-\theta_ {\mathcal {P}} (w) = \max  _ {\alpha , \beta : \alpha_ {i} \geq 0} \mathcal {L} (w, \alpha , \beta).
+\theta_{\mathcal {P}} (w) = \max_{\alpha , \beta : \alpha_{i} \geq 0} \mathcal {L} (w, \alpha , \beta).
 $$
 
 Here, the “ $\mathcal{P}$ ” subscript stands for “primal.” Let some  $w$  be given. If  $w$  violates any of the primal constraints (i.e., if either  $g_i(w) > 0$  or  $h_i(w) \neq 0$  for some  $i$ ), then you should be able to verify that
 
 $$
-\begin{array}{l} \theta_ {\mathcal {P}} (w) = \max  _ {\alpha , \beta : \alpha_ {i} \geq 0} f (w) + \sum_ {i = 1} ^ {k} \alpha_ {i} g _ {i} (w) + \sum_ {i = 1} ^ {l} \beta_ {i} h _ {i} (w) (6.1) \\ = \infty . (6.2) \\ \end{array}
+\begin{array}{l} \theta_{\mathcal {P}} (w) = \max_{\alpha , \beta : \alpha_{i} \geq 0} f (w) + \sum_{i = 1}^{k} \alpha_{i} g_{i} (w) + \sum_{i = 1}^{l} \beta_{i} h_{i} (w) (6.1) \\ = \infty . (6.2) \\ \end{array}
 $$
 
 Conversely, if the constraints are indeed satisfied for a particular value of  $w$ , then  $\theta_{\mathcal{P}}(w) = f(w)$ . Hence,
 
 $$
-\theta_ {\mathcal {P}} (w) = \left\{ \begin{array}{l l} f (w) & \text {i f w s a t i s f i e s p r i m a l c o n s t r a i n t s} \\ \infty & \text {o t h e r w i s e .} \end{array} \right.
+\theta_{\mathcal {P}} (w) = \left\{ \begin{array}{l l} f (w) & \text{if ws at is fi es pr im al co ns tr ai nt s} \\ \infty & \text{ot he rw is e .} \end{array} \right.
 $$
 
 Thus,  $\theta_{\mathcal{P}}$  takes the same value as the objective in our problem for all values of  $w$  that satisfies the primal constraints, and is positive infinity if the constraints are violated. Hence, if we consider the minimization problem
 
 $$
-\min  _ {w} \theta_ {\mathcal {P}} (w) = \min  _ {w} \max  _ {\alpha , \beta : \alpha_ {i} \geq 0} \mathcal {L} (w, \alpha , \beta),
+\min_{w} \theta_{\mathcal {P}} (w) = \min_{w} \max_{\alpha , \beta : \alpha_{i} \geq 0} \mathcal {L} (w, \alpha , \beta),
 $$
 
 we see that it is the same problem (i.e., and has the same solutions as) our original, primal problem. For later use, we also define the optimal value of the objective to be  $p^* = \min_w \theta_{\mathcal{P}}(w)$ ; we call this the value of the primal problem.
@@ -1582,7 +1582,7 @@ we see that it is the same problem (i.e., and has the same solutions as) our ori
 Now, let's look at a slightly different problem. We define
 
 $$
-\theta_ {\mathcal {D}} (\alpha , \beta) = \min _ {w} \mathcal {L} (w, \alpha , \beta).
+\theta_{\mathcal {D}} (\alpha , \beta) = \min_{w} \mathcal {L} (w, \alpha , \beta).
 $$
 
 Here, the “ $\mathcal{D}$ ” subscript stands for “dual.” Note also that whereas in the definition of  $\theta_{\mathcal{P}}$  we were optimizing (maximizing) with respect to  $\alpha, \beta$ , here we are minimizing with respect to  $w$ .
@@ -1590,7 +1590,7 @@ Here, the “ $\mathcal{D}$ ” subscript stands for “dual.” Note also that 
 We can now pose the dual optimization problem:
 
 $$
-\max  _ {\alpha , \beta : \alpha_ {i} \geq 0} \theta_ {\mathcal {D}} (\alpha , \beta) = \max  _ {\alpha , \beta : \alpha_ {i} \geq 0} \min  _ {w} \mathcal {L} (w, \alpha , \beta).
+\max_{\alpha , \beta : \alpha_{i} \geq 0} \theta_{\mathcal {D}} (\alpha , \beta) = \max_{\alpha , \beta : \alpha_{i} \geq 0} \min_{w} \mathcal {L} (w, \alpha , \beta).
 $$
 
 This is exactly the same as our primal problem shown above, except that the order of the "max" and the "min" are now exchanged. We also define the optimal value of the dual problem's objective to be  $d^{*} = \max_{\alpha ,\beta :\alpha_{i}\geq 0}\theta_{\mathcal{D}}(w)$ .
@@ -1598,13 +1598,13 @@ This is exactly the same as our primal problem shown above, except that the orde
 How are the primal and the dual problems related? It can easily be shown that
 
 $$
-d ^ {*} = \max  _ {\alpha , \beta : \alpha_ {i} \geq 0} \min  _ {w} \mathcal {L} (w, \alpha , \beta) \leq \min  _ {w} \max  _ {\alpha , \beta : \alpha_ {i} \geq 0} \mathcal {L} (w, \alpha , \beta) = p ^ {*}.
+d^{*} = \max_{\alpha , \beta : \alpha_{i} \geq 0} \min_{w} \mathcal {L} (w, \alpha , \beta) \leq \min_{w} \max_{\alpha , \beta : \alpha_{i} \geq 0} \mathcal {L} (w, \alpha , \beta) = p^{*}.
 $$
 
 (You should convince yourself of this; this follows from the "max min" of a function always being less than or equal to the "min max.") However, under certain conditions, we will have
 
 $$
-d ^ {*} = p ^ {*},
+d^{*} = p^{*},
 $$
 
 so that we can solve the dual problem in lieu of the primal problem. Let's see what these conditions are.
@@ -1614,23 +1614,23 @@ Suppose  $f$  and the  $g_{i}$ 's are convex, $^{3}$  and the  $h_{i}$ 's are af
 Under our above assumptions, there must exist  $w^{*}, \alpha^{*}, \beta^{*}$  so that  $w^{*}$  is the solution to the primal problem,  $\alpha^{*}, \beta^{*}$  are the solution to the dual problem, and moreover  $p^{*} = d^{*} = \mathcal{L}(w^{*}, \alpha^{*}, \beta^{*})$ . Moreover,  $w^{*}, \alpha^{*}$  and  $\beta^{*}$  satisfy the Karush-Kuhn-Tucker (KKT) conditions, which are as follows:
 
 $$
-\frac {\partial}{\partial w _ {i}} \mathcal {L} \left(w ^ {*}, \alpha^ {*}, \beta^ {*}\right) = 0, i = 1, \dots , d \tag {6.3}
+\frac{\partial}{\partial w_{i}} \mathcal {L} \left(w^{*}, \alpha^{*}, \beta^{*}\right) = 0, i = 1, \dots , d \tag {6.3}
 $$
 
 $$
-\frac {\partial}{\partial \beta_ {i}} \mathcal {L} \left(w ^ {*}, \alpha^ {*}, \beta^ {*}\right) = 0, i = 1, \dots , l \tag {6.4}
+\frac{\partial}{\partial \beta_{i}} \mathcal {L} \left(w^{*}, \alpha^{*}, \beta^{*}\right) = 0, i = 1, \dots , l \tag {6.4}
 $$
 
 $$
-\alpha_ {i} ^ {*} g _ {i} \left(w ^ {*}\right) = 0, i = 1, \dots , k \tag {6.5}
+\alpha_{i}^{*} g_{i} \left(w^{*}\right) = 0, i = 1, \dots , k \tag {6.5}
 $$
 
 $$
-g _ {i} \left(w ^ {*}\right) \leq 0, i = 1, \dots , k \tag {6.6}
+g_{i} \left(w^{*}\right) \leq 0, i = 1, \dots , k \tag {6.6}
 $$
 
 $$
-\alpha^ {*} \geq 0, i = 1, \dots , k \tag {6.7}
+\alpha^{*} \geq 0, i = 1, \dots , k \tag {6.7}
 $$
 
 Moreover, if some  $w^{*}, \alpha^{*}, \beta^{*}$  satisfy the KKT conditions, then it is also a solution to the primal and dual problems.
@@ -1644,17 +1644,17 @@ Note: The equivalence of optimization problem (6.8) and the optimization problem
 Previously, we posed the following (primal) optimization problem for finding the optimal margin classifier:
 
 $$
-\min  _ {w, b} \quad \frac {1}{2} \| w \| ^ {2} \tag {6.8}
+\min_{w, b} \quad \frac{1}{2} \| w \| ^ {2} \tag {6.8}
 $$
 
 $$
-\begin{array}{l} \text {s . t .} y ^ {(i)} \left(w ^ {T} x ^ {(i)} + b\right) \geq 1, i = 1, \dots , n \end{array}
+\begin{array}{l} \text{s .t .} y^{(i)} \left(w^{T} x^{(i)} + b\right) \geq 1, i = 1, \dots , n \end{array}
 $$
 
 We can write the constraints as
 
 $$
-g _ {i} (w) = - y ^ {(i)} (w ^ {T} x ^ {(i)} + b) + 1 \leq 0.
+g_{i} (w) = - y^{(i)} (w^{T} x^{(i)} + b) + 1 \leq 0.
 $$
 
 We have one such constraint for each training example. Note that from the KKT dual complementarity condition, we will have  $\alpha_{i} > 0$  only for the training examples that have functional margin exactly equal to one (i.e., the ones corresponding to constraints that hold with equality,  $g_{i}(w) = 0$ ). Consider the figure below, in which a maximum margin separating hyperplane is shown by the solid line.
@@ -1668,7 +1668,7 @@ Let's move on. Looking ahead, as we develop the dual form of the problem, one ke
 When we construct the Lagrangian for our optimization problem we have:
 
 $$
-\mathcal {L} (w, b, \alpha) = \frac {1}{2} | | w | | ^ {2} - \sum_ {i = 1} ^ {n} \alpha_ {i} \left[ y ^ {(i)} \left(w ^ {T} x ^ {(i)} + b\right) - 1 \right]. \tag {6.9}
+\mathcal {L} (w, b, \alpha) = \frac{1}{2} | | w | | ^ {2} - \sum_{i = 1}^{n} \alpha_{i} \left[ y^{(i)} \left(w^{T} x^{(i)} + b\right) - 1 \right]. \tag {6.9}
 $$
 
 Note that there're only “ $\alpha_{i}$ ” but no “ $\beta_{i}$ ” Lagrange multipliers, since the problem has only inequality constraints.
@@ -1676,45 +1676,45 @@ Note that there're only “ $\alpha_{i}$ ” but no “ $\beta_{i}$ ” Lagrange
 Let's find the dual form of the problem. To do so, we need to first minimize  $\mathcal{L}(w,b,\alpha)$  with respect to  $w$  and  $b$  (for fixed  $\alpha$ ), to get  $\theta_{\mathcal{D}}$ , which we'll do by setting the derivatives of  $\mathcal{L}$  with respect to  $w$  and  $b$  to zero. We have:
 
 $$
-\nabla_ {w} \mathcal {L} (w, b, \alpha) = w - \sum_ {i = 1} ^ {n} \alpha_ {i} y ^ {(i)} x ^ {(i)} = 0
+\nabla_{w} \mathcal {L} (w, b, \alpha) = w - \sum_{i = 1}^{n} \alpha_{i} y^{(i)} x^{(i)} = 0
 $$
 
 This implies that
 
 $$
-w = \sum_ {i = 1} ^ {n} \alpha_ {i} y ^ {(i)} x ^ {(i)}. \tag {6.10}
+w = \sum_{i = 1}^{n} \alpha_{i} y^{(i)} x^{(i)}. \tag {6.10}
 $$
 
 As for the derivative with respect to  $b$ , we obtain
 
 $$
-\frac {\partial}{\partial b} \mathcal {L} (w, b, \alpha) = \sum_ {i = 1} ^ {n} \alpha_ {i} y ^ {(i)} = 0. \tag {6.11}
+\frac{\partial}{\partial b} \mathcal {L} (w, b, \alpha) = \sum_{i = 1}^{n} \alpha_{i} y^{(i)} = 0. \tag {6.11}
 $$
 
 If we take the definition of  $w$  in Equation (6.10) and plug that back into the Lagrangian (Equation 6.9), and simplify, we get
 
 $$
-\mathcal {L} (w, b, \alpha) = \sum_ {i = 1} ^ {n} \alpha_ {i} - \frac {1}{2} \sum_ {i, j = 1} ^ {n} y ^ {(i)} y ^ {(j)} \alpha_ {i} \alpha_ {j} (x ^ {(i)}) ^ {T} x ^ {(j)} - b \sum_ {i = 1} ^ {n} \alpha_ {i} y ^ {(i)}.
+\mathcal {L} (w, b, \alpha) = \sum_{i = 1}^{n} \alpha_{i} - \frac{1}{2} \sum_{i, j = 1}^{n} y^{(i)} y^{(j)} \alpha_{i} \alpha_{j} (x^{(i)})^{T} x^{(j)} - b \sum_{i = 1}^{n} \alpha_{i} y^{(i)}.
 $$
 
 But from Equation (6.11), the last term must be zero, so we obtain
 
 $$
-\mathcal {L} (w, b, \alpha) = \sum_ {i = 1} ^ {n} \alpha_ {i} - \frac {1}{2} \sum_ {i, j = 1} ^ {n} y ^ {(i)} y ^ {(j)} \alpha_ {i} \alpha_ {j} (x ^ {(i)}) ^ {T} x ^ {(j)}.
+\mathcal {L} (w, b, \alpha) = \sum_{i = 1}^{n} \alpha_{i} - \frac{1}{2} \sum_{i, j = 1}^{n} y^{(i)} y^{(j)} \alpha_{i} \alpha_{j} (x^{(i)})^{T} x^{(j)}.
 $$
 
 Recall that we got to the equation above by minimizing  $\mathcal{L}$  with respect to  $w$  and  $b$ . Putting this together with the constraints  $\alpha_{i} \geq 0$  (that we always had) and the constraint (6.11), we obtain the following dual optimization problem:
 
 $$
-\max _ {\alpha} W (\alpha) = \sum_ {i = 1} ^ {n} \alpha_ {i} - \frac {1}{2} \sum_ {i, j = 1} ^ {n} y ^ {(i)} y ^ {(j)} \alpha_ {i} \alpha_ {j} \langle x ^ {(i)}, x ^ {(j)} \rangle . \tag {6.12}
+\max_{\alpha} W (\alpha) = \sum_{i = 1}^{n} \alpha_{i} - \frac{1}{2} \sum_{i, j = 1}^{n} y^{(i)} y^{(j)} \alpha_{i} \alpha_{j} \langle x^{(i)}, x^{(j)} \rangle . \tag {6.12}
 $$
 
 $$
-\begin{array}{l l} \text {s . t .} & \alpha_ {i} \geq 0, i = 1, \dots , n \end{array}
+\begin{array}{l l} \text{s .t .} & \alpha_{i} \geq 0, i = 1, \dots , n \end{array}
 $$
 
 $$
-\sum_ {i = 1} ^ {n} \alpha_ {i} y ^ {(i)} = 0,
+\sum_{i = 1}^{n} \alpha_{i} y^{(i)} = 0,
 $$
 
 You should also be able to verify that the conditions required for  $p^* = d^*$  and the KKT conditions (Equations 6.3-6.7) to hold are indeed satisfied in
@@ -1722,7 +1722,7 @@ You should also be able to verify that the conditions required for  $p^* = d^*$ 
 our optimization problem. Hence, we can solve the dual in lieu of solving the primal problem. Specifically, in the dual problem above, we have a maximization problem in which the parameters are the  $\alpha_{i}$ 's. We'll talk later about the specific algorithm that we're going to use to solve the dual problem, but if we are indeed able to solve it (i.e., find the  $\alpha$ 's that maximize  $W(\alpha)$  subject to the constraints), then we can use Equation (6.10) to go back and find the optimal  $w$ 's as a function of the  $\alpha$ 's. Having found  $w^{*}$ , by considering the primal problem, it is also straightforward to find the optimal value for the intercept term  $b$  as
 
 $$
-b ^ {*} = - \frac {\max _ {i : y ^ {(i)} = - 1} w ^ {* T} x ^ {(i)} + \min _ {i : y ^ {(i)} = 1} w ^ {* T} x ^ {(i)}}{2}. (6. 1 3)
+b^{*} = - \frac{\max_{i : y^{(i)} = - 1} w^{* T} x^{(i)} + \min_{i : y^{(i)} = 1} w^{* T} x^{(i)}}{2}. (6. 1 3)
 $$
 
 (Check for yourself that this is correct.)
@@ -1730,7 +1730,7 @@ $$
 Before moving on, let's also take a more careful look at Equation (6.10), which gives the optimal value of  $w$  in terms of (the optimal value of)  $\alpha$ . Suppose we've fit our model's parameters to a training set, and now wish to make a prediction at a new point input  $x$ . We would then calculate  $w^T x + b$  and predict  $y = 1$  if and only if this quantity is bigger than zero. But using (6.10), this quantity can also be written:
 
 $$
-\begin{array}{l} w ^ {T} x + b = \left(\sum_ {i = 1} ^ {n} \alpha_ {i} y ^ {(i)} x ^ {(i)}\right) ^ {T} x + b (6.14) \\ = \sum_ {i = 1} ^ {n} \alpha_ {i} y ^ {(i)} \langle x ^ {(i)}, x \rangle + b. (6.15) \\ \end{array}
+\begin{array}{l} w^{T} x + b = \left(\sum_{i = 1}^{n} \alpha_{i} y^{(i)} x^{(i)}\right)^{T} x + b (6.14) \\ = \sum_{i = 1}^{n} \alpha_{i} y^{(i)} \langle x^{(i)}, x \rangle + b. (6.15) \\ \end{array}
 $$
 
 Hence, if we've found the  $\alpha_{i}$ 's, in order to make a prediction, we have to calculate a quantity that depends only on the inner product between  $x$  and the points in the training set. Moreover, we saw earlier that the  $\alpha_{i}$ 's will all be zero except for the support vectors. Thus, many of the terms in the sum above will be zero, and we really need to find only the inner products between  $x$  and the support vectors (of which there is often only a small number) in order to calculate (6.15) and make our prediction.
@@ -1748,7 +1748,7 @@ The derivation of the SVM as presented so far assumed that the data is linearly 
 To make the algorithm work for non-linearly separable datasets as well as be less sensitive to outliers, we reformulate our optimization (using  $\ell_1$  regularization) as follows:
 
 $$
-\begin{array}{l} \min _ {\gamma , w, b} \frac {1}{2} | | w | | ^ {2} + C \sum_ {i = 1} ^ {n} \xi_ {i} \\ \begin{array}{l} \text {s . t .} y ^ {(i)} \left(w ^ {T} x ^ {(i)} + b\right) \geq 1 - \xi_ {i}, i = 1, \dots , n \end{array} \\ \xi_ {i} \geq 0, i = 1, \dots , n. \\ \end{array}
+\begin{array}{l} \min_{\gamma , w, b} \frac{1}{2} | | w | | ^ {2} + C \sum_{i = 1}^{n} \xi_{i} \\ \begin{array}{l} \text{s .t .} y^{(i)} \left(w^{T} x^{(i)} + b\right) \geq 1 - \xi_{i}, i = 1, \dots , n \end{array} \\ \xi_{i} \geq 0, i = 1, \dots , n. \\ \end{array}
 $$
 
 Thus, examples are now permitted to have (functional) margin less than 1, and if an example has functional margin  $1 - \xi_{i}$  (with  $\xi > 0$ ), we would pay a cost of the objective function being increased by  $C\xi_{i}$ . The parameter  $C$  controls the relative weighting between the twin goals of making the  $||w||^2$  small (which we saw earlier makes the margin large) and of ensuring that most examples have functional margin at least 1.
@@ -1756,13 +1756,13 @@ Thus, examples are now permitted to have (functional) margin less than 1, and if
 As before, we can form the Lagrangian:
 
 $$
-\mathcal {L} (w, b, \xi , \alpha , r) = \frac {1}{2} w ^ {T} w + C \sum_ {i = 1} ^ {n} \xi_ {i} - \sum_ {i = 1} ^ {n} \alpha_ {i} \left[ y ^ {(i)} (x ^ {T} w + b) - 1 + \xi_ {i} \right] - \sum_ {i = 1} ^ {n} r _ {i} \xi_ {i}.
+\mathcal {L} (w, b, \xi , \alpha , r) = \frac{1}{2} w^{T} w + C \sum_{i = 1}^{n} \xi_{i} - \sum_{i = 1}^{n} \alpha_{i} \left[ y^{(i)} (x^{T} w + b) - 1 + \xi_{i} \right] - \sum_{i = 1}^{n} r_{i} \xi_{i}.
 $$
 
 Here, the  $\alpha_{i}$ 's and  $r_i$ 's are our Lagrange multipliers (constrained to be  $\geq 0$ ). We won't go through the derivation of the dual again in detail, but after setting the derivatives with respect to  $w$  and  $b$  to zero as before, substituting them back in, and simplifying, we obtain the following dual form of the problem:
 
 $$
-\begin{array}{l} \max _ {\alpha} W (\alpha) = \sum_ {i = 1} ^ {n} \alpha_ {i} - \frac {1}{2} \sum_ {i, j = 1} ^ {n} y ^ {(i)} y ^ {(j)} \alpha_ {i} \alpha_ {j} \langle x ^ {(i)}, x ^ {(j)} \rangle \\ \mathrm {s . t .} 0 \leq \alpha_ {i} \leq C, i = 1, \ldots , n \\ \sum_ {i = 1} ^ {n} \alpha_ {i} y ^ {(i)} = 0, \\ \end{array}
+\begin{array}{l} \max_{\alpha} W (\alpha) = \sum_{i = 1}^{n} \alpha_{i} - \frac{1}{2} \sum_{i, j = 1}^{n} y^{(i)} y^{(j)} \alpha_{i} \alpha_{j} \langle x^{(i)}, x^{(j)} \rangle \\ \mathrm{s .t .} 0 \leq \alpha_{i} \leq C, i = 1, \ldots , n \\ \sum_{i = 1}^{n} \alpha_{i} y^{(i)} = 0, \\ \end{array}
 $$
 
 As before, we also have that  $w$  can be expressed in terms of the  $\alpha_{i}$ 's as given in Equation (6.10), so that after solving the dual problem, we can continue to use Equation (6.15) to make our predictions. Note that, somewhat surprisingly, in adding  $\ell_{1}$  regularization, the only change to the dual problem is that what was originally a constraint that  $0 \leq \alpha_{i}$  has now become  $0 \leq \alpha_{i} \leq C$ . The calculation for  $b^{*}$  also has to be modified (Equation 6.13 is no longer valid); see the comments in the next section/Platt's paper.
@@ -1770,15 +1770,15 @@ As before, we also have that  $w$  can be expressed in terms of the  $\alpha_{i}
 Also, the KKT dual-complementarity conditions (which in the next section will be useful for testing for the convergence of the SMO algorithm) are:
 
 $$
-\alpha_ {i} = 0 \Rightarrow y ^ {(i)} \left(w ^ {T} x ^ {(i)} + b\right) \geq 1 \tag {6.16}
+\alpha_{i} = 0 \Rightarrow y^{(i)} \left(w^{T} x^{(i)} + b\right) \geq 1 \tag {6.16}
 $$
 
 $$
-\alpha_ {i} = C \Rightarrow y ^ {(i)} \left(w ^ {T} x ^ {(i)} + b\right) \leq 1 \tag {6.17}
+\alpha_{i} = C \Rightarrow y^{(i)} \left(w^{T} x^{(i)} + b\right) \leq 1 \tag {6.17}
 $$
 
 $$
-0 <   \alpha_ {i} <   C \Rightarrow y ^ {(i)} \left(w ^ {T} x ^ {(i)} + b\right) = 1. \tag {6.18}
+0 <   \alpha_{i} <   C \Rightarrow y^{(i)} \left(w^{T} x^{(i)} + b\right) = 1. \tag {6.18}
 $$
 
 Now, all that remains is to give an algorithm for actually solving the dual problem, which we will do in the next section.
@@ -1794,7 +1794,7 @@ of the SVM. Partly to motivate the SMO algorithm, and partly because it's intere
 Consider trying to solve the unconstrained optimization problem
 
 $$
-\max _ {\alpha} W (\alpha_ {1}, \alpha_ {2}, \ldots , \alpha_ {n}).
+\max_{\alpha} W (\alpha_{1}, \alpha_{2}, \ldots , \alpha_{n}).
 $$
 
 Here, we think of  $W$  as just some function of the parameters  $\alpha_{i}$ 's, and for now ignore any relationship between this problem and SVMs. We've already seen two optimization algorithms, gradient ascent and Newton's method. The new algorithm we're going to consider here is called coordinate ascent:
@@ -1819,27 +1819,27 @@ We close off the discussion of SVMs by sketching the derivation of the SMO algor
 Here's the (dual) optimization problem that we want to solve:
 
 $$
-\max _ {\alpha} W (\alpha) = \sum_ {i = 1} ^ {n} \alpha_ {i} - \frac {1}{2} \sum_ {i, j = 1} ^ {n} y ^ {(i)} y ^ {(j)} \alpha_ {i} \alpha_ {j} \langle x ^ {(i)}, x ^ {(j)} \rangle . (6. 1 9)
+\max_{\alpha} W (\alpha) = \sum_{i = 1}^{n} \alpha_{i} - \frac{1}{2} \sum_{i, j = 1}^{n} y^{(i)} y^{(j)} \alpha_{i} \alpha_{j} \langle x^{(i)}, x^{(j)} \rangle . (6. 1 9)
 $$
 
 $$
-\text {s . t .} \quad 0 \leq \alpha_ {i} \leq C, \quad i = 1, \dots , n \tag {6.20}
+\text{s .t .} \quad 0 \leq \alpha_{i} \leq C, \quad i = 1, \dots , n \tag {6.20}
 $$
 
 $$
-\sum_ {i = 1} ^ {n} \alpha_ {i} y ^ {(i)} = 0. \tag {6.21}
+\sum_{i = 1}^{n} \alpha_{i} y^{(i)} = 0. \tag {6.21}
 $$
 
 Let's say we have set of  $\alpha_{i}$ 's that satisfy the constraints (6.20-6.21). Now, suppose we want to hold  $\alpha_{2},\ldots ,\alpha_{n}$  fixed, and take a coordinate ascent step and reoptimize the objective with respect to  $\alpha_{1}$ . Can we make any progress? The answer is no, because the constraint (6.21) ensures that
 
 $$
-\alpha_ {1} y ^ {(1)} = - \sum_ {i = 2} ^ {n} \alpha_ {i} y ^ {(i)}.
+\alpha_{1} y^{(1)} = - \sum_{i = 2}^{n} \alpha_{i} y^{(i)}.
 $$
 
 Or, by multiplying both sides by  $y^{(1)}$ , we equivalently have
 
 $$
-\alpha_ {1} = - y ^ {(1)} \sum_ {i = 2} ^ {n} \alpha_ {i} y ^ {(i)}.
+\alpha_{1} = - y^{(1)} \sum_{i = 2}^{n} \alpha_{i} y^{(i)}.
 $$
 
 (This step used the fact that  $y^{(1)} \in \{-1, 1\}$ , and hence  $(y^{(1)})^2 = 1$ .) Hence,  $\alpha_1$  is exactly determined by the other  $\alpha_i$ 's, and if we were to hold  $\alpha_2, \ldots, \alpha_n$  fixed, then we can't make any change to  $\alpha_1$  without violating the constraint (6.21) in the optimization problem.
@@ -1860,13 +1860,13 @@ The key reason that SMO is an efficient algorithm is that the update to  $\alpha
 Let's say we currently have some setting of the  $\alpha_{i}$ 's that satisfy the constraints (6.20-6.21), and suppose we've decided to hold  $\alpha_{3},\ldots ,\alpha_{n}$  fixed, and want to reoptimize  $W(\alpha_{1},\alpha_{2},\dots,\alpha_{n})$  with respect to  $\alpha_{1}$  and  $\alpha_{2}$  (subject to the constraints). From (6.21), we require that
 
 $$
-\alpha_ {1} y ^ {(1)} + \alpha_ {2} y ^ {(2)} = - \sum_ {i = 3} ^ {n} \alpha_ {i} y ^ {(i)}.
+\alpha_{1} y^{(1)} + \alpha_{2} y^{(2)} = - \sum_{i = 3}^{n} \alpha_{i} y^{(i)}.
 $$
 
 Since the right hand side is fixed (as we've fixed  $\alpha_{3},\ldots \alpha_{n}$ ), we can just let it be denoted by some constant  $\zeta$ :
 
 $$
-\alpha_ {1} y ^ {(1)} + \alpha_ {2} y ^ {(2)} = \zeta . \tag {6.22}
+\alpha_{1} y^{(1)} + \alpha_{2} y^{(2)} = \zeta . \tag {6.22}
 $$
 
 We can thus picture the constraints on  $\alpha_{1}$  and  $\alpha_{2}$  as follows:
@@ -1878,13 +1878,13 @@ From the constraints (6.20), we know that  $\alpha_{1}$  and  $\alpha_{2}$  must
 Using Equation (6.22), we can also write  $\alpha_{1}$  as a function of  $\alpha_{2}$ :
 
 $$
-\alpha_ {1} = (\zeta - \alpha_ {2} y ^ {(2)}) y ^ {(1)}.
+\alpha_{1} = (\zeta - \alpha_{2} y^{(2)}) y^{(1)}.
 $$
 
 (Check this derivation yourself; we again used the fact that  $y^{(1)} \in \{-1, 1\}$  so that  $(y^{(1)})^2 = 1$ .) Hence, the objective  $W(\alpha)$  can be written
 
 $$
-W (\alpha_ {1}, \alpha_ {2}, \ldots , \alpha_ {n}) = W ((\zeta - \alpha_ {2} y ^ {(2)}) y ^ {(1)}, \alpha_ {2}, \ldots , \alpha_ {n}).
+W (\alpha_{1}, \alpha_{2}, \ldots , \alpha_{n}) = W ((\zeta - \alpha_{2} y^{(2)}) y^{(1)}, \alpha_{2}, \ldots , \alpha_{n}).
 $$
 
 Treating  $\alpha_{3},\ldots ,\alpha_{n}$  as constants, you should be able to verify that this is just some quadratic function in  $\alpha_{2}$ . I.e., this can also be expressed in the form  $a\alpha_{2}^{2} + b\alpha_{2} + c$  for some appropriate  $a,b$ , and  $c$ . If we ignore the "box" constraints (6.20) (or, equivalently, that  $L\leq \alpha_{2}\leq H$ ), then we can easily maximize this quadratic function by setting its derivative to zero and solving. We'll let  $\alpha_{2}^{new,unclipped}$  denote the resulting value of  $\alpha_{2}$ . You should also be able to convince yourself that if we had instead wanted to maximize  $W$  with respect to  $\alpha_{2}$  but subject to the box constraint, then we can find the resulting value optimal simply by taking  $\alpha_{2}^{new,unclipped}$  and "clipping" it to lie in the
@@ -1892,7 +1892,7 @@ Treating  $\alpha_{3},\ldots ,\alpha_{n}$  as constants, you should be able to v
 $[L,H]$  interval, to get
 
 $$
-\alpha_ {2} ^ {n e w} = \left\{ \begin{array}{l l} H & \mathrm {i f} \alpha_ {2} ^ {n e w, u n c l i p p e d} > H \\ \alpha_ {2} ^ {n e w, u n c l i p p e d} & \mathrm {i f} L \leq \alpha_ {2} ^ {n e w, u n c l i p p e d} \leq H \\ L & \mathrm {i f} \alpha_ {2} ^ {n e w, u n c l i p p e d} <   L \end{array} \right.
+\alpha_{2}^{n e w} = \left\{ \begin{array}{l l} H & \mathrm{if} \alpha_{2}^{n e w, u n c l i p p e d} > H \\ \alpha_{2}^{n e w, u n c l i p p e d} & \mathrm{if} L \leq \alpha_{2}^{n e w, u n c l i p p e d} \leq H \\ L & \mathrm{if} \alpha_{2}^{n e w, u n c l i p p e d} <   L \end{array} \right.
 $$
 
 Finally, having found the  $\alpha_{2}^{new}$ , we can use Equation (6.22) to go back and find the optimal value of  $\alpha_{1}^{new}$ .
@@ -1920,13 +1920,13 @@ Regression problems. For simplicity, we start with the case where the output is 
 $i$ -th example  $(x^{(i)},y^{(i)})$  as
 
 $$
-J ^ {(i)} (\theta) = \frac {1}{2} \left(h _ {\theta} \left(x ^ {(i)}\right) - y ^ {(i)}\right) ^ {2}, \tag {7.1}
+J^{(i)} (\theta) = \frac{1}{2} \left(h_{\theta} \left(x^{(i)}\right) - y^{(i)}\right)^{2}, \tag {7.1}
 $$
 
 and define the mean-square cost function for the dataset as
 
 $$
-J (\theta) = \frac {1}{n} \sum_ {i = 1} ^ {n} J ^ {(i)} (\theta), \tag {7.2}
+J (\theta) = \frac{1}{n} \sum_{i = 1}^{n} J^{(i)} (\theta), \tag {7.2}
 $$
 
 which is same as in linear regression except that we introduce a constant  $1 / n$  in front of the cost function to be consistent with the convention. Note that multiplying the cost function with a scalar will not change the local minima or global minima of the cost function. Also note that the underlying parameterization for  $h_{\theta}(x)$  is different from the case of linear regression, even though the form of the cost function is the same mean-squared loss. Throughout the notes, we use the words "loss" and "cost" interchangeably.
@@ -1934,23 +1934,23 @@ which is same as in linear regression except that we introduce a constant  $1 / 
 Binary classification. Next we define the model and loss function for binary classification. Suppose the inputs  $x \in \mathbb{R}^d$ . Let  $\bar{h}_{\theta}: \mathbb{R}^d \to \mathbb{R}$  be a parameterized model (the analog of  $\theta^\top x$  in logistic linear regression). We call the output  $\bar{h}_{\theta}(x) \in \mathbb{R}$  the logit. Analogous to Section 2.1, we use the logistic function  $g(\cdot)$  to turn the logit  $\bar{h}_{\theta}(x)$  to a probability  $h_{\theta}(x) \in [0,1]$ :
 
 $$
-h _ {\theta} (x) = g \left(\bar {h} _ {\theta} (x)\right) = 1 / \left(1 + \exp \left(- \bar {h} _ {\theta} (x)\right)\right). \tag {7.3}
+h_{\theta} (x) = g \left(\bar {h}_{\theta} (x)\right) = 1 / \left(1 + \exp \left(- \bar {h}_{\theta} (x)\right)\right). \tag {7.3}
 $$
 
 We model the conditional distribution of  $y$  given  $x$  and  $\theta$  by
 
 $$
-P (y = 1 \mid x; \theta) = h _ {\theta} (x)
+P (y = 1 \mid x; \theta) = h_{\theta} (x)
 $$
 
 $$
-P (y = 0 \mid x; \theta) = 1 - h _ {\theta} (x)
+P (y = 0 \mid x; \theta) = 1 - h_{\theta} (x)
 $$
 
 Following the same derivation in Section 2.1 and using the derivation in Remark 2.1.1, the negative likelihood loss function is equal to:
 
 $$
-J ^ {(i)} (\theta) = - \log p \left(y ^ {(i)} \mid x ^ {(i)}; \theta\right) = \ell_ {\text {l o g i s t i c}} \left(\bar {h} _ {\theta} \left(x ^ {(i)}\right), y ^ {(i)}\right) \tag {7.4}
+J^{(i)} (\theta) = - \log p \left(y^{(i)} \mid x^{(i)}; \theta\right) = \ell_{\text{lo gi st ic}} \left(\bar {h}_{\theta} \left(x^{(i)}\right), y^{(i)}\right) \tag {7.4}
 $$
 
 As done in equation (7.2), the total loss function is also defined as the average of the loss function over individual training examples,  $J(\theta) = \frac{1}{n}\sum_{i=1}^{n}J^{(i)}(\theta)$ .
@@ -1958,7 +1958,7 @@ As done in equation (7.2), the total loss function is also defined as the averag
 Multi-class classification. Following Section 2.3, we consider a classification problem where the response variable  $y$  can take on any one of  $k$  values, i.e.  $y \in \{1, 2, \ldots, k\}$ . Let  $\bar{h}_{\theta}: \mathbb{R}^d \to \mathbb{R}^k$  be a parameterized model. We call the outputs  $\bar{h}_{\theta}(x) \in \mathbb{R}^k$  the logits. Each logit corresponds to the prediction for one of the  $k$  classes. Analogous to Section 2.3, we use the softmax function to turn the logits  $\bar{h}_{\theta}(x)$  into a probability vector with non-negative entries that sum up to 1:
 
 $$
-P (y = j \mid x; \theta) = \frac {\exp (\bar {h} _ {\theta} (x) _ {j})}{\sum_ {s = 1} ^ {k} \exp (\bar {h} _ {\theta} (x) _ {s})}, \tag {7.5}
+P (y = j \mid x; \theta) = \frac{\exp (\bar {h}_{\theta} (x)_{j})}{\sum_{s = 1}^{k} \exp (\bar {h}_{\theta} (x)_{s})}, \tag {7.5}
 $$
 
 where  $\bar{h}_{\theta}(x)_s$  denotes the  $s$ -th coordinate of  $\bar{h}_{\theta}(x)$ .
@@ -1966,13 +1966,13 @@ where  $\bar{h}_{\theta}(x)_s$  denotes the  $s$ -th coordinate of  $\bar{h}_{\t
 Similarly to Section 2.3, the loss function for a single training example  $(x^{(i)},y^{(i)})$  is its negative log-likelihood:
 
 $$
-J ^ {(i)} (\theta) = - \log p (y ^ {(i)} \mid x ^ {(i)}; \theta) = - \log \left(\frac {\exp (\bar {h} _ {\theta} (x ^ {(i)}) _ {y ^ {(i)}})}{\sum_ {s = 1} ^ {k} \exp (\bar {h} _ {\theta} (x ^ {(i)}) _ {s})}\right). \qquad (7. 6)
+J^{(i)} (\theta) = - \log p (y^{(i)} \mid x^{(i)}; \theta) = - \log \left(\frac{\exp (\bar {h}_{\theta} (x^{(i)})_{y^{(i)}})}{\sum_{s = 1}^{k} \exp (\bar {h}_{\theta} (x^{(i)})_{s})}\right). \qquad (7. 6)
 $$
 
 Using the notations of Section 2.3, we can simply write in an abstract way:
 
 $$
-J ^ {(i)} (\theta) = \ell_ {\mathrm {c e}} (\bar {h} _ {\theta} (x ^ {(i)}), y ^ {(i)}). \tag {7.7}
+J^{(i)} (\theta) = \ell_{\mathrm{ce}} (\bar {h}_{\theta} (x^{(i)}), y^{(i)}). \tag {7.7}
 $$
 
 The loss function is also defined as the average of the loss function of individual training examples,  $J(\theta) = \frac{1}{n}\sum_{i=1}^{n}J^{(i)}(\theta)$ .
@@ -1982,7 +1982,7 @@ We also note that the approach above can also be generated to any conditional pr
 Optimizers (SGD). Commonly, people use gradient descent (GD), stochastic gradient (SGD), or their variants to optimize the loss function  $J(\theta)$ . GD's update rule can be written as<sup>2</sup>
 
 $$
-\theta := \theta - \alpha \nabla_ {\theta} J (\theta) \tag {7.8}
+\theta := \theta - \alpha \nabla_{\theta} J (\theta) \tag {7.8}
 $$
 
 where  $\alpha > 0$  is often referred to as the learning rate or step size. Next, we introduce a version of the SGD (Algorithm 1), which is lightly different from that in the first lecture notes.
@@ -1995,7 +1995,7 @@ where  $\alpha > 0$  is often referred to as the learning rate or step size. Nex
 4: Sample  $j$  uniformly from  $\{1, \ldots, n\}$ , and update  $\theta$  by
 
 $$
-\theta := \theta - \alpha \nabla_ {\theta} J ^ {(j)} (\theta) \tag {7.9}
+\theta := \theta - \alpha \nabla_{\theta} J^{(j)} (\theta) \tag {7.9}
 $$
 
 Oftentimes computing the gradient of  $B$  examples simultaneously for the parameter  $\theta$  can be faster than computing  $B$  gradients separately due to hardware parallelization. Therefore, a mini-batch version of SGD is most commonly used in deep learning, as shown in Algorithm 2. There are also other variants of the SGD or mini-batch SGD with slightly different sampling schemes.
@@ -2008,7 +2008,7 @@ Oftentimes computing the gradient of  $B$  examples simultaneously for the param
 4: Sample  $B$  examples  $j_1, \ldots, j_B$  (without replacement) uniformly from  $\{1, \ldots, n\}$ , and update  $\theta$  by
 
 $$
-\theta := \theta - \frac {\alpha}{B} \sum_ {k = 1} ^ {B} \nabla_ {\theta} J ^ {(j _ {k})} (\theta) \tag {7.10}
+\theta := \theta - \frac{\alpha}{B} \sum_{k = 1}^{B} \nabla_{\theta} J^{(j_{k})} (\theta) \tag {7.10}
 $$
 
 With these generic algorithms, a typical deep learning model is learned with the following steps. 1. Define a neural network parametrization  $h_{\theta}(x)$ , which we will introduce in Section 7.2, and 2. write the backpropagation algorithm to compute the gradient of the loss function  $J^{(j)}(\theta)$  efficiently, which will be covered in Section 7.4, and 3. run SGD or mini-batch SGD (or other gradient-based optimizers) with the loss function  $J(\theta)$ .
@@ -2026,7 +2026,7 @@ Previously, we fit a straight line to the graph of size vs. housing price. Now, 
 We define a parameterized function  $\bar{h}_{\theta}(x)$  with input  $x$ , parameterized by  $\theta$ , which outputs the price of the house  $y$ . Formally,  $\bar{h}_{\theta}: x \to y$ . Perhaps one of the simplest parametrization would be
 
 $$
-\bar {h} _ {\theta} (x) = \max  (w x + b, 0), \text {w h e r e} \theta = (w, b) \in \mathbb {R} ^ {2} \tag {7.11}
+\bar {h}_{\theta} (x) = \max  (w x + b, 0), \text{wh er e} \theta = (w, b) \in \mathbb {R}^{2} \tag {7.11}
 $$
 
 Here  $\bar{h}_{\theta}(x)$  returns a single value:  $(wx + b)$  or zero, whichever is greater. In the context of neural networks, the function  $\max \{t,0\}$  is called a ReLU (pronounced "ray-lu"), or rectified linear unit, and often denoted by  $\mathrm{ReLU}(t) \triangleq \max \{t,0\}$ .
@@ -2036,7 +2036,7 @@ Generally, a one-dimensional non-linear function that maps  $\mathbb{R}$  to  $\
 When the input  $x \in \mathbb{R}^d$  has multiple dimensions, a neural network with a single neuron can be written as
 
 $$
-\bar {h} _ {\theta} (x) = \operatorname {R e L U} \left(w ^ {\top} x + b\right), \text {w h e r e} w \in \mathbb {R} ^ {d}, b \in \mathbb {R}, \text {a n d} \theta = (w, b) \tag {7.12}
+\bar {h}_{\theta} (x) = \operatorname{Re LU} \left(w^{\top} x + b\right), \text{wh er e} w \in \mathbb {R}^{d}, b \in \mathbb {R}, \text{an d} \theta = (w, b) \tag {7.12}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/deaff77e-cc49-430a-9d27-c4bfb1de5896/1216a5f7cefaa64082d0a55a1cf459e4ed1364308db28ddda521dadec035e800.jpg)  
@@ -2058,21 +2058,21 @@ Figure 7.2: Diagram of a small neural network for predicting housing prices.
 Formally, the input to a neural network is a set of input features  $x_{1}, x_{2}, x_{3}, x_{4}$ . We denote the intermediate variables for "family size", "walkable", and "school quality" by  $a_{1}, a_{2}, a_{3}$  (these  $a_{i}$ 's are often referred to as "hidden units" or "hidden neurons"). We represent each of the  $a_{i}$ 's as a neural network with a single neuron with a subset of  $x_{1}, \ldots, x_{4}$  as inputs. Then as in Figure 7.1, we will have the parameterization:
 
 $$
-a _ {1} = \operatorname {R e L U} \left(\theta_ {1} x _ {1} + \theta_ {2} x _ {2} + \theta_ {3}\right)
+a_{1} = \operatorname{Re LU} \left(\theta_{1} x_{1} + \theta_{2} x_{2} + \theta_{3}\right)
 $$
 
 $$
-a _ {2} = \operatorname {R e L U} \left(\theta_ {4} x _ {3} + \theta_ {5}\right)
+a_{2} = \operatorname{Re LU} \left(\theta_{4} x_{3} + \theta_{5}\right)
 $$
 
 $$
-a _ {3} = \mathrm {R e L U} (\theta_ {6} x _ {3} + \theta_ {7} x _ {4} + \theta_ {8})
+a_{3} = \mathrm{Re LU} (\theta_{6} x_{3} + \theta_{7} x_{4} + \theta_{8})
 $$
 
 where  $(\theta_{1},\dots ,\theta_{8})$  are parameters. Now we represent the final output  $\bar{h}_{\theta}(x)$  as another linear function with  $a_1,a_2,a_3$  as inputs, and we get
 
 $$
-\bar {h} _ {\theta} (x) = \theta_ {9} a _ {1} + \theta_ {1 0} a _ {2} + \theta_ {1 1} a _ {3} + \theta_ {1 2} \tag {7.13}
+\bar {h}_{\theta} (x) = \theta_{9} a_{1} + \theta_{1 0} a_{2} + \theta_{1 1} a_{3} + \theta_{1 2} \tag {7.13}
 $$
 
 where  $\theta$  contains all the parameters  $(\theta_{1},\dots ,\theta_{12})$
@@ -2086,15 +2086,15 @@ neural networks could have 1000 layers, while some modern artificial neural netw
 Two-layer Fully-Connected Neural Networks. We constructed the neural network in equation (7.13) using a significant amount of prior knowledge/belief about how the "family size", "walkable", and "school quality" are determined by the inputs. We implicitly assumed that we know the family size is an important quantity to look at and that it can be determined by only the "size" and "# bedrooms". Such a prior knowledge might not be available for other applications. It would be more flexible and general to have a generic parameterization. A simple way would be to write the intermediate variable  $a_1$  as a function of all  $x_1, \ldots, x_4$ :
 
 $$
-a _ {1} = \operatorname {R e L U} \left(w _ {1} ^ {\top} x + b _ {1}\right), \text {w h e r e} w _ {1} \in \mathbb {R} ^ {4} \text {a n d} b _ {1} \in \mathbb {R} \tag {7.14}
+a_{1} = \operatorname{Re LU} \left(w_{1}^{\top} x + b_{1}\right), \text{wh er e} w_{1} \in \mathbb {R}^{4} \text{an d} b_{1} \in \mathbb {R} \tag {7.14}
 $$
 
 $$
-a _ {2} = \mathrm {R e L U} (w _ {2} ^ {\top} x + b _ {2}), \mathrm {w h e r e} w _ {2} \in \mathbb {R} ^ {4} \mathrm {a n d} b _ {2} \in \mathbb {R}
+a_{2} = \mathrm{Re LU} (w_{2}^{\top} x + b_{2}), \mathrm{wh er e} w_{2} \in \mathbb {R}^{4} \mathrm{an d} b_{2} \in \mathbb {R}
 $$
 
 $$
-a _ {3} = \mathrm {R e L U} (w _ {3} ^ {\top} x + b _ {3}), \mathrm {w h e r e} w _ {3} \in \mathbb {R} ^ {4} \mathrm {a n d} b _ {3} \in \mathbb {R}
+a_{3} = \mathrm{Re LU} (w_{3}^{\top} x + b_{3}), \mathrm{wh er e} w_{3} \in \mathbb {R}^{4} \mathrm{an d} b_{3} \in \mathbb {R}
 $$
 
 We still define  $\bar{h}_{\theta}(x)$  using equation (7.13) with  $a_1, a_2, a_3$  being defined as above. Thus we have a so-called fully-connected neural network because all the intermediate variables  $a_i$ 's depend on all the inputs  $x_i$ 's.
@@ -2102,19 +2102,19 @@ We still define  $\bar{h}_{\theta}(x)$  using equation (7.13) with  $a_1, a_2, a
 For full generality, a two-layer fully-connected neural network with  $m$  hidden units and  $d$  dimensional input  $x \in \mathbb{R}^d$  is defined as
 
 $$
-\forall j \in [ 1, \dots , m ], \quad z _ {j} = w _ {j} ^ {[ 1 ]} ^ {\top} x + b _ {j} ^ {[ 1 ]} \text {w h e r e} w _ {j} ^ {[ 1 ]} \in \mathbb {R} ^ {d}, b _ {j} ^ {[ 1 ]} \in \mathbb {R} \tag {7.15}
+\forall j \in [ 1, \dots , m ], \quad z_{j} = w_{j}^{[ 1 ]}^{\top} x + b_{j}^{[ 1 ]} \text{wh er e} w_{j}^{[ 1 ]} \in \mathbb {R}^{d}, b_{j}^{[ 1 ]} \in \mathbb {R} \tag {7.15}
 $$
 
 $$
-a _ {j} = \operatorname {R e L U} (z _ {j}),
+a_{j} = \operatorname{Re LU} (z_{j}),
 $$
 
 $$
-a = [ a _ {1}, \ldots , a _ {m} ] ^ {\top} \in \mathbb {R} ^ {m}
+a = [ a_{1}, \ldots , a_{m} ] ^ {\top} \in \mathbb {R}^{m}
 $$
 
 $$
-\bar {h} _ {\theta} (x) = w ^ {[ 2 ]} ^ {\top} a + b ^ {[ 2 ]} \text {w h e r e} w ^ {[ 2 ]} \in \mathbb {R} ^ {m}, b ^ {[ 2 ]} \in \mathbb {R}, \tag {7.16}
+\bar {h}_{\theta} (x) = w^{[ 2 ]}^{\top} a + b^{[ 2 ]} \text{wh er e} w^{[ 2 ]} \in \mathbb {R}^{m}, b^{[ 2 ]} \in \mathbb {R}, \tag {7.16}
 $$
 
 Note that by default the vectors in  $\mathbb{R}^d$  are viewed as column vectors, and in particular  $a$  is a column vector with components  $a_1, a_2, \ldots, a_m$ . The indices [1] and [2] are used to distinguish two sets of parameters: the  $w_j^{[1]}$ 's (each of which is a vector in  $\mathbb{R}^d$ ) and  $w^{[2]}$  (which is a vector in  $\mathbb{R}^m$ ). We will have more of these later.
@@ -2128,19 +2128,19 @@ This gave rise to vectorization. Instead of using for loops, vectorization takes
 We vectorize the two-layer fully-connected neural network as below. We define a weight matrix  $W^{[1]}$  in  $\mathbb{R}^{m \times d}$  as the concatenation of all the vectors  $w_{j}^{[1]'}$ 's in the following way:
 
 $$
-W ^ {[ 1 ]} = \left[ \begin{array}{c} - w _ {1} ^ {[ 1 ]} ^ {\top} - \\ - w _ {2} ^ {[ 1 ]} ^ {\top} - \\ \vdots \\ - w _ {m} ^ {[ 1 ]} ^ {\top} - \end{array} \right] \in \mathbb {R} ^ {m \times d} \tag {7.17}
+W^{[ 1 ]} = \left[ \begin{array}{c} - w_{1}^{[ 1 ]}^{\top} - \\ - w_{2}^{[ 1 ]}^{\top} - \\ \vdots \\ - w_{m}^{[ 1 ]}^{\top} - \end{array} \right] \in \mathbb {R}^{m \times d} \tag {7.17}
 $$
 
 Now by the definition of matrix vector multiplication, we can write  $z = [z_1,\dots ,z_m]^\top \in \mathbb{R}^m$  as
 
 $$
-\underbrace {\left[ \begin{array}{c} z _ {1} \\ \vdots \\ \vdots \\ z _ {m} \end{array} \right]} _ {z \in \mathbb {R} ^ {m \times 1}} = \underbrace {\left[ \begin{array}{c} - w _ {1} ^ {[ 1 ]} ^ {\top} - \\ - w _ {2} ^ {[ 1 ]} ^ {\top} - \\ \vdots \\ - w _ {m} ^ {[ 1 ]} ^ {\top} - \end{array} \right]} _ {W ^ {[ 1 ]} \in \mathbb {R} ^ {m \times d}} \underbrace {\left[ \begin{array}{c} x _ {1} \\ x _ {2} \\ \vdots \\ x _ {d} \end{array} \right]} _ {x \in \mathbb {R} ^ {d \times 1}} + \underbrace {\left[ \begin{array}{c} b _ {1} ^ {[ 1 ]} \\ b _ {2} ^ {[ 1 ]} \\ \vdots \\ b _ {m} ^ {[ 1 ]} \end{array} \right]} _ {b ^ {[ 1 ]} \in \mathbb {R} ^ {m \times 1}} \tag {7.18}
+\underbrace {\left[ \begin{array}{c} z_{1} \\ \vdots \\ \vdots \\ z_{m} \end{array} \right]}_{z \in \mathbb {R}^{m \times 1}} = \underbrace {\left[ \begin{array}{c} - w_{1}^{[ 1 ]}^{\top} - \\ - w_{2}^{[ 1 ]}^{\top} - \\ \vdots \\ - w_{m}^{[ 1 ]}^{\top} - \end{array} \right]}_{W^{[ 1 ]} \in \mathbb {R}^{m \times d}} \underbrace {\left[ \begin{array}{c} x_{1} \\ x_{2} \\ \vdots \\ x_{d} \end{array} \right]}_{x \in \mathbb {R}^{d \times 1}} + \underbrace {\left[ \begin{array}{c} b_{1}^{[ 1 ]} \\ b_{2}^{[ 1 ]} \\ \vdots \\ b_{m}^{[ 1 ]} \end{array} \right]}_{b^{[ 1 ]} \in \mathbb {R}^{m \times 1}} \tag {7.18}
 $$
 
 Or succinctly,
 
 $$
-z = W ^ {[ 1 ]} x + b ^ {[ 1 ]} \tag {7.19}
+z = W^{[ 1 ]} x + b^{[ 1 ]} \tag {7.19}
 $$
 
 We remark again that a vector in  $\mathbb{R}^d$  in this notes, following the conventions previously established, is automatically viewed as a column vector, and can
@@ -2150,17 +2150,17 @@ also be viewed as a  $d \times 1$  dimensional matrix. (Note that this is differ
 Computing the activations  $a \in \mathbb{R}^m$  from  $z \in \mathbb{R}^m$  involves an element-wise non-linear application of the ReLU function, which can be computed in parallel efficiently. Overloading ReLU for element-wise application of ReLU (meaning, for a vector  $t \in \mathbb{R}^d$ ,  $\mathrm{ReLU}(t)$  is a vector such that  $\mathrm{ReLU}(t)_i = \mathrm{ReLU}(t_i)$ ), we have
 
 $$
-a = \operatorname {R e L U} (z) \tag {7.20}
+a = \operatorname{Re LU} (z) \tag {7.20}
 $$
 
 Define  $W^{[2]} = [w^{[2]^\top}] \in \mathbb{R}^{1 \times m}$  similarly. Then, the model in equation (7.16) can be summarized as
 
 $$
-a = \operatorname {R e L U} (W ^ {[ 1 ]} x + b ^ {[ 1 ]})
+a = \operatorname{Re LU} (W^{[ 1 ]} x + b^{[ 1 ]})
 $$
 
 $$
-\bar {h} _ {\theta} (x) = W ^ {[ 2 ]} a + b ^ {[ 2 ]} \tag {7.21}
+\bar {h}_{\theta} (x) = W^{[ 2 ]} a + b^{[ 2 ]} \tag {7.21}
 $$
 
 Here  $\theta$  consists of  $W^{[1]}, W^{[2]}$  (often referred to as the weight matrices) and  $b^{[1]}, b^{[2]}$  (referred to as the biases). The collection of  $W^{[1]}, b^{[1]}$  is referred to as the first layer, and  $W^{[2]}, b^{[2]}$  the second layer. The activation  $a$  is referred to as the hidden layer. A two-layer neural network is also called one-hidden-layer neural network.
@@ -2168,11 +2168,11 @@ Here  $\theta$  consists of  $W^{[1]}, W^{[2]}$  (often referred to as the weigh
 Multi-layer fully-connected neural networks. With this succinct notations, we can stack more layers to get a deeper fully-connected neural network. Let  $r$  be the number of layers (weight matrices). Let  $W^{[1]},\ldots ,W^{[r]},b^{[1]},\ldots ,b^{[r]}$  be the weight matrices and biases of all the layers. Then a multi-layer neural network can be written as
 
 $$
-a ^ {[ 1 ]} = \mathrm {R e L U} (W ^ {[ 1 ]} x + b ^ {[ 1 ]})
+a^{[ 1 ]} = \mathrm{Re LU} (W^{[ 1 ]} x + b^{[ 1 ]})
 $$
 
 $$
-a ^ {[ 2 ]} = \operatorname {R e L U} (W ^ {[ 2 ]} a ^ {[ 1 ]} + b ^ {[ 2 ]})
+a^{[ 2 ]} = \operatorname{Re LU} (W^{[ 2 ]} a^{[ 1 ]} + b^{[ 2 ]})
 $$
 
 $$
@@ -2180,11 +2180,11 @@ $$
 $$
 
 $$
-a ^ {[ r - 1 ]} = \operatorname {R e L U} (W ^ {[ r - 1 ]} a ^ {[ r - 2 ]} + b ^ {[ r - 1 ]})
+a^{[ r - 1 ]} = \operatorname{Re LU} (W^{[ r - 1 ]} a^{[ r - 2 ]} + b^{[ r - 1 ]})
 $$
 
 $$
-\bar {h} _ {\theta} (x) = W ^ {[ r ]} a ^ {[ r - 1 ]} + b ^ {[ r ]} \tag {7.22}
+\bar {h}_{\theta} (x) = W^{[ r ]} a^{[ r - 1 ]} + b^{[ r ]} \tag {7.22}
 $$
 
 We note that the weight matrices and biases need to have compatible dimensions for the equations above to make sense. If  $a^{[k]}$  has dimension  $m_{k}$ , then the weight matrix  $W^{[k]}$  should be of dimension  $m_{k} \times m_{k-1}$ , and the bias  $b^{[k]} \in \mathbb{R}^{m_{k}}$ . Moreover,  $W^{[1]} \in \mathbb{R}^{m_{1} \times d}$  and  $W^{[r]} \in \mathbb{R}^{1 \times m_{r-1}}$ .
@@ -2194,7 +2194,7 @@ The total number of neurons in the network is  $m_{1} + \dots + m_{r}$ , and the
 Sometimes for notational consistency we also write  $a^{[0]} = x$ , and  $a^{[r]} = h_{\theta}(x)$ . Then we have simple recursion that
 
 $$
-a ^ {[ k ]} = \mathrm {R e L U} (W ^ {[ k ]} a ^ {[ k - 1 ]} + b ^ {[ k ]}), \forall k = 1, \ldots , r - 1 \tag {7.23}
+a^{[ k ]} = \mathrm{Re LU} (W^{[ k ]} a^{[ k - 1 ]} + b^{[ k ]}), \forall k = 1, \ldots , r - 1 \tag {7.23}
 $$
 
 Note that this would have been true for  $k = r$  if there were an additional ReLU in equation (7.22), but often people like to make the last layer linear (aka without a ReLU) so that negative outputs are possible and it's easier to interpret the last layer as a linear model. (More on the interpretability at the "connection to kernel method" paragraph of this section.)
@@ -2202,23 +2202,23 @@ Note that this would have been true for  $k = r$  if there were an additional Re
 Other activation functions. The activation function ReLU can be replaced by many other non-linear function  $\sigma (\cdot)$  that maps  $\mathbb{R}$  to  $\mathbb{R}$  such as
 
 $$
-\sigma (z) = \frac {1}{1 + e ^ {- z}} \quad (\text {s i g m o i d}) \tag {7.24}
+\sigma (z) = \frac{1}{1 + e^{- z}} \quad (\text{si gm oi d}) \tag {7.24}
 $$
 
 $$
-\sigma (z) = \frac {e ^ {z} - e ^ {- z}}{e ^ {z} + e ^ {- z}} \qquad (\tanh) \qquad \qquad (7. 2 5)
+\sigma (z) = \frac{e^{z} - e^{- z}}{e^{z} + e^{- z}} \qquad (\tanh) \qquad \qquad (7. 2 5)
 $$
 
 $$
-\sigma (z) = \max  \{z, \gamma z \}, \gamma \in (0, 1) \quad (\text {l e a k y R e L U}) \tag {7.26}
+\sigma (z) = \max  \{z, \gamma z \}, \gamma \in (0, 1) \quad (\text{le ak yR eL U}) \tag {7.26}
 $$
 
 $$
-\sigma (z) = \frac {z}{2} \left[ 1 + \operatorname {e r f} (\frac {z}{\sqrt {2}}) \right] \quad \mathrm {(G E L U)} \tag {7.27}
+\sigma (z) = \frac{z}{2} \left[ 1 + \operatorname{er f} (\frac{z}{\sqrt{2}}) \right] \quad \mathrm{(GE LU)} \tag {7.27}
 $$
 
 $$
-\sigma (z) = \frac {1}{\beta} \log (1 + \exp (\beta z)), \beta > 0 \quad \text {(S o f t p l u s)} \tag {7.28}
+\sigma (z) = \frac{1}{\beta} \log (1 + \exp (\beta z)), \beta > 0 \quad \text{(So ft pl us)} \tag {7.28}
 $$
 
 The activation functions are plotted in Figure 7.3. Sigmoid and tanh are less and less used these days partly because their are bounded from both sides and the gradient of them vanishes as  $z$  goes to both positive and negative infinity (whereas all the other activation functions still have gradients as the input goes to positive infinity.) Softplus is not used very often either in practice and can be viewed as a smoothing of the ReLU so that it has a proper second order derivative. GELU and leaky ReLU are both variants of ReLU but they have some non-zero gradient even when the input is negative. GELU (or its slight variant) is used in NLP models such as BERT and GPT (which we will discuss in Chapter 14.)
@@ -2231,7 +2231,7 @@ Figure 7.3: Activation functions in deep learning.
 Suppose  $\sigma (z) = z$ , then for two-layer neural network, we have that
 
 $$
-\begin{array}{l} \bar {h} _ {\theta} (x) = W ^ {[ 2 ]} a ^ {[ 1 ]} (7.29) \\ = W ^ {[ 2 ]} \sigma (z ^ {[ 1 ]}) \quad \text {b y} (7.30) \\ = W ^ {[ 2 ]} z ^ {[ 1 ]} \quad \text {s i n c e} \sigma (z) = z (7.31) \\ = W ^ {[ 2 ]} W ^ {[ 1 ]} x \quad \text {f r o m E q u a t i o n (7 . 1 8)} (7.32) \\ = \tilde {W} x \quad \text {w h e r e} \tilde {W} = W ^ {[ 2 ]} W ^ {[ 1 ]} (7.33) \\ \end{array}
+\begin{array}{l} \bar {h}_{\theta} (x) = W^{[ 2 ]} a^{[ 1 ]} (7.29) \\ = W^{[ 2 ]} \sigma (z^{[ 1 ]}) \quad \text{by} (7.30) \\ = W^{[ 2 ]} z^{[ 1 ]} \quad \text{si nc e} \sigma (z) = z (7.31) \\ = W^{[ 2 ]} W^{[ 1 ]} x \quad \text{fr om Eq ua ti on (7 .1 8)} (7.32) \\ = \tilde {W} x \quad \text{wh er e} \tilde {W} = W^{[ 2 ]} W^{[ 1 ]} (7.33) \\ \end{array}
 $$
 
 Notice how  $W^{[2]}W^{[1]}$  collapsed into  $\tilde{W}$ .
@@ -2245,7 +2245,7 @@ suits the particular applications. The process of choosing the feature maps is o
 We can view deep learning as a way to automatically learn the right feature map (sometimes also referred to as "the representation") as follows. Suppose we denote by  $\beta$  the collection of the parameters in a fully-connected neural networks (equation (7.22)) except those in the last layer. Then we can abstract right  $a^{[r - 1]}$  as a function of the input  $x$  and the parameters in  $\beta$ :  $a^{[r - 1]} = \phi_{\beta}(x)$ . Now we can write the model as
 
 $$
-\bar {h} _ {\theta} (x) = W ^ {[ r ]} \phi_ {\beta} (x) + b ^ {[ r ]} \tag {7.34}
+\bar {h}_{\theta} (x) = W^{[ r ]} \phi_{\beta} (x) + b^{[ r ]} \tag {7.34}
 $$
 
 When  $\beta$  is fixed, then  $\phi_{\beta}(\cdot)$  can be viewed as a feature map, and therefore  $\bar{h}_{\theta}(x)$  is just a linear model over the features  $\phi_{\beta}(x)$ . However, we will train the neural networks, both the parameters in  $\beta$  and the parameters  $W^{[r]}, b^{[r]}$  are optimized, and therefore we are not learning a linear model in the feature space, but also learning a good feature map  $\phi_{\beta}(\cdot)$  itself so that it's possible to predict accurately with a linear model on top of the feature map. Therefore, deep learning tends to depend less on the domain knowledge of the particular applications and requires often less feature engineering. The penultimate layer  $a^{[r]}$  is often (informally) referred to as the learned features or representations in the context of deep learning.
@@ -2261,7 +2261,7 @@ introduce some of the other building blocks and discuss possible ways to combine
 First, each matrix multiplication can be viewed as a building block. Consider a matrix multiplication operation with parameters  $(W,b)$  where  $W$  is the weight matrix and  $b$  is the bias vector, operating on an input  $z$ ,
 
 $$
-\mathrm {M M} _ {W, b} (z) = W z + b. \tag {7.35}
+\mathrm{MM}_{W, b} (z) = W z + b. \tag {7.35}
 $$
 
 Note that we implicitly assume all the dimensions are chosen to be compatible. We will also drop the subscripts under MM when they are clear in the context or just for convenience when they are not essential to the discussion.
@@ -2269,13 +2269,13 @@ Note that we implicitly assume all the dimensions are chosen to be compatible. W
 Then, the MLP can be written as a composition of multiple matrix multiplication modules and nonlinear activation modules (which can also be viewed as a building block):
 
 $$
-\operatorname {M L P} (x) = \operatorname {M M} _ {W ^ {[ r ]}, b ^ {[ r ]}} \left(\sigma \left(\operatorname {M M} _ {W ^ {[ r - 1 ]}, b ^ {[ r - 1 ]}} \left(\sigma \left(\dots \operatorname {M M} _ {W ^ {[ 1 ]}, b ^ {[ 1 ]}} (x)\right)\right)\right)\right). \tag {7.36}
+\operatorname{ML P} (x) = \operatorname{MM}_{W^{[ r ]}, b^{[ r ]}} \left(\sigma \left(\operatorname{MM}_{W^{[ r - 1 ]}, b^{[ r - 1 ]}} \left(\sigma \left(\dots \operatorname{MM}_{W^{[ 1 ]}, b^{[ 1 ]}} (x)\right)\right)\right)\right). \tag {7.36}
 $$
 
 Alternatively, when we drop the subscripts that indicate the parameters for convenience, we can write
 
 $$
-\operatorname {M L P} (x) = \operatorname {M M} (\sigma (\operatorname {M M} \sigma (\dots \operatorname {M M} (x)))) \tag {7.37}
+\operatorname{ML P} (x) = \operatorname{MM} (\sigma (\operatorname{MM} \sigma (\dots \operatorname{MM} (x)))) \tag {7.37}
 $$
 
 Note that in this lecture notes, by default, all the modules have different sets of parameters, and the dimensions of the parameters are chosen such that the composition is meaningful.
@@ -2285,13 +2285,13 @@ Larger modules can be defined via smaller modules as well, e.g., one activation 
 Residual connections. One of the very influential neural network architecture for vision application is ResNet, which uses the residual connections that are essentially used in almost all large-scale deep learning architectures these days. Using our notation above, a very much simplified residual block can be defined as
 
 $$
-\operatorname {R e s} (z) = z + \sigma (\operatorname {M M} (\sigma (\operatorname {M M} (z)))) \tag {7.38}
+\operatorname{Re s} (z) = z + \sigma (\operatorname{MM} (\sigma (\operatorname{MM} (z)))) \tag {7.38}
 $$
 
 A much simplified ResNet is a composition of many residual blocks followed by a matrix multiplication,
 
 $$
-\operatorname {R e s N e t - S} (x) = \operatorname {M M} (\operatorname {R e s} (\operatorname {R e s} (\dots \operatorname {R e s} (x)))) \tag {7.39}
+\operatorname{Re sN et -S} (x) = \operatorname{MM} (\operatorname{Re s} (\operatorname{Re s} (\dots \operatorname{Re s} (x)))) \tag {7.39}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/deaff77e-cc49-430a-9d27-c4bfb1de5896/948559e0620d8446d67093f6b6ee2e6ee61e4d9e5e73d798ab36cd01e24f639b.jpg)  
@@ -2308,7 +2308,7 @@ Layer normalization. Layer normalization, denoted by LN in this text, is a modul
 We first define a sub-module of the layer normalization, denoted by LN-S.
 
 $$
-\operatorname {L N - S} (z) = \left[ \begin{array}{c} \frac {z _ {1} - \hat {\mu}}{\hat {\sigma}} \\ \frac {z _ {2} - \hat {\mu}}{\hat {\sigma}} \\ \vdots \\ \frac {z _ {m} - \hat {\mu}}{\hat {\sigma}} \end{array} \right], \tag {7.40}
+\operatorname{LN -S} (z) = \left[ \begin{array}{c} \frac{z_{1} - \hat {\mu}}{\hat {\sigma}} \\ \frac{z_{2} - \hat {\mu}}{\hat {\sigma}} \\ \vdots \\ \frac{z_{m} - \hat {\mu}}{\hat {\sigma}} \end{array} \right], \tag {7.40}
 $$
 
 where  $\hat{\mu} = \frac{\sum_{i=1}^{m} z_i}{m}$  is the empirical mean of the vector  $z$  and  $\hat{\sigma} = \sqrt{\frac{\sum_{i=1}^{m} (z_i - \hat{\mu}^2)}{m}}$  is the empirical standard deviation of the entries of  $z$ . Intuitively, LN-S(z) is a vector that is normalized to having empirical mean zero and empirical standard deviation 1.
@@ -2316,7 +2316,7 @@ where  $\hat{\mu} = \frac{\sum_{i=1}^{m} z_i}{m}$  is the empirical mean of the 
 Oftentimes zero mean and standard deviation 1 is not the most desired normalization scheme, and thus layernorm introduces to parameters learnable scalars  $\beta$  and  $\gamma$  as the desired mean and standard deviation, and use an affine transformation to turn the output of LN-S  $(z)$  into a vector with mean  $\beta$  and standard deviation  $\gamma$ .
 
 $$
-\mathrm {L N} (z) = \beta + \gamma \cdot \mathrm {L N - S} (z) = \left[ \begin{array}{c} \beta + \gamma \left(\frac {z _ {1} - \hat {\mu}}{\hat {\sigma}}\right) \\ \beta + \gamma \left(\frac {z _ {2} - \hat {\mu}}{\hat {\sigma}}\right) \\ \vdots \\ \beta + \gamma \left(\frac {z _ {m} - \hat {\mu}}{\hat {\sigma}}\right) \end{array} \right]. \tag {7.41}
+\mathrm{LN} (z) = \beta + \gamma \cdot \mathrm{LN -S} (z) = \left[ \begin{array}{c} \beta + \gamma \left(\frac{z_{1} - \hat {\mu}}{\hat {\sigma}}\right) \\ \beta + \gamma \left(\frac{z_{2} - \hat {\mu}}{\hat {\sigma}}\right) \\ \vdots \\ \beta + \gamma \left(\frac{z_{m} - \hat {\mu}}{\hat {\sigma}}\right) \end{array} \right]. \tag {7.41}
 $$
 
 Here the first occurrence of  $\beta$  should be technically interpreted as a vector with all the entries being  $\beta$ . In We also note that  $\hat{\mu}$  and  $\hat{\sigma}$  are also functions of  $z$  and shouldn't be treated as constants when computing the derivatives of layernorm. Moreover,  $\beta$  and  $\gamma$  are learnable parameters and thus layernorm is a parameterized module (as opposed to the activation layer which doesn't have any parameters.)
@@ -2324,19 +2324,19 @@ Here the first occurrence of  $\beta$  should be technically interpreted as a ve
 Scaling-invariant property. One important property of layer normalization is that it will make the model invariant to scaling of the parameters in the following sense. Suppose we consider composing LN with  $\mathrm{MM}_{W,b}$  and get a subnetwork  $\mathrm{LN}(\mathrm{MM}_{W,b}(z))$ . Then, we have that the output of this subnetwork does not change when the parameter in  $\mathrm{MM}_{W,b}$  is scaled:
 
 $$
-\mathrm {L N} (\mathrm {M M} _ {\alpha W, \alpha b} (z)) = \mathrm {L N} (\mathrm {M M} _ {W, b} (z)), \forall \alpha > 0. \tag {7.42}
+\mathrm{LN} (\mathrm{MM}_{\alpha W, \alpha b} (z)) = \mathrm{LN} (\mathrm{MM}_{W, b} (z)), \forall \alpha > 0. \tag {7.42}
 $$
 
 To see this, we first know that LN-S( $\cdot$ ) is scale-invariant
 
 $$
-\operatorname {L N - S} (\alpha z) = \left[ \begin{array}{c} \frac {\alpha z _ {1} - \alpha \hat {\mu}}{\alpha \hat {\sigma}} \\ \frac {\alpha z _ {2} - \alpha \hat {\mu}}{\alpha \hat {\sigma}} \\ \vdots \\ \frac {\alpha z _ {m} - \alpha \hat {\mu}}{\alpha \hat {\sigma}} \end{array} \right] = \left[ \begin{array}{c} \frac {z _ {1} - \hat {\mu}}{\hat {\sigma}} \\ \frac {z _ {2} - \hat {\mu}}{\hat {\sigma}} \\ \vdots \\ \frac {z _ {m} - \hat {\mu}}{\hat {\sigma}} \end{array} \right] = \operatorname {L N - S} (z). \tag {7.43}
+\operatorname{LN -S} (\alpha z) = \left[ \begin{array}{c} \frac{\alpha z_{1} - \alpha \hat {\mu}}{\alpha \hat {\sigma}} \\ \frac{\alpha z_{2} - \alpha \hat {\mu}}{\alpha \hat {\sigma}} \\ \vdots \\ \frac{\alpha z_{m} - \alpha \hat {\mu}}{\alpha \hat {\sigma}} \end{array} \right] = \left[ \begin{array}{c} \frac{z_{1} - \hat {\mu}}{\hat {\sigma}} \\ \frac{z_{2} - \hat {\mu}}{\hat {\sigma}} \\ \vdots \\ \frac{z_{m} - \hat {\mu}}{\hat {\sigma}} \end{array} \right] = \operatorname{LN -S} (z). \tag {7.43}
 $$
 
 Then we have
 
 $$
-\begin{array}{l} \mathrm {L N} \left(\mathrm {M M} _ {\alpha W, \alpha b} (z)\right) = \beta + \gamma \mathrm {L N - S} \left(\mathrm {M M} _ {\alpha W, \alpha b} (z)\right) (7.44) \\ = \beta + \gamma \operatorname {L N} - \mathrm {S} \left(\alpha \mathrm {M M} _ {W, b} (z)\right) (7.45) \\ = \beta + \gamma \mathrm {L N} - \mathrm {S} (\mathrm {M M} _ {W, b} (z)) (7.46) \\ = \operatorname {L N} \left(\operatorname {M M} _ {W, b} (z)\right). (7.47) \\ \end{array}
+\begin{array}{l} \mathrm{LN} \left(\mathrm{MM}_{\alpha W, \alpha b} (z)\right) = \beta + \gamma \mathrm{LN -S} \left(\mathrm{MM}_{\alpha W, \alpha b} (z)\right) (7.44) \\ = \beta + \gamma \operatorname{LN} - \mathrm{S} \left(\alpha \mathrm{MM}_{W, b} (z)\right) (7.45) \\ = \beta + \gamma \mathrm{LN} - \mathrm{S} (\mathrm{MM}_{W, b} (z)) (7.46) \\ = \operatorname{LN} \left(\operatorname{MM}_{W, b} (z)\right). (7.47) \\ \end{array}
 $$
 
 Due to this property, most of the modern DL architectures for large-scale computer vision and language applications have the following scale-invariant
@@ -2350,7 +2350,7 @@ Convolutional Layers. Convolutional Neural Networks are neural networks that con
 We start by introducing a simplified version of the 1-D convolution layer, denoted by Conv1D-S( $\cdot$ ) which is a type of matrix multiplication layer with a special structure. The parameters of Conv1D-S are a filter vector  $w \in \mathbb{R}^k$  where  $k$  is called the filter size (oftentimes  $k \ll m$ ), and a bias scalar  $b$ . Oftentimes the filter is also called a kernel (but it does not have much to do with the kernel in kernel method.) For simplicity, we assume  $k = 2\ell + 1$  is an odd number. We first pad zeros to the input vector  $z$  in the sense that we let  $z_{1 - \ell} = z_{1 - \ell + 1} = .. = z_0 = 0$  and  $z_{m + 1} = z_{m + 2} = .. = z_{m + \ell} = 0$ , and treat  $z$  as an  $(m + 2\ell)$ -dimension vector. Conv1D-S outputs a vector of dimension  $\mathbb{R}^m$  where each output dimension is a linear combination of subsets of  $z_j$ 's with coefficients from  $w$ ,
 
 $$
-\operatorname {C o n v 1 D - S} (z) _ {i} = w _ {1} z _ {i - \ell} + w _ {2} z _ {i - \ell + 1} + \dots + w _ {2 \ell + 1} z _ {i + \ell} = \sum_ {j = 1} ^ {2 \ell + 1} w _ {j} z _ {i - \ell + (j - 1)}. \tag {7.48}
+\operatorname{Co nv 1D -S} (z)_{i} = w_{1} z_{i - \ell} + w_{2} z_{i - \ell + 1} + \dots + w_{2 \ell + 1} z_{i + \ell} = \sum_{j = 1}^{2 \ell + 1} w_{j} z_{i - \ell + (j - 1)}. \tag {7.48}
 $$
 
 Therefore, one can view Conv1D-S as a matrix multiplication with shared
@@ -2358,27 +2358,27 @@ Therefore, one can view Conv1D-S as a matrix multiplication with shared
 parameters: Conv1D-S(z) = Qz, where
 
 $$
-Q = \left[ \begin{array}{c c c c c c c c c c c c} w _ {\ell + 1} & \dots & w _ {2 \ell + 1} & 0 & 0 & \dots & \dots & \dots & \dots & \dots & \dots & 0 \\ w _ {\ell} & \dots & w _ {2 \ell} & w _ {2 \ell + 1} & 0 & \dots & \dots & \dots & \dots & \dots & \dots & 0 \\ \vdots & & & & & & & & & & \\ w _ {1} & \dots & w _ {\ell + 1} & \dots & \dots & \dots & w _ {2 \ell + 1} & 0 & \dots & \dots & \dots & 0 \\ 0 & w _ {1} & \dots & \dots & \dots & \dots & w _ {2 \ell} & w _ {2 \ell + 1} & 0 & \dots & \dots & 0 \\ \vdots & & & & & & & & & \\ \vdots & & & & & & & & & \\ 0 & \dots & \dots & \dots & \dots & \dots & 0 & w _ {1} & \dots & & \dots & w _ {2 \ell + 1} \\ \vdots & & & & & & & \\ 0 & \dots & \dots & \dots & \dots & \dots & \dots & \dots & 0 & w _ {1} & \dots & w _ {\ell + 1} \end{array} \right]. \tag {7.49}
+Q = \left[ \begin{array}{c c c c c c c c c c c c} w_{\ell + 1} & \dots & w_{2 \ell + 1} & 0 & 0 & \dots & \dots & \dots & \dots & \dots & \dots & 0 \\ w_{\ell} & \dots & w_{2 \ell} & w_{2 \ell + 1} & 0 & \dots & \dots & \dots & \dots & \dots & \dots & 0 \\ \vdots & & & & & & & & & & \\ w_{1} & \dots & w_{\ell + 1} & \dots & \dots & \dots & w_{2 \ell + 1} & 0 & \dots & \dots & \dots & 0 \\ 0 & w_{1} & \dots & \dots & \dots & \dots & w_{2 \ell} & w_{2 \ell + 1} & 0 & \dots & \dots & 0 \\ \vdots & & & & & & & & & \\ \vdots & & & & & & & & & \\ 0 & \dots & \dots & \dots & \dots & \dots & 0 & w_{1} & \dots & & \dots & w_{2 \ell + 1} \\ \vdots & & & & & & & \\ 0 & \dots & \dots & \dots & \dots & \dots & \dots & \dots & 0 & w_{1} & \dots & w_{\ell + 1} \end{array} \right]. \tag {7.49}
 $$
 
 Note that  $Q_{i,j} = Q_{i-1,j-1}$  for all  $i,j \in \{2,\dots,m\}$ , and thus convolution is a matrix multiplication with parameter sharing. We also note that computing the convolution only takes  $O(km)$  times but computing a generic matrix multiplication takes  $O(m^2)$  time. Convolution has  $k$  parameters but generic matrix multiplication will have  $m^2$  parameters. Thus convolution is supposed to be much more efficient than a generic matrix multiplication (as long as the additional structure imposed does not hurt the flexibility of the model to fit the data).
 
 We also note that in practice there are many variants of the convolutional layers that we define here, e.g., there are other ways to pad zeros or sometimes the dimension of the output of the convolutional layers could be different from the input. We omit some of this subtleties here for simplicity.
 
-The convolutional layers used in practice have also many "channels" and the simplified version above corresponds to the 1-channel version. Formally, Conv1D takes in  $C$  vectors  $z_{1},\ldots ,z_{C}\in \mathbb{R}^{m}$  as inputs, where  $C$  is referred to as the number of channels. In other words, the more general version, denoted by Conv1D, takes in a matrix as input, which is the concatenation of  $z_{1},\ldots ,z_{C}$  and has dimension  $m\times C$ . It can output  $C^\prime$  vectors of dimension  $m$ , denoted by  $\operatorname {Conv1D}(z)_1,\dots ,\operatorname {Conv1D}(z)_{C'}$ , where  $C^\prime$  is referred to as the output channel, or equivalently a matrix of dimension  $m\times C'$ . Each of the output is a sum of the simplified convolutions applied on various channels.
+The convolutional layers used in practice have also many "channels" and the simplified version above corresponds to the 1-channel version. Formally, Conv1D takes in  $C$  vectors  $z_{1},\ldots ,z_{C}\in \mathbb{R}^{m}$  as inputs, where  $C$  is referred to as the number of channels. In other words, the more general version, denoted by Conv1D, takes in a matrix as input, which is the concatenation of  $z_{1},\ldots ,z_{C}$  and has dimension  $m\times C$ . It can output  $C^\prime$  vectors of dimension  $m$ , denoted by  $\operatorname{Conv1D}(z)_1,\dots ,\operatorname{Conv1D}(z)_{C'}$ , where  $C^\prime$  is referred to as the output channel, or equivalently a matrix of dimension  $m\times C'$ . Each of the output is a sum of the simplified convolutions applied on various channels.
 
 $$
-\forall i \in [ C ^ {\prime} ], \operatorname {C o n v 1 D} (z) _ {i} = \sum_ {j = 1} ^ {C} \operatorname {C o n v 1 D - S} _ {i, j} (z _ {j}). \tag {7.50}
+\forall i \in [ C^{\prime} ], \operatorname{Co nv 1D} (z)_{i} = \sum_{j = 1}^{C} \operatorname{Co nv 1D -S}_{i, j} (z_{j}). \tag {7.50}
 $$
 
-Note that each  $\mathrm{Conv1D - S}_{i,j}$  are modules with different parameters, and thus the total number of parameters is  $k$  (the number of parameters in a Conv1D-S)  $\times CC^{\prime}$  (the number of Conv1D-  $\mathrm{S}_{i,j}$  's)  $= kCC^{\prime}$ . In contrast, a generic linear mapping from  $\mathbb{R}^{m\times C}$  and  $\mathbb{R}^{m\times C^{\prime}}$  has  $m^2 CC^{\prime}$  parameters. The
+Note that each  $\mathrm{Conv1D -S}_{i,j}$  are modules with different parameters, and thus the total number of parameters is  $k$  (the number of parameters in a Conv1D-S)  $\times CC^{\prime}$  (the number of Conv1D-  $\mathrm{S}_{i,j}$  's)  $= kCC^{\prime}$ . In contrast, a generic linear mapping from  $\mathbb{R}^{m\times C}$  and  $\mathbb{R}^{m\times C^{\prime}}$  has  $m^2 CC^{\prime}$  parameters. The
 
 parameters can also be represented as a three-dimensional tensor of dimension  $k \times C \times C'$ .
 
 2-D convolution (brief). A 2-D convolution with one channel, denoted by Conv2D-S, is analogous to the Conv1D-S, but takes a 2-dimensional input  $z \in \mathbb{R}^{m \times m}$  and applies a filter of size  $k \times k$ , and outputs Conv2D-S( $z$ )  $\in \mathbb{R}^{m \times m}$ . The full 2-D convolutional layer, denoted by Conv2D, takes in a sequence of matrices  $z_1, \ldots, z_C \in \mathbb{R}^{m \times m}$ , or equivalently a 3-D tensor  $z = (z_1, \ldots, z_C) \in \mathbb{R}^{m \times m \times C}$  and outputs a sequence of matrices, Conv2D( $z$ ) $_1$ , ..., Conv2D( $z$ ) $_{C'}$ $\in \mathbb{R}^{m \times m}$ , which can also be viewed as a 3D tensor in  $\mathbb{R}^{m \times m \times C'}$ . Each channel of the output is sum of the outcomes of applying Conv2D-S layers on all the input channels.
 
 $$
-\forall i \in [ C ^ {\prime} ], \operatorname {C o n v 2 D} (z) _ {i} = \sum_ {j = 1} ^ {C} \operatorname {C o n v 2 D - S} _ {i, j} (z _ {j}). \tag {7.51}
+\forall i \in [ C^{\prime} ], \operatorname{Co nv 2D} (z)_{i} = \sum_{j = 1}^{C} \operatorname{Co nv 2D -S}_{i, j} (z_{j}). \tag {7.51}
 $$
 
 Because there are  $CC'$  number of Conv2D-S modules and each of the Conv2D-S module has  $k^2$  parameters, the total number of parameters is  $CC'k^2$ . The parameters can also be viewed as a 4D tensor of dimension  $C \times C' \times k \times k$ .
@@ -2412,11 +2412,11 @@ Chain rule. We review the chain rule in calculus but with a perspective and noti
 Consider a scalar variable  $J$  which is obtained by the composition of  $f$  and  $g$  on some variable  $z$ ,
 
 $$
-z \in \mathbb {R} ^ {m}
+z \in \mathbb {R}^{m}
 $$
 
 $$
-u = g (z) \in \mathbb {R} ^ {n}
+u = g (z) \in \mathbb {R}^{n}
 $$
 
 $$
@@ -2426,13 +2426,13 @@ $$
 The same derivations below can be easily extend to the cases when  $z$  and  $u$  are matrices or tensors; but we insist that the final variable  $J$  is a scalar. (See also Remark 7.4.2.) Let  $u = (u_{1},\ldots ,u_{n})$  and let  $g(z) = (g_1(z),\dots ,g_n(z))$ . Then, the standard chain rule gives us that
 
 $$
-\forall i \in \{1, \dots , m \}, \quad \frac {\partial J}{\partial z _ {i}} = \sum_ {j = 1} ^ {n} \frac {\partial J}{\partial u _ {j}} \cdot \frac {\partial g _ {j}}{\partial z _ {i}}. \tag {7.53}
+\forall i \in \{1, \dots , m \}, \quad \frac{\partial J}{\partial z_{i}} = \sum_{j = 1}^{n} \frac{\partial J}{\partial u_{j}} \cdot \frac{\partial g_{j}}{\partial z_{i}}. \tag {7.53}
 $$
 
 Alternatively, when  $z$  and  $u$  are both vectors, in a vectorized notation:
 
 $$
-\frac {\partial J}{\partial z} = \left[ \begin{array}{c c c} \frac {\partial g _ {1}}{\partial z _ {1}} & \dots & \frac {\partial g _ {n}}{\partial z _ {1}} \\ \vdots & \ddots & \vdots \\ \frac {\partial g _ {1}}{\partial z _ {m}} & \dots & \frac {\partial g _ {n}}{\partial z _ {m}} \end{array} \right] \cdot \frac {\partial J}{\partial u}. \tag {7.54}
+\frac{\partial J}{\partial z} = \left[ \begin{array}{c c c} \frac{\partial g_{1}}{\partial z_{1}} & \dots & \frac{\partial g_{n}}{\partial z_{1}} \\ \vdots & \ddots & \vdots \\ \frac{\partial g_{1}}{\partial z_{m}} & \dots & \frac{\partial g_{n}}{\partial z_{m}} \end{array} \right] \cdot \frac{\partial J}{\partial u}. \tag {7.54}
 $$
 
 In other words, the backward function is always a linear map from  $\frac{\partial J}{\partial u}$  to  $\frac{\partial J}{\partial z}$ , though note that the mapping itself can depend on  $z$  in complex ways. The matrix on the RHS of (7.54) is actually the transpose of the Jacobian matrix of the function  $g$ . However, we do not discuss in-depth about Jacobian matrices to avoid complications. Part of the reason is that when  $z$  is a matrix (or tensor), to write an analog of equation (7.54), one has to either flatten  $z$  into a vector or introduce additional notations on tensor-matrix product. In this sense, equation (7.53) is more convenient and effective to use in all cases. For example, when  $z \in \mathbb{R}^{r \times s}$  is a matrix, we can easily rewrite equation (7.53)
@@ -2440,7 +2440,7 @@ In other words, the backward function is always a linear map from  $\frac{\parti
 to
 
 $$
-\forall i, k, \quad \frac {\partial J}{\partial z _ {i k}} = \sum_ {j = 1} ^ {n} \frac {\partial J}{\partial u _ {j}} \cdot \frac {\partial g _ {j}}{\partial z _ {i k}}. \tag {7.55}
+\forall i, k, \quad \frac{\partial J}{\partial z_{i k}} = \sum_{j = 1}^{n} \frac{\partial J}{\partial u_{j}} \cdot \frac{\partial g_{j}}{\partial z_{i k}}. \tag {7.55}
 $$
 
 which will indeed be used in some of the derivations in Section 7.4.3.
@@ -2448,7 +2448,7 @@ which will indeed be used in some of the derivations in Section 7.4.3.
 Key interpretation of the chain rule. We can view the formula above (equation (7.53) or (7.54)) as a way to compute  $\frac{\partial J}{\partial z}$  from  $\frac{\partial J}{\partial u}$ . Consider the following abstract problem. Suppose  $J$  depends on  $z$  via  $u$  as defined in equation (7.52). However, suppose the function  $f$  is not given or the function  $f$  is complex, but we are given the value of  $\frac{\partial J}{\partial u}$ . Then, the formula in equation (7.54) gives us a way to compute  $\frac{\partial J}{\partial z}$  from  $\frac{\partial J}{\partial u}$ .
 
 $$
-\begin{array}{l l} \frac {\partial J}{\partial u} & \xrightarrow [ \text {o n l y r e q u i r e s i n f o a b o u t} g (\cdot) \text {a n d} z ]{\text {c h a i n r u l e , f o r m u l a (7 . 5 4)}} \quad \frac {\partial J}{\partial z}. \end{array} \tag {7.56}
+\begin{array}{l l} \frac{\partial J}{\partial u} & \xrightarrow [ \text{on ly re qu ir es in fo ab ou t} g (\cdot) \text{an d} z ]{\text{ch ai nr ul e ,f or mu la (7 .5 4)}} \quad \frac{\partial J}{\partial z}. \end{array} \tag {7.56}
 $$
 
 Moreover, this formula only involves knowledge about  $g$  (more precisely  $\frac{\partial g_j}{\partial z_i}$ ). We will repeatedly use this fact in situations where  $g$  is a building blocks of a complex network  $f$ .
@@ -2456,19 +2456,19 @@ Moreover, this formula only involves knowledge about  $g$  (more precisely  $\fr
 Empirically, it's often useful to modularize the mapping in (7.53) or (7.54) into a black-box, and mathematically it's also convenient to define a notation for it. $^6$  We use  $\mathcal{B}[g,z]$  to define the function that maps  $\frac{\partial J}{\partial u}$  to  $\frac{\partial J}{\partial z}$ , and write
 
 $$
-\frac {\partial J}{\partial z} = \mathcal {B} [ g, z ] \left(\frac {\partial J}{\partial u}\right). \tag {7.57}
+\frac{\partial J}{\partial z} = \mathcal {B} [ g, z ] \left(\frac{\partial J}{\partial u}\right). \tag {7.57}
 $$
 
 We call  $\mathcal{B}[g,z]$  the backward function for the module  $g$ . Note that when  $z$  is fixed,  $\mathcal{B}[g,z]$  is merely a linear map from  $\mathbb{R}^n$  to  $\mathbb{R}^m$ . Using equation (7.53), we have
 
 $$
-\left(\mathcal {B} [ g, z ] (v)\right) _ {i} = \sum_ {j = 1} ^ {m} \frac {\partial g _ {j}}{\partial z _ {i}} \cdot v _ {j}. \tag {7.58}
+\left(\mathcal {B} [ g, z ] (v)\right)_{i} = \sum_{j = 1}^{m} \frac{\partial g_{j}}{\partial z_{i}} \cdot v_{j}. \tag {7.58}
 $$
 
 Or in vectorized notation, using (7.54), we have
 
 $$
-\mathcal {B} [ g, z ] (v) = \left[ \begin{array}{c c c} \frac {\partial g _ {1}}{\partial z _ {1}} & \dots & \frac {\partial g _ {n}}{\partial z _ {1}} \\ \vdots & \ddots & \vdots \\ \frac {\partial g _ {1}}{\partial z _ {m}} & \dots & \frac {\partial g _ {n}}{\partial z _ {m}} \end{array} \right] \cdot v. \tag {7.59}
+\mathcal {B} [ g, z ] (v) = \left[ \begin{array}{c c c} \frac{\partial g_{1}}{\partial z_{1}} & \dots & \frac{\partial g_{n}}{\partial z_{1}} \\ \vdots & \ddots & \vdots \\ \frac{\partial g_{1}}{\partial z_{m}} & \dots & \frac{\partial g_{n}}{\partial z_{m}} \end{array} \right] \cdot v. \tag {7.59}
 $$
 
 and therefore  $\mathcal{B}[g,z]$  can be viewed as a matrix. However, in reality,  $z$  will be changing and thus the backward mapping has to be recomputed for different  $z$ 's while  $g$  is often fixed. Thus, empirically, the backward function  $\mathcal{B}[g,z](v)$  is often viewed as a function which takes in  $z$  (=the input to  $g$ ) and  $v$  (=a vector that is supposed to be the gradient of some variable  $J$  w.r.t to the output of  $g$ ) as the inputs, and outputs a vector that is supposed to be the gradient of  $J$  w.r.t to  $z$ .
@@ -2478,7 +2478,7 @@ and therefore  $\mathcal{B}[g,z]$  can be viewed as a matrix. However, in realit
 We discuss the general strategy of auto-differentiation in this section to build a high-level understanding. Then, we will instantiate the approach to concrete neural networks. We take the viewpoint that neural networks are complex compositions of small building blocks such as MM,  $\sigma$ , Conv2D, LN, etc., defined in Section 7.3. Note that the losses (e.g., mean-squared loss, or the cross-entropy loss) can also be abstractly viewed as additional modules. Thus, we can abstractly write the loss function  $J$  (on a single example  $(x,y)$ ) as a composition of many modules:
 
 $$
-J = M _ {k} \left(M _ {k - 1} \left(\dots M _ {1} (x)\right)\right). \tag {7.60}
+J = M_{k} \left(M_{k - 1} \left(\dots M_{1} (x)\right)\right). \tag {7.60}
 $$
 
 For example, for a binary classification problem with a MLP  $\bar{h}_{\theta}(x)$  (defined in equation (7.36) and (7.37)), the loss function has been written in the form of equation (7.60) with  $M_{1} = \mathrm{MM}_{W^{[1]},b^{[1}}$ ,  $M_{2} = \sigma$ ,  $M_{3} = \mathrm{MM}_{W^{[2]},b^{[2]}}$ , ..., and  $M_{k-1} = \mathrm{MM}_{W^{[r]},b^{[r]}}$  and  $M_{k} = \ell_{\mathrm{logistic}}$ .
@@ -2490,21 +2490,21 @@ We introduce the intermediate variables for the computation in (7.60).
 Let
 
 $$
-u ^ {[ 0 ]} = x
+u^{[ 0 ]} = x
 $$
 
 $$
-u ^ {[ 1 ]} = M _ {1} (u ^ {[ 0 ]})
+u^{[ 1 ]} = M_{1} (u^{[ 0 ]})
 $$
 
 $$
-u ^ {[ 2 ]} = M _ {2} (u ^ {[ 1 ]})
+u^{[ 2 ]} = M_{2} (u^{[ 1 ]})
 $$
 
 中 中
 
 $$
-J = u ^ {[ k ]} = M _ {k} \left(u ^ {[ k - 1 ]}\right). \tag {F}
+J = u^{[ k ]} = M_{k} \left(u^{[ k - 1 ]}\right). \tag {F}
 $$
 
 Backpropagation consists of two passes, the forward pass and backward pass. In the forward pass, the algorithm simply computes  $u^{[1]}, \ldots, u^{[k]}$  from  $i = 1, \ldots, k$ , sequentially using the definition in (F), and save all the intermediate variables  $u^{[i]}$ 's in the memory.
@@ -2514,19 +2514,19 @@ In the backward pass, we first compute the derivatives w.r.t to the intermediate
 We first see why  $\frac{\partial J}{\partial u^{[i-1]}}$  can be computed efficiently from  $\frac{\partial J}{\partial u^{[i]}}$  and  $u^{[i-1]}$  by invoking the discussion in Section 7.4.1 on the chain rule. We instantiate the discussion by setting  $u = u^{[i]}$  and  $z = u^{[i-1]}$ , and  $f(u) = M_k(M_{k-1}(\dots M_{i+1}(u^{[i]}))$ ), and  $g(\cdot) = M_i(\cdot)$ . Note that  $f$  is very complex but we don't need any concrete information about  $f$ . Then, the conclusive equation (7.56) corresponds to
 
 $$
-\frac {\partial J}{\partial u ^ {[ i ]}} \xrightarrow [ \text {o n l y r e q u i r e s i n f o a b o u t} M _ {i} (\cdot) \text {a n d} u ^ {[ i - 1 ]} ]{\text {c h a i n r u l e}} \quad \frac {\partial J}{\partial u ^ {[ i - 1 ]}}. \tag {7.61}
+\frac{\partial J}{\partial u^{[ i ]}} \xrightarrow [ \text{on ly re qu ir es in fo ab ou t} M_{i} (\cdot) \text{an d} u^{[ i - 1 ]} ]{\text{ch ai nr ul e}} \quad \frac{\partial J}{\partial u^{[ i - 1 ]}}. \tag {7.61}
 $$
 
 More precisely, we can write, following equation (7.57)
 
 $$
-\frac {\partial J}{\partial u ^ {[ i - 1 ]}} = \mathcal {B} \left[ M _ {i}, u ^ {[ i - 1 ]} \right] \left(\frac {\partial J}{\partial u ^ {[ i ]}}\right). \tag {B1}
+\frac{\partial J}{\partial u^{[ i - 1 ]}} = \mathcal {B} \left[ M_{i}, u^{[ i - 1 ]} \right] \left(\frac{\partial J}{\partial u^{[ i ]}}\right). \tag {B1}
 $$
 
 Instantiating the chain rule with  $z = \theta^{[i]}$  and  $u = u^{[i]}$ , we also have
 
 $$
-\frac {\partial J}{\partial \theta^ {[ i ]}} = \mathcal {B} \left[ M _ {i}, \theta^ {[ i ]} \right] \left(\frac {\partial J}{\partial u ^ {[ i ]}}\right). \tag {B2}
+\frac{\partial J}{\partial \theta^{[ i ]}} = \mathcal {B} \left[ M_{i}, \theta^{[ i ]} \right] \left(\frac{\partial J}{\partial u^{[ i ]}}\right). \tag {B2}
 $$
 
 See Figure 7.5 for an illustration of the algorithm.
@@ -2543,31 +2543,31 @@ Using the general strategy in Section 7.4.2, it suffices to compute the backward
 Backward function for MM. Suppose  $\mathrm{MM}_{W,b}(z) = Wz + b$  is a matrix multiplication module where  $z\in \mathbb{R}^m$  and  $W\in \mathbb{R}^{n\times m}$ . Then, using equation (7.59), we have for  $v\in \mathbb{R}^n$
 
 $$
-\mathcal {B} [ \mathrm {M M}, z ] (v) = \left[ \begin{array}{c c c} \frac {\partial (W z + b) _ {1}}{\partial z _ {1}} & \dots & \frac {\partial (W z + b) _ {n}}{\partial z _ {1}} \\ \vdots & \ddots & \vdots \\ \frac {\partial (W z + b) _ {1}}{\partial z _ {m}} & \dots & \frac {\partial (W z + b) _ {n}}{\partial z _ {m}} \end{array} \right] v. \tag {7.62}
+\mathcal {B} [ \mathrm{MM}, z ] (v) = \left[ \begin{array}{c c c} \frac{\partial (W z + b)_{1}}{\partial z_{1}} & \dots & \frac{\partial (W z + b)_{n}}{\partial z_{1}} \\ \vdots & \ddots & \vdots \\ \frac{\partial (W z + b)_{1}}{\partial z_{m}} & \dots & \frac{\partial (W z + b)_{n}}{\partial z_{m}} \end{array} \right] v. \tag {7.62}
 $$
 
 Using the fact that  $\forall i\in [m],j\in [n],\frac{\partial(Wz + b)_j}{\partial z_i} = \frac{\partial b_j + \sum_{k = 1}^mW_{jk}z_k}{\partial z_i} = W_{ji}$ , we have
 
 $$
-\mathcal {B} [ \mathrm {M M}, z ] (v) = W ^ {\top} v \in \mathbb {R} ^ {m}. \tag {7.63}
+\mathcal {B} [ \mathrm{MM}, z ] (v) = W^{\top} v \in \mathbb {R}^{m}. \tag {7.63}
 $$
 
 In the derivation above, we have treated MM as a function of  $z$ . If we treat MM as a function of  $W$  and  $b$ , then we can also compute the backward function for the parameter variables  $W$  and  $b$ . It's less convenient to use equation (7.59) because the variable  $W$  is a matrix and the matrix in (7.59) will be a 4-th order tensor that is challenging for us to mathematically write down. We use (7.58) instead:
 
 $$
-(\mathcal {B} [ \mathrm {M M}, W ] (v)) _ {i j} = \sum_ {k = 1} ^ {m} \frac {\partial (W z + b) _ {k}}{\partial W _ {i j}} \cdot v _ {k} = \sum_ {k = 1} ^ {m} \frac {\partial \sum_ {s = 1} ^ {m} W _ {k s} z _ {s}}{\partial W _ {i j}} \cdot v _ {k} = v _ {i} z _ {j}. \tag {7.64}
+(\mathcal {B} [ \mathrm{MM}, W ] (v))_{i j} = \sum_{k = 1}^{m} \frac{\partial (W z + b)_{k}}{\partial W_{i j}} \cdot v_{k} = \sum_{k = 1}^{m} \frac{\partial \sum_{s = 1}^{m} W_{k s} z_{s}}{\partial W_{i j}} \cdot v_{k} = v_{i} z_{j}. \tag {7.64}
 $$
 
 In vectorized notation, we have
 
 $$
-\mathcal {B} [ \mathrm {M M}, W ] (v) = v z ^ {\top} \in \mathbb {R} ^ {n \times m}. \tag {7.65}
+\mathcal {B} [ \mathrm{MM}, W ] (v) = v z^{\top} \in \mathbb {R}^{n \times m}. \tag {7.65}
 $$
 
 Using equation (7.59) for the variable  $b$ , we have,
 
 $$
-\mathcal {B} [ \mathrm {M M}, b ] (v) = \left[ \begin{array}{c c c} \frac {\partial (W z + b) _ {1}}{\partial b _ {1}} & \dots & \frac {\partial (W z + b) _ {n}}{\partial b _ {1}} \\ \vdots & \ddots & \vdots \\ \frac {\partial (W z + b) _ {1}}{\partial b _ {n}} & \dots & \frac {\partial (W z + b) _ {n}}{\partial b _ {n}} \end{array} \right] v = v. \tag {7.66}
+\mathcal {B} [ \mathrm{MM}, b ] (v) = \left[ \begin{array}{c c c} \frac{\partial (W z + b)_{1}}{\partial b_{1}} & \dots & \frac{\partial (W z + b)_{n}}{\partial b_{1}} \\ \vdots & \ddots & \vdots \\ \frac{\partial (W z + b)_{1}}{\partial b_{n}} & \dots & \frac{\partial (W z + b)_{n}}{\partial b_{n}} \end{array} \right] v = v. \tag {7.66}
 $$
 
 Here we used that  $\frac{\partial(Wz + b)_j}{\partial b_i} = 0$  if  $i \neq j$  and  $\frac{\partial(Wz + b)_j}{\partial b_i} = 1$  if  $i = j$ .
@@ -2577,7 +2577,7 @@ The computational efficiency for computing the backward function is  $O(mn)$ , t
 Backward function for the activations. Suppose  $M(z) = \sigma(z)$  where  $\sigma$  is an element-wise activation function and  $z \in \mathbb{R}^m$ . Then, using equation (7.59), we have
 
 $$
-\begin{array}{l} \mathcal {B} [ \sigma , z ] (v) = \left[ \begin{array}{c c c} \frac {\partial \sigma \left(z _ {1}\right)}{\partial z _ {1}} & \dots & \frac {\partial \sigma \left(z _ {m}\right)}{\partial z _ {1}} \\ \vdots & \ddots & \vdots \\ \frac {\partial \sigma \left(z _ {1}\right)}{\partial z _ {m}} & \dots & \frac {\partial \sigma \left(z _ {m}\right)}{\partial z _ {m}} \end{array} \right] v (7.67) \\ = \operatorname {d i a g} \left(\sigma^ {\prime} \left(z _ {1}\right), \dots , \sigma^ {\prime} \left(z _ {m}\right)\right) v (7.68) \\ = \sigma^ {\prime} (z) \odot v \in \mathbb {R} ^ {m}. (7.69) \\ \end{array}
+\begin{array}{l} \mathcal {B} [ \sigma , z ] (v) = \left[ \begin{array}{c c c} \frac{\partial \sigma \left(z_{1}\right)}{\partial z_{1}} & \dots & \frac{\partial \sigma \left(z_{m}\right)}{\partial z_{1}} \\ \vdots & \ddots & \vdots \\ \frac{\partial \sigma \left(z_{1}\right)}{\partial z_{m}} & \dots & \frac{\partial \sigma \left(z_{m}\right)}{\partial z_{m}} \end{array} \right] v (7.67) \\ = \operatorname{di ag} \left(\sigma^{\prime} \left(z_{1}\right), \dots , \sigma^{\prime} \left(z_{m}\right)\right) v (7.68) \\ = \sigma^{\prime} (z) \odot v \in \mathbb {R}^{m}. (7.69) \\ \end{array}
 $$
 
 Here, we used the fact that  $\frac{\partial\sigma(z_j)}{\partial z_i} = 0$  when  $j\neq i$ ,  $\mathrm{diag}(\lambda_1,\ldots ,\lambda_m)$  denotes the diagonal matrix with  $\lambda_{1},\dots,\lambda_{m}$  on the diagonal, and  $\odot$  denotes the element-wise product of two vectors with the same dimension, and  $\sigma^{\prime}(\cdot)$  is the element-wise application of the derivative of the activation function  $\sigma$ .
@@ -2591,13 +2591,13 @@ Recall that squared loss  $\ell_{\mathrm{MSE}}(z,y) = \frac{1}{2} (z - y)^2$ . T
 For logistics loss, by equation (2.6), we have
 
 $$
-\mathcal {B} [ \ell_ {\text {l o g i s t i c}}, t ] (v) = \frac {\partial \ell_ {\text {l o g i s t i c}} (t , y)}{\partial t} \cdot v = (1 / (1 + \exp (- t)) - y) \cdot v. \tag {7.70}
+\mathcal {B} [ \ell_{\text{lo gi st ic}}, t ] (v) = \frac{\partial \ell_{\text{lo gi st ic}} (t , y)}{\partial t} \cdot v = (1 / (1 + \exp (- t)) - y) \cdot v. \tag {7.70}
 $$
 
 For cross-entropy loss, by equation (2.17), we have
 
 $$
-\mathcal {B} [ \ell_ {\mathrm {c e}}, t ] (v) = \frac {\partial \ell_ {\mathrm {c e}} (t , y)}{\partial t} \cdot v = (\phi - e _ {y}) \cdot v, \tag {7.71}
+\mathcal {B} [ \ell_{\mathrm{ce}}, t ] (v) = \frac{\partial \ell_{\mathrm{ce}} (t , y)}{\partial t} \cdot v = (\phi - e_{y}) \cdot v, \tag {7.71}
 $$
 
 where  $\phi = \mathrm{softmax}(t)$
@@ -2609,47 +2609,47 @@ Given the backward functions for every module needed in evaluating the loss of a
 We consider the an  $r$ -layer MLP with a logistic loss. The loss function can be computed via a sequence of operations (that is, the forward pass),
 
 $$
-z ^ {[ 1 ]} = \operatorname {M M} _ {W ^ {[ 1 ]}, b ^ {[ 1 ]}} (x),
+z^{[ 1 ]} = \operatorname{MM}_{W^{[ 1 ]}, b^{[ 1 ]}} (x),
 $$
 
 $$
-a ^ {[ 1 ]} = \sigma (z ^ {[ 1 ]})
+a^{[ 1 ]} = \sigma (z^{[ 1 ]})
 $$
 
 $$
-z ^ {[ 2 ]} = \mathrm {M M} _ {W ^ {[ 2 ]}, b ^ {[ 2 ]}} (a ^ {[ 1 ]})
+z^{[ 2 ]} = \mathrm{MM}_{W^{[ 2 ]}, b^{[ 2 ]}} (a^{[ 1 ]})
 $$
 
 $$
-a ^ {[ 2 ]} = \sigma (z ^ {[ 2 ]})
+a^{[ 2 ]} = \sigma (z^{[ 2 ]})
 $$
 
 中
 
 $$
-\begin{array}{l} z ^ {[ r ]} = \mathrm {M M} _ {W ^ {[ r ]}, b ^ {[ r ]}} (a ^ {[ r - 1 ]}) \\ J = \ell_ {\text {l o g i s t i c}} \left(z ^ {[ r ]}, y\right). \tag {7.72} \\ \end{array}
+\begin{array}{l} z^{[ r ]} = \mathrm{MM}_{W^{[ r ]}, b^{[ r ]}} (a^{[ r - 1 ]}) \\ J = \ell_{\text{lo gi st ic}} \left(z^{[ r ]}, y\right). \tag {7.72} \\ \end{array}
 $$
 
 We apply the backward function sequentially in a backward order. First, we have that
 
 $$
-\frac {\partial J}{\partial z ^ {[ r ]}} = \mathcal {B} \left[ \ell_ {\text {l o g i s t i c}}, z ^ {[ r ]} \right] \left(\frac {\partial J}{\partial J}\right) = \mathcal {B} \left[ \ell_ {\text {l o g i s t i c}}, z ^ {[ r ]} \right] (1). \tag {7.73}
+\frac{\partial J}{\partial z^{[ r ]}} = \mathcal {B} \left[ \ell_{\text{lo gi st ic}}, z^{[ r ]} \right] \left(\frac{\partial J}{\partial J}\right) = \mathcal {B} \left[ \ell_{\text{lo gi st ic}}, z^{[ r ]} \right] (1). \tag {7.73}
 $$
 
 Then, we iteratively compute  $\frac{\partial J}{\partial a^{[i]}}$  and  $\frac{\partial J}{\partial z^{[i]}}$ 's by repeatedly invoking the chain rule (equation (7.58)),
 
 $$
-\frac {\partial J}{\partial a ^ {[ r - 1 ]}} = \mathcal {B} [ \mathrm {M M}, a ^ {[ r - 1 ]} ] \left(\frac {\partial J}{\partial z ^ {[ r ]}}\right)
+\frac{\partial J}{\partial a^{[ r - 1 ]}} = \mathcal {B} [ \mathrm{MM}, a^{[ r - 1 ]} ] \left(\frac{\partial J}{\partial z^{[ r ]}}\right)
 $$
 
 $$
-\frac {\partial J}{\partial z ^ {[ r - 1 ]}} = \mathcal {B} [ \sigma , z ^ {[ r - 1 ]} ] \left(\frac {\partial J}{\partial a ^ {[ r - 1 ]}}\right)
+\frac{\partial J}{\partial z^{[ r - 1 ]}} = \mathcal {B} [ \sigma , z^{[ r - 1 ]} ] \left(\frac{\partial J}{\partial a^{[ r - 1 ]}}\right)
 $$
 
 ：
 
 $$
-\frac {\partial J}{\partial z ^ {[ 1 ]}} = \mathcal {B} [ \sigma , z ^ {[ 1 ]} ] \left(\frac {\partial J}{\partial a ^ {[ 1 ]}}\right). \tag {7.74}
+\frac{\partial J}{\partial z^{[ 1 ]}} = \mathcal {B} [ \sigma , z^{[ 1 ]} ] \left(\frac{\partial J}{\partial a^{[ 1 ]}}\right). \tag {7.74}
 $$
 
 Numerically, we compute these quantities by repeatedly invoking equations (7.69) and (7.63) with different choices of variables.
@@ -2659,21 +2659,21 @@ We note that the intermediate values of  $a^{[i]}$  and  $z^{[i]}$  are used in 
 Next, we compute the gradient of the parameters by invoking equations (7.65) and (7.66),
 
 $$
-\frac {\partial J}{\partial W ^ {[ r ]}} = \mathcal {B} [ \mathrm {M M}, W ^ {[ r ]} ] \left(\frac {\partial J}{\partial z ^ {[ r ]}}\right)
+\frac{\partial J}{\partial W^{[ r ]}} = \mathcal {B} [ \mathrm{MM}, W^{[ r ]} ] \left(\frac{\partial J}{\partial z^{[ r ]}}\right)
 $$
 
 $$
-\frac {\partial J}{\partial b ^ {[ r ]}} = \mathcal {B} [ \mathrm {M M}, b ^ {[ r ]} ] \left(\frac {\partial J}{\partial z ^ {[ r ]}}\right)
+\frac{\partial J}{\partial b^{[ r ]}} = \mathcal {B} [ \mathrm{MM}, b^{[ r ]} ] \left(\frac{\partial J}{\partial z^{[ r ]}}\right)
 $$
 
 中
 
 $$
-\frac {\partial J}{\partial W ^ {[ 1 ]}} = \mathcal {B} [ \mathrm {M M}, W ^ {[ 1 ]} ] \left(\frac {\partial J}{\partial z ^ {[ 1 ]}}\right)
+\frac{\partial J}{\partial W^{[ 1 ]}} = \mathcal {B} [ \mathrm{MM}, W^{[ 1 ]} ] \left(\frac{\partial J}{\partial z^{[ 1 ]}}\right)
 $$
 
 $$
-\frac {\partial J}{\partial b ^ {[ 1 ]}} = \mathcal {B} [ \mathrm {M M}, b ^ {[ 1 ]} ] \left(\frac {\partial J}{\partial z ^ {[ 1 ]}}\right). \tag {7.75}
+\frac{\partial J}{\partial b^{[ 1 ]}} = \mathcal {B} [ \mathrm{MM}, b^{[ 1 ]} ] \left(\frac{\partial J}{\partial z^{[ 1 ]}}\right). \tag {7.75}
 $$
 
 We also note that the block of computations in equations (7.75) can be interleaved with the block of computation in equations (7.74) because the  $\frac{\partial J}{\partial W^{[i]}}$  and  $\frac{\partial J}{\partial b^{[i]}}$  can be computed as soon as  $\frac{\partial J}{\partial z^{[i]}}$  is computed.
@@ -2686,28 +2686,28 @@ Algorithm 3 Back-propagation for multi-layer neural networks.
 2: Backward pass. Compute the gradient of loss  $J$  with respect to  $z^{[r]}$ :
 
 $$
-\frac {\partial J}{\partial z ^ {[ r ]}} = \mathcal {B} \left[ \ell_ {\text {l o g i s t i c}}, z ^ {[ r ]} \right] (1) = \left(1 / \left(1 + \exp \left(- z ^ {[ r ]}\right)\right) - y\right). \tag {7.76}
+\frac{\partial J}{\partial z^{[ r ]}} = \mathcal {B} \left[ \ell_{\text{lo gi st ic}}, z^{[ r ]} \right] (1) = \left(1 / \left(1 + \exp \left(- z^{[ r ]}\right)\right) - y\right). \tag {7.76}
 $$
 
 3: for  $k = r - 1$  to 0 do  
 4: Compute the gradient with respect to parameters  $W^{[k + 1]}$  and  $b^{[k + 1]}$ .
 
 $$
-\begin{array}{l} \frac {\partial J}{\partial W ^ {[ k + 1 ]}} = \mathcal {B} [ \mathrm {M M}, W ^ {[ k + 1 ]} ] \left(\frac {\partial J}{\partial z ^ {[ k + 1 ]}}\right) \\ = \frac {\partial J}{\partial z ^ {[ k + 1 ]}} a ^ {[ k ] ^ {\top}}. \tag {7.77} \\ \end{array}
+\begin{array}{l} \frac{\partial J}{\partial W^{[ k + 1 ]}} = \mathcal {B} [ \mathrm{MM}, W^{[ k + 1 ]} ] \left(\frac{\partial J}{\partial z^{[ k + 1 ]}}\right) \\ = \frac{\partial J}{\partial z^{[ k + 1 ]}} a^{[ k ] ^ {\top}}. \tag {7.77} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \frac {\partial J}{\partial b ^ {[ k + 1 ]}} = \mathcal {B} [ \mathrm {M M}, b ^ {[ k + 1 ]} ] \left(\frac {\partial J}{\partial z ^ {[ k + 1 ]}}\right) \\ = \frac {\partial J}{\partial z ^ {[ k + 1 ]}}. \tag {7.78} \\ \end{array}
+\begin{array}{l} \frac{\partial J}{\partial b^{[ k + 1 ]}} = \mathcal {B} [ \mathrm{MM}, b^{[ k + 1 ]} ] \left(\frac{\partial J}{\partial z^{[ k + 1 ]}}\right) \\ = \frac{\partial J}{\partial z^{[ k + 1 ]}}. \tag {7.78} \\ \end{array}
 $$
 
 5: When  $k \geq 1$ , compute the gradient with respect to  $z^{[k]}$  and  $a^{[k]}$ .
 
 $$
-\begin{array}{l} \frac {\partial J}{\partial a ^ {[ k ]}} = \mathcal {B} [ \sigma , a ^ {[ k ]} ] \left(\frac {\partial J}{\partial z ^ {[ k + 1 ]}}\right) \\ = W ^ {[ k + 1 ]} ^ {\top} \frac {\partial J}{\partial z ^ {[ k + 1 ]}}. \tag {7.79} \\ \end{array}
+\begin{array}{l} \frac{\partial J}{\partial a^{[ k ]}} = \mathcal {B} [ \sigma , a^{[ k ]} ] \left(\frac{\partial J}{\partial z^{[ k + 1 ]}}\right) \\ = W^{[ k + 1 ]}^{\top} \frac{\partial J}{\partial z^{[ k + 1 ]}}. \tag {7.79} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \frac {\partial J}{\partial z ^ {[ k ]}} = \mathcal {B} [ \sigma , z ^ {[ k ]} ] \left(\frac {\partial J}{\partial a ^ {[ k ]}}\right) \\ = \sigma^ {\prime} \left(z ^ {[ k ]}\right) \odot \frac {\partial J}{\partial a ^ {[ k ]}}. \tag {7.80} \\ \end{array}
+\begin{array}{l} \frac{\partial J}{\partial z^{[ k ]}} = \mathcal {B} [ \sigma , z^{[ k ]} ] \left(\frac{\partial J}{\partial a^{[ k ]}}\right) \\ = \sigma^{\prime} \left(z^{[ k ]}\right) \odot \frac{\partial J}{\partial a^{[ k ]}}. \tag {7.80} \\ \end{array}
 $$
 
 # 7.5 Vectorization over training examples
@@ -2719,33 +2719,33 @@ training examples in matrix notation.
 The basic idea. The basic idea is simple. Suppose you have a training set with three examples  $x^{(1)}, x^{(2)}, x^{(3)}$ . The first-layer activations for each example are as follows:
 
 $$
-z ^ {[ 1 ] (1)} = W ^ {[ 1 ]} x ^ {(1)} + b ^ {[ 1 ]}
+z^{[ 1 ] (1)} = W^{[ 1 ]} x^{(1)} + b^{[ 1 ]}
 $$
 
 $$
-z ^ {[ 1 ] (2)} = W ^ {[ 1 ]} x ^ {(2)} + b ^ {[ 1 ]}
+z^{[ 1 ] (2)} = W^{[ 1 ]} x^{(2)} + b^{[ 1 ]}
 $$
 
 $$
-z ^ {[ 1 ] (3)} = W ^ {[ 1 ]} x ^ {(3)} + b ^ {[ 1 ]}
+z^{[ 1 ] (3)} = W^{[ 1 ]} x^{(3)} + b^{[ 1 ]}
 $$
 
 Note the difference between square brackets  $[\cdot]$ , which refer to the layer number, and parenthesis  $(\cdot)$ , which refer to the training example number. Intuitively, one would implement this using a for loop. It turns out, we can vectorize these operations as well. First, define:
 
 $$
-X = \left[ \begin{array}{c c c} | & | & | \\ x ^ {(1)} & x ^ {(2)} & x ^ {(3)} \\ | & | & | \end{array} \right] \in \mathbb {R} ^ {d \times 3} \tag {7.81}
+X = \left[ \begin{array}{c c c} | & | & | \\ x^{(1)} & x^{(2)} & x^{(3)} \\ | & | & | \end{array} \right] \in \mathbb {R}^{d \times 3} \tag {7.81}
 $$
 
 Note that we are stacking training examples in columns and not rows. We can then combine this into a single unified formulation:
 
 $$
-Z ^ {[ 1 ]} = \left[ \begin{array}{c c c} | & | & | \\ z ^ {[ 1 ] (1)} & z ^ {[ 1 ] (2)} & z ^ {[ 1 ] (3)} \\ | & | & | \end{array} \right] = W ^ {[ 1 ]} X + b ^ {[ 1 ]} \tag {7.82}
+Z^{[ 1 ]} = \left[ \begin{array}{c c c} | & | & | \\ z^{[ 1 ] (1)} & z^{[ 1 ] (2)} & z^{[ 1 ] (3)} \\ | & | & | \end{array} \right] = W^{[ 1 ]} X + b^{[ 1 ]} \tag {7.82}
 $$
 
 You may notice that we are attempting to add  $b^{[1]} \in \mathbb{R}^{4 \times 1}$  to  $W^{[1]}X \in \mathbb{R}^{4 \times 3}$ . Strictly following the rules of linear algebra, this is not allowed. In practice however, this addition is performed using broadcasting. We create an intermediate  $\tilde{b}^{[1]} \in \mathbb{R}^{4 \times 3}$ :
 
 $$
-\tilde {b} ^ {[ 1 ]} = \left[ \begin{array}{c c c} | & | & | \\ b ^ {[ 1 ]} & b ^ {[ 1 ]} & b ^ {[ 1 ]} \\ | & | & | \end{array} \right] \tag {7.83}
+\tilde {b}^{[ 1 ]} = \left[ \begin{array}{c c c} | & | & | \\ b^{[ 1 ]} & b^{[ 1 ]} & b^{[ 1 ]} \\ | & | & | \end{array} \right] \tag {7.83}
 $$
 
 We can then perform the computation:  $Z^{[1]} = W^{[1]}X + \tilde{b}^{[1]}$ . Often times, it is not necessary to explicitly construct  $\tilde{b}^{[1]}$ . By inspecting the dimensions in (7.82), you can assume  $b^{[1]} \in \mathbb{R}^{4 \times 1}$  is correctly broadcast to  $W^{[1]}X \in \mathbb{R}^{4 \times 3}$ .
@@ -2755,7 +2755,7 @@ The matricization approach as above can easily generalize to multiple layers, wi
 Complications/Subtlety in the Implementation. All the deep learning packages or implementations put the data points in the rows of a data matrix. (If the data point itself is a matrix or tensor, then the data are concentrated along the zero-th dimension.) However, most of the deep learning papers use a similar notation to these notes where the data points are treated as column vectors.<sup>8</sup> There is a simple conversion to deal with the mismatch: in the implementation, all the columns become row vectors, row vectors become column vectors, all the matrices are transposed, and the orders of the matrix multiplications are flipped. In the example above, using the row major convention, the data matrix is  $X \in \mathbb{R}^{3 \times d}$ , the first layer weight matrix has dimensionality  $d \times m$  (instead of  $m \times d$  as in the two layer neural net section), and the bias vector  $b^{[1]} \in \mathbb{R}^{1 \times m}$ . The computation for the hidden activation becomes
 
 $$
-Z ^ {[ 1 ]} = X W ^ {[ 1 ]} + b ^ {[ 1 ]} \in \mathbb {R} ^ {3 \times m} \tag {7.84}
+Z^{[ 1 ]} = X W^{[ 1 ]} + b^{[ 1 ]} \in \mathbb {R}^{3 \times m} \tag {7.84}
 $$
 
 # Part III
@@ -2771,7 +2771,7 @@ This chapter discusses tools to analyze and understand the generalization of mac
 However, minimizing the training loss is not our ultimate goal—it is merely our approach towards the goal of learning a predictive model. The most important evaluation metric of a model is the loss on unseen test examples, which is oftentimes referred to as the test error. Formally, we sample a test example  $(x,y)$  from the so-called test distribution  $\mathcal{D}$ , and measure the model's error on it, by, e.g., the mean squared error,  $(h_{\theta}(x) - y)^2$ . The expected loss/errort over the randomness of the test example is called the test loss/error, $^1$
 
 $$
-L (\theta) = \mathbb {E} _ {(x, y) \sim \mathcal {D}} [ (y - h _ {\theta} (x)) ^ {2} ] \tag {8.1}
+L (\theta) = \mathbb {E}_{(x, y) \sim \mathcal {D}} [ (y - h_{\theta} (x))^{2} ] \tag {8.1}
 $$
 
 Note that the measurement of the error involves computing the expectation, and in practice, it can be approximated by the average error on many sampled test examples, which are referred to as the test dataset. Note that the key difference here between training and test datasets is that the test examples
@@ -2856,7 +2856,7 @@ To formally state the bias-variance tradeoff for regression problems, we conside
 - Take a test example  $(x, y)$  such that  $y = h^{\star}(x) + \xi$  where  $\xi \sim N(0, \sigma^2)$ , and measure the expected test error (averaged over the random draw of the training set  $S$  and the randomness of  $\xi$ )<sup>56</sup>
 
 $$
-\operatorname {M S E} (x) = \mathbb {E} _ {S, \xi} [ (y - h _ {S} (x)) ^ {2} ] \tag {8.2}
+\operatorname{MS E} (x) = \mathbb {E}_{S, \xi} [ (y - h_{S} (x))^{2} ] \tag {8.2}
 $$
 
 We will decompose the MSE into a bias and variance term. We start by stating a following simple mathematical tool that will be used twice below.
@@ -2870,7 +2870,7 @@ The proof of the claim follows from expanding the square:  $\mathbb{E}[(A + B)^2
 Using Claim 8.1.1 with  $A = \xi$  and  $B = h^{\star}(x) - \hat{h}_S(x)$ , we have
 
 $$
-\begin{array}{l} \operatorname {M S E} (x) = \mathbb {E} \left[ \left(y - h _ {S} (x)\right) ^ {2} \right] = \mathbb {E} \left[ \left(\xi + \left(h ^ {\star} (x) - h _ {S} (x)\right)\right) ^ {2} \right] (8.3) \\ = \mathbb {E} [ \xi^ {2} ] + \mathbb {E} [ (h ^ {\star} (x) - h _ {S} (x)) ^ {2} ] \quad (\text {b y}) \\ = \sigma^ {2} + \mathbb {E} \left[ \left(h ^ {\star} (x) - h _ {S} (x)\right) ^ {2} \right] (8.4) \\ \end{array}
+\begin{array}{l} \operatorname{MS E} (x) = \mathbb {E} \left[ \left(y - h_{S} (x)\right)^{2} \right] = \mathbb {E} \left[ \left(\xi + \left(h^{\star} (x) - h_{S} (x)\right)\right)^{2} \right] (8.3) \\ = \mathbb {E} [ \xi^{2} ] + \mathbb {E} [ (h^{\star} (x) - h_{S} (x))^{2} ] \quad (\text{by}) \\ = \sigma^{2} + \mathbb {E} \left[ \left(h^{\star} (x) - h_{S} (x)\right)^{2} \right] (8.4) \\ \end{array}
 $$
 
 Then, let's define  $h_{\mathrm{avg}}(x) = \mathbb{E}_S[h_S(x)]$  as the "average model"—the model obtained by drawing an infinite number of datasets, training on them, and averaging their predictions on  $x$ . Note that  $h_{\mathrm{avg}}$  is a hypothetical model for analytical purposes that can not be obtained in reality (because we don't
@@ -2880,7 +2880,7 @@ have infinite number of datasets). It turns out that for many cases,  $h_{\mathr
 We can further decompose  $\mathrm{MSE}(x)$  by letting  $c = h^{\star}(x) - h_{\mathrm{avg}}(x)$  (which is a constant that does not depend on the choice of  $S!$ ) and  $A = h_{\mathrm{avg}}(x) - h_S(x)$  in the corollary part of Claim 8.1.1:
 
 $$
-\begin{array}{l} \operatorname {M S E} (x) = \sigma^ {2} + \mathbb {E} \left[ \left(h ^ {\star} (x) - h _ {S} (x)\right) ^ {2} \right] (8.5) \\ = \sigma^ {2} + \left(h ^ {\star} (x) - h _ {\text {a v g}} (x)\right) ^ {2} + \mathbb {E} \left[ \left(h _ {\text {a v g}} - h _ {S} (x)\right) ^ {2} \right] (8.6) \\ = \underbrace {\sigma^ {2}} _ {\text {u n a v o i d a b l e}} + \underbrace {(h ^ {\star} (x) - h _ {\operatorname {a v g}} (x)) ^ {2}} _ {\triangleq \text {b i a s} ^ {2}} + \underbrace {\operatorname {v a r} \left(h _ {S} (x)\right)} _ {\triangleq \text {v a r i a n c e}} (8.7) \\ \end{array}
+\begin{array}{l} \operatorname{MS E} (x) = \sigma^{2} + \mathbb {E} \left[ \left(h^{\star} (x) - h_{S} (x)\right)^{2} \right] (8.5) \\ = \sigma^{2} + \left(h^{\star} (x) - h_{\text{av g}} (x)\right)^{2} + \mathbb {E} \left[ \left(h_{\text{av g}} - h_{S} (x)\right)^{2} \right] (8.6) \\ = \underbrace {\sigma^{2}}_{\text{un av oi da bl e}} + \underbrace {(h^{\star} (x) - h_{\operatorname{av g}} (x))^{2}}_{\triangleq \text{bi as}^{2}} + \underbrace {\operatorname{va r} \left(h_{S} (x)\right)}_{\triangleq \text{va ri an ce}} (8.7) \\ \end{array}
 $$
 
 We call the second term the bias (square) and the third term the variance. As discussed before, the bias captures the part of the error that are introduced due to the lack of expressivity of the model. Recall that  $h_{\mathrm{avg}}$  can be thought of as the best possible model learned even with infinite data. Thus, the bias is not due to the lack of data, but is rather caused by that the family of models fundamentally cannot approximate the  $h^{\star}$ . For example, in the illustrating example in Figure 8.2, because any linear model cannot approximate the true quadratic function  $h^{\star}$ , neither can  $h_{\mathrm{avg}}$ , and thus the bias term has to be large.
@@ -2937,7 +2937,7 @@ We start with two simple but very useful lemmas.
 Lemma. (The union bound). Let  $A_1, A_2, \ldots, A_k$  be  $k$  different events (that may not be independent). Then
 
 $$
-P (A _ {1} \cup \dots \cup A _ {k}) \leq P (A _ {1}) + \dots + P (A _ {k}).
+P (A_{1} \cup \dots \cup A_{k}) \leq P (A_{1}) + \dots + P (A_{k}).
 $$
 
 In probability theory, the union bound is usually stated as an axiom (and thus we won't try to prove it), but it also makes intuitive sense: The probability of any one of  $k$  events happening is at most the sum of the probabilities of the  $k$  different events.
@@ -2945,7 +2945,7 @@ In probability theory, the union bound is usually stated as an axiom (and thus w
 Lemma. (Hoeffding inequality) Let  $Z_{1}, \ldots, Z_{n}$  be  $n$  independent and identically distributed (iid) random variables drawn from a Bernoulli  $(\phi)$  distribution. I.e.,  $P(Z_{i} = 1) = \phi$ , and  $P(Z_{i} = 0) = 1 - \phi$ . Let  $\hat{\phi} = (1/n)\sum_{i=1}^{n}Z_{i}$  be the mean of these random variables, and let any  $\gamma > 0$  be fixed. Then
 
 $$
-P (| \phi - \hat {\phi} | > \gamma) \leq 2 \exp (- 2 \gamma^ {2} n)
+P (| \phi - \hat {\phi} | > \gamma) \leq 2 \exp (- 2 \gamma^{2} n)
 $$
 
 This lemma (which in learning theory is also called the Chernoff bound) says that if we take  $\hat{\phi}$ —the average of  $n$  Bernoulli  $(\phi)$  random variables—to be our estimate of  $\phi$ , then the probability of our being far from the true value is small, so long as  $n$  is large. Another way of saying this is that if you have a biased coin whose chance of landing on heads is  $\phi$ , then if you toss it  $n$
@@ -2959,13 +2959,13 @@ To simplify our exposition, let's restrict our attention to binary classificatio
 We assume we are given a training set  $S = \{(x^{(i)},y^{(i)});i = 1,\dots ,n\}$  of size  $n$ , where the training examples  $(x^{(i)},y^{(i)})$  are drawn iid from some probability distribution  $\mathcal{D}$ . For a hypothesis  $h$ , we define the training error (also called the empirical risk or empirical error in learning theory) to be
 
 $$
-\hat {\varepsilon} (h) = \frac {1}{n} \sum_ {i = 1} ^ {n} 1 \{h (x ^ {(i)}) \neq y ^ {(i)} \}.
+\hat {\varepsilon} (h) = \frac{1}{n} \sum_{i = 1}^{n} 1 \{h (x^{(i)}) \neq y^{(i)} \}.
 $$
 
 This is just the fraction of training examples that  $h$  misclassifies. When we want to make explicit the dependence of  $\hat{\varepsilon}(h)$  on the training set  $S$ , we may also write this a  $\hat{\varepsilon}_S(h)$ . We also define the generalization error to be
 
 $$
-\varepsilon (h) = P _ {(x, y) \sim \mathcal {D}} (h (x) \neq y).
+\varepsilon (h) = P_{(x, y) \sim \mathcal {D}} (h (x) \neq y).
 $$
 
 I.e. this is the probability that, if we now draw a new example  $(x,y)$  from the distribution  $\mathcal{D}$ ,  $h$  will misclassify it.
@@ -2975,7 +2975,7 @@ Note that we have assumed that the training data was drawn from the same distrib
 Consider the setting of linear classification, and let  $h_{\theta}(x) = 1\{\theta^T x \geq 0\}$ . What's a reasonable way of fitting the parameters  $\theta$ ? One approach is to try to minimize the training error, and pick
 
 $$
-\hat {\theta} = \arg \min _ {\theta} \hat {\varepsilon} (h _ {\theta}).
+\hat {\theta} = \arg \min_{\theta} \hat {\varepsilon} (h_{\theta}).
 $$
 
 We call this process empirical risk minimization (ERM), and the resulting hypothesis output by the learning algorithm is  $\hat{h} = h_{\hat{\theta}}$ . We think of ERM as the most "basic" learning algorithm, and it will be this algorithm that we
@@ -2987,7 +2987,7 @@ In our study of learning theory, it will be useful to abstract away from the spe
 Empirical risk minimization can now be thought of as a minimization over the class of functions  $\mathcal{H}$ , in which the learning algorithm picks the hypothesis:
 
 $$
-\hat {h} = \arg \min _ {h \in \mathcal {H}} \hat {\varepsilon} (h)
+\hat {h} = \arg \min_{h \in \mathcal {H}} \hat {\varepsilon} (h)
 $$
 
 # 8.3.2 The case of finite  $\mathcal{H}$
@@ -3001,7 +3001,7 @@ Take any one, fixed,  $h_i \in \mathcal{H}$ . Consider a Bernoulli random variab
 We see that the misclassification probability on a randomly drawn example—that is,  $\varepsilon(h)$ —is exactly the expected value of  $Z$  (and  $Z_j$ ). Moreover, the training error can be written
 
 $$
-\hat {\varepsilon} (h _ {i}) = \frac {1}{n} \sum_ {j = 1} ^ {n} Z _ {j}.
+\hat {\varepsilon} (h_{i}) = \frac{1}{n} \sum_{j = 1}^{n} Z_{j}.
 $$
 
 Thus,  $\hat{\varepsilon}(h_i)$  is exactly the mean of the  $n$  random variables  $Z_j$  that are drawn iid from a Bernoulli distribution with mean  $\varepsilon(h_i)$ . Hence, we can apply the
@@ -3009,19 +3009,19 @@ Thus,  $\hat{\varepsilon}(h_i)$  is exactly the mean of the  $n$  random variabl
 Hoeffding inequality, and obtain
 
 $$
-P (| \varepsilon (h _ {i}) - \hat {\varepsilon} (h _ {i}) | > \gamma) \leq 2 \exp (- 2 \gamma^ {2} n).
+P (| \varepsilon (h_{i}) - \hat {\varepsilon} (h_{i}) | > \gamma) \leq 2 \exp (- 2 \gamma^{2} n).
 $$
 
 This shows that, for our particular  $h_i$ , training error will be close to generalization error with high probability, assuming  $n$  is large. But we don't just want to guarantee that  $\varepsilon(h_i)$  will be close to  $\hat{\varepsilon}(h_i)$  (with high probability) for just only one particular  $h_i$ . We want to prove that this will be true simultaneously for all  $h \in \mathcal{H}$ . To do so, let  $A_i$  denote the event that  $|\varepsilon(h_i) - \hat{\varepsilon}(h_i)| > \gamma$ . We've already shown that, for any particular  $A_i$ , it holds true that  $P(A_i) \leq 2\exp(-2\gamma^2n)$ . Thus, using the union bound, we have that
 
 $$
-\begin{array}{l} P (\exists h \in \mathcal {H}. | \varepsilon (h _ {i}) - \hat {\varepsilon} (h _ {i}) | > \gamma) = P \left(A _ {1} \cup \dots \cup A _ {k}\right) \\ \leq \sum_ {i = 1} ^ {k} P (A _ {i}) \\ \leq \sum_ {i = 1} ^ {k} 2 \exp (- 2 \gamma^ {2} n) \\ = 2 k \exp (- 2 \gamma^ {2} n) \\ \end{array}
+\begin{array}{l} P (\exists h \in \mathcal {H}. | \varepsilon (h_{i}) - \hat {\varepsilon} (h_{i}) | > \gamma) = P \left(A_{1} \cup \dots \cup A_{k}\right) \\ \leq \sum_{i = 1}^{k} P (A_{i}) \\ \leq \sum_{i = 1}^{k} 2 \exp (- 2 \gamma^{2} n) \\ = 2 k \exp (- 2 \gamma^{2} n) \\ \end{array}
 $$
 
 If we subtract both sides from 1, we find that
 
 $$
-\begin{array}{l} P (\neg \exists h \in \mathcal {H}. | \varepsilon (h _ {i}) - \hat {\varepsilon} (h _ {i}) | > \gamma) = P (\forall h \in \mathcal {H}. | \varepsilon (h _ {i}) - \hat {\varepsilon} (h _ {i}) | \leq \gamma) \\ \geq 1 - 2 k \exp (- 2 \gamma^ {2} n) \\ \end{array}
+\begin{array}{l} P (\neg \exists h \in \mathcal {H}. | \varepsilon (h_{i}) - \hat {\varepsilon} (h_{i}) | > \gamma) = P (\forall h \in \mathcal {H}. | \varepsilon (h_{i}) - \hat {\varepsilon} (h_{i}) | \leq \gamma) \\ \geq 1 - 2 k \exp (- 2 \gamma^{2} n) \\ \end{array}
 $$
 
 (The “ $\neg$ ” symbol means “not.”) So, with probability at least  $1 - 2k\exp(-2\gamma^2n)$ , we have that  $\varepsilon(h)$  will be within  $\gamma$  of  $\hat{\varepsilon}(h)$  for all  $h \in \mathcal{H}$ . This is called a uniform convergence result, because this is a bound that holds simultaneously for all (as opposed to just one)  $h \in \mathcal{H}$ .
@@ -3031,7 +3031,7 @@ In the discussion above, what we did was, for particular values of  $n$  and  $\
 For instance, we can ask the following question: Given  $\gamma$  and some  $\delta > 0$ , how large must  $n$  be before we can guarantee that with probability at least  $1 - \delta$ , training error will be within  $\gamma$  of generalization error? By setting  $\delta = 2k\exp(-2\gamma^2 n)$  and solving for  $n$ , [you should convince yourself this is the right thing to do!), we find that if
 
 $$
-n \geq \frac {1}{2 \gamma^ {2}} \log \frac {2 k}{\delta},
+n \geq \frac{1}{2 \gamma^{2}} \log \frac{2 k}{\delta},
 $$
 
 then with probability at least  $1 - \delta$ , we have that  $|\varepsilon(h) - \hat{\varepsilon}(h)| \leq \gamma$  for all  $h \in \mathcal{H}$ . (Equivalently, this shows that the probability that  $|\varepsilon(h) - \hat{\varepsilon}(h)| > \gamma$  for some  $h \in \mathcal{H}$  is at most  $\delta$ .) This bound tells us how many training examples we need in order to make a guarantee. The training set size  $n$  that a certain method or algorithm requires in order to achieve a certain level of performance is also called the algorithm's sample complexity.
@@ -3041,7 +3041,7 @@ The key property of the bound above is that the number of training examples need
 Similarly, we can also hold  $n$  and  $\delta$  fixed and solve for  $\gamma$  in the previous equation, and show [again, convince yourself that this is right!] that with probability  $1 - \delta$ , we have that for all  $h \in \mathcal{H}$ ,
 
 $$
-| \hat {\varepsilon} (h) - \varepsilon (h) | \leq \sqrt {\frac {1}{2 n} \log \frac {2 k}{\delta}}.
+| \hat {\varepsilon} (h) - \varepsilon (h) | \leq \sqrt{\frac{1}{2 n} \log \frac{2 k}{\delta}}.
 $$
 
 Now, let's assume that uniform convergence holds, i.e., that  $|\varepsilon(h) - \hat{\varepsilon}(h)| \leq \gamma$  for all  $h \in \mathcal{H}$ . What can we prove about the generalization of our learning algorithm that picked  $\hat{h} = \arg \min_{h \in \mathcal{H}} \hat{\varepsilon}(h)$ ?
@@ -3049,7 +3049,7 @@ Now, let's assume that uniform convergence holds, i.e., that  $|\varepsilon(h) -
 Define  $h^* = \arg \min_{h \in \mathcal{H}} \varepsilon(h)$  to be the best possible hypothesis in  $\mathcal{H}$ . Note that  $h^*$  is the best that we could possibly do given that we are using  $\mathcal{H}$ , so it makes sense to compare our performance to that of  $h^*$ . We have:
 
 $$
-\begin{array}{l} \varepsilon (\hat {h}) \leq \hat {\varepsilon} (\hat {h}) + \gamma \\ \leq \hat {\varepsilon} (h ^ {*}) + \gamma \\ \leq \varepsilon \left(h ^ {*}\right) + 2 \gamma \\ \end{array}
+\begin{array}{l} \varepsilon (\hat {h}) \leq \hat {\varepsilon} (\hat {h}) + \gamma \\ \leq \hat {\varepsilon} (h^{*}) + \gamma \\ \leq \varepsilon \left(h^{*}\right) + 2 \gamma \\ \end{array}
 $$
 
 The first line used the fact that  $|\varepsilon(\hat{h}) - \hat{\varepsilon}(\hat{h})| \leq \gamma$  (by our uniform convergence assumption). The second used the fact that  $\hat{h}$  was chosen to minimize  $\hat{\varepsilon}(h)$ , and hence  $\hat{\varepsilon}(\hat{h}) \leq \hat{\varepsilon}(h)$  for all  $h$ , and in particular  $\hat{\varepsilon}(\hat{h}) \leq \hat{\varepsilon}(h^*)$ . The third line used the uniform convergence assumption again, to show that  $\hat{\varepsilon}(h^*) \leq \varepsilon(h^*) + \gamma$ . So, what we've shown is the following: If uniform convergence occurs, then the generalization error of  $\hat{h}$  is at most  $2\gamma$  worse than the best possible hypothesis in  $\mathcal{H}$ !
@@ -3059,7 +3059,7 @@ Let's put all this together into a theorem.
 Theorem. Let  $|\mathcal{H}| = k$ , and let any  $n, \delta$  be fixed. Then with probability at least  $1 - \delta$ , we have that
 
 $$
-\varepsilon (\hat {h}) \leq \left(\min _ {h \in \mathcal {H}} \varepsilon (h)\right) + 2 \sqrt {\frac {1}{2 n} \log \frac {2 k}{\delta}}.
+\varepsilon (\hat {h}) \leq \left(\min_{h \in \mathcal {H}} \varepsilon (h)\right) + 2 \sqrt{\frac{1}{2 n} \log \frac{2 k}{\delta}}.
 $$
 
 This is proved by letting  $\gamma$  equal the  $\sqrt{\cdot}$  term, using our previous argument that uniform convergence occurs with probability at least  $1 - \delta$ , and then noting that uniform convergence implies  $\varepsilon(h)$  is at most  $2\gamma$  higher than  $\varepsilon(h^{*}) = \min_{h \in \mathcal{H}} \varepsilon(h)$  (as we showed previously).
@@ -3071,7 +3071,7 @@ By holding  $\gamma$  and  $\delta$  fixed and solving for  $n$  like we did bef
 Corollary. Let  $|\mathcal{H}| = k$ , and let any  $\delta, \gamma$  be fixed. Then for  $\varepsilon(\hat{h}) \leq \min_{h \in \mathcal{H}} \varepsilon(h) + 2\gamma$  to hold with probability at least  $1 - \delta$ , it suffices that
 
 $$
-\begin{array}{l} n \geq \frac {1}{2 \gamma^ {2}} \log \frac {2 k}{\delta} \\ = O \left(\frac {1}{\gamma^ {2}} \log \frac {k}{\delta}\right), \\ \end{array}
+\begin{array}{l} n \geq \frac{1}{2 \gamma^{2}} \log \frac{2 k}{\delta} \\ = O \left(\frac{1}{\gamma^{2}} \log \frac{k}{\delta}\right), \\ \end{array}
 $$
 
 # 8.3.3 The case of infinite  $\mathcal{H}$
@@ -3133,13 +3133,13 @@ The following theorem, due to Vapnik, can then be shown. (This is, many would ar
 Theorem. Let  $\mathcal{H}$  be given, and let  $\mathbf{D} = \mathrm{VC}(\mathcal{H})$ . Then with probability at least  $1 - \delta$ , we have that for all  $h \in \mathcal{H}$ ,
 
 $$
-| \varepsilon (h) - \hat {\varepsilon} (h) | \leq O \left(\sqrt {\frac {\mathbf {D}}{n} \log \frac {n}{\mathbf {D}} + \frac {1}{n} \log \frac {1}{\delta}}\right).
+| \varepsilon (h) - \hat {\varepsilon} (h) | \leq O \left(\sqrt{\frac{\mathbf {D}}{n} \log \frac{n}{\mathbf {D}} + \frac{1}{n} \log \frac{1}{\delta}}\right).
 $$
 
 Thus, with probability at least  $1 - \delta$ , we also have that:
 
 $$
-\varepsilon (\hat {h}) \leq \varepsilon (h ^ {*}) + O \left(\sqrt {\frac {\mathbf {D}}{n} \log \frac {n}{\mathbf {D}} + \frac {1}{n} \log \frac {1}{\delta}}\right).
+\varepsilon (\hat {h}) \leq \varepsilon (h^{*}) + O \left(\sqrt{\frac{\mathbf {D}}{n} \log \frac{n}{\mathbf {D}} + \frac{1}{n} \log \frac{1}{\delta}}\right).
 $$
 
 In other words, if a hypothesis class has finite VC dimension, then uniform convergence occurs as  $n$  becomes large. As before, this allows us to give a bound on  $\varepsilon(h)$  in terms of  $\varepsilon(h^*)$ . We also have the following corollary:
@@ -3159,7 +3159,7 @@ Recall that as discussed in Section 8.1, overfitting is typically a result of us
 Regularization typically involves adding an additional term, called a regularizer and denoted by  $R(\theta)$  here, to the training loss/cost function:
 
 $$
-J _ {\lambda} (\theta) = J (\theta) + \lambda R (\theta) \tag {9.1}
+J_{\lambda} (\theta) = J (\theta) + \lambda R (\theta) \tag {9.1}
 $$
 
 Here  $J_{\lambda}$  is often called the regularized loss, and  $\lambda \geq 0$  is called the regularization parameter. The regularizer  $R(\theta)$  is a nonnegative function (in almost all cases). In classical methods,  $R(\theta)$  is purely a function of the parameter  $\theta$ , but some modern approach allows  $R(\theta)$  to depend on the training dataset.<sup>1</sup>
@@ -3171,7 +3171,7 @@ model complexity (a small  $R(\theta)$ ). The balance between the two objectives
 The most commonly used regularization is perhaps  $\ell_2$  regularization, where  $R(\theta) = \frac{1}{2}\|\theta\|_2^2$ . It encourages the optimizer to find a model with small  $\ell_2$  norm. In deep learning, it's oftentimes referred to as weight decay, because gradient descent with learning rate  $\eta$  on the regularized loss  $R_{\lambda}(\theta)$  is equivalent to shrinking/decaying  $\theta$  by a scalar factor of  $1 - \eta\lambda$  and then applying the standard gradient
 
 $$
-\begin{array}{l} \theta \leftarrow \theta - \eta \nabla J _ {\lambda} (\theta) = \theta - \eta \lambda \theta - \eta \nabla J (\theta) \\ = \underbrace {(1 - \lambda \eta) \theta} _ {\text {d e c a y i n g w e i g h t s}} - \eta \nabla J (\theta) \tag {9.2} \\ \end{array}
+\begin{array}{l} \theta \leftarrow \theta - \eta \nabla J_{\lambda} (\theta) = \theta - \eta \lambda \theta - \eta \nabla J (\theta) \\ = \underbrace {(1 - \lambda \eta) \theta}_{\text{de ca yi ng we ig ht s}} - \eta \nabla J (\theta) \tag {9.2} \\ \end{array}
 $$
 
 Besides encouraging simpler models, regularization can also impose inductive biases or structures on the model parameters. For example, suppose we had a prior belief that the number of non-zeros in the ground-truth model parameters is small,[2]—which is oftentimes called sparsity of the model—, we can impose a regularization on the number of non-zeros in  $\theta$ , denoted by  $\| \theta \|_0$ , to leverage such a prior belief. Imposing additional structure of the parameters narrows our search space and makes the complexity of the model family smaller,—e.g., the family of sparse models can be thought of as having lower complexity than the family of all models—and thus tends to lead to a better generalization. On the other hand, imposing additional structure may risk increasing the bias. For example, if we regularize the sparsity strongly but no sparse models can predict the label accurately, we will suffer from large bias (analogously to the situation when we use linear models to learn data than can only be represented by quadratic functions in Section 8.1.)
@@ -3260,7 +3260,7 @@ In this section, we will talk about one more tool in our arsenal for our battle 
 At the beginning of the quarter, we talked about parameter fitting using maximum likelihood estimation (MLE), and chose our parameters according to
 
 $$
-\theta_ {\mathrm {M L E}} = \arg \max _ {\theta} \prod_ {i = 1} ^ {n} p (y ^ {(i)} | x ^ {(i)}; \theta).
+\theta_{\mathrm{ML E}} = \arg \max_{\theta} \prod_{i = 1}^{n} p (y^{(i)} | x^{(i)}; \theta).
 $$
 
 Throughout our subsequent discussions, we viewed  $\theta$  as an unknown parameter of the world. This view of the  $\theta$  as being constant-valued but unknown is taken in frequentist statistics. In the frequentist this view of the world,  $\theta$  is not random—it just happens to be unknown—and it's our job to come up with statistical procedures (such as maximum likelihood) to try to estimate this parameter.
@@ -3268,7 +3268,7 @@ Throughout our subsequent discussions, we viewed  $\theta$  as an unknown parame
 An alternative way to approach our parameter estimation problems is to take the Bayesian view of the world, and think of  $\theta$  as being a random variable whose value is unknown. In this approach, we would specify a prior distribution  $p(\theta)$  on  $\theta$  that expresses our "prior beliefs" about the parameters. Given a training set  $S = \{(x^{(i)},y^{(i)})\}_{i = 1}^n$ , when we are asked to make a prediction on a new value of  $x$ , we can then compute the posterior distribution on the parameters
 
 $$
-\begin{array}{l} p (\theta | S) = \frac {p (S | \theta) p (\theta)}{p (S)} \\ = \frac {\left(\prod_ {i = 1} ^ {n} p \left(y ^ {(i)} \mid x ^ {(i)} , \theta\right)\right) p (\theta)}{\int_ {\theta} \left(\prod_ {i = 1} ^ {n} p \left(y ^ {(i)} \mid x ^ {(i)} , \theta\right) p (\theta)\right) d \theta} \tag {9.3} \\ \end{array}
+\begin{array}{l} p (\theta | S) = \frac{p (S | \theta) p (\theta)}{p (S)} \\ = \frac{\left(\prod_{i = 1}^{n} p \left(y^{(i)} \mid x^{(i)} , \theta\right)\right) p (\theta)}{\int_{\theta} \left(\prod_{i = 1}^{n} p \left(y^{(i)} \mid x^{(i)} , \theta\right) p (\theta)\right) d \theta} \tag {9.3} \\ \end{array}
 $$
 
 In the equation above,  $p(y^{(i)}|x^{(i)},\theta)$  comes from whatever model you're using
@@ -3278,13 +3278,13 @@ for your learning problem. For example, if you are using Bayesian logistic regre
 When we are given a new test example  $x$  and asked to make it prediction on it, we can compute our posterior distribution on the class label using the posterior distribution on  $\theta$ :
 
 $$
-p (y | x, S) = \int_ {\theta} p (y | x, \theta) p (\theta | S) d \theta \tag {9.4}
+p (y | x, S) = \int_{\theta} p (y | x, \theta) p (\theta | S) d \theta \tag {9.4}
 $$
 
 In the equation above,  $p(\theta | S)$  comes from Equation (9.3). Thus, for example, if the goal is to the predict the expected value of  $y$  given  $x$ , then we would output<sup>8</sup>
 
 $$
-\operatorname {E} [ y | x, S ] = \int_ {y} y p (y | x, S) d y
+\operatorname{E} [ y | x, S ] = \int_{y} y p (y | x, S) d y
 $$
 
 The procedure that we've outlined here can be thought of as doing "fully Bayesian" prediction, where our prediction is computed by taking an average with respect to the posterior  $p(\theta | S)$  over  $\theta$ . Unfortunately, in general it is computationally very difficult to compute this posterior distribution. This is because it requires taking integrals over the (usually high-dimensional)  $\theta$  as in Equation (9.3), and this typically cannot be done in closed-form.
@@ -3292,7 +3292,7 @@ The procedure that we've outlined here can be thought of as doing "fully Bayesia
 Thus, in practice we will instead approximate the posterior distribution for  $\theta$ . One common approximation is to replace our posterior distribution for  $\theta$  (as in Equation 9.4) with a single point estimate. The MAP (maximum a posteriori) estimate for  $\theta$  is given by
 
 $$
-\theta_ {\mathrm {M A P}} = \arg \max  _ {\theta} \prod_ {i = 1} ^ {n} p \left(y ^ {(i)} \mid x ^ {(i)}, \theta\right) p (\theta). \tag {9.5}
+\theta_{\mathrm{MA P}} = \arg \max_{\theta} \prod_{i = 1}^{n} p \left(y^{(i)} \mid x^{(i)}, \theta\right) p (\theta). \tag {9.5}
 $$
 
 Note that this is the same formulas as for the MLE (maximum likelihood) estimate for  $\theta$ , except for the prior  $p(\theta)$  term at the end.
@@ -3317,13 +3317,13 @@ The  $k$ -means clustering algorithm is as follows:
 For every  $i$ , set
 
 $$
-c ^ {(i)} := \arg \min _ {j} | | x ^ {(i)} - \mu_ {j} | | ^ {2}.
+c^{(i)} := \arg \min_{j} | | x^{(i)} - \mu_{j} | | ^ {2}.
 $$
 
 For each  $j$ , set
 
 $$
-\mu_ {j} := \frac {\sum_ {i = 1} ^ {n} 1 \{c ^ {(i)} = j \} x ^ {(i)}}{\sum_ {i = 1} ^ {n} 1 \{c ^ {(i)} = j \}}.
+\mu_{j} := \frac{\sum_{i = 1}^{n} 1 \{c^{(i)} = j \} x^{(i)}}{\sum_{i = 1}^{n} 1 \{c^{(i)} = j \}}.
 $$
 
 }
@@ -3350,7 +3350,7 @@ Figure 10.1: K-means algorithm. Training examples are shown as dots, and cluster
 Is the  $k$ -means algorithm guaranteed to converge? Yes it is, in a certain sense. In particular, let us define the distortion function to be:
 
 $$
-J (c, \mu) = \sum_ {i = 1} ^ {n} | | x ^ {(i)} - \mu_ {c ^ {(i)}} | | ^ {2}
+J (c, \mu) = \sum_{i = 1}^{n} | | x^{(i)} - \mu_{c^{(i)}} | | ^ {2}
 $$
 
 Thus,  $J$  measures the sum of squared distances between each training example  $x^{(i)}$  and the cluster centroid  $\mu_{c^{(i)}}$  to which it has been assigned. It can be shown that  $k$ -means is exactly coordinate descent on  $J$ . Specifically, the inner-loop of  $k$ -means repeatedly minimizes  $J$  with respect to  $c$  while holding  $\mu$  fixed, and then minimizes  $J$  with respect to  $\mu$  while holding  $c$  fixed. Thus,
@@ -3374,7 +3374,7 @@ We wish to model the data by specifying a joint distribution  $p(x^{(i)},z^{(i)}
 The parameters of our model are thus  $\phi, \mu$  and  $\Sigma$ . To estimate them, we can write down the likelihood of our data:
 
 $$
-\begin{array}{l} \ell (\phi , \mu , \Sigma) = \sum_ {i = 1} ^ {n} \log p (x ^ {(i)}; \phi , \mu , \Sigma) \\ = \sum_ {i = 1} ^ {n} \log \sum_ {z ^ {(i)} = 1} ^ {k} p (x ^ {(i)} | z ^ {(i)}; \mu , \Sigma) p (z ^ {(i)}; \phi). \\ \end{array}
+\begin{array}{l} \ell (\phi , \mu , \Sigma) = \sum_{i = 1}^{n} \log p (x^{(i)}; \phi , \mu , \Sigma) \\ = \sum_{i = 1}^{n} \log \sum_{z^{(i)} = 1}^{k} p (x^{(i)} | z^{(i)}; \mu , \Sigma) p (z^{(i)}; \phi). \\ \end{array}
 $$
 
 However, if we set to zero the derivatives of this formula with respect to
@@ -3384,21 +3384,21 @@ the parameters and try to solve, we'll find that it is not possible to find the 
 The random variables  $z^{(i)}$  indicate which of the  $k$  Gaussians each  $x^{(i)}$  had come from. Note that if we knew what the  $z^{(i)}$ 's were, the maximum likelihood problem would have been easy. Specifically, we could then write down the likelihood as
 
 $$
-\ell (\phi , \mu , \Sigma) = \sum_ {i = 1} ^ {n} \log p (x ^ {(i)} | z ^ {(i)}; \mu , \Sigma) + \log p (z ^ {(i)}; \phi).
+\ell (\phi , \mu , \Sigma) = \sum_{i = 1}^{n} \log p (x^{(i)} | z^{(i)}; \mu , \Sigma) + \log p (z^{(i)}; \phi).
 $$
 
 Maximizing this with respect to  $\phi$ ,  $\mu$  and  $\Sigma$  gives the parameters:
 
 $$
-\phi_ {j} = \frac {1}{n} \sum_ {i = 1} ^ {n} 1 \{z ^ {(i)} = j \},
+\phi_{j} = \frac{1}{n} \sum_{i = 1}^{n} 1 \{z^{(i)} = j \},
 $$
 
 $$
-\mu_ {j} = \frac {\sum_ {i = 1} ^ {n} 1 \{z ^ {(i)} = j \} x ^ {(i)}}{\sum_ {i = 1} ^ {n} 1 \{z ^ {(i)} = j \}},
+\mu_{j} = \frac{\sum_{i = 1}^{n} 1 \{z^{(i)} = j \} x^{(i)}}{\sum_{i = 1}^{n} 1 \{z^{(i)} = j \}},
 $$
 
 $$
-\Sigma_ {j} = \frac {\sum_ {i = 1} ^ {n} 1 \{z ^ {(i)} = j \} (x ^ {(i)} - \mu_ {j}) (x ^ {(i)} - \mu_ {j}) ^ {T}}{\sum_ {i = 1} ^ {n} 1 \{z ^ {(i)} = j \}}.
+\Sigma_{j} = \frac{\sum_{i = 1}^{n} 1 \{z^{(i)} = j \} (x^{(i)} - \mu_{j}) (x^{(i)} - \mu_{j})^{T}}{\sum_{i = 1}^{n} 1 \{z^{(i)} = j \}}.
 $$
 
 Indeed, we see that if the  $z^{(i)}$ 's were known, then maximum likelihood estimation becomes nearly identical to what we had when estimating the parameters of the Gaussian discriminant analysis model, except that here the  $z^{(i)}$ 's playing the role of the class labels.
@@ -3412,13 +3412,13 @@ Repeat until convergence: {
 (E-step) For each  $i,j$ , set
 
 $$
-w _ {j} ^ {(i)} := p (z ^ {(i)} = j | x ^ {(i)}; \phi , \mu , \Sigma)
+w_{j}^{(i)} := p (z^{(i)} = j | x^{(i)}; \phi , \mu , \Sigma)
 $$
 
 (M-step) Update the parameters:
 
 $$
-\begin{array}{l} \phi_ {j} := \frac {1}{n} \sum_ {i = 1} ^ {n} w _ {j} ^ {(i)}, \\ \mu_ {j}   :=   \frac {\sum_ {i = 1} ^ {n} w _ {j} ^ {(i)} x ^ {(i)}}{\sum_ {i = 1} ^ {n} w _ {j} ^ {(i)}}, \\ \Sigma_ {j} := \frac {\sum_ {i = 1} ^ {n} w _ {j} ^ {(i)} (x ^ {(i)} - \mu_ {j}) (x ^ {(i)} - \mu_ {j}) ^ {T}}{\sum_ {i = 1} ^ {n} w _ {j} ^ {(i)}} \\ \end{array}
+\begin{array}{l} \phi_{j} := \frac{1}{n} \sum_{i = 1}^{n} w_{j}^{(i)}, \\ \mu_{j}   :=   \frac{\sum_{i = 1}^{n} w_{j}^{(i)} x^{(i)}}{\sum_{i = 1}^{n} w_{j}^{(i)}}, \\ \Sigma_{j} := \frac{\sum_{i = 1}^{n} w_{j}^{(i)} (x^{(i)} - \mu_{j}) (x^{(i)} - \mu_{j})^{T}}{\sum_{i = 1}^{n} w_{j}^{(i)}} \\ \end{array}
 $$
 
 }
@@ -3426,7 +3426,7 @@ $$
 In the E-step, we calculate the posterior probability of our parameters the  $z^{(i)}$ 's, given the  $x^{(i)}$  and using the current setting of our parameters. I.e., using Bayes rule, we obtain:
 
 $$
-p (z ^ {(i)} = j | x ^ {(i)}; \phi , \mu , \Sigma) = \frac {p (x ^ {(i)} | z ^ {(i)} = j ; \mu , \Sigma) p (z ^ {(i)} = j ; \phi)}{\sum_ {l = 1} ^ {k} p (x ^ {(i)} | z ^ {(i)} = l ; \mu , \Sigma) p (z ^ {(i)} = l ; \phi)}
+p (z^{(i)} = j | x^{(i)}; \phi , \mu , \Sigma) = \frac{p (x^{(i)} | z^{(i)} = j ; \mu , \Sigma) p (z^{(i)} = j ; \phi)}{\sum_{l = 1}^{k} p (x^{(i)} | z^{(i)} = l ; \mu , \Sigma) p (z^{(i)} = l ; \phi)}
 $$
 
 Here,  $p(x^{(i)}|z^{(i)} = j;\mu ,\Sigma)$  is given by evaluating the density of a Gaussian with mean  $\mu_{j}$  and covariance  $\Sigma_{j}$  at  $x^{(i)}$ ;  $p(z^{(i)} = j;\phi)$  is given by  $\phi_j$ , and so on. The values  $w_{j}^{(i)}$  calculated in the E-step represent our "soft" guesses<sup>2</sup> for the values of  $z^{(i)}$ .
@@ -3448,7 +3448,7 @@ Let  $f$  be a function whose domain is the set of real numbers. Recall that  $f
 Theorem. Let  $f$  be a convex function, and let  $X$  be a random variable. Then:
 
 $$
-\operatorname {E} [ f (X) ] \geq f (\operatorname {E} X).
+\operatorname{E} [ f (X) ] \geq f (\operatorname{E} X).
 $$
 
 Moreover, if  $f$  is strictly convex, then  $\operatorname{E}[f(X)] = f(\operatorname{E}X)$  holds true if and only if  $X = \operatorname{E}[X]$  with probability 1 (i.e., if  $X$  is a constant).
@@ -3474,19 +3474,19 @@ Remark. Recall that  $f$  is [strictly] concave if and only if  $-f$  is [strict
 Suppose we have an estimation problem in which we have a training set  $\{x^{(1)},\ldots ,x^{(n)}\}$  consisting of  $n$  independent examples. We have a latent variable model  $p(x,z;\theta)$  with  $z$  being the latent variable (which for simplicity is assumed to take finite number of values). The density for  $x$  can be obtained by marginalized over the latent variable  $z$ :
 
 $$
-p (x; \theta) = \sum_ {z} p (x, z; \theta) \tag {11.1}
+p (x; \theta) = \sum_{z} p (x, z; \theta) \tag {11.1}
 $$
 
 We wish to fit the parameters  $\theta$  by maximizing the log-likelihood of the data, defined by
 
 $$
-\ell (\theta) = \sum_ {i = 1} ^ {n} \log p \left(x ^ {(i)}; \theta\right) \tag {11.2}
+\ell (\theta) = \sum_{i = 1}^{n} \log p \left(x^{(i)}; \theta\right) \tag {11.2}
 $$
 
 We can rewrite the objective in terms of the joint density  $p(x,z;\theta)$  by
 
 $$
-\begin{array}{l} \ell (\theta) = \sum_ {i = 1} ^ {n} \log p \left(x ^ {(i)}; \theta\right) (11.3) \\ = \sum_ {i = 1} ^ {n} \log \sum_ {z ^ {(i)}} p \left(x ^ {(i)}, z ^ {(i)}; \theta\right). (11.4) \\ \end{array}
+\begin{array}{l} \ell (\theta) = \sum_{i = 1}^{n} \log p \left(x^{(i)}; \theta\right) (11.3) \\ = \sum_{i = 1}^{n} \log \sum_{z^{(i)}} p \left(x^{(i)}, z^{(i)}; \theta\right). (11.4) \\ \end{array}
 $$
 
 But, explicitly finding the maximum likelihood estimates of the parameters  $\theta$  may be hard since it will result in difficult non-convex optimization prob
@@ -3498,7 +3498,7 @@ In such a setting, the EM algorithm gives an efficient method for maximum likeli
 It turns out that the summation  $\sum_{i=1}^{n}$  is not essential here, and towards a simpler exposition of the EM algorithm, we will first consider optimizing the likelihood  $\log p(x)$  for a single example  $x$ . After we derive the algorithm for optimizing  $\log p(x)$ , we will convert it to an algorithm that works for  $n$  examples by adding back the sum to each of the relevant equations. Thus, now we aim to optimize  $\log p(x; \theta)$  which can be rewritten as
 
 $$
-\log p (x; \theta) = \log \sum_ {z} p (x, z; \theta) \tag {11.5}
+\log p (x; \theta) = \log \sum_{z} p (x, z; \theta) \tag {11.5}
 $$
 
 Let  $Q$  be a distribution over the possible values of  $z$ . That is,  $\sum_{z} Q(z) = 1$ ,  $Q(z) \geq 0$ .
@@ -3506,7 +3506,7 @@ Let  $Q$  be a distribution over the possible values of  $z$ . That is,  $\sum_{
 Consider the following:
 
 $$
-\begin{array}{l} \log p (x; \theta) = \log \sum_ {z} p (x, z; \theta) \\ = \log \sum_ {z} Q (z) \frac {p (x , z ; \theta)}{Q (z)} (11.6) \\ \geq \sum_ {z} Q (z) \log \frac {p (x , z ; \theta)}{Q (z)} (11.7) \\ \end{array}
+\begin{array}{l} \log p (x; \theta) = \log \sum_{z} p (x, z; \theta) \\ = \log \sum_{z} Q (z) \frac{p (x , z ; \theta)}{Q (z)} (11.6) \\ \geq \sum_{z} Q (z) \log \frac{p (x , z ; \theta)}{Q (z)} (11.7) \\ \end{array}
 $$
 
 The last step of this derivation used Jensen's inequality. Specifically,  $f(x) = \log x$  is a concave function, since  $f''(x) = -1 / x^2 < 0$  over its domain
@@ -3514,13 +3514,13 @@ The last step of this derivation used Jensen's inequality. Specifically,  $f(x) 
 $x\in \mathbb{R}^{+}$  .Also, the term
 
 $$
-\sum_ {z} Q (z) \left[ \frac {p (x , z ; \theta)}{Q (z)} \right]
+\sum_{z} Q (z) \left[ \frac{p (x , z ; \theta)}{Q (z)} \right]
 $$
 
 in the summation is just an expectation of the quantity  $[p(x,z;\theta) / Q(z)]$  with respect to  $z$  drawn according to the distribution given by  $Q$ .<sup>6</sup> By Jensen's inequality, we have
 
 $$
-f \left(\operatorname {E} _ {z \sim Q} \left[ \frac {p (x , z ; \theta)}{Q (z)} \right]\right) \geq \operatorname {E} _ {z \sim Q} \left[ f \left(\frac {p (x , z ; \theta)}{Q (z)}\right) \right],
+f \left(\operatorname{E}_{z \sim Q} \left[ \frac{p (x , z ; \theta)}{Q (z)} \right]\right) \geq \operatorname{E}_{z \sim Q} \left[ f \left(\frac{p (x , z ; \theta)}{Q (z)}\right) \right],
 $$
 
 where the “ $z \sim Q$ ” subscripts above indicate that the expectations are with respect to  $z$  drawn from  $Q$ . This allowed us to go from Equation (11.6) to Equation (11.7).
@@ -3530,7 +3530,7 @@ Now, for any distribution  $Q$ , the formula (11.7) gives a lower-bound on  $\lo
 To make the bound tight for a particular value of  $\theta$ , we need for the step involving Jensen's inequality in our derivation above to hold with equality. For this to be true, we know it is sufficient that the expectation be taken over a "constant"-valued random variable. I.e., we require that
 
 $$
-\frac {p (x , z ; \theta)}{Q (z)} = c
+\frac{p (x , z ; \theta)}{Q (z)} = c
 $$
 
 for some constant  $c$  that does not depend on  $z$ . This is easily accomplished by choosing
@@ -3542,7 +3542,7 @@ $$
 Actually, since we know  $\sum_{z}Q(z) = 1$  (because it is a distribution), this further tells us that
 
 $$
-\begin{array}{l} Q (z) = \frac {p (x , z ; \theta)}{\sum_ {z} p (x , z ; \theta)} \\ = \frac {p (x , z ; \theta)}{p (x ; \theta)} \\ = p (z | x; \theta) \tag {11.8} \\ \end{array}
+\begin{array}{l} Q (z) = \frac{p (x , z ; \theta)}{\sum_{z} p (x , z ; \theta)} \\ = \frac{p (x , z ; \theta)}{p (x ; \theta)} \\ = p (z | x; \theta) \tag {11.8} \\ \end{array}
 $$
 
 Thus, we simply set the  $Q$ 's to be the posterior distribution of the  $z$ 's given  $x$  and the setting of the parameters  $\theta$ .
@@ -3550,19 +3550,19 @@ Thus, we simply set the  $Q$ 's to be the posterior distribution of the  $z$ 's 
 Indeed, we can directly verify that when  $Q(z) = p(z|x;\theta)$ , then equation (11.7) is an equality because
 
 $$
-\begin{array}{l} \sum_ {z} Q (z) \log {\frac {p (x , z ; \theta)}{Q (z)}} = \sum_ {z} p (z | x; \theta) \log {\frac {p (x , z ; \theta)}{p (z | x ; \theta)}} \\ = \sum_ {z} p (z | x; \theta) \log \frac {p (z | x ; \theta) p (x ; \theta)}{p (z | x ; \theta)} \\ = \sum_ {z} p (z | x; \theta) \log p (x; \theta) \\ = \log p (x; \theta) \sum_ {z} p (z | x; \theta) \\ = \log p (x; \theta) \qquad (\mathrm {b e c a u s e} \sum_ {z} p (z | x; \theta) = 1) \\ \end{array}
+\begin{array}{l} \sum_{z} Q (z) \log{\frac{p (x , z ; \theta)}{Q (z)}} = \sum_{z} p (z | x; \theta) \log{\frac{p (x , z ; \theta)}{p (z | x ; \theta)}} \\ = \sum_{z} p (z | x; \theta) \log \frac{p (z | x ; \theta) p (x ; \theta)}{p (z | x ; \theta)} \\ = \sum_{z} p (z | x; \theta) \log p (x; \theta) \\ = \log p (x; \theta) \sum_{z} p (z | x; \theta) \\ = \log p (x; \theta) \qquad (\mathrm{be ca us e} \sum_{z} p (z | x; \theta) = 1) \\ \end{array}
 $$
 
 For convenience, we call the expression in Equation (11.7) the evidence lower bound (ELBO) and we denote it by
 
 $$
-\operatorname {E L B O} (x; Q, \theta) = \sum_ {z} Q (z) \log \frac {p (x , z ; \theta)}{Q (z)} \tag {11.9}
+\operatorname{EL BO} (x; Q, \theta) = \sum_{z} Q (z) \log \frac{p (x , z ; \theta)}{Q (z)} \tag {11.9}
 $$
 
 With this equation, we can re-write equation (11.7) as
 
 $$
-\forall Q, \theta , x, \quad \log p (x; \theta) \geq \operatorname {E L B O} (x; Q, \theta) \tag {11.10}
+\forall Q, \theta , x, \quad \log p (x; \theta) \geq \operatorname{EL BO} (x; Q, \theta) \tag {11.10}
 $$
 
 Intuitively, the EM algorithm alternatively updates  $Q$  and  $\theta$  by a) setting  $Q(z) = p(z|x;\theta)$  following Equation (11.8) so that  $\mathrm{ELBO}(x;Q,\theta) = \log p(x;\theta)$  for  $x$  and the current  $\theta$ , and b) maximizing  $\mathrm{ELBO}(x;Q,\theta)$  w.r.t  $\theta$  while fixing the choice of  $Q$ .
@@ -3572,19 +3572,19 @@ Recall that all the discussion above was under the assumption that we aim to opt
 Recall we have a training set  $\{x^{(1)},\ldots ,x^{(n)}\}$ . Note that the optimal choice of  $Q$  is  $p(z|x;\theta)$ , and it depends on the particular example  $x$ . Therefore here we will introduce  $n$  distributions  $Q_{1},\ldots ,Q_{n}$ , one for each example  $x^{(i)}$ . For each example  $x^{(i)}$ , we can build the evidence lower bound
 
 $$
-\log p (x ^ {(i)}; \theta) \geq \operatorname {E L B O} (x ^ {(i)}; Q _ {i}, \theta) = \sum_ {z ^ {(i)}} Q _ {i} (z ^ {(i)}) \log \frac {p (x ^ {(i)} , z ^ {(i)} ; \theta)}{Q _ {i} (z ^ {(i)})}
+\log p (x^{(i)}; \theta) \geq \operatorname{EL BO} (x^{(i)}; Q_{i}, \theta) = \sum_{z^{(i)}} Q_{i} (z^{(i)}) \log \frac{p (x^{(i)} , z^{(i)} ; \theta)}{Q_{i} (z^{(i)})}
 $$
 
 Taking sum over all the examples, we obtain a lower bound for the log-likelihood
 
 $$
-\begin{array}{l} \ell (\theta) \geq \sum_ {i} \operatorname {E L B O} \left(x ^ {(i)}; Q _ {i}, \theta\right) \tag {11.11} \\ = \sum_ {i} \sum_ {z ^ {(i)}} Q _ {i} (z ^ {(i)}) \log \frac {p (x ^ {(i)} , z ^ {(i)} ; \theta)}{Q _ {i} (z ^ {(i)})} \\ \end{array}
+\begin{array}{l} \ell (\theta) \geq \sum_{i} \operatorname{EL BO} \left(x^{(i)}; Q_{i}, \theta\right) \tag {11.11} \\ = \sum_{i} \sum_{z^{(i)}} Q_{i} (z^{(i)}) \log \frac{p (x^{(i)} , z^{(i)} ; \theta)}{Q_{i} (z^{(i)})} \\ \end{array}
 $$
 
 For any set of distributions  $Q_{1}, \ldots, Q_{n}$ , the formula (11.11) gives a lower-bound on  $\ell(\theta)$ , and analogous to the argument around equation (11.8), the  $Q_{i}$  that attains equality satisfies
 
 $$
-{Q _ {i} (z ^ {(i)})} = {p (z ^ {(i)} | x ^ {(i)}; \theta)}
+{Q_{i} (z^{(i)})} = {p (z^{(i)} | x^{(i)}; \theta)}
 $$
 
 Thus, we simply set the  $Q_{i}$ 's to be the posterior distribution of the  $z^{(i)}$ 's given  $x^{(i)}$  with the current setting of the parameters  $\theta$ .
@@ -3596,13 +3596,13 @@ Repeat until convergence {
 (E-step) For each  $i$ , set
 
 $$
-Q _ {i} (z ^ {(i)}) := p (z ^ {(i)} | x ^ {(i)}; \theta).
+Q_{i} (z^{(i)}) := p (z^{(i)} | x^{(i)}; \theta).
 $$
 
 (M-step) Set
 
 $$
-\begin{array}{l} \theta := \arg \max _ {\theta} \sum_ {i = 1} ^ {n} \mathrm {E L B O} (x ^ {(i)}; Q _ {i}, \theta) \\ = \arg \max  _ {\theta} \sum_ {i} \sum_ {z ^ {(i)}} Q _ {i} \left(z ^ {(i)}\right) \log \frac {p \left(x ^ {(i)} , z ^ {(i)} ; \theta\right)}{Q _ {i} \left(z ^ {(i)}\right)}. \tag {11.12} \\ \end{array}
+\begin{array}{l} \theta := \arg \max_{\theta} \sum_{i = 1}^{n} \mathrm{EL BO} (x^{(i)}; Q_{i}, \theta) \\ = \arg \max_{\theta} \sum_{i} \sum_{z^{(i)}} Q_{i} \left(z^{(i)}\right) \log \frac{p \left(x^{(i)} , z^{(i)} ; \theta\right)}{Q_{i} \left(z^{(i)}\right)}. \tag {11.12} \\ \end{array}
 $$
 
 }
@@ -3612,29 +3612,29 @@ How do we know if this algorithm will converge? Well, suppose  $\theta^{(t)}$  a
 the  $Q_{i}$ 's. Specifically, on the iteration of EM in which the parameters had started out as  $\theta^{(t)}$ , we would have chosen  $Q_{i}^{(t)}(z^{(i)}) := p(z^{(i)}|x^{(i)};\theta^{(t)})$ . We saw earlier that this choice ensures that Jensen's inequality, as applied to get Equation (11.11), holds with equality, and hence
 
 $$
-\ell \left(\theta^ {(t)}\right) = \sum_ {i = 1} ^ {n} \operatorname {E L B O} \left(x ^ {(i)}; Q _ {i} ^ {(t)}, \theta^ {(t)}\right) \tag {11.13}
+\ell \left(\theta^{(t)}\right) = \sum_{i = 1}^{n} \operatorname{EL BO} \left(x^{(i)}; Q_{i}^{(t)}, \theta^{(t)}\right) \tag {11.13}
 $$
 
 The parameters  $\theta^{(t + 1)}$  are then obtained by maximizing the right hand side of the equation above. Thus,
 
 $$
-\ell (\theta^ {(t + 1)}) \geq \sum_ {i = 1} ^ {n} \operatorname {E L B O} (x ^ {(i)}; Q _ {i} ^ {(t)}, \theta^ {(t + 1)})
+\ell (\theta^{(t + 1)}) \geq \sum_{i = 1}^{n} \operatorname{EL BO} (x^{(i)}; Q_{i}^{(t)}, \theta^{(t + 1)})
 $$
 
 (because inequality (11.11) holds for all  $Q$  and  $\theta$ )
 
 $$
-\geq \sum_ {i = 1} ^ {n} \operatorname {E L B O} (x ^ {(i)}; Q _ {i} ^ {(t)}, \theta^ {(t)}) \quad (\mathrm {s e e r e a s o n b e l o w})
+\geq \sum_{i = 1}^{n} \operatorname{EL BO} (x^{(i)}; Q_{i}^{(t)}, \theta^{(t)}) \quad (\mathrm{se er ea so nb el ow})
 $$
 
 $$
-= \ell (\theta^ {(t)}) \qquad \mathrm {(b y e q u a t i o n (1 1 . 1 3))}
+= \ell (\theta^{(t)}) \qquad \mathrm{(by eq ua ti on (11 .1 3))}
 $$
 
 where the last inequality follows from that  $\theta^{(t + 1)}$  is chosen explicitly to be
 
 $$
-\arg \max _ {\theta} \sum_ {i = 1} ^ {n} \mathrm {E L B O} (x ^ {(i)}; Q _ {i} ^ {(t)}, \theta)
+\arg \max_{\theta} \sum_{i = 1}^{n} \mathrm{EL BO} (x^{(i)}; Q_{i}^{(t)}, \theta)
 $$
 
 Hence, EM causes the likelihood to converge monotonically. In our description of the EM algorithm, we said we'd run it until convergence. Given the result that we just showed, one reasonable convergence test would be to check if the increase in  $\ell(\theta)$  between successive iterations is smaller than some tolerance parameter, and to declare convergence if EM is improving  $\ell(\theta)$  too slowly.
@@ -3642,7 +3642,7 @@ Hence, EM causes the likelihood to converge monotonically. In our description of
 Remark. If we define (by overloading  $\mathrm{ELBO}(\cdot)$ )
 
 $$
-\operatorname {E L B O} (Q, \theta) = \sum_ {i = 1} ^ {n} \operatorname {E L B O} \left(x ^ {(i)}; Q _ {i}, \theta\right) = \sum_ {i} \sum_ {z ^ {(i)}} Q _ {i} \left(z ^ {(i)}\right) \log \frac {p \left(x ^ {(i)} , z ^ {(i)} ; \theta\right)}{Q _ {i} \left(z ^ {(i)}\right)} \tag {11.14}
+\operatorname{EL BO} (Q, \theta) = \sum_{i = 1}^{n} \operatorname{EL BO} \left(x^{(i)}; Q_{i}, \theta\right) = \sum_{i} \sum_{z^{(i)}} Q_{i} \left(z^{(i)}\right) \log \frac{p \left(x^{(i)} , z^{(i)} ; \theta\right)}{Q_{i} \left(z^{(i)}\right)} \tag {11.14}
 $$
 
 then we know  $\ell(\theta) \geq \operatorname{ELBO}(Q, \theta)$  from our previous derivation. The EM can also be viewed as an alternating maximization algorithm on  $\operatorname{ELBO}(Q, \theta)$ , in which the E-step maximizes it with respect to  $Q$  (check this yourself), and the M-step maximizes it with respect to  $\theta$ .
@@ -3652,13 +3652,13 @@ then we know  $\ell(\theta) \geq \operatorname{ELBO}(Q, \theta)$  from our previ
 Let  $\mathrm{ELBO}(x;Q,\theta) = \sum_{z}Q(z)\log \frac{p(x,z;\theta)}{Q(z)}$  be defined as in equation (11.9). There are several other forms of ELBO. First, we can rewrite
 
 $$
-\begin{array}{l} \operatorname {E L B O} (x; Q, \theta) = \operatorname {E} _ {z \sim Q} [ \log p (x, z; \theta) ] - \operatorname {E} _ {z \sim Q} [ \log Q (z) ] \\ = \mathrm {E} _ {z \sim Q} [ \log p (x | z; \theta) ] - D _ {K L} (Q \| p _ {z}) \tag {11.15} \\ \end{array}
+\begin{array}{l} \operatorname{EL BO} (x; Q, \theta) = \operatorname{E}_{z \sim Q} [ \log p (x, z; \theta) ] - \operatorname{E}_{z \sim Q} [ \log Q (z) ] \\ = \mathrm{E}_{z \sim Q} [ \log p (x | z; \theta) ] - D_{K L} (Q \| p_{z}) \tag {11.15} \\ \end{array}
 $$
 
 where we use  $p_z$  to denote the marginal distribution of  $z$  (under the distribution  $p(x,z;\theta)$ ), and  $D_{KL}()$  denotes the KL divergence
 
 $$
-D _ {K L} (Q \| p _ {z}) = \sum_ {z} Q (z) \log \frac {Q (z)}{p (z)} \tag {11.16}
+D_{K L} (Q \| p_{z}) = \sum_{z} Q (z) \log \frac{Q (z)}{p (z)} \tag {11.16}
 $$
 
 In many cases, the marginal distribution of  $z$  does not depend on the parameter  $\theta$ . In this case, we can see that maximizing ELBO over  $\theta$  is equivalent to maximizing the first term in (11.15). This corresponds to maximizing the conditional likelihood of  $x$  conditioned on  $z$ , which is often a simpler question than the original question.
@@ -3666,7 +3666,7 @@ In many cases, the marginal distribution of  $z$  does not depend on the paramet
 Another form of  $\mathrm{ELBO}(\cdot)$  is (please verify yourself)
 
 $$
-\operatorname {E L B O} (x; Q, \theta) = \log p (x) - D _ {K L} (Q \| p _ {z | x}) \tag {11.17}
+\operatorname{EL BO} (x; Q, \theta) = \log p (x) - D_{K L} (Q \| p_{z | x}) \tag {11.17}
 $$
 
 where  $p_{z|x}$  is the conditional distribution of  $z$  given  $x$  under the parameter  $\theta$ . This forms shows that the maximizer of  $\mathrm{ELBO}(Q, \theta)$  over  $Q$  is obtained when  $Q = p_{z|x}$ , which was shown in equation (11.8) before.
@@ -3678,7 +3678,7 @@ Armed with our general definition of the EM algorithm, let's go back to our old 
 The E-step is easy. Following our algorithm derivation above, we simply calculate
 
 $$
-w _ {j} ^ {(i)} = Q _ {i} (z ^ {(i)} = j) = P (z ^ {(i)} = j | x ^ {(i)}; \phi , \mu , \Sigma).
+w_{j}^{(i)} = Q_{i} (z^{(i)} = j) = P (z^{(i)} = j | x^{(i)}; \phi , \mu , \Sigma).
 $$
 
 Here, “ $Q_{i}(z^{(i)} = j)$ ” denotes the probability of  $z^{(i)}$  taking the value  $j$  under the distribution  $Q_{i}$ .
@@ -3686,19 +3686,19 @@ Here, “ $Q_{i}(z^{(i)} = j)$ ” denotes the probability of  $z^{(i)}$  taking
 Next, in the M-step, we need to maximize, with respect to our parameters  $\phi, \mu, \Sigma$ , the quantity
 
 $$
-\begin{array}{l} \sum_ {i = 1} ^ {n} \sum_ {z ^ {(i)}} Q _ {i} (z ^ {(i)}) \log \frac {p (x ^ {(i)} , z ^ {(i)} ; \phi , \mu , \Sigma)}{Q _ {i} (z ^ {(i)})} \\ = \sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {k} Q _ {i} (z ^ {(i)} = j) \log \frac {p (x ^ {(i)} | z ^ {(i)} = j ; \mu , \Sigma) p (z ^ {(i)} = j ; \phi)}{Q _ {i} (z ^ {(i)} = j)} \\ = \sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {k} w _ {j} ^ {(i)} \log \frac {\frac {1}{(2 \pi) ^ {d / 2} | \Sigma_ {j} | ^ {1 / 2}} \exp \left(- \frac {1}{2} (x ^ {(i)} - \mu_ {j}) ^ {T} \Sigma_ {j} ^ {- 1} (x ^ {(i)} - \mu_ {j})\right) \cdot \phi_ {j}}{w _ {j} ^ {(i)}} \\ \end{array}
+\begin{array}{l} \sum_{i = 1}^{n} \sum_{z^{(i)}} Q_{i} (z^{(i)}) \log \frac{p (x^{(i)} , z^{(i)} ; \phi , \mu , \Sigma)}{Q_{i} (z^{(i)})} \\ = \sum_{i = 1}^{n} \sum_{j = 1}^{k} Q_{i} (z^{(i)} = j) \log \frac{p (x^{(i)} | z^{(i)} = j ; \mu , \Sigma) p (z^{(i)} = j ; \phi)}{Q_{i} (z^{(i)} = j)} \\ = \sum_{i = 1}^{n} \sum_{j = 1}^{k} w_{j}^{(i)} \log \frac{\frac{1}{(2 \pi)^{d / 2} | \Sigma_{j} | ^ {1 / 2}} \exp \left(- \frac{1}{2} (x^{(i)} - \mu_{j})^{T} \Sigma_{j}^{- 1} (x^{(i)} - \mu_{j})\right) \cdot \phi_{j}}{w_{j}^{(i)}} \\ \end{array}
 $$
 
 Let's maximize this with respect to  $\mu_{l}$ . If we take the derivative with respect to  $\mu_{l}$ , we find
 
 $$
-\begin{array}{l} \nabla_ {\mu_ {l}} \sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {k} w _ {j} ^ {(i)} \log \frac {\frac {1}{(2 \pi) ^ {d / 2} | \Sigma_ {j} | ^ {1 / 2}} \exp \left(- \frac {1}{2} (x ^ {(i)} - \mu_ {j}) ^ {T} \Sigma_ {j} ^ {- 1} (x ^ {(i)} - \mu_ {j})\right) \cdot \phi_ {j}}{w _ {j} ^ {(i)}} \\ { = } { - \nabla _ { \mu _ { l } } \sum _ { i = 1 } ^ { n } \sum _ { j = 1 } ^ { k } w _ { j } ^ { ( i ) } \frac { 1 } { 2 } ( x ^ { ( i ) } - \mu _ { j } ) ^ { T } \Sigma _ { j } ^ { - 1 } ( x ^ { ( i ) } - \mu _ { j } ) } \\ { = } { \frac { 1 } { 2 } \sum _ { i = 1 } ^ { n } w _ { l } ^ { ( i ) } \nabla _ { \mu _ { l } } 2 \mu _ { l } ^ { T } \Sigma _ { l } ^ { - 1 } x ^ { ( i ) } - \mu _ { l } ^ { T } \Sigma _ { l } ^ { - 1 } \mu _ { l } } \\ = \sum_ {i = 1} ^ {n} w _ {l} ^ {(i)} \left(\Sigma_ {l} ^ {- 1} x ^ {(i)} - \Sigma_ {l} ^ {- 1} \mu_ {l}\right) \\ \end{array}
+\begin{array}{l} \nabla_{\mu_{l}} \sum_{i = 1}^{n} \sum_{j = 1}^{k} w_{j}^{(i)} \log \frac{\frac{1}{(2 \pi)^{d / 2} | \Sigma_{j} | ^ {1 / 2}} \exp \left(- \frac{1}{2} (x^{(i)} - \mu_{j})^{T} \Sigma_{j}^{- 1} (x^{(i)} - \mu_{j})\right) \cdot \phi_{j}}{w_{j}^{(i)}} \\ { = } { - \nabla_{ \mu_{ l } } \sum_{ i = 1 }^{ n } \sum_{ j = 1 }^{ k } w_{ j }^{ ( i ) } \frac{ 1 } { 2 } ( x^{ ( i ) } - \mu_{ j } )^{ T } \Sigma_{ j }^{ - 1 } ( x^{ ( i ) } - \mu_{ j } ) } \\ { = } { \frac{ 1 } { 2 } \sum_{ i = 1 }^{ n } w_{ l }^{ ( i ) } \nabla_{ \mu_{ l } } 2 \mu_{ l }^{ T } \Sigma_{ l }^{ - 1 } x^{ ( i ) } - \mu_{ l }^{ T } \Sigma_{ l }^{ - 1 } \mu_{ l } } \\ = \sum_{i = 1}^{n} w_{l}^{(i)} \left(\Sigma_{l}^{- 1} x^{(i)} - \Sigma_{l}^{- 1} \mu_{l}\right) \\ \end{array}
 $$
 
 Setting this to zero and solving for  $\mu_{l}$  therefore yields the update rule
 
 $$
-\mu_ {l} := \frac {\sum_ {i = 1} ^ {n} w _ {l} ^ {(i)} x ^ {(i)}}{\sum_ {i = 1} ^ {n} w _ {l} ^ {(i)}},
+\mu_{l} := \frac{\sum_{i = 1}^{n} w_{l}^{(i)} x^{(i)}}{\sum_{i = 1}^{n} w_{l}^{(i)}},
 $$
 
 which was what we had in the previous set of notes.
@@ -3706,7 +3706,7 @@ which was what we had in the previous set of notes.
 Let's do one more example, and derive the M-step update for the parameters  $\phi_j$ . Grouping together only the terms that depend on  $\phi_j$ , we find that we need to maximize
 
 $$
-\sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {k} w _ {j} ^ {(i)} \log \phi_ {j}.
+\sum_{i = 1}^{n} \sum_{j = 1}^{k} w_{j}^{(i)} \log \phi_{j}.
 $$
 
 However, there is an additional constraint that the  $\phi_j$ 's sum to 1, since they represent the probabilities  $\phi_j = p(z^{(i)} = j; \phi)$ . To deal with the constraint
@@ -3714,25 +3714,25 @@ However, there is an additional constraint that the  $\phi_j$ 's sum to 1, since
 that  $\sum_{j=1}^{k} \phi_{j} = 1$ , we construct the Lagrangian
 
 $$
-\mathcal {L} (\phi) = \sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {k} w _ {j} ^ {(i)} \log \phi_ {j} + \beta \left(\sum_ {j = 1} ^ {k} \phi_ {j} - 1\right),
+\mathcal {L} (\phi) = \sum_{i = 1}^{n} \sum_{j = 1}^{k} w_{j}^{(i)} \log \phi_{j} + \beta \left(\sum_{j = 1}^{k} \phi_{j} - 1\right),
 $$
 
 where  $\beta$  is the Lagrange multiplier.7 Taking derivatives, we find
 
 $$
-\frac {\partial}{\partial \phi_ {j}} \mathcal {L} (\phi) = \sum_ {i = 1} ^ {n} \frac {w _ {j} ^ {(i)}}{\phi_ {j}} + \beta
+\frac{\partial}{\partial \phi_{j}} \mathcal {L} (\phi) = \sum_{i = 1}^{n} \frac{w_{j}^{(i)}}{\phi_{j}} + \beta
 $$
 
 Setting this to zero and solving, we get
 
 $$
-\phi_ {j} = \frac {\sum_ {i = 1} ^ {n} w _ {j} ^ {(i)}}{- \beta}
+\phi_{j} = \frac{\sum_{i = 1}^{n} w_{j}^{(i)}}{- \beta}
 $$
 
 I.e.,  $\phi_j \propto \sum_{i=1}^n w_j^{(i)}$ . Using the constraint that  $\sum_j \phi_j = 1$ , we easily find that  $-\beta = \sum_{i=1}^n \sum_{j=1}^k w_j^{(i)} = \sum_{i=1}^n 1 = n$ . (This used the fact that  $w_j^{(i)} = Q_i(z^{(i)} = j)$ , and since probabilities sum to 1,  $\sum_j w_j^{(i)} = 1$ .) We therefore have our M-step updates for the parameters  $\phi_j$ :
 
 $$
-\phi_ {j} := \frac {1}{n} \sum_ {i = 1} ^ {n} w _ {j} ^ {(i)}.
+\phi_{j} := \frac{1}{n} \sum_{i = 1}^{n} w_{j}^{(i)}.
 $$
 
 The derivation for the M-step updates to  $\Sigma_{j}$  are also entirely straightforward.
@@ -3746,11 +3746,11 @@ with non-linear models. Understanding it will likely give you the language and b
 As a running example, we will consider the following parameterization of  $p(x,z;\theta)$  by a neural network. Let  $\theta$  be the collection of the weights of a neural network  $g(z;\theta)$  that maps  $z\in \mathbb{R}^k$  to  $\mathbb{R}^d$ . Let
 
 $$
-z \sim \mathcal {N} (0, I _ {k \times k}) \tag {11.18}
+z \sim \mathcal {N} (0, I_{k \times k}) \tag {11.18}
 $$
 
 $$
-x \mid z \sim \mathcal {N} (g (z; \theta), \sigma^ {2} I _ {d \times d}) \tag {11.19}
+x \mid z \sim \mathcal {N} (g (z; \theta), \sigma^{2} I_{d \times d}) \tag {11.19}
 $$
 
 Here  $I_{k \times k}$  denotes identity matrix of dimension  $k$  by  $k$ , and  $\sigma$  is a scalar that we assume to be known for simplicity.
@@ -3760,13 +3760,13 @@ For the Gaussian mixture models in Section 11.4, the optimal choice of  $Q(z) = 
 Recall that from equation (11.10), ELBO is always a lower bound for any choice of  $Q$ , and therefore, we can also aim for finding an approximation of the true posterior distribution. Often, one has to use some particular form to approximate the true posterior distribution. Let  $\mathcal{Q}$  be a family of  $Q$ 's that we are considering, and we will aim to find a  $Q$  within the family of  $\mathcal{Q}$  that is closest to the true posterior distribution. To formalize, recall the definition of the ELBO lower bound as a function of  $Q$  and  $\theta$  defined in equation (11.14)
 
 $$
-\operatorname {E L B O} (Q, \theta) = \sum_ {i = 1} ^ {n} \operatorname {E L B O} (x ^ {(i)}; Q _ {i}, \theta) = \sum_ {i} \sum_ {z ^ {(i)}} Q _ {i} (z ^ {(i)}) \log {\frac {p (x ^ {(i)} , z ^ {(i)} ; \theta)}{Q _ {i} (z ^ {(i)})}}
+\operatorname{EL BO} (Q, \theta) = \sum_{i = 1}^{n} \operatorname{EL BO} (x^{(i)}; Q_{i}, \theta) = \sum_{i} \sum_{z^{(i)}} Q_{i} (z^{(i)}) \log{\frac{p (x^{(i)} , z^{(i)} ; \theta)}{Q_{i} (z^{(i)})}}
 $$
 
 Recall that EM can be viewed as alternating maximization of  $\operatorname{ELBO}(Q, \theta)$ . Here instead, we optimize the EBLO over  $Q \in \mathcal{Q}$
 
 $$
-\max  _ {Q \in \mathcal {Q}} \max  _ {\theta} \operatorname {E L B O} (Q, \theta) \tag {11.20}
+\max_{Q \in \mathcal {Q}} \max_{\theta} \operatorname{EL BO} (Q, \theta) \tag {11.20}
 $$
 
 Now the next question is what form of  $Q$  (or what structural assumptions to make about  $Q$ ) allows us to efficiently maximize the objective above. When the latent variable  $z$  are high-dimensional discrete variables, one popular assumption is the mean field assumption, which assumes that  $Q_{i}(z)$  gives a distribution with independent coordinates, or in other words,  $Q_{i}$  can be decomposed into  $Q_{i}(z) = Q_{i}^{1}(z_{1})\dots Q_{i}^{k}(z_{k})$ . There are tremendous applications of mean field assumptions to learning generative models with discrete latent variables, and we refer to Blei et al. [2017] for a survey of these models and
@@ -3776,7 +3776,7 @@ their impact to a wide range of applications including computational biology, co
 When  $z \in \mathbb{R}^k$  is a continuous latent variable, there are several decisions to make towards successfully optimizing (11.20). First we need to give a succinct representation of the distribution  $Q_{i}$  because it is over an infinite number of points. A natural choice is to assume  $Q_{i}$  is a Gaussian distribution with some mean and variance. We would also like to have more succinct representation of the means of  $Q_{i}$  of all the examples. Note that  $Q_{i}(z^{(i)})$  is supposed to approximate  $p(z^{(i)}|x^{(i)};\theta)$ . It would make sense let all the means of the  $Q_{i}$ 's be some function of  $x^{(i)}$ . Concretely, let  $q(\cdot ;\phi), v(\cdot ;\phi)$  be two functions that map from dimension  $d$  to  $k$ , which are parameterized by  $\phi$  and  $\psi$ , we assume that
 
 $$
-Q _ {i} = \mathcal {N} \left(q \left(x ^ {(i)}; \phi\right), \operatorname {d i a g} \left(v \left(x ^ {(i)}; \psi\right)\right) ^ {2}\right) \tag {11.21}
+Q_{i} = \mathcal {N} \left(q \left(x^{(i)}; \phi\right), \operatorname{di ag} \left(v \left(x^{(i)}; \psi\right)\right)^{2}\right) \tag {11.21}
 $$
 
 Here  $\mathrm{diag}(w)$  means the  $k\times k$  matrix with the entries of  $w\in \mathbb{R}^k$  on the diagonal. In other words, the distribution  $Q_{i}$  is assumed to be a Gaussian distribution with independent coordinates, and the mean and standard deviations are governed by  $q$  and  $v$ . Often in variational auto-encoder,  $q$  and  $v$  are chosen to be neural networks. In recent deep learning literature, often  $q,v$  are called encoder (in the sense of encoding the data into latent code), whereas  $g(z;\theta)$  if often referred to as the decoder.
@@ -3786,11 +3786,11 @@ We remark that  $Q_{i}$  of such form in many cases are very far from a good app
 Before optimizing the ELBO, let's first verify whether we can efficiently evaluate the value of the ELBO for fixed  $Q$  of the form (11.21) and  $\theta$ . We rewrite the ELBO as a function of  $\phi, \psi, \theta$  by
 
 $$
-\operatorname {E L B O} (\phi , \psi , \theta) = \sum_ {i = 1} ^ {n} \operatorname {E} _ {z ^ {(i)} \sim Q _ {i}} \left[ \log \frac {p \left(x ^ {(i)} , z ^ {(i)} ; \theta\right)}{Q _ {i} \left(z ^ {(i)}\right)} \right], \tag {11.22}
+\operatorname{EL BO} (\phi , \psi , \theta) = \sum_{i = 1}^{n} \operatorname{E}_{z^{(i)} \sim Q_{i}} \left[ \log \frac{p \left(x^{(i)} , z^{(i)} ; \theta\right)}{Q_{i} \left(z^{(i)}\right)} \right], \tag {11.22}
 $$
 
 $$
-\text {w h e r e} Q _ {i} = \mathcal {N} (q (x ^ {(i)}; \phi), \operatorname {d i a g} (v (x ^ {(i)}; \psi)) ^ {2})
+\text{wh er e} Q_{i} = \mathcal {N} (q (x^{(i)}; \phi), \operatorname{di ag} (v (x^{(i)}; \psi))^{2})
 $$
 
 Note that to evaluate  $Q_{i}(z^{(i)})$  inside the expectation, we should be able to compute the density of  $Q_{i}$ . To estimate the expectation  $\mathrm{E}_{z^{(i)}\sim Q_i}$ , we
@@ -3800,21 +3800,21 @@ should be able to sample from distribution  $Q_{i}$  so that we can build an emp
 Now let's optimize the ELBO. It turns out that we can run gradient ascent over  $\phi, \psi, \theta$  instead of alternating maximization. There is no strong need to compute the maximum over each variable at a much greater cost. (For Gaussian mixture model in Section 11.4, computing the maximum is analytically feasible and relatively cheap, and therefore we did alternating maximization.) Mathematically, let  $\eta$  be the learning rate, the gradient ascent step is
 
 $$
-\theta := \theta + \eta \nabla_ {\theta} \operatorname {E L B O} (\phi , \psi , \theta)
+\theta := \theta + \eta \nabla_{\theta} \operatorname{EL BO} (\phi , \psi , \theta)
 $$
 
 $$
-\phi := \phi + \eta \nabla_ {\phi} \operatorname {E L B O} (\phi , \psi , \theta)
+\phi := \phi + \eta \nabla_{\phi} \operatorname{EL BO} (\phi , \psi , \theta)
 $$
 
 $$
-\psi := \psi + \eta \nabla_ {\psi} \operatorname {E L B O} (\phi , \psi , \theta)
+\psi := \psi + \eta \nabla_{\psi} \operatorname{EL BO} (\phi , \psi , \theta)
 $$
 
 Computing the gradient over  $\theta$  is simple because
 
 $$
-\begin{array}{l} \nabla_ {\theta} \mathrm {E L B O} (\phi , \psi , \theta) = \nabla_ {\theta} \sum_ {i = 1} ^ {n} \mathrm {E} _ {z ^ {(i)} \sim Q _ {i}} \left[ \log \frac {p (x ^ {(i)} , z ^ {(i)} ; \theta)}{Q _ {i} (z ^ {(i)})} \right] \\ = \nabla_ {\theta} \sum_ {i = 1} ^ {n} \operatorname {E} _ {z ^ {(i)} \sim Q _ {i}} \left[ \log p \left(x ^ {(i)}, z ^ {(i)}; \theta\right) \right] \\ = \sum_ {i = 1} ^ {n} \mathrm {E} _ {z ^ {(i)} \sim Q _ {i}} \left[ \nabla_ {\theta} \log p \left(x ^ {(i)}, z ^ {(i)}; \theta\right) \right], \tag {11.23} \\ \end{array}
+\begin{array}{l} \nabla_{\theta} \mathrm{EL BO} (\phi , \psi , \theta) = \nabla_{\theta} \sum_{i = 1}^{n} \mathrm{E}_{z^{(i)} \sim Q_{i}} \left[ \log \frac{p (x^{(i)} , z^{(i)} ; \theta)}{Q_{i} (z^{(i)})} \right] \\ = \nabla_{\theta} \sum_{i = 1}^{n} \operatorname{E}_{z^{(i)} \sim Q_{i}} \left[ \log p \left(x^{(i)}, z^{(i)}; \theta\right) \right] \\ = \sum_{i = 1}^{n} \mathrm{E}_{z^{(i)} \sim Q_{i}} \left[ \nabla_{\theta} \log p \left(x^{(i)}, z^{(i)}; \theta\right) \right], \tag {11.23} \\ \end{array}
 $$
 
 But computing the gradient over  $\phi$  and  $\psi$  is tricky because the sampling distribution  $Q_{i}$  depends on  $\phi$  and  $\psi$ . (Abstractly speaking, the issue we face can be simplified as the problem of computing the gradient  $\mathrm{E}_{z\sim Q_{\phi}}[f(\phi)]$  with respect to variable  $\phi$ . We know that in general,  $\nabla \mathrm{E}_{z\sim Q_{\phi}}[f(\phi)] \neq \mathrm{E}_{z\sim Q_{\phi}}[\nabla f(\phi)]$  because the dependency of  $Q_{\phi}$  on  $\phi$  has to be taken into account as well.)
@@ -3822,7 +3822,7 @@ But computing the gradient over  $\phi$  and  $\psi$  is tricky because the samp
 The idea that comes to rescue is the so-called re-parameterization trick: we rewrite  $z^{(i)}\sim Q_i = \mathcal{N}(q(x^{(i)};\phi),\mathrm{diag}(v(x^{(i)};\psi))^2)$  in an equivalent way:
 
 $$
-z ^ {(i)} = q \left(x ^ {(i)}; \phi\right) + v \left(x ^ {(i)}; \psi\right) \odot \xi^ {(i)} \text {w h e r e} \xi^ {(i)} \sim \mathcal {N} \left(0, I _ {k \times k}\right) \tag {11.24}
+z^{(i)} = q \left(x^{(i)}; \phi\right) + v \left(x^{(i)}; \psi\right) \odot \xi^{(i)} \text{wh er e} \xi^{(i)} \sim \mathcal {N} \left(0, I_{k \times k}\right) \tag {11.24}
 $$
 
 Here  $x \odot y$  denotes the entry-wise product of two vectors of the same dimension. Here we used the fact that  $x \sim N(\mu, \sigma^2)$  is equivalent to that  $x = \mu + \xi \sigma$  with  $\xi \sim N(0,1)$ . We mostly just used this fact in every dimension simultaneously for the random variable  $z^{(i)} \sim Q_i$ .
@@ -3830,13 +3830,13 @@ Here  $x \odot y$  denotes the entry-wise product of two vectors of the same dim
 With this re-parameterization, we have that
 
 $$
-\begin{array}{l} \mathrm {E} _ {z ^ {(i)} \sim Q _ {i}} \left[ \log \frac {p \left(x ^ {(i)} , z ^ {(i)} ; \theta\right)}{Q _ {i} \left(z ^ {(i)}\right)} \right] \tag {11.25} \\ = \operatorname {E} _ {\xi^ {(i)} \sim \mathcal {N} (0, 1)} \left[ \log \frac {p \left(x ^ {(i)} , q \left(x ^ {(i)} ; \phi\right) + v \left(x ^ {(i)} ; \psi\right) \odot \xi^ {(i)} ; \theta\right)}{Q _ {i} \left(q \left(x ^ {(i)} ; \phi\right) + v \left(x ^ {(i)} ; \psi\right) \odot \xi^ {(i)}\right)} \right] \\ \end{array}
+\begin{array}{l} \mathrm{E}_{z^{(i)} \sim Q_{i}} \left[ \log \frac{p \left(x^{(i)} , z^{(i)} ; \theta\right)}{Q_{i} \left(z^{(i)}\right)} \right] \tag {11.25} \\ = \operatorname{E}_{\xi^{(i)} \sim \mathcal {N} (0, 1)} \left[ \log \frac{p \left(x^{(i)} , q \left(x^{(i)} ; \phi\right) + v \left(x^{(i)} ; \psi\right) \odot \xi^{(i)} ; \theta\right)}{Q_{i} \left(q \left(x^{(i)} ; \phi\right) + v \left(x^{(i)} ; \psi\right) \odot \xi^{(i)}\right)} \right] \\ \end{array}
 $$
 
 It follows that
 
 $$
-\begin{array}{l} \nabla_ {\phi} \mathrm {E} _ {z ^ {(i)} \sim Q _ {i}} \left[ \log \frac {p (x ^ {(i)} , z ^ {(i)} ; \theta)}{Q _ {i} (z ^ {(i)})} \right] \\ = \nabla_ {\phi} \mathrm {E} _ {\xi^ {(i)} \sim \mathcal {N} (0, 1)} \left[ \log \frac {p \left(x ^ {(i)} , q \left(x ^ {(i)} ; \phi\right) + v \left(x ^ {(i)} ; \psi\right) \odot \xi^ {(i)} ; \theta\right)}{Q _ {i} \left(q \left(x ^ {(i)} ; \phi\right) + v \left(x ^ {(i)} ; \psi\right) \odot \xi^ {(i)}\right)} \right] \\ = \mathrm {E} _ {\xi^ {(i)} \sim \mathcal {N} (0, 1)} \left[ \nabla_ {\phi} \log \frac {p \left(x ^ {(i)} , q \left(x ^ {(i)} ; \phi\right) + v \left(x ^ {(i)} ; \psi\right) \odot \xi^ {(i)} ; \theta\right)}{Q _ {i} \left(q \left(x ^ {(i)} ; \phi\right) + v \left(x ^ {(i)} ; \psi\right) \odot \xi^ {(i)}\right)} \right] \\ \end{array}
+\begin{array}{l} \nabla_{\phi} \mathrm{E}_{z^{(i)} \sim Q_{i}} \left[ \log \frac{p (x^{(i)} , z^{(i)} ; \theta)}{Q_{i} (z^{(i)})} \right] \\ = \nabla_{\phi} \mathrm{E}_{\xi^{(i)} \sim \mathcal {N} (0, 1)} \left[ \log \frac{p \left(x^{(i)} , q \left(x^{(i)} ; \phi\right) + v \left(x^{(i)} ; \psi\right) \odot \xi^{(i)} ; \theta\right)}{Q_{i} \left(q \left(x^{(i)} ; \phi\right) + v \left(x^{(i)} ; \psi\right) \odot \xi^{(i)}\right)} \right] \\ = \mathrm{E}_{\xi^{(i)} \sim \mathcal {N} (0, 1)} \left[ \nabla_{\phi} \log \frac{p \left(x^{(i)} , q \left(x^{(i)} ; \phi\right) + v \left(x^{(i)} ; \psi\right) \odot \xi^{(i)} ; \theta\right)}{Q_{i} \left(q \left(x^{(i)} ; \phi\right) + v \left(x^{(i)} ; \psi\right) \odot \xi^{(i)}\right)} \right] \\ \end{array}
 $$
 
 We can now sample multiple copies of  $\xi^{(i)}$ 's to estimate the expectation in the RHS of the equation above. We can estimate the gradient with respect to  $\psi$  similarly, and with these, we can implement the gradient ascent algorithm to optimize the ELBO over  $\phi, \psi, \theta$ .
@@ -3858,7 +3858,7 @@ For a less contrived example, consider a dataset resulting from a survey of pilo
 We will shortly develop the PCA algorithm. But prior to running PCA per se, typically we first preprocess the data by normalizing each feature to have mean 0 and variance 1. We do this by subtracting the mean and dividing by the empirical standard deviation:
 
 $$
-x _ {j} ^ {(i)} \gets \frac {x _ {j} ^ {(i)} - \mu_ {j}}{\sigma_ {j}}
+x_{j}^{(i)} \gets \frac{x_{j}^{(i)} - \mu_{j}}{\sigma_{j}}
 $$
 
 where  $\mu_{j} = \frac{1}{n}\sum_{i = 1}^{n}x_{j}^{(i)}$  and  $\sigma_j^2 = \frac{1}{n}\sum_{i = 1}^{n}(x_j^{(i)} - \mu_j)^2$  are the mean variance of feature  $j$ , respectively.
@@ -3888,7 +3888,7 @@ We would like to automatically select the direction  $u$  corresponding to the f
 unit vector  $u$  and a point  $x$ , the length of the projection of  $x$  onto  $u$  is given by  $x^T u$ . I.e., if  $x^{(i)}$  is a point in our dataset (one of the crosses in the plot), then its projection onto  $u$  (the corresponding circle in the figure) is distance  $x^T u$  from the origin. Hence, to maximize the variance of the projections, we would like to choose a unit-length  $u$  so as to maximize:
 
 $$
-\begin{array}{l} \frac {1}{n} \sum_ {i = 1} ^ {n} (x ^ {(i) ^ {T}} u) ^ {2} = \frac {1}{n} \sum_ {i = 1} ^ {n} u ^ {T} x ^ {(i)} x ^ {(i) ^ {T}} u \\ = u ^ {T} \left(\frac {1}{n} \sum_ {i = 1} ^ {n} x ^ {(i)} x ^ {(i) ^ {T}}\right) u. \\ \end{array}
+\begin{array}{l} \frac{1}{n} \sum_{i = 1}^{n} (x^{(i)^{T}} u)^{2} = \frac{1}{n} \sum_{i = 1}^{n} u^{T} x^{(i)} x^{(i)^{T}} u \\ = u^{T} \left(\frac{1}{n} \sum_{i = 1}^{n} x^{(i)} x^{(i)^{T}}\right) u. \\ \end{array}
 $$
 
 We easily recognize that the maximizing this subject to  $\| u\| _2 = 1$  gives the principal eigenvector of  $\Sigma = \frac{1}{n}\sum_{i = 1}^{n}x^{(i)}x^{(i)^T}$ , which is just the empirical covariance matrix of the data (assuming it has zero mean).<sup>1</sup>
@@ -3898,7 +3898,7 @@ To summarize, we have found that if we wish to find a 1-dimensional subspace wit
 Then, to represent  $x^{(i)}$  in this basis, we need only compute the corresponding vector
 
 $$
-y ^ {(i)} = \left[ \begin{array}{c} u _ {1} ^ {T} x ^ {(i)} \\ u _ {2} ^ {T} x ^ {(i)} \\ \vdots \\ u _ {k} ^ {T} x ^ {(i)} \end{array} \right] \in \mathbb {R} ^ {k}.
+y^{(i)} = \left[ \begin{array}{c} u_{1}^{T} x^{(i)} \\ u_{2}^{T} x^{(i)} \\ \vdots \\ u_{k}^{T} x^{(i)} \end{array} \right] \in \mathbb {R}^{k}.
 $$
 
 Thus, whereas  $x^{(i)} \in \mathbb{R}^d$ , the vector  $y^{(i)}$  now gives a lower,  $k$ -dimensional, approximation/representation for  $x^{(i)}$ . PCA is therefore also referred to as a dimensionality reduction algorithm. The vectors  $u_1, \ldots, u_k$  are called the first  $k$  principal components of the data.
@@ -3938,7 +3938,7 @@ Let  $W = A^{-1}$  be the unmixing matrix. Our goal is to find  $W$ , so that gi
 the  $i$ -th row of  $W$ , so that
 
 $$
-W = \left[ \begin{array}{c} - w _ {1} ^ {T} - \\ \vdots \\ - w _ {d} ^ {T} - \end{array} \right].
+W = \left[ \begin{array}{c} - w_{1}^{T} - \\ \vdots \\ - w_{d}^{T} - \end{array} \right].
 $$
 
 Thus,  $w_{i}\in \mathbb{R}^{d}$ , and the  $j$ -th source can be recovered as  $s_j^{(i)} = w_j^T x^{(i)}$ .
@@ -3964,11 +3964,11 @@ Are these the only sources of ambiguity in ICA? It turns out that they are, so l
 Now, suppose we observe some  $x = As$ , where  $A$  is our mixing matrix. Then, the distribution of  $x$  will be Gaussian,  $x \sim \mathcal{N}(0, AA^T)$ , since
 
 $$
-\operatorname {E} _ {s \sim \mathcal {N} (0, I)} [ x ] = \operatorname {E} [ A s ] = A \operatorname {E} [ s ] = 0
+\operatorname{E}_{s \sim \mathcal {N} (0, I)} [ x ] = \operatorname{E} [ A s ] = A \operatorname{E} [ s ] = 0
 $$
 
 $$
-\operatorname {C o v} [ x ] = \operatorname {E} _ {s \sim \mathcal {N} (0, I)} [ x x ^ {T} ] = \operatorname {E} [ A s s ^ {T} A ^ {T} ] = A \operatorname {E} [ s s ^ {T} ] A ^ {T} = A \cdot \operatorname {C o v} [ s ] \cdot A ^ {T} = A A ^ {T}
+\operatorname{Co v} [ x ] = \operatorname{E}_{s \sim \mathcal {N} (0, I)} [ x x^{T} ] = \operatorname{E} [ A s s^{T} A^{T} ] = A \operatorname{E} [ s s^{T} ] A^{T} = A \cdot \operatorname{Co v} [ s ] \cdot A^{T} = A A^{T}
 $$
 
 Now, let  $R$  be an arbitrary orthogonal (less formally, a rotation/reflection) matrix, so that  $R R^T = R^T R = I$ , and let  $A' = A R$ . Then if the data had been mixed according to  $A'$  instead of  $A$ , we would have instead observed  $x' = A's$ . The distribution of  $x'$  is also Gaussian,  $x' \sim \mathcal{N}(0, A A^T)$ , since  $\operatorname{E}_{s \sim \mathcal{N}(0,I)}[x'(x')^T] = \operatorname{E}[A's s^T(A')^T] = \operatorname{E}[A R s s^T(A R)^T] = A R R^T A^T = A A^T$ . Hence, whether the mixing matrix is  $A$  or  $A'$ , we would observe data from a  $\mathcal{N}(0, A A^T)$  distribution. Thus, there is no way to tell if the sources were mixed using  $A$  and  $A'$ . There is an arbitrary rotational component in the mixing matrix that cannot be determined from the data, and we cannot recover the original sources.
@@ -3988,7 +3988,7 @@ conclude that  $p_x(x) = p_s(Wx)$ . However, this is incorrect. For example, let
 More generally, if  $s$  is a vector-valued distribution with density  $p_s$ , and  $x = As$  for a square, invertible matrix  $A$ , then the density of  $x$  is given by
 
 $$
-p _ {x} (x) = p _ {s} (W x) \cdot | W |,
+p_{x} (x) = p_{s} (W x) \cdot | W |,
 $$
 
 where  $W = A^{-1}$
@@ -4002,13 +4002,13 @@ We are now ready to derive an ICA algorithm. We describe an algorithm by Bell an
 We suppose that the distribution of each source  $s_j$  is given by a density  $p_s$ , and that the joint distribution of the sources  $s$  is given by
 
 $$
-p (s) = \prod_ {j = 1} ^ {d} p _ {s} (s _ {j}).
+p (s) = \prod_{j = 1}^{d} p_{s} (s_{j}).
 $$
 
 Note that by modeling the joint distribution as a product of marginals, we capture the assumption that the sources are independent. Using our formulas from the previous section, this implies the following density on  $x = As = W^{-1}s$ :
 
 $$
-p (x) = \prod_ {j = 1} ^ {d} p _ {s} (w _ {j} ^ {T} x) \cdot | W |.
+p (x) = \prod_{j = 1}^{d} p_{s} (w_{j}^{T} x) \cdot | W |.
 $$
 
 All that remains is to specify a density for the individual sources  $p_{s}$ .
@@ -4020,13 +4020,13 @@ Thus, to specify a density for the  $s_i$ 's, all we need to do is to specify so
 The square matrix  $W$  is the parameter in our model. Given a training set  $\{x^{(i)}; i = 1, \dots, n\}$ , the log likelihood is given by
 
 $$
-\ell (W) = \sum_ {i = 1} ^ {n} \left(\sum_ {j = 1} ^ {d} \log g ^ {\prime} (w _ {j} ^ {T} x ^ {(i)}) + \log | W |\right).
+\ell (W) = \sum_{i = 1}^{n} \left(\sum_{j = 1}^{d} \log g^{\prime} (w_{j}^{T} x^{(i)}) + \log | W |\right).
 $$
 
 We would like to maximize this in terms  $W$ . By taking derivatives and using the fact (from the first set of notes) that  $\nabla_W|W| = |W|(W^{-1})^T$ , we easily derive a stochastic gradient ascent learning rule. For a training example  $x^{(i)}$ , the update rule is:
 
 $$
-W := W + \alpha \left(\left[ \begin{array}{c} 1 - 2 g (w _ {1} ^ {T} x ^ {(i)}) \\ 1 - 2 g (w _ {2} ^ {T} x ^ {(i)}) \\ \vdots \\ 1 - 2 g (w _ {d} ^ {T} x ^ {(i)}) \end{array} \right] x ^ {(i) T} + (W ^ {T}) ^ {- 1}\right),
+W := W + \alpha \left(\left[ \begin{array}{c} 1 - 2 g (w_{1}^{T} x^{(i)}) \\ 1 - 2 g (w_{2}^{T} x^{(i)}) \\ \vdots \\ 1 - 2 g (w_{d}^{T} x^{(i)}) \end{array} \right] x^{(i) T} + (W^{T})^{- 1}\right),
 $$
 
 where  $\alpha$  is the learning rate.
@@ -4064,7 +4064,7 @@ The linear probe approach uses a linear head on top of the representation to pre
 $w$  on the downstream task loss to predict the task label
 
 $$
-\min  _ {w \in \mathbb {R} ^ {m}} \frac {1}{n _ {\mathrm {t a s k}}} \sum_ {i = 1} ^ {n _ {\mathrm {t a s k}}} \ell_ {\mathrm {t a s k}} \left(y _ {\mathrm {t a s k}} ^ {(i)}, w ^ {\top} \phi_ {\hat {\theta}} \left(x _ {\mathrm {t a s k}} ^ {(i)}\right)\right) \tag {14.1}
+\min_{w \in \mathbb {R}^{m}} \frac{1}{n_{\mathrm{ta sk}}} \sum_{i = 1}^{n_{\mathrm{ta sk}}} \ell_{\mathrm{ta sk}} \left(y_{\mathrm{ta sk}}^{(i)}, w^{\top} \phi_{\hat {\theta}} \left(x_{\mathrm{ta sk}}^{(i)}\right)\right) \tag {14.1}
 $$
 
 E.g., if the downstream task is a regression problem, we will have  $\ell_{\mathrm{task}}(y_{\mathrm{task}},w^{\top}\phi_{\hat{\theta}}(x_{\mathrm{task}})) = (y_{\mathrm{task}} - w^{\top}\phi_{\hat{\theta}}(x_{\mathrm{task}}))^{2}$ .
@@ -4072,7 +4072,7 @@ E.g., if the downstream task is a regression problem, we will have  $\ell_{\math
 The finetuning algorithm uses a similar structure for the downstream prediction model, but also further finetunes the pretrained model (instead of keeping it fixed). Concretely, the prediction model is  $w^\top \phi_\theta(x)$  with parameters  $w$  and  $\theta$ . We optimize both  $w$  and  $\theta$  to fit the downstream data, but initialize  $\theta$  with the pretrained model  $\hat{\theta}$ . The linear head  $w$  is usually initialized randomly.
 
 $$
-\underset {w, \theta} {\text {m i n i m i z e}} \frac {1}{n _ {\text {t a s k}}} \sum_ {i = 1} ^ {n _ {\text {t a s k}}} \ell_ {\text {t a s k}} \left(y _ {\text {t a s k}} ^ {(i)}, w ^ {\top} \phi_ {\theta} \left(x _ {\text {t a s k}} ^ {(i)}\right)\right) \tag {14.2}
+\underset {w, \theta} {\text{mi ni mi ze}} \frac{1}{n_{\text{ta sk}}} \sum_{i = 1}^{n_{\text{ta sk}}} \ell_{\text{ta sk}} \left(y_{\text{ta sk}}^{(i)}, w^{\top} \phi_{\theta} \left(x_{\text{ta sk}}^{(i)}\right)\right) \tag {14.2}
 $$
 
 with initialization  $w\gets$  random vector (14.3)
@@ -4100,7 +4100,7 @@ On the other hand, we can also take another random image  $z$  from the pretrain
 There are many recent algorithms based on the contrastive learning principle, and here we introduce SIMCLR [Chen et al., 2020] as an concrete example. The loss function is defined on a batch of examples  $(x^{1},\dots ,x^{(B)})$  with batch size  $B$ . The algorithm computes two random augmentations for each example  $x^{(i)}$  in the batch, denoted by  $\hat{x}^{(i)}$  and  $\tilde{x}^{(i)}$ . As a result, we have the augmented batch of  $2B$  examples:  $\hat{x}^1,\dots ,\hat{x}^{(B)},\tilde{x}^1,\dots ,\tilde{x}^{(B)}$ . The SIMCLR loss is defined as<sup>3</sup>
 
 $$
-L _ {\mathrm {p r e}} (\theta) = - \sum_ {i = 1} ^ {B} \log \frac {\exp \big (\phi_ {\theta} (\hat {x} ^ {(i)}) ^ {\top} \phi_ {\theta} (\tilde {x} ^ {(i)}) \big)}{\exp \big (\phi_ {\theta} (\hat {x} ^ {(i)}) ^ {\top} \phi_ {\theta} (\tilde {x} ^ {(i)}) \big) + \sum_ {j \neq i} \exp \big (\phi_ {\theta} (\hat {x} ^ {(i)}) ^ {\top} \phi_ {\theta} (\tilde {x} ^ {(j)}) \big)}.
+L_{\mathrm{pr e}} (\theta) = - \sum_{i = 1}^{B} \log \frac{\exp \big (\phi_{\theta} (\hat {x}^{(i)})^{\top} \phi_{\theta} (\tilde {x}^{(i)}) \big)}{\exp \big (\phi_{\theta} (\hat {x}^{(i)})^{\top} \phi_{\theta} (\tilde {x}^{(i)}) \big) + \sum_{j \neq i} \exp \big (\phi_{\theta} (\hat {x}^{(i)})^{\top} \phi_{\theta} (\tilde {x}^{(j)}) \big)}.
 $$
 
 The intuition is as follows. The loss is increasing in  $\phi_{\theta}(\hat{x}^{(i)})^{\top}\phi_{\theta}(\tilde{x}^{(j)})$ , and thus minimizing the loss encourages  $\phi_{\theta}(\hat{x}^{(i)})^{\top}\phi_{\theta}(\tilde{x}^{(j)})$  to be small, making  $\phi_{\theta}(\hat{x}^{(i)})$  far away from  $\phi_{\theta}(\tilde{x}^{(j)})$ . On the other hand, the loss is decreasing in
@@ -4114,7 +4114,7 @@ Natural language processing is another area where pretraining models are particu
 A language model is a probabilistic model representing the probability of a document, denoted by  $p(x_{1},\dots ,x_{T})$ . This probability distribution is very complex because its support size is  $V^{T}$  — exponential in the length of the document. Instead of modeling the distribution of a document itself, we can apply the chain rule of conditional probability to decompose it as follows:
 
 $$
-p (x _ {1}, \dots , x _ {T}) = p (x _ {1}) p (x _ {2} | x _ {1}) \dots p (x _ {T} | x _ {1}, \dots , x _ {T - 1}). \tag {14.5}
+p (x_{1}, \dots , x_{T}) = p (x_{1}) p (x_{2} | x_{1}) \dots p (x_{T} | x_{1}, \dots , x_{T - 1}). \tag {14.5}
 $$
 
 Now the support size of each of the conditional probability  $p(x_{t}|x_{1},\dots ,x_{t - 1})$  is  $V$ .
@@ -4133,7 +4133,7 @@ Figure 14.1: The inputs and outputs of a Transformer model.
 The conditional probability  $p(x_{t} | x_{1}, \dots, x_{t-1})$  is the softmax of the logits:
 
 $$
-\begin{array}{l} \left[ \begin{array}{c} p \left(x _ {t} = 1 \mid x _ {1} \dots , x _ {t - 1}\right) \\ p \left(x _ {t} = 2 \mid x _ {1} \dots , x _ {t - 1}\right) \\ \vdots \\ p \left(x _ {t} = V \mid x _ {1} \dots , x _ {t - 1}\right) \end{array} \right] = \operatorname {s o f t m a x} \left(u _ {t}\right) \in \mathbb {R} ^ {V} (14.6) \\ = \operatorname {s o f t m a x} \left(f _ {\theta} \left(x _ {0}, \dots , x _ {t - 1}\right)\right) (14.7) \\ \end{array}
+\begin{array}{l} \left[ \begin{array}{c} p \left(x_{t} = 1 \mid x_{1} \dots , x_{t - 1}\right) \\ p \left(x_{t} = 2 \mid x_{1} \dots , x_{t - 1}\right) \\ \vdots \\ p \left(x_{t} = V \mid x_{1} \dots , x_{t - 1}\right) \end{array} \right] = \operatorname{so ft ma x} \left(u_{t}\right) \in \mathbb {R}^{V} (14.6) \\ = \operatorname{so ft ma x} \left(f_{\theta} \left(x_{0}, \dots , x_{t - 1}\right)\right) (14.7) \\ \end{array}
 $$
 
 We train the Transformer parameter  $\theta$  by minimizing the negative log-likelihood of seeing the data under the probabilistic model defined by  $\theta$ ,
@@ -4141,17 +4141,17 @@ We train the Transformer parameter  $\theta$  by minimizing the negative log-lik
 which is the cross-entropy loss on the logitis.
 
 $$
-\begin{array}{l} \operatorname {l o s s} (\theta) = \frac {1}{T} \sum_ {t = 1} ^ {T} - \log \left(p _ {\theta} \left(x _ {t} \mid x _ {1}, \dots , x _ {t - 1}\right)\right) \tag {14.8} \\ = \frac {1}{T} \sum_ {t = 1} ^ {T} \ell_ {\mathrm {c e}} (f _ {\theta} (x _ {0}, x _ {1}, \dots , x _ {t - 1}), x _ {t}) \\ = \frac {1}{T} \sum_ {t = 1} ^ {T} - \log (\operatorname {s o f t m a x} (f _ {\theta} (x _ {0}, x _ {1}, \dots , x _ {t - 1})) _ {x _ {t}}). \\ \end{array}
+\begin{array}{l} \operatorname{lo ss} (\theta) = \frac{1}{T} \sum_{t = 1}^{T} - \log \left(p_{\theta} \left(x_{t} \mid x_{1}, \dots , x_{t - 1}\right)\right) \tag {14.8} \\ = \frac{1}{T} \sum_{t = 1}^{T} \ell_{\mathrm{ce}} (f_{\theta} (x_{0}, x_{1}, \dots , x_{t - 1}), x_{t}) \\ = \frac{1}{T} \sum_{t = 1}^{T} - \log (\operatorname{so ft ma x} (f_{\theta} (x_{0}, x_{1}, \dots , x_{t - 1}))_{x_{t}}). \\ \end{array}
 $$
 
 Autoregressive text decoding / generation. Given a autoregressive Transformer, we can simply sample text from it sequentially. Given a prefix  $x_{1}, \ldots, x_{t}$ , we generate text completion  $x_{t+1}, \ldots, x_{T}$  sequentially using the conditional distribution.
 
 $$
-x _ {t + 1} \sim \operatorname {s o f t m a x} \left(f _ {\theta} \left(x _ {0}, x _ {1}, \dots , x _ {t}\right)\right) \tag {14.9}
+x_{t + 1} \sim \operatorname{so ft ma x} \left(f_{\theta} \left(x_{0}, x_{1}, \dots , x_{t}\right)\right) \tag {14.9}
 $$
 
 $$
-x _ {t + 2} \sim \operatorname {s o f t m a x} \left(f _ {\theta} \left(x _ {0}, x _ {1}, \dots , x _ {t + 1}\right)\right) \tag {14.10}
+x_{t + 2} \sim \operatorname{so ft ma x} \left(f_{\theta} \left(x_{0}, x_{1}, \dots , x_{t + 1}\right)\right) \tag {14.10}
 $$
 
 $$
@@ -4159,17 +4159,17 @@ $$
 $$
 
 $$
-x _ {T} \sim \operatorname {s o f t m a x} \left(f _ {\theta} \left(x _ {0}, x _ {1}, \dots , x _ {T - 1}\right)\right). \tag {14.12}
+x_{T} \sim \operatorname{so ft ma x} \left(f_{\theta} \left(x_{0}, x_{1}, \dots , x_{T - 1}\right)\right). \tag {14.12}
 $$
 
 Note that each generated token is used as the input to the model when generating the following tokens. In practice, people often introduce a parameter  $\tau > 0$  named temperature to further adjust the entropy/sharpness of the generated distribution,
 
 $$
-x _ {t + 1} \sim \operatorname {s o f t m a x} \left(f _ {\theta} \left(x _ {0}, x _ {1}, \dots , x _ {t}\right) / \tau\right) \tag {14.13}
+x_{t + 1} \sim \operatorname{so ft ma x} \left(f_{\theta} \left(x_{0}, x_{1}, \dots , x_{t}\right) / \tau\right) \tag {14.13}
 $$
 
 $$
-x _ {t + 2} \sim \operatorname {s o f t m a x} \left(f _ {\theta} \left(x _ {0}, x _ {1}, \dots , x _ {t + 1}\right) / \tau\right) \tag {14.14}
+x_{t + 2} \sim \operatorname{so ft ma x} \left(f_{\theta} \left(x_{0}, x_{1}, \dots , x_{t + 1}\right) / \tau\right) \tag {14.14}
 $$
 
 $$
@@ -4177,7 +4177,7 @@ $$
 $$
 
 $$
-x _ {T} \sim \operatorname {s o f t m a x} \left(f _ {\theta} \left(x _ {0}, x _ {1}, \dots , x _ {T - 1}\right) / \tau\right). \tag {14.16}
+x_{T} \sim \operatorname{so ft ma x} \left(f_{\theta} \left(x_{0}, x_{1}, \dots , x_{T - 1}\right) / \tau\right). \tag {14.16}
 $$
 
 When  $\tau = 1$ , the text is sampled from the original conditional probability defined by the model. With a decreasing  $\tau$ , the generated text gradually becomes more "deterministic".  $\tau \rightarrow 0$  reduces to greedy decoding, where we generate the most probable next token from the conditional probability.
@@ -4197,29 +4197,29 @@ Then, we compute the most likely next word predicted by the language model given
 In-context learning is mostly used for few-shot settings where we have a few labeled examples  $(x_{\mathrm{task}}^{(1)},y_{\mathrm{task}}^{(1)}),\dots ,(x_{\mathrm{task}}^{(n_{\mathrm{task}})},y_{\mathrm{task}}^{(n_{\mathrm{task}})})$  . Given a test example  $x_{\mathrm{test}}$  , we construct a document  $(x_{1},\dots ,x_{T})$  , which is more commonly called a "prompt" in this context, by concatenating the labeled examples and the text example in some format. For example, we may construct the prompt as follows
 
 $$
-x _ {1}, \dots , x _ {T} = \quad \text {" Q :} 2 \sim 3 = ? \quad x _ {\mathrm {t a s k}} ^ {(1)}
+x_{1}, \dots , x_{T} = \quad \text{"Q :} 2 \sim 3 = ? \quad x_{\mathrm{ta sk}}^{(1)}
 $$
 
 $$
-\begin{array}{c c} \text {A : 5} & y _ {\text {t a s k}} ^ {(1)} \\ \hline \end{array}
+\begin{array}{c c} \text{A :5} & y_{\text{ta sk}}^{(1)} \\ \hline \end{array}
 $$
 
 $$
-\mathrm {Q :} 6 \sim 7 = ? \quad x _ {\text {t a s k}} ^ {(2)}
+\mathrm{Q :} 6 \sim 7 = ? \quad x_{\text{ta sk}}^{(2)}
 $$
 
 $$
-\begin{array}{c c} \text {A : 1 3} & y _ {\text {t a s k}} ^ {(2)} \end{array}
+\begin{array}{c c} \text{A :1 3} & y_{\text{ta sk}}^{(2)} \end{array}
 $$
 
 $$
-\begin{array}{l} \dots \\ Q: 1 5 \sim 2 = ? ” \end{array} \qquad x _ {\text {t e s t}}
+\begin{array}{l} \dots \\ Q: 1 5 \sim 2 = ? ” \end{array} \qquad x_{\text{te st}}
 $$
 
 Then, we let the pretrained model generate the most likely  $x_{T + 1}, x_{T + 2}, \dots$ . In this case, if the model can "learn" that the symbol  $\sim$  means addition from the few examples, we will obtain the following which suggests the answer is 17.
 
 $$
-x _ {T + 1}, x _ {T + 2}, \dots = “ A: 1 7 ”.
+x_{T + 1}, x_{T + 2}, \dots = “ A: 1 7 ”.
 $$
 
 The area of foundation models is very new and quickly growing. The notes here only attempt to introduce these models on a conceptual level with a significant amount of simplification. We refer the readers to other materials, e.g., Bommasani et al. [2021], for more details.
@@ -4253,19 +4253,19 @@ A Markov decision process is a tuple  $(S, A, \{P_{sa}\}, \gamma, R)$ , where:
 The dynamics of an MDP proceeds as follows: We start in some state  $s_0$ , and get to choose some action  $a_0 \in A$  to take in the MDP. As a result of our choice, the state of the MDP randomly transitions to some successor state  $s_1$ , drawn according to  $s_1 \sim P_{s_0a_0}$ . Then, we get to pick another action  $a_1$ . As a result of this action, the state transitions again, now to some  $s_2 \sim P_{s_1a_1}$ . We then pick  $a_2$ , and so on.... Pictorially, we can represent this process as follows:
 
 $$
-s _ {0} \xrightarrow {a _ {0}} s _ {1} \xrightarrow {a _ {1}} s _ {2} \xrightarrow {a _ {2}} s _ {3} \xrightarrow {a _ {3}} \dots
+s_{0} \xrightarrow {a_{0}} s_{1} \xrightarrow {a_{1}} s_{2} \xrightarrow {a_{2}} s_{3} \xrightarrow {a_{3}} \dots
 $$
 
 Upon visiting the sequence of states  $s_0, s_1, \ldots$  with actions  $a_0, a_1, \ldots$ , our total payoff is given by
 
 $$
-R \left(s _ {0}, a _ {0}\right) + \gamma R \left(s _ {1}, a _ {1}\right) + \gamma^ {2} R \left(s _ {2}, a _ {2}\right) + \dots .
+R \left(s_{0}, a_{0}\right) + \gamma R \left(s_{1}, a_{1}\right) + \gamma^{2} R \left(s_{2}, a_{2}\right) + \dots .
 $$
 
 Or, when we are writing rewards as a function of the states only, this becomes
 
 $$
-R (s _ {0}) + \gamma R (s _ {1}) + \gamma^ {2} R (s _ {2}) + \dots .
+R (s_{0}) + \gamma R (s_{1}) + \gamma^{2} R (s_{2}) + \dots .
 $$
 
 For most of our development, we will use the simpler state-rewards  $R(s)$ , though the generalization to state-action rewards  $R(s,a)$  offers no special difficulties.
@@ -4273,7 +4273,7 @@ For most of our development, we will use the simpler state-rewards  $R(s)$ , tho
 Our goal in reinforcement learning is to choose actions over time so as to maximize the expected value of the total payoff:
 
 $$
-\operatorname {E} \left[ R (s _ {0}) + \gamma R (s _ {1}) + \gamma^ {2} R (s _ {2}) + \dots \right]
+\operatorname{E} \left[ R (s_{0}) + \gamma R (s_{1}) + \gamma^{2} R (s_{2}) + \dots \right]
 $$
 
 Note that the reward at timestep  $t$  is discounted by a factor of  $\gamma^t$ . Thus, to make this expectation large, we would like to accrue positive rewards as soon as possible (and postpone negative rewards as long as possible). In economic applications where  $R(\cdot)$  is the amount of money made,  $\gamma$  also has a natural interpretation in terms of the interest rate (where a dollar today is worth more than a dollar tomorrow).
@@ -4281,7 +4281,7 @@ Note that the reward at timestep  $t$  is discounted by a factor of  $\gamma^t$ 
 A policy is any function  $\pi : S \mapsto A$  mapping from the states to the actions. We say that we are executing some policy  $\pi$  if, whenever we are in state  $s$ , we take action  $a = \pi(s)$ . We also define the value function for a policy  $\pi$  according to
 
 $$
-V ^ {\pi} (s) = \operatorname {E} \left[ R (s _ {0}) + \gamma R (s _ {1}) + \gamma^ {2} R (s _ {2}) + \dots \right\rvert   s _ {0} = s, \pi ].
+V^{\pi} (s) = \operatorname{E} \left[ R (s_{0}) + \gamma R (s_{1}) + \gamma^{2} R (s_{2}) + \dots \right\rvert   s_{0} = s, \pi ].
 $$
 
 $V^{\pi}(s)$  is simply the expected sum of discounted rewards upon starting in state  $s$ , and taking actions according to  $\pi$ .<sup>1</sup>
@@ -4289,7 +4289,7 @@ $V^{\pi}(s)$  is simply the expected sum of discounted rewards upon starting in 
 Given a fixed policy  $\pi$ , its value function  $V^{\pi}$  satisfies the Bellman equations:
 
 $$
-V ^ {\pi} (s) = R (s) + \gamma \sum_ {s ^ {\prime} \in S} P _ {s \pi (s)} (s ^ {\prime}) V ^ {\pi} (s ^ {\prime}).
+V^{\pi} (s) = R (s) + \gamma \sum_{s^{\prime} \in S} P_{s \pi (s)} (s^{\prime}) V^{\pi} (s^{\prime}).
 $$
 
 This says that the expected sum of discounted rewards  $V^{\pi}(s)$  for starting in  $s$  consists of two terms: First, the immediate reward  $R(s)$  that we get right away simply for starting in state  $s$ , and second, the expected sum of future discounted rewards. Examining the second term in more detail, we see that the summation term above can be rewritten  $\mathrm{E}_{s'} \sim P_{s\pi (s)}[V^{\pi}(s')]$ . This is the expected sum of discounted rewards for starting in state  $s'$ , where  $s'$  is distributed according  $P_{s\pi (s)}$ , which is the distribution over where we will end up after taking the first action  $\pi (s)$  in the MDP from state  $s$ . Thus, the second term above gives the expected sum of discounted rewards obtained after the first step in the MDP.
@@ -4299,13 +4299,13 @@ Bellman's equations can be used to efficiently solve for  $V^{\pi}$ . Specifical
 We also define the optimal value function according to
 
 $$
-V ^ {*} (s) = \max  _ {\pi} V ^ {\pi} (s). \tag {15.1}
+V^{*} (s) = \max_{\pi} V^{\pi} (s). \tag {15.1}
 $$
 
 In other words, this is the best possible expected sum of discounted rewards that can be attained using any policy. There is also a version of Bellman's equations for the optimal value function:
 
 $$
-V ^ {*} (s) = R (s) + \max  _ {a \in A} \gamma \sum_ {s ^ {\prime} \in S} P _ {s a} \left(s ^ {\prime}\right) V ^ {*} \left(s ^ {\prime}\right). \tag {15.2}
+V^{*} (s) = R (s) + \max_{a \in A} \gamma \sum_{s^{\prime} \in S} P_{s a} \left(s^{\prime}\right) V^{*} \left(s^{\prime}\right). \tag {15.2}
 $$
 
 The first term above is the immediate reward as before. The second term is the maximum over all actions  $a$  of the expected future sum of discounted rewards we'll get upon after action  $a$ . You should make sure you understand this equation and see why it makes sense.
@@ -4313,7 +4313,7 @@ The first term above is the immediate reward as before. The second term is the m
 We also define a policy  $\pi^{*}:S\mapsto A$  as follows:
 
 $$
-\pi^ {*} (s) = \arg \max  _ {a \in A} \sum_ {s ^ {\prime} \in S} P _ {s a} \left(s ^ {\prime}\right) V ^ {*} \left(s ^ {\prime}\right). \tag {15.3}
+\pi^{*} (s) = \arg \max_{a \in A} \sum_{s^{\prime} \in S} P_{s a} \left(s^{\prime}\right) V^{*} \left(s^{\prime}\right). \tag {15.3}
 $$
 
 Note that  $\pi^{*}(s)$  gives the action  $a$  that attains the maximum in the "max" in Equation (15.2).
@@ -4321,7 +4321,7 @@ Note that  $\pi^{*}(s)$  gives the action  $a$  that attains the maximum in the 
 It is a fact that for every state  $s$  and every policy  $\pi$ , we have
 
 $$
-V ^ {*} (s) = V ^ {\pi^ {*}} (s) \geq V ^ {\pi} (s).
+V^{*} (s) = V^{\pi^{*}} (s) \geq V^{\pi} (s).
 $$
 
 The first equality says that the  $V^{\pi^{*}}$ , the value function for  $\pi^{*}$ , is equal to the optimal value function  $V^{*}$  for every state  $s$ . Further, the inequality above says that  $\pi^{*}$ 's value is at least a large as the value of any other other policy. In other words,  $\pi^{*}$  as defined in Equation (15.3) is the optimal policy.
@@ -4343,7 +4343,7 @@ The first algorithm, value iteration, is as follows:
 3: For every state, update
 
 $$
-V (s) := R (s) + \max  _ {a \in A} \gamma \sum_ {s ^ {\prime}} P _ {s a} \left(s ^ {\prime}\right) V \left(s ^ {\prime}\right). \tag {15.4}
+V (s) := R (s) + \max_{a \in A} \gamma \sum_{s^{\prime}} P_{s a} \left(s^{\prime}\right) V \left(s^{\prime}\right). \tag {15.4}
 $$
 
 This algorithm can be thought of as repeatedly trying to update the estimated value function using Bellman Equations (15.2).
@@ -4370,7 +4370,7 @@ $\triangleright$  typically by linear system solver
 4: For each state  $s$ , let
 
 $$
-\pi (s) := \arg \max _ {a \in A} \sum_ {s ^ {\prime}} P _ {s a} (s ^ {\prime}) V (s ^ {\prime}).
+\pi (s) := \arg \max_{a \in A} \sum_{s^{\prime}} P_{s a} (s^{\prime}) V (s^{\prime}).
 $$
 
 Both value iteration and policy iteration are standard algorithms for solving MDPs, and there isn't currently universal agreement over which algorithm is better. For small MDPs, policy iteration is often very fats and converges with very few iterations. However, for MDPs with large state spaces, solving for  $V^{\pi}$  explicitly would involve solving a large system of linear equations, and could be difficult (and note that one has to solve the linear system multiple times in policy iteration). In these problems, value iteration may be preferred. For this reason, in practice value iteration seems to be used more often than policy iteration. For some more discussions on the comparison and connection of value iteration and policy iteration, please see Section 15.5.
@@ -4384,7 +4384,7 @@ For example, suppose that, for the inverted pendulum problem (see prob
 lem set 4), we had a number of trials in the MDP, that proceeded as follows:
 
 $$
-\begin{array}{l} s _ {0} ^ {(1)} \xrightarrow {a _ {0} ^ {(1)}} s _ {1} ^ {(1)} \xrightarrow {a _ {1} ^ {(1)}} s _ {2} ^ {(1)} \xrightarrow {a _ {2} ^ {(1)}} s _ {3} ^ {(1)} \xrightarrow {a _ {3} ^ {(1)}} \dots \\ s _ {0} ^ {(2)} \xrightarrow {a _ {0} ^ {(2)}} s _ {1} ^ {(2)} \xrightarrow {a _ {1} ^ {(2)}} s _ {2} ^ {(2)} \xrightarrow {a _ {2} ^ {(2)}} s _ {3} ^ {(2)} \xrightarrow {a _ {3} ^ {(2)}} \dots \\ \end{array}
+\begin{array}{l} s_{0}^{(1)} \xrightarrow {a_{0}^{(1)}} s_{1}^{(1)} \xrightarrow {a_{1}^{(1)}} s_{2}^{(1)} \xrightarrow {a_{2}^{(1)}} s_{3}^{(1)} \xrightarrow {a_{3}^{(1)}} \dots \\ s_{0}^{(2)} \xrightarrow {a_{0}^{(2)}} s_{1}^{(2)} \xrightarrow {a_{1}^{(2)}} s_{2}^{(2)} \xrightarrow {a_{2}^{(2)}} s_{3}^{(2)} \xrightarrow {a_{3}^{(2)}} \dots \\ \end{array}
 $$
 
 .
@@ -4394,7 +4394,7 @@ Here,  $s_i^{(j)}$  is the state we were at time  $i$  of trial  $j$ , and  $a_i
 Given this "experience" in the MDP consisting of a number of trials, we can then easily derive the maximum likelihood estimates for the state transition probabilities:
 
 $$
-P _ {s a} \left(s ^ {\prime}\right) = \frac {\# \text {t i m e s t o o k w e a c t i o n a i n s t a t e s a n d g o t t o} s ^ {\prime}}{\# \text {t i m e s w e t o o k a c t i o n a i n s t a t e s}} \tag {15.5}
+P_{s a} \left(s^{\prime}\right) = \frac{\# \text{ti me st oo kw ea ct io na in st at es an dg ot to} s^{\prime}}{\# \text{ti me sw et oo ka ct io na in st at es}} \tag {15.5}
 $$
 
 Or, if the ratio above is “ $0/0$ ”—corresponding to the case of never having taken action  $a$  in state  $s$  before—the we might simply estimate  $P_{sa}(s')$  to be  $1/|S|$ . (I.e., estimate  $P_{sa}$  to be the uniform distribution over all states.)
@@ -4465,13 +4465,13 @@ An alternative way to get a model is to learn one from data collected in the MDP
 choosing actions. We would then observe  $n$  state sequences like the following:
 
 $$
-\begin{array}{l} s _ {0} ^ {(1)} \xrightarrow {a _ {0} ^ {(1)}} s _ {1} ^ {(1)} \xrightarrow {a _ {1} ^ {(1)}} s _ {2} ^ {(1)} \xrightarrow {a _ {2} ^ {(1)}} \dots \xrightarrow {a _ {T - 1} ^ {(1)}} s _ {T} ^ {(1)} \\ s _ {0} ^ {(2)} \xrightarrow {a _ {0} ^ {(2)}} s _ {1} ^ {(2)} \xrightarrow {a _ {1} ^ {(2)}} s _ {2} ^ {(2)} \xrightarrow {a _ {2} ^ {(2)}} \dots \xrightarrow {a _ {T - 1} ^ {(2)}} s _ {T} ^ {(2)} \\ \end{array}
+\begin{array}{l} s_{0}^{(1)} \xrightarrow {a_{0}^{(1)}} s_{1}^{(1)} \xrightarrow {a_{1}^{(1)}} s_{2}^{(1)} \xrightarrow {a_{2}^{(1)}} \dots \xrightarrow {a_{T - 1}^{(1)}} s_{T}^{(1)} \\ s_{0}^{(2)} \xrightarrow {a_{0}^{(2)}} s_{1}^{(2)} \xrightarrow {a_{1}^{(2)}} s_{2}^{(2)} \xrightarrow {a_{2}^{(2)}} \dots \xrightarrow {a_{T - 1}^{(2)}} s_{T}^{(2)} \\ \end{array}
 $$
 
 .
 
 $$
-s _ {0} ^ {(n)} \xrightarrow {a _ {0} ^ {(n)}} s _ {1} ^ {(n)} \xrightarrow {a _ {1} ^ {(n)}} s _ {2} ^ {(n)} \xrightarrow {a _ {2} ^ {(n)}} \dots \xrightarrow {a _ {T - 1} ^ {(n)}} s _ {T} ^ {(n)}
+s_{0}^{(n)} \xrightarrow {a_{0}^{(n)}} s_{1}^{(n)} \xrightarrow {a_{1}^{(n)}} s_{2}^{(n)} \xrightarrow {a_{2}^{(n)}} \dots \xrightarrow {a_{T - 1}^{(n)}} s_{T}^{(n)}
 $$
 
 We can then apply a learning algorithm to predict  $s_{t+1}$  as a function of  $s_t$  and  $a_t$ .
@@ -4479,13 +4479,13 @@ We can then apply a learning algorithm to predict  $s_{t+1}$  as a function of  
 For example, one may choose to learn a linear model of the form
 
 $$
-s _ {t + 1} = A s _ {t} + B a _ {t}, \tag {15.6}
+s_{t + 1} = A s_{t} + B a_{t}, \tag {15.6}
 $$
 
 using an algorithm similar to linear regression. Here, the parameters of the model are the matrices  $A$  and  $B$ , and we can estimate them using the data collected from our  $n$  trials, by picking
 
 $$
-\arg \min _ {A, B} \sum_ {i = 1} ^ {n} \sum_ {t = 0} ^ {T - 1} \left\| s _ {t + 1} ^ {(i)} - \left(A s _ {t} ^ {(i)} + B a _ {t} ^ {(i)}\right) \right\| _ {2} ^ {2}.
+\arg \min_{A, B} \sum_{i = 1}^{n} \sum_{t = 0}^{T - 1} \left\| s_{t + 1}^{(i)} - \left(A s_{t}^{(i)} + B a_{t}^{(i)}\right) \right\| _ {2}^{2}.
 $$
 
 We could also potentially use other loss functions for learning the model. For example, it has been found in recent work Luo et al. [2018] that using  $\| \cdot \| _2$  norm (without the square) may be helpful in certain cases.
@@ -4493,7 +4493,7 @@ We could also potentially use other loss functions for learning the model. For e
 Having learned  $A$  and  $B$ , one option is to build a deterministic model, in which given an input  $s_t$  and  $a_t$ , the output  $s_{t+1}$  is exactly determined. Specifically, we always compute  $s_{t+1}$  according to Equation (15.6). Alternatively, we may also build a stochastic model, in which  $s_{t+1}$  is a random function of the inputs, by modeling it as
 
 $$
-s _ {t + 1} = A s _ {t} + B a _ {t} + \epsilon_ {t},
+s_{t + 1} = A s_{t} + B a_{t} + \epsilon_{t},
 $$
 
 where here  $\epsilon_t$  is a noise term, usually modeled as  $\epsilon_t \sim \mathcal{N}(0, \Sigma)$ . (The covariance matrix  $\Sigma$  can also be estimated from data in a straightforward way.)
@@ -4507,7 +4507,7 @@ We now describe the fitted value iteration algorithm for approximating the value
 Recall that in value iteration, we would like to perform the update
 
 $$
-\begin{array}{l} V (s) := R (s) + \gamma \max  _ {a} \int_ {s ^ {\prime}} P _ {s a} \left(s ^ {\prime}\right) V \left(s ^ {\prime}\right) d s ^ {\prime} (15.7) \\ = R (s) + \gamma \max  _ {a} \mathrm {E} _ {s ^ {\prime} \sim P _ {s a}} \left[ V \left(s ^ {\prime}\right) \right] (15.8) \\ \end{array}
+\begin{array}{l} V (s) := R (s) + \gamma \max_{a} \int_{s^{\prime}} P_{s a} \left(s^{\prime}\right) V \left(s^{\prime}\right) d s^{\prime} (15.7) \\ = R (s) + \gamma \max_{a} \mathrm{E}_{s^{\prime} \sim P_{s a}} \left[ V \left(s^{\prime}\right) \right] (15.8) \\ \end{array}
 $$
 
 (In Section 15.2, we had written the value iteration update with a summation  $V(s) \coloneqq R(s) + \gamma \max_{a} \sum_{s'} P_{sa}(s') V(s')$  rather than an integral over states; the new notation reflects that we are now working in continuous states rather than discrete states.)
@@ -4515,7 +4515,7 @@ $$
 The main idea of fitted value iteration is that we are going to approximately carry out this step, over a finite sample of states  $s^{(1)}, \ldots, s^{(n)}$ . Specifically, we will use a supervised learning algorithm—linear regression in our description below—to approximate the value function as a linear or non-linear function of the states:
 
 $$
-V (s) = \theta^ {T} \phi (s).
+V (s) = \theta^{T} \phi (s).
 $$
 
 Here,  $\phi$  is some appropriate feature mapping of the states.
@@ -4541,7 +4541,7 @@ Unlike value iteration over a discrete set of states, fitted value iteration can
 Finally, fitted value iteration outputs  $V$ , which is an approximation to  $V^{*}$ . This implicitly defines our policy. Specifically, when our system is in some state  $s$ , and we need to choose an action, we would like to choose the action
 
 $$
-\arg \max  _ {a} \mathrm {E} _ {s ^ {\prime} \sim P _ {s a}} [ V (s ^ {\prime}) ] \tag {15.9}
+\arg \max_{a} \mathrm{E}_{s^{\prime} \sim P_{s a}} [ V (s^{\prime}) ] \tag {15.9}
 $$
 
 The process for computing/approximating this is similar to the inner-loop of fitted value iteration, where for each action, we sample  $s_1', \ldots, s_k' \sim P_{sa}$  to approximate the expectation. (And again, if the simulator is deterministic, we can set  $k = 1$ .)
@@ -4549,13 +4549,13 @@ The process for computing/approximating this is similar to the inner-loop of fit
 In practice, there are often other ways to approximate this step as well. For example, one very common case is if the simulator is of the form  $s_{t+1} = f(s_t, a_t) + \epsilon_t$ , where  $f$  is some deterministic function of the states (such as  $f(s_t, a_t) = As_t + Ba_t$ ), and  $\epsilon$  is zero-mean Gaussian noise. In this case, we can pick the action given by
 
 $$
-\arg \max _ {a} V (f (s, a)).
+\arg \max_{a} V (f (s, a)).
 $$
 
 In other words, here we are just setting  $\epsilon_t = 0$  (i.e., ignoring the noise in the simulator), and setting  $k = 1$ . Equivalent, this can be derived from Equation (15.9) using the approximation
 
 $$
-\begin{array}{l} \operatorname {E} _ {s ^ {\prime}} \left[ V \left(s ^ {\prime}\right) \right] \approx V \left(\operatorname {E} _ {s ^ {\prime}} \left[ s ^ {\prime} \right]\right) (15.10) \\ = V (f (s, a)), (15.11) \\ \end{array}
+\begin{array}{l} \operatorname{E}_{s^{\prime}} \left[ V \left(s^{\prime}\right) \right] \approx V \left(\operatorname{E}_{s^{\prime}} \left[ s^{\prime} \right]\right) (15.10) \\ = V (f (s, a)), (15.11) \\ \end{array}
 $$
 
 where here the expectation is over the random  $s' \sim P_{sa}$ . So long as the noise terms  $\epsilon_t$  are small, this will usually be a reasonable approximation.
@@ -4568,13 +4568,13 @@ In the policy iteration, line 3 of Algorithm 5, we typically use linear system s
 
 # Algorithm 6 Variant of Policy Iteration
 
-1: procedure  $\operatorname {VE}(\pi ,k)$  To evaluate  $V^{\pi}$  
+1: procedure  $\operatorname{VE}(\pi ,k)$  To evaluate  $V^{\pi}$  
 2: Option 1: initialize  $V(s) \coloneqq 0$ ; Option 2: Initialize from the current  $V$  in the main algorithm.  
 3: for  $i = 0$  to  $k - 1$  do  
 4: For every state  $s$ , update
 
 $$
-V (s) := R (s) + \gamma \sum_ {s ^ {\prime}} P _ {s \pi (s)} \left(s ^ {\prime}\right) V \left(s ^ {\prime}\right). \tag {15.12}
+V (s) := R (s) + \gamma \sum_{s^{\prime}} P_{s \pi (s)} \left(s^{\prime}\right) V \left(s^{\prime}\right). \tag {15.12}
 $$
 
 # return  $V$
@@ -4589,7 +4589,7 @@ Require: hyperparameter  $k$ .
 9: For each state  $s$ , let
 
 $$
-\pi (s) := \arg \max  _ {a \in A} \sum_ {s ^ {\prime}} P _ {s a} \left(s ^ {\prime}\right) V \left(s ^ {\prime}\right). \tag {15.13}
+\pi (s) := \arg \max_{a \in A} \sum_{s^{\prime}} P_{s a} \left(s^{\prime}\right) V \left(s^{\prime}\right). \tag {15.13}
 $$
 
 value iteration (Algorithm 4) is that on line 4, the procedure is using the action from  $\pi$  instead of the greedy action.
@@ -4607,13 +4607,13 @@ On the other hand, if  $k$  steps of update (15.12) can be done much faster than
 In Chapter 15, we defined Markov Decision Processes (MDPs) and covered Value Iteration / Policy Iteration in a simplified setting. More specifically we introduced the optimal Bellman equation that defines the optimal value function  $V^{\pi^{*}}$  of the optimal policy  $\pi^{*}$ .
 
 $$
-V ^ {\pi^ {*}} (s) = R (s) + \max _ {a \in \mathcal {A}} \gamma \sum_ {s ^ {\prime} \in S} P _ {s a} (s ^ {\prime}) V ^ {\pi^ {*}} (s ^ {\prime})
+V^{\pi^{*}} (s) = R (s) + \max_{a \in \mathcal {A}} \gamma \sum_{s^{\prime} \in S} P_{s a} (s^{\prime}) V^{\pi^{*}} (s^{\prime})
 $$
 
 Recall that from the optimal value function, we were able to recover the optimal policy  $\pi^{*}$  with
 
 $$
-\pi^ {*} (s) = \operatorname {a r g m a x} _ {a \in \mathcal {A}} \sum_ {s ^ {\prime} \in \mathcal {S}} P _ {s a} (s ^ {\prime}) V ^ {*} (s ^ {\prime})
+\pi^{*} (s) = \operatorname{ar gm ax}_{a \in \mathcal {A}} \sum_{s^{\prime} \in \mathcal {S}} P_{s a} (s^{\prime}) V^{*} (s^{\prime})
 $$
 
 In this chapter, we'll place ourselves in a more general setting:
@@ -4623,7 +4623,7 @@ In this chapter, we'll place ourselves in a more general setting:
 $\mathbb{E}_{s^{\prime}\sim P_{sa}}\left[V^{\pi^{*}}(s^{\prime})\right]$  instead of
 
 $$
-\sum_ {s ^ {\prime} \in S} P _ {s a} (s ^ {\prime}) V ^ {\pi^ {*}} (s ^ {\prime})
+\sum_{s^{\prime} \in S} P_{s a} (s^{\prime}) V^{\pi^{*}} (s^{\prime})
 $$
 
 meaning that we take the expectation of the value function at the next state. In the finite case, we can rewrite the expectation as a sum over
@@ -4633,31 +4633,31 @@ states. In the continuous case, we can rewrite the expectation as an integral. T
 2. We'll assume that the rewards depend on both states and actions. In other words,  $R: \mathcal{S} \times \mathcal{A} \to \mathbb{R}$ . This implies that the previous mechanism for computing the optimal action is changed into
 
 $$
-\pi^ {*} (s) = \operatorname * {a r g m a x} _ {a \in \mathcal {A}} R (s, a) + \gamma \mathbb {E} _ {s ^ {\prime} \sim P _ {s a}} \left[ V ^ {\pi^ {*}} (s ^ {\prime}) \right]
+\pi^{*} (s) = \operatorname * {a r g m a x}_{a \in \mathcal {A}} R (s, a) + \gamma \mathbb {E}_{s^{\prime} \sim P_{s a}} \left[ V^{\pi^{*}} (s^{\prime}) \right]
 $$
 
 3. Instead of considering an infinite horizon MDP, we'll assume that we have a finite horizon MDP that will be defined as a tuple
 
 $$
-(\mathcal {S}, \mathcal {A}, P _ {s a}, T, R)
+(\mathcal {S}, \mathcal {A}, P_{s a}, T, R)
 $$
 
 with  $T > 0$  the time horizon (for instance  $T = 100$ ). In this setting, our definition of payoff is going to be (slightly) different:
 
 $$
-R (s _ {0}, a _ {0}) + R (s _ {1}, a _ {1}) + \dots + R (s _ {T}, a _ {T})
+R (s_{0}, a_{0}) + R (s_{1}, a_{1}) + \dots + R (s_{T}, a_{T})
 $$
 
 instead of (infinite horizon case)
 
 $$
-\begin{array}{l} R (s _ {0}, a _ {0}) + \gamma R (s _ {1}, a _ {1}) + \gamma^ {2} R (s _ {2}, a _ {2}) + \dots \\ \sum_ {t = 0} ^ {\infty} R (s _ {t}, a _ {t}) \gamma^ {t} \\ \end{array}
+\begin{array}{l} R (s_{0}, a_{0}) + \gamma R (s_{1}, a_{1}) + \gamma^{2} R (s_{2}, a_{2}) + \dots \\ \sum_{t = 0}^{\infty} R (s_{t}, a_{t}) \gamma^{t} \\ \end{array}
 $$
 
 What happened to the discount factor  $\gamma$ ? Remember that the introduction of  $\gamma$  was (partly) justified by the necessity of making sure that the infinite sum would be finite and well-defined. If the rewards are bounded by a constant  $\bar{R}$ , the payoff is indeed bounded by
 
 $$
-| \sum_ {t = 0} ^ {\infty} R (s _ {t}) \gamma^ {t} | \leq \bar {R} \sum_ {t = 0} ^ {\infty} \gamma^ {t}
+| \sum_{t = 0}^{\infty} R (s_{t}) \gamma^{t} | \leq \bar {R} \sum_{t = 0}^{\infty} \gamma^{t}
 $$
 
 and we recognize a geometric sum! Here, as the payoff is a finite sum, the discount factor  $\gamma$  is not necessary anymore.
@@ -4665,7 +4665,7 @@ and we recognize a geometric sum! Here, as the payoff is a finite sum, the disco
 In this new setting, things behave quite differently. First, the optimal policy  $\pi^{*}$  might be non-stationary, meaning that it changes over time. In other words, now we have
 
 $$
-\pi^ {(t)}: \mathcal {S} \to \mathcal {A}
+\pi^{(t)}: \mathcal {S} \to \mathcal {A}
 $$
 
 where the superscript  $(t)$  denotes the policy at time step  $t$ . The dynamics of the finite horizon MDP following policy  $\pi^{(t)}$  proceeds as follows: we start in some state  $s_0$ , take some action  $a_0 \coloneqq \pi^{(0)}(s_0)$  according to our policy at time step 0. The MDP transitions to a successor  $s_1$ , drawn according to  $P_{s_0a_0}$ . Then, we get to pick another action  $a_1 \coloneqq \pi^{(1)}(s_1)$  following our new policy at time step 1 and so on...
@@ -4675,13 +4675,13 @@ Why does the optimal policy happen to be non-stationary in the finite-horizon se
 4. This observation allows us to use time dependent dynamics
 
 $$
-s _ {t + 1} \sim P _ {s _ {t}, a _ {t}} ^ {(t)}
+s_{t + 1} \sim P_{s_{t}, a_{t}}^{(t)}
 $$
 
 meaning that the transition's distribution  $P_{s_t,a_t}^{(t)}$  changes over time. The same thing can be said about  $R^{(t)}$ . Note that this setting is a better model for real life. In a car, the gas tank empties, traffic changes, etc. Combining the previous remarks, we'll use the following general formulation for our finite horizon MDP
 
 $$
-\left(\mathcal {S}, \mathcal {A}, P _ {s a} ^ {(t)}, T, R ^ {(t)}\right)
+\left(\mathcal {S}, \mathcal {A}, P_{s a}^{(t)}, T, R^{(t)}\right)
 $$
 
 Remark: notice that the above formulation would be equivalent to adding the time into the state.
@@ -4689,7 +4689,7 @@ Remark: notice that the above formulation would be equivalent to adding the time
 The value function at time  $t$  for a policy  $\pi$  is then defined in the same way as before, as an expectation over trajectories generated following policy  $\pi$  starting in state  $s$ .
 
 $$
-V _ {t} (s) = \mathbb {E} \left[ R ^ {(t)} (s _ {t}, a _ {t}) + \dots + R ^ {(T)} (s _ {T}, a _ {T}) | s _ {t} = s, \pi \right]
+V_{t} (s) = \mathbb {E} \left[ R^{(t)} (s_{t}, a_{t}) + \dots + R^{(T)} (s_{T}, a_{T}) | s_{t} = s, \pi \right]
 $$
 
 Now, the question is
@@ -4697,7 +4697,7 @@ Now, the question is
 In this finite-horizon setting, how do we find the optimal value function
 
 $$
-V _ {t} ^ {*} (s) = \max _ {\pi} V _ {t} ^ {\pi} (s)
+V_{t}^{*} (s) = \max_{\pi} V_{t}^{\pi} (s)
 $$
 
 It turns out that Bellman's equation for Value Iteration is made for Dynamic Programming. This may come as no surprise as Bellman is one of the fathers of dynamic programming and the Bellman equation is strongly related to the field. To understand how we can simplify the problem by adopting an iteration-based approach, we make the following observations:
@@ -4705,13 +4705,13 @@ It turns out that Bellman's equation for Value Iteration is made for Dynamic Pro
 1. Notice that at the end of the game (for time step  $T$ ), the optimal value is obvious
 
 $$
-\forall s \in \mathcal {S}: V _ {T} ^ {*} (s) := \max  _ {a \in \mathcal {A}} R ^ {(T)} (s, a) \tag {16.1}
+\forall s \in \mathcal {S}: V_{T}^{*} (s) := \max_{a \in \mathcal {A}} R^{(T)} (s, a) \tag {16.1}
 $$
 
 2. For another time step  $0 \leq t < T$ , if we suppose that we know the optimal value function for the next time step  $V_{t+1}^{*}$ , then we have
 
 $$
-\forall t <   T, s \in \mathcal {S}: V _ {t} ^ {*} (s) := \max _ {a \in \mathcal {A}} \left[ R ^ {(t)} (s, a) + \mathbb {E} _ {s ^ {\prime} \sim P _ {s a} ^ {(t)}} \left[ V _ {t + 1} ^ {*} (s ^ {\prime}) \right] \right] (1 6. 2)
+\forall t <   T, s \in \mathcal {S}: V_{t}^{*} (s) := \max_{a \in \mathcal {A}} \left[ R^{(t)} (s, a) + \mathbb {E}_{s^{\prime} \sim P_{s a}^{(t)}} \left[ V_{t + 1}^{*} (s^{\prime}) \right] \right] (1 6. 2)
 $$
 
 With these observations in mind, we can come up with a clever algorithm to solve for the optimal value function:
@@ -4726,7 +4726,7 @@ Side note We can interpret standard value iteration as a special case of this ge
 Theorem Let  $B$  denote the Bellman update and  $||f(x)||_{\infty} \coloneqq \sup_x |f(x)|$ . If  $V_t$  denotes the value function at the  $t$ -th step, then
 
 $$
-\begin{array}{l} \left| \left| V _ {t + 1} - V ^ {*} \right| \right| _ {\infty} = \left| \left| B \left(V _ {t}\right) - V ^ {*} \right| \right| _ {\infty} \\ \leq \gamma | | V _ {t} - V ^ {*} | | _ {\infty} \\ \leq \gamma^ {t} | | V _ {1} - V ^ {*} | | _ {\infty} \\ \end{array}
+\begin{array}{l} \left| \left| V_{t + 1} - V^{*} \right| \right| _ {\infty} = \left| \left| B \left(V_{t}\right) - V^{*} \right| \right| _ {\infty} \\ \leq \gamma | | V_{t} - V^{*} | | _ {\infty} \\ \leq \gamma^{t} | | V_{1} - V^{*} | | _ {\infty} \\ \end{array}
 $$
 
 In other words, the Bellman operator  $B$  is a  $\gamma$ -contracting operator.
@@ -4738,13 +4738,13 @@ In this section, we'll cover a special case of the finite-horizon setting descri
 First, let's describe the model's assumptions. We place ourselves in the continuous setting, with
 
 $$
-\mathcal {S} = \mathbb {R} ^ {d}, \mathcal {A} = \mathbb {R} ^ {d}
+\mathcal {S} = \mathbb {R}^{d}, \mathcal {A} = \mathbb {R}^{d}
 $$
 
 and we'll assume linear transitions (with noise)
 
 $$
-s _ {t + 1} = A _ {t} s _ {t} + B _ {t} a _ {t} + w _ {t}
+s_{t + 1} = A_{t} s_{t} + B_{t} a_{t} + w_{t}
 $$
 
 where  $A_{t} \in R^{d \times d}, B_{t} \in R^{d \times d}$  are matrices and  $w_{t} \sim \mathcal{N}(0, \Sigma_{t})$  is some gaussian noise (with zero mean). As we'll show in the following paragraphs, it turns out that the noise, as long as it has zero mean, does not impact the optimal policy!
@@ -4752,7 +4752,7 @@ where  $A_{t} \in R^{d \times d}, B_{t} \in R^{d \times d}$  are matrices and  $
 We'll also assume quadratic rewards
 
 $$
-R ^ {(t)} (s _ {t}, a _ {t}) = - s _ {t} ^ {\top} U _ {t} s _ {t} - a _ {t} ^ {\top} W _ {t} a _ {t}
+R^{(t)} (s_{t}, a_{t}) = - s_{t}^{\top} U_{t} s_{t} - a_{t}^{\top} W_{t} a_{t}
 $$
 
 where  $U_{t} \in R^{d \times n}$ ,  $W_{t} \in R^{d \times d}$  are positive definite matrices (meaning that the reward is always negative).
@@ -4768,7 +4768,7 @@ step 2 assuming that the parameters of our model are known (given or estimated w
 In other words, given
 
 $$
-\left\{ \begin{array}{l l} s _ {t + 1} & = A _ {t} s _ {t} + B _ {t} a _ {t} + w _ {t} \\ R ^ {(t)} (s _ {t}, a _ {t}) & = - s _ {t} ^ {\top} U _ {t} s _ {t} - a _ {t} ^ {\top} W _ {t} a _ {t} \end{array} \right. \quad A _ {t}, B _ {t}, U _ {t}, W _ {t}, \Sigma_ {t} \mathrm {k n o w n}
+\left\{ \begin{array}{l l} s_{t + 1} & = A_{t} s_{t} + B_{t} a_{t} + w_{t} \\ R^{(t)} (s_{t}, a_{t}) & = - s_{t}^{\top} U_{t} s_{t} - a_{t}^{\top} W_{t} a_{t} \end{array} \right. \quad A_{t}, B_{t}, U_{t}, W_{t}, \Sigma_{t} \mathrm{kn ow n}
 $$
 
 we want to compute  $V_{t}^{*}$ . If we go back to section 16.1, we can apply dynamic programming, which yields
@@ -4778,7 +4778,7 @@ we want to compute  $V_{t}^{*}$ . If we go back to section 16.1, we can apply dy
 For the last time step  $T$
 
 $$
-\begin{array}{l} V _ {T} ^ {*} (s _ {T}) = \max _ {a _ {T} \in \mathcal {A}} R _ {T} (s _ {T}, a _ {T}) \\ = \max  _ {a _ {T} \in \mathcal {A}} - s _ {T} ^ {\top} U _ {T} s _ {T} - a _ {T} ^ {\top} W _ {t} a _ {T} \\ = - s _ {T} ^ {\top} U _ {t} s _ {T} \quad (\text {m a x i m i z e d f o r} a _ {T} = 0) \\ \end{array}
+\begin{array}{l} V_{T}^{*} (s_{T}) = \max_{a_{T} \in \mathcal {A}} R_{T} (s_{T}, a_{T}) \\ = \max_{a_{T} \in \mathcal {A}} - s_{T}^{\top} U_{T} s_{T} - a_{T}^{\top} W_{t} a_{T} \\ = - s_{T}^{\top} U_{t} s_{T} \quad (\text{ma xi mi ze df or} a_{T} = 0) \\ \end{array}
 $$
 
 # 2. Recurrence step
@@ -4788,7 +4788,7 @@ Let  $t < T$ . Suppose we know  $V_{t + 1}^{*}$ .
 Fact 1: It can be shown that if  $V_{t+1}^{*}$  is a quadratic function in  $s_t$ , then  $V_t^*$  is also a quadratic function. In other words, there exists some matrix  $\Phi$  and some scalar  $\Psi$  such that
 
 $$
-\begin{array}{l} \mathrm {i f} V _ {t + 1} ^ {*} (s _ {t + 1}) = s _ {t + 1} ^ {\top} \Phi_ {t + 1} s _ {t + 1} + \Psi_ {t + 1} \\ \mathrm {t h e n} V _ {t} ^ {*} (s _ {t}) = s _ {t} ^ {\top} \Phi_ {t} s _ {t} + \Psi_ {t} \\ \end{array}
+\begin{array}{l} \mathrm{if} V_{t + 1}^{*} (s_{t + 1}) = s_{t + 1}^{\top} \Phi_{t + 1} s_{t + 1} + \Psi_{t + 1} \\ \mathrm{th en} V_{t}^{*} (s_{t}) = s_{t}^{\top} \Phi_{t} s_{t} + \Psi_{t} \\ \end{array}
 $$
 
 For time step  $t = T$ , we had  $\Phi_t = -U_T$  and  $\Psi_T = 0$ .
@@ -4798,29 +4798,29 @@ Fact 2: We can show that the optimal policy is just a linear function of the sta
 Knowing  $V_{t+1}^{*}$  is equivalent to knowing  $\Phi_{t+1}$  and  $\Psi_{t+1}$ , so we just need to explain how we compute  $\Phi_t$  and  $\Psi_t$  from  $\Phi_{t+1}$  and  $\Psi_{t+1}$  and the other parameters of the problem.
 
 $$
-\begin{array}{l} V _ {t} ^ {*} (s _ {t}) = s _ {t} ^ {\top} \Phi_ {t} s _ {t} + \Psi_ {t} \\ = \max  _ {a _ {t}} \left[ R ^ {(t)} \left(s _ {t}, a _ {t}\right) + \mathbb {E} _ {s _ {t + 1} \sim P _ {s _ {t}, a _ {t}} ^ {(t)}} \left[ V _ {t + 1} ^ {*} \left(s _ {t + 1}\right) \right] \right] \\ = \max _ {a _ {t}} \left[ - s _ {t} ^ {\top} U _ {t} s _ {t} - a _ {t} ^ {\top} V _ {t} a _ {t} + \mathbb {E} _ {s _ {t + 1} \sim \mathcal {N} (A _ {t} s _ {t} + B _ {t} a _ {t}, \Sigma_ {t})} [ s _ {t + 1} ^ {\top} \Phi_ {t + 1} s _ {t + 1} + \Psi_ {t + 1} ] \right] \\ \end{array}
+\begin{array}{l} V_{t}^{*} (s_{t}) = s_{t}^{\top} \Phi_{t} s_{t} + \Psi_{t} \\ = \max_{a_{t}} \left[ R^{(t)} \left(s_{t}, a_{t}\right) + \mathbb {E}_{s_{t + 1} \sim P_{s_{t}, a_{t}}^{(t)}} \left[ V_{t + 1}^{*} \left(s_{t + 1}\right) \right] \right] \\ = \max_{a_{t}} \left[ - s_{t}^{\top} U_{t} s_{t} - a_{t}^{\top} V_{t} a_{t} + \mathbb {E}_{s_{t + 1} \sim \mathcal {N} (A_{t} s_{t} + B_{t} a_{t}, \Sigma_{t})} [ s_{t + 1}^{\top} \Phi_{t + 1} s_{t + 1} + \Psi_{t + 1} ] \right] \\ \end{array}
 $$
 
 where the second line is just the definition of the optimal value function and the third line is obtained by plugging in the dynamics of our model along with the quadratic assumption. Notice that the last expression is a quadratic function in  $a_{t}$  and can thus be (easily) optimized<sup>1</sup>. We get the optimal action  $a_{t}^{*}$
 
 $$
-\begin{array}{l} a _ {t} ^ {*} = \left[ (B _ {t} ^ {\top} \Phi_ {t + 1} B _ {t} - V _ {t}) ^ {- 1} B _ {t} \Phi_ {t + 1} A _ {t} \right] \cdot s _ {t} \\ = L _ {t} \cdot s _ {t} \\ \end{array}
+\begin{array}{l} a_{t}^{*} = \left[ (B_{t}^{\top} \Phi_{t + 1} B_{t} - V_{t})^{- 1} B_{t} \Phi_{t + 1} A_{t} \right] \cdot s_{t} \\ = L_{t} \cdot s_{t} \\ \end{array}
 $$
 
 where
 
 $$
-L _ {t} := \left[ \left(B _ {t} ^ {\top} \Phi_ {t + 1} B _ {t} - W _ {t}\right) ^ {- 1} B _ {t} \Phi_ {t + 1} A _ {t} \right]
+L_{t} := \left[ \left(B_{t}^{\top} \Phi_{t + 1} B_{t} - W_{t}\right)^{- 1} B_{t} \Phi_{t + 1} A_{t} \right]
 $$
 
 which is an impressive result: our optimal policy is linear in  $s_t$ . Given  $a_t^*$  we can solve for  $\Phi_t$  and  $\Psi_t$ . We finally get the Discrete Ricatti equations
 
 $$
-\Phi_ {t} = A _ {t} ^ {\top} \left(\Phi_ {t + 1} - \Phi_ {t + 1} B _ {t} \left(B _ {t} ^ {\top} \Phi_ {t + 1} B _ {t} - W _ {t}\right) ^ {- 1} B _ {t} \Phi_ {t + 1}\right) A _ {t} - U _ {t}
+\Phi_{t} = A_{t}^{\top} \left(\Phi_{t + 1} - \Phi_{t + 1} B_{t} \left(B_{t}^{\top} \Phi_{t + 1} B_{t} - W_{t}\right)^{- 1} B_{t} \Phi_{t + 1}\right) A_{t} - U_{t}
 $$
 
 $$
-\Psi_ {t} = - \operatorname {t r} \left(\Sigma_ {t} \Phi_ {t + 1}\right) + \Psi_ {t + 1}
+\Psi_{t} = - \operatorname{tr} \left(\Sigma_{t} \Phi_{t + 1}\right) + \Psi_{t + 1}
 $$
 
 Fact 3: we notice that  $\Phi_t$  depends on neither  $\Psi$  nor the noise  $\Sigma_t!$  As  $L_t$  is a function of  $A_t, B_t$  and  $\Phi_{t+1}$ , it implies that the optimal policy also does not depend on the noise! (But  $\Psi_t$  does depend on  $\Sigma_t$ , which implies that  $V_t^*$  depends on  $\Sigma_t$ .)
@@ -4838,7 +4838,7 @@ Using Fact 3, we can be even more clever and make our algorithm run (slightly) f
 It turns out that a lot of problems can be reduced to LQR, even if dynamics are non-linear. While LQR is a nice formulation because we are able to come up with a nice exact solution, it is far from being general. Let's take for instance the case of the inverted pendulum. The transitions between states look like
 
 $$
-\left( \begin{array}{c} x _ {t + 1} \\ \dot {x} _ {t + 1} \\ \theta_ {t + 1} \\ \dot {\theta} _ {t + 1} \end{array} \right) = F \left(\left( \begin{array}{c} x _ {t} \\ \dot {x} _ {t} \\ \theta_ {t} \\ \dot {\theta} _ {t} \end{array} \right), a _ {t}\right)
+\left( \begin{array}{c} x_{t + 1} \\ \dot {x}_{t + 1} \\ \theta_{t + 1} \\ \dot {\theta}_{t + 1} \end{array} \right) = F \left(\left( \begin{array}{c} x_{t} \\ \dot {x}_{t} \\ \theta_{t} \\ \dot {\theta}_{t} \end{array} \right), a_{t}\right)
 $$
 
 where the function  $F$  depends on the cos of the angle etc. Now, the question we may ask is
@@ -4852,19 +4852,19 @@ Let's suppose that at time  $t$ , the system spends most of its time in some sta
 We are going to use Taylor expansion to linearize the dynamics. In the simple case where the state is one-dimensional and the transition function  $F$  does not depend on the action, we would write something like
 
 $$
-s _ {t + 1} = F (s _ {t}) \approx F (\bar {s} _ {t}) + F ^ {\prime} (\bar {s} _ {t}) \cdot (s _ {t} - \bar {s} _ {t})
+s_{t + 1} = F (s_{t}) \approx F (\bar {s}_{t}) + F^{\prime} (\bar {s}_{t}) \cdot (s_{t} - \bar {s}_{t})
 $$
 
 In the more general setting, the formula looks the same, with gradients instead of simple derivatives
 
 $$
-s _ {t + 1} \approx F (\bar {s} _ {t}, \bar {a} _ {t}) + \nabla_ {s} F (\bar {s} _ {t}, \bar {a} _ {t}) \cdot (s _ {t} - \bar {s} _ {t}) + \nabla_ {a} F (\bar {s} _ {t}, \bar {a} _ {t}) \cdot (a _ {t} - \bar {a} _ {t}) \qquad (1 6. 3)
+s_{t + 1} \approx F (\bar {s}_{t}, \bar {a}_{t}) + \nabla_{s} F (\bar {s}_{t}, \bar {a}_{t}) \cdot (s_{t} - \bar {s}_{t}) + \nabla_{a} F (\bar {s}_{t}, \bar {a}_{t}) \cdot (a_{t} - \bar {a}_{t}) \qquad (1 6. 3)
 $$
 
 and now,  $s_{t+1}$  is linear in  $s_t$  and  $a_t$ , because we can rewrite equation (16.3) as
 
 $$
-s _ {t + 1} \approx A s _ {t} + B s _ {t} + \kappa
+s_{t + 1} \approx A s_{t} + B s_{t} + \kappa
 $$
 
 where  $\kappa$  is some constant and  $A, B$  are matrices. Now, this writing looks awfully similar to the assumptions made for LQR. We just have to get rid of the constant term  $\kappa$ ! It turns out that the constant term can be absorbed into  $s_t$  by artificially increasing the dimension by one. This is the same trick that we used at the beginning of the class for linear regression...
@@ -4878,19 +4878,19 @@ We'll cover a method that applies when our system has to follow some trajectory 
 step 1 come up with a nominal trajectory using a naive controller, that approximate the trajectory we want to follow. In other words, our controller is able to approximate the gold trajectory with
 
 $$
-s _ {0} ^ {*}, a _ {0} ^ {*} \rightarrow s _ {1} ^ {*}, a _ {1} ^ {*} \rightarrow \ldots
+s_{0}^{*}, a_{0}^{*} \rightarrow s_{1}^{*}, a_{1}^{*} \rightarrow \ldots
 $$
 
 step 2 linearize the dynamics around each trajectory point  $s_t^*$ , in other words
 
 $$
-s _ {t + 1} \approx F (s _ {t} ^ {*}, a _ {t} ^ {*}) + \nabla_ {s} F (s _ {t} ^ {*}, a _ {t} ^ {*}) (s _ {t} - s _ {t} ^ {*}) + \nabla_ {a} F (s _ {t} ^ {*}, a _ {t} ^ {*}) (a _ {t} - a _ {t} ^ {*})
+s_{t + 1} \approx F (s_{t}^{*}, a_{t}^{*}) + \nabla_{s} F (s_{t}^{*}, a_{t}^{*}) (s_{t} - s_{t}^{*}) + \nabla_{a} F (s_{t}^{*}, a_{t}^{*}) (a_{t} - a_{t}^{*})
 $$
 
 where  $s_t, a_t$  would be our current state and action. Now that we have a linear approximation around each of these points, we can use the previous section and rewrite
 
 $$
-s _ {t + 1} = A _ {t} \cdot s _ {t} + B _ {t} \cdot a _ {t}
+s_{t + 1} = A_{t} \cdot s_{t} + B_{t} \cdot a_{t}
 $$
 
 (notice that in that case, we use the non-stationary dynamics setting that we mentioned at the beginning of these lecture notes)
@@ -4898,19 +4898,19 @@ $$
 Note We can apply a similar derivation for the reward  $R^{(t)}$ , with a second-order Taylor expansion.
 
 $$
-\begin{array}{l} R \left(s _ {t}, a _ {t}\right) \approx R \left(s _ {t} ^ {*}, a _ {t} ^ {*}\right) + \nabla_ {s} R \left(s _ {t} ^ {*}, a _ {t} ^ {*}\right) \left(s _ {t} - s _ {t} ^ {*}\right) + \nabla_ {a} R \left(s _ {t} ^ {*}, a _ {t} ^ {*}\right) \left(a _ {t} - a _ {t} ^ {*}\right) \\ + \frac {1}{2} (s _ {t} - s _ {t} ^ {*}) ^ {\top} H _ {s s} (s _ {t} - s _ {t} ^ {*}) + (s _ {t} - s _ {t} ^ {*}) ^ {\top} H _ {s a} (a _ {t} - a _ {t} ^ {*}) \\ + \frac {1}{2} (a _ {t} - a _ {t} ^ {*}) ^ {\top} H _ {a a} (a _ {t} - a _ {t} ^ {*}) \\ \end{array}
+\begin{array}{l} R \left(s_{t}, a_{t}\right) \approx R \left(s_{t}^{*}, a_{t}^{*}\right) + \nabla_{s} R \left(s_{t}^{*}, a_{t}^{*}\right) \left(s_{t} - s_{t}^{*}\right) + \nabla_{a} R \left(s_{t}^{*}, a_{t}^{*}\right) \left(a_{t} - a_{t}^{*}\right) \\ + \frac{1}{2} (s_{t} - s_{t}^{*})^{\top} H_{s s} (s_{t} - s_{t}^{*}) + (s_{t} - s_{t}^{*})^{\top} H_{s a} (a_{t} - a_{t}^{*}) \\ + \frac{1}{2} (a_{t} - a_{t}^{*})^{\top} H_{a a} (a_{t} - a_{t}^{*}) \\ \end{array}
 $$
 
 where  $H_{xy}$  refers to the entry of the Hessian of  $R$  with respect to  $x$  and  $y$  evaluated in  $(s_t^*, a_t^*)$  (omitted for readability). This expression can be re-written as
 
 $$
-R _ {t} (s _ {t}, a _ {t}) = - s _ {t} ^ {\top} U _ {t} s _ {t} - a _ {t} ^ {\top} W _ {t} a _ {t}
+R_{t} (s_{t}, a_{t}) = - s_{t}^{\top} U_{t} s_{t} - a_{t}^{\top} W_{t} a_{t}
 $$
 
 for some matrices  $U_{t}, W_{t}$ , with the same trick of adding an extra dimension of ones. To convince yourself, notice that
 
 $$
-\left( \begin{array}{c c} 1 & x \end{array} \right) \cdot \left( \begin{array}{c c} a & b \\ b & c \end{array} \right) \cdot \left( \begin{array}{c} 1 \\ x \end{array} \right) = a + 2 b x + c x ^ {2}
+\left( \begin{array}{c c} 1 & x \end{array} \right) \cdot \left( \begin{array}{c c} a & b \\ b & c \end{array} \right) \cdot \left( \begin{array}{c} 1 \\ x \end{array} \right) = a + 2 b x + c x^{2}
 $$
 
 step 3 Now, you can convince yourself that our problem is strictly re-written in the LQR framework. Let's just use LQR to find the optimal policy  $\pi_t$ . As a result, our new controller will (hopefully) be better!
@@ -4920,13 +4920,13 @@ Note: Some problems might arise if the LQR trajectory deviates too much from the
 step 4 Now that we get a new controller (our new policy  $\pi_t$ ), we use it to produce a new trajectory
 
 $$
-s _ {0} ^ {*}, \pi_ {0} \big (s _ {0} ^ {*} \big) \rightarrow s _ {1} ^ {*}, \pi_ {1} \big (s _ {1} ^ {*} \big) \rightarrow \ldots \rightarrow s _ {T} ^ {*}
+s_{0}^{*}, \pi_{0} \big (s_{0}^{*} \big) \rightarrow s_{1}^{*}, \pi_{1} \big (s_{1}^{*} \big) \rightarrow \ldots \rightarrow s_{T}^{*}
 $$
 
 note that when we generate this new trajectory, we use the real  $F$  and not its linear approximation to compute transitions, meaning that
 
 $$
-s _ {t + 1} ^ {*} = F (s _ {t} ^ {*}, a _ {t} ^ {*})
+s_{t + 1}^{*} = F (s_{t}^{*}, a_{t}^{*})
 $$
 
 then, go back to step 2 and repeat until some stopping criterion.
@@ -4938,13 +4938,13 @@ Often, in the real world, we don't get to observe the full state  $s_t$ . For ex
 A POMDP is an MDP with an extra observation layer. In other words, we introduce a new variable  $o_{t}$ , that follows some conditional distribution given the current state  $s_{t}$
 
 $$
-o _ {t} | s _ {t} \sim O (o | s)
+o_{t} | s_{t} \sim O (o | s)
 $$
 
 Formally, a finite-horizon POMDP is given by a tuple
 
 $$
-(\mathcal {S}, \mathcal {O}, \mathcal {A}, P _ {s a}, T, R)
+(\mathcal {S}, \mathcal {O}, \mathcal {A}, P_{s a}, T, R)
 $$
 
 Within this framework, the general strategy is to maintain a belief state (distribution over states) based on the observation  $o_1, \ldots, o_t$ . Then, a policy in a POMDP maps this belief states to actions.
@@ -4952,7 +4952,7 @@ Within this framework, the general strategy is to maintain a belief state (distr
 In this section, we'll present a extension of LQR to this new setting. Assume that we observe  $y_{t} \in \mathbb{R}^{n}$  with  $m < n$  such that
 
 $$
-\left\{ \begin{array}{l l} y _ {t} & = C \cdot s _ {t} + v _ {t} \\ s _ {t + 1} & = A \cdot s _ {t} + B \cdot a _ {t} + w _ {t} \end{array} \right.
+\left\{ \begin{array}{l l} y_{t} & = C \cdot s_{t} + v_{t} \\ s_{t + 1} & = A \cdot s_{t} + B \cdot a_{t} + w_{t} \end{array} \right.
 $$
 
 where  $C \in R^{n \times d}$  is a compression matrix and  $v_{t}$  is the sensor noise (also gaussian, like  $w_{t}$ ). Note that the reward function  $R^{(t)}$  is left unchanged, as a function of the state (not the observation) and action. Also, as distributions are gaussian, the belief state is also going to be gaussian. In this new framework, let's give an overview of the strategy we are going to adopt to find the optimal policy:
@@ -4960,7 +4960,7 @@ where  $C \in R^{n \times d}$  is a compression matrix and  $v_{t}$  is the sens
 step 1 first, compute the distribution on the possible states (the belief state), based on the observations we have. In other words, we want to compute the mean  $s_{t|t}$  and the covariance  $\Sigma_{t|t}$  of
 
 $$
-s _ {t} | y _ {1}, \ldots , y _ {t} \sim \mathcal {N} \left(s _ {t | t}, \Sigma_ {t | t}\right)
+s_{t} | y_{1}, \ldots , y_{t} \sim \mathcal {N} \left(s_{t | t}, \Sigma_{t | t}\right)
 $$
 
 to perform the computation efficiently over time, we'll use the Kalman Filter algorithm (used on-board Apollo Lunar Module!).
@@ -4974,19 +4974,19 @@ Intuitively, to understand why this works, notice that  $s_{t|t}$  is a noisy ap
 Step 1 needs to be explicated. We'll cover a simple case where there is no action dependence in our dynamics (but the general case follows the same idea). Suppose that
 
 $$
-\left\{ \begin{array}{l l} s _ {t + 1} & = A \cdot s _ {t} + w _ {t}, \quad w _ {t} \sim N (0, \Sigma_ {s}) \\ y _ {t} & = C \cdot s _ {t} + v _ {t}, \quad v _ {t} \sim N (0, \Sigma_ {y}) \end{array} \right.
+\left\{ \begin{array}{l l} s_{t + 1} & = A \cdot s_{t} + w_{t}, \quad w_{t} \sim N (0, \Sigma_{s}) \\ y_{t} & = C \cdot s_{t} + v_{t}, \quad v_{t} \sim N (0, \Sigma_{y}) \end{array} \right.
 $$
 
 As noises are Gaussians, we can easily prove that the joint distribution is also Gaussian
 
 $$
-\left( \begin{array}{c} s _ {1} \\ \vdots \\ s _ {t} \\ y _ {1} \\ \vdots \\ y _ {t} \end{array} \right) \sim \mathcal {N} (\mu , \Sigma) \qquad \text {f o r s o m e} \mu , \Sigma
+\left( \begin{array}{c} s_{1} \\ \vdots \\ s_{t} \\ y_{1} \\ \vdots \\ y_{t} \end{array} \right) \sim \mathcal {N} (\mu , \Sigma) \qquad \text{fo rs om e} \mu , \Sigma
 $$
 
 then, using the marginal formulas of gaussians (see Factor Analysis notes), we would get
 
 $$
-s _ {t} | y _ {1}, \ldots , y _ {t} \sim \mathcal {N} \left(s _ {t | t}, \Sigma_ {t | t}\right)
+s_{t} | y_{1}, \ldots , y_{t} \sim \mathcal {N} \left(s_{t | t}, \Sigma_{t | t}\right)
 $$
 
 However, computing the marginal distribution parameters using these formulas would be computationally expensive! It would require manipulating matrices of shape  $t \times t$ . Recall that inverting a matrix can be done in  $O(t^3)$ , and it would then have to be repeated over the time steps, yielding a cost in  $O(t^4)!$
@@ -5000,49 +5000,49 @@ update step compute  $s_{t + 1}|y_1,\ldots ,y_{t + 1}$
 and iterate over time steps! The combination of the predict and update steps updates our belief states. In other words, the process looks like
 
 $$
-\left(s _ {t} \mid y _ {1}, \dots , y _ {t}\right) \xrightarrow {\text {p r e d i c t}} \left(s _ {t + 1} \mid y _ {1}, \dots , y _ {t}\right) \xrightarrow {\text {u p d a t e}} \left(s _ {t + 1} \mid y _ {1}, \dots , y _ {t + 1}\right) \xrightarrow {\text {p r e d i c t}} \dots
+\left(s_{t} \mid y_{1}, \dots , y_{t}\right) \xrightarrow {\text{pr ed ic t}} \left(s_{t + 1} \mid y_{1}, \dots , y_{t}\right) \xrightarrow {\text{up da te}} \left(s_{t + 1} \mid y_{1}, \dots , y_{t + 1}\right) \xrightarrow {\text{pr ed ic t}} \dots
 $$
 
 predict step Suppose that we know the distribution of
 
 $$
-s _ {t} | y _ {1}, \dots , y _ {t} \sim \mathcal {N} \left(s _ {t | t}, \Sigma_ {t | t}\right)
+s_{t} | y_{1}, \dots , y_{t} \sim \mathcal {N} \left(s_{t | t}, \Sigma_{t | t}\right)
 $$
 
 then, the distribution over the next state is also a gaussian distribution
 
 $$
-s _ {t + 1} \mid y _ {1}, \dots , y _ {t} \sim \mathcal {N} \left(s _ {t + 1 \mid t}, \Sigma_ {t + 1 \mid t}\right)
+s_{t + 1} \mid y_{1}, \dots , y_{t} \sim \mathcal {N} \left(s_{t + 1 \mid t}, \Sigma_{t + 1 \mid t}\right)
 $$
 
 where
 
 $$
-\left\{ \begin{array}{l l} s _ {t + 1 | t} & = A \cdot s _ {t | t} \\ \Sigma_ {t + 1 | t} & = A \cdot \Sigma_ {t | t} \cdot A ^ {\top} + \Sigma_ {s} \end{array} \right.
+\left\{ \begin{array}{l l} s_{t + 1 | t} & = A \cdot s_{t | t} \\ \Sigma_{t + 1 | t} & = A \cdot \Sigma_{t | t} \cdot A^{\top} + \Sigma_{s} \end{array} \right.
 $$
 
 update step given  $s_{t + 1|t}$  and  $\Sigma_{t + 1|t}$  such that
 
 $$
-s _ {t + 1} | y _ {1}, \dots , y _ {t} \sim \mathcal {N} \left(s _ {t + 1 | t}, \Sigma_ {t + 1 | t}\right)
+s_{t + 1} | y_{1}, \dots , y_{t} \sim \mathcal {N} \left(s_{t + 1 | t}, \Sigma_{t + 1 | t}\right)
 $$
 
 we can prove that
 
 $$
-s _ {t + 1} | y _ {1}, \dots , y _ {t + 1} \sim \mathcal {N} \left(s _ {t + 1 | t + 1}, \Sigma_ {t + 1 | t + 1}\right)
+s_{t + 1} | y_{1}, \dots , y_{t + 1} \sim \mathcal {N} \left(s_{t + 1 | t + 1}, \Sigma_{t + 1 | t + 1}\right)
 $$
 
 where
 
 $$
-\left\{ \begin{array}{l l} s _ {t + 1 | t + 1} & = s _ {t + 1 | t} + K _ {t} (y _ {t + 1} - C s _ {t + 1 | t}) \\ \Sigma_ {t + 1 | t + 1} & = \Sigma_ {t + 1 | t} - K _ {t} \cdot C \cdot \Sigma_ {t + 1 | t} \end{array} \right.
+\left\{ \begin{array}{l l} s_{t + 1 | t + 1} & = s_{t + 1 | t} + K_{t} (y_{t + 1} - C s_{t + 1 | t}) \\ \Sigma_{t + 1 | t + 1} & = \Sigma_{t + 1 | t} - K_{t} \cdot C \cdot \Sigma_{t + 1 | t} \end{array} \right.
 $$
 
 with
 
 $$
-K _ {t} := \Sigma_ {t + 1 | t} C ^ {\top} (C \Sigma_ {t + 1 | t} C ^ {\top} + \Sigma_ {y}) ^ {- 1}
+K_{t} := \Sigma_{t + 1 | t} C^{\top} (C \Sigma_{t + 1 | t} C^{\top} + \Sigma_{y})^{- 1}
 $$
 
 The matrix  $K_{t}$  is called the Kalman gain.
@@ -5060,7 +5060,7 @@ The advantage of applying REINFORCE is that we only need to assume that we can s
 Let  $s_0$  be sampled from some distribution  $\mu$ . We consider optimizing the expected total payoff of the policy  $\pi_{\theta}$  over the parameter  $\theta$  defined as.
 
 $$
-\eta (\theta) \triangleq \operatorname {E} \left[ \sum_ {t = 0} ^ {T - 1} \gamma^ {t} R (s _ {t}, a _ {t}) \right] \tag {17.1}
+\eta (\theta) \triangleq \operatorname{E} \left[ \sum_{t = 0}^{T - 1} \gamma^{t} R (s_{t}, a_{t}) \right] \tag {17.1}
 $$
 
 Recall that  $s_t \sim P_{s_{t-1}a_{t-1}}$  and  $a_t \sim \pi_\theta(\cdot|s_t)$ . Also note that  $\eta(\theta) = \operatorname{E}_{s_0 \sim P}[V^{\pi_\theta}(s_0)]$  if we ignore the difference between finite and infinite horizon.
@@ -5070,7 +5070,7 @@ We aim to use gradient ascent to maximize  $\eta(\theta)$ . The main challenge w
 Let  $P_{\theta}(\tau)$  denote the distribution of  $\tau$  (generated by the policy  $\pi_{\theta}$ ), and let  $f(\tau) = \sum_{t=0}^{T-1} \gamma^t R(s_t, a_t)$ . We can rewrite  $\eta(\theta)$  as
 
 $$
-\eta (\theta) = \operatorname {E} _ {\tau \sim P _ {\theta}} [ f (\tau) ] \tag {17.2}
+\eta (\theta) = \operatorname{E}_{\tau \sim P_{\theta}} [ f (\tau) ] \tag {17.2}
 $$
 
 We face a similar situation in the variational auto-encoder (VAE) setting covered in the previous lectures, where the we need to take the gradient w.r.t to a variable that shows up under the expectation — the distribution  $P_{\theta}$  depends on  $\theta$ . Recall that in VAE, we used the re-parametrization techniques to address this problem. However it does not apply here because we do know not how to compute the gradient of the function  $f$ . (We only have an efficient way to evaluate the function  $f$  by taking a weighted sum of the observed rewards, but we do not necessarily know the reward function itself to compute the gradient.)
@@ -5078,31 +5078,31 @@ We face a similar situation in the variational auto-encoder (VAE) setting covere
 The REINFORCE algorithm uses an another approach to estimate the gradient of  $\eta (\theta)$ . We start with the following derivation:
 
 $$
-\begin{array}{l} \nabla_ {\theta} \mathrm {E} _ {\tau \sim P _ {\theta}} [ f (\tau) ] = \nabla_ {\theta} \int P _ {\theta} (\tau) f (\tau) d \tau \\ = \int \nabla_ {\theta} (P _ {\theta} (\tau) f (\tau)) d \tau \quad \text {(s w a p i n t e g r a t i o n w i t h g r a d i e n t)} \\ = \int (\nabla_ {\theta} P _ {\theta} (\tau)) f (\tau) d \tau \quad (b e c a u e f d o e s n o t d e p e n d o n \theta) \\ = \int P _ {\theta} (\tau) \left(\nabla_ {\theta} \log P _ {\theta} (\tau)\right) f (\tau) d \tau \\ \left(\mathrm {b e c a u s e} \nabla \log P _ {\theta} (\tau) = \frac {\nabla P _ {\theta} (\tau)}{P _ {\theta} (\tau)}\right) \\ = \operatorname {E} _ {\tau \sim P _ {\theta}} \left[ \left(\nabla_ {\theta} \log P _ {\theta} (\tau)\right) f (\tau) \right] \tag {17.3} \\ \end{array}
+\begin{array}{l} \nabla_{\theta} \mathrm{E}_{\tau \sim P_{\theta}} [ f (\tau) ] = \nabla_{\theta} \int P_{\theta} (\tau) f (\tau) d \tau \\ = \int \nabla_{\theta} (P_{\theta} (\tau) f (\tau)) d \tau \quad \text{(sw ap in te gr at io nw it hg ra di en t)} \\ = \int (\nabla_{\theta} P_{\theta} (\tau)) f (\tau) d \tau \quad (b e c a u e f d o e s n o t d e p e n d o n \theta) \\ = \int P_{\theta} (\tau) \left(\nabla_{\theta} \log P_{\theta} (\tau)\right) f (\tau) d \tau \\ \left(\mathrm{be ca us e} \nabla \log P_{\theta} (\tau) = \frac{\nabla P_{\theta} (\tau)}{P_{\theta} (\tau)}\right) \\ = \operatorname{E}_{\tau \sim P_{\theta}} \left[ \left(\nabla_{\theta} \log P_{\theta} (\tau)\right) f (\tau) \right] \tag {17.3} \\ \end{array}
 $$
 
 Now we have a sample-based estimator for  $\nabla_{\theta}\mathrm{E}_{\tau \sim P_{\theta}}[f(\tau)]$ . Let  $\tau^{(1)},\ldots ,\tau^{(n)}$  be  $n$  empirical samples from  $P_{\theta}$  (which are obtained by running the policy  $\pi_{\theta}$  for  $n$  times, with  $T$  steps for each run). We can estimate the gradient of  $\eta (\theta)$  by
 
 $$
-\begin{array}{l} \nabla_ {\theta} \mathrm {E} _ {\tau \sim P _ {\theta}} [ f (\tau) ] = \mathrm {E} _ {\tau \sim P _ {\theta}} [ (\nabla_ {\theta} \log P _ {\theta} (\tau)) f (\tau) ] (17.4) \\ \approx \frac {1}{n} \sum_ {i = 1} ^ {n} (\nabla_ {\theta} \log P _ {\theta} (\tau^ {(i)})) f (\tau^ {(i)}) (17.5) \\ \end{array}
+\begin{array}{l} \nabla_{\theta} \mathrm{E}_{\tau \sim P_{\theta}} [ f (\tau) ] = \mathrm{E}_{\tau \sim P_{\theta}} [ (\nabla_{\theta} \log P_{\theta} (\tau)) f (\tau) ] (17.4) \\ \approx \frac{1}{n} \sum_{i = 1}^{n} (\nabla_{\theta} \log P_{\theta} (\tau^{(i)})) f (\tau^{(i)}) (17.5) \\ \end{array}
 $$
 
 The next question is how to compute  $\log P_{\theta}(\tau)$ . We derive an analytical formula for  $\log P_{\theta}(\tau)$  and compute its gradient w.r.t  $\theta$  (using autodifferentiation). Using the definition of  $\tau$ , we have
 
 $$
-P _ {\theta} (\tau) = \mu (s _ {0}) \pi_ {\theta} (a _ {0} | s _ {0}) P _ {s _ {0} a _ {0}} (s _ {1}) \pi_ {\theta} (a _ {1} | s _ {1}) P _ {s _ {1} a _ {1}} (s _ {2}) \dots P _ {s _ {T - 1} a _ {T - 1}} (s _ {T}) \quad (1 7. 6)
+P_{\theta} (\tau) = \mu (s_{0}) \pi_{\theta} (a_{0} | s_{0}) P_{s_{0} a_{0}} (s_{1}) \pi_{\theta} (a_{1} | s_{1}) P_{s_{1} a_{1}} (s_{2}) \dots P_{s_{T - 1} a_{T - 1}} (s_{T}) \quad (1 7. 6)
 $$
 
 Here recall that  $\mu$  to used to denote the density of the distribution of  $s_0$ . It follows that
 
 $$
-\begin{array}{l} \log P _ {\theta} (\tau) = \log \mu (s _ {0}) + \log \pi_ {\theta} (a _ {0} | s _ {0}) + \log P _ {s _ {0} a _ {0}} (s _ {1}) + \log \pi_ {\theta} (a _ {1} | s _ {1}) \\ + \log P _ {s _ {1} a _ {1}} (s _ {2}) + \dots + \log P _ {s _ {T - 1} a _ {T - 1}} (s _ {T}) \tag {17.7} \\ \end{array}
+\begin{array}{l} \log P_{\theta} (\tau) = \log \mu (s_{0}) + \log \pi_{\theta} (a_{0} | s_{0}) + \log P_{s_{0} a_{0}} (s_{1}) + \log \pi_{\theta} (a_{1} | s_{1}) \\ + \log P_{s_{1} a_{1}} (s_{2}) + \dots + \log P_{s_{T - 1} a_{T - 1}} (s_{T}) \tag {17.7} \\ \end{array}
 $$
 
 Taking gradient w.r.t to  $\theta$ , we obtain
 
 $$
-\nabla_ {\theta} \log P _ {\theta} (\tau) = \nabla_ {\theta} \log \pi_ {\theta} (a _ {0} | s _ {0}) + \nabla_ {\theta} \log \pi_ {\theta} (a _ {1} | s _ {1}) + \dots + \nabla_ {\theta} \log \pi_ {\theta} (a _ {T - 1} | s _ {T - 1})
+\nabla_{\theta} \log P_{\theta} (\tau) = \nabla_{\theta} \log \pi_{\theta} (a_{0} | s_{0}) + \nabla_{\theta} \log \pi_{\theta} (a_{1} | s_{1}) + \dots + \nabla_{\theta} \log \pi_{\theta} (a_{T - 1} | s_{T - 1})
 $$
 
 Note that many of the terms disappear because they don't depend on  $\theta$  and thus have zero gradients. (This is somewhat important — we don't know how to evaluate those terms such as  $\log P_{s_0a_0}(s_1)$  because we don't have access to the transition probabilities, but luckily those terms have zero gradients!)
@@ -5110,7 +5110,7 @@ Note that many of the terms disappear because they don't depend on  $\theta$  an
 Plugging the equation above into equation (17.4), we conclude that
 
 $$
-\begin{array}{l} \nabla_ {\theta} \eta (\theta) = \nabla_ {\theta} \mathrm {E} _ {\tau \sim P _ {\theta}} [ f (\tau) ] = \mathrm {E} _ {\tau \sim P _ {\theta}} \left[ \left(\sum_ {t = 0} ^ {T - 1} \nabla_ {\theta} \log \pi_ {\theta} (a _ {t} | s _ {t})\right) \cdot f (\tau) \right] \\ = \mathrm {E} _ {\tau \sim P _ {\theta}} \left[ \left(\sum_ {t = 0} ^ {T - 1} \nabla_ {\theta} \log \pi_ {\theta} \left(a _ {t} \mid s _ {t}\right)\right) \cdot \left(\sum_ {t = 0} ^ {T - 1} \gamma^ {t} R \left(s _ {t}, a _ {t}\right)\right) \right] \tag {17.8} \\ \end{array}
+\begin{array}{l} \nabla_{\theta} \eta (\theta) = \nabla_{\theta} \mathrm{E}_{\tau \sim P_{\theta}} [ f (\tau) ] = \mathrm{E}_{\tau \sim P_{\theta}} \left[ \left(\sum_{t = 0}^{T - 1} \nabla_{\theta} \log \pi_{\theta} (a_{t} | s_{t})\right) \cdot f (\tau) \right] \\ = \mathrm{E}_{\tau \sim P_{\theta}} \left[ \left(\sum_{t = 0}^{T - 1} \nabla_{\theta} \log \pi_{\theta} \left(a_{t} \mid s_{t}\right)\right) \cdot \left(\sum_{t = 0}^{T - 1} \gamma^{t} R \left(s_{t}, a_{t}\right)\right) \right] \tag {17.8} \\ \end{array}
 $$
 
 We estimate the RHS of the equation above by empirical sample trajectories, and the estimate is unbiased. The vanilla REINFORCE algorithm iteratively updates the parameter by gradient ascent using the estimated gradients.
@@ -5122,7 +5122,7 @@ that can increase the probability of the trajectory  $\tau$  (or the direction t
 An interesting fact that follows from formula (17.3) is that
 
 $$
-\mathrm {E} _ {\tau \sim P _ {\theta}} \left[ \sum_ {t = 0} ^ {T - 1} \nabla_ {\theta} \log \pi_ {\theta} (a _ {t} | s _ {t}) \right] = 0 \tag {17.9}
+\mathrm{E}_{\tau \sim P_{\theta}} \left[ \sum_{t = 0}^{T - 1} \nabla_{\theta} \log \pi_{\theta} (a_{t} | s_{t}) \right] = 0 \tag {17.9}
 $$
 
 To see this, we take  $f(\tau) = 1$  (that is, the reward is always a constant), then the LHS of (17.8) is zero because the payoff is always a fixed constant  $\sum_{t=0}^{T} \gamma^t$ . Thus the RHS of (17.8) is also zero, which implies (17.9).
@@ -5130,25 +5130,25 @@ To see this, we take  $f(\tau) = 1$  (that is, the reward is always a constant),
 In fact, one can verify that  $\mathrm{E}_{a_t\sim \pi_\theta (\cdot |s_t)}\nabla_\theta \log \pi_\theta (a_t|s_t) = 0$  for any fixed  $t$  and  $s_t$ . This fact has two consequences. First, we can simplify formula (17.8) to
 
 $$
-\begin{array}{l} \nabla_ {\theta} \eta (\theta) = \sum_ {t = 0} ^ {T - 1} \mathrm {E} _ {\tau \sim P _ {\theta}} \left[ \nabla_ {\theta} \log \pi_ {\theta} (a _ {t} | s _ {t}) \cdot \left(\sum_ {j = 0} ^ {T - 1} \gamma^ {j} R (s _ {j}, a _ {j})\right) \right] \\ = \sum_ {t = 0} ^ {T - 1} \mathrm {E} _ {\tau \sim P _ {\theta}} \left[ \nabla_ {\theta} \log \pi_ {\theta} \left(a _ {t} \mid s _ {t}\right) \cdot \left(\sum_ {j \geq t} ^ {T - 1} \gamma^ {j} R \left(s _ {j}, a _ {j}\right)\right) \right] \tag {17.10} \\ \end{array}
+\begin{array}{l} \nabla_{\theta} \eta (\theta) = \sum_{t = 0}^{T - 1} \mathrm{E}_{\tau \sim P_{\theta}} \left[ \nabla_{\theta} \log \pi_{\theta} (a_{t} | s_{t}) \cdot \left(\sum_{j = 0}^{T - 1} \gamma^{j} R (s_{j}, a_{j})\right) \right] \\ = \sum_{t = 0}^{T - 1} \mathrm{E}_{\tau \sim P_{\theta}} \left[ \nabla_{\theta} \log \pi_{\theta} \left(a_{t} \mid s_{t}\right) \cdot \left(\sum_{j \geq t}^{T - 1} \gamma^{j} R \left(s_{j}, a_{j}\right)\right) \right] \tag {17.10} \\ \end{array}
 $$
 
 where the second equality follows from
 
 $$
-\begin{array}{l} \mathrm {E} _ {\tau \sim P _ {\theta}} \left[ \nabla_ {\theta} \log \pi_ {\theta} (a _ {t} | s _ {t}) \cdot \left(\sum_ {0 \leq j <   t} \gamma^ {j} R (s _ {j}, a _ {j})\right) \right] \\ = \operatorname {E} \left[ \operatorname {E} \left[ \nabla_ {\theta} \log \pi_ {\theta} (a _ {t} | s _ {t}) | s _ {0}, a _ {0}, \dots , s _ {t - 1}, a _ {t - 1}, s _ {t} \right] \cdot \left(\sum_ {0 \leq j <   t} \gamma^ {j} R (s _ {j}, a _ {j})\right) \right] \\ = 0 \qquad \mathrm {(b e c a u s e E} \left[ \nabla_ {\theta} \log \pi_ {\theta} (a _ {t} | s _ {t}) | s _ {0}, a _ {0}, \ldots , s _ {t - 1}, a _ {t - 1}, s _ {t} \right] = 0) \\ \end{array}
+\begin{array}{l} \mathrm{E}_{\tau \sim P_{\theta}} \left[ \nabla_{\theta} \log \pi_{\theta} (a_{t} | s_{t}) \cdot \left(\sum_{0 \leq j <   t} \gamma^{j} R (s_{j}, a_{j})\right) \right] \\ = \operatorname{E} \left[ \operatorname{E} \left[ \nabla_{\theta} \log \pi_{\theta} (a_{t} | s_{t}) | s_{0}, a_{0}, \dots , s_{t - 1}, a_{t - 1}, s_{t} \right] \cdot \left(\sum_{0 \leq j <   t} \gamma^{j} R (s_{j}, a_{j})\right) \right] \\ = 0 \qquad \mathrm{(be ca us eE} \left[ \nabla_{\theta} \log \pi_{\theta} (a_{t} | s_{t}) | s_{0}, a_{0}, \ldots , s_{t - 1}, a_{t - 1}, s_{t} \right] = 0) \\ \end{array}
 $$
 
 Note that here we used the law of total expectation. The outer expectation in the second line above is over the randomness of  $s_0, a_0, \ldots, a_{t-1}, s_t$ , whereas the inner expectation is over the randomness of  $a_t$  (conditioned on  $s_0, a_0, \ldots, a_{t-1}, s_t$ .) We see that we've made the estimator slightly simpler. The second consequence of  $\mathrm{E}_{a_t \sim \pi_\theta(\cdot|s_t)} \nabla_\theta \log \pi_\theta(a_t|s_t) = 0$  is the following: for any value  $B(s_t)$  that only depends on  $s_t$ , it holds that
 
 $$
-\begin{array}{l} \operatorname {E} _ {\tau \sim P _ {\theta}} \left[ \nabla_ {\theta} \log \pi_ {\theta} (a _ {t} | s _ {t}) \cdot B (s _ {t}) \right] \\ = \operatorname {E} \left[ \operatorname {E} \left[ \nabla_ {\theta} \log \pi_ {\theta} \left(a _ {t} \mid s _ {t}\right) \mid s _ {0}, a _ {0}, \dots , s _ {t - 1}, a _ {t - 1}, s _ {t} \right] B \left(s _ {t}\right) \right] \\ = 0 \quad \text {(b e c a u s e E} [ \nabla_ {\theta} \log \pi_ {\theta} (a _ {t} | s _ {t}) | s _ {0}, a _ {0}, \dots , s _ {t - 1}, a _ {t - 1}, s _ {t} ] = 0) \\ \end{array}
+\begin{array}{l} \operatorname{E}_{\tau \sim P_{\theta}} \left[ \nabla_{\theta} \log \pi_{\theta} (a_{t} | s_{t}) \cdot B (s_{t}) \right] \\ = \operatorname{E} \left[ \operatorname{E} \left[ \nabla_{\theta} \log \pi_{\theta} \left(a_{t} \mid s_{t}\right) \mid s_{0}, a_{0}, \dots , s_{t - 1}, a_{t - 1}, s_{t} \right] B \left(s_{t}\right) \right] \\ = 0 \quad \text{(be ca us eE} [ \nabla_{\theta} \log \pi_{\theta} (a_{t} | s_{t}) | s_{0}, a_{0}, \dots , s_{t - 1}, a_{t - 1}, s_{t} ] = 0) \\ \end{array}
 $$
 
 Again here we used the law of total expectation. The outer expectation in the second line above is over the randomness of  $s_0, a_0, \ldots, a_{t-1}, s_t$ , whereas the inner expectation is over the randomness of  $a_t$  (conditioned on  $s_0, a_0, \ldots, a_{t-1}, s_t$ ). It follows from equation (17.10) and the equation above that
 
 $$
-\begin{array}{l} \nabla_ {\theta} \eta (\theta) = \sum_ {t = 0} ^ {T - 1} \mathrm {E} _ {\tau \sim P _ {\theta}} \left[ \nabla_ {\theta} \log \pi_ {\theta} (a _ {t} | s _ {t}) \cdot \left(\sum_ {j \geq t} ^ {T - 1} \gamma^ {j} R (s _ {j}, a _ {j}) - \gamma^ {t} B (s _ {t})\right) \right] \\ = \sum_ {t = 0} ^ {T - 1} \mathrm {E} _ {\tau \sim P _ {\theta}} \left[ \nabla_ {\theta} \log \pi_ {\theta} \left(a _ {t} \mid s _ {t}\right) \cdot \gamma^ {t} \left(\sum_ {j \geq t} ^ {T - 1} \gamma^ {j - t} R \left(s _ {j}, a _ {j}\right) - B \left(s _ {t}\right)\right) \right] \tag {17.11} \\ \end{array}
+\begin{array}{l} \nabla_{\theta} \eta (\theta) = \sum_{t = 0}^{T - 1} \mathrm{E}_{\tau \sim P_{\theta}} \left[ \nabla_{\theta} \log \pi_{\theta} (a_{t} | s_{t}) \cdot \left(\sum_{j \geq t}^{T - 1} \gamma^{j} R (s_{j}, a_{j}) - \gamma^{t} B (s_{t})\right) \right] \\ = \sum_{t = 0}^{T - 1} \mathrm{E}_{\tau \sim P_{\theta}} \left[ \nabla_{\theta} \log \pi_{\theta} \left(a_{t} \mid s_{t}\right) \cdot \gamma^{t} \left(\sum_{j \geq t}^{T - 1} \gamma^{j - t} R \left(s_{j}, a_{j}\right) - B \left(s_{t}\right)\right) \right] \tag {17.11} \\ \end{array}
 $$
 
 Therefore, we will get a different estimator for estimating the  $\nabla \eta(\theta)$  with a difference choice of  $B(\cdot)$ . The benefit of introducing a proper  $B(\cdot)$  — which is often referred to as a baseline — is that it helps reduce the variance of the estimator. It turns out that a near optimal estimator would be the expected future payoff  $\operatorname{E}\left[\sum_{j\geq t}^{T - 1}\gamma^{j - t}R(s_j,a_j)|s_t\right]$ , which is pretty much the same as the value function  $V^{\pi_{\theta}}(s_t)$  (if we ignore the difference between finite and infinite horizon.) Here one could estimate the value function  $V^{\pi_{\theta}}(\cdot)$  in a crude way, because its precise value doesn't influence the mean of the estimator but only the variance. This leads to a policy gradient algorithm with baselines stated in Algorithm 7.
@@ -5162,13 +5162,13 @@ Collect a set of trajectories by executing the current policy. Use  $R_{\geq t}$
 Fit the baseline by finding a function  $B$  that minimizes
 
 $$
-\sum_ {\tau} \sum_ {t} \left(R _ {\geq t} - B \left(s _ {t}\right)\right) ^ {2} \tag {17.12}
+\sum_{\tau} \sum_{t} \left(R_{\geq t} - B \left(s_{t}\right)\right)^{2} \tag {17.12}
 $$
 
 Update the policy parameter  $\theta$  with the gradient estimator
 
 $$
-\sum_ {\tau} \sum_ {t} \nabla_ {\theta} \log \pi_ {\theta} (a _ {t} | s _ {t}) \cdot (R _ {\geq t} - B (s _ {t})) \tag {17.13}
+\sum_{\tau} \sum_{t} \nabla_{\theta} \log \pi_{\theta} (a_{t} | s_{t}) \cdot (R_{\geq t} - B (s_{t})) \tag {17.13}
 $$
 
 # Bibliography

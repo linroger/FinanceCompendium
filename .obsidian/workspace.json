@@ -231,6 +231,8 @@
   },
   "active": "73122c72e4068a7e",
   "lastOpenFiles": [
+    "logs/aea0aab5-d1d1-447a-859e-e2385aa771f2/post_tool_use.json",
+    "logs/aea0aab5-d1d1-447a-859e-e2385aa771f2/pre_tool_use.json",
     "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics/Appendix A Definitions and Theorems.md",
     "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/7. BlackScholesModel.md",
     "logs/aea0aab5-d1d1-447a-859e-e2385aa771f2/subagent_stop.json",
@@ -257,7 +259,6 @@
     "logs/a2378a76-6f18-4469-aaa2-237ea375c676/chat.json",
     "logs/a2378a76-6f18-4469-aaa2-237ea375c676/post_tool_use.json",
     "logs/a2378a76-6f18-4469-aaa2-237ea375c676/pre_tool_use.json",
-    "logs/a2378a76-6f18-4469-aaa2-237ea375c676/subagent_stop.json",
     "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/6. IntroStochCalc A Brief Introduction to Stochastic Calculus.md",
     "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/3. MartingalePricingDiscreteModels.md",
     "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/1. DeterministicCashFlows.md",
@@ -266,7 +267,6 @@
     "Bretton Woods.md",
     "I. Foundations/Mathematics/Introduction to Stochastic Calculus.md",
     "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics/Chapter 01 What Is Mathematics.md",
-    "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics - Part 1 (pages 1-500).md",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415224136376.png",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415223856802.png"
   ]

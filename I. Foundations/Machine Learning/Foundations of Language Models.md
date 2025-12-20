@@ -100,134 +100,21 @@ $\frac{\partial \mathcal{L}}{\partial \theta}$  gradient of the loss function  $
 
 KL  $(p\mid q)$  KL divergence between distributions  $p$  and  $q$
 
-# 1 Pre-training 1
+# 1 Pre-training 11.1 Pre-training NLP Models 11.1.1 Unsupervised, Supervised and Self-supervised Pre-training 21.1.2 Adapting Pre-trained Models 31.2 Self-supervised Pre-training Tasks 71.2.1 Decoder-only Pre-training 71.2.2 Encoder-only Pre-training 81.2.3 Encoder-Decoder Pre-training 151.2.4 Comparison of Pre-training Tasks 201.3 Example: BERT 211.3.1 The Standard Model 211.3.2 More Training and Larger Models 271.3.3 More Efficient Models 271.3.4 Multi-lingual Models 281.4 Applying BERT Models 301.5 Summary 35
 
-1.1 Pre-training NLP Models 1
+# 2 Generative Models 362.1 A Brief Introduction to LLMs 372.1.1 Decoder-only Transformers 382.1.2 Training LLMs 402.1.3 Fine-tuning LLMs 422.1.4 Aligning LLMs with the World 462.1.5 Prompting LLMs 512.2 Training at Scale 562.2.1 Data Preparation 562.2.2 Model Modifications 572.2.3 Distributed Training 602.2.4 Scaling Laws 632.3 Long Sequence Modeling 662.3.1 Optimization from HPC Perspectives 672.3.2 Efficient Architectures 682.3.3 Cache and Memory 702.3.4 Sharing across Heads and Layers 792.3.5 Position Extrapolation and Interpolation 812.3.6 Remarks 922.4 Summary 94
 
-1.1.1 Unsupervised, Supervised and Self-supervised Pre-training 2  
-1.1.2 Adapting Pre-trained Models 3
+# 3 Prompting 963.1 General Prompt Design 973.1.1 Basics 973.1.2 In-context Learning 993.1.3 Prompt Engineering Strategies 1013.1.4 More Examples 1063.2 AdvancedPrompting Methods 1153.2.1 Chain of Thought 1153.2.2 Problem Decomposition 1173.2.3 Self-refinement 1243.2.4 Ensembling 1303.2.5 RAG and Tool Use 1343.3 Learning to Prompt 1383.3.1 Prompt Optimization 1393.3.2 Soft Prompts 1423.3.3 Prompt Length Reduction 1523.4 Summary 153
 
-1.2 Self-supervised Pre-training Tasks 7
-
-1.2.1 Decoder-only Pre-training 7  
-1.2.2 Encoder-only Pre-training 8  
-1.2.3 Encoder-Decoder Pre-training 15  
-1.2.4 Comparison of Pre-training Tasks 20
-
-1.3 Example: BERT 21
-
-1.3.1 The Standard Model 21  
-1.3.2 More Training and Larger Models 27  
-1.3.3 More Efficient Models 27  
-1.3.4 Multi-lingual Models 28
-
-1.4 Applying BERT Models 30  
-1.5 Summary 35
-
-# 2 Generative Models 36
-
-2.1 A Brief Introduction to LLMs 37
-
-2.1.1 Decoder-only Transformers 38  
-2.1.2 Training LLMs 40  
-2.1.3 Fine-tuning LLMs 42  
-2.1.4 Aligning LLMs with the World 46  
-2.1.5 Prompting LLMs 51
-
-2.2 Training at Scale 56
-
-2.2.1 Data Preparation 56  
-2.2.2 Model Modifications 57  
-2.2.3 Distributed Training 60  
-2.2.4 Scaling Laws 63
-
-2.3 Long Sequence Modeling 66
-
-2.3.1 Optimization from HPC Perspectives 67  
-2.3.2 Efficient Architectures 68  
-2.3.3 Cache and Memory 70  
-2.3.4 Sharing across Heads and Layers 79
-
-2.3.5 Position Extrapolation and Interpolation 81  
-2.3.6 Remarks 92
-
-2.4 Summary 94
-
-# 3 Prompting 96
-
-3.1 General Prompt Design 97
-
-3.1.1 Basics 97  
-3.1.2 In-context Learning 99  
-3.1.3 Prompt Engineering Strategies 101  
-3.1.4 More Examples 106
-
-3.2 AdvancedPrompting Methods 115
-
-3.2.1 Chain of Thought 115  
-3.2.2 Problem Decomposition 117  
-3.2.3 Self-refinement 124  
-3.2.4 Ensembling 130  
-3.2.5 RAG and Tool Use 134
-
-3.3 Learning to Prompt 138
-
-3.3.1 Prompt Optimization 139  
-3.3.2 Soft Prompts 142  
-3.3.3 Prompt Length Reduction 152
-
-3.4 Summary 153
-
-# 4 Alignment 155
-
-4.1 An Overview of LLM Alignment 155  
-4.2 Instruction Alignment 157
-
-4.2.1 Supervised Fine-tuning 157  
-4.2.2 Fine-tuning Data Acquisition 161  
-4.2.3 Fine-tuning with Less Data 166  
-4.2.4 Instruction Generalization 167  
-4.2.5 Using Weak Models to Improve Strong Models 169
-
-4.3 Human Preference Alignment: RLHF 172
-
-4.3.1 Basics of Reinforcement Learning 173  
-4.3.2 Training Reward Models 179  
-4.3.3 Training LLMs 182
-
-4.4 Improved Human Preference Alignment 187
-
-4.4.1 Better Reward Modeling 187
-
-4.4.2 Direct Preference Optimization 193  
-4.4.3 Automatic Preference Data Generation 196  
-4.4.4 Step-by-step Alignment 198  
-4.4.5 Inference-time Alignment 200
-
-4.5 Summary 201
+# 4 Alignment 1554.1 An Overview of LLM Alignment 1554.2 Instruction Alignment 1574.2.1 Supervised Fine-tuning 1574.2.2 Fine-tuning Data Acquisition 1614.2.3 Fine-tuning with Less Data 1664.2.4 Instruction Generalization 1674.2.5 Using Weak Models to Improve Strong Models 1694.3 Human Preference Alignment: RLHF 1724.3.1 Basics of Reinforcement Learning 1734.3.2 Training Reward Models 1794.3.3 Training LLMs 1824.4 Improved Human Preference Alignment 1874.4.1 Better Reward Modeling 1874.4.2 Direct Preference Optimization 1934.4.3 Automatic Preference Data Generation 1964.4.4 Step-by-step Alignment 1984.4.5 Inference-time Alignment 2004.5 Summary 201
 
 # 5 Inference 203
 
-# 5.1 Prefilling and Decoding 204
+# 5.1 Prefilling and Decoding 2045.1.1 Preliminaries 2045.1.2 A Two-phase Framework 2075.1.3 Decoding Algorithms 2115.1.4 Evaluation Metrics for LLM Inference 221
 
-5.1.1 Preliminaries 204  
-5.1.2 A Two-phase Framework 207  
-5.1.3 Decoding Algorithms 211  
-5.1.4 Evaluation Metrics for LLM Inference 221
+# 5.2 Efficient Inference Techniques 2225.2.1 More Caching 2235.2.2 Batching 2235.2.3 Parallelization 2325.2.4 Remarks 233
 
-# 5.2 Efficient Inference Techniques 222
-
-5.2.1 More Caching 223  
-5.2.2 Batching 223  
-5.2.3 Parallelization 232  
-5.2.4 Remarks 233
-
-# 5.3 Inference-time Scaling 234
-
-5.3.1 Context Scaling 235  
-5.3.2 Search Scaling 236  
-5.3.3 Output Ensembling 237  
-5.3.4 Generating and Verifying Thinking Paths 238
+# 5.3 Inference-time Scaling 2345.3.1 Context Scaling 2355.3.2 Search Scaling 2365.3.3 Output Ensembling 2375.3.4 Generating and Verifying Thinking Paths 238
 
 # 5.4 Summary 245
 
@@ -250,7 +137,7 @@ The discussion of pre-training issues in NLP typically involves two types of pro
 forms, for simplicity, we describe them using a single model defined as follows:
 
 $$
-\begin{array}{l} \mathbf {o} = g \left(x _ {0}, x _ {1}, \dots , x _ {m}; \theta\right) \\ = g _ {\theta} \left(x _ {0}, x _ {1}, \dots , x _ {m}\right) \tag {1.1} \\ \end{array}
+\begin{array}{l} \mathbf {o} = g \left(x_{0}, x_{1}, \dots , x_{m}; \theta\right) \\ = g_{\theta} \left(x_{0}, x_{1}, \dots , x_{m}\right) \tag {1.1} \\ \end{array}
 $$
 
 where  $\{x_0, x_1, \dots, x_m\}$  denotes a sequence of input tokens $^1$ ,  $x_0$  denotes a special symbol ( $\langle s \rangle$  or [CLS]) attached to the beginning of a sequence,  $g(\cdot; \theta)$  (also written as  $g_{\theta}(\cdot)$ ) denotes a neural network with parameters  $\theta$ , and  $\mathbf{o}$  denotes the output of the neural network. Different problems can vary based on the form of the output  $\mathbf{o}$ . For example, in token prediction problems (as in language modeling),  $\mathbf{o}$  is a distribution over a vocabulary; in sequence encoding problems,  $\mathbf{o}$  is a representation of the input sequence, often expressed as a real-valued vector sequence.
@@ -297,7 +184,7 @@ We need different techniques for applying these models to downstream tasks after
 For sequence encoding pre-training, a common method of adapting pre-trained models is fine-tuning. Let  $\mathrm{Encode}_{\theta}(\cdot)$  denote an encoder with parameters  $\theta$ , for example,  $\mathrm{Encode}_{\theta}(\cdot)$  can be a standard Transformer encoder. Provided we have pre-trained this model in some way and obtained the optimal parameters  $\hat{\theta}$ , we can employ it to model any sequence and generate the corresponding representation, like this
 
 $$
-\mathbf {H} = \operatorname {E n c o d e} _ {\hat {\theta}} (\mathbf {x}) \tag {1.2}
+\mathbf {H} = \operatorname{Encode}_{\hat {\theta}} (\mathbf {x}) \tag {1.2}
 $$
 
 where  $\mathbf{x}$  is the input sequence  $\{x_0, x_1, \dots, x_m\}$ , and  $\mathbf{H}$  is the output representation which is a sequence of real-valued vectors  $\{\mathbf{h}_0, \mathbf{h}_1, \dots, \mathbf{h}_m\}$ . Because the encoder does not work as a standalone NLP system, it is often integrated as a component into a bigger system. Consider, for example, a text classification problem in which we identify the polarity (i.e., positive, negative,
@@ -305,7 +192,7 @@ where  $\mathbf{x}$  is the input sequence  $\{x_0, x_1, \dots, x_m\}$ , and  $\
 and neutral) of a given text. We can build a text classification system by stacking a classifier on top of the encoder. Let  $\mathrm{Classify}_{\omega}(\cdot)$  be a neural network with parameters  $\omega$ . Then, the text classification model can be expressed in the form
 
 $$
-\begin{array}{l} \operatorname * {P r} _ {\omega , \hat {\theta}} (\cdot | \mathbf {x}) = \operatorname {C l a s s i f y} _ {\omega} (\mathbf {H}) \\ = \operatorname {C l a s s i f y} _ {\omega} \left(\operatorname {E n c o d e} _ {\hat {\theta}} (\mathbf {x})\right) \tag {1.3} \\ \end{array}
+\begin{array}{l} \operatorname * {P r}_{\omega , \hat {\theta}} (\cdot | \mathbf {x}) = \operatorname{Classify}_{\omega} (\mathbf {H}) \\ = \operatorname{Classify}_{\omega} \left(\operatorname{Encode}_{\hat {\theta}} (\mathbf {x})\right) \tag {1.3} \\ \end{array}
 $$
 
 Here  $\operatorname{Pr}_{\omega, \hat{\theta}}(\cdot|\mathbf{x})$  is a probability distribution over the label set  $\{\text{positive, negative, neutral}\}$ , and the label with the highest probability in this distribution is selected as output. To keep the notation uncluttered, we will use  $F_{\omega, \hat{\theta}}(\cdot)$  to denote  $\operatorname{Classify}_{\omega}(\operatorname{Encode}_{\hat{\theta}}(\cdot))$ .
@@ -319,7 +206,7 @@ I love the food here. It's amazing!
 We first tokenize this text into tokens $^3$ , and then feed the token sequence  $\mathbf{x}_{\mathrm{new}}$  into the fine-tuned model  $F_{\tilde{\omega},\tilde{\theta}}(\cdot)$ . The model generates a distribution over classes by
 
 $$
-F _ {\tilde {\omega}, \tilde {\theta}} (\mathbf {x} _ {\text {n e w}}) = \left[ \Pr (\text {p o s i t i v e} | \mathbf {x} _ {\text {n e w}}) \Pr (\text {n e g a t i v e} | \mathbf {x} _ {\text {n e w}}) \Pr (\text {n e u t r a l} | \mathbf {x} _ {\text {n e w}}) \right] \tag {1.4}
+F_{\tilde {\omega}, \tilde {\theta}} (\mathbf {x}_{\text{new}}) = \left[ \Pr (\text{positive} | \mathbf {x}_{\text{new}}) \Pr (\text{negative} | \mathbf {x}_{\text{new}}) \Pr (\text{neutral} | \mathbf {x}_{\text{new}}) \right] \tag {1.4}
 $$
 
 And we select the label of the entry with the maximum value as output. In this example it is positive.
@@ -379,7 +266,7 @@ Given a sequence of  $m$  tokens  $\{x_0,\dots,x_m\}$ , the loss on this sequenc
 over the positions  $\{0, \dots, m - 1\}$ , given by
 
 $$
-\begin{array}{l} \operatorname {L o s s} _ {\theta} (x _ {0}, \dots , x _ {m}) = \sum_ {i = 0} ^ {m - 1} \mathcal {L} (\mathbf {p} _ {i + 1} ^ {\theta}, \mathbf {p} _ {i + 1} ^ {\mathrm {g o l d}}) \\ = \sum_ {i = 0} ^ {m - 1} \operatorname {L o g C r o s s E n t r o p y} \left(\mathbf {p} _ {i + 1} ^ {\theta}, \mathbf {p} _ {i + 1} ^ {\text {g o l d}}\right) \tag {1.5} \\ \end{array}
+\begin{array}{l} \operatorname{Loss}_{\theta} (x_{0}, \dots , x_{m}) = \sum_{i = 0}^{m - 1} \mathcal {L} (\mathbf {p}_{i + 1}^{\theta}, \mathbf {p}_{i + 1}^{\mathrm{gold}}) \\ = \sum_{i = 0}^{m - 1} \operatorname{LogCrossEntropy} \left(\mathbf {p}_{i + 1}^{\theta}, \mathbf {p}_{i + 1}^{\text{gold}}\right) \tag {1.5} \\ \end{array}
 $$
 
 where  $\operatorname{LogCrossEntropy}(\cdot)$  is the log-scale cross-entropy, and  $\mathbf{p}_{i+1}^{\mathrm{gold}}$  is the one-hot representation of  $x_{i+1}$ .
@@ -387,13 +274,13 @@ where  $\operatorname{LogCrossEntropy}(\cdot)$  is the log-scale cross-entropy, 
 This loss function can be extended to a set of sequences  $\mathcal{D}$ . In this case, the objective of pre-training is to find the best parameters that minimize the loss on  $\mathcal{D}$
 
 $$
-\hat {\theta} = \underset {\theta} {\arg \min } \sum_ {\mathbf {x} \in \mathcal {D}} \operatorname {L o s s} _ {\theta} (\mathbf {x}) \tag {1.6}
+\hat {\theta} = \underset {\theta} {\arg \min } \sum_{\mathbf {x} \in \mathcal {D}} \operatorname{Loss}_{\theta} (\mathbf {x}) \tag {1.6}
 $$
 
 Note that this objective is mathematically equivalent to maximum likelihood estimation, and can be re-expressed as
 
 $$
-\begin{array}{l} \hat {\theta} = \arg \max  _ {\theta} \sum_ {\mathbf {x} \in \mathcal {D}} \log \Pr_ {\theta} (\mathbf {x}) \\ = \arg \max  _ {\theta} \sum_ {\mathbf {x} \in \mathcal {D}} \sum_ {i = 0} ^ {i - 1} \log \Pr_ {\theta} \left(x _ {i + 1} \mid x _ {0},..., x _ {i}\right) \tag {1.7} \\ \end{array}
+\begin{array}{l} \hat {\theta} = \arg \max _{\theta} \sum_{\mathbf {x} \in \mathcal {D}} \log \Pr_{\theta} (\mathbf {x}) \\ = \arg \max _{\theta} \sum_{\mathbf {x} \in \mathcal {D}} \sum_{i = 0}^{i - 1} \log \Pr_{\theta} \left(x_{i + 1} \mid x_{0},..., x_{i}\right) \tag {1.7} \\ \end{array}
 $$
 
 With these optimized parameters  $\hat{\theta}$ , we can use the pre-trained language model  $\mathrm{Decoder}_{\hat{\theta}}(\cdot)$  to compute the probability  $\mathrm{Pr}_{\hat{\theta}}(x_{i+1} | x_0, \dots, x_i)$  at each position of a given sequence.
@@ -403,11 +290,11 @@ With these optimized parameters  $\hat{\theta}$ , we can use the pre-trained lan
 As defined in Section 1.1.2.1, an encoder  $\mathrm{Encoder}_{\theta}(\cdot)$  is a function that reads a sequence of tokens  $\mathbf{x} = x_0\dots x_m$  and produces a sequence of vectors  $\mathbf{H} = \mathbf{h}_0\dots \mathbf{h}_m^4$ . Training this model is not straightforward, as we do not have gold-standard data for measuring how good the output of the real-valued function is. A typical approach to encoder pre-training is to combine the encoder with some output layers to receive supervision signals that are easier to obtain. Figure 1.2 shows a common architecture for pre-training Transformer encoders, where we add a Softmax layer on top of the Transformer encoder. Clearly, this architecture is the same as that of the decoder-based language model, and the output is a sequence of probability distributions
 
 $$
-\left[ \begin{array}{c} \mathbf {p} _ {1} ^ {\mathbf {W}, \theta} \\ \vdots \\ \mathbf {p} _ {m} ^ {\mathbf {W}, \theta} \end{array} \right] = \operatorname {S o f t m a x} _ {\mathbf {W}} (\operatorname {E n c o d e r} _ {\theta} (\mathbf {x})) \tag {1.9}
+\left[ \begin{array}{c} \mathbf {p}_{1}^{\mathbf {W}, \theta} \\ \vdots \\ \mathbf {p}_{m}^{\mathbf {W}, \theta} \end{array} \right] = \operatorname{Softmax}_{\mathbf {W}} (\operatorname{Encoder}_{\theta} (\mathbf {x})) \tag {1.9}
 $$
 
 $$
-\mathbf {H} = \left[ \begin{array}{c} \mathbf {h} _ {0} \\ \vdots \\ \mathbf {h} _ {m} \end{array} \right] \tag {1.8}
+\mathbf {H} = \left[ \begin{array}{c} \mathbf {h}_{0} \\ \vdots \\ \mathbf {h}_{m} \end{array} \right] \tag {1.8}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/12b0a37d-91d2-4358-a416-f79314d9b2d1/3e1bdb7f7cc045883c8b461380916b5d740707b059fffe39f6ad8bd04b2ecb5e.jpg)  
@@ -438,23 +325,23 @@ where we mask the tokens early and worm (i.e.,  $i_1 = 2$  and  $i_2 = 6$ ).
 Now we have two sequences  $\mathbf{x}$  and  $\bar{\mathbf{x}}$ . The model is then optimized so that we can correctly predict  $\mathbf{x}$  based on  $\bar{\mathbf{x}}$ . This can be thought of as an autoencoding-like process, and the training objective is to maximize the reconstruction probability  $\operatorname{Pr}(\mathbf{x}|\bar{\mathbf{x}})$ . Note that there is a simple position-wise alignment between  $\mathbf{x}$  and  $\bar{\mathbf{x}}$ . Because an unmasked token in  $\bar{\mathbf{x}}$  is the same as the token in  $\mathbf{x}$  at the same position, there is no need to consider the prediction for this unmasked token. This leads to a simplified training objective which only maximizes the probabilities for masked tokens. We can express this objective in a maximum likelihood estimation fashion
 
 $$
-\left(\widehat {\mathbf {W}}, \hat {\theta}\right) = \underset {\mathbf {W}, \theta} {\arg \max } \sum_ {\mathbf {x} \in \mathcal {D}} \sum_ {i \in \mathcal {A} (\mathbf {x})} \log \Pr_ {i} ^ {\mathbf {W}, \theta} \left(x _ {i} | \bar {\mathbf {x}}\right) \tag {1.10}
+\left(\widehat {\mathbf {W}}, \hat {\theta}\right) = \underset {\mathbf {W}, \theta} {\arg \max } \sum_{\mathbf {x} \in \mathcal {D}} \sum_{i \in \mathcal {A} (\mathbf {x})} \log \Pr_{i}^{\mathbf {W}, \theta} \left(x_{i} | \bar {\mathbf {x}}\right) \tag {1.10}
 $$
 
 or alternatively express it using the cross-entropy loss
 
 $$
-(\widehat {\mathbf {W}}, \widehat {\boldsymbol {\theta}}) = \underset {\mathbf {W}, \boldsymbol {\theta}} {\arg \min } \sum_ {\mathbf {x} \in \mathcal {D}} \sum_ {i \in \mathcal {A} (\mathbf {x})} \operatorname {L o g C r o s s E n t r o p y} \left(\mathbf {p} _ {i} ^ {\mathbf {W}, \boldsymbol {\theta}}, \mathbf {p} _ {i} ^ {\mathrm {g o l d}}\right) \tag {1.11}
+(\widehat {\mathbf {W}}, \widehat {\boldsymbol {\theta}}) = \underset {\mathbf {W}, \boldsymbol {\theta}} {\arg \min } \sum_{\mathbf {x} \in \mathcal {D}} \sum_{i \in \mathcal {A} (\mathbf {x})} \operatorname{LogCrossEntropy} \left(\mathbf {p}_{i}^{\mathbf {W}, \boldsymbol {\theta}}, \mathbf {p}_{i}^{\mathrm{gold}}\right) \tag {1.11}
 $$
 
 where  $\operatorname{Pr}_{k}^{\mathbf{W},\theta}(x_k|\bar{\mathbf{x}})$  is the probability of the true token  $x_{k}$  at position  $k$  given the corrupted input  $\bar{\mathbf{x}}$ , and  $\mathbf{p}_k^{\mathbf{W},\theta}$  is the probability distribution at position  $k$  given the corrupted input  $\bar{\mathbf{x}}$ . To illustrate, consider the above example where two tokens of the sequence "the early bird catches the worm" are masked. For this example, the objective is to maximize the sum of log-scale probabilities
 
 $$
-\text {L o s s} = \log \Pr (x _ {2} = e a r l y | \bar {\mathbf {x}} = [ \mathrm {C L S} ] T h e \underbrace {[ \mathrm {M A S K} ]} _ {\bar {x} _ {2}} b i r d c a t c h e s t h e \underbrace {[ \mathrm {M A S K} ]} _ {\bar {x} _ {6}}) +
+\text{Loss} = \log \Pr (x_{2} = e a r l y | \bar {\mathbf {x}} = [ \mathrm{CLS} ] T h e \underbrace {[ \mathrm{MASK} ]}_{\bar {x}_{2}} b i r d c a t c h e s t h e \underbrace {[ \mathrm{MASK} ]}_{\bar {x}_{6}}) +
 $$
 
 $$
-\log \Pr \left(x _ {6} = \text {w o r m} | \bar {\mathbf {x}} = [ \text {C L S} ] \text {T h e} \underbrace {[ \text {M A S K} ]} _ {\bar {x} _ {2}} \text {b i r d c a t c h e s t h e} \underbrace {[ \text {M A S K} ]} _ {\bar {x} _ {6}}\right) \tag {1.12}
+\log \Pr \left(x_{6} = \text{worm} | \bar {\mathbf {x}} = [ \text{CLS} ] \text{The} \underbrace {[ \text{MASK} ]}_{\bar {x}_{2}} \text{birdcatchesthe} \underbrace {[ \text{MASK} ]}_{\bar {x}_{6}}\right) \tag {1.12}
 $$
 
 Once we obtain the optimized parameters  $\widehat{\mathbf{W}}$  and  $\hat{\theta}$ , we can drop  $\widehat{\mathbf{W}}$ . Then, we can further fine-tune the pre-trained encoder  $\mathrm{Encoder}_{\hat{\theta}}(\cdot)$  or directly apply it to downstream tasks.
@@ -468,13 +355,13 @@ at test time. This leads to a discrepancy between training and inference. Moreov
 These issues can be addressed using the permuted language modeling approach to pretraining [Yang et al., 2019]. Similar to causal language modeling, permuted language modeling involves making sequential predictions of tokens. However, unlike causal modeling where predictions follow the natural sequence of the text (like left-to-right or right-to-left), permuted language modeling allows for predictions in any order. The approach is straightforward: we determine an order for token predictions and then train the model in a standard language modeling manner, as described in Section 1.2.1. Note that in this approach, the actual order of tokens in the text remains unchanged, and only the order in which we predict these tokens differs from standard language modeling. For example, consider a sequence of 5 tokens  $x_0x_1x_2x_3x_4$ . Let  $\mathbf{e}_i$  represent the embedding of  $x_i$  (i.e., combination of the token embedding and positional embedding). In standard language modeling, we would generate this sequence in the order of  $x_0 \to x_1 \to x_2 \to x_3 \to x_4$ . The probability of the sequence can be modeled via a generation process.
 
 $$
-\begin{array}{l} \Pr (\mathbf {x}) = \Pr (x _ {0}) \cdot \Pr (x _ {1} | x _ {0}) \cdot \Pr (x _ {2} | x _ {0}, x _ {1}) \cdot \Pr (x _ {3} | x _ {0}, x _ {1}, x _ {2}). \\ \Pr (x _ {4} | x _ {0}, x _ {1}, x _ {2}, x _ {3}) \\ = \Pr (x _ {0}) \cdot \Pr (x _ {1} | \mathbf {e} _ {0}) \cdot \Pr (x _ {2} | \mathbf {e} _ {0}, \mathbf {e} _ {1}) \cdot \Pr (x _ {3} | \mathbf {e} _ {0}, \mathbf {e} _ {1}, \mathbf {e} _ {2}) \cdot \\ \Pr \left(x _ {4} \mid \mathbf {e} _ {0}, \mathbf {e} _ {1}, \mathbf {e} _ {2}, \mathbf {e} _ {3}\right) \tag {1.13} \\ \end{array}
+\begin{array}{l} \Pr (\mathbf {x}) = \Pr (x_{0}) \cdot \Pr (x_{1} | x_{0}) \cdot \Pr (x_{2} | x_{0}, x_{1}) \cdot \Pr (x_{3} | x_{0}, x_{1}, x_{2}). \\ \Pr (x_{4} | x_{0}, x_{1}, x_{2}, x_{3}) \\ = \Pr (x_{0}) \cdot \Pr (x_{1} | \mathbf {e}_{0}) \cdot \Pr (x_{2} | \mathbf {e}_{0}, \mathbf {e}_{1}) \cdot \Pr (x_{3} | \mathbf {e}_{0}, \mathbf {e}_{1}, \mathbf {e}_{2}) \cdot \\ \Pr \left(x_{4} \mid \mathbf {e}_{0}, \mathbf {e}_{1}, \mathbf {e}_{2}, \mathbf {e}_{3}\right) \tag {1.13} \\ \end{array}
 $$
 
 Now, let us consider a different order for token prediction:  $x_0 \to x_4 \to x_2 \to x_1 \to x_3$ . The sequence generation process can then be expressed as follows:
 
 $$
-\begin{array}{l} \Pr (\mathbf {x}) = \Pr (x _ {0}) \cdot \Pr (x _ {4} | \mathbf {e} _ {0}) \cdot \Pr (x _ {2} | \mathbf {e} _ {0}, \mathbf {e} _ {4}) \cdot \Pr (x _ {1} | \mathbf {e} _ {0}, \mathbf {e} _ {4}, \mathbf {e} _ {2}) \cdot \\ \Pr \left(x _ {3} \mid \mathbf {e} _ {0}, \mathbf {e} _ {4}, \mathbf {e} _ {2}, \mathbf {e} _ {1}\right) \tag {1.14} \\ \end{array}
+\begin{array}{l} \Pr (\mathbf {x}) = \Pr (x_{0}) \cdot \Pr (x_{4} | \mathbf {e}_{0}) \cdot \Pr (x_{2} | \mathbf {e}_{0}, \mathbf {e}_{4}) \cdot \Pr (x_{1} | \mathbf {e}_{0}, \mathbf {e}_{4}, \mathbf {e}_{2}) \cdot \\ \Pr \left(x_{3} \mid \mathbf {e}_{0}, \mathbf {e}_{4}, \mathbf {e}_{2}, \mathbf {e}_{1}\right) \tag {1.14} \\ \end{array}
 $$
 
 This new prediction order allows for the generation of some tokens to be conditioned on a broader context, rather than being limited to just the preceding tokens as in standard language models. For example, in generating  $x_{3}$ , the model considers both its left-context (i.e.,  $\mathbf{e}_0, \mathbf{e}_1, \mathbf{e}_2$ ) and right-context (i.e.,  $\mathbf{e}_4$ ). The embeddings  $\mathbf{e}_0, \mathbf{e}_1, \mathbf{e}_2, \mathbf{e}_4$  incorporate the positional information of  $x_0, x_1, x_2, x_4$ , preserving the original order of the tokens. As a result, this approach is somewhat akin to masked language modeling: we mask out  $x_{3}$  and use its surrounding tokens  $x_0, x_1, x_2, x_4$  to predict this token.
@@ -549,13 +436,13 @@ Such an idea allows us to develop a single text-to-text system to address any NL
 In Raffel et al. [2020]'s T5 model, many different tasks are framed as the same text-to-text task. Each sample in T5 follows the format
 
 $$
-\begin{array}{l l}\text {S o u r c e T e x t}&\rightarrow \quad \text {T a r g e t T e x t}\end{array}
+\begin{array}{l l}\text{SourceText}&\rightarrow \quad \text{TargetText}\end{array}
 $$
 
 Here  $\rightarrow$  separates the source text, which consists of a task description or instruction and the input given to the system, from the target text, which is the response to the input task. As an example, consider a task of translating from Chinese to English. A training sample can be expressed as
 
 $$
-[ \mathrm {C L S} ] \mathrm {T r a n s l a t e f r o m C h i n e s e t o E n g l i s h :} \mathrm {你 好}! \quad \rightarrow \quad \langle s \rangle \mathrm {H e l l o}!
+[ \mathrm{CLS} ] \mathrm{TranslatefromChinesetoEnglish:} \mathrm{你好}! \quad \rightarrow \quad \langle s \rangle \mathrm{Hello}!
 $$
 
 where [CLS] and  $\langle s\rangle$  are the start symbols on the source and target sides, respectively<sup>5</sup>.
@@ -587,7 +474,7 @@ There have been several powerful methods of self-supervised learning for either 
 Consider the following example
 
 $$
-\underbrace {[ \mathrm {C L S} ] \mathrm {T h e p u p p i e s a r e f r o l i c k i n g}} _ {\mathrm {P r e f i x}} \to \underbrace {\langle s \rangle \mathrm {o u t s i d e t h e h o u s e}} _ {\mathrm {S u b s e q u e n t S e q u e n c e}}.
+\underbrace {[ \mathrm{CLS} ] \mathrm{Thepuppiesarefrolicking}}_{\mathrm{Prefix}} \to \underbrace {\langle s \rangle \mathrm{outsidethehouse}}_{\mathrm{SubsequentSequence}}.
 $$
 
 We can directly train an encoder-decoder model using examples like this. Then, the encoder learns to understand the prefix, and the decoder learns to continue writing based on this understanding. For large-scale pre-training, it is easy to create a large number of training examples from unlabeled text.
@@ -603,13 +490,13 @@ The puppies are frolicking outside the house.
 By masking two tokens (say, frolicking and the), we have the BERT-style input and output of the model, as follows
 
 $$
-\begin{array}{l} [ \mathrm {C L S} ] \text {T h e p u p p i e s a r e [ M A S K ] o u t s i d e [ M A S K ] h o u s e}. \\ \rightarrow \langle s \rangle \_ \_ \_ \text {f r o l i c k i n g} \_ \text {t h e} \_ \_ \\ \end{array}
+\begin{array}{l} [ \mathrm{CLS} ] \text{Thepuppiesare[MASK]outside[MASK]house}. \\ \rightarrow \langle s \rangle \_ \_ \_ \text{frolicking} \_ \text{the} \_ \_ \\ \end{array}
 $$
 
 Here _ denotes the masked position at which we do not make token predictions. By varying the percentage of the tokens in the text, this approach can be generalized towards either BERT-style training or language modeling-style training [Song et al., 2019]. For example, if we mask out all the tokens, then the model is trained to generate the entire sequence
 
 $$
-\begin{array}{l} [ \mathrm {C L S} ] [ \mathrm {M A S K} ] [ \mathrm {M A S K} ] [ \mathrm {M A S K} ] [ \mathrm {M A S K} ] [ \mathrm {M A S K} ] [ \mathrm {M A S K} ] [ \mathrm {M A S K} ] \\ \rightarrow \langle s \rangle \text {T h e p u p p i e s a r e f r o l i c k i n g o u t s i d e t h e h o u s e}. \\ \end{array}
+\begin{array}{l} [ \mathrm{CLS} ] [ \mathrm{MASK} ] [ \mathrm{MASK} ] [ \mathrm{MASK} ] [ \mathrm{MASK} ] [ \mathrm{MASK} ] [ \mathrm{MASK} ] [ \mathrm{MASK} ] \\ \rightarrow \langle s \rangle \text{Thepuppiesarefrolickingoutsidethehouse}. \\ \end{array}
 $$
 
 In this case, we train the decoder as a language model.
@@ -617,7 +504,7 @@ In this case, we train the decoder as a language model.
 Note that, in the context of the encoder-decoder architecture, we can use the encoder to read the masked sequence, and use the decoder to predict the original sequence. With this objective, we essentially have a denoising autoencoder: the encoder transforms a corrupted input into some hidden representation, and the decoder reconstructs the uncorrupted input from this hidden representation. Here is an example of input and output for denoising training.
 
 $$
-\begin{array}{l} [ \mathrm {C L S} ] \text {T h e p u p p i e s a r e [ M A S K ] o u t s i d e [ M A S K ] h o u s e}. \\ \rightarrow \langle s \rangle \text {T h e p u p p i e s a r e f r o l i c k i n g o u t s i d e t h e h o u s e}. \\ \end{array}
+\begin{array}{l} [ \mathrm{CLS} ] \text{Thepuppiesare[MASK]outside[MASK]house}. \\ \rightarrow \langle s \rangle \text{Thepuppiesarefrolickingoutsidethehouse}. \\ \end{array}
 $$
 
 By learning to map from this corrupted sequence to its uncorrupted counterpart, the model gains the ability to understand on the encoder side and to generate on the decoder side. See Figure 1.4 for an illustration of how an encoder-decoder model is trained with BERT-style and denoising autoencoding objectives.
@@ -625,13 +512,13 @@ By learning to map from this corrupted sequence to its uncorrupted counterpart, 
 As we randomly select tokens for masking, we can certainly mask consecutive tokens [Joshi et al., 2020]. Here is an example.
 
 $$
-\begin{array}{l} [ \mathrm {C L S} ] \mathrm {T h e p u p p i e s a r e [ M A S K ] o u t s i d e [ M A S K ] [ M A S K ]}. \\ \rightarrow \langle s \rangle \text {T h e p u p p i e s a r e f r o l i c k i n g o u t s i d e t h e h o u s e}. \\ \end{array}
+\begin{array}{l} [ \mathrm{CLS} ] \mathrm{Thepuppiesare[MASK]outside[MASK][MASK]}. \\ \rightarrow \langle s \rangle \text{Thepuppiesarefrolickingoutsidethehouse}. \\ \end{array}
 $$
 
 Another way to consider consecutive masked tokens is to represent them as spans. Here we follow Raffel et al. [2020]'s work, and use [X], [Y] and [Z] to denote sentinel tokens that cover one or more consecutive masked tokens. Using this notation, we can re-express the above training example as
 
 $$
-\begin{array}{l} [ \mathrm {C L S} ] \text {T h e p u p p i e s a r e [ X ] o u t s i d e [ Y ]}. \\ \rightarrow \langle s \rangle [ \mathrm {X} ] \mathrm {f r o l i c k i n g [ Y ] t h e h o u s e [ Z ]} \\ \end{array}
+\begin{array}{l} [ \mathrm{CLS} ] \text{Thepuppiesare[X]outside[Y]}. \\ \rightarrow \langle s \rangle [ \mathrm{X} ] \mathrm{frolicking[Y]thehouse[Z]} \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/12b0a37d-91d2-4358-a416-f79314d9b2d1/8a2b4e9829399095cd3f7c707a4e516ea3f3446cd3a61629026cc859e0683869.jpg)  
@@ -652,13 +539,13 @@ Suppose we have an encoder-decoder model that can map an input sequence  $\mathb
 sequence y
 
 $$
-\begin{array}{l} \mathbf {y} = \operatorname {D e c o d e} _ {\omega} (\operatorname {E n c o d e} _ {\theta} (\mathbf {x})) \\ = \operatorname {M o d e l} _ {\theta , \omega} (\mathbf {x}) \tag {1.15} \\ \end{array}
+\begin{array}{l} \mathbf {y} = \operatorname{Decode}_{\omega} (\operatorname{Encode}_{\theta} (\mathbf {x})) \\ = \operatorname{Model}_{\theta , \omega} (\mathbf {x}) \tag {1.15} \\ \end{array}
 $$
 
 where  $\theta$  and  $\omega$  are the parameters of the encoder and the decoder, respectively. In denoising autoencoding problems, we add some noise to  $\mathbf{x}$  to obtain a noisy, corrupted input  $\mathbf{x}_{\mathrm{noise}}$ . By feeding  $\mathbf{x}_{\mathrm{noise}}$  into the encoder, we wish the decoder to output the original input. The training objective can be defined as
 
 $$
-(\hat {\theta}, \hat {\omega}) = \underset {\theta , \omega} {\arg \min } \operatorname {L o s s} \left(\operatorname {M o d e l} _ {\theta , \omega} \left(\mathbf {x} _ {\text {n o i s e}}\right), \mathbf {x}\right) \tag {1.16}
+(\hat {\theta}, \hat {\omega}) = \underset {\theta , \omega} {\arg \min } \operatorname{Loss} \left(\operatorname{Model}_{\theta , \omega} \left(\mathbf {x}_{\text{noise}}\right), \mathbf {x}\right) \tag {1.16}
 $$
 
 Here the loss function  $\mathrm{Loss}(\mathrm{Model}_{\theta, \omega}(\mathbf{x}_{\mathrm{noise}}), \mathbf{x})$  evaluates how well the model  $\mathrm{Model}_{\theta, \omega}(\mathbf{x}_{\mathrm{noise}})$  reconstructs the original input  $\mathbf{x}$ . We can choose the cross-entropy loss as usual.
@@ -726,7 +613,7 @@ In this section, we introduce BERT models, which are among the most popular and 
 The standard BERT model, which is proposed in Devlin et al. [2019]'s work, is a Transformer encoder trained using both masked language modeling and next sentence prediction tasks. The loss used in training this model is a sum of the loss of the two tasks.
 
 $$
-\text {L o s s} _ {\mathrm {B E R T}} = \text {L o s s} _ {\mathrm {M L M}} + \text {L o s s} _ {\mathrm {N S P}} \tag {1.17}
+\text{Loss}_{\mathrm{BERT}} = \text{Loss}_{\mathrm{MLM}} + \text{Loss}_{\mathrm{NSP}} \tag {1.17}
 $$
 
 As is regular in training deep neural networks, we optimize the model parameters by minimizing this loss. To do this, a number of training samples are collected. During training, a batch of
@@ -742,7 +629,7 @@ training samples is randomly selected from this collection at a time, and  $\tex
 In general, BERT models are used to represent a single sentence or a pair of sentences, and thus can handle various downstream language understanding problems. In this section we assume that the input representation is a sequence containing two sentences  $\mathrm{Sent}_A$  and  $\mathrm{Sent}_B$ , expressed as
 
 $$
-[ \mathrm {C L S} ] \operatorname {S e n t} _ {A} [ \mathrm {S E P} ] \operatorname {S e n t} _ {B} [ \mathrm {S E P} ]
+[ \mathrm{CLS} ] \operatorname{Sent}_{A} [ \mathrm{SEP} ] \operatorname{Sent}_{B} [ \mathrm{SEP} ]
 $$
 
 Here we follow the notation in BERT's paper and use [SEP] to denote the separator.
@@ -774,7 +661,7 @@ This is not a difficult prediction task, but can guide the model to use easier e
 Let  $\mathcal{A}(\mathbf{x})$  be the set of selected positions of a given token sequence  $\mathbf{x}$ , and  $\bar{\mathbf{x}}$  be the modified sequence of  $\mathbf{x}$ . The loss function of masked language modeling can be defined as
 
 $$
-\operatorname {L o s s} _ {\mathrm {M L M}} = - \sum_ {i \in \mathcal {A} (\mathbf {x})} \log \Pr_ {i} \left(x _ {i} | \bar {\mathbf {x}}\right) \tag {1.18}
+\operatorname{Loss}_{\mathrm{MLM}} = - \sum_{i \in \mathcal {A} (\mathbf {x})} \log \Pr_{i} \left(x_{i} | \bar {\mathbf {x}}\right) \tag {1.18}
 $$
 
 where  $\operatorname{Pr}_i(x_i|\bar{\mathbf{x}})$  is the probability of predicting  $x_{i}$  at the position  $i$  given  $\bar{\mathbf{x}}$ . Figure 1.5 shows a running example of computing  $\mathrm{Loss}_{\mathrm{MLM}}$ .
@@ -795,7 +682,7 @@ Fig. 1.5: A running example of BERT-style masked language modeling. First,  $15\
 The output vector of the encoder for the first token [CLS] is viewed as the sequence representation, denoted by  $\mathbf{h}_{\mathrm{cls}}$  (or  $\mathbf{h}_0$ ). A classifier is built on top of  $\mathbf{h}_{\mathrm{cls}}$ . Then, we can compute the probability of a label  $c$  given  $\mathbf{h}_{\mathrm{cls}}$ , i.e.,  $\operatorname*{Pr}(c|\mathbf{h}_{\mathrm{cls}})$ . There are many loss functions one can choose for classification problems. For example, in maximum likelihood training, we can define  $\mathrm{Loss}_{\mathrm{NSP}}$  as
 
 $$
-\operatorname {L o s s} _ {\mathrm {N S P}} = - \log \Pr \left(c _ {\text {g o l d}} \mid \mathbf {h} _ {\text {c l s}}\right) \tag {1.19}
+\operatorname{Loss}_{\mathrm{NSP}} = - \log \Pr \left(c_{\text{gold}} \mid \mathbf {h}_{\text{cls}}\right) \tag {1.19}
 $$
 
 where  $c_{\mathrm{gold}}$  is the correct label for this sample.
@@ -805,7 +692,7 @@ where  $c_{\mathrm{gold}}$  is the correct label for this sample.
 As shown in Figure 1.6, BERT models are based on the standard Transformer encoder architecture. The input is a sequence of embeddings, each being the sum of the token embedding, the positional embedding, and the segment embedding.
 
 $$
-\mathbf {e} = \mathbf {x} + \mathbf {e} _ {\text {p o s}} + \mathbf {e} _ {\text {s e g}} \tag {1.20}
+\mathbf {e} = \mathbf {x} + \mathbf {e}_{\text{pos}} + \mathbf {e}_{\text{seg}} \tag {1.20}
 $$
 
 Both the token embedding  $(\mathbf{x})$  and positional embedding  $(\mathbf{e}_{\mathrm{pos}})$  are regular, as in Transformer models. The segment embedding  $(\mathbf{e}_{\mathrm{seg}})$  is a new type of embedding that indicates whether a token belongs to  $\mathrm{Sent}_A$  or  $\mathrm{Sent}_B$ . This can be illustrated by the following example.
@@ -900,7 +787,7 @@ meaning the overall performance of the pre-trained model starts decreasing at a 
 Once a BERT model is pre-trained, it can then be used to solve NLP problems. But BERT models are not immediately ready for performing specific downstream tasks. In general, additional fine-tuning work is required to make them adapt. As a first step, we need a predictor to align the output of the model with the problem of interest. Let  $\mathrm{BERT}_{\hat{\theta}}(\cdot)$  be a BERT model with pretrained parameters  $\hat{\theta}$ , and  $\mathrm{Predict}_{\omega}(\cdot)$  be a prediction network with parameters  $\omega$ . By integrating the prediction network with the output of the BERT model, we develop a model to tackle the downstream tasks. This model can be expressed as
 
 $$
-\mathbf {y} = \operatorname {P r e d i c t} _ {\omega} (\mathrm {B E R T} _ {\hat {\theta}} (\mathbf {x})) \tag {1.21}
+\mathbf {y} = \operatorname{Predict}_{\omega} (\mathrm{BERT}_{\hat {\theta}} (\mathbf {x})) \tag {1.21}
 $$
 
 where  $\mathbf{x}$  is the input and  $\mathbf{y}$  is the output that fits the problem. For example, in classification problems, the model outputs a probability distribution over labels.
@@ -908,7 +795,7 @@ where  $\mathbf{x}$  is the input and  $\mathbf{y}$  is the output that fits the
 Then, we collect a set of labeled samples  $\mathcal{D}$ , and fine-tune the model by
 
 $$
-\left(\tilde {\omega}, \tilde {\theta}\right) = \arg \min  _ {\omega , \hat {\theta} ^ {+}} \sum_ {\left(\mathbf {x}, \mathbf {y} _ {\text {g o l d}}\right) \in \mathcal {D}} \operatorname {L o s s} \left(\mathbf {y} _ {\omega , \hat {\theta} ^ {+}}, \mathbf {y} _ {\text {g o l d}}\right) \tag {1.22}
+\left(\tilde {\omega}, \tilde {\theta}\right) = \arg \min _{\omega , \hat {\theta}^{+}} \sum_{\left(\mathbf {x}, \mathbf {y}_{\text{gold}}\right) \in \mathcal {D}} \operatorname{Loss} \left(\mathbf {y}_{\omega , \hat {\theta}^{+}}, \mathbf {y}_{\text{gold}}\right) \tag {1.22}
 $$
 
 where  $(\mathbf{x},\mathbf{y}_{\mathrm{gold}})$  represents a tuple of an input and its corresponding output. The notation of this equation seems a bit complicated, but the training/tuning process is standard. We optimize the model by minimizing the loss over the tuning samples. The outcome is the optimized parameters  $\tilde{\omega}$  and  $\tilde{\theta}$ . The optimization starts with the pre-trained parameters  $\hat{\theta}$ . Here we use  $\hat{\theta}^{+}$  to indicate that the parameters are initialized with  $\hat{\theta}$ , and use  $\mathbf{y}_{\omega,\hat{\theta}^{+}}$  to denote the model output computed using the parameters  $\omega$  and  $\hat{\theta}^{+}$ .
@@ -940,7 +827,7 @@ For training or fine-tuning, we can minimize the regression loss of the model ou
 Here  $\{\mathrm{B},\mathrm{I},\mathrm{O}\}$  is the tag set of NER. For example, B-ORG means the beginning of an organization, I-ORG means the word is inside an organization, and O means the word does not belong to any named entity. This NER model can output a distribution over the tag set at each position, denoted as  $\mathbf{p}_i$ . The training or fine-tuning of the model can be performed over these distributions  $\{\mathbf{p}_1,\dots,\mathbf{p}_m\}$ . For example, suppose  $p_i(\mathrm{tag}_i)$  is the probability of the correct tag at position  $i$ . The training loss can be defined to be the negative likelihood
 
 $$
-\text {L o s s} = - \frac {1}{m} \sum_ {i = 1} ^ {m} \log p _ {i} (\operatorname {t a g} _ {i}) \tag {1.23}
+\text{Loss} = - \frac{1}{m} \sum_{i = 1}^{m} \log p_{i} (\operatorname{tag}_{i}) \tag {1.23}
 $$
 
 Finding the best label sequence given a trained NER model is a well-studied issue in NLP. This is often achieved via dynamic programming, which, in the context of path finding over a lattice, has linear complexity [Huang, 2009].
@@ -952,13 +839,13 @@ Finding the best label sequence given a trained NER model is a well-studied issu
 We pack the query and context text together to obtain the input sequence. The prediction networks are only applied to outputs for the context text, generating the probabilities  $p_j^{\mathrm{beg}}$  and  $p_j^{\mathrm{end}}$  at each position. The loss can be computed by summing the negative log likelihoods of the two models across the entire context text.
 
 $$
-\text {L o s s} = - \frac {1}{n} \sum_ {j = 1} ^ {n} \left(\log p _ {j} ^ {\mathrm {b e g}} + \log p _ {j} ^ {\mathrm {e n d}}\right) \tag {1.24}
+\text{Loss} = - \frac{1}{n} \sum_{j = 1}^{n} \left(\log p_{j}^{\mathrm{beg}} + \log p_{j}^{\mathrm{end}}\right) \tag {1.24}
 $$
 
 At test time, we search for the best span by
 
 $$
-\left(\hat {j} _ {1}, \hat {j} _ {2}\right) = \underset {1 \leq j _ {1} \leq j _ {2} \leq n} {\arg \max } \left(\log p _ {j _ {1}} ^ {\text {b e g}} + \log p _ {j _ {2}} ^ {\text {e n d}}\right) \tag {1.25}
+\left(\hat {j}_{1}, \hat {j}_{2}\right) = \underset {1 \leq j_{1} \leq j_{2} \leq n} {\arg \max } \left(\log p_{j_{1}}^{\text{beg}} + \log p_{j_{2}}^{\text{end}}\right) \tag {1.25}
 $$
 
 - Encoding for Encoder-Decoder Models. While our focus in this section has been primarily on language understanding problems, it is worth noting that BERT models can be applied to a broader range of NLP tasks. In fact, BERT models can be used in all the scenarios where we need to encode a piece of text. One application that we have not mentioned is text generation which includes a range of tasks such as machine translation, summarization, question answering, and dialogue generation. These tasks can be formulated as sequence-to-sequence problems: we use an encoder to represent the source text, and a decoder to generate the corresponding target text. A straightforward method to apply BERT models is to consider them as encoders. Before fine-tuning, we can initialize the parameters of the encoder with those from a pre-trained BERT model. Then, the encoder-decoder model can be fine-tuned on pairs of texts as usual. The following shows the architecture of a neural machine translation system where a BERT model is applied on the source side.
@@ -1004,13 +891,13 @@ In this section we give an introduction to the basic ideas of LLMs as required f
 Before presenting details, let us first consider how language models work. The goal of language modeling is to predict the probability of a sequence of tokens occurring. Let  $\{x_0, x_1, \dots, x_m\}$  be a sequence of tokens, where  $x_0$  is the start symbol  $\langle s \rangle$  (or  $\langle \mathrm{SOS} \rangle$ )<sup>1</sup>. The probability of this sequence can be defined using the chain rule
 
 $$
-\begin{array}{l} \Pr (x _ {0}, \dots , x _ {m}) = \Pr (x _ {0}) \cdot \Pr (x _ {1} | x _ {0}) \cdot \Pr (x _ {2} | x _ {0}, x _ {1}) \dots \Pr (x _ {m} | x _ {0}, \dots , x _ {m - 1}) \\ = \prod_ {i = 0} ^ {m} \Pr \left(x _ {i} \mid x _ {0}, \dots , x _ {i - 1}\right) \tag {2.1} \\ \end{array}
+\begin{array}{l} \Pr (x_{0}, \dots , x_{m}) = \Pr (x_{0}) \cdot \Pr (x_{1} | x_{0}) \cdot \Pr (x_{2} | x_{0}, x_{1}) \dots \Pr (x_{m} | x_{0}, \dots , x_{m - 1}) \\ = \prod_{i = 0}^{m} \Pr \left(x_{i} \mid x_{0}, \dots , x_{i - 1}\right) \tag {2.1} \\ \end{array}
 $$
 
 or alternatively in a logarithmic form
 
 $$
-\log \Pr (x _ {0}, \dots , x _ {m}) = \sum_ {i = 0} ^ {m} \log \Pr (x _ {i} | x _ {0}, \dots , x _ {i - 1}) \tag {2.2}
+\log \Pr (x_{0}, \dots , x_{m}) = \sum_{i = 0}^{m} \log \Pr (x_{i} | x_{0}, \dots , x_{i - 1}) \tag {2.2}
 $$
 
 Here  $\operatorname*{Pr}(x_i|x_0,\dots,x_{i - 1})$  is the probability of the token  $x_{i}$  given all its previous tokens  $\{x_0,\ldots ,x_{i - 1}\}$  2. In the era of deep learning, a typical approach to language modeling is to estimate this
@@ -1024,7 +911,7 @@ probability using a deep neural network. Neural networks trained to accomplish t
 When applying a trained language model, a common task is to find the most likely token given its previous context tokens. This token prediction task can be described as
 
 $$
-\hat {x} _ {i} = \underset {x _ {i} \in \mathcal {V}} {\arg \max } \Pr (x _ {i} | x _ {0}, \dots , x _ {i - 1}) \tag {2.3}
+\hat {x}_{i} = \underset {x_{i} \in \mathcal {V}} {\arg \max } \Pr (x_{i} | x_{0}, \dots , x_{i - 1}) \tag {2.3}
 $$
 
 We can perform word prediction multiple times to generate a continuous text: each time we predict the best token  $\hat{x}_i$ , and then add this predicted token to the context for predicting the next token  $\hat{x}_{i + 1}$ . This results in a left-to-right generation process implementing Eqs. (2.1) and (2.2). To illustrate, consider the generation of the following three words given the prefix  $\langle s\rangle a^{\prime}$ , as shown in Table 2.1. Now we discuss how LLMs are constructed, trained, and applied.
@@ -1036,13 +923,13 @@ As is standard practice, the input of a language model is a sequence of tokens (
 Here, we focus on the decoder-only Transformer architecture, as it is one of the most popular model architectures used in LLMs. The input sequence of tokens is represented by a sequence of  $d_{e}$ -dimensional vectors  $\{\mathbf{e}_0, \dots, \mathbf{e}_{m-1}\}$ .  $\mathbf{e}_i$  is the sum of the token embedding of  $x_i$  and the positional embedding of  $i$ . The major body of the model is a stack of Transformer blocks (or layers). Each Transformer block has two stacked sub-layers, one for self-attention modeling and one for FFN modeling. These sub-layers can be defined using the post-norm architecture
 
 $$
-\text {o u t p u t} = \mathrm {L N o r m} (F (\text {i n p u t}) + \text {i n p u t}) \tag {2.4}
+\text{output} = \mathrm{LNorm} (F (\text{input}) + \text{input}) \tag {2.4}
 $$
 
 or the pre-norm architecture
 
 $$
-\text {o u t p u t} = \operatorname {L N o r m} (F (\text {i n p u t})) + \text {i n p u t} \tag {2.5}
+\text{output} = \operatorname{LNorm} (F (\text{input})) + \text{input} \tag {2.5}
 $$
 
 where input and output denote the input and output, both being an  $m \times d$  matrix. The  $i$ -th rows of input and output can be seen as contextual representations of the  $i$ -th token in the sequence.
@@ -1050,7 +937,7 @@ where input and output denote the input and output, both being an  $m \times d$ 
 $F(\cdot)$  is the core function of a sub-layer. For FFN sub-layers,  $F(\cdot)$  is a multi-layer FFN. For self-attention sub-layers,  $F(\cdot)$  is a multi-head self-attention function. In general, self-attention is expressed in a form of QKV attention
 
 $$
-\operatorname {A t t} _ {\mathrm {q k v}} (\mathbf {Q}, \mathbf {K}, \mathbf {V}) = \operatorname {S o f t m a x} \left(\frac {\mathbf {Q K} ^ {\mathrm {T}}}{\sqrt {d}} + \mathbf {M a s k}\right) \mathbf {V} \tag {2.6}
+\operatorname{Att}_{\mathrm{qkv}} (\mathbf {Q}, \mathbf {K}, \mathbf {V}) = \operatorname{Softmax} \left(\frac{\mathbf {Q K}^{\mathrm{T}}}{\sqrt{d}} + \mathbf {M a s k}\right) \mathbf {V} \tag {2.6}
 $$
 
 where  $\mathbf{Q}$ ,  $\mathbf{K}$  and  $\mathbf{V} \in \mathbb{R}^{m \times d}$  are the queries, keys, and values, respectively. It is important to note that only previous tokens are considered when predicting a token. So a masking variable  $\mathbf{Mask} \in \mathbb{R}^{m \times m}$  is incorporated into self-attention to achieve this. The entry  $(i, k)$  of  $\mathbf{Mask}$  has a value of 0 if  $i \leq k$ , and a value of -inf otherwise.
@@ -1058,27 +945,27 @@ where  $\mathbf{Q}$ ,  $\mathbf{K}$  and  $\mathbf{V} \in \mathbb{R}^{m \times d
 Given a representation  $\mathbf{H} \in \mathbb{R}^{m \times d}$ , the multi-head self-attention function can be defined as
 
 $$
-F (\mathbf {H}) = \operatorname {M e r g e} \left(\operatorname {h e a d} _ {1}, \dots , \operatorname {h e a d} _ {\tau}\right) \mathbf {W} ^ {\text {h e a d}} \tag {2.7}
+F (\mathbf {H}) = \operatorname{Merge} \left(\operatorname{head}_{1}, \dots , \operatorname{head}_{\tau}\right) \mathbf {W}^{\text{head}} \tag {2.7}
 $$
 
 where  $\mathrm{Merge}(\cdot)$  represents a concatenation of its inputs, and  $\mathbf{W}^{\mathrm{head}}\in \mathbb{R}^{d\times d}$  represents a parameter matrix. head is the output of QKV attention on a sub-space of representation
 
 $$
-\operatorname {h e a d} _ {j} = \operatorname {A t t} _ {\mathrm {q k v}} \left(\mathbf {Q} ^ {[ j ]}, \mathbf {K} ^ {[ j ]}, \mathbf {V} ^ {[ j ]}\right) \tag {2.8}
+\operatorname{head}_{j} = \operatorname{Att}_{\mathrm{qkv}} \left(\mathbf {Q}^{[ j ]}, \mathbf {K}^{[ j ]}, \mathbf {V}^{[ j ]}\right) \tag {2.8}
 $$
 
 $\mathbf{Q}^{[j]}, \mathbf{K}^{[j]}$ , and  $\mathbf{V}^{[j]}$  are the queries, keys, and values projected onto the  $j$ -th sub-space via linear transformations
 
 $$
-\mathbf {Q} ^ {[ j ]} = \mathbf {H} \mathbf {W} _ {j} ^ {q} \tag {2.9}
+\mathbf {Q}^{[ j ]} = \mathbf {H} \mathbf {W}_{j}^{q} \tag {2.9}
 $$
 
 $$
-\mathbf {K} ^ {[ j ]} = \mathbf {H} \mathbf {W} _ {j} ^ {k} \tag {2.10}
+\mathbf {K}^{[ j ]} = \mathbf {H} \mathbf {W}_{j}^{k} \tag {2.10}
 $$
 
 $$
-\mathbf {V} ^ {[ j ]} = \mathbf {H} \mathbf {W} _ {j} ^ {v} \tag {2.11}
+\mathbf {V}^{[ j ]} = \mathbf {H} \mathbf {W}_{j}^{v} \tag {2.11}
 $$
 
 where  $\mathbf{W}_j^q, \mathbf{W}_j^k$ , and  $\mathbf{W}_j^v \in \mathbb{R}^{d \times \frac{d}{\tau}}$  are the parameter matrices of the transformations.
@@ -1086,7 +973,7 @@ where  $\mathbf{W}_j^q, \mathbf{W}_j^k$ , and  $\mathbf{W}_j^v \in \mathbb{R}^{d
 Suppose we have  $L$  Transformer blocks. A Softmax layer is built on top of the output of the last block. The Softmax layer outputs a sequence of  $m$  distributions over the vocabulary, like this
 
 $$
-\left[ \begin{array}{c} \Pr (\cdot | x _ {0}, \dots , x _ {m - 1}) \\ \vdots \\ \Pr (\cdot | x _ {0}, x _ {1}) \\ \Pr (\cdot | x _ {0}) \end{array} \right] = \text {S o f t m a x} \left(\mathbf {H} ^ {L} \mathbf {W} ^ {o}\right) \tag {2.12}
+\left[ \begin{array}{c} \Pr (\cdot | x_{0}, \dots , x_{m - 1}) \\ \vdots \\ \Pr (\cdot | x_{0}, x_{1}) \\ \Pr (\cdot | x_{0}) \end{array} \right] = \text{Softmax} \left(\mathbf {H}^{L} \mathbf {W}^{o}\right) \tag {2.12}
 $$
 
 where  $\mathbf{H}^L$  is the output of the last Transformer block, and  $\mathbf{W}^o\in \mathbb{R}^{d\times |V|}$  is the parameter matrix.
@@ -1103,13 +990,13 @@ model follows an autoregressive process. Each time the language model takes a to
 Now suppose that we are given a training set  $\mathcal{D}$  comprising  $K$  sequences. The log-likelihood of each sequence  $\mathbf{x} = x_0\ldots x_m$  in  $\mathcal{D}$  can be calculated using a language model
 
 $$
-\mathcal {L} _ {\theta} (\mathbf {x}) = \sum_ {i = 1} ^ {m} \log \Pr_ {\theta} \left(x _ {i} \mid x _ {0}, \dots , x _ {i - 1}\right) \tag {2.13}
+\mathcal {L}_{\theta} (\mathbf {x}) = \sum_{i = 1}^{m} \log \Pr_{\theta} \left(x_{i} \mid x_{0}, \dots , x_{i - 1}\right) \tag {2.13}
 $$
 
 Here the subscript  $\theta$  affixed to  $\mathcal{L}(\cdot)$  and  $\operatorname*{Pr}(\cdot)$  denotes the parameters of the language model. Then, the objective of maximum likelihood training is defined as
 
 $$
-\hat {\theta} = \underset {\theta} {\arg \max } \sum_ {\mathbf {x} \in \mathcal {D}} \mathcal {L} _ {\theta} (\mathbf {x}) \tag {2.14}
+\hat {\theta} = \underset {\theta} {\arg \max } \sum_{\mathbf {x} \in \mathcal {D}} \mathcal {L}_{\theta} (\mathbf {x}) \tag {2.14}
 $$
 
 Training Transformer-based language models with the above objective is commonly viewed as a standard optimization process for neural networks. This can be achieved using gradient descent algorithms, which are widely supported by off-the-shelf deep learning toolkits. Somewhat
@@ -1129,7 +1016,7 @@ Once we have pre-trained an LLM, we can then apply it to perform various NLP tas
 More formally, let  $\mathbf{x} = x_0\dots x_m$  denote a token sequence of context given by users, and  $\mathbf{y} = y_{1}\dots y_{n}$  denote a token sequence following the context. Then, the inference of LLMs can be defined as a problem of finding the most likely sequence  $\mathbf{y}$  based on  $\mathbf{x}$ :
 
 $$
-\begin{array}{l} \hat {\mathbf {y}} = \underset {\mathbf {y}} {\arg \max } \log \Pr (\mathbf {y} | \mathbf {x}) \\ = \arg \max  _ {\mathbf {y}} \sum_ {i = 1} ^ {n} \log \Pr \left(y _ {i} \mid x _ {0}, \dots , x _ {m}, y _ {1}, \dots , y _ {i - 1}\right) \tag {2.15} \\ \end{array}
+\begin{array}{l} \hat {\mathbf {y}} = \underset {\mathbf {y}} {\arg \max } \log \Pr (\mathbf {y} | \mathbf {x}) \\ = \arg \max _{\mathbf {y}} \sum_{i = 1}^{n} \log \Pr \left(y_{i} \mid x_{0}, \dots , x_{m}, y_{1}, \dots , y_{i - 1}\right) \tag {2.15} \\ \end{array}
 $$
 
 Here  $\sum_{i=1}^{n} \log \operatorname{Pr}(y_i | x_0, \ldots, x_m, y_1, \ldots, y_{i-1})$  essentially expresses the same thing as the right-hand side of Eq. (2.2). It models the log probability of predicting tokens from position  $m+1$ , rather than position 0. Throughout this chapter and subsequent ones, we will employ separate variables  $\mathbf{x}$  and  $\mathbf{y}$  to distinguish the input and output of an LLM, though they can be seen as subsequences from the same sequence. By adopting such notation, we see that the form of the above equation closely resembles those used in other text generation models in NLP, such as neural machine translation models.
@@ -1244,7 +1131,7 @@ Once we have prepared a collection of instruction-described data, the fine-tunin
 optimized via pre-training. We can modify Eq. (2.14) to obtain the objective of fine-tuning
 
 $$
-\tilde {\theta} = \arg \max  _ {\hat {\theta} ^ {+}} \sum_ {\text {s a m p l e} \in \mathcal {D} _ {\text {t u n e}}} \mathcal {L} _ {\hat {\theta} ^ {+}} (\text {s a m p l e}) \tag {2.16}
+\tilde {\theta} = \arg \max _{\hat {\theta}^{+}} \sum_{\text{sample} \in \mathcal {D}_{\text{tune}}} \mathcal {L}_{\hat {\theta}^{+}} (\text{sample}) \tag {2.16}
 $$
 
 Here  $\tilde{\theta}$  denotes the optimal parameters. The use of notation  $\hat{\theta}^{+}$  means that the fine-tuning starts with the pre-trained parameters  $\hat{\theta}$ .
@@ -1252,19 +1139,19 @@ Here  $\tilde{\theta}$  denotes the optimal parameters. The use of notation  $\h
 For each sample  $\in \mathcal{D}_{\mathrm{tune}}$ , we divide it into an input segment  $\mathbf{x}_{\mathrm{sample}}$  and an output segment  $\mathbf{y}_{\mathrm{sample}}$ , that is,
 
 $$
-\text {s a m p l e} = \left[ \mathbf {y} _ {\text {s a m p l e}}, \mathbf {x} _ {\text {s a m p l e}} \right] \tag {2.17}
+\text{sample} = \left[ \mathbf {y}_{\text{sample}}, \mathbf {x}_{\text{sample}} \right] \tag {2.17}
 $$
 
 We then define the loss function to be
 
 $$
-\mathcal {L} _ {\hat {\theta} ^ {+}} (\text {s a m p l e}) = - \log \Pr_ {\hat {\theta} ^ {+}} \left(\mathbf {y} _ {\text {s a m p l e}} | \mathbf {x} _ {\text {s a m p l e}}\right) \tag {2.18}
+\mathcal {L}_{\hat {\theta}^{+}} (\text{sample}) = - \log \Pr_{\hat {\theta}^{+}} \left(\mathbf {y}_{\text{sample}} | \mathbf {x}_{\text{sample}}\right) \tag {2.18}
 $$
 
 In other words, we compute the loss over the sub-sequence  $\mathbf{y}_{\mathrm{sample}}$ , rather than the entire sequence. In a practical implementation of back-propagation for this equation, the sequence  $[\mathbf{y}_{\mathrm{sample}}, \mathbf{x}_{\mathrm{sample}}]$  is constructed in the forward pass as usual. However, in the backward pass, error gradients are propagated back only through the parts of the network that correspond to  $\mathbf{y}_{\mathrm{sample}}$ , leaving the rest of the network unchanged. As an example, consider a sequence
 
 $$
-\underbrace {\langle s \rangle \mathrm {S q u a r e t h i s n u m b e r} . 2} _ {\mathrm {C o n t e x t (I n p u t)}} \underbrace {\mathrm {T h e r e s u l t i s 4}} _ {\mathrm {P r e d i c t i o n (O u t p u t)}}.
+\underbrace {\langle s \rangle \mathrm{Squarethisnumber} . 2}_{\mathrm{Context(Input)}} \underbrace {\mathrm{Theresultis4}}_{\mathrm{Prediction(Output)}}.
 $$
 
 The loss is calculated and back propagated only for The result is 4.
@@ -1335,7 +1222,7 @@ Fig. 2.2: An overview of RLHF. There are 4 key steps involved: a) training an in
 We then ask annotators to evaluate these outputs. One straightforward way is to assign a rating score to each output. In this case, the reward model learning problem can be framed as a task of training a regression model. But giving numerical scores to LLM outputs is not an easy task for annotators. It is usually difficult to design an annotation standard that all annotators can agree on and easily follow. An alternative method, which is more popular in the development of LLMs, is to rank these outputs. For example, a possible ranking of the above outputs is
 
 $$
-\mathbf {y} _ {1} \succ \mathbf {y} _ {4} \succ \mathbf {y} _ {2} \succ \mathbf {y} _ {3}
+\mathbf {y}_{1} \succ \mathbf {y}_{4} \succ \mathbf {y}_{2} \succ \mathbf {y}_{3}
 $$
 
 A reward model is then trained using this ranking result. In general, a reward model in RLHF is a language model that shares the same architecture as the target LLM, but with a smaller model size. Given the input  $\mathbf{x}$  and output  $\mathbf{y}_k$ , we concatenate them to form a sequence  $\mathrm{seq}_k = [\mathbf{x}, \mathbf{y}_k]$ . This sequence is processed from left to right using forced decoding. Since each position can only access its left context in language modeling, the output of the top-most Transformer layer at the first position cannot be used as the representation of the sequence. Instead, a special symbol (e.g.,  $\langle \langle s \rangle \rangle$ ) is added to the end of the sequence, and the corresponding output of the Transformer layer stack is considered as the representation of the entire sequence. An output layer, such as a linear transformation layer, is built on top of this representation to generate the reward, denoted by  $R(\mathrm{seq}_k)$  or  $R(\mathbf{x}, \mathbf{y}_k)$ .
@@ -1343,13 +1230,13 @@ A reward model is then trained using this ranking result. In general, a reward m
 We train this reward model using ranking loss. For example, a pair-wise ranking loss function can be written in the form
 
 $$
-\operatorname {L o s s} _ {\omega} \left(\mathcal {D} _ {r}\right) = - \mathbb {E} _ {\left(\mathbf {x}, \mathbf {y} _ {k _ {1}}, \mathbf {y} _ {k _ {2}}\right) \sim \mathcal {D} _ {r}} \log \left(\operatorname {S i g m o i d} \left(R _ {\omega} \left(\mathbf {x}, \mathbf {y} _ {k _ {1}}\right) - R _ {\omega} \left(\mathbf {x}, \mathbf {y} _ {k _ {2}}\right)\right)\right) \tag {2.19}
+\operatorname{Loss}_{\omega} \left(\mathcal {D}_{r}\right) = - \mathbb {E}_{\left(\mathbf {x}, \mathbf {y}_{k_{1}}, \mathbf {y}_{k_{2}}\right) \sim \mathcal {D}_{r}} \log \left(\operatorname{Sigmoid} \left(R_{\omega} \left(\mathbf {x}, \mathbf {y}_{k_{1}}\right) - R_{\omega} \left(\mathbf {x}, \mathbf {y}_{k_{2}}\right)\right)\right) \tag {2.19}
 $$
 
 where  $\omega$  represents the parameters of the reward model, and  $\mathcal{D}_r$  represents a set of tuples of an input and a pair of outputs.  $(\mathbf{x},\mathbf{y}_{k_1},\mathbf{y}_{k_2})\sim \mathcal{D}_r$  is a sampling operation which draws a sample  $(\mathbf{x},\mathbf{y}_{k_1},\mathbf{y}_{k_2})$  from  $\mathcal{D}_r$  with some probability. As an example, suppose we first draw a model input  $\mathbf{x}$  with a uniform distribution and then draw a pair of model outputs with a probability of  $\mathbf{y}_{k_1}\succ \mathbf{y}_{k_2}$  given  $\mathbf{x}$  (denoted by  $\operatorname *{Pr}(\mathbf{y}_{k_1}\succ \mathbf{y}_{k_2}|\mathbf{x}))$ . The corresponding loss function is given by
 
 $$
-\begin{array}{l} \operatorname {L o s s} _ {\omega} (\mathcal {D} _ {r}) \\ = - \sum \Pr (\mathbf {x}) \cdot \Pr (\mathbf {y} _ {k _ {1}} \succ \mathbf {y} _ {k _ {2}} | \mathbf {x}) \cdot \log (\operatorname {S i g m o i d} (R _ {\omega} (\mathbf {x}, \mathbf {y} _ {k _ {1}}) - R _ {\omega} (\mathbf {x}, \mathbf {y} _ {k _ {2}}))) \\ = - \frac {1}{K} \sum \Pr \left(\mathbf {y} _ {k _ {1}} \succ \mathbf {y} _ {k _ {2}} | \mathbf {x}\right) \cdot \log (\text {S i g m o i d} \left(R _ {\omega} (\mathbf {x}, \mathbf {y} _ {k _ {1}}) - R _ {\omega} (\mathbf {x}, \mathbf {y} _ {k _ {2}})\right)) \tag {2.20} \\ \end{array}
+\begin{array}{l} \operatorname{Loss}_{\omega} (\mathcal {D}_{r}) \\ = - \sum \Pr (\mathbf {x}) \cdot \Pr (\mathbf {y}_{k_{1}} \succ \mathbf {y}_{k_{2}} | \mathbf {x}) \cdot \log (\operatorname{Sigmoid} (R_{\omega} (\mathbf {x}, \mathbf {y}_{k_{1}}) - R_{\omega} (\mathbf {x}, \mathbf {y}_{k_{2}}))) \\ = - \frac{1}{K} \sum \Pr \left(\mathbf {y}_{k_{1}} \succ \mathbf {y}_{k_{2}} | \mathbf {x}\right) \cdot \log (\text{Sigmoid} \left(R_{\omega} (\mathbf {x}, \mathbf {y}_{k_{1}}) - R_{\omega} (\mathbf {x}, \mathbf {y}_{k_{2}})\right)) \tag {2.20} \\ \end{array}
 $$
 
 where  $K$  represents the number of model inputs involved in sampling. While the form of these functions may seem complex, their idea is simple: we penalize the model if the predicted ranking of two outputs differs from the human-labeled ranking. By contrast, the model receives a bonus, if the predicted ranking matches the human-labeled ranking.
@@ -1357,7 +1244,7 @@ where  $K$  represents the number of model inputs involved in sampling. While th
 We can train the reward model by minimizing the above ranking loss
 
 $$
-\hat {\omega} = \underset {\omega} {\arg \min } \operatorname {L o s s} _ {\omega} \left(\mathcal {D} _ {r}\right) \tag {2.21}
+\hat {\omega} = \underset {\omega} {\arg \min } \operatorname{Loss}_{\omega} \left(\mathcal {D}_{r}\right) \tag {2.21}
 $$
 
 The resulting model  $R_{\hat{\omega}}(\cdot)$  can be employed to evaluate any given pair of input and output. Note that although the reward model is trained using a ranking-based objective, it is used for scoring. This allows it to provide continuous supervision signals, which is very beneficial for training other models.
@@ -1365,7 +1252,7 @@ The resulting model  $R_{\hat{\omega}}(\cdot)$  can be employed to evaluate any 
 We now turn to the policy learning problem. A commonly adopted objective is to maximize the reward on a set of input-output pairs. Following an analogous form of Eq. (2.16), we obtain a simple training objective for RL fine-tuning
 
 $$
-\tilde {\theta} = \underset {\hat {\theta} ^ {+}} {\arg \max } \mathbb {E} _ {(\mathbf {x}, \mathbf {y} _ {\hat {\theta} ^ {+}}) \sim \mathcal {D} _ {\mathrm {r l f t}}} R _ {\hat {\omega}} (\mathbf {x}, \mathbf {y} _ {\hat {\theta} ^ {+}}) \tag {2.22}
+\tilde {\theta} = \underset {\hat {\theta}^{+}} {\arg \max } \mathbb {E}_{(\mathbf {x}, \mathbf {y}_{\hat {\theta}^{+}}) \sim \mathcal {D}_{\mathrm{rlft}}} R_{\hat {\omega}} (\mathbf {x}, \mathbf {y}_{\hat {\theta}^{+}}) \tag {2.22}
 $$
 
 where the optimal parameters  $\tilde{\theta}$  are obtained by fine-tuning the pre-trained parameters  $\hat{\theta}$ .  $\mathcal{D}_{\mathrm{rlft}}$  is
@@ -1555,7 +1442,7 @@ Layer normalization is used to stabilize training for deep neural networks. It i
 A widely-used form of the layer normalization function is given by
 
 $$
-\operatorname {L N o r m} (\mathbf {h}) = \alpha \cdot \frac {\mathbf {h} - \mu}{\sigma + \epsilon} + \beta \tag {2.23}
+\operatorname{LNorm} (\mathbf {h}) = \alpha \cdot \frac{\mathbf {h} - \mu}{\sigma + \epsilon} + \beta \tag {2.23}
 $$
 
 where  $\mathbf{h}$  is a  $d$ -dimensional real-valued vector,  $\mu$  is the mean of all the entries of  $\mathbf{h}$ , and  $\sigma$  is the corresponding standard deviation.  $\epsilon$  is introduced for the sake of numerical stability.  $\alpha \in \mathbb{R}^d$  and  $\beta \in \mathbb{R}^d$  are the gain and bias terms.
@@ -1563,7 +1450,7 @@ where  $\mathbf{h}$  is a  $d$ -dimensional real-valued vector,  $\mu$  is the m
 A variant of layer normalization, called root mean square (RMS) layer normalization, only re-scales the input vector but does not re-center it [Zhang and Sennrich, 2019]. The RMS layer normalization function is given by
 
 $$
-\operatorname {L N o r m} (\mathbf {h}) = \alpha \cdot \frac {\mathbf {h}}{\sigma_ {\mathrm {r m s}} + \epsilon} + \beta \tag {2.24}
+\operatorname{LNorm} (\mathbf {h}) = \alpha \cdot \frac{\mathbf {h}}{\sigma_{\mathrm{rms}} + \epsilon} + \beta \tag {2.24}
 $$
 
 where  $\sigma_{\mathrm{rms}}$  is the root mean square of  $\mathbf{h}$ , that is,  $\sigma_{\mathrm{rms}} = \left(\frac{1}{d}\sum_{k=1}^{d}h_k^2\right)^{\frac{1}{2}}$ . This layer normalization function is used in LLMs like the LLaMA series.
@@ -1573,7 +1460,7 @@ where  $\sigma_{\mathrm{rms}}$  is the root mean square of  $\mathbf{h}$ , that 
 In Transformers, FFN sub-layers are designed to introduce non-linearities into representation learning, and are found to be useful for preventing the representations learned by self-attention from degeneration[8] [Dong et al., 2021]. A standard form of the FFNs used in these sub-layers can be expressed as
 
 $$
-\operatorname {F F N} (\mathbf {h}) = \sigma \left(\mathbf {h} \mathbf {W} _ {h} + \mathbf {b} _ {h}\right) \mathbf {W} _ {f} + \mathbf {b} _ {f} \tag {2.25}
+\operatorname{FFN} (\mathbf {h}) = \sigma \left(\mathbf {h} \mathbf {W}_{h} + \mathbf {b}_{h}\right) \mathbf {W}_{f} + \mathbf {b}_{f} \tag {2.25}
 $$
 
 where  $\mathbf{W}_h\in \mathbb{R}^{d\times d_h}$ ,  $\mathbf{b}_h\in \mathbb{R}^{d_h}$ ,  $\mathbf{W}_f\in \mathbb{R}^{d_h\times d}$ , and  $\mathbf{b}_f\in \mathbb{R}^d$  are the parameters, and  $d_h$  is the hidden size.  $\sigma (\cdot)$  is the activation function of the hidden layer. A common choice for  $\sigma (\cdot)$  is the
@@ -1583,13 +1470,13 @@ where  $\mathbf{W}_h\in \mathbb{R}^{d\times d_h}$ ,  $\mathbf{b}_h\in \mathbb{R}
 rectified linear unit (ReLU), given by
 
 $$
-\sigma_ {\text {r e l u}} (\mathbf {h}) = \max  (0, \mathbf {h}) \tag {2.26}
+\sigma_{\text{relu}} (\mathbf {h}) = \max  (0, \mathbf {h}) \tag {2.26}
 $$
 
 In practical implementations, increasing  $d_h$  is helpful and thus it is often set to a larger number in LLMs. But a very large hidden size poses challenges for both training and deployment. In this case, the design of the activation function plays a relatively more important role in wide FFNs. There are several alternatives to the ReLU in LLMs. One of these is the gaussian error linear unit (GeLU) which can be seen as a smoothed version of the ReLU. Rather than controlling the output by the sign of the input, the GeLU function weights its input by the percentile  $\operatorname{Pr}(h \leq \mathbf{h})$ . Here  $h$  is a  $d$ -dimensional vector whose entries are drawn from the standard normal distribution Gaussian(0, 1) $^9$ . Specifically, the GeLU function is defined to be
 
 $$
-\begin{array}{l} \sigma_ {\mathrm {g e l u}} (\mathbf {h}) = \mathbf {h} \Pr (h \leq \mathbf {h}) \\ = \mathbf {h} \Phi (\mathbf {h}) \tag {2.27} \\ \end{array}
+\begin{array}{l} \sigma_{\mathrm{gelu}} (\mathbf {h}) = \mathbf {h} \Pr (h \leq \mathbf {h}) \\ = \mathbf {h} \Phi (\mathbf {h}) \tag {2.27} \\ \end{array}
 $$
 
 where  $\Phi (\mathbf{h})$  is the cumulative distribution function of Gaussian(0, 1), which can be implemented in convenient ways [Hendrycks and Gimpel, 2016]. The GeLU function has been adopted in several LLMs, such as BERT, GPT-3, and BLOOM.
@@ -1597,13 +1484,13 @@ where  $\Phi (\mathbf{h})$  is the cumulative distribution function of Gaussian(
 Another family of activation functions which is popular in LLMs is gated linear unit (GLU)-based functions. The basic form of GLUs is given by
 
 $$
-\sigma_ {\mathrm {g l u}} (\mathbf {h}) = \sigma \left(\mathbf {h} \mathbf {W} _ {1} + \mathbf {b} _ {1}\right) \odot \left(\mathbf {W} _ {2} + \mathbf {b} _ {2}\right) \tag {2.28}
+\sigma_{\mathrm{glu}} (\mathbf {h}) = \sigma \left(\mathbf {h} \mathbf {W}_{1} + \mathbf {b}_{1}\right) \odot \left(\mathbf {W}_{2} + \mathbf {b}_{2}\right) \tag {2.28}
 $$
 
 where  $\mathbf{W}_1\in \mathbb{R}^{d\times d}$ ,  $\mathbf{b}_1\in \mathbb{R}^d$ ,  $\mathbf{W}_2\in \mathbb{R}^{d\times d}$ , and  $\mathbf{b}_2\in \mathbb{R}^d$  are model parameters. Different choices of  $\sigma (\cdot)$  result in different versions of GLU functions. For example, if  $\sigma (\cdot)$  is defined to be the GeLU function, we will have the GeGLU function
 
 $$
-\sigma_ {\text {g e g l u}} (\mathbf {h}) = \sigma_ {\text {g e l u}} \left(\mathbf {h} \mathbf {W} _ {1} + \mathbf {b} _ {1}\right) \odot \left(\mathbf {W} _ {2} + \mathbf {b} _ {2}\right) \tag {2.29}
+\sigma_{\text{geglu}} (\mathbf {h}) = \sigma_{\text{gelu}} \left(\mathbf {h} \mathbf {W}_{1} + \mathbf {b}_{1}\right) \odot \left(\mathbf {W}_{2} + \mathbf {b}_{2}\right) \tag {2.29}
 $$
 
 This activation function has been successfully applied in LLMs like Gemma.
@@ -1611,7 +1498,7 @@ This activation function has been successfully applied in LLMs like Gemma.
 As another example, consider  $\sigma(\cdot)$  to be the Swish function  $\sigma_{\mathrm{swish}}(\mathbf{h}) = \mathbf{h} \odot \mathrm{Sigmoid}(ch)$  [Ramachandran et al., 2017]. Then, the SwiGLU function is given by
 
 $$
-\sigma_ {\mathrm {s w i g l u}} (\mathbf {h}) = \sigma_ {\mathrm {s w i s h}} \left(\mathbf {h} \mathbf {W} _ {1} + \mathbf {b} _ {1}\right) \odot \left(\mathbf {W} _ {2} + \mathbf {b} _ {2}\right) \tag {2.30}
+\sigma_{\mathrm{swiglu}} (\mathbf {h}) = \sigma_{\mathrm{swish}} \left(\mathbf {h} \mathbf {W}_{1} + \mathbf {b}_{1}\right) \odot \left(\mathbf {W}_{2} + \mathbf {b}_{2}\right) \tag {2.30}
 $$
 
 Both the PaLM and LLaMA series are based on the SwiGLU function. For more discussions of GLUs, the reader can refer to Shazeer [2020]'s work.
@@ -1621,7 +1508,7 @@ Both the PaLM and LLaMA series are based on the SwiGLU function. For more discus
 Another popular model design is to remove the bias terms in affine transformations used in LLMs. This treatment can be applied to layer normalization, transformations of the inputs to QKV attention, and FFNs. For example, we can modify Eq. (2.25) to obtain an FFN with no bias terms
 
 $$
-\operatorname {F F N} (\mathbf {h}) = \sigma \left(\mathbf {h} \mathbf {W} _ {h}\right) \mathbf {W} _ {f} \tag {2.31}
+\operatorname{FFN} (\mathbf {h}) = \sigma \left(\mathbf {h} \mathbf {W}_{h}\right) \mathbf {W}_{f} \tag {2.31}
 $$
 
 Chowdhery et al. [2022] report that removing bias terms helps improve the training stability of LLMs. This method has been used in several recent LLMs, such as LLaMA and Gemma.
@@ -1641,13 +1528,13 @@ An important consideration of distributed training is parallelism. There are sev
 - Data Parallelism. This method is one of the most widely used parallelism methods for training neural networks. To illustrate, consider the simplest case where the standard delta rule is used in gradient descent
 
 $$
-\theta_ {t + 1} = \theta_ {t} - l r \cdot \frac {\partial L _ {\theta_ {t}} \left(\mathcal {D} _ {\text {m i n i}}\right)}{\partial \theta_ {t}} \tag {2.32}
+\theta_{t + 1} = \theta_{t} - l r \cdot \frac{\partial L_{\theta_{t}} \left(\mathcal {D}_{\text{mini}}\right)}{\partial \theta_{t}} \tag {2.32}
 $$
 
 where the new parameters  $\theta_{t + 1}$  is obtained by updating the latest parameters  $\theta_t$  with a small step  $lr$  in the direction of the negative loss gradient.  $\frac{\partial L_{\theta_t}(\mathcal{D}_{\mathrm{mini}})}{\partial\theta_t}$  is the gradient of the loss with respect to the parameters  $\theta_t$ , and is computed on a minibatch of training sample  $\mathcal{D}_{\mathrm{mini}}$ . In data parallelism, we divide  $\mathcal{D}_{\mathrm{mini}}$  into  $N$  smaller batches, denoted by  $\{\mathcal{D}^1,\dots,\mathcal{D}^N\}$ . Then, we distribute these batches to  $N$  workers, each with a corresponding batch. Once the data is distributed, these workers can work at the same time. The gradient of the entire minibatch is obtained by aggregating the gradients computed by the workers, like this
 
 $$
-\frac {\partial L _ {\theta_ {t}} \left(\mathcal {D} _ {\operatorname* {m i n i}}\right)}{\partial \theta_ {t}} = \underbrace {\frac {\partial L _ {\theta_ {t}} \left(\mathcal {D} ^ {1}\right)}{\partial \theta_ {t}}} _ {\text {w o r k e r 1}} + \underbrace {\frac {\partial L _ {\theta_ {t}} \left(\mathcal {D} ^ {2}\right)}{\partial \theta_ {t}}} _ {\text {w o r k e r 2}} + \dots + \underbrace {\frac {\partial L _ {\theta_ {t}} \left(\mathcal {D} ^ {N}\right)}{\partial \theta_ {t}}} _ {\text {w o r k e r N}} \tag {2.33}
+\frac{\partial L_{\theta_{t}} \left(\mathcal {D}_{\operatorname* {m i n i}}\right)}{\partial \theta_{t}} = \underbrace {\frac{\partial L_{\theta_{t}} \left(\mathcal {D}^{1}\right)}{\partial \theta_{t}}}_{\text{worker1}} + \underbrace {\frac{\partial L_{\theta_{t}} \left(\mathcal {D}^{2}\right)}{\partial \theta_{t}}}_{\text{worker2}} + \dots + \underbrace {\frac{\partial L_{\theta_{t}} \left(\mathcal {D}^{N}\right)}{\partial \theta_{t}}}_{\text{workerN}} \tag {2.33}
 $$
 
 In ideal cases where the workers coordinate well and the communication overhead is small, data parallelism can achieve nearly an  $N$ -fold speed-up for training.
@@ -1661,13 +1548,13 @@ Here  $\mathrm{B}_l$  denotes the computation of block  $l$ , and the symbols  $
 - Tensor Parallelism. Parallelism can also be performed in a single computation step. A common example is splitting a large parameter matrix into chunks, multiplying an input tensor with each of these chunks separately, and then concatenating the results of these multiplications to form the output. For example, consider the multiplication of the representation  $\mathbf{h} \in \mathbb{R}^d$  with the parameter matrix  $\mathbf{W}_h \in \mathbb{R}^{d \times d_h}$  in an FFN sub-layer (see Eq. (2.25)). We can slice the matrix  $\mathbf{W}_h \in \mathbb{R}^{d \times d_h}$  vertically to a sequence of  $M$  sub-matrices
 
 $$
-\mathbf {W} _ {h} = \left[ \begin{array}{l l l l} \mathbf {W} _ {h} ^ {1} & \mathbf {W} _ {h} ^ {2} & \dots & \mathbf {W} _ {h} ^ {M} \end{array} \right] \tag {2.34}
+\mathbf {W}_{h} = \left[ \begin{array}{l l l l} \mathbf {W}_{h}^{1} & \mathbf {W}_{h}^{2} & \dots & \mathbf {W}_{h}^{M} \end{array} \right] \tag {2.34}
 $$
 
 where each sub-matrix  $\mathbf{W}_h^k$  has a shape of  $d \times \frac{d_h}{M}$ . The multiplication of  $\mathbf{h}$  with  $\mathbf{W}_h$  can be expressed as
 
 $$
-\begin{array}{l} \mathbf {h} \mathbf {W} _ {h} = \mathbf {h} \left[ \begin{array}{c c c c} \mathbf {W} _ {h} ^ {1} & \mathbf {W} _ {h} ^ {2} & \ldots & \mathbf {W} _ {h} ^ {M} \end{array} \right] \\ = \left[ \begin{array}{l l l l} \mathbf {h} \mathbf {W} _ {h} ^ {1} & \mathbf {h} \mathbf {W} _ {h} ^ {2} & \dots & \mathbf {h} \mathbf {W} _ {h} ^ {M} \end{array} \right] \tag {2.35} \\ \end{array}
+\begin{array}{l} \mathbf {h} \mathbf {W}_{h} = \mathbf {h} \left[ \begin{array}{c c c c} \mathbf {W}_{h}^{1} & \mathbf {W}_{h}^{2} & \ldots & \mathbf {W}_{h}^{M} \end{array} \right] \\ = \left[ \begin{array}{l l l l} \mathbf {h} \mathbf {W}_{h}^{1} & \mathbf {h} \mathbf {W}_{h}^{2} & \dots & \mathbf {h} \mathbf {W}_{h}^{M} \end{array} \right] \tag {2.35} \\ \end{array}
 $$
 
 We can perform matrix multiplications  $\{\mathbf{hW}_h^1, \mathbf{hW}_h^2, \dots, \mathbf{hW}_h^M\}$  on  $M$  devices separately. As a result, we distribute a large matrix multiplication across multiple devices, each of which may have relatively small memory. From the perspective of the design of modern GPUs, tensor parallelism over GPUs provides a two-level, tile-based approach to parallel computing. First, at a higher level, we decompose a matrix multiplication into sub-matrix multiplications that can directly fit into the memory of GPUs. Then, at a lower level, we execute these sub-matrix multiplications on GPUs using tile-based parallel algorithms that are specifically optimized for GPUs.
@@ -1702,7 +1589,7 @@ To understand how model performance scales with various factors considered durin
 Let  $x$  be the variable of interest (such as the number of model parameters) and  $\mathcal{L}(x)$  be the loss of the model given  $x$  (such as the cross-entropy loss on test data). The simplest form of  $\mathcal{L}(x)$  is a power law
 
 $$
-\mathcal {L} (x) = a x ^ {b} \tag {2.36}
+\mathcal {L} (x) = a x^{b} \tag {2.36}
 $$
 
 where  $a$  and  $b$  are parameters that are estimated empirically. Despite its simplicity, this function has successfully interpreted the scaling ability of language models and machine translation systems in terms of model size (denoted by  $N$ ) and training dataset size (denoted by  $D$ ) [Gordon et al., 2021; Hestness et al., 2017]. For example, Kaplan et al. [2020] found that the performance of their language model improves as a power law of either  $N$  or  $D$  after an initial transient period, and expressed these relationships using  $\mathcal{L}(N) = \left(\frac{N}{8.8 \times 10^{13}}\right)^{-0.076}$  and  $\mathcal{L}(D) = \left(\frac{D}{5.4 \times 10^{13}}\right)^{-0.095}$  (see Figure 2.4).
@@ -1715,19 +1602,19 @@ Fig. 2.4: Test loss against model size  $(N)$  and training dataset size  $(D)$ 
 An improvement to this scaling law is to add an irreducible error term to the power law. The form of  $\mathcal{L}(x)$  is then given by
 
 $$
-\mathcal {L} (x) = a x ^ {b} + \epsilon_ {\infty} \tag {2.37}
+\mathcal {L} (x) = a x^{b} + \epsilon_{\infty} \tag {2.37}
 $$
 
 where  $\epsilon_{\infty}$  is the irreducible error that accounts for the error due to unknown variables, which is present even as  $x \to \infty$ . Eq. (2.37) is one of the most widely used forms for designing scaling laws of LLMs. For example, Rosenfeld et al. [2020] developed a scaling law that involves both model scaling and dataset scaling, like this
 
 $$
-\mathcal {L} (N, D) = a N ^ {b} + c D ^ {d} + \epsilon_ {\infty} \tag {2.38}
+\mathcal {L} (N, D) = a N^{b} + c D^{d} + \epsilon_{\infty} \tag {2.38}
 $$
 
 An example of such formulation is the Chinchilla scaling law. It states that the test loss per token is the sum of the inverse proportion functions of  $N$  and  $D$ , with an additional irreducible error term. Hoffmann et al. [2022] express this scaling law as
 
 $$
-\mathcal {L} (N, D) = \underbrace {\frac {4 0 6 . 4}{N ^ {0 . 3 4}}} _ {\text {m o d e l s c a l i n g}} + \underbrace {\frac {4 1 0 . 7}{D ^ {0 . 2 8}}} _ {\text {d a t a s e t s c a l i n g}} + \underbrace {1 . 6 9} _ {\text {i r r e d u c i b l e e r r o r}} \tag {2.39}
+\mathcal {L} (N, D) = \underbrace {\frac{40 6.4}{N^{0.34}}}_{\text{modelscaling}} + \underbrace {\frac{41 0.7}{D^{0.28}}}_{\text{datasetscaling}} + \underbrace {1.69}_{\text{irreducibleerror}} \tag {2.39}
 $$
 
 All the scaling laws mentioned above are based on monotonic functions. So they cannot cover functions with inflection points, such as double descent curves. In response, researchers have explored more sophisticated functions to fit the learning curves. Examples of such functions can be found in Alabdulmohsin et al. [2022] and Caballero et al. [2023]'s work.
@@ -1746,7 +1633,7 @@ We have already seen that, in large-scale training, larger language models can b
 - Long text generation (i.e., y is a long sequence). For example, we generate a long story based on a few keywords.  
 - Long text generation based on long context (i.e., both x and y are long sequences). For example, we translate a long document from Chinese to English.
 
-Recently, NLP researchers have been more interested in applying and evaluating LLMs on tasks where extremely long input texts are involved. Imagine an LLM, which reads a  $\mathrm{C + + }$  source file containing tens of thousands of lines, and outlines the functionality of the program corresponding to the source file. Such models, capable of handling extensive textual contexts, are sometimes called long-context LLMs. In this section we will restrict ourselves to long-context LLMs, but the methods discussed here can be applicable to other problems.
+Recently, NLP researchers have been more interested in applying and evaluating LLMs on tasks where extremely long input texts are involved. Imagine an LLM, which reads a  $\mathrm{C++}$  source file containing tens of thousands of lines, and outlines the functionality of the program corresponding to the source file. Such models, capable of handling extensive textual contexts, are sometimes called long-context LLMs. In this section we will restrict ourselves to long-context LLMs, but the methods discussed here can be applicable to other problems.
 
 For Transformers, dealing with long sequences is computationally expensive, as the computational cost of self-attention grows quadratically with the sequence length. This makes it infeasible to train and deploy such models for very long inputs. Two strands of research have tried to adapt Transformers to long-context language modeling.
 
@@ -1766,19 +1653,19 @@ Another way to handle long sequences is through sequence parallelism [Li et al.,
 Recall that the output of the self-attention model can be written as
 
 $$
-\operatorname {A t t} _ {\mathrm {q k v}} \left(\mathbf {q} _ {i}, \mathbf {K}, \mathbf {V}\right) = \sum_ {j = 0} ^ {m - 1} \alpha_ {i, j} \mathbf {v} _ {j} \tag {2.40}
+\operatorname{Att}_{\mathrm{qkv}} \left(\mathbf {q}_{i}, \mathbf {K}, \mathbf {V}\right) = \sum_{j = 0}^{m - 1} \alpha_{i, j} \mathbf {v}_{j} \tag {2.40}
 $$
 
 where  $\alpha_{i,j}$  is the attention weight between positions  $i$  and  $j$ . In Transformers,  $\alpha_{i,j}$  is obtained by normalizing the rescaled version of the dot product between  $\mathbf{q}_i$  and  $\mathbf{k}_j$ . Let  $\beta_{i,j}$  denote the attention score between  $\mathbf{q}_i$  and  $\mathbf{k}_j$ . We have
 
 $$
-\beta_ {i, j} = \frac {\mathbf {q} _ {i} \cdot \mathbf {k} _ {j}}{\sqrt {d}} + \operatorname {M a s k} (i, j) \tag {2.41}
+\beta_{i, j} = \frac{\mathbf {q}_{i} \cdot \mathbf {k}_{j}}{\sqrt{d}} + \operatorname{Mask} (i, j) \tag {2.41}
 $$
 
 where  $\operatorname{Mask}(i,j)$  is the masking variable for  $(i,j)$ . Then, we define the attention weight  $\alpha_{i,j}$  to be
 
 $$
-\begin{array}{l} \alpha_ {i, j} = \operatorname {S o f t m a x} (\beta_ {i, j}) \\ = \frac {\exp \left(\beta_ {i , j}\right)}{\sum_ {j ^ {\prime}} \exp \left(\beta_ {i , j ^ {\prime}}\right)} \tag {2.42} \\ \end{array}
+\begin{array}{l} \alpha_{i, j} = \operatorname{Softmax} (\beta_{i, j}) \\ = \frac{\exp \left(\beta_{i , j}\right)}{\sum_{j^{\prime}} \exp \left(\beta_{i , j^{\prime}}\right)} \tag {2.42} \\ \end{array}
 $$
 
 On each computing node, we need to implement these equations. Given the keys and values assigned to this node, computing the numerator of the right-hand side of Eq. (2.42) (i.e.,  $\exp (\beta_{i,j})$ ) is straightforward, as all the required information is stored on the node. However, computing the denominator of the right-hand side of Eq. (2.42) involves a sum of  $\exp (\beta_{i,j'})$  over all  $j'$ 's, which
@@ -1786,7 +1673,7 @@ On each computing node, we need to implement these equations. Given the keys and
 requires transferring data to and from other nodes. To illustrate, suppose that  $\mathbf{v}_j$  and  $\mathbf{k}_j$  are placed on node  $u$ . We can rewrite Eq. (2.42) as
 
 $$
-\begin{array}{l} \alpha_ {i, j} \\ = \frac {\overbrace {\exp (\beta_ {i , j})} ^ {\text {n o d e} u}}{\underbrace {\sum_ {\mathbf {k} _ {j ^ {\prime}} \in \mathbf {K} ^ {[ 1 ]}}} _ {\text {n o d e} 1} \exp \left(\beta_ {i , j ^ {\prime}}\right) + \cdots + \underbrace {\sum_ {\mathbf {k} _ {j ^ {\prime}} \in \mathbf {K} ^ {[ u ]}}} _ {\text {n o d e} u} \exp \left(\beta_ {i , j ^ {\prime}}\right) + \cdots + \underbrace {\sum_ {\mathbf {k} _ {j ^ {\prime}} \in \mathbf {K} ^ {[ n _ {u} ]}}} _ {\text {n o d e} n _ {u}} \exp \left(\beta_ {i , j ^ {\prime}}\right)} \tag {2.43} \\ \end{array}
+\begin{array}{l} \alpha_{i, j} \\ = \frac{\overbrace {\exp (\beta_{i , j})}^{\text{node} u}}{\underbrace {\sum_{\mathbf {k}_{j^{\prime}} \in \mathbf {K}^{[ 1 ]}}}_{\text{node} 1} \exp \left(\beta_{i , j^{\prime}}\right) + \cdots + \underbrace {\sum_{\mathbf {k}_{j^{\prime}} \in \mathbf {K}^{[ u ]}}}_{\text{node} u} \exp \left(\beta_{i , j^{\prime}}\right) + \cdots + \underbrace {\sum_{\mathbf {k}_{j^{\prime}} \in \mathbf {K}^{[ n_{u} ]}}}_{\text{node} n_{u}} \exp \left(\beta_{i , j^{\prime}}\right)} \tag {2.43} \\ \end{array}
 $$
 
 where the notation  $\mathbf{k}_{j'} \in \mathbf{K}^{[u]}$  represents that  $\mathbf{k}_{j'}$  is a row vector of  $\mathbf{K}^{[u]}$ . In a straightforward implementation, we first perform the summations  $\{\sum_{\mathbf{k}_{j'} \in \mathbf{K}^{[u]}} \exp(\beta_{i,j'})\}$  separately on the corresponding nodes. Then, we collect these summation results from different nodes to combine them into a final result. This corresponds to a collective operation in the context of parallel processing. There are many efficient implementations of such operations, such as the all-reduce algorithms. Hence the sum of all  $\exp(\beta_{i,j})$  values can be computed using optimized routines in collective communication toolkits.
@@ -1794,7 +1681,7 @@ where the notation  $\mathbf{k}_{j'} \in \mathbf{K}^{[u]}$  represents that  $\m
 Given the attention weights  $\{\alpha_{i,j}\}$ , we then compute the attention results using Eq. (2.40). The problem can be re-expressed as
 
 $$
-\begin{array}{l} \operatorname {A t t} _ {\mathrm {q k v}} (\mathbf {q} _ {i}, \mathbf {K}, \mathbf {V}) \\ = \underbrace {\sum_ {\mathbf {v} _ {j ^ {\prime}} \in \mathbf {V} ^ {[ 1 ]}}} _ {\text {n o d e 1}} \alpha_ {i, j ^ {\prime}} \mathbf {v} _ {j ^ {\prime}} + \dots + \underbrace {\sum_ {\mathbf {v} _ {j ^ {\prime}} \in \mathbf {V} ^ {[ u ]}}} _ {\text {n o d e u}} \alpha_ {i, j ^ {\prime}} \mathbf {v} _ {j ^ {\prime}} + \dots + \underbrace {\sum_ {\mathbf {v} _ {j ^ {\prime}} \in \mathbf {V} ^ {[ n _ {u} ]}}} _ {\text {n o d e n u}} \alpha_ {i, j ^ {\prime}} \mathbf {v} _ {j ^ {\prime}} \tag {2.44} \\ \end{array}
+\begin{array}{l} \operatorname{Att}_{\mathrm{qkv}} (\mathbf {q}_{i}, \mathbf {K}, \mathbf {V}) \\ = \underbrace {\sum_{\mathbf {v}_{j^{\prime}} \in \mathbf {V}^{[ 1 ]}}}_{\text{node1}} \alpha_{i, j^{\prime}} \mathbf {v}_{j^{\prime}} + \dots + \underbrace {\sum_{\mathbf {v}_{j^{\prime}} \in \mathbf {V}^{[ u ]}}}_{\text{nodeu}} \alpha_{i, j^{\prime}} \mathbf {v}_{j^{\prime}} + \dots + \underbrace {\sum_{\mathbf {v}_{j^{\prime}} \in \mathbf {V}^{[ n_{u} ]}}}_{\text{nodenu}} \alpha_{i, j^{\prime}} \mathbf {v}_{j^{\prime}} \tag {2.44} \\ \end{array}
 $$
 
 Like Eq. (2.43), Eq. (2.44) can be implemented as a summation program in parallel processing. First, perform the weighted summations of values on different nodes simultaneously. Then, we collect the results from these nodes via collective operations.
@@ -1810,19 +1697,19 @@ One approach is to use sparse attention instead of standard self-attention. This
 As a consequence, we can prune most of the attention weights and represent the attention model in a compressed form. To illustrate, consider the self-attention model
 
 $$
-\operatorname {A t t} _ {\mathrm {q k v}} (\mathbf {Q}, \mathbf {K}, \mathbf {V}) = \alpha (\mathbf {Q}, \mathbf {K}) \mathbf {V} \tag {2.45}
+\operatorname{Att}_{\mathrm{qkv}} (\mathbf {Q}, \mathbf {K}, \mathbf {V}) = \alpha (\mathbf {Q}, \mathbf {K}) \mathbf {V} \tag {2.45}
 $$
 
 where the attention weight matrix  $\alpha (\mathbf{Q},\mathbf{K})\in \mathbb{R}^{m\times m}$  is obtained by
 
 $$
-\begin{array}{l} \alpha (\mathbf {Q}, \mathbf {K}) = \mathrm {S o f t m a x} (\frac {\mathbf {Q K} ^ {\mathrm {T}}}{\sqrt {d}} + \mathbf {M a s k}) \\ = \left[ \begin{array}{c c c c c} \alpha_ {0, 0} & 0 & 0 & \dots & 0 \\ \alpha_ {1, 0} & \alpha_ {1, 1} & 0 & \dots & 0 \\ \alpha_ {2, 0} & \alpha_ {2, 1} & \alpha_ {2, 2} & \dots & 0 \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ \alpha_ {m - 1, 0} & \alpha_ {m - 1, 1} & \alpha_ {m - 1, 2} & \dots & \alpha_ {m - 1, m - 1} \end{array} \right] \tag {2.46} \\ \end{array}
+\begin{array}{l} \alpha (\mathbf {Q}, \mathbf {K}) = \mathrm{Softmax} (\frac{\mathbf {Q K}^{\mathrm{T}}}{\sqrt{d}} + \mathbf {M a s k}) \\ = \left[ \begin{array}{c c c c c} \alpha_{0, 0} & 0 & 0 & \dots & 0 \\ \alpha_{1, 0} & \alpha_{1, 1} & 0 & \dots & 0 \\ \alpha_{2, 0} & \alpha_{2, 1} & \alpha_{2, 2} & \dots & 0 \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ \alpha_{m - 1, 0} & \alpha_{m - 1, 1} & \alpha_{m - 1, 2} & \dots & \alpha_{m - 1, m - 1} \end{array} \right] \tag {2.46} \\ \end{array}
 $$
 
 Each row vector  $\left[\alpha_{i,0}\dots \alpha_{i,i}0\dots 0\right]$  corresponds to a distribution of attending the  $i$ -th token to every token of the sequence. Since language models predict next tokens only based on their left-context, we normally write the output of the attention model at position  $i$  as
 
 $$
-\begin{array}{l} \begin{array}{r l r} {\mathrm {A t t _ {q k v} (q _ {i} , K _ {\le i} , V _ {\le i})}} & = & {\left[ \begin{array}{l l l} \alpha_ {i, 0} & \ldots & \alpha_ {i, i} \end{array} \right] \left[ \begin{array}{l} \mathbf {v} _ {0} \\ \vdots \\ \mathbf {v} _ {i} \end{array} \right]} \end{array} \\ = \sum_ {j = 0} ^ {i} \alpha_ {i, j} \mathbf {v} _ {j} \tag {2.47} \\ \end{array}
+\begin{array}{l} \begin{array}{r l r} {\mathrm{Att_{qkv} (q_{i} , K_{\le i} , V_{\le i})}} & = & {\left[ \begin{array}{l l l} \alpha_{i, 0} & \ldots & \alpha_{i, i} \end{array} \right] \left[ \begin{array}{l} \mathbf {v}_{0} \\ \vdots \\ \mathbf {v}_{i} \end{array} \right]} \end{array} \\ = \sum_{j = 0}^{i} \alpha_{i, j} \mathbf {v}_{j} \tag {2.47} \\ \end{array}
 $$
 
 where  $\mathbf{K}_{\leq i} = \begin{bmatrix} \mathbf{k}_0 \\ \vdots \\ \mathbf{k}_i \end{bmatrix}$  and  $\mathbf{V}_{\leq i} = \begin{bmatrix} \mathbf{v}_0 \\ \vdots \\ \mathbf{v}_i \end{bmatrix}$  are the keys and values up to position  $i$ .
@@ -1830,7 +1717,7 @@ where  $\mathbf{K}_{\leq i} = \begin{bmatrix} \mathbf{k}_0 \\ \vdots \\ \mathbf{
 In the original version of self-attention  $\left[\alpha_{i,0} \ldots \alpha_{i,i}\right]$  is assumed to be dense, that is, most of the values are non-zero. In sparse attention, some of the entries of  $\left[\alpha_{i,0} \ldots \alpha_{i,i}\right]$  are considered non-zero, and the remaining entries are simply ignored in computation. Suppose  $G \subseteq \{0, \ldots, i\}$  is the set of indices of the non-zero entries. For language models, the output of the sparse attention model at position  $i$  is given by
 
 $$
-\operatorname {A t t} _ {\text {s p a r s e}} \left(\mathbf {q} _ {i}, \mathbf {K} _ {\leq i}, \mathbf {V} _ {\leq i}\right) = \sum_ {j \in G} \alpha_ {i, j} ^ {\prime} \mathbf {v} _ {j} \tag {2.48}
+\operatorname{Att}_{\text{sparse}} \left(\mathbf {q}_{i}, \mathbf {K}_{\leq i}, \mathbf {V}_{\leq i}\right) = \sum_{j \in G} \alpha_{i, j}^{\prime} \mathbf {v}_{j} \tag {2.48}
 $$
 
 Here  $\{\alpha_{i,j}^{\prime}\}$  are normalized over  $G$ . Hence their values are different from the original attention weights (in fact we have  $\alpha_{i,j}^{\prime} > \alpha_{i,j}$ ). The sparsity of the model is determined by how large  $G$  is. Sparse attention models differ in the way we define  $G$ . One simple approach is to define  $G$  based on heuristically designed patterns. For example, a widely-used pattern involves having  $G$  cover a window of tokens located near position  $i$  [Parmar et al., 2018].
@@ -1840,17 +1727,17 @@ While sparse attention reduces the computation through the use of sparse operati
 during inference. If the sequence is very long, storing this cache will become highly memory-intensive. To address this, we can consider a different form of attention models where the KV cache is not explicitly retained. Linear attention is one such approach [Katharopoulos et al., 2020]. It uses a kernel function  $\phi(\cdot)$  to project each query and key onto points  $\mathbf{q}_i' = \phi(\mathbf{q}_i)$  and  $\mathbf{k}_i' = \phi(\mathbf{k}_i)$ , respectively. By removing the Softmax function under such transformations $^{10}$ , the form of the resulting attention model is given by
 
 $$
-\begin{array}{l} \operatorname {A t t} _ {\mathrm {q k v}} \left(\mathbf {q} _ {i}, \mathbf {K} _ {\leq i}, \mathbf {V} _ {\leq i}\right) \approx \operatorname {A t t} _ {\text {l i n e a r}} \left(\mathbf {q} _ {i} ^ {\prime}, \mathbf {K} _ {\leq i} ^ {\prime}, \mathbf {V} _ {\leq i}\right) \\ = \frac {\mathbf {q} _ {i} ^ {\prime} \mu_ {i}}{\mathbf {q} _ {i} ^ {\prime} \nu_ {i}} \tag {2.49} \\ \end{array}
+\begin{array}{l} \operatorname{Att}_{\mathrm{qkv}} \left(\mathbf {q}_{i}, \mathbf {K}_{\leq i}, \mathbf {V}_{\leq i}\right) \approx \operatorname{Att}_{\text{linear}} \left(\mathbf {q}_{i}^{\prime}, \mathbf {K}_{\leq i}^{\prime}, \mathbf {V}_{\leq i}\right) \\ = \frac{\mathbf {q}_{i}^{\prime} \mu_{i}}{\mathbf {q}_{i}^{\prime} \nu_{i}} \tag {2.49} \\ \end{array}
 $$
 
 where  $\mu_{i}$  and  $\nu_{i}$  are variables that are computed in the recurrent forms
 
 $$
-\mu_ {i} = \mu_ {i - 1} + \mathbf {k} _ {i} ^ {\prime} ^ {\mathrm {T}} \mathbf {v} _ {i} \tag {2.50}
+\mu_{i} = \mu_{i - 1} + \mathbf {k}_{i}^{\prime}^{\mathrm{T}} \mathbf {v}_{i} \tag {2.50}
 $$
 
 $$
-\nu_ {i} = \nu_ {i - 1} + \mathbf {k} _ {i} ^ {\prime \mathrm {T}} \tag {2.51}
+\nu_{i} = \nu_{i - 1} + \mathbf {k}_{i}^{\prime \mathrm{T}} \tag {2.51}
 $$
 
 $\mu_{i}$  and  $\nu_{i}$  can be seen as representations of the history up to position  $i$ . A benefit of this model is that we need not keep all past queries and values. Instead only the latest representations  $\mu_{i}$  and  $\nu_{i}$  are used. So the computational cost of each step is a constant, and the model can be easily extended to deal with long sequences.
@@ -1881,7 +1768,7 @@ tokens are kept, and the cost of caching grows as the inference proceeds. Above,
 A straightforward approach is to represent the keys and values using a fixed-size memory model. Suppose we have a memory Mem which retains the contextual information. We can write the attention operation at position  $i$  in a general form
 
 $$
-\operatorname {A t t} \left(\mathbf {q} _ {i}, \operatorname {M e m}\right) = \operatorname {A t t} _ {\mathrm {q k v}} \left(\mathbf {q} _ {i}, \mathbf {K} _ {\leq i}, \mathbf {V} _ {\leq i}\right) \tag {2.52}
+\operatorname{Att} \left(\mathbf {q}_{i}, \operatorname{Mem}\right) = \operatorname{Att}_{\mathrm{qkv}} \left(\mathbf {q}_{i}, \mathbf {K}_{\leq i}, \mathbf {V}_{\leq i}\right) \tag {2.52}
 $$
 
 In this model, Mem is simply the KV cache, i.e.,  $\mathrm{Mem} = (\mathbf{K}_{\leq i}, \mathbf{V}_{\leq i})$ . Thus the size of Mem is determined by  $i$ . If we define Mem as a fixed-size variable, then the cost of performing  $\mathrm{Att}(\mathbf{q}_i, \mathrm{Mem})$  will be fixed. There are several alternative ways to design Mem.
@@ -1889,7 +1776,7 @@ In this model, Mem is simply the KV cache, i.e.,  $\mathrm{Mem} = (\mathbf{K}_{\
 - One of the simplest methods is to consider a fixed-size window of previous keys and values. Mem is therefore given by
 
 $$
-\operatorname {M e m} = \left(\mathbf {K} _ {[ i - n _ {c} + 1, i ]}, \mathbf {V} _ {[ i - n _ {c} + 1, i ]}\right) \tag {2.53}
+\operatorname{Mem} = \left(\mathbf {K}_{[ i - n_{c} + 1, i ]}, \mathbf {V}_{[ i - n_{c} + 1, i ]}\right) \tag {2.53}
 $$
 
 where  $n_c$  denotes the size of the window. The notation  $\mathbf{K}_{[i - n_c + 1,i]}$  and  $\mathbf{V}_{[i - n_c + 1,i]}$  denote the keys and values over positions from  $i - n_c + 1$  to  $i$ . This model can be seen as a type of local attention model.
@@ -1897,19 +1784,19 @@ where  $n_c$  denotes the size of the window. The notation  $\mathbf{K}_{[i - n_
 - It is also possible to define Mem as a pair of summary vectors, which leads to a more compressed representation of the history. A simple way to summarize the previous keys and values is to use the moving average of them. For example, Mem can be defined as the unweighted moving average of the previous  $n_c$  keys and values
 
 $$
-\operatorname {M e m} = \left(\frac {\sum_ {j = i - n _ {c} + 1} ^ {i} \mathbf {k} _ {j}}{n _ {c}}, \frac {\sum_ {j = i - n _ {c} + 1} ^ {i} \mathbf {v} _ {j}}{n _ {c}}\right) \tag {2.54}
+\operatorname{Mem} = \left(\frac{\sum_{j = i - n_{c} + 1}^{i} \mathbf {k}_{j}}{n_{c}}, \frac{\sum_{j = i - n_{c} + 1}^{i} \mathbf {v}_{j}}{n_{c}}\right) \tag {2.54}
 $$
 
 Alternatively, we can use a weighted version of moving average
 
 $$
-\mathrm {M e m} = \left(\frac {\sum_ {j = i - n _ {c} + 1} ^ {i} \beta_ {j - i + n _ {c}} \mathbf {k} _ {j}}{\sum_ {j = 1} ^ {n _ {c}} \beta_ {j}}, \frac {\sum_ {j = i - n _ {c} + 1} ^ {i} \beta_ {j - i + n _ {c}} \mathbf {v} _ {j}}{\sum_ {j = 1} ^ {n _ {c}} \beta_ {j}}\right) \tag {2.55}
+\mathrm{Mem} = \left(\frac{\sum_{j = i - n_{c} + 1}^{i} \beta_{j - i + n_{c}} \mathbf {k}_{j}}{\sum_{j = 1}^{n_{c}} \beta_{j}}, \frac{\sum_{j = i - n_{c} + 1}^{i} \beta_{j - i + n_{c}} \mathbf {v}_{j}}{\sum_{j = 1}^{n_{c}} \beta_{j}}\right) \tag {2.55}
 $$
 
 Here  $\{\beta_{1},\dots,\beta_{n_{c}}\}$  are the coefficients, which can be either learned as model parameters or determined via heuristics. For example, they can be set to increasing coefficients (i.e.,  $\beta_{1} < \beta_{2} < \dots < \beta_{n_{c} - 1} < \beta_{n_{c}}$ ) in order to give larger weight to positions that are closer to  $i$ . We can extend the moving average to include all the positions up to  $i$ . This leads to the cumulative average of the keys and values, given in the form
 
 $$
-\operatorname {M e m} = \left(\frac {\sum_ {j = 0} ^ {i} \mathbf {k} _ {j}}{i + 1}, \frac {\sum_ {j = 0} ^ {i} \mathbf {v} _ {j}}{i + 1}\right) \tag {2.56}
+\operatorname{Mem} = \left(\frac{\sum_{j = 0}^{i} \mathbf {k}_{j}}{i + 1}, \frac{\sum_{j = 0}^{i} \mathbf {v}_{j}}{i + 1}\right) \tag {2.56}
 $$
 
 11More formally, we write  $\mathbf{K}_{[i - n_c + 1,i]} = \left[ \begin{array}{c}\mathbf{k}_{i - n_c + 1}\\ \vdots \\ \mathbf{k}_i \end{array} \right]$  and  $\mathbf{V}_{[i - n_c + 1,i]} = \left[ \begin{array}{c}\mathbf{v}_{i - n_c + 1}\\ \vdots \\ \mathbf{v}_i \end{array} \right]$ . Sometimes we denote  $\mathbf{K}_{[i - n_c + 1,i]}$  by  $\{\mathbf{k}_{i - n_c + 1},\dots,\mathbf{k}_i\}$  and  $\mathbf{V}_{[i - n_c + 1,i]}$  by  $\{\mathbf{v}_{i - n_c + 1},\dots,\mathbf{v}_i\}$  for notation simplicity.
@@ -1917,7 +1804,7 @@ $$
 In general, the cumulative average can be written using a recursive formula
 
 $$
-\operatorname {M e m} _ {i} = \frac {\left(\mathbf {k} _ {i} , \mathbf {v} _ {i}\right) + i \cdot \operatorname {M e m} _ {i - 1}}{i + 1} \tag {2.57}
+\operatorname{Mem}_{i} = \frac{\left(\mathbf {k}_{i} , \mathbf {v}_{i}\right) + i \cdot \operatorname{Mem}_{i - 1}}{i + 1} \tag {2.57}
 $$
 
 where  $\mathrm{Mem}_i$  and  $\mathrm{Mem}_{i-1}$  denote the cumulative averages of the current and previous positions, respectively. An advantage of this model is that we only need to store a single key-value pair during inference, rather than storing all the key-value pairs. Note that the above memory models are related to recurrent models, and more advanced techniques have been used to develop alternatives to self-attention mechanisms in Transformers [Ma et al., 2023].
@@ -1925,19 +1812,19 @@ where  $\mathrm{Mem}_i$  and  $\mathrm{Mem}_{i-1}$  denote the cumulative averag
 - The memory Mem can also be a neural network. At each step, it takes both the previous output of the memory and the current states of the model as input, and produces the new output of the memory. This neural network can be formulated as the function
 
 $$
-\mathrm {M e m} = \operatorname {U p d a t e} \left(S _ {\mathrm {k v}}, \operatorname {M e m} _ {\text {p r e}}\right) \tag {2.58}
+\mathrm{Mem} = \operatorname{Update} \left(S_{\mathrm{kv}}, \operatorname{Mem}_{\text{pre}}\right) \tag {2.58}
 $$
 
 Here Mem and Mempre represent the outputs of the memory at the current step and the previous step, respectively.  $S_{\mathrm{kv}}$  is a set of key-value pairs, representing the recent states of the model. This formulation is general and allows us to develop various memory models by selecting different Update(·) and  $S_{\mathrm{kv}}$  configurations. For example, if  $S_{\mathrm{kv}}$  only contains the latest key-value pair  $(\mathbf{k}_i, \mathbf{v}_i)$  and  $\mathrm{Update}(\cdot)$  is defined as a recurrent cell, then Eq. (2.58) can be expressed as an RNN-like model
 
 $$
-\operatorname {M e m} = f \left(\left(\mathbf {k} _ {i}, \mathbf {v} _ {i}\right), \operatorname {M e m} _ {\text {p r e}}\right) \tag {2.59}
+\operatorname{Mem} = f \left(\left(\mathbf {k}_{i}, \mathbf {v}_{i}\right), \operatorname{Mem}_{\text{pre}}\right) \tag {2.59}
 $$
 
 where  $f(\cdot)$  is a recurrent cell. Recurrence can also be applied to segment-level modeling for efficiency consideration. A simple approach is that we can divide the sequence into segments, and treat  $S_{\mathrm{kv}}$  as a segment. Applying recurrent models to Update( $\cdot$ ) will result in memory models that operate on segments. A special example is that we define Update( $\cdot$ ) as an FIFO function that adds  $S_{\mathrm{kv}}$  into the memory and removes the oldest key-value segment from the memory, given by
 
 $$
-\operatorname {M e m} = \operatorname {F I O} \left(S _ {\mathrm {k v}}, \operatorname {M e m} _ {\text {p r e}}\right) \tag {2.60}
+\operatorname{Mem} = \operatorname{FIO} \left(S_{\mathrm{kv}}, \operatorname{Mem}_{\text{pre}}\right) \tag {2.60}
 $$
 
 Consider a memory which includes two segments, one for current segment, and one for the previous segment. In the attention operation, each position can access the history key-value pairs in two closest consecutive segments. This essentially defines a local memory, but it and its variants have been widely used segment-level recurrent models [Dai et al., 2019; Hutchins et al., 2022; Bulatov et al., 2022].
@@ -1945,19 +1832,19 @@ Consider a memory which includes two segments, one for current segment, and one 
 - The above memory models can be extended to involve multiple memories. An example of this approach is compressive Transformer [Rae et al., 2019]. It employs two distinct fixed-size memories: one for modeling local context (denoted by Mem), and the other for modeling and compressing long-term history (denoted by CMem). The KV cache in this model is the combination of Mem and CMem. The attention function can be written as
 
 $$
-\operatorname {A t t} _ {\mathrm {c o m}} \left(\mathbf {q} _ {i}, \text {M e m}, \mathrm {C M e m}\right) = \operatorname {A t t} _ {\mathrm {q k v}} \left(\mathbf {q} _ {i}, [ \text {M e m}, \mathrm {C M e m} ]\right) \tag {2.61}
+\operatorname{Att}_{\mathrm{com}} \left(\mathbf {q}_{i}, \text{Mem}, \mathrm{CMem}\right) = \operatorname{Att}_{\mathrm{qkv}} \left(\mathbf {q}_{i}, [ \text{Mem}, \mathrm{CMem} ]\right) \tag {2.61}
 $$
 
 where [Mem, CMem] is a combined memory of Mem and CMem. As with other segment-level models, the compressive Transformer model operates on segments of the sequence. Each segment is a sequence of  $n_s$  consecutive tokens, and we denote  $S_{\mathrm{kv}}^k$  as the key-value pairs corresponding to the tokens of the  $k$ -th segment. When a new segment arrives, Mem is updated in an FIFO fashion: we append the  $n_c$  key-value pairs in  $S_{\mathrm{kv}}^k$  to Mem, and then pop the  $n_s$  oldest key-value pairs from Mem, which is given by
 
 $$
-\mathrm {M e m} = \mathrm {F I F O} \left(S _ {\mathrm {k v}} ^ {k}, \mathrm {M e m} _ {\mathrm {p r e}}\right) \tag {2.62}
+\mathrm{Mem} = \mathrm{FIFO} \left(S_{\mathrm{kv}}^{k}, \mathrm{Mem}_{\mathrm{pre}}\right) \tag {2.62}
 $$
 
 The popped key-value pairs are then used to update the compressive memory CMem. These  $n_s$  key-value pairs are compressed into  $\frac{n_s}{c}$  key-value pairs via a compression network. CMem is an FIFO which appends the compressed  $\frac{n_s}{c}$  key-value pairs to the tail of the queue, and drops the first  $\frac{n_s}{c}$  key-value pairs of the queue. It is given by
 
 $$
-\mathrm {C M e m} = \mathrm {F I F O} \left(C _ {\mathrm {k v}} ^ {k}, \mathrm {C M e m} _ {\mathrm {p r e}}\right) \tag {2.63}
+\mathrm{CMem} = \mathrm{FIFO} \left(C_{\mathrm{kv}}^{k}, \mathrm{CMem}_{\mathrm{pre}}\right) \tag {2.63}
 $$
 
 where  $C_{\mathrm{kv}}^{k}$  represents the set of compressed key-value pairs. Implicit in the compressive Transformer model is that local context should be represented explicitly with minimal information loss, while long-range context can be more compressed.
@@ -1990,15 +1877,15 @@ Here, we consider the  $k$ -nearest neighbors ( $k$ -NN) method which is one of 
 Suppose we have a set of keys  $\{\mathbf{k}_j\}$  with corresponding values  $\{\mathbf{v}_j\}$ , and suppose we store these key-value pairs in a vector database<sup>12</sup>. For each query  $\mathbf{q}_i$ , we find its  $k$  nearest neighbours by growing the radius of the sphere centered as  $\mathbf{q}_i$  until it contains  $k$  data points in  $\{\mathbf{k}_j\}$ . This results in a set of  $k$  keys along with their corresponding values, denoted by  $\mathrm{Mem}_{k\mathrm{nn}}$ . As before, we denote Mem as the local memory for the query, such as the KV cache of neighboring tokens. Our goal is to attend query  $\mathbf{q}_i$  to both the local memory Mem and the long-term memory  $\mathrm{Mem}_{k\mathrm{nn}}$ . There are, of course, several ways to incorporate Mem and  $\mathrm{Mem}_{k\mathrm{nn}}$  into the attention model. For example, we might simply combine them to form a single KV cache [Mem,  $\mathrm{Mem}_{k\mathrm{nn}}$ ], and attend  $\mathbf{q}_i$  to [Mem,  $\mathrm{Mem}_{k\mathrm{nn}}$ ] via standard QKV attention. Or we might use Mem and  $\mathrm{Mem}_{k\mathrm{nn}}$  in separate attention steps. An example of such approaches is the model developed by Wu et al. [2021]. It linearly combines the two types of attention, given by
 
 $$
-\operatorname {A t t} \left(\mathbf {q} _ {i}, \operatorname {M e m}, \operatorname {M e m} _ {k n n}\right) = \mathbf {g} \odot \operatorname {A t t} _ {\text {l o c a l}} + (1 - \mathbf {g}) \odot \operatorname {A t t} _ {k n n} \tag {2.64}
+\operatorname{Att} \left(\mathbf {q}_{i}, \operatorname{Mem}, \operatorname{Mem}_{k n n}\right) = \mathbf {g} \odot \operatorname{Att}_{\text{local}} + (1 - \mathbf {g}) \odot \operatorname{Att}_{k n n} \tag {2.64}
 $$
 
 $$
-\operatorname {A t t} _ {\text {l o c a l}} = \operatorname {A t t} \left(\mathbf {q} _ {i}, \operatorname {M e m}\right) \tag {2.65}
+\operatorname{Att}_{\text{local}} = \operatorname{Att} \left(\mathbf {q}_{i}, \operatorname{Mem}\right) \tag {2.65}
 $$
 
 $$
-\operatorname {A t t} _ {\mathrm {k n n}} = \operatorname {A t t} \left(\mathbf {q} _ {i}, \operatorname {M e m} _ {\mathrm {k n n}}\right) \tag {2.66}
+\operatorname{Att}_{\mathrm{knn}} = \operatorname{Att} \left(\mathbf {q}_{i}, \operatorname{Mem}_{\mathrm{knn}}\right) \tag {2.66}
 $$
 
 Here  $\mathbf{g} \in \mathbb{R}^d$  is the coefficient vector, which can be the output of a learned gate.
@@ -2012,13 +1899,13 @@ In fact, all the above-mentioned methods can be viewed as instances of a retriev
 In  $k$ -NN LM, each item in the datastore is a key-value tuple  $(\mathbf{z}, w)$ , where  $\mathbf{z}$  represents a hidden state of the LLM at a position, and  $w$  represents the corresponding prediction. A typical way to create the datastore is to collect the output vector of the Transformer layer stack and the corresponding next token for each position of each sequence in a training dataset. During inference, we have a representation  $\mathbf{h}_i$  given a prefix. Given this representation, we first search the datastore for  $k$  closest matching data items  $\{(\mathbf{z}_1, w_1), \dots, (\mathbf{z}_k, w_k)\}$ . Here  $\{w_1, \dots, w_k\}$  are thought of as reference tokens for prediction, and thus can be used to guide the token prediction based on  $\mathbf{h}_i$ . One common way to make use of reference tokens is to define a distribution over the vocabulary  $V$ ,
 
 $$
-\Pr_ {k \mathrm {n n}} (\cdot | \mathbf {h} _ {i}) = \operatorname {S o f t m a x} \left(\left[ - d _ {0} \quad \dots \quad - d _ {| V |} \right]\right) \tag {2.67}
+\Pr_{k \mathrm{nn}} (\cdot | \mathbf {h}_{i}) = \operatorname{Softmax} \left(\left[ - d_{0} \quad \dots \quad - d_{| V |} \right]\right) \tag {2.67}
 $$
 
 where  $d_v$  equals the distance between  $\mathbf{h}_i$  and  $\mathbf{z}_j$  if  $w_j$  equals the  $v$ -th entry of  $V$ , and equals 0 otherwise. We use a linear function with a coefficient  $\lambda$  that interpolates between the retrieval-based distribution  $\operatorname{Pr}_{k\mathrm{nn}}(\cdot|\mathbf{h}_i)$  and the LLM output distribution  $\operatorname{Pr}_{\mathrm{lm}}(\cdot|\mathbf{h}_i)$
 
 $$
-\Pr (\cdot | \mathbf {h} _ {i}) = \lambda \cdot \Pr_ {\mathrm {k n n}} (\cdot | \mathbf {h} _ {i}) + (1 - \lambda) \cdot \Pr_ {\mathrm {l m}} (\cdot | \mathbf {h} _ {i}) \tag {2.68}
+\Pr (\cdot | \mathbf {h}_{i}) = \lambda \cdot \Pr_{\mathrm{knn}} (\cdot | \mathbf {h}_{i}) + (1 - \lambda) \cdot \Pr_{\mathrm{lm}} (\cdot | \mathbf {h}_{i}) \tag {2.68}
 $$
 
 Then, as usual, we can choose the next token  $y$  by maximizing the probability  $\operatorname{Pr}(y|\mathbf{h}_i)$ .
@@ -2026,7 +1913,7 @@ Then, as usual, we can choose the next token  $y$  by maximizing the probability
 As with information retrieval (IR) systems, the datastore can also manage texts and provide access to relevant texts for a query. For example, we can store a collection of text documents in a search engine with full-text indexing, and then search it for documents that match a given text-based query. Applying IR techniques to LLMs leads to a general framework called retrieval-augmented generation (RAG). The RAG framework works as follows. We use the context  $\mathbf{x}$  as the query and find the  $k$  most relevant document pieces  $\{\mathbf{c}_1,\dots,\mathbf{c}_k\}$  from the datastore via efficient IR techniques<sup>13</sup>. These search results are combined with the original context via a prompting template  $g(\cdot)^{14}$ , resulting in an augmented input for the LLM
 
 $$
-\mathbf {x} ^ {\prime} = g \left(\mathbf {c} _ {1}, \dots , \mathbf {c} _ {k}, \mathbf {x}\right) \tag {2.69}
+\mathbf {x}^{\prime} = g \left(\mathbf {c}_{1}, \dots , \mathbf {c}_{k}, \mathbf {x}\right) \tag {2.69}
 $$
 
 Then, we use  $\mathbf{x}'$  as the context and predict the following text using the model  $\operatorname{Pr}(\mathbf{y}|\mathbf{x}')$ . One advantage of RAG is that we need not modify the architecture of LLMs, but instead augment the input to LLMs via an additional IR system. Figure 2.7 shows a comparison of the use of different external memories in LLMs.
@@ -2066,13 +1953,13 @@ inference, we store the keys and values for up to  $m$  tokens. The space comple
 In addition to reducing  $m$ , we can also decrease the size of the KV cache along other dimensions. A widely-used approach is to enable sharing across heads in multi-head self-attention. Recall from Section 2.1.1 that multi-head self-attention uses multiple sets of queries, keys, and values (each set is called a head), each performing the QKV attention mechanism as usual. This can be expressed as
 
 $$
-\text {O u t p u t} = \operatorname {M e r g e} \left(\operatorname {h e a d} _ {1}, \dots , \operatorname {h e a d} _ {\tau}\right) \mathbf {W} ^ {\text {h e a d}} \tag {2.70}
+\text{Output} = \operatorname{Merge} \left(\operatorname{head}_{1}, \dots , \operatorname{head}_{\tau}\right) \mathbf {W}^{\text{head}} \tag {2.70}
 $$
 
 where  $\mathrm{head}_j\in \mathbb{R}^{d_h}$  is computed using the standard QKV attention function
 
 $$
-\operatorname {h e a d} _ {j} = \operatorname {A t t} _ {\mathrm {q k v}} \left(\mathbf {q} _ {i} ^ {[ j ]}, \mathbf {K} _ {\le i} ^ {[ j ]}, \mathbf {V} _ {\le i} ^ {[ j ]}\right) \tag {2.71}
+\operatorname{head}_{j} = \operatorname{Att}_{\mathrm{qkv}} \left(\mathbf {q}_{i}^{[ j ]}, \mathbf {K}_{\le i}^{[ j ]}, \mathbf {V}_{\le i}^{[ j ]}\right) \tag {2.71}
 $$
 
 Here,  $\mathbf{q}_i^{[j]}$ ,  $\mathbf{K}_{\leq i}^{[j]}$ , and  $\mathbf{V}_{\leq i}^{[j]}$  are the query, keys, and values that are projected onto the  $j$ -th feature sub-space. So this model can be interpreted as performing attention on a group of feature subspaces in parallel (see Figure 2.8 (b)). The KV cache needs to retain the keys and values for all these heads, that is,  $\{(\mathbf{K}_{\leq i}^{[1]}, \mathbf{V}_{\leq i}^{[1]}), \dots, (\mathbf{K}_{\leq i}^{[\tau]}, \mathbf{V}_{\leq i}^{[\tau]})\}$ .
@@ -2080,7 +1967,7 @@ Here,  $\mathbf{q}_i^{[j]}$ ,  $\mathbf{K}_{\leq i}^{[j]}$ , and  $\mathbf{V}_{\
 One refinement to the multi-head attention model, called multi-query attention (MQA), is to share keys and values across heads, while allowing queries to be unique for each head [Shazeer, 2019]. In MQA, there is a single set of keys and values  $(\mathbf{K}_{\leq i},\mathbf{V}_{\leq i})$ . In addition, there are  $\tau$  queries  $\{\mathbf{q}_i^{[1]},\dots,\mathbf{q}_i^{[\tau]}\}$ , each corresponding to a different head. For each head, we have
 
 $$
-\operatorname {h e a d} _ {j} = \operatorname {A t t} _ {\mathrm {q k v}} \left(\mathbf {q} _ {i} ^ {[ j ]}, \mathbf {K} _ {\le i}, \mathbf {V} _ {\le i}\right) \tag {2.72}
+\operatorname{head}_{j} = \operatorname{Att}_{\mathrm{qkv}} \left(\mathbf {q}_{i}^{[ j ]}, \mathbf {K}_{\le i}, \mathbf {V}_{\le i}\right) \tag {2.72}
 $$
 
 Figure 2.8 (c) illustrates this model. By sharing keys and values, the size of the KV cache would be  $O(L \cdot d_h \cdot m)$ .
@@ -2088,7 +1975,7 @@ Figure 2.8 (c) illustrates this model. By sharing keys and values, the size of t
 Grouped query attention (GQA) is a natural extension to multi-head attention and MQA [Ainslie et al., 2023]. In GQA, heads are divided into  $n_g$  groups, each corresponding to a shared set of keys and values. Hence we have  $n_g$  sets of keys and values  $\{(\mathbf{K}_{\leq i}^{[1]}, \mathbf{V}_{\leq i}^{[1]}), \dots, (\mathbf{K}_{\leq i}^{[n_g]}, \mathbf{V}_{\leq i}^{[n_g]})\}$ . See Figure 2.8 (d) for an illustration. Let  $g(j)$  be the group id for the  $j$ -th head. The GQA model can be expressed as
 
 $$
-\operatorname {h e a d} _ {j} = \operatorname {A t t} _ {\mathbf {q k v}} \left(\mathbf {q} _ {i} ^ {[ j ]}, \mathbf {K} _ {\leq i} ^ {[ g (j) ]}, \mathbf {V} _ {\leq i} ^ {[ g (j) ]}\right) \tag {2.73}
+\operatorname{head}_{j} = \operatorname{Att}_{\mathbf {q k v}} \left(\mathbf {q}_{i}^{[ j ]}, \mathbf {K}_{\leq i}^{[ g (j) ]}, \mathbf {V}_{\leq i}^{[ g (j) ]}\right) \tag {2.73}
 $$
 
 The size of the KV cache of GQA is  $O(L \cdot n_g \cdot d_h \cdot m)$ . One benefit of GQA is that we can trade-off between computational efficiency and model expressiveness by adjusting  $n_g$ . When  $n_g = \tau$ , the model becomes the standard multi-head attention model. By contrast, when  $n_g = 1$ , it becomes the GQA model.
@@ -2120,7 +2007,7 @@ weights across layers to reduce both computation and memory footprints [Xiao et 
 Since Transformer layers are order-insensitive to input, we need some way to encode positional information in the input tokens. To do this, it is common to add positional embeddings to token embeddings, and then feed these combined embeddings into the Transformer layer stack as input. In this case, the embedding at position  $i$  can be expressed as
 
 $$
-\mathbf {e} _ {i} = \mathbf {x} _ {i} + \mathrm {P E} (i) \tag {2.74}
+\mathbf {e}_{i} = \mathbf {x}_{i} + \mathrm{PE} (i) \tag {2.74}
 $$
 
 where  $\mathbf{x}_i\in \mathbb{R}^d$  denotes the token embedding, and  $\mathrm{PE}(i)\in \mathbb{R}^d$  denotes the positional embedding. In general, the token embedding  $\mathbf{x}_i$  is a position-independent vector, and so the positional embedding  $\mathrm{PE}(i)$  is used to encode the positional context. A straightforward approach is to treat  $\mathrm{PE}(i)$  as a learnable variable and train it alongside other model parameters. In this way, we can learn a unique representation for each position, and thus distinguish the tokens appearing at different positions of a sequence.
@@ -2151,11 +2038,11 @@ Fig. 2.9: Illustrations of different positional embedding methods for a range of
 One problem with Eq. (2.74) is that the embedding model treats each token independently and therefore ignores the distance between different tokens. A common improvement to this model, called relative positional embedding, is to consider the pairwise relationship between tokens [Shaw et al., 2018]. The general idea behind this is to obtain the offset between any pair of positions and incorporate it into the self-attention model. One of the simplest forms of self-attention with relative positional embedding is given by
 
 $$
-\operatorname {A t t} _ {\mathrm {q k v}} \left(\mathbf {q} _ {i}, \mathbf {K} _ {\leq i}, \mathbf {V} _ {\leq i}\right) = \sum_ {j = 0} ^ {i} \alpha (i, j) \mathbf {v} _ {j} \tag {2.75}
+\operatorname{Att}_{\mathrm{qkv}} \left(\mathbf {q}_{i}, \mathbf {K}_{\leq i}, \mathbf {V}_{\leq i}\right) = \sum_{j = 0}^{i} \alpha (i, j) \mathbf {v}_{j} \tag {2.75}
 $$
 
 $$
-\alpha (i, j) = \operatorname {S o f t m a x} \left(\frac {\mathbf {q} _ {i} \mathbf {k} _ {j} ^ {\mathrm {T}} + \mathrm {P E} (i , j)}{\sqrt {d}} + \operatorname {M a s k} (i, j)\right) \tag {2.76}
+\alpha (i, j) = \operatorname{Softmax} \left(\frac{\mathbf {q}_{i} \mathbf {k}_{j}^{\mathrm{T}} + \mathrm{PE} (i , j)}{\sqrt{d}} + \operatorname{Mask} (i, j)\right) \tag {2.76}
 $$
 
 The only difference between this model and the original self-attention model is that a bias term  $\mathrm{PE}(i,j)$  is added to the query-key product in this new model. Intuitively,  $\mathrm{PE}(i,j)$  can be interpreted as a distance penalty for the pair of positions  $i$  and  $j$ . As  $i$  moves away from  $j$ , the value of
@@ -2176,7 +2063,7 @@ The T5 bias instead adopts a generalization of this model. Rather than assigning
 - For buckets  $\frac{n_b + 1}{2}$  to  $n_b$ , the size of each bucket increases logarithmically. For example, the bucket number for a given offset  $i - j \geq \frac{n_b + 1}{2}$  can be defined as
 
 $$
-b (i - j) = \frac {n _ {b} + 1}{2} + \left\lfloor \frac {\log (i - j) - \log \left(\frac {n _ {b} + 1}{2}\right)}{\log \left(\operatorname {d i s t} _ {\max }\right) - \log \left(\frac {n _ {b} + 1}{2}\right)} \cdot \frac {n _ {b} + 1}{2} \right\rfloor \tag {2.78}
+b (i - j) = \frac{n_{b} + 1}{2} + \left\lfloor \frac{\log (i - j) - \log \left(\frac{n_{b} + 1}{2}\right)}{\log \left(\operatorname{dist}_{\max }\right) - \log \left(\frac{n_{b} + 1}{2}\right)} \cdot \frac{n_{b} + 1}{2} \right\rfloor \tag {2.78}
 $$
 
 where the parameter  $\mathrm{dist}_{\mathrm{max}}$  is typically set to a relatively large number to indicate the maximum offset we may encounter.
@@ -2186,7 +2073,7 @@ where the parameter  $\mathrm{dist}_{\mathrm{max}}$  is typically set to a relat
 Together, these can be expressed as the function
 
 $$
-\begin{array}{l} b (i - j) \\ = \left\{ \begin{array}{l l} i - j & 0 \leq i - j <   \frac {n _ {b} + 1}{2} \\ \min  \left(n _ {b}, \frac {n _ {b} + 1}{2} + \left\lfloor \frac {\log (i - j) - \log \left(\frac {n _ {b} + 1}{2}\right)}{\log \left(\operatorname {d i s t} _ {\max }\right) - \log \left(\frac {n _ {b} + 1}{2}\right)} \cdot \frac {n _ {b} + 1}{2} \right\rfloor\right) & i - j \geq \frac {n _ {b} + 1}{2} \end{array} \right. \tag {2.79} \\ \end{array}
+\begin{array}{l} b (i - j) \\ = \left\{ \begin{array}{l l} i - j & 0 \leq i - j <   \frac{n_{b} + 1}{2} \\ \min  \left(n_{b}, \frac{n_{b} + 1}{2} + \left\lfloor \frac{\log (i - j) - \log \left(\frac{n_{b} + 1}{2}\right)}{\log \left(\operatorname{dist}_{\max }\right) - \log \left(\frac{n_{b} + 1}{2}\right)} \cdot \frac{n_{b} + 1}{2} \right\rfloor\right) & i - j \geq \frac{n_{b} + 1}{2} \end{array} \right. \tag {2.79} \\ \end{array}
 $$
 
 Figure 2.10 shows an illustration of these buckets. We see that in the first half of the buckets, each bucket is associated with only one value of  $i - j$ , while in the second half, the bucket size increases as  $i - j$  grows. The last bucket is designed to handle sequences of arbitrarily long lengths.
@@ -2199,7 +2086,7 @@ Fig. 2.10: Illustration of distributing query-key offsets into buckets in the T5
 All  $\mathrm{PE}(i,j)$ s in a bucket share the same bias term  $u_{b(i - j)}$ . Substituting  $\mathrm{PE}(i,j) = u_{b(i - j)}$  into Eq. (2.76), the attention weight for  $\mathbf{q}_i$  and  $\mathbf{k}_j$  becomes<sup>16</sup>
 
 $$
-\alpha (i, j) = \operatorname {S o f t m a x} \left(\frac {\mathbf {q} _ {i} \mathbf {k} _ {j} ^ {\mathrm {T}} + u _ {b (i - j)}}{\sqrt {d}} + \operatorname {M a s k} (i, j)\right) \tag {2.81}
+\alpha (i, j) = \operatorname{Softmax} \left(\frac{\mathbf {q}_{i} \mathbf {k}_{j}^{\mathrm{T}} + u_{b (i - j)}}{\sqrt{d}} + \operatorname{Mask} (i, j)\right) \tag {2.81}
 $$
 
 The parameters  $\{u_0, \dots, u_{n_b}\}$  are learned as common parameters during training. It should be emphasized that this model can generalize to long sequences. This is because  $\mathrm{PE}(i,j)$ s with similar query-key offsets share the same parameter, and this sharing strategy is particularly important for achieving good generalization, given that large query-key offsets are rare in training. In practice, we often set  $n_b$  to a moderate number, and thus it can help control the overfitting of positional embedding models.
@@ -2211,7 +2098,7 @@ Relative positional embedding models are based on a set of learned biases for th
 One example of such an approach is Press et al. [2022]'s approach, called attention with linear biases or ALiBi for short. In the ALiBi approach, the bias term is defined as the negative scaled query-key offset
 
 $$
-\begin{array}{l} \mathrm {P E} (i, j) = - \beta \cdot (i - j) \\ = \beta \cdot (j - i) \tag {2.82} \\ \end{array}
+\begin{array}{l} \mathrm{PE} (i, j) = - \beta \cdot (i - j) \\ = \beta \cdot (j - i) \tag {2.82} \\ \end{array}
 $$
 
 where  $\beta$  is the scaling factor. Adding this term to the query-key product, we obtain a new form of
@@ -2226,7 +2113,7 @@ Fig. 2.11: Query-key products with biases (above = the T5 bias and below = the A
 attention weights
 
 $$
-\alpha (i, j) = \operatorname {S o f t m a x} \left(\frac {\mathbf {q} _ {i} \mathbf {k} _ {j} ^ {\mathrm {T}} + \boldsymbol {\beta} \cdot (j - i)}{\sqrt {d}} + \operatorname {M a s k} (i, j)\right) \tag {2.83}
+\alpha (i, j) = \operatorname{Softmax} \left(\frac{\mathbf {q}_{i} \mathbf {k}_{j}^{\mathrm{T}} + \boldsymbol {\beta} \cdot (j - i)}{\sqrt{d}} + \operatorname{Mask} (i, j)\right) \tag {2.83}
 $$
 
 This model can be interpreted as adding a fixed penalty to  $\mathbf{q}_i\mathbf{k}_j^{\mathrm{T}}$  whenever  $j$  moves one step away from  $i$ . So we do not need to adapt it to a range of sequence lengths, and can employ it to model arbitrarily long sequences. See Figure 2.11 for a comparison of the T5 bias and the ALiBi bias.
@@ -2240,7 +2127,7 @@ Table 2.4: Query-key biases as relative positional embeddings.  $\beta$ ,  $\bet
 heads, the scalar for the  $k$ -th head is given by
 
 $$
-\beta_ {k} = \frac {1}{2 ^ {\frac {8}{k}}} \tag {2.84}
+\beta_{k} = \frac{1}{2^{\frac{8}{k}}} \tag {2.84}
 $$
 
 The ALiBi approach provides a simple form of relative positional embeddings. There are other similar methods for designing query-key biases using the offset  $i - j$ . Table 2.4 shows a comparison of such biases. As an aside it is worth noting that the form of the right-hand side of Eq. (2.82) is very similar to length features used in conventional feature-based systems. For example, in statistical machine translation systems, such features are widely used to model word reordering problems, resulting in models that can generalize well across different translation tasks [Koehn, 2010].
@@ -2250,7 +2137,7 @@ The ALiBi approach provides a simple form of relative positional embeddings. The
 As with sinusoidal embeddings, rotary positional embeddings are based on hard-coded values for all dimensions of an embedding [Su et al., 2024]. Recall that in the sinusoidal embedding model, positions are represented as combinations of sine and cosine functions with different frequencies. These embeddings are then added to token embeddings to form the inputs to the Transformer layer stack. Rotary positional embeddings instead model positional context as rotations to token embeddings in a complex space. This leads to a model expressed in the form of multiplicative embeddings
 
 $$
-\mathbf {e} _ {i} = \mathbf {x} _ {i} R (i) \tag {2.85}
+\mathbf {e}_{i} = \mathbf {x}_{i} R (i) \tag {2.85}
 $$
 
 where  $R(i) \in \mathbb{R}^{d \times d}$  is the rotation matrix representing the rotations performed on the token embedding  $\mathbf{x}_i \in \mathbb{R}^d$ .
@@ -2270,7 +2157,7 @@ Fig. 2.12: Illustrations of vector rotations in a plane. Sub-figures (a) and (b)
 expressed mathematically in the form
 
 $$
-\begin{array}{l} \operatorname {R o} (\mathbf {x}, \theta) = \mathbf {x} R _ {\theta} \\ = \left[ \begin{array}{c c} x _ {1} & x _ {2} \end{array} \right] \left[ \begin{array}{c c} \cos \theta & \sin \theta \\ - \sin \theta & \cos \theta \end{array} \right] \\ = \left[ \cos \theta \cdot x _ {1} - \sin \theta \cdot x _ {2} \quad \sin \theta \cdot x _ {1} + \cos \theta \cdot x _ {2} \right] \tag {2.86} \\ \end{array}
+\begin{array}{l} \operatorname{Ro} (\mathbf {x}, \theta) = \mathbf {x} R_{\theta} \\ = \left[ \begin{array}{c c} x_{1} & x_{2} \end{array} \right] \left[ \begin{array}{c c} \cos \theta & \sin \theta \\ - \sin \theta & \cos \theta \end{array} \right] \\ = \left[ \cos \theta \cdot x_{1} - \sin \theta \cdot x_{2} \quad \sin \theta \cdot x_{1} + \cos \theta \cdot x_{2} \right] \tag {2.86} \\ \end{array}
 $$
 
 where  $R_{\theta} = \left[ \begin{array}{cc}\cos \theta & \sin \theta \\ -\sin \theta & \cos \theta \end{array} \right]$  is the rotation matrix. If two or more rotations are performed on the same vector, we can rotate the vector further. This follows from the fact that the composition of successive rotations is itself a rotation. More formally, rotating a vector by an angle  $\theta$  for  $t$  times
@@ -2278,7 +2165,7 @@ where  $R_{\theta} = \left[ \begin{array}{cc}\cos \theta & \sin \theta \\ -\sin 
 can be expressed as
 
 $$
-\begin{array}{l} \operatorname {R o} (\mathbf {x}, t \theta) = \mathbf {x} R _ {t \theta} \\ = \left[ \cos t \theta \cdot x _ {1} - \sin t \theta \cdot x _ {2} \quad \sin t \theta \cdot x _ {1} + \cos t \theta \cdot x _ {2} \right] \tag {2.87} \\ \end{array}
+\begin{array}{l} \operatorname{Ro} (\mathbf {x}, t \theta) = \mathbf {x} R_{t \theta} \\ = \left[ \cos t \theta \cdot x_{1} - \sin t \theta \cdot x_{2} \quad \sin t \theta \cdot x_{1} + \cos t \theta \cdot x_{2} \right] \tag {2.87} \\ \end{array}
 $$
 
 If we interpret  $t$  as the position of a token represented by  $\mathbf{x}$  in a sequence, then we will find that the above equation defines a simple positional embedding model. As shown in Figure 2.12 (b), we start moving the token from position 0. Each time we move one step forward, the vector is rotated by the angle  $\theta$ . Upon arriving at the position  $t$ , the representation of the token with positional context is given by  $\mathrm{Ro}(\mathbf{x}, i\theta)$ . As the rotations do not change the magnitude of the embedding, the original "meaning" of the token is retained. The positional information is injected into the embedding, when it gets rotated.
@@ -2286,13 +2173,13 @@ If we interpret  $t$  as the position of a token represented by  $\mathbf{x}$  i
 A popular way to understand vector rotation is to define it in complex spaces. It is easy to transform each vector  $\mathbf{x} = \left[x_1 x_2\right]$  in the 2D Euclidean space  $\mathbb{R}^2$  to a complex number  $\mathbf{x}' = x_1 + \mathrm{i}x_2$  in the complex space  $\mathbb{C}$  via a bijective linear map. Then, the rotation of  $\mathbf{x}$  with the angle  $t\theta$  corresponds to the multiplication by  $e^{\mathrm{i}t\theta}$ . Given that  $e^{\mathrm{i}t\theta} = \cos t\theta + \mathrm{i}\sin t\theta$ , the rotation operation can be re-expressed in the form
 
 $$
-\begin{array}{l} \mathbf {x} R _ {t \theta} \mapsto \mathbf {x} ^ {\prime} e ^ {\mathrm {i} t \theta} \\ = \left(x _ {1} + \mathrm {i} x _ {2}\right) (\cos t \theta + \mathrm {i} \sin t \theta) \\ = \cos t \theta \cdot x _ {1} - \sin t \theta \cdot x _ {2} + \mathrm {i} (\sin t \theta \cdot x _ {1} + \cos t \theta \cdot x _ {2}) \tag {2.88} \\ \end{array}
+\begin{array}{l} \mathbf {x} R_{t \theta} \mapsto \mathbf {x}^{\prime} e^{\mathrm{i} t \theta} \\ = \left(x_{1} + \mathrm{i} x_{2}\right) (\cos t \theta + \mathrm{i} \sin t \theta) \\ = \cos t \theta \cdot x_{1} - \sin t \theta \cdot x_{2} + \mathrm{i} (\sin t \theta \cdot x_{1} + \cos t \theta \cdot x_{2}) \tag {2.88} \\ \end{array}
 $$
 
 Here we denote the token representation  $\mathbf{x}'e^{it\theta}$  by  $C(\mathbf{x},t\theta)$ . The inner product of the representations of the tokens at positions  $t$  and  $s$  can be written as
 
 $$
-\langle C (\mathbf {x}, t \theta), C (\mathbf {y}, s \theta) \rangle = \left(\mathbf {x} ^ {\prime} \overline {{\mathbf {y} ^ {\prime}}}\right) e ^ {\mathrm {i} (t - s) \theta} \tag {2.89}
+\langle C (\mathbf {x}, t \theta), C (\mathbf {y}, s \theta) \rangle = \left(\mathbf {x}^{\prime} \overline {{\mathbf {y}^{\prime}}}\right) e^{\mathrm{i} (t - s) \theta} \tag {2.89}
 $$
 
 where  $\overline{\mathbf{y}'}$  is the complex conjugate of  $\mathbf{y}'$ . As can be seen, the result of this inner product involves a term  $t - s$ , and so it can model the offset between the two tokens.
@@ -2300,7 +2187,7 @@ where  $\overline{\mathbf{y}'}$  is the complex conjugate of  $\mathbf{y}'$ . As
 Now we go back to representations in the 2D Euclidean space. The dot-product of  $\mathrm{Ro}(\mathbf{x},t\theta)$  and  $\mathrm{Ro}(\mathbf{y},s\theta)$  is can be written as a function of  $(t - s)\theta$
 
 $$
-\begin{array}{l} \operatorname {R o} (\mathbf {x}, t \theta) [ \operatorname {R o} (\mathbf {y}, s \theta) ] ^ {\mathrm {T}} = \mathbf {x} R _ {t \theta} [ \mathbf {y} R _ {s \theta} ] ^ {\mathrm {T}} \\ = \mathbf {x} R _ {t \theta} \left[ R _ {s \theta} \right] ^ {\mathrm {T}} \mathbf {y} ^ {\mathrm {T}} \\ = \mathbf {x} R _ {(t - s) \theta} \mathbf {y} ^ {\mathrm {T}} \tag {2.90} \\ \end{array}
+\begin{array}{l} \operatorname{Ro} (\mathbf {x}, t \theta) [ \operatorname{Ro} (\mathbf {y}, s \theta) ]^{\mathrm{T}} = \mathbf {x} R_{t \theta} [ \mathbf {y} R_{s \theta} ]^{\mathrm{T}} \\ = \mathbf {x} R_{t \theta} \left[ R_{s \theta} \right]^{\mathrm{T}} \mathbf {y}^{\mathrm{T}} \\ = \mathbf {x} R_{(t - s) \theta} \mathbf {y}^{\mathrm{T}} \tag {2.90} \\ \end{array}
 $$
 
 Given this result, if we consider  $\mathrm{Ro}(\mathbf{x},t\theta)$  and  $\mathrm{Ro}(\mathbf{y},s\theta)$  as the query and the key, then the selfattention operation will implicitly involve the modeling of relative positional context.
@@ -2310,7 +2197,7 @@ This rotary positional embedding can be extended to multi-dimensional embeddings
 the complex space is given by
 
 $$
-C (\mathbf {x}, t \theta) = \sum_ {k = 1} ^ {d / 2} x _ {k} ^ {\prime} e ^ {i t \theta_ {k}} \vec {e} _ {k} \tag {2.91}
+C (\mathbf {x}, t \theta) = \sum_{k = 1}^{d / 2} x_{k}^{\prime} e^{i t \theta_{k}} \vec {e}_{k} \tag {2.91}
 $$
 
 where  $\vec{e}_k$  is the standard basis vector with a single non-zero value in the  $k$ -th coordinate and 0's elsewhere [Biderman et al., 2021].
@@ -2318,7 +2205,7 @@ where  $\vec{e}_k$  is the standard basis vector with a single non-zero value in
 Although this formula involves a complicated expression, its equivalent form in the  $d$ -dimensional Euclidean space is relatively easy to understand. We can write it as
 
 $$
-\operatorname {R o} (\mathbf {x}, t \theta) = \left[ \begin{array}{l l l l} x _ {1} & x _ {2} & \dots & x _ {d} \end{array} \right] \left[ \begin{array}{c c c c} R _ {t \theta_ {1}} & & & \\ & R _ {t \theta_ {2}} & & \\ & & \ddots & \\ & & & R _ {t \theta_ {d / 2}} \end{array} \right] \tag {2.92}
+\operatorname{Ro} (\mathbf {x}, t \theta) = \left[ \begin{array}{l l l l} x_{1} & x_{2} & \dots & x_{d} \end{array} \right] \left[ \begin{array}{c c c c} R_{t \theta_{1}} & & & \\ & R_{t \theta_{2}} & & \\ & & \ddots & \\ & & & R_{t \theta_{d / 2}} \end{array} \right] \tag {2.92}
 $$
 
 where  $R_{t\theta_k} = \left[ \begin{array}{cc}\cos t\theta_k & \sin t\theta_k\\ -\sin t\theta_k & \cos t\theta_k \end{array} \right]$ .  $\theta = \left[\theta_1,\dots ,\theta_{d / 2}\right]$  are the parameters for controlling the angles of rotations in different dimensions. Typically,  $\theta_{k}$  is set to  $10000^{-\frac{2(k - 1)}{d}}$ , which is analogous to the setting in sinusoidal embeddings.
@@ -2326,13 +2213,13 @@ where  $R_{t\theta_k} = \left[ \begin{array}{cc}\cos t\theta_k & \sin t\theta_k\
 In a practical implementation, Eq. (2.92) can be rewritten into a form that relies solely on the element-wise product and addition of vectors.
 
 $$
-\operatorname {R o} (\mathbf {x}, t \theta) = \left[ \begin{array}{c} x _ {1} \\ x _ {2} \\ \vdots \\ x _ {d - 1} \\ x _ {d} \end{array} \right] ^ {\mathrm {T}} \odot \left[ \begin{array}{c} \cos t \theta_ {1} \\ \cos t \theta_ {1} \\ \vdots \\ \cos t \theta_ {d / 2} \\ \cos t \theta_ {d / 2} \end{array} \right] ^ {\mathrm {T}} + \left[ \begin{array}{c} - x _ {2} \\ x _ {1} \\ \vdots \\ - x _ {d} \\ x _ {d - 1} \end{array} \right] ^ {\mathrm {T}} \odot \left[ \begin{array}{c} \sin t \theta_ {1} \\ \sin t \theta_ {1} \\ \vdots \\ \sin t \theta_ {d / 2} \\ \sin t \theta_ {d / 2} \end{array} \right] ^ {\mathrm {T}} \tag {2.93}
+\operatorname{Ro} (\mathbf {x}, t \theta) = \left[ \begin{array}{c} x_{1} \\ x_{2} \\ \vdots \\ x_{d - 1} \\ x_{d} \end{array} \right]^{\mathrm{T}} \odot \left[ \begin{array}{c} \cos t \theta_{1} \\ \cos t \theta_{1} \\ \vdots \\ \cos t \theta_{d / 2} \\ \cos t \theta_{d / 2} \end{array} \right]^{\mathrm{T}} + \left[ \begin{array}{c} - x_{2} \\ x_{1} \\ \vdots \\ - x_{d} \\ x_{d - 1} \end{array} \right]^{\mathrm{T}} \odot \left[ \begin{array}{c} \sin t \theta_{1} \\ \sin t \theta_{1} \\ \vdots \\ \sin t \theta_{d / 2} \\ \sin t \theta_{d / 2} \end{array} \right]^{\mathrm{T}} \tag {2.93}
 $$
 
 Finally, we rewrite Eq. (2.85) to obtain the form of the embedding at position  $i$
 
 $$
-\mathbf {e} _ {i} = \operatorname {R o} \left(\mathbf {x} _ {i}, i \theta\right) \tag {2.94}
+\mathbf {e}_{i} = \operatorname{Ro} \left(\mathbf {x}_{i}, i \theta\right) \tag {2.94}
 $$
 
 # 2.3.5.4 Position Interpolation
@@ -2346,59 +2233,59 @@ To illustrate, consider the rotary positional embedding model described above. T
 (2.93))
 
 $$
-\cos i \theta = \left[ \begin{array}{l l l} \cos i \theta_ {1} & \dots & \cos i \theta_ {d / 2} \end{array} \right] \tag {2.95}
+\cos i \theta = \left[ \begin{array}{l l l} \cos i \theta_{1} & \dots & \cos i \theta_{d / 2} \end{array} \right] \tag {2.95}
 $$
 
 $$
-\sin i \theta = \left[ \begin{array}{l l l} \sin i \theta_ {1} & \dots & \sin i \theta_ {d / 2} \end{array} \right] \tag {2.96}
+\sin i \theta = \left[ \begin{array}{l l l} \sin i \theta_{1} & \dots & \sin i \theta_{d / 2} \end{array} \right] \tag {2.96}
 $$
 
 $\theta_{k}$  is a exponential function of  $k$  and takes the form
 
 $$
-\theta_ {k} = b ^ {- \frac {2 (k - 1)}{d}} \tag {2.97}
+\theta_{k} = b^{- \frac{2 (k - 1)}{d}} \tag {2.97}
 $$
 
 where  $b$  is the base. The period of  $\cos i\theta_{k}$  and  $\sin i\theta_{k}$  is
 
 $$
-T _ {k} = 2 \pi \cdot b ^ {\frac {2 (k - 1)}{d}} \tag {2.98}
+T_{k} = 2 \pi \cdot b^{\frac{2 (k - 1)}{d}} \tag {2.98}
 $$
 
 The key idea behind position interpolation is to adjust this period so that the new positions can be encoded within the range  $[0, m_l]$ . One way to achieve this is to scale up  $T_k$  by  $\frac{m}{m_l}$ , given by
 
 $$
-T _ {k} ^ {\prime} = \frac {m}{m _ {l}} \cdot 2 \pi \cdot b ^ {\frac {2 (k - 1)}{d}} \tag {2.99}
+T_{k}^{\prime} = \frac{m}{m_{l}} \cdot 2 \pi \cdot b^{\frac{2 (k - 1)}{d}} \tag {2.99}
 $$
 
 Hence all points in  $[0,m]$  are compressed into  $[0,m_l]$ . This linear scaling can be easily realized by modifying the input to the embedding model [Chen et al., 2023c]. The new model with linear positional interpolation is given by
 
 $$
-\operatorname {R o} ^ {\prime} \left(\mathbf {x} _ {i}, i \theta\right) = \operatorname {R o} \left(\mathbf {x} _ {i}, \frac {m _ {l}}{m} i \theta\right) \tag {2.100}
+\operatorname{Ro}^{\prime} \left(\mathbf {x}_{i}, i \theta\right) = \operatorname{Ro} \left(\mathbf {x}_{i}, \frac{m_{l}}{m} i \theta\right) \tag {2.100}
 $$
 
 Another method of positional interpolation is to scale the base<sup>17</sup>. Suppose that the base  $b$  is scaled by  $\lambda$ . We wish the period of this new model in the last dimension of  $\theta$  (i.e., dimension  $\frac{d}{2}$ ) to be equal to that of the linear positional interpolation model. This can be expressed as
 
 $$
-2 \pi \cdot (\lambda b) ^ {\frac {2 (\frac {d}{2} - 1)}{d}} = \frac {m}{m _ {l}} \cdot 2 \pi \cdot b ^ {\frac {2 (\frac {d}{2} - 1)}{d}} \tag {2.101}
+2 \pi \cdot (\lambda b)^{\frac{2 (\frac{d}{2} - 1)}{d}} = \frac{m}{m_{l}} \cdot 2 \pi \cdot b^{\frac{2 (\frac{d}{2} - 1)}{d}} \tag {2.101}
 $$
 
 Solving this equation, we obtain
 
 $$
-\begin{array}{l} \lambda = \left(\frac {m}{m _ {l}}\right) ^ {\frac {d}{2 (\frac {d}{2} - 1)}} \\ = \left(\frac {m}{m _ {l}}\right) ^ {\frac {d}{d - 2}} \tag {2.102} \\ \end{array}
+\begin{array}{l} \lambda = \left(\frac{m}{m_{l}}\right)^{\frac{d}{2 (\frac{d}{2} - 1)}} \\ = \left(\frac{m}{m_{l}}\right)^{\frac{d}{d - 2}} \tag {2.102} \\ \end{array}
 $$
 
 This gives an embedding model
 
 $$
-\operatorname {R o} ^ {\prime} \left(\mathbf {x} _ {i}, i \theta\right) = \operatorname {R o} \left(\mathbf {x} _ {i}, i \theta^ {\prime}\right) \tag {2.103}
+\operatorname{Ro}^{\prime} \left(\mathbf {x}_{i}, i \theta\right) = \operatorname{Ro} \left(\mathbf {x}_{i}, i \theta^{\prime}\right) \tag {2.103}
 $$
 
 where
 
 $$
-\theta^ {\prime} = \left[ (\lambda b) ^ {- \frac {0}{d}}, (\lambda b) ^ {- \frac {2}{d}}, \dots , (\lambda b) ^ {- \frac {d - 2}{d}} \right] \tag {2.104}
+\theta^{\prime} = \left[ (\lambda b)^{- \frac{0}{d}}, (\lambda b)^{- \frac{2}{d}}, \dots , (\lambda b)^{- \frac{d - 2}{d}} \right] \tag {2.104}
 $$
 
 Note that scaling the base provides a non-uniform method for scaling the periods across different dimensions of  $\theta$ . This method has been found to be helpful for extending LLMs to longer sequences, and several improvements have been developed [Peng et al., 2024; Ding et al., 2024].
@@ -2753,7 +2640,7 @@ The polarity of the text is negative
 We can use LLMs to complete the text and fill the blank with the most appropriate word. Ideally, we wish the filled word would be positive, negative, or neutral. However, LLMs are not guaranteed to generate these label words. One method to address this problem is to constrain the prediction to the set of label words and select the one with the highest probability. Then, the output label is given by
 
 $$
-\operatorname {l a b e l} = \underset {y \in Y} {\arg \max } \Pr (y | \mathbf {x}) \tag {3.1}
+\operatorname{label} = \underset {y \in Y} {\arg \max } \Pr (y | \mathbf {x}) \tag {3.1}
 $$
 
 where  $y$  denotes the word filled in the blank, and  $Y$  denotes the set of label words {positive, negative, neutral}.
@@ -2840,7 +2727,7 @@ Tom Jenkins - European Tourism Organisation: Tom Jenkins is the CEO of the Europ
 
 If LLMs have been fine-tuned with instruction following for information extraction tasks, it is relatively easy to perform various information extraction tasks. For example, the following is a prompt template for information extraction.
 
-You will be provided with a text. Your task is to  $\{\text { *task-description*}\}$
+You will be provided with a text. Your task is to  $\{\text{ *task-description*}\}$
 
 Text:  $\{\ast\text{text}\}$
 
@@ -3183,25 +3070,25 @@ Another improvement is to explore methods for better decomposing problems and or
 input problem, and use the symbols  $\{p_1,\dots,p_n\}$  to denote the sub-problems corresponding to  $p_0$ . For least-to-most prompting, we decompose  $p_0$  into  $\{p_1,\dots,p_n\}$ , given by
 
 $$
-\left\{p _ {1}, \dots , p _ {n} \right\} = G \left(p _ {0}\right) \tag {3.2}
+\left\{p_{1}, \dots , p_{n} \right\} = G \left(p_{0}\right) \tag {3.2}
 $$
 
 where  $G(\cdot)$  denotes the function of sub-problem generation. Then, we solve the sub-problems  $\{p_1, \dots, p_n\}$  sequentially, resulting in a sequence of answers  $\{a_1, \dots, a_n\}$ . For answering the  $i$ -th sub-problem  $p_i$ , we include both the original problem  $p_0$  and all previously-seen problem-answer pairs in the context for prediction. The answer  $a_i$  is given by
 
 $$
-a _ {i} = S _ {i} \left(p _ {i}, \left\{p _ {0}, p _ {<   i}, a _ {<   i} \right\}\right) \tag {3.3}
+a_{i} = S_{i} \left(p_{i}, \left\{p_{0}, p_{<   i}, a_{<   i} \right\}\right) \tag {3.3}
 $$
 
 where  $p_{<i} = \{p_1, \dots, p_{i-1}\}$  and  $a_{<i} = \{a_1, \dots, a_{i-1}\}$ .  $S_i(\cdot)$  denotes the function that solves the sub-problem  $p_i$  given the context  $\{p_0, p_{<i}, a_{<i}\}$ . The last step is to generate the answer to the original problem  $p_0$ , which can be expressed in a similar manner to Eq. (3.3).
 
 $$
-a _ {0} = S _ {0} \left(p _ {0}, \left\{p _ {\leq n}, a _ {\leq n} \right\}\right) \tag {3.4}
+a_{0} = S_{0} \left(p_{0}, \left\{p_{\leq n}, a_{\leq n} \right\}\right) \tag {3.4}
 $$
 
 One way to refine this model is to modify the  $G(\cdot)$  function so that the model can dynamically generate answers. Instead of generating all sub-problems at one time, we can generate each of them during problem-solving [Dua et al., 2022]. To do this, we can replace Eq. (3.2) with
 
 $$
-p _ {i} = G _ {i} \left(p _ {0}, \left\{p _ {<   i}, a _ {<   i} \right\}\right) \tag {3.5}
+p_{i} = G_{i} \left(p_{0}, \left\{p_{<   i}, a_{<   i} \right\}\right) \tag {3.5}
 $$
 
 Hence we obtain a sub-problem generation model that operates in a step-by-step manner. At each step  $i$ , we first generate the sub-problem  $p_i$  by prompting an LLM with the original problem  $p_0$  and the problem-solving history  $\{p_{<i}, a_{<i}\}$ . We then generate the answer  $a_i$  for this sub-problem using the same or a different LLM, based on the same contextual information (see Eq. (3.3)). This method effectively expands the reasoning capacity of LLMs by allowing them to dynamically generate and solve sub-problems in intermediate reasoning steps. As a result, the reasoning paths are not fixed in advance, and the models can choose and adapt their reasoning strategies during problem-solving.
@@ -3379,13 +3266,13 @@ Each of these prompts will lead to a different prediction, and we can consider a
 Formally, let  $\{\mathbf{x}_1,\dots,\mathbf{x}_K\}$  be  $K$  prompts for performing the same task. Given an LLM  $\operatorname{Pr}(\cdot|\cdot)$ , we can find the best prediction for each  $\mathbf{x}_i$  using  $\hat{\mathbf{y}}_i = \arg \max_{\mathbf{y}_i} \operatorname{Pr}(\mathbf{y}_i|\mathbf{x}_i)$ . These predictions can be combined to form a "new" prediction:
 
 $$
-\hat {\mathbf {y}} = \operatorname {C o m b i n e} (\hat {\mathbf {y}} _ {1}, \dots , \hat {\mathbf {y}} _ {K}) \tag {3.6}
+\hat {\mathbf {y}} = \operatorname{Combine} (\hat {\mathbf {y}}_{1}, \dots , \hat {\mathbf {y}}_{K}) \tag {3.6}
 $$
 
 Here  $\mathrm{Combine}(\cdot)$  is the combination model, which can be designed in several different ways. For example, we can select the best prediction by voting or by identifying the one that overlaps the most with others. Another method for model combination is to perform model averaging during token prediction. Let  $\hat{y}_j$  be the predicted token at the  $j$ -th step for model combination. The probability of predicting  $\hat{y}_j$  is given by
 
 $$
-\hat {y} _ {j} = \arg \max  _ {y _ {j}} \sum_ {k = 1} ^ {K} \log \Pr (y _ {j} | \mathbf {x} _ {k}, \hat {y} _ {1}, \dots , \hat {y} _ {j - 1}) \tag {3.7}
+\hat {y}_{j} = \arg \max _{y_{j}} \sum_{k = 1}^{K} \log \Pr (y_{j} | \mathbf {x}_{k}, \hat {y}_{1}, \dots , \hat {y}_{j - 1}) \tag {3.7}
 $$
 
 In assembling for LLM prompting, it is generally advantageous to use diverse prompts so that the combination can capture a broader range of potential responses. This practice is common in ensemble learning, as diversity helps average out biases and errors that may be specific to any single model or configuration. From the Bayesian viewpoint, we can treat the prompt  $\mathbf{x}$  as a latent variable, given the problem of interest,  $p$ . This allows the predictive distribution of  $\mathbf{y}$  given  $p$  to be written as the distribution  $\operatorname*{Pr}(\mathbf{y}|\mathbf{x})$  marginalized over all possible prompts
@@ -3441,7 +3328,7 @@ Self-consistency provides a criterion for determining the best prediction in a p
 Now, let us briefly review the methods we have discussed so far in this section, such as problem decomposition and self-refinement. It is apparent that these methods enhance decision-making by introducing more "choices" into the reasoning process. To some extent, they all involve evaluating and providing feedback on the results of LLMs. For example, in self-refinement, we need to offer suggestions for improving the prediction of LLMs, and in output ensembling, we select the optimal output from a pool of candidates. In this sense, these methods fall under the broader category of predict-then-verify approaches, where predictions are initially made, then verified and refined. The fundamental problem here involves verifying and evaluating the reasoning results or intermediate steps. This issue is somewhat related to the problem of training reward models in RLHF, although RLHF addresses a different aspect. In fact, the development of verifiers has been explored and implemented in reasoning with LLMs. Most work, rather than developing heuristic-based inference-time algorithms, focuses on learning verifiers in a supervised manner. A straightforward method is to train verifiers as binary classifiers, such as classifying an answer
 
 $$
-\begin{array}{l} \operatorname {R i s k} (\mathbf {y}) = \mathbb {E} _ {\mathbf {y} _ {r} \sim \operatorname * {P r} (\mathbf {y} _ {r} | \mathbf {x})} R (\mathbf {y}, \mathbf {y} _ {r}) \\ = \sum_ {\mathbf {y} _ {r} \in \Omega} R (\mathbf {y}, \mathbf {y} _ {r}) \cdot \Pr (\mathbf {y} _ {r} | \mathbf {x}) \tag {3.9} \\ \end{array}
+\begin{array}{l} \operatorname{Risk} (\mathbf {y}) = \mathbb {E}_{\mathbf {y}_{r} \sim \operatorname * {P r} (\mathbf {y}_{r} | \mathbf {x})} R (\mathbf {y}, \mathbf {y}_{r}) \\ = \sum_{\mathbf {y}_{r} \in \Omega} R (\mathbf {y}, \mathbf {y}_{r}) \cdot \Pr (\mathbf {y}_{r} | \mathbf {x}) \tag {3.9} \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/12b0a37d-91d2-4358-a416-f79314d9b2d1/2edf102125ed17036a4639c3e04b8d368a075264124ebb0309c86505b7996ee8.jpg)  
@@ -3618,7 +3505,7 @@ task. For example, we can evaluate the output of the LLM given an input using a 
 - Expansion. Expansion is a key operation in search algorithms used to explore different states in the search space. The expansion operation here can be defined as a function
 
 $$
-C ^ {\prime} = \operatorname {E x p a n d} (C, f) \tag {3.10}
+C^{\prime} = \operatorname{Expand} (C, f) \tag {3.10}
 $$
 
 where  $C'$  is the set of new prompts generated from  $C$  using the model  $f$ . If we consider  $f$  as an LLM, we can perform the expansion operation by instructing  $f$  to generate new and relevant prompts based on  $C$ . Below is an example.
@@ -3671,7 +3558,7 @@ $$
 Given a set of prompt-response pairs  $\mathcal{D} = \{(\mathbf{x},\mathbf{y})\}$ , the objective of fine-tuning is to minimize the total loss incurred over this set. A popular method is to minimize the negative log-likelihood (i.e., maximize the log-likelihood) with respect to the model parameters  $\theta$ :
 
 $$
-\begin{array}{l} \hat {\theta} = \underset {\theta} {\arg \max} \sum_ {(\mathbf {x}, \mathbf {y}) \in \mathcal {D}} \log \operatorname * {P r} _ {\theta} (\mathbf {y} | \mathbf {x}) \\ = \arg \max  _ {\theta} \sum_ {(\mathbf {x}, \mathbf {y}) \in \mathcal {D}} \log \Pr_ {\theta} (\mathbf {y} | \mathbf {c}, \mathbf {z}) \tag {3.12} \\ \end{array}
+\begin{array}{l} \hat {\theta} = \underset {\theta} {\arg \max} \sum_{(\mathbf {x}, \mathbf {y}) \in \mathcal {D}} \log \operatorname * {P r}_{\theta} (\mathbf {y} | \mathbf {x}) \\ = \arg \max _{\theta} \sum_{(\mathbf {x}, \mathbf {y}) \in \mathcal {D}} \log \Pr_{\theta} (\mathbf {y} | \mathbf {c}, \mathbf {z}) \tag {3.12} \\ \end{array}
 $$
 
 where  $\operatorname{Pr}_{\theta}(\cdot|\cdot)$  is the probability predicted by an LLM with the parameters  $\theta^9$ .
@@ -3700,13 +3587,13 @@ prompting during inference much easier. On the other hand, fine-tuning LLMs with
 An alternative way to adapt LLMs for simplified instructions is through knowledge distillation. As an example, we consider the context distillation method [Snell et al., 2022]. The goal of this method is to learn a student model that can make use of simplified instructions from a well-trained instruction-following teacher model. Figure 3.4 shows an illustration of this approach. Building the teacher model follows a standard fine-tuning process: we first collect a certain amount of data that includes instructions, user inputs, and correct responses, and then we continue to train a pre-trained model with this dataset. For building the student model, we need to construct a new dataset  $\mathcal{D}'$  where each sample is a tuple consisting of an instruction, a corresponding simplified instruction, and a user input, denoted by  $\mathbf{x}' = (\mathbf{c},\mathbf{c}',\mathbf{z})$ . Knowledge distillation is performed by minimizing a loss function defined on the outputs of the teacher and student models
 
 $$
-\hat {\theta} = \arg \min _ {\theta} \sum_ {\mathbf {x} ^ {\prime} \in \mathcal {D} ^ {\prime}} \operatorname {L o s s} \left(\Pr^ {t} (\cdot | \cdot), \Pr_ {\theta} ^ {s} (\cdot | \cdot), \mathbf {x} ^ {\prime}\right) \tag {3.13}
+\hat {\theta} = \arg \min_{\theta} \sum_{\mathbf {x}^{\prime} \in \mathcal {D}^{\prime}} \operatorname{Loss} \left(\Pr^{t} (\cdot | \cdot), \Pr_{\theta}^{s} (\cdot | \cdot), \mathbf {x}^{\prime}\right) \tag {3.13}
 $$
 
 where  $\operatorname{Pr}^t(\cdot|\cdot)$  denotes the pre-trained teacher model, and  $\operatorname{Pr}_{\theta}^s(\cdot|\cdot)$  denotes the student model with the parameters  $\theta$ . To keep the notation simple we will write  $\operatorname{Loss}(\operatorname{Pr}^t(\cdot|\cdot), \operatorname{Pr}_{\theta}^s(\cdot|\cdot), \mathbf{x})$  as Loss for short. A commonly-used loss is the sequence-level loss, which has the basic form:
 
 $$
-\operatorname {L o s s} = \sum_ {\mathbf {y}} \Pr^ {t} (\mathbf {y} | \mathbf {c}, \mathbf {z}) \log \Pr_ {\theta} ^ {s} (\mathbf {y} | \mathbf {c} ^ {\prime}, \mathbf {z}) \tag {3.14}
+\operatorname{Loss} = \sum_{\mathbf {y}} \Pr^{t} (\mathbf {y} | \mathbf {c}, \mathbf {z}) \log \Pr_{\theta}^{s} (\mathbf {y} | \mathbf {c}^{\prime}, \mathbf {z}) \tag {3.14}
 $$
 
 But this function is computationally infeasible because it requires summing over an exponentially large number of outputs. A variant of this method is to train the student model using outputs generated by the teacher model. For each sample, we use the teacher model to produce an output
@@ -3714,23 +3601,23 @@ But this function is computationally infeasible because it requires summing over
 $\hat{\mathbf{y}} = \arg \max_{\mathbf{y}}\log \operatorname*{Pr}^t (\mathbf{y}|\mathbf{c},\mathbf{z})$  . Then we consider  $\hat{\mathbf{y}}$  as the target for learning, and the loss function is given by
 
 $$
-\mathrm {L o s s} = \log \Pr_ {\theta} ^ {s} (\hat {\mathbf {y}} | \mathbf {c} ^ {\prime}, \mathbf {z}) \tag {3.15}
+\mathrm{Loss} = \log \Pr_{\theta}^{s} (\hat {\mathbf {y}} | \mathbf {c}^{\prime}, \mathbf {z}) \tag {3.15}
 $$
 
 Alternatively, we can minimize the distances between the probability distributions outputted by the two models [Askell et al., 2021]. For example, the loss function can be defined as the KL divergence between the two output distributions
 
 $$
-\mathrm {L o s s} = \mathrm {K L} \left(\mathrm {P} ^ {t} \mid \mid \mathrm {P} _ {\theta} ^ {s}\right) \tag {3.16}
+\mathrm{Loss} = \mathrm{KL} \left(\mathrm{P}^{t} \mid \mid \mathrm{P}_{\theta}^{s}\right) \tag {3.16}
 $$
 
 where
 
 $$
-\mathrm {P} ^ {t} = \Pr^ {t} (\cdot | \mathbf {c}, \mathbf {z}) \tag {3.17}
+\mathrm{P}^{t} = \Pr^{t} (\cdot | \mathbf {c}, \mathbf {z}) \tag {3.17}
 $$
 
 $$
-\mathrm {P} _ {\theta} ^ {s} = \Pr_ {\theta} ^ {s} (\cdot | \mathbf {c} ^ {\prime}, \mathbf {z}) \tag {3.18}
+\mathrm{P}_{\theta}^{s} = \Pr_{\theta}^{s} (\cdot | \mathbf {c}^{\prime}, \mathbf {z}) \tag {3.18}
 $$
 
 Although we have restricted ourselves to knowledge distillation for instructions, the approaches discussed here are general. By learning from the outputs of the teacher model, the knowledge in prompting can be distilled into the parameters of the student model. Therefore, the distilled model can be considered as encoding some sort of soft prompt. This method can be applied to many other problems in prompt learning, such as compressing long contexts and learning soft prompts as specific components of LLMs.
@@ -3744,13 +3631,13 @@ One approach, known as prefix fine-tuning, is to append a series of trainable ve
 Specifically, let the input of a layer at depth  $l$  be denoted by  $\mathbf{H}^l = \mathbf{h}_0^l\mathbf{h}_1^l\dots \mathbf{h}_m^l$ . The output of the layer can be expressed as
 
 $$
-\mathbf {H} ^ {l + 1} = \operatorname {L a y e r} \left(\mathbf {H} ^ {l}\right) \tag {3.19}
+\mathbf {H}^{l + 1} = \operatorname{Layer} \left(\mathbf {H}^{l}\right) \tag {3.19}
 $$
 
 In prefix fine-tuning, we extend the sequence  $\mathbf{h}_0^l\mathbf{h}_1^l\dots \mathbf{h}_m^l$  by adding a few vectors at the beginning, which we denote as  $\mathbf{p}_0^l\mathbf{p}_1^l\dots \mathbf{p}_n^l$ . Hence  $\mathbf{H}^l$  can be written in the form
 
 $$
-\mathbf {H} ^ {l} = \underbrace {\mathbf {p} _ {0} ^ {l} \mathbf {p} _ {1} ^ {l} \dots \mathbf {p} _ {n} ^ {l}} _ {\text {t r a i n a b l e}} \underbrace {\mathbf {h} _ {0} ^ {l} \mathbf {h} _ {1} ^ {l} \dots \mathbf {h} _ {m} ^ {l}} _ {\text {p r e v i o u s l a y e r o u t p u t}} \tag {3.20}
+\mathbf {H}^{l} = \underbrace {\mathbf {p}_{0}^{l} \mathbf {p}_{1}^{l} \dots \mathbf {p}_{n}^{l}}_{\text{trainable}} \underbrace {\mathbf {h}_{0}^{l} \mathbf {h}_{1}^{l} \dots \mathbf {h}_{m}^{l}}_{\text{previouslayeroutput}} \tag {3.20}
 $$
 
 # 3.3 Learning to Prompt
@@ -3758,13 +3645,13 @@ $$
 The output of the layer is the last  $m + 1$  representations.
 
 $$
-\begin{array}{l} \overline {{\mathbf {H}}} ^ {l + 1} = \operatorname {L a y e r} (\mathbf {H} ^ {l}) [ - m - 1: ] \\ = \mathbf {h} _ {0} ^ {l + 1} \mathbf {h} _ {1} ^ {l + 1} \dots \mathbf {h} _ {m} ^ {l + 1} \tag {3.21} \\ \end{array}
+\begin{array}{l} \overline {{\mathbf {H}}}^{l + 1} = \operatorname{Layer} (\mathbf {H}^{l}) [ - m - 1: ] \\ = \mathbf {h}_{0}^{l + 1} \mathbf {h}_{1}^{l + 1} \dots \mathbf {h}_{m}^{l + 1} \tag {3.21} \\ \end{array}
 $$
 
 where  $[-m - 1:]$  denotes the slicing operation that extracts the last  $m + 1$  elements of a sequence. Given  $\overline{\mathbf{H}}^{l + 1}$ , the input of the next layer can be expressed in the same form of Eq. (3.20):
 
 $$
-\begin{array}{l} \mathbf {H} ^ {l + 1} = \mathbf {p} _ {0} ^ {l + 1} \mathbf {p} _ {1} ^ {l + 1} \dots \mathbf {p} _ {n} ^ {l + 1} \overline {{\mathbf {H}}} ^ {l + 1} \\ = \mathbf {p} _ {0} ^ {l + 1} \mathbf {p} _ {1} ^ {l + 1} \dots \mathbf {p} _ {n} ^ {l + 1} \mathbf {h} _ {0} ^ {l + 1} \mathbf {h} _ {1} ^ {l + 1} \dots \mathbf {h} _ {m} ^ {l + 1} \tag {3.22} \\ \end{array}
+\begin{array}{l} \mathbf {H}^{l + 1} = \mathbf {p}_{0}^{l + 1} \mathbf {p}_{1}^{l + 1} \dots \mathbf {p}_{n}^{l + 1} \overline {{\mathbf {H}}}^{l + 1} \\ = \mathbf {p}_{0}^{l + 1} \mathbf {p}_{1}^{l + 1} \dots \mathbf {p}_{n}^{l + 1} \mathbf {h}_{0}^{l + 1} \mathbf {h}_{1}^{l + 1} \dots \mathbf {h}_{m}^{l + 1} \tag {3.22} \\ \end{array}
 $$
 
 Here each  $\mathbf{p}_i\in \mathbb{R}^d$  can be seen as a learnable parameter. During training,  $\mathbf{p}_0^l\mathbf{p}_1^l\dots \mathbf{p}_n^l$  are trained as usual, and the parameters of the original Transformer model are kept fixed.
@@ -3776,7 +3663,7 @@ While prefix fine-tuning is simple, it still requires modifications to LLMs. Alt
 Recall that in LLMs each input token  $z_{i}$  is represented by an embedding  $\mathbf{e}_i$ . These embeddings are generally learned through a token embedding model and are then used as the real inputs to the LLMs, replacing the symbolically represented tokens. In prompt tuning, a number of pseudo embeddings  $\mathbf{p}_0\dots \mathbf{p}_n$  are added at the beginning of the token embedding sequence. So the actual input to the LLMs can be expressed as
 
 $$
-\underbrace {\mathbf {p} _ {0} \mathbf {p} _ {1} \dots \mathbf {p} _ {n}} _ {\text {t r a i n a b l e}} \underbrace {\mathbf {e} _ {0} \mathbf {e} _ {1} \dots \mathbf {e} _ {m}} _ {\text {t o k e n e m b e d d i n g s}}
+\underbrace {\mathbf {p}_{0} \mathbf {p}_{1} \dots \mathbf {p}_{n}}_{\text{trainable}} \underbrace {\mathbf {e}_{0} \mathbf {e}_{1} \dots \mathbf {e}_{m}}_{\text{tokenembeddings}}
 $$
 
 Note that a pseudo embedding needs not to correspond to any token in natural language. Instead these embeddings can be seen as "soft prompt embeddings" that serve to condition the LLMs. By training soft prompt embeddings on task-specific data, they learn to interact adaptively with the token embeddings  $\mathbf{e}_0\dots \mathbf{e}_m$  and guide the behavior of LLMs. Since prompt tuning does not change the underlying parameters of pre-trained LLMs, it is considered a lightweight and efficient method of fine-tuning, improving task-specific performance while maintaining their generalization capabilities. See Figure 3.6 for an illustration of prompt tuning.
@@ -3819,7 +3706,7 @@ Fig. 3.7: Illustrations of using soft prompts in LLMs. Here tunable soft prompts
 by  $\sigma$ , such that the prediction based on  $\mathbf{z}$  and  $\sigma$  is as close as possible to the prediction based on  $\mathbf{z}$  and  $\mathbf{c}$ . This goal can be expressed in the form
 
 $$
-\hat {\sigma} = \underset {\sigma} {\arg \min } s (\hat {\mathbf {y}}, \hat {\mathbf {y}} _ {\sigma}) \tag {3.23}
+\hat {\sigma} = \underset {\sigma} {\arg \min } s (\hat {\mathbf {y}}, \hat {\mathbf {y}}_{\sigma}) \tag {3.23}
 $$
 
 where  $\hat{\mathbf{y}} = \arg \max_{\mathbf{y}}\operatorname *{Pr}(\mathbf{y}|\mathbf{c},\mathbf{z})$  and  $\hat{\mathbf{y}}_{\sigma} = \arg \max_{\mathbf{y}_{\sigma}}\operatorname *{Pr}(\mathbf{y}|\sigma ,\mathbf{z})$  are the LLM predictions given the full context and the compressed context, respectively. The function  $s(\cdot ,\cdot)$  typically represents a loss or similarity measure, aiming to minimize the difference in predictions between the two context representations.
@@ -3827,13 +3714,13 @@ where  $\hat{\mathbf{y}} = \arg \max_{\mathbf{y}}\operatorname *{Pr}(\mathbf{y}|
 One general framework for achieving this is knowledge distillation, where  $\hat{\mathbf{y}}$  and  $\hat{\mathbf{y}}_{\sigma}$  can be seen as the predictions of the teacher model and the student model, respectively. This formalization links our discussion to the context distillation problem discussed earlier. The training objective can be obtained by analogy with Eqs. (3.15) and (3.16). For example, a simple training objective is given by
 
 $$
-\hat {\sigma} = \underset {\sigma} {\arg \max } \log \Pr (\hat {\mathbf {y}} | \sigma , \mathrm {z}) \tag {3.24}
+\hat {\sigma} = \underset {\sigma} {\arg \max } \log \Pr (\hat {\mathbf {y}} | \sigma , \mathrm{z}) \tag {3.24}
 $$
 
 Alternatively, we can minimize the KL divergence between the output distributions, giving
 
 $$
-\hat {\sigma} = \underset {\sigma} {\arg \min } \operatorname {K L} (\Pr (\cdot | \mathbf {c}, \mathbf {z}) \mid \mid \Pr (\cdot | \sigma , \mathbf {z})) \tag {3.25}
+\hat {\sigma} = \underset {\sigma} {\arg \min } \operatorname{KL} (\Pr (\cdot | \mathbf {c}, \mathbf {z}) \mid \mid \Pr (\cdot | \sigma , \mathbf {z})) \tag {3.25}
 $$
 
 The difference with the models in Eqs. (3.15) and (3.16) is that here the compressed context is represented as real-valued vectors (call them prompt embeddings), rather than as normal tokens. By applying the above methods, we distill the context from the token sequence  $\mathbf{c}$  into the embeddings  $\sigma$ . Note that the teacher model  $\operatorname*{Pr}(\cdot|\mathbf{c},\mathbf{z})$  and the student model  $\operatorname*{Pr}(\cdot|\sigma,\mathbf{z})$  may not share the same architecture or model settings. In practice, we generally wish for the teacher model to be
@@ -3942,7 +3829,7 @@ where the instructions are highlighted. This dataset contains instructions and t
 Let  $\mathbf{x} = x_0\ldots x_m$  be an input sequence (e.g., instruction + user input) and  $\mathbf{y} = y_1\ldots y_n$  be the corresponding output sequence. In SFT, we aim to maximize the probability of the output  $\mathbf{y}$  given the input  $\mathbf{x}$ . Consider an LLM with pre-trained parameters  $\hat{\theta}$ . The fine-tuning objective can then be formulated as:
 
 $$
-\tilde {\theta} = \arg \max  _ {\hat {\theta} ^ {+}} \sum_ {(\mathbf {x}, \mathbf {y}) \in \mathcal {D}} \log \Pr_ {\hat {\theta} ^ {+}} (\mathbf {y} | \mathbf {x}) \tag {4.1}
+\tilde {\theta} = \arg \max _{\hat {\theta}^{+}} \sum_{(\mathbf {x}, \mathbf {y}) \in \mathcal {D}} \log \Pr_{\hat {\theta}^{+}} (\mathbf {y} | \mathbf {x}) \tag {4.1}
 $$
 
 where  $\tilde{\theta}$  denotes the parameters optimized via fine-tuning, and  $\hat{\theta}^{+}$  represents an adjustment to  $\hat{\theta}$ . Here we will omit the superscript  $+$  and use  $\theta$  to represent  $\hat{\theta}^{+}$  to keep the notation uncluttered. But the reader should keep in mind that the fine-tuning starts from the pre-trained parameters rather than randomly initialized parameters.
@@ -3950,7 +3837,7 @@ where  $\tilde{\theta}$  denotes the parameters optimized via fine-tuning, and  
 The objective function  $\log \operatorname{Pr}_{\theta}(y_i|\mathbf{x},\mathbf{y}_{<i})$  is computed by summing the log-probabilities of the tokens in  $\mathbf{y}$ , conditional on the input  $\mathbf{x}$  and all the previous tokens  $\mathbf{y}_{<i}$ :
 
 $$
-\log \Pr_ {\theta} (\mathbf {y} | \mathbf {x}) = \sum_ {i = 1} ^ {n} \log \Pr_ {\theta} \left(y _ {i} | \mathbf {x}, \mathbf {y} _ {<   i}\right) \tag {4.2}
+\log \Pr_{\theta} (\mathbf {y} | \mathbf {x}) = \sum_{i = 1}^{n} \log \Pr_{\theta} \left(y_{i} | \mathbf {x}, \mathbf {y}_{<   i}\right) \tag {4.2}
 $$
 
 This formulation is equivalent to minimizing the cross-entropy loss.
@@ -3958,7 +3845,7 @@ This formulation is equivalent to minimizing the cross-entropy loss.
 Note that minimizing the conditional log-probability  $\log \operatorname{Pr}_{\theta}(\mathbf{y}|\mathbf{x})$  is not a standard language model training problem. If we concatenate  $\mathbf{x}$  and  $\mathbf{y}$  as a single sequence, a more general form of language modeling is based on the joint log-probability  $\log \operatorname{Pr}_{\theta}(\mathbf{x},\mathbf{y})$ , that is, we minimize the loss over all tokens of the sequence  $\mathrm{seq}_{\mathbf{x},\mathbf{y}} = [\mathbf{x},\mathbf{y}]$ . We can write the probability of this sequence using the chain rule
 
 $$
-\begin{array}{l} \log \operatorname * {P r} _ {\theta} (\operatorname {s e q} _ {\mathbf {x}, \mathbf {y}}) = \log \operatorname * {P r} _ {\theta} (\mathbf {x}, \mathbf {y}) \\ = \underbrace {\log \Pr_ {\theta} (\mathbf {x})} _ {\text {s e t t o 0}} + \underbrace {\log \Pr_ {\theta} (\mathbf {y} | \mathbf {x})} _ {\text {l o s s c o m p u t a t i o n}} \tag {4.3} \\ \end{array}
+\begin{array}{l} \log \operatorname * {P r}_{\theta} (\operatorname{seq}_{\mathbf {x}, \mathbf {y}}) = \log \operatorname * {P r}_{\theta} (\mathbf {x}, \mathbf {y}) \\ = \underbrace {\log \Pr_{\theta} (\mathbf {x})}_{\text{setto0}} + \underbrace {\log \Pr_{\theta} (\mathbf {y} | \mathbf {x})}_{\text{losscomputation}} \tag {4.3} \\ \end{array}
 $$
 
 There are two terms on the right-hand side of the equation. We can simply set the first term  $\log \operatorname{Pr}_{\theta}(\mathbf{x})$  to 0, focusing solely on the second term  $\log \operatorname{Pr}_{\theta}(\mathbf{y}|\mathbf{x})$  for loss computation. As a result, the training can be implemented using standard LLMs. For the sequence  $\mathrm{seq}_{\mathbf{x},\mathbf{y}}$ , we first run the forward pass as usual. Then, during the backward pass, we force the loss corresponding to  $\mathbf{x}$  to be zero. Figure 4.2 shows an illustration of this process.
@@ -3966,7 +3853,7 @@ There are two terms on the right-hand side of the equation. We can simply set th
 By taking  $\log \operatorname{Pr}_{\theta}(\operatorname{seq}_{\mathbf{x},\mathbf{y}})$  as the objective function, we can describe SFT using a regular form of language model training:
 
 $$
-\tilde {\theta} = \arg \max  _ {\theta} \sum_ {(\mathbf {x}, \mathbf {y}) \in \mathcal {D}} \log \Pr_ {\theta} \left(\operatorname {s e q} _ {\mathbf {x}, \mathbf {y}}\right) \tag {4.4}
+\tilde {\theta} = \arg \max _{\theta} \sum_{(\mathbf {x}, \mathbf {y}) \in \mathcal {D}} \log \Pr_{\theta} \left(\operatorname{seq}_{\mathbf {x}, \mathbf {y}}\right) \tag {4.4}
 $$
 
 The problem we considered above is fundamentally a single-round prediction problem, where the LLM generates a response based on a single input without any further interaction or feedback from the user. The input is processed, and the output is generated in one go. This is typical in
@@ -4001,19 +3888,19 @@ Chatbot Sure, I can arrange that. There are slots available next Wednesday and T
 In this task, there are several rounds of conversation, each involving the generation of a response based on the user's request or question and the conversational history. Suppose we have  $K$  rounds of conversation, denoted by  $\{\mathbf{x}^1, \mathbf{y}^1, \mathbf{x}^2, \mathbf{y}^2, \dots, \mathbf{x}^K, \mathbf{y}^K\}$ . Here  $\mathbf{x}^k$  and  $\mathbf{y}^k$  denote the user request and the response, respectively, for each round  $k$ . The log-probability of generating the response can be written as  $\log \operatorname*{Pr}_{\theta}(\mathbf{y}^k | \mathbf{x}^1, \mathbf{y}^1, \dots, \mathbf{x}^k)$ . Our goal is then to maximize the sum of these log-probabilities
 
 $$
-\tilde {\theta} = \arg \max  _ {\theta} \sum_ {k = 1} ^ {K} \log \Pr_ {\theta} \left(\mathbf {y} ^ {k} \mid \mathbf {x} ^ {1}, \mathbf {y} ^ {1}, \dots , \mathbf {x} ^ {k}\right) \tag {4.5}
+\tilde {\theta} = \arg \max _{\theta} \sum_{k = 1}^{K} \log \Pr_{\theta} \left(\mathbf {y}^{k} \mid \mathbf {x}^{1}, \mathbf {y}^{1}, \dots , \mathbf {x}^{k}\right) \tag {4.5}
 $$
 
 A straightforward implementation of this involves calculating the conditional probability for each  $k$ . However, it requires running the LLM  $K$  times, each time with an increased conversational history to make predictions. A more efficient method is to perform loss computation of all responses in a single run of the LLM. To do this, we represent the conversation as a sequence  $\mathrm{seq}_{\mathbf{x}^1,\mathbf{y}^1,\dots,\mathbf{x}^K,\mathbf{y}^K} = [\mathbf{x}^1,\mathbf{y}^1,\dots,\mathbf{x}^K,\mathbf{y}^K]$  (or seq for short). The log-probability of this sequence is given by
 
 $$
-\begin{array}{l} \log \Pr_ {\theta} (\operatorname {s e q}) = \log \Pr_ {\theta} \left(\mathbf {x} ^ {1}, \mathbf {y} ^ {1}, \dots , \mathbf {x} ^ {K}, \mathbf {y} ^ {K}\right) \\ = \underbrace {\log \Pr_ {\theta} (\mathbf {x} ^ {1})} _ {\text {s e t t o 0}} + \underbrace {\log \Pr_ {\theta} (\mathbf {y} ^ {1} | \mathbf {x} ^ {1})} _ {\text {l o s s c o m p u t a t i o n}} + \dots + \\ \underbrace {\log \Pr_ {\theta} (\mathbf {x} ^ {K} | \mathbf {x} ^ {1} , \mathbf {y} ^ {1} , \dots , \mathbf {y} ^ {K - 1})} _ {\text {s e t t o 0}} + \\ \underbrace {\log \Pr_ {\theta} \left(\mathbf {y} ^ {K} \mid \mathbf {x} ^ {1} , \mathbf {y} ^ {1} , \dots , \mathbf {x} ^ {K}\right)} _ {\text {l o s s c o m p u t a t i o n}} \tag {4.6} \\ \end{array}
+\begin{array}{l} \log \Pr_{\theta} (\operatorname{seq}) = \log \Pr_{\theta} \left(\mathbf {x}^{1}, \mathbf {y}^{1}, \dots , \mathbf {x}^{K}, \mathbf {y}^{K}\right) \\ = \underbrace {\log \Pr_{\theta} (\mathbf {x}^{1})}_{\text{setto0}} + \underbrace {\log \Pr_{\theta} (\mathbf {y}^{1} | \mathbf {x}^{1})}_{\text{losscomputation}} + \dots + \\ \underbrace {\log \Pr_{\theta} (\mathbf {x}^{K} | \mathbf {x}^{1} , \mathbf {y}^{1} , \dots , \mathbf {y}^{K - 1})}_{\text{setto0}} + \\ \underbrace {\log \Pr_{\theta} \left(\mathbf {y}^{K} \mid \mathbf {x}^{1} , \mathbf {y}^{1} , \dots , \mathbf {x}^{K}\right)}_{\text{losscomputation}} \tag {4.6} \\ \end{array}
 $$
 
 The trick here is that we ignore the loss for generating user inputs, as illustrated in Figure 4.3. Hence we only compute the probabilities of generating the responses given their conversational histories, in other words, the value on the right-hand side of Eq. (4.6) is actually equal to the value on the right-hand side of Eq. (4.5). As with Eq. (4.4), the training of this multi-round prediction model can be achieved by maximizing the log likelihood over a training dataset  $\mathcal{D}$ :
 
 $$
-\tilde {\theta} = \arg \max  _ {\theta} \sum_ {\operatorname {s e q} \in \mathcal {D}} \log \Pr_ {\theta} (\operatorname {s e q}) \tag {4.7}
+\tilde {\theta} = \arg \max _{\theta} \sum_{\operatorname{seq} \in \mathcal {D}} \log \Pr_{\theta} (\operatorname{seq}) \tag {4.7}
 $$
 
 While implementing the SFT methods introduced above seems trivial as they are fundamentally the same as regular language model training, there are still issues that need to be considered in practice. For example,
@@ -4142,7 +4029,7 @@ A concept related to the discussion here is sample efficiency. A machine learnin
 In many machine learning and NLP problems, training a model to generalize is a fundamental goal. For example, in text classification, we expect our model to correctly classify new texts that were not seen during training. However, generalization poses additional challenges in instruction fine-tuning. We expect instruction-fine-tuned LLMs to not only generate appropriate responses for different inputs within a task but also to accurately perform various tasks as described by different instructions. To illustrate this issue, consider an LLM  $\operatorname{Pr}(\mathbf{y}|\mathbf{c},\mathbf{z})$ , where  $\mathbf{c}$  is an instruction,  $\mathbf{z}$  is a user input, and  $\mathbf{y}$  is the corresponding model output (i.e., the response). Suppose that the performance of this model is evaluated in terms of a metric, written as Performance  $(\operatorname{Pr}(\mathbf{y}|\mathbf{c},\mathbf{z}))$  or  $\mathrm{P}(\mathbf{c},\mathbf{z},\mathbf{y})$  for short. Informally, when we say this model can generalize within a given task (indicated by the instruction  $\mathbf{c}^*$ ), we mean that there may be a value  $\epsilon$  such that the average performance on new inputs is above this value:
 
 $$
-\frac {1}{| \mathcal {Z} |} \sum_ {\mathbf {z} ^ {\prime} \in \mathcal {Z}} \mathrm {P} \left(\mathbf {c} ^ {*}, \mathbf {z} ^ {\prime}, \mathbf {y} ^ {\prime}\right) > \epsilon \tag {4.8}
+\frac{1}{| \mathcal {Z} |} \sum_{\mathbf {z}^{\prime} \in \mathcal {Z}} \mathrm{P} \left(\mathbf {c}^{*}, \mathbf {z}^{\prime}, \mathbf {y}^{\prime}\right) > \epsilon \tag {4.8}
 $$
 
 where  $\mathcal{Z}$  is the set of new inputs, and  $\mathbf{z}'$  and  $\mathbf{y}'$  are an input in this set and the corresponding output, respectively.
@@ -4150,7 +4037,7 @@ where  $\mathcal{Z}$  is the set of new inputs, and  $\mathbf{z}'$  and  $\mathb
 Likewise, we can say that this model can generalize across tasks if the average performance over all instruction-input pairs is above some  $\epsilon$ :
 
 $$
-\frac {1}{| \mathcal {D} |} \sum_ {\left(\mathbf {c} ^ {\prime}, \mathbf {z} ^ {\prime}\right) \in \mathcal {D}} \mathrm {P} \left(\mathbf {c} ^ {\prime}, \mathbf {z} ^ {\prime}, \mathbf {y} ^ {\prime}\right) > \epsilon \tag {4.9}
+\frac{1}{| \mathcal {D} |} \sum_{\left(\mathbf {c}^{\prime}, \mathbf {z}^{\prime}\right) \in \mathcal {D}} \mathrm{P} \left(\mathbf {c}^{\prime}, \mathbf {z}^{\prime}, \mathbf {y}^{\prime}\right) > \epsilon \tag {4.9}
 $$
 
 where  $\mathcal{D}$  is the set of new instruction-input pairs.
@@ -4180,7 +4067,7 @@ For instruction fine-tuning, one of the simplest ways of applying weak LLMs is t
 be trained on these generated predictions (see Eq. (4.1)):
 
 $$
-\tilde {\theta} = \arg \max  _ {\theta} \sum_ {\mathbf {x} \in X} \log \Pr_ {\theta} ^ {s} (\hat {\mathbf {y}} | \mathbf {x}) \tag {4.10}
+\tilde {\theta} = \arg \max _{\theta} \sum_{\mathbf {x} \in X} \log \Pr_{\theta}^{s} (\hat {\mathbf {y}} | \mathbf {x}) \tag {4.10}
 $$
 
 where  $\theta$  is the model parameters.
@@ -4194,7 +4081,7 @@ The above form transforms the fine-tuning problem into a knowledge distillation 
 Then, the performance gap recovered (PGR) can be defined as
 
 $$
-\mathrm {P G R} = \max  \left\{0, \frac {\mathrm {P} _ {\text {w e a k}} \rightarrow \text {s t r o n g} - \mathrm {P} _ {\text {w e a k}}}{\mathrm {P} _ {\text {c e i l i n g}} - \mathrm {P} _ {\text {w e a k}}} \right\} \tag {4.11}
+\mathrm{PGR} = \max  \left\{0, \frac{\mathrm{P}_{\text{weak}} \rightarrow \text{strong} - \mathrm{P}_{\text{weak}}}{\mathrm{P}_{\text{ceiling}} - \mathrm{P}_{\text{weak}}} \right\} \tag {4.11}
 $$
 
 This metric measures how much of the performance gap between the ceiling model and the weak model can be recovered by the weak-to-strong model. A PGR of 1 indicates that the weak-to-strong fine-tuning can completely closes the performance gap, whereas a PGR of 0 indicates no improvement. In Burns et al. [2023a]'s work, it is shown that PGR can be around 0.8 on 22 NLP classification tasks. It should be noted that, while the potential of weak-to-strong fine-tuning is promising, achieving substantial weak-to-strong generalization remains a challenging goal that needs further investigation [Aschenbrenner, 2024].
@@ -4222,13 +4109,13 @@ Fig. 4.5: Illustrations of using small models to improve large models in LLMs. O
 function that measures the difference between the small and large models can be defined as:
 
 $$
-\operatorname {L o s s} _ {\mathrm {k d}} = \operatorname {K L} \left(\Pr^ {w} (\cdot | \mathbf {x}) \mid \mid \Pr_ {\theta} ^ {s} (\cdot | \mathbf {x})\right) \tag {4.12}
+\operatorname{Loss}_{\mathrm{kd}} = \operatorname{KL} \left(\Pr^{w} (\cdot | \mathbf {x}) \mid \mid \Pr_{\theta}^{s} (\cdot | \mathbf {x})\right) \tag {4.12}
 $$
 
 Then, we can add this loss to the original loss of language modeling, and yield the following training objective
 
 $$
-\tilde {\theta} = \arg \max  _ {\theta} \sum_ {(\mathbf {x}, \mathbf {y}) \in \mathcal {D}} \log \Pr_ {\theta} ^ {s} (\mathbf {y} | \mathbf {x}) - \lambda \cdot \operatorname {L o s s} _ {\mathrm {k d}} \tag {4.13}
+\tilde {\theta} = \arg \max _{\theta} \sum_{(\mathbf {x}, \mathbf {y}) \in \mathcal {D}} \log \Pr_{\theta}^{s} (\mathbf {y} | \mathbf {x}) - \lambda \cdot \operatorname{Loss}_{\mathrm{kd}} \tag {4.13}
 $$
 
 where  $\mathcal{D}$  is the set of input and output pairs, and  $\lambda$  is the coefficient of the interpolation. This method can be employed in either the pre-training or fine-tuning phase. We can adjust  $\lambda$  to control how much the small model influences the training. For example, we can gradually decrease  $\lambda$  to make the training rely more on the original language modeling loss as the large model becomes more capable.
@@ -4272,7 +4159,7 @@ A reinforcement learning system involves several components:
 - Policy  $(\pi)$ . For an LLM, a policy is defined as the probability distribution over the tokens that the LLM predicts, given the preceding context tokens. Formally, this can be expressed as
 
 $$
-\pi (a | s) = \Pr (y _ {t} | \mathbf {x}, \mathbf {y} _ {<   t}) \tag {4.14}
+\pi (a | s) = \Pr (y_{t} | \mathbf {x}, \mathbf {y}_{<   t}) \tag {4.14}
 $$
 
 where  $a$  corresponds to the token  $y_{t}$ , and  $s$  corresponds to the context  $(\mathbf{x},\mathbf{y}_{< t})$ . Figure 4.7 illustrates how an LLM can be treated as a policy in the reinforcement learning framework.
@@ -4280,7 +4167,7 @@ where  $a$  corresponds to the token  $y_{t}$ , and  $s$  corresponds to the con
 - Value Function  $(V$  and  $Q)$ . A state-value function (or value function, for short) assesses the expected discounted return (i.e., accumulated rewards) for an agent starting from a particular state  $s$  and following a specific policy  $\pi$ . It is defined as:
 
 $$
-\begin{array}{l} { V ( s ) } { = } { \mathbb { E } \Big [ r ( s _ { 0 } , a _ { 0 } , s _ { 1 } ) + \gamma r ( s _ { 1 } , a _ { 1 } , s _ { 2 } ) + \gamma ^ { 2 } r ( s _ { 2 } , a _ { 2 } , s _ { 3 } ) + \cdots \mid s _ { 0 } = s , \pi \Big ] } \\ = \mathbb {E} \Big [ r _ {0} + \gamma r _ {1} + \gamma^ {2} r _ {2} + \dots \mid s _ {0} = s, \pi \Big ] \\ = \mathbb {E} \left[ \sum_ {t = 0} ^ {\infty} \gamma^ {t} r _ {t} \mid s _ {0} = s, \pi \right] \tag {4.15} \\ \end{array}
+\begin{array}{l} { V ( s ) } { = } { \mathbb { E } \Big [ r ( s_{ 0 } , a_{ 0 } , s_{ 1 } ) + \gamma r ( s_{ 1 } , a_{ 1 } , s_{ 2 } ) + \gamma^{ 2 } r ( s_{ 2 } , a_{ 2 } , s_{ 3 } ) + \cdots \mid s_{ 0 } = s , \pi \Big ] } \\ = \mathbb {E} \Big [ r_{0} + \gamma r_{1} + \gamma^{2} r_{2} + \dots \mid s_{0} = s, \pi \Big ] \\ = \mathbb {E} \left[ \sum_{t = 0}^{\infty} \gamma^{t} r_{t} \mid s_{0} = s, \pi \right] \tag {4.15} \\ \end{array}
 $$
 
 where  $\gamma \in [0,1]$  is the discount factor that adjusts the importance of future rewards,  $s_0 = s$  indicates that the agent starts with the state  $s$ , and the expectation  $\mathbb{E}$  is performed over all possible trajectories (i.e., state-action sequences). Similarly, an action-value function (or
@@ -4291,7 +4178,7 @@ Fig. 4.7: LLM as policy in reinforcement learning. At each step  $t$ , the LLM p
 Q-value function) measures the expected return starting from a state  $s$  taking an action  $a$  and thereafter following a policy  $\pi$ , given by
 
 $$
-Q (s, a) = \mathbb {E} \left[ \sum_ {t = 0} ^ {\infty} \gamma^ {t} r _ {t} \mid s _ {0} = s, a _ {0} = a, \pi \right] \tag {4.16}
+Q (s, a) = \mathbb {E} \left[ \sum_{t = 0}^{\infty} \gamma^{t} r_{t} \mid s_{0} = s, a_{0} = a, \pi \right] \tag {4.16}
 $$
 
 where  $a_0 = a$  indicates that the action taken at the initial state is  $a$ .
@@ -4299,13 +4186,13 @@ where  $a_0 = a$  indicates that the action taken at the initial state is  $a$ .
 The goal of reinforcement learning is to learn a policy that maximizes the cumulative reward (or return) the agent receives over the long run. Given a state-action sequence  $\tau = \{(s_1, a_1), \dots, (s_T, a_T)\}^1$ , the cumulative reward over this sequence can be written as
 
 $$
-R (\tau) = \sum_ {t = 1} ^ {T} r _ {t} \tag {4.17}
+R (\tau) = \sum_{t = 1}^{T} r_{t} \tag {4.17}
 $$
 
 The expectation of this cumulative reward over a space of state-action sequences is given in the form
 
 $$
-\begin{array}{l} {J (\theta)} = {\underset {\tau \sim \mathcal {D}} {\mathbb {E}} \left[ R (\tau) \mid \pi_ {\theta} \right]} \\ = \sum_ {\tau \in \mathcal {D}} \Pr_ {\theta} (\tau) R (\tau) \\ = \sum_ {\tau \in \mathcal {D}} \Pr_ {\theta} (\tau) \sum_ {t = 1} ^ {T} r _ {t} \tag {4.18} \\ \end{array}
+\begin{array}{l} {J (\theta)} = {\underset {\tau \sim \mathcal {D}} {\mathbb {E}} \left[ R (\tau) \mid \pi_{\theta} \right]} \\ = \sum_{\tau \in \mathcal {D}} \Pr_{\theta} (\tau) R (\tau) \\ = \sum_{\tau \in \mathcal {D}} \Pr_{\theta} (\tau) \sum_{t = 1}^{T} r_{t} \tag {4.18} \\ \end{array}
 $$
 
 where  $\tau \sim \mathcal{D}$  indicates that  $\tau$  is drawn from the state-action sequence space  $\mathcal{D}$ , and the subscript  $\theta$  indicates the parameters of the policy.  $J(\theta)$  is also called the performance function.
@@ -4323,13 +4210,13 @@ Note that in many NLP problems, such as machine translation, rewards are typical
 The model described in Eqs. (4.17-4.19) establishes a basic form of reinforcement learning, and many variants and improvements of this model have been developed. Before showing those more sophisticated models, let us take a moment to interpret the objective function  $J(\theta)$  from the perspective of policy gradient. In gradient descent, we need to compute the gradient of  $J(\theta)$  with respect to  $\theta$ :
 
 $$
-\begin{array}{l} \frac {\partial J (\theta)}{\partial \theta} = \frac {\partial \sum_ {\tau \in \mathcal {D}} \Pr_ {\theta} (\tau) R (\tau)}{\partial \theta} \\ = \sum_ {\tau \in \mathcal {D}} \frac {\partial \Pr_ {\theta} (\tau)}{\partial \theta} R (\tau) \\ = \sum_ {\tau \in \mathcal {D}} \Pr_ {\theta} (\tau) \frac {\partial \Pr_ {\theta} (\tau) / \partial \theta}{\Pr_ {\theta} (\tau)} R (\tau) \\ = \sum_ {\tau \in \mathcal {D}} \Pr_ {\theta} (\tau) \frac {\partial \log \Pr_ {\theta} (\tau)}{\partial \theta} R (\tau) \tag {4.20} \\ \end{array}
+\begin{array}{l} \frac{\partial J (\theta)}{\partial \theta} = \frac{\partial \sum_{\tau \in \mathcal {D}} \Pr_{\theta} (\tau) R (\tau)}{\partial \theta} \\ = \sum_{\tau \in \mathcal {D}} \frac{\partial \Pr_{\theta} (\tau)}{\partial \theta} R (\tau) \\ = \sum_{\tau \in \mathcal {D}} \Pr_{\theta} (\tau) \frac{\partial \Pr_{\theta} (\tau) / \partial \theta}{\Pr_{\theta} (\tau)} R (\tau) \\ = \sum_{\tau \in \mathcal {D}} \Pr_{\theta} (\tau) \frac{\partial \log \Pr_{\theta} (\tau)}{\partial \theta} R (\tau) \tag {4.20} \\ \end{array}
 $$
 
 In some cases, we will assume that every sequence in  $\mathcal{D}$  is equally probable (i.e.,  $\operatorname*{Pr}_{\theta}(\tau) = 1 / |\mathcal{D}|$ ). In this case we can simplify Eq. (4.20) and need only consider the terms  $\frac{\partial \log \operatorname*{Pr}_{\theta}(\tau)}{\partial \theta}$  and  $R(\tau)$ :
 
 $$
-\frac {\partial J (\theta)}{\partial \theta} = \frac {1}{m} \sum_ {\tau \in \mathcal {D}} \frac {\partial \log \Pr_ {\theta} (\tau)}{\partial \theta} R (\tau) \tag {4.21}
+\frac{\partial J (\theta)}{\partial \theta} = \frac{1}{m} \sum_{\tau \in \mathcal {D}} \frac{\partial \log \Pr_{\theta} (\tau)}{\partial \theta} R (\tau) \tag {4.21}
 $$
 
 One advantage of this result is that  $R(\tau)$  does not need to be differentiable, which means that we can use any type of reward function in reinforcement learning.
@@ -4339,13 +4226,13 @@ By treating the generation of the sequence  $\tau$  as a Markov decision process
 derive  $\frac{\partial\log\operatorname*{Pr}_{\theta}(\tau)}{\partial\theta}$  , and obtain:
 
 $$
-\begin{array}{l} \frac {\partial \log \Pr_ {\theta} (\tau)}{\partial \theta} = \frac {\partial}{\partial \theta} \log \prod_ {t = 1} ^ {T} \pi_ {\theta} (a _ {t} | s _ {t}) \Pr (s _ {t + 1} | s _ {t}, a _ {t}) \\ = \frac {\partial}{\partial \theta} \sum_ {t = 1} ^ {T} \underbrace {\log \pi_ {\theta} \left(a _ {t} \mid s _ {t}\right)} _ {\text {p o l i c y}} + \frac {\partial}{\partial \theta} \sum_ {t = 1} ^ {T} \underbrace {\log \Pr \left(s _ {t + 1} \mid s _ {t} , a _ {t}\right)} _ {\text {d y n a m i c s}} \tag {4.22} \\ \end{array}
+\begin{array}{l} \frac{\partial \log \Pr_{\theta} (\tau)}{\partial \theta} = \frac{\partial}{\partial \theta} \log \prod_{t = 1}^{T} \pi_{\theta} (a_{t} | s_{t}) \Pr (s_{t + 1} | s_{t}, a_{t}) \\ = \frac{\partial}{\partial \theta} \sum_{t = 1}^{T} \underbrace {\log \pi_{\theta} \left(a_{t} \mid s_{t}\right)}_{\text{policy}} + \frac{\partial}{\partial \theta} \sum_{t = 1}^{T} \underbrace {\log \Pr \left(s_{t + 1} \mid s_{t} , a_{t}\right)}_{\text{dynamics}} \tag {4.22} \\ \end{array}
 $$
 
 where the gradient is decomposed into two parts: the policy gradient and the dynamics gradient. The policy component,  $\log \pi_{\theta}(a_t|s_t)$ , determines the log-probability of taking action  $a_t$  given state  $s_t$ , and it is parameterized by  $\theta$ . The dynamics component,  $\log \operatorname*{Pr}(s_{t + 1}|s_t,a_t)$ , represents the log-probability of transitioning to state  $s_{t + 1}$  from state  $s_t$  after taking action  $a_t$ . In typical reinforcement learning settings, the dynamics are not directly influenced by the policy parameters  $\theta$ , and thus, their derivatives are often zero. In this case, therefore, Eq. (4.22) can be simplified to:
 
 $$
-\frac {\partial \log \Pr_ {\theta} (\tau)}{\partial \theta} = \frac {\partial}{\partial \theta} \sum_ {t = 1} ^ {T} \log \pi_ {\theta} \left(a _ {t} \mid s _ {t}\right) \tag {4.23}
+\frac{\partial \log \Pr_{\theta} (\tau)}{\partial \theta} = \frac{\partial}{\partial \theta} \sum_{t = 1}^{T} \log \pi_{\theta} \left(a_{t} \mid s_{t}\right) \tag {4.23}
 $$
 
 In other words, we only concentrate on optimizing the policy without concerning ourselves with the underlying dynamics.
@@ -4353,7 +4240,7 @@ In other words, we only concentrate on optimizing the policy without concerning 
 Substituting Eq. (4.23) into Eq. (4.21), and expanding  $R(\tau)$ , we then obtain
 
 $$
-\frac {\partial J (\theta)}{\partial \theta} = \frac {1}{| \mathcal {D} |} \sum_ {\tau \in \mathcal {D}} \frac {\partial}{\partial \theta} \left(\sum_ {t = 1} ^ {T} \log \pi_ {\theta} \left(a _ {t} \mid s _ {t}\right) \sum_ {t = 1} ^ {T} r _ {t}\right) \tag {4.24}
+\frac{\partial J (\theta)}{\partial \theta} = \frac{1}{| \mathcal {D} |} \sum_{\tau \in \mathcal {D}} \frac{\partial}{\partial \theta} \left(\sum_{t = 1}^{T} \log \pi_{\theta} \left(a_{t} \mid s_{t}\right) \sum_{t = 1}^{T} r_{t}\right) \tag {4.24}
 $$
 
 While this policy gradient approach is straightforward, it suffers from the problem that the variance of the estimated gradients can be very high, making the learning process noisy and inefficient. One reason for this high variance problem is that rewards can vary greatly across different steps or scenarios. Imagine that in a sequence of action decisions, the reward model tends to assign small rewards to good actions (e.g.,  $R_{t} = 2$ ) and large penalties to poor actions (e.g.,  $R_{t} = -50$ ). Such varying reward scales for good and poor actions can result in a very low total reward for the entire sequence, even if it includes good actions.
@@ -4363,13 +4250,13 @@ One simple method for reducing the variance of the gradient is to set a baseline
 This policy gradient model with a baseline can be given by
 
 $$
-\begin{array}{l} \frac {\partial J (\theta)}{\partial \theta} = \frac {1}{| \mathcal {D} |} \sum_ {\tau \in \mathcal {D}} \frac {\partial}{\partial \theta} \Bigl (\sum_ {t = 1} ^ {T} \log \pi_ {\theta} (a _ {t} | s _ {t}) \Bigr) \Bigl (\sum_ {t = 1} ^ {T} r _ {t} - b \Bigr) \\ = \frac {1}{| \mathcal {D} |} \sum_ {\tau \in \mathcal {D}} \frac {\partial}{\partial \theta} \left[ \sum_ {t = 1} ^ {T} \log \pi_ {\theta} \left(a _ {t} \mid s _ {t}\right) \left(\sum_ {k = 1} ^ {T} r _ {k} - b\right) \right] \\ { = } { \frac { 1 } { | \mathcal { D } | } \sum _ { \tau \in \mathcal { D } } \frac { \partial } { \partial \theta } \Big [ \sum _ { t = 1 } ^ { T } \log \pi _ { \theta } ( a _ { t } | s _ { t } ) \Big ( \sum _ { k = 1 } ^ { t - 1 } r _ { k } + \sum _ { k = t } ^ { T } r _ { k } - b \Big ) \Big ] } { ( 4 . 2 5 ) } \\ \end{array}
+\begin{array}{l} \frac{\partial J (\theta)}{\partial \theta} = \frac{1}{| \mathcal {D} |} \sum_{\tau \in \mathcal {D}} \frac{\partial}{\partial \theta} \Bigl (\sum_{t = 1}^{T} \log \pi_{\theta} (a_{t} | s_{t}) \Bigr) \Bigl (\sum_{t = 1}^{T} r_{t} - b \Bigr) \\ = \frac{1}{| \mathcal {D} |} \sum_{\tau \in \mathcal {D}} \frac{\partial}{\partial \theta} \left[ \sum_{t = 1}^{T} \log \pi_{\theta} \left(a_{t} \mid s_{t}\right) \left(\sum_{k = 1}^{T} r_{k} - b\right) \right] \\ { = } { \frac{ 1 } { | \mathcal { D } | } \sum_{ \tau \in \mathcal { D } } \frac{ \partial } { \partial \theta } \Big [ \sum_{ t = 1 }^{ T } \log \pi_{ \theta } ( a_{ t } | s_{ t } ) \Big ( \sum_{ k = 1 }^{ t - 1 } r_{ k } + \sum_{ k = t }^{ T } r_{ k } - b \Big ) \Big ] } { ( 4.25 ) } \\ \end{array}
 $$
 
 Here we write  $\sum_{k=1}^{T} r_k$  as the sum of two terms  $\sum_{k=1}^{t-1} r_k$  and  $\sum_{k=t}^{T} r_k$  to distinguish between the rewards accrued before and after the action at time step  $t$ . Note that in Markov decision processes, the future is independent of the past given the present. Therefore, the action taken at time step  $t$  cannot influence the rewards received before  $t$ , or in other words, the rewards prior to  $t$  are already "fixed" by the time the action at  $t$  is chosen. The term  $\sum_{k=1}^{t-1} r_k$  does not contribute to the gradient and can be omitted, leading to a simplified version of Eq. (4.25)
 
 $$
-\frac {\partial J (\theta)}{\partial \theta} = \frac {1}{| \mathcal {D} |} \sum_ {\tau \in \mathcal {D}} \frac {\partial}{\partial \theta} \left[ \sum_ {t = 1} ^ {T} \log \pi_ {\theta} \left(a _ {t} \mid s _ {t}\right) \left(\sum_ {k = t} ^ {T} r _ {k} - b\right) \right] \tag {4.26}
+\frac{\partial J (\theta)}{\partial \theta} = \frac{1}{| \mathcal {D} |} \sum_{\tau \in \mathcal {D}} \frac{\partial}{\partial \theta} \left[ \sum_{t = 1}^{T} \log \pi_{\theta} \left(a_{t} \mid s_{t}\right) \left(\sum_{k = t}^{T} r_{k} - b\right) \right] \tag {4.26}
 $$
 
 Also note that removing  $\sum_{k=t}^{T} r_k$  can further reduce the variance of the gradient.
@@ -4377,7 +4264,7 @@ Also note that removing  $\sum_{k=t}^{T} r_k$  can further reduce the variance o
 There are many ways to define the baseline  $b$ . Here we consider the value function of the state  $s_t$ , that is, the estimated value of being in state  $s_t$ :  $V(s_t) = \mathbb{E}(r_t + r_{t+1} + \dots + r_T)$ . Hence we have
 
 $$
-\begin{array}{l} A (s _ {t}, a _ {t}) = \sum_ {k = t} ^ {T} r _ {k} - b \\ = \sum_ {k = t} ^ {T} r _ {k} - V \left(s _ {t}\right) \tag {4.27} \\ \end{array}
+\begin{array}{l} A (s_{t}, a_{t}) = \sum_{k = t}^{T} r_{k} - b \\ = \sum_{k = t}^{T} r_{k} - V \left(s_{t}\right) \tag {4.27} \\ \end{array}
 $$
 
 where  $\sum_{k = t}^{T}r_{k}$  represents the actual return received, and  $V(s_{t})$  represents the expected return.  $A(s_{t},a_{t})$  (or  $A_{t}$  for short) is called the advantage at time step  $t$ , which quantifies the relative benefit of the action  $a_{t}$  compared to the expected value of following the policy from the state  $s_t$  onward.
@@ -4385,7 +4272,7 @@ where  $\sum_{k = t}^{T}r_{k}$  represents the actual return received, and  $V(s
 By using the advantage function  $A(s_{t},a_{t})$ , the gradient of  $J(\theta)$  can be written in the form
 
 $$
-\frac {\partial J (\theta)}{\partial \theta} = \frac {1}{| \mathcal {D} |} \sum_ {\tau \in \mathcal {D}} \frac {\partial}{\partial \theta} \left(\sum_ {t = 1} ^ {T} \log \pi_ {\theta} \left(a _ {t} \mid s _ {t}\right) A \left(s _ {t}, a _ {t}\right)\right) \tag {4.28}
+\frac{\partial J (\theta)}{\partial \theta} = \frac{1}{| \mathcal {D} |} \sum_{\tau \in \mathcal {D}} \frac{\partial}{\partial \theta} \left(\sum_{t = 1}^{T} \log \pi_{\theta} \left(a_{t} \mid s_{t}\right) A \left(s_{t}, a_{t}\right)\right) \tag {4.28}
 $$
 
 This optimization objective corresponds to the advantage actor-critic (A2C) method in reinforcement learning [Mnih et al., 2016]. In this method, the actor aims at learning a policy. It updates the policy parameters using Eq. (4.28) to help focus more on actions that are likely to improve performance. The critic, on the other hand, updates its estimation of the value function, which is used to calculate the advantage function  $A(s_{t},a_{t})$ , thus serving as the evaluator of the
@@ -4395,19 +4282,19 @@ policy being learned by the actor.
 In the A2C method,  $A(s_{t},a_{t})$  is typically expressed as the difference of the action-value function  $Q(s_{t},a_{t})$  and the state-value function  $V(s_{t})$
 
 $$
-A \left(s _ {t}, a _ {t}\right) = Q \left(s _ {t}, a _ {t}\right) - V \left(s _ {t}\right) \tag {4.29}
+A \left(s_{t}, a_{t}\right) = Q \left(s_{t}, a_{t}\right) - V \left(s_{t}\right) \tag {4.29}
 $$
 
 At first glance, this model may seem challenging to develop because it requires two separate sub-models to calculate  $Q(s_{t},a_{t})$  and  $V(s_{t})$  respectively. Fortunately, considering that  $Q(s_{t},a_{t})$  can be defined as the return  $r_t + V(s_{t + 1})$ , we can rewrite Eq. (4.29) as
 
 $$
-A \left(s _ {t}, a _ {t}\right) = r _ {t} + V \left(s _ {t + 1}\right) - V \left(s _ {t}\right) \tag {4.30}
+A \left(s_{t}, a_{t}\right) = r_{t} + V \left(s_{t + 1}\right) - V \left(s_{t}\right) \tag {4.30}
 $$
 
 or alternatively, introduce the discount factor  $\gamma$  to obtain a more general form
 
 $$
-A \left(s _ {t}, a _ {t}\right) = r _ {t} + \gamma V \left(s _ {t + 1}\right) - V \left(s _ {t}\right) \tag {4.31}
+A \left(s_{t}, a_{t}\right) = r_{t} + \gamma V \left(s_{t + 1}\right) - V \left(s_{t}\right) \tag {4.31}
 $$
 
 $A(s_{t},a_{t}) = r_{t} + \gamma V(s_{t + 1}) - V(s_{t})$  is also called the temporal difference (TD) error. What we need is to train a critic network for the value function  $V(s_{t})$ , and then use it to compute the advantage function<sup>3</sup>.
@@ -4421,7 +4308,7 @@ We have shown that reward models play a very important role in the general reinf
 In RLHF, a reward model is a neural network that maps a pair of input and output token sequences to a scalar. Given an input  $\mathbf{x}$  and an output  $\mathbf{y}$ , the reward can be expressed as
 
 $$
-r = \operatorname {R e w a r d} (\mathbf {x}, \mathbf {y}) \tag {4.33}
+r = \operatorname{Reward} (\mathbf {x}, \mathbf {y}) \tag {4.33}
 $$
 
 where  $\text{Reward}(\cdot)$  is the reward model.  $r$  can be interpreted as a measure of how well the output  $y$  aligns with the desired behavior given the input  $x$ . As discussed in the previous subsection, both  $x$
@@ -4434,7 +4321,7 @@ and  $\mathbf{y}$  are assumed to complete texts. This means that the reward mod
 There are many ways to implement the reward model. One simple approach is to build the reward model based on a pre-trained LLM. More specifically, we can concatenate  $\mathbf{x}$  and  $\mathbf{y}$  to form a single token sequence  $\mathrm{seq}_{\mathbf{x},\mathbf{y}} = [\mathbf{x},\mathbf{y}]$ . We run a pre-trained LLM on this sequence, as usual, and at each position, we obtain a representation from the top-most Transformer layer. Then, we take the representation at the last position (denoted by  $\mathbf{h}_{\mathrm{last}}$ ) and map it to a scalar via linear transformation:
 
 $$
-r (\mathbf {x}, \mathbf {y}) = \mathbf {h} _ {\text {l a s t}} \mathbf {W} _ {r} \tag {4.34}
+r (\mathbf {x}, \mathbf {y}) = \mathbf {h}_{\text{last}} \mathbf {W}_{r} \tag {4.34}
 $$
 
 where  $\mathbf{h}_{\mathrm{last}}$  is a  $d$ -dimensional vector, and  $\mathbf{W}r$  is a  $d\times 1$  linear mapping matrix. This architecture of the reward model is illustrated in Figure 4.8.
@@ -4451,25 +4338,25 @@ Here we consider pairwise comparison feedback as it is one of the simplest and m
 One simple and widely used model for describing such pairwise comparisons is the Bradley-Terry model [Bradley and Terry, 1952]. It is a probabilistic model that estimates the probability that one item is preferred over another. Adapting this model to the notation used here, we can write the probability that  $\mathbf{y}_a$  is preferred over  $\mathbf{y}_b$  in the form
 
 $$
-\begin{array}{l} \operatorname * {P r} (\mathbf {y} _ {a} \succ \mathbf {y} _ {b} | \mathbf {x}) = \frac {e ^ {r (\mathbf {x} , \mathbf {y} _ {a})}}{e ^ {r (\mathbf {x} , \mathbf {y} _ {a})} + e ^ {r (\mathbf {x} , \mathbf {y} _ {b})}} \\ { = } { \frac { e ^ { r ( \mathbf { x } , \mathbf { y } _ { a } ) - r ( \mathbf { x } , \mathbf { y } _ { b } ) } } { e ^ { r ( \mathbf { x } , \mathbf { y } _ { a } ) - r ( \mathbf { x } , \mathbf { y } _ { b } ) } + 1 } \\ = \operatorname {S i g m o i d} (r (\mathbf {x}, \mathbf {y} _ {a}) - r (\mathbf {x}, \mathbf {y} _ {b})) \tag {4.35} \\ \end{array}
+\begin{array}{l} \operatorname * {P r} (\mathbf {y}_{a} \succ \mathbf {y}_{b} | \mathbf {x}) = \frac{e^{r (\mathbf {x} , \mathbf {y}_{a})}}{e^{r (\mathbf {x} , \mathbf {y}_{a})} + e^{r (\mathbf {x} , \mathbf {y}_{b})}} \\ { = } { \frac{ e^{ r ( \mathbf { x } , \mathbf { y }_{ a } ) - r ( \mathbf { x } , \mathbf { y }_{ b } ) } } { e^{ r ( \mathbf { x } , \mathbf { y }_{ a } ) - r ( \mathbf { x } , \mathbf { y }_{ b } ) } + 1 } \\ = \operatorname{Sigmoid} (r (\mathbf {x}, \mathbf {y}_{a}) - r (\mathbf {x}, \mathbf {y}_{b})) \tag {4.35} \\ \end{array}
 $$
 
 When training the reward model, we want to maximize this preference probability. A loss function based on the Bradley-Terry model is given by
 
 $$
-\mathcal {L} _ {r} (\phi) = - \mathbb {E} _ {(\mathbf {x}, \mathbf {y} _ {a}, \mathbf {y} _ {b}) \sim \mathcal {D} _ {r}} \left[ \log \Pr_ {\phi} \left(\mathbf {y} _ {a} \succ \mathbf {y} _ {b} \mid \mathbf {x}\right) \right] \tag {4.36}
+\mathcal {L}_{r} (\phi) = - \mathbb {E}_{(\mathbf {x}, \mathbf {y}_{a}, \mathbf {y}_{b}) \sim \mathcal {D}_{r}} \left[ \log \Pr_{\phi} \left(\mathbf {y}_{a} \succ \mathbf {y}_{b} \mid \mathbf {x}\right) \right] \tag {4.36}
 $$
 
 where  $(\mathbf{x},\mathbf{y}_a,\mathbf{y}_b)$  is drawn from a human-annotated dataset  $\mathcal{D}_r$  consisting of preference pairs of outputs and their corresponding inputs.  $\phi$  represents the parameters of the reward model, which includes both the parameters of the Transformer decoder and the linear mapping matrix  $\mathbf{W}_r$ . In practice, assuming  $(\mathbf{x},\mathbf{y}_a,\mathbf{y}_b)$  is uniformly sampled from  $\mathcal{D}_r$ , we can replace the expectation with a summation
 
 $$
-\mathcal {L} _ {r} (\phi) = - \frac {1}{| \mathcal {D} _ {r} |} \sum_ {(\mathbf {x}, \mathbf {y} _ {a}, \mathbf {y} _ {b}) \in \mathcal {D} _ {r}} \log \Pr_ {\phi} (\mathbf {y} _ {a} \succ \mathbf {y} _ {b} | \mathbf {x}) \tag {4.37}
+\mathcal {L}_{r} (\phi) = - \frac{1}{| \mathcal {D}_{r} |} \sum_{(\mathbf {x}, \mathbf {y}_{a}, \mathbf {y}_{b}) \in \mathcal {D}_{r}} \log \Pr_{\phi} (\mathbf {y}_{a} \succ \mathbf {y}_{b} | \mathbf {x}) \tag {4.37}
 $$
 
 The goal of training the reward model is to find the optimal parameters  $\hat{\phi}$  that minimize this loss function, given by
 
 $$
-\hat {\phi} = \underset {\phi} {\arg \min } \mathcal {L} _ {r} (\phi) \tag {4.38}
+\hat {\phi} = \underset {\phi} {\arg \min } \mathcal {L}_{r} (\phi) \tag {4.38}
 $$
 
 Since the reward model itself is also an LLM, we can directly reuse the Transformer training procedure to optimize the reward model. The difference from training a standard LLM is that we only need to replace the cross-entropy loss with the pairwise comparison loss as described in Eq. (4.37). After the training of the reward model, we can apply the trained reward model  $r_{\hat{\phi}}(\cdot)$  to supervise the target LLM for alignment.
@@ -4483,7 +4370,7 @@ ranking objective ensures that the reward model is sensitive to subtle differenc
 Having obtained the reward model, we then train the policy (i.e., the LLM) via the A2C method. Recall from Section 4.3.1 that a state-action sequence or trajectory  $\tau$  can be evaluated by the utility function
 
 $$
-U (\tau ; \theta) = \sum_ {t = 1} ^ {T} \log \pi_ {\theta} \left(a _ {t} \mid s _ {t}\right) A \left(s _ {t}, a _ {t}\right) \tag {4.39}
+U (\tau ; \theta) = \sum_{t = 1}^{T} \log \pi_{\theta} \left(a_{t} \mid s_{t}\right) A \left(s_{t}, a_{t}\right) \tag {4.39}
 $$
 
 where  $A(s_{t},a_{t})$  is the advantage of taking the action  $a_{t}$  given the state  $s_t$ . An estimate of  $A(s_{t},a_{t})$  is defined as the TD error  $r_t + \gamma V(s_{t + 1}) - V(s_t)$ , where the value function  $V(s_{t})$  is trained with the reward model.
@@ -4491,7 +4378,7 @@ where  $A(s_{t},a_{t})$  is the advantage of taking the action  $a_{t}$  given t
 Given this utility function, the A2C-based loss function can be written in the form
 
 $$
-\begin{array}{l} \mathcal {L} (\theta) = - \mathbb {E} _ {\tau \sim \mathcal {D}} [ U (\tau ; \theta) ] \\ = - \mathbb {E} _ {\tau \sim \mathcal {D}} \left[ \sum_ {t = 1} ^ {T} \log \pi_ {\theta} \left(a _ {t} \mid s _ {t}\right) A \left(s _ {t}, a _ {t}\right) \right] \tag {4.40} \\ \end{array}
+\begin{array}{l} \mathcal {L} (\theta) = - \mathbb {E}_{\tau \sim \mathcal {D}} [ U (\tau ; \theta) ] \\ = - \mathbb {E}_{\tau \sim \mathcal {D}} \left[ \sum_{t = 1}^{T} \log \pi_{\theta} \left(a_{t} \mid s_{t}\right) A \left(s_{t}, a_{t}\right) \right] \tag {4.40} \\ \end{array}
 $$
 
 where  $\mathcal{D}$  is a space of state-action sequences. As usual, the goal of training the policy is to minimize this loss function
@@ -4503,13 +4390,13 @@ $$
 If we map the problem back to the language modeling problem and adopt the notation from LLMs, the loss function can be written as:
 
 $$
-\mathcal {L} (\theta) = - \mathbb {E} _ {(\mathbf {x}, \mathbf {y}) \sim \mathcal {D}} [ U (\mathbf {x}, \mathbf {y}; \theta) ] \tag {4.42}
+\mathcal {L} (\theta) = - \mathbb {E}_{(\mathbf {x}, \mathbf {y}) \sim \mathcal {D}} [ U (\mathbf {x}, \mathbf {y}; \theta) ] \tag {4.42}
 $$
 
 where
 
 $$
-U (\mathbf {x}, \mathbf {y}; \theta) = \sum_ {t = 1} ^ {T} \log \pi_ {\theta} \left(y _ {t} \mid \mathbf {x}, \mathbf {y} _ {<   t}\right) A (\mathbf {x}, \mathbf {y} _ {<   t}, y _ {t}) \tag {4.43}
+U (\mathbf {x}, \mathbf {y}; \theta) = \sum_{t = 1}^{T} \log \pi_{\theta} \left(y_{t} \mid \mathbf {x}, \mathbf {y}_{<   t}\right) A (\mathbf {x}, \mathbf {y}_{<   t}, y_{t}) \tag {4.43}
 $$
 
 Here  $\pi_{\theta}(y_t|\mathbf{x},\mathbf{y}_{< t}) = \operatorname*{Pr}_{\theta}(y_t|\mathbf{x},\mathbf{y}_{< t})$  is the LLM parameterized by  $\theta$ .
@@ -4519,7 +4406,7 @@ In general, we do not have a human annotated input-output dataset  $\mathcal{D}$
 The loss function is then defined as
 
 $$
-\mathcal {L} (\theta) = - \mathbb {E} _ {\mathbf {x} \sim \mathcal {D}} \mathbb {E} _ {\mathbf {y} \sim \pi_ {\theta} (\cdot | \mathbf {x})} [ U (\mathbf {x}, \mathbf {y}; \theta) ] \tag {4.44}
+\mathcal {L} (\theta) = - \mathbb {E}_{\mathbf {x} \sim \mathcal {D}} \mathbb {E}_{\mathbf {y} \sim \pi_{\theta} (\cdot | \mathbf {x})} [ U (\mathbf {x}, \mathbf {y}; \theta) ] \tag {4.44}
 $$
 
 where  $\mathcal{D}$  denotes the input-only dataset, and  $\mathbf{y} \sim \pi_{\theta}(\cdot|\mathbf{x})$  denotes that the output  $\mathbf{y}$  is sampled by the policy  $\pi_{\theta}(\cdot|\mathbf{x})$ .
@@ -4529,7 +4416,7 @@ The above formulation provides a basic form of the A2C method for LLMs. Improved
 One common improvement of policy gradient methods is to use importance sampling to refine the estimation of  $U(\tau; \theta)$ . This can be written as
 
 $$
-U (\tau ; \theta) = \sum_ {t = 1} ^ {T} \frac {\pi_ {\theta} \left(a _ {t} \mid s _ {t}\right)}{\pi_ {\theta_ {\text {r e f}}} \left(a _ {t} \mid s _ {t}\right)} A \left(s _ {t}, a _ {t}\right) \tag {4.45}
+U (\tau ; \theta) = \sum_{t = 1}^{T} \frac{\pi_{\theta} \left(a_{t} \mid s_{t}\right)}{\pi_{\theta_{\text{ref}}} \left(a_{t} \mid s_{t}\right)} A \left(s_{t}, a_{t}\right) \tag {4.45}
 $$
 
 Here we replace the log-probability  $\log \pi_{\theta}(a_t|s_t)$  with the ratio  $\frac{\pi_{\theta}(a_t|s_t)}{\pi_{\theta_{\mathrm{ref}}}(a_t|s_t)}$ .  $\theta_{\mathrm{ref}}$  denotes the parameters of the previous policy (such as an initial model from which we start the training). So  $\frac{\pi_{\theta}(a_t|s_t)}{\pi_{\theta_{\mathrm{ref}}}(a_t|s_t)}$ , also called the ratio function, can be interpreted as the log-probability ratio between the current policy  $\pi_{\theta}$  and the previous policy  $\pi_{\theta_{\mathrm{ref}}}$  (call it the reference policy). By using the ratio function we reweight the observed rewards based on the likelihood of the actions under the current policy versus the reference policy. When  $\frac{\pi_{\theta}(a_t|s_t)}{\pi_{\theta_{\mathrm{ref}}}(a_t|s_t)} > 1$ , the action  $a_t$  is more favored by the current policy compared to the reference policy. By contrast, when  $\frac{\pi_{\theta}(a_t|s_t)}{\pi_{\theta_{\mathrm{ref}}}(a_t|s_t)} < 1$ , the action  $a_t$  is less favored by the current policy<sup>4</sup>.
@@ -4537,11 +4424,11 @@ Here we replace the log-probability  $\log \pi_{\theta}(a_t|s_t)$  with the rati
 A problem with the model presented in Eq. (4.47) (as well as in Eq. (4.39)) is that the variance in the gradient estimates is often high, making the learning process unstable. To mitigate this issue, techniques such as clipping are often employed to bound the importance weights and prevent large updates. A clipped version of the utility function (also called the clipped surrogate objective function) is given by
 
 $$
-U _ {\mathrm {c l i p}} (\tau ; \theta) = \sum_ {t = 1} ^ {T} \operatorname {C l i p} \left(\frac {\pi_ {\theta} \left(a _ {t} \mid s _ {t}\right)}{\pi_ {\theta_ {\mathrm {r e f}}} \left(a _ {t} \mid s _ {t}\right)}\right) A \left(s _ {t}, a _ {t}\right) \tag {4.49}
+U_{\mathrm{clip}} (\tau ; \theta) = \sum_{t = 1}^{T} \operatorname{Clip} \left(\frac{\pi_{\theta} \left(a_{t} \mid s_{t}\right)}{\pi_{\theta_{\mathrm{ref}}} \left(a_{t} \mid s_{t}\right)}\right) A \left(s_{t}, a_{t}\right) \tag {4.49}
 $$
 
 $$
-\operatorname {C l i p} \left(\frac {\pi_ {\theta} (a _ {t} | s _ {t})}{\pi_ {\theta_ {\mathrm {r e f}}} (a _ {t} | s _ {t})}\right) = \min  \left(\frac {\pi_ {\theta} (a _ {t} | s _ {t})}{\pi_ {\theta_ {\mathrm {r e f}}} (a _ {t} | s _ {t})}, \operatorname {b o u n d} \left(\frac {\pi_ {\theta} (a _ {t} | s _ {t})}{\pi_ {\theta_ {\mathrm {r e f}}} (a _ {t} | s _ {t})}, 1 - \epsilon , 1 + \epsilon\right)\right) \tag {4.50}
+\operatorname{Clip} \left(\frac{\pi_{\theta} (a_{t} | s_{t})}{\pi_{\theta_{\mathrm{ref}}} (a_{t} | s_{t})}\right) = \min  \left(\frac{\pi_{\theta} (a_{t} | s_{t})}{\pi_{\theta_{\mathrm{ref}}} (a_{t} | s_{t})}, \operatorname{bound} \left(\frac{\pi_{\theta} (a_{t} | s_{t})}{\pi_{\theta_{\mathrm{ref}}} (a_{t} | s_{t})}, 1 - \epsilon , 1 + \epsilon\right)\right) \tag {4.50}
 $$
 
 Here the function bound  $\left(\frac{\pi_{\theta}(a_t|s_t)}{\pi_{\theta_{\mathrm{ref}}}(a_t|s_t)},1 - \epsilon ,1 + \epsilon\right)$  constrains the ratio function to the range  $[1-\epsilon,1+\epsilon]$ .
@@ -4549,13 +4436,13 @@ Here the function bound  $\left(\frac{\pi_{\theta}(a_t|s_t)}{\pi_{\theta_{\mathr
 A further improvement to the above model is to consider trust regions in optimization [Schulman et al., 2015]. In reinforcement learning, a large update to the policy can lead to instability, where the agent may start performing worse after an update. A reasonable idea is to optimize the model in the trust region, which refers to a region around the current parameter estimate where the model is well-behaved. One approach to incorporating trust regions is to impose a constraint on the size of the policy update, ensuring that the current policy does not deviate too significantly from the reference policy. This can be achieved by adding a penalty based on some form of divergence between the current and reference policies to the objective function. A simple form of such a penalty is given by the difference in the log-probability of the sequence  $\tau$  under the current policy versus the reference policy:
 
 $$
-\mathrm {P e n a l t y} = \log \pi_ {\theta} (\tau) - \log \pi_ {\theta_ {\mathrm {r e f}}} (\tau) (4. 5 1)
+\mathrm{Penalty} = \log \pi_{\theta} (\tau) - \log \pi_{\theta_{\mathrm{ref}}} (\tau) (4. 51)
 $$
 
 In practice, this penalty can be approximated by considering only the policy probabilities and ignoring the dynamics. This gives
 
 $$
-\mathrm {P e n a l t y} = \sum_ {t = 1} ^ {T} \log \pi_ {\theta} (a _ {t} | s _ {t}) - \sum_ {t = 1} ^ {T} \log \pi_ {\theta_ {\mathrm {r e f}}} (a _ {t} | s _ {t}) \tag {4.52}
+\mathrm{Penalty} = \sum_{t = 1}^{T} \log \pi_{\theta} (a_{t} | s_{t}) - \sum_{t = 1}^{T} \log \pi_{\theta_{\mathrm{ref}}} (a_{t} | s_{t}) \tag {4.52}
 $$
 
 By including this penalty in the optimization objective, we encourage the current policy to remain close to the reference policy, limiting very large updates that could destabilize learning.
@@ -4563,7 +4450,7 @@ By including this penalty in the optimization objective, we encourage the curren
 We can incorporate this penalty into the clipped surrogate objective function, and obtain
 
 $$
-U _ {\mathrm {p p o - c l i p}} (\tau ; \theta) = U _ {\mathrm {c l i p}} (\tau ; \theta) - \beta \text {P e n a l t y} \tag {4.53}
+U_{\mathrm{ppo-clip}} (\tau ; \theta) = U_{\mathrm{clip}} (\tau ; \theta) - \beta \text{Penalty} \tag {4.53}
 $$
 
 where  $\beta$  is the weight of the penalty. This training method is called proximal policy optimization (PPO), which is one of the most popular reinforcement learning methods used in LLMs and many other fields [Schulman et al., 2017].
@@ -4571,17 +4458,17 @@ where  $\beta$  is the weight of the penalty. This training method is called pro
 Now we can write the objective of training LLMs in the form of PPO.
 
 $$
-U (\mathbf {x}, \mathbf {y}; \theta) = U _ {\mathrm {p p o - c l i p}} (\mathbf {x}, \mathbf {y}; \theta) - \beta \mathrm {P e n a l t y} \tag {4.54}
+U (\mathbf {x}, \mathbf {y}; \theta) = U_{\mathrm{ppo-clip}} (\mathbf {x}, \mathbf {y}; \theta) - \beta \mathrm{Penalty} \tag {4.54}
 $$
 
 where
 
 $$
-U _ {\mathrm {p p o - c l i p}} (\mathbf {x}, \mathbf {y}; \theta) = \sum_ {t = 1} ^ {T} \operatorname {C l i p} \left(\frac {\pi_ {\theta} \left(y _ {t} \mid \mathbf {x} , \mathbf {y} <   t\right)}{\pi_ {\theta_ {\mathrm {r e f}}} \left(y _ {t} \mid \mathbf {x} , \mathbf {y} <   t\right)} A (\mathbf {x}, \mathbf {y} <   t, y _ {t}) \right. \tag {4.55}
+U_{\mathrm{ppo-clip}} (\mathbf {x}, \mathbf {y}; \theta) = \sum_{t = 1}^{T} \operatorname{Clip} \left(\frac{\pi_{\theta} \left(y_{t} \mid \mathbf {x} , \mathbf {y} <   t\right)}{\pi_{\theta_{\mathrm{ref}}} \left(y_{t} \mid \mathbf {x} , \mathbf {y} <   t\right)} A (\mathbf {x}, \mathbf {y} <   t, y_{t}) \right. \tag {4.55}
 $$
 
 $$
-\begin{array}{l} {\mathrm {P e n a l t y}} = {\log \operatorname * {P r} _ {\theta} (\mathbf {y} | \mathbf {x}) - \log \operatorname * {P r} _ {\theta_ {\mathrm {r e f}}} (\mathbf {y} | \mathbf {x})} \\ = \sum_ {t = 1} ^ {T} \log \Pr_ {\theta} \left(y _ {t} | \mathbf {x}, \mathbf {y} _ {<   t}\right) - \sum_ {t = 1} ^ {T} \log \Pr_ {\theta_ {\text {r e f}}} \left(y _ {t} | \mathbf {x}, \mathbf {y} _ {<   t}\right) \tag {4.56} \\ \end{array}
+\begin{array}{l} {\mathrm{Penalty}} = {\log \operatorname * {P r}_{\theta} (\mathbf {y} | \mathbf {x}) - \log \operatorname * {P r}_{\theta_{\mathrm{ref}}} (\mathbf {y} | \mathbf {x})} \\ = \sum_{t = 1}^{T} \log \Pr_{\theta} \left(y_{t} | \mathbf {x}, \mathbf {y}_{<   t}\right) - \sum_{t = 1}^{T} \log \Pr_{\theta_{\text{ref}}} \left(y_{t} | \mathbf {x}, \mathbf {y}_{<   t}\right) \tag {4.56} \\ \end{array}
 $$
 
 Although the notation here appears a bit tedious, the idea of PPO is simple: we develop an objective by combining the clipped likelihood ratio of the target and reference policies with an advantage function, and then impose a penalty that ensures policy updates are not too large. The PPO-based RLHF is illustrated in Figure 4.9.
@@ -4615,7 +4502,7 @@ The training of reward models can broadly be seen as a ranking problem, where th
 One approach is to extend pairwise ranking to listwise ranking. For each sample in a dataset, we can use the LLM to generate multiple outputs, and ask human experts to order these outputs. For example, given a set of four outputs  $\{\mathbf{y}_1,\mathbf{y}_2,\mathbf{y}_3,\mathbf{y}_4\}$ , one possible order of them can be  $\mathbf{y}_2\succ \mathbf{y}_3\succ \mathbf{y}_1\succ \mathbf{y}_4$ . A very simple method to model the ordering of the list is to accumulate the pairwise comparison loss. For example, we can define the listwise loss by accumulating the loss over all pairs of outputs:
 
 $$
-\mathcal {L} _ {\text {l i s t}} = - \mathbb {E} _ {(\mathbf {x}, Y) \sim \mathcal {D} _ {r}} \left[ \frac {1}{N (N - 1)} \sum_ {\substack {\mathbf {y} _ {a} \in Y, \mathbf {y} _ {b} \in Y \\ \mathbf {y} _ {a} \neq \mathbf {y} _ {b}}} \log \Pr (\mathbf {y} _ {a} \succ \mathbf {y} _ {b} | \mathbf {x}) \right] \tag{4.57}
+\mathcal {L}_{\text{list}} = - \mathbb {E}_{(\mathbf {x}, Y) \sim \mathcal {D}_{r}} \left[ \frac{1}{N (N - 1)} \sum_{\substack {\mathbf {y}_{a} \in Y, \mathbf {y}_{b} \in Y \\ \mathbf {y}_{a} \neq \mathbf {y}_{b}}} \log \Pr (\mathbf {y}_{a} \succ \mathbf {y}_{b} | \mathbf {x}) \right] \tag{4.57}
 $$
 
 where  $Y$  is a list of outputs, and  $N$  is the number of outputs in the list.  $\operatorname{Pr}(\mathbf{y}_a \succ \mathbf{y}_b | \mathbf{x})$  can be defined using the Bradley-Terry model, that is,  $\operatorname{Pr}(\mathbf{y}_a \succ \mathbf{y}_b | \mathbf{x}) = \operatorname{Sigmoid}(r(\mathbf{x}, \mathbf{y}_a) - r(\mathbf{x}, \mathbf{y}_b))$ . Here we omit the  $\phi$  superscript on the  $\operatorname{Pr}(\cdot)$  to keep the notation uncluttered.
@@ -4629,19 +4516,19 @@ $$
 Then the probability of selecting  $\mathbf{y}$  from  $Y$  is given by
 
 $$
-\begin{array}{l} \Pr (\mathbf {y} \text {i s s e l e c t e d} | \mathbf {x}, Y) = \frac {\alpha (\mathbf {y})}{\sum_ {\mathbf {y} ^ {\prime} \in Y} \alpha \left(\mathbf {y} ^ {\prime}\right)} \\ = \frac {\exp (r (\mathbf {x} , \mathbf {y}))}{\sum_ {\mathbf {y} ^ {\prime} \in Y} \exp (r (\mathbf {x} , \mathbf {y} ^ {\prime}))} \tag {4.59} \\ \end{array}
+\begin{array}{l} \Pr (\mathbf {y} \text{isselected} | \mathbf {x}, Y) = \frac{\alpha (\mathbf {y})}{\sum_{\mathbf {y}^{\prime} \in Y} \alpha \left(\mathbf {y}^{\prime}\right)} \\ = \frac{\exp (r (\mathbf {x} , \mathbf {y}))}{\sum_{\mathbf {y}^{\prime} \in Y} \exp (r (\mathbf {x} , \mathbf {y}^{\prime}))} \tag {4.59} \\ \end{array}
 $$
 
 Suppose  $\mathring{Y}$  is an ordered list  $\mathbf{y}_{j_1} \succ \mathbf{y}_{j_2} \succ \dots \succ \mathbf{y}_{j_N}$ . The overall log-probability of this ordered list can be defined as the sum of the conditional log-probabilities at each stage of selection, given by
 
 $$
-\begin{array}{l} \log \Pr (\mathring {Y} | \mathbf {x}) = \log \Pr (\mathbf {y} _ {j _ {1}} \succ \mathbf {y} _ {j _ {2}} \succ \dots \succ \mathbf {y} _ {j _ {N}} | \mathbf {x}) \\ = \log \Pr \left(\mathbf {y} _ {j _ {1}} | \mathbf {x}, \left\{\mathbf {y} _ {j _ {1}}, \mathbf {y} _ {j _ {2}}, \dots , \mathbf {y} _ {j _ {N}} \right\}\right) + \\ \log \Pr (\mathbf {y} _ {j _ {2}} | \mathbf {x}, \{\mathbf {y} _ {j _ {2}}, \dots , \mathbf {y} _ {j _ {N}} \}) + \\ \dots + \\ \log \Pr (\mathbf {y} _ {j _ {N}} | \mathbf {x}, \{\mathbf {y} _ {j _ {N}} \}) \\ = \sum_ {k = 1} ^ {N} \log \Pr \left(\mathbf {y} _ {j _ {k}} \mid \mathbf {x}, \mathring {Y} _ {\geq k}\right) \tag {4.60} \\ \end{array}
+\begin{array}{l} \log \Pr (\mathring {Y} | \mathbf {x}) = \log \Pr (\mathbf {y}_{j_{1}} \succ \mathbf {y}_{j_{2}} \succ \dots \succ \mathbf {y}_{j_{N}} | \mathbf {x}) \\ = \log \Pr \left(\mathbf {y}_{j_{1}} | \mathbf {x}, \left\{\mathbf {y}_{j_{1}}, \mathbf {y}_{j_{2}}, \dots , \mathbf {y}_{j_{N}} \right\}\right) + \\ \log \Pr (\mathbf {y}_{j_{2}} | \mathbf {x}, \{\mathbf {y}_{j_{2}}, \dots , \mathbf {y}_{j_{N}} \}) + \\ \dots + \\ \log \Pr (\mathbf {y}_{j_{N}} | \mathbf {x}, \{\mathbf {y}_{j_{N}} \}) \\ = \sum_{k = 1}^{N} \log \Pr \left(\mathbf {y}_{j_{k}} \mid \mathbf {x}, \mathring {Y}_{\geq k}\right) \tag {4.60} \\ \end{array}
 $$
 
 where  $\mathring{Y}_{\geq k}$  represents the subset of the list of outputs that remain unselected at the  $k$ -th stage, i.e.,  $\mathring{Y}_{\geq k} = \{\mathbf{y}_{j_k}, \dots, \mathbf{y}_{j_N}\}$ . Given the log-probability  $\log \operatorname*{Pr}(\mathring{Y}|\mathbf{x})$ , we can define the loss function based on the Plackett-Luce model by
 
 $$
-\mathcal {L} _ {\mathrm {p l}} = - \mathbb {E} _ {(\mathbf {x}, \overset {\circ} {Y}) \sim \mathcal {D} _ {r}} [ \log \Pr (\overset {\circ} {Y} | \mathbf {x}) ] \tag {4.61}
+\mathcal {L}_{\mathrm{pl}} = - \mathbb {E}_{(\mathbf {x}, \overset {\circ} {Y}) \sim \mathcal {D}_{r}} [ \log \Pr (\overset {\circ} {Y} | \mathbf {x}) ] \tag {4.61}
 $$
 
 There are also many other pairwise and listwise methods for modeling rankings, such as RankNet [Burges et al., 2005] and ListNet [Cao et al., 2007]. All these methods can be categorized into a large family of learning-to-rank approaches, and most of them are applicable to the problem of modeling human preferences. However, discussing these methods is beyond the scope of this chapter. Interested readers can refer to books on this topic for more details [Liu, 2009; Li, 2011].
@@ -4649,7 +4536,7 @@ There are also many other pairwise and listwise methods for modeling rankings, s
 In addition to pairwise and listwise ranking, using pointwise methods to train reward models offers an alternative way to capture human preferences. Unlike methods that focus on the relative rankings between different outputs, pointwise methods treat each output independently. For example, human experts might assign a score to an individual output, such as a rating on a five-point scale. The objective is to adjust the reward model so that its outputs align with these scores. A simple way to achieve pointwise training is through regression techniques where the reward of each output is treated as a target variable. Let  $\varphi(\mathbf{x},\mathbf{y})$  be the score assigned to  $\mathbf{y}$  given  $\mathbf{x}$  by humans. Pointwise reward models can be trained by minimizing a loss function, often based on mean squared error or other regression losses, between the predicted reward  $r(\mathbf{x},\mathbf{y})$  and the actual human feedback  $\varphi(\mathbf{x},\mathbf{y})$ . For example, the loss function could be
 
 $$
-\mathcal {L} _ {\text {p o i n t}} = - \mathbb {E} \left[ \varphi (\mathbf {x}, \mathbf {y}) - r (\mathbf {x}, \mathbf {y}) \right] ^ {2} \tag {4.62}
+\mathcal {L}_{\text{point}} = - \mathbb {E} \left[ \varphi (\mathbf {x}, \mathbf {y}) - r (\mathbf {x}, \mathbf {y}) \right]^{2} \tag {4.62}
 $$
 
 While pointwise methods are conceptually simpler and can directly guide the reward model to
@@ -4659,7 +4546,7 @@ predict scores, they might not always be the best choice in RLHF. A problem is t
 In fact, to make the supervision signal for training the reward model more robust, we can also introduce additional regularization terms into training. For example, if we consider the first term  $U_{\mathrm{ppo - clip}}(\mathbf{x},\mathbf{y};\theta)$  in Eq. (4.54) as a type of generalized reward, then the second term (i.e., the penalty term) can be viewed as a form of regularization for the reward model, except that here the goal is to train the policy rather than the reward model. Another example is that Eisenstein et al. [2023] develop a regularization term based on the squared sum of rewards, and add it to the pairwise comparison loss in RLHF:
 
 $$
-\begin{array}{l} \mathcal {L} _ {\text {r e g}} = \mathcal {L} _ {\text {p a i r}} + \left(- \mathbb {E} _ {(\mathbf {x}, \mathbf {y} _ {a}, \mathbf {y} _ {b}) \sim \mathcal {D} _ {r}} \left[ r (\mathbf {x}, \mathbf {y} _ {a}) + r (\mathbf {x}, \mathbf {y} _ {b}) \right] ^ {2}\right) \\ = - \mathbb {E} _ {(\mathbf {x}, \mathbf {y} _ {a}, \mathbf {y} _ {b}) \sim \mathcal {D} _ {r}} \left[ \log \Pr_ {\phi} (\mathbf {y} _ {a} \succ \mathbf {y} _ {b} | \mathbf {x}) \right] \\ - \mathbb {E} _ {(\mathbf {x}, \mathbf {y} _ {a}, \mathbf {y} _ {b}) \sim \mathcal {D} _ {r}} \left[ r (\mathbf {x}, \mathbf {y} _ {a}) + r (\mathbf {x}, \mathbf {y} _ {b}) \right] ^ {2} \tag {4.63} \\ \end{array}
+\begin{array}{l} \mathcal {L}_{\text{reg}} = \mathcal {L}_{\text{pair}} + \left(- \mathbb {E}_{(\mathbf {x}, \mathbf {y}_{a}, \mathbf {y}_{b}) \sim \mathcal {D}_{r}} \left[ r (\mathbf {x}, \mathbf {y}_{a}) + r (\mathbf {x}, \mathbf {y}_{b}) \right]^{2}\right) \\ = - \mathbb {E}_{(\mathbf {x}, \mathbf {y}_{a}, \mathbf {y}_{b}) \sim \mathcal {D}_{r}} \left[ \log \Pr_{\phi} (\mathbf {y}_{a} \succ \mathbf {y}_{b} | \mathbf {x}) \right] \\ - \mathbb {E}_{(\mathbf {x}, \mathbf {y}_{a}, \mathbf {y}_{b}) \sim \mathcal {D}_{r}} \left[ r (\mathbf {x}, \mathbf {y}_{a}) + r (\mathbf {x}, \mathbf {y}_{b}) \right]^{2} \tag {4.63} \\ \end{array}
 $$
 
 Optimizing with this regularization term can help mitigate the underdetermination of reward models<sup>5</sup>.
@@ -4673,19 +4560,19 @@ Although we do not discuss methods for mitigating sparse rewards in detail here,
 rather some form of the accumulated rewards from  $t$  until the last time step. Such supervision signals are dense over the sequence, because the reward obtained at the end of the sequence can be transferred back to that time step, regardless of which time step it is. In other words, the sparse rewards are transformed into the dense supervision signals. Furthermore, from the perspective of reward shaping, Ng et al. [1999] show that the reward at  $t$  can be defined as
 
 $$
-r ^ {\prime} \left(s _ {t}, a _ {t}, s _ {t + 1}\right) = r \left(s _ {t}, a _ {t}, s _ {t + 1}\right) + f \left(s _ {t}, a _ {t}, s _ {t + 1}\right) \tag {4.64}
+r^{\prime} \left(s_{t}, a_{t}, s_{t + 1}\right) = r \left(s_{t}, a_{t}, s_{t + 1}\right) + f \left(s_{t}, a_{t}, s_{t + 1}\right) \tag {4.64}
 $$
 
 where  $r'(\cdot)$  is the transformed reward function,  $r(\cdot)$  is the original reward function, and  $f(\cdot)$  is the shaping reward function. To ensure the optimality of the policy under the transformed reward function, the shaping reward function can be given in the form
 
 $$
-f \left(s _ {t}, a _ {t}, s _ {t + 1}\right) = \gamma \Phi \left(s _ {t + 1}\right) - \Phi \left(s _ {t}\right) \tag {4.65}
+f \left(s_{t}, a_{t}, s_{t + 1}\right) = \gamma \Phi \left(s_{t + 1}\right) - \Phi \left(s_{t}\right) \tag {4.65}
 $$
 
 where  $\Phi(s)$  is called the potential value of the state  $s$ . If we define  $\Phi(s)$  as the common value function as in Eq. (4.15) and substitute Eq. (4.65) into Eq. (4.64), we obtain
 
 $$
-r ^ {\prime} \left(s _ {t}, a _ {t}, s _ {t + 1}\right) = r \left(s _ {t}, a _ {t}, s _ {t + 1}\right) + \gamma V \left(s _ {t + 1}\right) - V \left(s _ {t}\right) \tag {4.66}
+r^{\prime} \left(s_{t}, a_{t}, s_{t + 1}\right) = r \left(s_{t}, a_{t}, s_{t + 1}\right) + \gamma V \left(s_{t + 1}\right) - V \left(s_{t}\right) \tag {4.66}
 $$
 
 It is interesting to see that this function is exactly the same as the advantage function used in PPO. This relates advantage-based methods to reward shaping: the advantage is essentially a shaped reward.
@@ -4701,13 +4588,13 @@ For the problem of reward modeling, we often need to model different parts of a 
 sequence  $\mathbf{y}$  can be divided into  $n_s$  segments  $\{\bar{\mathbf{y}}_1,\dots,\bar{\mathbf{y}}_{n_s}\}$  by some criterion. We can use the reward model to evaluate each of these segments. By taking  $\mathbf{x}$ ,  $\mathbf{y}$  and  $\bar{\mathbf{y}}_k$  as input to the reward model, the reward score for the  $k$ -th segment is given by
 
 $$
-r ^ {k} = r (\mathbf {x}, \mathbf {y}, \bar {\mathbf {y}} _ {k}) \tag {4.67}
+r^{k} = r (\mathbf {x}, \mathbf {y}, \bar {\mathbf {y}}_{k}) \tag {4.67}
 $$
 
 Then the reward score for the entire output sequence is given by
 
 $$
-r (\mathbf {x}, \mathbf {y}) = \sum_ {k = 1} ^ {n _ {s}} r (\mathbf {x}, \mathbf {y}, \bar {\mathbf {y}} _ {k}) \tag {4.68}
+r (\mathbf {x}, \mathbf {y}) = \sum_{k = 1}^{n_{s}} r (\mathbf {x}, \mathbf {y}, \bar {\mathbf {y}}_{k}) \tag {4.68}
 $$
 
 Here  $r(\mathbf{x},\mathbf{y})$  can be used to train the policy as usual.
@@ -4715,19 +4602,19 @@ Here  $r(\mathbf{x},\mathbf{y})$  can be used to train the policy as usual.
 A problem with this model is that training reward models at the segment level is not as straightforward as learning from human preferences on entire texts, as it is difficult to obtain segment-level human preference data. For rating-like problems (e.g., we rate a segment according to its level of misinformation), one simple approach is to assign a rating score to each segment and train the reward model using pointwise methods. For example, we can use a strong LLM to rate the sequences  $\bar{\mathbf{y}}_1\dots \bar{\mathbf{y}}_{k - 1}$  and  $\bar{\mathbf{y}}_1\dots \bar{\mathbf{y}}_k$ , and obtain the scores  $s(\bar{\mathbf{y}}_1\dots \bar{\mathbf{y}}_{k - 1})$  and  $s(\bar{\mathbf{y}}_1\dots \bar{\mathbf{y}}_k)$ . We can then define the score of the segment  $\bar{\mathbf{y}}_k$  as the difference between  $s(\bar{\mathbf{y}}_1\dots \bar{\mathbf{y}}_k)$  and  $s(\bar{\mathbf{y}}_1\dots \bar{\mathbf{y}}_{k - 1})$
 
 $$
-s \left(\bar {\mathbf {y}} _ {k}\right) = s \left(\bar {\mathbf {y}} _ {1} \dots \bar {\mathbf {y}} _ {k}\right) - s \left(\bar {\mathbf {y}} _ {1} \dots \bar {\mathbf {y}} _ {k - 1}\right) \tag {4.69}
+s \left(\bar {\mathbf {y}}_{k}\right) = s \left(\bar {\mathbf {y}}_{1} \dots \bar {\mathbf {y}}_{k}\right) - s \left(\bar {\mathbf {y}}_{1} \dots \bar {\mathbf {y}}_{k - 1}\right) \tag {4.69}
 $$
 
 Using these segment-level scores, we can train the reward model with a regression loss function
 
 $$
-\mathcal {L} _ {\text {r a t i n g}} = - \mathbb {E} _ {\bar {\mathbf {y}} _ {k}} \left[ s (\bar {\mathbf {y}} _ {k}) - r (\mathbf {x}, \mathbf {y}, \bar {\mathbf {y}} _ {k}) \right] ^ {2} \tag {4.70}
+\mathcal {L}_{\text{rating}} = - \mathbb {E}_{\bar {\mathbf {y}}_{k}} \left[ s (\bar {\mathbf {y}}_{k}) - r (\mathbf {x}, \mathbf {y}, \bar {\mathbf {y}}_{k}) \right]^{2} \tag {4.70}
 $$
 
 Sometimes, alignment can be treated as a classification problem, for example, we assess whether a segment has ethical issues. In this case, the segment can be labeled as ethical or unethical, either by humans or using additional classifiers. Given the label of the segment, we can train the reward model using some classification loss function. For example, suppose that  $r(\mathbf{x}, \mathbf{y}, \bar{\mathbf{y}}_k) = 1$  if the segment is classified as unethical, and  $r(\mathbf{x}, \mathbf{y}, \bar{\mathbf{y}}_k) = -1$  otherwise<sup>6</sup>. The hinge loss of training binary classification models is given by
 
 $$
-\mathcal {L} _ {\text {h i n g e}} = \max  \left(0, 1 - r (\mathbf {x}, \mathbf {y}, \bar {\mathbf {y}} _ {k}) \cdot \hat {r}\right) \tag {4.71}
+\mathcal {L}_{\text{hinge}} = \max  \left(0, 1 - r (\mathbf {x}, \mathbf {y}, \bar {\mathbf {y}}_{k}) \cdot \hat {r}\right) \tag {4.71}
 $$
 
 where  $\hat{r} \in \{1, -1\}$  denotes the ground truth label.
@@ -4745,7 +4632,7 @@ Addressing the overoptimization problem is not easy, and there is no mature solu
 Given a set of reward models, combining them is straightforward, and in some cases, we can simply treat this problem as an ensemble learning problem. A simple yet common approach is to average the outputs of these models to obtain a more precise reward estimation:
 
 $$
-r _ {\text {c o m b i n e}} = \frac {1}{K} \sum_ {k = 1} ^ {K} w _ {k} \cdot r _ {k} (\mathbf {x}, \mathbf {y}) \tag {4.72}
+r_{\text{combine}} = \frac{1}{K} \sum_{k = 1}^{K} w_{k} \cdot r_{k} (\mathbf {x}, \mathbf {y}) \tag {4.72}
 $$
 
 where  $r_k(\cdot)$  is the  $k$ -th reward model in the ensemble,  $w_k$  is the weight of  $r_k(\cdot)$ , and  $K$  is the number of reward models. This combined reward can then be used to supervise the training of a policy. In fact, there are many ways to combine different models, for example, one can make predictions using Bayesian model averaging or develop a fusion network to learn to combine the predictions from different models. Alternatively, one can frame this task as a multi-objective optimization problem, and use multiple reward models to train the policy simultaneously. These methods have been intensively discussed in the literature on optimization and machine learning [Miettinen, 1999; Bishop, 2006].
@@ -4770,7 +4657,7 @@ Before deriving the DPO objective, let us first review the objective of policy t
 with a penalty term. The DPO method assumes a simple loss function where the quality of the output  $\mathbf{y}$  given the input  $\mathbf{x}$  is evaluated by the reward model  $r(\mathbf{x},\mathbf{y})$ . The training objective is thus given by
 
 $$
-\tilde {\theta} = \underset {\theta} {\arg \min } \mathbb {E} _ {\mathbf {x} \sim \mathcal {D}} \mathbb {E} _ {\mathbf {y} \sim \pi_ {\theta} (\cdot | \mathbf {x})} \left[ \underbrace {- r (\mathbf {x} , \mathbf {y})} _ {\text {l o s s}} + \beta \underbrace {\left(\log \pi_ {\theta} (\mathbf {y} | \mathbf {x}) - \log \pi_ {\theta_ {\mathrm {r e f}}} (\mathbf {y} | \mathbf {x})\right)} _ {\text {p e n a l t y}} \right] \tag {4.73}
+\tilde {\theta} = \underset {\theta} {\arg \min } \mathbb {E}_{\mathbf {x} \sim \mathcal {D}} \mathbb {E}_{\mathbf {y} \sim \pi_{\theta} (\cdot | \mathbf {x})} \left[ \underbrace {- r (\mathbf {x} , \mathbf {y})}_{\text{loss}} + \beta \underbrace {\left(\log \pi_{\theta} (\mathbf {y} | \mathbf {x}) - \log \pi_{\theta_{\mathrm{ref}}} (\mathbf {y} | \mathbf {x})\right)}_{\text{penalty}} \right] \tag {4.73}
 $$
 
 Note that in this optimization problem, only the term  $\pi_{\theta}(\mathbf{y}|\mathbf{x})$  depends on the target policy  $\pi_{\theta}(\cdot)$ . Both the reward model  $r(\mathbf{x},\mathbf{y})$  and the reference model  $\pi_{\theta_{\mathrm{ref}}}(\mathbf{y}|\mathbf{x})$  are assumed to be fixed given  $\mathbf{x}$  and  $\mathbf{y}$ . This is a strong assumption compared with PPO, but as will be shown later, it simplifies the problem and crucial for deriving the DPO objective.
@@ -4778,55 +4665,55 @@ Note that in this optimization problem, only the term  $\pi_{\theta}(\mathbf{y}|
 Since  $\theta$  is the variable we want to optimize, we rearrange the right-hand side of Eq. (4.73) to isolate  $\pi_{\theta}(\mathbf{y}|\mathbf{x})$  as an independent term:
 
 $$
-\begin{array}{l} \tilde {\theta} = \underset {\boldsymbol {\theta}} {\arg \min} \mathbb {E} _ {\mathbf {x} \sim \mathcal {D}} \mathbb {E} _ {\mathbf {y} \sim \pi_ {\boldsymbol {\theta}} (\cdot | \mathbf {x})} \big [ \beta \log \pi_ {\boldsymbol {\theta}} (\mathbf {y} | \mathbf {x}) - \beta \log \pi_ {\boldsymbol {\theta} _ {\mathrm {r e f}}} (\mathbf {y} | \mathbf {x}) - r (\mathbf {x}, \mathbf {y}) \big ] \\ { = } { \underset { \theta } { \operatorname* { a r g m i n } } \mathbb { E } _ { \mathbf { x } \sim \mathcal { D } } \mathbb { E } _ { \mathbf { y } \sim \pi _ { \theta } ( \cdot | \mathbf { x } ) } \big [ \log \pi _ { \theta } ( \mathbf { y } | \mathbf { x } ) - \big ( \log \pi _ { \theta _ { \mathrm { r e f } } } ( \mathbf { y } | \mathbf { x } ) + \frac { 1 } { \beta } r ( \mathbf { x } , \mathbf { y } ) \big ) \big ] } \\ = \underset {\theta} {\arg \min } \mathbb {E} _ {\mathbf {x} \sim \mathcal {D}} \mathbb {E} _ {\mathbf {y} \sim \pi_ {\theta} (\cdot | \mathbf {x})} \left[ \underbrace {\log \pi_ {\theta} (\mathbf {y} | \mathbf {x})} _ {\text {d e p e n d e n t o n} \theta} - \underbrace {\log \pi_ {\theta_ {\text {r e f}}} (\mathbf {y} | \mathbf {x}) \exp \left(\frac {1}{\beta} r (\mathbf {x} , \mathbf {y})\right)} _ {\text {n o t d e p e n d e n t o n} \theta} \right] \tag {4.74} \\ \end{array}
+\begin{array}{l} \tilde {\theta} = \underset {\boldsymbol {\theta}} {\arg \min} \mathbb {E}_{\mathbf {x} \sim \mathcal {D}} \mathbb {E}_{\mathbf {y} \sim \pi_{\boldsymbol {\theta}} (\cdot | \mathbf {x})} \big [ \beta \log \pi_{\boldsymbol {\theta}} (\mathbf {y} | \mathbf {x}) - \beta \log \pi_{\boldsymbol {\theta}_{\mathrm{ref}}} (\mathbf {y} | \mathbf {x}) - r (\mathbf {x}, \mathbf {y}) \big ] \\ { = } { \underset { \theta } { \operatorname* { a r g m i n } } \mathbb { E }_{ \mathbf { x } \sim \mathcal { D } } \mathbb { E }_{ \mathbf { y } \sim \pi_{ \theta } ( \cdot | \mathbf { x } ) } \big [ \log \pi_{ \theta } ( \mathbf { y } | \mathbf { x } ) - \big ( \log \pi_{ \theta_{ \mathrm{ref} } } ( \mathbf { y } | \mathbf { x } ) + \frac{ 1 } { \beta } r ( \mathbf { x } , \mathbf { y } ) \big ) \big ] } \\ = \underset {\theta} {\arg \min } \mathbb {E}_{\mathbf {x} \sim \mathcal {D}} \mathbb {E}_{\mathbf {y} \sim \pi_{\theta} (\cdot | \mathbf {x})} \left[ \underbrace {\log \pi_{\theta} (\mathbf {y} | \mathbf {x})}_{\text{dependenton} \theta} - \underbrace {\log \pi_{\theta_{\text{ref}}} (\mathbf {y} | \mathbf {x}) \exp \left(\frac{1}{\beta} r (\mathbf {x} , \mathbf {y})\right)}_{\text{notdependenton} \theta} \right] \tag {4.74} \\ \end{array}
 $$
 
 This equation defines the objective function as the difference between the log-probability distribution function of  $y$  and another function of  $y$ . This form of the objective function seems not "ideal", as we usually prefer to see the difference between two distributions, so that we can interpret this difference as some kind of divergence between the distributions. A simple idea is to convert the second term (i.e.,  $\log \pi_{\theta_{\mathrm{ref}}}\left(\mathbf{y}|\mathbf{x}\right)\exp \left(\frac{1}{\beta} r(\mathbf{x},\mathbf{y})\right)$ ) into a log-probability distribution over the domain of  $\mathbf{y}$ . If we treat  $\pi_{\theta_{\mathrm{ref}}}\left(\mathbf{y}|\mathbf{x}\right)\exp \left(\frac{1}{\beta} r(\mathbf{x},\mathbf{y})\right)$  as an unnormalized probability of  $y$ , we can convert it into a normalized probability by dividing it by a normalization factor:
 
 $$
-Z (\mathbf {x}) = \sum_ {\mathbf {y}} \pi_ {\theta_ {\mathrm {r e f}}} (\mathbf {y} | \mathbf {x}) \exp \left(\frac {1}{\beta} r (\mathbf {x}, \mathbf {y})\right) \tag {4.75}
+Z (\mathbf {x}) = \sum_{\mathbf {y}} \pi_{\theta_{\mathrm{ref}}} (\mathbf {y} | \mathbf {x}) \exp \left(\frac{1}{\beta} r (\mathbf {x}, \mathbf {y})\right) \tag {4.75}
 $$
 
 Hence we can define a probability distribution by
 
 $$
-\pi^ {*} (\mathbf {y} | \mathbf {x}) = \frac {\pi_ {\theta_ {\text {r e f}}} (\mathbf {y} | \mathbf {x}) \exp \left(\frac {1}{\beta} r (\mathbf {x} , \mathbf {y})\right)}{Z (\mathbf {x})} \tag {4.76}
+\pi^{*} (\mathbf {y} | \mathbf {x}) = \frac{\pi_{\theta_{\text{ref}}} (\mathbf {y} | \mathbf {x}) \exp \left(\frac{1}{\beta} r (\mathbf {x} , \mathbf {y})\right)}{Z (\mathbf {x})} \tag {4.76}
 $$
 
 We then rewrite Eq. (4.74) as
 
 $$
-\begin{array}{l} \tilde {\theta} = \underset {\theta} {\arg \min } \mathbb {E} _ {\mathbf {x} \sim \mathcal {D}} \mathbb {E} _ {\mathbf {y} \sim \pi_ {\theta} (\cdot | \mathbf {x})} \left[ \log \pi_ {\theta} (\mathbf {y} | \mathbf {x}) - \log \frac {\pi_ {\theta_ {\text {r e f}}} (\mathbf {y} | \mathbf {x}) \exp \left(\frac {1}{\beta} r (\mathbf {x} , \mathbf {y})\right)}{Z (\mathbf {x})} \right. \\ \left. - \log Z (\mathbf {x}) \right] \\ { = } { \underset { \theta } { \operatorname* { a r g m i n } } \mathbb { E } _ { \mathbf { x } \sim \mathcal { D } } \mathbb { E } _ { \mathbf { y } \sim \pi _ { \theta } ( \cdot | \mathbf { x } ) } \Big [ \log \pi _ { \theta } ( \mathbf { y } | \mathbf { x } ) - \log \pi ^ { * } ( \mathbf { y } | \mathbf { x } ) - \log Z ( \mathbf { x } ) \Big ] } \\ = \underset {\theta} {\arg \min } \mathbb {E} _ {\mathbf {x} \sim \mathcal {D}} \left[ \mathbb {E} _ {\mathbf {y} \sim \pi_ {\theta} (\cdot | \mathbf {x})} \left[ \log \pi_ {\theta} (\mathbf {y} | \mathbf {x}) - \log \pi^ {*} (\mathbf {y} | \mathbf {x}) \right] \right. \\ \left. - \mathbb {E} _ {\mathbf {y} \sim \pi_ {\theta} (\cdot | \mathbf {x})} [ \log Z (\mathbf {x}) ] \right] \\ = \underset {\theta} {\arg \min } \mathbb {E} _ {\mathbf {x} \sim \mathcal {D}} \left[ \underbrace {\operatorname {K L} \left(\pi_ {\theta} (\cdot | \mathbf {x}) \mid \mid \pi^ {*} (\cdot | \mathbf {x})\right)} _ {\text {K L d i v e r g e n c e}} - \underbrace {\log Z (\mathbf {x})} _ {\text {c o n s t a n t w r t .} \theta} \right] \tag {4.77} \\ \end{array}
+\begin{array}{l} \tilde {\theta} = \underset {\theta} {\arg \min } \mathbb {E}_{\mathbf {x} \sim \mathcal {D}} \mathbb {E}_{\mathbf {y} \sim \pi_{\theta} (\cdot | \mathbf {x})} \left[ \log \pi_{\theta} (\mathbf {y} | \mathbf {x}) - \log \frac{\pi_{\theta_{\text{ref}}} (\mathbf {y} | \mathbf {x}) \exp \left(\frac{1}{\beta} r (\mathbf {x} , \mathbf {y})\right)}{Z (\mathbf {x})} \right. \\ \left. - \log Z (\mathbf {x}) \right] \\ { = } { \underset { \theta } { \operatorname* { a r g m i n } } \mathbb { E }_{ \mathbf { x } \sim \mathcal { D } } \mathbb { E }_{ \mathbf { y } \sim \pi_{ \theta } ( \cdot | \mathbf { x } ) } \Big [ \log \pi_{ \theta } ( \mathbf { y } | \mathbf { x } ) - \log \pi^{ * } ( \mathbf { y } | \mathbf { x } ) - \log Z ( \mathbf { x } ) \Big ] } \\ = \underset {\theta} {\arg \min } \mathbb {E}_{\mathbf {x} \sim \mathcal {D}} \left[ \mathbb {E}_{\mathbf {y} \sim \pi_{\theta} (\cdot | \mathbf {x})} \left[ \log \pi_{\theta} (\mathbf {y} | \mathbf {x}) - \log \pi^{*} (\mathbf {y} | \mathbf {x}) \right] \right. \\ \left. - \mathbb {E}_{\mathbf {y} \sim \pi_{\theta} (\cdot | \mathbf {x})} [ \log Z (\mathbf {x}) ] \right] \\ = \underset {\theta} {\arg \min } \mathbb {E}_{\mathbf {x} \sim \mathcal {D}} \left[ \underbrace {\operatorname{KL} \left(\pi_{\theta} (\cdot | \mathbf {x}) \mid \mid \pi^{*} (\cdot | \mathbf {x})\right)}_{\text{KLdivergence}} - \underbrace {\log Z (\mathbf {x})}_{\text{constantwrt.} \theta} \right] \tag {4.77} \\ \end{array}
 $$
 
 Since  $\log Z(\mathbf{x})$  is independent of  $\theta$ , it does not affect the result of the  $\arg \min_{\theta}$  operation, and can be removed from the objective. Now we obtain a new training objective which finds the optimal policy  $\pi_{\theta}$  by minimizing the KL divergence between  $\pi_{\theta}(\cdot |\mathbf{x})$  and  $\pi^{*}(\cdot |\mathbf{x})$
 
 $$
-\tilde {\theta} = \underset {\theta} {\arg \min } \mathbb {E} _ {\mathbf {x} \sim \mathcal {D}} \left[ \mathrm {K L} \left(\pi_ {\theta} (\cdot | \mathbf {x}) \mid \mid \pi^ {*} (\cdot | \mathbf {x})\right) \right] \tag {4.78}
+\tilde {\theta} = \underset {\theta} {\arg \min } \mathbb {E}_{\mathbf {x} \sim \mathcal {D}} \left[ \mathrm{KL} \left(\pi_{\theta} (\cdot | \mathbf {x}) \mid \mid \pi^{*} (\cdot | \mathbf {x})\right) \right] \tag {4.78}
 $$
 
 Clearly, the solution to this optimization problem is given by
 
 $$
-\begin{array}{l} \pi_ {\theta} (\mathbf {y} | \mathbf {x}) = \pi^ {*} (\mathbf {y} | \mathbf {x}) \\ = \frac {\pi_ {\theta_ {\mathrm {r e f}}} (\mathbf {y} | \mathbf {x}) \exp \left(\frac {1}{\beta} r (\mathbf {x} , \mathbf {y})\right)}{Z (\mathbf {x})} \tag {4.79} \\ \end{array}
+\begin{array}{l} \pi_{\theta} (\mathbf {y} | \mathbf {x}) = \pi^{*} (\mathbf {y} | \mathbf {x}) \\ = \frac{\pi_{\theta_{\mathrm{ref}}} (\mathbf {y} | \mathbf {x}) \exp \left(\frac{1}{\beta} r (\mathbf {x} , \mathbf {y})\right)}{Z (\mathbf {x})} \tag {4.79} \\ \end{array}
 $$
 
 Given this equation, we can express the reward  $r(\mathbf{x}, \mathbf{y})$  using the target model  $\pi_{\theta}(\mathbf{y}|\mathbf{x})$ , the reference model  $\pi_{\theta_{\mathrm{ref}}}(\mathbf{y}|\mathbf{x})$ , and the normalization factor  $Z(\mathbf{x})$ :
 
 $$
-r (\mathbf {x}, \mathbf {y}) = \beta \left(\log \frac {\pi_ {\theta} (\mathbf {y} | \mathbf {x})}{\pi_ {\theta_ {\mathrm {r e f}}} (\mathbf {y} | \mathbf {x})} + \log Z (\mathbf {x})\right) \tag {4.80}
+r (\mathbf {x}, \mathbf {y}) = \beta \left(\log \frac{\pi_{\theta} (\mathbf {y} | \mathbf {x})}{\pi_{\theta_{\mathrm{ref}}} (\mathbf {y} | \mathbf {x})} + \log Z (\mathbf {x})\right) \tag {4.80}
 $$
 
 This is interesting because we initially seek to learn the policy  $\pi_{\theta}(\cdot)$  using the reward model  $r(\mathbf{x},\mathbf{y})$ , but eventually obtain a representation of the reward model based on the policy. Given the reward model defined in Eq. (4.80), we can apply it to the Bradley-Terry model to calculate the preference probability (also see Section 4.3.2):
 
 $$
-\begin{array}{l} \Pr_ {\theta} \left(\mathbf {y} _ {a} \succ \mathbf {y} _ {b} | \mathbf {x}\right) = \operatorname {S i g m o i d} \left(r \left(\mathbf {x}, \mathbf {y} _ {a}\right) - r \left(\mathbf {x}, \mathbf {y} _ {b}\right)\right) \\ = \operatorname {S i g m o i d} \left(\beta \left(\log \frac {\pi_ {\theta} (\mathbf {y} _ {a} | \mathbf {x})}{\pi_ {\theta_ {\text {r e f}}} (\mathbf {y} _ {a} | \mathbf {x})} + \log Z (\mathbf {x})\right) - \right. \\ \left. \beta \left(\log \frac {\pi_ {\theta} (\mathbf {y} _ {b} | \mathbf {x})}{\pi_ {\theta_ {\mathrm {r e f}}} (\mathbf {y} _ {b} | \mathbf {x})} + \log Z (\mathbf {x})\right)\right) \\ = \operatorname {S i g m o i d} \left(\beta \log \frac {\pi_ {\theta} (\mathbf {y} _ {a} | \mathbf {x})}{\pi_ {\theta_ {\text {r e f}}} (\mathbf {y} _ {a} | \mathbf {x})} - \beta \log \frac {\pi_ {\theta} (\mathbf {y} _ {b} | \mathbf {x})}{\pi_ {\theta_ {\text {r e f}}} (\mathbf {y} _ {b} | \mathbf {x})}\right) \tag {4.81} \\ \end{array}
+\begin{array}{l} \Pr_{\theta} \left(\mathbf {y}_{a} \succ \mathbf {y}_{b} | \mathbf {x}\right) = \operatorname{Sigmoid} \left(r \left(\mathbf {x}, \mathbf {y}_{a}\right) - r \left(\mathbf {x}, \mathbf {y}_{b}\right)\right) \\ = \operatorname{Sigmoid} \left(\beta \left(\log \frac{\pi_{\theta} (\mathbf {y}_{a} | \mathbf {x})}{\pi_{\theta_{\text{ref}}} (\mathbf {y}_{a} | \mathbf {x})} + \log Z (\mathbf {x})\right) - \right. \\ \left. \beta \left(\log \frac{\pi_{\theta} (\mathbf {y}_{b} | \mathbf {x})}{\pi_{\theta_{\mathrm{ref}}} (\mathbf {y}_{b} | \mathbf {x})} + \log Z (\mathbf {x})\right)\right) \\ = \operatorname{Sigmoid} \left(\beta \log \frac{\pi_{\theta} (\mathbf {y}_{a} | \mathbf {x})}{\pi_{\theta_{\text{ref}}} (\mathbf {y}_{a} | \mathbf {x})} - \beta \log \frac{\pi_{\theta} (\mathbf {y}_{b} | \mathbf {x})}{\pi_{\theta_{\text{ref}}} (\mathbf {y}_{b} | \mathbf {x})}\right) \tag {4.81} \\ \end{array}
 $$
 
 This formula is elegant because it converts the difference in rewards into the difference in ratio functions, and we do not need to calculate the value of  $Z(\mathbf{x})$ . A direct result is that we no longer need a reward model, but only need the target policy and reference model to calculate the probability of preferences. Finally, we can train the target policy by minimizing the following DPO loss function
 
 $$
-\mathcal {L} _ {\mathrm {d p o}} (\theta) = - \mathbb {E} _ {(\mathbf {x}, \mathbf {y} _ {a}, \mathbf {y} _ {b}) \sim \mathcal {D} _ {r}} \left[ \log \Pr_ {\theta} \left(\mathbf {y} _ {a} \succ \mathbf {y} _ {b} \mid \mathbf {x}\right) \right] \tag {4.82}
+\mathcal {L}_{\mathrm{dpo}} (\theta) = - \mathbb {E}_{(\mathbf {x}, \mathbf {y}_{a}, \mathbf {y}_{b}) \sim \mathcal {D}_{r}} \left[ \log \Pr_{\theta} \left(\mathbf {y}_{a} \succ \mathbf {y}_{b} \mid \mathbf {x}\right) \right] \tag {4.82}
 $$
 
 The form of this loss function is very similar to that used in training reward models in RLHF (see Eq. (4.36)). But it should be noted that the loss function here depends on the parameters of the policy (i.e.,  $\theta$ ) rather than the parameters of the reward model (i.e.,  $\phi$ ).
@@ -4908,7 +4795,7 @@ learning from reasoning mistakes. Instead, annotating steps that the model confi
 Given a set of step-level annotated reasoning paths and corresponding inputs, we can train a reward model to provide feedback for supervising policy learning. The reward model can be treated as a classification model, and so its architecture can be a Transformer decoder with a Softmax layer stacked on top. At step  $k$ , the reward model takes both the problem description (denoted by  $\mathbf{x}$ ) and the reasoning steps generated so far (denoted by  $\bar{\mathbf{y}}_{\leq k}$ ) as input and outputs a probability distribution over the label set {correct, incorrect} or {correct, incorrect, neutral}. Then the learned reward model is used to evaluate reasoning paths by assessing the correctness of each step. A simple method to model correctness is to count the number of steps that are classified as correct, given by
 
 $$
-r (\mathbf {x}, \mathbf {y}) = \sum_ {k = 1} ^ {n _ {s}} \delta (c o r r e c t, C (\mathbf {x}, \bar {\mathbf {y}} _ {\leq k})) \tag {4.83}
+r (\mathbf {x}, \mathbf {y}) = \sum_{k = 1}^{n_{s}} \delta (c o r r e c t, C (\mathbf {x}, \bar {\mathbf {y}}_{\leq k})) \tag {4.83}
 $$
 
 where  $C(\mathbf{x},\bar{\mathbf{y}}_{\leq k})$  denotes the label with the maximum probability. We can also use log-probabilities
@@ -4916,7 +4803,7 @@ where  $C(\mathbf{x},\bar{\mathbf{y}}_{\leq k})$  denotes the label with the max
 of classification to define the reward of the entire path
 
 $$
-r (\mathbf {x}, \mathbf {y}) = \sum_ {k = 1} ^ {n _ {s}} \log \Pr (c o r r e c t | \mathbf {x}, \bar {\mathbf {y}} _ {\leq k}) \tag {4.84}
+r (\mathbf {x}, \mathbf {y}) = \sum_{k = 1}^{n_{s}} \log \Pr (c o r r e c t | \mathbf {x}, \bar {\mathbf {y}}_{\leq k}) \tag {4.84}
 $$
 
 where  $\operatorname{Pr}(\text{correct}|\mathbf{x},\bar{\mathbf{y}}_{\leq k})$  denotes the probability of the correct label generated by the reward model. The reward score  $r(\mathbf{x},\mathbf{y})$  can then be used to train the policy in RLHF as usual.
@@ -4936,13 +4823,13 @@ One simple way to achieve inference-time alignment is to use the reward model to
 In the BoN sampling process, the LLM takes the input sequence  $\mathbf{x}$  and generates  $N$  different output sequences  $\{\hat{y}_1,\dots ,\hat{y}_N\}$ :
 
 $$
-\left\{\hat {\mathbf {y}} _ {1}, \dots , \hat {\mathbf {y}} _ {N} \right\} = \underset {\mathbf {y}} {\arg \operatorname {T o p N}} \left[ \Pr (\mathbf {y} | \mathbf {x}) \right] \tag {4.85}
+\left\{\hat {\mathbf {y}}_{1}, \dots , \hat {\mathbf {y}}_{N} \right\} = \underset {\mathbf {y}} {\arg \operatorname{TopN}} \left[ \Pr (\mathbf {y} | \mathbf {x}) \right] \tag {4.85}
 $$
 
 where the  $\mathrm{argTopN}$  operation returns the top- $N$  outputs that maximize the function  $\operatorname{Pr}(\mathbf{y}|\mathbf{x})$ . These outputs can be generated in a variety of ways, depending on the search algorithm used by the model (e.g., sampling or beam search). Once the  $N$ -best output candidates are generated, the reward model is used to evaluate and select the best one:
 
 $$
-\hat {\mathbf {y}} _ {\text {b e s t}} = \max  \left\{r \left(\mathbf {x}, \hat {\mathbf {y}} _ {1}\right), \dots , r \left(\mathbf {x}, \hat {\mathbf {y}} _ {N}\right) \right\} \tag {4.86}
+\hat {\mathbf {y}}_{\text{best}} = \max  \left\{r \left(\mathbf {x}, \hat {\mathbf {y}}_{1}\right), \dots , r \left(\mathbf {x}, \hat {\mathbf {y}}_{N}\right) \right\} \tag {4.86}
 $$
 
 It is worth noting that the result of BoN sampling is also influenced by the diversity of the  $N$ -best list. This is a common issue with most reranking methods. Typically, we wish the  $N$ -best output candidates to have relatively high quality but be sufficiently different from each other. In many text generation systems, the  $N$ -best outputs are very similar, often differing by just one or two words. The diversity issue is even more challenging in LLMs, as the  $N$ -best outputs generated by an LLM can be different in their wordings, yet their semantic meanings are often quite similar. In practice, one can adjust the model hyperparameters and/or adopt different LLMs to generate more diverse output candidates for reranking. Nevertheless, as with many practical systems, we need to make a trade-off between selecting high-quality candidates and ensuring sufficient variation in the generated outputs.
@@ -5016,7 +4903,7 @@ where  $\log \operatorname{Pr}([\mathbf{x},\mathbf{y}])$  and  $\log \operatorna
 rule
 
 $$
-\begin{array}{l} \log \Pr (\mathbf {x}) = \log \Pr (x _ {0} \dots x _ {m}) \\ = \log \left[ \Pr (x _ {0}) \Pr (x _ {1} | x _ {0}) \dots \Pr (x _ {m} | x _ {0} \dots x _ {m - 1}) \right] \\ = \underbrace {\log \Pr (x _ {0})} _ {= 0} + \sum_ {j = 1} ^ {m} \log \Pr (x _ {j} | \mathbf {x} _ {<   j}) \\ = \sum_ {j = 1} ^ {m} \log \Pr \left(x _ {j} \mid \mathbf {x} _ {<   j}\right) \tag {5.3} \\ \end{array}
+\begin{array}{l} \log \Pr (\mathbf {x}) = \log \Pr (x_{0} \dots x_{m}) \\ = \log \left[ \Pr (x_{0}) \Pr (x_{1} | x_{0}) \dots \Pr (x_{m} | x_{0} \dots x_{m - 1}) \right] \\ = \underbrace {\log \Pr (x_{0})}_{= 0} + \sum_{j = 1}^{m} \log \Pr (x_{j} | \mathbf {x}_{<   j}) \\ = \sum_{j = 1}^{m} \log \Pr \left(x_{j} \mid \mathbf {x}_{<   j}\right) \tag {5.3} \\ \end{array}
 $$
 
 In other words, we calculate the token prediction log-probability at each position of  $\mathbf{x}$ , and sum all these log-probabilities.
@@ -5024,7 +4911,7 @@ In other words, we calculate the token prediction log-probability at each positi
 In common implementations of LLMs, however, we do not need to compute the log-probability of the input sequence, but use the LLM to directly compute the log-probability of the output sequence in the following form
 
 $$
-\log \Pr (\mathbf {y} | \mathbf {x}) = \sum_ {i = 1} ^ {n} \log \Pr \left(y _ {i} | \mathbf {x}, \mathbf {y} _ {<   i}\right) \tag {5.4}
+\log \Pr (\mathbf {y} | \mathbf {x}) = \sum_{i = 1}^{n} \log \Pr \left(y_{i} | \mathbf {x}, \mathbf {y}_{<   i}\right) \tag {5.4}
 $$
 
 where  $[\mathbf{x},\mathbf{y}_{< i}]$  represents the context for predicting  $y_{i}$ . We use  $\operatorname*{Pr}(y_i|\mathbf{x},\mathbf{y}_{< i})$  to denote  $\operatorname*{Pr}(y_i|[x,y_{< i}])$ , following the commonly used notation in the literature.
@@ -5037,11 +4924,11 @@ Now, we have two sub-problems in addressing the inference issue described in Eq.
 The second sub-problem is a classic issue in NLP. We will show in Section 5.1.3 that there are several well-studied algorithms that can be applied to efficiently search the space of possible output sequences. The first sub-problem requires a language model to produce a distribution over a vocabulary  $V$  given a sequence of context tokens. We can do this by training a Transformer decoder, which outputs the distribution
 
 $$
-\Pr (\cdot | \mathbf {x}, \mathbf {y} _ {<   i}) = \operatorname {S o f t m a x} \left(\mathbf {H} \mathbf {W} ^ {o}\right) _ {m + i} \tag {5.5}
+\Pr (\cdot | \mathbf {x}, \mathbf {y}_{<   i}) = \operatorname{Softmax} \left(\mathbf {H} \mathbf {W}^{o}\right)_{m + i} \tag {5.5}
 $$
 
 $$
-\mathbf {H} = \operatorname {D e c} \left(\left[ \mathbf {x}, \mathbf {y} _ {<   i} \right]\right) \tag {5.6}
+\mathbf {H} = \operatorname{Dec} \left(\left[ \mathbf {x}, \mathbf {y}_{<   i} \right]\right) \tag {5.6}
 $$
 
 Here  $\mathrm{Dec}(\cdot)$  produces a sequence of representations, each corresponding to a position of the input sequence. So, if we input  $[\mathbf{x},\mathbf{y}_{< i}]$  to the LLM,  $\mathbf{H}$  is an  $i^{\prime}\times d$  matrix, where  $d$  is the dimensionality of each representation, and  $i^{\prime} = m + i$  is the number of context tokens. We can then use a Softmax layer to transform these representations into distributions of tokens.  $\mathbf{W}^{o}\in \mathbb{R}^{d\times |V|}$  is the linear mapping matrix of the Softmax layer, and  $\mathbf{HW}^o$  transforms the  $d$ -dimensional representations in  $\mathbf{H}$  into the  $|V|$ -dimensional representations. The use of the subscript  $m + i$  indicates that the Softmax function is performed only on the representation at position  $m + i$ . See Figure 5.1 for an illustration of this architecture.
@@ -5052,7 +4939,7 @@ Fig. 5.1: The decoder-only architecture for LLMs. The decoder consists of an emb
 $\mathrm{Dec}(\cdot)$  is a Transformer decoding network that consists of an embedding network and a number of stacked self-attention and FFN networks. We will not discuss Transformers in detail here, as readers can easily learn about these models from the literature. However, it is worth pointing out that the difficulty of inference is in part from the use of the self-attention mechanism in Transformers. Recall that a general form of single-head self-attention is given by
 
 $$
-\mathrm {A t t} _ {\mathrm {q k v}} (\mathbf {q} _ {i ^ {\prime}}, \mathbf {K}, \mathbf {V}) = \mathrm {S o f t m a x} \left(\frac {\mathbf {q} _ {i ^ {\prime}} \cdot \mathbf {K} ^ {\mathrm {T}}}{\sqrt {d}}\right) \mathbf {V} \tag {5.7}
+\mathrm{Att}_{\mathrm{qkv}} (\mathbf {q}_{i^{\prime}}, \mathbf {K}, \mathbf {V}) = \mathrm{Softmax} \left(\frac{\mathbf {q}_{i^{\prime}} \cdot \mathbf {K}^{\mathrm{T}}}{\sqrt{d}}\right) \mathbf {V} \tag {5.7}
 $$
 
 where  $\mathbf{q}_{i'} \in \mathbb{R}^d$  is the query at the position  $i'$  (i.e., position of  $y_i$ ), and  $\mathbf{K}$  and  $\mathbf{V} \in \mathbb{R}^{i' \times d}$  are the keys and values up to  $i'$ , respectively.
@@ -5066,11 +4953,11 @@ standard Transformer architecture.
 Note that in self-attention, the queries, keys, and values of a layer are linear mappings from the same input (i.e., the output of the previous layer). Once a new key-value pair is generated, it is repeatedly used in subsequent inference steps. Rather than regenerating these key-value pairs during inference, a more desirable way is to store them in a structure, called the key-value cache, or the KV cache. Thus,  $(\mathbf{K},\mathbf{V})$  can straightforwardly be considered a KV cache. This cache is updated as follows
 
 $$
-\mathbf {K} = \operatorname {A p p e n d} \left(\mathbf {K}, \mathbf {k} _ {i ^ {\prime}}\right) \tag {5.8}
+\mathbf {K} = \operatorname{Append} \left(\mathbf {K}, \mathbf {k}_{i^{\prime}}\right) \tag {5.8}
 $$
 
 $$
-\mathbf {V} = \operatorname {A p p e n d} \left(\mathbf {V}, \mathbf {v} _ {i ^ {\prime}}\right) \tag {5.9}
+\mathbf {V} = \operatorname{Append} \left(\mathbf {V}, \mathbf {v}_{i^{\prime}}\right) \tag {5.9}
 $$
 
 where  $(\mathbf{k}_{i'}, \mathbf{v}_{i'})$  is the newly generated key-value pair at position  $i'$ , and  $\operatorname{Append}(\mathbf{a}, \mathbf{b})$  denotes a function that appends a row vector  $\mathbf{b}$  to a matrix  $\mathbf{a}$ . Figure 5.2 shows how a Transformer decoder works with a KV cache.
@@ -5101,7 +4988,7 @@ Fig. 5.2: Illustration of the KV cache. We update the KV cache at a position, pe
 in the input before the actual inference begins. The process of prefilling in an LLM can be expressed as
 
 $$
-\operatorname {c a c h e} = \operatorname {D e c} _ {\mathrm {k v}} (\mathbf {x}) \tag {5.10}
+\operatorname{cache} = \operatorname{Dec}_{\mathrm{kv}} (\mathbf {x}) \tag {5.10}
 $$
 
 where  $\mathrm{Dec}_{\mathrm{kv}}(\cdot)$  is the decoding network (i.e., the same as  $\mathrm{Dec}(\cdot)$ ), but it returns the KV
@@ -5111,7 +4998,7 @@ where  $\mathrm{Dec}_{\mathrm{kv}}(\cdot)$  is the decoding network (i.e., the s
 cache in self-attention instead of the output representations. cache is a list, given by
 
 $$
-\operatorname {c a c h e} = \left\{\operatorname {c a c h e} ^ {1}, \dots , \operatorname {c a c h e} ^ {L} \right\} \tag {5.11}
+\operatorname{cache} = \left\{\operatorname{cache}^{1}, \dots , \operatorname{cache}^{L} \right\} \tag {5.11}
 $$
 
 where  $\mathrm{cache}^l$  represents the key-value pairs for the  $l$ -th layer.
@@ -5119,7 +5006,7 @@ where  $\mathrm{cache}^l$  represents the key-value pairs for the  $l$ -th layer
 - Decoding. The decoding phase continues generating tokens based on the KV cache, as illustrated in Figure 5.2. When a new token is input into the decoder, we update the KV cache in each layer by adding the new key-value pair. The updated cache is then used for self-attention computation. The token generation stops when some stopping criterion is met, such as when the generated token is the end symbol. The goal of decoding is to find the best predicted sequence, which is given by
 
 $$
-\hat {\mathbf {y}} = \underset {\mathbf {y}} {\arg \max } \Pr (\mathbf {y} | \text {c a c h e}) \tag {5.12}
+\hat {\mathbf {y}} = \underset {\mathbf {y}} {\arg \max } \Pr (\mathbf {y} | \text{cache}) \tag {5.12}
 $$
 
 Here we use  $\operatorname*{Pr}(\mathbf{y}|\mathrm{cache})$  instead of  $\operatorname*{Pr}(\mathbf{y}|\mathbf{x})$  to emphasize that the decoding process actually relies on the KV cache rather than  $\mathbf{x}$ .
@@ -5129,7 +5016,7 @@ The prefetching and decoding processes are illustrated in Figure 5.3. Note that 
 In essence, while the underlying model of prefetching is based on token prediction, it can be considered an encoding process. This is because our goal is not to generate tokens, but to build a context representation (i.e., the KV cache) for the subsequent steps in the decoding phase. In this sense, it is similar to BERT, where we encode the input sequence into a sequence of contextualized token representations. On the other hand, unlike BERT which generates bidirectional sequence representations, prefetching is based on standard language modeling tasks, and is thus unidirectional. Note that, since the entire sequence  $\mathbf{x}$  is input into the model all at once, all queries can be packed together and the self-attention operation is performed on  $\mathbf{x}$  in parallel. Let  $\mathbf{Q}$  be the queries that are packed into one matrix. The self-attention model in prefetching can be defined as
 
 $$
-\operatorname {A t t} _ {\mathrm {q k v}} (\mathbf {Q}, \mathbf {K}, \mathbf {V}) = \operatorname {S o f t m a x} \left(\frac {\mathbf {Q K} ^ {\mathrm {T}}}{\sqrt {d}} + \mathbf {M a s k}\right) \mathbf {V} \tag {5.13}
+\operatorname{Att}_{\mathrm{qkv}} (\mathbf {Q}, \mathbf {K}, \mathbf {V}) = \operatorname{Softmax} \left(\frac{\mathbf {Q K}^{\mathrm{T}}}{\sqrt{d}} + \mathbf {M a s k}\right) \mathbf {V} \tag {5.13}
 $$
 
 where  $\mathbf{Q},\mathbf{K},\mathbf{V}\in \mathbb{R}^{d\times (m + 1)}$ .  $\mathbf{Mask}\in \mathbb{R}^{(m + 1)\times (m + 1)}$  is a mask that ensures that each token only attends to itself and the tokens that precede it in the sequence. It is represented by setting the values in the mask corresponding to future tokens to a large negative number, for example, for the query  $\mathbf{q}_i$  and the key  $\mathbf{k}_j$ , we set the value of the entry  $(i,j)$  to  $-\infty$  if  $i < j$ . One advantage of processing the sequence with a single self-attention computation is that we can make better use of the parallel computing capabilities of modern GPUs, and so speed up prefetching. In general, the prefetching process is considered compute-bound. This is because merging multiple computational operations into one operation reduces the number of data transfers and the performance bottleneck usually comes from the computational capacity rather than memory bandwidth.
@@ -5188,13 +5075,13 @@ Let  $Y_{i}$  be the set of the sequences that the LLM generates at step  $i$ . 
 following recursive form
 
 $$
-Y _ {i} = Y _ {i - 1} \times V \tag {5.15}
+Y_{i} = Y_{i - 1} \times V \tag {5.15}
 $$
 
 where  $Y_{i - 1} \times V$  denotes the Cartesian product of  $Y_{i - 1}$  and  $V$  (i.e., each sequence in  $Y_{i - 1}$  is concatenated with each token in  $V$ ). Note that if a sequence in  $Y_{i - 1}$  is complete (e.g., ending with the  $\langle \mathrm{EOS} \rangle$  token), it will not be expanded any further. Let  $\Psi(Y_i)$  be the set of all complete sequences in  $Y_i$ . Then, the search space can be expressed as
 
 $$
-\mathcal {Y} = \Psi \left(Y _ {1}\right) \bigcup \Psi \left(Y _ {2}\right) \bigcup \dots \bigcup \Psi \left(Y _ {n _ {\max }}\right) \tag {5.16}
+\mathcal {Y} = \Psi \left(Y_{1}\right) \bigcup \Psi \left(Y_{2}\right) \bigcup \dots \bigcup \Psi \left(Y_{n_{\max }}\right) \tag {5.16}
 $$
 
 where  $n_{\mathrm{max}}$  is the maximum length of a sequence.
@@ -5202,7 +5089,7 @@ where  $n_{\mathrm{max}}$  is the maximum length of a sequence.
 Most decoding algorithms follow this level-by-level search process. However,  $\mathcal{V}$  consists of an exponentially large number of sequences, and a direct search in such a vast space is computationally infeasible. Therefore, practical decoding algorithms often rely on strategies to prune the search space and avoid exploring low-quality sequences. For example, at each decoding step,  $Y_{i}$  can be obtained in the following way
 
 $$
-Y _ {i} = \Pr \mathrm {r u n e} \left(Y _ {i - 1} \times V\right) \tag {5.17}
+Y_{i} = \Pr \mathrm{rune} \left(Y_{i - 1} \times V\right) \tag {5.17}
 $$
 
 where  $\operatorname{Prune}(\cdot)$  is a function that selectively removes sequences less likely to result in high-quality outcomes. In general, we expect that  $|Y_i| \ll |Y_{i-1}| \cdot |V|$ . Thus we can drastically reduce the number of sequences under consideration at each step, ensuring that the computational load does not grow exponentially with the sequence length.
@@ -5214,7 +5101,7 @@ Next, we will introduce these decoding algorithms. Some of them have already bee
 Greedy search (or greedy decoding) is one of the most widely used decoding methods in NLP, particularly in text generation tasks like machine translation. The idea behind greedy search is straightforward: at each step in generation, it selects the next token that has the highest prediction probability. For each sequence  $\mathbf{y} = y_{1}\dots y_{i}\in Y_{i - 1}\times V$ , we can evaluate it using  $\log \operatorname *{Pr}(\mathbf{y}|\mathbf{x})$ . This log-probability can be easily computed by noting that
 
 $$
-\begin{array}{l} \log \Pr (\mathbf {y} | \mathbf {x}) = \log \Pr (y _ {1} \dots y _ {i} | \mathbf {x}) \\ = \underbrace {\log \Pr (\mathbf {y} _ {<   i} | \mathbf {x})} _ {\text {a c c u m u l a t e d u p t o t h e p a r e n t n o d e}} + \underbrace {\log \Pr \left(y _ {i} | \mathbf {x} , \mathbf {y} _ {<   i}\right)} _ {\text {n e w l y c o m p u t e d f o r t h e c u r r e n t n o d e}} \tag {5.18} \\ \end{array}
+\begin{array}{l} \log \Pr (\mathbf {y} | \mathbf {x}) = \log \Pr (y_{1} \dots y_{i} | \mathbf {x}) \\ = \underbrace {\log \Pr (\mathbf {y}_{<   i} | \mathbf {x})}_{\text{accumulateduptotheparentnode}} + \underbrace {\log \Pr \left(y_{i} | \mathbf {x} , \mathbf {y}_{<   i}\right)}_{\text{newlycomputedforthecurrentnode}} \tag {5.18} \\ \end{array}
 $$
 
 Here the first term is the sum of the log-probabilities of the path from the root to the parent node, which has been computed in the previous decoding steps. At step  $i$ , we only need to compute the second term which is the standard token prediction log-probability produced by the LLM.
@@ -5222,19 +5109,19 @@ Here the first term is the sum of the log-probabilities of the path from the roo
 The "best" token at step  $i$  is then chosen as
 
 $$
-\begin{array}{l} y _ {i} ^ {\mathrm {t o p 1}} = \underset {y _ {i} \in V} {\arg \max} \log \Pr (y _ {1} \ldots y _ {i} | \mathbf {x}) \\ = \underset {y _ {i} \in V} {\arg \max } \left[ \underbrace {\log \Pr (\mathbf {y} _ {<   i} | \mathbf {x})} _ {\text {f i x e d w r t .} y _ {i}} + \log \Pr (y _ {i} | \mathbf {x}, \mathbf {y} _ {<   i}) \right] \\ = \underset {y _ {i} \in V} {\arg \max } \log \Pr \left(y _ {i} | \mathbf {x}, \mathbf {y} _ {<   i}\right) \tag {5.19} \\ \end{array}
+\begin{array}{l} y_{i}^{\mathrm{top1}} = \underset {y_{i} \in V} {\arg \max} \log \Pr (y_{1} \ldots y_{i} | \mathbf {x}) \\ = \underset {y_{i} \in V} {\arg \max } \left[ \underbrace {\log \Pr (\mathbf {y}_{<   i} | \mathbf {x})}_{\text{fixedwrt.} y_{i}} + \log \Pr (y_{i} | \mathbf {x}, \mathbf {y}_{<   i}) \right] \\ = \underset {y_{i} \in V} {\arg \max } \log \Pr \left(y_{i} | \mathbf {x}, \mathbf {y}_{<   i}\right) \tag {5.19} \\ \end{array}
 $$
 
 Thus, the "best" sequence generated up to step  $i$  is given by
 
 $$
-\mathbf {y} ^ {\text {t o p 1}} = y _ {1} \dots y _ {i - 1} y _ {i} ^ {\text {t o p 1}} \tag {5.20}
+\mathbf {y}^{\text{top1}} = y_{1} \dots y_{i - 1} y_{i}^{\text{top1}} \tag {5.20}
 $$
 
 Finally,  $Y_{i}$  contains only this sequence
 
 $$
-Y _ {i} = \left\{\mathbf {y} ^ {\text {t o p 1}} \right\} \tag {5.21}
+Y_{i} = \left\{\mathbf {y}^{\text{top1}} \right\} \tag {5.21}
 $$
 
 The greedy choice in one decoding step is illustrated in Figure 5.5 (a). Greedy search offers computational efficiency and simplicity in implementation for LLM inference. Its primary disadvantage, however, lies in its suboptimal nature — high-quality sequences are likely pruned at early stages of decoding. Therefore, greedy search is appealing for tasks that demand speed and simplicity. For tasks that require better search results, alternative strategies such as beam search, which explores multiple potential paths simultaneously, are preferable.
@@ -5246,13 +5133,13 @@ Beam search (or beam decoding) is a natural extension of greedy search. Instead 
 Let  $K$  be the beam width. Given a parent node, which corresponds to the prefix  $y_{1} \ldots y_{i-1}$ , we can select the top- $K$  next tokens by
 
 $$
-\left\{y _ {i} ^ {\operatorname {t o p 1}}, \dots , y _ {i} ^ {\operatorname {t o p} K} \right\} = \underset {y _ {i} \in V} {\arg \operatorname {T o p K}} \Pr \left(y _ {i} | \mathbf {x}, \mathbf {y} _ {<   i}\right) \tag {5.22}
+\left\{y_{i}^{\operatorname{top1}}, \dots , y_{i}^{\operatorname{top} K} \right\} = \underset {y_{i} \in V} {\arg \operatorname{TopK}} \Pr \left(y_{i} | \mathbf {x}, \mathbf {y}_{<   i}\right) \tag {5.22}
 $$
 
 where  $\arg \mathrm{TopK}$  is a function that ranks the prediction probabilities of all possible next tokens and selects the top  $K$  candidates. Given these tokens, the top- $K$  sequences for step  $i$  are given by
 
 $$
-\mathbf {y} ^ {\text {t o p 1}} = y _ {1} \dots y _ {i - 1} y _ {i} ^ {\text {t o p 1}} \tag {5.23}
+\mathbf {y}^{\text{top1}} = y_{1} \dots y_{i - 1} y_{i}^{\text{top1}} \tag {5.23}
 $$
 
 $$
@@ -5260,13 +5147,13 @@ $$
 $$
 
 $$
-\mathbf {y} ^ {\operatorname {t o p} K} = y _ {1} \dots y _ {i - 1} y _ {i} ^ {\operatorname {t o p} K} \tag {5.24}
+\mathbf {y}^{\operatorname{top} K} = y_{1} \dots y_{i - 1} y_{i}^{\operatorname{top} K} \tag {5.24}
 $$
 
 Then, we can define  $Y_{i}$  as
 
 $$
-Y _ {i} = \left\{\mathbf {y} ^ {\operatorname {t o p} 1}, \dots , \mathbf {y} ^ {\operatorname {t o p} K} \right\} \tag {5.25}
+Y_{i} = \left\{\mathbf {y}^{\operatorname{top} 1}, \dots , \mathbf {y}^{\operatorname{top} K} \right\} \tag {5.25}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/12b0a37d-91d2-4358-a416-f79314d9b2d1/66799d3408c0730c2972d3f22ac1c19aa8713a400d4d976228431acc9474688d.jpg)
@@ -5301,31 +5188,31 @@ To add variation into LLM outputs, we can use sampling-based decoding methods. T
 - Top- $k$  Sampling. This method selects the next token from the top- $k$  most likely candidates at each step of the generation process [Fan et al., 2018]. Let  $\overline{V}_i$  be the selection pool for top- $k$  sampling. We can define it as
 
 $$
-\overline {{V}} _ {i} = \{y _ {i} ^ {\operatorname {t o p 1}}, \dots , y _ {i} ^ {\operatorname {t o p k}} \} \tag {5.26}
+\overline {{V}}_{i} = \{y_{i}^{\operatorname{top1}}, \dots , y_{i}^{\operatorname{topk}} \} \tag {5.26}
 $$
 
 where  $\{y_i^{\mathrm{top1}},\dots,y_i^{\mathrm{topk}}\}$  are the top- $k$  tokens selected based on their prediction probabilities (see Eq. (5.22)). Once the selection pool is determined, we recompute the prediction probability distribution over  $\overline{V}_i$ . One of the simplest ways to do this is to renormalize their probabilities:
 
 $$
-\overline {{\operatorname* {P r}}} \left(y _ {i} \mid \mathbf {x}, \mathbf {y} _ {<   i}\right) = \frac {\Pr \left(y _ {i} \mid \mathbf {x} , \mathbf {y} _ {<   i}\right)}{\sum_ {y _ {j} \in \bar {V} _ {i}} \Pr \left(y _ {j} \mid \mathbf {x} , \mathbf {y} _ {<   i}\right)} \tag {5.27}
+\overline {{\operatorname* {P r}}} \left(y_{i} \mid \mathbf {x}, \mathbf {y}_{<   i}\right) = \frac{\Pr \left(y_{i} \mid \mathbf {x} , \mathbf {y}_{<   i}\right)}{\sum_{y_{j} \in \bar {V}_{i}} \Pr \left(y_{j} \mid \mathbf {x} , \mathbf {y}_{<   i}\right)} \tag {5.27}
 $$
 
 Alternatively, we can calculate the distribution by using the Softmax function:
 
 $$
-\overline {{\operatorname {P r}}} \left(y _ {i} \mid \mathbf {x}, \mathbf {y} _ {<   i}\right) = \frac {\exp \left(u _ {y _ {i}}\right)}{\sum_ {y _ {j} \in \bar {V} _ {i}} \exp \left(u _ {y _ {j}}\right)} \tag {5.28}
+\overline {{\operatorname{Pr}}} \left(y_{i} \mid \mathbf {x}, \mathbf {y}_{<   i}\right) = \frac{\exp \left(u_{y_{i}}\right)}{\sum_{y_{j} \in \bar {V}_{i}} \exp \left(u_{y_{j}}\right)} \tag {5.28}
 $$
 
 where  $u_{y_i}$  is the logit for token  $y_i$ . Then, we sample a token  $\bar{y}_i$  from this distribution:
 
 $$
-\bar {y} _ {i} \sim \overline {{\operatorname* {P r}}} (y _ {i} | \mathbf {x}, \mathbf {y} _ {<   i}) \tag {5.29}
+\bar {y}_{i} \sim \overline {{\operatorname* {P r}}} (y_{i} | \mathbf {x}, \mathbf {y}_{<   i}) \tag {5.29}
 $$
 
 The corresponding sequence is  $\bar{y} = y_{1}\dots y_{i - 1}\bar{y}_{i}$ , and  $Y_{i}$  is given by
 
 $$
-Y _ {i} = \{\bar {\mathbf {y}} \} \tag {5.30}
+Y_{i} = \{\bar {\mathbf {y}} \} \tag {5.30}
 $$
 
 - Top- $p$  Sampling. This sampling method, also known as nucleus sampling, follows a procedure similar to that of top- $k$  sampling. Instead of drawing from a fixed size candidate pool, it selects the next token from the smallest set of tokens that together have a cumulative probability higher than a predefined threshold  $p$  [Holtzman et al., 2020]. In this way we prevent the prediction from choosing from low-probability tokens in the long tail that could lead to incoherent or nonsensical outputs. To obtain the candidate pool in the top- $p$  sampling method, we can sort all tokens by their predicted probabilities. Then, starting with the token with the highest probability, we continue to add tokens to the candidate pool until the
@@ -5343,7 +5230,7 @@ Fig. 5.6: Histogram estimates of the distributions generated by the Softmax func
 cumulative probability of the tokens in the pool reaches or exceeds  $p$  (we denote the size of the candidate pool at this point as  $k_{p}$ ). The candidate pool can then be expressed as
 
 $$
-\overline {{V}} _ {i} = \left\{y _ {i} ^ {\operatorname {t o p 1}}, \dots , y _ {i} ^ {\operatorname {t o p} k _ {p}} \right\} \tag {5.31}
+\overline {{V}}_{i} = \left\{y_{i}^{\operatorname{top1}}, \dots , y_{i}^{\operatorname{top} k_{p}} \right\} \tag {5.31}
 $$
 
 The subsequent steps, such as the renormalization of the distribution and sampling, are the same as in the top- $k$  sampling method (see Eqs.(5.27-5.30)).
@@ -5353,7 +5240,7 @@ See Figure 5.5 (c-d) for illustrations of the top-  $k$  and top-  $p$  sampling
 In order to further control the randomness of the token selection process, the renormalized distribution  $\overline{\mathrm{Pr}} (\cdot)$  is typically obtained by using the Softmax function with the temperature parameter, given by
 
 $$
-\overline {{\operatorname {P r}}} \left(y _ {i} \mid \mathbf {x}, \mathbf {y} _ {<   i}\right) = \frac {\exp \left(u _ {y _ {i}} / \beta\right)}{\sum_ {y _ {j} \in \bar {V} _ {i}} \exp \left(u _ {y _ {j}} / \beta\right)} \tag {5.32}
+\overline {{\operatorname{Pr}}} \left(y_{i} \mid \mathbf {x}, \mathbf {y}_{<   i}\right) = \frac{\exp \left(u_{y_{i}} / \beta\right)}{\sum_{y_{j} \in \bar {V}_{i}} \exp \left(u_{y_{j}} / \beta\right)} \tag {5.32}
 $$
 
 Here  $\beta$  is a temperature parameter  $\beta$  that controls the sharpness of the probability distribution derived from logits. In Figure 5.6, we show simple examples involving distributions generated by the above function with different temperatures. When the temperature is set to a higher value, the resulting probability distribution becomes more uniform, as the differences between the logits are diminished. This means that each token in the candidate pool has a more equal chance of being selected, leading to greater diversity in the generated output. By contrast, when the temperature is set to a lower value, the distribution becomes sharper, making the high-probability tokens even more likely to be chosen, which often results in more deterministic outputs. For example, if we set  $p$  to 1 and  $\beta$  to a very small number (approaching zero), the top- $p$  sampling method will become equivalent to the greedy search method.
@@ -5367,7 +5254,7 @@ most probable output to choosing an output that minimizes the expected risk over
 Recall from Eq. (5.14) that the goal of decoding is to maximize the likelihood of the output sequence. With penalty terms, the objective is extended to include additional factors that penalize or reward certain behaviors in the generated text. A general form of the new objective is given by
 
 $$
-\hat {\mathbf {y}} = \underset {\mathbf {y} \in \mathcal {Y}} {\arg \max } \left[ \Pr (\mathbf {y} | \mathbf {x}) - \lambda \cdot \operatorname {P e n a l t y} (\mathbf {x}, \mathbf {y}) \right] \tag {5.33}
+\hat {\mathbf {y}} = \underset {\mathbf {y} \in \mathcal {Y}} {\arg \max } \left[ \Pr (\mathbf {y} | \mathbf {x}) - \lambda \cdot \operatorname{Penalty} (\mathbf {x}, \mathbf {y}) \right] \tag {5.33}
 $$
 
 where  $\mathrm{Penalty}(\mathbf{x},\mathbf{y})$  is a function that quantifies the degree to which the generated sequence  $\mathbf{y}$  violates certain constraints or exhibits undesirable behaviors given the input  $\mathbf{x}$ . The design of  $\mathrm{Penalty}(\cdot)$  is very flexible, thus allowing us to incorporate a wide range of constraints or prior knowledge into it. Below, we present some common types of penalty functions.
@@ -5394,14 +5281,14 @@ The speculative decoding algorithm can be summarized as follows.
 - Given the prefix  $[\mathbf{x},\mathbf{y}_{\leq i}]$ , we use the draft model to predict the next  $\tau$  consecutive tokens, denoted by  $\{\hat{y}_{i + 1},\dots,\hat{y}_{i + \tau}\}$ . This is a token-by-token generation process, given by
 
 $$
-\hat {y} _ {i + t} = \underset {y _ {i + t}} {\arg \max } \Pr_ {q} \left(y _ {i + t} | \mathbf {x}, \mathbf {y} _ {\leq i}, \hat {y} _ {i + 1} \dots \hat {y} _ {i + t - 1}\right) \tag {5.34}
+\hat {y}_{i + t} = \underset {y_{i + t}} {\arg \max } \Pr_{q} \left(y_{i + t} | \mathbf {x}, \mathbf {y}_{\leq i}, \hat {y}_{i + 1} \dots \hat {y}_{i + t - 1}\right) \tag {5.34}
 $$
 
 - We evaluate  $\{\hat{y}_{i+1}, \dots, \hat{y}_{i+\tau}\}$  using the verification model, that is, we compute  $\{\operatorname{Pr}_p(\hat{y}_{i+1} | \mathbf{x}, \mathbf{y}_{\leq i}), \dots, \operatorname{Pr}_p(\hat{y}_{i+\tau} | \mathbf{x}, \mathbf{y}_{\leq i}, \hat{y}_{i+1} \dots \hat{y}_{i+\tau-1})\}$ . Note that we can compute these probabilities in parallel, and so this verification step is efficient.  
 - We determine the maximum number of accepted speculated tokens. In order to keep the notation uncluttered, we denote  $\operatorname{Pr}_q(\hat{y}_{i + t}|\mathbf{x},\mathbf{y}\leq i,\hat{y}_{i + 1}\dots \hat{y}_{i + t - 1})$  and  $\operatorname{Pr}_p(\hat{y}_{i + t}|\mathbf{x},\mathbf{y}\leq i,\hat{y}_{i + 1}\dots \hat{y}_{i + t - 1})$  simply by  $q(\hat{y}_{i + t})$  and  $p(\hat{y}_{i + t})$ , respectively. We then define that, if  $q(\hat{y}_{i + t})\leq p(\hat{y}_{i + t})$ , then we accept this speculation. By contrast, if  $q(\hat{y}_{i + t}) > p(\hat{y}_{i + t})$ , we reject this speculation with probability  $1 - \frac{p(\hat{y}_{i + t})}{q(\hat{y}_{i + t})}$ . Starting from  $\hat{y}_{i + 1}$ , the maximum number of accepted consecutive speculated tokens is defined as
 
 $$
-n _ {a} = \min  \left\{t - 1 \mid 1 \leq t \leq \tau , r _ {t} > \frac {p \left(\hat {y} _ {i + t}\right)}{q \left(\hat {y} _ {i + t}\right)} \right\} \tag {5.35}
+n_{a} = \min  \left\{t - 1 \mid 1 \leq t \leq \tau , r_{t} > \frac{p \left(\hat {y}_{i + t}\right)}{q \left(\hat {y}_{i + t}\right)} \right\} \tag {5.35}
 $$
 
 where  $r_t$  is a variable drawn from the uniform distribution  $U(0,1)$ .
@@ -5409,7 +5296,7 @@ where  $r_t$  is a variable drawn from the uniform distribution  $U(0,1)$ .
 - Given  $n_a$ , we keep the speculated tokens  $\{\hat{y}_{i+1}, \dots, \hat{y}_{i+n_a}\}$ . We then use the verification model to make a new prediction at  $i + n_a + 1$
 
 $$
-\bar {y} _ {i + n _ {a} + 1} = \underset {y _ {i + n _ {s} + 1}} {\arg \max } \Pr_ {p} \left(y _ {i + n _ {s} + 1} | \mathbf {x}, \mathbf {y} _ {\leq i}, \hat {y} _ {i + 1} \dots \hat {y} _ {i + n _ {s}}\right) \tag {5.36}
+\bar {y}_{i + n_{a} + 1} = \underset {y_{i + n_{s} + 1}} {\arg \max } \Pr_{p} \left(y_{i + n_{s} + 1} | \mathbf {x}, \mathbf {y}_{\leq i}, \hat {y}_{i + 1} \dots \hat {y}_{i + n_{s}}\right) \tag {5.36}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/12b0a37d-91d2-4358-a416-f79314d9b2d1/fb0019214964085319747efa6277e54cf507418cd16780d83c90f4e29caeff97.jpg)  
@@ -5473,11 +5360,11 @@ In real-world applications, it is common practice to store frequent requests and
 A straightforward extension of the caching mechanism is to cache prefixes and their corresponding hidden states. Given an input sequence  $\mathbf{x}$  in a dataset  $\mathcal{D}$ , we can process it as in the standard prefilling phase. Thus, we obtain a sequence of prefixes and their corresponding KV cache states:
 
 $$
-x _ {0} \left(\mathbf {x} _ {<   1}\right) \Rightarrow \operatorname {c a c h e} _ {<   1}
+x_{0} \left(\mathbf {x}_{<   1}\right) \Rightarrow \operatorname{cache}_{<   1}
 $$
 
 $$
-x _ {0} x _ {1} \left(\mathbf {x} _ {<   2}\right) \Rightarrow \operatorname {c a c h e} _ {<   2}
+x_{0} x_{1} \left(\mathbf {x}_{<   2}\right) \Rightarrow \operatorname{cache}_{<   2}
 $$
 
 $$
@@ -5485,7 +5372,7 @@ $$
 $$
 
 $$
-x _ {0} x _ {1} \dots x _ {m - 1} \left(\mathbf {x} _ {<   m}\right) \Rightarrow \operatorname {c a c h e} _ {<   m}
+x_{0} x_{1} \dots x_{m - 1} \left(\mathbf {x}_{<   m}\right) \Rightarrow \operatorname{cache}_{<   m}
 $$
 
 where  $\mathrm{cache}_{< i}$  denotes the KV cache for the prefix  $\mathbf{x}_{< i}$  (see also Eq. (5.10)). All these mappings can be stored in the prefix cache for efficient reuse.
@@ -5735,7 +5622,7 @@ Fig. 5.15: Illustration of multi-step reasoning. This example is from the PRM800
 Given an input problem  $\mathbf{x}$ , we define that an output solution  $\mathbf{y}$  can be represented as a sequence of reasoning steps:
 
 $$
-\mathbf {y} = \left(a _ {1}, a _ {2}, \dots , a _ {n _ {r}}\right) \tag {5.37}
+\mathbf {y} = \left(a_{1}, a_{2}, \dots , a_{n_{r}}\right) \tag {5.37}
 $$
 
 where  $a_{i}$  is the  $i$ -th reasoning step, and  $a_{n_r}$  is the last step which should contain the answer to the problem. See Figure 5.15 for an example of a multi-step reasoning path.
@@ -5743,13 +5630,13 @@ where  $a_{i}$  is the  $i$ -th reasoning step, and  $a_{n_r}$  is the last step
 The search algorithm can efficiently generate a set of candidate solutions
 
 $$
-\mathcal {D} _ {c} = \left\{\mathbf {y} _ {1}, \dots , \mathbf {y} _ {K} \right\} \tag {5.38}
+\mathcal {D}_{c} = \left\{\mathbf {y}_{1}, \dots , \mathbf {y}_{K} \right\} \tag {5.38}
 $$
 
 Then, we can use a verifier, which evaluates each solution by the function  $V(\mathbf{y})$ , to score the candidates in  $\mathcal{D}_c$ . The final output is the best candidate selected by the verifier
 
 $$
-\hat {\mathbf {y}} = \underset {\mathbf {y} \in \mathcal {D} _ {c}} {\arg \max } V (\mathbf {y}) \tag {5.39}
+\hat {\mathbf {y}} = \underset {\mathbf {y} \in \mathcal {D}_{c}} {\arg \max } V (\mathbf {y}) \tag {5.39}
 $$
 
 Although verifying the entire reasoning path is possible, a simpler alternative is to verify only the final reasoning step. In this way the verifier function  $V(\mathbf{y})$  is simplified to depend solely on the final answer contained within  $a_{n_r}$ . This can be achieved in various ways, depending on the nature of the problem and the expected answer format.
@@ -5764,7 +5651,7 @@ Based on these verifiers, we can search to obtain a set of candidate solutions f
 Another approach is sequential scaling, which builds a sequence of solutions incrementally [Gou et al., 2024; Zhang et al., 2024]. It starts with an initial solution generated by the LLM with prompting. Then, we use a verifier (often the same LLM) to evaluate the solution. This can be seen as a critique stage. The output of this stage is some form of feedback, such as textual critiques pinpointing errors or suggesting improvements, numerical scores reflecting solution quality, or even a revised plan or intermediate step to guide the next generation. This feedback, along with the original problem and the current solution, is then used to prompt the LLM to generate a potentially improved solution. This can be seen as a refine stage. This critique-refine cycle can be repeated, forming an iterative loop:
 
 $$
-\mathbf {y} _ {k + 1} = \operatorname {R e f i n e} \left(\mathbf {x}, \mathbf {y} _ {k}, \operatorname {F e e d b a c k} \left(\mathbf {y} _ {k}\right)\right) \tag {5.40}
+\mathbf {y}_{k + 1} = \operatorname{Refine} \left(\mathbf {x}, \mathbf {y}_{k}, \operatorname{Feedback} \left(\mathbf {y}_{k}\right)\right) \tag {5.40}
 $$
 
 where  $\mathrm{Feedback}(\mathbf{y}_k)$  represents the feedback from the verifier. The  $\mathrm{Refine}(\cdot)$  function generates the improved solution  $\mathbf{y}_{k + 1}$  by prompting the LLM with the original problem  $\mathbf{x}$ , the previous solution  $\mathbf{y}_k$ , and this feedback. The process can be iterated for  $K$  times, or until the solution

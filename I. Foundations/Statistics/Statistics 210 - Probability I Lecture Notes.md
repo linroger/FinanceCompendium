@@ -208,7 +208,7 @@ $$
 where  $FS$  is the "first-success" geometric distribution with success probability  $p$ . Therefore,
 
 $$
-\mathbf {E} [ N ] = \Pr (N \geq 1) \cdot \mathbf {E} [ F S (p) ] = p \cdot \frac {1}{p} = 1.
+\mathbf{E}[N] = \Pr(N \geq 1) \cdot \mathbf{E}[FS(p)] = p \cdot \frac{1}{p} = 1.
 $$
 
 - Imagine that during your random walk, you decide to write down an infinite sequence of letters:  $A$  whenever you hit the number 0, and  $B$  whenever you hit the number  $b$ . This
@@ -218,7 +218,7 @@ creates some long string AAAAAAABBBBAA.... For symmetry, we can start from the p
 By symmetry, the expected number of  $A$ 's and  $B$ 's in any finite subsegment is equal. Since every  $B$  (except a finite number) is between a pair of  $A$ 's with high probability, we have that
 
 $$
-\mathbf {E} [ N ] = \lim  _ {n \rightarrow \infty} \frac {\# (\text {n u m b e r o f} B ^ {\prime} \mathrm {s})}{\# (\text {n u m b e r o f} A ^ {\prime} \mathrm {s})} = 1.
+\mathbf{E}[N] = \lim_{n \rightarrow \infty} \frac{\#(\text{number of } B\text{'s})}{\#(\text{number of } A\text{'s})} = 1.
 $$
 
 # 1.3 Representations of Distributions
@@ -232,7 +232,7 @@ Joe notes that entire books have been written on the Weibull distribution. Here'
 Definition 1.2 (Cauchy distribution). The Cauchy distribution has probability density function
 
 $$
-C: p (x) = \frac {1}{\pi \left(1 + x ^ {2}\right)}.
+C: p(x) = \frac{1}{\pi \left(1 + x^{2}\right)}.
 $$
 
 Example 1.3. There are several interesting properties of the Cauchy distribution in terms of representations by other distributions:
@@ -266,7 +266,7 @@ $$
 We would expect, intuitively, for the answer to be  $\frac{1}{2}$ . However, if we naively apply the definition of conditional probability, we get something like
 
 $$
-\operatorname * {P r} (X = 0 \mid X \in \{0, 1 \}) = \frac {\operatorname * {P r} (X = 0)}{\operatorname * {P r} (X = 0 \cup X = 1)} = \frac {0}{0}.
+\operatorname{Pr}(X = 0 \mid X \in \{0, 1\}) = \frac{\operatorname{Pr}(X = 0)}{\operatorname{Pr}(X = 0 \cup X = 1)} = \frac{0}{0}.
 $$
 
 This is not well-defined, so we are unhappy.
@@ -288,7 +288,7 @@ Definition 2.3 (Probability measure). Let  $\Omega$  be a set of samples, and  $
 - For any countable collection  $A_{1}, A_{2}, \ldots \in \mathcal{F}$  of pairwise disjoint sets,
 
 $$
-P \left(\bigcup_ {k = 1} ^ {\infty} A _ {k}\right) = \sum_ {k = 1} ^ {\infty} P (A _ {k}).
+P \left(\bigcup_{k=1}^{\infty} A_{k}\right) = \sum_{k=1}^{\infty} P(A_{k}).
 $$
 
 $P(\Omega) = 1$
@@ -316,7 +316,7 @@ Essentially, finite  $\sigma$ -algebras are uninteresting because they're too co
 Definition 2.5 (Filtration). Given a probability space  $(\Omega, \mathcal{F}, P)$ , a filtration is a sequence of sub  $\sigma$ -algebras  $\mathcal{F}_1, \mathcal{F}_2, \ldots$  where for all  $k \leq \ell$ ,
 
 $$
-\mathcal {F} _ {k} \subseteq \mathcal {F} _ {\ell} \subseteq F.
+\mathcal{F}_{k} \subseteq \mathcal{F}_{\ell} \subseteq F.
 $$
 
 # 2.2 Uncountable  $\sigma$ -Algebras
@@ -328,7 +328,7 @@ Exercise 2.1. Show that any infinite  $\sigma$ -algebra is uncountable.
 Proof. The sketch of the proof looks as follows. Suppose for the sake of contradiction that you had some countably infinite  $\sigma$ -algebra consisting of subsets  $\mathcal{F} = \{A_1, A_2, \ldots\}$ , where  $A_i$  is indexed by each natural number  $i \in \mathbb{N}$ . Then define the atoms of  $\mathcal{F}$  to be sets  $B_x$  for each  $x \in \Omega$ , where
 
 $$
-B _ {x} = \bigcap_ {A _ {i} \ni x} A _ {i}.
+B_{x} = \bigcap_{A_{i} \ni x} A_{i}.
 $$
 
 In other words,  $B_{x}$  is the smallest measurable set containing  $x$ . We claim that all distinct atoms are disjoint. In other words, if  $B_{x} \cap B_{y} \neq \emptyset$ , then there exists some  $z \in B_{x} \cap B_{y}$ , so  $B_{z} \subseteq B_{x} \cap B_{y}$ .
@@ -338,11 +338,11 @@ Assume for the sake of contradiction that  $x \notin B_z$ . Then,  $B_x \setminu
 Finally, consider the set of all atoms  $\{B_x\}_{x \in X}$ . If this set is finite, then  $\mathcal{F}$  must be finite as well, which is a contradiction. Therefore there must be at least countably many distinct atoms  $B_1, B_2, \ldots$ . We can define an injective map  $f: 2^{\mathbb{N}} \to \mathcal{F}$  by
 
 $$
-f \left(\left\{n _ {1}, n _ {2}, \dots \right\}\right) = B _ {n _ {1}} \cup B _ {n _ {2}} \cup \dots ,
+f \left(\left\{n_{1}, n_{2}, \dots \right\}\right) = B_{n_{1}} \cup B_{n_{2}} \cup \dots ,
 $$
 
 $$
-\text {s o} \# (\mathcal {F}) \geq \# (2 ^ {\aleph}) = 2 ^ {\aleph_ {0}}.
+\text{so } \#(\mathcal{F}) \geq \#(2^{\aleph}) = 2^{\aleph_{0}}.
 $$
 
 Now we know the axioms of probability, and everything starts from here!
@@ -386,7 +386,7 @@ Intuitively, we all have some idea of what a random variable is — it varies ra
 Definition 3.5 (Measurable function). Given a set  $X$  equipped with a given  $\sigma$ -algebra  $\Sigma \subseteq 2^{X}$ , a function  $f: X \to \mathbb{R}$  is called measurable if for all Borel sets  $^4 B$ ,
 
 $$
-f ^ {- 1} (B) \in \Sigma .
+f^{-1}(B) \in \Sigma .
 $$
 
 Note. For the rest of this course, we may implicitly assume that functions are measurable if not specified. It is extremely difficult to construct a non-measurable function, and they almost never occur in practice.
@@ -396,13 +396,13 @@ Definition 3.6 (Random variable). A random variable  $X$  is a measurable functi
 Random variables are so useful that we give them special notation. In particular, suppose that you have a random variable  $X$ , and you want to know the probability that its value lies between 1 and 3. We could write this rigorously in terms of events, i.e.,
 
 $$
-P (X ^ {- 1} ([ 1, 3 ])) = P (\{\omega \in \Omega \mid X (\omega) \in [ 1, 3 ] \}).
+P(X^{-1}([1, 3])) = P(\{\omega \in \Omega \mid X(\omega) \in [1, 3]\}).
 $$
 
 However, this is a bit cumbersome, so we use the notation  $X \in B$  to mean the same thing as  $X^{-1}(B)$ . We can then write the above as
 
 $$
-P (X ^ {- 1} ([ 1, 3 ])) = P (X \in [ 1, 3 ]) = P (1 \leq X \leq 3),
+P(X^{-1}([1, 3])) = P(X \in [1, 3]) = P(1 \leq X \leq 3),
 $$
 
 which seems much more natural to read.
@@ -424,7 +424,7 @@ Proposition 3.8. If  $X \sim Y$ , and  $g: \mathbb{R} \to \mathbb{R}$  is a meas
 Proof. For any Borel set  $B \in \mathcal{B}$ , observe that
 
 $$
-P (g (X) \in B) = P (X \in g ^ {- 1} (B)) = P (Y \in g ^ {- 1} (B)) = P (g (Y) \in B).
+P(g(X) \in B) = P(X \in g^{-1}(B)) = P(Y \in g^{-1}(B)) = P(g(Y) \in B).
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/839487f7-142c-4bfc-81fb-18b8387efaaf/74fb1fb0eee19482b55defeb4fc91277dba30cfd04d73f9b55026cad34c41ea3.jpg)
@@ -458,7 +458,7 @@ Proposition 4.1. If an function  $X: \Omega \to \mathbb{R}$  satisfies  $X^{-1}(
 Proof. Let  $X: \mathcal{F} \to \mathcal{B}$  be an arbitrary function. Let  $\mathcal{A}$  be the set of all Borel sets  $B$  such that
 
 $$
-\mathcal {A} = \{B \in \mathcal {B} \mid X ^ {- 1} (B) \in \mathcal {F} \}.
+\mathcal{A} = \{B \in \mathcal{B} \mid X^{-1}(B) \in \mathcal{F}\}.
 $$
 
 We know that  $(- \infty, x] \in \mathcal{A}$  for all  $x \in \mathbb{R}$ . The key observation is that  $\mathcal{A}$  is a  $\sigma$ -algebra, which we can directly verify by checking the three properties and mapping them back to properties of  $\mathcal{F}$ . Therefore,  $\mathcal{A} = \mathcal{B}$ .
@@ -480,7 +480,7 @@ It turns out that there is only one example of a  $\lambda$ -system that we real
 Example 4.4. Let  $P_{1}, P_{2}$  be probability measures on  $(\Omega, \mathcal{F})$ . Let
 
 $$
-L = \{A \in \mathcal {F} \mid P _ {1} (A) = P _ {2} (A) \}.
+L = \{A \in \mathcal{F} \mid P_{1}(A) = P_{2}(A)\}.
 $$
 
 Then,  $L$  is a  $\lambda$ -system.
@@ -524,7 +524,7 @@ Lemma 5.2. If  $g, h$  are measurable functions, then  $X \perp Y \Rightarrow g(
 Proof. This is immediate by preimages. For any  $A, B \in \mathcal{B}$ ,
 
 $$
-\begin{array}{l} P (g (X) \in A, h (Y) \in B) = P (X \in g ^ {- 1} (A), Y \in h ^ {- 1} (B)) \\ = P (X \in g ^ {- 1} (A)) P (Y \in h ^ {- 1} (B)) \\ = P (g (X) \in A) P (h (Y) \in B). \\ \end{array}
+\begin{array}{l} P(g(X) \in A, h(Y) \in B) = P(X \in g^{-1}(A), Y \in h^{-1}(B)) \\ = P(X \in g^{-1}(A)) P(Y \in h^{-1}(B)) \\ = P(g(X) \in A) P(h(Y) \in B). \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/839487f7-142c-4bfc-81fb-18b8387efaaf/5680dbf8a539cb6a0897a274558a12473cf3f2549c2aea32b96adf90111d66e5.jpg)
@@ -550,7 +550,7 @@ The mean of a binomial distribution is  $np$ , while the variance is  $np(1 - p)
 Definition 5.7 (Uniform distribution). The uniform distribution, written as  $U \sim \mathrm{Unif}$ , is the distribution of equal density on the unit interval [0, 1]. It has the property that  $P(U \in [a, b]) = b - a$  whenever  $0 \leq a \leq b \leq 1$ . It can be represented in terms of i.i.d.  $Y_1, Y_2, \ldots \sim \mathrm{Bern}(1/2)$  by
 
 $$
-U = \sum_ {k = 1} ^ {\infty} \frac {Y _ {k}}{2 ^ {k}}.
+U = \sum_{k=1}^{\infty} \frac{Y_{k}}{2^{k}}.
 $$
 
 For brevity, we omit the measure theoretic details that the above dyadic construction is valid. Note that many sources represent uniform distributions on intervals as  $\operatorname{Unif}(a,b)$  instead, but Joe prefers to write  $(b - a)U + a$ . The uniform distribution satisfies  $\mathbf{E}[U] = \frac{1}{2}$  and  $\mathbf{Var}[U] = \frac{1}{12}$ .
@@ -562,13 +562,13 @@ The mean and variance are both 1. Note that in the above definition, we're using
 Definition 5.9 (Gamma distribution). The gamma distribution is the sum of independent exponentially distributed random variables. We call  $r$  the integer rate parameter. Then,  $\operatorname{Gamma}(r)$  is the distribution of
 
 $$
-X _ {1} + X _ {2} + \dots + X _ {r},
+X_{1} + X_{2} + \dots + X_{r},
 $$
 
 where  $X_{j}$  are i.i.d. and drawn from Expo. The probability density function can be written as
 
 $$
-f (x) = \frac {1}{\Gamma (r)} x ^ {r - 1} e ^ {- x},
+f(x) = \frac{1}{\Gamma(r)} x^{r-1} e^{-x},
 $$
 
 where  $x > 0$ , and  $\Gamma : \mathbb{R}^{+} \to \mathbb{R}^{+}$  is the gamma function.
@@ -584,7 +584,7 @@ We previously defined the uniform distribution, which has measure on any interva
 Definition 6.1 (Quantile function). The quantile function of a distribution with CDF  $F$  is
 
 $$
-F ^ {- 1} (p) = \min  \{x \mid F (x) \geq p \}.
+F^{-1}(p) = \min \{x \mid F(x) \geq p\}.
 $$
 
 When  $F$  is continuous and strictly increasing,  $F^{-1}$  is identical to the inverse. Otherwise, it serves as a sort of proxy that skips over regions with zero probability.
@@ -594,7 +594,7 @@ Proposition 6.2 (Probability integral transform). Let  $F$  be any CDF, with qua
 Proof. Note that  $u \leq F(y)$  is the same as  $F^{-1}(u) \leq y$ , since  $F$  is a non-decreasing function. Therefore, the events  $U \leq F(y)$  and  $F^{-1}(U) \leq y$  are the same for any  $y \in \mathbb{R}$ , so
 
 $$
-P (F ^ {- 1} (U) \leq y) = P (U \leq F (y)) = F (y).
+P(F^{-1}(U) \leq y) = P(U \leq F(y)) = F(y).
 $$
 
 Notice that this reminds us of the exponential distribution, which is in fact defined in a manner similar to the probability integral transform, as a function of a uniform random variable.
@@ -602,7 +602,7 @@ Notice that this reminds us of the exponential distribution, which is in fact de
 Example 6.3. To generate a Bernoulli random variable with probability  $p$ , we can generate a uniform random variable and pass it through the quantile function
 
 $$
-F (u) = \left\{ \begin{array}{l l} 0 & \text {i f} u \leq 1 - p, \\ 1 & \text {i f} u > 1 - p. \end{array} \right.
+F(u) = \left\{ \begin{array}{ll} 0 & \text{if } u \leq 1 - p, \\ 1 & \text{if } u > 1 - p. \end{array} \right.
 $$
 
 This is consistent with our intuition about the uniform distribution.

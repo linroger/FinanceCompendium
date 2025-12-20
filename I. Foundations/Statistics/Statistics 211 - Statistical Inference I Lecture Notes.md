@@ -231,7 +231,7 @@ Now we will set up the likelihood function, which is key in statistical inferenc
 Definition 2.2 (Likelihood function). Given a model  $f_{\theta}(y)$  and observed data  $y$ , the likelihood function on parameter space is defined by
 
 $$
-L (\theta) = f _ {\theta} (y).
+L (\theta) = f_{\theta} (y).
 $$
 
 We notate the log-likelihood by  $\ell (\theta) = \log L(\theta)$
@@ -249,7 +249,7 @@ Sufficiency is a concept related to how useful a set of observations is for pred
 Definition 2.3 (Sufficiency). Given random variables  $Y = (Y_{1},\ldots ,Y_{n}) \sim f_{\theta}(y)$ , we say that a statistic  $T(Y)$  computed from  $Y$  is sufficient for  $\theta$  if for all  $\theta_1,\theta_2\in \Theta$  and  $A\subset \mathcal{V}$ , we have
 
 $$
-\operatorname * {P r} _ {\theta_ {1}} \big (Y \in A \mid T = T (Y) \big) = \operatorname * {P r} _ {\theta_ {2}} \big (Y \in A \mid T = T (Y) \big).
+\operatorname*{Pr}_{\theta_1} \big (Y \in A \mid T = T (Y) \big) = \operatorname*{Pr}_{\theta_2} \big (Y \in A \mid T = T (Y) \big).
 $$
 
 There are a few other equivalent definitions based on notions from other fields:
@@ -262,7 +262,7 @@ There are a few other equivalent definitions based on notions from other fields:
 Example 2.4. Suppose that  $Y_{1}, Y_{2}$  are i.i.d.  $\sim$  Pois  $(\lambda)$ , and  $T(Y) = Y_{1} + Y_{2}$ . Then, the conditional distribution is  $(Y_{1}, Y_{2}) \mid T(Y) \sim \mathrm{Mult}(T, (\frac{1}{2}, \frac{1}{2}))$ . We claim that  $T(Y)$  is sufficient for the Poisson rate parameter  $\lambda$ . This is because, following the definition,
 
 $$
-\begin{array}{l} \operatorname * {P r} _ {\lambda} (Y _ {1} = k, Y _ {2} = t - k \mid Y _ {1} + Y _ {2} = t) = \frac {\operatorname * {P r} _ {\lambda} (Y _ {1} + Y _ {2} = t \mid Y _ {1} = k) \operatorname * {P r} _ {\lambda} (Y _ {1} = k)}{\operatorname * {P r} _ {\lambda} (Y _ {1} + Y _ {2} = t)} \\ = \frac {\frac {\lambda^ {t - k} e ^ {- \lambda}}{(t - k) !} \cdot \frac {\lambda^ {k} e ^ {- \lambda}}{k !}}{\frac {(2 \lambda) ^ {t} e ^ {- 2 \lambda}}{t !}} \\ = \binom {t} {k} / 2 ^ {t}. \\ \end{array}
+\begin{array}{l} \operatorname*{Pr}_{\lambda} (Y_1 = k, Y_2 = t - k \mid Y_1 + Y_2 = t) = \frac{\operatorname*{Pr}_{\lambda} (Y_1 + Y_2 = t \mid Y_1 = k) \operatorname*{Pr}_{\lambda} (Y_1 = k)}{\operatorname*{Pr}_{\lambda} (Y_1 + Y_2 = t)} \\ = \frac{\frac{\lambda^{t - k} e^{- \lambda}}{(t - k) !} \cdot \frac{\lambda^{k} e^{- \lambda}}{k !}}{\frac{(2 \lambda)^{t} e^{- 2 \lambda}}{t !}} \\ = \binom{t}{k} / 2^{t}. \\ \end{array}
 $$
 
 This last expression does not depend on  $\lambda$ , so we have established sufficiency.
@@ -281,25 +281,25 @@ Now, here is an intuitive but nontrivial statement about probability densities o
 Theorem 2.6 (Factorization theorem). A statistic  $T(Y)$  is sufficient for  $\theta$  if and only if the joint density  $f_{\theta}(y)$  can be written as
 
 $$
-f _ {\theta} (y) = g _ {\theta} (T (y)) \cdot h (y).
+f_{\theta} (y) = g_{\theta} (T (y)) \cdot h (y).
 $$
 
 Here, the density  $g_{\theta}$  of the sufficient statistic is allowed to depend on  $\theta$ , but the density  $h(y)$  is not allowed to vary. In terms of log-likelihood, this is
 
 $$
-\ell (\theta) = \log (g _ {\theta} (T)) + \log (h (y)).
+\ell (\theta) = \log (g_{\theta} (T)) + \log (h (y)).
 $$
 
 Proof. This theorem holds in generality, but for simplicity of proof, here assume that  $Y$  is a discrete random variable. Let's first handle the easier direction, which is the "if" statement. Following the definition of sufficiency, note that
 
 $$
-\begin{array}{l} \operatorname * {P r} _ {\theta} (Y = y \mid T (Y) = T (y)) = \frac {\operatorname * {P r} _ {\theta} (Y = y)}{\operatorname * {P r} _ {\theta} (T (Y) = T (y))} \\ = \frac {g _ {\theta} (T (y)) h (y)}{\sum_ {y ^ {\prime} \mid T (y ^ {\prime}) = T (y)} g (T (y ^ {\prime})) h (y ^ {\prime})} \\ = \frac {h (y)}{\sum_ {y ^ {\prime}} h (y ^ {\prime})}. \\ \end{array}
+\begin{array}{l} \operatorname*{Pr}_{\theta} (Y = y \mid T (Y) = T (y)) = \frac{\operatorname*{Pr}_{\theta} (Y = y)}{\operatorname*{Pr}_{\theta} (T (Y) = T (y))} \\ = \frac{g_{\theta} (T (y)) h (y)}{\sum_{y^{\prime} \mid T (y^{\prime}) = T (y)} g (T (y^{\prime})) h (y^{\prime})} \\ = \frac{h (y)}{\sum_{y^{\prime}} h (y^{\prime})}. \\ \end{array}
 $$
 
 This does not depend on the parameter  $\theta$ , so we are done. On the other hand, in the inverse direction, we can use conditional probability and the definition of sufficiency to get
 
 $$
-\begin{array}{l} f _ {\theta} (y) = \operatorname * {P r} _ {\theta} (Y = y) \\ = \Pr_ {\theta} (Y = y, T (Y) = T (y)) \\ = \operatorname * {P r} _ {\theta} (Y = y \mid T (Y) = T (y)) \cdot \operatorname * {P r} _ {\theta} (T (Y) = T (y)). \\ \end{array}
+\begin{array}{l} f_{\theta} (y) = \operatorname*{Pr}_{\theta} (Y = y) \\ = \Pr_{\theta} (Y = y, T (Y) = T (y)) \\ = \operatorname*{Pr}_{\theta} (Y = y \mid T (Y) = T (y)) \cdot \operatorname*{Pr}_{\theta} (T (Y) = T (y)). \\ \end{array}
 $$
 
 The former is a function free of  $\theta$ , while the latter is a function of  $T(y)$ , and hence we have completed the factorization.
@@ -311,13 +311,13 @@ Here's another example of sufficiency, with applications to many fundamental dis
 Example 2.7 (Exponential family). Let  $Y_{1}, \ldots, Y_{n}$  be i.i.d.  $\sim f_{\theta}(y)$ , belonging to an exponential family
 
 $$
-f _ {\theta} (y) = \exp \{\eta (\theta) T (y) - \psi (\eta (\theta)) \} h (y).
+f_{\theta} (y) = \exp \{\eta (\theta) T (y) - \psi (\eta (\theta)) \} h (y).
 $$
 
 Here,  $\eta$  is called the natural parameter of the family. This has joint density
 
 $$
-\prod_ {i = 1} ^ {n} f _ {\theta} (y _ {i}) = \exp \biggl \{\eta (\theta) \sum_ {i = 1} ^ {n} T (y _ {i}) - n \psi (\eta (\theta)) \biggr \} \prod_ {i = 1} ^ {n} h (y _ {i}).
+\prod_{i = 1}^{n} f_{\theta} (y_i) = \exp \biggl \{\eta (\theta) \sum_{i = 1}^{n} T (y_i) - n \psi (\eta (\theta)) \biggr \} \prod_{i = 1}^{n} h (y_i).
 $$
 
 We will continue this example in the next lecture.
@@ -333,7 +333,7 @@ Exponential families are an important topic that is related to both sufficiency 
 Definition 3.1 (Exponential family). let  $Y_{1},\ldots ,Y_{n}$  be i.i.d.  $\sim f_{\theta}(y)$ , where  $f_{\theta}(y)\propto e^{\theta T(y)}h(y)$  for some functions  $T$  and  $h$ . Then, we define the normalizing factor  $\psi (\theta)$  to be
 
 $$
-e ^ {\psi (\theta)} = \int_ {- \infty} ^ {\infty} e ^ {\theta T (y)} h (y) \mathrm {d} y.
+e^{\psi (\theta)} = \int_{- \infty}^{\infty} e^{\theta T (y)} h (y) \mathrm{d} y.
 $$
 
 Under this definition, we can write the density as  $f_{\theta}(y) = \exp \{\theta T(y) - \psi (\theta)\} h(y)$ . We call  $f_{\theta}$  an exponential family with respect to some parameter  $\eta$  such that  $\theta = \theta (\eta)$ .
@@ -341,7 +341,7 @@ Under this definition, we can write the density as  $f_{\theta}(y) = \exp \{\the
 In an exponential family, the joint probability density of  $Y_{1},\ldots ,Y_{n}$  is
 
 $$
-f _ {\theta} (\overline {{y}}) = \exp \biggl \{\theta \sum_ {i = 1} ^ {n} T (y _ {i}) - n \psi (\theta) \biggr \} \prod_ {i = 1} ^ {n} h (y _ {i}).
+f_{\theta} (\overline{{y}}) = \exp \biggl \{\theta \sum_{i = 1}^{n} T (y_i) - n \psi (\theta) \biggr \} \prod_{i = 1}^{n} h (y_i).
 $$
 
 By Theorem 2.6, since  $\theta$  only appears in the above expression once, we know that  $\sum_{i=1}^{n} T(Y_i)$  is a sufficient statistic for  $\theta$ .
@@ -351,13 +351,13 @@ Note. This sufficiency is a powerful result, since exponential families are very
 To generalize further, when  $\theta$  is a  $k$ -dimensional parameter vector, the probability density for an exponential family is given by
 
 $$
-f _ {\theta} (y) = \exp \left\{\sum_ {j = 1} ^ {k} \theta_ {j} T _ {j} (y) - \psi (\theta) \right\} h (y).
+f_{\theta} (y) = \exp \left\{\sum_{j = 1}^{k} \theta_j T_j (y) - \psi (\theta) \right\} h (y).
 $$
 
 In the  $k$ -dimensional scenario, the analogous  $k$ -vector is a sufficient statistic:
 
 $$
-\left(\sum_ {i = 1} ^ {n} T _ {1} (Y _ {i}), \sum_ {i = 1} ^ {n} T _ {2} (Y _ {i}), \ldots , \sum_ {i = 1} ^ {n} T _ {k} (Y _ {i})\right).
+\left(\sum_{i = 1}^{n} T_1 (Y_i), \sum_{i = 1}^{n} T_2 (Y_i), \ldots , \sum_{i = 1}^{n} T_k (Y_i)\right).
 $$
 
 The Normal, Binomial, Gamma, and Poisson distributions are all exponential families. Note that our analysis above has elided mention of the transformation  $\eta(\theta)$ , which turns the parameter  $\theta$  that we care about into the natural parameter  $\eta$ .
@@ -365,19 +365,19 @@ The Normal, Binomial, Gamma, and Poisson distributions are all exponential famil
 Example 3.2 (Normal distribution is an EF). Recall that the normal distribution  $\mathcal{N}(\mu, \sigma^2)$  has probability density
 
 $$
-f _ {\mu , \sigma^ {2}} (y) = \frac {1}{\sqrt {2 \pi \sigma^ {2}}} e ^ {- \frac {(y - \mu) ^ {2}}{2 \sigma^ {2}}}.
+f_{\mu , \sigma^2} (y) = \frac{1}{\sqrt{2 \pi \sigma^2}} e^{- \frac{(y - \mu)^2}{2 \sigma^2}}.
 $$
 
 This is an exponential family with two parameters. The natural parameters are
 
 $$
-\eta (\mu , \sigma^ {2}) = \left(\frac {\mu}{\sigma^ {2}}, - \frac {1}{2 \sigma^ {2}}\right).
+\eta (\mu , \sigma^2) = \left(\frac{\mu}{\sigma^2}, - \frac{1}{2 \sigma^2}\right).
 $$
 
 The exponential maps are  $T(y) = (y, y^2)$ , and then the density can be written as
 
 $$
-f _ {\mu , \sigma^ {2}} (y) = \exp \left\{\sum_ {j = 1} ^ {2} \eta_ {j} (\mu , \sigma^ {2}) T _ {j} (y) - \psi (\eta) \right\}.
+f_{\mu , \sigma^2} (y) = \exp \left\{\sum_{j = 1}^{2} \eta_j (\mu , \sigma^2) T_j (y) - \psi (\eta) \right\}.
 $$
 
 This is called canonical form. It shows that the sum of  $T(y)$ , i.e., the first and second empirical moments of the data, are a sufficient statistic for  $\mathcal{N}(\mu, \sigma^2)$ .
@@ -389,7 +389,7 @@ Now, let's go over an example of sufficiency outside of the exponential family f
 Example 3.3 (Uniform distribution sufficient statistic). Suppose that  $Y_{1}, \ldots, Y_{n}$  are i.i.d.  $\sim$  Unif[0,  $\theta$ ]. Let  $Y_{(1)}, \ldots, Y_{(n)}$  be the order statistics. Then, the joint uniform density is
 
 $$
-f _ {\theta} (y) = \frac {1}{\theta^ {n}} 1 _ {\{y _ {(n)} \leq \theta \}} 1 _ {\{y _ {(1)} \geq 0 \}}.
+f_{\theta} (y) = \frac{1}{\theta^n} 1_{\{y_{(n)} \leq \theta \}} 1_{\{y_{(1)} \geq 0 \}}.
 $$
 
 Then, by Theorem 2.6, we immediately conclude that  $Y_{(n)}$  is sufficient.
@@ -399,7 +399,7 @@ It actually turns out that order statistics are a more general technique.
 Example 3.4 (Order statistics are sufficient). Let  $f_{\theta}$  be any density with respect to the Lebesgue measure, parameterized by some scalar  $\theta$ . Then, if  $Y_{1}, \ldots, Y_{n}$  are i.i.d.  $\sim f_{\theta}$ , then the order statistics  $Y_{(1)}, \ldots, Y_{(n)}$  are a nontrivial sufficient statistic for  $\theta$ . This is because the joint density is
 
 $$
-\prod_ {i = 1} ^ {n} f (y _ {i}) = \prod_ {i = 1} ^ {n} f (y _ {(i)}).
+\prod_{i = 1}^{n} f (y_i) = \prod_{i = 1}^{n} f (y_{(i)}).
 $$
 
 # 3.2 Unbiased Estimation
