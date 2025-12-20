@@ -1,4 +1,11 @@
---- aliases: null tags: null key_concepts: null parent_directory: null cssclasses: academia title: CHAPTER 1 linter-yaml-title-alias: CHAPTER 1 primary_tags:
+--- aliases: null
+tags: null 
+key_concepts: null 
+parent_directory: null 
+cssclasses: academia 
+title: CHAPTER 1 
+linter-yaml-title-alias: CHAPTER 1 
+primary_tags:
 - currency currency according market
 - spot currency depreciates rates
 - forward exchange markets decide
@@ -11,7 +18,8 @@
 - market exchange rate definitions
 - ective exchange rates national
 - depreciation dollar london selling
-- exchange rate net sellers tags_extracted: '2025-12-18T01:29:55.742656'
+- exchange rate net sellers
+tags_extracted: '2025-12-18T01:29:55.742656'
 ---
 
 # Chapter 1

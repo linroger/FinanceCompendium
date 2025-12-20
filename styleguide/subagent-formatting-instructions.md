@@ -55,6 +55,8 @@ Split the document by **level 1 markdown headers** (`# Header`), grouping them i
 ```yaml
 ---
 title: Document Title in Title Case
+parent_directory: Parent Directory Name
+formatted: 
 primary_tags:
   - most important concept
   - core methodology
@@ -75,7 +77,7 @@ cssclasses: academia
 - `cssclasses`: Always set to `academia`
 - **REMOVE** the `tags` field if present (replaced by primary_tags/secondary_tags)
 - **REMOVE** the `key_concepts` field if present (redundant)
-- **REMOVE** linter-generated fields like `linter-yaml-title-alias` or `source`
+- **REMOVE** linter-generated fields like `linter-yaml-title-alias` 
 - Exactly ONE blank line after the closing `---` before content
 
 **If frontmatter is missing:** Create it based on the document's H1 title and content.
@@ -188,7 +190,7 @@ If the document has a TOC at the top with dotted leaders:
 **Fix:** Remove dotted leaders and page numbers. Either:
 - Convert to clean markdown list, OR
 - Remove entirely if redundant with document structure
-
+- Remove empty lines separating items in the outline or TOC. 
 #### H. Content Exclusion
 
 **Remove practice/exercise sections** typically at document end:
