@@ -58,49 +58,49 @@ may require you to pay a premium to depositors due to a possible informational a
 Think of  $P^*$  as the full-value price of an asset, that is, the highest price an owner can expect to realize by liquidating one unit, provided all useful preparations are made for the sale. If the asset is sold before all useful preparations can be made, a lesser price will be realized. Call this lesser price  $P_i$ , where  $i = 0, \dots, n$  indicates the time used for marketing, and  $n$  is the time needed to realize full value. The length of time used should be thought of as the interval between a decision to sell and the time at which a sales contract is consummated.<sup>6</sup> Hence
 
 $$
-P _ {n} = P ^ {*}
+P_{n} = P^{*}
 $$
 
 and for all values of  $i < n$ , the realized price of the asset,  $P_{i}$ , is less than full value. One way to think of liquidity is in terms of
 
 $$
-L _ {1} = \frac {P _ {i}}{P *}.
+L_{1} = \frac{P_{i}}{P *}.
 $$
 
 A limitation of this definition is that the liquidity of a particular asset depends on the value of  $i$  chosen. Thus, for low values of  $i$ , one asset may be more liquid than another, whereas for greater values of  $i$ , the liquidity comparison might be reversed. This impedes the consistent ranking of assets according to their liquidity. One way to mitigate, if not obviate, this problem of liquidity reversal among assets is to think in terms of an "average" value of  $i$ . Hence
 
 $$
-L _ {2} = \frac {1}{n} \sum_ {i = 0} ^ {n} \frac {P _ {i}}{P ^ {*}}.
+L_{2} = \frac{1}{n} \sum_{i = 0}^{n} \frac{P_{i}}{P^{*}}.
 $$
 
 A still more appealing approach recognizes the inherent uncertainty regarding  $i$ , the time interval between the decision to sell, and the actual sale. Thus, we can view it as a random variable with a probability distribution,  $g(i)$ , which stipulates the probability of each possible outcome  $(i = 0, \dots, n)$ . The expected value of an asset,  $E(P)$ , is then defined as
 
 $$
-E (P) = \sum_ {i = 0} ^ {n} g (i) P _ {i},
+E (P) = \sum_{i = 0}^{n} g (i) P_{i},
 $$
 
 and this leads to a third definition of liquidity, which is
 
 $$
-L _ {3} = \frac {E (P)}{P *}.
+L_{3} = \frac{E (P)}{P *}.
 $$
 
 The liquidity concept can be further generalized to account for marketing expenditures, say  $M$ . The more general view is that the realizable price of an asset depends on time, marketing expenditures, and full-value price, so that
 
 $$
-P _ {i} = f (i, M, P ^ {*}),
+P_{i} = f (i, M, P^{*}),
 $$
 
 and if  $\overline{M}$  is the optimally chosen marketing expenditure,
 
 $$
-E \left(P ^ {\prime}\right) = \sum_ {i = 0} ^ {n} g (i) f (i, \bar {M}, P ^ {*})
+E \left(P^{\prime}\right) = \sum_{i = 0}^{n} g (i) f (i, \bar {M}, P^{*})
 $$
 
 is the expected value of an asset, conditional to the owner's spending optimally on marketing. This leads to our fourth definition of liquidity
 
 $$
-L _ {4} = \frac {E (P ^ {\prime})}{P *}
+L_{4} = \frac{E (P^{\prime})}{P *}
 $$
 
 and  $M / P^{*}$  can be thought of as a measure of the market's thinness, a measure akin to the bid-ask spread.

@@ -40,13 +40,13 @@ For example, let's say that a trader wishes to calculate the convenience yield o
 Let  $F_{t,T}$  be the forward price of an asset with initial price  $S_{t}$  and maturity  $T$ . Suppose that  $r$  is the continuously compounded interest rate for one year. Then, the non-arbitrage pricing formula should be
 
 $$
-F _ {t, T} = S _ {t} \cdot e ^ {r (T - t)}
+F_{t, T} = S_{t} \cdot e^{r (T - t)}
 $$
 
 However, this relationship does not hold in most commodity markets, partly because of the inability of investors and speculators to short the underlying asset,  $S_{t}$ . Instead, there is a correction to the forward pricing formula given by the convenience yield  $c$ . Hence
 
 $$
-F _ {t, T} = S _ {t} \cdot e ^ {(r - c) (T - t)}
+F_{t, T} = S_{t} \cdot e^{(r - c) (T - t)}
 $$ or
 
 
@@ -196,7 +196,7 @@ $$ where  $\ell$  represents "convenience yield" and  $dW_{1}dW_{2} = \rho dt$ .
 
 
 $$
-\Phi (t, T) = \hat {\mathbb {E}} [ S _ {T} ] = \exp \left\{\hat {\mathbb {E}} [ \ln S _ {T} ] + \frac {1}{2} \hat {\mathbb {V}} [ \ln S _ {T} ] \right\}
+\Phi (t, T) = \hat {\mathbb {E}} [ S_{T} ] = \exp \left\{\hat {\mathbb {E}} [ \ln S_{T} ] + \frac{1}{2} \hat {\mathbb {V}} [ \ln S_{T} ] \right\}
 $$ where
 
 
@@ -213,17 +213,17 @@ Another important pricing question related to commodities (and not so much for f
 A marketing cost is assumed as  $\xi Q^2$ . Also $\text{PV}[P_2] = DP_2$. So the total revenue from both sales is $(P_1Q_1 - \xi Q_1^2) + D(P_2Q_2 - \xi Q_2^2)$. Maximizing the total revenue leads to (substituting  $Q - Q_{2}$  for  $Q_{1}$  and taking first order derivative with respect to  $Q_{2}$ ):
 
 $$
-- P _ {1} + 2 \xi (Q - Q _ {2}) + D (P _ {2} - 2 \xi Q _ {2}) = 0
+- P_{1} + 2 \xi (Q - Q_{2}) + D (P_{2} - 2 \xi Q_{2}) = 0
 $$ and the optimal solution for  $Q_{2}$  is:
 
 
 $$
-\hat {Q} _ {2} = \frac {D P _ {2} - P _ {1} + 2 \xi Q}{2 \xi (1 + D)}
+\hat {Q}_{2} = \frac{D P_{2} - P_{1} + 2 \xi Q}{2 \xi (1 + D)}
 $$ which implies a positive inventory (i.e.  $Q_{2} > 0$ ) if:
 
 
 $$
-D P _ {2} - P _ {1} > - 2 \xi Q
+D P_{2} - P_{1} > - 2 \xi Q
 $$ that is the price differential must be larger enough to justify an inventory. The larger is the price in the second sale  $(P_{2})$ , the higher is the inventory level  $(Q_{2})$ . This is known as the transaction demand for inventory.
 
 
@@ -238,13 +238,13 @@ $$
 Expected shortage cost:
 
 $$
-\int_ {0} ^ {K - I} (K - I - z) x f (z) d z
+\int_{0}^{K - I} (K - I - z) x f (z) d z
 $$
 
 Cost of precautionary inventory is  $Ic$  so the total cost is:
 
 $$
-I c + \int_ {0} ^ {K - I} (K - I - z) x f (z) d z
+I c + \int_{0}^{K - I} (K - I - z) x f (z) d z
 $$
 
 Optimal level of inventory  $I^{*}$  is:
@@ -510,37 +510,37 @@ So essentially this is a daily strip of a forward (notional  $D_{\mathrm{min}}$ 
 To evaluate the swing contract, we continue to assume the existence of the risk-neutral measure. Under the risk-neutral pricing, the contract has the following value:
 
 $$
-\begin{array}{l} C (t, \underline {{T}}; \underline {{q}}) = \max  _ {q _ {i}} \sum_ {i = 1} ^ {n} P (t, T _ {i}) \hat {\mathbb {E}} _ {t} \left[ 1 _ {q _ {i} > 0} q _ {i} \max  \left\{\Phi \left(T _ {i}, T _ {i} + 1 \mathrm {d}\right) - K, 0 \right\} + 1 _ {q _ {i} <   0} q _ {i} S (T _ {i}) \right] \\ = \max  _ {q _ {i}} \sum_ {i = 1} ^ {n} P (t, T _ {i}) \left\{1 _ {q _ {i} > 0} q _ {i} \left[ \Phi (t, T _ {i} + 1 \mathrm {d}) \Pi_ {i} ^ {+} - K \Pi_ {i} ^ {-} \right] + 1 _ {q _ {i} <   0} q _ {i} \Phi (t, T _ {i}) \right\} \tag {13.3} \\ \end{array}
+\begin{array}{l} C (t, \underline {{T}}; \underline {{q}}) = \max_{q_{i}} \sum_{i = 1}^{n} P (t, T_{i}) \hat {\mathbb {E}}_{t} \left[ 1_{q_{i} > 0} q_{i} \max  \left\{\Phi \left(T_{i}, T_{i} + 1 \mathrm{d}\right) - K, 0 \right\} + 1_{q_{i} <   0} q_{i} S (T_{i}) \right] \\ = \max_{q_{i}} \sum_{i = 1}^{n} P (t, T_{i}) \left\{1_{q_{i} > 0} q_{i} \left[ \Phi (t, T_{i} + 1 \mathrm{d}) \Pi_{i}^{+} - K \Pi_{i}^{-} \right] + 1_{q_{i} <   0} q_{i} \Phi (t, T_{i}) \right\} \tag {13.3} \\ \end{array}
 $$ where is the risk-free discount factor (till time  $u$ ),  $1_{\{\cdot\}}$  is the indicator function,  $\underline{T} = < T_1, \dots, T_n >$  are exercise dates;  $\underline{q} = < q_1, \dots, q_n >$  are daily quantities (injection or withdrawal);  $\Phi(t, u)$  is the futures price purchased at time  $t$  and delivered at time  $u$ ; and  $\hat{\mathbb{E}}_t$  is the risk-neutral expectation. Finally,  $\Pi_1$  and  $\Pi_2$  are two probabilities. In other words, at each day  $T_i$  ( $i = 1, \dots, n$ ), a quantity  $N_i$  is decided to buy at a futures price  $\Phi(T_i, T_i + 1\mathrm{d})$  which delivers at  $T_i + 1\mathrm{d}$  or the strike price  $K$  whichever is smaller. (Given that this is a one-day futures contract, the futures price must be very close to the spot price  $S(T_i)$ .) In equation (1), we note that the risk-neutral of both future spot price and futures price are futures prices and if the futures price follows the Black model (1976):
 
 
 $$
-\frac {d \Phi (t , T _ {i})}{\Phi (t , T _ {i})} = \sigma W (t)
+\frac{d \Phi (t , T_{i})}{\Phi (t , T_{i})} = \sigma W (t)
 $$ then the two probabilities are normal:
 
 
 $$
-\Pi_ {i} ^ {\pm} = N \left(\frac {\ln \Phi (t , T _ {i}) - \ln K}{\sigma \sqrt {T _ {i} - t}} \pm \frac {1}{2} \sigma^ {2} (T _ {i} - t)\right)
+\Pi_{i}^{\pm} = N \left(\frac{\ln \Phi (t , T_{i}) - \ln K}{\sigma \sqrt{T_{i} - t}} \pm \frac{1}{2} \sigma^{2} (T_{i} - t)\right)
 $$ where  $N(\cdot)$  is the standard normal probability. Note that equation (1) does not have a closed form solution (although the price option does). Equation (1) needs to be solved for a series of quantities (positive is buy and negative is sell/consume). Given that the objective function is linear (both  $\Phi(t, T_i + 1\mathrm{d})\Pi_i^+ - K\Pi_i^-$  and  $\Phi(t, T_i)$  are known), the problem can be solved via linear programming.
 
 
 $$
-\max _ {q _ {i}} \sum_ {i = 1} ^ {n} P (t, T _ {i}) \left\{1 _ {q _ {i} > 0} q _ {i} a _ {i} + 1 _ {q _ {i} <   0} q _ {i} b _ {i}) \right\}
+\max_{q_{i}} \sum_{i = 1}^{n} P (t, T_{i}) \left\{1_{q_{i} > 0} q_{i} a_{i} + 1_{q_{i} <   0} q_{i} b_{i}) \right\}
 $$ subject to:
 
 
-$$ l <   q _ {i} <   u
+$$ l <   q_{i} <   u
 $$
 
 $$
-L <   \sum_ {i = 1} ^ {n} q _ {i} <   U
+L <   \sum_{i = 1}^{n} q_{i} <   U
 $$ where  $l$  and  $u$  are daily upper and lower limits and  $Z$  and  $U$  are all-time upper and lower limits and
 
 
-$$ a _ {i} = \Phi (t, T _ {i} + 1 \mathrm {d}) \Pi_ {i} ^ {+} - K \Pi_ {i} ^ {-}
+$$ a_{i} = \Phi (t, T_{i} + 1 \mathrm{d}) \Pi_{i}^{+} - K \Pi_{i}^{-}
 $$
 
-$$ b _ {i} = \Phi (t, T _ {i})
+$$ b_{i} = \Phi (t, T_{i})
 $$
 
 This is a linear programming problem that can be easily solved in Excel using the Solver.
@@ -550,7 +550,7 @@ This is a linear programming problem that can be easily solved in Excel using th
 When the quantities are random (i.e. determined at each date), then it becomes a function of the realized futures price at each date. (6)
 
 $$
-C (t, \underline {{T}}; \underline {{q}}) = \max _ {q _ {i}} \sum_ {i = 1} ^ {n} P (t, T _ {i}) \hat {\mathbb {E}} _ {t} \left[ 1 _ {\tilde {q} _ {i} > 0} \tilde {q} _ {i} \max \{\Phi (T _ {i}, T _ {i} + 1 \mathrm {d}) - K, 0 \} + 1 _ {\tilde {q} _ {i} <   0} \tilde {q} _ {i} S (T _ {i}) \right]
+C (t, \underline {{T}}; \underline {{q}}) = \max_{q_{i}} \sum_{i = 1}^{n} P (t, T_{i}) \hat {\mathbb {E}}_{t} \left[ 1_{\tilde {q}_{i} > 0} \tilde {q}_{i} \max \{\Phi (T_{i}, T_{i} + 1 \mathrm{d}) - K, 0 \} + 1_{\tilde {q}_{i} <   0} \tilde {q}_{i} S (T_{i}) \right]
 $$
 
 Now the daily quantity  $\tilde{q}_i = f(\Phi(T_i, T_i + 1\mathrm{d}), S(T_i))$  is random and is a function of the futures price  $\Phi(T_i, T_i + 1\mathrm{d})$  and the spot price  $S(T_i)$ . This implies that  $\tilde{q}_i$  and  $\Phi(T_i, T_i + 1\mathrm{d})$  and  $S(T_i)$  are correlated and then the expected value cannot be solved in a closed form solution.
@@ -569,7 +569,7 @@ As a result, a dynamic programming approach must be adopted and the swing contra
 Now the problem becomes more complex:
 
 $$
-\begin{array}{l} C (t, \underline {{T}}; \underline {{q}}) \\ = \max _ {q _ {i}} \sum_ {i = 1} ^ {n} \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {T _ {i}} r (u) d u\right) \left[ 1 _ {\tilde {q} _ {i} > 0} \tilde {q} _ {i} \max \{\Phi (T _ {i}, T _ {i} + 1 \mathrm {d}) - K, 0 \} + 1 _ {\tilde {q} _ {i} <   0} \tilde {q} _ {i} S (T _ {i}) \right] \right] \\ = \max  _ {q _ {i}} \sum_ {i = 1} ^ {n} P (t, T _ {i}) \tilde {\mathbb {E}} _ {t} ^ {(T _ {i})} [ 1 _ {\tilde {q} _ {i} > 0} \tilde {q} _ {i} \max  \left\{\Phi \left(T _ {i}, T _ {i} + 1 \mathrm {d}\right) - K, 0 \right\} + 1 _ {\tilde {q} _ {i} <   0} \tilde {q} _ {i} S (T _ {i}) ] \\ \end{array}
+\begin{array}{l} C (t, \underline {{T}}; \underline {{q}}) \\ = \max_{q_{i}} \sum_{i = 1}^{n} \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{T_{i}} r (u) d u\right) \left[ 1_{\tilde {q}_{i} > 0} \tilde {q}_{i} \max \{\Phi (T_{i}, T_{i} + 1 \mathrm{d}) - K, 0 \} + 1_{\tilde {q}_{i} <   0} \tilde {q}_{i} S (T_{i}) \right] \right] \\ = \max_{q_{i}} \sum_{i = 1}^{n} P (t, T_{i}) \tilde {\mathbb {E}}_{t}^{(T_{i})} [ 1_{\tilde {q}_{i} > 0} \tilde {q}_{i} \max  \left\{\Phi \left(T_{i}, T_{i} + 1 \mathrm{d}\right) - K, 0 \right\} + 1_{\tilde {q}_{i} <   0} \tilde {q}_{i} S (T_{i}) ] \\ \end{array}
 $$ where  $\tilde{\mathbb{E}}_t^{(T_i)}$  is the  $T_{i}$ -forward expectation. With non-stochastic  $q_{i}$ , there is a closed-form solution to the price option (Chen (1992)) and LP can still solve the problem. In other words, as long as the optimal quantities are not random, stochastic interest rates do not add too much complexity to the problem. If quantities are random, then, there is no easy solution
 
 

@@ -254,7 +254,7 @@ This section presents a stylized example of a portfolio optimization with two hi
 Assume the investor seeks to maximize a utility function that reflects the trade-off between expected portfolio returns  $\mu_p = w'\mu$  and risk  $\sigma_p^2 = w'\Sigma w$ , where  $w$  represents a vector of portfolio weights,  $\mu$  represents a vector of expected returns in excess of the risk-free rate, and  $\Sigma$  represents the covariance matrix of returns. The investor maximizes
 
 $$
-U (w \mid \mu , \Sigma) = U (\mu_ {p}, \sigma_ {p} ^ {2}) = \mu_ {p} - 1 / (2 \lambda) \sigma_ {p} ^ {2}, \tag {1}
+U (w \mid \mu , \Sigma) = U (\mu_{p}, \sigma_{p}^{2}) = \mu_{p} - 1 / (2 \lambda) \sigma_{p}^{2}, \tag {1}
 $$
 
 where  $\lambda$  is the investor's risk tolerance, or inverse of risk aversion.[23]
@@ -262,7 +262,7 @@ where  $\lambda$  is the investor's risk tolerance, or inverse of risk aversion.
 The optimal positions in risky assets are given by
 
 $$
-w = \lambda \Sigma^ {- 1} \mu , \tag {2}
+w = \lambda \Sigma^{- 1} \mu , \tag {2}
 $$
 
 with the remainder of the portfolio is invested in the riskless asset.

@@ -65,37 +65,37 @@ What determines the shape of the yield curve? For simplicity, we will examine th
 Let  $P_{t}^{m}$  and  $i_{t}^{m}$  be the price and YTM, respectively, at time  $t$  of a bond of maturity  $m$  years. We assume the unit of time is 1 year, and all bonds are traded, so that prices are available from the market. As an illustration, we will examine the yield relationship between two bonds, one with a maturity of 1 year and the other with a maturity of 2 years. For simplicity, we will assume that each is a zero-coupon (pure-discount) bond and has a face value,  $F$ , of \$1. A zero-coupon bond makes a single promised payment (often called a balloon payment) at maturity, and no payments prior to that. Now, the YTM on the 1-year bond at the present time ( $t = 0$ ),  $i_{0}^{1}$ , is the internal rate of return that discounts the \$1 face value over one period to equal the current market price of the bond.
 
 $$
-P _ {0} ^ {1} = \frac {F}{1 + \mathrm {Y T M}} = \frac {1}{1 + i _ {0} ^ {1}}. \tag {5.1}
+P_{0}^{1} = \frac{F}{1 + \mathrm{YT M}} = \frac{1}{1 + i_{0}^{1}}. \tag {5.1}
 $$
 
 Similarly, the YTM on the 2-year bond at  $t = 0$ ,  $i_0^2$ , is the internal rate of return that discounts the \$1 face value over two periods to equal the current market price of the bond.
 
 $$
-P _ {0} ^ {2} = \frac {F}{(1 + \mathrm {Y T M}) ^ {2}} = \frac {1}{\left(1 + i _ {0} ^ {2}\right) ^ {2}}. \tag {5.2}
+P_{0}^{2} = \frac{F}{(1 + \mathrm{YT M})^{2}} = \frac{1}{\left(1 + i_{0}^{2}\right)^{2}}. \tag {5.2}
 $$
 
 Now suppose we take  \$1 today and invest it in the 2-year bond. Because it sells at$ P_0^2\), we will be able to buy  $1 / P_0^2$  units of it. Then, 2 years from now (at  $t = 2$ ), our investment will fetch us a (sure) payoff equal to the number of bonds we have bought  $(1 / P_0^2)$  times the face value of each bond ( \$1). That is, our payoff at \(t = 2\$  will be [using Equation (5.2)]
 
 $$
-1 / P _ {0} ^ {2} = \left(1 + i _ {0} ^ {2}\right) ^ {2}. \tag {5.3}
+1 / P_{0}^{2} = \left(1 + i_{0}^{2}\right)^{2}. \tag {5.3}
 $$
 
 Another use of our \(1 would be to invest it in the 1 year bond right now. We will be able to buy \(1 / P_0^1\) units of it at \(t = 1\), then our payoff will be the number of bonds we have bought \((1 / P_0^1)\) times the face value of each bond (\(1). That is, our payoff at \(t = 1\) will be [using Equation (5.1)]
 
 $$
-1 / P _ {0} ^ {2} = \left(1 + i _ {0} ^ {1}\right). \tag {5.4}
+1 / P_{0}^{2} = \left(1 + i_{0}^{1}\right). \tag {5.4}
 $$
 
 What shall we do with this money at t = 1? Invest it, of course! Suppose we invest in another zero-coupon, \$1 face value, 1-year bond that will be issued a year from now (or equivalently, a multiyear bond with 1 year left to mature). Since we are currently in a world of certainty, we should be able to forecast the price, P1, of this 1-year bond (issued 1 year from now) with perfect accuracy. With $(1 + i0) to invest, we should be able to buy (1 + i0)/P1 units of this bond. Note that the YTM, i1, of this bond is the internal rate of return that discounts the \$1 face value over one period to equal the current bond market price, and is thus
 
 $$
-P _ {1} ^ {1} = 1 / \left(1 + i _ {1} ^ {1}\right). \tag {5.5}
+P_{1}^{1} = 1 / \left(1 + i_{1}^{1}\right). \tag {5.5}
 $$
 
 Since we have bought (1 + i01) / P1 units of this bond at t = 1, and the face value of each unit is \$1, our payoff at t = 2 will be [using Equation (5.5)]
 
 $$
-[ (1 + i _ {0} ^ {1}) / P _ {1} ^ {1} ] \times 1 = (1 + i _ {0} ^ {1}) (1 + i _ {1} ^ {1}). \tag {5.6}
+[ (1 + i_{0}^{1}) / P_{1}^{1} ] \times 1 = (1 + i_{0}^{1}) (1 + i_{1}^{1}). \tag {5.6}
 $$
 
 # The Absence of Arbitrage and the Yield to Maturity Relationship
@@ -105,19 +105,19 @@ Equilibrium in this market requires that there be no riskless arbitrage opportun
 proceeds into another 1-year bond. Both strategies should yield identical proceeds at  $t = 2$  since we started out in each with identical \$1 investments. That is, the expressions in Equations (5.3) and (5.6) should be equal. This gives
 
 $$
-(1 + i _ {0} ^ {2}) ^ {2} = (1 + i _ {0} ^ {1}) (1 + i _ {1} ^ {1}),
+(1 + i_{0}^{2})^{2} = (1 + i_{0}^{1}) (1 + i_{1}^{1}),
 $$
 
 or
 
 $$
-\left(1 + i _ {0} ^ {2}\right) = \sqrt {\left(1 + i _ {0} ^ {1}\right) \left(1 + i _ {1} ^ {1}\right)}. \tag {5.7}
+\left(1 + i_{0}^{2}\right) = \sqrt{\left(1 + i_{0}^{1}\right) \left(1 + i_{1}^{1}\right)}. \tag {5.7}
 $$
 
 Thus, the (annualized) YTM on the 2-year bond should be the geometric average of the YTMs on two successive bonds, each of maturity 1 year. This relationship is sometimes known as the expectations hypothesis, because it says that the yield on a long-term bond should be based on the expectations of investors about the yields on a sequence of short-term bonds. The general form of Equation (5.7) for any arbitrary number of years,  $n$ , is
 
 $$
-\left(1 + i _ {0} ^ {n}\right) = \sqrt [ n ]{\left(1 + i _ {0} ^ {1}\right) \left(1 + i _ {1} ^ {1}\right) \left(1 + i _ {2} ^ {1}\right) \left(1 + i _ {3} ^ {1}\right) \dots \left(1 + i _ {n - 1} ^ {1}\right)} \tag {5.8}
+\left(1 + i_{0}^{n}\right) = \sqrt [ n ]{\left(1 + i_{0}^{1}\right) \left(1 + i_{1}^{1}\right) \left(1 + i_{2}^{1}\right) \left(1 + i_{3}^{1}\right) \dots \left(1 + i_{n - 1}^{1}\right)} \tag {5.8}
 $$
 
 # Spot Rates and Forward Rates
@@ -125,13 +125,13 @@ $$
 The future yields,  $i_1^1, i_2^1, i_3^1$ , are known as forward rates, whereas the current yields,  $i_0^1, i_0^2, \ldots, i_0^n$ , are known as spot rates. Note that the forward rate for any period in the future can be defined with the help of a ratio of bond prices. To see this, solve Equation (5.7) to obtain
 
 $$
-i _ {1} ^ {1} = \frac {\left(1 + i _ {0} ^ {2}\right) ^ {2}}{\left(1 + i _ {0} ^ {1}\right)} - 1.
+i_{1}^{1} = \frac{\left(1 + i_{0}^{2}\right)^{2}}{\left(1 + i_{0}^{1}\right)} - 1.
 $$
 
 Now, substituting for  $1 + i_0^1$  and  $1 + i_0^2$  from Equations (5.1) and (5.2) respectively, we get
 
 $$
-i _ {1} ^ {1} = \frac {P _ {0} ^ {1}}{P _ {0} ^ {2}} - 1.
+i_{1}^{1} = \frac{P_{0}^{1}}{P_{0}^{2}} - 1.
 $$
 
 Similarly, we can obtain  $i_2^1 = \frac{P_0^2}{P_0^3} - 1$ , and so on. A one-period-hence forward rate can thus be thought of as the interest rate on a one-period loan starting at some future point in time. An  $n$ -period-hence forward rate is the interest rate on an  $n$ -period loan starting at some future point in time. The general formula for the YTM on a bond of maturity  $n$  periods to be issued  $t$  periods from now (i.e., the  $n$ -periods hence forward rate for time  $t$ ) is  $i_t^n = \sqrt[n]{\frac{P_0^t}{P_0^{n + t}}} - 1$ . We can see now how the shape of the yield curve is determined. If investors believe that short-term interest rates will keep rising, then  $i_0^1 < i_1^1 < i_2^1 < \ldots < i_{n - 1}^1$ , so that  $i_0^1 < i_0^2 < i_0^3 < \ldots < i_0^n$ , and the yield curve will be upward sloping. On the other hand, if investors believe that short-term interest rates will keep falling, then the yield curve will be inverted, or downward sloping. Given a set of bond prices, we can compute the implied forward rates in the market as we do in the example below.
@@ -157,13 +157,13 @@ Similarly,
 Step 2 We will now compute the implied forward rates. The data given to us are that \( P_0^1 = \\(9,523,809 \), \( P_0^2 = \\)8,734,386 \), and \( P_0^3 = \\(7,513,148 \). Now,
 
 $$
-\begin{array}{l} i _ {1} ^ {1} = \frac {P _ {0} ^ {1}}{P _ {0} ^ {2}} - 1 \\ = \frac {9 , 5 2 3 , 8 0 9}{8 , 7 3 4 , 8 3 6} - 1 \\ = 9.03809 \%, \\ \end{array}
+\begin{array}{l} i_{1}^{1} = \frac{P_{0}^{1}}{P_{0}^{2}} - 1 \\ = \frac{9 , 5 2 3 , 8 0 9}{8 , 7 3 4 , 8 3 6} - 1 \\ = 9.03809 \%, \\ \end{array}
 $$
 
 and
 
 $$
-\begin{array}{l} i _ {2} ^ {1} = \frac {P _ {0} ^ {2}}{P _ {0} ^ {3}} - 1 \\ = \frac {8 , 7 3 4 , 8 3 6}{7 , 5 1 3 , 1 4 8} - 1 \\ = 16.25469\% \\ \end{array}
+\begin{array}{l} i_{2}^{1} = \frac{P_{0}^{2}}{P_{0}^{3}} - 1 \\ = \frac{8 , 7 3 4 , 8 3 6}{7 , 5 1 3 , 1 4 8} - 1 \\ = 16.25469\% \\ \end{array}
 $$
 
 Notice that the geometric mean of  $5\%$ ,  $9.03809\%$ , and  $16.25469\%$  equals the current 3-year yield of  $10\%$ . Likewise, the geometric mean of  $5\%$  and  $9.03809\%$  equals the current 2-year yield of  $7\%$ . In addition, the geometric mean of the current 2-year yield of  $7\%$  and the 1-year rate 2 years hence of  $16.25469\%$  will equal the current 3-year-rate of  $10\%$ . Thus, all possible 3-year investment strategies should produce identical returns. Our analysis so far has proceeded under the assumption of certainty. We now introduce uncertainty about future interest rates.
@@ -218,7 +218,7 @@ Percentage Price Change in Assets = Percentage Price Change in Liabilities
 or
 
 $$
-\left. \frac {\Delta P _ {\mathrm {A}}}{P _ {\mathrm {A}}} \right| _ {\Delta_ {i}} = \left. \frac {\Delta P _ {\mathrm {L}}}{P _ {\mathrm {L}}} \right| _ {\Delta_ {i}} \tag {5.9}
+\left. \frac{\Delta P_{\mathrm{A}}}{P_{\mathrm{A}}} \right|_{\Delta_{i}} = \left. \frac{\Delta P_{\mathrm{L}}}{P_{\mathrm{L}}} \right|_{\Delta_{i}} \tag {5.9}
 $$
 
 where  $\Delta P_{\mathrm{A}} =$  change in price of asset,  $P_{\mathrm{A}} =$  price of asset,  $\Delta P_{\mathrm{L}} =$  change in price of liability,  $P_{\mathrm{L}} =$  price of liability, and  $\Delta_{i} =$  change in interest rate.
@@ -228,15 +228,15 @@ Let us now examine the value  $\left.\frac{\Delta P}{P}\right|_{\Delta_i}$ .
 Consider first a flat term structure, with  $i = 10\%$  and a 10-year zero-coupon bond with \$100 par. How will the price of this bond change if yields (interest rates) change by one b.p.? (Figure 5.5).
 
 $$
-P (\text {n o c h a n g e}) = \frac {\mathbb {S} 1 0 0}{(1 . 1 0) ^ {1 0}} = \mathbb {S} 3 8. 5 5 4 3
+P (\text{no ch an ge}) = \frac{\mathbb {S} 1 0 0}{(1 . 1 0)^{1 0}} = \mathbb {S} 3 8. 5 5 4 3
 $$
 
 $$
-\left. \frac {\Delta P}{P} \right| _ {\Delta i = + 0. 0 0 0 1} = \frac {\mathbb {S} 1 0 0}{(1 . 1 0 0 1) ^ {1 0}} = \mathbb {S} 3 8. 5 1 9 3
+\left. \frac{\Delta P}{P} \right|_{\Delta i = + 0. 0 0 0 1} = \frac{\mathbb {S} 1 0 0}{(1 . 1 0 0 1)^{1 0}} = \mathbb {S} 3 8. 5 1 9 3
 $$
 
 $$
-\left. \frac {\Delta P}{P} \right| _ {\Delta i = - 0. 0 0 0 1} = \frac {\mathbb {S} 1 0 0}{(1 . 1 0 0 0 9) ^ {1 0}} = \mathbb {S} 3 8. 5 8 9 4
+\left. \frac{\Delta P}{P} \right|_{\Delta i = - 0. 0 0 0 1} = \frac{\mathbb {S} 1 0 0}{(1 . 1 0 0 0 9)^{1 0}} = \mathbb {S} 3 8. 5 8 9 4
 $$
 
 $$
@@ -260,43 +260,43 @@ total cash flow well before its actual maturity date, whereas the latter skews i
 Duration, which is calibrated in the same temporal units as maturity, captures the timing of all cash flows generated by a bond, not just the terminal cash flow, and therefore is a more sophisticated measure. The duration of a bond is defined as the weighted average of the times to arrival of all scheduled future payments of a bond, where the weight attached to each payment reflects the relative contribution of that payment to the value of the bond. That is, each weighting factor is the present value of that payment divided by the present value of all payments of the bond. Consider a bond with  $N$  years to maturity, coupon payments  $C_1, C_2, \ldots, C_N$  where  $C_t$  is the coupon paid  $t$  years from now, and a principal (balloon) payment of  $B_N$  made at maturity. Let the term structure be flat, with  $i$  as the annual yield for all cash flows. Then the price of the bond at  $t = 0$  is the present value of future payments:
 
 $$
-P = \frac {C _ {1}}{1 + i} + \frac {C _ {2}}{(1 + i) ^ {2}} + \dots + \frac {C _ {N} + B _ {N}}{(1 + i) ^ {N}} \tag {5.10}
+P = \frac{C_{1}}{1 + i} + \frac{C_{2}}{(1 + i)^{2}} + \dots + \frac{C_{N} + B_{N}}{(1 + i)^{N}} \tag {5.10}
 $$
 
 To see how  $P$  is related to  $i$ , let us take a derivative
 
 $$
-\frac {\mathrm {d} P}{\mathrm {d} i} = \frac {- C _ {1}}{(1 + i) ^ {2}} + \left[ \frac {- 2 C _ {2}}{(1 + i) ^ {3}} \right] + \dots + \left[ \frac {- N [ C _ {N} + B _ {N} ]}{(1 + i) ^ {N + 1}} \right]
+\frac{\mathrm{d} P}{\mathrm{d} i} = \frac{- C_{1}}{(1 + i)^{2}} + \left[ \frac{- 2 C_{2}}{(1 + i)^{3}} \right] + \dots + \left[ \frac{- N [ C_{N} + B_{N} ]}{(1 + i)^{N + 1}} \right]
 $$
 
 or
 
 $$
-\mathrm {d} P = \frac {- \mathrm {d} i}{1 + i} + \left[ \frac {C _ {1}}{1 + i} + \frac {2 C _ {2}}{(1 + i) ^ {2}} + \dots + \frac {N \left(C _ {N} + B _ {N}\right)}{(1 + i) ^ {N}} \right]
+\mathrm{d} P = \frac{- \mathrm{d} i}{1 + i} + \left[ \frac{C_{1}}{1 + i} + \frac{2 C_{2}}{(1 + i)^{2}} + \dots + \frac{N \left(C_{N} + B_{N}\right)}{(1 + i)^{N}} \right]
 $$
 
 Dividing both sides by  $P$  gives us:
 
 $$
-\frac {\mathrm {d} P}{P} = \frac {- \mathrm {d} i}{1 + i} \left[ \frac {\frac {C _ {1}}{(1 + i)} + \frac {2 C _ {2}}{(1 + i) ^ {2}} + \dots + \frac {N (C _ {N} + B _ {N})}{(1 + i) ^ {N}}}{\frac {C _ {1}}{(1 + i)} + \frac {C _ {2}}{(1 + i) ^ {2}} + \dots + \frac {(C _ {N} + B _ {N})}{(1 + i) ^ {N}}} \right]
+\frac{\mathrm{d} P}{P} = \frac{- \mathrm{d} i}{1 + i} \left[ \frac{\frac{C_{1}}{(1 + i)} + \frac{2 C_{2}}{(1 + i)^{2}} + \dots + \frac{N (C_{N} + B_{N})}{(1 + i)^{N}}}{\frac{C_{1}}{(1 + i)} + \frac{C_{2}}{(1 + i)^{2}} + \dots + \frac{(C_{N} + B_{N})}{(1 + i)^{N}}} \right]
 $$
 
 We can write this as:
 
 $$
-\begin{array}{l} \frac {\mathrm {d} P}{P} = \frac {- \mathrm {d} i}{(1 + i)} \left[ 1 \left\{\frac {\frac {C _ {1}}{(1 + i)}}{\frac {C _ {1}}{[ 1 + i ]} + \frac {C _ {2}}{[ 1 + i ] ^ {2}} + \dots + \frac {[ C _ {N} + B _ {N} ]}{[ 1 + i ] ^ {N}}} \right\} + 2 \left\{\frac {\frac {C _ {2}}{(1 + i) ^ {2}}}{\frac {C _ {1}}{[ 1 + i ]} + \frac {C _ {2}}{[ 1 + i ] ^ {2}} + \dots + \frac {[ C _ {N} + B _ {N} ]}{[ 1 + i ] ^ {N}}} \right\} \right. \tag {5.11} \\ + \dots + N \left\{\frac {\frac {C _ {N} + B _ {N}}{[ 1 + i ] ^ {N}}}{\frac {C _ {1}}{[ 1 + i ]} + \frac {C _ {2}}{[ 1 + i ] ^ {2}} + \dots + \frac {[ C _ {N} + B _ {N} ]}{[ 1 + i ] ^ {N}}} \right\} \\ \end{array}
+\begin{array}{l} \frac{\mathrm{d} P}{P} = \frac{- \mathrm{d} i}{(1 + i)} \left[ 1 \left\{\frac{\frac{C_{1}}{(1 + i)}}{\frac{C_{1}}{[ 1 + i ]} + \frac{C_{2}}{[ 1 + i ]^{2}} + \dots + \frac{[ C_{N} + B_{N} ]}{[ 1 + i ]^{N}}} \right\} + 2 \left\{\frac{\frac{C_{2}}{(1 + i)^{2}}}{\frac{C_{1}}{[ 1 + i ]} + \frac{C_{2}}{[ 1 + i ]^{2}} + \dots + \frac{[ C_{N} + B_{N} ]}{[ 1 + i ]^{N}}} \right\} \right. \tag {5.11} \\ + \dots + N \left\{\frac{\frac{C_{N} + B_{N}}{[ 1 + i ]^{N}}}{\frac{C_{1}}{[ 1 + i ]} + \frac{C_{2}}{[ 1 + i ]^{2}} + \dots + \frac{[ C_{N} + B_{N} ]}{[ 1 + i ]^{N}}} \right\} \\ \end{array}
 $$
 
 The numerator in each term represents the time of arrival,  $1, 2, \dots, N$ , of a payment that is weighted by the present value of that payment. In the denominator, we have the present value of the sum of all cash flows promised by the bond, which should be its current market price,  $P$ . Define
 
 $$
-w _ {t} \equiv C _ {t} / (1 + i) ^ {t} \text {f o r a l l} t = 1, 2, \dots , N - 1 \tag {5.12}
+w_{t} \equiv C_{t} / (1 + i)^{t} \text{fo ra ll} t = 1, 2, \dots , N - 1 \tag {5.12}
 $$
 
 as the coefficient attached to the payment to be received  $t$  years from now. Let  $w_{N} \equiv (C_{N} + B_{N}) / (1 + i)^{N}$ . Then, using Equation (5.12) and the definition of  $P$ , we can write Equation (5.11) as
 
 $$
-\frac {\mathrm {d} P}{P} = - \frac {\mathrm {d} i}{[ 1 + i ]} \left[ \frac {\left(w _ {1} + 2 w _ {2} + 3 w _ {3} + \dots + N w _ {N}\right)}{P} \right] \tag {5.13}
+\frac{\mathrm{d} P}{P} = - \frac{\mathrm{d} i}{[ 1 + i ]} \left[ \frac{\left(w_{1} + 2 w_{2} + 3 w_{3} + \dots + N w_{N}\right)}{P} \right] \tag {5.13}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/c41d355f-e7c3-4cfc-b661-bc5ac69057be/5099f8146736cce36eff1b9a045858101386310a689c8f5a603ac924ce480b01.jpg)  
@@ -307,13 +307,13 @@ This equation gives the relationship between prices and yields. A fixed-income i
 Duration is the negative of the slope of the relationship shown in Figure 5.6. Thus, if we know the duration of an asset, we can predict its price sensitivity to a given change in yield. We can write:
 
 $$
-\frac {\mathrm {d} P}{P} = - D \left[ \frac {\mathrm {d} i}{1 + i} \right]
+\frac{\mathrm{d} P}{P} = - D \left[ \frac{\mathrm{d} i}{1 + i} \right]
 $$
 
 where  $D$  is duration. Defining  $\hat{w}_t\equiv w_t / P$  , we can write:
 
 $$
-D = \sum_ {t = 1} ^ {N} t \hat {w} _ {t}. \tag {5.14}
+D = \sum_{t = 1}^{N} t \hat {w}_{t}. \tag {5.14}
 $$
 
 Thus, Equation (5.14) says that, to arrive at the bond's duration, we compute a weighted average of the times to arrival of its different promised payments, where the weight attached to each time to arrival is equal to the present value of the cash flow associated with that time to arrival divided by the price of the bond.
@@ -340,19 +340,19 @@ We solve this problem in three steps. First, we compute the current prices of th
 Step 1 The discount rate for one period cash flows is  $10\%$  and the discount rate for two-period cash flows is  $9.7824\%$ . Thus the price of the zero-coupon bond is
 
 $$
-P _ {0} = 1 1 0 9. 6 / (1. 0 9 7 8 2 4) ^ {2} = \$ 9 2 0. 6 4.
+P_{0} = 1 1 0 9. 6 / (1. 0 9 7 8 2 4)^{2} = \$ 9 2 0. 6 4.
 $$
 
 Similarly, the price of the coupon bond is
 
 $$
-P _ {c} = \left[ \left[ 1 0 0 / 1. 1 0 \right] + \left[ 1 0 0 0 / (1. 0 9 7 8 2 4) ^ {2} \right] \right] = \$ 9 2 0. 6 4.
+P_{c} = \left[ \left[ 1 0 0 / 1. 1 0 \right] + \left[ 1 0 0 0 / (1. 0 9 7 8 2 4)^{2} \right] \right] = \$ 9 2 0. 6 4.
 $$
 
 Step 2 The above calculation shows that both bonds are equally priced. The duration of the zero-coupon bond is its maturity, which is 2 years. The duration of the coupon-paying bond is
 
 $$
-D = \hat {w} _ {1} + 2 \hat {w} _ {1}
+D = \hat {w}_{1} + 2 \hat {w}_{1}
 $$
 
 where  $\hat{w}_1 = [100 / 1.10] / 920.64 = 0.09875$  and  $\hat{w}_2 = [1000 / (1.097284)^2 ] / 920.64 = 0.90125$ .
@@ -381,31 +381,31 @@ $$
 Now:
 
 $$
-\frac {\Delta A}{A} = - D _ {A} \left[ \frac {\Delta i}{1 + i} \right]
+\frac{\Delta A}{A} = - D_{A} \left[ \frac{\Delta i}{1 + i} \right]
 $$
 
 which implies
 
 $$
-\Delta A = - D _ {A} [ A ] \left[ \frac {\Delta i}{1 + i} \right] \tag {5.15}
+\Delta A = - D_{A} [ A ] \left[ \frac{\Delta i}{1 + i} \right] \tag {5.15}
 $$
 
 Similarly,
 
 $$
-\frac {\Delta L}{L} = - D _ {L} \left[ \frac {\Delta i}{1 + i} \right]
+\frac{\Delta L}{L} = - D_{L} \left[ \frac{\Delta i}{1 + i} \right]
 $$
 
 which implies:
 
 $$
-\Delta L = - D _ {L} [ L ] \left[ \frac {\Delta i}{1 + i} \right] \tag {5.16}
+\Delta L = - D_{L} [ L ] \left[ \frac{\Delta i}{1 + i} \right] \tag {5.16}
 $$
 
 Assuming that the yield shock to the assets is identical to the yield shock to the liabilities, we can substitute Equation (5.15) and (5.16) in Equation (5.14) to obtain:
 
 $$
-\Delta E = \left[ - D _ {A} [ A ] \frac {\Delta i}{1 + i} \right] - \left[ - D _ {L} [ L ] \frac {\Delta i}{1 + i} \right]
+\Delta E = \left[ - D_{A} [ A ] \frac{\Delta i}{1 + i} \right] - \left[ - D_{L} [ L ] \frac{\Delta i}{1 + i} \right]
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/c41d355f-e7c3-4cfc-b661-bc5ac69057be/0a6f402ec0930fe087af8aa1c0c9157ef00bc2a935f39fdd6f77df3eca2a2209.jpg)  
@@ -414,13 +414,13 @@ FIGURE 5.7 Asset and Liability Duration for Traditional Bank
 which implies:
 
 $$
-\Delta E = \left[ \left\{- D _ {A} [ A ] + D _ {L} [ L ] \right\} \left[ \frac {\Delta i}{1 + i} \right] \right]
+\Delta E = \left[ \left\{- D_{A} [ A ] + D_{L} [ L ] \right\} \left[ \frac{\Delta i}{1 + i} \right] \right]
 $$
 
 or
 
 $$
-\Delta E = - \left[ D _ {A} - D _ {L} \left\{\frac {L}{A} \right\} \right] [ A ] \left[ \frac {\Delta i}{1 + i} \right] \tag {5.17}
+\Delta E = - \left[ D_{A} - D_{L} \left\{\frac{L}{A} \right\} \right] [ A ] \left[ \frac{\Delta i}{1 + i} \right] \tag {5.17}
 $$
 
 where  $\Delta E$  is in dollars.

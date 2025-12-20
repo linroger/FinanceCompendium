@@ -23,11 +23,11 @@ Buyers and seller of volatility swaps should know that any significant jumps in 
 According to Bossu and Wasserstein (2016), a term sheet is given in Figure 8.1. The floating leg of the swap pays a historically calculated variance:
 
 $$
-\sigma^ {2} = \frac {1 0 , 0 0 0 \times 2 5 2 \times \sum_ {i = 1} ^ {n _ {A}} r _ {i} ^ {2}}{n _ {E}}
+\sigma^{2} = \frac{1 0 , 0 0 0 \times 2 5 2 \times \sum_{i = 1}^{n_{A}} r_{i}^{2}}{n_{E}}
 $$ where
 
 
-$$ r _ {i} ^ {2} = \ln {\frac {V _ {i}}{V _ {i - 1}}}
+$$ r_{i}^{2} = \ln {\frac{V_{i}}{V_{i - 1}}}
 $$ and  $n_A$  is the actual number of trading days,  $n_E$  is the expected number of trading days,  $V_0$  is the closing level of the index on the trade date, and  $V_i$  is the closing level of the on date  $i$ .
 
 
@@ -44,7 +44,7 @@ These sample terms reflect current market practices. In particular:
 4. The notional is specified in volatility terms (here €50,000 per 'vega' or volatility point.) The true notional of the trade, called variance notional or variance units, is given as:
 
 $$
-\mathrm {V a r i a n c e N o t i o n a l} = \frac {\mathrm {V e g a N o t i o n a l}}{2 K}
+\mathrm{Va ri an ce No ti on al} = \frac{\mathrm{Ve ga No ti on al}}{2 K}
 $$
 
 With this convention, if realized volatility is 1 point above the strike at maturity, the payoff will approximately be equal to the vega Notional.
@@ -58,7 +58,7 @@ The vega notional = variance notional × 2K
 The P&L of a long variance swap can be calculated as:
 
 $$
-P \& L = N _ {\mathrm {v e g a}} \left(\frac {\sigma^ {2} - K ^ {2}}{2 K}\right) = N _ {\mathrm {v a r i a n c e}} \left(\sigma^ {2} - K ^ {2}\right)
+P \& L = N_{\mathrm{ve ga}} \left(\frac{\sigma^{2} - K^{2}}{2 K}\right) = N_{\mathrm{va ri an ce}} \left(\sigma^{2} - K^{2}\right)
 $$
 
 When the realized variance is close to the strike, the P&L is close to the difference between implied variance and realized variance multiplied by the vega notional.
@@ -82,26 +82,26 @@ Intuitively, the difference in fair strikes is related to the volatility of vola
 Forward-starting variance swaps can be synthesized with a calendar spread of two spot-starting variance swaps, with appropriate notionals. This is because the variance formula is designed to be perfectly additive. Taking annualization into account, we can indeed write:
 
 $$
-3 \times \mathrm {R e a l i z e d} _ {3 Y} = \mathrm {R e a l i z e d} _ {1 Y} + 2 \times \mathrm {F o r w a r d R e a l i z e d} _ {1 Y \times 2 Y}
+3 \times \mathrm{Re al iz ed}_{3 Y} = \mathrm{Re al iz ed}_{1 Y} + 2 \times \mathrm{Fo rw ar dR ea li ze d}_{1 Y \times 2 Y}
 $$ where  $\mathrm{Realized}_{1Y}$  is the future 1-year realized volatility,  $\mathrm{Realized}_{3Y}$  is the future 3-year realized volatility, and Forward Realized $_{1Y\times 2Y}$  is the future 2-year realized volatility starting in 1 year.
 
 
 Thus, for a given forward variance notional, we must adjust the spot variance notionals as follows:
 
-$$ \text{Variance Notional}_{1Y} = \frac{1 \times \text{Forward Variance Notional}_{1Y \times 2Y}}{2} $$
+$$ \text{VarianceNotional}_{1Y} = \frac{1 \times \text{ForwardVarianceNotional}_{1Y \times 2Y}}{2} $$
 
-$$ \text{Variance Notional}_{3Y} = \frac{3 \times \text{Forward Variance Notional}_{1Y \times 2Y}}{2} $$
+$$ \text{VarianceNotional}_{3Y} = \frac{3 \times \text{ForwardVarianceNotional}_{1Y \times 2Y}}{2} $$
 
 The resulting implicit fair strike for the forward variance swap is:
 
 $$
-\sqrt {\frac {3 \times K _ {\mathrm {3 Y v a r}} ^ {2} - 1 \times K _ {\mathrm {1 Y v a r}} ^ {2}}{2}}
+\sqrt{\frac{3 \times K_{\mathrm{3Y va r}}^{2} - 1 \times K_{\mathrm{1Y va r}}^{2}}{2}}
 $$
 
 For example, with  $K_{1\mathrm{Y}\mathrm{var}} = 18.5$  and  $K_{1\mathrm{Y}\mathrm{var}} = 19.5$ , the fair strike of a 2-year variance swap starting in 1 year would be:
 
 $$
-\sqrt {\frac {3 \times 1 9 . 5 ^ {2} - 1 \times 1 8 . 5 ^ {2}}{2}} \approx 2 0
+\sqrt{\frac{3 \times 1 9 . 5^{2} - 1 \times 1 8 . 5^{2}}{2}} \approx 2 0
 $$
 
 The corresponding replication strategy for a long €h100,000 forward vega notional position (equivalent to 2,500 forward variance units) would be to buy $3 \times 2,500 / 2 = 3,750$ variance units of the 3-year variance swap and sell $2,500 / 2 = 1,250$ variance units of the 1-year.
@@ -163,13 +163,13 @@ Each year, at time  $T_{i}$
 Party B pays Party A the fixed amount
 
 $$
-N \phi_ {i} K
+N \phi_{i} K
 $$
 
 Party A pays Party B the floating amount
 
 $$
-N \psi_ {i} \left[ \frac {\iota (T _ {i})}{\iota (T _ {i - 1})} - 1 \right]
+N \psi_{i} \left[ \frac{\iota (T_{i})}{\iota (T_{i - 1})} - 1 \right]
 $$ where:
 
 
@@ -203,13 +203,13 @@ At time  $T_{M} = \mathrm{M}$  years
 Party B pays Party A the fixed amount
 
 $$
-N [ (1 + K) ^ {M} - 1 ]
+N [ (1 + K)^{M} - 1 ]
 $$
 
 Party A pays Party B the floating amount
 
 $$
-N \left[ \frac {\iota (T _ {M})}{\iota (T _ {0})} - 1 \right]
+N \left[ \frac{\iota (T_{M})}{\iota (T_{0})} - 1 \right]
 $$
 
 For example, assuming two parties enter into a five-year zero coupon inflation swap with a notional amount of \$100 million, 2.4% fixed rate, and the agreed upon inflation index, such as CPI, at 2.0% when the swap is agreed upon. At maturity, CPI is at 2.5%.
@@ -290,13 +290,13 @@ As an example, assume that Company X needs to purchase 250,000 barrels of oil ea
 To calculate the upfront cost per barrel, take the forward prices, and divide by their respective zero-coupon rates, adjusted for time. In this example, the cost per barrel would be:
 
 $$
-\text{Barrel cost} = \50 / (1 + 2\%) + \51 / (1 + 2.5\%)^{2} = \49.02 + \48.54 = \$97.56.
+\text{Barrelcost} = \50 / (1 + 2\%) + \51 / (1 + 2.5\%)^{2} = \49.02 + \48.54 = \$97.56.
 $$
 
 By paying \$97.56 × 250,000, or \$24,390,536 today, the consumer is guaranteed 250,000 barrels of oil per year for two years. However, there is a counterparty risk, and the oil may not be delivered. In this case, the consumer may opt to pay two payments, one each year, as the barrels are being delivered. Here, the following equation must be solved to equate the total cost to the above example:
 
 $$
-\mathrm{Barrel~cost} = X / (1 + 2 \%) + X / (1 + 2.5 \%) ^ {2} = \$ 97.56.
+\mathrm{Barrel~cost} = X / (1 + 2 \%) + X / (1 + 2.5 \%)^{2} = \$ 97.56.
 $$
 
 Given this, it can be calculated that the consumer must pay \$50.49 per barrel each year.

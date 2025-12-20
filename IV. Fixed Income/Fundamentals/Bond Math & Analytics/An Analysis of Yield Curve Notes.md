@@ -66,7 +66,7 @@ e General Motors Acceptance Corporation.
 
 $$
 
-\lambda r P _ {r} / P, \tag {2}
+\lambda r P_{r} / P, \tag {2}
 
 $$ where  $\lambda < 0$  is a constant.
 
@@ -77,7 +77,7 @@ Equation (1) states that changes in  $r$  have both deterministic and random com
 Under these assumptions, the valuation equation for any default-free security is
 
 $$
-\frac {1}{2} \sigma^ {2} r ^ {2} P _ {r r} + [ \beta (\mu - r) - \lambda r ] P _ {r} + P _ {t} + c (r, t) - r P = 0, \tag {3}
+\frac{1}{2} \sigma^{2} r^{2} P_{r r} + [ \beta (\mu - r) - \lambda r ] P_{r} + P_{t} + c (r, t) - r P = 0, \tag {3}
 $$ where  $c(r, t)$  is the rate of cash flow paid to investors. Given the boundary conditions below, the price of the security may be calculated via numerical methods techniques. For a security with face value \$1 maturing at time  $t = \tau$ , these boundary conditions are
 
 
@@ -89,14 +89,14 @@ $$
 
 $$
 
-P _ {r r} (\infty , t) = 0 \quad \text {f o r} \quad t <   \tau , \tag {5}
+P_{r r} (\infty , t) = 0 \quad \text{fo r} \quad t <   \tau , \tag {5}
 
 $$ and
 
 
 $$
 
-\beta \mu P _ {r} + P _ {t} + c (0, t) = 0 \quad \text {f o r} \quad t <   \tau . \tag {6}
+\beta \mu P_{r} + P_{t} + c (0, t) = 0 \quad \text{fo r} \quad t <   \tau . \tag {6}
 
 $$
 
@@ -158,11 +158,11 @@ $$
 The risk of the liabilities is
 
 $$
-- 0. 7 0 (0. 0 1 9) - 0. 3 0 \left(\phi \left(\tau^ {f}\right)\right) = - 0. 0 1 3 3 - 0. 3 0 \left(\phi \left(\tau^ {f}\right)\right), \tag {7}
+- 0. 7 0 (0. 0 1 9) - 0. 3 0 \left(\phi \left(\tau^{f}\right)\right) = - 0. 0 1 3 3 - 0. 3 0 \left(\phi \left(\tau^{f}\right)\right), \tag {7}
 $$ where  $\phi(\tau^f)$  is the risk of the type II liabilities (i.e., fixed-rate notes), expressed as a function of  $\tau^f$ . The negative signs in (7) indicate that liabilities contribute negatively to the institution's interest rate risk. After computing the net interest rate risk of the assets and the type I liabilities, the institution's objective may be expressed as
 
 $$
-\underset {\tau^ {f}} {\text {M i n}} 0. 0 2 1 5 - 0. 3 0 \left(\phi \left(\tau^ {f}\right)\right). \tag {8}
+\underset {\tau^{f}} {\text{Mi n}} 0. 0 2 1 5 - 0. 3 0 \left(\phi \left(\tau^{f}\right)\right). \tag {8}
 $$
 
 It is clear from (8) that full immunization obtains only if  $\phi(\tau^f) = 0.0215 / 0.30 = 0.0717$ . However, according to the estimates in Figure 3, no fixed-rate note attains this level of risk. The ten-year note has the greatest level of risk, 0.041. If the ten-year note is chosen, the institution's net interest rate risk is 0.0092, or about one percent per annum.
@@ -174,7 +174,7 @@ Let us now assume that the institution uses yield curve notes as its type II lia
 Figure 4. Fully Immunizing Maturities by  $F$ , the Fraction of Type I Liabilities in the Capital Structure
 
 $$
-\underset {\tau^ {y}} {\operatorname {M i n}} 0. 0 2 1 5 - 0. 3 0 \left(\phi \left(\tau^ {y}\right)\right), \tag {9}
+\underset {\tau^{y}} {\operatorname{Mi n}} 0. 0 2 1 5 - 0. 3 0 \left(\phi \left(\tau^{y}\right)\right), \tag {9}
 $$ where  $\phi(\tau^y)$  is the risk of the yield curve notes and  $\tau^y$  is their maturity, constrained to be no greater than ten years. Again, full immunization obtains if  $\phi(\tau^y) = 0.0717$ . According to the estimates in Figure 3, a yield curve note with
 
 
@@ -198,20 +198,20 @@ Denoting as  $\Delta r$  the change in  $r$  over the discrete time interval  $\
 
 $$
 
-\begin{array}{l} L = - T / 2 \ln (2 \pi) - T / 2 \ln \left(\sigma^ {2}\right) - \sum \ln r \\ - \frac {1}{2} \sigma^ {- 2} \sum [ \Delta r - \beta (\mu - r) \Delta r ] ^ {2} r ^ {- 2}, \tag {A2} \\ \end{array}
+\begin{array}{l} L = - T / 2 \ln (2 \pi) - T / 2 \ln \left(\sigma^{2}\right) - \sum \ln r \\ - \frac{1}{2} \sigma^{- 2} \sum [ \Delta r - \beta (\mu - r) \Delta r ]^{2} r^{- 2}, \tag {A2} \\ \end{array}
 
 $$ where the summations are over  $t = 1$ ,  $T$ . Maximizing this function with respect to  $\beta, \mu$ , and  $\sigma^2$  provides
 
 $$
-\beta = \sum \left\{r ^ {- 2} \Delta r (\mu - r) \right\} / \sum \left\{r ^ {- 2} (\mu - r) ^ {2} \Delta t \right\} \tag {A3}
+\beta = \sum \left\{r^{- 2} \Delta r (\mu - r) \right\} / \sum \left\{r^{- 2} (\mu - r)^{2} \Delta t \right\} \tag {A3}
 $$
 
 $$
-\beta = \sum \left\{\left(\Delta r\right) r ^ {- 2} \right\} / \sum \left\{r ^ {- 2} (\mu - r) \Delta t \right\} \tag {A4}
+\beta = \sum \left\{\left(\Delta r\right) r^{- 2} \right\} / \sum \left\{r^{- 2} (\mu - r) \Delta t \right\} \tag {A4}
 $$
 
 $$
-\sigma^ {2} = \frac {1}{T} \sum [ \Delta r - \beta (\mu - r) ] ^ {2} r ^ {- 2}. \tag {A5}
+\sigma^{2} = \frac{1}{T} \sum [ \Delta r - \beta (\mu - r) ]^{2} r^{- 2}. \tag {A5}
 $$
 
 That is, there are three nonlinear equations in the three unknowns. The mathematical algorithm used to estimate the parameters is a variant of the Newton-Raphson method (Rao [8]). Specifically, the algorithm is called ZSPOW, available as part of the International Mathematical and Statistical Libraries, Inc. (IMSL) (1982) package, and uses a finite-difference approximation to the Jacobian in the search process.

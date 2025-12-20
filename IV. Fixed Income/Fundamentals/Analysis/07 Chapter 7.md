@@ -39,7 +39,7 @@ Figure 7.1: Two Legs of CDS
 
 # 7.2.1 CDS spread
 
-$$ s (t, T _ {n}) = \frac {\sum_ {i = 1} ^ {n} P (t , T _ {i}) [ Q (t , T _ {i - 1}) - Q (t , T _ {i}) ]}{\sum_ {i = 1} ^ {n} P (t , T _ {i}) Q (t , T _ {i})} \tag {7.1}
+$$ s (t, T_{n}) = \frac{\sum_{i = 1}^{n} P (t , T_{i}) [ Q (t , T_{i - 1}) - Q (t , T_{i}) ]}{\sum_{i = 1}^{n} P (t , T_{i}) Q (t , T_{i})} \tag {7.1}
 $$
 
 # 7.2.2 CDS as a Perfect Hedge to Corporate Floaters
@@ -91,7 +91,7 @@ There are two running spreads: 100 basis points and 500 basis points for high gr
 Due to running spread, the upfront can be negative.
 
 $$
-\begin{array}{l} V _ {\mathrm {p r o t}} = V _ {\mathrm {p r e m}} \\ (1 - R) \sum_ {i = 1} ^ {4 n} P (t, T _ {i}) [ Q (t, T _ {i - 1}) - Q (t, T _ {i}) ] \\ = \frac {s}{4} \sum_ {i = 1} ^ {4 n} P (t, T _ {i}) Q (t, T _ {i}) \\ = \left\{ \begin{array}{l} U _ {\mathrm {H G}} + \frac {0 . 0 1}{4} \sum_ {i = 1} ^ {4 n} P (t, T _ {i}) Q (t, T _ {i}) \\ U _ {\mathrm {H Y}} + \frac {0 . 0 5}{4} \sum_ {i = 1} ^ {4 n} P (t, T _ {i}) Q (t, T _ {i}) \end{array} \right. \\ \end{array}
+\begin{array}{l} V_{\mathrm{pr ot}} = V_{\mathrm{pr em}} \\ (1 - R) \sum_{i = 1}^{4 n} P (t, T_{i}) [ Q (t, T_{i - 1}) - Q (t, T_{i}) ] \\ = \frac{s}{4} \sum_{i = 1}^{4 n} P (t, T_{i}) Q (t, T_{i}) \\ = \left\{ \begin{array}{l} U_{\mathrm{HG}} + \frac{0 . 0 1}{4} \sum_{i = 1}^{4 n} P (t, T_{i}) Q (t, T_{i}) \\ U_{\mathrm{HY}} + \frac{0 . 0 5}{4} \sum_{i = 1}^{4 n} P (t, T_{i}) Q (t, T_{i}) \end{array} \right. \\ \end{array}
 $$
 
 Running spread is not informative as it is a contractual spread. Hence it is still customary in the industry to compute the par spread as before.
@@ -226,21 +226,21 @@ The rationale here is that CDS is a bond. If the bond spread is equivalent to th
 While there are a number of structural models to choose from, the Credit-Grades model is the easiest to implement and requires the least amount of data. The CreditGrades model (2002) was developed by Goldman Sachs, JP Morgan, Deutsche Bank, and RiskMetrics. This is essentially a random barrier model. The technical document can be downloaded from creditgrades.com. The main equation is its approximation formula for the survival probability, as follows:
 
 $$
-Q (t) = N \left[ - \frac {A}{2} + \frac {\ln d}{A} \right] - d \cdot N \left[ - \frac {A}{2} - \frac {\ln d}{A} \right] \tag {7.2}
+Q (t) = N \left[ - \frac{A}{2} + \frac{\ln d}{A} \right] - d \cdot N \left[ - \frac{A}{2} - \frac{\ln d}{A} \right] \tag {7.2}
 $$ where
 
 
 $$
 
-A = \sqrt {\sigma^ {2} \xi^ {2} t + \lambda^ {2}}
+A = \sqrt{\sigma^{2} \xi^{2} t + \lambda^{2}}
 
 $$
 
-$$ d = \frac {1}{1 - \xi} e ^ {\lambda^ {2}}
+$$ d = \frac{1}{1 - \xi} e^{\lambda^{2}}
 $$
 
 $$
-\xi = \frac {E}{E + D}
+\xi = \frac{E}{E + D}
 $$ and  $N[\cdot ]$  is normal probability,  $\sigma$  is the asset volatility,  $\lambda$  is the volatility parameter for the stochastic barrier,  $E$  is the equity value and  $D$  is the "target" debt value. Hence, it is logical to view  $\xi$  as the leverage ratio. With the survival probability function, we can proceed with CDS valuation. Using equation (7.1), we can solve for the asset value and volatility.
 
 

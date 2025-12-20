@@ -61,7 +61,7 @@ The constant default rate (CDR) evaluates losses within mortgage-backed securiti
 The CDR can be expressed as a formula:
 
 $$
-C D R = 1 - \left(1 - \frac {D}{N D P}\right) ^ {n}
+C D R = 1 - \left(1 - \frac{D}{N D P}\right)^{n}
 $$ where:
 
 

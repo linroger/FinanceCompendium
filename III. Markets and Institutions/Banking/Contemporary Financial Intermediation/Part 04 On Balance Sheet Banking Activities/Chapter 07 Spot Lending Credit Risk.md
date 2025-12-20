@@ -362,7 +362,7 @@ in equity). Finally, the third step is to check that, with the value of  $E$  ob
 Now, if borrowers self-select so that only the type-D borrower takes (i) and only the type-C borrower takes (ii), then we can proceed as follows. Given that the bank must earn zero expected profit on each contract, and the repayment probability of the type-D borrower is 0.5,  $P_{\mathrm{D}}$  must equal the expected value of the bank's repayment by the high-risk borrower, that is,
 
 $$
-P _ {\mathrm {D}} \times 0. 5 = 1 5 0
+P_{\mathrm{D}} \times 0. 5 = 1 5 0
 $$
 
 or \(P_{\mathrm{D}} = \\)300\( , an interest rate of \(100\%\).
@@ -370,11 +370,11 @@ or \(P_{\mathrm{D}} = \\)300\( , an interest rate of \(100\%\).
 Next, if only the low-risk borrower takes (ii),  $P_{\mathrm{C}}$  must satisfy
 
 $$
-0. 8 \times P _ {\mathrm {C}} = 1 5 0 - E
+0. 8 \times P_{\mathrm{C}} = 1 5 0 - E
 $$
 
 $$
-\text {o r} P _ {\mathrm {C}} = \frac {1 5 0 - E}{0 . 8}
+\text{or} P_{\mathrm{C}} = \frac{1 5 0 - E}{0 . 8}
 $$
 
 # Step 2
@@ -388,7 +388,7 @@ $$
 where 0.7 is one minus the tax rate. The type-D borrower's NPV from choosing (ii) is
 
 $$
-\left(6 0 0 - \frac {1 5 0 - E}{0 . 8}\right) \times 0. 5 \times 0. 7 - E.
+\left(6 0 0 - \frac{1 5 0 - E}{0 . 8}\right) \times 0. 5 \times 0. 7 - E.
 $$
 
 Equating the above NPV to  \$105 yields E =\$ 70. Thus, the repayment obligation for the type-C borrower is  $\frac{150 - 70}{0.8} =$ 100, or an interest rate of 25%.
@@ -450,7 +450,7 @@ Since A will surely repay the loan, the interest rate on the secured loan,  $r_{
 On the other hand, the interest rate on the unsecured loan,  $r_{\mathrm{u}}$ , should be set to satisfy the following zero profit condition for the bank
 
 $$
-[ 0. 5 \times (1 + r _ {\mathrm {u}}) \times 3 0 ] / [ 1. 1 0 ] = 3 0 \tag {7.1}
+[ 0. 5 \times (1 + r_{\mathrm{u}}) \times 3 0 ] / [ 1. 1 0 ] = 3 0 \tag {7.1}
 $$
 
 The left-hand side of Equation (7.1) is the discounted present value of the bank's payoff. The promised repayment is  $\\(30(1 + r_{\mathrm{u}})$ , but there is only a 0.5 probability that the bank will be repaid. Since the bank is risk neutral, it discounts at the riskless interest rate of 10%. For the bank to exactly break even, the discounted present value of its expected payoff should exactly equal the initial loan. Note that our approach is consistent with the notion that the bank owns the project and it has sold the borrower a call option on the collateral at a fixed exercise price of  $30 \times (1 + r_{\mathrm{u}})$ . When the project value exceeds this exercise price, the borrower exercises the option to repurchase the project; this happens in the successful state. If the project fails, the borrower lets its option expire unexercised and the bank retains a worthless project. Solving Equation (7.1) gives  $1 + r_{\mathrm{u}} = 2.2$ . Hence, the repayment obligation on the unsecured loan is  \$2.2 \times 30 = \$ 66 \).
@@ -486,7 +486,7 @@ The idea is for the bank to make it in Brown's best interest to choose S. This i
 First suppose the bank offers Brown an unsecured loan at an interest rate  $r_{\mathrm{u}}$ . If the bank assumes that Brown will choose S, then the interest rate,  $r_{\mathrm{u}}^{\mathrm{S}}$ , at which the bank just breaks even, is given by
 
 $$
-[ 0. 9 \times \left(1 + r _ {\mathrm {u}} ^ {S}\right) \times 1 0 0 ] / [ 1. 1 0 ] = 1 0 0. \tag {7.3}
+[ 0. 9 \times \left(1 + r_{\mathrm{u}}^{S}\right) \times 1 0 0 ] / [ 1. 1 0 ] = 1 0 0. \tag {7.3}
 $$
 
 Solving Equation (7.3) yields  $r_{\mathrm{u}}^{\mathrm{s}} = 22.22\%$ . Can this be a Nash equilibrium in the sense that Brown does indeed choose S? To answer this question, let us compute Brown's net expected payoffs under R and S. If Brown chooses S, its net expected payoff is
@@ -508,7 +508,7 @@ Step 2
 Now suppose the bank assumes that  $R$  will be chosen. Then the interest rate,  $r_u^R$ , at which the bank just breaks even, is given by
 
 $$
-[ 0. 6 \times (1 + r _ {\mathrm {u}} ^ {\mathrm {S}}) \times 1 0 0 ] / [ 1. 1 ] = 1 0 0. \tag {7.4}
+[ 0. 6 \times (1 + r_{\mathrm{u}}^{\mathrm{S}}) \times 1 0 0 ] / [ 1. 1 ] = 1 0 0. \tag {7.4}
 $$
 
 Solving Equation (7.4) yields  $r_{\mathrm{u}}^{\mathrm{R}} = 83.33\%$ . Now, confronted with this interest rate, if Brown chooses S, its net expected payoff is
@@ -532,19 +532,19 @@ But can we do better with another Nash equilibrium? Whenever we ask this questio
 Suppose now that the bank offers Brown a secured loan instead. What you want to do as a banker is to figure out how much collateral to ask for in order to ensure that R will not be chosen. The level of collateral that leaves Brown indifferent between S and R satisfies the following equation.
 
 $$
-\begin{array}{l} 0. 9 \left[ 3 0 0 - \left(1 + r _ {s}\right) \times 1 0 0 \right] - 0. 1 C \\ = 0. 6 [ 4 0 0 - (1 + r _ {\mathrm {s}}) \times 1 0 0 ] - 0. 4 C, \tag {7.5} \\ \end{array}
+\begin{array}{l} 0. 9 \left[ 3 0 0 - \left(1 + r_{s}\right) \times 1 0 0 \right] - 0. 1 C \\ = 0. 6 [ 4 0 0 - (1 + r_{\mathrm{s}}) \times 1 0 0 ] - 0. 4 C, \tag {7.5} \\ \end{array}
 $$
 
 where  $r_s$  is the interest rate on the secured loan. We should first determine  $r_s$ . If the bank is successful in inducing Brown to choose S, then it should set  $r_s$  as follows to satisfy its zero profit condition
 
 $$
-[ 0. 9 \times \left(1 + r _ {\mathrm {s}}\right) \times 1 0 0 + 0. 1 \times 0. 9 \times C ] / [ 1. 1 ] = 1 0 0. \tag {7.6}
+[ 0. 9 \times \left(1 + r_{\mathrm{s}}\right) \times 1 0 0 + 0. 1 \times 0. 9 \times C ] / [ 1. 1 ] = 1 0 0. \tag {7.6}
 $$
 
 In Equation (7.6), note that we have used the fact that a dollar of collateral is worth only 90 cents to the bank. Solving Equation (7.6) yields
 
 $$
-1 + r _ {\mathrm {s}} = (1 1 0 - 0. 0 9 \mathrm {C}) / 9 0. \tag {7.7}
+1 + r_{\mathrm{s}} = (1 1 0 - 0. 0 9 \mathrm{C}) / 9 0. \tag {7.7}
 $$
 
 Substituting Equation (7.7) in Equation (7.5) and solving for  $C$  yields  $C = \\(20,202$ . To avoid rounding off problems, suppose we take  $C = \$ 20.21 \). Then substituting this in Equation (7.7) gives us  $1 + r_{s} = (110 - 1.8189) / 90 = 1.2020$  or say  $r_{s} = 20.21\%$  to make sure that rounding off does not leave the bank with negative expected profit.
@@ -576,7 +576,7 @@ We solve this problem in six steps. First, we assume that only unsecured debt ca
 First suppose that issuing secured debt is impossible. Thus, the  \$100 financing required to purchase A in the future will have to be raised with either equity or unsecured debt. Since the basic argument follows in either case, let us assume that unsecured debt will be employed. As a start, suppose the unsecured creditors at \(t = 0\$  (call them  $C_{\mathrm{old}}$ ) assume that Johnson will purchase A when available. Use  $C_{\mathrm{new}}$  to label the (new) unsecured creditors who provide the \)100 to buy A. Thus, at  $t = 1$ , the value of the firm will be \$520 (in state  $S_1$ ) with probability 0.7 and \$120 (in state  $S_2$ ) with probability 0.3. Assuming that all unsecured creditors have equal priority,  $C_{\mathrm{old}}$  will be repaid in full in state  $S_1$  and will receive \$60 in state  $S_2$ . The payoffs to  $C_{\mathrm{new}}$  are identical. Hence, the loan interest rates on the credits provided by  $C_{\mathrm{old}}$  and  $C_{\mathrm{new}}$  will also be identical. Let  $r_a$  represent this interest rate. Then, if creditors provide fairly priced debt (that is, each creditor earns zero expected profit),  $r_a$  is obtained as a solution to the following equation
 
 $$
-1 0 0 = \left[ \left(1 + r _ {\mathrm {a}}\right) \times 1 0 0 \times 0. 7 + 6 0 \times 0. 3 \right] / [ 1. 1 ]. \tag {7.8}
+1 0 0 = \left[ \left(1 + r_{\mathrm{a}}\right) \times 1 0 0 \times 0. 7 + 6 0 \times 0. 3 \right] / [ 1. 1 ]. \tag {7.8}
 $$
 
 The left-hand side of Equation (7.8) is the amount of debt financing. The right-hand side is the expected payoff to either \( C_{old} \) or \( C_{new} \), discounted at the riskless rate of \( 10\% \). Solving Equation (7.8) yields \( r_a = 31.43\% \). Thus, at \( t = 1 \) Johnson is obliged to repay \( \\(131.43 \) to \( C_{old} \) and the same amount to \( C_{new} \).
@@ -586,13 +586,13 @@ The left-hand side of Equation (7.8) is the amount of debt financing. The right-
 The first question is: Can this be a Nash equilibrium? To answer this, we must find out whether  $C_{old}$ 's assumption that Johnson will purchase A is indeed correct. Now, if Johnson purchases A, the NPV accruing to its shareholders is
 
 $$
-\frac {0 . 7 \times (5 2 0 - 2 6 2 . 8 6)}{1 . 1} = \$ 1 6 3. 6 3.
+\frac{0 . 7 \times (5 2 0 - 2 6 2 . 8 6)}{1 . 1} = \$ 1 6 3. 6 3.
 $$
 
 Note that Johnson's shareholders receive a positive payoff only in state \( S_{1} \), and this payoff is \( \\(520\\)400 + \$120\$ ) minus two times \( \\(131.43 \), where \( \\)131.43\$ is what Johnson owes each group of unsecured creditors. If, on the other hand, Johnson does not purchase A, then the NPV accruing to its shareholders is
 
 $$
-\frac {0 . 7 \times (4 0 0 - 1 6 1 . 4 3)}{1 . 1} = \$ 1 7 0. 9 1.
+\frac{0 . 7 \times (4 0 0 - 1 6 1 . 4 3)}{1 . 1} = \$ 1 7 0. 9 1.
 $$
 
 Thus, Johnson will forgo the opportunity to purchase A even though its total NPV ( $120 -$ 100/1.1 = \$18.18) to Johnson is positive. This means that it cannot be a Nash equilibrium for  $C_{old}$  to assume that Johnson will purchase A.
@@ -602,13 +602,13 @@ Thus, Johnson will forgo the opportunity to purchase A even though its total NPV
 So now suppose  $C_{old}$  assumes that Johnson will not purchase A. Then, the loan interest rate,  $r_b$ , is a solution to
 
 $$
-[ 0. 7 \times (1 + r _ {\mathrm {b}}) \times 1 0 0 ] / [ 1. 1 ] = 1 0 0 \tag {7.9}
+[ 0. 7 \times (1 + r_{\mathrm{b}}) \times 1 0 0 ] / [ 1. 1 ] = 1 0 0 \tag {7.9}
 $$
 
 Solving Equation (7.9) yields  $r_{\mathrm{b}} = 57.143\%$ . It is simple to verify that, faced with this loan interest rate, Johnson will indeed choose not to purchase A. Thus, this is a Nash equilibrium, under the assumption that secured debt is impossible. The NPV accruing to Johnson's shareholders in this Nash equilibrium is given by
 
 $$
-\frac {0 . 7 \times (4 0 0 - 1 5 7 . 1 4 3)}{1 . 1} = \$ 1 5 4. 5.
+\frac{0 . 7 \times (4 0 0 - 1 5 7 . 1 4 3)}{1 . 1} = \$ 1 5 4. 5.
 $$
 
 # Step 4
@@ -616,7 +616,7 @@ $$
 Imagine now that Johnson is free to finance A with secured debt. If Johnson chooses to do this, then the (secured) claim of  $C_{\text{new}}$  will be riskless since the minimum firm value (that prevails in state  $S_2$ ) is \$120 (the value of A at  $t = 1$ ), and  $C_{\text{new}}$  have first claim to this asset. Since the riskless rate is 10%, Johnson's repayment obligation on riskless debt will be \$110, and this can be covered from the value of this firm in state  $S_2$ . Now suppose  $C_{\text{old}}$  assumes that Johnson will purchase A when available. The loan interest rate,  $r_c$ , that  $C_{\text{old}}$  charges will then be a solution to
 
 $$
-[ 0. 7 \times (1 + r _ {c}) \times 1 0 0 + 0. 3 \times 1 0 ] / [ 1. 1 ] = 1 0 0, \tag {7.10}
+[ 0. 7 \times (1 + r_{c}) \times 1 0 0 + 0. 3 \times 1 0 ] / [ 1. 1 ] = 1 0 0, \tag {7.10}
 $$
 
 where we recognize that \( C_{old} \) will be paid only \(10 in state S_2 since C_{old}'s claim is subordinated to that of \( C_{new} \). Solving Equation (7.10) gives us \( r_c = 52.86\% \). Johnson's total repayment obligation, therefore, is \(152.86 + 110 = 262.86\).
@@ -626,19 +626,19 @@ where we recognize that \( C_{old} \) will be paid only \(10 in state S_2 since 
 Is this a Nash equilibrium? Again, we consider Johnson's incentive to purchase A. If it purchases A, the NPV accruing to its shareholders is
 
 $$
-\frac {0 . 7 \times (5 2 0 - 2 6 2 . 8 6)}{1 . 1} = \$ 1 6 3. 6 3.
+\frac{0 . 7 \times (5 2 0 - 2 6 2 . 8 6)}{1 . 1} = \$ 1 6 3. 6 3.
 $$
 
 and if it does not purchase A, the NPV accruing to shareholders is
 
 $$
-\frac {0 . 7 \times (4 0 0 - 1 5 2 . 8 6)}{1 . 1} = \$ 1 5 7. 3.
+\frac{0 . 7 \times (4 0 0 - 1 5 2 . 8 6)}{1 . 1} = \$ 1 5 7. 3.
 $$
 
 Hence, Johnson will indeed purchase A (when  $C_{old}$  prices the loan assuming A will be purchased) and the conjecture of  $C_{old}$  about the firm's incentive to purchase A is supported by its behavior. To complete our verification that this is a Nash equilibrium, we must also make sure that Johnson will indeed wish to issue secured debt to purchase A. To check this, let us hold the fixed price of the loan given by  $C_{old}$ , so that the firm must repay \$152.86. If Johnson issues unsecured debt to purchase A, then  $C_{new}$  will ask for a loan interest rate of 31.43% [since they solve Equation (7.8) to determine this loan interest rate], so that the NPV accruing to Johnson's shareholders is
 
 $$
-\frac {0 . 7 \times [ 5 2 0 - (1 5 2 . 8 6 + 1 3 1 . 4 3) ]}{1 . 1} = \$ 1 5 0.
+\frac{0 . 7 \times [ 5 2 0 - (1 5 2 . 8 6 + 1 3 1 . 4 3) ]}{1 . 1} = \$ 1 5 0.
 $$
 
 # Step 6
@@ -662,7 +662,7 @@ We want to show in this example that Mr. Barnes will work harder if the bank has
 Suppose first that the bank restricts itself to offering an unsecured loan. If the bank assumes that Mr. Barnes will choose  $e = h$ , then the interest rate,  $r_h^u$ , it should charge on this unsecured loan to just break even satisfies
 
 $$
-[ 0. 8 \times (1 + t _ {\mathrm {h}} ^ {\mathrm {u}}) \times 1 0 0 / [ 1 + 0. 1 0 ] = 1 0 0, \tag {7.11}
+[ 0. 8 \times (1 + t_{\mathrm{h}}^{\mathrm{u}}) \times 1 0 0 / [ 1 + 0. 1 0 ] = 1 0 0, \tag {7.11}
 $$
 
 which yields  $r_{\mathrm{h}}^{\mathrm{u}} = 37.5\%$ . To check if this is a Nash equilibrium, we need to ask whether Mr. Barnes, faced with this loan contract, will indeed choose  $e = h$ . Mr. Barnes' expected payoff with  $e = h$  is
@@ -678,7 +678,7 @@ whereas his expected payoff with  $e = I$  is  $0.6 \times (300 - 137.5) = 97.5$
 It is, however, a Nash equilibrium for the bank to assume that Mr. Barnes will choose  $e = l$ , and price the unsecured loan accordingly. The loan interest rate,  $r_{1}^{u}$  must satisfy
 
 $$
-[ 0. 6 \times \left(1 + r _ {1} ^ {\mathrm {u}}\right) \times 1 0 0 / [ 1. 1 0 ] = 1 0 0, \tag {7.12}
+[ 0. 6 \times \left(1 + r_{1}^{\mathrm{u}}\right) \times 1 0 0 / [ 1. 1 0 ] = 1 0 0, \tag {7.12}
 $$
 
 which yields  $r_{\mathrm{l}}^{\mathrm{u}} = 83.33\%$ . Mr. Barnes' expected payoff with  $e = h$  is  $0.8 \times (300 - 183.33) - 40 = 53.34$ . His expected payoff with  $e = l$  is  $0.6 \times (300 - 183.33) = 70.00$ . Thus, it is a Nash equilibrium for the bank to price its unsecured loan assuming that Mr. Barnes will choose  $e = l$ .
@@ -688,13 +688,13 @@ which yields  $r_{\mathrm{l}}^{\mathrm{u}} = 83.33\%$ . Mr. Barnes' expected pay
 Now let us see if we can do better by using collateral. Let  $C$  be the collateral that leaves Mr. Barnes indifferent between choosing I and h. Then  $r_1^u$  and  $C$  must be related by the following equation
 
 $$
-[ 0. 8 \times (1 + t _ {\mathrm {h}} ^ {\mathrm {u}}) \times 1 0 0 + 0. 2 \times 0. 9 \mathrm {C} = 1 1 0, \tag {7.13}
+[ 0. 8 \times (1 + t_{\mathrm{h}}^{\mathrm{u}}) \times 1 0 0 + 0. 2 \times 0. 9 \mathrm{C} = 1 1 0, \tag {7.13}
 $$
 
 The left-hand side of Equation (7.13) recognizes that the bank is repaid in full if the project is successful (this has probability 0.8) and only collects the collateral if the project fails (with probability 0.2). The value of the collateral to the bank is 0.9C. Solving Equation (7.13) gives
 
 $$
-1 + t _ {\mathrm {h}} ^ {\mathrm {s}} = 1. 3 7 5 - 0. 0 0 2 2 5 C. \tag {7.14}
+1 + t_{\mathrm{h}}^{\mathrm{s}} = 1. 3 7 5 - 0. 0 0 2 2 5 C. \tag {7.14}
 $$
 
 Now, the amount of collateral needed to leave Mr. Barnes indifferent between  $l$  and  $h$  is given by
@@ -771,7 +771,7 @@ FIGURE 7.9 United States - Measures of Corporate Financial Performance for Inves
 
 Basically, there are four types of ratios: liquidity, activity (or turnover), profitability, and financial leverage.
 
-1. Two measures of liquidity are commonly used: current ratio = current assets/current liabilities, quick ratio (or acid test ratio) =  $\frac{\text{current assets} - \text{inventories}}{\text{current liabilities}}$ .
+1. Two measures of liquidity are commonly used: current ratio = current assets/current liabilities, quick ratio (or acid test ratio) =  $\frac{\text{currentassets} - \text{inventories}}{\text{currentliabilities}}$ .
 
 a. By "current" we mean a duration of less than 1 year.
 

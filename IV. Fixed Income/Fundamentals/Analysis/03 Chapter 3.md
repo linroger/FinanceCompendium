@@ -24,7 +24,7 @@ In the universe of fixed income, participants believe that the price of a fixed 
 
 Let  $P$  (later, time indices will be added for accuracy) be the price of a fixed income security and  $y_{i}$  be the  $i$ -th interest rate on the yield curve that affects the price. Then Taylor's series expansion gives:
 
-$$ d P \left(y _ {1}, y _ {2}, \dots y _ {n}, t\right) = \frac {\partial P}{\partial t} d t + \sum_ {j = 1} ^ {n} \frac {\partial P}{\partial y _ {j}} d y _ {j} + \frac {1}{2} \sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {n} \frac {\partial^ {2} P}{\partial y _ {i} \partial y _ {j}} d y _ {i} d y _ {j} + o (d t) \tag {3.1}
+$$ d P \left(y_{1}, y_{2}, \dots y_{n}, t\right) = \frac{\partial P}{\partial t} d t + \sum_{j = 1}^{n} \frac{\partial P}{\partial y_{j}} d y_{j} + \frac{1}{2} \sum_{i = 1}^{n} \sum_{j = 1}^{n} \frac{\partial^{2} P}{\partial y_{i} \partial y_{j}} d y_{i} d y_{j} + o (d t) \tag {3.1}
 $$ where  $o(dt)$  includes terms that are small and  $\lim_{dt\to 0}\frac{o(dt)}{dt} = 0$ . The first term is similar to Theta in option and known as "roll-down" on the yield curve. As time goes by, the life of a fixed income security becomes shorter. If nothing else in the economy changes (hence, the yield curve stays exactly the same), the yield will become less (in an upward sloping situation). The second term is duration with respect to various interest rates, and the third is convexity with respect to various interest rates.
 
 
@@ -40,14 +40,14 @@ Recall equation (1.2) in Chapter 1. We first assume a coupon bond that pays annu
 
 $$
 
-P = \sum_ {i = 1} ^ {n} \frac {c _ {i}}{(1 + y) ^ {i}}
+P = \sum_{i = 1}^{n} \frac{c_{i}}{(1 + y)^{i}}
 
 $$ or
 
 
 $$
 
-P = \sum_ {i = 1} ^ {n} \frac {c}{(1 + y) ^ {i}} + \frac {1}{(1 + y) ^ {n}}
+P = \sum_{i = 1}^{n} \frac{c}{(1 + y)^{i}} + \frac{1}{(1 + y)^{n}}
 
 $$
 
@@ -55,14 +55,14 @@ The MaCaulay duration is defined as the interest rate sensitivity but scaled by 
 
 $$
 
-D _ {\mathrm {M a C a u l a y}} = - \frac {\partial P}{\partial y} \frac {1 + y}{P} \tag {3.2}
+D_{\mathrm{Ma Ca ul ay}} = - \frac{\partial P}{\partial y} \frac{1 + y}{P} \tag {3.2}
 
 $$ which can be shown as:
 
 
 $$
 
-\begin{array}{l} \frac {\partial P}{\partial y} \frac {1 + y}{P} = \frac {1}{P} \sum_ {i = 1} ^ {n} i \frac {c _ {i}}{(1 + y) ^ {i}} \tag {3.3} \\ = \sum_ {i = 1} ^ {n} i \times w _ {i} \\ \end{array}
+\begin{array}{l} \frac{\partial P}{\partial y} \frac{1 + y}{P} = \frac{1}{P} \sum_{i = 1}^{n} i \frac{c_{i}}{(1 + y)^{i}} \tag {3.3} \\ = \sum_{i = 1}^{n} i \times w_{i} \\ \end{array}
 
 $$
 
@@ -71,14 +71,14 @@ Equation (3.3) is very intuitive and has nice interpretations:
 1. interest rate elasticity
 
 $$
-- \frac {d P}{d y} \frac {1 + y}{P} = - \frac {d P / P}{d (1 + y) / 1 + y} = - \frac {\% \Delta \text {in} P}{\% \Delta \text {in} 1 + y}
+- \frac{d P}{d y} \frac{1 + y}{P} = - \frac{d P / P}{d (1 + y) / 1 + y} = - \frac{\% \Delta \text{in} P}{\% \Delta \text{in} 1 + y}
 $$
 
 2. weighted average of coupon payment times
 
 $$
 
-\sum_ {i = 1} ^ {n} i \times w _ {i}
+\sum_{i = 1}^{n} i \times w_{i}
 
 $$ where  $\sum_{i=1}^{n} w_i = 1$ . Because of this interpretation, the MaCaulay duration can be regarded as the payback method popular in capital budgeting.
 
@@ -93,13 +93,13 @@ Figure 3.1: Duration is the mass center
 Recall in the previous chapter, and in most text books, we use integer periods to simplify the calculation: annual coupons:
 
 $$
-P = \left[ \frac {c}{(1 + y)} + \frac {c}{(1 + y) ^ {2}} + \dots + \frac {1 + c}{(1 + y) ^ {n}} \right] N \tag {3.4}
+P = \left[ \frac{c}{(1 + y)} + \frac{c}{(1 + y)^{2}} + \dots + \frac{1 + c}{(1 + y)^{n}} \right] N \tag {3.4}
 $$ semi-annual coupons:
 
 
 $$
 
-P = \left[ \frac {c / 2}{(1 + y / 2)} + \frac {c / 2}{(1 + y / 2) ^ {2}} + \dots + \frac {1 + c / 2}{(1 + y / 2) ^ {2 n}} \right] N \tag {3.5}
+P = \left[ \frac{c / 2}{(1 + y / 2)} + \frac{c / 2}{(1 + y / 2)^{2}} + \dots + \frac{1 + c / 2}{(1 + y / 2)^{2 n}} \right] N \tag {3.5}
 
 $$
 
@@ -107,7 +107,7 @@ $$
 
 $$
 
-P = \left[ \frac {c / m}{(1 + y / m)} + \frac {c / m}{(1 + y / m) ^ {2}} + \dots + \frac {1 + c / m}{(1 + y / m) ^ {m n}} \right] N \tag {3.6}
+P = \left[ \frac{c / m}{(1 + y / m)} + \frac{c / m}{(1 + y / m)^{2}} + \dots + \frac{1 + c / m}{(1 + y / m)^{m n}} \right] N \tag {3.6}
 
 $$
 
@@ -115,7 +115,7 @@ The MaCaulay duration in the general case:
 
 $$
 
-D _ {\mathrm {M a C a u l a y}} = \frac {1}{m} \frac {1}{P} \left[ \sum_ {i = 1} ^ {m n} i \frac {c / m}{(1 + y / m) ^ {i}} + m n \frac {1}{(1 + y) ^ {m n}} \right] N \tag {3.7}
+D_{\mathrm{Ma Ca ul ay}} = \frac{1}{m} \frac{1}{P} \left[ \sum_{i = 1}^{m n} i \frac{c / m}{(1 + y / m)^{i}} + m n \frac{1}{(1 + y)^{m n}} \right] N \tag {3.7}
 
 $$
 
@@ -125,7 +125,7 @@ The modified MaCaulay duration is simply to multiply the MaCaulay duration by  $
 
 $$
 
-D _ {\mathrm {m o d}} = D _ {\mathrm {M a C a u l a y}} \times (1 + y) \tag {3.8}
+D_{\mathrm{mo d}} = D_{\mathrm{Ma Ca ul ay}} \times (1 + y) \tag {3.8}
 
 $$
 
@@ -136,7 +136,7 @@ Assume a  $8\%$ , 10-year, face = \$100,000 coupon bond and its current price = 
 If the coupons are paid annually, then we solve the following equation for the yield (e.g. Excel Solver to solve for the yield so that the price which at the bottom of Table ?? is equal to 105,000):
 
 $$
-1. 0 5 = \sum_ {i = 1} ^ {1 0} \frac {0 . 0 8}{(1 + y) ^ {i}} + \frac {1 . 0 8}{(1 + y) ^ {1 0}}
+1. 0 5 = \sum_{i = 1}^{1 0} \frac{0 . 0 8}{(1 + y)^{i}} + \frac{1 . 0 8}{(1 + y)^{1 0}}
 $$ and the answer is  $y = 7.2789\%$ .
 
 The duration under annual coupons is to apply equation (3.7) and set  $m = 1$ . A convenient tabulated form is given in Table ??. The discount factor in the Table is
@@ -148,7 +148,7 @@ Table 3.1: Duration: Annual Coupons
 The MaCaulay duration is simply the sum of  $\mathrm{PV} \times t$  and divided by the current price of the bond:
 
 $$
-\$ 768,488.55 \div \$ 105,000.00 = 7.32 (\text {y e a r s})
+\$ 768,488.55 \div \$ 105,000.00 = 7.32 (\text{ye ar s})
 $$
 
 This tabulation method is quite popular as it lays out all the details and very efficient to be used in Excel.
@@ -156,7 +156,7 @@ This tabulation method is quite popular as it lays out all the details and very 
 If the coupons are paid semi-annually, then we solve the following equation for the yield (e.g. Excel Solver):
 
 $$
-1. 0 5 = \sum_ {i = 1} ^ {1 0} \frac {0 . 0 4}{(1 + y / 2) ^ {i}} + \frac {1 . 0 4}{(1 + y / 2) ^ {2 0}}
+1. 0 5 = \sum_{i = 1}^{1 0} \frac{0 . 0 4}{(1 + y / 2)^{i}} + \frac{1 . 0 4}{(1 + y / 2)^{2 0}}
 $$ and the answer is  $y = 7.2872\%$ .
 
 
@@ -166,7 +166,7 @@ Again, the MaCaulay duration is simply the sum of  $\mathrm{PV} \times t$  and d
 
 $$
 
-\$ 1,500,666.81 \div \$ 105,000.00 = 14.2921 (\text {h a l f - y e a r s})
+\$ 1,500,666.81 \div \$ 105,000.00 = 14.2921 (\text{ha lf -y ea rs})
 
 $$ which is equal to 7.15 years.
 
@@ -196,7 +196,7 @@ From equation (3.2), we know that the MaCaulay duration is:
 
 $$
 
-\begin{array}{l} D _ {\mathrm {M a C a u l a y}} = - \frac {\partial P}{\partial y} \frac {1 + y}{P} \\ = \left\{ \begin{array}{l} \frac {P (y) - P \left(y ^ {+}\right)}{y ^ {+} - y} \frac {1 + y}{P (y)} \\ \frac {P \left(y ^ {-}\right) - P (y)}{y - y ^ {-}} \frac {1 + y}{P (y)} \\ \frac {P \left(y ^ {-}\right) - P \left(y ^ {+}\right)}{\left(y ^ {+} - y ^ {-}\right) / 2} \frac {1 + y}{P (y)} \end{array} \right. \tag {3.9} \\ \end{array}
+\begin{array}{l} D_{\mathrm{Ma Ca ul ay}} = - \frac{\partial P}{\partial y} \frac{1 + y}{P} \\ = \left\{ \begin{array}{l} \frac{P (y) - P \left(y^{+}\right)}{y^{+} - y} \frac{1 + y}{P (y)} \\ \frac{P \left(y^{-}\right) - P (y)}{y - y^{-}} \frac{1 + y}{P (y)} \\ \frac{P \left(y^{-}\right) - P \left(y^{+}\right)}{\left(y^{+} - y^{-}\right) / 2} \frac{1 + y}{P (y)} \end{array} \right. \tag {3.9} \\ \end{array}
 
 $$ where  $y^{+}$  is a (VERY) little bit more than  $y$  and  $y^{-}$  is (VERY) little bit less; furthermore  $P(y)$  is the price at the current yield which is the market price,  $P(y^{+})$  is price discounted at  $y^{+}$  which is less than  $P(y)$ ; and  $P(y^{-})$  is price discounted at  $y^{-}$  which is more than  $P(y)$ .
 
@@ -234,7 +234,7 @@ In between any two coupon dates (e.g.  $T_{i-1}$  and  $T_i$  for  $i = 1, \dots
 
 $$
 
-T _ {i} - T _ {i - 1} = \frac {1}{m}
+T_{i} - T_{i - 1} = \frac{1}{m}
 
 $$ where  $m$  is frequency.
 
@@ -243,13 +243,13 @@ Readers can assume any frequency as needed. There is a yearfraction which betwee
 Recall the discussion in Chapter 1 on two-step discounting (equation (1.3)). We can discount all the coupons till time  $T_{1}$  and the result is further discounted to today using yearfraction. That is, recall from Chapter 1 the yield to maturity formula:
 
 $$
-\begin{array}{l} P = \left[ \frac {c / 2}{(1 + y / 2) ^ {2 (T _ {1} - t)}} + \frac {c / 2}{(1 + y / 2) ^ {2 (T _ {2} - t)}} + \dots + \frac {1 + c / 2}{(1 + y / 2) ^ {2 (T _ {n} - t)}} \right] N \\ = \frac {c / 2}{(1 + y / 2) ^ {2 (T _ {1} - t)}} \left[ \frac {c / 2}{(1 + y / 2)} + \frac {c / 2}{(1 + y / 2) ^ {2 (T _ {2} - T _ {1})}} + \dots + \frac {1 + c / 2}{(1 + y / 2) ^ {2 (T _ {n} - T _ {n - 1})}} \right] N \\ = \frac {c / 2}{(1 + y / 2) ^ {2 (T _ {1} - t)}} \left[ \frac {c / 2}{(1 + y / 2)} + \frac {c / 2}{(1 + y / 2) ^ {2}} + \dots + \frac {1 + c / 2}{(1 + y / 2) ^ {2 n}} \right] N \\ \end{array}
+\begin{array}{l} P = \left[ \frac{c / 2}{(1 + y / 2)^{2 (T_{1} - t)}} + \frac{c / 2}{(1 + y / 2)^{2 (T_{2} - t)}} + \dots + \frac{1 + c / 2}{(1 + y / 2)^{2 (T_{n} - t)}} \right] N \\ = \frac{c / 2}{(1 + y / 2)^{2 (T_{1} - t)}} \left[ \frac{c / 2}{(1 + y / 2)} + \frac{c / 2}{(1 + y / 2)^{2 (T_{2} - T_{1})}} + \dots + \frac{1 + c / 2}{(1 + y / 2)^{2 (T_{n} - T_{n - 1})}} \right] N \\ = \frac{c / 2}{(1 + y / 2)^{2 (T_{1} - t)}} \left[ \frac{c / 2}{(1 + y / 2)} + \frac{c / 2}{(1 + y / 2)^{2}} + \dots + \frac{1 + c / 2}{(1 + y / 2)^{2 n}} \right] N \\ \end{array}
 $$ where  $c$  is coupon rate,  $T_{j}$  is the coupon time,  $y$  is yield to maturity and  $N$  is notional. Duration is the first order derivative:
 
 
 $$
 
-\frac {d P}{d y} = \left[ \sum_ {j = 1} ^ {n} - 2 (T _ {j} - t) \frac {c / 2}{(1 + y / 2) ^ {2 (T _ {j} - t) - 1}} - 2 (T _ {n} - t) \frac {1}{(1 + y / 2) ^ {2 (T _ {n} - t) - 1}} \right] N
+\frac{d P}{d y} = \left[ \sum_{j = 1}^{n} - 2 (T_{j} - t) \frac{c / 2}{(1 + y / 2)^{2 (T_{j} - t) - 1}} - 2 (T_{n} - t) \frac{1}{(1 + y / 2)^{2 (T_{n} - t) - 1}} \right] N
 
 $$
 
@@ -257,7 +257,7 @@ MaCaulay duration is "scaled" interest rate sensitivity measure:
 
 $$
 
-D _ {\mathrm {M a C a u l a y}} = - \frac {d P}{d y} \frac {1 + y}{P}
+D_{\mathrm{Ma Ca ul ay}} = - \frac{d P}{d y} \frac{1 + y}{P}
 
 $$
 
@@ -285,7 +285,7 @@ Move one rate at a time. These are zero rates.
 
 $$
 
-\begin{array}{l} D _ {\mathrm {k e y}} = \frac {P ^ {+} - P ^ {-}}{0 . 0 0 0 2} \\ = \frac {P (\text {y i e l d s h i f t e d d o w n b y 1 b p}) - P (\text {y i e l d s h i f t e d u p b y 1 b p})}{0 . 0 0 0 2} \\ \end{array}
+\begin{array}{l} D_{\mathrm{ke y}} = \frac{P^{+} - P^{-}}{0 . 0 0 0 2} \\ = \frac{P (\text{yi el ds hi ft ed do wn by 1b p}) - P (\text{yi el ds hi ft ed up by 1b p})}{0 . 0 0 0 2} \\ \end{array}
 
 $$
 
@@ -299,7 +299,7 @@ The computation:
 
 $$
 
-\begin{array}{l} D _ {\mathrm {e f f}} = \frac {1}{P} \frac {P ^ {+} - P ^ {-}}{0 . 0 0 0 2} \\ = \frac {1}{P} \frac {P (\mathrm {w h o l e y . c . s h i f t e d d o w n b y 1 b p}) - P (\mathrm {w h o l e y . c . s h i f t e d u p b y 1 b p})}{0 . 0 0 0 2} \\ \end{array}
+\begin{array}{l} D_{\mathrm{ef f}} = \frac{1}{P} \frac{P^{+} - P^{-}}{0 . 0 0 0 2} \\ = \frac{1}{P} \frac{P (\mathrm{wh ol ey .c .s hi ft ed do wn by 1b p}) - P (\mathrm{wh ol ey .c .s hi ft ed up by 1b p})}{0 . 0 0 0 2} \\ \end{array}
 
 $$
 
@@ -353,7 +353,7 @@ See mortgage-backed securities in Chapter 12
 
 $$
 
-\mathrm {W A L} = \frac {1}{P} \sum_ {i = 1} ^ {n} i \times c _ {i}
+\mathrm{WA L} = \frac{1}{P} \sum_{i = 1}^{n} i \times c_{i}
 
 $$ which is similar to equation (3.3) but without discounting.
 
@@ -372,11 +372,11 @@ WAM (weighted average maturity) is similar to duration:
 
 $$
 
-\mathrm {W A M} = \sum_ {i = 1} ^ {n} w _ {i} T _ {i}
+\mathrm{WA M} = \sum_{i = 1}^{n} w_{i} T_{i}
 
 $$
 
-$$ w _ {i} = \frac {c _ {i}}{\sum_ {i = 1} ^ {n} c _ {i}}
+$$ w_{i} = \frac{c_{i}}{\sum_{i = 1}^{n} c_{i}}
 $$
 
 # WALA
@@ -394,13 +394,13 @@ Convexity measures the secondary interest rate risk - large sudden movements of 
 Convexity is the second derivative of the price with respective to a chosen risk factor. Take equation (3.1) as an example, if we recognize the bond price as a function of only its own yield, then the second derivative of equation (3.1) can be taken as:
 
 $$
-\frac {1}{2} \frac {1}{P} \frac {\partial^ {2} P}{\partial y ^ {2}}
+\frac{1}{2} \frac{1}{P} \frac{\partial^{2} P}{\partial y^{2}}
 $$
 
 Convexity measures the curvature. It is second order derivative. We use the same example as in duration but we need to move the yield both up and down. To achieve better accuracy, the shift size is 0.000002 which is much smaller than 1 bp in the duration example.
 
 $$
-\begin{array}{l} \mathbb {C} = \frac {1}{2 P} \frac {P ^ {+} - 2 P + P ^ {-}}{\epsilon^ {2}} \\ = \frac {1}{2 P (y)} \frac {P (y - \epsilon) - 2 P (y) + P (y + \epsilon)}{\epsilon^ {2}} \tag {3.10} \\ \end{array}
+\begin{array}{l} \mathbb {C} = \frac{1}{2 P} \frac{P^{+} - 2 P + P^{-}}{\epsilon^{2}} \\ = \frac{1}{2 P (y)} \frac{P (y - \epsilon) - 2 P (y) + P (y + \epsilon)}{\epsilon^{2}} \tag {3.10} \\ \end{array}
 $$ where  $\epsilon$  is the shift size.
 
 

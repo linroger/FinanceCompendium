@@ -64,7 +64,7 @@ There are three dates, 0, 1 and 2. All investors are small: there is a continuum
 Define  $c_{t\tau}$  as the consumption on date  $t$  of a type  $\tau$  investor. Investors are risk averse, and the date on which they prefer to consume depends on their type. The form of the utility function of investor  $j$ , who consumes  $c_{1}$  at date 1 and  $c_{2}$  at date 2, is
 
 $$
-u _ {j} (c _ {1}, c _ {2}) = \left\{ \begin{array}{l l} U (c _ {1}) & \text {i f j i s o f t y p e 1} \\ U (c _ {2}) & \text {i f j i s o f t y p e 2 A o r 2 B}, \end{array} \right.
+u_{j} (c_{1}, c_{2}) = \left\{ \begin{array}{l l} U (c_{1}) & \text{if ji so ft yp e1} \\ U (c_{2}) & \text{if ji so ft yp e2 Ao r2 B}, \end{array} \right.
 $$
 
 where  $U \colon R_{++} \to R$  is twice continuously differentiable, increasing, and strictly concave and satisfies the Inada conditions  $U'(0) = \infty$  and  $U'(\infty) = 0$ . Also, the relative risk aversion coefficient  $-cU''(c) / U'(c) \geq 1$  everywhere. Investors maximize expected utility. These preferences are identical to those assumed in Diamond-Dybvig, except here types 2A and 2B are distinguished. Diamond-Dybvig allows no secondary market, which essentially assumes that there are only investor types 1 and 2B.
@@ -72,7 +72,7 @@ where  $U \colon R_{++} \to R$  is twice continuously differentiable, increasing
 The date 0 objective function of each investor is given by
 
 $$
-\max  _ {c _ {1 1}, c _ {2 2 \mathrm {A}}, c _ {2 2 \mathrm {B}}} \Psi = q _ {1} U (c _ {1 1}) + q _ {2 \mathrm {A}} U (c _ {2 2 \mathrm {A}}) + q _ {2 \mathrm {B}} U (c _ {2 2 \mathrm {B}}),
+\max_{c_{1 1}, c_{2 2 \mathrm{A}}, c_{2 2 \mathrm{B}}} \Psi = q_{1} U (c_{1 1}) + q_{2 \mathrm{A}} U (c_{2 2 \mathrm{A}}) + q_{2 \mathrm{B}} U (c_{2 2 \mathrm{B}}),
 $$
 
 subject to resource and incentive constraints specified below.
@@ -97,39 +97,39 @@ LEMMA 1. When all assets are held directly, the date 1 price of a unit claim on 
 Proof. Each investor on date 0 allocates an endowment of one, choosing to put  $\alpha$  into short-term assets and  $1 - \alpha$  into long-term assets to maximize expected utility. Expected utility is
 
 $$
-\Phi = q _ {1} U \left(c _ {1 1}\right) + q _ {2 \mathrm {A}} U \left(c _ {2 2 \mathrm {A}}\right) + q _ {2 \mathrm {B}} U \left(c _ {2 2 \mathrm {B}}\right),
+\Phi = q_{1} U \left(c_{1 1}\right) + q_{2 \mathrm{A}} U \left(c_{2 2 \mathrm{A}}\right) + q_{2 \mathrm{B}} U \left(c_{2 2 \mathrm{B}}\right),
 $$
 
 where consumption of each type is given by  $c_{11} = \alpha R + (1 - \alpha) b_1 X$ ,  $c_{22\mathrm{A}} = \alpha (R / b_1) + (1 - \alpha) X$ , and  $c_{22\mathrm{B}} = \alpha R^2 + (1 - \alpha) X$ . The first-order condition for an interior optimum with  $\alpha \in (0, 1)$  is  $d\Phi / d\alpha = 0$ , or
 
 $$
-\begin{array}{l} q _ {1} U ^ {\prime} \left(c _ {1 1}\right) \left(R - b _ {1} X\right) + q _ {2 \mathrm {A}} U ^ {\prime} \left(c _ {2 2 \mathrm {A}}\right) \left(\frac {R}{b _ {1}} - X\right) \\ + q _ {2 \mathrm {B}} U ^ {\prime} \left(c _ {2 2 \mathrm {B}}\right) \left(R ^ {2} - X\right) = 0. \\ \end{array}
+\begin{array}{l} q_{1} U^{\prime} \left(c_{1 1}\right) \left(R - b_{1} X\right) + q_{2 \mathrm{A}} U^{\prime} \left(c_{2 2 \mathrm{A}}\right) \left(\frac{R}{b_{1}} - X\right) \\ + q_{2 \mathrm{B}} U^{\prime} \left(c_{2 2 \mathrm{B}}\right) \left(R^{2} - X\right) = 0. \\ \end{array}
 $$
 
 The date 1 price  $b_{1}$  will be positive (and  $c_{11}$  will be positive) only if there is some date 0 investment in short-term assets (only if  $\alpha > 0$ ). There is short-term investment as long as  $q_{2\mathrm{B}} < 1$ , because otherwise  $U'(c_{11}) = \infty$  and  $R / b_{1} = \infty$ . If investors are to choose to invest anything in short-term assets at date 0, the date 1 price of a unit claim on date 2 consumption,  $b_{1}$ , must be less than or equal to  $R / X$ . Otherwise, decreasing  $\alpha$  will increase the consumption of all types (increasing expected utility). The date 1 price,  $b_{1}$ , is therefore less than or equal to  $R / X$ . The price is strictly less than  $R / X$  when  $q_{2\mathrm{B}} > 0$  (limited participation) because  $c_{22\mathrm{B}}$  is decreasing in  $\alpha$ . In addition, one can show that  $b_{1} < 1 / R$ , and trading one unit of a date 1 claim in the market will buy more than  $R$  units of date 2 consumption. It follows because  $X > R^2$ , implying  $R / X < R / R^2 = 1 / R$ , which implies  $b_{1} < 1 / R$ . As a result, only type 2B investors will reinvest in short-term investments at date 1. In aggregate, type 1 investors trade all their date 2 claims for all the date 1 claims of type 2A investors. This leads to a market-clearing price of  $b_{1} = q_{2\mathrm{A}}\alpha R / q_{1}(1 - \alpha)X$ . In summary, this discussion implies that the consumption levels are given by
 
 $$
-c _ {1 1} = \frac {q _ {1} + q _ {2 \mathrm {A}}}{q _ {1}} \alpha R,
+c_{1 1} = \frac{q_{1} + q_{2 \mathrm{A}}}{q_{1}} \alpha R,
 $$
 
 $$
-c _ {2 2 \mathrm {A}} = \frac {q _ {1} + q _ {2 \mathrm {A}}}{q _ {2 \mathrm {A}}} (1 - \alpha) X,
+c_{2 2 \mathrm{A}} = \frac{q_{1} + q_{2 \mathrm{A}}}{q_{2 \mathrm{A}}} (1 - \alpha) X,
 $$
 
 $$
-c _ {2 2 \mathrm {B}} = \alpha R ^ {2} + (1 - \alpha) X.
+c_{2 2 \mathrm{B}} = \alpha R^{2} + (1 - \alpha) X.
 $$
 
 The date 1 price of a claim of one unit maturing on date 2 is
 
 $$
-b _ {1} = \frac {q _ {\mathrm {2 A}} \alpha R}{q _ {1} (1 - \alpha) X}.
+b_{1} = \frac{q_{\mathrm{2A}} \alpha R}{q_{1} (1 - \alpha) X}.
 $$
 
 To show that  $\alpha \geq q_{1}$ , with strict inequality when there is limited participation ( $q_{2\mathrm{B}} > 0$ ), substitute  $\alpha = q_{1} > 0$  into the equation for the price  $b_{1}$ , yielding
 
 $$
-b _ {1} = \frac {q _ {\mathrm {2 A}} q _ {1} R}{q _ {1} (1 - q _ {1}) X} = \frac {q _ {\mathrm {2 A}} R}{\left(q _ {\mathrm {2 A}} + q _ {\mathrm {2 B}}\right) X}.
+b_{1} = \frac{q_{\mathrm{2A}} q_{1} R}{q_{1} (1 - q_{1}) X} = \frac{q_{\mathrm{2A}} R}{\left(q_{\mathrm{2A}} + q_{\mathrm{2B}}\right) X}.
 $$
 
 The price  $b_{1} < R / X$  if  $q_{2\mathrm{B}} > 0$ , implying that expected utility is increasing in  $\alpha$ . When there is full participation and  $q_{2\mathrm{B}} = 0$ ,  $\alpha = q_{1}$  is the equilibrium value because expected utility is strictly increasing in  $\alpha$  for all lower values and strictly decreasing in  $\alpha$  for all higher values of  $\alpha$ . Q.E.D.
@@ -147,19 +147,19 @@ nisms in which each investor reveals his or her type and is given type-contingen
 The optimal financial mechanism solves the date 0 maximization problem described above:
 
 $$
-\max  _ {c _ {1 1}, c _ {2 2 \mathrm {A}}, c _ {2 2 \mathrm {B}}} \Psi = q _ {1} U (c _ {1 1}) + q _ {2 \mathrm {A}} U (c _ {2 2 \mathrm {A}}) + q _ {2 \mathrm {B}} U (c _ {2 2 \mathrm {B}}),
+\max_{c_{1 1}, c_{2 2 \mathrm{A}}, c_{2 2 \mathrm{B}}} \Psi = q_{1} U (c_{1 1}) + q_{2 \mathrm{A}} U (c_{2 2 \mathrm{A}}) + q_{2 \mathrm{B}} U (c_{2 2 \mathrm{B}}),
 $$
 
 subject to resource and incentive constraints. As of date 0, one unit of date 1 consumption costs  $1 / R$  and one unit of date 2 consumption costs  $1 / X$ . There is one unit of endowment per capita on date 1, and as a result, the resource constraint is given by
 
 $$
-\frac {q _ {1} c _ {1 1}}{R} + \frac {q _ {2 \mathrm {A}} c _ {2 2 \mathrm {A}} + q _ {2 \mathrm {B}} c _ {2 2 \mathrm {B}}}{X} \leq 1.
+\frac{q_{1} c_{1 1}}{R} + \frac{q_{2 \mathrm{A}} c_{2 2 \mathrm{A}} + q_{2 \mathrm{B}} c_{2 2 \mathrm{B}}}{X} \leq 1.
 $$
 
 Consumption on the "wrong" date (by a type who assigns no value to consumption on that date) is never optimal, and at the optimum,  $c_{21} = c_{12\mathrm{A}} = c_{12\mathrm{B}} = 0$ . There are several incentive constraints as well, which may not be binding. If only the resource constraint is imposed, the first-order condition for optimal consumption levels is given by
 
 $$
-U ^ {\prime} \left(c _ {1 1}\right) = U ^ {\prime} \left(c _ {2 2 \mathrm {A}}\right) \frac {X}{R} = U ^ {\prime} \left(c _ {2 2 \mathrm {B}}\right) \frac {X}{R}.
+U^{\prime} \left(c_{1 1}\right) = U^{\prime} \left(c_{2 2 \mathrm{A}}\right) \frac{X}{R} = U^{\prime} \left(c_{2 2 \mathrm{B}}\right) \frac{X}{R}.
 $$
 
 This equates the ratio of marginal utility of consumption of the two periods with the marginal rate of transformation across periods and equates the date 2 consumption of types 2A and 2B:  $c_{22\mathrm{B}} = c_{22\mathrm{A}}$ . Investors who are sufficiently risk averse would choose cross-subsidization to allow them to hold liquid claims with high one-period returns (high  $c_{11} > R$ ) at the expense of lower two-period returns (lower  $c_{22\mathrm{A}} = c_{22\mathrm{B}} < X$ ). This allows increased consumption when they have low consumption, due to forced liquidation of assets, and is financed by reduced consumption when they have high consumption. Consider the base case without cross-subsidization. This occurs when each investor receives consumption equal to the value of investing all of his or her date 0 endowment in a real asset that matures on the date on which he or she needs to consume:  $R$  at date 1 or  $X$  at date 2. A bank could achieve this because it knows the timing of the aggregate consumption of all depositors. If there is no cross-subsidization, then  $c_{11} = R$  and  $c_{22\mathrm{A}} = c_{22\mathrm{B}} = X$ . The first-order con
@@ -173,7 +173,7 @@ The cross-subsidized optimal consumption levels may not be incentive-compatible.
 On date 1, an agent who joins a financial mechanism at date 0 will be given a choice of claims on date 1 and date 2 consumption. Type 1 and 2A agents can trade anonymously at date 1 and privately consume the proceeds from those trades. As a result, they can choose claims on both dates' consumption without wasting goods. Let  $W_{\tau}$  denote the pretrade date 1 holding of date  $t$  claims by a type  $\tau$  investor. After choosing these claims, type 1 and 2A investors have the ability to trade at date 1. Let  $b_{1}$  denote the date 1 price of a claim on one unit of date 2 consumption. Type 2B investors cannot trade, but if a type 2B investor has a claim maturing on date 1, he or she can earn a return  $R$  per unit by initiating a new one-period asset at date 1. Consumption of each type is given by
 
 $$
-\begin{array}{l} c _ {1 1} = W _ {1 1} + W _ {2 1} b _ {1}, \\ c _ {2 2 \mathrm {A}} = \frac {W _ {1 2 \mathrm {A}}}{b _ {1}} + W _ {2 2 \mathrm {A}}, \\ c _ {2 2 \mathrm {B}} = W _ {1 2 \mathrm {B}} R + W _ {2 2 \mathrm {B}}. \\ \end{array}
+\begin{array}{l} c_{1 1} = W_{1 1} + W_{2 1} b_{1}, \\ c_{2 2 \mathrm{A}} = \frac{W_{1 2 \mathrm{A}}}{b_{1}} + W_{2 2 \mathrm{A}}, \\ c_{2 2 \mathrm{B}} = W_{1 2 \mathrm{B}} R + W_{2 2 \mathrm{B}}. \\ \end{array}
 $$
 
 The date 1 market value of the claims selected by type 1 agents is  $c_{11}$ , and the date 2 market value of claims selected by type 2A agents is  $c_{22\mathrm{A}}$ . The price,  $b_{1}$ , on date 1 of claims on a unit of date 2 consumption must be  $c_{11} / c_{22\mathrm{A}}$ ; otherwise  $c_{11} \neq b_{1}c_{22\mathrm{A}}$ , and the claims intended for one type will have a higher market value than the other. If the market values differ, the ability to trade at date 1 implies that it is not incentive-compatible for one type to select the correct claims.
@@ -199,7 +199,7 @@ The constraint imposed by date 0 coalition formation is that the return from tra
 LEMMA 3. A dominating competing bank coalition exists unless  $b_{1} = R / X$  and prices are in line with marginal productivity. Combined with the date 1 incentive constraints in lemma 1, this implies that the date 1 and date 0 incentive constraints are  $c_{22\mathrm{A}} = c_{11}(X / R)$ ,  $c_{22\mathrm{B}} \geq c_{11}R$ , and  $c_{22\mathrm{A}} \geq c_{22\mathrm{B}}$ . The resource constraint then reduces to
 
 $$
-\left(1 - q _ {1} - q _ {2 \mathrm {A}}\right) c _ {2 2 \mathrm {B}} = \left[ 1 - \left(q _ {1} + q _ {2 \mathrm {A}}\right) \frac {c _ {1 1}}{R} \right] X.
+\left(1 - q_{1} - q_{2 \mathrm{A}}\right) c_{2 2 \mathrm{B}} = \left[ 1 - \left(q_{1} + q_{2 \mathrm{A}}\right) \frac{c_{1 1}}{R} \right] X.
 $$
 
 Proof. See the Appendix.
@@ -217,7 +217,7 @@ PROPOSITION 1. If the coefficient of relative risk aversion is above one and a s
 The proof is in the Appendix, but it is useful here to describe the key first-order condition. If relative risk aversion is greater than one, the first-order condition for optimal consumption is
 
 $$
-q _ {1} U ^ {\prime} \left(c _ {1 1}\right) \leq \left\{q _ {1} U ^ {\prime} \left(c _ {2 2 \mathrm {B}}\right) + q _ {2 \mathrm {A}} \left[ U ^ {\prime} \left(c _ {2 2 \mathrm {B}}\right) - U ^ {\prime} \left(c _ {2 2 \mathrm {A}}\right) \right] \right\} \frac {X}{R},
+q_{1} U^{\prime} \left(c_{1 1}\right) \leq \left\{q_{1} U^{\prime} \left(c_{2 2 \mathrm{B}}\right) + q_{2 \mathrm{A}} \left[ U^{\prime} \left(c_{2 2 \mathrm{B}}\right) - U^{\prime} \left(c_{2 2 \mathrm{A}}\right) \right] \right\} \frac{X}{R},
 $$
 
 with equality whenever  $c_{11} > R$ , which occurs for  $q_{2\mathrm{A}}$  not too large. If relative risk aversion is less than or equal to one,  $c_{11} = R$  and  $c_{22\mathrm{A}} = c_{22\mathrm{B}} = X$ , because  $c_{22\mathrm{A}} = c_{11}(X / R) \geq c_{22\mathrm{B}}$  is binding and there is no potential for a cross-subsidy provided to type 1 investors (with none desirable if risk aversion equals one).
@@ -255,7 +255,7 @@ The holding of short-term liquidity must be centralized to avoid inefficient rei
 they invest  $1 - \beta$  in long-term claims, and this gives each a direct holding of date 2 claims of  $d_{2} = (1 - \beta)X$ . A lower bound on the date 0 scale of banks is the amount of assets needed to finance short-term investment. This lower bound on date 0 investment in banks is
 
 $$
-\beta \geq \frac {q _ {1} c _ {1 1}}{R} \equiv \beta_ {1}
+\beta \geq \frac{q_{1} c_{1 1}}{R} \equiv \beta_{1}
 $$
 
 (scale of banks when they hold just all the short-term assets), because total date 1 consumption is  $c_{11}$  by a fraction  $q_{1}$  of investors. If this minimal fraction of assets were invested in banks, the banking system would hold only short-term assets. All long-term assets would be held directly, and each investor would hold date 2 claims of  $(1 - \beta_{1})X$ .
@@ -265,7 +265,7 @@ $$
 Too large a direct holding of long-term assets can be inconsistent with self-selection of the proper type-specific withdrawals at date 1. The problem arises when banks cross-subsidize short-term holders, because the high short-term return ( $c_{11}$  in excess of  $R$ ) is not reflected in the market prices of directly held assets. Positive holdings of date 2 claims by all types tighten the incentive constraint that type 2B investors choose to leave their funds in the bank until date 2. This constraint is loosest when all claims selected by types 1 and 2A are date 1 claims, because trade allows them a higher return at date 1 than is available to nonparticipating type 2B investors. When investors all directly hold a fraction  $1 - \beta$  of date 2 claims, the bank claims selected by both types 1 and 2A are  $w_{11} = w_{12\mathrm{A}} = c_{11} - (1 - \beta)R$  and  $w_{21} = w_{22\mathrm{A}} = 0$ . The value of the date 2 bank withdrawal intended for type 2B investors is  $w_{22\mathrm{B}} = c_{22\mathrm{B}} - (1 - \beta)X$ . It is incentive-compatible for type 2B investors to choose  $w_{22\mathrm{B}}$  instead of taking  $w_{22}$  and investing it in a short-term investment at date 1 only if  $w_{22\mathrm{B}} > Rw_{11}$ , which is equivalent to
 
 $$
-\beta \geq 1 - \frac {c _ {2 2 \mathrm {B}} - R c _ {1 1}}{X - R ^ {2}} \equiv \beta_ {\mathrm {I C}}.
+\beta \geq 1 - \frac{c_{2 2 \mathrm{B}} - R c_{1 1}}{X - R^{2}} \equiv \beta_{\mathrm{IC}}.
 $$
 
 This incentive constraint need not be binding because  $\beta_{\mathrm{IC}}$  can be less than  $\beta_{1} = q_{1}c_{11} / R$ . For sufficiently low risk aversion or for sufficiently high participation ( $q_{2\mathrm{A}}\rightarrow 1 - q_{1}$ ), cross-subsidization is low, and  $\beta_{\mathrm{IC}}\rightarrow 0$  (and is less than  $\beta_{1}$ ), because  $c_{22\mathrm{B}} - Rc_{11}\rightarrow X - R^2$ . In this case, the banking system does not hold long-term assets. For sufficiently high risk aversion and sufficiently low market participa
@@ -285,7 +285,7 @@ All investors will choose the same direct holding on date 0, when
 their liquidity need and type are unknown. Without trading with the bank, consumption of type 2A investors can come from holdings of date 2 claims by type 1 and 2A agents. The date 2 value of date 2 claims held by types 1 and 2A must be  $q_{2\mathrm{A}} c_{22\mathrm{A}}$ . Date 0 direct holdings of long-term claims must equal  $q_{2\mathrm{A}} c_{22\mathrm{A}} / (q_1 + q_{2\mathrm{A}})X$ , because a fraction  $q_1 + q_{2\mathrm{A}}$  of direct claims are held by types 1 and 2A. Because type 2A consumption is  $c_{22\mathrm{A}} = c_{11} X / R$ , the date 0 value of direct holding when banks do not trade is  $1 - \beta = q_{2\mathrm{A}} c_{11} X / (q_1 + q_{2\mathrm{A}})R$ . This implies that the balance of date 0 capital is invested by the bank, and if  $m_1 = 0$ , the scale of the banking sector is
 
 $$
-\beta = 1 - \frac {q _ {2 \mathrm {A}} c _ {1 1} X}{\left(q _ {1} + q _ {2 \mathrm {A}}\right) R} \equiv \beta_ {\mathrm {M C}}
+\beta = 1 - \frac{q_{2 \mathrm{A}} c_{1 1} X}{\left(q_{1} + q_{2 \mathrm{A}}\right) R} \equiv \beta_{\mathrm{MC}}
 $$
 
 (scale of banks with no trade by banks). The minimum scale of banking when there is no bank trade weakly exceeds the minimum scale  $q_{1}c_{11} / R$  of holding only short-term assets, because the market-clearing condition requires that the bank hold some long-term assets when  $c_{11} > R$ .
@@ -295,7 +295,7 @@ The scale of the banking sector at date 0 is  $\beta_{\mathrm{MC}} + (m_1 / R)$ 
 In summary, if the bank participates fully in markets,  $\beta = \max \{\beta_{\mathrm{IC}}, q_1 c_{11} / R\}$ . If the banks face the market participation constraint equal to that of type 2B investors, the scale of banking is
 
 $$
-\beta = \max  \left\{\beta_ {\mathrm {I C}}, \frac {q _ {1} c _ {1 1}}{R}, \frac {q _ {2 \mathrm {A}} c _ {1 1} X}{\left(q _ {1} + q _ {2 \mathrm {A}}\right) R} \right\}.
+\beta = \max  \left\{\beta_{\mathrm{IC}}, \frac{q_{1} c_{1 1}}{R}, \frac{q_{2 \mathrm{A}} c_{1 1} X}{\left(q_{1} + q_{2 \mathrm{A}}\right) R} \right\}.
 $$
 
 Whether or not the bank can participate in markets on behalf of investors, the banking sector shrinks as financial market participation increases. There are other interesting interpretations of this result. Because the banking system issues liabilities with an option to withdraw at date 1 and the remaining assets held by investors are long-term, the scale of the banking system measures the proportion of financial assets that are short-term. Whenever the scale of the banking sector exceeds that implied by the minimal liquidity needs of the economy (its scale exceeds  $\beta_{1} = q_{1}c_{11} / R$ ), the banks hold
@@ -339,41 +339,41 @@ The analysis also has implications for the effect of development of the banking 
 Let  $W_{\pi}$  denote the pretrade date 1 holding of date  $t$  claims by a type  $\tau$  investor. After choosing these claims, type 1 and 2A investors have the ability to trade anonymously at date 1 and to privately consume the proceeds from those trades. Let  $b_{1}$  denote the date 1 price of a claim on one unit of date 2 consumption. A type 2B investor does not have access to the financial market. As a result, the only way that a type 2B investor can convert date 1 consumption into date 2 consumption is to use the proceeds of date 1 claims and invest in new short-term investments that pay off on date 2. This implies that the final consumption levels of each type of agent are given by
 
 $$
-c _ {1 1} = W _ {1 1} + W _ {2 1} b _ {1},
+c_{1 1} = W_{1 1} + W_{2 1} b_{1},
 $$
 
 $$
-c _ {2 2 \mathrm {A}} = \frac {W _ {1 2 \mathrm {A}}}{b _ {1}} + W _ {2 2 \mathrm {A}},
+c_{2 2 \mathrm{A}} = \frac{W_{1 2 \mathrm{A}}}{b_{1}} + W_{2 2 \mathrm{A}},
 $$
 
 $$
-c _ {2 2 \mathrm {B}} = W _ {1 2 \mathrm {B}} R + W _ {2 2 \mathrm {B}}.
+c_{2 2 \mathrm{B}} = W_{1 2 \mathrm{B}} R + W_{2 2 \mathrm{B}}.
 $$
 
 The type-contingent consumption offered on date 1 is incentive-compatible if and only if no investor prefers the consumption implied by the claims  $W_{\tau}$  intended for another type of investor. Let  $c_{\alpha}^{\bar{\tau}}$  denote the consumption on date  $t$  of a type  $\tau$  investor who misrepresents himself or herself as a type  $\bar{\tau}$  investor, choosing the claims  $W_{1\bar{\tau}}$ ,  $W_{2\bar{\tau}}$  and trading at the market price  $b_{1}$  if of type 1 or 2A. With this definition and the definitions of individual consumption,  $c_{\mathrm{tt}}$ , given above, the following are the date 1 constraints on incentive-compatible consumption (IC  $\tau$ ,  $\bar{\tau}$ ):
 
 $$
-c _ {1 1} = W _ {1 1} + b _ {1} W _ {2 1} \geq W _ {1 2 \mathrm {A}} + b _ {1} W _ {2 2 \mathrm {A}} \equiv c _ {1 1} ^ {2 \mathrm {A}} = c _ {2 2 \mathrm {A}} b _ {1}, \quad (\mathrm {I C} 1, 2 \mathrm {A})
+c_{1 1} = W_{1 1} + b_{1} W_{2 1} \geq W_{1 2 \mathrm{A}} + b_{1} W_{2 2 \mathrm{A}} \equiv c_{1 1}^{2 \mathrm{A}} = c_{2 2 \mathrm{A}} b_{1}, \quad (\mathrm{IC} 1, 2 \mathrm{A})
 $$
 
 $$
-c _ {1 1} = W _ {1 1} + b _ {1} W _ {2 1} \geq W _ {1 2 \mathrm {B}} + b _ {1} W _ {2 2 \mathrm {B}} \equiv c _ {1 1} ^ {2 \mathrm {B}} = c _ {2 2 \mathrm {B}} b _ {1}, \quad (\mathrm {I C} 1, 2 \mathrm {B})
+c_{1 1} = W_{1 1} + b_{1} W_{2 1} \geq W_{1 2 \mathrm{B}} + b_{1} W_{2 2 \mathrm{B}} \equiv c_{1 1}^{2 \mathrm{B}} = c_{2 2 \mathrm{B}} b_{1}, \quad (\mathrm{IC} 1, 2 \mathrm{B})
 $$
 
 $$
-c _ {2 2 \mathrm {A}} = \frac {W _ {1 2 \mathrm {A}}}{b _ {1}} + W _ {2 2 \mathrm {A}} \geq \frac {W _ {1 1}}{b _ {1}} + W _ {2 1} \equiv c _ {2 2 \mathrm {A}} ^ {1} = \frac {c _ {1 1}}{b _ {1}}, \quad (\text {I C} 2 \mathrm {A}, 1)
+c_{2 2 \mathrm{A}} = \frac{W_{1 2 \mathrm{A}}}{b_{1}} + W_{2 2 \mathrm{A}} \geq \frac{W_{1 1}}{b_{1}} + W_{2 1} \equiv c_{2 2 \mathrm{A}}^{1} = \frac{c_{1 1}}{b_{1}}, \quad (\text{IC} 2 \mathrm{A}, 1)
 $$
 
 $$
-c _ {2 2 \mathrm {A}} = \frac {W _ {1 2 \mathrm {A}}}{b _ {1}} + W _ {2 2 \mathrm {A}} \geq \frac {W _ {1 2 \mathrm {B}}}{b _ {1}} + W _ {2 2 \mathrm {B}} \equiv c _ {2 2 \mathrm {A}} ^ {2 \mathrm {B}} \geq c _ {2 2 \mathrm {B}}, \quad (\text {I C} 2 \mathrm {A}, 2 \mathrm {B})
+c_{2 2 \mathrm{A}} = \frac{W_{1 2 \mathrm{A}}}{b_{1}} + W_{2 2 \mathrm{A}} \geq \frac{W_{1 2 \mathrm{B}}}{b_{1}} + W_{2 2 \mathrm{B}} \equiv c_{2 2 \mathrm{A}}^{2 \mathrm{B}} \geq c_{2 2 \mathrm{B}}, \quad (\text{IC} 2 \mathrm{A}, 2 \mathrm{B})
 $$
 
 $$
-c _ {2 2 \mathrm {B}} = W _ {1 2 \mathrm {B}} R + W _ {2 2 \mathrm {B}} \geq W _ {1 1} R + W _ {2 1} \equiv c _ {2 2 \mathrm {B}} ^ {1}, \tag {IC 2B,1}
+c_{2 2 \mathrm{B}} = W_{1 2 \mathrm{B}} R + W_{2 2 \mathrm{B}} \geq W_{1 1} R + W_{2 1} \equiv c_{2 2 \mathrm{B}}^{1}, \tag {IC 2B,1}
 $$
 
 $$
-c _ {2 2 \mathrm {B}} = W _ {1 2 \mathrm {B}} R + W _ {2 2 \mathrm {B}} \geq W _ {1 2 \mathrm {A}} R + W _ {2 2 \mathrm {A}} \equiv c _ {2 2 \mathrm {B}} ^ {2 \mathrm {A}}. \quad (\mathrm {I C} 2 \mathrm {B}, 2 \mathrm {A})
+c_{2 2 \mathrm{B}} = W_{1 2 \mathrm{B}} R + W_{2 2 \mathrm{B}} \geq W_{1 2 \mathrm{A}} R + W_{2 2 \mathrm{A}} \equiv c_{2 2 \mathrm{B}}^{2 \mathrm{A}}. \quad (\mathrm{IC} 2 \mathrm{B}, 2 \mathrm{A})
 $$
 
 The constraints (IC 1, 2A) and (IC 2A, 1) together imply that  $c_{11} = c_{22\mathrm{A}}b_1$  and  $b_{1} = c_{11} / c_{22\mathrm{A}}$ . If the relative price of date 2 consumption in terms of date 1 consumption were not  $c_{11} / c_{22\mathrm{A}}$ , either type 1 or type 2A would prefer to take and then sell the claim withdrawn by the other type of investor, because the date 1 market value of the claims would differ. The market value of the amount withdrawn by type 1 investors must equal that of type 2A investors; otherwise both will take the one with higher market value and trade to get higher consumption on the desired date.
@@ -387,29 +387,29 @@ Suppose that at date 0, a competing bank contract can be proposed by "bank II." 
 Suppose that bank I proposes a contract that, if no competing contract were proposed, would lead to type-contingent consumptions  $(c_{11}^{\mathrm{I}}, c_{22\mathrm{A}}^{\mathrm{I}}$ , and  $c_{22\mathrm{B}}^{\mathrm{I}})$ , with  $c_{11}^{\mathrm{I}} / c_{22\mathrm{A}}^{\mathrm{I}} > R / X$ . If no competing contract is proposed, then  $b_1$  the date 1 price of date 2 claims, will be high:  $b_1^{\mathrm{I}} = c_{11}^{\mathrm{I}} / c_{22\mathrm{A}}^{\mathrm{I}} > R / X$ . This allows bank II to propose a dominating contract. Suppose that bank II proposes a contract that gives the same  $c_{22\mathrm{B}}$  as bank I ( $c_{22\mathrm{B}}^{\mathrm{II}} = c_{22\mathrm{B}}^{\mathrm{I}}$ ) but invests more of the remaining capital in long-term assets (and less in short-term) to give types 1 and 2A tradable claims slightly biased toward date 2 consumption. Investing one unit more in long-term assets and one fewer in short-term claims allows an  $R$  decrease in date 1 and an  $X$ -unit increase in date 2 claims. Choose  $\epsilon > 0$  such that
 
 $$
-W _ {1 1} ^ {\mathrm {I I}} = W _ {1 2 \mathrm {A}} ^ {\mathrm {I I}} = W _ {1} ^ {\mathrm {I I}} = \frac {q _ {1} c _ {1 1} ^ {\mathrm {I}}}{q _ {1} + q _ {2 \mathrm {A}}} - \epsilon ,
+W_{1 1}^{\mathrm{II}} = W_{1 2 \mathrm{A}}^{\mathrm{II}} = W_{1}^{\mathrm{II}} = \frac{q_{1} c_{1 1}^{\mathrm{I}}}{q_{1} + q_{2 \mathrm{A}}} - \epsilon ,
 $$
 
 $$
-W _ {2 1} ^ {\mathrm {I I}} = W _ {2 2 \mathrm {A}} ^ {\mathrm {I I}} = W _ {2} ^ {\mathrm {I I}} = \frac {q _ {2 \mathrm {A}} c _ {2 2 \mathrm {A}} ^ {\mathrm {I}}}{q _ {1} + q _ {2 \mathrm {A}}} + \frac {\epsilon X}{R}
+W_{2 1}^{\mathrm{II}} = W_{2 2 \mathrm{A}}^{\mathrm{II}} = W_{2}^{\mathrm{II}} = \frac{q_{2 \mathrm{A}} c_{2 2 \mathrm{A}}^{\mathrm{I}}}{q_{1} + q_{2 \mathrm{A}}} + \frac{\epsilon X}{R}
 $$
 
 such that
 
 $$
-\frac {R}{X} \leq \frac {q _ {1} W _ {1} ^ {\mathrm {I I}}}{q _ {2 \mathrm {A}} W _ {2} ^ {\mathrm {I I}}} <   \frac {c _ {1 1} ^ {\mathrm {I}}}{c _ {2 2 \mathrm {A}} ^ {\mathrm {I}}}.
+\frac{R}{X} \leq \frac{q_{1} W_{1}^{\mathrm{II}}}{q_{2 \mathrm{A}} W_{2}^{\mathrm{II}}} <   \frac{c_{1 1}^{\mathrm{I}}}{c_{2 2 \mathrm{A}}^{\mathrm{I}}}.
 $$
 
 This implies that
 
 $$
-\begin{array}{l} c _ {1 1} ^ {\mathrm {I I}} = \frac {q _ {1} c _ {1 1} ^ {\mathrm {I}}}{q _ {1} + q _ {2 \mathrm {A}}} - \epsilon + \left(\frac {q _ {2 \mathrm {A}} c _ {2 2 \mathrm {A}} ^ {\mathrm {I}}}{q _ {1} + q _ {2 \mathrm {A}}} + \frac {\epsilon X}{R}\right) b _ {1} \\ = \frac {q _ {1} c _ {1 1} ^ {\mathrm {I}}}{q _ {1} + q _ {2 \mathrm {A}}} - \epsilon + \left(\frac {q _ {2 \mathrm {A}} c _ {2 2 \mathrm {A}} ^ {\mathrm {I}}}{q _ {1} + q _ {2 \mathrm {A}}} + \frac {\epsilon X}{R}\right) \frac {c _ {1 1} ^ {\mathrm {I}}}{c _ {2 2 \mathrm {A}} ^ {\mathrm {I}}} \\ = c _ {1 1} ^ {\mathrm {I}} + \epsilon \left(\frac {c _ {1 1} ^ {\mathrm {I}} X}{c _ {2 2 \mathrm {A}} ^ {\mathrm {I}} R} - 1\right) > c _ {1 1} ^ {\mathrm {I}}. \\ \end{array}
+\begin{array}{l} c_{1 1}^{\mathrm{II}} = \frac{q_{1} c_{1 1}^{\mathrm{I}}}{q_{1} + q_{2 \mathrm{A}}} - \epsilon + \left(\frac{q_{2 \mathrm{A}} c_{2 2 \mathrm{A}}^{\mathrm{I}}}{q_{1} + q_{2 \mathrm{A}}} + \frac{\epsilon X}{R}\right) b_{1} \\ = \frac{q_{1} c_{1 1}^{\mathrm{I}}}{q_{1} + q_{2 \mathrm{A}}} - \epsilon + \left(\frac{q_{2 \mathrm{A}} c_{2 2 \mathrm{A}}^{\mathrm{I}}}{q_{1} + q_{2 \mathrm{A}}} + \frac{\epsilon X}{R}\right) \frac{c_{1 1}^{\mathrm{I}}}{c_{2 2 \mathrm{A}}^{\mathrm{I}}} \\ = c_{1 1}^{\mathrm{I}} + \epsilon \left(\frac{c_{1 1}^{\mathrm{I}} X}{c_{2 2 \mathrm{A}}^{\mathrm{I}} R} - 1\right) > c_{1 1}^{\mathrm{I}}. \\ \end{array}
 $$
 
 Similarly, for type 2A agents,
 
 $$
-\begin{array}{l} c _ {2 2 \mathrm {A}} ^ {\mathrm {I I}} = \left(\frac {q _ {1} c _ {1 1} ^ {\mathrm {I}}}{q _ {1} + q _ {2 \mathrm {A}}} - \epsilon\right) \frac {1}{b _ {1}} + \frac {q _ {2 \mathrm {A}} c _ {2 2 \mathrm {A}} ^ {\mathrm {I}}}{q _ {1} + q _ {2 \mathrm {A}}} + \frac {\epsilon X}{R} \\ = \left(\frac {q _ {1} c _ {1 1} ^ {\mathrm {I}}}{q _ {1} + q _ {2 \mathrm {A}}} - \epsilon\right) \frac {c _ {2 2 \mathrm {A}} ^ {\mathrm {I}}}{c _ {1 1} ^ {\mathrm {I}}} + \frac {q _ {2 \mathrm {A}} c _ {2 2 \mathrm {A}} ^ {\mathrm {I}}}{q _ {1} + q _ {2 \mathrm {A}}} + \frac {\epsilon X}{R} \\ = c _ {2 2 \mathrm {A}} ^ {\mathrm {I}} + \epsilon \left(\frac {c _ {1 1} ^ {\mathrm {I}} X}{c _ {2 2 \mathrm {A}} ^ {\mathrm {I}} R} - 1\right) > c _ {2 2 \mathrm {A}} ^ {\mathrm {I}}. \\ \end{array}
+\begin{array}{l} c_{2 2 \mathrm{A}}^{\mathrm{II}} = \left(\frac{q_{1} c_{1 1}^{\mathrm{I}}}{q_{1} + q_{2 \mathrm{A}}} - \epsilon\right) \frac{1}{b_{1}} + \frac{q_{2 \mathrm{A}} c_{2 2 \mathrm{A}}^{\mathrm{I}}}{q_{1} + q_{2 \mathrm{A}}} + \frac{\epsilon X}{R} \\ = \left(\frac{q_{1} c_{1 1}^{\mathrm{I}}}{q_{1} + q_{2 \mathrm{A}}} - \epsilon\right) \frac{c_{2 2 \mathrm{A}}^{\mathrm{I}}}{c_{1 1}^{\mathrm{I}}} + \frac{q_{2 \mathrm{A}} c_{2 2 \mathrm{A}}^{\mathrm{I}}}{q_{1} + q_{2 \mathrm{A}}} + \frac{\epsilon X}{R} \\ = c_{2 2 \mathrm{A}}^{\mathrm{I}} + \epsilon \left(\frac{c_{1 1}^{\mathrm{I}} X}{c_{2 2 \mathrm{A}}^{\mathrm{I}} R} - 1\right) > c_{2 2 \mathrm{A}}^{\mathrm{I}}. \\ \end{array}
 $$
 
 Trade with members of bank I at price  $b_{1}^{\mathrm{I}}$  would allow members of bank II to get date 1 consumption at date 0 cost  $(b_{1}^{\mathrm{I}}X)^{-1} < 1 / R$ , which is less
@@ -423,25 +423,25 @@ than the actual date 0 cost of date 1 consumption. If the price ratio,  $b_{1}$ 
 When we substitute in the resource constraint, the objective function,  $\Phi$ , becomes
 
 $$
-\begin{array}{l} \Phi = q _ {1} U \left(c _ {1 1}\right) + q _ {2 \mathrm {A}} U \left(\frac {c _ {1 1} X}{R}\right) \\ + q _ {2 \mathrm {B}} U \left(\frac {\left[ 1 - q _ {1} \left(c _ {1 1} / R\right) - q _ {2 \mathrm {A}} \left(c _ {1 1} / R\right) \right] X}{q _ {2 \mathrm {B}}}\right), \\ \Phi^ {\prime} \left(c _ {1 1}\right) = q _ {1} U ^ {\prime} \left(c _ {1 1}\right) + q _ {2 \mathrm {A}} U ^ {\prime} \left(\frac {c _ {1 1} X}{R}\right) \frac {X}{R} \\ - \left(q _ {1} + q _ {2 \mathrm {A}}\right) U ^ {\prime} \left(\frac {\left[ 1 - q _ {1} \left(c _ {1 1} / R\right) - q _ {2 \mathrm {A}} \left(c _ {1 1} / R\right) \right] X}{q _ {2 \mathrm {B}}}\right) \frac {X}{R}. \\ \end{array}
+\begin{array}{l} \Phi = q_{1} U \left(c_{1 1}\right) + q_{2 \mathrm{A}} U \left(\frac{c_{1 1} X}{R}\right) \\ + q_{2 \mathrm{B}} U \left(\frac{\left[ 1 - q_{1} \left(c_{1 1} / R\right) - q_{2 \mathrm{A}} \left(c_{1 1} / R\right) \right] X}{q_{2 \mathrm{B}}}\right), \\ \Phi^{\prime} \left(c_{1 1}\right) = q_{1} U^{\prime} \left(c_{1 1}\right) + q_{2 \mathrm{A}} U^{\prime} \left(\frac{c_{1 1} X}{R}\right) \frac{X}{R} \\ - \left(q_{1} + q_{2 \mathrm{A}}\right) U^{\prime} \left(\frac{\left[ 1 - q_{1} \left(c_{1 1} / R\right) - q_{2 \mathrm{A}} \left(c_{1 1} / R\right) \right] X}{q_{2 \mathrm{B}}}\right) \frac{X}{R}. \\ \end{array}
 $$
 
 At  $c_{11} \leq R$ , the resource constraint implies that
 
 $$
-c _ {2 2 \mathrm {B}} = \frac {\left[ 1 - q _ {1} \left(c _ {1 1} / R\right) - q _ {2 \mathrm {A}} \left(c _ {1 1} / R\right) \right] X}{q _ {2 \mathrm {B}}} \geq X
+c_{2 2 \mathrm{B}} = \frac{\left[ 1 - q_{1} \left(c_{1 1} / R\right) - q_{2 \mathrm{A}} \left(c_{1 1} / R\right) \right] X}{q_{2 \mathrm{B}}} \geq X
 $$
 
 and
 
 $$
-c _ {2 2 \mathrm {A}} \leq X.
+c_{2 2 \mathrm{A}} \leq X.
 $$
 
 The function  $U(c)$  is more risk averse than  $\log (c)$ , and  $U^{\prime}(c) > ZU^{\prime}(cZ)$  for  $Z > 1$ , implying that  $U^{\prime}(c_{11}) > U^{\prime}(c_{11}(X / R))(X / R)$ . Risk aversion implies that
 
 $$
-U ^ {\prime} \left(\frac {c _ {1 1} X}{R}\right) \frac {X}{R} \geq U ^ {\prime} \left(\frac {[ 1 - q _ {1} (c _ {1 1} / R) - q _ {2 \mathrm {A}} (c _ {1 1} / R) ] X}{q _ {2 \mathrm {B}}}\right) \frac {X}{R}.
+U^{\prime} \left(\frac{c_{1 1} X}{R}\right) \frac{X}{R} \geq U^{\prime} \left(\frac{[ 1 - q_{1} (c_{1 1} / R) - q_{2 \mathrm{A}} (c_{1 1} / R) ] X}{q_{2 \mathrm{B}}}\right) \frac{X}{R}.
 $$
 
 These two results imply that  $\Phi'(c_{11}) > 0$  for  $c_{11} \leq R$ . Because  $\Phi(c_{11})$  is continuous but not differentiable at  $c_{11} = R$ , the optimal value of  $c_{11} \geq R$ .
@@ -449,7 +449,7 @@ These two results imply that  $\Phi'(c_{11}) > 0$  for  $c_{11} \leq R$ . Becaus
 The function  $\Phi$  is concave:
 
 $$
-\begin{array}{l} \Phi^ {\prime \prime} \left(c _ {1 1}\right) = q _ {1} U ^ {\prime \prime} \left(c _ {1 1}\right) + q _ {2 \mathrm {A}} U ^ {\prime \prime} \left(c _ {1 1} \frac {X}{R}\right) \frac {X ^ {2}}{R ^ {2}} + \frac {\left(q _ {1} + q _ {2 \mathrm {A}}\right) ^ {2}}{q _ {2 \mathrm {B}}} \\ \times U ^ {\prime \prime} \left(\frac {[ 1 - q _ {1} (c _ {1 1} / R) - q _ {2 \mathrm {A}} (c _ {1 1} / R) ] X}{q _ {2 \mathrm {B}}}\right) \frac {X ^ {2}}{R ^ {2}} <   0, \\ \end{array}
+\begin{array}{l} \Phi^{\prime \prime} \left(c_{1 1}\right) = q_{1} U^{\prime \prime} \left(c_{1 1}\right) + q_{2 \mathrm{A}} U^{\prime \prime} \left(c_{1 1} \frac{X}{R}\right) \frac{X^{2}}{R^{2}} + \frac{\left(q_{1} + q_{2 \mathrm{A}}\right)^{2}}{q_{2 \mathrm{B}}} \\ \times U^{\prime \prime} \left(\frac{[ 1 - q_{1} (c_{1 1} / R) - q_{2 \mathrm{A}} (c_{1 1} / R) ] X}{q_{2 \mathrm{B}}}\right) \frac{X^{2}}{R^{2}} <   0, \\ \end{array}
 $$
 
 because  $U''(c) < 0$ .
@@ -459,19 +459,19 @@ Proof That the Right Derivative at  $c_{11} = R$  Is Negative if  $q_{2B}$  is S
 Set  $c_{11} = R + \epsilon$  for  $\epsilon > 0$ . From  $q_{2\mathrm{B}} = 1 - q_1 - q_{2\mathrm{A}}$ ,
 
 $$
-\begin{array}{l} \Phi^ {\prime} (R + \epsilon) = q _ {1} U ^ {\prime} (R + \epsilon) + q _ {2 \mathrm {A}} U ^ {\prime} \left(\frac {(R + \epsilon) X}{R}\right) \frac {X}{R} \\ - \left(q _ {1} + q _ {2 \mathrm {A}}\right) U ^ {\prime} \left(\frac {\left\{1 - \left(q _ {1} + q _ {2 \mathrm {A}}\right) [ (R + \epsilon) / R ] \right\} X}{1 - q _ {1} - q _ {2 \mathrm {A}}}\right) \frac {X}{R} \\ = q _ {1} U ^ {\prime} (R + \epsilon) + q _ {2 \mathrm {A}} U ^ {\prime} \left(\left(1 + \frac {\epsilon}{R}\right) X\right) X \\ - \left(q _ {1} + q _ {2 \mathrm {A}}\right) U ^ {\prime} \left(\frac {\left\{1 - \left(q _ {1} + q _ {2 \mathrm {A}}\right) [ 1 + (\epsilon / R) ] \right\} X}{1 - q _ {1} - q _ {2 \mathrm {A}}}\right) \frac {X}{R} \\ = q _ {1} \left[ U ^ {\prime} (R + \epsilon) - U ^ {\prime} \left(X - \frac {\left(q _ {1} + q _ {2 \mathrm {A}}\right) \epsilon X}{1 - q _ {1} - q _ {2 \mathrm {A}}}\right) \frac {X}{R} \right] \\ + q _ {2 \mathrm {A}} \frac {X}{R} \left[ U ^ {\prime} \left(X + \frac {\epsilon X}{R}\right) X - U ^ {\prime} \left(X - \frac {\left(q _ {1} + q _ {2 \mathrm {A}}\right) \epsilon X}{1 - q _ {1} - q _ {2 \mathrm {A}}}\right) \right]. \\ \end{array}
+\begin{array}{l} \Phi^{\prime} (R + \epsilon) = q_{1} U^{\prime} (R + \epsilon) + q_{2 \mathrm{A}} U^{\prime} \left(\frac{(R + \epsilon) X}{R}\right) \frac{X}{R} \\ - \left(q_{1} + q_{2 \mathrm{A}}\right) U^{\prime} \left(\frac{\left\{1 - \left(q_{1} + q_{2 \mathrm{A}}\right) [ (R + \epsilon) / R ] \right\} X}{1 - q_{1} - q_{2 \mathrm{A}}}\right) \frac{X}{R} \\ = q_{1} U^{\prime} (R + \epsilon) + q_{2 \mathrm{A}} U^{\prime} \left(\left(1 + \frac{\epsilon}{R}\right) X\right) X \\ - \left(q_{1} + q_{2 \mathrm{A}}\right) U^{\prime} \left(\frac{\left\{1 - \left(q_{1} + q_{2 \mathrm{A}}\right) [ 1 + (\epsilon / R) ] \right\} X}{1 - q_{1} - q_{2 \mathrm{A}}}\right) \frac{X}{R} \\ = q_{1} \left[ U^{\prime} (R + \epsilon) - U^{\prime} \left(X - \frac{\left(q_{1} + q_{2 \mathrm{A}}\right) \epsilon X}{1 - q_{1} - q_{2 \mathrm{A}}}\right) \frac{X}{R} \right] \\ + q_{2 \mathrm{A}} \frac{X}{R} \left[ U^{\prime} \left(X + \frac{\epsilon X}{R}\right) X - U^{\prime} \left(X - \frac{\left(q_{1} + q_{2 \mathrm{A}}\right) \epsilon X}{1 - q_{1} - q_{2 \mathrm{A}}}\right) \right]. \\ \end{array}
 $$
 
 For any fixed  $\epsilon > 0$  (and for all smaller values of  $\epsilon$ ), one can choose  $q_{2B} = 1 - q_1 - q_{2A} > 0$  such that
 
 $$
-q _ {2 \mathrm {A}} \frac {X}{R} \left[ U ^ {\prime} \left(X + \frac {\epsilon X}{R}\right) - U ^ {\prime} \left(X - \frac {\left(q _ {1} + q _ {2 \mathrm {A}}\right) \epsilon X}{1 - q _ {1} - q _ {2 \mathrm {A}}}\right) \right]
+q_{2 \mathrm{A}} \frac{X}{R} \left[ U^{\prime} \left(X + \frac{\epsilon X}{R}\right) - U^{\prime} \left(X - \frac{\left(q_{1} + q_{2 \mathrm{A}}\right) \epsilon X}{1 - q_{1} - q_{2 \mathrm{A}}}\right) \right]
 $$
 
 is arbitrarily negative; in particular, is less than
 
 $$
-- q _ {1} \left[ U ^ {\prime} (R + \epsilon) - U ^ {\prime} \left(X - \frac {\left(q _ {1} + q _ {2 \mathrm {A}}\right) \epsilon X}{1 - q _ {1} - q _ {2 \mathrm {A}}}\right) \frac {X}{R} \right],
+- q_{1} \left[ U^{\prime} (R + \epsilon) - U^{\prime} \left(X - \frac{\left(q_{1} + q_{2 \mathrm{A}}\right) \epsilon X}{1 - q_{1} - q_{2 \mathrm{A}}}\right) \frac{X}{R} \right],
 $$
 
 implying that the right derivative at  $c_{11} = R$  is negative if  $q_{2\mathrm{B}} > 0$  is sufficiently small.
@@ -483,7 +483,7 @@ As to proposition 2, increasing liquidity implies that more type 2 agents partic
 The expression
 
 $$
-\frac {\partial \Phi^ {\prime} \left(c _ {1 1}\right)}{\partial q _ {2 \mathrm {A}}} = \frac {X}{R} \left[ U ^ {\prime} \left(c _ {2 2 \mathrm {A}}\right) - U ^ {\prime} \left(c _ {2 2 \mathrm {B}}\right) - \frac {q _ {1} + q _ {2 \mathrm {A}}}{q _ {2 \mathrm {B}}} \left(c _ {2 2 \mathrm {B}} - c _ {2 2 \mathrm {A}}\right) U ^ {\prime \prime} \left(c _ {2 2 \mathrm {B}}\right) \right]
+\frac{\partial \Phi^{\prime} \left(c_{1 1}\right)}{\partial q_{2 \mathrm{A}}} = \frac{X}{R} \left[ U^{\prime} \left(c_{2 2 \mathrm{A}}\right) - U^{\prime} \left(c_{2 2 \mathrm{B}}\right) - \frac{q_{1} + q_{2 \mathrm{A}}}{q_{2 \mathrm{B}}} \left(c_{2 2 \mathrm{B}} - c_{2 2 \mathrm{A}}\right) U^{\prime \prime} \left(c_{2 2 \mathrm{B}}\right) \right]
 $$
 
 # LIQUIDITY
@@ -493,7 +493,7 @@ is less than zero because at the optimum  $c_{22\mathrm{A}} > c_{22\mathrm{B}}$ 
 Combined with the previous result that  $\Phi''(c_{11}) < 0$ , this implies that
 
 $$
-\frac {\partial c _ {1 1}}{\partial q _ {2 \mathrm {A}}} = - \frac {\partial \Phi^ {\prime} \left(c _ {1 1}\right)}{\partial q _ {2 \mathrm {A}}} \Phi^ {\prime \prime} \left(c _ {1 1}\right) <   0,
+\frac{\partial c_{1 1}}{\partial q_{2 \mathrm{A}}} = - \frac{\partial \Phi^{\prime} \left(c_{1 1}\right)}{\partial q_{2 \mathrm{A}}} \Phi^{\prime \prime} \left(c_{1 1}\right) <   0,
 $$
 
 and the optimal value of  $c_{11}$  is decreasing in  $q_{2\mathrm{A}}$ . This proves proposition 2.

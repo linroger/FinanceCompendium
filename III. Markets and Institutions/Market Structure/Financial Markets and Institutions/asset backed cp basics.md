@@ -473,7 +473,7 @@ Notwithstanding the inherent limitations on the use of historical data in estima
 dilution. In particular, assuming that a receivables pool is stable and revolving, credit losses may be estimated through the following relationship:
 
 $$
-E (L o s s) \approx \frac {W P x L x B A}{T U}
+E (L o s s) \approx \frac{W P x L x B A}{T U}
 $$
 
 where:
@@ -491,7 +491,7 @@ $TU =$  the turnover interval for the receivables, expressed in days.
 Similarly, losses attributable to dilution may be estimated through the following relationship:
 
 $$
-E (D i l.) \approx \frac {D P x D x B A}{T U}
+E (D i l.) \approx \frac{D P x D x B A}{T U}
 $$
 
 where:
@@ -590,7 +590,7 @@ simulation are the bankruptcy probabilities for each obligor that exceeds any ap
 Each iteration of the simulation process starts by generating a random number in each period for each Seller in the ABCP program. Each random number determines whether the corresponding Seller is considered to have gone into bankruptcy in that period. Depending on whether the Seller is considered to have gone into bankruptcy, the appropriate set of parameters is used to determine the amount of losses on the Seller's portfolio in that period. The simulation generates a value for the losses suffered on a particular Seller's receivables portfolio in a given period, according to the following formula:
 
 $$
-L _ {t} = E (L) \times e ^ {V (L) x N}
+L_{t} = E (L) \times e^{V (L) x N}
 $$
 
 where:
@@ -668,7 +668,7 @@ Second, is the possibility of "domino effect" defaults occurring as a result of 
 47 If the number of separate holdings in the portfolio is  $n$  and the individual probability of a given holding defaulting is  $p$ , the probability that  $x$  separates holdings will default, assuming that  $n$  is large, may be approximated by the following binomial expression:
 
 $$
-P [ x \text {h o l d i n g s d e f a u l t i n g} ] \approx \left( \begin{array}{c} n \\ x \end{array} \right) p ^ {X} (1 - p) ^ {n - X}
+P [ x \text{ho ld in gs de fa ul ti ng} ] \approx \left( \begin{array}{c} n \\ x \end{array} \right) p^{X} (1 - p)^{n - X}
 $$
 
 If  $n$  is very large, the Poisson distribution may serve as an appropriate probability model and simplifies calculations. However, if  $n$  is small, occurrences of defaults arguably should not be viewed as an approximation of Bernoulli trials. In that case, the technically more correct approach would be to view occurrences of defaults as a process of sampling without replacement and, accordingly, the hypergeometric distribution would be the more appropriate probability model.

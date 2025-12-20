@@ -158,7 +158,7 @@ $$
 $$
 
 $$
-\begin{array}{l} (2 0 / 3 0) (\text {a v e r a g e o f t h e d a l y f e d e r a l f u n d s r a t e f o r t h e p r e v i o u s 2 0 d a y s}) \\ + (1 0 / 3 0) (\text {t e r m f e d e r a l f u n d s r a t e f o r 1 0 d a y s b e g i n n i n g A p r i e} 2 1). \\ \end{array}
+\begin{array}{l} (2 0 / 3 0) (\text{av er ag eo ft he da ly fe de ra lf un ds ra te fo rt he pr ev io us 20 da ys}) \\ + (1 0 / 3 0) (\text{te rm fe de ra lf un ds ra te fo r1 0d ay sb eg in ni ng Ap ri e} 2 1). \\ \end{array}
 $$
 
 At the same time, the price of the May contract would correspond approximately to the forward rate on a 30-day term federal funds deposit beginning May 1. The correspondence to the 30-day rate is only approximate, however, because the settlement price for the contract is based on a simple arithmetic average, which does not incorporate daily compounding.
@@ -318,7 +318,7 @@ because ready
 access to actual physical stores of an item can yield certain implicit benefits. For example, a miller might value having a ready supply of grain on hand to ensure the uninterrupted operation of his milling operations. A futures contract can substitute for physical holdings of the underlying commodity in the sense that it fixes the cost of future availability, but the miller cannot use futures contracts to keep his mill operating in the event that he runs out of grain. Supplies of agricultural commodities can be scarce in periods just preceding harvests, making market participants such as commodity processors willing to pay an implicit convenience yield in return for assured access to physical stores of a commodity at such times. A measure of the implicit convenience yield, call it  $y_{c}(0,T)$ , can be obtained by calculating the difference between the cost of storage and the futures price:
 
 $$
-y _ {c} (0, T) = S (0) + \mathbf {\Phi} _ {c} (0, T) - F (0, T),
+y_{c} (0, T) = S (0) + \mathbf {\Phi}_{c} (0, T) - F (0, T),
 $$
 
 where the term  $c(0, T)$  in the above expression represents the explicit carrying cost.
@@ -390,25 +390,25 @@ Pricing Eurodollar Futures Now consider the problem of determining the theoretic
 Let \( r(0,3) \) and \( r(0,6) \) denote the current (unannualized) threeand six-month LIBOR, respectively. Eurodollar deposits pay a fixed rate of interest over the term of the deposit. For maturities under one year, interest is paid at maturity. Thus, an investor placing \(1 in a 180-day deposit paying an interest rate of \( r(0,6) \) receives \([1 + r(0,6)]\) at maturity. Similarly, a 90-day deposit will return \([1 + r(0,3)]\) per dollar at maturity. Now let \( r_f(3,6) \) denote the interest rate on a three-month deposit to be placed in three months fixed by buying a Eurodollar futures contract. The condition that a six-month deposit should earn as much as a succession of two three-month deposits requires that
 
 $$
-1 + r (0, 6) = [ 1 + r (0, 3) ] [ 1 + r _ {f} (3, 6) ].
+1 + r (0, 6) = [ 1 + r (0, 3) ] [ 1 + r_{f} (3, 6) ].
 $$
 
 The no-arbitrage futures interest rate can thus be calculated from the other two spot rates by rearranging terms to yield
 
 $$
-r _ {f} (3, 6) = [ 1 + r (0, 6) ] / [ 1 + r (0, 3) ] - 1.
+r_{f} (3, 6) = [ 1 + r (0, 6) ] / [ 1 + r (0, 3) ] - 1.
 $$
 
 As an example, suppose the prevailing three-month LIBOR is quoted at 4.0 percent and the six-month LIBOR at 4.25 percent (in terms of annualized interest rates). Suppose further that the six-month rate applies to a period of exactly 180 days and the three-month rate applies to a period of 90 days. Finally, assume that the nearby Eurodollar contract conveniently happens to mature in exactly 90 days. Then, the no-arbitrage interest rate on a three-month Eurodollar deposit to be made three months in the future is
 
 $$
-\begin{array}{l} r _ {f} (3, 6) = [ 1 + (0. 0 4 2 5) (1 8 0 / 3 6 0) ] / [ 1 + (0. 0 4) (9 0 / 3 6 0) ] - 1 \\ = 0. 0 1 1 1. \\ \end{array}
+\begin{array}{l} r_{f} (3, 6) = [ 1 + (0. 0 4 2 5) (1 8 0 / 3 6 0) ] / [ 1 + (0. 0 4) (9 0 / 3 6 0) ] - 1 \\ = 0. 0 1 1 1. \\ \end{array}
 $$
 
 To express this result as an annualized interest rate just multiply the number obtained above by (360/90). The result is
 
 $$
-r _ {f} (3, 6) (3 6 0 / 9 0) = 0. 0 4 4 4,
+r_{f} (3, 6) (3 6 0 / 9 0) = 0. 0 4 4 4,
 $$
 
 which means that the no-arbitrage futures interest rate in this example is 4.44 percent and the theoretically correct index price is 95.56. The same methodology can be used to price one-month LIBOR futures. $^{11}$

@@ -57,25 +57,25 @@ To see the effect of PBA, let us compare it with a benchmark of the case of some
 If the non PBA investor invests at date 1, the value at date 3 is 100 for sure, so if the investor invests  $\mathrm{D}_1$  at date 1, the date 3 value is:
 
 $$
-(1 0 0 / 8 0) \mathrm {D} _ {1} \text {o r}
+(1 0 0 / 8 0) \mathrm{D}_{1} \text{or}
 $$
 
 in general
 
 $$
-\left(\mathrm {V} / \mathrm {p} _ {1}\right) \mathrm {D} _ {1}.
+\left(\mathrm{V} / \mathrm{p}_{1}\right) \mathrm{D}_{1}.
 $$
 
 If instead the non PBA investor waits until date 2 to invest (and just holds treasury bills yielding  $0\%$  for the period), then the price will be 70 or 100 (with prob q and 1-q respectively). When the price drops to 70, the non PBA investor will buy  $\mathrm{D}_1$  units, and when the price is 100, the investor will continue to hold treasury bills. The expected date 3 value of waiting until date 2 to take a position is:
 
 $$
-[ \mathrm {q} (1 0 0 / 7 0) + (1 - \mathrm {q}) 1 ] \mathrm {D} _ {1} \qquad \text {o r},
+[ \mathrm{q} (1 0 0 / 7 0) + (1 - \mathrm{q}) 1 ] \mathrm{D}_{1} \qquad \text{or},
 $$
 
 in general
 
 $$
-[ \mathrm {q} (\mathrm {V} / \mathrm {p} _ {2}) + (1 - \mathrm {q}) ] \mathrm {D} _ {1}.
+[ \mathrm{q} (\mathrm{V} / \mathrm{p}_{2}) + (1 - \mathrm{q}) ] \mathrm{D}_{1}.
 $$
 
 The non PBA investor will go ahead and invest at date 1 when it gives a larger expected value of assets, or:
@@ -99,7 +99,7 @@ If the PBA arb invests  $\mathbf{D}_1$  at date 1, his fund is closed with proba
 Investing  $\mathrm{D}_1$  at date 1 produces expected date 2 assets under management of:
 
 $$
-(1 - q) (1 0 0 / 8 0) D _ {1} + q (0).
+(1 - q) (1 0 0 / 8 0) D_{1} + q (0).
 $$
 
 The last term,  $\mathbf{q}(0)$  is zero because, if he loses money, he is out of business.
@@ -107,21 +107,21 @@ The last term,  $\mathbf{q}(0)$  is zero because, if he loses money, he is out o
 If the PBA arb waits until date 2 to invest, he won't lose assets under management, but with probability 1-q, the profit opportunity goes away. The expected value of date 3 assets under management if he waits to invest at date 2 it then:
 
 $$
-\mathrm {q} (1 0 0 / 7 0) \mathrm {D} _ {1} + (1 - \mathrm {q}) \mathrm {D} _ {1}.
+\mathrm{q} (1 0 0 / 7 0) \mathrm{D}_{1} + (1 - \mathrm{q}) \mathrm{D}_{1}.
 $$
 
 The PBA arb invests at date 1 when:
 
 $$
-(1 - q) (1 0 0 / 8 0) \geq q (1 0 0 / 7 0) + (1 - q) \quad \text {o r}
+(1 - q) (1 0 0 / 8 0) \geq q (1 0 0 / 7 0) + (1 - q) \quad \text{or}
 $$
 
 $$
-\mathrm {q} <   7 / 4 7 = 0. 1 5
+\mathrm{q} <   7 / 4 7 = 0. 1 5
 $$
 
 $$
-\text {o r i n g e n e r a l i f} q <   \frac {p _ {2} (V - p _ {1})}{p _ {1} (V - p _ {2}) + p _ {2} V}.
+\text{or in ge ne ra li f} q <   \frac{p_{2} (V - p_{1})}{p_{1} (V - p_{2}) + p_{2} V}.
 $$
 
 Thus, arcs subject to PBA are averse to profitable long-term bets that might go against them.
@@ -147,7 +147,7 @@ Suppose that at date 1 there are PBA funds and your long-term fund. The PBA fund
 # The two-period expected return of a PBA fund is:
 
 $$
-\begin{array}{l} \mathrm {q} (1 0 0 / 7 0) + (1 - \mathrm {q}) (1) = \mathrm {q} (1 + 3 / 7) + (1 - \mathrm {q}) 1 = \mathrm {q} (3 / 7) + 1 \\ = 0. 2 5 (3 / 7) + 1 = 1. 0 5 2 5 \text {(f o r} q = 0. 2 5) \\ \end{array}
+\begin{array}{l} \mathrm{q} (1 0 0 / 7 0) + (1 - \mathrm{q}) (1) = \mathrm{q} (1 + 3 / 7) + (1 - \mathrm{q}) 1 = \mathrm{q} (3 / 7) + 1 \\ = 0. 2 5 (3 / 7) + 1 = 1. 0 5 2 5 \text{(fo r} q = 0. 2 5) \\ \end{array}
 $$
 
 The twoperiod return of the long-term fund (assuming that it raises no new capital at date 2, so it can't scale up its bet if the price goes down at date 2),
@@ -171,7 +171,7 @@ To evaluate this further, we need to think about price formation. This gets a bi
 The prices we used in table 1 are those that prevail AFTER the arbs have put on their trades. If there were no trades coming in during a period, the price would remain unchanged. If there were only noise trading, the price goes down when noise traders sell and up when they buy. If there is also some trade by arbs, the price changes by the net amount of trade. That is:
 
 $$
-P _ {t} = \left\{ \begin{array}{l l} P _ {t - 1} + \text {N o i s e t r a d e} + \text {a r b t r a d e s} & (\text {h a p p e n s w i t h p r o b q}) \\ P _ {t - 1} + \text {N e w s t r a d e s} & (\text {h a p p e n s w i t h p r o b 1 - q}) \end{array} \right\}
+P_{t} = \left\{ \begin{array}{l l} P_{t - 1} + \text{No is et ra de} + \text{ar bt ra de s} & (\text{ha pp en sw it hp ro bq}) \\ P_{t - 1} + \text{Ne ws tr ad es} & (\text{ha pp en sw it hp ro b1 -q}) \end{array} \right\}
 $$
 
 We could allow for arb trades in addition to news trades, but in normal circumstances, news trades from many investors who see the mis-pricing will be sufficient to remove arbitrage opportunities.
@@ -207,7 +207,7 @@ Table 4: A delayed meltdown if LTCM can wait to liquidate:
 Let us compute the expected price change from date 1 to 2. With probability q, there is a noise trade that forces it down to 15, because LTCM is forced out. With probability 1-q, there is a news trade, that pushes the price up to 75 (and then LTCM is not forced out). The expected price change is then:
 
 $$
-\mathrm {q} (1 5 - 5 5) + (1 - \mathrm {q}) (7 5 - 5 5) = 2 0 - \mathrm {q} (6 0)
+\mathrm{q} (1 5 - 5 5) + (1 - \mathrm{q}) (7 5 - 5 5) = 2 0 - \mathrm{q} (6 0)
 $$
 
 For  $q = .25$ , this is  $+5$ , but for  $q = 0.5$ , it is  $-10$ . Let's assume  $q = 0.5$ , and we will learn something about the front running problem faced by LTCM.

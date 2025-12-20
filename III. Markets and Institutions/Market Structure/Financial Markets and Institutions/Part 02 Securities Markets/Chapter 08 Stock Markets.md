@@ -105,31 +105,31 @@ Another drawback with common stock dividends, from an investor's viewpoint, is t
 The return to a stockholder over a period  $t - 1$  to  $t$  can be written as:
 
 $$
-R _ {t} = \frac {P _ {t} - P _ {t - 1}}{P _ {t - 1}} + \frac {D _ {t}}{P _ {t - 1}}
+R_{t} = \frac{P_{t} - P_{t - 1}}{P_{t - 1}} + \frac{D_{t}}{P_{t - 1}}
 $$ where
 
 
 $$
 
-P _ {t} = \text {S t o c k p r i c e a t t i m e} t
+P_{t} = \text{St oc kp ri ce at ti me} t
 
 $$
 
 $$
 
-D _ {t} = \text {D i v i d e n d s} t - 1 \text {t o} t
+D_{t} = \text{Di vi de nd s} t - 1 \text{to} t
 
 $$
 
 $$
 
-\frac {P _ {t} - P _ {t - 1}}{P _ {t - 1}} = \text {C a p i t a l g a i n o v e r t i m e} t - 1 \text {t o} t
+\frac{P_{t} - P_{t - 1}}{P_{t - 1}} = \text{Ca pi ta lg ai no ve rt im e} t - 1 \text{to} t
 
 $$
 
 $$
 
-\frac {D _ {t}}{P _ {t - 1}} = \text {R e t u r n}
+\frac{D_{t}}{P_{t - 1}} = \text{Re tu rn}
 
 $$
 
@@ -141,7 +141,7 @@ A corporation has after- (corporate) tax earnings that would allow a \$2 dividen
 
 $$
 
-R _ {t} = \frac {\mathbb {S} 50 - \mathbb {S} 50}{\mathbb {S} 50} + \frac {\mathbb {S} 2}{\mathbb {S} 50} = 4 \%
+R_{t} = \frac{\mathbb {S} 50 - \mathbb {S} 50}{\mathbb {S} 50} + \frac{\mathbb {S} 2}{\mathbb {S} 50} = 4 \%
 
 $$
 
@@ -151,7 +151,7 @@ Alternatively, rather than pay dividends, the firm can use the earnings to inves
 
 $$
 
-R _ {t} = \frac {\mathbb {S} 52 - \mathbb {S} 50}{\mathbb {S} 50} + \frac {\mathbb {S} 0}{\mathbb {S} 50} = 4 \%
+R_{t} = \frac{\mathbb {S} 52 - \mathbb {S} 50}{\mathbb {S} 50} + \frac{\mathbb {S} 0}{\mathbb {S} 50} = 4 \%
 
 $$
 
@@ -196,38 +196,38 @@ For example, if candidate 1 receives 750,000 votes, and votes for the other thre
 
 $$
 
-\text {C a n d i d a t e} 2 = 2 \text {m i l l i o n v o t e s}
+\text{Ca nd id at e} 2 = 2 \text{mi ll io nv ot es}
 
 $$
 
 $$
 
-\text {C a n d i d a t e} 3 = 1 5 0, 0 0 0 \text {v o t e s}
+\text{Ca nd id at e} 3 = 1 5 0, 0 0 0 \text{vo te s}
 
 $$
 
 $$
 
-\text {C a n d i d a t e} 4 = 1 0 0, 0 0 0 \text {v o t e s}
+\text{Ca nd id at e} 4 = 1 0 0, 0 0 0 \text{vo te s}
 
 $$ for a total of 3 million votes cast, candidates 1, 2, and 3 are elected to the board. Alternatively, votes for the other three candidates can be spread as:
 
 
 $$
 
-\text {C a n d i d a t e} 3 = 7 5 1, 0 0 0 \text {v o t e s}
+\text{Ca nd id at e} 3 = 7 5 1, 0 0 0 \text{vo te s}
 
 $$
 
 $$
 
-\text {C a n d i d a t e} 2 = 7 5 0, 0 0 0 \text {v o t e s}
+\text{Ca nd id at e} 2 = 7 5 0, 0 0 0 \text{vo te s}
 
 $$
 
 $$
 
-\text {C a n d i d a t e} 4 = 7 4 9, 0 0 0 \text {v o t e s}
+\text{Ca nd id at e} 4 = 7 4 9, 0 0 0 \text{vo te s}
 
 $$
 
@@ -235,14 +235,14 @@ Again, candidates 1, 2, and 3 are elected. Indeed, any distribution of the remai
 
 $$
 
-N _ {p} = \left[ (P \times \text {N u m b e r o f v o t e s a v a i l a b l e}) / (\text {N u m b e r o f d i r e c t o r s t o b e e l e c t e d} + 1) \right] + 1
+N_{p} = \left[ (P \times \text{Nu mb er of vo te sa va il ab le}) / (\text{Nu mb er of di re ct or st ob ee le ct ed} + 1) \right] + 1
 
 $$ or, in our example, to ensure the election of candidates 1 and 2, a stockholder would need
 
 
 $$
 
-N _ {p} = \left[ (2 \times 3, 0 0 0, 0 0 0) / (3 + 1) \right] + 1 = 1, 5 0 0, 0 0 1 \mathrm {s h a r e s}
+N_{p} = \left[ (2 \times 3, 0 0 0, 0 0 0) / (3 + 1) \right] + 1 = 1, 5 0 0, 0 0 1 \mathrm{sh ar es}
 
 $$ and these would be split as 750,001 for candidate 1 and 750,000 for candidate 2.
 
@@ -280,14 +280,14 @@ Suppose you own a preferred stock that promises to pay an annual dividend of 5 p
 
 $$
 
-\text {A n n u a l d i v i d e n d s} = \$ 1 0 0 \times 0. 0 5 = \$ 5
+\text{An nu al di vi de nd s} = \$ 1 0 0 \times 0. 0 5 = \$ 5
 
 $$ or:
 
 
 $$
 
-\text {Q u a r t e r l y d i v i d e n d} = \$ 5 \div 4 = \$ 1. 2 5
+\text{Qu ar te rl yd iv id en d} = \$ 5 \div 4 = \$ 1. 2 5
 
 $$ at the end of each quarter.
 
@@ -678,7 +678,7 @@ Dow indexes are price-weighted averages, meaning that the stock prices of the co
 
 $$
 
-\sum_ {i = 1} ^ {3 0} P _ {i t} / \text {D i v i s o r}
+\sum_{i = 1}^{3 0} P_{i t} / \text{Di vi so r}
 
 $$ where
 
@@ -715,7 +715,7 @@ Suppose a stock index contains the stock of four firms: W, X, Y, and Z. The stoc
 
 $$
 
-\begin{array}{l} P W I = \sum_ {i = 1} ^ {4} P _ {i t} / 4 \\ = (\$ 50 + \$ 25 + \$ 60 + \$ 5) / 4 \\ = 1 4 0 / 4 \\ = 3 5 \\ \end{array}
+\begin{array}{l} P W I = \sum_{i = 1}^{4} P_{i t} / 4 \\ = (\$ 50 + \$ 25 + \$ 60 + \$ 5) / 4 \\ = 1 4 0 / 4 \\ = 3 5 \\ \end{array}
 
 $$
 
@@ -723,7 +723,7 @@ If the index is value-weighted, its initial value, VWI, is:
 
 $$
 
-\begin{array}{l} V W I = \sum_ {i = 1} ^ {4} \left(P _ {i t} \times \text {N u m b e r o f s h a r e s o u t s t a n d i n g}\right) / 4 \\ = [ (\$ 50 \times 1 0 0 \mathrm {m}) + (\$ 2 5 \times 4 0 0 \mathrm {m}) + (\$ 6 0 \times 2 0 0 \mathrm {m}) + (\$ 5 \times 5 0 \mathrm {m}) ] / 4 \\ = \$ 6,812.5 \text {m i l l o n} \\ \end{array}
+\begin{array}{l} V W I = \sum_{i = 1}^{4} \left(P_{i t} \times \text{Nu mb er of sh ar es ou ts ta nd in g}\right) / 4 \\ = [ (\$ 50 \times 1 0 0 \mathrm{m}) + (\$ 2 5 \times 4 0 0 \mathrm{m}) + (\$ 6 0 \times 2 0 0 \mathrm{m}) + (\$ 5 \times 5 0 \mathrm{m}) ] / 4 \\ = \$ 6,812.5 \text{mi ll on} \\ \end{array}
 
 $$
 
@@ -731,12 +731,12 @@ If the next day, share prices change to $55, $24, \$62, and \$6, respectively, t
 
 $$
 
-\begin{array}{l} P W I = \sum_ {i = 1} ^ {4} P _ {i t} / 4 \\ = (\$ 55 + \$ 24 + \$ 62 + \$ 6) / 4 \\ = 1 4 7 / 4 \\ = 3 6. 7 5 \\ \end{array}
+\begin{array}{l} P W I = \sum_{i = 1}^{4} P_{i t} / 4 \\ = (\$ 55 + \$ 24 + \$ 62 + \$ 6) / 4 \\ = 1 4 7 / 4 \\ = 3 6. 7 5 \\ \end{array}
 
 $$ and the percentage change in the index is  $(36.75 - 35) / 35 = 5$  percent. The value-weighted index is now:
 
 $$
-\begin{array}{l} V W I = \sum_ {i = 1} ^ {4} \left(P _ {i t} \times \text {N u m b e r o f s h a r e s o u t s t a n d i n g}\right) / 4 \\ = [ (\$ 55 \times 1 0 0 \mathrm {m}) + (\$ 2 4 \times 4 0 0 \mathrm {m}) + (\$ 6 2 \times 2 0 0 \mathrm {m}) + (\$ 6 \times 5 0 \mathrm {m}) ] / 4 \\ = \$ 6, 9 5 0 \text {m i l l o n} \\ \end{array}
+\begin{array}{l} V W I = \sum_{i = 1}^{4} \left(P_{i t} \times \text{Nu mb er of sh ar es ou ts ta nd in g}\right) / 4 \\ = [ (\$ 55 \times 1 0 0 \mathrm{m}) + (\$ 2 4 \times 4 0 0 \mathrm{m}) + (\$ 6 2 \times 2 0 0 \mathrm{m}) + (\$ 6 \times 5 0 \mathrm{m}) ] / 4 \\ = \$ 6, 9 5 0 \text{mi ll on} \\ \end{array}
 $$ and the percentage change in this index is  $(6,950 - 6,812.5) / 6,812.5 = 2.02$  percent.
 
 
@@ -744,7 +744,7 @@ If, after the market closes, company W undergoes a two-for-one split, its stock 
 
 $$
 
-\begin{array}{l} \text {D i v i s o r} = 1 1 9. 5 / 3 6. 7 5 \\ = 3. 2 5 1 7 \\ \end{array}
+\begin{array}{l} \text{Di vi so r} = 1 1 9. 5 / 3 6. 7 5 \\ = 3. 2 5 1 7 \\ \end{array}
 
 $$
 
@@ -752,7 +752,7 @@ Thus, the value of the price-weighted index remains at:
 
 $$
 
-\begin{array}{l} P W I = \sum_ {i = 1} ^ {4} P _ {i t} / 3. 2 5 1 7 \\ = (\$ 2 7. 5 0 + \$ 2 4 + \$ 6 2 + \$ 6) / 3. 2 5 1 7 \\ = 1 1 9. 5 / 3. 2 5 1 7 \\ = 3 6. 7 5 \\ \end{array}
+\begin{array}{l} P W I = \sum_{i = 1}^{4} P_{i t} / 3. 2 5 1 7 \\ = (\$ 2 7. 5 0 + \$ 2 4 + \$ 6 2 + \$ 6) / 3. 2 5 1 7 \\ = 1 1 9. 5 / 3. 2 5 1 7 \\ = 3 6. 7 5 \\ \end{array}
 
 $$
 
@@ -804,7 +804,7 @@ In Chapter 3 we used time value of money equations to determine the fair value o
 
 $$
 
-P _ {0} = \frac {D _ {1}}{\left(1 + r _ {s}\right) ^ {1}} + \frac {D _ {2}}{\left(1 + r _ {s}\right) ^ {2}} + \dots + \frac {D _ {\infty}}{\left(1 + r _ {s}\right) ^ {\infty}}
+P_{0} = \frac{D_{1}}{\left(1 + r_{s}\right)^{1}} + \frac{D_{2}}{\left(1 + r_{s}\right)^{2}} + \dots + \frac{D_{\infty}}{\left(1 + r_{s}\right)^{\infty}}
 
 $$
 
@@ -945,14 +945,14 @@ The return on the U.S. company's stock was:
 
 $$
 
-R _ {t} ^ {U S} = \frac {\mathbb {S} 48 - \mathbb {S} 50}{\mathbb {S} 50} + \frac {\mathbb {S} 1.5}{\mathbb {S} 50} = - 1 \%
+R_{t}^{U S} = \frac{\mathbb {S} 48 - \mathbb {S} 50}{\mathbb {S} 50} + \frac{\mathbb {S} 1.5}{\mathbb {S} 50} = - 1 \%
 
 $$ and the return on the UK company's stock, ignoring the change in the exchange rate, was:
 
 
 $$
 
-R _ {t} ^ {U K} = \frac {\text {£} 64 - \text {£} 60}{\text {£} 60} + \frac {\text {£} 2.5}{\text {£} 60} = 10.83 \%
+R_{t}^{U K} = \frac{\text{£} 64 - \text{£} 60}{\text{£} 60} + \frac{\text{£} 2.5}{\text{£} 60} = 10.83 \%
 
 $$
 
@@ -960,7 +960,7 @@ On a U.S. dollar equivalent basis the return was:
 
 $$
 
-R _ {t} ^ {U K} = \frac {\mathbb {S} 121.0176 - \mathbb {S} 108.486}{\mathbb {S} 108.486} + \frac {\mathbb {S} 4.72725}{108.486} = 15.91 \%
+R_{t}^{U K} = \frac{\mathbb {S} 121.0176 - \mathbb {S} 108.486}{\mathbb {S} 108.486} + \frac{\mathbb {S} 4.72725}{108.486} = 15.91 \%
 
 $$
 

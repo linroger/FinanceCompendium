@@ -264,14 +264,14 @@ Measuring Risk and Return on Foreign Exchange Transactions. The risk involved wi
 Suppose that on March 13, 2020, a U.S. firm plans to purchase 3 million Swiss francs' (Sf) worth of Swiss bonds from a Swiss FI in one month's time. The Swiss FI wants payment in Swiss francs. Believing that the exchange rate of U.S. dollars for Swiss francs will move against it in the next month, the U.S. firm will convert dollars into Swiss francs today. The spot exchange rate for March 13, 2020 (reported in Table 9-1), of U.S. dollars for Swiss francs (or CHF/USD) is 1.0521, or one franc costs 1.0521 in dollars. Consequently, the U.S. firm must convert:
 
 $$
-\begin{array}{l} \mathrm {U . S .} \mathbb {S} / \mathrm {S f} \text {e x c h a n g e r a t e} \times \mathrm {S f} 3 \text {m i l l i o n} = \\ 1. 0 5 2 1 \times \mathrm {S f} 3 \mathrm {m} = \$ 3, 1 5 6, 3 0 0 \\ \end{array}
+\begin{array}{l} \mathrm{U .S .} \mathbb {S} / \mathrm{Sf} \text{ex ch an ge ra te} \times \mathrm{Sf} 3 \text{mi ll io n} = \\ 1. 0 5 2 1 \times \mathrm{Sf} 3 \mathrm{m} = \$ 3, 1 5 6, 3 0 0 \\ \end{array}
 $$ into Swiss francs today.
 
 
 One month after the conversion of dollars to Swiss francs, the Swiss bond purchase deal falls through and the U.S. firm no longer needs the Swiss francs it purchased at  \$1.0521 per franc. The spot exchange rate of the Swiss franc to the dollar has fallen or depreciated over the month so that the value of a franc is worth only\$ 1.0375, or the exchange rate is 1.0375 per franc. The U.S. dollar value of 3 million Swiss francs is now only:
 
 $$
-1. 0 3 7 5 \times \mathrm {S f} 3 \text {m i l l o n} = \$ 3, 1 1 2, 5 0 0
+1. 0 3 7 5 \times \mathrm{Sf} 3 \text{mi ll on} = \$ 3, 1 1 2, 5 0 0
 $$
 
 The depreciation of the Swiss franc relative to the dollar over the month has caused the U.S. firm to suffer a  $43,800 ($ 3,112,500 - 3,156,300) loss due to exchange rate fluctuations.
@@ -280,7 +280,7 @@ To avoid such a loss in the spot markets, the U.S. firm could have entered into 
 
 
 $$
-2. 0 5 0 2 \times \mathrm {S f} 3 \text {m i l l o n} = \$ 3, 1 5 0, 6 0 0
+2. 0 5 0 2 \times \mathrm{Sf} 3 \text{mi ll on} = \$ 3, 1 5 0, 6 0 0
 $$ at the end of the month, suggesting a small net loss of  $3,150,600 -$ 3,156,300 = 5,700 on the combined spot and forward transactions. Essentially, by using the one-month forward contract, the U.S. firm hedges (or insures itself) against foreign currency risk in the spot market.
 
 As discussed below, financial institutions, and particularly commercial banks, are the main participants in the foreign exchange markets. When issuing a foreign currency-denominated liability or buying a foreign currency-denominated asset an FI will do so only if the expected return is positive.
@@ -294,7 +294,7 @@ Suppose that a U.S. FI has the following assets and liabilities:
 The U.S. FI is raising all of its 162.5 million liabilities in dollars (one-year CDs), but it is investing 50 percent in U.S. dollar assets (one-year maturity loans) and 50 percent in British pound assets (one-year maturity loans). In this example, the FI has matched the maturity (M) or duration (D) of its assets (A) and liabilities (L):
 
 $$
-(M _ {A} = M _ {L} = D _ {A} = D _ {L} = 1 \text {y e a r})
+(M_{A} = M_{L} = D_{A} = D_{L} = 1 \text{ye ar})
 $$ but has mismatched the currency composition of its asset and liability portfolios. Suppose that the promised one-year U.S. dollars CD rate is 8 percent, to be paid in dollars at the end of the year, and that one-year, default risk-free loans in the United States are yielding 9 percent. The FI would have a positive spread of 1 percent from investing domestically. Suppose, however, that credit risk-free one-year loans are yielding 15 percent in the United Kingdom.
 
 
@@ -309,7 +309,7 @@ Suppose that the spot foreign exchange rate has not changed over the year—it r
 
 $$
 
-\begin{array}{l} £ 7 1. 8 7 5 \text {m i l l o n} \times £ 1. 3 0 / £ 1 = £ 9 3. 4 3 7 5 \text {m i l l o n} \\ \frac {\mathbb {S} 93.4375 \text {million} - \mathbb {S} 81.25 \text {million}}{\mathbb {S} 81.25 \text {million}} = 15 \% \\ \end{array}
+\begin{array}{l} £ 7 1. 8 7 5 \text{mi ll on} \times £ 1. 3 0 / £ 1 = £ 9 3. 4 3 7 5 \text{mi ll on} \\ \frac{\mathbb {S} 93.4375 \text{million} - \mathbb {S} 81.25 \text{million}}{\mathbb {S} 81.25 \text{million}} = 15 \% \\ \end{array}
 
 $$
 
@@ -327,14 +327,14 @@ Suppose, however, that the pound had fallen (depreciated) in value against the U
 
 $$
 
-£ 7 1. 8 7 5 \text {m i l l o n} \times £ 1. 1 8 / £ 1 = £ 8 4. 8 1 2 5 \text {m i l l o n}
+£ 7 1. 8 7 5 \text{mi ll on} \times £ 1. 1 8 / £ 1 = £ 8 4. 8 1 2 5 \text{mi ll on}
 
 $$ or as a return on the original dollar investment of:
 
 
 $$
 
-\frac {\mathbb {S} 84 . 8 1 2 5 - \mathbb {S} 8 1 . 2 5}{\mathbb {S} 8 1 . 2 5} = 0. 0 4 3 8 5 = 4. 3 8 5 \%
+\frac{\mathbb {S} 84 . 8 1 2 5 - \mathbb {S} 8 1 . 2 5}{\mathbb {S} 8 1 . 2 5} = 0. 0 4 3 8 5 = 4. 3 8 5 \%
 
 $$
 
@@ -352,7 +352,7 @@ If the pound had instead appreciated (risen in value) against the dollar over th
 
 $$
 
-£ 7 1. 8 7 5 \text {m i l l o n} \times \$ 1. 4 0 0 = \$ 1 0 0. 6 2 5 \text {m i l l o n}
+£ 7 1. 8 7 5 \text{mi ll on} \times \$ 1. 4 0 0 = \$ 1 0 0. 6 2 5 \text{mi ll on}
 
 $$ or a percentage return of 23.846 percent. The U.S. FI would receive a double benefit from investing in the United Kingdom, a high yield on the domestic British loans and an appreciation in pounds over the one-year investment period.
 
@@ -412,7 +412,7 @@ $$
 
 $$
 
-£ 6 9. 3 7 5 \text {m i l l o n} \times \$ 1. 4 0 / £ 1 = \$ 9 7. 1 2 5 \text {m i l l o n}
+£ 6 9. 3 7 5 \text{mi ll on} \times \$ 1. 4 0 / £ 1 = \$ 9 7. 1 2 5 \text{mi ll on}
 
 $$ or a dollar cost of funds of 19.538 percent. Thus, at the end of the year:
 
@@ -464,7 +464,7 @@ This means that the forward buyer of the pounds promises to pay:
 
 $$
 
-£ 62.50 \text {m i l l o n} (1. 1 5) \times \$ 1. 2 5 / £ = £ 7 1. 8 7 5 \text {m i l l o n} \times \$ 1. 2 5 / £ = \$ 8 9. 8 4 3 7 5 \text {m i l l o n}
+£ 62.50 \text{mi ll on} (1. 1 5) \times \$ 1. 2 5 / £ = £ 7 1. 8 7 5 \text{mi ll on} \times \$ 1. 2 5 / £ = \$ 8 9. 8 4 3 7 5 \text{mi ll on}
 
 $$ to the FI (the forward seller) in one year when the FI delivers the £71.875 million proceeds of the loan to the forward buyer.
 
@@ -476,7 +476,7 @@ Barring the pound borrower's default on the loan or the pound forward buyer's re
 
 $$
 
-\frac {\mathrm {89 . 8 4 3 7 5 m .} - \mathrm {8 1 . 2 5 m .}}{\mathrm {8 1 . 2 5 m .}} = 0. 1 0 5 7 7, \text {or} 1 0. 5 7 7
+\frac{\mathrm{89 .8 43 75 m .} - \mathrm{81 .2 5m .}}{\mathrm{81 .2 5m .}} = 0. 1 0 5 7 7, \text{or} 1 0. 5 7 7
 
 $$
 
@@ -526,7 +526,7 @@ A financial institution's overall net foreign exchange (FX) exposure in any give
 
 $$
 
-\begin{array}{l} \text {N e t} = \left(\mathrm {F X} \text {a s s e t s} _ {i} - \mathrm {F X} \text {l i a b i l i t i e s} _ {i}\right) + \left(\mathrm {F X} \text {b o u g h t} _ {i} - \mathrm {F X} \text {s o l d} _ {i}\right) \\ = \text {N e t} \\ = \text {N e t} \\ \end{array}
+\begin{array}{l} \text{Ne t} = \left(\mathrm{FX} \text{as se ts}_{i} - \mathrm{FX} \text{li ab il it ie s}_{i}\right) + \left(\mathrm{FX} \text{bo ug ht}_{i} - \mathrm{FX} \text{so ld}_{i}\right) \\ = \text{Ne t} \\ = \text{Ne t} \\ \end{array}
 
 $$
 
@@ -539,7 +539,7 @@ $^{\dagger}$ Net position = Assets - Liabilities + FX bought - FX sold where
 Source: Treasury Bulletin, December 2019, www.ustreas.gov
 
 
-$$ i = i \text {t h}
+$$ i = i \text{th}
 $$
 
 # net exposure
@@ -596,7 +596,7 @@ $$ where
 
 $$
 
-\begin{array}{l} i = \text {I n t e r s t r a t e} \\ I P = \text {I n f l a t i o n r a t e} \\ R F R = \text {R e a l} \\ \end{array}
+\begin{array}{l} i = \text{In te rs tr at e} \\ I P = \text{In fl at io nr at e} \\ R F R = \text{Re al} \\ \end{array}
 
 $$
 
@@ -604,7 +604,7 @@ The international Fisher effect incorporates foreign exchange rates into the rel
 
 $$
 
-E \left(S _ {U S \ / C \}\right) = S _ {U S \ / C \} \times \left[ (1 + i _ {U S}) / (1 + i _ {C}) \right]
+E \left(S_{U S \ / C \}\right) = S_{U S \ / C \} \times \left[ (1 + i_{U S}) / (1 + i_{C}) \right]
 
 $$
 
@@ -612,7 +612,7 @@ The country with the higher (lower) nominal interest rate will see its currency 
 
 $$
 
-E \left(S _ {U S \mathbb {S} / C \mathbb {S}}\right) = 0. 7 7 0 9 \times \left[ (1 + 0. 0 4) / (1 + 0. 0 5) \right] = 0. 7 6 3 6
+E \left(S_{U S \mathbb {S} / C \mathbb {S}}\right) = 0. 7 7 0 9 \times \left[ (1 + 0. 0 4) / (1 + 0. 0 5) \right] = 0. 7 6 3 6
 
 $$
 
@@ -622,44 +622,44 @@ The international Fisher effect predicts that the U.S. dollar will appreciate to
 
 One factor affecting a country's foreign currency exchange rate with another country is the relative inflation rate in each country (which, as shown below, is directly related to the relative interest rates in these countries). Specifically, in Chapter 2, we showed that:
 
-$$ i _ {U S} = I P _ {U S} + R F R _ {U S}
+$$ i_{U S} = I P_{U S} + R F R_{U S}
 $$ and
 
 
-$$ i _ {S} = I P _ {S} + R F R _ {S}
+$$ i_{S} = I P_{S} + R F R_{S}
 $$ where
 
 
-$$ i _ {U S} = \text {I n t e r s t r a t e i n t h e U n i t e d S t a t e s}
+$$ i_{U S} = \text{In te rs tr at ei nt he Un it ed St at es}
 $$
 
-$$ i _ {S} = \text {I n t e r e s t r a t e i n S w i t z e r l a n d (o r a n o t h e r f o r g i n c n o u t r y)}
-$$
-
-$$
-I P _ {U S} = \text {I n f l a t i o n r a t e i n t h e U n i t e d S t a t e s}
+$$ i_{S} = \text{In te re st ra te in Sw it ze rl an d (or an ot he rf or gi nc no ut ry)}
 $$
 
 $$
-I P _ {S} = \text {I n f l a t i o n r a t e i n S w i t z e r l a n d (o r a n o t h e r f o r g i n c o u n t r y)}
+I P_{U S} = \text{In fl at io nr at ei nt he Un it ed St at es}
 $$
 
 $$
-R F R _ {U S} = \text {R e a l}
+I P_{S} = \text{In fl at io nr at ei nS wi tz er la nd (or an ot he rf or gi nc ou nt ry)}
 $$
 
 $$
-R F R _ {S} = \text {R e a l}
+R F R_{U S} = \text{Re al}
+$$
+
+$$
+R F R_{S} = \text{Re al}
 $$
 
 Assuming real rates of interest (or rates of time preference) are equal across countries:
 
 $$
-R F R _ {U S} = R F R _ {S}
+R F R_{U S} = R F R_{S}
 $$ then:
 
 
-$$ i _ {U S} - i _ {S} = I P _ {U S} - I P _ {S}
+$$ i_{U S} - i_{S} = I P_{U S} - I P_{S}
 $$
 
 The (nominal) interest rate spread between the United States and Switzerland reflects the difference in inflation rates between the two countries.
@@ -673,11 +673,11 @@ The theory explaining the change in foreign currency exchange rates as inflation
 rates) as consumers and importers switch their demands for goods from relatively high inflation (interest) rate countries to low inflation (interest) rate countries. Specifically, the PPP theorem states that the change in the exchange rate between two countries' currencies is proportional to the difference in the inflation rates in the two countries. That is:
 
 $$
-I P _ {U S} - I P _ {S} = \Delta S _ {U S / S} / S _ {U S / S}
+I P_{U S} - I P_{S} = \Delta S_{U S / S} / S_{U S / S}
 $$ where
 
 
-$S_{US/S} = \text{Spot exchange rate of U.S. dollars for Swiss francs (or another currency)}$
+$S_{US/S} = \text{SpotexchangerateofU.S.dollarsforSwissfrancs (oranothercurrency)}$
 
 Thus, according to PPP, the most important factor determining exchange rates is the fact that in open economies, differences in prices (and by implication, price level changes with inflation) drive trade flows and thus demand for and supplies of currencies.
 
@@ -687,32 +687,32 @@ Suppose that the current spot exchange rate of U.S. dollars for Russian rubles, 
 
 $$
 
-\begin{array}{c c} \text {U . S .} & - \text {R u s s i a n} \\ \text {i n f l a t i o n r a t e} & \text {i n f l a t i o n r a t e} \end{array} = \frac {\text {C h a n g e i n s p o t e x c h a n g e r a t e}}{\text {O f U . S . d o l l a r s f o r R u s s i a n r u b l e s}}
+\begin{array}{c c} \text{U .S .} & - \text{Ru ss ia n} \\ \text{in fl at io nr at e} & \text{in fl at io nr at e} \end{array} = \frac{\text{Ch an ge in sp ot ex ch an ge ra te}}{\text{Of U .S .d ol la rs fo rR us si an ru bl es}}
 
 $$ or
 
 
 $$
 
-I P _ {U S} - I P _ {R} = \Delta S _ {U S / R} / S _ {U S / R}
+I P_{U S} - I P_{R} = \Delta S_{U S / R} / S_{U S / R}
 
 $$
 
 Plugging in the inflation and exchange rates, we get:
 
 $$
-0. 0 0 8 - 0. 0 7 5 = \Delta S _ {U S I R} / S _ {U S I R} = \Delta S _ {U S I R} / 0. 0 1 7
+0. 0 0 8 - 0. 0 7 5 = \Delta S_{U S I R} / S_{U S I R} = \Delta S_{U S I R} / 0. 0 1 7
 $$ or
 
 
 $$
-- 0. 0 6 7 = S _ {U S / R} / 0. 0 1 7
+- 0. 0 6 7 = S_{U S / R} / 0. 0 1 7
 $$ and
 
 
 $$
 
-\Delta S _ {U S / R} = - (0. 0 6 7) \times 0. 0 1 7 = - 0. 0 0 1 1 3 9
+\Delta S_{U S / R} = - (0. 0 6 7) \times 0. 0 1 7 = - 0. 0 0 1 1 3 9
 
 $$
 
@@ -737,7 +737,7 @@ The relationship that links spot exchange rates, interest rates, and forward exc
 
 $$
 
-1 + i _ {U S t} = \left(1 / S _ {t}\right) \times \left(1 + i _ {U K t}\right) \times F _ {t}
+1 + i_{U S t} = \left(1 / S_{t}\right) \times \left(1 + i_{U K t}\right) \times F_{t}
 
 $$
 
@@ -746,25 +746,25 @@ Return on U.S. investment  $=$  Hedged return on foreign (UK) investment where
 
 $$
 
-1 + i _ {U S t} = 1 \text {p l u s t h e i n t e r s t r a t e r o n a U . S . i n v e s t m a t u r i n g a t i m e t} t
+1 + i_{U S t} = 1 \text{pl us th ei nt er st ra te ro na U .S .i nv es tm at ur in ga ti me t} t
 
 $$
 
 $$
 
-1 + i _ {U K t} = 1 \text {p l u s t h e i n t e r s e r a t o n a U K i n v e n s t m a t u r i n g a t i m e} t
+1 + i_{U K t} = 1 \text{pl us th ei nt er se ra to na UK in ve ns tm at ur in ga ti me} t
 
 $$
 
 $$
 
-S _ {t} = \mathbb {S} / £ \text {s p o t e x c h a n g e r a t e} t
+S_{t} = \mathbb {S} / £ \text{sp ot ex ch an ge ra te} t
 
 $$
 
 $$
 
-F _ {t} = \mathbb {S} / £ \text {f o r w a r d e x p a r a g e r a t e a t t i m e} t
+F_{t} = \mathbb {S} / £ \text{fo rw ar de xp ar ag er at ea tt im e} t
 
 $$
 
@@ -772,7 +772,7 @@ Rearranging, the IRPT can be expressed as:
 
 $$
 
-(i _ {U S t} - i _ {U K t}) / (1 + i _ {U K t}) = \left(F _ {t} - S _ {t}\right) / S _ {t}
+(i_{U S t} - i_{U K t}) / (1 + i_{U K t}) = \left(F_{t} - S_{t}\right) / S_{t}
 
 $$
 
@@ -785,14 +785,14 @@ Suppose that on March 13, 2020, a U.S. citizen has excess funds available to inv
 
 $$
 
-1 + i _ {U S} = (1 / 1. 2 2 8 4) \times (1 + 0. 0 0 5) \times 1. 2 4 1 5 = 1. 0 1 5 7 1 8
+1 + i_{U S} = (1 / 1. 2 2 8 4) \times (1 + 0. 0 0 5) \times 1. 2 4 1 5 = 1. 0 1 5 7 1 8
 
 $$ or 1.5718 percent. We can rearrange this relationship as shown above as:
 
 
 $$
 
-\begin{array}{l} \frac {0 . 0 1 5 7 1 8 - 0 . 0 0 5}{1 + 0 . 0 0 5} = \frac {1 . 2 4 1 5 - 1 . 2 2 8 4}{1 . 2 2 8 4} \\ 0. 0 1 0 6 6 4 = 0. 0 1 0 6 6 4 \\ \end{array}
+\begin{array}{l} \frac{0 . 0 1 5 7 1 8 - 0 . 0 0 5}{1 + 0 . 0 0 5} = \frac{1 . 2 4 1 5 - 1 . 2 2 8 4}{1 . 2 2 8 4} \\ 0. 0 1 0 6 6 4 = 0. 0 1 0 6 6 4 \\ \end{array}
 
 $$
 

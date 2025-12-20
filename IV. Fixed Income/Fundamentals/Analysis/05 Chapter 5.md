@@ -77,7 +77,7 @@ Figure 5.4: Time Line
 Let  $T_{1}$  and  $T_{2}$  be two arbitrary future time points and  $P(t,T_1)$  and  $P(t,T_2)$  be two zero coupon bond prices. Then the forward price of  $P(t,T_2)$  at time  $T_{1}$  is
 
 $$
-\Psi (t, T _ {1}, T _ {2}) = \frac {P (t , T _ {2})}{P (t , T _ {1})} \tag {5.1}
+\Psi (t, T_{1}, T_{2}) = \frac{P (t , T_{2})}{P (t , T_{1})} \tag {5.1}
 $$
 
 This result can be achieved by the following arbitrage argument:
@@ -86,7 +86,7 @@ This result can be achieved by the following arbitrage argument:
 
 Given that this portfolio has no cash flow in periods  $T_{1}$  and  $T_{2}$ , it should not cost anything today and equation (5.1) is obtained. A forward rate is the rate of return of the forward price:
 
-$$ f (t, T _ {1}, T _ {2}) = \frac {1}{T _ {1} - T _ {2}} \left[ \frac {1}{\Psi (t , T _ {1} , T _ {2})} - 1 \right]
+$$ f (t, T_{1}, T_{2}) = \frac{1}{T_{1} - T_{2}} \left[ \frac{1}{\Psi (t , T_{1} , T_{2})} - 1 \right]
 $$
 
 # A Two-Year Example
@@ -100,10 +100,10 @@ Table 5.2: No Arbitrage Argument of Forward Price
 Given that the portfolio generates no cash flow in the future, the value of the portfolio today must also be 0 to avoid arbitrage. As a result,
 
 $$
-- \left(f _ {1} - w _ {0}\right) \times P _ {0, 1} - \left(f _ {2} - w _ {0}\right) \times P _ {0, 2} = 0
+- \left(f_{1} - w_{0}\right) \times P_{0, 1} - \left(f_{2} - w_{0}\right) \times P_{0, 2} = 0
 $$
 
-$$ w _ {0} = \frac {f _ {1} P _ {0 , 1} + f _ {2} P _ {0 , 2}}{P _ {0 , 1} + P _ {0 , 2}}
+$$ w_{0} = \frac{f_{1} P_{0 , 1} + f_{2} P_{0 , 2}}{P_{0 , 1} + P_{0 , 2}}
 $$
 
 Using the 4-year HL model,
@@ -120,27 +120,27 @@ Table 5.3: HL Example of 4-year Swap Rate
 
 Note that  $1 + \ell_{1} = \frac{1}{P_{0,1}}$  and  $1 + \ell_{2} = \frac{1}{P_{1,2}}$ . As a result, we have:
 
-$$ w _ {0} = \frac {1 - P _ {0 , 2}}{P _ {0 , 1} + P _ {0 , 2}}
+$$ w_{0} = \frac{1 - P_{0 , 2}}{P_{0 , 1} + P_{0 , 2}}
 $$
 
 The term structure is such that :one-year rate is  $5\%$  and two-year rate is  $7\%$  (hence the forward rate is  $9\%$ ) discount factors are:
 
 $$
-P _ {0, 1} = \frac {1}{1 . 0 5} = 0. 9 5 2 4
+P_{0, 1} = \frac{1}{1 . 0 5} = 0. 9 5 2 4
 $$
 
 $$
-P _ {0, 2} = \frac {1}{1 . 0 7 ^ {2}} = 0. 8 7 3 4
+P_{0, 2} = \frac{1}{1 . 0 7^{2}} = 0. 8 7 3 4
 $$
 
 Hence, the swap rate is:
 
-$$ w _ {0} = \frac {P _ {0 , 1} \ell_ {1} + P _ {0 , 2} f _ {2}}{P _ {0 , 1} + P _ {0 , 2}} = \frac {0.9524 \times 0.05 + 0.8734 \times 0.09}{0.9524 + 0.8734} = \frac {0.1262}{1.8258} = 6.91 \%
+$$ w_{0} = \frac{P_{0 , 1} \ell_{1} + P_{0 , 2} f_{2}}{P_{0 , 1} + P_{0 , 2}} = \frac{0.9524 \times 0.05 + 0.8734 \times 0.09}{0.9524 + 0.8734} = \frac{0.1262}{1.8258} = 6.91 \%
 $$
 
 The swap rate formula is:
 
-$$ w (t, T _ {n}) = \frac {1 - P (t , T _ {n})}{\sum_ {i = 1} ^ {n} P (t , T _ {i})} \tag {5.2}
+$$ w (t, T_{n}) = \frac{1 - P (t , T_{n})}{\sum_{i = 1}^{n} P (t , T_{i})} \tag {5.2}
 $$
 
 <table><tr><td></td><td>disc fact</td><td>annuity</td><td>swp rate</td></tr><tr><td>1</td><td>0.9524</td><td>0.9524</td><td>0.049979</td></tr><tr><td>2</td><td>0.8900</td><td>1.8424</td><td>0.059705</td></tr><tr><td>3</td><td>0.8278</td><td>2.6702</td><td>0.06449</td></tr><tr><td>4</td><td>0.7686</td><td>3.4388</td><td>0.067291</td></tr></table>
@@ -164,7 +164,7 @@ If the swap is in the money, then one can monetize by doing a reverse swap. For 
 Assume the yield curve to be flat (and hence the yields are equal to the current swap rate of  $12\%$ ) and a 4-year annuity value is 3.0373 and the swap value is:
 
 $$
-(2 \%) (3.0373) (\text {notional}) = 6.0704 \% \times \\ \100,000 = \6,070.\$
+(2 \%) (3.0373) (\text{notional}) = 6.0704 \% \times \\ \100,000 = \6,070.\$
 $$
 
 In our HL example, the 4-year swap rate is  $6.7291\%$  (see Table 5.4). After 1 year, if the year curve has become:
@@ -182,7 +182,7 @@ $$
 The general equation for the swap value at any future time  $s$  is:
 
 $$
-V _ {\mathrm {s w a p}} (s) = \left(w (s, T _ {n}) - w (t, T _ {n})\right) \sum_ {i = k} ^ {n} P (s, T _ {i})
+V_{\mathrm{sw ap}} (s) = \left(w (s, T_{n}) - w (t, T_{n})\right) \sum_{i = k}^{n} P (s, T_{i})
 $$ where  $T_{k-1} < s < T_k$ . It is quite straightforward to mathematically derive the swap value. Nevertheless, a reverse swap is the easiest and the most intuitive way to obtain such value.
 
 
@@ -199,7 +199,7 @@ The fixed leg can then be viewed as a fixed rate bond and the floating leg can b
 
 $$
 
-\begin{array}{l} 1 = \Pi (t, \underline {{T}}, w) = \sum_ {i = 1} ^ {n} w (t, T _ {n}) P (t, T _ {i}) + P (t, T _ {n}) \\ 1 = \sum_ {j = 1} ^ {n} P (t, T _ {j}) f (t, T _ {j - 1}, T _ {j}) + P (t, T _ {n}) \\ \end{array}
+\begin{array}{l} 1 = \Pi (t, \underline {{T}}, w) = \sum_{i = 1}^{n} w (t, T_{n}) P (t, T_{i}) + P (t, T_{n}) \\ 1 = \sum_{j = 1}^{n} P (t, T_{j}) f (t, T_{j - 1}, T_{j}) + P (t, T_{n}) \\ \end{array}
 
 $$
 
@@ -209,12 +209,12 @@ Over time, the floating leg remains at par and yet the fixed leg will move away 
 
 $$
 
-\begin{array}{l} \Pi (T _ {1}, \underline {{T}}, w) = \sum_ {i = 2} ^ {n} w (t, T _ {n}) P (T _ {1}, T _ {i}) + P (T _ {1}, T _ {n}) \\ 1 = \sum_ {j = 2} ^ {n} P \left(T _ {1}, T _ {j}\right) f \left(T _ {1}, T _ {j - 1}, T _ {j}\right) + P \left(T _ {1}, T _ {n}\right) \\ \end{array}
+\begin{array}{l} \Pi (T_{1}, \underline {{T}}, w) = \sum_{i = 2}^{n} w (t, T_{n}) P (T_{1}, T_{i}) + P (T_{1}, T_{n}) \\ 1 = \sum_{j = 2}^{n} P \left(T_{1}, T_{j}\right) f \left(T_{1}, T_{j - 1}, T_{j}\right) + P \left(T_{1}, T_{n}\right) \\ \end{array}
 
 $$ and  $\Pi (T_1,\underline{T},w)\neq 1$ . Then the swap value is:
 
 $$
-\begin{array}{l} V _ {\mathrm {s w a p}} (T _ {1}) = 1 - \Pi (T _ {1}, \underline {{T}}, w) \\ \neq 0 \\ \end{array}
+\begin{array}{l} V_{\mathrm{sw ap}} (T_{1}) = 1 - \Pi (T_{1}, \underline {{T}}, w) \\ \neq 0 \\ \end{array}
 $$ because  $w(T_1, T_n) \neq w(t, T_n)$  as interest rates have moved.
 
 
@@ -236,22 +236,22 @@ Note that in reality, the floating leg of the swap is quarterly and the fixed le
 
 $$
 
-1 = \Pi (t, \underline {{T}}, w) = \sum_ {i = 1} ^ {2 n} w (t, T _ {2 n}) P (t, T _ {i}) + P (t, T _ {2 n})
+1 = \Pi (t, \underline {{T}}, w) = \sum_{i = 1}^{2 n} w (t, T_{2 n}) P (t, T_{i}) + P (t, T_{2 n})
 
 $$
 
 $$
 
-1 = \sum_ {j = 1} ^ {4 m} P (t, T _ {j}) f (t, T _ {j - 1}, T _ {j}) + P (t, T _ {4 m})
+1 = \sum_{j = 1}^{4 m} P (t, T_{j}) f (t, T_{j - 1}, T_{j}) + P (t, T_{4 m})
 
 $$ where  $T_{4m} = T_{2n}$  is the tenor of the swap (in years). At inception, the swap has equal value as both legs are priced at par. In three months, i.e.  $T_{j} = T_{1} = 1/4$ . Then
 
 $$
-\Pi (^ {1} / 4, \underline {{T}}, w) = \sum_ {i = 1} ^ {2 n} w (t, T _ {2 n}) P (^ {1} / 4, T _ {i}) + P (^ {1} / 4, T _ {2 n})
+\Pi (^ {1} / 4, \underline {{T}}, w) = \sum_{i = 1}^{2 n} w (t, T_{2 n}) P (^ {1} / 4, T_{i}) + P (^ {1} / 4, T_{2 n})
 $$
 
 $$
-1 = \sum_ {j = 2} ^ {4 m} P (^ {1} / 4, T _ {j}) f (^ {1} / 4, T _ {j - 1}, T _ {j}) + P (^ {1} / 4, T _ {4 m})
+1 = \sum_{j = 2}^{4 m} P (^ {1} / 4, T_{j}) f (^ {1} / 4, T_{j - 1}, T_{j}) + P (^ {1} / 4, T_{4 m})
 $$
 
 # 5.4.3 DV01/PV01
@@ -259,13 +259,13 @@ $$
 An IRS is "at the money" at inception. But over time it can be either in or out of the money, as the swap rate moves up or down. The value is equal to:
 
 $$
-V _ {\mathrm {s w a p}} (s) = N \sum_ {i = 1} ^ {2 n} \left(w (s, T _ {2 n}) - w (t, T _ {2 n})\right) P (s, T _ {i})
+V_{\mathrm{sw ap}} (s) = N \sum_{i = 1}^{2 n} \left(w (s, T_{2 n}) - w (t, T_{2 n})\right) P (s, T_{i})
 $$ for  $s > t$ , is a result of doing a reverse swap. Hence the DV01/PV01 is:
 
 
 $$
 
-\frac {\partial V}{\partial w (t , T _ {2 n})} = N \sum_ {i = 1} ^ {2 n} P (s, T _ {i})
+\frac{\partial V}{\partial w (t , T_{2 n})} = N \sum_{i = 1}^{2 n} P (s, T_{i})
 
 $$ which is the risk-free annuity. Following the same example, we have:
 
@@ -292,7 +292,7 @@ The payoff of the option is:
 
 $$
 
-\max \{w (s, T _ {n}) - w _ {K}, 0 \} \sum_ {i = 1} ^ {n} P (s, T _ {i})
+\max \{w (s, T_{n}) - w_{K}, 0 \} \sum_{i = 1}^{n} P (s, T_{i})
 
 $$
 
@@ -300,7 +300,7 @@ This is known as the payer option. A receiver option is the same option but to e
 
 $$
 
-\max \{w _ {K} - w (s, T _ {n}), 0 \} \sum_ {i = 1} ^ {n} P (s, T _ {i})
+\max \{w_{K} - w (s, T_{n}), 0 \} \sum_{i = 1}^{n} P (s, T_{i})
 
 $$
 
@@ -310,14 +310,14 @@ Industry uses the Black (which is same as Black-Scholes) model for swaptions. We
 
 $$
 
-\begin{array}{l} C = \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {s} r (u)\right) \max \{w (s, T _ {n}) - w _ {K}, 0 \} \sum_ {i = 1} ^ {n} P (s, T _ {i}) \right] \\ = P (t, s) \tilde {\mathbb {E}} _ {t} ^ {(s)} \left[ \max  \left\{w \left(s, T _ {n}\right) - w _ {K}, 0 \right\} \sum_ {i = 1} ^ {n} P \left(s, T _ {i}\right) \right] \tag {5.3} \\ = P (t, s) \left[ \bar {w} (s, T _ {n}) N (d _ {+}) - P (t, s) w _ {K} N (d _ {-}) \right] \sum_ {i = 1} ^ {n} \Psi (t, s, T _ {i}) \\ \end{array}
+\begin{array}{l} C = \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{s} r (u)\right) \max \{w (s, T_{n}) - w_{K}, 0 \} \sum_{i = 1}^{n} P (s, T_{i}) \right] \\ = P (t, s) \tilde {\mathbb {E}}_{t}^{(s)} \left[ \max  \left\{w \left(s, T_{n}\right) - w_{K}, 0 \right\} \sum_{i = 1}^{n} P \left(s, T_{i}\right) \right] \tag {5.3} \\ = P (t, s) \left[ \bar {w} (s, T_{n}) N (d_{+}) - P (t, s) w_{K} N (d_{-}) \right] \sum_{i = 1}^{n} \Psi (t, s, T_{i}) \\ \end{array}
 
 $$ where
 
 
 $$
 
-\begin{array}{l} d _ {\pm} = \frac {\ln \bar {w} (s , T _ {n}) - \ln w _ {K}}{\sqrt {v (t , s , T _ {n})}} \pm \frac {1}{2} v (t, s, T _ {n}) \\ v ^ {2} (t, s, T _ {n}) = \mathbb {V} [ \ln w (s, T _ {n}) ] \\ \end{array}
+\begin{array}{l} d_{\pm} = \frac{\ln \bar {w} (s , T_{n}) - \ln w_{K}}{\sqrt{v (t , s , T_{n})}} \pm \frac{1}{2} v (t, s, T_{n}) \\ v^{2} (t, s, T_{n}) = \mathbb {V} [ \ln w (s, T_{n}) ] \\ \end{array}
 
 $$
 
@@ -355,7 +355,7 @@ A more correct way to evaluate swaptions is to model them via options on coupon 
 
 $$
 
-\begin{array}{l} C = \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {s} r (u)\right) \max \{w (s, T _ {n}) - w _ {K}, 0 \} \sum_ {i = 1} ^ {n} P (s, T _ {i}) \right] \\ = \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {s} r (u)\right) \max  \{1 - \Pi (s, \underline {{T}}, w _ {K}), 0 \} \right] \tag {5.4} \\ \end{array}
+\begin{array}{l} C = \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{s} r (u)\right) \max \{w (s, T_{n}) - w_{K}, 0 \} \sum_{i = 1}^{n} P (s, T_{i}) \right] \\ = \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{s} r (u)\right) \max  \{1 - \Pi (s, \underline {{T}}, w_{K}), 0 \} \right] \tag {5.4} \\ \end{array}
 
 $$
 
@@ -414,7 +414,7 @@ $$
 $$
 
 $$
-0. 3 0 1 1 = \frac {0 . 8 2 7 8 \times 0 . 0 7 5 1 3 + 0 . 7 6 8 6 \times 0 . 0 7 7 0 2}{0 . 7 6 8 6}
+0. 3 0 1 1 = \frac{0 . 8 2 7 8 \times 0 . 0 7 5 1 3 + 0 . 7 6 8 6 \times 0 . 0 7 7 0 2}{0 . 7 6 8 6}
 $$
 
 Following the same calculation, we can obtain ZCS for all tenors as follows: disc fact fwd ZCS
@@ -450,7 +450,7 @@ CDS: https://stats.bis.org/statx/srs/table/d5.2
 
 An OIS, or Overnight Index Swap, is an interest rate swap whose floating leg payments are calculated as a geometric average of the daily fixings of some underlying  $\mathrm{O} / \mathrm{N}$  (overnight) or  $\mathrm{T} / \mathrm{N}$  (tomorrow next index (these indices are generally volume-weighted averages of reported daily transactions). The annualized floating leg rate is defined as
 
-$$ c ^ {\mathrm {f t}} (t, n) = \frac {\prod_ {i = 1} ^ {n} \left(1 + r _ {i} \delta (1)\right) - 1}{\delta (n)}
+$$ c^{\mathrm{ft}} (t, n) = \frac{\prod_{i = 1}^{n} \left(1 + r_{i} \delta (1)\right) - 1}{\delta (n)}
 $$ where  $n$  is the number of days from the first fixing day of the coupon period,  $r$  is the value of the underlying index at time  $t$ , and  $\delta(\cdot)$  is the year fraction according to an appropriate day count convention.
 
 
@@ -473,7 +473,7 @@ The first thing we can do is calculate the value of the floating leg of the cont
 
 $$
 
-\begin{array}{l} \left[ \left(1 + 0.736 \% \times \frac {1}{360}\right) \left(1 + 0.733 \% \times \frac {1}{360}\right) \left(1 + 0.735 \% \times \frac {1}{360}\right) ^ {2} - 1 \right] \div \left(\frac {4}{360}\right) \\ = 0.734773 \% \\ \end{array}
+\begin{array}{l} \left[ \left(1 + 0.736 \% \times \frac{1}{360}\right) \left(1 + 0.733 \% \times \frac{1}{360}\right) \left(1 + 0.735 \% \times \frac{1}{360}\right)^{2} - 1 \right] \div \left(\frac{4}{360}\right) \\ = 0.734773 \% \\ \end{array}
 
 $$ which is £734,773 and is exchanged for the fixed leg payment of £740,000.
 
@@ -494,12 +494,12 @@ OIS is based on swaps of a fixed interest rate versus a floating rate that is ca
 
 $$
 
-0 = \mathrm {N P V} = P (t, T) \times w (t, T) \times \frac {\mathrm {d a y s} (t , T)}{3 6 0} - P (t, T) \times \left(\prod_ {i = 0} ^ {n - 1} \left(1 + \frac {r _ {i}}{3 6 0}\right) - 1\right)
+0 = \mathrm{NP V} = P (t, T) \times w (t, T) \times \frac{\mathrm{da ys} (t , T)}{3 6 0} - P (t, T) \times \left(\prod_{i = 0}^{n - 1} \left(1 + \frac{r_{i}}{3 6 0}\right) - 1\right)
 
 $$ where  $w(t,T)$  is the fixed swap rate for maturity  $T$ ,  $r_i$  is the daily Fed Funds rate for day  $i$ ,  $n$  is the total number of days, and
 
 $$
-T - t = \frac {n}{\mathrm {d a y s p e r y e a r}}
+T - t = \frac{n}{\mathrm{da ys pe ry ea r}}
 $$
 
 Given a set of market input quotes for swaps with  $\mathrm{NPV} = 0$ , one can calculate the discount function for all of the maturity dates associated with the market quotes.
@@ -521,7 +521,7 @@ The standard U.S. LIBOR curve methodology builds a forward rate curve for 3-mont
 A basis swap is a swap of two different LIBOR floating rates in which one leg is based on 3-month LIBOR and one of the legs includes a spread. The other LIBOR floating rate can be 1-month LIBOR, 6-month LIBOR, or 12-month LIBOR. The maturities for these swaps range from 1 year to 30 years. The swap valuation for a swap of 1-month LIBOR versus 3-month LIBOR, with a maturity of N years, is based on the following formula.
 
 $$
-\begin{array}{l} \mathrm {N P V} = \sum_ {i = 1} ^ {1 2 n} P (t, T _ {i}) \times \left(f (t, T _ {i - 1}, T _ {i}) + s _ {1 m, n}\right) \times \left(\frac {\operatorname {d a y s} \left(T _ {i - 1} , T _ {i}\right)}{3 6 0}\right) \\ - \sum_ {j = 1} ^ {4 m} P (t, T _ {j}) \times f (t, T _ {j - 1}, T _ {j}) \times \left(\frac {\operatorname {d a y s} \left(T _ {j - 1} , T _ {j}\right)}{3 6 0}\right) \\ \end{array}
+\begin{array}{l} \mathrm{NP V} = \sum_{i = 1}^{1 2 n} P (t, T_{i}) \times \left(f (t, T_{i - 1}, T_{i}) + s_{1 m, n}\right) \times \left(\frac{\operatorname{da ys} \left(T_{i - 1} , T_{i}\right)}{3 6 0}\right) \\ - \sum_{j = 1}^{4 m} P (t, T_{j}) \times f (t, T_{j - 1}, T_{j}) \times \left(\frac{\operatorname{da ys} \left(T_{j - 1} , T_{j}\right)}{3 6 0}\right) \\ \end{array}
 $$ where  $f(t, T_{i-1}, T_i)$  is the forward 1-month LIBOR (since  $T_i - T_{i-1} = 1m$  and  $s_{1m,N}$  is the spread associated with the basis swap for 1-month LIBOR with maturity  $T_{12n}$  or  $T_{4m}$ ). The discount function for these swaps is the OIS discount function. The 3-month LIBOR forward rates are taken from the 3-month LIBOR forward rate curve, which is built prior to building the additional LIBOR forward rate curves from basis swaps.
 
 
@@ -535,7 +535,7 @@ At inception, the two legs must have the same value:
 
 $$
 
-V _ {\mathrm {f x}} = V _ {\mathrm {f t}}
+V_{\mathrm{fx}} = V_{\mathrm{ft}}
 
 $$
 
@@ -543,20 +543,20 @@ The fixed leg is an annuity of the swap rate and the floating leg is the discoun
 
 $$
 
-\sum_ {i = 1} ^ {2 n} w (t, T _ {2 n}) \hat {\mathbb {E}} \left[ \exp \left(- \int_ {t} ^ {T _ {i}} r (u) d u\right) \right] = \sum_ {j = 1} ^ {4 m} \hat {\mathbb {E}} \left[ \exp \left(- \int_ {t} ^ {T _ {j}} r (u) d u\right) L (T _ {j}, T _ {j} + 1 / 4) \right]
+\sum_{i = 1}^{2 n} w (t, T_{2 n}) \hat {\mathbb {E}} \left[ \exp \left(- \int_{t}^{T_{i}} r (u) d u\right) \right] = \sum_{j = 1}^{4 m} \hat {\mathbb {E}} \left[ \exp \left(- \int_{t}^{T_{j}} r (u) d u\right) L (T_{j}, T_{j} + 1 / 4) \right]
 
 $$ where  $T_{4m} = T_{2n}$ . Hence, we can solve for the fixed swap rate as:
 
-$$ w (t, T _ {2 n}) \sum_ {i = 1} ^ {2 n} P (t, T _ {i}) = \sum_ {j = 1} ^ {4 m} P (t, T _ {j}) f (t, T _ {j}, T _ {j} + \frac {1}{4})
+$$ w (t, T_{2 n}) \sum_{i = 1}^{2 n} P (t, T_{i}) = \sum_{j = 1}^{4 m} P (t, T_{j}) f (t, T_{j}, T_{j} + \frac{1}{4})
 $$
 
-$$ w (t, T _ {2 n}) = \frac {\sum_ {j = 1} ^ {4 m} P (t , T _ {j}) f (t , T _ {j} , T _ {j} + \frac {1}{4})}{\sum_ {i = 1} ^ {2 n} P (t , T _ {i})}
+$$ w (t, T_{2 n}) = \frac{\sum_{j = 1}^{4 m} P (t , T_{j}) f (t , T_{j} , T_{j} + \frac{1}{4})}{\sum_{i = 1}^{2 n} P (t , T_{i})}
 $$
 
 It is worth noting that now the swap rate is no longer the weighted average of forward rates in that the numerator has  $4m$  terms and the denominator has only  $2n$  terms. Yet, note that the numerator, no matter what frequency, can always be simplified into two terminal terms:
 
 $$
-\begin{array}{l} \sum_ {j = 1} ^ {4 m} P (t, T _ {j}) f (t, T _ {j}, T _ {j} + 1 / 4) = \sum_ {j = 1} ^ {4 m} P (t, T _ {j}) \left(\frac {P (t , T _ {j - 1})}{P (t , T _ {j})} - 1\right) \\ = \sum_ {j = 1} ^ {4 m} P (t, T _ {j - 1}) - P (t, T _ {j}) \\ = 1 - P (t, T _ {4 m}) \\ \end{array}
+\begin{array}{l} \sum_{j = 1}^{4 m} P (t, T_{j}) f (t, T_{j}, T_{j} + 1 / 4) = \sum_{j = 1}^{4 m} P (t, T_{j}) \left(\frac{P (t , T_{j - 1})}{P (t , T_{j})} - 1\right) \\ = \sum_{j = 1}^{4 m} P (t, T_{j - 1}) - P (t, T_{j}) \\ = 1 - P (t, T_{4 m}) \\ \end{array}
 $$ where we recognize that  $P(t,T_0) = P(t,t) = 1$ . Note that  $P(t,T_{4m}) = P(t,T_{2n})$ .
 
 
@@ -566,7 +566,7 @@ Let  $K$  be the notional of the ZCS. Then similar to the regular IRS, we set th
 
 $$
 
-\begin{array}{l} 0 = \hat {\mathbb {E}} _ {t} \left[ \sum_ {i = 1} ^ {n} \exp \left(- \int_ {t} ^ {T _ {i}} r (u) d u\right) \ell \left(T _ {i - 1}, T _ {i}\right) \right] - \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {T _ {n}} r (u) d u\right) K \right] \\ = \sum_ {i = 1} ^ {n} P (t, T _ {i}) f (t, T _ {i - 1}, T _ {i}) - K P (t, T _ {n}) \\ \end{array}
+\begin{array}{l} 0 = \hat {\mathbb {E}}_{t} \left[ \sum_{i = 1}^{n} \exp \left(- \int_{t}^{T_{i}} r (u) d u\right) \ell \left(T_{i - 1}, T_{i}\right) \right] - \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{T_{n}} r (u) d u\right) K \right] \\ = \sum_{i = 1}^{n} P (t, T_{i}) f (t, T_{i - 1}, T_{i}) - K P (t, T_{n}) \\ \end{array}
 
 $$
 
@@ -574,7 +574,7 @@ Solving for the face value  $K$ :
 
 $$
 
-\begin{array}{l} K = \frac {\sum_ {i = 1} ^ {n} P (t , T _ {i}) f (t , T _ {i - 1} , T _ {i})}{P (t , T _ {n})} \\ = \frac {1 - P (t , T _ {n})}{P (t , T _ {n})} \\ \end{array}
+\begin{array}{l} K = \frac{\sum_{i = 1}^{n} P (t , T_{i}) f (t , T_{i - 1} , T_{i})}{P (t , T_{n})} \\ = \frac{1 - P (t , T_{n})}{P (t , T_{n})} \\ \end{array}
 
 $$
 

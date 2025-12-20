@@ -153,15 +153,15 @@ On account of the tax savings from debt, firm value  $\Pi(R)$  is increasing in 
 Proposition 1 The value-maximizing face value of public debt,  $R^{*}$ , is given as follows:
 
 $$
-R ^ {*} = 2 \text {i f} t <   \min  \left\{\frac {G + B}{3}, \frac {u G + (1 - u) B}{2} \right\}.
+R^{*} = 2 \text{if } t <   \min  \left\{\frac{G + B}{3}, \frac{u G + (1 - u) B}{2} \right\}.
 $$
 
 $$
-R ^ {*} = 3 \text {i f} t > \frac {u G + (1 - u) B}{2} \text {a n d} t <   u B + (1 - u) G.
+R^{*} = 3 \text{if } t > \frac{u G + (1 - u) B}{2} \text{an d} t <   u B + (1 - u) G.
 $$
 
 $$
-R ^ {*} = 4 \text {i f} t > \max  \left\{\frac {G + B}{3}, u B + (1 - u) G \right\}.
+R^{*} = 4 \text{if } t > \max  \left\{\frac{G + B}{3}, u B + (1 - u) G \right\}.
 $$
 
 Proof: See Appendix.
@@ -223,7 +223,7 @@ If  $\theta < \min\{t, G\}$ , then bank debt is best for all values of  $u$ . If
 The choice between public and bank debt depends on  $u$  if  $\theta < \min \{G, 3t - B\}$  and  $\theta$  satisfies  $t + G - B > \theta > t$  (this last condition is equivalent to  $[\theta - t] / [G - B] \in (0,1)$ ). In this case, bank debt is preferred if  $u \geq u^*$  and public debt preferred for  $u < u^*$ , where the value of  $u^*$  is given by
 
 $$
-u ^ {*} = \frac {\theta - t}{G - B} = \frac {1 0 z + g - 2 k _ {q} - t}{G - B}.
+u^{*} = \frac{\theta - t}{G - B} = \frac{1 0 z + g - 2 k_{q} - t}{G - B}.
 $$
 
 Proof: See Appendix.
@@ -264,15 +264,15 @@ The date-0 value of a levered firm with public debt level  $R$  is the value of 
 The optimal face value is at least two, because  $t > 0$  and  $B < 0$  imply that  $\Pi(R)$  is strictly increasing up to  $R = 2$ . The optimal value,  $R^{*} \in \{2,3,4\}$ , because  $t > 0$  implies that  $\Pi(R)$  is strictly increasing for  $R \in (2,3]$  and  $R \in (3,4]$ . Finding the optimal value then involves comparing date-0 firm value,  $\Pi(R)$ , at these three values. The comparisons are as follows:
 
 $$
-\Pi (2) \geq \Pi (4) \text {i f f} G \geq 3 t - B, \text {o r} t \leq (G + B) / 3.
+\Pi (2) \geq \Pi (4) \text{if f} G \geq 3 t - B, \text{or} t \leq (G + B) / 3.
 $$
 
 $$
-\Pi (2) \geq \Pi (3) \text {i f f} t \leq 1 / 2 [ u \cdot G + (1 - u) \cdot B ].
+\Pi (2) \geq \Pi (3) \text{if f} t \leq 1 / 2 [ u \cdot G + (1 - u) \cdot B ].
 $$
 
 $$
-\Pi (3) \geq \Pi (4) \text {i f f} t \leq u \cdot B + (1 - u) \cdot G.
+\Pi (3) \geq \Pi (4) \text{if f} t \leq u \cdot B + (1 - u) \cdot G.
 $$
 
 The optimal value is  $R^{*} = 2$  if  $\Pi(2) \geq \Pi(4)$  and  $\Pi(2) \geq \Pi(3)$ , or  $t \leq \min \{(G + B)/3, \frac{1}{2}[u \cdot G + (1 - u) \cdot B]\}$ .

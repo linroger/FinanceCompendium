@@ -505,13 +505,13 @@ We then estimate seasonal components in inflation from the monthly nonseasonally
 the CPI index on month dummies. More specifically,
 
 $$
-\Delta C P I _ {t} \equiv \log \left(\frac {C P I _ {t}}{C P I _ {t - 1}}\right) = \sum_ {i = 1} ^ {1 2} \beta_ {i} d _ {i} + \varepsilon_ {i}, \tag {A1}
+\Delta C P I_{t} \equiv \log \left(\frac{C P I_{t}}{C P I_{t - 1}}\right) = \sum_{i = 1}^{1 2} \beta_{i} d_{i} + \varepsilon_{i}, \tag {A1}
 $$
 
 where  $t$  is measured in months. The month dummies  $d_{i}$ ,  $i = 1,2,\ldots ,12$ , are defined as
 
 $$
-d _ {i} = \left\{ \begin{array}{l} 1, f o r m o n t h i, \\ 0, o t h e r w i s e, \end{array} \right.
+d_{i} = \left\{ \begin{array}{l} 1, f o r m o n t h i, \\ 0, o t h e r w i s e, \end{array} \right.
 $$
 
 and  $d_{1} = \text{January}, d_{2} = \text{February}, \ldots, d_{12} = \text{December}$ . We obtain an estimate of the seasonal effect in month  $i$  by subtracting the average of the coefficients  $\hat{\beta} = \frac{1}{12}\sum \hat{\beta}_{i}$  from the estimated coefficients  $\hat{\beta}_{i}, i = 1, 2, \ldots, 12$ . Let this estimate be denoted by  $\hat{b}_{i} = \hat{\beta}_{i} - \bar{\beta}, i = 1, 2, \ldots, 12$ .

@@ -72,13 +72,13 @@ While it is true that a bank's cost of deposits is less than its cost of equity,
 10. The formula is from M&M and is:
 
 $$
-r _ {\mathrm {c}} = r _ {\mathrm {u}} + \left[ r _ {\mathrm {u}} - r _ {\mathrm {d}} \right] [ 1 - T ] \left[ D / V _ {S} \right]
+r_{\mathrm{c}} = r_{\mathrm{u}} + \left[ r_{\mathrm{u}} - r_{\mathrm{d}} \right] [ 1 - T ] \left[ D / V_{S} \right]
 $$
 
 where  $r_{\mathrm{e}}$  is the levered equity cost of capital,  $r_{\mathrm{u}}$  is the unlevered equity cost of capital,  $r_{\mathrm{d}}$  is the (pre-tax) cost of debt,  $T$  is the tax rate, and  $D / V_{S}$  is the debt-equity ratio in market value terms, that is,  $V_{S}$  the market value of the bank's equity (e.g., stock price  $\times \#$  of shares). Thus, for bank A, we have:
 
 $$
-r _ {\mathrm {e}} = 0. 1 0 + [ 0. 1 0 - 0. 0 5 ] \left[ D / V _ {s} \right]
+r_{\mathrm{e}} = 0. 1 0 + [ 0. 1 0 - 0. 0 5 ] \left[ D / V_{s} \right]
 $$
 
 and since  $V_{S} = \left[r_{L}L - r_{D}D\right] / r_{e}$ , where  $r_{L} =$  loan rate, we have  $V_{S} = \{[0.10\times 100] - [0.05\times 90]\} /r_{e} = 5.5 / r_{e}$ , and substituting this in the expression for  $r_e$  yields:  $r_{\mathrm{e}} = 0.10 + [0.05][90r_{\mathrm{e}} / 5.5]$ . This yields  $r_{\mathrm{e}} = 55\%$ . The  $r_{\mathrm{e}}$  for bank B can be derived similarly.
@@ -181,7 +181,7 @@ So the borrower prefers project N. But we know that the bank would never finance
 We begin by noting that, due to the tax deductibility of payments on debt, the bank will wish to choose the maximum leverage that is consistent with satisfying the incentive compatibility and participation constraints of the problem. So, what is the maximum amount of deposits the bank can finance with, while still making it profitable for the bank to monitor the borrower? Let  $D$  be this deposit level. Then to raise  $D$  at  $t = 0$ , the bank must promise the (uninsured) depositors an amount  $D[1.01] / 0.9$  at  $t = 1$  since the expected present value of this is
 
 $$
-\frac {0 . 9}{1 . 0 1} \left[ \frac {D [ 1 . 0 1 ]}{0 . 9} \right] = D \tag {13.3}
+\frac{0 . 9}{1 . 0 1} \left[ \frac{D [ 1 . 0 1 ]}{0 . 9} \right] = D \tag {13.3}
 $$
 
 In writing Equation (13.3), we are taking the expected value of  $D[1.01] / 0.9$  by multiplying it with the repayment probability of 0.9, and then discounting it back at the riskless rate of  $1\%$  for one period.
@@ -189,13 +189,13 @@ In writing Equation (13.3), we are taking the expected value of  $D[1.01] / 0.9$
 Thus,  $D$  can be obtained by solving:
 
 $$
-0. 9 \left[ 1 3 0 - \frac {D [ 1 . 0 1 ]}{0 . 9} \right] [ 1 - 0. 3 ] - 6 \geq 0. 6 \left[ 1 3 0 - D \frac {[ 1 . 0 1 ]}{0 . 9} \right] [ 1 - 0. 3 ] \tag {13.4}
+0. 9 \left[ 1 3 0 - \frac{D [ 1 . 0 1 ]}{0 . 9} \right] [ 1 - 0. 3 ] - 6 \geq 0. 6 \left[ 1 3 0 - D \frac{[ 1 . 0 1 ]}{0 . 9} \right] [ 1 - 0. 3 ] \tag {13.4}
 $$
 
 The LHS of Equation (13.4) has the expected value of the bank's pretax income, which is
 
 $$
-0. 9 \bigg [ 1 3 0 - \frac {D [ 1 . 0 1 ]}{0 . 9} \bigg ],
+0. 9 \bigg [ 1 3 0 - \frac{D [ 1 . 0 1 ]}{0 . 9} \bigg ],
 $$
 
 since the borrowers repays the bank w.p. 0.9 an amount  \$130, and in this case the bank repays depositors D[1.01]/0.9. If the borrower defaults, then by limited liability, the bank does not repay its depositors anything either. This pretax income in the state in which the borrower repays the bank is then multiplied by [1 - 0.3], where 0.3 is the tax rate, in order to arrive at the bank's net income. From this, the monitoring cost of\$ 6 (to ensure choice of project G by the borrower) is subtracted.
@@ -211,13 +211,13 @@ If \(D > \\)90.38\( the RHS of Equation (13.4) will exceed the LHS of Equation (
 This means that the bank's optimal capital structure will be  \$9.62 in equity (for a capital ratio in book value terms of \(9.63\%$ ) and \)90.38 in deposits. The depositors receive an expected return of exactly  $1\%$ . The borrower's NPV is:
 
 $$
-\frac {0 . 9 [ 1 5 0 - 1 3 0 ]}{1 . 0 1} = \$ 1 7. 8 2
+\frac{0 . 9 [ 1 5 0 - 1 3 0 ]}{1 . 0 1} = \$ 1 7. 8 2
 $$
 
 and the bank's shareholders enjoy an NPV of:
 
 $$
-0. 9 \left[ 1 3 0 - \frac {9 0 . 3 8 [ 1 . 0 1 ]}{0 . 9} \right] [ 1 - 0. 3 ] - 6 = \$ 1 2
+0. 9 \left[ 1 3 0 - \frac{9 0 . 3 8 [ 1 . 0 1 ]}{0 . 9} \right] [ 1 - 0. 3 ] - 6 = \$ 1 2
 $$
 
 This example shows how we can arrive at an optimal structure for the bank by ensuring that there is enough capital in the bank to make it in the best interest of the bank to monitor the borrower. A key aspect of the example is that deposits are uninsured and there is no possibility of a bailout of the bank by the government, so deposit pricing accurately reflects risk. If either of these conditions is violated, the pricing of deposits will become insensitive to the bank's risk, and the bank's privately optimal capital structure will involve more leverage. In fact, these government safety nets may provide the best explanation for why banks are so much more highly levered than nonfinancial firms.

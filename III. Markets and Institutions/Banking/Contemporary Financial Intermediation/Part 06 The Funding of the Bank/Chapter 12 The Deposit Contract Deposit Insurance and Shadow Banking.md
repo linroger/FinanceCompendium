@@ -150,7 +150,7 @@ The question now is: Can it be a Nash equilibrium for no type- $D_1$  depositor 
 Now, if you do monitor, and discover that the bank chose project A, what should you do? If you do nothing (i.e., you do not withdraw your deposit), your expected payoff at  $t = 1$  is
 
 $$
-\begin{array}{c} 0. 7 \times \\ \uparrow \\ \text {y o u r m o n i t i o n g c o s t} \end{array}
+\begin{array}{c} 0. 7 \times \\ \uparrow \\ \text{yo ur mo ni ti on gc os t} \end{array}
 $$
 
 If you withdraw, you know that the bank will be forced to liquidate its asset portfolio since it has only \$5 in cash reserves and there are five type-D2 depositors who will withdraw at t = 1/2 for liquidity purposes. Liquidation will fetch \$25, so that the bank will have a total of \$30 to disburse. You are sure to receive your \$1 at t = 1/2. Thus, your payoff will be
@@ -194,7 +194,7 @@ The next step is to examine the strategy of a type- $D_1$  depositor when he kno
 Assuming that each person who goes to the bank will have an equal probability of being one of the first 30, the probability is  $30 / 35$  that you will be one of the first 30 withdrawals. In this case, your expected payoff is only  $\frac{30}{35} \times \$1 = \$0.8571$ , since you get nothing if you are not one of the first 30 in line. Thus, your overall expected payoff from monitoring is given by
 
 $$
-\begin{array}{c} 0. 9 \times \\ [ 1. 1 2 + 0. 1 \times \\ ] - \\ [ 0. 8 5 7 1 - \\ ] \quad \uparrow \\ \text {M o n i t r o r i n g c o s t} \end{array}
+\begin{array}{c} 0. 9 \times \\ [ 1. 1 2 + 0. 1 \times \\ ] - \\ [ 0. 8 5 7 1 - \\ ] \quad \uparrow \\ \text{Mo ni tr or in gc os t} \end{array}
 $$
 
 If you decide not to monitor, then you are behaving like a type- $\mathbf{D}_2$  depositor. Your expected payoff will be \$1.12 if the other type- $\mathbf{D}_1$  depositors discover that project B was chosen (the probability of this is 0.9), and it will be zero if they discover that project A was chosen and decide to liquidate the bank at  $t = 1/2$  (the probability of this is 0.1). Hence, your overall expected payoff from not monitoring is
@@ -206,7 +206,7 @@ $$
 Another possible strategy is for you to behave like a liquidity-motivated type- $D_2$  depositor and withdraw your deposit at  $t = 1/2$  without monitoring. In this case, you recognize that there is a 0.9 probability that the other type- $D_1$  depositors will not withdraw and a 0.1 probability that they will. If the other type-D1 depositors do not withdraw, there are only six depositors in all (including you) who wish to withdraw at  $t = 1/2$ . The bank will be forced to liquidate, and you will receive your \$1 for sure. If the other type- $D_1$  depositors withdraw, the bank will also liquidate, and you will have a 30/35 chance of getting your \$1. Thus, your expected payoff from withdrawing without monitoring is
 
 $$
-0. 9 \times 1 \times \$ 1 + 0. 1 \times \frac {3 0}{3 5} \times \$ 1 = \$ 0. 9 0 8 6.
+0. 9 \times 1 \times \$ 1 + 0. 1 \times \frac{3 0}{3 5} \times \$ 1 = \$ 0. 9 0 8 6.
 $$
 
 Comparing the three payoffs ( $1.0837,$ 1.008, and \$0.9086), we see that your best strategy is to monitor. Hence, it is a Nash equilibrium for all the type- $D_{1}$  depositors to monitor the bank, and for the bank to choose project B.
@@ -310,13 +310,13 @@ How do you preclude the bad Nash equilibrium? One way is to provide deposit insu
 Suppose there are 100 risk-averse individuals, each with  \$1 to invest in a project at \(t = 0\$ . The project will yield \)1 if liquidated at  $t = 1$  and \$2.25 if liquidated at  $t = 2$ . At  $t = 0$ , no individual knows what his "type" (denoting his consumption preference) will be at  $t = 1$ . If the individual turns out to be a "dier" (type D), then his utility function for consumption will be
 
 $$
-U _ {D} = \sqrt {C _ {1} ^ {D}}.
+U_{D} = \sqrt{C_{1}^{D}}.
 $$
 
 If he turns out to be a "liver" (type L), then his utility function for consumption will be
 
 $$
-U _ {\mathrm {L}} = 0. 6 \sqrt {C _ {1} ^ {\mathrm {L}} + C _ {2} ^ {\mathrm {L}}}.
+U_{\mathrm{L}} = 0. 6 \sqrt{C_{1}^{\mathrm{L}} + C_{2}^{\mathrm{L}}}.
 $$
 
 These utility functions capture the idea that the dier benefits from consumption at  $t = 1$  only, and the liver is indifferent between consuming at  $t = 1$  or  $t = 2$  (he gets equal utility from each) so that he will prefer the higher of the two consumptions. It is known
@@ -332,7 +332,7 @@ We will solve this problem in six steps. First, we calculate each individual's e
 Consider first the nonintermediated situation. Let us assume, for simplicity, that the diers/livers fractions (0.4 and 0.6) can be viewed as subjective probability assessments of all individuals at \( t = 0 \). Then each individual believes that he faces a 0.4 chance of being of type-D at \( t = 1 \) and a 0.6 chance of being of type-L. In the nonintermediated case, \( [C_1^{\mathrm{D}} = 1, C_2^{\mathrm{D}} = 0] \), and \( [C_1^{\mathrm{L}} = 0, C_2^{\mathrm{L}} = R = \\(2.25] \). Hence, each individual's expected utility will be
 
 $$
-\begin{array}{l} \mathsf {E} (\mathsf {U}) = 0. 4 \times \sqrt {1 0} + 0. 6 \times 0. 6 \times \sqrt {2 . 2 5} \\ = 0. 9 4 0 0. \\ \end{array}
+\begin{array}{l} \mathsf {E} (\mathsf {U}) = 0. 4 \times \sqrt{1 0} + 0. 6 \times 0. 6 \times \sqrt{2 . 2 5} \\ = 0. 9 4 0 0. \\ \end{array}
 $$
 
 # Step 2
@@ -340,7 +340,7 @@ $$
 Now consider a bank, owned by its 100 depositors. It provides insurance against depositor preference shocks with a demand deposit offering \( C_1^* > \\(1 \) and \( C_2^* < \\)R \) (where asterisks denote firstand second-period consumptions in the intermediated case), with the stipulation that \( C_1^* \) and \( C_2^* \) are mutually exclusive. For example, suppose the bank announces at \( t = 0 \) that \( C_1^* = \\)1.1 \). Then, with 40 depositors withdrawing at \( t = 1 \), the bank will need to pay out \( \\(44 \), and this requires premature liquidations of 44 projects. The remaining 56 projects will yield a total payoff of \( 56 \times \\)2.25 = \$126 \) at \( t = 2 \). The bank will be able to promise each of the 60 depositors withdrawing at \( t = 2 \) an amount \( C_2^* = \\(126/60 = \\)2.1 \). The expected utility of a depositor at \( t = 0 \) will be
 
 $$
-\begin{array}{l} E ^ {*} (\cup) = 0. 4 \times \sqrt {1 . 1} + 0. 6 \times 0. 6 \times \sqrt {2 . 1} \\ = 0. 9 4 1 2. \\ \end{array}
+\begin{array}{l} E^{*} (\cup) = 0. 4 \times \sqrt{1 . 1} + 0. 6 \times 0. 6 \times \sqrt{2 . 1} \\ = 0. 9 4 1 2. \\ \end{array}
 $$
 
 Hence, every individual is made better off by the bank that provides consumption smoothing.
@@ -350,13 +350,13 @@ Hence, every individual is made better off by the bank that provides consumption
 The Step-2 outcome is a Nash equilibrium among depositors. Each type-D depositor's Nash equilibrium strategy is to withdraw at  $t = 1$  since that gives him his highest utility (his utility from consumption at  $t = 2$  is zero). If each type-L depositor takes as given the Nash equilibrium strategy of the other type-L depositors (to wait until  $t = 2$  to withdraw), then no type-L depositor can do better by withdrawing at  $t = 1$ . This is because withdrawal at  $t = 2$  gives a type-L a utility of
 
 $$
-0. 6 \times \sqrt {2 . 1} = 0. 8 6 9 5 \text {w h e r e a s}
+0. 6 \times \sqrt{2 . 1} = 0. 8 6 9 5 \text{wh er ea s}
 $$
 
 withdrawal at  $t = 1$  gives a utility of
 
 $$
-0. 6 \times \sqrt {1 . 1} = 0. 6 2 9 3.
+0. 6 \times \sqrt{1 . 1} = 0. 6 2 9 3.
 $$
 
 Thus, a Nash equilibrium is needed for all type-D depositors to withdraw at  $t = 1$  and all type-L depositors to wait until  $t = 2$ .
@@ -445,7 +445,7 @@ or negative (when  $V <   B$
 The effect of deposit insurance is to create an additional cash inflow to the firm of  $-\mathrm{Min}[0, V - B]$  dollars. But  $-\mathrm{Min}[0, V - B]$  can also be written as  $\mathrm{Max}[0, B - V]$ . Hence, if  $G(T)$  is the value to the firm of the deposit insurance guarantee when the length of time remaining to maturity of the deposits is  $T$ , then on the date of maturity,
 
 $$
-G (0) = \operatorname {M a x} [ 0, B - V ]. \tag {12.1}
+G (0) = \operatorname{Ma x} [ 0, B - V ]. \tag {12.1}
 $$
 
 You will recall now from our discussions of options in Chapters 1 and 10 that the payoff structure in Equation (12.1) is identical to that of a put option at expiration. To see this, imagine that  $V$  is the (random) value of the underlying security on which the option is written, and  $B$  is the exercise (or strike) price. Then, as the owner of the put, you will exercise your option to sell the security to the option writer at  $\\(B$  if the value of the security,  $V$ , is less than  $B$ . In this case, your gain from exercising the option will be  $\$ B - V \). On the other hand, if  $B < V$ , then you will let the option expire unexercised, and your gain will be zero.
@@ -455,17 +455,17 @@ You will recall now from our discussions of options in Chapters 1 and 10 that th
 In other words, when the FDIC insures a bank's deposits, it is writing a put option in favor of the bank. The cost to the FDIC of providing this insurance is simply the value of the put option. We can calculate this value using the option pricing formula developed by Black and Scholes (1973):
 
 $$
-G (T) = B e ^ {- r T} \Phi \left(x _ {2}\right) - V \Phi \left(x _ {1}\right) \tag {12.2}
+G (T) = B e^{- r T} \Phi \left(x_{2}\right) - V \Phi \left(x_{1}\right) \tag {12.2}
 $$
 
 where
 
 $$
-x _ {1} \equiv \frac {\log (B / V) - \left[ r + \frac {\sigma^ {2}}{2} \right] T}{\sigma \sqrt {T}}
+x_{1} \equiv \frac{\log (B / V) - \left[ r + \frac{\sigma^{2}}{2} \right] T}{\sigma \sqrt{T}}
 $$
 
 $$
-x _ {2} \equiv x _ {1} + \sigma \sqrt {T}.
+x_{2} \equiv x_{1} + \sigma \sqrt{T}.
 $$
 
 Here  $r$  is the instantaneous risk-free interest rate,  $\Phi(\cdot)$  is the standard normal cumulative distribution function,  $V$  is the current value of the bank's assets, and  $\sigma^2$  is the variance rate per unit time of the logarithmic changes in the value of the assets. It is assumed that all the Black-Scholes assumptions are satisfied.
@@ -475,21 +475,21 @@ Here  $r$  is the instantaneous risk-free interest rate,  $\Phi(\cdot)$  is the 
 We can also compute the appropriate deposit insurance premium per dollar of deposits. If depositors are promised a repayment of  $B$  at a time,  $T$ , in the future, then the current value of these (riskless) deposits will be
 
 $$
-D = B e ^ {- r T}. \tag {12.3}
+D = B e^{- r T}. \tag {12.3}
 $$
 
 Let  $g = G(T) / D$  be the cost (to the FDIC) of the deposit insurance guarantee per dollar of insured deposits. Then, using Equations (12.2) and (12.3) we can write
 
 $$
-g (d, \tau) = \Phi \left(h _ {2}\right) - \frac {1}{d} \Phi \left(h _ {1}\right) \tag {12.4}
+g (d, \tau) = \Phi \left(h_{2}\right) - \frac{1}{d} \Phi \left(h_{1}\right) \tag {12.4}
 $$
 
 $$
-\text {w h e r e} h _ {1} \equiv \frac {\left[ \log (d) - \frac {\tau}{2} \right]}{\sqrt {\tau}} \tag {12.5}
+\text{wh er e} h_{1} \equiv \frac{\left[ \log (d) - \frac{\tau}{2} \right]}{\sqrt{\tau}} \tag {12.5}
 $$
 
 $$
-h _ {2} \equiv h _ {1} + \sqrt {\tau}. \tag {12.6}
+h_{2} \equiv h_{1} + \sqrt{\tau}. \tag {12.6}
 $$
 
 Here  $d \equiv D / V$  is the current deposit-to-asset value ratio for the bank, and  $\tau \equiv \sigma^2 T$  is the variance of the logarithmic change in the value of the assets during the term of the deposits.
@@ -499,13 +499,13 @@ Here  $d \equiv D / V$  is the current deposit-to-asset value ratio for the bank
 A few points are worth noting. First, an increase in the deposit-to-asset value ratio causes an increase in the cost per dollar of deposit insurance to the FDIC, that is,
 
 $$
-\partial g / \partial d = \Phi \left(h _ {1}\right) / d ^ {2} > 0.
+\partial g / \partial d = \Phi \left(h_{1}\right) / d^{2} > 0.
 $$
 
 Similarly, as  $\tau$  increases, so does the cost of deposit insurance, that is,
 
 $$
-\partial g / \partial \tau = \Phi^ {\prime} \left(h _ {1}\right) / 2 d \sqrt {T} > 0.
+\partial g / \partial \tau = \Phi^{\prime} \left(h_{1}\right) / 2 d \sqrt{T} > 0.
 $$
 
 Here the prime denotes a derivative; hence,  $\Phi'(h_1)$  is the standard normal density function at  $h_1$ . This is a well-known property of options; their value increases with the volatility of the underlying security. Hence, the FDIC should charge a higher deposit insurance premium for banks with lower capital-to-total-assets ratios and higher volatility in the value of total assets. Alternatively, in a regime in which the FDIC charges each bank a fixed premium per dollar of insured deposits, rather than  $g$  (which is a function of  $d$  and  $\tau$ ), banks with higher capital ratios and lower asset risks subsidize those with lower capital ratios and higher asset risks, assuming that the FDIC breaks even on average.
@@ -560,7 +560,7 @@ D-Sample Mean</td><td>F
 In this table, we compute the "sample mean" by adding up the entries in column D and dividing by 6 to obtain  $-0.004038$ . Column E is then obtained by subtracting the sample mean from each entry in column D. Column F is merely each entry in column E squared. Now,
 
 $$
-\begin{array}{l} \sigma^ {2} = \frac {\text {s u m o f a l l e n t r i e s i n c o l u m n F}}{5} \\ = \frac {0 . 0 0 2 1 0 8 2}{5} = 0. 0 0 0 4 2 1 6. \\ \end{array}
+\begin{array}{l} \sigma^{2} = \frac{\text{su mo fa ll en tr ie si nc ol um nF}}{5} \\ = \frac{0 . 0 0 2 1 0 8 2}{5} = 0. 0 0 0 4 2 1 6. \\ \end{array}
 $$
 
 Note that we divide by 5 because we lose one degree of freedom in computing the variance. Now,  $\tau = \sigma^2 T = 0.0004216 \times 12 = 0.005$  approximately. Note that  $T = 12$  since the deposit maturity is 1 year and asset values change monthly.
@@ -570,13 +570,13 @@ Note that we divide by 5 because we lose one degree of freedom in computing the 
 Next, we compute  $\mathrm{h}_1$  using Equation (12.5) as
 
 $$
-\begin{array}{l} h _ {1} = \frac {\log (0 . 9 5) - (0 . 0 0 5 / 2)}{\sqrt {0 . 0 0 5}} \\ = - 0. 7 6 0 7 6 \\ \end{array}
+\begin{array}{l} h_{1} = \frac{\log (0 . 9 5) - (0 . 0 0 5 / 2)}{\sqrt{0 . 0 0 5}} \\ = - 0. 7 6 0 7 6 \\ \end{array}
 $$
 
 and  $h_2$  using Equation (12.6) is
 
 $$
-h _ {2} = - 0. 7 6 0 7 6 + \sqrt {0 . 0 0 5} = - 0. 6 9 0 0 5.
+h_{2} = - 0. 7 6 0 7 6 + \sqrt{0 . 0 0 5} = - 0. 6 9 0 0 5.
 $$
 
 # Step 3
@@ -584,7 +584,7 @@ $$
 Using Equation (12.4), we can now compute  $g$  as
 
 $$
-g = \Phi (- 0. 6 9 0 0 5) - \frac {1}{0 . 9 5} \Phi (- 0. 7 6 0 7 6) \cong 0. 0 0 9 9.
+g = \Phi (- 0. 6 9 0 0 5) - \frac{1}{0 . 9 5} \Phi (- 0. 7 6 0 7 6) \cong 0. 0 0 9 9.
 $$
 
 Thus, the value to the bank of having the deposit insurance guarantee is roughly 99 cents per \$100 of insured deposits. This is much higher than the premia often charged in the past (e.g. 25 cents per \$100 of insured deposits). In Table 12.5, we present calculations for a variety of deposit-to-asset value ratios and values of τ. Note that if we increase d' to 1 and hold τ fixed at 0.005, the value of g rises to $2.82 per $100 of insured deposits. This illustrates the bank's incentive for leverage emanating from deposit insurance. Similarly, if we hold d' fixed at 0.95 and increase τ to 0.006, the value of g rises to $1.209 per $100 of insured deposits. This illustrates the bank's incentive to take on more risky assets.

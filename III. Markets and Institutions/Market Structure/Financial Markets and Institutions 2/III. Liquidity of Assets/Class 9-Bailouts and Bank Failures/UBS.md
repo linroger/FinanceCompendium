@@ -238,7 +238,7 @@ Next, we need a more precise measure of operating income. In this report we will
 We can now combine our metrics for invested capital and operating income and define Return on Net Operating Assets (RNOA), the most important overall driver of operating profitability and therefore intrinsic value:
 
 $$
-R N O A = \frac {N O P A T}{N O A}
+R N O A = \frac{N O P A T}{N O A}
 $$
 
 There are a number of ways in which a company can achieve a high return on its operating assets. It can generate lots of revenue per unit of operating asset but at low profit margins, it can generate little revenue per unit of operating asset but at high profit margins, or it can operate anywhere in between. That is why, from a forecasting perspective, it is both intuitive and useful to decompose RNOA into Operating Profit Margin (OPM) on the one hand, and Operating Asset Turnover (OpATO) on the other:
@@ -250,13 +250,13 @@ $$
 where:
 
 $$
-O P M = \frac {N O P A T}{S a l e s}
+O P M = \frac{N O P A T}{S a l e s}
 $$
 
 and:
 
 $$
-O p A T O = \frac {S a l e s}{N O A}
+O p A T O = \frac{S a l e s}{N O A}
 $$
 
 This decomposition of the return on capital illustrates a powerful general principle of profitability analysis. Starting at the top level, we can:
@@ -275,13 +275,13 @@ $$
 where:
 
 $$
-G M = \frac {S a l e s - C O G S}{S a l e s}
+G M = \frac{S a l e s - C O G S}{S a l e s}
 $$
 
 and:
 
 $$
-O O E R = \frac {\text {O t h e r O p e r a t i n g E x p e n s e s}}{\text {S a l e s}}
+O O E R = \frac{\text{Ot he rO pe ra ti ng Ex pe ns es}}{\text{Sa le s}}
 $$
 
 The point of this further decomposition is that Cost of Goods Sold (COGS) and Selling, General and Administrative expenses (SG&A), for example, may behave differently from a statistical perspective. Examining the base rates for each ratio separately may be more informative for our forecasts than looking only at their combined impact on OPM.
@@ -379,7 +379,7 @@ Source: UBS Research, FactSet.
 When a metric shows reversion to the mean, high realisations are more likely to be followed by lower realisations and vice versa. The speed at which the metric is pulled back to the long-term average is inversely related to how persistent – or, alternatively, how reliable or predictable – it is from period to period. Using operating profit margin as an example, the dynamics can be described by this simple equation:
 
 $$
-R N O A _ {\text {n e x t}} = \text {A v e r a g e} + \text {P e r s i s t e n c e} \times \left(R N O A _ {\text {c u r r e n t}} - \text {A v e r a g e}\right)
+R N O A_{\text{ne xt}} = \text{Av er ag e} + \text{Pe rs is te nc e} \times \left(R N O A_{\text{cu rr en t}} - \text{Av er ag e}\right)
 $$
 
 where Persistence is a factor that only takes on values between 0 and 1.
@@ -429,7 +429,7 @@ This step does not have to be purely mechanistic. At a minimum, the analyst shou
 A more quantitative approach would be to adjust the inside view forecast for reversion to the mean as we illustrated earlier, using the base rates for the long-run average and the serial correlation coefficient as inputs:
 
 $$
-F o r e c a s t _ {a d j u s t e d} = A v e r a g e + P e r s i s t e n c e \times \left(F o r e c a s t _ {u n a d j u s t e d} - A v e r a g e\right)
+F o r e c a s t_{a d j u s t e d} = A v e r a g e + P e r s i s t e n c e \times \left(F o r e c a s t_{u n a d j u s t e d} - A v e r a g e\right)
 $$
 
 # Rise of the robo-forecaster? Not anytime soon

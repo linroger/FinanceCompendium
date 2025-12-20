@@ -109,7 +109,7 @@ This belief—that the implication of any rate offered is the pool of all curren
 zero), such that even if financed at the lowest possible rate (the riskless interest rate  $r$ ), the optimal one-period choice for a type BG is to choose risky projects. That is, we know  $r_T \geq r$  and we assume
 
 $$
-r > \frac {G - \Pi B}{1 - \Pi}. \tag {1}
+r > \frac{G - \Pi B}{1 - \Pi}. \tag {1}
 $$
 
 Thus for all values of  $f_{\mathrm{B}}, f_{\mathrm{BG}}$ , and  $f_{\mathrm{G}}$  for which the market does not fail, the type BG borrowers will select risky projects and the interest rate  $r_T^b$  will prevail if there is a one-period horizon. The market is open at  $T$  if and only if  $r_T^b < G$  or, equivalently,  $f_{\mathrm{G}} > [(r / G) - (\Pi f_{\mathrm{BG}} + \Pi_{\mathrm{B}} f_{\mathrm{B}})] > 0$ . One interpretation of this condition is that only a borrower with a track record that implies a strictly positive probability of being of type G will have a chance of borrowing at the final date  $T$ . Lemma 1 summarizes the results about a one-period horizon.
@@ -189,35 +189,35 @@ LEMMA 8. Type BG borrowers will select safe projects on some date only if  $d(G 
 Proof. From (1), risky projects are optimal at  $T$ . From lemma 7, safe projects are best if and only if  $r_t - V_{t-1} \leq (G - \Pi B) / (1 - \Pi)$ . Because risky projects are selected at  $T$  and if safe projects are ever optimal, there will be a date  $\hat{t}$  when safe projects are selected, followed by risky ones until  $T$ . On such a date  $\hat{t}$ , we know
 
 $$
-V _ {\hat {t} + 1} <   \frac {(d \Pi) (B - r)}{1 - d \Pi} = \lim  _ {T \rightarrow \infty} \sum_ {t = 1} ^ {T} (B - r) (d \Pi) ^ {t}
+V_{\hat {t} + 1} <   \frac{(d \Pi) (B - r)}{1 - d \Pi} = \lim_{T \rightarrow \infty} \sum_{t = 1}^{T} (B - r) (d \Pi)^{t}
 $$
 
 because this is the upper bound on the value of selecting risky projects until the first default for an infinite number of periods, and  $r_t \geq r$ . Thus safe project optimality at  $t$  requires
 
 $$
-d \bigg [ G - r + \frac {d \Pi (B - r)}{1 - d \Pi} \bigg ] \leq d \Pi \bigg [ B - r + \frac {d \Pi (B - r)}{1 - d \Pi} \bigg ]
+d \bigg [ G - r + \frac{d \Pi (B - r)}{1 - d \Pi} \bigg ] \leq d \Pi \bigg [ B - r + \frac{d \Pi (B - r)}{1 - d \Pi} \bigg ]
 $$
 
 or
 
 $$
-r - \frac {(d \Pi) (B - r)}{1 - d \Pi} \leq \frac {G - \Pi B}{1 - \Pi}.
+r - \frac{(d \Pi) (B - r)}{1 - d \Pi} \leq \frac{G - \Pi B}{1 - \Pi}.
 $$
 
 Rearranging terms produces the following equivalent conditions that are necessary for reputation to ever have value:
 
 $$
-\frac {d \Pi (B - r)}{1 - d \Pi} > r - \frac {G - \Pi B}{1 - \Pi}, \tag {2}
+\frac{d \Pi (B - r)}{1 - d \Pi} > r - \frac{G - \Pi B}{1 - \Pi}, \tag {2}
 $$
 
 $$
-\frac {d (G - r)}{1 - d} > \frac {d \Pi (B - r)}{1 - d \Pi}, \tag {3}
+\frac{d (G - r)}{1 - d} > \frac{d \Pi (B - r)}{1 - d \Pi}, \tag {3}
 $$
 
 and
 
 $$
-\frac {d \Pi (B - G)}{1 - \Pi} > r - \frac {G - \Pi B}{1 - \Pi}. \tag {4}
+\frac{d \Pi (B - G)}{1 - \Pi} > r - \frac{G - \Pi B}{1 - \Pi}. \tag {4}
 $$
 
 # Q.E.D.
@@ -239,25 +239,25 @@ The conditions for safe projects to be selected at some date in lemmas 8 and 9 a
 For any equilibrium there is a range that bounds the equilibrium interest rate (face value),  $r_t$ . The lowest value that it can attain is the value that provides a normal expected return,  $r$ , to lenders under the assumption that type BG borrowers choose safe projects. As in our discussion in Section IIIA, we call this rate  $r_t^g$ . The largest possible value of the interest rate is  $r_t^b$ , the one that gives lenders a normal expected return if all type BG's choose risky projects. At  $t = 1$ , these rates are given by
 
 $$
-r _ {\mathrm {l}} ^ {\xi} = \frac {r}{f _ {\mathrm {G}} + f _ {\mathrm {B G}} + \Pi_ {\mathrm {B}} f _ {\mathrm {B}}}
+r_{\mathrm{l}}^{\xi} = \frac{r}{f_{\mathrm{G}} + f_{\mathrm{BG}} + \Pi_{\mathrm{B}} f_{\mathrm{B}}}
 $$
 
 and
 
 $$
-r _ {\mathrm {1}} ^ {b} = \frac {r}{f _ {\mathrm {G}} + (\Pi f _ {\mathrm {B G}}) + (\Pi_ {\mathrm {B}} f _ {\mathrm {B}})}.
+r_{\mathrm{1}}^{b} = \frac{r}{f_{\mathrm{G}} + (\Pi f_{\mathrm{BG}}) + (\Pi_{\mathrm{B}} f_{\mathrm{B}})}.
 $$
 
 The bounds on the rates in periods after  $t = 1$  depend on the population of borrowers with a given track record. Because those who default are denied future credit, all those who continue to borrow have perfect records of no default. Define  $f_{\Theta t}$  as the fraction of the original pool of all borrowers who are of type  $\Theta$  and have not yet defaulted by the beginning of period  $t$ . For example,  $f_{\mathrm{B}1} = f_{\mathrm{B}}$ . Because type B borrowers always select risky projects,  $f_{\mathrm{B}t} = \Pi_{\mathrm{B}}^{t-1} f_{\mathrm{B}}$ . Type G borrowers always select safe projects, implying  $f_{\mathrm{G}t} = f_{\mathrm{G}}$  for all  $t$ . The fraction of type BG borrowers in the pool of those with a reputation of no default depends on the decisions made each period: if safe projects are selected at date  $t - 1$  by all BG's, then  $f_{\mathrm{BG}t} = f_{\mathrm{BG}t - 1}$ . If all BG's select risky projects at  $t - 1$ , then  $f_{\mathrm{BG}t} = \Pi f_{\mathrm{BG}t - 1}$ . At date  $t$ , the pool of borrowers is a fraction  $f_{\mathrm{G}} + f_{\mathrm{B}t} + f_{\mathrm{BG}t}$  of the original pool of borrowers, and out of the original pool, the fraction of loans repaid at  $t$  is  $f_{\mathrm{G}} + (\Pi_{\mathrm{B}} f_{\mathrm{B}t}) + (\Pi f_{\mathrm{BG}t})$ . The bounds on  $r_t$  at date  $t$  that give lenders an expected return of  $r$  are therefore given by
 
 $$
-r _ {t} ^ {g} = r \frac {f _ {\mathrm {G}} + f _ {\mathrm {B G} t} + f _ {\mathrm {B} t}}{f _ {\mathrm {G}} + f _ {\mathrm {B G} t} + (\Pi_ {\mathrm {B}} f _ {\mathrm {B} t})}
+r_{t}^{g} = r \frac{f_{\mathrm{G}} + f_{\mathrm{BG} t} + f_{\mathrm{B} t}}{f_{\mathrm{G}} + f_{\mathrm{BG} t} + (\Pi_{\mathrm{B}} f_{\mathrm{B} t})}
 $$
 
 and
 
 $$
-r _ {t} ^ {b} = r \frac {f _ {\mathrm {G}} + f _ {\mathrm {B G} t} + f _ {\mathrm {B} t}}{f _ {\mathrm {G}} + (\Pi f _ {\mathrm {B G} t}) + (\Pi_ {\mathrm {B}} f _ {\mathrm {B} t})}.
+r_{t}^{b} = r \frac{f_{\mathrm{G}} + f_{\mathrm{BG} t} + f_{\mathrm{B} t}}{f_{\mathrm{G}} + (\Pi f_{\mathrm{BG} t}) + (\Pi_{\mathrm{B}} f_{\mathrm{B} t})}.
 $$
 
 Note that if  $f_{\mathrm{BG}} = 0$ , then  $r_t^b = r_t^g$ . In the case of  $f_{\mathrm{BG}} = 0$  the interest rates can be specified without knowing the equilibrium actions of the finite number of type BG's (because there are an infinite number of borrowers).
@@ -282,7 +282,7 @@ The endgame is bounded if there exists  $K < \infty$  such that  $T - \tau < K$ 
 To develop the basic points about the endgame, consider the case in which, of the infinite number of borrowers, a fraction  $f_{\mathrm{B}}$  are of type B, a fraction  $f_{\mathrm{G}} = 1 - f_{\mathrm{B}}$  of type G, and a finite number (representing a zero fraction) of borrowers are of type BG. The series of the lowest interest rate that provides lenders an expected return of  $r$  (given the current population of borrowers with a given track record) is exogenous, and  $r_t^g = r_t^b$ . By lemma 6, the face value series,  $r_t$ , is given by (and shown in fig. 3)
 
 $$
-r _ {t} = r \frac {\Pi_ {\mathrm {B}} ^ {t - 1} f _ {\mathrm {B}} + 1 - f _ {\mathrm {B}}}{\Pi_ {\mathrm {B}} ^ {t} f _ {\mathrm {B}} + 1 - f _ {\mathrm {B}}}. \tag {5}
+r_{t} = r \frac{\Pi_{\mathrm{B}}^{t - 1} f_{\mathrm{B}} + 1 - f_{\mathrm{B}}}{\Pi_{\mathrm{B}}^{t} f_{\mathrm{B}} + 1 - f_{\mathrm{B}}}. \tag {5}
 $$
 
 Provided that  $r_1 \leq G$ , (5) states the interest rate charged over time to those who do not default up to time  $t$ . All those who default are revealed to be types other than  $G$  and thus have their credit cut off from that point forward. If  $r_1 > G$ , then the capital market fails and no one can borrow at any interest rate.
@@ -326,7 +326,7 @@ LEMMA 12. If  $V_{t}^{g} = V_{t}^{b}$ , with  $r_t \in [r, G]$ , implying indiff
 Proof.  $V_{t}^{g} = V_{t}^{b}$  implies, by lemma 7,
 
 $$
-\begin{array}{l} V _ {t} = d \left(G - \frac {G - \Pi B}{1 - \Pi}\right) = d H <   H, \\ V _ {t} = d \left(G - \frac {G - \Pi B}{1 - \Pi}\right) = \frac {1}{1 - \Pi} [ d \Pi (B - G) ] > L \\ \end{array}
+\begin{array}{l} V_{t} = d \left(G - \frac{G - \Pi B}{1 - \Pi}\right) = d H <   H, \\ V_{t} = d \left(G - \frac{G - \Pi B}{1 - \Pi}\right) = \frac{1}{1 - \Pi} [ d \Pi (B - G) ] > L \\ \end{array}
 $$
 
 by (4). By lemma 11,  $V_{t} \in (L, H)$  implies that there exists  $r_{t-1} \in (r, G)$  with  $V_{t-1}^{g} = V_{t-1}^{b}$  and substitution of  $V_{t}$  into  $r_{t-1} = V_{t} + [(G - \Pi B) / (1 - \Pi)]$  produces  $r_{t-1} = dG + (1 - d)(G - \Pi B) / (1 - \Pi)$ . Q.E.D.
@@ -354,13 +354,13 @@ In both cases,  $f_{\mathrm{BG}} = 0$  is assumed to allow the simple determinat
 A. Near Absence of Adverse Selection  $(\mathbf{f}_B = 0)$ , with
 
 $$
-\mathrm {f} _ {B G} = 0
+\mathrm{f}_{B G} = 0
 $$
 
 With  $f_{\mathrm{G}} = 1$  and a finite number of other types, (5) shows that  $r_t = r$  for all  $t$ . At  $T$ , risky projects will be selected, and thus  $V_T = d\Pi(B - r)$  while  $r_{T-1} - V_T = r - d\Pi(B - r)$ . By lemma 7, safe projects are selected at  $t$  if and only if  $r - V_{t+1}$  greater than  $(G - \Pi B) / (1 - \Pi)$ , and for  $t'$  sufficiently near  $T$ ,
 
 $$
-V _ {t ^ {\prime}} = \sum_ {t = t ^ {\prime}} ^ {T} (B - r) d \Pi^ {1 - t ^ {\prime} + t},
+V_{t^{\prime}} = \sum_{t = t^{\prime}}^{T} (B - r) d \Pi^{1 - t^{\prime} + t},
 $$
 
 which is a strictly decreasing function of  $t'$ . On some date  $t' < T$ , safe projects will be selected because the sum will exceed the critical value  $r - [(G - \Pi B) / (1 - \Pi)]$  and will exceed this value for all  $t < t'$ . This implies that on all dates  $t < t'$  safe projects will be selected because at any date  $t'$  the value of continuing to borrow is at least the value of borrowing and choosing the risky project each period. Figure 4 shows  $r - V_{t+1}$ , when interest rates are constant at the riskless rate,  $r$ .
@@ -373,7 +373,7 @@ FIG. 4. The time series of  $r_t - V_{t+1}$  assuming  $f_{\mathrm{B}} = 0$ . As
 # B. Significant Adverse Selection  $(\mathbf{f}_B > 0)$ , with
 
 $$
-\mathrm {f} _ {B G} = 0
+\mathrm{f}_{B G} = 0
 $$
 
 With  $f_{\mathrm{BG}} = 0$ ,  $r_t$  is given by (5). For large  $t$ ,  $r_t \to r$ , so if  $T \to \infty$ , then near  $T$  the analysis is similar to the last subsection, where  $r_t = r$ . However, for borrowers with short track records (small  $t$ ), the higher rates,  $r_t > r$ , have two effects because the decision between safe and risky projects depends only on  $r_t - V_{t+1}$ . Higher rates make safe projects relatively less attractive for given  $V_{t'+1}$ , and higher current rates reduce  $V_{t'}$ , making safe projects less attractive for  $t < t'$ . This implies that if  $f_{\mathrm{B}}$  is high enough (initial interest rates are high enough), then the finite number of type BG's will select risky projects at some early dates, even though those who do not default will later select safe projects. In principle they might switch back and forth between the two projects. Proposition 2 provides a characterization of the scope for project switching assuming only that  $r_t$  falls over time. Under the assumption that  $f_{\mathrm{BG}} = 0$ , (5) shows that  $r_t$  does fall over time. In Section VII, proposition 2 will be shown to apply with  $f_{\mathrm{BG}} > 0$  if the remaining time before the horizon is sufficiently long.
@@ -388,7 +388,7 @@ FIG. 5.-The time series of  $r_t - V_{t+1}$ , assuming  $f_{\mathrm{B}} > 0$ ;  
 risky projects are selected. Safe projects are best at  $\hat{t} + 1$ , and by lemma 7,  $V_{\hat{t} + 1} \geq d\{G - [(G - \Pi B) / (1 - \Pi)]\}$ . Because risky projects are best at  $\hat{t}$ ,  $V_{\hat{t}} < d\{G - [(G - \Pi B) / (1 - \Pi)]\} \leq V_{\hat{t} + 1}$ , and  $r_t - V_{\hat{t} + 1} > (G - \Pi B) / (1 - \Pi)$ . Interest rates fall, implying  $r_t \leq r_{\hat{t} - 1}$ , and combined with  $V_{\hat{t}} < V_{\hat{t} + 1}$  we have
 
 $$
-\begin{array}{l} \hat {r _ {\hat {l} - 1}} - V _ {\hat {l}} > \hat {r _ {\hat {l}}} - V _ {\hat {l} + 1} \\ > \frac {G - \Pi B}{1 - \Pi}. \\ \end{array}
+\begin{array}{l} \hat {r_{\hat {l} - 1}} - V_{\hat {l}} > \hat {r_{\hat {l}}} - V_{\hat {l} + 1} \\ > \frac{G - \Pi B}{1 - \Pi}. \\ \end{array}
 $$
 
 This implies that risky projects are best at  $\hat{t} - 1$ , and because  $r_{\hat{t}'} \leq r_t$  for all  $t' < \hat{t}$ , recursion implies that because  $V_{\hat{t} - 1} < d\{G - [(G - \Pi B) / (1 - \Pi)]\} \leq V_{\hat{t} + 1}$ , risky projects are best for all  $t < t'$ . Q.E.D.
@@ -412,13 +412,13 @@ To actually compute the values  $V_{b}$ , values for  $r_{t}^{g}$  and  $r_{t}^{
 The face values  $R_{i}^{b}[\bar{t}]$  are given by
 
 $$
-\begin{array}{l} R _ {t} ^ {b} [ \bar {t} ] = \frac {\Pi^ {t - 1} f _ {\mathrm {B G}} + \Pi_ {\mathrm {B}} ^ {t - 1} f _ {\mathrm {B}} + f _ {\mathrm {G}}}{\Pi^ {t} f _ {\mathrm {B G}} + \Pi_ {\mathrm {B}} ^ {t} f _ {\mathrm {B}} + f _ {\mathrm {G}}} \cdot r \quad \text {i f} t <   \bar {t}, \\ R _ {t} ^ {b} [ \bar {t} ] = \frac {\Pi^ {\bar {t} - 1} f _ {\mathrm {B G}} + \Pi_ {\mathrm {B}} ^ {\bar {t} - 1} f _ {\mathrm {B}} + f _ {\mathrm {G}}}{\Pi^ {\bar {t}} f _ {\mathrm {B G}} + \Pi^ {\prime} f _ {\mathrm {B}} + f _ {\mathrm {G}}} \cdot r \quad \text {i f} t \in [ \bar {t}, \tau ]. \tag {6} \\ \end{array}
+\begin{array}{l} R_{t}^{b} [ \bar {t} ] = \frac{\Pi^{t - 1} f_{\mathrm{BG}} + \Pi_{\mathrm{B}}^{t - 1} f_{\mathrm{B}} + f_{\mathrm{G}}}{\Pi^{t} f_{\mathrm{BG}} + \Pi_{\mathrm{B}}^{t} f_{\mathrm{B}} + f_{\mathrm{G}}} \cdot r \quad \text{if } t <   \bar {t}, \\ R_{t}^{b} [ \bar {t} ] = \frac{\Pi^{\bar {t} - 1} f_{\mathrm{BG}} + \Pi_{\mathrm{B}}^{\bar {t} - 1} f_{\mathrm{B}} + f_{\mathrm{G}}}{\Pi^{\bar {t}} f_{\mathrm{BG}} + \Pi^{\prime} f_{\mathrm{B}} + f_{\mathrm{G}}} \cdot r \quad \text{if } t \in [ \bar {t}, \tau ]. \tag {6} \\ \end{array}
 $$
 
 The face values  $R_{i}^{g}[\bar{t}]$  are given by
 
 $$
-\begin{array}{l} R _ {t} ^ {g} [ \bar {t} ] = \frac {\Pi^ {t - 1} f _ {\mathrm {B G}} + \Pi_ {\mathrm {B}} ^ {t - 1} f _ {\mathrm {B}} + f _ {\mathrm {G}}}{\Pi^ {t - 1} f _ {\mathrm {B G}} + \Pi_ {\mathrm {B}} ^ {t} f _ {\mathrm {B}} + f _ {\mathrm {G}}} \cdot r \quad \text {i f} t <   \bar {t}, \\ R _ {l} ^ {g} [ \bar {t} ] = \frac {\Pi^ {\bar {t} - 1} f _ {\mathrm {B G}} + \Pi_ {\mathrm {B}} ^ {t - 1} f _ {\mathrm {B}} + f _ {\mathrm {G}}}{\Pi^ {\bar {t} - 1} f _ {\mathrm {B G}} + \Pi_ {\mathrm {B}} ^ {t} f _ {\mathrm {B}} + f _ {\mathrm {G}}} \cdot r \quad \text {i f} t \in [ \bar {t}, \tau ]. \tag {7} \\ \end{array}
+\begin{array}{l} R_{t}^{g} [ \bar {t} ] = \frac{\Pi^{t - 1} f_{\mathrm{BG}} + \Pi_{\mathrm{B}}^{t - 1} f_{\mathrm{B}} + f_{\mathrm{G}}}{\Pi^{t - 1} f_{\mathrm{BG}} + \Pi_{\mathrm{B}}^{t} f_{\mathrm{B}} + f_{\mathrm{G}}} \cdot r \quad \text{if } t <   \bar {t}, \\ R_{l}^{g} [ \bar {t} ] = \frac{\Pi^{\bar {t} - 1} f_{\mathrm{BG}} + \Pi_{\mathrm{B}}^{t - 1} f_{\mathrm{B}} + f_{\mathrm{G}}}{\Pi^{\bar {t} - 1} f_{\mathrm{BG}} + \Pi_{\mathrm{B}}^{t} f_{\mathrm{B}} + f_{\mathrm{G}}} \cdot r \quad \text{if } t \in [ \bar {t}, \tau ]. \tag {7} \\ \end{array}
 $$
 
 Define the  $\tau$  element vector  $\mathbf{R}[\bar{t}]$  to be the face value series from 1 to  $\tau$ , where the first  $\bar{t} - 1$  elements (for  $t = 1, \dots, \bar{t} - 1$ ) are given by  $R_{t}^{b}[\bar{t}]$  and the final elements (from  $\bar{t}$  to  $\tau$ ) are given by  $R_{t}^{g}[\bar{t}]$ . This is the interest rate series anticipated given the definition of  $\bar{t}$ . The equilibrium value of  $\bar{t}$  is the smallest self-fulfilling value of  $\bar{t}$ : if  $\bar{t} = 1$  is self-fulfilling in the sense that safe projects are best if  $\mathbf{R}[1]$  (i.e.,  $r_{t} = R_{t}^{g}[1]$  for  $t = 1, \dots, \tau$ ) is anticipated, then there is not a period of reputation acquisition required and  $\bar{t} = 1$ .
@@ -426,13 +426,13 @@ Define the  $\tau$  element vector  $\mathbf{R}[\bar{t}]$  to be the face value 
 Denote the present value of choosing safe projects from  $\hat{t}$  to  $\tau$  facing rates  $\mathbf{R}[\hat{t}]$  as  $W_{\hat{t}}[\hat{t}]$ , given by
 
 $$
-W _ {\hat {t}} [ \bar {t} ] = \sum_ {t = \hat {t}} ^ {\tau} (G - R _ {\hat {t}} ^ {g} [ \bar {t} ]) d ^ {1 + t - \hat {t}} + (V _ {\tau} \cdot d ^ {1 + \tau - \hat {t}}).
+W_{\hat {t}} [ \bar {t} ] = \sum_{t = \hat {t}}^{\tau} (G - R_{\hat {t}}^{g} [ \bar {t} ]) d^{1 + t - \hat {t}} + (V_{\tau} \cdot d^{1 + \tau - \hat {t}}).
 $$
 
 As  $\tau \to \infty$ , the final term approaches zero, and one can approximate  $W_{i}[i]$  arbitrarily closely by  $\overline{W}_i[i]$ :
 
 $$
-\overline {{W}} _ {\hat {t}} [ \bar {t} ] \equiv \sum_ {t = \hat {t}} ^ {\infty} (G - R _ {\hat {t}} ^ {g} [ \bar {t} ]) d ^ {1 + t - \hat {t}}.
+\overline {{W}}_{\hat {t}} [ \bar {t} ] \equiv \sum_{t = \hat {t}}^{\infty} (G - R_{\hat {t}}^{g} [ \bar {t} ]) d^{1 + t - \hat {t}}.
 $$
 
 If  $R_1^g [1] - \overline{W}_2[1] \leq (G - \Pi B) / (1 - \Pi)$ , then  $r_t = R_t^g [1]$  for all  $t \in [1, \tau]$  and  $\tau \to \infty$  as  $T \to \infty$ . In this case, reputation works immediately. Alternatively, if  $R_1^g [1] - \overline{W}_2[1] > (G - \Pi B) / (1 - \Pi)$ , then risky projects will be selected at  $t = 1$ . Under the assumption that markets do not fail and that (2) holds, then eventually safe projects will be selected. This will occur on the smallest  $\hat{t}$  such that  $R_{\hat{t}}^{g}[\hat{t}] - \overline{W}_{\hat{t} + 1}[\hat{t}] \leq (G - \Pi B) / (1 - \Pi)$ . Safe projects will be selected from that date for an unbounded number of periods until  $\tau$ , as  $T \to \infty$ .
@@ -491,7 +491,7 @@ Let  $V_{t} \geq 0$  be the beginning of period  $t$  present value of expected 
 Discounted expected consumption of the borrower with  $\theta_t \geq G \geq r$  at date  $t$  for each of the three actions  $Z_t = r_t, Z_t > r_t$ , and  $Z_t < r_t$  is given by
 
 $$
-\underbrace {\text {p a y o f f f r o m} Z _ {t} = r _ {t}} _ {\theta_ {t} - r _ {t} + V _ {t + 1}} > \underbrace {\text {p a y o f f f r o m} Z _ {t} > r _ {t}} _ {\theta_ {t} - Z _ {t} + V _ {t + 1}} \geq \underbrace {\text {p a y o f f f r o m} Z _ {t} <   r _ {t}} _ {0.}
+\underbrace {\text{pa yo ff fr om} Z_{t} = r_{t}}_{\theta_{t} - r_{t} + V_{t + 1}} > \underbrace {\text{pa yo ff fr om} Z_{t} > r_{t}}_{\theta_{t} - Z_{t} + V_{t + 1}} \geq \underbrace {\text{pa yo ff fr om} Z_{t} <   r_{t}}_{0.}
 $$
 
 All borrowers with  $\theta_t \geq r_t$  select  $Z_t = r_t$ . Only borrowers with project returns less than  $r_t$  default, and they pay  $Z_t = 0$ . This implies that the beliefs above are self-fulfilling when  $r_t \leq G$ .
@@ -503,19 +503,19 @@ For completeness, consider the case of  $r_t > G$ . It might appear that lenders
 It is always feasible to select safe projects each period, and we know, for  $t \geq \hat{t}$ , that  $r_t < dG + (1 - d)(G - \Pi B) / (1 - \Pi)$ , implying
 
 $$
-V _ {\hat {t}} \geq \sum_ {t = \hat {t}} ^ {T} (G - r _ {t}) d ^ {t + 1 - \hat {t}} > \sum_ {t = \hat {t}} ^ {T} \left\{G - \left[ d G + (1 - d) \frac {G - \Pi B}{1 - \Pi} \right] \right\} d ^ {t + 1 - \hat {t}}.
+V_{\hat {t}} \geq \sum_{t = \hat {t}}^{T} (G - r_{t}) d^{t + 1 - \hat {t}} > \sum_{t = \hat {t}}^{T} \left\{G - \left[ d G + (1 - d) \frac{G - \Pi B}{1 - \Pi} \right] \right\} d^{t + 1 - \hat {t}}.
 $$
 
 Taking the limit of the final expression as  $T \to \infty$  yields
 
 $$
-\begin{array}{l} \frac {d}{1 - d} \Bigg \{G - \left[ d G + (1 - d) \frac {G - \Pi B}{1 - \Pi} \right] \Bigg \} \\ = \frac {d}{(1 - d) (1 - \Pi)} \left\{\left[ G (1 - d) (1 - \Pi) \right] + \left[ (1 - d) (G - \Pi B) \right] \right\} \\ = d \bigg (G - \frac {G - \Pi B}{1 - \Pi} \bigg). \\ \end{array}
+\begin{array}{l} \frac{d}{1 - d} \Bigg \{G - \left[ d G + (1 - d) \frac{G - \Pi B}{1 - \Pi} \right] \Bigg \} \\ = \frac{d}{(1 - d) (1 - \Pi)} \left\{\left[ G (1 - d) (1 - \Pi) \right] + \left[ (1 - d) (G - \Pi B) \right] \right\} \\ = d \bigg (G - \frac{G - \Pi B}{1 - \Pi} \bigg). \\ \end{array}
 $$
 
 This implies that one can find  $T < \infty$  such that the  $V_{t} > d\{G - [(G - \Pi B) / (1 - \Pi)]\}$ . By lemma 7, one can then conclude that safe projects are optimal at date  $t$ . To prove that  $dG + (1 - d)(G - \Pi B) / (1 - \Pi) > r$  if and only if (4) holds,
 
 $$
-\begin{array}{l} d G + (1 - d) \frac {G - \Pi B}{1 - \Pi} = d \left(G - \frac {G - \Pi B}{1 - \Pi}\right) + \frac {G - \Pi B}{1 - \Pi} \\ = \frac {d \Pi (B - G)}{1 - \Pi} + \frac {G - \Pi B}{1 - \Pi} \\ > r \\ \end{array}
+\begin{array}{l} d G + (1 - d) \frac{G - \Pi B}{1 - \Pi} = d \left(G - \frac{G - \Pi B}{1 - \Pi}\right) + \frac{G - \Pi B}{1 - \Pi} \\ = \frac{d \Pi (B - G)}{1 - \Pi} + \frac{G - \Pi B}{1 - \Pi} \\ > r \\ \end{array}
 $$
 
 if and only if (4) holds. Q.E.D.

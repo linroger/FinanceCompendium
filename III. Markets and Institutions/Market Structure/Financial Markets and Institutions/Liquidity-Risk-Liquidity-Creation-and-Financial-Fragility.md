@@ -117,7 +117,7 @@ $b$  ) Since the entrepreneur values cash flows the same in either state and at 
 if she had invested in storage at date 0 (which pays \$1 for sure at date 1 regardless of the lender's type). Then the illiquidity premium is3
 
 $$
-\theta (R - 1) (1 - \text {d a t e} 1 \text {c a s h f l o w t o i m p a t i e n t l e n d e r}), \tag {1}
+\theta (R - 1) (1 - \text{da te} 1 \text{ca sh fl ow to im pa ti en tl en de r}), \tag {1}
 $$
 
 where  $\theta$  is the probability that the lender gets the liquidity shock, and the cash flow to the impatient lender includes any payments by the entrepreneur and any proceeds from the loan sale or project liquidation. We call an asset with a zero illiquidity premium "liquid." An asset with a positive illiquidity premium is one in which more is paid in expectation over time to the holder because it does not pay as much when she is impatient at date 1 as storage. Thus a relationship lender is willing to pay less at date 0 for such an asset than the present value of its future repayments discounted at the gross market interest rate (of one). It is "illiquid." Moreover, we shall see that the reason for the illiquidity premium is that the impatient relationship lender will realize less from the loan at date 1 than the present value of payoffs if she held the loan to maturity and discounted at the market interest rate. Thus a loan is illiquid because it has poor state-contingent payoffs, and it has poor state-contingent payoffs because it cannot fetch as much in times of need as the present value of what the holder could realize if she did not have the need.
@@ -151,23 +151,23 @@ ii. The entrepreneur will be financed at date 0 and the loan will be a liquid as
 iii. If  $\min \{C_1 + S, E^l\} < 1$ , the entrepreneur will be financed at date 0 but the loan will be illiquid and he will have to pay a positive illiquidity premium if either
 
 $$
-C _ {1} + S <   E ^ {I}, \quad E ^ {\sim I} \geq 1 + \frac {\theta}{1 - \theta} R [ 1 - (C _ {1} + S) ], \tag {2}
+C_{1} + S <   E^{I}, \quad E^{\sim I} \geq 1 + \frac{\theta}{1 - \theta} R [ 1 - (C_{1} + S) ], \tag {2}
 $$
 
 $$
-C _ {1} + S \geq E ^ {\prime}, \quad E ^ {\sim I} \geq 1 + \frac {\theta}{1 - \theta} R \left(1 - E ^ {\prime}\right), \tag {3}
+C_{1} + S \geq E^{\prime}, \quad E^{\sim I} \geq 1 + \frac{\theta}{1 - \theta} R \left(1 - E^{\prime}\right), \tag {3}
 $$
 
 or
 
 $$
-\begin{array}{l} E ^ {\sim t} \geq 1 + \frac {\theta}{1 - \theta} [ R (1 - \min  \{C _ {1}, E ^ {t} \}) \\ - \min  \left\{\max  \left\{\left(E ^ {I} - C _ {1}\right) R, 0 \right\}, X _ {2} \right\} \rbrack . \tag {4} \\ \end{array}
+\begin{array}{l} E^{\sim t} \geq 1 + \frac{\theta}{1 - \theta} [ R (1 - \min  \{C_{1}, E^{t} \}) \\ - \min  \left\{\max  \left\{\left(E^{I} - C_{1}\right) R, 0 \right\}, X_{2} \right\} \rbrack . \tag {4} \\ \end{array}
 $$
 
 iv. If none of inequalities (2), (3), or (4) hold, the entrepreneur will be financed at date 0 but only with the asset being liquidated when the lender is impatient if
 
 $$
-E ^ {\sim J} > 1 + \frac {\theta}{1 - \theta} R \left(1 - X _ {1}\right). \tag {5}
+E^{\sim J} > 1 + \frac{\theta}{1 - \theta} R \left(1 - X_{1}\right). \tag {5}
 $$
 
 v. The entrepreneur will not be financed at all at date 0 otherwise.
@@ -175,19 +175,19 @@ v. The entrepreneur will not be financed at all at date 0 otherwise.
 Proof. Consider the mechanism design problem the entrepreneur faces, keeping in mind that the contract can be renegotiated at date 1 after the lender's liquidity needs are determined (her type is revealed). We characterize the contract in terms of the payments it draws forth from the entrepreneur. Define  $V_{t}^{j}$  as the cash paid by an entrepreneur when the relationship lender is of type  $j$  (where  $j \in \{I, \sim I\}$  at date  $t$ ). We can restrict attention to renegotiation-proof contracts, where the entrepreneur can and will make the payment  $V_{t}^{j}$ . The entrepreneur's goal is to maximize  $\Phi$  with respect to  $V_{t}^{s}$ , where
 
 $$
-\Phi \equiv \theta \left(C _ {1} + C _ {2} - V _ {1} ^ {I} - V _ {2} ^ {I}\right) + (1 - \theta) \left(C _ {1} + C _ {2} - V _ {1} ^ {- I} + V _ {2} ^ {- I}\right)
+\Phi \equiv \theta \left(C_{1} + C_{2} - V_{1}^{I} - V_{2}^{I}\right) + (1 - \theta) \left(C_{1} + C_{2} - V_{1}^{- I} + V_{2}^{- I}\right)
 $$
 
 if  $V_{1}^{\prime}, V_{1}^{\sim I} \leq C_{1}$  (no liquidation),
 
 $$
-\Phi \equiv \theta \left(X _ {1} - V _ {1} ^ {I}\right) + (1 - \theta) \left(X _ {1} - V _ {1} ^ {\sim I}\right)
+\Phi \equiv \theta \left(X_{1} - V_{1}^{I}\right) + (1 - \theta) \left(X_{1} - V_{1}^{\sim I}\right)
 $$
 
 if  $V_{1}^{I}, V_{1}^{\sim I} > C_{1}$  (liquidation in all states),
 
 $$
-\Phi \equiv \theta \left(X _ {1} - V _ {1} ^ {\prime}\right) + (1 - \theta) \left(C _ {1} + C _ {2} - V _ {1} ^ {\sim I} - V _ {2} ^ {\sim I}\right)
+\Phi \equiv \theta \left(X_{1} - V_{1}^{\prime}\right) + (1 - \theta) \left(C_{1} + C_{2} - V_{1}^{\sim I} - V_{2}^{\sim I}\right)
 $$
 
 if  $V_{1}^{I} > C_{1}$ ,  $V_{1} \sim I \leq C_{1}$  (liquidation when lender is type  $I$ ),
@@ -195,7 +195,7 @@ if  $V_{1}^{I} > C_{1}$ ,  $V_{1} \sim I \leq C_{1}$  (liquidation when lender i
 and
 
 $$
-\Phi \equiv \theta \left(C _ {1} + C _ {2} - V _ {1} ^ {\prime} - V _ {2} ^ {\prime}\right) + (1 - \theta) \left(X _ {1} - V _ {1} ^ {\sim I}\right)
+\Phi \equiv \theta \left(C_{1} + C_{2} - V_{1}^{\prime} - V_{2}^{\prime}\right) + (1 - \theta) \left(X_{1} - V_{1}^{\sim I}\right)
 $$
 
 if  $V_{1}^{I}\leq C_{1}$ $V_{1}\sim I > C_{1}$  (liquidation when lender is type  $\sim I$
@@ -203,13 +203,13 @@ if  $V_{1}^{I}\leq C_{1}$ $V_{1}\sim I > C_{1}$  (liquidation when lender is typ
 subject to the following conditions: Payments are renegotiation-proof and individually rational:
 
 $$
-V _ {1} ^ {j} \leq \max  \left[ X _ {1}, C _ {1} \right]
+V_{1}^{j} \leq \max  \left[ X_{1}, C_{1} \right]
 $$
 
 (maximum feasible date 1 payment) and
 
 $$
-V _ {2} ^ {\sim I} \leq X _ {2}
+V_{2}^{\sim I} \leq X_{2}
 $$
 
 (maximum date 2 payment enforceable by type  $\sim I$ ).
@@ -217,19 +217,19 @@ $$
 If the date 2 portion of the loan,  $V_{2}^{I}$ , is sold at date 1 by type  $I$  (impatient), then
 
 $$
-V _ {2} ^ {I} \leq S
+V_{2}^{I} \leq S
 $$
 
 (maximum date 2 payment enforceable by buyer),
 
 $$
-V _ {1} ^ {I} + V _ {2} ^ {I} \leq \max  \left[ X _ {1}, S, \frac {X _ {2}}{R} \right]
+V_{1}^{I} + V_{2}^{I} \leq \max  \left[ X_{1}, S, \frac{X_{2}}{R} \right]
 $$
 
 (maximum total payment enforceable if sold), and
 
 $$
-\theta \left[ \left(V _ {1} ^ {I} + V _ {2} ^ {I}\right) R \right] + (1 - \theta) \left(V _ {1} ^ {\sim I} + V _ {2} ^ {\sim I}\right) \geq \theta R + (1 - \theta)
+\theta \left[ \left(V_{1}^{I} + V_{2}^{I}\right) R \right] + (1 - \theta) \left(V_{1}^{\sim I} + V_{2}^{\sim I}\right) \geq \theta R + (1 - \theta)
 $$
 
 (lender's individual rationality when  $V_{2}^{I}$  is sold).
@@ -237,19 +237,19 @@ $$
 If the date 2 portion of the loan,  $V_{2}^{I}$ , is kept at date 1 by type  $I$  (impatient), then
 
 $$
-V _ {1} ^ {\prime} R + V _ {2} ^ {\prime} \leq \max  \left[ X _ {1} R, X _ {2} \right]
+V_{1}^{\prime} R + V_{2}^{\prime} \leq \max  \left[ X_{1} R, X_{2} \right]
 $$
 
 (maximum total payment enforceable),
 
 $$
-V _ {2} ^ {I} \leq X _ {2}
+V_{2}^{I} \leq X_{2}
 $$
 
 (maximum date 2 payment enforceable by original lender), and
 
 $$
-\theta \left(V _ {1} ^ {\prime} R + V _ {2} ^ {I}\right) + (1 - \theta) \left(V _ {1} ^ {\sim I} + V _ {2} ^ {- I}\right) \geq \theta R + (1 - \theta)
+\theta \left(V_{1}^{\prime} R + V_{2}^{I}\right) + (1 - \theta) \left(V_{1}^{\sim I} + V_{2}^{- I}\right) \geq \theta R + (1 - \theta)
 $$
 
 (lender's individual rationality when  $V_{2}^{I}$  is kept).
@@ -267,13 +267,13 @@ COROLLARY 1. When the relationship lender's need for liquidity is private inform
 Proof. Since the lender's type is not observable, we have to add incentive-compatibility constraints to the mechanism design problem. Payments are incentive compatible:
 
 $$
-V _ {1} ^ {I} + V _ {2} ^ {I} \leq V _ {1} ^ {\sim I} + V _ {2} ^ {\sim I} \tag {IC1}
+V_{1}^{I} + V_{2}^{I} \leq V_{1}^{\sim I} + V_{2}^{\sim I} \tag {IC1}
 $$
 
 (incentive compatibility of type  $j = \sim I$ ),
 
 $$
-V _ {1} ^ {I} R + V _ {2} ^ {I} \geq V _ {1} ^ {\sim I} R + V _ {2} ^ {- I} \tag {IC2}
+V_{1}^{I} R + V_{2}^{I} \geq V_{1}^{\sim I} R + V_{2}^{- I} \tag {IC2}
 $$
 
 <sup>4</sup> If liquidity needs were verifiable and were not an aggregate risk and if agents other than the entrepreneur have no limit on the commitment to paying, both storage and the loan payments could be transformed into type-contingent insurance contracts. For example, the lender could store and sell off the payment of \$1 in states in which she does not get a liquidity shock in return for additional payments when she does get a liquidity shock. In this case, the lender's outside option is  $V_1^I = 1 / \theta$  and  $V_1^{-I} = V_2^{-I} = V_2^{II} = 0$ . Unless the loan offers at least the same possibilities, i.e., unless it offers at least a payment of \$1 that either can be consumed at date 1 or can be assigned to others in states in which the lender is not in need of liquidity, it will require a premium expected return. In any case, the condition for the loan to be illiquid (and the entrepreneur not liquidated) remains  $\min \{C_1 + S, E^I\} < 1$ .
@@ -281,7 +281,7 @@ $$
 (incentive compatibility of type  $j = I$  if type  $I$  keeps the loan), and
 
 $$
-\left(V _ {1} ^ {I} + V _ {2} ^ {I}\right) R \geq V _ {1} ^ {- I} R + V _ {2} ^ {- I} \tag {IC3}
+\left(V_{1}^{I} + V_{2}^{I}\right) R \geq V_{1}^{- I} R + V_{2}^{- I} \tag {IC3}
 $$
 
 (incentive compatibility of type  $j = I$  if type  $I$  sells the loan).
@@ -297,7 +297,7 @@ COROLLARY 2. If the maximum loan sale price,  $S$ , equals  $X_{2}$ , the optima
 Proof. If  $S = X_2$ ,
 
 $$
-E ^ {I} = \max  \left\{X _ {1}, S, \frac {X _ {2}}{R} \right\} = \max  \left\{X _ {1}, X _ {2} \right\}.
+E^{I} = \max  \left\{X_{1}, S, \frac{X_{2}}{R} \right\} = \max  \left\{X_{1}, X_{2} \right\}.
 $$
 
 Thus the maximum that can be paid at date 1 to the impatient lender in the absence of self-selection constraints is  $\min \{\max \{X_1, X_2\}, C_1 + X_2\}$ . But this is also the maximum a patient lender can extract, so it cannot be less than one for lending to occur. Self-selection constraints
@@ -319,7 +319,7 @@ Case 2.—The relationship lender retains liquidation skills even after selling 
 <sup>5</sup> Note that according to this interpretation, the lender who chooses to retain the project loan and stay in the old business does not have the time to fund the profitable new opportunity. This interpretation changes the individual rationality constraint if the loan is not sold. It is now
 
 $$
-\theta \left(V _ {1} ^ {\prime} + V _ {2} ^ {\prime}\right) + (1 - \theta) \left(V _ {1} ^ {- I} + V _ {2} ^ {- I}\right) \geq \theta R (1 - \theta).
+\theta \left(V_{1}^{\prime} + V_{2}^{\prime}\right) + (1 - \theta) \left(V_{1}^{- I} + V_{2}^{- I}\right) \geq \theta R (1 - \theta).
 $$
 
 Qualitatively, the results are unchanged.
@@ -412,19 +412,19 @@ B offers D  $d_2$ '<d_2
 FIG. 5.-Depositor's (D) response to banker's (B) offer of  $d_2' < d_2$
 
 $$
-\rho (f _ {j}) = \left\{ \begin{array}{l l} d _ {2} & \mathrm {i f} f _ {j} \leq \frac {\beta X _ {2}}{d _ {2}} \\ 0 & \mathrm {i f} f _ {j} > \frac {\beta X _ {2}}{d _ {2}}. \end{array} \right.
+\rho (f_{j}) = \left\{ \begin{array}{l l} d_{2} & \mathrm{if} f_{j} \leq \frac{\beta X_{2}}{d_{2}} \\ 0 & \mathrm{if} f_{j} > \frac{\beta X_{2}}{d_{2}}. \end{array} \right.
 $$
 
 When the expectation is taken over the place in line, the expected payoff, per unit held, from running is
 
 $$
-\bar {\rho} (f) = \left\{ \begin{array}{l l} d _ {2} & \text {i f} f \leq \frac {\beta X _ {2}}{d _ {2}} \\ \frac {\beta X _ {2}}{f} & \text {i f} f > \frac {\beta X _ {2}}{d _ {2}}. \end{array} \right.
+\bar {\rho} (f) = \left\{ \begin{array}{l l} d_{2} & \text{if } f \leq \frac{\beta X_{2}}{d_{2}} \\ \frac{\beta X_{2}}{f} & \text{if } f > \frac{\beta X_{2}}{d_{2}}. \end{array} \right.
 $$
 
 The payoff from accepting the banker's offer  $d_2'$  must be paid from assets that remain after depositors who run are paid off. So the payment to the depositors who do not run is min  $\{d_2', \lambda(f)\}$ , where
 
 $$
-\lambda (f) = \left\{ \begin{array}{l l} \frac {1 - f (d _ {2} / \beta X _ {2})}{1 - f} X _ {2} & \text {i f} f \leq \frac {\beta X _ {2}}{d _ {2}} \\ 0 & \text {i f} f > \frac {\beta X _ {2}}{d _ {2}}. \end{array} \right.
+\lambda (f) = \left\{ \begin{array}{l l} \frac{1 - f (d_{2} / \beta X_{2})}{1 - f} X_{2} & \text{if } f \leq \frac{\beta X_{2}}{d_{2}} \\ 0 & \text{if } f > \frac{\beta X_{2}}{d_{2}}. \end{array} \right.
 $$
 
 For any offer  $d_2' < d_2$  requiring concessions, either a depositor can make himself whole by running or  $f > \beta X_2 / d_2$ . The payoff from running is positive and that from accepting the banker's low offer is zero. Therefore, running is a dominant strategy since at best the depositor will be at the head of the line and come out whole; at worst he will be at the end of the line and in the same position as if he had not run.
@@ -568,13 +568,13 @@ The argument in the text uses functions that implicitly require depositors to be
 The banker must offer each depositor his outside option given the number of loans remaining in the bank that have not yet been seized or sold. The outside option is the smaller of the full value of the deposit and the market value of the remaining loans. If a fraction  $f_{j}$  of deposits have withdrawn before depositor  $j$  arrives to withdraw  $d_{2} / n$ , the outside option per unit of deposits is
 
 $$
-\rho (f _ {j}) = \left\{ \begin{array}{l l} d _ {2} & \text {i f} f _ {j} \leq \frac {\beta X _ {2}}{d _ {2}} - \frac {1}{n} \\ \beta X _ {2} (1 - d _ {2} f _ {j - 1}) & \text {i f} f _ {j} \in \left(\frac {\beta X _ {2}}{d _ {2}} - \frac {1}{n}, \frac {\beta X _ {2}}{d _ {2}}\right) \\ 0 & \text {i f} f _ {j} > \frac {\beta X _ {2}}{d _ {2}}. \end{array} \right.
+\rho (f_{j}) = \left\{ \begin{array}{l l} d_{2} & \text{if } f_{j} \leq \frac{\beta X_{2}}{d_{2}} - \frac{1}{n} \\ \beta X_{2} (1 - d_{2} f_{j - 1}) & \text{if } f_{j} \in \left(\frac{\beta X_{2}}{d_{2}} - \frac{1}{n}, \frac{\beta X_{2}}{d_{2}}\right) \\ 0 & \text{if } f_{j} > \frac{\beta X_{2}}{d_{2}}. \end{array} \right.
 $$
 
 Any offer that the banker makes must be payable using assets that remain in the bank after all depositors in line have had the chance to withdraw. Consequently, the outside option is a nonincreasing function of place in line. If any depositor is to make a concession, the last in line must have an outside option below  $d_{2} / n$ . Anticipating this, all depositors with  $f_{j} \leq (\beta X_{2} / d_{2}) - (1 / n)$  will withdraw since their outside option to take assets is worth  $d_{2} / n$ . Let  $m$  be the number of depositors who can withdraw in full. The total units of loans seized or sold to meet the needs of these depositors will be  $md_{2} / n\beta X_{2}$ . What remains should be less than what is needed to fully satisfy one depositor, so
 
 $$
-1 - \frac {m d _ {2}}{n \beta X _ {2}} <   \frac {d _ {2}}{n \beta X _ {2}}.
+1 - \frac{m d_{2}}{n \beta X_{2}} <   \frac{d_{2}}{n \beta X_{2}}.
 $$
 
 This implies that  $m = \left| \left( n\beta X_{2} / d_{2} \right) - 1 \right|$ , where  $|\cdot|$  is an operator that gives the smallest integer greater than the argument.
@@ -582,7 +582,7 @@ This implies that  $m = \left| \left( n\beta X_{2} / d_{2} \right) - 1 \right|$ 
 Once  $m$  depositors have withdrawn, the banker can ask the next depositor, for whom there are not enough assets to be made whole, to make a concession. But in order for this depositor to leave the remaining assets in the bank, the bank should be able to convince depositors who follow him not to withdraw. All these depositors should be paid at least the market value of the collateral that is left (since that is their outside option). The total that can be paid to all non-withdrawing depositors, even with the banker's superior collection skills, is  $1 / \beta$  times the market value of the assets remaining at the end of the line. So at most  $1 / \beta$  depositors can be given offers that deter them from withdrawing. Let  $\langle 1 / \beta \rangle$  denote the greatest integer less than or equal to  $1 / \beta$ . Then for the banker to convince the remaining depositors not to withdraw, it must be that  $n - m \leq \langle 1 / \beta \rangle$ . So a run does not fully disintermediate the bank if
 
 $$
-n - \left| \frac {n \beta X _ {2}}{d _ {2}} - 1 \right| \leq \left\langle \frac {1}{\beta} \right\rangle .
+n - \left| \frac{n \beta X_{2}}{d_{2}} - 1 \right| \leq \left\langle \frac{1}{\beta} \right\rangle .
 $$
 
 Since the left-hand side is increasing in  $n$ , there is an  $n^*$  such that the bank is fully disintermediated if  $n > n^*$ . Even if the bank is not fully disintermediated, the banker's rent is small because the bank's remaining assets have a market value of less than the amount of one depositor's deposit. The rent is at most the amount of added value that the banker can collect from one depositor:  $1 - \beta$  times the full value of the assets remaining in the bank after the run (and less when there is more than one depositor at the end of the line who does not withdraw and must be paid by the banker). Q.E.D.

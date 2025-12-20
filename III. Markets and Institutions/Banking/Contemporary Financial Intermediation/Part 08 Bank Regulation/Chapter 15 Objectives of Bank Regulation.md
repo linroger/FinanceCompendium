@@ -167,7 +167,7 @@ FIGURE 15.3 FDIC Combined Deposit Insurance Fund (Fund Balance in Billions of Do
 insurance funds was in deficit in 1991, but recovered in 1992, and since then grew steadily until the global financial crisis. The FDIC's measure of "well being" is its fund balance as a percentage of the total deposits insured. It is called the reserve ratio, defined as:
 
 $$
-\text {R e s e r v e R a t i o} = \frac {\text {F o u r t h - Q u a r t e r F u n d B a l a n c e}}{\text {F o u r t h - Q u a r t e r E s t i m a t e d I n s u r e d D e p o s i t s}}
+\text{Re se rv eR at io} = \frac{\text{Fo ur th -Q ua rt er Fu nd Ba la nc e}}{\text{Fo ur th -Q ua rt er Es ti ma te dI ns ur ed De po si ts}}
 $$
 
 Figure 15.3 shows the behavior of the reserve ratio through time. Regulation requires that the designated (minimum) reserve ratio is  $1.25\%$ . The deposit insurance assessment rate during 2006 ranged between  $0\%$  and  $0.27\%$ , with most banks paying no deposit insurance premiums and the average annual assessment at roughly  $0.11\%$ . The reserve ratio became negative during the global (or subprime) financial crisis in 2009 and 2010.
@@ -351,7 +351,7 @@ TABLE 15.2 Summary of Capital Constraints on U.S. Banks
 2. Tier-1 capital  $\geq 0.08\times \sum_{i = 2}^{5}C_{i}A_{i}$    
 3. Tier-1 capital  $\geq \left[0.03\times \sum_{i = 2}^{5}A_{i}\right] + d$    
 where  $A_{i} =$  dollar volume of assets in category  $i,$  and  $i$  varies from 1 to 5 as in Table 15.1.  $C_i =$  Basel risk weight or conversion factor attached to category  $i$ $d =$  an add-on usually between  $0.02\Sigma A_{i}$  and  $0.03\Sigma A_{i}$  for banks with CAMEL ratings below the best Note that Equations (2) and (3) can be combined as:   
-4. Tier-1 capital  $\geq \operatorname {Max}\left\{0.04\times \sum_{i = 2}^{5}C_{i}A_{i},\left[\left(0.03\times \sum_{i = 2}^{5}A_{i}\right) + d\right]\right\}$    
+4. Tier-1 capital  $\geq \operatorname{Max}\left\{0.04\times \sum_{i = 2}^{5}C_{i}A_{i},\left[\left(0.03\times \sum_{i = 2}^{5}A_{i}\right) + d\right]\right\}$    
 where "Max" means the greater of the two enclosed quantities in the parenthesis. The bank's capital must then satisfy both (1) and (4), above.
 ```
 
@@ -485,7 +485,7 @@ The Basel III Capital Accord also addresses systemic risk within the banking sys
 Leverage ratio: The problems with risk-based capital regulation – including potential procyclicality, complexity, manipulation,[39] and uncertainties about the reliability of internal models used by banks– created a desire for a complementary capital requirement that was simpler and more basic. As a response, the Basel III Capital Accord includes the minimum unweighted leverage ratio as an additional requirement on capital. The leverage ratio is computed as follows:
 
 $$
-\text {L e v e r a g e r a t i o} = \frac {\text {C a p i t a l m e a s u r e}}{\text {E x p o s u r e m e a s u r e}}
+\text{Le ve ra ge ra ti o} = \frac{\text{Ca pi ta lm ea su re}}{\text{Ex po su re me as ur e}}
 $$
 
 Basically, a leverage ratio is closest in spirit to a book equity-to-total-assets ratio familiar to those used to thinking about capital structure issues for nonfinancial firms.
@@ -509,7 +509,7 @@ Whereas the NSFR will require banks to implement sustainable maturity structures
 The LCR needs to be bigger than or equal to 1, where the LCR is defined as<sup>42</sup>
 
 $$
-\mathrm {L C R} = \frac {\text {S t o c k o f H Q L A}}{\text {T o t a l n e t c a s h o u t f l o w s o v e r t h e n e x t 3 0 c a l e n d a r d d a y s}}
+\mathrm{LC R} = \frac{\text{St oc ko fH QL A}}{\text{To ta ln et ca sh ou tf lo ws ov er th en ex t3 0c al en da rd da ys}}
 $$
 
 The stock of HQLA is defined as the assets that are liquid in markets even during severe distress and ideally are eligible as collateral for central bank operations. Their fundamental characteristics are low risk, ease and certainty of valuation, and low correlation with risky assets. Ideally, these assets are listed on developed exchanges.

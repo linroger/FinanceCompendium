@@ -94,7 +94,7 @@ All consumers are identical as of period 0. Each faces a privately observed, uni
 that each agent has a state-dependent utility function (with the state private information), which we assume has the form
 
 $$
-U (c _ {1}, c _ {2}; \Theta) = \left\{ \begin{array}{l l} u (c _ {1}) & \text {i f j i s o f t y p e 1 i n s t a t e} \Theta \\ \rho u (c _ {1} + c _ {2}) & \text {i f j i s o f t y p e 2 i n s t a t e} \Theta , \end{array} \right.
+U (c_{1}, c_{2}; \Theta) = \left\{ \begin{array}{l l} u (c_{1}) & \text{if ji so ft yp e1 in st at e} \Theta \\ \rho u (c_{1} + c_{2}) & \text{if ji so ft yp e2 in st at e} \Theta , \end{array} \right.
 $$
 
 where  $1 \geqslant \mathfrak{p} > R^{-1}$  and  $u: R_{++} \to R$  is twice continuously differentiable, increasing, strictly concave, and satisfies Inada conditions  $u'(0) = \infty$  and  $u'(\infty) = 0$ . Also, we assume that the relative risk-aversion coefficient  $-cu''(c)/u'(c) > 1$  everywhere. Agents maximize expected utility,  $E[u(c_1, c_2; \Theta)]$ , conditional on their information (if any).
@@ -106,19 +106,19 @@ To complete the model, we give each consumer an endowment of 1 unit in period 0 
 By comparison, if types were publicly observable as of period 1, it would be possible to write optimal insurance contracts that give the ex ante (as of period 0) optimal sharing of output between type 1 and type 2 agents. The optimal consumption  $\{c_k^{i^*}\}$  satisfies
 
 $$
-c _ {1} ^ {2 *} = c _ {2} ^ {1 *} = 0 \tag {1a}
+c_{1}^{2 *} = c_{2}^{1 *} = 0 \tag {1a}
 $$
 
 (those who can, delay consumption),
 
 $$
-u ^ {\prime} \left(c _ {1} ^ {1 *}\right) = \rho R u ^ {\prime} \left(c _ {2} ^ {2 *}\right) \tag {1b}
+u^{\prime} \left(c_{1}^{1 *}\right) = \rho R u^{\prime} \left(c_{2}^{2 *}\right) \tag {1b}
 $$
 
 (marginal utility in line with marginal productivity), and
 
 $$
-t c _ {1} ^ {1 *} + [ (1 - t) c _ {2} ^ {2 *} / R ] = 1 \tag {1c}
+t c_{1}^{1 *} + [ (1 - t) c_{2}^{2 *} / R ] = 1 \tag {1c}
 $$
 
 (the resource constraint).
@@ -130,7 +130,7 @@ The optimal insurance contract just described would allow agents to insure again
 3 The proof of this is as follows:
 
 $$
-\begin{array}{l} \rho R u ^ {\prime} (R) <   R u ^ {\prime} (R) \\ = 1 \cdot u ^ {\prime} (1) + \int_ {\gamma = 1} ^ {R} \frac {\partial}{\partial \gamma} [ \gamma u ^ {\prime} (\gamma) ] d \gamma \\ = u ^ {\prime} (1) + \int_ {\gamma = 1} ^ {R} [ u ^ {\prime} (\gamma) + u ^ {\prime \prime} (\gamma) ] d \gamma \\ <   u ^ {\prime} (1), \\ \end{array}
+\begin{array}{l} \rho R u^{\prime} (R) <   R u^{\prime} (R) \\ = 1 \cdot u^{\prime} (1) + \int_{\gamma = 1}^{R} \frac{\partial}{\partial \gamma} [ \gamma u^{\prime} (\gamma) ] d \gamma \\ = u^{\prime} (1) + \int_{\gamma = 1}^{R} [ u^{\prime} (\gamma) + u^{\prime \prime} (\gamma) ] d \gamma \\ <   u^{\prime} (1), \\ \end{array}
 $$
 
 as  $u' > 0$  and  $(\forall \gamma) - u''(\gamma)\gamma / u'(\gamma) > 1$ . Because  $u'(\cdot)$  is decreasing and the resource constraint (1c) trades off  $c_1^{1*}$  against  $c_2^{2*}$ , the solution to (1) must have  $c_1^{1*} > 1$  and  $c_2^{2*} < R$ .
@@ -144,13 +144,13 @@ In our model, the demand deposit contract gives each agent withdrawing in period
 We are assuming throughout this paper that the bank is mutually owned (a "mutual") and liquidated in period 2, so that agents not withdrawing in period 1 get a pro rata share of the bank's assets in period 2. Let  $V_{1}$  be the period 1 payoff per unit deposit withdrawn which depends on one's place in line at  $T = 1$ , and let  $V_{2}$  be the period 2 payoff per unit deposit not withdrawn at  $T = 2$ , which depends on total withdrawals at  $T = 1$ . These are given by
 
 $$
-V _ {1} \left(f _ {j}, r _ {1}\right) = \left\{ \begin{array}{l l} r _ {1} & \text {i f} f _ {j} <   r _ {1} ^ {- 1} \\ 0 & \text {i f} f _ {j} \geqslant r _ {1} ^ {- 1} \end{array} \right. \tag {2}
+V_{1} \left(f_{j}, r_{1}\right) = \left\{ \begin{array}{l l} r_{1} & \text{if } f_{j} <   r_{1}^{- 1} \\ 0 & \text{if } f_{j} \geqslant r_{1}^{- 1} \end{array} \right. \tag {2}
 $$
 
 and
 
 $$
-V _ {2} (f, r _ {1}) = \max  \left\{R \left(1 - r _ {1} f\right) / (1 - f), 0 \right\}, \tag {3}
+V_{2} (f, r_{1}) = \max  \left\{R \left(1 - r_{1} f\right) / (1 - f), 0 \right\}, \tag {3}
 $$
 
 where  $f_{j}$  is the number of withdrawals' deposits serviced before agent  $j$  as a fraction of total demand deposits;  $f$  is the total number of demand deposits withdrawn. Let  $w_{j}$  be the fraction of agent  $j$ 's deposits that he attempts to withdraw at  $T = 1$ . The consumption from deposit proceeds, per unit of deposit of a type 1 agent, is thus given by  $w_{j}V_{1}(f_{j},r_{1})$ , while the total consumption, from deposit proceeds, per unit of deposit of a type 2 agent is given by  $w_{j}V_{1}(f_{j},r_{1}) + (1 - w_{j})V_{2}(f, r_{1})$ .
@@ -186,11 +186,11 @@ If banks can suspend convertibility when withdrawals are too numerous at  $T = 1
 define  $V_{1}(\cdot)$  and  $V_{2}(\cdot)$
 
 $$
-V _ {1} (f _ {j}, r _ {1}) = \left\{ \begin{array}{l l} r _ {1} & \text {i f} f _ {j} \leqslant \hat {f} \\ 0 & \text {i f} f _ {j} > \hat {f} \end{array} \right.
+V_{1} (f_{j}, r_{1}) = \left\{ \begin{array}{l l} r_{1} & \text{if } f_{j} \leqslant \hat {f} \\ 0 & \text{if } f_{j} > \hat {f} \end{array} \right.
 $$
 
 $$
-V _ {2} (f, r _ {1}) = \max \left\{\frac {(1 - f r _ {1}) R}{1 - f}, \frac {(1 - \hat {f} r _ {1}) R}{1 - \hat {f}} \right\},
+V_{2} (f, r_{1}) = \max \left\{\frac{(1 - f r_{1}) R}{1 - f}, \frac{(1 - \hat {f} r_{1}) R}{1 - \hat {f}} \right\},
 $$
 
 where the expression for  $V_{2}$  assumes that  $1 - \hat{f} r_{1} > 0$ .
@@ -232,7 +232,7 @@ PROPOSITION 2: Demand deposit contracts with government deposit insurance achiev
 Proposition 2 follows from the ability of tax-financed deposit insurance to duplicate the optimal consumptions  $c_{1}^{1}(t) = c_{1}^{1*}(t)$ ,  $c_{2}^{2}(t) = c_{2}^{2*}(t)$ ,  $c_{2}^{1}(t) = 0$ ,  $c_{1}^{2}(t) = 0$  from the optimal risk sharing characterized in equation (1). Let the government impose a tax on all wealth held at the beginning of period  $T = 1$ , which is payable either in goods or in deposits. Let deposits be accepted for taxes at the pretax amount of goods which could be obtained if withdrawn at  $T = 1$ . The amount of tax that must be raised at  $T = 1$  depends on the number of withdrawals then and the asset liquidation policy. Consider the proportionate tax as a function of  $f$ ,  $\tau$ :  $[0, 1] \rightarrow [0, 1]$  given by
 
 $$
-\tau (f) = \left\{ \begin{array}{l l} 1 - \frac {c _ {1} ^ {1 *} (f)}{r _ {1}} & \text {i f} f \leqslant \bar {t} \\ 1 - r _ {1} ^ {- 1} & \text {i f} f > \bar {t}, \end{array} \right.
+\tau (f) = \left\{ \begin{array}{l l} 1 - \frac{c_{1}^{1 *} (f)}{r_{1}} & \text{if } f \leqslant \bar {t} \\ 1 - r_{1}^{- 1} & \text{if } f > \bar {t}, \end{array} \right.
 $$
 
 where  $\bar{t}$  is the greatest possible realization of  $\tilde{t}$ .
@@ -242,25 +242,25 @@ The after-tax proceeds, per dollar of initial deposit, of a withdrawal at  $T = 
 all  $f_{j} \leqslant f$ . Denote these after-tax proceeds by  $\hat{V}_{1}(f)$ , given by
 
 $$
-\hat {V} _ {1} (f) = \left\{ \begin{array}{l l} c _ {1} ^ {1 ^ {*}} (f) & \text {i f} f \leqslant \bar {t} \\ 1 & \text {i f} f > \bar {t}. \end{array} \right.
+\hat {V}_{1} (f) = \left\{ \begin{array}{l l} c_{1}^{1^{*}} (f) & \text{if } f \leqslant \bar {t} \\ 1 & \text{if } f > \bar {t}. \end{array} \right.
 $$
 
 The net payments to those who withdraw at  $T = 1$  determine the asset liquidation policy and the after-tax value a withdrawal at  $T = 2$ . Any tax collected in excess of that needed to meet withdrawals at  $T = 1$  is plowed back into the bank (to minimize the fraction of assets liquidated). This implies that the after-tax proceeds, per dollar of initial deposit, of a withdrawal at  $T = 2$ , denoted by  $\hat{V}_2(f)$ , are given by
 
 $$
-\hat {V} _ {2} (f) = \left\{ \begin{array}{l l} \frac {R \{1 - [ c _ {1} ^ {1 *} (f) f ] \}}{1 - f} = c _ {2} ^ {2 *} (f) & \text {i f} f \leqslant \bar {t} \\ \frac {R (1 - f)}{1 - f} & = R \quad \text {i f} f > \bar {t}. \end{array} \right.
+\hat {V}_{2} (f) = \left\{ \begin{array}{l l} \frac{R \{1 - [ c_{1}^{1 *} (f) f ] \}}{1 - f} = c_{2}^{2 *} (f) & \text{if } f \leqslant \bar {t} \\ \frac{R (1 - f)}{1 - f} & = R \quad \text{if } f > \bar {t}. \end{array} \right.
 $$
 
 Notice that  $\hat{V}_1(f) < \hat{V}_2(f)$  for all  $f \in [0, 1]$ , implying that no type 2 agents will withdraw at  $T = 1$  no matter what they expect others to do. For all  $f \in [0, 1]$ ,  $\hat{V}_1(f) > 0$ , implying that all type 1 agents will withdraw at  $T = 1$ . Therefore, the unique dominant strategy equilibrium is  $f = t$ , the realization of  $\tilde{t}$ . Evaluated at a realization  $t$ ,
 
 $$
-\hat {V} _ {1} (f = t) = c _ {1} ^ {1 *} (t)
+\hat {V}_{1} (f = t) = c_{1}^{1 *} (t)
 $$
 
 and
 
 $$
-\hat {V} _ {2} (f = t) = \frac {[ 1 - t c _ {1} ^ {1 *} (t) ] R}{1 - t} = c _ {2} ^ {2 *} (t),
+\hat {V}_{2} (f = t) = \frac{[ 1 - t c_{1}^{1 *} (t) ] R}{1 - t} = c_{2}^{2 *} (t),
 $$
 
 and the optimum is achieved.

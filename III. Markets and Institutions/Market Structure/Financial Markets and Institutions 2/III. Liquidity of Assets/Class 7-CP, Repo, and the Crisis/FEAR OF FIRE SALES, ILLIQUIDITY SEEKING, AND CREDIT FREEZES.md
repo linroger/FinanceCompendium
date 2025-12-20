@@ -82,7 +82,7 @@ The bank can raise money in anticipation of the shock by selling assets at date 
 We will describe how the price that buyers are willing to pay at date 0 is determined, given the date-1 price. Let us assume there are buyers who are not subject to liquidity shocks (such as banks with more liquid assets or longer-term liabilities, private equity, or Warren Buffet) who can buy at either date paying cash. The buyer is indifferent between buying at either date if the price gives him the same expected date 2 payoff per dollar spent, as long as the return is greater than the return on cash (so  $P_0 \leq 1$  and  $P_1 \leq 1$ ). If he buys at date 0, he gets  $\frac{1}{P_0}$  at date 2, while if he holds on to the dollar to buy the asset at date 1, he will get  $\frac{1}{P_1}$  at date 2 if the liquidity shock hits at date 1, and 1 at date 2 if it does not. Therefore, the date-0 bid price of the buyer solves  $\frac{1}{P_0} = q \frac{1}{P_1} + (1 - q)$ , or
 
 $$
-P _ {0} ^ {b i d} = \frac {1}{q \frac {1}{P _ {1}} + (1 - q)}. \tag {1}
+P_{0}^{b i d} = \frac{1}{q \frac{1}{P_{1}} + (1 - q)}. \tag {1}
 $$
 
 We will now determine the price that banks are willing to sell for at date 0, given the date-1 price, first when the bank remains solvent when the liquidity shock hits and second, when it becomes insolvent upon the shock but has limited liability. We will show that trading can dry up at date 0 in the latter case.
@@ -96,7 +96,7 @@ In words, the bank foregoes an implicit return of  $\left( \frac{1}{P_1} - 1 \ri
 The bank is indifferent between selling at date 0 and date 1 when  $fD\left( {1 - \frac{1}{{P}_{0}}}\right)  = {qfD}\left( {1 - \frac{1}{{P}_{1}}}\right)$  or
 
 $$
-P _ {0} ^ {A s k} = \frac {1}{q \frac {1}{P _ {1}} + (1 - q)}. \tag {2}
+P_{0}^{A s k} = \frac{1}{q \frac{1}{P_{1}} + (1 - q)}. \tag {2}
 $$
 
 This is also the bid price (see [1]), so both buyers and sellers are willing to trade on both dates as long as the date-0 price bears this relationship to the (yet-to-be-determined) date-1 price.
@@ -155,19 +155,19 @@ But if  $\theta - \bar{I} < fD$ , the asset will trade at a discount to face val
 Similarly, conditional on the liquidity shock at date 1, the illiquid bank will liquidate any loan at date 1 with liquidation value greater than  $P_{1}Z$  before it sells any securities for  $P_{1}$ . Provided the bank does not have to sell all its securities to meet the demand from depositors (it is at an interior), the implied interest rate the bank will use to judge whether to continue loans at date 1 is  $\frac{1}{P_{1}}$ , so the date-1 price of securities, through the bank's first-order condition, effectively determines the amount of date 1 loans recalled. The total value of cash generated from recalled loans is
 
 $$
-\frac {(1 - \beta)}{Z} \int_ {P _ {1} Z} ^ {Z} x d x = (1 - \beta) \frac {Z}{2} \left(1 - (P _ {1}) ^ {2}\right).
+\frac{(1 - \beta)}{Z} \int_{P_{1} Z}^{Z} x d x = (1 - \beta) \frac{Z}{2} \left(1 - (P_{1})^{2}\right).
 $$
 
 If the financial asset trades at a discount to face value conditional on the liquidity shock (so the interest rate is positive), only withdrawing depositors will hold cash (all who have expertise in the financial asset will want to hold it instead of cash). Therefore, cash supplied from loan liquidation and from buyers will equal cash demanded by depositors so that
 
 $$
-(3) \quad (1 - \beta) \frac {Z}{2} \left(1 - \left(P _ {1}\right) ^ {2}\right) + \left[ \theta - I \left(\frac {1}{P _ {0}}\right) \right] = f D.
+(3) \quad (1 - \beta) \frac{Z}{2} \left(1 - \left(P_{1}\right)^{2}\right) + \left[ \theta - I \left(\frac{1}{P_{0}}\right) \right] = f D.
 $$
 
 Also, we know that in equilibrium,  $P_0 = \frac{1}{q\frac{1}{P_1} + (1 - q)}$ . Substituting in (3), we can solve for the single unknown,  $P_1$ , which is determined by the bank's need to recall enough loans to meet the aggregate demand for liquidity. The necessary condition for (3) to be the equation determining  $P_1$  is that the bank be solvent, that is, it have enough value after date-1 withdrawals to pay out depositors who stay till date 2. This requires that  $\beta(1 - \eta_1)Z + (1 - \beta)P_1Z \geq (1 - f)D$ . If withdrawals are met,  $fD = (1 - \beta)\frac{Z}{2}[1 - (P_1)^2] + \beta \eta_1 ZP_1$ . Using this to substitute for  $\eta_1$ , the solvency condition is
 
 $$
-\begin{array}{l} P _ {1} [ \beta Z + (1 - \beta) P _ {1} Z - (1 - f) D ] \tag {4} \\ + \left\{\left(1 - \beta\right) \frac {Z}{2} \left[ 1 - \left(P _ {1}\right) ^ {2} \right] - f D \right\} \geq 0 \\ \end{array}
+\begin{array}{l} P_{1} [ \beta Z + (1 - \beta) P_{1} Z - (1 - f) D ] \tag {4} \\ + \left\{\left(1 - \beta\right) \frac{Z}{2} \left[ 1 - \left(P_{1}\right)^{2} \right] - f D \right\} \geq 0 \\ \end{array}
 $$
 
 The terms in the first set of square brackets on the left hand side of (4) sum up to the difference between the value of long-term assets and unwithdrawn deposits, which are discounted to date 1 at price  $P_{1}$ , while the term in the curly brackets is the difference between cash realized from liquidated loans and cash withdrawn, a liquidity shortfall that will have to be made up by selling long-term assets. As long as (4) is met, the bank will be solvent even if it sells more securities at date 0 (because  $P_{0} > P_{1}$ ).
@@ -300,13 +300,13 @@ PROPOSITION 4. Let the bank be insolvent if it retains all its securities until 
 (i) If there is an  $\eta_0$  with  $\eta_0 \in (0,1)$  such that
 
 $$
-\begin{array}{l} (5) \quad (1 - \beta) P _ {1} Z P _ {1} + (1 - \beta) \frac {Z}{2} \left[ 1 - \left(P _ {1}\right) ^ {2} \right] + \\ \beta Z \left[ \eta_ {0} P _ {0} + (1 - \eta_ {0}) P _ {1} \right] \geq (1 - f) D P _ {1} + f D \\ \end{array}
+\begin{array}{l} (5) \quad (1 - \beta) P_{1} Z P_{1} + (1 - \beta) \frac{Z}{2} \left[ 1 - \left(P_{1}\right)^{2} \right] + \\ \beta Z \left[ \eta_{0} P_{0} + (1 - \eta_{0}) P_{1} \right] \geq (1 - f) D P_{1} + f D \\ \end{array}
 $$
 
 13. The overpayment could take the form of rents needed to ensure incentive-compatibility for buyers who can acquire the asset on the regulators' behalf, subsidies to induce banks to sell and partly reveal the value of assets, or losses made in buying claims on the illiquid assets (that the authorities do not have great expertise in).
 
 $$
-\beta Z \eta_ {0} P _ {0} \leq \left[ \theta - I \left(\frac {1}{P _ {0}}\right) \right], \tag {6}
+\beta Z \eta_{0} P_{0} \leq \left[ \theta - I \left(\frac{1}{P_{0}}\right) \right], \tag {6}
 $$
 
 then all the banks can be made failsafe by requiring them to sell  $\eta_0$  of their securities at date 0.
@@ -316,15 +316,15 @@ Now let  $|I'|$  be small.
 (ii) If there is no  $\eta_0$  with  $\eta_0 \in (0,1)$  such that (5) and (6) are satisfied, then not all the banks can be saved through forced date-0 sales. The maximum fraction of banks that can be saved is given by  $\gamma$ , where  $\gamma, P_1$ , and  $\eta_0$  solve
 
 $$
-\gamma \beta Z \eta_ {0} P _ {0} = \left[ \theta - I \left(\frac {1}{P _ {0}}\right) \right] \tag {7}
+\gamma \beta Z \eta_{0} P_{0} = \left[ \theta - I \left(\frac{1}{P_{0}}\right) \right] \tag {7}
 $$
 
 $$
-(8) (1 - \gamma) \beta Z P _ {1} + \gamma \left\{f D - (1 - \beta) \frac {Z}{2} \left[ 1 - \left(P _ {1}\right) ^ {2} \right] \right\} = \left[ \theta - I \left(\frac {1}{P _ {0}}\right) \right]
+(8) (1 - \gamma) \beta Z P_{1} + \gamma \left\{f D - (1 - \beta) \frac{Z}{2} \left[ 1 - \left(P_{1}\right)^{2} \right] \right\} = \left[ \theta - I \left(\frac{1}{P_{0}}\right) \right]
 $$
 
 $$
-\begin{array}{l} (9) \quad (1 - \beta) P _ {1} Z P _ {1} + (1 - \beta) \frac {Z}{2} [ 1 - (P _ {1}) ^ {2} ] \\ + \beta Z [ \eta_ {0} P _ {0} + (1 - \eta_ {0}) P _ {1} ] = (1 - f) D P _ {1} + f D \\ \end{array}
+\begin{array}{l} (9) \quad (1 - \beta) P_{1} Z P_{1} + (1 - \beta) \frac{Z}{2} [ 1 - (P_{1})^{2} ] \\ + \beta Z [ \eta_{0} P_{0} + (1 - \eta_{0}) P_{1} ] = (1 - f) D P_{1} + f D \\ \end{array}
 $$
 
 (iii) If no feasible solution exists to (ii), then the banking system cannot be prevented from failing through securities sales at date 0.  

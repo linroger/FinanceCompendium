@@ -493,7 +493,7 @@ $$ 0 = \mathrm{NPV} = P(t, T) \times w(t, T) \times \frac{\mathrm{days}(t, T)}{3
 
 where $w(t,T)$ is the fixed swap rate for maturity $T$, $r_i$ is the daily Fed Funds rate for day $i$, $n$ is the total number of days, and
 
-$$ T - t = \frac{n}{\mathrm{days per year}} $$
+$$ T - t = \frac{n}{\mathrm{daysperyear}} $$
 
 Given a set of market input quotes for swaps with $\mathrm{NPV} = 0$, one can calculate the discount function for all of the maturity dates associated with the market quotes.
 

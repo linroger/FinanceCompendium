@@ -73,7 +73,7 @@ It might appear that the assumption that  $y = 0$  is a possible outcome of the 
 The optimal contract maximizes the risk neutral entrepreneur's expected return, given a minimum expected return to lenders of  $R$ . Let the function  $\phi$ , from the non-negative reals to the non-negative reals, be the non-pecuniary penalty function, which depends on  $z$ , the payment to lenders selected by the entrepreneur. Assume that if the entrepreneur is indifferent between several values of  $z$ , he chooses the one preferred by the lender. The optimal contract with penalties  $\phi^{*}(\cdot) \geq 0$  solves<sup>1</sup>
 
 $$
-\max  _ {\phi (\cdot)} E _ {\tilde {y}} \left[ \max  _ {z \in [ 0, \tilde {y} ]} \tilde {y} - z - \phi (z) \right] \tag {1a}
+\max_{\phi (\cdot)} E_{\tilde {y}} \left[ \max_{z \in [ 0, \tilde {y} ]} \tilde {y} - z - \phi (z) \right] \tag {1a}
 $$
 
 Subject to  $z\in \arg \max_{z\in [0,y]}y - z - \phi (z)$  (1b)
@@ -81,7 +81,7 @@ Subject to  $z\in \arg \max_{z\in [0,y]}y - z - \phi (z)$  (1b)
 and
 
 $$
-E _ {\tilde {y}} \left[ \arg \max  _ {z \in [ 0, \tilde {y} ]} \tilde {y} - z - \phi (z) \right] \geq R, \tag {1c}
+E_{\tilde {y}} \left[ \arg \max_{z \in [ 0, \tilde {y} ]} \tilde {y} - z - \phi (z) \right] \geq R, \tag {1c}
 $$
 
 where the notation "arg max" denotes the set of arguments that maximize the objective function that follows.
@@ -89,7 +89,7 @@ where the notation "arg max" denotes the set of arguments that maximize the obje
 Proposition 1. The optimal contract which solves (1) is given by  $\phi^{*}(z) = \max(h - z, 0)$ , where  $h$  is the smallest solution to
 
 $$
-(P (\tilde {y} <   h) \cdot E _ {\tilde {y}} [ \tilde {y} | y <   h ]) + (P (\tilde {y} \geq h) \cdot h) = R. \tag {2}
+(P (\tilde {y} <   h) \cdot E_{\tilde {y}} [ \tilde {y} | y <   h ]) + (P (\tilde {y} \geq h) \cdot h) = R. \tag {2}
 $$
 
 That is, it is a debt contract with face value  $h$  and a non-pecuniary bankruptcy penalty equal to the shortfall from face,  $h$ , where  $h$  is the smallest face value which provides lenders with an expected return of  $R$ .
@@ -97,19 +97,19 @@ That is, it is a debt contract with face value  $h$  and a non-pecuniary bankrup
 Proof. Given  $\phi^*(z)$ ,
 
 $$
-\arg \max  _ {z \in [ 0, y ]} y - z - \phi^ {*} (z) = \left\{ \begin{array}{l l} y & \text {i f} y <   h \\ h & \text {i f} y \geq h. \end{array} \right.
+\arg \max_{z \in [ 0, y ]} y - z - \phi^{*} (z) = \left\{ \begin{array}{l l} y & \text{if } y <   h \\ h & \text{if } y \geq h. \end{array} \right.
 $$
 
 Using (2), this satisfies with equality the constraint (1c) of providing a competitive return to lenders. By construction,  $h$  is the smallest number such that if the constraints  $z \leq y$  and  $z \leq h$  are satisfied, the expectation of  $\tilde{z}$  is at least  $R$ . Hence, to satisfy (1c), there must exist some payment  $h^+ \geq h$  which is incentive compatible. If  $z = h^+$  is incentive compatible (fulfills (1b) given contract  $\phi(z)$ ), it must be true that
 
 $$
-y - h ^ {+} - \phi (h ^ {+}) \geq \max  _ {z ^ {\prime} \in [ 0, h ^ {+} ]} y - z ^ {\prime} - \phi (z ^ {\prime})
+y - h^{+} - \phi (h^{+}) \geq \max_{z^{\prime} \in [ 0, h^{+} ]} y - z^{\prime} - \phi (z^{\prime})
 $$
 
 or for all  $z^{\prime}\in [0,h^{+}]$
 
 $$
-\begin{array}{l} \phi \left(z ^ {\prime}\right) \geq h ^ {+} + \phi \left(h ^ {+}\right) - z ^ {\prime} \\ \geq h + \phi (h ^ {+}) - z ^ {\prime} \\ \geq h - z ^ {\prime} \\ = \phi^ {*} (z ^ {\prime}). \\ \end{array}
+\begin{array}{l} \phi \left(z^{\prime}\right) \geq h^{+} + \phi \left(h^{+}\right) - z^{\prime} \\ \geq h + \phi (h^{+}) - z^{\prime} \\ \geq h - z^{\prime} \\ = \phi^{*} (z^{\prime}). \\ \end{array}
 $$
 
 The final inequality follows from the requirement  $\phi(z) \geq 0$  for all  $z$ . Combined with the result that  $\phi^{*}(z) = 0$  for all  $z \geq h$ , this implies that  $\phi^{*}(z)$  gives the smallest penalties such that it is incentive compatible to fulfill (1c), implying that  $\phi^{*}(z)$  maximizes (1).
@@ -129,7 +129,7 @@ If there were a single lender so  $m = 1$  (rather than  $m > 1$  as we assume),
 To obtain the benefits of monitoring, when  $m$  is large the task must be delegated rather than left to each individual lender. The entity doing the monitoring ("the monitor") must be provided with incentives to monitor and enforce the contract. We assume that the actions taken and the information observed by the monitor are not directly observed by the lenders. It will generally be costly to provide incentives to the monitor, and below we analyse these costs. The total cost of delegated monitoring is the physical cost of monitoring by the monitor,  $K$ , plus the expected cost of providing incentives to the monitor, which we call the cost of delegation and denote the cost per project by  $D$ . Delegated monitoring pays when
 
 $$
-K + D \leq \min  \left[ E _ {\tilde {y}} \left[ \phi^ {*} (\tilde {y}) \right], (m \cdot K) \right].
+K + D \leq \min  \left[ E_{\tilde {y}} \left[ \phi^{*} (\tilde {y}) \right], (m \cdot K) \right].
 $$
 
 The costs of delegation are analysed when the monitor is a financial intermediary who receives payments from entrepreneurs and makes payments to principals.
@@ -149,7 +149,7 @@ To analyse the conditions when intermediation is beneficial (when the monitoring
 Let us re-introduce the subscript  $i$  on the outcome  $y_{i}$  of the  $i$ -th entrepreneur. For  $i = 1, \ldots, N$ , the  $\tilde{y}_{i}$  are distributed independently and all are bounded below by zero and above by the real number  $\bar{y}$ . The probability distribution functions of the  $\tilde{y}_{i}$  are common knowledge to all. Let  $g_{i}(\cdot)$  be the non-negative real valued function which is the payment to the intermediary by the  $i$ -th entrepreneur as a function of the outcome  $y_{i}$ , assuming the intermediary monitors  $y_{i}$ . Because  $y_{i}$  is then observed by the intermediary, this implies no deadweight penalties will be imposed on the  $i$ -th entrepreneur. If the intermediary does not monitor, it must use a contract with deadweight bankruptcy penalties, as in Section 2, but in that case there would be no reason to have an intermediary. Due to the constraint that an entrepreneur can pay only what he has, we require  $g_{i}(y_{i}) \leq y_{i}$ . The intermediary monitoring  $N$  entrepreneurs receives total payments  $G_{N}$  when  $\tilde{y}_{1} = y_{1}, \tilde{y}_{2} = y_{2}, \ldots, \tilde{y}_{N} = y_{N}$  equal to
 
 $$
-G _ {N} = \sum_ {i = 1} ^ {N} g _ {i} (y _ {i}).
+G_{N} = \sum_{i = 1}^{N} g_{i} (y_{i}).
 $$
 
 Let  $\tilde{G}_N$  be the random variable with realization  $G_N$ . It is bounded above by  $\bar{G}_N$ , and below by zero.
@@ -161,13 +161,13 @@ intermediary at most  $y_{i}$ , we know  $P(\tilde{G}_N \geq N \cdot R) \leq P(\
 Let  $\Phi(Z_N)$  be the deadweight non-pecuniary penalty imposed on the intermediary when payment  $Z_N$  is made to depositors. From Proposition 1, the optimal  $\Phi(Z_N)$  which gives incentives to make payments with expectation  $N \cdot R$ , is given by
 
 $$
-\Phi \left(Z _ {N}\right) = \max  \left[ H _ {N} - Z _ {N}, 0 \right],
+\Phi \left(Z_{N}\right) = \max  \left[ H_{N} - Z_{N}, 0 \right],
 $$
 
 where the constant  $H_{N}$  is the smallest solution to
 
 $$
-\left\{\left(P (\tilde {G} _ {N} <   H _ {N}) \cdot E _ {\tilde {G} _ {N}} [ \tilde {G} _ {N} \mid G _ {N} <   H _ {N} ]\right) + \left(\left[ 1 - P (\tilde {G} _ {N} <   H _ {N}) \right] \cdot H _ {N}\right) \right\} \geq N \cdot R.
+\left\{\left(P (\tilde {G}_{N} <   H_{N}) \cdot E_{\tilde {G}_{N}} [ \tilde {G}_{N} \mid G_{N} <   H_{N} ]\right) + \left(\left[ 1 - P (\tilde {G}_{N} <   H_{N}) \right] \cdot H_{N}\right) \right\} \geq N \cdot R.
 $$
 
 With this contract in place, the expected return of the intermediary is  $E_{\tilde{G}_N}[\tilde{G}_N] - H_N$ ; therefore the intermediary chooses monitoring expenditure to maximize  $E_{\tilde{G}_N}[\tilde{G}_N]$ . The intermediary uses the same decision rule in the decision to monitor as it would if its expenditure on monitoring were freely observable. This implies that it contracts only with entrepreneurs for whom the value of monitoring exceeds its physical and delegation costs, and chooses to monitor them. The minimum cost contract which provides incentives for payment to depositors also provides incentives for monitoring. This implies that the optimal contract between the intermediary and depositors is also a debt contract.
@@ -189,19 +189,19 @@ Proposition 2. The cost of delegation, per entrepreneur monitored,  $D_{N}$ , ap
 Proof. Choose payment schedules  $g_{i} = g_{i}(y_{i})$  to the intermediary for entrepreneurs  $i = 1, \ldots, N$ , such that
 
 $$
-E _ {\tilde {g} _ {i}} [ \tilde {g} _ {i} ] = R + K + D _ {N}, \quad \text {w h e r e} D _ {N} > 0 \text {i s a r e a l n u m b e r}.
+E_{\tilde {g}_{i}} [ \tilde {g}_{i} ] = R + K + D_{N}, \quad \text{wh er e} D_{N} > 0 \text{is ar ea ln um be r}.
 $$
 
 This provides the intermediary with an expected return from the loan given by
 
 $$
-E _ {\tilde {g} _ {i} [ \tilde {g} _ {i} ]} - R - D _ {N}.
+E_{\tilde {g}_{i} [ \tilde {g}_{i} ]} - R - D_{N}.
 $$
 
 Choose the non-pecuniary bankruptcy penalties of the intermediary as
 
 $$
-\Phi_ {N} \left(Z _ {N}\right) = \max  \left[ \left(H _ {N} ^ {-} Z _ {N}\right), 0 \right]
+\Phi_{N} \left(Z_{N}\right) = \max  \left[ \left(H_{N}^{-} Z_{N}\right), 0 \right]
 $$
 
 where  $H_{N} = N\cdot (R + D_{N} / 2)$
@@ -209,13 +209,13 @@ where  $H_{N} = N\cdot (R + D_{N} / 2)$
 Given this contract, the intermediary will choose payments  $Z_{N}$  to depositors equal to
 
 $$
-Z _ {N} = \left\{ \begin{array}{l l} G _ {N} & \text {i f} G _ {N} \leq H _ {N} \\ H _ {N} & \text {i f} G _ {N} > H _ {N} \end{array} \right.
+Z_{N} = \left\{ \begin{array}{l l} G_{N} & \text{if } G_{N} \leq H_{N} \\ H_{N} & \text{if } G_{N} > H_{N} \end{array} \right.
 $$
 
 The expected return of the intermediary net of expenditure NK on monitoring is
 
 $$
-\begin{array}{l} E _ {\tilde {G} _ {N}} \left(\tilde {G} _ {N}\right) - H _ {N} - N K = \left[ N \cdot \left(R + K + D _ {N}\right) \right] - \left[ N \cdot \left(R + \frac {D _ {N}}{2}\right) \right] - (N \cdot K) \\ = \frac {N}{2} D _ {N} > 0. \\ \end{array}
+\begin{array}{l} E_{\tilde {G}_{N}} \left(\tilde {G}_{N}\right) - H_{N} - N K = \left[ N \cdot \left(R + K + D_{N}\right) \right] - \left[ N \cdot \left(R + \frac{D_{N}}{2}\right) \right] - (N \cdot K) \\ = \frac{N}{2} D_{N} > 0. \\ \end{array}
 $$
 
 (satisfying the constraint that this be non-negative.)
@@ -223,13 +223,13 @@ $$
 The aggregate expected return to depositors is given by
 
 $$
-P _ {N} \cdot \operatorname {E} _ {\tilde {G} _ {N}} [ \tilde {G} _ {N} | G _ {N} \leq H _ {N} ] + (1 - P _ {N}) \cdot H _ {N} \quad \text {w h e r e} P _ {N} \quad P (\tilde {G} _ {N} \leq H _ {N}).
+P_{N} \cdot \operatorname{E}_{\tilde {G}_{N}} [ \tilde {G}_{N} | G_{N} \leq H_{N} ] + (1 - P_{N}) \cdot H_{N} \quad \text{wh er e} P_{N} \quad P (\tilde {G}_{N} \leq H_{N}).
 $$
 
 Notice that  $G_{N} \geq 0$  implying  $E_{\tilde{G}_{N}}[\tilde{G}_{N}|G_{N} \leq H_{N}] \geq 0$  and that the aggregate expected return of depositors is greater than or equal to:
 
 $$
-\begin{array}{l} \left(1 - P _ {N}\right) \cdot H _ {N} = \left(1 - P _ {N}\right) \cdot N \cdot \left(R + \frac {D _ {N}}{2}\right) \\ > N \cdot R \quad f o r \text {s m a l l} P _ {N} > 0 \\ \end{array}
+\begin{array}{l} \left(1 - P_{N}\right) \cdot H_{N} = \left(1 - P_{N}\right) \cdot N \cdot \left(R + \frac{D_{N}}{2}\right) \\ > N \cdot R \quad f o r \text{sm al l} P_{N} > 0 \\ \end{array}
 $$
 
 i.e. for  $P_N \in (0, (D_N / 2) / (R + D_N / 2))$ .
@@ -255,7 +255,7 @@ The result of Proposition 2, that  $D_N \to 0$  as  $N \to \infty$  follows give
 Corollary to Proposition 2. If it is common knowledge that the returns of the projects of entrepreneurs  $i = 1, \ldots, N$ , are given by
 
 $$
-\tilde {y} _ {i} = \sum_ {j = 1} ^ {M} \left[ \beta_ {i j} \cdot \tilde {F} _ {j} \right] + \tilde {\varepsilon} _ {i}
+\tilde {y}_{i} = \sum_{j = 1}^{M} \left[ \beta_{i j} \cdot \tilde {F}_{j} \right] + \tilde {\varepsilon}_{i}
 $$
 
 where the  $\tilde{F}_j$  are observable ex post, the  $\tilde{\varepsilon}_i$  are independent and bounded and  $E[\tilde{y}_i] > R + K$ , then the result of Proposition 2 follows.
@@ -263,19 +263,19 @@ where the  $\tilde{F}_j$  are observable ex post, the  $\tilde{\varepsilon}_i$  
 Proof. Choose  $g_i(y_i) = \alpha_i \cdot y_i$  where
 
 $$
-\alpha_ {i} = \frac {R + K + D _ {N}}{E _ {\tilde {y}} [ \tilde {y} _ {i} ]}.
+\alpha_{i} = \frac{R + K + D_{N}}{E_{\tilde {y}} [ \tilde {y}_{i} ]}.
 $$
 
 Let the penalty contract be either
 
 $$
-\phi (Z) = Z + [ \sum_ {i = 1} ^ {N} \sum_ {j = 1} ^ {M} \alpha \cdot \beta_ {i j} \cdot F _ {j} ] - H (N)
+\phi (Z) = Z + [ \sum_{i = 1}^{N} \sum_{j = 1}^{M} \alpha \cdot \beta_{i j} \cdot F_{j} ] - H (N)
 $$
 
 where
 
 $$
-H (N) = \left[ N \cdot \left(R + \frac {D _ {N}}{2}\right) \right] - E [ \sum_ {i = 1} ^ {N} \sum_ {j = 1} ^ {M} \alpha_ {i} \cdot \beta_ {i j} \cdot \tilde {F} _ {j} ],
+H (N) = \left[ N \cdot \left(R + \frac{D_{N}}{2}\right) \right] - E [ \sum_{i = 1}^{N} \sum_{j = 1}^{M} \alpha_{i} \cdot \beta_{i j} \cdot \tilde {F}_{j} ],
 $$
 
 or let  $\phi(Z)$  be as in Proposition 2, and let the position in the futures market be  $\sum_{i=1}^{N} \alpha_i \cdot \beta_{ij}$  in futures markets  $j = 1, \ldots, M$ . The transformed random variables are now independent, and the result Proposition 2 follows.
@@ -317,25 +317,25 @@ $E_{\tilde{g}_1}[\tilde{g}_1] = R + K$ . In addition, define  $x_i \equiv g_i - 
 An agent has a four times differentiable, increasing and strictly concave von Neuman-Morganstern utility function  $U(W)$ , and initial wealth  $W_0$ . The random variables  $\tilde{x}_1$  and  $\tilde{x}_2$  are bounded and independent. The risk premium,  $\rho_i$ , for bearing the risk, of the single random variable  $x_i (i = 1, 2)$ , satisfies
 
 $$
-E _ {\tilde {x} _ {i}} \left[ U \left(W _ {0} + \tilde {x} _ {i} + \rho_ {i}\right) \right] = U \left(W _ {0} + E _ {\tilde {x} _ {i}} \left[ \tilde {x} _ {i} \right]\right).
+E_{\tilde {x}_{i}} \left[ U \left(W_{0} + \tilde {x}_{i} + \rho_{i}\right) \right] = U \left(W_{0} + E_{\tilde {x}_{i}} \left[ \tilde {x}_{i} \right]\right).
 $$
 
 The risk premium,  $\rho_{1 + 2}$ , for bearing the risk of the random variable  $\tilde{x}_1 + \tilde{x}_2$ , satisfies
 
 $$
-E _ {\tilde {x} _ {1}} E _ {\tilde {x} _ {2}} \left[ U \left(W _ {0} + \tilde {x} _ {1} + \tilde {x} _ {2} + \rho_ {1 + 2}\right) \right] = U \left(W _ {0} + E _ {\tilde {x} _ {1}} \left[ \tilde {x} _ {1} \right] + E _ {\tilde {x} _ {2}} \left[ \tilde {x} _ {2} \right]\right).
+E_{\tilde {x}_{1}} E_{\tilde {x}_{2}} \left[ U \left(W_{0} + \tilde {x}_{1} + \tilde {x}_{2} + \rho_{1 + 2}\right) \right] = U \left(W_{0} + E_{\tilde {x}_{1}} \left[ \tilde {x}_{1} \right] + E_{\tilde {x}_{2}} \left[ \tilde {x}_{2} \right]\right).
 $$
 
 Adding risks reduces the risk premium if
 
 $$
-\rho_ {1 + 2} <   \rho_ {1} + \rho_ {2}.
+\rho_{1 + 2} <   \rho_{1} + \rho_{2}.
 $$
 
 If  $\tilde{x}_2$  is a small gamble, its risk premium is proportional to the Arrow-Pratt measure of absolute risk aversion or  $-U''(W_0) / U'(W_0)$ . Treating  $\tilde{x}_1$  as part of the agent's endowment define the indirect utility function  $V(x_2)$  of increments to wealth  $x_2$ , which is also von Neuman-Morganstern and defined as
 
 $$
-V \left(x _ {2}\right) = E _ {\tilde {x} _ {1}} \left[ U \left(W _ {0} + \tilde {x} _ {1} + x _ {2}\right) \right].
+V \left(x_{2}\right) = E_{\tilde {x}_{1}} \left[ U \left(W_{0} + \tilde {x}_{1} + x_{2}\right) \right].
 $$
 
 The expected utility of the agent bearing the risk of  $\tilde{x}_1 + \tilde{x}_2$  is now expressed as  $E_{\tilde{x}_2}V(\tilde{x}_2)$ .
@@ -343,7 +343,7 @@ The expected utility of the agent bearing the risk of  $\tilde{x}_1 + \tilde{x}_
 The incremental risk premium for bearing the risk of  $\tilde{x}_2$ , given that  $\tilde{x}_1$  is in one's endowment is given by the Arrow-Pratt measure for the utility function  $V(\cdot)$ . The condition for  $\rho_{1+2} < \rho_1 + \rho_2$  is for  $V(\cdot)$  to be less risk averse than  $U(\cdot)$ , or
 
 $$
-- \frac {E _ {\tilde {x} _ {1}} \left[ U ^ {\prime \prime} \left(W _ {0} + \tilde {x} _ {1}\right) \right]}{E _ {\tilde {x} _ {1}} \left[ U ^ {\prime} \left(W _ {0} + x _ {1}\right) \right]} <   - \frac {U ^ {\prime \prime} \left(W _ {0}\right)}{U ^ {\prime} \left(W _ {0}\right)}.
+- \frac{E_{\tilde {x}_{1}} \left[ U^{\prime \prime} \left(W_{0} + \tilde {x}_{1}\right) \right]}{E_{\tilde {x}_{1}} \left[ U^{\prime} \left(W_{0} + x_{1}\right) \right]} <   - \frac{U^{\prime \prime} \left(W_{0}\right)}{U^{\prime} \left(W_{0}\right)}.
 $$
 
 Given our assumption that  $E_{x_1}[\tilde{x}_1] = 0$ , a sufficient condition can be directly obtained from Jensen's inequality. A sufficient condition is for the function  $-U''(w)$  to be concave and  $U'(w)$  to be convex, or  $U'''(\cdot) \geq 0$  and  $U'''(\cdot) \geq 0$  (with one inequality strict) over the range of  $W_0 + \tilde{x}_1 + \tilde{x}_2$ . (Clearly,  $U''' \leq 0$  and  $U''' \leq 0$  (with one inequality strict) is sufficient for the reverse condition).
@@ -353,13 +353,13 @@ The assumption that  $E_{\tilde{x}_1}[\tilde{x}_1] = 0$  is invalid if  $\tilde{
 The condition for decreasing absolute risk aversion at a point  $W$  is
 
 $$
-U ^ {\prime \prime} (W) > \frac {U ^ {\prime \prime} (W) ^ {2}}{U ^ {\prime} (W)} > 0,
+U^{\prime \prime} (W) > \frac{U^{\prime \prime} (W)^{2}}{U^{\prime} (W)} > 0,
 $$
 
 thus a sufficient condition is that over the entire domain of  $W$
 
 $$
-U ^ {\prime \prime} (W) > \frac {U ^ {\prime \prime} (W) ^ {2}}{U ^ {\prime} (W)}.
+U^{\prime \prime} (W) > \frac{U^{\prime \prime} (W)^{2}}{U^{\prime} (W)}.
 $$
 
 Combined with  $U^{\prime \prime \prime} \geq 0$ , we have a sufficient condition for diversification by adding risks to reduce the risk premium. Stronger characterizations can be obtained from stronger assumptions about the random variables  $\tilde{x}_1$  and  $\tilde{x}_2$ .
@@ -369,7 +369,7 @@ These conditions extend beyond the case of  $N = 2$ , because if over the releva
 A few examples may help to illustrate what is at work. With constant absolute risk aversion  $(-U''(W) / U'(W) = k$  for all  $W$ ), increasing the mean initial wealth is of no consequence and in addition,
 
 $$
-\frac {- V ^ {\prime \prime}}{V ^ {\prime}} = k \frac {E _ {\tilde {W}} [ U ^ {\prime} (\tilde {W}) ]}{E _ {\tilde {W}} [ U ^ {\prime} (W) ]} = k,
+\frac{- V^{\prime \prime}}{V^{\prime}} = k \frac{E_{\tilde {W}} [ U^{\prime} (\tilde {W}) ]}{E_{\tilde {W}} [ U^{\prime} (W) ]} = k,
 $$
 
 implying that diversification by adding independent risks is of no consequence, because there are no wealth levels of lower risk aversion over which to average. The quadratic utility function  $U(W) = W - (b / 2)W^{2}$  has  $U^{\prime \prime \prime}(\cdot) = U^{\prime \prime \prime \prime}(\cdot) = 0$ , therefore adding a zero mean gamble  $\tilde{x}_{1}$  does not influence the risk aversion toward the independent gamble  $\tilde{x}_{2}$ . However, a voluntarily chosen gamble  $\tilde{x}_{1}$  will have a positive expectation, and quadratic utility implies increasing absolute risk aversion. The per gamble risk premium will increase and diversification will "hurt".
@@ -377,7 +377,7 @@ implying that diversification by adding independent risks is of no consequence, 
 A simple example of a utility function which satisfies the conditions for diversification by adding risks to be beneficial is  $U(W) = 0 \cdot 05W^3 - 60W^2 + 50,000W - 4,450,000$  which is increasing and concave and has  $U'''(\cdot) > 0$ ,  $U'''(\cdot) = 0$ , and decreasing absolute risk aversion over the domain  $W \in [0,400)$ . Suppose initial wealth is 100, notice that  $U(100) = 0$ . The gamble
 
 $$
-\tilde {x} _ {1}: \begin{array}{l} \frac {1}{2} + 3 2 \cdot 1 9 8 3 \\ - 3 0 \end{array}
+\tilde {x}_{1}: \begin{array}{l} \frac{1}{2} + 3 2 \cdot 1 9 8 3 \\ - 3 0 \end{array}
 $$
 
 will be just acceptable; that is  $E_{\tilde{x}_1}[U(100 + \tilde{x}_1)] = 0$ . If  $\tilde{x}_2$  is an independent identically distributed gamble, we find  $E_{\tilde{x}_1}E_{\tilde{x}_2}[U(100 + \tilde{x}_1 + \tilde{x}_2)] = 209 \cdot 6$ . The risk aversion toward the second gamble is reduced by accepting the first.
@@ -432,7 +432,7 @@ $\alpha_{i} =$  the fraction of the  $i$ -th project retained by the intermediar
 
 $\mu_{i}(\alpha_{i}) =$  the market's valuation schedule, expressing the  $\mu_{i}$  inferred on the basis of  $\alpha_{i}$  selected.
 
-$V_{i}(\alpha_{i}) = \text{the total market value of a project } i$  implied by the schedule  $\mu_{i}(\alpha_{i})$ .  $V_{i}(\alpha_{i}) = \mu_{i}(\alpha_{i}) / (1 + r)$ .
+$V_{i}(\alpha_{i}) = \text{thetotalmarketvalueofa project } i$  implied by the schedule  $\mu_{i}(\alpha_{i})$ .  $V_{i}(\alpha_{i}) = \mu_{i}(\alpha_{i}) / (1 + r)$ .
 
 $W_{0} =$  the initial wealth of the intermediary.
 
@@ -452,24 +452,24 @@ $r =$  riskless rate of interest.
 
 $W_{1} =$  final wealth of intermediary.
 
-$\sigma_{w_1}^2 = \text{variance of final wealth.}$
+$\sigma_{w_1}^2 = \text{varianceoffinalwealth.}$
 
 Given the assumption of exponential utility, and normal distributions of the projects and market portfolio, the intermediary maximizes  $E[\tilde{W}_i] - (b / 2)\sigma_{w_i}^2$ . The budget constraint is:
 
 $$
-W _ {0} + \alpha_ {1} D _ {1} + \alpha_ {2} D _ {2} + (1 - \alpha_ {1}) V _ {1} (\alpha_ {1}) + (1 - \alpha_ {2}) V _ {2} (\alpha_ {2}) - K _ {1} - K _ {2} - \beta V _ {M} - Y = 0. \tag {A1}
+W_{0} + \alpha_{1} D_{1} + \alpha_{2} D_{2} + (1 - \alpha_{1}) V_{1} (\alpha_{1}) + (1 - \alpha_{2}) V_{2} (\alpha_{2}) - K_{1} - K_{2} - \beta V_{M} - Y = 0. \tag {A1}
 $$
 
 Final wealth is
 
 $$
-\tilde {W} _ {1} = \alpha_ {1} \left[ \tilde {x} _ {1} + \mu_ {1} - (1 + r) D _ {1} \right] + \alpha_ {2} \left[ \tilde {x} _ {2} + \mu_ {2} - (1 + r) D _ {2} \right] + \beta \tilde {M} + (1 + r) Y. \tag {A2}
+\tilde {W}_{1} = \alpha_{1} \left[ \tilde {x}_{1} + \mu_{1} - (1 + r) D_{1} \right] + \alpha_{2} \left[ \tilde {x}_{2} + \mu_{2} - (1 + r) D_{2} \right] + \beta \tilde {M} + (1 + r) Y. \tag {A2}
 $$
 
 Substituting (A2) into (A1),
 
 $$
-\begin{array}{l} \tilde {W} _ {1} = \alpha_ {1} \left[ \tilde {x} _ {1} + \mu_ {1} - \mu_ {1} \left(\alpha_ {1}\right) \right] + \alpha_ {2} \left[ \tilde {x} _ {2} + \mu_ {2} - \mu_ {2} \left(\alpha_ {2}\right) \right] + \beta \tilde {M} - (1 + r) V _ {M}) \\ + \left(W _ {0} - K _ {1} - K _ {2}\right) (1 + r) + \mu_ {1} \left(\alpha_ {1}\right) + \mu_ {2} \left(\alpha_ {2}\right). \tag {A3} \\ \end{array}
+\begin{array}{l} \tilde {W}_{1} = \alpha_{1} \left[ \tilde {x}_{1} + \mu_{1} - \mu_{1} \left(\alpha_{1}\right) \right] + \alpha_{2} \left[ \tilde {x}_{2} + \mu_{2} - \mu_{2} \left(\alpha_{2}\right) \right] + \beta \tilde {M} - (1 + r) V_{M}) \\ + \left(W_{0} - K_{1} - K_{2}\right) (1 + r) + \mu_{1} \left(\alpha_{1}\right) + \mu_{2} \left(\alpha_{2}\right). \tag {A3} \\ \end{array}
 $$
 
 The intermediary chooses  $\alpha_{1},\alpha_{2}$  and  $\beta$  to maximize  $E[\tilde{W}_1] - (b / 2)\sigma_{\tilde{W}_1}^2$ . Noting that
@@ -477,35 +477,35 @@ The intermediary chooses  $\alpha_{1},\alpha_{2}$  and  $\beta$  to maximize  $E
 $\tilde{x}_1, \tilde{x}_2,$  and  $\tilde{M}$  are independent, the optimal  $\alpha_1^*, \alpha_2^*$ , and  $\beta^*$  satisfy:
 
 $$
-\left[ \mu_ {1} - \mu_ {1} \left(\alpha_ {1} ^ {*}\right) \right] + \left(1 - \alpha_ {1} ^ {*}\right) \mu_ {\alpha_ {1}} \left(\alpha_ {1}\right) - \alpha_ {1} b \sigma_ {x _ {1}} ^ {2} = 0, \tag {A4}
+\left[ \mu_{1} - \mu_{1} \left(\alpha_{1}^{*}\right) \right] + \left(1 - \alpha_{1}^{*}\right) \mu_{\alpha_{1}} \left(\alpha_{1}\right) - \alpha_{1} b \sigma_{x_{1}}^{2} = 0, \tag {A4}
 $$
 
 $$
-\left[ \mu_ {2} - \mu_ {2} \left(\alpha_ {2} ^ {*}\right) \right] + \left(1 - \alpha_ {2} ^ {*}\right) \mu_ {\alpha_ {2}} \left(\alpha_ {2}\right) - \alpha_ {2} b \sigma_ {x _ {2}} ^ {2} = 0, \tag {A5}
+\left[ \mu_{2} - \mu_{2} \left(\alpha_{2}^{*}\right) \right] + \left(1 - \alpha_{2}^{*}\right) \mu_{\alpha_{2}} \left(\alpha_{2}\right) - \alpha_{2} b \sigma_{x_{2}}^{2} = 0, \tag {A5}
 $$
 
 and
 
 $$
-[ E [ \tilde {M} ] - (1 + r) V _ {M} ] - \beta b \sigma_ {M} ^ {2} = 0. \tag {A6}
+[ E [ \tilde {M} ] - (1 + r) V_{M} ] - \beta b \sigma_{M}^{2} = 0. \tag {A6}
 $$
 
 In a separating signalling equilibrium  $\mu_{i}(\alpha_{i}) = \mu_{i}$ . Solving (A4) and (A5) given this constraint yields
 
 $$
-(1 - \alpha_ {i}) \mu_ {\alpha_ {i}} (\alpha_ {i}) = b \alpha_ {i} \sigma_ {x _ {i}} ^ {2} \quad \text {f o r} i = 1, 2. \tag {A7}
+(1 - \alpha_{i}) \mu_{\alpha_{i}} (\alpha_{i}) = b \alpha_{i} \sigma_{x_{i}}^{2} \quad \text{fo r} i = 1, 2. \tag {A7}
 $$
 
 Solving the differential equation (A7) yields
 
 $$
-\mu_ {i} \left(\alpha_ {i}\right) = - b \sigma_ {x _ {i}} ^ {2} [ \log (1 - \alpha_ {i}) + \alpha_ {i} ] + (1 + r) K _ {i}, \tag {A8}
+\mu_{i} \left(\alpha_{i}\right) = - b \sigma_{x_{i}}^{2} [ \log (1 - \alpha_{i}) + \alpha_{i} ] + (1 + r) K_{i}, \tag {A8}
 $$
 
 plus an arbitrary constant. The least cost solution not subject to unraveling, is shown in L-P to have the constant  $= 0$ , implying that the market value of the  $i$ th project is
 
 $$
-V _ {i} \left(\alpha_ {i}\right) = \frac {1}{1 + r} \left[ - b \sigma_ {x _ {i}} ^ {2} \left[ \log \left(1 - \alpha_ {i}\right) + \alpha_ {i} \right] \right] + K _ {i}. \tag {A9}
+V_{i} \left(\alpha_{i}\right) = \frac{1}{1 + r} \left[ - b \sigma_{x_{i}}^{2} \left[ \log \left(1 - \alpha_{i}\right) + \alpha_{i} \right] \right] + K_{i}. \tag {A9}
 $$
 
 For simplicity we analyse the case of independent and identically distributed (i.i.d.) projects, where  $\mu_1 = \mu_2 = \mu$  and  $\sigma_{x_1}^2 = \sigma_{x_2}^2 = \sigma_x^2$ .
@@ -513,25 +513,25 @@ For simplicity we analyse the case of independent and identically distributed (i
 Diversification by subdividing risks occurs with an intermediary which consists of two agents each with risk aversion  $b$  who each retain a fraction  $\alpha / 2$  of each of two projects. Because their decisions are separable, they each make a decision for each project which is equivalent to that of a single agent endowed with a single project with mean  $\mu / 2$  and variance  $\sigma_x^2 / 4$ . This, in turn, is equivalent to a project with mean  $= \mu$  and variance  $= \sigma_x^2 / 2$ , because from (A8), if  $\alpha_i$  solves  $\mu_i = [\log (1 - \alpha_i) + \alpha_i] \sigma_{x_i}^2$ , it also solves  $a\mu_i = [\log (1 - \alpha_i) + \alpha_1] \cdot a\sigma_{x_i}^2$ . We can therefore analyse the comparative static effect of diversification by sub-dividing risks on an intermediary's expected utility by analysing the effect of reducing the variance of specific risk of a single project  $i = 1$ , holding its mean constant (we suppress the subscript "i"). This is given by
 
 $$
-\frac {d E [ U (\tilde {W} _ {1}) ]}{d \sigma_ {x} ^ {2}} = \frac {d E [ \tilde {W} _ {1} ]}{d \sigma_ {x} ^ {2}} - \frac {b}{2} \frac {d \sigma_ {W _ {1}} ^ {2}}{d \sigma_ {x} ^ {2}}. \tag {A10}
+\frac{d E [ U (\tilde {W}_{1}) ]}{d \sigma_{x}^{2}} = \frac{d E [ \tilde {W}_{1} ]}{d \sigma_{x}^{2}} - \frac{b}{2} \frac{d \sigma_{W_{1}}^{2}}{d \sigma_{x}^{2}}. \tag {A10}
 $$
 
 Because  $E[\tilde{x}_i] = 0$  and  $\mu = \mu(\alpha)$ , (A3) shows that  $dE[\tilde{W}_1] / d\sigma_x^2 = 0$ . Turning to the variance of final wealth, note that it is given by  $\sigma_{W_1}^2 = \alpha^2\sigma_x^2 + \beta^2\sigma_M^2$ , implying
 
 $$
-\frac {d \sigma_ {W _ {1}} ^ {2}}{d \sigma_ {x} ^ {2}} = 2 \sigma_ {x} ^ {2} \alpha \frac {d \alpha}{d \sigma_ {x} ^ {2}} + \alpha^ {2} \frac {d \sigma_ {x} ^ {2}}{d \sigma_ {x} ^ {2}} + \frac {d (\beta^ {2} \sigma_ {M} ^ {2})}{d \sigma_ {x} ^ {2}}. \tag {A11}
+\frac{d \sigma_{W_{1}}^{2}}{d \sigma_{x}^{2}} = 2 \sigma_{x}^{2} \alpha \frac{d \alpha}{d \sigma_{x}^{2}} + \alpha^{2} \frac{d \sigma_{x}^{2}}{d \sigma_{x}^{2}} + \frac{d (\beta^{2} \sigma_{M}^{2})}{d \sigma_{x}^{2}}. \tag {A11}
 $$
 
 Inspecting (A4) and (A6),  $d(\beta^2\sigma_M^2) / d\sigma_x^2 = 0$ , and by definition  $d\sigma_x^2 /d\sigma_x^2 = 1$ . In equilibrium  $\mu (\alpha) = \mu$ , so one can apply the implicit function theorem to (A8), and obtain
 
 $$
-\frac {d \alpha}{d \sigma_ {x} ^ {2}} = - \frac {d \mu (\alpha) / d \sigma_ {x} ^ {2}}{d \mu (\alpha) / d \alpha} = \frac {(1 - \alpha) [ \log (1 - \alpha) + \alpha ]}{\alpha \sigma_ {x} ^ {2}}.
+\frac{d \alpha}{d \sigma_{x}^{2}} = - \frac{d \mu (\alpha) / d \sigma_{x}^{2}}{d \mu (\alpha) / d \alpha} = \frac{(1 - \alpha) [ \log (1 - \alpha) + \alpha ]}{\alpha \sigma_{x}^{2}}.
 $$
 
 Inserting this into (A10) and (A11), one obtains
 
 $$
-\frac {d E [ U (\tilde {W} _ {i}) ]}{d \sigma_ {x} ^ {2}} = - b \left[ (1 - \alpha) [ \log (1 - \alpha) + \alpha ] + \frac {\alpha^ {2}}{2} \right] <   0.
+\frac{d E [ U (\tilde {W}_{i}) ]}{d \sigma_{x}^{2}} = - b \left[ (1 - \alpha) [ \log (1 - \alpha) + \alpha ] + \frac{\alpha^{2}}{2} \right] <   0.
 $$
 
 This is negative because it is defined over  $\alpha \in (0,1)$ , is zero at zero, and decreasing in  $\alpha$ . This corrects Proposition III in L-P, where the final  $\alpha^2$  term was omitted, leading them to conclude that the sign of the entire expression was positive. The intuition behind the correct result is clear: signalling is costly because of inferior risk sharing, if there is very little risk, the cost is low (if  $\sigma^2 = 0$ , there is no risk for the entrepreneur to bear, and no need to go public). Thus diversification by subdividing risks can serve as a basis for viable financial intermediation in a L-P setting. As  $N$ , the number of independent projects, and number of bankers within the intermediary, grows without bound, the per-project risk premium goes to zero, because the total variance of wealth, per banker in the intermediary  $(\sigma_x^2 / N)$  goes to zero.
@@ -549,19 +549,19 @@ I am grateful to S. Bhattacharya, G. Connor, P. Dybvig, B. Grundy, O. Hart, B. H
 3. For example, in the identically distributed case with 1 project, the delegation cost is
 
 $$
-D _ {1} = E _ {\tilde {g} _ {1}} \left[ H _ {1} - \tilde {g} _ {1} \mid g _ {1} \leq H _ {1} \right],
+D_{1} = E_{\tilde {g}_{1}} \left[ H_{1} - \tilde {g}_{1} \mid g_{1} \leq H_{1} \right],
 $$
 
 while with 2 projects the per project delegation cost is
 
 $$
-D _ {2} = \frac {1}{2} E _ {\tilde {g} _ {1}} E _ {\tilde {g} _ {2}} [ H _ {2} - \tilde {g} _ {1} - \tilde {g} _ {2} | g _ {1} + g _ {2} \cong H _ {2} ].
+D_{2} = \frac{1}{2} E_{\tilde {g}_{1}} E_{\tilde {g}_{2}} [ H_{2} - \tilde {g}_{1} - \tilde {g}_{2} | g_{1} + g_{2} \cong H_{2} ].
 $$
 
 We know that the minimum feasible value of  $H_{2} \leq 2H_{1}$  because if  $H_{2} = 2H_{1}$ , the expected return to depositors is at least  $2R$ . This implies  $D \leq D_{1} - C$ , where
 
 $$
-C = P (\Omega) E \left[ H _ {2} - \tilde {g} _ {1} - \tilde {g} _ {2} | \Omega \right]
+C = P (\Omega) E \left[ H_{2} - \tilde {g}_{1} - \tilde {g}_{2} | \Omega \right]
 $$
 
 and  $\Omega$  is the event " $g_1 + g_2 \geq H_1 \cdot 2$ , and either  $[g_1 \leq H_1$  or  $g_2 \leq H_1]$ ". If  $\tilde{g}_1$  and  $\tilde{g}_2$  have continuous distributions,  $P(\Omega) > 0$  unless they are perfectly correlated, implying  $C > 0$ .  

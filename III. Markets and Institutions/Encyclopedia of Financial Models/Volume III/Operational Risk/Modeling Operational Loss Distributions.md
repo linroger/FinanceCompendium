@@ -43,7 +43,7 @@ Modeling operational losses with their empirical distribution function is a nonp
 Suppose we want to find the empirical distribution function of a random variable  $X$ . It is found by:
 
 $$
-P (X \leq x) = \frac {\text {n u m b e r o f l o s s e s} \leq x}{\text {t o t a l n u m b e r o f l o s s e s}}
+P (X \leq x) = \frac{\text{nu mb er of lo ss es} \leq x}{\text{to ta ln um be ro fl os se s}}
 $$
 
 The empirical distribution function looks like a step function, with a step up occurring at each observed value of  $X$ . Figure 3 provides an illustration. The density function is simply a relative frequency histogram with a bar at each observed data value, and the height of each bar shows the proportion of losses of this magnitude out of total.
@@ -62,7 +62,7 @@ In this section, we review several popular loss distributions. Certainly, a vari
 
 The exponential distribution for a random variable  $X$  of length  $n$  is described by its density  $f$  and distribution  $F$  of the following form:
 
-$$ f (x) = \lambda e ^ {- \lambda x}, \quad F (x) = 1 - e ^ {- \lambda x}, \quad x > 0
+$$ f (x) = \lambda e^{- \lambda x}, \quad F (x) = 1 - e^{- \lambda x}, \quad x > 0
 $$
 
 The distribution is characterized by only one parameter  $\lambda$  ( $\lambda > 0$ ), which is the scale parameter.
@@ -73,18 +73,18 @@ Figure 4 Illustration of Exponential Density
 Examples of exponential densities are illustrated in Figure 4. The maximum likelihood estimate (MLE) for  $\lambda$  is
 
 $$
-\hat {\lambda} = \frac {1}{\bar {x}} \quad \text {w h e r e} \quad \bar {x} = \frac {1}{n} \sum_ {j = 1} ^ {n} x _ {j}
+\hat {\lambda} = \frac{1}{\bar {x}} \quad \text{wh er e} \quad \bar {x} = \frac{1}{n} \sum_{j = 1}^{n} x_{j}
 $$
 
 Raw moments are calculated as:
 
 $$
-\mathbb {E} (X ^ {k}) = \frac {k !}{\lambda^ {k}}
+\mathbb {E} (X^{k}) = \frac{k !}{\lambda^{k}}
 $$ and so the population mean and variance are
 
 
 $$
-\operatorname {m e a n} (X) = 1 / \lambda , \quad \operatorname {v a r} (X) = 1 / \lambda^ {2}
+\operatorname{me an} (X) = 1 / \lambda , \quad \operatorname{va r} (X) = 1 / \lambda^{2}
 $$
 
 The mode of an exponential distribution is located at zero. The skewness and kurtosis coefficients are  $\gamma_{1} = 2$  and  $\gamma_{2} = 6$ , respectively.
@@ -100,24 +100,24 @@ Note that another parameterization of the exponential distribution is possible, 
 
 A random variable  $X$  has a lognormal distribution if its density and distribution are:
 
-$$ f (x) = \frac {1}{\sqrt {2 \pi \sigma x}} e ^ {- \frac {(\log x - \mu) ^ {2}}{2 \sigma^ {2}}}
+$$ f (x) = \frac{1}{\sqrt{2 \pi \sigma x}} e^{- \frac{(\log x - \mu)^{2}}{2 \sigma^{2}}}
 $$
 
 $$
-F (x) = \Phi \left(\frac {\log x - \mu}{\sigma}\right), \quad x > 0
+F (x) = \Phi \left(\frac{\log x - \mu}{\sigma}\right), \quad x > 0
 $$ where  $\Phi (x)$  is the distribution of a standard normal,  $N(0,1)$ , random variable, and can be obtained by looking up the table of the standard normal quantiles.
 
 
 Examples of the lognormal density are illustrated in Figure 5. The parameters  $\mu$ $(-\infty < \mu < \infty)$  and  $\sigma$ $(\sigma > 0)$  are the location and scale parameters, respectively, and can be estimated with MLE as:
 
 $$
-\hat {\mu} = \frac {1}{n} \sum_ {j = 1} ^ {n} \log x _ {j}, \quad \widehat {\sigma^ {2}} = \frac {1}{n} \sum_ {j = 1} ^ {n} (\log x _ {j} - \hat {\mu}) ^ {2} \tag {1}
+\hat {\mu} = \frac{1}{n} \sum_{j = 1}^{n} \log x_{j}, \quad \widehat {\sigma^{2}} = \frac{1}{n} \sum_{j = 1}^{n} (\log x_{j} - \hat {\mu})^{2} \tag {1}
 $$
 
 Raw moments are calculated as:
 
 $$
-\mathbb {E} (X ^ {k}) = e ^ {\mu k + \frac {\sigma^ {2} k ^ {2}}{2}}
+\mathbb {E} (X^{k}) = e^{\mu k + \frac{\sigma^{2} k^{2}}{2}}
 $$ and so the population mean and variance are calculated to be
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/764fc66e7ea3b776db20adca61d54717069408cc49449b3f6a64eae2be4a1ded.jpg)
@@ -125,13 +125,13 @@ Figure 5 Illustration of Lognormal Density
 
 
 $$
-\operatorname {m e a n} (X) = e ^ {\mu + \frac {\sigma^ {2}}{2}}, \quad \operatorname {v a r} (X) = \left(e ^ {\sigma^ {2}} - 1\right) e ^ {2 \mu + \sigma^ {2}}
+\operatorname{me an} (X) = e^{\mu + \frac{\sigma^{2}}{2}}, \quad \operatorname{va r} (X) = \left(e^{\sigma^{2}} - 1\right) e^{2 \mu + \sigma^{2}}
 $$
 
 The mode is located at  $e^{\mu -\sigma^2}$ . The skewness and kurtosis coefficients are:
 
 $$
-\begin{array}{l} \gamma_ {1} = \sqrt {e ^ {\sigma^ {2}} - 1} (2 + e ^ {\sigma^ {2}}) \\ \gamma_ {2} = e ^ {4 \sigma^ {2}} + 2 e ^ {3 \sigma^ {2}} + 3 e ^ {2 \sigma^ {2}} - 6 \\ \end{array}
+\begin{array}{l} \gamma_{1} = \sqrt{e^{\sigma^{2}} - 1} (2 + e^{\sigma^{2}}) \\ \gamma_{2} = e^{4 \sigma^{2}} + 2 e^{3 \sigma^{2}} + 3 e^{2 \sigma^{2}} - 6 \\ \end{array}
 $$
 
 The inverse of the distribution is  $F^{-1}(p) = e^{\Phi^{-1}(p)\sigma + \mu}$ , and so a lognormal random variate can be simulated by  $X = e^{\Phi^{-1}(U)\sigma + \mu}$ , where  $\Phi$  is the standard normal distribution. Note that a lognormal random variable can be obtained from a normal random variable  $Y$  with parameters  $\mu$  and  $\sigma$  (this is often written as  $N(\mu, \sigma)$ ) via the transformation  $X = e^{Y}$ . Thus, if  $X$  has a lognormal distribution, then  $\log X$  has a normal distribution with the same parameters.
@@ -142,14 +142,14 @@ The lognormal distribution is characterized by moderately heavy tails, with the 
 
 The Weibull distribution is a generalization of the exponential distribution: Two parameters instead of one parameter allow for greater flexibility and heavier tails. The density and distribution are
 
-$$ f (x) = \alpha \beta x ^ {\alpha - 1} e ^ {- \beta x ^ {\alpha}}, F (x) = 1 - e ^ {- \beta x ^ {\alpha}}, x > 0
+$$ f (x) = \alpha \beta x^{\alpha - 1} e^{- \beta x^{\alpha}}, F (x) = 1 - e^{- \beta x^{\alpha}}, x > 0
 $$ with  $\beta (\beta >0)$  being the scale parameter and  $\alpha$ $(\alpha >0)$  the shape parameter.
 
 
 Examples of the density are illustrated in Figure 6. The MLE estimators for the parameters do not exist in closed form, and should be evaluated numerically. Raw moments are calculated as:
 
 $$
-\mathbb {E} (X ^ {k}) = \beta^ {- k / \alpha} \Gamma \left(1 + \frac {k}{\alpha}\right)
+\mathbb {E} (X^{k}) = \beta^{- k / \alpha} \Gamma \left(1 + \frac{k}{\alpha}\right)
 $$ and so the population mean and variance are:
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/06b43f456346babd0cf07c317f77f6805e7d14ef8319104f49d076122b7c8a7c.jpg)
@@ -160,13 +160,13 @@ Figure 7 Illustration of Gamma Density
 
 
 $$
-\begin{array}{l} \operatorname {m e a n} (X) = \beta^ {- 1 / \alpha} \Gamma \left(1 + \frac {1}{\alpha}\right) \\ \operatorname {v a r} (X) = \beta^ {- 2 / \alpha} \left(\Gamma \left(1 + \frac {2}{\alpha}\right) - \Gamma^ {2} \left(1 + \frac {1}{\alpha}\right)\right) \\ \end{array}
+\begin{array}{l} \operatorname{me an} (X) = \beta^{- 1 / \alpha} \Gamma \left(1 + \frac{1}{\alpha}\right) \\ \operatorname{va r} (X) = \beta^{- 2 / \alpha} \left(\Gamma \left(1 + \frac{2}{\alpha}\right) - \Gamma^{2} \left(1 + \frac{1}{\alpha}\right)\right) \\ \end{array}
 $$
 
 The mode is located at  $\beta^{-1}(1 - \alpha^{-1})^{1 / \alpha}$  for  $\alpha >0$  and at zero otherwise. The formulae for the skewness and kurtosis coefficients are:
 
 $$
-\begin{array}{l} \gamma_ {1} = \frac {2 \Gamma^ {3} (1 + \frac {1}{\alpha}) - 3 \Gamma (1 + \frac {1}{\alpha}) \Gamma (1 + \frac {2}{\alpha}) + \Gamma (1 + \frac {3}{\alpha})}{\left[ \Gamma (1 + \frac {2}{\alpha}) - \Gamma^ {2} (1 + \frac {1}{\alpha}) ^ {3 / 2} \right]} \\ \gamma_ {2} = \frac {- 6 \left[ \Gamma^ {4} (1 + \frac {1}{\alpha}) - 1 2 \Gamma^ {2} (1 + \frac {1}{\alpha}) \Gamma (1 + \frac {2}{\alpha}) - 3 \Gamma^ {2} (1 + \frac {2}{\alpha}) - 4 \Gamma (1 + \frac {1}{\alpha}) \Gamma (1 + \frac {3}{\alpha}) + \Gamma (1 + \frac {4}{\alpha}) \right]}{\left[ \Gamma (1 + \frac {2}{\alpha}) - \Gamma^ {2} (1 + \frac {1}{\alpha}) \right] ^ {2}} \\ \end{array}
+\begin{array}{l} \gamma_{1} = \frac{2 \Gamma^{3} (1 + \frac{1}{\alpha}) - 3 \Gamma (1 + \frac{1}{\alpha}) \Gamma (1 + \frac{2}{\alpha}) + \Gamma (1 + \frac{3}{\alpha})}{\left[ \Gamma (1 + \frac{2}{\alpha}) - \Gamma^{2} (1 + \frac{1}{\alpha})^{3 / 2} \right]} \\ \gamma_{2} = \frac{- 6 \left[ \Gamma^{4} (1 + \frac{1}{\alpha}) - 1 2 \Gamma^{2} (1 + \frac{1}{\alpha}) \Gamma (1 + \frac{2}{\alpha}) - 3 \Gamma^{2} (1 + \frac{2}{\alpha}) - 4 \Gamma (1 + \frac{1}{\alpha}) \Gamma (1 + \frac{3}{\alpha}) + \Gamma (1 + \frac{4}{\alpha}) \right]}{\left[ \Gamma (1 + \frac{2}{\alpha}) - \Gamma^{2} (1 + \frac{1}{\alpha}) \right]^{2}} \\ \end{array}
 $$
 
 The inverse of a Weibull random variable does not exist in a simple closed form. To generate a Weibull random variable, one can first generate an exponential random variable  $Y$  with parameter  $\beta$  and then follow the transformation  $X = Y^{1 / \alpha}$ .
@@ -182,25 +182,25 @@ The gamma distribution is another generalization of an exponential distribution 
 
 
 $$
-\begin{array}{l} f (x) = \frac {\beta^ {\alpha}}{\Gamma (\alpha)} x ^ {a - 1} e ^ {- \beta x} \\ F (x) = \Gamma (a; \beta x), \quad x > 0 \\ \end{array}
+\begin{array}{l} f (x) = \frac{\beta^{\alpha}}{\Gamma (\alpha)} x^{a - 1} e^{- \beta x} \\ F (x) = \Gamma (a; \beta x), \quad x > 0 \\ \end{array}
 $$ where the two parameters,  $\alpha$  ( $\alpha > 0$ ) and  $\beta$  ( $\beta > 0$ ), characterize the shape and scale, respectively.
 
 
 Examples of the density are illustrated in Figure 7. The MLE estimates for the parameters can be only evaluated numerically. The raw moments are found by:
 
 $$
-\mathbb {E} (X ^ {k}) = \frac {\Gamma (\alpha + k)}{\Gamma (\alpha) \beta^ {k}}
+\mathbb {E} (X^{k}) = \frac{\Gamma (\alpha + k)}{\Gamma (\alpha) \beta^{k}}
 $$ yielding the population mean and variance as
 
 
 $$
-\operatorname {m e a n} (X) = \frac {\alpha}{\beta}, \quad \operatorname {v a r} (X) = \frac {\alpha}{\beta^ {2}}
+\operatorname{me an} (X) = \frac{\alpha}{\beta}, \quad \operatorname{va r} (X) = \frac{\alpha}{\beta^{2}}
 $$
 
 The mode is  $\frac{\alpha - 1}{\beta}$  for  $\alpha > 1$  and zero otherwise. The skewness and kurtosis coefficients are found by
 
 $$
-\gamma_ {1} = \frac {2}{\sqrt {\alpha}}, \quad \gamma_ {2} = \frac {6}{\alpha}
+\gamma_{1} = \frac{2}{\sqrt{\alpha}}, \quad \gamma_{2} = \frac{6}{\alpha}
 $$
 
 If  $\alpha$  is an integer, then to generate a gamma random variable with parameters  $\alpha$  and  $\beta$  one can generate a sum of  $\alpha$  exponential random variables each with parameter  $\beta$ . Hence, if  $U_{1}, U_{2}, \ldots, U_{\alpha}$  are independent uniform  $(0, 1)$  random variables, then  $X = -1 / \beta \log (\Pi_{j=1}^{\alpha} U_{j})$  has the desired distribution. A variety of methods for generation of a gamma random variable is described in Devroye (1986).
@@ -209,7 +209,7 @@ If  $\alpha$  is an integer, then to generate a gamma random variable with param
 
 The beta distribution has density and distribution of the following form:11
 
-$$ f (x) = \frac {\Gamma (\alpha + \beta)}{\Gamma (\alpha) \Gamma (\beta)} x ^ {\alpha - 1} (1 - x) ^ {\beta - 1}
+$$ f (x) = \frac{\Gamma (\alpha + \beta)}{\Gamma (\alpha) \Gamma (\beta)} x^{\alpha - 1} (1 - x)^{\beta - 1}
 $$
 
 $$
@@ -222,36 +222,36 @@ Examples of the density are illustrated in Figure 8. Note that  $X$  has a bound
 Figure 8 Illustration of Beta Density
 
 
-$$ f (x) = \frac {\Gamma (\alpha) \Gamma (\beta)}{\Gamma (\alpha + \beta)} \left(\frac {x}{\theta}\right) ^ {\alpha - 1} \left(1 - \frac {x}{\theta}\right) ^ {\beta - 1} \frac {1}{x}
+$$ f (x) = \frac{\Gamma (\alpha) \Gamma (\beta)}{\Gamma (\alpha + \beta)} \left(\frac{x}{\theta}\right)^{\alpha - 1} \left(1 - \frac{x}{\theta}\right)^{\beta - 1} \frac{1}{x}
 $$
 
 $$
-F (x) = I \left(\frac {x}{\theta}; \alpha , \beta\right), \quad 0 <   x <   \theta , \quad \theta > 0
+F (x) = I \left(\frac{x}{\theta}; \alpha , \beta\right), \quad 0 <   x <   \theta , \quad \theta > 0
 $$
 
 The parameters  $\alpha$  ( $\alpha > 0$ ) and  $\beta$  ( $\beta > 0$ ) determine the shape of the distribution. The MLE estimators can be evaluated numerically. The raw moments for the regular version of the beta density can be found by
 
 $$
-\mathbb {E} (X ^ {k}) = \frac {(\alpha + \beta - 1) ! (\alpha + k - 1) !}{(\alpha - 1) ! (\alpha + \beta + k - 1) !}
+\mathbb {E} (X^{k}) = \frac{(\alpha + \beta - 1) ! (\alpha + k - 1) !}{(\alpha - 1) ! (\alpha + \beta + k - 1) !}
 $$ yielding the mean and the variance:
 
 
 $$
-\operatorname {m e a n} (X) = \frac {\alpha}{\alpha + \beta}
+\operatorname{me an} (X) = \frac{\alpha}{\alpha + \beta}
 $$
 
 $$
-\operatorname {v a r} (X) = \frac {\alpha \beta}{(a + \beta) ^ {2} (\alpha + \beta + 1)}
+\operatorname{va r} (X) = \frac{\alpha \beta}{(a + \beta)^{2} (\alpha + \beta + 1)}
 $$
 
 The mode is equal to  $(\alpha - 1) / (\alpha + \beta - 2)$ . The skewness and kurtosis coefficients are estimated by
 
 $$
-\gamma_ {1} = \frac {2 (\beta - \alpha) \sqrt {1 + \alpha + \beta}}{\sqrt {\alpha + \beta} (2 + \alpha + \beta)}
+\gamma_{1} = \frac{2 (\beta - \alpha) \sqrt{1 + \alpha + \beta}}{\sqrt{\alpha + \beta} (2 + \alpha + \beta)}
 $$
 
 $$
-\gamma_ {2} = \frac {6 [ \alpha^ {3} + \alpha^ {2} (1 - 2 \beta) + \beta^ {2} (1 + \beta) - 2 \alpha \beta (2 + \beta) ]}{\alpha \beta (\alpha + \beta + 2) (\alpha + \beta + 3)}
+\gamma_{2} = \frac{6 [ \alpha^{3} + \alpha^{2} (1 - 2 \beta) + \beta^{2} (1 + \beta) - 2 \alpha \beta (2 + \beta) ]}{\alpha \beta (\alpha + \beta + 2) (\alpha + \beta + 3)}
 $$
 
 The beta random variate can be generated using an algorithm described in Ross (2001, 2002) or Devroye (1986).
@@ -262,7 +262,7 @@ Note that the beta distribution is related to the gamma distribution. Suppose we
 
 The Pareto distribution is characterized by its density and distribution of the form:
 
-$$ f (x) = \frac {\alpha \beta^ {\alpha}}{x ^ {\alpha + 1}}, F (x) = 1 - \left(\frac {\beta}{x}\right) ^ {\alpha}, \beta <   x <   \infty
+$$ f (x) = \frac{\alpha \beta^{\alpha}}{x^{\alpha + 1}}, F (x) = 1 - \left(\frac{\beta}{x}\right)^{\alpha}, \beta <   x <   \infty
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/fcfc9c610a32c337cda8c25246053c30ac3b3c16dbafeb7c115f7c3269d32a88.jpg)
@@ -275,26 +275,26 @@ Figure 9 illustrates some examples of the density. No closed-form expressions fo
 The raw moments are estimated by
 
 $$
-\mathbb {E} (X ^ {k}) = \frac {\alpha \beta^ {k}}{\alpha - k}
+\mathbb {E} (X^{k}) = \frac{\alpha \beta^{k}}{\alpha - k}
 $$ from which the population mean and variance are found to be
 
 
 $$
-\operatorname {m e a n} (X) = \frac {\alpha \beta}{\alpha - 1} \quad \text {f o r} \alpha > 1
+\operatorname{me an} (X) = \frac{\alpha \beta}{\alpha - 1} \quad \text{fo r} \alpha > 1
 $$
 
 $$
-\operatorname {v a r} (X) = \frac {\alpha \beta^ {2}}{(\alpha - 1) ^ {2} (\alpha - 2)} \quad \text {f o r} \alpha > 2
+\operatorname{va r} (X) = \frac{\alpha \beta^{2}}{(\alpha - 1)^{2} (\alpha - 2)} \quad \text{fo r} \alpha > 2
 $$
 
 The mode is equal to zero. The skewness and kurtosis coefficients are:
 
 $$
-\gamma_ {1} = \sqrt {\frac {\alpha - 2}{\alpha}} \frac {2 (\alpha + 1)}{\alpha - 3}
+\gamma_{1} = \sqrt{\frac{\alpha - 2}{\alpha}} \frac{2 (\alpha + 1)}{\alpha - 3}
 $$
 
 $$
-\gamma_ {2} = \frac {6 (\alpha^ {3} + \alpha^ {2} - 6 \alpha - 2)}{\alpha (\alpha - 3) (\alpha - 4)}
+\gamma_{2} = \frac{6 (\alpha^{3} + \alpha^{2} - 6 \alpha - 2)}{\alpha (\alpha - 3) (\alpha - 4)}
 $$
 
 The inverse of the distribution is  $F^{-1}(p) = \beta((1 - p)^{-1/\alpha} - 1)$ , which can be used to generate a Pareto random variate.
@@ -315,7 +315,7 @@ Note the following:
 The Burr distribution is a generalized three-parameter version of the Pareto distribution and allows for greater flexibility in the shape due to additional shape parameter  $\gamma$  ( $\gamma > 0$ ). The density and distribution functions can be written as
 
 $$
-\begin{array}{l} f (x) = \gamma \alpha \beta^ {\alpha} \frac {x ^ {\gamma - 1}}{(\beta + x ^ {\gamma}) ^ {\alpha + 1}} \\ F (x) = 1 - \left(\frac {\beta}{\beta + x ^ {\gamma}}\right) ^ {\alpha}, \quad x > 0 \\ \end{array}
+\begin{array}{l} f (x) = \gamma \alpha \beta^{\alpha} \frac{x^{\gamma - 1}}{(\beta + x^{\gamma})^{\alpha + 1}} \\ F (x) = 1 - \left(\frac{\beta}{\beta + x^{\gamma}}\right)^{\alpha}, \quad x > 0 \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/fb8d08d758e7a28735ac661764e441f05fdc2cb3972687a460e6786e00efc4a6.jpg)
@@ -324,16 +324,16 @@ Figure 10 Illustration of Burr Density
 Examples of the density are depicted in Figure 10. The MLE estimators for the parameters can generally be evaluated only numerically. The raw moments are estimated as:
 
 $$
-\begin{array}{l} \mathbb {E} (X ^ {k}) = \frac {\beta^ {k / \gamma}}{\Gamma (\alpha)} \Gamma \left(1 + \frac {k}{\gamma}\right) \Gamma \left(\alpha - \frac {k}{\gamma}\right), \\ - \gamma <   k <   \gamma \alpha \\ \end{array}
+\begin{array}{l} \mathbb {E} (X^{k}) = \frac{\beta^{k / \gamma}}{\Gamma (\alpha)} \Gamma \left(1 + \frac{k}{\gamma}\right) \Gamma \left(\alpha - \frac{k}{\gamma}\right), \\ - \gamma <   k <   \gamma \alpha \\ \end{array}
 $$ from which the population mean and variance are calculated as:
 
 
 $$
-\begin{array}{l} \operatorname {m e a n} (X) = \frac {\beta^ {1 / \gamma}}{\Gamma (\alpha)} \Gamma \left(1 + \frac {1}{\gamma}\right) \Gamma \left(\alpha - \frac {1}{\gamma}\right) \\ \gamma \alpha > 1 \\ \end{array}
+\begin{array}{l} \operatorname{me an} (X) = \frac{\beta^{1 / \gamma}}{\Gamma (\alpha)} \Gamma \left(1 + \frac{1}{\gamma}\right) \Gamma \left(\alpha - \frac{1}{\gamma}\right) \\ \gamma \alpha > 1 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \operatorname {v a r} (X) = \frac {\beta^ {2 / \gamma}}{\Gamma (\alpha)} \Gamma \left(1 + \frac {2}{\gamma}\right) \Gamma \left(\alpha - \frac {2}{\gamma}\right) \\ - \frac {\beta^ {2 / \gamma}}{\Gamma^ {2} (\alpha)} \Gamma^ {2} \left(1 + \frac {1}{\gamma}\right) \Gamma^ {2} \left(\alpha - \frac {1}{\gamma}\right), \\ \gamma \alpha > 2 \\ \end{array}
+\begin{array}{l} \operatorname{va r} (X) = \frac{\beta^{2 / \gamma}}{\Gamma (\alpha)} \Gamma \left(1 + \frac{2}{\gamma}\right) \Gamma \left(\alpha - \frac{2}{\gamma}\right) \\ - \frac{\beta^{2 / \gamma}}{\Gamma^{2} (\alpha)} \Gamma^{2} \left(1 + \frac{1}{\gamma}\right) \Gamma^{2} \left(\alpha - \frac{1}{\gamma}\right), \\ \gamma \alpha > 2 \\ \end{array}
 $$
 
 The mode is equal to  $\frac{1}{\beta^{1 / \gamma}}\left(\frac{\gamma - 1}{\alpha\gamma + 1}\right)^{1 / \gamma}$  for  $\gamma >1$  and zero otherwise.
@@ -350,7 +350,7 @@ Histograms of the operational loss data often reveal a very high peak close to z
 
 The density and distribution of a  $m$ -point mixture distribution can be expressed as
 
-$$ f (x) = \sum_ {j = 1} ^ {m} w _ {j} f _ {j} (x), \quad F (x) = \sum_ {j = 1} ^ {m} w _ {j} F _ {j} (x)
+$$ f (x) = \sum_{j = 1}^{m} w_{j} f_{j} (x), \quad F (x) = \sum_{j = 1}^{m} w_{j} F_{j} (x)
 $$ where  $w_{j}, j = 1,2,\dots,m$ , are the positive weights attached to each member distribution, adding up to 1. It is possible to have a mixture of different types of distributions, such as exponential and Weibull, or of the same type of distribution but with different parameters.
 
 
@@ -363,14 +363,14 @@ Figure 11 Illustration of 2-Point Lognormal Mixture Density
 
 
 $$
-\operatorname {m e a n} (X) = \sum_ {j = 1} ^ {m} w _ {j} \mathbb {E} _ {j} (X), \quad \operatorname {v a r} (X) = \sum_ {j = 1} ^ {m} w _ {j} ^ {2} \sigma_ {j} ^ {2} (X)
+\operatorname{me an} (X) = \sum_{j = 1}^{m} w_{j} \mathbb {E}_{j} (X), \quad \operatorname{va r} (X) = \sum_{j = 1}^{m} w_{j}^{2} \sigma_{j}^{2} (X)
 $$ where the subscripts  $j$  refer to each member density. The right tail follows  $\bar{F} (x) = \sum_{j = 1}^{m}w_{j}\bar{F}_{j}(x)$
 
 
 The advantage of using mixture distributions is that they can be fitted to practically all shapes of loss distributions. On the other hand, the models may lack reliability due to a large number of parameters that need to be estimated (in particular, when the available loss data set is not large enough). For example, a 2-point mixture of exponential distributions requires only three parameters, but a 4-point mixture of exponential distributions requires seven parameters. In some cases, this problem may be overcome when certain simplifications are applied to the model. For example, it is possible to achieve a 2-point mixture of Pareto distributions with four, instead of five, unknown parameters; the following distribution has been successfully applied to liability insurance:
 
 $$
-F (x) = 1 - a \left(\frac {\beta_ {1}}{\beta_ {1} + x}\right) ^ {\alpha} + (1 - a) \left(\frac {\beta_ {2}}{\beta_ {2} + x}\right) ^ {\alpha + 2}
+F (x) = 1 - a \left(\frac{\beta_{1}}{\beta_{1} + x}\right)^{\alpha} + (1 - a) \left(\frac{\beta_{2}}{\beta_{2} + x}\right)^{\alpha + 2}
 $$ with the first distribution covering smaller magnitude events and having a higher weight  $a$  attached, and the second distribution covering infrequent large-magnitude events.[13]
 
 

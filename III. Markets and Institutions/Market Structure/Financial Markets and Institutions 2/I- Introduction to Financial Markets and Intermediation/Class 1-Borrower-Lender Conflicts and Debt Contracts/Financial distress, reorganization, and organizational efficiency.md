@@ -122,7 +122,7 @@ The financial and ownership structures chosen by Japanese firms raise important 
 Previous studies of financial distress focus on the costs and ignore the possibility that distress can result in beneficial outcomes. This stems in part from a widely accepted model of the firm's capital-structure decision. For example, in their textbook, Brealey and Myers (1988, p. 421) present the following simple formula for the value of a leveraged firm:
 
 $$
-\begin{array}{l} \text{Value of firm} = \text{Value if all equity financed} + PV \text{tax shield} \\ - PV \text{cost} \\ \end{array}
+\begin{array}{l} \text{Valueoffirm} = \text{Valueifallequityfinanced} + PV \text{taxshield} \\ - PV \text{cost} \\ \end{array}
 $$
 
 where the $PV$ cost of financial distress is the probability of financial distress multiplied by the expected costs (out-of-pocket plus indirect costs). According to this formula, the firm chooses how much to borrow by balancing the tax benefits of leverage against the costs of an increased probability of financial distress. But this analysis is incomplete because it ignores both the nontax benefits of leverage and the benefits of financial distress. Therefore, it understates the amount a firm should borrow.

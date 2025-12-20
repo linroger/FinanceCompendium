@@ -109,7 +109,7 @@ The United States has been a relatively late entrant in the international indexe
 TIPS cash flows are indexed to the non-seasonally adjusted CPI-U, which is typically reported in the second or third week of the following month. For example, the December 2005 CPI-U index level is reported on January 18, 2006. To compute the inflation-adjusted coupon and principal payments, the CPI-U index is used with a two-month lag: The index value on the first of a given month is the CPI-U of the third preceding month. For example, the CPI-U index value for March 1, 2006, is the CPI-U of the month of December 2005 released on January 18, 2006. The index value for any given day in a month is the linear interpolation of the index value at the beginning of the month and the index value at the beginning of the following month. The index value for February 21, 2006, equals the linear interpolation of the index value of 197.6 on February 1, 2006, and of the index value of 196.8 on March 1, 2006. 197.6 is the CPI-U for the month of November 2005 released on December 15, 2005, and 196.8 is CPI-U for the month of December released on January 18, 2006.
 
 $$
-C P I (F e b 2 1, 2 0 0 6) = C P I (F e b 1, 2 0 0 6) + \frac {2 0}{2 8} \left\{C P I (M a r 1, 2 0 0 6) - C P I (F e b 1, 2 0 0 6) \right\}
+C P I (F e b 2 1, 2 0 0 6) = C P I (F e b 1, 2 0 0 6) + \frac{2 0}{2 8} \left\{C P I (M a r 1, 2 0 0 6) - C P I (F e b 1, 2 0 0 6) \right\}
 $$
 
 where 20 is the number of days between February 21, 2006 and February 1, 2006 and 28 is the number of days between March 1, 2006 and February 1, 2006.  $CPI(Feb1,2006) = 197.0286$ .
@@ -117,13 +117,13 @@ where 20 is the number of days between February 21, 2006 and February 1, 2006 an
 At a coupon date, a bond with fixed coupon rate  $c$  and face value of 100 pays:
 
 $$
-1 0 0 \times \frac {C P I (\text {c o u p o n d a t e})}{C P I (\text {d a t e d d a t e})} \times \frac {c}{2} \times \frac {\text {N u m b e r o f d a y s a c c r u e d}}{\text {A c t u a l n u m b e r o f d a y s i n c o u p o n p e r i o d}}
+1 0 0 \times \frac{C P I (\text{co up on da te})}{C P I (\text{da te dd at e})} \times \frac{c}{2} \times \frac{\text{Nu mb er of da ys ac cr ue d}}{\text{Ac tu al nu mb er of da ys in co up on pe ri od}}
 $$
 
 And at maturity, the balloon principal payment is equal to:
 
 $$
-\operatorname {M a x} \left\{1 0 0, 1 0 0 \times \frac {\operatorname {C P I} (\text {m a t u r i t y d a t e})}{\operatorname {C P I} (\text {d a t e d d a t e})} \right\} = 1 0 0 \times \frac {\operatorname {C P I} (\text {m a t u r i t y d a t e})}{\operatorname {C P I} (\text {d a t e d d a t e})} + \operatorname {M a x} \left\{0, 1 0 0 - 1 0 0 \times \frac {\operatorname {C P I} (\text {m a t u r i t y d a t e})}{\operatorname {C P I} (\text {d a t e d d a t e})} \right\}
+\operatorname{Ma x} \left\{1 0 0, 1 0 0 \times \frac{\operatorname{CP I} (\text{ma tu ri ty da te})}{\operatorname{CP I} (\text{da te dd at e})} \right\} = 1 0 0 \times \frac{\operatorname{CP I} (\text{ma tu ri ty da te})}{\operatorname{CP I} (\text{da te dd at e})} + \operatorname{Ma x} \left\{0, 1 0 0 - 1 0 0 \times \frac{\operatorname{CP I} (\text{ma tu ri ty da te})}{\operatorname{CP I} (\text{da te dd at e})} \right\}
 $$
 
 The right-hand side of the above equation highlights more conspicuously the deflation put option embedded in TIPS.
@@ -133,10 +133,10 @@ The above description of the treatment of the cash flows of the TIPS will be cle
 Where 37 is the number of days between February 21, 2006, and the last coupon date of January 15, 2006, and 181 is the number of days between the next coupon date of July 15, 2006, and January 15, 2006. The full transaction price is:
 
 $$
-\left(P + A I \left(J a n 1 5, 2 0 0 6, F e b 2 1, 2 0 0 6\right)\right) \times \frac {C P I \left(F e b 2 1 , 2 0 0 6\right)}{C P I \left(J a n 1 5 , 1 9 9 7\right)} = 1 2 6. 6 9 2 1
+\left(P + A I \left(J a n 1 5, 2 0 0 6, F e b 2 1, 2 0 0 6\right)\right) \times \frac{C P I \left(F e b 2 1 , 2 0 0 6\right)}{C P I \left(J a n 1 5 , 1 9 9 7\right)} = 1 2 6. 6 9 2 1
 $$
 
-Where January 15, 1997, is the dated date or the reference date. For each bond, the index ratio  $\frac{CPI(\text{settlement date})}{CPI(\text{dated date})}$
+Where January 15, 1997, is the dated date or the reference date. For each bond, the index ratio  $\frac{CPI(\text{settlementdate})}{CPI(\text{dateddate})}$
 
 is published daily on the TIPS relative value report on LehmanLive. At each CPI-U release, the Treasury publishes these index ratios at http://www(publicdebt.treas.gov/of/ofhispci.htm.
 
@@ -333,57 +333,57 @@ Figure 17: Breakeven Forward Curve Report on August 4, 2006
 We estimate the risk premium and convexity values priced into both nominal bonds and TIPS through a two-factor Vasicek model. Under the real world dynamics, we assume that two processes drive the short rate  $r$ . The details of the model are as follow:
 
 $$
-\begin{array}{l} d X _ {t} = \kappa_ {X} \left(X _ {\infty} - X _ {t}\right) d t + \sigma_ {X} d W _ {X} \\ d Y _ {t} = \kappa_ {Y} \left(Y _ {\infty} - Y _ {t}\right) d t + \sigma_ {Y} d W _ {Y} \\ r = X + Y \quad E [ d X d Y ] = \rho \sigma_ {X} \sigma_ {Y} d t \tag {Eq.1} \\ \end{array}
+\begin{array}{l} d X_{t} = \kappa_{X} \left(X_{\infty} - X_{t}\right) d t + \sigma_{X} d W_{X} \\ d Y_{t} = \kappa_{Y} \left(Y_{\infty} - Y_{t}\right) d t + \sigma_{Y} d W_{Y} \\ r = X + Y \quad E [ d X d Y ] = \rho \sigma_{X} \sigma_{Y} d t \tag {Eq.1} \\ \end{array}
 $$
 
 $X$  with usually a lower mean reversion parameter  $\kappa_{X}$ , is interpreted as a long-lived factor and  $Y$  with a higher mean reversion parameter  $\kappa_{Y}$ , is interpreted as a short-lived factor. Under the risk neutral measure, the above dynamics can be rewritten as:
 
 $$
-d X _ {t} = \kappa_ {X} \left(\theta_ {X} - X _ {t}\right) d t + \sigma_ {X} d W _ {X}
+d X_{t} = \kappa_{X} \left(\theta_{X} - X_{t}\right) d t + \sigma_{X} d W_{X}
 $$
 
 $$
-d Y _ {t} = \kappa_ {Y} \left(\theta_ {Y} - Y _ {t}\right) d t + \sigma_ {Y} d W _ {Y}
+d Y_{t} = \kappa_{Y} \left(\theta_{Y} - Y_{t}\right) d t + \sigma_{Y} d W_{Y}
 $$
 
 $$
-r = X + Y \quad E [ d X d Y ] = \rho \sigma_ {X} \sigma_ {Y} d t \tag {Eq.2}
+r = X + Y \quad E [ d X d Y ] = \rho \sigma_{X} \sigma_{Y} d t \tag {Eq.2}
 $$
 
 Where  $\theta_{X} = X_{\infty} + \frac{\lambda_{X}}{\kappa_{X}}$ ,  $\theta_{Y} = Y_{\infty} + \frac{\lambda_{Y}}{\kappa_{Y}}$  and  $\lambda_{X}$  and  $\lambda_{Y}$  are the risk premium associated with the state variables  $X$  and  $Y$  respectively. Standard calculations yield the price of a zero coupon bond at time  $t$  with maturity date  $T$ :
 
 $$
-P (t, T) = \exp (- A (t, T) - B _ {X} (t, T) X (t) - B _ {Y} (t, T) Y (t)) \tag {Eq.3}
+P (t, T) = \exp (- A (t, T) - B_{X} (t, T) X (t) - B_{Y} (t, T) Y (t)) \tag {Eq.3}
 $$
 
 Where:
 
 $$
-\begin{array}{l} \mathrm {A} (\mathrm {t}, \mathrm {T}) = \left(\frac {\sigma_ {X} ^ {2}}{2 \kappa_ {X} ^ {2}} - \theta_ {X}\right) \left\{B _ {X} (\mathrm {t}, \mathrm {T}) - (\mathrm {T} - \mathrm {t}) \right\} + \frac {\sigma_ {X} ^ {2}}{4 \kappa_ {X}} \left(B _ {X} (\mathrm {t}, \mathrm {T})\right) ^ {2} + \\ \left(\frac {\sigma_ {Y} ^ {2}}{2 \kappa_ {Y} ^ {2}} - \theta_ {Y}\right) \left\{B _ {Y} (t, T) - (T - t) \right\} + \frac {\sigma_ {Y} ^ {2}}{4 \kappa_ {Y}} \left(B _ {Y} (t, T)\right) ^ {2} + \\ \frac {\rho \sigma_ {X} \sigma_ {Y}}{\kappa_ {X} \kappa_ {Y}} \left\{B _ {X} (t, T) + B _ {Y} (t, T) - (T - t) - B _ {X + Y} (t, T) \right\} \\ \end{array}
+\begin{array}{l} \mathrm{A} (\mathrm{t}, \mathrm{T}) = \left(\frac{\sigma_{X}^{2}}{2 \kappa_{X}^{2}} - \theta_{X}\right) \left\{B_{X} (\mathrm{t}, \mathrm{T}) - (\mathrm{T} - \mathrm{t}) \right\} + \frac{\sigma_{X}^{2}}{4 \kappa_{X}} \left(B_{X} (\mathrm{t}, \mathrm{T})\right)^{2} + \\ \left(\frac{\sigma_{Y}^{2}}{2 \kappa_{Y}^{2}} - \theta_{Y}\right) \left\{B_{Y} (t, T) - (T - t) \right\} + \frac{\sigma_{Y}^{2}}{4 \kappa_{Y}} \left(B_{Y} (t, T)\right)^{2} + \\ \frac{\rho \sigma_{X} \sigma_{Y}}{\kappa_{X} \kappa_{Y}} \left\{B_{X} (t, T) + B_{Y} (t, T) - (T - t) - B_{X + Y} (t, T) \right\} \\ \end{array}
 $$
 
 $$
-B _ {i} (t, T) = \frac {1 - \exp \left(- \kappa_ {i} (T - t)\right)}{\kappa_ {i}}, \quad i = X, Y
+B_{i} (t, T) = \frac{1 - \exp \left(- \kappa_{i} (T - t)\right)}{\kappa_{i}}, \quad i = X, Y
 $$
 
 $$
-B _ {X + Y} (t, T) = \frac {1 - \exp \left(- \left(\kappa_ {X} + \kappa_ {Y}\right) (T - t)\right)}{\left(\kappa_ {X} + \kappa_ {Y}\right)}
+B_{X + Y} (t, T) = \frac{1 - \exp \left(- \left(\kappa_{X} + \kappa_{Y}\right) (T - t)\right)}{\left(\kappa_{X} + \kappa_{Y}\right)}
 $$
 
 With the zero coupon bond price formula, we can derive the dynamics of a par rate  $y_{t}^{\tau}$  of maturity  $\tau$ :
 
 $$
-y _ {t} ^ {\tau} = 2 \left(\frac {1 - P (t , t + \tau)}{\sum_ {i = 1} ^ {2 \tau} P (t , t + . 5 i)}\right) \equiv f (X (t), Y (t)) \tag {Eq.4}
+y_{t}^{\tau} = 2 \left(\frac{1 - P (t , t + \tau)}{\sum_{i = 1}^{2 \tau} P (t , t + . 5 i)}\right) \equiv f (X (t), Y (t)) \tag {Eq.4}
 $$
 
 From Ito's Lemma, we have:
 
 $$
-\begin{array}{l} d y _ {t} ^ {\tau} = \left\{\frac {1}{2} \sigma_ {X} ^ {2} \frac {\partial^ {2} f}{\partial X ^ {2}} + \frac {1}{2} \sigma_ {Y} ^ {2} \frac {\partial^ {2} f}{\partial Y ^ {2}} + \frac {1}{2} \rho \sigma_ {X} \sigma_ {Y} \frac {\partial^ {2} f}{\partial X \partial Y} + \kappa_ {X} \left(\theta_ {X} - X _ {t}\right) \frac {\partial f}{\partial X} + \right. \\ \left. \kappa_ {Y} \left(\theta_ {Y} - Y _ {t}\right) \frac {\partial f}{\partial Y} \right\} d t + \sigma_ {X} \frac {\partial f}{\partial X} d W _ {X} + \sigma_ {Y} \frac {\partial f}{\partial Y} d W _ {Y} \tag {Eq.5} \\ \end{array}
+\begin{array}{l} d y_{t}^{\tau} = \left\{\frac{1}{2} \sigma_{X}^{2} \frac{\partial^{2} f}{\partial X^{2}} + \frac{1}{2} \sigma_{Y}^{2} \frac{\partial^{2} f}{\partial Y^{2}} + \frac{1}{2} \rho \sigma_{X} \sigma_{Y} \frac{\partial^{2} f}{\partial X \partial Y} + \kappa_{X} \left(\theta_{X} - X_{t}\right) \frac{\partial f}{\partial X} + \right. \\ \left. \kappa_{Y} \left(\theta_{Y} - Y_{t}\right) \frac{\partial f}{\partial Y} \right\} d t + \sigma_{X} \frac{\partial f}{\partial X} d W_{X} + \sigma_{Y} \frac{\partial f}{\partial Y} d W_{Y} \tag {Eq.5} \\ \end{array}
 $$
 
 $$
-\text {T h u s :} E \left[ d y _ {t} ^ {\tau} d y _ {t} ^ {\tau} \right] = \left\{\left(\sigma_ {X} \frac {\partial f}{\partial X}\right) ^ {2} + \left(\sigma_ {Y} \frac {\partial f}{\partial Y}\right) ^ {2} + 2 \rho \sigma_ {X} \sigma_ {Y} \frac {\partial f}{\partial X} \frac {\partial f}{\partial Y} \right\} d t \tag {Eq.6}
+\text{Th us :} E \left[ d y_{t}^{\tau} d y_{t}^{\tau} \right] = \left\{\left(\sigma_{X} \frac{\partial f}{\partial X}\right)^{2} + \left(\sigma_{Y} \frac{\partial f}{\partial Y}\right)^{2} + 2 \rho \sigma_{X} \sigma_{Y} \frac{\partial f}{\partial X} \frac{\partial f}{\partial Y} \right\} d t \tag {Eq.6}
 $$
 
 # Convexity Component of Interest Rates

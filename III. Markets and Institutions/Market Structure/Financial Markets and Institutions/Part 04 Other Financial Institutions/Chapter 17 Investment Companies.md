@@ -229,13 +229,13 @@ LG 17-5
 Suppose today a mutual fund contains 4,000 shares of Foot Locker currently trading at \$22.00, 1,200 shares of ExxonMobil currently trading at \$77.00, and 1,500 shares of AT&T currently trading at 33.75. The mutual fund has no liabilities and 15,000 shares outstanding held by investors. Thus, today, the NAV of the fund's shares is calculated as:
 
 $$
-\begin{array}{l} \mathrm {N A V} = \frac {\text {T o t a l m a r k e t v a l u e o f a s s e t s u n d e r m a g e n e m t}}{\text {N u m b e r o f m u t u a l f u n d s hares o u t s t a n d i n g}} \\ = (4, 0 0 0 \times \$ 2 2. 0 0 + 1, 2 0 0 \times \$ 7 7. 0 0 + 1, 5 0 0 \times \$ 3 3. 7 5) \div 1 5, 0 0 0 = \$ 1 5. 4 0 2 \\ \end{array}
+\begin{array}{l} \mathrm{NA V} = \frac{\text{To ta lm ar ke tv al ue of as se ts un de rm ag en em t}}{\text{Nu mb er of mu tu al fu nd shareso ut st an di ng}} \\ = (4, 0 0 0 \times \$ 2 2. 0 0 + 1, 2 0 0 \times \$ 7 7. 0 0 + 1, 5 0 0 \times \$ 3 3. 7 5) \div 1 5, 0 0 0 = \$ 1 5. 4 0 2 \\ \end{array}
 $$
 
 If tomorrow Foot Locker's shares increase to  \$26.50, ExxonMobil's shares increase to\$ 78, and AT&T's shares increase to 35, the NAV (assuming the number of shares outstanding remains the same) would increase to:
 
 $$
-\mathrm {N A V} = (4, 0 0 0 \times \ 2 6. 5 0 + 1, 2 0 0 \times \ 7 8 + 1, 5 0 0 \times \ 3 5) \div 1 5, 0 0 0 = \ 1 6. 8 0 7
+\mathrm{NA V} = (4, 0 0 0 \times \ 2 6. 5 0 + 1, 2 0 0 \times \ 7 8 + 1, 5 0 0 \times \ 3 5) \div 1 5, 0 0 0 = \ 1 6. 8 0 7
 $$
 
 # EXAMPLE 17-2 Calculation of NAV of an Open-End Mutual Fund when the Number of Shares Increases
@@ -243,7 +243,7 @@ $$
 Consider the mutual fund in Example 17-1, but suppose that today 1,000 additional investors buy one share each of the mutual fund at the NAV of  \$15.402. This means that the fund manager has\$ 15,402 additional funds to invest. Suppose that the fund manager decides to use these additional funds to buy additional shares in Foot Locker. At today's market price, the manager could buy 700 additional shares ( $15,402/$ 22.00) of Foot Locker. Thus, its new portfolio of shares has 4,700 in Foot Locker, 1,200 in ExxonMobil, and 1,500 in AT&T. Given the same rise in share values as assumed in Example 17-1, tomorrow's NAV will now be:
 
 $$
-\mathrm {N A V} = (4, 7 0 0 \times 2 6. 5 0 + 1, 2 0 0 \times 7 8 + 1, 5 0 0 \times 3 5) \div 1 6, 0 0 0 = \$ 1 6. 9 1 6
+\mathrm{NA V} = (4, 7 0 0 \times 2 6. 5 0 + 1, 2 0 0 \times 7 8 + 1, 5 0 0 \times 3 5) \div 1 6, 0 0 0 = \$ 1 6. 9 1 6
 $$ www.morningstar.com
 
 Note that the fund's value changed over the day due to both capital appreciation and investment size. A comparison of the NAV in Example 17-1 with the one in this example indicates that the additional shares and the profitable investments made with the new funds from these shares resulted in a slightly higher NAV than had the number of shares remained static ( \$16.916 versus\$ 16.807).
@@ -286,14 +286,14 @@ Because the sales load is a one-time charge, it must be converted to an annualiz
 
 $$
 
-4 \% / 10 \text {years} = 0.4 \% \text {per year}
+4 \% / 10 \text{years} = 0.4 \% \text{peryear}
 
 $$
 
 Further, suppose the fund has a total fund expense ratio (including 12b-1 fees) of 1 percent per year. The annual total shareholder cost for this fund is calculated as:
 
 $$
-0.4\% +1\% = 1.4\% \text{per year}
+0.4\% +1\% = 1.4\% \text{peryear}
 $$
 
 Funds sold through financial professionals such as brokers have recently adopted alternative payment methods. These typically include an annual 12b-1 fee based on asset values that may also be combined with a front-end or back-end sales charge. In many cases, funds offer several different share classes (all of which invest in the same underlying portfolio of assets), but each share class may offer investors different methods of paying for broker services. In 2019, there were 24,593 share classes offered by 7,945 mutual funds, suggesting the average mutual fund had three share classes. In contrast, each mutual fund had only one share class in 1980. Most funds sold in multiple classes offer investors three payment plans through three share classes (A, B, and C), each having different mixes of sales loads and 12b-1 fees.

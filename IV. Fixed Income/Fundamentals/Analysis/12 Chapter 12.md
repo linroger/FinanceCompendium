@@ -73,7 +73,7 @@ The constant default rate (CDR) evaluates losses within mortgage-backed securiti
 The CDR can be expressed as a formula:
 
 $$
-C D R = 1 - \left(1 - \frac {D}{N D P}\right) ^ {n}
+C D R = 1 - \left(1 - \frac{D}{N D P}\right)^{n}
 $$ where:
 
 
@@ -99,7 +99,7 @@ Or consider Bank ABC, which saw 1 million in new defaults for the fourth quarter
 
 $$
 
-1 - \left(1 - \frac {\mathrm {s} 1 \text {m i l l i o n}}{\mathrm {s} 1 0 0 \text {m i l l i o n}}\right) ^ {4}
+1 - \left(1 - \frac{\mathrm{s} 1 \text{mi ll io n}}{\mathrm{s} 1 0 0 \text{mi ll io n}}\right)^{4}
 
 $$
 

@@ -224,19 +224,19 @@ The rationale here is that CDS is a bond. If the bond spread is equivalent to th
 While there are a number of structural models to choose from, the Credit-Grades model is the easiest to implement and requires the least amount of data. The CreditGrades model (2002) was developed by Goldman Sachs, JP Morgan, Deutsche Bank, and RiskMetrics. This is essentially a random barrier model. The technical document can be downloaded from creditgrades.com. The main equation is its approximation formula for the survival probability, as follows:
 
 $$
-Q (t) = N \left[ - \frac {A}{2} + \frac {\ln d}{A} \right] - d \cdot N \left[ - \frac {A}{2} - \frac {\ln d}{A} \right] \tag {7.2}
+Q (t) = N \left[ - \frac{A}{2} + \frac{\ln d}{A} \right] - d \cdot N \left[ - \frac{A}{2} - \frac{\ln d}{A} \right] \tag {7.2}
 $$ where
 
 
 $$
-A = \sqrt {\sigma^ {2} \xi^ {2} t + \lambda^ {2}}
+A = \sqrt{\sigma^{2} \xi^{2} t + \lambda^{2}}
 $$
 
-$$ d = \frac {1}{1 - \xi} e ^ {\lambda^ {2}}
+$$ d = \frac{1}{1 - \xi} e^{\lambda^{2}}
 $$
 
 $$
-\xi = \frac {E}{E + D}
+\xi = \frac{E}{E + D}
 $$ and  $N[\cdot ]$  is normal probability,  $\sigma$  is the asset volatility,  $\lambda$  is the volatility parameter for the stochastic barrier,  $E$  is the equity value and  $D$  is the "target" debt value. Hence, it is logical to view  $\xi$  as the leverage ratio. With the survival probability function, we can proceed with CDS valuation. Using equation (7.1), we can solve for the asset value and volatility.
 
 

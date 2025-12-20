@@ -140,11 +140,11 @@ Total accommodation expenses plus all other debt service payments divided by gro
 Two ratios are very useful in determining a customer's ability to maintain mortgage payments: the GDS (gross debt service) ratio and the TDS (total debt service) ratio. The gross debt service ratio is the customer's total annual accommodation expenses (mortgage, lease, condominium management fees, real estate taxes, etc.) divided by annual gross income. The total debt service ratio is the customer's total annual accommodation expenses plus all other debt service payments divided by annual gross income. These can be represented as follows:
 
 $$
-\mathrm {G D S} = \frac {\text {A n n u a l m o r t g a g e p a y m e n t s} + \text {P r o p e r t y t a x e s}}{\text {A n n u a l g r o s s i n c o m e}}
+\mathrm{GD S} = \frac{\text{An nu al mo rt ga ge pa ym en ts} + \text{Pr op er ty ta xe s}}{\text{An nu al gr os si nc om e}}
 $$
 
 $$
-T D S = \frac {\text {A n n u a l t o t a l d e b t p a y m e n t s}}{\text {A n n u a l g r o s s i n c o m e}}
+T D S = \frac{\text{An nu al to ta ld eb tp ay me nt s}}{\text{An nu al gr os si nc om e}}
 $$
 
 As a general rule, for an FI to consider an applicant, the GDS and TDS ratios must be less than an acceptable threshold. The threshold is commonly 25 to 30 percent for the GDS ratio and 35 to 40 percent for the TDS ratio.
@@ -385,11 +385,11 @@ Hundreds of ratios could be calculated from any set of accounting statements. Th
 # Liquidity Ratios
 
 $$
-\text {C u r r e n t r a t i o} = \frac {\text {C u r r e n t a s s e t s}}{\text {C u r r e n t l i a b i l i t i e s}} = \frac {3 , 6 9 7}{2 , 6 7 6} = 1. 3 8 \text {t i m e s}
+\text{Cu rr en tr at io} = \frac{\text{Cu rr en ta ss et s}}{\text{Cu rr en tl ia bi li ti es}} = \frac{3 , 6 9 7}{2 , 6 7 6} = 1. 3 8 \text{ti me s}
 $$
 
 $$
-\text {Q u i c k r a t i o (a c i d - t e s t r a t i o)} = \frac {\text {C u r r e n t a s s e t s} - \text {I n v e n t o r y}}{\text {C u r r e n t l i a b i l i t i e s}} = \frac {3 , 6 7 9 - 1 , 7 7 9}{2 , 6 7 6} = 0. 7 2 \text {t i m e s}
+\text{Qu ic kr at io (ac id -t es tr at io)} = \frac{\text{Cu rr en ta ss et s} - \text{In ve nt or y}}{\text{Cu rr en tl ia bi li ti es}} = \frac{3 , 6 7 9 - 1 , 7 7 9}{2 , 6 7 6} = 0. 7 2 \text{ti me s}
 $$
 
 Liquidity provides the defensive cash and near-cash resources for firms to meet claims for payment. Liquidity ratios express the variability of liquid resources relative to potential claims. When considering the liquidity of a loan applicant, high levels of liquidity effectively guard against liquidity crises but at the cost of lower returns on investment. Note that a company with a very predictable cash flow can maintain low levels of liquidity without much liquidity risk. Account officers frequently request detailed cash flow projections from an applicant that specify exactly when cash inflows and outflows are anticipated.
@@ -397,23 +397,23 @@ Liquidity provides the defensive cash and near-cash resources for firms to meet 
 # Asset Management Ratios
 
 $$
-\text {N u m b e r o f d a y s s a l e s i n r e c e i v a b l e s} = \frac {\text {A c c o u n t s r e c e i v a b l e} \times 3 6 5}{\text {C r e d i t s a l e s}} = \frac {1 , 8 4 6 \times 3 6 5}{1 2 , 4 3 0} = 5 4. 2 1 \text {d a y s}
+\text{Nu mb er of da ys sa le si nr ec ei va bl es} = \frac{\text{Ac co un ts re ce iv ab le} \times 3 6 5}{\text{Cr ed it sa le s}} = \frac{1 , 8 4 6 \times 3 6 5}{1 2 , 4 3 0} = 5 4. 2 1 \text{da ys}
 $$
 
 $$
-\text {N u m b e r o f d a y s i n i n v e n t o r y} = \frac {\text {I n v e n t o r y} \times 3 6 5}{\text {C o s t o f g o o d s s o l d}} = \frac {1 , 7 7 9 \times 3 6 5}{8 , 2 5 5} = 7 8. 6 6 \text {d a y s}
+\text{Nu mb er of da ys in in ve nt or y} = \frac{\text{In ve nt or y} \times 3 6 5}{\text{Co st of go od ss ol d}} = \frac{1 , 7 7 9 \times 3 6 5}{8 , 2 5 5} = 7 8. 6 6 \text{da ys}
 $$
 
 $$
-\text {S a l e s} = \frac {\text {S a l e s}}{\text {W o r k i n g c a p i t a l}} = \frac {1 2 , 4 3 0}{3 , 6 9 7 - 2 , 6 7 6} = 1 2. 1 7 \text {t i m e s}
+\text{Sa le s} = \frac{\text{Sa le s}}{\text{Wo rk in gc ap it al}} = \frac{1 2 , 4 3 0}{3 , 6 9 7 - 2 , 6 7 6} = 1 2. 1 7 \text{ti me s}
 $$
 
 $$
-\text {S a l e s} = \frac {\text {S a l e s}}{\text {F i x e d a s s e t s}} = \frac {1 2 , 4 3 0}{6 8 3} = 1 8. 2 0 \text {t i m e s}
+\text{Sa le s} = \frac{\text{Sa le s}}{\text{Fi xe da ss et s}} = \frac{1 2 , 4 3 0}{6 8 3} = 1 8. 2 0 \text{ti me s}
 $$
 
 $$
-\text {S a l e s t o t a l a s s e t s (a s s e t s t u r n o v e r)} = \frac {\text {S a l e s}}{\text {T o t a l a s s e t s}} = \frac {1 2 , 4 3 0}{4 , 4 3 0} = 2. 8 1 \text {t i m e s}
+\text{Sa le st ot al as se ts (as se ts tu rn ov er)} = \frac{\text{Sa le s}}{\text{To ta la ss et s}} = \frac{1 2 , 4 3 0}{4 , 4 3 0} = 2. 8 1 \text{ti me s}
 $$
 
 The asset management ratios give the account officer clues as to how well the applicant uses its assets relative to its past performance and the performance of the industry. For example, ratio analysis may reveal that the number of days that finished goods are in inventory is increasing. This suggests that finished goods inventories, relative to the sales they support, are not being used as well as in the past. If this increase is the result of a deliberate policy to increase inventories to offer customers a wider choice and if it results in higher future sales volumes or increased margins that more than compensate for increased capital tied up in inventory, the increased relative size of finished goods inventories is good for the applicant and, thus, the FI. An FI should be concerned, on the other hand, if increased finished goods inventories are the result of declining sales but steady purchases of supplies and production. Inventory aging schedules give more information than single ratios and should be requested by the account officer concerned about deteriorating ratios.
@@ -423,19 +423,19 @@ What a loan applicant often describes in words differs substantially from what t
 # Debt and Solvency Ratios
 
 $$
-\text{Debt-to - asset ratio} = \frac {\text {Short - term liabilities + Long - term liabilities}}{\text {Total assets}} = \frac {2,676 + 300}{4,430} = 67.18 \%
+\text{Debt-to -assetratio} = \frac{\text{Short -termliabilities +Long -termliabilities}}{\text{Totalassets}} = \frac{2,676 + 300}{4,430} = 67.18 \%
 $$
 
 $$
-\text {T i m e s i n t e r e s t e a r e n d r a t i o} = \frac {\text {E a r n i n g s a v a i l a b l e t o m e e t i n t e r e s t c h a r g e s}}{\text {I n t e r e s t c h a r g e s}} = \frac {6 8 4}{1 5 7} = 4. 3 6 \text {t i m e s}
+\text{Ti me si nt er es te ar en dr at io} = \frac{\text{Ea rn in gs av ai la bl et om ee ti nt er es tc ha rg es}}{\text{In te re st ch ar ge s}} = \frac{6 8 4}{1 5 7} = 4. 3 6 \text{ti me s}
 $$
 
 $$
-\text {F i x e d - c h a r g e c o v e r a g e} = \frac {\text {E a r n i n g s a v a i l a b l e t o m e e t f i x e d c h a r g e s}}{\text {F i x e d c h a r g e s}}
+\text{Fi xe d -c ha rg ec ov er ag e} = \frac{\text{Ea rn in gs av ai la bl et om ee tf ix ed ch ar ge s}}{\text{Fi xe dc ha rg es}}
 $$
 
 $$
-\text {C a s h - f l o w - t o - d e b t r a t i o} = \frac {\text {E B I T} + \text {D e p r e c i a t i o n}}{\text {D e b t i n t e r e s t c h a r g e s}} = \frac {6 8 4 + 7 3}{1 5 7} = 6. 8 4 \text {t i m e s}
+\text{Ca sh -f lo w -t o -d eb tr at io} = \frac{\text{EB IT} + \text{De pr ec ia ti on}}{\text{De bt in te re st ch ar ge s}} = \frac{6 8 4 + 7 3}{1 5 7} = 6. 8 4 \text{ti me s}
 $$
 
 # EBIT
@@ -455,23 +455,23 @@ These three ratios measure the dollars available to meet debt and other fixed-ch
 Profitability Ratios.
 
 $$
-\text {Gross margin} = \frac {\text {Gross profit}}{\text {Sales}} = \frac {4,175}{12,430} = 33.59 \%
+\text{Grossmargin} = \frac{\text{Grossprofit}}{\text{Sales}} = \frac{4,175}{12,430} = 33.59 \%
 $$
 
 $$
-\text{Operating profit margin} = \frac{\text{Operating profit}}{\text{Sales}} = \frac{684}{12,430} = 5.50\%
+\text{Operatingprofitmargin} = \frac{\text{Operatingprofit}}{\text{Sales}} = \frac{684}{12,430} = 5.50\%
 $$
 
 $$
-\text{Return on assets} = \frac{\text{EAT}}{\text{Total assets}} = \frac{339}{4,430} = 7.65 \%
+\text{Returnonassets} = \frac{\text{EAT}}{\text{Totalassets}} = \frac{339}{4,430} = 7.65 \%
 $$
 
 $$
-\text {Return on equity} = \frac {\text {EAT}}{\text {Total equity}} = \frac {339}{1,454} = 23.31 \%
+\text{Returnonequity} = \frac{\text{EAT}}{\text{Totalequity}} = \frac{339}{1,454} = 23.31 \%
 $$
 
 $$
-\text{Dividend payout} = \frac{\text{Dividends}}{\text{EAT}} = \frac{50}{339} = 14.75\%
+\text{Dividendpayout} = \frac{\text{Dividends}}{\text{EAT}} = \frac{50}{339} = 14.75\%
 $$
 
 # EAT
@@ -527,7 +527,7 @@ Altman's Z Score. E. I. Altman developed a  $Z$ -score model for analyzing publi
 Altman's credit-scoring model takes the following form:
 
 $$
-Z = 1. 2 X _ {1} + 1. 4 X _ {2} + 3. 3 X _ {3} + 0. 6 X _ {4} + 1. 0 X _ {5}
+Z = 1. 2 X_{1} + 1. 4 X_{2} + 3. 3 X_{3} + 0. 6 X_{4} + 1. 0 X_{5}
 $$ where
 
 
@@ -549,7 +549,7 @@ Suppose that the financial ratios of a potential borrowing firm take the followi
 
 $$
 
-\begin{array}{l} X _ {1} = 0. 2 \\ X _ {2} = 0 \\ X _ {3} = - 0. 2 0 \\ X _ {4} = 0. 1 0 \\ X _ {5} = 2. 0 \\ \end{array}
+\begin{array}{l} X_{1} = 0. 2 \\ X_{2} = 0 \\ X_{3} = - 0. 2 0 \\ X_{4} = 0. 1 0 \\ X_{5} = 2. 0 \\ \end{array}
 
 $$
 
@@ -619,7 +619,7 @@ In this section, we consider an example of how to calculate the promised return 
 
 $$
 
-\begin{array}{l} \text{Base lending rate} (B R) = 8 \% \\ + \text {Risk premium} (m) = 2 \% \\ B R + m = 10 \% \\ \end{array}
+\begin{array}{l} \text{Baselendingrate} (B R) = 8 \% \\ + \text{Riskpremium} (m) = 2 \% \\ B R + m = 10 \% \\ \end{array}
 
 $$
 
@@ -648,7 +648,7 @@ Although credit risk may be the most important factor ultimately affecting the r
 
 $$
 
-1 + k = 1 + \frac {f + (B R + m)}{1 - b (1 - R R)}
+1 + k = 1 + \frac{f + (B R + m)}{1 - b (1 - R R)}
 
 $$
 
@@ -667,19 +667,19 @@ Placing the numbers from our example into this formula, we have:
 
 $$
 
-1 + k = 1 + \frac {0 . 0 0 1 2 5 + (0 . 0 6 + 0 . 0 4)}{1 - (0 . 0 8) (0 . 9)}
+1 + k = 1 + \frac{0 . 0 0 1 2 5 + (0 . 0 6 + 0 . 0 4)}{1 - (0 . 0 8) (0 . 9)}
 
 $$
 
 $$
 
-1 + k = 1 + \frac {0 . 1 0 1 2 5}{0 . 9 2 8}
+1 + k = 1 + \frac{0 . 1 0 1 2 5}{0 . 9 2 8}
 
 $$
 
 $$
 
-1 + k = 1.1091, \text {or} k = 10.91 \%
+1 + k = 1.1091, \text{or} k = 10.91 \%
 
 $$
 
@@ -712,7 +712,7 @@ The essential idea behind RAROC is that rather than evaluating the actual or pro
 
 $$
 
-\mathrm {R A R O C} = \frac {\text {O n e - y e a r i n c o m e o n a l o a n}}{\text {L o a n (a s s e t) r i s k o r v a l u e a t r i s k}}
+\mathrm{RA RO C} = \frac{\text{On e -y ea ri nc om eo na lo an}}{\text{Lo an (as se t)r is ko rv al ue at ri sk}}
 
 $$
 
@@ -727,7 +727,7 @@ One problem in estimating RAROC is the measurement of loan risk (the denominator
 
 $$
 
-\mathrm {R A R O C} = \frac {\text {O n e - y e a r i n c o m e o n a l o a n}}{\text {D o l l a r v a l u e o f a l o a n} \times \text {U n e x p e c t e d d e f a u l t r a t e} \times \text {L o s s g i v e n d e f a u l t}}
+\mathrm{RA RO C} = \frac{\text{On e -y ea ri nc om eo na lo an}}{\text{Do ll ar va lu eo fa lo an} \times \text{Un ex pe ct ed de fa ul tr at e} \times \text{Lo ss gi ve nd ef au lt}}
 
 $$
 

@@ -293,19 +293,19 @@ Bond cash-flows, prices and yields
 - Fixed-rate bond cash-flows for maturity  $T = T_{n}$ :
 
 $$
-\left\{c _ {i}, T _ {i} \right\} _ {i = 1.. n}, \quad 0 \leq t <   T _ {1} <   \dots <   T _ {n} \tag {1}
+\left\{c_{i}, T_{i} \right\}_{i = 1.. n}, \quad 0 \leq t <   T_{1} <   \dots <   T_{n} \tag {1}
 $$
 
 - Quoting bonds: price to "continuously compounded" yield conversion
 
 $$
-B _ {t} = B (t, y) := \sum_ {i = 1} ^ {n} c _ {i} \cdot e ^ {(t - T _ {i}) \cdot y} \tag {2}
+B_{t} = B (t, y) := \sum_{i = 1}^{n} c_{i} \cdot e^{(t - T_{i}) \cdot y} \tag {2}
 $$
 
 - Cash-flow weights:
 
 $$
-w _ {i} = w _ {i} (t, y) := \frac {c _ {i} \cdot e ^ {(t - T _ {i}) \cdot y}}{B _ {t}} > 0 \tag {3}
+w_{i} = w_{i} (t, y) := \frac{c_{i} \cdot e^{(t - T_{i}) \cdot y}}{B_{t}} > 0 \tag {3}
 $$
 
 Bond valuation formulas (0 accrued, t+0 settle)
@@ -313,19 +313,19 @@ Bond valuation formulas (0 accrued, t+0 settle)
 - Bullet fixed-rate bond with semi-annual coupon pct.  $c$  and  $T$  years to maturity:
 
 $$
-B _ {0} = B (0, c, T, y) = \sum_ {k = 1} ^ {2 T} \frac {c}{2} \cdot e ^ {- k \cdot \frac {y}{2}} + e ^ {- T \cdot y} \tag {4}
+B_{0} = B (0, c, T, y) = \sum_{k = 1}^{2 T} \frac{c}{2} \cdot e^{- k \cdot \frac{y}{2}} + e^{- T \cdot y} \tag {4}
 $$
 
 - Simple bond price (using geometric series formula):
 
 $$
-B _ {0} = 1 + \frac {\frac {c}{2} - \left(e ^ {\frac {y}{2}} - 1\right)}{e ^ {\frac {y}{2}} - 1} \cdot \left(1 - e ^ {- T \cdot y}\right). \tag {5}
+B_{0} = 1 + \frac{\frac{c}{2} - \left(e^{\frac{y}{2}} - 1\right)}{e^{\frac{y}{2}} - 1} \cdot \left(1 - e^{- T \cdot y}\right). \tag {5}
 $$
 
 Using "semi-annual yield":  $y_{sa} = 2 \cdot \left( e^{\frac{y}{2}} - 1 \right)$
 
 $$
-B _ {0} = 1 + \frac {c - y _ {s a}}{y _ {s a}} \cdot \left[ 1 - \left(1 + \frac {y _ {s a}}{2}\right) ^ {- 2 T} \right]. \tag {6}
+B_{0} = 1 + \frac{c - y_{s a}}{y_{s a}} \cdot \left[ 1 - \left(1 + \frac{y_{s a}}{2}\right)^{- 2 T} \right]. \tag {6}
 $$
 
 Bond valuation surface (0 accrued,  $T + 0$  settle)  
@@ -340,7 +340,7 @@ Fixed rate bond valuation
 Bond trading at  $100\%$  "par" price:
 
 $$
-B _ {0} = 1 \Longleftrightarrow c = y _ {s a} \Longleftrightarrow \left(1 + \frac {c}{2}\right) ^ {2} = e ^ {y}. \tag {7}
+B_{0} = 1 \Longleftrightarrow c = y_{s a} \Longleftrightarrow \left(1 + \frac{c}{2}\right)^{2} = e^{y}. \tag {7}
 $$
 
 - New issue pricing (primary market): pricing "at par"  $\Longleftrightarrow$  "semi-annual coupon" = "semi-annual yield"  
@@ -354,23 +354,23 @@ Yield curve example: VZ with issue constituents
 Time sensitivity: Theta/Carry = "yield"
 
 $$
-\begin{array}{l} \frac {\partial B}{\partial t} (t, y) = \frac {\partial}{\partial t} \left[ \sum_ {i = 1} ^ {n} c _ {i} \cdot e ^ {(t - T _ {i}) \cdot y} \right] = \sum_ {i = 1} ^ {n} c _ {i} \cdot \frac {\partial}{\partial t} \left[ e ^ {(t - T _ {i}) \cdot y} \right] (8) \\ = \sum_ {i = 1} ^ {n} c _ {i} \cdot y \cdot e ^ {(t - T _ {i}) \cdot y} = y \cdot \left[ \sum_ {i = 1} ^ {n} c _ {i} \cdot e ^ {(t - T _ {i}) \cdot y} \right] = y \cdot B _ {t}. \\ B (t + \Delta t, y) - B (t, y) \approx B _ {t} \cdot y \cdot \Delta t. (9) \\ \end{array}
+\begin{array}{l} \frac{\partial B}{\partial t} (t, y) = \frac{\partial}{\partial t} \left[ \sum_{i = 1}^{n} c_{i} \cdot e^{(t - T_{i}) \cdot y} \right] = \sum_{i = 1}^{n} c_{i} \cdot \frac{\partial}{\partial t} \left[ e^{(t - T_{i}) \cdot y} \right] (8) \\ = \sum_{i = 1}^{n} c_{i} \cdot y \cdot e^{(t - T_{i}) \cdot y} = y \cdot \left[ \sum_{i = 1}^{n} c_{i} \cdot e^{(t - T_{i}) \cdot y} \right] = y \cdot B_{t}. \\ B (t + \Delta t, y) - B (t, y) \approx B_{t} \cdot y \cdot \Delta t. (9) \\ \end{array}
 $$
 
 Yield sensitivity: Duration/D = "weighted sum of TTMs"
 
 $$
-\begin{array}{l} \frac {\partial B}{\partial y} = \frac {\partial}{\partial y} \left[ \sum_ {i = 1} ^ {n} c _ {i} \cdot e ^ {(t - T _ {i}) \cdot y} \right] = \sum_ {i = 1} ^ {n} c _ {i} \cdot \frac {\partial}{\partial y} \left[ e ^ {(t - T _ {i}) \cdot y} \right] (10) \\ = \sum_ {i = 1} ^ {n} c _ {i} \cdot (t - T _ {i}) \cdot e ^ {(t - T _ {i}) \cdot y} = - B _ {t} \cdot \sum_ {i = 1} ^ {n} (T _ {i} - t) \cdot w _ {i} = - B _ {t} \cdot D. \\ B (t, y + \Delta y) - B (t, y) \approx - B _ {t} \cdot D \cdot \Delta y. (11) \\ \end{array}
+\begin{array}{l} \frac{\partial B}{\partial y} = \frac{\partial}{\partial y} \left[ \sum_{i = 1}^{n} c_{i} \cdot e^{(t - T_{i}) \cdot y} \right] = \sum_{i = 1}^{n} c_{i} \cdot \frac{\partial}{\partial y} \left[ e^{(t - T_{i}) \cdot y} \right] (10) \\ = \sum_{i = 1}^{n} c_{i} \cdot (t - T_{i}) \cdot e^{(t - T_{i}) \cdot y} = - B_{t} \cdot \sum_{i = 1}^{n} (T_{i} - t) \cdot w_{i} = - B_{t} \cdot D. \\ B (t, y + \Delta y) - B (t, y) \approx - B_{t} \cdot D \cdot \Delta y. (11) \\ \end{array}
 $$
 
 Yield convexity: Gamma/Γ = "weighted sum of squared TTMs"
 
 $$
-\begin{array}{l} \frac {\partial^ {2} B}{\partial y ^ {2}} = \frac {\partial^ {2}}{\partial y ^ {2}} \left[ \sum_ {i = 1} ^ {n} c _ {i} \cdot e ^ {(t - T _ {i}) \cdot y} \right] = \sum_ {i = 1} ^ {n} c _ {i} \cdot \frac {\partial^ {2}}{\partial y ^ {2}} \left[ e ^ {(t - T _ {i}) \cdot y} \right] \tag {12} \\ = \sum_ {i = 1} ^ {n} c _ {i} \cdot \left(T _ {i} - t\right) ^ {2} \cdot e ^ {\left(t - T _ {i}\right) \cdot y} = B _ {t} \cdot \sum_ {i = 1} ^ {n} \left(T _ {i} - t\right) ^ {2} \cdot w _ {i} = B _ {t} \cdot \Gamma . \\ \end{array}
+\begin{array}{l} \frac{\partial^{2} B}{\partial y^{2}} = \frac{\partial^{2}}{\partial y^{2}} \left[ \sum_{i = 1}^{n} c_{i} \cdot e^{(t - T_{i}) \cdot y} \right] = \sum_{i = 1}^{n} c_{i} \cdot \frac{\partial^{2}}{\partial y^{2}} \left[ e^{(t - T_{i}) \cdot y} \right] \tag {12} \\ = \sum_{i = 1}^{n} c_{i} \cdot \left(T_{i} - t\right)^{2} \cdot e^{\left(t - T_{i}\right) \cdot y} = B_{t} \cdot \sum_{i = 1}^{n} \left(T_{i} - t\right)^{2} \cdot w_{i} = B_{t} \cdot \Gamma . \\ \end{array}
 $$
 
 $$
-B (t, y + \Delta y) - B (t, y) \approx B _ {t} \cdot \left[ - D \cdot \Delta y + \frac {1}{2} \cdot \Gamma \cdot (\Delta y) ^ {2} \right]. \tag {13}
+B (t, y + \Delta y) - B (t, y) \approx B_{t} \cdot \left[ - D \cdot \Delta y + \frac{1}{2} \cdot \Gamma \cdot (\Delta y)^{2} \right]. \tag {13}
 $$
 
 # Summary of sensitivities (yield parametrization)
@@ -378,31 +378,31 @@ $$
 Theta/Carry
 
 $$
-\text {T h e t a} = \frac {\partial B}{\partial t} = y \cdot B _ {t} \tag {14}
+\text{Th et a} = \frac{\partial B}{\partial t} = y \cdot B_{t} \tag {14}
 $$
 
 - "DV01" (-1bp change in yield) and Duration
 
 $$
-D V 0 1 = - \frac {\partial B}{\partial y} = B _ {t} \cdot D, \quad D = \sum_ {i = 1} ^ {n} (T _ {i} - t) \cdot w _ {i} > 0 \tag {15}
+D V 0 1 = - \frac{\partial B}{\partial y} = B_{t} \cdot D, \quad D = \sum_{i = 1}^{n} (T_{i} - t) \cdot w_{i} > 0 \tag {15}
 $$
 
 - Convexity (-1bp change in yield) and Gamma
 
 $$
-\frac {\partial^ {2} B}{\partial y ^ {2}} = B _ {t} \cdot \Gamma , \quad \Gamma = \sum_ {i = 1} ^ {n} \left(T _ {i} - t\right) ^ {2} \cdot w _ {i} > 0 \tag {16}
+\frac{\partial^{2} B}{\partial y^{2}} = B_{t} \cdot \Gamma , \quad \Gamma = \sum_{i = 1}^{n} \left(T_{i} - t\right)^{2} \cdot w_{i} > 0 \tag {16}
 $$
 
 Simple bond price dynamics
 
 $$
-\begin{array}{l} d B _ {t} = d B (t, y _ {t}) = \frac {\partial B}{\partial t} \cdot d t + \frac {\partial B}{\partial y} \cdot d y _ {t} + \frac {1}{2} \frac {\partial^ {2} B}{\partial y ^ {2}} \cdot \sigma_ {y} ^ {2} \cdot d t, (17) \\ = y \cdot B _ {t} \cdot d t - B _ {t} \cdot D \cdot d y _ {t} + \frac {1}{2} \cdot B _ {t} \cdot \Gamma \cdot \sigma_ {y} ^ {2} \cdot d t. \\ \frac {d B _ {t}}{B _ {t}} = \left(y _ {t} + \frac {1}{2} \cdot \Gamma \cdot \sigma_ {y} ^ {2}\right) \cdot d t - D _ {t} \cdot d y _ {t}. (18) \\ \end{array}
+\begin{array}{l} d B_{t} = d B (t, y_{t}) = \frac{\partial B}{\partial t} \cdot d t + \frac{\partial B}{\partial y} \cdot d y_{t} + \frac{1}{2} \frac{\partial^{2} B}{\partial y^{2}} \cdot \sigma_{y}^{2} \cdot d t, (17) \\ = y \cdot B_{t} \cdot d t - B_{t} \cdot D \cdot d y_{t} + \frac{1}{2} \cdot B_{t} \cdot \Gamma \cdot \sigma_{y}^{2} \cdot d t. \\ \frac{d B_{t}}{B_{t}} = \left(y_{t} + \frac{1}{2} \cdot \Gamma \cdot \sigma_{y}^{2}\right) \cdot d t - D_{t} \cdot d y_{t}. (18) \\ \end{array}
 $$
 
 Bond drift components
 
 $$
-\begin{array}{l} \mathbb {E} \left[ \frac {d B _ {t}}{B _ {t}} \right] / d t \tag {19} \\ = y _ {t} - D \cdot \frac {\mathbb {E} [ d y _ {t} ]}{d t} + \frac {1}{2} \cdot \Gamma \cdot \sigma_ {y} ^ {2} \\ = ^ {\prime \prime} y i e l d ^ {\prime \prime} + ^ {\prime \prime} y i e l d c u r v e r o l l d o w n ^ {\prime \prime} + ^ {\prime \prime} y i e l d c o n v e x i t y ^ {\prime \prime}. \\ \end{array}
+\begin{array}{l} \mathbb {E} \left[ \frac{d B_{t}}{B_{t}} \right] / d t \tag {19} \\ = y_{t} - D \cdot \frac{\mathbb {E} [ d y_{t} ]}{d t} + \frac{1}{2} \cdot \Gamma \cdot \sigma_{y}^{2} \\ =^{\prime \prime} y i e l d^{\prime \prime} +^{\prime \prime} y i e l d c u r v e r o l l d o w n^{\prime \prime} +^{\prime \prime} y i e l d c o n v e x i t y^{\prime \prime}. \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fb5a9a4b-5285-42e6-b30e-4b13e49a8cc4/a2e733e119532e67688fb48ffa8246ffaddc26762180f153aba7dd0f7f595dab.jpg)  
@@ -425,19 +425,19 @@ Yield curve examples: VZ vs US Treasury
 - Interest rate curve bootstrapping & risk-free bond valuation
 
 $$
-G _ {t} = G (t, r) := \sum_ {i = 1} ^ {n} c _ {i} \cdot e ^ {(t - T _ {i}) \cdot r _ {i}} \tag {20}
+G_{t} = G (t, r) := \sum_{i = 1}^{n} c_{i} \cdot e^{(t - T_{i}) \cdot r_{i}} \tag {20}
 $$
 
 Bond price to z-spread conversion
 
 $$
-B _ {t} = B (t, r, s) := \sum_ {i = 1} ^ {n} c _ {i} \cdot e ^ {(t - T _ {i}) \cdot \left(r _ {i} + s\right)} \tag {21}
+B_{t} = B (t, r, s) := \sum_{i = 1}^{n} c_{i} \cdot e^{(t - T_{i}) \cdot \left(r_{i} + s\right)} \tag {21}
 $$
 
 - Cash-flow spread weights:
 
 $$
-\hat {w} _ {i} = \hat {w} _ {i} (t, r, s) := \frac {c _ {i} \cdot e ^ {(t - T _ {i}) \cdot (r _ {i} + s)}}{B _ {t}} > 0 \tag {22}
+\hat {w}_{i} = \hat {w}_{i} (t, r, s) := \frac{c_{i} \cdot e^{(t - T_{i}) \cdot (r_{i} + s)}}{B_{t}} > 0 \tag {22}
 $$
 
 # Summary of bond sensitivities (spread parametrization)
@@ -445,25 +445,25 @@ $$
 Theta/Carry
 
 $$
-T h e t a = \frac {\partial B}{\partial t} = B _ {t} \cdot \sum_ {i = 1} ^ {n} (r _ {i} + s) \cdot \hat {w} _ {i} \approx B _ {t} \cdot y \tag {23}
+T h e t a = \frac{\partial B}{\partial t} = B_{t} \cdot \sum_{i = 1}^{n} (r_{i} + s) \cdot \hat {w}_{i} \approx B_{t} \cdot y \tag {23}
 $$
 
 - "CS01" (-1bp change in spread) and Spread Duration  $D$
 
 $$
-C S 0 1 = - \frac {\partial B}{\partial s} = B _ {t} \cdot D, \quad D = \sum_ {i = 1} ^ {n} (T _ {i} - t) \cdot \hat {w} _ {i} > 0 \tag {24}
+C S 0 1 = - \frac{\partial B}{\partial s} = B_{t} \cdot D, \quad D = \sum_{i = 1}^{n} (T_{i} - t) \cdot \hat {w}_{i} > 0 \tag {24}
 $$
 
 - Spread Convexity (-1bp change in spread) and Gamma  $\Gamma$
 
 $$
-\frac {\partial^ {2} B}{\partial s ^ {2}} = B _ {t} \cdot \Gamma , \quad \Gamma = \sum_ {i = 1} ^ {n} \left(T _ {i} - t\right) ^ {2} \cdot \hat {w} _ {i} > 0 \tag {25}
+\frac{\partial^{2} B}{\partial s^{2}} = B_{t} \cdot \Gamma , \quad \Gamma = \sum_{i = 1}^{n} \left(T_{i} - t\right)^{2} \cdot \hat {w}_{i} > 0 \tag {25}
 $$
 
 IR-hedged bond price dynamics
 
 $$
-\begin{array}{l} \frac {d B _ {t}}{B _ {t}} = \left(s _ {t} + \frac {1}{2} \cdot \Gamma \cdot \sigma_ {s} ^ {2}\right) \cdot d t - D \cdot d s _ {t} (26) \\ \mathbb {E} \left[ \frac {d B _ {t}}{B _ {t}} \right] / d t = s _ {t} - D \cdot \frac {\mathbb {E} [ d s _ {t} ]}{d t} + \frac {1}{2} \cdot \Gamma \cdot \sigma_ {s} ^ {2} (27) \\ = ^ {\prime \prime} s p r e a d ^ {\prime \prime} + ^ {\prime \prime} s p r e a d c u r v e r o l l d o w n ^ {\prime \prime} + ^ {\prime \prime} s p r e a d c o n v e x i t y ^ {\prime \prime}. \\ \end{array}
+\begin{array}{l} \frac{d B_{t}}{B_{t}} = \left(s_{t} + \frac{1}{2} \cdot \Gamma \cdot \sigma_{s}^{2}\right) \cdot d t - D \cdot d s_{t} (26) \\ \mathbb {E} \left[ \frac{d B_{t}}{B_{t}} \right] / d t = s_{t} - D \cdot \frac{\mathbb {E} [ d s_{t} ]}{d t} + \frac{1}{2} \cdot \Gamma \cdot \sigma_{s}^{2} (27) \\ =^{\prime \prime} s p r e a d^{\prime \prime} +^{\prime \prime} s p r e a d c u r v e r o l l d o w n^{\prime \prime} +^{\prime \prime} s p r e a d c o n v e x i t y^{\prime \prime}. \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fb5a9a4b-5285-42e6-b30e-4b13e49a8cc4/013e9dd4d82490af214a3dc70fb39e4947a391f0fc2650ecaa8e9557e5ea0e95.jpg)  
@@ -856,13 +856,13 @@ Shape of Survival Probability Curves
 CDS:
 
 $$
-P V _ {C D S} (c, r, h, R, T) = \left[ \frac {c - (1 - R) \cdot h}{r + h} \right] \cdot \left[ 1 - e ^ {- T \cdot (r + h)} \right]. \tag {1}
+P V_{C D S} (c, r, h, R, T) = \left[ \frac{c - (1 - R) \cdot h}{r + h} \right] \cdot \left[ 1 - e^{- T \cdot (r + h)} \right]. \tag {1}
 $$
 
 - Fixed rate risky bond
 
 $$
-P V _ {B o n d} (c, r, h, R, T) = 1 + \left[ \frac {c - r - (1 - R) \cdot h}{r + h} \right] \cdot \left[ 1 - e ^ {- T \cdot (r + h)} \right] \tag {2}
+P V_{B o n d} (c, r, h, R, T) = 1 + \left[ \frac{c - r - (1 - R) \cdot h}{r + h} \right] \cdot \left[ 1 - e^{- T \cdot (r + h)} \right] \tag {2}
 $$
 
 See next session for details on the Hazard Rate Model
@@ -1031,13 +1031,13 @@ $$
 - Bank savings account security  $B$  used as numeraire for discounting future cash-flows:
 
 $$
-B (t) = e ^ {\int_ {0} ^ {t} r _ {s} d s}, t \geq 0
+B (t) = e^{\int_{0}^{t} r_{s} d s}, t \geq 0
 $$
 
 Present value obtained as
 
 $$
-P V (t) = B (t) \cdot \mathbb {E} \left[ \int_ {t} ^ {\infty} B (s) ^ {- 1} \cdot d C F (s) | \mathcal {F} _ {t} \right] \qquad (2)
+P V (t) = B (t) \cdot \mathbb {E} \left[ \int_{t}^{\infty} B (s)^{- 1} \cdot d C F (s) | \mathcal {F}_{t} \right] \qquad (2)
 $$
 
 # Simple case: deterministic interest rates
@@ -1046,13 +1046,13 @@ $$
 - The "time value of money" at time  $t$  for time  $s$  is captured in the calibrated discount factor curve:
 
 $$
-D F (t, s) = B (t) \cdot \mathbb {E} [ B (s) ^ {- 1} | \mathcal {F} _ {t} ] = e ^ {- \int_ {t} ^ {s} r _ {u} d u}, 0 \leq t \leq s \tag {3}
+D F (t, s) = B (t) \cdot \mathbb {E} [ B (s)^{- 1} | \mathcal {F}_{t} ] = e^{- \int_{t}^{s} r_{u} d u}, 0 \leq t \leq s \tag {3}
 $$
 
 - The risk free valuation formula simplifies to
 
 $$
-P V (t) = \mathbb {E} \left[ \int_ {t} ^ {\infty} D F (t, s) \cdot d C F (s) \mid \mathcal {F} _ {t} \right] \tag {4}
+P V (t) = \mathbb {E} \left[ \int_{t}^{\infty} D F (t, s) \cdot d C F (s) \mid \mathcal {F}_{t} \right] \tag {4}
 $$
 
 - Same formula holds when security cash-flows and interest rates are independent
@@ -1062,7 +1062,7 @@ $$
 - Quarterly coupon payments until maturity  $T = {T}_{n}$  :
 
 $$
-\left\{c _ {i}, T _ {i} \right\} _ {i = 1.. n}, \quad 0 \leq t <   T _ {1} <   \dots <   T _ {n} \tag {5}
+\left\{c_{i}, T_{i} \right\}_{i = 1.. n}, \quad 0 \leq t <   T_{1} <   \dots <   T_{n} \tag {5}
 $$
 
 - We denote the random/stochastic issuer default time by
@@ -1074,7 +1074,7 @@ $$
 - Cumulative Premium Leg cash-flows have stochastic dependence on  $\tau$ :
 
 $$
-P L (s) := \sum_ {i = 1} ^ {n} c _ {i} \cdot \mathbb {I} _ {\{s \geq T _ {i} \}} \cdot \mathbb {I} _ {\{\tau > T _ {i} \}} \tag {6}
+P L (s) := \sum_{i = 1}^{n} c_{i} \cdot \mathbb {I}_{\{s \geq T_{i} \}} \cdot \mathbb {I}_{\{\tau > T_{i} \}} \tag {6}
 $$
 
 # Valuation framework for credit-risky cash-flows
@@ -1095,7 +1095,7 @@ $$
 Risk neutral valuation of CDS Premium/Fixed Leg
 
 $$
-\begin{array}{l} P V _ {C D S \_ P L} (t) = \mathbb {E} \left[ \int_ {t} ^ {T} D F (t, s) \cdot d P L (s) | \tau > t \right] (9) \\ = \mathbb {E} \left[ \sum_ {i = 1} ^ {n} c _ {i} \cdot D F (t, T _ {i}) \cdot \mathbb {I} _ {\{\tau > T _ {i} \}} | \tau > t \right] (10) \\ = \sum_ {i = 1} ^ {n} c _ {i} \cdot D F (t, T _ {i}) \cdot \mathbb {E} \left[ \mathbb {I} _ {\{\tau > T _ {i} \}} | \tau > t \right] (11) \\ = \sum_ {i = 1} ^ {n} c _ {i} \cdot D F (t, T _ {i}) \cdot \mathbb {P} (\tau > T _ {i} | \tau > t) (12) \\ = \sum_ {i = 1} ^ {n} c _ {i} \cdot D F (t, T _ {i}) \cdot S P (t, T _ {i}). (13) \\ \end{array}
+\begin{array}{l} P V_{C D S \_ P L} (t) = \mathbb {E} \left[ \int_{t}^{T} D F (t, s) \cdot d P L (s) | \tau > t \right] (9) \\ = \mathbb {E} \left[ \sum_{i = 1}^{n} c_{i} \cdot D F (t, T_{i}) \cdot \mathbb {I}_{\{\tau > T_{i} \}} | \tau > t \right] (10) \\ = \sum_{i = 1}^{n} c_{i} \cdot D F (t, T_{i}) \cdot \mathbb {E} \left[ \mathbb {I}_{\{\tau > T_{i} \}} | \tau > t \right] (11) \\ = \sum_{i = 1}^{n} c_{i} \cdot D F (t, T_{i}) \cdot \mathbb {P} (\tau > T_{i} | \tau > t) (12) \\ = \sum_{i = 1}^{n} c_{i} \cdot D F (t, T_{i}) \cdot S P (t, T_{i}). (13) \\ \end{array}
 $$
 
 Intuitive interpretation: premium leg
@@ -1103,7 +1103,7 @@ Intuitive interpretation: premium leg
 - Present value of risky contractual cash-flows
 
 $$
-P V _ {C D S \_ P L} (t) = \sum_ {i = 1} ^ {n} c _ {i} \cdot D F (t, T _ {i}) \cdot S P (t, T _ {i}) \tag {14}
+P V_{C D S \_ P L} (t) = \sum_{i = 1}^{n} c_{i} \cdot D F (t, T_{i}) \cdot S P (t, T_{i}) \tag {14}
 $$
 
 - is obtained by summing up the cash-flows amounts  $c_{j}$  
@@ -1118,19 +1118,19 @@ $$
 - Default Leg cash-flows until times are given by:
 
 $$
-D L (s) := (1 - R) \cdot \mathbb {I} _ {\{\tau \leq s \}} \tag {15}
+D L (s) := (1 - R) \cdot \mathbb {I}_{\{\tau \leq s \}} \tag {15}
 $$
 
 # Valuation of CDS Default/Loss Leg (using Fubini)
 
 $$
-\begin{array}{l} P V _ {C D S \_ D L} (t) = \mathbb {E} \left[ \int_ {t} ^ {T} D F (t, s) \cdot d D L (s) | \tau > t \right] (16) \\ = \mathbb {E} \left[ \int_ {t} ^ {T} (1 - R) \cdot D F (t, s) \cdot d \mathbb {I} _ {\{\tau \leq s \}} | \tau > t \right] (17) \\ = \int_ {t} ^ {T} (1 - R) \cdot D F (t, s) \cdot d \mathbb {E} [ \mathbb {I} _ {\{\tau \leq s \}} | \tau > t ] (18) \\ = (1 - R) \cdot \int_ {t} ^ {T} D F (t, s) \cdot d \mathbb {P} (\tau \leq s | \tau > t) (19) \\ = (1 - R) \cdot \int_ {t} ^ {T} D F (t, s) \cdot d D P (t, s). (20) \\ \end{array}
+\begin{array}{l} P V_{C D S \_ D L} (t) = \mathbb {E} \left[ \int_{t}^{T} D F (t, s) \cdot d D L (s) | \tau > t \right] (16) \\ = \mathbb {E} \left[ \int_{t}^{T} (1 - R) \cdot D F (t, s) \cdot d \mathbb {I}_{\{\tau \leq s \}} | \tau > t \right] (17) \\ = \int_{t}^{T} (1 - R) \cdot D F (t, s) \cdot d \mathbb {E} [ \mathbb {I}_{\{\tau \leq s \}} | \tau > t ] (18) \\ = (1 - R) \cdot \int_{t}^{T} D F (t, s) \cdot d \mathbb {P} (\tau \leq s | \tau > t) (19) \\ = (1 - R) \cdot \int_{t}^{T} D F (t, s) \cdot d D P (t, s). (20) \\ \end{array}
 $$
 
 Intuitive interpretation: default leg
 
 $$
-P V _ {C D S \_ D L} (t) = \int_ {t} ^ {T} (1 - R) \cdot D F (t, s) \cdot d D P (t, s) \tag {21}
+P V_{C D S \_ D L} (t) = \int_{t}^{T} (1 - R) \cdot D F (t, s) \cdot d D P (t, s) \tag {21}
 $$
 
 - Present value of loss payment at (random) issuer default time  
@@ -1146,13 +1146,13 @@ $$
 - Forward rate curves  $f(t,.)$  are defined implicitly from Discount Factor curves:
 
 $$
-D F (t, s) = \exp \left[ - \int_ {t} ^ {s} f (t, u) d u \right], \quad 0 \leq t \leq s, \tag {22}
+D F (t, s) = \exp \left[ - \int_{t}^{s} f (t, u) d u \right], \quad 0 \leq t \leq s, \tag {22}
 $$
 
 - … or defined explicitly as
 
 $$
-f (t, s) = - \frac {\partial}{\partial s} \ln [ D F (t, s) ] = - \frac {1}{D F (t , s)} \cdot \frac {\partial D F}{\partial s} (t, s). \tag {23}
+f (t, s) = - \frac{\partial}{\partial s} \ln [ D F (t, s) ] = - \frac{1}{D F (t , s)} \cdot \frac{\partial D F}{\partial s} (t, s). \tag {23}
 $$
 
 # Hazard Rates (a.k.a. Default Intensities)
@@ -1162,13 +1162,13 @@ $$
 - Hazard rate curves  $h\left( {t, \cdot  }\right)$  defined implicitly from Survival Probability curves:
 
 $$
-S P (t, s) = \exp \left[ - \int_ {t} ^ {s} h (t, u) d u \right], \quad 0 \leq t \leq s, \tag {24}
+S P (t, s) = \exp \left[ - \int_{t}^{s} h (t, u) d u \right], \quad 0 \leq t \leq s, \tag {24}
 $$
 
 - … or defined explicitly as
 
 $$
-h (t, s) = - \frac {\partial}{\partial s} \ln [ S P (t, s) ] = - \frac {1}{S P (t , s)} \cdot \frac {\partial S P}{\partial s} (t, s). \tag {25}
+h (t, s) = - \frac{\partial}{\partial s} \ln [ S P (t, s) ] = - \frac{1}{S P (t , s)} \cdot \frac{\partial S P}{\partial s} (t, s). \tag {25}
 $$
 
 # Properties of Hazard Rates
@@ -1176,25 +1176,25 @@ $$
 - Hazard rates  $h(t, s)$  quantify conditional probabilities of default "around" specific times  $s$  in the future
 
 $$
-\begin{array}{l} \mathbb {P} (s <   \tau <   s + \epsilon | \tau > s, \tau > t) \tag {26} \\ = \frac {\mathbb {P} (s <   \tau <   s + \epsilon | \tau > t)}{\mathbb {P} (\tau > s | \tau > t)} \\ = \frac {S P (t , s) - S P (t , s + \epsilon)}{S P (t , s)} \\ = 1 - \exp \left[ - \int_ {s} ^ {s + \epsilon} h (t, u) d u \right] \\ \simeq h (t, s) \cdot \epsilon , \quad 0 \leq t \leq s. \\ \end{array}
+\begin{array}{l} \mathbb {P} (s <   \tau <   s + \epsilon | \tau > s, \tau > t) \tag {26} \\ = \frac{\mathbb {P} (s <   \tau <   s + \epsilon | \tau > t)}{\mathbb {P} (\tau > s | \tau > t)} \\ = \frac{S P (t , s) - S P (t , s + \epsilon)}{S P (t , s)} \\ = 1 - \exp \left[ - \int_{s}^{s + \epsilon} h (t, u) d u \right] \\ \simeq h (t, s) \cdot \epsilon , \quad 0 \leq t \leq s. \\ \end{array}
 $$
 
 Valuation of CDS Default/Loss Leg using Hazard Rates
 
 $$
-\begin{array}{l} P V _ {C D S \_ D L} (t) = (1 - R) \cdot \int_ {t} ^ {T} D F (t, s) \cdot d D P (t, s) (27) \\ = (1 - R) \cdot \int_ {t} ^ {T} D F (t, s) \cdot d [ 1 - S P (t, s) ] (28) \\ = - (1 - R) \cdot \int_ {t} ^ {T} D F (t, s) \cdot d S P (t, s) (29) \\ = (1 - R) \cdot \int_ {t} ^ {T} h (t, s) \cdot D F (t, s) \cdot S P (t, s) \cdot d s. (30) \\ \end{array}
+\begin{array}{l} P V_{C D S \_ D L} (t) = (1 - R) \cdot \int_{t}^{T} D F (t, s) \cdot d D P (t, s) (27) \\ = (1 - R) \cdot \int_{t}^{T} D F (t, s) \cdot d [ 1 - S P (t, s) ] (28) \\ = - (1 - R) \cdot \int_{t}^{T} D F (t, s) \cdot d S P (t, s) (29) \\ = (1 - R) \cdot \int_{t}^{T} h (t, s) \cdot D F (t, s) \cdot S P (t, s) \cdot d s. (30) \\ \end{array}
 $$
 
 # Numerical quadrature of CDS Default/Loss Leg
 
 $$
-\begin{array}{l} P V _ {C D S \_ D L} (t) = (1 - R) \cdot \int_ {t} ^ {T} h (t, s) \cdot D F (t, s) \cdot S P (t, s) \cdot d s \\ = \sum_ {i = 1} ^ {n} (1 - R) \cdot \int_ {T _ {i - 1}} ^ {T _ {i}} h (t, s) \cdot D F (t, s) \cdot S P (t, s) \cdot d s (31) \\ \simeq \sum_ {i = 1} ^ {n} (1 - R) \cdot h (t, T _ {i}) \cdot \Delta T _ {i} \cdot D F (t, T _ {i}) \cdot S P (t, T _ {i}). (32) \\ \end{array}
+\begin{array}{l} P V_{C D S \_ D L} (t) = (1 - R) \cdot \int_{t}^{T} h (t, s) \cdot D F (t, s) \cdot S P (t, s) \cdot d s \\ = \sum_{i = 1}^{n} (1 - R) \cdot \int_{T_{i - 1}}^{T_{i}} h (t, s) \cdot D F (t, s) \cdot S P (t, s) \cdot d s (31) \\ \simeq \sum_{i = 1}^{n} (1 - R) \cdot h (t, T_{i}) \cdot \Delta T_{i} \cdot D F (t, T_{i}) \cdot S P (t, T_{i}). (32) \\ \end{array}
 $$
 
 CDS valuation (receiving premium  $c$ , paying default/loss leg)
 
 $$
-\begin{array}{l} P V _ {C D S} (t) = P V _ {C D S \_ P L} (t) - P V _ {C D S \_ D L} (t) (33) \\ = \sum_ {i = 1} ^ {n} c _ {i} \cdot D F (t, T _ {i}) \cdot S P (t, T _ {i}) \\ - (1 - R) \cdot \int_ {t} ^ {T} h (t, s) \cdot D F (t, s) \cdot S P (t, s) \cdot d s \\ \simeq \sum_ {i = 1} ^ {n} [ c - (1 - R) \cdot h (t, T _ {i}) ] \cdot \Delta T _ {i} \cdot D F (t, T _ {i}) \cdot S P (t, T _ {i}). (34) \\ \end{array}
+\begin{array}{l} P V_{C D S} (t) = P V_{C D S \_ P L} (t) - P V_{C D S \_ D L} (t) (33) \\ = \sum_{i = 1}^{n} c_{i} \cdot D F (t, T_{i}) \cdot S P (t, T_{i}) \\ - (1 - R) \cdot \int_{t}^{T} h (t, s) \cdot D F (t, s) \cdot S P (t, s) \cdot d s \\ \simeq \sum_{i = 1}^{n} [ c - (1 - R) \cdot h (t, T_{i}) ] \cdot \Delta T_{i} \cdot D F (t, T_{i}) \cdot S P (t, T_{i}). (34) \\ \end{array}
 $$
 
 # CDS Duration and ParSpread
@@ -1202,25 +1202,25 @@ $$
 CDS Duration defined as the "Unit" 1bp Premium Leg PV
 
 $$
-D u r a t i o n (t) := \sum_ {i = 1} ^ {n} \Delta T _ {i} \cdot D F (t, T _ {i}) \cdot S P (t, T _ {i}) \tag {35}
+D u r a t i o n (t) := \sum_{i = 1}^{n} \Delta T_{i} \cdot D F (t, T_{i}) \cdot S P (t, T_{i}) \tag {35}
 $$
 
 CDS Premium Leg valuation via Duration:
 
 $$
-P V _ {C D S \_ P L} (t) = c \cdot \text {D u r a t i o n} (t) \tag {36}
+P V_{C D S \_ P L} (t) = c \cdot \text{Du ra ti on} (t) \tag {36}
 $$
 
 - ParSpread defined from CDS Default Leg and Duration:
 
 $$
-P V _ {C D S \_ D L} (t) = \operatorname {P a r S p r e a d} (t) \cdot \text {D u r a t i o n} (t) \tag {37}
+P V_{C D S \_ D L} (t) = \operatorname{Pa rS pr ea d} (t) \cdot \text{Du ra ti on} (t) \tag {37}
 $$
 
 CDS valuation:
 
 $$
-P V _ {C D S} (t) = [ c - \text {P a r S p r e a d} (t) ] \cdot \text {D u r a t i o n} (t) \tag {38}
+P V_{C D S} (t) = [ c - \text{Pa rS pr ea d} (t) ] \cdot \text{Du ra ti on} (t) \tag {38}
 $$
 
 # CDS Duration and ParSpread formulas
@@ -1228,19 +1228,19 @@ $$
 - CDS trades "At Par" when ParSpread matches the coupon:
 
 $$
-P V _ {C D S} (t) = 0 \Leftrightarrow \operatorname {P a r S p r e a d} (t) = c \tag {39}
+P V_{C D S} (t) = 0 \Leftrightarrow \operatorname{Pa rS pr ea d} (t) = c \tag {39}
 $$
 
 - CDS ParSpread measures the credit risk of the CDS contract
 
 $$
-\operatorname {P a r S p r e a d} (t) \cong (1 - R) \cdot h \tag {40}
+\operatorname{Pa rS pr ea d} (t) \cong (1 - R) \cdot h \tag {40}
 $$
 
 CDS CS01 defined as  $\Delta PV$  for -1bp change in ParSpread:
 
 $$
-\begin{array}{l} C S 0 1 _ {C D S} (t, s) := P V _ {C D S} (t, s - 1 b p) - P V _ {C D S} (t, s) \\ \cong [ c - s + 1 b p ] \cdot D u r a t i o n (t) - [ c - s ] \cdot D u r a t i o n (t) \\ = \text {D u r a t i o n} (t) \tag {41} \\ \end{array}
+\begin{array}{l} C S 0 1_{C D S} (t, s) := P V_{C D S} (t, s - 1 b p) - P V_{C D S} (t, s) \\ \cong [ c - s + 1 b p ] \cdot D u r a t i o n (t) - [ c - s ] \cdot D u r a t i o n (t) \\ = \text{Du ra ti on} (t) \tag {41} \\ \end{array}
 $$
 
 CDS Par Spreads, Prices vs Upfronts for different maturities
@@ -1259,21 +1259,21 @@ CDS Par Spreads, Prices vs Upfronts for different maturities
 - Default Leg computed via numerical integration
 
 $$
-P V _ {C D S} (t, c, h, R) = P V _ {C D S \_ P L} (t, c, h, R) - P V _ {C D S \_ D L} (t, h, R)
+P V_{C D S} (t, c, h, R) = P V_{C D S \_ P L} (t, c, h, R) - P V_{C D S \_ D L} (t, h, R)
 $$
 
 $$
-\begin{array}{l} = \sum_ {i = 1} ^ {n} c _ {i} \cdot D F (t, T _ {i}) \cdot e ^ {(t - T _ {i}) \cdot h} - (1 - R) \cdot h \cdot \int_ {t} ^ {T} D F (t, s) \cdot e ^ {(t - s) \cdot h} d s \\ \simeq \sum_ {i = 1} ^ {n} [ c - (1 - R) \cdot h ] \cdot \Delta T _ {i} \cdot D F (t, T _ {i}) \cdot e ^ {(t - T _ {i}) \cdot h} \\ = \sum_ {i = 1} ^ {n} [ c - (1 - R) \cdot h ] \cdot \Delta T _ {i} \cdot e ^ {(t - T _ {i}) \cdot \left(r _ {i} + h\right)}. \tag {42} \\ \end{array}
+\begin{array}{l} = \sum_{i = 1}^{n} c_{i} \cdot D F (t, T_{i}) \cdot e^{(t - T_{i}) \cdot h} - (1 - R) \cdot h \cdot \int_{t}^{T} D F (t, s) \cdot e^{(t - s) \cdot h} d s \\ \simeq \sum_{i = 1}^{n} [ c - (1 - R) \cdot h ] \cdot \Delta T_{i} \cdot D F (t, T_{i}) \cdot e^{(t - T_{i}) \cdot h} \\ = \sum_{i = 1}^{n} [ c - (1 - R) \cdot h ] \cdot \Delta T_{i} \cdot e^{(t - T_{i}) \cdot \left(r_{i} + h\right)}. \tag {42} \\ \end{array}
 $$
 
 Simple CDS valuation with constant parameters
 
 $$
-P V _ {C D S} (c, r, h, R, T) = \tag {43}
+P V_{C D S} (c, r, h, R, T) = \tag {43}
 $$
 
 $$
-\begin{array}{l} = \sum_ {k = 1} ^ {4 T} \frac {c}{4} \cdot e ^ {- k \cdot (r + h) / 4} - \frac {(1 - R) \cdot h}{r + h} \cdot \left[ 1 - e ^ {- T \cdot (r + h)} \right] (44) \\ = \left[ \frac {c / 4}{e ^ {(r + h) / 4} - 1} - \frac {(1 - R) \cdot h}{r + h} \right] \cdot \left[ 1 - e ^ {- T \cdot (r + h)} \right] (45) \\ \simeq \left[ \frac {c - (1 - R) \cdot h}{r + h} \right] \cdot \left[ 1 - e ^ {- T \cdot (r + h)} \right]. (46) \\ \end{array}
+\begin{array}{l} = \sum_{k = 1}^{4 T} \frac{c}{4} \cdot e^{- k \cdot (r + h) / 4} - \frac{(1 - R) \cdot h}{r + h} \cdot \left[ 1 - e^{- T \cdot (r + h)} \right] (44) \\ = \left[ \frac{c / 4}{e^{(r + h) / 4} - 1} - \frac{(1 - R) \cdot h}{r + h} \right] \cdot \left[ 1 - e^{- T \cdot (r + h)} \right] (45) \\ \simeq \left[ \frac{c - (1 - R) \cdot h}{r + h} \right] \cdot \left[ 1 - e^{- T \cdot (r + h)} \right]. (46) \\ \end{array}
 $$
 
 CDS valuation surface (5% flat interest rates, 5% coupon)  
@@ -1305,33 +1305,33 @@ Corporate Bond Cashflows with Default Events and Call Option
 principal payment at maturity  $T = T_{n}$
 
 $$
-\begin{array}{l} P V _ {B o n d \_ F L} (t) = \sum_ {i = 1} ^ {n} c \cdot \Delta T _ {i} \cdot D F (t, T _ {i}) \cdot S P (t, T _ {i}) \\ + D F (t, T _ {n}) \cdot S P (t, T _ {n}) \tag {47} \\ \end{array}
+\begin{array}{l} P V_{B o n d \_ F L} (t) = \sum_{i = 1}^{n} c \cdot \Delta T_{i} \cdot D F (t, T_{i}) \cdot S P (t, T_{i}) \\ + D F (t, T_{n}) \cdot S P (t, T_{n}) \tag {47} \\ \end{array}
 $$
 
 - Default Leg valuation: bond pays recovery value  $R_{i}$  at default time  $\tau \in [T_{i - 1}, T_{i}]$ , if issuer defaults before maturity  $T$
 
 $$
-\begin{array}{l} P V _ {B o n d \_ D L} (t) = \int_ {t} ^ {T} R _ {s} \cdot h (t, s) \cdot D F (t, s) \cdot S P (t, s) \cdot d s \\ \simeq \sum_ {i = 1} ^ {n} R _ {i} \cdot h (t, T _ {i}) \cdot \Delta T _ {i} \cdot D F (t, T _ {i}) \cdot S P (t, T _ {i}) \tag {48} \\ \end{array}
+\begin{array}{l} P V_{B o n d \_ D L} (t) = \int_{t}^{T} R_{s} \cdot h (t, s) \cdot D F (t, s) \cdot S P (t, s) \cdot d s \\ \simeq \sum_{i = 1}^{n} R_{i} \cdot h (t, T_{i}) \cdot \Delta T_{i} \cdot D F (t, T_{i}) \cdot S P (t, T_{i}) \tag {48} \\ \end{array}
 $$
 
 Bond valuation formula (combined fixed and default legs)
 
 $$
-P V _ {B o n d} (t) = P V _ {B o n d \_ F L} (t) + P V _ {B o n d \_ D L} (t) \tag {49}
+P V_{B o n d} (t) = P V_{B o n d \_ F L} (t) + P V_{B o n d \_ D L} (t) \tag {49}
 $$
 
 $$
-\begin{array}{l} = \sum_ {i = 1} ^ {n} c \cdot \Delta T _ {i} \cdot D F (t, T _ {i}) \cdot S P (t, T _ {i}) + D F (t, T _ {n}) \cdot S P (t, T _ {n}) \\ + \int_ {t} ^ {T} R _ {s} \cdot h (t, s) \cdot D F (t, s) \cdot S P (t, s) \cdot d s (50) \\ \simeq \sum_ {i = 1} ^ {n} \left[ c + R _ {i} \cdot h (t, T _ {i}) \right] \cdot \Delta T _ {i} \cdot D F (t, T _ {i}) \cdot S P (t, T _ {i}) \\ + D F (t, T _ {n}) \cdot S P (t, T _ {n}) (51) \\ \end{array}
+\begin{array}{l} = \sum_{i = 1}^{n} c \cdot \Delta T_{i} \cdot D F (t, T_{i}) \cdot S P (t, T_{i}) + D F (t, T_{n}) \cdot S P (t, T_{n}) \\ + \int_{t}^{T} R_{s} \cdot h (t, s) \cdot D F (t, s) \cdot S P (t, s) \cdot d s (50) \\ \simeq \sum_{i = 1}^{n} \left[ c + R_{i} \cdot h (t, T_{i}) \right] \cdot \Delta T_{i} \cdot D F (t, T_{i}) \cdot S P (t, T_{i}) \\ + D F (t, T_{n}) \cdot S P (t, T_{n}) (51) \\ \end{array}
 $$
 
 Simple hazard rate bond pricing formula (flat parameters)
 
 $$
-P V _ {\text {B o n d}} (c, r, h, R) = \tag {52}
+P V_{\text{Bo nd}} (c, r, h, R) = \tag {52}
 $$
 
 $$
-\begin{array}{l} = \sum_ {k = 1} ^ {2 T} \frac {c}{2} \cdot e ^ {- k \cdot (r + h) / 2} + e ^ {- T \cdot (r + h)} + \frac {R \cdot h}{r + h} \cdot \left[ 1 - e ^ {- T \cdot (r + h)} \right] (53) \\ = 1 + \left[ \frac {\frac {c}{2} - \left(e ^ {\frac {r + h}{2}} - 1\right)}{e ^ {\frac {r + h}{2}} - 1} + \frac {R \cdot h}{r + h} \right] \cdot \left[ 1 - e ^ {- T \cdot (r + h)} \right] (54) \\ \simeq 1 + \left[ \frac {c - r - (1 - R) \cdot h}{r + h} \right] \cdot \left[ 1 - e ^ {- T \cdot (r + h)} \right]. (55) \\ \end{array}
+\begin{array}{l} = \sum_{k = 1}^{2 T} \frac{c}{2} \cdot e^{- k \cdot (r + h) / 2} + e^{- T \cdot (r + h)} + \frac{R \cdot h}{r + h} \cdot \left[ 1 - e^{- T \cdot (r + h)} \right] (53) \\ = 1 + \left[ \frac{\frac{c}{2} - \left(e^{\frac{r + h}{2}} - 1\right)}{e^{\frac{r + h}{2}} - 1} + \frac{R \cdot h}{r + h} \right] \cdot \left[ 1 - e^{- T \cdot (r + h)} \right] (54) \\ \simeq 1 + \left[ \frac{c - r - (1 - R) \cdot h}{r + h} \right] \cdot \left[ 1 - e^{- T \cdot (r + h)} \right]. (55) \\ \end{array}
 $$
 
 Bond valuation surface using hazard rate model  
@@ -1346,13 +1346,13 @@ Hazard rate vs yield/spread models (flat parameters)
 Bond valuation in flat "yield/spread" model:
 
 $$
-P V _ {B o n d} (c, r, s) \simeq 1 + \left[ \frac {c - r - s}{r + s} \right] \cdot \left[ 1 - e ^ {- T \cdot (r + s)} \right]. \tag {56}
+P V_{B o n d} (c, r, s) \simeq 1 + \left[ \frac{c - r - s}{r + s} \right] \cdot \left[ 1 - e^{- T \cdot (r + s)} \right]. \tag {56}
 $$
 
 Bond valuation in flat "hazard rate" model:
 
 $$
-P V _ {B o n d} (c, r, h, R) \simeq 1 + \left[ \frac {c - r - (1 - R) \cdot h}{r + h} \right] \cdot \left[ 1 - e ^ {- T \cdot (r + h)} \right]. \tag {57}
+P V_{B o n d} (c, r, h, R) \simeq 1 + \left[ \frac{c - r - (1 - R) \cdot h}{r + h} \right] \cdot \left[ 1 - e^{- T \cdot (r + h)} \right]. \tag {57}
 $$
 
 - Yield/spread model is "simple" case of hazard rate model for
@@ -1735,7 +1735,7 @@ Recap: pricing risky instruments (cash bonds and CDS)
 - Very useful to think of "average" hazard rates  $H(t, T)$
 
 $$
-H (t, T) = \frac {1}{T - t} \int_ {t} ^ {T} h (t, s) d s \tag {1}
+H (t, T) = \frac{1}{T - t} \int_{t}^{T} h (t, s) d s \tag {1}
 $$
 
 $$
@@ -1747,20 +1747,20 @@ Implementing a "smooth" credit risk model
 - Main idea: use parametric form for average hazard rate curve as of time  $t$
 
 $$
-H (t, T) = H (t, T \mid \theta_ {t}) \tag {3}
+H (t, T) = H (t, T \mid \theta_{t}) \tag {3}
 $$
 
 - Parameter vector  $\theta_t$  controls the "shape" (level, slope, convexity, etc) of the credit curve.  
 - The implied parametric form for the survival probability curve is given by
 
 $$
-S P (t, T) = S P (t, T \mid \theta_ {t}) = \exp [ (t - T) \cdot H (t, T \mid \theta_ {t}) ] \tag {4}
+S P (t, T) = S P (t, T \mid \theta_{t}) = \exp [ (t - T) \cdot H (t, T \mid \theta_{t}) ] \tag {4}
 $$
 
 # Nelson-Siegel parametric hazard rate curve:
 
 $$
-\theta_ {1} = 3 \%, \theta_ {2} = - 1 \%, \theta_ {3} = - 0.1 \%, \lambda = 5
+\theta_{1} = 3 \%, \theta_{2} = - 1 \%, \theta_{3} = - 0.1 \%, \lambda = 5
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fb5a9a4b-5285-42e6-b30e-4b13e49a8cc4/418f9a110bd89dfacbbd1fe3c624f7cf32dbcb3e3d7c78434e3c47b3e83804ae.jpg)  
@@ -1769,7 +1769,7 @@ Nelson-Siegel smooth hazard rate curve
 # Nelson-Siegel parametric survival probability curve:
 
 $$
-\theta_ {1} = 3 \%, \theta_ {2} = - 1 \%, \theta_ {3} = - 0.1 \%, \lambda = 5
+\theta_{1} = 3 \%, \theta_{2} = - 1 \%, \theta_{3} = - 0.1 \%, \lambda = 5
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fb5a9a4b-5285-42e6-b30e-4b13e49a8cc4/fb1a98bc5cf401ed727feb8af98639159655c7caa02214cc86c53df0a30034dd.jpg)  
@@ -1782,11 +1782,11 @@ Implementation/calibration of smooth credit risk model
 - Model calibration consists of minimizing the SSE ("Sum of Squared Errors") between model and market prices:
 
 $$
-S S E (t, \theta) := \sum_ {i = 1} ^ {N} w _ {i} \cdot \left| M a r k e t P r i c e _ {t} ^ {i} - M o d e l P r i c e _ {t} ^ {i} (\theta) \right| ^ {2}, \tag {5}
+S S E (t, \theta) := \sum_{i = 1}^{N} w_{i} \cdot \left| M a r k e t P r i c e_{t}^{i} - M o d e l P r i c e_{t}^{i} (\theta) \right|^{2}, \tag {5}
 $$
 
 $$
-\theta_ {t} ^ {*} = \underset {\theta} {\operatorname {a r g m i n}} \{S S E (t, \theta) \} \tag {6}
+\theta_{t}^{*} = \underset {\theta} {\operatorname{ar gm in}} \{S S E (t, \theta) \} \tag {6}
 $$
 
 # Nelson-Siegel calibration: Verizon G-Spreads
@@ -2076,14 +2076,14 @@ Recovery rates are "stochastic" and dependent on the credit cycle!
 - Assets value of corporation modeled by stochastic process
 
 $$
-\left(A _ {t}\right) _ {t \geq 0}, A _ {t} > 0 \tag {1}
+\left(A_{t}\right)_{t \geq 0}, A_{t} > 0 \tag {1}
 $$
 
 - Volatility  $\sigma_{A}$  of assets assumed to be known  
 Corporate Liabilities are known and denoted by
 
 $$
-\left(K _ {t}\right) _ {t \geq 0}, K _ {t} \geq 0 \tag {2}
+\left(K_{t}\right)_{t \geq 0}, K_{t} \geq 0 \tag {2}
 $$
 
 # Book Value of Equity and Leverage
@@ -2091,14 +2091,14 @@ $$
 - Leverage  $L$  of the corporate capital structure defined as
 
 $$
-L _ {t} = \frac {\text {L i a b i l i t i e s}}{\text {A s s e t s}} = \frac {K _ {t}}{A _ {t}}. \tag {3}
+L_{t} = \frac{\text{Li ab il it ie s}}{\text{As se ts}} = \frac{K_{t}}{A_{t}}. \tag {3}
 $$
 
 - Leverage can be obtained from corporate balance sheet details  
 - "Book Value of Equity" defined as "Assets - Liabilities"
 
 $$
-B V E _ {t} = A _ {t} - K _ {t} = A _ {t} \cdot \left(1 - L _ {t}\right) \tag {4}
+B V E_{t} = A_{t} - K_{t} = A_{t} \cdot \left(1 - L_{t}\right) \tag {4}
 $$
 
 - Time horizon for credit default event given by maturity of liabilities
@@ -2108,17 +2108,17 @@ $$
 - Stock price process  $S_{t}$  follows geometric Brownian motion with constant drift  $r$  and volatility  $\sigma$  (under risk neutral measure)
 
 $$
-\frac {d S _ {t}}{S _ {t}} = r \cdot d t + \sigma \cdot d W _ {t}, S _ {0} > 0, \tag {5}
+\frac{d S_{t}}{S_{t}} = r \cdot d t + \sigma \cdot d W_{t}, S_{0} > 0, \tag {5}
 $$
 
 $$
-S _ {t} = S _ {0} \cdot \exp \left[ \left(r - \frac {1}{2} \sigma^ {2}\right) \cdot t + \sigma \cdot W _ {t} \right]. \tag {6}
+S_{t} = S_{0} \cdot \exp \left[ \left(r - \frac{1}{2} \sigma^{2}\right) \cdot t + \sigma \cdot W_{t} \right]. \tag {6}
 $$
 
 Stock log-price  $S_{t}$  is normally distributed:
 
 $$
-\log \left(S _ {t} / S _ {0}\right) \sim \mathcal {N} \left[ \left(r - \frac {1}{2} \sigma^ {2}\right) \cdot t, \sigma^ {2} \cdot t \right]. \tag {7}
+\log \left(S_{t} / S_{0}\right) \sim \mathcal {N} \left[ \left(r - \frac{1}{2} \sigma^{2}\right) \cdot t, \sigma^{2} \cdot t \right]. \tag {7}
 $$
 
 # Reminder: Black-Scholes '73 option pricing formulas
@@ -2126,7 +2126,7 @@ $$
 - Fair value price of European Call option with maturity  $T$  and strike  $K$  given by
 
 $$
-\begin{array}{l} \operatorname {C a l l} \left(S _ {0}, K, T, \sigma , r\right) = e ^ {- r \cdot T} \cdot \mathbb {E} \left[ \left(S _ {T} - K\right) ^ {+} \mid \mathcal {F} _ {0} \right] (8) \\ = S _ {0} \cdot \Phi (d _ {+}) - e ^ {- r \cdot T} \cdot K \cdot \Phi (d _ {-}), (9) \\ d _ {\pm} = \frac {\log \left(S _ {0} / K\right) + \left(r \pm \frac {1}{2} \sigma^ {2}\right) \cdot T}{\sigma \cdot \sqrt {T}} (10) \\ \end{array}
+\begin{array}{l} \operatorname{Ca ll} \left(S_{0}, K, T, \sigma , r\right) = e^{- r \cdot T} \cdot \mathbb {E} \left[ \left(S_{T} - K\right)^{+} \mid \mathcal {F}_{0} \right] (8) \\ = S_{0} \cdot \Phi (d_{+}) - e^{- r \cdot T} \cdot K \cdot \Phi (d_{-}), (9) \\ d_{\pm} = \frac{\log \left(S_{0} / K\right) + \left(r \pm \frac{1}{2} \sigma^{2}\right) \cdot T}{\sigma \cdot \sqrt{T}} (10) \\ \end{array}
 $$
 
 # Intuition behind option pricing formulas
@@ -2134,7 +2134,7 @@ $$
 - use risk-neutral measure  $d\mathbb{P}$  and stock-forward measure  $d\mathbb{P}_{*} = \frac{S_{T}}{S_{0} \cdot e^{r \cdot T}} \cdot d\mathbb{P}$  (via Girsanov transform):
 
 $$
-\begin{array}{l} \operatorname {C a l l} \left(S _ {0}, K, T, \sigma , r\right) = e ^ {- r \cdot T} \cdot \mathbb {E} \left[ \left(S _ {T} - K\right) ^ {+} \mid \mathcal {F} _ {0} \right] (11) \\ = e ^ {- r \cdot T} \cdot \mathbb {E} \left[ (S _ {T} - K) \cdot \mathbb {I} _ {\{S _ {T} > K \}} | \mathcal {F} _ {0} \right] \\ = S _ {0} \cdot \mathbb {E} \left[ \frac {S _ {T}}{S _ {0} \cdot e ^ {r \cdot T}} \cdot \mathbb {I} _ {\{S _ {T} > K \}} | \mathcal {F} _ {0} \right] - e ^ {- r \cdot T} \cdot K \cdot \mathbb {E} \left[ \mathbb {I} _ {\{S _ {T} > K \}} | \mathcal {F} _ {0} \right] \\ = S _ {0} \cdot \mathbb {P} _ {*} [ S _ {T} > K | \mathcal {F} _ {0} ] - e ^ {- r \cdot T} \cdot K \cdot \mathbb {P} [ S _ {T} > K | \mathcal {F} _ {0} ] (12) \\ = S _ {0} \cdot \Phi (d _ {+}) - e ^ {- r \cdot T} \cdot K \cdot \Phi (d _ {-}). (13) \\ \end{array}
+\begin{array}{l} \operatorname{Ca ll} \left(S_{0}, K, T, \sigma , r\right) = e^{- r \cdot T} \cdot \mathbb {E} \left[ \left(S_{T} - K\right)^{+} \mid \mathcal {F}_{0} \right] (11) \\ = e^{- r \cdot T} \cdot \mathbb {E} \left[ (S_{T} - K) \cdot \mathbb {I}_{\{S_{T} > K \}} | \mathcal {F}_{0} \right] \\ = S_{0} \cdot \mathbb {E} \left[ \frac{S_{T}}{S_{0} \cdot e^{r \cdot T}} \cdot \mathbb {I}_{\{S_{T} > K \}} | \mathcal {F}_{0} \right] - e^{- r \cdot T} \cdot K \cdot \mathbb {E} \left[ \mathbb {I}_{\{S_{T} > K \}} | \mathcal {F}_{0} \right] \\ = S_{0} \cdot \mathbb {P}_{*} [ S_{T} > K | \mathcal {F}_{0} ] - e^{- r \cdot T} \cdot K \cdot \mathbb {P} [ S_{T} > K | \mathcal {F}_{0} ] (12) \\ = S_{0} \cdot \Phi (d_{+}) - e^{- r \cdot T} \cdot K \cdot \Phi (d_{-}). (13) \\ \end{array}
 $$
 
 It's all about measuring the event  $\{S_T > K\}$  under  $\mathbb{P}$  and  $\mathbb{P}_{*}!$
@@ -2142,7 +2142,7 @@ It's all about measuring the event  $\{S_T > K\}$  under  $\mathbb{P}$  and  $\m
 Intuition behind option delta hedging
 
 $$
-\begin{array}{l} D e l t a C a l l \left(S _ {0}, K, T, \sigma , r, \right) (14) \\ = \frac {\partial}{\partial S _ {0}} \left\{e ^ {- r \cdot T} \cdot \mathbb {E} \left[ (S _ {T} - K) ^ {+} | \mathcal {F} _ {0} \right] \right\} \\ = e ^ {- r \cdot T} \cdot \mathbb {E} \left[ \frac {\partial}{\partial S _ {0}} (S _ {T} - K) ^ {+} | \mathcal {F} _ {0} \right] \\ = e ^ {- r \cdot T} \cdot \mathbb {E} \left[ \frac {S _ {T}}{S _ {0}} \cdot \mathbb {I} _ {\{S _ {T} > K \}} | \mathcal {F} _ {0} \right] \\ = \mathbb {P} _ {*} [ S _ {T} > K | \mathcal {F} _ {0} ] (15) \\ = \Phi (d _ {+}). (16) \\ \end{array}
+\begin{array}{l} D e l t a C a l l \left(S_{0}, K, T, \sigma , r, \right) (14) \\ = \frac{\partial}{\partial S_{0}} \left\{e^{- r \cdot T} \cdot \mathbb {E} \left[ (S_{T} - K)^{+} | \mathcal {F}_{0} \right] \right\} \\ = e^{- r \cdot T} \cdot \mathbb {E} \left[ \frac{\partial}{\partial S_{0}} (S_{T} - K)^{+} | \mathcal {F}_{0} \right] \\ = e^{- r \cdot T} \cdot \mathbb {E} \left[ \frac{S_{T}}{S_{0}} \cdot \mathbb {I}_{\{S_{T} > K \}} | \mathcal {F}_{0} \right] \\ = \mathbb {P}_{*} [ S_{T} > K | \mathcal {F}_{0} ] (15) \\ = \Phi (d_{+}). (16) \\ \end{array}
 $$
 
 # Recovering the market implied distribution of  $S_{T}$
@@ -2150,7 +2150,7 @@ $$
 - The market implied (model independent) cumulative distribution function  $\mathbb{P}\left[S_T \leq K|\mathcal{F}_0\right]$  can be obtained from option prices across different strike levels  $K$ :
 
 $$
-\begin{array}{l} \frac {C a l l \left(S _ {0} , K + \Delta K , \ldots\right) - C a l l \left(S _ {0} , K , \ldots\right)}{\Delta K} \\ \cong \frac {\partial}{\partial K} C a I I (S _ {0}, K, \dots) \\ = \frac {\partial}{\partial K} \left\{e ^ {- r \cdot T} \cdot \mathbb {E} \left[ (S _ {T} - K) ^ {+} | \mathcal {F} _ {0} \right] \right\} \\ = e ^ {- r \cdot T} \cdot \mathbb {E} \left[ \mathbb {I} _ {\{S _ {T} \leq K \}} | \mathcal {F} _ {0} \right] \\ = e ^ {- r \cdot T} \cdot \mathbb {P} [ S _ {T} \leq K | \mathcal {F} _ {0} ] \tag {17} \\ \end{array}
+\begin{array}{l} \frac{C a l l \left(S_{0} , K + \Delta K , \ldots\right) - C a l l \left(S_{0} , K , \ldots\right)}{\Delta K} \\ \cong \frac{\partial}{\partial K} C a I I (S_{0}, K, \dots) \\ = \frac{\partial}{\partial K} \left\{e^{- r \cdot T} \cdot \mathbb {E} \left[ (S_{T} - K)^{+} | \mathcal {F}_{0} \right] \right\} \\ = e^{- r \cdot T} \cdot \mathbb {E} \left[ \mathbb {I}_{\{S_{T} \leq K \}} | \mathcal {F}_{0} \right] \\ = e^{- r \cdot T} \cdot \mathbb {P} [ S_{T} \leq K | \mathcal {F}_{0} ] \tag {17} \\ \end{array}
 $$
 
 - Is the market implied distribution of  $S_T$  log-normal with constant volatility  $\sigma$ ? Not really …
@@ -2164,7 +2164,7 @@ Equity investors have limited liability, so their payout at  $T$  is EquityPayou
 - Bond investors take over the assets in case of default, their payout at  $T$  is
 
 $$
-B o n d P a y o u t = \min  (K, A _ {T}) = A _ {T} - (A _ {T} - K) ^ {+} \tag {19}
+B o n d P a y o u t = \min  (K, A_{T}) = A_{T} - (A_{T} - K)^{+} \tag {19}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fb5a9a4b-5285-42e6-b30e-4b13e49a8cc4/1452bedb9a925ca4b15ea80f4502671b9d1dea120046b08856f331337bf17c50.jpg)  
@@ -2177,17 +2177,17 @@ Possible paths of asset values relative to liabilities
 - Asset value process  $A_{t}$  follows a geometric Brownian motion with drift (under risk neutral measure)
 
 $$
-\frac {d A _ {t}}{A _ {t}} = r \cdot d t + \sigma_ {A} \cdot d W _ {t}, A _ {0} > 0 \tag {20}
+\frac{d A_{t}}{A_{t}} = r \cdot d t + \sigma_{A} \cdot d W_{t}, A_{0} > 0 \tag {20}
 $$
 
 $$
-A _ {t} = A _ {0} \cdot \exp \left[ \left(r - \frac {1}{2} \sigma_ {A} ^ {2}\right) \cdot t + \sigma_ {A} \cdot W _ {t} \right] \tag {21}
+A_{t} = A_{0} \cdot \exp \left[ \left(r - \frac{1}{2} \sigma_{A}^{2}\right) \cdot t + \sigma_{A} \cdot W_{t} \right] \tag {21}
 $$
 
 - Default time  $\tau$  is discrete and given by
 
 $$
-\tau = \left\{ \begin{array}{l l} T, & A _ {T} <   K \\ \infty , & A _ {T} \geq K \end{array} \right. \tag {22}
+\tau = \left\{ \begin{array}{l l} T, & A_{T} <   K \\ \infty , & A_{T} \geq K \end{array} \right. \tag {22}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fb5a9a4b-5285-42e6-b30e-4b13e49a8cc4/de08bd40deef077ae9d46f3d9d7cc9e15da42fb4c4179266054129652c7c3c7a.jpg)  
@@ -2199,7 +2199,7 @@ Equity value as a function of assets and liabilities
 - … via Black-Scholes-Merton risk-neutral valuation formula
 
 $$
-\begin{array}{l} E _ {0} = e ^ {- r \cdot T} \cdot \mathbb {E} \left[ (A _ {T} - K) ^ {+} \mid \mathcal {F} _ {0} \right] (23) \\ = C a l l \left(A _ {0}, K, T, \sigma_ {A}, r, \right.) \\ = A _ {0} \cdot \Phi (d _ {+}) - e ^ {- r \cdot T} \cdot K \cdot \Phi (d _ {-}), \\ d _ {\pm} = \frac {- \log (L _ {0}) + (r \pm \frac {1}{2} \sigma_ {A} ^ {2}) \cdot T}{\sigma_ {A} \cdot \sqrt {T}} (24) \\ \end{array}
+\begin{array}{l} E_{0} = e^{- r \cdot T} \cdot \mathbb {E} \left[ (A_{T} - K)^{+} \mid \mathcal {F}_{0} \right] (23) \\ = C a l l \left(A_{0}, K, T, \sigma_{A}, r, \right.) \\ = A_{0} \cdot \Phi (d_{+}) - e^{- r \cdot T} \cdot K \cdot \Phi (d_{-}), \\ d_{\pm} = \frac{- \log (L_{0}) + (r \pm \frac{1}{2} \sigma_{A}^{2}) \cdot T}{\sigma_{A} \cdot \sqrt{T}} (24) \\ \end{array}
 $$
 
 # Equity Fair Value surface
@@ -2215,13 +2215,13 @@ Equity Fair Value (Asset = 1, T = 5, r = 4%)
 - Computed from risky bond payoff function:
 
 $$
-\begin{array}{l} B _ {0} = e ^ {- r \cdot T} \cdot \mathbb {E} [ \min  (K, A _ {T}) | \mathcal {F} _ {0} ] \tag {25} \\ = e ^ {- r \cdot T} \cdot \mathbb {E} \left[ A _ {T} - (A _ {T} - K) ^ {+} | \mathcal {F} _ {0} \right] \\ = A _ {0} - \left[ A _ {0} \cdot \Phi (d _ {+}) - e ^ {- r \cdot T} \cdot K \cdot \Phi (d _ {-}) \right] \\ = A _ {0} \cdot \Phi (- d _ {+}) + e ^ {- r \cdot T} \cdot K \cdot \Phi (d _ {-}). \\ \end{array}
+\begin{array}{l} B_{0} = e^{- r \cdot T} \cdot \mathbb {E} [ \min  (K, A_{T}) | \mathcal {F}_{0} ] \tag {25} \\ = e^{- r \cdot T} \cdot \mathbb {E} \left[ A_{T} - (A_{T} - K)^{+} | \mathcal {F}_{0} \right] \\ = A_{0} - \left[ A_{0} \cdot \Phi (d_{+}) - e^{- r \cdot T} \cdot K \cdot \Phi (d_{-}) \right] \\ = A_{0} \cdot \Phi (- d_{+}) + e^{- r \cdot T} \cdot K \cdot \Phi (d_{-}). \\ \end{array}
 $$
 
 - Arbitrage relationship holds (Modigliani-Miller theorem):
 
 $$
-A _ {0} = B _ {0} + E _ {0}. \tag {26}
+A_{0} = B_{0} + E_{0}. \tag {26}
 $$
 
 # Risky Bond Fair Value
@@ -2237,13 +2237,13 @@ Risky Bond Fair Value (Asset = 1, T = 5, r = 4%)
 - Survival Probability computed as
 
 $$
-\begin{array}{l} S P (0, T) = \mathbb {P} [ \tau > T | \mathcal {F} _ {0} ] \tag {27} \\ = \mathbb {P} \left[ A _ {T} > K | \mathcal {F} _ {0} \right] \\ = \Phi (d _ {-}). \\ \end{array}
+\begin{array}{l} S P (0, T) = \mathbb {P} [ \tau > T | \mathcal {F}_{0} ] \tag {27} \\ = \mathbb {P} \left[ A_{T} > K | \mathcal {F}_{0} \right] \\ = \Phi (d_{-}). \\ \end{array}
 $$
 
 - Default Probability computed as
 
 $$
-\begin{array}{l} D P (0, T) = 1 - S P (0, T) \tag {28} \\ = 1 - \Phi (d _ {-}) \\ = \Phi (- d _ {-}). \\ \end{array}
+\begin{array}{l} D P (0, T) = 1 - S P (0, T) \tag {28} \\ = 1 - \Phi (d_{-}) \\ = \Phi (- d_{-}). \\ \end{array}
 $$
 
 Hazard Rates and "Distance to Default"
@@ -2251,13 +2251,13 @@ Hazard Rates and "Distance to Default"
 - Flat Hazard Rate computed as
 
 $$
-h = - \frac {1}{T} \cdot \log (S P (0, T)) = - \frac {1}{T} \cdot \log (\Phi (d _ {-})) \tag {29}
+h = - \frac{1}{T} \cdot \log (S P (0, T)) = - \frac{1}{T} \cdot \log (\Phi (d_{-})) \tag {29}
 $$
 
 - Using KMV "Distance to Default"/DD notation:
 
 $$
-D D = d _ {-} \tag {30}
+D D = d_{-} \tag {30}
 $$
 
 $$
@@ -2273,17 +2273,17 @@ $$
 - Yield of risky bond is given by
 
 $$
-y _ {0} = - \frac {\log (B _ {0} / K)}{T} \tag {33}
+y_{0} = - \frac{\log (B_{0} / K)}{T} \tag {33}
 $$
 
 $$
-= - \frac {1}{T} \cdot \log \left(L _ {0} ^ {- 1} \cdot \Phi (- d _ {+}) + e ^ {- r \cdot T} \cdot \Phi (d _ {-})\right)
+= - \frac{1}{T} \cdot \log \left(L_{0}^{- 1} \cdot \Phi (- d_{+}) + e^{- r \cdot T} \cdot \Phi (d_{-})\right)
 $$
 
 - Credit spread of risky bond ("yield - risk free rate")
 
 $$
-\begin{array}{l} s _ {0} = y _ {0} - r = - \frac {1}{T} \cdot \log \left(B _ {0} / K\right) - r \tag {34} \\ = - \frac {1}{T} \cdot \log \left(e ^ {r \cdot T} \cdot L _ {0} ^ {- 1} \cdot \Phi (- d _ {+}) + \Phi (d _ {-})\right) \\ \end{array}
+\begin{array}{l} s_{0} = y_{0} - r = - \frac{1}{T} \cdot \log \left(B_{0} / K\right) - r \tag {34} \\ = - \frac{1}{T} \cdot \log \left(e^{r \cdot T} \cdot L_{0}^{- 1} \cdot \Phi (- d_{+}) + \Phi (d_{-})\right) \\ \end{array}
 $$
 
 # Risky Bond Yields
@@ -2297,7 +2297,7 @@ Risky Bond Yield (Asset = 1, T = 5, r = 4%)
 Expected recovery rate given default  $R$
 
 $$
-\begin{array}{l} R = \mathbb {E} \left[ \frac {A _ {T}}{K} \mid A _ {T} <   K, \mathcal {F} _ {0} \right] \tag {35} \\ = \frac {\mathbb {E} \left[ \frac {A _ {T}}{K} \cdot \mathbb {I} _ {\{A _ {T} <   K \}} | \mathcal {F} _ {0} \right]}{\mathbb {P} \left[ A _ {T} <   K | \mathcal {F} _ {0} \right]} \\ = \frac {A _ {0}}{K} \cdot \frac {\Phi (- d _ {+})}{\Phi (- d _ {-})} \\ \end{array}
+\begin{array}{l} R = \mathbb {E} \left[ \frac{A_{T}}{K} \mid A_{T} <   K, \mathcal {F}_{0} \right] \tag {35} \\ = \frac{\mathbb {E} \left[ \frac{A_{T}}{K} \cdot \mathbb {I}_{\{A_{T} <   K \}} | \mathcal {F}_{0} \right]}{\mathbb {P} \left[ A_{T} <   K | \mathcal {F}_{0} \right]} \\ = \frac{A_{0}}{K} \cdot \frac{\Phi (- d_{+})}{\Phi (- d_{-})} \\ \end{array}
 $$
 
 # Expected Recovery on Default
@@ -2313,13 +2313,13 @@ Risky Bond Expected Recovery (Asset = 1, T = 5, r = 4%)
 - We apply Ito's lemma to the equity price:
 
 $$
-\begin{array}{l} \frac {d E _ {t}}{E _ {t}} = \frac {1}{E _ {t}} \cdot \frac {\partial E}{\partial A} (A _ {t}, K) \cdot d A _ {t} + \dots \tag {36} \\ = \frac {A _ {t}}{E _ {t}} \cdot D e l t a C a l l \left(A _ {t}, K\right) \cdot \sigma_ {A} \cdot d W _ {t} + \dots \\ = \frac {A _ {t}}{E _ {t}} \cdot \Phi (d _ {+}) \cdot \sigma_ {A} \cdot d W _ {t} + \dots \\ \end{array}
+\begin{array}{l} \frac{d E_{t}}{E_{t}} = \frac{1}{E_{t}} \cdot \frac{\partial E}{\partial A} (A_{t}, K) \cdot d A_{t} + \dots \tag {36} \\ = \frac{A_{t}}{E_{t}} \cdot D e l t a C a l l \left(A_{t}, K\right) \cdot \sigma_{A} \cdot d W_{t} + \dots \\ = \frac{A_{t}}{E_{t}} \cdot \Phi (d_{+}) \cdot \sigma_{A} \cdot d W_{t} + \dots \\ \end{array}
 $$
 
 - Connection between equity vol  $\sigma_{E}$  and assets vol  $\sigma_{A}$  ( $t = 0$ ):
 
 $$
-\sigma_ {E} = \frac {A _ {0}}{E _ {0}} \cdot \Phi (d _ {+}) \cdot \sigma_ {A}. \tag {37}
+\sigma_{E} = \frac{A_{0}}{E_{0}} \cdot \Phi (d_{+}) \cdot \sigma_{A}. \tag {37}
 $$
 
 - Equity volatility  $\sigma_{E}$  is stochastic, and inversely correlated to equity price changes!
@@ -2335,11 +2335,11 @@ Equity Volatility (Asset = 1, T = 5, r = 4%)
 - Intuitive explanation: when asset prices change, equity price and equity volatility move in opposite directions
 
 $$
-\frac {\partial E}{\partial A} = D e l t a C a l l > 0, \tag {38}
+\frac{\partial E}{\partial A} = D e l t a C a l l > 0, \tag {38}
 $$
 
 $$
-\frac {\partial \sigma_ {E}}{\partial A} \approx - \frac {L \cdot A}{E ^ {2}} \cdot D e l t a C a l l \cdot \sigma_ {A} <   0 \tag {39}
+\frac{\partial \sigma_{E}}{\partial A} \approx - \frac{L \cdot A}{E^{2}} \cdot D e l t a C a l l \cdot \sigma_{A} <   0 \tag {39}
 $$
 
 - Correlation between equity price and equity vol changes is negative and dependent on company leverage parameter  $L$  
@@ -2355,13 +2355,13 @@ Fair Value of Equity Call Option (strike  $k$  and maturity  $t < T$ )
 Fair Value of Equity
 
 $$
-\begin{array}{l} E _ {t} = \operatorname {E q u i t y V a l u e} (T) = e ^ {- r \cdot (T - t)} \cdot \mathbb {E} \left[ \left(A _ {T} - K\right) ^ {+} \mid \mathcal {F} _ {t} \right] \tag {40} \\ = C a l l \left(A _ {t}, K, T - t, \sigma_ {A}, r\right). \\ \end{array}
+\begin{array}{l} E_{t} = \operatorname{Eq ui ty Va lu e} (T) = e^{- r \cdot (T - t)} \cdot \mathbb {E} \left[ \left(A_{T} - K\right)^{+} \mid \mathcal {F}_{t} \right] \tag {40} \\ = C a l l \left(A_{t}, K, T - t, \sigma_{A}, r\right). \\ \end{array}
 $$
 
 - Fair Value of Equity Call derived from payoff function:
 
 $$
-\begin{array}{l} E q u i t y C a l l \left(E _ {0}, k, t\right) = e ^ {- r \cdot t} \cdot \mathbb {E} \left[ \left(E _ {t} - k\right) ^ {+} \mid \mathcal {F} _ {0} \right] \tag {41} \\ = e ^ {- r \cdot t} \cdot \mathbb {E} \left[ \left(C a I I (A _ {t}, K, T - t, \sigma_ {A}, r,) - k\right) ^ {+} | \mathcal {F} _ {0} \right]. \\ \end{array}
+\begin{array}{l} E q u i t y C a l l \left(E_{0}, k, t\right) = e^{- r \cdot t} \cdot \mathbb {E} \left[ \left(E_{t} - k\right)^{+} \mid \mathcal {F}_{0} \right] \tag {41} \\ = e^{- r \cdot t} \cdot \mathbb {E} \left[ \left(C a I I (A_{t}, K, T - t, \sigma_{A}, r,) - k\right)^{+} | \mathcal {F}_{0} \right]. \\ \end{array}
 $$
 
 - Value obtained by 1-dimensional integration of the call function vs the log-normal density of  $A_{t}$ .
@@ -2456,15 +2456,15 @@ Buy short-dated AMC 2025 bond with maturity T
 - The portion of systematic/market factor risk in  $W_{t}^{i}$  (and  $A_{t}^{i}$ ) controlled via Gaussian correlation coefficient  $\rho_{i}$ :
 
 $$
-\operatorname {C o r r} \left(W _ {T} ^ {i}, X\right) = \rho_ {i} \in [ - 1, 1 ] \tag {42}
+\operatorname{Co rr} \left(W_{T}^{i}, X\right) = \rho_{i} \in [ - 1, 1 ] \tag {42}
 $$
 
 $$
-W _ {T} ^ {i} = \sqrt {T} \cdot \left(\sqrt {1 - \rho_ {i}} \cdot Z ^ {i} + \rho_ {i} \cdot X\right) \tag {43}
+W_{T}^{i} = \sqrt{T} \cdot \left(\sqrt{1 - \rho_{i}} \cdot Z^{i} + \rho_{i} \cdot X\right) \tag {43}
 $$
 
 $$
-X, Z _ {i} \sim \mathcal {N} (0, 1), \quad X \perp Z _ {j}, \quad Z _ {i} \perp Z _ {j}, i \neq j \tag {44}
+X, Z_{i} \sim \mathcal {N} (0, 1), \quad X \perp Z_{j}, \quad Z_{i} \perp Z_{j}, i \neq j \tag {44}
 $$
 
 # Assets cross-correlations: via common market factor
@@ -2472,17 +2472,17 @@ $$
 - Assets become explicitly dependent on the level of the common market factor  $X$ :
 
 $$
-A _ {T} ^ {i} = A _ {0} ^ {i} \cdot \exp \left[ \left(r - \frac {1}{2} \sigma_ {i} ^ {2}\right) \cdot T + \sigma_ {i} \cdot W _ {T} ^ {i} \right] \tag {45}
+A_{T}^{i} = A_{0}^{i} \cdot \exp \left[ \left(r - \frac{1}{2} \sigma_{i}^{2}\right) \cdot T + \sigma_{i} \cdot W_{T}^{i} \right] \tag {45}
 $$
 
 $$
-= A _ {0} ^ {i} \cdot \exp \left[ \left(r - \frac {1}{2} \sigma_ {i} ^ {2}\right) \cdot T + \sigma_ {i} \cdot \sqrt {T} \cdot \left(\sqrt {1 - \rho_ {i}} \cdot Z ^ {i} + \rho_ {i} \cdot X\right) \right] \tag {46}
+= A_{0}^{i} \cdot \exp \left[ \left(r - \frac{1}{2} \sigma_{i}^{2}\right) \cdot T + \sigma_{i} \cdot \sqrt{T} \cdot \left(\sqrt{1 - \rho_{i}} \cdot Z^{i} + \rho_{i} \cdot X\right) \right] \tag {46}
 $$
 
 - Cross-correlations between assets  $A_T^i$  and  $A_T^j$  given by
 
 $$
-\mathbb {C} \operatorname {o r r} \left(A _ {T} ^ {i}, A _ {T} ^ {j}\right) = \rho_ {i} \cdot \rho_ {j}, \quad i \neq j \tag {47}
+\mathbb {C} \operatorname{or r} \left(A_{T}^{i}, A_{T}^{j}\right) = \rho_{i} \cdot \rho_{j}, \quad i \neq j \tag {47}
 $$
 
 - $A_T^i$  and  $A_T^j$  are independent, conditional on  $X$
@@ -2492,13 +2492,13 @@ $$
 - Unconditional survival probabilities  $p^i$ :
 
 $$
-\begin{array}{l} p ^ {i} = \mathbb {P} [ \tau_ {i} > T ] = \mathbb {P} [ A _ {T} ^ {i} > K _ {i} ] (48) \\ = \mathbb {P} \left[ \frac {W _ {T} ^ {i}}{\sqrt {T}} <   d _ {-} ^ {i} \right] = \Phi \left(d _ {-} ^ {i}\right), (49) \\ d _ {-} ^ {i} = \Phi^ {- 1} (p ^ {i}) (50) \\ \end{array}
+\begin{array}{l} p^{i} = \mathbb {P} [ \tau_{i} > T ] = \mathbb {P} [ A_{T}^{i} > K_{i} ] (48) \\ = \mathbb {P} \left[ \frac{W_{T}^{i}}{\sqrt{T}} <   d_{-}^{i} \right] = \Phi \left(d_{-}^{i}\right), (49) \\ d_{-}^{i} = \Phi^{- 1} (p^{i}) (50) \\ \end{array}
 $$
 
 - Conditional survival probabilities  $p_x^i$
 
 $$
-\begin{array}{l} p _ {x} ^ {i} := \mathbb {P} [ \tau_ {i} > T | X = x ] = \mathbb {P} \left[ \frac {W _ {T} ^ {i}}{\sqrt {T}} <   d _ {-} ^ {i} | X = x \right] (51) \\ = \mathbb {P} \left[ \sqrt {1 - \rho_ {i}} \cdot Z ^ {i} + \rho_ {i} \cdot X <   d _ {-} ^ {i} | X = x \right] (52) \\ = \mathbb {P} \left[ Z ^ {i} <   \frac {d _ {-} ^ {i} - \rho_ {i} \cdot x}{\sqrt {1 - \rho_ {i} ^ {2}}} \right] = \Phi \left(\frac {d _ {-} ^ {i} - \rho_ {i} \cdot x}{\sqrt {1 - \rho_ {i} ^ {2}}}\right) (53) \\ \end{array}
+\begin{array}{l} p_{x}^{i} := \mathbb {P} [ \tau_{i} > T | X = x ] = \mathbb {P} \left[ \frac{W_{T}^{i}}{\sqrt{T}} <   d_{-}^{i} | X = x \right] (51) \\ = \mathbb {P} \left[ \sqrt{1 - \rho_{i}} \cdot Z^{i} + \rho_{i} \cdot X <   d_{-}^{i} | X = x \right] (52) \\ = \mathbb {P} \left[ Z^{i} <   \frac{d_{-}^{i} - \rho_{i} \cdot x}{\sqrt{1 - \rho_{i}^{2}}} \right] = \Phi \left(\frac{d_{-}^{i} - \rho_{i} \cdot x}{\sqrt{1 - \rho_{i}^{2}}}\right) (53) \\ \end{array}
 $$
 
 # Measuring joint credit defaults
@@ -2506,25 +2506,25 @@ $$
 - Conditional on  $X$ , default times  $\tau_{i}$  are independent, hence
 
 $$
-\mathbb {P} \left[ \tau_ {i} > T, \tau_ {j} > T \mid X = x \right] = p _ {x} ^ {i} \cdot p _ {x} ^ {j} \tag {54}
+\mathbb {P} \left[ \tau_{i} > T, \tau_{j} > T \mid X = x \right] = p_{x}^{i} \cdot p_{x}^{j} \tag {54}
 $$
 
 - Joint credit survival/default probabilities  $(\varphi = \Phi')$
 
 $$
-\mathbb {P} \left[ \tau_ {i} > T, \tau_ {j} > T \right] \tag {55}
+\mathbb {P} \left[ \tau_{i} > T, \tau_{j} > T \right] \tag {55}
 $$
 
 $$
-= \int_ {- \infty} ^ {\infty} \mathbb {P} \left[ \tau_ {i} > T, \tau_ {j} > T | X = x \right] \cdot \varphi (x) d x \tag {56}
+= \int_{- \infty}^{\infty} \mathbb {P} \left[ \tau_{i} > T, \tau_{j} > T | X = x \right] \cdot \varphi (x) d x \tag {56}
 $$
 
 $$
-= \int_ {- \infty} ^ {\infty} p _ {x} ^ {i} \cdot p _ {x} ^ {j} \cdot \varphi (x) d x \tag {57}
+= \int_{- \infty}^{\infty} p_{x}^{i} \cdot p_{x}^{j} \cdot \varphi (x) d x \tag {57}
 $$
 
 $$
-= \int_ {- \infty} ^ {\infty} \Phi \left(\frac {d _ {-} ^ {i} - \rho_ {i} \cdot x}{\sqrt {1 - \rho_ {i} ^ {2}}}\right) \cdot \Phi \left(\frac {d _ {-} ^ {j} - \rho_ {j} \cdot x}{\sqrt {1 - \rho_ {j} ^ {2}}}\right) \cdot \varphi (x) d x (5 8)
+= \int_{- \infty}^{\infty} \Phi \left(\frac{d_{-}^{i} - \rho_{i} \cdot x}{\sqrt{1 - \rho_{i}^{2}}}\right) \cdot \Phi \left(\frac{d_{-}^{j} - \rho_{j} \cdot x}{\sqrt{1 - \rho_{j}^{2}}}\right) \cdot \varphi (x) d x (5 8)
 $$
 
 # Pools of homogeneous credit issuers
@@ -2540,7 +2540,7 @@ market correlations  $\rho$
 - The total pool loss  $L_{T}$  at time  $T$  is given by
 
 $$
-L _ {T} = \frac {(1 - R)}{n} \cdot \sum_ {i = 1} ^ {n} \mathbb {I} _ {\{\tau_ {i} \leq T \}} \tag {59}
+L_{T} = \frac{(1 - R)}{n} \cdot \sum_{i = 1}^{n} \mathbb {I}_{\{\tau_{i} \leq T \}} \tag {59}
 $$
 
 # Conditional credit events: "  $k$  out of  $n$  " defaults
@@ -2549,17 +2549,17 @@ $$
 - Conditional default events are independent and Bernoulli distributed
 
 $$
-\left. \mathbb {I} _ {\{\tau_ {i} \leq T \}} \right\rvert   X = x \sim \text {B e r n o u l l i} (1 - p _ {x}) \tag {60}
+\left. \mathbb {I}_{\{\tau_{i} \leq T \}} \right\rvert   X = x \sim \text{Be rn ou ll i} (1 - p_{x}) \tag {60}
 $$
 
 - Therefore, their sum follows the Binomial distribution
 
 $$
-\sum_ {i = 1} ^ {n} \mathbb {I} _ {\left\{\tau_ {i} \leq T \right\}} | X = x \sim \text {B i n o m i a l} (n, 1 - p _ {x}), \tag {61}
+\sum_{i = 1}^{n} \mathbb {I}_{\left\{\tau_{i} \leq T \right\}} | X = x \sim \text{Bi no mi al} (n, 1 - p_{x}), \tag {61}
 $$
 
 $$
-\mathbb {P} \left[ \sum_ {i = 1} ^ {n} \mathbb {I} _ {\{\tau_ {i} \leq T \}} = k | X = x \right] = \binom {n} {k} \cdot (1 - p _ {x}) ^ {k} \cdot p _ {x} ^ {n - k} \quad (6 2)
+\mathbb {P} \left[ \sum_{i = 1}^{n} \mathbb {I}_{\{\tau_{i} \leq T \}} = k | X = x \right] = \binom {n} {k} \cdot (1 - p_{x})^{k} \cdot p_{x}^{n - k} \quad (6 2)
 $$
 
 Joint/correlated credit events: " $k$  out of  $n$ " defaults
@@ -2567,7 +2567,7 @@ Joint/correlated credit events: " $k$  out of  $n$ " defaults
 - We are interested in counting the number of defaults in the pool, as well as the distribution of the pool loss  $L_{T}$  at  $T$
 
 $$
-\begin{array}{l} \mathbb {P} \left[ L _ {T} = k \cdot \frac {(1 - R)}{n} \right] = \mathbb {P} \left[ \sum_ {i = 1} ^ {n} \mathbb {I} _ {\{\tau_ {i} \leq T \}} = k \right] (63) \\ = \int_ {- \infty} ^ {\infty} \mathbb {P} \left[ \sum_ {i = 1} ^ {n} \mathbb {I} _ {\{\tau_ {i} \leq T \}} = k | X = x \right] \cdot \varphi (x) d x (64) \\ = \int_ {- \infty} ^ {\infty} \binom {n} {k} \cdot p _ {x} ^ {k} \cdot \left(1 - p _ {x}\right) ^ {n - k} \cdot \varphi (x) d x (65) \\ \end{array}
+\begin{array}{l} \mathbb {P} \left[ L_{T} = k \cdot \frac{(1 - R)}{n} \right] = \mathbb {P} \left[ \sum_{i = 1}^{n} \mathbb {I}_{\{\tau_{i} \leq T \}} = k \right] (63) \\ = \int_{- \infty}^{\infty} \mathbb {P} \left[ \sum_{i = 1}^{n} \mathbb {I}_{\{\tau_{i} \leq T \}} = k | X = x \right] \cdot \varphi (x) d x (64) \\ = \int_{- \infty}^{\infty} \binom {n} {k} \cdot p_{x}^{k} \cdot \left(1 - p_{x}\right)^{n - k} \cdot \varphi (x) d x (65) \\ \end{array}
 $$
 
 - Therefore, in the homogeneous case, the pool loss distribution  $L_{T}$  can be computed explicitly  
@@ -2632,7 +2632,7 @@ Credit risk details for underlying pool instruments
 - Default Loss Given Default payments are
 
 $$
-L _ {i} = \frac {1}{n} \cdot \left(1 - R _ {i}\right), i = 1.. n \tag {66}
+L_{i} = \frac{1}{n} \cdot \left(1 - R_{i}\right), i = 1.. n \tag {66}
 $$
 
 # CDO Tranches: structural subordination "waterfall" logic
@@ -2645,13 +2645,13 @@ CDO "waterfall" logic for tranche default leg
 - Cumulative losses in the pool at time  $t \in [0, T]$  given by
 
 $$
-L _ {t} = \frac {1}{n} \cdot \sum_ {i = 1} ^ {n} \left(1 - R _ {i}\right) \mathbb {I} _ {\left\{\tau_ {i} \leq t \right\}}, L _ {0} = 0 \tag {67}
+L_{t} = \frac{1}{n} \cdot \sum_{i = 1}^{n} \left(1 - R_{i}\right) \mathbb {I}_{\left\{\tau_{i} \leq t \right\}}, L_{0} = 0 \tag {67}
 $$
 
 - Cumulative losses in the  $[a, d]$  tranche at time  $t \in [0, T]$
 
 $$
-L _ {t} ^ {[ a, d ]} = \left(L _ {t} - a\right) ^ {+} - \left(L _ {t} - d\right) ^ {+} = L _ {t} ^ {[ 0, d ]} - L _ {t} ^ {[ 0, a ]} \tag {68}
+L_{t}^{[ a, d ]} = \left(L_{t} - a\right)^{+} - \left(L_{t} - d\right)^{+} = L_{t}^{[ 0, d ]} - L_{t}^{[ 0, a ]} \tag {68}
 $$
 
 - Notice that  $L_{t}^{[a,d]}, 0 \leq t \leq T$  is a discrete jump process paying the portfolio losses within the  $[a,d]$  tranche until maturity  $T$  
@@ -2662,14 +2662,14 @@ Maximum loss on  $[a, d]$  tranche is  $d - a$  (tranche "wipe-out")
 - Outstanding/non-defaulted  $[a, d]$  tranche notional at time  $t$
 
 $$
-N _ {t} ^ {[ a, d ]} = d - a - L _ {t} ^ {[ a, d ]} = N _ {t} ^ {[ 0, d ]} - N _ {t} ^ {[ 0, a ]} \tag {69}
+N_{t}^{[ a, d ]} = d - a - L_{t}^{[ a, d ]} = N_{t}^{[ 0, d ]} - N_{t}^{[ 0, a ]} \tag {69}
 $$
 
 - Premium leg cash-flow payments for the  $[a, d]$  tranche occur on (quarterly) cash-flow times  $\{T_k\}$ ,  $k = 1..K$  
 - … on the outstanding tranche notional  $N_{T_k}^{[a,d]}$  at time  $T_k$ :
 
 $$
-C _ {k} ^ {[ a, d ]} = c \cdot \Delta T _ {k} \cdot N _ {T _ {k}} ^ {[ a, d ]} = c \cdot \Delta T _ {k} \cdot \left(N _ {T _ {k}} ^ {[ 0, d ]} - N _ {T _ {k}} ^ {[ 0, a ]}\right) \tag {70}
+C_{k}^{[ a, d ]} = c \cdot \Delta T_{k} \cdot N_{T_{k}}^{[ a, d ]} = c \cdot \Delta T_{k} \cdot \left(N_{T_{k}}^{[ 0, d ]} - N_{T_{k}}^{[ 0, a ]}\right) \tag {70}
 $$
 
 - Maximum premium leg payment on  $[a, d]$  tranche is  $c \cdot \Delta T_k \cdot (d - a)$ , minimum payment is 0 (tranche "wipe-out")
@@ -2679,7 +2679,7 @@ CDO  $[a, d]$  tranche pricing: premium leg
 - Present value of premium/fixed leg is given by
 
 $$
-\begin{array}{l} P V _ {C D O \_ P L} (0) = \mathbb {E} \left[ \sum_ {k = 1} ^ {K} D F (0, T _ {k}) \cdot c \cdot \Delta T _ {k} \cdot N _ {T _ {k}} ^ {[ a, d ]} \right] (71) \\ = c \cdot \sum_ {k = 1} ^ {K} D F (0, T _ {k}) \cdot \Delta T _ {k} \cdot \mathbb {E} \left[ N _ {T _ {k}} ^ {[ a, d ]} \right] (72) \\ = c \cdot \sum_ {k = 1} ^ {K} D F (0, T _ {k}) \cdot \Delta T _ {k} \cdot \left(d - a - \mathbb {E} \left[ L _ {T _ {k}} ^ {[ a, d ]} \right]\right) (73) \\ \end{array}
+\begin{array}{l} P V_{C D O \_ P L} (0) = \mathbb {E} \left[ \sum_{k = 1}^{K} D F (0, T_{k}) \cdot c \cdot \Delta T_{k} \cdot N_{T_{k}}^{[ a, d ]} \right] (71) \\ = c \cdot \sum_{k = 1}^{K} D F (0, T_{k}) \cdot \Delta T_{k} \cdot \mathbb {E} \left[ N_{T_{k}}^{[ a, d ]} \right] (72) \\ = c \cdot \sum_{k = 1}^{K} D F (0, T_{k}) \cdot \Delta T_{k} \cdot \left(d - a - \mathbb {E} \left[ L_{T_{k}}^{[ a, d ]} \right]\right) (73) \\ \end{array}
 $$
 
 CDO  $[a, d]$  tranche pricing: default leg
@@ -2687,15 +2687,15 @@ CDO  $[a, d]$  tranche pricing: default leg
 - Present Value of tranche default leg
 
 $$
-P V _ {C D O \_ D L} (0) = \mathbb {E} \left[ \int_ {0} ^ {T} D F (0, t) \cdot d L _ {t} ^ {[ a, d ]} \right] \tag {74}
+P V_{C D O \_ D L} (0) = \mathbb {E} \left[ \int_{0}^{T} D F (0, t) \cdot d L_{t}^{[ a, d ]} \right] \tag {74}
 $$
 
 $$
-= \int_ {0} ^ {T} D F (0, t) \cdot d \mathbb {E} \left[ L _ {t} ^ {[ a, d ]} \right] \tag {75}
+= \int_{0}^{T} D F (0, t) \cdot d \mathbb {E} \left[ L_{t}^{[ a, d ]} \right] \tag {75}
 $$
 
 $$
-\simeq \sum_ {k = 1} ^ {K} D F (0, T _ {k}) \cdot \Delta T _ {k} \cdot \left(\mathbb {E} \left[ L _ {T _ {k}} ^ {[ a, d ]} \right] - \mathbb {E} \left[ L _ {T _ {k - 1}} ^ {[ a, d ]} \right]\right) \tag {76}
+\simeq \sum_{k = 1}^{K} D F (0, T_{k}) \cdot \Delta T_{k} \cdot \left(\mathbb {E} \left[ L_{T_{k}}^{[ a, d ]} \right] - \mathbb {E} \left[ L_{T_{k - 1}}^{[ a, d ]} \right]\right) \tag {76}
 $$
 
 - … using a numerical quadrature grid on (quarterly) premium payment times  $\{T_k\}$ ,  $k = 1..K$ .
@@ -2705,17 +2705,17 @@ CDO  $[a, d]$  tranche pricing
 - Present Value and Par Spread of the  $[a, d]$  tranche
 
 $$
-P V _ {C D O} (0) = P V _ {C D O \_ P L} (0) - P V _ {C D O \_ D L} (0), \tag {77}
+P V_{C D O} (0) = P V_{C D O \_ P L} (0) - P V_{C D O \_ D L} (0), \tag {77}
 $$
 
 $$
-P a r S p r e a d _ {C D O} (0) = c \cdot \frac {P V _ {C D O \_ D L} (0)}{P V _ {C D O \_ P L} (0)} \tag {78}
+P a r S p r e a d_{C D O} (0) = c \cdot \frac{P V_{C D O \_ D L} (0)}{P V_{C D O \_ P L} (0)} \tag {78}
 $$
 
 - In practice, we need to compute the "Expected Tranche Loss" at each premium payment time  $\{T_k\}$ ,  $k = 1..K$
 
 $$
-\mathbb {E} \left[ L _ {T _ {k - 1}} ^ {[ a, d ]} \right] = \mathbb {E} \left[ (L _ {T _ {k}} - a) ^ {+} \right] - \mathbb {E} \left[ (L _ {T _ {k}} - d) ^ {+} \right] \tag {79}
+\mathbb {E} \left[ L_{T_{k - 1}}^{[ a, d ]} \right] = \mathbb {E} \left[ (L_{T_{k}} - a)^{+} \right] - \mathbb {E} \left[ (L_{T_{k}} - d)^{+} \right] \tag {79}
 $$
 
 - … which can be computed explicitly from the distribution of the pool loss  $L_{T_k}$
@@ -2763,19 +2763,19 @@ Equity and bond investor's payout
 - We denote the running minimum of the asset process  $A_{t}$  as
 
 $$
-A _ {t} ^ {*} = \min  \left\{A _ {s}: 0 <   s <   t \right\} \tag {80}
+A_{t}^{*} = \min  \left\{A_{s}: 0 <   s <   t \right\} \tag {80}
 $$
 
 Equity investors payout at  $T$  defined as
 
 $$
-E q u i t y P a y o u t = \left(A _ {T} - K\right) ^ {+} \cdot \mathbb {I} _ {\left\{A _ {T} ^ {*} \geq D \right\}} \tag {81}
+E q u i t y P a y o u t = \left(A_{T} - K\right)^{+} \cdot \mathbb {I}_{\left\{A_{T}^{*} \geq D \right\}} \tag {81}
 $$
 
 Bond investors payout at  $T$  is
 
 $$
-\begin{array}{l} B o n d P a y o u t = A _ {T} - E q u i t y P a y o u t \tag {82} \\ = K - \left(K - A _ {T}\right) ^ {+} + \left(A _ {T} - K\right) ^ {+} \cdot \mathbb {I} _ {\{A _ {T} ^ {*} <   D \}} \\ \end{array}
+\begin{array}{l} B o n d P a y o u t = A_{T} - E q u i t y P a y o u t \tag {82} \\ = K - \left(K - A_{T}\right)^{+} + \left(A_{T} - K\right)^{+} \cdot \mathbb {I}_{\{A_{T}^{*} <   D \}} \\ \end{array}
 $$
 
 First passage time model: pricing formulas
@@ -2783,7 +2783,7 @@ First passage time model: pricing formulas
 - Fair value of equity priced as an down-and-out Call option on the assets value with strike  $K$ , barrier  $D$  and maturity  $T$
 
 $$
-E _ {0} = e ^ {- r \cdot T} \cdot \mathbb {E} \left[ (A _ {T} - K) ^ {+} \cdot \mathbb {I} _ {\{A _ {T} ^ {*} \geq D \}} | \mathcal {F} _ {0} \right] \tag {83}
+E_{0} = e^{- r \cdot T} \cdot \mathbb {E} \left[ (A_{T} - K)^{+} \cdot \mathbb {I}_{\{A_{T}^{*} \geq D \}} | \mathcal {F}_{0} \right] \tag {83}
 $$
 
 - Price is known explicitly in the Black-Scholes framework ("down-an-out" barrier option)  

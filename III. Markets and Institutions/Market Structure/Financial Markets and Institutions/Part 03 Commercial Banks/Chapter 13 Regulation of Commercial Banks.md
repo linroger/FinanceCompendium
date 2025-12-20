@@ -557,19 +557,19 @@ more (approximately 20 of the largest U.S. banking organizations). All other dep
 Under Basel III, depository institutions must calculate and monitor four capital ratios: common equity Tier I (CET1) risk-based capital ratio, Tier I risk-based capital ratio, total risk-based capital ratio, and Tier I leverage ratio. A DI's capital adequacy is assessed according to where its capital ratios place in one of five target zones.
 
 $$
-\begin{array}{l l} \text {C o m m o n e q u i t y T i e r I} & = \quad \text {C o m m o n e q u i t y T i e r I c a p i t a l / R i s k -} \\ \text {r i s k - b a s e d c a p i t a l r a t i o} & \text {w e i g h t e d a s s e t s} \end{array}
+\begin{array}{l l} \text{Co mm on eq ui ty Ti er I} & = \quad \text{Co mm on eq ui ty Ti er Ic ap it al /R is k -} \\ \text{ri sk -b as ed ca pi ta lr at io} & \text{we ig ht ed as se ts} \end{array}
 $$
 
 $$
-\text {T i e r I r i s k - b a s e d c a p i t a l r a t i o} = \begin{array}{l} \text {T i e r I c a p i t a l (C o m m o n e q u i t y T i e r I} \\ \text {c a p i t a l + A d d i t i o n a l T i e r I c a p i t a l) /} \\ \text {R i s k - w e i g h t e d a s s e t s} \end{array}
+\text{Ti er Ir is k -b as ed ca pi ta lr at io} = \begin{array}{l} \text{Ti er Ic ap it al (Co mm on eq ui ty Ti er I} \\ \text{ca pi ta l +A dd it io na lT ie rI ca pi ta l) /} \\ \text{Ri sk -w ei gh te da ss et s} \end{array}
 $$
 
 $$
-\text {T o t a l} = \text {T o t a l} \quad \text {(T i e r I + T i e r I I) / R i s k -}
+\text{To ta l} = \text{To ta l} \quad \text{(Ti er I +T ie rI I) /R is k -}
 $$
 
 $$
-\text {T i e r I l e v e r g a r e r a t i o} = \text {T i e r I c a p i t a l / T o t a l e x p o s u r e}
+\text{Ti er Il ev er ga re ra ti o} = \text{Ti er Ic ap it al /T ot al ex po su re}
 $$
 
 The calculation of these capital adequacy measures is quite complex. Their major innovation is to distinguish among the different credit risks of assets on the balance sheet and to identify the credit risk inherent in instruments off the balance sheet by using a risk-weighted assets denominator in these capital adequacy ratios. In a very rough fashion, these capital ratios mark to market a DI's onand off-balance-sheet positions to reflect its credit risk. Further, additional capital charges must be held against market risk and operational risk. To be adequately capitalized, a DI must meet the following requirements: (1) hold a minimum ratio of common equity Tier I capital to credit risk-weighted assets of 4.5 percent, (2) maintain a ratio of Tier I capital to credit risk-weighted assets of 6 percent, (3) hold a ratio of total capital to credit risk-weighted assets of 8 percent, and (4) maintain a ratio of Tier I leverage ratio of 4 percent.

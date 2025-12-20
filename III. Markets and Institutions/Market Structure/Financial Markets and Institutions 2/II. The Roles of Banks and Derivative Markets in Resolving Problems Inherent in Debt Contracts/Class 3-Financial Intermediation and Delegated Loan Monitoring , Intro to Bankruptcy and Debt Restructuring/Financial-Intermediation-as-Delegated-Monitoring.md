@@ -63,7 +63,7 @@ The firm needs to raise 1 (\(1 million), and each investor requires an expected 
 The project costs 1 to fund, and its realized value is a random variable with realization denoted by  $V$ . The distribution of  $V$ , the value of the project, known to all borrowers and lenders is
 
 $$
-\begin{array}{l} H = 1. 4 \text {m i l l o n , w i t h p r o b a b i l i t y} P = 0. 8, \\ L = 1 \text {m i l l o n , w i t h p r o b a b i l i t y} 1 - P = 0. 2. \\ \end{array}
+\begin{array}{l} H = 1. 4 \text{mi ll on ,w it hp ro ba bi li ty} P = 0. 8, \\ L = 1 \text{mi ll on ,w it hp ro ba bi li ty} 1 - P = 0. 2. \\ \end{array}
 $$
 
 # A Simple Candidate for a Contract is Equity

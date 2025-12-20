@@ -153,33 +153,33 @@ What is the debt capacity of the firm? What is the highest face value, F, that t
 The borrower's equity payoff from Project 1 with debt of face  $\mathbf{F}$  is:
 
 $$
-\frac {1}{2} (1 5 0 0 - F) + \frac {1}{2} (5 0 0 - F) = 1 0 0 0 - F
+\frac{1}{2} (1 5 0 0 - F) + \frac{1}{2} (5 0 0 - F) = 1 0 0 0 - F
 $$
 
 $$
-\frac {1}{2} (1 5 0 0 - F) + \frac {1}{2} (0)
+\frac{1}{2} (1 5 0 0 - F) + \frac{1}{2} (0)
 $$
 
 $$
-0 \mathrm {f o r} F > 1 5 0 0.
+0 \mathrm{fo r} F > 1 5 0 0.
 $$
 
 $$
-(\mathrm {f o r} \mathrm {F} \leq 5 0 0)
+(\mathrm{fo r} \mathrm{F} \leq 5 0 0)
 $$
 
 $$
-(\mathrm {f o r} F \mathrm {b e t w e e n 5 0 0 a n d 1 5 0 0}),
+(\mathrm{fo r} F \mathrm{be tw ee n5 00 an d1 50 0}),
 $$
 
 The borrower's equity payoff from Project 2 with debt of face F is:
 
 $$
-\frac {1}{2} (1 5 5 1 - F) + \frac {1}{2} (0) \text {f o r} F <   1 5 5 1
+\frac{1}{2} (1 5 5 1 - F) + \frac{1}{2} (0) \text{fo r} F <   1 5 5 1
 $$
 
 $$
-0 \mathrm {f o r} \mathrm {F} > 1 5 5 1.
+0 \mathrm{fo r} \mathrm{F} > 1 5 5 1.
 $$
 
 The debt capacity must be less than 500, because if the firm will certainly default in Depression, all that matters is what it is worth in prosperity.
@@ -1038,7 +1038,7 @@ Banker gets .64(2f-2B) + .32(1+f-2B)=
 = .64(2.38 - 2.1875) + .32(2.19 - 2.1875)
 
 $$
-\begin{array}{l} = 0. 1 2 4 > \mathrm {c o s t} \\ = (2 (. 0 0 0 2) = 0. 0 0 0 4) \\ \end{array}
+\begin{array}{l} = 0. 1 2 4 > \mathrm{co st} \\ = (2 (. 0 0 0 2) = 0. 0 0 0 4) \\ \end{array}
 $$
 
 # Further Diversification
@@ -1397,7 +1397,7 @@ iii. Consider first the ask price. If a buy order comes in, and it is from an in
 (otherwise the informed trader would sell) and the market maker will make a "profit" of:
 
 $$
-\operatorname {a s k - 1} (= \text {a l o s s o f 1 - a s k}).
+\operatorname{as k -1} (= \text{al os so f1 -a sk}).
 $$
 
 If the buy is from a liquidity trader, the stock is equally likely to be worth 0 as 1, so the average profit from the trade is: ask  $-[(\frac{1}{2} \times 1) + (\frac{1}{2} \times 0)] = \text{ask} - \frac{1}{2}$ .
@@ -1405,7 +1405,7 @@ If the buy is from a liquidity trader, the stock is equally likely to be worth 0
 The average profit is the average of these two "profits," so break even is when
 
 $$
-\frac {1}{2} x (a s k - 1) + \frac {1}{2} x (a s k - \frac {1}{2}) = 0 \quad o r
+\frac{1}{2} x (a s k - 1) + \frac{1}{2} x (a s k - \frac{1}{2}) = 0 \quad o r
 $$
 
 $$
@@ -1425,11 +1425,11 @@ If the sell is from a liquidity trader, the stock is equally likely to be worth 
 A similar calculation to that for the ask, but for the bid price solves:
 
 $$
-\frac {1}{2} x (0 - \text {b i d}) + \frac {1}{2} x (\frac {1}{2} - \text {b i d}) = 0 \quad \text {o r}
+\frac{1}{2} x (0 - \text{bi d}) + \frac{1}{2} x (\frac{1}{2} - \text{bi d}) = 0 \quad \text{or}
 $$
 
 $$
-\mathrm {bid} = 1 / 4.
+\mathrm{bid} = 1 / 4.
 $$
 
 (Equivalently,  $\frac{1}{4}$  is the expected value of the stock given a sell order).
@@ -1566,7 +1566,7 @@ A risk averse utility function
 - If 32 assets are liquidated, then 68 will remain until  $T = 2$ , when they will be worth 2 each. If on that date, there remain 75 depositors, each will receive:
 
 $$
-\frac {[ 1 0 0 - 3 2 ] \quad 2}{7 5} = \frac {[ 6 8 ] \quad 2}{7 5} = 1. 8 1 3 > 1. 2 8
+\frac{[ 1 0 0 - 3 2 ] \quad 2}{7 5} = \frac{[ 6 8 ] \quad 2}{7 5} = 1. 8 1 3 > 1. 2 8
 $$
 
 # If you expect 25 to withdraw, you get:
@@ -1600,7 +1600,7 @@ or 0 (hold to maturity)
 - If the actual number who withdraw at date 1 is N, the payoff from waiting until date 2 to withdraw is decreasing in N (because  $c_{1} > 1$ , and goes to zero for  $N > 100 / c_{1} = 78$ :
 
 $$
-c _ {2} [ c _ {1}, N ] = \frac {(1 0 0 - c _ {1} N) 2}{1 0 0 - N}
+c_{2} [ c_{1}, N ] = \frac{(1 0 0 - c_{1} N) 2}{1 0 0 - N}
 $$
 
 --Define  $\hat{N}$  as a depositor's prediction (belief) about of the number of depositors who attempt to withdraw at date 1. The payoff from waiting until date 2 to withdraw is the previous function, except with in place of N.
@@ -2088,31 +2088,31 @@ To see the effect of PBA, let us compare it with a benchmark of the case of some
 If the non PBA investor invests at date 1, the value at date 3 is 100 for sure, so if the investor invests  $\mathrm{D}_1$  at date 1, the date 3 value is:
 
 $$
-(1 0 0 / 8 0) \mathrm {D} _ {1} \mathrm {o r}
+(1 0 0 / 8 0) \mathrm{D}_{1} \mathrm{or}
 $$
 
 in general
 
 $$
-(\mathrm {V} / \mathrm {p} _ {1}) \mathrm {D} _ {1}.
+(\mathrm{V} / \mathrm{p}_{1}) \mathrm{D}_{1}.
 $$
 
 If instead the non PBA investor waits until date 2 to invest (and just holds T-bills yielding  $0\%$  initially), then the price will be 70 or 100 (with prob q and 1-q respectively). When the price drops to 70, the non PBA investor will buy  $\mathrm{D}_1$  units, and when the price is 100, the investor will continue to hold T-bills. The expected date 3 value of waiting until date 2 to take a position is:
 
 $$
-[ \mathrm {q} (1 0 0 / 7 0) + (1 - \mathrm {q}) 1 ] \mathrm {D} _ {1} \quad \mathrm {o r},
+[ \mathrm{q} (1 0 0 / 7 0) + (1 - \mathrm{q}) 1 ] \mathrm{D}_{1} \quad \mathrm{or},
 $$
 
 in general
 
 $$
-[ \mathrm {q} (\mathrm {V} / \mathrm {p} _ {2}) + (1 - \mathrm {q}) ] \mathrm {D} _ {1}.
+[ \mathrm{q} (\mathrm{V} / \mathrm{p}_{2}) + (1 - \mathrm{q}) ] \mathrm{D}_{1}.
 $$
 
 The non PBA investor will go ahead and invest at date 1 when it gives a larger expected value of assets, or:
 
 $$
-\begin{array}{l} 1 0 0 / 8 0 \geq q (1 0 0 / 7 0) + (1 - q), o r \\ \mathrm {q <   7 / 1 2 = 0 . 5 8} \\ \end{array}
+\begin{array}{l} 1 0 0 / 8 0 \geq q (1 0 0 / 7 0) + (1 - q), o r \\ \mathrm{q <7 /1 2 =0 .5 8} \\ \end{array}
 $$
 
 or in general:  $q \leq \frac{p_2(V - p_1)}{p_1(V - p_2)}$ .
@@ -2132,13 +2132,13 @@ If the PBA arb waits until date 2 to invest, he won't lose assets under manageme
 The expected value of date 3 assets under management if he waits to invest at date 2 it then:
 
 $$
-\mathrm {q} (1 0 0 / 7 0) \mathrm {D} _ {1} + (1 - \mathrm {q}) \mathrm {D} _ {1}.
+\mathrm{q} (1 0 0 / 7 0) \mathrm{D}_{1} + (1 - \mathrm{q}) \mathrm{D}_{1}.
 $$
 
 The PBA arb invests at date 1 when:
 
 $$
-(1 - q) (1 0 0 / 8 0) \geq q (1 0 0 / 7 0) + (1 - q) \quad \mathrm {o r}
+(1 - q) (1 0 0 / 8 0) \geq q (1 0 0 / 7 0) + (1 - q) \quad \mathrm{or}
 $$
 
 $$
@@ -2170,7 +2170,7 @@ Suppose that at date 1 there are PBA funds and your long-term fund. The PBA fund
 # The two-period expected return of a PBA fund is:
 
 $$
-\begin{array}{l} \mathrm {q} (1 0 0 / 7 0) + (1 - \mathrm {q}) (1) = \mathrm {q} (1 + 3 / 7) + (1 - \mathrm {q}) 1 = \mathrm {q} (3 / 7) + 1 \\ = 0. 2 5 (3 / 7) + 1 = 1. 0 5 2 5 (\mathrm {f o r} \mathrm {q} = 0. 2 5) \\ \end{array}
+\begin{array}{l} \mathrm{q} (1 0 0 / 7 0) + (1 - \mathrm{q}) (1) = \mathrm{q} (1 + 3 / 7) + (1 - \mathrm{q}) 1 = \mathrm{q} (3 / 7) + 1 \\ = 0. 2 5 (3 / 7) + 1 = 1. 0 5 2 5 (\mathrm{fo r} \mathrm{q} = 0. 2 5) \\ \end{array}
 $$
 
 The twoperiod return of the long-term fund (assuming that it raises no new capital at date 2, so it can't scale up its bet if the price goes down at date 2),
@@ -2192,7 +2192,7 @@ To evaluate this further, we need to think about price formation. This gets a bi
 The prices we used in table 1 are those that prevail AFTER the arbs have put on their trades. If there were no trades coming in during a period, the price would remain unchanged. If there were only noise trading, the price goes down when noise traders sell and up when they buy. If there is also some trade by arbs, the price changes by the net amount of trade. That is:
 
 $$
-P _ {t} = \left\{ \begin{array}{l l} P _ {t - 1} + \text {N o i s e t r a d e + a r b t r a d e s} & \text {(h a p p e n s w i t h p r o b q)} \\ P _ {t - 1} + \text {N e w s t r a d e s} & \text {(h a p p e n s w i t h p r o b 1 - q)} \end{array} \right\}
+P_{t} = \left\{ \begin{array}{l l} P_{t - 1} + \text{No is et ra de +a rb tr ad es} & \text{(ha pp en sw it hp ro bq)} \\ P_{t - 1} + \text{Ne ws tr ad es} & \text{(ha pp en sw it hp ro b1 -q)} \end{array} \right\}
 $$
 
 Let us assume that LTCM already had established a position in the trade before date 1 (because of past mis-pricing), and was long 20 units. Thus if LTCM was not long 20 units, the price would be lower by 20. Arbs who are subject to PBA would not trade before date 2. (In practice, other arbs sometimes copied LTCM, so there might be some others who each took smaller positions in the same bets as LTCM. We will ignore this.)

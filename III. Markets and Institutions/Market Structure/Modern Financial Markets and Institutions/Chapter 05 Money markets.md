@@ -323,7 +323,7 @@ There are two important considerations to take note of when undertaking any calc
 a The bond equivalent yield, bey (also known as coupon equivalent rate or equivalent bond yield), is the yield that is quoted in newspapers and it allows comparison of fixed-income securities whose payments are not annual with securities that have annual yields. So a wide variety of debt instrument yield is expressed in the same annual terms, even those that mature in a matter of days, those that have interest paid every three months as well as those with one-yearly interest payment. To calculate the bey:
 
 $$
-\frac {\text {D i s c o u n t (t h a t i s , F a c e V a l u e - P u r c h a s e P r i c e)}}{\text {P u r c h a s e P r i c e}} \times \frac {\text {D a y s i n Y e a r}}{\text {D a y s t o M a t u r i t y}}
+\frac{\text{Di sc ou nt (th at is ,F ac eV al ue -P ur ch as eP ri ce)}}{\text{Pu rc ha se Pr ic e}} \times \frac{\text{Da ys in Ye ar}}{\text{Da ys to Ma tu ri ty}}
 $$
 
 See Example 1 for a simple use of this idea.
@@ -333,13 +333,13 @@ See Example 1 for a simple use of this idea.
 If we need to calculate the yield rate (bond equivalent rate or bey) for a 12-month £100 UK Treasury bill which was sold at a discount of 2 per cent, i.e. at £98, then we recognise that the investment made is £98 and we gain £2 when it is redeemed in one year. Thus we know that the true rate of return is slightly over 2 per cent. Given that there is a full year to maturity (assuming the day-count convention is a 365-day year), we know this is going to be the annual rate:
 
 $$
-\begin{array}{l} \mathrm {b e y} = \frac {\text {F a c e V a l u e - P u r c h a s e P r i c e}}{\text {P u r c h a s e P r i c e}} \times \frac {\text {D a y s i n Y e a r}}{\text {D a y s t o M a t u r i t y}} \times 1 0 0 = \text {a n n u a l r a t e} \\ \mathrm{bey} = \frac{100 - 98}{98}\times \frac{365}{365}\times 100 = 2.04\% \\ \end{array}
+\begin{array}{l} \mathrm{be y} = \frac{\text{Fa ce Va lu e -P ur ch as eP ri ce}}{\text{Pu rc ha se Pr ic e}} \times \frac{\text{Da ys in Ye ar}}{\text{Da ys to Ma tu ri ty}} \times 1 0 0 = \text{an nu al ra te} \\ \mathrm{bey} = \frac{100 - 98}{98}\times \frac{365}{365}\times 100 = 2.04\% \\ \end{array}
 $$
 
 (Appendix 5.2 at the end of this chapter runs through the key mathematical tools of finance. If your understanding is a little rusty you might like to read through that now and attempt the exercises.) b The discount yield (also known as discount basis or discount rate or rate of discount) is the yield when using the face value as the base rather than the actual amount invested by the buyer. To calculate the discount yield:
 
 $$
-\frac {\text {D i s c o u n t (F a c e V a l u e - P u r c h a s e P r i c e)}}{\text {F a c e V a l u e}} \times \frac {\text {D a y s i n Y e a r}}{\text {D a y s t o M a t u r i t y}}
+\frac{\text{Di sc ou nt (Fa ce Va lu e -P ur ch as eP ri ce)}}{\text{Fa ce Va lu e}} \times \frac{\text{Da ys in Ye ar}}{\text{Da ys to Ma tu ri ty}}
 $$
 
 See Example 2.
@@ -349,7 +349,7 @@ See Example 2.
 For a T-bill issued at £98 when the face value is £100 and the time to maturity is one year:
 
 $$
-\begin{array}{l} d = \frac {\text {(F a c e V a l u e - P u r c h a s e P r i c e)}}{\text {F a c e V a l u e}} \times \frac {\text {D a y s i n Y e a r}}{\text {D a y s t o M a t u r i t y}} \times 1 0 0 = \text {a n n u a l p e r c e n t a g e r a t e} \\ d = \frac {(100 - 98)}{100} \times \frac {365}{365} \times 100 = 2 \% \\ \end{array}
+\begin{array}{l} d = \frac{\text{(Fa ce Va lu e -P ur ch as eP ri ce)}}{\text{Fa ce Va lu e}} \times \frac{\text{Da ys in Ye ar}}{\text{Da ys to Ma tu ri ty}} \times 1 0 0 = \text{an nu al pe rc en ta ge ra te} \\ d = \frac{(100 - 98)}{100} \times \frac{365}{365} \times 100 = 2 \% \\ \end{array}
 $$
 
 Just to emphasise: note that the yield rate (bey) is greater than the discount yield rate because the yield is earned on the purchase (discounted) price, not on the face value.
@@ -371,19 +371,19 @@ If we take the three-month Treasury bill sold at tender on 18 February at a disc
 Discount yield:
 
 $$
-\begin{array}{l} d = \frac {\text {(F a c e V a l u e - P u r c h a s e P r i c e)}}{\text {F a c e V a l u e}} \times \frac {\text {D a y s i n Y e a r}}{\text {D a y s t o M a t u r i t y}} \times 1 0 0 = \text {a n n u a l r a t e} \\ d = \frac {(100 - 99.867658)}{100} \times \frac {365}{91} \times 100 = 0.530822 \% (\text {expressed as an annual rate}) \\ \end{array}
+\begin{array}{l} d = \frac{\text{(Fa ce Va lu e -P ur ch as eP ri ce)}}{\text{Fa ce Va lu e}} \times \frac{\text{Da ys in Ye ar}}{\text{Da ys to Ma tu ri ty}} \times 1 0 0 = \text{an nu al ra te} \\ d = \frac{(100 - 99.867658)}{100} \times \frac{365}{91} \times 100 = 0.530822 \% (\text{expressedasanannualrate}) \\ \end{array}
 $$
 
 Yield (on the Purchase Price):
 
 $$
-\begin{array}{l} \mathrm {b e y} = \frac {\text {(F a c e V a l u e - P u r c h a s e P r i c e)}}{\text {P u r c h a s e P r i c e}} \times \frac {3 6 5}{9 1} \times 1 0 0 \\ \mathrm{bey} = \frac{100 - 99.867658}{99.867658}\times \frac{365}{91}\times 100 = 0.531526\% (\text{expressed as an annual rate}) \\ \end{array}
+\begin{array}{l} \mathrm{be y} = \frac{\text{(Fa ce Va lu e -P ur ch as eP ri ce)}}{\text{Pu rc ha se Pr ic e}} \times \frac{3 6 5}{9 1} \times 1 0 0 \\ \mathrm{bey} = \frac{100 - 99.867658}{99.867658}\times \frac{365}{91}\times 100 = 0.531526\% (\text{expressedasanannualrate}) \\ \end{array}
 $$
 
 Purchase price:
 
 $$
-\begin{array}{l} P u r c h a s e P r i c e = \text {F a c e V a l u e} \times \left[ 1 - \left(\frac {\text {D i s c o u n t} \times \text {D a y s t o M a t u r i t y}}{\text {D a y s i n Y e a r}}\right) \right] \\ \text {P u r c h a s e P r i c e} = 1 0 0 \times \left[ 1 - \left(\frac {0 . 0 0 5 3 0 8 2 2 \times 9 1}{3 6 5}\right) \right] = £ 9 9. 8 6 7 6 5 8 \\ \end{array}
+\begin{array}{l} P u r c h a s e P r i c e = \text{Fa ce Va lu e} \times \left[ 1 - \left(\frac{\text{Di sc ou nt} \times \text{Da ys to Ma tu ri ty}}{\text{Da ys in Ye ar}}\right) \right] \\ \text{Pu rc ha se Pr ic e} = 1 0 0 \times \left[ 1 - \left(\frac{0 . 0 0 5 3 0 8 2 2 \times 9 1}{3 6 5}\right) \right] = £ 9 9. 8 6 7 6 5 8 \\ \end{array}
 $$
 
 The results for the tender of this 18 February bill are shown in Exhibit 5.5. From this it can be noted that the actual bids from buyers varied from a yield of 0.51 per cent to a high of 0.548 per cent, with an average of 0.531527 per cent. The bill was over-tendered by a factor of 3.19, i.e. the amount on offer was £1 billion (at face value), and there were actual bids offered totalling £3.1905 billion.
@@ -442,23 +442,23 @@ If we take the 26-week T-bill which was auctioned on 22 February 2011 below its 
 To calculate the discount yield,  $d$ , on the 26-week US T-bill sold on 24 February 2011 at a discount price of 99.921639:
 
 $$
-\begin{array}{l} d = \frac {\text {(F a c e V a l u e - P u r c h a s e P r i c e)}}{\text {F a c e V a l u e}} \times \frac {\text {D a y s i n Y e a r}}{\text {D a y s t o M a t u r i t y}} \times 1 0 0 \\ d = \frac {(100 - 99.921639)}{100} \times \frac {360}{182} \times 100 = 0.155 \% \\ \end{array}
+\begin{array}{l} d = \frac{\text{(Fa ce Va lu e -P ur ch as eP ri ce)}}{\text{Fa ce Va lu e}} \times \frac{\text{Da ys in Ye ar}}{\text{Da ys to Ma tu ri ty}} \times 1 0 0 \\ d = \frac{(100 - 99.921639)}{100} \times \frac{360}{182} \times 100 = 0.155 \% \\ \end{array}
 $$
 
 To calculate the purchase price of the same bill:
 
 $$
-\begin{array}{l} P u r c h a s e P r i c e = \text {F a c e V a l u e} \times \left[ 1 - \left(\frac {\text {D i s c o u n t} \times \text {D a y s t o M a t u r i t y}}{\text {D a y s i n Y e a r}}\right) \right] \\ \text {P u r c h a s e P r i c e} = 1 0 0 \times \left[ 1 - \left(\frac {0 . 0 0 1 5 5 \times 1 8 2}{3 6 0}\right) \right] = £ 9 9. 9 2 1 6 3 9 \\ \end{array}
+\begin{array}{l} P u r c h a s e P r i c e = \text{Fa ce Va lu e} \times \left[ 1 - \left(\frac{\text{Di sc ou nt} \times \text{Da ys to Ma tu ri ty}}{\text{Da ys in Ye ar}}\right) \right] \\ \text{Pu rc ha se Pr ic e} = 1 0 0 \times \left[ 1 - \left(\frac{0 . 0 0 1 5 5 \times 1 8 2}{3 6 0}\right) \right] = £ 9 9. 9 2 1 6 3 9 \\ \end{array}
 $$
 
 To calculate the actual investment rate of return (bond equivalent yield, bey) from this bill, a 365-day year is used (because a 360-day year would underestimate the return – we use a 366-day year in leap years):
 
 $$
-\begin{array}{l} \text {b e y} = \frac {\text {F a c e V a l u e - P u r c h a s e P r i c e}}{\text {P u r c h a s e P r i c e}} \times \frac {\text {D a y s i n Y e a r}}{\text {D a y s t o M a t u r i t y}} \times 1 0 0 \\ \mathrm{bey} = \frac{100 - 99.921639}{99.921639}\times \frac{365}{182}\times 100 = 0.157276\% \text{per annum} ^{11} \\ \end{array}
+\begin{array}{l} \text{be y} = \frac{\text{Fa ce Va lu e -P ur ch as eP ri ce}}{\text{Pu rc ha se Pr ic e}} \times \frac{\text{Da ys in Ye ar}}{\text{Da ys to Ma tu ri ty}} \times 1 0 0 \\ \mathrm{bey} = \frac{100 - 99.921639}{99.921639}\times \frac{365}{182}\times 100 = 0.157276\% \text{perannum} ^{11} \\ \end{array}
 $$
 
 $$
-\left[ 1 + \frac {0.00157276}{365 / 182} \right] ^ {365 / 182} - 1 \times 100 = 0.157338 \%
+\left[ 1 + \frac{0.00157276}{365 / 182} \right]^{365 / 182} - 1 \times 100 = 0.157338 \%
 $$
 
 Another example:
@@ -466,7 +466,7 @@ Another example:
 You invested for three months and received a 'simple' annual yield of 3 per cent. This is an annual rate that does not allow for compounding over the year, i.e. interest received on interest added after each quarter is ignored. The effective annual rate is:
 
 $$
-\left[ 1 + \frac {0 . 0 3}{4 / 1} \right] ^ {4 / 1} - 1 \times 1 0 0 = 3. 0 3 3 9
+\left[ 1 + \frac{0 . 0 3}{4 / 1} \right]^{4 / 1} - 1 \times 1 0 0 = 3. 0 3 3 9
 $$
 
 Thus, you receive an extra 0.0339 per cent because after three months you reinvest the maturity amount including interest from the first investment in an identical investment for the remaining nine months. And do the same after six months and nine months. Thus, you receive interest on interest received of 0.0339 per cent. This is, of course, assuming identical investments every three months. While this is unrealistic, at least the EAR provides a gauge of the 'true' annual rate offered on short-term securities.
@@ -524,13 +524,13 @@ A dealer buys  \$2 million worth of Eurodollar commercial paper from a borrowing
 The discount yield (using an actual/360 day count) is:
 
 $$
-\begin{array}{l} d = \frac {\text {(F a c e V a l u e - P r u c h a s e P r i c e)}}{\text {F a c e V a l u e}} \times \frac {\text {D a y s i n Y e a r}}{\text {D a y s t o M a t u r i t y}} \times 1 0 0 \\ d = \frac {(2,000,000 - 1,994,874)}{2,000,000} \times \frac {360}{60} \times 100 = 1.5378 \% \text {per annum} \\ \end{array}
+\begin{array}{l} d = \frac{\text{(Fa ce Va lu e -P ru ch as eP ri ce)}}{\text{Fa ce Va lu e}} \times \frac{\text{Da ys in Ye ar}}{\text{Da ys to Ma tu ri ty}} \times 1 0 0 \\ d = \frac{(2,000,000 - 1,994,874)}{2,000,000} \times \frac{360}{60} \times 100 = 1.5378 \% \text{perannum} \\ \end{array}
 $$
 
 The yield (using an actual/365 day count) is:
 
 $$
-\begin{array}{l} \mathrm {b e y} = \frac {\text {(F a c e V a l u e - P u r c h a s e P r i c e)}}{\text {P u r c h a s e P r i c e}} \times \frac {\text {D a y s i n Y e a r}}{\text {D a y s t o M a t u r i t y}} \times 1 0 0 \\ \mathrm{bey} = \frac{(2,000,000 - 1,994,874)}{1,994,874}\times \frac{365}{60}\times 100 = 1.5632\% (\text{annual rate}) \\ \end{array}
+\begin{array}{l} \mathrm{be y} = \frac{\text{(Fa ce Va lu e -P ur ch as eP ri ce)}}{\text{Pu rc ha se Pr ic e}} \times \frac{\text{Da ys in Ye ar}}{\text{Da ys to Ma tu ri ty}} \times 1 0 0 \\ \mathrm{bey} = \frac{(2,000,000 - 1,994,874)}{1,994,874}\times \frac{365}{60}\times 100 = 1.5632\% (\text{annualrate}) \\ \end{array}
 $$
 
 Exhibit 5.8 describes how badly the CP market was hit by the loss of confidence in financial institutions in 2008.
@@ -598,11 +598,11 @@ The best way to understand the repo market is through an example - see Example 6
 A high-street bank needs to borrow £6 million for 14 days. It agrees to sell a portfolio of its financial assets, in this case government bonds, to a lender for £6 million. An agreement is drawn up (a repo) by which the bank agrees to repurchase the portfolio 14 days later for £6,001,219.73. The extra sum of £1,219.73 represents the interest on £6 million over 14 days at an annual rate of 0.53 per cent. The calculation is:
 
 $$
-\text {I n t e r s t} = \text {S e l l i n g P r i c e} \times \text {I n t e r s t R a t e} \times \frac {\text {D a y s t o M a t u r i t y}}{\text {D a y s i n Y e a r}}
+\text{In te rs t} = \text{Se ll in gP ri ce} \times \text{In te rs tR at e} \times \frac{\text{Da ys to Ma tu ri ty}}{\text{Da ys in Ye ar}}
 $$
 
 $$
-\text {I n t e r s t} = 6, 0 0 0, 0 0 0 \times \frac {0 . 5 3}{1 0 0} \times \frac {1 4}{3 6 5} = £ 1, 2 1 9. 7 3
+\text{In te rs t} = 6, 0 0 0, 0 0 0 \times \frac{0 . 5 3}{1 0 0} \times \frac{1 4}{3 6 5} = £ 1, 2 1 9. 7 3
 $$
 
 The term for repos is usually between 1 and 14 days, but can be up to a year and occasionally there is no end date – this is called an open repo.
@@ -624,11 +624,11 @@ Source: www.bbalibor.com
 A company owning £20 million worth of Treasury bills wishes to raise cash on 28 February 2011 and enters into an agreement to sell the bills and buy them back in one week's time. The agreed buy-back price would be £20 million plus the accrued interest. The annual rate of interest on 28 February for a one-week repo is shown in Exhibit 5.10 as 0.52167 per cent.
 
 $$
-\text {B u y - b a c k P r i c e} = \text {S e l l i n g P r i c e} + \left(\text {S e l l i n g P r i c e} \times \text {I n t e r s t R a t e} \times \frac {\text {D a y s t o M a t u r i t y}}{\text {D a y s i n Y e a r}}\right)
+\text{Bu y -b ac kP ri ce} = \text{Se ll in gP ri ce} + \left(\text{Se ll in gP ri ce} \times \text{In te rs tR at e} \times \frac{\text{Da ys to Ma tu ri ty}}{\text{Da ys in Ye ar}}\right)
 $$
 
 $$
-\text {B u y - b a c k P r i c e} = 2 0, 0 0 0, 0 0 0 + \left(2 0, 0 0 0, 0 0 0 \times \frac {0 . 5 2 1 6 7}{1 0 0} \times \frac {7}{3 6 5}\right) = £ 2 0, 0 0 2, 0 0 0. 9
+\text{Bu y -b ac kP ri ce} = 2 0, 0 0 0, 0 0 0 + \left(2 0, 0 0 0, 0 0 0 \times \frac{0 . 5 2 1 6 7}{1 0 0} \times \frac{7}{3 6 5}\right) = £ 2 0, 0 0 2, 0 0 0. 9
 $$
 
 # Haircuts
@@ -640,7 +640,7 @@ Although the securities bought and sold are generally considered safe collateral
 Using the figures from Example 7, the buy-back price can then be calculated:
 
 $$
-\begin{array}{l} \text {B u y - b a c k P r i c e} = \text {S e l l i n g P r i c e} + \left[ \left(\text {S e l l i n g P r i c e} - \text {H a i r c u t}\right) \times \text {I n t e r s t R a t e} \times \frac {\text {D a y s t o M a t u r i t y}}{\text {D a y s i n Y e a r}} \right] \\ \text {B u y - b a c k P r i c e} = 2 0, 0 0 0, 0 0 0 + \left[ \left(2 0, 0 0 0, 0 0 0 - \left\{2 0, 0 0 0, 0 0 0 \times \frac {0 . 0 7 5}{1 0 0} \right\}\right) \times \frac {0 . 5 2 1 6 7}{1 0 0} \times \frac {7}{3 6 5} \right] = £ 2 0, 0 0 1, 9 9 9. 4 \\ \end{array}
+\begin{array}{l} \text{Bu y -b ac kP ri ce} = \text{Se ll in gP ri ce} + \left[ \left(\text{Se ll in gP ri ce} - \text{Ha ir cu t}\right) \times \text{In te rs tR at e} \times \frac{\text{Da ys to Ma tu ri ty}}{\text{Da ys in Ye ar}} \right] \\ \text{Bu y -b ac kP ri ce} = 2 0, 0 0 0, 0 0 0 + \left[ \left(2 0, 0 0 0, 0 0 0 - \left\{2 0, 0 0 0, 0 0 0 \times \frac{0 . 0 7 5}{1 0 0} \right\}\right) \times \frac{0 . 5 2 1 6 7}{1 0 0} \times \frac{7}{3 6 5} \right] = £ 2 0, 0 0 1, 9 9 9. 4 \\ \end{array}
 $$
 
 Repo deals are individually negotiated between the two parties and are therefore designed to suit the length of time of borrowing for each of them, thus there is usually little need for redemption before the agreed date. However, if circumstances change and the lender needs the money quickly, it might be possible to arrange an off-setting reverse repo transaction.
@@ -722,13 +722,13 @@ CDs are quoted in the trading market on a yield-to-maturity basis - see Example 
 A £75,000 CD is issued on 15 March for two months at 1.04 per cent (expressed as an annual rate, even though the money is deposited for a mere two months). This means that the bank will pay the following at maturity (including accumulated interest):
 
 $$
-\begin{array}{l} \text {V a l u e} = \text {F a c e V a l u e} + \left(\text {F a c e V a l u e} \times \frac {\text {I n t e r e s t}}{1 0 0} \times \frac {\text {D a y s t o M a t u r i t y}}{\text {D a y s i n y e a r}}\right) \\ \text {V a l u e} = 7 5, 0 0 0 + \left(7 5, 0 0 0 \times \frac {1 . 0 4}{1 0 0} \times \frac {6 1}{3 6 5}\right) = 7 5, 1 3 0. 3 6 \\ \end{array}
+\begin{array}{l} \text{Va lu e} = \text{Fa ce Va lu e} + \left(\text{Fa ce Va lu e} \times \frac{\text{In te re st}}{1 0 0} \times \frac{\text{Da ys to Ma tu ri ty}}{\text{Da ys in ye ar}}\right) \\ \text{Va lu e} = 7 5, 0 0 0 + \left(7 5, 0 0 0 \times \frac{1 . 0 4}{1 0 0} \times \frac{6 1}{3 6 5}\right) = 7 5, 1 3 0. 3 6 \\ \end{array}
 $$
 
 The CD is sold to another investor with 16 days left to maturity. Its present value (at the time of sale) if annual rates of interest on 16-day CDs are 1.04 per cent is:
 
 $$
-\begin{array}{l} \text {P r e s e n t V a l u e} = \frac {\text {V a l u e a t M a t u r i t y}}{1 + \left(\frac {\text {I n t e r s t}}{1 0 0} \times \frac {\text {D a y s t o M a t u r i t y}}{\text {D a y s i n Y e a r}}\right)} \\ \text {P r e s e n t V a l u e} = \frac {7 5 , 1 3 0 . 3 6}{1 + \left(\frac {1 . 0 4}{1 0 0} \times \frac {1 6}{3 6 5}\right)} = 7 5, 0 9 6. 1 2 \\ \end{array}
+\begin{array}{l} \text{Pr es en tV al ue} = \frac{\text{Va lu ea tM at ur it y}}{1 + \left(\frac{\text{In te rs t}}{1 0 0} \times \frac{\text{Da ys to Ma tu ri ty}}{\text{Da ys in Ye ar}}\right)} \\ \text{Pr es en tV al ue} = \frac{7 5 , 1 3 0 . 3 6}{1 + \left(\frac{1 . 0 4}{1 0 0} \times \frac{1 6}{3 6 5}\right)} = 7 5, 0 9 6. 1 2 \\ \end{array}
 $$
 
 Thus, the second holder of the CD will pay £75,096.12 now and receive £75,130.36 from the bank if they hold for another 16 days.
@@ -736,7 +736,7 @@ Thus, the second holder of the CD will pay £75,096.12 now and receive £75,130.
 The yield to maturity of this CD held for 16 days is:
 
 $$
-\begin{array}{l} Y i e l d \text {t o} M a t u r i t y = \frac {\text {V a l u e a t M a t u r i t y - P r e s e n t V a l u e}}{\text {P r e s e n t V a l u e}} \times \frac {\text {D a y s i n Y e a r}}{\text {D a y s t o M a t u r i t y}} \times 1 0 0 \\ \text{Yield to Maturity expressed as an annual rate} = \frac {75,130.36 - 75,096.12}{75,096.12} \times \frac {365}{16} \times 100 = 1.04 \% \\ \end{array}
+\begin{array}{l} Y i e l d \text{to} M a t u r i t y = \frac{\text{Va lu ea tM at ur it y -P re se nt Va lu e}}{\text{Pr es en tV al ue}} \times \frac{\text{Da ys in Ye ar}}{\text{Da ys to Ma tu ri ty}} \times 1 0 0 \\ \text{YieldtoMaturityexpressedasanannualrate} = \frac{75,130.36 - 75,096.12}{75,096.12} \times \frac{365}{16} \times 100 = 1.04 \% \\ \end{array}
 $$
 
 As well as domestic currency CDs there are Eurocurrency (Eurodollar) certificates of deposit. Standard Eurocurrency deposits (not CDs) have fixed maturities - say seven days, and you cannot get at that money until the seven days have passed. By issuing Eurodollar CDs banks are able to offer an improvement if those CDs are negotiable, by allowing depositors to sell the CDs to other investors before maturity.
@@ -772,13 +772,13 @@ Exhibit 5.12 Bill of exchange sequence
 A customer has accepted a bill of exchange which commits it to pay £300,000 in 90 days. The bill is sold by the supplier immediately to a discount house or bank for £297,000. After 90 days the discounter will realise a profit of £3,000 on a £297,000 asset. To calculate the effective rate of interest:
 
 $$
-\begin{array}{l} \text {I n t e r e s t} = \frac {\text {D i s c o u n t}}{\text {D i s c o u n t e d P r i c e}} \times 1 0 0 \\ \text {Interest} = \frac {3000}{297,000} \times 100 = 1.0101 \% \\ \end{array}
+\begin{array}{l} \text{In te re st} = \frac{\text{Di sc ou nt}}{\text{Di sc ou nt ed Pr ic e}} \times 1 0 0 \\ \text{Interest} = \frac{3000}{297,000} \times 100 = 1.0101 \% \\ \end{array}
 $$
 
 To calculate the annual rate of interest, the bond equivalent yield, bey, this equates to:
 
 $$
-\begin{array}{l} \mathrm {b e y} = \frac {\text {D i s c o u n t}}{\text {D i s c o u n t e d P r i c e}} \times 1 0 0 \times \frac {\text {D a y s i n Y e a r}}{\text {D a y s t o M a t u r i t y}} \\ \mathrm{bey} = \frac{3000}{297,000}\times 100\times \frac{365}{90} = 4.0965\% \\ \end{array}
+\begin{array}{l} \mathrm{be y} = \frac{\text{Di sc ou nt}}{\text{Di sc ou nt ed Pr ic e}} \times 1 0 0 \times \frac{\text{Da ys in Ye ar}}{\text{Da ys to Ma tu ri ty}} \\ \mathrm{bey} = \frac{3000}{297,000}\times 100\times \frac{365}{90} = 4.0965\% \\ \end{array}
 $$
 
 Through this arrangement the customer has the benefit of the goods on 90 days' credit, the supplier has made a sale and immediately receives cash from the discount house amounting to 99 per cent of the total due, and the discounter, if it can borrow its funds at less than 1.01 per cent over 90 days, turns in a healthy profit.
@@ -826,7 +826,7 @@ Selling Price = 3,500,000 -  $(3,500,000 \times \frac{0.60}{100}) = \in \mathbb{
 To calculate the annual rate of interest, the bond equivalent yield, bey, which this is costing them:
 
 $$
-\mathrm {b e y} = \frac {\text {D i s c o u n t}}{\text {D i s c o u n t e d P r i c e}} \times 1 0 0 \times \frac {\text {D a y s i n Y e a r}}{\text {D a y s t o M a t u r i t y}}
+\mathrm{be y} = \frac{\text{Di sc ou nt}}{\text{Di sc ou nt ed Pr ic e}} \times 1 0 0 \times \frac{\text{Da ys in Ye ar}}{\text{Da ys to Ma tu ri ty}}
 $$
 
 $$
@@ -963,17 +963,17 @@ Eurocredit market for medium and long-term Eurocurrency securities.
 Bond equivalent yield (bey),
 
 $$
-\frac {\text {D i s c o u n t (F a c e V a l u e - P u r c h a s e P r i c e)}}{\text {P u r c h a s e P r i c e}} \times \frac {\text {D a y s i n Y e a r}}{\text {D a y s t o M a t u r i t y}}
+\frac{\text{Di sc ou nt (Fa ce Va lu e -P ur ch as eP ri ce)}}{\text{Pu rc ha se Pr ic e}} \times \frac{\text{Da ys in Ye ar}}{\text{Da ys to Ma tu ri ty}}
 $$
 
 Discount yield,
 
 $$
-\frac {\text {D i s c o u n t (F a c e V a l u e - P u r c h a s e P r i c e)}}{\text {F a c e V a l u e}} \times \frac {\text {D a y s i n Y e a r}}{\text {D a y s t o M a t u r i t y}}
+\frac{\text{Di sc ou nt (Fa ce Va lu e -P ur ch as eP ri ce)}}{\text{Fa ce Va lu e}} \times \frac{\text{Da ys in Ye ar}}{\text{Da ys to Ma tu ri ty}}
 $$
 
 $$
-P u r c h a s e P r i c e = F a c e V a l u e \times \left[ 1 - \left(\frac {\text {D i s c o u n t} \times \text {D a y s t o M a t u r i t y}}{\text {D a y s i n Y e a r}}\right) \right]
+P u r c h a s e P r i c e = F a c e V a l u e \times \left[ 1 - \left(\frac{\text{Di sc ou nt} \times \text{Da ys to Ma tu ri ty}}{\text{Da ys in Ye ar}}\right) \right]
 $$
 
 US Treasury bills are sold by the US federal government at a discount to par in competitive or non-competitive auctions. All bidders pay the same amount.
@@ -989,42 +989,42 @@ US Treasury bills are sold by the US federal government at a discount to par in 
 - Credit ratings are given to CP and other securities by three main credit ratings agencies, Standard & Poor's, Moody's and Fitch Ratings, who each use slightly different terminology. A credit rating rates the ability of the CP issuer to repay its debt and influences the rate of interest charged. An investment rating is important because institutional investors can often only invest in these grades.
 - Repurchase agreements (repo) are short-term loans secured by safe securities, which ensures low interest rates. The securities are sold with an agreement to buy them back at a set price on a set date. The term is usually between one and 14 days, but can be up to a year. An open repo has no end date. A reverse repo is an agreement to first buy and then sell back securities to a counterparty at a set price on a set date. To calculate the buy back price on a repo:
 
-Buy Back Price = Selling Price + (Selling Price × Interest Rate ×  $\frac{\text{Days to Maturity}}{\text{Days in Year}}$ )
+Buy Back Price = Selling Price + (Selling Price × Interest Rate ×  $\frac{\text{DaystoMaturity}}{\text{DaysinYear}}$ )
 
 - a haircut protects the buyer from price fluctuations. The seller receives the amount of cash required less a margin, the haircut, and pays interest on the principal less the haircut. The calculation is:
 
-Buy Back Price = Selling Price +  $\left[\left(Selling\ Price-Haircut\right) \times \text { Interest Rate} \times \frac{\text { Days to Maturity }}{\text { Days in Year }}\right]$
+Buy Back Price = Selling Price +  $\left[\left(Selling\ Price-Haircut\right) \times \text{ InterestRate} \times \frac{\text{ DaystoMaturity }}{\text{ DaysinYear }}\right]$
 
 - Local authority/municipal bills are issued to finance some expenditure by local government and associated agencies. They are prevalent in the US (where they are free of some taxes) and Continental Europe.
 Certificates of deposit (CDs) are issued by banks when funds are deposited with them. They state that a deposit has been made and that at maturity the bank will pay a (increased) sum to the holder. Their maturity can be up to a year but is typically one to four months.
 
 Value of CD at Maturity = Face Value + (Face Value × Interest / 100 × Days to Maturity / Days in Year)
 
-Present Value of a CD =  $\frac{\text { Value at Maturity }}{1 + \left(\frac{\text { Interest }}{100} \times \frac{\text { Days to Maturity }}{\text { Days in Year }}\right)}$
+Present Value of a CD =  $\frac{\text{ ValueatMaturity }}{1 + \left(\frac{\text{ Interest }}{100} \times \frac{\text{ DaystoMaturity }}{\text{ DaysinYear }}\right)}$
 
-Yield to Maturity of a CD =  $\frac{\text{Value at Maturity - Present Value}}{\text{Present Value}} \times \frac{\text{Days in Year}}{\text{Days to Maturity}} \times 100$
+Yield to Maturity of a CD =  $\frac{\text{ValueatMaturity -PresentValue}}{\text{PresentValue}} \times \frac{\text{DaysinYear}}{\text{DaystoMaturity}} \times 100$
 
 - Bill of exchange: the acknowledgement of a debt to be paid at a specified time. The legal right to receive this debt can be sold prior to maturity, that is, discounted, and thus can provide a source of finance.
-- Interest on a discounted bill of exchange  $= \frac{\text{Discount}}{\text{Discounted Price}} \times 100$
-Bond equivalent yield, bey, on a bill of exchange  $= \frac{\text{Discount}}{\text{Discounted Price}} \times 100 \times \frac{\text{Days in Year}}{\text{Days to Maturity}}$
+- Interest on a discounted bill of exchange  $= \frac{\text{Discount}}{\text{DiscountedPrice}} \times 100$
+Bond equivalent yield, bey, on a bill of exchange  $= \frac{\text{Discount}}{\text{DiscountedPrice}} \times 100 \times \frac{\text{DaysinYear}}{\text{DaystoMaturity}}$
 - Acceptance credit: a financial institution or other reputable organisation accepts the promise to pay a specified sum in the future to a firm. The firm can pass on this right to a supplier or sell this right, that is discount it, to receive cash from another institution.
 
 Selling price of an acceptance credit  $=$  Face Value - (Face Value × Discount Percentage)
 
-Acceptance credit bond equivalent yield, bey  $= \frac{\text{Discount}}{\text{Discounted Price}} \times 100 \times \frac{\text{Days in Year}}{\text{Days to Maturity}}$
+Acceptance credit bond equivalent yield, bey  $= \frac{\text{Discount}}{\text{DiscountedPrice}} \times 100 \times \frac{\text{DaysinYear}}{\text{DaystoMaturity}}$
 
 # Appendix 5.1 Converting from a 365-day basis to a 360-day basis
 
 To compare interest rates calculated with different day-count conventions we need to convert all rates to a common basis. This can be done using the following formula:
 
 $$
-\text {I n t e r s t r a t e o n c o m p a r i s o n b a s i s} = \text {i n t e r s t r a t e o n q u o t e d b a s i s} \left(\frac {\text {n u m b e r o f d a y s i n c o m p a r i s o n}}{\text {n u m b e r o f d a y s i n q u o t e d y e a r}}\right)
+\text{In te rs tr at eo nc om pa ri so nb as is} = \text{in te rs tr at eo nq uo te db as is} \left(\frac{\text{nu mb er of da ys in co mp ar is on}}{\text{nu mb er of da ys in qu ot ed ye ar}}\right)
 $$
 
 If you wanted to compare a 5.5 per cent interest quoted on a 365-day year basis with another instrument calculated on the basis of a 360-day year, the calculation would be:
 
 $$
-\text{Comparison interest rate} = 5.5 \times \left(\frac{360}{365}\right) = 5.42 \%
+\text{Comparisoninterestrate} = 5.5 \times \left(\frac{360}{365}\right) = 5.42 \%
 $$
 
 So the rate prepared on a 360-day convention is stated at 5.42 per cent, but the effective rate of interest for the year is 5.5 per cent.
@@ -1081,7 +1081,7 @@ $$
 Alternatively,
 
 $$
-F = P (1 + i) ^ {2}
+F = P (1 + i)^{2}
 $$
 
 Exhibit 5.17 displays the future value of £1 invested at a number of different interest rates and for alternative numbers of years. This is extracted from Appendix I at the end of the book.
@@ -1099,11 +1099,11 @@ $$
 Over five years the result is:
 
 $$
-F = P (1 + \mathrm {i}) ^ {n}
+F = P (1 + \mathrm{i})^{n}
 $$
 
 $$
-1 7. 6 2 = 1 0 (1 + 0. 1 2) ^ {5}
+1 7. 6 2 = 1 0 (1 + 0. 1 2)^{5}
 $$
 
 The interest on the accumulated interest is therefore the difference between the total arising from simple interest and that from compound interest:
@@ -1123,7 +1123,7 @@ There are many occasions in financial management when you are given the future s
 If we anticipate the receipt of £17.62 in five years' time we can determine its present value. Rearrangement of the compound formula, and assuming a discount rate of 12 per cent, gives:
 
 $$
-\begin{array}{l} P = \frac {F}{(1 + i) ^ {n}} o r P = F \times \frac {1}{(1 + i) ^ {n}} \\ 1 0 = \frac {1 7 . 6 2}{\left(1 + 0 . 1 2\right) ^ {5}} \\ \end{array}
+\begin{array}{l} P = \frac{F}{(1 + i)^{n}} o r P = F \times \frac{1}{(1 + i)^{n}} \\ 1 0 = \frac{1 7 . 6 2}{\left(1 + 0 . 1 2\right)^{5}} \\ \end{array}
 $$
 
 Alternatively, discount factors may be used, as shown in Exhibit 5.18 (this is an extract from Appendix II at the end of the book). The factor needed to discount £1 receivable in five years when the discount rate is 12 per cent is 0.5674.
@@ -1147,13 +1147,13 @@ Sometimes you wish to calculate the rate of return that a project is earning. Fo
 To be able to calculate  $i$  it is necessary to rearrange the compounding formula. Since:
 
 $$
-F = P (1 + i) ^ {n}
+F = P (1 + i)^{n}
 $$ first, divide both sides by  $P$ :
 
 
 $$
 
-F / P = (1 + i) ^ {n}
+F / P = (1 + i)^{n}
 
 $$
 
@@ -1161,14 +1161,14 @@ $$
 
 Second, take the root to the power  $n$  of both sides and subtract 1 from each side:
 
-$$ i = \sqrt [ n ]{\frac {F}{P}} - 1 o r i = \left[ \frac {F}{P} \right] ^ {1 / n} - 1
+$$ i = \sqrt [ n ]{\frac{F}{P}} - 1 o r i = \left[ \frac{F}{P} \right]^{1 / n} - 1
 $$
 
 # Example 4
 
 In the case of a five-year investment requiring an outlay of £10 and having a future value of £17.62 the rate of return is:
 
-$$ i = \sqrt [ 5 ]{\frac {17.62}{10}} - 1 = 12 \%
+$$ i = \sqrt [ 5 ]{\frac{17.62}{10}} - 1 = 12 \%
 $$
 
 $$ i = \left[\frac{17.62}{10}\right]^{1 / 5} - 1 = 12\%
@@ -1181,7 +1181,7 @@ You can use the  $\sqrt[x]{y}$ , the  $\sqrt[y]{x}$  button or a combination of 
 Alternatively, use the future value table (Appendix I), an extract of which is shown in Exhibit 5.17. In our example, the return on £1 worth of investment over five years is:
 
 $$
-\frac {1 7 . 6 2}{1 0} = 1. 7 6 2
+\frac{1 7 . 6 2}{1 0} = 1. 7 6 2
 $$
 
 In the body of the future value table look at the year 5 row for a future value of 1.762.
@@ -1190,12 +1190,12 @@ Read off the interest rate of 12 per cent.
 
 An interesting application of this technique outside finance is to use it to put into perspective the pronouncements of politicians. For example, in 1994 John Major made a speech to the Conservative Party conference promising to double national income (the total quantity of goods and services produced) within 25 years. This sounds impressive, but let us see how ambitious this is in terms of an annual percentage increase.
 
-$$ i = \sqrt [ 2 5 ]{\frac {F}{P}} - 1
+$$ i = \sqrt [ 2 5 ]{\frac{F}{P}} - 1
 $$
 
 $F$ , future income, is double  $P$ , the present income.
 
-$$ i = \sqrt [ 2 5 ]{\frac {2}{1}} - 1 = 0. 0 2 8 1 \text {or} 2. 8 1
+$$ i = \sqrt [ 2 5 ]{\frac{2}{1}} - 1 = 0. 0 2 8 1 \text{or} 2. 8 1
 $$
 
 The result is not too bad compared with the previous 20 years. However, performance in the 1950s and 1960s was better and countries in the Far East have annual rates of growth of between 5 per cent and 10 per cent.
@@ -1205,32 +1205,32 @@ The result is not too bad compared with the previous 20 years. However, performa
 Rearranging the standard equation so that we can find  $n$  (the number of years of the investment), we create the following equation:
 
 $$
-F = P (1 + i) ^ {n}
+F = P (1 + i)^{n}
 $$
 
 $$
-F / P = (1 + i) ^ {n}
+F / P = (1 + i)^{n}
 $$
 
 $$
 \log (F / P) = \log (1 + i) n
 $$
 
-$$ n = \frac {\log (F / P)}{\log (1 + i)}
+$$ n = \frac{\log (F / P)}{\log (1 + i)}
 $$
 
 # Example 5
 
 How many years does it take for £10 to grow to £17.62 when the interest rate is 12 per cent?
 
-$$ n = \frac {\log (1 7 . 6 2 / 1 0)}{\log (1 + 0 . 1 2)} \text {T h e r e f o r e} n = 5 \text {y e a r s}
+$$ n = \frac{\log (1 7 . 6 2 / 1 0)}{\log (1 + 0 . 1 2)} \text{Th er ef or e} n = 5 \text{ye ar s}
 $$
 
 An application outside finance: how many years will it take for China to double its real national income if growth rates continue at 10 per cent per annum?
 
 Answer:
 
-$$ n = \frac {\log (2 / 1)}{\log (1 + 0 . 1)} = 7. 3 \text {y e a r s (q u a d r u p l i n g i n l e s s t h a n 1 5 y e a r s . A t} \text {t h i s r a t e i t w o n ＂ t h e l o n g b e f o r e}
+$$ n = \frac{\log (2 / 1)}{\log (1 + 0 . 1)} = 7. 3 \text{ye ar s (qu ad ru pl in gi nl es st ha n1 5y ea rs .A t} \text{th is ra te it wo n ＂t he lo ng be fo re}
 $$
 
 # Annuities
@@ -1250,13 +1250,13 @@ For a regular payment of £10 per year for five years, when the interest rate is
 # Method 1
 
 $$
-P _ {a n} = \frac {A}{(1 + i)} + \frac {A}{(1 + i) ^ {2}} + \frac {A}{(1 + i) ^ {3}} + \frac {A}{(1 + i) ^ {4}} + \frac {A}{(1 + i) ^ {5}}
+P_{a n} = \frac{A}{(1 + i)} + \frac{A}{(1 + i)^{2}} + \frac{A}{(1 + i)^{3}} + \frac{A}{(1 + i)^{4}} + \frac{A}{(1 + i)^{5}}
 $$ where  $A =$  the periodic receipt.
 
 
 $$
 
-P _ {1 0. 5} = \frac {1 0}{(1 . 1 2)} + \frac {1 0}{(1 . 1 2) ^ {2}} + \frac {1 0}{(1 . 1 2) ^ {3}} + \frac {1 0}{(1 . 1 2) ^ {4}} + \frac {1 0}{(1 . 1 2) ^ {5}} = £ 3 6. 0 5
+P_{1 0. 5} = \frac{1 0}{(1 . 1 2)} + \frac{1 0}{(1 . 1 2)^{2}} + \frac{1 0}{(1 . 1 2)^{3}} + \frac{1 0}{(1 . 1 2)^{4}} + \frac{1 0}{(1 . 1 2)^{5}} = £ 3 6. 0 5
 
 $$
 
@@ -1266,13 +1266,13 @@ Using the derived formula:
 
 $$
 
-P _ {a n} = \frac {1 - 1 / (1 + i) ^ {n}}{i} \times A
+P_{a n} = \frac{1 - 1 / (1 + i)^{n}}{i} \times A
 
 $$
 
 $$
 
-P _ {1 0. 5} = \frac {1 - 1 / (1 + 0 . 1 2) ^ {5}}{0 . 1 2} \times 1 0 = £ 3 6. 0 5
+P_{1 0. 5} = \frac{1 - 1 / (1 + 0 . 1 2)^{5}}{0 . 1 2} \times 1 0 = £ 3 6. 0 5
 
 $$
 
@@ -1298,7 +1298,7 @@ Some contracts run indefinitely and there is no end to a series of identical pay
 
 $$
 
-P = \frac {A}{i}
+P = \frac{A}{i}
 
 $$
 
@@ -1306,7 +1306,7 @@ If £10 is to be received as an indefinite annual payment then the present value
 
 $$
 
-P = \frac {1 0}{0 . 1 2} = £ 8 3. 3 3
+P = \frac{1 0}{0 . 1 2} = £ 8 3. 3 3
 
 $$
 
@@ -1332,7 +1332,7 @@ If the interest is compounded semi-annually (at a nominal annual rate of 12 per 
 
 $$
 
-1 0 (1 + [ 0. 1 2 / 2 ]) (1 + [ 0. 1 2 / 2 ]) = 1 0 (1 + [ 0. 1 2 / 2 ]) ^ {2} = £ 1 1. 2 3 6
+1 0 (1 + [ 0. 1 2 / 2 ]) (1 + [ 0. 1 2 / 2 ]) = 1 0 (1 + [ 0. 1 2 / 2 ])^{2} = £ 1 1. 2 3 6
 
 $$
 
@@ -1342,7 +1342,7 @@ If the interest is compounded quarterly:
 
 $$
 
-1 0 (1 + [ 0. 1 2 / 4 ]) ^ {4} = £ 1 1. 2 5 5
+1 0 (1 + [ 0. 1 2 / 4 ])^{4} = £ 1 1. 2 5 5
 
 $$
 
@@ -1350,7 +1350,7 @@ Daily compounding:
 
 $$
 
-1 0 (1 + [ 0. 1 2 / 3 6 5 ]) ^ {3 6 5} = £ 1 1. 2 7 4 7
+1 0 (1 + [ 0. 1 2 / 3 6 5 ])^{3 6 5} = £ 1 1. 2 7 4 7
 
 $$
 
@@ -1360,7 +1360,7 @@ If £10 is deposited in a bank account that compounds interest quarterly and the
 
 $$
 
-1 0 (1 + [ 0. 1 2 / 4 ]) ^ {4 \times 8} = £ 2 5. 7 5
+1 0 (1 + [ 0. 1 2 / 4 ])^{4 \times 8} = £ 2 5. 7 5
 
 $$
 
@@ -1372,7 +1372,7 @@ So, the future value of £10 deposited in a bank paying 12 per cent nominal comp
 
 $$
 
-1 0 \times 2. 7 1 8 2 8 ^ {0. 1 2 \times 8} = £ 2 6. 1 2
+1 0 \times 2. 7 1 8 2 8^{0. 1 2 \times 8} = £ 2 6. 1 2
 
 $$
 
@@ -1384,28 +1384,28 @@ If  $m$  is the monthly interest or discount rate, then over 12 months:
 
 $$
 
-(1 + m) ^ {1 2} = 1 + i
+(1 + m)^{1 2} = 1 + i
 
 $$ where  $i$  is the annual compound rate.
 
-$$ i = (1 + m) ^ {1 2} - 1
+$$ i = (1 + m)^{1 2} - 1
 $$
 
 Thus, if a credit card company charges 1.5 per cent per month, the APR is:
 
-$$ i = (1 + 0.015) ^ {12} - 1 = 19.56 \%
+$$ i = (1 + 0.015)^{12} - 1 = 19.56 \%
 $$
 
 If you want to find the monthly rate when you are given the APR:
 
 $$
-\begin{array}{l} m = (1 + i) ^ {1 / 1 2} - 1 \text {o r} m = \sqrt [ 1 2 ]{(1 + i)} - 1 \\ m = (1 + 0.1956) ^ {1 / 12} - 1 \times 100 \text {or} m = \sqrt [ 1 2 ]{(1 + 0 . 1 9 5 6)} - 1 = 1.5 \% \\ \end{array}
+\begin{array}{l} m = (1 + i)^{1 / 1 2} - 1 \text{or} m = \sqrt [ 1 2 ]{(1 + i)} - 1 \\ m = (1 + 0.1956)^{1 / 12} - 1 \times 100 \text{or} m = \sqrt [ 1 2 ]{(1 + 0 . 1 9 5 6)} - 1 = 1.5 \% \\ \end{array}
 $$
 
 Daily rate:
 
 $$
-(1 + d) ^ {3 6 5} = 1 + i
+(1 + d)^{3 6 5} = 1 + i
 $$ where  $d$  is the daily discount rate.
 
 

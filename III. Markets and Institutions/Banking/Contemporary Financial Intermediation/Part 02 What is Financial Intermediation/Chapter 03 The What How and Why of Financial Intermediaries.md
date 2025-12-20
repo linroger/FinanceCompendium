@@ -262,7 +262,7 @@ s - \hat {\phi} > (1 - p) s
 $$
 
 $$
-\mathrm {o r} \hat {\phi} <   p s
+\mathrm{or} \hat {\phi} <   p s
 $$
 
 $$
@@ -333,13 +333,13 @@ Thus, as long as the bank lends to exactly as many borrowers as stipulated in Eq
 Note now that the bank makes an aggregate net profit of  $mMr$  on its lending activities. This is because it is being compensated exactly for its monitoring cost by borrowers, and its safeguarding cost by deposit interest rate, although higher than  $-\phi / s$  (as in the previous case when all deposits were idle), is still negative. This positive profit will attract entry by competing banks, and the resulting competition for depositors' funds will drive up the deposit interest rate. In a competitive equilibrium, each bank will earn zero profit. This will happen when the bank's profit of  $mMr$  is divided equally among the  $n$  depositors, so that each depositor gets
 
 $$
-\frac {n s - [ (n s - m M) \phi / s ] + m M r}{n s}
+\frac{n s - [ (n s - m M) \phi / s ] + m M r}{n s}
 $$
 
 per dollar of deposits. Thus, the deposit interest rate is now
 
 $$
-\begin{array}{l} \frac {n s - \left[ (n s - m M) \phi / s \right] + m M r}{n s} - 1 (3.8) \\ = \frac {m M r - [ (n s - m M) \phi / s ]}{n s} (3.8) \\ \end{array}
+\begin{array}{l} \frac{n s - \left[ (n s - m M) \phi / s \right] + m M r}{n s} - 1 (3.8) \\ = \frac{m M r - [ (n s - m M) \phi / s ]}{n s} (3.8) \\ \end{array}
 $$
 
 If we assume that  $r$  is high enough to ensure that the numerator in Equation (3.8) is positive, then the depositors get a positive rate of interest on their deposits.
@@ -349,7 +349,7 @@ We have taken you through a sequence of steps to show how a bank, like the golds
 Do We Need to Regulate This Bank?: So far, however, there has been no need for a regulator. But that is simply because we have made numerous strong assumptions. One of them is that it is possible to monitor merchants so efficiently that they will always repay their debts fully if they are monitored. Thus, we know that a bank can repay its depositors. If it were to choose not to do so, we know for sure that the bank is at fault. A court of law with sufficiently stiff penalties on a banker who does not repay would then be sufficient to remedy this. In reality, merchants may sometimes have poor cash flows even if they do their best. That is, suppose that, viewed at  $t = 0$ , their cash flow  $K$  is a random variable that is 0 with probability  $u$  and  $K^*$  with probability  $1 - u$ . We will assume that setting up a shop is a positive net present value (NPV) exercise for the merchant, so that
 
 $$
-(1 - u) K ^ {*} > M (1 + r). \tag {3.9}
+(1 - u) K^{*} > M (1 + r). \tag {3.9}
 $$
 
 Suppose that this in itself does not affect the behavior of depositors in terms of their withdrawal policies. But at  $t = 1$ , depositors may learn something more about the likelihood that merchants may fail. For simplicity, assume for now that merchants have
@@ -387,13 +387,13 @@ $$
 Moreover,
 
 $$
-R = r D, \text {w i t h} 0 <   r \leq 1. \tag {3.11}
+R = r D, \text{wi th} 0 <   r \leq 1. \tag {3.11}
 $$
 
 Equation (3.11) represents the fact that banks hold cash or liquid asset reserves proportional to deposits in order to insure against deposit withdrawals and/or to satisfy legal reserve requirements. The fixed coefficient,  $r$ , can be interpreted either as a legal reserve requirement or a voluntary behavioral parameter (i.e., reserves that the bank chooses to voluntarily hold). Actually, it should be interpreted as the greater of the two. In any case, the parameter relates to liquidity or withdrawal risk. That is, it is the bank's safeguard against a fraction ( $a$  in the context of the model in the previous section) of deposits being unexpectedly withdrawn. Next, we have
 
 $$
-E = e L, \text {w i t h} 0 <   e \leq 1. \tag {3.12}
+E = e L, \text{wi th} 0 <   e \leq 1. \tag {3.12}
 $$
 
 Equation (3.12) represents the fact that banks hold capital reserves in some fixed proportion,  $e$ , to loans in order to protect against insolvency or default risk. The parameter  $e$  can be interpreted as a regulatory capital requirement and/or a voluntary behavioral parameter, or, more accurately, the greater of the two.
@@ -528,7 +528,7 @@ Let us now see how the stock prices of borrowing firms react to the announcement
 The abnormal stock return here is defined in the usual fashion as the deviation of the realized rate of return from the expected rate of return given by the market model. That is, the abnormal stock return for firm  $j$  over day  $t$  is defined as
 
 $$
-R _ {j t} - \left(\hat {\alpha} _ {j} + \hat {\beta} _ {j} R _ {m t}\right)
+R_{j t} - \left(\hat {\alpha}_{j} + \hat {\beta}_{j} R_{m t}\right)
 $$
 
 where  $R_{jt}$  is the rate of return of security  $j$  over day  $t$ ,  $R_{mt}$  is the rate of return on the market portfolio over the same period, and  $\hat{\alpha}_{\mathrm{j}}$  and  $\hat{\beta}_{\mathrm{j}}$  are the ordinary least squares estimates of the market model parameters for firm  $j$ .
@@ -669,13 +669,13 @@ Compensation Contracts of Individual Information Producers: But suppose the firm
 produce information, then the signal says that he did with probability  $q$  and that he did not with probability  $1 - q$ . We assume that  $p > q$ , so that the signal is informative. Now let the i.p.'s compensation be as follows: pay him  $\\(H$  if the signal says he produced information and  $\$ L \) if it says he did not, with  $H > L$ .<sup>44</sup> If the i.p. does produce information, he gets an expected utility of
 
 $$
-E U (\text {p r o d u c e i n f o r m a t i o n}) = p U (H) + (1 - p) U (L) - c. \tag {3.13}
+E U (\text{pr od uc ei nf or ma ti on}) = p U (H) + (1 - p) U (L) - c. \tag {3.13}
 $$
 
 If he does not produce information, he gets an expected utility of
 
 $$
-E U (\text {d o e s n o t p r o d u c e i n f o r m a t i o n}) = q U (H) + (1 - q) U (L). \tag {3.14}
+E U (\text{do es no tp ro du ce in fo rm at io n}) = q U (H) + (1 - q) U (L). \tag {3.14}
 $$
 
 If investors are to believe that the i.p. is credible, his compensation schedule should be incentive compatible (should induce the i.p. to invest  $c$ ). That is,
@@ -705,7 +705,7 @@ Assuming that signals across firms are uncorrelated, the probabilities of differ
 Note that both i.p.s will act in concert. The firms that give them compensation contracts realize that the rules of the game have changed. They must now solve the following pair of simultaneous equations.
 
 $$
-\begin{array}{l} p ^ {2} U (H) + 2 p (1 - p) U \left(\frac {H + L}{2}\right) + (1 - p) ^ {2} U (L) - c \tag {3.17} \\ = q ^ {2} U (H) + 2 q (1 - q) U \left(\frac {H + L}{2}\right) + (1 - q) ^ {2} U (L) \\ \end{array}
+\begin{array}{l} p^{2} U (H) + 2 p (1 - p) U \left(\frac{H + L}{2}\right) + (1 - p)^{2} U (L) - c \tag {3.17} \\ = q^{2} U (H) + 2 q (1 - q) U \left(\frac{H + L}{2}\right) + (1 - q)^{2} U (L) \\ \end{array}
 $$
 
 TABLE 3.6 Probabilities of compensations  
@@ -715,7 +715,7 @@ TABLE 3.6 Probabilities of compensations
 and
 
 $$
-p ^ {2} U (H) + 2 p (1 - p) U \left(\frac {H + L}{2}\right) + (1 - p) ^ {2} U (L) - c = \bar {U} \tag {3.18}
+p^{2} U (H) + 2 p (1 - p) U \left(\frac{H + L}{2}\right) + (1 - p)^{2} U (L) - c = \bar {U} \tag {3.18}
 $$
 
 Generally, the solution to this will be different from the previous solution. Suppose, however, that firms continue to use the old contracts where  $H = 10.000 / 9$  and  $L = 10.000 / 36$ . It can be checked in this case that Equation (3.17) is satisfied exactly and that the left-hand side of Equation (3.18) is about 20.43. That is, each i.p. in the financial intermediary enjoys a higher expected utility than he did before. Note that the expected cost of having information produced for each firm will be exactly the same as before. Thus, the formation of a financial intermediary makes i.p.s better off if firms do not alter their contracts. Of course, firms may wish to write different contracts to remove the excess utility enjoyed by the i.p.s. In this case, expected information production costs of firms are lowered.
@@ -725,7 +725,7 @@ The reason why the formation of an intermediary helps is diversification. By poo
 The Desirability of a Very Large Intermediary: This argument can be taken to the limit. Suppose the financial intermediary becomes infinitely large. Then, by the law of large numbers (roughly speaking) the probabilities become actual fractions. That is, if all i.p.s produce information, the intermediary knows that exactly  $80\%$  of them will get  $H$  each and  $20\%$  will get Leach. Thus, the intermediary knows that its payoff will be
 
 $$
-\begin{array}{l} 0. 8 H + 0. 2 L \\ = 0. 8 \left(\frac {4 0 0 0 0}{3 6}\right) + 0. 2 \left(\frac {1 0 0 0 0}{3 6}\right) = 9 4 4. 4 4 \\ \end{array}
+\begin{array}{l} 0. 8 H + 0. 2 L \\ = 0. 8 \left(\frac{4 0 0 0 0}{3 6}\right) + 0. 2 \left(\frac{1 0 0 0 0}{3 6}\right) = 9 4 4. 4 4 \\ \end{array}
 $$
 
 per i.p. with probability one. Since the financial intermediary itself can monitor its own members, it does not have to worry about moral hazard. Thus, it can promise each of its member i.p.s a fixed payment of 944.44, knowing that even though on any given i.p., it could receive either more or less than this amount, the random fluctuations around 944.44 will cancel out for the intermediary as a whole. Thus, each individual i.p.'s expected utility in this intermediary is  $U(944.44) - 10 = 20.73$ , which is higher than with the two-i.p. intermediary passes along this gain to the firms it screens, then information production costs are lowest with a very large intermediary.

@@ -98,7 +98,7 @@ At the end of 1992, state-specific tax-exempt MMFs held about one-third of total
 Because tax-exempt money market funds invest in tax-exempt securities, they appeal to investors in the highest federal income tax brackets. To consider the decision faced by such investors, suppose the yield earned by taxable MMFs is  $YT$  and the yield earned by tax-exempt MMFs is  $YTE$ . Then an investor with a marginal income tax rate of  $t$  will earn an after-tax yield of  $YT(1 - t)$  by investing in the taxable MMF and  $YTE$  by investing in the tax-exempt MMF. The break-even tax rate,  $t^*$ , at which an investor would earn the same after-tax rate in a taxable and tax-exempt MMF is:
 
 $$
-t ^ {*} = 1 - (Y T E / Y T).
+t^{*} = 1 - (Y T E / Y T).
 $$
 
 An investor with a marginal tax rate greater than the break-even rate would earn a higher after-tax yield in a tax-exempt money fund than in a taxable money fund.<sup>3</sup>

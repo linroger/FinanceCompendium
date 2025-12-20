@@ -932,55 +932,55 @@ Bond 2: €101.8182
 (b) Two-year bond
 
 $$
-\frac {6}{1 . 0 6 5} + \frac {1 0 6}{(1 . 0 6 5) ^ {2}} = £ 9 9. 0 8 9 7
+\frac{6}{1 . 0 6 5} + \frac{1 0 6}{(1 . 0 6 5)^{2}} = £ 9 9. 0 8 9 7
 $$
 
 10-year bond
 
 $$
-6 \times 6. 9 5 9 1 + 1 0 0 / (1. 0 7 2) ^ {1 0} = £ 9 1. 6 4 9 1
+6 \times 6. 9 5 9 1 + 1 0 0 / (1. 0 7 2)^{1 0} = £ 9 1. 6 4 9 1
 $$
 
 20-year bond
 
 $$
-6 \times 1 0. 0 4 1 3 + 1 0 0 / (1. 0 7 7) ^ {2 0} = £ 8 2. 9 2 9 8
+6 \times 1 0. 0 4 1 3 + 1 0 0 / (1. 0 7 7)^{2 0} = £ 8 2. 9 2 9 8
 $$
 
 (c) Two-year bond
 
 $$
-\frac {6}{1 . 0 8 5} + \frac {1 0 6}{(1 . 0 8 5) ^ {2}} = £ 9 5. 5 7 2 2
+\frac{6}{1 . 0 8 5} + \frac{1 0 6}{(1 . 0 8 5)^{2}} = £ 9 5. 5 7 2 2
 $$
 
 10-year bond
 
 $$
-6 \times 6. 3 6 1 5 + 1 0 0 / (1. 0 9 2) ^ {1 0} = £ 7 9. 6 4 3 1
+6 \times 6. 3 6 1 5 + 1 0 0 / (1. 0 9 2)^{1 0} = £ 7 9. 6 4 3 1
 $$
 
 20-year bond
 
 $$
-6 \times 8. 6 9 0 8 + 1 0 0 / (1. 0 9 7) ^ {2 0} = £ 6 7. 8 4 3 9
+6 \times 8. 6 9 0 8 + 1 0 0 / (1. 0 9 7)^{2 0} = £ 6 7. 8 4 3 9
 $$
 
 (d) Two-year bond
 
 $$
-\frac {6}{1 . 0 4 5} + \frac {1 0 6}{(1 . 0 4 5) ^ {2}} = £ 1 0 2. 8 0 9
+\frac{6}{1 . 0 4 5} + \frac{1 0 6}{(1 . 0 4 5)^{2}} = £ 1 0 2. 8 0 9
 $$
 
 Ten-year bond
 
 $$
-6 \times 7. 6 4 7 3 + 1 0 0 / (1. 0 5 2) ^ {1 0} = £ 1 0 6. 1 1 7 8
+6 \times 7. 6 4 7 3 + 1 0 0 / (1. 0 5 2)^{1 0} = £ 1 0 6. 1 1 7 8
 $$
 
 20-year bond
 
 $$
-6 \times 1 1. 7 5 4 6 + 1 0 0 / (1. 0 5 7) ^ {2 0} = £ 1 0 3. 5 2 6 4
+6 \times 1 1. 7 5 4 6 + 1 0 0 / (1. 0 5 7)^{2 0} = £ 1 0 3. 5 2 6 4
 $$
 
 (e) The longest dated bond is the most volatile.
@@ -1004,7 +1004,7 @@ $$
 $$
 
 $$
-\frac {1 1}{4} = £ 2. 7 5
+\frac{1 1}{4} = £ 2. 7 5
 $$
 
 (a) Three old shares @ £3 9
@@ -1098,7 +1098,7 @@ Interest rates at  $9\%$
 Gain on the underlying:
 
 $$
-2 0, 0 0 0, 0 0 0 \times 0. 0 1 \times^ {3} / _ {1 2} = £ 5 0, 0 0 0
+2 0, 0 0 0, 0 0 0 \times 0. 0 1 \times^{3} /_{1 2} = £ 5 0, 0 0 0
 $$
 
 The counterparty receives compensation to equal this gain  $= -£50,000$
@@ -1110,13 +1110,13 @@ Interest rate future
 Interest rates at  $7\%$
 
 $$
-\text {L o s s} = - £ 5 0, 0 0 0
+\text{Lo ss} = - £ 5 0, 0 0 0
 $$
 
 Futures sold at 93.00 in September
 
 $$
-1 0 0 \text {t i c k s} \times £ 1 2. 5 0 \times 4 0 = £ 5 0, 0 0 0
+1 0 0 \text{ti ck s} \times £ 1 2. 5 0 \times 4 0 = £ 5 0, 0 0 0
 $$
 
 Overall loss due to interest rate changes 0
@@ -1124,13 +1124,13 @@ Overall loss due to interest rate changes 0
 Interest rates at  $9\%$
 
 $$
-\text {G a i n o n t h e u b d l y i n g} = £ 5 0, 0 0 0
+\text{Ga in on th eu bd ly in g} = £ 5 0, 0 0 0
 $$
 
 Futures position is closed by selling at 91.00 in September
 
 $$
-\text {L o s s :} 1 0 0 \text {t i c k s} \times £ 1 2. 5 \times 4 0 = - £ 5 0, 0 0 0
+\text{Lo ss :} 1 0 0 \text{ti ck s} \times £ 1 2. 5 \times 4 0 = - £ 5 0, 0 0 0
 $$
 
 Overall loss due to interest rate changes 0
@@ -1148,7 +1148,7 @@ Gain on derivative:  $170 \times 12.50 \times 30 = £63,750$ .
 Loan interest above  $8.3\%$
 
 $$
-£ 1 5 \text {m i l l i o n} \times 0. 0 1 7 \times {} ^ {3} / _ {1 2} = £ 6 3, 7 5 0.
+£ 1 5 \text{mi ll io n} \times 0. 0 1 7 \times {}^{3} /_{1 2} = £ 6 3, 7 5 0.
 $$
 
 (c) Rate of interest  $= 8.30\%$
@@ -1162,7 +1162,7 @@ $$
 Gain from interest rate being lower than  $8.3\%$
 
 $$
-£ 1 5 \text {m i l l i o n} \times 0. 0 1 3 \times {} ^ {3} / _ {1 2} = £ 4 8, 7 5 0
+£ 1 5 \text{mi ll io n} \times 0. 0 1 3 \times {}^{3} /_{1 2} = £ 4 8, 7 5 0
 $$
 
 7 (a) Sell 500 March futures in Akzo Nobel on 7th January @ €45.96
@@ -1172,7 +1172,7 @@ $$
 Loss on futures:
 
 $$
-\begin{array}{l} \text {S o l d} @ \in 4 5. 9 6 \quad 4 5. 9 6 \times 5 0 0 \times 1 0 0 = \in 2, 2 9 8, 0 0 0 \\ \text {B o u g h t} @ \in 5 0 \quad 5 0 \times 5 0 0 \times 1 0 0 = \in 2, 5 0 0, 0 0 0 \\ \begin{array}{c} \text {€ 2 0 2 , 0 0 0} \\ \hline \end{array} \\ \end{array}
+\begin{array}{l} \text{So ld} @ \in 4 5. 9 6 \quad 4 5. 9 6 \times 5 0 0 \times 1 0 0 = \in 2, 2 9 8, 0 0 0 \\ \text{Bo ug ht} @ \in 5 0 \quad 5 0 \times 5 0 0 \times 1 0 0 = \in 2, 5 0 0, 0 0 0 \\ \begin{array}{c} \text{€2 02 ,0 00} \\ \hline \end{array} \\ \end{array}
 $$
 
 Overall gain = €217,500 - €202,000 = €15,500 c Loss on underlying  $(\epsilon 40 - \epsilon 45.65)\times 50,000 = \epsilon 282,500$
@@ -1180,11 +1180,11 @@ Overall gain = €217,500 - €202,000 = €15,500 c Loss on underlying  $(\epsi
 Gain on futures:
 
 $$
-\text {S o l d} @ \in 4 5. 9 6 \quad 4 5. 9 6 \times 5 0 0 \times 1 0 0 = \in 2, 2 9 8, 0 0 0
+\text{So ld} @ \in 4 5. 9 6 \quad 4 5. 9 6 \times 5 0 0 \times 1 0 0 = \in 2, 2 9 8, 0 0 0
 $$
 
 $$
-\text {B o u g h t} @ \in 4 0 \quad 4 0 \times 5 0 0 \times 1 0 0 = \in 2, 0 0 0, 0 0 0
+\text{Bo ug ht} @ \in 4 0 \quad 4 0 \times 5 0 0 \times 1 0 0 = \in 2, 0 0 0, 0 0 0
 $$
 
 $$
@@ -1202,11 +1202,11 @@ Purchase 20 June 450 put options and hold to expiry.
 If share price falls to  $400\mathrm{p}$
 
 $$
-\text {L o s s} \quad £ 1 \times 2 0, 0 0 0 \quad 2 0, 0 0 0
+\text{Lo ss} \quad £ 1 \times 2 0, 0 0 0 \quad 2 0, 0 0 0
 $$
 
 $$
-\text {G a i n o n} 5 0 p \times 2 0, 0 0 0 \quad 1 0, 0 0 0
+\text{Ga in on} 5 0 p \times 2 0, 0 0 0 \quad 1 0, 0 0 0
 $$
 
 Less Option premium
@@ -1228,15 +1228,15 @@ Overall loss £13,800
 If share price rises to 600p:
 
 $$
-\text {G a i n} \quad £ 1 \times 2 0, 0 0 0 \quad 2 0, 0 0 0
+\text{Ga in} \quad £ 1 \times 2 0, 0 0 0 \quad 2 0, 0 0 0
 $$
 
 $$
-\text {L e s s O p t i o n p r e m i u m} \quad 3, 8 0 0
+\text{Le ss Op ti on pr em iu m} \quad 3, 8 0 0
 $$
 
 $$
-\text {O v e r a l l g a i n} \quad £ 1 6, 2 0 0
+\text{Ov er al lg ai n} \quad £ 1 6, 2 0 0
 $$
 
 2 (a) £520 loss
@@ -1298,7 +1298,7 @@ CFD: Sell 21,582 shares at a price of 556p (£120,000/£5.56 = 21,582 shares)
 (b) At  $640\mathrm{p} - 650\mathrm{p}$ : Close position at  $650\mathrm{p}$ .
 
 $$
-\text {L o s s} 6 5 0 - 5 5 5 = 9 5 \quad \text {L o s s} = 9 5 \times £ 2 1 6 = £ 2 0, 5 2 0
+\text{Lo ss} 6 5 0 - 5 5 5 = 9 5 \quad \text{Lo ss} = 9 5 \times £ 2 1 6 = £ 2 0, 5 2 0
 $$
 
 As a percentage of initial notional trading margin: £20,520/£12,000 = 171\%
@@ -1306,7 +1306,7 @@ As a percentage of initial notional trading margin: £20,520/£12,000 = 171\%
 (c) Close position at  $490\mathrm{p}$
 
 $$
-5 5 5 - 4 9 0 = 6 5 \quad \text {G a i n} = \quad 6 5 \times £ 2 1 6 = £ 1 4, 0 4 0
+5 5 5 - 4 9 0 = 6 5 \quad \text{Ga in} = \quad 6 5 \times £ 2 1 6 = £ 1 4, 0 4 0
 $$
 
 As a percentage of initial notional trading margin: £14,040/£12,000 = 117\%
@@ -1314,7 +1314,7 @@ As a percentage of initial notional trading margin: £14,040/£12,000 = 117\%
 (d) Close position at  $630\mathrm{p}$
 
 $$
-5 5 6 - 6 3 0 = - 7 4 \quad \text {L o s s} = 7 4 p \times 2 1, 5 8 2 = £ 1 5, 9 7 1
+5 5 6 - 6 3 0 = - 7 4 \quad \text{Lo ss} = 7 4 p \times 2 1, 5 8 2 = £ 1 5, 9 7 1
 $$
 
 As a percentage of initial margin:  $£15,971 / £12,000 = 133\%$
@@ -1322,7 +1322,7 @@ As a percentage of initial margin:  $£15,971 / £12,000 = 133\%$
 (e) Close position at  $485\mathrm{p}$
 
 $$
-5 5 6 - 4 8 5 = 7 1 \quad \text {L o s s} = 7 1 p \times 2 1, 5 8 2 = £ 1 5, 3 2 3
+5 5 6 - 4 8 5 = 7 1 \quad \text{Lo ss} = 7 1 p \times 2 1, 5 8 2 = £ 1 5, 3 2 3
 $$
 
 As a percentage of initial margin: £15,323/£12,000 = 128\%
@@ -1382,7 +1382,7 @@ Exchange rate gain A0.4762m
 Agree to buy R150 million of sterling three months forward
 
 $$
-\frac {1 5 0}{7 . 5} = £ 2 0 \text {m i l l i o n}
+\frac{1 5 0}{7 . 5} = £ 2 0 \text{mi ll io n}
 $$
 
 If spot rate in three months is  $\mathrm{R7.00 / £}$  and the exchange was made at spot rate, then:
@@ -1406,11 +1406,11 @@ Income due to forward commitment = £20.00m
 Borrow in rand now an amount which, with accumulated interest, will become R150 million in three months. Exchange this sum at the current spot rate for sterling. In three months pay lender with sum received from customer.
 
 $$
-\text {A m o u n t b o r r o w e d} \quad \frac {1 5 0 \mathrm {m}}{1 + 0 . 0 2 5} = \mathrm {R} 1 4 6. 3 4 1 5 \text {m i l l i o n}
+\text{Am ou nt bo rr ow ed} \quad \frac{1 5 0 \mathrm{m}}{1 + 0 . 0 2 5} = \mathrm{R} 1 4 6. 3 4 1 5 \text{mi ll io n}
 $$
 
 $$
-\text {E x c h a n g e d} \quad 1 4 6. 3 4 1 5 \quad = \quad £ 1 9. 6 1 6 8 \text {m i l l i o n}
+\text{Ex ch an ge d} \quad 1 4 6. 3 4 1 5 \quad = \quad £ 1 9. 6 1 6 8 \text{mi ll io n}
 $$
 
 (Note: Certainty about income from the export deal because sterling is received now.)
@@ -1418,19 +1418,19 @@ $$
 In three months:
 
 $$
-\begin{array}{l l l} \text {A m o u n t o w e d t o l e n d e r 1 4 6 . 3 4 1 5 m i l l i o n \times 1 . 0 2 5} & = & \mathrm {R} 1 5 0 \mathrm {m} \\ \text {R e p a y l e n d e r w i t h a m o u n t r e c e i v e d f r o m c u s t o m e r} & = & \mathrm {R} 1 5 0 \mathrm {m} \end{array}
+\begin{array}{l l l} \text{Am ou nt ow ed to le nd er 14 6 .3 41 5m il li on \times1 .0 25} & = & \mathrm{R} 1 5 0 \mathrm{m} \\ \text{Re pa yl en de rw it ha mo un tr ec ei ve df ro mc us to me r} & = & \mathrm{R} 1 5 0 \mathrm{m} \end{array}
 $$
 
 If exchange rates move to R7.00/£:
 
 $$
-\begin{array}{l} \text {L o s s ’ d u e t o l o s t o p o r t u n i t y t o e x c h a n g e a t s p o t} \\ £ 2 1. 4 2 9 \text {m i l l i o n - £ 1 9 . 6 1 6 8 m i l l o n} \\ (\text {l e s s i n t e r e s t o n s t e r l i n g f o r t h r e e m o n t h s}) \end{array} = £ 1. 8 1 2 2 \mathrm {m}
+\begin{array}{l} \text{Lo ss ’d ue to lo st op or tu ni ty to ex ch an ge at sp ot} \\ £ 2 1. 4 2 9 \text{mi ll io n - £1 9 .6 16 8m il lo n} \\ (\text{le ss in te re st on st er li ng fo rt hr ee mo nt hs}) \end{array} = £ 1. 8 1 2 2 \mathrm{m}
 $$
 
 If exchange rates move to R8.00/£:
 
 $$
-\begin{array}{l} \text {‘ G a i n ’ d u e t o m o n e y m a r k e t h e g h e d e} \\ \text {£ 1 9 . 6 1 6 8 m i l l i o n - £ 1 8 . 7 5 m i l l o n} \\ \text {(p l u s i n t e r e s t o n s t e r l i n g f o r t h r e e m o n t h s)} \end{array} = \quad £ 0. 8 6 6 8 m
+\begin{array}{l} \text{‘G ai n ’d ue to mo ne ym ar ke th eg he de} \\ \text{£1 9 .6 16 8m il li on - £1 8 .7 5m il lo n} \\ \text{(pl us in te re st on st er li ng fo rt hr ee mo nt hs)} \end{array} = \quad £ 0. 8 6 6 8 m
 $$
 
 # Options
@@ -1442,13 +1442,13 @@ In three months consider whether to exercise this in the light of knowledge of s
 If spot rate R7.00/£:
 
 $$
-\begin{array}{l l} \text {E x i s t a n c e R 1 5 0 m i l l o n} & = \quad £ 2 1. 4 2 9 \mathrm {m} \\ (\text {l e t t h e o p t i o n l a s p e}) & \\ \text {L e s s t h e c o s t o f o p t i o n (p r e m i u m)} & \underline {{£ 0 . 4 0 0 \mathrm {m}}} \\ & \underline {{£ 2 1 . 0 2 9 \mathrm {m}}} \end{array}
+\begin{array}{l l} \text{Ex is ta nc eR 15 0m il lo n} & = \quad £ 2 1. 4 2 9 \mathrm{m} \\ (\text{le tt he op ti on la sp e}) & \\ \text{Le ss th ec os to fo pt io n (pr em iu m)} & \underline {{£ 0 . 4 0 0 \mathrm{m}}} \\ & \underline {{£ 2 1 . 0 2 9 \mathrm{m}}} \end{array}
 $$
 
 If spot rate R8.00/£:
 
 $$
-\begin{array}{l l} \text {E x e r c i s e o p t i o n t o e x c h a n g e @ R 7 . 5 / £ (1 5 0 / 7 . 5)} & = \quad £ 2 0. 0 0 0 m \\ \text {l e s s c o s t o f o p t i o n (p r e m i u m)} & \quad £ 0. 4 0 0 m \\ & \quad £ 1 9. 6 0 0 m \end{array}
+\begin{array}{l l} \text{Ex er ci se op ti on to ex ch an ge @R 7 .5 / £ (15 0 /7 .5)} & = \quad £ 2 0. 0 0 0 m \\ \text{le ss co st of op ti on (pr em iu m)} & \quad £ 0. 4 0 0 m \\ & \quad £ 1 9. 6 0 0 m \end{array}
 $$
 
 This is better than having to exchange @ R8.00/£ which would have produced merely £18.75 million.
@@ -1488,7 +1488,7 @@ Money market hedge
 Exchange sterling now for Malaysian dollars, so that there will be M600,000 with accumulated interest in three months:
 
 $$
-\frac {6 0 0 , 0 0 0}{1 . 0 3} = \mathrm {M} \$ 5 8 2, 5 2 4
+\frac{6 0 0 , 0 0 0}{1 . 0 3} = \mathrm{M} \$ 5 8 2, 5 2 4
 $$
 
 Sterling required  $= \frac{582.524}{5.4165} = 107,546$
@@ -1510,7 +1510,7 @@ Pay supplier with Malaysian dollars already purchased (including accumulated int
 11 (a) Forward purchase of sterling
 
 $$
-\frac {\mathrm {W o n} 1 , 5 0 7 \mathrm {m}}{1 , 4 5 0} = £ 1. 0 3 9 3 1 \mathrm {m}
+\frac{\mathrm{Wo n} 1 , 5 0 7 \mathrm{m}}{1 , 4 5 0} = £ 1. 0 3 9 3 1 \mathrm{m}
 $$
 
 (b) Borrow in won and exchange for sterling immediately.

@@ -241,7 +241,7 @@ You plan to purchase a house for  \$150,000 using a 30-year mortgage obtained fr
 The monthly payments on this mortgage are calculated using the time value of money formulas presented in Chapter 2. Specifically, the amount borrowed through the mortgage represents a present value of the principal, and the monthly payments represent a monthly annuity payment. The equation used to calculate your fixed monthly mortgage payments to pay off the 120,000 mortgage at an 8 percent annual (8\% / 12 = 0.6667\%) monthly) interest rate over 30 years (or 30 \times 12 = 360 payments) is as follows:
 
 $$
-\begin{array}{l} P V = P M T \sum_ {j = 1} ^ {t} \left(\frac {1}{1 + r}\right) ^ {j} \\ = P M T \left[ \left(1 - \left[ 1 / (1 + r) ^ {t} \right]\right) / r \right] \\ \end{array}
+\begin{array}{l} P V = P M T \sum_{j = 1}^{t} \left(\frac{1}{1 + r}\right)^{j} \\ = P M T \left[ \left(1 - \left[ 1 / (1 + r)^{t} \right]\right) / r \right] \\ \end{array}
 $$ where
 
 
@@ -257,14 +257,14 @@ For the mortgage in this example:
 
 $$
 
-\$ 120,000 = P M T \left[ \left(1 - \left[ 1 / (1 + 0. 0 0 6 6 6 7) ^ {3 6 0} \right]\right) / 0. 0 0 6 6 6 7 \right]
+\$ 120,000 = P M T \left[ \left(1 - \left[ 1 / (1 + 0. 0 0 6 6 6 7)^{3 6 0} \right]\right) / 0. 0 0 6 6 6 7 \right]
 
 $$ or:
 
 
 $$
 
-P M T = \$ 120,000 / \left[ \left(1 - \left[ 1 / (1 + 0. 0 0 6 6 6 7) ^ {3 6 0} \right]\right) / 0. 0 0 6 6 6 7 \right]
+P M T = \$ 120,000 / \left[ \left(1 - \left[ 1 / (1 + 0. 0 0 6 6 6 7)^{3 6 0} \right]\right) / 0. 0 0 6 6 6 7 \right]
 
 $$
 
@@ -311,7 +311,7 @@ Figure 7-7 Amortization of a 30-Year Mortgage
 
 $$
 
-\left(\left\{1 - \left[ 1 / (1 + r) ^ {(3 0 (1 2) - x)} \right] \right\} / r\right) / \left(\left\{1 - \left[ (1 + r) ^ {3 0 (1 2)} \right] \right\} / r\right) \times \text {O r i g i n a l p r i n c i p a l}
+\left(\left\{1 - \left[ 1 / (1 + r)^{(3 0 (1 2) - x)} \right] \right\} / r\right) / \left(\left\{1 - \left[ (1 + r)^{3 0 (1 2)} \right] \right\} / r\right) \times \text{Or ig in al pr in ci pa l}
 
 $$
 
@@ -319,7 +319,7 @@ For example, with 120 payments remaining on the loan, the ending loan balance is
 
 $$
 
-\left(\left\{1 - \left[ 1 / (1 + 0. 0 0 6 6 6 7) ^ {3 0 (1 2) - 1 2 0} \right] \right\} / 0. 0 0 6 6 6 7\right) / \left\{\left. 1 - \left[ 1 / (1 + 0. 0 0 6 6 6 7) ^ {(3 0) 1 2} \right] \right\} / 0. 0 0 6 6 6 7\right) \times \\ \\ \$ 120,000 = \$ 105,269.64
+\left(\left\{1 - \left[ 1 / (1 + 0. 0 0 6 6 6 7)^{3 0 (1 2) - 1 2 0} \right] \right\} / 0. 0 0 6 6 6 7\right) / \left\{\left. 1 - \left[ 1 / (1 + 0. 0 0 6 6 6 7)^{(3 0) 1 2} \right] \right\} / 0. 0 0 6 6 6 7\right) \times \\ \\ \$ 120,000 = \$ 105,269.64
 
 $$
 
@@ -343,14 +343,14 @@ Using the information in Example 7-1 but changing the loan maturity to 15 years 
 
 $$
 
-\$ 120,000 = P M T [ (1 - [ 1 / (1 + 0. 0 0 6 0 4 1 6 7) ^ {1 8 0} ]) / 0. 0 0 6 0 4 1 6 7 ]
+\$ 120,000 = P M T [ (1 - [ 1 / (1 + 0. 0 0 6 0 4 1 6 7)^{1 8 0} ]) / 0. 0 0 6 0 4 1 6 7 ]
 
 $$ or:
 
 
 $$
 
-P M T = \$ 120,000 / [ (1 - 1 / (1 + 0. 0 0 6 0 4 1 6 7) ^ {1 8 0}) ] / 0. 0 0 6 0 4 1 6 7 ]
+P M T = \$ 120,000 / [ (1 - 1 / (1 + 0. 0 0 6 0 4 1 6 7)^{1 8 0}) ] / 0. 0 0 6 0 4 1 6 7 ]
 
 $$
 
@@ -390,7 +390,7 @@ In exchange for  \$2,400 up front, option 2 reduces your monthly mortgage paymen
 
 $$
 
-P V = \$ 20.83 [ (1 - [ 1 / (1 + 0. 0 0 6 4 5 8) ^ {3 6 0} ]) / 0. 0 0 6 4 5 8 ] = \$ 2, 9 0 6. 5 4
+P V = \$ 20.83 [ (1 - [ 1 / (1 + 0. 0 0 6 4 5 8)^{3 6 0} ]) / 0. 0 0 6 4 5 8 ] = \$ 2, 9 0 6. 5 4
 
 $$
 
@@ -400,7 +400,7 @@ Suppose, however, you plan on paying off the loan in 10 years (120 months) even 
 
 $$
 
-\begin{array}{l} P V = \$ 20.83 \left[ \left(1 - \left[ 1 / (1 + 0.006458) ^ {120} \right]\right) / 0.006458 \right] + \$ 548.74 / (1 + 0.006458) ^ {120} \\ = \$ 1,989.12 \\ \end{array}
+\begin{array}{l} P V = \$ 20.83 \left[ \left(1 - \left[ 1 / (1 + 0.006458)^{120} \right]\right) / 0.006458 \right] + \$ 548.74 / (1 + 0.006458)^{120} \\ = \$ 1,989.12 \\ \end{array}
 
 $$
 
@@ -410,7 +410,7 @@ The indifference point (the number of years) between the two options would be th
 
 $$
 
-\$ 2,400 = \$ 25 \left[ \left(1 - \left[ 1 / (1 + 0.006458) ^ {x} \right]\right) / 0.006458 \right]
+\$ 2,400 = \$ 25 \left[ \left(1 - \left[ 1 / (1 + 0.006458)^{x} \right]\right) / 0.006458 \right]
 
 $$
 

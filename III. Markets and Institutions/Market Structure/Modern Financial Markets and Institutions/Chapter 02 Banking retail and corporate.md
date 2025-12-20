@@ -579,7 +579,7 @@ BarcSan's opening balance sheet
 
 <table><tr><td>Assets</td><td></td><td>Liabilities</td><td></td></tr><tr><td>Required reserves</td><td>£800m</td><td>Deposits</td><td>£10,000m</td></tr><tr><td>Excess reserves</td><td>£1,300m</td><td>Bank capital</td><td>£900m</td></tr><tr><td>Loans</td><td>£5,700m</td><td></td><td></td></tr><tr><td>Securities</td><td>£3,100m</td><td></td><td></td></tr></table>
 
-BancSan's capital to assets ratio is  $\frac{\text{£900 million}}{\text{£10,900 million}} = 8.3$  per cent. Mercurial has exactly the same assets as BarcSan, but it has only  $\frac{\text{£400 million}}{\text{in capital}}$ . It has raised an extra  $\frac{\text{£500 million}}{\text{in capital}}$  from deposits. Its ratio of capital to assets is 3.7 per cent (  $\frac{\text{£400 million}}{\text{£10,900 million}}$ ).
+BancSan's capital to assets ratio is  $\frac{\text{£900million}}{\text{£10,900million}} = 8.3$  per cent. Mercurial has exactly the same assets as BarcSan, but it has only  $\frac{\text{£400million}}{\text{incapital}}$ . It has raised an extra  $\frac{\text{£500million}}{\text{incapital}}$  from deposits. Its ratio of capital to assets is 3.7 per cent (  $\frac{\text{£400million}}{\text{£10,900million}}$ ).
 
 Mercurial's balance sheet
 
@@ -628,7 +628,7 @@ Source: Financial Times, 3 September 2010. Reprinted with permission
 The motivation to lower the capital-to-assets ratio is to boost the returns to shareholders. To illustrate: imagine both banks make profits after deduction of tax of  $150$  million per year and we can ignore extraordinary losses such as the sub-prime fiasco. A key measure of profitability is return on assets (ROA).
 
 $$
-\mathrm {R O A} = \frac {\text {N e t p r o f i t a f t e r t a x}}{\text {T o t a l a s s e t s}}
+\mathrm{RO A} = \frac{\text{Ne tp ro fi ta ft er ta x}}{\text{To ta la ss et s}}
 $$
 
 Given that both firms (in normal conditions) have the same profits and the same assets, we have a ROA of  $\frac{£150}{£10,900}$  million = 1.38 per cent. This is a useful measure of bank efficiency in terms of how much profit is generated per pound of assets.
@@ -636,15 +636,15 @@ Given that both firms (in normal conditions) have the same profits and the same 
 However, what shareholders are really interested in is the return for each pound that they place in the business. Assuming that the capital figures in the balance sheet are all provided by ordinary shareholders then the return on equity (ROE) is:
 
 $$
-\mathrm {R O E} = \frac {\text {N e t p r o f i t a f t e r t a x}}{\text {E q u i t y c a p i t a l}}
+\mathrm{RO E} = \frac{\text{Ne tp ro fi ta ft er ta x}}{\text{Eq ui ty ca pi ta l}}
 $$
 
 $$
-\text{For BarcSan:ROE} = \frac{\text{£150m}}{\text{£900m}} = 16.7\%
+\text{ForBarcSan:ROE} = \frac{\text{£150m}}{\text{£900m}} = 16.7\%
 $$
 
 $$
-\text{For Mercurial: ROE} = \frac{\text{£150m}}{\text{£400m}} = 37.5\%
+\text{ForMercurial:ROE} = \frac{\text{£150m}}{\text{£400m}} = 37.5\%
 $$
 
 Mercurial appears to be super-profitable, simply because it obtained such a small proportion of its funds from shareholders. Many conservatively-run banks were quizzed by their shareholders in the mid-noughties on why their returns to equity were low compared with other banks, and 'couldn't they just push up returns with a little less caution on the capital ratio?' Many were tempted to follow the crowd in the good times only to suffer very badly when bank capital levels were exposed as far too daring. You can understand the temptation, and that is why regulation is needed to insist on minimum levels of capital – this is discussed in Chapter 7.
@@ -692,7 +692,7 @@ In addition, there may be sections of the income statement dealing with gains (o
 A key measure of bank performance is the difference between interest earned and interest paid as a percentage of assets. This is the net interest margin (NIM):
 
 $$
-\mathrm {N I M} = \frac {\text {I n t e r e s t i n c o m e - I n t e r e s t e x p e n s e}}{\text {A s s e t s}}
+\mathrm{NI M} = \frac{\text{In te re st in co me -I nt er es te xp en se}}{\text{As se ts}}
 $$
 
 A typical NIM is between 1 per cent and 4 per cent. So if a bank is paying 3.5 per cent on average on its deposit accounts and other borrowings, but charges the average borrower 6 per cent, it has a net interest margin of 2.5 per cent. Many NIMs were lowered in 2009 and 2010 as some banks, desperate to attract funds, raised the interest rate on deposit accounts to a figure almost as high as the rate they charged borrowers – they were trying to reduce their dependency on the wholesale market for funds.
@@ -772,7 +772,7 @@ Banks (and the financial press) also report the net interest income (NII), which
 Another frequently quoted measure is the cost-income ratio (C/I), which measures the bank's efficiency in holding down its costs relative to its income.
 
 $$
-\frac {\text {C o s t}}{\text {I n c o m e}} = \frac {\text {N o n - i n t e r e s t e x p e n s e s}}{\text {N e t i n t e r e s t i n c o m e} + \text {N o n - i n t e r e s t i n c o m e}}
+\frac{\text{Co st}}{\text{In co me}} = \frac{\text{No n -i nt er es te xp en se s}}{\text{Ne ti nt er es ti nc om e} + \text{No n -i nt er es ti nc om e}}
 $$
 
 # Concluding comments
@@ -853,12 +853,12 @@ Foreign exchange.
 - Return on assets (ROA):
 
 $$
-\mathrm {R O A} = \frac {\text {N e t p r o f i t a f t e r t a x}}{\text {T o t a l a s s e t s}}
+\mathrm{RO A} = \frac{\text{Ne tp ro fi ta ft er ta x}}{\text{To ta la ss et s}}
 $$
 - Return on equity (ROE):
 
 $$
-R O E = \frac {\text {N e t p r o f i t a f t e r t a x}}{\text {E q u i t y c a p i t a l}}
+R O E = \frac{\text{Ne tp ro fi ta ft er ta x}}{\text{Eq ui ty ca pi ta l}}
 $$
 
 A bank's income statement is split into two sources of income and three types of operating expense. Income: (i) interest income (ii) non-interest income.
@@ -868,14 +868,14 @@ Operating expenses: (i) interest expense; (ii) non-interest expense; (iii) provi
 Net interest margin (NIM):
 
 $$
-N I M = \frac {\text {I n t e r e s t i n c o m e - I n t e r e s t e x p e n s e}}{\text {A s s e t s}}
+N I M = \frac{\text{In te re st in co me -I nt er es te xp en se}}{\text{As se ts}}
 $$
 - Loan to deposit ratio: amount of loans lent out divided by the amount of funds attracted to bank accounts.
 Net interest income (NII): interest income minus interest expense.
 - Cost-income ratio (C/I) measures the bank's efficiency in holding down its costs relative to its income.
 
 $$
-\frac {\text {C o s t}}{\text {I n c o m e}} = \frac {\text {N o n - i n t e r e s t} \text {e x p e n s e s}}{\text {N e t i n t e r e s t} \text {i n c o m e} + \text {N o n - i n t e r e s t} \text {i n c o m e}}
+\frac{\text{Co st}}{\text{In co me}} = \frac{\text{No n -i nt er es t} \text{ex pe ns es}}{\text{Ne ti nt er es t} \text{in co me} + \text{No n -i nt er es t} \text{in co me}}
 $$
 
 # References and further reading

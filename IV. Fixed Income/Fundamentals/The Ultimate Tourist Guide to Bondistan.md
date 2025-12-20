@@ -303,7 +303,7 @@ This is the basis of all capital allocation decisions - where do I put my money 
 Let's first take the compounding formula and flip it around:
 
 $$
-F V = P V ^ {*} [ 1 + (y / f) ] ^ {n} \text {f l i p s a r o u n d t o b e c o m e} P V = F V / [ 1 + (y / f) ] ^ {n}
+F V = P V^{*} [ 1 + (y / f) ]^{n} \text{fl ip sa ro un dt ob ec om e} P V = F V / [ 1 + (y / f) ]^{n}
 $$
 
 If I know a future cashflow amount (FV) and the rate I'm reinvesting my money in (y), I can figure out what that future cashflow is in today's terms. This is basically how you derive a bond's price based on yield.
@@ -330,7 +330,7 @@ Now let's bring these concepts together:
 
 I think it's worth including this small but important feature of bonds. Most theoretical material assume even cashflow periods out of convenience (no different in this handbook) but most of the time, you're not going to be buying or selling bonds on the  $1^{\text{st}}$  day of the accrual period, and when you don't there is something called accrued interest.
 
-Let's say you buy a bond for 100.00 on Jan 1, and it pays a  $4 \%$ coupon, semi- annually starting from  $1 ^ {\text {st }}$ January each year. That's  $4 \%$ split into 2 payments a year, once on Jan 1 and another time on July 1.
+Let's say you buy a bond for 100.00 on Jan 1, and it pays a  $4 \%$ coupon, semi- annually starting from  $1^{\text{st }}$ January each year. That's  $4 \%$ split into 2 payments a year, once on Jan 1 and another time on July 1.
 
 $4\% / 2 = 2\%$ . If you bought  \$250,000 face value of bonds you would receive\$ 5,000 every 6 months.
 
@@ -359,7 +359,7 @@ In this topic we discuss interest rate risk and how to measure it. What is inter
 Simply put, it is the risk of a change in the present value of a bond caused by the change in interest rates. In order to understand risk, we must first look at how a bond is valued. We just covered the PV formula and how to discount cashflows to present value.
 
 $$
-P V = F V / [ 1 + (y / f) ] ^ {n}
+P V = F V / [ 1 + (y / f) ]^{n}
 $$
 
 Because a bond is a series of future cashflows, the value is simply a sum of all cashflow PVs. So, let's use this approach and back out bond prices using the Yield to Maturity concept.
@@ -419,7 +419,7 @@ Let's say I change the yield by  $+1\%$  (i.e., 100bps) to  $1.25\%$ . Price sho
 You see, when we discount the cashflows it's this sucker
 
 $$
-1 / (1 + y / f) ^ {n}
+1 / (1 + y / f)^{n}
 $$
 
 that plays a big part. The denominator (lower part of equation) is what changes the value but increases in it have a marginally smaller impact on it than decreases in it. This is known as convexity. You can see in the graph that the change in price does not have a linear relationship – it is curved.
@@ -441,7 +441,7 @@ The average daily change over the last 21 years in the US 10y yield is -0.0844 B
 When we talk about duration, we really mean Modified Duration. It's the percent change in Price for a  $1 \%$ change in yield. Macaulay duration is pretty much useless in everyday bond trading. However, you'll often hear people say something like “I'm running x number of years duration”
 
 $$
-\text {M a c a u l e y D u r a t i o n} = \frac {\sum_ {t = 1} ^ {n} \mathrm {P V} \left(\mathrm {C F} _ {t}\right) \times t}{\text {M a r k e t B o n d P r i c e}} = \frac {\sum_ {t = 1} ^ {n} \frac {t \times C}{(1 + Y) ^ {t}} + \frac {n \times M}{(1 + Y) ^ {t}}}{\text {M a r k e t B o n d P r i c e}}
+\text{Ma ca ul ey Du ra ti on} = \frac{\sum_{t = 1}^{n} \mathrm{PV} \left(\mathrm{CF}_{t}\right) \times t}{\text{Ma rk et Bo nd Pr ic e}} = \frac{\sum_{t = 1}^{n} \frac{t \times C}{(1 + Y)^{t}} + \frac{n \times M}{(1 + Y)^{t}}}{\text{Ma rk et Bo nd Pr ic e}}
 $$
 
 This is a general reference to the risk of your portfolio. The simplest (and still somewhat wrong) way I can describe Macaulay duration is "the number of years until your investment breaks even at current yields".
@@ -511,7 +511,7 @@ Some names to follow on Twitter are @arishisays, @magnusmacro, @stirboi, @shorte
 Let's start with T-Bills. As previously mentioned, bills are quoted on a discount basis. So,  $1\%$  is not a  $1\%$  yield but it is an annualized discount:
 
 $$
-P = 1 0 0 - \left[ \left(D a y s t o m a t u r i t y / 3 6 0\right) ^ {*} D i s c u n t ] \right.
+P = 1 0 0 - \left[ \left(D a y s t o m a t u r i t y / 3 6 0\right)^{*} D i s c u n t ] \right.
 $$
 
 On the current 3-month T-bill there are 90 days to maturity:  $90 / 360 = 0.25$
@@ -519,7 +519,7 @@ On the current 3-month T-bill there are 90 days to maturity:  $90 / 360 = 0.25$
 The discount quoted is 0.0325:  $0.25 * 0.0325 = 0.008125$
 
 $$
-\begin{array}{r l} \text {P r i c e} & = 1 0 0 - 0. 0 0 8 1 2 5 \\ & = 9 9. 9 1 8 7 5 \end{array}
+\begin{array}{r l} \text{Pr ic e} & = 1 0 0 - 0. 0 0 8 1 2 5 \\ & = 9 9. 9 1 8 7 5 \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/bf6794a9f292b295263f3333ab3ca62a56862e90d0fb124930c88f873068f49e.jpg)
@@ -960,7 +960,7 @@ rates/files/Calculating U.S.Treasury Futures Conversion Factors.pdf
 
 Here's how I like to think about CFs: Let's imagine the futures contract actually gave you a  $6 \%$ coupon treasury at delivery date, meanwhile the actual deliverable bond has a  $27 \text{‰}$ coupon, with the same maturity – if you can get either one, which do you prefer? The  $6 \%$ coupon bond of course! They're otherwise the same.
 
-The  $6 \%$ coupon bond should trade equal to the deliverable bond (T  $2 \frac {1}{8} 0 5 / 1 5 / 2 8$ ) otherwise I'd just buy the future, sell the deliverable bond forward and get juicy free income till maturity. How do we select which bond to deliver? If there is a basket of bonds I can deliver, I will choose the one that costs me the least – what we call the Cheapest to Deliver bond (CTD). How do we determine the CTD? Please see Appendix 1 for an in- depth breakdown.
+The  $6 \%$ coupon bond should trade equal to the deliverable bond (T  $2 \frac{1}{8} 0 5 / 1 5 / 2 8$ ) otherwise I'd just buy the future, sell the deliverable bond forward and get juicy free income till maturity. How do we select which bond to deliver? If there is a basket of bonds I can deliver, I will choose the one that costs me the least – what we call the Cheapest to Deliver bond (CTD). How do we determine the CTD? Please see Appendix 1 for an in- depth breakdown.
 
 We need to equate the two – “What is the price I need to pay for a  $6 \%$ coupon bond at delivery such that I am indifferent between that and the real deliverable bond?”
 
@@ -1439,15 +1439,15 @@ $$
 Because we're looking at bonds on the Par Curve, it means the 2-year note is priced at par = \$100. So that means the pricing of a 2-year note trading at par is composed of:
 
 $$
-\$ 100 = [ \text {D i s c o u n t e d Y e a r 1 C a s h f l o w} ] + [ \text {D i s c o u n t e d Y e a r 2 C a s h f l o w} ]
+\$ 100 = [ \text{Di sc ou nt ed Ye ar 1C as hf lo w} ] + [ \text{Di sc ou nt ed Ye ar 2C as hf lo w} ]
 $$
 
 $$
-\$ 100 = [ \$ 2 / (1 + Z 1) ] + [ \$ 1 0 2 / (1 + Z 2) ^ {2} ]
+\$ 100 = [ \$ 2 / (1 + Z 1) ] + [ \$ 1 0 2 / (1 + Z 2)^{2} ]
 $$
 
 $$
-\$ 100 = \$ 1.9802 + [ \$ 102 / (1 + Z 2) ^ {2} ]
+\$ 100 = \$ 1.9802 + [ \$ 102 / (1 + Z 2)^{2} ]
 $$
 
 Therefore  $[102 / (1 + Z2)^2] = (100 - 1.9802) = 98.0198$
@@ -1463,7 +1463,7 @@ $$
 If the 3-year note trading at par yields  $4\%$  then we know that:
 
 $$
-1 0 0 = (4 / 1. 0 1) + (4 / 1. 0 2 0 1 ^ {2}) + [ 1 0 4 / (1 + Z 3) ^ {3} ]
+1 0 0 = (4 / 1. 0 1) + (4 / 1. 0 2 0 1^{2}) + [ 1 0 4 / (1 + Z 3)^{3} ]
 $$
 
 Thus  $Z3 = 4.098\%$
@@ -1473,7 +1473,7 @@ Thus  $Z3 = 4.098\%$
 With a zero rate, we can discount cashflows to their present value which is actually what we've been doing to find each new zero rate. So, we can transform the zero rate into a discount factor as introduced first in Bond Math; "For every \$1 of cashflow, what is its present value?"
 
 $$
-D F = 1 / \left(1 + Z _ {n}\right) ^ {n}
+D F = 1 / \left(1 + Z_{n}\right)^{n}
 $$
 
 Discount factors are convenient to use because they easily translate cashflow from present values.
@@ -1493,7 +1493,7 @@ If I put \$1 into a 2-year zero rate investment, I would receive 1 * 1.0201² = 
 What is the rate that I should earn for a 1 year zero coupon investment, 1 year from now? In order for there to be no-free-lunch, it should be such that investing for 1 year and rolling it into the 1y1y rate the same as if I just put it into the 2y rate from day 0.
 
 $$
-1. 0 2 0 1 ^ {2} = 1. 0 1 * (1 + F 1 y 1 y) ^ {\vee}
+1. 0 2 0 1^{2} = 1. 0 1 * (1 + F 1 y 1 y)^{\vee}
 $$
 
 $$
@@ -1566,7 +1566,7 @@ Buckle up.
 1. An inverted curve means that short-dated yields are higher than longer dated yields. This means that zero rates get lower the longer the tenor gets as the fair value of compounded cashflows is a lower target yield. An easy example is that if the 1-year rate is  $1\%$  and the 2-year rate is  $0.5\%$  then
 
 $$
-100 = (0.5 / 1.01) + (100.5 / (1 + y) ^ {2}) \text {results in} y = 0.499 \%
+100 = (0.5 / 1.01) + (100.5 / (1 + y)^{2}) \text{resultsin} y = 0.499 \%
 $$
 
 2. Yes you could. The logic is simple and applies everything covered so far: From par curves (compounded yields) we can strip the curve and find zero rates. From zero rates we can imply forward rates. The forward rates are forward zero rates. So if a single compounded yield is made from a series of zero rates we can thus use a series of forward zero rates to imply forward par rates.
@@ -2302,7 +2302,7 @@ That still isn't fully 'expectations' though. So we go one step further and look
 If the 5y infl swap is 2.7248 and the 10y infl swap is 2.5343 then the 5y5y should roughly be
 
 $$
-[ (1.025343 ^ {10}) / (1.0272487 ^ {5}) ] ^ {(1 / 5)} - 1 = 2.3440 \%
+[ (1.025343^{10}) / (1.0272487^{5}) ]^{(1 / 5)} - 1 = 2.3440 \%
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/b51fa6aece3c64cfb4b399aeed1b5fc9866debdcab9d9306fa3a208d90074e5d.jpg)
@@ -2765,7 +2765,7 @@ Here is Rishi's full note without my bastardisation of it: https://www.docdroid.
 
 That's it for the vanilla IRS, hopefully as understandable as possible. In the following part we will use the basic principles we covered here and delve into the basics of other commonly mentioned swaps such as ASW, TRS and XCCY.
 
-Topic Question Today is September  $10 ^ {\mathrm {i t h}}$ , 2021. I want to value a par swap ( $1MM$  notional) that started on Sep  $3 ^ {\mathrm {r d}}$  when 3ML was 0.1155 and the fixed coupon was  $0.887147 \%$ . Rates have not moved at all across the curve. Is the premium still 0? Is the NPV of the swap still 0? Assume ACT/360 daycounts for both legs. I don't need numbers, just intuition.
+Topic Question Today is September  $10^{\mathrm{it h}}$ , 2021. I want to value a par swap ( $1MM$  notional) that started on Sep  $3^{\mathrm{rd}}$  when 3ML was 0.1155 and the fixed coupon was  $0.887147 \%$ . Rates have not moved at all across the curve. Is the premium still 0? Is the NPV of the swap still 0? Assume ACT/360 daycounts for both legs. I don't need numbers, just intuition.
 
 No, the premium is not zero but yes, the NPV of the swap is zero. If the curve has not changed at all then the valuation of each leg should still be the same (the forward term structure remains unchanged on the floating leg) so the NPV of each leg should still be the same. The reason why the premium isn't 0 though is because over the 7 days (Sep  $3^{rd}$  to Sep  $10^{th}$ ) each leg has accrued a different amount of accrued interest for the first coupon (the fixed at  $0.887\%$  p.a. and the floating leg at  $0.115\%$  p.a.). This means that to exit the swap on the  $10^{th}$  you would have to pay/receive the net accrued interest.
 

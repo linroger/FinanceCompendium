@@ -31,20 +31,20 @@ The Vasicek model for the discount factor (zero coupon bond price):
 
 $$
 
-\begin{array}{l} P (t, T) = \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {T} r (s) d s\right) \right] \tag {14.2} \\ = e ^ {- r (t) F (t, T) - G (t, T)} \\ \end{array}
+\begin{array}{l} P (t, T) = \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{T} r (s) d s\right) \right] \tag {14.2} \\ = e^{- r (t) F (t, T) - G (t, T)} \\ \end{array}
 
 $$ where
 
 
 $$
 
-F (t, T) = \frac {1 - e ^ {- \alpha (T - t)}}{\alpha}
+F (t, T) = \frac{1 - e^{- \alpha (T - t)}}{\alpha}
 
 $$
 
 $$
 
-G (t, T) = \left(\mu - \frac {\sigma^ {2}}{2 \alpha^ {2}} - \frac {\sigma \lambda}{\alpha}\right) (T - t - F (t, T)) + \frac {\sigma^ {2} F (t , T) ^ {2}}{4 \alpha}
+G (t, T) = \left(\mu - \frac{\sigma^{2}}{2 \alpha^{2}} - \frac{\sigma \lambda}{\alpha}\right) (T - t - F (t, T)) + \frac{\sigma^{2} F (t , T)^{2}}{4 \alpha}
 
 $$
 
@@ -52,20 +52,20 @@ The CIR model is a mean-reverting squared-root process:
 
 $$
 
-\begin{array}{l} d r = \alpha (\mu - r) d t + \sigma \sqrt {r} d W \tag {14.3} \\ = \hat {\alpha} (\hat {\mu} - r) d t + \sigma \sqrt {r} d \hat {W} \\ \end{array}
+\begin{array}{l} d r = \alpha (\mu - r) d t + \sigma \sqrt{r} d W \tag {14.3} \\ = \hat {\alpha} (\hat {\mu} - r) d t + \sigma \sqrt{r} d \hat {W} \\ \end{array}
 
 $$ where  $\hat{\alpha} = \alpha +\lambda$  and  $\hat{\mu} = \frac{\alpha\mu}{\alpha + \lambda}$  are the risk-neutral parameters.
 
 The zero coupon bond formula is:
 
 $$
-\begin{array}{l} P (t, T) = \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {T} r (s) d s\right) \right] \tag {14.4} \\ = A (t, T) e ^ {- r (t) B (t, T)} \\ \end{array}
+\begin{array}{l} P (t, T) = \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{T} r (s) d s\right) \right] \tag {14.4} \\ = A (t, T) e^{- r (t) B (t, T)} \\ \end{array}
 $$ where
 
 
 $$
 
-\begin{array}{l} A (t, T) = \left[ \frac {2 \gamma e ^ {(\alpha + \lambda + \gamma) (T - t) / 2}}{(\alpha + \lambda + \gamma) (e ^ {\gamma (T - t)} - 1) + 2 \gamma} \right] ^ {2 \alpha \mu / \sigma^ {2}} \\ B (t, T) = \frac {2 \left(e ^ {\gamma (T - t)} - 1\right)}{(\alpha + \lambda + \gamma) \left(e ^ {\gamma (T - t)} - 1\right) + 2 \gamma} \\ \gamma = \sqrt {(\alpha + \lambda) ^ {2} + 2 \sigma^ {2}} \\ \end{array}
+\begin{array}{l} A (t, T) = \left[ \frac{2 \gamma e^{(\alpha + \lambda + \gamma) (T - t) / 2}}{(\alpha + \lambda + \gamma) (e^{\gamma (T - t)} - 1) + 2 \gamma} \right]^{2 \alpha \mu / \sigma^{2}} \\ B (t, T) = \frac{2 \left(e^{\gamma (T - t)} - 1\right)}{(\alpha + \lambda + \gamma) \left(e^{\gamma (T - t)} - 1\right) + 2 \gamma} \\ \gamma = \sqrt{(\alpha + \lambda)^{2} + 2 \sigma^{2}} \\ \end{array}
 
 $$
 
@@ -77,15 +77,15 @@ Define the zero-coupon bond price as  $P(i, n, j)$  where  $i$  is current time,
 
 $$
 
-\left\{ \begin{array}{l} P (i, i + k, j) = \frac {P (i - 1 , i + k , j)}{P (i - 1 , i , j)} d (k) \\ P (i, i + k, j + 1) = \frac {P (i - 1 , i + k , j)}{P (i - 1 , i , j)} u (k) \end{array} \right. \tag {14.5}
+\left\{ \begin{array}{l} P (i, i + k, j) = \frac{P (i - 1 , i + k , j)}{P (i - 1 , i , j)} d (k) \\ P (i, i + k, j + 1) = \frac{P (i - 1 , i + k , j)}{P (i - 1 , i , j)} u (k) \end{array} \right. \tag {14.5}
 
 $$ where
 
 
-$$ u (k) = \frac {1}{p + (1 - p) \delta^ {k}} \tag {14.6}
+$$ u (k) = \frac{1}{p + (1 - p) \delta^{k}} \tag {14.6}
 $$
 
-$$ d (k) = \frac {\delta^ {k}}{p + (1 - p) \delta^ {k}}
+$$ d (k) = \frac{\delta^{k}}{p + (1 - p) \delta^{k}}
 $$ and  $p$  is the risk-neutral probability and  $\delta$  is the "volatility" parameter (that is,  $\delta$  itself is not volatility but it is directly related to volatility.) As we can see, when  $\delta = 1$ , then  $u(k) = d(k)$  for all  $k$ . Then there is no volatility. To maintain  $u(k) > d(k) > 0$ , it must be that  $0 < \delta < 1$ . As  $\delta$  becomes small the volatility becomes large.
 
 
@@ -97,7 +97,7 @@ Given the current term structure of discount factors, we then can compute the fo
 
 $$
 
-\begin{array}{l} 0. 9 3 4 4 8 1 = \frac {0 . 8 9 0 0}{0 . 9 5 2 4} \\ 0. 8 6 9 1 7 3 = \frac {0 . 8 2 7 8}{0 . 9 5 2 4} \\ 0. 8 0 7 0 1 4 = \frac {0 . 7 6 8 6}{0 . 9 5 2 4} \\ \end{array}
+\begin{array}{l} 0. 9 3 4 4 8 1 = \frac{0 . 8 9 0 0}{0 . 9 5 2 4} \\ 0. 8 6 9 1 7 3 = \frac{0 . 8 2 7 8}{0 . 9 5 2 4} \\ 0. 8 0 7 0 1 4 = \frac{0 . 7 6 8 6}{0 . 9 5 2 4} \\ \end{array}
 
 $$
 
@@ -105,7 +105,7 @@ Note that forward rates are returns of forward prices. For example:
 
 $$
 
-\begin{array}{l} f_{0,1,2} = \frac{1}{0.934481} -1 = \frac{(1 + 5.9998\%) ^ {2}}{1 + 4.9979\%} -1 = 7.0112\% \\ f _ {0, 1, 3} = \sqrt {\frac {1}{0 .869173}} - 1 = \sqrt {\frac {(1 + 6.5021 \%) ^ {3}}{1 + 4.9979 \%}} - 1 = 7.2623 \% \\ f_{0,1,4} = \sqrt [3]{\frac{1}{0.807014}} -1 = \sqrt [3]{\frac{(1 + 6.8009\%) ^ {3}}{1 + 4.9979\%}} -1 = 7.4088\% \\ \end{array}
+\begin{array}{l} f_{0,1,2} = \frac{1}{0.934481} -1 = \frac{(1 + 5.9998\%)^{2}}{1 + 4.9979\%} -1 = 7.0112\% \\ f_{0, 1, 3} = \sqrt{\frac{1}{0 .869173}} - 1 = \sqrt{\frac{(1 + 6.5021 \%)^{3}}{1 + 4.9979 \%}} - 1 = 7.2623 \% \\ f_{0,1,4} = \sqrt [3]{\frac{1}{0.807014}} -1 = \sqrt [3]{\frac{(1 + 6.8009\%)^{3}}{1 + 4.9979\%}} -1 = 7.4088\% \\ \end{array}
 
 $$
 
@@ -121,27 +121,27 @@ In the HL model, the next period's up term structure and down term structure are
 
 
 $$
-0. 9 7 3 4 = \underbrace {P (1 , 2 , 1)} _ {\mathrm {u p}} = \frac {P (0 , 2 , 0)}{P (0 , 1 , 0)} u (1) = \frac {0 . 8 9 0 0}{0 . 9 5 2 4} \times 1. 0 4 1 6 6 7
+0. 9 7 3 4 = \underbrace {P (1 , 2 , 1)}_{\mathrm{up}} = \frac{P (0 , 2 , 0)}{P (0 , 1 , 0)} u (1) = \frac{0 . 8 9 0 0}{0 . 9 5 2 4} \times 1. 0 4 1 6 6 7
 $$
 
 $$
-0. 8 7 6 1 = \underbrace {P (1 , 2 , 0)} _ {\text {d o w n}} = \frac {P (0 , 2 , 0)}{P (0 , 1 , 0)} d (1) = \frac {0 . 8 9 0 0}{0 . 9 5 2 4} \times 0. 9 3 7 5
+0. 8 7 6 1 = \underbrace {P (1 , 2 , 0)}_{\text{do wn}} = \frac{P (0 , 2 , 0)}{P (0 , 1 , 0)} d (1) = \frac{0 . 8 9 0 0}{0 . 9 5 2 4} \times 0. 9 3 7 5
 $$
 
 $$
-0. 9 4 0 7 = \underbrace {P (1 , 3 , 1)} _ {\text {u p}} = \frac {P (0 , 3 , 0)}{P (0 , 1 , 0)} u (2) = \frac {0 . 8 2 7 8}{0 . 9 5 2 4} \times 1. 0 8 2 2 5 1
+0. 9 4 0 7 = \underbrace {P (1 , 3 , 1)}_{\text{up}} = \frac{P (0 , 3 , 0)}{P (0 , 1 , 0)} u (2) = \frac{0 . 8 2 7 8}{0 . 9 5 2 4} \times 1. 0 8 2 2 5 1
 $$
 
 $$
-0. 7 6 1 9 = \underbrace {P (1 , 3 , 0)} _ {\mathrm {d o w n}} = \frac {P (0 , 3 , 0)}{P (0 , 1 , 0)} d (2) = \frac {0 . 8 2 7 8}{0 . 9 5 2 4} \times 0. 8 7 6 6 2 3
+0. 7 6 1 9 = \underbrace {P (1 , 3 , 0)}_{\mathrm{do wn}} = \frac{P (0 , 3 , 0)}{P (0 , 1 , 0)} d (2) = \frac{0 . 8 2 7 8}{0 . 9 5 2 4} \times 0. 8 7 6 6 2 3
 $$
 
 $$
-0. 9 0 5 1 = \underbrace {P (1 , 4 , 1)} _ {\mathrm {u p}} = \frac {P (0 , 4 , 0)}{P (0 , 1 , 0)} u (3) = \frac {0 . 8 2 7 8}{0 . 9 5 2 4} \times 1. 1 2 1 5 7 9
+0. 9 0 5 1 = \underbrace {P (1 , 4 , 1)}_{\mathrm{up}} = \frac{P (0 , 4 , 0)}{P (0 , 1 , 0)} u (3) = \frac{0 . 8 2 7 8}{0 . 9 5 2 4} \times 1. 1 2 1 5 7 9
 $$
 
 $$
-0. 6 5 9 8 = \underbrace {P (1 , 4 , 0)} _ {\text {d o w n}} = \frac {P (0 , 4 , 0)}{P (0 , 1 , 0)} d (3) = \frac {0 . 7 6 8 6}{0 . 9 5 2 4} \times 0. 8 1 7 6 3 1
+0. 6 5 9 8 = \underbrace {P (1 , 4 , 0)}_{\text{do wn}} = \frac{P (0 , 4 , 0)}{P (0 , 1 , 0)} d (3) = \frac{0 . 7 6 8 6}{0 . 9 5 2 4} \times 0. 8 1 7 6 3 1
 $$
 
 Put in the table,
@@ -151,36 +151,36 @@ Put in the table,
 Now we have two term structures of the next year (time 1). The task continues to time 2. For each term structure in time 1, we shall compute two term structures in time 2 (up and down) by applying the same principle. The up and down term structures of the left are:
 
 $$
-0. 9 0 6 0 = P (2, 3, 1) = \frac {P (1 , 3 , 0)}{P (1 , 2 , 0)} u (1) = \frac {0 . 7 6 1 9}{0 . 8 7 6 1} \times 1. 0 4 1 6 6 7
+0. 9 0 6 0 = P (2, 3, 1) = \frac{P (1 , 3 , 0)}{P (1 , 2 , 0)} u (1) = \frac{0 . 7 6 1 9}{0 . 8 7 6 1} \times 1. 0 4 1 6 6 7
 $$
 
 $$
-0. 8 1 5 4 = P (2, 3, 0) = \frac {P (1 , 3 , 0)}{P (1 , 2 , 0)} d (1) = \frac {0 . 7 6 1 9}{0 . 8 7 6 1} \times 0. 9 3 7 5
+0. 8 1 5 4 = P (2, 3, 0) = \frac{P (1 , 3 , 0)}{P (1 , 2 , 0)} d (1) = \frac{0 . 7 6 1 9}{0 . 8 7 6 1} \times 0. 9 3 7 5
 $$
 
 $$
-0. 8 1 5 1 = P (2, 4, 1) = \frac {P (1 , 4 , 0)}{P (1 , 2 , 0)} u (2) = \frac {0 . 6 5 9 8}{0 . 8 7 6 1} \times 1. 0 8 2 2 5 1
+0. 8 1 5 1 = P (2, 4, 1) = \frac{P (1 , 4 , 0)}{P (1 , 2 , 0)} u (2) = \frac{0 . 6 5 9 8}{0 . 8 7 6 1} \times 1. 0 8 2 2 5 1
 $$
 
 $$
-0. 6 6 0 3 = P (2, 4, 0) = \frac {P (1 , 4 , 0)}{P (1 , 2 , 0)} d (2) = \frac {0 . 6 5 9 8}{0 . 8 7 6 1} \times 0. 8 7 6 6 2 3
+0. 6 6 0 3 = P (2, 4, 0) = \frac{P (1 , 4 , 0)}{P (1 , 2 , 0)} d (2) = \frac{0 . 6 5 9 8}{0 . 8 7 6 1} \times 0. 8 7 6 6 2 3
 $$ and of the right are:
 
 
 $$
-1. 0 0 6 6 = P (2, 3, 2) = \frac {P (1 , 3 , 1)}{P (1 , 2 , 1)} u (1) = \frac {0 . 9 4 0 7}{0 . 9 7 3 4} \times 1. 0 4 1 6 6 7
+1. 0 0 6 6 = P (2, 3, 2) = \frac{P (1 , 3 , 1)}{P (1 , 2 , 1)} u (1) = \frac{0 . 9 4 0 7}{0 . 9 7 3 4} \times 1. 0 4 1 6 6 7
 $$
 
 $$
-2. 9 0 6 0 = P (2, 3, 1) = \frac {P (1 , 3 , 1)}{P (1 , 2 , 1)} d (1) = \frac {0 . 9 4 0 7}{0 . 9 7 3 4} \times 0. 9 3 7 5
+2. 9 0 6 0 = P (2, 3, 1) = \frac{P (1 , 3 , 1)}{P (1 , 2 , 1)} d (1) = \frac{0 . 9 4 0 7}{0 . 9 7 3 4} \times 0. 9 3 7 5
 $$
 
 $$
-3. 0 0 6 3 = P (2, 4, 2) = \frac {P (1 , 4 , 1)}{P (1 , 2 , 1)} u (2) = \frac {0 . 9 0 5 1}{0 . 9 7 3 4} \times 1. 0 8 2 2 5 1
+3. 0 0 6 3 = P (2, 4, 2) = \frac{P (1 , 4 , 1)}{P (1 , 2 , 1)} u (2) = \frac{0 . 9 0 5 1}{0 . 9 7 3 4} \times 1. 0 8 2 2 5 1
 $$
 
 $$
-4. 8 1 5 1 = P (2, 4, 1) = \frac {P (1 , 4 , 1)}{P (1 , 2 , 1)} d (2) = \frac {0 . 9 0 5 1}{0 . 9 7 3 4} \times 0. 8 7 6 6 2 3
+4. 8 1 5 1 = P (2, 4, 1) = \frac{P (1 , 4 , 1)}{P (1 , 2 , 1)} d (2) = \frac{0 . 9 0 5 1}{0 . 9 7 3 4} \times 0. 8 7 6 6 2 3
 $$ and put in table,
 
 
@@ -218,7 +218,7 @@ Figure 14.1: Two-period BDT Model
 
 $$
 
-\begin{array}{l} u = e ^ {\sigma \sqrt {\Delta t}} \\ d = e ^ {- \sigma \sqrt {\Delta t}} \\ \end{array}
+\begin{array}{l} u = e^{\sigma \sqrt{\Delta t}} \\ d = e^{- \sigma \sqrt{\Delta t}} \\ \end{array}
 
 $$
 
@@ -239,7 +239,7 @@ Note that yield vols are annualized. The yield curve implies the following disco
 
 $$
 
-\begin{array}{l} D (0, 1) = \frac {1}{1 . 1} = 0. 9 0 9 1 \\ D (0, 2) = \frac {1}{1 . 1 1 ^ {2}} = 0. 8 1 1 6 \\ D (0, 3) = \frac {1}{1 . 1 2 ^ {3}} = 0. 7 1 1 8 \\ D (0, 4) = \frac {1}{1 . 1 2 5 ^ {4}} = 0. 6 2 4 3 \\ D (0, 5) = \frac {1}{1 . 1 3 ^ {5}} = 0. 5 4 2 8 \\ \end{array}
+\begin{array}{l} D (0, 1) = \frac{1}{1 . 1} = 0. 9 0 9 1 \\ D (0, 2) = \frac{1}{1 . 1 1^{2}} = 0. 8 1 1 6 \\ D (0, 3) = \frac{1}{1 . 1 2^{3}} = 0. 7 1 1 8 \\ D (0, 4) = \frac{1}{1 . 1 2 5^{4}} = 0. 6 2 4 3 \\ D (0, 5) = \frac{1}{1 . 1 3^{5}} = 0. 5 4 2 8 \\ \end{array}
 
 $$
 
@@ -263,20 +263,20 @@ Assume probabilities to be  $1/2$  and  $1/2$ . Then it must be the case that:
 
 $$
 
-D (0, 2) = \frac {1}{2} [ D (1, 2, 1) + D (1, 2, 0) ] D (0, 1) \tag {14.7}
+D (0, 2) = \frac{1}{2} [ D (1, 2, 1) + D (1, 2, 0) ] D (0, 1) \tag {14.7}
 
 $$ that is
 
 
 $$
-5. 8 1 1 6 = \frac {1}{2} \left(\frac {1}{1 + r _ {1 1}} + \frac {1}{1 + r _ {1 0}}\right) \times 0. 9 0 9 1
+5. 8 1 1 6 = \frac{1}{2} \left(\frac{1}{1 + r_{1 1}} + \frac{1}{1 + r_{1 0}}\right) \times 0. 9 0 9 1
 $$
 
 Two unknowns cannot be solved with one equation. The other equation we need comes from the volatility. In the standard binomial model, we get:
 
 $$
 
-\sigma = \frac {\ln \frac {u}{d}}{2} = \frac {\ln \frac {r _ {1 1}}{r _ {1 0}}}{2} = 0. 1 9 \tag {14.8}
+\sigma = \frac{\ln \frac{u}{d}}{2} = \frac{\ln \frac{r_{1 1}}{r_{1 0}}}{2} = 0. 1 9 \tag {14.8}
 
 $$
 
@@ -286,19 +286,19 @@ The lattice is now extended to include one more period, as demonstrated as follo
 
 $$
 
-D (0, 1) = 0. 9 0 9 1 \xrightarrow {r _ {0} = 10 \%} D (1, 1) = 1
+D (0, 1) = 0. 9 0 9 1 \xrightarrow {r_{0} = 10 \%} D (1, 1) = 1
 
 $$
 
 $$
 
-\begin{array}{c} D (1, 2, 1) = . 8 7 4 7 \xrightarrow {r _ {1 1} = 1 4 . 3 2 \%} D (2, 2, 1) = 1 \\ D (0, 2) = 0. 8 1 1 6 \\ \hline \end{array}
+\begin{array}{c} D (1, 2, 1) = . 8 7 4 7 \xrightarrow {r_{1 1} = 1 4 . 3 2 \%} D (2, 2, 1) = 1 \\ D (0, 2) = 0. 8 1 1 6 \\ \hline \end{array}
 
 $$
 
 $$
 
-D (0, 3) = 0. 7 1 1 8 \begin{array}{c c} D (1, 3, 1) = ? & D (2, 3, 2) =? \xrightarrow {r _ {2 2} = \overline {{r}} u ^ {2}} D (3, 3, 2) = 1 \\ D (1, 3, 0) = ? & D (2, 3, 1) =? \xrightarrow {r _ {2 1} = \overline {{r}}} D (3, 3, 1) = 1 \\ & D (2, 3, 0) =? \xrightarrow {r _ {2 0} = \overline {{r}} \frac {1}{u ^ {2}}} D (3, 3, 0) = 1 \end{array}
+D (0, 3) = 0. 7 1 1 8 \begin{array}{c c} D (1, 3, 1) = ? & D (2, 3, 2) =? \xrightarrow {r_{2 2} = \overline {{r}} u^{2}} D (3, 3, 2) = 1 \\ D (1, 3, 0) = ? & D (2, 3, 1) =? \xrightarrow {r_{2 1} = \overline {{r}}} D (3, 3, 1) = 1 \\ & D (2, 3, 0) =? \xrightarrow {r_{2 0} = \overline {{r}} \frac{1}{u^{2}}} D (3, 3, 0) = 1 \end{array}
 
 $$
 
@@ -308,62 +308,62 @@ To solve for the third period, we need the following two equations:
 
 $$
 
-D (0, 3) = \frac {1}{2} [ D (1, 3, 1) + D (1, 3, 0) ] D (0, 1) = 0. 7 1 1 8 \tag {14.9}
+D (0, 3) = \frac{1}{2} [ D (1, 3, 1) + D (1, 3, 0) ] D (0, 1) = 0. 7 1 1 8 \tag {14.9}
 
 $$ and
 
 
 $$
 
-\sigma = \frac {1}{2} \ln \left[ \frac {\sqrt {\frac {1}{D (1 , 3 , 1)}} - 1}{\sqrt {\frac {1}{D (1 , 3 , 0)}} - 1} \right] = 0. 1 8 \tag {14.10}
+\sigma = \frac{1}{2} \ln \left[ \frac{\sqrt{\frac{1}{D (1 , 3 , 1)}} - 1}{\sqrt{\frac{1}{D (1 , 3 , 0)}} - 1} \right] = 0. 1 8 \tag {14.10}
 
 $$ where
 
 
 $$
 
-D (1, 3, 1) = 1 / _ {2} \{D (2, 3, 2) + D (2, 3, 1) \} D (1, 2, 1)
+D (1, 3, 1) = 1 /_{2} \{D (2, 3, 2) + D (2, 3, 1) \} D (1, 2, 1)
 
 $$
 
 $$
 
-D (1, 3, 0) = 1 / _ {2} \{D (2, 3, 1) + D (2, 3, 0) \} D (1, 2, 0)
+D (1, 3, 0) = 1 /_{2} \{D (2, 3, 1) + D (2, 3, 0) \} D (1, 2, 0)
 
 $$ and in turn,
 
 
 $$
 
-D (2, 3, 2) = \frac {1}{1 + \bar {r} u ^ {2}}
+D (2, 3, 2) = \frac{1}{1 + \bar {r} u^{2}}
 
 $$
 
 $$
 
-D (2, 3, 1) = \frac {1}{1 + \bar {r} u}
+D (2, 3, 1) = \frac{1}{1 + \bar {r} u}
 
 $$
 
 $$
 
-D (2, 3, 0) = \frac {1}{1 + \bar {r} / u ^ {2}}
+D (2, 3, 0) = \frac{1}{1 + \bar {r} / u^{2}}
 
 $$
 
 Again, two equations and two unknowns solve for  $\bar{r}$  and  $u$  to be  $13.77\%$  and  $1.1877\%$  respectively. As a result, the short rates in period 2 are  $r_{22} = 19.42\%$ ,  $r_{21} = 13.77\%$ , and  $r_{20} = 9.76\%$ . Continuing this process, we can arrive at all the short rates as follows:
 
-$$ r _ {33} = 21.79 \%; r _ {32} = 16.06 \%; r _ {31} = 11.83 \%; r _ {30} = 8.72 \%
+$$ r_{33} = 21.79 \%; r_{32} = 16.06 \%; r_{31} = 11.83 \%; r_{30} = 8.72 \%
 $$
 
-$$ r _ {44} = 25.52 \%; r _ {43} = 19.48 \%; r _ {42} = 14.86 \%; r _ {41} = 11.34 \%; r _ {40} = 8.65 \%
+$$ r_{44} = 25.52 \%; r_{43} = 19.48 \%; r_{42} = 14.86 \%; r_{41} = 11.34 \%; r_{40} = 8.65 \%
 $$
 
 # 14.4.3 The Continuous Time Limit
 
 As in the H-Lee model, we can work out the continuous time limit of the Black-Derman-Toy model as follows:
 
-$$ d \ln r = \left(\theta (t) + \frac {\sigma^ {\prime} (t)}{\sigma (t)} \ln r\right) d t + \sigma (t) d W (t) \tag {14.11}
+$$ d \ln r = \left(\theta (t) + \frac{\sigma^{\prime} (t)}{\sigma (t)} \ln r\right) d t + \sigma (t) d W (t) \tag {14.11}
 $$ where  $\theta(t)$  is a time-dependent function (as in the Ho-Lee model) that is used to fit the yield curve. Furthermore, unlike the Ho-Lee model, the volatility function  $\sigma(t)$  is also time dependent, which is of course to fit the volatility curve.
 
 
@@ -383,7 +383,7 @@ The Hull-White model is to make fixed parameters in the Vasicek (first equation)
 $$ d r = \kappa (t) (\theta (t) - r) d t + \sigma (t) d W (t)
 $$
 
-$$ d r = \kappa (t) (\theta (t) - r) d t + \sigma (t) \sqrt {r} d W (t) \tag {14.13}
+$$ d r = \kappa (t) (\theta (t) - r) d t + \sigma (t) \sqrt{r} d W (t) \tag {14.13}
 $$
 
 From the Hull-White model and the BK model, we can see that by making the parameters time dependent functions, we can then fit the yield curve (by using the reverting level  $\theta(t)$ ) and the volatility curve (by using either  $\kappa(t)$  or  $\sigma(t)$  or both - note that both are important contributors to the volatility in that fast/slow mean reversion results in low/high volatility.)
@@ -404,12 +404,12 @@ $$ where  $\theta(r, t)$  and  $\sigma(r, t)$  are drift and diffusion of the pr
 
 $$
 
-\begin{array}{l} d P (t, T) = P _ {r} (t, T) d r + ^ {1} / _ {2} P _ {r r} (t, T) (d r) ^ {2} + P _ {t} (t, T) \\ = r (t) P (t, T) d t + P _ {r} (t, T) \sigma (r, t) d \hat {W} \tag {14.15} \\ = r (t) P (t, T) d t + v (t, T) P (t, T) d \hat {W} \\ \end{array}
+\begin{array}{l} d P (t, T) = P_{r} (t, T) d r +^{1} /_{2} P_{r r} (t, T) (d r)^{2} + P_{t} (t, T) \\ = r (t) P (t, T) d t + P_{r} (t, T) \sigma (r, t) d \hat {W} \tag {14.15} \\ = r (t) P (t, T) d t + v (t, T) P (t, T) d \hat {W} \\ \end{array}
 
 $$ where  $v(t,T) = \sigma (r,t)P_r(t,T) / P(t,T)$ . Or equivalently,
 
 $$
-\begin{array}{l} d \ln P (t, T) = \frac {1}{P (t , T)} d P (t, T) - \frac {1}{2 P (t , T) ^ {2}} (d P (t, T)) ^ {2} \\ = \frac {1}{P (t , T)} \left(P _ {r} (t, T) d r + \frac {1}{2} P _ {r r} (t, T) (d r) ^ {2} + P _ {t} (t, T) d t\right) \\ - \frac {1}{2 P (t , T) ^ {2}} P _ {r} ^ {2} (t, T) (d r) ^ {2} \tag {14.16} \\ = r d t + \frac {P _ {r} (t , T)}{P (t , T)} \sigma (r, t) d \hat {W} - \frac {1}{2} \left(\frac {P _ {r} (t , T)}{P (t , T)} \sigma (r, t)\right) ^ {2} d t \\ = \left(r - \frac {v (t , T) ^ {2}}{2}\right) d t + v (t, T) d \hat {W} \\ \end{array}
+\begin{array}{l} d \ln P (t, T) = \frac{1}{P (t , T)} d P (t, T) - \frac{1}{2 P (t , T)^{2}} (d P (t, T))^{2} \\ = \frac{1}{P (t , T)} \left(P_{r} (t, T) d r + \frac{1}{2} P_{r r} (t, T) (d r)^{2} + P_{t} (t, T) d t\right) \\ - \frac{1}{2 P (t , T)^{2}} P_{r}^{2} (t, T) (d r)^{2} \tag {14.16} \\ = r d t + \frac{P_{r} (t , T)}{P (t , T)} \sigma (r, t) d \hat {W} - \frac{1}{2} \left(\frac{P_{r} (t , T)}{P (t , T)} \sigma (r, t)\right)^{2} d t \\ = \left(r - \frac{v (t , T)^{2}}{2}\right) d t + v (t, T) d \hat {W} \\ \end{array}
 $$
 
 For most of the cases, we assume that  $v(t,T)$  is only deterministic. Note that:
@@ -424,30 +424,30 @@ This indicates that volatility is 0 for the current price (which is a constant) 
 
 The forward rate is defined as:
 
-$$ f (t, T) = - \frac {\partial \ln P (t , T)}{\partial T} \tag {14.18}
+$$ f (t, T) = - \frac{\partial \ln P (t , T)}{\partial T} \tag {14.18}
 $$
 
 As a result,
 
 $$
-\begin{array}{l} d f (t, T) = - \frac {\partial}{\partial T} d \ln P (t, T) \\ = - \frac {\partial}{\partial T} \left[ \left(r - \frac {v (t , T) ^ {2}}{2}\right) d t + v (t, T) d \hat {W} \right] \tag {14.19} \\ = v (t, T) \frac {\partial v (t , T)}{\partial T} d t - \frac {\partial v (t , T)}{\partial T} d \hat {W} \\ \end{array}
+\begin{array}{l} d f (t, T) = - \frac{\partial}{\partial T} d \ln P (t, T) \\ = - \frac{\partial}{\partial T} \left[ \left(r - \frac{v (t , T)^{2}}{2}\right) d t + v (t, T) d \hat {W} \right] \tag {14.19} \\ = v (t, T) \frac{\partial v (t , T)}{\partial T} d t - \frac{\partial v (t , T)}{\partial T} d \hat {W} \\ \end{array}
 $$
 
 This proves that the drift term of the forward rate dynamics do not depend on anything but the volatility function. The drift term in the above equation is known as the "drift adjustment".
 
 Usually, people would like to write (14.19) as follows:
 
-$$ d f (t, T) = \left[ w (t, T) \int_ {t} ^ {T} w (t, u) d u \right] d t - w (t, T) d \hat {W} \tag {14.20}
+$$ d f (t, T) = \left[ w (t, T) \int_{t}^{T} w (t, u) d u \right] d t - w (t, T) d \hat {W} \tag {14.20}
 $$ where
 
 
-$$ w (t, T) = \frac {\partial v (t , T)}{\partial T}
+$$ w (t, T) = \frac{\partial v (t , T)}{\partial T}
 $$
 
 Recall the forward measure discussed earlier. The change of measure from the risk-neutral to forward is precisely  $v(t,T)$ . As a result, the forward rate is a martingale under the forward measure.
 
 $$
-\begin{array}{l} d f (t, T) = v (t, T) \frac {\partial v (t , T)}{\partial T} d t - \frac {\partial v (t , T)}{\partial T} d \hat {W} \tag {14.21} \\ = - \frac {\partial v (t , T)}{\partial T} d \tilde {W} ^ {(T)} \\ \end{array}
+\begin{array}{l} d f (t, T) = v (t, T) \frac{\partial v (t , T)}{\partial T} d t - \frac{\partial v (t , T)}{\partial T} d \hat {W} \tag {14.21} \\ = - \frac{\partial v (t , T)}{\partial T} d \tilde {W}^{(T)} \\ \end{array}
 $$
 
 Note that equation (14.21) describes the evolution of the entire forward curve (i.e. for all  $T$ ) and each forward rate is a martingale under its corresponding forward measure  $\tilde{W}^{(T)}$ .
@@ -462,20 +462,20 @@ $$
 Note that from  $(\ref{eq:1})$  we can write
 
 $$
-- \frac {\partial}{\partial T} \ln P (t, T) = \int_ {t} ^ {T} \theta (u) d u + r (t) - \frac {1}{2} \sigma^ {2} (T - t) ^ {2} \tag {14.23}
+- \frac{\partial}{\partial T} \ln P (t, T) = \int_{t}^{T} \theta (u) d u + r (t) - \frac{1}{2} \sigma^{2} (T - t)^{2} \tag {14.23}
 $$
 
 As a result,
 
 $$
-\begin{array}{l} d f (t, T) = d \left[ - \frac {\partial}{\partial T} \ln P (t, T) \right] \\ = - \frac {\partial}{\partial T} d \ln P (t, T) \tag {14.24} \\ = - \theta (t) d t + d r (t) + \sigma^ {2} (T - t) d t \\ = \sigma d \hat {W} + \sigma^ {2} (T - t) d t \\ \end{array}
+\begin{array}{l} d f (t, T) = d \left[ - \frac{\partial}{\partial T} \ln P (t, T) \right] \\ = - \frac{\partial}{\partial T} d \ln P (t, T) \tag {14.24} \\ = - \theta (t) d t + d r (t) + \sigma^{2} (T - t) d t \\ = \sigma d \hat {W} + \sigma^{2} (T - t) d t \\ \end{array}
 $$
 
 This satisfies the HJM drift restriction that  $\sigma \int_t^T\sigma du = \sigma^2 (T - t)$
 
 Another interesting result for the Ho-Lee model using the HJM framework is that the short rate process can be expressed in a form of forward curve without the drift term  $\theta(t)$ . Combining (14.18) and (14.24) with  $(\ref{eq:14.24})$ , we obtain:
 
-$$ r (T) = f (t, T) + \frac {1}{2} \sigma^ {2} (T - t) ^ {2} + \int_ {t} ^ {T} \sigma d \hat {W} (u) \tag {14.25}
+$$ r (T) = f (t, T) + \frac{1}{2} \sigma^{2} (T - t)^{2} + \int_{t}^{T} \sigma d \hat {W} (u) \tag {14.25}
 $$
 
 This result clearly demonstrates that the Ho-Lee model will generate exploding short rates. That is  $\hat{\mathbb{E}}[r(T)] \to \infty$  as  $T \to \infty$ .
@@ -485,13 +485,13 @@ This result clearly demonstrates that the Ho-Lee model will generate exploding s
 Note that  $-\ln P(t,T) = rF(t,T) + G(t,T)$  and  $\frac{\partial F(t,T)}{\partial t} = \alpha F(t,T) - 1$ . As a result:
 
 $$
-\begin{array}{l} - d \ln P (t, T) = F (t, T) d r + r \frac {\partial F (t , T)}{\partial t} d t + \frac {\partial G (t , T)}{\partial t} d t \\ = F (t, T) \left[ \alpha \left(\mu - \frac {\sigma \lambda}{\alpha} - r\right) d t + \sigma d \hat {W} \right] + r (\alpha F (t, T) - 1) d t \\ + \left(\mu - \frac {\sigma^ {2}}{2 \sigma^ {2}} - \frac {\sigma \lambda}{\alpha}\right) (- \alpha F (t, T)) d t + \frac {\sigma^ {2}}{2 \alpha} F (t, T) (\alpha F (t, T) - 1) d t \\ = F (t, T) \sigma d \hat {W} - r d t + \frac {1}{2} (F (t, T) \sigma) ^ {2} d t \tag {14.26} \\ \end{array}
+\begin{array}{l} - d \ln P (t, T) = F (t, T) d r + r \frac{\partial F (t , T)}{\partial t} d t + \frac{\partial G (t , T)}{\partial t} d t \\ = F (t, T) \left[ \alpha \left(\mu - \frac{\sigma \lambda}{\alpha} - r\right) d t + \sigma d \hat {W} \right] + r (\alpha F (t, T) - 1) d t \\ + \left(\mu - \frac{\sigma^{2}}{2 \sigma^{2}} - \frac{\sigma \lambda}{\alpha}\right) (- \alpha F (t, T)) d t + \frac{\sigma^{2}}{2 \alpha} F (t, T) (\alpha F (t, T) - 1) d t \\ = F (t, T) \sigma d \hat {W} - r d t + \frac{1}{2} (F (t, T) \sigma)^{2} d t \tag {14.26} \\ \end{array}
 $$
 
 Take derivative with respect to the maturity time  $T$  yields the forward rate process as follows:
 
 $$
-\begin{array}{l} - \frac {\partial}{\partial T} d \ln P (t, T) = d f (t, T) \\ = \frac {\partial F (t , T)}{\partial T} \sigma d \hat {W} + F (t, T) \frac {\partial F (t , T)}{\partial T} \sigma^ {2} d t \tag {14.27} \\ = e ^ {- \alpha (T - t)} \sigma d \hat {W} + e ^ {- \alpha (T - t)} \left(\frac {1 - e ^ {- \alpha (T - t)}}{\alpha}\right) \sigma^ {2} d t \\ \end{array}
+\begin{array}{l} - \frac{\partial}{\partial T} d \ln P (t, T) = d f (t, T) \\ = \frac{\partial F (t , T)}{\partial T} \sigma d \hat {W} + F (t, T) \frac{\partial F (t , T)}{\partial T} \sigma^{2} d t \tag {14.27} \\ = e^{- \alpha (T - t)} \sigma d \hat {W} + e^{- \alpha (T - t)} \left(\frac{1 - e^{- \alpha (T - t)}}{\alpha}\right) \sigma^{2} d t \\ \end{array}
 $$ which verifies the HJM drift restriction result. We shall note that the reversion level,  $\mu$ , disappears from the equation! It is interesting to note that the market price of risk,  $\lambda$ , also disappears from the equation.
 
 
@@ -499,18 +499,18 @@ Previously, we argue that continuous forward rates are martingales under the for
 
 $$
 
-\begin{array}{l} d \tilde {W} ^ {(T)} = d \hat {W} - \frac {\partial P (t , T) / \partial r}{P (t , T)} \sigma d t \tag {14.28} \\ = d \hat {W} + F (t, T) \sigma d t \\ \end{array}
+\begin{array}{l} d \tilde {W}^{(T)} = d \hat {W} - \frac{\partial P (t , T) / \partial r}{P (t , T)} \sigma d t \tag {14.28} \\ = d \hat {W} + F (t, T) \sigma d t \\ \end{array}
 
 $$ and as a result the above equation becomes:
 
 
-$$ d f (t, T) = e ^ {- \alpha (T - t)} \sigma d \tilde {W} ^ {(T)} \tag {14.29}
+$$ d f (t, T) = e^{- \alpha (T - t)} \sigma d \tilde {W}^{(T)} \tag {14.29}
 $$ which is a martingale. We also note that the volatility term is time-decaying, which does not cause exploding short rates. To see that:
 
 
 $$
 
-\begin{array}{l} r (T) = e ^ {- \alpha (T - t)} \left(r (t) + \int_ {t} ^ {T} e ^ {\alpha (s - t)} \alpha \mu d s + \int_ {t} ^ {T} e ^ {\alpha (s - t)} \sigma d \hat {W} (s)\right) \\ = r (t) e ^ {- \alpha (T - t)} + \mu \left(1 - e ^ {- \alpha (T - t)}\right) + \sigma e ^ {- \alpha (T - t)} \int_ {t} ^ {T} e ^ {\alpha (s - t)} d \hat {W} (s) \tag {14.30} \\ = r (t) \frac {\partial F (t , T)}{\partial T} + \alpha \mu F (t, T) + \sigma e ^ {- \alpha (T - t)} \int_ {t} ^ {T} e ^ {\alpha (s - t)} d \hat {W} (s) \\ \end{array}
+\begin{array}{l} r (T) = e^{- \alpha (T - t)} \left(r (t) + \int_{t}^{T} e^{\alpha (s - t)} \alpha \mu d s + \int_{t}^{T} e^{\alpha (s - t)} \sigma d \hat {W} (s)\right) \\ = r (t) e^{- \alpha (T - t)} + \mu \left(1 - e^{- \alpha (T - t)}\right) + \sigma e^{- \alpha (T - t)} \int_{t}^{T} e^{\alpha (s - t)} d \hat {W} (s) \tag {14.30} \\ = r (t) \frac{\partial F (t , T)}{\partial T} + \alpha \mu F (t, T) + \sigma e^{- \alpha (T - t)} \int_{t}^{T} e^{\alpha (s - t)} d \hat {W} (s) \\ \end{array}
 
 $$
 
@@ -518,7 +518,7 @@ From equation  $(\ref{eq:1})$  , we can write:
 
 $$
 
-\begin{array}{l} - \ln P (t, T) = r F (t, T) + G (t, T) \\ f (t, T) = \frac {\partial}{\partial T} (- \ln P (t, T)) \\ = r \frac {\partial F (t , T)}{\partial T} + \frac {\partial G (t , T)}{\partial T} \\ = r \frac {\partial F (t , T)}{\partial T} + \left(\mu - \frac {\sigma^ {2}}{2 \alpha^ {2}}\right) \left(1 - \frac {\partial F (t , T)}{\partial T}\right) + \frac {\sigma^ {2}}{2 \alpha} F (t, T) \frac {\partial F (t , T)}{\partial T} \\ = r \frac {\partial F (t , T)}{\partial T} + \mu \alpha F (t, T) - \frac {\sigma^ {2}}{2 \alpha^ {2}} F (t, T) + \frac {\sigma^ {2}}{2 \alpha} F (t, T) \frac {\partial F (t , T)}{\partial T} \tag {14.31} \\ \end{array}
+\begin{array}{l} - \ln P (t, T) = r F (t, T) + G (t, T) \\ f (t, T) = \frac{\partial}{\partial T} (- \ln P (t, T)) \\ = r \frac{\partial F (t , T)}{\partial T} + \frac{\partial G (t , T)}{\partial T} \\ = r \frac{\partial F (t , T)}{\partial T} + \left(\mu - \frac{\sigma^{2}}{2 \alpha^{2}}\right) \left(1 - \frac{\partial F (t , T)}{\partial T}\right) + \frac{\sigma^{2}}{2 \alpha} F (t, T) \frac{\partial F (t , T)}{\partial T} \\ = r \frac{\partial F (t , T)}{\partial T} + \mu \alpha F (t, T) - \frac{\sigma^{2}}{2 \alpha^{2}} F (t, T) + \frac{\sigma^{2}}{2 \alpha} F (t, T) \frac{\partial F (t , T)}{\partial T} \tag {14.31} \\ \end{array}
 
 $$
 
@@ -526,7 +526,7 @@ Combining equations (14.30) and (14.31), we can derive the following result:
 
 $$
 
-\begin{array}{l} r (T) = f (t, T) + \frac {\sigma^ {2}}{2 \alpha} F (t, T) - \frac {\sigma^ {2}}{2 \alpha} F (t, T) \frac {\partial F (t , T)}{\partial T} + \sigma e ^ {- \alpha (T - t)} \int_ {t} ^ {T} e ^ {\alpha (s - t)} d \hat {W} (s) \\ = f (t, T) + \frac {\sigma^ {2}}{2 \alpha} F (t, T) \left(1 - \frac {\partial F (t , T)}{\partial T}\right) + \sigma e ^ {- \alpha (T - t)} \int_ {t} ^ {T} e ^ {\alpha (s - t)} d \hat {W} (s) \\ = f (t, T) + \frac {\sigma^ {2}}{2} F ^ {2} (t, T) + \sigma e ^ {- \alpha (T - t)} \int_ {t} ^ {T} e ^ {\alpha (s - t)} d \hat {W} (s) \tag {14.32} \\ \end{array}
+\begin{array}{l} r (T) = f (t, T) + \frac{\sigma^{2}}{2 \alpha} F (t, T) - \frac{\sigma^{2}}{2 \alpha} F (t, T) \frac{\partial F (t , T)}{\partial T} + \sigma e^{- \alpha (T - t)} \int_{t}^{T} e^{\alpha (s - t)} d \hat {W} (s) \\ = f (t, T) + \frac{\sigma^{2}}{2 \alpha} F (t, T) \left(1 - \frac{\partial F (t , T)}{\partial T}\right) + \sigma e^{- \alpha (T - t)} \int_{t}^{T} e^{\alpha (s - t)} d \hat {W} (s) \\ = f (t, T) + \frac{\sigma^{2}}{2} F^{2} (t, T) + \sigma e^{- \alpha (T - t)} \int_{t}^{T} e^{\alpha (s - t)} d \hat {W} (s) \tag {14.32} \\ \end{array}
 
 $$
 
@@ -536,12 +536,12 @@ To build a lattice or a Monte-Carlo model for the Vasicek model (say for America
 
 $$
 
-\begin{array}{l} \operatorname {v a r} \left[ \sigma e ^ {- \alpha (T - t)} \int_ {t} ^ {T} e ^ {\alpha (s - t)} d \hat {W} (s) \right] = \sigma^ {2} e ^ {- 2 \alpha (T - t)} \int_ {t} ^ {T} e ^ {2 \alpha (s - t)} d s \tag {14.33} \\ = \sigma^ {2} \frac {1 - e ^ {- 2 \alpha (T - t)}}{2 \alpha} \\ \end{array}
+\begin{array}{l} \operatorname{va r} \left[ \sigma e^{- \alpha (T - t)} \int_{t}^{T} e^{\alpha (s - t)} d \hat {W} (s) \right] = \sigma^{2} e^{- 2 \alpha (T - t)} \int_{t}^{T} e^{2 \alpha (s - t)} d s \tag {14.33} \\ = \sigma^{2} \frac{1 - e^{- 2 \alpha (T - t)}}{2 \alpha} \\ \end{array}
 
 $$ and hence (14.32) can be written as:
 
 
-$$ r (T) = f (t, T) + \frac {\sigma^ {2}}{2} F ^ {2} (t, T) + \sigma \sqrt {\frac {1 - e ^ {- 2 \alpha (T - t)}}{2 \alpha}} z \tag {14.34}
+$$ r (T) = f (t, T) + \frac{\sigma^{2}}{2} F^{2} (t, T) + \sigma \sqrt{\frac{1 - e^{- 2 \alpha (T - t)}}{2 \alpha}} z \tag {14.34}
 $$ where  $z$  is a standard Normal variable. In simulations, for any given future time  $T > t$ , we can simulate standard normal random variables and then linearly transform it to obtain the instantaneous short rate.
 
 
@@ -551,13 +551,13 @@ Note that  $A(t,T)$  and  $B(t,T)$  satisfy the following ordinary differential 
 
 $$
 
-\begin{array}{l} \alpha B (t, T) + \frac {1}{2} \sigma^ {2} B (t, T) - \frac {\partial B (t , T)}{\partial t} - 1 = 0 \\ \partial A (t, T) \quad 1 \end{array} \tag {14.35}
+\begin{array}{l} \alpha B (t, T) + \frac{1}{2} \sigma^{2} B (t, T) - \frac{\partial B (t , T)}{\partial t} - 1 = 0 \\ \partial A (t, T) \quad 1 \end{array} \tag {14.35}
 
 $$
 
 $$
 
-\frac {\partial A (t , T)}{\partial t} \frac {1}{A (t , T)} - \alpha \mu B (t, T) = 0
+\frac{\partial A (t , T)}{\partial t} \frac{1}{A (t , T)} - \alpha \mu B (t, T) = 0
 
 $$
 
@@ -565,7 +565,7 @@ Recall the zero-coupon bond pricing model in Chapter ?? as  $-\ln P(t,T) = rB(t,
 
 $$
 
-\begin{array}{l} - d \ln P (t, T) = B (t, T) d r + r \frac {\partial B (t , T)}{\partial t} d t - \frac {\partial A (t , T)}{\partial t} \frac {1}{A (t , T)} d t \\ = B (t, T) \left[ (\alpha \mu - (\alpha + \lambda) r) d t + \sigma \sqrt {r} d \hat {W} \right] (14.36) \\ + r \left((\alpha + \lambda) B (t, T) + \frac {1}{2} \sigma^ {2} B ^ {2} (t, T) - 1\right) d t - \alpha \mu B (t, T) d t (14.36) \\ = - r d t + \sigma \sqrt {r} B (t, T) d \hat {W} + \frac {1}{2} \sigma^ {2} r B ^ {2} (t, T) d t \\ \end{array}
+\begin{array}{l} - d \ln P (t, T) = B (t, T) d r + r \frac{\partial B (t , T)}{\partial t} d t - \frac{\partial A (t , T)}{\partial t} \frac{1}{A (t , T)} d t \\ = B (t, T) \left[ (\alpha \mu - (\alpha + \lambda) r) d t + \sigma \sqrt{r} d \hat {W} \right] (14.36) \\ + r \left((\alpha + \lambda) B (t, T) + \frac{1}{2} \sigma^{2} B^{2} (t, T) - 1\right) d t - \alpha \mu B (t, T) d t (14.36) \\ = - r d t + \sigma \sqrt{r} B (t, T) d \hat {W} + \frac{1}{2} \sigma^{2} r B^{2} (t, T) d t \\ \end{array}
 
 $$
 
@@ -573,7 +573,7 @@ Taking the derivative with respect to the maturity time  $T$ , we obtain:
 
 $$
 
-\begin{array}{l} - \frac {\partial}{\partial T} d \ln P (t, T) = d f (t, T) \\ = \sigma \sqrt {r} \frac {\partial B (t , T)}{\partial T} d \hat {W} + \sigma^ {2} r B (t, T) \frac {\partial B (t , T)}{\partial T} d t \tag {14.37} \\ \end{array}
+\begin{array}{l} - \frac{\partial}{\partial T} d \ln P (t, T) = d f (t, T) \\ = \sigma \sqrt{r} \frac{\partial B (t , T)}{\partial T} d \hat {W} + \sigma^{2} r B (t, T) \frac{\partial B (t , T)}{\partial T} d t \tag {14.37} \\ \end{array}
 
 $$
 
@@ -581,13 +581,13 @@ Note that, similar to the Vasicek model, the reverting level,  $\mu$ , disappear
 
 $$
 
-\begin{array}{l} d \tilde {W} ^ {(T)} = d \hat {W} - \frac {\partial P (t , T) / \partial r}{P (t , T)} \sigma \sqrt {r} d t \tag {14.38} \\ = d \hat {W} + B (t, T) \sigma \sqrt {r} d t \\ \end{array}
+\begin{array}{l} d \tilde {W}^{(T)} = d \hat {W} - \frac{\partial P (t , T) / \partial r}{P (t , T)} \sigma \sqrt{r} d t \tag {14.38} \\ = d \hat {W} + B (t, T) \sigma \sqrt{r} d t \\ \end{array}
 
 $$
 
 Substituting this change of measure back to the equation (14.37), we arrive at the following:
 
-$$ d f (t, T) = \sigma \sqrt {r} \frac {\partial B (t , T)}{\partial T} d \tilde {W} ^ {(T)} \tag {14.39}
+$$ d f (t, T) = \sigma \sqrt{r} \frac{\partial B (t , T)}{\partial T} d \tilde {W}^{(T)} \tag {14.39}
 $$ which is a martingale. This equation and equation (14.29) verify that continuous forward rates are martingales under the forward measure, as argued in Chapter ??
 
 
@@ -608,12 +608,12 @@ The LMM assumes that  $f(t, T_i, T_j)$  follows a log-normal process. As a resul
 
 $$
 
-C (t, T, \kappa) = P (t, T _ {i}) [ f (t, T _ {i}, T _ {j}) N (d _ {+}) - \kappa N (d _ {-}) ] \tag {14.40}
+C (t, T, \kappa) = P (t, T_{i}) [ f (t, T_{i}, T_{j}) N (d_{+}) - \kappa N (d_{-}) ] \tag {14.40}
 
 $$ where
 
 
-$$ d _ {\pm} = \frac {\ln f (t , T _ {i} , T _ {j}) - \ln \kappa \pm 1 / 2 \sigma^ {2} (T - t)}{\sigma \sqrt {T - t}}
+$$ d_{\pm} = \frac{\ln f (t , T_{i} , T_{j}) - \ln \kappa \pm 1 / 2 \sigma^{2} (T - t)}{\sigma \sqrt{T - t}}
 $$ and  $P(t, T_i)$  is the risk-free discount factor,  $\kappa$  is the strike (rate),  $\sigma$  is the volatility of the log of the forward rate  $f(T_i, T_i, T_j)$  (which is equal to  $\ell(T_i, T_j)$ ).
 
 
@@ -621,13 +621,13 @@ To assure that such an assumption does not violate arbitrage, the LMM (for examp
 
 $$
 
-\begin{array}{l} \frac {d f (t , T _ {k - 1} , T _ {k})}{f (t , T _ {k - 1} , T _ {k})} = \zeta (t, T _ {k - 1}, T _ {k}) d \tilde {W} ^ {(T _ {k})} (t) \\ = - \zeta (t, T _ {k - 1}, T _ {k}) \sum_ {j = k + 1} ^ {n} \frac {\rho_ {k , j} \tau_ {j} \zeta (t , T _ {j - 1} , T _ {j}) f (t , T _ {j - 1} , T _ {j})}{1 + \tau_ {j} f (t , T _ {j - 1} , T _ {j})} d t \tag {14.41} \\ + \zeta (t, T _ {k - 1}, T _ {k}) d \tilde {W} ^ {(T _ {n})} (t) \\ \end{array}
+\begin{array}{l} \frac{d f (t , T_{k - 1} , T_{k})}{f (t , T_{k - 1} , T_{k})} = \zeta (t, T_{k - 1}, T_{k}) d \tilde {W}^{(T_{k})} (t) \\ = - \zeta (t, T_{k - 1}, T_{k}) \sum_{j = k + 1}^{n} \frac{\rho_{k , j} \tau_{j} \zeta (t , T_{j - 1} , T_{j}) f (t , T_{j - 1} , T_{j})}{1 + \tau_{j} f (t , T_{j - 1} , T_{j})} d t \tag {14.41} \\ + \zeta (t, T_{k - 1}, T_{k}) d \tilde {W}^{(T_{n})} (t) \\ \end{array}
 
 $$ where  $\zeta(t, T_{j-1}, T_j)$  is the volatility,  $\tau_j = T_j - T_{j-1}$  and  $\rho_{i,j}$  is the correlation between two separate measures  $d\tilde{W}^{(T_i)}(t)$  and  $d\tilde{W}^{(T_j)}(t)$ , which is difficult to define. As a result a "freezing" action is adopted and  $\rho_{i,j}$  are regarded as constants at the current time. Apparently this assumption is quite restrictive in that during the crisis, it failed to explain the drastic changes in the interest rate dynamics, as pointed out by Gaspar and Pimentel (2015).
 
 From the Vasicek model (see Chapter ??), we know that all zero-coupon bond prices are log-normally distributed. Hence, any discrete forward rate (between  $T_{i}$  and  $T_{j}$ ) should consequently follow a shifted-log-normal distribution, since:
 
-$$ f (t, T _ {i}, T _ {j}) = \frac {P (t , T _ {i})}{P (t , T _ {j})} - 1 \tag {14.42}
+$$ f (t, T_{i}, T_{j}) = \frac{P (t , T_{i})}{P (t , T_{j})} - 1 \tag {14.42}
 $$ where  $T_{i} < T_{j}$ . Each bond price is log-normally distributed and hence the ratio  $\frac{P(t,T_i)}{P(t,T_j)}$  is also log-normally distributed. Subtracting 1 is to shift the log-normal distribution by 1 and hence the lowest forward rate is  $-100\%$ .
 
 
@@ -643,23 +643,23 @@ Recall equation  $(\ref{eq:1})$  from Chapter  $\ref{eq:1}$  (under the risk-neu
 
 $$
 
-\frac {d P (t , T)}{P (t , T)} = r (t) d t + v (t, T) d \hat {W} (t) \tag {14.43}
+\frac{d P (t , T)}{P (t , T)} = r (t) d t + v (t, T) d \hat {W} (t) \tag {14.43}
 
 $$ and also the change of measure between the risk-neutral measure and the  $T$ -forward measure:
 
-$$ d \tilde {W} ^ {(T)} (t) = - v (t, T) d t + d \hat {W} (t) \tag {14.44}
+$$ d \tilde {W}^{(T)} (t) = - v (t, T) d t + d \hat {W} (t) \tag {14.44}
 $$
 
 Furthermore, recall also (from Chapter ??) the forward price to be (for  $T_{i} \leq T_{j}$ ) the ratio of two bond prices:
 
 $$
-\Psi (t, T _ {i}, T _ {j}) = \frac {P (t , T _ {j})}{P (t , T _ {i})} \tag {14.45}
+\Psi (t, T_{i}, T_{j}) = \frac{P (t , T_{j})}{P (t , T_{i})} \tag {14.45}
 $$
 
 Then, we can define the discrete forward rate (plus 1) as:
 
 $$
-\begin{array}{l} F (t, T _ {i}, T _ {j}) = \frac {1}{\Psi (t , T _ {i} , T _ {j})} \tag {14.46} \\ = \frac {P (t , T _ {i})}{P (t , T _ {j})} \\ \end{array}
+\begin{array}{l} F (t, T_{i}, T_{j}) = \frac{1}{\Psi (t , T_{i} , T_{j})} \tag {14.46} \\ = \frac{P (t , T_{i})}{P (t , T_{j})} \\ \end{array}
 $$
 
 Then, the following two lemmas are true.
@@ -667,7 +667,7 @@ Then, the following two lemmas are true.
 Lemma 1.  $F(t, T_i, T_j)$  is  $T_j$ -martingale. This implies: for  $s > t$  and in a limiting case where  $s \to T_i$ , we have:
 
 $$
-F (t, T _ {i}, T _ {j}) = \tilde {\mathbb {E}} _ {t} ^ {(T _ {j})} [ L (T _ {i}, T _ {j}) ] \tag {14.47}
+F (t, T_{i}, T_{j}) = \tilde {\mathbb {E}}_{t}^{(T_{j})} [ L (T_{i}, T_{j}) ] \tag {14.47}
 $$ where  $L$  is the LIBOR.
 
 
@@ -680,12 +680,12 @@ Lemma 2.  $\Psi (t,T_i,T_j) = F(t,T_i,T_j)^{-1}$  is  $T_{i}$  -martingale. This
 
 $$
 
-\Psi (t, T _ {i}, T _ {j}) = \tilde {\mathbb {E}} _ {t} ^ {(T _ {i})} [ \Psi (s, T _ {i}, T _ {j}) ] \tag {14.48}
+\Psi (t, T_{i}, T_{j}) = \tilde {\mathbb {E}}_{t}^{(T_{i})} [ \Psi (s, T_{i}, T_{j}) ] \tag {14.48}
 
 $$ for  $s > t$  and in a limiting case where  $s \to T_i$ , we have:
 
 $$
-\Psi (t, T _ {i}, T _ {j}) = \tilde {\mathbb {E}} _ {t} ^ {(T _ {i})} [ P (T _ {i}, T _ {j}) ] \tag {14.49}
+\Psi (t, T_{i}, T_{j}) = \tilde {\mathbb {E}}_{t}^{(T_{i})} [ P (T_{i}, T_{j}) ] \tag {14.49}
 $$
 
 □
@@ -694,18 +694,18 @@ Again, the proof of this Lemma is similar to the proof of Lemma 1 and is given i
 
 The change of measure between any two forward measures under  $T_{i}$  and  $T_{j}$  is:
 
-$$ d \tilde {W} ^ {(T _ {j})} = d \tilde {W} ^ {(T _ {i})} + \xi (t, T _ {i}, T _ {j}) d t \tag {14.50}
+$$ d \tilde {W}^{(T_{j})} = d \tilde {W}^{(T_{i})} + \xi (t, T_{i}, T_{j}) d t \tag {14.50}
 $$ where
 
 
 $$
 
-\xi (t, T _ {i}, T _ {j}) = v (t, T _ {j}) - v (t, T _ {i}) \tag {14.51}
+\xi (t, T_{i}, T_{j}) = v (t, T_{j}) - v (t, T_{i}) \tag {14.51}
 
 $$ and  $v(\cdot, \cdot)$  is defined in equation (14.43). Furthermore, the dynamics for the discrete forward rate is:
 
 $$
-\frac {d F \left(t , T _ {i} , T _ {j}\right)}{F \left(t , T _ {i} , T _ {j}\right)} = \xi \left(t, T _ {i}, T _ {j}\right) d \tilde {W} ^ {\left(T _ {j}\right)} (t) \tag {14.52}
+\frac{d F \left(t , T_{i} , T_{j}\right)}{F \left(t , T_{i} , T_{j}\right)} = \xi \left(t, T_{i}, T_{j}\right) d \tilde {W}^{\left(T_{j}\right)} (t) \tag {14.52}
 $$
 
 Under the log-normality assumption for the discrete forward rate,  $\xi (t,T_i,T_j)$  is non-stochastic because  $v(t,T_{i})$  and  $v(t,T_{j})$  defined in equation (14.43) are nonstochastic (i.e., not a function of  $\mathbf{r}$ ).
@@ -713,36 +713,36 @@ Under the log-normality assumption for the discrete forward rate,  $\xi (t,T_i,T
 Let's now prove equation (14.50). With log-normality for the discrete forward rate of equation (14.52), we must have the volatility  $\xi(t, T_i, T_j)$  to be non-stochastic. Note that  $\Psi(t, T_i, T_j) = \frac{1}{F(t, T_i, T_j)}$ , we can
 
 $$
-\begin{array}{l} d \Psi (t, T _ {i}, T _ {j}) = d \frac {1}{F (t , T _ {i} , T _ {j})} \\ = \frac {- 1}{F \left(t , T _ {i} , T _ {j}\right)} \left(\xi \left(t, T _ {i}, T _ {j}\right) d \tilde {W} ^ {\left(T _ {j}\right)} (t) - \xi \left(t, T _ {i}, T _ {j}\right) ^ {2} d t\right) \tag {14.53} \\ = - \Psi (t, T _ {i}, T _ {j}) \left(\xi (t, T _ {i}, T _ {j}) d \tilde {W} ^ {(T _ {j})} (t) - \xi (t, T _ {i}, T _ {j}) ^ {2} d t\right) \\ = \Psi (t, T _ {i}, T _ {j}) \left(\xi (t, T _ {i}, T _ {j}) d \tilde {W} ^ {(T _ {j})} (t) - \xi (t, T _ {i}, T _ {j}) ^ {2} d t\right) \\ = \xi (t, T _ {i}, T _ {j}) \Psi (t, T _ {i}, T _ {j}) d \tilde {W} ^ {(T _ {i})} (t) \\ \end{array}
+\begin{array}{l} d \Psi (t, T_{i}, T_{j}) = d \frac{1}{F (t , T_{i} , T_{j})} \\ = \frac{- 1}{F \left(t , T_{i} , T_{j}\right)} \left(\xi \left(t, T_{i}, T_{j}\right) d \tilde {W}^{\left(T_{j}\right)} (t) - \xi \left(t, T_{i}, T_{j}\right)^{2} d t\right) \tag {14.53} \\ = - \Psi (t, T_{i}, T_{j}) \left(\xi (t, T_{i}, T_{j}) d \tilde {W}^{(T_{j})} (t) - \xi (t, T_{i}, T_{j})^{2} d t\right) \\ = \Psi (t, T_{i}, T_{j}) \left(\xi (t, T_{i}, T_{j}) d \tilde {W}^{(T_{j})} (t) - \xi (t, T_{i}, T_{j})^{2} d t\right) \\ = \xi (t, T_{i}, T_{j}) \Psi (t, T_{i}, T_{j}) d \tilde {W}^{(T_{i})} (t) \\ \end{array}
 $$
 
 Consequently, we obtain:
 
-$$ d \tilde {W} ^ {\left(T _ {j}\right)} (t) = d \tilde {W} ^ {\left(T _ {i}\right)} (t) + \xi (t, T _ {i}, T _ {j}) d t \tag {14.54}
+$$ d \tilde {W}^{\left(T_{j}\right)} (t) = d \tilde {W}^{\left(T_{i}\right)} (t) + \xi (t, T_{i}, T_{j}) d t \tag {14.54}
 $$
 
 Now we proceed to solve for  $\xi (t,T_i,T_j)$
 
 $$
-\begin{array}{l} d \Psi (t, T _ {i}, T _ {j}) = d \frac {P (t , T _ {j})}{P (t , T _ {i})} \\ = \Psi (t, T _ {j}, T _ {j + 1}) \left(\frac {d P (t , T _ {j})}{P (t , T _ {j})} - \frac {d P (t , T _ {i})}{P (t , T _ {i})} - \frac {d P (t , T _ {j})}{P (t , T _ {j})} \frac {d P (t , T _ {i})}{P (t , T _ {i})} + \left[ \frac {d P (t , T _ {i})}{P (t , T _ {i})} \right] ^ {2}\right) \\ = \Psi (t, T _ {j}, T _ {j + 1}) ([ v (t, T _ {j}) - v (t, T _ {i}) ] d \hat {W} (t) - v (t, T _ {j}) v (t, T _ {i}) d t + v (t, T _ {i}) ^ {2} d t) \\ = \xi (t, T _ {i}, T _ {j}) \Psi (t, T _ {i}, T _ {j}) d \tilde {W} ^ {(T _ {i})} (t) \tag {14.55} \\ \end{array}
+\begin{array}{l} d \Psi (t, T_{i}, T_{j}) = d \frac{P (t , T_{j})}{P (t , T_{i})} \\ = \Psi (t, T_{j}, T_{j + 1}) \left(\frac{d P (t , T_{j})}{P (t , T_{j})} - \frac{d P (t , T_{i})}{P (t , T_{i})} - \frac{d P (t , T_{j})}{P (t , T_{j})} \frac{d P (t , T_{i})}{P (t , T_{i})} + \left[ \frac{d P (t , T_{i})}{P (t , T_{i})} \right]^{2}\right) \\ = \Psi (t, T_{j}, T_{j + 1}) ([ v (t, T_{j}) - v (t, T_{i}) ] d \hat {W} (t) - v (t, T_{j}) v (t, T_{i}) d t + v (t, T_{i})^{2} d t) \\ = \xi (t, T_{i}, T_{j}) \Psi (t, T_{i}, T_{j}) d \tilde {W}^{(T_{i})} (t) \tag {14.55} \\ \end{array}
 $$ and hence the change of measure (from the last two lines above) is:
 
 
 $$
 
-\begin{array}{l} d \tilde {W} ^ {\left(T _ {i}\right)} (t) = d \hat {W} (t) - \frac {v \left(t , T _ {j}\right) v \left(t , T _ {i}\right) + v \left(t , T _ {i}\right) ^ {2}}{v \left(t , T _ {j}\right) - v \left(t , T _ {i}\right)} d t \tag {14.56} \\ = d \hat {W} (t) - v (t, T _ {i}) d t \\ \end{array}
+\begin{array}{l} d \tilde {W}^{\left(T_{i}\right)} (t) = d \hat {W} (t) - \frac{v \left(t , T_{j}\right) v \left(t , T_{i}\right) + v \left(t , T_{i}\right)^{2}}{v \left(t , T_{j}\right) - v \left(t , T_{i}\right)} d t \tag {14.56} \\ = d \hat {W} (t) - v (t, T_{i}) d t \\ \end{array}
 
 $$ which is consistent with equation (14.44) and:
 
 
 $$
 
-\xi (t, T _ {i}, T _ {j}) = v (t, T _ {j}) - v (t, T _ {i}) \tag {14.57}
+\xi (t, T_{i}, T_{j}) = v (t, T_{j}) - v (t, T_{i}) \tag {14.57}
 
 $$ where  $v(r,t,T)$  is defined in equations (14.15) and equation (14.44). We note that (14.57) implies the following property:
 
 $$
-\xi (t, T _ {i}, T _ {k}) = \xi (t, T _ {i}, T _ {j}) + \xi (t, T _ {j}, T _ {k}) \tag {14.58}
+\xi (t, T_{i}, T_{k}) = \xi (t, T_{i}, T_{j}) + \xi (t, T_{j}, T_{k}) \tag {14.58}
 $$ for all  $i <   j <   k$  .2
 
 
@@ -750,14 +750,14 @@ Two most popular LIBOR derivative contracts are caps/floors and swpations, both 
 
 $$
 
-\begin{array}{l} \frac {d F \left(t , T _ {j} , T _ {j + 1}\right)}{F \left(t , T _ {j} , T _ {j + 1}\right)} = \xi \left(t, T _ {j}, T _ {j + 1}\right) d \tilde {W} ^ {\left(T _ {j + 1}\right)} (t) \tag {14.59} \\ = \xi (t, T _ {j}, T _ {j + 1}) d \tilde {W} ^ {(T _ {j})} (t) + \xi (t, T _ {j}, T _ {j + 1}) ^ {2} d t \\ \end{array}
+\begin{array}{l} \frac{d F \left(t , T_{j} , T_{j + 1}\right)}{F \left(t , T_{j} , T_{j + 1}\right)} = \xi \left(t, T_{j}, T_{j + 1}\right) d \tilde {W}^{\left(T_{j + 1}\right)} (t) \tag {14.59} \\ = \xi (t, T_{j}, T_{j + 1}) d \tilde {W}^{(T_{j})} (t) + \xi (t, T_{j}, T_{j + 1})^{2} d t \\ \end{array}
 
 $$ which is known as the drift adjustment. Recursive substitutions lead to:
 
 
 $$
 
-\frac {d F \left(t , T _ {j} , T _ {j + k}\right)}{F \left(t , T _ {j} , T _ {j + k}\right)} = \xi \left(t, T _ {j}, T _ {j + k}\right) d \tilde {W} ^ {\left(T _ {j}\right)} (t) + \left\{\sum_ {\ell = 1} ^ {k} \xi \left(t, T _ {j}, T _ {j + \ell}\right) \right\} ^ {2} d t \tag {14.60}
+\frac{d F \left(t , T_{j} , T_{j + k}\right)}{F \left(t , T_{j} , T_{j + k}\right)} = \xi \left(t, T_{j}, T_{j + k}\right) d \tilde {W}^{\left(T_{j}\right)} (t) + \left\{\sum_{\ell = 1}^{k} \xi \left(t, T_{j}, T_{j + \ell}\right) \right\}^{2} d t \tag {14.60}
 
 $$
 
@@ -771,7 +771,7 @@ we have:
 
 $$
 
-\begin{array}{l} \frac {d F (t , T _ {j - 1} , T _ {j})}{F (t , T _ {j - 1} , T _ {j})} = \xi (t, T _ {j - 1}, T _ {j}) d \tilde {W} ^ {(T _ {j})} \\ = \frac {\xi (t , T _ {j - 1} , T _ {j})}{\xi (t , T _ {j} , T _ {j + 1})} \xi (t, T _ {j}, T _ {j + 1}) d \tilde {W} ^ {(T _ {j})} \\ = \frac {\xi (t , T _ {j - 1} , T _ {j})}{\xi (t , T _ {j} , T _ {j + 1})} \frac {d \Psi (t , T _ {j} , T _ {j + 1})}{\Psi (t , T _ {j} , T _ {j + 1})} \\ \end{array}
+\begin{array}{l} \frac{d F (t , T_{j - 1} , T_{j})}{F (t , T_{j - 1} , T_{j})} = \xi (t, T_{j - 1}, T_{j}) d \tilde {W}^{(T_{j})} \\ = \frac{\xi (t , T_{j - 1} , T_{j})}{\xi (t , T_{j} , T_{j + 1})} \xi (t, T_{j}, T_{j + 1}) d \tilde {W}^{(T_{j})} \\ = \frac{\xi (t , T_{j - 1} , T_{j})}{\xi (t , T_{j} , T_{j + 1})} \frac{d \Psi (t , T_{j} , T_{j + 1})}{\Psi (t , T_{j} , T_{j + 1})} \\ \end{array}
 
 $$
 
@@ -781,37 +781,37 @@ A cap is a collection of caplets which are simple European call options on forwa
 
 $$
 
-V _ {\text {c a p}} = \sum_ {j = 1} ^ {n} \pi_ {j} \tag {14.61}
+V_{\text{ca p}} = \sum_{j = 1}^{n} \pi_{j} \tag {14.61}
 
 $$ where each caplet  $\pi_j$  is the  $j$ -th caplet which is a European call option on LIBOR between  $T_j$  and  $T_{j+1}$ .
 
 As discussed in Chapter ??, a caplet that is a European call option on forward LIBOR can be written as a European put option on price:
 
 $$
-\begin{array}{l} \left. \max  \left\{\ell \left(T _ {j}, T _ {j + 1}\right) - \bar {R}, 0 \right\} = \max  \left\{\frac {1}{P \left(T _ {j} , T _ {j + 1}\right)} - 1 - \bar {R}, 0 \right\} \right. \tag {14.62} \\ = \frac {1 + \bar {R}}{P (T _ {j} , T _ {j + 1})} \max \{K - P (T _ {j}, T _ {j + 1}), 0 \} \\ \end{array}
+\begin{array}{l} \left. \max  \left\{\ell \left(T_{j}, T_{j + 1}\right) - \bar {R}, 0 \right\} = \max  \left\{\frac{1}{P \left(T_{j} , T_{j + 1}\right)} - 1 - \bar {R}, 0 \right\} \right. \tag {14.62} \\ = \frac{1 + \bar {R}}{P (T_{j} , T_{j + 1})} \max \{K - P (T_{j}, T_{j + 1}), 0 \} \\ \end{array}
 $$ where  $K = 1 / (1 + \bar{R})$ . It is important then to note that although this payoff is paid at time  $T_{j+1}$ , its amount is actually known at time  $T_j$ . Consequently, we can discount it back by one period to be:
 
 
 $$
 
-P \left(T _ {j}, T _ {j + 1}\right) \max  \left\{\ell \left(T _ {j}, T _ {j + 1}\right) - \bar {R}, 0 \right\} = (1 + \bar {R}) \max  \{K - P \left(T _ {j}, T _ {j + 1}\right), 0 \} \tag {14.63}
+P \left(T_{j}, T_{j + 1}\right) \max  \left\{\ell \left(T_{j}, T_{j + 1}\right) - \bar {R}, 0 \right\} = (1 + \bar {R}) \max  \{K - P \left(T_{j}, T_{j + 1}\right), 0 \} \tag {14.63}
 
 $$ and hence we can "conveniently" discount from time  $T_{j}$  which "coincidentally" matches the forward measure needed for the price which is  $T_{j}$ -martingale. The caplet value is the discounted expected value under the risk-neutral measure: $^{5}$
 
 $$
-\begin{array}{l} \pi_ {j} = \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {T _ {j}} r (u) d u\right) (1 + \bar {R}) \max  \{K - P \left(T _ {j}, T _ {j + 1}\right), 0 \} \right] \tag {14.64} \\ = P (t, T _ {j}) (1 + \bar {R}) \tilde {\mathbb {E}} _ {t} ^ {(T _ {j})} [ \max \left\{K - \Psi (T _ {j}, T _ {j}, T _ {j + 1}), 0 \right\} ] \\ \end{array}
+\begin{array}{l} \pi_{j} = \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{T_{j}} r (u) d u\right) (1 + \bar {R}) \max  \{K - P \left(T_{j}, T_{j + 1}\right), 0 \} \right] \tag {14.64} \\ = P (t, T_{j}) (1 + \bar {R}) \tilde {\mathbb {E}}_{t}^{(T_{j})} [ \max \left\{K - \Psi (T_{j}, T_{j}, T_{j + 1}), 0 \right\} ] \\ \end{array}
 $$
 
 Under log-normally distributed forward prices, we have the following caplet formula:
 
 $$
-\begin{array}{l} \pi_ {j} = \frac {P (t , T _ {j})}{K} \left\{K N \left(- \frac {\ln \Psi (t , T _ {j} , T _ {j + 1}) - \ln K - 1 / 2 v _ {P , j} ^ {2}}{v _ {P , j}}\right) \right. \tag {14.65} \\ \left. - \Psi (t, T _ {j}, T _ {j + 1}) N \left(- \frac {\ln \Psi (t , T _ {j} , T _ {j + 1}) - \ln K + ^ {1 / 2} v _ {P , j} ^ {2}}{v _ {P , j}}\right) \right\} \\ \end{array}
+\begin{array}{l} \pi_{j} = \frac{P (t , T_{j})}{K} \left\{K N \left(- \frac{\ln \Psi (t , T_{j} , T_{j + 1}) - \ln K - 1 / 2 v_{P , j}^{2}}{v_{P , j}}\right) \right. \tag {14.65} \\ \left. - \Psi (t, T_{j}, T_{j + 1}) N \left(- \frac{\ln \Psi (t , T_{j} , T_{j + 1}) - \ln K +^{1 / 2} v_{P , j}^{2}}{v_{P , j}}\right) \right\} \\ \end{array}
 $$ where
 
 
 $$
 
-\begin{array}{l} v _ {P, j} ^ {2} = \tilde {\mathbb {V}} [ \ln P (T _ {j}, T _ {j + 1}) ] \\ = \tilde {\mathbb {V}} [ \ln \Psi (T _ {j}, T _ {j}, T _ {j + 1}) ] \tag {14.66} \\ = \int_ {t} ^ {T _ {j}} \xi (u, T _ {j}, T _ {j + 1}) ^ {2} d u \\ \end{array}
+\begin{array}{l} v_{P, j}^{2} = \tilde {\mathbb {V}} [ \ln P (T_{j}, T_{j + 1}) ] \\ = \tilde {\mathbb {V}} [ \ln \Psi (T_{j}, T_{j}, T_{j + 1}) ] \tag {14.66} \\ = \int_{t}^{T_{j}} \xi (u, T_{j}, T_{j + 1})^{2} d u \\ \end{array}
 
 $$ under the log-normal assumption. This equation is a more general form than the similar equation in Chapter ?? (equation (10.5)) where the Vasicek model is assumed. Here, we only need the forward volatility,  $\xi(u, T_j, T_{j+1})$ , to be deterministic (please compare equation (10.6) in Chapter ?? and equation (14.66) here).
 
@@ -824,7 +824,7 @@ Unlike caps, swaptions are quoted by premium. Nevertheless, it is still customar
 A vanilla interest rate swap contract can be decomposed into a series of forward contracts. Hence, a swap rate, under no arbitrage, can be expressed as a weighted average of forward rates as follows (details are given in Chapter ??):
 
 $$
-\begin{array}{l} w (t) = \frac {\sum_ {j = 1} ^ {n} P \left(t , T _ {j}\right) f \left(t , T _ {j} , T _ {j + 1}\right)}{\sum_ {j = 1} ^ {n} P \left(t , T _ {j}\right)} \tag {14.67} \\ = \frac {1 - P (t , T _ {n})}{\sum_ {j = 1} ^ {n} P (t , T _ {j})} \\ \end{array}
+\begin{array}{l} w (t) = \frac{\sum_{j = 1}^{n} P \left(t , T_{j}\right) f \left(t , T_{j} , T_{j + 1}\right)}{\sum_{j = 1}^{n} P \left(t , T_{j}\right)} \tag {14.67} \\ = \frac{1 - P (t , T_{n})}{\sum_{j = 1}^{n} P (t , T_{j})} \\ \end{array}
 $$
 
 Note that a swap has a number of fixing dates between now,  $t$ , and maturity,  $T_{n}$ , so that  $t < T_{1} < \dots < T_{n}$ . For the sake of easy exposition, we shall omit the fixing dates from the swap rate notation. As introduced in Chapter ??, both expressions (line 1 and line 2) are useful. The first expression provides an excellent intuition that a swap rate is a weighted average of forward rates (with weights being  $\frac{P(t,T_j)}{\sum_{j=1}^{n} P(t,T_j)}$ ). The second expression is a quick calculation of the swap rate in that the numerator requires only the last zero coupon bond.
@@ -832,27 +832,27 @@ Note that a swap has a number of fixing dates between now,  $t$ , and maturity, 
 A payer swaption (call) valuation formula is:
 
 $$
-\begin{array}{l} \pi_ {w, j, n} = \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {s} r (u)\right) \sum_ {j = 1} ^ {n} P (s, T _ {j}) \max \{w (s) - w _ {K}, 0 \} \right] \\ = P (t, s) \tilde {\mathbb {E}} _ {t} ^ {(s)} \left[ \sum_ {j = 1} ^ {n} P (s, T _ {j}) \max  \{w (s) - w _ {K}, 0 \} \right] \tag {14.68} \\ = P (t, s) \tilde {\mathbb {E}} _ {t} ^ {(s)} \left[ \sum_ {j = 1} ^ {n} P (s, T _ {j}) \right] \tilde {\mathbb {E}} _ {t} ^ {\Sigma} [ \max \{w (s) - w _ {K}, 0 \} ] \\ = \sum_ {j = 1} ^ {n} P (t, T _ {j}) \tilde {\mathbb {E}} _ {t} ^ {\Sigma} [ \max \{w (s) - w _ {K}, 0 \} ] \\ \end{array}
+\begin{array}{l} \pi_{w, j, n} = \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{s} r (u)\right) \sum_{j = 1}^{n} P (s, T_{j}) \max \{w (s) - w_{K}, 0 \} \right] \\ = P (t, s) \tilde {\mathbb {E}}_{t}^{(s)} \left[ \sum_{j = 1}^{n} P (s, T_{j}) \max  \{w (s) - w_{K}, 0 \} \right] \tag {14.68} \\ = P (t, s) \tilde {\mathbb {E}}_{t}^{(s)} \left[ \sum_{j = 1}^{n} P (s, T_{j}) \right] \tilde {\mathbb {E}}_{t}^{\Sigma} [ \max \{w (s) - w_{K}, 0 \} ] \\ = \sum_{j = 1}^{n} P (t, T_{j}) \tilde {\mathbb {E}}_{t}^{\Sigma} [ \max \{w (s) - w_{K}, 0 \} ] \\ \end{array}
 $$ where  $\tilde{\mathbb{E}}_t^\Sigma$  is the swap measure in which the annuity (i.e.  $\Sigma_{j=1}^n P(s, T_j)$ , symbolized as  $\Sigma$ ) is the numeriare. Then it is clear that the following result holds:
 
 
 $$
 
-\begin{array}{l} \pi_ {w, j, n} = \sum_ {j = 1} ^ {n} P (t, T _ {j}) \left(w (t) \Pi_ {1} ^ {\Sigma} - w _ {K} \Pi_ {2} ^ {\Sigma}\right) \\ = \sum_ {j = 1} ^ {n} \Psi (t, s, T _ {j}) \left(\frac {w (t)}{P (t , s)} \Pi_ {1} ^ {\Sigma} - w _ {K} \Pi_ {2} ^ {\Sigma}\right) \tag {14.69} \\ \end{array}
+\begin{array}{l} \pi_{w, j, n} = \sum_{j = 1}^{n} P (t, T_{j}) \left(w (t) \Pi_{1}^{\Sigma} - w_{K} \Pi_{2}^{\Sigma}\right) \\ = \sum_{j = 1}^{n} \Psi (t, s, T_{j}) \left(\frac{w (t)}{P (t , s)} \Pi_{1}^{\Sigma} - w_{K} \Pi_{2}^{\Sigma}\right) \tag {14.69} \\ \end{array}
 
 $$ where  $\Pi_1^\Sigma$  and  $\Pi_2^\Sigma$  are in-the-money probabilities of the swaption. If the swap rate follows a log-normal distribution, then equation (14.69) can be written as the Black-like formula as follows:
 
-$$ c _ {w, j, n} = \sum_ {j = 1} ^ {n} \Psi (t, s, T _ {j}) \left(\frac {w (t)}{P (t , s)} N \left(\frac {\ln w (t) - \ln w _ {K} - \ln P + 1 / 2 v _ {w , j} ^ {2}}{v _ {w , j}}\right) - w _ {K} N \left(\frac {\ln w (t) - \ln w _ {K} - \ln P - 1 / 2 v _ {w , j} ^ {2}}{v _ {w , j}}\right)\right) \tag {14.70}
+$$ c_{w, j, n} = \sum_{j = 1}^{n} \Psi (t, s, T_{j}) \left(\frac{w (t)}{P (t , s)} N \left(\frac{\ln w (t) - \ln w_{K} - \ln P + 1 / 2 v_{w , j}^{2}}{v_{w , j}}\right) - w_{K} N \left(\frac{\ln w (t) - \ln w_{K} - \ln P - 1 / 2 v_{w , j}^{2}}{v_{w , j}}\right)\right) \tag {14.70}
 $$ where  $v_{w,j}^2 = \tilde{\mathbb{V}}^{(T_j)}[\ln w(T_j)]$ . For equation (14.69) (or (14.70)) to be true, we need, under the swap/annuity measure  $\Sigma$ , that the swap rate is a martingale:
 
 
-$$ w (t) = \tilde {\mathbb {E}} _ {t} ^ {\Sigma} [ w (s) ] \tag {14.71}
+$$ w (t) = \tilde {\mathbb {E}}_{t}^{\Sigma} [ w (s) ] \tag {14.71}
 $$ with the following Radon-Nikodym derivative:
 
 
 $$
 
-\eta (s) = \exp \left(- \int_ {t} ^ {s} r (u) d u\right) \frac {\sum_ {j = 1} ^ {n} P (s , T _ {j})}{\sum_ {j = 1} ^ {n} P (t , T _ {j})} \tag {14.72}
+\eta (s) = \exp \left(- \int_{t}^{s} r (u) d u\right) \frac{\sum_{j = 1}^{n} P (s , T_{j})}{\sum_{j = 1}^{n} P (t , T_{j})} \tag {14.72}
 
 $$
 
@@ -860,19 +860,19 @@ As a result, we have:
 
 $$
 
-\begin{array}{l} \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {s} r (u) d u\right) \frac {\sum_ {j = 1} ^ {n} P (s , T _ {j})}{\sum_ {j = 1} ^ {n} P (t , T _ {j})} w (s) \right] \\ = \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {s} r (u) d u\right) \frac {\sum_ {j = 1} ^ {n} P \left(s , T _ {j}\right)}{\sum_ {j = 1} ^ {n} P \left(t , T _ {j}\right)} \right] \tilde {\mathbb {E}} _ {t} ^ {\Sigma} [ w (s) ] \tag {14.73} \\ = \tilde {\mathbb {E}} _ {t} ^ {\Sigma} [ w (s) ] \\ \end{array}
+\begin{array}{l} \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{s} r (u) d u\right) \frac{\sum_{j = 1}^{n} P (s , T_{j})}{\sum_{j = 1}^{n} P (t , T_{j})} w (s) \right] \\ = \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{s} r (u) d u\right) \frac{\sum_{j = 1}^{n} P \left(s , T_{j}\right)}{\sum_{j = 1}^{n} P \left(t , T_{j}\right)} \right] \tilde {\mathbb {E}}_{t}^{\Sigma} [ w (s) ] \tag {14.73} \\ = \tilde {\mathbb {E}}_{t}^{\Sigma} [ w (s) ] \\ \end{array}
 
 $$
 
 It is easy to verify that  $\hat{\mathbb{E}}_t[\eta (s)] = 1$  as required. Since we know that:
 
-$$ w (s) = \frac {1 - P (s , T _ {n})}{\sum_ {j = 1} ^ {n} P (s , T _ {j})}
+$$ w (s) = \frac{1 - P (s , T_{n})}{\sum_{j = 1}^{n} P (s , T_{j})}
 $$ and hence equation (14.73) can be alternatively derived as:
 
 
 $$
 
-\begin{array}{l} \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {s} r (u) d u\right) \frac {\sum_ {j = 1} ^ {n} P (s , T _ {j})}{\sum_ {j = 1} ^ {n} P (t , T _ {j})} w (s) \right] \\ = \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {s} r (u) d u\right) \frac {1 - P \left(s , T _ {n}\right)}{\sum_ {j = 1} ^ {n} P \left(t , T _ {j}\right)} \right] \\ = P (t, s) \frac {1}{\sum_ {j = 1} ^ {n} P (t , T _ {j})} \tilde {\mathbb {E}} _ {t} ^ {(s)} [ 1 - P (s, T _ {n}) ] \\ = P (t, s) \frac {1 - \Psi (t , s , T _ {n})}{\sum_ {j = 1} ^ {n} P (t , T _ {j})} \tag {14.74} \\ = \frac {P (t , s) - P (t , T _ {n})}{\sum_ {j = 1} ^ {n} P (t , T _ {j})} \\ = w (t) - \frac {1 - P (t , s)}{\sum_ {j = 1} ^ {n} P (t , T _ {j})} \\ \approx w (t) \\ \end{array}
+\begin{array}{l} \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{s} r (u) d u\right) \frac{\sum_{j = 1}^{n} P (s , T_{j})}{\sum_{j = 1}^{n} P (t , T_{j})} w (s) \right] \\ = \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{s} r (u) d u\right) \frac{1 - P \left(s , T_{n}\right)}{\sum_{j = 1}^{n} P \left(t , T_{j}\right)} \right] \\ = P (t, s) \frac{1}{\sum_{j = 1}^{n} P (t , T_{j})} \tilde {\mathbb {E}}_{t}^{(s)} [ 1 - P (s, T_{n}) ] \\ = P (t, s) \frac{1 - \Psi (t , s , T_{n})}{\sum_{j = 1}^{n} P (t , T_{j})} \tag {14.74} \\ = \frac{P (t , s) - P (t , T_{n})}{\sum_{j = 1}^{n} P (t , T_{j})} \\ = w (t) - \frac{1 - P (t , s)}{\sum_{j = 1}^{n} P (t , T_{j})} \\ \approx w (t) \\ \end{array}
 
 $$ where the last approximation holds as  $n\to \infty$ . Combining equations (14.73) and (14.74), we can see that  $\tilde{\mathbb{E}}_t^\Sigma [w(s)] = w(t)$  only if  $n\rightarrow \infty$ . In other words, the swap measure is exact only under either infinity maturity or continuous frequency.
 
@@ -881,13 +881,13 @@ $$ where the last approximation holds as  $n\to \infty$ . Combining equations (1
 Similar to cap valuation, here we demonstrate that the correct swaption valuation is to recognize the swaption contract is a put option on a coupon bond (as opposed to a call option on the swap rate). We first note that the value of a swap at any point in time after time  $t$  is (say  $u$ ) is:
 
 $$
-\begin{array}{l} V (u) = \left(w (u) - w (t)\right) \sum_ {j = 1} ^ {n} P (u, T _ {j}) \\ = \left[ w (u) \sum_ {j = 1} ^ {n} P (u, T _ {j}) + P (u, T _ {n}) \right] - \left[ w (t) \sum_ {j = 1} ^ {n} P (u, T _ {j}) + P (u, T _ {n}) \right] \\ = \left[ \sum_ {j = 1} ^ {n} P (u, T _ {j}) f (u, T _ {j - 1}, T _ {j}) + P (u, T _ {n}) \right] - \left[ w (t) \sum_ {j = 1} ^ {n} P (u, T _ {j}) + P (u, T _ {n}) \right] \\ = \text {f l o a t i n g r a t e b o n d - f i x e d r a t e b o n d} \\ = 1 - \Pi (u, \underline {{T}}; w (t)) \tag {14.75} \\ \end{array}
+\begin{array}{l} V (u) = \left(w (u) - w (t)\right) \sum_{j = 1}^{n} P (u, T_{j}) \\ = \left[ w (u) \sum_{j = 1}^{n} P (u, T_{j}) + P (u, T_{n}) \right] - \left[ w (t) \sum_{j = 1}^{n} P (u, T_{j}) + P (u, T_{n}) \right] \\ = \left[ \sum_{j = 1}^{n} P (u, T_{j}) f (u, T_{j - 1}, T_{j}) + P (u, T_{n}) \right] - \left[ w (t) \sum_{j = 1}^{n} P (u, T_{j}) + P (u, T_{n}) \right] \\ = \text{fl oa ti ng ra te bo nd -f ix ed ra te bo nd} \\ = 1 - \Pi (u, \underline {{T}}; w (t)) \tag {14.75} \\ \end{array}
 $$
 
 Hence, the swaption payoff is:
 
 $$
-\max  \left\{w (u) - w _ {K}, 0 \right\} \sum_ {j = 1} ^ {n} P (u, T _ {j}) = \max  \left\{1 - \Pi (u, \underline {{T}}; w _ {K}), 0 \right\} \tag {14.76}
+\max  \left\{w (u) - w_{K}, 0 \right\} \sum_{j = 1}^{n} P (u, T_{j}) = \max  \left\{1 - \Pi (u, \underline {{T}}; w_{K}), 0 \right\} \tag {14.76}
 $$ which is a put option on a coupon bond with the strike price equal to one. The volatility for the coupon bond is usually  $\sqrt{\mathbb{V}[\ln\Pi(s,\underline{T};c)]}$ . Unfortunately this cannot be solved analytically but only numerically.
 
 
@@ -905,7 +905,7 @@ From Chapter ??,
 
 $$
 
-V (t, T) = \int_ {t} ^ {T} \left\{\left[ \delta \frac {P _ {r} (u , T)}{P (u , T)} \right] ^ {2} - 2 \rho \sigma \delta \frac {P _ {r} (u , T)}{P (u , T)} + \sigma^ {2} \right\} d u \tag {14.77}
+V (t, T) = \int_{t}^{T} \left\{\left[ \delta \frac{P_{r} (u , T)}{P (u , T)} \right]^{2} - 2 \rho \sigma \delta \frac{P_{r} (u , T)}{P (u , T)} + \sigma^{2} \right\} d u \tag {14.77}
 
 $$
 
@@ -913,7 +913,7 @@ From equation  $(\ref{eq:1})$
 
 $$
 
-\frac {P _ {r} (u , T)}{P (u , T)} = - (T - t) \tag {14.78}
+\frac{P_{r} (u , T)}{P (u , T)} = - (T - t) \tag {14.78}
 
 $$
 
@@ -921,7 +921,7 @@ Hence,
 
 $$
 
-\begin{array}{l} V (t, T) = \int_ {t} ^ {T} \left\{\delta^ {2} (T - u) ^ {2} + 2 \rho \sigma \delta (T - u) + \sigma^ {2} \right\} d u \tag {14.79} \\ = \frac {\delta^ {2}}{3} (T - t) ^ {3} + \rho \sigma \delta (T - t) ^ {2} + \sigma^ {2} (T - t) \\ \end{array}
+\begin{array}{l} V (t, T) = \int_{t}^{T} \left\{\delta^{2} (T - u)^{2} + 2 \rho \sigma \delta (T - u) + \sigma^{2} \right\} d u \tag {14.79} \\ = \frac{\delta^{2}}{3} (T - t)^{3} + \rho \sigma \delta (T - t)^{2} + \sigma^{2} (T - t) \\ \end{array}
 
 $$
 
@@ -929,15 +929,15 @@ To complete the formula, we write the option model as follows with the substitut
 
 $$
 
-C (t) = S (t) N \left(d _ {1}\right) - P (t, T) K N \left(d _ {2}\right) \tag {14.80}
+C (t) = S (t) N \left(d_{1}\right) - P (t, T) K N \left(d_{2}\right) \tag {14.80}
 
 $$ where
 
 
-$$ d _ {1} = \frac {\ln S (t) - \ln P (t , T) + V (t , T) / 2}{\sqrt {V (t , T)}}
+$$ d_{1} = \frac{\ln S (t) - \ln P (t , T) + V (t , T) / 2}{\sqrt{V (t , T)}}
 $$
 
-$$ d _ {2} = d _ {1} - V (t, T)
+$$ d_{2} = d_{1} - V (t, T)
 $$
 
 # 14.8.2 Proofs of Lemmas
@@ -945,25 +945,25 @@ $$
 We prove that  $\Psi(t, T_i, T_j)$  is  $T_i$ -martingale. For  $t < s \leqslant T_j$ .
 
 $$
-\begin{array}{l} \tilde {\mathbb {E}} _ {t} ^ {(T _ {i})} [ \Psi (s, T _ {i}, T _ {j}) ] = \tilde {\mathbb {E}} _ {t} ^ {(T _ {i})} \left[ \frac {P (s , T _ {j})}{P (s , T _ {i})} \right] \\ = \frac {1}{P (t , T _ {i})} \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {T _ {i}} r (u) d u\right) \frac {P (s , T _ {j})}{P (s , T _ {i})} \right] \\ = \frac {1}{P (t , T _ {i})} \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {T _ {i}} r (u) d u\right) \frac {\hat {\mathbb {E}} _ {s} \left[ \exp \left(- \int_ {s} ^ {T _ {j}} r (u) d u\right) \right]}{\hat {\mathbb {E}} _ {s} \left[ \exp \left(- \int_ {s} ^ {T _ {i}} r (u) d u\right) \right]} \right] \\ = \frac {1}{P (t , T _ {i})} \hat {\mathbb {E}} _ {t} \left[ \hat {\mathbb {E}} _ {s} \left[ \exp \left(- \int_ {t} ^ {T _ {i}} r (u) d u\right) \frac {\hat {\mathbb {E}} _ {s} \left[ \exp \left(- \int_ {u} ^ {T _ {j}} r (u) d u\right) \right]}{\hat {\mathbb {E}} _ {s} \left[ \exp \left(- \int_ {s} ^ {T _ {i}} r (u) d u\right) \right]} \right] \right] \\ = \frac {1}{P (t , T _ {i})} \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {s} r (u) d u\right) \hat {\mathbb {E}} _ {T} \left[ \exp \left(- \int_ {s} ^ {T _ {i}} r (u) d u\right) \times \right. \right. \\ \left. \begin{array}{l} \hat {\mathbb {E}} _ {s} \left[ \exp \left(- \int_ {s} ^ {T _ {j}} r (u) d u\right) \right] \\ \hline \hat {\mathbb {E}} _ {s} \left[ \exp \left(- \int_ {s} ^ {T _ {i}} r (u) d u\right) \right] \end{array} \right] \\ = \frac {1}{P (t , T _ {i})} \hat {\mathbb {E}} _ {t} \left[ \hat {\mathbb {E}} _ {s} \left[ \exp \left(- \int_ {t} ^ {s} r (u) d u\right) \exp \left(- \int_ {s} ^ {T _ {j}} r (u) d u\right) \right] \right] \\ = \frac {P (t , T _ {j})}{P (t , T _ {i})} = \Psi (t, T _ {i}, T _ {j}) \tag {14.81} \\ \end{array}
+\begin{array}{l} \tilde {\mathbb {E}}_{t}^{(T_{i})} [ \Psi (s, T_{i}, T_{j}) ] = \tilde {\mathbb {E}}_{t}^{(T_{i})} \left[ \frac{P (s , T_{j})}{P (s , T_{i})} \right] \\ = \frac{1}{P (t , T_{i})} \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{T_{i}} r (u) d u\right) \frac{P (s , T_{j})}{P (s , T_{i})} \right] \\ = \frac{1}{P (t , T_{i})} \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{T_{i}} r (u) d u\right) \frac{\hat {\mathbb {E}}_{s} \left[ \exp \left(- \int_{s}^{T_{j}} r (u) d u\right) \right]}{\hat {\mathbb {E}}_{s} \left[ \exp \left(- \int_{s}^{T_{i}} r (u) d u\right) \right]} \right] \\ = \frac{1}{P (t , T_{i})} \hat {\mathbb {E}}_{t} \left[ \hat {\mathbb {E}}_{s} \left[ \exp \left(- \int_{t}^{T_{i}} r (u) d u\right) \frac{\hat {\mathbb {E}}_{s} \left[ \exp \left(- \int_{u}^{T_{j}} r (u) d u\right) \right]}{\hat {\mathbb {E}}_{s} \left[ \exp \left(- \int_{s}^{T_{i}} r (u) d u\right) \right]} \right] \right] \\ = \frac{1}{P (t , T_{i})} \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{s} r (u) d u\right) \hat {\mathbb {E}}_{T} \left[ \exp \left(- \int_{s}^{T_{i}} r (u) d u\right) \times \right. \right. \\ \left. \begin{array}{l} \hat {\mathbb {E}}_{s} \left[ \exp \left(- \int_{s}^{T_{j}} r (u) d u\right) \right] \\ \hline \hat {\mathbb {E}}_{s} \left[ \exp \left(- \int_{s}^{T_{i}} r (u) d u\right) \right] \end{array} \right] \\ = \frac{1}{P (t , T_{i})} \hat {\mathbb {E}}_{t} \left[ \hat {\mathbb {E}}_{s} \left[ \exp \left(- \int_{t}^{s} r (u) d u\right) \exp \left(- \int_{s}^{T_{j}} r (u) d u\right) \right] \right] \\ = \frac{P (t , T_{j})}{P (t , T_{i})} = \Psi (t, T_{i}, T_{j}) \tag {14.81} \\ \end{array}
 $$
 
 Next, we prove that  $F(t,T_i,T_j)$  is  $T_{j}$ -martingale. For  $t < s \leqslant T_{j}$ ,
 
 $$
-\begin{array}{l} \tilde {\mathbb {E}} _ {t} ^ {(T _ {j})} [ F (s, T _ {i}, T _ {j}) ] = \tilde {\mathbb {E}} _ {t} ^ {(w)} \left[ \frac {P (s , T _ {i})}{P (s , T _ {j})} \right] \\ = \frac {1}{P (t , T _ {j})} \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {T _ {j}} r (u) d u\right) \frac {P (s , T _ {i})}{P (s , T _ {j})} \right] \\ = \frac {1}{P (t , T _ {j})} \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {T _ {j}} r (u) d u\right) \frac {\hat {\mathbb {E}} _ {s} \left[ \exp \left(- \int_ {s} ^ {T _ {i}} r (u) d u\right) \right]}{\hat {\mathbb {E}} _ {s} \left[ \exp \left(- \int_ {s} ^ {T _ {j}} r (u) d u\right) \right]} \right] \\ = \frac {1}{P (t , T _ {j})} \hat {\mathbb {E}} _ {t} \left[ \hat {\mathbb {E}} _ {s} \left[ \exp \left(- \int_ {t} ^ {T _ {j}} r (u) d u\right) \frac {\hat {\mathbb {E}} _ {s} \left[ \exp \left(- \int_ {s} ^ {T _ {i}} r (u) d u\right) \right]}{\hat {\mathbb {E}} _ {s} \left[ \exp \left(- \int_ {s} ^ {T _ {j}} r (u) d u\right) \right]} \right] \right] \\ = \frac {1}{P (t , T _ {j})} \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {s} r (u) d u\right) \hat {\mathbb {E}} _ {s} \left[ \exp \left(- \int_ {s} ^ {T _ {j}} r (u) d u\right) \times \right. \right. \\ \left. \begin{array}{l} \hat {\mathbb {E}} _ {s} \left[ \exp \left(- \int_ {s} ^ {T _ {i}} r (u) d u\right) \right] \\ \hline \hat {\mathbb {E}} _ {s} \left[ \exp \left(- \int_ {s} ^ {T _ {j}} r (u) d u\right) \right] \end{array} \right] \\ = \frac {1}{P (t , T _ {j})} \hat {\mathbb {E}} _ {t} \left[ \hat {\mathbb {E}} _ {s} \left[ \exp \left(- \int_ {t} ^ {s} r (u) d u\right) \exp \left(- \int_ {s} ^ {T _ {i}} r (u) d u\right) \right] \right] \\ = \frac {P \left(t , T _ {i}\right)}{P \left(t , T _ {j}\right)} = F \left(t, T _ {i}, T _ {j}\right) \tag {14.82} \\ \end{array}
+\begin{array}{l} \tilde {\mathbb {E}}_{t}^{(T_{j})} [ F (s, T_{i}, T_{j}) ] = \tilde {\mathbb {E}}_{t}^{(w)} \left[ \frac{P (s , T_{i})}{P (s , T_{j})} \right] \\ = \frac{1}{P (t , T_{j})} \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{T_{j}} r (u) d u\right) \frac{P (s , T_{i})}{P (s , T_{j})} \right] \\ = \frac{1}{P (t , T_{j})} \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{T_{j}} r (u) d u\right) \frac{\hat {\mathbb {E}}_{s} \left[ \exp \left(- \int_{s}^{T_{i}} r (u) d u\right) \right]}{\hat {\mathbb {E}}_{s} \left[ \exp \left(- \int_{s}^{T_{j}} r (u) d u\right) \right]} \right] \\ = \frac{1}{P (t , T_{j})} \hat {\mathbb {E}}_{t} \left[ \hat {\mathbb {E}}_{s} \left[ \exp \left(- \int_{t}^{T_{j}} r (u) d u\right) \frac{\hat {\mathbb {E}}_{s} \left[ \exp \left(- \int_{s}^{T_{i}} r (u) d u\right) \right]}{\hat {\mathbb {E}}_{s} \left[ \exp \left(- \int_{s}^{T_{j}} r (u) d u\right) \right]} \right] \right] \\ = \frac{1}{P (t , T_{j})} \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{s} r (u) d u\right) \hat {\mathbb {E}}_{s} \left[ \exp \left(- \int_{s}^{T_{j}} r (u) d u\right) \times \right. \right. \\ \left. \begin{array}{l} \hat {\mathbb {E}}_{s} \left[ \exp \left(- \int_{s}^{T_{i}} r (u) d u\right) \right] \\ \hline \hat {\mathbb {E}}_{s} \left[ \exp \left(- \int_{s}^{T_{j}} r (u) d u\right) \right] \end{array} \right] \\ = \frac{1}{P (t , T_{j})} \hat {\mathbb {E}}_{t} \left[ \hat {\mathbb {E}}_{s} \left[ \exp \left(- \int_{t}^{s} r (u) d u\right) \exp \left(- \int_{s}^{T_{i}} r (u) d u\right) \right] \right] \\ = \frac{P \left(t , T_{i}\right)}{P \left(t , T_{j}\right)} = F \left(t, T_{i}, T_{j}\right) \tag {14.82} \\ \end{array}
 $$
 
 Given,
 
 $$
-\tilde {\mathbb {E}} _ {t} ^ {(s)} [ \Psi (T, s, w) ] = \Psi (t, s, w) \tag {14.83}
+\tilde {\mathbb {E}}_{t}^{(s)} [ \Psi (T, s, w) ] = \Psi (t, s, w) \tag {14.83}
 $$ we have:
 
 
 $$
 
-\tilde {\mathbb {E}} _ {t} ^ {(s)} \left[ \frac {1}{F (T , s , w)} \right] = \frac {1}{F (t , s , w)} = \frac {1}{\tilde {\mathbb {E}} _ {t} ^ {(w)} [ F (T , s , w) ]} \tag {14.84}
+\tilde {\mathbb {E}}_{t}^{(s)} \left[ \frac{1}{F (T , s , w)} \right] = \frac{1}{F (t , s , w)} = \frac{1}{\tilde {\mathbb {E}}_{t}^{(w)} [ F (T , s , w) ]} \tag {14.84}
 
 $$
 

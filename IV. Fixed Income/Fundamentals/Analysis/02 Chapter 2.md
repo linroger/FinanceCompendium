@@ -81,7 +81,7 @@ Figure 2.2: On-the-run Treasury Issues
 This regards mainly US Treasury securities. US Treasuries are one of the most liquid fixed income securities traded publicly. The prices of these hundreds of Treasuries are available every day. In Chapter 1, equation (1.3) as follows:
 
 $$
-P = \frac {1}{(1 + y / 2) ^ {t}} \left(\frac {c}{2} + \frac {c / 2}{1 + y / 2} + \frac {c / 2}{(1 + y / 2) ^ {2}} + \dots + \frac {1 + c / 2}{(1 + y / 2) ^ {2 \times n}}\right) \tag {2.1}
+P = \frac{1}{(1 + y / 2)^{t}} \left(\frac{c}{2} + \frac{c / 2}{1 + y / 2} + \frac{c / 2}{(1 + y / 2)^{2}} + \dots + \frac{1 + c / 2}{(1 + y / 2)^{2 \times n}}\right) \tag {2.1}
 $$ where  $t$  is the yearfraction under the semi-annual basis (see equation (1.3) for the numerical demonstration). As a result, every Treasury issue can obtain a yield which can be plotted as the following example (taken from Chen and Scott (2002)):
 
 
@@ -98,7 +98,7 @@ At issuance, yearfraction is 0 and all issues are auctioned at par. As a result,
 
 $$
 
-P = \frac {c / 2}{1 + y / 2} + \frac {c / 2}{(1 + y / 2) ^ {2}} + \dots + \frac {1 + c / 2}{(1 + y / 2) ^ {n}}
+P = \frac{c / 2}{1 + y / 2} + \frac{c / 2}{(1 + y / 2)^{2}} + \dots + \frac{1 + c / 2}{(1 + y / 2)^{n}}
 
 $$ where  $c$  is the coupon rate and the face value is set at 1. This formula has the following property:
 
@@ -120,11 +120,11 @@ Hence, the Treasury department "adjusts" those on-the-run prices and try to resu
 
 Zero coupon bond yield curve (or zero curve) is the most important yield curve. This is because from this yield curve, we can compute discount factors (or discount curve) for all maturities. These discount factors are used to discount cash flows of the futures. The relationship between the discount factor and the yield for any given maturity is, under continuous time,
 
-$$ y _ {t, T} = - \frac {\ln P (t , T)}{T - t}
+$$ y_{t, T} = - \frac{\ln P (t , T)}{T - t}
 $$ or under discrete time,
 
 
-$$ y _ {t, T} = \sqrt [ T - t ]{\frac {1}{P (t , T)}} - 1
+$$ y_{t, T} = \sqrt [ T - t ]{\frac{1}{P (t , T)}} - 1
 $$
 
 For example,  $r_0 = y_{01} = 6\%$  and  $f_{12} = 8\%$  (both annual), then  $P(0,2) = e^{-(8\% +6\%)} = 0.8694$  (continuous) or  $P(0,2) = \frac{1}{(1 + 6\%) (1 + 8\%)} = 0.8735$  (discrete). Hence, the two year yield  $y_{02} = -\frac{\ln 0.8694}{2} = 7\%$  (continuous) or  $y_{02} = \sqrt{\frac{1}{0.8735}} - 1 = 6.995\%$ .
@@ -134,7 +134,7 @@ For example,  $r_0 = y_{01} = 6\%$  and  $f_{12} = 8\%$  (both annual), then  $P
 Note that the coupon bond price is taken by the market, which is a result of no arbitrage trading. Coupon bond price is determined by arbitrage (if zeros are available)
 
 $$
-\begin{array}{l} \Pi (t, T _ {1}, \dots T _ {n}; c) = c P (t, T _ {1}) + c P (t, T _ {2}) + \dots + (1 0 0 + c) P (t, T _ {n}) \\ = c \sum_ {i = 1} ^ {n} P (t, T _ {i}) + 1 0 0 P (t, T _ {n}) \\ \end{array}
+\begin{array}{l} \Pi (t, T_{1}, \dots T_{n}; c) = c P (t, T_{1}) + c P (t, T_{2}) + \dots + (1 0 0 + c) P (t, T_{n}) \\ = c \sum_{i = 1}^{n} P (t, T_{i}) + 1 0 0 P (t, T_{n}) \\ \end{array}
 $$ where P(t,T_i) is today's (i.e. t = T_0) price of a zero-coupon bond (face value \$1) maturing at time T_i. It is also a risk-free discount factor (discounting back to today t = T_0) of \$1 paid at time T_i. This is no-arbitrage pricing because both zero-coupon bonds and the coupon bond are traded securities and this relationship must hold or arbitrage profits take place.7
 
 
@@ -142,14 +142,14 @@ The yield to maturity of this coupon bond is the internal solution to:
 
 $$
 
-\Pi (t, T _ {1}, T _ {2}, \dots T _ {n}; c) = \sum_ {i = 1} ^ {n} e ^ {- y _ {0 i} \times (T _ {i} - t)} c + e ^ {- y _ {0 n} \times (T _ {n} - t)} 1 0 0
+\Pi (t, T_{1}, T_{2}, \dots T_{n}; c) = \sum_{i = 1}^{n} e^{- y_{0 i} \times (T_{i} - t)} c + e^{- y_{0 n} \times (T_{n} - t)} 1 0 0
 
 $$ or
 
 
 $$
 
-\Pi (t, T _ {1}, T _ {2}, \dots T _ {n}; c) = \sum_ {i = 1} ^ {n} \frac {c}{(1 + y _ {0 i}) ^ {T _ {i} - t}} + \frac {1 0 0}{(1 + y _ {0 n}) ^ {T _ {n} - t}}
+\Pi (t, T_{1}, T_{2}, \dots T_{n}; c) = \sum_{i = 1}^{n} \frac{c}{(1 + y_{0 i})^{T_{i} - t}} + \frac{1 0 0}{(1 + y_{0 n})^{T_{n} - t}}
 
 $$
 
@@ -157,12 +157,12 @@ For example, a 1-yr  $7\%$  coupon bond should be sold at 100.77(100 face) becau
 
 $$
 
-107 e ^ {-6 \%} = 100.77
+107 e^{-6 \%} = 100.77
 
 $$ and 2-yr  $7 \%$  should be: $^{8}$
 
 $$
-7 e ^ {-6 \%} + 107 e ^ {-6 \% -8 \%} = 99.61
+7 e^{-6 \%} + 107 e^{-6 \% -8 \%} = 99.61
 $$
 
 # 2.2.4 Forward Rate Curve
@@ -172,12 +172,12 @@ It is important to construct a forward rate curve, once the yield curve is const
 Recall the continuous yield and forward rate are, respectively:
 
 $$
-\begin{array}{l} y (t, T) = - \frac {1}{T - t} \ln P (t, T) \\ f (t, T) = - \frac {\partial \ln P (t , T)}{\partial T} \\ \end{array}
+\begin{array}{l} y (t, T) = - \frac{1}{T - t} \ln P (t, T) \\ f (t, T) = - \frac{\partial \ln P (t , T)}{\partial T} \\ \end{array}
 $$
 
 As a result,
 
-$$ f (t, T) = - \frac {\partial y (t , T)}{\partial T}
+$$ f (t, T) = - \frac{\partial y (t , T)}{\partial T}
 $$ which implies that the forward rate is the first order differentiation (with respect to maturity) of the yield. Or reversely, yield is an integration of the forward rate. Readers are encouraged to compare this result with the discrete result in Chapter 1.
 
 
@@ -233,7 +233,7 @@ The spline method is a polynomial function between any two yields.
 
 $$
 
-\begin{array}{l} y (\tau) = a _ {i} + b _ {i} (\tau - \tau_ {i}) + c _ {i} (\tau - \tau_ {i}) ^ {2} \\ y (\tau) = a _ {i} + b _ {i} \left(\tau - \tau_ {i}\right) + c _ {i} \left(\tau - \tau_ {i}\right) ^ {2} + d _ {i} \left(\tau - \tau_ {i}\right) ^ {3} \tag {2.2} \\ \end{array}
+\begin{array}{l} y (\tau) = a_{i} + b_{i} (\tau - \tau_{i}) + c_{i} (\tau - \tau_{i})^{2} \\ y (\tau) = a_{i} + b_{i} \left(\tau - \tau_{i}\right) + c_{i} \left(\tau - \tau_{i}\right)^{2} + d_{i} \left(\tau - \tau_{i}\right)^{3} \tag {2.2} \\ \end{array}
 
 $$
 
@@ -245,12 +245,12 @@ The two most popular ones are quadratic and cubic (power 2 and power 3). One can
 
 Quadratic spline is not only continuous but smooth (first order differentiable). Hence it makes sense to connect the slopes from the left and the right. The quadratic equation given in equation (2.2) is:
 
-$$ y (\tau) = a _ {i} + b _ {i} \left(\tau - \tau_ {i}\right) + c _ {i} \left(\tau - \tau_ {i}\right) ^ {2} \tag {2.3}
+$$ y (\tau) = a_{i} + b_{i} \left(\tau - \tau_{i}\right) + c_{i} \left(\tau - \tau_{i}\right)^{2} \tag {2.3}
 $$
 
 First of all, it is obvious that at any  $\tau = \tau_{i}$
 
-$$ y \left(\tau_ {i}\right) = a _ {i} \tag {2.4}
+$$ y \left(\tau_{i}\right) = a_{i} \tag {2.4}
 $$ for all  $i = 0,1,\dots ,n$ . Hence we know that the constants of the quadratic equation are key rates at the knot points.
 
 
@@ -260,22 +260,22 @@ From equation (2.4), we know that  $y(\tau_{i+1}) = a_{i+1}$ . Given that the fu
 
 $$
 
-\begin{array}{l} a _ {i + 1} = y \left(\tau_ {i + 1}\right) \tag {2.5} \\ = a _ {i} + b _ {i} \left(\tau_ {i + 1} - \tau_ {i}\right) + c _ {i} \left(\tau_ {i + 1} - \tau_ {i}\right) ^ {2} \\ \end{array}
+\begin{array}{l} a_{i + 1} = y \left(\tau_{i + 1}\right) \tag {2.5} \\ = a_{i} + b_{i} \left(\tau_{i + 1} - \tau_{i}\right) + c_{i} \left(\tau_{i + 1} - \tau_{i}\right)^{2} \\ \end{array}
 
 $$ which allows us to solve for  $c_{i}$  as follows:
 
-$$ c _ {i} = \frac {\left(a _ {i + 1} - a _ {i}\right) - b _ {i} \left(\tau_ {i + 1} - \tau_ {i}\right)}{\left(\tau_ {i + 1} - \tau_ {i}\right) ^ {2}} \tag {2.6}
+$$ c_{i} = \frac{\left(a_{i + 1} - a_{i}\right) - b_{i} \left(\tau_{i + 1} - \tau_{i}\right)}{\left(\tau_{i + 1} - \tau_{i}\right)^{2}} \tag {2.6}
 $$
 
 $c_{0}$  hence is:
 
-$$ c _ {0} = \frac {(a _ {1} - a _ {0}) - b _ {0} \tau_ {1}}{\tau_ {1} ^ {2}}
+$$ c_{0} = \frac{(a_{1} - a_{0}) - b_{0} \tau_{1}}{\tau_{1}^{2}}
 $$ which relies on  $b_{0}$ . To solve for  $b_{0}$ , we need another equation.
 
 
 Now we take the first order derivative:
 
-$$ y ^ {\prime} (\tau) = b _ {i} + 2 c _ {i} (\tau - \tau_ {i}) \tag {2.7}
+$$ y^{\prime} (\tau) = b_{i} + 2 c_{i} (\tau - \tau_{i}) \tag {2.7}
 $$
 
 At  $\tau_0 = 0$ ,  $y'(0) = b_0$ . This is an extra degree of freedom, and we can, for the sake of convenience, set it to 0. That is:  $b_0 = 0$ . Then  $c_0 = \frac{(a_1 - a_0)}{\tau_1^2}$ .
@@ -283,12 +283,12 @@ At  $\tau_0 = 0$ ,  $y'(0) = b_0$ . This is an extra degree of freedom, and we c
 As a general case, the slope must be the same at the knot points, which means that the slopes from two ends must be equal. From equation (2.7)
 
 $$
-\begin{array}{l} \# 1 \quad y ^ {\prime} (\tau_ {i}) = b _ {i - 1} + 2 c _ {i - 1} \left(\tau_ {i - 1} - \tau_ {i}\right) \tag {2.8} \\ \# 2 \qquad y ^ {\prime} (\tau_ {i}) = b _ {i} + 2 c _ {i} (\tau_ {i} - \tau_ {i}) = b _ {i} \\ \end{array}
+\begin{array}{l} \# 1 \quad y^{\prime} (\tau_{i}) = b_{i - 1} + 2 c_{i - 1} \left(\tau_{i - 1} - \tau_{i}\right) \tag {2.8} \\ \# 2 \qquad y^{\prime} (\tau_{i}) = b_{i} + 2 c_{i} (\tau_{i} - \tau_{i}) = b_{i} \\ \end{array}
 $$
 
 Hence,  $b_{i}$  is:
 
-$$ b _ {i} = b _ {i - 1} + 2 c _ {i - 1} \left(\tau_ {i - 1} - \tau_ {i}\right) \tag {2.9}
+$$ b_{i} = b_{i - 1} + 2 c_{i - 1} \left(\tau_{i - 1} - \tau_{i}\right) \tag {2.9}
 $$ which relies on previous coefficients  $b_{i-1}$  and  $c_{i-1}$  only. Using this result, we can then obtain  $c_i$  by plugging it in equation (2.6).
 
 
@@ -326,11 +326,11 @@ The values of  $b_{i}$  for  $1 \leq i \leq n$ .
 
 The following is the Nelson and Siegel function.
 
-$$ y (\tau) = \beta_ {0} + \beta_ {1} \left(\frac {1 - \exp \left(- \tau / \lambda_ {1}\right)}{\tau / \lambda_ {1}}\right) + \beta_ {2} \left(\frac {1 - \exp \left(- \tau / \lambda_ {2}\right)}{\tau / \lambda_ {2}} - \exp \left(- \tau / \lambda_ {2}\right)\right)
+$$ y (\tau) = \beta_{0} + \beta_{1} \left(\frac{1 - \exp \left(- \tau / \lambda_{1}\right)}{\tau / \lambda_{1}}\right) + \beta_{2} \left(\frac{1 - \exp \left(- \tau / \lambda_{2}\right)}{\tau / \lambda_{2}} - \exp \left(- \tau / \lambda_{2}\right)\right)
 $$ where  $\tau$  is the time to maturity measured in years and  $\lambda_{1}$  and  $\lambda_{2}$  are two arbitrary constants (to make the yield curve more flexibly shaped). The corresponding formula for the instantaneous forward rate is:
 
 
-$$ f (\tau) = \beta_ {0} + \beta_ {1} \exp \left(- \tau / \lambda_ {1}\right) + \beta_ {2} \frac {\tau}{\lambda_ {2}} \exp \left(- \tau / \lambda_ {2}\right)
+$$ f (\tau) = \beta_{0} + \beta_{1} \exp \left(- \tau / \lambda_{1}\right) + \beta_{2} \frac{\tau}{\lambda_{2}} \exp \left(- \tau / \lambda_{2}\right)
 $$
 
 The model is typically applied by fitting the zero rate curve,  $y(\tau)$ , to a set of bond prices, but one can alternatively fit a model for the forward rate curve using the formula for  $f(\tau)$ . Yet Gurkaynak, Sack, and Wright (2006) use a variation of the model to fit the par yield curve. $^{12}$
@@ -339,14 +339,14 @@ The model is typically applied by fitting the zero rate curve,  $y(\tau)$ , to a
 
 Haugen suggests the following function:
 
-$$ y (\tau) = \beta_ {0} + (\beta_ {1} + \beta_ {2} \tau) e ^ {- \beta_ {3} \tau}
+$$ y (\tau) = \beta_{0} + (\beta_{1} + \beta_{2} \tau) e^{- \beta_{3} \tau}
 $$
 
 # Arbitrary Function
 
 Given that there is no theoretical foundation of any of the fitting methods, one can simply seek the function of the best fit. Hence, one can just use a polynomial function between yields and times to maturity.
 
-$$ y (\tau) = \beta_ {0} + \beta_ {1} \tau + \beta_ {2} \tau^ {2} + \dots
+$$ y (\tau) = \beta_{0} + \beta_{1} \tau + \beta_{2} \tau^{2} + \dots
 $$
 
 # 2.3.3 Using a Model
@@ -446,7 +446,7 @@ Figure 2.9: EuroDollar Futures
 ED futures prices are not forward prices. The former is the risk-neutral expectation of the bond price and the latter is the ratio of two bond prices. Hence to generate LIBOR curve, we must convert the futrues prices to forward prices. There are a number of different ways to do that. The easiest way is to do a simple convexity adjustment.
 
 $$
-\text {f o r w a r d} = \text {f u t u r e s} - \frac {1}{2} \sigma^ {2} \tau_ {i} \tau_ {j}
+\text{fo rw ar d} = \text{fu tu re s} - \frac{1}{2} \sigma^{2} \tau_{i} \tau_{j}
 $$ where  $\tau_{1} = T_{i} - t$  and  $\tau_{2} = T_{j} - t$  are times to maturity of the futures contract and and the underlying bond respectively. $^{15}$
 
 
@@ -454,14 +454,14 @@ In Chapter 9, we have the following futures rate equation (equation (9.19)):
 
 $$
 
-\text {f u t u r e s r a t e} = 1 0 0 - \mathrm {Q F P} \tag {2.10}
+\text{fu tu re sr at e} = 1 0 0 - \mathrm{QF P} \tag {2.10}
 
 $$ where QFP is quoted futures price. Hence the forward rate can be computed as:
 
 
 $$
 
-\text {f o r w a r d} = \text {f u t u r e s} - \frac {1}{2} \sigma^ {2} \tau_ {i} ^ {1 / 4}
+\text{fo rw ar d} = \text{fu tu re s} - \frac{1}{2} \sigma^{2} \tau_{i}^{1 / 4}
 
 $$
 
@@ -469,7 +469,7 @@ Recall that the forward rate is:
 
 $$
 
-\Psi \left(t, T _ {i}, T _ {i} + 1 / 4\right) = \frac {1}{1 + \frac {\text {f o r w a r d r a t e}}{4}} \tag {2.11}
+\Psi \left(t, T_{i}, T_{i} + 1 / 4\right) = \frac{1}{1 + \frac{\text{fo rw ar dr at e}}{4}} \tag {2.11}
 
 $$
 
@@ -482,7 +482,7 @@ Lastly, we need to use swap rates to fulfill the LIBOR curve beyond 4 years (not
 
 $$
 
-\mathrm {N P V} = \sum_ {i = 1} ^ {2 n} P (t, T _ {i}) \frac {w (t , T _ {2 n})}{2} - \sum_ {j = 1} ^ {4 m} P (t, T _ {j}) f (t, T _ {j - 1}, T _ {j}) \left(\frac {\text {d a y s} (T _ {j - 1} , T _ {j})}{3 6 0}\right) \tag {2.12}
+\mathrm{NP V} = \sum_{i = 1}^{2 n} P (t, T_{i}) \frac{w (t , T_{2 n})}{2} - \sum_{j = 1}^{4 m} P (t, T_{j}) f (t, T_{j - 1}, T_{j}) \left(\frac{\text{da ys} (T_{j - 1} , T_{j})}{3 6 0}\right) \tag {2.12}
 
 $$ where  $4m = 2n$ ,  $w(t, T_{2n})$  is the fixed swap rate for maturity of  $n$  years, and  $f(t, T_{j-1}, T_j)$  is the forward 3 month LIBOR rate for the payment period from  $T_{j-1}$  to  $T_j$ . We solve for the discount factors (recursively) by setting the NPV's for all of the swaps are set to zero to build the forward 3 month LIBOR curve.
 
@@ -505,8 +505,8 @@ The most liquid instruments that can be used to build Is curve are Fed Fund Futu
 The problem is that to price these basis swaps one needs both the Is curve, to project the Fed Fund rate, and the LIBOR curve, to project the LIBOR rate. In the past one could have generated the LIBOR curve data separately, by using the single curve for both forward projection and discounting.[16]
 
 $$
-D (t, T) = \exp \left(\int_ {t} ^ {T} r (u) d u\right) = \prod_ {i = 0} ^ {n - 1} \left(1 + \frac {R _ {i}}{3 6 0}\right)
-$$ where  $R_{i}$  is the daily Fed Funds rate for day  $i$ ,  $n$  is the number of days, and  $T - t = \frac{n}{\text{days per year}}$ . Note that  $D(t,T)$  is random.
+D (t, T) = \exp \left(\int_{t}^{T} r (u) d u\right) = \prod_{i = 0}^{n - 1} \left(1 + \frac{R_{i}}{3 6 0}\right)
+$$ where  $R_{i}$  is the daily Fed Funds rate for day  $i$ ,  $n$  is the number of days, and  $T - t = \frac{n}{\text{daysperyear}}$ . Note that  $D(t,T)$  is random.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/62f41ad0cf20544355fad6b719ee6f4b6bc453626554c3a470993147e58b24ec.jpg)
 Figure 2.11: OIS Curve
@@ -516,19 +516,19 @@ The discount function is derived from market input quotes by setting the net pre
 
 $$
 
-\mathrm {N P V} = D (t, T) w (t, T) \frac {\mathrm {d a y s t i l l} T}{3 6 0} - \frac {1}{D (t , T)} \left[ \prod_ {i = 0} ^ {n - 1} \left(1 + \frac {R _ {i}}{3 6 0}\right) - 1 \right]
+\mathrm{NP V} = D (t, T) w (t, T) \frac{\mathrm{da ys ti ll} T}{3 6 0} - \frac{1}{D (t , T)} \left[ \prod_{i = 0}^{n - 1} \left(1 + \frac{R_{i}}{3 6 0}\right) - 1 \right]
 
 $$
 
 $$
 
-0 = \frac {1}{D (t , T)} \left[ w (t, T) \frac {\mathrm {d a y s t i l l} T}{3 6 0} + 1 - \frac {1}{D (t , T)} \right]
+0 = \frac{1}{D (t , T)} \left[ w (t, T) \frac{\mathrm{da ys ti ll} T}{3 6 0} + 1 - \frac{1}{D (t , T)} \right]
 
 $$
 
 $$
 
-D (t, T) = \frac {1}{w (t , T) ^ {\frac {\mathrm {d a y s t i l l} T}{3 6 0}} + 1}
+D (t, T) = \frac{1}{w (t , T)^{\frac{\mathrm{da ys ti ll} T}{3 6 0}} + 1}
 
 $$ where  $w(t,T)$  is the fixed swap rate for maturity  $T$ . By setting the NPV = 0, one can solve for the discount function for maturity  $T$ .
 
@@ -571,19 +571,19 @@ Given that the coupons of TIPS are inflation protected (i.e. inflation-indexed),
 Coupons paid on TIPS are inflation-indexed (CPI, consumer price index). Let  $I(t)$  be the CPI index at time  $t$  and  $c_0$  is the contractual coupon rate (and the face value is assumed to be 1).
 
 $$
-\begin{array}{l} \Pi_ {\mathrm {T I P S}} (t, \underline {{T}}; c _ {0}) = \sum_ {i = 1} ^ {n} c _ {i} P (t, T _ {i}) + c _ {n} P (t, T _ {n}) \\ = \sum_ {i = 1} ^ {n} c _ {0} \frac {I (T _ {i})}{I (t)} P (t, T _ {i}) + \frac {I (T _ {n})}{I (t)} P (t, T _ {n}) \\ = \sum_ {i = 1} ^ {n} c _ {0} P _ {\text {r e a l}} (t, T _ {i}) + P _ {\text {r e a l}} (t, T _ {n}) \\ \end{array}
+\begin{array}{l} \Pi_{\mathrm{TI PS}} (t, \underline {{T}}; c_{0}) = \sum_{i = 1}^{n} c_{i} P (t, T_{i}) + c_{n} P (t, T_{n}) \\ = \sum_{i = 1}^{n} c_{0} \frac{I (T_{i})}{I (t)} P (t, T_{i}) + \frac{I (T_{n})}{I (t)} P (t, T_{n}) \\ = \sum_{i = 1}^{n} c_{0} P_{\text{re al}} (t, T_{i}) + P_{\text{re al}} (t, T_{n}) \\ \end{array}
 $$ where  $P_{\mathrm{real}}$  is under the real economy. Note that:
 
 
 $$
 
-\frac {- 1}{T _ {i} - t} \ln P _ {\mathrm {r e a l}} (t, T _ {i}) = \left\{- (\ln I (T _ {i}) - \ln I (t)) - \ln P (t, T _ {i}) \right\} \frac {1}{T _ {i} - t}
+\frac{- 1}{T_{i} - t} \ln P_{\mathrm{re al}} (t, T_{i}) = \left\{- (\ln I (T_{i}) - \ln I (t)) - \ln P (t, T_{i}) \right\} \frac{1}{T_{i} - t}
 
 $$
 
 $$
 
-\iota (t, T _ {i}) = y _ {t, T _ {i}} - y _ {t, T _ {i}} ^ {\mathrm {r e a l}}
+\iota (t, T_{i}) = y_{t, T_{i}} - y_{t, T_{i}}^{\mathrm{re al}}
 
 $$ indicating that expected inflation  $(\iota)$  is the difference between nominal and real yields. This is the usual common sense that nominal rate is equal to real rate plus inflation.
 
@@ -604,24 +604,24 @@ Figure 2.15: LIBOR Timeline
 A risk free floater is a floater whose spread is 0. That is, such a floater pays the benchmark interest rate. For such a floater, the value is always at par at coupon dates. In between coupon dates, the value can deviate slightly from par but it must converge to par when it approaches the coupon date.
 
 $$
-P = \left[ \frac {L _ {1}}{(1 + L _ {1})} + \frac {L _ {2}}{(1 + L _ {1}) (1 + L _ {2})} + \dots + \frac {L _ {n - 1}}{\prod_ {i = 1} ^ {n - 1} (1 + L _ {i})} + \frac {1 + L _ {n}}{\prod_ {i = 1} ^ {n} (1 + L _ {i})} \right] \tag {2.13}
+P = \left[ \frac{L_{1}}{(1 + L_{1})} + \frac{L_{2}}{(1 + L_{1}) (1 + L_{2})} + \dots + \frac{L_{n - 1}}{\prod_{i = 1}^{n - 1} (1 + L_{i})} + \frac{1 + L_{n}}{\prod_{i = 1}^{n} (1 + L_{i})} \right] \tag {2.13}
 $$ where  $L$  is the LIBOR that is changing over time. Note that this equation always leads to 1, because:
 
 
 $$
 
-\frac {1 + L _ {n}}{(1 + L _ {1}) (1 + L _ {2}) \cdots (1 + L _ {n})} = \frac {1}{(1 + L _ {1}) (1 + L _ {2}) \cdots (1 + L _ {n - 1})}
+\frac{1 + L_{n}}{(1 + L_{1}) (1 + L_{2}) \cdots (1 + L_{n})} = \frac{1}{(1 + L_{1}) (1 + L_{2}) \cdots (1 + L_{n - 1})}
 
 $$ which combines with the coupon in the previous period  $L_{n - 1}$  to become:
 
 $$
-\frac {1 + L _ {n - 1}}{(1 + L _ {1}) (1 + L _ {2}) \cdots (1 + L _ {n - 1})}
+\frac{1 + L_{n - 1}}{(1 + L_{1}) (1 + L_{2}) \cdots (1 + L_{n - 1})}
 $$ which is exactly parallel to the result of n coupons. Repeating this process we obtain the following result for the risk free floater:
 
 
 $$
 
-P = \frac {1 + L _ {1}}{(1 + L _ {1})} = 1
+P = \frac{1 + L_{1}}{(1 + L_{1})} = 1
 
 $$
 
@@ -629,7 +629,7 @@ As a result, we can see that no matter how many coupons to be paid by the floate
 
 $$
 
-P = \frac {1 + L _ {1}}{1 + ^ {1} / _ {2} L _ {1}} > 1
+P = \frac{1 + L_{1}}{1 +^{1} /_{2} L_{1}} > 1
 
 $$
 
@@ -648,12 +648,12 @@ The equation is  $(P_0$  is used to present the time of issuance 0 and reflect t
 
 $$
 
-\begin{array}{l} P _ {0} = \left[ \frac {L _ {1} + s _ {0}}{\left(1 + L _ {1} + s _ {0}\right)} + \frac {L _ {2} + s _ {0}}{\left(1 + L _ {1} + s _ {0}\right) \left(1 + L _ {2} + s _ {0}\right)} + \dots + \frac {1 + L _ {n} + s _ {0}}{\prod_ {i = 1} ^ {n} \left(1 + L _ {i} + s _ {0}\right)} \right] \\ = 1 \tag {2.14} \\ \end{array}
+\begin{array}{l} P_{0} = \left[ \frac{L_{1} + s_{0}}{\left(1 + L_{1} + s_{0}\right)} + \frac{L_{2} + s_{0}}{\left(1 + L_{1} + s_{0}\right) \left(1 + L_{2} + s_{0}\right)} + \dots + \frac{1 + L_{n} + s_{0}}{\prod_{i = 1}^{n} \left(1 + L_{i} + s_{0}\right)} \right] \\ = 1 \tag {2.14} \\ \end{array}
 
 $$ where  $s_0$  is the initial spread. By the same math, we can show that the value is 1. As times goes by the default risk of the firm may change and hence the spread at time 1 is different from the initial spread. The price at time 1 will not be par if the spread has changed.
 
 $$
-\begin{array}{l} P _ {1} = \left[ \frac {L _ {2} + s _ {0}}{(1 + L _ {2} + s _ {1})} + \dots + \frac {1 + L _ {n} + s _ {0}}{\prod_ {i = 2} ^ {n} (1 + L _ {i} + s _ {0})} \right] \\ \neq 1 \\ \end{array}
+\begin{array}{l} P_{1} = \left[ \frac{L_{2} + s_{0}}{(1 + L_{2} + s_{1})} + \dots + \frac{1 + L_{n} + s_{0}}{\prod_{i = 2}^{n} (1 + L_{i} + s_{0})} \right] \\ \neq 1 \\ \end{array}
 $$
 
 Note that now the numerator and the denominator have different spreads and they will not cancel each other. Hence the value will not be par. Should the spread remain the same (i.e.  $s_1 = s_0$ ), the bond price would still be at par.
@@ -693,13 +693,13 @@ Figure 2.18: S&P Volatility
 In the Black-Scholes, the volatility that enters into the option formula is:
 
 $$
-\sigma^ {2} (T - t) = \int_ {t} ^ {T} \sigma^ {2} (u) d u = \int_ {t} ^ {T} \sigma^ {2} d u
+\sigma^{2} (T - t) = \int_{t}^{T} \sigma^{2} (u) d u = \int_{t}^{T} \sigma^{2} d u
 $$
 
 If the volatility  $\sigma(u)$  is not constant (or even random) as the data suggest, then the result of the Black-Scholes will fail terribly. Then,
 
 $$
-\frac {1}{T - t} \int_ {t} ^ {T} \sigma^ {2} (u) d u
+\frac{1}{T - t} \int_{t}^{T} \sigma^{2} (u) d u
 $$ will demonstrate a curve (as a function of  $T$ ).
 
 
@@ -727,7 +727,7 @@ Similarly, here the volatility is the standard deviation of the long bond price
 
 $$
 
-\sqrt {\mathbb {V} \left[ \frac {\ln P (T , s)}{s - T} \right]}
+\sqrt{\mathbb {V} \left[ \frac{\ln P (T , s)}{s - T} \right]}
 
 $$
 
@@ -735,7 +735,7 @@ But since log bond price is yield  $-\ln P(T,s) / (s - T) = y_{T,s}$  shown abov
 
 $$
 
-\sqrt {\mathbb {V} (y _ {T , s})}
+\sqrt{\mathbb {V} (y_{T , s})}
 
 $$
 
@@ -750,7 +750,7 @@ In the above diagram, some models take "yield vols" as inputs. Yield vols are vo
 
 $$
 
-\mathbb {V} [ y _ {T, s _ {2}} ] = \mathbb {V} [ y _ {T, s _ {1}} ] + \mathbb {V} [ f _ {T, s _ {1}, s _ {2}} ] + 2 \mathbb {K} [ y _ {T, s _ {1}}, f _ {T, s _ {1}, s _ {2}} ]
+\mathbb {V} [ y_{T, s_{2}} ] = \mathbb {V} [ y_{T, s_{1}} ] + \mathbb {V} [ f_{T, s_{1}, s_{2}} ] + 2 \mathbb {K} [ y_{T, s_{1}}, f_{T, s_{1}, s_{2}} ]
 
 $$ and this is the relationship between two rate vols, forward vol, and the covariance between the two. To link the rate volatility to the yield volatility, we need an interest rate model. The following is the market of swaptions:
 
@@ -775,12 +775,12 @@ As Figure 2.22 shows, the market quotes in terms of volatility, more specificall
 
 $$
 
-C = P (t, T) [ w (t, T, s) N (d _ {+}) - w _ {K} N (d _ {-}) ]
+C = P (t, T) [ w (t, T, s) N (d_{+}) - w_{K} N (d_{-}) ]
 
 $$ where
 
 
-$$ d _ {\pm} = \frac {\ln w (t , T , s) - \ln w _ {K}}{v (t , T , s)} \pm \frac {1}{2} v (t, T, s) ^ {2}
+$$ d_{\pm} = \frac{\ln w (t , T , s) - \ln w_{K}}{v (t , T , s)} \pm \frac{1}{2} v (t, T, s)^{2}
 $$ and  $P(t,T)$  is the discount factor,  $w(t)$  is the current swap rate,  $w_{K}$  is the strike price,  $T$  is the option maturity,  $s$  is the maturity of the swap contract, and  $v(t,T,s)$  is the volatility of the swap rate.
 
 
@@ -841,7 +841,7 @@ However, a short cut can be obtained via a stochastic process formula:[21]
 
 $$
 
-\begin{array}{l} d V = \mu_ {L N} V d t + \sigma_ {L N} V d W \tag {2.15} \\ = \mu_ {N} d t + \sigma_ {N} d W \\ \end{array}
+\begin{array}{l} d V = \mu_{L N} V d t + \sigma_{L N} V d W \tag {2.15} \\ = \mu_{N} d t + \sigma_{N} d W \\ \end{array}
 
 $$ where  $W$  is a Brownian motion and  $dW$  is understood as a normal random variable with mean 0 and variance  $dt$ .
 
@@ -850,7 +850,7 @@ As a result, if one believes that  $\sigma_{LN}$  is constant, then the asset  $
 It is an empirical observation that when  $V$  is close to 0, then normal vol is more reasonable. If  $V$  is high, then lognormal vol is more reasonable. The two can be related via equation (2.15):
 
 $$
-\sigma_ {L N} V = \sigma_ {N}
+\sigma_{L N} V = \sigma_{N}
 $$
 
 For example, a swaption option has a 0.5 lognormal volatility and the swap rate is  $2.5\%$ . Then its normal (bp) vol is  $1.25\%$ .

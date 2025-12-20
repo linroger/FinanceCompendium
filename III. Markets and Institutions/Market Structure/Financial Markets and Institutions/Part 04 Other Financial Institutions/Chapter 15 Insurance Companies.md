@@ -162,7 +162,7 @@ $$
 Suppose that a person wants to purchase an annuity today that would pay 15,000 after taxes per year until the end of that person's life. The insurance company expects the person to live for 25 more years and can invest the amount received for the annuity at a guaranteed interest rate of 5 percent. The fair price for the annuity policy today can be calculated as follows:
 
 $$
-\begin{array}{l} \text {F a i r v a l u e} = \frac {1 5 , 0 0 0}{1 + r} + \frac {1 5 , 0 0 0}{(1 + r) ^ {2}} + \dots + \frac {1 5 , 0 0 0}{(1 + r) ^ {2 5}} \\ = 1 5, 0 0 0 \left[ \frac {1}{1 + r} + \frac {1}{(1 + r) ^ {2}} + \dots + \frac {1}{(1 + r) ^ {2 5}} \right] \\ = 1 5, 0 0 0 \left[ \frac {1 - \frac {1}{(1 + 0 . 0 5) ^ {2 5}}}{0 . 0 5} \right] \\ = 1 5, 0 0 0 [ 1 4. 0 9 3 9 ] \\ = \$ 2 1 1, 4 0 9 \\ \end{array}
+\begin{array}{l} \text{Fa ir va lu e} = \frac{1 5 , 0 0 0}{1 + r} + \frac{1 5 , 0 0 0}{(1 + r)^{2}} + \dots + \frac{1 5 , 0 0 0}{(1 + r)^{2 5}} \\ = 1 5, 0 0 0 \left[ \frac{1}{1 + r} + \frac{1}{(1 + r)^{2}} + \dots + \frac{1}{(1 + r)^{2 5}} \right] \\ = 1 5, 0 0 0 \left[ \frac{1 - \frac{1}{(1 + 0 . 0 5)^{2 5}}}{0 . 0 5} \right] \\ = 1 5, 0 0 0 [ 1 4. 0 9 3 9 ] \\ = \$ 2 1 1, 4 0 9 \\ \end{array}
 $$
 
 Thus, the cost of purchasing this annuity today would be 211,409.
@@ -363,7 +363,7 @@ A common measure of the overall underwriting profitability of a line, which incl
 A property-casualty insurer brings in \$8.72 million in premiums on its private passenger auto physical damage (PD) line of insurance. The line's losses amount to \$5,859,840 and expenses are 2,485,200. The insurer's dividend ratio is 5 percent. Calculate the line's loss ratio, expense ratio, and combined ratio after dividends.
 
 $$
-\begin{array}{l} \text{Loss ratio} \quad = \5,859,840 / \8,720,000 = 67.2\% \\ \text{Expense ratio} = \ 2,485,200 / \ 8,720,000 = 28.5\% \\ \text{Combined ratio} = 67.2 \% + 28.5 \% + 5.0 \% = 100.7 \% \\ \end{array}
+\begin{array}{l} \text{Lossratio} \quad = \5,859,840 / \8,720,000 = 67.2\% \\ \text{Expenseratio} = \ 2,485,200 / \ 8,720,000 = 28.5\% \\ \text{Combinedratio} = 67.2 \% + 28.5 \% + 5.0 \% = 100.7 \% \\ \end{array}
 $$
 
 If premiums are insufficient and the combined ratio exceeds 100 percent, the P&C insurer must rely on investment income on premiums for overall profitability. For example, in 2001 the combined ratio after dividend payments was 116.0 percent, indicating that
@@ -381,7 +381,7 @@ Investment Yield/Return Risk. As discussed previously, when the combined ratio i
 Suppose that an insurance company's loss ratio is 79.8 percent, its expense ratio is 27.9 percent, and the company pays 2 percent of its premiums earned to policyholders as dividends. The combined ratio (after dividends) for this insurance company is equal to:
 
 $$
-\text {L o s s r a t i o} + \text {E x p e n s e r a t i o} + \text {D i v i d e n d r a t i o} = \text {C o m b i n e d r a t i o a f t e r d i v i d e n d s}
+\text{Lo ss ra ti o} + \text{Ex pe ns er at io} + \text{Di vi de nd ra ti o} = \text{Co mb in ed ra ti oa ft er di vi de nd s}
 $$
 
 $$
@@ -393,15 +393,15 @@ Thus, expected losses on all P&C lines, expenses, and dividends exceeded premium
 Suppose, however, that the company's investment portfolio yielded 12 percent. The operating ratio and overall profitability of the P&C insurer would then be:
 
 $$
-\text {O p e r a t i n g} = \text {C o m b i n e d r a t i o a f e r d i v i d e n d s - I n v e s t m e n t y i e l d}
+\text{Op er at in g} = \text{Co mb in ed ra ti oa fe rd iv id en ds -I nv es tm en ty ie ld}
 $$
 
 $$
-= 1 0 9. 7 \text {p e r c e n t} - 1 2. 0 \text {p e r c e n t}
+= 1 0 9. 7 \text{pe rc en t} - 1 2. 0 \text{pe rc en t}
 $$
 
 $$
-= 9 7. 7 \text {p e r c e n t}
+= 9 7. 7 \text{pe rc en t}
 $$
 
 As can be seen, the high investment returns (12 percent) make the P&C insurer profitable overall.

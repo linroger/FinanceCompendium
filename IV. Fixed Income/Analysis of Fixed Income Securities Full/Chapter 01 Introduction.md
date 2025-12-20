@@ -395,19 +395,19 @@ $$
 Under A/A, the year fraction from 1/2/2003 to 2/28/2003 is 57 days (actual number of days between 1/2/2003 to 2/28/2003) divided by 365 (which is the actual number of days in year 2003):
 
 $$
-0.156164 = \frac{\text{# of days in between}}{\text{# of days in a year}} = \frac{57}{365}
+0.156164 = \frac{\text{#ofdaysinbetween}}{\text{#ofdaysina year}} = \frac{57}{365}
 $$
 
 which is the same as A/365 in a normal year (but not in a leap year):
 
 $$
-0.156164 = \frac{\text{# of days in between}}{365} = \frac{57}{365}
+0.156164 = \frac{\text{#ofdaysinbetween}}{365} = \frac{57}{365}
 $$
 
 Finally, under A/360, the year fraction from 1/2/2003 to 2/28/2003 is:
 
 $$
-0.158333 = \frac{\text{# of days in between}}{360} = \frac{57}{360}
+0.158333 = \frac{\text{#ofdaysinbetween}}{360} = \frac{57}{360}
 $$
 
 **Table 1.2: Daycount Conventions in Leap Year**
@@ -424,9 +424,9 @@ In a leap year, there are 29 days in February (e.g. 1996). For example, from 12/
 $$
 \begin{array}{l}
 0.247222 = \left[\frac{30 - 2}{30} + 1 + 1 + \frac{1}{30}\right] \div 12 \\
-0.245902 = \frac{\# \text{of days in between}}{\# \text{of days in a year}} = \frac{90}{366} \\
-0.250000 = \frac{\text{# of days in between}}{360} = \frac{90}{360} \\
-0.246575 = \frac{\# \text{of days in between}}{365} = \frac{90}{365} \\
+0.245902 = \frac{\# \text{ofdaysinbetween}}{\# \text{ofdaysina year}} = \frac{90}{366} \\
+0.250000 = \frac{\text{#ofdaysinbetween}}{360} = \frac{90}{360} \\
+0.246575 = \frac{\# \text{ofdaysinbetween}}{365} = \frac{90}{365} \\
 \end{array}
 $$
 
@@ -441,7 +441,7 @@ Accrued interest is another daycount convention in fixed income. For reasons giv
 Hence, the dirty price is:
 
 $$
-\text{Dirty Price} = \text{Clean Price} + \frac{60}{182} \times \frac{\text{cpn}}{2}
+\text{DirtyPrice} = \text{CleanPrice} + \frac{60}{182} \times \frac{\text{cpn}}{2}
 $$
 
 ### 1.4.6 Spreads

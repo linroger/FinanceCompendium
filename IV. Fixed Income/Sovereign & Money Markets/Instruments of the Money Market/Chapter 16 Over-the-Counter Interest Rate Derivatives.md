@@ -59,7 +59,7 @@ $$
 where
 
 $$
-N = \text {t h e n o t i o n a l p r i n c i p a l a m o u n t o f t h e a g r e q u e m e n t};
+N = \text{th en ot io na lp ri nc ip al am ou nt of th ea gr eq ue me nt};
 $$
 
 LIBOR = the value of LIBOR for the maturity specified by the contract prevailing on the contract settlement
@@ -67,7 +67,7 @@ LIBOR = the value of LIBOR for the maturity specified by the contract prevailing
 date;
 
 $$
-F R = \text {t h e a g r e e d - u p o n f o r w a r d r a t e ; a n d}
+F R = \text{th ea gr ee d -u po nf or wa rd ra te ;a nd}
 $$
 
 $dtm =$  maturity of the forward rate, specified in days.
@@ -131,7 +131,7 @@ where  $N$  denotes the notional principal amount of the agreement.
 Floating-rate payments are based on an actual/360-day count, meaning that interest payments are calculated using the actual number of days elapsed since the previous payment date, based on a 360-day year. Let  $d_{t}$  denote the number of days since the last settlement date. Then, the floating-rate payment is determined by the formula
 
 $$
-(N) (L I B O R) (d _ {t} / 3 6 0).
+(N) (L I B O R) (d_{t} / 3 6 0).
 $$
 
 To illustrate, suppose a dealer quotes an All-In-Cost for a generic swap at 10 percent against six-month LIBOR flat. If the notional principal amount of the swap is \$1 million, then the semiannual fixed payment would be
@@ -173,7 +173,7 @@ Pricing the Variable-Rate Note A variable-rate note whose payments are indexed t
 Pricing the Fixed-Rate Note The hypothetical fixed-rate note  $B(0, T)$  can be priced using standard bond valuation techniques. The convention in swap markets is to quote the AIC as a semiannual bond-equivalent rate. The formula for valuing a bond paying semiannual fixed coupon payments is
 
 $$
-B (0, T) = \sum_ {t = 0} ^ {2 T} \left[ (C / 2) / (1 + y / 2) ^ {t} \right] + [ N / (1 + y) ^ {T} ],
+B (0, T) = \sum_{t = 0}^{2 T} \left[ (C / 2) / (1 + y / 2)^{t} \right] + [ N / (1 + y)^{T} ],
 $$
 
 where  $C$  is the annual coupon payment,  $T$  the number of years to maturity,  $N$  the principal or face value, and  $y$  the yield-to-maturity of the bond.
@@ -225,7 +225,7 @@ Payment schedules for interest rate caps follow conventions in the interest rate
 If the specified market index is above the cap rate, the seller pays the buyer the difference in interest cost on the next payment date. The amount of the payment is determined by the formula
 
 $$
-(N) \max (0, r - r _ {\mathrm {c}}) (d _ {t} / 3 6 0),
+(N) \max (0, r - r_{\mathrm{c}}) (d_{t} / 3 6 0),
 $$
 
 where  $N$  is the notional principal amount of the agreement,  $r_c$  is the cap rate (expressed as a decimal), and  $d_t$  is the number of days from the interest rate reset date to the payment date. Interest rates quoted in cap agreements follow money market day-count conventions, so that payment calculations assume a 360-day year.
@@ -256,7 +256,7 @@ where  $N$  is the notional principal amount of the agreement ( \$1 million for 
 as  $F = 100 - r$ , where  $r$  is the three-month LIBOR implied by the futures price. Now, write  $K = 100 - r_{k}$  where  $r_{k}$  is the futures interest rate implied by the strike price  $K$ . Then, the payoff at expiration to a Eurodollar futures option can be expressed as
 
 $$
-(N) \max  [ 0, 1 0 0 - r _ {k} - (1 0 0 - r) ] (9 0 / 3 6 0) = (N) \max  (0, r - r _ {k}) (9 0 / 3 6 0).
+(N) \max  [ 0, 1 0 0 - r_{k} - (1 0 0 - r) ] (9 0 / 3 6 0) = (N) \max  (0, r - r_{k}) (9 0 / 3 6 0).
 $$
 
 where, as before,  $N$  is the notional principal amount of the agreement,  $r_c$  is the cap rate,  $r_f$  is the floor rate, and  $d_t$  is the term of the index in days. Figure 7 illustrates the payoff to buying a one-period zero-cost interest rate collar. If the index interest rate  $r$  is less than the floor rate  $r_f$  on the interest rate reset date, the floor is in-the-money and the collar buyer (who has sold a floor) must pay the collar counterparty an amount equal to  $(N)(r_f - r)(d_t / 360)$ . When  $r$  is greater than  $r_f$  but less than the cap rate  $r_c$ , both the floor and the cap are out-of-the-money and no payments are exchanged. Finally, when the index is above the cap rate the cap is in-the-money and the buyer receives  $(N)(r - r_c)(d_t / 360)$ .
@@ -291,7 +291,7 @@ if the index interest rate rises above the floor rate, so the most a buyer can l
 The payment received by the buyer of an interest rate floor is determined by the formula
 
 $$
-(N) \max  (0, r _ {f} - r) \left(d _ {t} / 3 6 0\right),
+(N) \max  (0, r_{f} - r) \left(d_{t} / 3 6 0\right),
 $$
 
 where  $N$  is the notional principal amount of the agreement,  $r_f$  is the floor rate or strike price, and  $d_t$  is the number of days from the last interest rate reset date to the payment date. Figure 6 depicts the payoff to a one-period floor as a function of the value of the underlying index rate. If the index rate is below the floor rate on the interest rate reset date the buyer receives a payment of  $(N)(r_f - r)(d_t / 360)$ , which is equivalent to the payoff from selling an FRA at a forward rate of  $r_f$ . On the other hand, if the index rate is above the floor rate the buyer receives no payment and loses the premium paid to the seller. Thus, a floor effectively gives the buyer the right, but not the obligation, to sell an FRA, which makes it equivalent to a European put option on an FRA. More generally, a multi-period floor can be viewed as a bundle of European-style put options on a sequence of FRAs maturing on a succession of future maturity dates.
@@ -311,7 +311,7 @@ $(N)$  max(0,  $F - K$  90/360),
 where  $F = 100 - r$  is the index price of the underlying futures contract and  $K$  is the strike price. As before, write  $K = 100 - r_{K}$ . Then, the payoff to a Eurodollar futures call option can be expressed in terms of the underlying interest rate as
 
 $$
-(N) \max (0, r _ {k} - r) (9 0 / 3 6 0),
+(N) \max (0, r_{k} - r) (9 0 / 3 6 0),
 $$
 
 which is the same as the payoff to a one-period interest rate floor indexed to 90-day LIBOR with a floor rate equal to
@@ -327,7 +327,7 @@ of the cap. A zero-cost collar results when the premium earned by selling a floo
 The amount of the payment due to or owed by a buyer of an interest rate collar is determined by the expression
 
 $$
-(N) [ \max (0, r - r _ {c}) - \max (0, r _ {f} - r) ] (d _ {t} / 3 6 0),
+(N) [ \max (0, r - r_{c}) - \max (0, r_{f} - r) ] (d_{t} / 3 6 0),
 $$
 
 where, as before,  $N$  is the notional principal amount of the agreement,  $r_c$  is the cap rate,  $r_f$  is the floor rate, and  $d_t$  is the term of the index in days. Figure 7 illustrates the payoff to buying a one-period zero-cost interest rate collar. If the index interest rate  $r$  is less than the floor rate  $r_f$  on the interest rate reset date, the floor is in-the-money and the collar buyer (who has sold a floor) must pay the collar counterparty an amount equal to  $(N)(r_f - r)(d_t / 360)$ . When  $r$  is greater than  $r_f$  but less than the cap rate  $r_c$ , both the floor and the cap are out-of-the-money and no payments are exchanged. Finally, when the index is above the cap rate the cap is in-the-money and the buyer receives  $(N)(r - r_c)(d_t / 360)$ .

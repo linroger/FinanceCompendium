@@ -95,7 +95,7 @@ We will solve this problem in three steps. First, we will show that if North Ame
 First, we compute the value of the "pooled" portfolio, that is, the price at which the bank can sell or securitize the portfolio without any information communication. Given risk neutrality, the bank offering portfolio A will be able to sell it for the average of the values of portfolios A and B, that is, at
 
 $$
-\begin{array}{l} 0. 5 \left[ 0. 9 \times 1 0 0 + 0. 1 \times 3 0 \right] \quad + \quad 0. 5 \left[ 0. 7 \times 1 0 0 + 0. 3 \times 3 0 \right] \\ (\text {e x p e c t e d} \quad \text {v a l u e o f} \quad \text {l o a n p o r t i f i o} \quad A) \quad (\text {e x p e c t e d} \quad \text {v a l u e o f} \quad \text {l o a n p o r t i f i o} \quad B) \\ = 0. 5 [ 9 3 ] + 0. 5 [ 7 9 ] = \$ 8 6. \\ \end{array}
+\begin{array}{l} 0. 5 \left[ 0. 9 \times 1 0 0 + 0. 1 \times 3 0 \right] \quad + \quad 0. 5 \left[ 0. 7 \times 1 0 0 + 0. 3 \times 3 0 \right] \\ (\text{ex pe ct ed} \quad \text{va lu eo f} \quad \text{lo an po rt if io} \quad A) \quad (\text{ex pe ct ed} \quad \text{va lu eo f} \quad \text{lo an po rt if io} \quad B) \\ = 0. 5 [ 9 3 ] + 0. 5 [ 7 9 ] = \$ 8 6. \\ \end{array}
 $$
 
 Then, it is apparent that it does not pay for North American to reveal its true portfolio quality to investors, since its net payoff from doing so is  \$93 (the privately known value of its loan portfolio) minus\$ 11 (the cost of information communication), which equals \$82, whereas the "pooling value" of its loan portfolio is \$86. Thus, securitization without communication dominates securitization with communication.
@@ -332,8 +332,8 @@ If North American does not communicate any information to investors, the market 
 ```latex
 \[
 \begin{array}{l}
-\{2 \times 0.5 \text{ } \text{个} \text{ } \text{Total number of loans} \text{ } \text{Probability that loan portfolio is high-valued} \text{ } \text{Expected value of high-valued loan portfolio} \\
-+\{2 \times 0.5 \text{ } \text{个} \text{ } \text{Total number of loans} \text{ } \text{Probability that loan portfolio is low-valued} \text{ } \text{Expected value of low-valued loan portfolio}
+\{2 \times 0.5 \text{ } \text{个} \text{ } \text{Totalnumberofloans} \text{ } \text{Probabilitythatloanportfolioishigh-valued} \text{ } \text{Expectedvalueofhigh-valuedloanportfolio} \\
++\{2 \times 0.5 \text{ } \text{个} \text{ } \text{Totalnumberofloans} \text{ } \text{Probabilitythatloanportfolioislow-valued} \text{ } \text{Expectedvalueoflow-valuedloanportfolio}
 \end{array}
 \]
 ```
@@ -413,7 +413,7 @@ The model: Consider a bank that needs to raise  $d$  to finance its first-period
 Let  $B$  be the repayment promised to the uninsured depositor and  $D(\theta)$  the state-contingent payment actually received by them at the end of the period. To induce them to invest in uninsured deposits, it must be true that
 
 $$
-\sum_ {\theta = 1} ^ {N} p (\theta) U (D (\theta)) \geq U \left\{\left[ 1 + r _ {\mathrm {f}} \right] d _ {\mathrm {u}} \right\} \tag {11.1}
+\sum_{\theta = 1}^{N} p (\theta) U (D (\theta)) \geq U \left\{\left[ 1 + r_{\mathrm{f}} \right] d_{\mathrm{u}} \right\} \tag {11.1}
 $$
 
 where the possible future states are  $\theta = 1, \dots, N$ , and  $p(\theta)$  is the probability of state  $\theta$ . The inequality in Equation (11.1) says that the expected utility of the uninsured depositor from investing in these deposits can be no less than his utility from receiving a sure payoff by investing in the risk-free asset.
@@ -421,37 +421,37 @@ where the possible future states are  $\theta = 1, \dots, N$ , and  $p(\theta)$ 
 Now  $[1 + r_{\mathrm{f}}]d_{\mathrm{i}}$  is the amount promised by the bank to the insured depositors, and  $D(\theta)$  is the amount for uninsured depositors. If  $A(\theta) \geq [1 + r_{\mathrm{f}}]d_{\mathrm{i}} + B$ , the bank is solvent and the insured depositors receive  $[1 + r_{\mathrm{f}}]d_{\mathrm{i}}$  from the bank. If  $A(\theta) < [1 + r_{\mathrm{f}}]d_{\mathrm{i}} + B$ , the bank fails. The insured depositors still receive  $[1 + r_{\mathrm{f}}]d_{\mathrm{i}}$ , but only a portion of it comes from the bank. The FDIC covers the rest. This is a situation in which the FDIC takes over the bank, pays off  $[1 + r_{\mathrm{f}}]d_{\mathrm{i}}$  to the insured depositors, and then shares the remaining assets of the bank proportionately with the uninsured depositors.[35] The proportions are determined by the relative contributions of insured and uninsured deposits to the total deposit base. That is, whenever there is insolvency (i.e.,  $A(\theta) < [1 + r_{\mathrm{f}}]d_{\mathrm{i}} + B$ ), the amount collected by the uninsured depositors is
 
 $$
-D (\theta) = \left[ \frac {B}{B + \left[ 1 + r _ {\mathrm {f}} \right] d _ {\mathrm {i}}} \right] A (\theta) \tag {11.2}
+D (\theta) = \left[ \frac{B}{B + \left[ 1 + r_{\mathrm{f}} \right] d_{\mathrm{i}}} \right] A (\theta) \tag {11.2}
 $$
 
 and the amount collected by the FDIC is
 
 $$
-F (\theta) = \left[ \frac {\left[ 1 + r _ {\mathrm {f}} \right] d _ {i}}{B + \left[ 1 + r _ {\mathrm {f}} \right] d _ {\mathrm {i}}} \right] A (\theta). \tag {11.3}
+F (\theta) = \left[ \frac{\left[ 1 + r_{\mathrm{f}} \right] d_{i}}{B + \left[ 1 + r_{\mathrm{f}} \right] d_{\mathrm{i}}} \right] A (\theta). \tag {11.3}
 $$
 
 We can now write down each party's payoff at the end of the first period. First, the insured depositors receive  $[1 + r_i]d_i$  regardless of  $\theta$ . Second, the uninsured depositors receive
 
 $$
-D (\theta) = \left\{ \begin{array}{l l} B & \text {i f} A (\theta) \geq B + \left[ 1 + r _ {\mathrm {f}} \right] d _ {\mathrm {i}} \\ A (\theta) / \left[ B + \left[ 1 + r _ {\mathrm {f}} \right] d _ {\mathrm {i}} \right] & \text {o t h e r w i s e .} \end{array} \right. \tag {11.4}
+D (\theta) = \left\{ \begin{array}{l l} B & \text{if } A (\theta) \geq B + \left[ 1 + r_{\mathrm{f}} \right] d_{\mathrm{i}} \\ A (\theta) / \left[ B + \left[ 1 + r_{\mathrm{f}} \right] d_{\mathrm{i}} \right] & \text{ot he rw is e .} \end{array} \right. \tag {11.4}
 $$
 
 The bank's shareholders receive (at the end of the period)
 
 $$
-S (\theta) = \left\{ \begin{array}{l l} A (\theta) - B - \left[ 1 + r _ {\mathrm {f}} \right] d _ {\mathrm {i}} & \text {i f} A (\theta) \geq B + \left[ 1 + r _ {\mathrm {f}} \right] d _ {\mathrm {i}} \\ 0 & \text {o t h e r w i s e .} \end{array} \right. \tag {11.5}
+S (\theta) = \left\{ \begin{array}{l l} A (\theta) - B - \left[ 1 + r_{\mathrm{f}} \right] d_{\mathrm{i}} & \text{if } A (\theta) \geq B + \left[ 1 + r_{\mathrm{f}} \right] d_{\mathrm{i}} \\ 0 & \text{ot he rw is e .} \end{array} \right. \tag {11.5}
 $$
 
 The FDIC receives (at the end of the period)
 
 $$
-F (\theta) = \left\{ \begin{array}{l l} 0 & \text {i f} A (\theta) \geq B + \left[ 1 + r _ {\mathrm {f}} \right] d _ {\mathrm {i}} \\ - \left[ 1 + r _ {\mathrm {f}} \right] d _ {\mathrm {i}} + \left[ \frac {\left[ 1 + r _ {\mathrm {f}} \right] d _ {\mathrm {i}}}{B + \left[ 1 + r _ {\mathrm {f}} \right] d _ {\mathrm {i}}} \right] A (\theta) & \text {o t h e r w i s e .} \end{array} \right. \tag {11.6}
+F (\theta) = \left\{ \begin{array}{l l} 0 & \text{if } A (\theta) \geq B + \left[ 1 + r_{\mathrm{f}} \right] d_{\mathrm{i}} \\ - \left[ 1 + r_{\mathrm{f}} \right] d_{\mathrm{i}} + \left[ \frac{\left[ 1 + r_{\mathrm{f}} \right] d_{\mathrm{i}}}{B + \left[ 1 + r_{\mathrm{f}} \right] d_{\mathrm{i}}} \right] A (\theta) & \text{ot he rw is e .} \end{array} \right. \tag {11.6}
 $$
 
 Note that the lower term in Equation (11.6) applies when  $A(\theta) < B + [1 + r_{\mathrm{f}}]d_{\mathrm{i}}$ , so that
 
 $$
-- [ 1 + r _ {\mathrm {f}} ] d _ {\mathrm {i}} + \left[ \frac {[ 1 + r _ {\mathrm {i}} ] d _ {\mathrm {i}}}{B + [ 1 + r _ {\mathrm {f}} ] d _ {\mathrm {i}}} \right] A (\theta) <   0.
+- [ 1 + r_{\mathrm{f}} ] d_{\mathrm{i}} + \left[ \frac{[ 1 + r_{\mathrm{i}} ] d_{\mathrm{i}}}{B + [ 1 + r_{\mathrm{f}} ] d_{\mathrm{i}}} \right] A (\theta) <   0.
 $$
 
 Thus, the end-of-period cash flow to the FDIC is always zero or less.
@@ -459,7 +459,7 @@ Thus, the end-of-period cash flow to the FDIC is always zero or less.
 At the start of the period, the bank's shareholders pay a deposit insurance premium to the FDIC. We assume that this premium is risk insensitive and fairly priced. Let  $p$  denote this premium. To write down this premium, let us rank-order the states  $\theta$  in increasing order of  $A(\theta)$ , so that  $A(1) < A(2) < \ldots < A(N)$ . Let  $\theta = m$  be the state such that  $A(\theta) \geq B + [1 + r_{\mathrm{f}}]d_{\mathrm{i}}$  for all  $\theta > m$  and  $A(\theta) < B + [1 + r_{\mathrm{f}}]d_{\mathrm{i}}$  for all  $\theta < m$ . Then, the expected value of Equation (11.6) is
 
 $$
-\pi = \frac {1}{\left[ 1 + r _ {\mathrm {f}} \right]} \sum_ {\theta = 1} ^ {m} p (\theta) \left\{\left[ 1 + r _ {\mathrm {f}} \right] d _ {\mathrm {i}} - \left[ \frac {\left[ 1 + r _ {\mathrm {f}} \right] d _ {\mathrm {i}}}{B + \left[ 1 + r _ {\mathrm {f}} \right] d _ {\mathrm {i}}} \right] A (\theta) \right\}. \tag {11.7}
+\pi = \frac{1}{\left[ 1 + r_{\mathrm{f}} \right]} \sum_{\theta = 1}^{m} p (\theta) \left\{\left[ 1 + r_{\mathrm{f}} \right] d_{\mathrm{i}} - \left[ \frac{\left[ 1 + r_{\mathrm{f}} \right] d_{\mathrm{i}}}{B + \left[ 1 + r_{\mathrm{f}} \right] d_{\mathrm{i}}} \right] A (\theta) \right\}. \tag {11.7}
 $$
 
 That is, the deposit insurance premium is equal to the discounted present value of the FDIC's liability.
@@ -467,13 +467,13 @@ That is, the deposit insurance premium is equal to the discounted present value 
 The question is: What is the NPV of the bank's shareholders' investment? This is seen to be
 
 $$
-\mathrm {N P V} = \frac {1}{\left[ 1 + r _ {E} \right]} E [ S (\theta) ] - \pi - d _ {\mathrm {e}} \tag {11.8}
+\mathrm{NP V} = \frac{1}{\left[ 1 + r_{E} \right]} E [ S (\theta) ] - \pi - d_{\mathrm{e}} \tag {11.8}
 $$
 
 where  $E(\bullet)$  means "expected value" and  $S(\theta)$  is given by Equation (11.5). Now note how  $B$  and  $d_{\mathrm{u}}$  are linked. Using Equations (11.1) and (11.4) we see that they are linked as follows.
 
 $$
-\sum_ {\theta = 1} ^ {m} p (\theta) U \left\{\left[ \frac {B}{B + \left[ 1 + r _ {\mathrm {f}} \right] d _ {\mathrm {i}}} \right] A (\theta) \right\} + \sum_ {\theta = m + 1} ^ {N} p (\theta) U (B) = U \{[ 1 + r _ {\mathrm {f}} ] d _ {\mathrm {u}} \}. \tag {11.9}
+\sum_{\theta = 1}^{m} p (\theta) U \left\{\left[ \frac{B}{B + \left[ 1 + r_{\mathrm{f}} \right] d_{\mathrm{i}}} \right] A (\theta) \right\} + \sum_{\theta = m + 1}^{N} p (\theta) U (B) = U \{[ 1 + r_{\mathrm{f}} ] d_{\mathrm{u}} \}. \tag {11.9}
 $$
 
 The left-hand side (LHS) of Equation (11.9) is the uninsured depositor's expected utility from investing in that deposit; this is obtained directly from Equation (11.4). We are using Equation (11.1) as an equality here because the bank, whose objective is to maximize the wealth of its shareholders, will pay the minimum amount required to attract funds from the uninsured depositor.
@@ -485,7 +485,7 @@ For any fixed  $d_{\mathrm{u}}$ ,  $B$  must also increase as the uninsured depo
 To incorporate securitization into this model, let us partition the bank's assets into two portfolios – a balance sheet portfolio, \( A_{\mathrm{b}} \), and an off-balance sheet portfolio, \( A_{\mathrm{o}} \). The loans in \( A_{\mathrm{b}} \) are funded with insured deposits and equity, which add up to \( d_{\mathrm{i}} + d_{\mathrm{e}} \) dollars. The loans in \( A_{\mathrm{o}} \) are funded with securitized bonds that fetch the bank \( \\(d_{\mathrm{u}} \). These two portfolios combined give the same payoff as before, that is,
 
 $$
-A (\theta) = A _ {0} (\theta) + A _ {0} (\theta). \tag {11.10}
+A (\theta) = A_{0} (\theta) + A_{0} (\theta). \tag {11.10}
 $$
 
 We assume that the bank continues to service the loans' securities. In doing so, the bank directs receipts of loan payments to the depositors. The key feature of this new arrangement, however, is that the receipts from  $A_0(\theta)$  are committed to repay the securitized bonds first. Only after these bonds are fully paid off can the revenues be directed elsewhere. That is, the securitized bondholder has a senior claim on the payment stream  $A_0(\theta)$ . Adding the option of securitized bond gives the holder additional protection by allowing him to change his claim to that of a balance sheet liability if the revenues from  $A_0(\theta)$  are inadequate. In this case, he exercises his claim just like an uninsured depositor, as  $A_0(\theta)$  and  $A_{\mathrm{b}}(\theta)$  are pooled together. Thus, when the securitized bondholder exercises his recourse option, he is limited to a prorata claim on the total portfolio  $A(\theta)$ . Let  $B^{*}$  be the amount promised to the securitized bond.
@@ -493,7 +493,7 @@ We assume that the bank continues to service the loans' securities. In doing so,
 The securitized bondholder thus receives
 
 $$
-\begin{array}{l} B ^ {*} \text {i f} A (\theta) \geq B + \left[ 1 + r _ {t} \right] d _ {i} \\ B ^ {*} \text {i f} A (\theta) \geq B + \left[ 1 + r _ {\mathrm {f}} \right] d _ {\mathrm {i}} \text {a n d} A _ {\mathrm {n}} (\theta) \geq B \\ D ^ {*} (\theta) = \left[ \frac {B ^ {*}}{B ^ {*} + \left[ 1 + t _ {\mathrm {f}} \right] d _ {\mathrm {i}}} \right] A (\theta) \text {o t h e r w i s e}. \\ \end{array}
+\begin{array}{l} B^{*} \text{if } A (\theta) \geq B + \left[ 1 + r_{t} \right] d_{i} \\ B^{*} \text{if } A (\theta) \geq B + \left[ 1 + r_{\mathrm{f}} \right] d_{\mathrm{i}} \text{an d} A_{\mathrm{n}} (\theta) \geq B \\ D^{*} (\theta) = \left[ \frac{B^{*}}{B^{*} + \left[ 1 + t_{\mathrm{f}} \right] d_{\mathrm{i}}} \right] A (\theta) \text{ot he rw is e}. \\ \end{array}
 $$
 
 This payoff structure is illustrated in the figure below. We have defined  $\theta = n$  as the state in which  $B^{*} = A_{0}(\theta)$ .
@@ -522,7 +522,7 @@ We solve this problem in six steps. First, we consider conventional deposit fina
 Let us consider (i) first. Note that \( d_{\mathrm{i}} = 30 \), \( d_{\mathrm{u}} = 15 \), \( d_{\mathrm{e}} = 5 \), and \( r_{\mathrm{f}} = 0.10 \). Since the claim of insured depositors is riskless, the interest rate on these deposits should be the riskless rate, \( 10\% \). Thus, North American's repayment obligation to these depositors is \( d_{\mathrm{i}}[1 + r_{\mathrm{f}}] = 30[1.1] = \\(33 \). The bank's total repayment obligation to its creditors is \( 33 + B \). To solve for \( B \), we need to conjecture about its value first, so that we can identify the states in which North American is solvent and those in which it is not. Suppose we conjecture that \( 50 < 33 + B < 100 \). Then North American will be insolvent in States 1 and 2, and solvent in States 3 and 4. We now solve for \( B \) using Equation (11.9):
 
 $$
-\begin{array}{c c} \text {e x p e c t e d u t i l y p a y o f s i n S t a t e s 1 a n d 2} & \text {e x p e c t e d u t i l y p a y o f s i n S t a t e s 3 a n d 4} \\ \downarrow & \downarrow \\ 0. 2 5 \sqrt {\left[ \frac {B}{B + 3 3} \right] \times 5 0} & + \quad 0. 5 \sqrt {B} = \sqrt {1 . 1 \times 1 5}. \end{array}
+\begin{array}{c c} \text{ex pe ct ed ut il yp ay of si nS ta te s1 an d2} & \text{ex pe ct ed ut il yp ay of si nS ta te s3 an d4} \\ \downarrow & \downarrow \\ 0. 2 5 \sqrt{\left[ \frac{B}{B + 3 3} \right] \times 5 0} & + \quad 0. 5 \sqrt{B} = \sqrt{1 . 1 \times 1 5}. \end{array}
 $$
 
 Solving this equation gives  $B = \\(32$ , approximately. This means our conjecture is valid and that  $B + 33 = \$ 65 \).
@@ -532,7 +532,7 @@ Solving this equation gives  $B = \\(32$ , approximately. This means our conject
 Next we solve for the insurance premium using Equation (11.7).
 
 $$
-\pi = \frac {1}{1 . 1} \left\{0. 2 5 \times 3 3 + 0. 2 5 \left[ 3 3 - \left(\frac {3 3}{6 5} \times 5 0\right) \right] \right\} = \$ 9. 2 3.
+\pi = \frac{1}{1 . 1} \left\{0. 2 5 \times 3 3 + 0. 2 5 \left[ 3 3 - \left(\frac{3 3}{6 5} \times 5 0\right) \right] \right\} = \$ 9. 2 3.
 $$
 
 # Step 3
@@ -546,7 +546,7 @@ $$
 Thus, the NPV of North American's shareholders is given by Equation (11.8) as
 
 $$
-N P V = \frac {3 0}{1 . 1} - 9. 2 3 - 5 = \$ 1 3. 0 4.
+N P V = \frac{3 0}{1 . 1} - 9. 2 3 - 5 = \$ 1 3. 0 4.
 $$
 
 # Step 4
@@ -575,7 +575,7 @@ which yields \( B^{*} = \\(29.33 \).
 We can now solve for the deposit insurance premium, which is
 
 $$
-\pi = \frac {1}{[ 1 + r _ {\mathrm {f}} ]} \Big \{p (1) [ 1 + r _ {\mathrm {f}} ] d _ {\mathrm {i}} + p (2) \Big [ [ 1 + r _ {\mathrm {f}} ] d _ {\mathrm {i}} - \left\{A _ {\mathrm {b}} (2) + A _ {\mathrm {O}} (2) - B ^ {*} \right\} \Big ] \Big \}.
+\pi = \frac{1}{[ 1 + r_{\mathrm{f}} ]} \Big \{p (1) [ 1 + r_{\mathrm{f}} ] d_{\mathrm{i}} + p (2) \Big [ [ 1 + r_{\mathrm{f}} ] d_{\mathrm{i}} - \left\{A_{\mathrm{b}} (2) + A_{\mathrm{O}} (2) - B^{*} \right\} \Big ] \Big \}.
 $$
 
 Note that the FDIC is liable for payments only in States 1 and 2. In State 1, it is liable for the entire repayment promised to the insured depositors, whereas in State 2, it is liable for that amount minus what it collects on the balance sheet asset,  $A_{\mathrm{b}}(2)$ , and whatever is left over on the off-balance sheet asset after the securitized bondholder is paid,  $A_{\mathrm{o}}(2) - B^{*}$ . Thus,
@@ -592,7 +592,7 @@ Now,  $B^{*} + [1 + r_{\mathrm{f}}]d_{\mathrm{i}} = 29.33 + 33 = \\(62.33$ . Thu
 This means
 
 $$
-N P V = \frac {3 1 . 3 4}{1 . 1} - 1 0. 3 0 - 5 = \$ 1 3. 1 9.
+N P V = \frac{3 1 . 3 4}{1 . 1} - 1 0. 3 0 - 5 = \$ 1 3. 1 9.
 $$
 
 Thus, in this example securitization results in a  $1.16\%$  increase in the NPV accruing to the North American Bank's shareholders, and this gain is due to the differing risk preferences of uninsured depositors and the banks and their insurer.

@@ -117,35 +117,35 @@ Source: U.S. Treasury web site. https://www.treasurydirect.gov
   - Example: A \$100 investment at 10% interest rate over 10 years has payoffs:
 
 $$
-\text {A n n u a l c o m p o u n d i n g :} \quad \\( 1 0 0 \times (1. 1) ^ {1 0} \quad = \\) 2 5 9. 3 7
+\text{An nu al co mp ou nd in g :} \quad \\( 1 0 0 \times (1. 1)^{1 0} \quad = \\) 2 5 9. 3 7
 $$
 
 $$
-\text {S e m i - a n n u a l c o m p o u n d i n g :} \quad \$ 1 0 0 \times (1. 0 5) ^ {2 0} = \$ 2 6 5. 3 3
+\text{Se mi -a nn ua lc om po un di ng :} \quad \$ 1 0 0 \times (1. 0 5)^{2 0} = \$ 2 6 5. 3 3
 $$
 
 $$
-\text {Q u a r t e r l y c o m p o u n d i n g :} \quad \$ 1 0 0 \times (1. 0 2 5) ^ {4 0} = \$ 2 6 8. 5 1
+\text{Qu ar te rl yc om po un di ng :} \quad \$ 1 0 0 \times (1. 0 2 5)^{4 0} = \$ 2 6 8. 5 1
 $$
 
 $$
-\text {D a l l y c o m p o u n d i n g}: \mathbb {S} 1 0 0 \times \left(1 + \frac {0 . 1}{3 6 5}\right) ^ {1 0 \times 3 6 5} = \mathbb {S} 2 7 1. 7 9
+\text{Da ll yc om po un di ng}: \mathbb {S} 1 0 0 \times \left(1 + \frac{0 . 1}{3 6 5}\right)^{1 0 \times 3 6 5} = \mathbb {S} 2 7 1. 7 9
 $$
 
 $$
-\text {C o n t i n u o u s c o m p o u n d i n g :} \quad \$ 1 0 0 \times e ^ {0. 1 \times 1 0} = \$ 2 7 1. 8 2
+\text{Co nt in uo us co mp ou nd in g :} \quad \$ 1 0 0 \times e^{0. 1 \times 1 0} = \$ 2 7 1. 8 2
 $$
 
 - The general formula to compound  $n$  times over the horizon  $T$  is
 
 $$
-V = \left(1 + \frac {r}{n}\right) ^ {n \times T}
+V = \left(1 + \frac{r}{n}\right)^{n \times T}
 $$
 
 - For  $n$  large, we converge to continuous compounding
 
 $$
-V = \left(1 + \frac {r}{n}\right) ^ {n \times T} \longrightarrow e ^ {r \times T}
+V = \left(1 + \frac{r}{n}\right)^{n \times T} \longrightarrow e^{r \times T}
 $$
 
 # Discounting
@@ -155,13 +155,13 @@ $$
 - Inverting the relation above, we obtain
 
 $$
-Z (T) = \frac {1}{\left(1 + \frac {r}{n}\right) ^ {n \times T}}
+Z (T) = \frac{1}{\left(1 + \frac{r}{n}\right)^{n \times T}}
 $$
 
 - In the limit as  $n \to \infty$  we obtain the usual continuous compounding formula
 
 $$
-Z (T) = \frac {1}{\left(1 + \frac {r}{n}\right) ^ {n \times T}} \longrightarrow Z (T) = e ^ {- r T}
+Z (T) = \frac{1}{\left(1 + \frac{r}{n}\right)^{n \times T}} \longrightarrow Z (T) = e^{- r T}
 $$
 
 # Discounts and Rates
@@ -175,13 +175,13 @@ $$
 - Given  $Z(T)$ , we can derive the rate  $r_n$  for any given compounding frequency  $n$ :
 
 $$
-r _ {n} = n \times \left(\frac {1}{Z (T) ^ {\frac {1}{n T}}} - 1\right)
+r_{n} = n \times \left(\frac{1}{Z (T)^{\frac{1}{n T}}} - 1\right)
 $$
 
 - The continuously compounded rate is instead
 
 $$
-r = - \frac {1}{T} \log (Z (T))
+r = - \frac{1}{T} \log (Z (T))
 $$
 
 # The Term Structure of Interest Rates
@@ -190,7 +190,7 @@ $$
 - We denote the discount factor at  $t$  for a dollar to be received at time  $T$  by
 
 $$
-Z (t, T) = e ^ {- r (t, T) (T - t)}
+Z (t, T) = e^{- r (t, T) (T - t)}
 $$
 
 - $r(t, T) =$  continuously compounded yield at  $t$  for an investment up to  $T$ .  
@@ -238,7 +238,7 @@ Zero-Coupon Bond Yields
 - If we know the time value of money for each maturity, that is, the discount function  $Z\left( {t,{T}_{i}}\right)$  for all maturities  ${T}_{i}$  's,a simple no arbitrage argument implies
 
 $$
-\begin{array}{l} P (t, T _ {n}) = c / 2 \times Z (t, T _ {1}) + c / 2 \times Z (t, T _ {2}) + \ldots + (1 0 0 + c / 2) Z (t, T _ {n}) \\ = \sum_ {i = 1} ^ {n} \frac {c / 2}{\left(1 + r _ {2} (t , T _ {i}) / 2\right) ^ {2 \times (T _ {i} - t)}} + \frac {1 0 0}{\left(1 + r _ {2} (t , T _ {n}) / 2\right) ^ {2 \times (T _ {n} - t)}} \\ \end{array}
+\begin{array}{l} P (t, T_{n}) = c / 2 \times Z (t, T_{1}) + c / 2 \times Z (t, T_{2}) + \ldots + (1 0 0 + c / 2) Z (t, T_{n}) \\ = \sum_{i = 1}^{n} \frac{c / 2}{\left(1 + r_{2} (t , T_{i}) / 2\right)^{2 \times (T_{i} - t)}} + \frac{1 0 0}{\left(1 + r_{2} (t , T_{n}) / 2\right)^{2 \times (T_{n} - t)}} \\ \end{array}
 $$
 
 - What is the arbitrage argument?
@@ -252,7 +252,7 @@ $$
 - Incidentally, notice that if  $t = 0$  and  $T_{i}$  are exact semi-annual maturities, that is  $T_{1} = .5$ ,  $T_{2} = 1$ ,  $T_{3} = 1.5$  etc., then we have  $2 \times T_{i} = i$  for every  $i = 1,..,n$ , and thus the formula reduces to
 
 $$
-P (0, T _ {n}) = \sum_ {i = 1} ^ {n} \frac {c / 2}{(1 + r _ {2} (0 , T _ {i}) / 2) ^ {i}} + \frac {1 0 0}{(1 + r _ {2} (0 , T _ {n}) / 2) ^ {n}}
+P (0, T_{n}) = \sum_{i = 1}^{n} \frac{c / 2}{(1 + r_{2} (0 , T_{i}) / 2)^{i}} + \frac{1 0 0}{(1 + r_{2} (0 , T_{n}) / 2)^{n}}
 $$
 
 # Conventions and Terminology
@@ -286,26 +286,26 @@ Number of Days Since Last Coupon Date × Number of Days between Coupon Payments
 - If  $n$  is the number of days to maturity, the price of the T-bill is
 
 $$
-P = 1 0 0 \times \left[ 1 - \frac {n}{3 6 0} \times d \right]
+P = 1 0 0 \times \left[ 1 - \frac{n}{3 6 0} \times d \right]
 $$
 
 - In other words
 
 $$
-d = \frac {1 0 0 - P}{1 0 0} \times \frac {3 6 0}{n}
+d = \frac{1 0 0 - P}{1 0 0} \times \frac{3 6 0}{n}
 $$
 
 - Instead, it should be
 
 $$
-B E Y = \frac {1 0 0 - P}{P} \times \frac {3 6 5}{n}
+B E Y = \frac{1 0 0 - P}{P} \times \frac{3 6 5}{n}
 $$
 
 - BEY = Bond Equivalent Yield  
 - Of course, we obtain
 
 $$
-B E Y = \frac {3 6 5 \times d}{3 6 0 - d \times n}
+B E Y = \frac{3 6 5 \times d}{3 6 0 - d \times n}
 $$
 
 # Yield-to-Maturity (or internal rate of return)
@@ -313,13 +313,13 @@ $$
 - Given price  $P(t,T)$  and cash flows  $c / 2$  at  $T_{i}$ 's for  $i = 1,..,n$ , and  $1 + c / 2$  at  $T_{n}$ , the (semi-annually compounded) yield-to-maturity YTM is defined as that rate  $y$  such that
 
 $$
-P \left(t, T _ {n}\right) = \sum_ {i = 1} ^ {n} \frac {c / 2}{\left(1 + \frac {y}{2}\right) ^ {2 \times \left(T _ {i} - t\right)}} + \frac {1 0 0}{\left(1 + \frac {y}{2}\right) ^ {2 \times \left(T _ {n} - t\right)}} \tag {1}
+P \left(t, T_{n}\right) = \sum_{i = 1}^{n} \frac{c / 2}{\left(1 + \frac{y}{2}\right)^{2 \times \left(T_{i} - t\right)}} + \frac{1 0 0}{\left(1 + \frac{y}{2}\right)^{2 \times \left(T_{n} - t\right)}} \tag {1}
 $$
 
 - Recall that given the spot curve  $r_2(t, T_i)$ , we also had
 
 $$
-P \left(t, T _ {n}\right) = \sum_ {i = 1} ^ {n} \frac {c / 2}{\left(1 + r _ {2} \left(t , T _ {i}\right) / 2\right) ^ {2 \times (T _ {i} - t)}} + \frac {1 0 0}{\left(1 + r _ {2} \left(t , T _ {n}\right) / 2\right) ^ {2 \times (T _ {n} - t)}}
+P \left(t, T_{n}\right) = \sum_{i = 1}^{n} \frac{c / 2}{\left(1 + r_{2} \left(t , T_{i}\right) / 2\right)^{2 \times (T_{i} - t)}} + \frac{1 0 0}{\left(1 + r_{2} \left(t , T_{n}\right) / 2\right)^{2 \times (T_{n} - t)}}
 $$
 
 What's the difference?
@@ -346,11 +346,11 @@ What is the most attractive bond?
 - Then
 
 $$
-N _ {1} \times 9 + N _ {2} \times 1 0 = 3
+N_{1} \times 9 + N_{2} \times 1 0 = 3
 $$
 
 $$
-N _ {1} \times 1 0 9 + N _ {2} \times 1 1 0 = 1 0 3
+N_{1} \times 1 0 9 + N_{2} \times 1 1 0 = 1 0 3
 $$
 
 - Solving the system  $\Longrightarrow$  the portfolio long  $N_{1} = 7$  units in bond 1 and short of  $N_{2} = -6$  units bond 2 mimics exactly the cash flows of bond 3.  
@@ -374,7 +374,7 @@ $$
 - Then the (annualized) coupon rate at time  $T_{i}$  is given by
 
 $$
-c (T _ {i}) = r (T _ {i - 1}) + \mathsf {s p r e a d}
+c (T_{i}) = r (T_{i - 1}) + \mathsf {s p r e a d}
 $$
 
 - where  $r(T_{i - 1})$  is the quarterly compounded, (annualized) three-month rate.
@@ -388,13 +388,13 @@ $$
 - $\Rightarrow$  Today we know the reference rate  $r\left(T_{n - 1}\right)$  and hence
 
 $$
-\mathrm {C a s h f l o w a t} T _ {n} = 1 + \frac {1}{4} c (T _ {n}) = 1 + \frac {1}{4} r (T _ {n - 1})
+\mathrm{Ca sh fl ow at} T_{n} = 1 + \frac{1}{4} c (T_{n}) = 1 + \frac{1}{4} r (T_{n - 1})
 $$
 
 - The value of FRN at  $T_{n - 1}$  is
 
 $$
-P ^ {F R N} (T _ {n - 1}) = \frac {\mathrm {C a s h f l o w a t} T _ {n}}{1 + \frac {1}{4} r (T _ {n - 1})} = \frac {1 + \frac {1}{4} c (T _ {n})}{1 + \frac {1}{4} r (T _ {n - 1})} = \frac {1 + \frac {1}{4} r (T _ {n - 1})}{1 + \frac {1}{4} r (T _ {n - 1})} = 1
+P^{F R N} (T_{n - 1}) = \frac{\mathrm{Ca sh fl ow at} T_{n}}{1 + \frac{1}{4} r (T_{n - 1})} = \frac{1 + \frac{1}{4} c (T_{n})}{1 + \frac{1}{4} r (T_{n - 1})} = \frac{1 + \frac{1}{4} r (T_{n - 1})}{1 + \frac{1}{4} r (T_{n - 1})} = 1
 $$
 
 # Floating Rate Notes: Pricing (cntd.)
@@ -404,7 +404,7 @@ $$
 - The FRN value at  $T_{n - 2}$  is then
 
 $$
-P ^ {F R N} (T _ {n - 2}) = \frac {P ^ {F R N} (T _ {n - 1}) + \frac {1}{4} c (T _ {n - 1})}{1 + \frac {1}{4} r (T _ {n - 2})} = \frac {1 + \frac {1}{4} r (T _ {n - 2})}{1 + \frac {1}{4} r (T _ {n - 2})} = 1
+P^{F R N} (T_{n - 2}) = \frac{P^{F R N} (T_{n - 1}) + \frac{1}{4} c (T_{n - 1})}{1 + \frac{1}{4} r (T_{n - 2})} = \frac{1 + \frac{1}{4} r (T_{n - 2})}{1 + \frac{1}{4} r (T_{n - 2})} = 1
 $$
 
 Using the same logic for every reset time  $T_{i}$ :  $P^{FRN}(T_{i}) = 1$  
@@ -413,7 +413,7 @@ Using the same logic for every reset time  $T_{i}$ :  $P^{FRN}(T_{i}) = 1$
 - Let  $t$  be such that  $T_{i - 1} < t < T_i$ . Then, the value at  $t$  of FRN is
 
 $$
-P ^ {F R N} (t) = Z (t, T _ {i}) (1 + r (T _ {i - 1}) / 4)
+P^{F R N} (t) = Z (t, T_{i}) (1 + r (T_{i - 1}) / 4)
 $$
 
 - Adding a spread to the coupon payments is simple because the spread is constant.  $\Rightarrow$  use discounts  $Z(t,T)$  to compute its value.
@@ -456,7 +456,7 @@ $$
 Hence, the return on capital to the trader is
 
 $$
-\text {R e t u r n} = \frac {P _ {T} - P _ {t} - \text {r e p o r a t e} \times \frac {n}{3 6 0} \times \left(P _ {t} - \text {h a i r c u t}\right)}{\text {h a i r c u t}}
+\text{Re tu rn} = \frac{P_{T} - P_{t} - \text{re po ra te} \times \frac{n}{3 6 0} \times \left(P_{t} - \text{ha ir cu t}\right)}{\text{ha ir cu t}}
 $$
 
 # Repurchase Agreements
@@ -504,19 +504,19 @@ $$
 1. Invest in a 1-year zero coupon bond, obtaining at maturity
 
 $$
-\$ 10 million \times (1 + r _ {2} (0, 1) / 2) ^ {2}
+\$ 10 million \times (1 + r_{2} (0, 1) / 2)^{2}
 $$
 
 2. Invest in a 6-months zero coupon bond and enter (today) into a forward contract to invest the proceeds at  $T_{1} = 0.5$  until  $T_{2} = 1$  for a rate  $f_{2}(0,0.5,1)$ . At maturity we have
 
 $$
-\$ 10 m \times (1 + r _ {2} (0, 0. 5) / 2) \times (1 + f _ {2} (0, 0. 5, 1) / 2)
+\$ 10 m \times (1 + r_{2} (0, 0. 5) / 2) \times (1 + f_{2} (0, 0. 5, 1) / 2)
 $$
 
 - By no arbitrage (and if credit risk is negligible) we must have
 
 $$
-\$ 10 m \times \left(1 + \frac {r _ {2} (0 , 1)}{2}\right) ^ {2} = \$ 10 m \times \left(1 + \frac {r _ {2} (0 , 0 . 5)}{2}\right) \times \left(1 + \frac {f _ {2} (0 , 0 . 5 , 1)}{2}\right)
+\$ 10 m \times \left(1 + \frac{r_{2} (0 , 1)}{2}\right)^{2} = \$ 10 m \times \left(1 + \frac{r_{2} (0 , 0 . 5)}{2}\right) \times \left(1 + \frac{f_{2} (0 , 0 . 5 , 1)}{2}\right)
 $$
 
 # Forward Rates
@@ -524,13 +524,13 @@ $$
 or
 
 $$
-1 + \frac {f _ {2} (0 , 0 . 5 , 1)}{2} = \frac {(1 + r _ {2} (0 , 1) / 2) ^ {2}}{(1 + r _ {2} (0 , 0 . 5) / 2)}
+1 + \frac{f_{2} (0 , 0 . 5 , 1)}{2} = \frac{(1 + r_{2} (0 , 1) / 2)^{2}}{(1 + r_{2} (0 , 0 . 5) / 2)}
 $$
 
 - by using the price of bonds we have
 
 $$
-1 + \frac {f _ {2} (0 , 0 . 5 , 1)}{2} = \frac {Z (0 , 0 . 5)}{Z (0 , 1)}
+1 + \frac{f_{2} (0 , 0 . 5 , 1)}{2} = \frac{Z (0 , 0 . 5)}{Z (0 , 1)}
 $$
 
 # Forward Rates
@@ -540,19 +540,19 @@ $$
 1. Invest in a  $T_{2}$ -zero coupon bond, obtaining at maturity
 
 $$
-\frac {\mathbb {S} 1 0 \mathrm {m}}{Z (0 , T _ {2})}
+\frac{\mathbb {S} 1 0 \mathrm{m}}{Z (0 , T_{2})}
 $$
 
 2. Invest in a  $T_{1}$ -zero coupon bond and enter (today) into a forward contract to invest the proceeds at  $T_{1}$  until  $T_{2}$  at the  $n$ -times compounded forward rate  $f_{n}(0, T_{1}, T_{2})$ . At maturity we have
 
 $$
-\frac {\mathbb {S} 1 0 \mathrm {m}}{Z (0 , T _ {1})} \times \left(1 + \frac {f _ {n} \left(0 , T _ {1} , T _ {2}\right)}{n}\right) ^ {n \left(T _ {2} - T _ {1}\right)}
+\frac{\mathbb {S} 1 0 \mathrm{m}}{Z (0 , T_{1})} \times \left(1 + \frac{f_{n} \left(0 , T_{1} , T_{2}\right)}{n}\right)^{n \left(T_{2} - T_{1}\right)}
 $$
 
 - We then obtain
 
 $$
-\left(1 + \frac {f _ {n} (0 , T _ {1} , T _ {2})}{n}\right) ^ {n (T _ {2} - T _ {1})} = \frac {Z (0 , T _ {1})}{Z (0 , T _ {2})}
+\left(1 + \frac{f_{n} (0 , T_{1} , T_{2})}{n}\right)^{n (T_{2} - T_{1})} = \frac{Z (0 , T_{1})}{Z (0 , T_{2})}
 $$
 
 # Continuously Compounded Forward Rates
@@ -560,20 +560,20 @@ $$
 - Taking the limit as  $n \to \infty$  the continuously compounded forward rates is
 
 $$
-\begin{array}{l} f (0, T _ {1}, T _ {2}) = \frac {\ln (Z (0 , T _ {1})) - \ln (Z (0 , T _ {2}))}{T _ {2} - T _ {1}} \\ = \frac {r (0 , T _ {2}) T _ {2} - r (0 , T _ {1}) T _ {1}}{T _ {2} - T _ {1}} \tag {2} \\ \end{array}
+\begin{array}{l} f (0, T_{1}, T_{2}) = \frac{\ln (Z (0 , T_{1})) - \ln (Z (0 , T_{2}))}{T_{2} - T_{1}} \\ = \frac{r (0 , T_{2}) T_{2} - r (0 , T_{1}) T_{1}}{T_{2} - T_{1}} \tag {2} \\ \end{array}
 $$
 
 - Another concept, that we will use later, is that of instantaneous forward rate. 
 — We can rewrite (2) as (exercise: do it!)
 
 $$
-f (0, T _ {1}, T _ {2}) = r (0, T _ {1}) + T _ {2} \times \frac {r (0 , T _ {2}) - r (0 , T _ {1})}{T _ {2} - T _ {1}} \tag {3}
+f (0, T_{1}, T_{2}) = r (0, T_{1}) + T_{2} \times \frac{r (0 , T_{2}) - r (0 , T_{1})}{T_{2} - T_{1}} \tag {3}
 $$
 
 - If we take the limit  $T_{2} \longrightarrow T_{1}$  (that is, the horizon of the forward contract shrinks to zero) we obtain
 
 $$
-f (0, T _ {1}, T _ {1}) = r (0, T _ {1}) + T _ {1} \times \frac {d r (0 , T _ {1})}{d T _ {1}} \tag {4}
+f (0, T_{1}, T_{1}) = r (0, T_{1}) + T_{1} \times \frac{d r (0 , T_{1})}{d T_{1}} \tag {4}
 $$
 
 # The Relation between Forward Curve and Spot Curve
@@ -582,7 +582,7 @@ $$
 - We can rewrite
 
 $$
-f (0, T _ {1}, T _ {1}) - r (0, T _ {1}) = T _ {1} \times \frac {d r (0 , T _ {1})}{d T _ {1}}
+f (0, T_{1}, T_{1}) - r (0, T_{1}) = T_{1} \times \frac{d r (0 , T_{1})}{d T_{1}}
 $$
 
 This implies:
@@ -617,28 +617,28 @@ Spot Curve and Forward Curve
 - Recall the pricing equation for coupon bonds with maturity  $T_{i}$  is equal to
 
 $$
-P ^ {i} (t, T _ {i}) = \frac {c ^ {i}}{2} \sum_ {j = 1} ^ {i} Z (t, T _ {j}) + 1 \times Z (t, T _ {i}) \qquad \qquad (5)
+P^{i} (t, T_{i}) = \frac{c^{i}}{2} \sum_{j = 1}^{i} Z (t, T_{j}) + 1 \times Z (t, T_{i}) \qquad \qquad (5)
 $$
 
 - Today is  $t = 0$  and that we have data on maturities  $T_{j} = .5, 1, 1.5, \ldots, T_{n}$ .  
 - Inverting (5), we obtain
 
 $$
-Z \left(0, 0. 5\right) = \frac {P ^ {1} \left(0 , 0 . 5\right)}{1 + c ^ {1} / 2}
+Z \left(0, 0. 5\right) = \frac{P^{1} \left(0 , 0 . 5\right)}{1 + c^{1} / 2}
 $$
 
 $$
-Z (0, 1) = \frac {P ^ {2} (0 , 1) - c ^ {2} / 2 \times Z (0 , . 5)}{1 + c ^ {2} / 2}
+Z (0, 1) = \frac{P^{2} (0 , 1) - c^{2} / 2 \times Z (0 , . 5)}{1 + c^{2} / 2}
 $$
 
 $$
-Z (0, 1. 5) = \frac {P ^ {3} (0 , 1 . 5) - c ^ {3} / 2 \times (Z (0 , . 5) + Z (0 , 1))}{1 + c ^ {3} / 2}
+Z (0, 1. 5) = \frac{P^{3} (0 , 1 . 5) - c^{3} / 2 \times (Z (0 , . 5) + Z (0 , 1))}{1 + c^{3} / 2}
 $$
 
 In general, for every  $i$ :
 
 $$
-Z \left(0, T _ {i}\right) = \frac {P ^ {i} \left(0 , T _ {i}\right) - c ^ {i} / 2 \times \left(\Sigma_ {j = 1} ^ {i - 1} Z \left(0 , T _ {j}\right)\right)}{1 + c ^ {i} / 2}
+Z \left(0, T_{i}\right) = \frac{P^{i} \left(0 , T_{i}\right) - c^{i} / 2 \times \left(\Sigma_{j = 1}^{i - 1} Z \left(0 , T_{j}\right)\right)}{1 + c^{i} / 2}
 $$
 
 - Example: suppose we have the following data:
@@ -652,13 +652,13 @@ Z \left(0, . 5\right) = 9 6. 1 5; Z \left(0, 1\right) = 9 2. 1 9;
 $$
 
 $$
-Z (0, 1. 5) = \frac {9 9 . 4 5 - . 0 4 2 5 \times (9 6 . 1 5 + 9 2 . 1 9)}{1 . 0 4 2 5} = 8 7. 7 2; \dots
+Z (0, 1. 5) = \frac{9 9 . 4 5 - . 0 4 2 5 \times (9 6 . 1 5 + 9 2 . 1 9)}{1 . 0 4 2 5} = 8 7. 7 2; \dots
 $$
 
 - Since
 
 $$
-Z (0, T _ {i}) = \frac {1 0 0}{\left(1 + \frac {r _ {2} (0 , T _ {i})}{2}\right) ^ {i}} \Longleftrightarrow r _ {2} (0, T _ {i}) = 2 \times \left(\left(\frac {1 0 0}{Z (0 , T _ {i})}\right) ^ {\frac {1}{i}} - 1\right)
+Z (0, T_{i}) = \frac{1 0 0}{\left(1 + \frac{r_{2} (0 , T_{i})}{2}\right)^{i}} \Longleftrightarrow r_{2} (0, T_{i}) = 2 \times \left(\left(\frac{1 0 0}{Z (0 , T_{i})}\right)^{\frac{1}{i}} - 1\right)
 $$
 
 we obtain
@@ -674,23 +674,23 @@ Unfortunately, this is never the case.
 1. Assume a flexible functional form for  $Z(0,T)$ , such as (Nelson Siegel Model):
 
 $$
-Z (0, T _ {j}) = 1 0 0 \times e ^ {- r (0, T _ {j}) \times T _ {j}}
+Z (0, T_{j}) = 1 0 0 \times e^{- r (0, T_{j}) \times T_{j}}
 $$
 
 $$
-r (0, T _ {j}) = \theta_ {0} + (\theta_ {1} + \theta_ {2}) \frac {1 - e ^ {- \frac {T _ {j}}{\lambda}}}{\frac {T _ {j}}{\lambda}} - \theta_ {2} e ^ {- \frac {T _ {j}}{\lambda}}
+r (0, T_{j}) = \theta_{0} + (\theta_{1} + \theta_{2}) \frac{1 - e^{- \frac{T_{j}}{\lambda}}}{\frac{T_{j}}{\lambda}} - \theta_{2} e^{- \frac{T_{j}}{\lambda}}
 $$
 
 2. We can compute the "theoretical price" given  $Z(0, T)$
 
 $$
-\widehat {P} (0, T _ {j}) = \sum_ {i = 1} ^ {j} c (T _ {i}) \times Z (0, T _ {i})
+\widehat {P} (0, T_{j}) = \sum_{i = 1}^{j} c (T_{i}) \times Z (0, T_{i})
 $$
 
 3. We estimate the parameters  $\theta_0, \theta_1, \theta_2, \lambda$  by non-linear least squares. That is, by minimizing
 
 $$
-\min _ {\theta_ {0}, \theta_ {1}, \theta_ {2}, \lambda} \sum_ {j = 1} ^ {n} \left(P (0, T _ {j}) - \widehat {P} (0, T _ {j})\right) ^ {2}
+\min_{\theta_{0}, \theta_{1}, \theta_{2}, \lambda} \sum_{j = 1}^{n} \left(P (0, T_{j}) - \widehat {P} (0, T_{j})\right)^{2}
 $$
 
 - There is a large literature on the functional forms for the discount function  $Z(0, T)$ , many of them relying on spline functions.  
@@ -742,7 +742,7 @@ Source: CRSP
 Hence, we define the duration of a security with price  $P$  by
 
 $$
-D _ {P} = - \frac {1}{P} \frac {d P}{d r}
+D_{P} = - \frac{1}{P} \frac{d P}{d r}
 $$
 
 - This definition is all you need to remember, as everything follows from here.
@@ -752,7 +752,7 @@ $$
 - Consider a zero coupon bond with time to maturity  $T$  and price  $Z(t, T)$ . By applying the definition we have:
 
 $$
-\begin{array}{l} D _ {Z, T} = - \frac {1}{Z (t , T)} \frac {d Z (t , T)}{d r} \\ = - \frac {1}{Z (t , T)} \times \left[ - (T - t) \times e ^ {- r (t, T) \times (T - t)} \right] \\ = - \frac {1}{Z (t , T)} \times [ - (T - t) \times Z (t, T) ] \\ = T - t \\ \end{array}
+\begin{array}{l} D_{Z, T} = - \frac{1}{Z (t , T)} \frac{d Z (t , T)}{d r} \\ = - \frac{1}{Z (t , T)} \times \left[ - (T - t) \times e^{- r (t, T) \times (T - t)} \right] \\ = - \frac{1}{Z (t , T)} \times [ - (T - t) \times Z (t, T) ] \\ = T - t \\ \end{array}
 $$
 
 - The duration of a zero coupon bond is simply equal to its time to maturity  $T - t$ .
@@ -764,13 +764,13 @@ $$
 - Let  $\Pi$  be the value of the portfolio
 
 $$
-\Pi = N _ {1} P _ {1} + N _ {2} P _ {2}
+\Pi = N_{1} P_{1} + N_{2} P_{2}
 $$
 
 - We can then compute:
 
 $$
-\begin{array}{l} D _ {\Pi} = - \frac {1}{\Pi} \frac {d \Pi}{d r} \\ = \frac {1}{\Pi} \left(- N _ {1} \times \frac {d P _ {1}}{d r} - N _ {2} \times \frac {d P _ {2}}{d r}\right) \\ = \frac {1}{\Pi} \left(N _ {1} P _ {1} \times (- 1) \frac {1}{P _ {1}} \frac {d P _ {1}}{d r} + N _ {2} P _ {2} \times (- 1) \frac {1}{P _ {2}} \frac {d P _ {2}}{d r}\right) \\ \end{array}
+\begin{array}{l} D_{\Pi} = - \frac{1}{\Pi} \frac{d \Pi}{d r} \\ = \frac{1}{\Pi} \left(- N_{1} \times \frac{d P_{1}}{d r} - N_{2} \times \frac{d P_{2}}{d r}\right) \\ = \frac{1}{\Pi} \left(N_{1} P_{1} \times (- 1) \frac{1}{P_{1}} \frac{d P_{1}}{d r} + N_{2} P_{2} \times (- 1) \frac{1}{P_{2}} \frac{d P_{2}}{d r}\right) \\ \end{array}
 $$
 
 # Duration of a Portfolio of Securities
@@ -778,13 +778,13 @@ $$
 Obtaining
 
 $$
-D _ {\Pi} = w _ {1} D _ {1} + w _ {2} D _ {2} \tag {1}
+D_{\Pi} = w_{1} D_{1} + w_{2} D_{2} \tag {1}
 $$
 
 where
 
 $$
-w _ {i} = \frac {N _ {i} P _ {i}}{\Pi} \tag {2}
+w_{i} = \frac{N_{i} P_{i}}{\Pi} \tag {2}
 $$
 
 - Clearly, the same derivation can be applied for any number of assets.
@@ -794,7 +794,7 @@ $$
 - We know a bond is equivalent to a portfolio of zero-coupon bonds
 
 $$
-P (0, T) = \sum_ {i = 1} ^ {n} c (T _ {i}) Z (0, T _ {i})
+P (0, T) = \sum_{i = 1}^{n} c (T_{i}) Z (0, T_{i})
 $$
 
 where  $c(T_i) = c / 2$  for  $i < n$  and  $c(T_n) = c / 2 + 100$ .  
@@ -802,7 +802,7 @@ where  $c(T_i) = c / 2$  for  $i < n$  and  $c(T_n) = c / 2 + 100$ .
 - Step 1: Apply (2) to have
 
 $$
-w _ {i} = \frac {c (T _ {i}) Z (0 , T _ {i})}{P (0 , T)}
+w_{i} = \frac{c (T_{i}) Z (0 , T_{i})}{P (0 , T)}
 $$
 
 # Example: Duration of a Coupon Bond
@@ -810,14 +810,14 @@ $$
 - Step 2: Use (1)
 
 $$
-D = - \frac {1}{P (0 , T)} \frac {d P (0 , T)}{d r} = \sum_ {i = 1} ^ {n} w _ {i} D _ {Z, T _ {i}} = \sum_ {i = 1} ^ {n} w _ {i} \times T _ {i} \tag {3}
+D = - \frac{1}{P (0 , T)} \frac{d P (0 , T)}{d r} = \sum_{i = 1}^{n} w_{i} D_{Z, T_{i}} = \sum_{i = 1}^{n} w_{i} \times T_{i} \tag {3}
 $$
 
 - The duration of a Coupon Bond is a weighted average of times to maturity  
 - From (3), we can compute the percentage change in the bond due to a small parallel shift in the yield function  $r(t, \tau)$  as
 
 $$
-\frac {d P}{P} \approx - D \times d r
+\frac{d P}{P} \approx - D \times d r
 $$
 
 Hence, if we hold a portfolio of 10-year at-par coupon bonds with duration equal to 5, we know that a one-basis point increase in the yield function  $(dr = .01\%)$  is going to change the value of the bond approximately by  $-5 \times .01 / 100 \times \$100$  million (par amount)  $= -\$50,000$ .
@@ -830,7 +830,7 @@ Bond Price Approximation with Duration
 - We defined the duration as
 
 $$
-D = - \frac {1}{P} \frac {d P}{d r}
+D = - \frac{1}{P} \frac{d P}{d r}
 $$
 
 - where  $r$  is the continuously compounded interest rate.  
@@ -843,25 +843,25 @@ $$
 - Its price is
 
 $$
-P = \sum_ {j = 1} ^ {n} \frac {c / 2}{\left(1 + \frac {y}{2}\right) ^ {j}} + \frac {1 0 0}{\left(1 + \frac {y}{2}\right) ^ {n}} \tag {4}
+P = \sum_{j = 1}^{n} \frac{c / 2}{\left(1 + \frac{y}{2}\right)^{j}} + \frac{1 0 0}{\left(1 + \frac{y}{2}\right)^{n}} \tag {4}
 $$
 
 - The Macaulay duration is defined as
 
 $$
-D ^ {M c} = - \frac {(1 + y / 2)}{P} \frac {d P}{d y}
+D^{M c} = - \frac{(1 + y / 2)}{P} \frac{d P}{d y}
 $$
 
 - Some algebra shows
 
 $$
-D ^ {M c} = \frac {1}{2} \sum_ {j = 1} ^ {n} w _ {j} \times j
+D^{M c} = \frac{1}{2} \sum_{j = 1}^{n} w_{j} \times j
 $$
 
 where
 
 $$
-w _ {j} = \frac {1}{P} \left(\frac {c / 2}{\left(1 + \frac {y}{2}\right) ^ {j}}\right), w _ {n} = \frac {1}{P} \left(\frac {c / 2 + 1 0 0}{\left(1 + \frac {y}{2}\right) ^ {n}}\right)
+w_{j} = \frac{1}{P} \left(\frac{c / 2}{\left(1 + \frac{y}{2}\right)^{j}}\right), w_{n} = \frac{1}{P} \left(\frac{c / 2 + 1 0 0}{\left(1 + \frac{y}{2}\right)^{n}}\right)
 $$
 
 # Modified Duration
@@ -869,7 +869,7 @@ $$
 - The modified duration is instead defined as
 
 $$
-M D = - \frac {1}{P} \frac {d P}{d y}
+M D = - \frac{1}{P} \frac{d P}{d y}
 $$
 
 where  $P$  is given in (4).
@@ -877,7 +877,7 @@ where  $P$  is given in (4).
 It is easy to see that
 
 $$
-M D = \frac {D ^ {M c}}{\left(1 + \frac {y}{2}\right)}
+M D = \frac{D^{M c}}{\left(1 + \frac{y}{2}\right)}
 $$
 
 # The Price Value of a Basis Point (PVBP)
@@ -886,7 +886,7 @@ $$
 - This is simply defined as
 
 $$
-P V B P = - \frac {d P}{d y} \times 0. 0 0 0 1 = M D \times P \times 0. 0 0 0 1
+P V B P = - \frac{d P}{d y} \times 0. 0 0 0 1 = M D \times P \times 0. 0 0 0 1
 $$
 
 - This is also called the dollar value of .01, or DV01.  
@@ -908,13 +908,13 @@ Hence, to profit from the movement, we need a short position in the long-term bo
 - Then, the trader can hedge the interest rate risk by setting
 
 $$
-n _ {2} \times P V B P _ {2} = n _ {3 0} \times P V B P _ {3 0}
+n_{2} \times P V B P_{2} = n_{3 0} \times P V B P_{3 0}
 $$
 
 - Suppose  $n_{30} = 100$  million (par amount), we can compute the amount of two year notes necessary to hedge the position:
 
 $$
-n _ {2} = 1 0 0 \times \frac {1 2 0 0 . 6 4 3}{1 8 7 . 3 6 0 2} = 6 4 1
+n_{2} = 1 0 0 \times \frac{1 2 0 0 . 6 4 3}{1 8 7 . 3 6 0 2} = 6 4 1
 $$
 
 - The trader will go long 641 million (par amount) of the two year bond, and go short 100 million par amount of the 30-year T-Bond.  
@@ -945,7 +945,7 @@ This becomes
 Profits?
 
 $$
-\operatorname {P r o f i t} (\text {L o s s e s}) = (\mathrm {A}) + (\mathrm {B}) + (\mathrm {C}) + (\mathrm {D}) = (3, 2 5 1)
+\operatorname{Pr of it} (\text{Lo ss es}) = (\mathrm{A}) + (\mathrm{B}) + (\mathrm{C}) + (\mathrm{D}) = (3, 2 5 1)
 $$
 
 - The trader lost money, even if the spread did increase.  
@@ -956,19 +956,19 @@ $$
 - Convexity measures the curvature of a security with respect to interest rates
 
 $$
-C = \frac {1}{P} \frac {d ^ {2} P}{d r ^ {2}}
+C = \frac{1}{P} \frac{d^{2} P}{d r^{2}}
 $$
 
 - Example 1. From the definition of a zero coupon bond:
 
 $$
-Z (t, T) = e ^ {- r (t, T) (T - t)} \Longrightarrow C _ {Z} = \frac {1}{Z (t , T)} \frac {d ^ {2} Z (t , T)}{d r ^ {2}} = (T - t) ^ {2}
+Z (t, T) = e^{- r (t, T) (T - t)} \Longrightarrow C_{Z} = \frac{1}{Z (t , T)} \frac{d^{2} Z (t , T)}{d r^{2}} = (T - t)^{2}
 $$
 
 - Example 2. From the definition of a coupon bond:
 
 $$
-P _ {c} (t, T) = \frac {c}{2} \sum_ {i = 1} ^ {n} Z (t, T _ {i}) + Z (t, T _ {n}) \Longrightarrow C = \frac {1}{P _ {c}} \frac {d ^ {2} P _ {c}}{d r ^ {2}} = \sum_ {i = 1} ^ {n} w _ {i} (T _ {i} - t) ^ {2}
+P_{c} (t, T) = \frac{c}{2} \sum_{i = 1}^{n} Z (t, T_{i}) + Z (t, T_{n}) \Longrightarrow C = \frac{1}{P_{c}} \frac{d^{2} P_{c}}{d r^{2}} = \sum_{i = 1}^{n} w_{i} (T_{i} - t)^{2}
 $$
 
 where  $w_{i}$  are the same as in previous slide.
@@ -976,7 +976,7 @@ where  $w_{i}$  are the same as in previous slide.
 - Given  $D$  and  $C$ , a better approximation of the return of a security is
 
 $$
-\frac {d P}{P} \approx - D d r + \frac {1}{2} C d r ^ {2} \tag {5}
+\frac{d P}{P} \approx - D d r + \frac{1}{2} C d r^{2} \tag {5}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-20/ff34cd1a-cf8f-48ef-82fe-87b50e3bff05/4686de72ec527fe5fe1e8b307258137be96701d3df17c08e1ed6384ae6979844.jpg)  
@@ -988,7 +988,7 @@ Duration plus Convexity Approximation
 Using Equation (5) and given  $D = 20$  and  $C = 20^2 = 400$ , we find
 
 $$
-E \left[ \frac {d P}{P} \right] \approx - 2 0 \times E [ d r ] + \frac {1}{2} \times 4 0 0 \times E [ d r ^ {2} ] (6)
+E \left[ \frac{d P}{P} \right] \approx - 2 0 \times E [ d r ] + \frac{1}{2} \times 4 0 0 \times E [ d r^{2} ] (6)
 $$
 
 - Predicting variation in interest rates over a short period (daily) is very hard. So,  $E[dr] = 0$  is a good approximation. However, note that  $E[dr^2] = Var(dr) > 0$ .
@@ -1002,7 +1002,7 @@ Data Source: CRSP.
 - From data, we can estimate the daily variance of interest rates of about  $E[dr^2] = 5.5351 \times 10^{-007}$ , implying
 
 $$
-E \left[ \frac {d P}{P} \right] = - 2 0 \times 0 + \frac {1}{2} \times 4 0 0 \times E [ d r ^ {2} ] = 1. 1 1 \times 1 0 ^ {- 0 4} > 0 \tag {7}
+E \left[ \frac{d P}{P} \right] = - 2 0 \times 0 + \frac{1}{2} \times 4 0 0 \times E [ d r^{2} ] = 1. 1 1 \times 1 0^{- 0 4} > 0 \tag {7}
 $$
 
 - Although this number seems extremely small, it is a daily expected return.
@@ -1019,24 +1019,24 @@ Annualized expected return from convexity  $= 1.11 \times 10^{-04} \times 252 = 
 - Let the yield curve be flat at the continuously compounded rate of  $4.5\%$ .
 
 $$
-- \Longrightarrow P _ {c} (t, T) = \$ 1 0 3. 5 8, D = 8. 0 3, a n d C = 7 3. 8 7.
+- \Longrightarrow P_{c} (t, T) = \$ 1 0 3. 5 8, D = 8. 0 3, a n d C = 7 3. 8 7.
 $$
 
 - The approximate losses from an increase in  $r$  of  $1\%$  are
 
 $$
-\frac {d P}{P} \approx - D \times 0.01 = - 0.0803 = - 8 \% \tag{8}
+\frac{d P}{P} \approx - D \times 0.01 = - 0.0803 = - 8 \% \tag{8}
 $$
 
 $$
-\frac {d P}{P} \approx - D \times 0.01 + \frac {1}{2} \times C \times (0.01) ^ {2} = - 0.07662 = - 7.66 \% \tag{9}
+\frac{d P}{P} \approx - D \times 0.01 + \frac{1}{2} \times C \times (0.01)^{2} = - 0.07662 = - 7.66 \% \tag{9}
 $$
 
 - To check accuracy, we can compute the exact loss from an increase of the term structure by  $1\%$ .
 - Using the pricing formula with r = 4.5% and r = 5.5%, we obtain that price declines to \$95.63 from \$103.58:
 
 $$
-\frac {d P}{P} = \frac {\mathrm {\\(95.63 - \\)103.58}}{\mathrm {\\(103.58}} = - 7.67 \%
+\frac{d P}{P} = \frac{\mathrm{\\(95.63 - \\)103.58}}{\mathrm{\\(103.58}} = - 7.67 \%
 $$
 
 - The "convexity" measure is quite accurate
@@ -1050,7 +1050,7 @@ We have \(Z(0,T) = \\)63.76\(, and \(D_z = 10\).
 - Condition  $dV = 0$  implies
 
 $$
-k = - \frac {D \times P}{D _ {z} \times P _ {z} (0 , T)} = \frac {8 . 0 3 \times 1 0 3 . 5 8}{1 0 \times 6 3 . 7 6} = - 1. 3 0 4 5 \tag {10}
+k = - \frac{D \times P}{D_{z} \times P_{z} (0 , T)} = \frac{8 . 0 3 \times 1 0 3 . 5 8}{1 0 \times 6 3 . 7 6} = - 1. 3 0 4 5 \tag {10}
 $$
 
 - Assume for simplicity that fund achieves this short position through the repo market at zero haircut (i.e. the short position is achieved at zero cost for the fund.)
@@ -1062,7 +1062,7 @@ How Does Duration Hedging Perform?
 - Source of the underperformance? From  $dV = dP + k \times dZ$  we have
 
 $$
-\begin{array}{l} d V = - D P _ {c} d r + \frac {1}{2} P _ {c} C d r ^ {2} + k \left(- D _ {z} Z d r + \frac {1}{2} Z C _ {z} d r ^ {2}\right) \\ = - \left(D P _ {c} + k D _ {z} Z\right) d r + \frac {1}{2} \left(P _ {c} C + k Z C _ {z}\right) d r ^ {2} \tag {11} \\ \end{array}
+\begin{array}{l} d V = - D P_{c} d r + \frac{1}{2} P_{c} C d r^{2} + k \left(- D_{z} Z d r + \frac{1}{2} Z C_{z} d r^{2}\right) \\ = - \left(D P_{c} + k D_{z} Z\right) d r + \frac{1}{2} \left(P_{c} C + k Z C_{z}\right) d r^{2} \tag {11} \\ \end{array}
 $$
 
 - Duration hedging takes care of the first term but not of the second, which is always negative in our example.
@@ -1073,29 +1073,29 @@ $$
 - Let  $k_{1}$  and  $k_{2}$  be the positions in the bonds. The value of the hedged portfolio is
 
 $$
-V = P _ {c} + k _ {1} P _ {1} + k _ {2} P _ {2} \Longrightarrow d V = d P _ {c} + k _ {1} d P _ {1} + k _ {2} d P _ {2}
+V = P_{c} + k_{1} P_{1} + k_{2} P_{2} \Longrightarrow d V = d P_{c} + k_{1} d P_{1} + k_{2} d P_{2}
 $$
 
 - Developing the expression and pulling together the terms in  $dr$  and  $dr^2$ :
 
 $$
-\begin{array}{l} d V = - \left(D P + k _ {1} D _ {1} P _ {1} + k _ {2} D _ {2} P _ {2}\right) d r \\ + \frac {1}{2} \left(C P + k _ {1} C _ {1} P _ {1} + k _ {2} C _ {2} P _ {2}\right) d r ^ {2} \\ \end{array}
+\begin{array}{l} d V = - \left(D P + k_{1} D_{1} P_{1} + k_{2} D_{2} P_{2}\right) d r \\ + \frac{1}{2} \left(C P + k_{1} C_{1} P_{1} + k_{2} C_{2} P_{2}\right) d r^{2} \\ \end{array}
 $$
 
 - Thus,  $dV = 0$  yields two equations
 
 $$
-k _ {1} D _ {1} P _ {1} + k _ {2} D _ {2} P _ {2} = - D P _ {c} \quad (\text {D e l t a H e d g i n g})
+k_{1} D_{1} P_{1} + k_{2} D_{2} P_{2} = - D P_{c} \quad (\text{De lt aH ed gi ng})
 $$
 
 $$
-k _ {1} C _ {1} P _ {1} + k _ {2} C _ {2} P _ {2} = - C P _ {c} \quad (\text {C o n v e x i t y H e d g i n g})
+k_{1} C_{1} P_{1} + k_{2} C_{2} P_{2} = - C P_{c} \quad (\text{Co nv ex it yH ed gi ng})
 $$
 
 - The solution of this system of two equations in two unknowns is
 
 $$
-k _ {1} = - \frac {P _ {c}}{P _ {1}} \left(\frac {D C _ {2} - C D _ {2}}{D _ {1} C _ {2} - C _ {1} D _ {2}}\right); \quad k _ {2} = - \frac {P _ {c}}{P _ {2}} \left(\frac {D C _ {1} - C D _ {1}}{D _ {2} C _ {1} - C _ {2} D _ {1}}\right) \tag {12}
+k_{1} = - \frac{P_{c}}{P_{1}} \left(\frac{D C_{2} - C D_{2}}{D_{1} C_{2} - C_{1} D_{2}}\right); \quad k_{2} = - \frac{P_{c}}{P_{2}} \left(\frac{D C_{1} - C D_{1}}{D_{2} C_{1} - C_{2} D_{1}}\right) \tag {12}
 $$
 
 # Duration and Convexity Hedging: Example
@@ -1114,7 +1114,7 @@ $$
 - That is, in equation
 
 $$
-d V \approx - \left(D P _ {c} + k D _ {z} Z\right) d r + \frac {1}{2} \left(P _ {c} C + k Z C _ {z}\right) d r ^ {2}
+d V \approx - \left(D P_{c} + k D_{z} Z\right) d r + \frac{1}{2} \left(P_{c} C + k Z C_{z}\right) d r^{2}
 $$
 
 the first parenthesis is always zero, because of hedging, while the second parenthesis is always positive, entailing a positive flow of money.
@@ -1126,10 +1126,10 @@ the first parenthesis is always zero, because of hedging, while the second paren
 
 Suppose that on April 1, 2004 a fixed income fund has \$100 million (par amount) invested in a 3.875 coupon bond expiring on February 15, 2013. The price of the bond on that day is $101.50 (per $100 of face value), and its duration is D = 7.491  
 
-- Let's duration hedges with the zero with  $T = \text{Feb 15, 2005 (duration } D_{S} = 0.87$
+- Let's duration hedges with the zero with  $T = \text{Feb15,2005 (duration } D_{S} = 0.87$
 
 $$
-k _ {S} = - \frac {D \times P}{D _ {S} \times P _ {S}} = \frac {7 . 4 9 1 \times 1 0 1 . 5}{0 . 8 7 \times 9 9 . 0 0 1 9} = - 8. 8 3
+k_{S} = - \frac{D \times P}{D_{S} \times P_{S}} = \frac{7 . 4 9 1 \times 1 0 1 . 5}{0 . 8 7 \times 9 9 . 0 0 1 9} = - 8. 8 3
 $$
 
 - Between April 1, 2004 and April 15, 2004, the yield curve shifted up by  $0.5\%$ , on average.  
@@ -1142,14 +1142,14 @@ $$
 - In sharp contrast, the new yield curve implies the value of the hedged portfolio is
 
 $$
-V_{4 / 15 / 2004} = \\(98.20,\quad \text{a decline of} 3.30\% .
+V_{4 / 15 / 2004} = \\(98.20,\quad \text{adeclineof} 3.30\% .
 $$
 
 - The hedging strategy did not work as expected.  
 - It did work partially, as the unhedged portfolio would have dropped instead to
 
 $$
-V _ {4 / 15 / 2004} ^ {\mathrm {n o h e d g e}} = \\mathbb {S} 97.42, \quad \mathrm {a d e c r e a s e o f} 4.01 \%.
+V_{4 / 15 / 2004}^{\mathrm{no he dg e}} = \\mathbb {S} 97.42, \quad \mathrm{ad ec re as eo f} 4.01 \%.
 $$
 
 - The problem with the duration hedge is that the slope of the terms structure changed.
@@ -1174,7 +1174,7 @@ Panel C:Butterfly Spread (Curvature)
 - Denoting  $r(t, t + \tau_i)$  the continuously compounded yield at  $t$  of a zero coupon bond maturing at  $t + \tau_i$ , for each of these maturities  $\tau_i$ , let
 
 $$
-\Delta r _ {i} (t) = r (t + h, t + h + \tau_ {i}) - r (t, t + \tau_ {i}).
+\Delta r_{i} (t) = r (t + h, t + h + \tau_{i}) - r (t, t + \tau_{i}).
 $$
 
 # A Factor Representation of Yield Changes
@@ -1182,11 +1182,11 @@ $$
 - Assume that the dynamics of interest rates is:
 
 $$
-\Delta r _ {1} (t) = \alpha_ {1} + \beta_ {1 1} \Delta \phi_ {1} (t) + \beta_ {1 2} \Delta \phi_ {2} (t) + \beta_ {1 3} \Delta \phi_ {3} (t) + \varepsilon_ {1} (t)
+\Delta r_{1} (t) = \alpha_{1} + \beta_{1 1} \Delta \phi_{1} (t) + \beta_{1 2} \Delta \phi_{2} (t) + \beta_{1 3} \Delta \phi_{3} (t) + \varepsilon_{1} (t)
 $$
 
 $$
-\Delta r _ {2} (t) = \alpha_ {2} + \beta_ {2 1} \Delta \phi_ {1} (t) + \beta_ {2 2} \Delta \phi_ {2} (t) + \beta_ {2 3} \Delta \phi_ {3} (t) + \varepsilon_ {2} (t)
+\Delta r_{2} (t) = \alpha_{2} + \beta_{2 1} \Delta \phi_{1} (t) + \beta_{2 2} \Delta \phi_{2} (t) + \beta_{2 3} \Delta \phi_{3} (t) + \varepsilon_{2} (t)
 $$
 
 $$
@@ -1194,7 +1194,7 @@ $$
 $$
 
 $$
-\Delta r _ {n} (t) = \alpha_ {n} + \beta_ {n 1} \Delta \phi_ {1} (t) + \beta_ {n 2} \Delta \phi_ {2} (t) + \beta_ {n 3} \Delta \phi_ {3} (t) + \varepsilon_ {n} (t)
+\Delta r_{n} (t) = \alpha_{n} + \beta_{n 1} \Delta \phi_{1} (t) + \beta_{n 2} \Delta \phi_{2} (t) + \beta_{n 3} \Delta \phi_{3} (t) + \varepsilon_{n} (t)
 $$
 
 # Identifying the Factors: Principal Component Analysis
@@ -1204,7 +1204,7 @@ $$
 - That is, for  $i = 1,2,3$  we have
 
 $$
-\Delta \phi_ {i} (t) = a _ {i 1} \times \Delta r _ {1} (t) + \ldots + a _ {i n} \times \Delta r _ {n} (t)
+\Delta \phi_{i} (t) = a_{i 1} \times \Delta r_{1} (t) + \ldots + a_{i n} \times \Delta r_{n} (t)
 $$
 
 - Denote  $\sigma_{k\ell} = \operatorname{Cov}\left(\Delta r_k, \Delta r_\ell\right)$  
@@ -1212,7 +1212,7 @@ $$
 - Objective: Find  $a_{11}, \ldots, a_{1n}$  to maximize the variance of  $\Delta \phi_1(t)$
 
 $$
-\max _ {\alpha_ {1 1}, \dots , \alpha_ {1 n}} V a r \left(\Delta \phi_ {i}\right) = \sum_ {k = 1} ^ {n} \sum_ {\ell = 1} ^ {n} a _ {1 k} a _ {1 \ell} \sigma_ {k \ell} \tag {14}
+\max_{\alpha_{1 1}, \dots , \alpha_{1 n}} V a r \left(\Delta \phi_{i}\right) = \sum_{k = 1}^{n} \sum_{\ell = 1}^{n} a_{1 k} a_{1 \ell} \sigma_{k \ell} \tag {14}
 $$
 
 under the restriction  $\Sigma_{j=1}^{n} a_{1j}^{2} = 1$  
@@ -1224,30 +1224,30 @@ under the restriction  $\Sigma_{j=1}^{n} a_{1j}^{2} = 1$
 - It is as if we are maximizing some weighted average of the  $\mathsf{R}^2$ s of the multiple regressions
 
 $$
-\begin{array}{l} \Delta r _ {1} (t) = \alpha_ {1} + \beta_ {1 1} \Delta \phi_ {1} (t) + \varepsilon_ {1} (t) \\ \Delta r _ {2} (t) = \alpha_ {2} + \beta_ {2 1} \Delta \phi_ {1} (t) + \varepsilon_ {2} (t) \\ \vdots = \vdots \tag {15} \\ \end{array}
+\begin{array}{l} \Delta r_{1} (t) = \alpha_{1} + \beta_{1 1} \Delta \phi_{1} (t) + \varepsilon_{1} (t) \\ \Delta r_{2} (t) = \alpha_{2} + \beta_{2 1} \Delta \phi_{1} (t) + \varepsilon_{2} (t) \\ \vdots = \vdots \tag {15} \\ \end{array}
 $$
 
 $$
-\Delta r _ {n} (t) = \alpha_ {n} + \beta_ {n 1} \Delta \phi_ {1} (t) + \varepsilon_ {n} (t)
+\Delta r_{n} (t) = \alpha_{n} + \beta_{n 1} \Delta \phi_{1} (t) + \varepsilon_{n} (t)
 $$
 
 - After the first component, we can compute the residual of the regression (15): For all  $i = 1,..,n$
 
 $$
-\hat {\varepsilon} _ {i} (t) = \Delta r _ {i} (t) - \alpha_ {i} - \beta_ {i 1} \Delta \phi_ {1} (t)
+\hat {\varepsilon}_{i} (t) = \Delta r_{i} (t) - \alpha_{i} - \beta_{i 1} \Delta \phi_{1} (t)
 $$
 
 - The variation of the residuals  $\hat{\varepsilon}_i(t)$  is what is left to "explain."
 - Hence, we can compute the second component as
 
 $$
-\Delta \phi_ {2} (t) = a _ {2 1} \times \hat {\varepsilon} _ {1} (t) + \ldots + a _ {2 n} \times \hat {\varepsilon} _ {n} (t)
+\Delta \phi_{2} (t) = a_{2 1} \times \hat {\varepsilon}_{1} (t) + \ldots + a_{2 n} \times \hat {\varepsilon}_{n} (t)
 $$
 
 - We find again the  $a_{21}, \ldots, a_{2n}$  that maximize
 
 $$
-\max  _ {a _ {2 1}, \dots , a _ {2 n}} V a r \left(\Delta \phi_ {2} (t)\right) \tag {16}
+\max_{a_{2 1}, \dots , a_{2 n}} V a r \left(\Delta \phi_{2} (t)\right) \tag {16}
 $$
 
 - conditional again on  $\sum_{j=1}^{n} a_{2j}^{2} = 1$ . And so on.
@@ -1257,13 +1257,13 @@ $$
 - Start from the  $n \times n$  variance-covariance matrix of  $\Delta r_{i}(t)$ 's. Denote it by
 
 $$
-M = C o v \left(\Delta r _ {1} (t), \dots , \Delta r _ {n} (t)\right)
+M = C o v \left(\Delta r_{1} (t), \dots , \Delta r_{n} (t)\right)
 $$
 
 - Compute the eigenvalues and eigenvectors of  $M$ , i.e. those scalars  $\lambda_{i}$  (eigenvalues) and vectors  $\mathbf{v}_{i} = (v_{i1}, \ldots, v_{in})'$  related by
 
 $$
-M \mathbf {v} _ {i} = \lambda_ {i} \mathbf {v} _ {i}
+M \mathbf {v}_{i} = \lambda_{i} \mathbf {v}_{i}
 $$
 
 - Order  $\lambda_{1} > \lambda_{2} > \ldots > \lambda_{n}$ . It can be shown then the eigenvector  $\mathbf{v}_{1}$  is the solution to the first maximization (14), that is  $\mathbf{v}_{1} = (a_{11},\dots,a_{1n})$
@@ -1271,7 +1271,7 @@ $$
 — Accordingly, we set
 
 $$
-\Delta \phi_ {1} (t) = \sum_ {k = 1} ^ {n} v _ {1 k} \Delta r _ {k} (t)
+\Delta \phi_{1} (t) = \sum_{k = 1}^{n} v_{1 k} \Delta r_{k} (t)
 $$
 
 - We then run the regression (15) and compute the residuals  $\hat{\varepsilon}_1(t), \dots, \hat{\varepsilon}_n(t)$
@@ -1281,7 +1281,7 @@ $$
 - $\mathbf{v}_{2}$  is the solution to the second maximization (16). Accordingly, we set the second factor
 
 $$
-\Delta \phi_ {2} (t) = \sum_ {k = 1} ^ {n} v _ {2 k} \hat {\varepsilon} _ {k} (t)
+\Delta \phi_{2} (t) = \sum_{k = 1}^{n} v_{2 k} \hat {\varepsilon}_{k} (t)
 $$
 
 - We run the regression (13) with two factors. And so on.  
@@ -1291,7 +1291,7 @@ Notes:
 - Consider the "beta" from the regression from factor 1. Using vector notation
 
 $$
-\begin{array}{l} \beta_ {i 1} = \frac {C o v (\Delta r _ {i} (t) , \Delta \phi_ {1} (t))}{V a r (\Delta \Phi_ {1} (t))} = \frac {C o v (\Delta r _ {i} (t) , \Sigma_ {k = 1} ^ {n} v _ {1 k} \Delta r _ {k} (t))}{V a r (\Sigma_ {k = 1} ^ {n} v _ {1 k} \Delta r _ {k})} \\ = \frac {\mathbf {1} _ {i} ^ {\prime} M \mathbf {v} _ {1}}{\mathbf {v} _ {1} ^ {\prime} M \mathbf {v} _ {1}} = \frac {\mathbf {1} _ {i} ^ {\prime} \lambda_ {1} \mathbf {v} _ {1}}{\lambda_ {1} \mathbf {v} _ {1} ^ {\prime} \mathbf {v} _ {1}} = v _ {1 i} \\ \end{array}
+\begin{array}{l} \beta_{i 1} = \frac{C o v (\Delta r_{i} (t) , \Delta \phi_{1} (t))}{V a r (\Delta \Phi_{1} (t))} = \frac{C o v (\Delta r_{i} (t) , \Sigma_{k = 1}^{n} v_{1 k} \Delta r_{k} (t))}{V a r (\Sigma_{k = 1}^{n} v_{1 k} \Delta r_{k})} \\ = \frac{\mathbf {1}_{i}^{\prime} M \mathbf {v}_{1}}{\mathbf {v}_{1}^{\prime} M \mathbf {v}_{1}} = \frac{\mathbf {1}_{i}^{\prime} \lambda_{1} \mathbf {v}_{1}}{\lambda_{1} \mathbf {v}_{1}^{\prime} \mathbf {v}_{1}} = v_{1 i} \\ \end{array}
 $$
 
 $\Rightarrow$  The beta coefficients in (13) are just the eigenvectors:  $\beta_{ij} = v_{ji}$
@@ -1320,19 +1320,19 @@ Regression coefficients  $\beta_{ij}$
 - The factor duration of an asset with price  $P$  with respect to factor  $j$ :
 
 $$
-D _ {j} = - \frac {1}{P} \frac {d P}{d \phi_ {j}} \tag {17}
+D_{j} = - \frac{1}{P} \frac{d P}{d \phi_{j}} \tag {17}
 $$
 
 From PCA we can approximate
 
 $$
-\frac {d r _ {i}}{d \phi_ {j}} \approx \beta_ {i j}
+\frac{d r_{i}}{d \phi_{j}} \approx \beta_{i j}
 $$
 
 - Example 1. From the definition of a zero coupon bond  $Z(t, t + \tau_i) = e^{-r_i(t)\tau_i}$  the duration with respect to factor  $j$  is
 
 $$
-\begin{array}{l} D _ {z, j} = - \frac {1}{Z (t , t + \tau_ {i})} \frac {d Z (t , t + \tau_ {i})}{d \phi_ {j}} \\ = - \frac {1}{Z (t , t + \tau_ {i})} \frac {d Z (t , t + \tau_ {i})}{d r _ {i}} \times \frac {d r _ {i}}{d \phi_ {j}} \\ \mathbf {\tau} = \boldsymbol {\tau} _ {i} \times \boldsymbol {\beta} _ {i j} \\ \end{array}
+\begin{array}{l} D_{z, j} = - \frac{1}{Z (t , t + \tau_{i})} \frac{d Z (t , t + \tau_{i})}{d \phi_{j}} \\ = - \frac{1}{Z (t , t + \tau_{i})} \frac{d Z (t , t + \tau_{i})}{d r_{i}} \times \frac{d r_{i}}{d \phi_{j}} \\ \mathbf {\tau} = \boldsymbol {\tau}_{i} \times \boldsymbol {\beta}_{i j} \\ \end{array}
 $$
 
 # Interest Rate Risk Management and Factor Duration
@@ -1340,19 +1340,19 @@ $$
 - Example 2. From the definition of a coupon bond:
 
 $$
-P _ {c} (t, T) = \frac {c}{2} \sum_ {i = 1} ^ {n} Z (t, T _ {i}) + Z (t, T _ {n})
+P_{c} (t, T) = \frac{c}{2} \sum_{i = 1}^{n} Z (t, T_{i}) + Z (t, T_{n})
 $$
 
 - the duration of the bond with respect to factor  $j$  is
 
 $$
-D _ {j} = - \frac {1}{P _ {c}} \frac {d P _ {c}}{d \phi_ {j}} = \sum_ {i = 1} ^ {n} w _ {i} \tau_ {i} \beta_ {i j}
+D_{j} = - \frac{1}{P_{c}} \frac{d P_{c}}{d \phi_{j}} = \sum_{i = 1}^{n} w_{i} \tau_{i} \beta_{i j}
 $$
 
 - Given  $D_{j}$ , we can approximate the return of a security by
 
 $$
-\frac {d P}{P} \approx - D _ {1} d \phi_ {1} - D _ {2} d \phi_ {2} - D _ {3} d \phi_ {3}
+\frac{d P}{P} \approx - D_{1} d \phi_{1} - D_{2} d \phi_{2} - D_{3} d \phi_{3}
 $$
 
 # Interest Rate Risk Management: Factor Neutrality
@@ -1363,17 +1363,17 @@ $$
 - We want to choose  $k_{S}$  and  $k_{L}$ , such that the variation of the portfolio plus the two bonds is approximately zero. That is, such that the change in  $V = P + k_{S} \times P_{z}^{S} + k_{L} \times P_{z}^{L}$  satisfies
 
 $$
-d V = d P + k _ {F} \times d P _ {z} ^ {S} + k _ {L} \times d P _ {z} ^ {L} = 0
+d V = d P + k_{F} \times d P_{z}^{S} + k_{L} \times d P_{z}^{L} = 0
 $$
 
 - The same steps as in the case of duration / convexity hedging yield the two equations:
 
 $$
-k _ {S} \times D _ {z 1} ^ {S} \times P _ {z} ^ {S} + k _ {L} \times D _ {z 1} ^ {L} \times P _ {z} ^ {L} = - D _ {1} \times P
+k_{S} \times D_{z 1}^{S} \times P_{z}^{S} + k_{L} \times D_{z 1}^{L} \times P_{z}^{L} = - D_{1} \times P
 $$
 
 $$
-k _ {S} \times D _ {z 2} ^ {S} \times P _ {z} ^ {S} + k _ {L} \times D _ {z 2} ^ {L} \times P _ {z} ^ {L} = - D _ {2} \times P
+k_{S} \times D_{z 2}^{S} \times P_{z}^{S} + k_{L} \times D_{z 2}^{L} \times P_{z}^{L} = - D_{2} \times P
 $$
 
 # Interest Rate Risk Management: Factor Neutrality
@@ -1381,11 +1381,11 @@ $$
 - The solution of this system is:
 
 $$
-k _ {S} = - \frac {P}{P _ {z} ^ {S}} \left(\frac {D _ {1} \times D _ {z 2} ^ {L} - D _ {2} \times D _ {z 1} ^ {L}}{D _ {z 1} ^ {S} \times D _ {z 2} ^ {L} - D _ {z 2} ^ {S} \times D _ {z 1} ^ {L}}\right); \tag {18}
+k_{S} = - \frac{P}{P_{z}^{S}} \left(\frac{D_{1} \times D_{z 2}^{L} - D_{2} \times D_{z 1}^{L}}{D_{z 1}^{S} \times D_{z 2}^{L} - D_{z 2}^{S} \times D_{z 1}^{L}}\right); \tag {18}
 $$
 
 $$
-k _ {L} = - \frac {P}{P _ {z} ^ {L}} \left(\frac {D _ {1} \times D _ {z 2} ^ {S} - D _ {2} \times D _ {z 1} ^ {S}}{D _ {z 1} ^ {L} \times D _ {z 2} ^ {S} - D _ {z 2} ^ {L} \times D _ {z 1} ^ {S}}\right) \tag {19}
+k_{L} = - \frac{P}{P_{z}^{L}} \left(\frac{D_{1} \times D_{z 2}^{S} - D_{2} \times D_{z 1}^{S}}{D_{z 1}^{L} \times D_{z 2}^{S} - D_{z 2}^{L} \times D_{z 1}^{S}}\right) \tag {19}
 $$
 
 # Factor Neutrality: Example
@@ -1394,19 +1394,19 @@ $$
 - Using the data about level and slope, we find the following factor durations:
 
 $$
-\begin{array}{l} \mathrm {L o n g - t e r m c o u p o n b o n d}: D _ {1} = 6. 9 6 2 4; \quad D _ {2} = 4. 0 7 9 7; \\ \text {S h o r t - t e r m z e r o}: D _ {1} ^ {S} = 0. 9 7 2 9; \quad D _ {2} ^ {S} = - 0. 2 2 1 5; \\ \mathrm {L o n g - t e r m z e r o}: D _ {1} ^ {L} = 8. 1 9 1 2; \quad D _ {2} ^ {L} = 5. 3 1 5 0. \\ \end{array}
+\begin{array}{l} \mathrm{Lo ng -t er mc ou po nb on d}: D_{1} = 6. 9 6 2 4; \quad D_{2} = 4. 0 7 9 7; \\ \text{Sh or t -t er mz er o}: D_{1}^{S} = 0. 9 7 2 9; \quad D_{2}^{S} = - 0. 2 2 1 5; \\ \mathrm{Lo ng -t er mz er o}: D_{1}^{L} = 8. 1 9 1 2; \quad D_{2}^{L} = 5. 3 1 5 0. \\ \end{array}
 $$
 
 - Using Equation (18) we obtain that the positions  $k_{S}$  and  $k_{L}$  in the short-term and long-term zero coupon bonds are
 
 $$
-k _ {S} = - 0. 5 2 6 6; \quad k _ {L} = - 1. 1 2 5 9
+k_{S} = - 0. 5 2 6 6; \quad k_{L} = - 1. 1 2 5 9
 $$
 
 - In this case, on April 15 2007 the hedged portfolio is worth
 
 $$
-V _ {4 / 15 / 2004} ^ {\text {Factor Hedge}} = \$ 100.91, \quad \text {a drop of only} 0.58 \%
+V_{4 / 15 / 2004}^{\text{FactorHedge}} = \$ 100.91, \quad \text{adropofonly} 0.58 \%
 $$
 
 # Teaching Notes
@@ -1439,19 +1439,19 @@ Long-term yield  $=$  Expected future short-term rates
 - Investors then also know that the zero coupon bond price next year will be
 
 $$
-Z _ {t + 1} (1) = e ^ {- y _ {t + 1} (1) \times 1}
+Z_{t + 1} (1) = e^{- y_{t + 1} (1) \times 1}
 $$
 
 - Because under these assumptions,  $Z_{t + 1}(1)$  is known today, its value today is the discounted value using the current 1-year yield:
 
 $$
-Z _ {t} (2) = Z _ {t} (1) \times Z _ {t + 1} (1) = e ^ {- (y _ {t} (1) + y _ {t + 1} (1))}
+Z_{t} (2) = Z_{t} (1) \times Z_{t + 1} (1) = e^{- (y_{t} (1) + y_{t + 1} (1))}
 $$
 
 - Because the two-year yield also satisfies  $Z_{t}(2) = e^{-y_{t}(2)\times 2}$ , we obtain that under perfect foresight
 
 $$
-y _ {t} (2) = \frac {1}{2} (y _ {t} (1) + y _ {t + 1} (1))
+y_{t} (2) = \frac{1}{2} (y_{t} (1) + y_{t + 1} (1))
 $$
 
 # The Expectations Hypothesis (cntd.)
@@ -1459,7 +1459,7 @@ $$
 - Extending this reasoning to  $n$  future one-year yields, then under perfect foresight the yield of a zero-coupon bond with  $n + 1$  years to maturity is:
 
 $$
-y _ {t} (n + 1) = \mathsf {A v e r a g e} [ y _ {t} (1), y _ {t + 1} (1), \ldots , y _ {t + n} (1) ] = \frac {1}{n + 1} \sum_ {i = 0} ^ {n} y _ {t + i} (1)
+y_{t} (n + 1) = \mathsf {A v e r a g e} [ y_{t} (1), y_{t + 1} (1), \ldots , y_{t + n} (1) ] = \frac{1}{n + 1} \sum_{i = 0}^{n} y_{t + i} (1)
 $$
 
 - The expectations hypothesis substitutes the perfect foresight with forecasts:
@@ -1467,13 +1467,13 @@ $$
 The long term yield  $=$  forecasted average path of future rates
 
 $$
-y _ {t} (n + 1) = E _ {t} \left[ \frac {1}{n + 1} \sum_ {i = 0} ^ {n} y _ {t + i} (1) \right] \tag {1}
+y_{t} (n + 1) = E_{t} \left[ \frac{1}{n + 1} \sum_{i = 0}^{n} y_{t + i} (1) \right] \tag {1}
 $$
 
 - Subtracting the current 1-year yield, we can also write
 
 $$
-y _ {t} (n + 1) - y _ {t} (1) = E _ {t} \left[ \frac {1}{n + 1} \sum_ {i = 0} ^ {n} y _ {t + i} (1) \right] - y _ {t} (1) \tag {2}
+y_{t} (n + 1) - y_{t} (1) = E_{t} \left[ \frac{1}{n + 1} \sum_{i = 0}^{n} y_{t + i} (1) \right] - y_{t} (1) \tag {2}
 $$
 
 # Preliminary Heuristic Evidence
@@ -1500,13 +1500,13 @@ Consensus Forecasts of Future 3-Month T-Bill Rates
 - We saw in Teaching Notes 1 that a forward rate at  $t$  for an investment between  $\tau_{1}$  and  $\tau_{2}$  can be written as
 
 $$
-f _ {t} (\tau_ {1}, \tau_ {2}) = \frac {1}{\tau_ {2} - \tau_ {1}} \ln \left(\frac {Z _ {t} (\tau_ {1})}{Z _ {t} (\tau_ {2})}\right) = \frac {1}{\tau_ {2} - \tau_ {1}} (y _ {t} (\tau_ {2}) \tau_ {2} - y _ {t} (\tau_ {1}) \tau_ {1}) \qquad (3)
+f_{t} (\tau_{1}, \tau_{2}) = \frac{1}{\tau_{2} - \tau_{1}} \ln \left(\frac{Z_{t} (\tau_{1})}{Z_{t} (\tau_{2})}\right) = \frac{1}{\tau_{2} - \tau_{1}} (y_{t} (\tau_{2}) \tau_{2} - y_{t} (\tau_{1}) \tau_{1}) \qquad (3)
 $$
 
 - Consider a sequence of maturities  $\tau_{i} = \tau_{i - 1} + \Delta t$ , for  $i = 2, \dots, n$ . We have
 
 $$
-\begin{array}{l} f _ {t} (\tau_ {1}, \tau_ {2}) = \frac {1}{\Delta t} (y _ {t} (\tau_ {2}) \tau_ {2} - y _ {t} (\tau_ {1}) \tau_ {1}) \\ f _ {t} (\tau_ {2}, \tau_ {3}) = \frac {1}{\Delta t} (y _ {t} (\tau_ {3}) \tau_ {3} - y _ {t} (\tau_ {2}) \tau_ {2}) \\ \vdots \qquad \vdots \qquad \vdots \\ f _ {t} (\tau_ {n - 2}, \tau_ {n - 1}) = \frac {1}{\Delta t} (y _ {t} (\tau_ {n - 1}) \tau_ {n - 1} - y _ {t} (\tau_ {n - 2}) \tau_ {n - 2}) \\ f _ {t} (\tau_ {n - 1}, \tau_ {n}) = \frac {1}{\Delta t} (y _ {t} (\tau_ {n}) \tau_ {n} - y _ {t} (\tau_ {n - 1}) \tau_ {n - 1}) \\ \end{array}
+\begin{array}{l} f_{t} (\tau_{1}, \tau_{2}) = \frac{1}{\Delta t} (y_{t} (\tau_{2}) \tau_{2} - y_{t} (\tau_{1}) \tau_{1}) \\ f_{t} (\tau_{2}, \tau_{3}) = \frac{1}{\Delta t} (y_{t} (\tau_{3}) \tau_{3} - y_{t} (\tau_{2}) \tau_{2}) \\ \vdots \qquad \vdots \qquad \vdots \\ f_{t} (\tau_{n - 2}, \tau_{n - 1}) = \frac{1}{\Delta t} (y_{t} (\tau_{n - 1}) \tau_{n - 1} - y_{t} (\tau_{n - 2}) \tau_{n - 2}) \\ f_{t} (\tau_{n - 1}, \tau_{n}) = \frac{1}{\Delta t} (y_{t} (\tau_{n}) \tau_{n} - y_{t} (\tau_{n - 1}) \tau_{n - 1}) \\ \end{array}
 $$
 
 # The Expectation Hypothesis and Forward Rates (cntd.)
@@ -1514,19 +1514,19 @@ $$
 - Summing over all of the forward rates, we find
 
 $$
-\sum_ {i = 2} ^ {n} f _ {t} (\tau_ {i - 1}, \tau_ {i}) = \frac {1}{\Delta t} (y _ {t} (\tau_ {n}) \tau_ {n} - y _ {t} (\tau_ {1}) \tau_ {1})
+\sum_{i = 2}^{n} f_{t} (\tau_{i - 1}, \tau_{i}) = \frac{1}{\Delta t} (y_{t} (\tau_{n}) \tau_{n} - y_{t} (\tau_{1}) \tau_{1})
 $$
 
 - Assuming  $\tau_{1} = \Delta t$  and defining  $f_{t}(0, \Delta t) = y_{t}(\Delta t)$ , we the obtain
 
 $$
-y _ {t} (\tau_ {n}) = \frac {\Delta t}{\tau_ {n}} \sum_ {i = 1} ^ {n} f _ {t} (\tau_ {i - 1}, \tau_ {i}) = \text {A v e r a g e f o r w a r d r a t e s} \tag {4}
+y_{t} (\tau_{n}) = \frac{\Delta t}{\tau_{n}} \sum_{i = 1}^{n} f_{t} (\tau_{i - 1}, \tau_{i}) = \text{Av er ag ef or wa rd ra te s} \tag {4}
 $$
 
 - The expectation hypothesis then implies that for every  $i$  the forward rate is equal to the expected future short-term rate: $^2$
 
 $$
-f _ {t} (\tau_ {i}, \tau_ {i} + \Delta t) = E _ {t} [ y _ {t + \tau_ {i}} (\Delta t) ].
+f_{t} (\tau_{i}, \tau_{i} + \Delta t) = E_{t} [ y_{t + \tau_{i}} (\Delta t) ].
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-20/ff34cd1a-cf8f-48ef-82fe-87b50e3bff05/7a3fca6d9bd4130eff42bb150eb9dd6696a058f92c26106701dd7d22936014a4.jpg)  
@@ -1539,7 +1539,7 @@ Expected 3-Month T-Bill Rate vs. Forward Rate
 - The violation of the expectations hypothesis (and the time variation in spread) suggests the existence of an additional term in Equation (1):
 
 $$
-y _ {t} (n + 1) = E _ {t} \left[ \frac {1}{n + 1} \sum_ {i = 0} ^ {n} y _ {t + i} (1) \right] + R P _ {t} \tag {5}
+y_{t} (n + 1) = E_{t} \left[ \frac{1}{n + 1} \sum_{i = 0}^{n} y_{t + i} (1) \right] + R P_{t} \tag {5}
 $$
 
 - where  $R{P}_{t}$  reflects a risk premium from holding the bond from  $t$  to  $t + 1$  .  
@@ -1552,31 +1552,31 @@ $$
 - Let  $y_{t}(n + 1) =$  yield at  $t$  of a bond with time to maturity  $(n + 1)$  years from  $t$
 
 $$
-Z _ {t} (n + 1) = e ^ {- y _ {t} (n + 1) (n + 1)} \tag {6}
+Z_{t} (n + 1) = e^{- y_{t} (n + 1) (n + 1)} \tag {6}
 $$
 
 - The value of this bond next year will then be
 
 $$
-Z _ {t + 1} (n) = e ^ {- y _ {t + 1} (n) \times n}
+Z_{t + 1} (n) = e^{- y_{t + 1} (n) \times n}
 $$
 
 - The yield next year  $y_{t + 1}(n)$  is not known. Assume it normally distributed
 
 $$
-y _ {t + 1} (n) \sim \mathcal {N} (\overline {{y}}, V)) \quad \mathrm {w i t h} \quad \overline {{y}} = E [ y _ {t + 1} (n) ]
+y_{t + 1} (n) \sim \mathcal {N} (\overline {{y}}, V)) \quad \mathrm{wi th} \quad \overline {{y}} = E [ y_{t + 1} (n) ]
 $$
 
 - $Z_{t + 1}(n)$  is risky and so investors at  $t$  may require an additional discount  $RP$ :
 
 $$
-Z _ {t} (n + 1) = e ^ {- (y _ {t} (1) + R P _ {t}) \times 1} E _ {t} [ Z _ {t + 1} (n) ] \tag {7}
+Z_{t} (n + 1) = e^{- (y_{t} (1) + R P_{t}) \times 1} E_{t} [ Z_{t + 1} (n) ] \tag {7}
 $$
 
 - Using the properties of the normal distribution,³ we then obtain
 
 $$
-E _ {t} [ Z _ {t + 1} (n) ] = e ^ {- \overline {{y}} \times n + \frac {(n) ^ {2}}{2} V}
+E_{t} [ Z_{t + 1} (n) ] = e^{- \overline {{y}} \times n + \frac{(n)^{2}}{2} V}
 $$
 
 3If  $x\sim N(\mu_x,\sigma_x^2)$  , then  $E[e^{x}] = e^{\mu_{x} + \frac{1}{2}\sigma_{x}^{2}} > e^{\mu_{x}}$  . Hence,  $\frac{1}{2}\sigma_x^2$  quantifies the Jensen's effect.
@@ -1586,7 +1586,7 @@ $$
 Using (6) and (7) we then obtain
 
 $$
-\begin{array}{l} y _ {t} (n + 1) = \frac {1}{n + 1} \times y _ {t} (1) + \frac {n}{n + 1} \times E _ {t} [ y _ {t + 1} (n) ] \qquad (\mathrm {E x p e c t e d f u t u r e y i e l d}) \\ + \frac {R P}{n + 1} \\ - \frac {n ^ {2}}{2 (n + 1)} V _ {t} \\ \end{array}
+\begin{array}{l} y_{t} (n + 1) = \frac{1}{n + 1} \times y_{t} (1) + \frac{n}{n + 1} \times E_{t} [ y_{t + 1} (n) ] \qquad (\mathrm{Ex pe ct ed fu tu re yi el d}) \\ + \frac{R P}{n + 1} \\ - \frac{n^{2}}{2 (n + 1)} V_{t} \\ \end{array}
 $$
 
 (Convexity)
@@ -1604,13 +1604,13 @@ $$
 - Let  $R{P}_{t} = \frac{{n}^{2}}{2}{V}_{t}$  . Then the expectation hypothesis holds:
 
 $$
-y _ {t} (n + 1) = \frac {1}{n + 1} \times y _ {t} (1) + \frac {n}{n + 1} \times E _ {t} [ y _ {t + 1} (n) ] \qquad (9)
+y_{t} (n + 1) = \frac{1}{n + 1} \times y_{t} (1) + \frac{n}{n + 1} \times E_{t} [ y_{t + 1} (n) ] \qquad (9)
 $$
 
 - Subtract  $y_{t}(n + 1) \times (n) / (n + 1)$  on both sides, to get
 
 $$
-E _ {t} [ y _ {t + 1} (n) ] - y _ {t} (n + 1) = \frac {1}{n} [ y _ {t} (n + 1) - y _ {t} (1) ] \qquad (1 0)
+E_{t} [ y_{t + 1} (n) ] - y_{t} (n + 1) = \frac{1}{n} [ y_{t} (n + 1) - y_{t} (1) ] \qquad (1 0)
 $$
 
 Expected Change in Yield
@@ -1620,7 +1620,7 @@ Slope of Term Structure
 - A steep term structure (on the RHS) signals the market expects an increase in the yield  $y_{t}(n + 1)$  between  $t$  and  $t + 1$  (on the LHS)
 
 $$
-E _ {t} \left[ y _ {t + 1} (n) \right] > y _ {t} (n + 1)
+E_{t} \left[ y_{t + 1} (n) \right] > y_{t} (n + 1)
 $$
 
 $- \Rightarrow$  market expects a low or negative return on  $(n + 1)$  maturity bond.
@@ -1639,25 +1639,25 @@ Long-Term Yield Increase
 - In an influential paper, Campbell and Shiller (1988) run the following regressions
 
 $$
-\text {C h a n g e s i n y i e l d} = \alpha + \beta \times \operatorname {S l o p e} _ {t} + \varepsilon_ {t + 1} \tag {11}
+\text{Ch an ge si ny ie ld} = \alpha + \beta \times \operatorname{Sl op e}_{t} + \varepsilon_{t + 1} \tag {11}
 $$
 
 - That is, from yield data we can compute a dependent "Y" variable
 
 $$
-Y _ {t} = \text {C h a n g e s i n y i e l d} = y _ {t + 1} (n) - y _ {t} (n + 1); t = 1, 2, \dots , T
+Y_{t} = \text{Ch an ge si ny ie ld} = y_{t + 1} (n) - y_{t} (n + 1); t = 1, 2, \dots , T
 $$
 
 and an explanatory "  $X$  " variable
 
 $$
-X _ {t} = \mathsf {S l o p e} _ {t} = \frac {1}{n} \left[ y _ {t} (n + 1) - y _ {t} (1) \right]; \quad t = 1, 2, \ldots , T
+X_{t} = \mathsf {S l o p e}_{t} = \frac{1}{n} \left[ y_{t} (n + 1) - y_{t} (1) \right]; \quad t = 1, 2, \ldots , T
 $$
 
 - Then Campbell and Shiller (1988) run the regression
 
 $$
-Y _ {t} = \alpha + \beta X _ {t} + \varepsilon_ {t + 1} \tag {12}
+Y_{t} = \alpha + \beta X_{t} + \varepsilon_{t + 1} \tag {12}
 $$
 
 - The expectations hypothesis has  $\alpha = 0$  and  $\beta = 1$ .  
@@ -1692,14 +1692,14 @@ Long-Term Yield Decrease
 - This result implies that the slope of the term structure predicts
 
 $$
-L R P _ {t} = R P _ {t} - \frac {n ^ {2}}{2} V _ {t}, \tag {13}
+L R P_{t} = R P_{t} - \frac{n^{2}}{2} V_{t}, \tag {13}
 $$
 
 - $LRP_{t}$  stands for "Log Risk Premium" (see below).  
 - In fact, we can rewrite (8) as
 
 $$
-E _ {t} \left[ y _ {t + 1} (n) - y _ {t} (n + 1) \right] = \frac {1}{n} \left[ y _ {t} (n + 1) - y _ {t} (1) \right] - L R P _ {t} \tag {14}
+E_{t} \left[ y_{t + 1} (n) - y_{t} (n + 1) \right] = \frac{1}{n} \left[ y_{t} (n + 1) - y_{t} (1) \right] - L R P_{t} \tag {14}
 $$
 
 - We know slope is not positively related to the left-hand-side (previous table)  $\Rightarrow$  then it must be positively correlated with  $LRP_{t}$ .
@@ -1713,20 +1713,20 @@ $$
 - The Log Risk Premium  $LRP_{t}$  can also be rewritten as:
 
 $$
-L R P _ {t} = E _ {t} \left[ \log \left(\frac {Z _ {t + 1} (n)}{Z _ {t} (n + 1)}\right) - \log \left(\frac {1}{Z _ {t} (1)}\right) \right] \tag {15}
+L R P_{t} = E_{t} \left[ \log \left(\frac{Z_{t + 1} (n)}{Z_{t} (n + 1)}\right) - \log \left(\frac{1}{Z_{t} (1)}\right) \right] \tag {15}
 $$
 
 - The expectation hypothesis implies  $LRP_{t} = 0$ .  
 - To test for this hypothesis, denote the Log Excess Return (LER) from holding a long-term zero coupon bond over the short term bond by
 
 $$
-L E R _ {t} = \log \left(\frac {Z _ {t + 1} (n)}{Z _ {t} (n + 1)}\right) - \log \left(\frac {1}{Z _ {t} (1)}\right) \tag {16}
+L E R_{t} = \log \left(\frac{Z_{t + 1} (n)}{Z_{t} (n + 1)}\right) - \log \left(\frac{1}{Z_{t} (1)}\right) \tag {16}
 $$
 
 - $LER_{t}$  is the ex-post realized empirical counterpart of  $LRP_{t}$ :
 
 $$
-L R P _ {t} = E _ {t} [ L E R _ {t} ]
+L R P_{t} = E_{t} [ L E R_{t} ]
 $$
 
 # Fama Bliss Regressions
@@ -1734,7 +1734,7 @@ $$
 - Fama and Bliss (1987) then run the following regression
 
 $$
-L E R _ {t} = \alpha + \beta \left[ f _ {t} (n, n + 1) - y _ {t} (1) \right] + \varepsilon (t) \tag {17}
+L E R_{t} = \alpha + \beta \left[ f_{t} (n, n + 1) - y_{t} (1) \right] + \varepsilon (t) \tag {17}
 $$
 
 - The expectation hypothesis has  $LRP_{t} = 0$ , and therefore  $\alpha = \beta = 0$ .
@@ -1753,7 +1753,7 @@ Panel B: Log Excess Return Prediction from Forward Slope
 - The predicting factor is defined by
 
 $$
-x _ {t} = \gamma_ {0} + \gamma_ {1} y _ {t} (1) + \gamma_ {3} f _ {t} (2, 3) + \gamma_ {5} f _ {t} (4, 5)
+x_{t} = \gamma_{0} + \gamma_{1} y_{t} (1) + \gamma_{3} f_{t} (2, 3) + \gamma_{5} f_{t} (4, 5)
 $$
 
 - The parameters  $\gamma_{i}$  are estimated in a first stage regression:
@@ -1761,13 +1761,13 @@ $$
 — Define
 
 $$
-\overline {{L E R}} _ {t} = 0. 2 5 \times \sum_ {n = 2} ^ {5} L E R _ {t} (n)
+\overline {{L E R}}_{t} = 0. 2 5 \times \sum_{n = 2}^{5} L E R_{t} (n)
 $$
 
 - Then, estimate  $\gamma_{i}$ 's with:
 
 $$
-\overline {{L E R}} _ {t} = \gamma_ {0} + \gamma_ {1} y _ {t} (1) + \gamma_ {3} f _ {t} (2, 3) + \gamma_ {4} f _ {t} (4, 5)) + \varepsilon_ {t}
+\overline {{L E R}}_{t} = \gamma_{0} + \gamma_{1} y_{t} (1) + \gamma_{3} f_{t} (2, 3) + \gamma_{4} f_{t} (4, 5)) + \varepsilon_{t}
 $$
 
 - The estimates for 1964 - 2006 sample are  $\widehat{\gamma}_0 = -3.26$ ,  $\widehat{\gamma}_1 = -1.87$ ,  $\widehat{\gamma}_3 = 3.94$ , and  $\widehat{\gamma}_5 = -1.64$ .
@@ -1777,7 +1777,7 @@ $$
 - Cochrane and Piazzesi (2005) run the regression
 
 $$
-L E R _ {t} (n) = \alpha + \beta \times x _ {t} + \varepsilon_ {t} \tag {18}
+L E R_{t} (n) = \alpha + \beta \times x_{t} + \varepsilon_{t} \tag {18}
 $$
 
 Panel C: Log Excess Return Prediction from Cochrane Piazzesi Factor  
@@ -1807,7 +1807,7 @@ Panel C: Log Excess Return Prediction from Cochrane Piazzesi Factor
 
 # Inflation Risk and the Loss of Purchasing Power
 
-- The ratio  $C(t_{2}) / C(t_{1}) = \text{loss in purchasing power of a dollar between } t_{1} \text{ and } t_{2}$ .  
+- The ratio  $C(t_{2}) / C(t_{1}) = \text{lossinpurchasingpowerofa dollarbetween } t_{1} \text{ and } t_{2}$ .  
 - This ratio is given by  $C(t_2) / C(t_1) = \mathsf{CPI}(t_1) / \mathsf{CPI}(t_2)$ .
 - In the previous example  $\mathsf{CPI}(t_1) / \mathsf{CPI}(t_2) = 0.5 \Rightarrow$  we can only afford at  $t_2$  half of the goods we could buy at  $t_1$ .
 - Changes in CPI are unknown  $\Longrightarrow$  nominal securities have inflation risk
@@ -1823,11 +1823,11 @@ Panel C: Log Excess Return Prediction from Cochrane Piazzesi Factor
 - The Treasury publishes Index ratios
 
 $$
-\mathrm {I n d e x r a t i o} (t) = \max \left(\frac {\mathrm {R e f e r e n c e C P I} (t)}{\mathrm {C P I} (\mathrm {i s s u r a n c e})}, 0\right)
+\mathrm{In de xr at io} (t) = \max \left(\frac{\mathrm{Re fe re nc eC PI} (t)}{\mathrm{CP I} (\mathrm{is su ra nc e})}, 0\right)
 $$
 
 $$
-\mathrm {R e f e r e n c e C P I} (t) = w (t) \mathrm {C P I} (t - 1) + (1 - w (t)) \mathrm {C P I} (t - 2)
+\mathrm{Re fe re nc eC PI} (t) = w (t) \mathrm{CP I} (t - 1) + (1 - w (t)) \mathrm{CP I} (t - 2)
 $$
 
 where  $w(t)$  is a weight that depends on the quoted day of the month.
@@ -1836,7 +1836,7 @@ where  $w(t)$  is a weight that depends on the quoted day of the month.
 - Given the index ratio, the next coupon payment is
 
 $$
-\text {C o u p o n p a y m e n t} (t) = \frac {\text {C o u p o n r a t e}}{2} \times 1 0 0 \times \text {I n d e x r a t i o} (t)
+\text{Co up on pa ym en t} (t) = \frac{\text{Co up on ra te}}{2} \times 1 0 0 \times \text{In de xr at io} (t)
 $$
 
 <table><tr><td colspan="10">Treasury Securities on November 26, 2007</td></tr><tr><td colspan="10">Panel A: Treasury Bills</td></tr><tr><td>Coupon</td><td>Maturity</td><td>BID</td><td>ASK</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>12/20/2007</td><td>3.54</td><td>3.5</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>2/21/2008</td><td>3.05</td><td>3</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>5/22/2008</td><td>3.24</td><td>3.23</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="10">Panel B: Nominal Treasury Notes and Bonds</td></tr><tr><td>Coupon</td><td>Maturity</td><td>BID</td><td>ASK</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3 5/8</td><td>10/31/2009</td><td>101.25</td><td>101.25</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4 1/2</td><td>5/15/2010</td><td>103.75</td><td>103.7813</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3 7/8</td><td>10/31/2012</td><td>102.7188</td><td>102.7188</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4 1/4</td><td>11/15/2017</td><td>103.1563</td><td>103.1563</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>5/15/2037</td><td>111.7813</td><td>111.8438</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="10">Panel C: TIPS</td></tr><tr><td>Coupon</td><td>Maturity</td><td>BID</td><td>ASK</td><td>Issue Date</td><td>Issue Price</td><td>First Coupon</td><td>Reference CPI</td><td>CPI</td><td>Index Ratio</td></tr><tr><td>2</td><td>4/15/2012</td><td>104.2188</td><td>104.2813</td><td>4/30/2007</td><td>102.667</td><td>10/15/2007</td><td>202.9214</td><td>208.3945</td><td>1.02697</td></tr><tr><td>2 5/8</td><td>7/15/2017</td><td>110.125</td><td>110.2188</td><td>7/16/2007</td><td>102.722</td><td>1/15/2008</td><td>207.2564</td><td>208.3945</td><td>1.00549</td></tr><tr><td>2 3/8</td><td>1/15/2027</td><td>109.5313</td><td>109.7188</td><td>1/31/2007</td><td>99.57</td><td>7/15/2007</td><td>201.6645</td><td>208.3945</td><td>1.03337</td></tr><tr><td>3 3/8</td><td>4/15/2032</td><td>133.4063</td><td>133.625</td><td>10/15/2001</td><td>98.314</td><td>4/15/2002</td><td>177.5</td><td>208.3945</td><td>1.17405</td></tr><tr><td colspan="10">Data Source: Bloomberg, Inc.</td></tr></table>
@@ -1850,7 +1850,7 @@ $$
 - Because November 26 is 25 days after November 1, the calculation is
 
 $$
-\operatorname {C P I} (t) = \frac {5}{3 0} \times 2 0 7. 9 1 7 + \frac {2 5}{3 0} \times 2 0 8. 4 9 0 = 2 0 8. 3 9 4 5.
+\operatorname{CP I} (t) = \frac{5}{3 0} \times 2 0 7. 9 1 7 + \frac{2 5}{3 0} \times 2 0 8. 4 9 0 = 2 0 8. 3 9 4 5.
 $$
 
 - An investor in TIPS is still subject to a small inflation risk during the two months between the CPI measure and the actual payment.
@@ -1873,20 +1873,20 @@ $$
 - From real discounts  $Z^{real}(t;T)$  compute the real rate as usual:
 
 $$
-Z ^ {r e a l} (t; T) = e ^ {- r _ {r e a l} (t; T) (T - t)} \times 1 \tag {19}
+Z^{r e a l} (t; T) = e^{- r_{r e a l} (t; T) (T - t)} \times 1 \tag {19}
 $$
 
 - implies
 
 $$
-r _ {r e a l} (t; T) = - \frac {\ln \left(Z ^ {r e a l} (t ; T)\right)}{T - t} \tag {20}
+r_{r e a l} (t; T) = - \frac{\ln \left(Z^{r e a l} (t ; T)\right)}{T - t} \tag {20}
 $$
 
 - The real term structure of interest rates is  $r_{real}(t;T)$  for maturities  $T$ .  
 - The value (in consumption goods) of a real coupon bond with maturity  $T$  and coupon rate  $c$  is
 
 $$
-P _ {c} ^ {r e a l} (t; T) = \frac {c \times 1 0 0}{2} \sum_ {i = 1} ^ {n} Z ^ {r e a l} (t; T _ {i}) + 1 0 0 \times Z ^ {r e a l} (t; T)
+P_{c}^{r e a l} (t; T) = \frac{c \times 1 0 0}{2} \sum_{i = 1}^{n} Z^{r e a l} (t; T_{i}) + 1 0 0 \times Z^{r e a l} (t; T)
 $$
 
 # Real Bonds and TIPS
@@ -1896,20 +1896,20 @@ $$
 - Denoting by  $\operatorname{Idx}(T)$  the CPI adjustment for maturity  $T$  (recall, it depends on the CPI two months earlier), the payoff of a zero coupon TIPS is as follows:
 
 $$
-\text {Z e r o - c o u p o n T I P S p a y o f f a t} T = \frac {\operatorname {I d} x (T)}{\operatorname {I d} x (0)} \tag {21}
+\text{Ze ro -c ou po nT IP Sp ay of fa t} T = \frac{\operatorname{Id} x (T)}{\operatorname{Id} x (0)} \tag {21}
 $$
 
 - $\frac{I dx(T)}{I dx(0)} =$  increase in the consumption basket price between 0 and  $T$ .  
 - For simplicity, assume
 
 $$
-I d x (T) = \operatorname {C P I} (T) = \$ \text {p r i c e o f o n e u n i t o f c o n s u m p t i o n b a s k e t}
+I d x (T) = \operatorname{CP I} (T) = \$ \text{pr ic eo fo ne un it of co ns um pt io nb as ke t}
 $$
 
 - Given  $Z^{real}(t;T)$ , the value at  $t$  of a security paying  $Idx(T)$  (i.e. the amount need to purchase one unit of consumption basket) is
 
 $$
-\text {P r e s e n t v a l u e o f} I d x (T) = \mathrm {P V} \text {o f o n e u n i t o f c o n s u m p t i o n} = Z ^ {\text {r e a l}} (t; T)
+\text{Pr es en tv al ue of} I d x (T) = \mathrm{PV} \text{of on eu ni to fc on su mp ti on} = Z^{\text{re al}} (t; T)
 $$
 
 # Real Bonds and TIPS (cntd)
@@ -1918,7 +1918,7 @@ $$
 - We can convert this value to dollars by multiplying it by the current price of the consumption basket  $I dx(t)$ . We then obtain
 
 $$
-\mathrm {D o l l a r p r e s e n t v a l u e o f} I d x (T) = Z ^ {\mathrm {r e a l}} (t; T) \times I d x (t)
+\mathrm{Do ll ar pr es en tv al ue of} I d x (T) = Z^{\mathrm{re al}} (t; T) \times I d x (t)
 $$
 
 - Finally, to obtain the payoff of the zero-coupon TIPS we must divide by  $I dx(0)$ : Dollar value of a zero-coupon TIPS  $= Z^{TIPS}(t;T) = Z^{real}(t;T) \times \frac{I dx(t)}{I dx(0)}$  (22)  
@@ -1926,7 +1926,7 @@ $$
 - Therefore, a TIPS value at  $t$ , with maturity  $T$ , and coupon rate  $c$  is given by
 
 $$
-P _ {c} ^ {T I P S} (t; T) = \frac {I d x (t)}{I d x (0)} \times \left[ \frac {c \times 1 0 0}{2} \sum_ {i = 1} ^ {n} Z ^ {r e a l} (t; T _ {i}) + Z ^ {r e a l} (t; T) \right] \tag {23}
+P_{c}^{T I P S} (t; T) = \frac{I d x (t)}{I d x (0)} \times \left[ \frac{c \times 1 0 0}{2} \sum_{i = 1}^{n} Z^{r e a l} (t; T_{i}) + Z^{r e a l} (t; T) \right] \tag {23}
 $$
 
 # Fitting the Real Yield Curve
@@ -1937,7 +1937,7 @@ $$
 - However, we can use the curve fitting method using a flexible function for the discount factor, such as the Nelson Siegel model
 
 $$
-r _ {r e a l} (0, T) = \theta_ {0} + (\theta_ {1} + \theta_ {2}) \frac {1 - e ^ {- \frac {T}{\kappa_ {1}}}}{\frac {T}{\kappa_ {1}}} - \theta_ {2} e ^ {- \frac {T}{\kappa_ {1}}} + \theta_ {3} \left(\frac {1 - e ^ {- \frac {T}{\kappa_ {2}}}}{\frac {T}{\kappa_ {2}}} - e ^ {- \frac {T}{\kappa_ {2}}}\right) (2 4)
+r_{r e a l} (0, T) = \theta_{0} + (\theta_{1} + \theta_{2}) \frac{1 - e^{- \frac{T}{\kappa_{1}}}}{\frac{T}{\kappa_{1}}} - \theta_{2} e^{- \frac{T}{\kappa_{1}}} + \theta_{3} \left(\frac{1 - e^{- \frac{T}{\kappa_{2}}}}{\frac{T}{\kappa_{2}}} - e^{- \frac{T}{\kappa_{2}}}\right) (2 4)
 $$
 
 - From the previous table, for instance, we obtain the following results
@@ -1967,7 +1967,7 @@ nominal rate = real rate + expected inflation + inflation risk premium - convexi
 - Consider first the value today of \$1 at T
 
 $$
-Z (0, T) = e ^ {- r (0, T) T} \times \$ 1
+Z (0, T) = e^{- r (0, T) T} \times \$ 1
 $$
 
 - Alternatively, we can express this in "consumption goods":
@@ -1976,7 +1976,7 @@ $$
 - To compute the present value we need more assumptions.  
 - Let  $\pi$  be the annualized inflation rate between 0 and  $T$
 $$
-\pi = \frac {1}{T} \ln \left(\frac {\mathsf {C P I} (T)}{\mathsf {C P I} (0)}\right)
+\pi = \frac{1}{T} \ln \left(\frac{\mathsf {C P I} (T)}{\mathsf {C P I} (0)}\right)
 $$
 
 # The Fisher Equation under Perfect Foresight
@@ -1994,13 +1994,13 @@ Dollar present value of  $C(T) = \mathsf{CPI}(0)\left(Z^{real}(0,T)\times \frac{
 - It is therefore a nominal discount, yielding the equality
 
 $$
-Z (0, T) = Z ^ {r e a l} (0, T) \times \frac {\mathsf {C P I} (0)}{\mathsf {C P I} (T)}
+Z (0, T) = Z^{r e a l} (0, T) \times \frac{\mathsf {C P I} (0)}{\mathsf {C P I} (T)}
 $$
 
 - Substitute to obtain the Fisher equation:
 
 $$
-r (0, T) = r _ {r e a l} (0, T) + \pi
+r (0, T) = r_{r e a l} (0, T) + \pi
 $$
 
 # Inflation Risk Premium
@@ -2008,13 +2008,13 @@ $$
 - Assume now inflation rate is not known and assume it is log-normal<sup>5</sup>
 
 $$
-\log \left(\frac {\mathsf {C P I} (T)}{\mathsf {C P I} (0)}\right) = x \sim \mathcal {N} (\bar {\pi} T, \sigma \pi^ {2} T)
+\log \left(\frac{\mathsf {C P I} (T)}{\mathsf {C P I} (0)}\right) = x \sim \mathcal {N} (\bar {\pi} T, \sigma \pi^{2} T)
 $$
 
 - This implies that the amount of consumption we can buy at  $T$  is stochastic:
 
 $$
-C (T) = \frac {\S 1}{\mathsf {C P I} (T)} = \S 1 \times \frac {e ^ {- x}}{\mathsf {C P I} (0)}
+C (T) = \frac{\S 1}{\mathsf {C P I} (T)} = \S 1 \times \frac{e^{- x}}{\mathsf {C P I} (0)}
 $$
 
 - Because  $C(T)$  is now risky, we cannot discount it to today using the real bond  $Z^{real}(0,T) = e^{-r_{real}(0,T)T}$ , but we thus must add a risk premium  $\kappa$ .  
@@ -2023,13 +2023,13 @@ $$
 Dollar Present value of expected  $C(T) = e^{-(r_{real}(0, T) + \kappa)T} \times E[e^{-x}]$
 
 $$
-= e ^ {- (r _ {r e a l} (0, T) + \kappa) T} \times e ^ {- \overline {{\pi}} T + \frac {1}{2} \sigma \pi^ {2} T}
+= e^{- (r_{r e a l} (0, T) + \kappa) T} \times e^{- \overline {{\pi}} T + \frac{1}{2} \sigma \pi^{2} T}
 $$
 
 - This is dollar present value of \$ 1 at T. Therefore it equals Z(0,T) = e $^{-r(0,T)T}$ .
 
 $$
-r (0, T) = r _ {\mathrm {r e a l}} (0, T) + \overline {{\pi}} + \kappa - \frac {1}{2} \sigma \pi^ {2}
+r (0, T) = r_{\mathrm{re al}} (0, T) + \overline {{\pi}} + \kappa - \frac{1}{2} \sigma \pi^{2}
 $$
 
 # The Economics of Fixed Income Investments
@@ -2047,7 +2047,7 @@ $$
 - A widely used utility function is the Constant Relative Risk Aversion (CRRA):
 
 $$
-U (C, t) = e ^ {- \rho t} \frac {C ^ {1 - \gamma}}{1 - \gamma}
+U (C, t) = e^{- \rho t} \frac{C^{1 - \gamma}}{1 - \gamma}
 $$
 
 - $\rho =$  time-preference parameter  
@@ -2063,13 +2063,13 @@ $-\gamma = -CU''(C) / U'(C) =$  relative risk aversion parameter.
 1. Spend \$100 today and buy $\frac{\$100}{CPI(0)}$ amount of the consumption good, which will procure him/her an additional amount of utility
 
 $$
-U ^ {\prime} (C (0), 0) \times \frac {\S 1 0 0}{\mathsf {C P I} (0)}
+U^{\prime} (C (0), 0) \times \frac{\S 1 0 0}{\mathsf {C P I} (0)}
 $$
 
 2. Save the 100 dollars, and buy  $\frac{\$ 100}{Z(0,T)}$  zero coupon bonds with maturity  $T$ . At that time, the investor can buy  $\frac{\$ 100}{Z(0,T)} \frac{1}{CPI(T)}$  of the consumption good, for an additional amount of utility
 
 $$
-\frac {\S 1 0 0}{Z (0 , T)} \frac {1}{\mathsf {C P I} (T)} U ^ {\prime} (C (T), T)
+\frac{\S 1 0 0}{Z (0 , T)} \frac{1}{\mathsf {C P I} (T)} U^{\prime} (C (T), T)
 $$
 
 # Equilibrium
@@ -2077,20 +2077,20 @@ $$
 - Equilibrium requires the agent to be indifferent between 1 and 2. Because quantities at  $T$  are unknown, the indifference condition is
 
 $$
-U ^ {\prime} \left(C (0), 0\right) \times \frac {\S 1 0 0}{\mathsf {C P I} (0)} = E \left[ \frac {\S 1 0 0}{Z (0 , T)} \frac {1}{\mathsf {C P I} (T)} U ^ {\prime} (C (T), T) \right]
+U^{\prime} \left(C (0), 0\right) \times \frac{\S 1 0 0}{\mathsf {C P I} (0)} = E \left[ \frac{\S 1 0 0}{Z (0 , T)} \frac{1}{\mathsf {C P I} (T)} U^{\prime} (C (T), T) \right]
 $$
 
 - By reshuffling, we obtain
 
 $$
-Z (0, T) = E \left[ \frac {\mathsf {C P I} (0)}{\mathsf {C P I} (T)} \times \frac {U ^ {\prime} (C (T) , T)}{U ^ {\prime} (C (0) , 0)} \right]
+Z (0, T) = E \left[ \frac{\mathsf {C P I} (0)}{\mathsf {C P I} (T)} \times \frac{U^{\prime} (C (T) , T)}{U^{\prime} (C (0) , 0)} \right]
 $$
 
 - In aggregate, real consumption  $C(t)$  depends on real GDP  $Y(t)$ .  
 - Assume that inflation and real GDP growth have the jointy log-normal distribution
 
 $$
-\left( \begin{array}{c} \log \left(\frac {\mathsf {C P I} (T)}{\mathsf {C P I} (0)}\right) \\ \log \left(\frac {Y (T)}{Y (0)}\right) \end{array} \right) = \left( \begin{array}{c} x \\ y \end{array} \right) \sim \mathcal {N} \left(\left( \begin{array}{c} \overline {{\pi}} T \\ \overline {{g}} T \end{array} \right), \left( \begin{array}{c c} \sigma \pi^ {2} T & , \sigma \pi \sigma_ {g} \rho_ {g, \pi} T \\ \sigma \pi \sigma_ {g} \rho_ {g, \pi} T & , \sigma_ {g} ^ {2} T \end{array} \right)\right)
+\left( \begin{array}{c} \log \left(\frac{\mathsf {C P I} (T)}{\mathsf {C P I} (0)}\right) \\ \log \left(\frac{Y (T)}{Y (0)}\right) \end{array} \right) = \left( \begin{array}{c} x \\ y \end{array} \right) \sim \mathcal {N} \left(\left( \begin{array}{c} \overline {{\pi}} T \\ \overline {{g}} T \end{array} \right), \left( \begin{array}{c c} \sigma \pi^{2} T & , \sigma \pi \sigma_{g} \rho_{g, \pi} T \\ \sigma \pi \sigma_{g} \rho_{g, \pi} T & , \sigma_{g}^{2} T \end{array} \right)\right)
 $$
 
 # Equilibrium Prices
@@ -2098,23 +2098,23 @@ $$
 - Substitute the CRRA utility function
 
 $$
-U ^ {\prime} (C, t) = e ^ {- \rho t} C (t) ^ {- \gamma}
+U^{\prime} (C, t) = e^{- \rho t} C (t)^{- \gamma}
 $$
 
 and use  $C(t) = Y(t)$  for  $t = 0, T$  to find
 
 $$
-\begin{array}{l} Z (0, T) = E \left[ e ^ {- x} \times \frac {e ^ {- \rho T} Y (T) ^ {- \gamma}}{Y (0) ^ {- \gamma}} \right] \\ = E \left[ e ^ {- \rho T} \times e ^ {- x - \gamma y} \right] \\ = e ^ {- \rho T} \times e ^ {- \overline {{\pi}} T - \gamma \overline {{g}} + \frac {1}{2} (\sigma \pi^ {2} + \gamma^ {2} \sigma_ {g} + 2 \gamma \sigma \pi \sigma_ {g} \rho_ {g, \pi}) T} \\ \end{array}
+\begin{array}{l} Z (0, T) = E \left[ e^{- x} \times \frac{e^{- \rho T} Y (T)^{- \gamma}}{Y (0)^{- \gamma}} \right] \\ = E \left[ e^{- \rho T} \times e^{- x - \gamma y} \right] \\ = e^{- \rho T} \times e^{- \overline {{\pi}} T - \gamma \overline {{g}} + \frac{1}{2} (\sigma \pi^{2} + \gamma^{2} \sigma_{g} + 2 \gamma \sigma \pi \sigma_{g} \rho_{g, \pi}) T} \\ \end{array}
 $$
 
 - Thus, the nominal rate is
 $$
 r(0,T)
-= \underbrace{\left( \rho \;+\; \gamma \,\overline{g} \;-\; \frac{\gamma^{2}}{2}\sigma_{g}^{2} \right)}_{\text{real rate } r_{\text{real}}(0,T)}
+= \underbrace{\left( \rho \;+\; \gamma \,\overline{g} \;-\; \frac{\gamma^{2}}{2}\sigma_{g}^{2} \right)}_{\text{realrate } r_{\text{real}}(0,T)}
 \;+\;
-\underbrace{\left( \pi \;-\; \frac{1}{2}\sigma_{\pi}^{2} \right)}_{\text{exp.\ infl.\ \&\ conv.}}
+\underbrace{\left( \pi \;-\; \frac{1}{2}\sigma_{\pi}^{2} \right)}_{\text{exp.\infl.\ \&\conv.}}
 \;-\;
-\underbrace{\gamma \,\sigma_{\pi}\,\sigma_{g}\,\rho_{g,\pi}}_{\text{risk premium}}
+\underbrace{\gamma \,\sigma_{\pi}\,\sigma_{g}\,\rho_{g,\pi}}_{\text{riskpremium}}
 $$
 
 # The Economics of the Real Rate
@@ -2122,7 +2122,7 @@ $$
 - Following the same steps as above but using TIPS zero-coupon bonds  $Z^{TIPS}(0, T)$  instead of nominal bonds  $Z(0, T)$  we obtain the real rate as:
 
 $$
-r _ {r e a l} (0, T) = \rho + \gamma \overline {{g}} - \frac {\gamma^ {2}}{2} \sigma_ {g} ^ {2}
+r_{r e a l} (0, T) = \rho + \gamma \overline {{g}} - \frac{\gamma^{2}}{2} \sigma_{g}^{2}
 $$
 
 - The real rate depends on:
@@ -2139,19 +2139,19 @@ $$
 We found
 
 $$
-\text {i n f l a t i o n} = - \gamma \sigma \pi \sigma_ {g} \rho_ {g, \pi}
+\text{in fl at io n} = - \gamma \sigma \pi \sigma_{g} \rho_{g, \pi}
 $$
 
 where
 
 $$
-\rho_ {g, \pi} = \mathrm {C o r r e l a t i o n (I n f l a t i o n , r e a l G D P g r o w t h)}
+\rho_{g, \pi} = \mathrm{Co rr el at io n (In fl at io n ,r ea lG DP gr ow th)}
 $$
 
 - Intuitively:
 
 $$
-\begin{array}{l} - \text {I f} \rho_ {g, \pi} <   0 \Longrightarrow \text {h i g h i n f l a t i o n o c c u r s w h e n r e a l G D P i s l o w} \\ \Longrightarrow \text {n o m i n a l b o n d i s d e v a l u e d i n r e c e s s i o n s , w h e n p e o l e m p l e m o s t n e e d t h e m o n e y !} \\ \Rightarrow \text {v e r y} \quad \text {r i s k} \quad \text {s e c u r i t y} \quad \Rightarrow \quad \text {h i g h} \quad \text {r i s k} \quad \text {p r e m i u m} \quad \Rightarrow \quad \text {h i g h} \quad \text {l o n g - t e r m} \quad \text {y i e l d} \\ \end{array}
+\begin{array}{l} - \text{If} \rho_{g, \pi} <   0 \Longrightarrow \text{hi gh in fl at io no cc ur sw he nr ea lG DP is lo w} \\ \Longrightarrow \text{no mi na lb on di sd ev al ue di nr ec es si on s ,w he np eo le mp le mo st ne ed th em on ey !} \\ \Rightarrow \text{ve ry} \quad \text{ri sk} \quad \text{se cu ri ty} \quad \Rightarrow \quad \text{hi gh} \quad \text{ri sk} \quad \text{pr em iu m} \quad \Rightarrow \quad \text{hi gh} \quad \text{lo ng -t er m} \quad \text{yi el d} \\ \end{array}
 $$
 
 - Next figures show that the correlation  $\rho_{g,\pi}$  was negative until late 1990s. It then became closer to zero. And then became strongly positive around 2008.  
@@ -2175,7 +2175,7 @@ Data Source: Federal Reserve of St. Louis
 - Another way to understand the risk premium of nominal bonds is to look at its variation with the stock market  
 Under the CAPM, for instance
 
-$E\left[\text {Excess Return Nominal Bond}\right] = \beta \times E\left[\text {Excess Return Market}\right]$
+$E\left[\text{ExcessReturnNominalBond}\right] = \beta \times E\left[\text{ExcessReturnMarket}\right]$
 
 - Next figure shows the time variation in the correlation between stock and bonds, and the corresponding CAPM beta.  
 - Why did the CAPM beta change over time?
@@ -2209,32 +2209,32 @@ Source: Caroline Pflueger (2024) "Back to the 1980s or Not? The Drivers of Infla
 
 # More General Formulas
 
-- All previous formulas have "flat" term structures:  $r(0, T)$  and  $r_{\text {real}}(0, T)$  do not depend on  $T$ .  
+- All previous formulas have "flat" term structures:  $r(0, T)$  and  $r_{\text{real}}(0, T)$  do not depend on  $T$ .  
 - They can be generalized by assuming that expected inflation  $\overline{\pi}_t$  and expected GDP growth  $\overline{g}_t$  are time varying.  
 - Using the continuous time methodology, for instance, we may assume
 
 $$
-d \overline {{\pi}} _ {t} = (\alpha \pi - \beta \pi \overline {{\pi}} _ {t}) d t + \sigma_ {\overline {{\pi}}} d W _ {\overline {{\pi}}}
+d \overline {{\pi}}_{t} = (\alpha \pi - \beta \pi \overline {{\pi}}_{t}) d t + \sigma_{\overline {{\pi}}} d W_{\overline {{\pi}}}
 $$
 
 $$
-d \overline {{g}} _ {t} = (\alpha_ {g} - \beta_ {g} \overline {{g}} _ {t}) d t + \sigma_ {\overline {{g}}} d W _ {\overline {{g}}}
+d \overline {{g}}_{t} = (\alpha_{g} - \beta_{g} \overline {{g}}_{t}) d t + \sigma_{\overline {{g}}} d W_{\overline {{g}}}
 $$
 
 - Inflation and real GDP growth themselves are
 
 $$
-d \log (\mathsf {C P I} _ {t}) = \overline {{\pi}} _ {t} d t + \sigma_ {\pi} d W _ {\pi}
+d \log (\mathsf {C P I}_{t}) = \overline {{\pi}}_{t} d t + \sigma_{\pi} d W_{\pi}
 $$
 
 $$
-d \log (Y _ {t}) = \overline {{g}} _ {t} d t + \sigma_ {g} d W _ {g}
+d \log (Y_{t}) = \overline {{g}}_{t} d t + \sigma_{g} d W_{g}
 $$
 
 - The same argument as above has
 
 $$
-Z (t, T) = E _ {t} \left[ \frac {\mathsf {C P I} (t)}{\mathsf {C P I} (T)} e ^ {- \rho (T - t)} \left(\frac {Y (T)}{Y (t)}\right) ^ {- \gamma} \right]
+Z (t, T) = E_{t} \left[ \frac{\mathsf {C P I} (t)}{\mathsf {C P I} (T)} e^{- \rho (T - t)} \left(\frac{Y (T)}{Y (t)}\right)^{- \gamma} \right]
 $$
 
 # Bond Pricing Formulas
@@ -2242,20 +2242,20 @@ $$
 - Solving the expectation, we obtain
 
 $$
-Z (t, T) = e ^ {A (t, T) - B (t, T) \overline {{\pi}} _ {t} - C (t, T) \gamma \overline {{g}} _ {t}}
+Z (t, T) = e^{A (t, T) - B (t, T) \overline {{\pi}}_{t} - C (t, T) \gamma \overline {{g}}_{t}}
 $$
 
 where
 
 $$
-B (t, T) = \frac {1 - e ^ {- \beta \pi (T - t)}}{\beta \pi}; C (t, T) = \frac {1 - e ^ {- \beta_ {g} (T - t)}}{\beta_ {g}}
+B (t, T) = \frac{1 - e^{- \beta \pi (T - t)}}{\beta \pi}; C (t, T) = \frac{1 - e^{- \beta_{g} (T - t)}}{\beta_{g}}
 $$
 
 - and  $A(t,T)$  is a complicated function of maturity  $(T - t)$  which includes risk premia and other terms further discussed below.  
 - The nominal yield curve is then
 
 $$
-r (t, T) = \frac {- A (t , T)}{T - t} + \frac {B (t , T)}{T - t} \overline {{\pi}} _ {t} + \frac {C (t , T)}{T - t} \gamma \overline {{g}} _ {t}
+r (t, T) = \frac{- A (t , T)}{T - t} + \frac{B (t , T)}{T - t} \overline {{\pi}}_{t} + \frac{C (t , T)}{T - t} \gamma \overline {{g}}_{t}
 $$
 
 - A higher expected inflation increases nominal yield, but differentially across maturities  
@@ -2264,7 +2264,7 @@ $$
 # The Function  $A(t, T)$
 
 $$
-\begin{array}{l} A (t, T) = (- \rho + \frac {1}{2} \sigma_ {\pi} ^ {2} + \frac {1}{2} \gamma^ {2} \sigma_ {g} ^ {2} + \gamma \sigma_ {\pi} \sigma_ {g} \rho_ {\pi g}) (T - t) \\ + \left[ \sigma_ {\pi} \sigma_ {\overline {{\pi}}} \rho_ {\pi \overline {{\pi}}} + \gamma \sigma_ {g} \sigma_ {\overline {{\pi}}} \rho_ {g \overline {{\pi}}} - \alpha_ {\pi} + \frac {1}{2} \frac {\sigma_ {\overline {{\pi}}} ^ {2}}{\beta_ {\pi}} + \frac {\gamma \sigma_ {\overline {{\pi}}} \sigma_ {\overline {{g}}} \rho_ {\overline {{\pi g}}}}{\beta_ {\pi} + \beta_ {g}} \right] \frac {1}{\beta_ {\pi}} ((T - t) - B (t, T)) \\ + \left[ \sigma_ {\pi} \sigma_ {\overline {{g}}} \rho_ {\pi \overline {{g}}} + \gamma \sigma_ {g} \sigma_ {\overline {{g}}} \rho_ {g \overline {{g}}} - \alpha_ {g} + \frac {1}{2} \frac {\gamma \sigma_ {\overline {{g}}} ^ {2}}{\beta_ {g}} + \frac {\sigma_ {\overline {{\pi}}} \sigma_ {\overline {{g}}} \rho_ {\overline {{\pi g}}}}{\beta_ {\pi} + \beta_ {g}} \right] \frac {\gamma}{\beta_ {g}} ((T - t) - C (t, T)) \\ - \frac {1}{4} \frac {\sigma_ {\pi} ^ {2}}{\beta_ {\pi}} B (t, T) ^ {2} - \frac {1}{4} \frac {\gamma^ {2} \sigma_ {\overline {{g}}} ^ {2}}{\beta_ {g}} C (t, T) ^ {2} - \frac {\gamma \sigma_ {\overline {{\pi}}} \sigma_ {\overline {{g}}} \rho_ {\overline {{\pi g}}}}{(\beta_ {\pi} + \beta_ {g})} B (t, T) C (t, T) \\ \end{array}
+\begin{array}{l} A (t, T) = (- \rho + \frac{1}{2} \sigma_{\pi}^{2} + \frac{1}{2} \gamma^{2} \sigma_{g}^{2} + \gamma \sigma_{\pi} \sigma_{g} \rho_{\pi g}) (T - t) \\ + \left[ \sigma_{\pi} \sigma_{\overline {{\pi}}} \rho_{\pi \overline {{\pi}}} + \gamma \sigma_{g} \sigma_{\overline {{\pi}}} \rho_{g \overline {{\pi}}} - \alpha_{\pi} + \frac{1}{2} \frac{\sigma_{\overline {{\pi}}}^{2}}{\beta_{\pi}} + \frac{\gamma \sigma_{\overline {{\pi}}} \sigma_{\overline {{g}}} \rho_{\overline {{\pi g}}}}{\beta_{\pi} + \beta_{g}} \right] \frac{1}{\beta_{\pi}} ((T - t) - B (t, T)) \\ + \left[ \sigma_{\pi} \sigma_{\overline {{g}}} \rho_{\pi \overline {{g}}} + \gamma \sigma_{g} \sigma_{\overline {{g}}} \rho_{g \overline {{g}}} - \alpha_{g} + \frac{1}{2} \frac{\gamma \sigma_{\overline {{g}}}^{2}}{\beta_{g}} + \frac{\sigma_{\overline {{\pi}}} \sigma_{\overline {{g}}} \rho_{\overline {{\pi g}}}}{\beta_{\pi} + \beta_{g}} \right] \frac{\gamma}{\beta_{g}} ((T - t) - C (t, T)) \\ - \frac{1}{4} \frac{\sigma_{\pi}^{2}}{\beta_{\pi}} B (t, T)^{2} - \frac{1}{4} \frac{\gamma^{2} \sigma_{\overline {{g}}}^{2}}{\beta_{g}} C (t, T)^{2} - \frac{\gamma \sigma_{\overline {{\pi}}} \sigma_{\overline {{g}}} \rho_{\overline {{\pi g}}}}{(\beta_{\pi} + \beta_{g})} B (t, T) C (t, T) \\ \end{array}
 $$
 
 - Many risk premia
@@ -2280,24 +2280,24 @@ $$
 - As we take the limit  $T - t \to 0$  we obtain the formula for the "overnight" rate
 
 $$
-r _ {t} = \underbrace {\rho + \gamma \overline {{g}} _ {t} - \frac {\gamma^ {2}}{2} \sigma_ {g} ^ {2}} _ {\mathrm {r e a l r a t e} r _ {\mathrm {r e a l}, t}} \quad \underbrace {+ \pi_ {t} - \frac {1}{2} \sigma \pi^ {2}} _ {\mathrm {e x p . i n f l . \& c o n v .}} \underbrace {- \gamma \sigma \pi \sigma_ {g} \rho_ {\pi , g}} _ {\mathrm {r i s k p r e m i u m}}
+r_{t} = \underbrace {\rho + \gamma \overline {{g}}_{t} - \frac{\gamma^{2}}{2} \sigma_{g}^{2}}_{\mathrm{re al ra te} r_{\mathrm{re al}, t}} \quad \underbrace {+ \pi_{t} - \frac{1}{2} \sigma \pi^{2}}_{\mathrm{ex p .i nf l . \&c on v .}} \underbrace {- \gamma \sigma \pi \sigma_{g} \rho_{\pi , g}}_{\mathrm{ri sk pr em iu m}}
 $$
 
 - The Federal Reserve is believed to follow the so-called "Taylor rule" in setting its target Federal Fund rate, which specifies
 
 $$
-r _ {t} = \alpha + \beta_ {1} (\mathrm {o u t p u t} _ {t} - \mathrm {p o t e n t i a l o u t p u t}) + \beta_ {1} (\mathrm {i n f l a t i o n} _ {t} - \mathrm {t a r g e t i n f l a t i o n})
+r_{t} = \alpha + \beta_{1} (\mathrm{ou tp ut}_{t} - \mathrm{po te nt ia lo ut pu t}) + \beta_{1} (\mathrm{in fl at io n}_{t} - \mathrm{ta rg et in fl at io n})
 $$
 
 - The "forward looking" Taylor rule uses "expected inflation" and expected output to their realized values.  
 - The result above can be casted in terms of monetary policy actions
 
 $$
-r _ {t} = \alpha + \gamma (\bar {g} _ {t} - \text {p o t e n t i a l o u t p u t}) + (\bar {\pi} _ {t} - \text {t a r g e t i n f l a t i o n})
+r_{t} = \alpha + \gamma (\bar {g}_{t} - \text{po te nt ia lo ut pu t}) + (\bar {\pi}_{t} - \text{ta rg et in fl at io n})
 $$
 
 $$
-- \text {w h e r e} \alpha = \rho - \frac {\gamma^ {2}}{2} \sigma_ {g} ^ {2} - \frac {1}{2} \sigma \pi^ {2} - \gamma \sigma \pi \sigma_ {g} \rho_ {\pi , g} + \gamma \text {p o t e n t i a l}
+- \text{wh er e} \alpha = \rho - \frac{\gamma^{2}}{2} \sigma_{g}^{2} - \frac{1}{2} \sigma \pi^{2} - \gamma \sigma \pi \sigma_{g} \rho_{\pi , g} + \gamma \text{po te nt ia l}
 $$
 
 # The Dynamics of the Real Rate
@@ -2305,25 +2305,25 @@ $$
 - From previous results and using lto's formula, the real rate follows a Vasicek model
 
 $$
-d r _ {r e a l, t} = \beta_ {g} (\overline {{r}} _ {r e a l} - r _ {r e a l, t}) d t + \sigma_ {r e a l} d W _ {\overline {{g}}}
+d r_{r e a l, t} = \beta_{g} (\overline {{r}}_{r e a l} - r_{r e a l, t}) d t + \sigma_{r e a l} d W_{\overline {{g}}}
 $$
 
 where
 
 $$
-\overline {{r}} _ {r e a l} = \rho + \gamma \frac {\alpha_ {g}}{\beta_ {g}} - \frac {\gamma^ {2} \sigma_ {\overline {{g}}} ^ {2}}{2}; \quad \sigma_ {r e a l} = \gamma \sigma_ {\overline {{g}}}
+\overline {{r}}_{r e a l} = \rho + \gamma \frac{\alpha_{g}}{\beta_{g}} - \frac{\gamma^{2} \sigma_{\overline {{g}}}^{2}}{2}; \quad \sigma_{r e a l} = \gamma \sigma_{\overline {{g}}}
 $$
 
 - The real zero-coupon bond pricing formula is then
 
 $$
-Z _ {r e a l} (t, T) = e ^ {\overline {{A}} (t, T) - C (t, T) r _ {r e a l, t}}
+Z_{r e a l} (t, T) = e^{\overline {{A}} (t, T) - C (t, T) r_{r e a l, t}}
 $$
 
 where
 
 $$
-\overline {{A}} (t, T) = \left(\overline {{r}} _ {r e a l} ^ {*} - \frac {1}{2} \frac {\sigma_ {r e a l} ^ {2}}{\beta_ {g} ^ {2}}\right) [ C (t, T) - (T - t) ] - \frac {C (t , T) ^ {2} \sigma_ {r e a l} ^ {2}}{4 \beta_ {g}}
+\overline {{A}} (t, T) = \left(\overline {{r}}_{r e a l}^{*} - \frac{1}{2} \frac{\sigma_{r e a l}^{2}}{\beta_{g}^{2}}\right) [ C (t, T) - (T - t) ] - \frac{C (t , T)^{2} \sigma_{r e a l}^{2}}{4 \beta_{g}}
 $$
 
 where  $\overline{r}_{real}^{*} = \overline{r}_{real} - \gamma \sigma_{g}\sigma_{real}\rho_{\rho ,real}$  
@@ -2331,7 +2331,7 @@ where  $\overline{r}_{real}^{*} = \overline{r}_{real} - \gamma \sigma_{g}\sigma_
 - The risk neutral process of the real rate is
 
 $$
-d r _ {r e a l, t} = \beta_ {g} (\overline {{r}} _ {r e a l} ^ {*} - r _ {r e a l, t}) d t + \sigma_ {r e a l} d W _ {\overline {{g}}} ^ {*}
+d r_{r e a l, t} = \beta_{g} (\overline {{r}}_{r e a l}^{*} - r_{r e a l, t}) d t + \sigma_{r e a l} d W_{\overline {{g}}}^{*}
 $$
 
 # Fitting Real Vasicek to TIPS
@@ -2339,10 +2339,10 @@ $$
 - We can use TIPS again to extract the real zero coupon bond prices  
 - The procedure is the same for nominal Vasicek (see TN 7), except with the additional difficulty that we may not know what the short-term real rate  $r_{real,t}$  actually is.  
 - One possibility is to estimate  $r_{real,t}$  as well together with other quantities.  
-- For instance, fixing  $\sigma_{\text {real }} = .00967$  (estimated from the time series of real rates), we estimate the following parameters for November 27, 2007:
+- For instance, fixing  $\sigma_{\text{real }} = .00967$  (estimated from the time series of real rates), we estimate the following parameters for November 27, 2007:
 
 $$
-\beta_ {g} ^ {*} = 0. 0 1 6 6, \overline {{r}} _ {r e a l} ^ {*} = 0. 1 6 9 5, r _ {r e a l, 0} = 0. 0 0 4 6
+\beta_{g}^{*} = 0. 0 1 6 6, \overline {{r}}_{r e a l}^{*} = 0. 1 6 9 5, r_{r e a l, 0} = 0. 0 0 4 6
 $$
 
 - The fit is not as good as with the Extended Nelson-Siegel model in this case.  
@@ -2384,33 +2384,33 @@ $$
 so that
 
 $$
-d q = \bar {\pi} _ {t} d t + \sigma_ {\pi} d W _ {\pi}
+d q = \bar {\pi}_{t} d t + \sigma_{\pi} d W_{\pi}
 $$
 
 $$
-{ d y } { = } { \overline { { g } } _ { t } d t + \sigma _ { g } d W _ { g } }
+{ d y } { = } { \overline { { g } }_{ t } d t + \sigma_{ g } d W_{ g } }
 $$
 
 and recall
 
 $$
-d \bar {\pi} _ {t} = (\alpha_ {\pi} - \beta_ {\pi} \pi_ {t}) d t + \sigma_ {\bar {\pi}} d W _ {\bar {\pi}}
+d \bar {\pi}_{t} = (\alpha_{\pi} - \beta_{\pi} \pi_{t}) d t + \sigma_{\bar {\pi}} d W_{\bar {\pi}}
 $$
 
 $$
-{d \bar {g}} = {\left(\alpha_ {g} - \beta_ {g} \pi_ {t}\right) d t + \sigma_ {\bar {g}} d W _ {\bar {g}}}
+{d \bar {g}} = {\left(\alpha_{g} - \beta_{g} \pi_{t}\right) d t + \sigma_{\bar {g}} d W_{\bar {g}}}
 $$
 
 From the pricing equation we have
 
 $$
-Z \left(t, T\right) = E \left[ e ^ {- \rho (T - t) - (q (T) - q (t)) - \gamma (y (T) - y (t))} \right]
+Z \left(t, T\right) = E \left[ e^{- \rho (T - t) - (q (T) - q (t)) - \gamma (y (T) - y (t))} \right]
 $$
 
 To be slightly more general, consider the following case
 
 $$
-\begin{array}{l} Z (t, T) = E \left[ e ^ {- \rho (T - t) - \eta (q (T) - q (t)) - \gamma (y (T) - y (t))} \right] \\ = e ^ {\eta q (t) + \gamma y (t)} E \left[ e ^ {- \rho (T - t)} G (q (T), y (T)) \right] \\ = e ^ {\eta q (t) + \gamma y (t)} V (q, y, \bar {\pi}, \bar {g}, t) \\ \end{array}
+\begin{array}{l} Z (t, T) = E \left[ e^{- \rho (T - t) - \eta (q (T) - q (t)) - \gamma (y (T) - y (t))} \right] \\ = e^{\eta q (t) + \gamma y (t)} E \left[ e^{- \rho (T - t)} G (q (T), y (T)) \right] \\ = e^{\eta q (t) + \gamma y (t)} V (q, y, \bar {\pi}, \bar {g}, t) \\ \end{array}
 $$
 
 When  $\eta = 1$  we have the case for nominal bonds. When  $\eta = 0$  we have the case of real bonds. When  $\eta$  is intermediate, this can be considered a case in which inflation affects the utility function of agents directly. A case in the literature is the one of money illusion.
@@ -2418,73 +2418,73 @@ When  $\eta = 1$  we have the case for nominal bonds. When  $\eta = 0$  we have 
 From the Feynman Kac formula, we have that  $V$  satisfies
 
 $$
-\begin{array}{l} \rho V = V _ {t} + V _ {q} E [ d q ] + V _ {y} E [ d y ] + V _ {\overline {{\pi}}} E [ d \overline {{\pi}} ] + V _ {\overline {{g}}} E [ d \overline {{g}} ] + \frac {1}{2} V _ {q q} E [ d q ^ {2} ] + \frac {1}{2} V _ {y y} E [ d y ^ {2} ] + \frac {1}{2} V _ {\overline {{\pi}} \overline {{\pi}}} E [ d \overline {{\pi}} ^ {2} ] + \frac {1}{2} V _ {\overline {{g}} \overline {{g}}} E [ d \overline {{g}} ^ {2} ] \\ + V _ {q y} E \left[ d q d y \right] + V _ {q \overline {{\pi}}} E \left[ d q d \overline {{\pi}} \right] + V _ {q \overline {{g}}} E \left[ d q d \overline {{g}} \right] + V _ {y \overline {{\pi}}} E \left[ d y d \overline {{\pi}} \right] + V _ {y \overline {{g}}} E \left[ d y d \overline {{g}} \right] + V _ {\overline {{\pi g}}} E \left[ d \overline {{\pi}} d \overline {{g}} \right] \\ \end{array}
+\begin{array}{l} \rho V = V_{t} + V_{q} E [ d q ] + V_{y} E [ d y ] + V_{\overline {{\pi}}} E [ d \overline {{\pi}} ] + V_{\overline {{g}}} E [ d \overline {{g}} ] + \frac{1}{2} V_{q q} E [ d q^{2} ] + \frac{1}{2} V_{y y} E [ d y^{2} ] + \frac{1}{2} V_{\overline {{\pi}} \overline {{\pi}}} E [ d \overline {{\pi}}^{2} ] + \frac{1}{2} V_{\overline {{g}} \overline {{g}}} E [ d \overline {{g}}^{2} ] \\ + V_{q y} E \left[ d q d y \right] + V_{q \overline {{\pi}}} E \left[ d q d \overline {{\pi}} \right] + V_{q \overline {{g}}} E \left[ d q d \overline {{g}} \right] + V_{y \overline {{\pi}}} E \left[ d y d \overline {{\pi}} \right] + V_{y \overline {{g}}} E \left[ d y d \overline {{g}} \right] + V_{\overline {{\pi g}}} E \left[ d \overline {{\pi}} d \overline {{g}} \right] \\ \end{array}
 $$
 
 with final condition
 
 $$
-V \left(q, y, \overline {{\pi}}, \overline {{g}}, T\right) = e ^ {- \eta q (T) - \gamma y (T)}
+V \left(q, y, \overline {{\pi}}, \overline {{g}}, T\right) = e^{- \eta q (T) - \gamma y (T)}
 $$
 
 We can conjecture the following
 
 $$
-V (q, y, \overline {{\pi}}, \overline {{g}}, t) = e ^ {- \eta q (t) - \gamma y (t) + A (t; T) - \eta B (t; T) \overline {{\pi}} - \gamma C (t; T) \overline {{g}}}
+V (q, y, \overline {{\pi}}, \overline {{g}}, t) = e^{- \eta q (t) - \gamma y (t) + A (t; T) - \eta B (t; T) \overline {{\pi}} - \gamma C (t; T) \overline {{g}}}
 $$
 
 Taking the first derivatives
 
 $$
-V _ {t} = \left[ A ^ {\prime} (t; T) - \eta B ^ {\prime} (t; T) \bar {\pi} - \gamma C ^ {\prime} (t; T) \bar {g} \right] V
+V_{t} = \left[ A^{\prime} (t; T) - \eta B^{\prime} (t; T) \bar {\pi} - \gamma C^{\prime} (t; T) \bar {g} \right] V
 $$
 
 $$
-V _ {q} = - \eta V; V _ {q q} = \eta^ {2} V; V _ {q y} = \eta \gamma V; V _ {q \overline {{\pi}}} = \eta^ {2} B (t; T) V; V _ {q \overline {{g}}} = \eta \gamma C (t; T) V
+V_{q} = - \eta V; V_{q q} = \eta^{2} V; V_{q y} = \eta \gamma V; V_{q \overline {{\pi}}} = \eta^{2} B (t; T) V; V_{q \overline {{g}}} = \eta \gamma C (t; T) V
 $$
 
 $$
-V _ {y} = - \gamma V; V _ {y y} = \gamma^ {2} V; V _ {y \bar {\pi}} = \gamma \eta B (t, T); V _ {y \bar {g}} = \gamma^ {2} C (t, T)
+V_{y} = - \gamma V; V_{y y} = \gamma^{2} V; V_{y \bar {\pi}} = \gamma \eta B (t, T); V_{y \bar {g}} = \gamma^{2} C (t, T)
 $$
 
 $$
-V _ {\overline {{\pi}}} = - \eta B (t, T) V; V _ {\overline {{\pi}} \overline {{\pi}}} = \eta^ {2} B (t, T) ^ {2} V; V _ {\overline {{\pi}} \overline {{g}}} = \eta \gamma B (t, T) C (t, T) V
+V_{\overline {{\pi}}} = - \eta B (t, T) V; V_{\overline {{\pi}} \overline {{\pi}}} = \eta^{2} B (t, T)^{2} V; V_{\overline {{\pi}} \overline {{g}}} = \eta \gamma B (t, T) C (t, T) V
 $$
 
 $$
-V _ {\overline {{g}}} = - \gamma C (t, T) V; V _ {\overline {{g g}}} = \gamma^ {2} C (t, T) ^ {2} V
+V_{\overline {{g}}} = - \gamma C (t, T) V; V_{\overline {{g g}}} = \gamma^{2} C (t, T)^{2} V
 $$
 
 Substituting and deleting the common  $V$
 
 $$
-\begin{array}{l} \rho = \left[ A ^ {\prime} (t; T) - \eta B ^ {\prime} (t; T) \overline {{\pi}} - \gamma C ^ {\prime} (t; T) \overline {{g}} \right] - \eta \overline {{\pi}} - \gamma \overline {{g}} - \eta B (t, T) (\alpha_ {\pi} - \beta_ {\pi} \overline {{\pi}}) - \gamma C (t, T) (\alpha_ {g} - \beta_ {g} \overline {{g}}) \\ + \frac {1}{2} \eta^ {2} \sigma_ {\pi} ^ {2} + \frac {1}{2} \gamma^ {2} \sigma_ {g} ^ {2} + \frac {1}{2} \eta^ {2} B (t, T) ^ {2} \sigma_ {\bar {\pi}} ^ {2} + \frac {1}{2} \gamma^ {2} C (t, T) ^ {2} \sigma_ {\bar {g}} ^ {2} \\ + \gamma \eta \sigma_ {\pi} \sigma_ {g} \rho_ {\pi g} + \eta^ {2} B (t, T) \sigma_ {\pi} \sigma_ {\bar {\pi}} \rho_ {\pi \bar {\pi}} + \eta \gamma C (t, T) \sigma_ {\pi} \sigma_ {\bar {g}} \rho_ {\pi \bar {g}} \\ + \gamma \eta B (t, T) \sigma_ {g} \sigma_ {\bar {\pi}} \rho_ {g \bar {\pi}} + \gamma^ {2} C (t, T) \sigma_ {g} \sigma_ {\bar {g}} \rho_ {g \bar {g}} + \eta \gamma B (t, T) C (t, T) \sigma_ {\bar {\pi}} \sigma_ {\bar {g}} \rho_ {\bar {\pi} \bar {g}} \\ \end{array}
+\begin{array}{l} \rho = \left[ A^{\prime} (t; T) - \eta B^{\prime} (t; T) \overline {{\pi}} - \gamma C^{\prime} (t; T) \overline {{g}} \right] - \eta \overline {{\pi}} - \gamma \overline {{g}} - \eta B (t, T) (\alpha_{\pi} - \beta_{\pi} \overline {{\pi}}) - \gamma C (t, T) (\alpha_{g} - \beta_{g} \overline {{g}}) \\ + \frac{1}{2} \eta^{2} \sigma_{\pi}^{2} + \frac{1}{2} \gamma^{2} \sigma_{g}^{2} + \frac{1}{2} \eta^{2} B (t, T)^{2} \sigma_{\bar {\pi}}^{2} + \frac{1}{2} \gamma^{2} C (t, T)^{2} \sigma_{\bar {g}}^{2} \\ + \gamma \eta \sigma_{\pi} \sigma_{g} \rho_{\pi g} + \eta^{2} B (t, T) \sigma_{\pi} \sigma_{\bar {\pi}} \rho_{\pi \bar {\pi}} + \eta \gamma C (t, T) \sigma_{\pi} \sigma_{\bar {g}} \rho_{\pi \bar {g}} \\ + \gamma \eta B (t, T) \sigma_{g} \sigma_{\bar {\pi}} \rho_{g \bar {\pi}} + \gamma^{2} C (t, T) \sigma_{g} \sigma_{\bar {g}} \rho_{g \bar {g}} + \eta \gamma B (t, T) C (t, T) \sigma_{\bar {\pi}} \sigma_{\bar {g}} \rho_{\bar {\pi} \bar {g}} \\ \end{array}
 $$
 
 Factor out variables  $\overline{\pi}$  and  $\overline{g}$ :
 
 $$
-\begin{array}{l} \rho = - \eta [ B ^ {\prime} (t; T) + 1 - \beta_ {\pi} ] \overline {{\pi}} - \gamma [ C ^ {\prime} (t; T) + 1 - \beta_ {g} ] \overline {{g}} - \eta B (t, T) \alpha_ {\pi} - \gamma C (t, T) \alpha_ {g} \\ A ^ {\prime} (t; T) + \frac {1}{2} \eta^ {2} \sigma_ {\pi} ^ {2} + \frac {1}{2} \gamma^ {2} \sigma_ {g} ^ {2} + \frac {1}{2} \eta^ {2} B (t, T) ^ {2} \sigma_ {\bar {\pi}} ^ {2} + \frac {1}{2} \gamma^ {2} C (t, T) ^ {2} \sigma_ {\bar {g}} ^ {2} \\ + \gamma \eta \sigma_ {\pi} \sigma_ {g} \rho_ {\pi g} + \eta^ {2} B (t, T) \sigma_ {\pi} \sigma_ {\bar {\pi}} \rho_ {\pi \bar {\pi}} + \eta \gamma C (t, T) \sigma_ {\pi} \sigma_ {\bar {g}} \rho_ {\pi \bar {g}} \\ + \gamma \eta B (t, T) \sigma_ {g} \sigma_ {\bar {\pi}} \rho_ {g \bar {\pi}} + \gamma^ {2} C (t, T) \sigma_ {g} \sigma_ {\bar {g}} \rho_ {g \bar {g}} + \eta \gamma B (t, T) C (t, T) \sigma_ {\bar {\pi}} \sigma_ {\bar {g}} \rho_ {\bar {\pi} \bar {g}} \\ \end{array}
+\begin{array}{l} \rho = - \eta [ B^{\prime} (t; T) + 1 - \beta_{\pi} ] \overline {{\pi}} - \gamma [ C^{\prime} (t; T) + 1 - \beta_{g} ] \overline {{g}} - \eta B (t, T) \alpha_{\pi} - \gamma C (t, T) \alpha_{g} \\ A^{\prime} (t; T) + \frac{1}{2} \eta^{2} \sigma_{\pi}^{2} + \frac{1}{2} \gamma^{2} \sigma_{g}^{2} + \frac{1}{2} \eta^{2} B (t, T)^{2} \sigma_{\bar {\pi}}^{2} + \frac{1}{2} \gamma^{2} C (t, T)^{2} \sigma_{\bar {g}}^{2} \\ + \gamma \eta \sigma_{\pi} \sigma_{g} \rho_{\pi g} + \eta^{2} B (t, T) \sigma_{\pi} \sigma_{\bar {\pi}} \rho_{\pi \bar {\pi}} + \eta \gamma C (t, T) \sigma_{\pi} \sigma_{\bar {g}} \rho_{\pi \bar {g}} \\ + \gamma \eta B (t, T) \sigma_{g} \sigma_{\bar {\pi}} \rho_{g \bar {\pi}} + \gamma^{2} C (t, T) \sigma_{g} \sigma_{\bar {g}} \rho_{g \bar {g}} + \eta \gamma B (t, T) C (t, T) \sigma_{\bar {\pi}} \sigma_{\bar {g}} \rho_{\bar {\pi} \bar {g}} \\ \end{array}
 $$
 
 This is satisfied for all values of  $\overline{\pi}$  and  $\overline{g}$  if and only if the following system is satisfied
 
 $$
-0 = \left[ B ^ {\prime} (t; T) + 1 - \beta_ {\pi} B (t, T) \right]
+0 = \left[ B^{\prime} (t; T) + 1 - \beta_{\pi} B (t, T) \right]
 $$
 
 $$
-0 = \left[ C ^ {\prime} (t; T) + 1 - C (t, T) \beta_ {g} \right]
+0 = \left[ C^{\prime} (t; T) + 1 - C (t, T) \beta_{g} \right]
 $$
 
 and
 
 $$
-\rho = A ^ {\prime} (t; T) - \eta B (t, T) \alpha_ {\pi} - \gamma C (t, T) \alpha_ {g}
+\rho = A^{\prime} (t; T) - \eta B (t, T) \alpha_{\pi} - \gamma C (t, T) \alpha_{g}
 $$
 
 $$
-\begin{array}{l} + \frac {1}{2} \eta^ {2} \sigma_ {\pi} ^ {2} + \frac {1}{2} \gamma^ {2} \sigma_ {g} ^ {2} + \frac {1}{2} \eta^ {2} B (t, T) ^ {2} \sigma_ {\bar {\pi}} ^ {2} + \frac {1}{2} \gamma^ {2} C (t, T) ^ {2} \sigma_ {\bar {g}} ^ {2} \\ + \gamma \eta \sigma_ {\pi} \sigma_ {g} \rho_ {\pi g} + \eta^ {2} B (t, T) \sigma_ {\pi} \sigma_ {\bar {\pi}} \rho_ {\pi \bar {\pi}} + \eta \gamma C (t, T) \sigma_ {\pi} \sigma_ {\bar {g}} \rho_ {\pi \bar {g}} \\ + \gamma \eta B (t, T) \sigma_ {g} \sigma_ {\bar {\pi}} \rho_ {g \bar {\pi}} + \gamma^ {2} C (t, T) \sigma_ {g} \sigma_ {\bar {g}} \rho_ {g \bar {g}} + \eta \gamma B (t, T) C (t, T) \sigma_ {\bar {\pi}} \sigma_ {\bar {g}} \rho_ {\bar {\pi} \bar {g}} \\ \end{array}
+\begin{array}{l} + \frac{1}{2} \eta^{2} \sigma_{\pi}^{2} + \frac{1}{2} \gamma^{2} \sigma_{g}^{2} + \frac{1}{2} \eta^{2} B (t, T)^{2} \sigma_{\bar {\pi}}^{2} + \frac{1}{2} \gamma^{2} C (t, T)^{2} \sigma_{\bar {g}}^{2} \\ + \gamma \eta \sigma_{\pi} \sigma_{g} \rho_{\pi g} + \eta^{2} B (t, T) \sigma_{\pi} \sigma_{\bar {\pi}} \rho_{\pi \bar {\pi}} + \eta \gamma C (t, T) \sigma_{\pi} \sigma_{\bar {g}} \rho_{\pi \bar {g}} \\ + \gamma \eta B (t, T) \sigma_{g} \sigma_{\bar {\pi}} \rho_{g \bar {\pi}} + \gamma^{2} C (t, T) \sigma_{g} \sigma_{\bar {g}} \rho_{g \bar {g}} + \eta \gamma B (t, T) C (t, T) \sigma_{\bar {\pi}} \sigma_{\bar {g}} \rho_{\bar {\pi} \bar {g}} \\ \end{array}
 $$
 
 with final conditions
@@ -2496,23 +2496,23 @@ $$
 The first two ODEs have solutions
 
 $$
-B (t, T) = \frac {1 - e ^ {- \beta_ {\pi} (T - t)}}{\beta_ {\pi}}
+B (t, T) = \frac{1 - e^{- \beta_{\pi} (T - t)}}{\beta_{\pi}}
 $$
 
 $$
-C (t, T) = \frac {1 - e ^ {- \beta_ {g} (T - t)}}{\beta_ {g}}
+C (t, T) = \frac{1 - e^{- \beta_{g} (T - t)}}{\beta_{g}}
 $$
 
 The last ODE has solution
 
 $$
-\begin{array}{l} A (t, T) = (- \rho + \frac {1}{2} \eta^ {2} \sigma_ {\pi} ^ {2} + \frac {1}{2} \gamma^ {2} \sigma_ {g} ^ {2} + \gamma \eta \sigma_ {\pi} \sigma_ {g} \rho_ {\pi g}) (T - t) \\ + \left[ \eta^ {2} \sigma_ {\pi} \sigma_ {\overline {{\pi}}} \rho_ {\pi \overline {{\pi}}} + \gamma \eta \sigma_ {g} \sigma_ {\overline {{\pi}}} \rho_ {g \overline {{\pi}}} - \eta \alpha_ {\pi} + \frac {1}{2} \frac {\eta^ {2} \sigma_ {\overline {{\pi}}} ^ {2}}{\beta_ {\pi}} + \frac {\eta \gamma \sigma_ {\overline {{\pi}}} \sigma_ {\overline {{g}}} \rho_ {\overline {{\pi g}}}}{\beta_ {\pi} + \beta_ {g}} \right] \frac {1}{\beta_ {\pi}} ((T - t) - B (t, T)) \\ + \left[ \eta \gamma \sigma_ {\pi} \sigma_ {\bar {g}} \rho_ {\pi \bar {g}} + \gamma^ {2} \sigma_ {g} \sigma_ {\bar {g}} \rho_ {g \bar {g}} - \gamma \alpha_ {g} + \frac {1}{2} \frac {\gamma^ {2} \sigma_ {\bar {g}} ^ {2}}{\beta_ {g}} + \frac {\eta \gamma \sigma_ {\bar {\pi}} \sigma_ {\bar {g}} \rho_ {\bar {\pi} g}}{\beta_ {\pi} + \beta_ {g}} \right] \frac {1}{\beta_ {g}} ((T - t) - C (t, T)) \\ - \frac {1}{4} \frac {\eta^ {2} \sigma_ {\overline {{\pi}}} ^ {2}}{\beta_ {\pi}} B (t, T) ^ {2} - \frac {1}{4} \frac {\gamma^ {2} \sigma_ {\overline {{g}}} ^ {2}}{\beta_ {g}} C (t, T) ^ {2} - \frac {\eta \gamma \sigma_ {\overline {{\pi}}} \sigma_ {\overline {{g}}} \rho_ {\overline {{\pi g}}}}{(\beta_ {\pi} + \beta_ {g})} B (t, T) C (t, T) \\ \end{array}
+\begin{array}{l} A (t, T) = (- \rho + \frac{1}{2} \eta^{2} \sigma_{\pi}^{2} + \frac{1}{2} \gamma^{2} \sigma_{g}^{2} + \gamma \eta \sigma_{\pi} \sigma_{g} \rho_{\pi g}) (T - t) \\ + \left[ \eta^{2} \sigma_{\pi} \sigma_{\overline {{\pi}}} \rho_{\pi \overline {{\pi}}} + \gamma \eta \sigma_{g} \sigma_{\overline {{\pi}}} \rho_{g \overline {{\pi}}} - \eta \alpha_{\pi} + \frac{1}{2} \frac{\eta^{2} \sigma_{\overline {{\pi}}}^{2}}{\beta_{\pi}} + \frac{\eta \gamma \sigma_{\overline {{\pi}}} \sigma_{\overline {{g}}} \rho_{\overline {{\pi g}}}}{\beta_{\pi} + \beta_{g}} \right] \frac{1}{\beta_{\pi}} ((T - t) - B (t, T)) \\ + \left[ \eta \gamma \sigma_{\pi} \sigma_{\bar {g}} \rho_{\pi \bar {g}} + \gamma^{2} \sigma_{g} \sigma_{\bar {g}} \rho_{g \bar {g}} - \gamma \alpha_{g} + \frac{1}{2} \frac{\gamma^{2} \sigma_{\bar {g}}^{2}}{\beta_{g}} + \frac{\eta \gamma \sigma_{\bar {\pi}} \sigma_{\bar {g}} \rho_{\bar {\pi} g}}{\beta_{\pi} + \beta_{g}} \right] \frac{1}{\beta_{g}} ((T - t) - C (t, T)) \\ - \frac{1}{4} \frac{\eta^{2} \sigma_{\overline {{\pi}}}^{2}}{\beta_{\pi}} B (t, T)^{2} - \frac{1}{4} \frac{\gamma^{2} \sigma_{\overline {{g}}}^{2}}{\beta_{g}} C (t, T)^{2} - \frac{\eta \gamma \sigma_{\overline {{\pi}}} \sigma_{\overline {{g}}} \rho_{\overline {{\pi g}}}}{(\beta_{\pi} + \beta_{g})} B (t, T) C (t, T) \\ \end{array}
 $$
 
 Setting  $\eta = 1$  provides the formula for  $A(t,T)$  in the text. Moreover, the case  $\eta = 0$  corresponds to the real bond, obtaining
 
 $$
-{A _ {\mathrm {r e a l}} (t, T)} = {\left(- \rho + \frac {1}{2} \gamma^ {2} \sigma_ {g} ^ {2}\right) (T - t) + \left[ \gamma^ {2} \sigma_ {g} \sigma_ {\bar {g}} \rho_ {g \bar {g}} - \gamma \alpha_ {g} + \frac {1}{2} \frac {\gamma^ {2} \sigma_ {\bar {g}} ^ {2}}{\beta_ {g}} \right] \frac {1}{\beta_ {g}} ((T - t) - C (t, T)) - \frac {1}{4} \frac {\gamma^ {2} \sigma_ {\bar {g}} ^ {2}}{\beta_ {g}} C (t, T) ^ {2}}
+{A_{\mathrm{re al}} (t, T)} = {\left(- \rho + \frac{1}{2} \gamma^{2} \sigma_{g}^{2}\right) (T - t) + \left[ \gamma^{2} \sigma_{g} \sigma_{\bar {g}} \rho_{g \bar {g}} - \gamma \alpha_{g} + \frac{1}{2} \frac{\gamma^{2} \sigma_{\bar {g}}^{2}}{\beta_{g}} \right] \frac{1}{\beta_{g}} ((T - t) - C (t, T)) - \frac{1}{4} \frac{\gamma^{2} \sigma_{\bar {g}}^{2}}{\beta_{g}} C (t, T)^{2}}
 $$
 
 # Teaching Note 4
@@ -2541,7 +2541,7 @@ Panel B. Multiple of Global GDP
 - A Forward Rate Agreement (FRA) is a contract between two counterparties who agree at time 0 to exchange the following net payment at a future date  $T_{2}$
 
 $$
-\text {N e t} \quad T _ {2} = N \times \Delta \times \left[ r _ {n} \left(T _ {1}, T _ {2}\right) - f _ {n} \right] \tag {1}
+\text{Ne t} \quad T_{2} = N \times \Delta \times \left[ r_{n} \left(T_{1}, T_{2}\right) - f_{n} \right] \tag {1}
 $$
 
 - where  $r_n(T_1, T_2)$  is a  $n$ -times compounded floating reference rate,  $f_n$  is a fixed rate,  $N$  is the notional, and  $\Delta = 1/n$
@@ -2559,7 +2559,7 @@ $$
 - Clearly, using the banks offer locks in the rate  $f_{2}$  for the period  $T_{1}$  to  $T_{2}$  for the firm, as
 
 $$
-\begin{array}{l} \begin{array}{l} \text {T o t a l a m o u n t} \\ \text {a t} T _ {2} \end{array} = \left\{\$ 1 0 0 \text {m i l l i o n} \times \left[ 1 + \frac {r _ {2} (0 . 5 , 1)}{2} \right] \right\} \quad (\text {R e t u r n o n i n v e s t m e n t}) \\ \left. \right. + \left\{\frac {N}{2} \times \left[ f _ {2} - r _ {2} (0. 5, 1) \right]\right\} \quad \text {(F R A p a y m e n t)} \\ = \$ 100 \text {m i l l i o n} \times \left[ 1 + \frac {f _ {2}}{2} \right] \\ = \mathbb {S} 1 0 0 \text {m i l l i o n} \times \left[ 1 + \frac {0 . 0 1 5 9}{2} \right] \\ = \$ 100.79 \text {m i l l i o n} \\ \end{array}
+\begin{array}{l} \begin{array}{l} \text{To ta la mo un t} \\ \text{at} T_{2} \end{array} = \left\{\$ 1 0 0 \text{mi ll io n} \times \left[ 1 + \frac{r_{2} (0 . 5 , 1)}{2} \right] \right\} \quad (\text{Re tu rn on in ve st me nt}) \\ \left. \right. + \left\{\frac{N}{2} \times \left[ f_{2} - r_{2} (0. 5, 1) \right]\right\} \quad \text{(FR Ap ay me nt)} \\ = \$ 100 \text{mi ll io n} \times \left[ 1 + \frac{f_{2}}{2} \right] \\ = \mathbb {S} 1 0 0 \text{mi ll io n} \times \left[ 1 + \frac{0 . 0 1 5 9}{2} \right] \\ = \$ 100.79 \text{mi ll io n} \\ \end{array}
 $$
 
 - The question is: How does the bank determine the forward rate  $f_{2}$ ?
@@ -2575,7 +2575,7 @@ of T-bills maturing at T2</td><td></td><td>Receive 1.0079 × \$100 m</td></tr><t
 - Note also that the quoted forward rate is effectively implicit in the ratio
 
 $$
-M = \frac {Z (0 , 0 . 5)}{Z (0 , 1)} = 1 + \frac {f _ {2}}{2}
+M = \frac{Z (0 , 0 . 5)}{Z (0 , 1)} = 1 + \frac{f_{2}}{2}
 $$
 
 in the first step of the trading strategy.
@@ -2588,19 +2588,19 @@ in the first step of the trading strategy.
 - Given the discount factors  $Z\left( {t,{T}_{1}}\right)$  and  $Z\left( {t,{T}_{2}}\right)$  ,the forward discount factor is given by
 
 $$
-F (t, T _ {1}, T _ {2}) = \frac {Z (t , T _ {2})}{Z (t , T _ {1})} \tag {2}
+F (t, T_{1}, T_{2}) = \frac{Z (t , T_{2})}{Z (t , T_{1})} \tag {2}
 $$
 
 - Indeed, note that in the example  $Z(0, 0.5) = 0.9918$  and  $Z(0, 1) = 0.9840$  implying a forward discount factor
 
 $$
-F (0, 0. 5, 1) = \frac {Z (0 , 1)}{Z (0 , 0 . 5)} = 0. 9 9 2 1 \tag {3}
+F (0, 0. 5, 1) = \frac{Z (0 , 1)}{Z (0 , 0 . 5)} = 0. 9 9 2 1 \tag {3}
 $$
 
 - From any discount factor (forward or not), we can compute the  $n$ -times compounded rate as
 
 $$
-f _ {n} \left(t, T _ {1}, T _ {2}\right) = n \times \left(\frac {1}{F \left(t , T _ {1} , T _ {2}\right) ^ {\frac {1}{n \times \left(T _ {2} - T _ {1}\right)}}} - 1\right) \tag {4}
+f_{n} \left(t, T_{1}, T_{2}\right) = n \times \left(\frac{1}{F \left(t , T_{1} , T_{2}\right)^{\frac{1}{n \times \left(T_{2} - T_{1}\right)}}} - 1\right) \tag {4}
 $$
 
 - For instance, in the example we have
@@ -2629,20 +2629,20 @@ Data Source: US Treasury.
 $\Longrightarrow$  its value at  $t =$  value of the FRA for the firm. Thus:
 
 $$
-\text {V a l u e o f F R A t o t h e f i r m a t} \mathfrak {t} = V ^ {F R A} (t) = M \times Z (t, T _ {2}) - Z (t, T _ {1}) \tag {5}
+\text{Va lu eo fF RA to th ef ir ma t} \mathfrak {t} = V^{F R A} (t) = M \times Z (t, T_{2}) - Z (t, T_{1}) \tag {5}
 $$
 
 - On April 1, 2020 ( = t), we had Z(t,T1) = \$0.9993 and Z(t,T2) = \$0.9981. Therefore
 
 $$
-V ^ {F R A} (t) = 1. 0 0 7 9 \times Z (t, T _ {2}) - Z (t, T _ {1}) = 1. 0 0 7 9 \times \$ 0. 9 9 8 1 - \$ 0. 9 9 9 3 = \$ 0. 0 0 6 7 1 m i l l o n
+V^{F R A} (t) = 1. 0 0 7 9 \times Z (t, T_{2}) - Z (t, T_{1}) = 1. 0 0 7 9 \times \$ 0. 9 9 8 1 - \$ 0. 9 9 9 3 = \$ 0. 0 0 6 7 1 m i l l o n
 $$
 
 - ⇒ On April 1, 2020, the FRA initiated 3 months earlier was worth \$671,176.83 to the firm.
 - In general, using the definition  $1 + f_{n}(t,T_{1},T_{2})\Delta = Z(t,T_{1}) / Z(t,T_{2})$ , we have
 
 $$
-\begin{array}{l} V ^ {F R A} (t) = N \times Z (t, T _ {2}) \times \left[ M - \frac {Z (t , T _ {1})}{Z (t , T _ {2})} \right] \\ = N \times Z (t, T _ {2}) \times \Delta \times [ f _ {n} (0, T _ {1}, T _ {2}) - f _ {n} (t, T _ {1}, T _ {2}) ] \tag {6} \\ \end{array}
+\begin{array}{l} V^{F R A} (t) = N \times Z (t, T_{2}) \times \left[ M - \frac{Z (t , T_{1})}{Z (t , T_{2})} \right] \\ = N \times Z (t, T_{2}) \times \Delta \times [ f_{n} (0, T_{1}, T_{2}) - f_{n} (t, T_{1}, T_{2}) ] \tag {6} \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-20/ff34cd1a-cf8f-48ef-82fe-87b50e3bff05/9efc42306d6a794517d355de4784448886583b382a82e5bfc1c360de0de57f77.jpg)  
@@ -2653,7 +2653,7 @@ Changing Yield Curve
 - A plain vanilla fixed-for-floating interest rate swap is an agreement between two counterparties to exchange cash flows at  $T_{1}, T_{2}, \ldots, T_{n} = T$ , with  $T_{i} = T_{i - 1} + \Delta$ , according to
 
 $$
-\text {N e t C a s h F l o w a t} T _ {i} = N \times \Delta \times \left[ r _ {n} \left(T _ {i - 1}\right) - c \right] \tag {7}
+\text{Ne tC as hF lo wa t} T_{i} = N \times \Delta \times \left[ r_{n} \left(T_{i - 1}\right) - c \right] \tag {7}
 $$
 
 where  $n = 1 / \Delta$  is the reference rate compounding frequency.  
@@ -2666,13 +2666,13 @@ where  $n = 1 / \Delta$  is the reference rate compounding frequency.
 - $\Rightarrow$  the value of the swap is
 
 $$
-V ^ {s w a p} (t; c, T) = P _ {F R} (t, T) - P _ {c} (t, T) \tag {8}
+V^{s w a p} (t; c, T) = P_{F R} (t, T) - P_{c} (t, T) \tag {8}
 $$
 
 - At every  $T_{i}$ , the value of  $P_{FR}(T_i,T) = 100$ . Therefore, at these times
 
 $$
-V ^ {s w a p} (T _ {i}; c, T) = 1 0 0 - \left(\frac {c}{2} \times 1 0 0 \times \sum_ {j = i + 1} ^ {M} Z (T _ {i}, T _ {j}) + Z (T _ {i}, T _ {M}) \times 1 0 0\right) \qquad (9)
+V^{s w a p} (T_{i}; c, T) = 1 0 0 - \left(\frac{c}{2} \times 1 0 0 \times \sum_{j = i + 1}^{M} Z (T_{i}, T_{j}) + Z (T_{i}, T_{M}) \times 1 0 0\right) \qquad (9)
 $$
 
 # The Swap Rate and the Swap Curve
@@ -2682,13 +2682,13 @@ $$
 - Rewriting the equation for any payment frequency  $n$  and payment dates  $T_{1}, \ldots, T_{M}$ , we have
 
 $$
-V ^ {s w a p} (0; c, T) = 1 0 0 - \left(\frac {c}{n} \times 1 0 0 \times \sum_ {j = 1} ^ {M} Z (0, T _ {j}) + Z (0, T _ {M}) \times 1 0 0\right) = 0 \tag {10}
+V^{s w a p} (0; c, T) = 1 0 0 - \left(\frac{c}{n} \times 1 0 0 \times \sum_{j = 1}^{M} Z (0, T_{j}) + Z (0, T_{M}) \times 1 0 0\right) = 0 \tag {10}
 $$
 
 - Solving this equation for  $c$  we find
 
 $$
-c = n \times \left(\frac {1 - Z (0 , T _ {M})}{\Sigma_ {j = 1} ^ {M} Z (0 , T _ {j})}\right) \tag {11}
+c = n \times \left(\frac{1 - Z (0 , T_{M})}{\Sigma_{j = 1}^{M} Z (0 , T_{j})}\right) \tag {11}
 $$
 
 - The swap curve at time  $t$  is the set of swap rates (at time  $t$ ) for all maturities  $T_{1}, T_{2}, \ldots, T_{M}$ .  
@@ -2700,13 +2700,13 @@ $$
 - From the swap curve, we can then bootstrap out such discounts by inverting (11):
 
 $$
-Z \left(t, T _ {1}\right) = \frac {1}{1 + \frac {c (t , T _ {1})}{n}} \tag {12}
+Z \left(t, T_{1}\right) = \frac{1}{1 + \frac{c (t , T_{1})}{n}} \tag {12}
 $$
 
 while for  $i = 2,\ldots ,M$
 
 $$
-Z (t, T _ {i}) = \frac {1 - \frac {c (t , T _ {i})}{n} \times \sum_ {j = 1} ^ {i - 1} Z (t , T _ {j})}{1 + \frac {c (t , T _ {i})}{n}} \tag {13}
+Z (t, T_{i}) = \frac{1 - \frac{c (t , T_{i})}{n} \times \sum_{j = 1}^{i - 1} Z (t , T_{j})}{1 + \frac{c (t , T_{i})}{n}} \tag {13}
 $$
 
 - The resulting yield curve is called LIBOR curve.
@@ -2775,7 +2775,7 @@ Data Source: Bloomberg.
 – We want to set up a \$100 million trade. Thus, we need to sell
 
 $$
-N = \frac {\mathrm {\\( 1 0 0 m i l l o n}}{1 0 0 . 1 1 7 2} = 9 9 8, 8 2 9 \text {T r e a s u r y n o t e s (f o r \\) 1 0 0 p a r v a l u e)} \tag {14}
+N = \frac{\mathrm{\\(1 00 mi ll on}}{1 0 0 . 1 1 7 2} = 9 9 8, 8 2 9 \text{Tr ea su ry no te s (fo r \\)1 00 pa rv al ue)} \tag {14}
 $$
 
 – Assuming haircut = 0, we then borrow N = 998,829 5-year T-notes from the repo dealer, sells them in the cash market for \$100 million, and gives this cash to the repo dealer.  
@@ -2783,7 +2783,7 @@ $$
 - Assume we enter into a term reverse repo with 3-months maturity, and rolls it over every three months.  
  – Because the repo dealer keeps the \$100 million at every reset date, our total cash flow every quarter is
 
-Reverse repo CF(t) =  $\begin{cases} \frac{\mathbb{S}100\mathbb{m}\mathbb{m}}{4} \times r(t - 0.25) - N \times 100 \times \frac{5.125\%}{2} & \text{if } t \text{ is a coupon date}\\ \frac{\mathbb{S}100\mathbb{m}\mathbb{m}}{4} \times r(t - 0.25) & \text{otherwise} \end{cases}$
+Reverse repo CF(t) =  $\begin{cases} \frac{\mathbb{S}100\mathbb{m}\mathbb{m}}{4} \times r(t - 0.25) - N \times 100 \times \frac{5.125\%}{2} & \text{if } t \text{ isa coupondate}\\ \frac{\mathbb{S}100\mathbb{m}\mathbb{m}}{4} \times r(t - 0.25) & \text{otherwise} \end{cases}$
 
 # The Trade
 
@@ -2794,7 +2794,7 @@ Reverse repo CF(t) =  $\begin{cases} \frac{\mathbb{S}100\mathbb{m}\mathbb{m}}{4}
 - Denoting  $\ell(t)$  is the 3-month LIBOR rate at time  $t$ , the swap cash flows are then given by
 
 $$
-\operatorname {S w a p} \operatorname {C F} (t) = \left\{ \begin{array}{c c} \\ & \\ & - \frac {\$ 100 \mathrm {mm} \times \frac {5.69 \%}{2} - \frac {\$ 100 \mathrm {mm}}{4} \times \ell (t - 0.25)}{4} \text {if t i s f i x e d p a y m e n t d a t e} \\ & \\ & - \frac {\$ 100 \mathrm {mm}}{4} \times \ell (t - 0.25) \text {o t h e r w i s e} \end{array} \right.
+\operatorname{Sw ap} \operatorname{CF} (t) = \left\{ \begin{array}{c c} \\ & \\ & - \frac{\$ 100 \mathrm{mm} \times \frac{5.69 \%}{2} - \frac{\$ 100 \mathrm{mm}}{4} \times \ell (t - 0.25)}{4} \text{ift is fi xe dp ay me nt da te} \\ & \\ & - \frac{\$ 100 \mathrm{mm}}{4} \times \ell (t - 0.25) \text{ot he rw is e} \end{array} \right.
 $$
 
 # The Quarterly Cash Flow
@@ -2809,19 +2809,19 @@ $$
 - The second component is the LIBOR-repo spread, which every quarter is given by
 
 $$
-\mathrm {L R S C F e v e r y t h r e e m o n t h s} = \frac {\mathbb {S} 1 0 0 \mathrm {m m}}{4} \times (r (t - 0. 2 5) - \ell (t - 0. 2 5))
+\mathrm{LR SC Fe ve ry th re em on th s} = \frac{\mathbb {S} 1 0 0 \mathrm{mm}}{4} \times (r (t - 0. 2 5) - \ell (t - 0. 2 5))
 $$
 
 - For instance, on June 30 the  $r(0) = 5.27\%$  while  $\ell(0) = 5.5081\%$ , implying
 
 $$
-\text {L R S C F} \text {o n} 3 0, 2 0 0 6 = - \$ 5 9, 5 2 5. 0 0 \tag {15}
+\text{LR SC F} \text{on} 3 0, 2 0 0 6 = - \$ 5 9, 5 2 5. 0 0 \tag {15}
 $$
 
 - Since the LIBOR-repo spread is relatively stable, we expect to receive approximately
 
 $$
-\text {T o t a l} = 2 \times \$ 2 8 5, 4 9 9. 7 3 - 4 \times \$ 5 9, 5 2 5. 0 0
+\text{To ta l} = 2 \times \$ 2 8 5, 4 9 9. 7 3 - 4 \times \$ 5 9, 5 2 5. 0 0
 $$
 
 $$
@@ -2845,7 +2845,7 @@ Net Cash Flows from Swap Spread Trade
 - The ex-coupon value of the repo position on rollover quarter  $t$  is
 
 $$
-\text {V a l u e r e v e r s e r e p o a t} t = \mathbb {S} 1 0 0 \mathbf {m m} - N \times P _ {\text {n o t e}} (t, T)
+\text{Va lu er ev er se re po at} t = \mathbb {S} 1 0 0 \mathbf {m m} - N \times P_{\text{no te}} (t, T)
 $$
 
 where  $P_{\text{note}}(t, T)$  is the value of the T-note at time  $t$ .
@@ -2854,13 +2854,13 @@ where  $P_{\text{note}}(t, T)$  is the value of the T-note at time  $t$ .
 - As time passes and interest rates fluctuate, the value of the swap changes. We have:
 
 $$
-\text {V a l u e s w a p} t = P _ {c} (t, T) - P _ {F R} (t, T)
+\text{Va lu es wa p} t = P_{c} (t, T) - P_{F R} (t, T)
 $$
 
 - where  $P_{FR}(t, T)$  is the LIBOR-based floating rate bond, and  $P_{c}(t, T)$  is the fixed rate coupon bond with coupon  $c = 5.69\% =$  swap rate, given by
 
 $$
-P _ {c} (t, T) = \frac {100 \times 5.69 \%}{2} \times \sum_ {i = 1} ^ {n _ {t}} Z (t, T _ {i}) + 100 \times Z (t, T _ {n _ {t}})
+P_{c} (t, T) = \frac{100 \times 5.69 \%}{2} \times \sum_{i = 1}^{n_{t}} Z (t, T_{i}) + 100 \times Z (t, T_{n_{t}})
 $$
 
 - Here,  $Z(t,T_{i})$  is the LIBOR discount curve (see next Figure)
@@ -2931,7 +2931,7 @@ Negative Swap Spreads during the Crisis
 - Buy Treasury and pay fixed in a fixed for floating swap
 
 $$
-\Rightarrow \mathrm {C a s h F l o w a t} t = \left(c ^ {T - B o n d} - c ^ {s w a p}\right) + \left(L I B O R _ {t} - R E P O _ {t}\right)
+\Rightarrow \mathrm{Ca sh Fl ow at} t = \left(c^{T - B o n d} - c^{s w a p}\right) + \left(L I B O R_{t} - R E P O_{t}\right)
 $$
 
 - Both terms are positive. The first because of the negative swap spread, and the second because LIBOR is the rate for uncollateralized borrowing, while REPO is the rate for collateralized borrowing.
@@ -2940,7 +2940,7 @@ $$
 - At reset dates, the value of the trade is
 
 $$
-V _ {t} ^ {T r a d e} = (P _ {c} ^ {T - B o n d} (t, T) - P _ {c} ^ {S w a p} (t, T))
+V_{t}^{T r a d e} = (P_{c}^{T - B o n d} (t, T) - P_{c}^{S w a p} (t, T))
 $$
 
 - If the swap spread becomes even more negative, e.g. the yield on T-bond increases while the one of the swap remains the same, then  $V_{t}^{Trade}$  decreases even more.
@@ -2983,13 +2983,13 @@ Chart 1 from Boyarchenko et.al. (2018) "Negative Swap Spreads," Federal Reserve 
 - For instance, if  $M_{t} = US / EURO$  exchange rate, then
 
 $$
-F _ {t, T} = M _ {t} e ^ {(r _ {\S} - r _ {e}) (T - t)}
+F_{t, T} = M_{t} e^{(r_{\S} - r_{e}) (T - t)}
 $$
 
 - Next figure shows the difference
 
 $$
-F _ {t, T} ^ {d a t a} - F _ {t, T}
+F_{t, T}^{d a t a} - F_{t, T}
 $$
 
 - before and during the crisis.
@@ -3010,7 +3010,7 @@ CIP Violation during the 2007 - 2009 Financial Crisis: UKP / Dollar
 - During the crisis, from the graph, we had the following violation:
 
 $$
-F _ {t, t + m} ^ {d a t a} > F _ {t, t + m} = M _ {t} e ^ {(r _ {\S} - r _ {e}) m}
+F_{t, t + m}^{d a t a} > F_{t, t + m} = M_{t} e^{(r_{\S} - r_{e}) m}
 $$
 
 - Recall that in this case, an arbitrage trade requires the following:
@@ -3088,7 +3088,7 @@ Some History
 - Given a notional  $N$ , the floating rate payment at time  $T_{i}$  is
 
 $$
-C F \left(T _ {i}\right) = N \left(\prod_ {j = 1} ^ {n _ {j}} \left(1 + r _ {t _ {j}} \delta\right) - 1\right) \tag {16}
+C F \left(T_{i}\right) = N \left(\prod_{j = 1}^{n_{j}} \left(1 + r_{t_{j}} \delta\right) - 1\right) \tag {16}
 $$
 
 - where  $\delta$  is the daily interval,  $r_t$  is the reference (annualized) overnight rate, and  $n_j$  is the number of days between reset periods.  
@@ -3096,7 +3096,7 @@ $$
 - In the continuous time limit  $(\delta \to 0)$ , we have that
 
 $$
-C F \left(T _ {i}\right) = N \left(e ^ {\int_ {T _ {i - 1}} ^ {T _ {i}} r (u) d u} - 1\right) \tag {17}
+C F \left(T_{i}\right) = N \left(e^{\int_{T_{i - 1}}^{T_{i}} r (u) d u} - 1\right) \tag {17}
 $$
 
 - Is with maturity less than 1 year have only one payment at the maturity.  
@@ -3107,46 +3107,46 @@ $$
 - The value of Is is the difference between the floating leg and the fixed leg:
 
 $$
-V _ {t} ^ {O I S} = V _ {t} ^ {F l o a t i n g} - V _ {t} ^ {F i x e d} \tag {18}
+V_{t}^{O I S} = V_{t}^{F l o a t i n g} - V_{t}^{F i x e d} \tag {18}
 $$
 
 - Floating Leg: At reset dates, and assuming the payment of a principal at maturity of the swap, the value of the floating leg is par.
 - Indeed, investing the notional  $N$  in the overnight index daily gives at  $T_{i}$
 
 $$
-N \prod_ {j = 1} ^ {n _ {j}} \left(1 + r _ {t _ {j}} \Delta\right) = C F \left(T _ {i}\right) + N
+N \prod_{j = 1}^{n_{j}} \left(1 + r_{t_{j}} \Delta\right) = C F \left(T_{i}\right) + N
 $$
 
 - $\Rightarrow$  we can replicate the floating payments, plus a residual of notional at maturity  $T_{i}$ , with an investment  $N$  at time 0.
 - It follows
 
 $$
-V _ {0} ^ {F l o a t i n g} = N
+V_{0}^{F l o a t i n g} = N
 $$
 
 - Fixed leg: Given a proper discount function  $Z^{OIS}(0, T_i)$ , we obtain
 
 $$
-V _ {0} ^ {F i x e d} = N c \Delta \sum_ {i = 1} ^ {n} Z ^ {O I S} (0, T _ {i}) + N Z ^ {O I S} (0, T _ {n}) \tag {19}
+V_{0}^{F i x e d} = N c \Delta \sum_{i = 1}^{n} Z^{O I S} (0, T_{i}) + N Z^{O I S} (0, T_{n}) \tag {19}
 $$
 
 - The value of the contract at inception is zero,  $V_{0}^{OIS} = 0$ .  
 It follows from (18) then that
 
 $$
-V _ {0} ^ {O I S} = V _ {0} ^ {F l o a t i n g} - V _ {0} ^ {F i x e d} = 0 \tag {20}
+V_{0}^{O I S} = V_{0}^{F l o a t i n g} - V_{0}^{F i x e d} = 0 \tag {20}
 $$
 
 - This equation implies that the swap rate  $c$  can be computed from
 
 $$
-1 = c \Delta \sum_ {i = 1} ^ {n} Z ^ {O I S} (0, T _ {i}) + Z ^ {O I S} (0, T _ {n}) \tag {21}
+1 = c \Delta \sum_{i = 1}^{n} Z^{O I S} (0, T_{i}) + Z^{O I S} (0, T_{n}) \tag {21}
 $$
 
 which gives
 
 $$
-c (T _ {n}) = \frac {1}{\Delta} \frac {1 - Z ^ {O I S} (0 , T _ {n})}{\Sigma_ {i = 1} ^ {n} Z ^ {O I S} (0 , T _ {i})} \tag {22}
+c (T_{n}) = \frac{1}{\Delta} \frac{1 - Z^{O I S} (0 , T_{n})}{\Sigma_{i = 1}^{n} Z^{O I S} (0 , T_{i})} \tag {22}
 $$
 
 - where we now emphasize that the coupon rate  $c$  is for a swap with maturity  $T_{n}$ , and thus write  $c(T_{n})$ .
@@ -3157,7 +3157,7 @@ $$
 - We obtain the relation:
 
 $$
-Z ^ {O I S} \left(0, T _ {i}\right) = \frac {1 - c \left(T _ {i}\right) \Delta \sum_ {j = 1} ^ {i - 1} Z ^ {O I S} \left(0 , T _ {j}\right)}{1 + c \left(T _ {i}\right) \Delta} \tag {23}
+Z^{O I S} \left(0, T_{i}\right) = \frac{1 - c \left(T_{i}\right) \Delta \sum_{j = 1}^{i - 1} Z^{O I S} \left(0 , T_{j}\right)}{1 + c \left(T_{i}\right) \Delta} \tag {23}
 $$
 
 - recalling, however, that Is with maturity less than or equal to 1 year generally have only one payment.  
@@ -3195,7 +3195,7 @@ which are quite different.
 # Caps, Floors and Collars
 
 $$
-C F (T _ {i + 1}) = \Delta \times N \times \max (r _ {n} (T _ {i}, T _ {i + 1}) - r _ {K}, 0)
+C F (T_{i + 1}) = \Delta \times N \times \max (r_{n} (T_{i}, T_{i + 1}) - r_{K}, 0)
 $$
 
 - A cap pays a stream of payments at  $T_{i}$ ,  $i = 1, \dots, n$  with  $T_{i+1} = T_{i} + \Delta$ , where  
@@ -3203,7 +3203,7 @@ $$
 A floor pays
 
 $$
-C F \left(T _ {i + 1}\right) = \Delta \times N \times \max  \left(r _ {K} - r _ {n} \left(T _ {i}, T _ {i + 1}\right), 0\right)
+C F \left(T_{i + 1}\right) = \Delta \times N \times \max  \left(r_{K} - r_{n} \left(T_{i}, T_{i + 1}\right), 0\right)
 $$
 
 # Black's Formula for Caplet Valuation
@@ -3212,20 +3212,20 @@ $$
 - The main assumption is that under risk-adjusted probabilities (called "forward risk neutral probabilities"), the LIBOR rate has a log-normal distribution:
 
 $$
-\ln \left(r _ {n} \left(T _ {i}, T _ {i + 1}\right)\right) \sim N \left(\mu_ {i}, \sigma_ {f, i + 1} ^ {2} T _ {i}\right)
+\ln \left(r_{n} \left(T_{i}, T_{i + 1}\right)\right) \sim N \left(\mu_{i}, \sigma_{f, i + 1}^{2} T_{i}\right)
 $$
 
 - where we assume  $\sigma_{f,i+1}$  is a constant volatility and the subscript  $i+1$  is maturity of the caplet.  
 - The valuation formula is then the following:
 
 $$
-\operatorname {c a p l e t} \left(T _ {i + 1}\right) = \Delta \times N \times Z \left(0, T _ {i + 1}\right) \left[ f _ {n} \left(0, T _ {i}, T _ {i + 1}\right) \mathcal {N} \left(d _ {1}\right) - r _ {K} \mathcal {N} \left(d _ {2}\right) \right] \tag {24}
+\operatorname{ca pl et} \left(T_{i + 1}\right) = \Delta \times N \times Z \left(0, T_{i + 1}\right) \left[ f_{n} \left(0, T_{i}, T_{i + 1}\right) \mathcal {N} \left(d_{1}\right) - r_{K} \mathcal {N} \left(d_{2}\right) \right] \tag {24}
 $$
 
 where  $f_{n}(0,T_{i},T_{i + 1}$  is the forward rate, and
 
 $$
-d _ {1} = \frac {\ln \left(f _ {n} (0 , T _ {i} , T _ {i + 1}) / r _ {K}\right) + \sigma_ {f , i + 1} ^ {2} T _ {i} / 2}{\sigma_ {f , i + 1} \sqrt {T _ {i}}}; d _ {2} = d _ {1} - \sigma_ {f, i + 1} \sqrt {T _ {i}}
+d_{1} = \frac{\ln \left(f_{n} (0 , T_{i} , T_{i + 1}) / r_{K}\right) + \sigma_{f , i + 1}^{2} T_{i} / 2}{\sigma_{f , i + 1} \sqrt{T_{i}}}; d_{2} = d_{1} - \sigma_{f, i + 1} \sqrt{T_{i}}
 $$
 
 - Notice: We discount the payoff using  $Z(0, T_{i+1})$  and not  $Z(0, T_i)$  as the cash flow is realized at time  $T_{i+1}$ .
@@ -3244,13 +3244,13 @@ $$
 - Forward Discount Factors
 
 $$
-F (0, T _ {i - 1}, T _ {i}) = \frac {Z (0 , T _ {i})}{Z (0 , T _ {i - 1})}
+F (0, T_{i - 1}, T_{i}) = \frac{Z (0 , T_{i})}{Z (0 , T_{i - 1})}
 $$
 
 - Forward rates
 
 $$
-f _ {4} (0, T _ {i - 1}, T _ {i}) = 4 \times \left(\frac {1}{F (0 , T _ {i - 1} , T _ {i})} - 1\right)
+f_{4} (0, T_{i - 1}, T_{i}) = 4 \times \left(\frac{1}{F (0 , T_{i - 1} , T_{i})} - 1\right)
 $$
 
 We obtain
@@ -3265,30 +3265,30 @@ $$
 - From the quoted volatility  $\sigma_{f} = 23.5\%$ , we obtain
 
 $$
-\sigma_ {f} \sqrt {T _ {1}} = 23.5 \% \sqrt {0.25} = 11.75 \%;
+\sigma_{f} \sqrt{T_{1}} = 23.5 \% \sqrt{0.25} = 11.75 \%;
 $$
 
 $$
-\sigma_ {f} \sqrt {T _ {2}} = 23.5 \% \sqrt {0.50} = 16.62 \%;
+\sigma_{f} \sqrt{T_{2}} = 23.5 \% \sqrt{0.50} = 16.62 \%;
 $$
 
 $$
-\sigma_ {f} \sqrt {T _ {3}} = 23.5 \% \sqrt {0.75} = 20.35 \%
+\sigma_{f} \sqrt{T_{3}} = 23.5 \% \sqrt{0.75} = 20.35 \%
 $$
 
 - At this point we have all the information to compute the value of each caplet in the cap.  
 - In particular, using the formula for  $d_{1}$  and  $d_{2}$  we obtain
 
 $$
-d _ {1} (0. 5) = -. 2 7 7 0; d _ {2} (0. 5) = -. 3 9 4 5
+d_{1} (0. 5) = -. 2 7 7 0; d_{2} (0. 5) = -. 3 9 4 5
 $$
 
 $$
-d _ {1} (0. 7 5) = . 4 0 0 0; d _ {2} (0. 7 5) = . 2 3 3 8
+d_{1} (0. 7 5) = . 4 0 0 0; d_{2} (0. 7 5) = . 2 3 3 8
 $$
 
 $$
-d _ {1} (1) = = . 7 2 1 8; d _ {2} (1) = 0. 5 1 8 3
+d_{1} (1) = = . 7 2 1 8; d_{2} (1) = 0. 5 1 8 3
 $$
 
 # Example (cntd.)
@@ -3296,15 +3296,15 @@ $$
 - Then
 
 $$
-\begin{array}{l} \operatorname {caplet} (0.50) = \Delta \times N \times Z (0, 0.50) [ 2.4562 \% \times \mathcal {N} (d _ {1} (.50)) - 2.555 \% \times \mathcal {N} (d _ {2} (.50)) ] \\ = 0. 0 1 8 4 \\ \end{array}
+\begin{array}{l} \operatorname{caplet} (0.50) = \Delta \times N \times Z (0, 0.50) [ 2.4562 \% \times \mathcal {N} (d_{1} (.50)) - 2.555 \% \times \mathcal {N} (d_{2} (.50)) ] \\ = 0. 0 1 8 4 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \operatorname {caplet} (0. 7 5) = \Delta \times N \times Z (0, 0. 7 5) [ 2. 6 9 3 2 \\ = 0. 0 6 1 7 \\ \end{array}
+\begin{array}{l} \operatorname{caplet} (0. 7 5) = \Delta \times N \times Z (0, 0. 7 5) [ 2. 6 9 3 2 \\ = 0. 0 6 1 7 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \operatorname {caplet} (1.0) = \Delta \times N \times Z (0, 1.0) [ 2.8987 \% \times \mathcal {N} (d _ {1} (1.0)) - 2.555 \% \times \mathcal {N} (d _ {2} (1.0)) ] \\ = 0. 1 0 5 7 \\ \end{array}
+\begin{array}{l} \operatorname{caplet} (1.0) = \Delta \times N \times Z (0, 1.0) [ 2.8987 \% \times \mathcal {N} (d_{1} (1.0)) - 2.555 \% \times \mathcal {N} (d_{2} (1.0)) ] \\ = 0. 1 0 5 7 \\ \end{array}
 $$
 
 - and we obtain the value of the 1-year cap:
@@ -3371,13 +3371,13 @@ Table 3: The Relation between Forward and Flat Volatility
 - For all  $T_{i}$  the following equations must hold
 
 $$
-c a p \left(T _ {i}\right) = \sum_ {j = 1} ^ {i} c a p l e t \left(T _ {j}, \bar {r} _ {K, i}, \sigma_ {f} (T _ {i})\right)
+c a p \left(T_{i}\right) = \sum_{j = 1}^{i} c a p l e t \left(T_{j}, \bar {r}_{K, i}, \sigma_{f} (T_{i})\right)
 $$
 
 (How the market quotes)
 
 $$
-= \sum_ {j = 1} ^ {i} c a p l e t \left(T _ {j}, \overline {{r}} _ {K, i}, \sigma_ {f} ^ {F w d} (T _ {j})\right)
+= \sum_{j = 1}^{i} c a p l e t \left(T_{j}, \overline {{r}}_{K, i}, \sigma_{f}^{F w d} (T_{j})\right)
 $$
 
 (Implied by no arbitrage)
@@ -3390,7 +3390,7 @@ $$
 - Step 2: For the shortest maturity  $\left( {{T}_{1} = {0.5}}\right)$  ,the cap has only one caplet,and thus the forward and flat volatility must coincide. Thus:
 
 $$
-\sigma_ {f} (0.5) = \sigma_ {f} ^ {F w d} (0.5) = 21.156 \%
+\sigma_{f} (0.5) = \sigma_{f}^{F w d} (0.5) = 21.156 \%
 $$
 
 - Step 3: For each subsequent time  $i = 2, \ldots$ , we use the following three step procedure:
@@ -3399,13 +3399,13 @@ $$
 2. Obtain the dollar value of the remaining caplet  $T_{i}$  as the difference between the cap price for  $T_{i}$  (obtained in Step 1) and the sum of caplets up to  $T_{i-1}$
 
 $$
-\text {D o l l a r v a l u e o f} T _ {i} \text {c a p l e t} = C a p (T _ {i}) - \sum_ {j = 1} ^ {i - 1} C a p l e t \left(T _ {j}, r _ {K, i}, \sigma_ {f} ^ {F w d} (T _ {j})\right)
+\text{Do ll ar va lu eo f} T_{i} \text{ca pl et} = C a p (T_{i}) - \sum_{j = 1}^{i - 1} C a p l e t \left(T_{j}, r_{K, i}, \sigma_{f}^{F w d} (T_{j})\right)
 $$
 
 3. Find the (forward) volatility  $\sigma_f^{Fwd}(T_i)$  such that
 
 $$
-C a p l e t \left(T _ {i}, r _ {K, i}, \sigma_ {f} ^ {F w d} (T _ {i})\right) = D o l l a r v a l u e \text {o f} T _ {i} \text {c a p l e t}
+C a p l e t \left(T_{i}, r_{K, i}, \sigma_{f}^{F w d} (T_{i})\right) = D o l l a r v a l u e \text{of} T_{i} \text{ca pl et}
 $$
 
 # Example
@@ -3415,19 +3415,19 @@ $$
 1. Compute the  $T_{1}$  caplet using the forward volatility  $\sigma_{f}^{Fwd}(T_{1}) = 21.1564\%$  just computed. Using the Black formula, we obtain
 
 $$
-C a p l e t (T _ {1}, r _ {K, 2}, \sigma_ {f} ^ {F w d} (T _ {1})) = \$ 0. 0 2 7 3
+C a p l e t (T_{1}, r_{K, 2}, \sigma_{f}^{F w d} (T_{1})) = \$ 0. 0 2 7 3
 $$
 
 2. The dollar value of the  $T_{2}$  caplet is then
 
 $$
-\begin{array}{l} \text {D o l l a r v a l u e o f} T _ {2} \text {c a p l e t} = C a p \left(T _ {2}\right) - C a p l e t \left(T _ {1}, r _ {K, 2}, \sigma_ {f} ^ {F w d} \left(T _ {1}\right)\right) \\ = \$ 0. 1 0 5 9 - \$ 0. 0 2 7 3 = \$ 0. 0 7 8 6 \\ \end{array}
+\begin{array}{l} \text{Do ll ar va lu eo f} T_{2} \text{ca pl et} = C a p \left(T_{2}\right) - C a p l e t \left(T_{1}, r_{K, 2}, \sigma_{f}^{F w d} \left(T_{1}\right)\right) \\ = \$ 0. 1 0 5 9 - \$ 0. 0 2 7 3 = \$ 0. 0 7 8 6 \\ \end{array}
 $$
 
 3. Use the Black formula again to find the (forward) volatility  $\sigma_f^{Fwd}(T_2)$  such that
 
 $$
-\operatorname {Caplet}\left(T_{2},r_{K,2},\sigma_{f}^{Fwd}(T_{2})\right) = \\ \\ \mathrm{\Phi}\\ \Rightarrow \quad \sigma_{f}^{Fwd}(T_{2}) = 22.81\%
+\operatorname{Caplet}\left(T_{2},r_{K,2},\sigma_{f}^{Fwd}(T_{2})\right) = \\ \\ \mathrm{\Phi}\\ \Rightarrow \quad \sigma_{f}^{Fwd}(T_{2}) = 22.81\%
 $$
 
 # Example (cntd.)
@@ -3437,23 +3437,23 @@ $$
 1. Compute the  $T_{1}$  and  $T_{2}$  caplets using the forward volatilities  $\sigma_{f}^{Fwd}(T_{1}) = 21.1564\%$  and  $\sigma_{f}^{Fwd}(T_{2}) = 22.81\%$  just computed. Using the Black formula with the new strike rate  $r_{K,3} = 2.4420\%$ , we obtain
 
 $$
-C a p l e t (T _ {1}, r _ {K, 3}, \sigma_ {f} ^ {F w d} (T _ {1})) = \$ 0. 0 1 5 7
+C a p l e t (T_{1}, r_{K, 3}, \sigma_{f}^{F w d} (T_{1})) = \$ 0. 0 1 5 7
 $$
 
 $$
-C a p l e t (T _ {2}, r _ {K, 3}, \sigma_ {f} ^ {F w d} (T _ {2})) = \$ 0. 0 6 0 5
+C a p l e t (T_{2}, r_{K, 3}, \sigma_{f}^{F w d} (T_{2})) = \$ 0. 0 6 0 5
 $$
 
 2. The dollar value of the  $T_{3}$  caplet is then
 
 $$
-\begin{array}{l} \text {D o l l a r v a l u e o f} T _ {3} \text {c a p l e t} = C a p \left(T _ {3}\right) - \sum_ {j = 1} ^ {2} C a p l e t \left(T _ {j}, r _ {K, 3}, \sigma_ {f} ^ {F w d} \left(T _ {j}\right)\right) \\ = \$ 0. 1 8 5 9 - (\\$ 0. 0 1 5 7 + \$ 0. 0 6 0 5) = \$ 0. 1 0 9 6 \\ \end{array}
+\begin{array}{l} \text{Do ll ar va lu eo f} T_{3} \text{ca pl et} = C a p \left(T_{3}\right) - \sum_{j = 1}^{2} C a p l e t \left(T_{j}, r_{K, 3}, \sigma_{f}^{F w d} \left(T_{j}\right)\right) \\ = \$ 0. 1 8 5 9 - (\\$ 0. 0 1 5 7 + \$ 0. 0 6 0 5) = \$ 0. 1 0 9 6 \\ \end{array}
 $$
 
 3. Use the Black formula again to find the (forward) volatility  $\sigma_f^{Fwd}(T_3)$  such that
 
 $$
-\operatorname {Caplet}\left(T_{3},r_{K,3},\sigma_{f}^{Fwd}(T_{3})\right) = \\ \\ \S 0.1096\quad \Longrightarrow \quad \sigma_{f}^{Fwd}(T_{3}) = 25.54\%
+\operatorname{Caplet}\left(T_{3},r_{K,3},\sigma_{f}^{Fwd}(T_{3})\right) = \\ \\ \S 0.1096\quad \Longrightarrow \quad \sigma_{f}^{Fwd}(T_{3}) = 25.54\%
 $$
 
 - Figure 1 plots the forward and flat volatilities on November 1, 2004
@@ -3499,13 +3499,13 @@ Figure 4: Forward and Flat Volatilities
 - Clearly, a portfolio of a long caplet and short floorlet with equal strikes gives
 
 $$
-\max \left(r _ {n} (\tau , T) - r _ {K}, 0\right) - \max \left(r _ {K} - r _ {n} (\tau , T), 0\right) = r _ {n} (\tau , T) - r _ {K}
+\max \left(r_{n} (\tau , T) - r_{K}, 0\right) - \max \left(r_{K} - r_{n} (\tau , T), 0\right) = r_{n} (\tau , T) - r_{K}
 $$
 
 - But this is the payoff to a swap. Hence, we have
 
 $$
-\mathrm {c a p} = \mathrm {f l o o r} + \mathrm {s w a p}
+\mathrm{ca p} = \mathrm{fl oo r} + \mathrm{sw ap}
 $$
 
 # Swaptions
@@ -3525,13 +3525,13 @@ Source: Bloomberg.
 - A swap, recall, is a contract between two parties to exchange at times  $T_{1},..,T_{n}$  the net cash flows
 
 $$
-C F (T _ {i + 1}) = \Delta \times N \times (r _ {K} - r _ {n} (T _ {i}, T _ {i + 1}))
+C F (T_{i + 1}) = \Delta \times N \times (r_{K} - r_{n} (T_{i}, T_{i + 1}))
 $$
 
 - On each of the reset dates dates, the value of the swap is
 
 $$
-V \left(T _ {i}, r _ {K}\right) = P \left(T _ {i}, T; r _ {K}\right) - 1 0 0
+V \left(T_{i}, r_{K}\right) = P \left(T_{i}, T; r_{K}\right) - 1 0 0
 $$
 
 - where  $P\left(T_{i}, T; r_{K}\right)$  is the price of a coupon bond with  $r_{K}$  as coupon rate and maturity  $T$ .  
@@ -3545,13 +3545,13 @@ $$
 - We now show that the payoff of a receiver swaption is positive if and only if the market swap rate is below the strike swap rate:
 
 $$
-V \left(T _ {i ^ {*}}, r _ {K}\right) > 0 \Longleftrightarrow c \left(T _ {i ^ {*}}, T\right) <   r _ {K}
+V \left(T_{i^{*}}, r_{K}\right) > 0 \Longleftrightarrow c \left(T_{i^{*}}, T\right) <   r_{K}
 $$
 
 - The payoff from the Swaption can be written as
 
 $$
-\begin{array}{l} \text {P a y o f f} = V \left(T _ {i ^ {*}}, r _ {K}\right) - 0 \\ = V \left(T _ {i ^ {*}}, r _ {K}\right) - V \left(T _ {i ^ {*}}, c \left(T _ {i ^ {*}}, T\right)\right) \\ = \left[ P \left(T _ {i ^ {*}}, T; r _ {K}\right) - 1 0 0 \right] - \left[ P \left(T _ {i ^ {*}}, T; c \left(T _ {i ^ {*}}, T\right)\right) - 1 0 0 \right] \\ = P \left(T _ {i ^ {*}}, T; r _ {K}\right) - P \left(T _ {i ^ {*}}, T; c \left(T _ {i ^ {*}}, T\right)\right) \\ = \sum_ {j = i ^ {*} + 1} ^ {n} Z (T _ {i ^ {*}}, T _ {j}) r _ {K} \Delta N + Z (T _ {i ^ {*}}, T _ {n}) \times 1 \\ - \sum_ {j = i ^ {*} + 1} ^ {n} Z (T _ {i ^ {*}}, T _ {j}) c (T _ {i ^ {*}}, T) \Delta N - Z (T _ {i ^ {*}}, T _ {n}) \times 1 \\ = \sum_ {j = i ^ {*} + 1} ^ {n} Z (T _ {i ^ {*}}, T _ {j}) \Delta N (r _ {K} - c (T _ {i ^ {*}}, T)) \\ \end{array}
+\begin{array}{l} \text{Pa yo ff} = V \left(T_{i^{*}}, r_{K}\right) - 0 \\ = V \left(T_{i^{*}}, r_{K}\right) - V \left(T_{i^{*}}, c \left(T_{i^{*}}, T\right)\right) \\ = \left[ P \left(T_{i^{*}}, T; r_{K}\right) - 1 0 0 \right] - \left[ P \left(T_{i^{*}}, T; c \left(T_{i^{*}}, T\right)\right) - 1 0 0 \right] \\ = P \left(T_{i^{*}}, T; r_{K}\right) - P \left(T_{i^{*}}, T; c \left(T_{i^{*}}, T\right)\right) \\ = \sum_{j = i^{*} + 1}^{n} Z (T_{i^{*}}, T_{j}) r_{K} \Delta N + Z (T_{i^{*}}, T_{n}) \times 1 \\ - \sum_{j = i^{*} + 1}^{n} Z (T_{i^{*}}, T_{j}) c (T_{i^{*}}, T) \Delta N - Z (T_{i^{*}}, T_{n}) \times 1 \\ = \sum_{j = i^{*} + 1}^{n} Z (T_{i^{*}}, T_{j}) \Delta N (r_{K} - c (T_{i^{*}}, T)) \\ \end{array}
 $$
 
 - The value of a swap at time  $T_{O}$  is positive if and only if  $(r_{K} - c(T_{i^{*}}, T))$
@@ -3561,13 +3561,13 @@ $$
 - Clearly, the option buyer exercises the option if and only if the payoff is positive, so the receiver swaption payoff at  $T_{i^*}$  is
 
 $$
-\mathrm {P a y o f f o f R e c e i v e r S w a p t i o n} = \sum_ {j = i ^ {*} + 1} ^ {n} Z (T _ {i ^ {*}}, T _ {j}) \Delta N \max (r _ {K} - c (T _ {i ^ {*}}, T), 0)
+\mathrm{Pa yo ff of Re ce iv er Sw ap ti on} = \sum_{j = i^{*} + 1}^{n} Z (T_{i^{*}}, T_{j}) \Delta N \max (r_{K} - c (T_{i^{*}}, T), 0)
 $$
 
 - The payoff to the swap is equivalent to the cash flow
 
 $$
-\Delta N \max (r _ {K} - c (T _ {i ^ {*}}, T), 0)
+\Delta N \max (r_{K} - c (T_{i^{*}}, T), 0)
 $$
 
 determined at  $T_{i}^{*}$ , paid out at times  $T_{i^{*} + 1}, T_{i^{*} + 2}, \ldots, T_{n}$ , and thus discounted to  $T_{i^{*}}$  through the terms  $\sum_{j = i^{*} + 1}^{n} Z\left(T_{i^{*}}, T_{j}\right)$ .
@@ -3576,7 +3576,7 @@ determined at  $T_{i}^{*}$ , paid out at times  $T_{i^{*} + 1}, T_{i^{*} + 2}, \
 - Similar, the payer swaption payoff at  $T_{i^{*}}$  is
 
 $$
-\mathrm {P a y o f f o f P a y e r S w a p t i o n} = \sum_ {j = i ^ {*} + 1} ^ {n} Z (T _ {i ^ {*}}, T _ {j}) \Delta N \max (c (T _ {i ^ {*}}, T) - r _ {K}, 0)
+\mathrm{Pa yo ff of Pa ye rS wa pt io n} = \sum_{j = i^{*} + 1}^{n} Z (T_{i^{*}}, T_{j}) \Delta N \max (c (T_{i^{*}}, T) - r_{K}, 0)
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-20/ff34cd1a-cf8f-48ef-82fe-87b50e3bff05/fe60f1fc4667e2d31a4a010a93b20f6f1b5cbe88b0b2f43c70507be4aad111e0.jpg)  
@@ -3588,24 +3588,24 @@ Payoff of Receiver Swaption
 - Like for caps and floors, the Black's formula assumes that under the proper risk-adjusted probabilities, the swap rate  $c(T_{i^*}, T)$  is log-normally distributed
 
 $$
-\log c (T _ {i ^ {*}}, T) \sim \mathcal {N} (\mu , \sigma_ {T _ {i ^ {*}}} ^ {2} T _ {i ^ {*}})
+\log c (T_{i^{*}}, T) \sim \mathcal {N} (\mu , \sigma_{T_{i^{*}}}^{2} T_{i^{*}})
 $$
 
 - where  $\sigma_{T_{i^*}}$  is the swap rate volatility, which is what is quoted by market participants.  
 - Thus, the (risk adjusted) expected value of a payer and receiver cash flows at  $T_{i^{*} + j}$  are, respectively,
 
 $$
-{E ^ {*} \left[ P V \left[ \max (c (T _ {i ^ {*}}, T) - r _ {K}, 0) \right] \right]} = {Z (0, T _ {i ^ {*} + j}) \left[ f _ {n} ^ {s} (0, T _ {i ^ {*}}, T) \mathcal {N} (d _ {1}) - r _ {K} \mathcal {N} (d _ {2}) \right]}
+{E^{*} \left[ P V \left[ \max (c (T_{i^{*}}, T) - r_{K}, 0) \right] \right]} = {Z (0, T_{i^{*} + j}) \left[ f_{n}^{s} (0, T_{i^{*}}, T) \mathcal {N} (d_{1}) - r_{K} \mathcal {N} (d_{2}) \right]}
 $$
 
 $$
-{E ^ {*} \left[ P V \left[ \max (r _ {K} - c (T _ {i ^ {*}}, T), 0) \right] \right]} = {Z (0, T _ {i ^ {*} + j}) \left[ - f _ {n} ^ {s} (0, T _ {i ^ {*}}, T) \mathcal {N} (- d _ {1}) + r _ {K} \mathcal {N} (- d _ {2}) \right]}
+{E^{*} \left[ P V \left[ \max (r_{K} - c (T_{i^{*}}, T), 0) \right] \right]} = {Z (0, T_{i^{*} + j}) \left[ - f_{n}^{s} (0, T_{i^{*}}, T) \mathcal {N} (- d_{1}) + r_{K} \mathcal {N} (- d_{2}) \right]}
 $$
 
 - where  $f_{n}^{s}(0, T_{i^{*}}, T)$  is the forward swap rate. and
 
 $$
-d _ {1} = \frac {\ln \left(f _ {n} ^ {s} (0 , T _ {i ^ {*}} , T) / r _ {K}\right) + \sigma_ {T _ {i ^ {*}}} ^ {2} T _ {i ^ {*}} / 2}{\sigma_ {T _ {i ^ {*}}} \sqrt {T _ {i ^ {*}}}}; d _ {2} = d _ {1} - \sigma_ {T _ {i ^ {*}}} \sqrt {T _ {i ^ {*}}}
+d_{1} = \frac{\ln \left(f_{n}^{s} (0 , T_{i^{*}} , T) / r_{K}\right) + \sigma_{T_{i^{*}}}^{2} T_{i^{*}} / 2}{\sigma_{T_{i^{*}}} \sqrt{T_{i^{*}}}}; d_{2} = d_{1} - \sigma_{T_{i^{*}}} \sqrt{T_{i^{*}}}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-20/ff34cd1a-cf8f-48ef-82fe-87b50e3bff05/1aa7d6188daab94739eb568c8d79ec1109f4fed721c4c6a59633dafb9678b3d3.jpg)  
@@ -3616,19 +3616,19 @@ Quoted Swaption Implied Volatility Surface
 Hence, the value of a payer swaption
 
 $$
-\begin{array}{l} \mathrm {P a y e r S w a p t i o n} = \sum_ {j = i ^ {*} + 1} ^ {n} \Delta \times N \times Z (0, T _ {j}) [ f _ {n} ^ {s} (0, T _ {i ^ {*}}, T) \mathcal {N} (d _ {1}) - r _ {K} \mathcal {N} (d _ {2}) ] \\ = A N [ f _ {n} ^ {s} (0, T _ {i ^ {*}}, T) \mathcal {N} (d _ {1}) - r _ {K} \mathcal {N} (d _ {2}) ] \\ \end{array}
+\begin{array}{l} \mathrm{Pa ye rS wa pt io n} = \sum_{j = i^{*} + 1}^{n} \Delta \times N \times Z (0, T_{j}) [ f_{n}^{s} (0, T_{i^{*}}, T) \mathcal {N} (d_{1}) - r_{K} \mathcal {N} (d_{2}) ] \\ = A N [ f_{n}^{s} (0, T_{i^{*}}, T) \mathcal {N} (d_{1}) - r_{K} \mathcal {N} (d_{2}) ] \\ \end{array}
 $$
 
 where
 
 $$
-A = \sum_ {j = i ^ {*} + 1} ^ {n} \Delta \times Z (0, T _ {j})
+A = \sum_{j = i^{*} + 1}^{n} \Delta \times Z (0, T_{j})
 $$
 
 - Similarly, the value of a receiver swaption is
 
 $$
-\mathrm {R e c e i v e r S w a p t i o n} = A N \left[ - f _ {n} ^ {s} (0, T _ {i ^ {*}}, T) \mathcal {N} (- d _ {1}) + r _ {K} \mathcal {N} (- d _ {2}) \right]
+\mathrm{Re ce iv er Sw ap ti on} = A N \left[ - f_{n}^{s} (0, T_{i^{*}}, T) \mathcal {N} (- d_{1}) + r_{K} \mathcal {N} (- d_{2}) \right]
 $$
 
 # How do we compute the Forward Swap Rate?
@@ -3636,13 +3636,13 @@ $$
 - This is implicit in the forward discount curve
 
 $$
-F \left(0, T _ {i ^ {*}}, T\right) = \frac {Z \left(0 , T\right)}{Z \left(0 , T _ {i ^ {*}}\right)}
+F \left(0, T_{i^{*}}, T\right) = \frac{Z \left(0 , T\right)}{Z \left(0 , T_{i^{*}}\right)}
 $$
 
 - Using that just as a discount function and following the same steps as for regular swap rate, we can compute the Forward Swap Rate  $f_{n}^{s}(0,T_{i^{*}},T)$ , for a swap starting at time  $T_{i^{*}}$  and lasting until time  $T_{n}$ , as
 
 $$
-f _ {n} ^ {s} (0, T _ {i ^ {*}}, T) = \frac {1}{\Delta} \frac {1 - F (0 , T _ {i ^ {*}} , T _ {n})}{\Sigma_ {j = i ^ {*} + 1} ^ {n} F (0 , T _ {i ^ {*}} , T _ {i})}
+f_{n}^{s} (0, T_{i^{*}}, T) = \frac{1}{\Delta} \frac{1 - F (0 , T_{i^{*}} , T_{n})}{\Sigma_{j = i^{*} + 1}^{n} F (0 , T_{i^{*}} , T_{i})}
 $$
 
 # Example:
@@ -3654,19 +3654,19 @@ $$
 We then obtain
 
 $$
-A = \Delta \times \sum_ {i = 1} ^ {n} Z (0, T _ {i}) = 4. 4 0 4 6
+A = \Delta \times \sum_{i = 1}^{n} Z (0, T_{i}) = 4. 4 0 4 6
 $$
 
 - The forward swap rate can be computed from the forward discounts using the previous formula  $f_{4}^{s}(0, T_{O}, T_{S}) = 4.261\%$
 
 $$
-d _ {1} = \frac {l n (4 . 2 6 1 \% / 3 . 7 5 1 \%) + 0 . 2 7 4 0 4 ^ {2} \times 1 / 2}{0 . 2 7 4 0 4 \times \sqrt {1}} = 0. 6 0 2 3, d _ {2} = 0. 6 0 2 3 - 0. 2 7 4 0 4 \times \sqrt {1} = 0. 3 2 8 2
+d_{1} = \frac{l n (4 . 2 6 1 \% / 3 . 7 5 1 \%) + 0 . 2 7 4 0 4^{2} \times 1 / 2}{0 . 2 7 4 0 4 \times \sqrt{1}} = 0. 6 0 2 3, d_{2} = 0. 6 0 2 3 - 0. 2 7 4 0 4 \times \sqrt{1} = 0. 3 2 8 2
 $$
 
 - The Black's formula then gives for a receiver swaption with  $N = 100$ :
 
 $$
-\begin{array}{l} \mathrm {S w a p t i o n} = \sum_ {j = i ^ {*} + 1} ^ {n} \Delta \times N \times Z (0, T _ {j}) [ - f _ {n} ^ {s} (0, T _ {i ^ {*}}, T) \mathcal {N} (- d _ {1}) + r _ {K} \mathcal {N} (- d _ {2}) ] \\ = \$ 1. 0 0 2 6 \\ \end{array}
+\begin{array}{l} \mathrm{Sw ap ti on} = \sum_{j = i^{*} + 1}^{n} \Delta \times N \times Z (0, T_{j}) [ - f_{n}^{s} (0, T_{i^{*}}, T) \mathcal {N} (- d_{1}) + r_{K} \mathcal {N} (- d_{2}) ] \\ = \$ 1. 0 0 2 6 \\ \end{array}
 $$
 
 Table 4: LIBOR Discount and Forward Discount  
@@ -3697,7 +3697,7 @@ Booth School of Business
 - That is, if the log return during a small time interval  $h$  be  $R_{t} = \log (S_{t + h} / S_{t})$ , assume
 
 $$
-E [ R _ {t} ] = \mu \times h; E [ R _ {t} ^ {2} ] = \sigma^ {2} \times h
+E [ R_{t} ] = \mu \times h; E [ R_{t}^{2} ] = \sigma^{2} \times h
 $$
 
 - $(\mu$  and  $\sigma$  are the annualized expected log return and volatility)
@@ -3713,7 +3713,7 @@ $$
 - Here  $N(x)$  is the standard normal cumulative density function, and  $d_{1,t}$  is
 
 $$
-d _ {1, t} = \frac {\ln {(S _ {t} / K)} + (r + \sigma^ {2} / 2) (T - t)}{\sigma \sqrt {T - t}}
+d_{1, t} = \frac{\ln {(S_{t} / K)} + (r + \sigma^{2} / 2) (T - t)}{\sigma \sqrt{T - t}}
 $$
 
 - $r$  is the continuously compounded risk free rate;  $\sigma$  is the volatility of stock returns.
@@ -3725,7 +3725,7 @@ Here  $d_{2,0} = d_{1,t} - \sigma \times \sqrt{T}$
 - The portfolio so constructed has value at time 0
 
 $$
-P _ {0} = B _ {0} + \Delta_ {0} S _ {0}
+P_{0} = B_{0} + \Delta_{0} S_{0}
 $$
 
 - (it can be shown  $P_{0} > 0$ ).
@@ -3740,7 +3740,7 @@ $$
 - For instance, let  $S = K = 100$ ,  $T = 1$ ,  $r = 5\%$ ,  $\sigma = 20\%$ . Then,
 
 $$
-d _ {1} = . 3 5; d _ {2} = . 1 5; N (- d _ {1}) = 0. 3 6 3 2; N (- d _ {2}) = 0. 4 4 0 4 \Longrightarrow \Delta_ {0} = - N (- d _ {1}) = - 0. 3 6 3 2
+d_{1} = . 3 5; d_{2} = . 1 5; N (- d_{1}) = 0. 3 6 3 2; N (- d_{2}) = 0. 4 4 0 4 \Longrightarrow \Delta_{0} = - N (- d_{1}) = - 0. 3 6 3 2
 $$
 
 - Initial short position in stocks:  $\Delta \times 100 = -N(d_{1}) \times 100 = -0.3632 \times 100 = -\$36.32$ .  
@@ -3760,7 +3760,7 @@ New Portfolio Position = \(P_{h} = B_{h} + \Delta_{h}\times S_{h} = \\)43.777 - 
 - That is, at maturity
 
 $$
-P _ {T} = \Delta_ {T} S _ {T} + B _ {T} = \max (K - S _ {T}, 0)
+P_{T} = \Delta_{T} S_{T} + B_{T} = \max (K - S_{T}, 0)
 $$
 
 - Proof by simulation: Next two figures show that the strategy works, even when portfolio rebalancing is at daily interval  $(h = 1 / 252)$ .
@@ -3798,14 +3798,14 @@ Replicating Portfolio and Black and Scholes Price
 - In particular, at time 0, the value of the option must be
 
 $$
-\begin{array}{l} \mathrm {P u t P r e m i u m a t 0 ,} p _ {0} = P _ {0} = B _ {0} + \Delta_ {0} \times S _ {0} \\ = K \times e ^ {- r T} \times N (- d _ {2, 0}) - S _ {0} \times N (- d _ {1, 0}) \\ \end{array}
+\begin{array}{l} \mathrm{Pu tP re mi um at 0 ,} p_{0} = P_{0} = B_{0} + \Delta_{0} \times S_{0} \\ = K \times e^{- r T} \times N (- d_{2, 0}) - S_{0} \times N (- d_{1, 0}) \\ \end{array}
 $$
 
 - This is the celebrated "Black and Scholes" formula for option pricing.
 - Similarly, a call option formula is given by
 
 $$
-\mathrm {C a l l P r e m i u m a t 0 ,} c _ {0} = S _ {0} \times N (d _ {1, 0}) - K \times e ^ {- r T} \times N (d _ {2, 0})
+\mathrm{Ca ll Pr em iu ma t0 ,} c_{0} = S_{0} \times N (d_{1, 0}) - K \times e^{- r T} \times N (d_{2, 0})
 $$
 
 # Delta Hedging and Dynamic Replication
@@ -3821,13 +3821,13 @@ $$
 - What is the sensitivity of  $\Pi$  to small variations in stocks?
 
 $$
-\frac {d \Pi}{d S} = - \frac {d p}{d S} + \Delta \times 1 + 0
+\frac{d \Pi}{d S} = - \frac{d p}{d S} + \Delta \times 1 + 0
 $$
 
 - The portfolio  $\Pi$  is delta hedged ( $d\ \Pi / d\ S = 0$ ) if
 
 $$
-\Delta = \frac {d p}{d S}
+\Delta = \frac{d p}{d S}
 $$
 
 - It can be shown that indeed  $\Delta = -N(-d_{1})$  is exactly  $d p / d S$
@@ -3847,30 +3847,30 @@ $$
 - We then have
 
 $$
-d _ {1} = \frac {\log \left(\frac {S}{K}\right) + (r - \delta + \sigma^ {2} / 2) T}{\sigma \sqrt {T}} = \frac {\log \left(\frac {1 0 0}{1 0 0}\right) + (. 0 5 + (0 . 3 0) ^ {2} / 2) \times 1}{0 . 3 0 \sqrt {1}} = 0. 3 1 6 7;
+d_{1} = \frac{\log \left(\frac{S}{K}\right) + (r - \delta + \sigma^{2} / 2) T}{\sigma \sqrt{T}} = \frac{\log \left(\frac{1 0 0}{1 0 0}\right) + (. 0 5 + (0 . 3 0)^{2} / 2) \times 1}{0 . 3 0 \sqrt{1}} = 0. 3 1 6 7;
 $$
 
 $$
-d _ {2} = d _ {1} - \sigma \sqrt {T} = 0. 3 1 6 7 -. 3 \sqrt {1} = 0. 0 1 6 7
+d_{2} = d_{1} - \sigma \sqrt{T} = 0. 3 1 6 7 -. 3 \sqrt{1} = 0. 0 1 6 7
 $$
 
 - Therefore  $N(d_{1}) = 0.62425$  and  $N(d_{2}) = 0.50665$ .  
 - The value of the call option is
 
 $$
-c _ {0} = S N (d _ {1}) - K e ^ {- r T} N (d _ {2}) = 1 0 0 \times 0. 6 2 4 2 5 - 1 0 0 \times e ^ {. 0 5 \times 1} \times 0. 5 0 6 6 5 = 1 4. 2 3 1 2
+c_{0} = S N (d_{1}) - K e^{- r T} N (d_{2}) = 1 0 0 \times 0. 6 2 4 2 5 - 1 0 0 \times e^{. 0 5 \times 1} \times 0. 5 0 6 6 5 = 1 4. 2 3 1 2
 $$
 
 - The value of a put option can be computed from these data by recalling that
 
 $$
-N (- d _ {1}) = 1 - N (d _ {1}) = 0. 3 7 5 7 5; \quad N (- d _ {2}) = 1 - N (d _ {2}) = 0. 4 9 3 3 5
+N (- d_{1}) = 1 - N (d_{1}) = 0. 3 7 5 7 5; \quad N (- d_{2}) = 1 - N (d_{2}) = 0. 4 9 3 3 5
 $$
 
 so that
 
 $$
-p _ {0} = - S N (- d _ {1}) + K e ^ {- r T} N (- d _ {2}) = - 1 0 0 \times 0. 3 7 5 7 5 + 1 0 0 \times e ^ {. 0 5 \times 1} \times 0. 4 9 3 3 5 = 9. 3 5 4 2
+p_{0} = - S N (- d_{1}) + K e^{- r T} N (- d_{2}) = - 1 0 0 \times 0. 3 7 5 7 5 + 1 0 0 \times e^{. 0 5 \times 1} \times 0. 4 9 3 3 5 = 9. 3 5 4 2
 $$
 
 # The Binomial Tree and Black and Scholes Formula
@@ -3893,15 +3893,15 @@ i = 1
 $$
 
 $$
-\begin{array}{l} {S _ {0}} \\ {c _ {0} = e ^ {- r \times T} E ^ {*} [ \max (S _ {1} - K, 0) ]} \end{array}
+\begin{array}{l} {S_{0}} \\ {c_{0} = e^{- r \times T} E^{*} [ \max (S_{1} - K, 0) ]} \end{array}
 $$
 
 $$
-\begin{array}{l} {S _ {1, u} = S _ {0} \times u} \\ {c _ {1, u} = \max (S _ {1} - K, 0) = S _ {1} - K} \end{array}
+\begin{array}{l} {S_{1, u} = S_{0} \times u} \\ {c_{1, u} = \max (S_{1} - K, 0) = S_{1} - K} \end{array}
 $$
 
 $$
-\begin{array}{l} {S _ {1, d} = S _ {0} \times d} \\ {c _ {1, d} = \max (S _ {1} - K, 0) = 0} \end{array}
+\begin{array}{l} {S_{1, d} = S_{0} \times d} \\ {c_{1, d} = \max (S_{1} - K, 0) = 0} \end{array}
 $$
 
 - Consider  $i = 0$  and  $i = 1$  with  $S_{1,u} = S_0 \times u$  and  $S_{1,d} = S_0 \times d$ .  
@@ -3913,25 +3913,25 @@ $$
 - The price of the option at time 0 according to risk neutral pricing is the
 
 $$
-\begin{array}{l} c _ {0} = e ^ {- r \times T} E ^ {*} [ \max (S _ {1} - K, 0) ] \\ = e ^ {- r \times T} \times [ q ^ {*} \times \max (S _ {1, u} - K, 0) + (1 - q ^ {*}) \times \max (S _ {1, d} - K, 0) ] \\ = e ^ {- r \times T} \times q ^ {*} \times (S _ {1, u} - K) \\ = S _ {0} \times e ^ {- r \times T} \times q ^ {*} \times u - e ^ {- r \times T} \times K \times q ^ {*} \\ = S _ {0} \times N _ {1} - e ^ {- r \times T} \times K \times N _ {2} \\ \end{array}
+\begin{array}{l} c_{0} = e^{- r \times T} E^{*} [ \max (S_{1} - K, 0) ] \\ = e^{- r \times T} \times [ q^{*} \times \max (S_{1, u} - K, 0) + (1 - q^{*}) \times \max (S_{1, d} - K, 0) ] \\ = e^{- r \times T} \times q^{*} \times (S_{1, u} - K) \\ = S_{0} \times e^{- r \times T} \times q^{*} \times u - e^{- r \times T} \times K \times q^{*} \\ = S_{0} \times N_{1} - e^{- r \times T} \times K \times N_{2} \\ \end{array}
 $$
 
 - where, defining by  $u_{cc}$  the annualized c.c. return from an up movement  $S_{1,u} / S_0 = e^{u_{cc}\times T} = u$
 
 $$
-N _ {1} = e ^ {- r \times T} \times q ^ {*} \times u = e ^ {(u _ {c c} - r) \times T} \times q ^ {*} \quad \mathrm {a n d} \quad N _ {2} = q ^ {*}
+N_{1} = e^{- r \times T} \times q^{*} \times u = e^{(u_{c c} - r) \times T} \times q^{*} \quad \mathrm{an d} \quad N_{2} = q^{*}
 $$
 
 - The similarity with Black and Scholes formula is not coincidental
 
 $$
-\mathrm {C a l l} = S \times N (d _ {1}) - K \times e ^ {- r T} \times N (d _ {2})
+\mathrm{Ca ll} = S \times N (d_{1}) - K \times e^{- r T} \times N (d_{2})
 $$
 
 - Interpretation:
 
 $$
-\begin{array}{l} - N _ {2} = N (d _ {2}) \mathrm {r i s k n e u t r a l p r o b a b i l i t y t o b e i n t h e m o n e y a t m a t u r i t y}; \\ - N _ {1} = N (d _ {1}) \mathrm {r i s k n e u t r a l e x p e c t e d e x c e s s r e t u r n c o n d i t i o n a l o n e x e r c i s e a t} T. \\ \end{array}
+\begin{array}{l} - N_{2} = N (d_{2}) \mathrm{ri sk ne ut ra lp ro ba bi li ty to be in th em on ey at ma tu ri ty}; \\ - N_{1} = N (d_{1}) \mathrm{ri sk ne ut ra le xp ec te de xc es sr et ur nc on di ti on al on ex er ci se at} T. \\ \end{array}
 $$
 
 # The Binomial Tree and Black and Scholes Formula
@@ -3939,7 +3939,7 @@ $$
 - For a large number of binomial steps,  $n$  for a fixed maturity:
 
 $$
-\begin{array}{l} c _ {0} = e ^ {- r T} E ^ {*} [ \max (S _ {T} - K, 0) ] \\ = e ^ {- r \times T} \sum_ {j = 0} ^ {n} \left(\frac {n !}{j ! (n - j) !}\right) \max (S _ {T, j} - K, 0) \\ \end{array}
+\begin{array}{l} c_{0} = e^{- r T} E^{*} [ \max (S_{T} - K, 0) ] \\ = e^{- r \times T} \sum_{j = 0}^{n} \left(\frac{n !}{j ! (n - j) !}\right) \max (S_{T, j} - K, 0) \\ \end{array}
 $$
 
 where  $S_{T,j} = S_0\times u^{(n - j)}\times d^j$  
@@ -3948,11 +3948,11 @@ where  $S_{T,j} = S_0\times u^{(n - j)}\times d^j$
 - Putting all together:
 
 $$
-\begin{array}{l} c _ {0} = e ^ {- r \times T} \sum_ {j = a} ^ {n} \left(\frac {n !}{j ! (n - j) !}\right) (S _ {T, j} - K) \\ = S _ {0} \times N _ {1} - K \times e ^ {- r \times T} \times N _ {2} \\ \end{array}
+\begin{array}{l} c_{0} = e^{- r \times T} \sum_{j = a}^{n} \left(\frac{n !}{j ! (n - j) !}\right) (S_{T, j} - K) \\ = S_{0} \times N_{1} - K \times e^{- r \times T} \times N_{2} \\ \end{array}
 $$
 
 $$
-\mathrm {w i t h} N _ {1} = \left(e ^ {- r \times T} \sum_ {j = a} ^ {n} \left(\frac {n !}{j ! (n - j) !}\right) \times u ^ {(n - j)} \times d ^ {j}\right) \quad \mathrm {a n d} N _ {2} = \sum_ {j = a} ^ {n} \left(\frac {n !}{j ! (n - j) !}\right)
+\mathrm{wi th} N_{1} = \left(e^{- r \times T} \sum_{j = a}^{n} \left(\frac{n !}{j ! (n - j) !}\right) \times u^{(n - j)} \times d^{j}\right) \quad \mathrm{an d} N_{2} = \sum_{j = a}^{n} \left(\frac{n !}{j ! (n - j) !}\right)
 $$
 
 - It can be shown that  $N_{1} \to N(d_{1})$  and  $N_{2} \to N(d_{2})$  as  $n \to \infty$  
@@ -3980,11 +3980,11 @@ $$
 $$
 
 $$
-r _ {2, u u} = 0. 0 5 5 7
+r_{2, u u} = 0. 0 5 5 7
 $$
 
 $$
-\begin{array}{l} r _ {0} = 0. 0 1 6 8 \\ r _ {1, u} = 0. 0 3 8 7 \\ \begin{array}{c} r _ {2, u d} \\ r _ {2, d u} \end{array} = 0. 0 2 7 9 \\ r _ {1, d} = 0. 0 0 7 4 \\ r _ {2, d d} = 0. 0 0 0 1 \\ \end{array}
+\begin{array}{l} r_{0} = 0. 0 1 6 8 \\ r_{1, u} = 0. 0 3 8 7 \\ \begin{array}{c} r_{2, u d} \\ r_{2, d u} \end{array} = 0. 0 2 7 9 \\ r_{1, d} = 0. 0 0 7 4 \\ r_{2, d d} = 0. 0 0 0 1 \\ \end{array}
 $$
 
 # Binomial Trees
@@ -3992,11 +3992,11 @@ $$
 - The expected rate in six and twelve months are
 
 $$
-E \left[ r _ {1} \right] = \frac {1}{2} r _ {1, u} + \frac {1}{2} r _ {1, d} = 0. 0 2 3 0 5
+E \left[ r_{1} \right] = \frac{1}{2} r_{1, u} + \frac{1}{2} r_{1, d} = 0. 0 2 3 0 5
 $$
 
 $$
-E \left[ r _ {2} \right] = \frac {1}{4} r _ {2, u u} + \frac {1}{2} r _ {2, u d} + \frac {1}{4} r _ {2, d d} = . 0 2 7 9
+E \left[ r_{2} \right] = \frac{1}{4} r_{2, u u} + \frac{1}{2} r_{2, u d} + \frac{1}{4} r_{2, d d} = . 0 2 7 9
 $$
 
 - Note:  $r_t$  here is the continuously compounded, one period interest rate.
@@ -4004,18 +4004,18 @@ $$
 Let
 
 $$
-Z _ {i, j} (k)
+Z_{i, j} (k)
 $$
 
 - be the value of a zero coupon bond at index time  $i$  (e.g.  $i = 1$ ), at node  $j$  (e.g.  $j = u, d \ldots$ ) and with maturity at index  $k$  (e.g.  $k = 2$ ).  
 - For instance
 
 $$
-Z _ {0} (1) = \text {Z e r o a t t i m e 0 t h a t m a t u r e s a t t i m e 1}
+Z_{0} (1) = \text{Ze ro at ti me 0t ha tm at ur es at ti me 1}
 $$
 
 $$
-Z _ {1, u} (2) = \text {Z e r o a t t i m e 1 i n n o d e u p t h a t m a t u r e s a t t i m e 2}
+Z_{1, u} (2) = \text{Ze ro at ti me 1i nn od eu pt ha tm at ur es at ti me 2}
 $$
 
 # Relative Pricing on Trees
@@ -4025,7 +4025,7 @@ Example: Bond and Option
 - Suppose that by using any of the methodologies in TN 1 we obtained the following discounts:
 
 $$
-Z _ {0} (1) = 0. 9 9 1 6, Z _ {0} (2) = 0. 9 7 8 1, Z _ {0} (3) = 0. 9 6 1 5
+Z_{0} (1) = 0. 9 9 1 6, Z_{0} (2) = 0. 9 7 8 1, Z_{0} (3) = 0. 9 6 1 5
 $$
 
 - Let  $C_0$  be a call option on a six-month zero-coupon bond with maturity  $i = 1$  and strike price  $K$ .
@@ -4033,7 +4033,7 @@ $$
 - The payoff to the buyer of the option is
 
 $$
-C _ {1} = \max \left(Z _ {1} (2) - K, 0\right)
+C_{1} = \max \left(Z_{1} (2) - K, 0\right)
 $$
 
 - At time  $i = 1$ , we know  $Z_{1}(2)$  under the two scenarios that the yield went up or down.  
@@ -4048,27 +4048,27 @@ i = 1
 $$
 
 $$
-Z _ {1, u} (2) = e ^ {- r _ {1 u} \times 0. 5} = 0. 9 8 0 8
+Z_{1, u} (2) = e^{- r_{1 u} \times 0. 5} = 0. 9 8 0 8
 $$
 
 $$
-C _ {1, u} = \max  (0. 9 8 0 8 - K, 0) = 0
+C_{1, u} = \max  (0. 9 8 0 8 - K, 0) = 0
 $$
 
 $$
-Z _ {0} (2) = 0. 9 7 8 1
+Z_{0} (2) = 0. 9 7 8 1
 $$
 
 $$
-C _ {0} =??
+C_{0} =??
 $$
 
 $$
-Z _ {1, d} (2) = e ^ {- r _ {1, d} \times 0. 5} = 0. 9 9 6 3
+Z_{1, d} (2) = e^{- r_{1, d} \times 0. 5} = 0. 9 9 6 3
 $$
 
 $$
-C _ {1, d} = \max  (0. 9 9 6 3 - K, 0) = . 0 0 6 3 0 7
+C_{1, d} = \max  (0. 9 9 6 3 - K, 0) = . 0 0 6 3 0 7
 $$
 
 - We now consider a hedging strategy that allows us to evaluate options on the tree.
@@ -4078,7 +4078,7 @@ $$
 - Consider a portfolio at time  $i = 0$  that is long the option and short  $\Delta$  units of the 2-period zero coupon bonds - Its value at time  $j = 0$  is
 
 $$
-\Pi_ {0} = C _ {0} - \Delta \times Z _ {0} (2)
+\Pi_{0} = C_{0} - \Delta \times Z_{0} (2)
 $$
 
 - What is its value at time  $j = 1$ ?
@@ -4098,13 +4098,13 @@ Choose  $\Delta$  to make  $\Pi_{1,u} = \Pi_{1,d}$
 - Imposing equality
 
 $$
-C _ {1, u} - \Delta Z _ {1, u} (2) = C _ {1, d} - \Delta Z _ {1, d} (2)
+C_{1, u} - \Delta Z_{1, u} (2) = C_{1, d} - \Delta Z_{1, d} (2)
 $$
 
 - yields
 
 $$
-\Delta = \frac {C _ {1 , u} - C _ {1 , d}}{Z _ {1 , u} (2) - Z _ {1 , d} (2)}
+\Delta = \frac{C_{1 , u} - C_{1 , d}}{Z_{1 , u} (2) - Z_{1 , d} (2)}
 $$
 
 - $\Delta$  is now known. For instance, if  $K = .99$  we have  $\Delta = .4076$  
@@ -4123,13 +4123,13 @@ No Arbitrage  $\Longrightarrow \Pi_0 = Z_0(1) \Pi_{1,u}$
 - Therefore
 
 $$
-C _ {0} - \Delta Z _ {0} (2) = Z _ {0} (1) \Pi_ {1, u}
+C_{0} - \Delta Z_{0} (2) = Z_{0} (1) \Pi_{1, u}
 $$
 
 - implying
 
 $$
-C _ {0} = \Delta Z _ {0} (2) + Z _ {0} (1) \Pi_ {1, u} = 0. 0 0 2 2 3
+C_{0} = \Delta Z_{0} (2) + Z_{0} (1) \Pi_{1, u} = 0. 0 0 2 2 3
 $$
 
 - (recall  $Z_{0}(1) = 0.9916, Z_{0}(2) = 0.9781$ )
@@ -4139,13 +4139,13 @@ $$
 - Note that the option is a portfolio of zeros:
 
 $$
-\begin{array}{l} - N _ {1} = \Delta =. 4 0 7 6 \text {o f o n e - y e a r z e r o} Z _ {0} (2); \text {a n d} \\ - N _ {2} = \Pi_ {1, u} = - 0. 3 9 9 8 o f s i x - m o n t h z e r o Z _ {0} (1). \\ \end{array}
+\begin{array}{l} - N_{1} = \Delta =. 4 0 7 6 \text{of on e -y ea rz er o} Z_{0} (2); \text{an d} \\ - N_{2} = \Pi_{1, u} = - 0. 3 9 9 8 o f s i x - m o n t h z e r o Z_{0} (1). \\ \end{array}
 $$
 
 - That is, the portfolio of bonds
 
 $$
-P _ {0} = N _ {1} \times Z _ {0} (2) + N _ {2} \times Z _ {0} (1)
+P_{0} = N_{1} \times Z_{0} (2) + N_{2} \times Z_{0} (1)
 $$
 
 - exactly replicates the payoff of the option.
@@ -4161,39 +4161,39 @@ i = 1
 $$
 
 $$
-Z _ {0} (1) = 0. 9 9 1 6
+Z_{0} (1) = 0. 9 9 1 6
 $$
 
 $$
-Z _ {0} (2) = 0. 9 7 8 1
+Z_{0} (2) = 0. 9 7 8 1
 $$
 
 $$
-P _ {0} = N _ {1} Z _ {0} (2) + N _ {2} Z _ {0} (1) = 0. 0 0 2 2 3
+P_{0} = N_{1} Z_{0} (2) + N_{2} Z_{0} (1) = 0. 0 0 2 2 3
 $$
 
 $$
-Z _ {1, u} (1) = 1
+Z_{1, u} (1) = 1
 $$
 
 $$
-Z _ {1, u} (2) = 0. 9 8 0 8
+Z_{1, u} (2) = 0. 9 8 0 8
 $$
 
 $$
-P _ {1, u} = N _ {1} Z _ {1, u} (2) + N _ {2} = 0
+P_{1, u} = N_{1} Z_{1, u} (2) + N_{2} = 0
 $$
 
 $$
-Z _ {1, d} \left(1\right) = 1
+Z_{1, d} \left(1\right) = 1
 $$
 
 $$
-Z _ {1, d} (2) = 0. 9 9 6 3
+Z_{1, d} (2) = 0. 9 9 6 3
 $$
 
 $$
-P _ {1, d} = N _ {1} Z _ {1, d} (2) + N _ {2} =. 0 0 6 3 0 7
+P_{1, d} = N_{1} Z_{1, d} (2) + N_{2} =. 0 0 6 3 0 7
 $$
 
 - $P$  is called "replicating portfolio," a key concept.
@@ -4211,15 +4211,15 @@ $$
 $$
 
 $$
-\begin{array}{l} Z _ {1, u} (j) \\ V _ {1, u} \\ \end{array}
+\begin{array}{l} Z_{1, u} (j) \\ V_{1, u} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} Z _ {0} \left(j\right) \\ V _ {0} \\ \end{array}
+\begin{array}{l} Z_{0} \left(j\right) \\ V_{0} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} Z _ {1, d} (j) \\ V _ {1, d} \\ \end{array}
+\begin{array}{l} Z_{1, d} (j) \\ V_{1, d} \\ \end{array}
 $$
 
 # A No Arbitrage Relation
@@ -4228,13 +4228,13 @@ $$
 - Step 1: Portfolio
 
 $$
-\Pi_ {0} = V _ {0} - \Delta Z _ {0} (j)
+\Pi_{0} = V_{0} - \Delta Z_{0} (j)
 $$
 
 - Step 2: Choose  $\Delta$  to make portfolio at time  $j = 1$  independent of interest rates
 
 $$
-\Pi_ {1, u} = \Pi_ {1, d}
+\Pi_{1, u} = \Pi_{1, d}
 $$
 
 $$
@@ -4242,7 +4242,7 @@ $$
 $$
 
 $$
-{V _ {1, u} - \Delta Z _ {1, u} (j)} = {V _ {1, d} - \Delta Z _ {1, d} (j)}
+{V_{1, u} - \Delta Z_{1, u} (j)} = {V_{1, d} - \Delta Z_{1, d} (j)}
 $$
 
 $$
@@ -4250,13 +4250,13 @@ $$
 $$
 
 $$
-\Delta = \frac {V _ {1 , u} - V _ {1 , d}}{Z _ {1 , u} (j) - Z _ {1 , d} (j)} \tag {1}
+\Delta = \frac{V_{1 , u} - V_{1 , d}}{Z_{1 , u} (j) - Z_{1 , d} (j)} \tag {1}
 $$
 
 - Step 3: The portfolio is riskless, no arbitrage requires
 
 $$
-\Pi_ {0} = Z _ {0} (1) \Pi_ {1, u} \text {o r , e q u i v a l e n t l y ,} \Pi_ {0} = Z _ {0} (1) \Pi_ {1, d}
+\Pi_{0} = Z_{0} (1) \Pi_{1, u} \text{or ,e qu iv al en tl y ,} \Pi_{0} = Z_{0} (1) \Pi_{1, d}
 $$
 
 # A No Arbitrage Relation
@@ -4264,19 +4264,19 @@ $$
 - In fact, we can take the expected value using any probability  $\tilde{p}$
 
 $$
-\Pi_ {1, u} = \Pi_ {1, d} = E ^ {\tilde {p}} \left[ \Pi_ {1} \right]
+\Pi_{1, u} = \Pi_{1, d} = E^{\tilde {p}} \left[ \Pi_{1} \right]
 $$
 
 where
 
 $$
-\begin{array}{l} {E ^ {\tilde {p}} \left[ \Pi_ {1} \right]} = {\tilde {p} \Pi_ {1, u} + (1 - \tilde {p}) \Pi_ {1, d}} \\ = \tilde {p} [ V _ {1, u} - \Delta Z _ {1, u} (j) ] + (1 - \tilde {p}) [ V _ {1, d} - \Delta Z _ {1, d} (j) ] \\ = E ^ {\tilde {p}} [ V _ {1} ] - \Delta E ^ {\tilde {p}} [ Z _ {1} (j) ] \\ \end{array}
+\begin{array}{l} {E^{\tilde {p}} \left[ \Pi_{1} \right]} = {\tilde {p} \Pi_{1, u} + (1 - \tilde {p}) \Pi_{1, d}} \\ = \tilde {p} [ V_{1, u} - \Delta Z_{1, u} (j) ] + (1 - \tilde {p}) [ V_{1, d} - \Delta Z_{1, d} (j) ] \\ = E^{\tilde {p}} [ V_{1} ] - \Delta E^{\tilde {p}} [ Z_{1} (j) ] \\ \end{array}
 $$
 
 - Substituting
 
 $$
-{\Pi_ {0}} = {Z _ {0} (1) E ^ {\tilde {p}} [ \Pi_ {1} ]}
+{\Pi_{0}} = {Z_{0} (1) E^{\tilde {p}} [ \Pi_{1} ]}
 $$
 
 $$
@@ -4284,7 +4284,7 @@ $$
 $$
 
 $$
-{V _ {0} - \Delta Z _ {0} (j)} = {Z _ {0} (1) \left\{E ^ {\tilde {p}} [ V _ {1} ] - \Delta E ^ {\tilde {p}} [ Z _ {1} (j) ] \right\}}
+{V_{0} - \Delta Z_{0} (j)} = {Z_{0} (1) \left\{E^{\tilde {p}} [ V_{1} ] - \Delta E^{\tilde {p}} [ Z_{1} (j) ] \right\}}
 $$
 
 # A No Arbitrage Relation
@@ -4292,20 +4292,20 @@ $$
 - Step 4: Rearrange
 
 $$
-V _ {0} = Z _ {0} (1) E ^ {\tilde {p}} (V _ {1}) - \Delta \times \left\{Z _ {0} (1) E ^ {\tilde {p}} [ Z _ {1} (j) ] - Z _ {0} (j) \right\} \tag {2}
+V_{0} = Z_{0} (1) E^{\tilde {p}} (V_{1}) - \Delta \times \left\{Z_{0} (1) E^{\tilde {p}} [ Z_{1} (j) ] - Z_{0} (j) \right\} \tag {2}
 $$
 
 - Substitute  $\Delta$  from (1) and rearrange again
 
 $$
-\frac {Z _ {0} (1) E ^ {\tilde {p}} [ Z _ {1} (j) ] - Z _ {0} (j)}{Z _ {1 , u} (j) - Z _ {1 , d} (j)} = \frac {Z _ {0} (1) E ^ {\tilde {p}} (V _ {1}) - V _ {0}}{V _ {1 , u} - V _ {1 , d}}
+\frac{Z_{0} (1) E^{\tilde {p}} [ Z_{1} (j) ] - Z_{0} (j)}{Z_{1 , u} (j) - Z_{1 , d} (j)} = \frac{Z_{0} (1) E^{\tilde {p}} (V_{1}) - V_{0}}{V_{1 , u} - V_{1 , d}}
 $$
 
 - This last expression is key to the whole fixed income asset pricing.  
 - To interpret it, let's rewrite the equality as
 
 $$
-\frac {E ^ {\tilde {p}} \left[ \frac {V _ {1}}{V _ {0}} \right] - \frac {1}{Z _ {0} (1)}}{\left[ \frac {V _ {1 , u}}{V _ {0}} - \frac {V _ {1 , d}}{V _ {0}} \right]} = \frac {E ^ {\tilde {p}} \left[ \frac {Z _ {1} (j)}{Z _ {0} (j)} \right] - \frac {1}{Z _ {0} (1)}}{\left[ \frac {Z _ {1 , u} (j)}{Z _ {0} (j)} - \frac {Z _ {1 , d} (j)}{Z _ {0} (j)} \right]} \tag {3}
+\frac{E^{\tilde {p}} \left[ \frac{V_{1}}{V_{0}} \right] - \frac{1}{Z_{0} (1)}}{\left[ \frac{V_{1 , u}}{V_{0}} - \frac{V_{1 , d}}{V_{0}} \right]} = \frac{E^{\tilde {p}} \left[ \frac{Z_{1} (j)}{Z_{0} (j)} \right] - \frac{1}{Z_{0} (1)}}{\left[ \frac{Z_{1 , u} (j)}{Z_{0} (j)} - \frac{Z_{1 , d} (j)}{Z_{0} (j)} \right]} \tag {3}
 $$
 
 # A No Arbitrage Relation
@@ -4313,22 +4313,22 @@ $$
 - Notice
 
 $$
-E ^ {\tilde {p}} \left[ \frac {V _ {1}}{V _ {0}} \right] = \text {E x p e c t e d R e t u r n (u n d e r} \tilde {p}) \text {f r o m p u r c h a s i n g V _ {0}}
+E^{\tilde {p}} \left[ \frac{V_{1}}{V_{0}} \right] = \text{Ex pe ct ed Re tu rn (un de r} \tilde {p}) \text{fr om pu rc ha si ng V_{0}}
 $$
 
 $$
-E ^ {\tilde {p}} \left[ \frac {V _ {1}}{V _ {0}} \right] - \frac {1}{Z _ {0} (1)} = \mathrm {E x p e c t e d R e t u r n i n E x c e s s o f T r e a s u r y}
+E^{\tilde {p}} \left[ \frac{V_{1}}{V_{0}} \right] - \frac{1}{Z_{0} (1)} = \mathrm{Ex pe ct ed Re tu rn in Ex ce ss of Tr ea su ry}
 $$
 
 $$
-\left[ \frac {V _ {1 , u}}{V _ {0}} - \frac {V _ {1 , d}}{V _ {0}} \right] = \text {R i s k f r o m i n v e s t i n g i n} V _ {0}
+\left[ \frac{V_{1 , u}}{V_{0}} - \frac{V_{1 , d}}{V_{0}} \right] = \text{Ri sk fr om in ve st in gi n} V_{0}
 $$
 
 - The above hold for any  $\tilde{p}$ . To have economic meaning, we must though use the true  $\tilde{p} = p = 0.5$ .  
 - Denoting  $E[.]$  (without superscript) the expectations under the true probability, we have
 
 $$
-\frac {E \left[ \frac {V _ {1}}{V _ {0}} \right] - \frac {1}{Z _ {0} (1)}}{\left[ \frac {V _ {1 , u}}{V _ {0}} - \frac {V _ {1 , d}}{V _ {0}} \right]} = \frac {\text {E x p e c t e d E x c e s s R e t u r n}}{\text {R i s k f r o m i n v e s t m e n t}} = \left\{ \begin{array}{c} \text {S h a r p e R a t i o} \\ \text {o r} \\ \text {M a r k e t P r i c e o f} \\ \text {I n t e r e s t R a t e R i s k} \end{array} \right.
+\frac{E \left[ \frac{V_{1}}{V_{0}} \right] - \frac{1}{Z_{0} (1)}}{\left[ \frac{V_{1 , u}}{V_{0}} - \frac{V_{1 , d}}{V_{0}} \right]} = \frac{\text{Ex pe ct ed Ex ce ss Re tu rn}}{\text{Ri sk fr om in ve st me nt}} = \left\{ \begin{array}{c} \text{Sh ar pe Ra ti o} \\ \text{or} \\ \text{Ma rk et Pr ic eo f} \\ \text{In te re st Ra te Ri sk} \end{array} \right.
 $$
 
 - Similarly for the right hand side of (3).
@@ -4342,7 +4342,7 @@ No Arbitrage  $\Rightarrow$  All assets that depend on the interest rate have th
 - That is, for any security  $V$ , we have
 
 $$
-\frac {E \left[ \frac {V _ {1}}{V _ {0}} \right] - \frac {1}{Z _ {0} (1)}}{\left[ \frac {V _ {1 , u}}{V _ {0}} - \frac {V _ {1 , d}}{V _ {0}} \right]} = \lambda \tag {4}
+\frac{E \left[ \frac{V_{1}}{V_{0}} \right] - \frac{1}{Z_{0} (1)}}{\left[ \frac{V_{1 , u}}{V_{0}} - \frac{V_{1 , d}}{V_{0}} \right]} = \lambda \tag {4}
 $$
 
 where  $\lambda$  does not depend on the security considered.  
@@ -4351,7 +4351,7 @@ where  $\lambda$  does not depend on the security considered.
 - Caveat: The quantity
 
 $$
-\left[ \frac {V _ {1 , u}}{V _ {0}} - \frac {V _ {1 , d}}{V _ {0}} \right]
+\left[ \frac{V_{1 , u}}{V_{0}} - \frac{V_{1 , d}}{V_{0}} \right]
 $$
 
 - can be positive or negative (for bonds, it is negative: if interest rate is "up", then  $V_{u}$  is "down". Thus  $V_{1,u} < V_{1,d}$ ).
@@ -4361,7 +4361,7 @@ $$
 - If we know  $\lambda$ , we can compute the price of any other security simply by inverting (4):
 
 $$
-V _ {0} = Z _ {0} (1) \left\{E \left[ V _ {1} \right] - \lambda \left[ V _ {1, u} - V _ {1, d} \right] \right\} \tag {5}
+V_{0} = Z_{0} (1) \left\{E \left[ V_{1} \right] - \lambda \left[ V_{1, u} - V_{1, d} \right] \right\} \tag {5}
 $$
 
 Where do we get  $\lambda$ ?
@@ -4369,19 +4369,19 @@ Where do we get  $\lambda$ ?
 - Since relation (4) holds for all securities, it holds for the 2-period bond:
 
 $$
-\lambda = \frac {E \left[ \frac {Z _ {1} (2)}{Z _ {0} (2)} \right] - \frac {1}{Z _ {0} (1)}}{\left[ \frac {Z _ {1 , u} (2)}{Z _ {0} (2)} - \frac {Z _ {1 , d} (2)}{Z _ {0} (2)} \right]}
+\lambda = \frac{E \left[ \frac{Z_{1} (2)}{Z_{0} (2)} \right] - \frac{1}{Z_{0} (1)}}{\left[ \frac{Z_{1 , u} (2)}{Z_{0} (2)} - \frac{Z_{1 , d} (2)}{Z_{0} (2)} \right]}
 $$
 
 - From the original tree we can compute
 
 $$
-\lambda = \frac {1 . 0 1 0 7 0 5 8 8 2 - 1 . 0 0 8 4 3 5 3 7 9}{- 0 . 0 1 5 8 1 7 2 2 4} = - 0. 1 4 3 5
+\lambda = \frac{1 . 0 1 0 7 0 5 8 8 2 - 1 . 0 0 8 4 3 5 3 7 9}{- 0 . 0 1 5 8 1 7 2 2 4} = - 0. 1 4 3 5
 $$
 
 Using (5), the price of the call option is
 
 $$
-C _ {0} = Z _ {0} (1) \left\{E \left[ C _ {1} \right] + 0. 1 4 3 5 \times \left[ C _ {1, u} - C _ {1, d} \right] \right\} = 0. 0 0 2 2 3
+C_{0} = Z_{0} (1) \left\{E \left[ C_{1} \right] + 0. 1 4 3 5 \times \left[ C_{1, u} - C_{1, d} \right] \right\} = 0. 0 0 2 2 3
 $$
 
 - Once we know  $\lambda$ , we can compute the price of any derivative security on the interest rate, maturing (for now) one period ahead, by using (5).
@@ -4391,24 +4391,24 @@ $$
 - Example: How do we price a caplet? That is, a security that pays at  $i = 1$  the amount
 
 $$
-\mathsf {p a y} (i) = \mathsf {N} \times \max (r _ {i} - \bar {r}, 0)
+\mathsf {p a y} (i) = \mathsf {N} \times \max (r_{i} - \bar {r}, 0)
 $$
 
 - where  $\mathsf{N}$  is some notional.
 - If  $N = 1000$  and  $\overline{r} = .0168$  (at the money), we have
 
 $$
-\mathsf {p a y} _ {u} (1) = N \times \max  (0. 0 3 8 7 - 0. 0 1 6 8, 0) = 2 1. 9
+\mathsf {p a y}_{u} (1) = N \times \max  (0. 0 3 8 7 - 0. 0 1 6 8, 0) = 2 1. 9
 $$
 
 $$
-\mathsf {p a y} _ {d} (1) = N \times \max (0. 0 0 7 4 - 0. 0 1 6 8, 0) = 0.
+\mathsf {p a y}_{d} (1) = N \times \max (0. 0 0 7 4 - 0. 0 1 6 8, 0) = 0.
 $$
 
 - We then immediately obtain
 
 $$
-\begin{array}{l} \operatorname {C a p l e t} (0) = Z _ {0} (1) \left\{E [ \mathsf {p a y} (1) ] + 0. 1 4 3 5 [ \mathsf {p a y} _ {u} - \mathsf {p a y} _ {d} ] \right\} \\ = 1 3. 9 7 \\ \end{array}
+\begin{array}{l} \operatorname{Ca pl et} (0) = Z_{0} (1) \left\{E [ \mathsf {p a y} (1) ] + 0. 1 4 3 5 [ \mathsf {p a y}_{u} - \mathsf {p a y}_{d} ] \right\} \\ = 1 3. 9 7 \\ \end{array}
 $$
 
 # No Arbitrage Pricing
@@ -4424,7 +4424,7 @@ $$
 - Recall that "Step 4" in our derivations above gave us the equation (2) is
 
 $$
-V _ {0} = Z _ {0} (1) E ^ {\tilde {p}} (V _ {1}) - \Delta \times \left\{Z _ {0} (1) E ^ {\tilde {p}} [ Z _ {1} (j) ] - Z _ {0} (j) \right\} \tag {6}
+V_{0} = Z_{0} (1) E^{\tilde {p}} (V_{1}) - \Delta \times \left\{Z_{0} (1) E^{\tilde {p}} [ Z_{1} (j) ] - Z_{0} (j) \right\} \tag {6}
 $$
 
 - This equation held for any probability  $\tilde{p}$ . We can thus choose a  $\tilde{p}$  that makes life easier.  
@@ -4432,7 +4432,7 @@ $$
 - That is, we want to find the probability  $\pi^{*}$  such that
 
 $$
-Z _ {0} (1) E ^ {*} [ Z _ {1} (j) ] - Z _ {0} (j) = 0
+Z_{0} (1) E^{*} [ Z_{1} (j) ] - Z_{0} (j) = 0
 $$
 
 where  $E^{*}[]$  denotes the expectation that uses the probability  $\pi^{*}$ .
@@ -4440,13 +4440,13 @@ where  $E^{*}[]$  denotes the expectation that uses the probability  $\pi^{*}$ .
 - Develop the expectation
 
 $$
-Z _ {0} (1) \left[ \pi^ {*} Z _ {1, u} (j) + (1 - \pi^ {*}) Z _ {1, d} (j) \right] - Z _ {0} (j) = 0 \tag {7}
+Z_{0} (1) \left[ \pi^{*} Z_{1, u} (j) + (1 - \pi^{*}) Z_{1, d} (j) \right] - Z_{0} (j) = 0 \tag {7}
 $$
 
 to get
 
 $$
-\pi^ {*} \left[ Z _ {1, u} (j) + Z _ {1, d} (j) \right] + Z _ {1, d} (j) = Z _ {0} (j) / Z _ {0} (1)
+\pi^{*} \left[ Z_{1, u} (j) + Z_{1, d} (j) \right] + Z_{1, d} (j) = Z_{0} (j) / Z_{0} (1)
 $$
 
 # Risk Neutral Probabilities
@@ -4454,7 +4454,7 @@ $$
 - Solving the previous equation, we obtain
 
 $$
-\pi^ {*} = \frac {Z _ {0} (j) / Z _ {0} (1) - Z _ {1 , d} (j)}{Z _ {1 , u} (j) - Z _ {1 , d} (j)}
+\pi^{*} = \frac{Z_{0} (j) / Z_{0} (1) - Z_{1 , d} (j)}{Z_{1 , u} (j) - Z_{1 , d} (j)}
 $$
 
 - $\pi^{*}$  is the risk neutral probability or risk adjusted probability of moving up in the tree.  
@@ -4463,7 +4463,7 @@ $$
 - In fact, from its derivation in equation (7) we also have
 
 $$
-\underbrace {\pi^ {*} \frac {Z _ {1 , u} (j)}{Z _ {0} (j)} + (1 - \pi^ {*}) \frac {Z _ {1 , d} (j)}{Z _ {0} (j)}} = \underbrace {1} _ {Z _ {0} (1)}
+\underbrace {\pi^{*} \frac{Z_{1 , u} (j)}{Z_{0} (j)} + (1 - \pi^{*}) \frac{Z_{1 , d} (j)}{Z_{0} (j)}} = \underbrace {1}_{Z_{0} (1)}
 $$
 
 Expected Return on 2-period bond  $=$  Return on 1-period Bond
@@ -4473,7 +4473,7 @@ Expected Return on 2-period bond  $=$  Return on 1-period Bond
 risk-neutral pricing formula
 
 $$
-V _ {0} = Z _ {0} \left(1\right) E ^ {*} \left[ V _ {1} \right]
+V_{0} = Z_{0} \left(1\right) E^{*} \left[ V_{1} \right]
 $$
 
 # Risk Neutral Pricing
@@ -4481,11 +4481,11 @@ $$
 - The risk neutral pricing formula implies
 
 $$
-\underbrace {E ^ {*} \left[ \frac {V _ {1}}{V _ {0}} \right]} = \underbrace {\frac {1}{Z _ {0} (1)}} \tag {8}
+\underbrace {E^{*} \left[ \frac{V_{1}}{V_{0}} \right]} = \underbrace {\frac{1}{Z_{0} (1)}} \tag {8}
 $$
 
 $$
-E ^ {*} [ \text {R e t u r n} V ] = \text {R e t u r n} 6 - \text {m o n t h T b i l l} \tag {9}
+E^{*} [ \text{Re tu rn} V ] = \text{Re tu rn} 6 - \text{mo nt hT bi ll} \tag {9}
 $$
 
 - Risk neutral pricing is nothing more than a "trick" to easily compute the price of derivatives.  
@@ -4502,13 +4502,13 @@ $$
 - The call price is then
 
 $$
-\begin{array}{l} C _ {0} = Z _ {0} (1) \left(\pi^ {*} \times C _ {1, u} + (1 - \pi^ {*}) \times C _ {1, d}\right) \\ = 0. 9 9 1 6 \times (0. 6 4 3 5 \times 0 + 0. 3 5 6 4 5 \times . 0 0 6 3 0 7) \\ = 0. 0 0 2 2 3 \\ \end{array}
+\begin{array}{l} C_{0} = Z_{0} (1) \left(\pi^{*} \times C_{1, u} + (1 - \pi^{*}) \times C_{1, d}\right) \\ = 0. 9 9 1 6 \times (0. 6 4 3 5 \times 0 + 0. 3 5 6 4 5 \times . 0 0 6 3 0 7) \\ = 0. 0 0 2 2 3 \\ \end{array}
 $$
 
 - The price of the caplet is
 
 $$
-\begin{array}{l} \operatorname {C a p l e t} _ {0} = Z _ {0} (1) \times E ^ {*} [ \text {p a y} (1) ] \\ = 0. 9 9 1 6 \times (0. 6 4 3 5 \times 2 1. 9 + 0. 3 5 6 4 5 \times 0) \\ = 1 3. 9 7 \\ \end{array}
+\begin{array}{l} \operatorname{Ca pl et}_{0} = Z_{0} (1) \times E^{*} [ \text{pa y} (1) ] \\ = 0. 9 9 1 6 \times (0. 6 4 3 5 \times 2 1. 9 + 0. 3 5 6 4 5 \times 0) \\ = 1 3. 9 7 \\ \end{array}
 $$
 
 It works beautifully.
@@ -4520,7 +4520,7 @@ It works beautifully.
 - Under the risk neutral probabilities, the expected interest rate is
 
 $$
-E ^ {*} \left[ r _ {1} \right] = \pi^ {*} \times r _ {1, u} + \left(1 - \pi^ {*}\right) \times r _ {1, d} = 0. 0 2 7 5
+E^{*} \left[ r_{1} \right] = \pi^{*} \times r_{1, u} + \left(1 - \pi^{*}\right) \times r_{1, d} = 0. 0 2 7 5
 $$
 
 If your boss asks you what is your forecast of the interest rate in six months, would you tell him  $2.75\%$ ?
@@ -4528,7 +4528,7 @@ If your boss asks you what is your forecast of the interest rate in six months, 
 - In the real world, the expected interest rate was
 
 $$
-E \left[ r _ {1} \right] = 2.305 \% <   2.75 \% = E ^ {*} \left[ r _ {1} \right]
+E \left[ r_{1} \right] = 2.305 \% <   2.75 \% = E^{*} \left[ r_{1} \right]
 $$
 
 - Passing from the real to the risk neutral world implies increasing the expected interest rate.  
@@ -4553,60 +4553,60 @@ $$
 $$
 
 $$
-r _ {2, u u} = 0. 0 6 3 8
+r_{2, u u} = 0. 0 6 3 8
 $$
 
 $$
-r _ {0} = 0. 0 1 6 8
+r_{0} = 0. 0 1 6 8
 $$
 
 $$
-r _ {1, u} = 0. 0 4 3 3
+r_{1, u} = 0. 0 4 3 3
 $$
 
 $$
-\begin{array}{c} {r _ {2, u d}} \\ {r _ {2, d u}} \end{array} = 0. 0 3 6 1
+\begin{array}{c} {r_{2, u d}} \\ {r_{2, d u}} \end{array} = 0. 0 3 6 1
 $$
 
 $$
-r _ {1, d} = 0. 0 1 2 0
+r_{1, d} = 0. 0 1 2 0
 $$
 
 $$
-r _ {2, d d} = 0. 0 0 8 3
+r_{2, d d} = 0. 0 0 8 3
 $$
 
 - The value of a zero-coupon bond paying one dollar in period  $i = 1$  is (the time step  $\Delta t = 0.5$ )
 
 $$
-Z _ {0} \left(1\right) = e ^ {- r _ {0} \times \Delta t} \times 1 = 0. 9 9 1 6
+Z_{0} \left(1\right) = e^{- r_{0} \times \Delta t} \times 1 = 0. 9 9 1 6
 $$
 
 - What is the value of bond paying \$1 in one year (i = 2)?  
 - It can be obtained by proceeding backward on the tree:
 
 $$
-\begin{array}{l} i = 0 \\ i = 1 \\ i = 2 \\ Z _ {2, u u} (2) = 1 \\ \end{array}
+\begin{array}{l} i = 0 \\ i = 1 \\ i = 2 \\ Z_{2, u u} (2) = 1 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r _ {0} = 0. 0 1 6 8 \\ Z _ {0} (2) = \\ = e ^ {- r _ {0} \Delta t} \times \\ \times \left(\frac {1}{2} Z _ {1, u} (2) + \frac {1}{2} Z _ {1, d} (2)\right) \\ = 0. 9 7 8 1 \\ \end{array}
+\begin{array}{l} r_{0} = 0. 0 1 6 8 \\ Z_{0} (2) = \\ = e^{- r_{0} \Delta t} \times \\ \times \left(\frac{1}{2} Z_{1, u} (2) + \frac{1}{2} Z_{1, d} (2)\right) \\ = 0. 9 7 8 1 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r _ {1, u} = 0. 0 4 3 3 \\ Z _ {1, u} (2) = \\ = e ^ {- r _ {1, u} \Delta t} \times 1 \\ = 0. 9 7 8 6 \\ \end{array}
+\begin{array}{l} r_{1, u} = 0. 0 4 3 3 \\ Z_{1, u} (2) = \\ = e^{- r_{1, u} \Delta t} \times 1 \\ = 0. 9 7 8 6 \\ \end{array}
 $$
 
 $$
-\begin{array}{r l} {Z _ {2, u d} (2)} & \\ {Z _ {2, d u} (2)} & \end{array} = 1
+\begin{array}{r l} {Z_{2, u d} (2)} & \\ {Z_{2, d u} (2)} & \end{array} = 1
 $$
 
 $$
-\begin{array}{l} r _ {1, d} = 0. 0 1 2 0 \\ Z _ {1, d} (2) = \\ = e ^ {- r _ {1, d} \Delta t} \times 1 \\ = 0. 9 9 4 0 \\ \end{array}
+\begin{array}{l} r_{1, d} = 0. 0 1 2 0 \\ Z_{1, d} (2) = \\ = e^{- r_{1, d} \Delta t} \times 1 \\ = 0. 9 9 4 0 \\ \end{array}
 $$
 
 $$
-Z _ {2, d d} (2) = 1
+Z_{2, d d} (2) = 1
 $$
 
 - Similarly, a bond paying \$1 in 1.5 years (i = 3):
@@ -4616,37 +4616,37 @@ $$
 $$
 
 $$
-Z _ {3, u u u} (3) = 1
+Z_{3, u u u} (3) = 1
 $$
 
 $$
-\begin{array}{l} r _ {1, u} = 0. 0 4 3 3 \\ Z _ {1, u} (3) = 0. 9 5 4 5 \end{array}
+\begin{array}{l} r_{1, u} = 0. 0 4 3 3 \\ Z_{1, u} (3) = 0. 9 5 4 5 \end{array}
 $$
 
 $$
-\begin{array}{l} r _ {2, u u} = 0. 0 6 3 8 \\ Z _ {2, u u} (3) = 0. 9 6 8 6 \end{array}
+\begin{array}{l} r_{2, u u} = 0. 0 6 3 8 \\ Z_{2, u u} (3) = 0. 9 6 8 6 \end{array}
 $$
 
 $$
-\begin{array}{l} Z _ {3, u u d} (3) \\ Z _ {3, u d u} (3) \end{array} = 1
+\begin{array}{l} Z_{3, u u d} (3) \\ Z_{3, u d u} (3) \end{array} = 1
 $$
 
 $$
-\begin{array}{l} \begin{array}{l l} & r _ {0} = 0. 0 1 6 8 \\ & Z _ {0} (3) = 0. 9 6 0 7 \end{array} \\ \begin{array}{l} r _ {1, d} = 0. 0 1 2 0 \\ Z _ {1, d} (3) = 0. 9 8 3 0 \end{array} \\ \begin{array}{l} {r _ {2, u d} = 0. 0 3 6 1} \\ {Z _ {2, u d} (3) = 0. 9 8 2 1} \end{array} \\ \begin{array}{l} Z _ {3, u d d} (3) \\ Z _ {3, d d u} (3) \end{array} = 1 \\ \begin{array}{l} {r _ {2, d d} = 0. 0 0 8 3} \\ {Z _ {2, d d} (3) = 0. 9 9 5 9} \end{array} \\ Z _ {3, d d d} (3) = 1 \\ \end{array}
+\begin{array}{l} \begin{array}{l l} & r_{0} = 0. 0 1 6 8 \\ & Z_{0} (3) = 0. 9 6 0 7 \end{array} \\ \begin{array}{l} r_{1, d} = 0. 0 1 2 0 \\ Z_{1, d} (3) = 0. 9 8 3 0 \end{array} \\ \begin{array}{l} {r_{2, u d} = 0. 0 3 6 1} \\ {Z_{2, u d} (3) = 0. 9 8 2 1} \end{array} \\ \begin{array}{l} Z_{3, u d d} (3) \\ Z_{3, d d u} (3) \end{array} = 1 \\ \begin{array}{l} {r_{2, d d} = 0. 0 0 8 3} \\ {Z_{2, d d} (3) = 0. 9 9 5 9} \end{array} \\ Z_{3, d d d} (3) = 1 \\ \end{array}
 $$
 
 - These prices imply the zero-coupon yields
 
 $$
-y _ {0} (1) = - \frac {\ln [ Z _ {0} (1) ]}{\Delta t} = 0. 0 1 6 8
+y_{0} (1) = - \frac{\ln [ Z_{0} (1) ]}{\Delta t} = 0. 0 1 6 8
 $$
 
 $$
-y _ {0} (2) = - \frac {\ln [ Z _ {0} (2) ]}{2 \Delta t} = 0. 0 2 2 2
+y_{0} (2) = - \frac{\ln [ Z_{0} (2) ]}{2 \Delta t} = 0. 0 2 2 2
 $$
 
 $$
-y _ {0} (3) = - \frac {\ln [ Z _ {0} (3) ]}{3 \Delta t} = 0. 0 2 6 7
+y_{0} (3) = - \frac{\ln [ Z_{0} (3) ]}{3 \Delta t} = 0. 0 2 6 7
 $$
 
 - The methodology is actually quite simple.  
@@ -4670,7 +4670,7 @@ Example:
 - Specifically, at any time-node  $(i,j)$ , we just must add the CF
 
 $$
-P _ {i, j} = e ^ {- r _ {i, j} \Delta t} \left(\frac {1}{2} P _ {i + 1, j} + \frac {1}{2} P _ {i + 1, j + 1} + C F _ {i + 1}\right)
+P_{i, j} = e^{- r_{i, j} \Delta t} \left(\frac{1}{2} P_{i + 1, j} + \frac{1}{2} P_{i + 1, j + 1} + C F_{i + 1}\right)
 $$
 
 - So, for example, a 1.5 year,  $4\%$  coupon bond is just given by
@@ -4701,25 +4701,25 @@ $$
 - If exercises, the payoff ( $=$  value of the option) is
 
 $$
-C a l l _ {i, j} ^ {\mathrm {E x}} = P _ {i, j} - 1 0 0
+C a l l_{i, j}^{\mathrm{Ex}} = P_{i, j} - 1 0 0
 $$
 
 - If waits, the value of the option
 
 $$
-C a l l _ {i, j} ^ {\text {W a i t}} = e ^ {- r _ {i, j} \Delta t} E ^ {*} [ C a l l _ {i + 1} ] = e ^ {- r _ {i, j} \Delta t} \left(\frac {1}{2} C a l l _ {i + 1, j} + \frac {1}{2} C a l l _ {i + 1, j + 1}\right)
+C a l l_{i, j}^{\text{Wa it}} = e^{- r_{i, j} \Delta t} E^{*} [ C a l l_{i + 1} ] = e^{- r_{i, j} \Delta t} \left(\frac{1}{2} C a l l_{i + 1, j} + \frac{1}{2} C a l l_{i + 1, j + 1}\right)
 $$
 
 - Therefore, the value at node  $i, j$  is
 
 $$
-\begin{array}{l} C a l l _ {i, j} = \max  \left(C a l l _ {i, j} ^ {\text {W a i t}}, C a l l _ {i, j} ^ {\mathsf {E} \times}\right) \tag {10} \\ = \max \left(e ^ {- r _ {i, j} \times \Delta t} E ^ {*} [ C a l l _ {i + 1} ], P _ {i, j} - 1 0 0\right) \\ \end{array}
+\begin{array}{l} C a l l_{i, j} = \max  \left(C a l l_{i, j}^{\text{Wa it}}, C a l l_{i, j}^{\mathsf {E} \times}\right) \tag {10} \\ = \max \left(e^{- r_{i, j} \times \Delta t} E^{*} [ C a l l_{i + 1} ], P_{i, j} - 1 0 0\right) \\ \end{array}
 $$
 
 - Since at maturity  $I = T / \Delta t$  we have
 
 $$
-C a l l _ {I, j} = 0 \text {f o r a l l} j
+C a l l_{I, j} = 0 \text{fo ra ll} j
 $$
 
 - (the option expires worthless at maturity, as the issuer has to redeem the bond at par)  
@@ -4730,43 +4730,43 @@ $$
 $$
 
 $$
-C _ {3, u u u} (3) = 0
+C_{3, u u u} (3) = 0
 $$
 
 $$
-\begin{array}{l} C _ {1, u} (3) = \\ = \max  \left(9 9. 3 1 - 1 0 0, e ^ {-. 0 4 3 3 / 2} 0. 1 8 / 2\right) \\ = 0. 0 9 \\ \end{array}
+\begin{array}{l} C_{1, u} (3) = \\ = \max  \left(9 9. 3 1 - 1 0 0, e^{-. 0 4 3 3 / 2} 0. 1 8 / 2\right) \\ = 0. 0 9 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C _ {2, u u} (3) = \\ = \max  (9 8. 8 0 - 1 0 0, 0) \\ = 0 \\ \end{array}
+\begin{array}{l} C_{2, u u} (3) = \\ = \max  (9 8. 8 0 - 1 0 0, 0) \\ = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C _ {3, u u d} (3) \quad - 0 \\ C _ {3, u d u} (3) \quad - 0 \\ \end{array}
+\begin{array}{l} C_{3, u u d} (3) \quad - 0 \\ C_{3, u d u} (3) \quad - 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C _ {0} (3) = \\ = e ^ {- 0. 0 1 6 8 / 2} \\ \times \frac {1}{2} (0. 0 9 + 2. 2 6) \\ = 1. 1 6 \\ \end{array}
+\begin{array}{l} C_{0} (3) = \\ = e^{- 0. 0 1 6 8 / 2} \\ \times \frac{1}{2} (0. 0 9 + 2. 2 6) \\ = 1. 1 6 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C _ {1, d} (3) = \\ = \max  (1 0 2. 2 6 - 1 0 0, \\ e ^ {- 0. 0 1 2 0 / 2} (1. 1 8 + 1. 5 8) / 2) \\ = 2. 2 6 \\ \end{array}
+\begin{array}{l} C_{1, d} (3) = \\ = \max  (1 0 2. 2 6 - 1 0 0, \\ e^{- 0. 0 1 2 0 / 2} (1. 1 8 + 1. 5 8) / 2) \\ = 2. 2 6 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C _ {2, u d} (3) = \\ = \max  (1 0 0. 1 8 - 1 0 0, 0) \\ = 0. 1 8 \\ \end{array}
+\begin{array}{l} C_{2, u d} (3) = \\ = \max  (1 0 0. 1 8 - 1 0 0, 0) \\ = 0. 1 8 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C _ {3, u d d} (3) - 0 \\ C _ {3, d d u} (3) \quad - \\ \end{array}
+\begin{array}{l} C_{3, u d d} (3) - 0 \\ C_{3, d d u} (3) \quad - \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C _ {2, d d} (3) \\ = \max  (1 0 1. 5 8 - 1 0 0, 0) \\ = 1. 5 8 \\ \end{array}
+\begin{array}{l} C_{2, d d} (3) \\ = \max  (1 0 1. 5 8 - 1 0 0, 0) \\ = 1. 5 8 \\ \end{array}
 $$
 
 $$
-C _ {3, d d d} (3) = 0
+C_{3, d d d} (3) = 0
 $$
 
 # Callable Bond Pricing
@@ -4776,7 +4776,7 @@ $$
 Hence,
 
 $$
-\begin{array}{l} P _ {0} ^ {\mathbf {C a l l}} (3) = P _ {0} ^ {\mathbf {N o C a l l}} (3) - C _ {0} (3) \\ = 1 0 1. 9 3 - 1. 1 6 \\ = 1 0 0. 7 7 \\ \end{array}
+\begin{array}{l} P_{0}^{\mathbf {C a l l}} (3) = P_{0}^{\mathbf {N o C a l l}} (3) - C_{0} (3) \\ = 1 0 1. 9 3 - 1. 1 6 \\ = 1 0 0. 7 7 \\ \end{array}
 $$
 
 # Caps and Floors
@@ -4804,7 +4804,7 @@ $$
 - Assume that the risk-neutral tree is given by (18) and let
 
 $$
-\begin{array}{l} C F _ {i, j} (i + 1) = \text {C a s h F l o w a t t i m e} i + 1, \text {d u e t o r a t a n o d e} i, j \\ = \frac {1}{2} \times N \times \max (r _ {i, j} - \overline {{r}}, 0) \\ \end{array}
+\begin{array}{l} C F_{i, j} (i + 1) = \text{Ca sh Fl ow at ti me} i + 1, \text{du et or at an od e} i, j \\ = \frac{1}{2} \times N \times \max (r_{i, j} - \overline {{r}}, 0) \\ \end{array}
 $$
 
 - We then have:
@@ -4816,34 +4816,34 @@ $$
 - Given these cash flows, define
 
 $$
-\begin{array}{l} V _ {i, j} = \text {V a l u e} i \text {o f a l l C a s h F l o w s} k > i \\ = e ^ {- \frac {1}{2} r _ {i, j}} \times \left(\frac {1}{2} V _ {i + 1, j} + \frac {1}{2} V _ {i + 1, j + 1} + C F _ {i, j} (i + 1)\right) \\ \end{array}
+\begin{array}{l} V_{i, j} = \text{Va lu e} i \text{of al lC as hF lo ws} k > i \\ = e^{- \frac{1}{2} r_{i, j}} \times \left(\frac{1}{2} V_{i + 1, j} + \frac{1}{2} V_{i + 1, j + 1} + C F_{i, j} (i + 1)\right) \\ \end{array}
 $$
 
 - Then, the following backward tree gives a cap price  $V_{0} = 0.87$  
 - Table 3 shows the pricing of a cap on the bigger tree in Table 2, with  $\bar{r} = 5\%$ ; and  $N = 100$ .
 
 $$
-\begin{array}{l} i = 0 \\ i = 1 \\ i = 2 \\ V _ {2, u u} = \\ = e ^ {- 0. 0 6 3 8 / 2} 1. 6 9 \\ = 1. 6 4 \\ \end{array}
+\begin{array}{l} i = 0 \\ i = 1 \\ i = 2 \\ V_{2, u u} = \\ = e^{- 0. 0 6 3 8 / 2} 1. 6 9 \\ = 1. 6 4 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {1, u} = e ^ {- 0. 0 4 3 3 / 2} \times \\ \times \left[ \frac {1}{2} (1. 6 4 +. 3 0) +. 6 7 \right] \\ = . 9 5 +. 6 5 = 1. 6 0 \\ \end{array}
+\begin{array}{l} V_{1, u} = e^{- 0. 0 4 3 3 / 2} \times \\ \times \left[ \frac{1}{2} (1. 6 4 +. 3 0) +. 6 7 \right] \\ = . 9 5 +. 6 5 = 1. 6 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {0} = e ^ {- 0. 0 1 6 8 / 2} \times \\ \times \left[ \frac {1}{2} (1. 6 0 +. 1 5) + 0 \right] \\ = 0. 8 7 + 0 = 0. 8 7 \\ \end{array}
+\begin{array}{l} V_{0} = e^{- 0. 0 1 6 8 / 2} \times \\ \times \left[ \frac{1}{2} (1. 6 0 +. 1 5) + 0 \right] \\ = 0. 8 7 + 0 = 0. 8 7 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {1, d} = e ^ {- 0. 0 1 2 0 / 2} \times \\ \times \left[ \frac {1}{2} (. 3 0 + 0) + 0 \right] \\ = 0. 1 5 + 0 = . 1 5 \\ \end{array}
+\begin{array}{l} V_{1, d} = e^{- 0. 0 1 2 0 / 2} \times \\ \times \left[ \frac{1}{2} (. 3 0 + 0) + 0 \right] \\ = 0. 1 5 + 0 = . 1 5 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {2, u d} = \\ = e ^ {- 0. 0 3 6 1 / 2} 0. 3 0 \\ = 0. 3 0 \\ \end{array}
+\begin{array}{l} V_{2, u d} = \\ = e^{- 0. 0 3 6 1 / 2} 0. 3 0 \\ = 0. 3 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {2, d d} = \\ = e ^ {- 0. 0 0 8 3 / 2} \frac {1}{2} \times 0 \\ = 0 \\ \end{array}
+\begin{array}{l} V_{2, d d} = \\ = e^{- 0. 0 0 8 3 / 2} \frac{1}{2} \times 0 \\ = 0 \\ \end{array}
 $$
 
 <table><tr><td colspan="12">Table 3: A Cap</td></tr><tr><td colspan="12">Cash Flows (paid one period later)</td></tr><tr><td>j,i</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>1</td><td>0</td><td>0.35</td><td>2.3</td><td>4.18</td><td>5.99</td><td>7.73</td><td>9.42</td><td>11.04</td><td>12.61</td><td>14.13</td><td>-</td></tr><tr><td>2</td><td></td><td>0</td><td>0</td><td>0.99</td><td>2.81</td><td>4.56</td><td>6.25</td><td>7.88</td><td>9.45</td><td>10.96</td><td>-</td></tr><tr><td>3</td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>1.57</td><td>3.28</td><td>4.92</td><td>6.49</td><td>8.01</td><td></td></tr><tr><td>4</td><td></td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>0.42</td><td>2.1</td><td>3.71</td><td>5.24</td><td></td></tr><tr><td>5</td><td></td><td></td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1.02</td><td>2.6</td><td></td></tr><tr><td>6</td><td></td><td></td><td></td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td></tr><tr><td>7</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td></td></tr><tr><td>8</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td>0</td><td>0</td><td></td></tr><tr><td>9</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td>0</td><td></td></tr><tr><td>10</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td></tr><tr><td colspan="12">Expected NPV of Future CashFlows</td></tr><tr><td>j,i</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>1</td><td>9.00</td><td>13.38</td><td>19.43</td><td>24.58</td><td>27.82</td><td>29.02</td><td>28.22</td><td>25.34</td><td>20.11</td><td>11.97</td><td></td></tr><tr><td>2</td><td></td><td>4.78</td><td>7.40</td><td>11.59</td><td>16.37</td><td>19.57</td><td>20.61</td><td>19.4</td><td>15.84</td><td>9.58</td><td></td></tr><tr><td>3</td><td></td><td></td><td>2.12</td><td>3.45</td><td>5.66</td><td>9.33</td><td>12.28</td><td>13.1</td><td>11.44</td><td>7.21</td><td></td></tr><tr><td>4</td><td></td><td></td><td></td><td>0.73</td><td>1.27</td><td>2.25</td><td>4.02</td><td>6.36</td><td>6.93</td><td>4.85</td><td></td></tr><tr><td>5</td><td></td><td></td><td></td><td></td><td>0.14</td><td>0.27</td><td>0.53</td><td>1.07</td><td>2.18</td><td>2.47</td><td></td></tr><tr><td>6</td><td></td><td></td><td></td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td></tr><tr><td>7</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td></td></tr><tr><td>8</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td>0</td><td>0</td><td></td></tr><tr><td>9</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td>0</td><td></td></tr><tr><td>10</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td></tr><tr><td>11</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
@@ -4855,7 +4855,7 @@ $$
 - Again, denote by
 
 $$
-\begin{array}{l} C F _ {i, j} (i + 1) = \text {C a s h F l o w a t t i m e} i + 1, \text {d u e t o r a t e a t n o d e} i, j \\ = \frac {1}{2} \times N \times (r _ {i, j} - \overline {{r}}) \\ \end{array}
+\begin{array}{l} C F_{i, j} (i + 1) = \text{Ca sh Fl ow at ti me} i + 1, \text{du et or at ea tn od e} i, j \\ = \frac{1}{2} \times N \times (r_{i, j} - \overline {{r}}) \\ \end{array}
 $$
 
 - We obtain the tree of cash flows:
@@ -4869,50 +4869,50 @@ $i = 2$
 $i = 3$
 
 $$
-\begin{array}{l} r _ {3, u u u} = 0. 0 8 \\ C F _ {3, u u u} (4) = \\ = \frac {1}{2} N \times (r _ {3, u u u} - \bar {r}) = 2. 4 7 \\ \end{array}
+\begin{array}{l} r_{3, u u u} = 0. 0 8 \\ C F_{3, u u u} (4) = \\ = \frac{1}{2} N \times (r_{3, u u u} - \bar {r}) = 2. 4 7 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r _ {1, u} = 0. 0 4 3 3 \\ C F _ {1, u} (2) = \\ = \frac {1}{2} N \times (r _ {1, u} - \bar {r}) = 0. 6 4 \\ \end{array}
+\begin{array}{l} r_{1, u} = 0. 0 4 3 3 \\ C F_{1, u} (2) = \\ = \frac{1}{2} N \times (r_{1, u} - \bar {r}) = 0. 6 4 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r _ {2, u u} = 0. 0 6 3 8 \\ C F _ {2, u u} (3) = \\ = \frac {1}{2} N \times \left(r _ {2, u u} - \bar {r}\right) = 1. 6 7 \\ \end{array}
+\begin{array}{l} r_{2, u u} = 0. 0 6 3 8 \\ C F_{2, u u} (3) = \\ = \frac{1}{2} N \times \left(r_{2, u u} - \bar {r}\right) = 1. 6 7 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r _ {3, u u d} = 0. 0 5 3 \\ C F _ {3, u u d} (4) = \\ = \frac {1}{2} N \times \left(r _ {3, u u d} - \bar {r}\right) = 1. 1 5 \\ \end{array}
+\begin{array}{l} r_{3, u u d} = 0. 0 5 3 \\ C F_{3, u u d} (4) = \\ = \frac{1}{2} N \times \left(r_{3, u u d} - \bar {r}\right) = 1. 1 5 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r _ {0} = 0. 0 1 6 8 \\ C F _ {0} (1) = \\ = \frac {1}{2} N \times \left(r _ {1, u} - \bar {r}\right) = - 0. 6 8 \\ \end{array}
+\begin{array}{l} r_{0} = 0. 0 1 6 8 \\ C F_{0} (1) = \\ = \frac{1}{2} N \times \left(r_{1, u} - \bar {r}\right) = - 0. 6 8 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r _ {1, d} = 0. 0 1 2 0 \\ C F _ {1, d} (2) = \\ = \frac {1}{2} N \times \left(r _ {1, d} - \bar {r}\right) = - 0. 9 2 \\ \end{array}
+\begin{array}{l} r_{1, d} = 0. 0 1 2 0 \\ C F_{1, d} (2) = \\ = \frac{1}{2} N \times \left(r_{1, d} - \bar {r}\right) = - 0. 9 2 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r _ {2, u d} = 0. 0 3 6 1 \\ C F _ {2, u d} (3) = \\ = \frac {1}{2} N \times \left(r _ {2, u d} - \bar {r}\right) = 0. 2 8 \\ \end{array}
+\begin{array}{l} r_{2, u d} = 0. 0 3 6 1 \\ C F_{2, u d} (3) = \\ = \frac{1}{2} N \times \left(r_{2, u d} - \bar {r}\right) = 0. 2 8 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r _ {3, u d d} = 0. 0 3 2 \\ C F _ {3, u d d} (4) = \\ = \frac {1}{2} N \times (r _ {3, u d d} - \bar {r}) = 0. 0 7 \\ \end{array}
+\begin{array}{l} r_{3, u d d} = 0. 0 3 2 \\ C F_{3, u d d} (4) = \\ = \frac{1}{2} N \times (r_{3, u d d} - \bar {r}) = 0. 0 7 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r _ {2, d d} = 0. 0 0 8 3 \\ C F _ {2, d d} (3) = \\ = \frac {1}{2} N \times \left(r _ {2, d d} - \bar {r}\right) = - 1. 1 \\ \end{array}
+\begin{array}{l} r_{2, d d} = 0. 0 0 8 3 \\ C F_{2, d d} (3) = \\ = \frac{1}{2} N \times \left(r_{2, d d} - \bar {r}\right) = - 1. 1 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r _ {3. d d d} = 0. 0 0 5 4 \\ C F _ {3, d d d} (4) = \\ = \frac {1}{2} N \times \left(r _ {3, d d d} - \bar {r}\right) = - 1. 2 5 \\ \end{array}
+\begin{array}{l} r_{3. d d d} = 0. 0 0 5 4 \\ C F_{3, d d d} (4) = \\ = \frac{1}{2} N \times \left(r_{3, d d d} - \bar {r}\right) = - 1. 2 5 \\ \end{array}
 $$
 
 - The tree for the value of the swap (for the fixed payer) is then immediately computed.  
 Denoting again
 
 $$
-\begin{array}{l} V _ {i, j} = \text {V a l u e} i \text {o f a l l C a s h F l o w s} k > i \\ = e ^ {- \frac {1}{2} r _ {i, j}} \times \left(\frac {1}{2} V _ {i + 1, j} + \frac {1}{2} V _ {i + 1, j + 1} + C F _ {i, j} (i + 1)\right) \\ \end{array}
+\begin{array}{l} V_{i, j} = \text{Va lu e} i \text{of al lC as hF lo ws} k > i \\ = e^{- \frac{1}{2} r_{i, j}} \times \left(\frac{1}{2} V_{i + 1, j} + \frac{1}{2} V_{i + 1, j + 1} + C F_{i, j} (i + 1)\right) \\ \end{array}
 $$
 
 we obtain
@@ -4942,24 +4942,24 @@ we obtain
 - Therefore, we first compute the value of the swap with given swap rate  $r_X$  along the tree  $V_{i,j}$
 
 $$
-V _ {i, j} = e ^ {- r _ {i, j} \Delta t} \left(\frac {1}{2} V _ {i + 1, j} + \frac {1}{2} V _ {i + 1, j + 1} + (r _ {i, j} - r _ {X})\right)
+V_{i, j} = e^{- r_{i, j} \Delta t} \left(\frac{1}{2} V_{i + 1, j} + \frac{1}{2} V_{i + 1, j + 1} + (r_{i, j} - r_{X})\right)
 $$
 
 - Since
 
-$V_{2j} > 0$  if and only if  $r_X < \overline{r}_{2j} = \text{current market swap rate}$
+$V_{2j} > 0$  if and only if  $r_X < \overline{r}_{2j} = \text{currentmarketswaprate}$
 
 - we exercise at time  $i = 2$  in node  $j$  if and only if  $V_{2j} > 0$ .  
 - The payoff of the swaption at  $i = 2$  is then
 
 $$
-\mathsf {P a y o f f} _ {2 j} = C _ {2, j} = \max (V _ {2 j}, 0)
+\mathsf {P a y o f f}_{2 j} = C_{2, j} = \max (V_{2 j}, 0)
 $$
 
 - The value of the European Swaption can then be computed by backward calculations:
 
 $$
-C _ {i, j} = e ^ {- r _ {i j} \Delta t} \left(\frac {1}{2} C _ {i + 1, j} + \frac {1}{2} C _ {i + 1, j + 1}\right)
+C_{i, j} = e^{- r_{i j} \Delta t} \left(\frac{1}{2} C_{i + 1, j} + \frac{1}{2} C_{i + 1, j + 1}\right)
 $$
 
 # Swaptions: Example
@@ -4983,15 +4983,15 @@ i = 2
 $$
 
 $$
-C _ {0} = e ^ {- 0. 0 1 6 8 / 2} \times
+C_{0} = e^{- 0. 0 1 6 8 / 2} \times
 $$
 
 $$
-C _ {1, u} = e ^ {- 0. 0 4 3 3 / 2} \times
+C_{1, u} = e^{- 0. 0 4 3 3 / 2} \times
 $$
 
 $$
-C _ {2, u u} =
+C_{2, u u} =
 $$
 
 $$
@@ -4999,7 +4999,7 @@ $$
 $$
 
 $$
-= \max  \left(V _ {2, u u}, 0\right)
+= \max  \left(V_{2, u u}, 0\right)
 $$
 
 $$
@@ -5011,7 +5011,7 @@ $$
 $$
 
 $$
-= \max  \left(V _ {2, u d}, 0\right)
+= \max  \left(V_{2, u d}, 0\right)
 $$
 
 $$
@@ -5023,7 +5023,7 @@ $$
 $$
 
 $$
-C _ {1, d} = e ^ {- 0. 0 1 2 0 / 2} \times
+C_{1, d} = e^{- 0. 0 1 2 0 / 2} \times
 $$
 
 $$
@@ -5031,7 +5031,7 @@ $$
 $$
 
 $$
-\begin{array}{l} C _ {2, u d} = \\ = \max  \left(V _ {2, d d}, 0\right) \\ = 0 \\ \end{array}
+\begin{array}{l} C_{2, u d} = \\ = \max  \left(V_{2, d d}, 0\right) \\ = 0 \\ \end{array}
 $$
 
 # American Swaptions: Example
@@ -5039,7 +5039,7 @@ $$
 - Computing an American style swaption exploits the same methodology illustrated earlier. That is, we must have
 
 $$
-C _ {i, j} ^ {A m} = \max \left(V _ {i, j}, e ^ {- r _ {i, j} \Delta t} \times \left(\frac {1}{2} C _ {i + 1, j} ^ {A m} + \frac {1}{2} C _ {i + 1, j + 1} ^ {A m}\right)\right)
+C_{i, j}^{A m} = \max \left(V_{i, j}, e^{- r_{i, j} \Delta t} \times \left(\frac{1}{2} C_{i + 1, j}^{A m} + \frac{1}{2} C_{i + 1, j + 1}^{A m}\right)\right)
 $$
 
 In this case, we find
@@ -5054,7 +5054,7 @@ In this case, we find
 - Let the "Terms" be:
 
 $$
-\begin{array}{l} - \bar {r} = 0. 0 3 9 9 9; \\ - T = 5 \text {y e a r s}; \\ - \text {S e m i - a n n u a l p a y m e n t s}; \\ - \text {A t - t h e - m o n e y P a y e r S w a p t i o n w i t h} T ^ {*} = 3 \text {y e a r s :} \\ - \left(\text {I n t h e l a s t p a n e l , a}" * "\right. \text {d e n o t e s e a l y e x i c e o f t h e o p t i o n)} \\ \end{array}
+\begin{array}{l} - \bar {r} = 0. 0 3 9 9 9; \\ - T = 5 \text{ye ar s}; \\ - \text{Se mi -a nn ua lp ay me nt s}; \\ - \text{At -t he -m on ey Pa ye rS wa pt io nw it h} T^{*} = 3 \text{ye ar s :} \\ - \left(\text{In th el as tp an el ,a}" * "\right. \text{de no te se al ye xi ce of th eo pt io n)} \\ \end{array}
 $$
 
 <table><tr><td colspan="12">Table 4: Swap and Swaption</td></tr><tr><td colspan="12">Cash Flows (paid one period later)</td></tr><tr><td>j,i</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>1</td><td>-1.16</td><td>0.86</td><td>2.8</td><td>4.68</td><td>6.49</td><td>8.23</td><td>9.92</td><td>11.54</td><td>13.11</td><td>14.63</td><td></td></tr><tr><td>2</td><td></td><td>-2.42</td><td>-0.42</td><td>1.49</td><td>3.31</td><td>5.06</td><td>6.75</td><td>8.38</td><td>9.95</td><td>11.46</td><td></td></tr><tr><td>3</td><td></td><td></td><td>-3.63</td><td>-1.62</td><td>0.27</td><td>2.07</td><td>3.78</td><td>5.42</td><td>6.99</td><td>8.51</td><td></td></tr><tr><td>4</td><td></td><td></td><td></td><td>-4.81</td><td>-2.76</td><td>-0.86</td><td>0.92</td><td>2.6</td><td>4.21</td><td>5.74</td><td></td></tr><tr><td>5</td><td></td><td></td><td></td><td></td><td>-5.94</td><td>-3.86</td><td>-1.94</td><td>-0.16</td><td>1.52</td><td>3.1</td><td></td></tr><tr><td>6</td><td></td><td></td><td></td><td></td><td></td><td>-7.03</td><td>-4.91</td><td>-2.97</td><td>-1.17</td><td>0.5</td><td></td></tr><tr><td>7</td><td></td><td></td><td></td><td></td><td></td><td></td><td>-8.08</td><td>-5.93</td><td>-3.96</td><td>-2.14</td><td></td></tr><tr><td>8</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-9.1</td><td>-6.91</td><td>-4.91</td><td></td></tr><tr><td>9</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-10.08</td><td>-7.86</td><td></td></tr><tr><td>10</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-11.02</td><td></td></tr><tr><td colspan="12">Expected NPV of Future CashFlows</td></tr><tr><td>j,i</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>1</td><td>0</td><td>13.11</td><td>21.73</td><td>27.14</td><td>30.06</td><td>30.87</td><td>29.71</td><td>26.48</td><td>20.9</td><td>12.39</td><td></td></tr><tr><td>2</td><td></td><td>-10.8</td><td>3.52</td><td>12.85</td><td>18.61</td><td>21.59</td><td>22.22</td><td>20.62</td><td>16.67</td><td>10.02</td><td></td></tr><tr><td>3</td><td></td><td></td><td>-20.18</td><td>-4.85</td><td>5.03</td><td>11.03</td><td>14</td><td>14.39</td><td>12.32</td><td>7.66</td><td></td></tr><tr><td>4</td><td></td><td></td><td></td><td>-27.6</td><td>-11.53</td><td>-1.27</td><td>4.84</td><td>7.72</td><td>7.84</td><td>5.31</td><td></td></tr><tr><td>5</td><td></td><td></td><td></td><td></td><td>-32.52</td><td>-16.09</td><td>-5.68</td><td>0.41</td><td>3.13</td><td>2.95</td><td></td></tr><tr><td>6</td><td></td><td></td><td></td><td></td><td></td><td>-34.55</td><td>-18.18</td><td>-7.89</td><td>-1.98</td><td>0.49</td><td></td></tr><tr><td>7</td><td></td><td></td><td></td><td></td><td></td><td></td><td>-33.47</td><td>-17.6</td><td>-7.7</td><td>-2.14</td><td></td></tr><tr><td>8</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-29.23</td><td>-14.28</td><td>-5.05</td><td></td></tr><tr><td>9</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-21.98</td><td>-8.33</td><td></td></tr><tr><td>10</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-12.06</td><td></td></tr><tr><td>11</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
@@ -5078,11 +5078,11 @@ American Option
 - Let  $\Delta t$  be the time step. Then, for every node  $(i,j)$  the next interest rate is given by
 
 $$
-r _ {i + 1, j} = r _ {i, j} + \theta_ {i} \times \Delta t + \sigma \times \sqrt {\Delta t} \quad \text {f o r a " u p " m o v e m e n t} \tag {13}
+r_{i + 1, j} = r_{i, j} + \theta_{i} \times \Delta t + \sigma \times \sqrt{\Delta t} \quad \text{fo ra "u p "m ov em en t} \tag {13}
 $$
 
 $$
-r _ {i + 1, j + 1} = r _ {i, j} + \theta_ {i} \times \Delta t - \sigma \times \sqrt {\Delta t} \quad \text {f o r a “ d o w n ” m o v e m e n t} \tag {14}
+r_{i + 1, j + 1} = r_{i, j} + \theta_{i} \times \Delta t - \sigma \times \sqrt{\Delta t} \quad \text{fo ra “d ow n ”m ov em en t} \tag {14}
 $$
 
 - where the risk neutral probability of an up movement is  $\pi^{*} = 0.5$ ;  $\sigma$  is the annualized volatility; and  $\theta_{i}$  are chosen recursively so as to fit the current term structure of interest rates.  
@@ -5090,23 +5090,23 @@ $$
 - To see this easily, consider  $r_0$  and use the "  $u, d, ud, du$ " notation.
 
 $$
-r _ {1, u} = r _ {0} + \theta_ {0} \times \Delta t + \sigma \times \sqrt {\Delta t}
+r_{1, u} = r_{0} + \theta_{0} \times \Delta t + \sigma \times \sqrt{\Delta t}
 $$
 
 $$
-r _ {1, d} = r _ {0} + \theta_ {0} \times \Delta t - \sigma \times \sqrt {\Delta t}
+r_{1, d} = r_{0} + \theta_{0} \times \Delta t - \sigma \times \sqrt{\Delta t}
 $$
 
 - Similarly, the next steps are:
 
 $$
-\begin{array}{l} r _ {2, u d} = r _ {1, u} + \theta_ {1} \times \Delta t - \sigma \times \sqrt {\Delta t} \\ = r _ {0} + (\theta_ {0} + \theta_ {1}) \times \Delta t \\ \end{array}
+\begin{array}{l} r_{2, u d} = r_{1, u} + \theta_{1} \times \Delta t - \sigma \times \sqrt{\Delta t} \\ = r_{0} + (\theta_{0} + \theta_{1}) \times \Delta t \\ \end{array}
 $$
 
 and
 
 $$
-\begin{array}{l} r _ {2, d u} = r _ {1, d} + \theta_ {1} \times \Delta t + \sigma \times \sqrt {\Delta t} \\ = r _ {0} + (\theta_ {0} + \theta_ {1}) \times \Delta t \\ = r _ {2, u d} \\ \end{array}
+\begin{array}{l} r_{2, d u} = r_{1, d} + \theta_{1} \times \Delta t + \sigma \times \sqrt{\Delta t} \\ = r_{0} + (\theta_{0} + \theta_{1}) \times \Delta t \\ = r_{2, u d} \\ \end{array}
 $$
 
 - How do we select  $\theta_{i}$ ?
@@ -5114,7 +5114,7 @@ $$
 - To illustrate, consider the zero-coupon bonds
 
 $$
-Z _ {0} (1) = 0. 9 9 1 6, Z _ {0} (2) = 0. 9 7 8 1, Z _ {0} (3) = 0. 9 6 1 5
+Z_{0} (1) = 0. 9 9 1 6, Z_{0} (2) = 0. 9 7 8 1, Z_{0} (3) = 0. 9 6 1 5
 $$
 
 - We already have the root of the tree:  $r_0 = -\ln (Z_0(1)) / 2 = 0.0169$ .  
@@ -5131,29 +5131,29 @@ i = 1
 $$
 
 $$
-r _ {1, u} = r _ {0} + \theta_ {0} \times \Delta t + \sigma \times \sqrt {\Delta t}
+r_{1, u} = r_{0} + \theta_{0} \times \Delta t + \sigma \times \sqrt{\Delta t}
 $$
 
 $$
-Z _ {1, u} \left(2\right) = e ^ {- r _ {1 u} \times \Delta t}
+Z_{1, u} \left(2\right) = e^{- r_{1 u} \times \Delta t}
 $$
 
 $$
-\begin{array}{l} r _ {0} = 1.69 \% \\ Z _ {0} (2) = Z _ {0} (1) \times \left[ \frac {1}{2} Z _ {1, u} (2) + \frac {1}{2} Z _ {1, d} (2) \right] \\ = 0. 9 7 8 1 \\ \end{array}
+\begin{array}{l} r_{0} = 1.69 \% \\ Z_{0} (2) = Z_{0} (1) \times \left[ \frac{1}{2} Z_{1, u} (2) + \frac{1}{2} Z_{1, d} (2) \right] \\ = 0. 9 7 8 1 \\ \end{array}
 $$
 
 $$
-r _ {1, d} = r _ {0} + \theta_ {0} \times \Delta t - \sigma \times \sqrt {\Delta t}
+r_{1, d} = r_{0} + \theta_{0} \times \Delta t - \sigma \times \sqrt{\Delta t}
 $$
 
 $$
-Z _ {1, d} (2) = e ^ {- r _ {1, d} \times \Delta t}
+Z_{1, d} (2) = e^{- r_{1, d} \times \Delta t}
 $$
 
 - We want to search over  $\theta_0$  so that
 
 $$
-Z _ {0} (2) = 0. 9 7 8 1
+Z_{0} (2) = 0. 9 7 8 1
 $$
 
 - Searching over  $\theta_0$  we find  $\theta_0 = .021145$ , resulting thus in
@@ -5163,15 +5163,15 @@ $$
 $$
 
 $$
-\begin{array}{l} r_{1,u} = 3.81\% \\ Z _ {1, u} (2) = 0. 9 8 1 1 5 \\ \end{array}
+\begin{array}{l} r_{1,u} = 3.81\% \\ Z_{1, u} (2) = 0. 9 8 1 1 5 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r_0 = 1.69\% \\ Z _ {0} (2) = 0. 9 7 8 1 \\ \end{array}
+\begin{array}{l} r_0 = 1.69\% \\ Z_{0} (2) = 0. 9 7 8 1 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r_{1,d} = 1.68\% \\ Z _ {1, d} (2) = 0. 9 9 1 6 2 \\ \end{array}
+\begin{array}{l} r_{1,d} = 1.68\% \\ Z_{1, d} (2) = 0. 9 9 1 6 2 \\ \end{array}
 $$
 
 - Given  $\theta_0$ , we now look for  $\theta_{1}$  by trying to match the next bond  $Z_{0}(3) = 0.9615$ .
@@ -5189,27 +5189,27 @@ i = 2
 $$
 
 $$
-\begin{array}{l} r _ {0} = 1.69 \% \\ Z _ {0} (3) = Z _ {0} (1) \left[ \frac {Z _ {1 , u} (3)}{2} + \frac {Z _ {1 , d} (3)}{2} \right] \\ = 0. 9 6 1 5 \\ \end{array}
+\begin{array}{l} r_{0} = 1.69 \% \\ Z_{0} (3) = Z_{0} (1) \left[ \frac{Z_{1 , u} (3)}{2} + \frac{Z_{1 , d} (3)}{2} \right] \\ = 0. 9 6 1 5 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r_{1,u} = 3.81\% \\ Z _ {1, u} (3) = Z _ {1, u} (2) \left[ \frac {Z _ {2 , u u} (3)}{2} + \frac {Z _ {2 , u d} (3)}{2} \right] \\ \end{array}
+\begin{array}{l} r_{1,u} = 3.81\% \\ Z_{1, u} (3) = Z_{1, u} (2) \left[ \frac{Z_{2 , u u} (3)}{2} + \frac{Z_{2 , u d} (3)}{2} \right] \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r _ {2, u u} = 3.81 \% + \theta_ {1} \Delta t + \sigma \sqrt {\Delta t} \\ Z _ {2, u u} (3) = e ^ {- r _ {2, u u} \Delta t} \\ \end{array}
+\begin{array}{l} r_{2, u u} = 3.81 \% + \theta_{1} \Delta t + \sigma \sqrt{\Delta t} \\ Z_{2, u u} (3) = e^{- r_{2, u u} \Delta t} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r_{1,d} = 1.68\% \\ Z _ {1, d} (3) = Z _ {1, d} (2) [ \frac {Z _ {2 , u d} (3)}{2} + \frac {Z _ {2 , d d} (3)}{2} ] \\ \end{array}
+\begin{array}{l} r_{1,d} = 1.68\% \\ Z_{1, d} (3) = Z_{1, d} (2) [ \frac{Z_{2 , u d} (3)}{2} + \frac{Z_{2 , d d} (3)}{2} ] \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r _ {2, u d} = 3.81 \% + \theta_ {1} \Delta t - \sigma \sqrt {\Delta t} \\ Z _ {2, u d} (3) = e ^ {- r _ {2, u d} \Delta t} \\ \end{array}
+\begin{array}{l} r_{2, u d} = 3.81 \% + \theta_{1} \Delta t - \sigma \sqrt{\Delta t} \\ Z_{2, u d} (3) = e^{- r_{2, u d} \Delta t} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r_{2.dd} = 1.68\% +\theta_1\Delta t - \sigma \sqrt{\Delta t} \\ Z _ {2, d d} (3) = e ^ {- r _ {2, d d} \Delta t} \\ \end{array}
+\begin{array}{l} r_{2.dd} = 1.68\% +\theta_1\Delta t - \sigma \sqrt{\Delta t} \\ Z_{2, d d} (3) = e^{- r_{2, d d} \Delta t} \\ \end{array}
 $$
 
 - Clearly,  $Z_{0}(3)$  from the tree only depends on  $\theta_{1}$ .  
@@ -5220,27 +5220,27 @@ $$
 $$
 
 $$
-\begin{array}{l} r_{2,uu} = 5.56\% \\ Z _ {2, u u} (3) = 0. 9 7 2 6 0 \\ \end{array}
+\begin{array}{l} r_{2,uu} = 5.56\% \\ Z_{2, u u} (3) = 0. 9 7 2 6 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r_{1,u} = 3.81\% \\ Z _ {1, u} (3) = 0. 9 5 9 3 6 \\ \end{array}
+\begin{array}{l} r_{1,u} = 3.81\% \\ Z_{1, u} (3) = 0. 9 5 9 3 6 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r_{0} = 1.69\% \\ Z _ {0} (3) = 0. 9 6 1 5 \\ \end{array}
+\begin{array}{l} r_{0} = 1.69\% \\ Z_{0} (3) = 0. 9 6 1 5 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r_{1,d} = 1.68\% \\ Z _ {1, d} (3) = 0. 9 7 9 9 3 \\ \end{array}
+\begin{array}{l} r_{1,d} = 1.68\% \\ Z_{1, d} (3) = 0. 9 7 9 9 3 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r _ {2, u d} = 3.43 \% \\ Z _ {2, u d} (3) = 0. 9 8 2 9 7 \\ \end{array}
+\begin{array}{l} r_{2, u d} = 3.43 \% \\ Z_{2, u d} (3) = 0. 9 8 2 9 7 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r_{2,dd} = 1.31\% \\ Z _ {2, d d} (3) = 0. 9 9 3 4 5 \\ \end{array}
+\begin{array}{l} r_{2,dd} = 1.31\% \\ Z_{2, d d} (3) = 0. 9 9 3 4 5 \\ \end{array}
 $$
 
 - And so on for all the possible available maturities.
@@ -5251,11 +5251,11 @@ $$
 - A simple solution is to model the Ho-Lee mode in "logarithm", that is, let  $z_{ij} = \ln (r_{ij})$  and then assume
 
 $$
-z _ {i + 1, j} = z _ {i, j} + \theta_ {i} \times \Delta t + \sigma \times \sqrt {\Delta t} \quad \text {f o r a " u p " m o v e m e n t} \tag {15}
+z_{i + 1, j} = z_{i, j} + \theta_{i} \times \Delta t + \sigma \times \sqrt{\Delta t} \quad \text{fo ra "u p "m ov em en t} \tag {15}
 $$
 
 $$
-z _ {i + 1, j + 1} = z _ {i, j} + \theta_ {i} \times \Delta t - \sigma \times \sqrt {\Delta t} \quad \text {f o r a “ d o w n ” m o v e m e n t} \tag {16}
+z_{i + 1, j + 1} = z_{i, j} + \theta_{i} \times \Delta t - \sigma \times \sqrt{\Delta t} \quad \text{fo ra “d ow n ”m ov em en t} \tag {16}
 $$
 
 - Clearly, even if  $z_{ij} < 0$  we have  $r_{ij} = e^{z_{ij}} > 0$ .  
@@ -5272,27 +5272,27 @@ $$
 $$
 
 $$
-\begin{array}{l} r_{2,uu} = 8.39\% \\ Z _ {2, u u} (2) = 1; \\ Z _ {2, u u} (3) = 0. 9 5 8 9 3 \\ \end{array}
+\begin{array}{l} r_{2,uu} = 8.39\% \\ Z_{2, u u} (2) = 1; \\ Z_{2, u u} (3) = 0. 9 5 8 9 3 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r_{1,u} = 4.28\% \\ Z _ {1, u} (2) = 0. 9 7 8 8 4 \\ Z _ {1, u} (3) = 0. 9 5 2 9 3 \\ \end{array}
+\begin{array}{l} r_{1,u} = 4.28\% \\ Z_{1, u} (2) = 0. 9 7 8 8 4 \\ Z_{1, u} (3) = 0. 9 5 2 9 3 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r_0 = 1.69\% \\ Z _ {0} (2) = 0. 9 7 8 1 \\ Z _ {0} (3) = 0. 9 6 1 5 \\ \end{array}
+\begin{array}{l} r_0 = 1.69\% \\ Z_{0} (2) = 0. 9 7 8 1 \\ Z_{0} (3) = 0. 9 6 1 5 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r_{1,d} = 1.22\% \\ Z _ {1, d} (2) = 0. 9 9 3 9 3 \\ Z _ {1, d} (3) = 0. 9 8 6 3 6 \\ \end{array}
+\begin{array}{l} r_{1,d} = 1.22\% \\ Z_{1, d} (2) = 0. 9 9 3 9 3 \\ Z_{1, d} (3) = 0. 9 8 6 3 6 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r_{2,ud} = 2.39\% \\ Z _ {2, u d} (2) = 1 \\ Z _ {2, u d} (3) = 0. 9 8 8 1 4 \\ \end{array}
+\begin{array}{l} r_{2,ud} = 2.39\% \\ Z_{2, u d} (2) = 1 \\ Z_{2, u d} (3) = 0. 9 8 8 1 4 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r_{2,dd} = 0.68\% \\ Z _ {2, d d} (2) = 1 \\ Z _ {2, d d} (3) = 0. 9 9 6 6 \\ \end{array}
+\begin{array}{l} r_{2,dd} = 0.68\% \\ Z_{2, d d} (2) = 1 \\ Z_{2, d d} (3) = 0. 9 9 6 6 \\ \end{array}
 $$
 
 # The Black-Derman-Toy Model
@@ -5302,19 +5302,19 @@ $$
 - The Black-Derman-Toy model still assume  $z_{i,j} = \log (r_{i,j})$  as in the simple BDT, but it assumes that between  $i$  and  $i + 1$ , for every two adjacent nodes  $j$  and  $j + 1$ , the variance is
 
 $$
-\sigma_ {i + 1} ^ {2} \Delta t = V a r i a n c e [ z _ {i} | z _ {i - 1, j} ]
+\sigma_{i + 1}^{2} \Delta t = V a r i a n c e [ z_{i} | z_{i - 1, j} ]
 $$
 
 - This implies that for every node  $j$ :
 
 $$
-\begin{array}{l} \sigma_ {i + 1} ^ {2} \Delta t = V a r i a n c e [ z _ {i} | z _ {i - 1, j} ] \\ = \frac {1}{2} \left(z _ {i, j} - E [ z _ {i} | z _ {i - 1, j} ]\right) ^ {2} + \frac {1}{2} \left(z _ {i, j + 1} - E [ z _ {i} | z _ {i - 1, j} ]\right) ^ {2} \\ = \frac {1}{2} \left(z _ {i, j} - \frac {1}{2} z _ {i, j} - \frac {1}{2} z _ {i, j + 1}\right) ^ {2} + \frac {1}{2} \left(z _ {i, j + 1} - \frac {1}{2} z _ {i, j} - \frac {1}{2} z _ {i, j + 1}\right) ^ {2} \\ = \frac {1}{2} \left(\frac {1}{2} z _ {i, j} - \frac {1}{2} z _ {i, j + 1}\right) ^ {2} + \frac {1}{2} \left(\frac {1}{2} z _ {i, j + 1} - \frac {1}{2} z _ {i, j}\right) ^ {2} \\ = \frac {1}{4} \left(z _ {i, j} - z _ {i, j + 1}\right) ^ {2} \\ \end{array}
+\begin{array}{l} \sigma_{i + 1}^{2} \Delta t = V a r i a n c e [ z_{i} | z_{i - 1, j} ] \\ = \frac{1}{2} \left(z_{i, j} - E [ z_{i} | z_{i - 1, j} ]\right)^{2} + \frac{1}{2} \left(z_{i, j + 1} - E [ z_{i} | z_{i - 1, j} ]\right)^{2} \\ = \frac{1}{2} \left(z_{i, j} - \frac{1}{2} z_{i, j} - \frac{1}{2} z_{i, j + 1}\right)^{2} + \frac{1}{2} \left(z_{i, j + 1} - \frac{1}{2} z_{i, j} - \frac{1}{2} z_{i, j + 1}\right)^{2} \\ = \frac{1}{2} \left(\frac{1}{2} z_{i, j} - \frac{1}{2} z_{i, j + 1}\right)^{2} + \frac{1}{2} \left(\frac{1}{2} z_{i, j + 1} - \frac{1}{2} z_{i, j}\right)^{2} \\ = \frac{1}{4} \left(z_{i, j} - z_{i, j + 1}\right)^{2} \\ \end{array}
 $$
 
 - The final equation is then
 
 $$
-\sigma_ {i + 1} \sqrt {\Delta t} = \frac {1}{2} \left(z _ {i, j} - z _ {i, j + 1}\right) \tag {17}
+\sigma_{i + 1} \sqrt{\Delta t} = \frac{1}{2} \left(z_{i, j} - z_{i, j + 1}\right) \tag {17}
 $$
 
 - We then need two types of inputs in this model
@@ -5338,49 +5338,49 @@ Table 1: Inputs to BDT Model
 - For every two states  $j$  and  $j + 1$ , using equation (17) we can rewrite
 
 $$
-z _ {i, j + 1} = z _ {i, j} - 2 \sigma_ {i + 1} \sqrt {\Delta t}
+z_{i, j + 1} = z_{i, j} - 2 \sigma_{i + 1} \sqrt{\Delta t}
 $$
 
 or
 
 $$
-z _ {i, j + 1} = z _ {i, 1} - 2 \times j \times \sigma_ {i + 1} \sqrt {\Delta t} \tag {19}
+z_{i, j + 1} = z_{i, 1} - 2 \times j \times \sigma_{i + 1} \sqrt{\Delta t} \tag {19}
 $$
 
 - The unknowns in our original model, with  $\Delta t = 1$  are then
 
 $$
-\begin{array}{l} i = 0 \\ i = 1 \left(\mathsf {u s e} \sigma_ {2}\right) \\ i = 2 \left(\text {u s e} \sigma_ {3}\right) \quad i = 3 \\ \end{array}
+\begin{array}{l} i = 0 \\ i = 1 \left(\mathsf {u s e} \sigma_{2}\right) \\ i = 2 \left(\text{us e} \sigma_{3}\right) \quad i = 3 \\ \end{array}
 $$
 
 $$
-z _ {1, u} = ?
+z_{1, u} = ?
 $$
 
 $$
-z _ {2, u u} = ?
-$$
-
-···
-
-$$
-z _ {0} = \log (.. 0 2 1 3)
-$$
-
-$$
-z _ {1, d} = z _ {1, u} - 2 \sigma_ {2}
-$$
-
-$$
-z _ {2, u d} = z _ {2, u u} - 2 \sigma_ {3}
+z_{2, u u} = ?
 $$
 
 ···
 
+$$
+z_{0} = \log (.. 0 2 1 3)
+$$
+
+$$
+z_{1, d} = z_{1, u} - 2 \sigma_{2}
+$$
+
+$$
+z_{2, u d} = z_{2, u u} - 2 \sigma_{3}
+$$
+
+···
+
 ···
 
 $$
-z _ {2, d d} = z _ {2, u u} - 4 \sigma_ {3}
+z_{2, d d} = z_{2, u u} - 4 \sigma_{3}
 $$
 
 ··
@@ -5407,7 +5407,7 @@ Source: Bloomberg
 - We want to price an interest rate option that pays at time  $i = 1$
 
 $$
-c _ {1} = 1 0 0 \times \max (r _ {1} - r _ {K}, 0)
+c_{1} = 1 0 0 \times \max (r_{1} - r_{K}, 0)
 $$
 
 where  $r_K$  is the strike rate.  
@@ -5415,7 +5415,7 @@ where  $r_K$  is the strike rate.
 - Using risk neutral pricing, the value of the option is:
 
 $$
-c _ {0} = E ^ {*} \left[ e ^ {- r _ {0} \times T} \times c _ {1} \right] = e ^ {- r _ {0} \times T} \left[ \frac {1}{2} \times c _ {1, u} + \frac {1}{2} \times c _ {1, d} \right] \tag {21}
+c_{0} = E^{*} \left[ e^{- r_{0} \times T} \times c_{1} \right] = e^{- r_{0} \times T} \left[ \frac{1}{2} \times c_{1, u} + \frac{1}{2} \times c_{1, d} \right] \tag {21}
 $$
 
 - Next figure computes the value of the option for a given binomial tree.
@@ -5429,15 +5429,15 @@ i = 1
 $$
 
 $$
-\begin{array}{l} r_0 = 1.74\% \\ c _ {0} = e ^ {- 1.74 \% / 2} \times \frac {1}{2} \times 1.747 \\ = 0. 8 6 6 0 \\ \end{array}
+\begin{array}{l} r_0 = 1.74\% \\ c_{0} = e^{- 1.74 \% / 2} \times \frac{1}{2} \times 1.747 \\ = 0. 8 6 6 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r_{1,u} = 3.75\% \\ c _ {1, u} = 1. 7 4 7 \\ \end{array}
+\begin{array}{l} r_{1,u} = 3.75\% \\ c_{1, u} = 1. 7 4 7 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r_{1,d} = 1.30\% \\ c _ {1, d} = 0 \\ \end{array}
+\begin{array}{l} r_{1,d} = 1.30\% \\ c_{1, d} = 0 \\ \end{array}
 $$
 
 # Monte Carlo Simulations on Binomial Tree
@@ -5452,13 +5452,13 @@ $$
 - For each of realization  $s$  of  $RAND()$ , we use the corresponding simulated  $r_{1,u}^{s}$  or  $r_{1,d}^{s}$  to compute the option payoff.
 
 $$
-c _ {1} ^ {s} = 1 0 0 \times \max (r _ {1} ^ {s} - r _ {K}, 0)
+c_{1}^{s} = 1 0 0 \times \max (r_{1}^{s} - r_{K}, 0)
 $$
 
 - We can compute the expected discounted payoff in (21) as the average of the discounted payoff across all simulations:
 
 $$
-\begin{array}{l} \hat {c} _ {0} = \mathsf {a v e r a g e o f} \left\{e ^ {- r _ {0} \times T} \times c _ {1} ^ {1}, e ^ {- r _ {0} \times T} \times c _ {1} ^ {2}, e ^ {- r _ {0} \times T} \times c _ {1} ^ {3}, \dots , e ^ {- r _ {0} \times T} \times c _ {1} ^ {3} \right\} \\ = \frac {1}{N} \sum_ {s = 1} ^ {N} e ^ {- r _ {0} \times T} c _ {1} ^ {s} \tag {22} \\ \end{array}
+\begin{array}{l} \hat {c}_{0} = \mathsf {a v e r a g e o f} \left\{e^{- r_{0} \times T} \times c_{1}^{1}, e^{- r_{0} \times T} \times c_{1}^{2}, e^{- r_{0} \times T} \times c_{1}^{3}, \dots , e^{- r_{0} \times T} \times c_{1}^{3} \right\} \\ = \frac{1}{N} \sum_{s = 1}^{N} e^{- r_{0} \times T} c_{1}^{s} \tag {22} \\ \end{array}
 $$
 
 # - Next Table illustrates the procedure
@@ -5476,7 +5476,7 @@ Ten Simulations on the Binomial Tree
 - The simulated value is
 
 $$
-\hat {c} _ {0} = 0. 6 9 3.
+\hat {c}_{0} = 0. 6 9 3.
 $$
 
 - With only  $N = 10$  simulation, it is no surprise that the value of the security  $\hat{c}_0 = 0.693$  comes in rather different than the value from the tree  $(c_0 = 0.8660)$ .  
@@ -5484,7 +5484,7 @@ $$
 - For instance
 
 $$
-\begin{array}{l} N = 5 0 0 \Longrightarrow \hat {c} _ {0} = 0. 8 9 7 \\ N = 1 0 0 0 \Longrightarrow \hat {c} _ {0} = 0. 8 8 8 \\ N = 1 0 0 0 0 \Longrightarrow \hat {c} _ {0} = 0. 8 5 7 5 \\ \end{array}
+\begin{array}{l} N = 5 0 0 \Longrightarrow \hat {c}_{0} = 0. 8 9 7 \\ N = 1 0 0 0 \Longrightarrow \hat {c}_{0} = 0. 8 8 8 \\ N = 1 0 0 0 0 \Longrightarrow \hat {c}_{0} = 0. 8 5 7 5 \\ \end{array}
 $$
 
 # Monte Carlo Simulations on Binomial Trees
@@ -5512,7 +5512,7 @@ c_{1,u} = e^{-3.75\% /2}
 $$
 
 $$
-\times \left[ \frac {1}{2} (4. 0 6 1 6 + 1. 6 1 5 0) \right]
+\times \left[ \frac{1}{2} (4. 0 6 1 6 + 1. 6 1 5 0) \right]
 $$
 
 $$
@@ -5524,47 +5524,47 @@ r_{2,uu} = 6.06\%
 $$
 
 $$
-c _ {2, u u} = 4. 0 6 1 6
+c_{2, u u} = 4. 0 6 1 6
 $$
 
 $$
-\begin{array}{l} r _ {0} = 1.74 \% \\ c _ {0} = e ^ {- 1.74 \% / 2} \times \\ \times \left[ \frac {1}{2} (2. 7 8 5 6 + 0. 8 0 2 2) \right] \\ = 1. 7 7 8 4 \\ \end{array}
+\begin{array}{l} r_{0} = 1.74 \% \\ c_{0} = e^{- 1.74 \% / 2} \times \\ \times \left[ \frac{1}{2} (2. 7 8 5 6 + 0. 8 0 2 2) \right] \\ = 1. 7 7 8 4 \\ \end{array}
 $$
 
 $$
-r _ {2, u d} = r _ {2, d u} = 3.61 \%
+r_{2, u d} = r_{2, d u} = 3.61 \%
 $$
 
 $$
-c _ {2, u d} = c _ {2, d u} = 1. 6 1 5 0
+c_{2, u d} = c_{2, d u} = 1. 6 1 5 0
 $$
 
 $$
-\begin{array}{l} r_{1,d} = 1.30\% \\ c _ {1, d} = e ^ {- 1.30 \% / 2} \\ \times \frac {1}{2} \times 1. 6 1 5 0 \\ = \overline {{0 . 8 0 2 2}} \\ \end{array}
+\begin{array}{l} r_{1,d} = 1.30\% \\ c_{1, d} = e^{- 1.30 \% / 2} \\ \times \frac{1}{2} \times 1. 6 1 5 0 \\ = \overline {{0 . 8 0 2 2}} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r_{2,dd} = 1.17\% \\ c _ {2, d d} = 0 \\ \end{array}
+\begin{array}{l} r_{2,dd} = 1.17\% \\ c_{2, d d} = 0 \\ \end{array}
 $$
 
 - First note that the backward computation methodology is equivalent to the outright calculation of the value of the security as the risk neutral present discounted value of the payoff at maturity, discounted at the risk free rate.  
 - That is, the value of the security is equal to
 
 $$
-c _ {0} = E ^ {*} \left[ \underbrace {\left(e ^ {- r _ {0} \times 0 . 5}\right)} _ {\times} \quad \times \quad \underbrace {\left(e ^ {- r _ {1} \times 0 . 5}\right)} _ {\times} \quad \times \quad \underbrace {c _ {2}} _ {\times} \right] \tag {23}
+c_{0} = E^{*} \left[ \underbrace {\left(e^{- r_{0} \times 0 . 5}\right)}_{\times} \quad \times \quad \underbrace {\left(e^{- r_{1} \times 0 . 5}\right)}_{\times} \quad \times \quad \underbrace {c_{2}}_{\times} \right] \tag {23}
 $$
 
 (Discount  $1 \to 0$ ) (Discount  $2 \to 1$ ) Payoff at 2
 
 $$
-= E ^ {*} \left[ e ^ {- \left(r _ {0} + r _ {1}\right) \times 0. 5} \times c _ {2} \right] \tag {24}
+= E^{*} \left[ e^{- \left(r_{0} + r_{1}\right) \times 0. 5} \times c_{2} \right] \tag {24}
 $$
 
 - Indeed, the interest rates  $r_{2,uu}, r_{2,ud}, r_{2,du}$  and  $r_{2,dd}$  occur with a  $25\%$  chance.  
 - Thus, the value of the option is also equal to
 
 $$
-\begin{array}{l} c _ {0} = 0. 2 5 \times e ^ {- (r _ {0} + r _ {1, u}) \times 0. 5} \times c _ {2, u u} + 0. 2 5 \times e ^ {- (r _ {0} + r _ {1, u}) \times 0. 5} \times c _ {2, u d} (25) \\ + 0. 2 5 \times e ^ {- (r _ {0} + r _ {1, d}) \times 0. 5} \times c _ {2, d u} + 0. 2 5 \times e ^ {- (r _ {0} + r _ {1, d}) \times 0. 5} \times c _ {2, d d} (26) \\ = 1. 7 7 8 4, \\ \end{array}
+\begin{array}{l} c_{0} = 0. 2 5 \times e^{- (r_{0} + r_{1, u}) \times 0. 5} \times c_{2, u u} + 0. 2 5 \times e^{- (r_{0} + r_{1, u}) \times 0. 5} \times c_{2, u d} (25) \\ + 0. 2 5 \times e^{- (r_{0} + r_{1, d}) \times 0. 5} \times c_{2, d u} + 0. 2 5 \times e^{- (r_{0} + r_{1, d}) \times 0. 5} \times c_{2, d d} (26) \\ = 1. 7 7 8 4, \\ \end{array}
 $$
 
 - the same price as from the tree
@@ -5577,7 +5577,7 @@ $$
 - Higher number of simulations improves accuracy:
 
 $$
-N = 1 0 \Longrightarrow \hat {c} _ {0} = 1. 9 7 5
+N = 1 0 \Longrightarrow \hat {c}_{0} = 1. 9 7 5
 $$
 
 $$
@@ -5602,7 +5602,7 @@ $$
 - An Asian interest rate option is an option whose payoff at maturity is given by
 
 $$
-\text {P a y o f f} T = \left\{ \begin{array}{l l} \max  (\text {a v e r a g e r a t e f r o m 0 t o} T - r _ {K}, 0) & (\text {A s i a n C a l l}) \\ \max  (r _ {K} - \text {a v e r a g e r a t e f r o m 0 t o} T, 0) & (\text {A s i a n P u t}) \end{array} \right. \tag {27}
+\text{Pa yo ff} T = \left\{ \begin{array}{l l} \max  (\text{av er ag er at ef ro m0 to} T - r_{K}, 0) & (\text{As ia nC al l}) \\ \max  (r_{K} - \text{av er ag er at ef ro m0 to} T, 0) & (\text{As ia nP ut}) \end{array} \right. \tag {27}
 $$
 
 - This payoff makes the binomial tree non-recombining, as the payoff from "up-down movement" is different from the payoff from a "down-up movement"  
@@ -5630,31 +5630,31 @@ i = 2
 $$
 
 $$
-c _ {2, u u} = 1. 8 4 9 5
+c_{2, u u} = 1. 8 4 9 5
 $$
 
 $$
-\begin{array}{l} c_{1,u} = e^{-3.75\% /2} \\ \times \left[ \frac {1}{2} \times 1. 8 4 9 5 + \frac {1}{2} \times 1. 0 3 4 0 \right] \\ = 1. 4 1 5 0 \\ \end{array}
+\begin{array}{l} c_{1,u} = e^{-3.75\% /2} \\ \times \left[ \frac{1}{2} \times 1. 8 4 9 5 + \frac{1}{2} \times 1. 0 3 4 0 \right] \\ = 1. 4 1 5 0 \\ \end{array}
 $$
 
 $$
-c _ {2, u d} = 1. 0 3 4 0
+c_{2, u d} = 1. 0 3 4 0
 $$
 
 $$
-\begin{array}{l} c _ {0} = e ^ {- 1.74 \% / 2} \\ \times \left[ \frac {1}{2} \times 1. 4 1 5 0 + \frac {1}{2} \times 0. 1 0 8 5 \right] \\ = 0. 7 5 5 2 \\ \end{array}
+\begin{array}{l} c_{0} = e^{- 1.74 \% / 2} \\ \times \left[ \frac{1}{2} \times 1. 4 1 5 0 + \frac{1}{2} \times 0. 1 0 8 5 \right] \\ = 0. 7 5 5 2 \\ \end{array}
 $$
 
 $$
-c _ {2, d u} = 0. 2 1 8 5
+c_{2, d u} = 0. 2 1 8 5
 $$
 
 $$
-\begin{array}{l} c_{1,d} = e^{-1.30\% /2} \\ \times \left[ \frac {1}{2} \times 0. 2 1 8 5 + \frac {1}{2} \times 0 \right] \\ = 0. 1 0 8 5 \\ \end{array}
+\begin{array}{l} c_{1,d} = e^{-1.30\% /2} \\ \times \left[ \frac{1}{2} \times 0. 2 1 8 5 + \frac{1}{2} \times 0 \right] \\ = 0. 1 0 8 5 \\ \end{array}
 $$
 
 $$
-c _ {2, d d} = 0
+c_{2, d d} = 0
 $$
 
 # Monte Carlo Simulations for Path Dependent Securities
@@ -5674,11 +5674,11 @@ Average: 0.885
 - For instance, in the Ho-Lee model we can simulate directly the tree
 
 $$
-r _ {i + 1, j} = r _ {i, j} + \theta_ {i} \times \Delta + \sigma \times \sqrt {\Delta} \quad \text {w i t h R N p r o b a b i l i t y} p ^ {*} = 1 / 2 \tag {28}
+r_{i + 1, j} = r_{i, j} + \theta_{i} \times \Delta + \sigma \times \sqrt{\Delta} \quad \text{wi th RN pr ob ab il it y} p^{*} = 1 / 2 \tag {28}
 $$
 
 $$
-r _ {i + 1, j + 1} = r _ {i, j} + \theta_ {i} \times \Delta - \sigma \times \sqrt {\Delta} \quad \text {w i t h R N p r o b a b i l i t y} p ^ {*} = 1 / 2 \tag {29}
+r_{i + 1, j + 1} = r_{i, j} + \theta_{i} \times \Delta - \sigma \times \sqrt{\Delta} \quad \text{wi th RN pr ob ab il it y} p^{*} = 1 / 2 \tag {29}
 $$
 
 <table><tr><td colspan="12">Ho-Lee Binomial Tree</td></tr><tr><td>Time T</td><td>0</td><td>0.5</td><td>1</td><td>1.5</td><td>2</td><td>2.5</td><td>3</td><td>3.5</td><td>4</td><td>4.5</td><td>5</td></tr><tr><td>Period i</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>θi(×100)</td><td>1.5675</td><td>2.1824</td><td>1.4374</td><td>1.7324</td><td>0.7873</td><td>0.0423</td><td>-0.0628</td><td>0.4322</td><td>0.9271</td><td>0.1202</td><td></td></tr><tr><td colspan="12">Panel A: The Ho-Lee Interest Rate Tree</td></tr><tr><td>j</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>0</td><td>1.74</td><td>3.75</td><td>6.06</td><td>8.00</td><td>10.09</td><td>11.71</td><td>12.95</td><td>14.15</td><td>15.59</td><td>17.27</td><td>18.56</td></tr><tr><td>1</td><td></td><td>1.30</td><td>3.61</td><td>5.56</td><td>7.65</td><td>9.26</td><td>10.51</td><td>11.70</td><td>13.14</td><td>14.83</td><td>16.11</td></tr><tr><td>2</td><td></td><td></td><td>1.17</td><td>3.11</td><td>5.20</td><td>6.82</td><td>8.06</td><td>9.25</td><td>10.69</td><td>12.38</td><td>13.66</td></tr><tr><td>3</td><td></td><td></td><td></td><td>0.66</td><td>2.75</td><td>4.37</td><td>5.61</td><td>6.81</td><td>8.25</td><td>9.93</td><td>11.22</td></tr><tr><td>4</td><td></td><td></td><td></td><td></td><td>0.31</td><td>1.92</td><td>3.17</td><td>4.36</td><td>5.80</td><td>7.49</td><td>8.77</td></tr><tr><td>5</td><td></td><td></td><td></td><td></td><td></td><td>-0.52</td><td>0.72</td><td>1.91</td><td>3.35</td><td>5.04</td><td>6.32</td></tr><tr><td>6</td><td></td><td></td><td></td><td></td><td></td><td></td><td>-1.73</td><td>-0.53</td><td>0.91</td><td>2.59</td><td>3.88</td></tr><tr><td>7</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-2.98</td><td>-1.54</td><td>0.15</td><td>1.43</td></tr><tr><td>8</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-3.99</td><td>-2.30</td><td>-1.02</td></tr><tr><td>9</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-4.75</td><td>-3.46</td></tr><tr><td>10</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-5.91</td></tr><tr><td colspan="12">Simulations on Ho-Lee Binomial Tree</td></tr><tr><td>Time T</td><td>0</td><td>0.5</td><td>1</td><td>1.5</td><td>2</td><td>2.5</td><td>3</td><td>3.5</td><td>4</td><td>4.5</td><td>5</td></tr><tr><td>Period i</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td colspan="12">Panel B: Ten Simulated Paths of Ho-Lee Tree</td></tr><tr><td colspan="12">——Period i——</td></tr><tr><td>Simulation</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>1</td><td>1.74</td><td>1.30</td><td>3.61</td><td>5.56</td><td>5.20</td><td>6.82</td><td>8.06</td><td>6.81</td><td>8.25</td><td>7.49</td><td>6.32</td></tr><tr><td>2</td><td>1.74</td><td>3.75</td><td>3.61</td><td>3.11</td><td>2.75</td><td>4.37</td><td>5.61</td><td>6.81</td><td>5.80</td><td>5.04</td><td>3.88</td></tr><tr><td>3</td><td>1.74</td><td>3.75</td><td>3.61</td><td>3.11</td><td>5.20</td><td>6.82</td><td>8.06</td><td>9.25</td><td>8.25</td><td>9.93</td><td>8.77</td></tr><tr><td>4</td><td>1.74</td><td>3.75</td><td>6.06</td><td>5.56</td><td>7.65</td><td>9.26</td><td>8.06</td><td>6.81</td><td>8.25</td><td>7.49</td><td>8.77</td></tr><tr><td>5</td><td>1.74</td><td>1.30</td><td>3.61</td><td>3.11</td><td>5.20</td><td>6.82</td><td>5.61</td><td>6.81</td><td>5.80</td><td>7.49</td><td>6.32</td></tr><tr><td>6</td><td>1.74</td><td>1.30</td><td>3.61</td><td>3.11</td><td>5.20</td><td>4.37</td><td>5.61</td><td>6.81</td><td>5.80</td><td>7.49</td><td>6.32</td></tr><tr><td>7</td><td>1.74</td><td>1.30</td><td>3.61</td><td>5.56</td><td>5.20</td><td>4.37</td><td>3.17</td><td>4.36</td><td>3.35</td><td>2.59</td><td>1.43</td></tr><tr><td>8</td><td>1.74</td><td>1.30</td><td>1.17</td><td>0.66</td><td>2.75</td><td>1.92</td><td>0.72</td><td>1.91</td><td>3.35</td><td>5.04</td><td>3.88</td></tr><tr><td>9</td><td>1.74</td><td>3.75</td><td>3.61</td><td>3.11</td><td>5.20</td><td>6.82</td><td>8.06</td><td>6.81</td><td>5.80</td><td>7.49</td><td>8.77</td></tr><tr><td>10</td><td>1.74</td><td>3.75</td><td>6.06</td><td>8.00</td><td>10.09</td><td>9.26</td><td>8.06</td><td>9.25</td><td>10.69</td><td>12.38</td><td>11.22</td></tr></table>
@@ -5688,7 +5688,7 @@ $$
 - For each simulated path  $r_0, r_1^s, r_2^s, \ldots, r_{k-1}^s$ , compute the simulated zero with maturity  $T_k$  as
 
 $$
-Z ^ {s} (0, T _ {k}) = e ^ {- \sum_ {i = 1} ^ {k - 1} r _ {i} ^ {s} \Delta t}
+Z^{s} (0, T_{k}) = e^{- \sum_{i = 1}^{k - 1} r_{i}^{s} \Delta t}
 $$
 
 <table><tr><td>Time T</td><td>0</td><td>0.5</td><td>1</td><td>1.5</td><td>2</td><td>2.5</td><td>3</td><td>3.5</td><td>4</td><td>4.5</td><td>5</td></tr><tr><td>Period i</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr></table>
@@ -5702,7 +5702,7 @@ Panel C: Ten Simulated Discounts  $Z^{s}(0,T_{i})$
 - The simulated value of a zero coupon bond is the average across simulated discounts
 
 $$
-\widehat {Z} (0, T _ {k}) = \frac {1}{N} \sum_ {s = 1} ^ {N} Z ^ {s} (0, T _ {k})
+\widehat {Z} (0, T_{k}) = \frac{1}{N} \sum_{s = 1}^{N} Z^{s} (0, T_{k})
 $$
 
 - The simulated values with  $N = 1000$  are reported in the next table, together with the data used to fit the Ho-Lee tree model
@@ -5714,23 +5714,23 @@ $$
 - The same valuation methodology can be used to price long-term options, such as one paying at  $i = 1,\ldots ,{10}$
 
 $$
-\text {P a y o f f} i = 1 0 0 \times \max  \left(r _ {i} - r _ {K}, 0\right)
+\text{Pa yo ff} i = 1 0 0 \times \max  \left(r_{i} - r_{K}, 0\right)
 $$
 
 - Risk neutral pricing implies that the price of this option is given by
 
 $$
-c _ {0} \left(T _ {i}\right) = E ^ {*} [ \text {P r e s e n t v a l u e o f p a y o f f a t} T _ {i} ] \tag {30}
+c_{0} \left(T_{i}\right) = E^{*} [ \text{Pr es en tv al ue of pa yo ff at} T_{i} ] \tag {30}
 $$
 
 $$
-= E ^ {*} \left[ e ^ {- (r _ {0} + r _ {1} + \dots + r _ {i - 1}) \times \Delta} \times 1 0 0 \times \max  (r _ {i} - r _ {K}, 0) \right] \tag {31}
+= E^{*} \left[ e^{- (r_{0} + r_{1} + \dots + r_{i - 1}) \times \Delta} \times 1 0 0 \times \max  (r_{i} - r_{K}, 0) \right] \tag {31}
 $$
 
 - For each simulation path  $s$ ,  $r_0, r_1^s, r_2^s, \ldots, r_n^s$ ,  $s = 1, \ldots, N$ , we compute the discounted payoff
 
 $$
-\begin{array}{l} c _ {0} ^ {s} (T _ {i}) = e ^ {- \left(r _ {0} + r _ {1} ^ {s} + r _ {2} ^ {s} + \dots + r _ {i - 1} ^ {s}\right) \times \Delta} \times 1 0 0 \times \max  \left(r _ {i} ^ {s} - r _ {K}, 0\right) \\ = Z ^ {s} (0, T _ {i}) \times \times 1 0 0 \times \max (r _ {i} ^ {s} - r _ {K}, 0) \tag {32} \\ \end{array}
+\begin{array}{l} c_{0}^{s} (T_{i}) = e^{- \left(r_{0} + r_{1}^{s} + r_{2}^{s} + \dots + r_{i - 1}^{s}\right) \times \Delta} \times 1 0 0 \times \max  \left(r_{i}^{s} - r_{K}, 0\right) \\ = Z^{s} (0, T_{i}) \times \times 1 0 0 \times \max (r_{i}^{s} - r_{K}, 0) \tag {32} \\ \end{array}
 $$
 
 where we used  $Z^{s}(0,T_{i}) = e^{-\left(r_{0} + r_{1}^{s} + r_{2}^{s} + \ldots +r_{i - 1}^{s}\right)\times \Delta}$  
@@ -5738,7 +5738,7 @@ where we used  $Z^{s}(0,T_{i}) = e^{-\left(r_{0} + r_{1}^{s} + r_{2}^{s} + \ldot
 - Today's value of the option with maturity  $T_{i}$  is then given by the average of  $c_0^s (T_i)$
 
 $$
-\hat {c} _ {0} (T _ {i}) = \frac {1}{N} \sum_ {s = 1} ^ {N} c _ {0} ^ {s} (T _ {i}) \tag {33}
+\hat {c}_{0} (T_{i}) = \frac{1}{N} \sum_{s = 1}^{N} c_{0}^{s} (T_{i}) \tag {33}
 $$
 
 - Panel A of next table reports the value of interest rate options with maturity from  $T_{i} = 0.5$  to  $T_{i} = 5$  and for a strike rate  $r_{K} = 1.74\%$ .  
@@ -5746,7 +5746,7 @@ $$
 - For instance, the first element of the first row is given by
 
 $$
-c _ {0} ^ {1} (0. 5) = Z ^ {1} (0, 0. 5) \times 1 0 0 \times \max (r _ {1} ^ {1} - r _ {K}, 0) = 0. 9 9 1 3 \times 1 0 0 \times \max (1. 3 0
+c_{0}^{1} (0. 5) = Z^{1} (0, 0. 5) \times 1 0 0 \times \max (r_{1}^{1} - r_{K}, 0) = 0. 9 9 1 3 \times 1 0 0 \times \max (1. 3 0
 $$
 
 where the sequence of the simulated interest rate and discounts are given in Panels B and C of previous table.  
@@ -5754,7 +5754,7 @@ where the sequence of the simulated interest rate and discounts are given in Pan
 - Similarly, the second entry in the first row is given by
 
 $$
-c _ {0} ^ {1} (1) = Z ^ {1} (0, 1) \times 1 0 0 \times \max (r _ {2} ^ {1} - r _ {K}, 0) = 0. 9 8 4 9 \times 1 0 0 \times \max (3. 6 1
+c_{0}^{1} (1) = Z^{1} (0, 1) \times 1 0 0 \times \max (r_{2}^{1} - r_{K}, 0) = 0. 9 8 4 9 \times 1 0 0 \times \max (3. 6 1
 $$
 
 - The option values in Panel A are then computed as the average of values in the corresponding column in Panel B
@@ -5768,7 +5768,7 @@ $$
 - Because it is an estimate, we can compute the price's standard error.
 
 $$
-\mathrm {S t a n d a r d e r r o r} = \frac {\mathrm {S t a n d a r d d e v i a t i o n o f} \{c _ {0} ^ {1} , c _ {0} ^ {2} , c _ {0} ^ {3} , \ldots , c _ {0} ^ {N} \}}{\sqrt {N}}
+\mathrm{St an da rd er ro r} = \frac{\mathrm{St an da rd de vi at io no f} \{c_{0}^{1} , c_{0}^{2} , c_{0}^{3} , \ldots , c_{0}^{N} \}}{\sqrt{N}}
 $$
 
 - For instance, the first two rows in next Table reports the prices (again) and standard errors of the long-term interest call options discussed earlier.
@@ -5781,7 +5781,7 @@ $$
 - The related concept of a (95%) confidence interval answers this question:
 
 $$
-\text {C o n f i d e n c e} = \left[ \hat {c} _ {0} - 2 \times \text {S t . E r r .}, \hat {c} _ {0} + 2 \times \text {S t . E r r .} \right]
+\text{Co nf id en ce} = \left[ \hat {c}_{0} - 2 \times \text{St .E rr .}, \hat {c}_{0} + 2 \times \text{St .E rr .} \right]
 $$
 
 - There  $95\%$  probability that the true value  $c_{0}$  is between the upper and lower boundary of the confidence interval.
@@ -5809,7 +5809,7 @@ $$
 - We can use Monte Carlo simulations to compute the "spot rate" duration, defined as
 
 $$
-\text {S p o t r a t e d u r a t i o n} = - \frac {1}{P} \frac {d P}{d r} \approx - \frac {1}{\widehat {P} \left(r _ {0}\right)} \frac {\widehat {P} \left(r _ {0} + d r\right) - \widehat {P} \left(r _ {0}\right)}{d r} \tag {34}
+\text{Sp ot ra te du ra ti on} = - \frac{1}{P} \frac{d P}{d r} \approx - \frac{1}{\widehat {P} \left(r_{0}\right)} \frac{\widehat {P} \left(r_{0} + d r\right) - \widehat {P} \left(r_{0}\right)}{d r} \tag {34}
 $$
 
 - That is, compute the price starting from  $r_0$  and from  $r_0 + dr$ . Then approximate the duration numerically.  
@@ -5835,19 +5835,19 @@ Duration Calculations by Monte Carlo Simulations
 - For instance, the Ho-Lee model also works with "continuous" shocks
 
 $$
-r _ {t + \Delta t} = r _ {t} + \theta_ {t} \Delta t + \sigma \sqrt {\Delta t} \varepsilon_ {t + \delta}
+r_{t + \Delta t} = r_{t} + \theta_{t} \Delta t + \sigma \sqrt{\Delta t} \varepsilon_{t + \delta}
 $$
 
 - where  $\Delta t$  is a small interval of time, and
 
 $$
-\varepsilon_ {t + \Delta t} \sim N (0, 1)
+\varepsilon_{t + \Delta t} \sim N (0, 1)
 $$
 
 - More generally, we can have
 
 $$
-r _ {t + \Delta t} = r _ {t} + \mu (r _ {t}) \Delta t + \sigma (r _ {t}) \sqrt {\Delta t} \varepsilon_ {t + \delta}
+r_{t + \Delta t} = r_{t} + \mu (r_{t}) \Delta t + \sigma (r_{t}) \sqrt{\Delta t} \varepsilon_{t + \delta}
 $$
 
 - for some function  $\mu(r_{t})$  and  $\sigma(r_{t})$ .
@@ -5856,7 +5856,7 @@ $$
 - The price of a security with payoff  $g(r_{T})$  at maturity  $T$ , with a time interval  $\Delta t = T / n$ , is
 
 $$
-Z (0, T) = E ^ {*} \left[ e ^ {- \sum_ {j = 0} ^ {n - 1} r _ {j} \Delta t} \times g (r _ {T}) \right] \approx \frac {1}{N} \sum_ {s = 1} ^ {N} \left[ e ^ {- \sum_ {j = 0} ^ {n - 1} r _ {j} ^ {s} \Delta t} \times g (r _ {T} ^ {s}) \right]
+Z (0, T) = E^{*} \left[ e^{- \sum_{j = 0}^{n - 1} r_{j} \Delta t} \times g (r_{T}) \right] \approx \frac{1}{N} \sum_{s = 1}^{N} \left[ e^{- \sum_{j = 0}^{n - 1} r_{j}^{s} \Delta t} \times g (r_{T}^{s}) \right]
 $$
 
 # Teaching Note 6
@@ -5913,33 +5913,33 @@ It is important to review some basic facts about mortgages
 - According to the standard present value relation, the periodic coupon  $C$  must then satisfy
 
 $$
-L = \sum_ {i = 1} ^ {3 0 \times 1 2} \frac {C}{\left(1 + \frac {r _ {1 2} ^ {m}}{1 2}\right) ^ {i}} = \sum_ {i = 1} ^ {3 0 \times 1 2} C \times A ^ {i} \tag {1}
+L = \sum_{i = 1}^{3 0 \times 1 2} \frac{C}{\left(1 + \frac{r_{1 2}^{m}}{1 2}\right)^{i}} = \sum_{i = 1}^{3 0 \times 1 2} C \times A^{i} \tag {1}
 $$
 
 where
 
 $$
-A = \frac {1}{1 + \frac {\bar {r} _ {1 2} ^ {m}}{1 2}} \tag {2}
+A = \frac{1}{1 + \frac{\bar {r}_{1 2}^{m}}{1 2}} \tag {2}
 $$
 
 - The coupon in (1) is then given by
 
 $$
-C = \frac {L}{\sum_ {i = 1} ^ {3 0 \times 1 2} A ^ {i}} \tag {3}
+C = \frac{L}{\sum_{i = 1}^{3 0 \times 1 2} A^{i}} \tag {3}
 $$
 
 - The interest and the principal paid at any time  $t$  are given by:
 
 $$
-\text {I n t e r s t} t = I _ {t} = \frac {\bar {r} _ {1 2} ^ {m}}{1 2} \times L _ {t} \tag {4}
+\text{In te rs t} t = I_{t} = \frac{\bar {r}_{1 2}^{m}}{1 2} \times L_{t} \tag {4}
 $$
 
 $$
-\text {P r i n c i p a l} t = L _ {t} ^ {\text {p a i d}} = C - I _ {t} \tag {5}
+\text{Pr in ci pa l} t = L_{t}^{\text{pa id}} = C - I_{t} \tag {5}
 $$
 
 $$
-\text {P r i n c i p a l} t + 1 = L _ {t + 1} = L _ {t} - L _ {t} ^ {\text {p a i d}} \tag {6}
+\text{Pr in ci pa l} t + 1 = L_{t + 1} = L_{t} - L_{t}^{\text{pa id}} \tag {6}
 $$
 
 # Scheduled Principal Balance, Scheduled Interest, and Principal Payments
@@ -5953,7 +5953,7 @@ $$
 - The value of the mortgage debt changes over time as mortgage rates change:
 
 $$
-\text {V a l u e o f m o r t g a g e d e b t} = P (t) = \sum_ {i = 1} ^ {n} \frac {C}{\left(1 + r _ {1 2} ^ {m} (t , T _ {i}) / 1 2\right) ^ {i}}
+\text{Va lu eo fm or tg ag ed eb t} = P (t) = \sum_{i = 1}^{n} \frac{C}{\left(1 + r_{1 2}^{m} (t , T_{i}) / 1 2\right)^{i}}
 $$
 
 - where  $n$  is the number of payments left at time  $t$  and  $r_{12}^{m}(t,T_{i})$  are appropriate spot rates, related to the current term structure of mortgage rates.
@@ -5988,13 +5988,13 @@ Source: Federal Reserve and Bloomberg.
 - Constant Maturity Mortality: It assumes a constant probability  $p$  that the mortgage will be prepaid after the next coupon.
 
 $$
-\Pr \left(\text {P r e p a m e n t} t = n \text {m o n t h s f r o m n o w}\right) = (1 - p) ^ {n} p
+\Pr \left(\text{Pr ep am en t} t = n \text{mo nt hs fr om no w}\right) = (1 - p)^{n} p
 $$
 
 - The annualized rate, the conditional prepayment rate (CPR) given by:
 
 $$
-\Pr \left(\text {S u r v i v a l} t = 1 2\right) = (1 - p) ^ {1 2} = (1 - C P R)
+\Pr \left(\text{Su rv iv al} t = 1 2\right) = (1 - p)^{1 2} = (1 - C P R)
 $$
 
 - Thus, the CPR is computed from  $p$  as  $CPR = 1 - (1 - p)^{12}$ .
@@ -6035,7 +6035,7 @@ Total cash flow:  $CF_{t} = I_{t}^{PT} + Pay_{t}^{scheduled} + Pay_{t}^{prepaid}
 - The price of the pass-through MBS is then simply:
 
 $$
-P ^ {M B S} (0, T) = \sum_ {t = 1} ^ {T} Z (0, t) C F _ {t} \tag {14}
+P^{M B S} (0, T) = \sum_{t = 1}^{T} Z (0, t) C F_{t} \tag {14}
 $$
 
 # The Negative Convexity of Mortgage Backed Securities
@@ -6048,13 +6048,13 @@ $$
 - Negative convexity implies a negative loss on average
 
 $$
-P ^ {M B S} (t + 1, T) \approx P ^ {M B S} (t, T) + \frac {d P ^ {M B S} (t , T)}{d r} (r (t + 1) - r (t)) + \frac {1}{2} \frac {d ^ {2} P ^ {M B S} (t , T)}{d r ^ {2}} (r (t + 1) - r (t)) ^ {2} + \dots .
+P^{M B S} (t + 1, T) \approx P^{M B S} (t, T) + \frac{d P^{M B S} (t , T)}{d r} (r (t + 1) - r (t)) + \frac{1}{2} \frac{d^{2} P^{M B S} (t , T)}{d r^{2}} (r (t + 1) - r (t))^{2} + \dots .
 $$
 
 - Thus, assuming over a short period  $E\left\lbrack  {r\left( {t + 1}\right)  - r\left( t\right) }\right\rbrack   = 0$  ,we have:
 
 $$
-E \left[ \frac {P ^ {M B S} (t + 1 , T) - P ^ {M B S} (t , T)}{P ^ {M B S} (t , T)} \right] \approx \frac {1}{2} C E \left[ (r (t + 1) - r (t)) ^ {2} \right]
+E \left[ \frac{P^{M B S} (t + 1 , T) - P^{M B S} (t , T)}{P^{M B S} (t , T)} \right] \approx \frac{1}{2} C E \left[ (r (t + 1) - r (t))^{2} \right]
 $$
 
 - Because  $E\left[\left(r(t + 1) - r(t)\right)^2\right] > 0$ , the negative convexity  $C$  implies an average loss generated by the average variation in interest rates.
@@ -6098,17 +6098,17 @@ Source: Bloomberg and Federal Reserve Board.
 - For instance, simply using the same formulas as for bonds seems wrong. Indeed, two simple formulas are
 
 $$
-D = - \frac {1}{P ^ {M B S} (0 , T)} \frac {d P ^ {M B S} (0 , T)}{d r} = \sum_ {i = 1} ^ {n} w _ {i} T _ {i}; \quad \text {a n d} \tag {15}
+D = - \frac{1}{P^{M B S} (0 , T)} \frac{d P^{M B S} (0 , T)}{d r} = \sum_{i = 1}^{n} w_{i} T_{i}; \quad \text{an d} \tag {15}
 $$
 
 $$
-C = \frac {1}{P ^ {M B S} (0 , T)} \frac {d ^ {2} P ^ {M B S} (0 , T)}{d r ^ {2}} = \sum_ {i = 1} ^ {n} w _ {i} T _ {i} ^ {2} \tag {16}
+C = \frac{1}{P^{M B S} (0 , T)} \frac{d^{2} P^{M B S} (0 , T)}{d r^{2}} = \sum_{i = 1}^{n} w_{i} T_{i}^{2} \tag {16}
 $$
 
 where
 
 $$
-w _ {i} = \frac {C F _ {T _ {i}} Z (0 , T _ {i})}{P ^ {M B S} (0 , T)}
+w_{i} = \frac{C F_{T_{i}} Z (0 , T_{i})}{P^{M B S} (0 , T)}
 $$
 
 - This calculation yields  $D = 4.39$  and  $C = 36.1590$ .
@@ -6141,21 +6141,21 @@ Source: SIFMA.
 - Using for instance a 50bps increase / decrease, we obtain
 
 $$
-D \approx - \frac {1}{P} \frac {P (+ 5 0 b p s) - P (- 5 0 b p s)}{2 \times 5 0 b p s} = - \frac {1}{9 9 . 4 3} \frac {9 6 . 7 9 - 1 0 1 . 4 3}{2 \times 5 0 b p s} = 4. 6 8
+D \approx - \frac{1}{P} \frac{P (+ 5 0 b p s) - P (- 5 0 b p s)}{2 \times 5 0 b p s} = - \frac{1}{9 9 . 4 3} \frac{9 6 . 7 9 - 1 0 1 . 4 3}{2 \times 5 0 b p s} = 4. 6 8
 $$
 
 $$
-C \approx \frac {1}{P} \frac {P (+ 5 0 b p s) + P (- 5 0 b p s) - 2 \times P}{(5 0 b p s) ^ {2}} = \frac {1}{9 9 . 4 3} \frac {9 6 . 7 9 + 1 0 1 . 4 3 - 2 \times 9 9 . 4 3}{(5 0 b p s) ^ {2}} = - 2 5 1. 0 8
+C \approx \frac{1}{P} \frac{P (+ 5 0 b p s) + P (- 5 0 b p s) - 2 \times P}{(5 0 b p s)^{2}} = \frac{1}{9 9 . 4 3} \frac{9 6 . 7 9 + 1 0 1 . 4 3 - 2 \times 9 9 . 4 3}{(5 0 b p s)^{2}} = - 2 5 1. 0 8
 $$
 
 - Using instead a 100bps increase / decrease, we obtain
 
 $$
-D \approx - \frac {1}{P} \frac {P (+ 1 0 0 b p s) - P (- 1 0 0 b p s)}{2 \times 1 0 0 b p s} = - \frac {1}{9 9 . 4 3} \frac {9 4 . 0 0 - 1 0 2 . 2 4}{2 \times 1 0 0 b p s} = 4. 1 4
+D \approx - \frac{1}{P} \frac{P (+ 1 0 0 b p s) - P (- 1 0 0 b p s)}{2 \times 1 0 0 b p s} = - \frac{1}{9 9 . 4 3} \frac{9 4 . 0 0 - 1 0 2 . 2 4}{2 \times 1 0 0 b p s} = 4. 1 4
 $$
 
 $$
-C \approx \frac {1}{P} \frac {P (+ 1 0 0 b p s) + P (- 1 0 0 b p s) - 2 \times P}{(1 0 0 b p s) ^ {2}} = \frac {1}{9 9 . 4 3} \frac {9 4 . 0 0 + 1 0 2 . 2 4 - 2 \times 9 9 . 4 3}{(1 0 0 b p s) ^ {2}} = - 2 6 2. 6 3
+C \approx \frac{1}{P} \frac{P (+ 1 0 0 b p s) + P (- 1 0 0 b p s) - 2 \times P}{(1 0 0 b p s)^{2}} = \frac{1}{9 9 . 4 3} \frac{9 4 . 0 0 + 1 0 2 . 2 4 - 2 \times 9 9 . 4 3}{(1 0 0 b p s)^{2}} = - 2 6 2. 6 3
 $$
 
 - These numbers for convexity are much more in line with the intuition that cash flows increase when interest rate decline, because of the prepayment option.
@@ -6169,17 +6169,17 @@ $$
 - Using these data, and denoting  $c_{t}(5)$  the 5-year swap rate at  $t$ , we can also estimate a (simple) polynomial regression
 
 $$
-P _ {t} = \alpha + \sum_ {i = 1} ^ {4} \beta_ {i} \times c _ {t} (5) ^ {i} + \epsilon_ {t}
+P_{t} = \alpha + \sum_{i = 1}^{4} \beta_{i} \times c_{t} (5)^{i} + \epsilon_{t}
 $$
 
 - Given the estimates, we can easily compute  $\frac{dP}{dr}$  and  $\frac{d^2P}{dr^2}$ , obtaining then
 
 $$
-\text {E m p i r i c a l D u r a t i o n} = - \frac {1}{P} \frac {d P}{d c (5)} = \frac {4 4 4 . 6 6}{9 9 . 4 2 1 9} = 4. 4 7 2 5 \tag {17}
+\text{Em pi ri ca lD ur at io n} = - \frac{1}{P} \frac{d P}{d c (5)} = \frac{4 4 4 . 6 6}{9 9 . 4 2 1 9} = 4. 4 7 2 5 \tag {17}
 $$
 
 $$
-\text {E m p i r i c a l C o n v e x i t y} = \frac {1}{P} \frac {d ^ {2} P}{d c (5) ^ {2}} = \frac {- 1 4 7 3 1 . 4}{9 9 . 4 2 1 9} = - 1 4 8. 1 7 \tag {18}
+\text{Em pi ri ca lC on ve xi ty} = \frac{1}{P} \frac{d^{2} P}{d c (5)^{2}} = \frac{- 1 4 7 3 1 . 4}{9 9 . 4 2 1 9} = - 1 4 8. 1 7 \tag {18}
 $$
 
 - Given  $D$  and  $C$ , hedging can then be achieved using the same methodologies as before.
@@ -6215,39 +6215,39 @@ i = 3
 $$
 
 $$
-r _ {3, u u u} = 0. 0 9 8 2
+r_{3, u u u} = 0. 0 9 8 2
 $$
 
 $$
-r _ {2, u u} = 0. 0 8 4 8
+r_{2, u u} = 0. 0 8 4 8
 $$
 
 $$
-\begin{array}{l} r _ {3, u u d} \\ r _ {3, u d u} \end{array} = 0. 0 6 6 6
+\begin{array}{l} r_{3, u u d} \\ r_{3, u d u} \end{array} = 0. 0 6 6 6
 $$
 
 $$
-r _ {0} = 0. 0 1 6 8
+r_{0} = 0. 0 1 6 8
 $$
 
 $$
-r _ {2, u d} = 0. 0 5 0 5
+r_{2, u d} = 0. 0 5 0 5
 $$
 
 $$
-\begin{array}{l} r _ {3, u d d} \\ r _ {3, d d u} \end{array} = 0. 0 4 7 6
+\begin{array}{l} r_{3, u d d} \\ r_{3, d d u} \end{array} = 0. 0 4 7 6
 $$
 
 $$
-r _ {1, d} = 0. 0 1 6 4
+r_{1, d} = 0. 0 1 6 4
 $$
 
 $$
-r _ {2, d d} = 0. 0 1 6 2
+r_{2, d d} = 0. 0 1 6 2
 $$
 
 $$
-r _ {3, d d d} = 0. 0 1 6 0
+r_{3, d d d} = 0. 0 1 6 0
 $$
 
 - Consider a 10,000 mortgage with 4 years to maturity, and mortgage rate  $\bar{r}^m = 0.372$  (annually compounded).  
@@ -6256,7 +6256,7 @@ $$
 - Need to solve
 
 $$
-1 0, 0 0 0 = \sum_ {i = 1} ^ {4} \frac {C}{(1 + \bar {r} ^ {m}) ^ {i}}
+1 0, 0 0 0 = \sum_{i = 1}^{4} \frac{C}{(1 + \bar {r}^{m})^{i}}
 $$
 
 - This yields  $C = 2736.7581$ .  
@@ -6270,47 +6270,47 @@ $$
 - So, first we compute the NPV of future payments
 
 $$
-\begin{array}{l} i = 0 \\ \mathrm {P r i n c i p a l} = 1 0 0 0 0 \\ i = 1 \\ \mathrm {P r i n c i p a l} = 7 6 3 5. 2 6 3 \\ i = 2 \\ \text {P r i n c i p a l} = 5 1 8 2. 5 5 3 \\ i = 3 \\ \mathrm {P r i n c i p a l} = 2 6 3 8. 5 9 7 \\ \end{array}
+\begin{array}{l} i = 0 \\ \mathrm{Pr in ci pa l} = 1 0 0 0 0 \\ i = 1 \\ \mathrm{Pr in ci pa l} = 7 6 3 5. 2 6 3 \\ i = 2 \\ \text{Pr in ci pa l} = 5 1 8 2. 5 5 3 \\ i = 3 \\ \mathrm{Pr in ci pa l} = 2 6 3 8. 5 9 7 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {3, u u u} = \\ = C e ^ {- r _ {3, u u u}} = 2 4 8 0. 8 4 8 8 \\ \end{array}
+\begin{array}{l} V_{3, u u u} = \\ = C e^{- r_{3, u u u}} = 2 4 8 0. 8 4 8 8 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {2, u u} = e ^ {- r _ {2, u u}} \times (C + \\ + (V _ {3, u u u} + V _ {3, u u d}) / 2) \\ = 4 8 2 9. 9 9 8 9 \\ \end{array}
+\begin{array}{l} V_{2, u u} = e^{- r_{2, u u}} \times (C + \\ + (V_{3, u u u} + V_{3, u u d}) / 2) \\ = 4 8 2 9. 9 9 8 9 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {1, u} = e ^ {- r _ {1, u}} \times (C + \\ + \left(V _ {2, u u} + V _ {2, u d}\right) / 2) \\ = 7 2 3 0. 0 5 8 9 \\ \end{array}
+\begin{array}{l} V_{1, u} = e^{- r_{1, u}} \times (C + \\ + \left(V_{2, u u} + V_{2, u d}\right) / 2) \\ = 7 2 3 0. 0 5 8 9 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {3, u u d} = \\ = C e ^ {- r _ {3, u u d}} = 2 5 6 0. 4 5 7 5 \\ \end{array}
+\begin{array}{l} V_{3, u u d} = \\ = C e^{- r_{3, u u d}} = 2 5 6 0. 4 5 7 5 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {0} = e ^ {- r _ {0}} \times (C + \\ + \left(V _ {1, u} + V _ {1, d}\right) / 2) \\ = 1 0 0 7 5. 5 0 8 8 \\ \end{array}
+\begin{array}{l} V_{0} = e^{- r_{0}} \times (C + \\ + \left(V_{1, u} + V_{1, d}\right) / 2) \\ = 1 0 0 7 5. 5 0 8 8 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {1, d} = e ^ {- r _ {1, d}} \times (C + \\ + \left(V _ {2, d d} + V _ {2, u d}\right) / 2) \\ = 7 7 8 8. 8 3 9 3 \\ \end{array}
+\begin{array}{l} V_{1, d} = e^{- r_{1, d}} \times (C + \\ + \left(V_{2, d d} + V_{2, u d}\right) / 2) \\ = 7 7 8 8. 8 3 9 3 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {2, u d} = e ^ {- r _ {2, u d}} \times (C \\ + (V _ {3, u u d} + V _ {3, u d d}) / 2) \\ = 5 0 5 9. 7 8 2 6 \\ \end{array}
+\begin{array}{l} V_{2, u d} = e^{- r_{2, u d}} \times (C \\ + (V_{3, u u d} + V_{3, u d d}) / 2) \\ = 5 0 5 9. 7 8 2 6 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {3, u d d} = \\ = C e ^ {- r _ {3, u d d}} = 2 6 0 9. 4 9 3 9 \\ \end{array}
+\begin{array}{l} V_{3, u d d} = \\ = C e^{- r_{3, u d d}} = 2 6 0 9. 4 9 3 9 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {2, d d} = e ^ {- r _ {2, d d}} \times (C + \\ + (V _ {3, d d d} + V _ {3, u d d}) / 2) \\ = 5 3 0 1. 7 5 4 8 \\ \end{array}
+\begin{array}{l} V_{2, d d} = e^{- r_{2, d d}} \times (C + \\ + (V_{3, d d d} + V_{3, u d d}) / 2) \\ = 5 3 0 1. 7 5 4 8 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {3, d d d} = \\ = C e ^ {- r _ {3, d d d}} = 2 6 9 3. 2 3 0 8 \\ \end{array}
+\begin{array}{l} V_{3, d d d} = \\ = C e^{- r_{3, d d d}} = 2 6 9 3. 2 3 0 8 \\ \end{array}
 $$
 
 - The net present value of future mortgage payments is 10075.5089.  
@@ -6346,43 +6346,43 @@ $$
 Principal  $= 2638.597$
 
 $$
-\begin{array}{l} C A _ {3, u u u} = \\ = \left(V _ {3, u u u} - P _ {3}, 0\right) ^ {+} = 0 \\ \end{array}
+\begin{array}{l} C A_{3, u u u} = \\ = \left(V_{3, u u u} - P_{3}, 0\right)^{+} = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C A _ {2, u u} = \left(V _ {2, u u} - P _ {2}, \right. \\ e ^ {- r _ {2, u u} \frac {C A _ {3 , u u u} + C A _ {3 , u u d}}{2}}) ^ {+} \\ = 0 \\ \end{array}
+\begin{array}{l} C A_{2, u u} = \left(V_{2, u u} - P_{2}, \right. \\ e^{- r_{2, u u} \frac{C A_{3 , u u u} + C A_{3 , u u d}}{2}})^{+} \\ = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C A _ {1, u} = \left(V _ {1, u} - P _ {1}, \right. \\ e ^ {- r _ {1, u} \frac {C A _ {2 , u u} + C A _ {2 , u d}}{2}}) ^ {+} \\ = 0 \\ \end{array}
+\begin{array}{l} C A_{1, u} = \left(V_{1, u} - P_{1}, \right. \\ e^{- r_{1, u} \frac{C A_{2 , u u} + C A_{2 , u d}}{2}})^{+} \\ = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C A _ {3, u u d} = \\ = (V _ {3, u u d} - P _ {3}, 0) ^ {+} = 0 \\ \end{array}
+\begin{array}{l} C A_{3, u u d} = \\ = (V_{3, u u d} - P_{3}, 0)^{+} = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C A _ {0} = e ^ {- r _ {0}} \times \\ \times \frac {C A _ {1 , u} + C A _ {1 , d}}{2}) \\ = 7 5. 5 0 8 9 \\ \end{array}
+\begin{array}{l} C A_{0} = e^{- r_{0}} \times \\ \times \frac{C A_{1 , u} + C A_{1 , d}}{2}) \\ = 7 5. 5 0 8 9 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C A _ {1, d} = \left(V _ {1, d} - P _ {1}, \right. \\ e ^ {- r _ {1, d} \frac {C A _ {2 , u d} + C A _ {2 , d d}}{2}}) ^ {+} \\ = 1 5 3. 5 7 6 2 \\ \end{array}
+\begin{array}{l} C A_{1, d} = \left(V_{1, d} - P_{1}, \right. \\ e^{- r_{1, d} \frac{C A_{2 , u d} + C A_{2 , d d}}{2}})^{+} \\ = 1 5 3. 5 7 6 2 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C A _ {2, u d} = (V _ {2, u d} - P _ {2}, \\ \left. e ^ {- r _ {2, u d} \frac {C A _ {3 , u u d} + C A _ {3 , u d d}}{2}}\right) ^ {+} \\ = 0 \\ \end{array}
+\begin{array}{l} C A_{2, u d} = (V_{2, u d} - P_{2}, \\ \left. e^{- r_{2, u d} \frac{C A_{3 , u u d} + C A_{3 , u d d}}{2}}\right)^{+} \\ = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C A _ {3, u d d} = \\ = (V _ {3, u d d} - P _ {3}, 0) ^ {+} = 0 \\ \end{array}
+\begin{array}{l} C A_{3, u d d} = \\ = (V_{3, u d d} - P_{3}, 0)^{+} = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C A _ {2, d d} = \left(V _ {2, d d} - P _ {2}, \right. \\ \left. e ^ {- r _ {2, d d} \frac {C A _ {3 , u d d} + C A _ {3 , d d d}}{2}}\right) ^ {+} \\ = 1 1 9. 2 0 1 9 \\ \end{array}
+\begin{array}{l} C A_{2, d d} = \left(V_{2, d d} - P_{2}, \right. \\ \left. e^{- r_{2, d d} \frac{C A_{3 , u d d} + C A_{3 , d d d}}{2}}\right)^{+} \\ = 1 1 9. 2 0 1 9 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C A _ {3, d d d} = \\ = \left(V _ {3, d d d} - P _ {3}, 0\right) ^ {+} = 5 4. 6 3 4 0 \\ \end{array}
+\begin{array}{l} C A_{3, d d d} = \\ = \left(V_{3, d d d} - P_{3}, 0\right)^{+} = 5 4. 6 3 4 0 \\ \end{array}
 $$
 
 # Pricing Pass Through's on Binomial Trees
@@ -6433,43 +6433,43 @@ Interest  $= 2638.597\times r_{PT}$
 Sched.  $\mathrm{Prin} = 2638.597$
 
 $$
-\begin{array}{l} V _ {3, u u u} ^ {P T} \\ = e ^ {- r _ {3, u u u}} \times \\ (2 6 3 8. 5 9 7 \times r _ {P T} \\ + 2 6 3 8. 5 9 7) \\ = 2 4 3 9. 7 0 4 \\ \end{array}
+\begin{array}{l} V_{3, u u u}^{P T} \\ = e^{- r_{3, u u u}} \times \\ (2 6 3 8. 5 9 7 \times r_{P T} \\ + 2 6 3 8. 5 9 7) \\ = 2 4 3 9. 7 0 4 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {2, u u} ^ {P T} = e ^ {- r _ {2, u u}} \times \\ (5 1 8 2. 5 5 3 \times r _ {P T} \\ + 2 5 4 3. 9 5 6 \\ + \left(V _ {3, u u u} ^ {P T} + V _ {3, u u d} ^ {P T}\right) / 2) \\ = 4 7 0 9. 6 8 9 \\ \end{array}
+\begin{array}{l} V_{2, u u}^{P T} = e^{- r_{2, u u}} \times \\ (5 1 8 2. 5 5 3 \times r_{P T} \\ + 2 5 4 3. 9 5 6 \\ + \left(V_{3, u u u}^{P T} + V_{3, u u d}^{P T}\right) / 2) \\ = 4 7 0 9. 6 8 9 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {1, u} ^ {P T} = e ^ {- r _ {1, u}} \times \\ (7 6 3 5. 2 6 3 \times r _ {P T} \\ + 2 4 5 2. 7 1 0 + \\ + (V _ {2, u t} ^ {P U} + V _ {2, u d} ^ {P D}) / 2) \\ = 6 9 9 0. 7 4 6 \\ \end{array}
+\begin{array}{l} V_{1, u}^{P T} = e^{- r_{1, u}} \times \\ (7 6 3 5. 2 6 3 \times r_{P T} \\ + 2 4 5 2. 7 1 0 + \\ + (V_{2, u t}^{P U} + V_{2, u d}^{P D}) / 2) \\ = 6 9 9 0. 7 4 6 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {3, u u d} ^ {P T} \\ = e ^ {- r _ {3, u u d}} \times \\ (2 6 3 8. 5 9 7 \times r _ {P T} \\ + 2 6 3 8. 5 9 7) \\ = 2 5 1 7. 9 9 2 \\ \end{array}
+\begin{array}{l} V_{3, u u d}^{P T} \\ = e^{- r_{3, u u d}} \times \\ (2 6 3 8. 5 9 7 \times r_{P T} \\ + 2 6 3 8. 5 9 7) \\ = 2 5 1 7. 9 9 2 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {0} ^ {P T} = e ^ {- r _ {0}} \times \\ (1 0 0 0 0 \times r _ {P T} \\ + 2 3 6 4. 7 3 7 + \\ + \left(V _ {1, u} ^ {P T} + V _ {1, d} ^ {P T}\right) / 2) \\ = 9 7 1 3. 1 8 2 \\ \end{array}
+\begin{array}{l} V_{0}^{P T} = e^{- r_{0}} \times \\ (1 0 0 0 0 \times r_{P T} \\ + 2 3 6 4. 7 3 7 + \\ + \left(V_{1, u}^{P T} + V_{1, d}^{P T}\right) / 2) \\ = 9 7 1 3. 1 8 2 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {1, d} ^ {P T} = 7 6 3 5. 2 6 3 \\ (E x e c i s e \quad n o d e) \\ \end{array}
+\begin{array}{l} V_{1, d}^{P T} = 7 6 3 5. 2 6 3 \\ (E x e c i s e \quad n o d e) \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {2, u d} ^ {P T} = e ^ {- r _ {2, u d}} \times \\ (5 1 8 2. 5 5 3 \times r _ {P T} \\ + 2 5 4 3. 9 5 6 \\ + \left(V _ {3, u u d} ^ {P T} + V _ {3, u d d} ^ {P T}\right) / 2) \\ = 4 9 3 4. 2 5 8 \\ \end{array}
+\begin{array}{l} V_{2, u d}^{P T} = e^{- r_{2, u d}} \times \\ (5 1 8 2. 5 5 3 \times r_{P T} \\ + 2 5 4 3. 9 5 6 \\ + \left(V_{3, u u d}^{P T} + V_{3, u d d}^{P T}\right) / 2) \\ = 4 9 3 4. 2 5 8 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {2, d d} ^ {P T} = 5 1 8 2. 5 5 3 \\ (E x e c i s e \quad n o d e) \\ \end{array}
+\begin{array}{l} V_{2, d d}^{P T} = 5 1 8 2. 5 5 3 \\ (E x e c i s e \quad n o d e) \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {3, u d d} ^ {P T} = \\ = e ^ {- r _ {3, u d d}} \times \\ (2 6 3 8. 5 9 7 \times r _ {P T} \\ + 2 6 3 8. 5 9 7) \\ = 2 5 6 6. 2 1 5 \\ \end{array}
+\begin{array}{l} V_{3, u d d}^{P T} = \\ = e^{- r_{3, u d d}} \times \\ (2 6 3 8. 5 9 7 \times r_{P T} \\ + 2 6 3 8. 5 9 7) \\ = 2 5 6 6. 2 1 5 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} V _ {3, d d d} ^ {P T} = 2 6 3 8. 5 9 7 \\ (E x e c i s e \quad n o d e) \\ \end{array}
+\begin{array}{l} V_{3, d d d}^{P T} = 2 6 3 8. 5 9 7 \\ (E x e c i s e \quad n o d e) \\ \end{array}
 $$
 
 # Pricing Pass Through's on Binomial Trees
@@ -6570,7 +6570,7 @@ What do we simulate?
 - For each risk-neutral simulation, Cash Flows are computed  $CF_{t}^{s}$ , which depend on path of various factors, age of the mortgage etc., and we compute
 
 $$
-P ^ {s} = \sum_ {t = 1} ^ {T} Z ^ {s} (0, t) C F _ {t} ^ {s}
+P^{s} = \sum_{t = 1}^{T} Z^{s} (0, t) C F_{t}^{s}
 $$
 
 - where  $Z^{s}(0,t) = e^{-\sum_{i=0}^{t-1} r_{j}^{s}\Delta}$  is the zero-coupon bond in simulated path  $s$ .
@@ -6578,7 +6578,7 @@ $$
 The price is then computed as
 
 $$
-P = \frac {1}{N} \sum_ {s = 1} ^ {N} P ^ {s}
+P = \frac{1}{N} \sum_{s = 1}^{N} P^{s}
 $$
 
 - We simulate all the processes under the risk-neutral probabilities.
@@ -6594,7 +6594,7 @@ $$
 - The Option Adjusted Spread is that value  $OAS$  such that
 
 $$
-P (t, r _ {t} + O A S) = P _ {M} (t)
+P (t, r_{t} + O A S) = P_{M} (t)
 $$
 
 - That is, it is the spread on the interest rate that makes the model price (adjusted for the prepayment option) equal to market value.
@@ -6606,7 +6606,7 @@ In the previous example,  $OAS = 0$ , as  $V_{0} - CA_{0} = 10,000$ .
 Hence, the risk-adjusted, option adjusted price is
 
 $$
-V _ {0} ^ {A} = V _ {0} - C A _ {0} = 9 9 4 7. 1 7 1 9
+V_{0}^{A} = V_{0} - C A_{0} = 9 9 4 7. 1 7 1 9
 $$
 
 - If we think of the original loan  $= 10000$  as the market value of the loan, it would be overpriced.  
@@ -6637,7 +6637,7 @@ Principal-Only (PO) Strip:
 - Suppose prepayments depend only on past interest rates and assume the following simple function for the probability that an homeowner would refinance its mortgage at time  $t$ :
 
 $$
-p _ {t} = c \times \max (r _ {m} - s p - r _ {t}, 0)
+p_{t} = c \times \max (r_{m} - s p - r_{t}, 0)
 $$
 
 - This is a simple function of just the past interest rate: If interest rate drops below some spread below the mortgage rate, the probability increases, with sensitivity  $c$ .
@@ -6645,7 +6645,7 @@ $$
 In general,
 
 $$
-p _ {t} = f \left(r _ {t}, r _ {t -}, a g e _ {t}, h _ {t}, \dots ,\right)
+p_{t} = f \left(r_{t}, r_{t -}, a g e_{t}, h_{t}, \dots ,\right)
 $$
 
 where  $h_t$  denotes the housing price.  
@@ -6657,37 +6657,37 @@ where  $h_t$  denotes the housing price.
 - I simulate a (risk-neutral) Ho-Lee model at the daily frequency  $(\Delta = 1 / 252)$
 
 $$
-r _ {t + 1} = r _ {t} + \theta_ {t} \Delta + \sigma \sqrt {\Delta} \varepsilon_ {t + 1}
+r_{t + 1} = r_{t} + \theta_{t} \Delta + \sigma \sqrt{\Delta} \varepsilon_{t + 1}
 $$
 
 and then computed monthly payments as
 
 $$
-C F _ {t + 2 1} = C _ {t + 2 1} + p r e p a y _ {t + 2 1}
+C F_{t + 2 1} = C_{t + 2 1} + p r e p a y_{t + 2 1}
 $$
 
 where
 
 $$
-C _ {t + 2 1} = C _ {t} \left(1 - p _ {t}\right)
+C_{t + 2 1} = C_{t} \left(1 - p_{t}\right)
 $$
 
 $$
-\mathit {p r e p a y} _ {t + 2 1} = \mathit {p} _ {t} \times \mathit {\mathrm {p r i n c i p a l}} _ {t}
+\mathit {p r e p a y}_{t + 2 1} = \mathit {p}_{t} \times \mathit {\mathrm{pr in ci pa l}}_{t}
 $$
 
 - and the principal is adjusted for the principal payments over time
 
 $$
-\text {I n t e r s t} \mathrm {P a i d} _ {t} = r _ {m} / 1 2 \times \text {p r i n c i p a l} _ {t}
+\text{In te rs t} \mathrm{Pa id}_{t} = r_{m} / 1 2 \times \text{pr in ci pa l}_{t}
 $$
 
 $$
-\text {P r i n c i p a l} \mathrm {P a i d} _ {t} = C _ {t} + \text {p r e p a y} _ {t} - \text {I n t e r s t} \mathrm {P a i d} _ {t}
+\text{Pr in ci pa l} \mathrm{Pa id}_{t} = C_{t} + \text{pr ep ay}_{t} - \text{In te rs t} \mathrm{Pa id}_{t}
 $$
 
 $$
-\operatorname {p r i n c i p a l} _ {t + 2 1} = \operatorname {p r i n c i p a l} _ {t} - \operatorname {P r i n c i p a l} \operatorname {P a i d} _ {t}
+\operatorname{pr in ci pa l}_{t + 2 1} = \operatorname{pr in ci pa l}_{t} - \operatorname{Pr in ci pa l} \operatorname{Pa id}_{t}
 $$
 
 - Then cash flows can be divided at leisure
@@ -6726,56 +6726,56 @@ and NBER
 - Consider the AR(1) model for interest rates:
 
 $$
-r _ {t + 1} = \alpha + \beta r _ {t} + \epsilon_ {t + 1}
+r_{t + 1} = \alpha + \beta r_{t} + \epsilon_{t + 1}
 $$
 
 - We can rewrite
 
 $$
-r _ {t + 1} - r _ {t} = \alpha - (1 - \beta) r _ {t} + \epsilon_ {t + 1}
+r_{t + 1} - r_{t} = \alpha - (1 - \beta) r_{t} + \epsilon_{t + 1}
 $$
 
 - We had daily data, so "1" is one day, and all coefficients  $\alpha$ ,  $\beta$  and  $Var(\epsilon_{t+1})$  are daily quantities.  
 - In financial applications we consider "annualized" quantities. Let  $\Delta t = 1 / 252$  be the daily fraction out of the 252 business days. Then
 
 $$
-r _ {t + \Delta t} - r _ {t} = \alpha - \gamma r _ {t} \Delta t + \sigma \eta_ {t + \Delta t}
+r_{t + \Delta t} - r_{t} = \alpha - \gamma r_{t} \Delta t + \sigma \eta_{t + \Delta t}
 $$
 
 - where  $\gamma = (1 - \beta) / \Delta t$  is an "annualized" regression coefficient,  $\sigma$  is the annualized volatility, and therefore
 
 $$
-\eta_ {t + \Delta t} \sim N (0, \Delta t)
+\eta_{t + \Delta t} \sim N (0, \Delta t)
 $$
 
 - We can therefore equivalently write
 
 $$
-r _ {t + \Delta t} - r _ {t} = \gamma \left(\frac {\alpha}{\gamma \Delta t} - r _ {t}\right) \Delta t + \sigma \eta_ {t + \Delta t}
+r_{t + \Delta t} - r_{t} = \gamma \left(\frac{\alpha}{\gamma \Delta t} - r_{t}\right) \Delta t + \sigma \eta_{t + \Delta t}
 $$
 
 - Note that
 
 $$
-\frac {\alpha}{\gamma \Delta t} = \bar {r} = \text {c e n t r a l}
+\frac{\alpha}{\gamma \Delta t} = \bar {r} = \text{ce nt ra l}
 $$
 
 - Because  $E[\eta_{t + \Delta t}] = 0$ , we have
 
 $$
-E _ {t} [ r _ {t + \Delta t} - r _ {t} ] = \gamma (\overline {{r}} - r _ {t}) \Delta t
+E_{t} [ r_{t + \Delta t} - r_{t} ] = \gamma (\overline {{r}} - r_{t}) \Delta t
 $$
 
 Hence:
 
 $$
-\begin{array}{l} - \text {I f} r _ {t} > \bar {r} \Longrightarrow E _ {t} \left[ r _ {t + \Delta t} - r _ {t} \right] <   0 \Longrightarrow \text {r a t e s} \\ - \mathrm {I f} r _ {t} <   \overline {{r}} \Longrightarrow E _ {t} [ r _ {t + \Delta t} - r _ {t} ] > 0 \Longrightarrow \mathrm {r a t e s a r e e x p e c t e d t o r i s e} \\ \end{array}
+\begin{array}{l} - \text{If} r_{t} > \bar {r} \Longrightarrow E_{t} \left[ r_{t + \Delta t} - r_{t} \right] <   0 \Longrightarrow \text{ra te s} \\ - \mathrm{If} r_{t} <   \overline {{r}} \Longrightarrow E_{t} [ r_{t + \Delta t} - r_{t} ] > 0 \Longrightarrow \mathrm{ra te sa re ex pe ct ed to ri se} \\ \end{array}
 $$
 
 - We take the limit until  $\Delta t \to dt$ , an infinitesimal, and we obtain
 
 $$
-\begin{array}{l} r _ {t + \Delta t} - r _ {t} \rightarrow d r _ {t} = \text {c h a n g e i n i n t e r s t r a t e o v e r} d t \\ \eta_ {t + \Delta t} \rightarrow d W _ {t} \sim N (0, d t) = \mathrm {B r o w n i a n m o t i o n} = \mathrm {s h o c k t o i n t e r s e t r a t e s} \\ \end{array}
+\begin{array}{l} r_{t + \Delta t} - r_{t} \rightarrow d r_{t} = \text{ch an ge in in te rs tr at eo ve r} d t \\ \eta_{t + \Delta t} \rightarrow d W_{t} \sim N (0, d t) = \mathrm{Br ow ni an mo ti on} = \mathrm{sh oc kt oi nt er se tr at es} \\ \end{array}
 $$
 
 # The Vasicek Model of Interest Rates
@@ -6783,7 +6783,7 @@ $$
 - We can then rewrite
 
 $$
-d r _ {t} = \gamma (\overline {{r}} - r _ {t}) d t + \sigma d W _ {t}
+d r_{t} = \gamma (\overline {{r}} - r_{t}) d t + \sigma d W_{t}
 $$
 
 - This is the Vasicek Model of interest rates.
@@ -6813,7 +6813,7 @@ Interest rate paths for two volatility levels
 - Quadratic variation: Consider the partition  $[0, t_1, \ldots, t_n]$  with  $t_i = it / n$
 
 $$
-\sum_ {j = 2} ^ {n} \left(W _ {t _ {j}} - W _ {t _ {j - 1}}\right) ^ {2} \rightarrow t (a. s.)
+\sum_{j = 2}^{n} \left(W_{t_{j}} - W_{t_{j - 1}}\right)^{2} \rightarrow t (a. s.)
 $$
 
 - The last property essentially says that  $dW_{t}^{2} = dt$  
@@ -6825,19 +6825,19 @@ $$
 - Over a small time interval  $\Delta t$ , the second order Taylor rule approximation has
 
 $$
-P (r _ {t + \Delta t}, t + \Delta t) \approx P (r _ {t}, t) + \frac {\partial P}{\partial t} \Delta t + \frac {\partial P}{\partial r} (r _ {t + \Delta t} - r _ {t}) + \frac {1}{2} \frac {\partial^ {2} P}{\partial r ^ {2}} (r _ {t + \Delta t} - r _ {t}) ^ {2}
+P (r_{t + \Delta t}, t + \Delta t) \approx P (r_{t}, t) + \frac{\partial P}{\partial t} \Delta t + \frac{\partial P}{\partial r} (r_{t + \Delta t} - r_{t}) + \frac{1}{2} \frac{\partial^{2} P}{\partial r^{2}} (r_{t + \Delta t} - r_{t})^{2}
 $$
 
 - Substitute the change in interest rates and rewrite
 
 $$
-\begin{array}{l} P (r _ {t + \Delta t}, t + \Delta t) - P (r _ {t}, t) \approx \frac {\partial P}{\partial t} \Delta t + \frac {\partial P}{\partial r} [ \gamma (\overline {{r}} - r _ {t}) \Delta t + \sigma \eta_ {t + \Delta t} ] \\ + \frac {1}{2} \frac {\partial^ {2} P}{\partial r ^ {2}} \left[ \gamma (\overline {{r}} - r _ {t}) \Delta t + \sigma \eta_ {t + \Delta t} \right] ^ {2} \\ \end{array}
+\begin{array}{l} P (r_{t + \Delta t}, t + \Delta t) - P (r_{t}, t) \approx \frac{\partial P}{\partial t} \Delta t + \frac{\partial P}{\partial r} [ \gamma (\overline {{r}} - r_{t}) \Delta t + \sigma \eta_{t + \Delta t} ] \\ + \frac{1}{2} \frac{\partial^{2} P}{\partial r^{2}} \left[ \gamma (\overline {{r}} - r_{t}) \Delta t + \sigma \eta_{t + \Delta t} \right]^{2} \\ \end{array}
 $$
 
 - Take the limit as  $\Delta t \to dt$ . Consider the quadratic term
 
 $$
-\begin{array}{l} \left[ \gamma (\overline {{r}} - r _ {t}) \Delta t + \sigma \eta_ {t + \Delta t} \right] ^ {2} = \left[ \gamma^ {2} (\overline {{r}} - r _ {t}) ^ {2} \Delta t ^ {2} + \sigma^ {2} \eta_ {t + \Delta t} ^ {2} + 2 \gamma (\overline {{r}} - r _ {t}) \Delta t \sigma \eta_ {t + \Delta t} \right] \\ \rightarrow \left[ \gamma^ {2} (\overline {{r}} - r _ {t}) ^ {2} d t ^ {2} + \sigma^ {2} d W _ {t} ^ {2} + 2 \gamma (\overline {{r}} - r _ {t}) d t \sigma d W _ {t} \right] \\ = \sigma^ {2} d t \\ \end{array}
+\begin{array}{l} \left[ \gamma (\overline {{r}} - r_{t}) \Delta t + \sigma \eta_{t + \Delta t} \right]^{2} = \left[ \gamma^{2} (\overline {{r}} - r_{t})^{2} \Delta t^{2} + \sigma^{2} \eta_{t + \Delta t}^{2} + 2 \gamma (\overline {{r}} - r_{t}) \Delta t \sigma \eta_{t + \Delta t} \right] \\ \rightarrow \left[ \gamma^{2} (\overline {{r}} - r_{t})^{2} d t^{2} + \sigma^{2} d W_{t}^{2} + 2 \gamma (\overline {{r}} - r_{t}) d t \sigma d W_{t} \right] \\ = \sigma^{2} d t \\ \end{array}
 $$
 
 # Taylor Expansion and Ito's Formula
@@ -6846,13 +6846,13 @@ $$
 - We obtain in the limit Ito's Formula:
 
 $$
-d P _ {t} = \left\{\frac {\partial P}{\partial t} + \frac {\partial P}{\partial r} \gamma (\overline {{r}} - r _ {t}) + \frac {1}{2} \frac {\partial^ {2} P}{\partial r ^ {2}} \sigma^ {2} \right\} d t + \frac {\partial P}{\partial r} \sigma d W _ {t}
+d P_{t} = \left\{\frac{\partial P}{\partial t} + \frac{\partial P}{\partial r} \gamma (\overline {{r}} - r_{t}) + \frac{1}{2} \frac{\partial^{2} P}{\partial r^{2}} \sigma^{2} \right\} d t + \frac{\partial P}{\partial r} \sigma d W_{t}
 $$
 
 - The expected capital gain over an infinitesimal period  $dt$  is
 
 $$
-E [ d P _ {t} ] = \left\{\frac {\partial P}{\partial t} + \frac {\partial P}{\partial r} \gamma (\overline {{r}} - r _ {t}) + \frac {1}{2} \frac {\partial^ {2} P}{\partial r ^ {2}} \sigma^ {2} \right\} d t
+E [ d P_{t} ] = \left\{\frac{\partial P}{\partial t} + \frac{\partial P}{\partial r} \gamma (\overline {{r}} - r_{t}) + \frac{1}{2} \frac{\partial^{2} P}{\partial r^{2}} \sigma^{2} \right\} d t
 $$
 
 - There are three terms determining a bond expected return:
@@ -6868,20 +6868,20 @@ $$
 - Consider a generic model of interest rates
 
 $$
-d r _ {t} = m (r _ {t}, t) d t + s (r _ {t}, t) d W _ {t} \tag {1}
+d r_{t} = m (r_{t}, t) d t + s (r_{t}, t) d W_{t} \tag {1}
 $$
 
 - where  $m(r, t)$  and  $s(r, t)$  are functions of the interest rate  $r$  and time  $t$ . The choice of  $m(r, t)$  and  $s(r, t)$  give rise to different models.  
 - Consider two fixed income securities that depend on the interest rate.
 
 1. $V(r, t) = \mathrm{e.g.}$  option  
-2. $Z(r, t) = \text{zero-coupon bond}.$
+2. $Z(r, t) = \text{zero-couponbond}.$
 
 - What is a no-arbitrage relation between  $V(r, t)$  and  $Z(r, t)$ ?  
 - As a matter of notation, I often write  $V$  instead of  $V(r,t)$ , and partial derivatives are often indicated as follows:
 
 $$
-V _ {t} = \frac {\partial V}{\partial t}; \quad V _ {r} = \frac {\partial V}{\partial r}; \quad V _ {r r} = \frac {\partial^ {2} V}{\partial r ^ {2}}; \qquad (2)
+V_{t} = \frac{\partial V}{\partial t}; \quad V_{r} = \frac{\partial V}{\partial r}; \quad V_{r r} = \frac{\partial^{2} V}{\partial r^{2}}; \qquad (2)
 $$
 
 # Risk Neutral Pricing in Continuous Time
@@ -6895,55 +6895,55 @@ $$
 2. Hedging: Choose  $N$  to eliminate sensitivity to interest rates:
 
 $$
-\frac {\partial \Pi (r , t)}{\partial r} = 0 \tag {4}
+\frac{\partial \Pi (r , t)}{\partial r} = 0 \tag {4}
 $$
 
 - This condition translates into the equation
 
 $$
-\frac {\partial V (r , t)}{\partial r} + N \frac {\partial Z (r , t)}{\partial r} = 0 \tag {5}
+\frac{\partial V (r , t)}{\partial r} + N \frac{\partial Z (r , t)}{\partial r} = 0 \tag {5}
 $$
 
 - Solve for optimal hedge ratio  $N$ :
 
 $$
-N = - \frac {\partial V (r , t) / \partial r}{\partial Z (r , t) / \partial r} = - \frac {\text {S e n s i t i v i t y o f V t o i n t e r e s t r a t e s}}{\text {S e n s i t i v i t y o f Z t o i n t e r e s t r a t e s}} \tag {6}
+N = - \frac{\partial V (r , t) / \partial r}{\partial Z (r , t) / \partial r} = - \frac{\text{Se ns it iv it yo fV to in te re st ra te s}}{\text{Se ns it iv it yo fZ to in te re st ra te s}} \tag {6}
 $$
 
 3. No Arbitrage: Apply Ito's formula to the portfolio  $\Pi(r, t)$ :
 
 $$
-d \Pi = \left\{\Pi_ {t} + \Pi_ {r} m (r, t) + \frac {1}{2} \Pi_ {r r} s (r, t) ^ {2} \right\} d t + \Pi_ {r} s (r, t) d W _ {t} \qquad (7)
+d \Pi = \left\{\Pi_{t} + \Pi_{r} m (r, t) + \frac{1}{2} \Pi_{r r} s (r, t)^{2} \right\} d t + \Pi_{r} s (r, t) d W_{t} \qquad (7)
 $$
 
 - We know from hedging that  $\Pi_r = \partial \Pi / \partial r = 0$ , which implies
 
 $$
-d \Pi = \left\{\Pi_ {t} + \frac {1}{2} \Pi_ {r r} s (r, t) ^ {2} \right\} d t \tag {8}
+d \Pi = \left\{\Pi_{t} + \frac{1}{2} \Pi_{r r} s (r, t)^{2} \right\} d t \tag {8}
 $$
 
 - Interest rate risk  $dW_{t}$  does not affect the portfolio  $\Longrightarrow$  portfolio is riskless.
 
 $$
-\text {N o A r b i t r a g e} \quad \Longrightarrow \quad d \Pi = r \Pi d t \tag {9}
+\text{No Ar bi tr ag e} \quad \Longrightarrow \quad d \Pi = r \Pi d t \tag {9}
 $$
 
 4. Reshuffle: Substitute in (9) the expression for  $d\Pi$  from (8):
 
 $$
-\Pi_ {t} + \frac {1}{2} \Pi_ {r r} s (r, t) ^ {2} = r \Pi
+\Pi_{t} + \frac{1}{2} \Pi_{r r} s (r, t)^{2} = r \Pi
 $$
 
 - Substitute:  $\Pi = V + NZ$ ,  $\Pi_t = V_t + NZ_t$ ,  $\Pi_{rr} = V_{rr} + NZ_{rr}$ , to obtain
 
 $$
-V _ {t} + \frac {1}{2} V _ {r r} s (r, t) ^ {2} - r V = N \left[ Z _ {t} + \frac {1}{2} Z _ {r r} s (r, t) ^ {2} - r Z \right]
+V_{t} + \frac{1}{2} V_{r r} s (r, t)^{2} - r V = N \left[ Z_{t} + \frac{1}{2} Z_{r r} s (r, t)^{2} - r Z \right]
 $$
 
 - Substitute also  $N$  from (6) to get
 
 $$
-\frac {V _ {t} + \frac {1}{2} V _ {r r} s (r , t) ^ {2} - r V}{V _ {r}} = \frac {Z _ {t} + \frac {1}{2} Z _ {r r} s (r , t) ^ {2} - r Z}{Z _ {r}} \tag {10}
+\frac{V_{t} + \frac{1}{2} V_{r r} s (r , t)^{2} - r V}{V_{r}} = \frac{Z_{t} + \frac{1}{2} Z_{r r} s (r , t)^{2} - r Z}{Z_{r}} \tag {10}
 $$
 
 - Note that the left-hand-side is identical to the right-hand side.
@@ -6951,19 +6951,19 @@ $$
 - Denote by " $-m^{*}(r,t)$ " the common ratio, which we will estimate from data:2
 
 $$
-\frac {V _ {t} + \frac {1}{2} V _ {r r} s (r , t) ^ {2} - r V}{V _ {r}} = - m ^ {*} (r, t) \tag {11}
+\frac{V_{t} + \frac{1}{2} V_{r r} s (r , t)^{2} - r V}{V_{r}} = - m^{*} (r, t) \tag {11}
 $$
 
 - Reorganize to obtain the Fundamental Pricing Equation:
 
 $$
-V _ {t} + V _ {r} m ^ {*} (r, t) + \frac {1}{2} V _ {r r} s (r, t) ^ {2} = r V \tag {12}
+V_{t} + V_{r} m^{*} (r, t) + \frac{1}{2} V_{r r} s (r, t)^{2} = r V \tag {12}
 $$
 
 - All fixed income security must satisfy this Partial Differential Equation (PDE) subject to the boundary condition
 
 $$
-V (r, T) = g (r, T) = \text {P a y o f f o f s e c u r i t y} T \tag {13}
+V (r, T) = g (r, T) = \text{Pa yo ff of se cu ri ty} T \tag {13}
 $$
 
 # Risk Neutral Pricing
@@ -6973,13 +6973,13 @@ $$
 - The Feynman Kac formula shows the solution of (12) is:
 
 $$
-V (r, T) = E _ {t} ^ {*} \left[ e ^ {- \int_ {t} ^ {T} r _ {u} d u} g (r _ {T}, T) \right] \tag {14}
+V (r, T) = E_{t}^{*} \left[ e^{- \int_{t}^{T} r_{u} d u} g (r_{T}, T) \right] \tag {14}
 $$
 
 - The notation  $E^{*}[.]$  means we compute the expectation using the Risk Neutral Process for interest rates:
 
 $$
-d r = m ^ {*} (r, t) d t + s (r, t) d W _ {t} ^ {*} \tag {15}
+d r = m^{*} (r, t) d t + s (r, t) d W_{t}^{*} \tag {15}
 $$
 
 where  $dW_{t}^{*}$  is another Brownian motion  $dW_{t}^{*} \sim \mathcal{N}(0, dt)$ .
@@ -6987,7 +6987,7 @@ where  $dW_{t}^{*}$  is another Brownian motion  $dW_{t}^{*} \sim \mathcal{N}(0,
 and not the original process (1):
 
 $$
-d r = m (r, t) d t + s (r, t) d W _ {t} \tag {16}
+d r = m (r, t) d t + s (r, t) d W_{t} \tag {16}
 $$
 
 # Interest Rate Models
@@ -6996,45 +6996,45 @@ $$
 - Affine Models: In the following four cases, the value of a zero coupon bond at  $t$  with maturity  $T$  is:
 
 $$
-Z (r, t; T) = e ^ {A (t, T) - B (t, T) r}; \tag {17}
+Z (r, t; T) = e^{A (t, T) - B (t, T) r}; \tag {17}
 $$
 
 1. Vasicek:  $m^{*}(r,t) = \eta^{*} - \gamma^{*}r$  and  $s(r,t) = \sigma$ , and
 
 $$
-B (t, T) = \frac {1}{\gamma^ {*}} \left(1 - e ^ {- \gamma^ {*} (T - t)}\right) \tag {18}
+B (t, T) = \frac{1}{\gamma^{*}} \left(1 - e^{- \gamma^{*} (T - t)}\right) \tag {18}
 $$
 
 $$
-A (t, T) = \frac {1}{(\gamma^ {*}) ^ {2}} \left(B (t, T) - (T - t)\right) \left(\eta^ {*} \gamma^ {*} - \frac {1}{2} \sigma^ {2}\right) - \frac {\sigma^ {2} B (t ; T) ^ {2}}{4 \gamma^ {*}} \tag {19}
+A (t, T) = \frac{1}{(\gamma^{*})^{2}} \left(B (t, T) - (T - t)\right) \left(\eta^{*} \gamma^{*} - \frac{1}{2} \sigma^{2}\right) - \frac{\sigma^{2} B (t ; T)^{2}}{4 \gamma^{*}} \tag {19}
 $$
 
 - We often denote the risk-neutral central tendency as
 
 $$
-\bar {r} ^ {*} = \frac {\eta^ {*}}{\gamma^ {*}}
+\bar {r}^{*} = \frac{\eta^{*}}{\gamma^{*}}
 $$
 
 2. Cox, Ingersol, and Ross (CIR):  $m^{*}(r,t) = \eta^{*} - \gamma^{*}r$  and  $s(r,t) = \sqrt{\alpha r}$ ;
 
 $$
-B (t; T) = \frac {2 \left(e ^ {\psi_ {1} (T - t)} - 1\right)}{\left(\gamma^ {*} + \psi_ {1}\right) \left(e ^ {\psi_ {1} (T - t)} - 1\right) + 2 \psi_ {1}} \tag {20}
+B (t; T) = \frac{2 \left(e^{\psi_{1} (T - t)} - 1\right)}{\left(\gamma^{*} + \psi_{1}\right) \left(e^{\psi_{1} (T - t)} - 1\right) + 2 \psi_{1}} \tag {20}
 $$
 
 $$
-A (t; T) = 2 \frac {\eta^ {*}}{\alpha} \log \left(\frac {2 \psi_ {1} e ^ {(\psi_ {1} + \gamma^ {*}) \frac {(T - t)}{2}}}{(\gamma^ {*} + \psi_ {1}) (e ^ {\psi_ {1} (T - t)} - 1) + 2 \psi_ {1}}\right) \qquad (2 1)
+A (t; T) = 2 \frac{\eta^{*}}{\alpha} \log \left(\frac{2 \psi_{1} e^{(\psi_{1} + \gamma^{*}) \frac{(T - t)}{2}}}{(\gamma^{*} + \psi_{1}) (e^{\psi_{1} (T - t)} - 1) + 2 \psi_{1}}\right) \qquad (2 1)
 $$
 
 with
 
 $$
-\psi_ {1} = \sqrt {(\gamma^ {*}) ^ {2} + 2 \alpha}
+\psi_{1} = \sqrt{(\gamma^{*})^{2} + 2 \alpha}
 $$
 
 - The risk-neutral central tendency is often denoted by
 
 $$
-\bar {r} ^ {*} = \frac {\eta^ {*}}{\gamma^ {*}}
+\bar {r}^{*} = \frac{\eta^{*}}{\gamma^{*}}
 $$
 
 3. Ho and Lee:  $m^{*}(r,t) = \eta^{*}(t)$  and  $s(r,t) = \sigma$ ;
@@ -7044,17 +7044,17 @@ B (t, T) = T - t
 $$
 
 $$
-A (t, T) = - \int_ {t} ^ {T} \eta^ {*} (\tau) (T - \tau) d \tau + \frac {1}{6} \sigma^ {2} (T - t) ^ {3}
+A (t, T) = - \int_{t}^{T} \eta^{*} (\tau) (T - \tau) d \tau + \frac{1}{6} \sigma^{2} (T - t)^{3}
 $$
 
 4. Hull and White:  $m^{*}(r,t) = \eta^{*}(t) - \gamma^{*}r$  and  $s(r,t) = \sigma$ ;
 
 $$
-B (t, T) = \frac {1}{\gamma^ {*}} \left(1 - e ^ {- \gamma^ {*} (T - t)}\right)
+B (t, T) = \frac{1}{\gamma^{*}} \left(1 - e^{- \gamma^{*} (T - t)}\right)
 $$
 
 $$
-\begin{array}{l} A (t, T) = - \int_ {t} ^ {T} B (\tau ; T) \eta^ {*} (\tau) d \tau \\ + \frac {\sigma^ {2}}{2 (\gamma^ {*}) ^ {2}} \left(T - t + \frac {1 - e ^ {- 2 \gamma^ {*} (T - t)}}{2 \gamma} - 2 B (t; T)\right) \\ \end{array}
+\begin{array}{l} A (t, T) = - \int_{t}^{T} B (\tau ; T) \eta^{*} (\tau) d \tau \\ + \frac{\sigma^{2}}{2 (\gamma^{*})^{2}} \left(T - t + \frac{1 - e^{- 2 \gamma^{*} (T - t)}}{2 \gamma} - 2 B (t; T)\right) \\ \end{array}
 $$
 
 # Fitting the Vasicek Model to Data
@@ -7069,7 +7069,7 @@ $$
 3. We can finally find the parameters that minimize the distance between the actual prices and the theoretical ones as
 
 $$
-\min _ {\gamma^ {*}, \bar {r} ^ {*}, \sigma} J = \sum_ {i = 1} ^ {n} \left(P ^ {i} (0, T _ {i}) - \widehat {P} ^ {i} (0, r _ {0}; T _ {i})\right) ^ {2} \tag {22}
+\min_{\gamma^{*}, \bar {r}^{*}, \sigma} J = \sum_{i = 1}^{n} \left(P^{i} (0, T_{i}) - \widehat {P}^{i} (0, r_{0}; T_{i})\right)^{2} \tag {22}
 $$
 
 - I find  $\gamma^{*} = 0.0702, \overline{r}^{*} = 0.2322, \sigma = 0.0463$  
@@ -7095,56 +7095,56 @@ Zero-Coupon Yield Curves: 08-Jan-2002
 - According to Ito's formula:
 
 $$
-\frac {d V}{V} = \mu_ {V} d t + \sigma_ {V} d W
+\frac{d V}{V} = \mu_{V} d t + \sigma_{V} d W
 $$
 
 - where the diffusion  $\sigma_{V}$  is
 
 $$
-\sigma_ {V} = \frac {V _ {r}}{V} s (r, t) \tag {23}
+\sigma_{V} = \frac{V_{r}}{V} s (r, t) \tag {23}
 $$
 
 - and the expected return  $\mu_{V}$  is
 
 $$
-E \left[ \frac {d V}{V} \right] = \mu_ {V} d t = \frac {1}{V} \left\{V _ {t} + V _ {r} m (r, t) + \frac {1}{2} V _ {r r} s ^ {2} (r, t) \right\} d t
+E \left[ \frac{d V}{V} \right] = \mu_{V} d t = \frac{1}{V} \left\{V_{t} + V_{r} m (r, t) + \frac{1}{2} V_{r r} s^{2} (r, t) \right\} d t
 $$
 
 - The two terms  $\left(V_{t} + \frac{1}{2} V_{rr}s^{2}(r,t)\right)$ , also appear in the pricing PDE (12):
 
 $$
-V _ {t} + \frac {1}{2} V _ {r r} s ^ {2} (r, t) = r V - V _ {r} m ^ {*} (r, t)
+V_{t} + \frac{1}{2} V_{r r} s^{2} (r, t) = r V - V_{r} m^{*} (r, t)
 $$
 
 - Substitute, to obtain the expected return as
 
 $$
-E \left[ \frac {d V}{V} \right] = \left\{r + \frac {V _ {r}}{V} (m (r, t) - m ^ {*} (r, t)) \right\} d t
+E \left[ \frac{d V}{V} \right] = \left\{r + \frac{V_{r}}{V} (m (r, t) - m^{*} (r, t)) \right\} d t
 $$
 
 - Using expression (23), we can rewrite this as
 
 $$
-\frac {E \left[ \frac {d V}{V} \right] - r d t}{\sigma_ {V}} = \frac {1}{s (r , t)} \left(m (r, t) - m ^ {*} (r, t)\right) d t \tag {24}
+\frac{E \left[ \frac{d V}{V} \right] - r d t}{\sigma_{V}} = \frac{1}{s (r , t)} \left(m (r, t) - m^{*} (r, t)\right) d t \tag {24}
 $$
 
 - On the left is the market price of interest rate risk, or Sharpe ratio
 
 $$
-\frac {E \left[ \frac {d V}{V} \right] - r d t}{\sigma_ {V}} = \frac {\text {R i s k P r e m i u m}}{\text {V o l a t i l i t y}}
+\frac{E \left[ \frac{d V}{V} \right] - r d t}{\sigma_{V}} = \frac{\text{Ri sk Pr em iu m}}{\text{Vo la ti li ty}}
 $$
 
 - The right-hand-side of (24) shows that such ratio does not depend on  $V$ . All fixed income securities have the same market price of risk  
 - We thus define the market price of risk as
 
 $$
-\lambda (r, t) = \frac {1}{s (r , t)} (m (r, t) - m ^ {*} (r, t)) \tag {25}
+\lambda (r, t) = \frac{1}{s (r , t)} (m (r, t) - m^{*} (r, t)) \tag {25}
 $$
 
 - Every fixed-income security  $V$  we must have a risk premium given by
 
 $$
-E \left[ \frac {d V}{V} \right] - r d t = \sigma_ {V} \lambda (r, t) d t \tag {26}
+E \left[ \frac{d V}{V} \right] - r d t = \sigma_{V} \lambda (r, t) d t \tag {26}
 $$
 
 - The risk premium of a fixed income security depends on
@@ -7155,7 +7155,7 @@ $$
 - Given an estimate of  $\lambda(r, t)$ , the risk-neutral drift  $m^{*}(r, t)$  is
 
 $$
-m ^ {*} (r, t) = m (r, t) - \lambda (r, t) s (r, t) \tag {27}
+m^{*} (r, t) = m (r, t) - \lambda (r, t) s (r, t) \tag {27}
 $$
 
 - that is, it is equal to the original drift adjusted for the market price of risk. The risk-neutral process is a "risk-adjusted" process.
@@ -7165,19 +7165,19 @@ $$
 - In Vasicek model, the Market Price of Interest Rate Risk is
 
 $$
-\lambda (r) = \frac {1}{\sigma} (\gamma (\bar {r} - r) - \gamma^ {*} (\bar {r} ^ {*} - r)) \tag {28}
+\lambda (r) = \frac{1}{\sigma} (\gamma (\bar {r} - r) - \gamma^{*} (\bar {r}^{*} - r)) \tag {28}
 $$
 
 - Generically, we can write the market price of risk as:
 
 $$
-\lambda (r) = \lambda_ {0} + \lambda_ {1} \times r
+\lambda (r) = \lambda_{0} + \lambda_{1} \times r
 $$
 
 where
 
 $$
-\lambda_ {0} = \frac {1}{\sigma} \times \left(\gamma \bar {r} - \gamma^ {*} \bar {r} ^ {*}\right); \quad \text {a n d} \quad \lambda_ {1} = - \frac {1}{\sigma} \times \left(\gamma - \gamma^ {*}\right) \tag {29}
+\lambda_{0} = \frac{1}{\sigma} \times \left(\gamma \bar {r} - \gamma^{*} \bar {r}^{*}\right); \quad \text{an d} \quad \lambda_{1} = - \frac{1}{\sigma} \times \left(\gamma - \gamma^{*}\right) \tag {29}
 $$
 
 - Given estimates of true parameters and risk neutral parameters, we can estimate the market price of risk
@@ -7188,7 +7188,7 @@ $$
 - From fitting bond prices
 
 $$
-\gamma^ {*} = 0. 0 7 0 2; \quad \overline {{r}} ^ {*} = 0. 2 3 2 2; \quad \sigma = 0. 0 4 6 3
+\gamma^{*} = 0. 0 7 0 2; \quad \overline {{r}}^{*} = 0. 2 3 2 2; \quad \sigma = 0. 0 4 6 3
 $$
 
 - From running a regression of  $r_{t + \Delta t}$  onto  $r_t$ ,
@@ -7205,7 +7205,7 @@ These results show two main "problems":
 - A high "risk-neutral"  $\overline{r}^{*}$  is not necessarily a problem, as it may just imply a market price of risk:
 
 $$
-\lambda (r) = \lambda_ {0} + \lambda_ {1} r
+\lambda (r) = \lambda_{0} + \lambda_{1} r
 $$
 
 where  $\lambda_0$  and  $\lambda_{1}$  are in (29).
@@ -7227,7 +7227,7 @@ $$
 - By redoing the non-linear least square estimate on  $\gamma^{*}$  and  $\overline{r}^{*}$  while restricting  $\sigma = .0221$  yields
 
 $$
-\gamma^ {*} = 0. 4 4 7 6, \bar {r} ^ {*} = 0. 0 6 5 4, \sigma = . 0 2 2 1 (\mathrm {r e s t r i c t e d})
+\gamma^{*} = 0. 4 4 7 6, \bar {r}^{*} = 0. 0 6 5 4, \sigma = . 0 2 2 1 (\mathrm{re st ri ct ed})
 $$
 
 - Next figures show the implications for fitting:
@@ -7256,13 +7256,13 @@ Data Source: Bloomberg
 - The value of the bond according to the Vasicek model is then
 
 $$
-P _ {i} ^ {\text {V a s i c e k}} = \frac {c _ {i} \times 1 0 0}{2} \times \sum_ {j = 1} ^ {n _ {i}} Z (0, T _ {i, j}) + 1 0 0 \times Z (0, T _ {i, n _ {i}}) \qquad (3 0)
+P_{i}^{\text{Va si ce k}} = \frac{c_{i} \times 1 0 0}{2} \times \sum_{j = 1}^{n_{i}} Z (0, T_{i, j}) + 1 0 0 \times Z (0, T_{i, n_{i}}) \qquad (3 0)
 $$
 
 - We then minimize
 
 $$
-J (\gamma^ {*}, \overline {{r}} ^ {*}) = \sum_ {i = 1} ^ {n} \left(P _ {i} ^ {D a t a} - P _ {i} ^ {V a s i c e k}\right) ^ {2}. \tag {31}
+J (\gamma^{*}, \overline {{r}}^{*}) = \sum_{i = 1}^{n} \left(P_{i}^{D a t a} - P_{i}^{V a s i c e k}\right)^{2}. \tag {31}
 $$
 
 - The minimization procedure yields  $\bar{r}^{*} = 18.99\%$  and  $\gamma^{*} = 0.0583$
@@ -7287,7 +7287,7 @@ Panel D. Relative Pricing Errors
 - Panel C reports the pricing errors, that is, the difference between the prices in the data and the model:
 
 $$
-\text {P r i c i n g E r r o r o f T r e a s u r y S e c u r i t y} i = P _ {i} ^ {\text {D a t a}} - P _ {i} ^ {\text {V a s i c e k}}
+\text{Pr ic in gE rr or of Tr ea su ry Se cu ri ty} i = P_{i}^{\text{Da ta}} - P_{i}^{\text{Va si ce k}}
 $$
 
 - Most securities are not priced correctly, and some of them display large differences.
@@ -7323,14 +7323,14 @@ Sell 1.5-yr T-note / Buy portfolio that replicates the Vasicek 1.5-yr note (33)
 - When we derived the no arbitrage condition, we considered the following portfolio, now specialized for the securities at hand:
 
 $$
-\Pi (r _ {t}, t) = - P _ {1. 5 - y r} ^ {V a s i c e k} (r _ {t}, t) + N _ {t} \times P _ {7. 5 - y r} ^ {V a s i c e k} (r _ {t}, t) \tag {34}
+\Pi (r_{t}, t) = - P_{1. 5 - y r}^{V a s i c e k} (r_{t}, t) + N_{t} \times P_{7. 5 - y r}^{V a s i c e k} (r_{t}, t) \tag {34}
 $$
 
 - where  $P_{1.5 - yr}^{Vasicek}(r_t, t)$  and  $P_{7.5 - yr}^{Vasicek}(r_t, t)$  denote the 1.5-year and the 7.5-year coupon notes, at  $t$ , respectively.  
 - The hedging strategy calls for selecting  $N_{t}$  in order to make the portfolio insensitive to changes in the interest rate. That is
 
 $$
-\frac {\partial \Pi}{\partial r} = 0 \Longrightarrow N _ {t} = \frac {\partial P _ {1 . 5 - y r} ^ {V a s i c e k} (r , t) / \partial r}{\partial P _ {7 . 5 - y r} ^ {V a s i c e k} (r , t) / \partial r} \tag {35}
+\frac{\partial \Pi}{\partial r} = 0 \Longrightarrow N_{t} = \frac{\partial P_{1 . 5 - y r}^{V a s i c e k} (r , t) / \partial r}{\partial P_{7 . 5 - y r}^{V a s i c e k} (r , t) / \partial r} \tag {35}
 $$
 
 - According to the model, no arbitrage then implies that
@@ -7343,7 +7343,7 @@ $$
 - To figure out the replicating portfolio, we must invert (34), and rewrite
 
 $$
-P _ {1. 5 - y r} ^ {V a s i c e k} (r _ {t}, t) = N _ {t} \times P _ {7. 5 - y r} ^ {V a s i c e k} (r _ {t}, t) - \Pi (r _ {t}, t) \tag {37}
+P_{1. 5 - y r}^{V a s i c e k} (r_{t}, t) = N_{t} \times P_{7. 5 - y r}^{V a s i c e k} (r_{t}, t) - \Pi (r_{t}, t) \tag {37}
 $$
 
 - According to the model, we can replicate the Vasicek 1.5-year note by using a position in the 7.5-year note, and by borrowing  $\Pi_t$  at the risk free rate  $r_t$ .  
@@ -7351,7 +7351,7 @@ $$
 - With no arbitrage, the replicating portfolio is then given by
 
 $$
-P _ {1. 5 - y r} ^ {V a s i c e k} (r _ {t}, t) = N _ {t} \times P _ {7. 5 - y r} ^ {V a s i c e k} (r _ {t}, t) - C _ {t} \tag {38}
+P_{1. 5 - y r}^{V a s i c e k} (r_{t}, t) = N_{t} \times P_{7. 5 - y r}^{V a s i c e k} (r_{t}, t) - C_{t} \tag {38}
 $$
 
 - Recall that  $C_t$  is the amount borrowed for the replication strategy.
@@ -7360,42 +7360,42 @@ $$
 - The initial amount borrowed  $C_0$  must be given by the theoretical portfolio value at time 0:
 
 $$
-C _ {0} = - P _ {1. 5 - y r} ^ {V a s i c e k} (r _ {0}, 0) + N _ {0} \times P _ {7. 5 - y r} ^ {V a s i c e k} (r _ {0}, 0) \tag {39}
+C_{0} = - P_{1. 5 - y r}^{V a s i c e k} (r_{0}, 0) + N_{0} \times P_{7. 5 - y r}^{V a s i c e k} (r_{0}, 0) \tag {39}
 $$
 
 - Vasicek model tells us the position in each bond to take, as
 
 $$
-\begin{array}{l} \frac {\partial P _ {c} (r , 0)}{\partial r} = \frac {c \times 1 0 0}{2} \sum_ {i = 1} ^ {n} \frac {\partial Z (r , 0 ; T _ {i})}{\partial r} + 1 0 0 \times \frac {\partial Z (r , 0 ; T _ {n})}{\partial r} \\ = - \frac {c \times 1 0 0}{2} \sum_ {i = 1} ^ {n} B (0; T _ {i}) Z (r, 0; T _ {i}) - 1 0 0 \times B (0; T _ {n}) Z (r, 0; T _ {n}) \\ \end{array}
+\begin{array}{l} \frac{\partial P_{c} (r , 0)}{\partial r} = \frac{c \times 1 0 0}{2} \sum_{i = 1}^{n} \frac{\partial Z (r , 0 ; T_{i})}{\partial r} + 1 0 0 \times \frac{\partial Z (r , 0 ; T_{n})}{\partial r} \\ = - \frac{c \times 1 0 0}{2} \sum_{i = 1}^{n} B (0; T_{i}) Z (r, 0; T_{i}) - 1 0 0 \times B (0; T_{n}) Z (r, 0; T_{n}) \\ \end{array}
 $$
 
 $$
-- \mathrm {w h e r e} \mathrm {r e c a l l} B (0, T _ {i}) = \left(1 - e ^ {- \gamma^ {*} \times T _ {i}}\right) / \gamma^ {*}.
+- \mathrm{wh er e} \mathrm{re ca ll} B (0, T_{i}) = \left(1 - e^{- \gamma^{*} \times T_{i}}\right) / \gamma^{*}.
 $$
 
 - We then get
 
 $$
-N _ {0} = \frac {\partial P _ {1 . 5 - y r} (r , 0) / \partial r}{\partial P _ {7 . 5 - y r} (r , 0) / \partial r} = \frac {1 . 4 9 1 2}{5 . 6 8 5 4} = 0. 2 6 2 3 \tag {40}
+N_{0} = \frac{\partial P_{1 . 5 - y r} (r , 0) / \partial r}{\partial P_{7 . 5 - y r} (r , 0) / \partial r} = \frac{1 . 4 9 1 2}{5 . 6 8 5 4} = 0. 2 6 2 3 \tag {40}
 $$
 
 - $\Rightarrow$  for each 1.5-year note sold, we must purchase 0.2623 of the 7.5-year note.
 - Given  $N_{0}$ , we can compute the value of  $C_{0}$
 
 $$
-C _ {0} = - 1 0 6. 9 7 9 1 + 0. 2 6 2 3 \times 1 0 8. 7 3 4 4 = - 7 8. 4 5 8 1
+C_{0} = - 1 0 6. 9 7 9 1 + 0. 2 6 2 3 \times 1 0 8. 7 3 4 4 = - 7 8. 4 5 8 1
 $$
 
 - To conclude, the replicating portfolio is then
 
 $$
-\begin{array}{l} P _ {0} = N _ {0} \times P _ {7. 5 - y r} (0) - C _ {0} = 0. 2 6 2 3 \times 1 0 8. 7 3 4 4 + 7 8. 4 5 8 1 \\ = 1 0 6. 9 7 9 1 = P _ {1. 5 - y r} ^ {V a s i c e k} (r _ {0}, 0) \\ \end{array}
+\begin{array}{l} P_{0} = N_{0} \times P_{7. 5 - y r} (0) - C_{0} = 0. 2 6 2 3 \times 1 0 8. 7 3 4 4 + 7 8. 4 5 8 1 \\ = 1 0 6. 9 7 9 1 = P_{1. 5 - y r}^{V a s i c e k} (r_{0}, 0) \\ \end{array}
 $$
 
 - By selling  $P_{1.5 - yr}^{data} = 107.5469\$  and buying the replicating portfolio, which costs 106.9791, the initial lock in profit is
 
 $$
-\text {I n i t i a l p r o f i t} = \$ 1 0 7. 5 4 6 9 - \$ 1 0 6. 9 7 9 1 = \$ 0. 5 6 7 8
+\text{In it ia lp ro fi t} = \$ 1 0 7. 5 4 6 9 - \$ 1 0 6. 9 7 9 1 = \$ 0. 5 6 7 8
 $$
 
 # Application (cntd.) The Dynamic Trade
@@ -7407,13 +7407,13 @@ $$
 3. Adjust the amount of cash borrowed<sup>3</sup>
 
 $$
-C _ {t} = C _ {t - d t} + C _ {t - d t} \times r _ {t - d t} \times d t + \mathrm {C a s h n e e d e d}
+C_{t} = C_{t - d t} + C_{t - d t} \times r_{t - d t} \times d t + \mathrm{Ca sh ne ed ed}
 $$
 
 4. At every coupon period  $T_{i}$ , borrow more to pay the coupons due in the short position, and use the coupons received to decrease the amount borrowed.
 
 $$
-\begin{array}{l} C _ {T _ {i}} = C _ {T _ {i} - d t} + C _ {T _ {i} - d t} \times r _ {T _ {i} - d t} \times d t + \mathrm {C a s h n e e d e d} + \left(1 0 0 \times \frac {c ^ {1 . 5 - y r}}{2}\right) \\ - N _ {T _ {i} - d t} \left(\frac {1 0 0 \times c ^ {7 . 5 - y r}}{2}\right) \\ \end{array}
+\begin{array}{l} C_{T_{i}} = C_{T_{i} - d t} + C_{T_{i} - d t} \times r_{T_{i} - d t} \times d t + \mathrm{Ca sh ne ed ed} + \left(1 0 0 \times \frac{c^{1 . 5 - y r}}{2}\right) \\ - N_{T_{i} - d t} \left(\frac{1 0 0 \times c^{7 . 5 - y r}}{2}\right) \\ \end{array}
 $$
 
 # Application (cntd.). The Replicating Portfolio: Simulations
@@ -7456,13 +7456,13 @@ Panel D. Replicating Portfolio in Data
 - We finally obtain
 
 $$
-\text {F i n a l r e p l i c a t i o n e r r o r} = P _ {T} - P _ {1. 5 - y r} ^ {\text {d a t a}} = \\ \mathbb {1 0 3 . 4 6 9 5} - \mathbb {1 0 3 . 2 5} = \mathbb {1 0 3 . 2 5}
+\text{Fi na lr ep li ca ti on er ro r} = P_{T} - P_{1. 5 - y r}^{\text{da ta}} = \\ \mathbb {1 0 3 . 4 6 9 5} - \mathbb {1 0 3 . 2 5} = \mathbb {1 0 3 . 2 5}
 $$
 
 - The total profit for this trade is then the sum of the profit at time 0, \$0.5678, plus the interest accrued on this profit over 1.5 years, plus the replication error:
 
 $$
-\text {T o t a l P r o f i t} = \\ 0. 5 6 7 8 / Z (0, 1. 5) + \\ 0. 2 1 9 5 = \\ 0. 5 7 9 0 + \\ 0. 2 1 9 5 = \\ 0. 7 9 8 5
+\text{To ta lP ro fi t} = \\ 0. 5 6 7 8 / Z (0, 1. 5) + \\ 0. 2 1 9 5 = \\ 0. 5 7 9 0 + \\ 0. 2 1 9 5 = \\ 0. 7 9 8 5
 $$
 
 - where  $Z(0,1.5) = 0.9792$  is the 1.5-year discount factor on February 17, 2004, obtained from a bootstrap procedure
@@ -7473,19 +7473,19 @@ $$
 - Recall the value of any fixed income security can be computed as
 
 $$
-V (r, T) = E _ {t} ^ {*} \left[ e ^ {- \int_ {t} ^ {T} r _ {u} d u} g (r _ {T}, T) \right] \tag {41}
+V (r, T) = E_{t}^{*} \left[ e^{- \int_{t}^{T} r_{u} d u} g (r_{T}, T) \right] \tag {41}
 $$
 
 - under the risk neutral process
 
 $$
-d r = m ^ {*} (r, t) d t + s (r, t) d W _ {t} ^ {*} \tag {42}
+d r = m^{*} (r, t) d t + s (r, t) d W_{t}^{*} \tag {42}
 $$
 
 - The idea is to approximate  $V(r, T)$  by its simulated value
 
 $$
-\widehat {V} (r, T) = \frac {1}{J} \sum_ {s = 1} ^ {J} e ^ {- \int_ {t} ^ {T} r _ {u} ^ {s} d u} g (r _ {T} ^ {s}, T) \rightarrow E _ {t} ^ {*} \left[ e ^ {- \int_ {t} ^ {T} r _ {u} d u} g (r _ {T}, T) \right] \qquad (4 3)
+\widehat {V} (r, T) = \frac{1}{J} \sum_{s = 1}^{J} e^{- \int_{t}^{T} r_{u}^{s} d u} g (r_{T}^{s}, T) \rightarrow E_{t}^{*} \left[ e^{- \int_{t}^{T} r_{u} d u} g (r_{T}, T) \right] \qquad (4 3)
 $$
 
 # Simulation Procedure
@@ -7494,7 +7494,7 @@ $$
 - Let the initial condition be the current interest rate  $r_0$ . We approximate :
 
 $$
-d r \approx r _ {t + \Delta t} - r _ {t}
+d r \approx r_{t + \Delta t} - r_{t}
 $$
 
 $$
@@ -7502,19 +7502,19 @@ d t \approx \Delta t
 $$
 
 $$
-d W ^ {*} \approx \varepsilon_ {t + \Delta t} \sim \mathcal {N} (0, \Delta t)
+d W^{*} \approx \varepsilon_{t + \Delta t} \sim \mathcal {N} (0, \Delta t)
 $$
 
 - to obtain the recursion (Euler discretization)
 
 $$
-r _ {t + \Delta t} = r _ {t} + m ^ {*} (r _ {t}, t) \Delta t + s (r _ {t}, t) \varepsilon_ {t + \Delta t}
+r_{t + \Delta t} = r_{t} + m^{*} (r_{t}, t) \Delta t + s (r_{t}, t) \varepsilon_{t + \Delta t}
 $$
 
 - Important: Note that  $\varepsilon_{t + \Delta t}$  has variance  $\Delta t$ , and not variance 1. It can be obtained from a Standard Normal  $x_{t + \Delta t} \sim \mathcal{N}(0,1)$  from
 
 $$
-\varepsilon_ {t + \Delta t} = \sqrt {\Delta t} \times x _ {t + \Delta t} \sim \mathcal {N} (0, \Delta t)
+\varepsilon_{t + \Delta t} = \sqrt{\Delta t} \times x_{t + \Delta t} \sim \mathcal {N} (0, \Delta t)
 $$
 
 # Simulating CIR Model
@@ -7523,11 +7523,11 @@ $$
 Starting from  $r_0$ , we have
 
 $$
-r _ {1} = r _ {0} + \gamma^ {*} (\overline {{r}} ^ {*} - r _ {0}) \Delta t + \sqrt {\alpha r _ {0}} \times \varepsilon_ {1}
+r_{1} = r_{0} + \gamma^{*} (\overline {{r}}^{*} - r_{0}) \Delta t + \sqrt{\alpha r_{0}} \times \varepsilon_{1}
 $$
 
 $$
-r _ {2} = r _ {1} + \gamma^ {*} (\overline {{r}} ^ {*} - r _ {1}) \Delta t + \sqrt {\alpha r _ {1}} \times \varepsilon_ {2}
+r_{2} = r_{1} + \gamma^{*} (\overline {{r}}^{*} - r_{1}) \Delta t + \sqrt{\alpha r_{1}} \times \varepsilon_{2}
 $$
 
 $$
@@ -7535,7 +7535,7 @@ $$
 $$
 
 $$
-r _ {i} = r _ {i - 1} + \gamma^ {*} (\overline {{r}} ^ {*} - r _ {i - 1}) \Delta t + \sqrt {\alpha r _ {i - 1}} \times \varepsilon_ {i}
+r_{i} = r_{i - 1} + \gamma^{*} (\overline {{r}}^{*} - r_{i - 1}) \Delta t + \sqrt{\alpha r_{i - 1}} \times \varepsilon_{i}
 $$
 
 $$
@@ -7543,7 +7543,7 @@ $$
 $$
 
 $$
-r _ {N} = r _ {N - 1} + \gamma^ {*} (\overline {{r}} - r _ {N - 1}) \Delta t + \sqrt {\alpha r _ {N - 1}} \times \varepsilon_ {N}
+r_{N} = r_{N - 1} + \gamma^{*} (\overline {{r}} - r_{N - 1}) \Delta t + \sqrt{\alpha r_{N - 1}} \times \varepsilon_{N}
 $$
 
 - We then obtain a run of simulated interest rates.
@@ -7558,7 +7558,7 @@ A Simulated Path of Interest Rates: CIR Model
 - Since  $g\left( {r}_{T}\right)  = 1$  ,the pricing formula (41) tells us:
 
 $$
-V (r, t) = E ^ {*} \left[ e ^ {- \int_ {t} ^ {T} r (u) d u} \times 1 \right] = E ^ {*} \left[ e ^ {- \sum_ {i = 0} ^ {N - 1} r _ {i} \Delta t} \right]
+V (r, t) = E^{*} \left[ e^{- \int_{t}^{T} r (u) d u} \times 1 \right] = E^{*} \left[ e^{- \sum_{i = 0}^{N - 1} r_{i} \Delta t} \right]
 $$
 
 - The Monte Carlo simulation approach is:
@@ -7567,13 +7567,13 @@ $$
 (b) Obtain  $J$  paths of interest rates  $r_0^j, r_1^j, \ldots, r_{N-1}^j$  and hence  $J$  values of the bond (one for each interest rate path)
 
 $$
-Z ^ {\mathsf {R u n} j} = e ^ {- \sum_ {i = 0} ^ {N - 1} r _ {i} ^ {j} \times \Delta} \times \$ 1
+Z^{\mathsf {R u n} j} = e^{- \sum_{i = 0}^{N - 1} r_{i}^{j} \times \Delta} \times \$ 1
 $$
 
 (c) Compute the value of the zero-coupon bond as the sample average
 
 $$
-\widehat {Z} (r, t) \approx E ^ {*} \left[ e ^ {- \sum_ {i = 0} ^ {N - 1} r _ {i} \Delta} \right] = \frac {1}{J} \sum_ {j = 1} ^ {J} Z ^ {\mathrm {R u n} j}
+\widehat {Z} (r, t) \approx E^{*} \left[ e^{- \sum_{i = 0}^{N - 1} r_{i} \Delta} \right] = \frac{1}{J} \sum_{j = 1}^{J} Z^{\mathrm{Ru n} j}
 $$
 
 - Given the discount function  $\widehat{Z}(T)$  for every  $T$ , we can compute the value of coupon-bonds.  
@@ -7581,7 +7581,7 @@ $$
 - The risk neutral parameters computed from non-linear least squares are
 
 $$
-\gamma^ {*} = 0. 3 8 0 7; \quad \overline {{r}} ^ {*} = 0. 0 7 2; \quad \alpha = 0. 0 5 4 8.
+\gamma^{*} = 0. 3 8 0 7; \quad \overline {{r}}^{*} = 0. 0 7 2; \quad \alpha = 0. 0 5 4 8.
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-20/ff34cd1a-cf8f-48ef-82fe-87b50e3bff05/c7fd5f51967c0f0e3fec3ef900a54b8335d4b82955eda9a3c5ddd6acbb4c342f.jpg)  
@@ -7600,25 +7600,25 @@ Vasicek Bond Prices: Exact and Simulated
 - To assess how big is the simulation error, we can compute the standard errors - Given the  $J$  prices  $P^j$ ,  $j = 1, \dots, J$ , their standard deviations is
 
 $$
-\widehat {\sigma} _ {P} = \sqrt {\frac {1}{J - 1} \sum_ {j = 1} ^ {J} \left(P ^ {j} - \widehat {P}\right) ^ {2}}
+\widehat {\sigma}_{P} = \sqrt{\frac{1}{J - 1} \sum_{j = 1}^{J} \left(P^{j} - \widehat {P}\right)^{2}}
 $$
 
 where  $\widehat{P}$  is the actual average simulated price:
 
 $$
-\widehat {P} = \frac {1}{J} \sum_ {j = 1} ^ {J} P ^ {j}
+\widehat {P} = \frac{1}{J} \sum_{j = 1}^{J} P^{j}
 $$
 
 - Then, the standard error is
 
 $$
-\mathrm {S t a n d a r d E r r o r} = s e _ {P} = \frac {\widehat {\sigma} _ {P}}{\sqrt {J}}
+\mathrm{St an da rd Er ro r} = s e_{P} = \frac{\widehat {\sigma}_{P}}{\sqrt{J}}
 $$
 
 - That is, we can say that with  $95 \%$ confidence, the true price lies in the confidence interval
 
 $$
-\left[ \widehat {P} - 1. 9 6 \times s e _ {P}, \widehat {P} + 1. 9 6 \times s e _ {P} \right]
+\left[ \widehat {P} - 1. 9 6 \times s e_{P}, \widehat {P} + 1. 9 6 \times s e_{P} \right]
 $$
 
 - For example, in the Vasicek model, we had
@@ -7654,7 +7654,7 @@ Notional: 100;
 - The convertible bond is a straight (zero coupon) bond + option (to convert):
 
 $$
-P _ {C o n v e r t} = Z \left(0, r _ {0}; 5\right) + O p t i o n
+P_{C o n v e r t} = Z \left(0, r_{0}; 5\right) + O p t i o n
 $$
 
 - We need to compute the option, and we are done.
@@ -7662,7 +7662,7 @@ $$
 - Payoff of the conversion option at time  $T = 3$
 
 $$
-\max \left(S _ {T} - Z \left(T, r _ {T}; T + 2\right), 0\right)
+\max \left(S_{T} - Z \left(T, r_{T}; T + 2\right), 0\right)
 $$
 
 What is the difference from standard option?
@@ -7677,13 +7677,13 @@ What is the difference from standard option?
 - Process for stock is the Black Scholes lognormal process
 
 $$
-d S _ {t} = \mu S _ {t} d t + \sigma_ {S} S _ {t} d X _ {2, t}
+d S_{t} = \mu S_{t} d t + \sigma_{S} S_{t} d X_{2, t}
 $$
 
 - The risk-neutral pricing formula is
 
 $$
-P _ {O p t i o n} = E ^ {*} \left[ e ^ {- \int_ {0} ^ {T} r _ {t} d t} \max \left(S _ {T} - Z (T, r _ {T}; T + 2), 0\right) \right]
+P_{O p t i o n} = E^{*} \left[ e^{- \int_{0}^{T} r_{t} d t} \max \left(S_{T} - Z (T, r_{T}; T + 2), 0\right) \right]
 $$
 
 where  $E^{*}$  denotes the expectation under the risk neutral dynamics.
@@ -7691,23 +7691,23 @@ where  $E^{*}$  denotes the expectation under the risk neutral dynamics.
 What is the risk neutral process for stocks?
 
 $$
-d S _ {t} = r _ {t} S _ {t} d t + \sigma_ {S} S _ {t} d X _ {2, t}
+d S_{t} = r_{t} S_{t} d t + \sigma_{S} S_{t} d X_{2, t}
 $$
 
 - The risk neutral process for the risk-free rate is
 
 $$
-d r _ {t} = \gamma^ {*} (\overline {{r}} ^ {*} - r _ {t}) d t + \sigma d X _ {1, t}
+d r_{t} = \gamma^{*} (\overline {{r}}^{*} - r_{t}) d t + \sigma d X_{1, t}
 $$
 
 - So, we simulate simultaneously:
 
 $$
-r _ {t + \Delta} = r _ {t} + \gamma^ {*} (\bar {r} ^ {*} - r _ {t}) \Delta + \sigma \sqrt {\Delta} x _ {1, t + \Delta}
+r_{t + \Delta} = r_{t} + \gamma^{*} (\bar {r}^{*} - r_{t}) \Delta + \sigma \sqrt{\Delta} x_{1, t + \Delta}
 $$
 
 $$
-S _ {t + \Delta} = S _ {t} + r _ {t} S _ {t} \Delta + S _ {t} \sigma_ {S} \sqrt {\Delta} x _ {2, t + \Delta}
+S_{t + \Delta} = S_{t} + r_{t} S_{t} \Delta + S_{t} \sigma_{S} \sqrt{\Delta} x_{2, t + \Delta}
 $$
 
 - where  $x_{1,t + \Delta} \sim N(0,1)$  and  $x_{2,t + \Delta} \sim N(0,1)$
@@ -7717,51 +7717,51 @@ $$
 - At time  $T$ , given  $r_T^j$ , we can use the Vasicek formula to find
 
 $$
-Z \left(r _ {T} ^ {j}, T; T + 2\right) = e ^ {A (T; T + 2) - B (T; T + 2) \times r _ {T} ^ {j}}
+Z \left(r_{T}^{j}, T; T + 2\right) = e^{A (T; T + 2) - B (T; T + 2) \times r_{T}^{j}}
 $$
 
 where
 
 $$
-B (t; T) = \frac {1}{\gamma^ {*}} \big (1 - e ^ {- \gamma^ {*} (T - t)} \big)
+B (t; T) = \frac{1}{\gamma^{*}} \big (1 - e^{- \gamma^{*} (T - t)} \big)
 $$
 
 - and
 
 $$
-A (t; T) = \left(B (t; T) - (T - t)\right) \left(\overline {{r}} ^ {*} - \frac {1}{2 (\gamma^ {*}) ^ {2}} \sigma^ {2}\right) - \frac {\sigma^ {2} B (t ; T) ^ {2}}{4 \gamma^ {*}}
+A (t; T) = \left(B (t; T) - (T - t)\right) \left(\overline {{r}}^{*} - \frac{1}{2 (\gamma^{*})^{2}} \sigma^{2}\right) - \frac{\sigma^{2} B (t ; T)^{2}}{4 \gamma^{*}}
 $$
 
 - Thus, the Cash Flow at time  $T$  from the option is
 
 $$
-C F _ {T} ^ {j} = \max \left(S _ {T} ^ {j} - Z \left(T, r _ {T} ^ {j}; T + 2\right), 0\right)
+C F_{T}^{j} = \max \left(S_{T}^{j} - Z \left(T, r_{T}^{j}; T + 2\right), 0\right)
 $$
 
 - Discount it to today, using the interest rates of this simulation
 
 $$
-P _ {O p t i o n} ^ {j} = e ^ {- \sum_ {i = 0} ^ {N - 1} r _ {i} ^ {j} \times \Delta t} C F _ {T} ^ {j}
+P_{O p t i o n}^{j} = e^{- \sum_{i = 0}^{N - 1} r_{i}^{j} \times \Delta t} C F_{T}^{j}
 $$
 
 - The value of the option is
 
 $$
-P _ {O p t i o n} = \frac {1}{J} \sum_ {j = 1} ^ {J} P _ {O p t i o n} ^ {j}
+P_{O p t i o n} = \frac{1}{J} \sum_{j = 1}^{J} P_{O p t i o n}^{j}
 $$
 
 -In this case,we obtain
 
 $$
-Z \left(0, r _ {0}; 5\right) = 7 9. 8 7 1 3 (\text {f r o m V a s i c e k F o r m u l a})
+Z \left(0, r_{0}; 5\right) = 7 9. 8 7 1 3 (\text{fr om Va si ce kF or mu la})
 $$
 
 $$
-P _ {O p t i o n} = 1 0. 0 7 2 1 \mathrm {(f r o m S i m u l a t i o n s)}
+P_{O p t i o n} = 1 0. 0 7 2 1 \mathrm{(fr om Si mu la ti on s)}
 $$
 
 $$
-P _ {C o n v e r t} = 8 9. 9 4 3 4
+P_{C o n v e r t} = 8 9. 9 4 3 4
 $$
 
 # Teaching Notes 8.
@@ -7781,7 +7781,7 @@ and NBER
 - Recall from our previous discussion that a plain vanilla Forward Rate Agreement is a contract between two counterparties who agree to exchange at  $T_{2}$  the following cash flows
 
 $$
-\text {N e t C a s h F l o w a t} T _ {2} = N \Delta \left(\ell \left(T _ {1}\right) - f\right) \tag {1}
+\text{Ne tC as hF lo wa t} T_{2} = N \Delta \left(\ell \left(T_{1}\right) - f\right) \tag {1}
 $$
 
 - The forward rate  $f$  is determined by no-arbitrage. The following is the strategy that replicates the FRA payoff (with  $N = 1$ ):  
@@ -7795,7 +7795,7 @@ $$
 2. We obtain
 
 $$
-\text {T o t a l C F} T _ {2} = \underbrace {1 + \ell (T _ {1}) \Delta} _ {\text {f r o m (a)}} - \underbrace {1} _ {\text {f r o m (b)}} = \ell (T _ {1}) \Delta
+\text{To ta lC F} T_{2} = \underbrace {1 + \ell (T_{1}) \Delta}_{\text{fr om (a)}} - \underbrace {1}_{\text{fr om (b)}} = \ell (T_{1}) \Delta
 $$
 
 3. Replication of " $-f\Delta$ "
@@ -7803,21 +7803,21 @@ $$
 (a) Go short  $f \Delta$  bonds maturing at  $T_{2}$
 
 $$
-\text {T o t a l C F} T _ {2} = - f \Delta
+\text{To ta lC F} T_{2} = - f \Delta
 $$
 
 - What is the value of this portfolio at any time  $t < T_1$ ?  
 - Denote  $Z^{\ell}(t,T)$  as LIBOR-based zero coupon bond. Then
 
 $$
-V _ {t} ^ {F R A} = Z ^ {\ell} (t, T _ {1}) - (1 + f \Delta) Z ^ {\ell} (t, T _ {2}) \qquad \qquad (2)
+V_{t}^{F R A} = Z^{\ell} (t, T_{1}) - (1 + f \Delta) Z^{\ell} (t, T_{2}) \qquad \qquad (2)
 $$
 
 - The forward rate  $f = f\left( {t,{T}_{1},{T}_{2}}\right)$  at time  $t$  is the value that makes  ${V}_{t}^{FRA} = 0$  .  
 - Thus, solving (2) for the forward rate gives:
 
 $$
-f ^ {\ell} (t, T _ {1}, T _ {2}) = \frac {1}{\Delta} \left(\frac {Z ^ {\ell} (t , T _ {1})}{Z ^ {\ell} (t , T _ {2})} - 1\right) \tag {3}
+f^{\ell} (t, T_{1}, T_{2}) = \frac{1}{\Delta} \left(\frac{Z^{\ell} (t , T_{1})}{Z^{\ell} (t , T_{2})} - 1\right) \tag {3}
 $$
 
 - where the superscript  $\ell$  denotes that this is the forward rate implied by the LIBOR-based zero coupon bonds  $Z^{\ell}(t,T_1)$  and  $Z^{\ell}(t,T_2)$ .
@@ -7828,23 +7828,23 @@ $$
 - On January 2nd, 2007 ( $t = 0$ ), the threeand six-months LIBOR rates were  $\ell(0,0.25) = 5.36\%$  and  $\ell(0,0.5) = 5.37\%$ , respectively. Defining  $T_{1} = 0.25$  and  $T_{2} = 0.5$ , this implies
 
 $$
-Z ^ {\ell} (0, T _ {1}) = \frac {1}{1 + . 0 5 3 6 \times 0 . 2 5} = 0. 9 8 6 7 7
+Z^{\ell} (0, T_{1}) = \frac{1}{1 + . 0 5 3 6 \times 0 . 2 5} = 0. 9 8 6 7 7
 $$
 
 $$
-Z ^ {\ell} (0, T _ {2}) = \frac {1}{1 + 0 . 0 5 3 7 \times 0 . 5} = 0. 9 7 3 8 5 2
+Z^{\ell} (0, T_{2}) = \frac{1}{1 + 0 . 0 5 3 7 \times 0 . 5} = 0. 9 7 3 8 5 2
 $$
 
 - Applying formula (3) we obtain
 
 $$
-f ^ {\ell} \left(0, T _ {1}, T _ {2}\right) = 5.3089 \%
+f^{\ell} \left(0, T_{1}, T_{2}\right) = 5.3089 \%
 $$
 
 - Indeed, on the same day, the mid quoted forward rate for a  $3 \times 6$  FRA was
 
 $$
-f ^ {F R A} (0, T _ {1}, T _ {2}) = 5.302 \%,
+f^{F R A} (0, T_{1}, T_{2}) = 5.302 \%,
 $$
 
 —which is quite close to the "theoretical value."
@@ -7855,23 +7855,23 @@ $$
 - On January 2nd, 2009 ( $t = 0$ ), the threeand six-months LIBOR rates were  $\ell(0,0.25) = 1.4125\%$  and  $\ell(0,0.5) = 1.7525\%$ , respectively. Defining  $T_{1} = 0.25$  and  $T_{2} = 0.5$ , this implies
 
 $$
-Z ^ {\ell} (0, T _ {1}) = \frac {1}{1 + . 0 1 4 1 2 5 \times 0 . 2 5} = 0. 9 9 6 4 8
+Z^{\ell} (0, T_{1}) = \frac{1}{1 + . 0 1 4 1 2 5 \times 0 . 2 5} = 0. 9 9 6 4 8
 $$
 
 $$
-Z ^ {\ell} (0, T _ {2}) = \frac {1}{1 + 0 . 0 1 7 5 2 5 \times 0 . 5} = 0. 9 9 1 3 1
+Z^{\ell} (0, T_{2}) = \frac{1}{1 + 0 . 0 1 7 5 2 5 \times 0 . 5} = 0. 9 9 1 3 1
 $$
 
 - Applying formula (3) we obtain
 
 $$
-f ^ {\ell} (0, T _ {1}, T _ {2}) = 2.086 \%
+f^{\ell} (0, T_{1}, T_{2}) = 2.086 \%
 $$
 
 - In contrast, on the same day, the mid quoted forward rate for a  $3 \times 6$  FRA was
 
 $$
-f ^ {F R A} (0, T _ {1}, T _ {2}) = 1.174 \%,
+f^{F R A} (0, T_{1}, T_{2}) = 1.174 \%,
 $$
 
 which is much lower than the "theoretical value."
@@ -7889,7 +7889,7 @@ Data Source: Bloomberg
 - The last figure shows that after the crisi
 
 $$
-f ^ {\ell} (t, T _ {1}, T _ {2}) > f ^ {F R A} (t, T _ {1}, T _ {2}) \tag {4}
+f^{\ell} (t, T_{1}, T_{2}) > f^{F R A} (t, T_{1}, T_{2}) \tag {4}
 $$
 
 - for  $T_{1} = t + 3$  month and  $T_{2} = T_{1} + 3$  months.  
@@ -7904,40 +7904,40 @@ $$
 - At time  $t = 0$  this strategy does not cost anything, as:
 
 $$
-\underbrace {Z ^ {\ell} \left(0 , T _ {1}\right)} _ {\mathrm {P r o c e e d s f r o m (a)}} = \underbrace {M Z ^ {\ell} \left(0 , T _ {2}\right)} _ {\mathrm {C o s t s o f (b)}}
+\underbrace {Z^{\ell} \left(0 , T_{1}\right)}_{\mathrm{Pr oc ee ds fr om (a)}} = \underbrace {M Z^{\ell} \left(0 , T_{2}\right)}_{\mathrm{Co st so f (b)}}
 $$
 
 (d) At time  $T_{1}$ , the arbitrageur must pay 1 from  $(a)$ , which can be obtained by borrowing at the LIBOR  $\ell(T_{1})$ .  
 (e) At time  $T_{2}$  we then have the following cash flows:
 
 $$
-\mathrm {P a y L I B O R f r o m} (d): - \left[ 1 + \ell \left(T _ {1}\right) \Delta \right]
+\mathrm{Pa yL IB OR fr om} (d): - \left[ 1 + \ell \left(T_{1}\right) \Delta \right]
 $$
 
 $$
-\text {R e c e i v e} M \text {f r o m} (b): \quad M
+\text{Re ce iv e} M \text{fr om} (b): \quad M
 $$
 
 $$
-\mathrm {R e c e i v e n e t C F f r o m F R A :} \left[ \ell (T _ {1}) - f ^ {F R A} (0, T _ {1}, T _ {2}) \right] \Delta
+\mathrm{Re ce iv en et CF fr om FR A :} \left[ \ell (T_{1}) - f^{F R A} (0, T_{1}, T_{2}) \right] \Delta
 $$
 
 - The total cash flow at  $T_{2}$  is then
 
 $$
-\text {T o t a l C a s h F l o w a t} T _ {2} = M - \left(1 + f ^ {F R A} \left(0, T _ {1}, T _ {2}\right) \Delta\right)
+\text{To ta lC as hF lo wa t} T_{2} = M - \left(1 + f^{F R A} \left(0, T_{1}, T_{2}\right) \Delta\right)
 $$
 
 - Recall that
 
 $$
-M = \frac {Z ^ {\ell} (0 , T _ {1})}{Z ^ {\ell} (0 , T _ {2})} = 1 + f ^ {\ell} (0, T _ {1}, T _ {2}) \Delta
+M = \frac{Z^{\ell} (0 , T_{1})}{Z^{\ell} (0 , T_{2})} = 1 + f^{\ell} (0, T_{1}, T_{2}) \Delta
 $$
 
 - Therefore
 
 $$
-\mathrm {T o t a l C F a t} T _ {2} \mathrm {i s :} \left[ f ^ {\ell} (0, T _ {1}, T _ {2}) - f ^ {F R A} (0, T _ {1}, T _ {2}) \right] \Delta > 0
+\mathrm{To ta lC Fa t} T_{2} \mathrm{is :} \left[ f^{\ell} (0, T_{1}, T_{2}) - f^{F R A} (0, T_{1}, T_{2}) \right] \Delta > 0
 $$
 
 # What Could Go Wrong with the Arbitrage Argument?
@@ -7958,7 +7958,7 @@ $$
 - Given a notional  $N$ , the floating rate payment at time  $T_{i}$  is
 
 $$
-C F (T _ {i}) = N \left(\prod_ {j = 1} ^ {n _ {j}} \left(1 + r _ {t _ {j}} \delta\right) - 1\right) \tag {5}
+C F (T_{i}) = N \left(\prod_{j = 1}^{n_{j}} \left(1 + r_{t_{j}} \delta\right) - 1\right) \tag {5}
 $$
 
 - where  $\delta$  is the daily interval,  $r_t$  is the reference (annualized) overnight rate, and  $n_j$  is the number of days between reset periods.  
@@ -7966,7 +7966,7 @@ $$
 - In the continuous time limit  $(\delta \to 0)$ , we have that
 
 $$
-C F \left(T _ {i}\right) = N \left(e ^ {\int_ {T _ {i - 1}} ^ {T _ {i}} r (u) d u} - 1\right) \tag {6}
+C F \left(T_{i}\right) = N \left(e^{\int_{T_{i - 1}}^{T_{i}} r (u) d u} - 1\right) \tag {6}
 $$
 
 - Is with maturity less than 1 year have only one payment at the maturity.  
@@ -7977,46 +7977,46 @@ $$
 - The value of Is is the difference between the floating leg and the fixed leg:
 
 $$
-V _ {t} ^ {O I S} = V _ {t} ^ {F l o a t i n g} - V _ {t} ^ {F i x e d} \tag {7}
+V_{t}^{O I S} = V_{t}^{F l o a t i n g} - V_{t}^{F i x e d} \tag {7}
 $$
 
 - Floating Leg: At reset dates, and assuming the payment of a principal at maturity of the swap, the value of the floating leg is par.
 - Indeed, investing the notional  $N$  in the overnight index daily gives at  $T_{i}$
 
 $$
-N \prod_ {j = 1} ^ {n _ {j}} \left(1 + r _ {t _ {j}} \Delta\right) = C F \left(T _ {i}\right) + N
+N \prod_{j = 1}^{n_{j}} \left(1 + r_{t_{j}} \Delta\right) = C F \left(T_{i}\right) + N
 $$
 
 - $\Longrightarrow$  we can replicate the floating payments, plus a residual of notional at maturity  $T_{i}$ , with an investment  $N$  at time 0.
 - It follows
 
 $$
-V _ {0} ^ {F l o a t i n g} = N
+V_{0}^{F l o a t i n g} = N
 $$
 
 - Fixed leg: Given a proper discount function  $Z^{OIS}\left(0,T_i\right)$ , we obtain
 
 $$
-V _ {0} ^ {F i x e d} = N c \Delta \sum_ {i = 1} ^ {n} Z ^ {O I S} (0, T _ {i}) + N Z ^ {O I S} (0, T _ {n}) \qquad \qquad (8)
+V_{0}^{F i x e d} = N c \Delta \sum_{i = 1}^{n} Z^{O I S} (0, T_{i}) + N Z^{O I S} (0, T_{n}) \qquad \qquad (8)
 $$
 
 - The value of the contract at inception is zero,  $V_{0}^{OIS} = 0$ .  
 It follows from (7) then that
 
 $$
-V _ {0} ^ {O I S} = V _ {0} ^ {F l o a t i n g} - V _ {0} ^ {F i x e d} = 0 \tag {9}
+V_{0}^{O I S} = V_{0}^{F l o a t i n g} - V_{0}^{F i x e d} = 0 \tag {9}
 $$
 
 - This equation implies that the swap rate  $c$  can be computed from
 
 $$
-1 = c \Delta \sum_ {i = 1} ^ {n} Z ^ {O I S} (0, T _ {i}) + Z ^ {O I S} (0, T _ {n}) \tag {10}
+1 = c \Delta \sum_{i = 1}^{n} Z^{O I S} (0, T_{i}) + Z^{O I S} (0, T_{n}) \tag {10}
 $$
 
 - which gives
 
 $$
-c (T _ {n}) = \frac {1}{\Delta} \frac {1 - Z ^ {O I S} (0 , T _ {n})}{\Sigma_ {i = 1} ^ {n} Z ^ {O I S} (0 , T _ {i})} \tag {11}
+c (T_{n}) = \frac{1}{\Delta} \frac{1 - Z^{O I S} (0 , T_{n})}{\Sigma_{i = 1}^{n} Z^{O I S} (0 , T_{i})} \tag {11}
 $$
 
 - where we now emphasize that the coupon rate  $c$  is for a swap with maturity  $T_{n}$ , and thus write  $c(T_{n})$ .
@@ -8027,7 +8027,7 @@ $$
 - We obtain the relation:
 
 $$
-Z ^ {O I S} \left(0, T _ {i}\right) = \frac {1 - c \left(T _ {i}\right) \Delta \Sigma_ {j = 1} ^ {i - 1} Z ^ {O I S} \left(0 , T _ {j}\right)}{1 + c \left(T _ {i}\right) \Delta} \tag {12}
+Z^{O I S} \left(0, T_{i}\right) = \frac{1 - c \left(T_{i}\right) \Delta \Sigma_{j = 1}^{i - 1} Z^{O I S} \left(0 , T_{j}\right)}{1 + c \left(T_{i}\right) \Delta} \tag {12}
 $$
 
 - recalling, however, that Is with maturity less than or equal to 1 year generally have only one payment.  
@@ -8044,7 +8044,7 @@ Data Source: Bloomberg
 - As in the previous notes, consider a LIBOR-based fixed-for-floating swap with net payments
 
 $$
-\operatorname {S w a p} \mathrm {C F} \text {a t} T _ {i} = N \Delta \left[ \ell \left(T _ {i - 1}\right) - c \right] \tag {13}
+\operatorname{Sw ap} \mathrm{CF} \text{at} T_{i} = N \Delta \left[ \ell \left(T_{i - 1}\right) - c \right] \tag {13}
 $$
 
 - for the periods  $T_{1}, T_{2}, \ldots, T_{n}$  with  $T_{i} = T_{i - 1} + \Delta$ , where  $c$  is called the swap rate.  
@@ -8052,49 +8052,49 @@ $$
 - Indeed, consider the net cash flow in (13). The random variation of LIBOR  $\ell(T_{i})$  can be hedged using a FRA with the payoff
 
 $$
-\mathsf {F R A C F a t} T _ {i} = N \Delta \left[ f (0, T _ {i - 1}, T _ {i}) - \ell \left(T _ {i - 1}\right) \right] \tag {14}
+\mathsf {F R A C F a t} T_{i} = N \Delta \left[ f (0, T_{i - 1}, T_{i}) - \ell \left(T_{i - 1}\right) \right] \tag {14}
 $$
 
 - Putting these two cash flows together, we obtain
 
 $$
-\begin{array}{l} \mathsf {S w a p C F + F R A C F a t} T _ {i} = N \Delta [ \ell (T _ {i - 1}) - c ] + N \Delta [ f (t, T _ {i - 1}, T _ {i}) - \ell (T _ {i - 1}) ] \\ = N \Delta [ f (t, T _ {i - 1}, T _ {i}) - c ] \\ \end{array}
+\begin{array}{l} \mathsf {S w a p C F + F R A C F a t} T_{i} = N \Delta [ \ell (T_{i - 1}) - c ] + N \Delta [ f (t, T_{i - 1}, T_{i}) - \ell (T_{i - 1}) ] \\ = N \Delta [ f (t, T_{i - 1}, T_{i}) - c ] \\ \end{array}
 $$
 
 - This net cash flow at  $T_{i}$  is deterministic and known at time  $t$ . Therefore
 
 $$
-\mathrm {P V} \text {o f S w a p} + \mathrm {F R A C F} \text {a t} T _ {i} = Z (0, T _ {i}) N \Delta [ f (0, T _ {i - 1}, T _ {i}) - c ] \tag {15}
+\mathrm{PV} \text{of Sw ap} + \mathrm{FR AC F} \text{at} T_{i} = Z (0, T_{i}) N \Delta [ f (0, T_{i - 1}, T_{i}) - c ] \tag {15}
 $$
 
 - Therefore, the value today of the swap is just given by the summation
 
 $$
-V _ {0} ^ {S W A P} = \sum_ {i = 1} ^ {n} Z (0, T _ {i}) N \Delta [ f (0, T _ {i - 1}, T _ {i}) - c ] \tag {16}
+V_{0}^{S W A P} = \sum_{i = 1}^{n} Z (0, T_{i}) N \Delta [ f (0, T_{i - 1}, T_{i}) - c ] \tag {16}
 $$
 
 - The value of a swap at inception of the contract is zero. Thus, from the condition
 
 $$
-V _ {0} ^ {S W A P} = 0 \tag {17}
+V_{0}^{S W A P} = 0 \tag {17}
 $$
 
 we obtain
 
 $$
-\sum_ {i = 1} ^ {n} Z \left(0, T _ {i}\right) f \left(0, T _ {i - 1}, T _ {i}\right) = c \sum_ {i = 1} ^ {n} Z \left(0, T _ {i}\right) \tag {18}
+\sum_{i = 1}^{n} Z \left(0, T_{i}\right) f \left(0, T_{i - 1}, T_{i}\right) = c \sum_{i = 1}^{n} Z \left(0, T_{i}\right) \tag {18}
 $$
 
 - This formula provides a way to compute the swap rate from the quotes of FRA
 
 $$
-c = \frac {\sum_ {i = 1} ^ {n} Z (0 , T _ {i}) f (0 , T _ {i - 1} , T _ {i})}{\sum_ {i = 1} ^ {n} Z (0 , T _ {i})} \tag {19}
+c = \frac{\sum_{i = 1}^{n} Z (0 , T_{i}) f (0 , T_{i - 1} , T_{i})}{\sum_{i = 1}^{n} Z (0 , T_{i})} \tag {19}
 $$
 
 - Equivalently, we can re-express this as a weighted average of FRA
 
 $$
-c \left(T _ {n}\right) = \sum_ {i = 1} ^ {n} w _ {i} f \left(0, T _ {i - 1}, T _ {i}\right) \quad \text {w h e r e} \quad w _ {i} = \frac {Z \left(0 , T _ {i}\right)}{\sum_ {j = 1} ^ {n} Z \left(0 , T _ {j}\right)} \tag {20}
+c \left(T_{n}\right) = \sum_{i = 1}^{n} w_{i} f \left(0, T_{i - 1}, T_{i}\right) \quad \text{wh er e} \quad w_{i} = \frac{Z \left(0 , T_{i}\right)}{\sum_{j = 1}^{n} Z \left(0 , T_{j}\right)} \tag {20}
 $$
 
 # Single-Curve Pricing
@@ -8104,7 +8104,7 @@ $$
 - The algorithm was
 
 $$
-Z ^ {\ell} (0, T _ {n}) = \frac {1 - c \left(T _ {n}\right) \Delta \left(\Sigma_ {j = 1} ^ {n - 1} Z ^ {\ell} \left(0 , T _ {j}\right)\right)}{1 + c \left(T _ {n}\right) \Delta} \tag {21}
+Z^{\ell} (0, T_{n}) = \frac{1 - c \left(T_{n}\right) \Delta \left(\Sigma_{j = 1}^{n - 1} Z^{\ell} \left(0 , T_{j}\right)\right)}{1 + c \left(T_{n}\right) \Delta} \tag {21}
 $$
 
 - Next figure shows the implied LIBOR zero coupon curve on January 2007
@@ -8141,7 +8141,7 @@ Data Source: Bloomberg
 - Because each FRA is zero at initiation, we obtained that the value of the swap had to satisfy (16), reported here again:
 
 $$
-V _ {0} ^ {S W A P} = \sum_ {i = 1} ^ {n} Z (0, T _ {i}) N \Delta [ f (0, T _ {i - 1}, T _ {i}) - c ] \tag {22}
+V_{0}^{S W A P} = \sum_{i = 1}^{n} Z (0, T_{i}) N \Delta [ f (0, T_{i - 1}, T_{i}) - c ] \tag {22}
 $$
 
 - While this formula is general, the question again is what forward rates and discounts to use.
@@ -8151,25 +8151,25 @@ $$
 - We therefore obtain
 
 $$
-V _ {0} ^ {S W A P} = \sum_ {i = 1} ^ {n} Z ^ {O I S} (0, T _ {i}) N \Delta \left[ f ^ {F R A} (t, T _ {i - 1}, T _ {i}) - c \right] \tag {23}
+V_{0}^{S W A P} = \sum_{i = 1}^{n} Z^{O I S} (0, T_{i}) N \Delta \left[ f^{F R A} (t, T_{i - 1}, T_{i}) - c \right] \tag {23}
 $$
 
 - The swap rate  $c$  is the one that makes the swap equal to zero
 
 $$
-V _ {0} ^ {S W A P} = 0
+V_{0}^{S W A P} = 0
 $$
 
 - which leads to the swap rate formula
 
 $$
-c (T _ {n}) = \sum_ {i = 1} ^ {n} w _ {i} ^ {O I S} f ^ {F R A} (0, T _ {i - 1}, T _ {i}) \tag {24}
+c (T_{n}) = \sum_{i = 1}^{n} w_{i}^{O I S} f^{F R A} (0, T_{i - 1}, T_{i}) \tag {24}
 $$
 
 - where now
 
 $$
-w _ {i} ^ {O I S} = \frac {Z ^ {O I S} (0 , T _ {i})}{\Sigma_ {j = 1} ^ {n} Z ^ {O I S} (0 , T _ {j})}
+w_{i}^{O I S} = \frac{Z^{O I S} (0 , T_{i})}{\Sigma_{j = 1}^{n} Z^{O I S} (0 , T_{j})}
 $$
 
 # Extracting FRA Rates from Swap Quotes
@@ -8178,13 +8178,13 @@ $$
 In particular, developing (24) we obtain
 
 $$
-c (T _ {n}) = \frac {\sum_ {i = 1} ^ {n} Z ^ {O I S} (0 , T _ {i}) f ^ {F R A} (0 , T _ {i - 1} , T _ {i})}{\sum_ {j = 1} ^ {n} Z ^ {O I S} (0 , T _ {j})} \tag {25}
+c (T_{n}) = \frac{\sum_{i = 1}^{n} Z^{O I S} (0 , T_{i}) f^{F R A} (0 , T_{i - 1} , T_{i})}{\sum_{j = 1}^{n} Z^{O I S} (0 , T_{j})} \tag {25}
 $$
 
 - Therefore, multiplying both sides by  $\sum_{j=1}^{n} Z(0, T_j)$  and isolating  $f^{FRA}(0, T_{n-1}, T_n)$  in the sum on the right, we obtain the recursive formula
 
 $$
-f ^ {F R A} (0, T _ {n - 1}, T _ {n}) = c (T _ {n}) + \frac {\sum_ {i = 1} ^ {n - 1} Z ^ {O I S} (0 , T _ {i}) \left[ c (T _ {n}) - f ^ {F R A} (0 , T _ {i - 1} , T _ {i}) \right]}{Z ^ {O I S} (0 , T _ {n})} (2 6)
+f^{F R A} (0, T_{n - 1}, T_{n}) = c (T_{n}) + \frac{\sum_{i = 1}^{n - 1} Z^{O I S} (0 , T_{i}) \left[ c (T_{n}) - f^{F R A} (0 , T_{i - 1} , T_{i}) \right]}{Z^{O I S} (0 , T_{n})} (2 6)
 $$
 
 - As an example, the solid line in the next figure shows the FRA extracted from swap rates on January 2nd, 2009.
@@ -8201,19 +8201,19 @@ Data Source: Bloomberg Inc.
 - More explicitly, because for every  $T_{i - 1}$  and  $T_{i}$  we must have
 
 $$
-f ^ {F R A} (t, T _ {i - 1}, T _ {i}) = \frac {1}{\Delta} \left(\frac {Z ^ {F R A} (0 , T _ {i - 1})}{Z ^ {F R A} (0 , T _ {i})} - 1\right) \tag {27}
+f^{F R A} (t, T_{i - 1}, T_{i}) = \frac{1}{\Delta} \left(\frac{Z^{F R A} (0 , T_{i - 1})}{Z^{F R A} (0 , T_{i})} - 1\right) \tag {27}
 $$
 
 - We can solve this equation for  $Z^{FRA}(0, T_i)$  and obtain the recursive formula
 
 $$
-Z ^ {F R A} (0, T _ {i}) = \frac {Z ^ {F R A} (0 , T _ {i - 1})}{1 + f ^ {F R A} (t , T _ {i - 1} , T _ {i}) \Delta} \tag {28}
+Z^{F R A} (0, T_{i}) = \frac{Z^{F R A} (0 , T_{i - 1})}{1 + f^{F R A} (t , T_{i - 1} , T_{i}) \Delta} \tag {28}
 $$
 
 - Given  $Z^{FRA}(0, T_i)$ , we can extract the yield by using the usual formula
 
 $$
-y ^ {F R A} (0, T _ {i}) = \frac {1}{\Delta} \left(\frac {1}{Z ^ {F R A} (0 , T _ {i}) ^ {\Delta / T _ {i}}} - 1\right)
+y^{F R A} (0, T_{i}) = \frac{1}{\Delta} \left(\frac{1}{Z^{F R A} (0 , T_{i})^{\Delta / T_{i}}} - 1\right)
 $$
 
 - For illustration, the dotted line in previous figure is yield from the FRAs.
@@ -8268,13 +8268,13 @@ and NBER
 - Assume that for  $i = 1,2$
 
 $$
-d \phi_ {i} = m _ {i} (t, \phi_ {i}) + s _ {i} (t, \phi_ {i}) d X _ {i} \tag {1}
+d \phi_{i} = m_{i} (t, \phi_{i}) + s_{i} (t, \phi_{i}) d X_{i} \tag {1}
 $$
 
 - where  $dX_{i}$  and  $dX_{i}$  are two Brownian motions with correlation  $\rho$ : that is, with
 
 $$
-E \left[ d X _ {1} d X _ {2} \right] = \rho
+E \left[ d X_{1} d X_{2} \right] = \rho
 $$
 
 - Question: Can we obtain a pricing relation now that we have many "factors"?
@@ -8287,23 +8287,23 @@ $$
 * The value of the portfolio at time  $t$  is then
 
 $$
-\Pi (t, \phi_ {1}, \phi_ {2}) = Z _ {1} (t, \phi_ {1}, \phi_ {2}) + \sum_ {i = 2} ^ {3} \Delta_ {i} Z _ {i} (t, \phi_ {1}, \phi_ {2})
+\Pi (t, \phi_{1}, \phi_{2}) = Z_{1} (t, \phi_{1}, \phi_{2}) + \sum_{i = 2}^{3} \Delta_{i} Z_{i} (t, \phi_{1}, \phi_{2})
 $$
 
 - Step 2: Delta Hedge. Choose  $\Delta_{2}$  and  $\Delta_{3}$  to make the portfolio insensitive to variation in  $\phi_{1}$  and  $\phi_{2}$ . That is
 
 $$
-\frac {\partial \Pi}{\partial \phi_ {1}} = 0 \quad \mathrm {a n d} \quad \frac {\partial \Pi}{\partial \phi_ {2}} = 0
+\frac{\partial \Pi}{\partial \phi_{1}} = 0 \quad \mathrm{an d} \quad \frac{\partial \Pi}{\partial \phi_{2}} = 0
 $$
 
 - This yields
 
 $$
-\frac {\partial Z _ {1}}{\partial \phi_ {1}} + \Delta_ {2} \times \frac {\partial Z _ {2}}{\partial \phi_ {1}} + \Delta_ {3} \times \frac {\partial Z _ {3}}{\partial \phi_ {1}} = 0 \tag {2}
+\frac{\partial Z_{1}}{\partial \phi_{1}} + \Delta_{2} \times \frac{\partial Z_{2}}{\partial \phi_{1}} + \Delta_{3} \times \frac{\partial Z_{3}}{\partial \phi_{1}} = 0 \tag {2}
 $$
 
 $$
-\frac {\partial Z _ {1}}{\partial \phi_ {2}} + \Delta_ {2} \times \frac {\partial Z _ {2}}{\partial \phi_ {2}} + \Delta_ {3} \times \frac {\partial Z _ {3}}{\partial \phi_ {2}} = 0 \tag {3}
+\frac{\partial Z_{1}}{\partial \phi_{2}} + \Delta_{2} \times \frac{\partial Z_{2}}{\partial \phi_{2}} + \Delta_{3} \times \frac{\partial Z_{3}}{\partial \phi_{2}} = 0 \tag {3}
 $$
 
 - This is a system of two equations in two unknowns  $(\Delta_{2}$  and  $\Delta_3)$  that can be solved to obtain the optimal hedge ratios.
@@ -8313,13 +8313,13 @@ $$
 * Ito's Lemma (Multiple Brownian Motions): Let  $V = F(t, \phi_1, \phi_2)$  be a function of time and  $\phi_1$  and  $\phi_2$ . Then,  $V$  satisfies the Stochastic Differential Equation
 
 $$
-\begin{array}{l} d V = \frac {\partial F}{\partial t} d t + \frac {\partial F}{\partial \phi_ {1}} d \phi_ {1} + \frac {\partial F}{\partial \phi_ {2}} d \phi_ {2} \tag {4} \\ + \frac {1}{2} \frac {\partial^ {2} F}{\partial \phi_ {1} ^ {2}} s _ {1} ^ {2} d t + \frac {1}{2} \frac {\partial^ {2} F}{\partial \phi_ {2} ^ {2}} s _ {2} ^ {2} d t + \frac {\partial^ {2} F}{\partial \phi_ {1} \partial \phi_ {2}} s _ {1} s _ {2} \rho d t \\ \end{array}
+\begin{array}{l} d V = \frac{\partial F}{\partial t} d t + \frac{\partial F}{\partial \phi_{1}} d \phi_{1} + \frac{\partial F}{\partial \phi_{2}} d \phi_{2} \tag {4} \\ + \frac{1}{2} \frac{\partial^{2} F}{\partial \phi_{1}^{2}} s_{1}^{2} d t + \frac{1}{2} \frac{\partial^{2} F}{\partial \phi_{2}^{2}} s_{2}^{2} d t + \frac{\partial^{2} F}{\partial \phi_{1} \partial \phi_{2}} s_{1} s_{2} \rho d t \\ \end{array}
 $$
 
 * The evolution of the (hedged) portfolio  $\Pi$  is then
 
 $$
-d \Pi_ {t} = \left\{\left(\frac {\partial \Pi}{\partial t}\right) + \frac {1}{2} \left(\frac {\partial^ {2} \Pi}{\partial \phi_ {1} ^ {2}}\right) s _ {1, t} ^ {2} + \frac {1}{2} \left(\frac {\partial^ {2} \Pi}{\partial \phi_ {2} ^ {2}}\right) s _ {2, t} ^ {2} \right\} d t \tag {5}
+d \Pi_{t} = \left\{\left(\frac{\partial \Pi}{\partial t}\right) + \frac{1}{2} \left(\frac{\partial^{2} \Pi}{\partial \phi_{1}^{2}}\right) s_{1, t}^{2} + \frac{1}{2} \left(\frac{\partial^{2} \Pi}{\partial \phi_{2}^{2}}\right) s_{2, t}^{2} \right\} d t \tag {5}
 $$
 
 - Step 4: Impose no arbitrage.
@@ -8332,7 +8332,7 @@ $$
 * Substitute  $d\Pi$  on the LHS and  $\Pi$  on the RHS, and obtain
 
 $$
-G _ {1} \left(\phi_ {1}, \phi_ {2}, t\right) + \Delta_ {2} \times G _ {2} \left(\phi_ {1}, \phi_ {2}, t\right) + \Delta_ {3} \times G _ {3} \left(\phi_ {1}, \phi_ {2}, t\right) = 0 \tag {6}
+G_{1} \left(\phi_{1}, \phi_{2}, t\right) + \Delta_{2} \times G_{2} \left(\phi_{1}, \phi_{2}, t\right) + \Delta_{3} \times G_{3} \left(\phi_{1}, \phi_{2}, t\right) = 0 \tag {6}
 $$
 
 * where  $G_{i}(\phi_{1},\phi_{2},t)$  is an ugly function in the Appendix.
@@ -8342,7 +8342,7 @@ $$
 * From (2), (3) and (6) one obtains that any security  $Z\left( {t,{\phi }_{t}^{1},{\phi }_{t}^{2}}\right)$  must satisfy
 
 $$
-r Z = \frac {\partial Z}{\partial t} + \frac {\partial Z}{\partial \phi_ {1}} m _ {1} ^ {*} + \frac {\partial Z}{\partial \phi_ {2}} m _ {2} ^ {*} + \frac {1}{2} \frac {\partial^ {2} Z}{\partial \phi_ {1} ^ {2}} s _ {1} ^ {2} + \frac {1}{2} \frac {\partial^ {2} Z}{\partial \phi_ {2} ^ {2}} s _ {2} ^ {2} + \frac {\partial^ {2} Z}{\partial \phi_ {2} \partial \phi_ {1}} s _ {1} s _ {2} \rho (7)
+r Z = \frac{\partial Z}{\partial t} + \frac{\partial Z}{\partial \phi_{1}} m_{1}^{*} + \frac{\partial Z}{\partial \phi_{2}} m_{2}^{*} + \frac{1}{2} \frac{\partial^{2} Z}{\partial \phi_{1}^{2}} s_{1}^{2} + \frac{1}{2} \frac{\partial^{2} Z}{\partial \phi_{2}^{2}} s_{2}^{2} + \frac{\partial^{2} Z}{\partial \phi_{2} \partial \phi_{1}} s_{1} s_{2} \rho (7)
 $$
 
 * where  $m_1^*(t, \phi_1, \phi_2)$  and  $m_2^*(t, \phi_1, \phi_2)$  are two functions of the factors.
@@ -8350,7 +8350,7 @@ $$
 - As before, we call the process
 
 $$
-d \phi_ {i} = m _ {i} ^ {*} (t, \phi_ {i}) d t + s _ {i} (t, \phi_ {i}) d X _ {i}
+d \phi_{i} = m_{i}^{*} (t, \phi_{i}) d t + s_{i} (t, \phi_{i}) d X_{i}
 $$
 
 - the risk-neutral process for factor  $i$ .  
@@ -8361,11 +8361,11 @@ $$
 - Consider the two factor risk neutral model
 
 $$
-d r = (\theta (t) + u - \gamma r) d t + \sigma_ {1} d X _ {1} \tag {8}
+d r = (\theta (t) + u - \gamma r) d t + \sigma_{1} d X_{1} \tag {8}
 $$
 
 $$
-d u = - b u d t + \sigma_ {2} d X _ {2} \tag {9}
+d u = - b u d t + \sigma_{2} d X_{2} \tag {9}
 $$
 
 - Notice that the drift rate of the interest rate has now an additional component,  $u$ , which moves stochastically according to (9).  
@@ -8373,29 +8373,29 @@ $$
 - The function  $\theta(t)$  is chosen to match the current term structure and it turns out that
 
 $$
-\theta (t) = \frac {\partial f (0 , t , t)}{\partial t} + \gamma f (0, t, t) + \frac {\partial \phi (0 , t)}{\partial t} + \gamma \phi (0, t) \tag {10}
+\theta (t) = \frac{\partial f (0 , t , t)}{\partial t} + \gamma f (0, t, t) + \frac{\partial \phi (0 , t)}{\partial t} + \gamma \phi (0, t) \tag {10}
 $$
 
 with
 
 $$
-\phi (0, t) = \frac {1}{2} \sigma_ {1} ^ {2} B (0, t) ^ {2} + \frac {1}{2} \sigma_ {2} ^ {2} C (0, t) ^ {2} + \rho \sigma_ {1} \sigma_ {2} B (0, t) C (0, t)
+\phi (0, t) = \frac{1}{2} \sigma_{1}^{2} B (0, t)^{2} + \frac{1}{2} \sigma_{2}^{2} C (0, t)^{2} + \rho \sigma_{1} \sigma_{2} B (0, t) C (0, t)
 $$
 
 where
 
 $$
-B (t, T) = \frac {1}{\gamma} \big (1 - e ^ {- \gamma (T - t)} \big)
+B (t, T) = \frac{1}{\gamma} \big (1 - e^{- \gamma (T - t)} \big)
 $$
 
 $$
-C (t, T) = \frac {1}{\gamma (\gamma - b)} e ^ {- \gamma (T - t)} - \frac {1}{b (\gamma - b)} e ^ {- \gamma b (T - t)} + \frac {1}{\gamma b}
+C (t, T) = \frac{1}{\gamma (\gamma - b)} e^{- \gamma (T - t)} - \frac{1}{b (\gamma - b)} e^{- \gamma b (T - t)} + \frac{1}{\gamma b}
 $$
 
 - We can solve the PDE in this case, obtaining the pricing formula for a zero coupon bond at time  $t = 0$  with maturity date  $T$
 
 $$
-Z (0, r, u; T) = e ^ {A (0, T) - B (0, T) \times r - C (0, T) \times u}
+Z (0, r, u; T) = e^{A (0, T) - B (0, T) \times r - C (0, T) \times u}
 $$
 
 What about  $A(t;T)$ ?
@@ -8404,7 +8404,7 @@ What about  $A(t;T)$ ?
 - However, when the model is calibrated to current bonds, it is assumed that  $u_{0} = 0$ , so that
 
 $$
-A \left(0, t\right) = \log \left(Z _ {M} \left(0, t\right)\right) + B \left(0, t\right) r
+A \left(0, t\right) = \log \left(Z_{M} \left(0, t\right)\right) + B \left(0, t\right) r
 $$
 
 Why is a nice model?
@@ -8414,7 +8414,7 @@ Why is a nice model?
 - For example, the variance of the changes in yields for a long-term bond (with maturity  $\tau$ ) is
 
 $$
-\begin{array}{l} \sigma (t, \tau) ^ {2} = \frac {1}{\tau^ {2}} \left(B (t, t + \tau) ^ {2} \sigma_ {1} ^ {2} + C (t, t + \tau) ^ {2} \sigma_ {2} ^ {2} \right. \\ + B (t, t + \tau) C (t, t + \tau) \sigma_ {1} \sigma_ {2} \rho) \\ \end{array}
+\begin{array}{l} \sigma (t, \tau)^{2} = \frac{1}{\tau^{2}} \left(B (t, t + \tau)^{2} \sigma_{1}^{2} + C (t, t + \tau)^{2} \sigma_{2}^{2} \right. \\ + B (t, t + \tau) C (t, t + \tau) \sigma_{1} \sigma_{2} \rho) \\ \end{array}
 $$
 
 - Now we have 5 parameters,  $(\sigma_{1},\sigma_{2},\rho ,\gamma ,b)$ , to calibrate to the term-structure of volatilities.
@@ -8424,19 +8424,19 @@ $$
 1. Affine Models: Let  $\phi = (\phi_1, \ldots, \phi_n)$  be a vector of state-variables, evolving as
 
 $$
-d \phi_ {i} = \left(\theta_ {i} - \sum_ {j = 1} ^ {n} \gamma_ {i j} \phi_ {j}\right) d t + \sqrt {\alpha_ {i} + \sum_ {j = 1} ^ {n} \beta_ {i j} \phi_ {j}} d X _ {i}
+d \phi_{i} = \left(\theta_{i} - \sum_{j = 1}^{n} \gamma_{i j} \phi_{j}\right) d t + \sqrt{\alpha_{i} + \sum_{j = 1}^{n} \beta_{i j} \phi_{j}} d X_{i}
 $$
 
 - The interest rate is assumed to be
 
 $$
-r \left(t\right) = \overline {{r}} + \sum_ {j = 1} ^ {n} \kappa_ {i} \phi_ {i} \left(t\right)
+r \left(t\right) = \overline {{r}} + \sum_{j = 1}^{n} \kappa_{i} \phi_{i} \left(t\right)
 $$
 
 - The nice thing is that we have a solution for bond prices given by
 
 $$
-Z (t, \phi ; T) = e ^ {A (t, T) - \sum_ {j = 1} ^ {n} B _ {j} (t, T) \times \phi_ {i} (t)}
+Z (t, \phi ; T) = e^{A (t, T) - \sum_{j = 1}^{n} B_{j} (t, T) \times \phi_{i} (t)}
 $$
 
 - The functions  $A(t,T)$  and  $B_{j}(t,T)$  satisfy some Ordinary Differential Equations that are simple enough to be solved quickly numerically.  
@@ -8446,33 +8446,33 @@ $$
 2. Fong and Vasicek (1991): They assume a stochastic volatility model
 
 $$
-d r = (\eta - \gamma r) d t + \sqrt {v} d X _ {1}
+d r = (\eta - \gamma r) d t + \sqrt{v} d X_{1}
 $$
 
 $$
-d v = b (\overline {{v}} - v) d t + \sigma \sqrt {v} d X _ {2}
+d v = b (\overline {{v}} - v) d t + \sigma \sqrt{v} d X_{2}
 $$
 
 3. Longstaff and Schwartz (1992): They assume. for  $i = 1,2$  :
 
 $$
-d \phi_ {i} = (\eta_ {i} - \gamma_ {i} \phi_ {i}) d t + \sqrt {\phi_ {i}} d X _ {i}
+d \phi_{i} = (\eta_{i} - \gamma_{i} \phi_{i}) d t + \sqrt{\phi_{i}} d X_{i}
 $$
 
 and
 
 $$
-r \left(t\right) = a \phi_ {1} \left(t\right) + b \phi_ {2} \left(t\right)
+r \left(t\right) = a \phi_{1} \left(t\right) + b \phi_{2} \left(t\right)
 $$
 
 4. Brennan and Schwartz (1982): Their model does not belong to the class of affine models: they model the short  $(r)$  and the long-term  $(\ell)$  interest rates
 
 $$
-d r = (a _ {1} + b _ {1} (r - \ell)) d t + \sigma_ {1} r d X _ {1}
+d r = (a_{1} + b_{1} (r - \ell)) d t + \sigma_{1} r d X_{1}
 $$
 
 $$
-d \ell = \ell (a _ {2} - b _ {2} r + c _ {2} \ell) d t + \sigma_ {2} \ell d X _ {2}
+d \ell = \ell (a_{2} - b_{2} r + c_{2} \ell) d t + \sigma_{2} \ell d X_{2}
 $$
 
 However, the model may imply infinite interest rates.
@@ -8484,7 +8484,7 @@ However, the model may imply infinite interest rates.
 - The net cash flow is then
 
 $$
-C F (t + \Delta) = r (t) - r _ {5} ^ {s w a p} (t)
+C F (t + \Delta) = r (t) - r_{5}^{s w a p} (t)
 $$
 
 - Clearly, a one factor model is useless in this case: In fact, the two rates  $r(t)$  and  $r_5^{swap}(t)$  are perfectly correlated, implying that there is no stochastic variation in  $CF$ 's.  
@@ -8496,7 +8496,7 @@ Question: How do we simulate correlated Brownian motions?
 - We must then simulate
 
 $$
-\begin{array}{l} r (t + 1) = (\theta (t) + u - \gamma r (t)) \Delta + \sigma_ {1} \sqrt {\Delta} \varepsilon_ {1} (t + 1) \\ u (t + 1) = u (t) - b u (t) \Delta + \sigma_ {2} \sqrt {\Delta} \varepsilon_ {2} (t + 1) \\ \end{array}
+\begin{array}{l} r (t + 1) = (\theta (t) + u - \gamma r (t)) \Delta + \sigma_{1} \sqrt{\Delta} \varepsilon_{1} (t + 1) \\ u (t + 1) = u (t) - b u (t) \Delta + \sigma_{2} \sqrt{\Delta} \varepsilon_{2} (t + 1) \\ \end{array}
 $$
 
 - One difficulty is that  $\varepsilon_{1}$  and  $\varepsilon_{2}$  are correlated, but typically, software are only able to produce uncorrelated normal draws.  
@@ -8504,36 +8504,36 @@ $$
 - Call  $\varepsilon_1^* (t + 1)$  and  $\varepsilon_2^* (t + 1)$  two independent normally distributed random variables, with mean zero and variance one.
 
 $$
-\varepsilon_ {i} ^ {*} (t + 1) \sim \mathcal {N} (0, 1)
+\varepsilon_{i}^{*} (t + 1) \sim \mathcal {N} (0, 1)
 $$
 
 Then, define
 
 $$
-\varepsilon_ {1} (t + 1) = \varepsilon_ {1} ^ {*} (t + 1)
+\varepsilon_{1} (t + 1) = \varepsilon_{1}^{*} (t + 1)
 $$
 
 $$
-\varepsilon_ {2} (t + 1) = \rho \varepsilon_ {1} ^ {*} (t + 1) + \sqrt {1 - \rho^ {2}} \varepsilon_ {2} ^ {*} (t + 1)
+\varepsilon_{2} (t + 1) = \rho \varepsilon_{1}^{*} (t + 1) + \sqrt{1 - \rho^{2}} \varepsilon_{2}^{*} (t + 1)
 $$
 
 - Now  $\varepsilon_1(t + 1)$  and  $\varepsilon_2(t + 1)$  are still normal distributions with mean 0 and variance one. But now they have correlation  $\rho$ .  
 In fact
 
 $$
-E \left[ \varepsilon_ {1} \right] = 0, V a r \left[ \varepsilon_ {1} \right] = 1
+E \left[ \varepsilon_{1} \right] = 0, V a r \left[ \varepsilon_{1} \right] = 1
 $$
 
 $$
-E \left[ \varepsilon_ {2} \right] = 0 + 0 = 0
+E \left[ \varepsilon_{2} \right] = 0 + 0 = 0
 $$
 
 $$
-V a r \left[ \varepsilon_ {1} \right] = \rho^ {2} \times 1 + \left(1 - \rho^ {2}\right) \times 1 = 1
+V a r \left[ \varepsilon_{1} \right] = \rho^{2} \times 1 + \left(1 - \rho^{2}\right) \times 1 = 1
 $$
 
 $$
-\begin{array}{l} C o v (\varepsilon_ {1}, \varepsilon_ {2}) = \rho C o v (\varepsilon_ {1} ^ {*}, \varepsilon_ {1} ^ {*}) + \sqrt {1 - \rho^ {2}} C o v (\varepsilon_ {1} ^ {*}, \varepsilon_ {2} ^ {*}) \\ = \rho \times V a r (\varepsilon_ {1} ^ {*}) + 0 \\ = \rho \\ \end{array}
+\begin{array}{l} C o v (\varepsilon_{1}, \varepsilon_{2}) = \rho C o v (\varepsilon_{1}^{*}, \varepsilon_{1}^{*}) + \sqrt{1 - \rho^{2}} C o v (\varepsilon_{1}^{*}, \varepsilon_{2}^{*}) \\ = \rho \times V a r (\varepsilon_{1}^{*}) + 0 \\ = \rho \\ \end{array}
 $$
 
 # Heath-Jarrow-Morton Model
@@ -8544,7 +8544,7 @@ $$
 - In general, when we have one factor the risk-neutral process for zeros is
 
 $$
-\frac {d Z (t , T)}{Z (t , T)} = r (t) d t + v (t, T) d X
+\frac{d Z (t , T)}{Z (t , T)} = r (t) d t + v (t, T) d X
 $$
 
 - where  $r(t)$  is the current instantaneous interest rate, and  $v(t,T)$  is some volatility function.  
@@ -8552,25 +8552,25 @@ $$
 - Hence, at maturity we must have zero volatility (bond prices become risk-less at the very end), that is
 
 $$
-v (t, T) = 0 \mathrm {a s} t \to T
+v (t, T) = 0 \mathrm{as} t \to T
 $$
 
 - Now: recall that the forward rate at time  $t$  for an investment between  $T$  and  $T + \tau$  is defined as that interest rate  $f(t, T, T + \tau)$  such that
 
 $$
-e ^ {y (t, T) (T - t)} e ^ {f (t, T, T + \tau) \tau} = e ^ {y (t, T + \tau) (T + \tau - t)}
+e^{y (t, T) (T - t)} e^{f (t, T, T + \tau) \tau} = e^{y (t, T + \tau) (T + \tau - t)}
 $$
 
 - This implies
 
 $$
-f (t, T, T + \tau) = \frac {\ln (Z (t , T)) - \ln (Z (t , T + \tau))}{\tau}
+f (t, T, T + \tau) = \frac{\ln (Z (t , T)) - \ln (Z (t , T + \tau))}{\tau}
 $$
 
 Using Ito's lemma, one finds
 
 $$
-\begin{array}{l} d f (t, T, T + \tau) = \frac {v (t , T + \tau) ^ {2} - v (t , T) ^ {2}}{2 \tau} d t \\ + \frac {v (t , T) - v (t , T + \tau)}{\tau} d X \\ \end{array}
+\begin{array}{l} d f (t, T, T + \tau) = \frac{v (t , T + \tau)^{2} - v (t , T)^{2}}{2 \tau} d t \\ + \frac{v (t , T) - v (t , T + \tau)}{\tau} d X \\ \end{array}
 $$
 
 - Notice that only the volatility terms enter into this formula.  
@@ -8578,13 +8578,13 @@ $$
 - Now: as  $\tau \to 0$ , we obtain the instantaneous forward rate  $f(t,T) = f(t,T,T)$  (I drop the second "T" from the arguments of the function for simplicity) as
 
 $$
-d f (t, T) = v (t, T) v _ {T} (t, T) d t - v _ {T} (t, T) d X \tag {11}
+d f (t, T) = v (t, T) v_{T} (t, T) d t - v_{T} (t, T) d X \tag {11}
 $$
 
 - where
 
 $$
-v _ {T} (t, T) = \frac {\partial v (t , T)}{\partial T}
+v_{T} (t, T) = \frac{\partial v (t , T)}{\partial T}
 $$
 
 - Equation (11) shows that there is a link between the drift and the volatility of the risk-neutral process of the instantaneous forward rate.
@@ -8592,7 +8592,7 @@ $$
 - Example: A simple but very used parametrization is
 
 $$
-v _ {T} (t, T) = - \sigma \times e ^ {- \lambda (T - t)}
+v_{T} (t, T) = - \sigma \times e^{- \lambda (T - t)}
 $$
 
 - where  $\sigma$  and  $\lambda$  are two constants.
@@ -8602,7 +8602,7 @@ $$
 - Therefore:
 
 $$
-\begin{array}{l} v (t, T) = v (t, t) + \int_ {t} ^ {T} v _ {T} (t, \tau) d \tau = \int_ {t} ^ {T} - \sigma \times e ^ {- \lambda (\tau - t)} d \tau \\ = \frac {\sigma}{\lambda} \left(e ^ {- \lambda (T - t)} - 1\right) \\ \end{array}
+\begin{array}{l} v (t, T) = v (t, t) + \int_{t}^{T} v_{T} (t, \tau) d \tau = \int_{t}^{T} - \sigma \times e^{- \lambda (\tau - t)} d \tau \\ = \frac{\sigma}{\lambda} \left(e^{- \lambda (T - t)} - 1\right) \\ \end{array}
 $$
 
 * where I used the condition  $v(t, t) = 0$ .
@@ -8610,7 +8610,7 @@ $$
 - The drift of the instantaneous forward rate is then
 
 $$
-v (t, T) v _ {T} (t, T) = - \frac {\sigma^ {2}}{\lambda} e ^ {- \lambda (T - t)} (e ^ {- \lambda (T - t)} - 1)
+v (t, T) v_{T} (t, T) = - \frac{\sigma^{2}}{\lambda} e^{- \lambda (T - t)} (e^{- \lambda (T - t)} - 1)
 $$
 
 # Extension to Many Factors
@@ -8618,13 +8618,13 @@ $$
 - The HJM model is promptly extended to many factors, by defining
 
 $$
-d f (t, T) = m (t, T) d t + \sum_ {j = 1} ^ {n} s _ {j} (t, T) d X _ {j}
+d f (t, T) = m (t, T) d t + \sum_{j = 1}^{n} s_{j} (t, T) d X_{j}
 $$
 
 where
 
 $$
-m (t, T) = \sum_ {j} s _ {j} (t, T) \int_ {t} ^ {T} s _ {j} (t, \tau) d \tau
+m (t, T) = \sum_{j} s_{j} (t, T) \int_{t}^{T} s_{j} (t, \tau) d \tau
 $$
 
 - One interesting approach of the HJM is to link it up to the previous discussion about principal component analysis (see Section 1).
@@ -8632,7 +8632,7 @@ $$
 - This implies we can obtain the functions:
 
 $$
-s _ {j} (t, T) = \beta_ {j} (T)
+s_{j} (t, T) = \beta_{j} (T)
 $$
 
 - where  $\beta_{j}(T)$  are the analogous coefficients of Table 1, but computed using forward rates.  

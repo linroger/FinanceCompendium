@@ -31,7 +31,7 @@ a bet prices will go down.) One immediate difference between the return on a bas
 In a simple form of the basis trade, at date 0, an investor purchases a Treasury note in the cash market for a price  $P$ , and simultaneously opens a short position in a Treasury note future at a price,  $F$ . This short futures position promises delivery of a Treasury note at date  $T$ . Because the basis is typically narrow, investors leverage the trade by financing the purchase of the cash Treasury note through a repo loan at an interest rate  $r$  using the note as collateral. At date  $T$ , the investor takes the note returned from the repo contract and delivers it into the futures contract, receiving  $F$ , and using a portion of the futures payment to settle the repo debt. The profit from this trade is:
 
 $$
-F - P (1 + r) ^ {T}.
+F - P (1 + r)^{T}.
 $$
 
 Figure 1 presents a basic diagram of a basis trade, tracking the flow of the underlying Treasury security over time and across the three markets. The profitability of the basis trade depends on the basis, that is, the difference between cash and futures prices of a Treasury. Cash and futures prices converge as the delivery date approaches (see Figure 2). This convergence is virtually guaranteed: at the delivery date, cash and futures prices must be equal because on that date a trader can buy a Treasury in the cash market and immediately deliver it into the futures market.

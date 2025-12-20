@@ -34,7 +34,7 @@ where $B_i$ represents the default event of bond $i$ and $p_i = \Pr[B_i]$ is the
 
 
 $$
-\sum_ {i = 1} ^ {n} p _ {i}
+\sum_{i = 1}^{n} p_{i}
 $$ which is greater than  $p_{\mathrm{FTD}}$ .
 
 
@@ -76,7 +76,7 @@ Hence, if joint defaults are rare (i.e. defaults are independent), then  $p_{\ma
 Note that by no arbitrage,
 
 $$
-\sum_ {i = 1} ^ {n} s _ {i} = \sum_ {i = 1} ^ {n} s _ {i \mathrm {T D}}
+\sum_{i = 1}^{n} s_{i} = \sum_{i = 1}^{n} s_{i \mathrm{TD}}
 $$
 
 If $s_{\text{FTD}} \approx \sum_{i=1}^n s_i$, then the other $i$-th to default contracts must have very low spreads. Conversely, if $s_{\text{FTD}} \approx s_i$, then the other $i$-th to default contracts must have high spreads. In an extreme case where all bonds default together (correlation 1) and all $s_i$'s are equal, then all $s_{i\text{TD}}$ are equal to one another.
@@ -170,7 +170,7 @@ USE MORE FROM https://www.barbicanconsulting.co.uk/cln
 Convertible bonds are a mixture of three prominent risks: equity, interest rate, and credit. A convertible bond allows the owner to convert a bond that earns fixed coupons to equity and hence is bond with an exchange option.
 
 $$
-\Pi_ {\mathrm {C B}} = \max \{S, \xi \Pi \}
+\Pi_{\mathrm{CB}} = \max \{S, \xi \Pi \}
 $$ where  $\xi$  is the conversion ratio.
 
 

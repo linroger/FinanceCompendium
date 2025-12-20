@@ -99,7 +99,7 @@ This appendix briefly generalizes the example given above. The derivation is onl
 Debt uses the threat of liquidation to get the borrower to pay. Recall that the realized payoff of the project is  $V$  (either  $V = H$  or  $V = L$ ), and that the probability that  $V = H$  is  $P$ . The lenders will get an expected repayment of:  $Pf$  if  $f$  is between  $H$  and  $L$ , or  $f$ , if  $f$  does not exceed  $L$ . This implies that the lowest face value,  $f$ , that provides an expected repayment of  $1 + r$  is given by:
 
 $$
-\begin{array}{c c} \frac {1 + r}{P} & \text {i f L <   1 + r} \end{array}
+\begin{array}{c c} \frac{1 + r}{P} & \text{if L <1 +r} \end{array}
 $$
 
 $$
@@ -127,19 +127,19 @@ bank to monitor is not a free method of making the value of V known to the publi
 The face value of each loan is F. The constraint that the borrower not default when V=H is:
 
 $$
-F \leq H \quad (\text {L o a n r e p a m e n t i n c e n t i v e s})
+F \leq H \quad (\text{Lo an re pa me nt in ce nt iv es})
 $$
 
 The bank will provide an expected return of exactly  $r$  to each depositor if the face value per loan is given by:
 
 $$
-B = \frac {(1 + r)}{1 - (1 - P) ^ {2}}. \quad (F a c e v a l u e o f b a n k d e p o s i t s, p e r l o a n)
+B = \frac{(1 + r)}{1 - (1 - P)^{2}}. \quad (F a c e v a l u e o f b a n k d e p o s i t s, p e r l o a n)
 $$
 
 When one of the bank's two loans defaults, and it has monitored, it will collect  $F + L$ . The bank owes deposits of 2B. The bank will have the ability and incentive to pay its deposits when one of two loans default if and only if  $F + L \geq 2B = 2(1 + r) / [1 - (1 - P)^2]$  or
 
 $$
-\mathrm {F} \geq \frac {2 (1 + \mathrm {r})}{1 - (\mathrm {1 - P}) ^ {2}} - \mathrm {L} \equiv \mathrm {F} _ {\text {p a y}}. \quad (\text {b a n k c a n p a y d e p o s i t s w i t h o n e d e f a u l t})
+\mathrm{F} \geq \frac{2 (1 + \mathrm{r})}{1 - (\mathrm{1 -P})^{2}} - \mathrm{L} \equiv \mathrm{F}_{\text{pa y}}. \quad (\text{ba nk ca np ay de po si ts wi th on ed ef au lt})
 $$
 
 In addition, the banker must have incentives to monitor the loans. The cost of monitoring is incurred before the banker knows the return of the loan. When neither loan defaults, there is no effect of monitoring on the banker's receipts. When both loans default, the bank must default on its deposits, leading to liquidation giving the bank zero, and again there is no benefit to the banker from monitoring. When exactly one loan defaults, the banker's payoff if he monitors and repays the deposits is  $\mathrm{F} + \mathrm{L} - 2\mathrm{B}$ , while if the banker does not monitor the payoff is 0. Taking the expectation of the increase in the banker's payoff and subtracting the cost of monitoring 2 loans implies that when the banker has incentives to monitor, and the bank is not to fail when only one loan defaults, it must be true that:
@@ -149,7 +149,7 @@ $$
 $$
 
 $$
-\mathrm {F} \geq \frac {\mathrm {K}}{\mathrm {P} (1 - \mathrm {P})} + \frac {2 (1 + \mathrm {r})}{1 - (1 - \mathrm {P}) ^ {2}} - \mathrm {L} \equiv \mathrm {F} _ {\mathrm {I C}}. (\text {I n c e n t i v e t o m o n i t o r})
+\mathrm{F} \geq \frac{\mathrm{K}}{\mathrm{P} (1 - \mathrm{P})} + \frac{2 (1 + \mathrm{r})}{1 - (1 - \mathrm{P})^{2}} - \mathrm{L} \equiv \mathrm{F}_{\mathrm{IC}}. (\text{In ce nt iv et om on it or})
 $$
 
 Because of the cost of monitoring,  $K > 0$ , the incentive to monitor is the binding constraint, and  $F_{IC} > F_{Pay}$ . For the two-loan bank, the face value of each loan is  $F = F_{IC} = \frac{K}{P(1 - P)} + \frac{2(1 + r)}{1 - (1 - P)^2} - L$ .
@@ -157,7 +157,7 @@ Because of the cost of monitoring,  $K > 0$ , the incentive to monitor is the bi
 The bank loan is cheaper for the borrower if  $F \leq f = \frac{1 + r}{P}$ , or
 
 $$
-K \leq \frac {P (1 - P) [ 1 + r - L (2 - P) ]}{2 - P}.
+K \leq \frac{P (1 - P) [ 1 + r - L (2 - P) ]}{2 - P}.
 $$
 
 One can show that the delegation cost of monitoring declines as the bank becomes more diversified, but in cases where the number of independent loans is above 2 the equations become a bit messy. The easiest way to show the benefits of increased diversification is the show what happens as  $N$ , the number of independent loans monitored, gets arbitrarily large.
@@ -171,7 +171,7 @@ If the bank can pay  $1 + r$  per loan with monitoring, then at the margin it wi
 If the bank monitors all of its loans with face value  $F$ , incurring cost  $K$  per loan and paying  $1 + r$  in deposits per loan, it will receive an average payoff per loan of exactly  $PF + (1 - P)L - (1 + r) - K$ . The banker will receive a nonnegative profit from making and monitoring loans so long as this is nonnegative or:
 
 $$
-\mathrm {F} \geq \frac {1 + \mathrm {r} + \mathrm {K} - (1 - \mathrm {P}) \mathrm {L}}{\mathrm {P}}. \quad (\text {m i n i m a l c o m p e n s a t i o n f o r a m o n i t o r e d l o a n})
+\mathrm{F} \geq \frac{1 + \mathrm{r} + \mathrm{K} - (1 - \mathrm{P}) \mathrm{L}}{\mathrm{P}}. \quad (\text{mi ni ma lc om pe ns at io nf or am on it or ed lo an})
 $$
 
 The value of the minimum face value of a publicly-traded non-monitored loan,  $f = \frac{1 + r}{P}$ , is the lowest such that an expected return of  $1 + r$  is received without monitoring. If the bank makes loans with face value below  $\frac{1 + r}{P}$ , the bank will fail if it monitors none of its loans. As a result, if the bank monitors none of its loans, the banker receives nothing. For any face value of bank debt where it is preferred by borrowers to non-monitored debt, the banker will receive at least as much profit from monitoring all of its loans as monitoring none.

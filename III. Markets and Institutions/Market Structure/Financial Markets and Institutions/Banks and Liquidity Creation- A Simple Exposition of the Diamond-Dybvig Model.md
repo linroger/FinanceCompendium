@@ -41,7 +41,7 @@ As of date 0, an investor does not know which type he will be, but each investor
 A type 1 investor with utility function  $U(c)$  who consumes  $c_{1}$  at  $T = 1$  has utility  $U(c_{1})$ . A type 2 investor who consumes  $c_{2}$  at  $T = 2$  (this  $c_{2}$  includes any stored date 1 consumption goods) has utility  $U(c_{2})$ . The utility function is the same for both types, but the date on which an investor wishes to consume depends on his type. An investor who holds the asset  $(r_{1}, r_{2})$ , which gives a choice of  $r_{1}$  at date 1 or  $r_{2} > r_{1}$  at date 2, consumes  $c_{1} = r_{1}$  if of type 1 (with probability  $t$ ) or  $c_{2} = r_{2}$  if of type 2 (with probability  $1 - t$ ). The investor's expected utility is given by
 
 $$
-t U (r _ {1}) + (1 - t) U (r _ {2}).
+t U (r_{1}) + (1 - t) U (r_{2}).
 $$
 
 I assume that the investor has the risk-averse utility function of  $U(c) = \frac{-1}{c}$ . To simplify exposition, I add a constant of 1 to the utility (with no effect on any decisions) and use the utility function  $U(c) = 1 - (\frac{1}{c})$ . This allows the expected utility calculations to yield positive numbers.
@@ -51,13 +51,13 @@ I assume that the investor has the risk-averse utility function of  $U(c) = \fra
 Consider the following two assets, both of which cost 1 at date 0. The illiquid asset has  $(r_1 = 1, r_2 = R)$  and a more liquid asset has  $(r_1 > 1, r_2 < R)$ . Investors have access only to the illiquid asset. Later, I will show how banks can create the more liquid asset, although there is no physical asset with its payoffs, but for now I simply illustrate the demand for liquidity with the following numerical example for the case where the probability of being of type 1 is  $t = \frac{1}{4}$  and the illiquid asset has  $(r_1 = 1, r_2 = R = 2)$ . As a comparison, consider a hypothetical more liquid asset that has  $(r_1 = 1.28, r_2 = 1.813)$ . Section 2 explains why these particular numerical values are used. The expected utility from holding the illiquid asset is
 
 $$
-\frac {1}{4} U (1) + \frac {3}{4} U (2) = 0. 3 7 5.
+\frac{1}{4} U (1) + \frac{3}{4} U (2) = 0. 3 7 5.
 $$
 
 The expected utility from holding the more liquid asset is
 
 $$
-\frac {1}{4} U (1. 2 8) + \frac {3}{4} U (1. 8 1 3) = 0. 3 9 1 > 0. 3 7 5.
+\frac{1}{4} U (1. 2 8) + \frac{3}{4} U (1. 8 1 3) = 0. 3 9 1 > 0. 3 7 5.
 $$
 
 Each investor prefers the more liquid asset. A risk-averse investor prefers this smoother pattern of returns; holding the illiquid asset is risky because it delivers a low amount when liquidated early, on date 1.
@@ -65,13 +65,13 @@ Each investor prefers the more liquid asset. A risk-averse investor prefers this
 Note that if investors were not risk averse and had constant marginal utility of consumption, they would not prefer this particular liquid asset. That is, if  $U(c) = c$ , then the expected utility of holding any asset is equal to its expected payoff given the policy of liquidating when of type 1. For the illiquid asset, the expected payoff is
 
 $$
-\frac {1}{4} (1) + \frac {3}{4} (2) = 1. 7 5.
+\frac{1}{4} (1) + \frac{3}{4} (2) = 1. 7 5.
 $$
 
 The more liquid asset gives an expected payoff of:
 
 $$
-\frac {1}{4} (1. 2 8) + \frac {3}{4} (1. 8 1 3) = 1. 6 8 <   1. 7 5.
+\frac{1}{4} (1. 2 8) + \frac{3}{4} (1. 8 1 3) = 1. 6 8 <   1. 7 5.
 $$
 
 The more liquid asset has a lower expected rate of return. Sufficiently risk-averse investors, but not risk-neutral investors, are willing to give up some expected return to get a more liquid asset.
@@ -97,7 +97,7 @@ If the bank receives \$1 from each of the 100 investors, it receives \$100 in de
 At  $T = 1$ , the bank's entire portfolio is worth \$100. Suppose 25 depositors withdraw 1.28 each, then  $25(1.28) = 32$  assets must be liquidated: 32 percent of the portfolio must be liquidated. If 32 assets are liquidated, then 68 will remain until  $T = 2$ , when they will be worth  $R = 2$  each. On date 2, there remain 75 depositors, each will receive
 
 $$
-\frac {[ 1 0 0 - 3 2 ] 2}{7 5} = \frac {[ 6 8 ] 2}{7 5} = 1. 8 1 3.
+\frac{[ 1 0 0 - 3 2 ] 2}{7 5} = \frac{[ 6 8 ] 2}{7 5} = 1. 8 1 3.
 $$
 
 Depositors prefer the more liquid asset to the illiquid asset. A bank can provide the more liquid deposit which has a smaller loss from early liquidation than is available from holding the illiquid assets directly. This liquidity transformation service is one of the most important functions of banks. If the bank offers the more liquid deposits and invests in the illiquid assets, it can create liquidity. It is an equilibrium (a Nash equilibrium) for 25 depositors to withdraw at  $T = 1$ , because if all depositors expect 25 to withdraw at  $T = 1$ , only type 1 depositors will withdraw because the 75 type 2 depositors prefer the 1.813 available at  $T = 2$  to the 1.28 available at  $T = 1$ .

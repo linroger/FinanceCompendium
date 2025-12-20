@@ -50,12 +50,12 @@ cients similar to ours (his Figure 2, p. 53). Stambaugh's result confirms that t
 
 We use the following notation for log bond prices:
 
-$$ p _ {t} ^ {(n)} = \begin{array}{c} \log \text {p r i c e o f n - y e a r d i s c o u n t b o n d} \\ \text {a t t i m e t}. \end{array}
+$$ p_{t}^{(n)} = \begin{array}{c} \log \text{pr ic eo fn -y ea rd is co un tb on d} \\ \text{at ti me t}. \end{array}
 $$
 
 We use parentheses to distinguish maturity from exponentiation in the superscript. The log yield is
 
-$$ y _ {t} ^ {(n)} \equiv - \frac {1}{n} p _ {t} ^ {(n)}.
+$$ y_{t}^{(n)} \equiv - \frac{1}{n} p_{t}^{(n)}.
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e4f35df0-8658-457f-9faf-0c6a58f71226/257772b90279b4dafbd4ff4d0a7840e7dcdad93dfde989a7478b71187a5e1dc5.jpg)
@@ -72,38 +72,38 @@ Notes: Panel A shows coefficients  $\pmb{\gamma}^{*}$  in a regression of averag
 
 We write the log forward rate at time  $t$  for loans between time  $t + n - 1$  and  $t + n$  as
 
-$$ f _ {t} ^ {(n)} \equiv p _ {t} ^ {(n - 1)} - p _ {t} ^ {(n)}
+$$ f_{t}^{(n)} \equiv p_{t}^{(n - 1)} - p_{t}^{(n)}
 $$ and we write the log holding period return from buying an  $n$ -year bond at time  $t$  and selling it as an  $n - 1$  year bond at time  $t + 1$  as
 
 
-$$ r _ {t + 1} ^ {(n)} \equiv p _ {t + 1} ^ {(n - 1)} - p _ {t} ^ {(n)}.
+$$ r_{t + 1}^{(n)} \equiv p_{t + 1}^{(n - 1)} - p_{t}^{(n)}.
 $$
 
 We denote excess log returns by
 
-$$ r x _ {t + 1} ^ {(n)} \equiv r _ {t + 1} ^ {(n)} - y _ {t} ^ {(1)}.
+$$ r x_{t + 1}^{(n)} \equiv r_{t + 1}^{(n)} - y_{t}^{(1)}.
 $$
 
 We use the same letters without  $n$  index to denote vectors across maturity, e.g.,
 
 $$
-\mathbf {r} \mathbf {x} _ {t + 1} \equiv \left[ \begin{array}{c c c c} r x _ {t} ^ {(2)} & r x _ {t} ^ {(3)} & r x _ {t} ^ {(4)} & r x _ {t} ^ {(5)} \end{array} \right] ^ {\top}.
+\mathbf {r} \mathbf {x}_{t + 1} \equiv \left[ \begin{array}{c c c c} r x_{t}^{(2)} & r x_{t}^{(3)} & r x_{t}^{(4)} & r x_{t}^{(5)} \end{array} \right]^{\top}.
 $$
 
 When used as right-hand variables, these vectors include an intercept, e.g.,
 
 $$
-\mathbf {y} _ {t} \equiv \left[ \begin{array}{c c c c c} 1 & y _ {t} ^ {(1)} & y _ {t} ^ {(2)} & y _ {t} ^ {(3)} & y _ {t} ^ {(4)} \\ & & & & y _ {t} ^ {(5)} \end{array} \right] ^ {\top}
+\mathbf {y}_{t} \equiv \left[ \begin{array}{c c c c c} 1 & y_{t}^{(1)} & y_{t}^{(2)} & y_{t}^{(3)} & y_{t}^{(4)} \\ & & & & y_{t}^{(5)} \end{array} \right]^{\top}
 $$
 
 $$
-\mathbf {f} _ {t} \equiv \left[ \begin{array}{c c c c c c} 1 & y _ {t} ^ {(1)} & f _ {t} ^ {(2)} & f _ {t} ^ {(3)} & f _ {t} ^ {(4)} & f _ {t} ^ {(5)} \end{array} \right] ^ {\top}.
+\mathbf {f}_{t} \equiv \left[ \begin{array}{c c c c c c} 1 & y_{t}^{(1)} & f_{t}^{(2)} & f_{t}^{(3)} & f_{t}^{(4)} & f_{t}^{(5)} \end{array} \right]^{\top}.
 $$
 
 We use overbars to denote averages across maturity, e.g.,
 
 $$
-\overline {{r x}} _ {t + 1} \equiv \frac {1}{4} \sum_ {n = 2} ^ {5} r x _ {t + 1} ^ {(n)}.
+\overline {{r x}}_{t + 1} \equiv \frac{1}{4} \sum_{n = 2}^{5} r x_{t + 1}^{(n)}.
 $$
 
 # B. Excess Return Forecasts
@@ -113,7 +113,7 @@ We run regressions of bond excess returns at time  $t + 1$  on forward rates at 
 We run regressions of excess returns on all forward rates,
 
 $$
-\begin{array}{l} \left(1\right) \quad r x _ {t + 1} ^ {(n)} = \beta_ {0} ^ {(n)} + \beta_ {1} ^ {(n)} y _ {t} ^ {(1)} + \beta_ {2} ^ {(n)} f _ {t} ^ {(2)} \\ + \dots + \beta_ {5} ^ {(n)} f _ {t} ^ {(5)} + \varepsilon_ {t + 1} ^ {(n)}. \\ \end{array}
+\begin{array}{l} \left(1\right) \quad r x_{t + 1}^{(n)} = \beta_{0}^{(n)} + \beta_{1}^{(n)} y_{t}^{(1)} + \beta_{2}^{(n)} f_{t}^{(2)} \\ + \dots + \beta_{5}^{(n)} f_{t}^{(5)} + \varepsilon_{t + 1}^{(n)}. \\ \end{array}
 $$
 
 The top panel of Figure 1 graphs the slope coefficients  $[\beta_1^{(n)}\dots \beta_5^{(n)}]$  as a function of maturity  $n$  . (The Appendix, which is available at http://www.aeaweb.org/aer/contentss/appendices/ mar05_app_cochrane.pdf, includes a table of the regressions.) The plot makes the pattern clear: The same function of forward rates forecasts holding period returns at all maturities. Longer maturities just have greater loadings on this same function.
@@ -121,7 +121,7 @@ The top panel of Figure 1 graphs the slope coefficients  $[\beta_1^{(n)}\dots \b
 This beautiful pattern of coefficients cries for us to describe expected excess returns of all maturities in terms of a single factor, as follows:
 
 $$
-\begin{array}{l} r x _ {t + 1} ^ {(n)} = b _ {n} \left(\gamma_ {0} + \gamma_ {1} y _ {t} ^ {(1)} + \gamma_ {2} f _ {t} ^ {(2)} \right. \tag {2} \\ + \dots + \gamma_ {5} f _ {t} ^ {(5)}) + \varepsilon_ {t + 1} ^ {(n)}. \\ \end{array}
+\begin{array}{l} r x_{t + 1}^{(n)} = b_{n} \left(\gamma_{0} + \gamma_{1} y_{t}^{(1)} + \gamma_{2} f_{t}^{(2)} \right. \tag {2} \\ + \dots + \gamma_{5} f_{t}^{(5)}) + \varepsilon_{t + 1}^{(n)}. \\ \end{array}
 $$
 
 $b_{n}$  and  $\gamma_{n}$  are not separately identified by this specification, since you can double all the  $b$  and halve all the  $\gamma$ . We normalize the coefficients by imposing that the average value of  $b_{n}$  is one,  $\frac{1}{4} \Sigma_{n=2}^{5} b_{n} = 1$ .
@@ -129,12 +129,12 @@ $b_{n}$  and  $\gamma_{n}$  are not separately identified by this specification,
 We estimate (2) in two steps. First, we estimate the  $\gamma$  by running a regression of the average (across maturity) excess return on all forward rates,
 
 $$
-\begin{array}{l} \frac {1}{4} \sum_ {n = 2} ^ {5} r x _ {t + 1} ^ {(n)} = \gamma_ {0} + \gamma_ {1} y _ {t} ^ {(1)} + \gamma_ {2} f _ {t} ^ {(2)} \tag {3} \\ + \dots + \gamma_ {5} f _ {t} ^ {(5)} + \bar {\varepsilon} _ {t + 1} \\ \overline {{r x}} _ {t + 1} = \boldsymbol {\gamma} ^ {\top} \mathbf {f} _ {t} + \bar {\varepsilon} _ {t + 1}. \\ \end{array}
+\begin{array}{l} \frac{1}{4} \sum_{n = 2}^{5} r x_{t + 1}^{(n)} = \gamma_{0} + \gamma_{1} y_{t}^{(1)} + \gamma_{2} f_{t}^{(2)} \tag {3} \\ + \dots + \gamma_{5} f_{t}^{(5)} + \bar {\varepsilon}_{t + 1} \\ \overline {{r x}}_{t + 1} = \boldsymbol {\gamma}^{\top} \mathbf {f}_{t} + \bar {\varepsilon}_{t + 1}. \\ \end{array}
 $$
 
 The second equality reminds us of the vector and average (overbar) notation. Then, we estimate  $b_{n}$  by running the four regressions
 
-$$ r x _ {t + 1} ^ {(n)} = b _ {n} \left(\boldsymbol {\gamma} ^ {\top} \mathbf {f} _ {t}\right) + \varepsilon_ {t + 1} ^ {(n)}, \quad n = 2, 3, 4, 5.
+$$ r x_{t + 1}^{(n)} = b_{n} \left(\boldsymbol {\gamma}^{\top} \mathbf {f}_{t}\right) + \varepsilon_{t + 1}^{(n)}, \quad n = 2, 3, 4, 5.
 $$
 
 The single-factor model (2) is a restricted model. If we write the unrestricted regression coefficients from equation (1) as  $4 \times 6$  matrix  $\boldsymbol{\beta}$ , the single-factor model (2) amounts to the restriction  $\bar{\mathbf{B}} = \mathbf{b}\boldsymbol{\gamma}^{\top}$ . A single linear combination of forward rates  $\boldsymbol{\gamma}^{\top}\mathbf{f}_t$  is the state variable for time-varying expected returns of all maturities.
@@ -207,7 +207,7 @@ Notes: The left-hand variable is the one-year return on the value-weighted NYSE 
 
 this sample. Studies that use longer samples find significant coefficients.
 
-The fifth and sixth regressions compare  $\pmb{\gamma}^{\top}\mathbf{f}$  with the term spread and  $\mathrm{d / p}$ . The coefficient on  $\pmb{\gamma}^{\top}\mathbf{f}$  and its significance are hardly affected in these multiple regressions. The return-forecasting factor drives the term premium out completely.
+The fifth and sixth regressions compare  $\pmb{\gamma}^{\top}\mathbf{f}$  with the term spread and  $\mathrm{d /p}$ . The coefficient on  $\pmb{\gamma}^{\top}\mathbf{f}$  and its significance are hardly affected in these multiple regressions. The return-forecasting factor drives the term premium out completely.
 
 In the seventh row, we consider an unrestricted regression of stock excess returns on all forward rates. Of course, this estimate is noisy, since stock returns are more volatile than bond returns. All forward rates together produce an  $R^2$  of 10 percent, only slightly more than the  $\gamma^\top \mathbf{f}R^2$  of 7 percent. The stock return forecasting coefficients recover a similar tent shape pattern (not shown). We discuss the eighth and ninth rows below.
 
@@ -240,13 +240,13 @@ Forecasting with Factors and Related Tests. Table 4 asks the central question: h
 Is the increase in  $R^2$  statistically significant? We test this and related hypotheses in Table 4. We start with the slope factor alone. We run the restricted regression
 
 $$
-\begin{array}{l} \bar {r x} _ {t + 1} = a + \mathbf {b} \times \operatorname {s l o p e} _ {t} + \varepsilon_ {t + 1} \\ = a + \mathbf {b} \times \left(\mathbf {q} _ {2} ^ {\top} \mathbf {y} _ {t}\right) + \varepsilon_ {t + 1} \\ \end{array}
+\begin{array}{l} \bar {r x}_{t + 1} = a + \mathbf {b} \times \operatorname{sl op e}_{t} + \varepsilon_{t + 1} \\ = a + \mathbf {b} \times \left(\mathbf {q}_{2}^{\top} \mathbf {y}_{t}\right) + \varepsilon_{t + 1} \\ \end{array}
 $$ where  $\mathbf{q}_2$  generates the slope factor from yields. We want to test whether the restricted coefficients  $a$ ,  $(\mathbf{b} \times \mathbf{q}_2)$  are jointly equal to the unrestricted coefficients  $\gamma^*$ . To do this, we add 3 yields to the right-hand side, so that the regression is again unconstrained, and exactly equal to  $\boldsymbol{\gamma}^\top \mathbf{f}_t$ ,
 
 
 $$
 
-\begin{array}{l} \overline {{r x}} _ {t + 1} = a + \mathbf {b} \times \operatorname {s l o p e} _ {t} + c _ {2} y _ {t} ^ {(2)} + c _ {3} y _ {t} ^ {(3)} \tag {4} \\ + c _ {4} y _ {t} ^ {(4)} + c _ {5} y _ {t} ^ {(5)} + \bar {\varepsilon} _ {t + 1}. \\ \end{array}
+\begin{array}{l} \overline {{r x}}_{t + 1} = a + \mathbf {b} \times \operatorname{sl op e}_{t} + c_{2} y_{t}^{(2)} + c_{3} y_{t}^{(3)} \tag {4} \\ + c_{4} y_{t}^{(4)} + c_{5} y_{t}^{(5)} + \bar {\varepsilon}_{t + 1}. \\ \end{array}
 
 $$
 
@@ -284,7 +284,7 @@ We want to end up with bond prices that satisfy the return-forecasting regressio
 
 $$
 
-(5) \quad \mathbf {r} \mathbf {x} _ {t + 1} = \boldsymbol {\beta} \mathbf {f} _ {t} + \boldsymbol {\varepsilon} _ {t + 1}; \operatorname {c o v} \left(\boldsymbol {\varepsilon} _ {t + 1} \boldsymbol {\varepsilon} _ {t} ^ {\top}\right) = \boldsymbol {\Sigma}.
+(5) \quad \mathbf {r} \mathbf {x}_{t + 1} = \boldsymbol {\beta} \mathbf {f}_{t} + \boldsymbol {\varepsilon}_{t + 1}; \operatorname{co v} \left(\boldsymbol {\varepsilon}_{t + 1} \boldsymbol {\varepsilon}_{t}^{\top}\right) = \boldsymbol {\Sigma}.
 
 $$
 
@@ -292,26 +292,26 @@ We work backwards from this end. Consider a discount factor of the form
 
 $$
 
-M _ {t + 1} = \exp \left(- y _ {t} ^ {(1)} - \frac {1}{2} \boldsymbol {\lambda} _ {t} ^ {\top} \boldsymbol {\Sigma} \boldsymbol {\lambda} _ {t} - \boldsymbol {\lambda} _ {t} ^ {\top} \boldsymbol {\varepsilon} _ {t + 1}\right) \tag {6}
+M_{t + 1} = \exp \left(- y_{t}^{(1)} - \frac{1}{2} \boldsymbol {\lambda}_{t}^{\top} \boldsymbol {\Sigma} \boldsymbol {\lambda}_{t} - \boldsymbol {\lambda}_{t}^{\top} \boldsymbol {\varepsilon}_{t + 1}\right) \tag {6}
 
 $$ with normally distributed shocks  $\varepsilon_{t + 1}$ . (We're constructing a model, so we can specify the distribution.) From  $1 = E_{t}(M_{t + 1}R_{t + 1})$ , one-period log excess returns must obey
 
 (7)
 
 $$
-E _ {t} \left(r x _ {t + 1} ^ {(n)}\right) + \frac {1}{2} \sigma_ {t} ^ {2} \left(r x _ {t + 1} ^ {(n)}\right) = \operatorname {c o v} _ {t} \left(r x _ {t + 1} ^ {(n)}, \boldsymbol {\varepsilon} _ {t + 1} ^ {\top}\right) \boldsymbol {\lambda} _ {t}.
+E_{t} \left(r x_{t + 1}^{(n)}\right) + \frac{1}{2} \sigma_{t}^{2} \left(r x_{t + 1}^{(n)}\right) = \operatorname{co v}_{t} \left(r x_{t + 1}^{(n)}, \boldsymbol {\varepsilon}_{t + 1}^{\top}\right) \boldsymbol {\lambda}_{t}.
 $$
 
 The time-varying discount-factor coefficients  $\lambda_{t}$  are thus also the "market prices of risk" that determine how much a unit of covariance translates into an expected return premium. Now, in the notation of regression (5), condition (7) is
 
 $$
-\boldsymbol {\beta} \mathbf {f} _ {t} + \frac {1}{2} \operatorname {d i a g} (\boldsymbol {\Sigma}) = \boldsymbol {\Sigma} \boldsymbol {\lambda} _ {t}.
+\boldsymbol {\beta} \mathbf {f}_{t} + \frac{1}{2} \operatorname{di ag} (\boldsymbol {\Sigma}) = \boldsymbol {\Sigma} \boldsymbol {\lambda}_{t}.
 $$
 
 Thus, we can ensure that the model represents the one-period return regression correctly by the form (6) with the choice
 
 $$
-\boldsymbol {\lambda} _ {t} = \boldsymbol {\Sigma} ^ {- 1} \left[ \boldsymbol {\beta} \mathbf {f} _ {t} + \frac {1}{2} \operatorname {d i a g} (\boldsymbol {\Sigma}) \right]. \tag {8}
+\boldsymbol {\lambda}_{t} = \boldsymbol {\Sigma}^{- 1} \left[ \boldsymbol {\beta} \mathbf {f}_{t} + \frac{1}{2} \operatorname{di ag} (\boldsymbol {\Sigma}) \right]. \tag {8}
 $$
 
 (This is the log version of Lars Hansen and Ravi Jagannathan's 1991 discount factor construction.)
@@ -321,7 +321,7 @@ The discount factor (6) is the basis of an affine term structure model, and that
 (9)
 
 $$
-\mathbf {p} _ {t + 1} = \boldsymbol {\mu} + \phi \mathbf {p} _ {t} + \mathbf {v} _ {t + 1}; \operatorname {c o v} \left(\mathbf {v} _ {t + 1}, \mathbf {v} _ {t} ^ {\top}\right) = \mathbf {V}.
+\mathbf {p}_{t + 1} = \boldsymbol {\mu} + \phi \mathbf {p}_{t} + \mathbf {v}_{t + 1}; \operatorname{co v} \left(\mathbf {v}_{t + 1}, \mathbf {v}_{t}^{\top}\right) = \mathbf {V}.
 $$
 
 Since returns, yields, and forward rates are all linear functions of each other, this log-price VAR carries all the information of the return regressions (5). Conversely, one can recover the first four rows of  $\Phi$  from the return regressions, since  $rx_{t + 1}^{(n)} = p_{t + 1}^{(n - 1)} - p_t^{(n)} + p_t^{(1)}$ . The return shocks  $\varepsilon_{t + 1}$  are exactly the first four price shocks  $\mathbf{v}_{t + 1}$ , and the return covariance matrix  $\Sigma$  is the first four rows and columns of the price shock covariance matrix  $\mathbf{V}$ .
@@ -377,19 +377,19 @@ Notes: The model is  $rx_{t + 1}^{(n)} = \pmb{\gamma}^{\top}[\alpha_0\mathbf{f}_
 started with unrestricted regressions. We found that multiple regression coefficients displayed similar tent shapes across maturity, much like the single-lag regression coefficients of Figure 3, and once again bonds of different maturity had the same pattern of regression coefficients blown up by different amounts. These observations suggest a single-factor structure across time as well as maturity,
 
 $$
-\begin{array}{l} r x _ {t + 1} ^ {(n)} = b _ {n} \boldsymbol {\gamma} ^ {\top} \left[ \alpha_ {0} \mathbf {f} _ {t} + \alpha_ {1} \mathbf {f} _ {t - (1 / 1 2)} + \alpha_ {2} \mathbf {f} _ {t - (2 / 1 2)} \right. \\ + \dots + \alpha_ {k} \mathbf {f} _ {t - (k / 1 2)} ] + \varepsilon_ {t + 1} ^ {(n)}. \\ \end{array}
+\begin{array}{l} r x_{t + 1}^{(n)} = b_{n} \boldsymbol {\gamma}^{\top} \left[ \alpha_{0} \mathbf {f}_{t} + \alpha_{1} \mathbf {f}_{t - (1 / 1 2)} + \alpha_{2} \mathbf {f}_{t - (2 / 1 2)} \right. \\ + \dots + \alpha_{k} \mathbf {f}_{t - (k / 1 2)} ] + \varepsilon_{t + 1}^{(n)}. \\ \end{array}
 $$
 
 We normalize to  $\Sigma_{j=0}^{k} \alpha_{j} = 1$  so that the units of  $\gamma$  remain unaffected. Since we add only one parameter  $(\alpha_{k})$  per new lag introduced, this specification gives a more believable forecast than an unrestricted regression with many lags. Since the single factor restriction works well across maturities  $n$ , we present only the results for forecasting average returns across maturity, corresponding to Table 1A,
 
 $$
-\begin{array}{l} \bar {r x} _ {t + 1} = \boldsymbol {\gamma} ^ {\top} \left[ \alpha_ {0} \mathbf {f} _ {t} + \alpha_ {1} \mathbf {f} _ {t - (1 / 1 2)} + \alpha_ {2} \mathbf {f} _ {t - (2 / 1 2)} \right. \\ \left. + \dots + \alpha_ {k} \mathbf {f} _ {t - (k / 1 2)} \right] + \bar {\varepsilon} _ {t + 1}. \\ \end{array}
+\begin{array}{l} \bar {r x}_{t + 1} = \boldsymbol {\gamma}^{\top} \left[ \alpha_{0} \mathbf {f}_{t} + \alpha_{1} \mathbf {f}_{t - (1 / 1 2)} + \alpha_{2} \mathbf {f}_{t - (2 / 1 2)} \right. \\ \left. + \dots + \alpha_{k} \mathbf {f}_{t - (k / 1 2)} \right] + \bar {\varepsilon}_{t + 1}. \\ \end{array}
 $$
 
 We can also write the regression as
 
 $$
-\begin{array}{l} \bar {r x} _ {t + 1} = \alpha_ {0} \left(\boldsymbol {\gamma} ^ {\top} \mathbf {f} _ {t}\right) + \alpha_ {1} \left(\boldsymbol {\gamma} ^ {\top} \mathbf {f} _ {t - (1 / 1 2)}\right) \tag {12} \\ + \alpha_ {2} (\boldsymbol {\mathcal {Y}} ^ {\top} \mathbf {f} _ {t - (2 / 1 2)}) + \dots + \alpha_ {k} (\boldsymbol {\mathcal {Y}} ^ {\top} \mathbf {f} _ {t - (k / 1 2)}) + \bar {\varepsilon} _ {t + 1}. \\ \end{array}
+\begin{array}{l} \bar {r x}_{t + 1} = \alpha_{0} \left(\boldsymbol {\gamma}^{\top} \mathbf {f}_{t}\right) + \alpha_{1} \left(\boldsymbol {\gamma}^{\top} \mathbf {f}_{t - (1 / 1 2)}\right) \tag {12} \\ + \alpha_{2} (\boldsymbol {\mathcal {Y}}^{\top} \mathbf {f}_{t - (2 / 1 2)}) + \dots + \alpha_{k} (\boldsymbol {\mathcal {Y}}^{\top} \mathbf {f}_{t - (k / 1 2)}) + \bar {\varepsilon}_{t + 1}. \\ \end{array}
 $$
 
 We can think of the restricted model as simply adding lags of the return-forecasting factor  $\pmb{\gamma}^{\top}\mathbf{f}_t$
@@ -478,13 +478,13 @@ Notes: Tests of the single-factor model  $\mathbf{rx}_{t + 1} = \mathbf{b}\bolds
 
 The moments underlying the unrestricted regressions (1) are the regression forecast errors multiplied by forward rates (right-hand variables),
 
-$$ g _ {T} (\boldsymbol {\beta}) = E \left(\varepsilon_ {t + 1} \otimes \mathbf {f} _ {t}\right) = \mathbf {0}. \tag {13}
+$$ g_{T} (\boldsymbol {\beta}) = E \left(\varepsilon_{t + 1} \otimes \mathbf {f}_{t}\right) = \mathbf {0}. \tag {13}
 $$
 
 By contrast, our two-step estimate of the single-factor model sets to zero the moments,
 
 $$
-\begin{array}{l} E \left[ \left(\mathbf {1} _ {4} ^ {\top} \varepsilon_ {t + 1}\right) \otimes \mathbf {f} _ {t} \right] = \mathbf {0} (14) \\ E \left[ \boldsymbol {\varepsilon} _ {t + 1} \otimes \left(\boldsymbol {\gamma} ^ {\top} \mathbf {f} _ {t}\right) \right] = \mathbf {0}. (15) \\ \end{array}
+\begin{array}{l} E \left[ \left(\mathbf {1}_{4}^{\top} \varepsilon_{t + 1}\right) \otimes \mathbf {f}_{t} \right] = \mathbf {0} (14) \\ E \left[ \boldsymbol {\varepsilon}_{t + 1} \otimes \left(\boldsymbol {\gamma}^{\top} \mathbf {f}_{t}\right) \right] = \mathbf {0}. (15) \\ \end{array}
 $$
 
 We use moments (14)-(15) to compute GMM standard errors in Table 1. The restricted model  $\pmb{\beta} = \pmb{b}\pmb{\gamma}^{\top}$  does not set all the moments (13) to zero,  $g_{T}(\mathbf{b}\pmb{\gamma}^{\top})\neq 0$  . We can compute the "  $J_{T}$  "  $\chi^2$  test that the remaining moments are not too large. To do this, we express the moments (14)-(15) of the single-factor model as linear combinations of the unrestricted regression moments (13),  $a_{T}g_{T} = 0$  . Then we apply Lars Hansen's (1982) Theorem 3.1 (details in the Appendix). We also compute a Wald test of the joint parameter restrictions  $\pmb {\beta} = \pmb {b}\pmb{\gamma}^{\top}$  . We find the GMM distribution cov[vec(β)], and then compute the  $\chi^2$  statistic  $[\mathrm{vec}(\mathbf{b}\pmb{\gamma}^{\top}) - \mathrm{vec}(\pmb {\beta})]^{\top}$  cov[vec(β)]- [vec(by-) - vec(β)]. (vec since  $\pmb{\beta}$  is a matrix.) the single-factor model. The NW, 18 S matrix again produces suspiciously large  $\chi^2$  values, but tests with the simplified S matrix, the S matrix from nonoverlapping data, and the small sample also give strong rejections.
@@ -498,7 +498,7 @@ When we consider a forecast lagged one month, however, the evidence against the 
 To understand the single-factor model rejection with no lags, we can forecast single-factor model failures. We can estimate  $\tilde{\Gamma}$  in,
 
 $$
-\mathbf {r} \mathbf {x} _ {t + 1} - \mathbf {b} \times \bar {r x} _ {t + 1} = \tilde {\mathbf {f}} ^ {\top} \mathbf {f} _ {t} + \mathbf {w} _ {t + 1}. \tag {16}
+\mathbf {r} \mathbf {x}_{t + 1} - \mathbf {b} \times \bar {r x}_{t + 1} = \tilde {\mathbf {f}}^{\top} \mathbf {f}_{t} + \mathbf {w}_{t + 1}. \tag {16}
 $$
 
 The left-hand side is a portfolio long the excess return of the  $n$ th bond, and short  $b_{n}$  times the average of all excess returns. The restriction of the single-factor model is precisely that such portfolios should not be forecastable. (Since  $E_{t}(\overline{rx}_{t + 1}) = \pmb{\gamma}^{\top}\mathbf{f}_{t}$ , we can equivalently put  $\mathbf{rx}_{t + 1} - \mathbf{b}\times \pmb{\gamma}^{\top}\mathbf{f}_{t}$  on the left-hand side. Here, we check whether individual forward rates can forecast a bond's return, above and beyond the constrained pattern  $\mathbf{b}\pmb{\gamma}^{\top}\mathbf{f}_{t}$ .

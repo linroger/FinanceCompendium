@@ -38,25 +38,25 @@ This can be very expensive if bonds are high yield. Hence, investors of such por
 
 The 1st to default basket contract (FTD) is a CDS contract that pays principal minus recovery on whichever bond that defaults first in the contract period. The probability of this happening, for a given period (say 1 year), is:
 
-$$ p _ {\mathrm {F T D}} = \Pr \left[ B _ {1} \cup B _ {2} \cup \dots \cup B _ {n} \right] \tag {11.1}
+$$ p_{\mathrm{FT D}} = \Pr \left[ B_{1} \cup B_{2} \cup \dots \cup B_{n} \right] \tag {11.1}
 $$ where  $B_{i}$  represents the default event of bond  $i$  and  $p_i = \operatorname{Pr}[B_i]$  is the default probability of each individual bond. The total default probability of all bonds in a given period is:
 
 
 $$
 
-\sum_ {i = 1} ^ {n} p _ {i}
+\sum_{i = 1}^{n} p_{i}
 
 $$ which is greater than  $p_{\mathrm{FTD}}$ .
 
 Hence, we know that buying FTD is much cheaper than buying individual CDSes. Recall the back-of-envelop (quick and dirty approximation) formula for the CDS spread:
 
-$$ s _ {i} = p _ {i} (1 - R _ {i})
+$$ s_{i} = p_{i} (1 - R_{i})
 $$ where  $R$  is recovery rate. For the sake of easy exposition (and quite practically true), we assume a constant recovery for all bonds (and usually  $40\%$ ):  $s_i = p_i(1 - R)$ . We
 
 
 use the same concept to compute the spread for the FTD:
 
-$$ s _ {\mathrm {F T D}} = p _ {\mathrm {F T D}} (1 - R)
+$$ s_{\mathrm{FT D}} = p_{\mathrm{FT D}} (1 - R)
 $$
 
 Also for the convenience (and without loss of too much generality), we assume all notionals are same:  $N_{i} = N$ . This allows us to just compare spreads without worrying notional and recovery.
@@ -64,11 +64,11 @@ Also for the convenience (and without loss of too much generality), we assume al
 Note that equation (11.1) can be written as:
 
 $$
-\begin{array}{l} \operatorname * {P r} [ B _ {1} \cup B _ {2} \cup \dots \cup B _ {n} ] = \sum_ {i = 1} ^ {n} \operatorname * {P r} [ B _ {i} ] \\ - \sum \sum_ {i \neq j} \operatorname * {P r} [ B _ {i} \cap B _ {j} ] \\ + \sum \sum \sum_ {i \neq j \neq k} \Pr [ B _ {i} \cap B _ {j} \cap B _ {k} ] \\ - \cdot \cdot \cdot \\ \end{array}
+\begin{array}{l} \operatorname * {P r} [ B_{1} \cup B_{2} \cup \dots \cup B_{n} ] = \sum_{i = 1}^{n} \operatorname * {P r} [ B_{i} ] \\ - \sum \sum_{i \neq j} \operatorname * {P r} [ B_{i} \cap B_{j} ] \\ + \sum \sum \sum_{i \neq j \neq k} \Pr [ B_{i} \cap B_{j} \cap B_{k} ] \\ - \cdot \cdot \cdot \\ \end{array}
 $$
 
 $$
-\begin{array}{l} p _ {\mathrm {F T D}} = \sum_ {i = 1} ^ {n} p _ {i} \tag {11.2} \\ - \sum \sum_ {i \neq j} p _ {i \& j} \\ + \sum \sum \sum_ {i \neq j \neq k} p _ {i \& j \& k} \\ - \cdot \cdot \cdot \\ \end{array}
+\begin{array}{l} p_{\mathrm{FT D}} = \sum_{i = 1}^{n} p_{i} \tag {11.2} \\ - \sum \sum_{i \neq j} p_{i \& j} \\ + \sum \sum \sum_{i \neq j \neq k} p_{i \& j \& k} \\ - \cdot \cdot \cdot \\ \end{array}
 $$
 
 Hence, if joint defaults are rare (i.e. defaults are independent), then  $p_{\mathrm{FTD}}$  is very close to  $\sum_{i=1}^{n} p_i$ , which is expensive. Conversely, if defaults are together, then  $p_{\mathrm{FTD}}$  is very close to the highest  $p_i$ , which is cheap.
@@ -76,7 +76,7 @@ Hence, if joint defaults are rare (i.e. defaults are independent), then  $p_{\ma
 Note that by no arbitrage,
 
 $$
-\sum_ {i = 1} ^ {n} s _ {i} = \sum_ {i = 1} ^ {n} s _ {i \mathrm {T D}}
+\sum_{i = 1}^{n} s_{i} = \sum_{i = 1}^{n} s_{i \mathrm{TD}}
 $$
 
 If  $s_{\mathrm{FTD}} \approx \sum_{i=1}^{n} s_i$ , then the other  $i$ th to default contracts must have very low spreads. Conversely, if  $s_{\mathrm{FTD}} \approx s_i$ , then the other  $i$ th to default contracts must have high spreads. In an extreme case where all bonds default together (correlation 1) and all  $s_i$ 's are equal, then all  $s_{i\mathrm{TD}}$  are equal to one another.
@@ -170,7 +170,7 @@ USE MORE FROM https://www.barbicanconsulting.co.uk/cln
 Convertible bonds are a mixture of three prominent risks: equity, interest rate, and credit. A convertible bond allows the owner to convert a bond that earns fixed coupons to equity and hence is bond with an exchange option.
 
 $$
-\Pi_ {\mathrm {C B}} = \max \{S, \xi \Pi \}
+\Pi_{\mathrm{CB}} = \max \{S, \xi \Pi \}
 $$ where  $\xi$  is the conversion ratio.
 
 

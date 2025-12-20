@@ -189,7 +189,7 @@ Our goal is to estimate the average partial effect of credit quality on the like
 Our outcome of interest is the likelihood of a capital expenditure restriction, which is a discrete  $\{0,1\}$  variable. We want to estimate coefficients from the general specification:
 
 $$
-P r (\text {r e s t r i c t i o n} _ {i t} = 1 \mid X _ {i t} \beta , c _ {i}) = G \left(X _ {i t} \beta , c _ {i}\right) \tag {1}
+P r (\text{re st ri ct io n}_{i t} = 1 \mid X_{i t} \beta , c_{i}) = G \left(X_{i t} \beta , c_{i}\right) \tag {1}
 $$
 
 Obtaining consistent estimates of the parameter vector  $\beta$  in a panel setting is the subject of a large body of econometric research (Arellano and Honore, 2001; Chamberlain, 1984; Fernandez-Val, 2005; Bester and Hansen, 2006). While there has been progress, there is still no generally agreed upon consistent panel estimator that allows for arbitrary correlation between the unobserved effect and the covariates. One possibility is to assume  $G(\cdot)$  is a linear function and to estimate (1) using a fixed effects linear probability specification. However, such an estimation has several undesirable properties, including the fact that predicted values may lie outside the [0, 1] interval and that it imposes the restriction  $X_{it}\beta < c_i < 1 - X_{it}\beta$ .
@@ -197,7 +197,7 @@ Obtaining consistent estimates of the parameter vector  $\beta$  in a panel sett
 In addition to the fixed effects linear probability model, we estimate a probit model in which the function  $G(\cdot)$  in Eq. (1) takes the following form:
 
 $$
-G (z) \equiv \Phi (z) \equiv \int_ {- \infty} ^ {z} \phi (\nu) d \nu \tag {2}
+G (z) \equiv \Phi (z) \equiv \int_{- \infty}^{z} \phi (\nu) d \nu \tag {2}
 $$
 
 where  $\phi (\nu)$  is the standard normal density. The probit model has several desirable properties; most important for us is the ability to easily compute average partial effects from coefficient estimates. However, it has the undesirable property that firm unobserved effects cannot be explicitly estimated given the incidental parameters problem. In other words, unlike the linear case, we cannot allow for arbitrary correlation between the unobserved effect and the covariates.
@@ -205,19 +205,19 @@ where  $\phi (\nu)$  is the standard normal density. The probit model has severa
 To obtain average partial effects, we use both a pooled probit estimation and a random effects probit estimation. The former takes on the following form:
 
 $$
-P r (r e s t r i c t i o n _ {i t} = 1 \mid X _ {i t} \beta) = \Phi (X _ {i t} \beta). \tag {3}
+P r (r e s t r i c t i o n_{i t} = 1 \mid X_{i t} \beta) = \Phi (X_{i t} \beta). \tag {3}
 $$
 
 The random effects probit model makes an explicit assumption about the correlation structure between the unobserved firm effects  $c_{i}$  and covariates  $X_{it}$ ,
 
 $$
-P r (\text {r e s t r i c t i o n} _ {i t} = 1 \mid X _ {i t} \beta , c _ {i}) = \Phi (X _ {i t} \beta + c _ {i}) \tag {4}
+P r (\text{re st ri ct io n}_{i t} = 1 \mid X_{i t} \beta , c_{i}) = \Phi (X_{i t} \beta + c_{i}) \tag {4}
 $$
 
 together with the assumption that
 
 $$
-c _ {i} \left| x _ {i} \right. \sim N o r m a l \left(0, \sigma_ {c} ^ {2}\right) \tag {5}
+c_{i} \left| x_{i} \right. \sim N o r m a l \left(0, \sigma_{c}^{2}\right) \tag {5}
 $$
 
 While assumption (5) is quite strict, the random effects probit model has the nice property of specifying a conditional distribution of the random effect while allowing for straightforward estimation of average partial effects.

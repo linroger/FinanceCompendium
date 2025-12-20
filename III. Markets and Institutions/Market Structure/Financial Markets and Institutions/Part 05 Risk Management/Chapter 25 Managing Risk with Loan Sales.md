@@ -308,13 +308,13 @@ The Incentives and Mechanics of Pass-Through Security Creation. In order to anal
 Suppose that an FI has just originated 1,000 new residential mortgages in its local area. The average size of each mortgage is 100,000. Thus, the total size of the new mortgage pool is:
 
 $$
-1, 0 0 0 \times \$ 1 0 0, 0 0 0 = \$ 1 0 0 \text {m i l l o n}
+1, 0 0 0 \times \$ 1 0 0, 0 0 0 = \$ 1 0 0 \text{mi ll on}
 $$
 
 Each mortgage, because of its small size, receives credit risk insurance protection from the FHA. This insurance costs a small fee to the originating FI. In addition, each of these new mortgages has an initial stated maturity of 30 years and a mortgage rate—often called the mortgage coupon—of 9 percent per year. Suppose that the FI originating these loans relies mostly on liabilities such as demand deposits as well as its own capital or equity to finance its assets. Under current capital adequacy requirements, each  \$1 of new residential mortgage loans must be backed by some capital. As discussed in Chapter 13, regular 1to 4-family residential mortgages are separated into two risk categories ("category 1 residential mortgage exposures" and "category 2 residential mortgage exposures"). Category 1 residential mortgages include traditional, first-lien, prudently underwritten mortgage loans. Category 2 residential mortgages include junior liens and non-traditional mortgage products. The risk weight assigned to the residential mortgage exposure then depends on the mortgage's loan-to-value ratio. For example, if the loans in the\$ 100 million mortgage pool are classified as category 1 mortgages and have a loan-to-value ratio between 60 and 80 percent, they are assigned a risk weight of 50 percent and the risk-based capital requirement is 8 percent (see Chapter 13). Therefore, the FI capital needed to back the 100 million mortgage portfolio is:
 
 $$
-\text {C a p i t a l} = \$ 100 \text {m i l l o n} \times 0.5 \times 0.08 = \$ 4 \text {m i l l o n}
+\text{Ca pi ta l} = \$ 100 \text{mi ll on} \times 0.5 \times 0.08 = \$ 4 \text{mi ll on}
 $$
 
 We assume that the remaining  \$96 million needed to fund the mortgages comes from the issuance of demand deposits. Current regulations require that for every dollar of demand deposits held by the FI, a 10 percent cash reserve has to be held at the Federal Reserve Bank or in the vault (see Chapter 13). Assuming that the FI funds the cash reserves on the asset side of the balance sheet with demand deposits, the bank must issue\$ 106.67 million [\$96 million/(1 - 0.1)] in demand deposits (i.e., \$ 96 million to fund mortgages and \$10.67 million to fund the required cash reserves on these demand deposits). The reserve requirement on demand deposits is essentially an additional tax, over and above the capital requirement, on funding the FI's residential mortgage portfolio. Note that since a 0 percent reserve requirement currently exists on CDs and time deposits, the FI needs to raise fewer funds if it uses CDs to fund its mortgage portfolio.
@@ -326,7 +326,7 @@ TABLE 25-2 FI Balance Sheet (in millions of dollars)
 Given these considerations, the FI's initial postmortgage balance sheet may look like the one in Table 25-2. In addition to the capital and reserve requirement taxes, the FI also must pay an annual insurance premium to the FDIC based on the size of its deposits (see Chapter 13). Assuming a deposit insurance premium of 45 basis points (for a low-quality bank), the fee would be:
 
 $$
-\$ 106.67 \text {m i l l o n} \times 0. 0 0 4 5 = \$ 4 8 0, 0 1 5
+\$ 106.67 \text{mi ll on} \times 0. 0 0 4 5 = \$ 4 8 0, 0 1 5
 $$
 
 Although the FI is earning a 9 percent mortgage coupon on its mortgage portfolio, it is facing three levels of regulatory taxes:
@@ -421,7 +421,7 @@ Class C: Annual fixed coupon 9 percent, class size 50 million.
 Suppose that in month 1 the promised amortized cash flows (PMT) on the mortgages underlying the GNMA pass-through collateral are  \$1 million, but an additional\$ 1.5 million cash flow results from early mortgage prepayments. Thus, in the first month, the cash flows available to pay promised coupons to the three classes of bond holders are:
 
 $$
-P M T + \text {P r e p a m e n t s} = \$ 1 \text {m i l l o n} + \$ 1. 5 \text {m i l l o n} = \$ 2. 5 \text {m i l l o n}
+P M T + \text{Pr ep am en ts} = \$ 1 \text{mi ll on} + \$ 1. 5 \text{mi ll on} = \$ 2. 5 \text{mi ll on}
 $$
 
 This cash flow is available to the trustee, who uses it in the following fashion:
@@ -432,7 +432,7 @@ This cash flow is available to the trustee, who uses it in the following fashion
 Suppose that in month 2 the promised amortized cash flows (PMT) on the mortgages underlying the GNMA pass-through collateral are  \$991,250, but again an additional\$ 1.5 million cash flow results from early mortgage prepayments. Thus, in month 2, the cash flows available to pay promised coupons to the three classes of bond holders are:
 
 $$
-\mathrm {P M T} + \text {P r e p a m e n t s} = \ 9 9 1, 2 5 0 + \$ 1. 5 \text {m i l l i o n} = \$ 2, 4 9 1, 2 5 0
+\mathrm{PM T} + \text{Pr ep am en ts} = \ 9 9 1, 2 5 0 + \$ 1. 5 \text{mi ll io n} = \$ 2, 4 9 1, 2 5 0
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/f1f3e58e-94c9-4056-b1f0-68f9b5365a8f/db5c5e32e079883188e552e5224f8a964b29568782053b13b3032abf282c073e.jpg)
@@ -449,7 +449,7 @@ This continues until the full amount of the principal of Class A bonds is paid o
 Clearly, issuing CMOs is often equivalent to engaging in double securitization. An FI packages mortgages and issues a GNMA pass-through. An investment bank such as Goldman Sachs or another CMO issuer such as FHLMC, a commercial bank, or a savings bank may buy this entire issue or a large part of it. Goldman Sachs, for example, then places these GNMA securities as collateral with a trust and issues three new classes of bonds backed by the GNMA securities as collateral. (These trusts are sometimes called real estate mortgage investment conduits, or REMICS, see below.) As a result, the investors in each CMO class have a claim to the GNMA collateral should the issuer fail. The investment bank or other issuer creates the CMO to make a profit by repackaging the cash flows from the single-class GNMA pass-through into cash flows more attractive to different groups of investors. The sum of the prices at which the three CMO bond classes can be sold normally exceeds that of the original pass-through:
 
 $$
-\sum_ {i = 1} ^ {3} P _ {\mathrm {i C M O}} > P _ {\mathrm {G N M A}}
+\sum_{i = 1}^{3} P_{\mathrm{iC MO}} > P_{\mathrm{GN MA}}
 $$
 
 Gains from repackaging come from the way CMOs restructure prepayment risk to make it more attractive to different classes of investors. Specifically, under a CMO, each class has a guaranteed or fixed coupon. By restructuring the GNMA as a CMO, an FI can offer investors who buy bond Class C a high degree of mortgage prepayment protection compared to a pass-through; those who buy Class B receive an average degree of prepayment protection; those who buy Class A have virtually no prepayment protection. Thus, CMOs redistribute prepayment risk among investors.

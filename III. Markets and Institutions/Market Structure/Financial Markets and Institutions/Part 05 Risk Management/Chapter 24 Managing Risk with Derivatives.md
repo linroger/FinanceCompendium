@@ -126,43 +126,43 @@ To understand the usefulness of forward contracts in hedging an FI's interest ra
 A hedge of a cash asset on a direct dollar-for-dollar basis with a forward or futures contract.
 
 $$
-\frac {\Delta P}{P} = - D \times \frac {\Delta R}{1 + R}
+\frac{\Delta P}{P} = - D \times \frac{\Delta R}{1 + R}
 $$ where
 
 
 $$
 
-\Delta P = \text {C a p i t a l} = ?
+\Delta P = \text{Ca pi ta l} = ?
 
 $$
 
 $$
 
-P = \text {I n i t i a l} = \$ 9 7 0, 0 0 0
+P = \text{In it ia l} = \$ 9 7 0, 0 0 0
 
 $$
 
 $$
 
-D = \text {D u r a t i o n} = 9 \text {y e a r s}
+D = \text{Du ra ti on} = 9 \text{ye ar s}
 
 $$
 
 $$
 
-\Delta R = \text {C h a n g e i n f o r c e a s t y i e l d} = 0. 0 2
+\Delta R = \text{Ch an ge in fo rc ea st yi el d} = 0. 0 2
 
 $$
 
 $$
 
-1 + R = 1 \text {p l u s t h e c u r r e n t y i e l o n 2 0 - y e a r b o n d p o r t f i l o} = 1. 0 8
+1 + R = 1 \text{pl us th ec ur re nt yi el on 20 -y ea rb on dp or tf il o} = 1. 0 8
 
 $$
 
 $$
 
-\begin{array}{l} \frac {\Delta P}{\$ 970 , 000} = - 9 \times \left(\frac {0 . 0 2}{1 . 0 8}\right) \\ \Delta P = - 9 \times \$ 970,000 \times \left(\frac {0 . 0 2}{1 . 0 8}\right) = - \$ 1 6 1,6 6 7 \\ \end{array}
+\begin{array}{l} \frac{\Delta P}{\$ 970 , 000} = - 9 \times \left(\frac{0 . 0 2}{1 . 0 8}\right) \\ \Delta P = - 9 \times \$ 970,000 \times \left(\frac{0 . 0 2}{1 . 0 8}\right) = - \$ 1 6 1,6 6 7 \\ \end{array}
 
 $$
 
@@ -173,7 +173,7 @@ Now consider what happens to the FI portfolio manager if the gloomy forecast of 
 
 $$
 
-\begin{array}{l l l l} \$ 9 7 0, 0 0 0 & - & \$ 8 0 8, 3 3 3 & = \\ (\text {p r i c e p a i d b y} & & (\text {c o s t o f p u r c h a s i n g b o n d s} & \\ \text {f o r w a r d b u e r t o} & & \text {i n t h e s p o t m a r k e t a t} & \\ \text {f o r w a r d s e l e c t e r)} & & t = \text {m o n t 3 f o r d e l i v e r} & \\ & & \text {t o t h e f o r w a r d b u e r}) \end{array}
+\begin{array}{l l l l} \$ 9 7 0, 0 0 0 & - & \$ 8 0 8, 3 3 3 & = \\ (\text{pr ic ep ai db y} & & (\text{co st of pu rc ha si ng bo nd s} & \\ \text{fo rw ar db ue rt o} & & \text{in th es po tm ar ke ta t} & \\ \text{fo rw ar ds el ec te r)} & & t = \text{mo nt 3f or de li ve r} & \\ & & \text{to th ef or wa rd bu er}) \end{array}
 
 $$
 
@@ -361,7 +361,7 @@ As a result of having floating-rate loans and fixed-rate liabilities in its asse
 
 $$
 
-D _ {A} - k D _ {L} <   0
+D_{A} - k D_{L} <   0
 
 $$
 
@@ -371,7 +371,7 @@ The second party of the swap is a savings bank that has invested 100 million in 
 
 $$
 
-D _ {A} - k D _ {L} > 0
+D_{A} - k D_{L} > 0
 
 $$
 
@@ -734,7 +734,7 @@ c. What is the expected change in market value on the bond portfolio?
 d. How far must interest rates move before the payoff on the hedge will exactly offset the cost of placing the hedge?
 e. How far must interest rates move before the gain on the bond portfolio will exactly offset the cost of placing the hedge?
 
-16. Corporate Bank has  \$840 million of assets with a duration of 12 years and liabilities worth\$ 720 million with a duration of seven years. Assets and liabilities are yielding 7.56 percent. The bank is concerned about preserving the value of its equity in the event of an increase in interest rates and is contemplating a macro hedge with interest rate options. The call and put options have a face value of 100,000, are priced at 1\frac{44}{64} \text{ and } \frac{56}{64} \text{ respectively, and have a delta (8) of 0.4 and -0.4, respectively. The price of an underlying T-bond is 104.53125}\left(104\frac{68}{128}\right), its duration is 8.17 years, and its yield to maturity is 7.56 percent. (LG 24-4)\
+16. Corporate Bank has  \$840 million of assets with a duration of 12 years and liabilities worth\$ 720 million with a duration of seven years. Assets and liabilities are yielding 7.56 percent. The bank is concerned about preserving the value of its equity in the event of an increase in interest rates and is contemplating a macro hedge with interest rate options. The call and put options have a face value of 100,000, are priced at 1\frac{44}{64} \text{ and } \frac{56}{64} \text{ respectively,andhavea delta (8)of0.4and -0.4,respectively.ThepriceofanunderlyingT-bondis104.53125}\left(104\frac{68}{128}\right), its duration is 8.17 years, and its yield to maturity is 7.56 percent. (LG 24-4)\
 
 
 a. What type of option should Corporate Bank use for the macrohedge?

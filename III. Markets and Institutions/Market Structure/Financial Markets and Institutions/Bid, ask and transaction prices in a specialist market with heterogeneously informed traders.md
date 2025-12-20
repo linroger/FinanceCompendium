@@ -103,17 +103,17 @@ Investors, upon arriving at the market and hearing the bid and ask, maximize exp
 Putting the utility functions and information structures together, the optimal decision of an investor arriving at time  $t$ , given bid  $B$  and ask  $A$  is given by
 
 $$
-\text {b u y} \quad \text {i f} \quad Z _ {t} > A,
+\text{bu y} \quad \text{if } \quad Z_{t} > A,
 $$
 
 $$
-\text {s e l l} \quad \text {i f} \quad Z _ {t} <   B,
+\text{se ll} \quad \text{if } \quad Z_{t} <   B,
 $$
 
 where  $Z_{t}$  is given by
 
 $$
-Z _ {t} = \rho_ {t} \mathrm {E} [ V | F _ {t} ] = \rho_ {t} (1 - U _ {t}) \mathrm {E} [ V | H _ {t}, J _ {t}, A, B ] + \rho_ {t} U _ {t} \mathrm {E} [ V | H _ {t}, A, B ], \tag {1}
+Z_{t} = \rho_{t} \mathrm{E} [ V | F_{t} ] = \rho_{t} (1 - U_{t}) \mathrm{E} [ V | H_{t}, J_{t}, A, B ] + \rho_{t} U_{t} \mathrm{E} [ V | H_{t}, A, B ], \tag {1}
 $$
 
 where  $U_{t}$  is one if the individual arriving at  $t$  is uninformed and zero otherwise.
@@ -121,13 +121,13 @@ where  $U_{t}$  is one if the individual arriving at  $t$  is uninformed and zer
 Given the above behavior of the market participants, the specialist chooses bid and ask prices. Let the information available to the specialist at time  $t$  be represented by  $S_{t}$ . Assuming anonymity, the specialist cannot know when the bid and ask prices are set whether the next customer will be an insider or an outsider. Given the investors' behavior, the information available to the specialist at time  $t$ ,  $S_{t}$ , and bid and ask prices  $B$  and  $A$ , the specialist's expected profit from an arrival at time  $t$  is
 
 $$
-\mathrm {E} \left[ (A - V) I _ {\{Z _ {t} > A \}} + (V - B) I _ {\{Z _ {t} <   B \}} \mid S _ {t} \right], \tag {2}
+\mathrm{E} \left[ (A - V) I_{\{Z_{t} > A \}} + (V - B) I_{\{Z_{t} <   B \}} \mid S_{t} \right], \tag {2}
 $$
 
 where  $I_{\{Z_t > A\}}$  and  $I_{\{Z_t < B\}}$  are, respectively, the indicator functions of the events  $\{Z_t > A\}$  and  $\{Z_t < B\}$ , i.e.,  $I_{\{Z_t > A\}}$  is one if the event  $\{Z_t > A\}$  occurs; otherwise it is zero. The expression, (2), may be rewritten as
 
 $$
-\begin{array}{l} \left(A - \mathrm {E} \left[ V \mid S _ {t}, Z _ {t} > A \right]\right) \mathrm {P} \left\{Z _ {t} > A \mid S _ {t} \right\} \\ - \left(B - \mathrm {E} \left[ V \mid S _ {t}, Z _ {t} <   B \right]\right) \mathrm {P} \left\{Z _ {t} <   B \mid S _ {t} \right\}, \tag {3} \\ \end{array}
+\begin{array}{l} \left(A - \mathrm{E} \left[ V \mid S_{t}, Z_{t} > A \right]\right) \mathrm{P} \left\{Z_{t} > A \mid S_{t} \right\} \\ - \left(B - \mathrm{E} \left[ V \mid S_{t}, Z_{t} <   B \right]\right) \mathrm{P} \left\{Z_{t} <   B \mid S_{t} \right\}, \tag {3} \\ \end{array}
 $$
 
 where  $\operatorname{E}[\cdot|\cdot]$  is the (conditional) expectation operator derived from the probability measure  $\mathbf{P}$ .
@@ -135,7 +135,7 @@ where  $\operatorname{E}[\cdot|\cdot]$  is the (conditional) expectation operato
 The above holds as long as there are zero costs associated with all short positions in cash or stock. Our central assumption about the specialist is that he earns zero expected profits on each purchase and each sale, and he faces no transaction costs. To illustrate how competition might lead to such a description, suppose there are two specialists in this one stock. Both have the same information and face the same population. Suppose the first specialist sets an ask price  $A^1$  so that  $A^1 > \operatorname{E}[V|S_t, Z_t > A^1]$ . The second specialist will rationally undercut the first by choosing an ask  $A^2 < A^1$  and  $A^2 \geq \operatorname{E}[V|S_t, Z_t > A^2]$ . The zero expected profit equilibrium at time  $t$  (if it exists) consists of a pair of functions  $A_t$  and  $B_t$  satisfying
 
 $$
-\begin{array}{l} A _ {t} (\omega) = \operatorname {E} \left[ V | S _ {t}, Z _ {t} > A _ {t} (\omega) \right] (\omega), \\ (4) \\ B _ {t} (\omega) = \operatorname {E} \left[ V | S _ {t}, Z _ {t} <   B _ {t} (\omega) \right] (\omega), \\ \end{array}
+\begin{array}{l} A_{t} (\omega) = \operatorname{E} \left[ V | S_{t}, Z_{t} > A_{t} (\omega) \right] (\omega), \\ (4) \\ B_{t} (\omega) = \operatorname{E} \left[ V | S_{t}, Z_{t} <   B_{t} (\omega) \right] (\omega), \\ \end{array}
 $$
 
 where  $Z_{t} = \rho_{t}\mathrm{E}[V|F_{t}]$  and  $A_{t}$  and  $B_{t}$  are measurable with respect to  $F_{t}$  (i.e., the customer knows the bid and ask prices).
@@ -145,7 +145,7 @@ General existence of such functions would be difficult to show, since it involve
 the publicly available information  $H_{t}$ , then  $A_{t}$  and  $B_{t}$  are given by
 
 $$
-\begin{array}{l} A _ {t} = \inf  \left\{a: a \geq \mathrm {E} \left[ V \mid H _ {t}, Z _ {t} > a \right] \right\}, \tag {4'} \\ B _ {t} = \sup  \left\{b: b <   \mathrm {E} \left[ V \mid H _ {t}, Z _ {t} <   b \right] \right\}. \\ \end{array}
+\begin{array}{l} A_{t} = \inf  \left\{a: a \geq \mathrm{E} \left[ V \mid H_{t}, Z_{t} > a \right] \right\}, \tag {4'} \\ B_{t} = \sup  \left\{b: b <   \mathrm{E} \left[ V \mid H_{t}, Z_{t} <   b \right] \right\}. \\ \end{array}
 $$
 
 Our notion of equilibrium requires that the specialist not regret, ex post, any trade that he is obliged to make. For example, suppose that an investor arrives at time  $t$  and buys at the ask. After the trade, the information available to the specialist is  $S_{t}$  and the event that  $Z_{t}$  exceeded the ask. The specialist will update his expectation of  $V$  given this new bit of information, the probability that the trader was informed (given the past history) and the likelihood of a purchase given that he is informed. As long as the amount the specialist received was greater than or equal to this revised expectation, he does not regret the trade. Thus, the ask defined above is a reservation price. We assume that (unmodelled) competition drives the quoted ask to this reservation level.
@@ -164,33 +164,33 @@ Proposition 1. Suppose equilibrium bid and ask prices exist satisfying the zero
 expected profit conditions:
 
 $$
-A _ {t} = \mathrm {E} \left[ V \mid S _ {t}, Z _ {t} > A _ {t} \right],
+A_{t} = \mathrm{E} \left[ V \mid S_{t}, Z_{t} > A_{t} \right],
 $$
 
 $$
-B _ {t} = \operatorname {E} \left[ V \mid S _ {t}, Z _ {t} <   B _ {t} \right].
+B_{t} = \operatorname{E} \left[ V \mid S_{t}, Z_{t} <   B_{t} \right].
 $$
 
 Then the ask price is greater and the bid price is less than the expectation of  $V$ :  $A_{t} \geq \mathbb{E}_{t}[V] \geq B_{t}$ . The inequalities are strict if adverse selection is possible, i.e., if
 
 $$
-\mathrm {P} \left\{Z _ {t} > \mathrm {E} _ {t} [ V ], \mathrm {E} _ {t} [ V | F _ {t} ] > \mathrm {E} _ {t} [ V ] \right\} > 0,
+\mathrm{P} \left\{Z_{t} > \mathrm{E}_{t} [ V ], \mathrm{E}_{t} [ V | F_{t} ] > \mathrm{E}_{t} [ V ] \right\} > 0,
 $$
 
 $$
-\mathrm {P} \left\{Z _ {t} <   \mathrm {E} _ {t} [ V ], \mathrm {E} _ {t} [ V | F _ {t} ] <   \mathrm {E} _ {t} [ V ] \right\} > 0.
+\mathrm{P} \left\{Z_{t} <   \mathrm{E}_{t} [ V ], \mathrm{E}_{t} [ V | F_{t} ] <   \mathrm{E}_{t} [ V ] \right\} > 0.
 $$
 
 Proof. We prove only the first inequality, since the proof of the second is similar. Also, for brevity, we omit the time subscripts. Let  $C$  be the event that the customer makes a purchase, i.e., the event that  $Z$  is greater than  $A$ ,
 
 $$
-C = \left\{Z > A \right\} = \left\{\operatorname {E} \left[ V | F \right] > A / \rho \right\}.
+C = \left\{Z > A \right\} = \left\{\operatorname{E} \left[ V | F \right] > A / \rho \right\}.
 $$
 
 Then, by definition,  $A = \operatorname{E}[V|S,C]$  so
 
 $$
-\begin{array}{l} A = \operatorname {E} [ A | C ] = \operatorname {E} [ \operatorname {E} [ V | S, C ] | C ] = \operatorname {E} [ V | C ] = \operatorname {E} [ \operatorname {E} [ V | C, \rho ] | C ] \\ = \operatorname {E} \left[ \operatorname {E} \left[ \operatorname {E} [ V | F, C, \rho ] | C, \rho \right] | C \right] = \operatorname {E} \left[ \operatorname {E} \left[ \operatorname {E} [ V | F, \rho ] | C, \rho \right] | C \right] \\ = \mathrm {E} [ \mathrm {E} [ \mathrm {E} [ V | F ] | C, \rho ] | C ] \geq \mathrm {E} [ \mathrm {E} [ \mathrm {E} [ V | F ] | \rho ] | C ] \\ = \operatorname {E} [ \operatorname {E} [ V ] | C ] = \operatorname {E} [ V ]. \\ \end{array}
+\begin{array}{l} A = \operatorname{E} [ A | C ] = \operatorname{E} [ \operatorname{E} [ V | S, C ] | C ] = \operatorname{E} [ V | C ] = \operatorname{E} [ \operatorname{E} [ V | C, \rho ] | C ] \\ = \operatorname{E} \left[ \operatorname{E} \left[ \operatorname{E} [ V | F, C, \rho ] | C, \rho \right] | C \right] = \operatorname{E} \left[ \operatorname{E} \left[ \operatorname{E} [ V | F, \rho ] | C, \rho \right] | C \right] \\ = \mathrm{E} [ \mathrm{E} [ \mathrm{E} [ V | F ] | C, \rho ] | C ] \geq \mathrm{E} [ \mathrm{E} [ \mathrm{E} [ V | F ] | \rho ] | C ] \\ = \operatorname{E} [ \operatorname{E} [ V ] | C ] = \operatorname{E} [ V ]. \\ \end{array}
 $$
 
 If the additional condition stated in the proposition holds, then the inequality is strict. Q.E.D.
@@ -204,7 +204,7 @@ Let  $T_{k}$  be the times at which trades occur. The above discussion shows tha
 $S_{k}$  and  $H_{k}$  by  $S_{k} = S_{T_{k}}^{+}$  and  $H_{k} = H_{T_{k}}^{+}$ . (Also, any process subscripted with a  $k$  will be understood to be the value of the process at time  $T_{k}$ .) If the  $k$ th trade takes place at the ask at time  $t$ , i.e., there is an arrival at time  $t$  and  $Z_{t}$  exceeds  $A_{t}$ , then the transaction price will be the ask price, which in this event is equal to the revised expectation of  $V$  given this event. Similarly, if there is a trade at the bid, the transaction price is the bid price which in this case is also the revised expectation of  $V$  given this (different) event. Mathematically, the transaction price is given by  $A_{k}I_{\{Z_{k} > A_{k}\}} + B_{k}I_{\{Z_{k} < B_{k}\}}$ . This is, by definition, equal to
 
 $$
-\mathrm {E} \left[ V \mid S _ {T _ {k}}, Z _ {T _ {k}} > A _ {T _ {k}} \right] I _ {\left\{Z _ {T _ {k}} > A _ {T _ {k}} \right\}} + \mathrm {E} \left[ V \mid S _ {T k}, Z _ {T k} <   B _ {T k} \right] I _ {\left\{Z _ {T _ {k}} <   B _ {T _ {k}} \right\}}. \tag {5}
+\mathrm{E} \left[ V \mid S_{T_{k}}, Z_{T_{k}} > A_{T_{k}} \right] I_{\left\{Z_{T_{k}} > A_{T_{k}} \right\}} + \mathrm{E} \left[ V \mid S_{T k}, Z_{T k} <   B_{T k} \right] I_{\left\{Z_{T_{k}} <   B_{T_{k}} \right\}}. \tag {5}
 $$
 
 But (5) is just  $\operatorname{E}[V|S_{T_k^+}] = \operatorname{E}[V|S_k]$ . This observation allows us to write the  $k$ th transaction price as  $p_k = \operatorname{E}[V|S_k]$ , as long as  $k$  trades take place (i.e., as long as  $T_k$  is less than  $T_0$ ). Thus, if  $N$  trades actually takes place, then  $p_1, \ldots, p_N$  are the prices at which trades occur. Notice, however, that  $p_{N+1}$  is also well defined, and represents some intermediate value between the bid and ask prices at the end of the trading period. If one thinks in terms of computing returns based on daily data, this use of an imaginary transactions price is not far from the way CRSP calculations are done for days in which there is no trade. The specification of  $H_t^+$  from the preceding paragraph implies that  $p_k$  is measurable with respect to  $H_k$  which allows us to prove the following proposition:
@@ -214,7 +214,7 @@ Proposition 2. The sequence of transaction prices  $\{p_k\}$  forms a martingale
 Proof. From (5),  $p_k = \mathbb{E}[V|S_k]$ . Thus,
 
 $$
-\mathrm {E} \left[ p _ {k + 1} \mid S _ {k} \right] = \mathrm {E} \left[ \mathrm {E} \left[ V \mid S _ {k + 1} \right] \mid S _ {k} \right] = \mathrm {E} \left[ V \mid S _ {k} \right] = p _ {k}.
+\mathrm{E} \left[ p_{k + 1} \mid S_{k} \right] = \mathrm{E} \left[ \mathrm{E} \left[ V \mid S_{k + 1} \right] \mid S_{k} \right] = \mathrm{E} \left[ V \mid S_{k} \right] = p_{k}.
 $$
 
 Since  $H_{k}$  is contained in  $S_{k}$ , and since  $p_{k}$  is measurable with respect to  $H_{k}$ , the sequence of transaction prices  $\{p_k\}$  forms a martingale relative to  $\{H_k\}$  as well. Q.E.D.
@@ -228,7 +228,7 @@ Another implication of Proposition 2 is that, in the environment that we have de
 Further intuition into the nature of this result can be gained by considering an environment in which there is both asymmetric information and specialist transaction costs. Specifically, suppose every trade costs the specialist  $c$  dollars. The zero profit equilibrium bid and ask then satisfy
 
 $$
-\begin{array}{l} A = \mathrm {E} \left[ V \mid S _ {t}, Z _ {t} > A \right] + c, \\ B = \operatorname {E} \left[ V \mid S _ {t}, Z _ {t} <   B \right] - c. \\ \end{array}
+\begin{array}{l} A = \mathrm{E} \left[ V \mid S_{t}, Z_{t} > A \right] + c, \\ B = \operatorname{E} \left[ V \mid S_{t}, Z_{t} <   B \right] - c. \\ \end{array}
 $$
 
 Following the development above [in (5)], transaction prices are then given by  $p_k = \operatorname{E}[V|S_k] + Q_k c$  where  $Q_k$  is one if the  $k$ th transaction involved the specialist selling at the ask, and is minus one if the specialist purchased at the bid. Under the assumption that  $\operatorname{E}[Q_{k+1}|H_t] = \operatorname{E}[Q_k|H_t]$  for all  $t < T_k$  where  $T_k$  is the time of the  $k$ th transaction, it is easy to show that transaction price changes will exhibit negative serial correlation.
@@ -236,7 +236,7 @@ Following the development above [in (5)], transaction prices are then given by  
 To indicate how the negative serial correlation depends upon the relative magnitudes of the spread due to adverse selection and the spread due to the costs of transacting, suppose that the probabilities of a buy and a sell are equal so that  $\operatorname{E}[Q_k|H_t] = 0$  for  $t < T_{k}$ . Let  $\Psi$  be the part of the spread due to adverse selection,
 
 $$
-\Psi = \mathrm {E} [ V | S _ {t}, Z _ {t} > A ] - \mathrm {E} [ V | S _ {t}, Z _ {t} <   B ];
+\Psi = \mathrm{E} [ V | S_{t}, Z_{t} > A ] - \mathrm{E} [ V | S_{t}, Z_{t} <   B ];
 $$
 
 hence the total spread is  $\Psi + 2c$ . Some straightforward calculations show that the covariance of adjacent price changes is given by:  $-\frac{1}{2} c \Psi - c^2$ . The calculation is similar to the one in Roll (1984). We obtain a different result because Roll implicitly assumes that no part of the spread is due to adverse selection. If, as here, the spread is due in part to adverse selection, then a specialist sell, for example, leads to an upward revision of expectations and hence future prices are not independent of the current transaction as Roll assumes.
@@ -244,13 +244,13 @@ hence the total spread is  $\Psi + 2c$ . Some straightforward calculations show 
 The variance of the price change is given by the following:  $\theta^2 + (\Psi / 2)^2 + c\Psi + 2c^2$ , where  $\theta^2$  is the variance of public information arriving exogenously between trades. Let  $\beta$  be the proportion of the spread due to transaction costs; i.e.,  $\beta = 2c / (\Psi + 2c)$ . Then the correlation coefficient,  $R$ , is given by the following:
 
 $$
-R = - \beta / \left(\delta + \beta^ {2}\right), \tag {6}
+R = - \beta / \left(\delta + \beta^{2}\right), \tag {6}
 $$
 
 where  $\delta = 1 + (2\theta / (\Psi + 2c))^2$ . The correlation coefficient thus moves toward zero if the proportion of the spread due to informational asymmetries increases. We can invert (6) to get the proportional of the spread due to trading costs as a function of the correlation coefficient and  $\delta$  (a measure of how much public information arrives relative to the spread),
 
 $$
-\beta = \left(- 1 + \left(1 - 4 \delta R ^ {2}\right) ^ {1 / 2}\right) / 2 R. \tag {7}
+\beta = \left(- 1 + \left(1 - 4 \delta R^{2}\right)^{1 / 2}\right) / 2 R. \tag {7}
 $$
 
 Unfortunately, (7) alone does not define a useful statistic since in general  $\delta$  will not be known. It does suggest the possibility that transaction data might be used to find a measure of informational asymmetry.
@@ -264,31 +264,31 @@ We now turn our attention to the properties of the bid and ask prices when tradi
 Proposition 3. Define
 
 $$
-1 / \gamma_ {k} = \mathrm {P} \left\{Z _ {k} > A _ {k} | S _ {T _ {k}} \right\} \mathrm {P} \left\{Z _ {k} <   B _ {k} | S _ {T _ {k}} \right\},
+1 / \gamma_{k} = \mathrm{P} \left\{Z_{k} > A_{k} | S_{T_{k}} \right\} \mathrm{P} \left\{Z_{k} <   B_{k} | S_{T_{k}} \right\},
 $$
 
 and let  $\gamma^{*}$  be the mean value of  $\gamma_{j}$  over the  $N + 1$  observations; i.e.,  $\gamma^{*} = \sum^{N + 1}\gamma_{k} / (N + 1)$  (if  $N + 1$  trades do not occur prior to  $T_{0}$ , put  $\gamma_{N + 1} = 4$ ). Further, define  $\Psi_{N}$  to be the average spread over  $N$  trades, i.e.,
 
 $$
-\Psi_ {N} = \sum^ {N} \left(A _ {k} - B _ {k}\right) / N.
+\Psi_{N} = \sum^{N} \left(A_{k} - B_{k}\right) / N.
 $$
 
 Then,
 
 $$
-\operatorname {E} \left[ \left(N / (N + 1)\right) \Psi_ {N} ^ {2} N / \gamma^ {*} \right] \leq \operatorname {v a r} (V).
+\operatorname{E} \left[ \left(N / (N + 1)\right) \Psi_{N}^{2} N / \gamma^{*} \right] \leq \operatorname{va r} (V).
 $$
 
 In particular, if there is a number  $\gamma$  such that  $\mathrm{P}\{\gamma^{*} < \gamma\} = 1$ , then
 
 $$
-\operatorname {E} \left[ \left(N / (N + 1)\right) N \Psi_ {N} ^ {2} \right] \leq \operatorname {v a r} (V) \gamma ,
+\operatorname{E} \left[ \left(N / (N + 1)\right) N \Psi_{N}^{2} \right] \leq \operatorname{va r} (V) \gamma ,
 $$
 
 and hence, if  $N$  is almost surely positive, the expected value of the volume times average spread squared is bounded by a number that is independent of the pattern of trade,
 
 $$
-\operatorname {E} \left[ N \Psi_ {N} ^ {2} \right] \leq 2 \operatorname {v a r} (V) \gamma .
+\operatorname{E} \left[ N \Psi_{N}^{2} \right] \leq 2 \operatorname{va r} (V) \gamma .
 $$
 
 Proof. Since  $p_{N+1}$  is a conditional expectation of  $V$ , the variance of  $V$
@@ -296,7 +296,7 @@ Proof. Since  $p_{N+1}$  is a conditional expectation of  $V$ , the variance of 
 exceeds the variance of  $p_{N + 1}$ . Taking  $p_0$  to be  $\operatorname{E}[V]$ , we have
 
 $$
-\begin{array}{l} \operatorname {v a r} \left(p _ {N + 1}\right) = \operatorname {v a r} \left(\sum^ {N + 1} \left(p _ {k} - p _ {k - 1}\right)\right) = \mathrm {E} \left[ \left(\sum^ {N + 1} \left(p _ {k} - p _ {k - 1}\right)\right) ^ {2} \right] \\ = \operatorname {E} \left[ \sum^ {N + 1} \left(p _ {k} - p _ {k - 1}\right) ^ {2} \right] \\ + 2 \mathrm {E} \left[ \sum_ {k} ^ {N + 1} \sum_ {i} ^ {k - 1} \left(p _ {k} - p _ {k - 1}\right) \left(p _ {k} - p _ {i - 1}\right) \right] \\ = \mathrm {E} \left[ \sum^ {\infty} \left(p _ {k} - p _ {k - 1}\right) ^ {2} I _ {\{k - 1 \leq N \}} \right] \\ + 2 \mathrm {E} \left[ \sum^ {\infty} \sum^ {k - 1} \left(p _ {k} - p _ {k - 1}\right) \left(p _ {i} - p _ {i - 1}\right) I _ {\{k - 1 \leq N \}} \right]. \\ \end{array}
+\begin{array}{l} \operatorname{va r} \left(p_{N + 1}\right) = \operatorname{va r} \left(\sum^{N + 1} \left(p_{k} - p_{k - 1}\right)\right) = \mathrm{E} \left[ \left(\sum^{N + 1} \left(p_{k} - p_{k - 1}\right)\right)^{2} \right] \\ = \operatorname{E} \left[ \sum^{N + 1} \left(p_{k} - p_{k - 1}\right)^{2} \right] \\ + 2 \mathrm{E} \left[ \sum_{k}^{N + 1} \sum_{i}^{k - 1} \left(p_{k} - p_{k - 1}\right) \left(p_{k} - p_{i - 1}\right) \right] \\ = \mathrm{E} \left[ \sum^{\infty} \left(p_{k} - p_{k - 1}\right)^{2} I_{\{k - 1 \leq N \}} \right] \\ + 2 \mathrm{E} \left[ \sum^{\infty} \sum^{k - 1} \left(p_{k} - p_{k - 1}\right) \left(p_{i} - p_{i - 1}\right) I_{\{k - 1 \leq N \}} \right]. \\ \end{array}
 $$
 
 Since the transaction price sequence forms a square integrable martingale, we can move the expectation inside the summation in each case. In the second term, condition first on  $H_{k-1}$ . Since the increments of a martingale are uncorrelated and have mean zero, the second expectation is zero.
@@ -304,31 +304,31 @@ Since the transaction price sequence forms a square integrable martingale, we ca
 Define  $e_k$  by
 
 $$
-e _ {k} = \operatorname {E} \left[ \left(p _ {k} - p _ {k - 1}\right) ^ {2} \mid H _ {k - 1}, A _ {k}, B _ {k}, \gamma_ {k} \right].
+e_{k} = \operatorname{E} \left[ \left(p_{k} - p_{k - 1}\right)^{2} \mid H_{k - 1}, A_{k}, B_{k}, \gamma_{k} \right].
 $$
 
 Thus, we have
 
 $$
-\operatorname {v a r} (V) \geq \mathrm {E} \left[ \sum_ {k = 1} ^ {N + 1} e _ {k} \right].
+\operatorname{va r} (V) \geq \mathrm{E} \left[ \sum_{k = 1}^{N + 1} e_{k} \right].
 $$
 
 Some algebraic manipulation shows that  $e_k \geq (A_k - B_k)^2 / \gamma_k$  (see footnote 6), and hence for any  $N$ ,
 
 $$
-\sum^ {N + 1} \left(e _ {k} \gamma_ {k}\right) ^ {1 / 2} \geq \sum^ {N + 1} \left(A _ {k} - B _ {k}\right) ^ {2}.
+\sum^{N + 1} \left(e_{k} \gamma_{k}\right)^{1 / 2} \geq \sum^{N + 1} \left(A_{k} - B_{k}\right)^{2}.
 $$
 
 By the Cauchy-Schwarz inequality,  $\sum^{N + 1}e_k\geq (\sum^{N + 1}A_k - B_k)^2 /\gamma^* (N + 1)$ , and thus,
 
 $$
-\operatorname {v a r} (V) \geq \mathrm {E} \left[ \left(\sum_ {k = 1} ^ {N} A _ {k} - B _ {k}\right) ^ {2} / (N + 1) \gamma^ {*} \right] = \mathrm {E} \left[ \left(N / (N + 1)\right) N \Psi_ {N} ^ {2} / \gamma^ {*} \right].
+\operatorname{va r} (V) \geq \mathrm{E} \left[ \left(\sum_{k = 1}^{N} A_{k} - B_{k}\right)^{2} / (N + 1) \gamma^{*} \right] = \mathrm{E} \left[ \left(N / (N + 1)\right) N \Psi_{N}^{2} / \gamma^{*} \right].
 $$
 
 If  $\gamma^{*}\leq \gamma$  a.s., then
 
 $$
-\operatorname {E} \left[ \left(N / (N + 1)\right) N \Psi_ {N} ^ {2} \right] \leq \operatorname {v a r} (V) \gamma .
+\operatorname{E} \left[ \left(N / (N + 1)\right) N \Psi_{N}^{2} \right] \leq \operatorname{va r} (V) \gamma .
 $$
 
 If  $N$  is positive a.s., then  $N / (N + 1)$  is greater than or equal to  $\frac{1}{2}$ , so  $\operatorname{E}[N \Psi_N^2] \leq 2 \operatorname{var}(V) \gamma$ . Q.E.D.
@@ -344,25 +344,25 @@ Proposition 4. If trade is reasonably balanced in the sense of Proposition 3, i.
 Proof. We use the notation and results of Proposition 1 and two general facts from probability theory cited earlier. The suppressed time subscript is now  $t = T_{k}$ .
 
 $$
-\begin{array}{l} A = \operatorname {E} [ V | C ] = \operatorname {E} \left[ \operatorname {E} [ V | F, \rho ] \mid C \right] = \operatorname {E} \left[ \operatorname {E} [ V | F ] \mid \operatorname {E} [ V | F ] > A / \rho \right] \\ > \operatorname {E} [ \operatorname {E} [ V | F ] | \operatorname {E} [ V | F ] > \operatorname {E} [ V ] / \rho ]. \\ \end{array}
+\begin{array}{l} A = \operatorname{E} [ V | C ] = \operatorname{E} \left[ \operatorname{E} [ V | F, \rho ] \mid C \right] = \operatorname{E} \left[ \operatorname{E} [ V | F ] \mid \operatorname{E} [ V | F ] > A / \rho \right] \\ > \operatorname{E} [ \operatorname{E} [ V | F ] | \operatorname{E} [ V | F ] > \operatorname{E} [ V ] / \rho ]. \\ \end{array}
 $$
 
 Define  $D$  by
 
 $$
-D = \operatorname {E} [ V | F ] - \operatorname {E} [ V ].
+D = \operatorname{E} [ V | F ] - \operatorname{E} [ V ].
 $$
 
 Then,
 
 $$
-A - \operatorname {E} [ V ] \geq \operatorname {E} [ D | D > \operatorname {E} [ V ] (1 - \rho) / \rho ].
+A - \operatorname{E} [ V ] \geq \operatorname{E} [ D | D > \operatorname{E} [ V ] (1 - \rho) / \rho ].
 $$
 
 By the Chebyshev inequality,
 
 $$
-\begin{array}{l} \operatorname {E} \left[ D \mid D > \operatorname {E} [ V ] (1 - \rho) / \rho \right] \geq \varepsilon \mathrm {P} \left\{D \geq \varepsilon \mid D > \operatorname {E} [ V ] (1 - \rho) / \rho \right\} \\ \geq \mathrm {P} \{D \geq \varepsilon \} \varepsilon . \\ \end{array}
+\begin{array}{l} \operatorname{E} \left[ D \mid D > \operatorname{E} [ V ] (1 - \rho) / \rho \right] \geq \varepsilon \mathrm{P} \left\{D \geq \varepsilon \mid D > \operatorname{E} [ V ] (1 - \rho) / \rho \right\} \\ \geq \mathrm{P} \{D \geq \varepsilon \} \varepsilon . \\ \end{array}
 $$
 
 By Propositions 1 and 3,  $A_{t} - \mathbf{E}_{t}[V]$  converges almost surely to zero, so  $\mathbb{P}\{D_t\geq \varepsilon \}$  must also converge to zero for all positive  $\varepsilon$ . A similar argument using bid prices shows that  $\mathbb{P}\{D_t\leq -\varepsilon \}$  goes to zero. Thus,  $\mathbf{E}_k[V|F_k] - \mathbf{E}_k[V]$  converges in probability to zero. Also,  $\mathbf{E}_k[V|S_k] = \mathbf{E}_k[V]$  (both are equal to  $A_{k}$  if the customer buys and  $B_{k}$  if he sells). Q.E.D.
@@ -372,13 +372,13 @@ As the consensus described in Proposition 4 emerges, there comes to be a balance
 Corollary 1. The specialist's inventory of stocks tends to a driftless stochastic process; i.e.,
 
 $$
-\lim  \mathrm {P} \left\{Z _ {k} <   B _ {k} \mid H _ {k} \right\} - \mathrm {P} \left\{Z _ {k} > A _ {k} \mid H _ {k} \right\} = 0.
+\lim  \mathrm{P} \left\{Z_{k} <   B_{k} \mid H_{k} \right\} - \mathrm{P} \left\{Z_{k} > A_{k} \mid H_{k} \right\} = 0.
 $$
 
 Proof. Using the results of the Proposition 4, let  $\hat{p}$  be the limit of  $\operatorname{E}[V|S_k]$  and let  $\hat{Z} = \rho \hat{p}$ . Then,
 
 $$
-\begin{array}{l} \lim  \left(\mathrm {P} \left\{Z _ {k} <   B _ {k} \mid H _ {k} \right\} - \mathrm {P} \left\{Z _ {k} > A _ {k} \mid H _ {k} \right\}\right) = \mathrm {P} \left\{\hat {Z} <   \hat {p} | \hat {S} \right\} - \mathrm {P} \left\{\hat {Z} > \hat {p} | \hat {S} \right\} \\ = \mathrm {P} \left\{\rho <   1 \right\} - \mathrm {P} \left\{\rho > 1 \right\} = 0, \\ \end{array}
+\begin{array}{l} \lim  \left(\mathrm{P} \left\{Z_{k} <   B_{k} \mid H_{k} \right\} - \mathrm{P} \left\{Z_{k} > A_{k} \mid H_{k} \right\}\right) = \mathrm{P} \left\{\hat {Z} <   \hat {p} | \hat {S} \right\} - \mathrm{P} \left\{\hat {Z} > \hat {p} | \hat {S} \right\} \\ = \mathrm{P} \left\{\rho <   1 \right\} - \mathrm{P} \left\{\rho > 1 \right\} = 0, \\ \end{array}
 $$
 
 where  $\hat{S}$  is the specialist's limiting information. Q.E.D.
@@ -398,31 +398,31 @@ Proposition 5. For any given time  $t$ , the ask price  $A_{t}$  increases and t
 Proof. If there is an arrival at time  $t$ , we can express the reservation price  $Z_{t}$  by
 
 $$
-Z _ {t} = \left(1 - U _ {t}\right) \mathrm {E} \left[ V \mid H _ {t}, J _ {t} \right] + U _ {t} \rho_ {t} \mathrm {E} \left[ V \mid H _ {t} \right],
+Z_{t} = \left(1 - U_{t}\right) \mathrm{E} \left[ V \mid H_{t}, J_{t} \right] + U_{t} \rho_{t} \mathrm{E} \left[ V \mid H_{t} \right],
 $$
 
 where [as in (1) above]  $U_{t}$  is one if an arrival at  $t$  is uninformed and zero otherwise, and  $J_{t}$  is the information of an insider if an insider arrives at  $t$  (for the succeeding discussion, time subscripts have been dropped to simplify the notation). Define  $M$  by  $M = \operatorname{E}[V|J]$  where  $J$  is the information set of an arriving insider, and let  $G$  be the distribution function of the liquidity parameter (and let  $g$  be its density). Denote demand and supply elasticities of the uninformed by  $e_{\mathrm{D}}$  and  $e_{\mathrm{S}}$ . Then  $e_{\mathrm{D}}$  and  $e_{\mathrm{S}}$  are given by
 
 $$
-\begin{array}{l} e _ {\mathrm {D}} = A g (A / \mathrm {E} [ V ]) / \mathrm {E} [ V ] (1 - G (A / \mathrm {E} [ V ])), \\ e _ {S} = B g \left(B / E [ V ]\right) / E [ V ] G \left(B / E [ V ]\right). \\ \end{array}
+\begin{array}{l} e_{\mathrm{D}} = A g (A / \mathrm{E} [ V ]) / \mathrm{E} [ V ] (1 - G (A / \mathrm{E} [ V ])), \\ e_{S} = B g \left(B / E [ V ]\right) / E [ V ] G \left(B / E [ V ]\right). \\ \end{array}
 $$
 
 Recalling [from (4a)] that  $A$  and  $B$ , the ask and bid, are the smallest  $a$  and largest  $b$  satisfying
 
 $$
-a \geq \mathrm {E} [ V | Z > a ], \quad b \leq \mathrm {E} [ V | Z <   b ],
+a \geq \mathrm{E} [ V | Z > a ], \quad b \leq \mathrm{E} [ V | Z <   b ],
 $$
 
 then, for ask price  $A$  and bid price  $B$ ,
 
 $$
-\begin{array}{l} A P \{Z > A \} - E \left[ V I _ {\{Z > A \}} \right] \geq 0, \\ \mathrm {E} \left[ V I _ {\{Z <   B \}} \right] - B \mathrm {P} \{Z <   B \} \geq 0. \\ \end{array}
+\begin{array}{l} A P \{Z > A \} - E \left[ V I_{\{Z > A \}} \right] \geq 0, \\ \mathrm{E} \left[ V I_{\{Z <   B \}} \right] - B \mathrm{P} \{Z <   B \} \geq 0. \\ \end{array}
 $$
 
 The left sides can be expanded to
 
 $$
-\begin{array}{l} \mathrm {E} \left[ (1 - U) (A - M) I _ {\{M > A \}} + U A g (A / \mathrm {E} [ V ]) (A / \mathrm {E} [ V ] - 1) / e _ {\mathrm {D}} \right] \\ = \operatorname {E} \left[ \phi (A, U, M, e _ {\mathrm {D}}) \right], \\ \mathrm {E} \left[ (1 - U) (M - B) I _ {\{M <   B \}} + U B g (B / \mathrm {E} [ V ]) (1 - B / \mathrm {E} [ V ]) / e _ {\mathrm {S}} \right] \\ = \mathrm {E} \left[ \psi (B, U, M, e _ {\mathrm {S}}) \right]. \\ \end{array}
+\begin{array}{l} \mathrm{E} \left[ (1 - U) (A - M) I_{\{M > A \}} + U A g (A / \mathrm{E} [ V ]) (A / \mathrm{E} [ V ] - 1) / e_{\mathrm{D}} \right] \\ = \operatorname{E} \left[ \phi (A, U, M, e_{\mathrm{D}}) \right], \\ \mathrm{E} \left[ (1 - U) (M - B) I_{\{M <   B \}} + U B g (B / \mathrm{E} [ V ]) (1 - B / \mathrm{E} [ V ]) / e_{\mathrm{S}} \right] \\ = \mathrm{E} \left[ \psi (B, U, M, e_{\mathrm{S}}) \right]. \\ \end{array}
 $$
 
 The functions  $\phi(\cdot)$  and  $\psi(\cdot)$  are concave in  $M$  and increasing in  $U$ . Also,  $\phi(\cdot)$  is decreasing in  $e_{\mathrm{D}}$  and  $\psi(\cdot)$  is decreasing in  $e_{\mathrm{S}}$ .
@@ -432,19 +432,19 @@ For (i), let  $A'$  and  $B'$  be the ask and bid prices associated with insider
 If  $J'$  is finer than  $J$ , then  $M = \operatorname{E}[M'|J]$ . This and Jensen's inequality allow us to conclude:
 
 $$
-\operatorname {E} \big [ \phi \big (A ^ {\prime}, U, M, e _ {\mathrm {D}} \big) \big ] \geq \operatorname {E} \big [ \phi \big (A ^ {\prime}, U, M ^ {\prime}, e _ {\mathrm {D}} \big) \big ].
+\operatorname{E} \big [ \phi \big (A^{\prime}, U, M, e_{\mathrm{D}} \big) \big ] \geq \operatorname{E} \big [ \phi \big (A^{\prime}, U, M^{\prime}, e_{\mathrm{D}} \big) \big ].
 $$
 
 Since  $\phi$  is increasing in  $U$ , and  $U'' \leq U$ ,
 
 $$
-\operatorname {E} \big [ \phi (A ^ {\prime \prime}, U, M, e _ {\mathrm {D}}) \big ] \geq \operatorname {E} \big [ \phi (A ^ {\prime \prime}, U ^ {\prime \prime}, M, e _ {\mathrm {D}}) \big ].
+\operatorname{E} \big [ \phi (A^{\prime \prime}, U, M, e_{\mathrm{D}}) \big ] \geq \operatorname{E} \big [ \phi (A^{\prime \prime}, U^{\prime \prime}, M, e_{\mathrm{D}}) \big ].
 $$
 
 Also, since  $\phi$  is decreasing in  $e_{\mathrm{D}}$
 
 $$
-\operatorname {E} \left[ \phi \left(A ^ {\prime \prime \prime}, U, M, e _ {\mathrm {D}}\right) \right] \geq \operatorname {E} \left[ \phi \left(A ^ {\prime \prime \prime}, U, M, e _ {\mathrm {D}} ^ {\prime \prime \prime}\right) \right].
+\operatorname{E} \left[ \phi \left(A^{\prime \prime \prime}, U, M, e_{\mathrm{D}}\right) \right] \geq \operatorname{E} \left[ \phi \left(A^{\prime \prime \prime}, U, M, e_{\mathrm{D}}^{\prime \prime \prime}\right) \right].
 $$
 
 [Similar inequalities hold for the function  $\psi(\cdot)$ .] By the definitions of  $A'$ ,  $A''$  and  $A'''$  the right-hand sides are all non-negative. But,  $A = \inf\{a | E[\phi(a, U, M, e_{\mathrm{D}})] \geq 0\}$ , so  $A'$ ,  $A''$  and  $A'''$  all exceed  $A$ . The same argument will prove the corresponding bid inequalities. Q.E.D.
@@ -500,7 +500,7 @@ $$
 We have described how the specialist in this model determines a bid and ask price as a function of the parameter  $\alpha$  and his beliefs  $\pi$ . To complete the description of his dynamic behavior, it only remains to show how  $\pi$  changes as a result of market behavior. We let  $\pi^{+}$  denote the posterior beliefs of the specialist after a trade has just occurred. These posterior beliefs also serve as the prior beliefs for determining the bid and ask prices for the next trader.  $\pi^{+}$  is determined from Bayes' Theorem using the formula
 
 $$
-\left[ \pi^ {+} / (1 - \pi^ {+}) \right] = \left[ \pi / (1 - \pi) \right] F a c t o r,
+\left[ \pi^{+} / (1 - \pi^{+}) \right] = \left[ \pi / (1 - \pi) \right] F a c t o r,
 $$
 
 where  $Factor$  is the likelihood ratio whose numerator is the probability of the trader's action given that  $V = 11$  and whose denominator is the probability of the action given  $V = 1$ . Note that  $Factor$  may depend on the action taken, the bid price, the ask price,  $\pi$  and  $\alpha$ , as well as on the model used - uniform or inelastic.
@@ -510,7 +510,7 @@ For any given model and any value of the parameter  $\alpha$ , the endogenous va
 Let us say that "nearly all of the insider information has been assimilated in the prices" when we reach the point where  $\pi/(1-\pi) < 1/Odds$  when  $V$  is low or  $\pi/(1-\pi) > Odds$  when  $V$  is high. For the case of perfectly inelastic demand, one can show<sup>8</sup> that the expected number of trades that must take place before nearly all information is revealed is approximately<sup>9</sup>
 
 $$
-\frac {\log \left(O d d s\right) + \left(1 - \pi_ {0}\right) \log \left(\pi_ {0} / \left(1 - \pi_ {0}\right)\right)}{\alpha \log \left(\left(1 + \alpha\right) / (1 - \alpha)\right)}. \tag {12}
+\frac{\log \left(O d d s\right) + \left(1 - \pi_{0}\right) \log \left(\pi_{0} / \left(1 - \pi_{0}\right)\right)}{\alpha \log \left(\left(1 + \alpha\right) / (1 - \alpha)\right)}. \tag {12}
 $$
 
 For small values of  $\alpha$ , (12) is approximately proportioned to  $1 / \alpha^2$ . Also for small values of  $\alpha$  and for any  $\pi$ , the size of the spread determined in (8) and (10) is approximately proportional to  $\alpha$ . Thus, the effect of doubling  $\alpha$  from, say, 0.1 to 0.2 is roughly to double the spread at each level of  $\pi$  and to divide by four the time taken until nearly all insider information has been assimilated in prices.
@@ -536,17 +536,17 @@ The model discussed in the previous section is based on a particular normalizati
 economic interest is the following: the reservation price of an individual arriving at time  $t$  is  $Z_{t}^{*}$  given by  $Z_{t}^{*} = \exp (r_{t}(T_{0} - t))Z_{t}$  where  $Z_{t}$  is as defined in the previous section, and  $T_{0}$  is the time of the informational event. The parameter  $r_t$  may arise from other unmodeled market opportunities and depends only on time, not on any personal characteristics. The zero profit condition for the specialist now becomes a zero excess return condition and may be stated as (if solutions exist):
 
 $$
-A _ {t} ^ {*} = \exp \left(- r _ {t} \left(T _ {0} - t\right)\right) \mathrm {E} \left[ V \mid S _ {t} ^ {*}, Z _ {t} ^ {*} > A _ {t} ^ {*} \right], \tag {13}
+A_{t}^{*} = \exp \left(- r_{t} \left(T_{0} - t\right)\right) \mathrm{E} \left[ V \mid S_{t}^{*}, Z_{t}^{*} > A_{t}^{*} \right], \tag {13}
 $$
 
 $$
-B _ {t} ^ {*} = \exp \left(- r _ {t} \left(T _ {0} - t\right)\right) \mathrm {E} \left[ V | S _ {t} ^ {*}, Z _ {t} ^ {*} <   B _ {t} ^ {*} \right].
+B_{t}^{*} = \exp \left(- r_{t} \left(T_{0} - t\right)\right) \mathrm{E} \left[ V | S_{t}^{*}, Z_{t}^{*} <   B_{t}^{*} \right].
 $$
 
 Since the market now being described is merely a renormalization of the one described in section 2, it is straightforward to show that  $A_{t}^{*}$  and  $B_{t}^{*}$  are given by  $A_{t}^{*} = \exp (-r_{t}(T_{0} - t))A_{t}$ ;  $B_{t}^{*} = \exp (-r_{t}(T_{0} - t))B_{t}$ , where  $A_{t}$  and  $B_{t}$  satisfy (as above)
 
 $$
-A _ {t} = \mathbb {E} [ V | S _ {t}, Z _ {t} > A _ {t} ], \quad B _ {t} = \mathbb {E} [ V | S _ {t}, Z _ {t} <   B _ {t} ].
+A_{t} = \mathbb {E} [ V | S_{t}, Z_{t} > A_{t} ], \quad B_{t} = \mathbb {E} [ V | S_{t}, Z_{t} <   B_{t} ].
 $$
 
 To insure that outsiders have an incentive to be involved in the market, the following hypothesis is offered. Let  $\tau$  be a holding period. The expected gross holding period return of someone buying at time  $t$  and holding for  $\tau$  periods of time is  $\mathrm{E}_t[B_{t + \tau}^* ] / A_t^*$ . It is assumed that at any time  $t$ ,  $\mathrm{E}_t[B_{t + \tau}^* ] / A_t^* = \mathrm{e}^{i\tau}$  where  $i$  is an exogenously given rate of return. Although this is implicitly a hypothesis about the exogenous variables, it is stated in terms of market parameters and appears to be testable. The variable  $i$  might be taken to be a required return consistent with the risk of the stock. The important limitation such a condition imposes on the data is that  $i$  be unrelated to the magnitude of the spread and constant through time. In effect, this assumption defines  $r_t$ . Since  $B_{t + \tau}^*$  is a function of  $r_{t + \tau}$  and  $A_{t}^{*}$  is a function of  $r_t$ , a terminal condition and the above expected holding period return condition will define  $r_t$ . The proof of the following proposition is tedious, and is relegated to an appendix.
@@ -556,19 +556,19 @@ Proposition 6. Let the expected realizable return of an uninformed trader over t
 $B_{t + \tau}^{*} = V\mathrm{e}^{-i(T_{0} - t - \tau)}$  (i.e.,  $r_{t + \tau} = i$  for  $t\in [T_0 - \tau ,T_0]$ ). Then  $r_t$ , the discount rate at  $t$ , is the normal return  $i$  plus a premium,
 
 $$
-r _ {t} = i + (n + 1) / \left(T _ {0} - t\right) \log \left(k _ {t}\right),
+r_{t} = i + (n + 1) / \left(T_{0} - t\right) \log \left(k_{t}\right),
 $$
 
 where
 
 $$
-\frac {1}{k _ {t}} = \left\{\mathbf {E} _ {t} \left[ \frac {B _ {t + \tau}}{A _ {t}} \frac {B _ {t + 2 \tau}}{A _ {t + \tau}} \dots \frac {B _ {t + (n + 1) \tau}}{A _ {t + n \tau}} \right] \right\} ^ {1 / (n + 1)} \leq 1,
+\frac{1}{k_{t}} = \left\{\mathbf {E}_{t} \left[ \frac{B_{t + \tau}}{A_{t}} \frac{B_{t + 2 \tau}}{A_{t + \tau}} \dots \frac{B_{t + (n + 1) \tau}}{A_{t + n \tau}} \right] \right\}^{1 / (n + 1)} \leq 1,
 $$
 
 and
 
 $$
-t + n \tau \in \left[ T _ {0} - \tau , T _ {0}\right).
+t + n \tau \in \left[ T_{0} - \tau , T_{0}\right).
 $$
 
 The discount rate applied at time  $t$ ,  $r_t$ , has a particularly interesting interpretation. Notice that  $(1 / k_t)$  is the expected geometric mean gross return per  $\tau$  units of time earned by an investor that follows a strategy of buying and selling every  $\tau$  periods of time in a market with no discounting. The log of this is thus the continuously compounded expected return from such a strategy. Obviously, such a return is negative. Recall from the definition of  $A_t$  and  $B_t$  that the specialists sets the bid and ask so that on average what he loses to the informed is made up by what he gains from the uninformed liquidity traders. Thus,  $(n + 1) / (T_0 - t) \log(k_t)$  (a positive number) is, in return (per unit time) terms, what the uninformed on average lose to the informed. Thus,  $r_t$  represents the expected holding period return,  $i$ , plus the return that the uninformed anticipate losing to the informed. Note that  $r_t$  depends upon the holding period  $\tau$ . In particular,  $n + 1$  in Proposition 6 is approximately  $(T_0 - t) / \tau$ , and hence  $r_t$  is approximately  $i + (1 / \tau) \log(k_t)$ .
@@ -580,7 +580,7 @@ On the other hand, it is easy to see that the existence of a bid-ask spread is l
 of the return that can be realized long-term is
 
 $$
-\begin{array}{l} \mathrm {E} _ {t} \left[ \left(\frac {V}{A _ {t} ^ {*}}\right) \right] = \mathrm {E} _ {t} \left[ \left(\frac {p _ {t} ^ {*}}{A _ {t} ^ {*}} \frac {p _ {t + \tau} ^ {*}}{p _ {t} ^ {*}} \dots \frac {p _ {t + n \tau} ^ {*}}{p _ {t + (n - 1) \tau} ^ {*}} \frac {V}{p _ {t + n \tau} ^ {*}}\right) \right] \\ = \mathbf {E} _ {t} \left[ \left(\frac {p _ {t} ^ {*}}{A _ {t} ^ {*}}\right) \left(\frac {p _ {t + \tau} ^ {*}}{p _ {t} ^ {*}} \dots \frac {p _ {t + n \tau} ^ {*}}{p _ {t + (n - 1) \tau} ^ {*}} \frac {V}{p _ {t + n \tau} ^ {*}}\right) \right] \\ = \mathbf {E} _ {t} \left[ \left(\frac {p _ {t}}{A _ {t}}\right) \left(\frac {p _ {t + \tau} ^ {*}}{p _ {t} ^ {*}} \dots \frac {p _ {t + n \tau} ^ {*}}{p _ {t + (n - 1) \tau} ^ {*}} \frac {V}{p _ {t + n \tau} ^ {*}}\right) \right]. \tag {14} \\ \end{array}
+\begin{array}{l} \mathrm{E}_{t} \left[ \left(\frac{V}{A_{t}^{*}}\right) \right] = \mathrm{E}_{t} \left[ \left(\frac{p_{t}^{*}}{A_{t}^{*}} \frac{p_{t + \tau}^{*}}{p_{t}^{*}} \dots \frac{p_{t + n \tau}^{*}}{p_{t + (n - 1) \tau}^{*}} \frac{V}{p_{t + n \tau}^{*}}\right) \right] \\ = \mathbf {E}_{t} \left[ \left(\frac{p_{t}^{*}}{A_{t}^{*}}\right) \left(\frac{p_{t + \tau}^{*}}{p_{t}^{*}} \dots \frac{p_{t + n \tau}^{*}}{p_{t + (n - 1) \tau}^{*}} \frac{V}{p_{t + n \tau}^{*}}\right) \right] \\ = \mathbf {E}_{t} \left[ \left(\frac{p_{t}}{A_{t}}\right) \left(\frac{p_{t + \tau}^{*}}{p_{t}^{*}} \dots \frac{p_{t + n \tau}^{*}}{p_{t + (n - 1) \tau}^{*}} \frac{V}{p_{t + n \tau}^{*}}\right) \right]. \tag {14} \\ \end{array}
 $$
 
 Since  $p_t \leq A_t$ , the above expected return is less than the observed return. If  $T_0 - t$  is large, however, then  $(p_t / A_t)^{1 / T_0 - t}$  will be close to one, and the long-term per period mean return will be close to the observed (from the transaction price sequence) per period return.
@@ -602,43 +602,43 @@ The spread can be important both because of its welfare implications, which we h
 First consider  $t \in [T_0 - \tau, T_0)$ . Then
 
 $$
-\mathrm {E} _ {t} \left[ B _ {t + \tau} ^ {*} / A _ {t} ^ {*} \right] = \mathrm {e} ^ {- i (T _ {0} - t - \tau)} \left(\mathrm {E} _ {t} \left[ B _ {t + \tau} \right] / \mathrm {e} ^ {- r _ {t} (T _ {0} - t)} A _ {t}\right) = \mathrm {e} ^ {i \tau}.
+\mathrm{E}_{t} \left[ B_{t + \tau}^{*} / A_{t}^{*} \right] = \mathrm{e}^{- i (T_{0} - t - \tau)} \left(\mathrm{E}_{t} \left[ B_{t + \tau} \right] / \mathrm{e}^{- r_{t} (T_{0} - t)} A_{t}\right) = \mathrm{e}^{i \tau}.
 $$
 
 That is,
 
 $$
-r _ {t} = i + \log \left[ \left(\frac {1}{\operatorname {E} _ {t} \left[ B _ {t + \tau} \right] / A _ {t}}\right) ^ {T _ {0} - t} \right].
+r_{t} = i + \log \left[ \left(\frac{1}{\operatorname{E}_{t} \left[ B_{t + \tau} \right] / A_{t}}\right)^{T_{0} - t} \right].
 $$
 
 For  $t + \tau < T_0$ , and  $t + n\tau \in [T_0 - \tau, T_0)$ , suppose
 
 $$
-r _ {t + \tau} = i + \left(n / \left(T _ {0} - t - \tau\right)\right) \log \left(k _ {t + \tau}\right).
+r_{t + \tau} = i + \left(n / \left(T_{0} - t - \tau\right)\right) \log \left(k_{t + \tau}\right).
 $$
 
 Then,
 
 $$
-\mathrm {e} ^ {i \tau} = \frac {\mathrm {E} _ {t} \left[ \exp \left(- \left(i + \left(n / \left(T _ {0} - t - \tau\right)\right) \log \left(k _ {t + \tau}\right)\right) \left(T _ {0} - t - \tau\right)\right) B _ {t + \tau} \right]}{A _ {t} \exp \left(- r _ {t} \left(T _ {0} - t\right)\right)},
+\mathrm{e}^{i \tau} = \frac{\mathrm{E}_{t} \left[ \exp \left(- \left(i + \left(n / \left(T_{0} - t - \tau\right)\right) \log \left(k_{t + \tau}\right)\right) \left(T_{0} - t - \tau\right)\right) B_{t + \tau} \right]}{A_{t} \exp \left(- r_{t} \left(T_{0} - t\right)\right)},
 $$
 
 and
 
 $$
-\begin{array}{l} r _ {t} = i + \frac {1}{T _ {0} - t} \log \left(\frac {A _ {t}}{\mathrm {E} _ {t} \left[ B _ {t + \tau} / k _ {t + \tau} ^ {n} \right]}\right) \\ = i + \log \left[ \left(\frac {1}{\mathrm {E} _ {t} \left[ B _ {t + \tau} / A _ {t} k _ {t + \tau} ^ {n} \right]}\right) ^ {1 / T _ {0} - t} \right]. \\ \end{array}
+\begin{array}{l} r_{t} = i + \frac{1}{T_{0} - t} \log \left(\frac{A_{t}}{\mathrm{E}_{t} \left[ B_{t + \tau} / k_{t + \tau}^{n} \right]}\right) \\ = i + \log \left[ \left(\frac{1}{\mathrm{E}_{t} \left[ B_{t + \tau} / A_{t} k_{t + \tau}^{n} \right]}\right)^{1 / T_{0} - t} \right]. \\ \end{array}
 $$
 
 Now,
 
 $$
-\begin{array}{l} \mathrm {E} _ {t} \left[ \frac {B _ {t + \tau}}{A _ {t}} \left(\frac {1}{k _ {t + \tau}}\right) ^ {n} \right] = \mathrm {E} _ {t} \left[ \frac {B _ {t + \tau}}{A _ {t}} \mathrm {E} _ {t + \tau} \left[ \frac {B _ {t + 2 \tau}}{A _ {t + \tau}} \dots \frac {B _ {t + (n + 1) \tau}}{A _ {t + n \tau}} \right] \right] \\ = \mathrm {E} _ {t} \left[ \frac {B _ {t + \tau}}{A _ {t}} \frac {B _ {t + 2 \tau}}{A _ {t + \tau}} \dots \frac {B _ {t + (n + 1) \tau}}{A _ {t + n \tau}} \right] \\ = \left(1 / k _ {t}\right) ^ {n + 1} \leq 1, \\ \end{array}
+\begin{array}{l} \mathrm{E}_{t} \left[ \frac{B_{t + \tau}}{A_{t}} \left(\frac{1}{k_{t + \tau}}\right)^{n} \right] = \mathrm{E}_{t} \left[ \frac{B_{t + \tau}}{A_{t}} \mathrm{E}_{t + \tau} \left[ \frac{B_{t + 2 \tau}}{A_{t + \tau}} \dots \frac{B_{t + (n + 1) \tau}}{A_{t + n \tau}} \right] \right] \\ = \mathrm{E}_{t} \left[ \frac{B_{t + \tau}}{A_{t}} \frac{B_{t + 2 \tau}}{A_{t + \tau}} \dots \frac{B_{t + (n + 1) \tau}}{A_{t + n \tau}} \right] \\ = \left(1 / k_{t}\right)^{n + 1} \leq 1, \\ \end{array}
 $$
 
 since
 
 $$
-\mathrm {E} _ {t + (k + 1) \tau} \left[ \frac {B _ {t + (k + 1) \tau}}{A _ {t + k \tau}} \right] \leq \mathrm {E} _ {t + k \tau} \left[ \frac {P _ {t + (k + 1) \tau}}{A _ {t + k \tau}} \right] = \frac {P _ {t + k \tau}}{A _ {t + k \tau}} \leq 1.
+\mathrm{E}_{t + (k + 1) \tau} \left[ \frac{B_{t + (k + 1) \tau}}{A_{t + k \tau}} \right] \leq \mathrm{E}_{t + k \tau} \left[ \frac{P_{t + (k + 1) \tau}}{A_{t + k \tau}} \right] = \frac{P_{t + k \tau}}{A_{t + k \tau}} \leq 1.
 $$
 
 Thus,  $r_t = i + ((n + 1) / (T_0 - t)) \log(k_t)$ . The (backwards) induction argument shows that  $r_t$  is as claimed. Q.E.D.

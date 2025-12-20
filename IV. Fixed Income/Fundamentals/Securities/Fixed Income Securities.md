@@ -693,7 +693,7 @@ The discount factor for a particular term gives the value today, or the present 
 Because Treasury bonds promise future cash flows, discount factors can be extracted from Treasury bond prices. In fact, the rows of Table 1.2 can be used to write equations that relate bond prices to discount factors. Starting with the first row of the table, that is, with the bond maturing in six months,
 
 $$
-1 0 1. 4 2 9 7 = \left(1 0 0 + \frac {2 . 8 7 5}{2}\right) d (0. 5) \tag {1.1}
+1 0 1. 4 2 9 7 = \left(1 0 0 + \frac{2 . 8 7 5}{2}\right) d (0. 5) \tag {1.1}
 $$
 
 In words, the price of the 2.875s of 11/15/2021 equals the present value of its future cash flows, or, more precisely, the sum of its principal and
@@ -703,11 +703,11 @@ coupon cash flows multiplied by the discount factor for funds to be received in 
 By the same reasoning, the equations relating prices to discount factors can be written for the other bonds in Table 1.2. For the next two bonds, which mature in one year and in 1.5 years, respectively,
 
 $$
-1 0 2. 0 6 6 2 = \frac {2 . 1 2 5}{2} d (0. 5) + \left(1 0 0 + \frac {2 . 1 2 5}{2}\right) d (1. 0) \tag {1.2}
+1 0 2. 0 6 6 2 = \frac{2 . 1 2 5}{2} d (0. 5) + \left(1 0 0 + \frac{2 . 1 2 5}{2}\right) d (1. 0) \tag {1.2}
 $$
 
 $$
-1 0 2. 2 8 6 2 = \frac {1 . 6 2 5}{2} d (0. 5) + \frac {1 . 6 2 5}{2} d (1. 0) + \left(1 0 0 + \frac {1 . 6 2 5}{2}\right) d (1. 5) \quad (1. 3)
+1 0 2. 2 8 6 2 = \frac{1 . 6 2 5}{2} d (0. 5) + \frac{1 . 6 2 5}{2} d (1. 0) + \left(1 0 0 + \frac{1 . 6 2 5}{2}\right) d (1. 5) \quad (1. 3)
 $$
 
 Given the solution for  $d(0.5)$ , from Equation (1.1), Equation (1.2) can be solved for  $d(1)$ . Then, given the solutions for both  $d(0.5)$  and  $d(1.0)$ , Equation (1.3) can be solved for  $d(1.5)$ . Continuing in this way through the rows of Table 1.2 solves for the discount factors, in six-month intervals, out to three and one-half years. Table 1.3 reports these results. That these discount factors fall as term increases reflects the time value of money: the longer a payment of \$1 is delayed, the less it is worth today. $^3$
@@ -728,7 +728,7 @@ The US Treasury 1.75s of 05/15/2022 mature in mid-May, approximately one year fr
 According to the law of one price, then, the price of the 1.75s of 05/15/2022 should be,
 
 $$
-\frac {1 . 7 5}{2} \times 0. 9 9 9 9 2 3 + \left(1 0 0 + \frac {1 . 7 5}{2}\right) \times 0. 9 9 9 4 1 9 = 1 0 1. 6 9 1 \tag {1.4}
+\frac{1 . 7 5}{2} \times 0. 9 9 9 9 2 3 + \left(1 0 0 + \frac{1 . 7 5}{2}\right) \times 0. 9 9 9 4 1 9 = 1 0 1. 6 9 1 \tag {1.4}
 $$
 
 where the bond's present value is calculated as the sum of each cash flow multiplied by its corresponding discount factor from Table 1.3. As it turns out, the market price of this bond is 101.693, which is nearly equal to the prediction of the law of one price in Equation (1.4).
@@ -867,7 +867,7 @@ respectively. Rates are more intuitive than prices and cash flows because rates 
 Interest rates are always quoted as annual rates over a term or tenor, which is described as a number of periods of fixed length. A money market instrument, for example, might offer  $1\%$  per year for 90 days on an investment of \$100,000. If this  $1\%$  is quoted as a simple rate of interest, under the actual/360 convention described in Section 1.7, then the interest payment at the end of the 90 days is,
 
 $$
-\$ 100,000 \times 1 \% \times \frac {90}{360} = \$ 250.00 \tag{2.1}
+\$ 100,000 \times 1 \% \times \frac{90}{360} = \$ 250.00 \tag{2.1}
 $$
 
 If the  $1\%$  interest rate on the money market instrument is quoted not as a simple rate, but as a daily compounded rate, then interest is computed differently: the investment earns simple interest daily, but interest is earned on accumulated balances, which include interest already earned. After the first day, then, the balance includes one day of simple interest,
@@ -911,7 +911,7 @@ This section illustrates concepts with daily and semiannual periods. Daily perio
 More generally, then, let  $n$  be the number of periods per year; let  $N$  be the number of periods; and let  $\hat{r}$  be the interest rate to be compounded  $n$  times per year. Then, investing  $F$  at the rate  $\hat{r}$  grows, after  $N$  periods, to a total balance of,
 
 $$
-F \left(1 + \frac {\hat {r}}{n}\right) ^ {N} \tag {2.7}
+F \left(1 + \frac{\hat {r}}{n}\right)^{N} \tag {2.7}
 $$
 
 Markets should ensure that the final proceeds from identical investments of the same term are the same, regardless of the compounding convention. If, for example, the market offers 102 on a 1-year investment of 100, that investment might be quoted as earning  $2\%$  annually;  $1.9901\%$  semiannually compounded; or  $1.9819\%$  compounded monthly, because,
@@ -1025,25 +1025,25 @@ Solving Equations (2.12) through (2.15) for the unknown discount factors, analog
 The word spot in finance typically refers to transactions for immediate or imminent settlement, as opposed to forward transactions, which settle further in the future. Consistent with this usage, a spot rate is the rate on a spot loan, an agreement in which a lender gives money to the borrower at or around the time of the agreement and, furthermore, expects repayment at some single, specified time in the future. For example, along the lines of Equation (2.7), a two-year investment of 100, at a semiannually compounded spot rate of  $0.1136\%$ , grows over those two years or four semiannual periods to a final payment of,
 
 $$
-100 \left(1 + \frac {0.1136 \%}{2}\right) ^ {2 \times 2} = 100.2274 \tag{2.16}
+100 \left(1 + \frac{0.1136 \%}{2}\right)^{2 \times 2} = 100.2274 \tag{2.16}
 $$
 
 More generally, denote the semiannually compounded  $t$ -year spot rate by  $\hat{r}(t)$ . With semiannual compounding and an investment period of  $t$  years, or  $2t$  semiannual periods, investing one unit of currency from now to year  $t$  generates final proceeds of,
 
 $$
-\left(1 + \frac {\hat {r} (t)}{2}\right) ^ {2 t} \tag {2.17}
+\left(1 + \frac{\hat {r} (t)}{2}\right)^{2 t} \tag {2.17}
 $$
 
 To link spot rates and discount factors, note that if one unit of currency grows to the quantity in (2.17) in  $t$  years, then the present value of that quantity, by definition, is one. Using discount factors to compute that present value,
 
 $$
-\left(1 + \frac {\hat {r} (t)}{2}\right) ^ {2 t} d (t) = 1 \tag {2.18}
+\left(1 + \frac{\hat {r} (t)}{2}\right)^{2 t} d (t) = 1 \tag {2.18}
 $$
 
 or, solving for  $d(t)$
 
 $$
-d (t) = \frac {1}{\left(1 + \frac {\hat {r} (t)}{2}\right) ^ {2 t}} \tag {2.19}
+d (t) = \frac{1}{\left(1 + \frac{\hat {r} (t)}{2}\right)^{2 t}} \tag {2.19}
 $$
 
 Either of these two equations can be used to solve for a spot rate of term  $t$  given the discount factor of that term. To illustrate, consider the discount factors implied by SOFR swap rates in Table 2.1. The two-year discount factor is 0.997732, which, by either (2.18) or (2.19), implies that the two-year spot rate is  $0.1136\%$ . Along the same lines, Table 2.1 computes spot rates of terms 0.5 to 2.0 years from the respective discount factors.
@@ -1055,7 +1055,7 @@ A forward rate is the rate on a forward loan, which is an agreement today to len
 To link forward rates to spot rates, note that a spot loan from now to year  $t - 0.5$ , combined with a forward loan from year  $t - 0.5$  to year  $t$ , covers the same investment period as a spot loan from now to year  $t$ . Consistent quoting of rates, therefore, ensures that the proceeds from these two alternatives are the same. Mathematically, noting that  $t - 0.5$  years is  $2(t - 0.5)$  or  $2t - 1$  semiannual periods,
 
 $$
-\left(1 + \frac {\hat {r} (t)}{2}\right) ^ {2 t} = \left(1 + \frac {\hat {r} (t - 0 . 5)}{2}\right) ^ {2 t - 1} \left(1 + \frac {f (t)}{2}\right) \tag {2.20}
+\left(1 + \frac{\hat {r} (t)}{2}\right)^{2 t} = \left(1 + \frac{\hat {r} (t - 0 . 5)}{2}\right)^{2 t - 1} \left(1 + \frac{f (t)}{2}\right) \tag {2.20}
 $$
 
 Extending this logic to say that a spot loan to year  $t$  is equivalent to a series of six-month forward loans, spot rates and forward rates can also be
@@ -1063,7 +1063,7 @@ Extending this logic to say that a spot loan to year  $t$  is equivalent to a se
 linked as follows,
 
 $$
-\left(1 + \frac {\hat {r} (t)}{2}\right) ^ {2 t} = \left(1 + \frac {f (0 . 5)}{2}\right) \left(1 + \frac {f (1 . 0)}{2}\right) \dots \left(1 + \frac {f (t)}{2}\right) \tag {2.21}
+\left(1 + \frac{\hat {r} (t)}{2}\right)^{2 t} = \left(1 + \frac{f (0 . 5)}{2}\right) \left(1 + \frac{f (1 . 0)}{2}\right) \dots \left(1 + \frac{f (t)}{2}\right) \tag {2.21}
 $$
 
 Note that  $f(0.5)$ , the rate on a "forward" loan from zero years to 0.5 years, is the same as the 0.5-year spot rate,  $\hat{\gamma}(0.5)$ .
@@ -1071,13 +1071,13 @@ Note that  $f(0.5)$ , the rate on a "forward" loan from zero years to 0.5 years,
 Forward rates can also be expressed in terms of discount factors. Use Equation (2.19) to substitute discount factors for spot rates in Equation (2.20) to see that,
 
 $$
-1 + \frac {f (t)}{2} = \frac {d (t - 0 . 5)}{d (t)} \tag {2.22}
+1 + \frac{f (t)}{2} = \frac{d (t - 0 . 5)}{d (t)} \tag {2.22}
 $$
 
 Applying the analytics of this section to the SOFR swaps in Table 2.1 allows for the computation of implied forward rates in that market. To illustrate with just one example, substitute the 1.5- and 2-year discount factors in the table into Equation (2.22) to derive the 2-year forward rate,
 
 $$
-1 + \frac {f (2)}{2} = \frac {0 . 9 9 8 9 7 9}{0 . 9 9 7 7 3 2} \tag {2.23}
+1 + \frac{f (2)}{2} = \frac{0 . 9 9 8 9 7 9}{0 . 9 9 7 7 3 2} \tag {2.23}
 $$
 
 $$
@@ -1091,7 +1091,7 @@ Table 2.1 gives the term structure of interest rates from the SOFR swap market i
 The first relationship to be highlighted is that the  $t$ -year spot rate approximately equals the average of all the forward rates from today through year  $t$ . Taking one example from the table, the two-year spot rate is approximately equal to the average of the four forward rates from term 0.5 to 2 years,
 
 $$
-\frac {0.0348 \% + 0.0585 \% + 0.1111 \% + 0.2500 \%}{4} \approx 0.1136 \% \tag{2.25}
+\frac{0.0348 \% + 0.0585 \% + 0.1111 \% + 0.2500 \%}{4} \approx 0.1136 \% \tag{2.25}
 $$
 
 This result makes sense because a two-year loan is equivalent to a combination of a six-month loan; a six-month loan six months forward; a six-month loan one year forward; and a six-month loan 1.5 years forward.
@@ -1135,7 +1135,7 @@ The gross horizon return of a bond depends on the price at which the bond was bo
 Begin with a simple example. An investor buys \(1 million face amount of the US 7.625s of 11/15/2022 at 114.8765 in mid-November 2020. Six months later, in mid-May 2021, the price of the bond is 111.3969.\(^{1}\) The gross return of the bond over the horizon is, therefore,
 
 $$
-\frac {\mathbb {S} 1 , 1 1 3 , 9 6 9 + \mathbb {S} 3 8 , 1 2 5 - \mathbb {S} 1 , 1 4 8 , 7 6 5}{1 , 1 4 8 , 7 6 5} = 0. 2 8 9 8 \% \tag{3.1}
+\frac{\mathbb {S} 1 , 1 1 3 , 9 6 9 + \mathbb {S} 3 8 , 1 2 5 - \mathbb {S} 1 , 1 4 8 , 7 6 5}{1 , 1 4 8 , 7 6 5} = 0. 2 8 9 8 \% \tag{3.1}
 $$
 
 In words, the six-month holding period return in this example equals the value of the bonds at the end of the six months, or  \$1,113,969; plus the coupon payment at that time of half \(7.625\%$  on the \)1 million face amount, or \$38,125; minus the initial cost of the bonds, or \$1,148,765, all divided by that initial cost. Note that the coupon income of the bond is sufficient to overcome the fall in price and result in a positive horizon return.
@@ -1145,13 +1145,13 @@ Realized return over a horizon that extends past a coupon payment depends on the
 $0.05\%$ , then the realized return of the investment over the year is,
 
 $$
-\begin{array}{l} \frac {\mathbb {S} 1 , 0 8 0 , 0 0 0 + \mathbb {S} 3 8 , 1 2 5 \left(1 + \frac {0 . 0 5 \%}{2}\right) + \mathbb {S} 3 8 , 1 2 5 - \mathbb {S} 1 , 1 4 8 , 7 6 5}{1 , 1 4 8 , 7 6 5} \\ = 0.6524 \% \tag{3.2} \\ \end{array}
+\begin{array}{l} \frac{\mathbb {S} 1 , 0 8 0 , 0 0 0 + \mathbb {S} 3 8 , 1 2 5 \left(1 + \frac{0 . 0 5 \%}{2}\right) + \mathbb {S} 3 8 , 1 2 5 - \mathbb {S} 1 , 1 4 8 , 7 6 5}{1 , 1 4 8 , 7 6 5} \\ = 0.6524 \% \tag{3.2} \\ \end{array}
 $$
 
 The discussion now turns to the return net of the cost of financing the purchase of a bond. This might be an explicit cost; that is, a trader or investor might borrow the purchase price of the bond for six months at an interest rate of  $0.05\%$ . In that case, the interest cost of the borrowing over the investment horizon,  $\$1,148,765 \times 0.05\% / 2 = \$287$ , would be subtracted from the numerator of Equation (3.1) to give a return net of financing of,
 
 $$
-\frac {\mathbb {S} 1 , 1 1 3 , 9 6 9 + \mathbb {S} 3 8 , 1 2 5 - \mathbb {S} 1 , 1 4 8 , 7 6 5 - \mathbb {S} 2 8 7}{1 , 1 4 8 , 7 6 5} = 0. 2 6 4 8 \% \tag{3.3}
+\frac{\mathbb {S} 1 , 1 1 3 , 9 6 9 + \mathbb {S} 3 8 , 1 2 5 - \mathbb {S} 1 , 1 4 8 , 7 6 5 - \mathbb {S} 2 8 7}{1 , 1 4 8 , 7 6 5} = 0. 2 6 4 8 \% \tag{3.3}
 $$
 
 Not surprisingly, the net return of  $0.2648\%$  is the gross return,  $0.2898\%$ , minus the half-year borrowing cost of  $0.05\%$ /2, or  $0.025\%$ .
@@ -1159,7 +1159,7 @@ Not surprisingly, the net return of  $0.2648\%$  is the gross return,  $0.2898\%
 There are actually several subtleties in describing the net return on a bond investment in this way. First, market participants do fund bond purchases using the purchased bonds as collateral in the repurchase or repo market, which is the subject of Chapter 10. Second, only a portion of the purchase price can typically be funded in this market. In the present case, for example, an investor might be able to borrow only \(1,125,790, or only \(98\%\), of the total purchase price. In this case, the interest cost would only be half of \(0.05\%\) on that \)1,125,790, or \$281, and the net return would be \(0.2653\%\), which is very slightly higher than the result from Equation (3.3). Third, regardless of how much is actually borrowed, the net return is calculated with the total purchase price as the denominator of (3.3). This formulation of net return, therefore, can be thought of as a return on balance sheet, that is, on the value that can be considered and reported as an asset. Fourth, return on capital would be computed differently. If a hedge fund borrows \(98\%\) of the value of the bond in the repo market, while putting up \(2\%\), or \)22,975 of its own capital, then this investment's return on capital – abstracting from any additional allocations of risk capital to the trade – would be,
 
 $$
-\frac {\mathbb {S} 1 , 1 1 3 , 9 6 9 + \mathbb {S} 3 8 , 1 2 5 - \mathbb {S} 1 , 1 4 8 , 7 6 5 - \mathbb {S} 2 8 1}{\mathbb {S} 2 2 , 9 7 5} = 1 3. 2 7 \% \tag{3.4}
+\frac{\mathbb {S} 1 , 1 1 3 , 9 6 9 + \mathbb {S} 3 8 , 1 2 5 - \mathbb {S} 1 , 1 4 8 , 7 6 5 - \mathbb {S} 2 8 1}{\mathbb {S} 2 2 , 9 7 5} = 1 3. 2 7 \% \tag{3.4}
 $$
 
 The  $13.27\%$  return on capital is 50 times the net balance sheet return of  $0.2653\%$ . This high return on capital is due to the fact that the trade, as
@@ -1175,7 +1175,7 @@ Chapter 2 made the point that rates are often more intuitive than prices in desc
 The yield to maturity of a bond is the single rate such that discounting the bond's cash flows by that rate gives the bond's market price. Table 1.4 reported the price of the US Treasury 7.625s of 11/15/2022 for settlement in mid-May 2021 as 111.3969. Recalling that US Treasury bonds pay coupons semiannually so that this bond had three remaining payment dates, and noting the Treasury bonds are quoted with semiannually compounded yields, the yield to maturity of this bond,  $y$ , is defined as, $^{2}$
 
 $$
-1 1 1. 3 9 6 9 = \frac {3 . 8 1 2 5}{\left(1 + \frac {y}{2}\right)} + \frac {3 . 8 1 2 5}{\left(1 + \frac {y}{2}\right) ^ {2}} + \frac {1 0 3 . 8 1 2 5}{\left(1 + \frac {y}{2}\right) ^ {3}} \tag {3.5}
+1 1 1. 3 9 6 9 = \frac{3 . 8 1 2 5}{\left(1 + \frac{y}{2}\right)} + \frac{3 . 8 1 2 5}{\left(1 + \frac{y}{2}\right)^{2}} + \frac{1 0 3 . 8 1 2 5}{\left(1 + \frac{y}{2}\right)^{3}} \tag {3.5}
 $$
 
 Equation (3.5) can be solved for  $y$  by some numerical method or with a financial calculator, giving a result of  $0.0252\%$ . Hence, trades of this bond could be quoted and consummated either at a price of 111.3969 or at a yield of  $0.0252\%$ .
@@ -1185,15 +1185,15 @@ More generally, let  $y$  denote the yield of a bond; let  $c$  denote its annua
 there are  $2T$  semiannual payments remaining; and let  $P$  denote its price, per 100 face amount, for settlement on a coupon payment date. To illustrate notation, note that for the 7.625s of 11/15/2022 settling in mid-May 2021,  $c = 7.625$ ,  $T = 1.5$ ,  $P = 111.3969$ , and  $y = 0.0252\%$ . Returning to the general case, then,  $P$  is given by,
 
 $$
-P = \frac {\frac {1}{2} c}{\left(1 + \frac {y}{2}\right)} + \frac {\frac {1}{2} c}{\left(1 + \frac {y}{2}\right) ^ {2}} + \dots + \frac {1 0 0 + \frac {1}{2} c}{\left(1 + \frac {y}{2}\right) ^ {2 T}} \tag {3.6}
+P = \frac{\frac{1}{2} c}{\left(1 + \frac{y}{2}\right)} + \frac{\frac{1}{2} c}{\left(1 + \frac{y}{2}\right)^{2}} + \dots + \frac{1 0 0 + \frac{1}{2} c}{\left(1 + \frac{y}{2}\right)^{2 T}} \tag {3.6}
 $$
 
 $$
-P = \frac {c}{2} \sum_ {t = 1} ^ {2 T} \frac {1}{\left(1 + \frac {y}{2}\right) ^ {t}} + \frac {1 0 0}{\left(1 + \frac {y}{2}\right) ^ {2 T}} \tag {3.7}
+P = \frac{c}{2} \sum_{t = 1}^{2 T} \frac{1}{\left(1 + \frac{y}{2}\right)^{t}} + \frac{1 0 0}{\left(1 + \frac{y}{2}\right)^{2 T}} \tag {3.7}
 $$
 
 $$
-P = \frac {c}{y} \left(1 - \frac {1}{\left(1 + \frac {y}{2}\right) ^ {2 T}}\right) + \frac {1 0 0}{\left(1 + \frac {y}{2}\right) ^ {2 T}} \tag {3.8}
+P = \frac{c}{y} \left(1 - \frac{1}{\left(1 + \frac{y}{2}\right)^{2 T}}\right) + \frac{1 0 0}{\left(1 + \frac{y}{2}\right)^{2 T}} \tag {3.8}
 $$
 
 where Equation (3.7) just re-expresses (3.6) with summation notation, and Equation (3.8) follows from (3.7) and Equation (A2.16) of Appendix A2.2.
@@ -1222,7 +1222,7 @@ the investment horizon is the same as the initial yield. These very restrictive 
 To demonstrate this point with a concrete example, consider the return on the 7.625s of 11/15/2022 from mid-May 2021 to mid-May 2022. Begin with Equation (3.5), which gives that bond's yield as of the start of that period, and multiply both sides by  $(1 + y / 2)^{2}$
 
 $$
-1 1 1. 3 9 6 9 \left(1 + \frac {y}{2}\right) ^ {2} = 3. 8 1 2 5 \left(1 + \frac {y}{2}\right) + 3. 8 1 2 5 + \frac {1 0 3 . 8 1 2 5}{\left(1 + \frac {y}{2}\right)} \tag {3.9}
+1 1 1. 3 9 6 9 \left(1 + \frac{y}{2}\right)^{2} = 3. 8 1 2 5 \left(1 + \frac{y}{2}\right) + 3. 8 1 2 5 + \frac{1 0 3 . 8 1 2 5}{\left(1 + \frac{y}{2}\right)} \tag {3.9}
 $$
 
 The left-hand side is the proceeds from an investment of the price of the bond, 111.3969, for one year – or two semiannual periods – at the semiannually compounded rate  $y$ . The right-hand side is the value of the bond position at the end of the one-year horizon, which is the sum of three parts: the proceeds from the first coupon, received on November 15, 2021, and invested for six months to May 15, 2022; the coupon received on May 15, 2022; and the price of the bond on May 15, 2022, if its yield is  $y$ . In words then, Equation (3.9) says that the one-year return on the initial investment will be  $y$  if the first coupon is reinvested at  $y$  and if the bond, at the end of the year, is priced at a yield of  $y$ . If  $y$  in every term of (3.9) is the initial yield of the bond, that is,  $0.0252\%$ , then the bond earns that initial yield over the year. But if the coupon reinvestment rate or the yield of the bond at the end of year have changed over time, and are not equal to  $0.0252\%$ , then the bond likely does not earn that rate over the one-year horizon.
@@ -1230,7 +1230,7 @@ The left-hand side is the proceeds from an investment of the price of the bond, 
 To see that a bond may not earn its initial yield even if held to maturity, multiply both sides of Equation (3.5) by  $(1 + y / 2)^{3}$  to get,
 
 $$
-1 1 1. 3 9 6 9 \left(1 + \frac {y}{2}\right) ^ {3} = 3. 8 1 2 5 \left(1 + \frac {y}{2}\right) ^ {2} + 3. 8 1 2 5 \left(1 + \frac {y}{2}\right) + 1 0 3. 8 1 2 5 \tag {3.10}
+1 1 1. 3 9 6 9 \left(1 + \frac{y}{2}\right)^{3} = 3. 8 1 2 5 \left(1 + \frac{y}{2}\right)^{2} + 3. 8 1 2 5 \left(1 + \frac{y}{2}\right) + 1 0 3. 8 1 2 5 \tag {3.10}
 $$
 
 Now, the left-hand side is the proceeds from an investment of 111.3969 for 1.5 years. The right-hand side is the value of the bond position at maturity, that is, November 15, 2022, which is, again, the sum of reinvested coupons and the final coupon and principal payments. If  $y$  in every term of (3.10) is the initial yield, then the bond earns that initial yield to maturity. But if coupons are invested at a different rate, the bond does not earn its initial yield over its life.
@@ -1248,7 +1248,7 @@ Say that the one-year spot rate is  $0\%$  and the two-year spot rate is  $10\%$
 For example, for the  $5\%$  bond,
 
 $$
-\begin{array}{l} 91.7769 = \frac {5}{(1 + 0 \%)} + \frac {105}{(1 + 10 \%) ^ {2}} (3.11) \\ = \frac {5}{(1 + 9.7203 \%)} + \frac {105}{(1 + 9.7203 \%) ^ {2}} (3.12) \\ \end{array}
+\begin{array}{l} 91.7769 = \frac{5}{(1 + 0 \%)} + \frac{105}{(1 + 10 \%)^{2}} (3.11) \\ = \frac{5}{(1 + 9.7203 \%)} + \frac{105}{(1 + 9.7203 \%)^{2}} (3.12) \\ \end{array}
 $$
 
 where Equation (3.11) uses the assumed spot rates to discount cash flows and Equation (3.12) follows from the definition of yield to maturity.
@@ -1300,13 +1300,13 @@ While yield spreads are particularly easy to calculate and use, they are actuall
 Bond spreads are a more careful and more meaningful formulation of expressing price differences as a spread of rates. To illustrate, consider again the US Treasury 7.625s of 11/15/2022. Table 1.3 derives discount factors from a set of newly issued, benchmark Treasury bonds, which did not include the 7.625s of 11/15/2022. Table 1.4 then shows that the 111.3969 market price of the 7.625s of 11/15/2022 is 11.72 cents rich relative to its 111.2797 present value, which is computed using the discount factors derived from the benchmark bonds. The point of a bond spread is to express this 11.72 cents of richness as a spread of rates. Bond spreads can be computed relative to par, spot, or forward rates, but this section works with forward rates. The forward rates implied from the discount factors in Table 1.3 are  $0.0154\%$ ,  $0.1008\%$ , and  $0.1833\%$ , for terms of 0.5, 1.0, and 1.5 years, respectively. Therefore, the 111.2797 present value of the 7.625s of 11/15/2022 is given by,
 
 $$
-\begin{array}{l} 111.2797 = \frac{3.8125}{\left(1 + \frac{0.0154\%}{2}\right)} +\frac{3.8125}{\left(1 + \frac{0.0154\%}{2}\right)\left(1 + \frac{0.1008\%}{2}\right)} \\ + \frac {103.8125}{\left(1 + \frac {0.0154 \%}{2}\right) \left(1 + \frac {0.1008 \%}{2}\right) \left(1 + \frac {0.1833 \%}{2}\right)} \tag{3.13} \\ \end{array}
+\begin{array}{l} 111.2797 = \frac{3.8125}{\left(1 + \frac{0.0154\%}{2}\right)} +\frac{3.8125}{\left(1 + \frac{0.0154\%}{2}\right)\left(1 + \frac{0.1008\%}{2}\right)} \\ + \frac{103.8125}{\left(1 + \frac{0.0154 \%}{2}\right) \left(1 + \frac{0.1008 \%}{2}\right) \left(1 + \frac{0.1833 \%}{2}\right)} \tag{3.13} \\ \end{array}
 $$
 
 The bond spread with respect to forward rates is defined as the spread that, when added to each forward rate, sets the bond's present value equal to its market price. In this case, denoting the spread by  $s$ ,
 
 $$
-\begin{array}{l} 111.3969 = \frac{3.8125}{\left(1 + \frac{0.0154\% + s}{2}\right)} \\ + \frac {3.8125}{\left(1 + \frac {0.0154 \% + s}{2}\right) \left(1 + \frac {0.1008 \% + s}{2}\right)} \\ + \frac {103.8125}{\left(1 + \frac {0.0154 \% + s}{2}\right) \left(1 + \frac {0.1008 \% + s}{2}\right) \left(1 + \frac {0.1833 \% + s}{2}\right)} \tag{3.14} \\ \end{array}
+\begin{array}{l} 111.3969 = \frac{3.8125}{\left(1 + \frac{0.0154\% + s}{2}\right)} \\ + \frac{3.8125}{\left(1 + \frac{0.0154 \% + s}{2}\right) \left(1 + \frac{0.1008 \% + s}{2}\right)} \\ + \frac{103.8125}{\left(1 + \frac{0.0154 \% + s}{2}\right) \left(1 + \frac{0.1008 \% + s}{2}\right) \left(1 + \frac{0.1833 \% + s}{2}\right)} \tag{3.14} \\ \end{array}
 $$
 
 Solving,  $s = -0.0727\%$ , or about minus seven basis points. The spread is negative because the bond is rich; that is, the market price is above the present value as computed with the benchmark curve. In other words, the benchmark forward curve has to be shifted down to recover the relatively high market price.[5]
@@ -1470,7 +1470,7 @@ TABLE 4.2 Calculating DV01 for Bonds in Table 4.1, as of Mid-May 2021.
 -1 or +1 basis point, respectively. All other par rates fall or rise as well, of course, as discussed in the previous section. Given these prices, the first step in computing DV01 is to compute the slope of the price-rate curve, that is, the change in price divided by the change in rate. For the NSC 4.10s of 05/15/2021, the slope around the current market level is,
 
 $$
-\frac {99.6990 - 100.1801}{0.02 \%} = - 2,406 \tag{4.1}
+\frac{99.6990 - 100.1801}{0.02 \%} = - 2,406 \tag{4.1}
 $$
 
 The left-hand side of (4.1) is the difference between the bond prices at  $+1$  and  $-1$  basis point divided by the change in rates of  $+1 - (-1) = 2$  basis points, or  $0.02\%$ . Note that the current price – corresponding to a shift of 0 basis points – is not used in this calculation. From a numerical perspective, it is more accurate to estimate the slope of the curve at the current rate with shifts of  $+1$  and  $-1$  basis point, which are centered around the current rate, rather than with shifts of  $-1$  and 0 basis points, which are centered slightly below the current rate, or with shifts of 0 and  $+1$  basis point, which are centered slightly above the current rate.
@@ -1478,7 +1478,7 @@ The left-hand side of (4.1) is the difference between the bond prices at  $+1$  
 While Equation (4.1) gives  $-2,406$  as the slope of the price-rate curve, its scale – the change in price per unit change in rates, that is, a change of 1.0 or  $100\%$  or 10,000 basis points – is not very intuitive. Much more intuitive and useful is the change in price for a one-basis-point change in rates. To this end, the slope can be divided by 10,000 to give, rounded to three decimal places,  $-0.241$ . Furthermore, because the prices of almost all fixed income products fall as rates increase, it is conventional to drop the minus sign as understood. These two adjustments to the slope calculated in Equation (4.1) give the bond's DV01,
 
 $$
-- \frac {1}{10,000} \frac {99.6990 - 100.1801}{0.02 \%} = 0.241 \tag{4.2}
+- \frac{1}{10,000} \frac{99.6990 - 100.1801}{0.02 \%} = 0.241 \tag{4.2}
 $$
 
 In words, a DV01 of 0.241 means that 100 face amount of the bond increases in price by 0.241 dollars or 24.1 cents when rates decrease by one basis point. Note that DV01 measures a price change per 100 face amount because the prices in Table 4.2 are per 100 face amount. While DV01, like
@@ -1486,19 +1486,19 @@ In words, a DV01 of 0.241 means that 100 face amount of the bond increases in pr
 price, is typically quoted per 100 face amount, it is occasionally useful to quote the DV01 of particular position. In these situations, DV01 is explicitly quoted in units of currency. For example, because the DV01 of the NSC century bond is 0.241 per 100 face amount, a position of \$10 million has a DV01 of,
 
 $$
-\$ 10,000,000 \times \frac {0 . 2 4 1}{1 0 0} = \$ 2 4, 1 0 0 \tag {4.3}
+\$ 10,000,000 \times \frac{0 . 2 4 1}{1 0 0} = \$ 2 4, 1 0 0 \tag {4.3}
 $$
 
 To generalize the discussion here, let  $P$  denote the price of a fixed income instrument and let  $y$  denote the single factor that determines rate changes across the term structure, which, in the context of this chapter, is the 30-year HQM par rate. Finally, let  $\Delta y$  denote the change in the factor  $y$  and  $\Delta P$  the change in the price given that change in  $y$ . With this notation, the DV01 of a fixed income instrument is estimated by,
 
 $$
-D V 0 1 \approx - \frac {1}{1 0 , 0 0 0} \frac {\Delta P}{\Delta y} \tag {4.4}
+D V 0 1 \approx - \frac{1}{1 0 , 0 0 0} \frac{\Delta P}{\Delta y} \tag {4.4}
 $$
 
 The slope of the NSC bond's price-rate curve at the current rate is estimated in Equations (4.1) and (4.2) with prices at levels one basis point below and one basis point above the current rate. A more accurate estimate might be obtained by shifting the current rate up and down by 0.5 basis points, or 0.1 basis points, etc. In the calculus, the limit of the resulting estimates of the slope, as the size of the shift shrinks to zero, is known as the derivative and denoted  $dP/dy$ . In some cases, like the yield-based metrics discussed later in this chapter, the derivative of the price-rate function can be written in closed form, that is, with a relatively simple mathematical formula. More generally, however, prices and the slope of the price-rate function have to be calculated numerically. In any case, the limit of Equation (4.4) as the size of the shift shrinks to zero gives DV01 in terms of the derivative instead of the slope,
 
 $$
-D V 0 1 = - \frac {1}{1 0 , 0 0 0} \frac {d P}{d y} \tag {4.5}
+D V 0 1 = - \frac{1}{1 0 , 0 0 0} \frac{d P}{d y} \tag {4.5}
 $$
 
 The derivative of a curve at a particular point is often illustrated with tangent lines. In Figure 4.3, the solid black line is the price-rate curve of the NSC century bonds, which is also shown in Figure 4.2. The dashed line is the tangent line of the curve at the current market rate. This means that the slope of the line equals the derivative of the curve at the current market rate, and that the line just touches the curve at that rate. Figure 4.3 also shows the tangent line to the curve at a rate 150 basis points below the current market rate. The slope of this tangent line is clearly steeper than the other, which means that the NSC 4.10s of 05/15/2121 are more sensitive to rates at 150 basis points below the current rate than they are at the current rate.
@@ -1523,7 +1523,7 @@ The next question, therefore, is which Treasury bond to sell. Because, as mentio
 The final question, then, is what face amount of Treasury bonds to sell against the purchase of \$10 million face amount of the NSC bonds. One common solution is to ensure that the net DV01 of the combined position is zero. In other words, choose the face amount of Treasuries such that, if rates change by one basis point, the value of the net position is unchanged. Denoting the face amount of the Treasury hedge by  $F$ , and using the DV01s of the two bonds computed in Table 4.2,  $F$  is determined by the following equation,
 
 $$
-F \frac {0 . 1 9 9}{1 0 0} + \$ 1 0, 0 0 0, 0 0 0 \frac {0 . 2 4 1}{1 0 0} = 0 \tag {4.6}
+F \frac{0 . 1 9 9}{1 0 0} + \$ 1 0, 0 0 0, 0 0 0 \frac{0 . 2 4 1}{1 0 0} = 0 \tag {4.6}
 $$
 
 The first term of (4.6) gives the change in the value of  $F$  face amount of Treasury bonds if rates fall by one basis point - 19.9 cents per 100 face amount, and, therefore,  $F$  times 0.199/100 for  $F$  face amount. The second term, along the same lines, gives the change in the value of the \$10 million face amount of NSC bonds if rates fall by one basis point. The equation as a whole, therefore, requires that the combined, hedged position neither gains nor loses value when rates fall by one basis point. And because the hedged profit and loss (P&L) when rates fall by some other number of basis points is just that number of basis points times the left-hand side of (4.6), the equation holds for that number of basis points as well (subject, of course, to the limitation of DV01 as a local measure of interest rate sensitivity).
@@ -1531,7 +1531,7 @@ The first term of (4.6) gives the change in the value of  $F$  face amount of Tr
 Solving Equation (4.6) for  $F$ ,
 
 $$
-F = - \$ 10,000,000 \frac {0 . 2 4 1}{0 . 1 9 9} = - \$ 12,1 1 0,5 5 3 \tag {4.7}
+F = - \$ 10,000,000 \frac{0 . 2 4 1}{0 . 1 9 9} = - \$ 12,1 1 0,5 5 3 \tag {4.7}
 $$
 
 Hence, the market maker can hedge its  \$10 million face amount of the NSC bonds by selling about\$ 12.1 million face amount of the Treasury bond. Intuitively, because the price of the NSC bonds changes by 24.1 cents per
@@ -1543,11 +1543,11 @@ To elaborate on how the hedge works, say that rates rise by five basis points af
 In general, if the DV01s of bonds A and B are  $DV01^{A}$  and  $DV01^{B}$ , then  $F^{A}$  face amount of bond A is hedged with  $F^{B}$  face amount of bond B such that,
 
 $$
-F ^ {A} \frac {D V 0 1 ^ {A}}{1 0 0} + F ^ {B} \frac {D V 0 1 ^ {B}}{1 0 0} = 0 \tag {4.8}
+F^{A} \frac{D V 0 1^{A}}{1 0 0} + F^{B} \frac{D V 0 1^{B}}{1 0 0} = 0 \tag {4.8}
 $$
 
 $$
-F ^ {B} = - F ^ {A} \frac {D V 0 1 ^ {A}}{D V 0 1 ^ {B}} \tag {4.9}
+F^{B} = - F^{A} \frac{D V 0 1^{A}}{D V 0 1^{B}} \tag {4.9}
 $$
 
 Equation (4.8) is the generalization of Equation (4.6). The general solution, Equation (4.9), reveals two intuitive points about DV01 hedging. First, a long position in bond A is hedged by a short position in bond B. Second, the bond with the higher DV01 is traded in smaller quantity. In the market making example, a long position in the NSC bonds is hedged by a short position in Treasury bonds, and, because the DV01 of the NSC bonds is greater than that of the Treasury bonds, \$10 million of NSC bonds is hedged by \$12.1 million of Treasury bonds.
@@ -1561,25 +1561,25 @@ Another popular metric for interest rate sensitivity is duration. Whereas DV01 m
 Using the same notation as in Section 4.2, duration,  $D$ , is estimated in terms of the slope as,
 
 $$
-D \approx - \frac {\Delta P / P}{\Delta y} = - \frac {1}{P} \frac {\Delta P}{\Delta y} \tag {4.10}
+D \approx - \frac{\Delta P / P}{\Delta y} = - \frac{1}{P} \frac{\Delta P}{\Delta y} \tag {4.10}
 $$
 
 and given in terms of the derivative as,
 
 $$
-D = - \frac {d P / P}{d y} = - \frac {1}{P} \frac {d P}{d y} (4. 1 1)
+D = - \frac{d P / P}{d y} = - \frac{1}{P} \frac{d P}{d y} (4. 1 1)
 $$
 
 Because  $\Delta P / P$  and  $dP / P$  both represent percentage change in price, Equations (4.10) and (4.11) express duration as the percentage change in price for a change in rates. Also, for intuition, it is useful to rewrite Equation (4.10) as,
 
 $$
-\frac {\Delta P}{P} \approx - D \Delta y \tag {4.12}
+\frac{\Delta P}{P} \approx - D \Delta y \tag {4.12}
 $$
 
 Table 4.3 shows the calculation of duration for the three bonds introduced in Table 4.1. Estimating the duration of the NSC 4.10s of 05/15/2121 with Equation (4.10),
 
 $$
-- \frac {1}{99.9390} \frac {99.6990 - 100.1801}{0.02 \%} = 24.1 \tag{4.13}
+- \frac{1}{99.9390} \frac{99.6990 - 100.1801}{0.02 \%} = 24.1 \tag{4.13}
 $$
 
 Applying Equation (4.12), the percentage change in the price of the NSC bond for a decline in rates of 100 basis points, or  $1\%$ , is  $-24.1 \times (-1\%) = 24.1\%$ . Hence, a duration of 24.1 roughly means that a fall in rates of 100 basis points increases bond price by  $24.1\%$ . This interpretation is only roughly correct because duration, like DV01, is based on the slope of the price-rate curve and, therefore, is a local measure of price change.
@@ -1606,7 +1606,7 @@ FIGURE 4.4 DV01s of the Treasury 1.625s of 11/15/2050 and of the Treasury 1.625s
 Mathematically, convexity,  $C$ , is defined as,
 
 $$
-C = \frac {1}{P} \frac {d ^ {2} P}{d y ^ {2}} \tag {4.14}
+C = \frac{1}{P} \frac{d^{2} P}{d y^{2}} \tag {4.14}
 $$
 
 the second derivative of the price-rate function divided by price. To summarize, all of these statements are equivalent: the price-rate curve is convex; its second derivative is positive; its first derivative becomes less negative as rates increase; and its DV01 falls as rates increase.
@@ -1616,7 +1616,7 @@ Table 4.4 calculates the convexity of the NSC bond and of the two Treasury bonds
 The final step in Table 4.4 is to estimate the convexity as defined in Equation (4.14). The second derivative centered at the current rate (i.e., a "change" of 0.0) is estimated as the change in the first derivatives from  $+0.5$  to  $-0.5$  basis points divided by the change in rates of  $+0.5 - (-0.5)$ , or 1 basis point. Dividing the result by price gives the estimate of convexity centered at current market levels. For the NSC bond,
 
 $$
-C = \frac {1}{99.939} \frac {- 2,399.67 - (-2,410.67)}{0.01 \%} = 1,101 \tag{4.15}
+C = \frac{1}{99.939} \frac{- 2,399.67 - (-2,410.67)}{0.01 \%} = 1,101 \tag{4.15}
 $$
 
 TABLE 4.4 Calculating Convexity for Bonds in Table 4.1, as of Mid-May 2021. Rate Changes Are in Basis Points.  
@@ -1628,7 +1628,7 @@ As expected from the curvatures of the price-rate curves in Figure 4.2, the conv
 Convexity values are not as easily interpreted as DV01 and duration values, but consider the following. Equation (4.12) showed that the percentage change in a bond's price approximately equals the negative of its duration times the change in rate. However, Appendix A4.2 shows that a better approximation uses both the bond's duration and convexity,
 
 $$
-\frac {\Delta P}{P} \approx - D \Delta y + \frac {1}{2} C \Delta y ^ {2} \tag {4.16}
+\frac{\Delta P}{P} \approx - D \Delta y + \frac{1}{2} C \Delta y^{2} \tag {4.16}
 $$
 
 Because duration appears in the first term of (4.16) and convexity in the second, using duration alone is called a first-order approximation, while using both duration and convexity is called a second-order approximation.
@@ -1644,7 +1644,7 @@ $$
 using duration alone, and,
 
 $$
--24.1 \times (-1\%) + 0.5 \times 1,101 \times (-1\%) ^ {2} = 29.6\% \tag{4.18}
+-24.1 \times (-1\%) + 0.5 \times 1,101 \times (-1\%)^{2} = 29.6\% \tag{4.18}
 $$
 
 using both duration and convexity. The actual price of the bond after rates decline by 100 basis points is 130.898, which translates into a true percentage price change of  $(130.898 - 99.939) / 99.939$ , or  $30.978\%$ . Therefore, adding the convexity term in Equations (4.16) and (4.18) does result in a more accurate approximation.
@@ -1657,7 +1657,7 @@ FIGURE 4.5 Price-Rate Curve of the NSC 4.10s of 05/15/2121, as of Mid-May 2021, 
 Returning now to interpreting convexity numbers, the difference between approximating percentage price change with both duration and convexity [Equation (4.18)] and with duration alone [Equation (4.17)] is the term,
 
 $$
-0.5 \times 1,101 \times (1\%) ^ {2} = 5.5 \% \tag{4.19}
+0.5 \times 1,101 \times (1\%)^{2} = 5.5 \% \tag{4.19}
 $$
 
 Therefore, noting that  $(1\%)^2$  equals one basis point, the correction of  $5.5\%$  in (4.19) is half the convexity divided by 10,000. In other words, for a  $1\%$  change in rates, the second-order correction to the duration approximation of price change is half the convexity divided by 10,000 (i.e., 0.055), or equivalently, the percentage correction is half the convexity divided by 100 (i.e., 5.5).
@@ -1692,11 +1692,11 @@ Previous sections described DV01, duration, and convexity in a general, one-fact
 The reason that yield-based metrics are easy to compute is that price can be written as a function of yield, in the forms of Equations (3.7) and (3.8). Recalling that  $c$  is the annual coupon payment and  $T$  is the number of years to maturity, these equations are repeated here for convenience,
 
 $$
-P = \frac {c}{2} \sum_ {t = 1} ^ {2 T} \frac {1}{\left(1 + \frac {y}{2}\right) ^ {t}} + \frac {1 0 0}{\left(1 + \frac {y}{2}\right) ^ {2 T}} \tag {4.20}
+P = \frac{c}{2} \sum_{t = 1}^{2 T} \frac{1}{\left(1 + \frac{y}{2}\right)^{t}} + \frac{1 0 0}{\left(1 + \frac{y}{2}\right)^{2 T}} \tag {4.20}
 $$
 
 $$
-P = \frac {c}{y} \left(1 - \frac {1}{\left(1 + \frac {y}{2}\right) ^ {2 T}}\right) + \frac {1 0 0}{\left(1 + \frac {y}{2}\right) ^ {2 T}} \tag {4.21}
+P = \frac{c}{y} \left(1 - \frac{1}{\left(1 + \frac{y}{2}\right)^{2 T}}\right) + \frac{1 0 0}{\left(1 + \frac{y}{2}\right)^{2 T}} \tag {4.21}
 $$
 
 With these expressions, DV01 and duration, as defined in Equations (4.5) and (4.11), can be solved explicitly. Calculate the derivative of the previous
@@ -1704,21 +1704,21 @@ With these expressions, DV01 and duration, as defined in Equations (4.5) and (4.
 price-yield relationships and then divide by  $-10,000$  to find DV01 or by  $-P$  to find duration. The resulting formulas for yield-based DV01 are,
 
 $$
-D V 0 1 = \frac {1}{1 0 , 0 0 0} \frac {1}{1 + \frac {y}{2}} \left[ \frac {c}{2} \sum_ {t = 1} ^ {2 T} \frac {t}{2} \frac {1}{\left(1 + \frac {y}{2}\right) ^ {t}} + T \frac {1 0 0}{\left(1 + \frac {y}{2}\right) ^ {2 T}} \right] \tag {4.22}
+D V 0 1 = \frac{1}{1 0 , 0 0 0} \frac{1}{1 + \frac{y}{2}} \left[ \frac{c}{2} \sum_{t = 1}^{2 T} \frac{t}{2} \frac{1}{\left(1 + \frac{y}{2}\right)^{t}} + T \frac{1 0 0}{\left(1 + \frac{y}{2}\right)^{2 T}} \right] \tag {4.22}
 $$
 
 $$
-D V 0 1 = \frac {1}{1 0 , 0 0 0} \left[ \frac {c}{y ^ {2}} \left(1 - \frac {1}{\left(1 + \frac {y}{2}\right) ^ {2 T}}\right) + T \left(1 - \frac {c}{1 0 0 y}\right) \frac {1 0 0}{\left(1 + \frac {y}{2}\right) ^ {2 T + 1}} \right] \tag {4.23}
+D V 0 1 = \frac{1}{1 0 , 0 0 0} \left[ \frac{c}{y^{2}} \left(1 - \frac{1}{\left(1 + \frac{y}{2}\right)^{2 T}}\right) + T \left(1 - \frac{c}{1 0 0 y}\right) \frac{1 0 0}{\left(1 + \frac{y}{2}\right)^{2 T + 1}} \right] \tag {4.23}
 $$
 
 and for yield-based duration are,
 
 $$
-D = \frac {1}{P} \frac {1}{1 + \frac {y}{2}} \left[ \frac {c}{2} \sum_ {t = 1} ^ {2 T} \frac {t}{2} \frac {1}{\left(1 + \frac {y}{2}\right) ^ {t}} + T \frac {1 0 0}{\left(1 + \frac {y}{2}\right) ^ {2 T}} \right] \tag {4.24}
+D = \frac{1}{P} \frac{1}{1 + \frac{y}{2}} \left[ \frac{c}{2} \sum_{t = 1}^{2 T} \frac{t}{2} \frac{1}{\left(1 + \frac{y}{2}\right)^{t}} + T \frac{1 0 0}{\left(1 + \frac{y}{2}\right)^{2 T}} \right] \tag {4.24}
 $$
 
 $$
-D = \frac {1}{P} \left[ \frac {c}{y ^ {2}} \left(1 - \frac {1}{\left(1 + \frac {y}{2}\right) ^ {2 T}}\right) + T \left(1 - \frac {c}{1 0 0 y}\right) \frac {1 0 0}{\left(1 + \frac {y}{2}\right) ^ {2 T + 1}} \right] \tag {4.25}
+D = \frac{1}{P} \left[ \frac{c}{y^{2}} \left(1 - \frac{1}{\left(1 + \frac{y}{2}\right)^{2 T}}\right) + T \left(1 - \frac{c}{1 0 0 y}\right) \frac{1 0 0}{\left(1 + \frac{y}{2}\right)^{2 T + 1}} \right] \tag {4.25}
 $$
 
 This formulation of yield-based duration is also known in the industry as modified and adjusted duration.<sup>1</sup>
@@ -1730,7 +1730,7 @@ where the bond price can be moved inside the brackets, each weight can be descri
 Table 4.5 illustrates this interpretation by calculating the yield-based DV01 and duration of the Treasury 1.625s of 05/15/2026 as of mid-May 2021. The first column gives the term of each cash flow; the second column gives the cash flows; and the third column gives the present value of each cash flow discounted at  $0.82277\%$ , the bond's yield at the time. For example, the present value of the coupon payable in 2.5 years is,
 
 $$
-\frac {0.8125}{\left(1 + \frac {0.82277 \%}{2}\right) ^ {5}} = 0.7960 \tag{4.26}
+\frac{0.8125}{\left(1 + \frac{0.82277 \%}{2}\right)^{5}} = 0.7960 \tag{4.26}
 $$
 
 The sum of the present values of the cash flows is just the market price, in this case, 103.9219. The fourth column gives the present value of each cash flow as a percentage of the market price. Not surprisingly, for a bond maturing in five years and trading at a small premium, the principal accounts for a large share of the bond's value, in this case, over  $93\%$ .
@@ -1746,21 +1746,21 @@ Lastly, the sixth column of the table gives term times present value. The sum of
 As mentioned earlier, the intuition derived from yield-based measures is often useful for understanding more general risk metrics. A lot of this intuition arises from the relatively simple expressions for yield-based DV01 and duration in Equations (4.23) and (4.25), and from the extremely simple expressions in the case of zero coupon bonds and par bonds. To derive these latter expressions, simply substitute  $c = 0$  and then  $c = 100y$  into the price equation, (4.21), and into the DV01 and duration equations just referenced, to obtain the following. For a zero coupon bond,
 
 $$
-D V 0 1 _ {c = 0} = \frac {T}{1 0 0 \left(1 + \frac {y}{2}\right) ^ {2 T + 1}} \tag {4.27}
+D V 0 1_{c = 0} = \frac{T}{1 0 0 \left(1 + \frac{y}{2}\right)^{2 T + 1}} \tag {4.27}
 $$
 
 $$
-D _ {c = 0} = \frac {T}{\left(1 + \frac {y}{2}\right)} \tag {4.28}
+D_{c = 0} = \frac{T}{\left(1 + \frac{y}{2}\right)} \tag {4.28}
 $$
 
 And for a par bond,
 
 $$
-D V 0 1 _ {c = 1 0 0 y} = \frac {1}{1 0 0 y} \left(1 - \frac {1}{\left(1 + \frac {y}{2}\right) ^ {2 T}}\right) \tag {4.29}
+D V 0 1_{c = 1 0 0 y} = \frac{1}{1 0 0 y} \left(1 - \frac{1}{\left(1 + \frac{y}{2}\right)^{2 T}}\right) \tag {4.29}
 $$
 
 $$
-D _ {c = 1 0 0 y} = \frac {1}{y} \left(1 - \frac {1}{\left(1 + \frac {y}{2}\right) ^ {2 T}}\right) \tag {4.30}
+D_{c = 1 0 0 y} = \frac{1}{y} \left(1 - \frac{1}{\left(1 + \frac{y}{2}\right)^{2 T}}\right) \tag {4.30}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/b56776c0-2b50-4f78-8378-ff4fb575a8db/224070606902a8921285e5bda46c3f55dab5633820515c811f24ba1a9600e2c5.jpg)  
@@ -1777,7 +1777,7 @@ Figure (4.8) graphs the DV01s of the same set of bonds, continuing to hold the y
 Unlike duration, however, Figure (4.8) shows that DV01 increases with coupon. To understand this, combine the definitions of DV01 and duration in Equations (4.5) and (4.11) to see that,
 
 $$
-D V 0 1 = \frac {P \times D}{1 0 , 0 0 0} \tag {4.31}
+D V 0 1 = \frac{P \times D}{1 0 , 0 0 0} \tag {4.31}
 $$
 
 In thinking about how DV01 changes with term, therefore, there is a price effect in addition to a duration effect. The duration effect almost always causes DV01 to increase with term, along the lines of the previous discussion. The price effect, however, can reinforce or counter this duration effect. For par bonds, whose prices are always 100, there is no price effect. For premium
@@ -1797,7 +1797,7 @@ FIGURE 4.9 Duration of Par Bonds, with Yields Equal to  $0.5\%$ ,  $2\%$ , and  
 The section turns now to yield-based convexity. Given the general definition of convexity in Equation (4.14), an expression for yield-based convexity can be found by taking the second derivative of Equation (4.20) and dividing by price. The resulting formula is,
 
 $$
-C = \frac {1}{P \left(1 + \frac {y}{2}\right) ^ {2}} \left[ \frac {c}{2} \sum_ {t = 1} ^ {2 T} \frac {(t / 2) ((t + 0 . 5) / 2)}{\left(1 + \frac {y}{2}\right) ^ {t}} + \frac {1 0 0 T (T + 0 . 5)}{\left(1 + \frac {y}{2}\right) ^ {2 T}} \right] \tag {4.32}
+C = \frac{1}{P \left(1 + \frac{y}{2}\right)^{2}} \left[ \frac{c}{2} \sum_{t = 1}^{2 T} \frac{(t / 2) ((t + 0 . 5) / 2)}{\left(1 + \frac{y}{2}\right)^{t}} + \frac{1 0 0 T (T + 0 . 5)}{\left(1 + \frac{y}{2}\right)^{2 T}} \right] \tag {4.32}
 $$
 
 As in the formula for yield-based duration, Equation (4.24), the terms inside the brackets of (4.32) multiply the present value of payments by some function of the term of those payments. The big difference between the two, however, is that, in the duration formula, that function of term is linear (i.e.,  $t$  and  $T$ ), while in the convexity formula, the function is quadratic,  $(t / 2)((t + 0.5) / 2)$  and  $T(T + 0.5)$ . The implication is that convexity increases much faster with term than duration. This can be seen in the more general case from Tables 4.3 and 4.4. The durations of the 5- and 29.5-year Treasuries, and the 100-year NSC bonds are 3.9, 23.6, and 24.1, respectively, while their convexities are 12, 648, and 1,101, respectively.
@@ -1805,13 +1805,13 @@ As in the formula for yield-based duration, Equation (4.24), the terms inside th
 For completeness, the convexity formulas for zero coupon and par bonds are included here. For zero coupon bonds,
 
 $$
-C _ {c = 0} = \frac {T (T + 0 . 5)}{\left(1 + \frac {y}{2}\right) ^ {2}} \tag {4.33}
+C_{c = 0} = \frac{T (T + 0 . 5)}{\left(1 + \frac{y}{2}\right)^{2}} \tag {4.33}
 $$
 
 and for par bonds,
 
 $$
-C _ {c = y} = \frac {2}{y ^ {2}} \left[ 1 - \frac {1}{\left(1 + \frac {y}{2}\right) ^ {2 T}} \right] - \frac {2 T}{y \left(1 + \frac {y}{2}\right) ^ {2 T + 1}} \tag {4.34}
+C_{c = y} = \frac{2}{y^{2}} \left[ 1 - \frac{1}{\left(1 + \frac{y}{2}\right)^{2 T}} \right] - \frac{2 T}{y \left(1 + \frac{y}{2}\right)^{2 T + 1}} \tag {4.34}
 $$
 
 The section concludes with a note about the assumptions underlying the use of yield-based metrics. The yield-based DV01, duration, and convexity for each bond are determined by shifting the yield of that bond. Therefore, any risk management strategy across bonds implicitly assumes that yields of all included bonds move up and down together, in parallel. For example, if one bond has a yield-based DV01 of 0.05 and a second of 0.10, then hedging 100 face amount of the second by selling 200 face amount of the first is perfectly successful only if the yields of both bonds move by the same amount. If a trader hedges a 9.5-year bond with a 10-year bond over a short period of time, the assumption of parallel shifts in yield might be reasonable
@@ -1846,7 +1846,7 @@ the fund would have an asset duration equal to that of the bond, 15.56, and a li
 To clean up that hedge, the pension fund might use cash. Denote the amount held in cash by \( M \), so that the fund's remaining funds, \( \\(140 - M \), are invested in the 20-year bond. Then, as mentioned in Section 4.4, the duration of this portfolio is the weighted average of its component durations. Note, too, that the duration of cash equals zero: its present value always equals its amount, no matter how rates change. Therefore, setting the duration of this asset portfolio equal to the duration of the liabilities,
 
 $$
-\frac {M}{1 4 0} \times 0 + \frac {1 4 0 - M}{1 4 0} \times 1 5. 5 6 = 1 6. 6 6 \tag {4.35}
+\frac{M}{1 4 0} \times 0 + \frac{1 4 0 - M}{1 4 0} \times 1 5. 5 6 = 1 6. 6 6 \tag {4.35}
 $$
 
 Solving,  $M = -9.90$ , meaning that the pension fund would borrow \$9.90 million, or about \(7 \%$  of the \\)140 million, and invest  $\$  140 - (-9.90) = \ $149.90\$  or about  $107 \%$  in the 20- year bond.
@@ -1854,7 +1854,7 @@ Solving,  $M = -9.90$ , meaning that the pension fund would borrow \$9.90 millio
 The asset portfolio just described hedges the duration risk of the liabilities. But how does the convexity of the asset portfolio compare with the convexity of the liabilities? As mentioned in Section 4.5, the convexity of a portfolio is the weighted average of the convexity of its components. Here, with the convexity of cash equal to zero and the convexity of the 20-year bond equal to 141.49, the convexity of the asset portfolio is,
 
 $$
-\frac {- 9 . 9 0}{1 4 0} \times 0 + \frac {1 4 9 . 9 0}{1 4 0} \times 1 4 1. 4 9 = 1 5 1. 5 0 \tag {4.36}
+\frac{- 9 . 9 0}{1 4 0} \times 0 + \frac{1 4 9 . 9 0}{1 4 0} \times 1 4 1. 4 9 = 1 5 1. 5 0 \tag {4.36}
 $$
 
 which is less than the convexity of the liabilities, given earlier as 211.37. Hence, this asset portfolio results in the pension fund having an overall negatively convex position. Figure 4.11 graphs the P&L of this asset portfolio and of the liabilities, where the P&L of the bond is calculated as a shift in its yield, and the P&L of the liabilities by parallel shifts in the HQM par rate curve. As rates fall, the values of both the liabilities and the asset portfolio increase, as envisioned by the duration hedge. Because of the duration hedge, in fact, the values of both increase by about the same amount for relatively small rate changes. But because the liabilities have a higher convexity, the duration of the liabilities increases more as rates decline. Therefore, for large declines in rates, the increase in value of the liabilities is greater than
@@ -1970,23 +1970,23 @@ This section concludes by emphasizing that the assumptions invoked to compute th
 Unlike their one-factor equivalents in Chapter 4, key-rate DV01s and durations are based on change in price, or percentage change in price, for a change in a single key rate. Mathematically, the DV01 and duration with respect to key rate  $k$  are defined as,
 
 $$
-D V 0 1 ^ {k} = - \frac {1}{1 0 , 0 0 0} \frac {\partial P}{\partial y ^ {k}} \tag {5.1}
+D V 0 1^{k} = - \frac{1}{1 0 , 0 0 0} \frac{\partial P}{\partial y^{k}} \tag {5.1}
 $$
 
 $$
-D ^ {k} = - \frac {1}{P} \frac {\partial P}{\partial y ^ {k}} \tag {5.2}
+D^{k} = - \frac{1}{P} \frac{\partial P}{\partial y^{k}} \tag {5.2}
 $$
 
 where  $\partial P / \partial y^k$  denotes the partial derivative of price with respect to that one key rate. For example, the price of the JNJ 2.10s of 09/1/2040 is 91.2209, at which price its spread to the HQM par-rate curve is  $-0.514\%$ . After a 20-year key-rate increase of one basis point, the price of the bond – at the same spread – falls to 91.0790. Therefore, the bond's 20-year key-rate '01 is,
 
 $$
-D V 0 1 ^ {2 0} = - \frac {1}{10,000} \frac {91.0790 - 91.2209}{0.01 \%} = 0.1419 \tag{5.3}
+D V 0 1^{2 0} = - \frac{1}{10,000} \frac{91.0790 - 91.2209}{0.01 \%} = 0.1419 \tag{5.3}
 $$
 
 and its 20-year key-rate duration is,
 
 $$
-D ^ {20} = - \frac {1}{91.2209} \frac {91.0790 - 91.2209}{0.01 \%} = 15.56 \tag{5.4}
+D^{20} = - \frac{1}{91.2209} \frac{91.0790 - 91.2209}{0.01 \%} = 15.56 \tag{5.4}
 $$
 
 TABLE 5.2 Key-Rate DV01s and Hedging of the Pension Liabilities in Figure 4.10 with Par Bonds as of Mid-May 2021.  
@@ -2004,21 +2004,21 @@ Therefore, the 2.560s have exposure only to the 10-year shift, and that exposure
 Because each of the bonds has such a simple key-rate '01 profile, computing the key-rate hedge of the pension liabilities is correspondingly simple. The objective of the hedge is to purchase an asset portfolio that offsets the key-rate exposures of the liabilities. More specifically, the asset portfolio must have a DV01 exposure to the 10-year shift of  \$33,192; to the 20-year shift of\$ 52,969; etc. But because the only bond that has any exposure to the 10-year shift is the 2.560s of 05/15/2031, the full exposure to that shift has to come from that bond. Mathematically, denoting the face amount of the 10-year bond by  $F^{10}$ ,
 
 $$
-F ^ {1 0} \times \frac {0 . 0 9 1 2 5}{1 0 0} = \$ 3 3, 1 9 2 \tag {5.5}
+F^{1 0} \times \frac{0 . 0 9 1 2 5}{1 0 0} = \$ 3 3, 1 9 2 \tag {5.5}
 $$
 
 Solving,  $F^{10}$  is about \$36.375 million, which is listed in the bottom row of Table 5.2. Proceeding analogously to hedge the next three key-rate exposures, the equations are,
 
 $$
-F ^ {2 0} \times \frac {0 . 1 5 2 8 2}{1 0 0} = \$ 5 2, 9 6 9 \tag {5.6}
+F^{2 0} \times \frac{0 . 1 5 2 8 2}{1 0 0} = \$ 5 2, 9 6 9 \tag {5.6}
 $$
 
 $$
-F ^ {3 0} \times \frac {0 . 1 9 5 0 8}{1 0 0} = \$ 5 7, 7 8 6 \tag {5.7}
+F^{3 0} \times \frac{0 . 1 9 5 0 8}{1 0 0} = \$ 5 7, 7 8 6 \tag {5.7}
 $$
 
 $$
-F ^ {4 0} \times \frac {0 . 2 2 4 3 7}{1 0 0} = \$ 8 8, 7 6 6 \tag {5.8}
+F^{4 0} \times \frac{0 . 2 2 4 3 7}{1 0 0} = \$ 8 8, 7 6 6 \tag {5.8}
 $$
 
 Each of these equations can be solved on its own to find the hedge face amounts recorded in the table.
@@ -2040,19 +2040,19 @@ Because the bulk of each bond's exposure is still at the key rate closest to its
 however, because no key-rate exposure of the liability can be handled in isolation. All of the bonds have exposures to the 10-year shift; three have exposures to the 20-year shift; and so forth. Consequently, the following equations (with key-rate '01s rounded for readability) need to be solved together,
 
 $$
-F ^ {1 0} \frac {0 . 0 8 6}{1 0 0} + F ^ {2 0} \frac {0 . 0 0 6}{1 0 0} + F ^ {3 0} \frac {- 0 . 0 0 4}{1 0 0} + F ^ {4 0} \frac {- 0 . 0 0 3}{1 0 0} = \$ 3 3, 1 9 2 \tag {5.9}
+F^{1 0} \frac{0 . 0 8 6}{1 0 0} + F^{2 0} \frac{0 . 0 0 6}{1 0 0} + F^{3 0} \frac{- 0 . 0 0 4}{1 0 0} + F^{4 0} \frac{- 0 . 0 0 3}{1 0 0} = \$ 3 3, 1 9 2 \tag {5.9}
 $$
 
 $$
-F ^ {2 0} \frac {0 . 1 4 2}{1 0 0} + F ^ {3 0} \frac {0 . 0 0 7}{1 0 0} + F ^ {4 0} \frac {- 0 . 0 0 5}{1 0 0} = \$ 5 2, 9 6 9 \tag {5.10}
+F^{2 0} \frac{0 . 1 4 2}{1 0 0} + F^{3 0} \frac{0 . 0 0 7}{1 0 0} + F^{4 0} \frac{- 0 . 0 0 5}{1 0 0} = \$ 5 2, 9 6 9 \tag {5.10}
 $$
 
 $$
-F ^ {3 0} \frac {0 . 1 8 5}{1 0 0} + F ^ {4 0} \frac {0 . 0 0 9}{1 0 0} = \$ 5 7, 7 8 6 \tag {5.11}
+F^{3 0} \frac{0 . 1 8 5}{1 0 0} + F^{4 0} \frac{0 . 0 0 9}{1 0 0} = \$ 5 7, 7 8 6 \tag {5.11}
 $$
 
 $$
-F ^ {4 0} \frac {0 . 2 1 5}{1 0 0} = \$ 8 8, 7 6 6 \tag {5.12}
+F^{4 0} \frac{0 . 2 1 5}{1 0 0} = \$ 8 8, 7 6 6 \tag {5.12}
 $$
 
 Equation (5.9) says that the combined 10-year key-rate '01 of the asset portfolio must offset the 10-year key-rate '01 of the liabilities. Equation (5.10) says the same for the 20-year key rate; Equation (5.11) for the 30-year key rate; and Equation (5.12) for the 40-year key rate. The solution, given in the bottom row of Table 5.3, is not the same as that in Table 5.3 but is certainly of the same order of magnitude.
@@ -2108,7 +2108,7 @@ The exposure of the hedged portfolio to each forward bucket is the sum of the ex
 bucket, for example, the portfolio exposure is,
 
 $$
-1 0 0 \frac {0 . 0 2 5 7 8}{1 0 0} - 1 1 8. 6 2 \frac {0 . 0 1 9 7 2}{1 0 0} = 0. 0 0 2 3 9 \tag {5.13}
+1 0 0 \frac{0 . 0 2 5 7 8}{1 0 0} - 1 1 8. 6 2 \frac{0 . 0 1 9 7 2}{1 0 0} = 0. 0 0 2 3 9 \tag {5.13}
 $$
 
 The other two bucket exposures are computed similarly. Taken as a whole, the forward-bucket '01 profile of the hedged portfolio, with the first two exposures positive and the third negative, shows that the market maker's position loses money if the forward curve flattens. For example, in a particular flattening scenario, if one- to five-year forward rates increase, while six- to nine-year forward rates decrease, the position will lose money due to each of the three forward rate shifts. With curve risk quantified in this way, the market maker can choose between hedging out all curve risk, at some cost, or bearing the risk until the position can be unwound.
@@ -2126,13 +2126,13 @@ The motivation for multi-factor exposures, however, is that portfolios are expos
 To estimate portfolio volatility with two key rates, follow these steps. First, empirically estimate the volatility of changes in each key rate and the correlation between them. Second, compute the key-rate '01s of the portfolio. Third, compute the variance or volatility of the portfolio. To illustrate this third step, denote the change in the value of the portfolio by  $\Delta P$ ; the change in the two key rates by  $\Delta y_{1}$  and  $\Delta y_{2}$ ; and the key rates of the portfolio by  $KR01_{1}$  and  $KR01_{2}$ . Then, by the definition of key-rate '01s,
 
 $$
-\Delta P \approx K R 0 1 _ {1} \times \Delta y _ {1} + K R 0 1 _ {2} \times \Delta y _ {2} \tag {5.14}
+\Delta P \approx K R 0 1_{1} \times \Delta y_{1} + K R 0 1_{2} \times \Delta y_{2} \tag {5.14}
 $$
 
 Furthermore, denoting the volatility of changes in portfolio value and changes in the two key rates by  $\sigma_{P}$ ,  $\sigma_{1}$ , and  $\sigma_{2}$ , respectively, and the correlation between changes in the key rates by  $\rho$ , Equation (5.14) and the rules for computing variances and standard deviations imply that,
 
 $$
-\sigma_ {P} \approx \sqrt {K R 0 1 _ {1} ^ {2} \sigma_ {1} ^ {2} + K R 0 1 _ {2} ^ {2} \sigma_ {2} ^ {2} + 2 K R 0 1 _ {1} K R 0 1 _ {2} \rho \sigma_ {1} \sigma_ {2}} \tag {5.15}
+\sigma_{P} \approx \sqrt{K R 0 1_{1}^{2} \sigma_{1}^{2} + K R 0 1_{2}^{2} \sigma_{2}^{2} + 2 K R 0 1_{1} K R 0 1_{2} \rho \sigma_{1} \sigma_{2}} \tag {5.15}
 $$
 
 Of course, as the number of key rates or, more generally, factors, increases, more volatility and correlation inputs are required.
@@ -2171,7 +2171,7 @@ In light of the empirical evidence in Figure 6.1, the trader might very well cho
 Let  $\Delta y_{t}^{JNJ}$  and  $\Delta y_{t}^{30}$  be the changes in yields of the JNJ and 30-year Treasury bonds on date  $t$ , respectively. A regression model linking these changes is,
 
 $$
-\Delta y _ {t} ^ {J N J} = \alpha + \beta \Delta y _ {t} ^ {3 0} + \epsilon_ {t} \tag {6.1}
+\Delta y_{t}^{J N J} = \alpha + \beta \Delta y_{t}^{3 0} + \epsilon_{t} \tag {6.1}
 $$
 
 Equation 6.1 says that the dependent variable, here the change in the yield of the JNJ bond, equals: a constant or intercept,  $\alpha$ ; plus a slope,  $\beta$ , times the independent variable, here the change in the yield of the 30-year Treasury bond; plus an error term,  $\epsilon_{t}$ . The unknown constant and slope parameters are estimated from the data, in a manner explained presently. These estimated parameters, denoted  $\hat{\alpha}$  and  $\hat{\beta}$ , respectively, can then be used for prediction. Given the change in the Treasury bond yield on date  $t$ , the predicted
@@ -2179,13 +2179,13 @@ Equation 6.1 says that the dependent variable, here the change in the yield of t
 change in the yield of the JNJ bonds on that date, denoted  $\Delta \hat{y}_t^{JNJ}$ , is,
 
 $$
-\Delta \hat {y} _ {t} ^ {J N J} = \hat {\alpha} + \hat {\beta} \Delta y _ {t} ^ {3 0} \tag {6.2}
+\Delta \hat {y}_{t}^{J N J} = \hat {\alpha} + \hat {\beta} \Delta y_{t}^{3 0} \tag {6.2}
 $$
 
 and the realized error or residual on that day,  $\hat{\epsilon}_t$ , is given by,
 
 $$
-\begin{array}{l} \hat {\epsilon} _ {t} = \Delta y _ {t} ^ {J N J} - \hat {\alpha} - \hat {\beta} \Delta y _ {t} ^ {3 0} (6.3) \\ = \Delta y _ {t} ^ {J N J} - \Delta \hat {y} _ {t} ^ {J N J} (6.4) \\ \end{array}
+\begin{array}{l} \hat {\epsilon}_{t} = \Delta y_{t}^{J N J} - \hat {\alpha} - \hat {\beta} \Delta y_{t}^{3 0} (6.3) \\ = \Delta y_{t}^{J N J} - \Delta \hat {y}_{t}^{J N J} (6.4) \\ \end{array}
 $$
 
 For example, say that the estimated constant and slope parameters are 0 and 0.84, respectively, and that the Treasury bond yield changes by  $-18.2$  basis points. Then, by Equation (6.2), the predicted change in the yield of the JNJ bond is  $0 + 0.84 \times (-18.2) = -15.3$  basis points. If, furthermore, the actual change in the JNJ bond is  $-11.1$  basis points, then, by (6.3) or (6.4), the realized error or residual is  $-11.1 - (-15.3)$  or 4.2 basis points. In Figure 6.1, this residual can be thought of as a vertical line dropped from the data point,  $(-18.2, -11.1)$ , to the regression line.
@@ -2193,7 +2193,7 @@ For example, say that the estimated constant and slope parameters are 0 and 0.84
 Least-squares estimation of the unknown parameters finds  $\hat{\alpha}$  and  $\hat{\beta}$  to minimize the sum of the squares of the residuals over the observation period,
 
 $$
-\sum_ {t} \hat {\varepsilon} _ {t} ^ {2} = \sum_ {t} \left(\Delta y _ {t} ^ {J N J} - \hat {\alpha} - \hat {\beta} \Delta y _ {t} ^ {3 0}\right) ^ {2} \tag {6.5}
+\sum_{t} \hat {\varepsilon}_{t}^{2} = \sum_{t} \left(\Delta y_{t}^{J N J} - \hat {\alpha} - \hat {\beta} \Delta y_{t}^{3 0}\right)^{2} \tag {6.5}
 $$
 
 where the equality follows from Equation (6.3). Squaring of the errors ensures that offsetting positive and negative errors are not considered as acceptable as zero errors, and that large errors in absolute value are penalized heavily relative to smaller errors.
@@ -2205,7 +2205,7 @@ Least-squares estimation is available in many statistical packages and spreadshe
 coefficient,  $\hat{\beta}$ , is 0.842, which says that, on average, the change in the yield of the JNJ bond is only 0.842 times the change in the yield of the Treasury bond, which is very different from a parallel shift. The estimate of the constant,  $\hat{\alpha}$  is not very different from zero, which is typically the case in regressions of this sort. From an economic perspective, it would be odd if, over an extended period of time, changes in the yield of the JNJ bond tended to be positive or negative when there is no change in the yield of the Treasury bond. The line in Figure 6.1 is the fitted regression line, which is Equation (6.2) with its estimated coefficients,
 
 $$
-\Delta \hat {y} _ {t} ^ {J N J} = 0. 0 6 0 + 0. 8 4 2 \Delta y _ {t} ^ {3 0} \tag {6.6}
+\Delta \hat {y}_{t}^{J N J} = 0. 0 6 0 + 0. 8 4 2 \Delta y_{t}^{3 0} \tag {6.6}
 $$
 
 Table 6.2 also gives the standard errors of the constant and slope coefficients, which provide confidence intervals around the estimates: the interval of each estimate plus or minus two standard errors falls around the true parameter values approximately  $95\%$  of the time. In this regression, the confidence intervals are 0.060 plus or minus 2 times 0.223, or  $(-0.386, 0.446)$ , and 0.842 plus or minus 2 times 0.051, or (0.740, 0.944). Hence, because the confidence interval around the estimated constant includes zero, the hypothesis that  $\alpha = 0$  cannot be rejected with  $95\%$  confidence. But, because the confidence interval for the slope coefficient does not include one, the hypothesis that  $\beta = 1$  can be rejected with  $95\%$  confidence. Hence, the hypothesis of parallel shifts in the yields of the two bonds is rejected by the data.
@@ -2223,17 +2223,17 @@ All the results in Table 6.2 are in-sample; that is, they are computed from the 
 Turning now to regression hedging, assume for the moment that the yield of the JNJ bonds changes by exactly  $\hat{\beta}$  basis points for every one-basispoint change in the yield of the Treasury bonds. Let  $F^{JNJ}$ ,  $DV01^{JNJ}$ ,  $F^{30}$ , and  $DV01^{30}$  be the face amounts and DV01s of the JNJ and 30-year Treasury bonds, respectively. Then, the position is hedged against changes in yields if,
 
 $$
-F ^ {J N J} \frac {D V 0 1 ^ {J N J}}{1 0 0} \hat {\beta} + F ^ {3 0} \frac {D V 0 1 ^ {3 0}}{1 0 0} = 0 \tag {6.7}
+F^{J N J} \frac{D V 0 1^{J N J}}{1 0 0} \hat {\beta} + F^{3 0} \frac{D V 0 1^{3 0}}{1 0 0} = 0 \tag {6.7}
 $$
 
 $$
-F ^ {3 0} = - F ^ {J N J} \frac {D V 0 1 ^ {J N J}}{D V 0 1 ^ {3 0}} \hat {\beta} \tag {6.8}
+F^{3 0} = - F^{J N J} \frac{D V 0 1^{J N J}}{D V 0 1^{3 0}} \hat {\beta} \tag {6.8}
 $$
 
 Plugging in numbers, \$100 million for the face amount of the JNJ bonds to be hedged, DV01s from Table 6.1, and β from Table 6.2,
 
 $$
-F ^ {3 0} = - \$ 1 0 0 m m \frac {0 . 2 1 2 4}{0 . 1 9 1 0} 0. 8 4 2 = - \$ 9 3. 6 m m \tag {6.9}
+F^{3 0} = - \$ 1 0 0 m m \frac{0 . 2 1 2 4}{0 . 1 9 1 0} 0. 8 4 2 = - \$ 9 3. 6 m m \tag {6.9}
 $$
 
 The yield-based DV01 hedge for the JNJ bonds, which is given by Equation (6.9), is given earlier without the slope coefficient of 0.842 as \$111.2 million. The regression hedge of (6.9) sells only \$93.6 million because it recognizes that the yield of the JNJ bonds does not move as much as the yield of the 30-year Treasury bond. Hence, fewer Treasury bonds need be sold to hedge the interest rate risk of the JNJ bonds.
@@ -2241,7 +2241,7 @@ The yield-based DV01 hedge for the JNJ bonds, which is given by Equation (6.9), 
 Regression hedges are sometimes described in terms of risk weights. Rearranging terms in Equation (6.7) or (6.8),
 
 $$
-\frac {- F ^ {30} \times D V 01 ^ {30} / 100}{F ^ {J N J} \times D V 01 ^ {J N J} / 100} = \hat {\beta} = 84.2 \% \tag{6.10}
+\frac{- F^{30} \times D V 01^{30} / 100}{F^{J N J} \times D V 01^{J N J} / 100} = \hat {\beta} = 84.2 \% \tag{6.10}
 $$
 
 In words, the left-hand side of the equation is the DV01 of the hedge as a fraction of the DV01 of the bonds being hedged. The risk weight of a yield-based DV01 hedge is always  $100\%$  – the DV01s of the two sides of the trades are, by construction, equal. In this regression hedge, however, the DV01 of the Treasury bonds is only  $84.2\%$  of the DV01 of the JNJ bonds. In general, as Equation (6.10) shows, the risk weight of a regression hedge exactly equals the estimated slope coefficient,  $\hat{\beta}$ .
@@ -2249,7 +2249,7 @@ In words, the left-hand side of the equation is the DV01 of the hedge as a fract
 The best argument for the regression hedge is actually not the earlier assumption that bond yields change exactly according to the regression model. Write the P&L of the position as,
 
 $$
-P \& L = - F ^ {J N J} \frac {D V 0 1 ^ {J N J}}{1 0 0} \Delta y _ {t} ^ {J N J} - F ^ {3 0} \frac {D V 0 1 ^ {3 0}}{1 0 0} \Delta y _ {t} ^ {3 0} \tag {6.11}
+P \& L = - F^{J N J} \frac{D V 0 1^{J N J}}{1 0 0} \Delta y_{t}^{J N J} - F^{3 0} \frac{D V 0 1^{3 0}}{1 0 0} \Delta y_{t}^{3 0} \tag {6.11}
 $$
 
 where the negative signs reflect that a positive face amount with a positive change (i.e., increase) in yield lowers P&L. It can then be shown that the regression hedge in Equation (6.8) minimizes the variance (6.11). (See Appendix A6.1.) In other words, to the extent that P&L variance is an appropriate measure of risk, the regression hedge minimizes the risk of the hedged position.
@@ -2257,7 +2257,7 @@ where the negative signs reflect that a positive face amount with a positive cha
 Appendix A6.1 also derives the standard deviation of the regression-hedged P&L. Denote this standard deviation by  $\sigma_{P\& L}$  and the standard deviation of the residuals by  $\sigma_{\epsilon}$ . Then,
 
 $$
-\sigma_ {P \& L} = \left| F ^ {J N J} \frac {D V 0 1 ^ {J N J}}{1 0 0} \right| \sigma_ {\epsilon} \tag {6.12}
+\sigma_{P \& L} = \left| F^{J N J} \frac{D V 0 1^{J N J}}{1 0 0} \right| \sigma_{\epsilon} \tag {6.12}
 $$
 
 where  $|\cdot|$  is the symbol for absolute value, so that the standard deviation is positive whether the original position is long (positive  $F^{JNJ}$ ) or short (negative  $F^{JNJ}$ ). In words, the P&L of the hedged position is the DV01 of the position being hedged times the standard error of the regression residuals. Intuitively, the hedged P&L on any given day is exactly zero if the yield of the JNJ bonds moves by 0.842 basis points times the change in the Treasury yield. But if the residual is one basis point, so that the yield of the JNJ bond increases by one basis point more than that, the hedged position loses the DV01 of the JNJ bonds; and if the residual is minus two basis points, then the hedged position gains twice the DV01 of the JNJ bonds; etc. Hence, the volatility of the hedge is proportional to the variability of the residuals.
@@ -2280,7 +2280,7 @@ To illustrate two-variable regression hedging, consider a relative value trader 
 In this illustration, the trader chooses the three Treasury bonds listed in Table 6.1: the 1.375s of 11/15/2040 as the 20-year; the 0.875s of 11/15/2030 as the 10-year; and the 1.625s of 11/15/2050 as the 30-year. The two-variable regression model of changes in yields of these bonds is,
 
 $$
-\Delta y _ {t} ^ {2 0} = \alpha + \beta^ {1 0} \Delta y _ {t} ^ {1 0} + \beta^ {3 0} \Delta y _ {t} ^ {3 0} + \epsilon_ {t} \tag {6.13}
+\Delta y_{t}^{2 0} = \alpha + \beta^{1 0} \Delta y_{t}^{1 0} + \beta^{3 0} \Delta y_{t}^{3 0} + \epsilon_{t} \tag {6.13}
 $$
 
 where the notation is analogous to that of the one-variable regression. Here there are two slope coefficients, describing how changes in the 20-year yield are related to changes in each of the 10-year and 30-year yields.
@@ -2288,13 +2288,13 @@ where the notation is analogous to that of the one-variable regression. Here the
 Continuing as in the case of one-variable regression, least-squares estimation finds the regression coefficients so as to minimize the sum of the squared residuals,
 
 $$
-\sum_ {t} \left(\Delta y _ {t} ^ {2 0} - \hat {\alpha} + \hat {\beta} ^ {1 0} \Delta y _ {t} ^ {1 0} + \hat {\beta} ^ {3 0} \Delta y _ {t} ^ {3 0}\right) ^ {2} \tag {6.14}
+\sum_{t} \left(\Delta y_{t}^{2 0} - \hat {\alpha} + \hat {\beta}^{1 0} \Delta y_{t}^{1 0} + \hat {\beta}^{3 0} \Delta y_{t}^{3 0}\right)^{2} \tag {6.14}
 $$
 
 And, with these estimated coefficients, the predicted change of the 20-year rate is,
 
 $$
-\Delta \hat {y} _ {t} ^ {2 0} = \hat {\alpha} + \hat {\beta} ^ {1 0} \Delta y _ {t} ^ {1 0} + \hat {\beta} ^ {3 0} \Delta y _ {t} ^ {3 0} \tag {6.15}
+\Delta \hat {y}_{t}^{2 0} = \hat {\alpha} + \hat {\beta}^{1 0} \Delta y_{t}^{1 0} + \hat {\beta}^{3 0} \Delta y_{t}^{3 0} \tag {6.15}
 $$
 
 Table 6.3 gives the results of the regression, estimated with data from January 29, 2021, to May 14, 2021. The R-squared is quite high relative to that of the single-variable regression, in Table 6.2, in part because two explanatory variables are used, rather than one, and in part because all of the bonds in this regression are Treasuries, whereas the single-variable regression mixes a corporate bond with a Treasury bond. The standard error is also significantly lower here, at 1.15 basis points per day. Again, however, as usual for regressions of this sort, the estimate of  $\hat{\alpha}$  is small and not significantly different from zero.
@@ -2308,33 +2308,33 @@ TABLE 6.3 Regression of Daily Changes in Yields of the Treasury 1.375s of 11/15/
 To derive the hedge based on these regression results, write the P&L of the hedged position as,
 
 $$
-P \& L = - F ^ {2 0} \frac {D V 0 1 ^ {2 0}}{1 0 0} \Delta y _ {t} ^ {2 0} - F ^ {1 0} \frac {D V 0 1 ^ {1 0}}{1 0 0} \Delta y _ {t} ^ {1 0} - F ^ {3 0} \frac {D V 0 1 ^ {3 0}}{1 0 0} \Delta y _ {t} ^ {3 0} \tag {6.16}
+P \& L = - F^{2 0} \frac{D V 0 1^{2 0}}{1 0 0} \Delta y_{t}^{2 0} - F^{1 0} \frac{D V 0 1^{1 0}}{1 0 0} \Delta y_{t}^{1 0} - F^{3 0} \frac{D V 0 1^{3 0}}{1 0 0} \Delta y_{t}^{3 0} \tag {6.16}
 $$
 
 and then substitute for  $\Delta y_t^{20}$  from (6.15) to see that,
 
 $$
-\begin{array}{l} P \& L = \left[ - F ^ {2 0} \frac {D V 0 1 ^ {2 0}}{1 0 0} \hat {\beta} ^ {1 0} - F ^ {1 0} \frac {D V 0 1 ^ {1 0}}{1 0 0} \right] \Delta y _ {t} ^ {1 0} \\ + \left[ - F ^ {2 0} \frac {D V 0 1 ^ {2 0}}{1 0 0} \hat {\beta} ^ {3 0} - F ^ {3 0} \frac {D V 0 1 ^ {3 0}}{1 0 0} \right] \Delta y _ {t} ^ {3 0} \tag {6.17} \\ \end{array}
+\begin{array}{l} P \& L = \left[ - F^{2 0} \frac{D V 0 1^{2 0}}{1 0 0} \hat {\beta}^{1 0} - F^{1 0} \frac{D V 0 1^{1 0}}{1 0 0} \right] \Delta y_{t}^{1 0} \\ + \left[ - F^{2 0} \frac{D V 0 1^{2 0}}{1 0 0} \hat {\beta}^{3 0} - F^{3 0} \frac{D V 0 1^{3 0}}{1 0 0} \right] \Delta y_{t}^{3 0} \tag {6.17} \\ \end{array}
 $$
 
 Next, to ensure that P&L is zero, under the assumption that the change in the 20-year rate follows the regression model, set each of the terms in brackets in Equation (6.17) equal to zero. Solving,
 
 $$
-F ^ {1 0} = - F ^ {2 0} \frac {D V 0 1 ^ {2 0}}{D V 0 1 ^ {1 0}} \hat {\beta} ^ {1 0} \tag {6.18}
+F^{1 0} = - F^{2 0} \frac{D V 0 1^{2 0}}{D V 0 1^{1 0}} \hat {\beta}^{1 0} \tag {6.18}
 $$
 
 $$
-F ^ {3 0} = - F ^ {2 0} \frac {D V 0 1 ^ {2 0}}{D V 0 1 ^ {3 0}} \hat {\beta} ^ {3 0} \tag {6.19}
+F^{3 0} = - F^{2 0} \frac{D V 0 1^{2 0}}{D V 0 1^{3 0}} \hat {\beta}^{3 0} \tag {6.19}
 $$
 
 or, in terms of risk weights,
 
 $$
-\frac {- F ^ {1 0} \times D V 0 1 ^ {1 0}}{F ^ {2 0} D V 0 1 ^ {2 0}} = \hat {\beta} ^ {1 0} \tag {6.20}
+\frac{- F^{1 0} \times D V 0 1^{1 0}}{F^{2 0} D V 0 1^{2 0}} = \hat {\beta}^{1 0} \tag {6.20}
 $$
 
 $$
-\frac {- F ^ {3 0} \times D V 0 1 ^ {3 0}}{F ^ {2 0} D V 0 1 ^ {2 0}} = \hat {\beta} ^ {3 0} \tag {6.21}
+\frac{- F^{3 0} \times D V 0 1^{3 0}}{F^{2 0} D V 0 1^{2 0}} = \hat {\beta}^{3 0} \tag {6.21}
 $$
 
 Assuming a trade size of  \$100 million face amount in the 20-year Treasury, substituting the DV01s of the bonds from Table 6.1 and the results of the regression from Table 6.3, the hedging face amounts and risk weights are\$ 79.44 million and 46.5% for the 10-year, along with \$50.69 million and 66.9% for the 30-year. Note that the sum of the risk weights is 113.4%, which means that the DV01 of the hedging position is 13.4% greater than the DV01 of the position being hedged. This follows immediately from the slope coefficients of the regression: a simultaneous one-basis-point change in both the 10- and 30-year yields is associated with a 1.134-basis-point increase in the 20-year yield. Hence, the hedging portfolio requires an extra 13.4% in DV01.
@@ -2349,17 +2349,17 @@ FIGURE 6.3 Residuals Using the Regression Coefficients in Table 6.3, in-Sample �
 When estimating regression-based hedges, most practitioners regress changes in yields on changes in yields, as in the previous sections, but some regress yields on yields. Mathematically, in the single-variable case, the level-on-level regression with dependent variable  $y$  and independent variable  $x$  is,
 
 $$
-y _ {t} = \alpha + \beta x _ {t} + \epsilon_ {t} \tag {6.22}
+y_{t} = \alpha + \beta x_{t} + \epsilon_{t} \tag {6.22}
 $$
 
 while the change-on-change regression is,3
 
 $$
-y _ {t} - y _ {t - 1} = \beta \left(x _ {t} - x _ {t - 1}\right) + \epsilon_ {t} - \epsilon_ {t - 1} \tag {6.23}
+y_{t} - y_{t - 1} = \beta \left(x_{t} - x_{t - 1}\right) + \epsilon_{t} - \epsilon_{t - 1} \tag {6.23}
 $$
 
 $$
-\Delta y _ {t} = \beta \Delta x _ {t} + \Delta \epsilon_ {t} \tag {6.24}
+\Delta y_{t} = \beta \Delta x_{t} + \Delta \epsilon_{t} \tag {6.24}
 $$
 
 If the assumptions of least-squares estimation, mentioned earlier, hold true for the level model (6.22), then they also hold for the change model (6.24), and least-squares estimates from both specifications are unbiased, consistent, and efficient. If, however, the assumption about the independence of the error terms is violated in either specification, then the least-squares
@@ -2373,7 +2373,7 @@ In this same scenario, because the change in the yield of the  $x$ -bond is zero
 This discussion suggests an alternate model, which would capture, in the scenario just discussed, that the yield of the  $y$ -bond moves gradually from  $1\%$  to  $5\%$ . In particular, assume the level-on-level model, but with error dynamics,
 
 $$
-\epsilon_ {t} = \rho \epsilon_ {t - 1} + v _ {t} \tag {6.25}
+\epsilon_{t} = \rho \epsilon_{t - 1} + v_{t} \tag {6.25}
 $$
 
 for some  $\rho < 1$ . In this model, with say,  $\rho = 75\%$ , yesterday's error of  $-4\%$  would fall, on average, to an error of  $75\%$  times  $-4\%$ , or  $-3\%$  today, thus giving an expected  $y$ -bond yield today of  $2\%$ . In this way, the error structure in Equation (6.25) gradually pushes the yield of the  $y$ -bond up from its starting point of  $1\%$  to its model value, that is, the  $5\%$  yield of the  $x$ -bond. The procedure for estimating (6.22) with the error structure in (6.25) is given in many statistical texts.
@@ -2435,7 +2435,7 @@ The small values of the PCs at very short-term rates reflect the low volatility 
 Column (5) of Table 6.5 gives the combined standard deviation or volatility from the three principal components for each rate, while Column (6) gives the total, empirical volatility of each rate over the sample period. For the five-year rate, for example, recalling that PCs are, by construction, uncorrelated, the volatility from the three PCs is,
 
 $$
-\sqrt {2 . 2 8 ^ {2} + (- 1 . 1 2) ^ {2} + 0 . 0 2 ^ {2}} = 2. 5 4 \tag {6.26}
+\sqrt{2 . 2 8^{2} + (- 1 . 1 2)^{2} + 0 . 0 2^{2}} = 2. 5 4 \tag {6.26}
 $$
 
 The total volatility of the five-year rate in the sample is also, to two decimal places, 2.54, but Column (10) – using more decimal places than shown in Columns (5) and (6) – reports that the ratio of five-year PC volatility to total volatility is  $99.78\%$ . Hence, the empirical variation of the five-year rate is almost completely explained by the first three PCs. Considering Column (10) as a whole, three PCs explain over  $99\%$  of the variation of rates of all
@@ -2445,15 +2445,15 @@ terms greater than three years,  $97.47\%$  of the variation in the two-year rat
 Columns (7) through (9) of Table 6.5 give the variance explained by each of the first three PCs as a fraction of the total variance explained by those three PCs. For the two-year rate, for example, those fractions are calculated as follows,
 
 $$
-\frac {0 . 5 9 1 6 ^ {2}}{0 . 9 0 9 1 ^ {2}} = 42.3 \% \tag{6.27}
+\frac{0 . 5 9 1 6^{2}}{0 . 9 0 9 1^{2}} = 42.3 \% \tag{6.27}
 $$
 
 $$
-\frac {(- 0 . 5 1 0 1) ^ {2}}{0 . 9 0 9 1 ^ {2}} = 31.5 \% \tag{6.28}
+\frac{(- 0 . 5 1 0 1)^{2}}{0 . 9 0 9 1^{2}} = 31.5 \% \tag{6.28}
 $$
 
 $$
-\frac {0 . 4 6 5 0 ^ {2}}{0 . 9 0 9 1 ^ {2}} = 2 6. 2 \% \tag{6.29}
+\frac{0 . 4 6 5 0^{2}}{0 . 9 0 9 1^{2}} = 2 6. 2 \% \tag{6.29}
 $$
 
 Note that, to avoid confusion, the values in these equations are reported to greater accuracy than those in the table.
@@ -2485,7 +2485,7 @@ Assume that the trader plans to receive fixed on 100 notional amount of the 20-y
 swaps, respectively. Paying fixed is reflected, in this notation, with negative notional amounts. In any case, from the data in Table 6.6, the exposure of this overall relative value portfolio is hedged against a one standard deviation shift of the level and slope PCs, respectively, if the following equations obtain,
 
 $$
-\begin{array}{l} - F ^ {1 0} \frac {0 . 0 9 3 4 7}{1 0 0} \times 3. 4 4 - F ^ {3 0} \frac {0 . 2 3 6 0 0}{1 0 0} \times 3. 7 7 - 1 0 0 \frac {0 . 1 7 0 6 4}{1 0 0} \times 3. 7 3 = 0 (6.30) \\ - F ^ {1 0} \frac {0 . 0 9 3 4 7}{1 0 0} \times 0. 0 7 - F ^ {3 0} \frac {0 . 2 3 6 0 0}{1 0 0} \times 1. 3 5 - 1 0 0 \frac {0 . 1 7 0 6 4}{1 0 0} \times 1. 0 2 = 0 (6.30) \\ \end{array}
+\begin{array}{l} - F^{1 0} \frac{0 . 0 9 3 4 7}{1 0 0} \times 3. 4 4 - F^{3 0} \frac{0 . 2 3 6 0 0}{1 0 0} \times 3. 7 7 - 1 0 0 \frac{0 . 1 7 0 6 4}{1 0 0} \times 3. 7 3 = 0 (6.30) \\ - F^{1 0} \frac{0 . 0 9 3 4 7}{1 0 0} \times 0. 0 7 - F^{3 0} \frac{0 . 2 3 6 0 0}{1 0 0} \times 1. 3 5 - 1 0 0 \frac{0 . 1 7 0 6 4}{1 0 0} \times 1. 0 2 = 0 (6.30) \\ \end{array}
 $$
 
 The first two terms of Equation (6.30) give the change in the value of the hedge position under a one standard deviation shift of the first PC, that is, a shift of  $+3.44$  basis points in the 10-year and  $+3.77$  basis points in the 30-year swap rate. The third term gives the change in the value of the position being hedged under the same PC shift, which is  $+3.73$  basis points in the 20-year swap rate. Note that the negative signs indicate that receiving fixed (i.e., positive notional amounts) when rates increase results in position losses. The equation as a whole, therefore, sets the total position gain or loss under a one standard deviation shift of the first PC equal to zero. Equation (6.31) can be interpreted similarly, but under a one standard deviation shift of the second PC. Note, of course, that if these two equations hold for a one standard deviation shift, they hold for any size shift: to see this, simply multiply both sides of each equation by the intended number of standard deviations.
@@ -2493,7 +2493,7 @@ The first two terms of Equation (6.30) give the change in the value of the hedge
 Solving Equations (6.30) and (6.31) reveals that  $F^{10} = -49.56$  and  $F^{30} = -53.60$ . Or, in terms of risk weights relative to the DV01 of the 20-year swap,
 
 $$
-\begin{array}{l} \frac {49.56 \times \frac {0.09347}{100}}{0.17064} = 27.1 \% (6.32) \\ \frac {53.60 \times \frac {0.23600}{100}}{0.17064} = 74.1 \% (6.33) \\ \end{array}
+\begin{array}{l} \frac{49.56 \times \frac{0.09347}{100}}{0.17064} = 27.1 \% (6.32) \\ \frac{53.60 \times \frac{0.23600}{100}}{0.17064} = 74.1 \% (6.33) \\ \end{array}
 $$
 
 Intuitively, most of the risk of the 20-year swap –  $74\%$  – is hedged with 30-year swaps, because the exposures of 20-year swaps to both the level and slope PCs more closely resemble those of 30-year swaps than of 10-year swaps. Note also that the sum of the risk weights is  $101.2\%$ , so that the DV01 of the hedge position is greater than the DV01 of the position being hedged. Only under the assumption of parallel shifts do the risk weights always sum to  $100\%$ . In the present case, more DV01 risk is needed in the hedge because the hedge includes a significant amount of 10-year swaps,
@@ -2503,7 +2503,7 @@ which are much less sensitive to the level and slope shifts than the 20-year swa
 In this illustration, the trader chooses to hedge with 10- and 30-year swaps. But, with only two hedging securities, the risks of only two PCs can be hedged. What is the risk of the hedged position just derived to the next most important PC, that is, the short-rate or curvature PC? Following the same logic as in Equations (6.30) and (6.31), the exposure of the hedged position to the third PC (adding a significant digit to avoid confusion) is,
 
 $$
-\begin{array}{l} - (- 4 9. 6) \frac {0 . 0 9 3 4 7}{1 0 0} \times (- 0. 2 2 8) - (- 5 3. 6) \frac {0 . 2 3 6 0 0}{1 0 0} \times 0. 3 6 0 \\ - 1 0 0 \frac {0 . 1 7 0 6 4}{1 0 0} \times (0. 1 6 6) = 0. 0 0 7 \tag {6.34} \\ \end{array}
+\begin{array}{l} - (- 4 9. 6) \frac{0 . 0 9 3 4 7}{1 0 0} \times (- 0. 2 2 8) - (- 5 3. 6) \frac{0 . 2 3 6 0 0}{1 0 0} \times 0. 3 6 0 \\ - 1 0 0 \frac{0 . 1 7 0 6 4}{1 0 0} \times (0. 1 6 6) = 0. 0 0 7 \tag {6.34} \\ \end{array}
 $$
 
 which is less than one cent per 100 face amount. The trader might very well decide, therefore, that it is not worth the transaction costs of trading an additional swap to hedge out this residual risk from the third PC. Also, because this is a relative value trade, the trader wants to pay fixed only in swaps with rates that are believed to be too low. In any case, if hedging out the residual risk is desired, a 15-year swap can be added to the hedging portfolio; an equation for exposure to the third PC can be added to Equations (6.30) and (6.31); and, using the data from Table 6.6, the notional amounts for the 10-, 15-, and 30-year swaps can be determined. This is left as an exercise for the reader.
@@ -2540,7 +2540,7 @@ $$
 Discounting this expected value to date 0, at the date 0, six-month rate gives an expected discounted value of,
 
 $$
-\frac {0 . 5 \times \$ 9 8 7 . 6 5 4 + 0 . 5 \times \$ 9 9 2 . 5 5 6}{1 + \frac {. 0 2}{2}} = \$ 9 8 0. 3 0 2 \tag {7.2}
+\frac{0 . 5 \times \$ 9 8 7 . 6 5 4 + 0 . 5 \times \$ 9 9 2 . 5 5 6}{1 + \frac{. 0 2}{2}} = \$ 9 8 0. 3 0 2 \tag {7.2}
 $$
 
 Note that the one-year zero's expected discounted value of \$980.302 is not equal to its market price of \$978.842. These two numbers need not be equal, because investors do not price securities by expected discounted value. Over the next six months, the one-year zero is a risky security, worth \$987.654 half of the time and \$992.556 the other half of the time, for an average or expected value of \$990.105. If investors do not like this price uncertainty, they would prefer a security worth \$990.105 on date 1 with certainty. More specifically, a security worth \$990.105 with certainty after six months would sell for \$990.105/(1 + .02/2), or \$980.302, as of date 0. By contrast, investors penalize the risky one-year zero coupon bond with an average price of \$990.105 in six months by pricing it today at \$978.842. Chapters 8 and 9 elaborate further on investor risk aversion.
@@ -2557,11 +2557,11 @@ Chapter 1 showed that a security is priced by arbitrage by finding and pricing i
 To price the call option of this section by arbitrage, construct a portfolio on date 0 of underlying securities, namely six-month and one-year zero coupon bonds, such that the portfolio is worth  \$0 in the upstate on date 1 and\$ 2.556 in the downstate. Let  $F^{5}$  and  $F^{1}$  be the face values of six-month and one-year zeros in this replicating portfolio, respectively, and recall that the possible values of these bonds on date 1 are shown in Figure 7.1. These face amounts, therefore, must satisfy the following two equations,
 
 $$
-F ^ {5} +. 9 8 7 6 5 4 F ^ {1} = \$ 0 \tag {7.3}
+F^{5} +. 9 8 7 6 5 4 F^{1} = \$ 0 \tag {7.3}
 $$
 
 $$
-F ^ {. 5} +. 9 9 2 5 5 6 F ^ {1} = \$ 2. 5 5 8 \tag {7.4}
+F^{. 5} +. 9 9 2 5 5 6 F^{1} = \$ 2. 5 5 8 \tag {7.4}
 $$
 
 Equation (7.3) may be interpreted as follows. In the upstate, the value of the replicating portfolio's now maturing six-month zero is its face value. The value of the once one-year zeros, now six-month zeros, is .987654 per dollar face value. Hence, the left-hand side of Equation (7.3) denotes the value of the replicating portfolio in the upstate. This value must equal \(0, the value of the option in the upstate. Similarly, Equation (7.4) sets the value of the replicating portfolio in the downstate equal to the value of the option in the downstate.
@@ -2569,7 +2569,7 @@ Equation (7.3) may be interpreted as follows. In the upstate, the value of the r
 Solving Equations (7.3) and (7.4) gives  $F^{5} = -\\( 515.0000$  and  $F^{1} = \$  521.4375 \). In words, the option can be replicated by buying  $\\( 521.4375$  face value of one-year zeros and shorting  $\$  515.0000 \) face amount of six-month zeros on date 0. Therefore, by the law of one price, the price of the option equals the price of the replicating portfolio, which, using the bond prices given earlier, is equal to,
 
 $$
-\begin{array}{l} . 9 9 0 0 9 9 F ^ {. 5} + . 9 7 8 8 4 2 F ^ {1} = -. 9 9 0 0 9 9 \times \$ 5 1 5. 0 0 0 0 + . 9 7 8 8 4 2 \times \$ 5 2 1. 4 3 7 5 \\ = \$ 0. 5 0 4 \tag {7.5} \\ \end{array}
+\begin{array}{l} . 9 9 0 0 9 9 F^{. 5} + . 9 7 8 8 4 2 F^{1} = -. 9 9 0 0 9 9 \times \$ 5 1 5. 0 0 0 0 + . 9 7 8 8 4 2 \times \$ 5 2 1. 4 3 7 5 \\ = \$ 0. 5 0 4 \tag {7.5} \\ \end{array}
 $$
 
 Recall that pricing based on the law of one price is enforced by arbitrage. If the price of the option were less than  \$0.504, arbitrageurs could buy the option, short the replicating portfolio, keep the difference, and have no future liabilities. Similarly, if the price of the option were greater than\$ 0.504, arbitrageurs could short the option, buy the replicating portfolio, keep the difference, and, once again, have no future liabilities. Thus, ruling out profits from riskless arbitrage implies an option price of \$0.504.
@@ -2577,7 +2577,7 @@ Recall that pricing based on the law of one price is enforced by arbitrage. If t
 It is important to emphasize that the option cannot be priced by expected discounted value, which gives an option price of,
 
 $$
-\frac {. 5 \times \$ 0 + . 5 \times \$ 2 . 5 5 5 8 3 1}{1 + \frac {. 0 2}{2}} = \$ 1. 2 6 5 3 \tag {7.6}
+\frac{. 5 \times \$ 0 + . 5 \times \$ 2 . 5 5 5 8 3 1}{1 + \frac{. 0 2}{2}} = \$ 1. 2 6 5 3 \tag {7.6}
 $$
 
 The true option price is lower, because investors dislike the risk of the call option and, as a result, will not pay as much as its expected discounted value. Put another way, the risk penalty implicit in the call option price is inherited from the risk penalty of the one-year zero, that is, from the property that the price of the one-year zero is less than its expected discounted value. Once again, the pricing of risk is discussed in the next two chapters. While this section illustrates arbitrage pricing with a call option, it should be clear that the framework can be used to price any security with cash flows that ultimately depend on the six-month rate. For example, because the price of a five-year bond over time depends on the evolution of the six-month rate, an option on that five-year bond can be priced in this framework as well.
@@ -2595,7 +2595,7 @@ Risk-neutral pricing is a technique that modifies an assumed interest rate proce
 In the example of this chapter, the price of a one-year zero does not equal its expected discounted value: its price is  \$978.842, computed from the given one-year spot rate of \(2.15\%$ , while its expected discounted value is \)980.302, as derived in Equation (7.2). The probabilities of 0.5 for the up- and down-states are the assumed true or real-world probabilities. But there are other probabilities, called risk-neutral probabilities, which do cause the expected discounted value to equal the market price. To find these probabilities, let the risk-neutral probabilities in the up- and down-states be  $p$  and  $(1 - p)$ , respectively. Then, solve the following equation,
 
 $$
-\frac {\mathbb {S} 9 8 7 . 6 5 4 p + \mathbb {S} 9 9 2 . 5 5 6 (1 - p)}{\left(1 + \frac {. 0 2}{2}\right)} = \mathbb {S} 9 7 8. 8 4 2 \tag {7.7}
+\frac{\mathbb {S} 9 8 7 . 6 5 4 p + \mathbb {S} 9 9 2 . 5 5 6 (1 - p)}{\left(1 + \frac{. 0 2}{2}\right)} = \mathbb {S} 9 7 8. 8 4 2 \tag {7.7}
 $$
 
 to find that  $p = .8009$ . Hence, under the risk-neutral probabilities of .8009 and .1991, the expected discounted value does equal the market price.
@@ -2607,7 +2607,7 @@ As pointed out in the previous section, the expected discounted value of the opt
 expected discounted value were computed using the risk-neutral probabilities, the resulting option value would equal its arbitrage price,
 
 $$
-\frac {. 8 0 0 9 \times \$ 0 + . 1 9 9 1 \times \$ 2 . 5 5 5 8 3 1}{\left(1 + \frac {. 0 2}{2}\right)} = \$ 0. 5 0 4 \tag {7.8}
+\frac{. 8 0 0 9 \times \$ 0 + . 1 9 9 1 \times \$ 2 . 5 5 5 8 3 1}{\left(1 + \frac{. 0 2}{2}\right)} = \$ 0. 5 0 4 \tag {7.8}
 $$
 
 The fact that the arbitrage price of the option equals its expected discounted value under the risk-neutral probabilities is not a coincidence. In general, to value contingent claims by risk-neutral pricing, proceed as follows. First, find the risk-neutral probabilities that equate the prices of the underlying securities to their expected discounted values. (In the simple example here, the only risky, underlying security is the one-year zero.) Second, price the contingent claim by expected discounted value under these risk-neutral probabilities. The remainder of this section describes intuitively why risk-neutral pricing works. Since the argument is a bit complex, it is broken up into four steps:
@@ -2637,15 +2637,15 @@ FIGURE 7.3 A Recombining Binomial Rate Tree.
 Continuing where the option example left off, having derived the risk-neutral tree for pricing a one-year zero, the goal is to extend the tree to price a 1.5-year zero assuming that the 1.5-year spot rate is  $2.25\%$ . Ignoring the probabilities for a moment, several nodes of the 1.5-year zero price tree can be written down immediately, as shown in Figure 7.4. On date 3, the zero with an original term of 1.5 years matures and is worth its face value of \$1,000. On date 2, the value of the then six-month zero equals its face value discounted for six months at the then-prevailing spot rates of  $3\%$ ,  $2\%$ , and  $1\%$ , in states 2, 1, and 0, respectively,
 
 $$
-\frac {\mathbb {S} 1 , 0 0 0}{1 + \frac {. 0 3}{2}} = \mathbb {S} 9 8 5. 2 2 \tag {7.9}
+\frac{\mathbb {S} 1 , 0 0 0}{1 + \frac{. 0 3}{2}} = \mathbb {S} 9 8 5. 2 2 \tag {7.9}
 $$
 
 $$
-\frac {\mathbb {S} 1 , 0 0 0}{1 + \cdot \frac {0 . 2}{2}} = \mathbb {S} 9 9 0. 1 0 \tag {7.10}
+\frac{\mathbb {S} 1 , 0 0 0}{1 + \cdot \frac{0 . 2}{2}} = \mathbb {S} 9 9 0. 1 0 \tag {7.10}
 $$
 
 $$
-\frac {\mathbb {S} 1 , 0 0 0}{1 + \frac {. 0 1}{2}} = \mathbb {S} 9 9 5. 0 2 \tag {7.11}
+\frac{\mathbb {S} 1 , 0 0 0}{1 + \frac{. 0 1}{2}} = \mathbb {S} 9 9 5. 0 2 \tag {7.11}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/b56776c0-2b50-4f78-8378-ff4fb575a8db/8f3c23da5e038dd023a3ab9cb33c2395475b5a57bf963fd2c7a3f24ca412e9f9.jpg)  
@@ -2654,7 +2654,7 @@ FIGURE 7.4 Price Tree for a 1.5-Year Zero Coupon Bond.
 Finally, on date 0, the 1.5-year zero equals its face value discounted at the given, 1.5-year spot rate,
 
 $$
-\frac {\mathbb {S} 1 , 0 0 0}{\left(1 + \frac {. 0 2 2 5}{2}\right) ^ {3}} = \mathbb {S} 9 6 6. 9 9 5 4 \tag {7.12}
+\frac{\mathbb {S} 1 , 0 0 0}{\left(1 + \frac{. 0 2 2 5}{2}\right)^{3}} = \mathbb {S} 9 6 6. 9 9 5 4 \tag {7.12}
 $$
 
 The prices of the zero on date 1 in states 1 and 0 are denoted in Figure 7.4 by  $P_{1,1}$  and  $P_{1,0}$ , respectively. These one-year zero prices are not known at this point.
@@ -2664,17 +2664,17 @@ The previous section showed that the risk-neutral probability of an up-move on d
 By definition, the expected discounted value under risk-neutral probabilities recovers market prices. With respect to the 1.5-year zero price on date 0, this requires that,
 
 $$
-\frac {. 8 0 0 9 P _ {1 , 1} + . 1 9 9 1 P _ {1 , 0}}{1 + \frac {. 0 2}{2}} = \$ 9 6 6. 9 9 5 \tag {7.13}
+\frac{. 8 0 0 9 P_{1 , 1} + . 1 9 9 1 P_{1 , 0}}{1 + \frac{. 0 2}{2}} = \$ 9 6 6. 9 9 5 \tag {7.13}
 $$
 
 And with respect to the prices of a then one-year zero on date 1,
 
 $$
-P _ {1, 1} = \frac {\mathbb {S} 9 8 5 . 2 2 2 q + \mathbb {S} 9 9 0 . 0 9 9 (1 - q)}{1 + \frac {. 0 2 5}{2}} \tag {7.14}
+P_{1, 1} = \frac{\mathbb {S} 9 8 5 . 2 2 2 q + \mathbb {S} 9 9 0 . 0 9 9 (1 - q)}{1 + \frac{. 0 2 5}{2}} \tag {7.14}
 $$
 
 $$
-P _ {1, 0} = \frac {\mathbb {S} 9 9 0 . 0 9 9 q + \mathbb {S} 9 9 5 . 0 2 5 (1 - q)}{1 + \frac {. 0 1 5}{2}} \tag {7.15}
+P_{1, 0} = \frac{\mathbb {S} 9 9 0 . 0 9 9 q + \mathbb {S} 9 9 5 . 0 2 5 (1 - q)}{1 + \frac{. 0 1 5}{2}} \tag {7.15}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/b56776c0-2b50-4f78-8378-ff4fb575a8db/1a404709514ca0eaa593f39d7069c8a2f722129de79d3dca54d279b8bb270de4.jpg)  
@@ -2691,7 +2691,7 @@ $$
 $$
 
 $$
-\$ 984.430 = \frac {\$ 1,000}{\left(1 + \frac {1.5754 \%}{2}\right) ^ {2}} \tag{7.17}
+\$ 984.430 = \frac{\$ 1,000}{\left(1 + \frac{1.5754 \%}{2}\right)^{2}} \tag{7.17}
 $$
 
 The fact that the possible values of the one-year spot rate can be extracted from the tree is at first surprising. The starting point of the example is the date 0 values of the 0.5-, 1-, and 1.5-year spot rates, along with assumptions about the evolution of the six-month rate over the next years. But because this information, in combination with arbitrage or risk-neutral arguments, is sufficient to determine the price tree of the 1.5-year zero, it is also sufficient to determine the possible values of the one-year spot rate in six months. Put another way, having specified initial
@@ -2745,17 +2745,17 @@ $$
 The possible values of the CMT swap at maturity, on date 2, are given by Equations (7.21) through (7.23). The possible values on date 1 are given by the expected discounted value of the date 2 payoffs under the risk-neutral probabilities plus the date 1 payoffs given by (7.19) and (7.20). The resulting date 1 values in states 1 and 0 are, respectively,
 
 $$
-\frac {. 6 5 2 0 \times \$ 5 , 0 0 0 + . 3 4 8 0 \times \$ 0}{1 + \frac {. 0 2 5 0}{2}} + \$ 2, 5 0 0 = \$ 5, 7 1 9. 5 2 \tag {7.24}
+\frac{. 6 5 2 0 \times \$ 5 , 0 0 0 + . 3 4 8 0 \times \$ 0}{1 + \frac{. 0 2 5 0}{2}} + \$ 2, 5 0 0 = \$ 5, 7 1 9. 5 2 \tag {7.24}
 $$
 
 $$
-\frac {. 6 5 2 0 \times 0 + . 3 4 8 0 \times (- \$ 5 , 0 0 0)}{1 + . \frac {0 1 5 0}{2}} - \$ 2, 5 0 0 = - \$ 4, 2 2 7. 2 9 \tag {7.25}
+\frac{. 6 5 2 0 \times 0 + . 3 4 8 0 \times (- \$ 5 , 0 0 0)}{1 + . \frac{0 1 5 0}{2}} - \$ 2, 5 0 0 = - \$ 4, 2 2 7. 2 9 \tag {7.25}
 $$
 
 Finally, the value of the swap on date 0 is the expected discounted value, under the risk-neutral probabilities, of the date-1 payoffs, given by Equations (7.24) and (7.25),
 
 $$
-\frac {. 8 0 0 9 \times \$ 5 , 7 1 9 . 5 2 + . 1 9 9 1 \times (- \$ 4 , 2 2 7 . 2 9)}{1 + \frac {. 0 2 0 0}{2}} = \$ 3, 7 0 2. 1 1 \tag {7.26}
+\frac{. 8 0 0 9 \times \$ 5 , 7 1 9 . 5 2 + . 1 9 9 1 \times (- \$ 4 , 2 2 7 . 2 9)}{1 + \frac{. 0 2 0 0}{2}} = \$ 3, 7 0 2. 1 1 \tag {7.26}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/b56776c0-2b50-4f78-8378-ff4fb575a8db/6dc3b3a0e992d0aebc032d4e8e91a96a0401c15ea3b5c9a84374679428c2444d.jpg)  
@@ -2768,11 +2768,11 @@ The tree in Figure 7.8 summarizes the value of the stylized CMT swap over dates 
 Option-adjusted spread is a widely used measure of the relative value of a security, that is, of its market price relative to its model value. OAS is defined as the spread such that the market price of a security is recovered when that spread is added to discount rates in the model. To illustrate, say that the market price of the CMT swap in the previous section is  $3,699.18,$ 2.92 less than the model price. In that case, the OAS of the CMT swap turns out to be 10 basis points. To see this, add 10 basis points to the discounting rates of  $2.5\%$  and  $1.5\%$  in Equations (7.24) and (7.25), respectively, to get new swap values of,
 
 $$
-\frac {. 6 5 2 0 \times \$ 5 , 0 0 0 + . 3 4 8 0 \times \$ 0}{1 + \frac {. 0 2 6 0}{2}} + \$ 2, 5 0 0 = \$ 5, 7 1 7. 9 3 \tag {7.27}
+\frac{. 6 5 2 0 \times \$ 5 , 0 0 0 + . 3 4 8 0 \times \$ 0}{1 + \frac{. 0 2 6 0}{2}} + \$ 2, 5 0 0 = \$ 5, 7 1 7. 9 3 \tag {7.27}
 $$
 
 $$
-\frac {. 6 5 2 0 \times 0 + . 3 4 8 0 \times (- \$ 5 , 0 0 0)}{1 + \frac {. 0 1 6 0}{2}} - \$ 2, 5 0 0 = - \$ 4, 2 2 6. 4 3 \tag {7.28}
+\frac{. 6 5 2 0 \times 0 + . 3 4 8 0 \times (- \$ 5 , 0 0 0)}{1 + \frac{. 0 1 6 0}{2}} - \$ 2, 5 0 0 = - \$ 4, 2 2 6. 4 3 \tag {7.28}
 $$
 
 Note that, when calculating value with an OAS spread, rates are only shifted for the purpose of discounting. Rates are not shifted for the purposes of
@@ -2782,7 +2782,7 @@ computing cash flows. In the CMT swap example, cash flows are still computed usi
 Completing the valuation with an OAS of 10 basis points, use the results of (7.27) and (7.28) and a discount rate of  $2\%$  plus the OAS spread of 10 basis points, or  $2.10\%$ , to obtain an initial CMT swap value of,
 
 $$
-\frac {. 8 0 0 9 \times \$ 5 , 7 1 7 . 9 3 + . 1 9 9 1 \times (- \$ 4 , 2 2 6 . 4 3)}{1 + \frac {. 0 2 1 0}{2}} = \$ 3, 6 9 9. 1 8 \tag {7.29}
+\frac{. 8 0 0 9 \times \$ 5 , 7 1 7 . 9 3 + . 1 9 9 1 \times (- \$ 4 , 2 2 6 . 4 3)}{1 + \frac{. 0 2 1 0}{2}} = \$ 3, 6 9 9. 1 8 \tag {7.29}
 $$
 
 Hence, as claimed, discounting at the risk-neutral rates plus an OAS of 10 basis points in the model recovers the given market price of \(3,699.18. If a security's OAS is positive, its market price is less than its model price, which means that the security trades cheap. If the OAS is negative, the security trades rich.
@@ -2790,13 +2790,13 @@ Hence, as claimed, discounting at the risk-neutral rates plus an OAS of 10 basis
 Another perspective on the relative value implications of an OAS spread is the fact that the expected return of a security with an OAS, under the risk-neutral process, is the short-term rate plus the OAS per period. Very simply, discounting a security's expected value by a particular rate per period is equivalent to that security's earning that rate per period. In the example of the CMT swap, the expected return of the fairly priced swap under the risk-neutral process over the six months from date 0 to date 1 is,
 
 $$
-\frac {. 8 0 0 9 \times \$ 5 , 7 1 9 . 5 2 - . 1 9 9 1 \times \$ 4 , 2 2 7 . 2 9 - \$ 3 , 7 0 2 . 1 1}{\$ 3 , 7 0 2 . 1 1} = 1. 0 0 \% \quad (7. 3 0)
+\frac{. 8 0 0 9 \times \$ 5 , 7 1 9 . 5 2 - . 1 9 9 1 \times \$ 4 , 2 2 7 . 2 9 - \$ 3 , 7 0 2 . 1 1}{\$ 3 , 7 0 2 . 1 1} = 1. 0 0 \% \quad (7. 3 0)
 $$
 
 which is six months' worth of the initial rate of  $2\%$ . On the other hand, with an OAS of 10 basis points, the expected return of the cheap swap is,
 
 $$
-\frac {. 8 0 0 9 \times \$ 5 , 7 1 7 . 9 3 - . 1 9 9 1 \times \$ 4 , 2 2 6 . 4 3 - \$ 3 , 6 9 9 . 1 8}{\$ 3 , 6 9 9 . 1 8} = 1. 0 5 \% \tag{7.31}
+\frac{. 8 0 0 9 \times \$ 5 , 7 1 7 . 9 3 - . 1 9 9 1 \times \$ 4 , 2 2 6 . 4 3 - \$ 3 , 6 9 9 . 1 8}{\$ 3 , 6 9 9 . 1 8} = 1. 0 5 \% \tag{7.31}
 $$
 
 which is six months' worth of the initial rate of  $2\%$  plus the OAS of 10 basis points, or half of  $2.10\%$ .
@@ -2810,7 +2810,7 @@ By the definition of a one-factor model, and by the definition of OAS, the marke
 can be written as  $P_{t}(r,OAS)$ . Using a first-order Taylor approximation, the change in the price of the security is,
 
 $$
-d P = \frac {\partial P}{\partial r} d r + \frac {\partial P}{\partial t} d t + \frac {\partial P}{\partial O A S} d O A S \tag {7.32}
+d P = \frac{\partial P}{\partial r} d r + \frac{\partial P}{\partial t} d t + \frac{\partial P}{\partial O A S} d O A S \tag {7.32}
 $$
 
 where  $\partial P / \partial r$  gives the change in the price of the security for a change in  $r$ , holding  $t$  and OAS constant;  $\partial P / \partial t$  gives the change in price for a change in  $t$  holding  $r$  and OAS constant; and the same for  $\partial P / \partial OAS$ . In words, Equation (7.32) breaks down the total change in price to components of change due to changes in  $r$ ,  $t$ , and OAS.
@@ -2818,7 +2818,7 @@ where  $\partial P / \partial r$  gives the change in the price of the security 
 Dividing both sides of Equation (7.32) by price and taking expectations,
 
 $$
-E \left[ \frac {d P}{P} \right] = \frac {1}{P} \frac {\partial P}{\partial r} E [ d r ] + \frac {1}{P} \frac {\partial P}{\partial t} d t \tag {7.33}
+E \left[ \frac{d P}{P} \right] = \frac{1}{P} \frac{\partial P}{\partial r} E [ d r ] + \frac{1}{P} \frac{\partial P}{\partial t} d t \tag {7.33}
 $$
 
 Note that  $dP / P$  is the change in price divided by price, or the percentage change in price. Because the OAS calculation assumes that OAS is constant over the life of the security, moving from (7.32) to (7.33) assumes that the expected change in the OAS is zero.
@@ -2826,25 +2826,25 @@ Note that  $dP / P$  is the change in price divided by price, or the percentage 
 As mentioned in the previous section, if expectations are taken with respect to the risk-neutral process, then, for any security priced according to the model,
 
 $$
-E \left[ \frac {d P}{P} \right] = r _ {0} d t \tag {7.34}
+E \left[ \frac{d P}{P} \right] = r_{0} d t \tag {7.34}
 $$
 
 But Equation (7.34) does not apply to securities that are not priced according to the model, that is, to securities with an OAS not equal to zero. For these securities, by definition, the cash flows are discounted not at the short-term rate, but at the short-term rate plus the OAS. Equivalently, as argued in the previous section, the expected return under the risk-neutral probabilities is not the short-term rate, but the short-term rate plus the OAS. Hence, the more general form of Equation (7.34) is,
 
 $$
-E \left[ \frac {d P}{P} \right] = \left(r _ {0} + O A S\right) d t \tag {7.35}
+E \left[ \frac{d P}{P} \right] = \left(r_{0} + O A S\right) d t \tag {7.35}
 $$
 
 Combining these pieces, substitute for  $(1 / P)\partial P / \partial t$  from (7.33) and then for  $E[dP / P]$  from (7.35) into Equation (7.32) and rearrange terms, which breaks down the return of a security into its component parts,
 
 $$
-\frac {d P}{P} = \left(r _ {0} + O A S\right) d t + \frac {1}{P} \frac {\partial P}{\partial r} \left(d r - E [ d r ]\right) + \frac {1}{P} \frac {\partial P}{\partial O A S} d O A S \tag {7.36}
+\frac{d P}{P} = \left(r_{0} + O A S\right) d t + \frac{1}{P} \frac{\partial P}{\partial r} \left(d r - E [ d r ]\right) + \frac{1}{P} \frac{\partial P}{\partial O A S} d O A S \tag {7.36}
 $$
 
 Finally, multiplying through by  $P$ ,
 
 $$
-d P = \left(r _ {0} + O A S\right) P d t + \frac {\partial P}{\partial r} \left(d r - E [ d r ]\right) + \frac {\partial P}{\partial O A S} d O A S \tag {7.37}
+d P = \left(r_{0} + O A S\right) P d t + \frac{\partial P}{\partial r} \left(d r - E [ d r ]\right) + \frac{\partial P}{\partial O A S} d O A S \tag {7.37}
 $$
 
 In words, the return of a security or its P&L may be divided into a component due to the passage of time; a component due to changes in the factor; and a component due to the change in the OAS. In the language of Chapter 3, the terms on the right-hand side of (7.37) represent, in order, carry-roll-down, gains or losses from rate changes, and gains or losses from spread change. $^{1}$  For models with predictive power, the OAS converges or trends to zero; that is, the security price converges or trends toward its fair value according to the model.
@@ -2884,7 +2884,7 @@ Chapter 7 shows how bonds and other interest rate contingent claims can be price
 Consider a simple framework with annual periods. Assume for the moment that the current one-year rate is  $8\%$ , and that investors know with certainty that the one-year rate in one year will be  $7\%$  and in two years will be  $6\%$ . Then, the prices of one-, two-, and three-year zero coupon bonds with a unit face value,  $P(1)$ ,  $P(2)$ , and  $P(3)$ , are priced such that,
 
 $$
-\begin{array}{l} P (1) = \frac {1}{1 . 0 8} \\ P (2) = \frac {1}{1 . 0 8 \times 1 . 0 7} \\ P (3) = \frac {1}{1 . 0 8 \times 1 . 0 7 \times 1 . 0 6} \tag {8.1} \\ \end{array}
+\begin{array}{l} P (1) = \frac{1}{1 . 0 8} \\ P (2) = \frac{1}{1 . 0 8 \times 1 . 0 7} \\ P (3) = \frac{1}{1 . 0 8 \times 1 . 0 7 \times 1 . 0 6} \tag {8.1} \\ \end{array}
 $$
 
 But by the definition of forward rates (see Chapter 2), Equations (8.1) say that the first three forward rates are  $8\%$ ,  $7\%$ , and  $6\%$ . Hence, with
@@ -2908,7 +2908,7 @@ $$
 Note also that the volatility of the change in rate at any transition is  $4\%$ , or 400 basis points. For example, with the mean of the first transition calculated in Equation (8.2) to be  $9\%$ , the volatility of that transition is,
 
 $$
-\sqrt {50 \% [ 13 \% - 9 \% ] ^ {2} + 50 \% [ 5 \% - 9 \% ] ^ {2}} = 4 \% \tag{8.4}
+\sqrt{50 \% [ 13 \% - 9 \% ]^{2} + 50 \% [ 5 \% - 9 \% ]^{2}} = 4 \% \tag{8.4}
 $$
 
 The price of a one-year zero in this model is simply  $1 / 1.09$ , or 0.917431. Assuming, for the moment, that investors are risk neutral, the price trees of the two- and three-year zeros can be calculated by expected discounted
@@ -2925,7 +2925,7 @@ value, as explained in the previous chapter. These trees are shown in the bottom
 A short detour is required at this point to present and explain Jensen's inequality as applied to bond pricing. For a random variable, like the one-year rate,  $r$ ,
 
 $$
-E \left[ \frac {1}{1 + r} \right] > \frac {1}{E [ 1 + r ]} = \frac {1}{1 + E [ r ]} \tag {8.5}
+E \left[ \frac{1}{1 + r} \right] > \frac{1}{E [ 1 + r ]} = \frac{1}{1 + E [ r ]} \tag {8.5}
 $$
 
 In words, the expected price of a bond is greater than the price of a bond at the expected interest rate.
@@ -2938,7 +2938,7 @@ This inequality is easily explained by Figure 8.2. In the figure, the rate can t
 Returning to the role of volatility and convexity, let  $f$  denote the one-year rate, one year forward, and consider the date-0 price of a two-year zero coupon bond, as expressed in Equation (8.6). By definition, the price of the two-year zero equals its unit face amount discounted by  $9\%$  over the first year and by  $f$  over the second year. By the logic of pricing along the tree, this price also equals the discounted expected value of the date-1 price of the bond. Multiplying both sides of (8.6) by 1.09 and invoking Jensen's inequality in Equation (8.5), gives (8.7). And from this equation, (8.8) follows directly: the one-year rate, one year forward, is less than the expected one-year rate in one year,
 
 $$
-\begin{array}{l} 0.8428 \equiv \frac{1}{(1.09)(1 + f)} = \frac{1}{1.09}\left[50\% \times \frac{1}{1.13} +50\% \times \frac{1}{1.05}\right] (8.6) \\ \frac {1}{1 + f} > \frac {1}{50 \% \times 1.13 + 50 \% \times 1.05} = \frac {1}{1.09} (8.7) \\ f <   9 \% (8.8) \\ \end{array}
+\begin{array}{l} 0.8428 \equiv \frac{1}{(1.09)(1 + f)} = \frac{1}{1.09}\left[50\% \times \frac{1}{1.13} +50\% \times \frac{1}{1.05}\right] (8.6) \\ \frac{1}{1 + f} > \frac{1}{50 \% \times 1.13 + 50 \% \times 1.05} = \frac{1}{1.09} (8.7) \\ f <   9 \% (8.8) \\ \end{array}
 $$
 
 # 8.3 AN ANALYTICAL DECOMPOSITION OF FORWARD RATES
@@ -2948,13 +2948,13 @@ This section derives a general decomposition of forward rates in terms of expect
 Assume that all bond prices are determined by the instantaneous rate,  $r$ , which takes on the value of  $r_t$  at time  $t$ . Let  $P_t(r_t, T)$  be the price of a  $T$ -year zero coupon bond at time  $t$ . By Ito's lemma, a discussion of which is beyond the scope of this book,
 
 $$
-d P = \frac {\partial P}{\partial r} d r + \frac {\partial P}{\partial t} d t + \frac {1}{2} \frac {\partial^ {2} P}{\partial r ^ {2}} \sigma^ {2} d t \tag {8.9}
+d P = \frac{\partial P}{\partial r} d r + \frac{\partial P}{\partial t} d t + \frac{1}{2} \frac{\partial^{2} P}{\partial r^{2}} \sigma^{2} d t \tag {8.9}
 $$
 
 where  $dP$ ,  $dr$ , and  $dt$  are the changes in price, rate, and time over the next instant, respectively, and  $\sigma$  is the volatility of changes in  $r$ . The two first-order partial derivatives in Equation (8.9) denote the instantaneous change in the bond price for a unit change in the rate (with time unchanged) and for a unit change in time (with rate unchanged), respectively. Finally, the second order partial derivative in the equation gives the instantaneous change in  $\partial P / \partial r$  (with time unchanged). Dividing both sides of (8.9) by price,
 
 $$
-\frac {d P}{P} = \frac {1}{P} \frac {\partial P}{\partial r} d r + \frac {1}{P} \frac {\partial P}{\partial t} d t + \frac {1}{2} \frac {1}{P} \frac {\partial^ {2} P}{\partial r ^ {2}} \sigma^ {2} d t \tag {8.10}
+\frac{d P}{P} = \frac{1}{P} \frac{\partial P}{\partial r} d r + \frac{1}{P} \frac{\partial P}{\partial t} d t + \frac{1}{2} \frac{1}{P} \frac{\partial^{2} P}{\partial r^{2}} \sigma^{2} d t \tag {8.10}
 $$
 
 Equation (8.10) breaks down the instantaneous return on the zero coupon bond into three components, but this decomposition can be written more intuitively by invoking several ideas from earlier chapters.
@@ -2962,29 +2962,29 @@ Equation (8.10) breaks down the instantaneous return on the zero coupon bond int
 First, in terms of instantaneous compounded forward rates,  $f(t)$ , the price of a  $T$ -year zero coupon bond is (from Section A2.1),
 
 $$
-P = e ^ {- \int_ {0} ^ {T} f (s) d s} \tag {8.11}
+P = e^{- \int_{0}^{T} f (s) d s} \tag {8.11}
 $$
 
 Then, differentiating both sides of (8.11) with respect to  $t$ , recognizing that increasing  $t$  decreases  $T$  one-for-one,
 
 $$
-\frac {\partial P}{\partial t} = - \frac {\partial P}{\partial T} = f (T) P \tag {8.12}
+\frac{\partial P}{\partial t} = - \frac{\partial P}{\partial T} = f (T) P \tag {8.12}
 $$
 
 Second, by the definitions of duration,  $D$ , and convexity,  $C$
 
 $$
-D \equiv - \frac {1}{P} \frac {\partial P}{\partial r} \tag {8.13}
+D \equiv - \frac{1}{P} \frac{\partial P}{\partial r} \tag {8.13}
 $$
 
 $$
-C \equiv \frac {1}{P} \frac {\partial^ {2} P}{\partial r ^ {2}} \tag {8.14}
+C \equiv \frac{1}{P} \frac{\partial^{2} P}{\partial r^{2}} \tag {8.14}
 $$
 
 Now, substituting Equations (8.12) through (8.14) into the return decomposition (8.10),
 
 $$
-\frac {\partial P}{P} = f (T) d t - D d r + \frac {1}{2} C \sigma^ {2} d t \tag {8.15}
+\frac{\partial P}{P} = f (T) d t - D d r + \frac{1}{2} C \sigma^{2} d t \tag {8.15}
 $$
 
 Equation (8.15) gives the return decomposition in terms of the following three components. The first is the return due to the passage of time, which, in this case, is the forward rate,  $f(T)$ .<sup>1</sup> The second and third components are returns due to changes in the rate. The second term says that increases in rate reduce bond return in proportion to duration. The third term says that the volatility of rates – movement of rates either up or down – increases return in proportion to convexity. To appreciate this term, recall from Chapter 4 that, across portfolios with the same duration, more convex portfolios increase more in value as rates change (at a fixed moment in time), whether rates rise or fall.
@@ -2992,7 +2992,7 @@ Equation (8.15) gives the return decomposition in terms of the following three c
 To draw conclusions about expected returns, take the expectation of both sides of (8.15),
 
 $$
-E \left[ \frac {\partial P}{P} \right] = f (T) d t - D E [ d r ] + \frac {1}{2} C \sigma^ {2} d t \tag {8.16}
+E \left[ \frac{\partial P}{P} \right] = f (T) d t - D E [ d r ] + \frac{1}{2} C \sigma^{2} d t \tag {8.16}
 $$
 
 The intuition of this decomposition is the same as for Equation (8.15), but with the duration component depending not on the change in rate but on the expected change in rate.
@@ -3000,7 +3000,7 @@ The intuition of this decomposition is the same as for Equation (8.15), but with
 The next step in the analysis introduces the concept of a risk premium. Risk-neutral investors, who do not require a risk premium, demand that each bond offer an expected return equal to the short-term rate of interest. Mathematically,
 
 $$
-E \left[ \frac {d P}{P} \right] = r _ {0} d t \tag {8.17}
+E \left[ \frac{d P}{P} \right] = r_{0} d t \tag {8.17}
 $$
 
 Risk averse investors, however, demand higher expected returns for bonds with greater interest rate risk. The appendix to this chapter shows that the interest rate risk of a bond over the next instant may be measured by its duration with respect to the interest rate factor, and that risk-averse investors demand a risk premium proportional to duration. This risk premium may depend on time and on the level of rates, but not on the characteristics of any individual bond. The discussion proceeds here,
@@ -3008,7 +3008,7 @@ Risk averse investors, however, demand higher expected returns for bonds with gr
 however, as if the risk premium were constant and denoted by  $\lambda$ . In that case, the expected return equation for risk-averse investors is,
 
 $$
-E \left[ \frac {d P}{P} \right] = r _ {0} d t + \lambda D d t \tag {8.18}
+E \left[ \frac{d P}{P} \right] = r_{0} d t + \lambda D d t \tag {8.18}
 $$
 
 Say, for example, that the short-term rate is  $1\%$ , that the duration of a bond is five, and that the risk premium is 10 basis points per year of duration risk. Then, according to Equation (8.18), the bond's expected return is  $1\% + 5 \times 0.1\% = 1.5\%$  per year.
@@ -3016,7 +3016,7 @@ Say, for example, that the short-term rate is  $1\%$ , that the duration of a bo
 Another useful way to think of the risk premium is in terms of the Sharpe ratio (SR) of a security, defined as its expected excess return (over the short-term rate) divided by the standard deviation of its return. Because the random part of a bond's return comes from its duration times the change in rate, as in Equation (8.15), the standard deviation of the return equals the duration times the standard deviation of rates. Therefore, the SR of a bond may be written as,
 
 $$
-S R = \frac {E [ d P / P ] - r _ {0} d t}{\sigma D d t} = \frac {\lambda}{\sigma} \tag {8.19}
+S R = \frac{E [ d P / P ] - r_{0} d t}{\sigma D d t} = \frac{\lambda}{\sigma} \tag {8.19}
 $$
 
 where the second equality follows from Equation (8.18). For example, if the risk premium is 10 basis points per year, and if the standard deviation of rates is 100 basis points per year, then the Sharpe ratio of bond investments is  $10\%$ .
@@ -3024,7 +3024,7 @@ where the second equality follows from Equation (8.18). For example, if the risk
 The decomposition of returns can now be combined with the economics of the risk premium to draw conclusions about the shape of the term structure of forward rates. Equating the expressions for expected returns in the right-hand sides of Equations (8.16) and (8.18),
 
 $$
-f (T) = \left\{r _ {0} + E \left[ \frac {d r}{d t} \right] D \right\} + \lambda D - \frac {1}{2} C \sigma^ {2} \tag {8.20}
+f (T) = \left\{r_{0} + E \left[ \frac{d r}{d t} \right] D \right\} + \lambda D - \frac{1}{2} C \sigma^{2} \tag {8.20}
 $$
 
 Equation (8.20) mathematically describes the determinants of forward rates. The three terms represent the impacts of expectations, risk premium, and convexity, respectively. The first term says that the forward rate is composed of the instantaneous interest rate plus the expected change in that rate times the duration of the zero coupon bond corresponding to the term of the forward rate. In other words, the higher the instantaneous rate, the higher the forward rate; the more rates are expected to increase, the higher the forward rate; and the greater the corresponding duration, the greater the effect of expected rate changes on the forward rate.
@@ -3058,11 +3058,11 @@ standard deviation equal to  $\sqrt{dt}$ . The shock, therefore, is normally dis
 As explained in the previous chapter, fixed income security prices may incorporate a risk premium that is indistinguishable from a drift in the evolution of the short-term rate. Along these lines, Equation (9.1) can be viewed as containing a drift due to a risk premium. Assume for the purposes of this section that the risk premium is a known constant of  $\lambda$  basis points per year, and that the long-run value of the short-term rate under the true or real-world probabilities is  $r_{\infty}$ . In that case, the true process of the short-term rate with the addition of a drift due to the risk premium is,
 
 $$
-\begin{array}{l} d r = k (r _ {\infty} - r) d t + \lambda d t + \sigma d w \\ = k \left(\left[ r _ {\infty} + \frac {\lambda}{k} \right] - r\right) d t + \sigma d w \tag {9.2} \\ \end{array}
+\begin{array}{l} d r = k (r_{\infty} - r) d t + \lambda d t + \sigma d w \\ = k \left(\left[ r_{\infty} + \frac{\lambda}{k} \right] - r\right) d t + \sigma d w \tag {9.2} \\ \end{array}
 $$
 
 $$
-\theta \equiv r _ {\infty} + \frac {\lambda}{k} \tag {9.3}
+\theta \equiv r_{\infty} + \frac{\lambda}{k} \tag {9.3}
 $$
 
 Equation (9.3) neatly emphasizes the inability to distinguish expectations from risk premium by observing security prices: an infinite number of combinations of  $r_{\infty}$  and  $\lambda$  give the same  $\theta$  and, therefore, the same risk-neutral price process in Equation (9.1).
@@ -3070,19 +3070,19 @@ Equation (9.3) neatly emphasizes the inability to distinguish expectations from 
 One reason that the Vasicek model is useful, both for learning about term structure models and for some simple pricing and hedging applications, is that most rates and prices from the model can be expressed through simple formulae. For the most complex securities, numerical methods, like binomial trees, are needed, and Appendix A9.1 explains how the model's dynamics might be captured in a binomial tree. The text, however, continues by presenting analytic solutions of the model, of which some of the most useful are,
 
 $$
-E \left[ r _ {t} \right] = r _ {0} e ^ {- k t} + \theta \left(1 - e ^ {- k t}\right) \tag {9.4}
+E \left[ r_{t} \right] = r_{0} e^{- k t} + \theta \left(1 - e^{- k t}\right) \tag {9.4}
 $$
 
 $$
-V \left[ r _ {t} \right] = \sigma^ {2} \frac {1 - e ^ {- 2 k t}}{2 k} \tag {9.5}
+V \left[ r_{t} \right] = \sigma^{2} \frac{1 - e^{- 2 k t}}{2 k} \tag {9.5}
 $$
 
 $$
-f (t) = \theta + e ^ {- k t} \left(r _ {0} - \theta\right) - \frac {\sigma^ {2}}{2 k ^ {2}} \left(1 + e ^ {- 2 k t} - 2 e ^ {- k t}\right) \tag {9.6}
+f (t) = \theta + e^{- k t} \left(r_{0} - \theta\right) - \frac{\sigma^{2}}{2 k^{2}} \left(1 + e^{- 2 k t} - 2 e^{- k t}\right) \tag {9.6}
 $$
 
 $$
-\hat {r} (t) = \theta + \frac {1 - e ^ {- k t}}{k t} \left(r _ {0} - \theta\right) - \frac {\sigma^ {2}}{2 k ^ {2}} \left(1 + \frac {1 - e ^ {- 2 k t}}{2 k t} - 2 \frac {1 - e ^ {- k t}}{k t}\right) \tag {9.7}
+\hat {r} (t) = \theta + \frac{1 - e^{- k t}}{k t} \left(r_{0} - \theta\right) - \frac{\sigma^{2}}{2 k^{2}} \left(1 + \frac{1 - e^{- 2 k t}}{2 k t} - 2 \frac{1 - e^{- k t}}{k t}\right) \tag {9.7}
 $$
 
 where  $E[r_t]$  gives today's expectation of the short-term rate at time  $t$ ,  $V[r_t]$  gives the variance of the short-term rate at time  $t$ ,  $f(t)$  is the continuously compounded forward rate of term  $t$ ; and  $\hat{r}(t)$  is the continuously compounded spot rate of term  $t$ .
@@ -3090,7 +3090,7 @@ where  $E[r_t]$  gives today's expectation of the short-term rate at time  $t$ ,
 Figures 9.1 through 9.3 illustrate these formulae with the parameter values given earlier. The expected short-term rate, according to Equation (9.4) and the solid line in Figure 9.1, moves gradually from  $r_0$  today ( $t = 0$ ) to  $\theta$  in the very distant future ( $t = \infty$ ). The mean reversion parameter governing the speed of that adjustment,  $k = 0.0165$ , is sometimes quoted instead as a half-life. From Equation (9.4), a shock to  $r_0$  decays according to the factor  $e^{-kt}$ . And half of such a shock decays away after time  $h$ , such that,
 
 $$
-e ^ {- k b} = \frac {1}{2}
+e^{- k b} = \frac{1}{2}
 $$
 
 $$
@@ -3136,19 +3136,19 @@ appealing, and they reasonably balance the goals of tractability and of capturin
 The dynamics of the cascade form of the model are given in Equations (9.9) through (9.12). The factors  $r$ ,  $m$ , and  $l$  denote the short-term rate of interest, a medium-term factor, and a long-term factor, respectively. The parameters  $\mu$  and  $\rho$  are discussed presently. The mean reversion parameters of the factors are,  $\alpha_r$ ,  $\alpha_m$ , and  $\alpha_l$ , respectively, and the volatility parameters for the medium- and long-term factors are  $\sigma_m$  and  $\sigma_l$ , respectively. The two random variables in the model are  $dW^1$  and  $dW^2$ . The subscript  $t$  denotes time-  $t$  observations of the factors, of changes in the factors, and of the random variables. Finally, then, the equations are,
 
 $$
-d r _ {t} = - \alpha_ {r} \left(m _ {t} - r _ {t}\right) d t \tag {9.9}
+d r_{t} = - \alpha_{r} \left(m_{t} - r_{t}\right) d t \tag {9.9}
 $$
 
 $$
-d m _ {t} = - \alpha_ {m} \left(l _ {t} - m _ {t}\right) d t + \sigma_ {m} \left(\rho d W _ {t} ^ {1} + \sqrt {1 - \rho^ {2}} d W _ {t} ^ {2}\right) \tag {9.10}
+d m_{t} = - \alpha_{m} \left(l_{t} - m_{t}\right) d t + \sigma_{m} \left(\rho d W_{t}^{1} + \sqrt{1 - \rho^{2}} d W_{t}^{2}\right) \tag {9.10}
 $$
 
 $$
-d l _ {t} = - \alpha_ {l} (\mu - l _ {t}) d t + \sigma_ {l} d W _ {t} ^ {1} \tag {9.11}
+d l_{t} = - \alpha_{l} (\mu - l_{t}) d t + \sigma_{l} d W_{t}^{1} \tag {9.11}
 $$
 
 $$
-E \left[ d W _ {t} ^ {1} d W _ {t} ^ {2} \right] = 0 \tag {9.12}
+E \left[ d W_{t}^{1} d W_{t}^{2} \right] = 0 \tag {9.12}
 $$
 
 Given the structure of the model, it turns out that the medium- and long-term factors can be thought of as rates. The short-term rate mean reverts to the medium-term factor, which is meant to reflect business cycles and monetary policy factors. The medium-term factor reverts to the long-term factor, which is meant to reflect long-term expectations of inflation and the real interest rate, which ultimately depend on long-term trends in demographics, production technology, and so forth. And the long-term factor reverts to a constant,  $\mu$ , which, as in the Vasicek model, can be thought of as including both a long-term expectation of the short-term rate and a risk premium. The mean reversion parameters are expected to be consistent with these economic interpretations; that is, the short-term rate reverts quickly to the medium-term factor; the medium-term factor reverts more slowly to the long-term factor; and the long-term factor reverts slowest of all to its target.
@@ -3158,19 +3158,19 @@ While the medium- and long-term factors trend as described in the previous parag
 the long-term factor around its trend has mean zero and volatility  $\sigma_l\sqrt{dt}$ . The random terms in Equation (9.10) look complicated, but they simply ensure that the instantaneous fluctuation of the medium-term factor around its trend has a volatility of  $\sigma_m\sqrt{dt}$  and a correlation of  $\rho$  with the fluctuation of the long-term factor around its trend. To see this, note that  $dW_t^2$  also has mean zero and standard deviation  $\sqrt{dt}$ , and, from Equation (9.12), zero correlation with  $dW_t^1$ . It then follows from Equation (9.10) that the standard deviation of  $dm_t$  is,
 
 $$
-\sqrt {\sigma_ {m} ^ {2} \left(\rho^ {2} d t + \left[ 1 - \rho^ {2} \right] d t\right)} = \sigma_ {m} \sqrt {d t} \tag {9.13}
+\sqrt{\sigma_{m}^{2} \left(\rho^{2} d t + \left[ 1 - \rho^{2} \right] d t\right)} = \sigma_{m} \sqrt{d t} \tag {9.13}
 $$
 
 that the covariance of  $dm$  and  $dl$  is,
 
 $$
-C o v \left[ \sigma_ {m} \left(\rho d W ^ {1} + \sqrt {1 - \rho^ {2}} d W ^ {2}\right), \sigma_ {l} d W ^ {1} \right] = \rho \sigma_ {m} \sigma_ {l} d t \tag {9.14}
+C o v \left[ \sigma_{m} \left(\rho d W^{1} + \sqrt{1 - \rho^{2}} d W^{2}\right), \sigma_{l} d W^{1} \right] = \rho \sigma_{m} \sigma_{l} d t \tag {9.14}
 $$
 
 and, therefore, that the correlation of  $dm$  and  $dl$  is,
 
 $$
-\frac {\rho \sigma_ {m} \sigma_ {l} d t}{\sigma_ {m} \sqrt {d t} \times \sigma_ {l} \sqrt {d t}} = \rho \tag {9.15}
+\frac{\rho \sigma_{m} \sigma_{l} d t}{\sigma_{m} \sqrt{d t} \times \sigma_{l} \sqrt{d t}} = \rho \tag {9.15}
 $$
 
 The evolution of the short-term rate in the model, Equation (9.9), is meant to reflect how central banks conduct rate policy. The Fed, for example, keeps the short-term policy rate pegged or fixed at a target, but moves that target over time in a manner deemed appropriate for the state of the business cycle and monetary conditions. Mathematically, in Equation (9.9), the short-term rate is fixed over the very short time interval,  $dt$ , in the sense that there is no random variable shocking the dynamics of  $r$ . The rate,  $r$ , is pushed gradually, however, toward the medium-term factor,  $m$ , which in turn reverts to the long factor,  $l$ .
@@ -3617,13 +3617,13 @@ Note: the bonds have effectively been purchased at a full price of 95.23353, whi
 Algebraically, then, the full forward price of the 1.125s of 02/15/2031, 95.23353 can be written as,
 
 $$
-\begin{array}{l} 95.23353 = \left[ (95.50781 + 0.28280) \left(1 + \frac{0.015\% \times 90}{360}\right) - \frac{1.125}{2} \right] \\ \times \left(1 + \frac {0.015 \% \times 46}{360}\right) \tag{11.2} \\ \end{array}
+\begin{array}{l} 95.23353 = \left[ (95.50781 + 0.28280) \left(1 + \frac{0.015\% \times 90}{360}\right) - \frac{1.125}{2} \right] \\ \times \left(1 + \frac{0.015 \% \times 46}{360}\right) \tag{11.2} \\ \end{array}
 $$
 
 Rearranging terms, and noting that the product of two interest rates is typically very small, gives the following approximation,
 
 $$
-\begin{array}{l} 95.23353 \approx \left[ (95.50781 + 0.28280) - \frac{1.125 / 2}{\left(1 + \frac{0.015\%\times 90}{360}\right)} \right] \\ \times \left(1 + \frac {0.015 \% \times 136}{360}\right) \tag{11.3} \\ \end{array}
+\begin{array}{l} 95.23353 \approx \left[ (95.50781 + 0.28280) - \frac{1.125 / 2}{\left(1 + \frac{0.015\%\times 90}{360}\right)} \right] \\ \times \left(1 + \frac{0.015 \% \times 136}{360}\right) \tag{11.3} \\ \end{array}
 $$
 
 In words, in the case of an intermediate coupon, the full forward price approximately equals the future value to the forward date of the full spot price less the present value of the coupon payment. More generally, were there more than one intermediate coupon payment, the full forward price would approximately equal the future value of the full spot price minus the present values of all those intermediate coupons.
@@ -3706,7 +3706,7 @@ Consider a forward and futures contract on the same underlying security for deli
 forward contracts with  $N^{\prime \prime}ut$  futures contracts,
 
 $$
-N ^ {f u t} = \frac {N ^ {f w d}}{1 + \frac {r d}{3 6 0}} \tag {11.4}
+N^{f u t} = \frac{N^{f w d}}{1 + \frac{r d}{3 6 0}} \tag {11.4}
 $$
 
 where the difference between  $N^{fwd}$  and  $N^{fut}$  is known as the tail of the hedge.
@@ -3718,7 +3718,7 @@ This section closes with a comment on terminology. The terms "mark-to-market," "
 The cost of delivery measures how much it costs a short to fulfill the commitment to deliver a bond through a futures contract. Having decided to deliver bond  $i$ , the short first has to buy the bond at its market price plus accrued interest and then deliver it through the futures contract for the futures price times the conversion factor plus accrued interest. Denoting the time- $t$  flat price of bond  $i$  at time  $t$  by  $p_t^i$ ; its accrued interest by  $AI_t^i$ ; its conversion factor by  $cf^i$ ; and the futures price by  $F_t$ , the cost of delivery is,
 
 $$
-p _ {t} ^ {i} + A I _ {t} ^ {i} - \left(c f ^ {i} \times F _ {t} + A I _ {t} ^ {i}\right) = p _ {t} ^ {i} - c f ^ {i} \times F _ {t} \tag {11.5}
+p_{t}^{i} + A I_{t}^{i} - \left(c f^{i} \times F_{t} + A I_{t}^{i}\right) = p_{t}^{i} - c f^{i} \times F_{t} \tag {11.5}
 $$
 
 TABLE 11.7 Prices of TYU1 and Notes in Its Deliverable Basket as of the Last Trading Date, September 21, 2021.  
@@ -3736,13 +3736,13 @@ Because this is the lowest cost of delivery in the table, these bonds are CTD in
 To focus on the quality option, assume for the moment that date  $T$  is both the last trading date and the last delivery date. Arbitrage arguments can then be used to show that,
 
 $$
-p _ {T} ^ {C T D} - c f ^ {C T D} \times F _ {T} = 0 \tag {11.7}
+p_{T}^{C T D} - c f^{C T D} \times F_{T} = 0 \tag {11.7}
 $$
 
 and,
 
 $$
-F _ {T} = \frac {p _ {T} ^ {C T D}}{c f ^ {C T D}} \leq \frac {p _ {T} ^ {i}}{c f ^ {i}} \tag {11.8}
+F_{T} = \frac{p_{T}^{C T D}}{c f^{C T D}} \leq \frac{p_{T}^{i}}{c f^{i}} \tag {11.8}
 $$
 
 Equation (11.7) says that the cost of delivery of the CTD at expiration is zero. Equation (11.8) says that the futures price at expiration, that is, the last settlement price, equals the ratio of the price of the CTD bond to its conversion factor and that this ratio is less than or equal to the ratios of all other bond prices to their conversion factors. These theoretical predictions are extremely good approximations for TYU1 as of its last trading date, as can be seen from Table 11.7. The cost of delivery of the CTD is very close to zero; the ratio of its price to its conversion factor very nearly equals the futures price; and the ratio of all other bond prices to their CTDs are larger. This section concludes with the arbitrage proofs of Equations (11.7) and (11.8).
@@ -3750,19 +3750,19 @@ Equation (11.7) says that the cost of delivery of the CTD at expiration is zero.
 Say that (11.7) is not true, and that, instead,  $F_{T} > p^{CTD} / cf^{CTD}$ . In that case, an arbitrageur could buy the CTD, sell the futures, and deliver the CTD, earning a profit of,
 
 $$
-c f ^ {C T D} \times F _ {T} - p _ {T} ^ {C T D} \tag {11.9}
+c f^{C T D} \times F_{T} - p_{T}^{C T D} \tag {11.9}
 $$
 
 which is positive by the starting assumption that  $F_{T} > p^{CTD} / cf^{CTD}$ . Hence, ruling out market prices that admit riskless arbitrage opportunities rules out this assumed pricing relationship. Next, assume that  $F_{T} < p^{CTD} / cf^{CTD}$ . In this case, an arbitrageur could sell the CTD, buy the futures, and take delivery of the bond delivered by the short. If the short delivers the CTD, then the arbitrageur's profit is,
 
 $$
-p _ {T} ^ {C T D} - c f ^ {C T D} \times F _ {T} \tag {11.10}
+p_{T}^{C T D} - c f^{C T D} \times F_{T} \tag {11.10}
 $$
 
 which is positive by the starting assumption that  $F_{T} < p^{CTD} / cf^{CTD}$ . If the short delivers some other bond  $i$ , the trader buys back the CTD just sold and sells bond  $i$  instead, for a total profit of,
 
 $$
-p _ {T} ^ {i} - c f ^ {i} \times F _ {T} \geq p _ {T} ^ {C T D} - c f ^ {C T D} \times F _ {T} > 0 \tag {11.11}
+p_{T}^{i} - c f^{i} \times F_{T} \geq p_{T}^{C T D} - c f^{C T D} \times F_{T} > 0 \tag {11.11}
 $$
 
 where the first inequality follows from the definition of the CTD – the cost of delivering any bond other than the CTD is at least as great as the cost of delivering the CTD – and the second inequality follows from the starting assumption that  $F_{T} < p^{CTD} / cf^{CTD}$ . Hence, the arbitrageur's profit is even greater if the short (suboptimally) delivers a bond other than the CTD. But if the arbitrageur's profit is positive for whatever bond the short delivers, then the assumption  $F_{T} < p^{CTD} / cf^{CTD}$  is ruled out as admitting riskless arbitrage opportunities. Finally, ruling out both  $F_{T} > p^{CTD} / cf^{CTD}$  and  $F_{T} < p^{CTD} / cf^{CTD}$  proves the equality in (11.8) and (11.7). The inequality of (11.8) follows from combining (11.7) with the condition that the CTD has the
@@ -3770,7 +3770,7 @@ where the first inequality follows from the definition of the CTD – the cost o
 lowest cost of delivery,
 
 $$
-\begin{array}{l} p _ {T} ^ {i} - c f ^ {i} \times F _ {T} \geq p _ {T} ^ {C T D} - c f ^ {C T D} \times F _ {T} = 0 \\ p _ {T} ^ {i} - c f ^ {i} \times F _ {T} \geq 0 \\ F _ {T} \leq \frac {p _ {T} ^ {i}}{c f ^ {i}} \tag {11.12} \\ \end{array}
+\begin{array}{l} p_{T}^{i} - c f^{i} \times F_{T} \geq p_{T}^{C T D} - c f^{C T D} \times F_{T} = 0 \\ p_{T}^{i} - c f^{i} \times F_{T} \geq 0 \\ F_{T} \leq \frac{p_{T}^{i}}{c f^{i}} \tag {11.12} \\ \end{array}
 $$
 
 # 11.7 MOTIVATIONS FOR A DELIVERY BASKET AND CONVERSION FACTORS
@@ -3788,7 +3788,7 @@ Conversion factors reduce the difference in delivery costs by adjusting delivery
 Conversion factors are computed by the exchange and are easily available. The basic idea can be explained most simply, however, with the following approximation: the conversion factor of a bond equals its price, per dollar face amount, at a yield equal to the notional coupon rate, for settlement on the last delivery date. At present, the notional coupon for US Treasury futures is  $6\%$ . Therefore, to take one example, the conversion factor of the 1.25s of 03/13/2028 deliverable into TYU1 is approximated using the price-yield Equation (3.8) for a face amount of one dollar, at a yield of  $6\%$ , and for settlement on 09/30/2021, which leaves 13 remaining coupon payments, $^{6}$
 
 $$
-\frac {1.25 \%}{6 \%} \left(1 - \frac {1}{\left(1 + \frac {6 \%}{2}\right) ^ {13}}\right) + \frac {1}{\left(1 + \frac {6 \%}{2}\right) ^ {13}} = 0.7474 \tag{11.13}
+\frac{1.25 \%}{6 \%} \left(1 - \frac{1}{\left(1 + \frac{6 \%}{2}\right)^{13}}\right) + \frac{1}{\left(1 + \frac{6 \%}{2}\right)^{13}} = 0.7474 \tag{11.13}
 $$
 
 This calculation rule clearly assigns higher conversion factors to higher coupon bonds. But the justification for the rule is stronger than that. Assume that the term structure of yields is actually flat at  $6\%$ . In that case, the conversion factor of each bond equals the market price of one dollar face amount of the bond, and the ratio of the market price (per 100 face amount) to the
@@ -3823,11 +3823,11 @@ the terms at which traders can buy a futures contract and short a deliverable bo
 Let  $p_t^i$  denote the spot price of bond  $i$  at time  $t$ ;  $p_t^i(T)$  its forward price at time  $t$  to the last delivery date,  $T$ ; and  $cf^i$  its conversion factor. Let  $F_t$  be the futures price at time  $t$ . Then, the gross basis and net basis of bond  $i$  at time  $t$ ,  $GB_t^i$  and  $NB_t^i$ , respectively, are defined as,
 
 $$
-G B _ {t} ^ {i} = p _ {t} ^ {i} - c f ^ {i} \times F _ {t} \tag {11.14}
+G B_{t}^{i} = p_{t}^{i} - c f^{i} \times F_{t} \tag {11.14}
 $$
 
 $$
-N B _ {t} ^ {i} = p _ {t} ^ {i} (T) - c f ^ {i} \times F _ {t} \tag {11.15}
+N B_{t}^{i} = p_{t}^{i} (T) - c f^{i} \times F_{t} \tag {11.15}
 $$
 
 Table 11.8 gives the futures price and the spot and forward prices of each bond deliverable into TYU1, along with its gross basis, carry, and net basis.<sup>7</sup> For example, the gross basis of the 2 7/8s of 05/15/2028 is,
@@ -3861,13 +3861,13 @@ a gross basis of 34.9 ticks or less. If prices subsequently line up such that th
 Abstracting for a moment from interest on daily settlement payments, the P&L of a long basis position is the sum of the profit or loss from the forward bond position and from the futures position. Algebraically, with  $G^{i}$  face amount of bond  $i$  and a trade from time  $t$  to time  $s$ , the P&L is,
 
 $$
-G ^ {i} \times \left[ P _ {s} ^ {i} (T) - P _ {t} ^ {i} (T) \right] - G ^ {i} \times c f ^ {i} \times \left[ F _ {s} - F _ {t} \right] \tag {11.18}
+G^{i} \times \left[ P_{s}^{i} (T) - P_{t}^{i} (T) \right] - G^{i} \times c f^{i} \times \left[ F_{s} - F_{t} \right] \tag {11.18}
 $$
 
 But, from the definition of the net basis in Equation (11.15), (11.18) can be rewritten as,
 
 $$
-G ^ {i} \times \left[ N B _ {s} ^ {i} (T) - N B _ {t} ^ {i} (T) \right] \tag {11.19}
+G^{i} \times \left[ N B_{s}^{i} (T) - N B_{t}^{i} (T) \right] \tag {11.19}
 $$
 
 In words, the P&L of a long basis trade is the face amount of bonds times the change in the bond's net basis. The P&L of a short basis trade is the negative of that. Consider, then, a trader who is sure that a particular bond will be CTD at expiration but sees that the net basis of the bond is trading at five ticks. This trader might very well sell the basis in the hope of making five ticks: if the bond does turn out to be CTD, its net basis will be zero at expiration, and the trader's profit will be the difference between the initial net basis of five ticks and the final net basis of zero ticks. Along these lines, therefore, the net basis of a bond is an indicator of a bond's becoming CTD. With respect to TYU1 as of May 14, 2021, the net bases in Table 11.8 strongly indicate that the 2.875s of 05/15/2028 will be CTD at expiration. Price are such that traders cannot make much money by betting that the 2.875s of 05/15/2028 will be CTD, that is, by selling its basis at only 1.1 ticks. But they can make a lot of money by taking a contrarian view that turns out to be right, for example, by selling the 2.875s of 08/15/2028 basis at 24.8 ticks in the hope that this bond will turn out to be CTD.
@@ -3883,7 +3883,7 @@ Table 11.1 and Equation (11.1) compute the forward price of the 2.875s of 05/15/
 To illustrate, consider, once again, the 2.875s of 05/15/2028 and the data in Table 11.8. If that bond will be CTD with certainty, the ratio of its forward price to its conversion factor should equal the futures price; that is, its forward price should equal  $131 - 17 + / 0.8338$ , or 109.68379. Then, following the logic of Equation (11.1), the relationship between the bond's spot and forward prices and the repo rate,  $r$ , is,
 
 $$
-1 0 9. 6 8 3 7 9 + 1. 0 7 8 1 3 = (1 1 0. 7 7 3 4 4 + 0. 0 1 5 6 2) \left(1 + \frac {r \times 1 3 6}{3 6 0}\right) \tag {11.20}
+1 0 9. 6 8 3 7 9 + 1. 0 7 8 1 3 = (1 1 0. 7 7 3 4 4 + 0. 0 1 5 6 2) \left(1 + \frac{r \times 1 3 6}{3 6 0}\right) \tag {11.20}
 $$
 
 which gives an implied repo rate of  $r = -0.065\%$ .
@@ -3895,7 +3895,7 @@ bond's spot price. In the example, under the assumption that the 2.875s of 05/15
 Another way to think about implied repo is as the rate earned by buying a bond spot and selling it through the futures contract. Rewriting Equation (11.1), with a spot price of 110.77344 and a forward price of 109.71721, the return from buying spot and selling forward is just the repo rate,
 
 $$
-\frac {109.71721 + 1.07813 - (110.77344 + 0.01562)}{(110.77344 + 0.01562)} \frac {360}{136} = 0.015 \% \quad (11.21)
+\frac{109.71721 + 1.07813 - (110.77344 + 0.01562)}{(110.77344 + 0.01562)} \frac{360}{136} = 0.015 \% \quad (11.21)
 $$
 
 Similarly, the return from buying spot and selling forward – this time with a forward price implied by the futures price of 109.68379 – is  $-0.065\%$ . From this perspective as well, then, TYU1 is too low relative to the spot price of the 2.875s of 05/15/2028, so long as that bond is CTD. Implied repo as a measure of relative value will be revisited in the case study at the end of the chapter.
@@ -3958,11 +3958,11 @@ Given the impact of freezing the futures price as of the last trading date, the 
 Returning now to the end-of-month option, say that, after the last trading date, the futures price is frozen at  $F_{s}$  and that a long basis trader is long bond  $i$  and short a matching notional amount of contracts. This trader, planning to deliver bond  $i$ , has locked in a delivery price of  $c f^{i}$  times  $F_{s}$ . But a profit can be earned by switching to bond  $j$ , that is, by selling bond  $i$ , buying bond  $j$ , and delivering bond  $j$ , if there is a bond  $j$  such that,
 
 $$
-p ^ {i} - p ^ {j} + c f ^ {j} \times F _ {s} > c f ^ {i} \times F _ {s} \tag {11.22}
+p^{i} - p^{j} + c f^{j} \times F_{s} > c f^{i} \times F_{s} \tag {11.22}
 $$
 
 $$
-p ^ {i} - c f ^ {i} \times F _ {s} > p ^ {j} - c f ^ {j} \times F _ {s} \tag {11.23}
+p^{i} - c f^{i} \times F_{s} > p^{j} - c f^{j} \times F_{s} \tag {11.23}
 $$
 
 Equation (11.22), which says that the switch is profitable, is equivalent to Equation (11.23), which says that bond  $j$  is cheaper to deliver than bond  $i$ .
@@ -4103,7 +4103,7 @@ The final settlement rate of a one-month SOFR contract equals the average SOFR r
 The one-month SOFR contract is scaled to hedge a \$5 million 30-day investment. More specifically, the P&L (profit and loss) on one contract from a one-basis-point decrease in the contract's rate is set equal to,
 
 $$
-\$ 5,000,000 \times 0.01 \% \times \frac {30}{360} = \$ 41.67 \tag{12.2}
+\$ 5,000,000 \times 0.01 \% \times \frac{30}{360} = \$ 41.67 \tag{12.2}
 $$
 
 To elaborate on the P&L from buying, holding, and selling this futures contract, consider a trader that buys one February contract on January 14, 2022, at a price of 99.935, which corresponds to a rate of  $0.065\%$ . Say further that the price falls to 99.910, or equivalently, that the rate rises to  $0.09\%$ , and that the trader either sells the contract or that the contract expires at those levels. Because the trader bought the contract and the price
@@ -4121,7 +4121,7 @@ from falling repo rates, the fund buys one-month SOFR futures contracts, which p
 Focusing first on hedging the risk of falling repo rates over the month of February, the fund can buy February contracts. Because each contract is scaled to hedge a  \$5 million 30-day investment, while the fund is investing\$ 50 million over the 28-day month of February, the fund needs to buy,
 
 $$
-\frac {\mathbb {S} 5 0 , 0 0 0 , 0 0 0 \times 2 8}{\mathbb {S} 5 , 0 0 0 , 0 0 0 \times 3 0} = 1 0 \times \frac {2 8}{3 0} = 9. 3 3 \tag {12.3}
+\frac{\mathbb {S} 5 0 , 0 0 0 , 0 0 0 \times 2 8}{\mathbb {S} 5 , 0 0 0 , 0 0 0 \times 3 0} = 1 0 \times \frac{2 8}{3 0} = 9. 3 3 \tag {12.3}
 $$
 
 contracts. Under a few simplifying assumptions, discussed presently, the performance of this hedge is described in Table 12.3. The first column gives the average realized rate over the month of February. The second column gives the investment proceeds from earning simple interest in repo over the month of February. At an average repo rate of  $0.09\%$ , for example, the fund earns  $\$50$  million  $\times 0.09\% \times 28 / 360 = \$3,500$ . The third column gives the P&L from being long 9.33 contracts. Taking again the realized average rate of  $0.09\%$ , which is 2.5 basis points above the purchase rate of  $0.065\%$ , the long futures position loses  $9.33 \times 2.5 \times 41.67 = \$971.95$ . The fourth column gives the net proceeds, that is, the sum of the investment proceeds and the P&L from the SOFR futures hedge. The hedge works well in the sense that, no matter what the realized average rate, net proceeds are about the same. To elaborate, buying SOFR futures at a rate of  $0.065\%$  approximately locks in a net P&L of  $\$2,528$ . If the realized repo rate is less than  $0.065\%$ , investment proceeds are less, but futures P&L profits compensate for the difference. If the realized repo rate is greater than  $0.065\%$ , investment proceeds are greater, but futures P&L losses offset the difference. The reader can verify that the hedge works perfectly, that is, net proceeds always equal  $\$2,527.78$ , under the contrafactual assumptions that: i) the fund buys exactly 9 1/3 contracts, which is the exact solution of Equation (12.3); and ii) the P&L of the futures contract is exactly  $\$41$  2/3 per basis point, which is the exact expression in Equation (12.2).
@@ -4135,7 +4135,7 @@ The depiction of the hedge in Table 12.3 is simplified in several ways. First, t
 Stepping back to the full example, the money market fund wants to hedge its overnight repo investments from January 14 to March 14. The hedge over February is described above. Turning to the hedge over the month of January, note that SOFR observations for the first 13 days of January have already been set. Therefore, a one-basis-point change to repo rates over each of the remaining 18 days of January moves average SOFR for the month by only 18/31 basis points. Similarly, the fund is investing in repo over only 18 days in January. The correct number of contracts for the hedge is, therefore,
 
 $$
-\frac {\mathbb {S} 50 , 000 , 000 \times 0 . 01 \% \times \frac {18}{360}}{\mathbb {S} 5 , 000 , 000 \left(0 . 01 \% \times \frac {18}{31}\right) \times \frac {30}{360}} = 10 \times \frac {31}{30} = 10.33 \tag{12.4}
+\frac{\mathbb {S} 50 , 000 , 000 \times 0 . 01 \% \times \frac{18}{360}}{\mathbb {S} 5 , 000 , 000 \left(0 . 01 \% \times \frac{18}{31}\right) \times \frac{30}{360}} = 10 \times \frac{31}{30} = 10.33 \tag{12.4}
 $$
 
 In words, because the number of remaining days in the month affects the investment proceeds and the futures contract in the same way, the fact that the hedge starts in the middle of the month can be ignored. Therefore, just as in Equation (12.3) for the February hedge, the number of contracts for the January hedge is the investment of  \$50 million for 31 days divided by the contract's effective hedge of\$ 5 million for 30 days, which equals 10 times 31/30, or 10.33. Table 12.4 illustrates the January hedge, noting that SOFR over each of the first 13 days of January was five basis points. The format of the table is similar to that of Table 12.3, but the first column is the average repo rate over the whole month, which determines the futures P&L, while the second column is the average repo rate over the last 18 days of the month, which determines the investment proceeds. From the first row, for example, the first 13 days at five basis points and the last 18 days at 2.85 basis points give an average over the month of  $(5 \times 13 + 2.85 \times 18) / 31 = 3.75$  basis points.
@@ -4153,7 +4153,7 @@ The remaining piece of the overall money market fund hedge is using the March co
 to the investment – March 4 to March 13, inclusive of both dates – and 28 days left of exposure to the contract – March 4 to March 31, inclusive of both dates. The hedge ratio, therefore, is given by,
 
 $$
-\frac {\mathbb {S} 50,000,000 \times 0.01 \% \times \frac {10}{360}}{\mathbb {S} 5,000,000 \left(0.01 \% \times \frac {28}{31}\right)} = 10 \times \frac {31}{28} \frac {10}{30} = 3.69 \tag{12.5}
+\frac{\mathbb {S} 50,000,000 \times 0.01 \% \times \frac{10}{360}}{\mathbb {S} 5,000,000 \left(0.01 \% \times \frac{28}{31}\right)} = 10 \times \frac{31}{28} \frac{10}{30} = 3.69 \tag{12.5}
 $$
 
 In short, the appropriate number of contracts falls gradually over March from 4.33 before the setting of repo on March 1 to zero on March 14. More generally, the number of one-month SOFR contracts hedging exposure from the beginning of the month to sometime within the month declines over the course of the month.
@@ -4216,11 +4216,11 @@ In words, with a  $6\%$  probability of the Federal Reserve increasing fed funds
 Moving to the next meeting, because there is a possible rate target announcement on March 16, but no meeting in April, the April futures rate of  $0.355\%$  indicates a market expectation of  $0.355\%$  after the announcement on March 16. Implied the results of the May meeting is more complex, because there is a meeting in June. Hence, to calculate the market's expectation of the May meeting, let  $f^{May}$  be expected fed funds effective after the May meeting, which takes effect starting and including May 5. The May fed futures rate of  $0.450\%$ , therefore, is an average of four days at the expectation of  $0.355\%$  coming out of the previous meeting, and 27 days at  $f^{May}$ . Mathematically,
 
 $$
-0.450 \% = \frac {4 \times 0.355 \% + 27 \times f ^ {\text {May}}}{31}
+0.450 \% = \frac{4 \times 0.355 \% + 27 \times f^{\text{May}}}{31}
 $$
 
 $$
-f ^ {\text {May}} = 0.4641 \% \tag{12.7}
+f^{\text{May}} = 0.4641 \% \tag{12.7}
 $$
 
 Continuing along these lines, the expected fed funds effective rate can be computed for each date. Figure 12.3 shows the results of this exercise, as of October 1 and as of January 17, using fed fund futures rates from Table 12.6. This figure graphically conveys the same message as the futures rates themselves, namely, that the market revised its rate expectation upward from October 1 to January 17. The figure, however, relying on the meeting dates, explicitly shows the path of expected rates.
@@ -4258,7 +4258,7 @@ and last digit of the year. The "Start Date" of the reference period is the IMM 
 Let  $r_i$  denote SOFR for date  $i$ , and let  $D$  denote the total number of days in the reference period. As in the cases of one-month SOFR futures and fed fund futures, SOFR for any non-business day is taken as the value of SOFR on the previous business day. The final settlement rate of a three-month SOFR futures contract,  $R$ , is then defined such that,
 
 $$
-\begin{array}{l} 1 + \frac {R D}{3 6 0} = \left(1 + \frac {r _ {1}}{3 6 0}\right) \left(1 + \frac {r _ {2}}{3 6 0}\right) \dots \left(1 + \frac {r _ {D}}{3 6 0}\right) (12.9) \\ R = \left[ \left(1 + \frac {r _ {1}}{3 6 0}\right) \left(1 + \frac {r _ {2}}{3 6 0}\right) \dots \left(1 + \frac {r _ {D}}{3 6 0}\right) - 1 \right] \frac {3 6 0}{D} (12.10) \\ \end{array}
+\begin{array}{l} 1 + \frac{R D}{3 6 0} = \left(1 + \frac{r_{1}}{3 6 0}\right) \left(1 + \frac{r_{2}}{3 6 0}\right) \dots \left(1 + \frac{r_{D}}{3 6 0}\right) (12.9) \\ R = \left[ \left(1 + \frac{r_{1}}{3 6 0}\right) \left(1 + \frac{r_{2}}{3 6 0}\right) \dots \left(1 + \frac{r_{D}}{3 6 0}\right) - 1 \right] \frac{3 6 0}{D} (12.10) \\ \end{array}
 $$
 
 The right-hand side of Equation (12.9) gives the value of an investment of one unit of currency, compounded daily at realized SOFR rates, from days one to  $D$ . The left-hand side is the value of an investment of one unit of currency at the term rate  $R$  for  $D$  days. Equating the two sides of this equation, therefore, means that  $R$  is the realized term rate that summarizes daily compounded SOFR over the reference period. Solving for  $R$  gives Equation (12.10). To illustrate with an extremely simple example, note that there are 98 days in the reference period of the June three-month SOFR contract. Assume that SOFR over the 42 days from June 15 to July 26,
@@ -4266,7 +4266,7 @@ The right-hand side of Equation (12.9) gives the value of an investment of one u
 inclusive of both, is  $0.51\%$ , while SOFR over the 56 days from July 27 to September 20, inclusive of both, is  $0.76\%$ . (Note that these two periods correspond to periods between FOMC meetings listed in Table 12.6.) Then, using Equation (12.10),
 
 $$
-\begin{array}{l} R = \left[ \left(1 + \frac {0.51 \%}{360}\right) ^ {42} \left(1 + \frac {0.76 \%}{360}\right) ^ {56} - 1 \right] \frac {360}{98} \\ R = 0.653\% \tag{12.11} \\ \end{array}
+\begin{array}{l} R = \left[ \left(1 + \frac{0.51 \%}{360}\right)^{42} \left(1 + \frac{0.76 \%}{360}\right)^{56} - 1 \right] \frac{360}{98} \\ R = 0.653\% \tag{12.11} \\ \end{array}
 $$
 
 The final settlement price would be 100 minus the percentage rate, or  $100 - 0.653 = 99.347$ . This price and the rate in Equation (12.11) are, as it turns out, nearly equal to the price and rate of the June contract given in Table 12.7.
@@ -4274,7 +4274,7 @@ The final settlement price would be 100 minus the percentage rate, or  $100 - 0.
 To illustrate hedging with three-month SOFR futures, consider the following simple example. As of January 14, 2022, a company plans to borrow  \$10 million from its bank for the 98 days between June 15, 2022, to September 21, 2022, at daily compounded SOFR plus a spread. To hedge the risk that SOFR is higher over that time period, the company can sell June contracts. Because the loan is for\$ 10 million over 98 days, while each contract is scaled to a \$1 million 90-day loan, the number of contracts to be sold is,
 
 $$
-\frac {\mathbb {S} 1 0 , 0 0 0 , 0 0 0 \times 9 8}{\mathbb {S} 1 , 0 0 0 , 0 0 0 \times 9 0} = 1 0. 8 9 \tag {12.12}
+\frac{\mathbb {S} 1 0 , 0 0 0 , 0 0 0 \times 9 8}{\mathbb {S} 1 , 0 0 0 , 0 0 0 \times 9 0} = 1 0. 8 9 \tag {12.12}
 $$
 
 The top panel of Table 12.8 describes the performance of the hedge in three interest rate scenarios. Consider the scenario in which the realized contract rate turns out to be \(0.35\%\). By the definition of that rate in Equations (12.9) and (12.10), the interest in this scenario on the SOFR component of the bank loan (i.e., ignoring the spread) over the 98-period ending September 21, is \(-\\(10,000,000 \times 0.35\% \times 98/360 = -\\)9,527.78\). The P&L from the hedge, that is, from selling 10.89 contracts at \(0.65\%\) that expire at \(0.35\%\), for a loss of 30 basis points per contract, is \(-30 \times \\)25 \times 10.89 = -\\(8,167.50\). Ignoring daily settlement payments, this panel assumes that this futures P&L is realized on the June contract's valuation date, which is also September 21. Summarizing this scenario, then, the company's relatively low interest cost and its loss on its futures hedge gives a total obligation of about \\(17,695. In the scenario in which the final settlement rate is \(0.65\%\), the interest cost is about \\)17,694, and the futures P&L is zero. And if the final settlement rate is \(0.95\%\), then the realized interest cost is relatively high, but, offset by futures gains, again giving a net cost of about \(-\\)17,694\). Hence, with the three-month SOFR futures hedge, the interest cost is successfully locked in at \(0.65\%\), that is, the rate at which the futures contracts are initially sold. (The net amount would be exactly \\)17,694.44
@@ -4312,7 +4312,7 @@ TABLE 12.9 A €10 Million Euribor Forward Rate Agreement from June 15, 2022, to
 the €10 million it needs plus the quantity it owes on the FRA for three months at the then-prevailing rate,  $R$ . In total then, the corporation owes,
 
 $$
-\begin{array}{l} \left(\epsilon 10,000,000 + \frac {\epsilon 10,000,000 \times \frac {92}{360} (- 0.47 \% - R)}{1 + \frac {92}{360} R}\right) \left(1 + \frac {92}{360} R\right) (12.13) \\ = \epsilon 10,000,000 \left(1 + \frac{92}{360} R + \frac{92}{360} (-0.47\% -R)\right) (12.14) \\ = \epsilon 10,000,000 \left(1 + \frac {92}{360} \times (- 0.47 \%)\right) (12.15) \\ \end{array}
+\begin{array}{l} \left(\epsilon 10,000,000 + \frac{\epsilon 10,000,000 \times \frac{92}{360} (- 0.47 \% - R)}{1 + \frac{92}{360} R}\right) \left(1 + \frac{92}{360} R\right) (12.13) \\ = \epsilon 10,000,000 \left(1 + \frac{92}{360} R + \frac{92}{360} (-0.47\% -R)\right) (12.14) \\ = \epsilon 10,000,000 \left(1 + \frac{92}{360} \times (- 0.47 \%)\right) (12.15) \\ \end{array}
 $$
 
 on September 15, which is exactly the same as if it had borrowed €10 million at a rate of  $-0.47\%$ . Intuitively, if realized Euribor on June 15 is less than  $-0.47\%$ , the corporation borrows at relatively low rates, but owes money on the FRA. On the other hand, if realized Euribor is greater than  $-0.47\%$ , the corporation borrows at relatively high rates but collects money on the FRA.[9]
@@ -4322,7 +4322,7 @@ An exchange-traded alternative to Euribor FRAs are Euribor futures contracts, so
 The corporation in the FRA example hedges a €10 million, 92-day loan from June 15 to September 15, 2022. This time period corresponds exactly to that covered by Euribor set on June 13, which is also the expiration of the June three-month Euribor contract. Furthermore, with the market at the levels in Table 12.10 – a rate of  $-0.47\%$  – the corporation can sell the June contract to lock in a rate of  $-0.47\%$  on its planned borrowing. The number of contracts required to hedge the €10 million, 92-day loan with a contract scaled to a €1 million, 90-day loan, is,
 
 $$
-\frac {\mathbb {S} 1 0 , 0 0 0 , 0 0 0 \times 9 2}{\mathbb {S} 1 , 0 0 0 , 0 0 0 \times 9 0} = 1 0. 2 2 \tag {12.16}
+\frac{\mathbb {S} 1 0 , 0 0 0 , 0 0 0 \times 9 2}{\mathbb {S} 1 , 0 0 0 , 0 0 0 \times 9 0} = 1 0. 2 2 \tag {12.16}
 $$
 
 TABLE 12.10 Selected Three-Month Euribor Futures Contracts, as of January 14, 2022. Rates Are in Percent.  
@@ -4711,11 +4711,11 @@ FIGURE 14.2 A Par-Par Asset Swap with Financing.
 let  $A^{fixed}$  and  $A^{floating}$  be the factors such that  $cA^{fixed}$  gives the present value of the payments of  $c$  on the fixed side of the swap and such that  $s^{par}A^{floating}$  gives the present value of the payments of  $s^{par}$  on the floating side. Let  $d$  be the discount factor for cash flows at maturity. Also, along the lines of Chapter 13, include a fictional notional amount of 100 at maturity on both legs of the swap, and note that the present value of receiving LIBOR and the final notional amount is par. Then, the fair pricing condition for the swap is,
 
 $$
-(P - 1 0 0) + 1 0 0 + 1 0 0 s ^ {p a r} A ^ {f l o a t} = c A ^ {f i x e d} + 1 0 0 d
+(P - 1 0 0) + 1 0 0 + 1 0 0 s^{p a r} A^{f l o a t} = c A^{f i x e d} + 1 0 0 d
 $$
 
 $$
-s ^ {p a r} = \frac {c A ^ {f i x e d} + 1 0 0 d - P}{1 0 0 A ^ {f l o a t}} \tag {14.1}
+s^{p a r} = \frac{c A^{f i x e d} + 1 0 0 d - P}{1 0 0 A^{f l o a t}} \tag {14.1}
 $$
 
 From Equation (14.1), for a given swap rate curve, as the credit risk of the bond increases,  $P$  decreases, which, in turn, increases the asset swap spread,  $s^{par}$ . Table 14.7 reports that, as of August 15, 2021, the par asset swap spread of the Genworth 4.90s of 08/15/2023 is 526.4 basis points.
@@ -4723,7 +4723,7 @@ From Equation (14.1), for a given swap rate curve, as the credit risk of the bon
 A second flavor of asset swaps, namely, a market value asset swap, is illustrated in Figure 14.3. The market value asset swap differs from the par asset swap in that  $P$  is borrowed from the repo desk, rather than 100;  $P - 100$  is paid by the swap desk at the maturity rather than the initiation of the swap; and, as a result, LIBOR plus the spread,  $s^{mkt}$ , is earned on  $P$  rather than 100. Following the same notation and logic as in the case of the par asset swap, the fair market value asset swap spread is given by,
 
 $$
-\begin{array}{l} P + s ^ {m k t} P A ^ {f l o a t} + (P - 1 0 0) d = c A ^ {f i x e d} + P d \\ s ^ {m k t} = \frac {c A ^ {f i x e d} + 1 0 0 d - P}{P A ^ {f l o a t}} \\ = \frac {1 0 0 s ^ {p a r}}{P} \tag {14.2} \\ \end{array}
+\begin{array}{l} P + s^{m k t} P A^{f l o a t} + (P - 1 0 0) d = c A^{f i x e d} + P d \\ s^{m k t} = \frac{c A^{f i x e d} + 1 0 0 d - P}{P A^{f l o a t}} \\ = \frac{1 0 0 s^{p a r}}{P} \tag {14.2} \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/b56776c0-2b50-4f78-8378-ff4fb575a8db/e83c5cb73d95360574e146195020183168420e904025387de7d060c3c95a8992.jpg)  
@@ -4736,7 +4736,7 @@ The final measure of credit spread considered in this section is an effective sp
 The effective spread converts an FRN's premium or discount into a run rate and adds it to the actual spread. Let the actual spread be  $s^{float}$ ; the price of the floater  $P$ ; the present value factor, as before  $A^{float}$ ; and the effective spread  $s^{eff}$ . Then, investors are indifferent between receiving  $s^{float}$  for a price of  $P$  and  $s^{eff}$  for a price of 100 if,
 
 $$
-\begin{array}{l} 1 0 0 s ^ {e f f} A ^ {f l o a t} - 1 0 0 = 1 0 0 s ^ {f l o a t} A ^ {f l o a t} - P \\ s ^ {e f f} = s ^ {f l o a t} + \frac {1 0 0 - P}{1 0 0 A ^ {f l o a t}} \tag {14.3} \\ \end{array}
+\begin{array}{l} 1 0 0 s^{e f f} A^{f l o a t} - 1 0 0 = 1 0 0 s^{f l o a t} A^{f l o a t} - P \\ s^{e f f} = s^{f l o a t} + \frac{1 0 0 - P}{1 0 0 A^{f l o a t}} \tag {14.3} \\ \end{array}
 $$
 
 This section concludes by noting that the trades described here for earning the credit spread are subject not only to the risk of default, but also to financing risk. Whenever a bond is purchased for a relatively long-term holding period, but is financed with short-term repo, there is the risk that the repo rate will increase by more than the discounting or benchmark rates. In that case, the bond will earn less than the benchmark short-term rate (e.g., LIBOR) plus the spread. An even more extreme risk is that repo lenders will refuse to roll positions, because they no longer wish to lend to the borrower, because they no longer wish to lend against a particular bond, or because they need the cash themselves. In that scenario, corporate bond investors with short-term repo financing will have to sell their bonds, most likely at a loss, to repay outstanding repo loans. Financing risk in the context of credit risk appears again, later in this chapter, as a key difference between bonds and credit default swaps.
@@ -4814,11 +4814,11 @@ A short mathematical prelude is needed here before moving to the calculation of 
 More generally, Appendix A14.1 shows that if the hazard rate is applied continuously, then the cumulative survival probability over  $T$  years,  $CS(T)$ , and the cumulative default probability over  $T$  years,  $CD(T)$ , are,
 
 $$
-C S (T) = e ^ {- \lambda T} \tag {14.4}
+C S (T) = e^{- \lambda T} \tag {14.4}
 $$
 
 $$
-C D (T) = 1 - e ^ {- \lambda T} \tag {14.5}
+C D (T) = 1 - e^{- \lambda T} \tag {14.5}
 $$
 
 TABLE 14.10 Calculating the Upfront Amount for 100 Notional Amount of an Annual Pay Five-Year CDS on Genworth at a Coupon of 500 Basis Points and a CDS Spread of 558.92 Basis Points, as of August 16, 2021. The Recovery Rate Is  $40\%$ . Probabilities and the Hazard Rate Are in Percent.  
@@ -4870,7 +4870,7 @@ Appendix A14.4 gives the algebra for calculating the expected discount value of 
 Along the lines of the previous section, the expected value of a bond's coupon in a given year is half of its value times the probability of default over the year plus its value times the probability of no default over the year. The discounted expected value of the first coupon of the  $5\%$  Genworth bond, for example, is as in Equation (14.6), but with the bond coupon of 5.00 replacing the CDS spread payment of 5.5892,
 
 $$
-\begin{array}{l} \text{Expected PV} = 0.998462[8.901\% \times 2.50 + 91.099\% \times 5.00] \\ = 0. 2 2 2 + 4. 5 4 8 = 4. 7 7 0 \tag {14.8} \\ \end{array}
+\begin{array}{l} \text{ExpectedPV} = 0.998462[8.901\% \times 2.50 + 91.099\% \times 5.00] \\ = 0. 2 2 2 + 4. 5 4 8 = 4. 7 7 0 \tag {14.8} \\ \end{array}
 $$
 
 The two components of this coupon's expected discounted value are given in the second and third columns of the first row of Table 14.11. The next
@@ -4902,7 +4902,7 @@ Finally, adding together the four components of the bond's expected discounted v
 This section now compares the CDS-equivalent bond spread just explained with the bond spread discussed already. First, Appendix A14.3 shows that the CDS spread is approximately equal to the hazard rate times one minus the recovery rate. Mathematically, letting  $s^{CDS}$  denote the CDS spread; letting  $\lambda$  denote the hazard rate, as before; and letting  $R$  denote the recovery rate,
 
 $$
-s ^ {C D S} \approx \lambda (1 - R) \tag {14.11}
+s^{C D S} \approx \lambda (1 - R) \tag {14.11}
 $$
 
 In the context of Table 14.10, for example, the approximation predicts a CDS spread of  $9.322\%$  times  $(1 - 40\%)$ , or 559.32 basis points, while the actual spread is a very close 558.92 basis points.
@@ -4910,7 +4910,7 @@ In the context of Table 14.10, for example, the approximation predicts a CDS spr
 Second, Appendix A14.5 shows that,
 
 $$
-s ^ {B o n d} \approx \lambda (1 - R ^ {m}) \tag {14.12}
+s^{B o n d} \approx \lambda (1 - R^{m}) \tag {14.12}
 $$
 
 where  $s$  is the bond spread, and  $R^{m}$  is the recovery rate as a percentage of market value. To this point the chapter has assumed par recovery, that is, bond recovery rates are best modeled as a fixed percentage of face amount. Market recovery, by contrast, which is used to derive Equation (14.12), assumes that recovery is a fixed percentage of market value. Say that two bonds were sold by the same issuer with the same seniority, but one of the bonds has a much longer maturity and trades at a larger price discount or premium, depending on the level of rates and spreads. In the event of default, will the two bonds recover the same amount - as assumed by par recovery - or will the longer-term bond's recovery reflect its greater discount or premium - as assumed by market recovery? Par recovery is the more common assumption and is better supported by empirical evidence.[17]
@@ -5189,7 +5189,7 @@ This market overview concludes with mortgage servicers. Servicers receive ongoin
 Though terms of 10, 15, and 20 years are also available, the most common mortgage is a 30-year, fixed-rate, level payment mortgage. For example, a homeowner might borrow  \$100,000 from a bank at \(4.5\%$  and agree to make payments of \)506.6853 every month for 30 years. (The extra decimal places are given to help the reader reproduce the calculations to follow.) The loan rate and the monthly payment are related by,
 
 $$
-\$ 506.6853 \sum_ {n = 1} ^ {360} \frac {1}{\left(1 + \frac {4.50 \%}{12}\right) ^ {n}} = \$ 100,000 \tag{15.1}
+\$ 506.6853 \sum_{n = 1}^{360} \frac{1}{\left(1 + \frac{4.50 \%}{12}\right)^{n}} = \$ 100,000 \tag{15.1}
 $$
 
 $$
@@ -5278,7 +5278,7 @@ The MA3538 pool could reasonably be expected to prepay faster than CA2797. First
 The next row of the table gives the CPR, the conditional prepayment rate or the constant prepayment rate, over the most recent month. CPR is an annualized measure of the speed of prepayments, which is intricately related to another measure, the SMM or single monthly mortality rate. Define  $SMM_{n}$  as the percentage of principal outstanding that is prepaid during month  $n$ . Note that prepaid principal does not include scheduled or amortized principal payments, like those described in Table 15.4. CPR then annualizes SMM by assuming that SMM is constant over the year. Under that assumption, the principal not prepaid over one month is  $1 - SMM_{n}$ ; principal not repaid over 12 months is  $(1 - SMM_{n})^{12}$ , and prepayments over 12 months are given by,
 
 $$
-C P R _ {n} = 1 - \left(1 - S M M _ {n}\right) ^ {1 2} \tag {15.5}
+C P R_{n} = 1 - \left(1 - S M M_{n}\right)^{1 2} \tag {15.5}
 $$
 
 While CPR is an annualized rate, it is reported monthly based on the prepayments during that month. For example, if a pool prepaid  $2\%$  of its outstanding principal above its amortizing principal in a given month, it is prepaying at an annualized speed or CPR given by Equation (15.5), that is,  $21.53\%$ . CPR is less than 12 times the monthly rate of  $2\%$ , or  $24\%$ , because of the compounding in Equation (15.5): the amount remaining each month is not  $98\%$  of the original principal balance, but only of the principal balance after
@@ -5286,7 +5286,7 @@ While CPR is an annualized rate, it is reported monthly based on the prepayments
 some number of months of prepayments. A CPR can be computed over several months as well. Say, for example, that the SMMs for a particular pool over three months were  $2\%$ ,  $2.5\%$ , and  $3\%$ . Then the CPR of that pool over that three-month period is,
 
 $$
-1 - \left[ (1 - 2 \%) (1 - 2.5 \%) (1 - 3 \%) \right] ^ {4} = 26.21 \% \tag{15.6}
+1 - \left[ (1 - 2 \%) (1 - 2.5 \%) (1 - 3 \%) \right]^{4} = 26.21 \% \tag{15.6}
 $$
 
 where raising the product of the three monthly survival rates to the fourth power gives the annual survival rate. Finally, then, returning to Table 15.5, the most recent monthly CPR of MA3538, at  $46.9\%$ , is much greater than the  $24.6\%$  CPR of CA2797.
@@ -5518,7 +5518,7 @@ TABLE 16.2 Pricing the Embedded Call Option of the Bank of America 2.305s of 02/
 is lognormally distributed, Appendix A16.3 shows that the value of a call on a bond is,
 
 $$
-d _ {0} (T) \xi^ {L N} \left(S _ {0}, T, K, \sigma\right) \tag {16.1}
+d_{0} (T) \xi^{L N} \left(S_{0}, T, K, \sigma\right) \tag {16.1}
 $$
 
 where  $d_0(T)$  is the discount factor to the option expiration date,  $T$ ;  $S_0$  is the forward price of the underlying bond for delivery on date  $T$ ;  $K$  is the strike price; and  $\sigma$  is the volatility, which, under the lognormal assumption, is expressed as a percentage of price. The function  $\xi^{LN}$  is as given in Appendix A16.4.
@@ -5553,13 +5553,13 @@ Now say that a trader buys the 97 call sometime before expiration at a price of 
 As explained in Chapter 12, the price of a Euribor futures contract is set to 100 minus its percentage rate. In the example of the previous paragraph, the strike price of 97 corresponds to a rate of (100 - 97)/100, or  $3\%$ , and the final underlying futures settlement price of 99 corresponds to a rate of  $1\%$ . Furthermore, as also explained in Chapter 12, Euribor futures contracts are scaled so that a decline of one basis point in rate is worth  $\in 25$ . Hence, the difference between the strike and final settlement rates, which is  $3\%$  minus  $1\%$  or 200 basis points, is worth 200 times  $\in 25$ , or  $\in 5,000$ . More generally, if the call option strike in terms of rate is  $K$ , and the final settlement rate of the underlying futures contract is  $R$ , then the final settlement price of the call option is,
 
 $$
-[ K - R ] ^ {+} \times 1 0, 0 0 0 \times \epsilon 2 5 = \epsilon 2 5 0, 0 0 0 \times [ K - R ] ^ {+} \tag {16.2}
+[ K - R ]^{+} \times 1 0, 0 0 0 \times \epsilon 2 5 = \epsilon 2 5 0, 0 0 0 \times [ K - R ]^{+} \tag {16.2}
 $$
 
 where  $[K - R]^+$  is shorthand for the maximum of  $K - R$  and 0, and the factor of 10,000 simply converts the rate gain, if any, to basis points, so as to be multiplied by €25. Analogously, the payoff of a put option on a rates futures contract is,
 
 $$
-[ R - K ] ^ {+} \times 1 0, 0 0 0 \times \epsilon 2 5 = \epsilon 2 5 0, 0 0 0 \times [ R - K ] ^ {+} \tag {16.3}
+[ R - K ]^{+} \times 1 0, 0 0 0 \times \epsilon 2 5 = \epsilon 2 5 0, 0 0 0 \times [ R - K ]^{+} \tag {16.3}
 $$
 
 Equations (16.2) and (16.3) show that a call option on the futures price can be expressed as a put option on its rate, and a put option on the price can be expressed as a call option on its rate. With this insight and the assumption that futures rates are normally distributed, Appendix A16.3 shows that the
@@ -5571,11 +5571,11 @@ TABLE 16.3 A 100.25 Call on September 2022 Three-Month Euribor Futures, as of Fe
 prices of call and put options on Euribor futures are given by the following expressions, respectively,
 
 $$
-\in 2 5 0, 0 0 0 \times \pi^ {N} \left(S _ {0}, T, K, \sigma\right) \tag {16.4}
+\in 2 5 0, 0 0 0 \times \pi^{N} \left(S_{0}, T, K, \sigma\right) \tag {16.4}
 $$
 
 $$
-\epsilon 2 5 0, 0 0 0 \times \xi^ {N} \left(S _ {0}, T, K, \sigma\right) \tag {16.5}
+\epsilon 2 5 0, 0 0 0 \times \xi^{N} \left(S_{0}, T, K, \sigma\right) \tag {16.5}
 $$
 
 where  $S_0$  is the current futures rate;  $T$  is the time to option expiration in years;  $K$  is the strike, in terms of rate; and  $\sigma$  is the basis-point volatility of the futures rates. The functions  $\pi^N$  and  $\xi^N$  are as given in Appendix A16.4. Note that these formulae are not preceded by a discount factor, because these options are themselves futures: their prices equal their expected value under the risk-neutral measure, or equivalently, there is no initial premium on which a return need be earned. Also, the BSM model is readily applied here, because American futures-style options are not optimally exercised early: with daily settlement of the option value, there is no intrinsic value to be realized by exercise and, therefore, no reason to sacrifice the remaining time value of the option.
@@ -5595,11 +5595,11 @@ While simple conceptually, it is apparent from Chapter 11 that building a future
 Under the assumptions listed in the previous paragraph, Appendix A16.3 shows that calls and puts on US Treasury note and bond futures contracts are given by, respectively,
 
 $$
-\$ N \times d _ {0} (T) \times \xi^ {L N} \left(S _ {0}, T, K, \sigma\right) / 1 0 0 \tag {16.6}
+\$ N \times d_{0} (T) \times \xi^{L N} \left(S_{0}, T, K, \sigma\right) / 1 0 0 \tag {16.6}
 $$
 
 $$
-\$ N \times d _ {0} (T) \times \pi^ {L N} \left(S _ {0}, T, K, \sigma\right) / 1 0 0 \tag {16.7}
+\$ N \times d_{0} (T) \times \pi^{L N} \left(S_{0}, T, K, \sigma\right) / 1 0 0 \tag {16.7}
 $$
 
 TABLE 16.4 A Call Option on the June 10-Year Treasury Note Futures Contract, as of February 28, 2022. The Futures Contract and Option Mature on June 21, 2022.  
@@ -5613,7 +5613,7 @@ where  $N$  is the face amount of bonds per contract;  $S_0$  is the futures pri
 The easiest way to describe caps is to start with caplets, even though caps are the more traded derivative. At the end of a given accrual period, a caplet pays the greater of zero and of LIBOR minus a strike, where LIBOR is set at the beginning of the accrual period. Consider, for example, a caplet with a three-month LIBOR reset date of February 14, 2022, a payment date of May 14, 2022, and a strike of  $.181\%$ . Note that there are 89 days over this accrual period. If LIBOR on February 14, 2022, turns out to be  $L$ , then a unit notional of the caplet will pay, on May 14, 2022,
 
 $$
-\frac{89}{360} [ L -.181\% ] ^ {+} \tag{16.8}
+\frac{89}{360} [ L -.181\% ]^{+} \tag{16.8}
 $$
 
 where, as mentioned already,  $[L - .181\%]^{+}$  is another way of writing max  $[L - 0.181\%, 0]$ . Note that the payoff of a caplet looks like that of an option, but the maximum is a feature of the contract rather than a result of optimal exercise behavior.
@@ -5623,7 +5623,7 @@ Caplets are typically valued by practitioners under the assumption that forward 
 Appendix A16.3 shows that the value of a caplet with a reset at time  $T$  and payment at time  $T + \tau$  is given by,
 
 $$
-\tau d _ {0} (T + \tau) \xi^ {N} \left(S _ {0}, T, K, \sigma\right) \tag {16.9}
+\tau d_{0} (T + \tau) \xi^{N} \left(S_{0}, T, K, \sigma\right) \tag {16.9}
 $$
 
 where  $\tau$  is the term of the reference rate;  $d_0(T + \tau)$  is the discount factor to the payment date;  $S_0$  is today's forward rate from  $T$  to  $T + \tau$ ;  $K$  is the strike;  $\sigma$  the basis-point volatility of the forward rate; and  $\xi^N$  the BSM-style formula defined in Appendix A16.4. Table 16.5 applies Equation (16.9) to 100 notional of the caplet introduced previously, as of May 14, 2021. Note that there are 276 days from the pricing date, May 14, 2021, to the reset date, February 14, 2022. $^3$  The appropriate discount factor to the payment date, derived from the swap curve, is .998191. Finally, a volatility of 12.09 basis points, which comes from the discussion, is used to derive the price of .0129 cents per 100 notional amount.
@@ -5652,13 +5652,13 @@ is a term structure of caplet volatilities. This term structure is interesting f
 Floorlets and floors are analogous to caplets and caps. The payment of a floorlet at time  $T + \tau$ , determined by the LIBOR rate set at time  $T$ , is,
 
 $$
-\tau [ K - L ] ^ {+} \tag {16.10}
+\tau [ K - L ]^{+} \tag {16.10}
 $$
 
 Assuming normal forward rates, the value of a floorlet is given by,
 
 $$
-\tau d _ {0} (T + \tau) \pi^ {N} \left(S _ {0}, T, K, \sigma\right) \tag {16.11}
+\tau d_{0} (T + \tau) \pi^{N} \left(S_{0}, T, K, \sigma\right) \tag {16.11}
 $$
 
 where the function  $\pi^N$  is given in Appendix A16.4. The value of a floor is the sum of the values of its component floorlets.
@@ -5674,7 +5674,7 @@ For presenting the pricing of swaptions, consider a \(100 million 2.36% 5y5y rec
 the right, in five years, on May 14, 2026, to receive  $2.36\%$  and pay LIBOR on \$100 million for five years, that is, until May 14, 2031. To write down the value of this swaption at expiration, let \(C_5(5,10)$  denote the five-year par swap rate, five years from today (which matures in 10 years), and let  $A_5(5,10)$  denote the value five years from today of an annuity of \\)1 per year, paid on each of the fixed-rate payment dates of a five-year swap starting in five years (and ending in 10 years). Then, in five years, at the expiration of the swaption, the value of receiving  $2.36\%$  for five years is,
 
 $$
-\$ 100 \mathrm {mm} \times [ 2.36 \% - C _ {5} (5,10) ] ^ {+} \times A _ {5} (5,10) \tag{16.12}
+\$ 100 \mathrm{mm} \times [ 2.36 \% - C_{5} (5,10) ]^{+} \times A_{5} (5,10) \tag{16.12}
 $$
 
 Inspection of the payoff (16.12) reveals that a 5y5y receiver swaption is a put on the five-year par swap rate, five year forward. More generally, a  $T$ -year- $\tau$ -year receiver swaption is a  $T$ -year put option on the  $\tau$ -year par swap rate,  $T$ -years forward. Similarly, a  $T$ -year- $\tau$ -year payer swaption is a  $T$ -year call option on the  $\tau$ -year par swap rate,  $T$ -years forward.
@@ -5682,7 +5682,7 @@ Inspection of the payoff (16.12) reveals that a 5y5y receiver swaption is a put 
 Table 16.7 applies BSM to the example of this section. As just discussed, the rate underlying the  $2.36\%$  5y5y receiver option traded on May 14, 2021, is the forward par rate on a swap from May 14, 2026, to May 14, 2031. Hence  $S_0$  of BSM is  $2.36\%$ , and the swaption of the example, with its strike at  $2.36\%$ , is ATM. $^4$  For the  $2.36\%$  5y5y, the other parameters are clearly  $T = 5$ ,  $\tau = 5$ , and  $K = 2.36\%$ . The value of the annuity on the swap from May 14, 2026, to May 14, 2031, as of May 14, 2021, is 4.287. Finally, the market price of this receiver option on the pricing date is 3.03 per 100 notional amount or \$3.03 million on \$100 million. Appendix A16.3 shows that, when the underlying forward swap rate is normally distributed, the value of a receiver swaption per unit notional is,
 
 $$
-A _ {0} (T, T + \tau) \times \pi^ {N} (S _ {0}, T, K, \sigma) \tag {16.13}
+A_{0} (T, T + \tau) \times \pi^{N} (S_{0}, T, K, \sigma) \tag {16.13}
 $$
 
 where  $\pi^N$  is once again from Appendix A16.4. Setting the market price of \$3.03 million equal to \$ 100 million times (16.13), Table 16.7 shows that the implied volatility of this swaption is  $0.793\%$ .
@@ -5690,7 +5690,7 @@ where  $\pi^N$  is once again from Appendix A16.4. Setting the market price of \
 The analogous formula for a payer swaption per unit notional is,
 
 $$
-A _ {0} (T, T + \tau) \times \xi^ {N} \left(S _ {0}, T, K, \sigma\right) \tag {16.14}
+A_{0} (T, T + \tau) \times \xi^{N} \left(S_{0}, T, K, \sigma\right) \tag {16.14}
 $$
 
 The prices of ATM swaptions, which are by far the most commonly traded swaptions, are quoted in a matrix of either premia or implied normal volatilities. Table 16.8 is an example of the latter for US dollar swaptions
@@ -5729,15 +5729,15 @@ But the BSM delta, which is traditionally computed as the change in option value
 The search for a model that can capture the underlying dynamics of volatility as a function of forward rates has taken two very broad paths. The first is to change the distribution of the forward rate away from normal. For example, a constant-volatility lognormal model of rates assumes that volatility is proportional to rates, which might be useful in explaining some manifestations of the skew, like parts of the 2y2y curve in Figure 16.2. In any case, along these lines, the shifted lognormal model allows for the distribution of the underlying forward rate to be between normal and lognormal. The defining dynamics of the forward rate,  $S$ , in this model are,
 
 $$
-d S _ {t} = \phi \left(S _ {t}\right) \sigma \epsilon_ {t} \sqrt {d t} \tag {16.15}
+d S_{t} = \phi \left(S_{t}\right) \sigma \epsilon_{t} \sqrt{d t} \tag {16.15}
 $$
 
 $$
-\epsilon_ {t} \sim N (0, 1) \tag {16.16}
+\epsilon_{t} \sim N (0, 1) \tag {16.16}
 $$
 
 $$
-\phi \left(S _ {t}\right) = a + S _ {t} \tag {16.17}
+\phi \left(S_{t}\right) = a + S_{t} \tag {16.17}
 $$
 
 with  $a \geq 0$ . When  $a = 0$ ,  $\phi(S_{t}) = S_{t}$ , the basis-point volatility in Equation (16.15) is just  $\sigma S_{t}$ , that is, a constant proportion of the forward rate. Therefore, the distribution of the rate is lognormal. At the other extreme, as  $a$  approaches infinity,  $\phi(S_{t})$  in (16.17) approaches the constant  $a$ , which means that the volatility in (16.15) approaches a constant and, therefore, that the distribution approaches normality.
@@ -5745,19 +5745,19 @@ with  $a \geq 0$ . When  $a = 0$ ,  $\phi(S_{t}) = S_{t}$ , the basis-point vola
 The second approach to finding a model that captures the relationship between rates and volatility is to allow volatility itself to be a random variable. This approach leads to stochastic volatility models, in which class the SABR model had proven particularly popular. As originally formulated, however, the model could not handle the negative rates that recently characterized markets in Europe. An adjusted model then emerged, known as the shifted-SABR model, which assumes the following dynamics,
 
 $$
-\begin{array}{l} d S _ {t} = \left(S _ {t} + h\right) ^ {\beta} \sigma_ {t} \epsilon_ {t} \sqrt {d t} (16.18) \\ \epsilon_ {t} \sim N (0, 1) (16.19) \\ \end{array}
+\begin{array}{l} d S_{t} = \left(S_{t} + h\right)^{\beta} \sigma_{t} \epsilon_{t} \sqrt{d t} (16.18) \\ \epsilon_{t} \sim N (0, 1) (16.19) \\ \end{array}
 $$
 
 $$
-d \sigma_ {t} = \alpha \sigma_ {t} v _ {t} \sqrt {d t} \tag {16.20}
+d \sigma_{t} = \alpha \sigma_{t} v_{t} \sqrt{d t} \tag {16.20}
 $$
 
 $$
-v _ {t} \sim N (0, 1) \tag {16.21}
+v_{t} \sim N (0, 1) \tag {16.21}
 $$
 
 $$
-E \left[ \epsilon_ {t} v _ {t} \right] = \rho \tag {16.22}
+E \left[ \epsilon_{t} v_{t} \right] = \rho \tag {16.22}
 $$
 
 with  $b \geq 0, 0 < \beta < 1, \alpha \geq 0,$  and  $0 \leq \rho \leq 1$ . There are several features to note about this formulation. First, the only difference between this model and the original SABR model is the shift parameter,  $b$ . With this shift, the
@@ -5771,19 +5771,19 @@ forward rate  $S_{t}$  can be as negative as  $-b$  with the basis-point volatil
 To replicate the 7.625s of 11/15/2022, Table 1.5 uses the 2.875s of 11/15/2021, the 2.125s of 05/15/2022, and the 1.625s of 11/15/2022. Number these bonds from 1 to 3, and let  $F_{i}$  be the face amount of bond  $i$  in the replicating portfolio. Then, the following equations express the requirement that the cash flows of the replicating portfolio equal those of the 7.625s on each of the cash flow dates. For the cash flows on November 15, 2021,
 
 $$
-\left(100 \% + \frac {2.875 \%}{2}\right) F _ {1} + \frac {2.125 \%}{2} F _ {2} + \frac {1.625 \%}{2} F _ {3} = \frac {7.625 \%}{2} \tag{A1.1}
+\left(100 \% + \frac{2.875 \%}{2}\right) F_{1} + \frac{2.125 \%}{2} F_{2} + \frac{1.625 \%}{2} F_{3} = \frac{7.625 \%}{2} \tag{A1.1}
 $$
 
 For the cash flows on May, 15, 2022,
 
 $$
-0 \times F _ {1} + \left(100 \% + \frac {2.125 \%}{2}\right) F _ {2} + \frac {1.625 \%}{2} F _ {3} = \frac {7.625 \%}{2} \tag{A1.2}
+0 \times F_{1} + \left(100 \% + \frac{2.125 \%}{2}\right) F_{2} + \frac{1.625 \%}{2} F_{3} = \frac{7.625 \%}{2} \tag{A1.2}
 $$
 
 And for the cash flows on November 15, 2022,
 
 $$
-0 \times F _ {1} + 0 \times F _ {2} + \left(100 \% + \frac {1.625 \%}{2}\right) F _ {3} = 100 \% + \frac {7.625 \%}{2} \tag{A1.3}
+0 \times F_{1} + 0 \times F_{2} + \left(100 \% + \frac{1.625 \%}{2}\right) F_{3} = 100 \% + \frac{7.625 \%}{2} \tag{A1.3}
 $$
 
 Solving equations (A1.1), (A1.2), and (A1.3) for  $F_{1}, F_{2}$ , and  $F_{3}$  gives the replicating portfolio's face amounts reported in Table 1.5. Note that, because one bond matures on each date, these equations can be solved one-at-a-time instead of simultaneously.
@@ -5791,7 +5791,7 @@ Solving equations (A1.1), (A1.2), and (A1.3) for  $F_{1}, F_{2}$ , and  $F_{3}$ 
 Replicating portfolios are easier to describe and manipulate using matrix algebra. To illustrate, equations (A1.1) through (A1.3) can be written as follows,
 
 $$
-\left[ \begin{array}{c c c} 1 + \frac {2 . 8 7 5 \%}{2} & \frac {2 . 1 2 5 \%}{2} & \frac {1 . 6 2 5 \%}{2} \\ 0 & 1 + \frac {2 . 1 2 5 \%}{2} & \frac {1 . 6 2 5 \%}{2} \\ 0 & 0 & 1 + \frac {1 . 6 2 5 \%}{2} \end{array} \right] \left[ \begin{array}{l} F _ {1} \\ F _ {2} \\ F _ {3} \end{array} \right] = \left[ \begin{array}{c} \frac {7 . 6 2 5 \%}{2} \\ \frac {7 . 6 2 5 \%}{2} \\ 1 + \frac {7 . 6 2 5 \%}{2} \end{array} \right] \tag{A1.4}
+\left[ \begin{array}{c c c} 1 + \frac{2 . 8 7 5 \%}{2} & \frac{2 . 1 2 5 \%}{2} & \frac{1 . 6 2 5 \%}{2} \\ 0 & 1 + \frac{2 . 1 2 5 \%}{2} & \frac{1 . 6 2 5 \%}{2} \\ 0 & 0 & 1 + \frac{1 . 6 2 5 \%}{2} \end{array} \right] \left[ \begin{array}{l} F_{1} \\ F_{2} \\ F_{3} \end{array} \right] = \left[ \begin{array}{c} \frac{7 . 6 2 5 \%}{2} \\ \frac{7 . 6 2 5 \%}{2} \\ 1 + \frac{7 . 6 2 5 \%}{2} \end{array} \right] \tag{A1.4}
 $$
 
 Note that each column of the leftmost matrix describes the cash flows of one of the bonds in the replicating portfolio; the elements of the vector to the right of the matrix gives the face amounts of each bond for which the equation has to be solved; and the rightmost vector gives the cash flows of the bond to be replicated. Equation (A1.4) can easily be solved.
@@ -5805,7 +5805,7 @@ $$
 with solution,
 
 $$
-\mathbf {f} = \mathbf {C} ^ {- 1} \mathbf {c} \tag {A1.6}
+\mathbf {f} = \mathbf {C}^{- 1} \mathbf {c} \tag {A1.6}
 $$
 
 The only complication in constructing replicating portfolios is to ensure that the matrix  $\mathbf{C}$  does have an inverse. Essentially, any set of  $T$  bonds will do so long as there is at least one bond in the replicating portfolio making a payment on each of the  $T$  dates. All  $T$  bonds maturing on the last date would work, for example, but all  $T$  bonds maturing on the second-to-last date would not. In the latter case, there would be no bond in the replicating portfolio making a payment on date  $T$ .
@@ -5823,7 +5823,7 @@ Proof: Continue with the notation introduced at the end of Appendix A1.1. In add
 Generalizing the derivation of discount factors in this chapter, discount factors can be determined from the following equation,
 
 $$
-\mathbf {d} = \mathbf {C} ^ {\prime} ^ {- 1} \mathbf {p} \tag {A1.7}
+\mathbf {d} = \mathbf {C}^{\prime}^{- 1} \mathbf {p} \tag {A1.7}
 $$
 
 where the  $\prime$  denotes the transpose. Then, the price of the bond according to the first method is  $c^{\prime}d$ . The price according to the second method is  $p^{\prime}f$ , where  $f$  is as derived in Equation (A1.6).
@@ -5831,13 +5831,13 @@ where the  $\prime$  denotes the transpose. Then, the price of the bond accordin
 Hence, the two methods give the same price if,
 
 $$
-\mathbf {c} ^ {\prime} \mathbf {d} = \mathbf {p} ^ {\prime} \mathbf {f} \tag {A1.8}
+\mathbf {c}^{\prime} \mathbf {d} = \mathbf {p}^{\prime} \mathbf {f} \tag {A1.8}
 $$
 
 Expanding the left-hand side of Equation (A1.8) with (A1.7) and the right-hand side with (A1.6),
 
 $$
-\mathbf {c} ^ {\prime} \left(\mathbf {C} ^ {\prime}\right) ^ {- 1} \mathbf {p} = \mathbf {p} ^ {\prime} \mathbf {C} ^ {- 1} \mathbf {c} \tag {A1.9}
+\mathbf {c}^{\prime} \left(\mathbf {C}^{\prime}\right)^{- 1} \mathbf {p} = \mathbf {p}^{\prime} \mathbf {C}^{- 1} \mathbf {c} \tag {A1.9}
 $$
 
 Finally, since both sides of (A1.9) are numbers, take the transpose of the left-hand side to show that the equation is true.
@@ -5849,25 +5849,25 @@ Finally, since both sides of (A1.9) are numbers, take the transpose of the left-
 Equation (2.7) gives the proceeds of investing  $F$  for  $N$  periods at the rate  $\hat{r}$ , which is compounded  $n$  times per year. By the definition of  $n$ , there are  $nT$  periods over  $T$  years. Therefore, with  $F = 1$ , (2.7) becomes,
 
 $$
-\left(1 + \frac {\hat {r}}{n}\right) ^ {n T} \tag {A2.1}
+\left(1 + \frac{\hat {r}}{n}\right)^{n T} \tag {A2.1}
 $$
 
 Under continuous compounding, interest is paid every instant, so that the proceeds of an investment that is continuously compounded over  $T$  years grows to the limit of Equation (A2.1) as  $n$  approaches infinity. Taking the logarithm of (A2.1) and rearranging terms,
 
 $$
-n T \ln \left(1 + \frac {\hat {r}}{n}\right) = \frac {T \ln \left(1 + \frac {\hat {r}}{n}\right)}{\frac {1}{n}} \tag {A2.2}
+n T \ln \left(1 + \frac{\hat {r}}{n}\right) = \frac{T \ln \left(1 + \frac{\hat {r}}{n}\right)}{\frac{1}{n}} \tag {A2.2}
 $$
 
 Using l'Hôpital's rule, the limit of the right-hand side of (A2.2) as  $n$  becomes large is  $\hat{r} T$ . Hence, the limit of (A2.1) is  $e^{\hat{r} T}$ , where  $e$  is the base of the natural logarithm. Therefore, if interest is continuously compounded at the rate  $\hat{r}$ , an investment of one unit of currency will grow after  $T$  years to,
 
 $$
-e ^ {\hat {r} T} \tag {A2.3}
+e^{\hat {r} T} \tag {A2.3}
 $$
 
 Equivalently, the present value of one unit of currency to be received in  $T$  years is,
 
 $$
-e ^ {- \hat {r} T} \tag {A2.4}
+e^{- \hat {r} T} \tag {A2.4}
 $$
 
 This section now defines discount factors, spot rates, and forward rates under continuous compounding. Let  $\hat{r}(t)$  be the  $t$ -year continuously compounded spot rate. Let  $f(t - \Delta, t)$  be the forward rate from  $t - \Delta$  to  $t$ , and
@@ -5877,45 +5877,45 @@ define  $f(t)$  to be the continuously compounded forward rate at time  $t$ , th
 By Equation (A2.4), spot rates and discount factors are related such that,
 
 $$
-d (T) = e ^ {- \hat {r} (T) T} \tag {A2.5}
+d (T) = e^{- \hat {r} (T) T} \tag {A2.5}
 $$
 
 Linking forward rates and spot rates is the continuously compounded analog of Equation (2.21),
 
 $$
-e ^ {\hat {r} (T) T} = e ^ {\int_ {0} ^ {T} f (s) d s} \tag {A2.6}
+e^{\hat {r} (T) T} = e^{\int_{0}^{T} f (s) d s} \tag {A2.6}
 $$
 
 $$
-\hat {r} (T) T = \int_ {0} ^ {T} f (s) d s \tag {A2.7}
+\hat {r} (T) T = \int_{0}^{T} f (s) d s \tag {A2.7}
 $$
 
 $$
-\hat {r} (T) = \frac {1}{T} \int_ {0} ^ {T} f (s) d s \tag {A2.8}
+\hat {r} (T) = \frac{1}{T} \int_{0}^{T} f (s) d s \tag {A2.8}
 $$
 
 To link forward rates and discount factors, note that the continuously compounded analogue of Equation (2.20) is,
 
 $$
-e ^ {\hat {r} (t - \Delta) \times (t - \Delta)} e ^ {\hat {f} (t - \Delta , t) \Delta} = e ^ {\hat {r} (t) t} \tag {A2.9}
+e^{\hat {r} (t - \Delta) \times (t - \Delta)} e^{\hat {f} (t - \Delta , t) \Delta} = e^{\hat {r} (t) t} \tag {A2.9}
 $$
 
 Then substitute from Equation (A2.5) for each of the two spot rates and rearrange terms to get,
 
 $$
-e ^ {f (t - \Delta , t) \times \Delta} = \frac {d (t - \Delta)}{d (t)} \tag {A2.10}
+e^{f (t - \Delta , t) \times \Delta} = \frac{d (t - \Delta)}{d (t)} \tag {A2.10}
 $$
 
 Then take the natural logarithm of both sides and rearrange terms,
 
 $$
-f (t - \Delta , t) = - \frac {\ln [ d (t) ] - \ln [ d (t - \Delta) ]}{\Delta} \tag {A2.11}
+f (t - \Delta , t) = - \frac{\ln [ d (t) ] - \ln [ d (t - \Delta) ]}{\Delta} \tag {A2.11}
 $$
 
 Finally, take the limit of both sides of this equation, recognizing that the limit of the right-hand side is the derivative of  $\ln [d(t)]$ , to obtain,
 
 $$
-f (t) = - \frac {d ^ {\prime} (t)}{d (t)} \tag {A2.12}
+f (t) = - \frac{d^{\prime} (t)}{d (t)} \tag {A2.12}
 $$
 
 where  $d'(t)$  is the derivative of the discount function with respect to term.
@@ -5929,7 +5929,7 @@ Approximation: The  $t$ -year spot rate is approximately equal to the average of
 Start from Equation (2.21), noting that, because interest rates themselves are small numbers, the product of two or more interest rates is particularly small. To illustrate, take the case of the one-year spot rate, though the argument generalizes easily to longer-term rates,
 
 $$
-\begin{array}{l} \left(1 + \frac {\hat {r} (1 . 0)}{2}\right) ^ {2} = \left(1 + \frac {f (0 . 5)}{2}\right) \left(1 + \frac {f (1)}{2}\right) (A2.13) \\ 1 + 2 \frac {\hat {r} (1 . 0)}{2} + \left(\frac {\hat {r} (1 . 0)}{2}\right) ^ {2} = 1 + \frac {f (0 . 5)}{2} + \frac {f (1 . 0)}{2} + \frac {f (0 . 5)}{2} \frac {f (1 . 0)}{2} \quad (\mathrm {A} 2. 1 4) \\ \hat {r} (1. 0) \approx \frac {f (0 . 5) + f (1 . 0)}{2} (A2.15) \\ \end{array}
+\begin{array}{l} \left(1 + \frac{\hat {r} (1 . 0)}{2}\right)^{2} = \left(1 + \frac{f (0 . 5)}{2}\right) \left(1 + \frac{f (1)}{2}\right) (A2.13) \\ 1 + 2 \frac{\hat {r} (1 . 0)}{2} + \left(\frac{\hat {r} (1 . 0)}{2}\right)^{2} = 1 + \frac{f (0 . 5)}{2} + \frac{f (1 . 0)}{2} + \frac{f (0 . 5)}{2} \frac{f (1 . 0)}{2} \quad (\mathrm{A} 2. 1 4) \\ \hat {r} (1. 0) \approx \frac{f (0 . 5) + f (1 . 0)}{2} (A2.15) \\ \end{array}
 $$
 
 where the approximation from (A2.14) to (A2.15) comes from dropping the terms that multiply two rates.
@@ -5937,27 +5937,27 @@ where the approximation from (A2.14) to (A2.15) comes from dropping the terms th
 Proposition 1:
 
 $$
-\sum_ {t = a} ^ {b} z ^ {t} = \frac {z ^ {a} - z ^ {b + 1}}{1 - z} \tag {A2.16}
+\sum_{t = a}^{b} z^{t} = \frac{z^{a} - z^{b + 1}}{1 - z} \tag {A2.16}
 $$
 
 Proof: Define  $S$  as the left-hand side of (A2.16). Then,
 
 $$
-z S = \sum_ {t = a + 1} ^ {b + 1} z ^ {t}
+z S = \sum_{t = a + 1}^{b + 1} z^{t}
 $$
 
 and it follows that,
 
 $$
-S - z S = \sum_ {t = a} ^ {b} z ^ {t} - \sum_ {t = a + 1} ^ {b + 1} z ^ {t}
+S - z S = \sum_{t = a}^{b} z^{t} - \sum_{t = a + 1}^{b + 1} z^{t}
 $$
 
 $$
-S (1 - z) = z ^ {a} - z ^ {b + 1}
+S (1 - z) = z^{a} - z^{b + 1}
 $$
 
 $$
-S = \frac {z ^ {a} - z ^ {b + 1}}{1 - z}
+S = \frac{z^{a} - z^{b + 1}}{1 - z}
 $$
 
 as was to be shown.
@@ -5967,13 +5967,13 @@ Proposition 2: If the term structure of spot rates is flat, then the term struct
 Proof: Denote the semiannually compounded par rate of maturity  $T$  as  $C(T)$ . If spot rates are flat at the rate  $\hat{r}$ , then, by definition of  $C(T)$ ,
 
 $$
-\frac {C (T)}{2} \sum_ {t = 1} ^ {2 T} \frac {1}{\left(1 + \frac {\hat {r}}{2}\right) ^ {t}} + \frac {1}{\left(1 + \frac {\hat {r}}{2}\right) ^ {2 T}} = 1 \tag {A2.17}
+\frac{C (T)}{2} \sum_{t = 1}^{2 T} \frac{1}{\left(1 + \frac{\hat {r}}{2}\right)^{t}} + \frac{1}{\left(1 + \frac{\hat {r}}{2}\right)^{2 T}} = 1 \tag {A2.17}
 $$
 
 Applying Equation (A2.16) of Proposition 1 with  $z = 1 / (1 + \hat{r} /2)$
 
 $$
-\frac {C (T)}{\hat {r}} \left[ 1 - \frac {1}{(1 + \frac {\hat {r}}{2}) ^ {2 T}} \right] + \frac {1}{\left(1 + \frac {\hat {r}}{2}\right) ^ {2 T}} = 1 \tag {A2.18}
+\frac{C (T)}{\hat {r}} \left[ 1 - \frac{1}{(1 + \frac{\hat {r}}{2})^{2 T}} \right] + \frac{1}{\left(1 + \frac{\hat {r}}{2}\right)^{2 T}} = 1 \tag {A2.18}
 $$
 
 But solving (A2.18) for  $C(T)$  shows that  $C(T) = \hat{r}$ . Hence, the term structure of par rates is flat at  $\hat{r}$ , as was to be shown.
@@ -5983,13 +5983,13 @@ Proposition 3:  $f(t) > \hat{r}(t - 0.5)$  if and only if  $\hat{r}(t) > \hat{r}
 Proof: The condition  $f(t) > \hat{r}(t - 0.5)$  is equivalent to,
 
 $$
-\begin{array}{l} \left(1 + \frac {\hat {r} (t - 0 . 5)}{2}\right) ^ {2 t - 1} \left(1 + \frac {f (t)}{2}\right) > \left(1 + \frac {\hat {r} (t - 0 . 5)}{2}\right) ^ {2 t - 1} \left(1 + \frac {\hat {r} (t - 0 . 5)}{2}\right) \\ > \left(1 + \frac {\hat {r} (t - 0 . 5)}{2}\right) ^ {2 t} \tag {A2.19} \\ \end{array}
+\begin{array}{l} \left(1 + \frac{\hat {r} (t - 0 . 5)}{2}\right)^{2 t - 1} \left(1 + \frac{f (t)}{2}\right) > \left(1 + \frac{\hat {r} (t - 0 . 5)}{2}\right)^{2 t - 1} \left(1 + \frac{\hat {r} (t - 0 . 5)}{2}\right) \\ > \left(1 + \frac{\hat {r} (t - 0 . 5)}{2}\right)^{2 t} \tag {A2.19} \\ \end{array}
 $$
 
 But, using Equation (2.20) to rewrite the left-hand side of (A2.19),
 
 $$
-\left(1 + \frac {\hat {r} (t)}{2}\right) ^ {2 t} > \left(1 + \frac {\hat {r} (t - 0 . 5)}{2}\right) ^ {2 t} \tag {A2.20}
+\left(1 + \frac{\hat {r} (t)}{2}\right)^{2 t} > \left(1 + \frac{\hat {r} (t - 0 . 5)}{2}\right)^{2 t} \tag {A2.20}
 $$
 
 $$
@@ -6007,19 +6007,19 @@ Proposition 5: If  $\hat{r}(0.5) < \hat{r}(1.0) < \dots < \hat{r}(T)$ , then  $C
 Proof: By the definition of the par rate,  $C(T)$ ,
 
 $$
-\frac {C (T)}{2} \sum_ {t = 1} ^ {2 T} \frac {1}{\left(1 + \frac {\hat {r} (t)}{2}\right) ^ {t}} + \frac {1}{\left(1 + \frac {r (\hat {T})}{2}\right) ^ {2 T}} = 1 \tag {A2.22}
+\frac{C (T)}{2} \sum_{t = 1}^{2 T} \frac{1}{\left(1 + \frac{\hat {r} (t)}{2}\right)^{t}} + \frac{1}{\left(1 + \frac{r (\hat {T})}{2}\right)^{2 T}} = 1 \tag {A2.22}
 $$
 
 It is easy to show from Equation (A2.16), setting  $z = 1 / (1 + C(T) / 2)$ , that,
 
 $$
-\frac {C (T)}{2} \sum_ {t = 1} ^ {2 T} \frac {1}{\left(1 + \frac {C (T)}{2}\right) ^ {t}} + \frac {1}{\left(1 + \frac {C (T)}{2}\right) ^ {2 T}} = 1 \tag {A2.23}
+\frac{C (T)}{2} \sum_{t = 1}^{2 T} \frac{1}{\left(1 + \frac{C (T)}{2}\right)^{t}} + \frac{1}{\left(1 + \frac{C (T)}{2}\right)^{2 T}} = 1 \tag {A2.23}
 $$
 
 And, because the term structure of spot rates is assumed to be increasing,
 
 $$
-\begin{array}{l} \frac {C (T)}{2} \sum_ {t = 1} ^ {2 T} \frac {1}{(1 + \frac {\hat {r} (t)}{2}) ^ {t}} + \frac {1}{(1 + \frac {\hat {r} (T)}{2}) ^ {2 T}} > \\ \frac {C (T)}{2} \sum_ {t = 1} ^ {2 T} \frac {1}{(1 + \frac {\hat {r} (T)}{2}) ^ {t}} + \frac {1}{(1 + \frac {\hat {r} (T)}{2}) ^ {2 T}} \tag {A2.24} \\ \end{array}
+\begin{array}{l} \frac{C (T)}{2} \sum_{t = 1}^{2 T} \frac{1}{(1 + \frac{\hat {r} (t)}{2})^{t}} + \frac{1}{(1 + \frac{\hat {r} (T)}{2})^{2 T}} > \\ \frac{C (T)}{2} \sum_{t = 1}^{2 T} \frac{1}{(1 + \frac{\hat {r} (T)}{2})^{t}} + \frac{1}{(1 + \frac{\hat {r} (T)}{2})^{2 T}} \tag {A2.24} \\ \end{array}
 $$
 
 Note that the spot rates in the summation on the top line are  $\hat{r}(t)$ , while those in the summation in the bottom line are all  $\hat{r}(T)$ .
@@ -6027,7 +6027,7 @@ Note that the spot rates in the summation on the top line are  $\hat{r}(t)$ , wh
 Now, because the left-hand sides of Equations (A2.22), (A2.23), and (A2.24) are all equal to one, the left-hand side of (A2.23) can replace the left-hand side of (A2.24), that is,
 
 $$
-\begin{array}{l} \frac {C (T)}{2} \sum_ {t = 1} ^ {2 T} \frac {1}{\left(1 + \frac {C (T)}{2}\right) ^ {t}} + \frac {1}{\left(1 + \frac {C (T)}{2}\right) ^ {2 T}} > \\ \frac {C (T)}{2} \sum_ {t = 1} ^ {2 T} \frac {1}{\left(1 + \frac {\hat {r} (T)}{2}\right) ^ {t}} + \frac {1}{\left(1 + \frac {r (\hat {T})}{2}\right) ^ {2 T}} \tag {A2.25} \\ \end{array}
+\begin{array}{l} \frac{C (T)}{2} \sum_{t = 1}^{2 T} \frac{1}{\left(1 + \frac{C (T)}{2}\right)^{t}} + \frac{1}{\left(1 + \frac{C (T)}{2}\right)^{2 T}} > \\ \frac{C (T)}{2} \sum_{t = 1}^{2 T} \frac{1}{\left(1 + \frac{\hat {r} (T)}{2}\right)^{t}} + \frac{1}{\left(1 + \frac{r (\hat {T})}{2}\right)^{2 T}} \tag {A2.25} \\ \end{array}
 $$
 
 which implies that  $C(T) < \hat{r}(T)$ , which was to be proved.
@@ -6045,7 +6045,7 @@ Equations (3.6), (3.7), and (3.8) express the relationship between price and yie
 Second, the market convention for discounting cash flows that do not occur in regular six-month intervals, using a semiannually compounded rate, is as follows. Let  $y$  denote the semiannually compounded yield, and let  $\tau$  denote the fraction of a semiannual period until the next coupon payment. For example, if the next coupon payment is in one month, taken to mean one-sixth of a semiannual period, then  $\tau = 1/6$ . By convention, then, the present value of a unit of currency at that time is,
 
 $$
-\frac {1}{\left(1 + \frac {y}{2}\right) ^ {\tau}} \tag {A3.1}
+\frac{1}{\left(1 + \frac{y}{2}\right)^{\tau}} \tag {A3.1}
 $$
 
 Note that, while reasonably intuitive, this convention cannot really be justified by the logic of compounding conventions. As discussed in the text,  $(1 + y / 2)^N$  represents the final proceeds of an investment of one unit of currency semiannually compounded  $N$  times. There is no such interpretation for an exponent that is not a whole number of semiannual periods. In any case, continuing along these lines, the present value of a unit of currency to
@@ -6053,21 +6053,21 @@ Note that, while reasonably intuitive, this convention cannot really be justifie
 be paid after  $\tau + i$  semiannual periods is,
 
 $$
-\frac {1}{\left(1 + \frac {y}{2}\right) ^ {\tau + i}} \tag {A3.2}
+\frac{1}{\left(1 + \frac{y}{2}\right)^{\tau + i}} \tag {A3.2}
 $$
 
 Finally, then, consider a bond with  $2T$  remaining coupon payments of  $c/2$ , the first of which is paid after  $\tau$  semiannual periods, the second after  $\tau + 1$  semiannual periods, the third after  $\tau + 2$  semiannual periods, etc., and the last, along with a principal payment of 100, after  $\tau + 2T - 1$  semiannual periods. Its price is given by,
 
 $$
-P = \frac {\frac {1}{2} c}{\left(1 + \frac {y}{2}\right) ^ {\tau}} + \frac {\frac {1}{2} c}{\left(1 + \frac {y}{2}\right) ^ {\tau + 1}} + \dots + \frac {1 0 0 + \frac {1}{2} c}{\left(1 + \frac {y}{2}\right) ^ {\tau + 2 T - 1}} \tag {A3.3}
+P = \frac{\frac{1}{2} c}{\left(1 + \frac{y}{2}\right)^{\tau}} + \frac{\frac{1}{2} c}{\left(1 + \frac{y}{2}\right)^{\tau + 1}} + \dots + \frac{1 0 0 + \frac{1}{2} c}{\left(1 + \frac{y}{2}\right)^{\tau + 2 T - 1}} \tag {A3.3}
 $$
 
 $$
-P = \frac {c}{2} \sum_ {t = 0} ^ {2 T - 1} \frac {1}{\left(1 + \frac {y}{2}\right) ^ {\tau + t}} + \frac {1 0 0}{\left(1 + \frac {y}{2}\right) ^ {\tau + 2 T - 1}} \tag {A3.4}
+P = \frac{c}{2} \sum_{t = 0}^{2 T - 1} \frac{1}{\left(1 + \frac{y}{2}\right)^{\tau + t}} + \frac{1 0 0}{\left(1 + \frac{y}{2}\right)^{\tau + 2 T - 1}} \tag {A3.4}
 $$
 
 $$
-P = \left(1 + \frac {y}{2}\right) ^ {1 - \tau} \left[ \frac {c}{y} \left(1 - \frac {1}{\left(1 + \frac {y}{2}\right) ^ {2 T}}\right) + \frac {1 0 0}{\left(1 + \frac {y}{2}\right) ^ {2 T}} \right] \tag {A3.5}
+P = \left(1 + \frac{y}{2}\right)^{1 - \tau} \left[ \frac{c}{y} \left(1 - \frac{1}{\left(1 + \frac{y}{2}\right)^{2 T}}\right) + \frac{1 0 0}{\left(1 + \frac{y}{2}\right)^{2 T}} \right] \tag {A3.5}
 $$
 
 where (A3.5) can be derived from Equation (A2.16) in Appendix A2.2.
@@ -6083,19 +6083,19 @@ Proof: Let  $P_0$  and  $P_n$  be the prices of the bond at time 0 ( $T$  years 
 Starting with the definition of yield to maturity,
 
 $$
-\begin{array}{l} P _ {0} = \frac {c}{(1 + y)} + \frac {c}{(1 + y) ^ {2}} + \dots + \frac {c}{(1 + y) ^ {n - 1}} + \frac {c}{(1 + y) ^ {n}} \\ + \frac {c}{(1 + y) ^ {n + 1}} + \frac {c}{(1 + y) ^ {n + 2}} + \dots + \frac {1 0 0 + c}{(1 + y) ^ {T}} \tag {A3.6} \\ \end{array}
+\begin{array}{l} P_{0} = \frac{c}{(1 + y)} + \frac{c}{(1 + y)^{2}} + \dots + \frac{c}{(1 + y)^{n - 1}} + \frac{c}{(1 + y)^{n}} \\ + \frac{c}{(1 + y)^{n + 1}} + \frac{c}{(1 + y)^{n + 2}} + \dots + \frac{1 0 0 + c}{(1 + y)^{T}} \tag {A3.6} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} P _ {0} (1 + y) ^ {n} = c (1 + y) ^ {n - 1} + c (1 + y) ^ {n - 2} + \dots + c (1 + y) + c \\ + \frac {c}{(1 + y)} + \frac {c}{(1 + y) ^ {2}} + \dots + \frac {1 0 0 + c}{(1 + y) ^ {T - n}} \tag {A3.7} \\ \end{array}
+\begin{array}{l} P_{0} (1 + y)^{n} = c (1 + y)^{n - 1} + c (1 + y)^{n - 2} + \dots + c (1 + y) + c \\ + \frac{c}{(1 + y)} + \frac{c}{(1 + y)^{2}} + \dots + \frac{1 0 0 + c}{(1 + y)^{T - n}} \tag {A3.7} \\ \end{array}
 $$
 
 $$
-P _ {0} (1 + y) ^ {n} = c (1 + y) ^ {n - 1} + \dots + c (1 + y) + c + P _ {n} \tag {A3.8}
+P_{0} (1 + y)^{n} = c (1 + y)^{n - 1} + \dots + c (1 + y) + c + P_{n} \tag {A3.8}
 $$
 
 $$
-(1 + y) ^ {n} - 1 = \frac {c (1 + y) ^ {n - 1} + \cdots + c (1 + y) + c + P _ {n} - P _ {0}}{P _ {0}} \tag {A3.9}
+(1 + y)^{n} - 1 = \frac{c (1 + y)^{n - 1} + \cdots + c (1 + y) + c + P_{n} - P_{0}}{P_{0}} \tag {A3.9}
 $$
 
 where (A3.7) simply multiplies both sides of (A3.6) by  $(1 + y)^n$ ; (A3.8) recognizes that the second line of (A3.7) is just  $P_{n}$ , the price of the bond after  $n$  years, with a remaining maturity of  $T - n$  years and a yield of  $y$ ; and (A3.9) simplifies terms.
@@ -6117,19 +6117,19 @@ Proof: Let  $P_0$  and  $P_n$  be the prices of the bond at time 0 ( $T$  years 
 Starting with the definition of forward rates,
 
 $$
-\begin{array}{l} P _ {0} = \frac {c}{(1 + f (1))} + \frac {c}{(1 + f (1)) (1 + f (2))} + \dots \\ + \frac {c}{(1 + f (1)) \cdots (1 + f (n))} \\ + \frac {c}{(1 + f (1)) \cdots (1 + f (n + 1))} + \dots \\ + \frac {1 0 0 + c}{(1 + f (1)) \cdots (1 + f (T))} \tag {A3.10} \\ \end{array}
+\begin{array}{l} P_{0} = \frac{c}{(1 + f (1))} + \frac{c}{(1 + f (1)) (1 + f (2))} + \dots \\ + \frac{c}{(1 + f (1)) \cdots (1 + f (n))} \\ + \frac{c}{(1 + f (1)) \cdots (1 + f (n + 1))} + \dots \\ + \frac{1 0 0 + c}{(1 + f (1)) \cdots (1 + f (T))} \tag {A3.10} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} P _ {0} (1 + f (1)) \dots (1 + f (n)) = c (1 + f (2)) \dots (1 + f (n)) + \dots + c \\ + \frac {c}{(1 + f (n + 1))} + \dots \\ + \frac {1 0 0 + c}{(1 + f (n + 1)) \cdots (1 + f (T))} \tag {A3.11} \\ \end{array}
+\begin{array}{l} P_{0} (1 + f (1)) \dots (1 + f (n)) = c (1 + f (2)) \dots (1 + f (n)) + \dots + c \\ + \frac{c}{(1 + f (n + 1))} + \dots \\ + \frac{1 0 0 + c}{(1 + f (n + 1)) \cdots (1 + f (T))} \tag {A3.11} \\ \end{array}
 $$
 
 $$
-P _ {0} (1 + f (1)) \dots (1 + f (n)) = c (1 + f (2)) \dots (1 + f (n)) + \dots + c + P _ {n} \tag {A3.12}
+P_{0} (1 + f (1)) \dots (1 + f (n)) = c (1 + f (2)) \dots (1 + f (n)) + \dots + c + P_{n} \tag {A3.12}
 $$
 
 $$
-(1 + f (1)) \dots (1 + f (n)) - 1 = \frac {c (1 + f (2)) \cdots (1 + f (n)) + \cdots + c + P _ {n} - P _ {0}}{P _ {0}} \tag {A3.13}
+(1 + f (1)) \dots (1 + f (n)) - 1 = \frac{c (1 + f (2)) \cdots (1 + f (n)) + \cdots + c + P_{n} - P_{0}}{P_{0}} \tag {A3.13}
 $$
 
 where (A3.11) simply multiplies both sides of (A3.10) by  $(1 + f(1))\cdots(1 + f(n))$ ; (A3.12) recognizes that the second and third lines of (A3.11) are  $P_{n}$ , the price of the bond after  $n$  years, with discounting under the assumption of realized forwards; and (A3.13) simplifies terms.
@@ -6141,7 +6141,7 @@ Corollary: Under the realized forward scenario, the one-year return of any coupo
 Proof: Following the proof of the previous proposition with  $n = 1$ , Equation (A3.13) becomes,
 
 $$
-f (1) = \frac {c + P _ {1} - P _ {0}}{P _ {0}} \tag {A3.14}
+f (1) = \frac{c + P_{1} - P_{0}}{P_{0}} \tag {A3.14}
 $$
 
 which was to be proved.
@@ -6153,19 +6153,19 @@ which was to be proved.
 Let  $P^i$  denote the price of asset  $i$  and  $P$  the price of a portfolio of those assets. By definition,
 
 $$
-P = \sum P ^ {i} \tag {A4.1}
+P = \sum P^{i} \tag {A4.1}
 $$
 
 Let  $y$  be the single factor generating changes in rates. Then, taking the derivative of both sides of (A4.1) with respect to  $y$ ,
 
 $$
-\frac {d P}{d y} = \sum \frac {d P ^ {i}}{d y} \tag {A4.2}
+\frac{d P}{d y} = \sum \frac{d P^{i}}{d y} \tag {A4.2}
 $$
 
 Then, divide both sides of (A4.2) by  $-10,000$  and apply Equation (4.5) of the text to see that,
 
 $$
-D V 0 1 = \sum D V 0 1 ^ {i} \tag {A4.3}
+D V 0 1 = \sum D V 0 1^{i} \tag {A4.3}
 $$
 
 Or, in words, the DV01 of a portfolio equals the sum of the individual asset DV01s.
@@ -6173,15 +6173,15 @@ Or, in words, the DV01 of a portfolio equals the sum of the individual asset DV0
 To derive the duration of a portfolio, start from Equation (A4.2), dividing both sides by  $-P$ ,
 
 $$
-- \frac {1}{P} \frac {d P}{d y} = \sum - \frac {1}{P} \frac {d P ^ {i}}{d y} \tag {A4.4}
+- \frac{1}{P} \frac{d P}{d y} = \sum - \frac{1}{P} \frac{d P^{i}}{d y} \tag {A4.4}
 $$
 
 $$
-- \frac {1}{P} \frac {d P}{d y} = \sum - \frac {P ^ {i}}{P} \frac {1}{P ^ {i}} \frac {d P ^ {i}}{d y} \tag {A4.5}
+- \frac{1}{P} \frac{d P}{d y} = \sum - \frac{P^{i}}{P} \frac{1}{P^{i}} \frac{d P^{i}}{d y} \tag {A4.5}
 $$
 
 $$
-D = \sum \frac {P ^ {i}}{P} D ^ {i} \tag {A4.6}
+D = \sum \frac{P^{i}}{P} D^{i} \tag {A4.6}
 $$
 
 Equation (A4.5) multiplies each term in the summation by one, in the form of  $P^i / P^i$ . Equation (A4.6) follows from the definition of duration in the text, Equation (4.11). In words, Equation (A4.6) says that the duration of a portfolio equals the weighted average of the durations of the individual assets, where the weights are the fraction of value of each asset in the portfolio.
@@ -6189,7 +6189,7 @@ Equation (A4.5) multiplies each term in the summation by one, in the form of  $P
 The proof for the convexity of a portfolio can be derived along the same lines as the duration of a portfolio. The result, given here without proof, is,
 
 $$
-C = \sum \frac {P ^ {i}}{P} C ^ {i} \tag {A4.7}
+C = \sum \frac{P^{i}}{P} C^{i} \tag {A4.7}
 $$
 
 # A4.2 ESTIMATING PRICE CHANGE WITH DURATION AND CONVEXITY
@@ -6197,21 +6197,21 @@ $$
 Let  $P(y)$  be the price of an asset as a function of the single factor that describes changes in rates. Then, a second-order Taylor approximation of the price rate function is given by,
 
 $$
-P (y + \Delta y) \approx P (y) + \frac {d P}{d y} \Delta y + \frac {1}{2} \frac {d ^ {2} P}{d y ^ {2}} \Delta y ^ {2} \tag {A4.8}
+P (y + \Delta y) \approx P (y) + \frac{d P}{d y} \Delta y + \frac{1}{2} \frac{d^{2} P}{d y^{2}} \Delta y^{2} \tag {A4.8}
 $$
 
 Subtracting  $P(y)$  from both sides of (A4.8) and denoting the change in price,  $P(y + \Delta y) - P$ , by  $\Delta P$ ,
 
 $$
-\Delta P \approx \frac {d P}{d y} \Delta y + \frac {1}{2} \frac {d ^ {2} P}{d y ^ {2}} \Delta y ^ {2} \tag {A4.9}
+\Delta P \approx \frac{d P}{d y} \Delta y + \frac{1}{2} \frac{d^{2} P}{d y^{2}} \Delta y^{2} \tag {A4.9}
 $$
 
 $$
-\frac {\Delta P}{P} \approx \frac {1}{P} \frac {d P}{d y} \Delta y + \frac {1}{2} \frac {1}{P} \frac {d ^ {2} P}{d y ^ {2}} \Delta y ^ {2} \tag {A4.10}
+\frac{\Delta P}{P} \approx \frac{1}{P} \frac{d P}{d y} \Delta y + \frac{1}{2} \frac{1}{P} \frac{d^{2} P}{d y^{2}} \Delta y^{2} \tag {A4.10}
 $$
 
 $$
-\frac {\Delta P}{P} \approx - D \Delta y + \frac {1}{2} C \Delta y ^ {2} \tag {A4.11}
+\frac{\Delta P}{P} \approx - D \Delta y + \frac{1}{2} C \Delta y^{2} \tag {A4.11}
 $$
 
 where (A4.11) - which is Equation (4.16) - follows from the definitions of duration and convexity, that is, from Equation (4.10) and a discrete version of Equation (4.14).
@@ -6225,17 +6225,17 @@ This section proves that i) the regression hedge minimizes the variance of the P
 Begin with least-squares estimation, which finds the parameters  $\hat{\alpha}$  and  $\hat{\beta}$  to minimize,
 
 $$
-\sum_ {t} \left(\Delta y _ {t} - \hat {\alpha} - \hat {\beta} \Delta x _ {t}\right) ^ {2} \tag {A6.1}
+\sum_{t} \left(\Delta y_{t} - \hat {\alpha} - \hat {\beta} \Delta x_{t}\right)^{2} \tag {A6.1}
 $$
 
 To solve this minimization, differentiate (A6.1) with respect to each of the parameters, set each result to zero, and obtain the following two equations,
 
 $$
-- 2 \sum_ {t} \left(\Delta y _ {t} - \hat {\alpha} - \hat {\beta} \Delta x _ {t}\right) = 0 \tag {A6.2}
+- 2 \sum_{t} \left(\Delta y_{t} - \hat {\alpha} - \hat {\beta} \Delta x_{t}\right) = 0 \tag {A6.2}
 $$
 
 $$
-- 2 \sum_ {t} (\Delta y _ {t} - \hat {\alpha} - \hat {\beta} \Delta x _ {t}) \Delta x _ {t} = 0 \tag {A6.3}
+- 2 \sum_{t} (\Delta y_{t} - \hat {\alpha} - \hat {\beta} \Delta x_{t}) \Delta x_{t} = 0 \tag {A6.3}
 $$
 
 These equations can be solved to show that,
@@ -6245,7 +6245,7 @@ $$
 $$
 
 $$
-\hat {\beta} = \frac {\sigma_ {x y}}{\sigma_ {x} ^ {2}} = \frac {\rho \sigma_ {y}}{\sigma_ {x}} \tag {A6.5}
+\hat {\beta} = \frac{\sigma_{x y}}{\sigma_{x}^{2}} = \frac{\rho \sigma_{y}}{\sigma_{x}} \tag {A6.5}
 $$
 
 where  $\overline{\Delta x}$  and  $\overline{\Delta y}$  are the sample averages;  $\sigma_{x}$  and  $\sigma_{y}$  the standard deviations;  $\sigma_{xy}$  the covariance; and  $\rho$  the correlation. The solutions (A6.4) and (A6.5)
@@ -6253,55 +6253,55 @@ where  $\overline{\Delta x}$  and  $\overline{\Delta y}$  are the sample average
 are not derived step-by-step here, but are easily found by noting that, with  $N$  observations, the summary statistics needed are defined as follows,
 
 $$
-\overline {{\Delta x}} = \frac {\sum_ {t} \Delta x _ {t}}{N} \tag {A6.6}
+\overline {{\Delta x}} = \frac{\sum_{t} \Delta x_{t}}{N} \tag {A6.6}
 $$
 
 $$
-\overline {{\Delta y}} = \frac {\sum_ {t} \Delta y _ {t}}{N} \tag {A6.7}
+\overline {{\Delta y}} = \frac{\sum_{t} \Delta y_{t}}{N} \tag {A6.7}
 $$
 
 $$
-\sigma_ {x} ^ {2} = \frac {\sum_ {t} \Delta x _ {t} ^ {2}}{N} - \left(\frac {\sum_ {t} \Delta x _ {t}}{N}\right) ^ {2} \tag {A6.8}
+\sigma_{x}^{2} = \frac{\sum_{t} \Delta x_{t}^{2}}{N} - \left(\frac{\sum_{t} \Delta x_{t}}{N}\right)^{2} \tag {A6.8}
 $$
 
 $$
-\sigma_ {y} ^ {2} = \frac {\sum_ {t} \Delta y _ {t} ^ {2}}{N} - \left(\frac {\sum_ {t} \Delta y _ {t}}{N}\right) ^ {2} \tag {A6.9}
+\sigma_{y}^{2} = \frac{\sum_{t} \Delta y_{t}^{2}}{N} - \left(\frac{\sum_{t} \Delta y_{t}}{N}\right)^{2} \tag {A6.9}
 $$
 
 $$
-\sigma_ {x y} = \frac {\sum_ {t} \Delta y _ {t} \Delta x _ {t}}{N} - \frac {\sum_ {t} \Delta y _ {t}}{N} \frac {\sum_ {t} \Delta x _ {t}}{N} \tag {A6.10}
+\sigma_{x y} = \frac{\sum_{t} \Delta y_{t} \Delta x_{t}}{N} - \frac{\sum_{t} \Delta y_{t}}{N} \frac{\sum_{t} \Delta x_{t}}{N} \tag {A6.10}
 $$
 
 $$
-\rho = \frac {\sigma_ {x y}}{\sigma_ {x} \sigma_ {y}} \tag {A6.11}
+\rho = \frac{\sigma_{x y}}{\sigma_{x} \sigma_{y}} \tag {A6.11}
 $$
 
 The discussion now turns to minimizing the P&L of the hedged position. That P&L, given in Equation (6.11), is repeated here for convenience,
 
 $$
-P \& L = - F ^ {J N J} \frac {D V 0 1 ^ {J N J}}{1 0 0} \Delta y _ {t} ^ {J N J} - F ^ {3 0} \frac {D V 0 1 ^ {3 0}}{1 0 0} \Delta y _ {t} ^ {3 0} \tag {A6.12}
+P \& L = - F^{J N J} \frac{D V 0 1^{J N J}}{1 0 0} \Delta y_{t}^{J N J} - F^{3 0} \frac{D V 0 1^{3 0}}{1 0 0} \Delta y_{t}^{3 0} \tag {A6.12}
 $$
 
 To simplify notation, write the DV01s of the bond positions as,
 
 $$
-\overline {{D V 0 1}} ^ {J N J} \equiv \frac {F ^ {J N J} D V 0 1 ^ {J N J}}{1 0 0} \tag {A6.13}
+\overline {{D V 0 1}}^{J N J} \equiv \frac{F^{J N J} D V 0 1^{J N J}}{1 0 0} \tag {A6.13}
 $$
 
 $$
-\overline {{D V 0 1}} ^ {3 0} \equiv \frac {F ^ {3 0} D V 0 1 ^ {3 0}}{1 0 0} \tag {A6.14}
+\overline {{D V 0 1}}^{3 0} \equiv \frac{F^{3 0} D V 0 1^{3 0}}{1 0 0} \tag {A6.14}
 $$
 
 Then, with the obvious notations for variance and covariance, the variance of the P&L in (A6.12), denoted  $\sigma_{P\& L}^2$ , is, $^1$
 
 $$
-\begin{array}{l} \sigma_ {P \& L} ^ {2} = \left(\overline {{D V 0 1}} ^ {J N J}\right) ^ {2} \sigma_ {J N J} ^ {2} + \left(\overline {{D V 0 1}} ^ {3 0}\right) ^ {2} \sigma_ {3 0} ^ {2} \\ + 2 \overline {{D V 0 1}} ^ {J N J} \overline {{D V 0 1}} ^ {3 0} \sigma_ {J N J, 3 0} \tag {A6.15} \\ \end{array}
+\begin{array}{l} \sigma_{P \& L}^{2} = \left(\overline {{D V 0 1}}^{J N J}\right)^{2} \sigma_{J N J}^{2} + \left(\overline {{D V 0 1}}^{3 0}\right)^{2} \sigma_{3 0}^{2} \\ + 2 \overline {{D V 0 1}}^{J N J} \overline {{D V 0 1}}^{3 0} \sigma_{J N J, 3 0} \tag {A6.15} \\ \end{array}
 $$
 
 To minimize this variance by choosing the DV01 in the hedging bonds, differentiate (A6.15) with respect to  $\overline{DV01}^{30}$ , set the result to zero, and solve for  $\overline{DV01}^{30}$ ,
 
 $$
-\begin{array}{l} 2 \overline {{D V 0 1}} ^ {3 0} \sigma_ {3 0} ^ {2} + 2 \overline {{D V 0 1}} ^ {J N J} \sigma_ {J N J, 3 0} = 0 \\ \overline {{D V 0 1}} ^ {3 0} = - \overline {{D V 0 1}} ^ {J N J} \frac {\sigma_ {J N J , 3 0}}{\sigma_ {3 0} ^ {2}} \tag {A6.16} \\ \end{array}
+\begin{array}{l} 2 \overline {{D V 0 1}}^{3 0} \sigma_{3 0}^{2} + 2 \overline {{D V 0 1}}^{J N J} \sigma_{J N J, 3 0} = 0 \\ \overline {{D V 0 1}}^{3 0} = - \overline {{D V 0 1}}^{J N J} \frac{\sigma_{J N J , 3 0}}{\sigma_{3 0}^{2}} \tag {A6.16} \\ \end{array}
 $$
 
 But, by inspection of Equation (A6.5), the fraction in (A6.16) is just the estimated slope coefficient in a regression of JNJ yields on 30-year Treasury yields. Hence, the regression hedge given in Equations (6.8) or (6.10) minimizes the variance of the P&L of the hedged position.
@@ -6309,7 +6309,7 @@ But, by inspection of Equation (A6.5), the fraction in (A6.16) is just the estim
 The minimized P&L variance of the hedged portfolio can be written explicitly by substituting Equation (A6.16) into Equation (A6.15) and rearranging terms,
 
 $$
-\begin{array}{l} \sigma_ {P \& L} ^ {2} = \left(\overline {{D V 0 1}} ^ {J N J}\right) ^ {2} \sigma_ {J N J} ^ {2} + \left(\overline {{D V 0 1}} ^ {J N J}\right) ^ {2} \frac {\sigma_ {J N J , 3 0} ^ {2}}{\sigma_ {3 0} ^ {2}} \\ - 2 \left(\overline {{D V 0 1}} ^ {J N J}\right) \left[ \overline {{D V 0 1}} ^ {J N J} \frac {\sigma_ {J N J , 3 0}}{\sigma_ {3 0} ^ {2}} \right] \sigma_ {J N J, 3 0} (A6.17) \\ = \left(\overline {{D V 0 1}} ^ {J N J}\right) ^ {2} \sigma_ {J N J} ^ {2} \left[ 1 - \frac {\sigma_ {J N J , 3 0} ^ {2}}{\sigma_ {3 0} ^ {2} \sigma_ {J N J} ^ {2}} \right] (A6.18) \\ = \left(\overline {{D V 0 1}} ^ {J N J}\right) ^ {2} \sigma_ {J N J} ^ {2} [ 1 - \rho^ {2} ] (A6.19) \\ \end{array}
+\begin{array}{l} \sigma_{P \& L}^{2} = \left(\overline {{D V 0 1}}^{J N J}\right)^{2} \sigma_{J N J}^{2} + \left(\overline {{D V 0 1}}^{J N J}\right)^{2} \frac{\sigma_{J N J , 3 0}^{2}}{\sigma_{3 0}^{2}} \\ - 2 \left(\overline {{D V 0 1}}^{J N J}\right) \left[ \overline {{D V 0 1}}^{J N J} \frac{\sigma_{J N J , 3 0}}{\sigma_{3 0}^{2}} \right] \sigma_{J N J, 3 0} (A6.17) \\ = \left(\overline {{D V 0 1}}^{J N J}\right)^{2} \sigma_{J N J}^{2} \left[ 1 - \frac{\sigma_{J N J , 3 0}^{2}}{\sigma_{3 0}^{2} \sigma_{J N J}^{2}} \right] (A6.18) \\ = \left(\overline {{D V 0 1}}^{J N J}\right)^{2} \sigma_{J N J}^{2} [ 1 - \rho^{2} ] (A6.19) \\ \end{array}
 $$
 
 where  $\rho$  denotes the correlation between changes in the JNJ and Treasury bond yields.
@@ -6317,7 +6317,7 @@ where  $\rho$  denotes the correlation between changes in the JNJ and Treasury b
 The last step for this section is to show that the variance of the hedged P&L, now given in (A6.19), is equal to the squared DV01 of the bonds being hedged times the variance of the regression residuals. Starting with the definition of the regression residuals in the general regression context of (A6.1), their variance, denoted  $\sigma_{\epsilon}^{2}$ , can be expressed as follows,
 
 $$
-\begin{array}{l} \epsilon_ {t} = \Delta y _ {t} - \alpha - \beta \Delta x _ {t} (A6.20) \\ \sigma_ {\epsilon} ^ {2} = \sigma_ {y} ^ {2} + \beta^ {2} \sigma_ {x} ^ {2} - 2 \beta \sigma_ {x y} (A6.21) \\ = \sigma_ {y} ^ {2} + \left(\frac {\rho \sigma_ {y}}{\sigma_ {x}}\right) ^ {2} \sigma_ {x} ^ {2} - 2 \left(\frac {\rho \sigma_ {y}}{\sigma_ {x}}\right) \sigma_ {x y} (A6.22) \\ = \sigma_ {y} ^ {2} \left(1 - \rho^ {2}\right) (A6.23) \\ \end{array}
+\begin{array}{l} \epsilon_{t} = \Delta y_{t} - \alpha - \beta \Delta x_{t} (A6.20) \\ \sigma_{\epsilon}^{2} = \sigma_{y}^{2} + \beta^{2} \sigma_{x}^{2} - 2 \beta \sigma_{x y} (A6.21) \\ = \sigma_{y}^{2} + \left(\frac{\rho \sigma_{y}}{\sigma_{x}}\right)^{2} \sigma_{x}^{2} - 2 \left(\frac{\rho \sigma_{y}}{\sigma_{x}}\right) \sigma_{x y} (A6.22) \\ = \sigma_{y}^{2} \left(1 - \rho^{2}\right) (A6.23) \\ \end{array}
 $$
 
 But applying Equation (A6.23) to the regression of the JNJ bonds on the 30-year Treasury bonds, and multiplying by the DV01 of the JNJ bonds, gives exactly the right-hand side of Equation (A6.19), which was to be proved.
@@ -6335,7 +6335,7 @@ The diagonal of the matrix in (A6.24) gives the variances of the three rates, or
 Now consider portfolio weights or loadings of  $-0.5, 1.0$ , and  $-0.6$  on the five-, 10-, and 30-year rates, respectively. By the properties of variance and covariance, and with the specific covariance matrix (A6.24), the variance of this portfolio, denoted  $\sigma_p^2$ , is,
 
 $$
-\begin{array}{l} \sigma_ {p} ^ {2} = (- 0. 5) ^ {2} \times 6. 4 6 + 1. 0 ^ {2} \times 1 1. 8 9 + (- 0. 6) ^ {2} \times 1 6. 1 9 \\ + 2 \times (- 0. 5) \times (1. 0) \times 7. 7 1 \\ + 2 \times (- 0. 5) \times (- 0. 6) \times 7. 1 0 \\ + 2 \times (1. 0) \times (- 0. 6) \times 1 2. 9 5 \\ = 0. 5 8 6 0 ^ {2} \tag {A6.25} \\ \end{array}
+\begin{array}{l} \sigma_{p}^{2} = (- 0. 5)^{2} \times 6. 4 6 + 1. 0^{2} \times 1 1. 8 9 + (- 0. 6)^{2} \times 1 6. 1 9 \\ + 2 \times (- 0. 5) \times (1. 0) \times 7. 7 1 \\ + 2 \times (- 0. 5) \times (- 0. 6) \times 7. 1 0 \\ + 2 \times (1. 0) \times (- 0. 6) \times 1 2. 9 5 \\ = 0. 5 8 6 0^{2} \tag {A6.25} \\ \end{array}
 $$
 
 Computations like this are more conveniently written with matrix notation. Let the vector of portfolio weights be  $\mathbf{w}$ , which, in the present example,
@@ -6343,7 +6343,7 @@ Computations like this are more conveniently written with matrix notation. Let t
 is  $\mathbf{w}' = (-0.5, 1.0, -0.6)$ , where the apostrophe denotes the transpose. Then, the same variance as computed in Equation (A6.25) can be written as,
 
 $$
-\mathbf {w} ^ {\prime} \mathbf {V} \mathbf {w} = \left(- 0. 5 \quad 1. 0 \quad - 0. 6\right) \left( \begin{array}{c c c} 6. 4 6 & 7. 7 1 & 7. 1 0 \\ 7. 7 1 & 1 1. 8 9 & 1 2. 9 5 \\ 7. 1 0 & 1 2. 9 5 & 1 6. 1 9 \end{array} \right) \left( \begin{array}{c} - 0. 5 \\ 1. 0 \\ - 0. 6 \end{array} \right) \tag {A6.26}
+\mathbf {w}^{\prime} \mathbf {V} \mathbf {w} = \left(- 0. 5 \quad 1. 0 \quad - 0. 6\right) \left( \begin{array}{c c c} 6. 4 6 & 7. 7 1 & 7. 1 0 \\ 7. 7 1 & 1 1. 8 9 & 1 2. 9 5 \\ 7. 1 0 & 1 2. 9 5 & 1 6. 1 9 \end{array} \right) \left( \begin{array}{c} - 0. 5 \\ 1. 0 \\ - 0. 6 \end{array} \right) \tag {A6.26}
 $$
 
 Turning to the creation of the PCs, denote the first principal component by the vector of weights  $\mathbf{a} = (a_1, a_2, a_3)'$ . Then, solve for the elements of  $\mathbf{a}$  by maximizing the variance of this PC,  $\mathbf{a}'\mathbf{V}\mathbf{a}$ , such that  $\mathbf{a}'\mathbf{a} = 1$ . Maximization ensures that, among all the PCs, the first explains the largest fraction of the sum or total variance across all rates. But there has to be some limit on the vector  $\mathbf{a}$ , or the maximization would find portfolios with arbitrarily large variances. Enter the constraint  $\mathbf{a}'\mathbf{a} = 1$ , which – along with similar constraints on other PCs – limits the risks of the PCs in a way that equates the sum of the variances of all PCs to the total variance. (See Section A6.3 for more details.) The maximization just described can be solved with the solver in Excel or some other tool to obtain that  $\mathbf{a} = (0.3846, 0.6090, 0.6937)'$ . The variance of this PC is  $\mathbf{a}'\mathbf{V}\mathbf{a} = 31.4977$ , which is  $91.2\%$  of the total variance of 34.54 given above.
@@ -6365,15 +6365,15 @@ Table A6.1. It can then be said that a one standard deviation shock of the level
 This section is more precise on a few claims made in the previous section at the cost of some extra mathematics. Let  $\mathbf{V}$  denote the  $3 \times 3$  variance-covariance matrix of rates with elements  $V_{ij}$ ; let  $\mathbf{P}$  denote the  $3 \times 3$  matrix of principal components, with elements  $p_{ij}$ , or, alternatively, with three  $3 \times 1$  column vectors  $\mathbf{p_i}$  corresponding to PC  $i$ ; let  $\mathbf{D}$  denote the  $3 \times 3$  diagonal matrix with diagonal elements  $\sigma_i^2$ , each equal to the variance of PC  $i$ ; and let  $\mathbf{I}$  denote the  $3 \times 3$  identity matrix. Then, though not proved here, the construction of the PCs in the previous section guarantees that,
 
 $$
-\mathbf {V} = \mathbf {P D P} ^ {\prime} \tag {A6.27}
+\mathbf {V} = \mathbf {P D P}^{\prime} \tag {A6.27}
 $$
 
 $$
-\mathbf {P} ^ {\prime} \mathbf {P} = \mathbf {P} \mathbf {P} ^ {\prime} = \mathbf {I} \tag {A6.28}
+\mathbf {P}^{\prime} \mathbf {P} = \mathbf {P} \mathbf {P}^{\prime} = \mathbf {I} \tag {A6.28}
 $$
 
 $$
-\mathrm {P} ^ {\prime} \mathrm {V P} = \mathrm {P} ^ {\prime} \mathrm {P D P} ^ {\prime} \mathrm {P} = \mathrm {D} \tag {A6.29}
+\mathrm{P}^{\prime} \mathrm{VP} = \mathrm{P}^{\prime} \mathrm{PD P}^{\prime} \mathrm{P} = \mathrm{D} \tag {A6.29}
 $$
 
 where (A6.29) follows from (A6.27) and (A6.28).
@@ -6383,7 +6383,7 @@ Lemma 1: The PCs are uncorrelated.
 Proof: In terms of its columns,  $\mathbf{P} = (\mathbf{p}_1,\mathbf{p}_2,\mathbf{p}_3)$ . With this, rewrite Equation (A6.29) as,
 
 $$
-\mathrm {P} ^ {\prime} \mathrm {V P} = \left( \begin{array}{l l l} \mathrm {p} _ {1} ^ {\prime} \mathrm {V p} _ {1} & \mathrm {p} _ {1} ^ {\prime} \mathrm {V p} _ {2} & \mathrm {p} _ {1} ^ {\prime} \mathrm {V p} _ {3} \\ \mathrm {p} _ {2} ^ {\prime} \mathrm {V p} _ {1} & \mathrm {p} _ {2} ^ {\prime} \mathrm {V p} _ {2} & \mathrm {p} _ {2} ^ {\prime} \mathrm {V p} _ {3} \\ \mathrm {p} _ {3} ^ {\prime} \mathrm {V p} _ {1} & \mathrm {p} _ {3} ^ {\prime} \mathrm {V p} _ {2} & \mathrm {p} _ {3} ^ {\prime} \mathrm {V p} _ {3} \end{array} \right) = D \tag {A6.30}
+\mathrm{P}^{\prime} \mathrm{VP} = \left( \begin{array}{l l l} \mathrm{p}_{1}^{\prime} \mathrm{Vp}_{1} & \mathrm{p}_{1}^{\prime} \mathrm{Vp}_{2} & \mathrm{p}_{1}^{\prime} \mathrm{Vp}_{3} \\ \mathrm{p}_{2}^{\prime} \mathrm{Vp}_{1} & \mathrm{p}_{2}^{\prime} \mathrm{Vp}_{2} & \mathrm{p}_{2}^{\prime} \mathrm{Vp}_{3} \\ \mathrm{p}_{3}^{\prime} \mathrm{Vp}_{1} & \mathrm{p}_{3}^{\prime} \mathrm{Vp}_{2} & \mathrm{p}_{3}^{\prime} \mathrm{Vp}_{3} \end{array} \right) = D \tag {A6.30}
 $$
 
 Because  $D$  is diagonal, the numbers  $\mathbf{p}_1^{\prime}\mathbf{V}\mathbf{p}_2$ ,  $\mathbf{p}_1^{\prime}\mathbf{V}\mathbf{p}_3$ ,  $\mathbf{p}_2^{\prime}\mathbf{V}\mathbf{p}_3$  are all zero. This means that the pairwise covariances of the PCs are zero, or, equivalently, that the PCs are uncorrelated with each other.
@@ -6391,13 +6391,13 @@ Because  $D$  is diagonal, the numbers  $\mathbf{p}_1^{\prime}\mathbf{V}\mathbf{
 Lemma 2: The variance of rate  $j$  equals the sum of the variance of each PC times the square of its  $j$ th component. Mathematically,
 
 $$
-V _ {j j} = p _ {1 j} ^ {2} \sigma_ {1} ^ {2} + p _ {2 j} ^ {2} \sigma_ {2} ^ {2} + p _ {3 j} ^ {2} \sigma_ {3} ^ {2} \tag {A6.31}
+V_{j j} = p_{1 j}^{2} \sigma_{1}^{2} + p_{2 j}^{2} \sigma_{2}^{2} + p_{3 j}^{2} \sigma_{3}^{2} \tag {A6.31}
 $$
 
 Proof: For  $i = 1$ , pre-multiply each side of Equation (A6.27) by the  $1 \times 3$  vector  $(1,0,0)$  and post-multiply by the  $3 \times 1$  vector  $(1,0,0)'$ . Then,
 
 $$
-\left( \begin{array}{l l l} 1 & 0 & 0 \end{array} \right) \mathbf {V} \left( \begin{array}{l} 1 \\ 0 \\ 0 \end{array} \right) = \left( \begin{array}{l l l} 1 & 0 & 0 \end{array} \right) \mathbf {P D P} ^ {\prime} \left( \begin{array}{l} 1 \\ 0 \\ 0 \end{array} \right) \tag {A6.32}
+\left( \begin{array}{l l l} 1 & 0 & 0 \end{array} \right) \mathbf {V} \left( \begin{array}{l} 1 \\ 0 \\ 0 \end{array} \right) = \left( \begin{array}{l l l} 1 & 0 & 0 \end{array} \right) \mathbf {P D P}^{\prime} \left( \begin{array}{l} 1 \\ 0 \\ 0 \end{array} \right) \tag {A6.32}
 $$
 
 Equation (A6.31) then follows by algebra. For  $i = 2$ , the proof is the same but with the vector  $(0,1,0)$  and its transpose, and for  $i = 3$  with  $(0,0,1)$ .
@@ -6407,7 +6407,7 @@ Lemma 3: The sum of the variances of the PCs equals the sum of the variances of 
 Proof: Adding together Equations (A6.31) for each  $j$  and rearranging terms,
 
 $$
-\begin{array}{l} V _ {1 1} + V _ {2 2} + V _ {3 3} = p _ {1 1} ^ {2} \sigma_ {1} ^ {2} + p _ {2 1} ^ {2} \sigma_ {2} ^ {2} + p _ {3 1} ^ {2} \sigma_ {3} ^ {2} \\ + p _ {1 2} ^ {2} \sigma_ {1} ^ {2} + p _ {2 2} ^ {2} \sigma_ {2} ^ {2} + p _ {3 2} ^ {2} \sigma_ {3} ^ {2} \\ + p _ {1 3} ^ {2} \sigma_ {1} ^ {2} + p _ {2 3} ^ {2} \sigma_ {2} ^ {2} + p _ {3 3} ^ {2} \sigma_ {3} ^ {2} (A6.33) \\ = \sigma_ {1} ^ {2} \left(p _ {1 1} ^ {2} + p _ {1 2} ^ {2} + p _ {1 3} ^ {2}\right) \\ + \sigma_ {2} ^ {2} \left(p _ {2 1} ^ {2} + p _ {2 2} ^ {2} + p _ {2 3} ^ {2}\right) \\ + \sigma_ {3} ^ {2} \left(p _ {3 1} ^ {2} + p _ {3 2} ^ {2} + p _ {3 3} ^ {2}\right) (A6.34) \\ \end{array}
+\begin{array}{l} V_{1 1} + V_{2 2} + V_{3 3} = p_{1 1}^{2} \sigma_{1}^{2} + p_{2 1}^{2} \sigma_{2}^{2} + p_{3 1}^{2} \sigma_{3}^{2} \\ + p_{1 2}^{2} \sigma_{1}^{2} + p_{2 2}^{2} \sigma_{2}^{2} + p_{3 2}^{2} \sigma_{3}^{2} \\ + p_{1 3}^{2} \sigma_{1}^{2} + p_{2 3}^{2} \sigma_{2}^{2} + p_{3 3}^{2} \sigma_{3}^{2} (A6.33) \\ = \sigma_{1}^{2} \left(p_{1 1}^{2} + p_{1 2}^{2} + p_{1 3}^{2}\right) \\ + \sigma_{2}^{2} \left(p_{2 1}^{2} + p_{2 2}^{2} + p_{2 3}^{2}\right) \\ + \sigma_{3}^{2} \left(p_{3 1}^{2} + p_{3 2}^{2} + p_{3 3}^{2}\right) (A6.34) \\ \end{array}
 $$
 
 But by Equation (A6.28), the sum of squares of the elements of each PC in the brackets,  $\mathbf{p}_i^{\prime}\mathbf{p}_i$ , equals 1, thus proving the lemma.
@@ -6415,7 +6415,7 @@ But by Equation (A6.28), the sum of squares of the elements of each PC in the br
 Lemma 4: Defined a scaled principal component matrix,  $\tilde{\mathbf{P}}$ , with elements  $\tilde{p}_{ij} = \sigma_i p_{ij}$ . Then,
 
 $$
-\sqrt {V _ {j j}} = \sqrt {\tilde {p} _ {1 j} ^ {2} + \tilde {p} _ {2 j} ^ {2} + \tilde {p} _ {3 j} ^ {2}} \tag {A6.35}
+\sqrt{V_{j j}} = \sqrt{\tilde {p}_{1 j}^{2} + \tilde {p}_{2 j}^{2} + \tilde {p}_{3 j}^{2}} \tag {A6.35}
 $$
 
 Proof: This lemma follows directly from the definition of the  $\tilde{p}_{ij}$  and Equation (A6.31).
@@ -6433,49 +6433,49 @@ $$
 Let  $P$  be the full price of some security that depends on  $r$  and time. Then, by Ito's lemma,
 
 $$
-d P = P _ {r} d r + P _ {t} d t + \frac {1}{2} P _ {r r} \sigma^ {2} d t \tag {A8.2}
+d P = P_{r} d r + P_{t} d t + \frac{1}{2} P_{r r} \sigma^{2} d t \tag {A8.2}
 $$
 
 where  $P_r, P_t$ , and  $P_{rr}$  denote the partial first derivatives with respect to  $r$  and  $t$  and the second partial derivative with respect to  $r$ . Dividing both sides of (A8.2) by  $P$ , taking expectations, and defining  $\alpha_P$  to be the expected return of the security,
 
 $$
-\alpha_ {P} d t \equiv E \left[ \frac {d P}{P} \right] = \frac {P _ {r}}{P} \mu d t + \frac {P _ {t}}{P} d t + \frac {1}{2} \frac {P _ {r r}}{P} \sigma^ {2} d t \tag {A8.3}
+\alpha_{P} d t \equiv E \left[ \frac{d P}{P} \right] = \frac{P_{r}}{P} \mu d t + \frac{P_{t}}{P} d t + \frac{1}{2} \frac{P_{r r}}{P} \sigma^{2} d t \tag {A8.3}
 $$
 
 Combining (A8.1), (A8.2), and (A8.3),
 
 $$
-\frac {d P}{P} - \alpha_ {P} d t = \frac {P _ {r}}{P} \sigma d w \tag {A8.4}
+\frac{d P}{P} - \alpha_{P} d t = \frac{P_{r}}{P} \sigma d w \tag {A8.4}
 $$
 
 Because Equation (A8.4) applies to any security, it also applies to some other security  $\mathcal{Q}$ ,
 
 $$
-\frac {d Q}{Q} - \alpha_ {Q} d t = \frac {Q _ {r}}{Q} \sigma d w \tag {A8.5}
+\frac{d Q}{Q} - \alpha_{Q} d t = \frac{Q_{r}}{Q} \sigma d w \tag {A8.5}
 $$
 
 Now consider the strategy of investing one unit of currency in security  $P$  and  $-P_{r}Q / PQ_{r}$  in security  $Q$ . From Equations (A8.4) and (A8.5), the return on this portfolio is,
 
 $$
-\frac {d P}{P} - \frac {P _ {r} Q}{P Q _ {r}} \frac {d Q}{Q} = \alpha_ {P} d t - \frac {P _ {r} Q}{P Q _ {r}} \alpha_ {Q} d t \tag {A8.6}
+\frac{d P}{P} - \frac{P_{r} Q}{P Q_{r}} \frac{d Q}{Q} = \alpha_{P} d t - \frac{P_{r} Q}{P Q_{r}} \alpha_{Q} d t \tag {A8.6}
 $$
 
 Note that terms with the random variable  $dw$  have fallen out of Equation (A8.6). This particular portfolio is chosen, in fact, so as to hedge completely the risk of  $P$  with  $Q$ . In any case, because the portfolio has no risk, it must earn the instantaneous rate,  $r_0$ ,
 
 $$
-\alpha_ {P} d t - \frac {P _ {r} Q}{P Q _ {r}} \alpha_ {Q} d t = \left(1 - \frac {P _ {r} Q}{P Q _ {r}}\right) r _ {0} d t \tag {A8.7}
+\alpha_{P} d t - \frac{P_{r} Q}{P Q_{r}} \alpha_{Q} d t = \left(1 - \frac{P_{r} Q}{P Q_{r}}\right) r_{0} d t \tag {A8.7}
 $$
 
 Rearranging terms,
 
 $$
-\frac {\alpha_ {P} - r _ {0}}{- P _ {r} / P} = \frac {\alpha_ {Q} - r _ {0}}{- Q _ {r} / Q} \equiv \lambda \left(r _ {0}, t\right) \tag {A8.8}
+\frac{\alpha_{P} - r_{0}}{- P_{r} / P} = \frac{\alpha_{Q} - r_{0}}{- Q_{r} / Q} \equiv \lambda \left(r_{0}, t\right) \tag {A8.8}
 $$
 
 Equation (A8.8) says that the expected return of any security above the instantaneous rate divided by its duration with respect to that rate must equal some function  $\lambda$ . This function cannot depend on any characteristic of the security, because (A8.8) is true for all securities. The function may depend, however, on the interest rate factor and time. Rewriting Equation (A8.8), for any security  $P$ ,
 
 $$
-E \left[ \frac {d P}{P} \right] \equiv \alpha_ {P} d t = r _ {0} d t + \lambda D d t \tag {A8.9}
+E \left[ \frac{d P}{P} \right] \equiv \alpha_{P} d t = r_{0} d t + \lambda D d t \tag {A8.9}
 $$
 
 # The Vasicek and Gauss+ Models
@@ -6485,7 +6485,7 @@ $$
 This section illustrates the implementation of the Vasicek model in a binomial tree. The parameters are  $r_0 = 2\%$ ;  $\theta = 11\%$ ;  $k = 0.0165$ ; and  $\sigma = 0.95\%$ . The step size is one year. The first stages of construction are shown in Figure A9.1. The starting short-term rate, by definition is  $2\%$ . By a discrete time approximation to the dynamics of the risk-neutral process in Equation (9.1) of the text, the expected short-term rate after one year is,
 
 $$
-r _ {0} + k (\theta - r _ {0}) d t = 2 \% + 0.0165 (11 \% - 2 \%) \times 1 = 2.1485 \% \tag{A9.1}
+r_{0} + k (\theta - r_{0}) d t = 2 \% + 0.0165 (11 \% - 2 \%) \times 1 = 2.1485 \% \tag{A9.1}
 $$
 
 Note that, if the time step were one month, instead of one year, the  $dt$  factor would be 1/12 instead of 1. In any case, adding a volatility of  $0.95\%$  up and down around the expectation from (A9.1) gives the date-1 up- and down-states in Figure A9.1.
@@ -6506,13 +6506,13 @@ FIGURE A9.1 Binomial Tree Setup for Three Dates of the Vasicek Model.
 The next stages of the construction are to find the missing rates and probabilities in Figure A9.1. From the date-1 up-state, the unknowns,  $r^{uu}$  and  $p$ , must result in the drift and volatility specified by the model. Mathematically, the drift condition is,
 
 $$
-\begin{array}{l} 3.0985 \% + 0.0165 (11 \% - 3.0985 \%) = 3.2289 \% \\ = p \times r ^ {u u} + (1 - p) \times 2.2945 \% \tag{A9.3} \\ \end{array}
+\begin{array}{l} 3.0985 \% + 0.0165 (11 \% - 3.0985 \%) = 3.2289 \% \\ = p \times r^{u u} + (1 - p) \times 2.2945 \% \tag{A9.3} \\ \end{array}
 $$
 
 and the volatility condition is,
 
 $$
-0.95 \% = \sqrt {p \left(r ^ {u u} - 3.2289 \%\right) ^ {2} + (1 - p) \left(3.2289 \% - 2.2945 \%\right) ^ {2}} \tag{A9.4}
+0.95 \% = \sqrt{p \left(r^{u u} - 3.2289 \%\right)^{2} + (1 - p) \left(3.2289 \% - 2.2945 \%\right)^{2}} \tag{A9.4}
 $$
 
 Solving Equations (A9.3) and (A9.4) simultaneously shows that  $p = .4917$  and  $r_{uu} = 4.1949\%$ . These values are given in Figure A9.2 along with solutions to the analogous equations for  $q$  and  $r_{dd}$ .<sup>1</sup>
@@ -6527,77 +6527,77 @@ FIGURE A9.2 Binomial Tree Solution for Three Dates of the Vasicek Model.
 Recall the dynamics of the short rate in cascade form presented in the text, where the cascade form means that each factor mean reverts to another factor, which mean reverts to another factor, in order of persistence. In order to solve the model (where "solving" means solving for the mapping from factors to forward rates), it will be convenient to work with the factors written in reduced form (where "reduced form" means that each factor mean reverts to a constant). After we have solved the model, we will write it back in cascade form in order to proceed to the estimation of its parameters. It will be convenient to partition the parameter vector  $P = (\alpha_{s}, \alpha_{m}, \alpha_{l}, \sigma_{l}, \sigma_{m}, \rho, \mu)$  in three blocks as  $\alpha = (\alpha_{s}, \alpha_{m}, \alpha_{l})$  and  $\sigma = (\sigma_{l}, \sigma_{m}, \rho)$  and  $\mu$ . In the reduced form, we have  $r_{t} = \mu + \mathbf{1}'X_{t}$  and the relationship between the reduced form expression and cascade form expression of the factors is,
 
 $$
-x _ {t} = A (\alpha) X _ {t} + \mu \tag {A9.5}
+x_{t} = A (\alpha) X_{t} + \mu \tag {A9.5}
 $$
 
 where,
 
 $$
-A (\alpha) = \left[ \begin{array}{c c c} 1 & 1 & 1 \\ 0 & \frac {\alpha_ {r} - \alpha_ {m}}{\alpha_ {r}} & \frac {\alpha_ {r} - \alpha_ {l}}{\alpha_ {r}} \\ 0 & 0 & \frac {\left(\alpha_ {r} - \alpha_ {l}\right) \left(\alpha_ {m} - \alpha_ {l}\right)}{\alpha_ {r}} \end{array} \right] \tag {A9.6}
+A (\alpha) = \left[ \begin{array}{c c c} 1 & 1 & 1 \\ 0 & \frac{\alpha_{r} - \alpha_{m}}{\alpha_{r}} & \frac{\alpha_{r} - \alpha_{l}}{\alpha_{r}} \\ 0 & 0 & \frac{\left(\alpha_{r} - \alpha_{l}\right) \left(\alpha_{m} - \alpha_{l}\right)}{\alpha_{r}} \end{array} \right] \tag {A9.6}
 $$
 
 The dynamics of the reduced form factors are then given by,
 
 $$
-d X _ {t} = - \operatorname {d i a g} (\alpha) X _ {t} d t + A (\alpha) ^ {- 1} \Omega d W _ {t} \tag {A9.7}
+d X_{t} = - \operatorname{di ag} (\alpha) X_{t} d t + A (\alpha)^{- 1} \Omega d W_{t} \tag {A9.7}
 $$
 
 where for convenience we have appended a zero to the two-dimensional random process  $dW_{t}$  and,
 
 $$
-\Omega (\sigma) = \left[ \begin{array}{c c c} 0 & 0 & 0 \\ \rho \sigma_ {m} & \sqrt {1 - \rho^ {2}} \sigma_ {m} & 0 \\ \sigma_ {l} & 0 & 0 \end{array} \right] \tag {A9.8}
+\Omega (\sigma) = \left[ \begin{array}{c c c} 0 & 0 & 0 \\ \rho \sigma_{m} & \sqrt{1 - \rho^{2}} \sigma_{m} & 0 \\ \sigma_{l} & 0 & 0 \end{array} \right] \tag {A9.8}
 $$
 
 Let  $P_{t}(\tau)$  denote the zero coupon bond price at time  $t$  with time-to-expiry  $\tau$ . Taking the usual expectation of exponential of future short rate path conditional on the factors expressed in reduced form, one can show that,
 
 $$
-P _ {t} (\tau) = E ^ {\mathcal {Q}} \left(e ^ {- \int_ {0} ^ {\tau} r _ {s} d s}\right) = e x p (- y _ {t} (\tau) \tau) \tag {A9.9}
+P_{t} (\tau) = E^{\mathcal {Q}} \left(e^{- \int_{0}^{\tau} r_{s} d s}\right) = e x p (- y_{t} (\tau) \tau) \tag {A9.9}
 $$
 
 where the yield of a zero coupon bond with maturity  $\tau$  at time  $t$  is given by,
 
 $$
-y _ {t} (\tau) = \mu - C (\tau , \alpha , \sigma) + B (\tau , \alpha) X _ {t} \tag {A9.10}
+y_{t} (\tau) = \mu - C (\tau , \alpha , \sigma) + B (\tau , \alpha) X_{t} \tag {A9.10}
 $$
 
 where  $B(\tau, \alpha)$  is a three-dimensional vector with  $B_i(\tau) = (1 - \exp(-\alpha_i \tau)) / \alpha_i \tau$  for  $i = 1, 2, 3$ , and the term  $C(\tau, \alpha, \sigma)$  can be written as,
 
 $$
-C (\tau , \alpha , \sigma) = \sum_ {i = 1} ^ {3} \sum_ {j = 1} ^ {3} \frac {\sigma_ {i j}}{2 \alpha_ {i} \alpha_ {j}} \left(1 - B _ {i} (\tau) - B _ {j} (\tau) - \frac {1 - e x p (- \left(\alpha_ {i} + \alpha_ {j}\right) \tau)}{\left(\alpha_ {i} + \alpha_ {j}\right) \tau}\right) \tag {A9.11}
+C (\tau , \alpha , \sigma) = \sum_{i = 1}^{3} \sum_{j = 1}^{3} \frac{\sigma_{i j}}{2 \alpha_{i} \alpha_{j}} \left(1 - B_{i} (\tau) - B_{j} (\tau) - \frac{1 - e x p (- \left(\alpha_{i} + \alpha_{j}\right) \tau)}{\left(\alpha_{i} + \alpha_{j}\right) \tau}\right) \tag {A9.11}
 $$
 
 where  $\sigma_{ij}$  stands for the  $i$ th row and  $j$ th column of matrix,  $A(\alpha)^{-1}\Omega(\sigma)\Omega(\sigma)' A(\alpha)^{-1}$  with,
 
 $$
-A (\alpha) ^ {- 1} = \left[ \begin{array}{c c c} 1 & - \frac {\alpha_ {r}}{\alpha_ {r} - \alpha_ {m}} & \frac {\alpha_ {r} \alpha_ {m}}{(\alpha_ {r} - \alpha_ {m}) (\alpha_ {r} - \alpha_ {l})} \\ 0 & \frac {\alpha_ {r}}{\alpha_ {r} - \alpha_ {m}} & \frac {\alpha_ {r} \alpha_ {m}}{(\alpha_ {r} - \alpha_ {m}) (\alpha_ {m} - \alpha_ {l})} \\ 0 & 0 & \frac {\alpha_ {r} \alpha_ {m}}{(\alpha_ {r} - \alpha_ {l}) (\alpha_ {m} - \alpha_ {l})} \end{array} \right] \tag {A9.12}
+A (\alpha)^{- 1} = \left[ \begin{array}{c c c} 1 & - \frac{\alpha_{r}}{\alpha_{r} - \alpha_{m}} & \frac{\alpha_{r} \alpha_{m}}{(\alpha_{r} - \alpha_{m}) (\alpha_{r} - \alpha_{l})} \\ 0 & \frac{\alpha_{r}}{\alpha_{r} - \alpha_{m}} & \frac{\alpha_{r} \alpha_{m}}{(\alpha_{r} - \alpha_{m}) (\alpha_{m} - \alpha_{l})} \\ 0 & 0 & \frac{\alpha_{r} \alpha_{m}}{(\alpha_{r} - \alpha_{l}) (\alpha_{m} - \alpha_{l})} \end{array} \right] \tag {A9.12}
 $$
 
 Mapping reduced form factors in (A9.10) to factors in cascade form, we finally have,
 
 $$
-y _ {t} (\tau) = \mu (1 - Y (\tau , \alpha) \mathbf {1}) - C (\tau , \alpha , \sigma) + Y (\tau , \alpha) x _ {t} \tag {A9.13}
+y_{t} (\tau) = \mu (1 - Y (\tau , \alpha) \mathbf {1}) - C (\tau , \alpha , \sigma) + Y (\tau , \alpha) x_{t} \tag {A9.13}
 $$
 
 where  $\mathbf{1}$  is a three-dimensional column vector of ones and we have defined,
 
 $$
-Y (\tau , \alpha) = B (\tau , \alpha) A (\alpha) ^ {- 1} \tag {A9.14}
+Y (\tau , \alpha) = B (\tau , \alpha) A (\alpha)^{- 1} \tag {A9.14}
 $$
 
 where  $\Upsilon (\tau ,\alpha) = (\Upsilon_{s}(\tau ,\alpha),\Upsilon_{m}(\tau ,\alpha),\Upsilon_{l}(\tau ,\alpha),)$  where  $\Upsilon_{s},\Upsilon_{m}$  and  $\Upsilon_{l}$  represent the partial derivatives (a.k.a. loadings) of the changes of the zero coupon yield of maturity  $\tau$  on the short, medium and long rate factors. A similar representation for the (continuously compounded) forward rate of tenor  $\tau^{\prime}$  as an affine function of the factors in cascade form can be obtained as follows,
 
 $$
-f _ {t} (\tau) = \mu \left(1 - \Upsilon^ {\prime} \left(\tau , \alpha , \tau^ {\prime}\right) \mathbf {1}\right) + \Upsilon^ {\prime} \left(\tau , \alpha , \tau^ {\prime}\right) x _ {t} - C ^ {\prime} \left(\tau , \alpha , \sigma , \tau^ {\prime}\right) \tag {A9.15}
+f_{t} (\tau) = \mu \left(1 - \Upsilon^{\prime} \left(\tau , \alpha , \tau^{\prime}\right) \mathbf {1}\right) + \Upsilon^{\prime} \left(\tau , \alpha , \tau^{\prime}\right) x_{t} - C^{\prime} \left(\tau , \alpha , \sigma , \tau^{\prime}\right) \tag {A9.15}
 $$
 
 where,
 
 $$
-Y ^ {\prime} (\tau , \alpha , \tau^ {\prime}) = \left(B \left(\tau + \tau^ {\prime}, \alpha\right) - B (\tau , \alpha)\right) A (\alpha) ^ {- 1} / \tau^ {\prime} \tag {A9.16}
+Y^{\prime} (\tau , \alpha , \tau^{\prime}) = \left(B \left(\tau + \tau^{\prime}, \alpha\right) - B (\tau , \alpha)\right) A (\alpha)^{- 1} / \tau^{\prime} \tag {A9.16}
 $$
 
 $$
-C ^ {\prime} (\tau , \alpha , \sigma , \tau^ {\prime}) = \left(C \left(\tau + \tau^ {\prime}, \alpha , \sigma\right) - C \left(\tau , \alpha , \sigma , \tau^ {\prime}\right)\right) / \tau^ {\prime} \tag {A9.17}
+C^{\prime} (\tau , \alpha , \sigma , \tau^{\prime}) = \left(C \left(\tau + \tau^{\prime}, \alpha , \sigma\right) - C \left(\tau , \alpha , \sigma , \tau^{\prime}\right)\right) / \tau^{\prime} \tag {A9.17}
 $$
 
 Expression (A9.15) can be interpreted as follows: The time  $t$  forward rate with maturity  $\tau$  and tenor  $\tau'$  can be decomposed into a component that represents the risk-neutral expectation of the  $\tau'$  maturity yield prevailing at
@@ -6627,25 +6627,25 @@ out of the short rate, and we will drop the short rate  $r_t$  from the vector o
 The next step consists of inverting (A9.13) and expressing the factors  $x_{t}$  as a linear function of the observed two- and 10-year yields (henceforth 2y and 10y). We will assume that the yields of these two maturities are priced exactly by the model, unlike other maturities. Denote these benchmark yields at time  $t$  as  $y b_{t} = (y_{t}(2), y_{t}(10))$ . We can then invert (A9.13) for the 2y and 10y maturity and express the factors in cascade form as linear functions of the vector of benchmark yields. Then we replace the resulting expression for the factors in (A9.13). Finally, write the resulting expression of benchmark yields as a function of factors, in changes,
 
 $$
-\Delta y b _ {t} (\tau) = \Upsilon_ {b} (\alpha) \Delta x _ {t} \tag {A9.18}
+\Delta y b_{t} (\tau) = \Upsilon_{b} (\alpha) \Delta x_{t} \tag {A9.18}
 $$
 
 where  $\Upsilon_{b}(\alpha)$  stands for a matrix formed by the vectors (A9.14) corresponding to maturities  $\tau = 2,10$ , and dropping the column. Now, solving for  $\Delta x_{t}$  and plugging the resulting expression into equation (A9.13) written in changes, we obtain a linear expression relating the yield changes at any maturity to the yield changes of the two benchmark maturities, where the slopes are a nonlinear function of just the parameter  $\alpha$ ,
 
 $$
-\Delta y (\tau) = Y (\alpha) Y _ {b} (\alpha) ^ {- 1} \Delta y b _ {t} (\tau) \tag {A9.19}
+\Delta y (\tau) = Y (\alpha) Y_{b} (\alpha)^{- 1} \Delta y b_{t} (\tau) \tag {A9.19}
 $$
 
 we can then compute an estimate for  $\alpha$  by solving,
 
 $$
-\min  _ {\alpha} \| \Upsilon (\alpha) \Upsilon_ {b} (\alpha) ^ {- 1} - \hat {\beta} \| \tag {A9.20}
+\min_{\alpha} \| \Upsilon (\alpha) \Upsilon_{b} (\alpha)^{- 1} - \hat {\beta} \| \tag {A9.20}
 $$
 
 where  $\|\cdot\|$  stands for the L2 norm and  $\hat{\beta}$  is the ordinary least square estimate of regressing  $\Delta y(\tau)$  onto  $\Delta y b_{t}(\tau)$ , namely,
 
 $$
-\hat {\beta} = \left(\Delta y b ^ {\prime} \Delta y b\right) ^ {- 1} \Delta y b ^ {\prime} \Delta y \tag {A9.21}
+\hat {\beta} = \left(\Delta y b^{\prime} \Delta y b\right)^{- 1} \Delta y b^{\prime} \Delta y \tag {A9.21}
 $$
 
 Figure 9.5 in the text shows the estimated OLS parameters of regressing yield changes at different maturities on the changes in the two- and 10-year yield. It also shows the values of the model slopes  $\Upsilon (\alpha)\Upsilon_{b}(\alpha)^{-1}$ , evaluated at the optimal solution of (A9.20). The parameter  $\alpha$  allows one to examine the impact of a change in the factors  $r_t, m_t, l_t$  on the instantaneous forward rates and yields. This allows a clear interpretation of each of the factors: the medium rate  $m_t$  has maximum impact around the 2y to 3y maturities; hence it can be interpreted as a monetary policy factor (as has been argued in the text). On the other hand, the long factor exhibits maximum impact around the 7y forward maturity (and 15y for zero yield maturity).
@@ -6653,7 +6653,7 @@ Figure 9.5 in the text shows the estimated OLS parameters of regressing yield ch
 Armed with the estimated parameter  $\hat{\alpha}$  that solves (A9.20), we proceed to estimate the vector  $\sigma$  that minimizes the distance between model implied yield volatilities and realized volatilities of constant maturity yields by solving,
 
 $$
-\min  _ {\sigma} \| \Upsilon_ {b} (\hat {\alpha}) \Omega (\sigma) \Omega (\sigma) ^ {\prime} \Upsilon_ {b} (\hat {\alpha}) ^ {\prime} - \operatorname {d i a g} \left(\Delta y ^ {\prime} \Delta y\right) 2 5 2 / T \| \tag {A9.22}
+\min_{\sigma} \| \Upsilon_{b} (\hat {\alpha}) \Omega (\sigma) \Omega (\sigma)^{\prime} \Upsilon_{b} (\hat {\alpha})^{\prime} - \operatorname{di ag} \left(\Delta y^{\prime} \Delta y\right) 2 5 2 / T \| \tag {A9.22}
 $$
 
 where  $\Delta y$  is a  $T\times N$  vector of yield changes for all maturities. Figure 9.6 in the text shows the fitted zero yield volatilities, versus the volatilities computed directly from observed, constant maturity yield changes.
@@ -6661,7 +6661,7 @@ where  $\Delta y$  is a  $T\times N$  vector of yield changes for all maturities
 Finally, using  $\hat{\alpha}$  that solves (A9.20) and  $\hat{\sigma}$  that solves (A9.22), we determine the parameter  $\mu$  by minimizing the sum of squares of yield fitting errors, namely,
 
 $$
-\min  _ {\mu} \sum_ {t = 1} ^ {T} \| Y _ {t} - y _ {t} \| \tag {A9.23}
+\min_{\mu} \sum_{t = 1}^{T} \| Y_{t} - y_{t} \| \tag {A9.23}
 $$
 
 where  $y_{t}$  is the vector of model yields for all maturities, at time  $t$ . The estimated parameters are shown in Table 9.1 in the text.
@@ -6671,7 +6671,7 @@ Once the parameter vector  $P$  has been estimated, we can solve for the factors
 Note that in the text we plot the affine function of  $l_{t}$ ,  $L(l_{t})$  below rather than  $l_{t}$  itself, so that we can interpret the derived long factor as an approximation of the expectation of what the short rate will be in 10 years' time. This is necessary because the extreme persistence (or large half-life, or low mean-reversion parameter) of the factor  $l_{t}$  makes the interpretation of the fitted level of  $l_{t}$  less intuitive. As you can see, the long factor closely tracks the 10y forward rate from before (the difference between the two is explained by the convexity correction adjustment),
 
 $$
-L (l _ {t}) = \mu (1 - e ^ {- 1 0 \alpha_ {l}}) + l _ {t} e ^ {- 1 0 \alpha_ {l}} \tag {A9.24}
+L (l_{t}) = \mu (1 - e^{- 1 0 \alpha_{l}}) + l_{t} e^{- 1 0 \alpha_{l}} \tag {A9.24}
 $$
 
 The time series properties of the model can be described by graphing its fitted factors over time. As mentioned already, the short-term rate is set each day to the fed funds target rate, and the medium- and long-term factors
@@ -6685,7 +6685,7 @@ Denote by  $P(t, \tau)$  the price at time  $t$  of a zero coupon bond that matu
 We will assume henceforth that only the risk of the long factor is priced. This is reasonable for the application we have in mind, which will involve extracting expectations about the 10-year maturity and, at that maturity, the loadings of the forward relative to the short and medium rate are negligible. Now, applying Ito's lemma to the zero coupon bond price as an exponential affine function of the cascade form factors (A9.9) using (A9.13), and passing to the true measure, we can write the dynamics of the instantaneous return of a zero coupon bond as follows,
 
 $$
-\frac {d P (t , \tau)}{P (t , \tau)} = (r _ {t} + \lambda_ {t} (\tau - t) \Upsilon_ {3} (\tau - t, \alpha) \sigma_ {l}) d t - (\tau - t) \Upsilon (\tau - t, \alpha) \Omega d W _ {t} ^ {*} \quad (A 9. 2 5)
+\frac{d P (t , \tau)}{P (t , \tau)} = (r_{t} + \lambda_{t} (\tau - t) \Upsilon_{3} (\tau - t, \alpha) \sigma_{l}) d t - (\tau - t) \Upsilon (\tau - t, \alpha) \Omega d W_{t}^{*} \quad (A 9. 2 5)
 $$
 
 where the loadings vector  $\Upsilon (\tau ,\alpha)$  was defined in (A9.14), and  $\Upsilon_{3}(\tau ,\alpha)$  stands for its last element, i.e., the loading of a zero coupon yield with maturity  $\tau -t$  on the long rate factor. Also,  $\Omega$  was defined in (A9.8) and  $W_{t}^{*}$  stands for the Wiener process under the true measure.
@@ -6695,7 +6695,7 @@ The term multiplying  $dt$  on the right-hand side of (A9.25) has a clear interp
 Recall as well the definition of the forward rate at time  $t$  with maturity  $\tau$  and tenor  $\Delta \tau$ :  $f_{t}(\tau) = (p(t, \tau) - p(t, \tau + \Delta \tau)) / \Delta \tau -$  we will omit the tenor as an explicitly argument of  $f_{t}()$ . Now, consider the following strategy: At time  $t$ , buy one zero coupon bond with maturity  $\tau + \Delta \tau$ , and simultaneously sell one zero coupon bond with maturity  $\tau$ . First, we claim that the return of this strategy is equal to the forward rate with tenor  $\Delta \tau$  prevailing at time  $t$ , minus the  $\Delta \tau$  maturity yield prevailing at time  $\tau$ . To see this, denote by  $R_{t}^{\tau}$  the cumulative realized return between time  $t$  and time  $\tau$ . We then have,
 
 $$
-\begin{array}{l} R _ {t} ^ {\tau} = (p (\tau , \tau + \Delta \tau) - p (t, \tau + \Delta \tau)) - (p (\tau , \tau) - p (t, \tau)) \\ = (p (t, \tau) - p (t, \tau + \Delta \tau)) - (0 - p (t, \tau)) \tag {A9.26} \\ = (f _ {t} (\tau) - f _ {\tau} (\tau)) \Delta \tau \\ \end{array}
+\begin{array}{l} R_{t}^{\tau} = (p (\tau , \tau + \Delta \tau) - p (t, \tau + \Delta \tau)) - (p (\tau , \tau) - p (t, \tau)) \\ = (p (t, \tau) - p (t, \tau + \Delta \tau)) - (0 - p (t, \tau)) \tag {A9.26} \\ = (f_{t} (\tau) - f_{\tau} (\tau)) \Delta \tau \\ \end{array}
 $$
 
 where  $f_{\tau}(\tau)$  is equal to the zero coupon yield with maturity  $\Delta \tau$  prevailing at time  $\tau$  which, for a sufficiently small  $\Delta \tau$ , approximately equals the spot rate prevailing at time  $\tau$ . Hence, the expected return (under the true measure) of this strategy at time  $t$  is equal to the forward rate at time  $t$ , minus the expected short rate at time  $\tau$ . Let's keep this result aside for a moment.
@@ -6703,19 +6703,19 @@ where  $f_{\tau}(\tau)$  is equal to the zero coupon yield with maturity  $\Delt
 We will now compute the expected return of this strategy (again, under the true measure). Note that the expected return of the long and short side cancel out for entire the holding period except for the segment  $(t,t + \Delta \tau)$  and  $(\tau -\Delta \tau ,\tau)$ , because in the model the risk premia depends on time to maturity only. Applying Ito's lemma to (A9.25), canceling the short rate, integrating and taking expectations, and dismissing the contribution of the segments  $(\tau -\Delta \tau ,\tau)$  because only the long factor is priced, we get,
 
 $$
-\begin{array}{l} E _ {t} (R _ {t} ^ {\tau}) = \int_ {0} ^ {\Delta \tau} \lambda_ {t} (\tau + \Delta \tau - t - s) Y _ {3} (\tau + \Delta \tau - t - s, \alpha) \sigma_ {l} \\ - \frac {1}{2} (\tau + \Delta \tau - t - s) ^ {2} \Upsilon (\tau + \Delta \tau - t - s, \alpha) \Omega \Omega^ {\prime} \Upsilon (\tau + \Delta \tau - t - s, \alpha) ^ {\prime} d s \\ = \lambda_ {t} R P (t, \tau , \Delta \tau) \tag {A9.27} \\ \end{array}
+\begin{array}{l} E_{t} (R_{t}^{\tau}) = \int_{0}^{\Delta \tau} \lambda_{t} (\tau + \Delta \tau - t - s) Y_{3} (\tau + \Delta \tau - t - s, \alpha) \sigma_{l} \\ - \frac{1}{2} (\tau + \Delta \tau - t - s)^{2} \Upsilon (\tau + \Delta \tau - t - s, \alpha) \Omega \Omega^{\prime} \Upsilon (\tau + \Delta \tau - t - s, \alpha)^{\prime} d s \\ = \lambda_{t} R P (t, \tau , \Delta \tau) \tag {A9.27} \\ \end{array}
 $$
 
 Note that the expected risk premium (A9.27) is the product of the yet unknown  $\lambda_{t}$  and an amount of risk term  $RP(t,\tau ,\Delta \tau)$  that can be easily computed. As we mention in the text, in order to imply  $\lambda_{t}$  from the observed forward rates and the parameters of the model, we will assume that there is a maturity  $\tau$  such that the (true) expectation of what the short rate will be at maturity  $\tau$  is equal to the (true) expectation of the short rate will be at any maturity  $\tau^{\prime} > \tau$ . With this assumption, we can specialize this reasoning to two long maturities  $\tau^{\prime} > \tau$ , subtract the resulting equations and solve for the price of risk  $\lambda_{t}$  as follows,
 
 $$
-\lambda_ {t} = \frac {f _ {t} \left(\tau^ {\prime}\right) - f _ {t} (\tau)}{R P \left(t , \tau^ {\prime} , \Delta \tau\right) / \Delta \tau - R P \left(t , \tau , \Delta \tau\right) / \Delta \tau} \tag {A9.28}
+\lambda_{t} = \frac{f_{t} \left(\tau^{\prime}\right) - f_{t} (\tau)}{R P \left(t , \tau^{\prime} , \Delta \tau\right) / \Delta \tau - R P \left(t , \tau , \Delta \tau\right) / \Delta \tau} \tag {A9.28}
 $$
 
 Armed with an estimate for  $\lambda_{t}$ , we can then take expectations on both sides of the equation (A9.26) at maturity  $\tau - \Delta \tau$  and use (A9.27) to solve for the expected rate for a long enough maturity  $\tau - \Delta \tau$ . We finally get,
 
 $$
-E _ {t} \left(r _ {\tau}\right) = f _ {t} (\tau) - \lambda_ {t} R P (t, \tau , \Delta \tau) \tag {A9.29}
+E_{t} \left(r_{\tau}\right) = f_{t} (\tau) - \lambda_{t} R P (t, \tau , \Delta \tau) \tag {A9.29}
 $$
 
 To get an intuition for (A9.29), say that the price of risk  $\lambda_{t}$  that we solved before is 0.09. The loading of the 10-year zero coupon bond yield on the long factor is 0.7, and the volatility of the long factor is about 100 basis points, then the 10-year risk premium would be approximately  $0.09 \times 0.01 \times 10 \times 0.7 = 63$  bps. The convexity advantage term for the 10-year rate is about 24 bps. These numbers are very close to the ones obtained by evaluating the model at estimated parameters, and 0.09 is the average price of risk in the sample.<sup>5</sup> If we assume that the 10-year forward rate is  $3\%$ , the implied expected one-year rate, nine years rate under the true measure would then be  $0.03 + 0.0024 - 0.0063 = 2.61\%$
@@ -6742,11 +6742,11 @@ $p_0(d)$  : flat price for forward settlement
 With this notation, the forward price of the bond, based on the discussion in the text, can be written as,
 
 $$
-p _ {0} (d) = \left[ \left(p _ {0} + A I _ {0}\right) \left(1 + \frac {r d _ {1}}{3 6 0}\right) - \frac {c}{2} \right] \left(1 + \frac {r d _ {2}}{3 6 0}\right) - A I _ {d} \quad (\mathrm {A 1 1 . 1})
+p_{0} (d) = \left[ \left(p_{0} + A I_{0}\right) \left(1 + \frac{r d_{1}}{3 6 0}\right) - \frac{c}{2} \right] \left(1 + \frac{r d_{2}}{3 6 0}\right) - A I_{d} \quad (\mathrm{A1 1 .1})
 $$
 
 $$
-p _ {0} - p _ {0} (d) \approx \frac {c}{2} + A I _ {d} - A I _ {0} - \left(p _ {0} + A I _ {0}\right) \frac {r d}{3 6 0} \tag {A11.2}
+p_{0} - p_{0} (d) \approx \frac{c}{2} + A I_{d} - A I_{0} - \left(p_{0} + A I_{0}\right) \frac{r d}{3 6 0} \tag {A11.2}
 $$
 
 Equation (A11.2) follows from Equation (A11.1) by dropping terms that are small, because they represent interest-on-interest. In particular, the following approximations are made:  $(1 + rd_{1} / 360)(1 + rd_{2} / 360)\approx (1 + rd / 360)$ ; and  $(c / 2)(1 + rd_{2} / 360)\approx c / 2$ .
@@ -6770,13 +6770,13 @@ $p_0(2)$  : the initial flat forward price.
 By the definition of a risk-neutral tree, the initial price of the bond can be computed as,
 
 $$
-P _ {0} = \frac {1}{1 + r _ {0}} \left[ q \times \frac {q P _ {2} ^ {u u} + (1 - q) P _ {2} ^ {u d}}{1 + r _ {1} ^ {u}} + (1 - q) \times \frac {q P _ {2} ^ {u d} + (1 - q) P _ {2} ^ {d d}}{1 + r _ {1} ^ {d}} \right] \tag {A11.3}
+P_{0} = \frac{1}{1 + r_{0}} \left[ q \times \frac{q P_{2}^{u u} + (1 - q) P_{2}^{u d}}{1 + r_{1}^{u}} + (1 - q) \times \frac{q P_{2}^{u d} + (1 - q) P_{2}^{d d}}{1 + r_{1}^{d}} \right] \tag {A11.3}
 $$
 
 or, rearranging terms,
 
 $$
-\begin{array}{l} P _ {0} = q ^ {2} \frac {P _ {2} ^ {u u}}{(1 + r _ {0}) (1 + r _ {1} ^ {u})} + q (1 - q) \frac {P _ {2} ^ {u d}}{(1 + r _ {0}) (1 + r _ {1} ^ {u})} \\ + q (1 - q) \frac {P _ {2} ^ {u d}}{\left(1 + r _ {0}\right) \left(1 + r _ {1} ^ {d}\right)} + (1 - q) ^ {2} \frac {P _ {2} ^ {d d}}{\left(1 + r _ {0}\right) \left(1 + r _ {1} ^ {d}\right)} \tag {A11.4} \\ \end{array}
+\begin{array}{l} P_{0} = q^{2} \frac{P_{2}^{u u}}{(1 + r_{0}) (1 + r_{1}^{u})} + q (1 - q) \frac{P_{2}^{u d}}{(1 + r_{0}) (1 + r_{1}^{u})} \\ + q (1 - q) \frac{P_{2}^{u d}}{\left(1 + r_{0}\right) \left(1 + r_{1}^{d}\right)} + (1 - q)^{2} \frac{P_{2}^{d d}}{\left(1 + r_{0}\right) \left(1 + r_{1}^{d}\right)} \tag {A11.4} \\ \end{array}
 $$
 
 Each term of Equation (A11.4) is the probability of a particular path through the tree times the discounted value of the bond price at the end of that path, where discounting is done using the short-term rates along the path. Taking all terms together, therefore,  $P_0$  is the expected discounted bond price. More generally, then, letting  $n$  be the number of periods,  $P_n$  the
@@ -6784,61 +6784,61 @@ Each term of Equation (A11.4) is the probability of a particular path through th
 random full price of the bond at period  $n$ , and  $r_i$  the random short-term rate over period  $i$  to  $i + 1$ ,
 
 $$
-P _ {0} = E \left[ \frac {P _ {n}}{\prod_ {i = 0} ^ {n - 1} \left(1 + r _ {i}\right)} \right] \tag {A11.5}
+P_{0} = E \left[ \frac{P_{n}}{\prod_{i = 0}^{n - 1} \left(1 + r_{i}\right)} \right] \tag {A11.5}
 $$
 
 The discount factor to period  $n$ ,  $d(n)$ , is just a special case of (A11.5) when the terminal price equals one in all states. Hence,
 
 $$
-d (n) = E \left[ \frac {1}{\prod_ {i = 0} ^ {n - 1} \left(1 + r _ {i}\right)} \right] \tag {A11.6}
+d (n) = E \left[ \frac{1}{\prod_{i = 0}^{n - 1} \left(1 + r_{i}\right)} \right] \tag {A11.6}
 $$
 
 Following the discussion in the text, the forward full price of the bond is just the future value, to the forward delivery date, of the full spot price of the bond. Therefore, using Equations (A11.5) and (A11.6),
 
 $$
-P _ {0} ^ {f w d} = \frac {P _ {0}}{d (n)} \tag {A11.7}
+P_{0}^{f w d} = \frac{P_{0}}{d (n)} \tag {A11.7}
 $$
 
 Turning to the futures price, start again with the recombining, risk-neutral binomial tree. At expiration on date 2, the futures price equals the flat bond price. (At contract expiration, the bond is delivered at the futures price plus accrued interest.) In the up state of date 1, the futures price is  $F_1^u$ , which means that the daily settlement payment for a long position of one contract on date 2 is  $p_2^{uu} - F_1^u$  in the up-up state and  $p_2^{ud} - F_1^u$  in the up-down state. But because the value of a futures contract initiated at any date is zero, the expected discounted value of the daily settlement payments from the date 1 up state must be zero. Hence,
 
 $$
-\frac {q \left(p _ {2} ^ {u u} - F _ {1} ^ {u}\right) + (1 - q) \left(p _ {2} ^ {u d} - F _ {1} ^ {u}\right)}{1 + r _ {1} ^ {u}} = 0 \tag {A11.8}
+\frac{q \left(p_{2}^{u u} - F_{1}^{u}\right) + (1 - q) \left(p_{2}^{u d} - F_{1}^{u}\right)}{1 + r_{1}^{u}} = 0 \tag {A11.8}
 $$
 
 And, solving for the futures price,
 
 $$
-F _ {1} ^ {u} = q p _ {2} ^ {u u} + (1 - q) p _ {2} ^ {u d} \tag {A11.9}
+F_{1}^{u} = q p_{2}^{u u} + (1 - q) p_{2}^{u d} \tag {A11.9}
 $$
 
 Analogously, the futures price in the date 1 down state is,
 
 $$
-F _ {1} ^ {d} = q p _ {2} ^ {u d} + (1 - q) p _ {2} ^ {d d} \tag {A11.10}
+F_{1}^{d} = q p_{2}^{u d} + (1 - q) p_{2}^{d d} \tag {A11.10}
 $$
 
 On date 0, the futures price is  $F_0$ , and the expected discounted value of the date 1 settlement payment must be zero. Hence,
 
 $$
-\frac {q (F _ {1} ^ {u} - F _ {0}) + (1 - q) (F _ {1} ^ {d} - F _ {0})}{1 + r _ {0}} = 0 \tag {A11.11}
+\frac{q (F_{1}^{u} - F_{0}) + (1 - q) (F_{1}^{d} - F_{0})}{1 + r_{0}} = 0 \tag {A11.11}
 $$
 
 Or,
 
 $$
-F _ {0} = q F _ {1} ^ {u} + (1 - q) F _ {1} ^ {d} \tag {A11.12}
+F_{0} = q F_{1}^{u} + (1 - q) F_{1}^{d} \tag {A11.12}
 $$
 
 Finally, substituting Equations (A11.9) and (A11.10) into (A11.12),
 
 $$
-F _ {0} = q ^ {2} p _ {2} ^ {u u} + 2 q (1 - q) p _ {2} ^ {u d} + (1 - q) ^ {2} p _ {2} ^ {d d} \tag {A11.13}
+F_{0} = q^{2} p_{2}^{u u} + 2 q (1 - q) p_{2}^{u d} + (1 - q)^{2} p_{2}^{d d} \tag {A11.13}
 $$
 
 Hence, in a risk-neutral tree, the futures price is the expected value of the bond price on the contract expiration date. More generally,
 
 $$
-F _ {0} = E [ p _ {n} ] \tag {A11.14}
+F_{0} = E [ p_{n} ] \tag {A11.14}
 $$
 
 This result is proved more formally in Section A16.5.
@@ -6854,25 +6854,25 @@ $$
 Applying this to two random variables from the previous section, namely,  $P_{n}$  and  $\prod_{i=0}^{n-1}(1 + r_i)$ ,
 
 $$
-\begin{array}{l} C o \nu \left(P _ {n}, \frac {1}{\prod_ {i = 0} ^ {n - 1} (1 + r _ {i})}\right) = E \left[ \frac {P _ {n}}{\prod_ {i = 0} ^ {n - 1} (1 + r _ {i})} \right] \\ - E [ P _ {n} ] E \left[ \frac {1}{\prod_ {i = 0} ^ {n - 1} (1 + r _ {i})} \right] \tag {A11.16} \\ \end{array}
+\begin{array}{l} C o \nu \left(P_{n}, \frac{1}{\prod_{i = 0}^{n - 1} (1 + r_{i})}\right) = E \left[ \frac{P_{n}}{\prod_{i = 0}^{n - 1} (1 + r_{i})} \right] \\ - E [ P_{n} ] E \left[ \frac{1}{\prod_{i = 0}^{n - 1} (1 + r_{i})} \right] \tag {A11.16} \\ \end{array}
 $$
 
 Let  $AI_{n}$  be the accrued interest on the bond as of date  $n$ . Because accrued interest is not a random variable,  $E[P_{n}] = E[p_{n}] + AI_{n}$ . Next, substitute the definitions of  $P_{0}$ ,  $d(n)$ , and  $F_{0}$  from Equations (A11.5), (A11.6), and (A11.14) into Equation (A11.16) to see that,
 
 $$
-C o v \left(P _ {n}, \frac {1}{\prod_ {i = 0} ^ {n - 1} (1 + r _ {i})}\right) = P _ {0} - \left(F _ {0} + A I _ {n}\right) d (n) \tag {A11.17}
+C o v \left(P_{n}, \frac{1}{\prod_{i = 0}^{n - 1} (1 + r_{i})}\right) = P_{0} - \left(F_{0} + A I_{n}\right) d (n) \tag {A11.17}
 $$
 
 Rearranging terms, substituting in the forward price from Equation (A11.7), and recognizing that  $P_{0}^{fwd} = p_{0}^{fwd} + AI_{n}$
 
 $$
-\begin{array}{l} F _ {0} + A I _ {n} = \frac {P _ {0}}{d (n)} - \frac {1}{d (n)} \operatorname {C o v} \left(P _ {n}, \frac {1}{\prod_ {i = 0} ^ {n - 1} \left(1 + r _ {i}\right)}\right) \\ = P _ {0} ^ {f w d} - \frac {1}{d (n)} C o v \left(P _ {n}, \frac {1}{\prod_ {i = 0} ^ {n - 1} \left(1 + r _ {i}\right)}\right) \\ F _ {0} = p _ {0} ^ {f w d} - \frac {1}{d (n)} \operatorname {C o v} \left(P _ {n}, \frac {1}{\prod_ {i = 0} ^ {n - 1} \left(1 + r _ {i}\right)}\right) \tag {A11.18} \\ \end{array}
+\begin{array}{l} F_{0} + A I_{n} = \frac{P_{0}}{d (n)} - \frac{1}{d (n)} \operatorname{Co v} \left(P_{n}, \frac{1}{\prod_{i = 0}^{n - 1} \left(1 + r_{i}\right)}\right) \\ = P_{0}^{f w d} - \frac{1}{d (n)} C o v \left(P_{n}, \frac{1}{\prod_{i = 0}^{n - 1} \left(1 + r_{i}\right)}\right) \\ F_{0} = p_{0}^{f w d} - \frac{1}{d (n)} \operatorname{Co v} \left(P_{n}, \frac{1}{\prod_{i = 0}^{n - 1} \left(1 + r_{i}\right)}\right) \tag {A11.18} \\ \end{array}
 $$
 
 Finally, because bond prices are negatively correlated with interest rates, the covariance term in Equation (A11.18) is negative and, therefore,
 
 $$
-F _ {0} <   p _ {0} ^ {f w d} \tag {A11.19}
+F_{0} <   p_{0}^{f w d} \tag {A11.19}
 $$
 
 The futures price is less than the forward price.
@@ -6900,13 +6900,13 @@ The first step in this Appendix is to show that the futures rate with respect to
 The  $\beta$ -year rate,  $t$  years forward,  $r_t^{fwd}$ , is the rate that equates the present value at time  $t$  of receiving a unit of currency at time  $t + \beta$  with the price of a  $\beta$ -year zero coupon bond,  $t$ -years forward,  $p_0^{fwd}(t)$ . Using continuously compounded rates,
 
 $$
-p _ {0} ^ {f w d} (t) = e ^ {- \beta_ {r t} f w d} \tag {A12.1}
+p_{0}^{f w d} (t) = e^{- \beta_{r t} f w d} \tag {A12.1}
 $$
 
 Furthermore, by Equation (A11.19),
 
 $$
-p _ {0} ^ {f w d} (t) = e ^ {- \beta r _ {t} f w d} > F _ {0} \tag {A12.2}
+p_{0}^{f w d} (t) = e^{- \beta r_{t} f w d} > F_{0} \tag {A12.2}
 $$
 
 where  $F_{0}$  is the futures price of that zero coupon bond.
@@ -6914,13 +6914,13 @@ where  $F_{0}$  is the futures price of that zero coupon bond.
 Let  $r_t$  be the realized  $\beta$ -year rate at time  $t$ . Then, by definition, the  $\beta$ -year zero coupon bond price at that time,  $p_t$ , is,
 
 $$
-p _ {t} = e ^ {- \beta r _ {t}} \tag {A12.3}
+p_{t} = e^{- \beta r_{t}} \tag {A12.3}
 $$
 
 and, by Equation (A11.14),
 
 $$
-F _ {0} = E \left[ p _ {t} \right] = E \left[ e ^ {- \beta r _ {t}} \right] \tag {A12.4}
+F_{0} = E \left[ p_{t} \right] = E \left[ e^{- \beta r_{t}} \right] \tag {A12.4}
 $$
 
 Because of daily settlement payments of futures contracts, and following the same argument as in Appendix A11.2, which leads to Equation (A11.14),
@@ -6928,25 +6928,25 @@ Because of daily settlement payments of futures contracts, and following the sam
 it can be shown that the futures rate,  $r_t^{fut}$ , corresponding to the  $\beta$ -year zero coupon bond rate, is simply today's expectation of that bond rate at time  $t$ ,
 
 $$
-r _ {t} ^ {f u t} = E \left[ r _ {t} \right] \tag {A12.5}
+r_{t}^{f u t} = E \left[ r_{t} \right] \tag {A12.5}
 $$
 
 By Jensen's inequality and Equation (A12.5),
 
 $$
-E \left[ e ^ {- \beta r _ {t}} \right] > e ^ {- \beta E \left[ r _ {t} \right]} = e ^ {- \beta r _ {t} ^ {\text {f u t}}} \tag {A12.6}
+E \left[ e^{- \beta r_{t}} \right] > e^{- \beta E \left[ r_{t} \right]} = e^{- \beta r_{t}^{\text{fu t}}} \tag {A12.6}
 $$
 
 Stringing together Equations (A12.2), (A12.4), and (A12.6),
 
 $$
-e ^ {- \beta r _ {t} ^ {f w d}} > F _ {0} = E \left[ e ^ {- \beta r _ {t}} \right] > e ^ {- \beta r _ {t} ^ {f u t}} \tag {A12.7}
+e^{- \beta r_{t}^{f w d}} > F_{0} = E \left[ e^{- \beta r_{t}} \right] > e^{- \beta r_{t}^{f u t}} \tag {A12.7}
 $$
 
 Finally, focusing on the leftmost and rightmost terms of Equation (A12.7),
 
 $$
-r _ {t} ^ {f u t} > r _ {t} ^ {f w d} \tag {A12.8}
+r_{t}^{f u t} > r_{t}^{f w d} \tag {A12.8}
 $$
 
 as was to be proved.
@@ -6956,27 +6956,27 @@ The next step in this appendix is to show that the futures rate with respect to 
 Let  $R(t, t + \beta)$  be the integral of the continuously compounded overnight rates from  $t$  to  $t + \beta$ , so that the average rate is  $R(t, t + \beta) / \beta$ . Once again, because of the daily settlement of futures contracts, today's futures rate on the average rate,  $A_t^{fut}$ , is today's expectation of the average at time  $t$ ,
 
 $$
-A _ {t} ^ {f u t} = E \left[ \frac {1}{\beta} R (t, t + \beta) \right] \tag {A12.9}
+A_{t}^{f u t} = E \left[ \frac{1}{\beta} R (t, t + \beta) \right] \tag {A12.9}
 $$
 
 By definition of the  $\beta$ -year term rate at time  $t$ ,  $r_t$ ,
 
 $$
-e ^ {- \beta r _ {t}} = E _ {t} [ e ^ {- R (t, t + \beta)} ] \tag {A12.10}
+e^{- \beta r_{t}} = E_{t} [ e^{- R (t, t + \beta)} ] \tag {A12.10}
 $$
 
 where  $E_{t}[\cdot]$  gives the expectation as of time  $t$ . Applying Jensen's inequality to (A12.10) and rearranging terms,
 
 $$
-e ^ {- \beta r _ {t}} > e ^ {- E _ {t} [ R (t, t + \beta) ]}
+e^{- \beta r_{t}} > e^{- E_{t} [ R (t, t + \beta) ]}
 $$
 
 $$
-r _ {t} <   \frac {1}{\beta} E _ {t} [ R (t, t + \beta) ]
+r_{t} <   \frac{1}{\beta} E_{t} [ R (t, t + \beta) ]
 $$
 
 $$
-r _ {t} ^ {f u t} <   \frac {1}{\beta} E [ R (t, t + \beta) ] = A _ {t} ^ {f u t} \tag {A12.11}
+r_{t}^{f u t} <   \frac{1}{\beta} E [ R (t, t + \beta) ] = A_{t}^{f u t} \tag {A12.11}
 $$
 
 where the third equation takes expectations of the second as of today, and the last equality follows from Equation (A12.9). Equation (A12.11) says that the futures rate on the average is greater than the futures rate on the term rates, as was to be proved.
@@ -6984,19 +6984,19 @@ where the third equation takes expectations of the second as of today, and the l
 The final step in this appendix is to show that the futures rate with respect to a compounded rate, like a three-month SOFR futures rate, is greater than the futures rate with respect to an average rate. Once again, because of daily settlement, today's futures rate on a compounded rate,  $C_t^{fut}$ , is the expectation of that compounded rate in the future. Mathematically, in a continuously compounded version of Equation (12.10) in the text,
 
 $$
-C _ {t} ^ {f u t} = \frac {1}{\beta} \left(E \left[ e ^ {R (t, t + \beta)} \right] - 1\right) \tag {A12.12}
+C_{t}^{f u t} = \frac{1}{\beta} \left(E \left[ e^{R (t, t + \beta)} \right] - 1\right) \tag {A12.12}
 $$
 
 By Jensen's inequality and the properties of the exponential function,
 
 $$
-E \left[ e ^ {R (t, t + \beta)} \right] - 1 > e ^ {E [ R (t, t + \beta) ]} - 1 > E [ R (t, t + \beta) ] \tag {A12.13}
+E \left[ e^{R (t, t + \beta)} \right] - 1 > e^{E [ R (t, t + \beta) ]} - 1 > E [ R (t, t + \beta) ] \tag {A12.13}
 $$
 
 Finally, combining Equations (A12.12), (A12.13), and the definition of the futures rate on the average in (A12.9),
 
 $$
-C _ {t} ^ {f u t} = \frac {1}{\beta} \left(E \left[ e ^ {R (t, t + \beta)} \right] - 1\right) > \frac {1}{\beta} E [ R (t, t + \beta) ] = A _ {t} ^ {f u t} \tag {A12.14}
+C_{t}^{f u t} = \frac{1}{\beta} \left(E \left[ e^{R (t, t + \beta)} \right] - 1\right) > \frac{1}{\beta} E [ R (t, t + \beta) ] = A_{t}^{f u t} \tag {A12.14}
 $$
 
 Hence, as was to be proved, the futures rate on a compounded rate is greater than the futures on an average rate.
@@ -7046,19 +7046,19 @@ Note that Equation (A13.2) is the pricing condition. Given the  $0.078\%$  swap 
 For the purposes of this section, assume for simplicity that payments are annual at times  $t = 1, \dots, T$ . For ease of exposition, say that the risk-free rate index is  $\in \mathrm{STR}$  and that the non-risk-free rate index is Euribor. Given a set of discount factors,  $d(t)$ , derived from  $\in \mathrm{STR}$  OIS; a set of Euribor swap rates,  $c(t)$ ; and  $\in \mathrm{STR}$  versus Euribor basis swap spreads,  $x(t)$ , the fair pricing conditions for the Euribor swaps, discussed in the text and the previous section are, for every  $t$ ,
 
 $$
-c (t) \sum_ {s = 1} ^ {t} d (s) + d (t) = 1 + x (t) \sum_ {s = 1} ^ {t} d (s) \tag {A13.3}
+c (t) \sum_{s = 1}^{t} d (s) + d (t) = 1 + x (t) \sum_{s = 1}^{t} d (s) \tag {A13.3}
 $$
 
 Now define a set of adjusted Euribor forward rates,  $L^{\prime}(t)$ , such that the present values of the floating legs of the Euribor swaps equal their correct values, which are given by the right-hand side of (A13.3),
 
 $$
-\sum_ {s = 1} ^ {t} L ^ {\prime} (s) d (s) + \left(1 + L ^ {\prime} (t)\right) d (t) = 1 + x (t) \sum_ {s = 1} ^ {t} d (s) \tag {A13.4}
+\sum_{s = 1}^{t} L^{\prime} (s) d (s) + \left(1 + L^{\prime} (t)\right) d (t) = 1 + x (t) \sum_{s = 1}^{t} d (s) \tag {A13.4}
 $$
 
 Given the basis swap spreads, Equation (A13.4) could be used to solve for all of the adjusted Euribor forward rates, one at a time, starting with  $t = 1$  and continuing through to  $t = T$ . These  $L^{\prime}(t)$  could then be used to price payments that depend on Euribor. However, noticing that the right-hand sides of Equations (A13.3) and (A13.4) are the same, these two equations can be combined,
 
 $$
-c (t) \sum_ {s = 1} ^ {t} d (s) + d (t) = \sum_ {s = 1} ^ {t} L ^ {\prime} (s) d (s) + (1 + L ^ {\prime} (t)) d (t) \tag {A13.5}
+c (t) \sum_{s = 1}^{t} d (s) + d (t) = \sum_{s = 1}^{t} L^{\prime} (s) d (s) + (1 + L^{\prime} (t)) d (t) \tag {A13.5}
 $$
 
 But given all of the swap rates,  $c(t)$ , Equation (A13.5) can be used iteratively to solve for the  $L^{\prime}(t)$ . In other words, so long as the Euribor swaps are priced fairly relative to €STR OIS, there is no need to know the basis swap spreads.
@@ -7078,17 +7078,17 @@ C S (t + \Delta t) = C S (t) \times (1 - \lambda \Delta t) \tag {A14.1}
 $$
 
 $$
-\lambda C S (t) = - \frac {C S (t + \Delta t) - C S (t)}{\Delta t} \tag {A14.2}
+\lambda C S (t) = - \frac{C S (t + \Delta t) - C S (t)}{\Delta t} \tag {A14.2}
 $$
 
 Taking the limit of the right-hand side of (A14.2) as  $\Delta t$  approaches zero is the derivative of  $CS(t)$ , denoted  $CS'(t)$ . Therefore,
 
 $$
-\lambda C S (t) = - C S ^ {\prime} (t) \tag {A14.3}
+\lambda C S (t) = - C S^{\prime} (t) \tag {A14.3}
 $$
 
 $$
-C S (t) = e ^ {- \lambda t} \tag {A14.4}
+C S (t) = e^{- \lambda t} \tag {A14.4}
 $$
 
 where Equation (A14.4) is the solution to Equation (A14.3). The cumulative default probability is just one minus the cumulative survival probability, which gives  $CD(t) = 1 - e^{-\lambda t}$ .
@@ -7109,13 +7109,13 @@ UF: upfront amount
 Then, following the logic described in the text, with the detail that premium payments follow the actual/360 day-count convention, the expected discounted value of the fee leg,  $V^{fee}$ , is,
 
 $$
-\begin{array}{l} V ^ {f e e} = s ^ {C D S} \sum_ {i = 1} ^ {n T} \frac {t _ {i} - t _ {i - 1}}{3 6 0} C S (t _ {i}) d (t _ {i}) \\ + \frac {1}{2} s ^ {C D S} \sum_ {i = 1} ^ {n T} \frac {t _ {i} - t _ {i - 1}}{3 6 0} [ C S (t _ {i - 1}) - C S (t _ {i}) ] d (t _ {i}) \tag {A14.5} \\ \end{array}
+\begin{array}{l} V^{f e e} = s^{C D S} \sum_{i = 1}^{n T} \frac{t_{i} - t_{i - 1}}{3 6 0} C S (t_{i}) d (t_{i}) \\ + \frac{1}{2} s^{C D S} \sum_{i = 1}^{n T} \frac{t_{i} - t_{i - 1}}{3 6 0} [ C S (t_{i - 1}) - C S (t_{i}) ] d (t_{i}) \tag {A14.5} \\ \end{array}
 $$
 
 The value of the contingent leg,  $V^{\text{cont}}$ , again following the logic described in the text, is,
 
 $$
-V ^ {\text {C o n t}} = (1 - R) \sum_ {i = 1} ^ {n T} [ C S (t _ {i - 1}) - C S (t _ {i}) ] d (t _ {i}) \tag {A14.6}
+V^{\text{Co nt}} = (1 - R) \sum_{i = 1}^{n T} [ C S (t_{i - 1}) - C S (t_{i}) ] d (t_{i}) \tag {A14.6}
 $$
 
 A CDS with a premium of  $s^{CDS}$  is fair if the hazard rate is such that the values of the fee and contingent legs, as given in Equations (A14.5) and (A14.6), are equal.
@@ -7123,7 +7123,7 @@ A CDS with a premium of  $s^{CDS}$  is fair if the hazard rate is such that the 
 The upfront amount, following the logic of the text, equals the expected discount value of paying the CDS coupon as a premium payment rather than the CDS spread. Essentially, the upfront amount is computed like the fee leg, with  $-(c^{CDS} - s^{CDS})$  or  $(s^{CDS} - c^{CDS})$  replacing  $s^{CDS}$ . Hence,
 
 $$
-\begin{array}{l} U F = \left(s ^ {C D S} - c ^ {C D S}\right) \sum_ {i = 1} ^ {n T} \frac {t _ {i} - t _ {i - 1}}{3 6 0} C S (t _ {i}) d (t _ {i}) \\ + \frac {1}{2} \left(s ^ {C D S} - c ^ {C D S}\right) \sum_ {i = 1} ^ {n T} \frac {t _ {i} - t _ {i - 1}}{3 6 0} \left[ C S \left(t _ {i - 1}\right) - C S \left(t _ {i}\right) \right] d \left(t _ {i}\right) \tag {A14.7} \\ \end{array}
+\begin{array}{l} U F = \left(s^{C D S} - c^{C D S}\right) \sum_{i = 1}^{n T} \frac{t_{i} - t_{i - 1}}{3 6 0} C S (t_{i}) d (t_{i}) \\ + \frac{1}{2} \left(s^{C D S} - c^{C D S}\right) \sum_{i = 1}^{n T} \frac{t_{i} - t_{i - 1}}{3 6 0} \left[ C S \left(t_{i - 1}\right) - C S \left(t_{i}\right) \right] d \left(t_{i}\right) \tag {A14.7} \\ \end{array}
 $$
 
 # A14.3 AN APPROXIMATION FOR CDS SPREADS
@@ -7131,33 +7131,33 @@ $$
 For the purposes of this section, assume that premium payments of the CDS are all  $\Delta t$  years apart, that is,  $t_i - t_{i-1} = \Delta t$  for all  $t_i$ . Substituting that relationship into Equations (A14.5) and (A14.6) and setting the two equations equal, gives the following,
 
 $$
-\begin{array}{l} s ^ {C D S} \Delta t \sum_ {i = 1} ^ {n T} C S (t _ {i}) d (t _ {i}) + \frac {1}{2} s ^ {C D S} \Delta t \sum_ {i = 1} ^ {n T} [ C S (t _ {i - 1}) - C S (t _ {i}) ] d (t _ {i}) \\ = (1 - R) \sum_ {i = 1} ^ {n T} \left[ C S \left(t _ {i - 1}\right) - C S \left(t _ {i}\right) \right] d \left(t _ {i}\right) \tag {A14.8} \\ \end{array}
+\begin{array}{l} s^{C D S} \Delta t \sum_{i = 1}^{n T} C S (t_{i}) d (t_{i}) + \frac{1}{2} s^{C D S} \Delta t \sum_{i = 1}^{n T} [ C S (t_{i - 1}) - C S (t_{i}) ] d (t_{i}) \\ = (1 - R) \sum_{i = 1}^{n T} \left[ C S \left(t_{i - 1}\right) - C S \left(t_{i}\right) \right] d \left(t_{i}\right) \tag {A14.8} \\ \end{array}
 $$
 
 Substituting in from Equation (A14.4), each term of (A14.8) can be simplified as follows,
 
 $$
-\begin{array}{l} 0 = s ^ {C D S} \Delta t e ^ {- \lambda t _ {i}} \\ + \frac {1}{2} s ^ {C D S} \Delta t \left[ e ^ {- \lambda t _ {i - 1}} - e ^ {- \lambda t _ {i}} \right] \\ - (1 - R) \left[ e ^ {- \lambda t _ {i - 1}} - e ^ {- \lambda t _ {i}} \right] \tag {A14.9} \\ \end{array}
+\begin{array}{l} 0 = s^{C D S} \Delta t e^{- \lambda t_{i}} \\ + \frac{1}{2} s^{C D S} \Delta t \left[ e^{- \lambda t_{i - 1}} - e^{- \lambda t_{i}} \right] \\ - (1 - R) \left[ e^{- \lambda t_{i - 1}} - e^{- \lambda t_{i}} \right] \tag {A14.9} \\ \end{array}
 $$
 
 Furthermore, because  $t_i - t_{i-1} = \Delta t$  for all  $t_i$ , it is easy to show that, if Equation (A14.9) holds for  $t_i$ , then it also holds for  $t_{i+1}$ . Hence, in this special case,  $s^{CDS}$  can be solved from any one date. Proceeding then from Equation (A14.9), multiply through by  $e^{-\lambda t_i}$  and simplify to see that,
 
 $$
-s ^ {C D S} \Delta t \left[ 1 + \frac {1}{2} \left(e ^ {\lambda \Delta t} - 1\right) \right] = (1 - R) \left[ e ^ {\lambda \Delta t} - 1 \right] \tag {A14.10}
+s^{C D S} \Delta t \left[ 1 + \frac{1}{2} \left(e^{\lambda \Delta t} - 1\right) \right] = (1 - R) \left[ e^{\lambda \Delta t} - 1 \right] \tag {A14.10}
 $$
 
 $$
-s ^ {C D S} \Delta t \frac {[ 1 + e ^ {\lambda \Delta t} ]}{2} = (1 - R) [ e ^ {\lambda \Delta t} - 1 ] \tag {A14.11}
+s^{C D S} \Delta t \frac{[ 1 + e^{\lambda \Delta t} ]}{2} = (1 - R) [ e^{\lambda \Delta t} - 1 ] \tag {A14.11}
 $$
 
 $$
-s ^ {C D S} = (1 - R) \left[ \frac {2}{\Delta t} \frac {e ^ {\lambda \Delta t} - 1}{e ^ {\lambda \Delta t} + 1} \right] \tag {A14.12}
+s^{C D S} = (1 - R) \left[ \frac{2}{\Delta t} \frac{e^{\lambda \Delta t} - 1}{e^{\lambda \Delta t} + 1} \right] \tag {A14.12}
 $$
 
 Finally, take the limit as  $\Delta t$  approaches zero of the terms in the hard bracket on the right-hand side of (A14.12) to obtain,
 
 $$
-s ^ {C D S} \approx \lambda (1 - R) \tag {A14.13}
+s^{C D S} \approx \lambda (1 - R) \tag {A14.13}
 $$
 
 # A14.4 CDS-EQUIVALENT BOND SPREADS
@@ -7167,7 +7167,7 @@ Following the logic of the text and this appendix, the expected discounted value
 can be computed along the lines of the contingent leg, except that the payment from the bond upon default is  $R$  times the principal amount, while the payment due to the buyer of protection upon default is  $1 - R$  times the principal amount. Therefore, using Equations (A14.5) and (A14.6) – simplified here to assume that coupon payments are exactly one-half years apart – the price of a bond,  $P$ , with a coupon rate,  $c$ , given a hazard rate, is given by,
 
 $$
-\begin{array}{l} P = \frac {c}{2} \sum_ {i = 1} ^ {n T} C S (t _ {i}) d (t _ {i}) \\ + \frac {c}{2} \sum_ {i = 1} ^ {n T} [ C S (t _ {i - 1}) - C S (t _ {i}) ] d (t _ {i}) ] \\ + R \sum_ {i = 1} ^ {n T} \left[ \mathrm {C S} \left(t _ {i - 1}\right) - \mathrm {C S} \left(t _ {i}\right) \right] d \left(t _ {i}\right) \tag {A14.14} \\ \end{array}
+\begin{array}{l} P = \frac{c}{2} \sum_{i = 1}^{n T} C S (t_{i}) d (t_{i}) \\ + \frac{c}{2} \sum_{i = 1}^{n T} [ C S (t_{i - 1}) - C S (t_{i}) ] d (t_{i}) ] \\ + R \sum_{i = 1}^{n T} \left[ \mathrm{CS} \left(t_{i - 1}\right) - \mathrm{CS} \left(t_{i}\right) \right] d \left(t_{i}\right) \tag {A14.14} \\ \end{array}
 $$
 
 To solve for the CDS-equivalent bond spread, find the hazard rate that solves Equation (A14.14). Then, using that hazard rate, find the  $s^{CDS}$  that sets the fee leg in Equation (A14.5) equal to the contingent leg in Equation (A14.6).
@@ -7177,7 +7177,7 @@ To solve for the CDS-equivalent bond spread, find the hazard rate that solves Eq
 From the definition of bond spread, if the bond does not default (and rates do not change), then the return on the bond equals the risk-free or benchmark rate,  $r$ , plus the spread. If the bond defaults and recovers  $R^{m}$  of its market price, then the return over the moment of default is  $(R^{m}P - P) / P$  or  $(R^{m} - 1)$ . Therefore, over a short time interval  $dt$  years, over which the probability of no default and default are  $1 - \lambda dt$  and  $\lambda dt$ , respectively, the expected return on the bond is,
 
 $$
-\begin{array}{l} (1 - \lambda d t) \times (r + s) d t + \lambda d t \times \left(R ^ {m} - 1\right) \\ \approx (r + s) d t + \lambda d t \left(R ^ {m} - 1\right) \tag {A14.15} \\ \end{array}
+\begin{array}{l} (1 - \lambda d t) \times (r + s) d t + \lambda d t \times \left(R^{m} - 1\right) \\ \approx (r + s) d t + \lambda d t \left(R^{m} - 1\right) \tag {A14.15} \\ \end{array}
 $$
 
 where the approximation follows from ignoring the very small terms, that is, those that are multiplied by  $(dt)^2$ .
@@ -7185,7 +7185,7 @@ where the approximation follows from ignoring the very small terms, that is, tho
 Assuming that investors are risk neutral or that the hazard rate is a risk-neutral pricing rate, investors are indifferent between buying a corporate bond and buying a bond without default risk if the expected return of the former, given in Equation (A14.15), is equal to the risk-free rate. Mathematically, then,
 
 $$
-\begin{array}{l} r d t = (r + s) d t + \lambda d t \left(R ^ {m} - 1\right) \\ s = \lambda (1 - R ^ {m}) \tag {A14.16} \\ \end{array}
+\begin{array}{l} r d t = (r + s) d t + \lambda d t \left(R^{m} - 1\right) \\ s = \lambda (1 - R^{m}) \tag {A14.16} \\ \end{array}
 $$
 
 # Mortgages and Mortgage-Backed Securities
@@ -7195,41 +7195,41 @@ $$
 This section shows that, under the principal amortization schedule described in the text, the balance outstanding at any time equals the present value of the remaining payments at the original mortgage rate. Let  $N$  be the term of the mortgage, in months; let  $r$  be the mortgage rate; let  $X$  be the monthly payment, and let  $B(i)$  be the balance outstanding at the end of month  $i$ ,  $i = 0,1,\dots N$ . By definition, as discussed in the text,
 
 $$
-B (0) = X \frac {1 2}{r} \left[ 1 - \left(1 + \frac {r}{1 2}\right) ^ {- N} \right] \tag {A15.1}
+B (0) = X \frac{1 2}{r} \left[ 1 - \left(1 + \frac{r}{1 2}\right)^{- N} \right] \tag {A15.1}
 $$
 
 If the balance outstanding at the end of month  $i$  does equal the present value of the remaining payments at the rate  $r$ , then,
 
 $$
-B (i) = X \frac {1 2}{r} \left[ 1 - \left(1 + \frac {r}{1 2}\right) ^ {i - N} \right] \tag {A15.2}
+B (i) = X \frac{1 2}{r} \left[ 1 - \left(1 + \frac{r}{1 2}\right)^{i - N} \right] \tag {A15.2}
 $$
 
 $$
-B (i + 1) = X \frac {1 2}{r} \left[ 1 - \left(1 + \frac {r}{1 2}\right) ^ {i + 1 - N} \right] \tag {A15.3}
+B (i + 1) = X \frac{1 2}{r} \left[ 1 - \left(1 + \frac{r}{1 2}\right)^{i + 1 - N} \right] \tag {A15.3}
 $$
 
 According to the logic of the amortization table, the interest component of the payment for month  $i + 1$  is  $(r / 12)B(i)$ , and the principal component is  $X - (r / 12)B(i)$ . Because  $B(0)$  is, by definition, the present value of the remaining payments at the start of the mortgage, this section needs to prove that, for any  $i > 0$ ,
 
 $$
-B (i) - B (i + 1) = X - \frac {r}{1 2} B (i) \tag {A15.4}
+B (i) - B (i + 1) = X - \frac{r}{1 2} B (i) \tag {A15.4}
 $$
 
 To prove this, rearrange terms and then substitute for  $B(i)$  and  $B(i + 1)$  from Equations (A15.2) and (A15.3), respectively,
 
 $$
-\left(1 + \frac {r}{1 2}\right) B (i) - B (i + 1) = X \tag {A15.5}
+\left(1 + \frac{r}{1 2}\right) B (i) - B (i + 1) = X \tag {A15.5}
 $$
 
 $$
-X \frac {1 2}{r} \left[ 1 + \frac {r}{1 2} - \left(1 + \frac {r}{1 2}\right) ^ {i + 1 - N} - 1 + \left(1 + \frac {r}{1 2}\right) ^ {i + 1 - N} \right] \stackrel {?} {=} X \tag {A15.6}
+X \frac{1 2}{r} \left[ 1 + \frac{r}{1 2} - \left(1 + \frac{r}{1 2}\right)^{i + 1 - N} - 1 + \left(1 + \frac{r}{1 2}\right)^{i + 1 - N} \right] \stackrel {?} {=} X \tag {A15.6}
 $$
 
 $$
-X \frac {1 2}{r} \left[ \frac {r}{1 2} \right] \stackrel {?} {=} X \tag {A15.7}
+X \frac{1 2}{r} \left[ \frac{r}{1 2} \right] \stackrel {?} {=} X \tag {A15.7}
 $$
 
 $$
-X = X \quad (\mathrm {A} 1 5. 8)
+X = X \quad (\mathrm{A} 1 5. 8)
 $$
 
 which is clearly true for any parameters of the problem.
@@ -7245,7 +7245,7 @@ A popular solution for pricing path-dependent claims is Monte Carlo simulation. 
 To connect Monte Carlo simulation with the pricing approach used elsewhere in the book, recall Equation (A11.5), reproduced here for convenience,
 
 $$
-P _ {0} = E \left[ \frac {P _ {n}}{\prod_ {i = 0} ^ {n - 1} \left(1 + r _ {i}\right)} \right] \tag {A15.9}
+P_{0} = E \left[ \frac{P_{n}}{\prod_{i = 0}^{n - 1} \left(1 + r_{i}\right)} \right] \tag {A15.9}
 $$
 
 where  $r_i$  is the short-term rate in period  $i$ ,  $P_n$  is the value of a claim in  $n$  periods, and  $P_0$  is the price of the claim today. In light of the discussion in this section, the term inside the hard brackets is analogous to the discounted value of a security along one path. The expectation is analogous to the average of those discounted values across paths.
@@ -7269,7 +7269,7 @@ The justification for applying BSM in each of the cases of the text takes the fo
 1. Given the functional form of a probability distribution (e.g., normal, lognormal), there exist parameters of that distribution such that  $V_{0}$ , the arbitrage-free price of any asset today, is given by,
 
 $$
-\frac {V _ {0}}{N _ {0}} = E _ {0} \left[ \frac {V _ {t}}{N _ {t}} \right] \tag {A16.1}
+\frac{V_{0}}{N_{0}} = E_{0} \left[ \frac{V_{t}}{N_{t}} \right] \tag {A16.1}
 $$
 
 where  $N_{t}$  is the price at time  $t$  of an asset chosen as the numeraire;  $V_{t}$  is value at time  $t$  of an asset being priced today, including reinvested cash flows; and  $E_{t}[\cdot]$  gives expectations as of time  $t$  under the appropriately parameterized probability distribution. Equation (A16.1) is known as the martingale property of asset prices. This claim is proved in a special case in Section A16.2 but used more generally here.
@@ -7277,29 +7277,29 @@ where  $N_{t}$  is the price at time  $t$  of an asset chosen as the numeraire; 
 2. Say that the rate or security price underlying an option at time  $t$  is  $S_{t}$ . It follows from the previous point that the value of a call option with strike  $K$  and time to expiry  $T$  is,
 
 $$
-V _ {0} ^ {C a l l} = N _ {0} E _ {0} \left[ \frac {(S _ {T} - K) ^ {+}}{N _ {T}} \right] \tag {A16.2}
+V_{0}^{C a l l} = N_{0} E_{0} \left[ \frac{(S_{T} - K)^{+}}{N_{T}} \right] \tag {A16.2}
 $$
 
 while the value of a put is,
 
 $$
-V _ {0} ^ {P u t} = N _ {0} E _ {0} \left[ \frac {(K - S _ {T}) ^ {+}}{N _ {T}} \right] \tag {A16.3}
+V_{0}^{P u t} = N_{0} E_{0} \left[ \frac{(K - S_{T})^{+}}{N_{T}} \right] \tag {A16.3}
 $$
 
 3. In the contexts of the text, it is possible to choose the numeraire such that,
 
 $$
-S _ {0} = E _ {0} \left[ S _ {T} \right] \tag {A16.4}
+S_{0} = E_{0} \left[ S_{T} \right] \tag {A16.4}
 $$
 
 and such that Equations (A16.2) and (A16.3) can be written as, respectively,
 
 $$
-V _ {0} ^ {\text {C a l l}} = b _ {0} E _ {0} [ (S _ {T} - K) ^ {+} ] \tag {A16.5}
+V_{0}^{\text{Ca ll}} = b_{0} E_{0} [ (S_{T} - K)^{+} ] \tag {A16.5}
 $$
 
 $$
-V _ {0} ^ {\text {P u t}} = h _ {0} E _ {0} \left[ (K - S _ {T}) ^ {+} \right] \tag {A16.6}
+V_{0}^{\text{Pu t}} = h_{0} E_{0} \left[ (K - S_{T})^{+} \right] \tag {A16.6}
 $$
 
 for some  $b_{0}$  that is known as of time 0. This is proven in Section A16.3.
@@ -7307,23 +7307,23 @@ for some  $b_{0}$  that is known as of time 0. This is proven in Section A16.3.
 4. If  $S_{t}$  has a normal distribution with volatility parameter  $\sigma$ , then Section A16.4 shows that (A16.4) through (A16.6) become the normal BSM-style formulae,
 
 $$
-V _ {0} ^ {\text {C a l l}} = h _ {0} \xi^ {N} (S _ {0}, T, K, \sigma) \tag {A16.7}
+V_{0}^{\text{Ca ll}} = h_{0} \xi^{N} (S_{0}, T, K, \sigma) \tag {A16.7}
 $$
 
 $$
-V _ {0} ^ {P u t} = h _ {0} \pi^ {N} \left(S _ {0}, T, K, \sigma\right) \tag {A16.8}
+V_{0}^{P u t} = h_{0} \pi^{N} \left(S_{0}, T, K, \sigma\right) \tag {A16.8}
 $$
 
 for the functions  $\xi^{N}(\cdot)$  and  $\pi^N (\cdot)$  defined in that section. On the other hand, if  $S_{t}$  has a lognormal distribution with volatility parameter  $\sigma$ , Section A16.4 shows that (A16.4) through (A16.6) become the lognormal BSM-style formulae,
 
 $$
-V _ {0} ^ {\text {C a l l}} = h _ {0} \xi^ {L N} \left(S _ {0}, T, K, \sigma\right) \tag {A16.9}
+V_{0}^{\text{Ca ll}} = h_{0} \xi^{L N} \left(S_{0}, T, K, \sigma\right) \tag {A16.9}
 $$
 
 and
 
 $$
-V _ {0} ^ {P u t} = b _ {0} \pi^ {L N} (S _ {0}, T, K, \sigma) \tag {A16.10}
+V_{0}^{P u t} = b_{0} \pi^{L N} (S_{0}, T, K, \sigma) \tag {A16.10}
 $$
 
 for the functions  $\xi^{LN}(\cdot)$  and  $\pi^{LN}(\cdot)$  defined in that section.
@@ -7351,41 +7351,41 @@ The starting point is state 0 of date 0, after which the economy moves to either
 In this framework, any asset can be priced by arbitrage relative to the other two assets. The method is just as in Chapter 7. To price asset C by arbitrage, construct its replicating portfolio, in particular, a portfolio with  $\alpha$  of asset A and  $\beta$  of asset B such that,
 
 $$
-C _ {1} ^ {0} = \alpha A _ {1} ^ {0} + \beta B _ {1} ^ {0} \tag {A16.11}
+C_{1}^{0} = \alpha A_{1}^{0} + \beta B_{1}^{0} \tag {A16.11}
 $$
 
 $$
-C _ {1} ^ {1} = \alpha A _ {1} ^ {1} + \beta B _ {1} ^ {1} \tag {A16.12}
+C_{1}^{1} = \alpha A_{1}^{1} + \beta B_{1}^{1} \tag {A16.12}
 $$
 
 Then, to rule out risk-free arbitrage opportunities, it must be the case that,
 
 $$
-C _ {0} = \alpha A _ {0} + \beta B _ {0} \tag {A16.13}
+C_{0} = \alpha A_{0} + \beta B_{0} \tag {A16.13}
 $$
 
 Now let asset A be the numeraire and rewrite equations (A16.11) through (A16.13) in terms of the normalized gains processes of assets B and C. To do this, simply divide each of the equations by the corresponding value of the numeraire asset A, that is, divide (A16.11) by  $A_1^0$ , (A16.12) by  $A_1^1$ , and (A16.13) by  $A_0$ . Furthermore, denote the normalized gains process of the assets by  $\overline{B}$  and  $\overline{C}$ . Then, equations (A16.11) through (A16.13) become,
 
 $$
-\overline {{C}} _ {1} ^ {0} = \alpha + \beta \overline {{B}} _ {1} ^ {0} \tag {A16.14}
+\overline {{C}}_{1}^{0} = \alpha + \beta \overline {{B}}_{1}^{0} \tag {A16.14}
 $$
 
 $$
-\bar {C} _ {1} ^ {1} = \alpha + \beta \bar {B} _ {1} ^ {1} \tag {A16.15}
+\bar {C}_{1}^{1} = \alpha + \beta \bar {B}_{1}^{1} \tag {A16.15}
 $$
 
 $$
-\bar {C} _ {0} = \alpha + \beta \bar {B} _ {0} \tag {A16.16}
+\bar {C}_{0} = \alpha + \beta \bar {B}_{0} \tag {A16.16}
 $$
 
 Furthermore, solving (A16.14) and (A16.15) for  $\alpha$  and  $\beta$ ,
 
 $$
-\alpha = \frac {\overline {{B}} _ {1} ^ {1} \overline {{C}} _ {1} ^ {0} - \overline {{B}} _ {1} ^ {0} \overline {{C}} _ {1} ^ {1}}{\overline {{B}} _ {1} ^ {1} - \overline {{B}} _ {1} ^ {0}} \tag {A16.17}
+\alpha = \frac{\overline {{B}}_{1}^{1} \overline {{C}}_{1}^{0} - \overline {{B}}_{1}^{0} \overline {{C}}_{1}^{1}}{\overline {{B}}_{1}^{1} - \overline {{B}}_{1}^{0}} \tag {A16.17}
 $$
 
 $$
-\beta = \frac {\overline {{C}} _ {1} ^ {1} - \overline {{C}} _ {1} ^ {0}}{\overline {{B}} _ {1} ^ {1} - \overline {{B}} _ {1} ^ {0}} \tag {A16.18}
+\beta = \frac{\overline {{C}}_{1}^{1} - \overline {{C}}_{1}^{0}}{\overline {{B}}_{1}^{1} - \overline {{B}}_{1}^{0}} \tag {A16.18}
 $$
 
 In the framework just described, it is now shown that there exists a pricing measure such that the expected normalized gains process of each
@@ -7393,23 +7393,23 @@ In the framework just described, it is now shown that there exists a pricing mea
 security is a martingale. More specifically, there is a probability  $p$  of moving to state 1 of date 1 (and  $1 - p$  of moving to state 0 of date 1) such that the expected value of the normalized gain of each security on date 1 equals its normalized gain on date 0. Mathematically, it has to be shown that there is a  $p$  such that,
 
 $$
-\overline {{C}} _ {0} = p \overline {{C}} _ {1} ^ {1} + (1 - p) \overline {{C}} _ {1} ^ {0} \tag {A16.19}
+\overline {{C}}_{0} = p \overline {{C}}_{1}^{1} + (1 - p) \overline {{C}}_{1}^{0} \tag {A16.19}
 $$
 
 $$
-\bar {B} _ {0} = p \bar {B} _ {1} ^ {1} + (1 - p) \bar {B} _ {1} ^ {0} \tag {A16.20}
+\bar {B}_{0} = p \bar {B}_{1}^{1} + (1 - p) \bar {B}_{1}^{0} \tag {A16.20}
 $$
 
 Solving (A16.20) for  $p$  gives,
 
 $$
-p = \frac {\bar {B} _ {0} - \bar {B} _ {1} ^ {0}}{\bar {B} _ {1} ^ {1} - \bar {B} _ {1} ^ {0}} \tag {A16.21}
+p = \frac{\bar {B}_{0} - \bar {B}_{1}^{0}}{\bar {B}_{1}^{1} - \bar {B}_{1}^{0}} \tag {A16.21}
 $$
 
 But this value of  $p$  also solves (A16.19). To see this, start by substituting  $p$  from (A16.21) into the right-hand side of (A16.19),
 
 $$
-\begin{array}{l} p \bar {C} _ {1} ^ {1} + (1 - p) \bar {C} _ {1} ^ {0} = \frac {\bar {B} _ {0} - \bar {B} _ {1} ^ {0}}{\bar {B} _ {1} ^ {1} - \bar {B} _ {1} ^ {0}} \bar {C} _ {1} ^ {1} - \frac {\bar {B} _ {0} - \bar {B} _ {1} ^ {1}}{\bar {B} _ {1} ^ {1} - \bar {B} _ {1} ^ {0}} \bar {C} _ {1} ^ {0} (A16.22) \\ = \bar {B} _ {0} \frac {\bar {C} _ {1} ^ {1} - \bar {C} _ {1} ^ {0}}{\bar {B} _ {1} ^ {1} - \bar {B} _ {1} ^ {0}} + \frac {\bar {B} _ {1} ^ {1} \bar {C} _ {1} ^ {0} - \bar {B} _ {1} ^ {0} \bar {C} _ {1} ^ {1}}{\bar {B} _ {1} ^ {1} - \bar {B} _ {1} ^ {0}} (A16.23) \\ = \bar {B} _ {0} \beta + \alpha (A16.24) \\ = \overline {{C}} _ {0} (A16.25) \\ \end{array}
+\begin{array}{l} p \bar {C}_{1}^{1} + (1 - p) \bar {C}_{1}^{0} = \frac{\bar {B}_{0} - \bar {B}_{1}^{0}}{\bar {B}_{1}^{1} - \bar {B}_{1}^{0}} \bar {C}_{1}^{1} - \frac{\bar {B}_{0} - \bar {B}_{1}^{1}}{\bar {B}_{1}^{1} - \bar {B}_{1}^{0}} \bar {C}_{1}^{0} (A16.22) \\ = \bar {B}_{0} \frac{\bar {C}_{1}^{1} - \bar {C}_{1}^{0}}{\bar {B}_{1}^{1} - \bar {B}_{1}^{0}} + \frac{\bar {B}_{1}^{1} \bar {C}_{1}^{0} - \bar {B}_{1}^{0} \bar {C}_{1}^{1}}{\bar {B}_{1}^{1} - \bar {B}_{1}^{0}} (A16.23) \\ = \bar {B}_{0} \beta + \alpha (A16.24) \\ = \overline {{C}}_{0} (A16.25) \\ \end{array}
 $$
 
 Equation (A16.23) just rearranges the terms of (A16.22); combining (A16.23) with (A16.17) and (A16.18) gives (A16.24); and (A16.24) with (A16.16) gives (A16.25). Hence, as was to be shown, there is a pricing measure, in this case the probability  $p$ , such that the normalized gains processes of B and C are martingales. And, of course, since nothing distinguishes A from the other assets, a probability with the same properties could have been found had B or C been chosen as the numeraire instead.
@@ -7433,37 +7433,37 @@ Date 2:  $\frac{B_2 + c(1 + r_2) + c}{d_2(2)} = B_2 + c(1 + r_2) + c$
 Therefore, the martingale property for the bond says that,
 
 $$
-\frac {B _ {0}}{d _ {0} (2)} = E _ {0} \left[ \frac {B _ {2} + c \left(1 + r _ {2}\right) + c}{d _ {2} (2)} \right] \tag {A16.26}
+\frac{B_{0}}{d_{0} (2)} = E_{0} \left[ \frac{B_{2} + c \left(1 + r_{2}\right) + c}{d_{2} (2)} \right] \tag {A16.26}
 $$
 
 $$
-B _ {0} (1 + r _ {1}) (1 + f) = E _ {0} [ B _ {2} + c (1 + r _ {2}) + c ]
+B_{0} (1 + r_{1}) (1 + f) = E_{0} [ B_{2} + c (1 + r_{2}) + c ]
 $$
 
 The term  $c(1 + r_2)$  in the expectation on the right-hand side of (A16.26) requires some attention, because  $r_2$  is not known as of date 0. The date-0 value of a payment of  $c(1 + r_2)$  on date 2 is, however, by the definition of forward rates,
 
 $$
-\frac {c (1 + f)}{(1 + r _ {1}) (1 + f)} = \frac {c}{1 + r _ {1}} \tag {A16.27}
+\frac{c (1 + f)}{(1 + r_{1}) (1 + f)} = \frac{c}{1 + r_{1}} \tag {A16.27}
 $$
 
 So, applying the martingale property under the numeraire to a payment of  $c(1 + r_2)$  on date 2 requires that,
 
 $$
-\frac {\frac {c}{1 + r _ {1}}}{d _ {0} (2)} = E _ {0} \left[ \frac {c \left(1 + r _ {2}\right)}{d _ {2} (2)} \right] \tag {A16.28}
+\frac{\frac{c}{1 + r_{1}}}{d_{0} (2)} = E_{0} \left[ \frac{c \left(1 + r_{2}\right)}{d_{2} (2)} \right] \tag {A16.28}
 $$
 
 $$
-c (1 + f) = E _ {0} [ c (1 + r _ {2}) ]
+c (1 + f) = E_{0} [ c (1 + r_{2}) ]
 $$
 
 With this result, the discussion returns to the martingale property of the bond in (A16.26). Substituting (A16.28) into (A16.26),
 
 $$
-B _ {0} (1 + r _ {1}) (1 + f) - c (1 + f) - c = E _ {0} [ B _ {2} ]
+B_{0} (1 + r_{1}) (1 + f) - c (1 + f) - c = E_{0} [ B_{2} ]
 $$
 
 $$
-\begin{array}{l} \left[ B _ {0} - \frac {c}{1 + r _ {1}} - \frac {c}{(1 + r _ {1}) (1 + f)} \right] (1 + r _ {1}) (1 + f) = E _ {0} [ B _ {2} ] \tag {A16.29} \\ B _ {0} (2) = E _ {0} [ B _ {2} ] \\ \end{array}
+\begin{array}{l} \left[ B_{0} - \frac{c}{1 + r_{1}} - \frac{c}{(1 + r_{1}) (1 + f)} \right] (1 + r_{1}) (1 + f) = E_{0} [ B_{2} ] \tag {A16.29} \\ B_{0} (2) = E_{0} [ B_{2} ] \\ \end{array}
 $$
 
 The left-hand side of the second line of (A16.29) is the date 0 forward price of the bond for delivery on date 2. The third line, then, simply denotes this forward price by  $B_{0}(2)$ . Hence, taking the zero coupon bond of maturity  $T$  as a numeraire, the forward price of a bond for delivery on date  $T$  is a martingale.
@@ -7471,13 +7471,13 @@ The left-hand side of the second line of (A16.29) is the date 0 forward price of
 Turning now to the price of an option on the bond, consider a call with payoff  $(B_T - K)^+$ . Applying the martingale property to the option price and assuming that the forward bond price is lognormal with volatility parameter  $\sigma$ , the call option is priced as,
 
 $$
-\begin{array}{l} \frac {V _ {0} ^ {\text {B o n d C a l l}}}{d _ {0} (T)} = E _ {0} \left[ \frac {(B _ {T} - K) ^ {+}}{d _ {T} (T)} \right] (A16.30) \\ = E _ {0} \left[ \left(B _ {T} - K\right) ^ {+} \right] (A16.31) \\ V _ {0} ^ {B o n d C a l l} = d _ {0} (T) \xi^ {L N} \left(B _ {0} (T), T, K, \sigma\right) (A16.32) \\ \end{array}
+\begin{array}{l} \frac{V_{0}^{\text{Bo nd Ca ll}}}{d_{0} (T)} = E_{0} \left[ \frac{(B_{T} - K)^{+}}{d_{T} (T)} \right] (A16.30) \\ = E_{0} \left[ \left(B_{T} - K\right)^{+} \right] (A16.31) \\ V_{0}^{B o n d C a l l} = d_{0} (T) \xi^{L N} \left(B_{0} (T), T, K, \sigma\right) (A16.32) \\ \end{array}
 $$
 
 An analogous argument for a put shows that,
 
 $$
-V _ {0} ^ {\text {B o n d P u t}} = d _ {0} (T) \pi^ {L N} \left(B _ {0} (T), T, K, \sigma\right) \tag {A16.33}
+V_{0}^{\text{Bo nd Pu t}} = d_{0} (T) \pi^{L N} \left(B_{0} (T), T, K, \sigma\right) \tag {A16.33}
 $$
 
 # A16.3.2 Euribor Futures Options
@@ -7485,7 +7485,7 @@ $$
 The terminal payoff of a Euribor futures call option with strike  $K$  and expiration time  $T$  is, per unit notional,
 
 $$
-[ K - f _ {T} (T, T + \tau) ] ^ {+} \tag {A16.34}
+[ K - f_{T} (T, T + \tau) ]^{+} \tag {A16.34}
 $$
 
 Given the daily settlement feature of Euribor futures options, the numeraire of choice is the money market account, the value of one unit of currency invested and then rolled every period, at the prevailing short-term rate. Denoting the money market account by  $M(t)$  and the short-term rate from time  $t - 1$  to  $t$  by  $r_t$ ,
@@ -7495,17 +7495,17 @@ M (0) = 1 \tag {A16.35}
 $$
 
 $$
-M (T) = \left(1 + r _ {1}\right) \left(1 + r _ {2}\right) \dots \left(1 + r _ {T}\right) \tag {A16.36}
+M (T) = \left(1 + r_{1}\right) \left(1 + r_{2}\right) \dots \left(1 + r_{T}\right) \tag {A16.36}
 $$
 
 The first point to make about the money market account is that it is the numeraire of the risk-neutral short-term rate process used in the term structure models presented earlier in the book. To see this, apply the martingale property with the numeraire to an arbitrary gains process  $V_{t}$  at time  $t$ ,
 
 $$
-\frac {V _ {0}}{M (0)} = E _ {0} \left[ \frac {V _ {T}}{M (T)} \right] \tag {A16.37}
+\frac{V_{0}}{M (0)} = E_{0} \left[ \frac{V_{T}}{M (T)} \right] \tag {A16.37}
 $$
 
 $$
-V _ {0} = E _ {0} \left[ \frac {V _ {T}}{(1 + r _ {1}) (1 + r _ {2}) \cdots (1 + r _ {T})} \right]
+V_{0} = E_{0} \left[ \frac{V_{T}}{(1 + r_{1}) (1 + r_{2}) \cdots (1 + r_{T})} \right]
 $$
 
 But the second line of (A16.37) is just the condition that the value of a claim today equals its expected discounted value.
@@ -7515,27 +7515,27 @@ The second point to make about the money markets as numeraire is that futures pr
 Turning now to Euribor futures options, because they are subject to daily settlement and are futures contracts, their prices are also martingales with the money market account as numeraire. Furthermore, if  $F_{t}$  is the underlying futures price at time  $t$ , then at the expiration of a put option on the futures price (call on rates) at time  $T$ , the option is worth  $(F_{T} - K)^{+}$ . Putting together the martingale property of the futures, (A16.38), the martingale property of futures options, (A16.39), and the final settlement price of the futures options, (A16.40), results in the price of the Euribor futures put option at time  $t$ , denoted  $V_{t}^{EBPut}$ ,
 
 $$
-F _ {0} = E \left[ F _ {T} \right] \tag {A16.38}
+F_{0} = E \left[ F_{T} \right] \tag {A16.38}
 $$
 
 $$
-V _ {0} ^ {E B P u t} = E _ {0} \left[ V _ {T} ^ {E B P u t} \right] \tag {A16.39}
+V_{0}^{E B P u t} = E_{0} \left[ V_{T}^{E B P u t} \right] \tag {A16.39}
 $$
 
 $$
-= E _ {0} \left[ \left(F _ {T} - K\right) ^ {+} \right] \tag {A16.40}
+= E_{0} \left[ \left(F_{T} - K\right)^{+} \right] \tag {A16.40}
 $$
 
 Assuming now that  $F_{T}$  is normally distributed, applying Section A16.4 to Equations (A16.38) and (A16.40) shows that,
 
 $$
-V _ {0} ^ {E B P u t} = \xi^ {N} \left(F _ {0}, T, K, \sigma\right) \tag {A16.41}
+V_{0}^{E B P u t} = \xi^{N} \left(F_{0}, T, K, \sigma\right) \tag {A16.41}
 $$
 
 Similarly, for the Euribor futures call option (put on rates),
 
 $$
-V _ {t} ^ {E B C a l l} = \pi^ {N} \left(F _ {0}, T, K, \sigma\right) \tag {A16.42}
+V_{t}^{E B C a l l} = \pi^{N} \left(F_{0}, T, K, \sigma\right) \tag {A16.42}
 $$
 
 # A16.3.3 Bond Futures Options
@@ -7543,25 +7543,25 @@ $$
 As shown in Section A16.5, futures prices are a martingale in the risk-neutral measure, that is, when the numeraire is the money market account,  $M(t)$ . Hence, with  $F_{t}$  the underlying bond futures price at time  $t$ ,
 
 $$
-F _ {0} = E \left[ F _ {T} \right] \tag {A16.43}
+F_{0} = E \left[ F_{T} \right] \tag {A16.43}
 $$
 
 By the martingale property, the price of a put option on the futures is,
 
 $$
-\frac {V _ {0} ^ {F u t P u t}}{M (0)} = E _ {0} \left[ \frac {(K - F _ {T}) ^ {+}}{M (T)} \right] \tag {A16.44}
+\frac{V_{0}^{F u t P u t}}{M (0)} = E_{0} \left[ \frac{(K - F_{T})^{+}}{M (T)} \right] \tag {A16.44}
 $$
 
 Then, by the definition of the money market account,
 
 $$
-V _ {0} ^ {F u t P u t} = E _ {0} \left[ \frac {(K - F _ {T}) ^ {+}}{(1 + r _ {1}) (1 + r _ {2}) \cdots (1 + r _ {T})} \right] \tag {A16.45}
+V_{0}^{F u t P u t} = E_{0} \left[ \frac{(K - F_{T})^{+}}{(1 + r_{1}) (1 + r_{2}) \cdots (1 + r_{T})} \right] \tag {A16.45}
 $$
 
 To continue, make the assumption - defended in the text - that the discount factor is uncorrelated with the futures price. Then, Equation (A16.45) becomes,
 
 $$
-\begin{array}{l} V _ {0} ^ {F u t P u t} = E _ {0} \left[ \frac {1}{\left(1 + r _ {1}\right) \left(1 + r _ {2}\right) \cdots \left(1 + r _ {T}\right)} \right] E _ {0} \left[ \left(K - F _ {T}\right) ^ {+} \right] (A16.46) \\ = d _ {0} (T) E _ {0} \left[ \left(K - F _ {T}\right) ^ {+} \right] (A16.47) \\ \end{array}
+\begin{array}{l} V_{0}^{F u t P u t} = E_{0} \left[ \frac{1}{\left(1 + r_{1}\right) \left(1 + r_{2}\right) \cdots \left(1 + r_{T}\right)} \right] E_{0} \left[ \left(K - F_{T}\right)^{+} \right] (A16.46) \\ = d_{0} (T) E_{0} \left[ \left(K - F_{T}\right)^{+} \right] (A16.47) \\ \end{array}
 $$
 
 where (A16.47) follows from the risk-neutral pricing of a zero coupon bond.
@@ -7569,13 +7569,13 @@ where (A16.47) follows from the risk-neutral pricing of a zero coupon bond.
 Finally, applying Section A16.5 to (A16.43), (A16.47) with the assumption that the bond futures price has a lognormal distribution,
 
 $$
-V _ {0} ^ {F u t P u t} = d _ {0} (T) \pi^ {L N} \left(F _ {0}, T, K, \sigma\right) \tag {A16.48}
+V_{0}^{F u t P u t} = d_{0} (T) \pi^{L N} \left(F_{0}, T, K, \sigma\right) \tag {A16.48}
 $$
 
 For calls, the analogous result is,
 
 $$
-V _ {0} ^ {F u t C a l l} = d _ {0} (T) \xi^ {L N} \left(F _ {0}, T, K, \sigma\right) \tag {A16.49}
+V_{0}^{F u t C a l l} = d_{0} (T) \xi^{L N} \left(F_{0}, T, K, \sigma\right) \tag {A16.49}
 $$
 
 # A16.3.4 Caplets
@@ -7583,31 +7583,31 @@ $$
 Caplets that mature at time  $T$  are written on a forward rate from time  $T$  to  $T + \tau$ , whose value, at time  $t$ , is denoted by  $f_{t}(T,T + \tau)$ . It is first shown that taking a  $T + \tau$ -year zero coupon bond as the numeraire makes this forward rate a martingale. Let  $d_{t}(T)$  be the time- $t$  price of a zero coupon bond maturing at time  $T$ . By the definition of a forward rate of term  $\tau$ ,
 
 $$
-\begin{array}{l} f _ {t} (T, T + \tau) = \frac {1}{\tau} \left(\frac {d _ {t} (T)}{d _ {t} (T + \tau)} - 1\right) \\ = \frac {1}{\tau} \left(\frac {d _ {t} (T) - d _ {t} (T + \tau)}{d _ {t} (T + \tau)}\right) \tag {A16.50} \\ \end{array}
+\begin{array}{l} f_{t} (T, T + \tau) = \frac{1}{\tau} \left(\frac{d_{t} (T)}{d_{t} (T + \tau)} - 1\right) \\ = \frac{1}{\tau} \left(\frac{d_{t} (T) - d_{t} (T + \tau)}{d_{t} (T + \tau)}\right) \tag {A16.50} \\ \end{array}
 $$
 
 Next, consider a portfolio that is long a  $T$ -year zero and short a  $T + \tau$ -year zero. Taking the  $T + \tau$ -year zero as the numeraire, the normalized gains process of this portfolio is a martingale. Mathematically,
 
 $$
-\begin{array}{l} \frac {1}{\tau} \left(\frac {d _ {t} (T) - d _ {t} (T + \tau)}{d _ {t} (T + \tau)}\right) = \frac {1}{\tau} E _ {t} \left[ \frac {d _ {T} (T) - d _ {T} (T + \tau)}{d _ {T} (T + \tau)} \right] \\ = \frac {1}{\tau} E _ {t} \left[ \frac {d _ {T} (T)}{d _ {T} (T + \tau)} - 1 \right] \tag {A16.51} \\ = E _ {t} [ f _ {T} (T, T + \tau) ] \\ \end{array}
+\begin{array}{l} \frac{1}{\tau} \left(\frac{d_{t} (T) - d_{t} (T + \tau)}{d_{t} (T + \tau)}\right) = \frac{1}{\tau} E_{t} \left[ \frac{d_{T} (T) - d_{T} (T + \tau)}{d_{T} (T + \tau)} \right] \\ = \frac{1}{\tau} E_{t} \left[ \frac{d_{T} (T)}{d_{T} (T + \tau)} - 1 \right] \tag {A16.51} \\ = E_{t} [ f_{T} (T, T + \tau) ] \\ \end{array}
 $$
 
 where the last line of (A16.51) just uses the definition of the forward rate. Combining (A16.50) and (A16.51) shows that the forward rate is a martingale under the chosen numeraire,
 
 $$
-f _ {t} (T, T + \tau) = E _ {t} [ f _ {T} (T, T + \tau) ] \tag {A16.52}
+f_{t} (T, T + \tau) = E_{t} [ f_{T} (T, T + \tau) ] \tag {A16.52}
 $$
 
 Turning to the valuation of the caplet, its normalized gains process is a martingale as well. Hence, taking expectations of its normalized gain as of  $T + \tau$ ,
 
 $$
-\begin{array}{l} \frac {V _ {0} ^ {\text {C a p l e t}}}{d _ {0} (T + \tau)} = E _ {0} \left[ \frac {\tau \left(f _ {T} (T , T + \tau) - K\right) ^ {+}}{d _ {T + \tau} (T + \tau)} \right] (A16.53) \\ = E _ {0} \left[ \tau \left(f _ {T} (T, T + \tau) - K\right) ^ {+} \right] (A16.54) \\ \end{array}
+\begin{array}{l} \frac{V_{0}^{\text{Ca pl et}}}{d_{0} (T + \tau)} = E_{0} \left[ \frac{\tau \left(f_{T} (T , T + \tau) - K\right)^{+}}{d_{T + \tau} (T + \tau)} \right] (A16.53) \\ = E_{0} \left[ \tau \left(f_{T} (T, T + \tau) - K\right)^{+} \right] (A16.54) \\ \end{array}
 $$
 
 Finally, assuming that the forward rate  $f_{T}(T,T + \tau)$  is normal with variance  $\sigma^2 T$ , and knowing from (A16.52) with  $t = 0$  that its mean is  $f_0(T,T + \tau)$ , the results of Section A16.4 apply and,
 
 $$
-V _ {0} ^ {\text {C a p l e t}} = d _ {0} (T + \tau) \tau \xi^ {N} \left(f _ {0} (T, T + \tau), T, K, \sigma\right) \tag {A16.55}
+V_{0}^{\text{Ca pl et}} = d_{0} (T + \tau) \tau \xi^{N} \left(f_{0} (T, T + \tau), T, K, \sigma\right) \tag {A16.55}
 $$
 
 # A16.3.5 Swaptions
@@ -7617,13 +7617,13 @@ The underlying of a  $T$ -year into  $\tau$ -year swaption is the forward par sw
 Consider receiving the fixed-rate  $K$  on a swap from  $T$  to  $T + \tau$ . Its value at time  $t$  is,
 
 $$
-[ K - C _ {t} (T, T + \tau) ] A _ {t} (T, T + \tau) \tag {A16.56}
+[ K - C_{t} (T, T + \tau) ] A_{t} (T, T + \tau) \tag {A16.56}
 $$
 
 Applying the martingale property with this annuity as numeraire,
 
 $$
-\begin{array}{l} \frac {[ K - C _ {t} (T , T + \tau) ] A _ {t} (T , T + \tau)}{A _ {t} (T , T + \tau)} = E _ {t} \left[ \frac {[ K - C _ {T} (T , T + \tau) ] A _ {T} (T , T + \tau)}{A _ {T} (T , T + \tau)} \right] \\ C _ {t} (T, T + \tau) = E _ {t} \left[ C _ {T} (T, T + \tau) \right] \tag {A16.57} \\ \end{array}
+\begin{array}{l} \frac{[ K - C_{t} (T , T + \tau) ] A_{t} (T , T + \tau)}{A_{t} (T , T + \tau)} = E_{t} \left[ \frac{[ K - C_{T} (T , T + \tau) ] A_{T} (T , T + \tau)}{A_{T} (T , T + \tau)} \right] \\ C_{t} (T, T + \tau) = E_{t} \left[ C_{T} (T, T + \tau) \right] \tag {A16.57} \\ \end{array}
 $$
 
 Hence, as claimed, the forward par swap rate is a martingale under this numeraire.
@@ -7631,7 +7631,7 @@ Hence, as claimed, the forward par swap rate is a martingale under this numerair
 To price a receiver swaption, note that the payoff is  $[K - C_T(T,T + \tau)]^+$ $\times A_{T}(T,T + \tau)$ . Therefore, its value can be calculated as the expectation of its normalized payoff using the same numeraire,
 
 $$
-\begin{array}{l} \frac {V _ {0} ^ {\text {R e c e i v e r}}}{A _ {0} (T , T + \tau)} = E _ {0} \left[ \frac {(K - C _ {T} (T , T + \tau)) ^ {+} A _ {T} (T , T + \tau)}{A _ {T} (T , T + \tau)} \right] \\ = E _ {0} \left[ \left(K - C _ {T} (T, T + \tau)\right) ^ {+} \right] \tag {A16.58} \\ V _ {0} ^ {R e c e i v e r} = A _ {0} (T, T + \tau) \pi^ {N} (C _ {0} (T, T + \tau), T, K, \sigma) \\ \end{array}
+\begin{array}{l} \frac{V_{0}^{\text{Re ce iv er}}}{A_{0} (T , T + \tau)} = E_{0} \left[ \frac{(K - C_{T} (T , T + \tau))^{+} A_{T} (T , T + \tau)}{A_{T} (T , T + \tau)} \right] \\ = E_{0} \left[ \left(K - C_{T} (T, T + \tau)\right)^{+} \right] \tag {A16.58} \\ V_{0}^{R e c e i v e r} = A_{0} (T, T + \tau) \pi^{N} (C_{0} (T, T + \tau), T, K, \sigma) \\ \end{array}
 $$
 
 The last line of (A16.58) follows from (A16.57), the assumption that the forward par swap rate is normal with variance  $\sigma^2 T$ , and the appropriate result from Section A16.4.
@@ -7639,7 +7639,7 @@ The last line of (A16.58) follows from (A16.57), the assumption that the forward
 Similarly, a payer option under the assumption of normality has the value,
 
 $$
-V _ {0} ^ {\text {P a y e r}} = A _ {0} (T, T + \tau) \xi^ {N} \left(C _ {0} (T, T + \tau), T, K, \sigma\right) \tag {A16.59}
+V_{0}^{\text{Pa ye r}} = A_{0} (T, T + \tau) \xi^{N} \left(C_{0} (T, T + \tau), T, K, \sigma\right) \tag {A16.59}
 $$
 
 # A16.4 EXPECTATIONS FOR BLACK-SCHOLES-MERTON STYLE OPTION PRICING
@@ -7651,33 +7651,33 @@ denote the expectations operators under the normal and lognormal distributions, 
 If  $S_T$  is normally distributed with means  $S_0$  and variance  $\sigma^2 T$ , then,
 
 $$
-\begin{array}{l} \xi^ {N} (S _ {0}, T, K, \sigma) \equiv E _ {0} ^ {N} [ (S _ {T} - K) ^ {+} ] \\ = (S _ {0} - K) N (d) + \frac {\sigma \sqrt {T}}{\sqrt {2 \pi}} e ^ {- \frac {1}{2} d ^ {2}} \tag {A16.60} \\ \end{array}
+\begin{array}{l} \xi^{N} (S_{0}, T, K, \sigma) \equiv E_{0}^{N} [ (S_{T} - K)^{+} ] \\ = (S_{0} - K) N (d) + \frac{\sigma \sqrt{T}}{\sqrt{2 \pi}} e^{- \frac{1}{2} d^{2}} \tag {A16.60} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \pi^ {N} (S _ {0}, T, K, \sigma) \equiv E _ {0} ^ {N} [ (K - S _ {T}) ^ {+} ] \\ = (K - S _ {0}) N (- d) + \frac {\sigma \sqrt {T}}{\sqrt {2 \pi}} e ^ {- \frac {1}{2} d ^ {2}} \qquad \mathrm {(A 1 6 . 6 1)} \\ \end{array}
+\begin{array}{l} \pi^{N} (S_{0}, T, K, \sigma) \equiv E_{0}^{N} [ (K - S_{T})^{+} ] \\ = (K - S_{0}) N (- d) + \frac{\sigma \sqrt{T}}{\sqrt{2 \pi}} e^{- \frac{1}{2} d^{2}} \qquad \mathrm{(A1 6 .6 1)} \\ \end{array}
 $$
 
 $$
-d = \frac {S _ {0} - K}{\sigma \sqrt {T}} \tag {A16.62}
+d = \frac{S_{0} - K}{\sigma \sqrt{T}} \tag {A16.62}
 $$
 
 If  $S_T$  is lognormally distributed with mean  $S_0$  and variance  $S_0^2 (e^{\sigma^2 T} - 1)$ , then,
 
 $$
-\begin{array}{l} \xi^ {L N} \left(S _ {0}, T, K, \sigma\right) \equiv E _ {0} ^ {L N} \left[ \left(S _ {T} - K\right) ^ {+} \right] \tag {A16.63} \\ = S _ {0} N (d _ {1}) - K N (d _ {2}) \\ \end{array}
+\begin{array}{l} \xi^{L N} \left(S_{0}, T, K, \sigma\right) \equiv E_{0}^{L N} \left[ \left(S_{T} - K\right)^{+} \right] \tag {A16.63} \\ = S_{0} N (d_{1}) - K N (d_{2}) \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \pi^ {L N} (S _ {0}, T, K, \sigma) \equiv E _ {0} ^ {L N} [ (K - S _ {T}) ^ {+} ] \\ = K N (- d _ {2}) - S _ {0} N (- d _ {1}) \tag {A16.64} \\ \end{array}
+\begin{array}{l} \pi^{L N} (S_{0}, T, K, \sigma) \equiv E_{0}^{L N} [ (K - S_{T})^{+} ] \\ = K N (- d_{2}) - S_{0} N (- d_{1}) \tag {A16.64} \\ \end{array}
 $$
 
 $$
-d _ {1} = \frac {\ln \left(\frac {S _ {0}}{K}\right) + \frac {1}{2} \sigma^ {2} T}{\sigma \sqrt {T}} \tag {A16.65}
+d_{1} = \frac{\ln \left(\frac{S_{0}}{K}\right) + \frac{1}{2} \sigma^{2} T}{\sigma \sqrt{T}} \tag {A16.65}
 $$
 
 $$
-d _ {2} = d _ {1} - \sigma \sqrt {T} \tag {A16.66}
+d_{2} = d_{1} - \sigma \sqrt{T} \tag {A16.66}
 $$
 
 # A16.5 FUTURES PRICES ARE MARTINGALES WITH THE MONEY MARKET ACCOUNT AS A NUMERAIRE
@@ -7692,37 +7692,37 @@ Date 2:  $\frac{V_2}{M(2)} = \frac{(F_1 - F_0)(1 + r_2) + F_2 - F_1}{(1 + r_1)(1
 Since the value of a futures contact on date 0 is zero, the martingale property implies that the expectation of the normalized gains at any future date is zero. In particular, for date 1,
 
 $$
-0 = E _ {0} \left[ \frac {F _ {1} - F _ {0}}{1 + r _ {1}} \right] \tag {A16.67}
+0 = E_{0} \left[ \frac{F_{1} - F_{0}}{1 + r_{1}} \right] \tag {A16.67}
 $$
 
 But since  $r_1$  is known as of date 0, it follows from (A16.67) that,
 
 $$
-F _ {0} = E _ {0} \left[ F _ {1} \right] \tag {A16.68}
+F_{0} = E_{0} \left[ F_{1} \right] \tag {A16.68}
 $$
 
 As of date 2, the martingale property says that
 
 $$
-0 = E _ {0} \left[ \frac {\left(F _ {1} - F _ {0}\right) \left(1 + r _ {2}\right) + F _ {2} - F _ {1}}{\left(1 + r _ {1}\right) \left(1 + r _ {2}\right)} \right] \tag {A16.69}
+0 = E_{0} \left[ \frac{\left(F_{1} - F_{0}\right) \left(1 + r_{2}\right) + F_{2} - F_{1}}{\left(1 + r_{1}\right) \left(1 + r_{2}\right)} \right] \tag {A16.69}
 $$
 
 Using the law of iterated expectations, and the fact that  $r_1$  is known as of date 0,
 
 $$
-0 = E _ {0} \left[ \frac {1}{1 + r _ {2}} E _ {1} \left[ F _ {2} - F _ {1} \right] \right] \tag {A16.70}
+0 = E_{0} \left[ \frac{1}{1 + r_{2}} E_{1} \left[ F_{2} - F_{1} \right] \right] \tag {A16.70}
 $$
 
 But, since  $F_{1}$  is known as of date 1, (A16.70) implies that,
 
 $$
-F _ {1} = E _ {1} \left[ F _ {2} \right] \tag {A16.71}
+F_{1} = E_{1} \left[ F_{2} \right] \tag {A16.71}
 $$
 
 Finally then, combine (A16.68) and (A16.71) to see that,
 
 $$
-F _ {0} = E _ {0} \left[ E _ {1} \left[ F _ {2} \right] \right] = E _ {0} \left[ F _ {2} \right] \tag {A16.72}
+F_{0} = E_{0} \left[ E_{1} \left[ F_{2} \right] \right] = E_{0} \left[ F_{2} \right] \tag {A16.72}
 $$
 
 Together with (A16.68), (A16.72) shows that the futures price is a martingale under the money-market account or risk-neutral measure, as desired.

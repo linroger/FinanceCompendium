@@ -113,15 +113,15 @@ Exhibit 10.2 Example of initial margin, variation margin and marking to market
 This example illustrates the effect of leverage in futures contracts. The initial margin payments are small relative to the value of the underlying. When the underlying changes by a small percentage the effect is magnified for the future, and large percentage gains and losses are made on the amount committed to the transaction:
 
 $$
-\text{Underlying change (Monday-Friday)} \frac {55,000 - 50,000}{50,000} \times 100 = 10 \%
+\text{Underlyingchange (Monday-Friday)} \frac{55,000 - 50,000}{50,000} \times 100 = 10 \%
 $$
 
 $$
-\text{Percentage return to buyer of future}\frac{5,000}{5,000}\times 100 = 100\%
+\text{Percentagereturntobuyeroffuture}\frac{5,000}{5,000}\times 100 = 100\%
 $$
 
 $$
-\text{Percentage return to seller of future}\frac{-5,000}{5,000}\times 100 = -100\%
+\text{Percentagereturntoselleroffuture}\frac{-5,000}{5,000}\times 100 = -100\%
 $$
 
 To lose all the money committed to a financial transaction may seem disappointing but it is as nothing compared with the losses that can be made on futures. It is possible to lose a multiple of the amount set down as an initial margin. For example, if the future rose to  $\pounds 70,000$  the seller would have to provide a  $\pounds 20,000$  variation margin – four times the amount committed in the first place. Clearly, playing the futures market can seriously damage your wealth. This was proved with a vengeance by Nick Leeson of Barings Bank. He bought futures in the Nikkei 225 Index – the main Japanese share index – in both the Osaka and the Singapore derivative exchanges. He was betting that the market would rise as he committed the bank to buying the index at a particular price. When the index fell, margin payments had to be made. Leeson took a double-or-quits attitude: 'I mean a lot of futures traders when the market is against them will double up'. He continued to buy futures. To generate some cash, to make variation margin payments, he wrote combinations of call and put options ('straddles') for which counterparties paid premiums – see Chapter 11. This compounded the problem when the Nikkei 225 Index continued to fall in 1994. The put options became an increasingly expensive commitment to bear – counterparties had the right to sell the index to Barings at a price much higher than the prevailing price. More than  $\pounds 800\mathrm{m}$  was lost (see Exhibit 10.3).
@@ -423,7 +423,7 @@ The unit of trading for a three-month sterling time deposit is  $\mathbb{L}500,0
 Short-term interest contracts are quoted on an index basis rather than on the basis of the interest rate itself. The price is defined as:
 
 $$
-\mathrm {P} = 1 0 0 - i
+\mathrm{P} = 1 0 0 - i
 $$ where:
 
 
@@ -484,7 +484,7 @@ In December 2010 Holwell plc plans to borrow £5 million for three months at a l
 
 $$
 
-\text {£ 5 m} \times 0. 0 0 2 5 2 5 = £ 1 2, 6 2 5
+\text{£5 m} \times 0. 0 0 2 5 2 5 = £ 1 2, 6 2 5
 
 $$
 
@@ -492,7 +492,7 @@ Suppose that interest rates rise to annual rates of 1.6 per cent, or 0.4 per cen
 
 $$
 
-£ 5 \mathrm {m} \times 0. 0 0 4 = £ 2 0, 0 0 0
+£ 5 \mathrm{m} \times 0. 0 0 4 = £ 2 0, 0 0 0
 
 $$
 

@@ -346,7 +346,7 @@ See Table 12-3 for the report of income or income statement for Heartland Bank a
 Interest Income. The income statement for a commercial bank first shows the sources of interest income (item 14). Interest and fee income on loans and leases (item 6 in Table 12-3) is the largest interest income-producing category. Subcategories are often listed on the income statement (items 1-4) for each category of loan listed earlier. Most banks also list income on leases (item 5) as a separate item. Interest on investment securities held (item 13) is also included as interest income. These too may be listed by subcategories (items 7-12) described earlier. Interest income is recorded on an accrued basis (see earlier discussion). Thus, loans on which interest payments are past due can still be recorded as generating income for a bank.[13] Interest income is taxable, except for that on municipal securities and tax-exempt income from direct lease financing. Tax-exempt interest can be converted to a taxable equivalent basis as follows:
 
 $$
-\text {T a x a b l e} = \frac {\text {I n t e r s i t e} = \frac {\text {I n t e r s i t e} \mathrm {i n c o m e}}{1 - \text {B a n k} \mathrm {s} \text {t a x} \text {r a t e}}
+\text{Ta xa bl e} = \frac{\text{In te rs it e} = \frac{\text{In te rs it e} \mathrm{in co me}}{1 - \text{Ba nk} \mathrm{s} \text{ta x} \text{ra te}}
 $$
 
 Interest Expenses. Interest expense (item 24) is the second major category on a bank's income statement. Items listed here come directly from the liability section of the balance
@@ -411,7 +411,7 @@ Net Income. Income before taxes and extraordinary items minus income taxes plus 
 As mentioned earlier, banks' financial statements are directly related (more so than for nonfinancial companies). That is, the items on the income statement are determined by the balance sheet assets and liabilities along with the interest rates on each item. This direct relationship between the two financial statements can be seen by depicting the income statement as follows:
 
 $$
-N I = \sum_ {n = 1} ^ {N} r _ {n} A _ {n} - \sum_ {m = 1} ^ {M} r _ {m} L _ {m} - P + N I I - N I E - T
+N I = \sum_{n = 1}^{N} r_{n} A_{n} - \sum_{m = 1}^{M} r_{m} L_{m} - P + N I I - N I E - T
 $$ where
 
 
@@ -442,7 +442,7 @@ Net income is the direct result of (1) the amount and mix of assets and liabilit
 
 $$
 
-N I = 0. 0 4 6 (1 \mathrm {m .}) + 0. 0 6 (3 \mathrm {m .}) - 0. 0 3 5 (3 \mathrm {m .}) - 0. 0 4 7 5 (1 \mathrm {m .}) = \$ 7 3, 5 0 0
+N I = 0. 0 4 6 (1 \mathrm{m .}) + 0. 0 6 (3 \mathrm{m .}) - 0. 0 3 5 (3 \mathrm{m .}) - 0. 0 4 7 5 (1 \mathrm{m .}) = \$ 7 3, 5 0 0
 
 $$
 
@@ -450,7 +450,7 @@ The bank replaces  \$500,000 of assets currently yielding 4.60 percent with asse
 
 $$
 
-N I = 0. 0 4 6 (0. 5 \mathrm {m .}) + 0. 0 6 (3. 5 \mathrm {m .}) - 0. 0 3 5 (3 \mathrm {m .}) - 0. 0 4 7 5 (1 \mathrm {m .}) = \$ 8 0, 5 0 0
+N I = 0. 0 4 6 (0. 5 \mathrm{m .}) + 0. 0 6 (3. 5 \mathrm{m .}) - 0. 0 3 5 (3 \mathrm{m .}) - 0. 0 4 7 5 (1 \mathrm{m .}) = \$ 8 0, 5 0 0
 
 $$
 
@@ -484,7 +484,7 @@ ROE (ratio 1 in Table 12-5) is defined as:
 
 $$
 
-\mathrm {R O E} = \frac {\text {N e t i n c o m e}}{\text {T o t a l e q u i t y c a p i t a l}}
+\mathrm{RO E} = \frac{\text{Ne ti nc om e}}{\text{To ta le qu it yc ap it al}}
 
 $$
 
@@ -498,7 +498,7 @@ To identify potential problems, ROE (ratio 1) can be decomposed into two compone
 
 $$
 
-\begin{array}{l} \mathrm {R O E} = \frac {\text {N e t i n c o m e}}{\text {T o t a l a s s e t s}} \times \frac {\text {T o t a l a s s e t s}}{\text {T o t a l e q u i t y c a p i t a l}} \\ = \mathrm {R O A} \times \mathrm {E M} \\ \end{array}
+\begin{array}{l} \mathrm{RO E} = \frac{\text{Ne ti nc om e}}{\text{To ta la ss et s}} \times \frac{\text{To ta la ss et s}}{\text{To ta le qu it yc ap it al}} \\ = \mathrm{RO A} \times \mathrm{EM} \\ \end{array}
 
 $$ where
 
@@ -541,7 +541,7 @@ A further breakdown of a bank's profitability is that of dividing ROA (ratio 2 i
 
 $$
 
-\begin{array}{l} \mathrm {R O A} = \frac {\text {N e t i n c o m e}}{\text {T o t a l o p e r a t i n g i n c o m e}} \times \frac {\text {T o t a l o p e r a t i n g i n c o m e}}{\text {T o t a l a s s e t s}} \\ = \mathrm {P M} \times \mathrm {A U} \\ \end{array}
+\begin{array}{l} \mathrm{RO A} = \frac{\text{Ne ti nc om e}}{\text{To ta lo pe ra ti ng in co me}} \times \frac{\text{To ta lo pe ra ti ng in co me}}{\text{To ta la ss et s}} \\ = \mathrm{PM} \times \mathrm{AU} \\ \end{array}
 
 $$ where
 
@@ -561,25 +561,25 @@ Profit Margin. As stated, PM measures a bank's ability to control expenses and t
 
 $$
 
-\text {I n t e r e s t} \quad \text {e x p e n s e} \quad \text {r a t i o} \quad (r a t i o 9) = \frac {\text {I n t e r e s t} \quad \text {e x p e n s e}}{\text {T o t a l} \quad \text {o p e r a t i n g} \quad \text {i n c o m e}}
+\text{In te re st} \quad \text{ex pe ns e} \quad \text{ra ti o} \quad (r a t i o 9) = \frac{\text{In te re st} \quad \text{ex pe ns e}}{\text{To ta l} \quad \text{op er at in g} \quad \text{in co me}}
 
 $$
 
 $$
 
-\text {P r o v i s i o n f o r l o a n l o s s r a t i o (r a t i o 1 0)} = \frac {\text {P r o v i s i o n f o r l o a n l o s s e s}}{\text {T o t a l o p e r a t i n g i n c o m e}}
+\text{Pr ov is io nf or lo an lo ss ra ti o (ra ti o1 0)} = \frac{\text{Pr ov is io nf or lo an lo ss es}}{\text{To ta lo pe ra ti ng in co me}}
 
 $$
 
 $$
 
-\text {N o n i n t e r e s t} \quad \text {e x p e n s e} \quad \text {r a t i o} \quad (1 1) = \frac {\text {N o n i n t e r e s t} \quad \text {e x p e n s e}}{\text {T o t a l} \quad \text {o p e r a t i n g} \quad \text {i n c o m e}}
+\text{No ni nt er es t} \quad \text{ex pe ns e} \quad \text{ra ti o} \quad (1 1) = \frac{\text{No ni nt er es t} \quad \text{ex pe ns e}}{\text{To ta l} \quad \text{op er at in g} \quad \text{in co me}}
 
 $$
 
 $$
 
-\text {T a x r a t i o (r a t i o 1 2)} = \frac {\text {I n c o m e t a x e s}}{\text {T o t a l o p e r a t i n g i n c o m e}}
+\text{Ta xr at io (ra ti o1 2)} = \frac{\text{In co me ta xe s}}{\text{To ta lo pe ra ti ng in co me}}
 
 $$
 
@@ -600,20 +600,20 @@ TABLE 12-6 Decomposition of Profit Margin for Two Commercial Banks
 
 $$
 
-\text {A s s e t u t i l i z a t i o n r a t i o} = \frac {\text {T o t a l o p e r a t i n g i n c o m e}}{\text {T o t a l a s s e t s}} = \frac {\text {I n t e r s t}}{\text {i n c o m e r a t i o}} + \frac {\text {N o n i n t e r s t}}{\text {i n c o m e r a t i o}}
+\text{As se tu ti li za ti on ra ti o} = \frac{\text{To ta lo pe ra ti ng in co me}}{\text{To ta la ss et s}} = \frac{\text{In te rs t}}{\text{in co me ra ti o}} + \frac{\text{No ni nt er st}}{\text{in co me ra ti o}}
 
 $$ where
 
 
 $$
 
-\text {I n t e r s i e n c e} 6 0) = \frac {\text {I n t e r s i e n c e}}{\text {T o t a l a s s e t s}}
+\text{In te rs ie nc e} 6 0) = \frac{\text{In te rs ie nc e}}{\text{To ta la ss et s}}
 
 $$
 
 $$
 
-\text {N o n i n t e r e s t i n c o m e r r a t i o} (r a t i o 6 1) = \frac {\text {N o n i n t e r e s t i n c o m e}}{\text {T o t a l a s s e t s}}
+\text{No ni nt er es ti nc om er ra ti o} (r a t i o 6 1) = \frac{\text{No ni nt er es ti nc om e}}{\text{To ta la ss et s}}
 
 $$ which measure the bank's ability to generate interest income and noninterest income, respectively. For the banks represented in Tables 12-1 and 12-3, the values of these ratios are as follows:
 
@@ -661,7 +661,7 @@ Net Interest Margin. Net interest margin (ratio 6 in Table 12-5) measures the ne
 
 $$
 
-\text {N e t i n t e r s t m a r g i n} = \frac {\text {N e t i n t e r s t i n c o m e}}{\text {E a r n i n g a s s e t s}} = \frac {\text {I n t e r s t i n c o m e} - \text {I n t e r s t e x p e n s e}}{\text {I n v e s t m e n t s e c u r i t i e s} + \text {N e t l o a n s a n d l e a s e s}}
+\text{Ne ti nt er st ma rg in} = \frac{\text{Ne ti nt er st in co me}}{\text{Ea rn in ga ss et s}} = \frac{\text{In te rs ti nc om e} - \text{In te rs te xp en se}}{\text{In ve st me nt se cu ri ti es} + \text{Ne tl oa ns an dl ea se s}}
 
 $$
 
@@ -671,7 +671,7 @@ The Spread. The spread (ratio 7 in Table 12-5) measures the difference between t
 
 $$
 
-\text {S p r e a d} = \frac {\text {I n t e r s t i n c o m e}}{\text {E a r n i n g a s s e t s}} - \frac {\text {I n t e r s t e x p e n s e}}{\text {I n t e r s t - b e a r i n g l i a b i l i t i e s}}
+\text{Sp re ad} = \frac{\text{In te rs ti nc om e}}{\text{Ea rn in ga ss et s}} - \frac{\text{In te rs te xp en se}}{\text{In te rs t -b ea ri ng li ab il it ie s}}
 
 $$
 
@@ -681,7 +681,7 @@ Overhead Efficiency. Overhead efficiency (ratio 8 in Table 12-5) measures the ba
 
 $$
 
-\text {O v e r h e a d} = \frac {\text {N o n i t e r e s t i n c o m e}}{\text {N o n i t e r e s t} \text {e x p e n s e}}
+\text{Ov er he ad} = \frac{\text{No ni te re st in co me}}{\text{No ni te re st} \text{ex pe ns e}}
 
 $$
 

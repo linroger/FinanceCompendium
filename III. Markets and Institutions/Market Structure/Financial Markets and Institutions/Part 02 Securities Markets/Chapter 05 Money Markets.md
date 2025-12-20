@@ -107,13 +107,13 @@ For many of the money market securities discussed below, returns are measured an
 
 The bond equivalent yield,  $i_{be}$ , is the quoted nominal, or stated, yield on a security. From Chapters 2 and 3, the bond equivalent yield is the rate used to calculate the present value of an investment. For money market securities, the bond equivalent yield is the product of the periodic rate and the number of periods in a year. It is calculated as follows:
 
-$$ i _ {b e} = \left[ \frac {\left(P _ {f} - P _ {0}\right)}{P _ {0}} \right] \times \frac {3 6 5}{n}
+$$ i_{b e} = \left[ \frac{\left(P_{f} - P_{0}\right)}{P_{0}} \right] \times \frac{3 6 5}{n}
 $$ where
 
 
 $$
 
-\begin{array}{l} P _ {f} = \text {F a c e v a l u e} \\ P _ {0} = \text {P u p c h a s e p r i c e o f t h e s e c u r i t y} \\ \end{array}
+\begin{array}{l} P_{f} = \text{Fa ce va lu e} \\ P_{0} = \text{Pu pc ha se pr ic eo ft he se cu ri ty} \\ \end{array}
 
 $$
 
@@ -125,7 +125,7 @@ The bond equivalent yield is a quoted nominal or stated rate earned on an invest
 
 $$
 
-E A R = \left(1 + \frac {i _ {b e}}{3 6 5 / n}\right) ^ {3 6 5 / n} - 1
+E A R = \left(1 + \frac{i_{b e}}{3 6 5 / n}\right)^{3 6 5 / n} - 1
 
 $$
 
@@ -145,18 +145,18 @@ Some money market instruments (e.g., Treasury bills and commercial paper) are bo
 
 $$
 
-\begin{array}{c} P _ {0} \hskip 1 4. 2 2 6 3 7 8 p t P _ {f} \\ 0 \hskip 1 4. 2 2 6 3 7 8 p t \text {M a t u r i t y} \\ \text {(d a y s)} \end{array}
+\begin{array}{c} P_{0} \hskip 1 4. 2 2 6 3 7 8 p t P_{f} \\ 0 \hskip 1 4. 2 2 6 3 7 8 p t \text{Ma tu ri ty} \\ \text{(da ys)} \end{array}
 
 $$
 
 Further, yields on these securities use a 360-day year rather than a 365-day year. Interest rates on discount securities, or discount yields  $(i_d)$ , are quoted on a discount basis using the following equation:
 
-$$ i _ {d} = \frac {P _ {f} - P _ {0}}{P _ {f}} \times \frac {3 6 0}{n}
+$$ i_{d} = \frac{P_{f} - P_{0}}{P_{f}} \times \frac{3 6 0}{n}
 $$
 
 There are several features of a discount yield that make it difficult to compare with bond equivalent yields on other (nondiscount) securities—for example, U.S. Treasury bonds. Notice the discount yield uses the terminal price, or the security's face value  $(P_f)$ , as the base price in calculating an annualized interest rate. By contrast, bond equivalent yields are based on the purchase price  $(P_0)$  of a security. Further, and as already mentioned, discount yields generally use a 360-day rather than a 365-day year to compute interest returns. Prior to the advent of calculators and computers, it was quicker and easier for investors and traders to compute discount yields using a 360-day year. Similarly, manual calculations of discount yields were simpler using the face value (a nice round number) as the base number rather than the purchase price (which can take many values). Thus, these became the convention for calculating discount yields. Although these features mean that the discount yield is a measure of return that is incorrect, convention has not changed, even as calculators and computers have become commonplace. An appropriate comparison of interest rates on discount securities versus nondiscount securities, adjusting for both the base price and days in the year differences, requires converting a discount yield into a bond equivalent yield in the following manner:
 
-$$ i _ {b e} = i _ {d} \times \frac {P _ {f}}{P _ {0}} \times \frac {3 6 5}{3 6 0}
+$$ i_{b e} = i_{d} \times \frac{P_{f}}{P_{0}} \times \frac{3 6 5}{3 6 0}
 $$
 
 # EXAMPLE 5-2 Comparison of Discount Yield, Bond Equivalent Yield, and EAR
@@ -174,24 +174,24 @@ EAR:  $EAR = [1 + 0.03970 / (365 / 140)]^{365 / 140} - 1 = 4.019\%$
 Some money market securities (e.g., negotiable CDs and fed funds) pay interest only once during their lives: at maturity. Thus, the single-payment security holder receives a terminal payment consisting of interest plus the face value of the security, as we show in the following time line. Such securities are special cases of the pure discount securities that only pay the face value on maturity.
 
 $$
-\begin{array}{c c} \text {I n v e s t} \\ 0 \end{array} \stackrel {{\text {R e c i e v e}}} {{\longrightarrow}} \begin{array}{c} \text {R e c i e v e} \\ \text {M a t u r i t y} \end{array}
+\begin{array}{c c} \text{In ve st} \\ 0 \end{array} \stackrel {{\text{Re ci ev e}}} {{\longrightarrow}} \begin{array}{c} \text{Re ci ev e} \\ \text{Ma tu ri ty} \end{array}
 $$
 
 Further, quoted nominal interest rates on single-payment securities (or single-payment yield,  $i_{sp}$ ) normally assume a 360-day year. In order to compare interest rates on these securities with others, such as U.S. Treasury bonds, that pay interest based on a 365-day year, the nominal interest rate must be converted to a bond equivalent yield in the following manner:
 
-$$ i _ {b e} = i _ {s p} (3 6 5 / 3 6 0)
+$$ i_{b e} = i_{s p} (3 6 5 / 3 6 0)
 $$
 
 Further, allowing for interest rate compounding, the EAR for single-payment securities must utilize the bond equivalent yield as follows:
 
 $$
-E A R = \left[ 1 + \frac {i _ {s p} (3 6 5 / 3 6 0)}{3 6 5 / n} \right] ^ {3 6 5 / n} - 1
+E A R = \left[ 1 + \frac{i_{s p} (3 6 5 / 3 6 0)}{3 6 5 / n} \right]^{3 6 5 / n} - 1
 $$ or,
 
 
 $$
 
-E A R = \left[ 1 + i _ {b e} / (3 6 5 / n) \right] ^ {3 6 5 / n} - 1
+E A R = \left[ 1 + i_{b e} / (3 6 5 / n) \right]^{3 6 5 / n} - 1
 
 $$
 
@@ -199,13 +199,13 @@ $$
 
 Suppose you can purchase a 1 million negotiable CD that is currently 105 days from maturity. The CD has a quoted annual interest rate of 4.16 percent for a 360-day year. The bond equivalent yield is calculated as:
 
-$$ i _ {b e} = 4.16 \% (365 / 360) = 4.218 \%
+$$ i_{b e} = 4.16 \% (365 / 360) = 4.218 \%
 $$
 
 The EAR on the CD is calculated as:
 
 $$
-E A R = [ 1 + (0.04218) / (365 / 105) ] ^ {365 / 105} - 1 = 4.282 \%
+E A R = [ 1 + (0.04218) / (365 / 105) ]^{365 / 105} - 1 = 4.282 \%
 $$
 
 # DO YOU UNDERSTAND?
@@ -297,26 +297,26 @@ Treasury Bill Yields. As we discussed previously, Treasury bills are sold on a d
 
 Table 5-5 lists T-bill rates as quoted in The Wall Street Journal for trading on December 27, 2019. Column 1 in the quote lists the maturity date of the T-bill. Column 2, labeled Bid, is the discount yield (defined below) on the T-bill given the current selling price available to T-bill holders (i.e., the price dealers are willing to pay T-bill holders to purchase their T-bills for them). Column 3, labeled Asked, is the discount yield based on the current purchase price set by dealers that is available to investors (i.e., potential T-bill buyers). The percentage difference in the ask and bid yields is known as the spread. The spread is essentially the profit the dealers make in return for conducting the trade for investors. It is part of the transaction cost incurred by investors for the trade. Column 4, labeled Chg, is the change in the asked (discount) yield from the previous day's closing yield. Finally, the last column (column 5), labeled Asked Yield, is the asked discount yield converted to a bond equivalent yield. As discussed above, the discount yield  $(d)$  on a T-bill is calculated as follows:
 
-$$ i _ {\mathrm {T - b i l l}, d} = \frac {P _ {f} - P _ {0}}{P _ {f}} \times \frac {3 6 0}{n}
+$$ i_{\mathrm{T -b il l}, d} = \frac{P_{f} - P_{0}}{P_{f}} \times \frac{3 6 0}{n}
 $$
 
 # EXAMPLE 5-4 Calculating a Treasury Bill Asked Discount Yield
 
 Suppose that you purchase the T-bill maturing on March 26, 2020, for  \$9,961.87. The T-bill matures 90 days after the quote date, December 27, 2019, and has a face value of\$ 10,000. The T-bill's Asked discount yield is calculated as:
 
-$$ i_{\mathrm{T - bill},d} = \frac{\mathbb{S}10,000 - \mathbb{S}9,961.87}{\mathbb{S}10,000}\times \frac{360}{90} = 1.525\%
+$$ i_{\mathrm{T -bill},d} = \frac{\mathbb{S}10,000 - \mathbb{S}9,961.87}{\mathbb{S}10,000}\times \frac{360}{90} = 1.525\%
 $$
 
 Thus, 1.525 percent is the Asked discount yield on this T-bill reported in column 3 of Table 5-5.
 
-As described above, the discount yield differs from a true rate of return (or bond equivalent yield) for two reasons: (1) the base price used is the face value of the T-bill and not the purchase price of the T-bill, and (2) a 360-day year rather than a 365-day year is used. The bond equivalent yield uses a 365-day year and the purchase price, rather than the face value of the T-bill, as the base price. Thus, the formula for a bond equivalent yield on a T-bill,  $i_{\mathrm{T - bill},be}$ , is:
+As described above, the discount yield differs from a true rate of return (or bond equivalent yield) for two reasons: (1) the base price used is the face value of the T-bill and not the purchase price of the T-bill, and (2) a 360-day year rather than a 365-day year is used. The bond equivalent yield uses a 365-day year and the purchase price, rather than the face value of the T-bill, as the base price. Thus, the formula for a bond equivalent yield on a T-bill,  $i_{\mathrm{T -bill},be}$ , is:
 
-$$ i _ {\mathrm {T - b i l l}, b e} = \frac {P _ {f} - P _ {0}}{P _ {0}} \times \frac {3 6 5}{n}
+$$ i_{\mathrm{T -b il l}, b e} = \frac{P_{f} - P_{0}}{P_{0}} \times \frac{3 6 5}{n}
 $$
 
 For example, the bond equivalent yield (or Asked Yield reported in column 5 of Table 5-5) in Example 5-4 is calculated as:
 
-$$ i_{\mathrm{T - bill},be} = \frac{\mathbb{S}10,000 - \mathbb{S}9,961.87}{\mathbb{S}9,961.87}\times \frac{365}{90} = 1.55\%
+$$ i_{\mathrm{T -bill},be} = \frac{\mathbb{S}10,000 - \mathbb{S}9,961.87}{\mathbb{S}9,961.87}\times \frac{365}{90} = 1.55\%
 $$
 
 Finally, the  $EAR$  on the T-bill is calculated as:
@@ -328,13 +328,13 @@ $$
 A Treasury bill's price (such as that used in the examples previously) can be calculated from the quote reported in the financial press (e.g., The Wall Street Journal) by rearranging the yield equations listed above. Specifically, for the asked discount yield, the required market ask price would be:
 
 $$
-P _ {0} = P _ {f} - \left(i _ {\mathrm {T} - \text {b i l l}, d} \times \frac {n}{3 6 0} \times P _ {f}\right)
+P_{0} = P_{f} - \left(i_{\mathrm{T} - \text{bi ll}, d} \times \frac{n}{3 6 0} \times P_{f}\right)
 $$ and for the bond equivalent yield:
 
 
 $$
 
-P _ {0} = P _ {f} / \left[ 1 + \left(i _ {\mathrm {T - b i l l}, b e} \times \frac {n}{3 6 5}\right) \right]
+P_{0} = P_{f} / \left[ 1 + \left(i_{\mathrm{T -b il l}, b e} \times \frac{n}{3 6 5}\right) \right]
 
 $$
 
@@ -351,14 +351,14 @@ From Table 5-5, the asked (or discount) yield on the T-bill maturing on June 11,
 
 $$
 
-P _ {0} = \$ 1 0, 0 0 0 - \left(0. 0 1 5 2 8 \times \frac {1 6 7}{3 6 0} \times \$ 1 0, 0 0 0\right) = 9, 9 2 9. 1 2
+P_{0} = \$ 1 0, 0 0 0 - \left(0. 0 1 5 2 8 \times \frac{1 6 7}{3 6 0} \times \$ 1 0, 0 0 0\right) = 9, 9 2 9. 1 2
 
 $$ or using the asked yield (or the bond equivalent yield) on the T-bill, 1.56 percent:
 
 
 $$
 
-P _ {0} = \$ 10,000 / \left[ 1 + \left(0. 0 1 5 6 \times \frac {1 6 7}{3 6 5}\right) \right] = \$ 9, 9 2 9. 1 2
+P_{0} = \$ 10,000 / \left[ 1 + \left(0. 0 1 5 6 \times \frac{1 6 7}{3 6 5}\right) \right] = \$ 9, 9 2 9. 1 2
 
 $$
 
@@ -384,7 +384,7 @@ From Table 5-1, the overnight fed funds rate on December 31, 2019, was 1.47 perc
 
 $$
 
-\begin{array}{l} i _ {f f, b e} = i _ {f f, s p} (3 6 5 / 3 6 0) \\ = 1.47 \% (365 / 360) = 1.4904 \% \\ \end{array}
+\begin{array}{l} i_{f f, b e} = i_{f f, s p} (3 6 5 / 3 6 0) \\ = 1.47 \% (365 / 360) = 1.4904 \% \\ \end{array}
 
 $$
 
@@ -443,7 +443,7 @@ Repurchase Agreement Yields. Because Treasury securities back most repurchase ag
 Figure 5-4 A Repurchase Agreement Transaction
 
 
-$$ i _ {r e p o, s p} = \frac {P _ {f} - P _ {0}}{P _ {0}} \times \frac {3 6 0}{n}
+$$ i_{r e p o, s p} = \frac{P_{f} - P_{0}}{P_{0}} \times \frac{3 6 0}{n}
 $$ where
 
 
@@ -457,7 +457,7 @@ $n =$  Number of days until the repo matures
 
 Suppose a bank enters a repurchase agreement in which it agrees to buy fed funds from one of its correspondent banks at a price of  \$10,000,000, with the promise to sell these funds back at a price of$ 10,000,291.67 ($10,000,000 plus interest of \$291.67) after five days. The yield on this repo to the bank is calculated as follows:
 
-$$ i _ {r e p o, s p} = \frac {\mathrm {\10,000,291.67 - \10,000,000}}{\mathrm{\10,000,000}} \times \frac {360}{5} = 0.21 \%
+$$ i_{r e p o, s p} = \frac{\mathrm{\10,000,291.67 - \10,000,000}}{\mathrm{\10,000,000}} \times \frac{360}{5} = 0.21 \%
 $$
 
 Because of their common use as a source of overnight funding and the fact that repos are essentially collateralized fed fund transactions, the Federal Reserve generally classifies federal funds and repurchase agreements together in its statistical data. Together, these amounted to more than 4.1 trillion outstanding in 2019 (see Table 5-3). Some notable differences exist, however, between repurchase agreements and fed funds. For example, repurchase agreements are less liquid than fed funds since they can only be arranged after an agreed upon type of collateral is posted (i.e., repos are hard to arrange at the close of the banking day, whereas fed funds can be arranged at very short notice, even a few minutes). Further, nonbanks are more frequent users of repurchase agreements.
@@ -516,22 +516,22 @@ When commercial paper is issued directly from an issuer to a buyer, the company 
 
 Commercial Paper Yields. Like Treasury bills, yields on commercial paper are quoted on a discount basis—the discount return to commercial paper holders is the annualized percentage difference between the price paid for the paper and the par value using a 360-day year. Specifically:
 
-$$ i _ {c p, d} = \frac {P _ {f} - P _ {0}}{P _ {f}} \times \frac {3 6 0}{n}
+$$ i_{c p, d} = \frac{P_{f} - P_{0}}{P_{f}} \times \frac{3 6 0}{n}
 $$ and when converted to a bond equivalent yield:
 
 
-$$ i _ {c p, b e} = \frac {P _ {f} - P _ {0}}{P _ {0}} \times \frac {3 6 5}{n}
+$$ i_{c p, b e} = \frac{P_{f} - P_{0}}{P_{0}} \times \frac{3 6 5}{n}
 $$
 
 # EXAMPLE 5-8 Calculation of the Yield on Commercial Paper
 
 Suppose an investor purchases 95-day commercial paper with a par value of \$1,000,000 for a price of \$990,023. The discount yield (d) on the commercial paper is calculated as:
 
-$$ i _ {c p, d} = \frac {\mathrm {\1 , 000 , 000 - \990 , 023}}{\mathrm {\1 , 000 , 000}} \times \frac {360}{95} = 0.3702 \%
+$$ i_{c p, d} = \frac{\mathrm{\1 ,000 ,000 - \990 ,023}}{\mathrm{\1 ,000 ,000}} \times \frac{360}{95} = 0.3702 \%
 $$ and the bond equivalent yield  $(be)$  is:
 
 
-$$ i _ {c p, b e} = \frac {\mathrm {\1 , 000 , 000 - \990 , 023}}{\mathrm {\990 , 023}} \times \frac {365}{95} = 0.3757 \%
+$$ i_{c p, b e} = \frac{\mathrm{\1 ,000 ,000 - \990 ,023}}{\mathrm{\990 ,023}} \times \frac{365}{95} = 0.3757 \%
 $$
 
 Finally, the  $EAR$  on the commercial paper is:
@@ -568,13 +568,13 @@ Negotiable CD Yields. Negotiable CD rates are negotiated between the bank and th
 
 A bank has issued a six-month, 1 million negotiable CD with a 0.72 percent quoted annual interest rate (iCD, sp). The bond equivalent yield on the CD is:
 
-$$ i _ {C D, b e} = 0.72 \% (365 / 360) = 0.73 \%
+$$ i_{C D, b e} = 0.72 \% (365 / 360) = 0.73 \%
 $$
 
 Thus, at maturity (in 6 months) the CD holder will receive:
 
 $$
-F V = \ 1 \mathrm {m}. (1 + 0. 0 0 7 3 / 2) = \ 1, 0 0 3, 6 5 0
+F V = \ 1 \mathrm{m}. (1 + 0. 0 0 7 3 / 2) = \ 1, 0 0 3, 6 5 0
 $$ in exchange for 1 million deposited in the bank today. Further, the EAR on the CD is:
 
 
@@ -588,19 +588,19 @@ Immediately after the CD is issued, the secondary market price on the  \$1 milli
 
 $$
 
-\begin{array}{l} 1, 0 0 3, 6 5 0 / (1 + i _ {C D. b e} / 2) = \$ 9 9 9, 6 5 1 \\ \Rightarrow i _ {C D, b e} = 0.8001 \% \\ \end{array}
+\begin{array}{l} 1, 0 0 3, 6 5 0 / (1 + i_{C D. b e} / 2) = \$ 9 9 9, 6 5 1 \\ \Rightarrow i_{C D, b e} = 0.8001 \% \\ \end{array}
 
 $$
 
 The single-payment yield increases to:
 
-$$ i _ {C D. s p} = 0.8001 \% (360 / 365) = 0.7891 \%
+$$ i_{C D. s p} = 0.8001 \% (360 / 365) = 0.7891 \%
 $$ and the EAR becomes:
 
 
 $$
 
-E A R = (1 + 0.008001 / 2) ^ {2} - 1 = 0.8017 \%
+E A R = (1 + 0.008001 / 2)^{2} - 1 = 0.8017 \%
 
 $$
 

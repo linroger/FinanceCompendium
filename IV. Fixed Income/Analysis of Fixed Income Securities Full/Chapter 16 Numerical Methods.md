@@ -37,7 +37,7 @@ In a lattice, we can easily perform backward induction and compare if it is wort
 Monte Carlo simulations cannot provide such an expected value. MC simulations can only move forwards and hence cannot be used to price American options – until Longstaff and Schwartz. Longstaff and Schwartz cleverly recognize that the continuation value is nothing more than a conditional expectation given the current stock price:
 
 $$
-\xi (t) = \hat {\mathbb {E}} _ {t} [ C (t + d t) | S (t) ]
+\xi (t) = \hat {\mathbb {E}}_{t} [ C (t + d t) | S (t) ]
 $$ where  $\xi(t)$  is the conditional value at time  $t$ , which is the conditional expectation of future option price  $C(t + dt)$  conditional on today's stock price  $S(t)$ . And today's option value is the larger of this continuation value (i.e. no exercise) or exercise value (i.e. exercise): $C(t) = \max\{\xi(t), X(t)\}$ where $X(t)$ is the exercise value. If the option is a put, then  $X(t) = K - S(t)$ . If it is a call, then  $X(t) = S(t) - K$  before any dividend is paid. The process repeats at every time step.
 
 
@@ -53,7 +53,7 @@ $$ where  $e(t + dt)$  is the error term which is assumed to follow i.i.d with 0
 
 
 $$
-\xi (t) = b _ {0} + b _ {1} S (t) + b _ {2} S (t) ^ {2}
+\xi (t) = b_{0} + b_{1} S (t) + b_{2} S (t)^{2}
 $$ which is then compared to the exercise value  $X(t)$  to arrive at the option value:
 
 
@@ -100,7 +100,7 @@ Given the stock values at maturity $(t = 3)$, Figure 16.1b presents the put opti
 Then we move backwards to  $t = 2$ . At  $t = 2$ , we must first compute the continuation value  $\xi(2)$ . This is achieved by a quadratic regression:
 
 $$
-\xi (1) = - 1. 0 7 + 2. 9 8 3 \times S (2) - 1. 8 1 3 \times S (2) ^ {2}
+\xi (1) = - 1. 0 7 + 2. 9 8 3 \times S (2) - 1. 8 1 3 \times S (2)^{2}
 $$ which is presented in Figure 16.2a. Then, the continuation results are presented in Figure 16.2b. Comparing the continuation values with the exercise values, we achieve the option values at  $t = 2$  shown in Figure 16.2c.
 
 
@@ -167,7 +167,7 @@ $$ \xi(t) = \hat{\mathbb{E}}_t\left[e^{-r\tau} \max\{X(\tau), 0\}\right] $$ wher
 The easiest way to perform the integration is through Monte Carlo simulations. As the derivative price  $\xi(t)$  is given as an expected value:
 
 $$
-\xi (t) = \frac {1}{N} \sum_ {j = 1} ^ {N} e ^ {- r \tau_ {j}} \max \{K - B (\tau_ {j}), 0 \}
+\xi (t) = \frac{1}{N} \sum_{j = 1}^{N} e^{- r \tau_{j}} \max \{K - B (\tau_{j}), 0 \}
 $$
 
 We note that the recursively determined boundary function (via a lattice model) maximizes the option value, any other exogenously specified boundary function will only be "sub-optimal", that is, generating a lower value than the lattice model. This sub-optimal argument is convenient in that now we can simply try a large number of boundary functions and use the one that generates the highest option value as a good approximation.
@@ -280,14 +280,14 @@ Q-learning is a model-free reinforcement learning algorithm to learn a policy te
 
 $$
 \begin{align}
-\underbrace{Q(s_t, a_t)}_{\text{new value}} &\leftarrow (1 - \alpha) \underbrace{Q(s_t, a_t)}_{\text{old value}} + \underbrace{\alpha}_{\text{learning rate}} \left(\underbrace{R_t}_{\text{reward}} + \underbrace{\gamma}_{\text{discount factor}} \cdot \underbrace{\max_a Q(s_{t+1}, a_t)}_{\text{est'd optimal future value}}\right) \\
-&= Q(s_t, a_t) + \underbrace{\alpha\left(R_t + \gamma \cdot \max_a Q(s_{t+1}, a_t) - Q(s_t, a_t)\right)}_{\text{temporal difference}}
+\underbrace{Q(s_t, a_t)}_{\text{newvalue}} &\leftarrow (1 - \alpha) \underbrace{Q(s_t, a_t)}_{\text{oldvalue}} + \underbrace{\alpha}_{\text{learningrate}} \left(\underbrace{R_t}_{\text{reward}} + \underbrace{\gamma}_{\text{discountfactor}} \cdot \underbrace{\max_a Q(s_{t+1}, a_t)}_{\text{est'doptimalfuturevalue}}\right) \\
+&= Q(s_t, a_t) + \underbrace{\alpha\left(R_t + \gamma \cdot \max_a Q(s_{t+1}, a_t) - Q(s_t, a_t)\right)}_{\text{temporaldifference}}
 \end{align}
 $$
 
 When  $\alpha = 1$ , then above equation simplifies to:
 
-$$ \underbrace{Q(s_t, a_t)}_{\text{new value}} \gets R_t + \gamma \cdot \max_a Q(s_{t+1}, a) $$
+$$ \underbrace{Q(s_t, a_t)}_{\text{newvalue}} \gets R_t + \gamma \cdot \max_a Q(s_{t+1}, a) $$
 
 # An Example - Finding Optimal Route
 
@@ -303,7 +303,7 @@ At each day, the buyer of the swing contract can also withdraw any quantity of n
 As a result, it is a derivative contract that must be balanced between price and quantity in order to maximize the profit.
 
 $$
-\max _ {\underline {{N}} \in \mathbb {N}} \left\{\sum_ {i = 1} ^ {n _ {f}} N _ {i} \Phi (T _ {i}, T _ {i} + 1 \mathrm {d}) \right\}
+\max_{\underline {{N}} \in \mathbb {N}} \left\{\sum_{i = 1}^{n_{f}} N_{i} \Phi (T_{i}, T_{i} + 1 \mathrm{d}) \right\}
 $$
 
 # 16.4.4 Bayesian Learning - Black-Litterman Model
@@ -326,7 +326,7 @@ $$ where  $f(\cdot)$  is a generic density function symbol and does not present 
 In plain English, using Bayesian probability terminology, the above equation can be viewed as:
 
 $$
-\mathrm {p o s t e r i o r} = \frac {\mathrm {l i k e l i h o o d} \times \mathrm {p r i o r}}{\mathrm {e v i d e n c e}}
+\mathrm{po st er io r} = \frac{\mathrm{li ke li ho od} \times \mathrm{pr io r}}{\mathrm{ev id en ce}}
 $$
 
 The usual econometric interpretation of the this equation is that  $x$  represents data observed in reality. The model (if correct) that generates the data is  $f(x|\theta)$  where  $\theta$  represents a set of parameters of the model. A usual example is a normal model where  $\theta = \{\mu, \sigma^2\}$  (i.e. mean and variance). If the model is correct, then the data observed  $x$  should follow a normal distribution. (Certainly, we can test this hypothesis.) This is known as the likelihood function.
@@ -340,7 +340,7 @@ In finance (economics), we always assume that data are generated by model, and h
 Switch of notation (to be more consistent with the ML literature):
 
 $$
-\begin{array}{l} h_{\text{MAP}} = \arg \max_{h\in H}p(h|D) \\ = \arg \max  _ {h \in H} \frac {p (D | h) p (h)}{p (D)} \\ = \arg \max  _ {h \in H} p (D | h) p (h) \\ \end{array}
+\begin{array}{l} h_{\text{MAP}} = \arg \max_{h\in H}p(h|D) \\ = \arg \max_{h \in H} \frac{p (D | h) p (h)}{p (D)} \\ = \arg \max_{h \in H} p (D | h) p (h) \\ \end{array}
 $$ where  $D$  represents data and  $h$  for class.
 
 
@@ -356,13 +356,13 @@ Figure 16.6: Simple Example of Bayesian Learning
 
 In this example,
 
-$$ p (\mathrm {S u n n y} | \mathrm {Y e s}) = \frac {p (\mathrm {S u n n y} \& \mathrm {Y e s})}{p (\mathrm {Y e s})} = \frac {3}{9} = 0. 3 3
+$$ p (\mathrm{Su nn y} | \mathrm{Ye s}) = \frac{p (\mathrm{Su nn y} \& \mathrm{Ye s})}{p (\mathrm{Ye s})} = \frac{3}{9} = 0. 3 3
 $$
 
-$$ p (\text {S u n n y}) = \frac {5}{1 4} = 0. 3 6; p (\text {Y e s}) = \frac {9}{1 4} = 0. 6 4
+$$ p (\text{Su nn y}) = \frac{5}{1 4} = 0. 3 6; p (\text{Ye s}) = \frac{9}{1 4} = 0. 6 4
 $$
 
-$$ p (\text {Y e s} | \text {S u n n y}) = 0. 3 3 \times \frac {0 . 6 4}{0 . 3 6} = 0. 6 0
+$$ p (\text{Ye s} | \text{Su nn y}) = 0. 3 3 \times \frac{0 . 6 4}{0 . 3 6} = 0. 6 0
 $$ which has higher probability.
 
 
@@ -371,19 +371,19 @@ $$ which has higher probability.
 Naïve Bayes is a classifier. In other words, it limits  $\theta$  to be distinct classes (either  $0/1$  or  $1, 2, 3, \dots, n$ ). Hence we change notation from  $\theta$  to  $C_k$ .
 
 $$
-\begin{array}{l} p (C _ {k} | x _ {1}, \dots , x _ {n}) = p (C _ {k} | \underline {{x}}) \\ = \frac {p (C _ {k}) p (\underline {{x}} | C _ {k})}{p (\underline {{x}})} \\ \approx p (C _ {k}) p (\underline {{x}} | C _ {k}) \\ \end{array}
+\begin{array}{l} p (C_{k} | x_{1}, \dots , x_{n}) = p (C_{k} | \underline {{x}}) \\ = \frac{p (C_{k}) p (\underline {{x}} | C_{k})}{p (\underline {{x}})} \\ \approx p (C_{k}) p (\underline {{x}} | C_{k}) \\ \end{array}
 $$ where the last line indicates that the  $p(\underline{x})$  is purely data and can be ignored.
 
 
 The likelihood function is very familiar and can be estimated with data easily as follows:
 
 $$
-\begin{array}{l} p (x _ {1}, \dots , x _ {n}, C _ {k}) = p (x _ {1} | x _ {2}, \dots , x _ {n}, C _ {k}) p (x _ {2}, \dots , x _ {n}, C _ {k}) \\ = p \left(x _ {1} \mid x _ {2}, \dots , x _ {n}, C _ {k}\right) p \left(x _ {2} \mid x _ {3}, \dots , x _ {n}, C _ {k}\right) p \left(x _ {3}, \dots , x _ {n}, C _ {k}\right) \\ = p \left(x _ {1} \mid x _ {2}, \dots , x _ {n}, C _ {k}\right) p \left(x _ {2} \mid x _ {3}, \dots , x _ {n}, C _ {k}\right) \dots p \left(x _ {n} \mid C _ {k}\right) p \left(C _ {k}\right) \\ = p (x _ {1} | x _ {2}) p (x _ {2} | x _ {3}) \dots p (x _ {n} | C _ {k}) p (C _ {k}) \\ \end{array}
+\begin{array}{l} p (x_{1}, \dots , x_{n}, C_{k}) = p (x_{1} | x_{2}, \dots , x_{n}, C_{k}) p (x_{2}, \dots , x_{n}, C_{k}) \\ = p \left(x_{1} \mid x_{2}, \dots , x_{n}, C_{k}\right) p \left(x_{2} \mid x_{3}, \dots , x_{n}, C_{k}\right) p \left(x_{3}, \dots , x_{n}, C_{k}\right) \\ = p \left(x_{1} \mid x_{2}, \dots , x_{n}, C_{k}\right) p \left(x_{2} \mid x_{3}, \dots , x_{n}, C_{k}\right) \dots p \left(x_{n} \mid C_{k}\right) p \left(C_{k}\right) \\ = p (x_{1} | x_{2}) p (x_{2} | x_{3}) \dots p (x_{n} | C_{k}) p (C_{k}) \\ \end{array}
 $$ where the last line is a result of Markov property (no memory). In the Gaussian case, this function has a closed-form solution and analytical derivatives can be taken:
 
 
 $$
-\frac {\partial p}{\partial C _ {k}} = 0
+\frac{\partial p}{\partial C_{k}} = 0
 $$ for all  $k$ . Solving for the simultaneous equations for  $C_k$  yields the estimators (equations) for  $C_k$ . However, in the real world, the distributions are not Gaussian and we must use numerical tools to solve for the classification functions.
 
 
@@ -440,26 +440,26 @@ $$ where  $\mathbb{E}[R]$  is return of the market portfolio (a portfolio that i
 (2) After deriving the assets' implied returns, then we can compute the expected return,  $\mathbb{E}[R]$  which is an  $N\times 1$  vector, of the assets under the Black-Litterman model with the following equation.
 
 $$
-\mathbb {E} [ R ] = \left[ (\tau \Sigma) ^ {- 1} + P ^ {\prime} \Omega P \right] ^ {- 1} \left[ (\tau \Sigma) ^ {- 1} \underline {{\pi}} + P ^ {\prime} \Omega Q \right]
+\mathbb {E} [ R ] = \left[ (\tau \Sigma)^{- 1} + P^{\prime} \Omega P \right]^{- 1} \left[ (\tau \Sigma)^{- 1} \underline {{\pi}} + P^{\prime} \Omega Q \right]
 $$ where  $\tau$  is a number indicating the uncertainty of the CAPM distribution (It is usually within the range of 0.025-0.05);  $P$  is a matrix with investors views; each row a specific view of the market and each entry of the row represents the weights of each assets ( $K \times N$  matrix);  $Q$  is the expected returns of the portfolios from the views described in matrix ( $K \times 1$  vector);  $\Omega$  is diagonal covariance matrix with entries of the uncertainty within each view ( $K \times K$  matrix) $\Sigma$  and  $\Pi$  as described in previous section.
 
 
 (3) Once we compute  $\mathbb{E}[R]$ , then we can compute the posterior variance matrix  $M$ , which will be used to compute the new covariance matrix. The new covariance matrix
 
 $$
-M = \left[ (\tau \Sigma) ^ {- 1} + P ^ {\prime} \Omega P \right] ^ {- 1}
+M = \left[ (\tau \Sigma)^{- 1} + P^{\prime} \Omega P \right]^{- 1}
 $$
 
 (4)
 
 $$
-\Sigma_ {P} = \Sigma + M
+\Sigma_{P} = \Sigma + M
 $$
 
 With the new covariance matrix, we can then calculate the new portfolio weights
 
 $$
-\omega = \left(\lambda \Sigma_ {P}\right) ^ {- 1} \underline {{\pi}}
+\omega = \left(\lambda \Sigma_{P}\right)^{- 1} \underline {{\pi}}
 $$
 
 Indian paper:
@@ -467,25 +467,25 @@ Indian paper:
 Let  $\underline{\pi}_t$  be the  $N\times 1$  conditional mean vector and let  $\Sigma_t$  be the  $N\times N$  covariance matrix estimate of these returns given information available at time  $t - 1$ . In addition, define  $\omega_{t - 1}$  as the vector of market capitalization weights at time  $t - 1$ . When the CAPM holds, the conditional mean vector satisfies the following equation:
 
 $$
-\underline {{\pi}} _ {t} = \lambda \Sigma_ {t} \omega_ {t - 1}
+\underline {{\pi}}_{t} = \lambda \Sigma_{t} \omega_{t - 1}
 $$ where  $\lambda$  is the risk aversion coefficient.
 
 
 $$
-Q _ {t} (k) = (P _ {t} \Pi_ {t}) (k) + \eta_ {k} \sqrt {P _ {t} \Sigma_ {t} P _ {t} ^ {\prime} (k , k)}
+Q_{t} (k) = (P_{t} \Pi_{t}) (k) + \eta_{k} \sqrt{P_{t} \Sigma_{t} P_{t}^{\prime} (k , k)}
 $$ where  $\eta_{k}$  in  $\{-2, -1, 1, 2\}$  defines "very bearish", "bearish", "bullish" and "very bullish" respectively. To impose views we use two classifiers, one to predict the sign of  $\eta_{k}$  and the other to predict its absolute value. i.e., we use the following two binary level responses to train various classifiers and predict the qualitative view of next period.
 
 
 $$
-Y _ {1} = \left\{ \begin{array}{l l} - 1 & \text {i f s i g n o f e x c e s s r e t u r n o f t h e n e x t w e e k ' s i s n e g a t i v e} \\ 1 & \text {i f s i g n o f e x c e s s r e t u r n o f t h e n e x t w e e k ' s i s p o s i t i v e} \end{array} \right.
+Y_{1} = \left\{ \begin{array}{l l} - 1 & \text{if si gn of ex ce ss re tu rn of th en ex tw ee k 's is ne ga ti ve} \\ 1 & \text{if si gn of ex ce ss re tu rn of th en ex tw ee k 's is po si ti ve} \end{array} \right.
 $$
 
 $$
-Y _ {2} = \left\{ \begin{array}{l l} 1 & z _ {t} = \frac {r _ {t} - \bar {r} _ {t , 3}}{\sigma_ {t , 3}} \leqslant 1 \\ 2 & z _ {t} = \frac {r _ {t} - \bar {r} _ {t , 3}}{\sigma_ {t , 3}} > 1 \end{array} \right.
+Y_{2} = \left\{ \begin{array}{l l} 1 & z_{t} = \frac{r_{t} - \bar {r}_{t , 3}}{\sigma_{t , 3}} \leqslant 1 \\ 2 & z_{t} = \frac{r_{t} - \bar {r}_{t , 3}}{\sigma_{t , 3}} > 1 \end{array} \right.
 $$
 
 $$
-Y = \left\{ \begin{array}{l l} - 2 & \text {v e r y b e a r i s h} \\ - 1 & \text {b e a r i s h} \\ 1 & \text {b u l l i s h} \\ 2 & \text {v e r y b u l l i s h} \end{array} \right.
+Y = \left\{ \begin{array}{l l} - 2 & \text{ve ry be ar is h} \\ - 1 & \text{be ar is h} \\ 1 & \text{bu ll is h} \\ 2 & \text{ve ry bu ll is h} \end{array} \right.
 $$
 
 We need to compute  $Y_{1}$ , using Naïve Bayes.

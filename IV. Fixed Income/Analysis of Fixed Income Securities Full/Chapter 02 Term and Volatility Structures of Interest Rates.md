@@ -461,7 +461,7 @@ where $\tau_1 = T_i - t$ and $\tau_2 = T_j - t$ are times to maturity of the fut
 
 In Chapter 9, we have the following futures rate equation (equation (9.19)):
 
-$$\text{futures rate} = 100 - \mathrm{QFP} \tag{2.10}$$
+$$\text{futuresrate} = 100 - \mathrm{QFP} \tag{2.10}$$
 
 where QFP is quoted futures price. Hence the forward rate can be computed as:
 
@@ -469,7 +469,7 @@ $$\text{forward} = \text{futures} - \frac{1}{2} \sigma^2 \tau_i^{1/4}$$
 
 Recall that the forward rate is:
 
-$$\Psi\left(t, T_i, T_i + 1/4\right) = \frac{1}{1 + \frac{\text{forward rate}}{4}} \tag{2.11}$$
+$$\Psi\left(t, T_i, T_i + 1/4\right) = \frac{1}{1 + \frac{\text{forwardrate}}{4}} \tag{2.11}$$
 
 ![IRS Quotes](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/424ac96fdd5c2bf54c7d7a41fb25d03ddb179dc9499f0e17b42a272060091998.jpg)
 
@@ -503,7 +503,7 @@ The problem is that to price these basis swaps one needs both the OIS curve, to 
 
 $$D(t, T) = \exp\left(\int_t^T r(u) du\right) = \prod_{i=0}^{n-1} \left(1 + \frac{R_i}{360}\right)$$
 
-where $R_i$ is the daily Fed Funds rate for day $i$, $n$ is the number of days, and $T - t = \frac{n}{\text{days per year}}$. Note that $D(t,T)$ is random.
+where $R_i$ is the daily Fed Funds rate for day $i$, $n$ is the number of days, and $T - t = \frac{n}{\text{daysperyear}}$. Note that $D(t,T)$ is random.
 
 ![OIS Curve](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/62f41ad0cf20544355fad6b719ee6f4b6bc453626554c3a470993147e58b24ec.jpg)
 
@@ -511,11 +511,11 @@ where $R_i$ is the daily Fed Funds rate for day $i$, $n$ is the number of days, 
 
 The discount function is derived from market input quotes by setting the net present value (NPV) of each swap to be equal to zero. For OIS with one cash flow, the fixed rate is swapped versus the compounding of the Fed Funds rate, and the NPV is calculated as follows.
 
-$$\mathrm{NPV} = D(t, T) w(t, T) \frac{\text{days till } T}{360} - \frac{1}{D(t, T)} \left[ \prod_{i=0}^{n-1} \left(1 + \frac{R_i}{360}\right) - 1 \right]$$
+$$\mathrm{NPV} = D(t, T) w(t, T) \frac{\text{daystill } T}{360} - \frac{1}{D(t, T)} \left[ \prod_{i=0}^{n-1} \left(1 + \frac{R_i}{360}\right) - 1 \right]$$
 
-$$0 = \frac{1}{D(t, T)} \left[ w(t, T) \frac{\text{days till } T}{360} + 1 - \frac{1}{D(t, T)} \right]$$
+$$0 = \frac{1}{D(t, T)} \left[ w(t, T) \frac{\text{daystill } T}{360} + 1 - \frac{1}{D(t, T)} \right]$$
 
-$$D(t, T) = \frac{1}{w(t, T)^{\frac{\text{days till } T}{360}} + 1}$$
+$$D(t, T) = \frac{1}{w(t, T)^{\frac{\text{daystill } T}{360}} + 1}$$
 
 where $w(t,T)$ is the fixed swap rate for maturity $T$. By setting the NPV = 0, one can solve for the discount function for maturity $T$.
 

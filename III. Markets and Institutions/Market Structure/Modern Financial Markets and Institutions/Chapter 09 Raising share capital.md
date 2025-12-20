@@ -688,7 +688,7 @@ Take the case of the impoverished Sid, who is unable to find the necessary  $£2
 The value of a right on one old share in Swell is this theoretical market value of a share ex-rights less the subscription price divided by the number of old shares required to purchase one new share:
 
 $$
-\frac {1 1 6 \mathrm {p} - 1 0 0 \mathrm {p}}{4} = 4 \mathrm {p}
+\frac{1 1 6 \mathrm{p} - 1 0 0 \mathrm{p}}{4} = 4 \mathrm{p}
 $$
 
 In the case of the Lloyds issue (see Exhibit 9.20) those shareholders who did not take up the new shares received  $18.5\mathrm{p}$  for each share declined.
@@ -854,7 +854,7 @@ Share price Earnings per share
 Dividend yield:
 
 $$
-\frac {\text {D i v i d e n d p e r s h a r e}}{\text {S h a r e p r i c e}} \times 1 0 0
+\frac{\text{Di vi de nd pe rs ha re}}{\text{Sh ar ep ri ce}} \times 1 0 0
 $$
 
 Dividend cover:

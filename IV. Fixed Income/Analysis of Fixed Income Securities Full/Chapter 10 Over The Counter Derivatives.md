@@ -28,18 +28,18 @@ $$ d = \frac{\ln f_{12} - \ln R_X + V/2}{\sqrt{V}} = \frac{\ln 7\% - \ln 5\% + 0
 $$ d - \sqrt{V} = 0.26 $$
 
 $$
-C = e ^ {-5 \%} [ 7 \% N (0.86) - 5 \% N (0.26) ] = 0.023
+C = e^{-5 \%} [ 7 \% N (0.86) - 5 \% N (0.26) ] = 0.023
 $$
 
 In terms of bond price
 
 $$
-C = \frac {1}{X} P _ {0 t} [ X N (- d + \sqrt {V}) - F N (- d) ]
+C = \frac{1}{X} P_{0 t} [ X N (- d + \sqrt{V}) - F N (- d) ]
 $$ where
 
 
 $$
-X = \frac {1}{1 + \tau R _ {X}}
+X = \frac{1}{1 + \tau R_{X}}
 $$
 
 $$ d = \frac{\ln F - \ln X + V/2}{\sqrt{V}} = \frac{0.9324 - 0.9524 + 0.36/2}{0.6} = 0.35 $$
@@ -47,13 +47,13 @@ $$ d = \frac{\ln F - \ln X + V/2}{\sqrt{V}} = \frac{0.9324 - 0.9524 + 0.36/2}{0.
 $$ d - \sqrt{V} = -0.25 $$
 
 $$
-C = \frac {1}{1 . 0 5} 1. 0 5 [ 0. 9 5 2 4 N (0. 2 5) - 0. 9 3 2 4 N (- 0. 3 5) ] = 0. 2 3
+C = \frac{1}{1 . 0 5} 1. 0 5 [ 0. 9 5 2 4 N (0. 2 5) - 0. 9 3 2 4 N (- 0. 3 5) ] = 0. 2 3
 $$
 
 A cap is a limitation on the borrower that at each payment date he cannot charge the market rate if the market rate is higher than the contractual cap rate. Hence, we can write the cap payoff as a series of rate call to be received at the end of period  $j$ .
 
 $$
-\max  \left\{R _ {j} - \bar {R}, 0 \right\} \tau \tag {10.1}
+\max  \left\{R_{j} - \bar {R}, 0 \right\} \tau \tag {10.1}
 $$ for  $j = 1, \dots, n$  reflecting the fixing dates  $< T_1, \dots, T_n >$  of a cap/floor where  $\tau$  is the accrued period and usually  $\tau = \frac{1}{4}$  in swaps and  $\frac{1}{2}$  in bonds. Given that  $R_j$  is not a traded asset, we must turn it into a bond price. To do that,
 
 
@@ -76,7 +76,7 @@ $$ and the cap value is:
 
 
 $$
-V _ {\text {c a p}} = \sum_ {j = 1} ^ {n} \pi_ {j} \tag {10.4}
+V_{\text{ca p}} = \sum_{j = 1}^{n} \pi_{j} \tag {10.4}
 $$
 
 Equation (10.3) is a standard option on the zero-coupon bond and hence has closed-form solutions if certain term structure models are adopted. For example, both Vacicek and Cox-Ingersoll-Ross models have closed-form solutions to the zero coupon bond option. Using the Vasicek model, $^{1}$ we can write the formula for a caplet as:2
@@ -106,18 +106,18 @@ $$ where  $K = 1 / (1 + \tau \underline{R})$  and the pricing formula is:
 
 
 $$
-\begin{array}{l} \zeta_ {j} = \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {T _ {j} + \tau} r _ {u} d u\right) \max  \{\underline {{R}} - R _ {j}, 0 \} \tau \right] \\ = (\tau \underline {{R}} + 1) \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {T _ {j} + \tau} r _ {u} d u\right) \frac {1}{P (T _ {j} , T _ {j} + \tau)} \max  \{P (T _ {j}, T _ {j} + \tau) - K, 0 \} \right] \\ = \frac {1}{K} \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {T _ {j}} r _ {u} d u\right) \max  \left\{P \left(T _ {j}, T _ {j} + \tau\right) - K, 0 \right\} \right] \tag {10.8} \\ \end{array}
+\begin{array}{l} \zeta_{j} = \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{T_{j} + \tau} r_{u} d u\right) \max  \{\underline {{R}} - R_{j}, 0 \} \tau \right] \\ = (\tau \underline {{R}} + 1) \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{T_{j} + \tau} r_{u} d u\right) \frac{1}{P (T_{j} , T_{j} + \tau)} \max  \{P (T_{j}, T_{j} + \tau) - K, 0 \} \right] \\ = \frac{1}{K} \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{T_{j}} r_{u} d u\right) \max  \left\{P \left(T_{j}, T_{j} + \tau\right) - K, 0 \right\} \right] \tag {10.8} \\ \end{array}
 $$ and
 
 
 $$
-V _ {\text {f l o o r}} = \sum_ {j = 1} ^ {n} \zeta_ {j} \tag {10.9}
+V_{\text{fl oo r}} = \sum_{j = 1}^{n} \zeta_{j} \tag {10.9}
 $$
 
 Under the Vasicek model we can write each floorlet  $\xi_{j}$  as follows:3
 
 $$
-\begin{array}{l} \zeta_ {j} = \frac {P (t , T _ {j} + \tau)}{K} N \left(\frac {\ln P (t , T _ {j} + \tau) - \ln K - \ln P (t , T _ {j}) + 1 / 2 v _ {j} ^ {2}}{v _ {j}}\right) \tag {10.10} \\ - P (t, T _ {j}) N \left(\frac {\ln P (t , T _ {j} + \tau) - \ln K - \ln P (t , T _ {j}) - ^ {1 / 2} v _ {j} ^ {2}}{v _ {j}}\right) \\ \end{array}
+\begin{array}{l} \zeta_{j} = \frac{P (t , T_{j} + \tau)}{K} N \left(\frac{\ln P (t , T_{j} + \tau) - \ln K - \ln P (t , T_{j}) + 1 / 2 v_{j}^{2}}{v_{j}}\right) \tag {10.10} \\ - P (t, T_{j}) N \left(\frac{\ln P (t , T_{j} + \tau) - \ln K - \ln P (t , T_{j}) -^{1 / 2} v_{j}^{2}}{v_{j}}\right) \\ \end{array}
 $$
 
 Note that usually lenders do not charge an upfront free for the cap and vice versa for the floor. What is a common practice is that the charged interest rate contains a mark-up, or spread, if there is a cap; and a mark-down, or negative spread, if there is a floor. That is,  $R_{j} = \frac{1}{P(T_{j},T_{j} + \tau)} + s_{c}$  (for cap) or  $R_{j} = \frac{1}{P(T_{j},T_{j} + \tau)} - s_{f}$  (for floor) where the spread is constant throughout the life of the loan. This being the case, a cap or a floor contract is to solve for the spread so that the NPV is 0 at inception.
@@ -125,7 +125,7 @@ Note that usually lenders do not charge an upfront free for the cap and vice ver
 Note that the spread is computed as:
 
 $$
-V _ {\text {s p r e a d}} = \tau \times s \times \sum_ {j = 1} ^ {n} P (t, T _ {j}) \tag {10.11}
+V_{\text{sp re ad}} = \tau \times s \times \sum_{j = 1}^{n} P (t, T_{j}) \tag {10.11}
 $$ and hence by equating the value of the spread payments with the value of the cap, we solve for the spread as follows:
 
 
@@ -141,7 +141,7 @@ As briefly discussed in Chapter 5, swaptions (payer and receiver) are options to
 These embedded options are stripped out of their underlying swaps and traded in the market. Industry uses the Black (which is same as Black-Scholes) model for swaptions:
 
 $$
-C = P (t, s) \left[ \bar {w} (s, T _ {n}) N (d _ {+}) - P (t, s) w _ {K} N (d _ {-}) \right] \sum_ {i = 1} ^ {n} \Psi (t, s, T _ {i}) \tag {10.13}
+C = P (t, s) \left[ \bar {w} (s, T_{n}) N (d_{+}) - P (t, s) w_{K} N (d_{-}) \right] \sum_{i = 1}^{n} \Psi (t, s, T_{i}) \tag {10.13}
 $$ where
 
 
@@ -202,7 +202,7 @@ $$
 
 
 $$
-\chi_ {j, k} \left(K _ {k}\right) = K N \left(- \frac {\ln \Psi \left(t , T _ {j} , T _ {k}\right) - \ln K _ {k} - 1 / 2 v _ {j , k} ^ {2}}{v _ {j , k}}\right) - \Psi \left(t, T _ {j}, T _ {n}\right) N \left(- \frac {\ln \Psi \left(t , T _ {j} , T _ {k}\right) - \ln K _ {k} + 1 / 2 v _ {j , k} ^ {2}}{v _ {j , k}}\right) \tag {10.18}
+\chi_{j, k} \left(K_{k}\right) = K N \left(- \frac{\ln \Psi \left(t , T_{j} , T_{k}\right) - \ln K_{k} - 1 / 2 v_{j , k}^{2}}{v_{j , k}}\right) - \Psi \left(t, T_{j}, T_{n}\right) N \left(- \frac{\ln \Psi \left(t , T_{j} , T_{k}\right) - \ln K_{k} + 1 / 2 v_{j , k}^{2}}{v_{j , k}}\right) \tag {10.18}
 $$ where  $k = j + 1,\dots ,n$
 
 
@@ -221,7 +221,7 @@ $$ with  $\xi (u,T_j,T_k)$  being the instantaneous volatility function for the 
 For equation (10.17) to hold, Jamshidian shows that (Jamshidian theorem (1989)) the last line of (10.17) can be achieved only if "selected exercises" have no value. That is, if any  $K_{k} < P(T_{j},T_{k})$  (or  $K_{k} > P(T_{j},T_{k})$ ) then all  $K_{k} < P(T_{j},T_{k})$  (or  $K_{k} > P(T_{j},T_{k})$ ). The trick is to find such  $K_{k}$ 's so that this condition holds. We need to solve for "little strikes"  $K_{k}$ . For at-the-money swaptions, the solution to  $K_{k}$  is simple:
 
 $$
-K _ {k} = \Psi \left(t, T _ {j}, T _ {k}\right) \tag {10.21}
+K_{k} = \Psi \left(t, T_{j}, T_{k}\right) \tag {10.21}
 $$ for  $k = j + 1,\dots ,n$
 
 
@@ -237,7 +237,7 @@ $$ v_j = v_{j,j+1} \tag{10.22} $$ where  $v_{j,j + 1}$  is defined earlier as:
 
 
 $$
-\begin{array}{l} v _ {j, j + 1} ^ {2} = \tilde {\mathbb {V}} [ \ln P (T _ {j}, T _ {j + 1}) ] = \tilde {\mathbb {V}} [ \ln \Psi (T _ {j}, T _ {j}, T _ {j + 1}) ] \\ = \int_ {t} ^ {T _ {j}} \xi (u, T _ {j}, T _ {j + 1}) ^ {2} d u \\ \end{array}
+\begin{array}{l} v_{j, j + 1}^{2} = \tilde {\mathbb {V}} [ \ln P (T_{j}, T_{j + 1}) ] = \tilde {\mathbb {V}} [ \ln \Psi (T_{j}, T_{j}, T_{j + 1}) ] \\ = \int_{t}^{T_{j}} \xi (u, T_{j}, T_{j + 1})^{2} d u \\ \end{array}
 $$
 
 Note that  $T_{j + 1}$  may not equal  $T_{j} + \tau$ .
@@ -284,43 +284,43 @@ In Figure 10.4, we demonstrate a case where not all swaptions of all tenors are 
 For example, the  $2 \times 3$  swaption requires the following  $\xi$  values (which are identical):
 
 $$
-\begin{array}{c c} \xi_ {0, 2, 3} & \xi_ {1, 2, 3} \end{array}
+\begin{array}{c c} \xi_{0, 2, 3} & \xi_{1, 2, 3} \end{array}
 $$
 
 $$
-\begin{array}{c c} \xi_ {0, 3, 4} & \xi_ {1, 3, 4} \end{array}
+\begin{array}{c c} \xi_{0, 3, 4} & \xi_{1, 3, 4} \end{array}
 $$
 
 $$
-\begin{array}{c c} \xi_ {0, 4, 5} & \xi_ {1, 4, 5} \end{array}
+\begin{array}{c c} \xi_{0, 4, 5} & \xi_{1, 4, 5} \end{array}
 $$
 
 Then the  $2 \times 6$  swaption is used to solve for additional  $\xi$  values (which are identical):
 
 $$
-\begin{array}{c c} \xi_ {0, 5, 6} & \xi_ {1, 5, 6} \end{array}
+\begin{array}{c c} \xi_{0, 5, 6} & \xi_{1, 5, 6} \end{array}
 $$
 
 $$
-\begin{array}{c c} \xi_ {0, 6, 7} & \xi_ {1, 6, 7} \end{array}
+\begin{array}{c c} \xi_{0, 6, 7} & \xi_{1, 6, 7} \end{array}
 $$
 
 $$
-\begin{array}{c c} \xi_ {0, 7, 8} & \xi_ {1, 7, 8} \end{array}
+\begin{array}{c c} \xi_{0, 7, 8} & \xi_{1, 7, 8} \end{array}
 $$
 
 And finally the  $4 \times 3$  swaption is used to the remaining  $\xi$  values (which are identical):
 
 $$
-\begin{array}{c c} \xi_ {2, 5, 6} & \xi_ {3, 5, 6} \end{array}
+\begin{array}{c c} \xi_{2, 5, 6} & \xi_{3, 5, 6} \end{array}
 $$
 
 $$
-\begin{array}{c c} \xi_ {2, 6, 7} & \xi_ {3, 6, 7} \end{array}
+\begin{array}{c c} \xi_{2, 6, 7} & \xi_{3, 6, 7} \end{array}
 $$
 
 $$
-\begin{array}{c c} \xi_ {2, 7, 8} & \xi_ {3, 7, 8} \end{array}
+\begin{array}{c c} \xi_{2, 7, 8} & \xi_{3, 7, 8} \end{array}
 $$
 
 As we can see, our model is flexible enough to accommodate any number of swaptions. Since each swaption has at least one  $\xi$  value, all swaptions can be exactly repriced. In the Appendix, more details are given to clarify the bootstrapping process.
@@ -328,7 +328,7 @@ As we can see, our model is flexible enough to accommodate any number of swaptio
 In the following numerical example, we demonstrate how calibration is implemented and perfect repricing can be achieved. We use a simple example where swpations are quoted annually. We use maturities up to 4 years only, as a demonstration of the algorithm. The term structure is given as:
 
 $$
-\begin{array}{l} \begin{array}{c c} \mathrm {i} & \mathrm {P} (0, \mathrm {i}) \\ \hline \end{array} \quad \mathrm {y} (0, \mathrm {i}) \\ \begin{array}{c c c} 1 & 0. 9 8 0 7 & 0. 0 1 8 \end{array} \\ \begin{array}{c c c} 2 & 0. 9 4 9 4 & 0. 0 2 7 \end{array} \\ \begin{array}{c c c} 3 & 0. 9 1 6 0 & 0. 0 3 2 3 \end{array} \\ \begin{array}{c c c} 4 & 0. 8 8 2 9 & 0. 0 3 6 1 \end{array} \\ \end{array}
+\begin{array}{l} \begin{array}{c c} \mathrm{i} & \mathrm{P} (0, \mathrm{i}) \\ \hline \end{array} \quad \mathrm{y} (0, \mathrm{i}) \\ \begin{array}{c c c} 1 & 0. 9 8 0 7 & 0. 0 1 8 \end{array} \\ \begin{array}{c c c} 2 & 0. 9 4 9 4 & 0. 0 2 7 \end{array} \\ \begin{array}{c c c} 3 & 0. 9 1 6 0 & 0. 0 3 2 3 \end{array} \\ \begin{array}{c c c} 4 & 0. 8 8 2 9 & 0. 0 3 6 1 \end{array} \\ \end{array}
 $$ and the swaption quotes are:
 
 
@@ -341,30 +341,30 @@ Table 10.2: Swaption Prices (an example)
 Since 2278.10 is a  $1 \times 1$  swaption, it is a put option on  $P(T_{1}, T_{2})$ .
 
 $$
-C _ {1 \times 1} ^ {\mathrm {s w a p}} = P (t, T _ {1}) (1 + w _ {K}) \chi_ {1, 2}
+C_{1 \times 1}^{\mathrm{sw ap}} = P (t, T_{1}) (1 + w_{K}) \chi_{1, 2}
 $$ where (directly from equation (10.18) with  $j = 1$  and  $k = 2$ )
 
 
 $$
-\chi_ {1, 2} = K _ {2} N \left(- \frac {\ln \Psi (t , T _ {1} , T _ {2}) - \ln K _ {2} - ^ {1 / 2} v _ {1 , 2} ^ {2}}{v _ {1 , 2}}\right) - \Psi (t, T _ {1}, T _ {2}) N \left(- \frac {\ln \Psi (t , T _ {1} , T _ {2}) - \ln K _ {2} + ^ {1 / 2} v _ {1 , 2} ^ {2}}{v _ {1 , 2}}\right)
+\chi_{1, 2} = K_{2} N \left(- \frac{\ln \Psi (t , T_{1} , T_{2}) - \ln K_{2} -^{1 / 2} v_{1 , 2}^{2}}{v_{1 , 2}}\right) - \Psi (t, T_{1}, T_{2}) N \left(- \frac{\ln \Psi (t , T_{1} , T_{2}) - \ln K_{2} +^{1 / 2} v_{1 , 2}^{2}}{v_{1 , 2}}\right)
 $$
 
 (which is also a cap). From equation (10.21) we solve for
 
 $$
-K _ {2} = \Psi (t, T _ {1}, T _ {2}) = \frac {0 . 9 4 9 4}{0 . 9 8 0 7} = 0. 9 6 8 1
+K_{2} = \Psi (t, T_{1}, T_{2}) = \frac{0 . 9 4 9 4}{0 . 9 8 0 7} = 0. 9 6 8 1
 $$
 
 Then by (10.19):
 
 $$
-(1 + w _ {2}) K _ {2} = 1
+(1 + w_{2}) K_{2} = 1
 $$ we solve for  $w_{2} = 0.0330$  and the option value is  $P(0,1)\times \chi_{1,2} = 2205.34$ .
 
 
 Using this put option value, we can solve for the implied volatility in equation (10.18) as
 
-$$ v _ {j, k} = v _ {1, 2} = 0. 0 5 8 2 3 3
+$$ v_{j, k} = v_{1, 2} = 0. 0 5 8 2 3 3
 $$
 
 According to equation (10.20),  $\xi_{0,1,2} = v_{1,2} = 0.058233$ .
@@ -372,29 +372,29 @@ According to equation (10.20),  $\xi_{0,1,2} = v_{1,2} = 0.058233$ .
 Next, 5461.08 is a  $1 \times 2$  swaption. According to equation (10.17), it is a portfolio of two put options:  $j = 1$  and  $k = 1, 2$  in equation (10.18), i.e.
 
 $$
-C _ {1 \times 2} ^ {\mathrm {s w a p}} = P (t, T _ {1}) \left\{w _ {K} \left(\chi_ {1, 2} + \chi_ {1, 3}\right) + \chi_ {1, 3} \right\}
+C_{1 \times 2}^{\mathrm{sw ap}} = P (t, T_{1}) \left\{w_{K} \left(\chi_{1, 2} + \chi_{1, 3}\right) + \chi_{1, 3} \right\}
 $$
 
 The first option  $\chi_{1,2}$  in the above equation is identical to the one in the  $1\times 1$  swaption and hence  $v_{1,2}$  is already solved just now. The second put option is:
 
 $$
-\chi_ {1, 3} = K _ {3} N \left(- \frac {\ln \Psi (t , T _ {1} , T _ {3}) - \ln K _ {3} - ^ {1 / 2} v _ {1 , 3} ^ {2}}{v _ {1 , 3}}\right) - \Psi (t, T _ {1}, T _ {3}) N \left(- \frac {\ln \Psi (t , T _ {1} , T _ {3}) - \ln K _ {3} + ^ {1 / 2} v _ {1 , 3} ^ {2}}{v _ {1 , 3}}\right)
+\chi_{1, 3} = K_{3} N \left(- \frac{\ln \Psi (t , T_{1} , T_{3}) - \ln K_{3} -^{1 / 2} v_{1 , 3}^{2}}{v_{1 , 3}}\right) - \Psi (t, T_{1}, T_{3}) N \left(- \frac{\ln \Psi (t , T_{1} , T_{3}) - \ln K_{3} +^{1 / 2} v_{1 , 3}^{2}}{v_{1 , 3}}\right)
 $$
 
 From equation (10.21) we solve for
 
 $$
-K _ {3} = \Psi (t, T _ {1}, T _ {3}) = \frac {0 . 9 1 6 0}{0 . 9 8 0 7} = 0. 9 3 4 0
+K_{3} = \Psi (t, T_{1}, T_{3}) = \frac{0 . 9 1 6 0}{0 . 9 8 0 7} = 0. 9 3 4 0
 $$ and
 
 
-$$ w _ {3} (K _ {2} + K _ {3}) + K _ {3} = 1
+$$ w_{3} (K_{2} + K_{3}) + K_{3} = 1
 $$ allows us to solve for the swap rate as  $w_{3} = 0.0347$ .
 
 
 Given that, we need to solve for  $v_{1,3}$  with this swaption price of 5461.08. According to equation (10.20),
 
-$$ v _ {1, 3} ^ {2} = \{\xi_ {0, 1, 2} + \xi_ {0, 2, 3} \} ^ {2}
+$$ v_{1, 3}^{2} = \{\xi_{0, 1, 2} + \xi_{0, 2, 3} \}^{2}
 $$
 
 Hence solving for  $v_{1,3}$  from equation (10.18), then we can solve for  $\xi_{0,2,3} = 0.084293$ . The option values are: 2205.34 and 5203.94 respectively.
@@ -404,12 +404,12 @@ Similarly, 4207.68 is a  $1 \times 3$  swaption and we can solve for the put opt
 After the first column, we proceed to the second column, i.e.  $2 \times j$  swaptions. A  $2 \times 1$  swaption composes of a single put option:
 
 $$
-C _ {2 \times 1} ^ {\mathrm {s w a p}} = P (t, T _ {2}) (1 + w _ {K}) \chi_ {2, 3}
+C_{2 \times 1}^{\mathrm{sw ap}} = P (t, T_{2}) (1 + w_{K}) \chi_{2, 3}
 $$ where
 
 
 $$
-\chi_ {2, 3} = K N \left(- \frac {\ln \Psi (t , T _ {2} , T _ {3}) - \ln K ^ {- 1 / 2 v _ {2 , 3} ^ {2}}}{v _ {2 , 3}}\right) - \Psi (t, T _ {2}, T _ {3}) N \left(- \frac {\ln \Psi (t , T _ {2} , T _ {3}) - \ln K ^ {+ 1 / 2 v _ {2 , 3} ^ {2}}}{v _ {2 , 3}}\right)
+\chi_{2, 3} = K N \left(- \frac{\ln \Psi (t , T_{2} , T_{3}) - \ln K^{- 1 / 2 v_{2 , 3}^{2}}}{v_{2 , 3}}\right) - \Psi (t, T_{2}, T_{3}) N \left(- \frac{\ln \Psi (t , T_{2} , T_{3}) - \ln K^{+ 1 / 2 v_{2 , 3}^{2}}}{v_{2 , 3}}\right)
 $$ which can be used to solve for  $v_{2,3} = 0.11115$ . Given that  $v_{2,3}^2 = \xi_{0,2,3}^2 + \xi_{1,2,3}^2$  and  $\xi_{0,2,3} = 0.084293$ , we can solve for  $\xi_{1,2,3} = 0.07245$ .
 
 

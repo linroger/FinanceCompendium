@@ -51,13 +51,13 @@ the bond. The latter is often called a bond's yield to maturity (YTM) and is the
 Let  $T$  be the maturity of the bond and  $C(1), C(2) \ldots C(T)$  be the future cash flows; the yield to maturity is the rate of return which satisfies:
 
 $$
-P = \frac {C (1)}{1 + y} + \frac {C (2)}{(1 + y) ^ {2}} + \dots + \frac {C (T)}{(1 + y) ^ {T}}
+P = \frac{C (1)}{1 + y} + \frac{C (2)}{(1 + y)^{2}} + \dots + \frac{C (T)}{(1 + y)^{T}}
 $$
 
 If the bond pays a constant coupon C and a final payment (the par value) of D at maturity, then the yield to maturity must now solve:
 
 $$
-P = \frac {C}{1 + y} + \frac {C}{(1 + y) ^ {2}} + \dots + \frac {C + D}{(1 + y) ^ {T}}
+P = \frac{C}{1 + y} + \frac{C}{(1 + y)^{2}} + \dots + \frac{C + D}{(1 + y)^{T}}
 $$
 
 Hopefully it is clear that there is an inverse relationship between the price of a security and its yield to maturity. If the yield to maturity increases, the market price of the bond will decrease.
@@ -67,11 +67,11 @@ Hopefully it is clear that there is an inverse relationship between the price of
 Consider a bond issued in November 2013 that pays an annual coupon of  $1.25\%$ , and expires in November 2017. If it has a par value of  $\in 1,000$  and the yield to maturity is  $1.5\%$ , what is the price of this bond?
 
 $$
-P = \frac {C (1)}{1 + y} + \frac {C (2)}{(1 + y) ^ {2}} + \frac {C (3)}{(1 + y) ^ {3}} + \frac {C (4)}{(1 + y) ^ {4}}
+P = \frac{C (1)}{1 + y} + \frac{C (2)}{(1 + y)^{2}} + \frac{C (3)}{(1 + y)^{3}} + \frac{C (4)}{(1 + y)^{4}}
 $$
 
 $$
-C (1) = C (2) = C (3) = 1. 2 5 \% \text {of} \in 1, 0 0 0 = 0. 0 1 2 5 \times \in 1, 0 0 0 = \in 1 2. 5 0
+C (1) = C (2) = C (3) = 1. 2 5 \% \text{of} \in 1, 0 0 0 = 0. 0 1 2 5 \times \in 1, 0 0 0 = \in 1 2. 5 0
 $$
 
 $$
@@ -83,11 +83,11 @@ y = 1.5\% = 0.015
 $$
 
 $$
-P = \frac {1 2 . 5 0}{1 . 0 1 5} + \frac {1 2 . 5 0}{1 . 0 1 5 ^ {2}} + \frac {1 2 . 5 0}{1 . 0 1 5 ^ {3}} + \frac {1 2 . 5 0 + 1 0 0 0}{1 . 0 1 5 ^ {4}}
+P = \frac{1 2 . 5 0}{1 . 0 1 5} + \frac{1 2 . 5 0}{1 . 0 1 5^{2}} + \frac{1 2 . 5 0}{1 . 0 1 5^{3}} + \frac{1 2 . 5 0 + 1 0 0 0}{1 . 0 1 5^{4}}
 $$
 
 $$
-P = 1 2. 3 2 + 1 2. 1 3 + 1 1. 9 5 + 9 5 3. 9 6 = \text {€} 9 9 0. 3 6
+P = 1 2. 3 2 + 1 2. 1 3 + 1 1. 9 5 + 9 5 3. 9 6 = \text{€} 9 9 0. 3 6
 $$
 
 In November 2013, investors were willing to pay €930.36 for a bond issued by Tesco that paid €12.50 in November 2014, €12.50 in November 2015, €12.50 in November 2016 and €1012.50 in November 2017.
@@ -97,7 +97,7 @@ As the price is below the par value of €1,000, we say that the bond is priced 
 Recall that a bond price is:
 
 $$
-P = \frac {C}{1 + y} + \frac {C}{(1 + y) ^ {2}} + \dots + \frac {C + D}{(1 + y) ^ {T}}
+P = \frac{C}{1 + y} + \frac{C}{(1 + y)^{2}} + \dots + \frac{C + D}{(1 + y)^{T}}
 $$
 
 This can also be considered as an annuity paying C with maturity T and one final payment of D at time T. If we use the notation, then let  $a_{\overline{n} |i}$  denote the present value of the annuity, with a life of n at a rate of interest of i, paying 1 unit.
@@ -105,7 +105,7 @@ This can also be considered as an annuity paying C with maturity T and one final
 $a_{\overline{n}_D|i}$  can be found using  $\left[\frac{1}{i} -\frac{1}{i(1 + i)^n}\right]$  and the present value of the par value is, of course, simply  $\frac{a_{\overline{n}_D|i}}{(1 + i)^n}$ .
 
 $$
-\left[ \frac {1}{i} - \frac {1}{i (1 + i) ^ {n}} \right] = \left[ \frac {1}{0 . 0 1 5} - \frac {1}{i (1 + 0 . 0 1 5) ^ {4}} \right] = \left[ 6 6. 6 6 7 - \frac {6 6 . 6 6 7}{1 . 0 6 1 4} \right] = 3. 8 5 6 6
+\left[ \frac{1}{i} - \frac{1}{i (1 + i)^{n}} \right] = \left[ \frac{1}{0 . 0 1 5} - \frac{1}{i (1 + 0 . 0 1 5)^{4}} \right] = \left[ 6 6. 6 6 7 - \frac{6 6 . 6 6 7}{1 . 0 6 1 4} \right] = 3. 8 5 6 6
 $$
 
 $$
@@ -113,7 +113,7 @@ $$
 $$
 
 $$
-\frac {D}{(1 + i) ^ {n}} = \frac {1 0 0 0}{(1 + 0 . 0 1 5) ^ {4}} 9 4 2. 1 8.
+\frac{D}{(1 + i)^{n}} = \frac{1 0 0 0}{(1 + 0 . 0 1 5)^{4}} 9 4 2. 1 8.
 $$
 
 €48.21 + €942.18 = €990.39 – the discrepancy is due to rounding errors.
@@ -146,7 +146,7 @@ In March 2012, following the fallout from the global financial crisis, the YTM o
 Using these two YTMs, what would the price of the two zero coupon bonds be?
 
 $$
-\begin{array}{l} P _ {G E R M A N Y} = \frac {\epsilon 1 0 0 0}{(1 + 0 . 0 1 7 9) ^ {1 0}} = \epsilon 8 3 7. 4 3 \\ P _ {G R E E C E} = \frac {\text {€ 1 0 0 0}}{(1 + 0 . 3 8 9 7) ^ {1 0}} = \text {€ 3 7 . 2 2} \\ \end{array}
+\begin{array}{l} P_{G E R M A N Y} = \frac{\epsilon 1 0 0 0}{(1 + 0 . 0 1 7 9)^{1 0}} = \epsilon 8 3 7. 4 3 \\ P_{G R E E C E} = \frac{\text{€1 00 0}}{(1 + 0 . 3 8 9 7)^{1 0}} = \text{€3 7 .2 2} \\ \end{array}
 $$
 
 That is, the promise of receiving €1,000 from Germany was valued at €837.43, but the same promise, backed by the Greek government, was valued at just €37.22. Thus, to finance the same budget deficit, the Greek government would need to offer promises to repay over €22,000 compared to just €1,000 in Germany. The reason for this situation was the markets' view of the likelihood of default on the promise to repay by the Greek government, which was greater than the likelihood of default by the German government.
@@ -178,13 +178,13 @@ In section 2.6 we learned that beta measures the sensitivity of a stock to movem
 Duration can be found as follows:
 
 $$
-D = \frac {\sum_ {t = 1} ^ {T} \frac {t C _ {t}}{\left(1 + r\right) ^ {t}}}{P}
+D = \frac{\sum_{t = 1}^{T} \frac{t C_{t}}{\left(1 + r\right)^{t}}}{P}
 $$
 
 Expanding out the summation sign:
 
 $$
-D = \frac {1 \times \frac {C _ {1}}{(1 + i)} + 2 \times \frac {C _ {2}}{(1 + i) ^ {2}} + \dots + T \times \frac {C _ {T}}{(1 + i) ^ {T}}}{P}
+D = \frac{1 \times \frac{C_{1}}{(1 + i)} + 2 \times \frac{C_{2}}{(1 + i)^{2}} + \dots + T \times \frac{C_{T}}{(1 + i)^{T}}}{P}
 $$
 
 The duration can therefore be calculated by computing the present value (PV) of the cash flows, and then multiplying them by the time indices.
@@ -192,7 +192,7 @@ The duration can therefore be calculated by computing the present value (PV) of 
 The duration of a zero coupon bond is simply equal to its maturity. Returning to the equation above, and setting all coupon payments, prior to maturity, to zero, we can determine that:
 
 $$
-D = \frac {T \times \frac {C _ {T}}{(1 + i) ^ {T}}}{P} = T
+D = \frac{T \times \frac{C_{T}}{(1 + i)^{T}}}{P} = T
 $$
 
 It follows that if a bond makes coupon payments prior to maturity then the duration of a coupon-paying bond is less than the term to maturity,  $T$ .
@@ -206,7 +206,7 @@ Find the duration of a ten-year bond, with a face value of €1,000, paying annu
 With regard to the following equation:
 
 $$
-D = \frac {1 \times \frac {8 0}{(1 + 0 . 1)} + 2 \times \frac {8 0}{(1 + 0 . 1) ^ {2}} + \dots + 1 0 \times \frac {1 0 8 0}{(1 + 0 . 1) ^ {1 0}}}{P}
+D = \frac{1 \times \frac{8 0}{(1 + 0 . 1)} + 2 \times \frac{8 0}{(1 + 0 . 1)^{2}} + \dots + 1 0 \times \frac{1 0 8 0}{(1 + 0 . 1)^{1 0}}}{P}
 $$
 
 The price is the sum of the time period multiplied by the present value of the individual cash flows, which sums to 7,900.63. This is then divided by the price, which is the PV of the cash flows (CF) and equals €1,134.20 (at a premium to par, as the YTM is less than the coupon).
@@ -214,7 +214,7 @@ The price is the sum of the time period multiplied by the present value of the i
 The duration is then:
 
 $$
-7, 9 0 0. 6 3 / 1, 1 3 4. 2 0 = 6. 9 7 \mathrm {y e a r s}
+7, 9 0 0. 6 3 / 1, 1 3 4. 2 0 = 6. 9 7 \mathrm{ye ar s}
 $$
 
 The units for duration in this case are years, as in the numerator we are taking a time value, measured in years, and multiplying this by a euro amount. We then divide this by another euro amount. The euro amounts cancel and we are left with the units of years.
@@ -262,19 +262,19 @@ Earlier it was observed that duration is to bonds as beta is to stocks. With reg
 It can be shown that:
 
 $$
-\frac {\Delta P _ {0}}{P _ {0}} = - D \frac {\Delta (1 + i)}{(1 + i)}
+\frac{\Delta P_{0}}{P_{0}} = - D \frac{\Delta (1 + i)}{(1 + i)}
 $$
 
 It is often convenient to divide duration by  $(1 + i)$  and call the result modified duration:
 
 $$
-D _ {m} = \frac {D}{1 + i}
+D_{m} = \frac{D}{1 + i}
 $$
 
 It follows then that:
 
 $$
-\begin{array}{l} \frac {\Delta P _ {0}}{P _ {0}} = - D \frac {\Delta (1 + i)}{(1 + i)} = \\ - D _ {m} \times (1 + i) \times \frac {\Delta (1 + i)}{(1 + i)} = - D _ {m} \times \Delta (1 + i) \\ \frac {\Delta P _ {0}}{P _ {0}} = - D _ {m} \times \Delta (1 + i) \\ \end{array}
+\begin{array}{l} \frac{\Delta P_{0}}{P_{0}} = - D \frac{\Delta (1 + i)}{(1 + i)} = \\ - D_{m} \times (1 + i) \times \frac{\Delta (1 + i)}{(1 + i)} = - D_{m} \times \Delta (1 + i) \\ \frac{\Delta P_{0}}{P_{0}} = - D_{m} \times \Delta (1 + i) \\ \end{array}
 $$
 
 Hence the proportionate change in bond prices is negatively and linearly related to changes in yield to maturity.
@@ -286,25 +286,25 @@ Earlier, in section 4.6, we found the duration of a ten-year bond, with a face v
 According to the relationship outlined above, what does duration predict the new bond price will be if the YTM changes to (i)  $8.1\%$ , (ii)  $8.5\%$ , (iii)  $9\%$ ?
 
 $$
-D = 6. 9 7, D _ {m} = 6. 9 7 / 1. 0 8 = 6. 4 5
+D = 6. 9 7, D_{m} = 6. 9 7 / 1. 0 8 = 6. 4 5
 $$
 
 (i)  $\frac{\Delta P_0}{P_0} = -D_m \times \Delta (1 + i) = -6.45 \times 0.001 = -0.645\%$
 
 $$
-\text {n e w} = \epsilon 1, 1 3 4. 2 0 \times (1 + (- 0. 0 0 6 4 5)) = \epsilon 1, 1 2 6. 8 8
+\text{ne w} = \epsilon 1, 1 3 4. 2 0 \times (1 + (- 0. 0 0 6 4 5)) = \epsilon 1, 1 2 6. 8 8
 $$
 
 (ii) 8.5
 
 $$
-\text {n e w} = \epsilon 1, 1 3 4. 2 0 \times (1 + (- 0. 0 3 2 2 5)) = \epsilon 1, 0 9 7. 6 2
+\text{ne w} = \epsilon 1, 1 3 4. 2 0 \times (1 + (- 0. 0 3 2 2 5)) = \epsilon 1, 0 9 7. 6 2
 $$
 
 (iii)  $\frac{\Delta P_0}{P_0} = -D_m \times \Delta(1 + i) = -6.45 \times 0.01 = -6.45\%$
 
 $$
-\text {n e w} = \epsilon 1, 1 3 4. 2 0 \times (1 + (- 0. 0 6 4 5)) = \epsilon 1, 0 6 1. 9 4.
+\text{ne w} = \epsilon 1, 1 3 4. 2 0 \times (1 + (- 0. 0 6 4 5)) = \epsilon 1, 0 6 1. 9 4.
 $$
 
 Frederick Macaulay first proposed the measure of duration to represent the average maturity of a stream of payments in Some Theoretical Problems suggested by the Movements of Interest Rates, Bond Yields, and Stock Prices in the United States since 1856. As this was many years before the invention of the spreadsheet or the calculator, the ability to estimate a bond's price using just the duration and the change in interest rates was particularly attractive. Nowadays it would be a trivial exercise to find the new bond price, given the new interest rate.
@@ -318,7 +318,7 @@ Note that in each case the estimate of the new bond price, using duration, is le
 This relationship is depicted in the diagram below. The tangent drawn on the price yield curve represents duration and when we use the relationship:
 
 $$
-\frac {\Delta P _ {0}}{P _ {0}} = - D _ {m} \times \Delta (1 + i)
+\frac{\Delta P_{0}}{P_{0}} = - D_{m} \times \Delta (1 + i)
 $$
 
 we are assuming a linear relationship between bond price changes and yield changes, when in fact the relationship is convex. It is evident from the diagram that the larger the change in yield, the greater the error.
@@ -332,16 +332,16 @@ The spreadsheet for this exercise can be found here. Please ensure you click on 
 In order to correct for the error in estimating the change in bond price, due to the convex nature between price and yield to maturity, we must add in the following term:
 
 $$
-C \left[ \frac {\Delta (1 + i)}{(1 + i)} \right] ^ {2}
+C \left[ \frac{\Delta (1 + i)}{(1 + i)} \right]^{2}
 $$
 
 where:
 
 $$
-C = \frac {1}{2} \frac {\sum_ {t = 1} ^ {T} \frac {t (t + 1) C _ {t}}{(1 + i) ^ {t}}}{P}
+C = \frac{1}{2} \frac{\sum_{t = 1}^{T} \frac{t (t + 1) C_{t}}{(1 + i)^{t}}}{P}
 $$
 
-The calculation of convexity is very similar to that of duration with an additional step of multiplying the time step by the present value of cash flows by a further  $(1 + \text{time step})$ . Returning to the earlier example:
+The calculation of convexity is very similar to that of duration with an additional step of multiplying the time step by the present value of cash flows by a further  $(1 + \text{timestep})$ . Returning to the earlier example:
 
 <table><tr><td>Par=</td><td>€1,000.00</td><td></td><td></td><td></td><td></td></tr><tr><td>Coupon=</td><td>10.00%</td><td></td><td></td><td></td><td></td></tr><tr><td>ytm=</td><td>8.00%</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Year</td><td>CF</td><td>PV</td><td>t x PV</td><td>t x (t+1) x PV</td><td></td></tr><tr><td>1</td><td>€100.00</td><td>€92.59</td><td>€92.59</td><td>€185.19</td><td></td></tr><tr><td>2</td><td>€100.00</td><td>€85.73</td><td>€171.47</td><td>€514.40</td><td></td></tr><tr><td>3</td><td>€100.00</td><td>€79.38</td><td>€238.15</td><td>€952.60</td><td></td></tr><tr><td>4</td><td>€100.00</td><td>€73.50</td><td>€294.01</td><td>€1,470.06</td><td></td></tr><tr><td>5</td><td>€100.00</td><td>€68.06</td><td>€340.29</td><td>€2,041.75</td><td></td></tr><tr><td>6</td><td>€100.00</td><td>€63.02</td><td>€378.10</td><td>€2,646.71</td><td></td></tr><tr><td>7</td><td>€100.00</td><td>€58.35</td><td>€408.44</td><td>€3,267.55</td><td></td></tr><tr><td>8</td><td>€100.00</td><td>€54.03</td><td>€432.22</td><td>€3,889.94</td><td></td></tr><tr><td>9</td><td>€100.00</td><td>€50.02</td><td>€450.22</td><td>€4,502.24</td><td></td></tr><tr><td>10</td><td>€1,100.00</td><td>€509.51</td><td>€5,095.13</td><td>€56,046.41</td><td></td></tr><tr><td></td><td>Price=</td><td>€1,134.20</td><td>7,900.63</td><td>75,516.84</td><td>&lt;&lt;Sum of t x (t+1) x PV</td></tr><tr><td></td><td>D=</td><td>6.97</td><td></td><td></td><td></td></tr><tr><td></td><td>C=</td><td>33.29</td><td></td><td></td><td></td></tr></table>
 
@@ -354,7 +354,7 @@ You can vary the coupon and duration to note the impact on duration and convexit
 Returning to the example above, we had predicted a fall in price, just using duration, of  $6.45\%$  when yields rose by  $1\%$ . The additional correction from convexity would be:
 
 $$
-33.29 \times (0.01 / 1.08) ^ {2} = 0.285 \%
+33.29 \times (0.01 / 1.08)^{2} = 0.285 \%
 $$
 
 The total change would then be:

@@ -62,7 +62,7 @@ Similar to the underlying T bond quotes, T bond futures are quoted by clean pric
 
 where the accrued interest is computed from last coupon date to the settlement date. In return, the long side will receive the underlying bond whose value is:
 
-$$ d i r t y p i c e = \text {c l e a n} + \text {a c c r u e d}
+$$ d i r t y p i c e = \text{cl ea n} + \text{ac cr ue d}
 $$ where the accrued interest of the bond is the computed from the last coupon date till the purchase date of the bond.
 
 
@@ -70,7 +70,7 @@ The delivery profit (or loss) is the difference of the two. Note that if the bon
 
 $$
 
-\text {q u o t e d f u t u r e s p r i c e} \times \text {c o n v e n s i o n f a c t o r - q u o t e d b o n d p r i c e} \tag {9.1}
+\text{qu ot ed fu tu re sp ri ce} \times \text{co nv en si on fa ct or -q uo te db on dp ri ce} \tag {9.1}
 
 $$
 
@@ -126,14 +126,14 @@ The exchange option formula for the stocks is:
 
 $$
 
-\begin{array}{l} C = \hat {\mathbb {E}} \left[ e ^ {- r (T - t)} \max  \{X (T) - Y (T), 0 \} \right] \tag {9.2} \\ = X (t) N \left(d _ {+}\right) - Y (t) N \left(d _ {-}\right) \\ \end{array}
+\begin{array}{l} C = \hat {\mathbb {E}} \left[ e^{- r (T - t)} \max  \{X (T) - Y (T), 0 \} \right] \tag {9.2} \\ = X (t) N \left(d_{+}\right) - Y (t) N \left(d_{-}\right) \\ \end{array}
 
 $$ where
 
 
 $$
 
-\begin{array}{l} d _ {\pm} = \frac {\ln X (t) - \ln Y (t) \pm 1 / 2 v ^ {2} (T - t)}{v \sqrt {T - t}} \\ v ^ {2} = \sigma_ {X} ^ {2} + \sigma_ {Y} ^ {2} - 2 \rho \sigma_ {X} \sigma_ {Y} \\ \end{array}
+\begin{array}{l} d_{\pm} = \frac{\ln X (t) - \ln Y (t) \pm 1 / 2 v^{2} (T - t)}{v \sqrt{T - t}} \\ v^{2} = \sigma_{X}^{2} + \sigma_{Y}^{2} - 2 \rho \sigma_{X} \sigma_{Y} \\ \end{array}
 
 $$ and  $X$  and  $Y$  are two stocks and  $\sigma_{X}, \sigma_{X}$ , and  $\rho$  are their respective volatilities and correlation. Note that in the final equation, the risk-free rate is not present (although it is in the valuation).
 
@@ -160,7 +160,7 @@ The dry spell refers to the 1994-1999 period where the only deliverable option i
 As described in Figure 9.1, there are three periods for timing option. The first and also most valuable option is the last week (7 business days) of the delivery month. This is the period where the futures market is closed but bonds are still traded. As a result, the short side of the futures contract can wait for the best moment to buy the bond and make the delivery and make a profit:
 
 $$
-\max \{\Phi (v) \times C F _ {j} - B _ {j} (t) \}
+\max \{\Phi (v) \times C F_{j} - B_{j} (t) \}
 $$ where  $v < t < T$  is the end-of-month period.
 
 
@@ -177,7 +177,7 @@ The classical risk-neutral pricing theory states that the futures price is the r
 
 $$
 
-\begin{array}{l} \Phi (t, T _ {f}, \underline {{T}}) = \hat {\mathbb {E}} _ {t} [ \Pi (T _ {f}, \underline {{T}}; c) ] \\ = \hat {\mathbb {E}} _ {t} \left[ c \sum_ {j = 1} ^ {n} P \left(T _ {f}, T _ {j}\right) + P \left(T _ {f}, T _ {n}\right) \right] \\ = c \sum_ {j = 1} ^ {n} \hat {\mathbb {E}} _ {t} [ P (T _ {f}, T _ {j}) ] + \hat {\mathbb {E}} _ {t} [ P (T _ {f}, T _ {n}) ] \tag {9.3} \\ = c \sum_ {j = 1} ^ {n} \Phi (t, T _ {f}, T _ {j}) + \Phi (t, T _ {f}, T _ {n}) \\ \end{array}
+\begin{array}{l} \Phi (t, T_{f}, \underline {{T}}) = \hat {\mathbb {E}}_{t} [ \Pi (T_{f}, \underline {{T}}; c) ] \\ = \hat {\mathbb {E}}_{t} \left[ c \sum_{j = 1}^{n} P \left(T_{f}, T_{j}\right) + P \left(T_{f}, T_{n}\right) \right] \\ = c \sum_{j = 1}^{n} \hat {\mathbb {E}}_{t} [ P (T_{f}, T_{j}) ] + \hat {\mathbb {E}}_{t} [ P (T_{f}, T_{n}) ] \tag {9.3} \\ = c \sum_{j = 1}^{n} \Phi (t, T_{f}, T_{j}) + \Phi (t, T_{f}, T_{n}) \\ \end{array}
 
 $$ where  $P(\cdot, \cdot)$  is the zero coupon bond price,  $\Pi(\cdot, \cdot; \cdot)$  is the coupon bond with a coupon rate  $c$ ,  $\underline{T} = < T_1, \dots, T_n >$  is a vector of coupon payment dates between  $T_f$  the settlement date of the futures contract and the maturity of the bond  $T_n$ .
 
@@ -186,7 +186,7 @@ Note that in theory these are actual values and hence dirty prices. In reality, 
 T bond futures is more complex than this. The payoff upon delivery (at settlement time  $T_f$ ) is:
 
 $$
-\max  _ {j} \left\{\Phi \left(T _ {f}\right) \times q _ {j} - \Pi_ {j} \left(T _ {f}\right) \right\} \tag {9.4}
+\max_{j} \left\{\Phi \left(T_{f}\right) \times q_{j} - \Pi_{j} \left(T_{f}\right) \right\} \tag {9.4}
 $$ where  $q_{i}$  is the conversion factor of the  $i$ -th bond. The futures price is set so that the expected value should be 0. The notation here is simplified.
 
 
@@ -194,19 +194,19 @@ If there is no timing option so the futures contract is marked to market every d
 
 $$
 
-\hat {\mathbb {E}} _ {t} \left[ \max  \left\{\Phi \left(T _ {f}\right) \times q _ {j} - \Pi_ {j} \left(T _ {f}\right) \right\} \right] = 0
+\hat {\mathbb {E}}_{t} \left[ \max  \left\{\Phi \left(T_{f}\right) \times q_{j} - \Pi_{j} \left(T_{f}\right) \right\} \right] = 0
 
 $$
 
 $$
 
-\hat {\mathbb {E}} _ {t} \left[ \max  \left\{\Phi \left(T _ {f}\right) - \frac {\Pi_ {j} \left(T _ {f}\right)}{q _ {j}} \right\} \right] = 0 \tag {9.5}
+\hat {\mathbb {E}}_{t} \left[ \max  \left\{\Phi \left(T_{f}\right) - \frac{\Pi_{j} \left(T_{f}\right)}{q_{j}} \right\} \right] = 0 \tag {9.5}
 
 $$
 
 $$
 
-\Phi (t) = \hat {\mathbb {E}} _ {t} \left[ \min  \left\{\frac {\Pi_ {j} (T _ {f})}{q _ {j}} \right\} \right]
+\Phi (t) = \hat {\mathbb {E}}_{t} \left[ \min  \left\{\frac{\Pi_{j} (T_{f})}{q_{j}} \right\} \right]
 
 $$
 
@@ -221,7 +221,7 @@ Similar to commodity futures, we do not know which bond will be delivered and ne
 
 $$
 
-\pi_ {i} = [ \Phi (t) \times q _ {i} + a _ {i} (T _ {f}) ] - [ \Pi (t) + a _ {i} (t) ] \times (1 + r _ {f}) ^ {T _ {f} - t}
+\pi_{i} = [ \Phi (t) \times q_{i} + a_{i} (T_{f}) ] - [ \Pi (t) + a_{i} (t) ] \times (1 + r_{f})^{T_{f} - t}
 
 $$ where  $r_f$  is the risk-free rate,  $q_i$  is the conversion factor of the  $i$ -th bond,  $a_i(t)$  is the accrued interest of the  $i$ -th bond evaluated at time  $t$ ,  $\Phi$  is the futures price,  $\Pi$  is the bond price.
 
@@ -236,7 +236,7 @@ mini HW
 As shown in equation (9.2), we can implement this "Black-Scholes" type equation by simply assuming the coupon bonds (CTD and next CTD) follow a log-normal distribution with a constant volatility. Given that there is no discounting in the formula, one can easily obtain an option value and subtract it from the futures price without the option, i.e. equations (9.2) and (9.5):
 
 $$
-\begin{array}{l} \Phi (t, u) = \hat {\mathbb {E}} _ {t} \left[ \min \left\{\frac {X (u)}{q _ {X}}, \frac {Y (u)}{q _ {Y}} \right\} \right] \\ = \hat {\mathbb {E}} _ {t} \left[ \frac {Y (u)}{q _ {Y}} - \max  \left\{\frac {X (u)}{q _ {X}} - \frac {Y (u)}{q _ {Y}}, 0 \right\} \right] \tag {9.6} \\ = \frac {\Phi_ {Y} (t , u)}{q _ {Y}} - \left[ \frac {X (u)}{q _ {X}} N (d _ {+}) - \frac {Y (u)}{q _ {Y}} N (d _ {-}) \right] \\ \approx \frac {\Psi_ {Y} (t , u)}{q _ {Y}} - \left[ \frac {X (u)}{q _ {X}} N (d _ {+}) - \frac {Y (u)}{q _ {Y}} N (d _ {-}) \right] \\ \end{array}
+\begin{array}{l} \Phi (t, u) = \hat {\mathbb {E}}_{t} \left[ \min \left\{\frac{X (u)}{q_{X}}, \frac{Y (u)}{q_{Y}} \right\} \right] \\ = \hat {\mathbb {E}}_{t} \left[ \frac{Y (u)}{q_{Y}} - \max  \left\{\frac{X (u)}{q_{X}} - \frac{Y (u)}{q_{Y}}, 0 \right\} \right] \tag {9.6} \\ = \frac{\Phi_{Y} (t , u)}{q_{Y}} - \left[ \frac{X (u)}{q_{X}} N (d_{+}) - \frac{Y (u)}{q_{Y}} N (d_{-}) \right] \\ \approx \frac{\Psi_{Y} (t , u)}{q_{Y}} - \left[ \frac{X (u)}{q_{X}} N (d_{+}) - \frac{Y (u)}{q_{Y}} N (d_{-}) \right] \\ \end{array}
 $$ where  $\Phi$  is the futures price and  $\Psi$  is the forward price, and  $d_{+}$  and  $d_{-}$  are similar to equation (9.2) but with the adjustment of the conversion factors, i.e.  $X(t)\rightarrow X(t) / q_{X}$  and  $Y(t)\rightarrow Y(t) / q_{Y}$ . Note that the last line of equation (9.6) is to approximate the futures price (which is the result of the risk-neutral expectation) by the forward price which requires no model. $^4$
 
 
@@ -252,14 +252,14 @@ It is quite straightforward to use a lattice model such as he Ho-Lee model to ev
 
 For notation and symbols used here, please refer back to Chapter 1. In addition,
 
-$$ a _ {i} (t) = \text {a c c r u e d i n t e r e s t o f t h e i t h b o n d}
+$$ a_{i} (t) = \text{ac cr ue di nt er es to ft he it hb on d}
 $$
 
 $q_{i} =$  conversion factor of the ith bond
 
 $Q_{i}(t) =$  quoted coupon bond price of the ith bond
 
-$\Phi(t) = \text{quoted futures price with all delivery options}$
+$\Phi(t) = \text{quotedfuturespricewithalldeliveryoptions}$
 
 $\Phi^{*}(t) =$  futures price with the quality option and continuous marking to market
 
@@ -272,25 +272,25 @@ Note that the transaction price of a coupon bond is the quoted price plus the ac
 The above evaluation of the quality is correct only if marking to market is applied continuously throughout the life of the futures contract. Unfortunately, in the last 7 business days of the delivery month, the futures market is not open and the futures contract is not marked to market. The futures price used for settlement in this period is the last settlement price at the beginning of the 7-day period. Since the futures price is already determined, the actual payoff at the last delivery day,  $\mathrm{T}$ , is not necessarily 0. The short can actually gain or lose. To avoid arbitrage, the futures price at the beginning of the 7-day period should be set so that the expected present value of payoffs at maturity is 0. Under this circumstance, the futures price at the beginning of the 7-day period is a forward price, not a futures price. Formally, label the futures price as  $\Phi^{**}(v)$  to represent the futures price at the beginning of the end-of-month period,  $v$ , should be so set that:
 
 $$
-\hat {\mathbb {E}} _ {v} \left[ \exp \left(- \int_ {v} ^ {T} r (u) d u\right) \max  \left\{\Phi^ {* *} (v) q _ {i} - Q _ {i} (T) \right\} \right] = 0 \tag {9.7}
+\hat {\mathbb {E}}_{v} \left[ \exp \left(- \int_{v}^{T} r (u) d u\right) \max  \left\{\Phi^{* *} (v) q_{i} - Q_{i} (T) \right\} \right] = 0 \tag {9.7}
 $$ where  $r(u)$  is the instantaneous rate. Using the forward measure, we can then rewrite the above equation as:
 
 
 $$
 
-\tilde {\mathbb {E}} _ {v} ^ {(T)} \left[ \max  \left\{\Phi^ {* *} (v) q _ {i} - Q _ {i} (T) \right\} \right] = 0 \tag {9.8}
+\tilde {\mathbb {E}}_{v}^{(T)} \left[ \max  \left\{\Phi^{* *} (v) q_{i} - Q_{i} (T) \right\} \right] = 0 \tag {9.8}
 
 $$ which can be expanded as follows:
 
 
 $$
 
-\begin{array}{l} 0 = \tilde {\mathbb {E}} _ {v} ^ {(T)} \left[ \max  \left\{\Phi^ {* *} (v) q _ {i} - Q _ {i} (T) \right\} \right] \\ 0 = \tilde {\mathbb {E}} _ {v} ^ {(T)} \left[ \Phi^ {* *} (v) q _ {1} - Q _ {1} (T) + \max  \left\{\Phi^ {* *} (v) \left(q _ {i} - q _ {1}\right) - \left(Q _ {i} (T) - Q _ {1} (T)\right), 0 \right\} \right] \tag {9.9} \\ 0 = \Phi^ {* *} (v) q _ {1} - \Psi_ {1} (v) + \tilde {\mathbb {E}} _ {v} ^ {(T)} [ \max  \left\{Q _ {1} (T) - Q _ {i} (T) - \Phi^ {* *} (v) \left(q _ {1} - q _ {i}\right), 0 \right\} ] \\ \end{array}
+\begin{array}{l} 0 = \tilde {\mathbb {E}}_{v}^{(T)} \left[ \max  \left\{\Phi^{* *} (v) q_{i} - Q_{i} (T) \right\} \right] \\ 0 = \tilde {\mathbb {E}}_{v}^{(T)} \left[ \Phi^{* *} (v) q_{1} - Q_{1} (T) + \max  \left\{\Phi^{* *} (v) \left(q_{i} - q_{1}\right) - \left(Q_{i} (T) - Q_{1} (T)\right), 0 \right\} \right] \tag {9.9} \\ 0 = \Phi^{* *} (v) q_{1} - \Psi_{1} (v) + \tilde {\mathbb {E}}_{v}^{(T)} [ \max  \left\{Q_{1} (T) - Q_{i} (T) - \Phi^{* *} (v) \left(q_{1} - q_{i}\right), 0 \right\} ] \\ \end{array}
 
 $$ and the futures price at time  $v$  can be written as:
 
 $$
-\Phi^ {* *} (v) = \frac {\Psi_ {1} (v)}{q _ {1}} - \frac {1}{q _ {1}} \tilde {\mathbb {E}} _ {v} ^ {(T)} [ \max  \left\{Q _ {1} (T) - Q _ {i} (T) - K _ {i} ^ {* *} \right\} ] \tag {9.10}
+\Phi^{* *} (v) = \frac{\Psi_{1} (v)}{q_{1}} - \frac{1}{q_{1}} \tilde {\mathbb {E}}_{v}^{(T)} [ \max  \left\{Q_{1} (T) - Q_{i} (T) - K_{i}^{* *} \right\} ] \tag {9.10}
 $$ where  $K_{i}^{**} = (q_{1} - q_{i})\Phi^{**}(v)$ . Note that  $\Psi_{1}(v) = \tilde{\mathbb{E}}_{v}^{(T)}[Q_{1}(T)]$  is the forward price of the first bond. The interpretation of this result is similar to that of (9.6), except that the risk neutral measure is replaced by the forward measure and the futures price becomes the forward price. However, unlike (9.6), the futures price at time  $v$  has no easy solution, because it appears on both sides of the equation. This futures price has to be solved recursively using a numerical method. In a lattice framework suggested by Boyle (1989), we first choose an initial value for the futures price at time  $v$ , calculate payoffs at various states at maturity  $T$ , and then work backwards along the lattice. We adjust the futures price until the discounted payoff computed from the lattice is 0. Once the futures price at time  $v$  is set, we can then travel back along the lattice and use the risk neutral probabilities till the end of the last wild card period,  $u_{n} + h$ . Then the similar procedure for the end-of-month period is repeated for the last wild card period to arrive at the futures price at the beginning of the wild card period  $u_{n}$ . Again, the risk neutral expectation is taken at  $u_{n-1} + h$  and a recursive search is to compute the futures price at  $u_{n-1}$ . The process is repeated until the delivery month is over. Since the futures price becomes a forward price which cannot be obtained without a recursive search. The search for the "forward price" takes place at every node at all the times (i.e.,  $u_{1}, u_{2}, \dots, u_{n}, v$ ). As a result, to compute the futures price with the quality option is prohibitively expensive.
 
 
@@ -305,7 +305,7 @@ In addition to the EOM timing option that refers the last 7 trading days of the 
 
 $$
 
-\Phi (t) > \min  \left\{\frac {Q _ {i} (t)}{q _ {i}} \right\} \Leftrightarrow \max  \left\{\Phi (t) q _ {i} - Q _ {i} (t) \right\} > 0 \tag {9.11}
+\Phi (t) > \min  \left\{\frac{Q_{i} (t)}{q_{i}} \right\} \Leftrightarrow \max  \left\{\Phi (t) q_{i} - Q_{i} (t) \right\} > 0 \tag {9.11}
 
 $$
 
@@ -338,7 +338,7 @@ We find that An American option is bounded from above by the risk neutral expect
 
 $$
 
-\hat {\mathbb {E}} _ {T - \Delta t} [ \delta (T - \Delta t, T) X (T) ] \tag {9.12}
+\hat {\mathbb {E}}_{T - \Delta t} [ \delta (T - \Delta t, T) X (T) ] \tag {9.12}
 
 $$ or the intrinsic value:
 
@@ -350,7 +350,7 @@ X (T - \Delta t) \tag {9.13}
 $$ whichever is larger where  $\delta(t, s)$  represents the discount factor from time  $t$  to time  $s$ . At  $T - 2\Delta t$ , the larger quantity of the above result is discounted and compared with the early exercise value, i.e. the payoff is either the continuation American value:
 
 $$
-\hat {\mathbb {E}} _ {T - 2 \Delta t} [ \delta (T - 2 \Delta t, T - \Delta t) \max  \{\hat {\mathbb {E}} _ {T - \Delta t} [ \delta (T - \Delta t, T) X (T) ], X (T - \Delta t) \} ] \quad (9. 1 4)
+\hat {\mathbb {E}}_{T - 2 \Delta t} [ \delta (T - 2 \Delta t, T - \Delta t) \max  \{\hat {\mathbb {E}}_{T - \Delta t} [ \delta (T - \Delta t, T) X (T) ], X (T - \Delta t) \} ] \quad (9. 1 4)
 $$ or the intrinsic value:
 
 
@@ -361,13 +361,13 @@ X (T - 2 \Delta t) \tag {9.15}
 $$ whichever is larger. This process is repeated until the current time is reached and the American option value is obtained. Now, consider a function at time  $T - \Delta t$ ,  $\hat{\mathbb{E}}_{T - \Delta t}[X(T)]$ . It is certainly true that:
 
 $$
-\hat {\mathbb {E}} _ {T - \Delta t} [ X (T) ] > \hat {\mathbb {E}} _ {T - \Delta t} [ \delta (T - \Delta t, T) X (T) ] \tag {9.16}
+\hat {\mathbb {E}}_{T - \Delta t} [ X (T) ] > \hat {\mathbb {E}}_{T - \Delta t} [ \delta (T - \Delta t, T) X (T) ] \tag {9.16}
 $$ provided that the values of the discount factor are less than one for all sample paths. If  $\hat{\mathbb{E}}_{T - \Delta t}[X(T)] > X(T - \Delta t)$  is also true, then at  $T - 2\Delta t$ , it is true that this expected payoff is greater than the continuation value, i.e.:
 
 
 $$
 
-\begin{array}{l} \hat {\mathbb {E}} _ {T - 2 \Delta t} [ X (T) ] = E _ {T - 2 \Delta t} [ \hat {\mathbb {E}} _ {T - \Delta t} [ X (T) ] ] \\ > \hat {\mathbb {E}} _ {T - 2 \Delta t} [ \delta (T - 2 \Delta t, T - \Delta t) \max  \left\{E _ {T - \Delta t} [ \delta (T - \Delta t, T) X (T) ], X (T - \Delta t) \right\} ] \tag {9.17} \\ \end{array}
+\begin{array}{l} \hat {\mathbb {E}}_{T - 2 \Delta t} [ X (T) ] = E_{T - 2 \Delta t} [ \hat {\mathbb {E}}_{T - \Delta t} [ X (T) ] ] \\ > \hat {\mathbb {E}}_{T - 2 \Delta t} [ \delta (T - 2 \Delta t, T - \Delta t) \max  \left\{E_{T - \Delta t} [ \delta (T - \Delta t, T) X (T) ], X (T - \Delta t) \right\} ] \tag {9.17} \\ \end{array}
 
 $$
 
@@ -383,7 +383,7 @@ Eurodollar futures are futures contracts settled on LIBOR. A three-month LIBOR i
 
 $$
 
-L = 4 \left(\frac {1}{P \left(t , t + 1 / 4\right)} - 1\right) \tag {9.18}
+L = 4 \left(\frac{1}{P \left(t , t + 1 / 4\right)} - 1\right) \tag {9.18}
 
 $$
 
@@ -393,7 +393,7 @@ The Eurodollar futures quotes can be converted to the futures price as:
 
 $$
 
-\Phi^ {\mathrm {E D}} = 1 0 0 - \frac {1 0 0 - \mathrm {Q F P}}{4} \tag {9.19}
+\Phi^{\mathrm{ED}} = 1 0 0 - \frac{1 0 0 - \mathrm{QF P}}{4} \tag {9.19}
 
 $$ where QFP is quoted futures price.
 
@@ -404,12 +404,12 @@ The delivery of Eurodollar futures is cash equal to:
 
 $$
 
-1 - \frac {L _ {3 m}}{4} \tag {9.20}
+1 - \frac{L_{3 m}}{4} \tag {9.20}
 
 $$ where  $L_{3m}$  is a 3-month LIBOR. Given the relationship between LIBOR and discount factor in equation (9.18), we know it is:
 
 $$
-1 - \left(\frac {1}{P (t , t + ^ {1} / 4)} - 1\right) = 2 - \frac {1}{P (t , t + ^ {1} / 4)}
+1 - \left(\frac{1}{P (t , t +^{1} / 4)} - 1\right) = 2 - \frac{1}{P (t , t +^{1} / 4)}
 $$
 
 ED futures are cash settled and hence no delivery options to be evaluated.
@@ -419,7 +419,7 @@ ED futures are cash settled and hence no delivery options to be evaluated.
 Recall that the futures price is the risk-neutral expectation of the underlying payoff. Hence, ED futures price must be:
 
 $$
-\Phi^ {\mathrm {E D}} = \hat {\mathbb {E}} \left[ 2 - \frac {1}{P (t , t + \frac {1}{4})} \right] \tag {9.21}
+\Phi^{\mathrm{ED}} = \hat {\mathbb {E}} \left[ 2 - \frac{1}{P (t , t + \frac{1}{4})} \right] \tag {9.21}
 $$ which needs a pricing model for LIBOR before we can evaluate ED futures.
 
 
@@ -435,7 +435,7 @@ For example, a call option on ED futures:
 
 $$
 
-\begin{array}{l} C ^ {\mathrm {E D}} = \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {T _ {C}} r (u) d u\right) \max  \left\{\Phi^ {\mathrm {E D}} - K, 0 \right\} \right] \\ = \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {T _ {C}} r (u) d u\right) \max  \left\{\left(2 - \frac {1}{P \left(T _ {C} , T _ {C} + 1 / 4\right)}\right) - K, 0 \right\} \right] \\ = \hat {\mathbb {E}} _ {t} \left[ \exp \left(- \int_ {t} ^ {T _ {C}} r (u) d u\right) \min  \left\{2 - K - \frac {1}{P \left(T _ {C} , T _ {C} + 1 / 4\right)}, 0 \right\} \right] \\ \end{array}
+\begin{array}{l} C^{\mathrm{ED}} = \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{T_{C}} r (u) d u\right) \max  \left\{\Phi^{\mathrm{ED}} - K, 0 \right\} \right] \\ = \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{T_{C}} r (u) d u\right) \max  \left\{\left(2 - \frac{1}{P \left(T_{C} , T_{C} + 1 / 4\right)}\right) - K, 0 \right\} \right] \\ = \hat {\mathbb {E}}_{t} \left[ \exp \left(- \int_{t}^{T_{C}} r (u) d u\right) \min  \left\{2 - K - \frac{1}{P \left(T_{C} , T_{C} + 1 / 4\right)}, 0 \right\} \right] \\ \end{array}
 
 $$ which is a put option on bond.
 
@@ -473,7 +473,7 @@ Note that:
 
 $$
 
-S _ {t} = \mathbb {E} _ {t} \left[ \exp \left\{- \int_ {t} ^ {t} r _ {u} d u \right\} S _ {T} \right] = P _ {t, T} \Psi_ {t, T} = P _ {t, T} \Phi_ {t, T} + \mathrm {c o v} [ D _ {t, T}, S _ {T} ]
+S_{t} = \mathbb {E}_{t} \left[ \exp \left\{- \int_{t}^{t} r_{u} d u \right\} S_{T} \right] = P_{t, T} \Psi_{t, T} = P_{t, T} \Phi_{t, T} + \mathrm{co v} [ D_{t, T}, S_{T} ]
 
 $$
 
@@ -481,7 +481,7 @@ This leads to:
 
 $$
 
-P _ {t, T} [ \Psi_ {t, T} - \Phi_ {t, T} ] = \mathrm {c o v} [ D _ {t, T}, S _ {T} ]
+P_{t, T} [ \Psi_{t, T} - \Phi_{t, T} ] = \mathrm{co v} [ D_{t, T}, S_{T} ]
 
 $$
 
@@ -489,7 +489,7 @@ Hence we know:
 
 $$
 
-\begin{array}{l} \Psi_ {t, T} > \Phi_ {t, T} \quad \operatorname {c o v} \left[ D _ {t, T}, S _ {T} \right] > 0 \\ \Psi_ {t, T} <   \Phi_ {t, T} \quad \mathrm {c o v} [ D _ {t, T}, S _ {T} ] <   0 \\ \end{array}
+\begin{array}{l} \Psi_{t, T} > \Phi_{t, T} \quad \operatorname{co v} \left[ D_{t, T}, S_{T} \right] > 0 \\ \Psi_{t, T} <   \Phi_{t, T} \quad \mathrm{co v} [ D_{t, T}, S_{T} ] <   0 \\ \end{array}
 
 $$
 

@@ -125,7 +125,7 @@ Thus we see some bonds trading above and, as in this case, below the nominal val
 There are two types of yields on dated gilts. The case of a Treasury 10 pc with five years to maturity currently selling in the secondary market at £120 will serve to illustrate the two different types. From the name of the gilt we glean that it pays a coupon of £10 per year (10 per cent of the nominal value of £100). For £120 investors can buy this gilt from other investors on the secondary market to receive a current yield (also known as the interest yield, flat yield, income yield, simple yield, annual yield and running yield) of 8.33 per cent.
 
 $$
-\begin{array}{l} \text {C u r r e n t} = \frac {\text {G r o s s (b e f o r e t a x) i n t e r s t c o u p o n}}{\text {M a r k e t p r i c e}} \times 1 0 0 \\ = \frac{\text{£}10}{\text{£}120}\times 100 = 8.33\% \\ \end{array}
+\begin{array}{l} \text{Cu rr en t} = \frac{\text{Gr os s (be fo re ta x)i nt er st co up on}}{\text{Ma rk et pr ic e}} \times 1 0 0 \\ = \frac{\text{£}10}{\text{£}120}\times 100 = 8.33\% \\ \end{array}
 $$
 
 This is not the true rate of return available to the investor because we have failed to take into account the capital loss over the next five years. The investor pays £120 but will receive only the nominal value of £100 at maturity. If this £20 loss is apportioned over the five years it works out at £4 per year. The capital loss as a percentage of what the investor pays (£120) is £4/£120 × 100 = 3.33 per cent per year. This loss to redemption has to be subtracted from the annual interest yield to give an approximation to the yield to maturity (YTM) or redemption yield. This is also called or gross redemption yield ('gross' meaning that it ignores taxation on the bond). We do not know the bond holder's tax status and therefore cannot allow for tax deducted on the interest or capital received on the bond.
@@ -158,13 +158,13 @@ Gilts usually pay coupons twice a year. Between payments the interest accrues on
 Gilts (and other bonds) are quoted at clean prices – that is, quoted without taking account of the accrued interest. However, the buyer will pay the clean price plus the accrued interest value (called the dirty price or full price or invoice price) and receives all of the next coupon. So, if you buy a gilt four months before the next coupon is due, you would pay the clean price, say £98, plus 60 days' accrued interest (i.e. two months of accrued coupon since the last was paid). The relationship between clean and dirty prices for a bond which pays a coupon every six months is:
 
 $$
-\text {D i r t y p r i c e} = \text {C l a n p r i c e} + \left[ \frac {\text {A n n u a l c o u p o n}}{2} \times \frac {\text {N u m b e r o f d a y s s i n c e l a s t c o u p o n}}{\text {N u m b e r o f d a y s s e p a r a t i n g c o u p o n p a y m e n t s}} \right]
+\text{Di rt yp ri ce} = \text{Cl an pr ic e} + \left[ \frac{\text{An nu al co up on}}{2} \times \frac{\text{Nu mb er of da ys si nc el as tc ou po n}}{\text{Nu mb er of da ys se pa ra ti ng co up on pa ym en ts}} \right]
 $$
 
 So, if the bond pays an annual coupon of 7 per cent and is currently quoted at a clean price of £101, the dirty price is:
 
 $$
-\text {D i r t y p r i c e} = £ 1 0 1 + \left[ \frac {\pmb {\mathcal {E}} 7}{2} \times \frac {6 0}{1 8 2} \right] = £ 1 0 2. 1 5 3 8 5
+\text{Di rt yp ri ce} = £ 1 0 1 + \left[ \frac{\pmb {\mathcal {E}} 7}{2} \times \frac{6 0}{1 8 2} \right] = £ 1 0 2. 1 5 3 8 5
 $$
 
 If you bought just before the coupon is to be paid, the situation is different; there would not be enough time to change the register to make sure that the coupon goes to the new owner. To allow for this problem a gilt switches from being quoted cum-dividend to being ex-dividend (xd) a few days before an interest payment. If you bought during the ex-dividend period the person you bought from would receive the accrued interest from the issuer – this would be reflected in the price you pay.
@@ -311,7 +311,7 @@ Some bonds are described as 'irredeemable' (or 'perpetual') as they have no fixe
 Bonds which are sold at well below the par value are called deep discounted bonds, the most extreme form of which is the zero coupon bond. Because these are sold at a large discount to the nominal value, the investor makes a capital gain by holding the bond instead of receiving coupons. It is easy to calculate the rate of return offered to an investor on this type of bond. For example, if a company issues a bond at a price of £60 which is redeemable at £100 in eight years, the annualised rate of return  $(r)$  is:
 
 $$
-\begin{array}{l} 6 0 (1 + r) ^ {8} = 1 0 0 \\ r = \sqrt [ 8 ]{\frac {100}{60}} - 1 = 0.066 \text {or} 6.6 \% \text {per year} \\ \end{array}
+\begin{array}{l} 6 0 (1 + r)^{8} = 1 0 0 \\ r = \sqrt [ 8 ]{\frac{100}{60}} - 1 = 0.066 \text{or} 6.6 \% \text{peryear} \\ \end{array}
 $$
 
 These bonds are particularly useful for firms with low cash flows in the near term, for example firms engaged in a major property development that will not mature for many years.
@@ -557,7 +557,7 @@ Convertible bonds (or convertible loan stocks) carry a rate of interest in the s
 Venture Production, a North Sea oil explorer, issued convertible bonds in July 2005. The issue raised £29 million. The bonds were to be redeemed in 2010 if they had not been converted before this and were issued at a par value of £100. The coupon was set at 4.25 per cent and the conversion price was at 474p per share. From this information we can calculate the conversion ratio:
 
 $$
-\text {C o n v e r s i o n} = \frac {\text {N o m i n a l (p a r) v a l u e o f b o n d}}{\text {C o n v e r s i o n p r i c e}} = \frac {\text {£ 1 0 0}}{\text {£ 4 . 7 4}} = 2 1. 1 \text {s h a r e s}
+\text{Co nv er si on} = \frac{\text{No mi na l (pa r)v al ue of bo nd}}{\text{Co nv er si on pr ic e}} = \frac{\text{£1 00}}{\text{£4 .7 4}} = 2 1. 1 \text{sh ar es}
 $$
 
 Each bond carries the right to convert to 21.1 shares, which is equivalent to paying  $474\mathrm{p}$  for each share at the  $\mathbb{L}100$  par value of the bond.
@@ -575,7 +575,7 @@ Exhibit 6.12 describes some of the technical terms associated with convertibles.
 This gives the number of ordinary shares into which a convertible bond may be converted:
 
 $$
-\text {C o n v e r s i o n} = \frac {\text {N o m i n a l (p a r) v a l u e o f b o n d}}{\text {C o n v e r s i o n p r i c e}}
+\text{Co nv er si on} = \frac{\text{No mi na l (pa r)v al ue of bo nd}}{\text{Co nv er si on pr ic e}}
 $$
 
 # Conversion price
@@ -583,7 +583,7 @@ $$
 This gives the price of each ordinary share obtainable by exchanging a convertible bond:
 
 $$
-\text {C o n v e r s i o n p r i c e} = \frac {\text {N o m i n a l (p a r) v a l u e o f b o n d}}{\text {N u m b e r o f s h a r e s i n t o w h i c h b o n d m a y b e c o n v e r t e d}}
+\text{Co nv er si on pr ic e} = \frac{\text{No mi na l (pa r)v al ue of bo nd}}{\text{Nu mb er of sh ar es in to wh ic hb on dm ay be co nv er te d}}
 $$
 
 # Conversion premium
@@ -591,7 +591,7 @@ $$
 This gives the difference between the conversion price and the market share price, expressed as a percentage:
 
 $$
-\text {C o n v e r s i o n p r e m i u m} = \frac {\text {C o n v e r s i o n p r i c e} - \text {M a r k e t s h a r e p r i c e}}{\text {M a r k e t s h a r e p r i c e}} \times 1 0 0
+\text{Co nv er si on pr em iu m} = \frac{\text{Co nv er si on pr ic e} - \text{Ma rk et sh ar ep ri ce}}{\text{Ma rk et sh ar ep ri ce}} \times 1 0 0
 $$
 
 # Conversion value
@@ -599,7 +599,7 @@ $$
 This is the value of a convertible bond if it were converted into ordinary shares at the current share price:
 
 $$
-\text {C o n v e r s i o n v a l u e} = \text {C u r r e n t s h a r e p r i c e} \times \text {C o n v e r s i o n r a t i o}
+\text{Co nv er si on va lu e} = \text{Cu rr en ts ha re pr ic e} \times \text{Co nv er si on ra ti o}
 $$
 
 Convertibles with large conversion premiums trade much like ordinary bonds because the option to convert is not a strong feature in their pricing. They offer higher yields and prices are not volatile. Those trading with a small conversion premium have lower yields and the prices are more volatile as they are more closely linked with the share price.
@@ -1031,7 +1031,7 @@ Take the case of an irredeemable bond with an annual coupon of 8 per cent. This 
 The formula relating the price of an irredeemable bond, the coupon and the market rate of interest is:
 
 $$
-P _ {D} = \frac {C}{k _ {D}}
+P_{D} = \frac{C}{k_{D}}
 $$ where  $\mathrm{P_D} =$  price of bond
 
 
@@ -1043,7 +1043,7 @@ Also:
 
 $$
 
-V _ {D} = \frac {I}{k _ {D}}
+V_{D} = \frac{I}{k_{D}}
 
 $$ where  $\mathrm{V}_D =$  total market value of all of the bonds of this type
 
@@ -1051,7 +1051,7 @@ $I =$  total annual nominal interest of all the bonds of this type
 
 We may wish to establish the market rate of interest represented by the market price of the bond. For example, if an irredeemable bond offers an annual coupon of 9.5 per cent and is currently trading at £87.50, with the next coupon due in one year, the rate of return is:
 
-$$ k _ {D} = \frac {C}{P _ {D}} = \frac {9.5}{87.5} \times 100 = 10.86 \%
+$$ k_{D} = \frac{C}{P_{D}} = \frac{9.5}{87.5} \times 100 = 10.86 \%
 $$
 
 # Redeemable bonds
@@ -1059,13 +1059,13 @@ $$
 A purchaser of a redeemable bond buys two types of income promise: first the coupon, second the redemption payment. The amount that an investor will pay depends on the amount these income flows are worth when discounted at the rate of return required on that risk class of debt. The relationships are expressed in the following formulae:
 
 $$
-P _ {D} = \frac {C _ {1}}{1 + k _ {D}} + \frac {C _ {2}}{(1 + k _ {D}) ^ {2}} + \frac {C _ {3}}{(1 + k _ {D}) ^ {3}} + \frac {C _ {4}}{(1 + k _ {D}) ^ {4}} + \ldots + \frac {C _ {n}}{(1 + k _ {D}) ^ {n}} + \frac {R _ {n}}{(1 + k _ {D}) ^ {n}}
+P_{D} = \frac{C_{1}}{1 + k_{D}} + \frac{C_{2}}{(1 + k_{D})^{2}} + \frac{C_{3}}{(1 + k_{D})^{3}} + \frac{C_{4}}{(1 + k_{D})^{4}} + \ldots + \frac{C_{n}}{(1 + k_{D})^{n}} + \frac{R_{n}}{(1 + k_{D})^{n}}
 $$ and:
 
 
 $$
 
-V _ {D} = \frac {I _ {1}}{1 + k _ {D}} + \frac {I _ {2}}{(1 + k _ {D}) ^ {2}} + \frac {I _ {3}}{(1 + k _ {D}) ^ {3}} + \frac {I _ {4}}{(1 + k _ {D}) ^ {4}} + \ldots + \frac {I _ {n}}{(1 + k _ {D}) ^ {n}} + \frac {R ^ {\star} {} _ {n}}{(1 + k _ {D}) ^ {n}}
+V_{D} = \frac{I_{1}}{1 + k_{D}} + \frac{I_{2}}{(1 + k_{D})^{2}} + \frac{I_{3}}{(1 + k_{D})^{3}} + \frac{I_{4}}{(1 + k_{D})^{4}} + \ldots + \frac{I_{n}}{(1 + k_{D})^{n}} + \frac{R^{\star} {}_{n}}{(1 + k_{D})^{n}}
 
 $$ where  $C_1, C_2, C_3$  and  $C_4 =$  nominal interest per bond in years 1, 2, 3 and 4 up to  $n$  years
 
@@ -1088,17 +1088,17 @@ What is the price investors will pay for this bond at the time of issue if the m
 # Answer
 
 $$
-P _ {D} = \frac {8}{1 + 0 . 0 7} + \frac {8}{(1 + 0 . 0 7) ^ {2}} + \frac {8}{(1 + 0 . 0 7) ^ {3}} + \dots + \frac {8}{(1 + 0 . 0 7) ^ {6}} + \frac {1 0 0}{(1 + 0 . 0 7) ^ {6}}
+P_{D} = \frac{8}{1 + 0 . 0 7} + \frac{8}{(1 + 0 . 0 7)^{2}} + \frac{8}{(1 + 0 . 0 7)^{3}} + \dots + \frac{8}{(1 + 0 . 0 7)^{6}} + \frac{1 0 0}{(1 + 0 . 0 7)^{6}}
 $$
 
 £8 annuity for 6 years @ 7 per cent = 4.7665 × 8 = 38.132
 
 $$
-\text {p l u s} \frac {1 0 0}{(1 + 0 . 0 7) ^ {6}} = \underline {{6 6 . 6 3 4}}
+\text{pl us} \frac{1 0 0}{(1 + 0 . 0 7)^{6}} = \underline {{6 6 . 6 3 4}}
 $$
 
 $$
-P _ {D} = £ 104.766
+P_{D} = £ 104.766
 $$
 
 # Question 2
@@ -1110,11 +1110,11 @@ What is the bond's value in the secondary market in September 2014 if market int
 £8 annuity for 3 years @ 9 per cent = 2.5313 × 8 = 20.25
 
 $$
-\text {p l u s} \frac {1 0 0}{(1 + 0 . 0 9) ^ {3}} = \underline {{7 7 . 2 2}}
+\text{pl us} \frac{1 0 0}{(1 + 0 . 0 9)^{3}} = \underline {{7 7 . 2 2}}
 $$
 
 $$
-P _ {D} = \underline {{\text {£ 9 7 . 4 7}}}
+P_{D} = \underline {{\text{£9 7 .4 7}}}
 $$
 
 Again, note that as interest rates rise, the price of bonds falls.
@@ -1124,11 +1124,11 @@ If we need to calculate the rate of return demanded by investors from a particul
 For example, Bluebird plc issued a bond many years ago which is due for redemption at par of £100 in three years. The annual coupon is 6 per cent (next one payable in one year) and the market price is £91. The rate of return now offered in the market by this bond is found by solving for  $k_{D}$ :
 
 $$
-P _ {D} = \frac {C _ {1}}{1 + k _ {D}} + \frac {C _ {2}}{(1 + k _ {D}) ^ {2}} + \frac {C _ {3}}{(1 + k _ {D}) ^ {3}} + \frac {R _ {3}}{(1 + k _ {D}) ^ {3}}
+P_{D} = \frac{C_{1}}{1 + k_{D}} + \frac{C_{2}}{(1 + k_{D})^{2}} + \frac{C_{3}}{(1 + k_{D})^{3}} + \frac{R_{3}}{(1 + k_{D})^{3}}
 $$
 
 $$
-9 1 = \frac {6}{1 + k _ {D}} + \frac {6}{\left(1 + k _ {D}\right) ^ {2}} + \frac {1 0 6}{\left(1 + k _ {D}\right) ^ {3}}
+9 1 = \frac{6}{1 + k_{D}} + \frac{6}{\left(1 + k_{D}\right)^{2}} + \frac{1 0 6}{\left(1 + k_{D}\right)^{3}}
 $$
 
 We solve this problem through iteration, i.e. trial and error. Here we do this by trying one interest rate after another on paper, but there are computer programs and financial calculators which go through much the same procedure, only faster - learning the slow way helps understanding! First we will try 9 per cent, as this seems roughly right given the capital gain of around 3 per cent per year over the three years plus the 6 per cent coupon.
@@ -1139,7 +1139,7 @@ At an interest rate  $(k_{D})$  of 9 per cent, the right side of the equation am
 
 We are trying to find the value of the '?', where the cash flows on the right side are discounted at just the right rate to equal the amount paid for the bond on the left (£91).
 
-$$ k _ {D} = 9 \% + \frac {92.41 - 91}{92.41 - 90.05} \times (10 - 9) = 9.6 \%
+$$ k_{D} = 9 \% + \frac{92.41 - 91}{92.41 - 90.05} \times (10 - 9) = 9.6 \%
 $$
 
 Thus, the cash flows offered on this bond represent an average annual rate of return of 9.6 per cent on a £91 investment if the bond is held to maturity and the coupon payments are reinvested at 9.6 per cent before then. This is the yield to maturity or YTM discussed in the next section.
@@ -1151,7 +1151,7 @@ An Excel spreadsheet version of this calculation is available at www.pearson.com
 The current yield, $^{17}$  discussed earlier in the chapter, is the gross (before tax) interest amount divided by the current market price of the bond expressed as a percentage:
 
 $$
-\frac {\text {G r o s s i n t e r e s t (c o u p o n)}}{\text {M a r k e t p r i c e}} \times 1 0 0
+\frac{\text{Gr os si nt er es t (co up on)}}{\text{Ma rk et pr ic e}} \times 1 0 0
 $$
 
 Thus, for a holder of Bluebird's bonds the current yield is:
@@ -1171,11 +1171,11 @@ In the Financial Times' bond tables (e.g. Exhibit 6.7 on page 236) the column he
 For example, if an investor bought Bluebird bonds at £91 and sold them one year later when the rate of return on two-year bonds of this risk level in the market is 10 per cent, instead of receiving the original 9.6 per cent yield to maturity they will achieve a rate of return of only 8.86 per cent over the year of holding, viz:
 
 $$
-\text {M a r k e t v a l u e o f b o n d a f t e r 1 y e a r} = \frac {6}{1 + 0 . 1} + \frac {1 0 6}{(1 + 0 . 1) ^ {2}} = 9 3. 0 6
+\text{Ma rk et va lu eo fb on da ft er 1y ea r} = \frac{6}{1 + 0 . 1} + \frac{1 0 6}{(1 + 0 . 1)^{2}} = 9 3. 0 6
 $$
 
 $$
-\text{Thus, the return to our investor is:} 91 = \frac {93.06 + 6}{1 + r} \quad r = 8.86 \%
+\text{Thus,thereturntoourinvestoris:} 91 = \frac{93.06 + 6}{1 + r} \quad r = 8.86 \%
 $$
 
 # Semi-annual interest
@@ -1191,7 +1191,7 @@ Point in time (years) 0.5 1 1.5 2 Cash flow €5.5 €5.5 €5.5 + £100
 The nominal interest rate over a six-month period is 5.5 per cent (11\%/2):
 
 $$
-9 6 = \frac {5 . 5 0}{1 + \frac {k _ {D}}{2}} + \frac {5 . 5 0}{\left(1 + \frac {k _ {D}}{2}\right) ^ {2}} + \frac {5 . 5 0}{\left(1 + \frac {k _ {D}}{2}\right) ^ {3}} + \frac {5 . 5 0}{\left(1 + \frac {k _ {D}}{2}\right) ^ {4}} + \frac {1 0 0}{\left(1 + \frac {k _ {D}}{2}\right) ^ {4}}
+9 6 = \frac{5 . 5 0}{1 + \frac{k_{D}}{2}} + \frac{5 . 5 0}{\left(1 + \frac{k_{D}}{2}\right)^{2}} + \frac{5 . 5 0}{\left(1 + \frac{k_{D}}{2}\right)^{3}} + \frac{5 . 5 0}{\left(1 + \frac{k_{D}}{2}\right)^{4}} + \frac{1 0 0}{\left(1 + \frac{k_{D}}{2}\right)^{4}}
 $$
 
 At a rate of 6 per cent for  $k_{D} / 2$  the right-hand side equals:
@@ -1201,7 +1201,7 @@ $$
 $$
 
 $$
-\text {p l u s} \frac {1 0 0}{(1 + 0 . 0 6) ^ {4}} = \frac {7 9 . 2 0 9}{\underline {{\epsilon}} 9 8 . 2 6 7}
+\text{pl us} \frac{1 0 0}{(1 + 0 . 0 6)^{4}} = \frac{7 9 . 2 0 9}{\underline {{\epsilon}} 9 8 . 2 6 7}
 $$
 
 At a rate of 7 per cent for  $k_{D} / 2$  the right-hand side equals:
@@ -1211,7 +1211,7 @@ $$
 $$
 
 $$
-\text {p l u s} \frac {1 0 0}{(1 + 0 . 0 7) ^ {4}} = \frac {7 6 . 2 9 0}{\underline {{\epsilon 9 4 . 9 2 0}}}
+\text{pl us} \frac{1 0 0}{(1 + 0 . 0 7)^{4}} = \frac{7 6 . 2 9 0}{\underline {{\epsilon 9 4 . 9 2 0}}}
 $$
 
 The IRR of the cash flow equals:  $6\% + \frac{98.267 - 96}{98.267 - 94.92} \times (7 - 6) = 6.68\%$
@@ -1240,9 +1240,9 @@ $\mathrm{P}_{t + 1} =$  price of bond after one year
 
 $\mathrm{P_t}$ $=$  price of bond at the start.
 
-Thus, there is an interest element (C) plus a capital gain or loss  $(\mathrm{(P_{t + 1} - P_t) / P_t)}$  element to the rate of return.
+Thus, there is an interest element (C) plus a capital gain or loss  $(\mathrm{(P_{t +1} - P_t) / P_t)}$  element to the rate of return.
 
-To calculate  $\mathrm{P}_{\mathrm{t + 1}}$  ..
+To calculate  $\mathrm{P}_{\mathrm{t +1}}$  ..
 
 $\mathrm{P}_{t + 1} =$  four annual coupons discounted to time  $t + 1$ $(€60\times)$  annuity factor for four years at  $10\%$  plus the redemption amount discounted back to  $t + 1$
 
@@ -1251,11 +1251,11 @@ $$
 $$
 
 $$
-\frac {1 0 0 0}{(1 + 0 . 1) ^ {4}} \quad = \quad 6 8 3. 0 1
+\frac{1 0 0 0}{(1 + 0 . 1)^{4}} \quad = \quad 6 8 3. 0 1
 $$
 
 $$
-\mathrm {P} _ {\mathrm {t} + 1} \quad = \quad \underline {{8 7 3 . 2 0}}
+\mathrm{P}_{\mathrm{t} + 1} \quad = \quad \underline {{8 7 3 . 2 0}}
 $$
 
 Rate of return,  $r = \frac{60 + 873.20 - 1000}{1000} \times 100 = -6.7\%$
@@ -1275,11 +1275,11 @@ $$
 $$
 
 $$
-\frac {1 0 0 0}{(1 + 0 . 1) ^ {9}} \quad = \quad 4 2 4. 1 0
+\frac{1 0 0 0}{(1 + 0 . 1)^{9}} \quad = \quad 4 2 4. 1 0
 $$
 
 $$
-\mathrm {P} _ {\mathrm {t} + 1} \quad = \quad \overline {{\epsilon 7 6 9 . 6 4}}
+\mathrm{P}_{\mathrm{t} + 1} \quad = \quad \overline {{\epsilon 7 6 9 . 6 4}}
 $$
 
 Rate of return,  $r = \frac{60 + 769.64 - 1000}{1000} \times 100 = -17\%$
@@ -1295,11 +1295,11 @@ $$
 $$
 
 $$
-\frac {\epsilon 1 0 0 0}{(1 + 0 . 1) ^ {1 9}} \quad = \quad 1 6 3. 5 1
+\frac{\epsilon 1 0 0 0}{(1 + 0 . 1)^{1 9}} \quad = \quad 1 6 3. 5 1
 $$
 
 $$
-\mathrm {P} _ {\mathrm {t} + 1} \quad = \quad \overline {{\epsilon 6 6 5 . 4 0}}
+\mathrm{P}_{\mathrm{t} + 1} \quad = \quad \overline {{\epsilon 6 6 5 . 4 0}}
 $$
 
 Rate of return,  $r = \frac{60 + 665.4 - 1000}{1000} \times 100 = 27.5\%$
@@ -1398,7 +1398,7 @@ The higher the coupon rate on the bond, the shorter the bond's duration.
 
 As duration increases, the percentage change in the market value of a bond increases for a given change in interest rates, i.e. interest rate risk rises with duration. Thus, we can use duration as a measure of interest rate risk. It is not a perfect measure, but it does provide a good approximation (when interest rate changes are small) of the extent to which the price of a bond will change if yields to maturity rise or fall – as expressed in the following formula:
 
-Percentage change in bond price from one period to the next  $\approx$  -Duration  $\times \frac{\text{change in YTM}}{1 + \text{YTM}}$
+Percentage change in bond price from one period to the next  $\approx$  -Duration  $\times \frac{\text{changeinYTM}}{1 + \text{YTM}}$
 
 For example, if an investor is holding the four-year bond yielding 7 per cent at time t in Table 6.4 with a duration of 3.6241 years, you could ask how much would the price of the bond change if interest rates (YTM) rose by 1 per cent?
 
@@ -1527,16 +1527,16 @@ $$
 $$
 
 $$
-\text {f o l l o w e d} \mathfrak {L} 1, 0 8 0 (1 + 0. 1) = \mathfrak {L} 1, 1 8 8
+\text{fo ll ow ed} \mathfrak {L} 1, 0 8 0 (1 + 0. 1) = \mathfrak {L} 1, 1 8 8
 $$
 
 Given the anticipated change in one-year spot rates to 10 per cent the investor will buy the two-year bond only if it gives the same average annual yield over two years as the first option of a series of one-year bonds. The annual interest required will be:
 
 $$
-£ 1, 0 0 0 (1 + k) ^ {2} = £ 1, 1 8 8
+£ 1, 0 0 0 (1 + k)^{2} = £ 1, 1 8 8
 $$
 
-$$ k = \sqrt {(1 , 1 8 8 / 1 , 0 0 0)} - 1 = 0. 0 8 9 9 5 \text {o r} 8. 9 9 5 \text {p e r c e n t}
+$$ k = \sqrt{(1 , 1 8 8 / 1 , 0 0 0)} - 1 = 0. 0 8 9 9 5 \text{or} 8. 9 9 5 \text{pe rc en t}
 $$
 
 Thus, it is the expectation of spot interest rates changing which determines the shape of the yield curve according to the expectations hypothesis.
@@ -1547,11 +1547,11 @@ $$
 £ 1, 0 0 0 (1. 0 8) (1. 1 1) = £ 1, 1 9 8. 8 0
 $$
 
-$$ k = \sqrt {(1 1 9 8 . 8 / 1 , 0 0 0)} - 1 = 0. 0 9 4 9 \text {o r} 9. 4 9 \text {p e r c e n t p e r y e a r}
+$$ k = \sqrt{(1 1 9 8 . 8 / 1 , 0 0 0)} - 1 = 0. 0 9 4 9 \text{or} 9. 4 9 \text{pe rc en tp er ye ar}
 $$
 
 $$
-\mathrm {o r} \sqrt {(1 . 0 8) (1 . 1 1)} - 1 = 0. 0 9 4 9
+\mathrm{or} \sqrt{(1 . 0 8) (1 . 1 1)} - 1 = 0. 0 9 4 9
 $$
 
 With this expectation for movements in one-year spot rates, lenders will demand an annual rate of return of 9.49 per cent from two-year bonds of the same risk class.
@@ -1567,7 +1567,7 @@ If the present spot rate for a one-year bond is 5 per cent and for a two-year bo
 If the two-year rate is set to equal the rate on a series of one-year spot rates then:
 
 $$
-\begin{array}{l} (1 + 0. 0 5) (1 + x) = (1 + 0. 0 6 5) ^ {2} \\ x = \frac {(1 + 0 . 0 6 5) ^ {2}}{1 + 0 . 0 5} - 1 = 0. 0 8 0 2 \text {o r} 8. 0 2 \text {p e r c e n t} \\ \end{array}
+\begin{array}{l} (1 + 0. 0 5) (1 + x) = (1 + 0. 0 6 5)^{2} \\ x = \frac{(1 + 0 . 0 6 5)^{2}}{1 + 0 . 0 5} - 1 = 0. 0 8 0 2 \text{or} 8. 0 2 \text{pe rc en t} \\ \end{array}
 $$
 
 *In the financial markets it is possible to agree now to lend money in one year's time for, say, a year (or two years or six months, etc.) at a rate of interest agreed at the outset. This is a 'forward'.
@@ -1608,7 +1608,7 @@ Bond prices and redemption yields move in opposite directions.
 Gilt-edged market makers (GEMMS) are prepared to buy from, or sell gilts to, investors. The bid price is the price at which they will buy, the offer price is their selling price.
 If you buy a bond cum-dividend you will receive the next coupon paid.
 - Bonds are quoted at clean prices, without taking account of the accrued interest. A buyer will pay the clean price plus the accrued interest value (called the dirty price or full price or invoice price) and receives all of the next coupon.
-- Dirty price = Clean price +  $\frac{\text{Annual coupon}}{2} \times \frac{\text{Number of days since last coupon}}{\text{Number of days separating coupon payments}}$
+- Dirty price = Clean price +  $\frac{\text{Annualcoupon}}{2} \times \frac{\text{Numberofdayssincelastcoupon}}{\text{Numberofdaysseparatingcouponpayments}}$
 - If you buy during the ex-dividend period the person you bought from will receive the accrued interest from the issuer.
 - Index-linked stocks (gilts): the coupon amount, and the nominal value, are adjusted or uplifted according to inflation.
 - US Treasury notes are issued on behalf of the US government by Treasury Direct with a face value of 100 and a coupon payable every six months and maturities of 2, 3, 5, 7 or 10 years. US Treasury bonds are auctioned quarterly, have a maturity date of 10 to 30 years and pay interest twice per year. US Treasury Inflation-Protected Securities (TIPS) are index-linked bonds whose principal value is adjusted according to changes in the Consumer Price Index (CPI).
@@ -1640,32 +1640,32 @@ Medium-term notes (MTNs). A note (contract) under which a company promises to pa
 - A bond is priced according to general market interest rates for risk class and maturity: Irredeemable:
 
 $$
-P _ {D} = \frac {C}{k _ {D}} \quad \text {a n d :} V _ {D} = \frac {I}{k _ {D}}
+P_{D} = \frac{C}{k_{D}} \quad \text{an d :} V_{D} = \frac{I}{k_{D}}
 $$
 
 Redeemable:
 
 $$
-P _ {D} = \frac {C _ {1}}{1 + k _ {D}} + \frac {C _ {2}}{(1 + k _ {D}) ^ {2}} + \frac {C _ {3}}{(1 + k _ {D}) ^ {3}} + \frac {C _ {4}}{(1 + k _ {D}) ^ {4}} + \dots + \frac {C _ {n}}{(1 + k _ {D}) ^ {n}} + \frac {R _ {n}}{(1 + k _ {D}) ^ {n}}
+P_{D} = \frac{C_{1}}{1 + k_{D}} + \frac{C_{2}}{(1 + k_{D})^{2}} + \frac{C_{3}}{(1 + k_{D})^{3}} + \frac{C_{4}}{(1 + k_{D})^{4}} + \dots + \frac{C_{n}}{(1 + k_{D})^{n}} + \frac{R_{n}}{(1 + k_{D})^{n}}
 $$ and:
 
 
 $$
 
-V _ {D} = \frac {I _ {1}}{1 + k _ {D}} + \frac {I _ {2}}{(1 + k _ {D}) ^ {2}} + \frac {I _ {3}}{(1 + k _ {D}) ^ {3}} + \frac {I _ {4}}{(1 + k _ {D}) ^ {4}} + \ldots + \frac {I _ {n}}{(1 + k _ {D}) ^ {n}} + \frac {R ^ {\star} n}{(1 + k _ {D}) ^ {n}}
+V_{D} = \frac{I_{1}}{1 + k_{D}} + \frac{I_{2}}{(1 + k_{D})^{2}} + \frac{I_{3}}{(1 + k_{D})^{3}} + \frac{I_{4}}{(1 + k_{D})^{4}} + \ldots + \frac{I_{n}}{(1 + k_{D})^{n}} + \frac{R^{\star} n}{(1 + k_{D})^{n}}
 
 $$
 - The current (interest) yield on a bond is:
 
 $$
 
-\frac {\text {G r o s s i n t e r e s t (c o u p o n)}}{\text {M a r k e t p r i c e}} \times 1 0 0
+\frac{\text{Gr os si nt er es t (co up on)}}{\text{Ma rk et pr ic e}} \times 1 0 0
 
 $$
 - The yield to maturity includes both annual coupon returns and capital gains or losses on maturity. It is the discount rate such that the present value of all the cash inflows from the bond (interest plus principal) is equal to the bond's current market price.
 - Interest rate risk is the extent to which the price of a bond changes when general market yields change for that risk class of bonds. The volatility of long dated bond tends to be greater than short dated ones.
 The duration of a bond is the weighted average maturity of all payments (coupons plus principal) to be received from owning a bond, where the weights are the discounted present values of the payments.
-Percentage change in bond price from one period to the next  $\approx$  -Duration  $\times \frac{\text{Change in YTM}}{1 + \text{YTM}}$
+Percentage change in bond price from one period to the next  $\approx$  -Duration  $\times \frac{\text{ChangeinYTM}}{1 + \text{YTM}}$
 - Factors that shift the demand curve for bonds: expected inflation, riskiness of bonds relative to other assets, wealth, liquidity of bonds relative to other assets.
 - The main factors that shift the supply curve for bonds: expected inflation, availability of profitable investment opportunities, size of government borrowing.
 The term structure of interest rates describes the manner in which the same default risk class of debt securities provides different rates of return depending on the length of time to maturity. There are three hypotheses relating to the term structure of interest rates: the expectations hypothesis;

@@ -444,7 +444,7 @@ The typical quotes of FX options are:
 
 - **ATM** (at-the-money)
 - **RR** (risk reversal): $x$ Delta Call - $x$ Delta Put
-- **BF** (butterfly): $(x\text{Delta Call} + x\text{Delta Put}) \div 2 - \text{ATM}$
+- **BF** (butterfly): $(x\text{DeltaCall} + x\text{DeltaPut}) \div 2 - \text{ATM}$
 
 Over:
 

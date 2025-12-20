@@ -64,37 +64,37 @@ We have just seen that risk-averse individuals prefer to reduce their risk. One 
 To see how diversification works, suppose that you hold two assets, A and B, whose returns are random variables. Let the variances of these returns be  $\sigma_{\mathrm{A}}^{2}$  and  $\sigma_{\mathrm{B}}^{2}$ , respectively. Suppose the returns on A and B are perfectly and positively correlated, so that  $\rho_{\mathrm{AB}} = 1$ , where  $\rho_{\mathrm{AB}}$  is the correlation coefficient between A and B. The proportions of the portfolio's value invested in A and B are  $y_{\mathrm{A}}$  and  $y_{\mathrm{B}}$ , respectively. Then the variance of the portfolio return is
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = y _ {\mathrm {A}} ^ {2} \sigma_ {\mathrm {A}} ^ {2} + 2 y _ {\mathrm {A}} y _ {\mathrm {B}} \operatorname {C o v} (\mathrm {A}, \mathrm {B}) + y _ {\mathrm {B}} ^ {2} \sigma_ {\mathrm {B}} ^ {2} \tag {1.1}
+\sigma_{\mathrm{P}}^{2} = y_{\mathrm{A}}^{2} \sigma_{\mathrm{A}}^{2} + 2 y_{\mathrm{A}} y_{\mathrm{B}} \operatorname{Co v} (\mathrm{A}, \mathrm{B}) + y_{\mathrm{B}}^{2} \sigma_{\mathrm{B}}^{2} \tag {1.1}
 $$
 
 where  $\operatorname{Cov}(\mathbf{A},\mathbf{B})$  is the covariance between the returns on A and B. Then, using
 
 $$
-\operatorname {C o v} (\mathrm {A}, \mathrm {B}) = \rho_ {\mathrm {A B}} \sigma_ {\mathrm {A}} \sigma_ {\mathrm {B}} \tag {1.2}
+\operatorname{Co v} (\mathrm{A}, \mathrm{B}) = \rho_{\mathrm{AB}} \sigma_{\mathrm{A}} \sigma_{\mathrm{B}} \tag {1.2}
 $$
 
 we have
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = y _ {\mathrm {A}} ^ {2} \sigma_ {\mathrm {A}} ^ {2} + 2 y _ {\mathrm {A}} y _ {\mathrm {B}} \rho_ {\mathrm {A B}} \sigma_ {\mathrm {A}} \sigma_ {\mathrm {B}} + y _ {\mathrm {B}} ^ {2} \sigma_ {\mathrm {B}} ^ {2} \tag {1.3}
+\sigma_{\mathrm{P}}^{2} = y_{\mathrm{A}}^{2} \sigma_{\mathrm{A}}^{2} + 2 y_{\mathrm{A}} y_{\mathrm{B}} \rho_{\mathrm{AB}} \sigma_{\mathrm{A}} \sigma_{\mathrm{B}} + y_{\mathrm{B}}^{2} \sigma_{\mathrm{B}}^{2} \tag {1.3}
 $$
 
 Since  $\rho_{\mathrm{AB}} = 1$ , the right-hand side of Equation (1.3) is a perfect square,  $(y_{\mathrm{A}}\sigma_{\mathrm{A}} + y_{\mathrm{B}}\sigma_{\mathrm{B}})$ . As long as  $y_{\mathrm{A}}\sigma_{\mathrm{A}} + y_{\mathrm{B}}\sigma_{\mathrm{B}} \geq 0$  we can write Equation (1.3) as
 
 $$
-\sigma_ {\mathrm {P}} = y _ {\mathrm {A}} \sigma_ {\mathrm {A}} + y _ {\mathrm {B}} \sigma_ {\mathrm {B}}. \tag {1.4}
+\sigma_{\mathrm{P}} = y_{\mathrm{A}} \sigma_{\mathrm{A}} + y_{\mathrm{B}} \sigma_{\mathrm{B}}. \tag {1.4}
 $$
 
 Thus, if  $\rho_{\mathrm{AB}} = 1$ , the standard deviation of the portfolio return is just the weighted average of the standard deviations of the returns on assets A and B. Diversification therefore does not reduce portfolio risk when returns are perfectly and positively correlated. For any general correlation coefficient  $\rho_{\mathrm{AB}}$ , we can write the portfolio return variance as
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = y _ {\mathrm {A}} ^ {2} \sigma_ {\mathrm {A}} ^ {2} + 2 y _ {\mathrm {A}} y _ {\mathrm {B}} \rho_ {\mathrm {A B}} \sigma_ {\mathrm {A}} \sigma_ {\mathrm {B}} + y _ {\mathrm {B}} ^ {2} \sigma_ {\mathrm {B}} ^ {2}. \tag {1.5}
+\sigma_{\mathrm{P}}^{2} = y_{\mathrm{A}}^{2} \sigma_{\mathrm{A}}^{2} + 2 y_{\mathrm{A}} y_{\mathrm{B}} \rho_{\mathrm{AB}} \sigma_{\mathrm{A}} \sigma_{\mathrm{B}} + y_{\mathrm{B}}^{2} \sigma_{\mathrm{B}}^{2}. \tag {1.5}
 $$
 
 Holding fixed  $y_{\mathrm{A}}$ ,  $y_{\mathrm{B}}$ ,  $\sigma_{\mathrm{A}}$ , and  $\sigma_{\mathrm{B}}$ , we see that  $\partial \sigma_{\mathrm{P}}^2 / \partial \rho_{\mathrm{AB}} > 0$ , that is, portfolio risk increases with the correlation between the returns on the component assets. At  $\rho_{\mathrm{AB}} = 0$  (uncorrelated returns),
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = y _ {\mathrm {A}} ^ {2} \sigma_ {\mathrm {A}} ^ {2} + y _ {\mathrm {B}} ^ {2} \sigma_ {\mathrm {B}} ^ {2}. \tag {1.6}
+\sigma_{\mathrm{P}}^{2} = y_{\mathrm{A}}^{2} \sigma_{\mathrm{A}}^{2} + y_{\mathrm{B}}^{2} \sigma_{\mathrm{B}}^{2}. \tag {1.6}
 $$
 
 # Example 1.1
@@ -108,31 +108,31 @@ In the case of perfectly and positively correlated returns,  $\sigma_{\mathrm{P}
 The maximum effect of diversification occurs when  $\rho_{\mathrm{AB}}$  is at its minimum value of  $-1$ , that is, returns are perfectly negatively correlated. In this case
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = y _ {\mathrm {A}} ^ {2} \sigma_ {\mathrm {A}} ^ {2} - 2 y _ {\mathrm {A}} y _ {\mathrm {B}} \sigma_ {\mathrm {A}} \sigma_ {\mathrm {B}} + y _ {\mathrm {B}} ^ {2} \sigma_ {\mathrm {B}} ^ {2} \tag {1.7}
+\sigma_{\mathrm{P}}^{2} = y_{\mathrm{A}}^{2} \sigma_{\mathrm{A}}^{2} - 2 y_{\mathrm{A}} y_{\mathrm{B}} \sigma_{\mathrm{A}} \sigma_{\mathrm{B}} + y_{\mathrm{B}}^{2} \sigma_{\mathrm{B}}^{2} \tag {1.7}
 $$
 
 so that
 
 $$
-\sigma_ {\mathrm {P}} = \left| y _ {\mathrm {B}} \sigma_ {\mathrm {B}} - y _ {\mathrm {A}} \sigma_ {\mathrm {A}} \right|. \tag {1.8}
+\sigma_{\mathrm{P}} = \left| y_{\mathrm{B}} \sigma_{\mathrm{B}} - y_{\mathrm{A}} \sigma_{\mathrm{A}} \right|. \tag {1.8}
 $$
 
 This seems to indicate that the portfolio will have some risk, albeit lower than in the previous cases. But suppose we construct the portfolio so that the proportionate holdings of the assets are inversely related to their relative risks. That is,
 
 $$
-y _ {\mathrm {A}} / y _ {\mathrm {B}} = \sigma_ {\mathrm {B}} / \sigma_ {\mathrm {A}} \tag {1.9}
+y_{\mathrm{A}} / y_{\mathrm{B}} = \sigma_{\mathrm{B}} / \sigma_{\mathrm{A}} \tag {1.9}
 $$
 
 or
 
 $$
-y _ {\mathrm {A}} = \sigma_ {\mathrm {B}} y _ {\mathrm {B}} / \sigma_ {\mathrm {A}}. \tag {1.10}
+y_{\mathrm{A}} = \sigma_{\mathrm{B}} y_{\mathrm{B}} / \sigma_{\mathrm{A}}. \tag {1.10}
 $$
 
 Substituting Equation (1.10) in Equation (1.8) yields
 
 $$
-\sigma_ {\mathrm {P}} = y _ {\mathrm {B}} \sigma_ {\mathrm {B}} - (\sigma_ {\mathrm {B}} y _ {\mathrm {B}} \sigma_ {\mathrm {A}} / \sigma_ {\mathrm {A}}) = 0
+\sigma_{\mathrm{P}} = y_{\mathrm{B}} \sigma_{\mathrm{B}} - (\sigma_{\mathrm{B}} y_{\mathrm{B}} \sigma_{\mathrm{A}} / \sigma_{\mathrm{A}}) = 0
 $$
 
 indicating that in this special case of perfectly negatively correlated returns, portfolio risk can be reduced to zero!
@@ -140,7 +140,7 @@ indicating that in this special case of perfectly negatively correlated returns,
 Even when assets with perfectly negatively correlated returns are unavailable, we can reduce portfolio risk by adding more assets (provided they are not perfectly positively correlated with those already in the portfolio). To illustrate, suppose we have  $N$  assets available, each with returns pairwise uncorrelated with the returns of every other asset. In this case, a generalized version of Equation (1.6) is
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \sum_ {i = 1} ^ {N} y _ {\mathrm {i}} ^ {2} \sigma_ {1} ^ {2} \tag {1.11}
+\sigma_{\mathrm{P}}^{2} = \sum_{i = 1}^{N} y_{\mathrm{i}}^{2} \sigma_{1}^{2} \tag {1.11}
 $$
 
 where  $y_{i}$  is the fraction of the portfolio value invested in asset  $i$ , where  $i = 1, \dots, N$ , and  $\sigma_{\mathrm{i}}^{2}$  is the variance of asset  $i$ . Suppose we choose  $y_{\mathrm{i}} = 1 / N$ .
@@ -148,7 +148,7 @@ where  $y_{i}$  is the fraction of the portfolio value invested in asset  $i$ , 
 Then, defining  $\sigma_{\mathrm{max}}^2$  as the maximum variance among the  $\sigma_{\mathrm{i}}^{2}$  (we assume  $\sigma_{\mathrm{max}}^2 < \infty$ , and permit  $\sigma_{\mathrm{i}}^2 = \sigma^2$  for all  $i$  in which case  $\sigma_{\mathrm{max}}^2 = \sigma^2$ ), Equation (1.11) becomes
 
 $$
-\begin{array}{l} \sigma_ {\mathrm {P}} ^ {2} = \sum_ {i = 1} ^ {N} \left[ \frac {1}{N} \right] ^ {2} \sigma_ {i} ^ {2} \\ \leq N \left[ \frac {1}{N} \right] ^ {2} \sigma_ {\max } ^ {2} \\ = \frac {\sigma_ {\max} ^ {2}}{N}. \\ \end{array}
+\begin{array}{l} \sigma_{\mathrm{P}}^{2} = \sum_{i = 1}^{N} \left[ \frac{1}{N} \right]^{2} \sigma_{i}^{2} \\ \leq N \left[ \frac{1}{N} \right]^{2} \sigma_{\max }^{2} \\ = \frac{\sigma_{\max}^{2}}{N}. \\ \end{array}
 $$
 
 As  $N$  increases,  $\sigma_{\mathrm{P}}^{2}$  diminishes, and, in the limit, as  $N$  goes to infinity,  $\sigma_{\mathrm{P}}^{2}$  goes to zero. Thus, if we have sufficiently many assets with (pairwise) uncorrelated returns, we can drive the portfolio risk to as low as we wish and make returns as predictable as desired.
@@ -184,7 +184,7 @@ The notion that any capital market equilibrium should preclude riskless arbitrag
 An option is a contract that gives the owner the right to either buy or sell an asset at a predetermined price at some future time or over some fixed time interval. Consider an asset whose value at time  $t = 1$  will be  $X$ . Viewed at  $t = 0$  (the present),  $X$  is a random variable. A call option entitles its owner to buy this asset at a fixed price,  $P_{\mathrm{c}}$ , at or before  $t = 1$ . If he does not wish to buy the asset, he can allow the option to expire unexercised. Thus, the value of the call option at  $t = 1$  is
 
 $$
-C (t = 1) = \left\{ \begin{array}{l l} X - P _ {\mathrm {c}} & \text {i f} X > P _ {\mathrm {c}} \\ 0 & \text {i f} X \leq P _ {\mathrm {c}}. \end{array} \right. \tag {1.12}
+C (t = 1) = \left\{ \begin{array}{l l} X - P_{\mathrm{c}} & \text{if } X > P_{\mathrm{c}} \\ 0 & \text{if } X \leq P_{\mathrm{c}}. \end{array} \right. \tag {1.12}
 $$
 
 The theory of option pricing explains  $C(t = 0)$ , the value of the call option at  $t = 0$ . The basic idea is to construct a portfolio consisting of the underlying stock and a riskless bond in such a manner that it yields the same payoff as the option. Since there can be no riskless arbitrage in equilibrium, the prices of this portfolio should equal the price of the option. We can then price the option by using the observed prices of the stock and the bond. We will have more to say about option pricing in later chapters.
@@ -192,7 +192,7 @@ The theory of option pricing explains  $C(t = 0)$ , the value of the call option
 Symmetrically, a put option entitles the option owner to sell an asset at a fixed price,  $P_{\mathrm{p}}$ , at or before  $t = 1$ . Thus, at  $t = 1$  the value of the put option is
 
 $$
-P (t = 1) = \left\{ \begin{array}{l l} P _ {\mathrm {p}} - X & \text {i f} X > P _ {\mathrm {p}} \\ 0 & \text {i f} X \leq P _ {\mathrm {p}}. \end{array} \right. \tag {1.13}
+P (t = 1) = \left\{ \begin{array}{l l} P_{\mathrm{p}} - X & \text{if } X > P_{\mathrm{p}} \\ 0 & \text{if } X \leq P_{\mathrm{p}}. \end{array} \right. \tag {1.13}
 $$
 
 In addition to being a put or call, an option can be either European or American. A European option can be exercised only at some predetermined maturity date, for example, at  $t = 1$  in the above discussion. An American option can be exercised any time prior to maturity. Thus, an American option never can be worth less than its European counterpart.
@@ -204,13 +204,13 @@ An important property of options that we will use frequently is that the more vo
 Consider a European call option with an exercise price Pc = \$100. At t = 1, X will be \$110 with probability 0.5 and \$90 with probability 0.5. For simplicity, suppose everybody is risk neutral and the discount rate is zero (so that future payoffs are valued the same as current payoffs). Then from Equation (1.12) we have
 
 $$
-C (t = 1) = \left\{ \begin{array}{l l} \$ 10 & \text {w i t h p r o b a b i l i t y 0 . 5} \\ 0 & \text {w i t h p r o b a b i l i t y 0 . 5} \end{array} \right.
+C (t = 1) = \left\{ \begin{array}{l l} \$ 10 & \text{wi th pr ob ab il it y0 .5} \\ 0 & \text{wi th pr ob ab il it y0 .5} \end{array} \right.
 $$
 
 Thus, C(t = 0) = 0.5(10) = \$5. Now suppose we increase the variance of X, keeping its mean unchanged. Let X be \$150 with probability 0.5 and \$50 with probability 0.5. From Equation (1.13) we have
 
 $$
-C (t = 1) = \left\{ \begin{array}{l l} \$ 50 & \text {w i t h p r o b a b i l i t y} 0. 5 \\ 0 & \text {w i t h p r o b a b i l i t y} 0. 5 \end{array} \right.
+C (t = 1) = \left\{ \begin{array}{l l} \$ 50 & \text{wi th pr ob ab il it y} 0. 5 \\ 0 & \text{wi th pr ob ab il it y} 0. 5 \end{array} \right.
 $$
 
 Thus, C(t = 0) = 0.5(50) = \$25. The call option is now five times more valuable! You should work through a similar example for put options to convince yourself that puts have the same property.
@@ -224,7 +224,7 @@ An efficient capital market is one in which every security's price equals its "t
 We speak of three forms of market efficiency, distinguished by the amount of information impounded in the price. A market is said to be weak-form efficient if prices impound all historical information. In a weak-form efficient market, if  $P_{t}$  is the price at time  $t$ , then the expected value (at time  $t$ ) of the price at time  $t + 1$  conditional on the price at time  $t$ , written as  $E(P_{t + 1}|P_t)$ , is the same as  $E(P_{t + 1}|P_t,\dots ,\mathrm{P}_0)$ , the expected value of  $P_{t + 1}$  conditional on the entire history of stock prices up until time  $t$  (that is,  $P_{t},\ldots ,P_{0}$ ). That is,
 
 $$
-E \left(P _ {t + 1} \mid P _ {t}\right) = E \left(P _ {t + 1} \mid P _ {t}, P _ {t - 1}, P _ {t - 2}, \dots , P _ {0}\right). \tag {1.14}
+E \left(P_{t + 1} \mid P_{t}\right) = E \left(P_{t + 1} \mid P_{t}, P_{t - 1}, P_{t - 2}, \dots , P_{0}\right). \tag {1.14}
 $$
 
 This means that you can do no better forecasting tomorrow's price  $P_{t+1}$  using the entire history of prices than you could using just today's price  $P_t$ . The reason is that weak-form efficiency implies that  $P_t$  itself should contain all the historical information contained in the sequence  $\{P_{t-1}|P_{t-2},\dots,P_0\}$ .
@@ -297,7 +297,7 @@ To prevent market failure, the sellers of better cars must somehow distinguish t
 Since the failure probability for a  $q_{1}$  quality car is 0.1, the buyer should be willing to pay \$10 (the intrinsic worth of a  $q_{1}$  quality car) plus 0.1 times  $W_{1}$ , the latter being the amount he expects to collect from the seller. Thus, the equilibrium price  $(P_{1})$  of a  $q_{1}$  quality car should be \$10 + 0.1W1. Similarly, if the owner of a  $q_{2}$  quality car follows his equilibrium strategy, the equilibrium price  $(P_{2})$  of a  $q_{2}$  quality car should be \$5 + 0.5W2. To ensure that the  $q_{2}$  quality car owner will not misrepresent himself as a  $q_{1}$  quality car owner,  $W_{1}$  should be set to satisfy
 
 $$
-1 0 + 0. 1 W _ {1} - 0. 5 W _ {1} \leq 5 + 0. 5 W _ {2} - 0. 5 W _ {2}. \tag {1.15}
+1 0 + 0. 1 W_{1} - 0. 5 W_{1} \leq 5 + 0. 5 W_{2} - 0. 5 W_{2}. \tag {1.15}
 $$
 
 The left-hand side (LHS) of Equation (1.15) is the expected payoff to a  $q_{2}$  quality car owner misrepresenting himself as a  $q_{1}$  quality car owner; he receives a price  $P_{1}$  and has an expected outflow of  $0.5W_{1}$  to pay the liability under the warranty. The right-hand side (RHS) of Equation (1.15) is what the  $q_{2}$  quality car owner gets if he follows his nonmimic strategy; he receives a price of  $P_{2}$  and has an expected cash outflow of  $0.5W_{2}$ . When someone is indifferent between telling the truth and lying, it is conventionally assumed that truth-telling will be chosen. Thus, Equation (1.15), which is referred to as an incentive compatibility (IC) condition, can be treated as an equality and we can solve it to obtain  $W_{1} = 12.5$ . IC here means that the seller's incentives to maximize personal profit should be compatible with truthful representation of the car's quality.
@@ -305,7 +305,7 @@ The left-hand side (LHS) of Equation (1.15) is the expected payoff to a  $q_{2}$
 The IC condition that ensures that the seller of lemons does not mimic the seller of  $q_{2}$  quality cars can be similarly expressed as follows
 
 $$
-5 + 0. 5 W _ {2} - W _ {2} \leq 0. \tag {1.16}
+5 + 0. 5 W_{2} - W_{2} \leq 0. \tag {1.16}
 $$
 
 Solving Equation (1.16) as an equality yields  $W_{2} = 10$ . It is straightforward to verify that the seller of  $q_{2}$  quality cars will not mimic the seller of lemons under the described conditions, that is,  $q_{2}$  quality cars will be offered for sale.
@@ -422,21 +422,21 @@ Clearly, it would not be wise to suddenly change your beliefs sharply and assert
 To answer this question, we need to formalize the belief revision process. Bayes rule is a statistical device that provides a formula to compute how beliefs should be revised. In essence, it tells us how a rational person should compute conditional probabilities. Suppose  $x_{1}, \ldots, x_{n}$  are the possible realizations of the random variable  $x$  and  $\Pr(x_i)$  is the prior (unconditional) probability that  $x = x_i$ , with  $x_i$  being some value chosen from  $x_{1}, \ldots, x_{n}$ . Similarly,  $y_i$  is some realization of the random variable  $y_i$ , which conveys information about  $x$ . Then, Bayes rule says that if you observe  $y = y_i$ , you should infer that the probability that  $x = x_i$  is given by
 
 $$
-\Pr \left(x _ {i} \mid y _ {j}\right) = \frac {\Pr \left(y _ {j} \mid x _ {i}\right) \Pr \left(x _ {i}\right)}{\sum_ {i = 1} ^ {n} \Pr \left(y _ {j} \mid x _ {i}\right) \Pr \left(x _ {i}\right)} \tag {1.17}
+\Pr \left(x_{i} \mid y_{j}\right) = \frac{\Pr \left(y_{j} \mid x_{i}\right) \Pr \left(x_{i}\right)}{\sum_{i = 1}^{n} \Pr \left(y_{j} \mid x_{i}\right) \Pr \left(x_{i}\right)} \tag {1.17}
 $$
 
 The (unconditional) probability  $\operatorname{Pr}(x_i)$  is known as a prior belief and the (conditional) probability  $\operatorname{Pr}(x_i | y_j)$  is known as a posterior belief. In the context of our weather forecasting example, suppose we define
 
 $$
-\Pr (\text {f o r e c a s t e r i s g o o d} \mid \text {h e i s c o r r e c t}) \equiv \Pr (\mathrm {g} \mid \mathrm {c})
+\Pr (\text{fo re ca st er is go od} \mid \text{he is co rr ec t}) \equiv \Pr (\mathrm{g} \mid \mathrm{c})
 $$
 
 $$
-\Pr (\text {f o r e c a s t e r i s g o o d} \mid \text {h e i s w r o n g}) = \Pr (\mathrm {g} \mid \mathrm {w})
+\Pr (\text{fo re ca st er is go od} \mid \text{he is wr on g}) = \Pr (\mathrm{g} \mid \mathrm{w})
 $$
 
 $$
-\Pr (\text {f o r e c a s t e r i s b a d} \mid \text {h e i s c o r r e c t}) = \Pr (\mathrm {b} \mid \mathrm {c})
+\Pr (\text{fo re ca st er is ba d} \mid \text{he is co rr ec t}) = \Pr (\mathrm{b} \mid \mathrm{c})
 $$
 
 and so on. Then,
@@ -444,7 +444,7 @@ and so on. Then,
 Pr (channel 1 forecaster is good | he was correct in predicting rain)
 
 $$
-\begin{array}{l} = \Pr (g \mid c) = \frac {\Pr (c \mid g) \Pr (g)}{\Pr (c \mid g) \Pr (g) + \Pr (c \mid b) \Pr (b)} \\ = \frac {0 . 8 \times 0 . 5}{0 . 8 \times 0 . 5 + 0 . 5 \times 0 . 5} = 0. 6 1 5. \\ \end{array}
+\begin{array}{l} = \Pr (g \mid c) = \frac{\Pr (c \mid g) \Pr (g)}{\Pr (c \mid g) \Pr (g) + \Pr (c \mid b) \Pr (b)} \\ = \frac{0 . 8 \times 0 . 5}{0 . 8 \times 0 . 5 + 0 . 5 \times 0 . 5} = 0. 6 1 5. \\ \end{array}
 $$
 
 Similarly,
@@ -452,7 +452,7 @@ Similarly,
 Pr (channel 2 forecaster is good | he was wrong in predicting no rain)
 
 $$
-\begin{array}{l} = \Pr (\mathrm {g} \mid \mathrm {w}) = \frac {\Pr (\mathrm {w} \mid \mathrm {g}) \Pr (\mathrm {g})}{\Pr (\mathrm {w} \mid \mathrm {g}) \Pr (\mathrm {g}) + \Pr (\mathrm {w} \mid \mathrm {b}) \Pr (\mathrm {b})} \\ = \frac {0 . 2 \times 0 . 5}{0 . 2 \times 0 . 5 + 0 . 5 \times 0 . 5} \\ = 0. 2 8 6. \\ \end{array}
+\begin{array}{l} = \Pr (\mathrm{g} \mid \mathrm{w}) = \frac{\Pr (\mathrm{w} \mid \mathrm{g}) \Pr (\mathrm{g})}{\Pr (\mathrm{w} \mid \mathrm{g}) \Pr (\mathrm{g}) + \Pr (\mathrm{w} \mid \mathrm{b}) \Pr (\mathrm{b})} \\ = \frac{0 . 2 \times 0 . 5}{0 . 2 \times 0 . 5 + 0 . 5 \times 0 . 5} \\ = 0. 2 8 6. \\ \end{array}
 $$
 
 Thus, you now think that it is more than twice as likely that the channel 1 forecaster is good compared to the channel 2 forecaster. Of course, you can wait until the next forecast and then see which (if either) of them is right. It is important to note that the latter beliefs depend in a significant way on the prior beliefs. Thus, for example, if both forecasters predict rain tonight and it does rain tomorrow, you will not say that it is equally likely that they are good; you will still believe that there is a greater likelihood that the forecaster on channel 1 is good. We will see Bayes rule at work in Chapter 8.

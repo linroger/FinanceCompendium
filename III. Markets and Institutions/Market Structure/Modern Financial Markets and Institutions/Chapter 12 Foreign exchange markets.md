@@ -121,7 +121,7 @@ We now look more closely at exchange rates. We start with some terms used in FX 
 
 An exchange rate is the price of one currency (the base currency) expressed in terms of another (the secondary, counter or quote currency).
 
-Therefore if the exchange rate between the US dollar and the pound is  \mathrm{US\ 1.60 = £1.00}  this means that  £1.00  will cost  \mathrm{US\ 1.60} . Taking the reciprocal,  \mathrm{US\ 1.00}  will cost 62.50 pence. The standardised forms of expression are:
+Therefore if the exchange rate between the US dollar and the pound is  \mathrm{US\1.60 = £1.00}  this means that  £1.00  will cost  \mathrm{US\1.60} . Taking the reciprocal,  \mathrm{US\1.00}  will cost 62.50 pence. The standardised forms of expression are:
 
 US$/£:1.60 or
 
@@ -142,13 +142,13 @@ US1.5988/£ 'middle rate'
 So if you wished to purchase US1 million the cost would be:
 
 $$
-\frac {\mathbb {S} 1 , 0 0 0 , 0 0 0}{1 . 5 9 8 6} = £ 6 2 5, 5 4 7
+\frac{\mathbb {S} 1 , 0 0 0 , 0 0 0}{1 . 5 9 8 6} = £ 6 2 5, 5 4 7
 $$
 
 However, if you wished to sell US1 million you would receive:
 
 $$
-\frac {\mathbb {S} 1 , 0 0 0 , 0 0 0}{1 . 5 9 9 0} = £ 6 2 5, 3 9 1
+\frac{\mathbb {S} 1 , 0 0 0 , 0 0 0}{1 . 5 9 9 0} = £ 6 2 5, 3 9 1
 $$
 
 The foreign exchange dealers are transacting with numerous buyers and sellers every day and they make a profit on the difference between the bid price and offer price (the bid/offer spread). In the above example if a dealer sold US \$1 million and bought US\$ 1 million with a bid/offer spread of 0.04 of a cent, a profit of £625,547 - £625,391 = £156 is made.
@@ -214,7 +214,7 @@ Source: Financial Times, 13/14 November 2010. Reprinted with permission.
 Suppose that on 12 November 2010 a UK exporter sells goods to a customer in France invoiced at €5,000,000. Payment is due three months later. With the spot rate of exchange at €1.1787/£ (see Exhibit 12.6) the exporter, in deciding to sell the goods, has in mind a sales price of:
 
 $$
-\frac {\text {€} 5 , 0 0 0 , 0 0 0}{1 . 1 7 8 7} = £ 4, 2 4 1, 9 6 1
+\frac{\text{€} 5 , 0 0 0 , 0 0 0}{1 . 1 7 8 7} = £ 4, 2 4 1, 9 6 1
 $$
 
 The UK firm bases its decision on the profitability of the deal on this amount expressed in pounds.
@@ -222,19 +222,19 @@ The UK firm bases its decision on the profitability of the deal on this amount e
 However, the rate of exchange may vary between November and February: the size and direction of the move is uncertain. If the pound strengthens against the euro and the rate is then €1.40/£, the UK exporter will make a currency loss by waiting three months and exchanging the euro received into sterling at spot rates in February. The exporter will receive only £3,571,429
 
 $$
-\frac {\text {€} 5 , 0 0 0 , 0 0 0}{1 . 4 0} = £ 3, 5 7 1, 4 2 9 \quad \text {c a u s i n g a l o s s o f} \quad \frac {\text {£} 4 , 2 4 1 , 9 6 1}{\text {£} 6 7 0 , 5 3 2}
+\frac{\text{€} 5 , 0 0 0 , 0 0 0}{1 . 4 0} = £ 3, 5 7 1, 4 2 9 \quad \text{ca us in ga lo ss of} \quad \frac{\text{£} 4 , 2 4 1 , 9 6 1}{\text{£} 6 7 0 , 5 3 2}
 $$
 
 If sterling weakens to €1.10/£ a currency gain is made. The pounds received in February if euro are exchanged at this spot rate will be:
 
 $$
-\frac {\text {€} 5 , 0 0 0 , 0 0 0}{1 . 1 0} = £ 4, 5 4 5, 4 5 5 \quad \text {a n d t h e c u r r e n c y g a i n w i l l b e} \quad \frac {\text {£} 4 , 5 4 5 , 4 5 5}{£ 3 0 3 , 4 9 4}
+\frac{\text{€} 5 , 0 0 0 , 0 0 0}{1 . 1 0} = £ 4, 5 4 5, 4 5 5 \quad \text{an dt he cu rr en cy ga in wi ll be} \quad \frac{\text{£} 4 , 5 4 5 , 4 5 5}{£ 3 0 3 , 4 9 4}
 $$
 
 Rather than run the risk of a possible loss on the currency side of the deal the exporter may decide to cover in the forward market. Under this arrangement the exporter promises to sell €5m against the pound in three months (the agreement is made on 12 November for delivery of currency in February). The forward rate available (ignoring any market makers' spreads and transaction costs) on 12 November is €1.1791/£. This forward contract means that the exporter will receive £4,240,522 in February
 
 $$
-\frac {\text {€} 5 , 0 0 0 , 0 0 0}{1 . 1 7 9 1} = £ 4, 2 4 0, 5 2 2
+\frac{\text{€} 5 , 0 0 0 , 0 0 0}{1 . 1 7 9 1} = £ 4, 2 4 0, 5 2 2
 $$ regardless of the way in which the spot exchange rate moves over the three months.
 
 
@@ -565,7 +565,7 @@ So if the three-month forward rate is  \mathrm{C}\ 1.65 /  the UK exporter could
 
 $$
 
-\frac {C \$ 1 , 6 0 0 , 0 0 0}{1 . 6 5} = £ 9 6 9, 6 9 7
+\frac{C \$ 1 , 6 0 0 , 0 0 0}{1 . 6 5} = £ 9 6 9, 6 9 7
 
 $$
 
@@ -579,7 +579,7 @@ If the interest rate charged over three months is, 8 per cent annualised, 2 per 
 
 $$
 
-C \ = C \ ? (1 + 0. 0 2) \quad C \ ? = \frac {C \ 1 , 6 0 0 , 0 0 0}{1 . 0 2} = C \ 1 , 5 6 8 , 6 2 7
+C \ = C \ ? (1 + 0. 0 2) \quad C \ ? = \frac{C \ 1 , 6 0 0 , 0 0 0}{1 . 0 2} = C \ 1 , 5 6 8 , 6 2 7
 
 $$
 
@@ -589,7 +589,7 @@ The borrowed dollars are then converted to sterling on the spot market for the e
 
 $$
 
-\frac {C \$ 1 , 5 6 8 , 6 2 7}{1 . 6} = £ 9 8 0, 3 9 2
+\frac{C \$ 1 , 5 6 8 , 6 2 7}{1 . 6} = £ 9 8 0, 3 9 2
 
 $$
 
@@ -677,7 +677,7 @@ With forwards, if the exchange rate happens to move in your favour after you are
 
 $$
 
-\frac {C \$ 1 , 6 0 0 , 0 0 0}{1 . 5} = £ 1, 0 6 6, 6 6 7
+\frac{C \$ 1 , 6 0 0 , 0 0 0}{1 . 5} = £ 1, 0 6 6, 6 6 7
 
 $$
 
@@ -701,7 +701,7 @@ The dollar has strengthened against the pound to C\$1.5/£. If the company exerc
 
 $$
 
-\frac {C \$ 1 , 6 0 0 , 0 0 0}{1 . 6 5} = £ 9 6 9, 6 9 7
+\frac{C \$ 1 , 6 0 0 , 0 0 0}{1 . 6 5} = £ 9 6 9, 6 9 7
 
 $$
 
@@ -709,7 +709,7 @@ If the company lets the option lapse – ‘abandons it’ – and exchanges the
 
 $$
 
-\frac {C \$ 1 , 6 0 0 , 0 0 0}{1 . 5} = £ 1, 0 6 6, 6 6 7
+\frac{C \$ 1 , 6 0 0 , 0 0 0}{1 . 5} = £ 1, 0 6 6, 6 6 7
 
 $$ an extra £96,970.
 
@@ -722,7 +722,7 @@ Now assume that the dollar has weakened against sterling to C\ 1.8/ If the treas
 
 $$
 
-\frac {C \$ 1 , 6 0 0 , 0 0 0}{1 . 6 5} = £ 9 6 9, 6 9 7
+\frac{C \$ 1 , 6 0 0 , 0 0 0}{1 . 6 5} = £ 9 6 9, 6 9 7
 
 $$
 
@@ -730,7 +730,7 @@ If the option is abandoned and the C1.6 million is sold in the spot FX market, t
 
 $$
 
-\frac {C \$ 1 , 6 0 0 , 0 0 0}{1 . 8} = £ 8 8 8, 8 8 9
+\frac{C \$ 1 , 6 0 0 , 0 0 0}{1 . 8} = £ 8 8 8, 8 8 9
 
 $$ a loss of £80,808. This is unattractive and so the option will be exercised.
 
@@ -805,7 +805,7 @@ Let us suppose that sterling and the US dollar are at PPP equilibrium at the sta
 
 $$
 
-\frac {1 + I _ {\mathrm {U S}}}{1 + I _ {\mathrm {U K}}} = \frac {\mathrm {U S} \\ / \\ \mathbb {S} \\ / \\ £ _ {0}}{\mathrm {U S} \\ / \\ £ _ {0}}
+\frac{1 + I_{\mathrm{US}}}{1 + I_{\mathrm{UK}}} = \frac{\mathrm{US} \\ / \\ \mathbb {S} \\ / \\ £_{0}}{\mathrm{US} \\ / \\ £_{0}}
 
 $$ where:  $I_{\mathrm{US}} =$  US inflation rate;
 
@@ -813,14 +813,14 @@ $I_{\mathrm{UK}} = \mathrm{UK}$  inflation rate;
 
 \mathrm{US\ / £_{1} =} the spot rate of exchange at the end of the period;
 
-\mathrm{US\ / £_0} = \text{the spot rate of exchange at the beginning of the period.}
+\mathrm{US\ / £_0} = \text{thespotrateofexchangeatthebeginningoftheperiod.}
 
 $$
-\frac {1 + 0 . 0 3}{1 + 0 . 1 5} = \frac {\mathrm {U S} \mathbb {S} / \mathbb {E} _ {1}}{1 . 5 0}
+\frac{1 + 0 . 0 3}{1 + 0 . 1 5} = \frac{\mathrm{US} \mathbb {S} / \mathbb {E}_{1}}{1 . 5 0}
 $$
 
 $$
-U S \mathbb {S} / £ _ {1} = \frac {1 + 0 . 0 3}{1 + 0 . 1 5} x 1. 5 0 = 1. 3 4 3 5
+U S \mathbb {S} / £_{1} = \frac{1 + 0 . 0 3}{1 + 0 . 1 5} x 1. 5 0 = 1. 3 4 3 5
 $$
 
 The US dollar appreciates against the pound by 10.43 per cent because inflation is lower in the US over the period.
@@ -899,7 +899,7 @@ Exchange US1.62 million (US1.5 million × 1.08 to include added interest) with t
 The formula which links together the spot, forward and interest rate differences is:
 
 $$
-\frac {1 + r _ {\mathrm {U S}}}{1 + r _ {\mathrm {U K}}} = \frac {\mathrm {U S} \\ / \\ \mathbb {S} \\ / \\ \mathbb {S} - \mathbb {E} _ {F}}{\mathrm {U S} \\ / \\ \mathbb {S} - \mathbb {E} _ {S}}
+\frac{1 + r_{\mathrm{US}}}{1 + r_{\mathrm{UK}}} = \frac{\mathrm{US} \\ / \\ \mathbb {S} \\ / \\ \mathbb {S} - \mathbb {E}_{F}}{\mathrm{US} \\ / \\ \mathbb {S} - \mathbb {E}_{S}}
 $$ where:  $r_{\mathrm{US}} =$  interest rate available in the USA;
 
 
@@ -1047,14 +1047,14 @@ The purchasing power parity (PPP) theory states that exchange rates are in equil
 
 $$
 
-\frac {1 + I _ {\mathrm {U S}}}{1 + I _ {\mathrm {U K}}} = \frac {\mathrm {U S} \\ / E _ {1}}{\mathrm {U S} \\ / E _ {0}}
+\frac{1 + I_{\mathrm{US}}}{1 + I_{\mathrm{UK}}} = \frac{\mathrm{US} \\ / E_{1}}{\mathrm{US} \\ / E_{0}}
 
 $$
 - The interest rate parity (IRP) theory holds true when the difference between spot and forward exchange rates is equal to the differential between the interest rates available in the two currencies. Using the US and the UK currencies as examples:
 
 $$
 
-\frac {1 + r _ {\mathrm {U S}}}{1 + r _ {\mathrm {U K}}} = \frac {\mathrm {U S} \mathbb {S} / £ _ {F}}{\mathrm {U S} \mathbb {S} / £ _ {S}}
+\frac{1 + r_{\mathrm{US}}}{1 + r_{\mathrm{UK}}} = \frac{\mathrm{US} \mathbb {S} / £_{F}}{\mathrm{US} \mathbb {S} / £_{S}}
 
 $$
 

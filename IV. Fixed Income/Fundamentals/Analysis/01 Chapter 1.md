@@ -220,17 +220,17 @@ Different contract designs will represent the same risk very differently. For ex
 Yield, or yield to maturity, represents an expected return of a fixed income security. Yield is also known as the internal rate of return, which technically means the flat discount rate that equates the cash flows and the price of the security. There are various ways to define such a yield. The most elementary ones are:
 
 $$
-P = \frac {c _ {1}}{1 + y} + \frac {c _ {2}}{(1 + y) ^ {2}} + \dots + \frac {c _ {n}}{(1 + y) ^ {n}} \tag {1.1}
+P = \frac{c_{1}}{1 + y} + \frac{c_{2}}{(1 + y)^{2}} + \dots + \frac{c_{n}}{(1 + y)^{n}} \tag {1.1}
 $$ where  $c_{j}$  is the  $j$ -th period cash flow. The top line is discrete discounting and the bottom line is continuous discounting. In a typical case the cash flows are fixed and the principal is redeemed at the maturity:
 
 
-$$ c _ {j} = c \mathrm {f o r} j <   n \mathrm {a n d} c _ {n} = 1 + c.
+$$ c_{j} = c \mathrm{fo r} j <   n \mathrm{an d} c_{n} = 1 + c.
 $$
 
 For example, a 10-year 6\% coupon bond that pays annual coupons with a face value of \$1000 and a market price of \$980 can be calculated to have the following yield:
 
 $$
-9 8 0 = \frac {6 0}{1 + y} + \frac {6 0}{(1 + y) ^ {2}} + \dots + \frac {1 0 6 0}{(1 + y) ^ {1 0}}
+9 8 0 = \frac{6 0}{1 + y} + \frac{6 0}{(1 + y)^{2}} + \dots + \frac{1 0 6 0}{(1 + y)^{1 0}}
 $$
 
 The solution is  $y = 6.2753\%$  in discrete time. This yield is an expected return, or internal rate of return, and not the actual return of the bond. The actual return depends on how interest rates move and how each  \$60 is invested. If rates go up in the next 10 years, the re-investment of each\$ 60 will earn more than 6.2753\% and the final outcome will be more. On the other hand, if rates drop and the re-investment incomes of 60 coupons will suffer less returns and the final outcome will be less.
@@ -238,13 +238,13 @@ The solution is  $y = 6.2753\%$  in discrete time. This yield is an expected ret
 In the above equation, the period over which the yield  $y$  is generated is consistent with the length of the period. That is, if the period is semi-annual, then  $y$  is a semi-annual yield. However, it is customary to report yields in an annual basis (per annum) and hence this semi-annual yield needs to be multiplied by 2. As a result, it is more convenient to embed annualization into the formula. There are two ways to do that:
 
 $$
-\begin{array}{l} \# 1) P = \frac {c _ {1}}{1 + y / m} + \frac {c _ {2}}{(1 + y / m) ^ {2}} + \dots + \frac {c _ {m \times n}}{(1 + y / m) ^ {m \times n}} \tag {1.2} \\ \# 2) P = \frac {c _ {1}}{(1 + y) ^ {1 / m}} + \frac {c _ {2}}{(1 + y) ^ {2 / m}} + \dots + \frac {c _ {m \times n}}{(1 + y) ^ {n}} \\ \end{array}
+\begin{array}{l} \# 1) P = \frac{c_{1}}{1 + y / m} + \frac{c_{2}}{(1 + y / m)^{2}} + \dots + \frac{c_{m \times n}}{(1 + y / m)^{m \times n}} \tag {1.2} \\ \# 2) P = \frac{c_{1}}{(1 + y)^{1 / m}} + \frac{c_{2}}{(1 + y)^{2 / m}} + \dots + \frac{c_{m \times n}}{(1 + y)^{n}} \\ \end{array}
 $$ where  $m$  is the frequency the coupon is paid during a year. In a semi-annual (or quarterly) case,  $m = 2$  ( $m = 4$ ). Now the total number of payments is 20 and each  $c_i = 60 \div 2 = 30$  and the last payment is  $c_{20} = 1030$ . This way,  $y$  is automatically already annualized (per annum). Take the same example but assume semi-annual coupons, each coupon payment is now 30 but paid every 6 months. Hence,
 
 
 $$
 
-\begin{array}{l} 9 8 0 = \frac {3 0}{1 + y / 2} + \frac {3 0}{(1 + y / 2) ^ {2}} + \dots + \frac {1 0 3 0}{(1 + y / 2) ^ {2 0}} \\ 9 8 0 = \frac {3 0}{(1 + y) ^ {0 . 5}} + \frac {3 0}{(1 + y) ^ {1}} + \dots + \frac {3 0}{(1 + y) ^ {9 . 5}} + \frac {1 0 3 0}{(1 + y) ^ {1 0}} \\ \end{array}
+\begin{array}{l} 9 8 0 = \frac{3 0}{1 + y / 2} + \frac{3 0}{(1 + y / 2)^{2}} + \dots + \frac{1 0 3 0}{(1 + y / 2)^{2 0}} \\ 9 8 0 = \frac{3 0}{(1 + y)^{0 . 5}} + \frac{3 0}{(1 + y)^{1}} + \dots + \frac{3 0}{(1 + y)^{9 . 5}} + \frac{1 0 3 0}{(1 + y)^{1 0}} \\ \end{array}
 
 $$ and the yield now is equal to  $6.2723\%$  and  $6.3706\%$  respectively.
 
@@ -253,7 +253,7 @@ For quarterly (m = 4) where coupon payment at each quarter is \$15 (last payment
 In the extreme case where discounting is continuous:
 
 $$
-\begin{array}{l} P = c _ {1} e ^ {- y} + c _ {2} e ^ {- 2 y} + \dots + c _ {n} e ^ {- 1 0 y} \\ 9 8 0 = 6 0 e ^ {- y} + 6 0 e ^ {- 2 y} + \dots + 1 0 6 0 e ^ {- 1 0 y} \\ \end{array}
+\begin{array}{l} P = c_{1} e^{- y} + c_{2} e^{- 2 y} + \dots + c_{n} e^{- 1 0 y} \\ 9 8 0 = 6 0 e^{- y} + 6 0 e^{- 2 y} + \dots + 1 0 6 0 e^{- 1 0 y} \\ \end{array}
 $$ and  $y = 6.09\%$ , which is the lowest.
 
 
@@ -263,14 +263,14 @@ The continuous discounting method is the easiest to adjust:
 
 $$
 
-P = c _ {1} e ^ {- y \times t _ {1}} + c _ {2} e ^ {- y \times t _ {2}} + \dots + c _ {n} e ^ {- y \times t _ {n}}
+P = c_{1} e^{- y \times t_{1}} + c_{2} e^{- y \times t_{2}} + \dots + c_{n} e^{- y \times t_{n}}
 
 $$ where  $t_i$  is the distance (per annum) between now and the payment date.
 
 For example, we have a  $6\%$  coupon bond that matures on December 31, 2030 and today is August 26, 2020 and the bond is paying semi-annual coupons (i.e. \$30 per six months). Given the maturity of December 31, 2030, we know that coupons are paid on June 30 and December 31 every year. Hence, the next coupon payment date is  $12/31/2020$ . There are 127 days between now (8/26/2020) and end of the year, which is 0.347 year (i.e.  $127 \div 366$  because 2020 is a leap year). Then we can write the equation as:
 
 $$
-P = 3 0 e ^ {- y \times 0. 3 4 7} + 3 0 e ^ {- y \times 0. 8 4 7} + \dots + 1 0 3 0 e ^ {- y \times 1 0. 3 4 7}
+P = 3 0 e^{- y \times 0. 3 4 7} + 3 0 e^{- y \times 0. 8 4 7} + \dots + 1 0 3 0 e^{- y \times 1 0. 3 4 7}
 $$ and the solution is  $y = 6.2877\%$ .
 
 
@@ -278,7 +278,7 @@ The discrete case is more complicated. There are two discrete methods in equatio
 
 $$
 
-9 8 0 = \frac {3 0}{(1 + y / 2) ^ {0 . 6 9 4}} + \frac {3 0}{(1 + y / 2) ^ {1 . 6 9 4}} + \dots + \frac {1 0 3 0}{(1 + y / 2) ^ {2 0 . 6 9 4}} \tag {1.3}
+9 8 0 = \frac{3 0}{(1 + y / 2)^{0 . 6 9 4}} + \frac{3 0}{(1 + y / 2)^{1 . 6 9 4}} + \dots + \frac{1 0 3 0}{(1 + y / 2)^{2 0 . 6 9 4}} \tag {1.3}
 
 $$
 
@@ -288,7 +288,7 @@ For the second method, it is more straightforward, given that the power of  $1 +
 
 $$
 
-9 8 0 = \frac {3 0}{(1 + y) ^ {0 . 3 4 7}} + \frac {3 0}{(1 + y) ^ {0 . 8 4 7}} + \dots + \frac {1 0 3 0}{(1 + y) ^ {1 0 . 3 4 7}}
+9 8 0 = \frac{3 0}{(1 + y)^{0 . 3 4 7}} + \frac{3 0}{(1 + y)^{0 . 8 4 7}} + \dots + \frac{1 0 3 0}{(1 + y)^{1 0 . 3 4 7}}
 
 $$
 
@@ -310,7 +310,7 @@ While coupon bonds have no unique yield result, zero-coupon bonds do. In a zero-
 
 $$
 
-\begin{array}{l} P = e ^ {- y \tau} \\ y = - \frac {1}{\tau} \ln P \\ \end{array}
+\begin{array}{l} P = e^{- y \tau} \\ y = - \frac{1}{\tau} \ln P \\ \end{array}
 
 $$ where  $\tau$  represents time to maturity. When we build the yield curve, we use only zero coupon bonds. Hence, the resulting yield curve is also called the zero curve. In Chapter 2, we will define each term carefully and rigorously. Time indices will be added to the variables.
 
@@ -323,7 +323,7 @@ Unlike equities, not all fixed income securities are quoted in term of price. Ma
 It is important to differentiate rate quotes, that are to determine transaction prices, and rates of return, that represent percentage return of an investment. Rate quotes are subject to day count conventions. For example, T bill quotes are subject to Actual/360 convention. Hence, a quote of 3.24 of a bill 21 days to maturity has a price of:
 
 $$
-1 0 0 - 3. 2 4 \times \frac {2 1}{3 6 0} = 9 9. 8 1
+1 0 0 - 3. 2 4 \times \frac{2 1}{3 6 0} = 9 9. 8 1
 $$
 
 The rate of return of this bill can be computed discretely as:
@@ -341,11 +341,11 @@ Note that 99.81 is a percent quote. It represents the price to pay for acquiring
 Swaptions are quoted by volatility, more specifically, Black volatility:
 
 $$
-C = P (t, T _ {C}) [ w (t) N (d _ {+}) - w _ {K} N (d _ {-}) ]
+C = P (t, T_{C}) [ w (t) N (d_{+}) - w_{K} N (d_{-}) ]
 $$ where
 
 
-$$ d _ {\pm} = \frac {\ln w (t) - \ln w _ {K}}{v (t , T)} \pm \frac {1}{2} v (t, T) ^ {2}
+$$ d_{\pm} = \frac{\ln w (t) - \ln w_{K}}{v (t , T)} \pm \frac{1}{2} v (t, T)^{2}
 $$ and  $w(t)$  is the current swap rate,  $w_{K}$  is the strike price.
 
 
@@ -365,25 +365,25 @@ Daycount is a very special trading convention in the world of fixed income secur
 The code is what is used by the Excel function yearfrac(a,b,c) where a is the beginning date, b is the ending date, and c is the code of the daycount convention. Lets first study 30/360 convention. This convention assumes that there are exactly 30 days in a month for any fraction of a month. For example, from 1/2/2003 to 2/28/2003, both months are not full months. In a normal calendar, January has 29 days and February has 28 days. But under 30/360, there are only 28 days in January (28 = 30 - 2) and 28 days in February. Hence, the period in years is:
 
 $$
-0. 1 5 5 5 5 6 = \left[ \frac {3 0 - 2}{3 0} + \frac {2 8}{3 0} \right] \div 1 2
+0. 1 5 5 5 5 6 = \left[ \frac{3 0 - 2}{3 0} + \frac{2 8}{3 0} \right] \div 1 2
 $$
 
 This implies that there will be 1 day in January if we count from 1/29/2003 and 0 day if we count from 1/30/2003:
 
 $$
-0. 0 8 0 5 5 5 5 6 = \left[ \frac {3 0 - 2 9}{3 0} + \frac {2 8}{3 0} \right] \div 1 2
+0. 0 8 0 5 5 5 5 6 = \left[ \frac{3 0 - 2 9}{3 0} + \frac{2 8}{3 0} \right] \div 1 2
 $$
 
 Interestingly, since there can be only 30 days in a month, it will be 0 day if we count from 1/30/2003 and 1/31/2003:
 
 $$
-0. 0 7 7 7 7 7 7 8 = \left[ \frac {0}{3 0} + \frac {2 8}{3 0} \right] \div 1 2
+0. 0 7 7 7 7 7 7 8 = \left[ \frac{0}{3 0} + \frac{2 8}{3 0} \right] \div 1 2
 $$
 
 But on the other hand, if the ending date is  $3/1/2003$ , then we will have a full month for February. Hence, although there is only one day difference between 2/28 and  $3/1$ , the 30/360 daycount treats it as three days apart:
 
 $$
-0. 1 6 3 8 8 8 8 8 9 = \left[ \frac {3 0 - 2}{3 0} + 1 + \frac {1}{3 0} \right] \div 1 2
+0. 1 6 3 8 8 8 8 8 9 = \left[ \frac{3 0 - 2}{3 0} + 1 + \frac{1}{3 0} \right] \div 1 2
 $$
 
 The following table summarizes the result.
@@ -395,18 +395,18 @@ Table 1.1: Daycount
 Under A/A, the year fraction from 1/2/2003 to 2/28/2003 is 57 days (actual number of days between 1/2/2003 to 2/28/2003) divided by 365 (which is the actual number of days in year 2003):
 
 $$
-0. 1 5 6 1 6 4 = \frac {\mathrm {\# o f d a y s i n b e t w e e n}}{\mathrm {\# o f d a y s i n a y e a r}} = \frac {5 7}{3 6 5}
+0. 1 5 6 1 6 4 = \frac{\mathrm{\#o fd ay si nb et we en}}{\mathrm{\#o fd ay si na ye ar}} = \frac{5 7}{3 6 5}
 $$ which is the same as A/365 in a normal year (but not in a leap year, which will be explained later):
 
 
 $$
-0. 1 5 6 1 6 4 = \frac {\mathrm {\# o f d a y s i n b e t w e e n}}{3 6 5} = \frac {5 7}{3 6 5}
+0. 1 5 6 1 6 4 = \frac{\mathrm{\#o fd ay si nb et we en}}{3 6 5} = \frac{5 7}{3 6 5}
 $$
 
 Finally, under A/360, the year fraction from 1/2/2003 to 2/28/2003 is:
 
 $$
-0. 1 5 8 3 3 3 = \frac {\mathrm {\# o f d a y s i n b e t w e e n}}{3 6 0} = \frac {5 7}{3 6 0}
+0. 1 5 8 3 3 3 = \frac{\mathrm{\#o fd ay si nb et we en}}{3 6 0} = \frac{5 7}{3 6 0}
 $$
 
 <table><tr><td>beginning</td><td>ending</td><td>daycount</td><td>code</td><td>year frac</td></tr><tr><td>12/2/1995</td><td>3/1/1996</td><td>0</td><td>30/360</td><td>0.24722</td></tr><tr><td>12/2/1995</td><td>3/1/1996</td><td>1</td><td>A/A</td><td>0.2459</td></tr><tr><td>12/2/1995</td><td>3/1/1996</td><td>2</td><td>A/360</td><td>0.25</td></tr><tr><td>12/2/1995</td><td>3/1/1996</td><td>3</td><td>A/365</td><td>0.24658</td></tr></table>
@@ -418,7 +418,7 @@ In a leap year, there are 29 days in February (e.g. 1996). For example, from 12/
 
 $$
 
-\begin{array}{l} 0. 2 4 7 2 2 2 = \left[ \frac {3 0 - 2}{3 0} + 1 + 1 + \frac {1}{3 0} \right] \div 1 2 \\ 0. 2 4 5 9 0 2 = \frac {\# \text {o f d a y s i n b e t w e e n}}{\# \text {o f d a y s i n a y e a r}} = \frac {9 0}{3 6 6} \\ 0. 2 5 0 0 0 0 = \frac {\mathrm {\# o f d a y s i n b e t w e e n}}{3 6 0} = \frac {9 0}{3 6 0} \\ 0. 2 4 6 5 7 5 = \frac {\# \text {o f d a y s i n b e t w e e n}}{3 6 5} = \frac {9 0}{3 6 5} \\ \end{array}
+\begin{array}{l} 0. 2 4 7 2 2 2 = \left[ \frac{3 0 - 2}{3 0} + 1 + 1 + \frac{1}{3 0} \right] \div 1 2 \\ 0. 2 4 5 9 0 2 = \frac{\# \text{of da ys in be tw ee n}}{\# \text{of da ys in ay ea r}} = \frac{9 0}{3 6 6} \\ 0. 2 5 0 0 0 0 = \frac{\mathrm{\#o fd ay si nb et we en}}{3 6 0} = \frac{9 0}{3 6 0} \\ 0. 2 4 6 5 7 5 = \frac{\# \text{of da ys in be tw ee n}}{3 6 5} = \frac{9 0}{3 6 5} \\ \end{array}
 
 $$
 
@@ -433,7 +433,7 @@ Hence, the dirty price is:
 
 $$
 
-\text {D i r t y P r i c e} = \text {C l e a n P r i c e} + \frac {6 0}{1 8 2} \times \frac {\mathrm {c p n}}{2}
+\text{Di rt yP ri ce} = \text{Cl ea nP ri ce} + \frac{6 0}{1 8 2} \times \frac{\mathrm{cp n}}{2}
 
 $$
 
@@ -474,12 +474,12 @@ In Figure 1.2, we demonstrate how various rates are defined. Let  $r_t$  be a on
 
 - continuous time:
 
-$$ y _ {0, n} = \frac {1}{n} \sum_ {i = 1} ^ {n} f _ {0, i, i + 1} \tag {1.4}
+$$ y_{0, n} = \frac{1}{n} \sum_{i = 1}^{n} f_{0, i, i + 1} \tag {1.4}
 $$
 
 - discrete time:
 
-$$ y _ {0, n} = \sqrt [ n ]{\prod_ {i = 1} ^ {n} \left(1 + f _ {0 , i , i + 1}\right)} \tag {1.5}
+$$ y_{0, n} = \sqrt [ n ]{\prod_{i = 1}^{n} \left(1 + f_{0 , i , i + 1}\right)} \tag {1.5}
 $$ where  $f_{t,u,v}$  represents the forward rate observed at time  $t$  for a forward rate covering a future period between  $u$  and  $v$ . Hence,  $f_{0,i,i+1}$  is the forward rate observed today (traded in the marketplace today) for a future period between  $i$  and  $i+1$  which is one period forward rate). For example,  $f_{012}$ ,  $f_{023}$ ,  $f_{034}$  are one-year forward rates,  $f_{013}$ ,  $f_{024}$  are two-year forward rates, and  $f_{014}$  is a three-year forward rate.
 
 

@@ -795,13 +795,13 @@ A rating migration matrix completely summarizes changes in credit ratings over a
 The probability that an issuer's rating  $i$  held on cohort date  $y$  will transition to rating  $j$  (which includes default and withdrawal) over a time horizon  $T$  is calculated as:
 
 $$
-p _ {i j} ^ {y} (T) = \frac {n _ {i j} ^ {y} (T)}{n _ {i} ^ {y} (0)}
+p_{i j}^{y} (T) = \frac{n_{i j}^{y} (T)}{n_{i}^{y} (0)}
 $$
 
 The weighted average rating migration rate for all cohorts  $y$  in the historical data set  $Y$  is calculated as:
 
 $$
-\bar {p} _ {i j} (T) = \frac {\sum_ {y \in Y} n _ {i j} ^ {y} (T)}{\sum_ {y \in Y} n _ {i} ^ {y} (0)}
+\bar {p}_{i j} (T) = \frac{\sum_{y \in Y} n_{i j}^{y} (T)}{\sum_{y \in Y} n_{i}^{y} (0)}
 $$
 
 # Default Rate Calculations
@@ -811,19 +811,19 @@ Moody's method for calculating cumulative default rates is a discrete-time appro
 The marginal default rate for issuers holding rating  $i$  on cohort date  $y$  is the ratio of the number of defaulting issuers in period  $t$  divided by the number of issuers exposed to the risk of default in period  $t$ .
 
 $$
-d _ {i} ^ {y} (t) = \frac {x _ {i} ^ {y} (t)}{n _ {i} ^ {y} (t) - x _ {i} ^ {y} (t - 1) - \frac {1}{2} [ w _ {i} ^ {y} (t) + w _ {i} ^ {y} (t - 1) ]}
+d_{i}^{y} (t) = \frac{x_{i}^{y} (t)}{n_{i}^{y} (t) - x_{i}^{y} (t - 1) - \frac{1}{2} [ w_{i}^{y} (t) + w_{i}^{y} (t - 1) ]}
 $$
 
 The denominator of the marginal default rate adjusts for defaults that occur prior to time interval  $t$ , as well as rating withdrawals,  $w(t)$ , that occur in periods prior to interval  $t$  and a small adjustment for withdrawals that occur in time interval  $t$ . Cumulative default rates for investment horizons of length  $T$ ,  $D(T)$ , are built up from the marginal default rates:
 
 $$
-D _ {i} ^ {y} (T) = 1 - \prod_ {t = 1} ^ {T} \left[ 1 - d _ {i} ^ {y} (t) \right]
+D_{i}^{y} (T) = 1 - \prod_{t = 1}^{T} \left[ 1 - d_{i}^{y} (t) \right]
 $$
 
 Or, expanding the above equation (and dropping indices for brevity):
 
 $$
-D (T) = d (1) + d (2) [ 1 - d (1) ] + d (3) [ (1 - d (1)) (1 - d (2)) ] + \dots + d (T) (\prod_ {t = 1} ^ {T - 1} [ 1 - d (t) ])
+D (T) = d (1) + d (2) [ 1 - d (1) ] + d (3) [ (1 - d (1)) (1 - d (2)) ] + \dots + d (T) (\prod_{t = 1}^{T - 1} [ 1 - d (t) ])
 $$
 
 In the first time period, a fraction of the credit exposures in the cohort either defaults or survives. The credit exposures that survive period one may then go on to default or survive in period two; those that survive period two may go on to default or survive in period three, etc. Because the time periods are non-overlapping and the probability of default in each period is assumed to be independent, the  $T$ -period cumulative default rate is defined as one minus the product of the  $T$  marginal survival rates.
@@ -831,7 +831,7 @@ In the first time period, a fraction of the credit exposures in the cohort eithe
 The calculation of the average cumulative default rate for rating class  $i$ ,  $\overline{D}_i(T)$ , is derived from the weighted average marginal default rates,  $\overline{d}_i(t)$ , calculated from all the available cohort marginal default rates in the historical data set  $Y$ :
 
 $$
-\overline {{D}} _ {i} (T) = 1 - \prod_ {t = 1} ^ {T} [ 1 - \overline {{d}} _ {i} (t) ]
+\overline {{D}}_{i} (T) = 1 - \prod_{t = 1}^{T} [ 1 - \overline {{d}}_{i} (t) ]
 $$
 
 # Corporate Default and Recovery Rates, 1920-2008
@@ -839,13 +839,13 @@ $$
 where
 
 $$
-\bar {d} _ {i} (t) = \frac {\sum_ {y \in Y} x _ {i} ^ {y} (t)}{\sum_ {y \in Y} n _ {i} ^ {y} (t)}
+\bar {d}_{i} (t) = \frac{\sum_{y \in Y} x_{i}^{y} (t)}{\sum_{y \in Y} n_{i}^{y} (t)}
 $$
 
 The default rates calculated in multi-year rating migration matrices are not comparable to those calculated using Moody's discrete-time hazard rate method described above. Rating migration matrices account for rating withdrawals separately (in the column labeled WR) while the hazard rate method incrementally adjusts the denominator of the marginal default rate to remove rating withdrawals. Occasionally, withdrawal-adjusted rating migration matrices are calculated as follows:
 
 $$
-p _ {i j} ^ {y} (T) ^ {*} = \frac {p _ {i j} ^ {y} (T)}{(1 - p _ {i w} ^ {y} (T))}
+p_{i j}^{y} (T)^{*} = \frac{p_{i j}^{y} (T)}{(1 - p_{i w}^{y} (T))}
 $$
 
 Using this method, all issuers whose ratings are withdrawn are removed. In effect, data for issuers whose ratings are withdrawn is completely discarded. This method generally yields higher default rate estimates than the hazard rate method. Hence, Moody's hazard rate-derived default rate estimates lay between unadjusted migration matrix-derived default rates and withdrawal-adjusted migration matrix-derived default rates.
@@ -865,7 +865,7 @@ The alternative approach of directly measuring ultimate realized recoveries pres
 Moody's credit ratings are opinions of relative expected credit losses. Credit losses are therefore a function of both probability of default (PD) as well as the severity of default (LGD). The expected credit loss rate for rating category  $i$  is calculated as the product of the  $T$ -horizon average issuer-weighted default rate and the  $T$ -horizon average issuer-weighted senior unsecured loss severity rate (where  $r(T)$  is the average senior unsecured recovery rate at horizon  $T$ ):
 
 $$
-l _ {i} (T) = \bar {D} _ {i} (T) \times (1 - \bar {r} _ {i} (T))
+l_{i} (T) = \bar {D}_{i} (T) \times (1 - \bar {r}_{i} (T))
 $$
 
 # CAP Curve and Accuracy Ratio

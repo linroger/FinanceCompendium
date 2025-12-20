@@ -85,7 +85,7 @@ Define Y and Y as the exchange rates between the domestic currency (from now on 
 Then, the exchange rate between £and ¥must be:
 
 $$
-X = \frac {\Upsilon}{Y}
+X = \frac{\Upsilon}{Y}
 $$
 
 For example, the exchange rate between dollar and yen is  $Y = 0.01$  (1 dollar = 100 yen) and pound is  $\Upsilon = 1.5$  (1 pound = 1.5 dollars). Then in Japan (end of arrow), 1 pound is worth 150 yen.
@@ -103,19 +103,19 @@ $$ and
 
 $$
 
-\sigma_ {X} ^ {2} = \sigma_ {\Upsilon} ^ {2} + \sigma_ {Y} ^ {2} - 2 \rho_ {\Upsilon Y}
+\sigma_{X}^{2} = \sigma_{\Upsilon}^{2} + \sigma_{Y}^{2} - 2 \rho_{\Upsilon Y}
 
 $$
 
 $$
 
-\sigma_ {Y} ^ {2} = \sigma_ {\Upsilon} ^ {2} + \sigma_ {X} ^ {2} - 2 \rho_ {X \Upsilon}
+\sigma_{Y}^{2} = \sigma_{\Upsilon}^{2} + \sigma_{X}^{2} - 2 \rho_{X \Upsilon}
 
 $$
 
 $$
 
-\sigma_ {\Upsilon} ^ {2} = \sigma_ {X} ^ {2} + \sigma_ {Y} ^ {2} + 2 \rho_ {X Y}
+\sigma_{\Upsilon}^{2} = \sigma_{X}^{2} + \sigma_{Y}^{2} + 2 \rho_{X Y}
 
 $$
 
@@ -123,7 +123,7 @@ Hence, it is clear that the volatilities of the three exchange rates cannot be a
 
 $$
 
-\left| \begin{array}{c c c} 1 & \rho_ {1 2} & \rho_ {1 3} \\ \rho_ {1 2} & 1 & \rho_ {2 3} \\ \rho_ {1 3} & \rho_ {2 3} & 1 \end{array} \right| = 1 + 2 \rho_ {1 2} \rho_ {2 3} \rho_ {1 3} - \left(\rho_ {1 3} ^ {2} + \rho_ {1 2} ^ {2} + \rho_ {2 3} ^ {2}\right) = 0
+\left| \begin{array}{c c c} 1 & \rho_{1 2} & \rho_{1 3} \\ \rho_{1 2} & 1 & \rho_{2 3} \\ \rho_{1 3} & \rho_{2 3} & 1 \end{array} \right| = 1 + 2 \rho_{1 2} \rho_{2 3} \rho_{1 3} - \left(\rho_{1 3}^{2} + \rho_{1 2}^{2} + \rho_{2 3}^{2}\right) = 0
 
 $$
 
@@ -131,19 +131,19 @@ If one of them is  $100\%$  then the other two must be equal to each other:
 
 $$
 
-1 + 2 \rho_ {2 3} \rho_ {1 3} - \left(\rho_ {1 3} ^ {2} + 1 + \rho_ {2 3} ^ {2}\right) = 0
+1 + 2 \rho_{2 3} \rho_{1 3} - \left(\rho_{1 3}^{2} + 1 + \rho_{2 3}^{2}\right) = 0
 
 $$
 
 $$
 
-\left(\rho_ {1 3} - \rho_ {2 3}\right) ^ {2} = 0
+\left(\rho_{1 3} - \rho_{2 3}\right)^{2} = 0
 
 $$
 
 $$
 
-\rho_ {1 3} = \rho_ {2 3}
+\rho_{1 3} = \rho_{2 3}
 
 $$
 
@@ -151,19 +151,19 @@ If one of them is  $-100\%$  then:
 
 $$
 
-1 - 2 \rho_ {2 3} \rho_ {1 3} - \left(\rho_ {1 3} ^ {2} - 1 + \rho_ {2 3} ^ {2}\right) = 0
+1 - 2 \rho_{2 3} \rho_{1 3} - \left(\rho_{1 3}^{2} - 1 + \rho_{2 3}^{2}\right) = 0
 
 $$
 
 $$
 
-2 - \left(\rho_ {1 3} + \rho_ {2 3}\right) ^ {2} = 0
+2 - \left(\rho_{1 3} + \rho_{2 3}\right)^{2} = 0
 
 $$
 
 $$
 
-\rho_ {1 3} + \rho_ {2 3} = \left\{ \begin{array}{l} \sqrt {2} \\ - \sqrt {2} \end{array} \right.
+\rho_{1 3} + \rho_{2 3} = \left\{ \begin{array}{l} \sqrt{2} \\ - \sqrt{2} \end{array} \right.
 
 $$
 
@@ -205,17 +205,17 @@ Mathematically, let  $X_0$  be the current exchange rate. Then
 
 $$
 
-R _ {U S} = \frac {\frac {1}{X _ {0}} R _ {J P}}{X _ {1}}
+R_{U S} = \frac{\frac{1}{X_{0}} R_{J P}}{X_{1}}
 
 $$
 
 $$
-1. 0 5 = \frac {\frac {1}{0 . 0 1} \times 1 . 0 2}{X _ {1}}
+1. 0 5 = \frac{\frac{1}{0 . 0 1} \times 1 . 0 2}{X_{1}}
 $$
 
 $$
 
-X _ {1} = X _ {0} \frac {R _ {U S}}{R _ {J P}} = \frac {1}{0 . 0 1} \times \frac {1 . 0 5}{1 . 0 2} = 0. 0 1 0 3
+X_{1} = X_{0} \frac{R_{U S}}{R_{J P}} = \frac{1}{0 . 0 1} \times \frac{1 . 0 5}{1 . 0 2} = 0. 0 1 0 3
 
 $$
 
@@ -223,7 +223,7 @@ In continuous time, we denote:
 
 $$
 
-\frac {R _ {U S}}{R _ {J P}} = \frac {e ^ {r _ {U S}}}{e ^ {r _ {J P}}} = e ^ {r _ {U S} - r _ {J P}}
+\frac{R_{U S}}{R_{J P}} = \frac{e^{r_{U S}}}{e^{r_{J P}}} = e^{r_{U S} - r_{J P}}
 
 $$
 
@@ -231,7 +231,7 @@ Note that forward price does NOT reflect the expected future spot value; but rat
 
 $$
 
-\mathbb {E} _ {t} [ X _ {T} ] <   \Psi_ {X} (t, T)
+\mathbb {E}_{t} [ X_{T} ] <   \Psi_{X} (t, T)
 
 $$ where  $\Psi_X(t,T)$  is the forward FX rate settled at time  $T$ .
 
@@ -319,7 +319,7 @@ Certainly the exchange rate or the interest rate can move in the other direction
 
 Now we turn to a more standard contract: fixed-floating swap. We first introduce the floating payments to the domestic leg (and the foreign leg remains fixed). We change the forward curve from flat in Table 6.7 to upward sloping in Table 6.7. Hence, the payments on the domestic leg are non-constant. To make sure that it is a fair swap (i.e. today's swap contract has no value), the foreign leg must pay the swap rate using equation (5.2) from Chapter 5:
 
-$$ w (t, T _ {n}) = \frac {1 - P (t , T _ {n})}{\sum_ {i = 1} ^ {n} P (t , T _ {i})}
+$$ w (t, T_{n}) = \frac{1 - P (t , T_{n})}{\sum_{i = 1}^{n} P (t , T_{i})}
 $$ which is  $5.3449\%$ .
 
 
@@ -469,7 +469,7 @@ The typical quotes of FX options are:
 
 - ATM (at-the-money)
 - RR (risk reversal):  $x$  Delta Call -  $x$  Delta Put
-- BF (butterfly):  $(x\text{Delta Call} + x\text{Delta Put}) \div 2 - \text{ATM}$ over
+- BF (butterfly):  $(x\text{DeltaCall} + x\text{DeltaPut}) \div 2 - \text{ATM}$ over
 
 
 10 delta
@@ -483,7 +483,7 @@ First of all, from BF and RR, we can solve for individual option prices:
 
 $$
 
-\begin{array}{l} \mathrm {C a l l} = \mathrm {B F} + \mathrm {A T M} + \frac {1}{2} \mathrm {R R} \\ \mathrm {P u t} = \mathrm {B F} + \mathrm {A T M} - \frac {1}{2} \mathrm {R R} \\ \end{array}
+\begin{array}{l} \mathrm{Ca ll} = \mathrm{BF} + \mathrm{AT M} + \frac{1}{2} \mathrm{RR} \\ \mathrm{Pu t} = \mathrm{BF} + \mathrm{AT M} - \frac{1}{2} \mathrm{RR} \\ \end{array}
 
 $$
 
@@ -491,7 +491,7 @@ Note that RR provides a unique way to identify the strike price of the call and 
 
 $$
 
-\begin{array}{l} \Delta_ {C} = \frac {\partial C}{\partial S} = N (d _ {1}) \\ \Delta_ {P} = \frac {\partial P}{\partial S} = - N (- d _ {1}) \\ \end{array}
+\begin{array}{l} \Delta_{C} = \frac{\partial C}{\partial S} = N (d_{1}) \\ \Delta_{P} = \frac{\partial P}{\partial S} = - N (- d_{1}) \\ \end{array}
 
 $$
 
@@ -499,14 +499,14 @@ Hence,
 
 $$
 
-\Delta_ {C} + \Delta_ {P} = 1
+\Delta_{C} + \Delta_{P} = 1
 
 $$ which implies that put and call of the same delta can reproduce a forward contract (which has  $\Delta = 1$ ) and hence they must have the same strike.
 
 Recall put-call parity:
 
 $$
-C (t) - P (t) = S (t) - e ^ {- r (T - t)} K
+C (t) - P (t) = S (t) - e^{- r (T - t)} K
 $$ which then can solve for the strike.
 
 
@@ -557,24 +557,24 @@ Consider the interest rate parity theorem and a simple Black-Scholes type model:
 
 $$
 
-\frac {d Y (t)}{Y (t)} = \left(r (t) - r ^ {*} (t)\right) d t + \sigma d \hat {W} _ {Y}
+\frac{d Y (t)}{Y (t)} = \left(r (t) - r^{*} (t)\right) d t + \sigma d \hat {W}_{Y}
 
 $$
 
 $$
 
-\frac {d P (t , T)}{P (t , T)} = r (t) d t + v _ {P} (t, T) d \hat {W} _ {P} \tag {6.1}
+\frac{d P (t , T)}{P (t , T)} = r (t) d t + v_{P} (t, T) d \hat {W}_{P} \tag {6.1}
 
 $$
 
 $$
 
-\frac {d P ^ {*} (t , T)}{P ^ {*} (t , T)} = r ^ {*} (t) d t + v _ {P ^ {*}} ^ {*} (t, T) d \hat {W} _ {P ^ {*}} ^ {*}
+\frac{d P^{*} (t , T)}{P^{*} (t , T)} = r^{*} (t) d t + v_{P^{*}}^{*} (t, T) d \hat {W}_{P^{*}}^{*}
 
 $$ and  $d\hat{W}_i d\hat{W}_j = \rho_{ij} dt$  and  $i, j = Y, r, r^*$ . We further assume that:
 
 $$
-P ^ {*} (t, T) = \mu^ {*} (t) d t + v _ {P ^ {*}} ^ {*} (t, T) d \hat {W} _ {P ^ {*}} \tag {6.2}
+P^{*} (t, T) = \mu^{*} (t) d t + v_{P^{*}}^{*} (t, T) d \hat {W}_{P^{*}} \tag {6.2}
 $$ which is the domestic measure of the foreign bond price. In other words, the dollar measure of pound (still in pound) is different from the pound measure of pound.
 
 
@@ -582,7 +582,7 @@ Now, we can define the dollar price of the foreign bond is:
 
 $$
 
-Q (t, T) = Y (t) P ^ {*} (t, T)
+Q (t, T) = Y (t) P^{*} (t, T)
 
 $$
 
@@ -590,7 +590,7 @@ Then, the return of the this asset must be the domestic risk-free rate  $r$ , us
 
 $$
 
-\begin{array}{l} \frac {d Q}{Q} = \frac {1}{Q} \left\{\frac {\partial Q}{\partial Y} d Y + \frac {\partial Q}{\partial P ^ {*}} d P ^ {*} + \frac {\partial^ {2} Q}{\partial Y \partial P ^ {*}} (d Y) (d P ^ {*}) + o (d t) \right\} \\ = \frac {1}{Q} \left\{P ^ {*} \left[ (r - r ^ {*}) Y d t + \sigma Y d W _ {Y} \right] + Y \left[ \mu^ {*} P ^ {*} d t + v _ {P ^ {*}} ^ {*} P ^ {*} d W _ {P ^ {*}} \right] + Y P ^ {*} \rho_ {Y, P ^ {*}} \sigma v _ {P ^ {*}} ^ {*} \right\} \\ = \left(r + \mu^ {*} - r ^ {*} + \rho_ {Y, P ^ {*}} \sigma v _ {P ^ {*}} ^ {*}\right) d t + \left\{\sigma d W _ {Y} + v _ {P ^ {*}} ^ {*} d W _ {P ^ {*}} \right\} \\ = r d t + v _ {Q} (t, T) d \hat {W} _ {Q} \\ \end{array}
+\begin{array}{l} \frac{d Q}{Q} = \frac{1}{Q} \left\{\frac{\partial Q}{\partial Y} d Y + \frac{\partial Q}{\partial P^{*}} d P^{*} + \frac{\partial^{2} Q}{\partial Y \partial P^{*}} (d Y) (d P^{*}) + o (d t) \right\} \\ = \frac{1}{Q} \left\{P^{*} \left[ (r - r^{*}) Y d t + \sigma Y d W_{Y} \right] + Y \left[ \mu^{*} P^{*} d t + v_{P^{*}}^{*} P^{*} d W_{P^{*}} \right] + Y P^{*} \rho_{Y, P^{*}} \sigma v_{P^{*}}^{*} \right\} \\ = \left(r + \mu^{*} - r^{*} + \rho_{Y, P^{*}} \sigma v_{P^{*}}^{*}\right) d t + \left\{\sigma d W_{Y} + v_{P^{*}}^{*} d W_{P^{*}} \right\} \\ = r d t + v_{Q} (t, T) d \hat {W}_{Q} \\ \end{array}
 
 $$
 
@@ -598,12 +598,12 @@ Given that  $Q$  must earn the domestic risk-free rate (since it is a domestic a
 
 $$
 
-\mu^ {*} = r ^ {*} - \rho_ {Y, P ^ {*}} \sigma v _ {P ^ {*}} ^ {*} \tag {6.3}
+\mu^{*} = r^{*} - \rho_{Y, P^{*}} \sigma v_{P^{*}}^{*} \tag {6.3}
 
 $$ and  $v_{Q}^{2}(t,T) = \sigma^{2} + v_{P^{*}}^{*2} + 2\rho_{Y,P^{*}}\sigma v_{P^{*}}^{*}$ . Hence,
 
 $$
-\rho_ {Y, P ^ {*}} \sigma v _ {P ^ {*}} ^ {*}
+\rho_{Y, P^{*}} \sigma v_{P^{*}}^{*}
 $$ is known as the "quanto" effect. What this says is that the domestic measure of the foreign risk-free rate must be adjusted by the quanto effect.
 
 
@@ -616,7 +616,7 @@ Combining equations (6.1), (6.2), and (6.3), we arrive at the famous change of m
 
 $$
 
-\widehat {d W} _ {P ^ {*}} ^ {*} = \widehat {d W} _ {P ^ {*}} - \rho_ {Y P ^ {*}} \sigma d t \tag {6.4}
+\widehat {d W}_{P^{*}}^{*} = \widehat {d W}_{P^{*}} - \rho_{Y P^{*}} \sigma d t \tag {6.4}
 
 $$ the difference between domestic and foreign measures is the quanto.
 
@@ -629,26 +629,26 @@ We also modify the Black-Scholes option formula as follows:
 
 $$
 
-C _ {t} = P _ {t, T} ^ {*} Y _ {t} N (d _ {1}) - P _ {t, T} K N (d _ {2})
+C_{t} = P_{t, T}^{*} Y_{t} N (d_{1}) - P_{t, T} K N (d_{2})
 
 $$ where
 
 
-$$ d _ {1} = \frac {\ln Y _ {t} - \ln K - \ln P _ {t , T} + \ln P _ {t , T} ^ {*} + v ^ {2} / 2}{\sqrt {v}}
+$$ d_{1} = \frac{\ln Y_{t} - \ln K - \ln P_{t , T} + \ln P_{t , T}^{*} + v^{2} / 2}{\sqrt{v}}
 $$
 
-$$ d _ {2} = d _ {1} - v \sqrt {T - t}
+$$ d_{2} = d_{1} - v \sqrt{T - t}
 $$
 
-$$ v ^ {2} = \mathbb {V} [ \ln Y _ {T} - \ln D _ {t, T} + \ln D _ {t, T} ^ {*} ]
-$$
-
-$$
-D _ {t, T} = \exp \left\{- \int_ {t} ^ {T} r _ {u} d u \right\}
+$$ v^{2} = \mathbb {V} [ \ln Y_{T} - \ln D_{t, T} + \ln D_{t, T}^{*} ]
 $$
 
 $$
-D _ {t, T} ^ {*} = \exp \left\{- \int_ {t} ^ {T} r _ {u} ^ {*} d u \right\}
+D_{t, T} = \exp \left\{- \int_{t}^{T} r_{u} d u \right\}
+$$
+
+$$
+D_{t, T}^{*} = \exp \left\{- \int_{t}^{T} r_{u}^{*} d u \right\}
 $$
 
 The quanto effect exists when the exchange rate and the two interest rates are all random and correlated. To see this more clearly, we use the Nikkei option as an example.
@@ -656,11 +656,11 @@ The quanto effect exists when the exchange rate and the two interest rates are a
 Define a "variable rate" call option that pays  $\max \{S_T^* - K, 0\}$  in yen. Then in dollars, it is  $Y_T \max \{S_T^* - K, 0\}$  at time  $T$ . Now we can simply discount it back at the domestic rate  $r$ :
 
 $$
-\begin{array}{l} C _ {t} ^ {*} = e ^ {- r (T - t)} \hat {\mathbb {E}} _ {t} \left[ Y _ {T} \max  \left\{S _ {T} ^ {*} - K, 0 \right\} \right] \\ = e ^ {- r (T - t)} e ^ {(r - r ^ {*}) (T - t)} Y _ {t} \hat {\mathbb {E}} _ {t} ^ {(Y)} [ \max  \{S _ {T} ^ {*} - K, 0 \} ] \\ = e ^ {- r ^ {*} (T - t)} Y _ {t} \left[ e ^ {r ^ {*} (T - t)} S _ {t} ^ {*} N \left(d _ {+}\right) - K N \left(d _ {-}\right) \right] \tag {6.5} \\ = Y _ {t} \left[ S _ {t} ^ {*} N \left(d _ {+}\right) - e ^ {- r ^ {*} (T - t)} K N \left(d _ {-}\right) \right] \\ \end{array}
+\begin{array}{l} C_{t}^{*} = e^{- r (T - t)} \hat {\mathbb {E}}_{t} \left[ Y_{T} \max  \left\{S_{T}^{*} - K, 0 \right\} \right] \\ = e^{- r (T - t)} e^{(r - r^{*}) (T - t)} Y_{t} \hat {\mathbb {E}}_{t}^{(Y)} [ \max  \{S_{T}^{*} - K, 0 \} ] \\ = e^{- r^{*} (T - t)} Y_{t} \left[ e^{r^{*} (T - t)} S_{t}^{*} N \left(d_{+}\right) - K N \left(d_{-}\right) \right] \tag {6.5} \\ = Y_{t} \left[ S_{t}^{*} N \left(d_{+}\right) - e^{- r^{*} (T - t)} K N \left(d_{-}\right) \right] \\ \end{array}
 $$ where
 
 
-$$ d _ {\pm} = \frac {\ln S _ {t} ^ {*} - \ln K + (r ^ {*} \pm {} ^ {1} / _ {2} v ^ {*}) (T - t)}{\sqrt {v ^ {*} (T - t)}}
+$$ d_{\pm} = \frac{\ln S_{t}^{*} - \ln K + (r^{*} \pm {}^{1} /_{2} v^{*}) (T - t)}{\sqrt{v^{*} (T - t)}}
 $$ and hence there is no quanto effect in the option price.
 
 
@@ -668,12 +668,12 @@ Define a "fixed rate" call that pays  $\bar{Y}\max \{S_T^* -K,0\}$ . Then,
 
 $$
 
-\begin{array}{l} \bar {C} _ {t} = e ^ {- r (T - t)} \bar {Y} \hat {\mathbb {E}} _ {t} [ \max  \left\{S _ {T} ^ {*} - K, 0 \right\} ] \quad \left. \right. \quad - r ^ {*} (T - t) \bar {Y} _ {T} \left[ \begin{array}{l l l} \left(r ^ {*} + c \alpha_ {Y} v ^ {*}\right) (T - t) & C _ {*} N (1 _ {t}) & K N (1 _ {t}) \end{array} \right] \tag {6.6} \\ = e ^ {- r ^ {*} (T - t)} \bar {Y} \left[ e ^ {(r ^ {*} + \rho \sigma_ {Y} v ^ {*}) (T - t)} S _ {t} ^ {*} N (d _ {+}) - K N (d _ {-}) \right] \\ \end{array}
+\begin{array}{l} \bar {C}_{t} = e^{- r (T - t)} \bar {Y} \hat {\mathbb {E}}_{t} [ \max  \left\{S_{T}^{*} - K, 0 \right\} ] \quad \left. \right. \quad - r^{*} (T - t) \bar {Y}_{T} \left[ \begin{array}{l l l} \left(r^{*} + c \alpha_{Y} v^{*}\right) (T - t) & C_{*} N (1_{t}) & K N (1_{t}) \end{array} \right] \tag {6.6} \\ = e^{- r^{*} (T - t)} \bar {Y} \left[ e^{(r^{*} + \rho \sigma_{Y} v^{*}) (T - t)} S_{t}^{*} N (d_{+}) - K N (d_{-}) \right] \\ \end{array}
 
 $$ where
 
 
-$$ d _ {\pm} = \frac {\ln S _ {t} ^ {*} - \ln K + (r ^ {*} \pm 1 / 2 v ^ {* 2}) (T - t)}{v ^ {*} \sqrt {T - t}}
+$$ d_{\pm} = \frac{\ln S_{t}^{*} - \ln K + (r^{*} \pm 1 / 2 v^{* 2}) (T - t)}{v^{*} \sqrt{T - t}}
 $$ and hence the quanto effect exists.
 
 
@@ -687,36 +687,36 @@ Domestic call is the Black-Scholes result:
 
 $$
 
-C _ {t} = e ^ {- r ^ {*} (T - t)} Y _ {t} N \left(d _ {+}\right) - e ^ {- r (T - t)} K N \left(d _ {-}\right) \tag {6.7}
+C_{t} = e^{- r^{*} (T - t)} Y_{t} N \left(d_{+}\right) - e^{- r (T - t)} K N \left(d_{-}\right) \tag {6.7}
 
 $$ where
 
 
-$$ d _ {\pm} = \frac {\ln Y _ {t} - \ln K + (r - r ^ {*} \pm 1 / _ {2} \sigma_ {Y}) (T - t)}{\sigma_ {Y} \sqrt {T - t}}
+$$ d_{\pm} = \frac{\ln Y_{t} - \ln K + (r - r^{*} \pm 1 /_{2} \sigma_{Y}) (T - t)}{\sigma_{Y} \sqrt{T - t}}
 $$
 
 Foreign put is the Black-Scholes model as well (the notation  $P$  is used for put here only):
 
 $$
-P _ {t} ^ {*} = e ^ {- r ^ {*} (T - t)} K ^ {*} N \left(- d _ {-} ^ {*}\right) - e ^ {- r (T - t)} Y _ {t} ^ {*} N \left(- d _ {+} ^ {*}\right) \tag {6.8}
+P_{t}^{*} = e^{- r^{*} (T - t)} K^{*} N \left(- d_{-}^{*}\right) - e^{- r (T - t)} Y_{t}^{*} N \left(- d_{+}^{*}\right) \tag {6.8}
 $$ where  $K^{*} = 1 / K$  and  $Y_{t}^{*} = 1 / Y_{t}$  and
 
 
 $$
 
-\begin{array}{l} d _ {\pm} ^ {*} = \frac {\ln Y _ {t} ^ {*} - \ln K ^ {*} + (r ^ {*} - r \pm 1 / _ {2} \sigma_ {Y}) (T - t)}{\sigma_ {Y} \sqrt {T - t}} \\ = - d _ {\mp} \\ \end{array}
+\begin{array}{l} d_{\pm}^{*} = \frac{\ln Y_{t}^{*} - \ln K^{*} + (r^{*} - r \pm 1 /_{2} \sigma_{Y}) (T - t)}{\sigma_{Y} \sqrt{T - t}} \\ = - d_{\mp} \\ \end{array}
 
 $$ and hence  $C_t = Y_t K P_t^*$  is verified.
 
 But to prove the result, we need the change of measure. Note that the equivalent payoff in foreign currency is  $Y_{T}KC_{T}^{*} = \frac{1}{Y_{T}^{*}} K\max \{K^{*} - Y_{T}^{*},0\}$  and this is a dollar payoff under the foreign measure and needs to take the foreign expectation at the domestic risk-free rate:
 
-$$ e ^ {- r (T - t)} \hat {\mathbb {E}} _ {t} ^ {*} \left[ \frac {1}{Y _ {T} ^ {*}} K \max \{K ^ {*} - Y _ {T} ^ {*}, 0 \} \right] = e ^ {- r (T - t)} \hat {\mathbb {E}} _ {t} ^ {*} \left[ \max \left\{\frac {1}{Y _ {T} ^ {*}} - K, 0 \right\} \right] \qquad (6. 9)
+$$ e^{- r (T - t)} \hat {\mathbb {E}}_{t}^{*} \left[ \frac{1}{Y_{T}^{*}} K \max \{K^{*} - Y_{T}^{*}, 0 \} \right] = e^{- r (T - t)} \hat {\mathbb {E}}_{t}^{*} \left[ \max \left\{\frac{1}{Y_{T}^{*}} - K, 0 \right\} \right] \qquad (6. 9)
 $$
 
 Note that, by Ito's lemma,
 
 $$
-\begin{array}{l} \frac {1}{Y _ {T} ^ {*}} = \frac {1}{Y _ {t} ^ {*}} \exp \left\{(r - r ^ {*} + \sigma^ {2}) (T - t) - \int_ {t} ^ {T} \sigma d \hat {W} _ {Y ^ {*}} ^ {*} \right\} \tag {6.10} \\ = Y _ {t} \exp \left\{(r - r ^ {*}) (T - t) + \int_ {t} ^ {T} \sigma d \hat {W} _ {Y ^ {*}} \right\} \\ \end{array}
+\begin{array}{l} \frac{1}{Y_{T}^{*}} = \frac{1}{Y_{t}^{*}} \exp \left\{(r - r^{*} + \sigma^{2}) (T - t) - \int_{t}^{T} \sigma d \hat {W}_{Y^{*}}^{*} \right\} \tag {6.10} \\ = Y_{t} \exp \left\{(r - r^{*}) (T - t) + \int_{t}^{T} \sigma d \hat {W}_{Y^{*}} \right\} \\ \end{array}
 $$ where  $d\hat{W}_{Y^*} = -d\hat{W}_{Y^*} + \sigma dt$  is the change of measure between two countries (compare with equation (6.4)). Then the result is proved.
 
 

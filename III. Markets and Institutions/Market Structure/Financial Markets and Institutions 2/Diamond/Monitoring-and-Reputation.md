@@ -136,7 +136,7 @@ The borrower's payoff at the end of period  $T$ , as a function of the action  $
 Monitoring will provide incentives to select  $a_{T} = g$  if and only if
 
 $$
-r _ {T} \leq \frac {G - \pi (1 - P) B}{1 - \pi (1 - P)} \equiv I _ {T}.
+r_{T} \leq \frac{G - \pi (1 - P) B}{1 - \pi (1 - P)} \equiv I_{T}.
 $$
 
 Monitoring reduces the probability of receiving  $B - r_{T}$  when  $a_{T} = b$  from  $\pi$  to  $\pi(1 - P)$ . If  $P = 1$ , monitoring will provide incentives at  $T$ . Because the face value with monitoring must be at least  $R + C$ , a necessary condition for monitoring to provide incentives at  $T$  is  $P \geq 1 - [(G - R - C) / (B - R - C)]$ .
@@ -158,13 +158,13 @@ If a safe project,  $a_{t} = g$ , is selected, then the borrower will neither de
 The type BG will select  $a_{t} = g$  if and only if
 
 $$
-(1 - P) \left[ \pi \left(B - r _ {t} + V _ {t + 1}\right) \right] \leq G - r _ {t} + V _ {t + 1}
+(1 - P) \left[ \pi \left(B - r_{t} + V_{t + 1}\right) \right] \leq G - r_{t} + V_{t + 1}
 $$
 
 or
 
 $$
-r _ {t} \leq \frac {G - \pi (1 - P) B}{1 - \pi (1 - P)} + V _ {t + 1} = I _ {T} + V _ {t + 1} \equiv I _ {t}.
+r_{t} \leq \frac{G - \pi (1 - P) B}{1 - \pi (1 - P)} + V_{t + 1} = I_{T} + V_{t + 1} \equiv I_{t}.
 $$
 
 In this case, reputation reinforces and strengthens monitoring:  $I_{t} > I_{T}$ . Monitoring provides incentives for lower-rated borrowers (higher value of  $r_{t}$ ) when there is a reputation effect and future borrowing opportunities, because of the lost future rents when monitoring catches a borrower.
@@ -178,37 +178,37 @@ must exceed  $\pi (1 - P)(B - G) / [1 - \pi (1 - P)]\equiv VI$  for monitoring t
 The face values of debt at a date  $t$  that provide a net expected return of  $R$  in the following conditions are as follows: With no monitoring and  $a_{t} = g$ ,
 
 $$
-r _ {t} ^ {g} = \frac {R}{f _ {\mathrm {G} t} + f _ {\mathrm {B G} t} + \pi f _ {\mathrm {B} t}}.
+r_{t}^{g} = \frac{R}{f_{\mathrm{G} t} + f_{\mathrm{BG} t} + \pi f_{\mathrm{B} t}}.
 $$
 
 With monitoring that provides incentives  $(a_{t} = g)$
 
 $$
-r _ {t} ^ {I} = \frac {R + C}{f _ {\mathrm {G} t} + f _ {\mathrm {B G} t} + \pi f _ {\mathrm {B} t}}.
+r_{t}^{I} = \frac{R + C}{f_{\mathrm{G} t} + f_{\mathrm{BG} t} + \pi f_{\mathrm{B} t}}.
 $$
 
 With no monitoring and  $a_{t} = b$
 
 $$
-r _ {t} ^ {b} = \frac {R}{f _ {\mathrm {G} t} + \pi \left(f _ {\mathrm {B G} t} + f _ {\mathrm {B} t}\right)}.
+r_{t}^{b} = \frac{R}{f_{\mathrm{G} t} + \pi \left(f_{\mathrm{BG} t} + f_{\mathrm{B} t}\right)}.
 $$
 
 With monitoring that screens  $(a_{t} = b)$
 
 $$
-r _ {t} ^ {S} = \frac {C + R (1 - P f _ {\mathrm {B G} t})}{f _ {\mathrm {G} t} + \pi [ f _ {\mathrm {B} t} + (1 - P) f _ {\mathrm {B G} t} ]}.
+r_{t}^{S} = \frac{C + R (1 - P f_{\mathrm{BG} t})}{f_{\mathrm{G} t} + \pi [ f_{\mathrm{B} t} + (1 - P) f_{\mathrm{BG} t} ]}.
 $$
 
 Because borrowers offer the lowest feasible face value each period, all borrowers choose the smallest of these four face values that is relevant in the current period. The face value  $r_{t}^{g}$  is the lowest of the four, and it is offered if and only if safe projects are selected without monitoring. This implies that monitoring is needed if and only if safe projects are not selected at  $t$  given the face value  $r_{t}^{g}$  and thus that it is needed if and only if
 
 $$
-f _ {\mathrm {B} t} \geq \frac {1}{1 - \pi} \left(1 - \frac {R}{A _ {t}}\right).
+f_{\mathrm{B} t} \geq \frac{1}{1 - \pi} \left(1 - \frac{R}{A_{t}}\right).
 $$
 
 Monitoring provides incentives for safe projects at  $t$  if and only if
 
 $$
-f _ {\mathrm {B} t} \leq \frac {1}{1 - \pi} \left(1 - \frac {R + C}{I _ {t}}\right).
+f_{\mathrm{B} t} \leq \frac{1}{1 - \pi} \left(1 - \frac{R + C}{I_{t}}\right).
 $$
 
 The requirement that monitoring is profitable, given that borrowers offer the lowest rate that provides a net expected return of  $R$  at any date  $t$ , implies the following. If  $r_t^I \leq r_T^b$ , then the lender's monitoring is profitable because borrowers offer  $r_t^I$ , providing lenders an expected return of  $R + C$ ; at any rate below  $r_t^b$ , their return is less than  $R$ . A similar argument implies that if monitoring does not pro
@@ -216,13 +216,13 @@ The requirement that monitoring is profitable, given that borrowers offer the lo
 vide incentives, there is screening only if  $r_t^S \leq r_t^b$ . There is monitoring with incentives only if  $r_t^b \geq r_t^I$  or
 
 $$
-f _ {\mathrm {B G} t} + f _ {\mathrm {B} t} \left(\frac {C}{R + C}\right) \geq C [ (R + C) (1 - \pi) ] ^ {- 1}.
+f_{\mathrm{BG} t} + f_{\mathrm{B} t} \left(\frac{C}{R + C}\right) \geq C [ (R + C) (1 - \pi) ]^{- 1}.
 $$
 
 When monitoring only screens, it is profitable if  $r_t^S \leq r_t^b$  or
 
 $$
-\frac {f _ {\mathrm {B G} t} (1 - f _ {\mathrm {B G} t}) P R - C \{f _ {\mathrm {B G} t} - [ 1 / (1 - \pi) ] \}}{f _ {\mathrm {B G} t} \cdot P \cdot R - C} - f _ {\mathrm {B} t} \geq 0.
+\frac{f_{\mathrm{BG} t} (1 - f_{\mathrm{BG} t}) P R - C \{f_{\mathrm{BG} t} - [ 1 / (1 - \pi) ] \}}{f_{\mathrm{BG} t} \cdot P \cdot R - C} - f_{\mathrm{B} t} \geq 0.
 $$
 
 This condition for screening to be profitable is decreasing in  $f_{\mathrm{Bt}}$  because increased  $f_{\mathrm{Bt}}$  increases the face value that type BG borrowers pay with fixed probability when not monitored. The condition requires that  $f_{\mathrm{BGt}}$  be above a critical positive value, but there can be an upper bound on  $f_{\mathrm{BGt}}$  because the face value  $r_t^S$  is increasing in  $f_{\mathrm{BGt}}$ . This upper bound on  $f_{\mathrm{BGt}}$ , as well as that on  $f_{\mathrm{Bt}}$ , is not relevant if screening is profitable at  $r_t^S = G$ , its maximum feasible value.
@@ -230,7 +230,7 @@ This condition for screening to be profitable is decreasing in  $f_{\mathrm{Bt}}
 The constraints that face value not exceed  $G$  ( $r_t < G$ ) in the cases in which safe projects are selected without monitoring, in which monitoring provides incentives, in which risky projects are selected without monitoring ( $a_t = b$ ), and in which there is screening translate into, respectively,  $r_t^I \leq G$ ,  $r_t^g \leq G$ ,  $r_t^b \leq G$ , and  $r_t^I \leq G$ . These "feasibility" constraints are given by
 
 $$
-\begin{array}{l} f _ {\mathrm {B} t} \leq \left(\frac {1}{1 - \pi}\right) \left(1 - \frac {R + C}{G}\right), \\ f _ {\mathrm {B} t} + f _ {\mathrm {B G} t} \leq \left(\frac {1}{1 - \pi}\right) \left(1 - \frac {R}{G}\right), \\ f _ {\mathrm {B} t} \leq \left(\frac {1}{1 - \pi}\right) \left(1 - \frac {R}{G}\right), \\ f _ {\mathrm {B} t} + f _ {\mathrm {B G} t} \left[ \frac {1 + (R / G)}{1 - \pi} - P \right] \leq \left(\frac {1}{1 - \pi}\right) \left(1 - \frac {R + C}{G}\right). \\ \end{array}
+\begin{array}{l} f_{\mathrm{B} t} \leq \left(\frac{1}{1 - \pi}\right) \left(1 - \frac{R + C}{G}\right), \\ f_{\mathrm{B} t} + f_{\mathrm{BG} t} \leq \left(\frac{1}{1 - \pi}\right) \left(1 - \frac{R}{G}\right), \\ f_{\mathrm{B} t} \leq \left(\frac{1}{1 - \pi}\right) \left(1 - \frac{R}{G}\right), \\ f_{\mathrm{B} t} + f_{\mathrm{BG} t} \left[ \frac{1 + (R / G)}{1 - \pi} - P \right] \leq \left(\frac{1}{1 - \pi}\right) \left(1 - \frac{R + C}{G}\right). \\ \end{array}
 $$
 
 Figure 2 shows the regions of monitoring and credit granting at date  $T$ , for a particular set of parameters. The way to interpret it is to view  $1 - f_{\mathrm{B}}$  as the borrower's credit rating and  $f_{\mathrm{BG}}$  as the pervasiveness of moral hazard in the population of borrowers. Holding fixed a value of  $f_{\mathrm{BG}}$  and changing  $f_{\mathrm{B}}$  give the effect of a credit rating on the type of borrowing chosen or, alternatively, on the ability to borrow at all.
@@ -255,7 +255,7 @@ Let  $Nb$  denote one plus the number of past periods in which BG's selected ris
 Formally, this implies that the conditional type probabilities  $f_{t}^{\theta}$  given a perfect track record up to date  $t$ , given  $Nb$  and  $NS$ , are given by
 
 $$
-\begin{array}{l} f _ {\mathrm {G} t} (N b, N S) = \frac {f _ {\mathrm {G}}}{f _ {\mathrm {G}} + \pi^ {t - 1} f _ {\mathrm {B}} + \pi^ {N b - 1} (1 - P) ^ {N S - 1} f _ {\mathrm {B G}}}, \\ f _ {\mathrm {B} t} (N b, N S) = \frac {\pi^ {t - 1} f _ {\mathrm {B}}}{f _ {\mathrm {G}} + \pi^ {t - 1} f _ {\mathrm {B}} + \pi^ {N b - 1} (1 - P) ^ {N S - 1} f _ {\mathrm {B G}}}, \\ f _ {\mathrm {B G} t} (N b, N S) = \frac {\pi^ {N b - 1} (1 - P) ^ {N S - 1} f _ {\mathrm {B G}}}{f _ {\mathrm {G}} + \pi^ {t - 1} f _ {\mathrm {B}} + \pi^ {N b - 1} (1 - P) ^ {N S - 1} f _ {\mathrm {B G}}}. \\ \end{array}
+\begin{array}{l} f_{\mathrm{G} t} (N b, N S) = \frac{f_{\mathrm{G}}}{f_{\mathrm{G}} + \pi^{t - 1} f_{\mathrm{B}} + \pi^{N b - 1} (1 - P)^{N S - 1} f_{\mathrm{BG}}}, \\ f_{\mathrm{B} t} (N b, N S) = \frac{\pi^{t - 1} f_{\mathrm{B}}}{f_{\mathrm{G}} + \pi^{t - 1} f_{\mathrm{B}} + \pi^{N b - 1} (1 - P)^{N S - 1} f_{\mathrm{BG}}}, \\ f_{\mathrm{BG} t} (N b, N S) = \frac{\pi^{N b - 1} (1 - P)^{N S - 1} f_{\mathrm{BG}}}{f_{\mathrm{G}} + \pi^{t - 1} f_{\mathrm{B}} + \pi^{N b - 1} (1 - P)^{N S - 1} f_{\mathrm{BG}}}. \\ \end{array}
 $$
 
 These allow the face values  $r_{t}^{g}, r_{t}^{b}, r_{t}^{I}$ , and  $r_{t}^{S}$ , as well as all constraints that do not depend on  $V_{t+1}$ , to be expressed as functions of  $Nb$  and  $NS$ . Note that at  $t = 1$ ,  $Nb = NS = 1$ .
@@ -316,7 +316,7 @@ This conjectured series of face values is used to compute the present value of f
 Let  $W_{t}[t^{\prime}]$  denote the present value of choosing safe projects each period from  $\hat{t}$  to  $\tau \rightarrow \infty$ , facing rates  $\mathbf{R}[t^{\prime}]$ , given by
 
 $$
-W _ {\hat {t}} \left[ t ^ {\prime} \right] \equiv \sum_ {t = \hat {t}} ^ {\infty} \left(G - \mathbf {R} _ {t} \left[ t ^ {\prime} \right]\right) d ^ {1 + t - \hat {t}}.
+W_{\hat {t}} \left[ t^{\prime} \right] \equiv \sum_{t = \hat {t}}^{\infty} \left(G - \mathbf {R}_{t} \left[ t^{\prime} \right]\right) d^{1 + t - \hat {t}}.
 $$
 
 The most general characterization is proposition 2. Because the face value series  $\mathbf{R}[t']$  is constructed to satisfy all the model's constraints, choosing the smallest self-fulfilling value of  $t' = t_g$  provides the lowest self-fulfilling  $r_t$  given the history up to  $t$  and is thus the equilibrium value.
@@ -333,7 +333,7 @@ PROPOSITION 3. Given a long horizon, the following conditions are true at  $t = 
 2. If  $f_{\mathrm{B}}$  is high enough that monitoring is needed, low enough that monitoring provides incentives and  $r_1^I \leq G$ , and incentive monitoring is profitable:
 
 $$
-f _ {\mathrm {B G}} + f _ {\mathrm {B}} \left(\frac {C}{R + C}\right) \geq C [ (R + C) (1 - \pi) ] ^ {- 1},
+f_{\mathrm{BG}} + f_{\mathrm{B}} \left(\frac{C}{R + C}\right) \geq C [ (R + C) (1 - \pi) ]^{- 1},
 $$
 
 then monitoring is needed, provides incentives, and is used at  $t = 1$ :  $t' = t_I = 1$ .
@@ -368,7 +368,7 @@ Because type BG borrowers are believed to choose safe projects in any period tha
 The conditions for monitoring to provide incentives differ from those in the former analysis. If monitored and caught with risky projects, the borrower will not receive a current loan and is revealed to be a type BG, implying that future loans are available. There then can be no more reputation effects once he is known to be a type BG because no further learning from outcomes can occur. This implies that monitoring will be needed every period, and the face value each period will be  $R + C$ . The present value of future rents for a borrower known to be a type BG is defined as  $U_{t'}$  and is given by
 
 $$
-(G - R - C) \sum_ {t = t ^ {\prime}} ^ {T} d ^ {1 + t ^ {\prime} - t} \equiv U _ {t ^ {\prime}}.
+(G - R - C) \sum_{t = t^{\prime}}^{T} d^{1 + t^{\prime} - t} \equiv U_{t^{\prime}}.
 $$
 
 As  $T \to \infty$ , this converges to  $d(G - R - C) / (1 - d) \equiv U$ .
@@ -376,7 +376,7 @@ As  $T \to \infty$ , this converges to  $d(G - R - C) / (1 - d) \equiv U$ .
 The end-of-period payoff from choosing a risky project is  $P(U_{t+1}) + (1 - P)[\pi(B - r_t + V_{t+1})]$ . The end-of-period payoff from choosing a safe project is  $G - r_t + V_{t+1}$ . Monitoring provides incentives (safe projects are selected when monitored) if and only if
 
 $$
-r _ {t} ^ {I} \leq I _ {T} + \left[ V _ {t + 1} - \frac {P}{1 - \pi (1 - P)} U _ {t + 1} \right] \equiv I _ {t}.
+r_{t}^{I} \leq I_{T} + \left[ V_{t + 1} - \frac{P}{1 - \pi (1 - P)} U_{t + 1} \right] \equiv I_{t}.
 $$
 
 This implies that the ability to continue to borrow as a known type BG reduces the extent to which reputation strengthens the effect of monitoring. The stigma from being caught with risky projects is the difference between the value of future payoffs given a perfect track record and the future payoff once revealed to be a type BG. When one takes account of the chance that one is not caught when monitored, the expected stigma from being caught is  $V_{t+1} - \{PU_{t+1} / [1 - \pi(1 - P)]\}$ .
@@ -390,7 +390,7 @@ LEMMA 4. Monitoring fails to provide incentives whenever needed
 if
 
 $$
-U _ {t + 1} > \frac {\pi (B - G)}{1 - \pi} - \frac {C [ 1 - \pi (1 - P) ]}{P}.
+U_{t + 1} > \frac{\pi (B - G)}{1 - \pi} - \frac{C [ 1 - \pi (1 - P) ]}{P}.
 $$
 
 Proof. See the Appendix.
@@ -416,7 +416,7 @@ The changes in conditions that I consider are changes in real riskless interest 
 on risky projects when successful is  $\alpha B$  (with expected return  $\alpha \pi B$ ). The ratio  $\alpha / \beta$  is similar to Tobin's  $q$ : future rents from investment are high when this ratio is high. Tobin's  $q$  could be used as a proxy for  $\alpha / \beta$ . The condition in which monitoring is needed is
 
 $$
-f _ {\mathrm {B} T} \geq \frac {1}{1 - \pi} \left(1 - \frac {\beta R}{\alpha A _ {T} + V _ {t + 1}}\right),
+f_{\mathrm{B} T} \geq \frac{1}{1 - \pi} \left(1 - \frac{\beta R}{\alpha A_{T} + V_{t + 1}}\right),
 $$
 
 and  $V_{t+1}$  is decreasing in  $\beta$  and increasing in  $\alpha$ . When real rates increase relative to future profitability, the future becomes less important and moral hazard becomes more severe: more credit ratings choose to take a chance on ruining their now less valuable reputation. I shall state my results in terms of changes in the present value of future rents: these increase when  $\beta$  falls sufficiently relative to  $\alpha$ . Similarly, a sufficient decrease in  $\alpha$  relative to  $\beta$  will imply that the minimum credit rating for which monitoring provides incentives will also increase (the maximum face value for monitoring to provide incentives is  $I_t$ , which behaves similarly to  $A_t$ ). In terms of figure 2, the horizontal lines that give the boundary credit ratings such that monitoring is needed and provides incentives both shift down (requiring higher ratings).
@@ -464,7 +464,7 @@ Result That  $r_t^S < r_{t - 1}^S$  with Screening at  $t - 1$
 The face value  $r_t^S$  is set such that the investment of  $R$  plus a further investment of  $C$  on screening is equal to the expected return from receiving  $r_t^S$  with probability  $f_{\mathrm{G}t} + \pi [f_{\mathrm{B}t} + (1 - P)f_{\mathrm{BG}t}] \equiv \Gamma_t$  plus a return of  $R$  (from investing in storage) with probability  $P \cdot f_{\mathrm{BG}t} \equiv \sigma_t$ . One period later,  $r_{t+1}^S$  is received with probability
 
 $$
-\Gamma_ {t + 1} = \frac {f _ {\mathrm {G} t} + \pi^ {2} \left[ f _ {\mathrm {B} t} + (1 - P) ^ {2} f _ {\mathrm {B G} t} \right]}{\Gamma_ {t}} > \Gamma_ {t},
+\Gamma_{t + 1} = \frac{f_{\mathrm{G} t} + \pi^{2} \left[ f_{\mathrm{B} t} + (1 - P)^{2} f_{\mathrm{BG} t} \right]}{\Gamma_{t}} > \Gamma_{t},
 $$
 
 and money is invested in storage with probability  $\sigma_{t + 1} = P^2 (1 - P)\pi f_{\mathrm{BG}_t} / \Gamma_t < \sigma_t$ . Therefore,  $r_{t + 1}^{S} < r_{t}^{S}$ : for all  $t$ ,  $r_{t + 1}^{S} = (C + R\sigma_{t}) / \Gamma_{t}$ . Q.E.D.
@@ -482,7 +482,7 @@ The only lender action change that could increase the rate is a switch to monito
 The necessary conditions for monitoring or reputation to provide incentives are given in the text. For the details of sufficiency when monitoring is impossible, see Diamond (1989, proposition 1). A sketch of the proof when monitoring is possible is as follows. For sufficiently large  $t$ ,  $f_{\mathrm{B}t} \to 0$ . If the necessary condition for reputation to provide incentives is true, then for an unbounded number of periods after a sufficiently large  $t < \infty$
 
 $$
-r _ {t} \leq d G + (1 - d) \frac {G - \pi B}{1 - \pi} \equiv \phi
+r_{t} \leq d G + (1 - d) \frac{G - \pi B}{1 - \pi} \equiv \phi
 $$
 
 because  $r_t$  equal to this bound for all  $t$  would make type BG's indifferent between  $a_t = b$  and  $a_t = g$  and reduce  $f_{\mathrm{BG}t}$  until for all future dates  $r_t^b < \phi$ . Because borrowers offer the lowest face value each period,  $r_t \leq r_t^b$ , and an unbounded number of periods with  $r_t$  less than  $\phi$  implies that  $V_t^g \geq d[\pi(B - G) / (1 - \pi)]$  and that safe projects are selected at  $t$  without monitoring.
@@ -494,31 +494,31 @@ If reputation alone cannot provide incentives, then there will be monitoring in 
 Define the  $\tau$  vector of face values  $\mathbf{R}[t']$  with elements given by  $\mathbf{R}_t[t'] =$
 
 $$
-r _ {t} ^ {b} [ N b = t, N S = 1 ] \quad \text {f o r} t = 1, \dots , \min  \left\{\tilde {l} _ {S P a} - 1, t ^ {\prime} \right\} - 1,
+r_{t}^{b} [ N b = t, N S = 1 ] \quad \text{fo r} t = 1, \dots , \min  \left\{\tilde {l}_{S P a} - 1, t^{\prime} \right\} - 1,
 $$
 
 $$
-r _ {t} ^ {S} [ t, 1 + t - \bar {l} _ {S p a} ] \quad \text {f o r} t = \bar {l} _ {S p a}, \dots , \min  \{\bar {l} _ {S p b}, t ^ {\prime} \} - 1,
+r_{t}^{S} [ t, 1 + t - \bar {l}_{S p a} ] \quad \text{fo r} t = \bar {l}_{S p a}, \dots , \min  \{\bar {l}_{S p b}, t^{\prime} \} - 1,
 $$
 
 $$
-r _ {t} ^ {b} [ t, 1 + \bar {l} _ {S P b} - \bar {l} _ {S P a} ] \quad \text {f o r} t = \bar {l} _ {S P b}, \dots , t ^ {\prime} - 1,
+r_{t}^{b} [ t, 1 + \bar {l}_{S P b} - \bar {l}_{S P a} ] \quad \text{fo r} t = \bar {l}_{S P b}, \dots , t^{\prime} - 1,
 $$
 
 $$
-r _ {t} ^ {I} \left[ t ^ {\prime}, 1 + \min  \left\{\bar {l} _ {S P b}, t ^ {\prime} \right\} - \bar {l} _ {S P a} \right] \quad \text {f o r} t = t ^ {\prime}, \dots , \min  \left\{\bar {l} _ {I P} [ t ^ {\prime} ], N [ t ^ {\prime} ] \right\} - 1,
+r_{t}^{I} \left[ t^{\prime}, 1 + \min  \left\{\bar {l}_{S P b}, t^{\prime} \right\} - \bar {l}_{S P a} \right] \quad \text{fo r} t = t^{\prime}, \dots , \min  \left\{\bar {l}_{I P} [ t^{\prime} ], N [ t^{\prime} ] \right\} - 1,
 $$
 
 $$
-r _ {t} ^ {b} \left[ t ^ {\prime} + t - \bar {t} _ {I P} \left[ t ^ {\prime} \right], 1 + \min  \left\{\bar {t} _ {S P b}, t ^ {\prime} \right\} - \bar {t} _ {S P a} \right] \quad \text {f o r} t = \min  \left\{\bar {t} _ {I P} \left[ t ^ {\prime} \right], N \left[ t ^ {\prime} \right] \right\}, \dots , N \left[ t ^ {\prime} \right] - 1,
+r_{t}^{b} \left[ t^{\prime} + t - \bar {t}_{I P} \left[ t^{\prime} \right], 1 + \min  \left\{\bar {t}_{S P b}, t^{\prime} \right\} - \bar {t}_{S P a} \right] \quad \text{fo r} t = \min  \left\{\bar {t}_{I P} \left[ t^{\prime} \right], N \left[ t^{\prime} \right] \right\}, \dots , N \left[ t^{\prime} \right] - 1,
 $$
 
 $$
-r _ {f} ^ {\prime} \left[ t ^ {\prime} + \min  \left\{0, t ^ {\prime} - \bar {l} _ {I P} [ t ^ {\prime} ] \right\}, \right.
+r_{f}^{\prime} \left[ t^{\prime} + \min  \left\{0, t^{\prime} - \bar {l}_{I P} [ t^{\prime} ] \right\}, \right.
 $$
 
 $$
-1 + \min  \left\{\bar {t} _ {S P b}, t ^ {\prime} \right\} - \bar {t} _ {S P a} ] \quad \text {f o r} t = N [ t ^ {\prime} ], \dots , \tau ,
+1 + \min  \left\{\bar {t}_{S P b}, t^{\prime} \right\} - \bar {t}_{S P a} ] \quad \text{fo r} t = N [ t^{\prime} ], \dots , \tau ,
 $$
 
 where  $\bar{l}_{SPa}$ ,  $\bar{l}_{SPb}$ ,  $\bar{l}_{IP}[t']$ , and  $N[t']$  are defined in the next four paragraphs.
@@ -558,25 +558,25 @@ credit cutoff will be false only when the condition that monitoring is unprofita
 The condition for monitoring not to work when needed is  $A^t \leq r_t^g \Rightarrow I^t < r_t^I$ , or  $A_t \geq I_t + (r_t^I - r_t^g)$ . Using  $I_t - r_t^g = C / (1 - \pi f_{\mathrm{B}t})$ , we get
 
 $$
-\frac {G - \pi B}{1 - \pi} \geq \frac {G - \pi (1 - P) B - P U _ {t + 1}}{1 - \pi (1 - P)} - \frac {C}{1 - \pi f _ {\mathrm {B} t}}.
+\frac{G - \pi B}{1 - \pi} \geq \frac{G - \pi (1 - P) B - P U_{t + 1}}{1 - \pi (1 - P)} - \frac{C}{1 - \pi f_{\mathrm{B} t}}.
 $$
 
 This is equivalent to
 
 $$
-\begin{array}{l} (G - \pi B) [ 1 - \pi (1 - P) ] - [ G - \pi (1 - P) B ] (1 - \pi) \\ \geq - \left(1 - \pi\right) \left\{P U _ {t + 1} + \frac {C [ 1 - \pi (1 - P) ]}{1 - \pi f _ {\mathrm {B} t}} \right\} \\ \end{array}
+\begin{array}{l} (G - \pi B) [ 1 - \pi (1 - P) ] - [ G - \pi (1 - P) B ] (1 - \pi) \\ \geq - \left(1 - \pi\right) \left\{P U_{t + 1} + \frac{C [ 1 - \pi (1 - P) ]}{1 - \pi f_{\mathrm{B} t}} \right\} \\ \end{array}
 $$
 
 or
 
 $$
-P \pi (G - B) \geq - (1 - \pi) \left\{P U _ {t + 1} + \frac {C [ 1 - \pi (1 - P) ]}{1 - \pi f _ {\mathrm {B} t}} \right\}
+P \pi (G - B) \geq - (1 - \pi) \left\{P U_{t + 1} + \frac{C [ 1 - \pi (1 - P) ]}{1 - \pi f_{\mathrm{B} t}} \right\}
 $$
 
 or
 
 $$
-U _ {t + 1} \geq \frac {\pi (B - G)}{1 - \pi} - \frac {C [ 1 - \pi (1 - P) ]}{P (1 - \pi f _ {\mathrm {B} t})} \geq \frac {\pi (B - G)}{1 - \pi} - \frac {C [ 1 - \pi (1 - P) ]}{P}.
+U_{t + 1} \geq \frac{\pi (B - G)}{1 - \pi} - \frac{C [ 1 - \pi (1 - P) ]}{P (1 - \pi f_{\mathrm{B} t})} \geq \frac{\pi (B - G)}{1 - \pi} - \frac{C [ 1 - \pi (1 - P) ]}{P}.
 $$
 
 Q.E.D.

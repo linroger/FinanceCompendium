@@ -293,7 +293,7 @@ Move one rate at a time. These are zero rates.
 $$
 \begin{array}{l}
 D_{\mathrm{key}} = \frac{P^{+} - P^{-}}{0.0002} \\
-= \frac{P(\text{yield shifted down by 1 bp}) - P(\text{yield shifted up by 1 bp})}{0.0002} \\
+= \frac{P(\text{yieldshifteddownby1 bp}) - P(\text{yieldshiftedupby1 bp})}{0.0002} \\
 \end{array}
 $$
 
@@ -308,7 +308,7 @@ The computation:
 $$
 \begin{array}{l}
 D_{\mathrm{eff}} = \frac{1}{P} \frac{P^{+} - P^{-}}{0.0002} \\
-= \frac{1}{P} \frac{P(\mathrm{whole y.c. shifted down by 1 bp}) - P(\mathrm{whole y.c. shifted up by 1 bp})}{0.0002} \\
+= \frac{1}{P} \frac{P(\mathrm{wholey.c.shifteddownby1 bp}) - P(\mathrm{wholey.c.shiftedupby1 bp})}{0.0002} \\
 \end{array}
 $$
 

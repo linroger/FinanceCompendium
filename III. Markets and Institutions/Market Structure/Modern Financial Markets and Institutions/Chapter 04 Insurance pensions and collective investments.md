@@ -424,7 +424,7 @@ Some pension funds are looking for ways to alleviate their predicament (see Exhi
 
 # Paul J Davies
 
-Cadbury's deal yesterday to offload  $500\mathrm{m}$  of pension fund liabilities to Edmund Truell's Pension Insurance Corp was just the latest in a string of agreements as public and corporate pension schemes tackle their  $\S 1,000\mathrm{bn - plus}$  headache.
+Cadbury's deal yesterday to offload  $500\mathrm{m}$  of pension fund liabilities to Edmund Truell's Pension Insurance Corp was just the latest in a string of agreements as public and corporate pension schemes tackle their  $\S 1,000\mathrm{bn -plus}$  headache.
 
 Trustees across the country are being offered an array of solutions to the expense and volatility of their pension obligations after the recent financial market turmoil added impetus to companies' desire to reduce the risks attached to their schemes.
 

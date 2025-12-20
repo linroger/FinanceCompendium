@@ -373,13 +373,13 @@ In this section we examine the data more formally to determine which state varia
 We want to test whether the spreads on US non-subprime-related asset classes (AAA tranches) move with our state variables for the subprime market (ABX) and for interbank counterparty risk (LIB-OIS). For each asset, we want to estimate
 
 $$
-S _ {i, t} = a _ {0} + a _ {1} t + b _ {1} \mathbf {A B X} _ {t} + b _ {2} \mathbf {L I B} - \mathbf {O I S} _ {t} + b _ {3} \mathbf {X} _ {t} + e _ {i, t}, \tag {1}
+S_{i, t} = a_{0} + a_{1} t + b_{1} \mathbf {A B X}_{t} + b_{2} \mathbf {L I B} - \mathbf {O I S}_{t} + b_{3} \mathbf {X}_{t} + e_{i, t}, \tag {1}
 $$
 
 where  $t$  is time, a weekly time index;  $S_{i,t}$  is the spread on asset  $i$  at time  $t$ ;  $a_0$  is a constant;  $a_1$  is a time trend;  $\mathbf{ABX}_t$  is a vector of the last four observations of the ABX spread including the current period; LIB-OIS is a vector of the last four observations of the LIB-OIS spread including the current period; and  $\mathbf{X}_t$  is a vector of control variables. Because the  $S_{i,t}$  spreads are more similar to unit root prices than to independently identically distributed (i.i.d.) returns, and because these levels vary significantly over our time period, we take first differences of Eq. (1) and normalize all changes by their level in the previous period:
 
 $$
-\Delta S _ {i, t} = a _ {1} + b _ {1} \Delta \mathbf {A B X} _ {t} + b _ {2} \Delta \mathbf {L I B} - \mathbf {O I S} _ {t} + b _ {3} \Delta \mathbf {X} _ {t} + e _ {i, t} \tag {2}
+\Delta S_{i, t} = a_{1} + b_{1} \Delta \mathbf {A B X}_{t} + b_{2} \Delta \mathbf {L I B} - \mathbf {O I S}_{t} + b_{3} \Delta \mathbf {X}_{t} + e_{i, t} \tag {2}
 $$
 
 where the  $\Delta$  prefix indicates the percentage change of the variable or vector. (Throughout our analysis, all references to changes are to percentage changes.) While a small literature exists on corporate-bond spreads [see Collin-Dufresne, Goldstein, and Martin (2001), and the citations therein], no studies have been made of spreads on securitized products. We follow Collin-Dufresne, Goldstein, and Martin (2001) in their choice of control variables[25]:
@@ -453,7 +453,7 @@ In reality, collateral pricing can be uncertain, and illiquidity and volatility 
 To test for the quantitative importance of these relations, we first estimate a version of Eq. (2) for repo spreads:
 
 $$
-\Delta R _ {j, t} = a _ {1} + b _ {1} \Delta \mathbf {A B X} _ {t} + b _ {2} \Delta \mathbf {L I B} - \mathbf {O I S} _ {t} + b _ {3} \Delta \mathbf {X} _ {t} + b _ {4} \Delta \mathbf {V O L} _ {j, t} + e _ {i, t} \tag {3}
+\Delta R_{j, t} = a_{1} + b_{1} \Delta \mathbf {A B X}_{t} + b_{2} \Delta \mathbf {L I B} - \mathbf {O I S}_{t} + b_{3} \Delta \mathbf {X}_{t} + b_{4} \Delta \mathbf {V O L}_{j, t} + e_{i, t} \tag {3}
 $$
 
 where  $R_{j,t}$  is the average spread of repo rates to the Is for some class  $j$  of collateral (as in Table 2, Panel D),  $\mathbf{VOL}_{j,t}$  is a vector of the last four expected volatilities (defined below) for that class of collateral, and all other variables are defined as in Eq. (2).
@@ -461,19 +461,19 @@ where  $R_{j,t}$  is the average spread of repo rates to the Is for some class  
 $\mathrm{VOL}_{j,t}$  is a forward-looking measure, defined here as the average absolute (weekly) change in spreads over the next four weeks[26]
 
 $$
-\mathrm {V O L} _ {j, t} = \sum_ {s = 1} ^ {4} \left(\frac {\left| \Delta S _ {j , t + s} \right|}{4}\right), \tag {4}
+\mathrm{VO L}_{j, t} = \sum_{s = 1}^{4} \left(\frac{\left| \Delta S_{j , t + s} \right|}{4}\right), \tag {4}
 $$
 
 where  $S_{j,t}$  is the average spread to Is for all assets in class  $j$ :
 
 $$
-S _ {j, t} = \bar {S} _ {i, t}, i \in j. \tag {5}
+S_{j, t} = \bar {S}_{i, t}, i \in j. \tag {5}
 $$
 
 $\Delta \mathrm{VOL}_{j,t}$  is defined as the difference between expected volatility today and realized volatility over the previous four weeks (not including the current week):
 
 $$
-\Delta \mathrm {V O L} _ {j, t} = \mathrm {V O L} _ {j, t} - \mathrm {V O L} _ {j, t - 5}. \tag {6}
+\Delta \mathrm{VO L}_{j, t} = \mathrm{VO L}_{j, t} - \mathrm{VO L}_{j, t - 5}. \tag {6}
 $$
 
 Volatility uses absolute differences, and not percentage differences, because percentage differences are harder to interpret across multiple weeks. Because we use future information for our expected-volatility proxy, the resulting estimates could not be part of an implementable investment strategy. This restriction does not matter for our analysis, because we are not seeking to build investment portfolios from these results. In any case, we do not have a choice because volatility expectations cannot be extracted from historical spread data.
@@ -501,7 +501,7 @@ collateralized funds to a hedge fund, via reverse repo. The haircuts that a hedg
 Haircuts are a puzzle. If depositors in the repo market, receiving collateral to protect their deposits, were concerned that the bank might fail, causing them to need to sell the collateral, then the risks of what price they would realize would enter their calculation. If the market for the collateral is volatile, then standard finance theory suggests that they should ask for a higher repo rate initially. Dang, Gorton, and Holmstrom (2011) argue that debt and in particular, repo are optimally designed securities which are used to intertemporally transport value. Their design is such as to minimize the variance of their value in the face of public shocks. A haircut is sometimes needed to protect against such volatility and provide an incentive for a counterparty to repurchase the security. We next explore the factors related to these increases using the same regression framework as we did for repo spreads:
 
 $$
-\Delta H _ {j, t} = a _ {1} + b _ {1} \Delta \mathbf {A B X} _ {t} + b _ {2} \Delta \mathbf {L I B} - \mathbf {O I S} _ {t} + b _ {3} \Delta \mathbf {X} _ {t} + b _ {4} \Delta \mathbf {V O L} _ {j, t} + e _ {i, t} \tag {7}
+\Delta H_{j, t} = a_{1} + b_{1} \Delta \mathbf {A B X}_{t} + b_{2} \Delta \mathbf {L I B} - \mathbf {O I S}_{t} + b_{3} \Delta \mathbf {X}_{t} + b_{4} \Delta \mathbf {V O L}_{j, t} + e_{i, t} \tag {7}
 $$
 
 where  $H_{j,t}$  is the average haircut for all assets in class  $j$  and all other variables are defined as in Eq. (3). Because haircuts are already defined as a percentage of the total value of the underlying collateral, the change in haircuts on the left-hand side of Eq. (7) is already given in percentages. Table 7 summarizes the results. As we have found in earlier tests, the ABX and the control variables are not significant. In contrast to previous regressions, the change in the LIB-OIS is also not significant. The only variable with any explanatory power is the proxy for expected volatility, which is significant for three of the five classes of collateral.
@@ -606,9 +606,9 @@ Overnight index swap (Is). An overnight indexed swap is a fixed/floating interes
 
 actual transactions, the index is generally achievable by borrowers and lenders. Economically, receiving the fixed rate in an Is is like lending cash. Paying the fixed rate in an Is is like borrowing cash. Settlement occurs net on the earliest practical date. There is no exchange of principal. The index rate used is typically the weighted average rate for overnight transactions as published by the central bank (e.g., the effective fed funds rate).
 
-Repo-haircut index. This is equal-weighted average haircut for all nine of the asset classes in Panel D of Table 2. Haircuts of  $100\%$ $(= \text{no trade})$  are included in this average (Table 2—Panel D).
+Repo-haircut index. This is equal-weighted average haircut for all nine of the asset classes in Panel D of Table 2. Haircuts of  $100\%$ $(= \text{notrade})$  are included in this average (Table 2—Panel D).
 
-Repo-rate index: During the time that all asset classes have active repo markets in 2007 and early 2008, this index is identical to the equal-weighted average repo rate for all nine the asset classes in Panel D of Table 2. As haircuts rise to  $100\%$  for any given asset class  $(= \text{no trade})$  on date  $t$ , we drop that class from the index and compute the index change for period  $t$  using only the classes that traded in both periods  $t - 1$  and period  $t$  (Table 2—Panel D).
+Repo-rate index: During the time that all asset classes have active repo markets in 2007 and early 2008, this index is identical to the equal-weighted average repo rate for all nine the asset classes in Panel D of Table 2. As haircuts rise to  $100\%$  for any given asset class  $(= \text{notrade})$  on date  $t$ , we drop that class from the index and compute the index change for period  $t$  using only the classes that traded in both periods  $t - 1$  and period  $t$  (Table 2—Panel D).
 
 Repurchase agreements, reverse repurchase agreement. A sale and repurchase agreement, known as a repo, is a sale of a security combined with an agreement to repurchase the same security at a specified price at the end of the contract. One side of the transaction lends or deposits money; the other side is borrowing. Economically, a repo is a secured or collateralized loan, that is, a loan of cash against a security as collateral. From the point of view of the borrower of the cash (who is putting up the security as collateral), it is a reverse repurchase agreement, or "reverse repo."
 
@@ -653,7 +653,7 @@ For fixed rate instruments, the spread is the yield spread, i.e., the difference
 The discount margin, dm, satisfies the following relation:
 
 $$
-P = 1 0 0 + \sum_ {i = 1} ^ {n} \frac {1 0 0 (q m - d m) / m}{\left(1 + y _ {i} + d m\right) ^ {i}}
+P = 1 0 0 + \sum_{i = 1}^{n} \frac{1 0 0 (q m - d m) / m}{\left(1 + y_{i} + d m\right)^{i}}
 $$
 
 where \(P\) is the price of the floating rate note (FRN) per \\(100 face value; \(qm\) is the quoted margin on FRN; \(dm\) is the discount margin; \(y_{i}\) is the assumed value of the reference rate (LIBOR) in period i; \(n\) is the number of period until maturity; and \(m\) is the number of period per year.

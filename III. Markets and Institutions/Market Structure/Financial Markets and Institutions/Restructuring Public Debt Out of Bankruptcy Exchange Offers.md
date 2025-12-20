@@ -86,7 +86,7 @@ There are N old bondholders, it passes if  $\mathbf{M} + 1$  holders accept the 
 
 If you expect less than M to accept, you expect to have the tender fail, and even if you tender you get the old bond back. As a result, you get B no matter what. It does not matter if you tender or not.
 
-If you hold the bond and expect more than  $\mathbf{M} + 1$  to accept and tender their bonds, you get  $\mathbf{B}'$  if you keep the old bond, and  $\mathrm{p + B_n}$  if you take the new one. Call this expecting the consent vote to succeed.
+If you hold the bond and expect more than  $\mathbf{M} + 1$  to accept and tender their bonds, you get  $\mathbf{B}'$  if you keep the old bond, and  $\mathrm{p +B_n}$  if you take the new one. Call this expecting the consent vote to succeed.
 
 If you expect the consent vote to succeed, you will tender if and only if  $\mathbf{p} + \mathbf{B}_{\mathrm{n}} > \mathbf{B}'$
 
@@ -104,7 +104,7 @@ Suppose you own 1/100 of the old bond, with face value .016, you are offered a n
 
 The value of the old bond,  $\mathbf{B}^{\prime}$ , drops to  $0.2(.016) + 0.8(0) = 0.0032$ .
 
-The new bond is worth  $\mathrm{B_n = 0.2(.01) + 0.6(1 - B) / 100 + 0.2(0) = 0.2(0.1) + 0.6(0.007) =}$  0.0062.
+The new bond is worth  $\mathrm{B_n =0.2(.01) +0.6(1 -B) /100 +0.2(0) =0.2(0.1) +0.6(0.007) =}$  0.0062.
 
 Thus the new bond is of higher value.
 
@@ -115,7 +115,7 @@ The new bond with face value  $\mathrm{P}' = 0.5$  is small enough that it will 
 Your 1/100 part of the new bond has face value  $\mathrm{P}^{\prime} = 0.005$  and would be worth
 
 $$
-\mathrm {B} _ {\mathrm {n}} = 0. 2 (0. 0 0 5) + 0. 6 (0. 0 0 5) + 0. 2 (0) = 0. 8 (0. 0 0 5) = 0. 0 0 4.
+\mathrm{B}_{\mathrm{n}} = 0. 2 (0. 0 0 5) + 0. 6 (0. 0 0 5) + 0. 2 (0) = 0. 8 (0. 0 0 5) = 0. 0 0 4.
 $$
 
 The old bond with face value 0.016 would be paid in full when  $\mathrm{V} = 2$  and when  $\mathbf{V} = \mathbf{1}$  because there is .7 left after the bank, and  $0.99(0.5) = 0.495$  of debt is senior to you (99% are assumed to take the 0.5 face value senior bond). This leaves  $0.7 - 0.495 = 0.205 > 0.016$  to pay your bond, so the value of the old bond is:

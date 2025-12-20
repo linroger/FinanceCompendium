@@ -58,7 +58,7 @@ Private firms are usually smaller (with few exceptions such as Dell) and less tr
 
 Some firms have accounting data. Use logit.
 
-$$ y = \frac {1}{1 + \exp \left(- \sum_ {i = 0} ^ {n} \beta_ {i} x _ {i}\right)}
+$$ y = \frac{1}{1 + \exp \left(- \sum_{i = 0}^{n} \beta_{i} x_{i}\right)}
 $$ where  $x_{i}$ 's are financials of the company and  $y$  is a dummy variable (0 for no default and 1 for default). This is known as the logistic regression. Yet it cannot be performed as an OLS but must go through the maximum likelihood estimation.
 
 
@@ -159,7 +159,7 @@ A general model is logistic:
 
 $$
 
-\begin{array}{l} p = \frac {\exp \left(\sum_ {i = 1} ^ {n} \beta_ {i} x _ {i}\right)}{1 + \exp \left(\sum_ {i = 1} ^ {n} \beta_ {i} x _ {i}\right)} \\ = \frac {1}{1 + \exp \left(- \sum_ {i = 1} ^ {n} \beta_ {i} x _ {i}\right)} \\ \end{array}
+\begin{array}{l} p = \frac{\exp \left(\sum_{i = 1}^{n} \beta_{i} x_{i}\right)}{1 + \exp \left(\sum_{i = 1}^{n} \beta_{i} x_{i}\right)} \\ = \frac{1}{1 + \exp \left(- \sum_{i = 1}^{n} \beta_{i} x_{i}\right)} \\ \end{array}
 
 $$
 
@@ -179,7 +179,7 @@ The refinancing incentive is a function of the ratio of the coupon-rate of the m
 
 $$
 
-R e f i = . 2 4 0 6 -. 1 3 8 9 \times a r c t a n (5. 9 5 2 * (1. 0 8 9 - \frac {C o u p o n R a t e}{M o r t g a g e R a t e}))
+R e f i = . 2 4 0 6 -. 1 3 8 9 \times a r c t a n (5. 9 5 2 * (1. 0 8 9 - \frac{C o u p o n R a t e}{M o r t g a g e R a t e}))
 
 $$
 

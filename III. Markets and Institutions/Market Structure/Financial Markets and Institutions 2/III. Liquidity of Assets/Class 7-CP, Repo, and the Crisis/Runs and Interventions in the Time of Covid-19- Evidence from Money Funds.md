@@ -137,7 +137,7 @@ Compared to 2008, prime funds hold substantially more weekly liquid assets (WLAs
 To assess whether the presence of contingent liquidity restrictions changed the nature of investor runs on prime funds, we run a set of regressions that compare the flow sensitivity to WLA during the 2020 run to that of the 2008 and 2011 runs. Specifically, we use daily and weekly MMF data from iMoneyNet and estimate the following regressions for the three subsamples: $^7$
 
 $$
-\begin{array}{l} F l o w _ {i, t} = \beta_ {1} C r i s i s _ {t} + \beta_ {2} W L A _ {i, t - 1} + \beta_ {3} C r i s i s _ {t} \times W L A _ {i, t - 1} \\ \left(+ \beta_ {4} \mathbb {1} (W L A <   3 5) + \beta_ {5} C r i s i s _ {t} \times \mathbb {1} (W L A <   3 5)\right) + \varepsilon_ {i, t}, \quad (1) \\ \end{array}
+\begin{array}{l} F l o w_{i, t} = \beta_{1} C r i s i s_{t} + \beta_{2} W L A_{i, t - 1} + \beta_{3} C r i s i s_{t} \times W L A_{i, t - 1} \\ \left(+ \beta_{4} \mathbb {1} (W L A <   3 5) + \beta_{5} C r i s i s_{t} \times \mathbb {1} (W L A <   3 5)\right) + \varepsilon_{i, t}, \quad (1) \\ \end{array}
 $$
 
 where  $Flow_{i,t}$  is the daily percentage change in the AUM of fund  $i$ , winsorized at the 1% and 99% levels. $^{8}$ $WLA_{i,t-1}$  (in percent) is the share of weekly liquid assets to total assets of fund  $i$  on the previous Tuesday, $^{9}$  and  $\mathbb{1}(WLA < 35)$  equals one if  $WLA_{i,t-1}$  is below 35%.  $Crisis_t$  equals one during each of the crisis periods: September 10–30 in 2008, June 10–August 1 in 2011 and March 6–24 in 2020.
@@ -159,7 +159,7 @@ In unreported tests, we also control for a battery of lagged fund characteristic
 Table 3 combines the three subsamples together to assess the difference in flow sensitivity to WLA across crises and how significant such difference is. In particular, we estimate the following regressions:
 
 $$
-\begin{array}{l} F l o w _ {i, t} = \beta_ {1} C r i s i s _ {t} + \beta_ {2} C r i s i s _ {t} \times Y e a r _ {t} + \beta_ {3} C r i s i s _ {t} \times W L A _ {i, t - 1} \\ + \beta_ {4} \text {C r i s i s} _ {t} \times W L A _ {i, t - 1} \times \text {Y e a r} _ {t} + \text {c o n t r o l s} _ {i, t - 1} + F E _ {i, t} + \varepsilon_ {i, t}, \tag {2} \\ \end{array}
+\begin{array}{l} F l o w_{i, t} = \beta_{1} C r i s i s_{t} + \beta_{2} C r i s i s_{t} \times Y e a r_{t} + \beta_{3} C r i s i s_{t} \times W L A_{i, t - 1} \\ + \beta_{4} \text{Cr is is}_{t} \times W L A_{i, t - 1} \times \text{Ye ar}_{t} + \text{co nt ro ls}_{i, t - 1} + F E_{i, t} + \varepsilon_{i, t}, \tag {2} \\ \end{array}
 $$
 
 where controls include various fund characteristics and asset holdings, and year fixed effects are included in all specifications. In some specifications we use the dummy  $\mathbb{1}(WLA < 35)$  instead of  $WLA$ . The baseline Crisis dummy refers to the 2020 run, and the interactions with  $Year = 2008\$  or  $Year = 2011\$  estimate the additional effects of the 2008 and 2011 runs relative to the most recent one.
@@ -185,7 +185,7 @@ Table 4 shows that on average institutional funds suffered the most severe outfl
 We formally test the relation between the MMLF and prime fund flows by estimating the following regressions:
 
 $$
-\begin{array}{l} F l o w _ {i, t} = \beta_ {1} M M L F _ {t} + \beta_ {2} W L A _ {i, t - 1} + \beta_ {3} M M L F _ {t} \times W L A _ {i, t - 1} \\ + c o n t r o l s _ {i, t - 1} + F E _ {i} + \varepsilon_ {i, t}, (3) \\ \end{array}
+\begin{array}{l} F l o w_{i, t} = \beta_{1} M M L F_{t} + \beta_{2} W L A_{i, t - 1} + \beta_{3} M M L F_{t} \times W L A_{i, t - 1} \\ + c o n t r o l s_{i, t - 1} + F E_{i} + \varepsilon_{i, t}, (3) \\ \end{array}
 $$
 
 where  $Flow_{i,t}$  is the daily percentage change in the AUM of fund  $i$ ,  $WLA_{i,t-1}$  (in percent) is the share of weekly liquid assets to total assets of fund  $i$  on the previous Tuesday, and  $MMLF_t$  is the dummy for the post-MMLF period (i.e., equals one for the period of March 23 to April 3). We double cluster standard errors at fund and day levels.
@@ -205,7 +205,7 @@ To test the potential channel for the MMLF effect on fund flows, we use the CUSI
 background section, to be MMLF-eligible, assets (including unsecured CP, ABCP, and CDs) had to satisfy certain maturity, rating, and domicile criteria. Utilizing the granular security-level information in N-MFP, we are able to identify assets that are MMLF-eligible for each MMF. We then merge the N-MFP information with the iMoneyNet data and run the following regression:
 
 $$
-\begin{array}{l} F l o w _ {i, t} = \beta_ {1} M M L F _ {t} + \beta_ {2} E l i g i b l e P c t _ {i} + \beta_ {3} M M L F _ {t} \times E l i g i b l e P c t _ {i} \\ + c o n t r o l s _ {i, t - 1} + F E _ {i} + \varepsilon_ {i, t}, (4) \\ \end{array}
+\begin{array}{l} F l o w_{i, t} = \beta_{1} M M L F_{t} + \beta_{2} E l i g i b l e P c t_{i} + \beta_{3} M M L F_{t} \times E l i g i b l e P c t_{i} \\ + c o n t r o l s_{i, t - 1} + F E_{i} + \varepsilon_{i, t}, (4) \\ \end{array}
 $$
 
 where  $EligiblePct_{i}$  is defined as the share of MMLF-eligible assets relative to the fund AUM on February 28 for fund  $i$ . In all specifications, standard errors are two-way clustered at the fund and day level.
@@ -227,7 +227,7 @@ In mid-March, as institutional investors started to run on domestic prime MMFs, 
 The MMLF was designed to protect U.S. investors and MMFs, and thus offshore USD funds, although also investing in the U.S. short-term debt instruments, were not covered by the MMLF. This fact offers us a great opportunity to study the potential spillover effects of the MMLF to similar but ineligible market participants, namely, offshore USD prime MMFs. Specifically, we estimate the following regression:
 
 $$
-\begin{array}{l} F l o w _ {i, t} = \beta_ {1} O f f s h o r e _ {i} + \beta_ {2} M M L F _ {t} + \beta_ {3} O f f s h o r e _ {i} \times M M L F _ {t} \\ + c o n t r o l s _ {i, t - 1} + F E _ {i} + \varepsilon_ {i, t}, (5) \\ \end{array}
+\begin{array}{l} F l o w_{i, t} = \beta_{1} O f f s h o r e_{i} + \beta_{2} M M L F_{t} + \beta_{3} O f f s h o r e_{i} \times M M L F_{t} \\ + c o n t r o l s_{i, t - 1} + F E_{i} + \varepsilon_{i, t}, (5) \\ \end{array}
 $$
 
 where  $Offshore_{i}$  equals one for offshore USD prime funds and  $MMLF_{t}$  equals one after
@@ -251,7 +251,7 @@ across instruments issued by the same CP issuer  $j$ , on the same day  $t$ , an
 Our first identification strategy focuses on testing the differential effect of MMLF across CP with different credit quality. To be considered MMLF-eligible, CP must belong to the top rating category. If the MMLF stabilized the CP market following its launch on March 23, we should expect such effect to be stronger among MMLF-eligible CP, namely with top rating. To test this hypothesis, we create a dummy  $TopRating_{t}$  that takes the value one if a CP's composite rating is equal to 1 on day  $t$ , and estimate the following panel regression:
 
 $$
-S p r e a d _ {j, t, m} = \beta M M L F _ {t} \times T o p R a t i n g _ {t} + \mu_ {j} + \mu_ {t} + \mu_ {m} + \mu_ {r} + \varepsilon_ {j, t, m} \tag {6}
+S p r e a d_{j, t, m} = \beta M M L F_{t} \times T o p R a t i n g_{t} + \mu_{j} + \mu_{t} + \mu_{m} + \mu_{r} + \varepsilon_{j, t, m} \tag {6}
 $$
 
 where  $MMLF_{t}$  is a dummy for the two weeks following the launch of MMLF, and  $\mu_{j}, \mu_{t}, \mu_{m}, \mu_{r}$  represent issuer, day, maturity, and rating fixed effects, respectively. Standard errors are two-way clustered at the issuer and day level. Consistent with the MMLF design, Table 8 shows that spreads in top rated CP declined by more following the launch of the facility. The coefficient of the interation of  $MMLF_{t}$  and  $TopRating_{t}$  is negative and highly significant. The magnitude is also economically meaningful. A1/P1-rated CP experienced an additional 45 bps decline in rate spreads compared to other lower-rated CP during the two weeks post MMLF.
@@ -271,7 +271,7 @@ MMLF, new CP issuance dropped precipitously and many market participants viewed 
 To understand the MMLF impact on CP issuance, we use the same CP sample and estimate the following panel regression:
 
 $$
-L o g (I s s u a n c e) _ {j, t, m} = \beta M M L F _ {t} \times T o p R a t i n g _ {t} + \mu_ {j} + \mu_ {t} + \mu_ {m} + \mu_ {r} + \varepsilon_ {j, t, m} \tag {7}
+L o g (I s s u a n c e)_{j, t, m} = \beta M M L F_{t} \times T o p R a t i n g_{t} + \mu_{j} + \mu_{t} + \mu_{m} + \mu_{r} + \varepsilon_{j, t, m} \tag {7}
 $$
 
 where  $\operatorname{Log}(\text{Issuance})_{j,t,m}$  is the log of one plus the amount issued by borrower  $j$  on day  $t$  with time to maturity within maturity bucket  $m$ . Since not issuing debt is valuable information, we consider issuer-day-term observations with no issuance as zero issuance, leading to  $\operatorname{Log}(\text{Issuance})_{j,t}$  being equal to zero in those cases.
@@ -285,11 +285,11 @@ London inter-bank offered rate (LIBOR). Therefore, the MMLF effect, if any, shou
 Using its pricing feature, we develop our third test to identify the MMLF impact on the CP market. Specifically, we estimate  $\text{Log(Issuance)}_{j,t,m}$  separately for CPs issued at rates greater than 125 bps and those below 125 bps, and name them  $\text{Log(HighRateIssuance)}_{j,t,m}$  and  $\text{Log(LowRateIssuance)}_{j,t,m}$  respectively. We then estimate the following panel regressions:
 
 $$
-L o g (H i g h R a t e I s s u a n c e) _ {j, t, m} = \beta M M L F _ {t} \times S h a r e M M F _ {t} + \mu_ {j} + \mu_ {t} + \mu_ {m} + \mu_ {r} + \varepsilon_ {j, t, m}
+L o g (H i g h R a t e I s s u a n c e)_{j, t, m} = \beta M M L F_{t} \times S h a r e M M F_{t} + \mu_{j} + \mu_{t} + \mu_{m} + \mu_{r} + \varepsilon_{j, t, m}
 $$
 
 $$
-L o g (L o w R a t e I s s u a n c e) _ {j, t, m} = \beta M M L F _ {t} \times S h a r e M M F _ {t} + \mu_ {j} + \mu_ {t} + \mu_ {m} + \mu_ {r} + \varepsilon_ {j, t, m}
+L o g (L o w R a t e I s s u a n c e)_{j, t, m} = \beta M M L F_{t} \times S h a r e M M F_{t} + \mu_{j} + \mu_{t} + \mu_{m} + \mu_{r} + \varepsilon_{j, t, m}
 $$
 
 where the explanatory variables are defined as in Equation 7. Consistent with the hypothesis that CP more profitable to pledge (with rate above 125 bps) benefited particularly from the MMLF, we find that issuance restarted significantly more for CP issuers with more reliance on MMFs only when the CP yields more than 125 bps. The coefficient of the interaction of  $MMLF_{t}$  and  $\text{ShareMMF}_{t}$  is positive and highly significant in Equation 8, but negative and not significant in Equation 8 (columns (4) and (5)). Excluding overnight issuance yields similar findings. The limited effects of the MMLF on issuance of cheaper CP (with rate below 125 bps) suggests that MMFs were not particularly interested in purchasing these instruments since they may not have been able to liquidate them at the MMLF in case of need.

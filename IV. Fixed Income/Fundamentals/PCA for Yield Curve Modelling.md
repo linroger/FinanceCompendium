@@ -140,13 +140,13 @@ The third PC is further interpreted as a higher order buckling in which the shor
 Figure 3 shows the net effect of the most important PC in explaining shifts of the forward rates in the yield curve about their mean values. The solid black line is the mean yield curve at the  $t = 1$  projection horizon. The broken curves result from addition or subtraction of an arbitrary scaling of the PC. That is, the individual forward rates,  $F_{j}$  (for  $j = 0, \dots, 49$ , representing the forward rate applying for terms between  $j$  and  $j + 1$  years) are:
 
 $$
-F _ {j} = \mu_ {j} + \alpha_ {1} v _ {1, j},
+F_{j} = \mu_{j} + \alpha_{1} v_{1, j},
 $$
 
 where  $\mu_{j}$  is the mean value of the  $j$ th forward rate at the  $t = 1$  projection horizon,  $v_{1,j}$  is the  $j$ th element of the first PC, and  $\alpha_{1}$  is a real value used to scale the first PC. In vector notation this is:
 
 $$
-F = \mu + \alpha_ {1} v _ {1},
+F = \mu + \alpha_{1} v_{1},
 $$
 
 where  $F$  represents the entire vector of 50 forward rates making up the yield curve,  $\mu$  is the entire vector of mean values of the forward rates at the  $t = 1$  projection horizon, and  $v_{1}$  represents the entire vector that is the first PC. In effect this is a very simple reduced form model for the yield curves at the specific  $t = 1$  projection horizon. Since the first PC is responsible for 91% of the variability of the set of yield curves used in the analysis, this reduced model can reproduce a good proportion of the yield curves of the full structural model. That is, suitable values for  $\alpha_{1}$  will produce yield curves that reasonably match many (but not all) of the yield curves of the full structural model. The appropriate distribution of values of  $\alpha_{1}$  is a byproduct of the PCA method, as will be shown later.
@@ -161,7 +161,7 @@ Figure 3 Yield curves produced by a very simple reduced form model composed of j
 It should be noted that if we are modelling the yield curves as 50 forward rates, then the covariance matrix will be  $50 \times 50$  and there will be 50 PCs. These are the 50 eigenvectors produced by the eigenvalue decomposition, with the corresponding eigenvalues indicating the relative significance of the PCs. A model including all of the PCs turns out to be able to reproduce any yield curve, realistic or not. This concept is explored in more detail in later sections. In particular, it can perfectly reproduce all of the yield curves on which the PCA analysis was performed. Such a model should be called a full statistical model, and can be represented as:
 
 $$
-F = \mu + \sum_ {i = 1} ^ {n} \alpha_ {i} v _ {i},
+F = \mu + \sum_{i = 1}^{n} \alpha_{i} v_{i},
 $$
 
 where  $n$  is the number of forward rates, equal to 50 in the present example. This can be expressed in matrix notation as:
@@ -175,13 +175,13 @@ where  $\pmb{V} = [v_{1}, v_{2}, \dots, v_{n}]$  is a square  $n \times n$  matr
 It has been mentioned that the full structural model has a limited universe of yield curves, whereas the full statistical model presented here can reproduce any yield curve. This means that the full statistical model is unnecessarily flexible. As alluded to earlier, PCA provides a natural way of simplifying the statistical model whilst maintaining its ability to reproduce the majority of yield curves that can be produced by the structural model, by simply reducing the number of PCs that are used. This reduced model includes only the quantity of PCs that are deemed important, as indicated by the corresponding eigenvalues. In particular, we only retain those PCs that are associated with the largest eigenvalues. The reduced model can be expressed as:
 
 $$
-F = \mu + \sum_ {i = 1} ^ {k} \alpha_ {i} v _ {i},
+F = \mu + \sum_{i = 1}^{k} \alpha_{i} v_{i},
 $$
 
 where  $k$  is the number of PCs retained. This means that the yield curves are expressed as a linear combination of the  $k$  PCs. This can be expressed in matrix notation as:
 
 $$
-F = \mu + \boldsymbol {V} ^ {(k)} \alpha ,
+F = \mu + \boldsymbol {V}^{(k)} \alpha ,
 $$
 
 where  $\pmb{V}^{(\pmb{k})} = [v_{1}, v_{2}, \dots, v_{k}]$  is a rectangular  $n \times k$  matrix whose columns are the  $k$  PCs corresponding to the largest  $k$  eigenvalues, and  $\alpha = [\alpha_{1}, \alpha_{2}, \dots, \alpha_{k}]^{\top}$  is a vector of magnitudes of the PCs.
@@ -244,7 +244,7 @@ This method requires us to determine a covariance matrix describing the movement
 1. Generate a set of yield curves (in terms of forward rates) from the structural model. Construct a data matrix of forward rates:
 
 $$
-\boldsymbol {F} = \left[ F _ {i j} \right],
+\boldsymbol {F} = \left[ F_{i j} \right],
 $$
 
 where  $F_{ij}$  is the  $j^{\text{th}}$  forward rate of the  $i^{\text{th}}$  yield curve. That is, each row of the matrix  $\mathbf{F}$  is a yield curve and each column is a set of values of a particular forward rate.
@@ -258,7 +258,7 @@ b. Subtract the mean and then divide by the standard deviation of the forward ra
 4. Calculate a matrix of covariances between the (possibly transformed, centred and/or scaled) forward rates
 
 $$
-\boldsymbol {C} = \operatorname {C o v} (\boldsymbol {F}),
+\boldsymbol {C} = \operatorname{Co v} (\boldsymbol {F}),
 $$
 
 where this is interpreted as a matrix of covariances of pairs of columns. Note that if the data has mean of zero and standard deviation of 1.0 this will also be the correlation matrix.
@@ -266,7 +266,7 @@ where this is interpreted as a matrix of covariances of pairs of columns. Note t
 5. Compute the eigenvalue decomposition or singular value decomposition, with eigenvalues or singular values in decreasing order. The eigenvalue decomposition is:
 
 $$
-\boldsymbol {C} = \boldsymbol {V} \boldsymbol {\Lambda} \boldsymbol {V} ^ {\top},
+\boldsymbol {C} = \boldsymbol {V} \boldsymbol {\Lambda} \boldsymbol {V}^{\top},
 $$
 
 where  $\pmb{V}$  is an orthonormal matrix and  $\pmb{\Lambda}$  is a diagonal matrix. See 0 for more details of the eigenvalue decomposition.
@@ -274,7 +274,7 @@ where  $\pmb{V}$  is an orthonormal matrix and  $\pmb{\Lambda}$  is a diagonal m
 The singular value decomposition is:
 
 $$
-\boldsymbol {C} = \boldsymbol {U} \boldsymbol {S} \boldsymbol {V} ^ {\top},
+\boldsymbol {C} = \boldsymbol {U} \boldsymbol {S} \boldsymbol {V}^{\top},
 $$
 
 where  $\mathbf{S}$  is a diagonal matrix and  $\mathbf{U}$  and  $\mathbf{V}$  are orthonormal matrices that will be identical (to machine precision) since the covariance matrix is positive semidefinite. See Appendix B and Appendix C for more details of the singular value decomposition.
@@ -284,7 +284,7 @@ In both cases, the columns of  $\pmb{V}$  are normalised eigenvectors  $\pmb{v}_
 6. The significance,  $\psi_{i}$ , of each principal component is given by:
 
 $$
-\psi_ {i} = \frac {\lambda_ {i}}{\sum_ {j = 1} ^ {n} \lambda_ {j}}, \qquad \text {o r} \qquad \psi_ {i} = \frac {s _ {i}}{\sum_ {j = 1} ^ {n} s _ {j}}.
+\psi_{i} = \frac{\lambda_{i}}{\sum_{j = 1}^{n} \lambda_{j}}, \qquad \text{or} \qquad \psi_{i} = \frac{s_{i}}{\sum_{j = 1}^{n} s_{j}}.
 $$
 
 where  $\lambda_{i}$  are the diagonal elements of the diagonal matrix  $\pmb{\Lambda}$ , and  $s_i$  are the diagonal elements of the diagonal matrix  $\pmb{S}$ . This provides information as to how many PCs are required in order to capture the range of yield curves that the underlying model can produce. See Section 5 for more details.
@@ -307,7 +307,7 @@ b. Subtract the mean and then divide by the standard deviation of the forward ra
 4. Compute the singular value decomposition on the (possibly transformed, centred and scaled) matrix  $F$ :
 
 $$
-\boldsymbol {F} = \boldsymbol {U} \boldsymbol {S} \boldsymbol {V} ^ {\top}
+\boldsymbol {F} = \boldsymbol {U} \boldsymbol {S} \boldsymbol {V}^{\top}
 $$
 
 See Appendix B for more details of the singular value decomposition. As before, the columns of  $V$  are the principal components in normalised form. Here these are the eigenvectors  $v_{i}$  of  $F^{\top}F$ . Note that when the columns of  $F$  have mean of zero then  $F^{\top}F = \operatorname{Cov}(F)$  and hence the principal components will be the same as before.
@@ -315,7 +315,7 @@ See Appendix B for more details of the singular value decomposition. As before, 
 5. The proportion of variance explained by each PC,  $\psi_{i}$ , is given by
 
 $$
-\psi_ {i} = \frac {\sqrt {s _ {i}}}{\sum_ {j = 1} ^ {n} \sqrt {s _ {j}}}.
+\psi_{i} = \frac{\sqrt{s_{i}}}{\sum_{j = 1}^{n} \sqrt{s_{j}}}.
 $$
 
 This provides information as to how many PCs are required in order to capture the range of yield curves that the underlying model can produce.
@@ -349,13 +349,13 @@ Since PCA is a purely statistical technique, you can transform the data in almos
 Let  $T(\cdot)$  be a transformation function that can be applied to the forward rates in the data matrix. PCA is then performed on the transformed data and the final equation for the reduced model is as follows:
 
 $$
-F = T ^ {- 1} \bigg (\mu + \sum_ {i} \alpha_ {i} v _ {i} \bigg),
+F = T^{- 1} \bigg (\mu + \sum_{i} \alpha_{i} v_{i} \bigg),
 $$
 
 where  $F$  represents the entire vector of transformed data points,  $\mu$  is the entire vector of mean values of the transformed data,  $v_{i}$  represents the entire vector of the  $i^{\mathrm{th}}\mathrm{PC}$ , and  $\alpha_{i}$  is an appropriate scaling of the  $i^{\mathrm{th}}\mathrm{PC}$ . In matrix notation this is:
 
 $$
-F = T ^ {- 1} \big (\boldsymbol {\mu} + \pmb {V} ^ {(k)} \alpha \big),
+F = T^{- 1} \big (\boldsymbol {\mu} + \pmb {V}^{(k)} \alpha \big),
 $$
 
 where  $\pmb{V}^{(k)} = [v_{1}, v_{2}, \dots, v_{k}]$  is a rectangular  $n \times k$  matrix whose columns are the  $k$  PCs corresponding to the largest  $k$  eigenvalues, and  $\alpha = [\alpha_{1}, \alpha_{2}, \dots, \alpha_{k}]^{\top}$  is a vector of magnitudes of the PCs.
@@ -365,13 +365,13 @@ Some useful transformations are:
 > General scaling. If the raw data is a set of possible yield curves at some time horizon, it might be meaningful to scale by the initial  $(t = 0)$  yield curve to get relative movements. The PCs would then represent proportional changes in the yield curve over the given time interval.
 
 $$
-T (F) = \frac {F}{F _ {0}},
+T (F) = \frac{F}{F_{0}},
 $$
 
 where  $F_{0}$  is the vector of forward rates representing the initial yield curve  $(t = 0)$ . The reduced model is then:
 
 $$
-F = F _ {0}. \left(\mu + \boldsymbol {V} ^ {(k)} \alpha\right)
+F = F_{0}. \left(\mu + \boldsymbol {V}^{(k)} \alpha\right)
 $$
 
 $\gg$  Logarithmic transformation. Some structural models for nominal yield curves, such as the two factor Black-Karasinski and LMM models, have a lognormal structure in order to prevent negative interest rates. Without special treatment, there is nothing preventing some of the forward rates from a reduced model being negative, since the scale parameters  $\alpha$  can take any real value, including dramatically negative values. One common way to prevent negative interest rates being produced from a reduced model is to use a logarithmic transformation of the raw yield curve data before performing PCA. The
@@ -379,13 +379,13 @@ $\gg$  Logarithmic transformation. Some structural models for nominal yield curv
 transformed data can take any real value, but when transformed back to actual forward rates it is theoretically impossible to get negative rates. The transformation function is:
 
 $$
-T (F) = \ln (\mathrm {F}).
+T (F) = \ln (\mathrm{F}).
 $$
 
 This means that the reduced model would be:
 
 $$
-F = \exp (\mu + V ^ {(k)} \alpha)
+F = \exp (\mu + V^{(k)} \alpha)
 $$
 
 Clearly, the forward rates that result from this reduced model can never be negative, for any real PCs and for any real values of  $\alpha$ .
@@ -399,7 +399,7 @@ $$
 with associated reduced model:
 
 $$
-F = - \delta + \exp \bigl (\mu + V ^ {(k)} \alpha \bigr).
+F = - \delta + \exp \bigl (\mu + V^{(k)} \alpha \bigr).
 $$
 
 Clearly, the forward rates that result from this reduced model can never be more negative than  $-\delta$ , for any real PCs and for any real values of  $\alpha$ .
@@ -427,13 +427,13 @@ The more PCs are retained the more accurately the reduced model will be able to 
 As mentioned in Section 3, the proportion of variance explained by each principal component is given by:
 
 $$
-\psi_ {i} = \frac {\lambda_ {i}}{\sum_ {j = 1} ^ {n} \lambda_ {j}} \qquad \mathrm {o r} \qquad \psi_ {i} = \frac {s _ {i}}{\sum_ {j = 1} ^ {n} s _ {j}},
+\psi_{i} = \frac{\lambda_{i}}{\sum_{j = 1}^{n} \lambda_{j}} \qquad \mathrm{or} \qquad \psi_{i} = \frac{s_{i}}{\sum_{j = 1}^{n} s_{j}},
 $$
 
 when eigenvalue or singular value decomposition is performed on the covariance matrix. Alternatively,
 
 $$
-\psi_ {i} = \frac {\sqrt {s _ {i}}}{\sum_ {j = 1} ^ {n} \sqrt {s _ {j}}},
+\psi_{i} = \frac{\sqrt{s_{i}}}{\sum_{j = 1}^{n} \sqrt{s_{j}}},
 $$
 
 when singular value decomposition is applied to the raw data matrix. These expressions come about because of the properties of the matrix decompositions that are used. In the case of the eigenvalue decomposition approach, the decomposition is performed on the covariance matrix. Since the eigenvectors are orthogonal and normalised, the eigenvalues are then measures of the variance of the corresponding forward rate in a coordinate system in which the transformed forward rates are independent (See 0 for more details of the interpretation of the eigenvalue decomposition). This means that the denominator in the expressions above represents the total variance (i.e. the sum of the variances of independent variables), and then  $\psi_{i}$  is the proportion of the total variance attributed to the  $i^{\text{th}}$  PC.
@@ -441,7 +441,7 @@ when singular value decomposition is applied to the raw data matrix. These expre
 The variance of the reduced model as a proportion of the variance of the set of yield curves that were analysed is given by the cumulative sum of the expressions above for each PC in the model. That is:
 
 $$
-\sum_ {i = 1} ^ {k} \psi_ {i},
+\sum_{i = 1}^{k} \psi_{i},
 $$
 
 where  $k$  is the number of PCs included in the reduced model, keeping in mind that the PCs are included in the reduced model in order of decreasing eigenvalue (or singular value). That is, PCs associated with the largest eigenvalues are included before PCs corresponding to smaller eigenvalues. Hence, based on this measure, there is diminishing worth in retaining more and more PCs in the reduced model.
@@ -484,7 +484,7 @@ It was mentioned earlier that the full statistical model with all PCs can reprod
 The task is to find the vector  $\alpha$  that solves the equation  $F = \mu + V^{(k)}\alpha$ . This can be obtained analytically as follows:
 
 $$
-\alpha = \boldsymbol {V} ^ {(k) ^ {- 1}}. (F - \mu) = \boldsymbol {V} ^ {(k) ^ {\top}}. (F - \mu),
+\alpha = \boldsymbol {V}^{(k)^{- 1}}. (F - \mu) = \boldsymbol {V}^{(k)^{\top}}. (F - \mu),
 $$
 
 since the orthogonality property of the eigenvalue matrix means that  $V^{(\pmb{k})^{-1}} = V^{(\pmb{k})^{\top}}$ .
@@ -492,7 +492,7 @@ since the orthogonality property of the eigenvalue matrix means that  $V^{(\pmb{
 When a data transformation is being used the solution becomes:
 
 $$
-\alpha = V ^ {(k) ^ {\top}}. (T (F) - \mu),
+\alpha = V^{(k)^{\top}}. (T (F) - \mu),
 $$
 
 where  $\mu$  is to be interpreted as the mean value of the transformed data rather than the raw data.
@@ -558,7 +558,7 @@ as a part of the PCA, either in the original yield curve domain or in the transf
 The simple case of a parallel stress could be dealt with either as part of the PCA or as being separate from the PCA. Treating it separate from the PCA, a simple additive shift in the reduced model will achieve the desired effect. For example, for the log transformed reduced model, might look like the following:
 
 $$
-F = \exp (\mu + \boldsymbol {V} ^ {(k)} \alpha) + \delta ,
+F = \exp (\mu + \boldsymbol {V}^{(k)} \alpha) + \delta ,
 $$
 
 where  $\delta$  is a scalar. This would mean that the universe of possible yield curves would be that of the (transformed) reduced model, governed by the PCs that it retains, as well as any parallel shift of such yield curves. Determination of magnitudes of the PCs and  $\delta$  for a given yield curve might then be more difficult and might best be done via a numerical optimiser. Note also that this approach might detract from some of the advantages of the log transformation, such as the assurance that the entire yield curve cannot go negative.
@@ -644,13 +644,13 @@ $$
 The orthogonality of the eigenvectors means that  $V^{\mathsf{T}}V = VV^{\mathsf{T}} = I$  and hence  $V^{-1} = V^{\mathsf{T}}$ . When  $V$  is invertible this leads to the eigenvalue decomposition:
 
 $$
-A = V \Lambda V ^ {T}.
+A = V \Lambda V^{T}.
 $$
 
 This can be expanded to express the matrix  $A$  as a summation as follows:
 
 $$
-A = \sum_ {i = 1} ^ {n} \lambda_ {i} v _ {i} v _ {i} ^ {\intercal}
+A = \sum_{i = 1}^{n} \lambda_{i} v_{i} v_{i}^{\intercal}
 $$
 
 This summation proves to be particularly useful representation in the context of PCA as it clearly indicates that the effect of eigenvectors diminishes with the size of the eigenvalue. The basis of PCA is that the matrix  $A$  can be approximated using only those eigenvectors corresponding to significantly large eigenvalues. In some situations this can mean that just a small number of eigenvectors can be used to represent a system with many tens or hundreds of dimensions.
@@ -662,7 +662,7 @@ This transformation (change of basis, or change of coordinates) so that all the 
 In matrix form this is
 
 $$
-\bar {X} = V ^ {\top} X
+\bar {X} = V^{\top} X
 $$
 
 The elements of  $\bar{x}$  (in the new coordinate system) are independent. The covariance matrix is  $\Lambda$  and hence is diagonal. This means that all covariances are zero and the variance of each variable is  $\lambda_{i}$ . The total variance is the sum of the eigenvalues and this is also the total variance of the original data.
@@ -680,7 +680,7 @@ The correlation of the variables means that there will be greater variability in
 The eigenvalue decomposition of  $C$  gives the following (to three decimal places):
 
 $$
-V = [ v _ {1} v _ {2} v _ {3} ] = \left[ \begin{array}{c c c} 0. 7 0 7 & 0 & - 0. 7 0 7 \\ 0. 6 5 0 & - 0. 3 9 4 & 0. 6 5 0 \\ 0. 2 7 9 & 0. 9 1 9 & 0. 2 7 9 \end{array} \right] \quad a n d \quad \Lambda = \left[ \begin{array}{c c c} 1. 7 6 2 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 0. 2 3 8 \end{array} \right].
+V = [ v_{1} v_{2} v_{3} ] = \left[ \begin{array}{c c c} 0. 7 0 7 & 0 & - 0. 7 0 7 \\ 0. 6 5 0 & - 0. 3 9 4 & 0. 6 5 0 \\ 0. 2 7 9 & 0. 9 1 9 & 0. 2 7 9 \end{array} \right] \quad a n d \quad \Lambda = \left[ \begin{array}{c c c} 1. 7 6 2 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 0. 2 3 8 \end{array} \right].
 $$
 
 Scatter plots of the points are shown in Figure 15 in the original coordinate system. That is, using regular Cartesian coordinates as the basis:  $[1,0,0]^{\mathrm{T}}$ ,  $[0,1,0]^{\mathrm{T}}$  and  $[0,0,1]^{\mathrm{T}}$ . Each point is represented as a linear combination of these orthonormal basis vectors. Also shown in Figure 15 (in red) are the eigenvectors scaled by the square root of the corresponding eigenvalues. The largest of these eigenvectors points in the direction of maximum variability, which is the eigenvector corresponding to the largest eigenvalue. This is the direction  $v_{1} = [0.707, 0.650, 0.279]^{\mathrm{T}}$ . This can be seen as the longest red line in the scatter plot of variable 1 versus variable 2, as these are the most highly correlated pair of variables. This same direction (as well as the other directions) is less obvious in the other subfigures as the eigenvectors do not align nicely with the axes.
@@ -706,7 +706,7 @@ Figure 16 The same points as in Figure 15, but transformed into coordinates of t
 SVD reduces a real  $m \times n$  matrix  $M$  to three components as follows:
 
 $$
-M = U S V ^ {\top}.
+M = U S V^{\top}.
 $$
 
 Here,  $U$  is an  $m \times n$  orthonormal matrix,  $S$  is an  $n \times n$  diagonal matrix containing the "singular values", and  $V$  is an  $n \times n$  orthonormal matrix.
@@ -722,37 +722,37 @@ In theory, SVD is a very stable decomposition as it is always perfectly conditio
 If the original data matrix,  $M$ , has mean zero, then the pairwise covariance matrix,  $C$ , is
 
 $$
-C = \frac {1}{n - 1} M ^ {\intercal} M,
+C = \frac{1}{n - 1} M^{\intercal} M,
 $$
 
 which is a symmetric  $n \times n$  matrix. Using the SVD of  $M$  we have
 
 $$
-M ^ {\top} M = (U S V ^ {\top}) ^ {\top} (U S V ^ {\top}) = V S ^ {\top} U ^ {\top} U S V ^ {\top} = V S ^ {2} V ^ {\top},
+M^{\top} M = (U S V^{\top})^{\top} (U S V^{\top}) = V S^{\top} U^{\top} U S V^{\top} = V S^{2} V^{\top},
 $$
 
 and hence
 
 $$
-C = \frac {1}{n - 1} V S ^ {2} V ^ {\top}.
+C = \frac{1}{n - 1} V S^{2} V^{\top}.
 $$
 
 Directly applying eigenvalue decomposition to the correlation matrix gives
 
 $$
-C = V \Lambda V ^ {\top}.
+C = V \Lambda V^{\top}.
 $$
 
 Equating these two decompositions of  $C$  means that:
 
 $$
-\frac {1}{n - 1} V S ^ {2} V ^ {\top} = V \Lambda V ^ {\top}.
+\frac{1}{n - 1} V S^{2} V^{\top} = V \Lambda V^{\top}.
 $$
 
 Since the matrix  $V$  is the same in each case, we obtain an equation linking the eigenvalues and singular values:
 
 $$
-\Lambda = \frac {1}{n - 1} S ^ {2}.
+\Lambda = \frac{1}{n - 1} S^{2}.
 $$
 
 As both  $\Lambda$  and  $S$  are diagonal, this equation also holds elementwise.
@@ -762,7 +762,7 @@ As both  $\Lambda$  and  $S$  are diagonal, this equation also holds elementwise
 Now consider the application of SVD to a real symmetric matrix,  $A$ , such as a covariance or correlation matrix. This means that
 
 $$
-A = U S V ^ {\top}.
+A = U S V^{\top}.
 $$
 
 Since  $A$  is symmetric, then  $USV^{\top}$  must also be symmetric. This means that  $|U_{ij}| = |V_{ij}|$ , meaning that the elements can only differ by a sign change. Relating this to the eigenvalue decomposition, this also implies that the eigenvalues and singular values can also only differ by a sign change. It turns out that the differences in sign are associated with negative eigenvalues and so  $U = V$  whenever  $A$  is positive semidefinite. In this case there is no difference between SVD and eigenvalue decomposition apart from arbitrary sign changes in the eigenvectors, and numerical accuracy effects when the matrix is ill conditioned.

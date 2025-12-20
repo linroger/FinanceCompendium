@@ -29,7 +29,7 @@ For any two assets with similar probability distributions, but differing liquidi
 This latter point is not immediately obvious. To understand it consider a position we believe has 1-year profit distributed approximately as a gaussian with mean  $\mu_t > 0$ .
 
 $$
-P L _ {t + 1} \sim N (\mu_ {t}, s)
+P L_{t + 1} \sim N (\mu_{t}, s)
 $$
 
 # Risk of Illiquidity: Asset Distribution
@@ -37,7 +37,7 @@ $$
 and an asset value that varies daily approximately as another gaussian<sup>1</sup>
 
 $$
-V _ {t + 1} \sim N (V _ {t}, \sigma)
+V_{t + 1} \sim N (V_{t}, \sigma)
 $$
 
 Let's also assume a positive correlation  $\rho$  between  $V$  and  $\mu$ . We want to exit if we have some  $t$  where  $\mu_t < 0$ .
@@ -47,7 +47,7 @@ Let's also assume a positive correlation  $\rho$  between  $V$  and  $\mu$ . We 
 The daily mark to market  $\Delta V = V_{t + 1} - V_t$  has the same correlation with  $\mu_{t + 1}$ , so since  $\rho >0$
 
 $$
-\operatorname {P r o b} \left(\Delta V <   0 \mid \mu <   0\right) > 0. 5
+\operatorname{Pr ob} \left(\Delta V <   0 \mid \mu <   0\right) > 0. 5
 $$
 
 showing we will tend to want to exit after losses.

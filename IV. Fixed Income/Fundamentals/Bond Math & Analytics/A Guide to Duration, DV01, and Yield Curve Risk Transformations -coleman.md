@@ -31,13 +31,13 @@ JEL Classifications: G10, G12, E43
 Duration and DV01 provide the basic measures for evaluating the risk or sensitivity of fixed income instruments and are both used throughout the financial industry. The DV01 (dollar value of an 01) is just the derivative of price with respect to yield:
 
 $$
-P r i c e = P V (y) \quad D V O I = - \frac {d P V}{d y}
+P r i c e = P V (y) \quad D V O I = - \frac{d P V}{d y}
 $$
 
 Modified or adjusted duration, the derivative in percentage instead of dollar terms, is just the DV01 expressed in different units:
 
 $$
-\text {M o d i f i e d o r A d j u s t e d D u r a t i o n} = - \frac {1}{P V} \frac {d P V}{d y} = 1 0 0 \cdot \frac {D V 0 1}{P V}
+\text{Mo di fi ed or Ad ju st ed Du ra ti on} = - \frac{1}{P V} \frac{d P V}{d y} = 1 0 0 \cdot \frac{D V 0 1}{P V}
 $$
 
 One can use either DV01 or modified duration and the choice between them is largely a matter of convenience, taste, and custom. DV01, also called dollar duration, PV01 (present value of an 01), or BPV (basis point value), measures the derivative in price terms: the dollar price change per change in yield. Modified duration measures the derivative in percent terms: the percent price change per change in yield. I will work mostly with DV01 throughout this paper but the ideas can be applied equally well to modified duration.
@@ -45,7 +45,7 @@ One can use either DV01 or modified duration and the choice between them is larg
 In many practical applications a bond or other fixed-income security will be valued off a yield curve, and we can then extend the DV01 or duration to partial DV01s or durations - the partial derivatives with respect to yields for different parts of the curve:
 
 $$
-\text {P a r t i a l} D V O I \mathrm {s} = \left( \begin{array}{l l l} \frac {\partial P V}{\partial y _ {1}} & \dots & \frac {\partial P V}{\partial y _ {k}} \end{array} \right)
+\text{Pa rt ia l} D V O I \mathrm{s} = \left( \begin{array}{l l l} \frac{\partial P V}{\partial y_{1}} & \dots & \frac{\partial P V}{\partial y_{k}} \end{array} \right)
 $$
 
 Calculating and using partial DV01s based on a curve is a natural extension of the basic yield DV01, just as partial derivatives are a natural extension of the univariate derivative. Partial DV01s of one form or another are used throughout the financial industry (see Ho 1992 and Reitano 1991 for early discussions). Unlike for the basic DV01, however, when working with a full yield curve there is no single unique yield. Partial DV01s can be calculated with respect to any of a large set of possible yields. The values for the partial DV01s will depend on the set of rates used. Partial DV01s w.r.t. alternate yields all measure the same thing - risk to parts of the curve - but do so from different perspectives. As a result, we often need to transform between partial DV01s w.r.t. alternate yields.
@@ -53,13 +53,13 @@ Calculating and using partial DV01s based on a curve is a natural extension of t
 Let us turn to an example. Say we have a 10 year zero bond trading at  \$70.26 or 3.561\%$  semi-bond yield. The DV01 will be
 
 $$
-D V O I _ {s a b} = - \frac {d P V}{d y _ {s a b}} = 6. 9 0 3
+D V O I_{s a b} = - \frac{d P V}{d y_{s a b}} = 6. 9 0 3
 $$
 
 (measured here as the price change for a \$100 notional bond per 100bp or 1 percentage point change in yield). The modified duration will be
 
 $$
-\text {M o d} D = 1 0 0 \cdot \frac {6 . 9 0 3}{7 0 . 2 6} = 9. 8 3
+\text{Mo d} D = 1 0 0 \cdot \frac{6 . 9 0 3}{7 0 . 2 6} = 9. 8 3
 $$
 
 (measured as the percent change per 1 percentage point change in yield). For the bond there is a single yield-to-maturity, so little choice in defining the DV01 or duration.
@@ -106,13 +106,13 @@ To do this requires building a new curve with a reduced set of market instrument
 Duration and DV01 are the foundation for virtually all fixed income risk analysis. The ideas are well-known but it will prove useful to review the basic concepts. The duration we are concerned with is modified duration, the semi-elasticity, percentage price sensitivity or logarithmic derivative of price with respect to yield:
 
 $$
-\text {M o d i f i e d o r A d j u s t e d D u r a t i o n} = - \frac {1}{V} \frac {d V}{d y} = - \frac {d \ln V}{d y} \tag {1}
+\text{Mo di fi ed or Ad ju st ed Du ra ti on} = - \frac{1}{V} \frac{d V}{d y} = - \frac{d \ln V}{d y} \tag {1}
 $$
 
 The name duration originated with Frederick Macaulay (1938) and his definition of duration as the weighted average maturity of cash flows, using the present value of cash flows as weights:
 
 $$
-\text {M a c a u l a y D u r a t i o n} = \sum_ {i = 1} ^ {n} t _ {i} \frac {P V _ {i}}{V} \tag {2}
+\text{Ma ca ul ay Du ra ti on} = \sum_{i = 1}^{n} t_{i} \frac{P V_{i}}{V} \tag {2}
 $$
 
 Macaulay duration applies to instruments with fixed cash flows ( $t_i$  is the maturity of cash flow  $i$ ,  $PV_i$  is the present value of cash flow  $i$ , and  $V$  is the sum of all  $PV_i$ ). Macaulay duration is a measure of time or maturity (hence the name "duration"), and is measured in years. This is in contrast to modified duration, which is a rate of change of price w.r.t. yield and is measured as percent per unit change in yield.
@@ -120,13 +120,13 @@ Macaulay duration applies to instruments with fixed cash flows ( $t_i$  is the m
 The shared use of the term "duration" for both a maturity measure and a price sensitivity measure causes endless confusion but is deeply embedded in the finance profession. The shared use of the term arises because Macaulay duration and modified duration have the same numerical value when yield-to-maturity is expressed continuously-compounded. For a flat yield-to-maturity and continuously-compounded rates the sum of present values is:
 
 $$
-V = \sum_ {i = 1} ^ {n} P V _ {i} = \sum_ {i = 1} ^ {n} C F _ {i} \cdot e ^ {- t i \cdot y}
+V = \sum_{i = 1}^{n} P V_{i} = \sum_{i = 1}^{n} C F_{i} \cdot e^{- t i \cdot y}
 $$
 
 Taking the logarithmic derivative w.r.t.  $y$  gives:
 
 $$
-\operatorname {M o d} D = - \frac {1}{V} \frac {d V}{d y} = \sum_ {i = 1} ^ {n} t _ {i} \frac {C F _ {i} \cdot e ^ {- t i \cdot y}}{V}
+\operatorname{Mo d} D = - \frac{1}{V} \frac{d V}{d y} = \sum_{i = 1}^{n} t_{i} \frac{C F_{i} \cdot e^{- t i \cdot y}}{V}
 $$
 
 But note that the term  $\frac{CF_i \cdot e^{-\pi i \cdot y}}{V}$  is just  $\frac{PV_i}{V}$  so that this is also the formula for Macaulay duration, and so modified duration and Macaulay duration have the same numerical value.
@@ -134,37 +134,37 @@ But note that the term  $\frac{CF_i \cdot e^{-\pi i \cdot y}}{V}$  is just  $\fr
 In the more common situation where rates are quoted periodically-compounded, then the sum of present values will be:
 
 $$
-V = \sum_ {i = 1} ^ {n} P V _ {i} = \sum_ {i = 1} ^ {n} \frac {C F _ {i}}{\left(1 + y / k\right) ^ {k \cdot t i}}
+V = \sum_{i = 1}^{n} P V_{i} = \sum_{i = 1}^{n} \frac{C F_{i}}{\left(1 + y / k\right)^{k \cdot t i}}
 $$
 
 where  $k$  is the compounding frequency (e.g. 1 for annual, 2 for semi-annual). Taking the logarithmic derivative in this case gives:
 
 $$
-M o d D = - \frac {1}{V} \frac {d V}{d y} = \sum_ {i = 1} ^ {n} t _ {i} \frac {1}{V} \frac {C F _ {i}}{\left(1 + y / k\right) ^ {k \cdot t i}} \frac {1}{\left(1 + y / k\right)}
+M o d D = - \frac{1}{V} \frac{d V}{d y} = \sum_{i = 1}^{n} t_{i} \frac{1}{V} \frac{C F_{i}}{\left(1 + y / k\right)^{k \cdot t i}} \frac{1}{\left(1 + y / k\right)}
 $$
 
 This can be written as
 
 $$
-\operatorname {M o d} D = \sum_ {i = 1} ^ {n} t _ {i} \frac {P V _ {i}}{V} \frac {1}{(1 + y / k)}
+\operatorname{Mo d} D = \sum_{i = 1}^{n} t_{i} \frac{P V_{i}}{V} \frac{1}{(1 + y / k)}
 $$
 
 which gives the oft-quoted relation:
 
 $$
-\operatorname {M o d} D = \frac {\operatorname {M a c D}}{(1 + y / k)} \tag {3}
+\operatorname{Mo d} D = \frac{\operatorname{Ma cD}}{(1 + y / k)} \tag {3}
 $$
 
 It is vitally important to remember, however, that this expresses a relationship between the values of modified and Macaulay duration (for fixed cash flow instruments such as bonds) but that the two measures are conceptually distinct in spite of sharing the name. Macaulay duration is a measure of time, denoted in years. Modified duration is a rate of change, percentage change in price per unit change in yield. Macaulay duration is limited in application to instruments with fixed cash flows (such as standard bonds) while modified duration can be applied to more general fixed-income instruments such as options. When we turn to DV01 we calculate the dollar (rather than percentage) change in price with respect to yield:
 
 $$
-D V O I = - \frac {d V}{d y} \tag {4}
+D V O I = - \frac{d V}{d y} \tag {4}
 $$
 
 DV01 is also called dollar duration, BPV (basis point value), or PV01 (present value of an 01, although PV01 more accurately refers to the value of a one dollar or one basis point annuity). The relation between DV01 and modified duration is:
 
 $$
-\operatorname {M o d} D = 1 0 0 \cdot \frac {D V 0 1}{V} \quad D V 0 1 = \frac {\operatorname {M o d} D \cdot V}{1 0 0} \tag {5}
+\operatorname{Mo d} D = 1 0 0 \cdot \frac{D V 0 1}{V} \quad D V 0 1 = \frac{\operatorname{Mo d} D \cdot V}{1 0 0} \tag {5}
 $$
 
 The concepts of duration and DV01 become more concrete if we focus on specific examples. Consider a two year and a ten year bond, together with two and ten year annuities and zero bonds. Table 1 shows these bonds, together with assumed prices and yields.
@@ -178,7 +178,7 @@ DV01 is the dollar change for a \$100 notional instrument per 100bp change in yi
 The DV01 is the change in price per change in yield. It can be calculated (to a good approximation) by bumping yield up and down and taking the difference; i.e. calculating a numerical derivative. For example the ten year bond has a yield-to-maturity of  $3.50\%$  and is priced at 100. At 10bp higher and lower the yields are  $3.6\%$  and  $3.4\%$  and the prices are 99.1664 and 100.8417. The DV01 is approximately:
 
 $$
-D V O I _ {1 0 \mathrm {y r} \text {b o n d}} = \frac {1 0 0 . 8 4 1 7 - 9 9 . 1 6 6 4}{3 . 6 - 3 . 4} = 8. 3 8
+D V O I_{1 0 \mathrm{yr} \text{bo nd}} = \frac{1 0 0 . 8 4 1 7 - 9 9 . 1 6 6 4}{3 . 6 - 3 . 4} = 8. 3 8
 $$
 
 The modified duration can be calculated from the DV01 using the relation in (5). The Macaulay duration can then be calculated using the relation (3) or the original definition (2). For the table above, and in most practical applications, it proves easier to calculate a numerical derivative approximations to either DV01 or modified duration (1 or 4) and then use the relations (3) and (5) to derive the other measures.
@@ -213,11 +213,11 @@ When a collection of bonds or other fixed-income instruments is valued off a com
 The most constructive way to think of a yield curve is as a function that provides the discount factor for any day - for our the bonds discussed above we would want the discount factor for any date from today out to 10 years in the future. It is particularly convenient to work with the forward curve  $f(t)$ , where  $t$  is the maturity measured in years from today and  $f(.)$  is the instantaneous forward rate. Alternatively we could work the zero-coupon yield curve  $z(t)$ , or discount curve  $d(t)$ , but the three are related and so the choice becomes one of convenience. When we express rates continuously-compounded, the relations between the forward, zero, and discount curve are:
 
 $$
-z (t) = \frac {\int_ {0} ^ {t} f (u) d u}{t}
+z (t) = \frac{\int_{0}^{t} f (u) d u}{t}
 $$
 
 $$
-d (t) = \exp [ - z (t) \cdot t ] = \exp \left[ - \int_ {0} ^ {t} f (u) d u \right].
+d (t) = \exp [ - z (t) \cdot t ] = \exp \left[ - \int_{0}^{t} f (u) d u \right].
 $$
 
 In what follows I will often use the terms forward curve, yield curve, and zero curve interchangeably; since we can always translate between the forward, zero, and discount functions this casual terminology should be acceptable.
@@ -239,13 +239,13 @@ In other words these are the current-market par swap rates. We can now build a f
 As an example of a functional form we can assume that instantaneous forward rates are constant between instrument maturity points (break points or knot points) and that the forward rates jump at maturity points. In this case the variables  $(\nu_{1} \cdots \nu_{k})$  are the forward rates between knot points. (This is, in fact, a practical and useful forward curve often used by market practitioners, but it is only one among many.) Functionally, this is a piece-wise constant function:
 
 $$
-\left\{ \begin{array}{l l} f 1 & 0 \leq t \& \& t <   1 \\ f 2 & 1 \leq t \& \& t <   2 \\ f 3 & 2 \leq t \& \& t <   5 \\ f 4 & 5 \leq t \& \& t <   1 0 \\ 0 & \text {T r u e} \end{array} \right.
+\left\{ \begin{array}{l l} f 1 & 0 \leq t \& \& t <   1 \\ f 2 & 1 \leq t \& \& t <   2 \\ f 3 & 2 \leq t \& \& t <   5 \\ f 4 & 5 \leq t \& \& t <   1 0 \\ 0 & \text{Tr ue} \end{array} \right.
 $$
 
 If we choose the forward rates to match the market data given in table 2, we get:
 
 $$
-\left[ \begin{array}{l l} 0. 0 1 9 9 & 0 \leq t \& \& t <   1 \\ 0. 0 2 9 9 & 1 \leq t \& \& t <   2 \\ 0. 0 3 3 3 & 2 \leq t \& \& t <   5 \\ 0. 0 4 0 6 & 5 \leq t \& \& t <   1 0 \\ 0 & \text {T r u e} \end{array} \right.
+\left[ \begin{array}{l l} 0. 0 1 9 9 & 0 \leq t \& \& t <   1 \\ 0. 0 2 9 9 & 1 \leq t \& \& t <   2 \\ 0. 0 3 3 3 & 2 \leq t \& \& t <   5 \\ 0. 0 4 0 6 & 5 \leq t \& \& t <   1 0 \\ 0 & \text{Tr ue} \end{array} \right.
 $$
 
 and graphically the forward function is a step function:
@@ -284,13 +284,13 @@ When we use a yield curve to value a set of fixed income instruments rather than
 Once we have a forward curve as a function of the variables  $(\nu_{1} \cdots \nu_{k})$  it is straightforward to calculate the partial derivatives (delta risk or DV01) with respect to these curve variables or parameters. As a practical matter we might do this by simply bumping the variables up and down and taking a numerical derivative, as we did above for the DV01 with a single yield-to-maturity. Say we have a portfolio consisting of  $n$  instruments or positions. The prices or PVs of these instruments will be functions of the curve variables  $(\nu_{1} \cdots \nu_{k})$  represented by the vector
 
 $$
-\text {P r i c e s} = \left( \begin{array}{c} P _ {1} \\ \vdots \\ P _ {n} \end{array} \right) = \left( \begin{array}{c c c} P _ {1} (v _ {1} & \dots & v _ {k}) \\ & \vdots \\ P _ {n} (v _ {1} & \dots & v _ {k}) \end{array} \right)
+\text{Pr ic es} = \left( \begin{array}{c} P_{1} \\ \vdots \\ P_{n} \end{array} \right) = \left( \begin{array}{c c c} P_{1} (v_{1} & \dots & v_{k}) \\ & \vdots \\ P_{n} (v_{1} & \dots & v_{k}) \end{array} \right)
 $$
 
 and the matrix of partial derivatives will be:
 
 $$
-\mathrm {D p D v} = \text {p a r t i a l} w. r. t. \text {c u r v e} \quad \text {v a r i a b l e s} = \left( \begin{array}{l l l} \frac {\partial P _ {1}}{\partial v _ {1}} & \dots & \frac {\partial P _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial v _ {1}} & \dots & \frac {\partial P _ {n}}{\partial v _ {k}} \end{array} \right) \tag {6}
+\mathrm{Dp Dv} = \text{pa rt ia l} w. r. t. \text{cu rv e} \quad \text{va ri ab le s} = \left( \begin{array}{l l l} \frac{\partial P_{1}}{\partial v_{1}} & \dots & \frac{\partial P_{1}}{\partial v_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial P_{n}}{\partial v_{1}} & \dots & \frac{\partial P_{n}}{\partial v_{k}} \end{array} \right) \tag {6}
 $$
 
 For the piece-wise forward curve we are using, the curve variables are forward rates and the partial DV01s will be with respect to forward rates. For the sample market yield curve shown in table 3 the forward rate partial DV01s for selected instruments will be:
@@ -310,7 +310,7 @@ There are a variety of reasons we may be interested in risk calculated w.r.t. al
 Turning to the bumping of curve input, if the  $k$  curve input rates are  $(r_1 \cdots r_k)$  then the matrix of partial derivatives is:
 
 $$
-\mathrm {D p D r} = \text {D e r i v a t i v e o f p r i c e s w . r . t . c u r v e i n p u t r a t e s} = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial r _ {1}} & \dots & \frac {\partial P _ {1}}{\partial r _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial r _ {1}} & \dots & \frac {\partial P _ {n}}{\partial r _ {k}} \end{array} \right) \tag {7}
+\mathrm{Dp Dr} = \text{De ri va ti ve of pr ic es w .r .t .c ur ve in pu tr at es} = \left( \begin{array}{c c c} \frac{\partial P_{1}}{\partial r_{1}} & \dots & \frac{\partial P_{1}}{\partial r_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial P_{n}}{\partial r_{1}} & \dots & \frac{\partial P_{n}}{\partial r_{k}} \end{array} \right) \tag {7}
 $$
 
 For our hypothetical market yield curve and the instruments shown in table 3, the risk will be w.r.t. the 1 year par rate, the 1-2 year forward par rate, the 5 year and 10 year par rates. This is shown in table 4.
@@ -334,41 +334,41 @@ We now describe a straight-forward method to calculate derivatives w.r.t. altern
 Consider  $k$  alternate variables  $(x_{1} \cdots x_{k})$ . Assume for now that these alternate variables are themselves the yields or rates we want to use for calculating partial DV01s and that we can calculate these as a function of the forward curve:
 
 $$
-\text {A l t e r n a t e} = \left( \begin{array}{c} x _ {1} \\ \vdots \\ x _ {k} \end{array} \right) = \left( \begin{array}{c c c} x _ {1} (v _ {1} & \dots & v _ {k}) \\ & \vdots \\ x _ {k} (v _ {1} & \dots & v _ {k}) \end{array} \right) \tag {8}
+\text{Al te rn at e} = \left( \begin{array}{c} x_{1} \\ \vdots \\ x_{k} \end{array} \right) = \left( \begin{array}{c c c} x_{1} (v_{1} & \dots & v_{k}) \\ & \vdots \\ x_{k} (v_{1} & \dots & v_{k}) \end{array} \right) \tag {8}
 $$
 
 If we have the same number of variables  $(x_{1} \cdots x_{k})$  as curve variables  $(v_{1} \cdots v_{k})$  then we can calculate the derivatives of these alternate variables w.r.t. the curve variables and this will be the Jacobian matrix for the function (8):
 
 $$
-\mathrm {D x D v} = \text {J a c o b i a n f o r C u r v e} \rightarrow \text {A l t e r n a t e V a r i a b l e s} = \left(\begin{array}{c c c}\frac {\partial x _ {1}}{\partial v _ {1}}&\dots&\frac {\partial x _ {1}}{\partial v _ {k}}\\\vdots&\ddots&\vdots\\\frac {\partial x _ {k}}{\partial v _ {1}}&\dots&\frac {\partial x _ {k}}{\partial v _ {k}}\end{array}\right) \tag {9}
+\mathrm{Dx Dv} = \text{Ja co bi an fo rC ur ve} \rightarrow \text{Al te rn at eV ar ia bl es} = \left(\begin{array}{c c c}\frac{\partial x_{1}}{\partial v_{1}}&\dots&\frac{\partial x_{1}}{\partial v_{k}}\\\vdots&\ddots&\vdots\\\frac{\partial x_{k}}{\partial v_{1}}&\dots&\frac{\partial x_{k}}{\partial v_{k}}\end{array}\right) \tag {9}
 $$
 
 If this Jacobian is non-singular, then the inverse function theorem tells us that there is an inverse function
 
 $$
-\left( \begin{array}{c} v _ {1} \\ \vdots \\ v _ {k} \end{array} \right) = \left( \begin{array}{c c c} v _ {1} (x _ {1} & \dots & x _ {k}) \\ & \vdots \\ v _ {k} (x _ {1} & \dots & x _ {k}) \end{array} \right)
+\left( \begin{array}{c} v_{1} \\ \vdots \\ v_{k} \end{array} \right) = \left( \begin{array}{c c c} v_{1} (x_{1} & \dots & x_{k}) \\ & \vdots \\ v_{k} (x_{1} & \dots & x_{k}) \end{array} \right)
 $$
 
 and the Jacobian of this function is
 
 $$
-\text {I n v e r s e J a c o b i a n} = \mathrm {D v D x} = \left( \begin{array}{c c c} \frac {\partial v _ {1}}{\partial x _ {1}} & \dots & \frac {\partial v _ {1}}{\partial x _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial v _ {k}}{\partial x _ {1}} & \dots & \frac {\partial v _ {k}}{\partial x _ {k}} \end{array} \right) = \left( \begin{array}{c c c} \frac {\partial x _ {1}}{\partial v _ {1}} & \dots & \frac {\partial x _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial x _ {k}}{\partial v _ {1}} & \dots & \frac {\partial x _ {k}}{\partial v _ {k}} \end{array} \right) ^ {- 1} \tag {10}
+\text{In ve rs eJ ac ob ia n} = \mathrm{Dv Dx} = \left( \begin{array}{c c c} \frac{\partial v_{1}}{\partial x_{1}} & \dots & \frac{\partial v_{1}}{\partial x_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial v_{k}}{\partial x_{1}} & \dots & \frac{\partial v_{k}}{\partial x_{k}} \end{array} \right) = \left( \begin{array}{c c c} \frac{\partial x_{1}}{\partial v_{1}} & \dots & \frac{\partial x_{1}}{\partial v_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial x_{k}}{\partial v_{1}} & \dots & \frac{\partial x_{k}}{\partial v_{k}} \end{array} \right)^{- 1} \tag {10}
 $$
 
 Using the Jacobian of the inverse function we can transform the derivatives w.r.t. curve variables to derivatives w.r.t. the new variables. Consider the first row of equation 6:
 
 $$
-\text {D e r i v a t i v e} P _ {1} w. r. t. \text {A l t e r n a t e V a r i a b l e s} =
+\text{De ri va ti ve} P_{1} w. r. t. \text{Al te rn at eV ar ia bl es} =
 $$
 
 $$
-\left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial x _ {1}} & \dots & \frac {\partial P _ {1}}{\partial x _ {k}} \end{array} \right) = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial v _ {1}} & \dots & \frac {\partial P _ {1}}{\partial v _ {k}} \end{array} \right) \cdot \left( \begin{array}{c c c} \frac {\partial v _ {1}}{\partial x _ {1}} & \dots & \frac {\partial v _ {1}}{\partial x _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial v _ {k}}{\partial x _ {1}} & \dots & \frac {\partial v _ {k}}{\partial x _ {k}} \end{array} \right) = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial v _ {1}} & \dots & \frac {\partial P _ {1}}{\partial v _ {k}} \end{array} \right) \cdot \left( \begin{array}{c c c} \frac {\partial x _ {1}}{\partial v _ {1}} & \dots & \frac {\partial x _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial x _ {k}}{\partial v _ {1}} & \dots & \frac {\partial x _ {k}}{\partial v _ {k}} \end{array} \right) ^ {- 1}
+\left( \begin{array}{c c c} \frac{\partial P_{1}}{\partial x_{1}} & \dots & \frac{\partial P_{1}}{\partial x_{k}} \end{array} \right) = \left( \begin{array}{c c c} \frac{\partial P_{1}}{\partial v_{1}} & \dots & \frac{\partial P_{1}}{\partial v_{k}} \end{array} \right) \cdot \left( \begin{array}{c c c} \frac{\partial v_{1}}{\partial x_{1}} & \dots & \frac{\partial v_{1}}{\partial x_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial v_{k}}{\partial x_{1}} & \dots & \frac{\partial v_{k}}{\partial x_{k}} \end{array} \right) = \left( \begin{array}{c c c} \frac{\partial P_{1}}{\partial v_{1}} & \dots & \frac{\partial P_{1}}{\partial v_{k}} \end{array} \right) \cdot \left( \begin{array}{c c c} \frac{\partial x_{1}}{\partial v_{1}} & \dots & \frac{\partial x_{1}}{\partial v_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial x_{k}}{\partial v_{1}} & \dots & \frac{\partial x_{k}}{\partial v_{k}} \end{array} \right)^{- 1}
 $$
 
 so that the full matrix is:
 
 $$
-\begin{array}{l} \mathrm {D p D x} = \text {P a r t i a l} w. r. t. \text {A l t e r n a t e V a r i a b l e s} = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial x _ {1}} & \dots & \frac {\partial P _ {1}}{\partial x _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial x _ {1}} & \dots & \frac {\partial P _ {n}}{\partial x _ {k}} \end{array} \right) = \mathrm {D p D v}. \mathrm {D v D x} \tag {11} \\ = \text {D e r i v a t i v e} w. r. t. \text {C u r v e V a r i a b l e s} * \text {I n v e r s e J a c o b i a n} = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial v _ {1}} & \dots & \frac {\partial P _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial v _ {1}} & \dots & \frac {\partial P _ {n}}{\partial v _ {k}} \end{array} \right) \cdot \left( \begin{array}{c c c} \frac {\partial x _ {1}}{\partial v _ {1}} & \dots & \frac {\partial x _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial x _ {k}}{\partial v _ {1}} & \dots & \frac {\partial x _ {k}}{\partial v _ {k}} \end{array} \right) ^ {- 1} \\ \end{array}
+\begin{array}{l} \mathrm{Dp Dx} = \text{Pa rt ia l} w. r. t. \text{Al te rn at eV ar ia bl es} = \left( \begin{array}{c c c} \frac{\partial P_{1}}{\partial x_{1}} & \dots & \frac{\partial P_{1}}{\partial x_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial P_{n}}{\partial x_{1}} & \dots & \frac{\partial P_{n}}{\partial x_{k}} \end{array} \right) = \mathrm{Dp Dv}. \mathrm{Dv Dx} \tag {11} \\ = \text{De ri va ti ve} w. r. t. \text{Cu rv eV ar ia bl es} * \text{In ve rs eJ ac ob ia n} = \left( \begin{array}{c c c} \frac{\partial P_{1}}{\partial v_{1}} & \dots & \frac{\partial P_{1}}{\partial v_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial P_{n}}{\partial v_{1}} & \dots & \frac{\partial P_{n}}{\partial v_{k}} \end{array} \right) \cdot \left( \begin{array}{c c c} \frac{\partial x_{1}}{\partial v_{1}} & \dots & \frac{\partial x_{1}}{\partial v_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial x_{k}}{\partial v_{1}} & \dots & \frac{\partial x_{k}}{\partial v_{k}} \end{array} \right)^{- 1} \\ \end{array}
 $$
 
 # Partial DV01 w.r.t. Yield
@@ -378,29 +378,29 @@ If the variables  $(x_{1} \cdots x_{k})$  are the yields or rates we want, and o
 The solution to this is simple. For each instrument we have a function that gives the yield as a function of the price, and equation (8) is replaced by:
 
 $$
-\left( \begin{array}{c} y _ {1} \\ \vdots \\ y _ {k} \end{array} \right) = \left( \begin{array}{c c c} y _ {1} (\nu_ {1} & \dots & v _ {k}) \\ & \vdots \\ y _ {k} (\nu_ {1} & \dots & v _ {k}) \end{array} \right) = \left( \begin{array}{c} f _ {1} (x _ {1}) \\ \vdots \\ f _ {k} (x _ {k}) \end{array} \right) = \left( \begin{array}{c} f _ {1} [ x _ {1} (\nu_ {1} & \dots & v _ {k}) ] \\ & \vdots \\ f _ {k} [ x _ {k} (\nu_ {1} & \dots & v _ {k}) ] \end{array} \right) \tag {12}
+\left( \begin{array}{c} y_{1} \\ \vdots \\ y_{k} \end{array} \right) = \left( \begin{array}{c c c} y_{1} (\nu_{1} & \dots & v_{k}) \\ & \vdots \\ y_{k} (\nu_{1} & \dots & v_{k}) \end{array} \right) = \left( \begin{array}{c} f_{1} (x_{1}) \\ \vdots \\ f_{k} (x_{k}) \end{array} \right) = \left( \begin{array}{c} f_{1} [ x_{1} (\nu_{1} & \dots & v_{k}) ] \\ & \vdots \\ f_{k} [ x_{k} (\nu_{1} & \dots & v_{k}) ] \end{array} \right) \tag {12}
 $$
 
 Using the uni-variate inverse function theorem we can calculate  $f_{i}$  as one over the derivative of price w.r.t. yield (the basic DV01):
 
 $$
-f _ {i} ^ {\prime} = \left( \begin{array}{c} d x _ {1} \\ \hline d y _ {1} \end{array} \right) ^ {- 1}
+f_{i}^{\prime} = \left( \begin{array}{c} d x_{1} \\ \hline d y_{1} \end{array} \right)^{- 1}
 $$
 
 and by application of the uni-variate inverse function theorem and the chain rule, we can get the inverse Jacobian for these yield variables:
 
 $$
-\text {I n v e r s e J a c o b i a n} = \mathrm {D v D y} = \left( \begin{array}{c c c} \frac {\partial v _ {1}}{\partial y _ {1}} & \dots & \frac {\partial v _ {1}}{\partial y _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial v _ {k}}{\partial y _ {1}} & \dots & \frac {\partial v _ {k}}{\partial y _ {k}} \end{array} \right) = \left( \begin{array}{c c c} \left(\frac {d x _ {1}}{d y _ {1}}\right) ^ {- 1} \frac {\partial x _ {1}}{\partial v _ {1}} & \dots & \left(\frac {d x _ {1}}{d y _ {1}}\right) ^ {- 1} \frac {\partial x _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \left(\frac {d x _ {k}}{d y _ {k}}\right) ^ {- 1} \frac {\partial x _ {k}}{\partial v _ {1}} & \dots & \left(\frac {d x _ {k}}{d y _ {k}}\right) ^ {- 1} \frac {\partial x _ {k}}{\partial v _ {k}} \end{array} \right) ^ {- 1} \tag {13}
+\text{In ve rs eJ ac ob ia n} = \mathrm{Dv Dy} = \left( \begin{array}{c c c} \frac{\partial v_{1}}{\partial y_{1}} & \dots & \frac{\partial v_{1}}{\partial y_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial v_{k}}{\partial y_{1}} & \dots & \frac{\partial v_{k}}{\partial y_{k}} \end{array} \right) = \left( \begin{array}{c c c} \left(\frac{d x_{1}}{d y_{1}}\right)^{- 1} \frac{\partial x_{1}}{\partial v_{1}} & \dots & \left(\frac{d x_{1}}{d y_{1}}\right)^{- 1} \frac{\partial x_{1}}{\partial v_{k}} \\ \vdots & \ddots & \vdots \\ \left(\frac{d x_{k}}{d y_{k}}\right)^{- 1} \frac{\partial x_{k}}{\partial v_{1}} & \dots & \left(\frac{d x_{k}}{d y_{k}}\right)^{- 1} \frac{\partial x_{k}}{\partial v_{k}} \end{array} \right)^{- 1} \tag {13}
 $$
 
 The transformation (11) now becomes
 
 $$
-\mathrm {D p D y} = \text {P a t i a l} w. r. t. \text {A l t e r n a t e}
+\mathrm{Dp Dy} = \text{Pa ti al} w. r. t. \text{Al te rn at e}
 $$
 
 $$
-\mathrm {D p D v} \cdot \mathrm {D v D y} = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial y _ {1}} & \dots & \frac {\partial P _ {1}}{\partial y _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial y _ {1}} & \dots & \frac {\partial P _ {n}}{\partial y _ {k}} \end{array} \right) = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial v _ {1}} & \dots & \frac {\partial P _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial v _ {1}} & \dots & \frac {\partial P _ {n}}{\partial v _ {k}} \end{array} \right) \cdot \left( \begin{array}{c c c} \left(\frac {d x _ {1}}{d y _ {1}}\right) ^ {- 1} \frac {\partial x _ {1}}{\partial v _ {1}} & \dots & \left(\frac {d x _ {1}}{d y _ {1}}\right) ^ {- 1} \frac {\partial x _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \left(\frac {d x _ {k}}{d y _ {k}}\right) ^ {- 1} \frac {\partial x _ {k}}{\partial v _ {1}} & \dots & \left(\frac {d x _ {k}}{d y _ {k}}\right) ^ {- 1} \frac {\partial x _ {k}}{\partial v _ {k}} \end{array} \right) ^ {- 1} \tag {14}
+\mathrm{Dp Dv} \cdot \mathrm{Dv Dy} = \left( \begin{array}{c c c} \frac{\partial P_{1}}{\partial y_{1}} & \dots & \frac{\partial P_{1}}{\partial y_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial P_{n}}{\partial y_{1}} & \dots & \frac{\partial P_{n}}{\partial y_{k}} \end{array} \right) = \left( \begin{array}{c c c} \frac{\partial P_{1}}{\partial v_{1}} & \dots & \frac{\partial P_{1}}{\partial v_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial P_{n}}{\partial v_{1}} & \dots & \frac{\partial P_{n}}{\partial v_{k}} \end{array} \right) \cdot \left( \begin{array}{c c c} \left(\frac{d x_{1}}{d y_{1}}\right)^{- 1} \frac{\partial x_{1}}{\partial v_{1}} & \dots & \left(\frac{d x_{1}}{d y_{1}}\right)^{- 1} \frac{\partial x_{1}}{\partial v_{k}} \\ \vdots & \ddots & \vdots \\ \left(\frac{d x_{k}}{d y_{k}}\right)^{- 1} \frac{\partial x_{k}}{\partial v_{1}} & \dots & \left(\frac{d x_{k}}{d y_{k}}\right)^{- 1} \frac{\partial x_{k}}{\partial v_{k}} \end{array} \right)^{- 1} \tag {14}
 $$
 
 The whole idea here is that it is generally easy to calculate the Jacobian (9) for price functions. As long as the alternate variables we wish to use are yields for traded instruments we have a simple multi-step process
@@ -457,19 +457,19 @@ DV01s are reported as dollar change for a \$100 notional instrument per 100bp ch
 There is a subtle issue concerning DV01 w.r.t. yields versus DV01 w.r.t. par rates as shown in tables 8 and 10. For a bond the price is
 
 $$
-P r i c e = c o u p o n * \mathrm {P V} (\text {S l a n n u i t y}) + 1 0 0 * \mathrm {P V} (\text {S l a t m a t u r i t y})
+P r i c e = c o u p o n * \mathrm{PV} (\text{Sl an nu it y}) + 1 0 0 * \mathrm{PV} (\text{Sl at ma tu ri ty})
 $$
 
 with the PVs calculated from the forward curve. The par coupon or par rate is the coupon that makes the price equal to par (100):
 
 $$
-p a r c o u p o n = r = \frac {1 0 0 - \mathrm {P V} (\mathbb {S} 1 0 0 \text {a t m a t u r i t y})}{\mathrm {P V} (\mathbb {S} 1 \text {a n n u i t y})} \tag {15}
+p a r c o u p o n = r = \frac{1 0 0 - \mathrm{PV} (\mathbb {S} 1 0 0 \text{at ma tu ri ty})}{\mathrm{PV} (\mathbb {S} 1 \text{an nu it y})} \tag {15}
 $$
 
 The yield-to-maturity is the solution to:
 
 $$
-P r i c e = \sum_ {i = 1} ^ {n} \frac {\text {c o u p o n}}{(1 + y) ^ {i}} + \frac {1 0 0}{(1 + y) ^ {n}}
+P r i c e = \sum_{i = 1}^{n} \frac{\text{co up on}}{(1 + y)^{i}} + \frac{1 0 0}{(1 + y)^{n}}
 $$
 
 (ignoring for now complications related to partial periods, compounding frequency, etc.). The yield on a par bond  $(Price = 100)$  will equal the par coupon.
@@ -477,7 +477,7 @@ $$
 In building a swap curve we will use par swaps and we will often measure risk w.r.t. the par swap rates. That is what we did in tables 7 and 9 above. But we can also think of the "yield" of a swap - more precisely the yield of a bond with the same fixed coupons and a final repayment of principal. The par yield will be the same as the par coupon (by definition) but the risk w.r.t. the par yield will not be quite the same as the risk w.r.t. the par coupon. The reason is that the derivative of the coupon and yield w.r.t. curve variables are different:
 
 $$
-\frac {\partial \text {p a r c o u p o n}}{\partial v _ {i}} \neq \frac {\partial \text {p a r y i e l d}}{\partial v _ {i}}
+\frac{\partial \text{pa rc ou po n}}{\partial v_{i}} \neq \frac{\partial \text{pa ry ie ld}}{\partial v_{i}}
 $$
 
 except for a flat yield curve. The difference arises because the yield calculation assumes a flat yield curve, while the par coupon calculation in equation (15) uses the forward curve.
@@ -503,7 +503,7 @@ DV01s are reported as dollar change for a \$100 notional instrument per 100bp ch
 If we wish to calculate the risk w.r.t. par rates rather than yields we can employ equation (15) to get the derivative of the par coupon from price derivatives of instruments:
 
 $$
-\frac {\partial \text {p a r c o u p o n}}{\partial v _ {i}} = - \left[ \frac {\partial \mathrm {P V} (\$ 1 0 0 \text {a t m a t u r i t y})}{\partial v _ {i}} + r \cdot \frac {\partial \mathrm {P V} (\$ 1 \text {a n n u i t y})}{\partial v _ {i}} \right] / \mathrm {P V} (\$ 1 \text {a n n u i t y})
+\frac{\partial \text{pa rc ou po n}}{\partial v_{i}} = - \left[ \frac{\partial \mathrm{PV} (\$ 1 0 0 \text{at ma tu ri ty})}{\partial v_{i}} + r \cdot \frac{\partial \mathrm{PV} (\$ 1 \text{an nu it y})}{\partial v_{i}} \right] / \mathrm{PV} (\$ 1 \text{an nu it y})
 $$
 
 # Example of Partial DV01 w.r.t. Zero Yields
@@ -539,19 +539,19 @@ The partial DV01s can be summed to give a total DV01, and this is displayed in t
 The fact is that a parallel shift in one set of rates is not always parallel in another set of rates. It will be the same when the yield curve is flat and all rates use the same compounding, or if we work with zero and forward rates in the same compounding basis. When we work with a sloped curve and par rates or yields (i.e. instruments with intermediate coupons) a parallel shift in one set of rates will not be parallel in another. This is easiest to see using a simple example with forward rates and yields on par bonds. Say the 0-5 year forward rate is flat at  $10.00\% \mathrm{sb}$  or  $9.7580\% \mathrm{cc}$ . If rates are not in the same basis then a 1bp change in the continuously-compounded forward translates into a 1.05bp change in the sab par rate (since  $\frac{dy_s}{dy_c} = e^{y_c / 2}$ ), not a 1bp change in the par rate. When the forward rate is quoted semi-annual bond (rate of  $2\%$ ) then a 1bp sab change in the forward does translate into a 1bp sab change in the par. But this will not carry out to longer maturities unless the curve is flat. If the 5-10 year forward is  $20\%$  sab (the 10 year par  $13.2819\% \mathrm{Sab}$ ) then a 1bp sab change in the forwards ( $10\%$  and  $20\%$  to  $10.01\%$  and  $20.01\%$ ) translate into a 0.95bp change in the 10 year par yield (from  $13.2819\%$  to  $13.2914\%$ ). In other words, a 1bp "parallel" shift in sab forwards translates into a non-parallel shift in sab pars:
 
 $$
-\Delta \left( \begin{array}{c} 0 - 5 \text {y r f w d} \\ 5 - 1 0 \text {y r f w d} \end{array} \right) = \left( \begin{array}{c} 1 \text {b p} \\ 1 \text {b p} \end{array} \right) \longleftrightarrow \Delta \left( \begin{array}{c} 5 \text {y r p a r} \\ 1 0 \text {y r p a r} \end{array} \right) = \left( \begin{array}{c} 1 \text {b p} \\ 0. 9 5 \text {b p} \end{array} \right)
+\Delta \left( \begin{array}{c} 0 - 5 \text{yr fw d} \\ 5 - 1 0 \text{yr fw d} \end{array} \right) = \left( \begin{array}{c} 1 \text{bp} \\ 1 \text{bp} \end{array} \right) \longleftrightarrow \Delta \left( \begin{array}{c} 5 \text{yr pa r} \\ 1 0 \text{yr pa r} \end{array} \right) = \left( \begin{array}{c} 1 \text{bp} \\ 0. 9 5 \text{bp} \end{array} \right)
 $$
 
 Fortunately the Jacobian and inverse Jacobian contain the information on how yields shift and the translation from one "parallel shift" to another. Say we are transforming from the original cc forward rates,  $(\nu_{1} \cdots \nu_{k})$ , to par yields,  $(y_{1} \cdots y_{k})$ . Taking the Jacobian and post-multiplying by a column vector of ones gives the change in  $\{y_{i}\}$  corresponding to a parallel shift (one unit) in all the  $\{\nu_{i}\}$ :
 
 $$
-\text {C h a n g e i n} \left\{y _ {i} \right\} \text {d u e t o p a r a l l e l s h i f t i n} \left\{v _ {i} \right\} = \left( \begin{array}{c c c} \frac {\partial y _ {1}}{\partial v _ {1}} & \dots & \frac {\partial y _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial y _ {k}}{\partial v _ {1}} & \dots & \frac {\partial y _ {k}}{\partial v _ {k}} \end{array} \right) \cdot \left( \begin{array}{c} 1 \\ \vdots \\ 1 \end{array} \right)
+\text{Ch an ge in} \left\{y_{i} \right\} \text{du et op ar al le ls hi ft in} \left\{v_{i} \right\} = \left( \begin{array}{c c c} \frac{\partial y_{1}}{\partial v_{1}} & \dots & \frac{\partial y_{1}}{\partial v_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial y_{k}}{\partial v_{1}} & \dots & \frac{\partial y_{k}}{\partial v_{k}} \end{array} \right) \cdot \left( \begin{array}{c} 1 \\ \vdots \\ 1 \end{array} \right)
 $$
 
 while starting with the inverse Jacobian and post-multiplying gives the change in  $\{\nu_{i}\}$  corresponding to a parallel shift (one unit) in all the  $\{y_{i}\}$ :
 
 $$
-\text {C h a n g e i n} \left\{\nu_ {i} \right\} \text {d u e t o p a r a l l e l s h i f t i n} \left\{y _ {i} \right\} = \left( \begin{array}{c c c} \frac {\partial v _ {1}}{\partial y _ {1}} & \dots & \frac {\partial v _ {1}}{\partial y _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial v _ {k}}{\partial y _ {1}} & \dots & \frac {\partial v _ {k}}{\partial y _ {k}} \end{array} \right) \cdot \left( \begin{array}{c} 1 \\ \vdots \\ 1 \end{array} \right)
+\text{Ch an ge in} \left\{\nu_{i} \right\} \text{du et op ar al le ls hi ft in} \left\{y_{i} \right\} = \left( \begin{array}{c c c} \frac{\partial v_{1}}{\partial y_{1}} & \dots & \frac{\partial v_{1}}{\partial y_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial v_{k}}{\partial y_{1}} & \dots & \frac{\partial v_{k}}{\partial y_{k}} \end{array} \right) \cdot \left( \begin{array}{c} 1 \\ \vdots \\ 1 \end{array} \right)
 $$
 
 Consider again table 12. The original variables  $(\nu_{1} \cdots \nu_{k})$  are forward rates continuously-compounded while the alternate yields  $(y_{1} \cdots y_{k})$  are par yield semi-annually compounded. The change in the par yields due to a parallel shift in forwards and vice-versa are:
@@ -609,17 +609,17 @@ Rather than re-build a new curve and revalue the complete portfolio using this n
 What we need is a matrix to transform from old variables to new variables:
 
 $$
-\mathrm {D v D v} ^ {*} = \text {M a t r i x f o r R e d u c e d} \rightarrow \text {C u r v e V a r i a b l e s} = \left(\begin{array}{c c c}\frac {\partial v _ {1}}{\partial v _ {1} ^ {*}}&\dots&\frac {\partial v _ {1}}{\partial v _ {j} ^ {*}}\\\vdots&\ddots&\vdots\\\frac {\partial v _ {k}}{\partial v _ {1} ^ {*}}&\dots&\frac {\partial v _ {k}}{\partial v _ {j} ^ {*}}\end{array}\right) \tag {16}
+\mathrm{Dv Dv}^{*} = \text{Ma tr ix fo rR ed uc ed} \rightarrow \text{Cu rv eV ar ia bl es} = \left(\begin{array}{c c c}\frac{\partial v_{1}}{\partial v_{1}^{*}}&\dots&\frac{\partial v_{1}}{\partial v_{j}^{*}}\\\vdots&\ddots&\vdots\\\frac{\partial v_{k}}{\partial v_{1}^{*}}&\dots&\frac{\partial v_{k}}{\partial v_{j}^{*}}\end{array}\right) \tag {16}
 $$
 
 If we had this matrix, we could simply write
 
 $$
-\mathrm {D p D v} ^ {*} = \text {P a r t i a l D V 0 1 w . r . t . R e d u c e d V a r i a b l e s} = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial P _ {1}}{\partial v _ {j} ^ {*}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial P _ {n}}{\partial v _ {j} ^ {*}} \end{array} \right) = \mathrm {D p D v}. \mathrm {D v D v} ^ {*} =
+\mathrm{Dp Dv}^{*} = \text{Pa rt ia lD V0 1w .r .t .R ed uc ed Va ri ab le s} = \left( \begin{array}{c c c} \frac{\partial P_{1}}{\partial v_{1}^{*}} & \dots & \frac{\partial P_{1}}{\partial v_{j}^{*}} \\ \vdots & \ddots & \vdots \\ \frac{\partial P_{n}}{\partial v_{1}^{*}} & \dots & \frac{\partial P_{n}}{\partial v_{j}^{*}} \end{array} \right) = \mathrm{Dp Dv}. \mathrm{Dv Dv}^{*} =
 $$
 
 $$
-\text {D e r i v a t i v e} w. r. t. \text {C u r v e V a r i a b l e s} * \text {R e d u c e d M a t r i x} = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial v _ {1}} & \dots & \frac {\partial P _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial v _ {1}} & \dots & \frac {\partial P _ {n}}{\partial v _ {k}} \end{array} \right) \cdot \left( \begin{array}{c c c} \frac {\partial v _ {1}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial v _ {1}}{\partial v _ {j} ^ {*}} \\ \vdots & \ddots & \vdots \\ \frac {\partial v _ {k}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial v _ {k}}{\partial v _ {j} ^ {*}} \end{array} \right)
+\text{De ri va ti ve} w. r. t. \text{Cu rv eV ar ia bl es} * \text{Re du ce dM at ri x} = \left( \begin{array}{c c c} \frac{\partial P_{1}}{\partial v_{1}} & \dots & \frac{\partial P_{1}}{\partial v_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial P_{n}}{\partial v_{1}} & \dots & \frac{\partial P_{n}}{\partial v_{k}} \end{array} \right) \cdot \left( \begin{array}{c c c} \frac{\partial v_{1}}{\partial v_{1}^{*}} & \dots & \frac{\partial v_{1}}{\partial v_{j}^{*}} \\ \vdots & \ddots & \vdots \\ \frac{\partial v_{k}}{\partial v_{1}^{*}} & \dots & \frac{\partial v_{k}}{\partial v_{j}^{*}} \end{array} \right)
 $$
 
 The transformation matrix (16) cannot be obtained from the original curve. Instead we need to build a new curve, using a reduced set of curve variables. We do not, however, need to revalue the whole portfolio using this new curve. All we need is the matrix of derivatives in equation (16), relating the old and new curve variables. Generally, however, we cannot conveniently calculate (16) directly so we will use a set of "intermediate instruments" that we can value using both the old and new curve.
@@ -627,23 +627,23 @@ The transformation matrix (16) cannot be obtained from the original curve. Inste
 We start with the set of intermediate instruments  $(x_{1} \cdots x_{k})$  for the original curve. First we get the inverse Jacobian (equation 10) by calculating the derivative w.r.t. the original curve variables:
 
 $$
-\mathrm {D v D x} = \left( \begin{array}{c c c} \frac {\partial v _ {1}}{\partial x _ {1}} & \dots & \frac {\partial v _ {1}}{\partial x _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial v _ {k}}{\partial x _ {1}} & \dots & \frac {\partial v _ {k}}{\partial x _ {k}} \end{array} \right) = \left( \begin{array}{c c c} \frac {\partial x _ {1}}{\partial v _ {1}} & \dots & \frac {\partial x _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial x _ {k}}{\partial v _ {1}} & \dots & \frac {\partial x _ {k}}{\partial v _ {k}} \end{array} \right) ^ {- 1}
+\mathrm{Dv Dx} = \left( \begin{array}{c c c} \frac{\partial v_{1}}{\partial x_{1}} & \dots & \frac{\partial v_{1}}{\partial x_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial v_{k}}{\partial x_{1}} & \dots & \frac{\partial v_{k}}{\partial x_{k}} \end{array} \right) = \left( \begin{array}{c c c} \frac{\partial x_{1}}{\partial v_{1}} & \dots & \frac{\partial x_{1}}{\partial v_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial x_{k}}{\partial v_{1}} & \dots & \frac{\partial x_{k}}{\partial v_{k}} \end{array} \right)^{- 1}
 $$
 
 Next we use the new curve and calculate the derivative of these intermediate instruments w.r.t. the new curve variables:
 
 $$
-\mathrm {D x D v} ^ {*} = \left( \begin{array}{c c c} \frac {\partial x _ {1}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial x _ {1}}{\partial v _ {j} ^ {*}} \\ \vdots & \ddots & \vdots \\ \frac {\partial x _ {k}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial x _ {k}}{\partial v _ {j} ^ {*}} \end{array} \right)
+\mathrm{Dx Dv}^{*} = \left( \begin{array}{c c c} \frac{\partial x_{1}}{\partial v_{1}^{*}} & \dots & \frac{\partial x_{1}}{\partial v_{j}^{*}} \\ \vdots & \ddots & \vdots \\ \frac{\partial x_{k}}{\partial v_{1}^{*}} & \dots & \frac{\partial x_{k}}{\partial v_{j}^{*}} \end{array} \right)
 $$
 
 Finally, for the new curve variables  $\left( \begin{array}{ccc}v_{1}^{*} & \dots & v_{j}^{*} \end{array} \right)$  and the new alternate instruments  $\left( \begin{array}{ccc}x_{1}^{*} & \dots & x_{j}^{*} \end{array} \right)$  or their yields  $\left( \begin{array}{ccc}y_{1}^{*} & \dots & y_{j}^{*} \end{array} \right)$  we calculate the inverse Jacobian as in (10) or (13):
 
 $$
-\mathrm {D v} ^ {*} \mathrm {D x} ^ {*} = \left( \begin{array}{c c c} \frac {\partial v _ {1} ^ {*}}{\partial x _ {1} ^ {*}} & \dots & \frac {\partial v _ {1} ^ {*}}{\partial x _ {j} ^ {*}} \\ \vdots & \ddots & \vdots \\ \frac {\partial v _ {j} ^ {*}}{\partial x _ {1} ^ {*}} & \dots & \frac {\partial v _ {j} ^ {*}}{\partial x _ {j} ^ {*}} \end{array} \right) = \left( \begin{array}{c c c} \frac {\partial x _ {1} ^ {*}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial x _ {1} ^ {*}}{\partial v _ {j} ^ {*}} \\ \vdots & \ddots & \vdots \\ \frac {\partial x _ {j} ^ {*}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial x _ {j} ^ {*}}{\partial v _ {j} ^ {*}} \end{array} \right) ^ {- 1}
+\mathrm{Dv}^{*} \mathrm{Dx}^{*} = \left( \begin{array}{c c c} \frac{\partial v_{1}^{*}}{\partial x_{1}^{*}} & \dots & \frac{\partial v_{1}^{*}}{\partial x_{j}^{*}} \\ \vdots & \ddots & \vdots \\ \frac{\partial v_{j}^{*}}{\partial x_{1}^{*}} & \dots & \frac{\partial v_{j}^{*}}{\partial x_{j}^{*}} \end{array} \right) = \left( \begin{array}{c c c} \frac{\partial x_{1}^{*}}{\partial v_{1}^{*}} & \dots & \frac{\partial x_{1}^{*}}{\partial v_{j}^{*}} \\ \vdots & \ddots & \vdots \\ \frac{\partial x_{j}^{*}}{\partial v_{1}^{*}} & \dots & \frac{\partial x_{j}^{*}}{\partial v_{j}^{*}} \end{array} \right)^{- 1}
 $$
 
 $$
-\mathrm {D v} ^ {*} \mathrm {D y} ^ {*} = \left( \begin{array}{c c c c} {\left(\frac {d x _ {1} ^ {*}}{d y _ {1} ^ {*}}\right) ^ {- 1} \frac {\partial x _ {1} ^ {*}}{\partial v _ {1} ^ {*}}} & \dots & {\left(\frac {d x _ {1} ^ {*}}{d y _ {1} ^ {*}}\right) ^ {- 1} \frac {\partial x _ {1} ^ {*}}{\partial v _ {j} ^ {*}}} \\ {\vdots} & \ddots & \vdots \\ {\left(\frac {d x _ {j} ^ {*}}{d y _ {j} ^ {*}}\right) ^ {- 1} \frac {\partial x _ {j} ^ {*}}{\partial v _ {1} ^ {*}}} & \dots & {\left(\frac {d x _ {j} ^ {*}}{d y _ {j} ^ {*}}\right) ^ {- 1} \frac {\partial x _ {j} ^ {*}}{\partial v _ {j} ^ {*}}} \end{array} \right) ^ {- 1} \tag {17}
+\mathrm{Dv}^{*} \mathrm{Dy}^{*} = \left( \begin{array}{c c c c} {\left(\frac{d x_{1}^{*}}{d y_{1}^{*}}\right)^{- 1} \frac{\partial x_{1}^{*}}{\partial v_{1}^{*}}} & \dots & {\left(\frac{d x_{1}^{*}}{d y_{1}^{*}}\right)^{- 1} \frac{\partial x_{1}^{*}}{\partial v_{j}^{*}}} \\ {\vdots} & \ddots & \vdots \\ {\left(\frac{d x_{j}^{*}}{d y_{j}^{*}}\right)^{- 1} \frac{\partial x_{j}^{*}}{\partial v_{1}^{*}}} & \dots & {\left(\frac{d x_{j}^{*}}{d y_{j}^{*}}\right)^{- 1} \frac{\partial x_{j}^{*}}{\partial v_{j}^{*}}} \end{array} \right)^{- 1} \tag {17}
 $$
 
 We can now combine these all to transform the partial DV01s w.r.t. the original curve variables  $(\nu_{1} \dots \nu_{k})$  into DV01s w.r.t. yields of the new instruments and the new curve  $\left( \begin{array}{ccc}y_1^* & \dots & y_j^* \end{array} \right)$ :
@@ -651,11 +651,11 @@ We can now combine these all to transform the partial DV01s w.r.t. the original 
 Partial DV01s w.r.t. Reduced Variables (via yield function) =
 
 $$
-\mathrm {D p D y} ^ {*} = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial y _ {1} ^ {*}} & \dots & \frac {\partial P _ {1}}{\partial y _ {j} ^ {*}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial y _ {1} ^ {*}} & \dots & \frac {\partial P _ {n}}{\partial y _ {j} ^ {*}} \end{array} \right) = \mathrm {D p D v}. \mathrm {D v D x}. \mathrm {D x D v} ^ {*} \cdot \mathrm {D v} ^ {*} \mathrm {D y} ^ {*} = \tag {18}
+\mathrm{Dp Dy}^{*} = \left( \begin{array}{c c c} \frac{\partial P_{1}}{\partial y_{1}^{*}} & \dots & \frac{\partial P_{1}}{\partial y_{j}^{*}} \\ \vdots & \ddots & \vdots \\ \frac{\partial P_{n}}{\partial y_{1}^{*}} & \dots & \frac{\partial P_{n}}{\partial y_{j}^{*}} \end{array} \right) = \mathrm{Dp Dv}. \mathrm{Dv Dx}. \mathrm{Dx Dv}^{*} \cdot \mathrm{Dv}^{*} \mathrm{Dy}^{*} = \tag {18}
 $$
 
 $$
-\left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial v _ {1}} & \dots & \frac {\partial P _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial v _ {1}} & \dots & \frac {\partial P _ {n}}{\partial v _ {k}} \end{array} \right) \cdot \left( \begin{array}{c c c} \frac {\partial x _ {1}}{\partial v _ {1}} & \dots & \frac {\partial x _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial x _ {k}}{\partial v _ {1}} & \dots & \frac {\partial x _ {k}}{\partial v _ {k}} \end{array} \right) ^ {- 1} \cdot \left( \begin{array}{c c c} \frac {\partial x _ {1}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial x _ {1}}{\partial v _ {j} ^ {*}} \\ \vdots & \ddots & \vdots \\ \frac {\partial x _ {k}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial x _ {k}}{\partial v _ {j} ^ {*}} \end{array} \right) \cdot \left( \begin{array}{c c c} \left(\frac {d x _ {1} ^ {*}}{d y _ {1} ^ {*}}\right) ^ {- 1} & \frac {\partial x _ {1} ^ {*}}{\partial v _ {1} ^ {*}} & \dots & \left(\frac {d x _ {1} ^ {*}}{d y _ {1} ^ {*}}\right) ^ {- 1} & \frac {x _ {1} ^ {*}}{\partial v _ {j} ^ {*}} \\ \vdots & & \ddots & & \vdots \\ \left(\frac {d x _ {j} ^ {*}}{d y _ {j} ^ {*}}\right) ^ {- 1} & \frac {\partial x _ {j} ^ {*}}{\partial v _ {1} ^ {*}} & \dots & \left(\frac {d x _ {j} ^ {*}}{d y _ {j} ^ {*}}\right) ^ {- 1} & \frac {\partial x _ {j} ^ {*}}{\partial v _ {j} ^ {*}} \end{array} \right) ^ {- 1}
+\left( \begin{array}{c c c} \frac{\partial P_{1}}{\partial v_{1}} & \dots & \frac{\partial P_{1}}{\partial v_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial P_{n}}{\partial v_{1}} & \dots & \frac{\partial P_{n}}{\partial v_{k}} \end{array} \right) \cdot \left( \begin{array}{c c c} \frac{\partial x_{1}}{\partial v_{1}} & \dots & \frac{\partial x_{1}}{\partial v_{k}} \\ \vdots & \ddots & \vdots \\ \frac{\partial x_{k}}{\partial v_{1}} & \dots & \frac{\partial x_{k}}{\partial v_{k}} \end{array} \right)^{- 1} \cdot \left( \begin{array}{c c c} \frac{\partial x_{1}}{\partial v_{1}^{*}} & \dots & \frac{\partial x_{1}}{\partial v_{j}^{*}} \\ \vdots & \ddots & \vdots \\ \frac{\partial x_{k}}{\partial v_{1}^{*}} & \dots & \frac{\partial x_{k}}{\partial v_{j}^{*}} \end{array} \right) \cdot \left( \begin{array}{c c c} \left(\frac{d x_{1}^{*}}{d y_{1}^{*}}\right)^{- 1} & \frac{\partial x_{1}^{*}}{\partial v_{1}^{*}} & \dots & \left(\frac{d x_{1}^{*}}{d y_{1}^{*}}\right)^{- 1} & \frac{x_{1}^{*}}{\partial v_{j}^{*}} \\ \vdots & & \ddots & & \vdots \\ \left(\frac{d x_{j}^{*}}{d y_{j}^{*}}\right)^{- 1} & \frac{\partial x_{j}^{*}}{\partial v_{1}^{*}} & \dots & \left(\frac{d x_{j}^{*}}{d y_{j}^{*}}\right)^{- 1} & \frac{\partial x_{j}^{*}}{\partial v_{j}^{*}} \end{array} \right)^{- 1}
 $$
 
 This looks very complicated, but in fact it is not. Each of the intermediate steps is a relatively straightforward risk calculation for a small number of instruments:
@@ -742,7 +742,7 @@ We can also compare the zero and par risk calculated here with the zero and par 
 First, for the zero risk the rates are compounded on a different basis. The curve variables in table 21 are continuously compounded while the yields for the instruments used in table 15 are semi-annually compounded. The conversion between risk expressed in different compounding bases depends on  $(1 + rate)$ :
 
 $$
-1 + y _ {\mathrm {s a b}} / 2 = \exp (y _ {\mathrm {c c}} / 2) \Rightarrow \frac {d y _ {\mathrm {s a b}}}{d y _ {\mathrm {c c}}} = \exp (y _ {\mathrm {c c}} / 2) = 1 + y _ {\mathrm {s a b}} / 2
+1 + y_{\mathrm{sa b}} / 2 = \exp (y_{\mathrm{cc}} / 2) \Rightarrow \frac{d y_{\mathrm{sa b}}}{d y_{\mathrm{cc}}} = \exp (y_{\mathrm{cc}} / 2) = 1 + y_{\mathrm{sa b}} / 2
 $$
 
 The 10 year zero rate  $y_{\mathrm{Sab}}$  is  $3.56\%$  so the conversion factor for 10 year rates is 1.0178. If we take the risk for the 10 year zero bond from table 21 and divide by 1.0178 we get the value shown in table 15 - in other words the difference for the 10 year zero bond is totally due to differences in compounding between tables 15 and 21.

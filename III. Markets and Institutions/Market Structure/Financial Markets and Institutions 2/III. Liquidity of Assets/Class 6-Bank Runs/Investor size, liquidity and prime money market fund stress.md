@@ -156,7 +156,7 @@ We employ panel regression to formally study the role of liquidity and investor 
 We start by estimating the following equation over the run period 6-26 March 2020:
 
 $$
-o u t f l o w _ {i, t} = \beta_ {W L A} \times 1 _ {l o w W L A, i} + \beta_ {M I} \times 1 _ {h i g h M I, i} + \gamma \times X _ {i, t - 1} + a _ {t} + u _ {i, t},
+o u t f l o w_{i, t} = \beta_{W L A} \times 1_{l o w W L A, i} + \beta_{M I} \times 1_{h i g h M I, i} + \gamma \times X_{i, t - 1} + a_{t} + u_{i, t},
 $$
 
 where  $outflow_{i,t}$  is the daily outflow from fund  $i$  at time  $t$  calculated as the daily percentage change of AUM; and  $1_{lowWLA,i}$  and  $1_{highMI,i}$  are dummy binary variables, the first one taking value 1 if the fund  $i$ 's average WLA during January–February 2020 was less than the cross-sectional median, and 0 otherwise, and the second taking the value 1 if the minimum investment for fund  $i$  was higher than the cross-sectional median, and 0 otherwise.  $X_{i,t-1}$  are control variables that include lagged AUM (in logarithms) and the gross 30-day yield of each fund, and  $a_t$  is a time fixed effect. In this context,  $\beta_{WLA}$  and  $\beta_{MI}$  measure how the intensity of the run varied on average with the pre-stress fund characteristics.
@@ -223,7 +223,7 @@ In this box, we conduct panel regressions to assess MMFs' liquidity management i
 Specifically, for each of the three periods, we assess the impact of outflows on various liquidity gauges:
 
 $$
-\Delta L i q _ {j, t} = \phi_ {1} O u t f l o w _ {j, t} + \phi_ {2} O u t f l o w _ {j, t - 1} + \phi_ {3} R u n _ {O u t f l o w _ {j}} + \phi_ {4} L i q _ {j, t - 1} + \gamma X _ {j, t - 1} + \epsilon_ {j, t},
+\Delta L i q_{j, t} = \phi_{1} O u t f l o w_{j, t} + \phi_{2} O u t f l o w_{j, t - 1} + \phi_{3} R u n_{O u t f l o w_{j}} + \phi_{4} L i q_{j, t - 1} + \gamma X_{j, t - 1} + \epsilon_{j, t},
 $$
 
 where  $\Delta Liq_{j,t}$  denotes the daily change in a liquidity measure (WLA or WAM) for portfolio  $j$  at time  $t$ ;  $Outflow_{j,t}$  represents daily outflows from portfolio  $j$  at time  $t$ , and  $RunOutflow_{j}$  reports the cumulative outflow experienced by fund  $j$  during the run period and before the announcement of the MMLF. The latter variable is only included in the post-MMLF period to capture the effect of portfolio-level run stress on liquidity management.① Finally, we include the same set of control variables  $X_{j,t-1}$  as in the previous section but recalculated at the portfolio level.

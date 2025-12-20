@@ -77,7 +77,7 @@ Government units and corporations are the major bond security issuers. Figure 6-
 Treasury notes (T-notes) and bonds (T-bonds) are issued by the U.S. Treasury to finance the national debt and other federal government expenditures (13.2 trillion outstanding in 2018). The national debt (ND) reflects the historical accumulation of annual federal government deficits or expenditures (G) minus taxes (T) over the last 200-plus years, as follows:
 
 $$
-N D _ {t} = \sum_ {t = 1} ^ {N} \left(G _ {t} - T _ {t}\right)
+N D_{t} = \sum_{t = 1}^{N} \left(G_{t} - T_{t}\right)
 $$
 
 Figure 6-2 shows the composition of the U.S. national debt from 1994 through 2019. Notice that over this period, approximately 40 to 60 percent of the U.S. national debt consisted of Treasury notes and bonds. Notice also that as the U.S. economy boomed in the late 1990s and the U.S. budget deficit shrank, the amount of public debt outstanding in the form of U.S. Treasury securities decreased from a year-end high of  \$3.10 trillion in 1994 (52.5 percent of the U.S. gross domestic product [GDP]) to\$ 2.97 trillion in 2000 (29.8 percent of GDP). While the amount of Treasury securities grew through the 2000s, so did economic growth. The level of outstanding U.S. Treasury securities grew to  \$4.7 trillion by June 2008 (32.9 percent of GDP). During the financial crisis, the U.S. government used Treasury securities in its attempts to stimulate the economy (see Chapter 4) and the national debt ballooned to\$ 16.7 trillion—11.4 trillion of which was Treasury securities (representing 71.3 percent of GDP).
@@ -154,7 +154,7 @@ To immunize or protect itself against interest rate risk, the insurer needs to d
 Given a  \$1,000 face value and an 8 percent yield and assuming annual compounding, the current price per five-year STRIPS is\$ 675.56 per bond:
 
 $$
-P = 6 7 5. 5 6 = \frac {1 , 0 0 0}{(1 + 0 . 0 8 / 2) ^ {2 \times 5}}
+P = 6 7 5. 5 6 = \frac{1 , 0 0 0}{(1 + 0 . 0 8 / 2)^{2 \times 5}}
 $$
 
 If the insurer buys 1,480 of these bonds at a total cost of  \$1,000,000 in 2022, these investments would produce\$ 1,480,000 on maturity in five years. The reason is that the duration of this bond portfolio exactly matches the target horizon for the insurer's future liability to its policyholders. Intuitively, since the STRIPS pays no intervening cash flows or coupons, future changes in interest rates have no reinvestment income effect. Thus, the return would be unaffected by intervening interest rate changes.
@@ -195,7 +195,7 @@ $$
 Treasury Note and Bond Yields. Treasury note and bond yields to maturities and prices are calculated using the bond valuation formulas presented in Chapter 3. The general bond valuation formula is:
 
 $$
-\begin{array}{l} V _ {b} = \frac {I N T}{m} \sum_ {t = 1} ^ {m N} \left(\frac {1}{1 + \frac {r _ {b}}{m}}\right) ^ {t} + \frac {M}{\left(1 + \frac {r _ {b}}{m}\right) ^ {m N}} \\ = \frac {I N T}{m} \left[ \begin{array}{c} 1 - \frac {1}{\left(1 + \frac {r _ {b}}{m}\right) ^ {m N}} \\ \hline \frac {r _ {b}}{m} \end{array} \right] + M \left[ \frac {1}{\left(1 + \frac {r _ {b}}{m}\right) ^ {m N}} \right] \\ \end{array}
+\begin{array}{l} V_{b} = \frac{I N T}{m} \sum_{t = 1}^{m N} \left(\frac{1}{1 + \frac{r_{b}}{m}}\right)^{t} + \frac{M}{\left(1 + \frac{r_{b}}{m}\right)^{m N}} \\ = \frac{I N T}{m} \left[ \begin{array}{c} 1 - \frac{1}{\left(1 + \frac{r_{b}}{m}\right)^{m N}} \\ \hline \frac{r_{b}}{m} \end{array} \right] + M \left[ \frac{1}{\left(1 + \frac{r_{b}}{m}\right)^{m N}} \right] \\ \end{array}
 $$ where
 
 
@@ -228,7 +228,7 @@ $$ asked yield of 0.853 percent. Using the bond valuation formula, the asked pri
 
 $$
 
-\begin{array}{l} V _ {b} = \frac {0 . 6 2 5}{2} \left[ \frac {1 - \frac {1}{(1 + 0 . 0 0 8 5 3 / 2) ^ {2 (1 . 5 2 3 2 8 7 6 7)}}}{0 . 0 0 8 5 3 / 2} \right] + 1 0 0 \left[ \frac {1}{(1 + 0 . 0 0 8 5 3 / 2) ^ {2 (1 . 5 2 3 2 8 7 6 7)}} \right] \\ = 99.6828\% \\ \end{array}
+\begin{array}{l} V_{b} = \frac{0 . 6 2 5}{2} \left[ \frac{1 - \frac{1}{(1 + 0 . 0 0 8 5 3 / 2)^{2 (1 . 5 2 3 2 8 7 6 7)}}}{0 . 0 0 8 5 3 / 2} \right] + 1 0 0 \left[ \frac{1}{(1 + 0 . 0 0 8 5 3 / 2)^{2 (1 . 5 2 3 2 8 7 6 7)}} \right] \\ = 99.6828\% \\ \end{array}
 
 $$
 
@@ -242,7 +242,7 @@ Accrued Interest. When an investor buys a T-note or T-bond between coupon paymen
 
 $$
 
-\text {A c c r u e d i n t e r e s t} = \frac {I N T}{2} \times \frac {\text {A c t u a l n u m b e r o f d a y s s i n c e l a s t c o u p o n p a y m e n t}}{\text {A c t u a l n u m b e r o f d a y s i n c o u p o n p e r i o d}}
+\text{Ac cr ue di nt er es t} = \frac{I N T}{2} \times \frac{\text{Ac tu al nu mb er of da ys si nc el as tc ou po np ay me nt}}{\text{Ac tu al nu mb er of da ys in co up on pe ri od}}
 
 $$
 
@@ -263,7 +263,7 @@ $$ of the face value of the bond, or 130.91. The dirty price of this transaction
 
 $$
 
-\text {C l a n} + \text {A c c r u e d i n t e r e s t} = \text {D i r t y p e}
+\text{Cl an} + \text{Ac cr ue di nt er es t} = \text{Di rt yp e}
 
 $$
 
@@ -544,7 +544,7 @@ Figure 6-6 Treasury Auction Results
 
 Municipal Bond Yields. To compare returns from tax-exempt municipal bonds with those on fully taxable corporate bonds, the after-tax (or equivalent tax-exempt) yield on a taxable bond can be calculated as follows:
 
-$$ r _ {a} = r _ {b} (1 - t)
+$$ r_{a} = r_{b} (1 - t)
 $$ where
 
 
@@ -568,12 +568,12 @@ Thus, the comparable yield on municipal bonds of similar risk would be 7.2 perce
 
 Alternatively, the yield on a tax-exempt municipal bond can be used to determine the tax equivalent yield for a taxable security that would cause an investor to be just indifferent between the taxable and tax-exempt bonds of the same default and liquidity risks. Re-arranging the equation above,
 
-$$ r _ {b} = r _ {a} / (1 - t)
+$$ r_{b} = r_{a} / (1 - t)
 $$
 
 8. Treasury securities are not exempt from federal taxes but are exempt from state and local income taxes. Thus, the after-tax yield on a Treasury security is calculated as:
 
-$$ r _ {a} = r _ {b} (1 - t _ {f})
+$$ r_{a} = r_{b} (1 - t_{f})
 $$ where  $t_f =$  the marginal federal tax rate.
 
 
@@ -754,17 +754,17 @@ Convertible Bonds. Convertible bonds are bonds that may be exchanged for another
 
 If the market value of the securities the bond holder receives with conversion exceeds the market value of the bond, the bond holder can return the bonds to the issuer in exchange for the new securities and make a profit. As a result, conversion is an attractive option or feature to bond holders. Thus, convertible bonds are hybrid securities involving elements of both debt and equity. They give the bond holder an investment opportunity (an option) that is not available with nonconvertible bonds. As a result, the yield on a convertible bond is usually lower (generally, 2 to 5 percentage points) than that on a nonconvertible bond:
 
-$$ r _ {c v b} = r _ {n c v b} - o p _ {c v b}
+$$ r_{c v b} = r_{n c v b} - o p_{c v b}
 $$ where
 
 
-$$ r _ {c v b} = \text {Y i e l d o n a c o n v e r t i b l e b o n d}
+$$ r_{c v b} = \text{Yi el do na co nv er ti bl eb on d}
 $$
 
-$$ r _ {n c v b} = \text {Y i e l d a n o n c o n v e r t i b l e b o n d}
+$$ r_{n c v b} = \text{Yi el da no nc on ve rt ib le bo nd}
 $$
 
-$$ o p _ {c v b} = \text {V a l u e o f t h e c o n v e n s i o n o p t i o n t o t h e b o n d h o l d e r}
+$$ o p_{c v b} = \text{Va lu eo ft he co nv en si on op ti on to th eb on dh ol de r}
 $$
 
 # EXAMPLE 6-9 Analysis of a Convertible Bond
@@ -774,7 +774,7 @@ In January 2020, Tesla Motors had a convertible bond issue outstanding. Each bon
 To determine whether or not it is profitable to convert the bonds into common stock in Tesla, the conversion value of each bond can be calculated as:
 
 $$
-\text {C o n v e r s i o n} = \frac {\text {C u r r e n t m a r k e t p r i c e o f c o m m o n}}{\text {s t o c k r e c e i v e d o n c o n v e r s i o n}} \times \text {C o n v e r s i o n r a t e}
+\text{Co nv er si on} = \frac{\text{Cu rr en tm ar ke tp ri ce of co mm on}}{\text{st oc kr ec ei ve do nc on ve rs io n}} \times \text{Co nv er si on ra te}
 $$
 
 If a bond holder were to convert Tesla bonds into stock, each bond (worth  \$1,792.80) could be exchanged for 3.2276 shares of stock worth\$ 510.50 per share. The conversion value of the bond is:
@@ -813,7 +813,7 @@ For example, in 2016, ACCO Brands Corp. had a  \$500,000 payable debt issue outs
 
 A call provision is an unattractive feature to bond holders, since the bond holder may be forced to return the bond to the issuer before he or she is ready to end the investment and the investor can only reinvest the funds at a lower interest rate. As a result, callable bonds have higher yields (generally between 0.05 and 0.25 percent) than comparable noncallable bonds:
 
-$$ r _ {n c b} = r _ {c b} - o p _ {c b}
+$$ r_{n c b} = r_{c b} - o p_{c b}
 $$ where
 
 

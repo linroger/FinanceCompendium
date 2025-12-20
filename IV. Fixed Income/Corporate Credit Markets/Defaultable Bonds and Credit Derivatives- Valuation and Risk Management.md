@@ -117,31 +117,31 @@ insurer guarantees;
 The Binomial Expansion Method, originally introduced by Moody's in [30], is based on the Diversity Score concept. This concept employs an orthogonal projection of the space of defaultable assets onto an  $D$ -dimensional subspace. Here  $D$  is the diversity score, the number of independent assets that are homogeneous and uncorrelated, determined by some suitable approximation. The (expected) loss is then calculated as
 
 $$
-E (L o s s) = \sum_ {j = 0} ^ {D} P _ {j} L _ {j}, \tag {1}
+E (L o s s) = \sum_{j = 0}^{D} P_{j} L_{j}, \tag {1}
 $$
 
 where
 
 $$
-P _ {j} = C _ {D} ^ {j} p ^ {j} (1 - p) ^ {D - j} \tag {2}
+P_{j} = C_{D}^{j} p^{j} (1 - p)^{D - j} \tag {2}
 $$
 
 is the probability of simultaneous  $j$  defaults among the  $D$  assets comprising the basis portfolio. The variance of loss is computed as
 
 $$
-\operatorname {V a r} (\text {L o s s}) = \sum_ {j = 0} ^ {D} P _ {j} [ E (\text {L o s s}) - L _ {j} ] ^ {2}. \tag {3}
+\operatorname{Va r} (\text{Lo ss}) = \sum_{j = 0}^{D} P_{j} [ E (\text{Lo ss}) - L_{j} ]^{2}. \tag {3}
 $$
 
 An expansion of this method which incorporates a state space of (discrete) recovery rates:
 
 $$
-E (L o s s) = \sum_ {j = 0} ^ {D} P _ {j} \sum_ {q = 1} ^ {n} \omega_ {q} L _ {j} \left(\alpha_ {q}\right), \tag {4}
+E (L o s s) = \sum_{j = 0}^{D} P_{j} \sum_{q = 1}^{n} \omega_{q} L_{j} \left(\alpha_{q}\right), \tag {4}
 $$
 
 where  $\alpha_{i}, i = \overline{1,n}$  are the possible values of the recovery rate corresponding to the default of  $j$ -th asset,  $\omega_{i}, i = \overline{1,n}$  are the corresponding probabilities. The variance of loss is computed as
 
 $$
-\operatorname {V a r} (\text {L o s s}) = \sum_ {j = 0} ^ {D} P _ {j} \sum_ {q = 1} ^ {n} \left[ E (\text {L o s s}) - L _ {j} \left(\alpha_ {q}\right) \right] ^ {2}. \tag {5}
+\operatorname{Va r} (\text{Lo ss}) = \sum_{j = 0}^{D} P_{j} \sum_{q = 1}^{n} \left[ E (\text{Lo ss}) - L_{j} \left(\alpha_{q}\right) \right]^{2}. \tag {5}
 $$
 
 # 4.3 Moody's LossCalc™
@@ -149,7 +149,7 @@ $$
 Moody's defines recovery on a defaulted credit as its value approximately one month after default. Recovery rate is further defined as a percentage of par value of the defaulted debt. Loss given default ( LGD ) is then calculated as
 
 $$
-L G D = 1 - \text {R e c o v e r y} R a t e \tag {6}
+L G D = 1 - \text{Re co ve ry} R a t e \tag {6}
 $$
 
 Moody's employs  $\mathrm{LossCalc}^{\mathrm{TM}}$  [32] to potential loss in the event of default as
@@ -235,13 +235,13 @@ $$
 Suppose the firm has total outstanding debt with face value  $F$  due at time  $T$ . Then at time  $T$  stock holdings are worth  $\max \{A(T) - F, 0\}$ , i.e., the firm stock can be viewed as a call option on the firm assets. Recall the put-call parity equation:
 
 $$
-C _ {X} (t, T) = P _ {X} (t, T) + S (t) - X e ^ {- r T}, \tag {A.2}
+C_{X} (t, T) = P_{X} (t, T) + S (t) - X e^{- r T}, \tag {A.2}
 $$
 
 where  $C_X(t,T)$  and  $P_X(t,T)$  are the ( per share ) prices at time  $t$  of a call and put on the firm stock struck at  $X$ ,  $S(t)$  is the price of a share of stock and  $r$  is the risk-free interest rate. Extending our analogy, observe that
 
 $$
-S (t) = P (t, T) + A (t) - F e ^ {- r T}, \tag {A.3}
+S (t) = P (t, T) + A (t) - F e^{- r T}, \tag {A.3}
 $$
 
 where  $A(t)$  and  $F$  are expressed per share. The value of firm assets calculated this way can be input into a structural model.
@@ -251,7 +251,7 @@ where  $A(t)$  and  $F$  are expressed per share. The value of firm assets calcu
 Consider a risky bond that is trading at par unit value at a spread  $s$  over the current risk-free rate  $r$  and matures at time  $T \gg 1$ . Under risk-neutral valuation with continuous compounding, its current value (1) can be expressed as (see [15]):
 
 $$
-1 = e ^ {- r d t} \left[ D \lambda d t + e ^ {(r + s) d t} (1 - \lambda d t) \right], \tag {A.4}
+1 = e^{- r d t} \left[ D \lambda d t + e^{(r + s) d t} (1 - \lambda d t) \right], \tag {A.4}
 $$
 
 where  $D$  is the recovery rate and  $\lambda$  is the (instantaneous) default intensity. In (A.4),  $D\lambda dt$  is the bond payoff at time  $t + dt$  in the event of default during time interval  $dt$  (assuming the bond is not currently in default),  $e^{(r + s)dt}$  is the expected value of the bond at time  $t + dt$  (assuming there is no default during  $dt$ ) and  $e^{-rdt}$  is the discount factor.
@@ -259,7 +259,7 @@ where  $D$  is the recovery rate and  $\lambda$  is the (instantaneous) default 
 Employing a first-order approximation  $e^{\epsilon} \approx \epsilon, \epsilon \ll 1$ , we can transform (A.4) into
 
 $$
-\begin{array}{l} 1 = e ^ {- r d t} \left[ D \lambda d t + e ^ {(r + s) d t} (1 - \lambda d t) \right] \\ \approx e ^ {- r d t} \left[ D \left(e ^ {\lambda d t} - 1\right) + e ^ {(- r + r + s - \lambda) d t} \right. \\ = D e ^ {(\lambda - r) d t} - D e ^ {- r d t} + e ^ {(s - \lambda) d t} \\ \approx D [ 1 + (\lambda - r) d t - (1 - r d t) ] + [ 1 + (s - \lambda) d t ] \\ = 1 + D \lambda d t + s d t - \lambda d t, \tag {A.5} \\ \end{array}
+\begin{array}{l} 1 = e^{- r d t} \left[ D \lambda d t + e^{(r + s) d t} (1 - \lambda d t) \right] \\ \approx e^{- r d t} \left[ D \left(e^{\lambda d t} - 1\right) + e^{(- r + r + s - \lambda) d t} \right. \\ = D e^{(\lambda - r) d t} - D e^{- r d t} + e^{(s - \lambda) d t} \\ \approx D [ 1 + (\lambda - r) d t - (1 - r d t) ] + [ 1 + (s - \lambda) d t ] \\ = 1 + D \lambda d t + s d t - \lambda d t, \tag {A.5} \\ \end{array}
 $$
 
 and hence,
@@ -271,19 +271,19 @@ $$
 so
 
 $$
-\lambda = \frac {s}{1 - D}, D \neq 0. \tag {A.7}
+\lambda = \frac{s}{1 - D}, D \neq 0. \tag {A.7}
 $$
 
 Therefore, if the recovery rate is known together with the bond spread to Treasury, its (instantaneous) default intensity  $\lambda$  can be calculated from A.7. Assuming constant (i.e., stationary) default intensity for the forecast period  $\Delta t$ , one can then calculate the probability of default of the underlying credit as
 
 $$
-P _ {d} = \lambda \Delta t. \tag {A.8}
+P_{d} = \lambda \Delta t. \tag {A.8}
 $$
 
 A non-stationary default intensity  $\lambda(t)$  can be computed only if the processes for non-stationary interest rate, survival probability and term structure of credit spreads  $r(t), D(t)$  and  $s(t)$  are all known:
 
 $$
-P _ {d} = \int_ {t} ^ {t + \Delta t} \lambda (t) d t. \tag {A.9}
+P_{d} = \int_{t}^{t + \Delta t} \lambda (t) d t. \tag {A.9}
 $$
 
 Equation (A.7) has important, albeit obvious, implications. First, the default intensity of a credit can be gauged by its spread to Treasury: The higher the spread, the higher the perceived probability of default. Second, in the unlikely event that the spread does not change even though the credit quality has deteriorated, it means that the expectation of the recovery rate has improved ( $1 - D$  has decreased, so  $D$  has increased). Conversely, if an improvement in credit quality does not lead to the narrowing of the spread, it means that the expectation of the recovery rate has fallen.

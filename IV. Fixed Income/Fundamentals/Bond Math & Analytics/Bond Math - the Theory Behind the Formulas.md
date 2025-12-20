@@ -237,7 +237,7 @@ immaterial, which investment offers the better rate of return, the CP at  $3.80\
 You probably were first introduced to the time value of money in college or in a job training program using equations such as these:
 
 $$
-F V = P V * (1 + i) ^ {N} \quad a n d \quad P V = \frac {F V}{(1 + i) ^ {N}} \tag {1.1}
+F V = P V * (1 + i)^{N} \quad a n d \quad P V = \frac{F V}{(1 + i)^{N}} \tag {1.1}
 $$
 
 where  $FV =$  future value,  $PV =$  present value,  $i =$  interest rate per time period, and  $N =$  number of time periods to maturity.
@@ -247,7 +247,7 @@ The two equations are the same and merely are rearranged algebraically. The futu
 In your studies, you no doubt worked through many time-value-of-money problems, such as: How much will you accumulate after 20 years if you invest  \$1,000 today at an annual interest rate of \(5\%$ ? How much do you need to invest today to accumulate \)10,000 in 30 years assuming a rate of  $6\%$ ? You likely used the time-value-of-money keys on a financial calculator, but you just as easily could have plugged the numbers into the equations in 1.1 and solved via the arithmetic functions.
 
 $$
-\$ 1,000 * (1.05) ^ {2 0} = \$ 2,6 5 3 \quad a n d \quad \frac {\$ 1 0 , 0 0 0}{(1 . 0 6) ^ {3 0}} = \$ 1,7 4 1
+\$ 1,000 * (1.05)^{2 0} = \$ 2,6 5 3 \quad a n d \quad \frac{\$ 1 0 , 0 0 0}{(1 . 0 6)^{3 0}} = \$ 1,7 4 1
 $$
 
 The interest rate in standard textbook theory is well defined. It is the growth rate of money over time—it describes the trajectory that allows  \$1,000 to grow to\$ 2,653 over 20 years. You can interpret an interest rate as an exchange rate across time. Usually we think of an exchange rate as a trade between two currencies (e.g., a spot or a forward foreign exchange rate between the U.S. dollar and the euro). An interest rate tells you the amounts in the same currency that you would accept at different points in time. You would be indifferent between \$1,741 now and \$10,000 in 30 years, assuming that 6% is the correct exchange rate for you. An interest
@@ -257,7 +257,7 @@ rate also indicates the price of money. If you want or need \$1,000 today, you h
 Despite the purity of an interest rate in time-value-of-money analysis, you cannot use the equations in 1.1 to do interest rate and cash flow calculations on money market securities. This is important: Money market interest rate calculations do not use textbook time-value-of-money equations. For a money manager who has \$1,000,000 to invest in a bank CD paying 3.90% for half of a year, it is wrong to calculate the future value in this manner:
 
 $$
-\$ 1,000,000 * (1.0390) ^ {0.5} = \$ 1,019,313
+\$ 1,000,000 * (1.0390)^{0.5} = \$ 1,019,313
 $$
 
 While it is tempting to use  $N = 0.5$  in equation 1.1 for a 6-month CD, it is not the way money market instruments work in the real world.
@@ -269,7 +269,7 @@ There are two distinct ways that money market rates are quoted: as an add-on rat
 First, let's consider rate quotation on a bank certificate of deposit. Add-on rates are logical and follow simple interest calculations. The interest is added on to the principal amount to get the redemption payment at maturity. Let AOR stand for add-on rate,  $PV$  the present value (the initial principal amount),  $FV$  the future value (the redemption payment including interest),  $Days$  the number of days until maturity, and Year the number of days in the year. The relationship between these variables is:
 
 $$
-F V = P V + \left[ P V * A O R * \frac {\text {D a y s}}{\text {Y e a r}} \right] \tag {1.2}
+F V = P V + \left[ P V * A O R * \frac{\text{Da ys}}{\text{Ye ar}} \right] \tag {1.2}
 $$
 
 The term in brackets is the interest earned on the bank CD—it is just the initial principal times the annual add-on rate times the fraction of the year.
@@ -277,13 +277,13 @@ The term in brackets is the interest earned on the bank CD—it is just the init
 The expression in 1.2 can be written more succinctly as:
 
 $$
-F V = P V * \left[ 1 + \left(A O R * \frac {\text {D a y s}}{\text {Y e a r}}\right) \right] \tag {1.3}
+F V = P V * \left[ 1 + \left(A O R * \frac{\text{Da ys}}{\text{Ye ar}}\right) \right] \tag {1.3}
 $$
 
 Now we can calculate accurately the future value, or the redemption amount including interest, on the  \$1,000,000 bank CD paying \(3.90\%$  for six months. But first we have to deal with the fraction of the year. Most money market instruments in the U.S. use an "actual/360" day-count convention. That means Days, the numerator, is the actual number of days between the settlement date when the CD is purchased and the date it matures. The denominator usually is 360 days in the U.S. but in many other countries a more realistic 365-day year is used. Assuming that Days is 180 and Year is 360, the future value of the CD is \)1,019,500, and not \$1,019,313 as incorrectly calculated using the standard time-value-of-money formulation.
 
 $$
-F V = \$ 1,000,000 * \left[ 1 + \left(0. 0 3 9 0 * \frac {1 8 0}{3 6 0}\right) \right] = \$ 1,0 1 9,5 0 0
+F V = \$ 1,000,000 * \left[ 1 + \left(0. 0 3 9 0 * \frac{1 8 0}{3 6 0}\right) \right] = \$ 1,0 1 9,5 0 0
 $$
 
 Once the bank CD is issued, the  $FV$  is a known, fixed amount. Suppose that two months go by and the investor—for example, a money market mutual fund—decides to sell. A securities dealer at that time quotes a bid rate of  $3.72\%$  and an ask (or offer) rate of  $3.70\%$  on 4-month CDs corresponding to the credit risk of the issuing bank. Note that securities in the money market trade on a rate basis. The bid rate is higher than the ask rate so that the security will be bought by the dealer at a lower price than it is sold. In the bond market, securities usually trade on a price basis.
@@ -291,7 +291,7 @@ Once the bank CD is issued, the  $FV$  is a known, fixed amount. Suppose that tw
 The sale price of the CD after the two months have gone by is found by substituting \( FV = \\)1,019,500 \), \( AOR = 0.0372 \), and \( Days = 120 \) into equation 1.3.
 
 $$
-\$ 1,019,500 = P V * \left[ 1 + \left(0. 0 3 7 2 * \frac {1 2 0}{3 6 0}\right) \right], \quad P V = \$ 1,0 0 7,0 1 3
+\$ 1,019,500 = P V * \left[ 1 + \left(0. 0 3 7 2 * \frac{1 2 0}{3 6 0}\right) \right], \quad P V = \$ 1,0 0 7,0 1 3
 $$
 
 Note that the dealer buys the CD from the mutual fund at its quoted bid rate. We assume here that there are actually 120 days between the settlement date for the transaction and the maturity date. In most markets, there is a
@@ -301,7 +301,7 @@ one-day difference between the trade date and the settlement date (i.e., next-da
 The general pricing equation for add-on rate instruments shown in 1.3 can be rearranged algebraically to isolate the AOR term.
 
 $$
-A O R = \left(\frac {\text {Y e a r}}{\text {D a y s}}\right) * \left(\frac {F V - P V}{P V}\right) \tag {1.4}
+A O R = \left(\frac{\text{Ye ar}}{\text{Da ys}}\right) * \left(\frac{F V - P V}{P V}\right) \tag {1.4}
 $$
 
 This indicates that a money market add-on rate is an annual percentage rate (APR) in that it is the number of time periods in the year, the first term in parentheses, times the interest rate per period, the second term.  $FV - PV$  is the interest earned; that divided by amount invested  $PV$  is the rate of return on the transaction for that time period. To annualize the periodic rate of return, we simply multiply by the number of periods in the year (Year/Days). I call this the periodicity of the interest rate. If Year is assumed to be 360 days and Days is 90, the periodicity is 4; if Days is 180, the periodicity is 2. Knowing the periodicity is critical to understanding an interest rate.
@@ -309,7 +309,7 @@ This indicates that a money market add-on rate is an annual percentage rate (APR
 APRs are widely used in both money markets and bond markets. For example, the typical fixed-income bond makes semiannual coupon payments. If the payment is  $3 per$ 100 in par value on May 15 and November 15 of each year, the coupon rate is stated to be  $6\%$ . Using an APR in the money market does require a subtle yet important assumption, however. It is assumed implicitly that the transaction can be replicated at the same rate per period. The 6-month bank CD in the example can have its AOR written like this:
 
 $$
-A O R = \left(\frac {3 6 0}{1 8 0}\right) * \left(\frac {\mathbb {S} 1 , 0 1 9 , 5 0 0 - \mathbb {S} 1 , 0 0 0 , 0 0 0}{\mathbb {S} 1 , 0 0 0 , 0 0 0}\right) = 0. 0 3 9 0
+A O R = \left(\frac{3 6 0}{1 8 0}\right) * \left(\frac{\mathbb {S} 1 , 0 1 9 , 5 0 0 - \mathbb {S} 1 , 0 0 0 , 0 0 0}{\mathbb {S} 1 , 0 0 0 , 0 0 0}\right) = 0. 0 3 9 0
 $$
 
 The periodicity on this CD is 2 and its rate per (6-month) time period is  $1.95\%$ . The annualized rate of  $3.90\%$  assumes replication of the 6-month transaction on the very same terms.
@@ -317,7 +317,7 @@ The periodicity on this CD is 2 and its rate per (6-month) time period is  $1.95
 Equation 1.4 can be used to obtain the ex-post rate of return realized by the money market mutual fund that purchased the CD and then sold it two months later to the dealer. Substitute in  $PV = \$ 1,000,000 \),  $FV = \\(1,007,013\$ , and  $Days = 60\$ .
 
 $$
-A O R = \left(\frac {3 6 0}{6 0}\right) * \left(\frac {\mathbb {S} 1 , 0 0 7 , 0 1 3 - \mathbb {S} 1 , 0 0 0 , 0 0 0}{\mathbb {S} 1 , 0 0 0 , 0 0 0}\right) = 0. 0 4 2 1
+A O R = \left(\frac{3 6 0}{6 0}\right) * \left(\frac{\mathbb {S} 1 , 0 0 7 , 0 1 3 - \mathbb {S} 1 , 0 0 0 , 0 0 0}{\mathbb {S} 1 , 0 0 0 , 0 0 0}\right) = 0. 0 4 2 1
 $$
 
 The 2-month holding-period rate of return turns out to be  $4.21\%$ . Notice that in this series of calculations, the meanings of  $PV$  and  $FV$  change. In one case  $PV$  is the original principal on the CD, in another it is the market value at a later date. In one case  $FV$  is the redemption amount at maturity, in another it is the sale price prior to maturity. Nevertheless,  $PV$  is always the first cash flow and  $FV$  is the second.
@@ -329,7 +329,7 @@ The mutual fund buys a 6-month CD at  $3.90\%$ , sells it as a 4-month CD at  $3
 Treasury bills, commercial paper, and bankers acceptances in the U.S. are quoted on a discount rate  $(DR)$  basis. The price of the security is a discount from the face value.
 
 $$
-P V = F V - \left[ F V * D R * \frac {\text {D a y s}}{\text {Y e a r}} \right] \tag {1.5}
+P V = F V - \left[ F V * D R * \frac{\text{Da ys}}{\text{Ye ar}} \right] \tag {1.5}
 $$
 
 Here,  $PV$  and  $FV$  are the two cash flows on the security;  $PV$  is the current price and  $FV$  is the amount paid at maturity. The term in brackets is the amount of the discount—it is the future (or face) value times the annual discount rate times the fraction of the year. Interest is not "added on" to the principal; instead it is included in the face value.
@@ -337,7 +337,7 @@ Here,  $PV$  and  $FV$  are the two cash flows on the security;  $PV$  is the cu
 The pricing equation for discount rate instruments expressed more compactly is:
 
 $$
-P V = F V * \left[ 1 - \left(D R * \frac {\text {D a y s}}{\text {Y e a r}}\right) \right] \tag {1.6}
+P V = F V * \left[ 1 - \left(D R * \frac{\text{Da ys}}{\text{Ye ar}}\right) \right] \tag {1.6}
 $$
 
 Suppose that the money manager buys the 180-day CP at a discount rate of  $3.80\%$ . The face value is \$1,000,000. Following market practice, the "amount" of a transaction is the face value (the  $FV$ ) for instruments quoted on a discount rate basis. In contrast, the "amount" is the original principal
@@ -345,13 +345,13 @@ Suppose that the money manager buys the 180-day CP at a discount rate of  $3.80\
 (the PV at issuance) for money market securities quoted on an add-on rate basis. The purchase price for the CP is \$981,000.
 
 $$
-P V = \$ 1,000,000 * \left[ 1 - \left(0. 0 3 8 0 * \frac {1 8 0}{3 6 0}\right) \right] = \$ 9 8 1,0 0 0
+P V = \$ 1,000,000 * \left[ 1 - \left(0. 0 3 8 0 * \frac{1 8 0}{3 6 0}\right) \right] = \$ 9 8 1,0 0 0
 $$
 
 What is the realized rate of return on the CP, assuming the mutual fund holds it to maturity (and there is no default by the issuer)? We can substitute the two cash flows into equation 1.4 to get the result as a 360-day AOR so that it is comparable to the bank CD.
 
 $$
-A O R = \left(\frac {3 6 0}{1 8 0}\right) * \left(\frac {\mathbb {S} 1 , 0 0 0 , 0 0 0 - \mathbb {S} 9 8 1 , 0 0 0}{\mathbb {S} 9 8 1 , 0 0 0}\right) = 0. 0 3 8 7 4
+A O R = \left(\frac{3 6 0}{1 8 0}\right) * \left(\frac{\mathbb {S} 1 , 0 0 0 , 0 0 0 - \mathbb {S} 9 8 1 , 0 0 0}{\mathbb {S} 9 8 1 , 0 0 0}\right) = 0. 0 3 8 7 4
 $$
 
 Notice that the discount rate of  $3.80\%$  on the CP is a misleading growth rate for the investment—the realized rate of return is higher at  $3.874\%$ .
@@ -359,7 +359,7 @@ Notice that the discount rate of  $3.80\%$  on the CP is a misleading growth rat
 The rather bizarre nature of a money market discount rate is revealed by rearranging the pricing equation 1.6 to isolate the  $DR$  term.
 
 $$
-D R = \left(\frac {\text {Y e a r}}{\text {D a y s}}\right) * \left(\frac {F V - P V}{F V}\right) \tag {1.7}
+D R = \left(\frac{\text{Ye ar}}{\text{Da ys}}\right) * \left(\frac{F V - P V}{F V}\right) \tag {1.7}
 $$
 
 Note that the  $DR$ , unlike an  $AOR$ , is not an APR because the second term in parenthesis is not the periodic interest rate. It is the interest earned ( $FV - PV$ ), divided by  $FV$ , and not by  $PV$ . This is not the way we think about an interest rate—the growth rate of an investment should be measured by the increase in value ( $FV - PV$ ) given where we start ( $PV$ ), not where we end ( $FV$ ). The key point is that discount rates on T-bills, commercial paper, and bankers acceptances in the U.S. systematically understate the investor's rate of return, as well as the borrower's cost of funds.
@@ -367,7 +367,7 @@ Note that the  $DR$ , unlike an  $AOR$ , is not an APR because the second term i
 The relationship between a discount rate and an add-on rate can be derived algebraically by equating the pricing equations 1.3 and 1.6 and assuming that the two cash flows  $(PV$  and  $FV)$  are equivalent.
 
 $$
-A O R = \frac {\text {Y e a r} * D R}{\text {Y e a r} - (\text {D a y s} * D R)} \tag {1.8}
+A O R = \frac{\text{Ye ar} * D R}{\text{Ye ar} - (\text{Da ys} * D R)} \tag {1.8}
 $$
 
 The derivation is in the Technical Appendix. Notice that the AOR will always be greater than the  $DR$  for the same cash flows, the more so the greater the number of days in the time period and the higher the level of interest rates. Equation 1.8 is a general conversion formula between discount rates and add-on rates when quoted for the same assumed number of days in the year.
@@ -375,7 +375,7 @@ The derivation is in the Technical Appendix. Notice that the AOR will always be 
 We can now convert the CP discount rate of  $3.80\%$  to an add-on rate assuming a 360-day year.
 
 $$
-A O R = \frac {3 6 0 * 0 . 0 3 8 0}{3 6 0 - (1 8 0 * 0 . 0 3 8 0)} = 0. 0 3 8 7 4
+A O R = \frac{3 6 0 * 0 . 0 3 8 0}{3 6 0 - (1 8 0 * 0 . 0 3 8 0)} = 0. 0 3 8 7 4
 $$
 
 This is the same result as given earlier—there the AOR equivalent is obtained from the two cash flows; here it is obtained using the conversion formula. If the risks on the CD and the CP are deemed to be equivalent, the money manager likes the CD. Doing the bond math, the manager expects a higher return on the CD because  $3.90\%$  is greater than  $3.874\%$ , not because  $3.90\%$  is greater than  $3.80\%$ . The key point is that add-on rates and discount rates cannot be directly compared—they first must be converted to a common basis. If the CD is perceived to entail somewhat more credit or liquidity risk, the investor's compensation for bearing that relative risk is only 2.6 basis points, not 10 basis points.
@@ -383,13 +383,13 @@ This is the same result as given earlier—there the AOR equivalent is obtained 
 Despite their limitations as measures of rates of return (and costs of borrowed funds), discount rates are used in the U.S. when T-bills, commercial paper, and bankers acceptances are traded. Assume the money market mutual fund manager has chosen to buy the \(1,000,000, 180-day CP quoted at \(3.80\%\), paying \)981,000 at issuance. Now suppose that the manager seeks to sell the CP five months later when only 30 days remain until maturity, and at that time the securities dealer quotes a bid rate of \(3.35\%\) and an ask rate of \(3.33\%\) on 1-month CP. Those quotes will be on a discount rate basis. The dealer at that time would pay the mutual fund \)997,208 for the security.
 
 $$
-P V = \$ 1,000,000 * \left[ 1 - \left(0. 0 3 3 5 * \frac {3 0}{3 6 0}\right) \right] = \$ 9 9 7, 2 0 8
+P V = \$ 1,000,000 * \left[ 1 - \left(0. 0 3 3 5 * \frac{3 0}{3 6 0}\right) \right] = \$ 9 9 7, 2 0 8
 $$
 
 How did the CP trade turn out for the investor? The 150-day holding period rate of return realized by the mutual fund can be calculated as a 360-day AOR based on the two cash flows:
 
 $$
-A O R = \left(\frac {3 6 0}{1 5 0}\right) * \left(\frac {\$ 9 9 7 , 2 0 8 - \$ 9 8 1 , 0 0 0}{\$ 9 8 1 , 0 0 0}\right) = 0. 0 3 9 6 5
+A O R = \left(\frac{3 6 0}{1 5 0}\right) * \left(\frac{\$ 9 9 7 , 2 0 8 - \$ 9 8 1 , 0 0 0}{\$ 9 8 1 , 0 0 0}\right) = 0. 0 3 9 6 5
 $$
 
 This rate of return,  $3.965\%$ , is an APR for a periodicity of 2.4. That is, it is the periodic rate for the 150-day time period (the second term in parenthesis) annualized by multiplying by 360 divided by 150.
@@ -413,13 +413,13 @@ Actual/360 means that the fraction of the year is the actual number of days betw
 Assume we are doing the calculation for 2015.
 
 $$
-A O R = \left(\frac {360}{59}\right) * \left(\frac {\$ 65,000 - \$ 64,000}{\$ 64,000}\right) = 0.09534, \quad A O R = 9.534 \%
+A O R = \left(\frac{360}{59}\right) * \left(\frac{\$ 65,000 - \$ 64,000}{\$ 64,000}\right) = 0.09534, \quad A O R = 9.534 \%
 $$
 
 Note that the periodicity for this add-on rate is 360/59, the reciprocal of the fraction of the year. If we do the calculation for 2016, the rate is a bit lower.
 
 $$
-A O R = \left(\frac {360}{60}\right) * \left(\frac {\$ 65,000 - \$ 64,000}{\$ 64,000}\right) = 0.09375, \quad A O R = 9.375 \%
+A O R = \left(\frac{360}{60}\right) * \left(\frac{\$ 65,000 - \$ 64,000}{\$ 64,000}\right) = 0.09375, \quad A O R = 9.375 \%
 $$
 
 # Add-On Rate, Actual/365
@@ -427,17 +427,17 @@ $$
 Many money markets use actual/365 for the fraction of the year, in particular those markets that have followed British conventions. The add-on rates for 2015 and 2016 are:
 
 $$
-A O R = \frac {365}{59} * \left(\frac {\$ 65,000 - \$ 64,000}{\$ 64,000}\right) = 0.09666, \quad A O R = 9.666 \%
+A O R = \frac{365}{59} * \left(\frac{\$ 65,000 - \$ 64,000}{\$ 64,000}\right) = 0.09666, \quad A O R = 9.666 \%
 $$
 
 $$
-A O R = \frac {365}{60} * \left(\frac {\$ 65,000 - \$ 64,000}{\$ 64,000}\right) = 0.09505, \quad A O R = 9.505 \%
+A O R = \frac{365}{60} * \left(\frac{\$ 65,000 - \$ 64,000}{\$ 64,000}\right) = 0.09505, \quad A O R = 9.505 \%
 $$
 
 In some markets, the number of days in the year switches to 366 for leap years. This day-count convention is known as actual/actual instead of actual/365. The interest rate would be a little higher.
 
 $$
-A O R = \frac {366}{60} * \left(\frac {\$ 65,000 - \$ 64,000}{\$ 64,000}\right) = 0.09531, \quad A O R = 9.531 \%
+A O R = \frac{366}{60} * \left(\frac{\$ 65,000 - \$ 64,000}{\$ 64,000}\right) = 0.09531, \quad A O R = 9.531 \%
 $$
 
 # Add-On Rate, 30/360
@@ -445,7 +445,7 @@ $$
 An easier way of counting the number of days between dates is to use the 30/360 day-count convention. Rather than work with an actual calendar (or use a computer), we simply assume that each month has 30 days. Therefore, there are assumed to be 30 days from January 12 to February 12 and another 30 days between February 12 and March 12. That makes 60 days for the time period and 360 days for the year. We get the same rate for both 2015 and 2016:
 
 $$
-A O R = \frac {360}{60} * \left(\frac {\mathbb {S} 65 , 000 - \mathbb {S} 64 , 000}{\mathbb {S} 64 , 000}\right) = 0. 0 9 3 7 5, \quad A O R = 9. 3 7 5 \%
+A O R = \frac{360}{60} * \left(\frac{\mathbb {S} 65 , 000 - \mathbb {S} 64 , 000}{\mathbb {S} 64 , 000}\right) = 0. 0 9 3 7 5, \quad A O R = 9. 3 7 5 \%
 $$
 
 This day-count convention is rare in money markets but commonly is used for calculating the accrued interest on fixed-income bonds.
@@ -455,7 +455,7 @@ This day-count convention is rare in money markets but commonly is used for calc
 Okay, actual/370 does not really exist—but it could. After all, 370 days represents on average a year more accurately than does 360 days. Importantly, the calculated interest rate to the investor goes up. Assume 59 days in the time period.
 
 $$
-A O R = \frac {370}{59} * \left(\frac {\$ 65,000 - \$ 64,000}{\$ 64,000}\right) = 0.09799, \quad A O R = 9.799 \%
+A O R = \frac{370}{59} * \left(\frac{\$ 65,000 - \$ 64,000}{\$ 64,000}\right) = 0.09799, \quad A O R = 9.799 \%
 $$
 
 Think of the marketing possibilities for a commercial bank that uses 370 days in the year for quoting its deposit rates: "We give you five extra days in the year to earn interest!" The cash flows have not changed. The future cash flow (the  $FV$ ) is the initial amount (the  $PV$ ) multiplied by one plus the annual interest rate times the fraction of the year. For the same cash flows and number of days in the time period, raising the assumed number of days in the year lowers the fraction and "allows" the quoted annual interest rate to be higher. Why hasn't a bank thought of this?
@@ -471,7 +471,7 @@ $$
 Note that this discount rate can be restated as an equivalent 360-day add-on rate using the conversion equation 1.8, matching the earlier result.
 
 $$
-A O R = \frac {360 * 0.09387}{360 - (59 * 0.09387)} = 0.09534, \quad A O R = 9.534 \%
+A O R = \frac{360 * 0.09387}{360 - (59 * 0.09387)} = 0.09534, \quad A O R = 9.534 \%
 $$
 
 It is critically important to know the rate quotation and day-count convention when working with money market interest rates. This example demonstrates that many different money market interest rates can be used to summarize the two cash flows on the transaction. It is also important to know when one rate needs to be converted for comparison to another. For example, to convert a money market rate quoted on an actual/360 add-on basis to a full-year or 365-day basis, simply multiply by 365/360. However,
@@ -487,7 +487,7 @@ The banks finally got regulatory relief. In June 1980, commercial banks were all
 Obviously, the naive person (one who has not studied bond math) thought that  $10.50\%$  on the MMC was a better deal than  $10.25\%$  on the T-bill. What the commercial banks did not advertise was that their  $10.50\%$  was an add-on rate set by adding 25 basis points to the T-bill auction rate, which in turn was quoted on a discount rate basis. To make an apples-to-apples comparison, it is essential to convert the  $10.25\%$  discount rate to an add-on basis. Assume that the number of days was 182 and that both rates were for a 360-day year. Using the conversion formula 1.8, the equivalent add-on rate for the T-bill was  $10.81\%$ .
 
 $$
-A O R = \frac {3 6 0 * 0 . 1 0 2 5}{3 6 0 - (1 8 2 * 0 . 1 0 2 5)} = 0. 1 0 8 1
+A O R = \frac{3 6 0 * 0 . 1 0 2 5}{3 6 0 - (1 8 2 * 0 . 1 0 2 5)} = 0. 1 0 8 1
 $$
 
 The investor clearly should have chosen the T-bill. Not only was the rate of return significantly higher (10.81% compared to 10.50%), the interest income on the T-bill was exempt from state taxes while the MMC was taxed.
@@ -503,13 +503,13 @@ A commonly used bond math technique is to convert an annual percentage rate from
 The general periodicity conversion formula is shown in equation 1.9.
 
 $$
-\left(1 + \frac {A P R _ {m}}{m}\right) ^ {m} = \left(1 + \frac {A P R _ {n}}{n}\right) ^ {n} \tag {1.9}
+\left(1 + \frac{A P R_{m}}{m}\right)^{m} = \left(1 + \frac{A P R_{n}}{n}\right)^{n} \tag {1.9}
 $$
 
 $APR_{m}$  and  $APR_{n}$  are annual percentage rates for periodicities of  $m$  and  $n$ . Suppose that an interest rate is quoted at  $5.25\%$  for monthly compounding. Converted to a quarterly compounding basis, the new APR turns out to be  $5.273\%$ . This entails a periodicity conversion from  $m = 12$  to  $n = 4$  and solving for  $APR_{4}$ .
 
 $$
-\left(1 + \frac {0 . 0 5 2 5}{1 2}\right) ^ {1 2} = \left(1 + \frac {A P R _ {4}}{4}\right) ^ {4}, \quad A P R _ {4} = 0. 0 5 2 7 3
+\left(1 + \frac{0 . 0 5 2 5}{1 2}\right)^{1 2} = \left(1 + \frac{A P R_{4}}{4}\right)^{4}, \quad A P R_{4} = 0. 0 5 2 7 3
 $$
 
 The key idea is that the total return at the end of the year is the same whether one receives  $5.25\%$  paid and compounded monthly (at that same monthly
@@ -519,7 +519,7 @@ rate) or  $5.273\%$  paid and compounded quarterly (at that same quarterly rate)
 Suppose that another APR is  $5.30\%$  for semiannual compounding. Converting that rate to a quarterly basis (from  $m = 2$  to  $n = 4$ ) gives a new APR of  $5.265\%$ :
 
 $$
-\left(1 + \frac {0 . 0 5 3 0}{2}\right) ^ {2} = \left(1 + \frac {A P R _ {4}}{4}\right) ^ {4}, A P R _ {4} = 0. 0 5 2 6 5
+\left(1 + \frac{0 . 0 5 3 0}{2}\right)^{2} = \left(1 + \frac{A P R_{4}}{4}\right)^{4}, A P R_{4} = 0. 0 5 2 6 5
 $$
 
 The general rule is that converting an APR from more frequent to less frequent compounding per year (e.g., from a periodicity of 12 to 4) raises the annual interest rate (from  $5.25\%$  to  $5.273\%$ ). Likewise, converting an APR from less to more frequent compounding (2 to 4) lowers the rate ( $5.30\%$  to  $5.265\%$ ). Put on a common periodicity, we see that  $5.25\%$  with monthly compounding offers a slightly higher return than  $5.30\%$  semiannually.
@@ -527,17 +527,17 @@ The general rule is that converting an APR from more frequent to less frequent c
 Another periodicity conversion you are likely to encounter is from an APR to an effective annual rate (EAR) basis, which implicitly assumes a periodicity of 1.
 
 $$
-\left(1 + \frac {A P R _ {m}}{m}\right) ^ {m} = 1 + E A R \tag {1.10}
+\left(1 + \frac{A P R_{m}}{m}\right)^{m} = 1 + E A R \tag {1.10}
 $$
 
 For example, an APR of  $5.25\%$  having a periodicity of 12 converts to an EAR of  $5.378\%$  while the APR of  $5.30\%$  having a periodicity of 2 converts to  $5.370\%$ .
 
 $$
-\left(1 + \frac {0 . 0 5 2 5}{1 2}\right) ^ {1 2} = 1 + E A R, \quad E A R = 0. 0 5 3 7 8
+\left(1 + \frac{0 . 0 5 2 5}{1 2}\right)^{1 2} = 1 + E A R, \quad E A R = 0. 0 5 3 7 8
 $$
 
 $$
-\left(1 + \frac {0 . 0 5 3 0}{2}\right) ^ {2} = 1 + E A R, \quad E A R = 0. 0 5 3 7 0
+\left(1 + \frac{0 . 0 5 3 0}{2}\right)^{2} = 1 + E A R, \quad E A R = 0. 0 5 3 7 0
 $$
 
 Some financial calculators have the APR to EAR conversion equation already programmed (note that "EFF" is sometimes used instead of "EAR"). The APR often is called a nominal interest rate in contrast to the effective rate. This is common in textbooks and in academic presentations. The idea is that the EAR represents the total return over a year, assuming replication and interest compounding at the same rate. The APR also assumes replication but merely adds up the rates per period and neglects the impact of compounding in obtaining the annualized rate of return.
@@ -573,7 +573,7 @@ The first three BEY results confirm the reported Investment Rates; the fourth is
 Before resolving this discrepancy, we can attempt to confirm the reported Investment Rates using a conversion formula similar to equation 1.8.
 
 $$
-B E Y = \frac {3 6 5 * D R}{3 6 0 - (D a y s * D R)} \tag {1.11}
+B E Y = \frac{3 6 5 * D R}{3 6 0 - (D a y s * D R)} \tag {1.11}
 $$
 
 This directly converts a 360-day discount rate to a 365-day add-on rate.
@@ -588,19 +588,19 @@ Notice that identical results are obtained using either the cash flows or the co
 The source of the discrepancy is that the U.S. Treasury uses a different method to calculate its official Investment Rate (i.e., the bond equivalent yield) when the time to maturity exceeds six months. The BEY for the 52-week T-bill is based on this impressive formula.
 
 $$
-B E Y = \frac {- \frac {2 * D a y s}{3 6 5} + 2 * \sqrt {\left(\frac {D a y s}{3 6 5}\right) ^ {2} - \left(\frac {2 * D a y s}{3 6 5} - 1\right) * \left(1 - \frac {1 0 0}{P V}\right)}}{\frac {2 * D a y s}{3 6 5} - 1} \tag {1.12}
+B E Y = \frac{- \frac{2 * D a y s}{3 6 5} + 2 * \sqrt{\left(\frac{D a y s}{3 6 5}\right)^{2} - \left(\frac{2 * D a y s}{3 6 5} - 1\right) * \left(1 - \frac{1 0 0}{P V}\right)}}{\frac{2 * D a y s}{3 6 5} - 1} \tag {1.12}
 $$
 
 Enter Days = 364 and PV = 97.679500 to obtain the "correct" result that BEY = 2.368% for the long-dated T-bill.
 
 $$
-\begin{array}{l} B E Y = \frac {- \frac {2 * 3 6 4}{3 6 5} + 2 * \sqrt {\left(\frac {3 6 4}{3 6 5}\right) ^ {2} - \left(\frac {2 * 3 6 4}{3 6 5} - 1\right) * \left(1 - \frac {1 0 0}{9 7 . 6 7 9 5 0 0}\right)}}{\frac {2 * 3 6 4}{3 6 5} - 1} \\ = 0. 0 2 3 6 8 \\ \end{array}
+\begin{array}{l} B E Y = \frac{- \frac{2 * 3 6 4}{3 6 5} + 2 * \sqrt{\left(\frac{3 6 4}{3 6 5}\right)^{2} - \left(\frac{2 * 3 6 4}{3 6 5} - 1\right) * \left(1 - \frac{1 0 0}{9 7 . 6 7 9 5 0 0}\right)}}{\frac{2 * 3 6 4}{3 6 5} - 1} \\ = 0. 0 2 3 6 8 \\ \end{array}
 $$
 
 Where does equation 1.12 come from? Mathematically, it is the solution to this expression found using the quadratic rule.
 
 $$
-1 0 0 = P V * \left(1 + \frac {1 8 2 . 5}{3 6 5} * B E Y\right) * \left(1 + \frac {\text {D a y s} - 1 8 2 . 5}{3 6 5} * B E Y\right) \tag {1.13}
+1 0 0 = P V * \left(1 + \frac{1 8 2 . 5}{3 6 5} * B E Y\right) * \left(1 + \frac{\text{Da ys} - 1 8 2 . 5}{3 6 5} * B E Y\right) \tag {1.13}
 $$
 
 The equation is derived in the Technical Appendix. The Treasury's intent is to provide an interest rate for the T-bill that is comparable to a Treasury note or bond that would mature on the same date and that still has one more coupon payment to be made.
@@ -639,7 +639,7 @@ TABLE 1.2 Hourly Interest Rates
 To see how hourly interest rates might work, suppose a corporation makes a 52-hour,  \$5,000,000 time deposit at Bank 24/7/52. The redemption amount on the deposit can be calculated using an hourly version of equation 1.3. The corporation will receive\$ 5,001,560 when the deposit matures.
 
 $$
-F V = \$ 5,000,000 * \left[ 1 + \left(0. 0 5 2 4 1 6 * \frac {5 2}{2 4 * 3 6 4}\right) \right] = \$ 5,001,560
+F V = \$ 5,000,000 * \left[ 1 + \left(0. 0 5 2 4 1 6 * \frac{5 2}{2 4 * 3 6 4}\right) \right] = \$ 5,001,560
 $$
 
 The fraction of the year no longer is the number of days divided by the assumed number of days in the year; it becomes the number of hours for the transaction divided by the assumed number of hours in the year.
@@ -647,7 +647,7 @@ The fraction of the year no longer is the number of days divided by the assumed 
 Now suppose that 30 hours after making the time deposit, the corporation has sudden need for liquidity. Bank 24/7/52's policy is to buy back time deposits as a service to its regular corporate customers. The redemption amount is fixed once the deposit is issued. The present value of the time deposit after 30 hours have passed and 22 hours remain is again based on equation 1.3 but now solving for  $PV$ .
 
 $$
-\$ 5,001,560 = P V * \left[ 1 + \left(0.043680 * \frac {2 2}{2 4 * 3 6 4}\right) \right], \quad P V = \$ 5,001,010
+\$ 5,001,560 = P V * \left[ 1 + \left(0.043680 * \frac{2 2}{2 4 * 3 6 4}\right) \right], \quad P V = \$ 5,001,010
 $$
 
 Assuming no change in the bank's rates, the corporate customer receives \(5,001,010. Notice that this neglects the bank's bid-ask spread on money market transactions. In fact, Bank 24/7/52 likely would buy the deposit at a slightly higher rate (and lower price).
@@ -655,7 +655,7 @@ Assuming no change in the bank's rates, the corporate customer receives \(5,001,
 How did the corporation do on its short-term investment? The realized rate of return for its 30-hour holding period can be calculated with an hourly version of equation 1.4. That turns out to be  $5.8822\%$  on a 364-day add-on basis.
 
 $$
-A O R = \left(\frac {3 6 4 * 2 4}{3 0}\right) * \left(\frac {\mathbb {S} 5 , 0 0 1 , 0 1 0 - \mathbb {S} 5 , 0 0 0 , 0 0 0}{\mathbb {S} 5 , 0 0 0 , 0 0 0}\right) = 0. 0 5 8 8 2 2
+A O R = \left(\frac{3 6 4 * 2 4}{3 0}\right) * \left(\frac{\mathbb {S} 5 , 0 0 1 , 0 1 0 - \mathbb {S} 5 , 0 0 0 , 0 0 0}{\mathbb {S} 5 , 0 0 0 , 0 0 0}\right) = 0. 0 5 8 8 2 2
 $$
 
 Suppose that, for consistency, the money manager likes to convert all rates of return to a semiannual bond basis. Equation 1.9 can be used to convert that AOR to an SABB, but first one additional step is needed.
@@ -671,7 +671,7 @@ $$
 This rate is now an APR for 292 periods in the year:  $(365 * 24) / 30 = 292$ . The holding-period rate of return converted to an SABB is  $5.9856\%$ .
 
 $$
-\left(1 + \frac {0 . 0 5 8 9 8 4}{2 9 2}\right) ^ {2 9 2} = \left(1 + \frac {S A B B}{2}\right) ^ {2}, \quad S A B B = 0. 0 5 9 8 5 6
+\left(1 + \frac{0 . 0 5 8 9 8 4}{2 9 2}\right)^{2 9 2} = \left(1 + \frac{S A B B}{2}\right)^{2}, \quad S A B B = 0. 0 5 9 8 5 6
 $$
 
 # CONCLUSION
@@ -731,7 +731,7 @@ One reason for the price difference is the greater supply, and hence liquidity, 
 After dealing with money market interest rate calculations in Chapter 1, zero-coupon bond yields are a welcome relief and a return to classic time-value-of-money theory. A pricing formula for zeros is shown in equation 2.1,
 
 $$
-P V = \frac {F V}{\left(1 + \frac {A P R _ {P E R}}{P E R}\right) ^ {\text {Y e a r s} * P E R}} \tag {2.1}
+P V = \frac{F V}{\left(1 + \frac{A P R_{P E R}}{P E R}\right)^{\text{Ye ar s} * P E R}} \tag {2.1}
 $$
 
 where  $PV =$  present value, or price, of the bond,  $FV =$  future value, which usually is 100 (percent of par value) at maturity,  $Years =$  number of years to maturity,  $PER =$  periodicity—the number of evenly-spaced periods in the year; and  $APR_{PER} =$  yield to maturity, stated as an annual percentage rate corresponding to  $PER$ .
@@ -739,13 +739,13 @@ where  $PV =$  present value, or price, of the bond,  $FV =$  future value, whic
 We can now use equation 2.1 to illustrate the yield calculations for the two TIGRS. Thirty-year TIGRS priced at  $50 per$ 1,000 entail solving for  $APR_{2} = 10.239\%$ , the annual yield on a semiannual bond basis for  $PV = 50$ ,  $FV = 1,000$ , Years = 30,  $PER = 2$ .
 
 $$
-5 0 = \frac {1 , 0 0 0}{\left(1 + \frac {A P R _ {2}}{2}\right) ^ {3 0 * 2}}, \quad A P R _ {2} = 0. 1 0 2 3 9
+5 0 = \frac{1 , 0 0 0}{\left(1 + \frac{A P R_{2}}{2}\right)^{3 0 * 2}}, \quad A P R_{2} = 0. 1 0 2 3 9
 $$
 
 Fourteen-year TIGRS are priced at \$250 to yield 10.151% (s.a.).
 
 $$
-2 5 0 = \frac {1 , 0 0 0}{\left(1 + \frac {A P R _ {2}}{2}\right) ^ {1 4 * 2}}, \quad A P R _ {2} = 0. 1 0 1 5 1
+2 5 0 = \frac{1 , 0 0 0}{\left(1 + \frac{A P R_{2}}{2}\right)^{1 4 * 2}}, \quad A P R_{2} = 0. 1 0 1 5 1
 $$
 
 Such problems are easily solved using the time-value-of-money keys on a financial calculator or a spreadsheet program.
@@ -753,25 +753,25 @@ Such problems are easily solved using the time-value-of-money keys on a financia
 In this chapter, I work with a 10-year zero-coupon corporate bond that is priced at 60 (percent of par value). Its yield to maturity is  $5.174\%$  (s.a.).
 
 $$
-6 0 = \frac {1 0 0}{\left(1 + \frac {A P R _ {2}}{2}\right) ^ {1 0 * 2}}, \quad A P R _ {2} = 0. 0 5 1 7 4
+6 0 = \frac{1 0 0}{\left(1 + \frac{A P R_{2}}{2}\right)^{1 0 * 2}}, \quad A P R_{2} = 0. 0 5 1 7 4
 $$
 
 The assumption of two periods in the year, while totally arbitrary, is common in financial markets because the yield on the zero then can be compared directly to yields to maturity on traditional semiannual payment fixed-income bonds. However, there is no inherent reason why the annual yield on a zero-coupon bond cannot be calculated for quarterly, monthly, daily, or even hourly compounding. Those yields turn out to be  $5.141\%$ ,  $5.119\%$ ,  $5.109\%$ , and  $5.108\%$  using  $PER = 4$ , 12, 365, and  $365 * 24$ , respectively.
 
 $$
-6 0 = \frac {1 0 0}{\left(1 + \frac {A P R _ {4}}{4}\right) ^ {1 0 * 4}}, \quad A P R _ {4} = 0. 0 5 1 4 1
+6 0 = \frac{1 0 0}{\left(1 + \frac{A P R_{4}}{4}\right)^{1 0 * 4}}, \quad A P R_{4} = 0. 0 5 1 4 1
 $$
 
 $$
-6 0 = \frac {1 0 0}{\left(1 + \frac {A P R _ {1 2}}{1 2}\right) ^ {1 0 * 1 2}}, \quad A P R _ {1 2} = 0. 0 5 1 1 9
+6 0 = \frac{1 0 0}{\left(1 + \frac{A P R_{1 2}}{1 2}\right)^{1 0 * 1 2}}, \quad A P R_{1 2} = 0. 0 5 1 1 9
 $$
 
 $$
-6 0 = \frac {1 0 0}{\left(1 + \frac {A P R _ {3 6 5}}{3 6 5}\right) ^ {1 0 * 3 6 5}}, \quad A P R _ {3 6 5} = 0. 0 5 1 0 9
+6 0 = \frac{1 0 0}{\left(1 + \frac{A P R_{3 6 5}}{3 6 5}\right)^{1 0 * 3 6 5}}, \quad A P R_{3 6 5} = 0. 0 5 1 0 9
 $$
 
 $$
-6 0 = \frac {1 0 0}{\left(1 + \frac {A P R _ {3 6 5 * 2 4}}{3 6 5 * 2 4}\right) ^ {1 0 * 3 6 5 * 2 4}}, \quad A P R _ {3 6 5 * 2 4} = 0. 0 5 1 0 8
+6 0 = \frac{1 0 0}{\left(1 + \frac{A P R_{3 6 5 * 2 4}}{3 6 5 * 2 4}\right)^{1 0 * 3 6 5 * 2 4}}, \quad A P R_{3 6 5 * 2 4} = 0. 0 5 1 0 8
 $$
 
 Alternatively, you could convert from any one periodicity to any other using equation 1.9 from Chapter 1.
@@ -781,37 +781,37 @@ There are times in bond math when it is convenient to assume continuous compound
 compounding periods in the year. Continuous-time finance is particularly useful in interest rate term structure and option valuation models. The formula for the APR given  $PER = \infty$  and the two cash flows  $PV$  and  $FV$  involves the natural logarithm (LN):
 
 $$
-A P R _ {\infty} = \frac {1}{\text {Y e a r s}} * L N \left(\frac {F V}{P V}\right) \tag {2.2}
+A P R_{\infty} = \frac{1}{\text{Ye ar s}} * L N \left(\frac{F V}{P V}\right) \tag {2.2}
 $$
 
 The 10-year zero-coupon bond priced at 60 has a yield annualized for continuous compounding equal to  $5.108\%$ , which rounded to the nearest one-tenth of a basis point is the same as hourly compounding.
 
 $$
-A P R _ {\infty} = \frac {1}{1 0} * L N \left(\frac {1 0 0}{6 0}\right) = \frac {1}{1 0} * L N (1. 6 6 6 7) = \frac {1}{1 0} * 0. 5 1 0 8 = 0. 0 5 1 0 8
+A P R_{\infty} = \frac{1}{1 0} * L N \left(\frac{1 0 0}{6 0}\right) = \frac{1}{1 0} * L N (1. 6 6 6 7) = \frac{1}{1 0} * 0. 5 1 0 8 = 0. 0 5 1 0 8
 $$
 
 A general formula for converting from an annual rate for periodic compounding to continuous compounding is shown in equation 2.3.
 
 $$
-A P R _ {\infty} = P E R * L N \left(1 + \frac {A P R _ {P E R}}{P E R}\right) \tag {2.3}
+A P R_{\infty} = P E R * L N \left(1 + \frac{A P R_{P E R}}{P E R}\right) \tag {2.3}
 $$
 
 So, instead of working with the two cash flows, you could convert  $5.174\%$  (s.a.) directly to continuous compounding.
 
 $$
-A P R _ {\infty} = 2 * L N \left(1 + \frac {0 . 0 5 1 7 4}{2}\right) = 2 * 0. 0 2 5 5 4 = 0. 0 5 1 0 8
+A P R_{\infty} = 2 * L N \left(1 + \frac{0 . 0 5 1 7 4}{2}\right) = 2 * 0. 0 2 5 5 4 = 0. 0 5 1 0 8
 $$
 
 A conversion formula to go in the other direction uses the exponential (EXP) function.
 
 $$
-A P R _ {P E R} = P E R * \left[ E X P \left(\frac {A P R _ {\infty}}{P E R}\right) - 1 \right] \tag {2.4}
+A P R_{P E R} = P E R * \left[ E X P \left(\frac{A P R_{\infty}}{P E R}\right) - 1 \right] \tag {2.4}
 $$
 
 The quarterly compounded annual yield of  $5.141\%$  can be obtained using  $PER = 4$ .
 
 $$
-A P R _ {4} = 4 * \left[ E X P \left(\frac {0 . 0 5 1 0 8}{4}\right) - 1 \right] = 4 * [ 1. 0 1 2 8 5 - 1 ] = 0. 0 5 1 4 1
+A P R_{4} = 4 * \left[ E X P \left(\frac{0 . 0 5 1 0 8}{4}\right) - 1 \right] = 4 * [ 1. 0 1 2 8 5 - 1 ] = 0. 0 5 1 4 1
 $$
 
 # HORIZON YIELDS AND HOLDING-PERIOD RATES OF RETURN
@@ -826,19 +826,19 @@ FIGURE 2.2 Constant-Yield Price Trajectory, 10-Year, Zero-Coupon Corporate Bond 
 respectively. The prices along the constant-yield trajectory also are called the carrying values for the bond.
 
 $$
-\begin{array}{l} \frac {1 0 0}{\left(1 + \frac {0 . 0 5 1 7 4}{2}\right) ^ {8 * 2}} = 6 6. 4 5 4 \\ \frac {1 0 0}{\left(1 + \frac {0 . 0 5 1 7 4}{2}\right) ^ {3 * 2}} = 8 5. 7 9 2 \\ \end{array}
+\begin{array}{l} \frac{1 0 0}{\left(1 + \frac{0 . 0 5 1 7 4}{2}\right)^{8 * 2}} = 6 6. 4 5 4 \\ \frac{1 0 0}{\left(1 + \frac{0 . 0 5 1 7 4}{2}\right)^{3 * 2}} = 8 5. 7 9 2 \\ \end{array}
 $$
 
 When the investor is able to sell the corporate zero at a yield less than  $5.174\%$  (s.a.), the sale price will be above the trajectory and there will be a capital gain. For example, suppose that the investor sells the zero at year 2 for a price of 68 (percent of par value). At that time, the now 8-year corporate zero is trading at  $4.879\%$  (s.a.).
 
 $$
-6 8 = \frac {1 0 0}{\left(1 + \frac {A P R _ {2}}{2}\right) ^ {8 * 2}}, \quad A P R _ {2} = 0. 0 4 8 7 9
+6 8 = \frac{1 0 0}{\left(1 + \frac{A P R_{2}}{2}\right)^{8 * 2}}, \quad A P R_{2} = 0. 0 4 8 7 9
 $$
 
 The investor's realized 2-year holding-period rate of return turns out to be  $6.357\%$  (s.a.), which is greater than the original yield of  $5.174\%$  because the price is above the constant-yield trajectory.
 
 $$
-6 0 = \frac {6 8}{\left(1 + \frac {A P R _ {2}}{2}\right) ^ {2 * 2}}, \quad A P R _ {2} = 0. 0 6 3 5 7
+6 0 = \frac{6 8}{\left(1 + \frac{A P R_{2}}{2}\right)^{2 * 2}}, \quad A P R_{2} = 0. 0 6 3 5 7
 $$
 
 Notice that we set  $FV$  equal to 68—the redemption value of 100 is irrelevant here because the bond is sold for 68.
@@ -850,13 +850,13 @@ price above or below the carrying value. We see in Chapter 4 when we get into bo
 Now suppose that the investor does not sell after two years and instead holds on to the bond for seven years. At that time, the now 3-year corporate zero is sold for 83 because it is being priced to yield  $6.308\%$  (s.a.).
 
 $$
-8 3 = \frac {1 0 0}{\left(1 + \frac {A P R _ {2}}{2}\right) ^ {3 * 2}}, \quad A P R _ {2} = 0. 0 6 3 0 8
+8 3 = \frac{1 0 0}{\left(1 + \frac{A P R_{2}}{2}\right)^{3 * 2}}, \quad A P R_{2} = 0. 0 6 3 0 8
 $$
 
 The investor's realized 7-year holding-period rate of return is  $4.690\%$  (s.a.), which is less than  $5.174\%$  because the sale price is below the trajectory.
 
 $$
-6 0 = \frac {8 3}{\left(1 + \frac {A P R _ {2}}{2}\right) ^ {7 * 2}}, \quad A P R _ {2} = 0. 0 4 6 9 0
+6 0 = \frac{8 3}{\left(1 + \frac{A P R_{2}}{2}\right)^{7 * 2}}, \quad A P R_{2} = 0. 0 4 6 9 0
 $$
 
 In this case, there is a capital loss even though the investor buys at 60 and sells later at the much higher price of 83. The relevant comparison is between 83 and 85.792, the carrying value on the constant-yield price trajectory.
@@ -878,7 +878,7 @@ Let's now revisit the example in which the investor buys the 10-year corporate z
 The strategy of buying a longer-maturity bond with the intent to sell prior to maturity is known as riding, or rolling down, the yield curve. This can be very attractive when short-term rates are lower than long-term rates. The risk is that yields are higher when the bond needs be sold. To test out this strategy, let's assume that at first 2-year corporate zeros are priced at 95 to yield only  $2.581\%$  (s.a.).
 
 $$
-9 5 = \frac {1 0 0}{\left(1 + \frac {A P R _ {2}}{2}\right) ^ {2 * 2}}, \quad A P R _ {2} = 0. 0 2 5 8 1
+9 5 = \frac{1 0 0}{\left(1 + \frac{A P R_{2}}{2}\right)^{2 * 2}}, \quad A P R_{2} = 0. 0 2 5 8 1
 $$
 
 The lure of buying the 10-year zero yielding  $5.174\%$  is apparent.
@@ -888,13 +888,13 @@ A breakeven rate is very useful in assessing the risk in the "maturity extension
 to ride or roll down the yield curve underperforms the more direct horizon-matching alternative. That price turns out to be 63.158.
 
 $$
-6 0 = \frac {F V}{\left(1 + \frac {0 . 0 2 5 8 1}{2}\right) ^ {2 * 2}}, \quad F V = 6 3. 1 5 8
+6 0 = \frac{F V}{\left(1 + \frac{0 . 0 2 5 8 1}{2}\right)^{2 * 2}}, \quad F V = 6 3. 1 5 8
 $$
 
 Note that the 10-year zero would generate 6.454 in interest income over the two years because the price on the constant-yield price trajectory is 66.454. So, the strategy does well as long as the capital loss is no more than 3.296 (= 66.454 - 63.158). That price corresponds to a breakeven yield of 5.827% on 8-year corporate zeros.
 
 $$
-6 3. 1 5 8 = \frac {1 0 0}{\left(1 + \frac {A P R _ {2}}{2}\right) ^ {8 * 2}}, \quad A P R _ {2} = 0. 0 5 8 2 7
+6 3. 1 5 8 = \frac{1 0 0}{\left(1 + \frac{A P R_{2}}{2}\right)^{8 * 2}}, \quad A P R_{2} = 0. 0 5 8 2 7
 $$
 
 The investor's choice so far is: Buy the 2-year zero and lock in a horizon yield of  $2.581\%$ , assuming no default, or buy the 10-year zero and achieve a higher rate of return if 8-year yields turn out to be less than the breakeven rate of  $5.827\%$ , again assuming no default. If the current 8-year yield is  $4.879\%$ , there is a cushion of 94.8 basis points:  $5.827\% - 4.879\% = 0.948\%$ . Obviously, the investor could consider other alternatives as well, for instance, buying the 3-year or 5-year corporate zero. The breakeven rates on those give the investor a full range of maturity choices, each having its own risk profile.
@@ -917,7 +917,7 @@ A nice application of bond math is to infer the probability of default given the
 assumptions are needed. Let's assume that a 10-year risk-free zero-coupon government bond is priced at 64 (percent of par value) to yield  $4.513\%$  (s.a.).
 
 $$
-6 4 = \frac {1 0 0}{\left(1 + \frac {A P R _ {2}}{2}\right) ^ {1 0 * 2}}, \quad A P R _ {2} = 0. 0 4 5 1 3
+6 4 = \frac{1 0 0}{\left(1 + \frac{A P R_{2}}{2}\right)^{1 0 * 2}}, \quad A P R_{2} = 0. 0 4 5 1 3
 $$
 
 The credit spread on the 10-year corporate zero priced to yield  $5.174\%$  (s.a.) is 66.1 basis points:  $5.174\% - 4.513\% = 0.661\%$ .
@@ -925,7 +925,7 @@ The credit spread on the 10-year corporate zero priced to yield  $5.174\%$  (s.a
 The probability-of-default calculation is carried out in Table 2.1. Essentially, we build a table showing the loss if the bond were to default in any given year. We assume the probability that the bond defaults at the end of the year is  $Q$ . The third column shows the value of the corporate bond if it were risk-free. This column is just the constant-yield price trajectory on the zero-coupon bond assuming the yield is  $4.513\%$  (s.a.). The price rises smoothly from 64 at day zero to 100 at maturity. For example, at the end of year 7, when three years remain, the risk-free value of the bond would be 87.469.
 
 $$
-\frac {1 0 0}{\left(1 + \frac {0 . 0 4 5 1 3}{2}\right) ^ {3 * 2}} = 8 7. 4 6 9
+\frac{1 0 0}{\left(1 + \frac{0 . 0 4 5 1 3}{2}\right)^{3 * 2}} = 8 7. 4 6 9
 $$
 
 TABLE 2.1 Calculating the Probability of Default  
@@ -937,7 +937,7 @@ A particularly important and sensitive assumption is the recovery rate, which he
 The fifth column is the loss at that time if default occurs—it is the risk-free value minus recovery. The present value of the default loss is shown in the sixth column. The risk-free rate is used to discount the losses. For example, if the bond were to default at the end of year 5, the loss would be 48.000. The present value of that loss is 38.400.
 
 $$
-\frac {4 8 . 0 0 0}{\left(1 + \frac {0 . 0 4 5 1 3}{2}\right) ^ {5 * 2}} = 3 8. 4 0 0
+\frac{4 8 . 0 0 0}{\left(1 + \frac{0 . 0 4 5 1 3}{2}\right)^{5 * 2}} = 3 8. 4 0 0
 $$
 
 Here the present values turn out to be the same for each year—that's because the bond is zero-coupon and the recovery rate is assumed to be a constant share of the loss. When we revisit this calculation in Chapter 3 for coupon bonds, this is not the case.
@@ -951,7 +951,7 @@ the same liquidity and taxation as the corporate but default risk that approache
 An approximation for the implied default probability directly uses the credit spread.
 
 $$
-\text {D e f a u l t P r o b a b i l i t y} \approx \frac {\text {C r e d i t S p r e a d}}{1 - \text {R e c o v e r y R a t e}} \tag {2.5}
+\text{De fa ul tP ro ba bi li ty} \approx \frac{\text{Cr ed it Sp re ad}}{1 - \text{Re co ve ry Ra te}} \tag {2.5}
 $$
 
 Here the credit spread is 66.1 basis points and the recovery rate is assumed to be  $40\%$ . This approximation would be an annual default probability of  $1.10\%$ ,  $[(0.00661 / (1 - 0.40) = 0.0110]$ . Although the two results are close, the advantage of the tabular method shown in Table 2.1 is its flexibility and explicit use of the time value of money. You can easily vary the recovery rate across the years, for example, if it is assumed that the current fixed assets of the issuer depreciate over time, or if there is an impending legal change that could affect creditors' rights in bankruptcy court. Also, you could introduce a term structure of risk-free rates instead of the flat yield curve assumed in the example.
@@ -998,13 +998,13 @@ The same ideas are expressed in Figure 3.2b, which tracks the bond arrow in the 
 Now suppose that suddenly there is unexpected news about global commodity prices, lowering the expected inflation rate from  $2\%$  to  $1\%$ . If the nominal interest rate stays at  $4.2\%$ , the expected real rate of interest goes up from about  $2.2\%$  to  $3.2\%$ —that's good for lenders, but bad for borrowers. That statement uses the standard decomposition of a nominal interest rate into the expected real rate and the expected inflation rate.
 
 $$
-(1 + \text {N o m i n a l r a t e}) = (1 + \text {E x p e c t e d r e a l r a t e}) * (1 + \text {E x p e c t e d i n f l a t i o n r a t e}) \tag {3.1}
+(1 + \text{No mi na lr at e}) = (1 + \text{Ex pe ct ed re al ra te}) * (1 + \text{Ex pe ct ed in fl at io nr at e}) \tag {3.1}
 $$
 
 When the inflation rate is low, the cross-product term often is neglected.
 
 $$
-\text {N o m i n a l r a t e} \approx \text {E x p e c t e d r e a l r a t e} + \text {E x p e c t e d i n f l a t i o n r a t e} \tag {3.2}
+\text{No mi na lr at e} \approx \text{Ex pe ct ed re al ra te} + \text{Ex pe ct ed in fl at io nr at e} \tag {3.2}
 $$
 
 Some economists will quibble with these expressions, arguing that there should be a term for a risk premium on the right side of both. Their idea is that the nominal rate should include compensation for the expected real rate of return and inflation as well as uncertainty about those expectations.
@@ -1036,7 +1036,7 @@ It's common in no-arbitrage valuation to neglect transactions costs and to assum
 Those caveats aside, let's now determine the no-arbitrage price for a 4-year,  $4\%$  annual coupon payment corporate bond in three different scenarios, neglecting transactions costs. First, assume that the sequence of zero-coupon bond yields is  $3.500\%$ ,  $3.800\%$ ,  $4.100\%$ , and  $4.200\%$ , an upward-sloping spot curve. ("Spot rate" is a commonly used synonym for zero-coupon rate.) Discounting each of the cash flows at the corresponding spot rate produces a bond price of 99.342 (percent of par value).
 
 $$
-\frac {4}{(1 . 0 3 5 0 0) ^ {1}} + \frac {4}{(1 . 0 3 8 0 0) ^ {2}} + \frac {4}{(1 . 0 4 1 0 0) ^ {3}} + \frac {1 0 4}{(1 . 0 4 2 0 0) ^ {4}} = 9 9. 3 4 2
+\frac{4}{(1 . 0 3 5 0 0)^{1}} + \frac{4}{(1 . 0 3 8 0 0)^{2}} + \frac{4}{(1 . 0 4 1 0 0)^{3}} + \frac{1 0 4}{(1 . 0 4 2 0 0)^{4}} = 9 9. 3 4 2
 $$
 
 TABLE 3.1 A Yield-to-Maturity and Several Zero-Coupon Curves  
@@ -1046,13 +1046,13 @@ TABLE 3.1 A Yield-to-Maturity and Several Zero-Coupon Curves
 Second, assume that the zero-coupon rates instead are  $4.920\%$ ,  $4.690\%$ ,  $4.300\%$ , and  $4.160\%$ , a downward-sloping spot curve. It's no surprise to those who see where this is going that the bond price turns out once again to be 99.342.
 
 $$
-\frac {4}{(1 . 0 4 9 2 0) ^ {1}} + \frac {4}{(1 . 0 4 6 9 0) ^ {2}} + \frac {4}{(1 . 0 4 3 0 0) ^ {3}} + \frac {1 0 4}{(1 . 0 4 1 6 0) ^ {4}} = 9 9. 3 4 2
+\frac{4}{(1 . 0 4 9 2 0)^{1}} + \frac{4}{(1 . 0 4 6 9 0)^{2}} + \frac{4}{(1 . 0 4 3 0 0)^{3}} + \frac{1 0 4}{(1 . 0 4 1 6 0)^{4}} = 9 9. 3 4 2
 $$
 
 Third, to complete the example, suppose that the zero-coupon yield curve is remarkably flat at  $4.182\%$ .
 
 $$
-\frac {4}{(1 . 0 4 1 8 2) ^ {1}} + \frac {4}{(1 . 0 4 1 8 2) ^ {2}} + \frac {4}{(1 . 0 4 1 8 2) ^ {3}} + \frac {1 0 4}{(1 . 0 4 1 8 2) ^ {4}} = 9 9. 3 4 2
+\frac{4}{(1 . 0 4 1 8 2)^{1}} + \frac{4}{(1 . 0 4 1 8 2)^{2}} + \frac{4}{(1 . 0 4 1 8 2)^{3}} + \frac{1 0 4}{(1 . 0 4 1 8 2)^{4}} = 9 9. 3 4 2
 $$
 
 Table 3.1 shows output from the spreadsheet that I used to concoct these examples by trial and error, including a set of spot rates left out of the text. Note that the present value of each future cash flow differs but all sum to 99.342.
@@ -1072,7 +1072,7 @@ The key point is that the yield-to-maturity statistic boils the many cash flows 
 Equation 3.3 presents the generalization of the bond pricing equation.
 
 $$
-P V = \frac {P M T}{\left(1 + z _ {1}\right) ^ {1}} + \frac {P M T}{\left(1 + z _ {2}\right) ^ {2}} + \dots + \frac {P M T + F V}{\left(1 + z _ {N}\right) ^ {N}} \tag {3.3}
+P V = \frac{P M T}{\left(1 + z_{1}\right)^{1}} + \frac{P M T}{\left(1 + z_{2}\right)^{2}} + \dots + \frac{P M T + F V}{\left(1 + z_{N}\right)^{N}} \tag {3.3}
 $$
 
 where  $PV$  is the no-arbitrage value of the  $N$ -period bond—the sum of the present values of the cash flows, each of which is discounted using the
@@ -1082,19 +1082,19 @@ zero-coupon rate that corresponds to the period  $(z_{1}, z_{2}, \ldots, z_{N})$
 The yield to maturity  $(y)$  per period is the internal rate of return given the cash flows.
 
 $$
-P V = \frac {P M T}{(1 + y) ^ {1}} + \frac {P M T}{(1 + y) ^ {2}} + \dots + \frac {P M T + F V}{(1 + y) ^ {N}} \tag {3.4}
+P V = \frac{P M T}{(1 + y)^{1}} + \frac{P M T}{(1 + y)^{2}} + \dots + \frac{P M T + F V}{(1 + y)^{N}} \tag {3.4}
 $$
 
 Comparing equations 3.3 and 3.4, we see why the bond yield can be interpreted as a "weighted average" of the zero-coupon rates—the  $PV$ ,  $PMT$ ,  $FV$ , and  $N$  are the same. Doing some algebra (i.e., taking the sum of the finite geometric series) allows this rearrangement. The steps are shown in the Technical Appendix.
 
 $$
-P V = \frac {P M T}{y} * \left[ 1 - \frac {1}{(1 + y) ^ {N}} \right] + \frac {F V}{(1 + y) ^ {N}} \tag {3.5}
+P V = \frac{P M T}{y} * \left[ 1 - \frac{1}{(1 + y)^{N}} \right] + \frac{F V}{(1 + y)^{N}} \tag {3.5}
 $$
 
 Equation 3.5 is programmed into financial calculators for time-value-of-money problems. But first a couple of changes are usually made.
 
 $$
-0 = + P V + \frac {P M T}{y / 1 0 0} * \left[ 1 - \frac {1}{(1 + y / 1 0 0) ^ {N}} \right] + \frac {F V}{(1 + y / 1 0 0) ^ {N}} \tag {3.6}
+0 = + P V + \frac{P M T}{y / 1 0 0} * \left[ 1 - \frac{1}{(1 + y / 1 0 0)^{N}} \right] + \frac{F V}{(1 + y / 1 0 0)^{N}} \tag {3.6}
 $$
 
 In equation 3.6, the interest rate per period is divided by 100 so that it can be entered as a percentage, not as a decimal. Also, the sum of the three terms is zero so that at least one of  $PV$ ,  $PMT$ , or  $FV$  must be entered as a negative. That allows for the interpretation that negative inputs imply cash outflows and positive inputs are inflows. I've found that for bond math calculations, it's best to use  $PV$  as negative and  $PMT$  and  $FV$  as positive, thereby taking the perspective of the fixed-income investor.
@@ -1102,7 +1102,7 @@ In equation 3.6, the interest rate per period is divided by 100 so that it can b
 An algebraic rearrangement of 3.5 is shown in equation 3.7.
 
 $$
-\frac {P V - F V}{F V} = \frac {c - y}{y} * \left[ 1 - \frac {1}{(1 + y) ^ {N}} \right] \tag {3.7}
+\frac{P V - F V}{F V} = \frac{c - y}{y} * \left[ 1 - \frac{1}{(1 + y)^{N}} \right] \tag {3.7}
 $$
 
 Here  $c$  is the coupon rate per period,  $PMT / FV$ . This expression indicates the connection between the price of the bond vis-à-vis par value and the coupon rate vis-à-vis the yield to maturity. These are the well-known (and well-remembered) rules: (1) If the bond is priced at par value  $(PV = FV)$ , the coupon rate and the yield to maturity are equal  $(c = y)$ ; (2) if the price is a discount below par value  $(PV < FV)$ , the coupon rate is less than the yield  $(c < y)$ ; and (3) if the price is a premium above par value  $(PV > FV)$ , the coupon rate is greater than the yield  $(c > y)$ . These rules apply to a coupon payment date when  $N$  is an integer. It will have to be revised slightly for settlement dates between coupon payments—more on that later in the chapter.
@@ -1114,7 +1114,7 @@ At this point I cannot resist relating bond pricing to assessing a person's qual
 Let's go back to the  $4\%$ , 4-year bond that is priced at 99.342. The bond's yield-to-maturity statistic, which also is called the redemption yield, is  $4.182\%$ . That is not the only yield statistic that can be used to describe the investor's rate of return. Another is known as the current yield, but I've also seen it named the running yield and the income yield. It is the annual coupon payment divided by the price of the bond. Here the current yield is  $4.0265\%$ .
 
 $$
-\frac {4}{9 9 . 3 4 2} = 0. 0 4 0 2 6 5
+\frac{4}{9 9 . 3 4 2} = 0. 0 4 0 2 6 5
 $$
 
 I've always imagined that the current yield is a statistic created by a former equity trader because it is analogous to a stock's dividend yield. However, it is severely lacking as a measure of the rate of return on a bond. The numerator is the sum of the periodic coupon payments over the year and neglects the time value of money. A  $4\%$  bond that pays its coupon interest quarterly would have the same current yield as this one that pays annually if it also were priced at 99.342. Moreover, the denominator neglects the inevitable pull-to-par effect that moves the price over time toward par value, assuming no change in the probability of default. If the investor planned
@@ -1124,19 +1124,19 @@ to sell the bond after a year, a horizon yield would provide a much better estim
 Another statistic sometimes reported for a bond is the simple yield. This one is also called the Japanese simple yield because sometimes it is used to quote JGBs (Japanese government bonds). Imagine a bond analyst (in Tokyo) looking at the current yield and thinking, "I've got to fix that numerator." To get a better projected rate of return for a buy-and-hold investor, add the straight-line amortization of the gain (from buying at a discount) or loss (from buying at a premium). The simple yield on this bond is  $4.192\%$ .
 
 $$
-\frac {4 + \left(\frac {1 0 0 - 9 9 . 3 4 2}{4}\right)}{9 9 . 3 4 2} = 0. 0 4 1 9 2
+\frac{4 + \left(\frac{1 0 0 - 9 9 . 3 4 2}{4}\right)}{9 9 . 3 4 2} = 0. 0 4 1 9 2
 $$
 
 Investments textbooks back in the olden days (before financial calculators and spreadsheets) used to demonstrate how to approximate the yield to maturity. Remember that an internal rate of return has no closed-form equation and needs to be obtained by trial-and-error search. Imagine another (now very old) bond analyst looking at the simple yield and thinking, "I've got to fix that denominator." To get an improved rate of return statistic, use the average of the current price and the redemption payment. The approximate yield turns out to be  $4.178\%$ .
 
 $$
-\frac {4 + \left(\frac {1 0 0 - 9 9 . 3 4 2}{4}\right)}{\frac {9 9 . 3 4 2 + 1 0 0}{2}} = 0. 0 4 1 7 8
+\frac{4 + \left(\frac{1 0 0 - 9 9 . 3 4 2}{4}\right)}{\frac{9 9 . 3 4 2 + 1 0 0}{2}} = 0. 0 4 1 7 8
 $$
 
 Although the approximate yield is not reported in practice, it is used behind the scenes—better said, under the keypad of a financial calculator or buried in the programming of a spreadsheet. It can be written generally using our notation.
 
 $$
-\text {A p p r o x i m a t e} \quad \text {Y i e l d} = \frac {\text {P M T} + \left(\frac {\text {F V} - \text {P V}}{N}\right)}{\frac {\text {P V} + \text {F V}}{2}} \tag {3.8}
+\text{Ap pr ox im at e} \quad \text{Yi el d} = \frac{\text{PM T} + \left(\frac{\text{FV} - \text{PV}}{N}\right)}{\frac{\text{PV} + \text{FV}}{2}} \tag {3.8}
 $$
 
 When you use a calculator or spreadsheet program to solve for the yield when  $PV$  is not equal to  $FV$ , the approximate yield is the starting place for the trial-and-error search process. Note that if  $PV = FV$ , the approximate yield reduces to just  $PMT / FV$  (i.e., the coupon rate).
@@ -1144,13 +1144,13 @@ When you use a calculator or spreadsheet program to solve for the yield when  $P
 Other yield statistics that might be used to summarize this  $4\%$ , 4-year bond involve converting the periodicity. Because this bond has annual coupon payments, the yield to maturity of  $4.182\%$  is an effective annual rate. Equation 1.10 can be used to convert to semiannually, quarterly, monthly, and daily compounded annual yields of  $4.139\%$ ,  $4.118\%$ ,  $4.104\%$ , and  $4.097\%$ , respectively. Here is the conversion from compounding annually to monthly.
 
 $$
-\left(1 + \frac {A P R _ {1 2}}{1 2}\right) ^ {1 2} = 1. 0 4 1 8 2, \quad A P R _ {1 2} = 0. 0 4 1 0 4
+\left(1 + \frac{A P R_{1 2}}{1 2}\right)^{1 2} = 1. 0 4 1 8 2, \quad A P R_{1 2} = 0. 0 4 1 0 4
 $$
 
 Equation 2.3 can be used to show that there is not much difference between continuous and daily compounding. This is the conversion to compounding continuously from compounding monthly.
 
 $$
-A P R _ {\infty} = 1 2 * L N \left(1 + \frac {0 . 0 4 1 0 4}{1 2}\right) = 0. 0 4 0 9 7
+A P R_{\infty} = 1 2 * L N \left(1 + \frac{0 . 0 4 1 0 4}{1 2}\right) = 0. 0 4 0 9 7
 $$
 
 These yield-to-maturity statistics, regardless of the periodicity, are all stated in what is called street convention. That means we neglect the actual timing of cash flows in terms of weekends and holidays. For example, if the  $4\%$ , 4-year bond was purchased for settlement on December 15, 2010 (a Wednesday) and matures on December 15, 2014 (a Monday), we assume the investor received the intervening coupon payments on December 15, 2011 (a Thursday), 2012 (a Saturday), and 2013 (a Sunday). In reality, those last two payments would have been made on the next Monday. Even though the timing of the payment is delayed, the payment amount represents interest accrued through December 15.
@@ -1158,7 +1158,7 @@ These yield-to-maturity statistics, regardless of the periodicity, are all state
 In contrast to the simplifying street convention assumptions, the true yield statistic solves for the internal rate of return given the specific calendar dates for cash flows, based on some schedule of bank holidays (e.g., London, New York, Tokyo). Using these assumed dates, the true yield is the solution for true in this equation.
 
 $$
-\begin{array}{l} \frac {4}{(1 + \text {t r u e}) ^ {3 6 5 / 3 6 5}} + \frac {4}{(1 + \text {t r u e}) ^ {7 3 3 / 3 6 5}} + \frac {4}{(1 + \text {t r u e}) ^ {1 , 0 9 7 / 3 6 5}} \\ + \frac {1 0 4}{(1 + t r u e) ^ {1 , 4 6 1 / 3 6 5}} = 9 9. 3 4 2 \\ \end{array}
+\begin{array}{l} \frac{4}{(1 + \text{tr ue})^{3 6 5 / 3 6 5}} + \frac{4}{(1 + \text{tr ue})^{7 3 3 / 3 6 5}} + \frac{4}{(1 + \text{tr ue})^{1 , 0 9 7 / 3 6 5}} \\ + \frac{1 0 4}{(1 + t r u e)^{1 , 4 6 1 / 3 6 5}} = 9 9. 3 4 2 \\ \end{array}
 $$
 
 This calculation uses an actual/365 day-count format. For example, there actually were 733 days between purchase on Wednesday, December 15, 2010, and the second coupon payment on Monday, December 17, 2012. That includes the two additional days for delayed payment from Saturday to Monday, plus a leap day. Solving this on a spreadsheet gives a true yield of  $4.179\%$ , a little lower than the street convention yield because of the delay in the receipt of payment. In essence, the street convention yield entails solving for the internal rate of return using integers (1, 2, 3, and 4) for the exponents in the denominator whereas the true yield uses nonintegers (1, 2.008219, 3.005479, and 4.002740).
@@ -1185,35 +1185,35 @@ The objective here is to see the connection between the HPR and the traditional 
 coupon payments plus the final coupon and principal. The first coupon is reinvested for three years, the second for two years, and the third for one year.
 
 $$
-[ 4 * (1 + C R R) ^ {3} ] + [ 4 * (1 + C R R) ^ {2} ] + [ 4 * (1 + C R R) ] + 1 0 4
+[ 4 * (1 + C R R)^{3} ] + [ 4 * (1 + C R R)^{2} ] + [ 4 * (1 + C R R) ] + 1 0 4
 $$
 
 Suppose that  $\mathrm{CRR} = \mathrm{YTM} = 4.182\%$ , so that the investor reinvests all cash flows at the original yield to maturity. The total return is 117.032 (percent of par value).
 
 $$
-[ 4 * (1. 0 4 1 8 2) ^ {3} ] + [ 4 * (1. 0 4 1 8 2) ^ {2} ] + [ 4 * (1. 0 4 1 8 2) ] + 1 0 4 = 1 1 7. 0 3 2
+[ 4 * (1. 0 4 1 8 2)^{3} ] + [ 4 * (1. 0 4 1 8 2)^{2} ] + [ 4 * (1. 0 4 1 8 2) ] + 1 0 4 = 1 1 7. 0 3 2
 $$
 
 You probably can guess where this is going. Now solve for the horizon yield—the annual rate of return that connects the purchase price and the total return at maturity. It is the solution for  $HPR$  in this expression.
 
 $$
-9 9. 3 4 2 = \frac {1 1 7 . 0 3 2}{(1 + H P R) ^ {4}}, \quad H P R = 0. 0 4 1 8 2
+9 9. 3 4 2 = \frac{1 1 7 . 0 3 2}{(1 + H P R)^{4}}, \quad H P R = 0. 0 4 1 8 2
 $$
 
 This equation shows the well-known result that the yield to maturity measures the investor's rate of return only if the coupons are reinvested at that same yield. This is a standard caveat for internal rates of return in general. We can formalize this as:
 
 $$
-\text {I f} \mathrm {C R R} = \mathrm {Y T M}, \quad \text {t h e n} \quad \mathrm {H P R} = \mathrm {Y T M}.
+\text{If} \mathrm{CR R} = \mathrm{YT M}, \quad \text{th en} \quad \mathrm{HP R} = \mathrm{YT M}.
 $$
 
 The corollaries are that:
 
 $$
-\text {I f} \mathrm {C R R} > \mathrm {Y T M}, \quad \text {t h e n} \quad \mathrm {H P R} > \mathrm {Y T M}.
+\text{If} \mathrm{CR R} > \mathrm{YT M}, \quad \text{th en} \quad \mathrm{HP R} > \mathrm{YT M}.
 $$
 
 $$
-\text {I f} \quad \mathrm {C R R} <   \mathrm {Y T M}, \quad \text {t h e n} \quad \mathrm {H P R} <   \mathrm {Y T M}.
+\text{If} \quad \mathrm{CR R} <   \mathrm{YT M}, \quad \text{th en} \quad \mathrm{HP R} <   \mathrm{YT M}.
 $$
 
 This is the essence of coupon reinvestment risk—assuming no default, the buy-and-hold investor's rate of return depends on the rate at which coupons can be reinvested over the lifetime of the bond.
@@ -1237,7 +1237,7 @@ In Chapter 2, we worked through the calculation of the implied probability of de
 Suppose that the appropriate risk-free yield curve is flat at  $3.50\%$ . Then our 4-year,  $4\%$  annual payment corporate bond would be worth 101.837 (percent of par value) if there was no risk of default.
 
 $$
-\frac {4}{(1 . 0 3 5 0) ^ {1}} + \frac {4}{(1 . 0 3 5 0) ^ {2}} + \frac {4}{(1 . 0 3 5 0) ^ {3}} + \frac {1 0 4}{(1 . 0 3 5 0) ^ {4}} = 1 0 1. 8 3 7
+\frac{4}{(1 . 0 3 5 0)^{1}} + \frac{4}{(1 . 0 3 5 0)^{2}} + \frac{4}{(1 . 0 3 5 0)^{3}} + \frac{1 0 4}{(1 . 0 3 5 0)^{4}} = 1 0 1. 8 3 7
 $$
 
 As the bond is priced at 99.342, the investor's compensation for bearing the credit risk of the corporate issuer is the difference between the prices:  $101.837 - 99.342 = 2.495$  (percent of par value).
@@ -1245,7 +1245,7 @@ As the bond is priced at 99.342, the investor's compensation for bearing the cre
 Table 3.2 displays the present values of the loss after recovery for each year. The annual (unconditional) probability of default is  $Q$ , and we assume default occurs only on a coupon payment date. Consider an event of default at the end of the second year just before the coupon payment. The bond would be worth 104.950 (percent of par value) at that time if it were default free.
 
 $$
-\frac {4}{(1 . 0 3 5 0)} + \frac {1 0 4}{(1 . 0 3 5 0) ^ {2}} + 4 = 1 0 4. 9 5 0
+\frac{4}{(1 . 0 3 5 0)} + \frac{1 0 4}{(1 . 0 3 5 0)^{2}} + 4 = 1 0 4. 9 5 0
 $$
 
 The loss before recovery would be the value of the remaining two years discounted at the risk-free rate plus the coupon payment due on that date.
@@ -1265,7 +1265,7 @@ It's finally time to get realistic about bond prices and yields. So far in this 
 Extending basic bond math to between coupon dates is not hard conceptually, although some real-world accommodations are made. Suppose that the current coupon period covers  $T$  days and that the bond is being priced for settlement  $t$  days into the period. Therefore,  $t / T$  is the fraction of the period that has gone by and  $1 - t / T$  is the fraction that remains. Here is a general version of equation 3.4, discounting the coupon payments (PMT) and principal redemption (FV) over the remaining  $N$  payments at the yield to maturity per period  $(y)$ .
 
 $$
-F l a t + A I = \frac {P M T}{(1 + y) ^ {1 - t / T}} + \frac {P M T}{(1 + y) ^ {2 - t / T}} + \dots + \frac {P M T + F V}{(1 + y) ^ {N - t / T}} \tag {3.9}
+F l a t + A I = \frac{P M T}{(1 + y)^{1 - t / T}} + \frac{P M T}{(1 + y)^{2 - t / T}} + \dots + \frac{P M T + F V}{(1 + y)^{N - t / T}} \tag {3.9}
 $$
 
 On the right side of equation 3.9, the next coupon payment is discounted back over the fraction of the period  $(1 - t / T)$  until that cash flow is
@@ -1283,7 +1283,7 @@ Determining the fraction  $t / T$  is not an obvious matter because it depends o
 Multiply the numerator and denominator by  $(1 + y)^{t / T}$  in equation 3.9 and substitute in equations 3.5 and 3.10 to get a general closed-form relationship between the present and future cash flows and the yield-to-maturity statistic.
 
 $$
-F l a t + (t / T * P M T) = \left[ \frac {P M T}{y} * \left(1 - \frac {1}{(1 + y) ^ {N}}\right) + \frac {F V}{(1 + y) ^ {N}} \right] * (1 + y) ^ {t / T} \tag {3.11}
+F l a t + (t / T * P M T) = \left[ \frac{P M T}{y} * \left(1 - \frac{1}{(1 + y)^{N}}\right) + \frac{F V}{(1 + y)^{N}} \right] * (1 + y)^{t / T} \tag {3.11}
 $$
 
 This equation can be used to solve for the street convention yield to maturity because the key assumption that payments are made on calendar dates without regard to weekends and holidays means that  $N$  is an integer. An important point is that the same fraction  $t / T$  is used on both sides of the equation whether the bond is a Treasury using the actual/actual day-count convention or a corporate using 30/360.
@@ -1295,7 +1295,7 @@ clarify this. Let's assume that an  $8\%$ , semiannual payment high-yield corpor
 Substitute into equation 3.11  $t / T = 89 / 180$  (the corporate bond uses a 30/360 day-count for accrued interest),  $PMT = 4$  (percent of par value),  $y = 0.04$  (the yield to maturity per semiannual period),  $FV = 100$  (percent of par value), and  $N = 20$  (semiannual periods to maturity as of the beginning of the period).
 
 $$
-\begin{array}{l} F l a t + (8 9 / 1 8 0 * 4) = \left[ \frac {4}{0 . 0 4} * \left(1 - \frac {1}{(1 . 0 4) ^ {2 0}}\right) + \frac {1 0 0}{(1 . 0 4) ^ {2 0}} \right] * (1. 0 4) ^ {8 9 / 1 8 0} \\ F l a t = 9 9. 9 8 0 3 9 4 \\ \end{array}
+\begin{array}{l} F l a t + (8 9 / 1 8 0 * 4) = \left[ \frac{4}{0 . 0 4} * \left(1 - \frac{1}{(1 . 0 4)^{2 0}}\right) + \frac{1 0 0}{(1 . 0 4)^{2 0}} \right] * (1. 0 4)^{8 9 / 1 8 0} \\ F l a t = 9 9. 9 8 0 3 9 4 \\ \end{array}
 $$
 
 The accrued interest is 1.977778  $[= 89 / 180 * 4]$ ; the flat (or clean) price is 99.980394; and the full (or dirty) price is 101.958172  $[= 99.980394 + 1.977778]$ , all stated as a percentage of par value. You've noticed, of course, that the price on this high-yield corporate bond is a little below par value even though the coupon rate and yield to maturity are equal.
@@ -1307,7 +1307,7 @@ The U.S. government equivalent yield for this bond turns out to be  $8.0050\%$  
 actual/actual basis is 91/181. Notice that the left side of the equation is the same because the purchase price is what it is.
 
 $$
-\begin{array}{l} 1 0 1. 9 5 8 1 7 2 = \left[ \frac {4}{y} * \left(1 - \frac {1}{(1 + y) ^ {2 0}}\right) + \frac {1 0 0}{(1 + y) ^ {2 0}} \right] * (1 + y) ^ {9 1 / 1 8 1}, \\ y = 0. 0 4 0 0 2 5 \\ \end{array}
+\begin{array}{l} 1 0 1. 9 5 8 1 7 2 = \left[ \frac{4}{y} * \left(1 - \frac{1}{(1 + y)^{2 0}}\right) + \frac{1 0 0}{(1 + y)^{2 0}} \right] * (1 + y)^{9 1 / 1 8 1}, \\ y = 0. 0 4 0 0 2 5 \\ \end{array}
 $$
 
 Is the U.S. government equivalent yield information or just more data? I think it can be useful information if you are calculating this corporate bond's spread over a benchmark Treasury bond. Then the two yield statistics are on a fully comparable basis.
@@ -1317,7 +1317,7 @@ Is the U.S. government equivalent yield information or just more data? I think i
 Let's assume that your career in fixed-income markets is moving along splendidly and now you plan to buy your loved one an investment-grade corporate bond for Valentine's Day. Figure 3.5 shows the Bloomberg Yield and Spread Analysis page for the  $83 / 8\%$  IBM bond that matures on November 1, 2019. Its flat price is 132.209 (percent of par value) for settlement on February 14, 2014. Look first at the Invoice section on the lower right side of the page. The total purchase price is shown for  \$1,000,000 in par value (also called the face amount—you can scale that down to a lower amount to fit your budget). The flat (or clean) price, here called the principal, is\$ 1,322,090.00. The accrued interest is \$23,961.81, calculated as:
 
 $$
-\frac {1 0 3}{1 8 0} * \frac {0 . 0 8 3 7 5}{2} * \\ \\ (1, 0 0 0, 0 0 0 = \\) 2 3, 9 6 1. 8 1
+\frac{1 0 3}{1 8 0} * \frac{0 . 0 8 3 7 5}{2} * \\ \\ (1, 0 0 0, 0 0 0 = \\) 2 3, 9 6 1. 8 1
 $$
 
 The day-count convention is 30/360, giving 103 days between the last coupon on November 1 and settlement on February 14 (29 remaining days in November, 30 days in December, 30 days in January, and 14 days in February). There are assumed to be 180 days in the 6-month coupon period. The sum of the flat price and the accrued interest, \( \\(1,346,051.81 \), is the full (or dirty) price.
@@ -1340,7 +1340,7 @@ Another way of confirming the yield to maturity is to substitute into equation 3
 period gone by is  $103 / 180$  ( $t / T$ ). The left side of the equation is the full price; the right side is the present value of the coupon and principal cash flows discounted at the yield per semiannual period ( $y$ ).
 
 $$
-\begin{array}{l} 1 3 2. 2 0 9 + (1 0 3 / 1 8 0 * 4. 1 8 7 5) \\ = \left[ \frac {4 . 1 8 7 5}{y} * \left(1 - \frac {1}{(1 + y) ^ {1 2}}\right) + \frac {1 0 0}{(1 + y) ^ {1 2}} \right] * (1 + y) ^ {1 0 3 / 1 8 0} \\ \end{array}
+\begin{array}{l} 1 3 2. 2 0 9 + (1 0 3 / 1 8 0 * 4. 1 8 7 5) \\ = \left[ \frac{4 . 1 8 7 5}{y} * \left(1 - \frac{1}{(1 + y)^{1 2}}\right) + \frac{1 0 0}{(1 + y)^{1 2}} \right] * (1 + y)^{1 0 3 / 1 8 0} \\ \end{array}
 $$
 
 The solution for  $y$  turns out to be 0.0116104083. Multiply that by two to annualize and round to six digits to obtain the street convention yield to maturity of 2.322082%.
@@ -1348,13 +1348,13 @@ The solution for  $y$  turns out to be 0.0116104083. Multiply that by two to ann
 Shown next is a periodicity conversion. The street convention yield of  $2.322082\%$  is on a semiannual bond basis; it converts to  $2.335562\%$  for one compounding period per year, that is, an effective annual rate.
 
 $$
-\left(1 + \frac {0 . 0 2 3 2 2 0 8 2}{2}\right) ^ {2} = 1. 0 2 3 3 5 5 6 2
+\left(1 + \frac{0 . 0 2 3 2 2 0 8 2}{2}\right)^{2} = 1. 0 2 3 3 5 5 6 2
 $$
 
 The true yield for this bond is  $2.321916\%$ , a bit lower than the street convention yield because three coupon dates fall on weekends (November 1, 2014, November 1, 2015, and May 1, 2016) and the payments are deferred until the following Monday. The U.S. Government and Japanese simple yields are not displayed but can be found by pulling down the menu. They are  $2.324031\%$  and  $2.069000\%$ , respectively. The former can be verified by solving this equation:
 
 $$
-\begin{array}{l} 1 3 2. 2 0 9 + (1 0 3 / 1 8 0 * 4. 1 8 7 5) \\ = \left[ \frac {4 . 1 8 7 5}{y} * \left(1 - \frac {1}{(1 + y) ^ {1 2}}\right) + \frac {1 0 0}{(1 + y) ^ {1 2}} \right] * (1 + y) ^ {1 0 5 / 1 8 1} \\ \end{array}
+\begin{array}{l} 1 3 2. 2 0 9 + (1 0 3 / 1 8 0 * 4. 1 8 7 5) \\ = \left[ \frac{4 . 1 8 7 5}{y} * \left(1 - \frac{1}{(1 + y)^{1 2}}\right) + \frac{1 0 0}{(1 + y)^{1 2}} \right] * (1 + y)^{1 0 5 / 1 8 1} \\ \end{array}
 $$
 
 The only change from the equation for street convention is to switch the day-count on the right side from 103/180 to 105/181 to reflect the actual/actual convention used on Treasuries. Here  $y$  is 0.011620153; that gives  $2.324031\%$  when annualized and rounded. I won't bother confirming the Japanese simple yield calculation—it's just a datum that I hope you never use in making a decision. The same is true for the current yield, shown to be  $6.334667\%$ . It is the sum of the coupon payments over
@@ -1362,7 +1362,7 @@ The only change from the equation for street convention is to switch the day-cou
 the year divided by the flat price but how you'll use that statistic I really don't know.
 
 $$
-\frac {8 . 3 7 5}{1 3 2 . 2 0 9} = 0. 0 6 3 3 4 6 6 7
+\frac{8 . 3 7 5}{1 3 2 . 2 0 9} = 0. 0 6 3 3 4 6 6 7
 $$
 
 The after-tax rate of return, shown at the bottom of the page to be  $1.314666\%$ , is discussed in Chapter 4 on bond taxation. You will see that I have a problem with how Bloomberg reports after-tax yields on some bonds trading at a discount. This IBM bond is priced at a premium, and its after-tax rate is fine.
@@ -1417,7 +1417,7 @@ Our  $4\%$ , 4-year bond issued at 99.342 has an original issue discount (OID) o
 We can now project an after-tax rate of return for this bond. Let's assume that the investor's ordinary income tax rate over the four years is constant at  $25\%$ , the capital gains tax rate is  $15\%$ , and all taxes are paid when cash flows are received. Notice how cavalierly we make simplifying assumptions to sidestep reality. The after-tax yield  $(aty)$  on this bond is  $3.154\%$ , the internal rate of return on the after-tax cash flows.
 
 $$
-\begin{array}{l} 9 9. 3 4 2 = \frac {4 * (1 - 0 . 2 5)}{(1 + a t y) ^ {1}} + \frac {4 * (1 - 0 . 2 5)}{(1 + a t y) ^ {2}} + \frac {4 * (1 - 0 . 2 5)}{(1 + a t y) ^ {3}} + \frac {4 * (1 - 0 . 2 5)}{(1 + a t y) ^ {4}} \\ + \frac {1 0 0 - [ (1 0 0 - 9 9 . 3 4 2) * 0 . 1 5 ]}{(1 + a t y) ^ {4}} \\ \end{array}
+\begin{array}{l} 9 9. 3 4 2 = \frac{4 * (1 - 0 . 2 5)}{(1 + a t y)^{1}} + \frac{4 * (1 - 0 . 2 5)}{(1 + a t y)^{2}} + \frac{4 * (1 - 0 . 2 5)}{(1 + a t y)^{3}} + \frac{4 * (1 - 0 . 2 5)}{(1 + a t y)^{4}} \\ + \frac{1 0 0 - [ (1 0 0 - 9 9 . 3 4 2) * 0 . 1 5 ]}{(1 + a t y)^{4}} \\ \end{array}
 $$
 
 The first four terms on the right side of the equation are straightforward—the after-tax cash flow is 3.00 (percent of par value), the pretax coupon interest payment of 4 times one minus the ordinary income tax rate of  $25\%$ . In the fifth term, the gain of 0.658 (percent of par value)—that is,  $100 - 99.342 = 0.658$ —from purchasing the bond at a discount is taxed at the capital gains rate of  $15\%$ , and that tax obligation is subtracted from the redemption amount.
@@ -1429,7 +1429,7 @@ Newly issued bonds having de minimis OID are actually quite common in the U.S. T
 Now consider another 4-year, annual payment corporate bond that also is priced to yield  $4.182\%$  on a pretax basis. This one has a low  $1\%$  coupon rate and trades at a much deeper discount than the  $4\%$  bond. Its price is 88.499 (percent of par value).
 
 $$
-\frac {1}{(1 . 0 4 1 8 2) ^ {1}} + \frac {1}{(1 . 0 4 1 8 2) ^ {2}} + \frac {1}{(1 . 0 4 1 8 2) ^ {3}} + \frac {1 0 1}{(1 . 0 4 1 8 2) ^ {4}} = 8 8. 4 9 9
+\frac{1}{(1 . 0 4 1 8 2)^{1}} + \frac{1}{(1 . 0 4 1 8 2)^{2}} + \frac{1}{(1 . 0 4 1 8 2)^{3}} + \frac{1 0 1}{(1 . 0 4 1 8 2)^{4}} = 8 8. 4 9 9
 $$
 
 Assume that this  $1\%$  bond originally was issued after 1984 at par value (or with de minimis OID). This is an example of buying a seasoned bond at a market discount. Its yield has risen and its price has fallen since issuance, perhaps due to an increase in the credit risk of the issuer or perhaps due to a higher rate of inflation.
@@ -1437,7 +1437,7 @@ Assume that this  $1\%$  bond originally was issued after 1984 at par value (or 
 Assuming an ordinary income tax rate of  $25\%$  and a capital gains rate of  $15\%$ , this  $1\%$  bond will have a projected after-tax yield of  $3.171\%$ . That is the internal rate of return on its after-tax cash flows.
 
 $$
-\begin{array}{l} 8 8. 4 9 9 = \frac {1 * (1 - 0 . 2 5)}{(1 + a t y) ^ {1}} + \frac {1 * (1 - 0 . 2 5)}{(1 + a t y) ^ {2}} + \frac {1 * (1 - 0 . 2 5)}{(1 + a t y) ^ {3}} + \frac {1 * (1 - 0 . 2 5)}{(1 + a t y) ^ {4}} \\ + \frac {1 0 0 - [ (1 0 0 - 8 8 . 4 9 9) * 0 . 2 5 ]}{(1 + a t y) ^ {4}} \\ \end{array}
+\begin{array}{l} 8 8. 4 9 9 = \frac{1 * (1 - 0 . 2 5)}{(1 + a t y)^{1}} + \frac{1 * (1 - 0 . 2 5)}{(1 + a t y)^{2}} + \frac{1 * (1 - 0 . 2 5)}{(1 + a t y)^{3}} + \frac{1 * (1 - 0 . 2 5)}{(1 + a t y)^{4}} \\ + \frac{1 0 0 - [ (1 0 0 - 8 8 . 4 9 9) * 0 . 2 5 ]}{(1 + a t y)^{4}} \\ \end{array}
 $$
 
 The numerators in the first four terms are the interest payment multiplied by one minus the ordinary income tax rate. But notice that in the fifth term the gain from buying at a discount is taxed at the ordinary rate. Back in the olden days it would have been taxed at the capital gains rate.
@@ -1445,7 +1445,7 @@ The numerators in the first four terms are the interest payment multiplied by on
 These post-1984 tax rules make sense to me because the amount of the premium or discount is the present value of the "excess" or "deficiency" in the coupon rate compared to the yield to maturity. Remember that the coupon rate is what you are promised to get; the yield is what you need (in order to pay par value). For example, the  $1\%$  bond has a "deficient" coupon in the amount of 3.182 (percent of par value) per year because its yield to maturity is  $4.182\%$ . The present value of the deficiency equals the amount of the discount:  $11.501 = 100 - 88.499$ .
 
 $$
-\frac {3 . 1 8 2}{(1 . 0 4 1 8 2) ^ {1}} + \frac {3 . 1 8 2}{(1 . 0 4 1 8 2) ^ {2}} + \frac {3 . 1 8 2}{(1 . 0 4 1 8 2) ^ {3}} + \frac {3 . 1 8 2}{(1 . 0 4 1 8 2) ^ {4}} = 1 1. 5 0 1
+\frac{3 . 1 8 2}{(1 . 0 4 1 8 2)^{1}} + \frac{3 . 1 8 2}{(1 . 0 4 1 8 2)^{2}} + \frac{3 . 1 8 2}{(1 . 0 4 1 8 2)^{3}} + \frac{3 . 1 8 2}{(1 . 0 4 1 8 2)^{4}} = 1 1. 5 0 1
 $$
 
 So, the discount at the time of purchase is compensation for low coupon interest income. A good portion of the investor's total return on the  $1\%$  bond is in the "capital gain." That "gain" really is just deferred interest income, and it is taxed appropriately at the ordinary income rate. Only a discount deemed to be de minimis OID at purchase generates a capital gain for tax purposes when the bond is held to maturity.
@@ -1475,13 +1475,13 @@ has fallen because long-term benchmark Treasury bond yields rose in the 10 month
 First, let's confirm the pretax street convention yield to maturity of  $4.653675\%$ . This entails substituting into equation 3.11 from Chapter 3, repeated here as equation 4.1.
 
 $$
-F l a t + (t / T * P M T) = \left[ \frac {P M T}{y} * \left(1 - \frac {1}{(1 + y) ^ {N}}\right) + \frac {F V}{(1 + y) ^ {N}} \right] * (1 + y) ^ {t / T} \tag {4.1}
+F l a t + (t / T * P M T) = \left[ \frac{P M T}{y} * \left(1 - \frac{1}{(1 + y)^{N}}\right) + \frac{F V}{(1 + y)^{N}} \right] * (1 + y)^{t / T} \tag {4.1}
 $$
 
 Using the 30/360 day-count convention, 121 days have elapsed since the last coupon on November 4 and there are 59 semiannual periods between November 2013 and May 2043. So,  $Flat = 87.24$ ,  $t / T = 121 / 180$ ,  $PMT = 1.925\$ $[= 3.85 / 2]$ , and  $N = 59$ .
 
 $$
-8 7. 2 4 + \left(\frac {1 2 1}{1 8 0} * 1. 9 2 5\right) = \left[ \frac {1 . 9 2 5}{y} * \left(1 - \frac {1}{(1 + y) ^ {5 9}}\right) + \frac {1 0 0}{(1 + y) ^ {5 9}} \right] * (1 + y) ^ {1 2 1 / 1 8 0}
+8 7. 2 4 + \left(\frac{1 2 1}{1 8 0} * 1. 9 2 5\right) = \left[ \frac{1 . 9 2 5}{y} * \left(1 - \frac{1}{(1 + y)^{5 9}}\right) + \frac{1 0 0}{(1 + y)^{5 9}} \right] * (1 + y)^{1 2 1 / 1 8 0}
 $$
 
 Solving by arduous trial-and-error search (or, better, setting up the equation in an Excel spreadsheet and using Solver) obtains the result that  $y = 0.023268374$ . Annualized to a semiannual bond basis and rounded to six decimals, the yield to maturity is  $4.653675\%$ . A more direct way of confirming the Bloomberg street convention yield is to use the YIELD financial function in Excel.
@@ -1497,7 +1497,7 @@ The reported after-tax rate of return of  $2.749418\%$  for this bond is troubli
 Let's assume a U.S. investor elects to not bring the accrued market discount into income each year. That's the much easier assumption to deal with analytically. The investor's projected after-tax yield on a market discount bond is the solution for  $aty$  in this general expression.
 
 $$
-\begin{array}{l} F l a t + A I = \frac {P M T - (P M T - A I) * t a x}{(1 + a t y) ^ {1 - t / T}} + \frac {P M T * (1 - t a x)}{(1 + a t y) ^ {2 - t / T}} + \dots + \frac {P M T * (1 - t a x)}{(1 + a t y) ^ {N - t / T}} \\ + \frac {F V - (F V - F l a t) * t a x}{(1 + a t y) ^ {N - t / T}} \tag {4.2} \\ \end{array}
+\begin{array}{l} F l a t + A I = \frac{P M T - (P M T - A I) * t a x}{(1 + a t y)^{1 - t / T}} + \frac{P M T * (1 - t a x)}{(1 + a t y)^{2 - t / T}} + \dots + \frac{P M T * (1 - t a x)}{(1 + a t y)^{N - t / T}} \\ + \frac{F V - (F V - F l a t) * t a x}{(1 + a t y)^{N - t / T}} \tag {4.2} \\ \end{array}
 $$
 
 The left side is the purchase price, including accrued interest  $(AI)$ . The first term on the right side is important to understanding this calculation. When the investor receives that first coupon payment of  $PMT$ , the accrued interest account is closed out. Only  $(PMT - AI)$  is taxable interest income. The ordinary income tax rate is denoted  $tax$  and is assumed to be constant. The remaining coupon payments are all reduced by the ordinary income tax payments. At redemption, tax is owed on the "gain" from buying the bond at a market discount, the difference between the par value and the
@@ -1507,13 +1507,13 @@ flat price. Importantly, the same ordinary income tax rate on that "gain" is use
 Now we can collect terms, multiply the numerator and denominator by  $(1 + aty)^{t / T}$ , and do the usual sum-of-a-finite-geometric-series reduction, as shown in equation 4.3.
 
 $$
-\begin{array}{l} F l a t + A I = \left[ \frac {P M T * (1 - t a x)}{a t y} * \left(1 - \frac {1}{(1 + a t y) ^ {N}}\right) \right. \\ \left. + \frac {A I * t a x}{1 + a t y} + \frac {F V - (F V - F l a t) * t a x}{(1 + a t y) ^ {N}} \right] * (1 + a t y) ^ {t / T} \end{array} \tag {4.3}
+\begin{array}{l} F l a t + A I = \left[ \frac{P M T * (1 - t a x)}{a t y} * \left(1 - \frac{1}{(1 + a t y)^{N}}\right) \right. \\ \left. + \frac{A I * t a x}{1 + a t y} + \frac{F V - (F V - F l a t) * t a x}{(1 + a t y)^{N}} \right] * (1 + a t y)^{t / T} \end{array} \tag {4.3}
 $$
 
 Note that  $AI = t / T * PMT = 121 / 180 * 1.925 = 1.294028$ .
 
 $$
-\begin{array}{l} 8 7. 2 4 + 1. 2 9 4 0 2 8 = \left[ \frac {1 . 9 2 5 * (1 - 0 . 4 3 4)}{a t y} * \left(1 - \frac {1}{(1 + a t y) ^ {5 9}}\right) + \frac {1 . 2 9 4 0 2 8 * 0 . 4 3 4}{1 + a t y} \right] \\ \left. + \frac {1 0 0 - (1 0 0 - 8 7 . 2 4) * 0 . 4 3 4}{(1 + a t y) ^ {5 9}} \right] * (1 + a t y) ^ {1 2 1 / 1 8 0} \\ \end{array}
+\begin{array}{l} 8 7. 2 4 + 1. 2 9 4 0 2 8 = \left[ \frac{1 . 9 2 5 * (1 - 0 . 4 3 4)}{a t y} * \left(1 - \frac{1}{(1 + a t y)^{5 9}}\right) + \frac{1 . 2 9 4 0 2 8 * 0 . 4 3 4}{1 + a t y} \right] \\ \left. + \frac{1 0 0 - (1 0 0 - 8 7 . 2 4) * 0 . 4 3 4}{(1 + a t y)^{5 9}} \right] * (1 + a t y)^{1 2 1 / 1 8 0} \\ \end{array}
 $$
 
 Solving again by tedious trial-and-error search (or by using an Excel spreadsheet and Solver) obtains the result that  $aty = 0.013432181$ . Annualized, the projected after-tax rate of return on this bond is  $2.686436\%$ , not  $2.749418\%$  as reported on the Bloomberg Yield and Spread Analysis page.
@@ -1535,7 +1535,7 @@ This produces an after-tax yield of  $2.749418\%$ , the same as reported on the 
 I suggest that U.S. users of Bloomberg who would like to see a projected after-tax rate of return set the capital gains rate to whatever assumption is used for ordinary interest income. This will work for all bonds—global, domestic, private placements—because the same tax law applies to each type. Then the output will be the same as if it is done with the "tax-adjusted" YIELD function in Excel. For example, use the ordinary income tax rate of  $43.40\%$  in the fifth entry.
 
 $$
-\begin{array}{c} \text {Y I E L D (D A T E (2 0 1 4 , 3 , 5) , D A T E (2 0 4 3 , 5 , 4) , 0 . 0 3 8 5 * (1 - 0 . 4 3 4) , 8 7 . 2 4 ,} \\ (1 0 0 - (1 0 0 - 8 7. 2 4) * 0. 4 3 4), 2, 0) \end{array}
+\begin{array}{c} \text{YI EL D (DA TE (20 14 ,3 ,5) ,D AT E (20 43 ,5 ,4) ,0 .0 38 5 * (1 -0 .4 34) ,8 7 .2 4 ,} \\ (1 0 0 - (1 0 0 - 8 7. 2 4) * 0. 4 3 4), 2, 0) \end{array}
 $$
 
 This gives an after-tax yield of  $2.686572\%$ . This is virtually the same as the result calculated above,  $2.686436\%$ . But still, why is there a small difference? The (admittedly minor) problem with the "tax-adjusted" YIELD approach is that the accrued interest needed in equation 4.2 is calculated using the after-tax coupon rate. That reduces the left side of the equation. Also, the after-tax first cash flow is not corrected by the accrued interest. That reduces the right side of the equation. These two errors offset. This is no doubt a concern to only those of us who are fastidious about bond math.
@@ -1586,13 +1586,13 @@ When the bond is sold at 68, the taxable capital gain is  $1.546 (= 68 - 66.454)
 The investor's after-tax horizon yield is the internal rate of return on the after-tax cash flows. These cash flows, year by year, are  $-60$ ,  $-0.786$ ,  $+66.941$ , using - to indicate outflows and + for inflows. The year-0 cash flow is negative because we are taking the perspective of the buyer of the bond. The year-1 cash flow is negative because of the phantom income problem and the tax liability. The year-2 after-tax inflow of 66.941 is the sale price of 68, less the ordinary income tax of 0.827 and the capital gains tax of 0.232. The after-tax rate of return, calculated on an effective annual rate basis, is the solution for aty in this expression:
 
 $$
-0 = - 6 0 - \frac {0 . 7 8 6}{(1 + a t y) ^ {1}} + \frac {6 6 . 9 4 1}{(1 + a t y) ^ {2}}, \quad a t y = 0. 0 4 9 7 3
+0 = - 6 0 - \frac{0 . 7 8 6}{(1 + a t y)^{1}} + \frac{6 6 . 9 4 1}{(1 + a t y)^{2}}, \quad a t y = 0. 0 4 9 7 3
 $$
 
 Solving this equation requires trial-and-error search;  $4.973\%$  turns out to be the interest rate such that the net present value of all cash flows is zero. This is easily handled by a financial calculator that allows for variable cash flows or a spreadsheet program. To compare the after-tax rate of return to yields to maturity on standard bonds paying coupon interest twice a year, convert this effective annual rate to a semiannual bond basis. Using equation 1.10, it is the solution for  $APR_{2}$ :
 
 $$
-\left(1 + \frac {A P R _ {2}}{2}\right) ^ {2} = 1. 0 4 9 7 3, \quad A P R _ {2} = 0. 0 4 9 1 3
+\left(1 + \frac{A P R_{2}}{2}\right)^{2} = 1. 0 4 9 7 3, \quad A P R_{2} = 0. 0 4 9 1 3
 $$
 
 The investor's after-tax holding period rate of return is  $4.913\%$  (s.a.).
@@ -1610,19 +1610,19 @@ Assume now that the  $4\%$  and  $1\%$ , annual payment, 4-year bonds priced at 
 The after-tax yield to maturity on the  $4\%$  muni is  $4.159\%$ , the solution for aty.
 
 $$
-\begin{array}{l} 9 9. 3 4 2 = \frac {4}{(1 + a t y) ^ {1}} + \frac {4}{(1 + a t y) ^ {2}} + \frac {4}{(1 + a t y) ^ {3}} + \frac {4}{(1 + a t y) ^ {4}} \\ + \frac {1 0 0 - [ (1 0 0 - 9 9 . 3 4 2) * 0 . 1 5 ]}{(1 + a t y) ^ {4}} \\ \end{array}
+\begin{array}{l} 9 9. 3 4 2 = \frac{4}{(1 + a t y)^{1}} + \frac{4}{(1 + a t y)^{2}} + \frac{4}{(1 + a t y)^{3}} + \frac{4}{(1 + a t y)^{4}} \\ + \frac{1 0 0 - [ (1 0 0 - 9 9 . 3 4 2) * 0 . 1 5 ]}{(1 + a t y)^{4}} \\ \end{array}
 $$
 
 Each interest payment of 4 (percent of par value) is now exempt from federal taxes. The small gain from buying at 99.342 and redeeming at 100 is taxed at the capital gains rate because the de minimis OID rule applies. The street ETY for this bond is  $5.545\%$ .
 
 $$
-\text{Street} E T Y = \frac {4.159 \%}{(1 - 0.25)} = 5.545 \%
+\text{Street} E T Y = \frac{4.159 \%}{(1 - 0.25)} = 5.545 \%
 $$
 
 If the  $1\%$  muni bond priced at 88.499 is newly issued, it would be classified as OID. Then the movement along the constant-yield trajectory would be reported each year as tax-exempt interest income. Assume that this muni instead is a seasoned offering originally issued at par value (or de minimis OID) and so it is now purchased at a market discount. Its after-tax yield to maturity is  $3.444\%$ , the internal rate of return on the after-tax cash flows.
 
 $$
-\begin{array}{l} 8 8. 4 9 9 = \frac {1}{(1 + a t y) ^ {1}} + \frac {1}{(1 + a t y) ^ {2}} + \frac {1}{(1 + a t y) ^ {3}} + \frac {1}{(1 + a t y) ^ {4}} \\ + \frac {1 0 0 - [ (1 0 0 - 8 8 . 4 9 9) * 0 . 2 5 ]}{(1 + a t y) ^ {4}} \\ \end{array}
+\begin{array}{l} 8 8. 4 9 9 = \frac{1}{(1 + a t y)^{1}} + \frac{1}{(1 + a t y)^{2}} + \frac{1}{(1 + a t y)^{3}} + \frac{1}{(1 + a t y)^{4}} \\ + \frac{1 0 0 - [ (1 0 0 - 8 8 . 4 9 9) * 0 . 2 5 ]}{(1 + a t y)^{4}} \\ \end{array}
 $$
 
 Notice that the market discount of 11.501 is taxed at the assumed ordinary income rate. This reflects tax rules since 1993. If this muni had been purchased before 1993, the market discount on the held-to-maturity bond would be taxed at the capital gains rate. If purchased after that date, it is taxed as ordinary income.
@@ -1632,13 +1632,13 @@ If this tax treatment seems odd to you, I agree completely. I'm really disappoin
 should be very similar (perhaps differing due to liquidity). But the  $1\%$  market discount bond is penalized significantly because the "gain" is taxed as ordinary income—not as tax-exempt interest income. Its street ETY is only  $4.592\%$ .
 
 $$
-\text{Street ETY} = \frac {3.444 \%}{(1 - 0.25)} = 4.592 \%
+\text{StreetETY} = \frac{3.444 \%}{(1 - 0.25)} = 4.592 \%
 $$
 
 Let's now return to the intellectual safety of theoretical bond math. There is another way to think about calculating the ETY on a tax-exempt bond. This is to solve for the internal rate of return on a taxable offering that generates the same after-tax cash flows as the muni. Let's do this first for the  $4\%$  tax-exempt bond priced at 99.432. We need to solve this equation for ETY:
 
 $$
-\begin{array}{l} 9 9. 3 4 2 = \frac {4 / (1 - 0 . 2 5)}{(1 + E T Y) ^ {1}} + \frac {4 / (1 - 0 . 2 5)}{(1 + E T Y) ^ {2}} + \frac {4 / (1 - 0 . 2 5)}{(1 + E T Y) ^ {3}} \\ + \frac {4 / (1 - 0 . 2 5)}{(1 + E T Y) ^ {4}} + \frac {1 0 0}{(1 + E T Y) ^ {4}} \\ \end{array}
+\begin{array}{l} 9 9. 3 4 2 = \frac{4 / (1 - 0 . 2 5)}{(1 + E T Y)^{1}} + \frac{4 / (1 - 0 . 2 5)}{(1 + E T Y)^{2}} + \frac{4 / (1 - 0 . 2 5)}{(1 + E T Y)^{3}} \\ + \frac{4 / (1 - 0 . 2 5)}{(1 + E T Y)^{4}} + \frac{1 0 0}{(1 + E T Y)^{4}} \\ \end{array}
 $$
 
 The pretax coupon payments would have to be  $5.333 \left[ = 4 / (1 - 0.25) \right]$  to equal 4 on a tax-exempt basis. The redemption amount of 100 does not need to be adjusted because both the taxable corporate and the "tax-exempt" muni face capital gains taxation on the de minimis OID. This ETY turns out to be  $5.521\%$ , just a bit lower than the street ETY of  $5.545\%$ .
@@ -1646,7 +1646,7 @@ The pretax coupon payments would have to be  $5.333 \left[ = 4 / (1 - 0.25) \rig
 The difference between the commonly used street ETY and what I suggest to be a better version becomes more relevant when we work through the deeper discount  $1\%$  muni bond priced at 88.499.
 
 $$
-\begin{array}{l} 8 8. 4 9 9 = \frac {1 / (1 - 0 . 2 5)}{(1 + E T Y) ^ {1}} + \frac {1 / (1 - 0 . 2 5)}{(1 + E T Y) ^ {2}} + \frac {1 / (1 - 0 . 2 5)}{(1 + E T Y) ^ {3}} \\ + \frac {1 / (1 - 0 . 2 5)}{(1 + E T Y) ^ {4}} + \frac {1 0 0}{(1 + E T Y) ^ {4}} \\ \end{array}
+\begin{array}{l} 8 8. 4 9 9 = \frac{1 / (1 - 0 . 2 5)}{(1 + E T Y)^{1}} + \frac{1 / (1 - 0 . 2 5)}{(1 + E T Y)^{2}} + \frac{1 / (1 - 0 . 2 5)}{(1 + E T Y)^{3}} \\ + \frac{1 / (1 - 0 . 2 5)}{(1 + E T Y)^{4}} + \frac{1 0 0}{(1 + E T Y)^{4}} \\ \end{array}
 $$
 
 The annual coupon payment on the taxable corporate bond would be 1.333  $[= 1 / (1 - 0.25)]$  to give the same after-tax cash flow as the  $1\%$  muni bond. Again the principal does not need adjustment because the market discount on both bonds is taxed at the ordinary income rate. This "better" ETY is  $4.542\%$ , 5 basis points lower than the street ETY of  $4.592\%$ .
@@ -1656,7 +1656,7 @@ Why is this version of ETY better than the street ETY, which is commonly used in
 problem in my opinion. But more important, it allows the analyst to include a term structure of tax rates. Suppose that there is a scheduled increase in ordinary income tax rates for the wealthy investor, going up from  $25\%$  to  $35\%$  in the third year and  $40\%$  in the fourth. The "more theoretically correct" ETY on the  $4\%$  muni becomes  $6.027\%$ , the solution for ETY in this expression.
 
 $$
-\begin{array}{l} 9 9. 3 4 2 = \frac {4 / (1 - 0 . 2 5)}{(1 + E T Y) ^ {1}} + \frac {4 / (1 - 0 . 2 5)}{(1 + E T Y) ^ {2}} + \frac {4 / (1 - 0 . 3 5)}{(1 + E T Y) ^ {3}} \\ + \frac {4 / (1 - 0 . 4 0)}{(1 + E T Y) ^ {4}} + \frac {1 0 0}{(1 + E T Y) ^ {4}} \\ \end{array}
+\begin{array}{l} 9 9. 3 4 2 = \frac{4 / (1 - 0 . 2 5)}{(1 + E T Y)^{1}} + \frac{4 / (1 - 0 . 2 5)}{(1 + E T Y)^{2}} + \frac{4 / (1 - 0 . 3 5)}{(1 + E T Y)^{3}} \\ + \frac{4 / (1 - 0 . 4 0)}{(1 + E T Y)^{4}} + \frac{1 0 0}{(1 + E T Y)^{4}} \\ \end{array}
 $$
 
 It's not obvious how to handle that assumption in the street ETY calculation (divide by some weighted average of the tax rates?). I suppose a street ETY is relevant information, and need not be relegated to "data" status, but better bond math should give us better information leading to better decisions.
@@ -1692,7 +1692,7 @@ These calculations, of course, can be formalized into official bond math equatio
 forward rate between years A and B. The two time periods are AYears and BYears. Equation 5.1 captures the idea of the same total return (neglecting compounding).
 
 $$
-\operatorname {R a t e} _ {0 \times B} \approx \left(\frac {\text {A Y e a r s}}{\text {B Y e a r s}} * \operatorname {R a t e} _ {0 \times A}\right) + \left(\frac {\text {B Y e a r s} - \text {A Y e a r s}}{\text {B Y e a r s}} * \operatorname {R a t e} _ {A \times B}\right) \tag {5.1}
+\operatorname{Ra te}_{0 \times B} \approx \left(\frac{\text{AY ea rs}}{\text{BY ea rs}} * \operatorname{Ra te}_{0 \times A}\right) + \left(\frac{\text{BY ea rs} - \text{AY ea rs}}{\text{BY ea rs}} * \operatorname{Ra te}_{A \times B}\right) \tag {5.1}
 $$
 
 The longer-term rate is a weighted average of the shorter-term rate and the implied forward rate, whereby the weights are the shares of the overall time frame.
@@ -1700,7 +1700,7 @@ The longer-term rate is a weighted average of the shorter-term rate and the impl
 A direct equation for the  $\mathrm{A} \times \mathrm{B}$  IFR comes from rearranging equation 5.1.
 
 $$
-\text {R a t e} _ {A \times B} \approx \frac {\text {B Y e a r s} * \text {R a t e} _ {0 \times B} - \text {A Y e a r s} * \text {R a t e} _ {0 \times A}}{\text {B Y e a r s} - \text {A Y e a r s}} \tag {5.2}
+\text{Ra te}_{A \times B} \approx \frac{\text{BY ea rs} * \text{Ra te}_{0 \times B} - \text{AY ea rs} * \text{Ra te}_{0 \times A}}{\text{BY ea rs} - \text{AY ea rs}} \tag {5.2}
 $$
 
 The  $1 \times 2, 2 \times 3$ , and  $1 \times 3$  IFRs can be estimated by substituting into equation 5.2.
@@ -1738,7 +1738,7 @@ The best-known theory regarding yield curves is based on bond investors' and iss
 The conclusions of this expectations theory are quite significant: Yield curves are upward-sloping (or flat, or downward-sloping) when market participants generally expect short-term rates to be rising (or steady, or falling). In particular, the implied forward rate is an unbiased market consensus forecast for the future spot rate that will be available in the market.
 
 $$
-E x p e c t a t i o n s \quad T h e o r y: I F R _ {A \times B} = E (R a t e _ {A \times B})
+E x p e c t a t i o n s \quad T h e o r y: I F R_{A \times B} = E (R a t e_{A \times B})
 $$
 
 That is, the calculated IFR between years A and B is equal to the expected market rate for the  $\mathrm{A} \times \mathrm{B}$  time period. Therefore, the shape of the current yield curve tells you what bond buyers and sellers in general are expecting about future market interest rates. That's valuable information—if you can rely on it.
@@ -1753,7 +1753,7 @@ financing the purchase of new computers issue only intermediate-term notes and n
 
 According to the segmented markets theory, an observed yield curve is simply a collection of equilibrium interest rates based on the demand for, and supply of, money as we saw in Chapter 3. Drawing the yield curve in this theory is not a work of art; it's just connecting the dots from separate, segmented markets where in each demand and supply rule. The conclusion of this theory is that the implied forward rate that we can calculate is unrelated to the expected future short-term rate.
 
-Segmented Markets Theory:  $IFR_{\mathrm{A \times B}}$  is unrelated to  $\mathrm{E}(\text{Rate}_{\mathrm{A \times B}})$
+Segmented Markets Theory:  $IFR_{\mathrm{A \timesB}}$  is unrelated to  $\mathrm{E}(\text{Rate}_{\mathrm{A \timesB}})$
 
 What about future interest rates? Proponents of this theory would contend that the best forecast for the shape and level of the future yield curve is the shape and level of the current yield curve—unless there is some reason to expect that demand and supply conditions at particular points along the curve will be changing.
 
@@ -1801,7 +1801,7 @@ Equation 5.2 provides an excellent, and easy-to-calculate approximation for the 
 An accurate formula for an implied forward rate that includes compounding and the specific periodicity (PER) for the yields is based on the expression shown in equation 5.3.
 
 $$
-\begin{array}{l} \left(1 + \frac {\text {R a t e} _ {0 \times A}}{\text {P E R}}\right) ^ {\text {A Y e a r s} * \text {P E R}} * \left(1 + \frac {\text {R a t e} _ {A \times B}}{\text {P E R}}\right) ^ {\text {(B Y e a r s - A Y e a r s)} * \text {P E R}} \tag {5.3} \\ = \left(1 + \frac {\text {R a t e} _ {0 \times B}}{\text {P E R}}\right) ^ {\text {B Y e a r s} * \text {P E R}} \\ \end{array}
+\begin{array}{l} \left(1 + \frac{\text{Ra te}_{0 \times A}}{\text{PE R}}\right)^{\text{AY ea rs} * \text{PE R}} * \left(1 + \frac{\text{Ra te}_{A \times B}}{\text{PE R}}\right)^{\text{(BY ea rs -A Ye ar s)} * \text{PE R}} \tag {5.3} \\ = \left(1 + \frac{\text{Ra te}_{0 \times B}}{\text{PE R}}\right)^{\text{BY ea rs} * \text{PE R}} \\ \end{array}
 $$
 
 The first term is the proceeds per unit invested for AYears assuming that the  $0 \times \mathrm{A}$  rate is an APR quoted for PER periods per year. That amount is
@@ -1811,23 +1811,23 @@ reinvested for the remaining time period out to year B (i.e., for  $B$  years mi
 The accurate implied forward rate formula comes from rearranging equation 5.3 to isolate the  $Rate_{\mathrm{A}\times \mathrm{B}}$  term.
 
 $$
-R a t e _ {\mathrm {A} \times \mathrm {B}} = \left(\frac {\left(1 + \frac {R a t e _ {0 \times \mathrm {B}}}{P E R}\right) ^ {B Y e a r s / (B Y e a r s - A Y e a r s)}}{\left(1 + \frac {R a t e _ {0 \times \mathrm {A}}}{P E R}\right) ^ {A Y e a r s / (B Y e a r s - A Y e a r s)}} - 1\right) * P E R \tag {5.4}
+R a t e_{\mathrm{A} \times \mathrm{B}} = \left(\frac{\left(1 + \frac{R a t e_{0 \times \mathrm{B}}}{P E R}\right)^{B Y e a r s / (B Y e a r s - A Y e a r s)}}{\left(1 + \frac{R a t e_{0 \times \mathrm{A}}}{P E R}\right)^{A Y e a r s / (B Y e a r s - A Y e a r s)}} - 1\right) * P E R \tag {5.4}
 $$
 
 Let's return to the example of 1-year, 2-year, and 3-year rates of  $1.00\%$ ,  $2.00\%$ , and  $2.50\%$  quoted on a semiannual bond basis for zero-coupon government bonds. The  $1 \times 2$  IFR, which we approximated to be  $3.00\%$ , more accurately is  $3.0050\%$ .
 
 $$
-R a t e _ {1 \times 2} = \left(\frac {\left(1 + \frac {0 . 0 2 0 0}{2}\right) ^ {2 / (2 - 1)}}{\left(1 + \frac {0 . 0 1 0 0}{2}\right) ^ {1 / (2 - 1)}} - 1\right) * 2 = 0. 0 3 0 0 5 0
+R a t e_{1 \times 2} = \left(\frac{\left(1 + \frac{0 . 0 2 0 0}{2}\right)^{2 / (2 - 1)}}{\left(1 + \frac{0 . 0 1 0 0}{2}\right)^{1 / (2 - 1)}} - 1\right) * 2 = 0. 0 3 0 0 5 0
 $$
 
 Similarly, the  $2 \times 3$  and  $1 \times 3$  IFRs, approximated earlier at  $3.50\%$  and  $3.25\%$ , are really  $3.5037\%$  and  $3.2542\%$ , respectively.
 
 $$
-R a t e _ {2 \times 3} = \left(\frac {\left(1 + \frac {0 . 0 2 5 0}{2}\right) ^ {3 / (3 - 2)}}{\left(1 + \frac {0 . 0 2 0 0}{2}\right) ^ {2 / (3 - 2)}} - 1\right) * 2 = 0. 0 3 5 0 3 7
+R a t e_{2 \times 3} = \left(\frac{\left(1 + \frac{0 . 0 2 5 0}{2}\right)^{3 / (3 - 2)}}{\left(1 + \frac{0 . 0 2 0 0}{2}\right)^{2 / (3 - 2)}} - 1\right) * 2 = 0. 0 3 5 0 3 7
 $$
 
 $$
-R a t e _ {1 \times 3} = \left(\frac {\left(1 + \frac {0 . 0 2 5 0}{2}\right) ^ {3 / (3 - 1)}}{\left(1 + \frac {0 . 0 1 0 0}{2}\right) ^ {1 / (3 - 1)}} - 1\right) * 2 = 0. 0 3 2 5 4 2
+R a t e_{1 \times 3} = \left(\frac{\left(1 + \frac{0 . 0 2 5 0}{2}\right)^{3 / (3 - 1)}}{\left(1 + \frac{0 . 0 1 0 0}{2}\right)^{1 / (3 - 1)}} - 1\right) * 2 = 0. 0 3 2 5 4 2
 $$
 
 These examples indicate that the simple weighted averages are excellent approximations. In fact, the difference between IFRs calculated with equations 5.2 and 5.4 diminish with increasing periodicity. When the rates are quoted for
@@ -1843,7 +1843,7 @@ Our true believer could delve back into Chapters 1 and 2 and retrieve the correc
 For rates quoted on an add-on basis (e.g., bank CDs, LIBOR, repos), equation 5.5 parallels equation 5.3.
 
 $$
-\begin{array}{l} \left[ 1 + \left(A O R _ {0 \times A} * \frac {A D a y s}{Y e a r}\right) \right] * \left[ 1 + \left(A O R _ {A \times B} * \frac {B D a y s - A D a y s}{Y e a r}\right) \right] \\ = \left[ 1 + \left(A O R _ {0 \times B} * \frac {B D a y s}{Y e a r}\right) \right] \tag {5.5} \\ \end{array}
+\begin{array}{l} \left[ 1 + \left(A O R_{0 \times A} * \frac{A D a y s}{Y e a r}\right) \right] * \left[ 1 + \left(A O R_{A \times B} * \frac{B D a y s - A D a y s}{Y e a r}\right) \right] \\ = \left[ 1 + \left(A O R_{0 \times B} * \frac{B D a y s}{Y e a r}\right) \right] \tag {5.5} \\ \end{array}
 $$
 
 We are in the money market so the relevant time periods are  $ADays$  and  $BDays$ ; Year is 360 in the U.S. but 365 in many other countries. The idea is that same total return is obtained from investing in the shorter-term security at  $AOR_{0 \times A}$  and rolling over the proceeds at the implied forward rate for the  $A \times B$  time period as is obtained when investing directly in the longer-term instrument earning  $AOR_{0 \times B}$ .
@@ -1851,7 +1851,7 @@ We are in the money market so the relevant time periods are  $ADays$  and  $BDay
 The next step is to rearrange equation 5.5 algebraically to isolate the  $AOR_{\mathrm{A}\times \mathrm{B}}$  term, which is the implied forward add-on money market rate between days A and B.
 
 $$
-A O R _ {A \times B} = \left[ \frac {B D a y s * A O R _ {0 \times B} - A D a y s * A O R _ {0 \times A}}{B D a y s - A D a y s} \right] * \left[ \frac {1}{1 + \left(A O R _ {0 \times A} * \frac {A D a y s}{\text {Y e a r}}\right)} \right] \tag {5.6}
+A O R_{A \times B} = \left[ \frac{B D a y s * A O R_{0 \times B} - A D a y s * A O R_{0 \times A}}{B D a y s - A D a y s} \right] * \left[ \frac{1}{1 + \left(A O R_{0 \times A} * \frac{A D a y s}{\text{Ye ar}}\right)} \right] \tag {5.6}
 $$
 
 Notice that the first term in brackets is essentially the approximation formula in equation 5.2. The second term "adjusts" that approximation downward, the more so the higher the rate and the greater the number of days.
@@ -1859,7 +1859,7 @@ Notice that the first term in brackets is essentially the approximation formula 
 Now we can solve for the true believer's expectation. Let  $\text{Year} = 360$ ,  $ADays = 90\$ , and  $BDays = 180\$ . The  $90 \times 180$  day (or  $3 \times 6$  month) implied forward LIBOR turns out to be  $2.9925\%$ .
 
 $$
-\begin{array}{l} A O R _ {A \times B} = \left[ \frac {1 8 0 * 0 . 0 2 0 0 - 9 0 * 0 . 0 1 0 0}{1 8 0 - 9 0} \right] * \left[ \frac {1}{1 + \left(0 . 0 1 0 0 * \frac {9 0}{3 6 0}\right)} \right] \\ = 0. 0 2 9 9 2 5 \\ \end{array}
+\begin{array}{l} A O R_{A \times B} = \left[ \frac{1 8 0 * 0 . 0 2 0 0 - 9 0 * 0 . 0 1 0 0}{1 8 0 - 9 0} \right] * \left[ \frac{1}{1 + \left(0 . 0 1 0 0 * \frac{9 0}{3 6 0}\right)} \right] \\ = 0. 0 2 9 9 2 5 \\ \end{array}
 $$
 
 One of the annoying realities of very low market interest rates is that some interesting bond math calculations turn out to be numerically insignificant (i.e.,  $3.00\%$  versus  $2.9925\%$ ). Imagine a world of much higher inflation. If 6-month LIBOR is  $10\%$  and 12-month LIBOR  $20\%$ , then the  $6 \times 12$  implied forward LIBOR would be  $28.57\%$  —a more impressive departure from the simple approximation of  $30\%$ .
@@ -1869,7 +1869,7 @@ Money market rates quoted on a discount rate basis (e.g., commercial paper, bank
 Equation 5.7 is similar in structure to equation 5.3 for bond yields and to equation 5.5 for add-on rates but differs because it applies to money market discount rates.
 
 $$
-\begin{array}{l} \left[ 1 - \left(D R _ {0 \times \mathrm {A}} * \frac {A D a y s}{\text {Y e a r}}\right) \right] * \left[ 1 - \left(D R _ {\mathrm {A} \times \mathrm {B}} * \frac {B D a y s - A D a y s}{\text {Y e a r}}\right) \right] \tag {5.7} \\ = \left[ 1 - \left(D R _ {0 \times \mathrm {B}} * \frac {B D a y s}{Y e a r}\right) \right] \\ \end{array}
+\begin{array}{l} \left[ 1 - \left(D R_{0 \times \mathrm{A}} * \frac{A D a y s}{\text{Ye ar}}\right) \right] * \left[ 1 - \left(D R_{\mathrm{A} \times \mathrm{B}} * \frac{B D a y s - A D a y s}{\text{Ye ar}}\right) \right] \tag {5.7} \\ = \left[ 1 - \left(D R_{0 \times \mathrm{B}} * \frac{B D a y s}{Y e a r}\right) \right] \\ \end{array}
 $$
 
 The right side of the equation is the day-0 price per one unit of face value received  $BDays$  later given a discount rate of  $DR_{0\times \mathrm{B}}$ . This is based on the discount rate pricing formula 1.6 in Chapter 1. The left side obtains the same day-0 price per one unit of face value. It is first discounted back from day B to day A using the rate  $DR_{\mathrm{A}\times \mathrm{B}}$ . That amount is then discounted back from day A to day 0 at rate  $DR_{0\times \mathrm{A}}$ .
@@ -1877,13 +1877,13 @@ The right side of the equation is the day-0 price per one unit of face value rec
 Rearranging equation 5.7 gives us a formula for the implied forward discount rate between days A and B.
 
 $$
-D R _ {A \times B} = \left[ \frac {B D a y s * D R _ {0 \times B} - A D a y s * D R _ {0 \times A}}{B D a y s - A D a y s} \right] * \left[ \frac {1}{1 - \left(D R _ {0 \times A} * \frac {A D a y s}{\text {Y e a r}}\right)} \right] \tag {5.8}
+D R_{A \times B} = \left[ \frac{B D a y s * D R_{0 \times B} - A D a y s * D R_{0 \times A}}{B D a y s - A D a y s} \right] * \left[ \frac{1}{1 - \left(D R_{0 \times A} * \frac{A D a y s}{\text{Ye ar}}\right)} \right] \tag {5.8}
 $$
 
 Once again, the first term is the simple average and the second term "adjusts" the approximation. Now the presence of the minus sign in the denominator of the adjustment factor raises the IFR above the simple average. Suppose that 90-day and 180-day bankers acceptance (BA) rates are  $1.00\%$  and  $2.00\%$ . The  $90 \times 180$  day implied forward BA discount rate turns out to be  $3.0075\%$ , above the simple average of  $3.00\%$ , albeit by a very small amount.
 
 $$
-\begin{array}{l} D R _ {9 0 \times 1 8 0} = \left[ \frac {1 8 0 * 0 . 0 2 0 0 - 9 0 * 0 . 0 1 0 0}{1 8 0 - 9 0} \right] * \left[ \frac {1}{1 - \left(0 . 0 1 0 0 * \frac {9 0}{3 6 0}\right)} \right] \\ = 0. 0 3 0 0 7 5 \\ \end{array}
+\begin{array}{l} D R_{9 0 \times 1 8 0} = \left[ \frac{1 8 0 * 0 . 0 2 0 0 - 9 0 * 0 . 0 1 0 0}{1 8 0 - 9 0} \right] * \left[ \frac{1}{1 - \left(0 . 0 1 0 0 * \frac{9 0}{3 6 0}\right)} \right] \\ = 0. 0 3 0 0 7 5 \\ \end{array}
 $$
 
 If 6-month and 12-month BA discount rates are  $10\%$  and  $20\%$ , the IFR is  $31.58\%$ . That's substantially more than the  $30\%$  approximation.
@@ -1903,7 +1903,7 @@ Suppose that we observe price and yield data on four actively traded benchmark s
 We need some simplifying assumptions to illustrate bootstrapping. We require a starting place in the money market where we observe the pricing on a short-term zero-coupon bond. Here the 1-year represents the starter zero. But keep in mind that in practice we would use the price on a T-bill or commercial paper or a time deposit that pays LIBOR. The 1-year bond is priced at 97.0625 to yield  $3.0264\%$ .
 
 $$
-9 7. 0 6 2 5 = \frac {1 0 0}{1 + y}, \quad y = 0. 0 3 0 2 6 4
+9 7. 0 6 2 5 = \frac{1 0 0}{1 + y}, \quad y = 0. 0 3 0 2 6 4
 $$
 
 TABLE 5.1 Example of Observed Prices and Yields  
@@ -1913,13 +1913,13 @@ TABLE 5.1 Example of Observed Prices and Yields
 The 2-year, 3-year, and 4-year bonds are assumed to make annual coupon payments to simplify the example. Assume that we are on a coupon date and the payment has just been made so that there is no accrued interest. Based on these coupon rates and the prices, we observe an interesting U-shaped yield curve because the lowest yield is on the 2-year bond. The internal rates of return follow equation 3.4 from Chapter 3 and are street convention yields for a periodicity of 1 (i.e., they are effective annual rates).
 
 $$
-\begin{array}{l} 1 0 0. 8 7 5 0 = \frac {3 . 2 5}{1 + y} + \frac {1 0 3 . 2 5}{(1 + y) ^ {2}}, \quad y = 0. 0 2 7 9 4 1 \\ 1 0 2. 7 5 0 0 = \frac {4 . 5 0}{1 + y} + \frac {4 . 5 0}{(1 + y) ^ {2}} + \frac {1 0 4 . 5 0}{(1 + y) ^ {3}}, \quad y = 0. 0 3 5 1 8 1 \\ 9 9. 3 1 2 5 = \frac {4}{1 + y} + \frac {4}{(1 + y) ^ {2}} + \frac {4}{(1 + y) ^ {3}} + \frac {4}{(1 + y) ^ {4}}, \quad y = 0. 0 4 1 9 0 2 \\ \end{array}
+\begin{array}{l} 1 0 0. 8 7 5 0 = \frac{3 . 2 5}{1 + y} + \frac{1 0 3 . 2 5}{(1 + y)^{2}}, \quad y = 0. 0 2 7 9 4 1 \\ 1 0 2. 7 5 0 0 = \frac{4 . 5 0}{1 + y} + \frac{4 . 5 0}{(1 + y)^{2}} + \frac{1 0 4 . 5 0}{(1 + y)^{3}}, \quad y = 0. 0 3 5 1 8 1 \\ 9 9. 3 1 2 5 = \frac{4}{1 + y} + \frac{4}{(1 + y)^{2}} + \frac{4}{(1 + y)^{3}} + \frac{4}{(1 + y)^{4}}, \quad y = 0. 0 4 1 9 0 2 \\ \end{array}
 $$
 
 The implied 2-year spot rate (the  $0 \times 2$ ) turns out to be  $2.7903\%$ ; it is the solution for  $z$  in this expression.
 
 $$
-1 0 0. 8 7 5 0 = \frac {3 . 2 5}{1 . 0 3 0 2 6 4} + \frac {1 0 3 . 2 5}{(1 + z) ^ {2}}, \quad z = 0. 0 2 7 9 0 3
+1 0 0. 8 7 5 0 = \frac{3 . 2 5}{1 . 0 3 0 2 6 4} + \frac{1 0 3 . 2 5}{(1 + z)^{2}}, \quad z = 0. 0 2 7 9 0 3
 $$
 
 The first cash flow is discounted by the  $0 \times 1$  spot rate of  $3.0264\%$ . That's why we need a starter zero taken from the money market. The algebra problem is to find the 2-year spot rate such that when the second cash flow is discounted by that rate, the sum is the price of the bond.
@@ -1927,7 +1927,7 @@ The first cash flow is discounted by the  $0 \times 1$  spot rate of  $3.0264\%$
 The implied 3-year spot rate (the  $0 \times 3$ ) is  $3.5476\%$ .
 
 $$
-1 0 2. 7 5 0 0 = \frac {4 . 5 0}{1 . 0 3 0 2 6 4} + \frac {4 . 5 0}{(1 . 0 2 7 9 0 3) ^ {2}} + \frac {1 0 4 . 5 0}{(1 + z) ^ {3}}, \quad z = 0. 0 3 5 4 7 6
+1 0 2. 7 5 0 0 = \frac{4 . 5 0}{1 . 0 3 0 2 6 4} + \frac{4 . 5 0}{(1 . 0 2 7 9 0 3)^{2}} + \frac{1 0 4 . 5 0}{(1 + z)^{3}}, \quad z = 0. 0 3 5 4 7 6
 $$
 
 Our  $0 \times 2$  result is now an input into the equation and is used to discount the second cash flow. This is what is meant by bootstrapping the curve. Note that later calculations will be susceptible to any errors made earlier in the process.
@@ -1935,7 +1935,7 @@ Our  $0 \times 2$  result is now an input into the equation and is used to disco
 We continue working our way out the yield curve to get the implied  $0 \times 4$  spot rate. This uses the initial  $0 \times 1$  starter zero and the  $0 \times 2$  and  $0 \times 3$  implied rates.
 
 $$
-\begin{array}{l} 9 9. 3 1 2 5 = \frac {4}{1 . 0 3 0 2 6 4} + \frac {4}{(1 . 0 2 7 9 0 3) ^ {2}} + \frac {4}{(1 . 0 3 5 4 7 6) ^ {3}} + \frac {1 0 4}{(1 + z) ^ {4}}, \\ z = 0. 0 4 2 5 2 5 \\ \end{array}
+\begin{array}{l} 9 9. 3 1 2 5 = \frac{4}{1 . 0 3 0 2 6 4} + \frac{4}{(1 . 0 2 7 9 0 3)^{2}} + \frac{4}{(1 . 0 3 5 4 7 6)^{3}} + \frac{1 0 4}{(1 + z)^{4}}, \\ z = 0. 0 4 2 5 2 5 \\ \end{array}
 $$
 
 Clearly, this repetitive sequence of calculations is suited perfectly for a computer. You probably can see how you would build that spreadsheet, given the dates and amounts of the scheduled future cash flows on the underlying benchmark bonds. In general, you would need to use the total current market value including accrued interest on the left side of the equation.
@@ -1943,7 +1943,7 @@ Clearly, this repetitive sequence of calculations is suited perfectly for a comp
 These equations demonstrate why a yield-to-maturity statistic can be interpreted as a "present value average" of the zero-coupon rates, as we saw in Chapter 3. Consider the 4-year bond in this example. Its price is the sum of the discounted cash flows using either the yield to maturity or the sequence of spot rates.
 
 $$
-\begin{array}{l} \frac {4}{1 . 0 4 1 9 0 2} + \frac {4}{(1 . 0 4 1 9 0 2) ^ {2}} + \frac {4}{(1 . 0 4 1 9 0 2) ^ {3}} + \frac {1 0 4}{(1 . 0 4 1 9 0 2) ^ {4}} = 9 9. 3 1 2 5 \\ \frac {4}{1 . 0 3 0 2 6 4} + \frac {4}{(1 . 0 2 7 9 0 3) ^ {2}} + \frac {4}{(1 . 0 3 5 4 7 6) ^ {3}} + \frac {1 0 4}{(1 . 0 4 2 5 2 5) ^ {4}} = 9 9. 3 1 2 5 \\ \end{array}
+\begin{array}{l} \frac{4}{1 . 0 4 1 9 0 2} + \frac{4}{(1 . 0 4 1 9 0 2)^{2}} + \frac{4}{(1 . 0 4 1 9 0 2)^{3}} + \frac{1 0 4}{(1 . 0 4 1 9 0 2)^{4}} = 9 9. 3 1 2 5 \\ \frac{4}{1 . 0 3 0 2 6 4} + \frac{4}{(1 . 0 2 7 9 0 3)^{2}} + \frac{4}{(1 . 0 3 5 4 7 6)^{3}} + \frac{1 0 4}{(1 . 0 4 2 5 2 5)^{4}} = 9 9. 3 1 2 5 \\ \end{array}
 $$
 
 Here  $4.1902\%$  is a "weighted average" of  $3.0264\%$ ,  $2.7903\%$ ,  $3.5476\%$ , and  $4.2525\%$ , with most of the weight on the last spot rate because it corresponds to the largest cash flow.
@@ -1951,7 +1951,7 @@ Here  $4.1902\%$  is a "weighted average" of  $3.0264\%$ ,  $2.7903\%$ ,  $3.547
 The implied spot curve can be used to derive a related description of the market, again assuming no arbitrage. This is the par curve—the sequence of yields such that the bond for each time to maturity trades at par value. For example, the 4-year par yield comes from the solution for PMT:
 
 $$
-\begin{array}{l} 1 0 0 = \frac {P M T}{1 . 0 3 0 2 6 4} + \frac {P M T}{(1 . 0 2 7 9 0 3) ^ {2}} + \frac {P M T}{(1 . 0 3 5 4 7 6) ^ {3}} + \frac {P M T + 1 0 0}{(1 . 0 4 2 5 2 5) ^ {4}}, \\ P M T = 4. 1 8 7 6 \\ \end{array}
+\begin{array}{l} 1 0 0 = \frac{P M T}{1 . 0 3 0 2 6 4} + \frac{P M T}{(1 . 0 2 7 9 0 3)^{2}} + \frac{P M T}{(1 . 0 3 5 4 7 6)^{3}} + \frac{P M T + 1 0 0}{(1 . 0 4 2 5 2 5)^{4}}, \\ P M T = 4. 1 8 7 6 \\ \end{array}
 $$
 
 Each cash flow is discounted using the corresponding implied spot rate. So, while the actual  $4\%$ , 4-year bond is trading at a small discount to yield  $4.1902\%$ , we now deduce that a hypothetical  $4.1876\%$ , 4-year bond would be priced at par value.
@@ -1959,7 +1959,7 @@ Each cash flow is discounted using the corresponding implied spot rate. So, whil
 Another clever application of the implied spot curve is in calculating the credit spread over benchmark bonds. Suppose we are analyzing a 4-year, level-payment, fully amortizing bank loan. The bank loan is priced at par value and makes an annual payment of 28.2 (percent of par value), including both principal and interest. Its yield to maturity is  $4.9982\%$ .
 
 $$
-1 0 0 = \frac {2 8 . 2}{1 + y} + \frac {2 8 . 2}{(1 + y) ^ {2}} + \frac {2 8 . 2}{(1 + y) ^ {3}} + \frac {2 8 . 2}{(1 + y) ^ {4}}, \quad y = 0. 0 4 9 9 8 2
+1 0 0 = \frac{2 8 . 2}{1 + y} + \frac{2 8 . 2}{(1 + y)^{2}} + \frac{2 8 . 2}{(1 + y)^{3}} + \frac{2 8 . 2}{(1 + y)^{4}}, \quad y = 0. 0 4 9 9 8 2
 $$
 
 What is the credit spread, assuming the four bonds in this section are Treasuries? Using the 4-year par yield, it is 81.06 basis points:  $4.9982\% - 4.1876\% = 0.8106\%$ . Using the actual 4-year bond, the spread is 80.80 basis points:  $4.9982\% - 4.1902\% = 0.8080\%$ . The problem with these is that the "average life" of this amortizing bank loan is less than four years—the 4-year Treasury yield is not the right benchmark.
@@ -1967,7 +1967,7 @@ What is the credit spread, assuming the four bonds in this section are Treasurie
 A better way to assess the compensation for the credit risk (as well as any difference in liquidity and taxation) is to calculate the static spread, also known as the zero-volatility spread or just  $Z$ -spread. It is the uniform (hence, static) spread over the benchmark implied spot rates. It is the solution for the static spread, denoted  $ss$ , in this expression:
 
 $$
-\begin{array}{l} 1 0 0 = \frac {2 8 . 2}{(1 + 0 . 0 3 0 2 6 4 + s s)} + \frac {2 8 . 2}{(1 + 0 . 0 2 7 9 0 3 + s s) ^ {2}} + \frac {2 8 . 2}{(1 + 0 . 0 3 5 4 7 6 + s s) ^ {3}} \\ + \frac {2 8 . 2}{(1 + 0 . 0 4 2 5 2 5 + s s) ^ {4}} \\ \end{array}
+\begin{array}{l} 1 0 0 = \frac{2 8 . 2}{(1 + 0 . 0 3 0 2 6 4 + s s)} + \frac{2 8 . 2}{(1 + 0 . 0 2 7 9 0 3 + s s)^{2}} + \frac{2 8 . 2}{(1 + 0 . 0 3 5 4 7 6 + s s)^{3}} \\ + \frac{2 8 . 2}{(1 + 0 . 0 4 2 5 2 5 + s s)^{4}} \\ \end{array}
 $$
 
 Here you need trial-and-error search (or Excel and Solver) to find that  $ss = 0.014048$ . The static spread for this fully amortizing bank loan is 140.48 basis points.
@@ -1984,7 +1984,7 @@ Figure 5.2 summarizes the various paths to the implied forward rate formulas. Yo
 Suppose you have a 4-year investment horizon and can buy any of the four government bonds in the preceding example. You are deciding whether to buy the 1-year zero and reinvest at higher yields in each future year, you hope, or to buy the  $4\%$ , 4-year bond. How high would rates have to be to prefer the rollover strategy? The answer, of course, is higher than the IFRs. But you cannot just plug the yields to maturity into equation 5.2 or 5.4. Respecting bond math protocol, you need to use the implied spot rates.
 
 $$
-\begin{array}{l} R a t e _ {1 \times 2} = \frac {(1 . 0 2 7 9 0 3) ^ {2}}{(1 . 0 3 0 2 6 4)} - 1 = 0. 0 2 5 5 4 7 \\ \text {R a t e} _ {2 \times 3} = \frac {(1 . 0 3 5 4 7 6) ^ {3}}{(1 . 0 2 7 9 0 3) ^ {2}} - 1 = 0. 0 5 0 7 9 0 \\ \text {R a t e} _ {3 \times 4} = \frac {(1 . 0 4 2 5 2 5) ^ {4}}{(1 . 0 3 5 4 7 6) ^ {3}} - 1 = 0. 0 6 3 9 6 1 \\ \end{array}
+\begin{array}{l} R a t e_{1 \times 2} = \frac{(1 . 0 2 7 9 0 3)^{2}}{(1 . 0 3 0 2 6 4)} - 1 = 0. 0 2 5 5 4 7 \\ \text{Ra te}_{2 \times 3} = \frac{(1 . 0 3 5 4 7 6)^{3}}{(1 . 0 2 7 9 0 3)^{2}} - 1 = 0. 0 5 0 7 9 0 \\ \text{Ra te}_{3 \times 4} = \frac{(1 . 0 4 2 5 2 5)^{4}}{(1 . 0 3 5 4 7 6)^{3}} - 1 = 0. 0 6 3 9 6 1 \\ \end{array}
 $$
 
 To expect a higher total return after four years by buying and rolling over 1-year bonds, you project the 1-year yield to track a path, on average, above  $2.55\%$ ,  $5.08\%$ , and  $6.40\%$ .
@@ -1992,7 +1992,7 @@ To expect a higher total return after four years by buying and rolling over 1-ye
 Now suppose that you are a commercial banker working with a middle market business customer on a 12-month loan to build up working capital. The loan rate will be tied to 6-month or 12-month LIBOR. If the customer chooses 12-month LIBOR (currently  $4.00\%$ ), the cost of funds is set. But if the customer chooses 6-month LIBOR (currently  $3.50\%$ ), there is interest rate risk at the reset date in six months. Your customer asks for your recommendation. You know that the maturity-choice decision depends on the rate view (i.e., where 6-month LIBOR is expected to be vis-à-vis the implied forward rate). You also know that the  $6 \times 12$  IFR is not  $4.50\%$  because of the periodicity problem. You use equation 5.6 to get a breakeven level for LIBOR of  $4.42\%$  (assuming 180 and 360 days).
 
 $$
-\begin{array}{l} A O R _ {1 8 0 \times 3 6 0} = \left[ \frac {3 6 0 * 0 . 0 4 0 0 - 1 8 0 * 0 . 0 3 5 0}{3 6 0 - 1 8 0} \right] * \left[ \frac {1}{1 + \left(0 . 0 3 5 0 * \frac {1 8 0}{3 6 0}\right)} \right] \\ = 0. 0 4 4 2 2 6 \\ \end{array}
+\begin{array}{l} A O R_{1 8 0 \times 3 6 0} = \left[ \frac{3 6 0 * 0 . 0 4 0 0 - 1 8 0 * 0 . 0 3 5 0}{3 6 0 - 1 8 0} \right] * \left[ \frac{1}{1 + \left(0 . 0 3 5 0 * \frac{1 8 0}{3 6 0}\right)} \right] \\ = 0. 0 4 4 2 2 6 \\ \end{array}
 $$
 
 The customer's decision turns on whether 6-month LIBOR is expected to be above or below  $4.42\%$  in six months. That might or might not be the rate that market participants in general are expecting. That does not matter—what matters is the decision maker's own rate view. The commercial banker here can help the process by providing some historical data, the bank economist's view on monetary policy and economic conditions, and the like. The advantage of the IFR is that as a breakeven rate it provides a framework for the above-or-below decision.
@@ -2002,13 +2002,13 @@ Another application of the implied spot curve is bond valuation. In the example,
 street convention basis. Now suppose that we want to calculate the fair value on another 4-year bond, this one having a  $9\%$  coupon rate. We neglect taxation and assume that this bond has the same liquidity and default risk as the four benchmark securities. The key point is that in a world of no arbitrage, this bond will not be priced to yield  $4.1902\%$ . Instead, its (no-arbitrage) price is the present value of the cash flows discounted at the implied spot rates.
 
 $$
-\frac {9}{1 . 0 3 0 2 6 4} + \frac {9}{(1 . 0 2 7 9 0 3) ^ {2}} + \frac {9}{(1 . 0 3 5 4 7 6) ^ {3}} + \frac {1 0 9}{(1 . 0 4 2 5 2 5) ^ {4}} = 1 1 7. 6 3 4 2
+\frac{9}{1 . 0 3 0 2 6 4} + \frac{9}{(1 . 0 2 7 9 0 3)^{2}} + \frac{9}{(1 . 0 3 5 4 7 6)^{3}} + \frac{1 0 9}{(1 . 0 4 2 5 2 5)^{4}} = 1 1 7. 6 3 4 2
 $$
 
 Based on that price, the yield-to-maturity statistic is  $4.1274\%$ .
 
 $$
-1 1 7. 6 3 4 2 = \frac {9}{1 + y} + \frac {9}{(1 + y) ^ {2}} + \frac {9}{(1 + y) ^ {3}} + \frac {1 0 9}{(1 + y) ^ {4}}, \quad y = 0. 0 4 1 2 7 4
+1 1 7. 6 3 4 2 = \frac{9}{1 + y} + \frac{9}{(1 + y)^{2}} + \frac{9}{(1 + y)^{3}} + \frac{1 0 9}{(1 + y)^{4}}, \quad y = 0. 0 4 1 2 7 4
 $$
 
 The usual candidates to explain why the yields on any two bonds differ are time to maturity (the shape of the yield curve), credit risk (the probability of default and the assumed recovery rate), liquidity risk, and taxation. This example reveals another reason—coupon structure. We have three 4-year bonds for the same risk class: one yielding  $4.2525\%$  (the implied  $0\%$  coupon bond), another yielding  $4.1902\%$  (the benchmark  $4\%$  coupon bond), and this one yielding  $4.1274\%$  (the  $9\%$  coupon bond). The yield differences are entirely due to coupon structure. The more "weight" that is placed on the first few cash flows (i.e., the higher the coupon rate), the lower the yield to maturity. Of course, that conclusion depends on the shape of the curve.
@@ -2046,7 +2046,7 @@ In the first term in brackets, the initial coupon is rolled over at the  $1 \tim
 The 4-year horizon yield, or holding-period rate of return, is the solution for  $HPR$ , the annual rate connecting the purchase price to the total return.
 
 $$
-9 9. 3 1 2 5 = \frac {1 1 7 . 3 1 4 0 8 7}{(1 + H P R) ^ {4}}, \quad H P R = 0. 0 4 2 5 2 5
+9 9. 3 1 2 5 = \frac{1 1 7 . 3 1 4 0 8 7}{(1 + H P R)^{4}}, \quad H P R = 0. 0 4 2 5 2 5
 $$
 
 Notice that  $4.2525\%$  is the  $0 \times 4$  implied spot rate. Derivatives (in particular, costless and riskless derivatives) lock in for the investor the 4-year spot rate, not the  $4.1902\%$  yield to maturity on the 4-year bond.
@@ -2060,7 +2060,7 @@ $$
 When the bond is sold, the proceeds are just the final coupon and principal discounted at the  $3 \times 4$  IFR. The 3-year horizon yield is  $3.5476\%$ , which—no surprise now—is the  $0 \times 3$  implied spot rate.
 
 $$
-9 9. 3 1 2 5 = \frac {1 1 0 . 2 6 1 6 4 2}{(1 + H P R) ^ {3}}, \quad H P R = 0. 0 3 5 4 7 6
+9 9. 3 1 2 5 = \frac{1 1 0 . 2 6 1 6 4 2}{(1 + H P R)^{3}}, \quad H P R = 0. 0 3 5 4 7 6
 $$
 
 These examples demonstrate the interconnectedness between the underlying yield curve on traded coupon bonds, the implied spot, and implied forward rates. The connection is the assumption of no arbitrage.
@@ -2074,7 +2074,7 @@ The 1-year bond has a coupon rate of zero and is priced at 97.0625 per 100 of pa
 0.970625. The 2-year bond in Table 5.1 has a coupon rate of  $3.25\%$  and is priced at 100.8750. The 2-year discount factor is the solution for  $DF_{2}$  in this equation.
 
 $$
-1 0 0. 8 7 5 0 = (3. 2 5 * 0. 9 7 0 6 2 5) + (1 0 3. 2 5 * D F _ {2}), \quad D F _ {2} = 0. 9 4 6 4 4 5
+1 0 0. 8 7 5 0 = (3. 2 5 * 0. 9 7 0 6 2 5) + (1 0 3. 2 5 * D F_{2}), \quad D F_{2} = 0. 9 4 6 4 4 5
 $$
 
 The bootstrapping process proceeds as in the section above where the implied spot rates are obtained. The difference is that now the algebra is much easier.
@@ -2082,15 +2082,15 @@ The bootstrapping process proceeds as in the section above where the implied spo
 The 3-year and 4-year bonds have coupon rates of  $4.50\%$  and  $4.00\%$  and prices of 102.7500 and 99.3125, respectively. Working your way out the yield curve sequentially gets the next two annual discount factors.
 
 $$
-1 0 2. 7 5 = (4. 5 0 * 0. 9 7 0 6 2 5) + (4. 5 0 * 0. 9 4 6 4 4 5) + (1 0 4. 5 0 * D F _ {3}),
+1 0 2. 7 5 = (4. 5 0 * 0. 9 7 0 6 2 5) + (4. 5 0 * 0. 9 4 6 4 4 5) + (1 0 4. 5 0 * D F_{3}),
 $$
 
 $$
-D F _ {3} = 0. 9 0 0 7 0 0
+D F_{3} = 0. 9 0 0 7 0 0
 $$
 
 $$
-\begin{array}{l} 9 9. 3 1 2 5 = (4 * 0. 9 7 0 6 2 5) + (4 * 0. 9 4 6 4 4 5) + (4 * 0. 9 0 0 7 0 0) \\ + (1 0 4 * D F _ {4}), \quad D F _ {4} = 0. 8 4 6 5 5 2 \\ \end{array}
+\begin{array}{l} 9 9. 3 1 2 5 = (4 * 0. 9 7 0 6 2 5) + (4 * 0. 9 4 6 4 4 5) + (4 * 0. 9 0 0 7 0 0) \\ + (1 0 4 * D F_{4}), \quad D F_{4} = 0. 8 4 6 5 5 2 \\ \end{array}
 $$
 
 The output from the previous step becomes an input in the next step.
@@ -2114,7 +2114,7 @@ The key point is that spot rates and discount factors contain the same informati
 If you start with the discount factors, you can always solve for the corresponding spot rates. Here are the calculations for the 2-year, 3-year, and 4-year zero-coupon rates,  $z_{1}, z_{2}$ , and  $z_{3}$ :
 
 $$
-\begin{array}{l} z _ {2} = \left(\frac {1}{0 . 9 4 6 4 4 5}\right) ^ {1 / 2} - 1 = 0. 0 2 7 9 0 3 \\ z _ {3} = \left(\frac {1}{0 . 9 0 0 7 0 0}\right) ^ {1 / 3} - 1 = 0. 0 3 5 4 7 6 \\ z _ {4} = \left(\frac {1}{0 . 8 4 6 5 5 2}\right) ^ {1 / 4} - 1 = 0. 0 4 2 5 2 5 \\ \end{array}
+\begin{array}{l} z_{2} = \left(\frac{1}{0 . 9 4 6 4 4 5}\right)^{1 / 2} - 1 = 0. 0 2 7 9 0 3 \\ z_{3} = \left(\frac{1}{0 . 9 0 0 7 0 0}\right)^{1 / 3} - 1 = 0. 0 3 5 4 7 6 \\ z_{4} = \left(\frac{1}{0 . 8 4 6 5 5 2}\right)^{1 / 4} - 1 = 0. 0 4 2 5 2 5 \\ \end{array}
 $$
 
 These are the same as above.
@@ -2122,7 +2122,7 @@ These are the same as above.
 In addition, the implied forward rates are ratios of the discount factors. Here are the  $1 \times 2$ ,  $2 \times 3$ , and  $3 \times 4$  IFRs:
 
 $$
-\begin{array}{l} \text {R a t e} _ {1 \times 2} = \frac {0 . 9 7 0 6 2 5}{0 . 9 4 6 4 4 5} - 1 = 0. 0 2 5 5 4 8 \\ \text {R a t e} _ {2 \times 3} = \frac {0 . 9 4 6 4 4 5}{0 . 9 0 0 7 0 0} - 1 = 0. 0 5 0 7 8 8 \\ \text {R a t e} _ {3 \times 4} = \frac {0 . 9 0 0 7 0 0}{0 . 8 4 6 5 5 2} - 1 = 0. 0 6 3 9 6 3 \\ \end{array}
+\begin{array}{l} \text{Ra te}_{1 \times 2} = \frac{0 . 9 7 0 6 2 5}{0 . 9 4 6 4 4 5} - 1 = 0. 0 2 5 5 4 8 \\ \text{Ra te}_{2 \times 3} = \frac{0 . 9 4 6 4 4 5}{0 . 9 0 0 7 0 0} - 1 = 0. 0 5 0 7 8 8 \\ \text{Ra te}_{3 \times 4} = \frac{0 . 9 0 0 7 0 0}{0 . 8 4 6 5 5 2} - 1 = 0. 0 6 3 9 6 3 \\ \end{array}
 $$
 
 Once again, the minor differences between these and those calculated above are due to rounding in the spot rates. These results are slightly more accurate.
@@ -2130,13 +2130,13 @@ Once again, the minor differences between these and those calculated above are d
 To see how the spot rates, forward rates and discount factors are interrelated, think about how the  $3 \times 4$  is calculated with the 3-year and 4-year spot rates.
 
 $$
-R a t e _ {3 \times 4} = \frac {(1 . 0 4 2 5 2 5) ^ {4}}{(1 . 0 3 5 4 7 6) ^ {3}} - 1
+R a t e_{3 \times 4} = \frac{(1 . 0 4 2 5 2 5)^{4}}{(1 . 0 3 5 4 7 6)^{3}} - 1
 $$
 
 This is equivalent to this equation:
 
 $$
-R a t e _ {3 \times 4} = \frac {\frac {1}{(1 . 0 3 5 4 7 6) ^ {3}}}{\frac {1}{(1 . 0 4 2 5 2 5) ^ {4}}} - 1
+R a t e_{3 \times 4} = \frac{\frac{1}{(1 . 0 3 5 4 7 6)^{3}}}{\frac{1}{(1 . 0 4 2 5 2 5)^{4}}} - 1
 $$
 
 The numerator is  $DF_{3}$ , the present value of 1 discounted back to date 0 using the 3-year spot rate; the denominator is  $DF_{4}$ . The ratio between the discount factors minus one is the  $3 \times 4$  implied forward rate.
@@ -2144,41 +2144,41 @@ The numerator is  $DF_{3}$ , the present value of 1 discounted back to date 0 us
 The calculations in this section are simplified because the underlying bonds make annual payments and the annual rates have a periodicity of 1. To generalize using the notation of equations 5.3 and 5.4, the discount factor for year A given the annual spot rate  $Rate_{0 \times A}$  and its periodicity,  $PER$ , is:
 
 $$
-D F _ {A} = \frac {1}{\left(1 + \frac {\text {R a t e} _ {0 \times A}}{\text {P E R}}\right) ^ {\text {A Y e a r s * P E R}}} \tag {5.9}
+D F_{A} = \frac{1}{\left(1 + \frac{\text{Ra te}_{0 \times A}}{\text{PE R}}\right)^{\text{AY ea rs *P ER}}} \tag {5.9}
 $$
 
 The spot rate given the discount factor is:
 
 $$
-\operatorname {R a t e} _ {0 \times A} = \left[ \left(\frac {1}{D F _ {A}}\right) ^ {\left(\frac {1}{A Y e a r s * P E R}\right)} - 1 \right] * P E R \tag {5.10}
+\operatorname{Ra te}_{0 \times A} = \left[ \left(\frac{1}{D F_{A}}\right)^{\left(\frac{1}{A Y e a r s * P E R}\right)} - 1 \right] * P E R \tag {5.10}
 $$
 
 The implied forward rate between year A and year B given the discount factors and the periodicity is:
 
 $$
-\operatorname {R a t e} _ {A \times B} = \left[ \left(\frac {D F _ {A}}{D F _ {B}}\right) ^ {\left(\frac {1}{(B Y e a r s - A Y e a r s) * P E R}\right)} - 1 \right] * P E R \tag {5.11}
+\operatorname{Ra te}_{A \times B} = \left[ \left(\frac{D F_{A}}{D F_{B}}\right)^{\left(\frac{1}{(B Y e a r s - A Y e a r s) * P E R}\right)} - 1 \right] * P E R \tag {5.11}
 $$
 
 Suppose that 4-year and 5-year zero-coupon bonds are priced at 89.75 and 86.25 (percent of par value), respectively. What is the  $4 \times 5$  implied forward rate quoted on a semiannual bond basis? Using equation 5.11 it is  $4.0176\%$  (s.a.).
 
 $$
-R a t e _ {4 \times 5} = \left[ \left(\frac {0 . 8 9 7 5}{0 . 8 6 2 5}\right) ^ {\frac {1}{(5 - 4) * 2}} - 1 \right] * 2 = 0. 0 4 0 1 7 6
+R a t e_{4 \times 5} = \left[ \left(\frac{0 . 8 9 7 5}{0 . 8 6 2 5}\right)^{\frac{1}{(5 - 4) * 2}} - 1 \right] * 2 = 0. 0 4 0 1 7 6
 $$
 
 Another method is to solve for the 4-year and 5-year spot rates using Equation 5.10.
 
 $$
-R a t e _ {0 \times 4} = \left[ \left(\frac {1}{0 . 8 9 7 5}\right) ^ {\left(\frac {1}{4 * 2}\right)} - 1 \right] * 2 = 0. 0 2 7 2 1 9
+R a t e_{0 \times 4} = \left[ \left(\frac{1}{0 . 8 9 7 5}\right)^{\left(\frac{1}{4 * 2}\right)} - 1 \right] * 2 = 0. 0 2 7 2 1 9
 $$
 
 $$
-\text {R a t e} _ {0 \times 5} = \left[ \left(\frac {1}{0 . 8 6 2 5}\right) ^ {\left(\frac {1}{5 * 2}\right)} - 1 \right] * 2 = 0. 0 2 9 8 0 4
+\text{Ra te}_{0 \times 5} = \left[ \left(\frac{1}{0 . 8 6 2 5}\right)^{\left(\frac{1}{5 * 2}\right)} - 1 \right] * 2 = 0. 0 2 9 8 0 4
 $$
 
 Equation 5.4 can be used to get the  $4 \times 5$  implied forward using the spot rates.
 
 $$
-R a t e _ {4 \times 5} = \left[ \frac {\left(1 + \frac {0 . 0 2 9 8 0 4}{2}\right) ^ {5}}{\left(1 + \frac {0 . 0 2 7 2 1 9}{2}\right) ^ {4}} - 1 \right] * 2 = 0. 0 4 0 1 7 7
+R a t e_{4 \times 5} = \left[ \frac{\left(1 + \frac{0 . 0 2 9 8 0 4}{2}\right)^{5}}{\left(1 + \frac{0 . 0 2 7 2 1 9}{2}\right)^{4}} - 1 \right] * 2 = 0. 0 4 0 1 7 7
 $$
 
 Note that  $B$  Years -  $A$  Years = 5 - 4 = 1. Once again there is a small difference in the fourth decimal and the result using discount factors is slightly more accurate. The main difference, however, is how much easier it is to work with discount factors, especially on a spreadsheet.
@@ -2212,7 +2212,7 @@ is that, other things being equal (meaning the coupon rate, yield to maturity, p
 We can derive the relationship between a change in the yield to maturity and the change in the market value of a standard fixed-income bond using a bit of algebra and calculus. Equation 6.1 is a general bond pricing equation very similar to equation 3.9 in Chapter 3.
 
 $$
-M V = \frac {P M T}{(1 + y) ^ {1 - t / T}} + \frac {P M T}{(1 + y) ^ {2 - t / T}} + \dots + \frac {P M T + F V}{(1 + y) ^ {N - t / T}} \tag {6.1}
+M V = \frac{P M T}{(1 + y)^{1 - t / T}} + \frac{P M T}{(1 + y)^{2 - t / T}} + \dots + \frac{P M T + F V}{(1 + y)^{N - t / T}} \tag {6.1}
 $$
 
 The periodic coupon payments (PMT) and the principal (FV) to be redeemed in full at maturity are discounted at the yield per period  $(y)$ . The settlement date is  $t$  days into the  $T$ -day period and there are  $N$  periods to maturity counting from the beginning of the current period. Here the present value of the future cash flows is the market value  $(MV)$  of the bond, that is, the full (or "dirty") price. The risk statistics for the bond are concerned with cash value, independent of how that amount is broken down for accounting into the flat (or "clean") price and accrued interest.
@@ -2220,7 +2220,7 @@ The periodic coupon payments (PMT) and the principal (FV) to be redeemed in full
 Yield duration and convexity entail estimating the change in market value, denoted  $dMV$ , caused by an instantaneous change in the yield to maturity per period,  $dy$ . A useful way of obtaining this estimation is with a Taylor series expansion. Technically, this assumes that the basic relationship in equation 6.1 is continuous and differentiable with respect to the yield. This Taylor series can go out to any number of terms depending on the required degree of precision. All we need for bond math are the first two, as shown in equation 6.2.
 
 $$
-d M V \approx \left(\frac {\partial M V}{\partial y} * d y\right) + \left(\frac {1}{2} * \frac {\partial^ {2} M V}{\partial y ^ {2}} * (d y) ^ {2}\right) \tag {6.2}
+d M V \approx \left(\frac{\partial M V}{\partial y} * d y\right) + \left(\frac{1}{2} * \frac{\partial^{2} M V}{\partial y^{2}} * (d y)^{2}\right) \tag {6.2}
 $$
 
 In words, the change in market value is estimated by the first partial derivative of the bond pricing formula times the change in the yield plus one-half of the second partial derivative times the change in the yield squared. The first term is the essence of yield duration; the second term is the essence of yield convexity. The partial derivatives are calculated holding the other variables  $(PMT, N, FV, t / T)$  constant when the yield changes.
@@ -2228,7 +2228,7 @@ In words, the change in market value is estimated by the first partial derivativ
 At this point we can define a number of versions of the yield duration statistic.
 
 $$
-\text {M a c a u l a y D u r a t i o n} \equiv - \frac {\partial M V}{\partial y} * \frac {1 + y}{M V} \tag {6.3}
+\text{Ma ca ul ay Du ra ti on} \equiv - \frac{\partial M V}{\partial y} * \frac{1 + y}{M V} \tag {6.3}
 $$
 
 This expression produces the famous statistic first described by Frederick Macaulay, a Canadian economist, in his study of U.S. railroad bond yields and stock prices between 1857 and 1936. The minus sign is part of the definition so that the duration will be a positive number. That's because the first derivative is negative due to the usual inverse relationship between the bond yield and its market value. We see some circumstances in Chapters 7 and 8 when the derivative actually is positive—we call that phenomenon negative duration.
@@ -2236,13 +2236,13 @@ This expression produces the famous statistic first described by Frederick Macau
 Closely related and more commonly used is modified duration.
 
 $$
-\text {M o d i f i e d D u r a t i o n} \equiv - \frac {\partial M V}{\partial y} * \frac {1}{M V} = \frac {\text {M a c a u l a y D u r a t i o n}}{1 + y} \tag {6.4}
+\text{Mo di fi ed Du ra ti on} \equiv - \frac{\partial M V}{\partial y} * \frac{1}{M V} = \frac{\text{Ma ca ul ay Du ra ti on}}{1 + y} \tag {6.4}
 $$
 
 We'll see that modified duration relates directly to the percentage change in the market value of the bond. Sometimes we want to estimate the change in value in terms of money, usually for a certain amount of par value.
 
 $$
-M o n e y D u r a t i o n \equiv - \frac {\partial M V}{\partial y} = \text {M o d i f i e d D u r a t i o n} * M V \tag {6.5}
+M o n e y D u r a t i o n \equiv - \frac{\partial M V}{\partial y} = \text{Mo di fi ed Du ra ti on} * M V \tag {6.5}
 $$
 
 In the U.S., this statistic is often called the dollar duration, but I prefer money duration because bond math is ecumenical in spirit.
@@ -2250,11 +2250,11 @@ In the U.S., this statistic is often called the dollar duration, but I prefer mo
 The convexity statistics for the bond similarly can be defined with respect to the second partial derivative.
 
 $$
-\text {C o n v e x i t y} \equiv \frac {\partial^ {2} M V}{\partial y ^ {2}} * \frac {1}{M V} \tag {6.6}
+\text{Co nv ex it y} \equiv \frac{\partial^{2} M V}{\partial y^{2}} * \frac{1}{M V} \tag {6.6}
 $$
 
 $$
-M o n e y C o n v e x i t y \equiv \frac {\partial^ {2} M V}{\partial y ^ {2}} = C o n v e x i t y * M V \tag {6.7}
+M o n e y C o n v e x i t y \equiv \frac{\partial^{2} M V}{\partial y^{2}} = C o n v e x i t y * M V \tag {6.7}
 $$
 
 These are the definitions for convexity that I like to use. Some textbooks divide them by two, thereby combining the one-half term in equation 6.2 with the second partial derivative. Also, we see later in the chapter that the convexity statistic reported on Bloomberg divides the expression in equation 6.6 by 100.
@@ -2262,31 +2262,31 @@ These are the definitions for convexity that I like to use. Some textbooks divid
 To integrate these definitions, divide both sides of equation 6.2 by  $MV$ .
 
 $$
-\frac {d M V}{M V} \approx \left(\frac {\partial M V}{\partial y} * \frac {1}{M V} * d y\right) + \left(\frac {1}{2} * \frac {\partial^ {2} M V}{\partial y ^ {2}} * \frac {1}{M V} * \left(d y ^ {2}\right)\right) \tag {6.8}
+\frac{d M V}{M V} \approx \left(\frac{\partial M V}{\partial y} * \frac{1}{M V} * d y\right) + \left(\frac{1}{2} * \frac{\partial^{2} M V}{\partial y^{2}} * \frac{1}{M V} * \left(d y^{2}\right)\right) \tag {6.8}
 $$
 
 This connects the percentage change in the market value  $(dMV / MV)$  to the change in the yield to maturity. Now substitute the definitions given in equations 6.4 and 6.6 into 6.8.
 
 $$
-\frac {d M V}{M V} \approx (- \text {M o d i f i e d D u r a t i o n} * d y) + \left(\frac {1}{2} * \text {C o n v e x i t y} * (d y) ^ {2}\right) \tag {6.9}
+\frac{d M V}{M V} \approx (- \text{Mo di fi ed Du ra ti on} * d y) + \left(\frac{1}{2} * \text{Co nv ex it y} * (d y)^{2}\right) \tag {6.9}
 $$
 
 The percentage change in the market value of the bond is approximated by the modified duration times the change in the yield to maturity, plus one-half the convexity statistic times the change in the yield squared. The latter is known as the convexity adjustment to duration. Similarly, the change in market value in money terms is approximated by the money duration and convexity statistics.
 
 $$
-d M V \approx (- M o n e y D u r a t i o n * d y) + \left(\frac {1}{2} * M o n e y C o n v e x i t y * (d y) ^ {2}\right) \tag {6.10}
+d M V \approx (- M o n e y D u r a t i o n * d y) + \left(\frac{1}{2} * M o n e y C o n v e x i t y * (d y)^{2}\right) \tag {6.10}
 $$
 
 So far we have related the instantaneous change in the yield per period,  $dy$ , to the change in market value,  $dMV$ . In practice, bond yield statistics invariably are annualized. Therefore, a more useful expression is to estimate the change in market value, either on a percentage basis or in money terms, to the change in the annual yield. Let  $Y$  be the annual percentage rate and  $PER$  the number of periods in the year (i.e., the APR and its periodicity). Then  $Y = y * PER$ ,  $dy = dY/PER$ , and  $(dy)^2 = (dY)^2/PER^2$ . Substitute those into 6.9 to get an expression relating the percentage change in market value to the change in the annual yield to maturity.
 
 $$
-\frac {d M V}{M V} \approx \left(- \frac {\text {M o d i f i e d D u r a t i o n}}{P E R} * d Y\right) + \left(\frac {1}{2} * \frac {\text {C o n v e x i t y}}{P E R ^ {2}} * (d Y) ^ {2}\right) \tag {6.11}
+\frac{d M V}{M V} \approx \left(- \frac{\text{Mo di fi ed Du ra ti on}}{P E R} * d Y\right) + \left(\frac{1}{2} * \frac{\text{Co nv ex it y}}{P E R^{2}} * (d Y)^{2}\right) \tag {6.11}
 $$
 
 Modified duration divided by  $PER$  is the annual modified duration and the convexity divided by  $PER$  squared is the annual convexity.
 
 $$
-\begin{array}{l} \frac {d M V}{M V} \approx (- A n n u a l \text {M o d i f i e d D u r a t i o n} * d Y) \\ + \left(\frac {1}{2} * \text {A n n u a l C o n v e x i t y} * (d Y) ^ {2}\right) \tag {6.12} \\ \end{array}
+\begin{array}{l} \frac{d M V}{M V} \approx (- A n n u a l \text{Mo di fi ed Du ra ti on} * d Y) \\ + \left(\frac{1}{2} * \text{An nu al Co nv ex it y} * (d Y)^{2}\right) \tag {6.12} \\ \end{array}
 $$
 
 # YIELD DURATION
@@ -2294,7 +2294,7 @@ $$
 We can derive specific formulas for the various duration statistics by calculating carefully the first partial derivative of the bond pricing equation 6.1 with respect to a change in the yield per period. As much fun as it is to do the calculus and work though the ensuing algebra, the step-by-step process is relegated to the Technical Appendix. A general formula for the Macaulay duration statistic is shown in equation 6.13.
 
 $$
-\text {M a c a u l a y D u r a t i o n} = \left[ \frac {1 + y}{y} - \frac {1 + y + [ N * (c - y) ]}{c * [ (1 + y) ^ {N} - 1 ] + y} \right] - t / T \tag {6.13}
+\text{Ma ca ul ay Du ra ti on} = \left[ \frac{1 + y}{y} - \frac{1 + y + [ N * (c - y) ]}{c * [ (1 + y)^{N} - 1 ] + y} \right] - t / T \tag {6.13}
 $$
 
 Here the coupon rate per period is denoted  $c$ , where  $c = PMT / FV$ .
@@ -2302,7 +2302,7 @@ Here the coupon rate per period is denoted  $c$ , where  $c = PMT / FV$ .
 Let's go back to the  $4\%$ , annual payment, 4-year corporate bond priced at 99.342 to yield  $4.182\%$  that we first saw in Chapter 3. Suppose that one month has transpired since then, and the bond remarkably is still yielding  $4.182\%$ . Its Macaulay duration is 3.691, found using  $y = 0.04182$ ,  $N = 4$ ,  $c = 0.04$ , and  $t / T = 30 / 360$  assuming the 30/360 day-count convention.
 
 $$
-\left[ \frac {1 . 0 4 1 8 2}{0 . 0 4 1 8 2} - \frac {1 . 0 4 1 8 2 + [ 4 * (0 . 0 4 - 0 . 0 4 1 8 2) ]}{0 . 0 4 * [ (1 . 0 4 1 8 2) ^ {4} - 1 ] + 0 . 0 4 1 8 2} \right] - 3 0 / 3 6 0 = 3. 7 7 4 - 0. 0 8 3 = 3. 6 9 1
+\left[ \frac{1 . 0 4 1 8 2}{0 . 0 4 1 8 2} - \frac{1 . 0 4 1 8 2 + [ 4 * (0 . 0 4 - 0 . 0 4 1 8 2) ]}{0 . 0 4 * [ (1 . 0 4 1 8 2)^{4} - 1 ] + 0 . 0 4 1 8 2} \right] - 3 0 / 3 6 0 = 3. 7 7 4 - 0. 0 8 3 = 3. 6 9 1
 $$
 
 That last assumption about the day-count is important—duration is the link between the change in market value and the change in yield, so how the yield is quoted matters (i.e., its periodicity and day-count convention). Change one of those assumptions and you get a slightly different duration statistic.
@@ -2310,7 +2310,7 @@ That last assumption about the day-count is important—duration is the link bet
 Now suppose that the yield on the bond increased to  $4.650\%$  during the month that has gone by instead of remaining the same. The Macaulay duration would be 3.689.
 
 $$
-\left[ \frac {1 . 0 4 6 5 0}{0 . 0 4 6 5 0} - \frac {1 . 0 4 6 5 0 + [ 4 * (0 . 0 4 - 0 . 0 4 6 5 0) ]}{0 . 0 4 * [ (1 . 0 4 6 5 0) ^ {4} - 1 ] + 0 . 0 4 6 5 0} \right] - 3 0 / 3 6 0 = 3. 7 7 2 - 0. 0 8 3 = 3. 6 8 9
+\left[ \frac{1 . 0 4 6 5 0}{0 . 0 4 6 5 0} - \frac{1 . 0 4 6 5 0 + [ 4 * (0 . 0 4 - 0 . 0 4 6 5 0) ]}{0 . 0 4 * [ (1 . 0 4 6 5 0)^{4} - 1 ] + 0 . 0 4 6 5 0} \right] - 3 0 / 3 6 0 = 3. 7 7 2 - 0. 0 8 3 = 3. 6 8 9
 $$
 
 The impact from the higher yield is not much (3.691 versus 3.689) but does signal an inverse relationship between duration and yield. So, two factors are in play in reducing the duration from 3.774 one month ago (when  $t / T = 0$  and  $y = 0.04182$ ) to 3.689 now (when  $t / T = 30 / 360$  and  $y = 0.04650$ ). I discuss this duration drift due to the passage of time and the change in yield further in Chapter 10 when we consider bond portfolio strategies.
@@ -2320,13 +2320,13 @@ At this point you might be thinking (or recalling): "Isn't Macaulay duration the
 Macaulay Duration
 
 $$
-= \frac {\left(1 * \frac {P M T}{(1 + y) ^ {1}}\right) + \left(2 * \frac {P M T}{(1 + y) ^ {2}}\right) + \cdots + \left(N * \frac {P M T + F V}{(1 + y) ^ {N}}\right)}{\frac {P M T}{(1 + y) ^ {1}} + \frac {P M T}{(1 + y) ^ {2}} + \cdots + \frac {P M T + F V}{(1 + y) ^ {N}}} - t / T \tag {6.14}
+= \frac{\left(1 * \frac{P M T}{(1 + y)^{1}}\right) + \left(2 * \frac{P M T}{(1 + y)^{2}}\right) + \cdots + \left(N * \frac{P M T + F V}{(1 + y)^{N}}\right)}{\frac{P M T}{(1 + y)^{1}} + \frac{P M T}{(1 + y)^{2}} + \cdots + \frac{P M T + F V}{(1 + y)^{N}}} - t / T \tag {6.14}
 $$
 
 Let's redo the last calculation to confirm that the Macaulay duration is 3.689. Enter  $PMT = 4$ ,  $FV = 100$ ,  $y = 0.04650$ ,  $N = 4$ , and  $t / T = 30 / 360$ .
 
 $$
-\begin{array}{l} \frac {\left(1 * \frac {4}{(1 . 0 4 6 5 0) ^ {1}}\right) + \left(2 * \frac {4}{(1 . 0 4 6 5 0) ^ {2}}\right) + \left(3 * \frac {4}{(1 . 0 4 6 5 0) ^ {3}}\right) + \left(4 * \frac {1 0 4}{(1 . 0 4 6 5 0) ^ {4}}\right)}{\frac {4}{(1 . 0 4 6 5 0) ^ {1}} + \frac {4}{(1 . 0 4 6 5 0) ^ {2}} + \frac {4}{(1 . 0 4 6 5 0) ^ {3}} + \frac {1 0 4}{(1 . 0 4 6 5 0) ^ {4}}} - 3 0 / 3 6 0 \\ = \frac {3 6 8 . 4 4 3}{9 7 . 6 7 6} - 3 0 / 3 6 0 = 3. 7 7 2 - 0. 0 8 3 = 3. 6 8 9 \\ \end{array}
+\begin{array}{l} \frac{\left(1 * \frac{4}{(1 . 0 4 6 5 0)^{1}}\right) + \left(2 * \frac{4}{(1 . 0 4 6 5 0)^{2}}\right) + \left(3 * \frac{4}{(1 . 0 4 6 5 0)^{3}}\right) + \left(4 * \frac{1 0 4}{(1 . 0 4 6 5 0)^{4}}\right)}{\frac{4}{(1 . 0 4 6 5 0)^{1}} + \frac{4}{(1 . 0 4 6 5 0)^{2}} + \frac{4}{(1 . 0 4 6 5 0)^{3}} + \frac{1 0 4}{(1 . 0 4 6 5 0)^{4}}} - 3 0 / 3 6 0 \\ = \frac{3 6 8 . 4 4 3}{9 7 . 6 7 6} - 3 0 / 3 6 0 = 3. 7 7 2 - 0. 0 8 3 = 3. 6 8 9 \\ \end{array}
 $$
 
 Note that 97.676 in the denominator is the price of the bond at the beginning of the period if its yield had been  $4.650\%$ .
@@ -2345,7 +2345,7 @@ The Macaulay duration of a zero-coupon bond is found by setting  $c = 0$  in 6.1
 Consider a  $12\%$ , semiannual payment, 28-year Treasury bond priced back then at 94 to yield  $12.792\%$  (s.a.). Its duration is 16.20 (in terms of semiannual periods), found by entering  $y = 0.12792 / 2 = 0.06396$ ,  $c = 0.12 / 2 = 0.06$ ,  $N = 28 * 2 = 56$ , and  $t / T = 0$  into 6.13.
 
 $$
-\left[ \frac {1 + 0 . 0 6 3 9 6}{0 . 0 6 3 9 6} - \frac {1 + 0 . 0 6 3 9 6 + [ 5 6 * (0 . 0 6 - 0 . 0 6 3 9 6) ]}{0 . 0 6 * [ (1 + 0 . 0 6 3 9 6) ^ {5 6} - 1 ] + 0 . 0 6 3 9 6} \right] = 1 6. 2 0
+\left[ \frac{1 + 0 . 0 6 3 9 6}{0 . 0 6 3 9 6} - \frac{1 + 0 . 0 6 3 9 6 + [ 5 6 * (0 . 0 6 - 0 . 0 6 3 9 6) ]}{0 . 0 6 * [ (1 + 0 . 0 6 3 9 6)^{5 6} - 1 ] + 0 . 0 6 3 9 6} \right] = 1 6. 2 0
 $$
 
 The annualized Macaulay duration on this long-term 28-year coupon bond is just 8.10, which is the 16.20 semiannual periods divided by two periods in a year.
@@ -2355,7 +2355,7 @@ Note that I intentionally avoided saying that the duration of the bond is 8.10 y
 Suppose an investment bank back in the day created a 28-year zero-coupon bond via coupon stripping and sold it to a hedge fund manager for a deeply discounted price of just 3.80 (percent of par value) to yield  $12.027\%$  (s.a.).
 
 $$
-\frac {1 0 0}{\left(1 + \frac {0 . 1 2 0 2 7}{2}\right) ^ {5 6}} = 3. 8 0
+\frac{1 0 0}{\left(1 + \frac{0 . 1 2 0 2 7}{2}\right)^{5 6}} = 3. 8 0
 $$
 
 That yield is 76.5 basis points lower than the coupon bond,  $(0.12792 - 0.12027 = 0.00765)$ . However, the zero-coupon bond has an annual Macaulay duration statistic of 28.00—that's about 3.5 times higher than 8.10. We often describe duration as a measure of risk, but it also is an opportunity statistic. In this example, the hedge fund was positioned for much greater percentage price appreciation than on the 28-year coupon bond—in fact, about 3.5 times higher if yields fall on each by the same amount. A speculative investor having a short-term horizon doesn't care about the lower yield to maturity—all the action is in the duration.
@@ -2365,7 +2365,7 @@ That yield is 76.5 basis points lower than the coupon bond,  $(0.12792 - 0.12027
 An interesting property of Macaulay duration is revealed by letting  $N$ , the number of periods to maturity, get large and approach infinity. In equation 6.15, the general expression in equation 6.13 is simplified to apply to a coupon date (i.e.,  $t / T = 0$ ).
 
 $$
-\text {M a c a u l a y D u r a t i o n} (t / T = 0) = \frac {1 + y}{y} - \frac {1 + y + [ N * (c - y) ]}{c * [ (1 + y) ^ {N} - 1 ] + y} \tag {6.15}
+\text{Ma ca ul ay Du ra ti on} (t / T = 0) = \frac{1 + y}{y} - \frac{1 + y + [ N * (c - y) ]}{c * [ (1 + y)^{N} - 1 ] + y} \tag {6.15}
 $$
 
 As  $N$  approaches infinity, the denominator in the second term gets larger faster than the numerator because  $N$  is an exponent in the former and a coefficient in the latter. That whole second term goes to zero and the Macaulay duration becomes just  $(1 + y) / y$ . Such bonds, known as perpetuities, are rare but do exist. For instance, in the U.K. bonds called consols paying a fixed interest payment forever have been in existence since the 18th century—and they're still out there.
@@ -2426,7 +2426,7 @@ Notice that duration signals correctly the bond that has the greater price appre
 The bond convexity statistic is the second-order effect in the Taylor series expansion. Getting an equation for convexity is just a matter of more calculus and algebra; see the Technical Appendix for all the details. However, the results are complicated enough to warrant separate equations for coupon payment dates and between coupons. Equation 6.16 is the formula that applies to a coupon payment date such that  $t / T = 0$ .
 
 $$
-\begin{array}{l} \text {C o n v e x i t y} (t / T = 0) \\ = \frac {\left[ 2 * c * (1 + y) ^ {2} * \left((1 + y) ^ {N} - \frac {1 + y + (y * N)}{1 + y}\right) \right] + [ N * (N + 1) * y ^ {2} * (y - c) ]}{y ^ {2} * (1 + y) ^ {2} * (c * [ (1 + y) ^ {N} - 1 ] + y)} \tag {6.16} \\ \end{array}
+\begin{array}{l} \text{Co nv ex it y} (t / T = 0) \\ = \frac{\left[ 2 * c * (1 + y)^{2} * \left((1 + y)^{N} - \frac{1 + y + (y * N)}{1 + y}\right) \right] + [ N * (N + 1) * y^{2} * (y - c) ]}{y^{2} * (1 + y)^{2} * (c * [ (1 + y)^{N} - 1 ] + y)} \tag {6.16} \\ \end{array}
 $$
 
 Granted, there are a lot of terms in the equation, but just three variables:  $c$ , the coupon rate per period;  $y$ , the yield to maturity per period; and  $N$ , the number of periods to maturity. One simplification emerges for a zero-coupon bond for which  $c = 0$ . Then much of equation 6.16 drops out and the convexity reduces to  $N * (N + 1) / (1 + y)^2$ .
@@ -2436,7 +2436,7 @@ Let's work on a  $4\%$ , semiannual payment, 25-year bond priced at a discount t
 Macaulay Duration  $(t / T = 0)$
 
 $$
-= \left[ \frac {1 . 0 2 2 0}{0 . 0 2 2 0} - \frac {1 . 0 2 2 0 + [ 5 0 * (0 . 0 2 - 0 . 0 2 2 0) ]}{0 . 0 2 * [ (1 . 0 2 2 0) ^ {5 0} - 1 ] + 0 . 0 2 2 0} \right] = 3 1. 4 3 1 2
+= \left[ \frac{1 . 0 2 2 0}{0 . 0 2 2 0} - \frac{1 . 0 2 2 0 + [ 5 0 * (0 . 0 2 - 0 . 0 2 2 0) ]}{0 . 0 2 * [ (1 . 0 2 2 0)^{5 0} - 1 ] + 0 . 0 2 2 0} \right] = 3 1. 4 3 1 2
 $$
 
 That's the Macaulay duration that corresponds to a change in the yield per period; annualized it is 15.7156 (= 31.4312/2). The annual modified duration is 15.3773 (= 15.7156/1.0220). Note that we divide by one plus the yield per period, not by the annualized yield.
@@ -2446,7 +2446,7 @@ Okay, now enter the same inputs for  $y$ ,  $c$ , and  $N$  into equation 6.16.
 Convexity  $(t / T = 0) =$
 
 $$
-\begin{array}{l} \left[ 2 * 0. 0 2 * (1. 0 2 2 0) ^ {2} * \left((1. 0 2 2 0) ^ {5 0} - \frac {1 . 0 2 2 0 + (0 . 0 2 2 0 * 5 0)}{1 . 0 2 2 0}\right) \right] \\ + \left[ 5 0 * 5 1 * (0. 0 2 2 0) ^ {2} * (0. 0 2 2 0) - 0. 0 2) \right] \\ (0. 0 2 2 0) ^ {2} * (1. 0 2 2 0) ^ {2} * \left(0. 0 2 * \left[ (1. 0 2 2 0) ^ {5 0} - 1 \right] + 0. 0 2 2 0\right) \\ \end{array}
+\begin{array}{l} \left[ 2 * 0. 0 2 * (1. 0 2 2 0)^{2} * \left((1. 0 2 2 0)^{5 0} - \frac{1 . 0 2 2 0 + (0 . 0 2 2 0 * 5 0)}{1 . 0 2 2 0}\right) \right] \\ + \left[ 5 0 * 5 1 * (0. 0 2 2 0)^{2} * (0. 0 2 2 0) - 0. 0 2) \right] \\ (0. 0 2 2 0)^{2} * (1. 0 2 2 0)^{2} * \left(0. 0 2 * \left[ (1. 0 2 2 0)^{5 0} - 1 \right] + 0. 0 2 2 0\right) \\ \end{array}
 $$
 
 $$
@@ -2460,7 +2460,7 @@ Suppose three months go by and the bond is still priced to yield  $4.40\%$  (s.a
 The convexity statistic between coupon payment dates is shown in equation 6.17.
 
 $$
-\begin{array}{l} \text {C o n v e x i t y} = \text {C o n v e x i t y} (t / T = 0) \\ \left. - \left\{\frac {t / T}{(1 + y) ^ {2}} * [ (2 * M a c D u r (t / T = 0)) + (1 - t / T) ] \right\} \quad (6. 1 7) \right. \\ \end{array}
+\begin{array}{l} \text{Co nv ex it y} = \text{Co nv ex it y} (t / T = 0) \\ \left. - \left\{\frac{t / T}{(1 + y)^{2}} * [ (2 * M a c D u r (t / T = 0)) + (1 - t / T) ] \right\} \quad (6. 1 7) \right. \\ \end{array}
 $$
 
 The first term is the convexity that would prevail at the beginning of the period (hence  $t / T = 0$ ) if the current yield per period  $y$  is used in the calculation in equation 6.16. Then we need to subtract the term in brackets, which
@@ -2470,7 +2470,7 @@ contains, as a bit of a surprise, the Macaulay duration (MacDur) in equation 6.1
 As time passes, yields inevitably do change, and equations 6.15 and 6.16 have to be calculated using the new yield to maturity. For convenience, I assume that the yield remains the same at  $4.40\%$  (s.a.), so we can use the already obtained results. The convexity after the three months is 1,250.7438, using Convexity  $(t / T = 0) = 1,281.0757$ ,  $t / T = 0.50$ ,  $y = 0.0220$ , and MacDur  $(t / T = 0) = 31.4312$ .
 
 $$
-\begin{array}{l} \text {C o n v e x i t y} = 1, 2 8 1. 0 7 5 7 - \left\{\frac {0 . 5 0}{(1 . 0 2 2 0) ^ {2}} * [ (2 * 3 1. 4 3 1 2) + (1 - 0. 5 0) ] \right\} \\ = 1, 2 5 0. 7 4 3 8 \\ \end{array}
+\begin{array}{l} \text{Co nv ex it y} = 1, 2 8 1. 0 7 5 7 - \left\{\frac{0 . 5 0}{(1 . 0 2 2 0)^{2}} * [ (2 * 3 1. 4 3 1 2) + (1 - 0. 5 0) ] \right\} \\ = 1, 2 5 0. 7 4 3 8 \\ \end{array}
 $$
 
 The annual convexity statistic is 312.6859  $(= 1,250.7438 / 4)$
@@ -2480,7 +2480,7 @@ In working through this convexity calculation, I have kept more precision (four 
 The approximation formulas for (annual) modified yield duration and yield convexity are defined in equations 6.18 and 6.19.
 
 $$
-\begin{array}{l} \text {A p p r o x i m a t e A n n u a l M o d i f i e d D u r a t i o n} \equiv \frac {\operatorname {M V} (\text {d o w n}) - \operatorname {M V} (\operatorname {u p})}{2 * \Delta \text {y i e l d} * \operatorname {M V} (\text {i n i t i a l})} (6.18) \\ \text {A p p r o x i m a t e A n n u a l C o n v e x i t y} \equiv \frac {\operatorname {M V} (\text {d o w n}) + \operatorname {M V} (\text {u p}) - 2 * \operatorname {M V} (\text {i n i t i a l})}{(\Delta \text {y i e l d}) ^ {2} * \operatorname {M V} (\text {i n i t i a l})} (6.19) \\ \end{array}
+\begin{array}{l} \text{Ap pr ox im at eA nn ua lM od if ie dD ur at io n} \equiv \frac{\operatorname{MV} (\text{do wn}) - \operatorname{MV} (\operatorname{up})}{2 * \Delta \text{yi el d} * \operatorname{MV} (\text{in it ia l})} (6.18) \\ \text{Ap pr ox im at eA nn ua lC on ve xi ty} \equiv \frac{\operatorname{MV} (\text{do wn}) + \operatorname{MV} (\text{up}) - 2 * \operatorname{MV} (\text{in it ia l})}{(\Delta \text{yi el d})^{2} * \operatorname{MV} (\text{in it ia l})} (6.19) \\ \end{array}
 $$
 
 $MV(down)$  and  $MV(up)$  are the market values calculated using a pricing model (or equation) assuming the same decrease and increase in the yield.
@@ -2488,25 +2488,25 @@ $MV(down)$  and  $MV(up)$  are the market values calculated using a pricing mode
 The initial market value for the bond,  $MV(initial)$ , is 94.999558 (percent of par value), using equation 3.11 from Chapter 3 and  $PMT = 2$ ,  $y = 0.0220$ ,  $N = 50$ ,  $FV = 100$ , and  $t / T = 0.50$ .
 
 $$
-\begin{array}{l} M V (i n i t i a l) = \left[ \frac {2}{0 . 0 2 2 0} * \left(1 - \frac {1}{(1 . 0 2 2 0) ^ {5 0}}\right) + \frac {1 0 0}{(1 . 0 2 2 0) ^ {5 0}} \right] * (1. 0 2 2 0) ^ {0. 5 0} \\ = 9 4. 9 9 9 5 5 8 \\ \end{array}
+\begin{array}{l} M V (i n i t i a l) = \left[ \frac{2}{0 . 0 2 2 0} * \left(1 - \frac{1}{(1 . 0 2 2 0)^{5 0}}\right) + \frac{1 0 0}{(1 . 0 2 2 0)^{5 0}} \right] * (1. 0 2 2 0)^{0. 5 0} \\ = 9 4. 9 9 9 5 5 8 \\ \end{array}
 $$
 
 This is the combined flat price and accrued interest. You also can get this result on Excel using the financial function PRICE for the flat price and then ACCRINT to get the accrued interest. The sum of the flat price obtained with PRICE and the accrued interest from ACCRINT is the full price, 94.999558. Assume arbitrarily that the  $4\%$ , 25-year bond is issued on July 15, 2014, matures on July 15, 2039, and now on October 15, 2014 (three months into the semiannual period using a 30/360 day count), the yield is  $4.40\%$  (s.a.).
 
 $$
-\begin{array}{l} \text {P R I C E (D A T E (2 0 1 4 , 1 0 , 1 5) , D A T E (2 0 3 9 , 7 , 1 5) , 0 . 0 4 , 0 . 0 4 4 0 , 1 0 0 , 2 , 0)} \\ \text {A C C R I N T (D A T E (2 0 1 4 , 7 , 1 5) , D A T E (2 0 1 5 , 1 , 1 5) , D A T E (2 0 1 4 , 1 0 , 1 5)} \\ \text {0 . 0 4 , 1 0 0 , 2 , 0)} \end{array}
+\begin{array}{l} \text{PR IC E (DA TE (20 14 ,1 0 ,1 5) ,D AT E (20 39 ,7 ,1 5) ,0 .0 4 ,0 .0 44 0 ,1 00 ,2 ,0)} \\ \text{AC CR IN T (DA TE (20 14 ,7 ,1 5) ,D AT E (20 15 ,1 ,1 5) ,D AT E (20 14 ,1 0 ,1 5)} \\ \text{0 .0 4 ,1 00 ,2 ,0)} \end{array}
 $$
 
 If the yield goes up by 20 basis points to  $4.60\%$  (s.a.), the market value is 92.182875, found by repeating the calculation for  $y = 0.0230$ .
 
 $$
-\begin{array}{l} M V (u p) = \left[ \frac {2}{0 . 0 2 3 0} * \left(1 - \frac {1}{(1 . 0 2 3 0) ^ {5 0}}\right) + \frac {1 0 0}{(1 . 0 2 3 0) ^ {5 0}} \right] * (1. 0 2 3 0) ^ {0. 5 0} \\ = 9 2. 1 8 2 8 7 5 \\ \end{array}
+\begin{array}{l} M V (u p) = \left[ \frac{2}{0 . 0 2 3 0} * \left(1 - \frac{1}{(1 . 0 2 3 0)^{5 0}}\right) + \frac{1 0 0}{(1 . 0 2 3 0)^{5 0}} \right] * (1. 0 2 3 0)^{0. 5 0} \\ = 9 2. 1 8 2 8 7 5 \\ \end{array}
 $$
 
 If the yield goes down to  $4.20\%$  (s.a.), the market value is 97.935084, using  $y = 0.0210$ .
 
 $$
-\begin{array}{l} M V (d o w n) = \left[ \frac {2}{0 . 0 2 1 0} * \left(1 - \frac {1}{(1 . 0 2 1 0) ^ {5 0}}\right) + \frac {1 0 0}{(1 . 0 2 1 0) ^ {5 0}} \right] * (1. 0 2 1 0) ^ {0. 5 0} \\ = 9 7. 9 3 5 0 8 4 \\ \end{array}
+\begin{array}{l} M V (d o w n) = \left[ \frac{2}{0 . 0 2 1 0} * \left(1 - \frac{1}{(1 . 0 2 1 0)^{5 0}}\right) + \frac{1 0 0}{(1 . 0 2 1 0)^{5 0}} \right] * (1. 0 2 1 0)^{0. 5 0} \\ = 9 7. 9 3 5 0 8 4 \\ \end{array}
 $$
 
 In Excel, repeat the PRICE calculations using 0.0460 and 0.0420 for the fourth entries. The accrued interest is the same and is just  $1.00 (= 90 / 180 * 2)$ . Note that the general bond math formula directly uses the periodic variables—the payment per period, yield per period, and number of periods to maturity—whereas Excel (like other software programs) allows you to enter the annual variables and the periodicity that adjusts them in the formulas embedded in the programming.
@@ -2514,11 +2514,11 @@ In Excel, repeat the PRICE calculations using 0.0460 and 0.0420 for the fourth e
 Substitute these results for the MVs into equations 6.18 and 6.19 and use 0.0020 for the change in yield.
 
 $$
-\begin{array}{l} \text {A p p r o x i m a t e A n n u a l M o d i f i e d D u r a t i o n} = \frac {9 7 . 9 3 5 0 8 4 - 9 2 . 1 8 2 8 7 5}{2 * 0 . 0 0 2 0 * 9 4 . 9 9 9 5 5 8} \\ = 1 5. 1 3 7 5 \\ \end{array}
+\begin{array}{l} \text{Ap pr ox im at eA nn ua lM od if ie dD ur at io n} = \frac{9 7 . 9 3 5 0 8 4 - 9 2 . 1 8 2 8 7 5}{2 * 0 . 0 0 2 0 * 9 4 . 9 9 9 5 5 8} \\ = 1 5. 1 3 7 5 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \text {A p p r o x i m a t e A n n u a l C o n v e x i t y} = \frac {9 7 . 9 3 5 0 8 4 + 9 2 . 1 8 2 8 7 5 - 2 * 9 4 . 9 9 9 5 5 8}{(0 . 0 0 2 0) ^ {2} * 9 4 . 9 9 9 5 5 8} \\ = 3 1 2. 7 4 6 2 \\ \end{array}
+\begin{array}{l} \text{Ap pr ox im at eA nn ua lC on ve xi ty} = \frac{9 7 . 9 3 5 0 8 4 + 9 2 . 1 8 2 8 7 5 - 2 * 9 4 . 9 9 9 5 5 8}{(0 . 0 0 2 0)^{2} * 9 4 . 9 9 9 5 5 8} \\ = 3 1 2. 7 4 6 2 \\ \end{array}
 $$
 
 These are really good approximations; the more accurate numbers calculated above using the mathematically derived formulas are 15.1327 and 312.6859. In fact, the approximations become even better for a smaller change in yield. In practice, the differences between the approximations and the exact results are not likely to be material. For most purposes the information content for the modified duration and convexity of this bond is 15.14 and 312.7—precision beyond that likely is just data.
@@ -2532,7 +2532,7 @@ Figure 6.2 shows the Bloomberg Yield and Spread Analysis page for the  $3.85\%$ 
 Let's first get the Macaulay duration statistic for this bond. In equation 6.13, enter  $y = 0.04654 / 2 = 0.02327$  (I'm going to round off the yield a bit),  $c = 0.0385 / 2 = 0.01925$ ,  $N = 59$ , and  $t / T = 121 / 180$ . There are 59 semianual coupon periods between the last payment date on November 4, 2013, and the maturity date.
 
 $$
-\begin{array}{l} \left[ \frac {1 . 0 2 3 2 7}{0 . 0 2 3 2 7} - \frac {1 . 0 2 3 2 7 + [ 5 9 * (0 . 0 1 9 2 5 - 0 . 0 2 3 2 7) ]}{0 . 0 1 9 2 5 * [ (1 . 0 2 3 2 7) ^ {5 9} - 1 ] + 0 . 0 2 3 2 7} \right] - 1 2 1 / 1 8 0 \\ = 3 3. 9 9 9 5 - 0. 6 7 2 2 = 3 3. 3 2 7 3 \\ \end{array}
+\begin{array}{l} \left[ \frac{1 . 0 2 3 2 7}{0 . 0 2 3 2 7} - \frac{1 . 0 2 3 2 7 + [ 5 9 * (0 . 0 1 9 2 5 - 0 . 0 2 3 2 7) ]}{0 . 0 1 9 2 5 * [ (1 . 0 2 3 2 7)^{5 9} - 1 ] + 0 . 0 2 3 2 7} \right] - 1 2 1 / 1 8 0 \\ = 3 3. 9 9 9 5 - 0. 6 7 2 2 = 3 3. 3 2 7 3 \\ \end{array}
 $$
 
 The annual Macaulay duration is  $16.66365$  ( $= 33.3273 / 2$ ). The annual modified duration rounded to three decimals is  $16.285$  ( $= 16.66365 / 1.02327$ ). The Excel function gets the same results, confirming the Bloomberg number.
@@ -2547,13 +2547,13 @@ MDURATION (DATE (2014, 3, 5), DATE (2043, 5, 4), 0.0385, 0.04654, 2, 0)
 We need to do yield convexity in two steps. First, use the same inputs for  $y$ ,  $c$ , and  $N$  in equation 6.16.
 
 $$
-\begin{array}{l} \text {C o n v e x i t y} (t / T = 0) \\ \left[ 2 * 0. 0 1 9 2 5 * (1. 0 2 3 2 7) ^ {2} * \left((1. 0 2 3 2 7) ^ {5 9} - \frac {1 . 0 2 3 2 7 + (0 . 0 2 3 2 7 * 5 9)}{1 . 0 2 3 2 7}\right) \right] \\ = \frac {+ [ 5 9 * 6 0 * (0 . 0 2 3 2 7) ^ {2} * (0 . 0 2 3 2 7 - 0 . 0 1 9 2 5 ]}{(0 . 0 2 3 2 7) ^ {2} * (1 . 0 2 3 2 7) ^ {2} * (0 . 0 1 9 2 5 * [ (1 . 0 2 3 2 7) ^ {5 9} - 1 ] + 0 . 0 2 3 2 7)} \\ = 1, 5 6 4. 9 8 6 5 \\ \end{array}
+\begin{array}{l} \text{Co nv ex it y} (t / T = 0) \\ \left[ 2 * 0. 0 1 9 2 5 * (1. 0 2 3 2 7)^{2} * \left((1. 0 2 3 2 7)^{5 9} - \frac{1 . 0 2 3 2 7 + (0 . 0 2 3 2 7 * 5 9)}{1 . 0 2 3 2 7}\right) \right] \\ = \frac{+ [ 5 9 * 6 0 * (0 . 0 2 3 2 7)^{2} * (0 . 0 2 3 2 7 - 0 . 0 1 9 2 5 ]}{(0 . 0 2 3 2 7)^{2} * (1 . 0 2 3 2 7)^{2} * (0 . 0 1 9 2 5 * [ (1 . 0 2 3 2 7)^{5 9} - 1 ] + 0 . 0 2 3 2 7)} \\ = 1, 5 6 4. 9 8 6 5 \\ \end{array}
 $$
 
 Second, substitute this result and  $t / T = 121 / 180$  and  $\text{MacDur}(t / T = 0) = 33.9995$  into equation 6.17.
 
 $$
-\begin{array}{l} \text {C o n v e x i t y} = 1, 5 6 4. 9 8 6 5 - \left(\frac {1 2 1 / 1 8 0}{(1 . 0 2 3 2 7) ^ {2}} * [ 2 * 3 3. 9 9 9 5 + (1 - 1 2 1 / 1 8 0 ]\right) \\ = 1, 5 2 1. 1 2 1 0 \\ \end{array}
+\begin{array}{l} \text{Co nv ex it y} = 1, 5 6 4. 9 8 6 5 - \left(\frac{1 2 1 / 1 8 0}{(1 . 0 2 3 2 7)^{2}} * [ 2 * 3 3. 9 9 9 5 + (1 - 1 2 1 / 1 8 0 ]\right) \\ = 1, 5 2 1. 1 2 1 0 \\ \end{array}
 $$
 
 So, the annual convexity is 380.280 (= 1,521.1210/4). Bloomberg reports the convexity to be 3.803, but that is just our result divided by 100.
@@ -2561,7 +2561,7 @@ So, the annual convexity is 380.280 (= 1,521.1210/4). Bloomberg reports the conv
 Why does Bloomberg scale the yield convexity down by a factor of 100? The answer goes back to how the convexity adjustment improves the estimate of the change in market value given a change in the yield. Suppose the question at hand is how much gain in  $MV$  should we anticipate if the yield falls by 25 basis points, from  $4.654\%$  to  $4.404\%$ ? We can use equation 6.12, knowing that the annual modified duration and convexity statistics are 16.285 and 380.3.
 
 $$
-\begin{array}{l} \frac {d M V}{M V} \approx (- 1 6. 2 8 5 * - 0. 0 0 2 5) + \left(\frac {1}{2} * 3 8 0. 3 * (- 0. 0 0 2 5) ^ {2}\right) \\ = 0. 0 4 0 7 + 0. 0 0 1 2 = 0. 0 4 1 9 \\ \end{array}
+\begin{array}{l} \frac{d M V}{M V} \approx (- 1 6. 2 8 5 * - 0. 0 0 2 5) + \left(\frac{1}{2} * 3 8 0. 3 * (- 0. 0 0 2 5)^{2}\right) \\ = 0. 0 4 0 7 + 0. 0 0 1 2 = 0. 0 4 1 9 \\ \end{array}
 $$
 
 We conclude that modified duration alone estimates a  $4.07\%$  increase in market value, but factoring in convexity, we get  $4.19\%$ . Duration by itself underestimates gains and overestimates losses. The convexity adjustment adds twelve basis points, bringing the estimate closer to the actual result.
@@ -2569,13 +2569,13 @@ We conclude that modified duration alone estimates a  $4.07\%$  increase in mark
 Bloomberg convexity allows you to work with another version of equation 6.12. Multiply both sides by 100 to get the change in percentage terms directly.
 
 $$
-\begin{array}{l} 1 0 0 * \frac {d M V}{M V} \approx (- A n n u a l \text {M o d i f i e d D u r a t i o n} * (1 0 0 * d Y)) \\ + \left(\frac {1}{2} * \frac {\text {A n n u a l C o n v e x i t y}}{1 0 0} * (1 0 0 * d Y) ^ {2}\right) \tag {6.20} \\ \end{array}
+\begin{array}{l} 1 0 0 * \frac{d M V}{M V} \approx (- A n n u a l \text{Mo di fi ed Du ra ti on} * (1 0 0 * d Y)) \\ + \left(\frac{1}{2} * \frac{\text{An nu al Co nv ex it y}}{1 0 0} * (1 0 0 * d Y)^{2}\right) \tag {6.20} \\ \end{array}
 $$
 
 Because the second term of the Taylor series expansion entails the change in yield squared, the annual convexity needs to be divided by 100. Now the estimate is figured as:
 
 $$
-\begin{array}{l} 1 0 0 * \frac {d M V}{M V} \approx (- 1 6. 2 8 5 * - 0. 2 5) + \left(\frac {1}{2} * 3. 8 0 3 * (- 0. 2 5) ^ {2}\right) \\ = 4. 0 7 + 0. 1 2 = 4. 1 9 \\ \end{array}
+\begin{array}{l} 1 0 0 * \frac{d M V}{M V} \approx (- 1 6. 2 8 5 * - 0. 2 5) + \left(\frac{1}{2} * 3. 8 0 3 * (- 0. 2 5)^{2}\right) \\ = 4. 0 7 + 0. 1 2 = 4. 1 9 \\ \end{array}
 $$
 
 The answers are the same, of course, but in my opinion the reformulation (the convexity of 380.3 becomes 3.803) is not worth the "convenience" of
@@ -2594,7 +2594,7 @@ PRICE (DATE (2014,3,5), DATE (2043,5,4), 0.0385, 0.04643675, 100, 2, 0)
 The new flat prices are 87.384344 for the lower yield and 87.095987 for the higher yield. The PV01 is the difference in these prices divided by two.
 
 $$
-\mathrm {P V} 0 1 = \frac {8 7 . 3 8 4 3 4 4 - 8 7 . 0 9 5 9 8 7}{2} = 0. 1 4 4 1 8
+\mathrm{PV} 0 1 = \frac{8 7 . 3 8 4 3 4 4 - 8 7 . 0 9 5 9 8 7}{2} = 0. 1 4 4 1 8
 $$
 
 Notice that we could include the accrued interest in the numerator, but it just cancels out.
@@ -2612,7 +2612,7 @@ A number of versions of duration have been introduced since Macaulay first wrote
 Spot Duration =
 
 $$
-\frac {\left(1 * \frac {P M T}{\left(1 + z _ {1}\right) ^ {1}}\right) + \left(2 * \frac {P M T}{\left(1 + z _ {2}\right) ^ {2}}\right) + \cdots + \left(N * \frac {P M T + F V}{\left(1 + z _ {N}\right) ^ {N}}\right)}{\frac {P M T}{\left(1 + z _ {1}\right) ^ {1}} + \frac {P M T}{\left(1 + z _ {2}\right) ^ {2}} + \cdots + \frac {P M T + F V}{\left(1 + z _ {N}\right) ^ {N}}} - (t / T) \tag {6.21}
+\frac{\left(1 * \frac{P M T}{\left(1 + z_{1}\right)^{1}}\right) + \left(2 * \frac{P M T}{\left(1 + z_{2}\right)^{2}}\right) + \cdots + \left(N * \frac{P M T + F V}{\left(1 + z_{N}\right)^{N}}\right)}{\frac{P M T}{\left(1 + z_{1}\right)^{1}} + \frac{P M T}{\left(1 + z_{2}\right)^{2}} + \cdots + \frac{P M T + F V}{\left(1 + z_{N}\right)^{N}}} - (t / T) \tag {6.21}
 $$
 
 This looks much like the weighted-average formula for Macaulay duration in equation 6.14. The difference is that instead of discounting the cash flows with the yield to maturity, the sequence of spot, or zero-coupon, rates  $(z_{1}, z_{2}, \ldots, z_{N})$  is used. The price of the bond in the denominator is the same as in equation 6.14—recall from Chapter 3 that the yield is a "weighted average" of the spot rates. The numerator can be different, however, the more so the greater the slope to the yield curve.
@@ -2668,11 +2668,11 @@ The same option-pricing model that produces the OAS and OAY is used for the inte
 Those market values are the inputs to equations 6.22 and 6.23 for the effective duration and convexity, which are curve duration and convexity statistics very similar to those for approximate annual modified yield duration and convexity. The difference is that now in the denominator the change is to the entire benchmark yield curve rather than to the bond's own yield to maturity.
 
 $$
-\text {E f f e c t i v e D u r a t i o n} \equiv \frac {\operatorname {M V} (\operatorname {d o w n}) - \operatorname {M V} (\operatorname {u p})}{2 * \Delta \operatorname {c u r v e} * \operatorname {M V} (\operatorname {i n i t i a l})} \tag {6.22}
+\text{Ef fe ct iv eD ur at io n} \equiv \frac{\operatorname{MV} (\operatorname{do wn}) - \operatorname{MV} (\operatorname{up})}{2 * \Delta \operatorname{cu rv e} * \operatorname{MV} (\operatorname{in it ia l})} \tag {6.22}
 $$
 
 $$
-E f f e c t i v e \quad C o n v e x i t y \equiv \frac {M V (d o w n) + M V (u p) - 2 * M V (\text {i n i t i a l})}{(\Delta c u r v e) ^ {2} * M V (\text {i n i t i a l})} \tag {6.23}
+E f f e c t i v e \quad C o n v e x i t y \equiv \frac{M V (d o w n) + M V (u p) - 2 * M V (\text{in it ia l})}{(\Delta c u r v e)^{2} * M V (\text{in it ia l})} \tag {6.23}
 $$
 
 The effective duration for this callable bond is 3.66, reported in Figure 6.4 under OAS method. On Bloomberg effective duration is called OAS duration. The OAS convexity or effective convexity or, as I prefer, curve convexity, is reported to be  $-2.69$ . Once again, this is scaled by dividing by 100; I would rather see  $-269$ . Negative convexity is a common feature with callable bonds because of the limit to price appreciation as the yield falls.
@@ -2687,7 +2687,7 @@ rather than 335,117.19 given that the bond price is shown to be 33-16 3/8. Yes, 
 Let's first confirm the reported yield modified duration and convexity numbers for the P-STRIPS reported under the "Workout" heading. Because the coupon rate is zero, its Macaulay duration (in semiannual periods) is just  $N - t / T = 57 - 117 / 181 = 56.3536$ . There are 57 semiannual periods between the start of the current period on November 15, 2013, and the maturity date. Note that the day count is actual/actual because this is a Treasury security, even though there are no coupon payments. Dividing by two gives an annual Macaulay duration of 28.1768 (= 56.3536/2). Dividing that by one plus the yield per period gives the reported annual modified duration, 27.635 [= 28.1768/(1 + 0.03918/2)]. The yield convexity entails substitution into equations 6.16 and 6.17, here combined because so many terms drop out when  $c = 0$ .
 
 $$
-\begin{array}{l} \frac {5 7 * 5 8}{\left(1 + \frac {0 . 0 3 9 1 8}{2}\right) ^ {2}} - \left(\frac {1 1 7 / 1 8 1}{\left(1 + \frac {0 . 0 3 9 1 8}{2}\right) ^ {2}} * [ 2 * 5 7 + (1 - 1 1 7 / 1 8 1) ]\right) \\ = 3, 1 0 9. 0 7 4 \\ \end{array}
+\begin{array}{l} \frac{5 7 * 5 8}{\left(1 + \frac{0 . 0 3 9 1 8}{2}\right)^{2}} - \left(\frac{1 1 7 / 1 8 1}{\left(1 + \frac{0 . 0 3 9 1 8}{2}\right)^{2}} * [ 2 * 5 7 + (1 - 1 1 7 / 1 8 1) ]\right) \\ = 3, 1 0 9. 0 7 4 \\ \end{array}
 $$
 
 Dividing that by the periodicity squared obtains the annual convexity, 777.2685 (= 3,109.074/4). Bloomberg scales that down and reports 7.773.
@@ -2707,13 +2707,13 @@ The key point is that when we shift the benchmark Treasury curve up and down in 
 For a numerical example of this important and interesting property of bond math, suppose that 1-year and 2-year annual payment bonds are priced at par value and have coupon rates of  $2\%$  and  $10\%$ , respectively. This is an incredibly steep par curve but will make the point with minimal bootstrapping. The  $0 \times 2$  implied spot rate is  $10.433927\%$ , as expected above the  $10\%$  yield on the 2-year coupon bond. The approximation formulas for duration and convexity are very sensitive to rounding so I need to display a high degree of precision.
 
 $$
-1 0 0 = \frac {1 0}{1 . 0 2} + \frac {1 1 0}{(1 + z) ^ {2}}, \quad z = 0. 1 0 4 3 3 9 2 7
+1 0 0 = \frac{1 0}{1 . 0 2} + \frac{1 1 0}{(1 + z)^{2}}, \quad z = 0. 1 0 4 3 3 9 2 7
 $$
 
 A 2-year zero-coupon bond is priced at 81.996435 (percent of par value), assuming no arbitrage and no transactions costs.
 
 $$
-\frac {1 0 0}{(1 . 1 0 4 3 3 9 2 7) ^ {2}} = 8 1. 9 9 6 4 3 5
+\frac{1 0 0}{(1 . 1 0 4 3 3 9 2 7)^{2}} = 8 1. 9 9 6 4 3 5
 $$
 
 Its Macaulay duration is 2 and its modified duration is  $1.8110 (= 2/1.10433927)$ . Its convexity is  $4.9198 [= (2*3)/(1.10433927)^2]$ . Those are the yield duration and convexity statistics.
@@ -2721,31 +2721,31 @@ Its Macaulay duration is 2 and its modified duration is  $1.8110 (= 2/1.10433927
 To get the curve duration and convexity, first shift the underlying yield curve, which in this case is the par curve, up by 25 basis points. The new  $0 \times 2$  implied spot rate is  $10.694755\%$ , an increase of 26.1 basis points  $(0.10694755 - 0.10433927 = 0.00261)$ .
 
 $$
-1 0 0 = \frac {1 0 . 2 5}{1 . 0 2 2 5} + \frac {1 1 0 . 2 5}{(1 + z) ^ {2}}, \quad z = 0. 1 0 6 9 4 7 5 5
+1 0 0 = \frac{1 0 . 2 5}{1 . 0 2 2 5} + \frac{1 1 0 . 2 5}{(1 + z)^{2}}, \quad z = 0. 1 0 6 9 4 7 5 5
 $$
 
 The no-arbitrage price on the  $0 \times 2$  zero-coupon bond falls to 81.610476.
 
 $$
-\frac {1 0 0}{(1 . 1 0 6 9 4 7 5 5) ^ {2}} = 8 1. 6 1 0 4 7 6
+\frac{1 0 0}{(1 . 1 0 6 9 4 7 5 5)^{2}} = 8 1. 6 1 0 4 7 6
 $$
 
 Then shift the par curve down by 25 basis points. The new 2-year implied spot rate is  $10.173098\%$ , a decrease of 26.1 basis points (0.10433927 - 0.10173098 = 0.00261).
 
 $$
-1 0 0 = \frac {9 . 7 5}{1 . 0 1 7 5} + \frac {1 0 9 . 7 5}{(1 + z) ^ {2}}, \quad z = 0. 1 0 1 7 3 0 9 8
+1 0 0 = \frac{9 . 7 5}{1 . 0 1 7 5} + \frac{1 0 9 . 7 5}{(1 + z)^{2}}, \quad z = 0. 1 0 1 7 3 0 9 8
 $$
 
 The price goes up to 82.385139.
 
 $$
-\frac {1 0 0}{(1 . 1 0 1 7 3 0 9 8) ^ {2}} = 8 2. 3 8 5 1 3 9
+\frac{1 0 0}{(1 . 1 0 1 7 3 0 9 8)^{2}} = 8 2. 3 8 5 1 3 9
 $$
 
 We now have the inputs for effective duration and convexity in equations 6.22 and 6.23:  $MV(initial) = 81.996435$ ,  $MV(up) = 81.610476$ ,  $MV(down) = 82.385139\$ , and the change in the yield curve is 0.0025. Remember that "up" and "down" here refer to the change in the yield curve, not the price.
 
 $$
-\begin{array}{l} \text {E f f e c t i v e D u r a t i o n} = \frac {8 2 . 3 8 5 1 3 9 - 8 1 . 6 1 0 4 7 6}{2 * 0 . 0 0 2 5 * 8 1 . 9 9 6 4 3 5} = 1. 8 8 9 5 \\ E f f e c t i v e C o n v e x i t y = \frac {8 2 . 3 8 5 1 3 9 + 8 1 . 6 1 0 4 7 6 - 2 * 8 1 . 9 9 6 4 3 5}{(0 . 0 0 2 5) ^ {2} * 8 1 . 9 9 6 4 3 5} = 5. 3 5 6 3 \\ \end{array}
+\begin{array}{l} \text{Ef fe ct iv eD ur at io n} = \frac{8 2 . 3 8 5 1 3 9 - 8 1 . 6 1 0 4 7 6}{2 * 0 . 0 0 2 5 * 8 1 . 9 9 6 4 3 5} = 1. 8 8 9 5 \\ E f f e c t i v e C o n v e x i t y = \frac{8 2 . 3 8 5 1 3 9 + 8 1 . 6 1 0 4 7 6 - 2 * 8 1 . 9 9 6 4 3 5}{(0 . 0 0 2 5)^{2} * 8 1 . 9 9 6 4 3 5} = 5. 3 5 6 3 \\ \end{array}
 $$
 
 If we put 0.00261 in the denominator of each, we would get the approximations for the modified yield duration and yield convexity, but that
@@ -2795,7 +2795,7 @@ Remember from Chapter 3 that the reason why a fixed-rate bond trades at a premiu
 A simple model to value a floating-rate note is expressed in equation 7.1.
 
 $$
-M V = \frac {\frac {(I n d e x + Q M) * F V}{P E R}}{\left(1 + \frac {I n d e x + D M}{P E R}\right) ^ {1}} + \frac {\frac {(I n d e x + Q M) * F V}{P E R}}{\left(1 + \frac {I n d e x + D M}{P E R}\right) ^ {2}} + \dots + \frac {\frac {(I n d e x + Q M) * F V}{P E R} + F V}{\left(1 + \frac {I n d e x + D M}{P E R}\right) ^ {N}} \tag {7.1}
+M V = \frac{\frac{(I n d e x + Q M) * F V}{P E R}}{\left(1 + \frac{I n d e x + D M}{P E R}\right)^{1}} + \frac{\frac{(I n d e x + Q M) * F V}{P E R}}{\left(1 + \frac{I n d e x + D M}{P E R}\right)^{2}} + \dots + \frac{\frac{(I n d e x + Q M) * F V}{P E R} + F V}{\left(1 + \frac{I n d e x + D M}{P E R}\right)^{N}} \tag {7.1}
 $$
 
 Here  $MV =$  market value, Index  $=$  reference rate,  $QM =$  quoted margin,  $FV =$  future value,  $PER =$  periodicity,  $DM =$  discount margin, and  $N =$  number of periods to maturity. Index,  $QM$ , and  $DM$  are annual percentage rates. This is a simple model because: (1)  $MV$  is for a coupon reset date so that  $N$  is an integer (and there is no accrued interest), (2) it implicitly assumes a 30/360 day-count so that  $PER$  also is an integer; and (3) the same reference rate for Index is used for all future payments, implying that the yield curve is flat as is the forward curve. Despite these simplifications, the model can illustrate some interesting properties of FRNs.
@@ -2803,25 +2803,25 @@ Here  $MV =$  market value, Index  $=$  reference rate,  $QM =$  quoted margin, 
 Suppose that a 10-year floater that pays 3-month LIBOR  $+0.50\%$  quarterly is priced at 92 (percent of par value). Clearly, something has happened if the note was originally issued at par value. Probably that something is a credit rating downgrade—investors now require a higher spread over LIBOR than 50 basis points for this issuer. Assume that current 3-month LIBOR is  $1.50\%$ . We now can estimate the DM by substituting  $MV = 92$ ,  $FV = 100$ , Index  $= 0.0150$ ,  $QM = 0.0050$ , and  $N = 40$  into equation 7.1.
 
 $$
-\begin{array}{l} 9 2 = \frac {\frac {(0 . 0 1 5 0 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac {0 . 0 1 5 0 + D M}{4}\right) ^ {1}} + \frac {\frac {(0 . 0 1 5 0 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac {0 . 0 1 5 0 + D M}{4}\right) ^ {2}} + \dots \\ + \frac {\frac {(0 . 0 1 5 0 + 0 . 0 0 5 0) * 1 0 0}{4} + 1 0 0}{\left(1 + \frac {0 . 0 1 5 0 + D M}{4}\right) ^ {4 0}} \\ \end{array}
+\begin{array}{l} 9 2 = \frac{\frac{(0 . 0 1 5 0 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac{0 . 0 1 5 0 + D M}{4}\right)^{1}} + \frac{\frac{(0 . 0 1 5 0 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac{0 . 0 1 5 0 + D M}{4}\right)^{2}} + \dots \\ + \frac{\frac{(0 . 0 1 5 0 + 0 . 0 0 5 0) * 1 0 0}{4} + 1 0 0}{\left(1 + \frac{0 . 0 1 5 0 + D M}{4}\right)^{4 0}} \\ \end{array}
 $$
 
 Combining terms in the numerators, this becomes:
 
 $$
-\begin{array}{l} 9 2 = \frac {0 . 5 0}{\left(1 + \frac {0 . 0 1 5 0 + D M}{4}\right) ^ {1}} + \frac {0 . 5 0}{\left(1 + \frac {0 . 0 1 5 0 + D M}{4}\right) ^ {2}} + \dots \\ + \frac {0 . 5 0 + 1 0 0}{\left(1 + \frac {0 . 0 1 5 0 + D M}{4}\right) ^ {4 0}} \\ \end{array}
+\begin{array}{l} 9 2 = \frac{0 . 5 0}{\left(1 + \frac{0 . 0 1 5 0 + D M}{4}\right)^{1}} + \frac{0 . 5 0}{\left(1 + \frac{0 . 0 1 5 0 + D M}{4}\right)^{2}} + \dots \\ + \frac{0 . 5 0 + 1 0 0}{\left(1 + \frac{0 . 0 1 5 0 + D M}{4}\right)^{4 0}} \\ \end{array}
 $$
 
 This is now a basic time-value-of-money problem where we can solve for the internal rate of return,  $y$ , as in equation 3.4 in Chapter 3.
 
 $$
-9 2 = \frac {0 . 5 0}{(1 + y) ^ {1}} + \frac {0 . 5 0}{(1 + y) ^ {2}} + \dots + \frac {0 . 5 0 + 1 0 0}{(1 + y) ^ {4 0}}
+9 2 = \frac{0 . 5 0}{(1 + y)^{1}} + \frac{0 . 5 0}{(1 + y)^{2}} + \dots + \frac{0 . 5 0 + 1 0 0}{(1 + y)^{4 0}}
 $$
 
 The solution is that  $y$  is  $0.7314\%$ , or  $0.007314$ . Therefore,  $DM = 0.014256$ .
 
 $$
-0. 0 0 7 3 1 4 = \frac {0 . 0 1 5 0 + D M}{4}, \quad D M = 0. 0 1 4 2 5 6
+0. 0 0 7 3 1 4 = \frac{0 . 0 1 5 0 + D M}{4}, \quad D M = 0. 0 1 4 2 5 6
 $$
 
 Because of the credit downgrade, investors now require an estimated spread of 142.56 basis points over LIBOR on the floater that is only paying 50 basis points.
@@ -2831,11 +2831,11 @@ Floating-rate notes require that we think differently about duration as a measur
 The simple model can be used to estimate the rate and credit durations for the 10-year floater paying 3-month LIBOR + 0.50%. To get them, we'll use the approximate modified duration formula from Chapter 6. We could also get the rate and credit convexities, but I'll focus here only on the first-order effects (feel free to have fun with the bond math on your own!). To get the rate duration for the floater, bump the level for Index up and down by five basis points, from 1.50% up to 1.55% and down to 1.45%. The result for  $MV(up)$  is 92.019557;  $MV(down)$  turns out to be 91.980781.  $MV(initial)$  is 92.
 
 $$
-\begin{array}{l} M V (u p) = \frac {\frac {(0 . 0 1 5 5 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac {0 . 0 1 5 5 + 0 . 0 1 4 2 5 6}{4}\right) ^ {1}} + \frac {\frac {(0 . 0 1 5 5 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac {0 . 0 1 5 5 + 0 . 0 1 4 2 5 6}{4}\right) ^ {2}} + \dots \\ + \frac {\frac {(0 . 0 1 5 5 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac {0 . 0 1 5 5 + 0 . 0 1 4 2 5 6}{4}\right) ^ {4 0}} = 9 2. 0 1 9 5 5 7 \\ \end{array}
+\begin{array}{l} M V (u p) = \frac{\frac{(0 . 0 1 5 5 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac{0 . 0 1 5 5 + 0 . 0 1 4 2 5 6}{4}\right)^{1}} + \frac{\frac{(0 . 0 1 5 5 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac{0 . 0 1 5 5 + 0 . 0 1 4 2 5 6}{4}\right)^{2}} + \dots \\ + \frac{\frac{(0 . 0 1 5 5 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac{0 . 0 1 5 5 + 0 . 0 1 4 2 5 6}{4}\right)^{4 0}} = 9 2. 0 1 9 5 5 7 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} M V (d o w n) = \frac {\frac {(0 . 0 1 4 5 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac {0 . 0 1 4 5 + 0 . 0 1 4 2 5 6}{4}\right) ^ {1}} + \frac {\frac {(0 . 0 1 4 5 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac {0 . 0 1 4 5 + 0 . 0 1 4 2 5 6}{4}\right) ^ {2}} + \dots \\ + \frac {\frac {(0 . 0 1 4 5 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac {0 . 0 1 4 5 + 0 . 0 1 4 2 5 6}{4}\right) ^ {4 0}} = 9 1. 9 8 0 7 8 1 \\ \end{array}
+\begin{array}{l} M V (d o w n) = \frac{\frac{(0 . 0 1 4 5 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac{0 . 0 1 4 5 + 0 . 0 1 4 2 5 6}{4}\right)^{1}} + \frac{\frac{(0 . 0 1 4 5 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac{0 . 0 1 4 5 + 0 . 0 1 4 2 5 6}{4}\right)^{2}} + \dots \\ + \frac{\frac{(0 . 0 1 4 5 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac{0 . 0 1 4 5 + 0 . 0 1 4 2 5 6}{4}\right)^{4 0}} = 9 1. 9 8 0 7 8 1 \\ \end{array}
 $$
 
 Notice the  $QM$  of  $0.50\%$  and the  $DM$  of  $1.4256\%$  are held constant as the market reference rate is raised. Also, using the same rate for Index for all future periods presumes a parallel shift to a flat yield curve. A key assumption implicit in the calculation of  $MV(up)$  and  $MV(down)$  is that the rate changes impact the next cash flow. Therefore, the shift occurs before the rate is set for the current time period.
@@ -2843,13 +2843,13 @@ Notice the  $QM$  of  $0.50\%$  and the  $DM$  of  $1.4256\%$  are held constant
 We can now calculate the approximate rate duration for the floater, using a version of equation 6.18 for approximate annual modified duration.
 
 $$
-\text {A p p r o x i m a t e} \quad \text {R a t e D u r a t i o n} \equiv \frac {\operatorname {M V} (\operatorname {d o w n}) - \operatorname {M V} (\operatorname {u p})}{2 * \Delta \operatorname {I n d e x} * \operatorname {M V} (\operatorname {i n i t i a l})} \tag {7.2}
+\text{Ap pr ox im at e} \quad \text{Ra te Du ra ti on} \equiv \frac{\operatorname{MV} (\operatorname{do wn}) - \operatorname{MV} (\operatorname{up})}{2 * \Delta \operatorname{In de x} * \operatorname{MV} (\operatorname{in it ia l})} \tag {7.2}
 $$
 
 Substituting into equation 7.2 obtains the perhaps surprising result that the rate duration is negative at  $-0.4215$ .
 
 $$
-\text {A p p r o x i m a t e} = \frac {9 1 . 9 8 0 7 8 1 - 9 2 . 0 1 9 5 5 7}{2 * 0 . 0 0 0 5 * 9 2} = - 0. 4 2 1 5
+\text{Ap pr ox im at e} = \frac{9 1 . 9 8 0 7 8 1 - 9 2 . 0 1 9 5 5 7}{2 * 0 . 0 0 0 5 * 9 2} = - 0. 4 2 1 5
 $$
 
 First note that this is a small number, close to zero. That is to be expected for a floating-rate note. By design and intent, the investor should be protected from changes in benchmark interest rates. Intuitively, this is because both the numerator and denominator go up and down together as the flat yield curve shifts up and down. But the negative number implies that this FRN has a value that is positively correlated to market rates. This floater appreciates in value, albeit by a small amount, in rising-rate bear markets when virtually all other debt securities are depreciating. An interesting phenomenon!
@@ -2861,23 +2861,23 @@ of the floater falls, just like a fixed-rate bond. If there is no further change
 Now let's hold the benchmark rate constant and bump the discount margin to measure the impact of a change in credit quality. Index remains at  $1.50\%$  while DM is raised and lowered by five basis points, up from  $1.4256\%$  to  $1.4756\%$  and down to  $1.3756\%$ .
 
 $$
-\begin{array}{l} M V (u p) = \frac {\frac {(0 . 0 1 5 0 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac {0 . 0 1 5 0 + 0 . 0 1 4 7 5 6}{4}\right) ^ {1}} + \frac {\frac {(0 . 0 1 5 0 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac {0 . 0 1 5 0 + 0 . 0 1 4 7 5 6}{4}\right) ^ {2}} + \dots \\ + \frac {\frac {(0 . 0 1 5 0 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac {0 . 0 1 5 0 + 0 . 0 1 4 7 5 6}{4}\right) ^ {4 0}} = 9 1. 5 8 8 4 6 1 \\ \end{array}
+\begin{array}{l} M V (u p) = \frac{\frac{(0 . 0 1 5 0 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac{0 . 0 1 5 0 + 0 . 0 1 4 7 5 6}{4}\right)^{1}} + \frac{\frac{(0 . 0 1 5 0 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac{0 . 0 1 5 0 + 0 . 0 1 4 7 5 6}{4}\right)^{2}} + \dots \\ + \frac{\frac{(0 . 0 1 5 0 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac{0 . 0 1 5 0 + 0 . 0 1 4 7 5 6}{4}\right)^{4 0}} = 9 1. 5 8 8 4 6 1 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} M V (d o w n) = \frac {\frac {(0 . 0 1 5 0 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac {0 . 0 1 5 0 + 0 . 0 1 3 7 5 6}{4}\right) ^ {1}} + \frac {\frac {(0 . 0 1 5 0 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac {0 . 0 1 5 0 + 0 . 0 1 3 7 5 6}{4}\right) ^ {2}} + \dots \\ + \frac {\frac {(0 . 0 1 5 0 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac {0 . 0 1 5 0 + 0 . 0 1 3 7 5 6}{4}\right) ^ {4 0}} = 9 2. 4 1 3 9 7 1 \\ \end{array}
+\begin{array}{l} M V (d o w n) = \frac{\frac{(0 . 0 1 5 0 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac{0 . 0 1 5 0 + 0 . 0 1 3 7 5 6}{4}\right)^{1}} + \frac{\frac{(0 . 0 1 5 0 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac{0 . 0 1 5 0 + 0 . 0 1 3 7 5 6}{4}\right)^{2}} + \dots \\ + \frac{\frac{(0 . 0 1 5 0 + 0 . 0 0 5 0) * 1 0 0}{4}}{\left(1 + \frac{0 . 0 1 5 0 + 0 . 0 1 3 7 5 6}{4}\right)^{4 0}} = 9 2. 4 1 3 9 7 1 \\ \end{array}
 $$
 
 The approximate credit duration for the floater follows from equation 7.2.
 
 $$
-\text {A p p r o x i m a t e C r e d i t D u r a t i o n} \equiv \frac {M V (d o w n) - M V (u p)}{2 * \Delta D M * M V (\text {i n i t i a l})} \tag {7.3}
+\text{Ap pr ox im at eC re di tD ur at io n} \equiv \frac{M V (d o w n) - M V (u p)}{2 * \Delta D M * M V (\text{in it ia l})} \tag {7.3}
 $$
 
 Substitute these results into equation 7.3 to get a credit duration of 8.9729.
 
 $$
-\text {A p p r o x i m a t e C r e d i t D u r a t i o n} = \frac {9 2 . 4 1 3 9 7 1 - 9 1 . 5 8 8 4 6 1}{2 * 0 . 0 0 0 5 * 9 2} = 8. 9 7 2 9
+\text{Ap pr ox im at eC re di tD ur at io n} = \frac{9 2 . 4 1 3 9 7 1 - 9 1 . 5 8 8 4 6 1}{2 * 0 . 0 0 0 5 * 9 2} = 8. 9 7 2 9
 $$
 
 This number should not be a surprise. From the perspective of credit risk, a 10-year floater represents the same risk as a 10-year fixed-rate bond. In the pricing equations, the numerators remain constant while the denominators go up and down. If the discount margin goes up by  $1\%$ , this floater will fall in value by about  $9\%$ , just like a fixed-rate bond having a modified duration of about 9.
@@ -2897,7 +2897,7 @@ date 1 at the end of the current period. The total value of the FRN on date 1 is
 The present value of the annuity as of date 1 is denoted  $PV_{ANN}$  and defined to be:
 
 $$
-P V _ {A N N} \equiv \left[ \frac {\left(Q M - D M\right) * F V}{P E R} + \frac {\left(Q M - D M\right) * F V}{P E R} + \dots + \frac {\left(Q M - D M\right) * F V}{P E R} \right] \tag {7.4}
+P V_{A N N} \equiv \left[ \frac{\left(Q M - D M\right) * F V}{P E R} + \frac{\left(Q M - D M\right) * F V}{P E R} + \dots + \frac{\left(Q M - D M\right) * F V}{P E R} \right] \tag {7.4}
 $$
 
 The annual amount of the surplus or deficient payment is  $(QM - DM) * FV$ . Dividing by  $PER$  to get the amount per period is a simplification because most FRNs use an actual/360 day-count. Therefore, the amount typically would vary slightly from period to period but in this case it is constant.
@@ -2905,7 +2905,7 @@ The annual amount of the surplus or deficient payment is  $(QM - DM) * FV$ . Div
 Equation 7.4 contains the sum of a finite geometric series and can be reduced to equation 7.5:
 
 $$
-P V _ {A N N} = \left(\frac {(Q M - D M) * F V}{P E R * y}\right) * \left[ 1 - \frac {1}{(1 + y) ^ {P E R * Z - 1}} \right] \tag {7.5}
+P V_{A N N} = \left(\frac{(Q M - D M) * F V}{P E R * y}\right) * \left[ 1 - \frac{1}{(1 + y)^{P E R * Z - 1}} \right] \tag {7.5}
 $$
 
 $PV_{ANN}$  is negative when  $QM < DM$ , meaning the quoted margin is deficient, most likely due to a credit rating downgrade or a loss in liquidity. Investors require a higher margin over the reference rate in order to pay par value on date 1, so the FRN trades at a discount. Similarly,  $PV_{ANN}$  is positive when  $QM > DM$ , so the floater trades at a premium.
@@ -2913,7 +2913,7 @@ $PV_{ANN}$  is negative when  $QM < DM$ , meaning the quoted margin is deficient
 The market value of the floater on date  $t$  —that is, the full price (including accrued interest)—is denoted  $MV$ . It is the forthcoming interest payment plus the price of the FRN on date 1, both discounted back over the remainder of the period at the yield per period.
 
 $$
-M V = \frac {I N T + F V + P V _ {A N N}}{(1 + y) ^ {1 - t / T}} \tag {7.6}
+M V = \frac{I N T + F V + P V_{A N N}}{(1 + y)^{1 - t / T}} \tag {7.6}
 $$
 
 Here you can see that this still is a relatively simple model in that the same yield is used for all the discounted cash flows. You could argue that a better
@@ -2923,25 +2923,25 @@ discount rate in equation 7.6 would be a short-term money market rate, but then 
 Combining equations 7.5 and 7.6 provides a general valuation formula for the floater, given the discount margin.
 
 $$
-M V = \frac {I N T + F V + \left(\frac {(Q M - D M) * F V}{P E R * y}\right) * \left[ 1 - \frac {1}{(1 + y) ^ {P E R * Z - 1}} \right]}{(1 + y) ^ {1 - t / T}} \tag {7.7}
+M V = \frac{I N T + F V + \left(\frac{(Q M - D M) * F V}{P E R * y}\right) * \left[ 1 - \frac{1}{(1 + y)^{P E R * Z - 1}} \right]}{(1 + y)^{1 - t / T}} \tag {7.7}
 $$
 
 A formula for  $DM$  given the current market value is obtained by rearranging equation 7.7.
 
 $$
-D M = Q M - \frac {M V * (1 + y) ^ {1 - t / T} - (I N T + F V)}{\frac {F V}{P E R * y} * \left[ 1 - \frac {1}{(1 + y) ^ {P E R * Z - 1}} \right]} \tag {7.8}
+D M = Q M - \frac{M V * (1 + y)^{1 - t / T} - (I N T + F V)}{\frac{F V}{P E R * y} * \left[ 1 - \frac{1}{(1 + y)^{P E R * Z - 1}} \right]} \tag {7.8}
 $$
 
 A payoff from building this more complex model is to obtain a general formula for the Macaulay duration (MacDurFRN) of the floating-rate note for date  $t$  in the coupon period, as shown in equation 7.9. The details to the derivation are in the Technical Appendix, but in brief entail using calculus and algebra on the first derivative of  $MV$  in equation 7.7 given a change in the yield per period.
 
 $$
-M a c D u r F R N = (1 - t / T) + \left(1 - \frac {I N T + F V}{M V * (1 + y) ^ {1 - t / T}}\right) * \left(\frac {1 + y}{y} - \frac {P E R * Z - 1}{(1 + y) ^ {P E R * Z - 1} - 1}\right) \tag {7.9}
+M a c D u r F R N = (1 - t / T) + \left(1 - \frac{I N T + F V}{M V * (1 + y)^{1 - t / T}}\right) * \left(\frac{1 + y}{y} - \frac{P E R * Z - 1}{(1 + y)^{P E R * Z - 1} - 1}\right) \tag {7.9}
 $$
 
 We get to a numerical example of this equation in the next section, but for now let's examine the expression. Substitute equation 7.6 into equation 7.9 and rearrange the middle term.
 
 $$
-\operatorname {M a c D u r F R N} = (1 - t / T) + \left(\frac {P V _ {A N N}}{M V * (1 + y) ^ {1 - t / T}}\right) * \left(\frac {1 + y}{y} - \frac {P E R * Z - 1}{(1 + y) ^ {P E R * Z - 1} - 1}\right) \tag {7.10}
+\operatorname{Ma cD ur FR N} = (1 - t / T) + \left(\frac{P V_{A N N}}{M V * (1 + y)^{1 - t / T}}\right) * \left(\frac{1 + y}{y} - \frac{P E R * Z - 1}{(1 + y)^{P E R * Z - 1} - 1}\right) \tag {7.10}
 $$
 
 Although not obvious, the third term in parenthesis is always positive—it's the Macaulay duration of a fixed-payment annuity maturing in  $PER * Z - 1$
@@ -2984,7 +2984,7 @@ FIGURE 7.3 Bloomberg Yield and Spread Analysis Page (YAS), Citigroup Global Mark
 shown to be  $3.745\%$ . I'll presume it's on a semiannual bond basis so that  $y = 0.018725$  ( $= 3.745\%$ /2).
 
 $$
-\begin{array}{l} D M = 0. 0 0 2 0 - \frac {9 3 . 1 6 2 0 4 2 * (1 . 0 1 8 7 2 5) ^ {1 - 5 5 / 1 8 0} - (0 . 2 6 8 5 + 1 0 0)}{\frac {1 0 0}{2 * 0 . 0 1 8 7 2 5} * \left[ 1 - \frac {1}{(1 . 0 1 8 7 2 5) ^ {2 * 7 - 1}} \right]} \\ = 0. 0 1 2 3 0 8 1 \\ \end{array}
+\begin{array}{l} D M = 0. 0 0 2 0 - \frac{9 3 . 1 6 2 0 4 2 * (1 . 0 1 8 7 2 5)^{1 - 5 5 / 1 8 0} - (0 . 2 6 8 5 + 1 0 0)}{\frac{1 0 0}{2 * 0 . 0 1 8 7 2 5} * \left[ 1 - \frac{1}{(1 . 0 1 8 7 2 5)^{2 * 7 - 1}} \right]} \\ = 0. 0 1 2 3 0 8 1 \\ \end{array}
 $$
 
 The model gives a discount margin of 123.081 basis points.
@@ -2992,7 +2992,7 @@ The model gives a discount margin of 123.081 basis points.
 The same inputs can be used in equation 7.9 to estimate the Macaulay duration for the floater.
 
 $$
-\begin{array}{l} M a c D u r F R N = (1 - 5 5 / 1 8 0) + \left(1 - \frac {0 . 2 6 8 5 + 1 0 0}{9 3 . 1 6 2 0 4 2 * (1 . 0 1 8 7 2 5) ^ {1 - 5 5 / 1 8 0}}\right) \\ * \left(\frac {1 . 0 1 8 7 2 5}{0 . 0 1 8 7 2 5} - \frac {2 * 7 - 1}{(1 . 0 1 8 7 2 5) ^ {2 * 7 - 1} - 1}\right) = 0. 2 7 3 1 3 7 \\ \end{array}
+\begin{array}{l} M a c D u r F R N = (1 - 5 5 / 1 8 0) + \left(1 - \frac{0 . 2 6 8 5 + 1 0 0}{9 3 . 1 6 2 0 4 2 * (1 . 0 1 8 7 2 5)^{1 - 5 5 / 1 8 0}}\right) \\ * \left(\frac{1 . 0 1 8 7 2 5}{0 . 0 1 8 7 2 5} - \frac{2 * 7 - 1}{(1 . 0 1 8 7 2 5)^{2 * 7 - 1} - 1}\right) = 0. 2 7 3 1 3 7 \\ \end{array}
 $$
 
 This is the duration in terms of semiannual periods; annualized it is 0.136569 (= 0.273137/2). The annualized modified duration is 0.134058 (= 0.136569/1.018725). This is the rate duration statistic—it indicates the sensitivity of the market value to changes in benchmark interest rates, in particular, to the yield used to discount future cash flows. As expected, it is close to zero.
@@ -3000,7 +3000,7 @@ This is the duration in terms of semiannual periods; annualized it is 0.136569 (
 This FRN is trading at a discount, so its duration is less than the time until the next reset date. In Figure 7.1 in the lower panel, the duration is sliding down the 45-degree line and might even become negative. As an experiment, suppose that the flat price and the Fixed Equivalent Yield remain the same as the next coupon date on August 4, 2014, nears. For instance, on July 4 there will be just one month to go so that  $1 - t / T = 1 - 150 / 180$ . The accrued interest goes up to 0.22375 (= 150/180 * 0.2685) per 100 of par value. The full price, that is, the market value, would be 93.30375.
 
 $$
-\begin{array}{l} M a c D u r F R N = (1 - 1 5 0 / 1 8 0) + \left(1 - \frac {0 . 2 6 8 5 + 1 0 0}{9 3 . 3 0 3 7 5 * (1 . 0 1 8 7 2 5) ^ {1 - 1 5 0 / 1 8 0}}\right) \\ * \left(\frac {1 . 0 1 8 7 2 5}{0 . 0 1 8 7 2 5} - \frac {2 * 7 - 1}{(1 . 0 1 8 7 2 5) ^ {2 * 7 - 1} - 1}\right) = - 0. 3 1 4 1 2 4 \\ \end{array}
+\begin{array}{l} M a c D u r F R N = (1 - 1 5 0 / 1 8 0) + \left(1 - \frac{0 . 2 6 8 5 + 1 0 0}{9 3 . 3 0 3 7 5 * (1 . 0 1 8 7 2 5)^{1 - 1 5 0 / 1 8 0}}\right) \\ * \left(\frac{1 . 0 1 8 7 2 5}{0 . 0 1 8 7 2 5} - \frac{2 * 7 - 1}{(1 . 0 1 8 7 2 5)^{2 * 7 - 1} - 1}\right) = - 0. 3 1 4 1 2 4 \\ \end{array}
 $$
 
 Annualized, the modified duration would be  $-0.154175$ . Negative duration!
@@ -3008,7 +3008,7 @@ Annualized, the modified duration would be  $-0.154175$ . Negative duration!
 Another approach to getting the risk statistics is to use the approximation formulas, as in equations 7.2 and 7.3. But first it is useful to show that the estimated discount margin of 123.081 basis points is consistent with the current market value. To do that, the inputs are substituted into equation 7.7.
 
 $$
-\begin{array}{l} M V = \frac {0 . 2 6 8 5 + 1 0 0 + \left(\frac {(0 . 0 0 2 0 - 0 . 0 1 2 3 0 8 1) * 1 0 0}{2 * 0 . 0 1 8 7 2 5}\right) * \left[ 1 - \frac {1}{(1 . 0 1 8 7 2 5) ^ {2 * 7 - 1}} \right]}{(1 . 0 1 8 7 2 5) ^ {1 - 5 5 / 1 8 0}} \\ = 9 3. 1 6 2 0 4 2 \\ \end{array}
+\begin{array}{l} M V = \frac{0 . 2 6 8 5 + 1 0 0 + \left(\frac{(0 . 0 0 2 0 - 0 . 0 1 2 3 0 8 1) * 1 0 0}{2 * 0 . 0 1 8 7 2 5}\right) * \left[ 1 - \frac{1}{(1 . 0 1 8 7 2 5)^{2 * 7 - 1}} \right]}{(1 . 0 1 8 7 2 5)^{1 - 5 5 / 1 8 0}} \\ = 9 3. 1 6 2 0 4 2 \\ \end{array}
 $$
 
 This is no surprise at all because equations 7.7 and 7.8 are the same, just rearranged algebraically. This is MV(initial) in the approximation formulas.
@@ -3018,17 +3018,17 @@ Now let's raise and lower the Fixed Equivalent Yield by one basis point, up from
 changing  $y$ , the yield per semiannual period, to 0.018775 and to 0.018675, holding the discount margin and the other variables constant.
 
 $$
-\begin{array}{l} M V (u p) = \frac {0 . 2 6 8 5 + 1 0 0 + \left(\frac {(0 . 0 0 2 0 - 0 . 0 1 2 3 0 8 1) * 1 0 0}{2 * 0 . 0 1 8 7 7 5}\right) * \left[ 1 - \frac {1}{(1 . 0 1 8 7 7 5) ^ {2 * 7 - 1}} \right]}{(1 . 0 1 8 7 7 5) ^ {1 - 5 5 / 1 8 0}} \\ = 9 3. 1 6 0 7 9 3 \\ \end{array}
+\begin{array}{l} M V (u p) = \frac{0 . 2 6 8 5 + 1 0 0 + \left(\frac{(0 . 0 0 2 0 - 0 . 0 1 2 3 0 8 1) * 1 0 0}{2 * 0 . 0 1 8 7 7 5}\right) * \left[ 1 - \frac{1}{(1 . 0 1 8 7 7 5)^{2 * 7 - 1}} \right]}{(1 . 0 1 8 7 7 5)^{1 - 5 5 / 1 8 0}} \\ = 9 3. 1 6 0 7 9 3 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} M V (d o w n) = \frac {0 . 2 6 8 5 + 1 0 0 + \left(\frac {(0 . 0 0 2 0 - 0 . 0 1 2 3 0 8 1) * 1 0 0}{2 * 0 . 0 1 8 6 7 5}\right) * \left[ 1 - \frac {1}{(1 . 0 1 8 6 7 5) ^ {2 * 7 - 1}} \right]}{(1 . 0 1 8 6 7 5) ^ {1 - 5 5 / 1 8 0}} \\ = 9 3. 1 6 3 2 9 1 \\ \end{array}
+\begin{array}{l} M V (d o w n) = \frac{0 . 2 6 8 5 + 1 0 0 + \left(\frac{(0 . 0 0 2 0 - 0 . 0 1 2 3 0 8 1) * 1 0 0}{2 * 0 . 0 1 8 6 7 5}\right) * \left[ 1 - \frac{1}{(1 . 0 1 8 6 7 5)^{2 * 7 - 1}} \right]}{(1 . 0 1 8 6 7 5)^{1 - 5 5 / 1 8 0}} \\ = 9 3. 1 6 3 2 9 1 \\ \end{array}
 $$
 
 Substitute these results into equation 7.2 for the approximate rate duration.
 
 $$
-\text {A p p r o x i m a t e} = \frac {9 3 . 1 6 3 2 9 1 - 9 3 . 1 6 0 7 9 3}{2 * 0 . 0 0 0 1 * 9 3 . 1 6 2 0 4 2} = 0. 1 3 4 0 6 7
+\text{Ap pr ox im at e} = \frac{9 3 . 1 6 3 2 9 1 - 9 3 . 1 6 0 7 9 3}{2 * 0 . 0 0 0 1 * 9 3 . 1 6 2 0 4 2} = 0. 1 3 4 0 6 7
 $$
 
 This is virtually the same number for modified duration that is obtained above starting with the closed-form formula for MacDurFRN.
@@ -3036,17 +3036,17 @@ This is virtually the same number for modified duration that is obtained above s
 Now we can use the same approach to estimate the credit duration. Raise and lower the discount margin by one basis point, up from 123.081 basis points to 124.081 and down to 122.081, holding all the other variables the same.
 
 $$
-\begin{array}{l} M V (u p) = \frac {0 . 2 6 8 5 + 1 0 0 + \left(\frac {(0 . 0 0 2 0 - 0 . 0 1 2 4 0 8 1) * 1 0 0}{2 * 0 . 0 1 8 7 2 5}\right) * \left[ 1 - \frac {1}{(1 . 0 1 8 7 2 5) ^ {2 * 7 - 1}} \right]}{(1 . 0 1 8 7 2 5) ^ {1 - 5 5 / 1 8 0}} \\ = 9 3. 1 0 5 5 5 3 \\ \end{array}
+\begin{array}{l} M V (u p) = \frac{0 . 2 6 8 5 + 1 0 0 + \left(\frac{(0 . 0 0 2 0 - 0 . 0 1 2 4 0 8 1) * 1 0 0}{2 * 0 . 0 1 8 7 2 5}\right) * \left[ 1 - \frac{1}{(1 . 0 1 8 7 2 5)^{2 * 7 - 1}} \right]}{(1 . 0 1 8 7 2 5)^{1 - 5 5 / 1 8 0}} \\ = 9 3. 1 0 5 5 5 3 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} M V (d o w n) = \frac {0 . 2 6 8 5 + 1 0 0 + \left(\frac {(0 . 0 0 2 0 - 0 . 0 1 2 2 0 8 1) * 1 0 0}{2 * 0 . 0 1 8 7 2 5}\right) * \left[ 1 - \frac {1}{(1 . 0 1 8 7 2 5) ^ {2 * 7 - 1}} \right]}{(1 . 0 1 8 7 2 5) ^ {1 - 5 5 / 1 8 0}} \\ = 9 3. 2 1 8 5 3 2 \\ \end{array}
+\begin{array}{l} M V (d o w n) = \frac{0 . 2 6 8 5 + 1 0 0 + \left(\frac{(0 . 0 0 2 0 - 0 . 0 1 2 2 0 8 1) * 1 0 0}{2 * 0 . 0 1 8 7 2 5}\right) * \left[ 1 - \frac{1}{(1 . 0 1 8 7 2 5)^{2 * 7 - 1}} \right]}{(1 . 0 1 8 7 2 5)^{1 - 5 5 / 1 8 0}} \\ = 9 3. 2 1 8 5 3 2 \\ \end{array}
 $$
 
 Substitute these into equation 7.3 for approximate credit duration.
 
 $$
-\text {A p p r o x i m a t e C r e d i t D u r a t i o n} = \frac {9 3 . 2 1 8 5 3 2 - 9 3 . 1 0 5 5 5 3}{2 * 0 . 0 0 0 1 * 9 3 . 1 6 2 0 4 2} = 6. 0 6 3 5 7 5
+\text{Ap pr ox im at eC re di tD ur at io n} = \frac{9 3 . 2 1 8 5 3 2 - 9 3 . 1 0 5 5 5 3}{2 * 0 . 0 0 0 1 * 9 3 . 1 6 2 0 4 2} = 6. 0 6 3 5 7 5
 $$
 
 The somewhat more complex valuation model estimates these risk statistics for the Citigroup Global Markets floater: a low modified duration of 0.134 with respect to changes in market interest rates and a much higher modified duration of 6.064 with respect to changes in credit risk. The estimated discount margin is 123.081 basis points, significantly above the quoted margin of 20 basis points because the FRN is trading at a discount below par value.
@@ -3109,7 +3109,7 @@ TABLE 7.4  $2.50\%$  , 10-Year, Annual Payment C-Linker High-Inflation Scenario
 
 flows are: (1) more coupon reinvestment risk with C-Linkers (more cash flow received sooner subject to fluctuation in real rates); (2) higher real rate durations with P-Linkers (longer times to the receipt of cash flow); and (3) less potential credit risk on C-Linkers, depending on the issuer (credit risk typically is an increasing function of time to the receipt of cash flow). These differences, along with taxation, are important when an investor has a choice between P-Linkers and C-Linkers.
 
-Before turning to linker taxation, notice that the real IRR on the  $2.50\%$  C-Linker is lower than on the  $2.50\%$  P-Linker, even though both are purchased at par value. Given low inflation averaging  $1.734\%$ , the C-Linker underperforms by 4.2 basis points. For high inflation averaging  $9.186\%$ , the difference is 19.9 basis points. The reason for this is that the typical C-Linker does not provide complete inflation protection—the interest payment formula leaves out the cross-product between the inflation rate and the real rate in setting the nominal rate. Recall from Chapter 3 the relationship among the three rates:  $(1 + \text{nominal rate}) = (1 + \text{real rate}) * (1 + \text{inflation rate})$ . Multiplying the terms, this becomes: nominal rate = real rate + inflation rate + (real rate * inflation rate). The typical C-Linker only includes the first two terms.
+Before turning to linker taxation, notice that the real IRR on the  $2.50\%$  C-Linker is lower than on the  $2.50\%$  P-Linker, even though both are purchased at par value. Given low inflation averaging  $1.734\%$ , the C-Linker underperforms by 4.2 basis points. For high inflation averaging  $9.186\%$ , the difference is 19.9 basis points. The reason for this is that the typical C-Linker does not provide complete inflation protection—the interest payment formula leaves out the cross-product between the inflation rate and the real rate in setting the nominal rate. Recall from Chapter 3 the relationship among the three rates:  $(1 + \text{nominalrate}) = (1 + \text{realrate}) * (1 + \text{inflationrate})$ . Multiplying the terms, this becomes: nominal rate = real rate + inflation rate + (real rate * inflation rate). The typical C-Linker only includes the first two terms.
 
 Hopefully, investors are aware of the interest payment formula on typical C-Linkers and that deficiency is reflected in the market price, especially if high inflation rates are expected. In reality, some C-Linkers do include the cross-product. The U.S. Treasury issues retail-oriented Series I Savings Bonds (called I-Bonds). These nonmarketable, 30-year C-Linkers can be purchased at par value in small denominations of \(25. The coupon interest rate is reset semiannually based on the \(\Delta\)CPI, including the cross-product. Interest accrues over the lifetime of the I-Bond and is paid at redemption. These, like P-Linkers, have the same real IRR for all subsequent paths for inflation. But that is before taxes.
 
@@ -3126,13 +3126,13 @@ TABLE 7.5 After-Tax Cash Flows on the  ${2.50}\% ,{10}$  -Year,Annual Payment P-
 <table><tr><td>Date</td><td>CPI</td><td>Inflation Rate</td><td>Accrued Principal</td><td>Before-Tax Cash Flow</td><td>Taxes Due</td><td>After-Tax Cash Flow</td><td>After-Tax Real Value</td></tr><tr><td>0</td><td>100.000</td><td></td><td>1,000.00</td><td>-1,000.00</td><td></td><td>-1,000.00</td><td>-1,000.00</td></tr><tr><td>1</td><td>104.566</td><td>4.566%</td><td>1,045.66</td><td>26.14</td><td>21.54</td><td>4.60</td><td>4.40</td></tr><tr><td>2</td><td>110.823</td><td>5.984%</td><td>1,108.23</td><td>27.71</td><td>27.08</td><td>0.62</td><td>0.56</td></tr><tr><td>3</td><td>118.398</td><td>6.835%</td><td>1,183.98</td><td>29.60</td><td>31.60</td><td>-2.01</td><td>-1.69</td></tr><tr><td>4</td><td>128.005</td><td>8.114%</td><td>1,280.05</td><td>32.00</td><td>38.42</td><td>-6.42</td><td>-5.02</td></tr><tr><td>5</td><td>139.556</td><td>9.024%</td><td>1,395.56</td><td>34.89</td><td>45.12</td><td>-10.23</td><td>-7.33</td></tr><tr><td>6</td><td>161.363</td><td>15.626%</td><td>1,613.63</td><td>40.34</td><td>77.52</td><td>-37.18</td><td>-23.04</td></tr><tr><td>7</td><td>188.857</td><td>17.039%</td><td>1,888.57</td><td>47.21</td><td>96.65</td><td>-49.43</td><td>-26.17</td></tr><tr><td>8</td><td>211.312</td><td>11.890%</td><td>2,113.12</td><td>52.83</td><td>83.21</td><td>-30.39</td><td>-14.38</td></tr><tr><td>9</td><td>228.523</td><td>8.14%5</td><td>2,285.23</td><td>57.13</td><td>68.77</td><td>-11.64</td><td>-5.09</td></tr><tr><td>10</td><td>240.805</td><td>5.375%</td><td>2,408.05</td><td>2,468.25</td><td>54.91</td><td>2,413.34</td><td>1,002.20</td></tr><tr><td></td><td></td><td></td><td>IRR</td><td>11.814%</td><td></td><td>8.362%</td><td>-0.763%</td></tr></table>
 
 $$
-\text {T h r e s h o l d I n f l a t i o n R a t e} = \frac {\text {F i x e d R a t e} * (1 - \text {T a x R a t e})}{\text {T a x R a t e} - \text {F i x e d R a t e} * (1 - \text {T a x R a t e})} \tag {7.11}
+\text{Th re sh ol dI nf la ti on Ra te} = \frac{\text{Fi xe dR at e} * (1 - \text{Ta xR at e})}{\text{Ta xR at e} - \text{Fi xe dR at e} * (1 - \text{Ta xR at e})} \tag {7.11}
 $$
 
 Fixed Rate is the coupon rate on the P-Linker, here  $2.50\%$ , and Tax Rate is the applicable rate on ordinary income, here  $30\%$ . Substituting those into equation 7.11 gives a threshold rate of  $6.195\%$ .
 
 $$
-\text {T h r e s h o l d I n f l a t i o n R a t e} = \frac {0 . 0 2 5 0 * (1 - 0 . 3 0)}{0 . 3 0 - . 0 2 5 0 * (1 - 0 . 3 0)} = 0. 0 6 1 9 5
+\text{Th re sh ol dI nf la ti on Ra te} = \frac{0 . 0 2 5 0 * (1 - 0 . 3 0)}{0 . 3 0 - . 0 2 5 0 * (1 - 0 . 3 0)} = 0. 0 6 1 9 5
 $$
 
 In general, the lower the fixed coupon rate and the higher the tax rate, the lower is the threshold inflation rate that results in negative after-tax cash flow.
@@ -3154,19 +3154,19 @@ Yield duration in Chapter 6 is defined as the sensitivity of the fixed-income bo
 P-Linker valuation is based on the assumed path for the accrued principal. Given a constant inflation rate, this path will be  $(1 + i)*FV,(1 + i)^{2}*FV,\ldots ,$ $(1 + i)^{N}*FV.$  Then the price of the P-Linker, denoted  $PV_{PLINK}$ , is the present value of the cash flows, discounted at the nominal rate.
 
 $$
-\begin{array}{l} P V _ {P L I N K} = \left[ \frac {c * (1 + i) * F V}{(1 + y) ^ {1}} + \frac {c * (1 + i) ^ {2} * F V}{(1 + y) ^ {2}} + \dots + \frac {c * (1 + i) ^ {N} * F V}{(1 + y) ^ {N}} \right] \\ + \frac {(1 + i) ^ {N} * F V}{(1 + y) ^ {N}} \tag {7.12} \\ \end{array}
+\begin{array}{l} P V_{P L I N K} = \left[ \frac{c * (1 + i) * F V}{(1 + y)^{1}} + \frac{c * (1 + i)^{2} * F V}{(1 + y)^{2}} + \dots + \frac{c * (1 + i)^{N} * F V}{(1 + y)^{N}} \right] \\ + \frac{(1 + i)^{N} * F V}{(1 + y)^{N}} \tag {7.12} \\ \end{array}
 $$
 
 This equation is simplified using the standard relationship among the nominal, real, and inflation rates:  $(1 + y) = (1 + r)*(1 + i)$ .
 
 $$
-P V _ {P L I N K} = \left[ \frac {c * F V}{(1 + r) ^ {1}} + \frac {c * F V}{(1 + r) ^ {2}} + \dots + \frac {c * F V}{(1 + r) ^ {N}} \right] + \frac {F V}{(1 + r) ^ {N}} \tag {7.13}
+P V_{P L I N K} = \left[ \frac{c * F V}{(1 + r)^{1}} + \frac{c * F V}{(1 + r)^{2}} + \dots + \frac{c * F V}{(1 + r)^{N}} \right] + \frac{F V}{(1 + r)^{N}} \tag {7.13}
 $$
 
 This can be written more compactly as shown in equation 7.14.
 
 $$
-P V _ {P L I N K} = \frac {c * F V}{r} * \left(1 - \frac {1}{(1 + r) ^ {N}}\right) + \frac {F V}{(1 + r) ^ {N}} \tag {7.14}
+P V_{P L I N K} = \frac{c * F V}{r} * \left(1 - \frac{1}{(1 + r)^{N}}\right) + \frac{F V}{(1 + r)^{N}} \tag {7.14}
 $$
 
 The inflation rate drops out in equations 7.13 and 7.14, so the inflation duration for the stylized P-Linker is zero. That's because the first derivative of the pricing equation with respect to a change in the inflation rate is zero. In practice, the time between measuring the  $\Delta$ CPI and changing the accrued principal (i.e., the indexation lag) matters, and the inflation duration for TIPS is close to but not exactly zero.
@@ -3174,7 +3174,7 @@ The inflation rate drops out in equations 7.13 and 7.14, so the inflation durati
 In equation 7.14, only changes in the real rate impact the market value of the P-Linker. Its Macaulay duration, derived in the Technical Appendix and denoted RealMacDurPLINK in equation 7.15, is going to look familiar to you.
 
 $$
-\text {R e a l M a c D u r P L I N K} = \frac {1 + r}{r} - \frac {1 + r + [ N * (c - r) ]}{c * [ (1 + r) ^ {N} - 1 ] + r} \tag {7.15}
+\text{Re al Ma cD ur PL IN K} = \frac{1 + r}{r} - \frac{1 + r + [ N * (c - r) ]}{c * [ (1 + r)^{N} - 1 ] + r} \tag {7.15}
 $$
 
 This is the same as equation 6.15 for the Macaulay duration of a standard fixed-rate bond on a coupon date (when  $t / T = 0$ ). Real rate durations on TIPS are relatively high compared to Treasury notes and bonds for the same maturity because their fixed coupon rates and the real yields are relatively low. In general, the Macaulay yield duration statistic is inversely related to both the coupon rate and yield to maturity.
@@ -3182,7 +3182,7 @@ This is the same as equation 6.15 for the Macaulay duration of a standard fixed-
 The present value of the C-Linker,  $PV_{CLINK}$ , assuming a constant inflation rate, is shown in equation 7.16.
 
 $$
-P V _ {C L I N K} = \left[ \frac {(i + c) * F V}{(1 + y) ^ {1}} + \frac {(i + c) * F V}{(1 + y) ^ {2}} + \dots + \frac {(i + c) * F V}{(1 + y) ^ {N}} \right] + \frac {F V}{(1 + y) ^ {N}} \tag {7.16}
+P V_{C L I N K} = \left[ \frac{(i + c) * F V}{(1 + y)^{1}} + \frac{(i + c) * F V}{(1 + y)^{2}} + \dots + \frac{(i + c) * F V}{(1 + y)^{N}} \right] + \frac{F V}{(1 + y)^{N}} \tag {7.16}
 $$
 
 The principal is fixed and the inflation rate simply is added to the fixed coupon rate without the cross-product term. The projected cash flows
@@ -3190,13 +3190,13 @@ The principal is fixed and the inflation rate simply is added to the fixed coupo
 again are discounted using the nominal rate. In closed-form, this reduces to equation 7.17.
 
 $$
-P V _ {C L I N K} = \frac {(i + c) * F V}{y} * \left(1 - \frac {1}{(1 + y) ^ {N}}\right) + \frac {F V}{(1 + y) ^ {N}} \tag {7.17}
+P V_{C L I N K} = \frac{(i + c) * F V}{y} * \left(1 - \frac{1}{(1 + y)^{N}}\right) + \frac{F V}{(1 + y)^{N}} \tag {7.17}
 $$
 
 The real rate Macaulay duration for the C-Linker (RealMacDurCLINK) is derived in the Technical Appendix. It entails taking the first derivative of equation 7.17 with respect to changes in  $r$ , which is contained in  $y$ , and doing some algebraic manipulation.
 
 $$
-\operatorname {R e a l M a c D u r C L I N K} = \frac {1 + y}{y} - \frac {1 + y + \left[ N * (c - r * (1 + i)) \right]}{(c + i) * ((1 + y) ^ {N} - 1) + y} \tag {7.18}
+\operatorname{Re al Ma cD ur CL IN K} = \frac{1 + y}{y} - \frac{1 + y + \left[ N * (c - r * (1 + i)) \right]}{(c + i) * ((1 + y)^{N} - 1) + y} \tag {7.18}
 $$
 
 This equation has a similar structure to equation 7.15 for the P-Linker (and to equation 6.15 for the traditional fixed-rate bond). The key point is that, unlike the P-Linker, the real rate duration of the C-Linker is a function of the inflation rate, which enters the equation directly as  $i$  and indirectly in  $y$ . This will matter in Chapter 10 when we get to strategies, in particular, an immunization strategy that rests on matching the duration of the bond portfolio to some target. It will be much easier to implement such a strategy using P-Linkers than with C-Linkers.
@@ -3204,7 +3204,7 @@ This equation has a similar structure to equation 7.15 for the P-Linker (and to 
 The inflation Macaulay duration for the C-Linker (InflationMacDurCLINK) will turn out to be low but not equal to zero, even for these stylized securities. Equation 7.19 is derived in the Technical Appendix.
 
 $$
-\begin{array}{l} I n f l a t i o n M a c D u r C L I N K = \frac {1 + y}{y} - \frac {1 + y + \left[ N * (c - r * (1 + i)) \right]}{(c + i) * ((1 + y) ^ {N} - 1) + y} \tag {7.19} \\ - \frac {(1 + i) * ((1 + y) ^ {N} - 1)}{(c + i) * ((1 + y) ^ {N} - 1) + y} \\ \end{array}
+\begin{array}{l} I n f l a t i o n M a c D u r C L I N K = \frac{1 + y}{y} - \frac{1 + y + \left[ N * (c - r * (1 + i)) \right]}{(c + i) * ((1 + y)^{N} - 1) + y} \tag {7.19} \\ - \frac{(1 + i) * ((1 + y)^{N} - 1)}{(c + i) * ((1 + y)^{N} - 1) + y} \\ \end{array}
 $$
 
 Notice that the first two terms are the same as RealMacDurCLINK. The third term reduces InflationMacDurCLINK—sometimes all the way into negative territory. Some numerical examples will establish the circumstances when negative inflation duration occurs. It's not obvious from looking at equation 7.19.
@@ -3287,7 +3287,7 @@ the same as in Chapter 5 for implied forwards. The  $3 \times 6$  forward rate o
 These forward rates can be used to bootstrap the sequence of implied spot rates, which also are shown in Table 8.1. They are annual rates for quarterly compounding, same as the LIBOR forwards. Technically, they are computed as the geometric average of the forward rates. A few examples illustrate the process.
 
 $$
-\begin{array}{l} \left(1 + \frac {0 . 0 0 5 0 0 0}{4}\right) * \left(1 + \frac {0 . 0 1 5 8 2 1}{4}\right) = \left(1 + \frac {\text {S p o t} _ {0 \times 6}}{4}\right) ^ {2}, \quad \text {S p o t} _ {0 \times 6} = 0. 0 1 0 4 0 7 \\ \left(1 + \frac {0 . 0 1 0 4 0 7}{4}\right) ^ {2} * \left(1 + \frac {0 . 0 2 6 6 9 4}{4}\right) = \left(1 + \frac {\text {S p o t} _ {0 \times 9}}{4}\right) ^ {3}, \quad \text {S p o t} _ {0 \times 9} = 0. 0 1 5 8 2 9 \\ \left(1 + \frac {0 . 0 1 5 8 2 9}{4}\right) ^ {3} * \left(1 + \frac {0 . 0 3 7 6 4 7}{4}\right) = \left(1 + \frac {\text {S p o t} _ {0 \times 1 2}}{4}\right) ^ {4}, \quad \text {S p o t} _ {0 \times 1 2} = 0. 0 2 1 2 7 2 \\ \end{array}
+\begin{array}{l} \left(1 + \frac{0 . 0 0 5 0 0 0}{4}\right) * \left(1 + \frac{0 . 0 1 5 8 2 1}{4}\right) = \left(1 + \frac{\text{Sp ot}_{0 \times 6}}{4}\right)^{2}, \quad \text{Sp ot}_{0 \times 6} = 0. 0 1 0 4 0 7 \\ \left(1 + \frac{0 . 0 1 0 4 0 7}{4}\right)^{2} * \left(1 + \frac{0 . 0 2 6 6 9 4}{4}\right) = \left(1 + \frac{\text{Sp ot}_{0 \times 9}}{4}\right)^{3}, \quad \text{Sp ot}_{0 \times 9} = 0. 0 1 5 8 2 9 \\ \left(1 + \frac{0 . 0 1 5 8 2 9}{4}\right)^{3} * \left(1 + \frac{0 . 0 3 7 6 4 7}{4}\right) = \left(1 + \frac{\text{Sp ot}_{0 \times 1 2}}{4}\right)^{4}, \quad \text{Sp ot}_{0 \times 1 2} = 0. 0 2 1 2 7 2 \\ \end{array}
 $$
 
 Notice the bootstrapping—the result for one time frame is used as an input in the next as we move out along the term structure of spot rates.
@@ -3295,7 +3295,7 @@ Notice the bootstrapping—the result for one time frame is used as an input in 
 The "average" of the 3-month LIBOR forward curve is the solution for SFR (swap fixed rate) in the lengthy expression to follow. The idea is that each forward rate is "monetized" by multiplying by the notional principal (assumed to be 100) and by the fraction of the year (0.25). That amount is discounted using the corresponding implied spot rate. SFR, which is the same for every period, is "monetized" as well using the same notional principal, the same day-count factors, and the same spot rates.
 
 $$
-\begin{array}{l} \frac{0.5000\%\ast100\ast0.25}{\left(1 + \frac{0.005000}{4}\right)^{1}} +\frac{1.5821\%\ast100\ast0.25}{\left(1 + \frac{0.010407}{4}\right)^{2}} +\frac{2.6694\%\ast100\ast0.25}{\left(1 + \frac{0.015829}{4}\right)^{3}} \\ + \frac {3.7647 \% * 100 * 0.25}{\left(1 + \frac {0.021272}{4}\right) ^ {4}} + \frac {3.7468 \% * 100 * 0.25}{\left(1 + \frac {0.024506}{4}\right) ^ {5}} + \frac {4.4047 \% * 100 * 0.25}{\left(1 + \frac {0.027756}{4}\right) ^ {6}} \\ + \frac {5.0696 \% * 100 * 0.25}{\left(1 + \frac {0.031025}{4}\right) ^ {7}} + \frac {5.7427 \% * 100 * 0.25}{\left(1 + \frac {0.034316}{4}\right) ^ {8}} \\ = \frac {S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac {0 . 0 0 5 0 0 0}{4}\right) ^ {1}} + \frac {S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac {0 . 0 1 0 4 0 7}{4}\right) ^ {2}} + \frac {S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac {0 . 0 1 5 8 2 9}{4}\right) ^ {3}} + \frac {S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac {0 . 0 2 1 2 7 2}{4}\right) ^ {4}} \\ + \frac {S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac {0 . 0 2 4 5 0 6}{4}\right) ^ {5}} + \frac {S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac {0 . 0 2 7 7 5 6}{4}\right) ^ {6}} + \frac {S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac {0 . 0 3 1 0 2 5}{4}\right) ^ {7}} + \frac {S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac {0 . 0 3 4 3 1 6}{4}\right) ^ {8}} \\ \end{array}
+\begin{array}{l} \frac{0.5000\%\ast100\ast0.25}{\left(1 + \frac{0.005000}{4}\right)^{1}} +\frac{1.5821\%\ast100\ast0.25}{\left(1 + \frac{0.010407}{4}\right)^{2}} +\frac{2.6694\%\ast100\ast0.25}{\left(1 + \frac{0.015829}{4}\right)^{3}} \\ + \frac{3.7647 \% * 100 * 0.25}{\left(1 + \frac{0.021272}{4}\right)^{4}} + \frac{3.7468 \% * 100 * 0.25}{\left(1 + \frac{0.024506}{4}\right)^{5}} + \frac{4.4047 \% * 100 * 0.25}{\left(1 + \frac{0.027756}{4}\right)^{6}} \\ + \frac{5.0696 \% * 100 * 0.25}{\left(1 + \frac{0.031025}{4}\right)^{7}} + \frac{5.7427 \% * 100 * 0.25}{\left(1 + \frac{0.034316}{4}\right)^{8}} \\ = \frac{S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac{0 . 0 0 5 0 0 0}{4}\right)^{1}} + \frac{S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac{0 . 0 1 0 4 0 7}{4}\right)^{2}} + \frac{S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac{0 . 0 1 5 8 2 9}{4}\right)^{3}} + \frac{S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac{0 . 0 2 1 2 7 2}{4}\right)^{4}} \\ + \frac{S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac{0 . 0 2 4 5 0 6}{4}\right)^{5}} + \frac{S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac{0 . 0 2 7 7 5 6}{4}\right)^{6}} + \frac{S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac{0 . 0 3 1 0 2 5}{4}\right)^{7}} + \frac{S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac{0 . 0 3 4 3 1 6}{4}\right)^{8}} \\ \end{array}
 $$
 
 For the 2-year swap on 3-month LIBOR,  $SFR = 3.40\%$ .
@@ -3323,25 +3323,25 @@ The answer is no, those forward rates are too high. An adjustment factor first m
 Equation 8.1 is an example of the relationship between the forward and futures rates based on the Ho-Lee model.
 
 $$
-F o r w a r d \quad R a t e = F u t u r e s \quad R a t e - (1 / 2 * \text {V a r i a n c e} * \text {T i m e 1} * \text {T i m e 2}) \tag {8.1}
+F o r w a r d \quad R a t e = F u t u r e s \quad R a t e - (1 / 2 * \text{Va ri an ce} * \text{Ti me 1} * \text{Ti me 2}) \tag {8.1}
 $$
 
 The rates are stated for continuous compounding. Variance is the square of the standard deviation of daily changes in the reference rate (3-month LIBOR), and Time1 and Time2 are the years to the forward dates (for a  $60 \times 63$  forward, 5.00 and 5.25 years). Suppose the standard deviation is 0.012 and the observed futures rate is  $6.00\%$  (annualized for a periodicity of 4). Equation 2.3 from Chapter 2 converts that rate to  $5.9554\%$  for continuous compounding.
 
 $$
-A P R _ {\infty} = 4 * L N \left(1 + \frac {0 . 0 6 0 0}{4}\right) = 0. 0 5 9 5 5 4
+A P R_{\infty} = 4 * L N \left(1 + \frac{0 . 0 6 0 0}{4}\right) = 0. 0 5 9 5 5 4
 $$
 
 The Ho-Lee adjusted forward rate is  $5.7664\%$ .
 
 $$
-F o r w a r d R a t e = 0. 0 5 9 5 5 4 - \left[ 1 / 2 * (0. 0 1 2) ^ {2} * 5. 0 0 * 5. 2 5 \right] = 0. 0 5 7 6 6 4
+F o r w a r d R a t e = 0. 0 5 9 5 5 4 - \left[ 1 / 2 * (0. 0 1 2)^{2} * 5. 0 0 * 5. 2 5 \right] = 0. 0 5 7 6 6 4
 $$
 
 Equation 2.4 converts that rate back to a conventional quote for 3-month LIBOR of  $5.8082\%$ .
 
 $$
-A P R _ {4} = 4 * E X P \left(\frac {0 . 0 5 7 6 6 4}{4}\right) - 1 = 0. 0 5 8 0 8 2
+A P R_{4} = 4 * E X P \left(\frac{0 . 0 5 7 6 6 4}{4}\right) - 1 = 0. 0 5 8 0 8 2
 $$
 
 Therefore, given these assumptions, the adjustment factor is 19.2 basis points for the 5-year forward  $(0.06000 - 0.05808 = 0.00192)$ . For the same standard deviation, the adjustment is only 3.3 basis points for a 2-year forward but 74.8 basis points for a 10-year forward. The longer the time frame, the more significant is the adjustment factor.
@@ -3361,65 +3361,65 @@ Okay, it is incredibly unrealistic that you could observe all these swap fixed r
 Given these observed or interpolated swap fixed rates, we can dip into our bond math toolkit to infer the LIBOR forward curve. The trick is to transform these swaps into bonds by adding 100 in par value to date 0 and to the maturity date and then use the bootstrapping technique from Chapter 5 to get the implied spot rates. Here are the equations to solve for the series of spot (Spot) rates, quoted in terms of months.  $Spot_{0 \times 6}$  is the 6-month rate as of today (day 0);  $Spot_{0 \times 9}$  is the 9-month rate, and so forth.
 
 $$
-\begin{array}{l} 1 0 0 = \frac {1 . 0 4 / 4}{\left(1 + \frac {0 . 0 0 5 0}{4}\right)} + \frac {1 . 0 4 / 4 + 1 0 0}{\left(1 + \frac {\text {S p o t} _ {0 \times 6}}{4}\right) ^ {2}}, \quad \text {S p o t} _ {0 \times 6} = 0. 0 1 0 4 0 7 \\ 1 0 0 = \frac {1 . 5 8 / 4}{\left(1 + \frac {0 . 0 0 5 0}{4}\right)} + \frac {1 . 5 8 / 4}{\left(1 + \frac {0 . 0 1 0 4 0 7}{4}\right) ^ {2}} + \frac {1 . 5 8 / 4 + 1 0 0}{\left(1 + \frac {\text {S p o t} _ {0 \times 9}}{4}\right) ^ {3}}, \quad \text {S p o t} _ {0 \times 9} = 0. 0 1 5 8 2 9 \\ 1 0 0 = \frac {2 . 1 2 / 4}{\left(1 + \frac {0 . 0 0 5 0}{4}\right)} + \frac {2 . 1 2 / 4}{\left(1 + \frac {0 . 0 1 0 4 0 7}{4}\right) ^ {2}} + \frac {2 . 1 2 / 4}{\left(1 + \frac {0 . 0 1 5 8 2 9}{4}\right) ^ {3}} + \frac {2 . 1 2 / 4 + 1 0 0}{\left(1 + \frac {\text {S p o t} _ {0 \times 1 2}}{4}\right) ^ {4}}, \\ S p o t _ {0 \times 1 2} = 0. 0 2 1 2 7 2 \\ \end{array}
+\begin{array}{l} 1 0 0 = \frac{1 . 0 4 / 4}{\left(1 + \frac{0 . 0 0 5 0}{4}\right)} + \frac{1 . 0 4 / 4 + 1 0 0}{\left(1 + \frac{\text{Sp ot}_{0 \times 6}}{4}\right)^{2}}, \quad \text{Sp ot}_{0 \times 6} = 0. 0 1 0 4 0 7 \\ 1 0 0 = \frac{1 . 5 8 / 4}{\left(1 + \frac{0 . 0 0 5 0}{4}\right)} + \frac{1 . 5 8 / 4}{\left(1 + \frac{0 . 0 1 0 4 0 7}{4}\right)^{2}} + \frac{1 . 5 8 / 4 + 1 0 0}{\left(1 + \frac{\text{Sp ot}_{0 \times 9}}{4}\right)^{3}}, \quad \text{Sp ot}_{0 \times 9} = 0. 0 1 5 8 2 9 \\ 1 0 0 = \frac{2 . 1 2 / 4}{\left(1 + \frac{0 . 0 0 5 0}{4}\right)} + \frac{2 . 1 2 / 4}{\left(1 + \frac{0 . 0 1 0 4 0 7}{4}\right)^{2}} + \frac{2 . 1 2 / 4}{\left(1 + \frac{0 . 0 1 5 8 2 9}{4}\right)^{3}} + \frac{2 . 1 2 / 4 + 1 0 0}{\left(1 + \frac{\text{Sp ot}_{0 \times 1 2}}{4}\right)^{4}}, \\ S p o t_{0 \times 1 2} = 0. 0 2 1 2 7 2 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} 1 0 0 = \frac {2 . 4 4 / 4}{\left(1 + \frac {0 . 0 0 5 0}{4}\right)} + \frac {2 . 4 4 / 4}{\left(1 + \frac {0 . 0 1 0 4 0 7}{4}\right) ^ {2}} + \frac {2 . 4 4 / 4}{\left(1 + \frac {0 . 0 1 5 8 2 9}{4}\right) ^ {3}} \\ + \frac {2 . 4 4 / 4}{\left(1 + \frac {0 . 0 2 1 2 7 2}{4}\right) ^ {4}} + \frac {2 . 4 4 / 4 + 1 0 0}{\left(1 + \frac {\text {S p o t} _ {0 \times 1 5}}{4}\right) ^ {5}}, \quad \text {S p o t} _ {0 \times 1 5} = 0. 0 2 4 5 0 6 \\ \end{array}
+\begin{array}{l} 1 0 0 = \frac{2 . 4 4 / 4}{\left(1 + \frac{0 . 0 0 5 0}{4}\right)} + \frac{2 . 4 4 / 4}{\left(1 + \frac{0 . 0 1 0 4 0 7}{4}\right)^{2}} + \frac{2 . 4 4 / 4}{\left(1 + \frac{0 . 0 1 5 8 2 9}{4}\right)^{3}} \\ + \frac{2 . 4 4 / 4}{\left(1 + \frac{0 . 0 2 1 2 7 2}{4}\right)^{4}} + \frac{2 . 4 4 / 4 + 1 0 0}{\left(1 + \frac{\text{Sp ot}_{0 \times 1 5}}{4}\right)^{5}}, \quad \text{Sp ot}_{0 \times 1 5} = 0. 0 2 4 5 0 6 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} 1 0 0 = \frac {2 . 7 6 / 4}{\left(1 + \frac {0 . 0 0 5 0}{4}\right)} + \frac {2 . 7 6 / 4}{\left(1 + \frac {0 . 0 1 0 4 0 7}{4}\right) ^ {2}} + \frac {2 . 7 6 / 4}{\left(1 + \frac {0 . 0 1 5 8 2 9}{4}\right) ^ {3}} + \frac {2 . 7 6 / 4}{\left(1 + \frac {0 . 0 2 1 2 7 2}{4}\right) ^ {4}} \\ + \frac {2 . 7 6 / 4}{\left(1 + \frac {0 . 0 2 4 5 0 6}{4}\right) ^ {5}} + \frac {2 . 7 6 / 4 + 1 0 0}{\left(1 + \frac {\text {S p o t} _ {0 \times 1 8}}{4}\right) ^ {6}}, \\ \end{array}
+\begin{array}{l} 1 0 0 = \frac{2 . 7 6 / 4}{\left(1 + \frac{0 . 0 0 5 0}{4}\right)} + \frac{2 . 7 6 / 4}{\left(1 + \frac{0 . 0 1 0 4 0 7}{4}\right)^{2}} + \frac{2 . 7 6 / 4}{\left(1 + \frac{0 . 0 1 5 8 2 9}{4}\right)^{3}} + \frac{2 . 7 6 / 4}{\left(1 + \frac{0 . 0 2 1 2 7 2}{4}\right)^{4}} \\ + \frac{2 . 7 6 / 4}{\left(1 + \frac{0 . 0 2 4 5 0 6}{4}\right)^{5}} + \frac{2 . 7 6 / 4 + 1 0 0}{\left(1 + \frac{\text{Sp ot}_{0 \times 1 8}}{4}\right)^{6}}, \\ \end{array}
 $$
 
 $$
-S p o t _ {0 \times 1 8} = 0. 0 2 7 7 5 6
+S p o t_{0 \times 1 8} = 0. 0 2 7 7 5 6
 $$
 
 $$
-\begin{array}{l} 1 0 0 = \frac {3 . 0 8 / 4}{\left(1 + \frac {0 . 0 0 5 0}{4}\right)} + \frac {3 . 0 8 / 4}{\left(1 + \frac {0 . 0 1 0 4 0 7}{4}\right) ^ {2}} + \frac {3 . 0 8 / 4}{\left(1 + \frac {0 . 0 1 5 8 2 9}{4}\right) ^ {3}} + \frac {3 . 0 8 / 4}{\left(1 + \frac {0 . 0 2 1 2 7 2}{4}\right) ^ {4}} \\ + \frac {3 . 0 8 / 4}{\left(1 + \frac {0 . 0 2 4 5 0 6}{4}\right) ^ {5}} + \frac {3 . 0 8 / 4}{\left(1 + \frac {0 . 0 2 7 7 5 6}{4}\right) ^ {6}} + \frac {3 . 0 8 / 4 + 1 0 0}{\left(1 + \frac {\text {S p o t} _ {0 \times 2 1}}{4}\right) ^ {7}}, \\ \end{array}
+\begin{array}{l} 1 0 0 = \frac{3 . 0 8 / 4}{\left(1 + \frac{0 . 0 0 5 0}{4}\right)} + \frac{3 . 0 8 / 4}{\left(1 + \frac{0 . 0 1 0 4 0 7}{4}\right)^{2}} + \frac{3 . 0 8 / 4}{\left(1 + \frac{0 . 0 1 5 8 2 9}{4}\right)^{3}} + \frac{3 . 0 8 / 4}{\left(1 + \frac{0 . 0 2 1 2 7 2}{4}\right)^{4}} \\ + \frac{3 . 0 8 / 4}{\left(1 + \frac{0 . 0 2 4 5 0 6}{4}\right)^{5}} + \frac{3 . 0 8 / 4}{\left(1 + \frac{0 . 0 2 7 7 5 6}{4}\right)^{6}} + \frac{3 . 0 8 / 4 + 1 0 0}{\left(1 + \frac{\text{Sp ot}_{0 \times 2 1}}{4}\right)^{7}}, \\ \end{array}
 $$
 
 $$
-S p o t _ {0 \times 2 1} = 0. 0 3 1 0 2 5
+S p o t_{0 \times 2 1} = 0. 0 3 1 0 2 5
 $$
 
 $$
-\begin{array}{l} 1 0 0 = \frac {3 . 4 0 / 4}{\left(1 + \frac {0 . 0 0 5 0}{4}\right)} + \frac {3 . 4 0 / 4}{\left(1 + \frac {0 . 0 1 0 4 0 7}{4}\right) ^ {2}} + \frac {3 . 4 0 / 4}{\left(1 + \frac {0 . 0 1 5 8 2 9}{4}\right) ^ {3}} + \frac {3 . 4 0 / 4}{\left(1 + \frac {0 . 0 2 1 2 7 2}{4}\right) ^ {4}} \\ + \frac {3 . 4 0 / 4}{\left(1 + \frac {0 . 0 2 4 5 0 6}{4}\right) ^ {5}} + \frac {3 . 4 0 / 4}{\left(1 + \frac {0 . 0 2 7 7 5 6}{4}\right) ^ {6}} + \frac {3 . 4 0 / 4}{\left(1 + \frac {0 . 0 3 1 0 2 5}{4}\right) ^ {7}} + \frac {3 . 4 0 / 4 + 1 0 0}{\left(1 + \frac {\text {S p o t} _ {0 \times 2 4}}{4}\right) ^ {8}}, \\ \end{array}
+\begin{array}{l} 1 0 0 = \frac{3 . 4 0 / 4}{\left(1 + \frac{0 . 0 0 5 0}{4}\right)} + \frac{3 . 4 0 / 4}{\left(1 + \frac{0 . 0 1 0 4 0 7}{4}\right)^{2}} + \frac{3 . 4 0 / 4}{\left(1 + \frac{0 . 0 1 5 8 2 9}{4}\right)^{3}} + \frac{3 . 4 0 / 4}{\left(1 + \frac{0 . 0 2 1 2 7 2}{4}\right)^{4}} \\ + \frac{3 . 4 0 / 4}{\left(1 + \frac{0 . 0 2 4 5 0 6}{4}\right)^{5}} + \frac{3 . 4 0 / 4}{\left(1 + \frac{0 . 0 2 7 7 5 6}{4}\right)^{6}} + \frac{3 . 4 0 / 4}{\left(1 + \frac{0 . 0 3 1 0 2 5}{4}\right)^{7}} + \frac{3 . 4 0 / 4 + 1 0 0}{\left(1 + \frac{\text{Sp ot}_{0 \times 2 4}}{4}\right)^{8}}, \\ \end{array}
 $$
 
 $$
-S p o t _ {0 \times 2 4} = 0. 0 3 4 3 1 6
+S p o t_{0 \times 2 4} = 0. 0 3 4 3 1 6
 $$
 
 Can you imagine doing these types of repetitive calculations in the olden days before spreadsheets and being able to do the bootstrapping with discount factors? Anyway, now we have the implied spots, all annualized for the same periodicity. We can use equation 5.4 from Chapter 5 to get the sequence of implied forward rates.
 
 $$
-R a t e _ {3 \times 6} = \left(\frac {\left(1 + \frac {0 . 0 1 0 4 0 7}{4}\right) ^ {2}}{\left(1 + \frac {0 . 0 0 5 0 0 0}{4}\right) ^ {1}} - 1\right) * 4 = 0. 0 1 5 8 2 1
+R a t e_{3 \times 6} = \left(\frac{\left(1 + \frac{0 . 0 1 0 4 0 7}{4}\right)^{2}}{\left(1 + \frac{0 . 0 0 5 0 0 0}{4}\right)^{1}} - 1\right) * 4 = 0. 0 1 5 8 2 1
 $$
 
 $$
-R a t e _ {6 \times 9} = \left(\frac {\left(1 + \frac {0 . 0 1 5 8 2 9}{4}\right) ^ {3}}{\left(1 + \frac {0 . 0 1 0 4 0 7}{4}\right) ^ {2}} - 1\right) * 4 = 0. 0 2 6 6 9 4
+R a t e_{6 \times 9} = \left(\frac{\left(1 + \frac{0 . 0 1 5 8 2 9}{4}\right)^{3}}{\left(1 + \frac{0 . 0 1 0 4 0 7}{4}\right)^{2}} - 1\right) * 4 = 0. 0 2 6 6 9 4
 $$
 
 $$
-R a t e _ {9 \times 1 2} = \left(\frac {\left(1 + \frac {0 . 0 2 1 2 7 2}{4}\right) ^ {4}}{\left(1 + \frac {0 . 0 1 5 8 2 9}{4}\right) ^ {3}} - 1\right) * 4 = 0. 0 3 7 6 4 7
+R a t e_{9 \times 1 2} = \left(\frac{\left(1 + \frac{0 . 0 2 1 2 7 2}{4}\right)^{4}}{\left(1 + \frac{0 . 0 1 5 8 2 9}{4}\right)^{3}} - 1\right) * 4 = 0. 0 3 7 6 4 7
 $$
 
 $$
-R a t e _ {1 2 \times 1 5} = \left(\frac {\left(1 + \frac {0 . 0 2 4 5 0 6}{4}\right) ^ {5}}{\left(1 + \frac {0 . 0 2 1 2 7 2}{4}\right) ^ {4}} - 1\right) * 4 = 0. 0 3 7 4 6 8
+R a t e_{1 2 \times 1 5} = \left(\frac{\left(1 + \frac{0 . 0 2 4 5 0 6}{4}\right)^{5}}{\left(1 + \frac{0 . 0 2 1 2 7 2}{4}\right)^{4}} - 1\right) * 4 = 0. 0 3 7 4 6 8
 $$
 
 $$
-R a t e _ {1 5 \times 1 8} = \left(\frac {\left(1 + \frac {0 . 0 2 7 7 5 6}{4}\right) ^ {6}}{\left(1 + \frac {0 . 0 2 4 5 0 6}{4}\right) ^ {5}} - 1\right) * 4 = 0. 0 4 4 0 4 7
+R a t e_{1 5 \times 1 8} = \left(\frac{\left(1 + \frac{0 . 0 2 7 7 5 6}{4}\right)^{6}}{\left(1 + \frac{0 . 0 2 4 5 0 6}{4}\right)^{5}} - 1\right) * 4 = 0. 0 4 4 0 4 7
 $$
 
 $$
-R a t e _ {1 8 \times 2 1} = \left(\frac {\left(1 + \frac {0 . 0 3 1 0 2 5}{4}\right) ^ {7}}{\left(1 + \frac {0 . 0 2 7 7 5 6}{4}\right) ^ {6}} - 1\right) * 4 = 0. 0 5 0 6 9 6
+R a t e_{1 8 \times 2 1} = \left(\frac{\left(1 + \frac{0 . 0 3 1 0 2 5}{4}\right)^{7}}{\left(1 + \frac{0 . 0 2 7 7 5 6}{4}\right)^{6}} - 1\right) * 4 = 0. 0 5 0 6 9 6
 $$
 
 $$
-\operatorname {R a t e} _ {2 1 \times 2 4} = \left(\frac {\left(1 + \frac {0 . 0 3 4 3 1 6}{4}\right) ^ {8}}{\left(1 + \frac {0 . 0 3 1 0 2 5}{4}\right) ^ {7}} - 1\right) * 4 = 0. 0 5 7 4 2 7
+\operatorname{Ra te}_{2 1 \times 2 4} = \left(\frac{\left(1 + \frac{0 . 0 3 4 3 1 6}{4}\right)^{8}}{\left(1 + \frac{0 . 0 3 1 0 2 5}{4}\right)^{7}} - 1\right) * 4 = 0. 0 5 7 4 2 7
 $$
 
 You'll notice that this forward curve on 3-month LIBOR turns out to be the same as in Table 8.1—this is how I put together the example on my spreadsheet. There are two points to this exercise. First, implied spot rates can be bootstrapped by working either down from the forward curve or up from the cash market for fixed-coupon securities (I'm envisioning upwardly sloped curves). Second, and more important, this demonstrates how we can infer the forward curve that is consistent with observed (and, likely, interpolated) swap fixed rates. That provides the inputs needed to price nonvanilla swaps.
@@ -3429,7 +3429,7 @@ Suppose a corporation plans to issue at par value a 1-year, fixed-rate bond in t
 A concern for the corporate treasurer is that this is not a plain vanilla swap having a widely quoted fixed rate. Suppose a commercial bank offers to "sell" the swap to the corporation for a fixed rate of  $2.98\%$ . Is that reasonable pricing? You only know for sure that 3-month LIBOR is  $0.50\%$  and that 1-year and 2-year vanilla swaps are at  $2.12\%$  and  $3.40\%$  but you assume it is reasonable to use straight-line interpolation between those observed rates. Given your now fully loaded bond math toolkit, you can set up and solve this equation.
 
 $$
-\begin{array}{l} \frac{1.5821\%*100*0.25}{\left(1 + \frac{0.010407}{4}\right)^{2}} +\frac{2.6694\%*100*0.25}{\left(1 + \frac{0.015829}{4}\right)^{3}} \\ + \frac {3.7647 \% * 100 * 0.25}{\left(1 + \frac {0.021272}{4}\right) ^ {4}} + \frac {3.7468 \% * 100 * 0.25}{\left(1 + \frac {0.024506}{4}\right) ^ {5}} \\ = \frac {S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac {0 . 0 1 0 4 0 7}{4}\right) ^ {2}} + \frac {S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac {0 . 0 1 5 8 2 9}{4}\right) ^ {3}} \\ + \frac {S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac {0 . 0 2 1 2 7 2}{4}\right) ^ {4}} + \frac {S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac {0 . 0 2 4 5 0 6}{4}\right) ^ {5}} \\ \end{array}
+\begin{array}{l} \frac{1.5821\%*100*0.25}{\left(1 + \frac{0.010407}{4}\right)^{2}} +\frac{2.6694\%*100*0.25}{\left(1 + \frac{0.015829}{4}\right)^{3}} \\ + \frac{3.7647 \% * 100 * 0.25}{\left(1 + \frac{0.021272}{4}\right)^{4}} + \frac{3.7468 \% * 100 * 0.25}{\left(1 + \frac{0.024506}{4}\right)^{5}} \\ = \frac{S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac{0 . 0 1 0 4 0 7}{4}\right)^{2}} + \frac{S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac{0 . 0 1 5 8 2 9}{4}\right)^{3}} \\ + \frac{S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac{0 . 0 2 1 2 7 2}{4}\right)^{4}} + \frac{S F R * 1 0 0 * 0 . 2 5}{\left(1 + \frac{0 . 0 2 4 5 0 6}{4}\right)^{5}} \\ \end{array}
 $$
 
 This solves for the "average" of the relevant  $3 \times 15$  segment of the LIBOR forward curve. The answer is  $SFR = 2.93\%$ . This neglects credit risk and transactions costs. Once again, you can think of it as the mid-market rate around which the swap market maker builds the bid-ask spread as compensation for the costs and risks of entering the derivative. The corporation now has a basis to negotiate, perhaps arguing that  $2.98\%$  is too high a fixed rate.
@@ -3499,13 +3499,13 @@ The ambiguous part of swap valuation is in calculating the present value of the 
 What do you suggest—discount the \$60,000 annuity at the current swap fixed rate of 3.00% or the sequence of implied spot rates (or discount factors)? Are you anticipating the same result, differing perhaps only by rounding? It's an interesting bond math problem. First use 3.00% to get \$407,678 for the value of the swap. Here's the full equation, but it's easily obtained on a calculator.
 
 $$
-\begin{array}{l} \frac {\mathbb {6 0} , 0 0 0}{\left(1 + \frac {0 . 0 3 0 0}{4}\right) ^ {1}} + \frac {\mathbb {6 0} , 0 0 0}{\left(1 + \frac {0 . 0 3 0 0}{4}\right) ^ {2}} + \frac {\mathbb {6 0} , 0 0 0}{\left(1 + \frac {0 . 0 3 0 0}{4}\right) ^ {3}} + \frac {\mathbb {6 0} , 0 0 0}{\left(1 + \frac {0 . 0 3 0 0}{4}\right) ^ {4}} \\ + \frac {\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac {0 . 0 3 0 0}{4}\right) ^ {5}} + \frac {\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac {0 . 0 3 0 0}{4}\right) ^ {6}} + \frac {\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac {0 . 0 3 0 0}{4}\right) ^ {7}} = \mathbb {S} 4 0 7, 6 7 8 \\ \end{array}
+\begin{array}{l} \frac{\mathbb {6 0} , 0 0 0}{\left(1 + \frac{0 . 0 3 0 0}{4}\right)^{1}} + \frac{\mathbb {6 0} , 0 0 0}{\left(1 + \frac{0 . 0 3 0 0}{4}\right)^{2}} + \frac{\mathbb {6 0} , 0 0 0}{\left(1 + \frac{0 . 0 3 0 0}{4}\right)^{3}} + \frac{\mathbb {6 0} , 0 0 0}{\left(1 + \frac{0 . 0 3 0 0}{4}\right)^{4}} \\ + \frac{\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac{0 . 0 3 0 0}{4}\right)^{5}} + \frac{\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac{0 . 0 3 0 0}{4}\right)^{6}} + \frac{\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac{0 . 0 3 0 0}{4}\right)^{7}} = \mathbb {S} 4 0 7, 6 7 8 \\ \end{array}
 $$
 
 Now use the implied spot rates to get \(410,233. The discount factors would obtain the same value with any difference due only to rounding.
 
 $$
-\begin{array}{l} \frac {\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac {0 . 0 0 7 5 0 0}{4}\right) ^ {1}} + \frac {\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac {0 . 0 1 1 8 5 3}{4}\right) ^ {2}} + \frac {\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac {0 . 0 1 6 8 2 2}{4}\right) ^ {3}} + \frac {\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac {0 . 0 2 1 4 7 4}{4}\right) ^ {4}} \\ + \frac {\mathbb {6 0} , 0 0 0}{\left(1 + \frac {0 . 0 2 4 3 7 1}{4}\right) ^ {5}} + \frac {\mathbb {6 0} , 0 0 0}{\left(1 + \frac {0 . 0 2 7 3 9 0}{4}\right) ^ {6}} + \frac {\mathbb {6 0} , 0 0 0}{\left(1 + \frac {0 . 0 3 0 1 9 8}{4}\right) ^ {7}} = \mathbb {4} 1 0, 2 3 3 \\ \end{array}
+\begin{array}{l} \frac{\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac{0 . 0 0 7 5 0 0}{4}\right)^{1}} + \frac{\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac{0 . 0 1 1 8 5 3}{4}\right)^{2}} + \frac{\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac{0 . 0 1 6 8 2 2}{4}\right)^{3}} + \frac{\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac{0 . 0 2 1 4 7 4}{4}\right)^{4}} \\ + \frac{\mathbb {6 0} , 0 0 0}{\left(1 + \frac{0 . 0 2 4 3 7 1}{4}\right)^{5}} + \frac{\mathbb {6 0} , 0 0 0}{\left(1 + \frac{0 . 0 2 7 3 9 0}{4}\right)^{6}} + \frac{\mathbb {6 0} , 0 0 0}{\left(1 + \frac{0 . 0 3 0 1 9 8}{4}\right)^{7}} = \mathbb {4} 1 0, 2 3 3 \\ \end{array}
 $$
 
 Party A should recognize the interest rate swap on its balance sheet as a liability, as Party B books an asset, but for how much:  \$407,678 or\$ 410,233?
@@ -3513,7 +3513,7 @@ Party A should recognize the interest rate swap on its balance sheet as a liabil
 There is not a big difference between the two values given the \$60 million notional principal; the issue is theoretical correctness. Here's a hint: The new swap fixed rate of 3.00%, as an "average" of the forward curve, is also the 1.75-year par yield as described in Chapter 5. It's the solution for PMT in the next expression.
 
 $$
-\begin{array}{l} 1 0 0 = \frac {P M T / 4}{\left(1 + \frac {0 . 0 0 7 5 0 0}{4}\right) ^ {1}} + \frac {P M T / 4}{\left(1 + \frac {0 . 0 1 1 8 5 3}{4}\right) ^ {2}} + \frac {P M T / 4}{\left(1 + \frac {0 . 0 1 6 8 2 2}{4}\right) ^ {3}} + \frac {P M T / 4}{\left(1 + \frac {0 . 0 2 1 4 7 4}{4}\right) ^ {4}} \\ + \frac {P M T / 4}{\left(1 + \frac {0 . 0 2 4 3 7 1}{4}\right) ^ {5}} + \frac {P M T / 4}{\left(1 + \frac {0 . 0 2 7 3 9 0}{4}\right) ^ {6}} + \frac {P M T / 4 + 1 0 0}{\left(1 + \frac {0 . 0 3 0 1 9 8}{4}\right) ^ {7}}, \quad P M T = 3. 0 0 \\ \end{array}
+\begin{array}{l} 1 0 0 = \frac{P M T / 4}{\left(1 + \frac{0 . 0 0 7 5 0 0}{4}\right)^{1}} + \frac{P M T / 4}{\left(1 + \frac{0 . 0 1 1 8 5 3}{4}\right)^{2}} + \frac{P M T / 4}{\left(1 + \frac{0 . 0 1 6 8 2 2}{4}\right)^{3}} + \frac{P M T / 4}{\left(1 + \frac{0 . 0 2 1 4 7 4}{4}\right)^{4}} \\ + \frac{P M T / 4}{\left(1 + \frac{0 . 0 2 4 3 7 1}{4}\right)^{5}} + \frac{P M T / 4}{\left(1 + \frac{0 . 0 2 7 3 9 0}{4}\right)^{6}} + \frac{P M T / 4 + 1 0 0}{\left(1 + \frac{0 . 0 3 0 1 9 8}{4}\right)^{7}}, \quad P M T = 3. 0 0 \\ \end{array}
 $$
 
 Given this implied spot curve, a  $3.00\%$ , quarterly payment, 1.75-year bond is priced at par value. Its yield to maturity of  $3.00\%$  is the weighted average of the spot rates, with most of the weight on the last rate that has largest cash flow. But our swap valuation problem entails the present value of an annuity, not a fixed-rate bond that redeems principal at maturity. The theoretically correct value is \$410,233, obtained using the sequence of implied spot rates (or discount factors).
@@ -3531,7 +3531,7 @@ The duration of a plain vanilla interest rate swap is derived by recognizing tha
 Equation 6.13 from Chapter 6 provides a closed-form formula for the Macaulay duration (MacDur) of a standard fixed-rate bond. It is repeated here as equation 8.2.
 
 $$
-M a c D u r = \left[ \frac {1 + y}{y} - \frac {1 + y + [ N * (c - y) ]}{c * [ (1 + y) ^ {N} - 1 ] + y} \right] - t / T \tag {8.2}
+M a c D u r = \left[ \frac{1 + y}{y} - \frac{1 + y + [ N * (c - y) ]}{c * [ (1 + y)^{N} - 1 ] + y} \right] - t / T \tag {8.2}
 $$
 
 The current date is  $t$  days into the  $T$ -day period. The yield per period prevailing on date  $t$  is  $y$ ; the fixed coupon rate per period is  $c$ ; the number of periods to maturity as of the beginning of the period is  $N$ .
@@ -3545,11 +3545,11 @@ $$
 As shown in equations 8.4 and 8.5, the Macaulay duration of an interest rate swap (MacDurSWAP) subtracts one formula from the other because one bond is an implicit asset and the other a liability.
 
 $$
-\text {P a y - F i x e d S w a p : M a c D u r S W A P} = 1 - \left[ \frac {1 + y}{y} - \frac {1 + y + [ N * (c - y) ]}{c * [ (1 + y) ^ {N} - 1 ] + y} \right] \tag {8.4}
+\text{Pa y -F ix ed Sw ap :M ac Du rS WA P} = 1 - \left[ \frac{1 + y}{y} - \frac{1 + y + [ N * (c - y) ]}{c * [ (1 + y)^{N} - 1 ] + y} \right] \tag {8.4}
 $$
 
 $$
-\text {R e c e i v e - F i x e d S w a p :} M a c D u r S W A P = \left[ \frac {1 + y}{y} - \frac {1 + y + [ N * (c - y) ]}{c * [ (1 + y) ^ {N} - 1 ] + y} \right] - 1 \tag {8.5}
+\text{Re ce iv e -F ix ed Sw ap :} M a c D u r S W A P = \left[ \frac{1 + y}{y} - \frac{1 + y + [ N * (c - y) ]}{c * [ (1 + y)^{N} - 1 ] + y} \right] - 1 \tag {8.5}
 $$
 
 It's interesting that the  $t / T$  term drops out of the two expressions. Fixed-rate bonds and floaters have a "saw-tooth" pattern for the duration statistic during the period. The duration of each declines smoothly (assuming no change in market interest rates) and then jumps up on the payment date. Because a swap can be interpreted as a "long-short" combination of two bonds, the "saw-teeth" are smoothed out. That's not to say that the duration is constant—it still is inversely related to the yield (i.e., the fixed rate on the mark-to-market swap). Remember that  $y$  is the yield on the implicit fixed-rate bond that prevails on date  $t$  and likely will change during the period. The other terms in the equation,  $c$  and  $N$ , are constants.
@@ -3561,13 +3561,13 @@ Let's use these duration statistics to see how well they estimate the actual cha
 Pay-Fixed Swap:
 
 $$
-\begin{array}{l} \text {M a c D u r S W A P} = 1 - \left[ \frac {1 . 0 0 7 5}{0 . 0 0 7 5} - \frac {1 . 0 0 7 5 + [ 8 * (0 . 0 0 8 5 - 0 . 0 0 7 5) ]}{0 . 0 0 8 5 * [ (1 . 0 0 7 5) ^ {8} - 1 ] + 0 . 0 0 7 5} \right] \\ = 1 - 7. 7 6 9 = - 6. 7 6 9 \\ \end{array}
+\begin{array}{l} \text{Ma cD ur SW AP} = 1 - \left[ \frac{1 . 0 0 7 5}{0 . 0 0 7 5} - \frac{1 . 0 0 7 5 + [ 8 * (0 . 0 0 8 5 - 0 . 0 0 7 5) ]}{0 . 0 0 8 5 * [ (1 . 0 0 7 5)^{8} - 1 ] + 0 . 0 0 7 5} \right] \\ = 1 - 7. 7 6 9 = - 6. 7 6 9 \\ \end{array}
 $$
 
 Receive-Fixed Swap:
 
 $$
-\begin{array}{l} M a c D u r S W A P = \left[ \frac {1 . 0 0 7 5}{0 . 0 0 7 5} - \frac {1 . 0 0 7 5 + [ 8 * (0 . 0 0 8 5 - 0 . 0 0 7 5) ]}{0 . 0 0 8 5 * \left[ (1 . 0 0 7 5) ^ {8} - 1 \right] + 0 . 0 0 7 5} \right] - 1 \\ = 7. 7 6 9 - 1 = 6. 7 6 9 \\ \end{array}
+\begin{array}{l} M a c D u r S W A P = \left[ \frac{1 . 0 0 7 5}{0 . 0 0 7 5} - \frac{1 . 0 0 7 5 + [ 8 * (0 . 0 0 8 5 - 0 . 0 0 7 5) ]}{0 . 0 0 8 5 * \left[ (1 . 0 0 7 5)^{8} - 1 \right] + 0 . 0 0 7 5} \right] - 1 \\ = 7. 7 6 9 - 1 = 6. 7 6 9 \\ \end{array}
 $$
 
 It's no surprise that the pay-fixed swap has negative duration and the receive-fixed swap positive duration. Annualized, the Macaulay durations are  $-1.69225$  and  $+1.69225$  after dividing by four periods in the year. The annual modified durations are  $-1.67965$  and  $+1.67965$ , the Macaulay durations divided by 1.0075.
@@ -3619,7 +3619,7 @@ $$
 The present value of this annuity can be calculated using the sequence of bootstrapped implied spot rates shown in Table 8.1. The value of the swap is \(856,523.
 
 $$
-\begin{array}{l} \frac {\mathbb {S} 2 1 6 , 2 5 0}{\left(1 + \frac {0 . 0 0 5 0 0 0}{4}\right) ^ {1}} + \frac {\mathbb {S} 2 1 6 , 2 5 0}{\left(1 + \frac {0 . 0 1 0 4 0 7}{4}\right) ^ {2}} + \frac {\mathbb {S} 2 1 6 , 2 5 0}{\left(1 + \frac {0 . 0 1 5 8 2 9}{4}\right) ^ {3}} \\ + \frac {\mathbb {S} 2 1 6 , 2 5 0}{\left(1 + \frac {0 . 0 2 1 2 7 2}{4}\right) ^ {4}} = \mathbb {S} 8 5 6, 5 2 3 \\ \end{array}
+\begin{array}{l} \frac{\mathbb {S} 2 1 6 , 2 5 0}{\left(1 + \frac{0 . 0 0 5 0 0 0}{4}\right)^{1}} + \frac{\mathbb {S} 2 1 6 , 2 5 0}{\left(1 + \frac{0 . 0 1 0 4 0 7}{4}\right)^{2}} + \frac{\mathbb {S} 2 1 6 , 2 5 0}{\left(1 + \frac{0 . 0 1 5 8 2 9}{4}\right)^{3}} \\ + \frac{\mathbb {S} 2 1 6 , 2 5 0}{\left(1 + \frac{0 . 0 2 1 2 7 2}{4}\right)^{4}} = \mathbb {S} 8 5 6, 5 2 3 \\ \end{array}
 $$
 
 The bootstrapped discount factors give the same result.
@@ -3663,31 +3663,31 @@ While using default-risk-adjusted discount factors is appropriate in principle f
 Let's now assume that this 12-month,  $3.85\%$  fixed-rate, \$50 million notional principal, quarterly settlement interest rate swap is collateralized. Cash that is posted to meet the collateral obligation earns the OIS rate. To get the OIS discount factors, we need to assume some things about that market. Suppose the 3-month fixed rate is  $0.10\%$  on an OIS for a notional principal of \$50 million. At settlement, the payoff will be based on the difference between the fixed and floating legs on the swap. Assuming 90 days for the three months (i.e., for simplicity, the 30/360 day-count convention), the fixed leg is:
 
 $$
-\$ 50,000,000 * \frac {90}{360} * 0. 0 0 1 0 = \$ 1 2, 5 0 0
+\$ 50,000,000 * \frac{90}{360} * 0. 0 0 1 0 = \$ 1 2, 5 0 0
 $$
 
 The floating leg depends on the sequence of realized daily reference rates.
 
 $$
-\$ 50,000,000 * \left[ \left(1 + \frac {E F F _ {1}}{3 6 0}\right) * \left(1 + \frac {E F F _ {2}}{3 6 0}\right) * \dots * \left(1 + \frac {E F F _ {9 0}}{3 6 0}\right) - 1 \right]
+\$ 50,000,000 * \left[ \left(1 + \frac{E F F_{1}}{3 6 0}\right) * \left(1 + \frac{E F F_{2}}{3 6 0}\right) * \dots * \left(1 + \frac{E F F_{9 0}}{3 6 0}\right) - 1 \right]
 $$
 
 $EFF_{1}, EFF_{2}, \ldots, EFF_{90}$  are the reported daily observations for the effective fed funds rate. (Note that this neglects the odd manner in which the Friday fed funds rates is used for Saturday and Sunday—rather than being compounded for three days, simple interest is used.) Net settlement on the Is is the difference between the two legs. The 3-month Is fixed rate determines the  $0 \times 3$  discount factor.
 
 $$
-D F _ {0 \times 3} = \frac {1}{\left(1 + \frac {0 . 0 0 1 0 0}{3 6 0 / 9 0}\right)} = 0. 9 9 9 7 5 0
+D F_{0 \times 3} = \frac{1}{\left(1 + \frac{0 . 0 0 1 0 0}{3 6 0 / 9 0}\right)} = 0. 9 9 9 7 5 0
 $$
 
 Suppose that the fixed rate on a 6-month Is is  $0.62\%$ . Given 180 days for the time period and \$50 million in notional principal, the fixed and floating legs are:
 
 $$
-\begin{array}{l} \$ 50,000,000 * \frac {1 8 0}{3 6 0} * 0. 0 0 6 2 = \$ 1 5 5, 0 0 0 \\ \$ 50,000,000 * \left[ \left(1 + \frac {E F F _ {1}}{3 6 0}\right) * \left(1 + \frac {E F F _ {2}}{3 6 0}\right) * \dots * \left(1 + \frac {E F F _ {1 8 0}}{3 6 0}\right) - 1 \right] \\ \end{array}
+\begin{array}{l} \$ 50,000,000 * \frac{1 8 0}{3 6 0} * 0. 0 0 6 2 = \$ 1 5 5, 0 0 0 \\ \$ 50,000,000 * \left[ \left(1 + \frac{E F F_{1}}{3 6 0}\right) * \left(1 + \frac{E F F_{2}}{3 6 0}\right) * \dots * \left(1 + \frac{E F F_{1 8 0}}{3 6 0}\right) - 1 \right] \\ \end{array}
 $$
 
 The 6-month discount factor for the Is curve is:
 
 $$
-D F _ {0 \times 6} = \frac {1}{\left(1 + \frac {0 . 0 0 6 2}{3 6 0 / 1 8 0}\right)} = 0. 9 9 6 9 1 0
+D F_{0 \times 6} = \frac{1}{\left(1 + \frac{0 . 0 0 6 2}{3 6 0 / 1 8 0}\right)} = 0. 9 9 6 9 1 0
 $$
 
 In general, the divisor is "Year/Days," where Year is 360 or 365 days, and Days is the actual or assumed number of days in the time period.
@@ -3695,29 +3695,29 @@ In general, the divisor is "Year/Days," where Year is 360 or 365 days, and Days 
 Is fixed rates for other maturities out to one year typically are quoted in the same manner, that is, on a simple interest basis common for money market instruments. Suppose that the fixed rates for 9 and 12 months are  $1.10\%$  and  $1.64\%$  and that these apply to 270 and 360 days given the simplifying assumption of the 30/360 day-count. The  $0 \times 9$  and  $0 \times 12$  Is discount factors are:
 
 $$
-D F _ {0 \times 9} = \frac {1}{\left(1 + \frac {0 . 0 1 1 0}{3 6 0 / 2 7 0}\right)} = 0. 9 9 1 8 1 8
+D F_{0 \times 9} = \frac{1}{\left(1 + \frac{0 . 0 1 1 0}{3 6 0 / 2 7 0}\right)} = 0. 9 9 1 8 1 8
 $$
 
 $$
-D F _ {0 \times 1 2} = \frac {1}{\left(1 + \frac {0 . 0 1 6 4}{3 6 0 / 3 6 0}\right)} = 0. 9 8 3 8 6 5
+D F_{0 \times 1 2} = \frac{1}{\left(1 + \frac{0 . 0 1 6 4}{3 6 0 / 3 6 0}\right)} = 0. 9 8 3 8 6 5
 $$
 
 Is contracts maturing in more than one year usually are designed to have periodic settlements against the fixed rate, as is standard for LIBOR swaps. To stay with the simplistic design of these numerical examples, assume that the annual Is fixed rates for quarterly settlement are:  $1.98\%$  for 15 months,  $2.32\%$  for 18 months,  $2.63\%$  for 21 months, and  $2.90\%$  for 24 months. For these, the discount factors are obtained using a bootstrapping technique equivalent to that shown in Chapter 5. The difference in presentation here is that the discount factors are used directly rather than the implied spot rates.
 
 $$
-\begin{array}{l} 1 0 0 = (1. 9 8 / 4 * 0. 9 9 9 7 5 0) + (1. 9 8 / 4 * 0. 9 9 6 9 1 0) + (1. 9 8 / 4 * 0. 9 9 1 8 1 8) \\ + (1. 9 8 / 4 * 0. 9 8 3 8 6 5) + (1. 9 8 / 4 + 1 0 0) * D F _ {0 \times 1 5}, \quad D F _ {0 \times 1 5} = 0. 9 7 5 5 0 8 \\ \end{array}
+\begin{array}{l} 1 0 0 = (1. 9 8 / 4 * 0. 9 9 9 7 5 0) + (1. 9 8 / 4 * 0. 9 9 6 9 1 0) + (1. 9 8 / 4 * 0. 9 9 1 8 1 8) \\ + (1. 9 8 / 4 * 0. 9 8 3 8 6 5) + (1. 9 8 / 4 + 1 0 0) * D F_{0 \times 1 5}, \quad D F_{0 \times 1 5} = 0. 9 7 5 5 0 8 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} 1 0 0 = (2. 3 2 / 4 * 0. 9 9 9 7 5 0) + (2. 3 2 / 4 * 0. 9 9 6 9 1 0) + (2. 3 2 / 4 * 0. 9 9 1 8 1 8) \\ + (2. 3 2 / 4 * 0. 9 8 3 8 6 5) + (2. 3 2 / 4 * 0. 9 7 5 5 0 8) + (2. 3 2 / 4 + 1 0 0) * D F _ {0 \times 1 8}, \\ D F _ {0 \times 1 8} = 0. 9 6 5 7 0 1 \\ \end{array}
+\begin{array}{l} 1 0 0 = (2. 3 2 / 4 * 0. 9 9 9 7 5 0) + (2. 3 2 / 4 * 0. 9 9 6 9 1 0) + (2. 3 2 / 4 * 0. 9 9 1 8 1 8) \\ + (2. 3 2 / 4 * 0. 9 8 3 8 6 5) + (2. 3 2 / 4 * 0. 9 7 5 5 0 8) + (2. 3 2 / 4 + 1 0 0) * D F_{0 \times 1 8}, \\ D F_{0 \times 1 8} = 0. 9 6 5 7 0 1 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} 1 0 0 = (2. 6 3 / 4 * 0. 9 9 9 7 5 0) + (2. 6 3 / 4 * 0. 9 9 6 9 1 0) + (2. 6 3 / 4 * 0. 9 9 1 8 1 8) \\ + (2. 6 3 / 4 * 0. 9 8 3 8 6 5) + (2. 6 3 / 4 * 0. 9 7 5 5 0 8) + (2. 6 3 / 4 * 0. 9 6 5 7 0 1) \\ + (2. 6 3 / 4 + 1 0 0) * D F _ {0 \times 2 1}, \quad D F _ {0 \times 2 1} = 0. 9 5 4 8 4 0 \\ \end{array}
+\begin{array}{l} 1 0 0 = (2. 6 3 / 4 * 0. 9 9 9 7 5 0) + (2. 6 3 / 4 * 0. 9 9 6 9 1 0) + (2. 6 3 / 4 * 0. 9 9 1 8 1 8) \\ + (2. 6 3 / 4 * 0. 9 8 3 8 6 5) + (2. 6 3 / 4 * 0. 9 7 5 5 0 8) + (2. 6 3 / 4 * 0. 9 6 5 7 0 1) \\ + (2. 6 3 / 4 + 1 0 0) * D F_{0 \times 2 1}, \quad D F_{0 \times 2 1} = 0. 9 5 4 8 4 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} 1 0 0 = (2. 9 0 / 4 * 0. 9 9 9 7 5 0) + (2. 9 0 / 4 * 0. 9 9 6 9 1 0) + (2. 9 0 / 4 * 0. 9 9 1 8 1 8) \\ + (2. 9 0 / 4 * 0. 9 8 3 8 6 5) + (2. 9 0 / 4 * 0. 9 7 5 5 0 8) + (2. 9 0 / 4 * 0. 9 6 5 7 0 1) \\ + (2. 9 0 / 4 * 0. 9 5 4 8 4 0) + (2. 9 0 / 4 + 1 0 0) * D F _ {0 \times 2 4}, \quad D F _ {0 \times 2 4} = 0. 9 4 3 3 6 5 \\ \end{array}
+\begin{array}{l} 1 0 0 = (2. 9 0 / 4 * 0. 9 9 9 7 5 0) + (2. 9 0 / 4 * 0. 9 9 6 9 1 0) + (2. 9 0 / 4 * 0. 9 9 1 8 1 8) \\ + (2. 9 0 / 4 * 0. 9 8 3 8 6 5) + (2. 9 0 / 4 * 0. 9 7 5 5 0 8) + (2. 9 0 / 4 * 0. 9 6 5 7 0 1) \\ + (2. 9 0 / 4 * 0. 9 5 4 8 4 0) + (2. 9 0 / 4 + 1 0 0) * D F_{0 \times 2 4}, \quad D F_{0 \times 2 4} = 0. 9 4 3 3 6 5 \\ \end{array}
 $$
 
 Consider again the valuation of the seasoned LIBOR swap from the previous section. It has a fixed rate of \(3.85\%\), a notional principal of \\(50 million, and 12 months remaining until maturity. Using the LIBOR swap discount factors, the market value is shown above to be \\)856,523. Now, using the slightly higher Is discount factors, the market value of the swap goes up to \\(859,019.
@@ -3735,7 +3735,7 @@ A useful application for the Is discount factors is to calculate the implied LIB
 Given that 3-month LIBOR is assumed to be  $0.50\%$ , the  $3 \times 6$  implied LIBOR forward is calculated using the  $0 \times 3$  and  $0 \times 6$  Is discount factors and the 6-month swap fixed rate.
 
 $$
-\begin{array}{l} (0.50 \% * 100 * 0.25 * 0.999750) + \left(Rate _ {3 \times 6} * 100 * 0.25 * 0.996910\right) \\ = (1.04 \% * 100 * 0.25 * 0.999750) + (1.04 \% * 100 * 0.25 * 0.996910), \\ Rate_{3\times 6} = 1.5815\% \\ \end{array}
+\begin{array}{l} (0.50 \% * 100 * 0.25 * 0.999750) + \left(Rate_{3 \times 6} * 100 * 0.25 * 0.996910\right) \\ = (1.04 \% * 100 * 0.25 * 0.999750) + (1.04 \% * 100 * 0.25 * 0.996910), \\ Rate_{3\times 6} = 1.5815\% \\ \end{array}
 $$
 
 This equation follows the principle of swap pricing—the fixed rate, here  $1.04\%$  for the 6-month maturity, is the "average" of the forward curve in that the present values are the same after the rates are monetized by multiplying by the notional principal (100) and the day-count factor (0.25). Previously, we used the relevant segment of the forward curve to get the swap fixed rate. Now, we use the known swap fixed rate to solve for the incremental forward rate.
@@ -3743,7 +3743,7 @@ This equation follows the principle of swap pricing—the fixed rate, here  $1.0
 The  $6 \times 9$  implied forward rate further illustrates the property that Is discounting lowers the implied LIBOR forward curve when the LIBOR-OIS spread is positive and the forward curve is upwardly sloped.
 
 $$
-\begin{array}{l} (0.50 \% * 100 * 0.25 * 0.999750) + (1.5815 \% * 100 * 0.25 * 0.996910) \\ + \left(R a t e _ {6 \times 9} * 100 * 0.25 * 0.991818\right) = (1.58 \% * 100 * 0.25 * 0.999750) \\ + (1.58 \% * 100 * 0.25 * 0.996910) + (1.58 \% * 100 * 0.25 * 0.991818), \\ \end{array}
+\begin{array}{l} (0.50 \% * 100 * 0.25 * 0.999750) + (1.5815 \% * 100 * 0.25 * 0.996910) \\ + \left(R a t e_{6 \times 9} * 100 * 0.25 * 0.991818\right) = (1.58 \% * 100 * 0.25 * 0.999750) \\ + (1.58 \% * 100 * 0.25 * 0.996910) + (1.58 \% * 100 * 0.25 * 0.991818), \\ \end{array}
 $$
 
 $$
@@ -3755,7 +3755,7 @@ In Table 8.1, the  $6 \times 9$  implied forward rate for 3-month LIBOR is shown
 The difference in the implied forward rates becomes a bit larger moving out along the curve. These are the remaining implied rates for LIBOR using the Is discount factors. Notice that in each equation, the incremental forward rate is the unknown variable. The known inputs are the forward rates up to that time period and the swap fixed rate. You probably can envision the spreadsheet that would do these calculations for you.
 
 $$
-\begin{array}{l} (0.50 \% * 100 * 0.25 * 0.999750) + (1.5815 \% * 100 * 0.25 * 0.996910) \\ + (2.6671 \% * 100 * 0.25 * 0.991818) + \left(R a t e _ {9 \times 12} * 100 * 0.25 * 0.983865\right) \\ = (2.12 \% * 100 * 0.25 * 0.999750) + (2.12 \% * 100 * 0.25 * 0.996910) \\ + (2.12 \% * 100 * 0.25 * 0.991818) + (2.12 \% * 100 * 0.25 * 0.983865), \\ \end{array}
+\begin{array}{l} (0.50 \% * 100 * 0.25 * 0.999750) + (1.5815 \% * 100 * 0.25 * 0.996910) \\ + (2.6671 \% * 100 * 0.25 * 0.991818) + \left(R a t e_{9 \times 12} * 100 * 0.25 * 0.983865\right) \\ = (2.12 \% * 100 * 0.25 * 0.999750) + (2.12 \% * 100 * 0.25 * 0.996910) \\ + (2.12 \% * 100 * 0.25 * 0.991818) + (2.12 \% * 100 * 0.25 * 0.983865), \\ \end{array}
 $$
 
 $$
@@ -3763,7 +3763,7 @@ $$
 $$
 
 $$
-\begin{array}{l} (0.50 \% * 100 * 0.25 * 0.999750) + (1.5815 \% * 100 * 0.25 * 0.996910) \\ + (2.6671\% * 100 * 0.25 * 0.991818) + (3.7602\% * 100 * 0.25 * 0.983865) \\ + \left(R a t e _ {1 2 x 1 5} * 1 0 0 * 0. 2 5 * 0. 9 7 5 5 0 8\right) = (2. 4 4 \% * 1 0 0 * 0. 2 5 * 0. 9 9 9 7 5 0) \\ + (2.44 \% * 100 * 0.25 * 0.996910) + (2.44 \% * 100 * 0.25 * 0.991818) \\ + (2.44 \% * 100 * 0.25 * 0.983865) + (2.44 \% * 100 * 0.25 * 0.975508), \\ \end{array}
+\begin{array}{l} (0.50 \% * 100 * 0.25 * 0.999750) + (1.5815 \% * 100 * 0.25 * 0.996910) \\ + (2.6671\% * 100 * 0.25 * 0.991818) + (3.7602\% * 100 * 0.25 * 0.983865) \\ + \left(R a t e_{1 2 x 1 5} * 1 0 0 * 0. 2 5 * 0. 9 7 5 5 0 8\right) = (2. 4 4 \% * 1 0 0 * 0. 2 5 * 0. 9 9 9 7 5 0) \\ + (2.44 \% * 100 * 0.25 * 0.996910) + (2.44 \% * 100 * 0.25 * 0.991818) \\ + (2.44 \% * 100 * 0.25 * 0.983865) + (2.44 \% * 100 * 0.25 * 0.975508), \\ \end{array}
 $$
 
 $$
@@ -3771,7 +3771,7 @@ $$
 $$
 
 $$
-\begin{array}{l} (0.50 \% * 100 * 0.25 * 0.999750) + (1.5815 \% * 100 * 0.25 * 0.996910) \\ + (2.6671\% * 100 * 0.25 * 0.991818) + (3.7602\% * 100 * 0.25 * 0.983865) \\ + (3.7431\% * 100 * 0.25 * 0.975508) + \left(Rate _ {15x18} * 100 * 0.25 * 0.965701\right) \\ = (2.76 \% * 100 * 0.25 * 0.999750) + (2.76 \% * 100 * 0.25 * 0.996910) \\ + (2.76 \% * 100 * 0.25 * 0.991818) + (2.76 \% * 100 * 0.25 * 0.983865) \\ + (2.76 \% * 100 * 0.25 * 0.975508) + (2.76 \% * 100 * 0.25 * 0.965701), \\ \end{array}
+\begin{array}{l} (0.50 \% * 100 * 0.25 * 0.999750) + (1.5815 \% * 100 * 0.25 * 0.996910) \\ + (2.6671\% * 100 * 0.25 * 0.991818) + (3.7602\% * 100 * 0.25 * 0.983865) \\ + (3.7431\% * 100 * 0.25 * 0.975508) + \left(Rate_{15x18} * 100 * 0.25 * 0.965701\right) \\ = (2.76 \% * 100 * 0.25 * 0.999750) + (2.76 \% * 100 * 0.25 * 0.996910) \\ + (2.76 \% * 100 * 0.25 * 0.991818) + (2.76 \% * 100 * 0.25 * 0.983865) \\ + (2.76 \% * 100 * 0.25 * 0.975508) + (2.76 \% * 100 * 0.25 * 0.965701), \\ \end{array}
 $$
 
 $$
@@ -3779,7 +3779,7 @@ Rate_{15\times 18} = 4.3995\%
 $$
 
 $$
-\begin{array}{l} (0.50 \% * 100 * 0.25 * 0.999750) + (1.5815 \% * 100 * 0.25 * 0.996910) \\ + (2.6671\% * 100 * 0.25 * 0.991818) + (3.7602\% * 100 * 0.25 * 0.983865) \\ + (3.7431\% * 100 * 0.25 * 0.975508) + (4.399\% * 100 * 0.25 * 0.965701) \\ + \left(R a t e _ {1 8 \times 2 1} * 1 0 0 * 0. 2 5 * 0. 9 5 4 8 4 0\right) = (3. 0 8 \% * 1 0 0 * 0. 2 5 * 0. 9 9 9 7 5 0) \\ + (3.08 \% * 100 * 0.25 * 0.996910) + (3.08 \% * 100 * 0.25 * 0.991818) \\ + (3.08 \% * 100 * 0.25 * 0.983865) + (3.08 \% * 100 * 0.25 * 0.975508) \\ + (3.08 \% * 100 * 0.25 * 0.965701) + (3.08 \% * 100 * 0.25 * 0.954840), \\ \end{array}
+\begin{array}{l} (0.50 \% * 100 * 0.25 * 0.999750) + (1.5815 \% * 100 * 0.25 * 0.996910) \\ + (2.6671\% * 100 * 0.25 * 0.991818) + (3.7602\% * 100 * 0.25 * 0.983865) \\ + (3.7431\% * 100 * 0.25 * 0.975508) + (4.399\% * 100 * 0.25 * 0.965701) \\ + \left(R a t e_{1 8 \times 2 1} * 1 0 0 * 0. 2 5 * 0. 9 5 4 8 4 0\right) = (3. 0 8 \% * 1 0 0 * 0. 2 5 * 0. 9 9 9 7 5 0) \\ + (3.08 \% * 100 * 0.25 * 0.996910) + (3.08 \% * 100 * 0.25 * 0.991818) \\ + (3.08 \% * 100 * 0.25 * 0.983865) + (3.08 \% * 100 * 0.25 * 0.975508) \\ + (3.08 \% * 100 * 0.25 * 0.965701) + (3.08 \% * 100 * 0.25 * 0.954840), \\ \end{array}
 $$
 
 $$
@@ -3787,7 +3787,7 @@ Rate_{18\times 21} = 5.0618\%
 $$
 
 $$
-\begin{array}{l} (0.50 \% * 100 * 0.25 * 0.999750) + (1.5815 \% * 100 * 0.25 * 0.996910) \\ + (2.6671\% * 100 * 0.25 * 0.991818) + (3.7602\% * 100 * 0.25 * 0.983865) \\ + (3.7431\% * 100 * 0.25 * 0.975508) + (4.3995\% * 100 * 0.25 * 0.965701) \\ + (5.0618\% * 100 * 0.25 * 0.954840) + \left(Rate _ {21 \times 24} * 100 * 0.25 * 0.943365\right) \\ = (3.40 \% * 100 * 0.25 * 0.999750) + (3.40 \% * 100 * 0.25 * 0.996910) \\ + (3.40 \% * 100 * 0.25 * 0.991818) + (3.40 \% * 100 * 0.25 * 0.983865) \\ + (3.40 \% * 100 * 0.25 * 0.975508) + (3.40 \% * 100 * 0.25 * 0.965701) \\ + (3.40 \% * 100 * 0.25 * 0.954840) + (3.40 \% * 100 * 0.25 * 0.943365), \\ \end{array}
+\begin{array}{l} (0.50 \% * 100 * 0.25 * 0.999750) + (1.5815 \% * 100 * 0.25 * 0.996910) \\ + (2.6671\% * 100 * 0.25 * 0.991818) + (3.7602\% * 100 * 0.25 * 0.983865) \\ + (3.7431\% * 100 * 0.25 * 0.975508) + (4.3995\% * 100 * 0.25 * 0.965701) \\ + (5.0618\% * 100 * 0.25 * 0.954840) + \left(Rate_{21 \times 24} * 100 * 0.25 * 0.943365\right) \\ = (3.40 \% * 100 * 0.25 * 0.999750) + (3.40 \% * 100 * 0.25 * 0.996910) \\ + (3.40 \% * 100 * 0.25 * 0.991818) + (3.40 \% * 100 * 0.25 * 0.983865) \\ + (3.40 \% * 100 * 0.25 * 0.975508) + (3.40 \% * 100 * 0.25 * 0.965701) \\ + (3.40 \% * 100 * 0.25 * 0.954840) + (3.40 \% * 100 * 0.25 * 0.943365), \\ \end{array}
 $$
 
 $$
@@ -3849,7 +3849,7 @@ The future cash flows are designated  $CF_1, CF_2, \ldots, CF_N$ . The longest-m
 The portfolio yield is the internal rate of return on the cash flows:  $MV$ ,  $CF_{1}$ ,  $CF_{2}$ , …,  $CF_{N}$ . It's the solution for YieldPORT in equation 9.1.
 
 $$
-M V = \frac {C F _ {1}}{(1 + Y i e l d P O R T) ^ {1}} + \frac {C F _ {2}}{(1 + Y i e l d P O R T) ^ {2}} + \dots + \frac {C F _ {N}}{(1 + Y i e l d P O R T) ^ {N}} \tag {9.1}
+M V = \frac{C F_{1}}{(1 + Y i e l d P O R T)^{1}} + \frac{C F_{2}}{(1 + Y i e l d P O R T)^{2}} + \dots + \frac{C F_{N}}{(1 + Y i e l d P O R T)^{N}} \tag {9.1}
 $$
 
 This is the same as solving for the yield to maturity on an ordinary fixed-income bond, as in Chapter 3, where  $CF_1$  to  $CF_{N-1}$  are the coupon payments (PMT) and  $CF_N$  is the final payment including the principal  $(PMT + FV)$ . Moreover, I can make a similar statement about the portfolio yield as I made about a yield to maturity—it does need to assume a flat yield curve. That is, the underlying Treasury yield curve corresponding to the many bonds in the portfolio can be upwardly sloped, downwardly sloped, or perfectly flat. YieldPORT, which also is called the cash flow yield, is in a sense an "average" of the various yields to maturity, which are in turn "averages" of the implied spot rates.
@@ -3857,7 +3857,7 @@ This is the same as solving for the yield to maturity on an ordinary fixed-incom
 Given the portfolio yield and the schedule of cash flows, we calculate the Macaulay duration of the portfolio as the weighted-average time to the receipt of cash flow, as in equation 6.14 in Chapter 6. This statistic is denoted MacDurPORT.
 
 $$
-\begin{array}{l} \left(1 * \frac {C F _ {1}}{(1 + Y i e l d P O R T) ^ {1}}\right) + \left(2 * \frac {C F _ {2}}{(1 + Y i e l d P O R T) ^ {2}}\right) \\ M a c D u r P O R T = \frac {+ \cdots + \left(N * \frac {C F _ {N}}{(1 + Y i e l d P O R T) ^ {N}}\right)}{\frac {C F _ {1}}{(1 + Y i e l d P O R T) ^ {1}} + \frac {C F _ {2}}{(1 + Y i e l d P O R T) ^ {2}}} \tag {9.2} \\ + \dots + \frac {C F _ {N}}{(1 + Y i e l d P O R T) ^ {N}} \\ \end{array}
+\begin{array}{l} \left(1 * \frac{C F_{1}}{(1 + Y i e l d P O R T)^{1}}\right) + \left(2 * \frac{C F_{2}}{(1 + Y i e l d P O R T)^{2}}\right) \\ M a c D u r P O R T = \frac{+ \cdots + \left(N * \frac{C F_{N}}{(1 + Y i e l d P O R T)^{N}}\right)}{\frac{C F_{1}}{(1 + Y i e l d P O R T)^{1}} + \frac{C F_{2}}{(1 + Y i e l d P O R T)^{2}}} \tag {9.2} \\ + \dots + \frac{C F_{N}}{(1 + Y i e l d P O R T)^{N}} \\ \end{array}
 $$
 
 The denominator in equation 9.2 is the market value of the portfolio,  $MV$ . In the numerator, the times to the receipt of cash flow (i.e., 1 out to  $N$  periods) are each multiplied by the share of the portfolio market value corresponding to that period.
@@ -3865,13 +3865,13 @@ The denominator in equation 9.2 is the market value of the portfolio,  $MV$ . In
 The equation for portfolio Macaulay duration can be written more compactly using the summation sign.
 
 $$
-\operatorname {M a c D u r P O R T} = \sum_ {n = 1} ^ {N} n * \left(\frac {\frac {C F _ {n}}{(1 + Y i e l d P O R T) ^ {n}}}{M V}\right) \tag {9.3}
+\operatorname{Ma cD ur PO RT} = \sum_{n = 1}^{N} n * \left(\frac{\frac{C F_{n}}{(1 + Y i e l d P O R T)^{n}}}{M V}\right) \tag {9.3}
 $$
 
 Here we see that Macaulay duration is a weighted average of the times to receipt of cash flow. Another statistic for the portfolio, one that we have not seen yet, is the dispersion of the cash flow. It is denoted DispPORT and is calculated in equation 9.4:
 
 $$
-D i s p P O R T = \sum_ {n = 1} ^ {N} (n - M a c D u r P O R T) ^ {2} * \left(\frac {\frac {C F _ {n}}{(1 + Y i e l d P O R T) ^ {n}}}{M V}\right) \tag {9.4}
+D i s p P O R T = \sum_{n = 1}^{N} (n - M a c D u r P O R T)^{2} * \left(\frac{\frac{C F_{n}}{(1 + Y i e l d P O R T)^{n}}}{M V}\right) \tag {9.4}
 $$
 
 Portfolio dispersion is the variance of the times to the receipt of cash flow; like Macaulay duration, it uses the shares of market value for each period as the weights. The same formula can be used to calculate the cash flow dispersion for an individual bond.
@@ -3879,7 +3879,7 @@ Portfolio dispersion is the variance of the times to the receipt of cash flow; l
 A change in the market value of the portfolio (dMV) resulting from a change in the portfolio yield (dYieldPORT) is estimated in the same manner as in Chapter 6 for individual bonds.
 
 $$
-d M V \approx - \left(\frac {\text {M a c D u r P O R T}}{1 + \text {Y i e l d P O R T}}\right) * M V * d Y i e l d P O R T \tag {9.5}
+d M V \approx - \left(\frac{\text{Ma cD ur PO RT}}{1 + \text{Yi el dP OR T}}\right) * M V * d Y i e l d P O R T \tag {9.5}
 $$
 
 The term in parenthesis is the modified duration of the portfolio (ModDurPORT). It is important to note once again that using equation 9.5 does not inherently assume a parallel shift in the yield curve. Just as many shapes to the underlying yield curve can produce the same portfolio yield, many shifts and twists to the yield curve can produce that same change in the portfolio yield. It's just an estimation that happens to be better if the underlying curve is flat and its shift is parallel. Moreover, the estimation can be improved by adding the convexity adjustment.
@@ -3887,13 +3887,13 @@ The term in parenthesis is the modified duration of the portfolio (ModDurPORT). 
 The convexity statistic for the portfolio (ConvPORT) is derived in the Technical Appendix.
 
 $$
-\operatorname {C o n v P O R T} = \frac {1}{(1 + Y i e l d P O R T) ^ {2}} * \sum_ {n = 1} ^ {N} * (n + 1) * \left(\frac {\frac {C F _ {n}}{(1 + Y i e l d P O R T) ^ {n}}}{M V}\right) \tag {9.6}
+\operatorname{Co nv PO RT} = \frac{1}{(1 + Y i e l d P O R T)^{2}} * \sum_{n = 1}^{N} * (n + 1) * \left(\frac{\frac{C F_{n}}{(1 + Y i e l d P O R T)^{n}}}{M V}\right) \tag {9.6}
 $$
 
 This convexity statistic also can be expressed as a function of the portfolio cash flow yield, Macaulay duration, and dispersion.
 
 $$
-\operatorname {C o n v P O R T} = \frac {\left(\text {M a c D u r P O R T}\right) ^ {2} + \text {M a c D u r P O R T} + \text {D i s p P O R T}}{\left(1 + \text {Y i e l d P O R T}\right) ^ {2}} \tag {9.7}
+\operatorname{Co nv PO RT} = \frac{\left(\text{Ma cD ur PO RT}\right)^{2} + \text{Ma cD ur PO RT} + \text{Di sp PO RT}}{\left(1 + \text{Yi el dP OR T}\right)^{2}} \tag {9.7}
 $$
 
 This formula is also derived in the Technical Appendix. It is a general relation, and it holds between coupon payment dates and regardless of the shape of the underlying yield curve. It's a very neat result that might surprise you if you've never seen it before. We see in equation 9.7 that for a given Macaulay duration of the portfolio (or individual bond), convexity is directly linked to the dispersion of cash flow—the greater the dispersion, the higher the convexity. The more concentrated are the cash flows, the lower the dispersion and the convexity.
@@ -3913,15 +3913,15 @@ Imagine solving for YieldPORT back in the olden days before computers. Picture a
 In practice, summary statistics for a fixed-income portfolio typically are calculated as weighted averages of those for the individual bonds. As we've seen, these statistics are reported on various Bloomberg pages and become the inputs to the averaging process. Suppose that the portfolio is composed of  $J$  bonds, each having a market value (including accrued interest) denoted  $MV_{j}$ , and interest rate sensitivities denoted  $MacDur_{j}, ModDur_{j}$ , and Convexity  $j$ . The market-value-weighted averages for Macaulay duration, modified duration, and convexity are shown in equations 9.8 to 9.10.
 
 $$
-A v g M a c D u r = \sum_ {j = 1} ^ {J} M a c D u r _ {j} * \left(\frac {M V _ {j}}{M V}\right) \tag {9.8}
+A v g M a c D u r = \sum_{j = 1}^{J} M a c D u r_{j} * \left(\frac{M V_{j}}{M V}\right) \tag {9.8}
 $$
 
 $$
-\operatorname {A v g M o d D u r} = \sum_ {j = 1} ^ {J} \operatorname {M o d D u r} _ {j} * \left(\frac {M V _ {j}}{M V}\right) \tag {9.9}
+\operatorname{Av gM od Du r} = \sum_{j = 1}^{J} \operatorname{Mo dD ur}_{j} * \left(\frac{M V_{j}}{M V}\right) \tag {9.9}
 $$
 
 $$
-\operatorname {A v g C o n v e x i t y} = \sum_ {j = 1} ^ {J} \operatorname {C o n v e x i t y} _ {j} * \left(\frac {M V _ {j}}{M V}\right) \tag {9.10}
+\operatorname{Av gC on ve xi ty} = \sum_{j = 1}^{J} \operatorname{Co nv ex it y}_{j} * \left(\frac{M V_{j}}{M V}\right) \tag {9.10}
 $$
 
 How well do these estimate the "true" portfolio statistics, MacDurPORT, ModDurPORT, and ConvPORT? The answer depends on the shape of the yield curve. If ever the curve is perfectly flat, the estimations are perfect. Usually the weighted averages are lower because of the normal, upward slope to the yield curve: AvgMacDur  $<$  MacDurPORT, AvgModDur  $<$  ModDurPORT, and AvgConvexity  $<$  ConvPORT. The discrepancy is smaller when rates overall are lower, the yield curve is flatter, and when more of the market-value weights are farther out the curve where intra-portfolio yield differences usually are smaller. In the occasional circumstance of an inverted yield curve, the weighted averages are higher than the "theoretically correct" portfolio statistics.
@@ -3945,7 +3945,7 @@ The key point is that the curve durations and convexities are calculated using a
 Calculating the average yield for the portfolio is another interesting problem. An obvious choice for the summary statistic is the market-value-weighted average of the individual yields. Denote these  $Yield_{j}$  for each of the  $J$  bonds and the portfolio average  $AvgYieldMV$ .
 
 $$
-A v g Y i e l d M V = \sum_ {j = 1} ^ {J} Y i e l d _ {j} * \left(\frac {M V _ {j}}{M V}\right) \tag {9.11}
+A v g Y i e l d M V = \sum_{j = 1}^{J} Y i e l d_{j} * \left(\frac{M V_{j}}{M V}\right) \tag {9.11}
 $$
 
 For callable bonds, the option-adjusted yield can be used. This is the yield to maturity after increasing the price for the value of the embedded call option. That depends on the assumed volatility of interest rates and requires an option-pricing model.
@@ -3955,7 +3955,7 @@ As with average duration and convexity, this market-value-weighted average yield
 You might be wondering why I put the "MV" in  $AvgYieldMV$ . It's because there is another way of averaging the individual yields to maturity. Instead of using market-value weights, we can use risk-based weights, in particular, the basis point value. Define the basis point value for each security  $(BPV_{j})$  to be the modified duration times the market value, times one basis point:  $BPV_{j} = ModDur_{j} * MV_{j} * 0.0001\$ . The portfolio basis point value  $(BPV)$  is the sum of the  $BPV_{j}$  over the  $J$  securities in the portfolio. The  $BPV$ -weighted-average yield,  $AvgYieldBPV$ , is shown in equation 9.12.
 
 $$
-A v g Y i e l d B P V = \sum_ {j = 1} ^ {J} Y i e l d _ {j} * \left(\frac {B P V _ {j}}{B P V}\right) \tag {9.12}
+A v g Y i e l d B P V = \sum_{j = 1}^{J} Y i e l d_{j} * \left(\frac{B P V_{j}}{B P V}\right) \tag {9.12}
 $$
 
 Sometimes this is expressed as the weighted average of money durations (or, as commonly said, dollar durations). Recall from Chapter 6 that money duration is modified duration times market value. The weights are the same, just scaled differently.
@@ -3969,7 +3969,7 @@ Suppose that you do the capital budgeting exercise. Assume that debt is the prim
 We can combine the various weighted averages to estimate the change in market value resulting from some instantaneous yield "event," described summarily by a change in the average yield (dAvgYield) for the portfolio.
 
 $$
-\begin{array}{l} d M V \approx - (A v g M o d D u r * M V * d A v g Y i e l d) \\ + \left[ 1 / 2 * \text {A v g C o n v e x i t y} * M V * (d \text {A v g Y i e l d}) ^ {2} \right] \tag {9.13} \\ \end{array}
+\begin{array}{l} d M V \approx - (A v g M o d D u r * M V * d A v g Y i e l d) \\ + \left[ 1 / 2 * \text{Av gC on ve xi ty} * M V * (d \text{Av gY ie ld})^{2} \right] \tag {9.13} \\ \end{array}
 $$
 
 However, we know that there is more than one way to formulate this expression. We can use the yield durations and convexities or the curve durations and convexities for AvgModDur and AvgConvexity. We can use the change in the MV-weighted or the BPV-weighted average yield for dAvgYield.
@@ -4011,13 +4011,13 @@ TABLE 9.1 Individual Treasury Statistics for Settlement on 2/15/14
 \$100 million (par value) position in the \(3.125\%$  long-term Treasury bond in isolation, for instance, resulting from a 25-basis-point jump in its yield to maturity. The modified yield duration and convexity are the correct inputs to the estimation. The estimated loss is \)3.994 million.
 
 $$
-\begin{array}{l} d M V \approx - (1 8. 3 4 0 * \$ 8 9, 8 5 9, 3 7 5 * 0. 0 0 2 5) \\ + [ 1 / 2 * 4 4 8. 8 * \\( 8 9, 8 5 9, 3 7 5 * (0. 0 0 2 5) ^ {2} ] = - \\) 3, 9 9 4, 0 2 5 \\ \end{array}
+\begin{array}{l} d M V \approx - (1 8. 3 4 0 * \$ 8 9, 8 5 9, 3 7 5 * 0. 0 0 2 5) \\ + [ 1 / 2 * 4 4 8. 8 * \\( 8 9, 8 5 9, 3 7 5 * (0. 0 0 2 5)^{2} ] = - \\) 3, 9 9 4, 0 2 5 \\ \end{array}
 $$
 
 Now consider a  \$100 million (par value) P-STRIPS holding. If its yield goes up by 25 basis points, the estimated loss is\$ 2.224 million.
 
 $$
-\begin{array}{l} d M V \approx - (2 8. 4 4 3 * \\) 3 2, 4 4 4, 9 9 9 * 0. 0 0 2 5) \\ + [ 1 / 2 * 8 2 2. 9 * \\( 3 2, 4 4 4, 9 9 9 * (0. 0 0 2 5) ^ {2} ] = - \\) 2, 2 2 3, 6 4 8 \\ \end{array}
+\begin{array}{l} d M V \approx - (2 8. 4 4 3 * \\) 3 2, 4 4 4, 9 9 9 * 0. 0 0 2 5) \\ + [ 1 / 2 * 8 2 2. 9 * \\( 3 2, 4 4 4, 9 9 9 * (0. 0 0 2 5)^{2} ] = - \\) 2, 2 2 3, 6 4 8 \\ \end{array}
 $$
 
 On a percentage basis, the loss on the P-STRIPS is much higher than on the coupon bond because of its much lower price as a percentage of par value.
@@ -4027,7 +4027,7 @@ Let's turn this into a hedging problem. Suppose you own the \(100 million par va
 way to get this amount is to use the ratio of the PV01s (or BPVs). A formula for the hedge ratio between two bonds is written in equation 9.14.
 
 $$
-\text {H e d g e R a t i o} = \frac {\text {P V 0 1 o f t h e E x p o s e d P o s i t i o n}}{\text {P V 0 1 o f t h e H e d g e}} \tag {9.14}
+\text{He dg eR at io} = \frac{\text{PV 01 of th eE xp os ed Po si ti on}}{\text{PV 01 of th eH ed ge}} \tag {9.14}
 $$
 
 * Par Value of the Exposed Position
@@ -4035,7 +4035,7 @@ $$
 From Table 9.1, the PV01 for the P-STRIPS is 0.09228 and 0.16480 for the T-Bond. Entering those in 9.14 for a par value of  \$100 million gives the result that you would need to short sell about\$ 56 million in par value of the T-bond to hedge the exposure on the P-STRIPS.
 
 $$
-\text {H e d g e R a t i o} = \frac {0 . 0 9 2 2 8}{0 . 1 6 4 8 0} * \\ 1 0 0, 0 0 0, 0 0 0 = \\ 5 5, 9 9 5, 1 4 6
+\text{He dg eR at io} = \frac{0 . 0 9 2 2 8}{0 . 1 6 4 8 0} * \\ 1 0 0, 0 0 0, 0 0 0 = \\ 5 5, 9 9 5, 1 4 6
 $$
 
 The same hedge ratio would be obtained with a ratio of DV01s, which are just the PV01s scaled up to a given par value, for instance, \$1 million.
@@ -4065,7 +4065,7 @@ $$
 The new-and-improved hedge is to short sell about \$60.65 million in the T-bond.
 
 $$
-\text {H e d g e R a t i o} = \frac {0 . 1 0 6 6 0}{0 . 1 7 5 7 6} * \\ \mathbb {S} 1 0 0, 0 0 0, 0 0 0 = \\ \mathbb {S} 6 0, 6 5 0, 8 8 8
+\text{He dg eR at io} = \frac{0 . 1 0 6 6 0}{0 . 1 7 5 7 6} * \\ \mathbb {S} 1 0 0, 0 0 0, 0 0 0 = \\ \mathbb {S} 6 0, 6 5 0, 8 8 8
 $$
 
 The key point is that the curve durations (and the revised PV01s) are based on a parallel shift in the entire Treasury yield curve and are calibrated so that there are no arbitrage opportunities.
@@ -4107,7 +4107,7 @@ This sequence of evenly spaced, semiannual cash flow is the  $MV$ ,  $CF_1$ ,  $
 The fourth column of Table 9.2 is the present value of the cash flow for each date, discounted using the (full precision) YieldPORT. The sum of those present values is \(345,701,561, the market value of the portfolio, thereby verifying the internal rate of return calculation. Following equation 9.3, the fifth column divides each present value by the overall market value, giving the weights that sum to one. The sixth column multiplies the time to the receipt of the cash flow (measured in semiannual periods, column 1) times the weight. The sum of column 6 produces the Macaulay duration for the portfolio, MacDurPORT = 24.059. Annualized (by dividing by two), the portfolio Macaulay duration is 12.030. The annualized modified duration is 11.831, the Macaulay duration divided by one plus the cash flow yield per period.
 
 $$
-\text {M o d D u r P O R T} = \frac {1 2 . 0 3 0}{1 . 0 1 6 8 2} = 1 1. 8 3 1
+\text{Mo dD ur PO RT} = \frac{1 2 . 0 3 0}{1 . 0 1 6 8 2} = 1 1. 8 3 1
 $$
 
 The seventh column follows equation 9.4 to get the cash flow dispersion statistic for the portfolio. Whereas Macaulay duration is the average of the times to receipt of cash flow, dispersion is the variance. For each date, the difference between the time period (column 1) and the Macaulay duration (24.059) is
@@ -4117,13 +4117,13 @@ squared and then multiplied by the present value of the cash flow (column 4). Su
 The eighth column gets the convexity of the portfolio using equation 9.6. For each date, the time period (column 1) is multiplied by one plus that time period, and then by the present value of the cash flow (column 4). The sum is 1,083.471. ConvPORT is found to be 1,047.9 by dividing the sum by one plus the portfolio yield (per period) squared.
 
 $$
-C o n v P O R T = \frac {1 , 0 8 3 . 4 7 1}{(1 . 0 1 6 8 2) ^ {2}} = 1, 0 4 7. 9
+C o n v P O R T = \frac{1 , 0 8 3 . 4 7 1}{(1 . 0 1 6 8 2)^{2}} = 1, 0 4 7. 9
 $$
 
 The portfolio yield, Macaulay duration, dispersion, and convexity statistics are linked by equation 9.7.
 
 $$
-C o n v P O R T = \frac {(2 4 . 0 5 9) ^ {2} + 2 4 . 0 5 9 + 4 8 0 . 5 7 1}{(1 . 0 1 6 8 2) ^ {2}} = 1, 0 4 7. 9
+C o n v P O R T = \frac{(2 4 . 0 5 9)^{2} + 2 4 . 0 5 9 + 4 8 0 . 5 7 1}{(1 . 0 1 6 8 2)^{2}} = 1, 0 4 7. 9
 $$
 
 Annualized, the portfolio dispersion is 120.1 and the convexity is 262.0, after dividing by four (the periodicity squared).
@@ -4141,27 +4141,27 @@ rate risk. The short-term T-notes are almost one-third of market value but only 
 Due to the steepness of the yield curve, the market-value-weighted average yield is considerably less than the internal rate of return on the portfolio. AvgYieldMV is only  $2.254\%$  whereas YieldPORT is  $3.362\%$ .
 
 $$
-\begin{array}{l} \text {AvgYieldMV} = (0.333813 \% * 0.34740) + (2.603264 \% * 0.27535) \\ + (3.697998\% * 0.25993) + (3.919371\% * 0.11732) \\ = 2.254 \% \\ \end{array}
+\begin{array}{l} \text{AvgYieldMV} = (0.333813 \% * 0.34740) + (2.603264 \% * 0.27535) \\ + (3.697998\% * 0.25993) + (3.919371\% * 0.11732) \\ = 2.254 \% \\ \end{array}
 $$
 
 Suppose that the U.S. Treasury actually did use capital budgeting techniques as taught in introductory finance courses, and it has a long-term (29-year) project in mind. If it issues these four bonds at these prices to fund the project, the government has \(345.7 million to invest. The point here is that if the project earns only \(2.254\%\) annually, the revenues are not sufficient to pay off that debt, especially the large payment due on February 15, 2043. The project would have to earn at least \(3.364\%\) to have positive net present value. The BPV-weighted average, \(3.332\%\), is a better indicator of the "hurdle rate" for the project than the MV-weighted average.
 
 $$
-\begin{array}{l} \text {Avg Yield BPV} = (0.333813 \% * 0.06265) + (2.603264 \% * 0.20332) \\ + (3.697998 \% * 0.43179) + (3.919371 \% * 0.30224) \\ = 3.332 \% \\ \end{array}
+\begin{array}{l} \text{AvgYieldBPV} = (0.333813 \% * 0.06265) + (2.603264 \% * 0.20332) \\ + (3.697998 \% * 0.43179) + (3.919371 \% * 0.30224) \\ = 3.332 \% \\ \end{array}
 $$
 
 Average yield duration and convexity are also lower than the "true" portfolio statistics. These correspond to changes in the yields to maturity on the individual securities.
 
 $$
-\begin{array}{l} \operatorname {A v g M a c D u r} (\text {Y i e l d}) = (1. 9 9 4 * 0. 3 4 7 4 0) + (8. 2 5 8 * 0. 2 7 5 3 5) \\ + (1 8. 6 7 9 * 0. 2 5 9 9 3) + (2 9. 0 0 0 * 0. 1 1 7 3 2) \\ = 1 1. 2 2 4 \\ \end{array}
+\begin{array}{l} \operatorname{Av gM ac Du r} (\text{Yi el d}) = (1. 9 9 4 * 0. 3 4 7 4 0) + (8. 2 5 8 * 0. 2 7 5 3 5) \\ + (1 8. 6 7 9 * 0. 2 5 9 9 3) + (2 9. 0 0 0 * 0. 1 1 7 3 2) \\ = 1 1. 2 2 4 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \operatorname {A v g M o d D u r} (\text {Y i e l d}) = (1. 9 9 1 * 0. 3 4 7 4 0) + (8. 1 5 2 * 0. 2 7 5 3 5) \\ + (1 8. 3 4 0 * 0. 2 5 9 9 3) + (2 8. 4 4 3 * 0. 1 1 7 3 2) \\ = 1 1. 0 4 0 \\ \end{array}
+\begin{array}{l} \operatorname{Av gM od Du r} (\text{Yi el d}) = (1. 9 9 1 * 0. 3 4 7 4 0) + (8. 1 5 2 * 0. 2 7 5 3 5) \\ + (1 8. 3 4 0 * 0. 2 5 9 9 3) + (2 8. 4 4 3 * 0. 1 1 7 3 2) \\ = 1 1. 0 4 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \operatorname {A v g C o n v e x i t y} (\text {Y i e l d}) = (5. 0 * 0. 3 4 7 4 0) + (7 4. 2 * 0. 2 7 5 3 5) \\ + (4 4 8. 8 * 0. 2 5 9 9 3) + (8 2 2. 9 * 0. 1 1 7 3 2) \\ = 2 3 5. 4 0 3 \\ \end{array}
+\begin{array}{l} \operatorname{Av gC on ve xi ty} (\text{Yi el d}) = (5. 0 * 0. 3 4 7 4 0) + (7 4. 2 * 0. 2 7 5 3 5) \\ + (4 4 8. 8 * 0. 2 5 9 9 3) + (8 2 2. 9 * 0. 1 1 7 3 2) \\ = 2 3 5. 4 0 3 \\ \end{array}
 $$
 
 The strong upward slope to the yield curve is the reason why these weighted averages understate the big-bundle-of-cash flow portfolio statistics: 12.030 for Macaulay duration, 11.831 for modified duration, and 262.0 for convexity. Moreover, these are not trivial differences.
@@ -4169,11 +4169,11 @@ The strong upward slope to the yield curve is the reason why these weighted aver
 The other set of market-value-weighted averages uses the curve duration and convexity as inputs.
 
 $$
-\begin{array}{l} \operatorname {A v g M o d D u r} (\text {C u r v e}) = (1. 9 9 2 * 0. 3 4 7 4 0) + (8. 4 4 1 * 0. 2 7 5 3 5) \\ + (1 9. 5 5 9 * 0. 2 5 9 9 3) + (3 2. 8 5 5 * 0. 1 1 7 3 2) \\ = 1 1. 9 5 5 \\ \end{array}
+\begin{array}{l} \operatorname{Av gM od Du r} (\text{Cu rv e}) = (1. 9 9 2 * 0. 3 4 7 4 0) + (8. 4 4 1 * 0. 2 7 5 3 5) \\ + (1 9. 5 5 9 * 0. 2 5 9 9 3) + (3 2. 8 5 5 * 0. 1 1 7 3 2) \\ = 1 1. 9 5 5 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \operatorname {A v g C o n v e x i t y} (\text {Y i e l d}) = (5. 0 * 0. 3 4 7 4 0) + (7 8. 6 * 0. 2 7 5 3 5) \\ + (5 0 2. 4 * 0. 2 5 9 9 3) + (1, 0 1 8. 6 * 0. 1 1 7 3 2) \\ = 2 7 3. 4 6 8 \\ \end{array}
+\begin{array}{l} \operatorname{Av gC on ve xi ty} (\text{Yi el d}) = (5. 0 * 0. 3 4 7 4 0) + (7 8. 6 * 0. 2 7 5 3 5) \\ + (5 0 2. 4 * 0. 2 5 9 9 3) + (1, 0 1 8. 6 * 0. 1 1 7 3 2) \\ = 2 7 3. 4 6 8 \\ \end{array}
 $$
 
 Notice that these are considerably higher than the averages based on the yield duration and convexities. Once again that's due to the upward slope of the Treasury yield curve. Also, these results are even higher than the "true" portfolio modified duration and convexity.
@@ -4286,7 +4286,7 @@ portfolio that starts at 6.50 must go down if you add in lower duration assets. 
 This line of thinking, while compelling, misses a key idea—the interest rate swap does not change market value. Swaps simply modify, or transform, the duration of a segment of the portfolio. A receive-fixed swap, regardless of its time frame, adds duration to that segment. Equation 10.1 captures how to determine the notional principal (NP) needed to change the duration of a portfolio given its market value (MV) to the target duration.
 
 $$
-\begin{array}{l} \left[ \left(\frac {M V - N P}{M V}\right) * (\text {P o r t f o l i o D u r a t i o n}) \right] \tag {10.1} \\ + \left[ \left(\frac {N P}{M V}\right) * (S w a p D u r a t i o n + P o r t f o l i o D u r a t i o n) \right] \\ = T a r g e t D u r a t i o n \\ \end{array}
+\begin{array}{l} \left[ \left(\frac{M V - N P}{M V}\right) * (\text{Po rt fo li oD ur at io n}) \right] \tag {10.1} \\ + \left[ \left(\frac{N P}{M V}\right) * (S w a p D u r a t i o n + P o r t f o l i o D u r a t i o n) \right] \\ = T a r g e t D u r a t i o n \\ \end{array}
 $$
 
 This equation is based on two ideas. First, the duration of a segmented portfolio is estimated by a weighted average of the durations of the segments, using shares of total market value as the weights. Second, entering a plain vanilla interest rate swap transforms the duration of a segment of the portfolio but does not change the overall market value.
@@ -4294,19 +4294,19 @@ This equation is based on two ideas. First, the duration of a segmented portfoli
 In equation 10.1, the segment of the original portfolio unaffected by the interest rate swap has a market-value weight of  $(MV - NP) / MV$ . The affected segment has the remaining weight,  $NP / MV$ , because the swap itself does not add nor subtract value at origination. It does, however, make the duration of the affected segment the sum of Swap Duration and the original Portfolio Duration. Therefore, a received-fixed swap increases, and a pay-fixed swap reduces, the duration of assets. In applying this formula, it is useful to isolate the  $NP$  term by algebraic rearrangement.
 
 $$
-N P = \frac {M V * [ T a r g e t D u r a t i o n - P o r t f o l i o D u r a t i o n ]}{S w a p D u r a t i o n} \tag {10.2}
+N P = \frac{M V * [ T a r g e t D u r a t i o n - P o r t f o l i o D u r a t i o n ]}{S w a p D u r a t i o n} \tag {10.2}
 $$
 
 Using the 10-year receive-fixed swap, you need a notional principal of about \(29.3 million to increase the average duration of the portfolio from 6.50 to 7.50.
 
 $$
-N P = \frac {\mathbb {S} 2 4 5 \text {m i l l i o n} * [ 7 . 5 0 - 6 . 5 0 ]}{8 . 3 6} = \mathbb {S} 2 9, 3 0 6, 2 2 0
+N P = \frac{\mathbb {S} 2 4 5 \text{mi ll io n} * [ 7 . 5 0 - 6 . 5 0 ]}{8 . 3 6} = \mathbb {S} 2 9, 3 0 6, 2 2 0
 $$
 
 For the 5-year swap, you need more notional principal, about \$53.7 million, because the each unit of the derivative is less powerful.
 
 $$
-N P = \frac {\mathbb {S} 2 4 5 \text {m i l l i o n} * [ 7 . 5 0 - 6 . 5 0 ]}{4 . 5 6} = \mathbb {S} 5 3, 7 2 8, 0 7 0
+N P = \frac{\mathbb {S} 2 4 5 \text{mi ll io n} * [ 7 . 5 0 - 6 . 5 0 ]}{4 . 5 6} = \mathbb {S} 5 3, 7 2 8, 0 7 0
 $$
 
 In general, the higher the duration of the swap, less notional principal is required. It's like curing a headache—you can take a few low-dosage pills or just one gigantic pill providing a really big dose.
@@ -4314,7 +4314,7 @@ In general, the higher the duration of the swap, less notional principal is requ
 The hedge ratio for the swap, that is, the notional principal needed to achieve the new target risk measure, also can be calculated with the BPVs. The idea is to add the BPV of the swap to the original portfolio BPV to equal the target BPV. This is summarized in equation 10.3.
 
 $$
-\text {P o r t f o l i o} B P V + \left(N P * \frac {\text {S w a p} B P V}{1 0 0}\right) = \text {T a r g e t} B P V \tag {10.3}
+\text{Po rt fo li o} B P V + \left(N P * \frac{\text{Sw ap} B P V}{1 0 0}\right) = \text{Ta rg et} B P V \tag {10.3}
 $$
 
 In this problem, the portfolio BPV is  \$159,250 and the target BPV is\$ 183,750. Given the swap BPVs of 0.0456 and 0.0836 per 100 of notional principal for the 5-year and 10-year swaps, the same results are obtained.
@@ -4354,37 +4354,37 @@ TABLE 10.1 Total Returns for a 12-Year Horizon on February 15, 2026
 The fourth column is the value of each cash flow as of period 24, the horizon date on February 15, 2026. For example, the period-1 cash flow of  \$2,787.50 on August 15, 2014, grows to\$ 4,090.99 over the 23 semiannual periods at the rate of 1.682%.
 
 $$
-\$ 2,787.50 * (1.01682) ^ {23} = \$ 4,090.99
+\$ 2,787.50 * (1.01682)^{23} = \$ 4,090.99
 $$
 
 The period-58 cash flow of  \$226,562.50, which includes the redemption of principal on the two long-term bonds on February 15, 2043, has a discounted value of\$ 128,495.91 over the 34 remaining semiannual periods between February 2026 and February 2043.
 
 $$
-\frac {\mathbb {S} 2 2 6 , 5 6 2 . 5 0}{(1 . 0 1 6 8 2) ^ {3 4}} = \mathbb {S} 1 2 8, 4 9 5. 9 1
+\frac{\mathbb {S} 2 2 6 , 5 6 2 . 5 0}{(1 . 0 1 6 8 2)^{3 4}} = \mathbb {S} 1 2 8, 4 9 5. 9 1
 $$
 
 The sum of the fourth column is  $515,896.08$ . That's the total return on the horizon date under the strong assumption of reinvesting cash and selling bonds at the unchanged rate of  $3.364\%$ . It's no surprise that the realized holding-period rate (HPR) over the 12 years, as calculated in Chapter 3, is that same rate when annualized.
 
 $$
-\$ 345,701.56 = \frac {\$ 515 , 896 . 0 8}{(1 + H P R) ^ {2 4}}, \quad H P R = 0. 0 1 6 8 2, * 2 = 0. 0 3 3 6 4
+\$ 345,701.56 = \frac{\$ 515 , 896 . 0 8}{(1 + H P R)^{2 4}}, \quad H P R = 0. 0 1 6 8 2, * 2 = 0. 0 3 3 6 4
 $$
 
 To see immunization at work, suppose that after purchasing the portfolio on February 15, 2014, the entire Treasury curve shifts upward or downward. In the first case, as shown in the fifth column, the new portfolio cash flow yield is  $2.364\%$ , a 100-basis-point decrease. Notice that I do not need to assume necessarily a parallel shift to the yield curve. That is, all I need for the exercise is a new, lower rate that applies when cash flows are reinvested and when bonds are sold at the horizon date. Alternatively, I can assume that future transactions are made at the new implied forward rates. To get the entries for each date, I subtract 50 basis points from the original yield per semiannual period and redo the time-value-of-money calculations.
 
 $$
-\begin{array}{l} \$ 2,787.50 * (1.01182) ^ {23} = \$ 3,652.50 \\ \frac {\mathbb {S} 2 2 6 , 5 6 2 . 5 0}{(1 . 0 1 1 8 2) ^ {3 4}} = \mathbb {S} 1 5 1, 9 4 1. 7 8 \\ \end{array}
+\begin{array}{l} \$ 2,787.50 * (1.01182)^{23} = \$ 3,652.50 \\ \frac{\mathbb {S} 2 2 6 , 5 6 2 . 5 0}{(1 . 0 1 1 8 2)^{3 4}} = \mathbb {S} 1 5 1, 9 4 1. 7 8 \\ \end{array}
 $$
 
 The total return on the horizon date is  \$519,138.65 and the horizon yield is 3.417\%$ .
 
 $$
-\$ 345,701.56 = \frac {\$ 519 , 138 . 65}{(1 + H P R) ^ {2 4}}, \quad H P R = 0. 0 1 7 0 8 6, * 2 = 0. 0 3 4 1 7
+\$ 345,701.56 = \frac{\$ 519 , 138 . 65}{(1 + H P R)^{2 4}}, \quad H P R = 0. 0 1 7 0 8 6, * 2 = 0. 0 3 4 1 7
 $$
 
 The sixth column shows the results from repeating the exercise for the increase in the rate up to  $4.364\%$  (s.a.). Again, a parallel shift is not required. We only need the assumption that cash flow reinvestment and bond sales can be made along the new, post-event implied forward curve that produces a portfolio yield of  $4.364\%$ . I add 50 basis points to the original yield per semiannual period and let the spreadsheet do the work. The total return as of February 15, 2026, is \$518,660.65 and the horizon yield is  $3.409\%$  (s.a.).
 
 $$
-\$ 345,701.56 = \frac{\$ 518,660.65}{(1 + HPR) ^ {24}},\quad HPR = 0.017047,\ast 2 = 0.03409
+\$ 345,701.56 = \frac{\$ 518,660.65}{(1 + HPR)^{24}},\quad HPR = 0.017047,\ast 2 = 0.03409
 $$
 
 If this is the first time you are seeing this demonstration of immunization, I hope that you are suitably impressed. Our investor essentially has locked in a total rate of return (in nominal terms) over the 12-year horizon. The holding-period rate of return remains close to the original cash flow yield of  $3.364\%$  (s.a.), in fact it is a little above, for a 100-basis-change in the interest rate. It's a bit higher because of convexity—this portfolio is more convex, that is, has a greater dispersion of cash flows, than a 12-year zero-coupon bond that would have provided "perfect" immunization. You can change the yield however you like—it works, as long as you keep that new rate constant going forward. Moreover, the yield curve event does not have to be instantaneous. The investor is immunized for the time until the first cash flow reinvestment date in six months.
@@ -4425,7 +4425,7 @@ The standard textbook prescription to mitigate risk in an immunization strategy 
 The problem with the prescription to duration match and minimize dispersion is not in theory; it is in implementation. In Chapter 9, I note that dispersion is not a statistic reported on Bloomberg (although it could be) and, more important, even if it were readily accessible, the market-value-weighted average of the statistics on individual bonds can be misleading. Fortunately, equation 9.7, repeated here as equation 10.4, offers a handy remedy.
 
 $$
-\operatorname {C o n v P O R T} = \frac {\left(\text {M a c D u r P O R T}\right) ^ {2} + \text {M a c D u r P O R T} + \text {D i s p P O R T}}{\left(1 + \text {Y i e l d P O R T}\right) ^ {2}} \tag {10.4}
+\operatorname{Co nv PO RT} = \frac{\left(\text{Ma cD ur PO RT}\right)^{2} + \text{Ma cD ur PO RT} + \text{Di sp PO RT}}{\left(1 + \text{Yi el dP OR T}\right)^{2}} \tag {10.4}
 $$
 
 For a given Macaulay duration for the portfolio, minimizing portfolio dispersion is equivalent to minimizing portfolio convexity. Note that this result is for the "true" statistics, not the weighted averages. However, given that it is common to calculate AvgConvexity(Yield), the market-value-weighted average of the individual yield convexities, my suggestion is that an immunization strategy minimizes interest rate and model risk by duration matching
@@ -4477,133 +4477,133 @@ Target-duration bond funds need not replace the current array of fixed-income fu
 Equation 1.8, which allows the conversion of a discount rate to an add-on rate when both are quoted for the same day-count convention, is derived by assuming that the cash flows,  $PV$  and  $FV$ , are the same for each rate quotation. To derive the equation, first rewrite equations 1.3 and 1.6.
 
 $$
-\frac {F V}{P V} = \left[ 1 + \left(A O R * \frac {\text {D a y s}}{\text {Y e a r}}\right) \right] \tag {A1.1}
+\frac{F V}{P V} = \left[ 1 + \left(A O R * \frac{\text{Da ys}}{\text{Ye ar}}\right) \right] \tag {A1.1}
 $$
 
 $$
-\frac {F V}{P V} = \frac {1}{\left[ 1 - \left(D R * \frac {\text {D a y s}}{\text {Y e a r}}\right) \right]} \tag {A1.2}
+\frac{F V}{P V} = \frac{1}{\left[ 1 - \left(D R * \frac{\text{Da ys}}{\text{Ye ar}}\right) \right]} \tag {A1.2}
 $$
 
 Equate these two expressions.
 
 $$
-\left[ 1 + \left(A O R * \frac {\text {D a y s}}{\text {Y e a r}}\right) \right] = \frac {1}{\left[ 1 - \left(D R * \frac {\text {D a y s}}{\text {Y e a r}}\right) \right]} \tag {A1.3}
+\left[ 1 + \left(A O R * \frac{\text{Da ys}}{\text{Ye ar}}\right) \right] = \frac{1}{\left[ 1 - \left(D R * \frac{\text{Da ys}}{\text{Ye ar}}\right) \right]} \tag {A1.3}
 $$
 
 Subtract 1 from each side.
 
 $$
-\left(A O R * \frac {\text {D a y s}}{\text {Y e a r}}\right) = \frac {1}{\left[ 1 - \left(D R * \frac {\text {D a y s}}{\text {Y e a r}}\right) \right]} - 1 = \frac {1 - \left[ 1 - \left(D R * \frac {\text {D a y s}}{\text {Y e a r}}\right) \right]}{\left[ 1 - \left(D R * \frac {\text {D a y s}}{\text {Y e a r}}\right) \right]} \tag {A1.4}
+\left(A O R * \frac{\text{Da ys}}{\text{Ye ar}}\right) = \frac{1}{\left[ 1 - \left(D R * \frac{\text{Da ys}}{\text{Ye ar}}\right) \right]} - 1 = \frac{1 - \left[ 1 - \left(D R * \frac{\text{Da ys}}{\text{Ye ar}}\right) \right]}{\left[ 1 - \left(D R * \frac{\text{Da ys}}{\text{Ye ar}}\right) \right]} \tag {A1.4}
 $$
 
 Simplify the numerator on the right side.
 
 $$
-\left(A O R * \frac {\text {D a y s}}{\text {Y e a r}}\right) = \frac {D R * \frac {\text {D a y s}}{\text {Y e a r}}}{\left[ 1 - \left(D R * \frac {\text {D a y s}}{\text {Y e a r}}\right) \right]} \tag {A1.5}
+\left(A O R * \frac{\text{Da ys}}{\text{Ye ar}}\right) = \frac{D R * \frac{\text{Da ys}}{\text{Ye ar}}}{\left[ 1 - \left(D R * \frac{\text{Da ys}}{\text{Ye ar}}\right) \right]} \tag {A1.5}
 $$
 
 Multiply each side of the equation by Year/Days.
 
 $$
-A O R = \frac {D R}{\left[ 1 - \left(D R * \frac {\text {D a y s}}{\text {Y e a r}}\right) \right]} \tag {A1.6}
+A O R = \frac{D R}{\left[ 1 - \left(D R * \frac{\text{Da ys}}{\text{Ye ar}}\right) \right]} \tag {A1.6}
 $$
 
 Multiply the numerator and denominator by Year to get equation 1.8.
 
 $$
-A O R = \frac {\text {Y e a r} * D R}{\text {Y e a r} - (D R * D a y s)} \tag {A1.7}
+A O R = \frac{\text{Ye ar} * D R}{\text{Ye ar} - (D R * D a y s)} \tag {A1.7}
 $$
 
 Equation 1.11 is the official Investment Rate conversion formula for Treasury bill discount rates having six months or less to maturity. It converts the 360-day discount rate to a 365-day add-on basis. The equation can be derived by letting  $IR = AOR$  and  $Year = 365\$  in A1.1 and  $Year = 360\$  in A1.2.
 
 $$
-\frac {F V}{P V} = \left[ 1 + \left(I R * \frac {\text {D a y s}}{3 6 5}\right) \right] \tag {A1.8}
+\frac{F V}{P V} = \left[ 1 + \left(I R * \frac{\text{Da ys}}{3 6 5}\right) \right] \tag {A1.8}
 $$
 
 $$
-\frac {F V}{P V} = \frac {1}{\left[ 1 - \left(D R * \frac {\text {D a y s}}{3 6 0}\right) \right]} \tag {A1.9}
+\frac{F V}{P V} = \frac{1}{\left[ 1 - \left(D R * \frac{\text{Da ys}}{3 6 0}\right) \right]} \tag {A1.9}
 $$
 
 Combine the equations.
 
 $$
-\left[ 1 + \left(I R * \frac {\text {D a y s}}{3 6 5}\right) \right] = \frac {1}{\left[ 1 - \left(D R * \frac {\text {D a y s}}{3 6 0}\right) \right]} \tag {A1.10}
+\left[ 1 + \left(I R * \frac{\text{Da ys}}{3 6 5}\right) \right] = \frac{1}{\left[ 1 - \left(D R * \frac{\text{Da ys}}{3 6 0}\right) \right]} \tag {A1.10}
 $$
 
 Proceed as above; subtract 1 from each side of the equation and simplify the numerator on the right side.
 
 $$
-\left(I R * \frac {\text {D a y s}}{3 6 5}\right) = \frac {D R * \frac {\text {D a y s}}{3 6 0}}{\left[ 1 - \left(D R * \frac {\text {D a y s}}{3 6 0}\right) \right]} \tag {A1.11}
+\left(I R * \frac{\text{Da ys}}{3 6 5}\right) = \frac{D R * \frac{\text{Da ys}}{3 6 0}}{\left[ 1 - \left(D R * \frac{\text{Da ys}}{3 6 0}\right) \right]} \tag {A1.11}
 $$
 
 Multiply each side of the equation by 365/Days.
 
 $$
-I R = \frac {(3 6 5 / 3 6 0) * D R}{\left[ 1 - \left(D R * \frac {D a y s}{3 6 0}\right) \right]} \tag {A1.12}
+I R = \frac{(3 6 5 / 3 6 0) * D R}{\left[ 1 - \left(D R * \frac{D a y s}{3 6 0}\right) \right]} \tag {A1.12}
 $$
 
 Finally, multiply the numerator and denominator by 360 to get equation 1.11.
 
 $$
-I R = \frac {3 6 5 * D R}{3 6 0 - (D R * D a y s)} \tag {A1.13}
+I R = \frac{3 6 5 * D R}{3 6 0 - (D R * D a y s)} \tag {A1.13}
 $$
 
 Equation 1.12 is the official Investment Rate conversion formula for Treasury bill discount rates having more than six months to maturity. It is based on equation 1.13, repeated here.
 
 $$
-1 0 0 = P V * \left(1 + \frac {1 8 2 . 5}{3 6 5} * I R\right) * \left(1 + \frac {\text {D a y s} - 1 8 2 . 5}{3 6 5} * I R\right) \tag {A1.14}
+1 0 0 = P V * \left(1 + \frac{1 8 2 . 5}{3 6 5} * I R\right) * \left(1 + \frac{\text{Da ys} - 1 8 2 . 5}{3 6 5} * I R\right) \tag {A1.14}
 $$
 
 $PV$  is the price of the T-bill, based on the discount rate pricing equation 1.6 assuming  $FV = 100$ , which is why 100 appears on the left-hand side. It implicitly converts to a 365-day basis. Rearrange A1.14 to display  $IR$  as an annual rate divided by 2 (periods in the year).
 
 $$
-1 0 0 = P V * \left(1 + \frac {I R}{2}\right) * \left(1 + \frac {2 * (D a y s - 1 8 2 . 5)}{3 6 5} * \frac {I R}{2}\right) \tag {A1.15}
+1 0 0 = P V * \left(1 + \frac{I R}{2}\right) * \left(1 + \frac{2 * (D a y s - 1 8 2 . 5)}{3 6 5} * \frac{I R}{2}\right) \tag {A1.15}
 $$
 
 Simplify this expression by defining  $Z$  as follows:
 
 $$
-Z \equiv \frac {2 * (D a y s - 1 8 2 . 5)}{3 6 5} = \frac {2 * D a y s}{3 6 5} - 1 \tag {A1.16}
+Z \equiv \frac{2 * (D a y s - 1 8 2 . 5)}{3 6 5} = \frac{2 * D a y s}{3 6 5} - 1 \tag {A1.16}
 $$
 
 Substitute  $Z$  into A1.15 and divide both sides of the equation by  $PV$ .
 
 $$
-\frac {1 0 0}{P V} = \left(1 + \frac {I R}{2}\right) * \left(1 + Z * \frac {I R}{2}\right) = 1 + \left(\frac {I R}{2}\right) + Z * \left(\frac {I R}{2}\right) ^ {2} \tag {A1.17}
+\frac{1 0 0}{P V} = \left(1 + \frac{I R}{2}\right) * \left(1 + Z * \frac{I R}{2}\right) = 1 + \left(\frac{I R}{2}\right) + Z * \left(\frac{I R}{2}\right)^{2} \tag {A1.17}
 $$
 
 Collect the  $IR/2$  terms and rearrange further.
 
 $$
-0 = Z * \left(\frac {I R}{2}\right) ^ {2} + (1 + Z) * \left(\frac {I R}{2}\right) + \left(1 - \frac {1 0 0}{P V}\right) \tag {A1.18}
+0 = Z * \left(\frac{I R}{2}\right)^{2} + (1 + Z) * \left(\frac{I R}{2}\right) + \left(1 - \frac{1 0 0}{P V}\right) \tag {A1.18}
 $$
 
 This is now in the form of the general quadratic equation that has a well-known solution for  $x$ , here showing only the more positive root:
 
 $$
-0 = a * x ^ {2} + b * x + c \tag {A1.19}
+0 = a * x^{2} + b * x + c \tag {A1.19}
 $$
 
 $$
-x = \frac {- b + \sqrt {b ^ {2} - 4 a c}}{2 a} \tag {A1.20}
+x = \frac{- b + \sqrt{b^{2} - 4 a c}}{2 a} \tag {A1.20}
 $$
 
 Substitute  $x = IR / 2$ ,  $a = Z$ ,  $b = 1 + Z$ , and  $c = 1 - 100 / PV$ .
 
 $$
-\frac {I R}{2} = \frac {- (1 + Z) + \sqrt {(1 + Z) ^ {2} - 4 * Z * \left(1 - \frac {1 0 0}{P V}\right)}}{2 * Z} \tag {A1.21}
+\frac{I R}{2} = \frac{- (1 + Z) + \sqrt{(1 + Z)^{2} - 4 * Z * \left(1 - \frac{1 0 0}{P V}\right)}}{2 * Z} \tag {A1.21}
 $$
 
 Substitute the definition for  $Z$  from A1.16 back into the expression.
 
 $$
-\frac {I R}{2} = \frac {- \left(\frac {2 * D a y s}{3 6 5}\right) + \sqrt {\left(\frac {2 * D a y s}{3 6 5}\right) ^ {2} - 4 * \left(\frac {2 * D a y s}{3 6 5} - 1\right) * \left(1 - \frac {1 0 0}{P V}\right)}}{2 * \left(\frac {2 * D a y s}{3 6 5} - 1\right)} \tag {A1.22}
+\frac{I R}{2} = \frac{- \left(\frac{2 * D a y s}{3 6 5}\right) + \sqrt{\left(\frac{2 * D a y s}{3 6 5}\right)^{2} - 4 * \left(\frac{2 * D a y s}{3 6 5} - 1\right) * \left(1 - \frac{1 0 0}{P V}\right)}}{2 * \left(\frac{2 * D a y s}{3 6 5} - 1\right)} \tag {A1.22}
 $$
 
 Finally, multiply both sides of the equation by 2 and simplify within the square root to get equation 1.12.
 
 $$
-I R = \frac {- \frac {2 * D a y s}{3 6 5} + 2 * \sqrt {\left(\frac {D a y s}{3 6 5}\right) ^ {2} - \left(\frac {2 * D a y s}{3 6 5} - 1\right) * \left(1 - \frac {1 0 0}{P V}\right)}}{\frac {2 * D a y s}{3 6 5} - 1} \tag {A1.23}
+I R = \frac{- \frac{2 * D a y s}{3 6 5} + 2 * \sqrt{\left(\frac{D a y s}{3 6 5}\right)^{2} - \left(\frac{2 * D a y s}{3 6 5} - 1\right) * \left(1 - \frac{1 0 0}{P V}\right)}}{\frac{2 * D a y s}{3 6 5} - 1} \tag {A1.23}
 $$
 
 # CHAPTER 3 PRICES AND YIELDS ON COUPON BONDS
@@ -4611,43 +4611,43 @@ $$
 Equation 3.4 is the standard relationship between the price of a fixed-income bond,  $PV$ , and its yield to maturity,  $y$ . The evenly spaced coupon payments of PMT each period and principal redemption of  $FV$  are discounted over the  $N$  periods to maturity. That equation is rewritten here.
 
 $$
-P V = \left[ \frac {P M T}{(1 + y) ^ {1}} + \frac {P M T}{(1 + y) ^ {2}} + \dots + \frac {P M T}{(1 + y) ^ {N}} \right] + \frac {F V}{(1 + y) ^ {N}} \tag {A3.1}
+P V = \left[ \frac{P M T}{(1 + y)^{1}} + \frac{P M T}{(1 + y)^{2}} + \dots + \frac{P M T}{(1 + y)^{N}} \right] + \frac{F V}{(1 + y)^{N}} \tag {A3.1}
 $$
 
 The present value of the stream of coupon payments, in brackets, is the sum of a finite geometric series. Define that to be SUM.
 
 $$
-S U M \equiv \left[ \frac {P M T}{(1 + y) ^ {1}} + \frac {P M T}{(1 + y) ^ {2}} + \dots + \frac {P M T}{(1 + y) ^ {N}} \right] \tag {A3.2}
+S U M \equiv \left[ \frac{P M T}{(1 + y)^{1}} + \frac{P M T}{(1 + y)^{2}} + \dots + \frac{P M T}{(1 + y)^{N}} \right] \tag {A3.2}
 $$
 
 Divide both sides of this equation by  $(1 + y)$ .
 
 $$
-\frac {S U M}{1 + y} = \left[ \frac {P M T}{(1 + y) ^ {2}} + \frac {P M T}{(1 + y) ^ {3}} + \dots + \frac {P M T}{(1 + y) ^ {N + 1}} \right] \tag {A3.3}
+\frac{S U M}{1 + y} = \left[ \frac{P M T}{(1 + y)^{2}} + \frac{P M T}{(1 + y)^{3}} + \dots + \frac{P M T}{(1 + y)^{N + 1}} \right] \tag {A3.3}
 $$
 
 Subtract A3.3 from A3.2. Notice that most of the terms in the brackets cancel.
 
 $$
-S U M - \frac {S U M}{1 + y} = \left[ \frac {P M T}{(1 + y) ^ {1}} - \frac {P M T}{(1 + y) ^ {N + 1}} \right] \tag {A3.4}
+S U M - \frac{S U M}{1 + y} = \left[ \frac{P M T}{(1 + y)^{1}} - \frac{P M T}{(1 + y)^{N + 1}} \right] \tag {A3.4}
 $$
 
 Multiply though by  $(1 + y)$ .
 
 $$
-(1 + y) * S U M - S U M = \left[ P M T - \frac {P M T}{(1 + y) ^ {N}} \right] \tag {A3.5}
+(1 + y) * S U M - S U M = \left[ P M T - \frac{P M T}{(1 + y)^{N}} \right] \tag {A3.5}
 $$
 
 Divide each side by  $y$  and pull the PMT term out of the brackets.
 
 $$
-S U M = \frac {P M T}{y} * \left[ 1 - \frac {1}{(1 + y) ^ {N}} \right] \tag {A3.6}
+S U M = \frac{P M T}{y} * \left[ 1 - \frac{1}{(1 + y)^{N}} \right] \tag {A3.6}
 $$
 
 Substitute A3.6 into A3.1 to get equation 3.5 in the text, repeated here.
 
 $$
-P V = \frac {P M T}{y} * \left[ 1 - \frac {1}{(1 + y) ^ {N}} \right] + \frac {F V}{(1 + y) ^ {N}} \tag {A3.7}
+P V = \frac{P M T}{y} * \left[ 1 - \frac{1}{(1 + y)^{N}} \right] + \frac{F V}{(1 + y)^{N}} \tag {A3.7}
 $$
 
 # CHAPTER 6 DURATION AND CONVEXITY
@@ -4655,91 +4655,91 @@ $$
 Equation 6.1 is the general bond pricing relationship between coupon payment dates.  $MV$  is the total price including accrued interest;  $PMT$  is the periodic coupon payment;  $FV$  is the principal redeemed in  $N$  periods as of the beginning of the current period, and  $t / T$  of the period has gone by and  $1 - t / T$  remains.
 
 $$
-M V = \frac {P M T}{(1 + y) ^ {1 - t / T}} + \frac {P M T}{(1 + y) ^ {2 - t / T}} + \dots + \frac {P M T + F V}{(1 + y) ^ {N - t / T}} \tag {A6.1}
+M V = \frac{P M T}{(1 + y)^{1 - t / T}} + \frac{P M T}{(1 + y)^{2 - t / T}} + \dots + \frac{P M T + F V}{(1 + y)^{N - t / T}} \tag {A6.1}
 $$
 
 Multiply the numerator and denominator on the right side by  $(1 + y)^{t / T}$ .
 
 $$
-M V = \left[ \frac {P M T}{(1 + y) ^ {1}} + \frac {P M T}{(1 + y) ^ {2}} + \dots + \frac {P M T + F V}{(1 + y) ^ {N}} \right] * (1 + y) ^ {t / T} \tag {A6.2}
+M V = \left[ \frac{P M T}{(1 + y)^{1}} + \frac{P M T}{(1 + y)^{2}} + \dots + \frac{P M T + F V}{(1 + y)^{N}} \right] * (1 + y)^{t / T} \tag {A6.2}
 $$
 
 Define the term in brackets to be  $PV$ , the price of the bond if the yield  $y$  prevailed at the beginning of the period when there were  $N$  full periods to maturity.
 
 $$
-M V = P V * (1 + y) ^ {t / T} \tag {A6.3}
+M V = P V * (1 + y)^{t / T} \tag {A6.3}
 $$
 
 The first partial derivative of  $MV$  with respect to a change in the yield  $y$  is:
 
 $$
-\frac {\partial M V}{\partial y} = \left(\frac {\partial P V}{\partial y} * (1 + y) ^ {t / T}\right) + \left(t / T * P V * (1 + y) ^ {t / T - 1}\right) \tag {A6.4}
+\frac{\partial M V}{\partial y} = \left(\frac{\partial P V}{\partial y} * (1 + y)^{t / T}\right) + \left(t / T * P V * (1 + y)^{t / T - 1}\right) \tag {A6.4}
 $$
 
 Multiply this expression by  $(1 + y)$  and divide by  $MV$ , using A6.3.
 
 $$
-\frac {\partial M V}{\partial y} * \frac {1 + y}{M V} = \left(\frac {\partial P V}{\partial y} * \frac {1 + y}{P V}\right) + t / T \tag {A6.5}
+\frac{\partial M V}{\partial y} * \frac{1 + y}{M V} = \left(\frac{\partial P V}{\partial y} * \frac{1 + y}{P V}\right) + t / T \tag {A6.5}
 $$
 
 As defined in equation 6.3, the Macaulay duration of the bond is the negative of A6.5.
 
 $$
-\text {M a c a u l a y D u r a t i o n} \equiv - \frac {\partial M V}{\partial y} * \frac {1 + y}{M V} = - \left(\frac {\partial P V}{\partial y} * \frac {1 + y}{P V}\right) - t / T \tag {A6.6}
+\text{Ma ca ul ay Du ra ti on} \equiv - \frac{\partial M V}{\partial y} * \frac{1 + y}{M V} = - \left(\frac{\partial P V}{\partial y} * \frac{1 + y}{P V}\right) - t / T \tag {A6.6}
 $$
 
 Here we can use equations A3.7 for  $PV$ .
 
 $$
-P V = \frac {P M T}{y} * \left[ 1 - \frac {1}{(1 + y) ^ {N}} \right] + \frac {F V}{(1 + y) ^ {N}} \tag {A6.7}
+P V = \frac{P M T}{y} * \left[ 1 - \frac{1}{(1 + y)^{N}} \right] + \frac{F V}{(1 + y)^{N}} \tag {A6.7}
 $$
 
 Let the coupon rate per period be denoted  $c$ , such that  $c = PMT / FV$ . Equation A6.7 can now be written:
 
 $$
-P V = \left(\frac {c}{y} * \left[ 1 - \frac {1}{(1 + y) ^ {N}} \right] + \frac {1}{(1 + y) ^ {N}}\right) * F V \tag {A6.8}
+P V = \left(\frac{c}{y} * \left[ 1 - \frac{1}{(1 + y)^{N}} \right] + \frac{1}{(1 + y)^{N}}\right) * F V \tag {A6.8}
 $$
 
 The first partial derivative of this with respect to a change in the yield  $y$  is:
 
 $$
-\frac {\partial P V}{\partial y} = \left\{\left[ \frac {c}{y} * \frac {N}{(1 + y) ^ {N + 1}} \right] - \left[ \frac {c}{y ^ {2}} * \left(1 - \frac {1}{(1 + y) ^ {N}}\right) \right] - \left[ \frac {N}{(1 + y) ^ {N + 1}} \right] \right\} * F V \tag {A6.9}
+\frac{\partial P V}{\partial y} = \left\{\left[ \frac{c}{y} * \frac{N}{(1 + y)^{N + 1}} \right] - \left[ \frac{c}{y^{2}} * \left(1 - \frac{1}{(1 + y)^{N}}\right) \right] - \left[ \frac{N}{(1 + y)^{N + 1}} \right] \right\} * F V \tag {A6.9}
 $$
 
 Multiply this by  $(1 + y)$  and divide by  $PV$ , as written in A6.8. Note the  $FV$  cancels.
 
 $$
-\frac {\partial P V}{\partial y} * \frac {1 + y}{P V} = \frac {\left[ \frac {c}{y} * \frac {N}{(1 + y) ^ {N}} \right] - \left[ \frac {c * (1 + y)}{y ^ {2}} * \left(1 - \frac {1}{(1 + y) ^ {N}}\right) \right] - \left[ \frac {N}{(1 + y) ^ {N}} \right]}{\frac {c}{y} * \left[ 1 - \frac {1}{(1 + y) ^ {N}} \right] + \frac {1}{(1 + y) ^ {N}}} \tag {A6.10}
+\frac{\partial P V}{\partial y} * \frac{1 + y}{P V} = \frac{\left[ \frac{c}{y} * \frac{N}{(1 + y)^{N}} \right] - \left[ \frac{c * (1 + y)}{y^{2}} * \left(1 - \frac{1}{(1 + y)^{N}}\right) \right] - \left[ \frac{N}{(1 + y)^{N}} \right]}{\frac{c}{y} * \left[ 1 - \frac{1}{(1 + y)^{N}} \right] + \frac{1}{(1 + y)^{N}}} \tag {A6.10}
 $$
 
 Next, multiply the numerator and denominator by  $y * (1 + y)^{N}$ .
 
 $$
-\frac {\partial P V}{\partial y} * \frac {1 + y}{P V} = \frac {(c * N) - \left[ \frac {c * (1 + y)}{y} * ((1 + y) ^ {N} - 1) \right] - [ y * N ]}{c * [ (1 + y) ^ {N} - 1 ] + y} \tag {A6.11}
+\frac{\partial P V}{\partial y} * \frac{1 + y}{P V} = \frac{(c * N) - \left[ \frac{c * (1 + y)}{y} * ((1 + y)^{N} - 1) \right] - [ y * N ]}{c * [ (1 + y)^{N} - 1 ] + y} \tag {A6.11}
 $$
 
 Finally, add and subtract  $(1 + y)$  in the numerator and rearrange terms.
 
 $$
-\frac {\partial P V}{\partial y} * \frac {1 + y}{P V} = - \frac {1 + y}{y} + \frac {1 + y + N * (c - y)}{c * [ (1 + y) ^ {N} - 1 ] + y} \tag {A6.12}
+\frac{\partial P V}{\partial y} * \frac{1 + y}{P V} = - \frac{1 + y}{y} + \frac{1 + y + N * (c - y)}{c * [ (1 + y)^{N} - 1 ] + y} \tag {A6.12}
 $$
 
 Substitute A6.12 into A6.6 to get the general formula for the Macaulay duration statistic, equation 6.13 in Chapter 6.
 
 $$
-\text {M a c a u l a y D u r a t i o n} = \left[ \frac {1 + y}{y} - \frac {1 + y + N * (c - y)}{c * [ (1 + y) ^ {N} - 1 ] + y} \right] - t / T \tag {A6.13}
+\text{Ma ca ul ay Du ra ti on} = \left[ \frac{1 + y}{y} - \frac{1 + y + N * (c - y)}{c * [ (1 + y)^{N} - 1 ] + y} \right] - t / T \tag {A6.13}
 $$
 
 The weighted-average formula for Macaulay duration is obtained more directly. Take the first partial derivative of A6.2 with respect to the change in yield  $y$ .
 
 $$
-\begin{array}{l} \frac {\partial M V}{\partial y} = \left[ - \frac {1 * P M T}{(1 + y) ^ {2}} - \frac {2 * P M T}{(1 + y) ^ {3}} - \dots - \frac {N * (P M T + F V)}{(1 + y) ^ {N + 1}} \right] * (1 + y) ^ {t / T} \\ + \left[ \frac {P M T}{(1 + y) ^ {1}} + \frac {P M T}{(1 + y) ^ {2}} + \dots + \frac {P M T + F V}{(1 + y) ^ {N}} \right] * t / T * (1 + y) ^ {t / T - 1} \tag {A6.14} \\ \end{array}
+\begin{array}{l} \frac{\partial M V}{\partial y} = \left[ - \frac{1 * P M T}{(1 + y)^{2}} - \frac{2 * P M T}{(1 + y)^{3}} - \dots - \frac{N * (P M T + F V)}{(1 + y)^{N + 1}} \right] * (1 + y)^{t / T} \\ + \left[ \frac{P M T}{(1 + y)^{1}} + \frac{P M T}{(1 + y)^{2}} + \dots + \frac{P M T + F V}{(1 + y)^{N}} \right] * t / T * (1 + y)^{t / T - 1} \tag {A6.14} \\ \end{array}
 $$
 
 Multiply by  $-(1 + y)$  and divide by  $MV$ , as defined in A6.2.
 
 $$
-- \frac {\partial M V}{\partial y} * \frac {1 + y}{M V} = \frac {\frac {1 * P M T}{(1 + y) ^ {1}} + \frac {2 * P M T}{(1 + y) ^ {2}} + \cdots + \frac {N * (P M T + F V)}{(1 + y) ^ {N}}}{\frac {P M T}{(1 + y) ^ {1}} + \frac {P M T}{(1 + y) ^ {2}} + \cdots + \frac {P M T + F V}{(1 + y) ^ {N}}} - t / T \tag {A6.15}
+- \frac{\partial M V}{\partial y} * \frac{1 + y}{M V} = \frac{\frac{1 * P M T}{(1 + y)^{1}} + \frac{2 * P M T}{(1 + y)^{2}} + \cdots + \frac{N * (P M T + F V)}{(1 + y)^{N}}}{\frac{P M T}{(1 + y)^{1}} + \frac{P M T}{(1 + y)^{2}} + \cdots + \frac{P M T + F V}{(1 + y)^{N}}} - t / T \tag {A6.15}
 $$
 
 This is equation 6.14 in the text.
@@ -4747,45 +4747,45 @@ This is equation 6.14 in the text.
 A6.4 is the first derivative of  $MV$  with respect to  $y$ ; this is the second derivative.
 
 $$
-\begin{array}{l} \frac {\partial^ {2} M V}{\partial y ^ {2}} = \left(2 * \frac {\partial P V}{\partial y} * t / T * (1 + y) ^ {t / T - 1}\right) + \left(\frac {\partial^ {2} P V}{\partial y ^ {2}} * (1 + y) ^ {t / T}\right) \\ + (t / T * (t / T - 1) * P V * (1 + y) ^ {t / T - 2}) \tag {A6.16} \\ \end{array}
+\begin{array}{l} \frac{\partial^{2} M V}{\partial y^{2}} = \left(2 * \frac{\partial P V}{\partial y} * t / T * (1 + y)^{t / T - 1}\right) + \left(\frac{\partial^{2} P V}{\partial y^{2}} * (1 + y)^{t / T}\right) \\ + (t / T * (t / T - 1) * P V * (1 + y)^{t / T - 2}) \tag {A6.16} \\ \end{array}
 $$
 
 At this point it is useful to define the Macaulay duration and convexity statistics as of the beginning of the period when  $t / T = 0$  and there are  $N$  full periods to maturity.
 
 $$
-\text {M a c a u l a y D u r a t i o n} (t / T = 0) \equiv - \frac {\partial P V}{\partial y} * \frac {1 + y}{P V} \tag {A6.17}
+\text{Ma ca ul ay Du ra ti on} (t / T = 0) \equiv - \frac{\partial P V}{\partial y} * \frac{1 + y}{P V} \tag {A6.17}
 $$
 
 $$
-\operatorname {C o n v e x i t y} (t / T = 0) \equiv \frac {\partial^ {2} P V}{\partial y ^ {2}} * \frac {1}{P V} \tag {A6.18}
+\operatorname{Co nv ex it y} (t / T = 0) \equiv \frac{\partial^{2} P V}{\partial y^{2}} * \frac{1}{P V} \tag {A6.18}
 $$
 
 Divide A6.16 by  $MV$ , using A6.3.
 
 $$
-\begin{array}{l} \frac {\partial^ {2} M V}{\partial y ^ {2}} * \frac {1}{M V} = \left(2 * \frac {\partial P V}{\partial y} * \frac {1}{P V} * t / T * \frac {1}{1 + y}\right) + \left(\frac {\partial^ {2} P V}{\partial y ^ {2}} * \frac {1}{P V}\right) \\ + \left(t / T * (t / T - 1) * \frac {1}{(1 + y) ^ {2}}\right) \tag {A6.19} \\ \end{array}
+\begin{array}{l} \frac{\partial^{2} M V}{\partial y^{2}} * \frac{1}{M V} = \left(2 * \frac{\partial P V}{\partial y} * \frac{1}{P V} * t / T * \frac{1}{1 + y}\right) + \left(\frac{\partial^{2} P V}{\partial y^{2}} * \frac{1}{P V}\right) \\ + \left(t / T * (t / T - 1) * \frac{1}{(1 + y)^{2}}\right) \tag {A6.19} \\ \end{array}
 $$
 
 This is the general definition of convexity, equation 6.6 in the text. Substitute A6.17 and A6.18 and rearrange the terms algebraically. This produces equation 6.17.
 
 $$
-\begin{array}{l} \text {C o n v e x i t y} = \text {C o n v e x i t y} (t / T = 0) - \frac {t / T}{(1 + y) ^ {2}} \tag {A6.20} \\ * [ (2 * M a c D u r (t / T = 0)) + (1 - t / T) ] \\ \end{array}
+\begin{array}{l} \text{Co nv ex it y} = \text{Co nv ex it y} (t / T = 0) - \frac{t / T}{(1 + y)^{2}} \tag {A6.20} \\ * [ (2 * M a c D u r (t / T = 0)) + (1 - t / T) ] \\ \end{array}
 $$
 
 The closed-form equation for convexity on a coupon date is derived by taking the second partial derivative of  $PV$  with respect to  $y$ . The first derivative is A6.9. The second derivative is this expression.
 
 $$
-\begin{array}{l} \frac {\partial^ {2} P V}{\partial y ^ {2}} = \left\{- \left[ \frac {c}{y} * \frac {N * (N + 1)}{(1 + y) ^ {N + 2}} \right] - \left[ \frac {2 * c}{y ^ {2}} * \left(\frac {N}{(1 + y) ^ {N + 1}}\right) \right] \right. \tag {A6.21} \\ \left. + \frac {2 * c}{y ^ {3}} * \left(1 - \frac {1}{(1 + y) ^ {N}}\right) + \left[ \frac {N * (N + 1)}{(1 + y) ^ {N + 2}} \right] \right\} * F V \\ \end{array}
+\begin{array}{l} \frac{\partial^{2} P V}{\partial y^{2}} = \left\{- \left[ \frac{c}{y} * \frac{N * (N + 1)}{(1 + y)^{N + 2}} \right] - \left[ \frac{2 * c}{y^{2}} * \left(\frac{N}{(1 + y)^{N + 1}}\right) \right] \right. \tag {A6.21} \\ \left. + \frac{2 * c}{y^{3}} * \left(1 - \frac{1}{(1 + y)^{N}}\right) + \left[ \frac{N * (N + 1)}{(1 + y)^{N + 2}} \right] \right\} * F V \\ \end{array}
 $$
 
 Divide this by  $PV$ , as defined in A6.8, and then multiply the numerator and denominator by the quantity  $[y^3 * (1 + y)^{N + 2}]$  and rearrange terms to obtain this expression:
 
 $$
-\left[ 2 * c * (1 + y) ^ {2} * \left((1 + y) ^ {N} - \frac {1 + y + (y * N)}{1 + y}\right) \right]
+\left[ 2 * c * (1 + y)^{2} * \left((1 + y)^{N} - \frac{1 + y + (y * N)}{1 + y}\right) \right]
 $$
 
 $$
-\frac {\partial^ {2} P V}{\partial y ^ {2}} * \frac {1}{P V} = \frac {+ [ N * (N + 1) * y ^ {2} * (y - c) ]}{y ^ {2} * (1 + y) ^ {2} * (c * [ (1 + y) ^ {N} - 1 ] + y)} \tag {A6.22}
+\frac{\partial^{2} P V}{\partial y^{2}} * \frac{1}{P V} = \frac{+ [ N * (N + 1) * y^{2} * (y - c) ]}{y^{2} * (1 + y)^{2} * (c * [ (1 + y)^{N} - 1 ] + y)} \tag {A6.22}
 $$
 
 This is equation 6.16 in Chapter 6.
@@ -4795,7 +4795,7 @@ This is equation 6.16 in Chapter 6.
 Equation 7.6 provides a general pricing formula for a floating-rate note. It is repeated here.
 
 $$
-M V = \frac {I N T + F V + P V _ {A N N}}{(1 + y) ^ {1 - t / T}} \tag {A7.1}
+M V = \frac{I N T + F V + P V_{A N N}}{(1 + y)^{1 - t / T}} \tag {A7.1}
 $$
 
 $MV$  is the market value of the floater, including accrued interest;  $INT$  is the next interest payment;  $FV$  is the face (or par) value;  $PV_{ANN}$  is the present value of the annuity representing the difference between the quoted margin  $(QM)$  and the discount margin  $(DM)$ ,  $y$  is the yield used to discount the future cash flows, and  $t/T$  is the fraction of the period that has gone by.
@@ -4803,61 +4803,61 @@ $MV$  is the market value of the floater, including accrued interest;  $INT$  is
 The Macaulay duration of the floater (MacDurFRN) follows the Chapter 6 equation 6.3.
 
 $$
-M a c D u r F R N \equiv - \frac {d M V}{d y} * \frac {(1 + y)}{M V} \tag {A7.2}
+M a c D u r F R N \equiv - \frac{d M V}{d y} * \frac{(1 + y)}{M V} \tag {A7.2}
 $$
 
 Using A7.1, the first derivative of  $MV$  with respect to the yield  $y$  is:
 
 $$
-\frac {d M V}{d y} = - \frac {(1 - t / T) * [ I N T + F V + P V _ {A N N} ]}{(1 + y) ^ {2 - t / T}} + \frac {\frac {d P V _ {A N N}}{d y}}{(1 + y) ^ {1 - t / T}} \tag {A7.3}
+\frac{d M V}{d y} = - \frac{(1 - t / T) * [ I N T + F V + P V_{A N N} ]}{(1 + y)^{2 - t / T}} + \frac{\frac{d P V_{A N N}}{d y}}{(1 + y)^{1 - t / T}} \tag {A7.3}
 $$
 
 Substitute A7.3 and A7.1 into A7.2 to simplify.
 
 $$
-M a c D u r F R N = (1 - t / T) - \frac {\frac {d P V _ {A N N}}{d y} * (1 + y)}{M V * (1 + y) ^ {1 - t / T}} \tag {A7.4}
+M a c D u r F R N = (1 - t / T) - \frac{\frac{d P V_{A N N}}{d y} * (1 + y)}{M V * (1 + y)^{1 - t / T}} \tag {A7.4}
 $$
 
 Here it is useful to define the Macaulay duration of the annuity term  $(DUR_{ANN})$  to be:
 
 $$
-D U R _ {A N N} \equiv - \frac {d P V _ {A N N}}{d y} * \frac {(1 + y)}{P V _ {A N N}} \tag {A7.5}
+D U R_{A N N} \equiv - \frac{d P V_{A N N}}{d y} * \frac{(1 + y)}{P V_{A N N}} \tag {A7.5}
 $$
 
 Substitute A7.5 into A7.4.
 
 $$
-M a c D u r F R N = (1 - t / T) + \left(\frac {P V _ {A N N} * D U R _ {A N N}}{M V * (1 + y) ^ {1 - t / T}}\right) \tag {A7.6}
+M a c D u r F R N = (1 - t / T) + \left(\frac{P V_{A N N} * D U R_{A N N}}{M V * (1 + y)^{1 - t / T}}\right) \tag {A7.6}
 $$
 
 Equation 7.5 provides an expression for  $PV_{ANN}$ , repeated here.
 
 $$
-P V _ {A N N} = \left(\frac {(Q M - D M) * F V}{P E R * y}\right) * \left(1 - \frac {1}{(1 + y) ^ {P E R * Z - 1}}\right) \tag {A7.7}
+P V_{A N N} = \left(\frac{(Q M - D M) * F V}{P E R * y}\right) * \left(1 - \frac{1}{(1 + y)^{P E R * Z - 1}}\right) \tag {A7.7}
 $$
 
 The first derivative of  $PV_{ANN}$  with respect to  $y$  is:
 
 $$
-\begin{array}{l} \frac {d P V _ {A N N}}{d y} = \left(\frac {(Q M - D M) * F V}{P E R}\right) \\ * \left[ - \frac {1}{y ^ {2}} * \left(1 - \frac {1}{(1 + y) ^ {P E R} * Z - 1}\right) + \frac {1}{y} * \left(\frac {P E R * Z - 1}{(1 + y) ^ {P E R} * Z}\right) \right] \tag {A7.8} \\ \end{array}
+\begin{array}{l} \frac{d P V_{A N N}}{d y} = \left(\frac{(Q M - D M) * F V}{P E R}\right) \\ * \left[ - \frac{1}{y^{2}} * \left(1 - \frac{1}{(1 + y)^{P E R} * Z - 1}\right) + \frac{1}{y} * \left(\frac{P E R * Z - 1}{(1 + y)^{P E R} * Z}\right) \right] \tag {A7.8} \\ \end{array}
 $$
 
 Substitute A7.7 and A7.8 into A7.5 and rearrange terms.
 
 $$
-D U R _ {A N N} = \frac {1 + y}{y} - \frac {P E R * Z - 1}{(1 + y) ^ {P E R * Z - 1} - 1} \tag {A7.9}
+D U R_{A N N} = \frac{1 + y}{y} - \frac{P E R * Z - 1}{(1 + y)^{P E R * Z - 1} - 1} \tag {A7.9}
 $$
 
 Finally, substitute A7.9 into A7.6 and use A7.1 to get equation 7.9 in the text.
 
 $$
-\begin{array}{l} M a c D u r F R N = (1 - t / T) + \left(1 - \frac {I N T + F V}{M V * (1 + y) ^ {1 - t / T}}\right) \tag {A7.10} \\ * \left(\frac {1 + y}{y} - \frac {P E R * Z - 1}{(1 + y) ^ {P E R * Z - 1} - 1}\right) \\ \end{array}
+\begin{array}{l} M a c D u r F R N = (1 - t / T) + \left(1 - \frac{I N T + F V}{M V * (1 + y)^{1 - t / T}}\right) \tag {A7.10} \\ * \left(\frac{1 + y}{y} - \frac{P E R * Z - 1}{(1 + y)^{P E R * Z - 1} - 1}\right) \\ \end{array}
 $$
 
 Equation 7.11 gives the threshold inflation rate, which indicates the point at which after-tax cash flows on a P-Linker become negative.
 
 $$
-\text {T h r e s h o l d I n f l a t i o n R a t e} = \frac {\text {F i x e d R a t e} * (1 - \text {T a x R a t e})}{\text {T a x R a t e} - \text {F i x e d R a t e} * (1 - \text {T a x R a t e})} \tag {A7.11}
+\text{Th re sh ol dI nf la ti on Ra te} = \frac{\text{Fi xe dR at e} * (1 - \text{Ta xR at e})}{\text{Ta xR at e} - \text{Fi xe dR at e} * (1 - \text{Ta xR at e})} \tag {A7.11}
 $$
 
 Fixed Rate is the coupon interest rate on the P-Linker, and Tax Rate is the ordinary income tax rate. To derive A7.11, let  $AP$  stand for the accrued principal on the P-Linker at the end of a given year. The accrued principal
@@ -4865,27 +4865,27 @@ Fixed Rate is the coupon interest rate on the P-Linker, and Tax Rate is the ordi
 at the end of the previous year is  $AP(-1)$ . The inflation rate for the year is given by:
 
 $$
-I n f l a t i o n \quad R a t e = \frac {A P - A P (- 1)}{A P (- 1)} \tag {A7.12}
+I n f l a t i o n \quad R a t e = \frac{A P - A P (- 1)}{A P (- 1)} \tag {A7.12}
 $$
 
-The interest income for the year is  $AP * \text{Fixed Rate}$ . The tax obligation is  $Tax \, \text{Rate} * AP * \text{Fixed Rate}$ , the ordinary tax rate times the interest income, plus the tax owed on the phantom income,  $Tax \, \text{Rate} * [AP - AP(-1)]$ .
+The interest income for the year is  $AP * \text{FixedRate}$ . The tax obligation is  $Tax \, \text{Rate} * AP * \text{FixedRate}$ , the ordinary tax rate times the interest income, plus the tax owed on the phantom income,  $Tax \, \text{Rate} * [AP - AP(-1)]$ .
 
 Set the interest income equal to the tax obligation so the after-tax cash flow is zero.
 
 $$
-A P * \text {F i x e d R a t e} = \text {T a x R a t e} * A P * \text {F i x e d R a t e} + \text {T a x R a t e} * [ A P - A P (- 1) ] \tag {A7.13}
+A P * \text{Fi xe dR at e} = \text{Ta xR at e} * A P * \text{Fi xe dR at e} + \text{Ta xR at e} * [ A P - A P (- 1) ] \tag {A7.13}
 $$
 
 Rearrange A7.13 algebraically to get:
 
 $$
-\frac {A P - A P (- 1)}{A P (- 1)} = \frac {\text {F i x e d R a t e} * (1 - \text {T a x R a t e})}{\text {T a x R a t e} - \text {F i x e d R a t e} * (1 - \text {T a x R a t e})} \tag {A7.14}
+\frac{A P - A P (- 1)}{A P (- 1)} = \frac{\text{Fi xe dR at e} * (1 - \text{Ta xR at e})}{\text{Ta xR at e} - \text{Fi xe dR at e} * (1 - \text{Ta xR at e})} \tag {A7.14}
 $$
 
 The derivation of equation 7.15, the real rate Macaulay duration for the P-Linker (RealMacDurPLINK), follows the same pattern as the derivations for Chapter 6. We start with the pricing formula for the P-Linker given in equation 7.14, repeated here.
 
 $$
-P V _ {P L I N K} = \frac {c * F V}{r} * \left(1 - \frac {1}{(1 + r) ^ {N}}\right) + \frac {F V}{(1 + r) ^ {N}} \tag {A7.15}
+P V_{P L I N K} = \frac{c * F V}{r} * \left(1 - \frac{1}{(1 + r)^{N}}\right) + \frac{F V}{(1 + r)^{N}} \tag {A7.15}
 $$
 
 The fixed coupon rate is  $c$ ; the real rate is  $r$ , the face (or par) value is  $FV$ , and the number of periods to maturity is  $N$ .
@@ -4893,25 +4893,25 @@ The fixed coupon rate is  $c$ ; the real rate is  $r$ , the face (or par) value 
 The real rate Macaulay duration is defined to be:
 
 $$
-\text {R e a l M a c D u r P L I N K} \equiv - \frac {d P V _ {\text {P L I N K}}}{d r} * \frac {(1 + r)}{P V _ {\text {P L I N K}}} \tag {A7.16}
+\text{Re al Ma cD ur PL IN K} \equiv - \frac{d P V_{\text{PL IN K}}}{d r} * \frac{(1 + r)}{P V_{\text{PL IN K}}} \tag {A7.16}
 $$
 
 The first derivative of the market value of the P-Linker in A7.15 with respect to the real rate  $r$  is:
 
 $$
-\begin{array}{l} \frac {d P V _ {P L I N K}}{d r} = - \frac {c * F V}{r ^ {2}} * \left(1 - \frac {1}{(1 + r) ^ {N}}\right) + \frac {c * F V}{r} * \left(\frac {N}{(1 + r) ^ {N + 1}}\right) \\ - \frac {N * F V}{(1 + r) ^ {N + 1}} \tag {A7.17} \\ \end{array}
+\begin{array}{l} \frac{d P V_{P L I N K}}{d r} = - \frac{c * F V}{r^{2}} * \left(1 - \frac{1}{(1 + r)^{N}}\right) + \frac{c * F V}{r} * \left(\frac{N}{(1 + r)^{N + 1}}\right) \\ - \frac{N * F V}{(1 + r)^{N + 1}} \tag {A7.17} \\ \end{array}
 $$
 
 Multiply this expression by  $(1 + r)$ , divide by  $PV_{PLINK}$ , as defined in A7.15, and rearrange the terms algebraically (as in equations A6.9 through A6.13) to get:
 
 $$
-R e a l M a c D u r P L I N K = \frac {1 + r}{r} - \frac {1 + r + [ N * (c - r) ]}{c * [ (1 + r) ^ {N} - 1 ] + r} \tag {A7.18}
+R e a l M a c D u r P L I N K = \frac{1 + r}{r} - \frac{1 + r + [ N * (c - r) ]}{c * [ (1 + r)^{N} - 1 ] + r} \tag {A7.18}
 $$
 
 The derivation for real rate Macaulay duration for the C-Linker, equation 7.18, is very similar. It starts with the pricing formula, equation 7.17, repeated here.
 
 $$
-P V _ {C L I N K} = \frac {(i + c) * F V}{y} * \left(1 - \frac {1}{(1 + y) ^ {N}}\right) + \frac {F V}{(1 + y) ^ {N}} \tag {A7.19}
+P V_{C L I N K} = \frac{(i + c) * F V}{y} * \left(1 - \frac{1}{(1 + y)^{N}}\right) + \frac{F V}{(1 + y)^{N}} \tag {A7.19}
 $$
 
 The nominal rate is  $y$  and the inflation rate is  $i$  — they are related to the real rate in the usual manner:  $(1 + y) = (1 + r) * (1 + i)$ .
@@ -4919,37 +4919,37 @@ The nominal rate is  $y$  and the inflation rate is  $i$  — they are related t
 The real rate Macaulay duration for the C-Linker is defined to be:
 
 $$
-R e a l M a c D u r C L I N K \equiv - \frac {d P V _ {C L I N K}}{d r} * \frac {(1 + r)}{P V _ {C L I N K}} \tag {A7.20}
+R e a l M a c D u r C L I N K \equiv - \frac{d P V_{C L I N K}}{d r} * \frac{(1 + r)}{P V_{C L I N K}} \tag {A7.20}
 $$
 
 The first derivative of  $PV_{CLINK}$  with respect to the real rate  $r$  is:
 
 $$
-\begin{array}{l} \frac {d P V _ {C L I N K}}{d r} = - \frac {(1 + i) * (c + i) * F V}{y ^ {2}} * \left(1 - \frac {1}{(1 + y) ^ {N}}\right) \\ + \frac {(c + i) * F V}{y} * \left(\frac {N * (1 + i)}{(1 + y) ^ {N + 1}}\right) - \frac {N * (1 + i) * F V}{(1 + y) ^ {N + 1}} \tag {A7.21} \\ \end{array}
+\begin{array}{l} \frac{d P V_{C L I N K}}{d r} = - \frac{(1 + i) * (c + i) * F V}{y^{2}} * \left(1 - \frac{1}{(1 + y)^{N}}\right) \\ + \frac{(c + i) * F V}{y} * \left(\frac{N * (1 + i)}{(1 + y)^{N + 1}}\right) - \frac{N * (1 + i) * F V}{(1 + y)^{N + 1}} \tag {A7.21} \\ \end{array}
 $$
 
 Note that the changes in the real rate  $r$  work through the nominal rate  $y$ . Multiply this expression by  $(1 + r)$ , divide by  $PV_{\text{CLINK}}$  as defined in A7.19, and rearrange the terms algebraically to get equation 7.18 in the text.
 
 $$
-\operatorname {R e a l M a c D u r C L I N K} = \frac {1 + y}{y} - \frac {1 + y + [ N * (c - r * (1 + i)) ]}{(c + i) * [ (1 + y) ^ {N} - 1 ] + y} \tag {A7.22}
+\operatorname{Re al Ma cD ur CL IN K} = \frac{1 + y}{y} - \frac{1 + y + [ N * (c - r * (1 + i)) ]}{(c + i) * [ (1 + y)^{N} - 1 ] + y} \tag {A7.22}
 $$
 
 The inflation rate Macaulay duration for the C-Linker is defined to be:
 
 $$
-I n f l a t i o n M a c D u r C L I N K \equiv \frac {d P V _ {C L I N K}}{d i} * \frac {(1 + i)}{P V _ {C L I N K}} \tag {A7.23}
+I n f l a t i o n M a c D u r C L I N K \equiv \frac{d P V_{C L I N K}}{d i} * \frac{(1 + i)}{P V_{C L I N K}} \tag {A7.23}
 $$
 
 Its derivation is a bit more complicated because changes in the inflation rate  $i$  in the C-Linker pricing equation A7.19 enter directly as well as indirectly via the nominal rate  $y$ . The derivative is:
 
 $$
-\begin{array}{l} \frac {d P V _ {C L I N K}}{d i} = - \frac {(1 + r) * (c + i) * F V}{y ^ {2}} * \left(1 - \frac {1}{(1 + y) ^ {N}}\right) + \frac {(c + i) * F V}{y} \\ * \left(\frac {N * (1 + r)}{(1 + y) ^ {N + 1}}\right) - \frac {N * (1 + r) * F V}{(1 + y) ^ {N + 1}} + \frac {F V}{y} * \left(1 - \frac {1}{(1 + y) ^ {N}}\right) \tag {A7.24} \\ \end{array}
+\begin{array}{l} \frac{d P V_{C L I N K}}{d i} = - \frac{(1 + r) * (c + i) * F V}{y^{2}} * \left(1 - \frac{1}{(1 + y)^{N}}\right) + \frac{(c + i) * F V}{y} \\ * \left(\frac{N * (1 + r)}{(1 + y)^{N + 1}}\right) - \frac{N * (1 + r) * F V}{(1 + y)^{N + 1}} + \frac{F V}{y} * \left(1 - \frac{1}{(1 + y)^{N}}\right) \tag {A7.24} \\ \end{array}
 $$
 
 Multiply this expression by  $(1 + i)$ , divide by  $PV_{CLINK}$ , and rearrange the terms to get equation 7.19 in the text.
 
 $$
-\begin{array}{l} I n f l a t i o n M a c D u r C L I N K = \frac {1 + y}{y} - \frac {1 + y + [ N * (c - r * (1 + i)) ]}{(c + i) * [ (1 + y) ^ {N} - 1 ] + y} \\ - \frac {(1 + i) * [ (1 + y) ^ {N} - 1 ]}{(c + i) * [ (1 + y) ^ {N} - 1 ] + y} \tag {A7.25} \\ \end{array}
+\begin{array}{l} I n f l a t i o n M a c D u r C L I N K = \frac{1 + y}{y} - \frac{1 + y + [ N * (c - r * (1 + i)) ]}{(c + i) * [ (1 + y)^{N} - 1 ] + y} \\ - \frac{(1 + i) * [ (1 + y)^{N} - 1 ]}{(c + i) * [ (1 + y)^{N} - 1 ] + y} \tag {A7.25} \\ \end{array}
 $$
 
 # CHAPTER 9 BOND PORTFOLIOS
@@ -4961,89 +4961,89 @@ in previous chapters. Here the day-count convention (i.e., actual/actual or 30/3
 The market value for the portfolio is  $MV$  and now can include accrued interest. The future cash flows, which include coupon interest and principal redemptions, are summarized by  $CF_{n}$  for  $n = 1$  to  $N$ . These  $n$  do not have to be semiannual periods; in general, they can be months, weeks, or even days until final maturity. The cash flow yield on the portfolio, YieldPORT in the text and here just  $Y$ , is the internal rate of return, the solution to the following expression:
 
 $$
-M V = \sum_ {n = 1} ^ {N} \frac {C F _ {n}}{(1 + Y) ^ {n - f}} \tag {A9.1}
+M V = \sum_{n = 1}^{N} \frac{C F_{n}}{(1 + Y)^{n - f}} \tag {A9.1}
 $$
 
 Let  $W_{n}$  represent the weights—the shares of total market value  $MV$  corresponding to the cash flows  $(CF_{n})$  received on dates 1 to  $N$ :
 
 $$
-W _ {n} = \frac {\frac {C F _ {n}}{(1 + Y) ^ {n - f}}}{M V} \tag {A9.2}
+W_{n} = \frac{\frac{C F_{n}}{(1 + Y)^{n - f}}}{M V} \tag {A9.2}
 $$
 
 Note that the weights sum to one:
 
 $$
-\sum_ {n = 1} ^ {N} W _ {n} = 1 \tag {A9.3}
+\sum_{n = 1}^{N} W_{n} = 1 \tag {A9.3}
 $$
 
 Equations for Macaulay duration (here denoted  $D$ ) and cash flow dispersion (denoted  $S$ ) for the portfolio, equations 9.3 and 9.4, can now be written compactly as:
 
 $$
-M a c D u r P O R T = D = \sum_ {n = 1} ^ {N} (n - f) * W _ {n} \tag {A9.4}
+M a c D u r P O R T = D = \sum_{n = 1}^{N} (n - f) * W_{n} \tag {A9.4}
 $$
 
 $$
-D i s p P O R T = S = \sum_ {n = 1} ^ {N} (n - f - D) ^ {2} * W _ {n} \tag {A9.5}
+D i s p P O R T = S = \sum_{n = 1}^{N} (n - f - D)^{2} * W_{n} \tag {A9.5}
 $$
 
 The portfolio convexity (here  $X$ ) is the second derivative of A9.1 with respect to the cash flow yield  $Y$ , divided by the market value  $MV$ .
 
 $$
-\text {C o n v e x i t y} = X \equiv \frac {d ^ {2} M V}{d Y ^ {2}} * \frac {1}{M V} \tag {A9.6}
+\text{Co nv ex it y} = X \equiv \frac{d^{2} M V}{d Y^{2}} * \frac{1}{M V} \tag {A9.6}
 $$
 
 That second derivative is:
 
 $$
-\frac {d ^ {2} M V}{d Y ^ {2}} = \sum_ {n = 1} ^ {N} \frac {(n - f) * (n - f + 1) * C F _ {n}}{(1 + Y) ^ {n - f + 2}} \tag {A9.7}
+\frac{d^{2} M V}{d Y^{2}} = \sum_{n = 1}^{N} \frac{(n - f) * (n - f + 1) * C F_{n}}{(1 + Y)^{n - f + 2}} \tag {A9.7}
 $$
 
 Substitute A9.10 into A9.6 to get a general formula for the portfolio convexity statistic as of date  $f$ :
 
 $$
-X = \frac {1}{(1 + Y) ^ {2}} * \left[ \frac {\sum_ {n = 1} ^ {N} \frac {(n - f) * (n - f + 1) * C F _ {n}}{(1 + Y) ^ {n - f}}}{M V} \right] \tag {A9.8}
+X = \frac{1}{(1 + Y)^{2}} * \left[ \frac{\sum_{n = 1}^{N} \frac{(n - f) * (n - f + 1) * C F_{n}}{(1 + Y)^{n - f}}}{M V} \right] \tag {A9.8}
 $$
 
 This is the general expression for ConvPORT, equation 9.6 in the text (for which  $f = 0$ ). Using the weights, the convexity can be written as:
 
 $$
-X = \frac {1}{(1 + Y) ^ {2}} * \sum_ {n = 1} ^ {N} \left[ (n - f) ^ {2} + (n - f) \right] * W _ {n} \tag {A9.9}
+X = \frac{1}{(1 + Y)^{2}} * \sum_{n = 1}^{N} \left[ (n - f)^{2} + (n - f) \right] * W_{n} \tag {A9.9}
 $$
 
 The derivation of the general expression linking portfolio cash flow yield, Macaulay duration, dispersion, and convexity starts by adding and subtracting  $D^2$  within the brackets in equation A9.9.
 
 $$
-X = \frac {1}{(1 + Y) ^ {2}} * \sum_ {n = 1} ^ {N} [ (n - f) ^ {2} - D ^ {2} + D ^ {2} + D ^ {2} + (n - f) ] * W _ {n} \tag {A9.10}
+X = \frac{1}{(1 + Y)^{2}} * \sum_{n = 1}^{N} [ (n - f)^{2} - D^{2} + D^{2} + D^{2} + (n - f) ] * W_{n} \tag {A9.10}
 $$
 
 Using A9.4, this simplifies to:
 
 $$
-X = \frac {1}{(1 + Y) ^ {2}} * \left[ \left(\sum_ {n = 1} ^ {N} [ (n - f) ^ {2} - D ^ {2} ] * W _ {n}\right) + D ^ {2} + D \right] \tag {A9.11}
+X = \frac{1}{(1 + Y)^{2}} * \left[ \left(\sum_{n = 1}^{N} [ (n - f)^{2} - D^{2} ] * W_{n}\right) + D^{2} + D \right] \tag {A9.11}
 $$
 
 The key step in the derivation is to demonstrate that the remaining summation term in A9.11 equals the dispersion statistic,  $S$ . To see this, expand the squared term in A9.5:
 
 $$
-S = \sum_ {n = 1} ^ {N} (n - f) ^ {2} * W _ {n} - 2 * D * \sum_ {n = 1} ^ {N} (n - f) * W _ {n} + D ^ {2} * \sum_ {n = 1} ^ {N} W _ {n} \tag {A9.12}
+S = \sum_{n = 1}^{N} (n - f)^{2} * W_{n} - 2 * D * \sum_{n = 1}^{N} (n - f) * W_{n} + D^{2} * \sum_{n = 1}^{N} W_{n} \tag {A9.12}
 $$
 
 Using A9.4 this reduces to:
 
 $$
-S = \sum_ {n = 1} ^ {N} (n - f) ^ {2} * W _ {n} - D ^ {2} * \sum_ {n = 1} ^ {N} W _ {n} \tag {A9.13}
+S = \sum_{n = 1}^{N} (n - f)^{2} * W_{n} - D^{2} * \sum_{n = 1}^{N} W_{n} \tag {A9.13}
 $$
 
 This expression equals the summation term in A9.11.
 
 $$
-S = \sum_ {n = 1} ^ {N} [ (n - f) ^ {2} - D ^ {2} ] * W _ {n} \tag {A9.14}
+S = \sum_{n = 1}^{N} [ (n - f)^{2} - D^{2} ] * W_{n} \tag {A9.14}
 $$
 
 Substitute A9.14 into A9.11.
 
 $$
-X = \frac {1}{(1 + Y) ^ {2}} * [ S + D ^ {2} + D ] \tag {A9.15}
+X = \frac{1}{(1 + Y)^{2}} * [ S + D^{2} + D ] \tag {A9.15}
 $$
 
 This is the same as equation 9.7 in the text.

@@ -45,13 +45,13 @@ What is the debt capacity of the firm? What is the highest face value, F, that t
 The borrower's equity payoff from Project 1 with debt of face F is:
 
 $$
-\begin{array}{l} 1 \frac {1}{2} (1 5 0 0 - F) + \frac {1}{2} (5 0 0 - F) = 1 0 0 0 - F \quad (\text {f o r} F \leq 5 0 0) \\ 1 \frac {1}{2} (1 5 0 0 - F) + \frac {1}{2} (0) \quad (\text {f o r} F \text {b e t w e e n} 5 0 0 \text {a n d} 1 5 0 0), \\ 0 \text {f o r} F > 1 5 0 0. \\ \end{array}
+\begin{array}{l} 1 \frac{1}{2} (1 5 0 0 - F) + \frac{1}{2} (5 0 0 - F) = 1 0 0 0 - F \quad (\text{fo r} F \leq 5 0 0) \\ 1 \frac{1}{2} (1 5 0 0 - F) + \frac{1}{2} (0) \quad (\text{fo r} F \text{be tw ee n} 5 0 0 \text{an d} 1 5 0 0), \\ 0 \text{fo r} F > 1 5 0 0. \\ \end{array}
 $$
 
 The borrower's equity payoff from Project 2 with debt of face F is:
 
 $$
-\begin{array}{l} 1 / 2 (1 5 5 1 - F) + 1 / 2 (0) \quad (f o r F <   1 5 5 1) \\ 0 \quad (\text {f o r} F > 1 5 5 1) \\ \end{array}
+\begin{array}{l} 1 / 2 (1 5 5 1 - F) + 1 / 2 (0) \quad (f o r F <   1 5 5 1) \\ 0 \quad (\text{fo r} F > 1 5 5 1) \\ \end{array}
 $$
 
 The debt capacity must be less than 500, because if the firm will certainly default in Depression, all that matters is what it is worth in Prosperity.
@@ -181,7 +181,7 @@ Duplication of effort in monitoring implies that when monitoring is important, i
 
 Bonds are defined by legal contracts, called indentures, which spell out the rights and responsibilities of both sides. We will explore this contracting by reading the prospectus of a recent offering and analyzing its salient features, and by discussing contract features that arise elsewhere.
 
-On December  $13^{\text {th }}$ , MGM Mirage issued a bond:
+On December  $13^{\text{th }}$ , MGM Mirage issued a bond:
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/98287042-82d6-415f-98b5-0f347af6d1c3/282a2c0c0379d555631f526d24e3764648f7c96e641aa094fd6ab1649b8b0864.jpg)
 
@@ -550,7 +550,7 @@ This appendix briefly generalizes the example given above. The derivation is onl
 Debt uses the threat of liquidation to get the borrower to pay. Recall that the realized payoff of the project is  $V$  (either  $V = H$  or  $V = L$ ), and that the probability that  $V = H$  is  $P$ . The lenders will get an expected repayment of:  $Pf$  if  $f$  is between  $H$  and  $L$ , or  $f$ , if  $f$  does not exceed  $L$ . This implies that the lowest face value,  $f$ , that provides an expected repayment of  $1 + r$  is given by:
 
 $$
-\begin{array}{c c} \frac {1 + r}{P} & \text {i f L <   1 + r} \end{array}
+\begin{array}{c c} \frac{1 + r}{P} & \text{if L <1 +r} \end{array}
 $$
 
 $$
@@ -558,7 +558,7 @@ f = \left\{\right.
 $$
 
 $$
-\begin{array}{l l} 1 + r & \text {i f L \geq 1 + r ,} \end{array}
+\begin{array}{l l} 1 + r & \text{if L \geq1 +r ,} \end{array}
 $$
 
 so long as this value of  $f$  does not exceed  $H$ . If it exceeds  $H$ , the borrower cannot raise publicly-traded debt.
@@ -578,19 +578,19 @@ bank to monitor is not a free method of making the value of V known to the publi
 The face value of each loan is  $F$ . The constraint that the borrower not default when  $V = H$  is:
 
 $$
-F \leq H \quad (\text {L o a n r e p a m e n t i n c e n t i v e s})
+F \leq H \quad (\text{Lo an re pa me nt in ce nt iv es})
 $$
 
 The bank will provide an expected return of exactly  $r$  to each depositor if the face value per loan is given by:
 
 $$
-B = \frac {(1 + r)}{1 - (1 - P) ^ {2}}. \quad (F a c e v a l u e o f b a n k d e p o s i t s, p e r l o a n)
+B = \frac{(1 + r)}{1 - (1 - P)^{2}}. \quad (F a c e v a l u e o f b a n k d e p o s i t s, p e r l o a n)
 $$
 
 When one of the bank's two loans defaults, and it has monitored, it will collect  $F + L$ . The bank owes deposits of 2B. The bank will have the ability and incentive to pay its deposits when one of two loans default if and only if  $F + L \geq 2B = 2(1 + r) / [1 - (1 - P)^2]$  or
 
 $$
-\mathrm {F} \geq \frac {2 (1 + \mathrm {r})}{1 - (\mathrm {1 - P}) ^ {2}} - \mathrm {L} \equiv \mathrm {F} _ {\text {p a y}}. \quad (\text {b a n k c a n p a y d e p o s i t s w i t h o n e d e f a u l t})
+\mathrm{F} \geq \frac{2 (1 + \mathrm{r})}{1 - (\mathrm{1 -P})^{2}} - \mathrm{L} \equiv \mathrm{F}_{\text{pa y}}. \quad (\text{ba nk ca np ay de po si ts wi th on ed ef au lt})
 $$
 
 In addition, the banker must have incentives to monitor the loans. The cost of monitoring is incurred before the banker knows the return of the loan. When neither loan defaults, there is no effect of monitoring on the banker's receipts. When both loans default, the bank must default on its deposits, leading to liquidation giving the bank zero, and again there is no benefit to the banker from monitoring. When exactly one loan defaults, the banker's payoff if he monitors and repays the deposits is  $\mathrm{F} + \mathrm{L} - 2\mathrm{B}$ , while if the banker does not monitor the payoff is 0. Taking the expectation of the increase in the banker's payoff and subtracting the cost of monitoring 2 loans implies that when the banker has incentives to monitor, and the bank is not to fail when only one loan defaults, it must be true that:
@@ -600,7 +600,7 @@ $$
 $$
 
 $$
-\mathrm {F} \geq \frac {\mathrm {K}}{\mathrm {P} (1 - \mathrm {P})} + \frac {2 (1 + \mathrm {r})}{1 - (1 - \mathrm {P}) ^ {2}} - \mathrm {L} \equiv \mathrm {F} _ {\mathrm {I C}}. (\text {I n c e n t i v e t o m o n i t o r})
+\mathrm{F} \geq \frac{\mathrm{K}}{\mathrm{P} (1 - \mathrm{P})} + \frac{2 (1 + \mathrm{r})}{1 - (1 - \mathrm{P})^{2}} - \mathrm{L} \equiv \mathrm{F}_{\mathrm{IC}}. (\text{In ce nt iv et om on it or})
 $$
 
 Because of the cost of monitoring,  $K > 0$ , the incentive to monitor is the binding constraint, and  $F_{IC} > F_{Pay}$ . For the two-loan bank, the face value of each loan is  $F = F_{IC} = \frac{K}{P(1 - P)} + \frac{2(1 + r)}{1 - (1 - P)^2} - L$ .
@@ -608,7 +608,7 @@ Because of the cost of monitoring,  $K > 0$ , the incentive to monitor is the bi
 The bank loan is cheaper for the borrower if  $F \leq f = \frac{1 + r}{P}$ , or
 
 $$
-K \leq \frac {P (1 - P) [ 1 + r - L (2 - P) ]}{2 - P}.
+K \leq \frac{P (1 - P) [ 1 + r - L (2 - P) ]}{2 - P}.
 $$
 
 One can show that the delegation cost of monitoring declines as the bank becomes more diversified, but in cases where the number of independent loans is above 2 the equations become a bit messy. The easiest way to show the benefits of increased diversification is the show what happens as  $N$ , the number of independent loans monitored, gets arbitrarily large.
@@ -622,7 +622,7 @@ If the bank can pay  $1 + r$  per loan with monitoring, then at the margin it wi
 If the bank monitors all of its loans with face value  $F$ , incurring cost  $K$  per loan and paying  $1 + r$  in deposits per loan, it will receive an average payoff per loan of exactly  $PF + (1 - P)L - (1 + r) - K$ . The banker will receive a nonnegative profit from making and monitoring loans so long as this is nonnegative or:
 
 $$
-\mathrm {F} \geq \frac {1 + \mathrm {r} + \mathrm {K} - (1 - \mathrm {P}) \mathrm {L}}{\mathrm {P}}. (\text {m i n i m a l c o m p e n s a t i o n f o r a m o n i t o r e d l o a n})
+\mathrm{F} \geq \frac{1 + \mathrm{r} + \mathrm{K} - (1 - \mathrm{P}) \mathrm{L}}{\mathrm{P}}. (\text{mi ni ma lc om pe ns at io nf or am on it or ed lo an})
 $$
 
 The value of the minimum face value of a publicly-traded non-monitored loan,  $f = \frac{1 + r}{P}$ , is the lowest such that an expected return of  $1 + r$  is received without monitoring. If the bank makes loans with face value below  $\frac{1 + r}{P}$ , the bank will fail if it monitors none of its loans. As a result, if the bank monitors none of its loans, the banker receives nothing. For any face value of bank debt where it is preferred by borrowers to non-monitored debt, the banker will receive at least as much profit from monitoring all of its loans as monitoring none.
@@ -815,7 +815,7 @@ Suppose you own 1/100 of the old bond, with face value .016, you are offered a n
 
 The value of the old bond,  $\mathbf{B}^{\prime}$ , drops to  $0.2(.016) + 0.8(0) = 0.0032$ .
 
-The new bond is worth  $\mathrm{B_n = 0.2(.01) + 0.6(1 - B) / 100 + 0.2(0) = 0.2(0.1) + 0.6(0.007) =}$  0.0062.
+The new bond is worth  $\mathrm{B_n =0.2(.01) +0.6(1 -B) /100 +0.2(0) =0.2(0.1) +0.6(0.007) =}$  0.0062.
 
 Thus the new bond is of higher value.
 
@@ -826,7 +826,7 @@ The new bond with face value  $\mathrm{P}' = 0.5$  is small enough that it will 
 Your 1/100 part of the new bond has face value  $\mathrm{P}^{\prime} = 0.005$  and would be worth
 
 $$
-\mathrm {B} _ {\mathrm {n}} = 0. 2 (0. 0 0 5) + 0. 6 (0. 0 0 5) + 0. 2 (0) = 0. 8 (0. 0 0 5) = 0. 0 0 4.
+\mathrm{B}_{\mathrm{n}} = 0. 2 (0. 0 0 5) + 0. 6 (0. 0 0 5) + 0. 2 (0) = 0. 8 (0. 0 0 5) = 0. 0 0 4.
 $$
 
 The old bond with face value 0.016 would be paid in full when  $\mathrm{V} = 2$  and when  $\mathbf{V} = \mathbf{1}$  because there is .7 left after the bank, and  $0.99(0.5) = 0.495$  of debt is senior to you (99% are assumed to take the 0.5 face value senior bond). This leaves  $0.7 - 0.495 = 0.205 > 0.016$  to pay your bond, so the value of the old bond is:
@@ -888,7 +888,7 @@ The firm needs to raise 1 (\(1 million), and each investor requires an expected 
 The project costs 1 to fund, and its realized value is a random variable with realization denoted by  $V$ . The distribution of  $V$ , the value of the project, known to all borrowers and lenders is
 
 $$
-\begin{array}{l} H = 1. 4 \text {m i l l o n , w i t h p r o b a b i l i t y} P = 0. 8, \\ L = 1 \text {m i l l o n , w i t h p r o b a b i l i t y} 1 - P = 0. 2. \\ \end{array}
+\begin{array}{l} H = 1. 4 \text{mi ll on ,w it hp ro ba bi li ty} P = 0. 8, \\ L = 1 \text{mi ll on ,w it hp ro ba bi li ty} 1 - P = 0. 2. \\ \end{array}
 $$
 
 # A Simple Candidate for a Contract is Equity
@@ -1069,11 +1069,11 @@ If the buy is from a liquidity trader, the stock is equally likely to be worth 0
 The average profit is the average of these two "profits," so break even is when
 
 $$
-\frac {1}{2} x (a s k - 1) + \frac {1}{2} x (a s k - \frac {1}{2}) = 0 o r
+\frac{1}{2} x (a s k - 1) + \frac{1}{2} x (a s k - \frac{1}{2}) = 0 o r
 $$
 
 $$
-\mathrm {a s k} = 3 / 4.
+\mathrm{as k} = 3 / 4.
 $$
 
 (Equivalently,  $\frac{3}{4}$  is the expected value of the stock given a buy order).
@@ -1082,18 +1082,18 @@ iv. Bid price determination
 
 If a sell order comes in, and it is from an informed, it must be that the private information is that
 
-the stock is worth 0 (otherwise the informed trader would buy) and the market maker will make a "profit" of:  $0 - \text{bid} (= \text{a loss of bid} - 0)$ .
+the stock is worth 0 (otherwise the informed trader would buy) and the market maker will make a "profit" of:  $0 - \text{bid} (= \text{alossofbid} - 0)$ .
 
 If the sell is from a liquidity trader, the stock is equally likely to be worth 0 as 1, so the average profit from the trade is:  $[( \frac{1}{2} x 1) + (\frac{1}{2} x 0)] - \text{bid} = \frac{1}{2} - \text{bid}$ .
 
 A similar calculation to that for the ask, but for the bid price solves:
 
 $$
-\frac {1}{2} x (0 - \text {b i d}) + \frac {1}{2} x (\frac {1}{2} - \text {b i d}) = 0 \quad \text {o r}
+\frac{1}{2} x (0 - \text{bi d}) + \frac{1}{2} x (\frac{1}{2} - \text{bi d}) = 0 \quad \text{or}
 $$
 
 $$
-\mathrm {b i d} = 1 / 4.
+\mathrm{bi d} = 1 / 4.
 $$
 
 (Equivalently,  $\frac{1}{4}$  is the expected value of the stock given a sell order).
@@ -1992,25 +1992,25 @@ To see the effect of PBA, let us compare it with a benchmark of the case of some
 If the non PBA investor invests at date 1, the value at date 3 is 100 for sure, so if the investor invests  $\mathrm{D}_1$  at date 1, the date 3 value is:
 
 $$
-(1 0 0 / 8 0) \mathrm {D} _ {1} \text {o r}
+(1 0 0 / 8 0) \mathrm{D}_{1} \text{or}
 $$
 
 in general
 
 $$
-\left(\mathrm {V} / \mathrm {p} _ {1}\right) \mathrm {D} _ {1}.
+\left(\mathrm{V} / \mathrm{p}_{1}\right) \mathrm{D}_{1}.
 $$
 
 If instead the non PBA investor waits until date 2 to invest (and just holds treasury bills yielding  $0\%$  for the period), then the price will be 70 or 100 (with prob q and 1-q respectively). When the price drops to 70, the non PBA investor will buy  $\mathrm{D}_1$  units, and when the price is 100, the investor will continue to hold treasury bills. The expected date 3 value of waiting until date 2 to take a position is:
 
 $$
-[ \mathrm {q} (1 0 0 / 7 0) + (1 - \mathrm {q}) 1 ] \mathrm {D} _ {1} \qquad \text {o r},
+[ \mathrm{q} (1 0 0 / 7 0) + (1 - \mathrm{q}) 1 ] \mathrm{D}_{1} \qquad \text{or},
 $$
 
 in general
 
 $$
-[ \mathrm {q} (\mathrm {V} / \mathrm {p} _ {2}) + (1 - \mathrm {q}) ] \mathrm {D} _ {1}.
+[ \mathrm{q} (\mathrm{V} / \mathrm{p}_{2}) + (1 - \mathrm{q}) ] \mathrm{D}_{1}.
 $$
 
 The non PBA investor will go ahead and invest at date 1 when it gives a larger expected value of assets, or:
@@ -2020,7 +2020,7 @@ $$
 $$
 
 $$
-\mathrm {q} <   7 / 1 2 = 0. 5 8
+\mathrm{q} <   7 / 1 2 = 0. 5 8
 $$
 
 or in general:  $q \leq \frac{p_2(V - p_1)}{p_1(V - p_2)}$ .
@@ -2034,7 +2034,7 @@ If the PBA arb invests  $\mathrm{D}_1$  at date 1, his fund is closed with proba
 Investing  $\mathrm{D}_1$  at date 1 produces expected date 2 assets under management of:
 
 $$
-(1 - q) (1 0 0 / 8 0) D _ {1} + q (0).
+(1 - q) (1 0 0 / 8 0) D_{1} + q (0).
 $$
 
 The last term,  $\mathbf{q}(0)$  is zero because, if he loses money, he is out of business.
@@ -2042,21 +2042,21 @@ The last term,  $\mathbf{q}(0)$  is zero because, if he loses money, he is out o
 If the PBA arb waits until date 2 to invest, he won't lose assets under management, but with probability 1-q, the profit opportunity goes away. The expected value of date 3 assets under management if he waits to invest at date 2 it then:
 
 $$
-\mathrm {q} (1 0 0 / 7 0) \mathrm {D} _ {1} + (1 - \mathrm {q}) \mathrm {D} _ {1}.
+\mathrm{q} (1 0 0 / 7 0) \mathrm{D}_{1} + (1 - \mathrm{q}) \mathrm{D}_{1}.
 $$
 
 The PBA arb invests at date 1 when:
 
 $$
-(1 - q) (1 0 0 / 8 0) \geq q (1 0 0 / 7 0) + (1 - q) \quad \text {o r}
+(1 - q) (1 0 0 / 8 0) \geq q (1 0 0 / 7 0) + (1 - q) \quad \text{or}
 $$
 
 $$
-\mathrm {q} <   7 / 4 7 = 0. 1 5
+\mathrm{q} <   7 / 4 7 = 0. 1 5
 $$
 
 $$
-\text {o r i n g e n e r a l i f} q <   \frac {p _ {2} (V - p _ {1})}{p _ {1} (V - p _ {2}) + p _ {2} V}.
+\text{or in ge ne ra li f} q <   \frac{p_{2} (V - p_{1})}{p_{1} (V - p_{2}) + p_{2} V}.
 $$
 
 Thus, arcs subject to PBA are averse to profitable long-term bets that might go against them.
@@ -2082,7 +2082,7 @@ Suppose that at date 1 there are PBA funds and your long-term fund. The PBA fund
 # The two-period expected return of a PBA fund is:
 
 $$
-\begin{array}{l} \mathrm {q} (1 0 0 / 7 0) + (1 - \mathrm {q}) (1) = \mathrm {q} (1 + 3 / 7) + (1 - \mathrm {q}) 1 = \mathrm {q} (3 / 7) + 1 \\ = 0. 2 5 (3 / 7) + 1 = 1. 0 5 2 5 \text {(f o r} q = 0. 2 5) \\ \end{array}
+\begin{array}{l} \mathrm{q} (1 0 0 / 7 0) + (1 - \mathrm{q}) (1) = \mathrm{q} (1 + 3 / 7) + (1 - \mathrm{q}) 1 = \mathrm{q} (3 / 7) + 1 \\ = 0. 2 5 (3 / 7) + 1 = 1. 0 5 2 5 \text{(fo r} q = 0. 2 5) \\ \end{array}
 $$
 
 The twoperiod return of the long-term fund (assuming that it raises no new capital at date 2, so it can't scale up its bet if the price goes down at date 2),
@@ -2106,7 +2106,7 @@ To evaluate this further, we need to think about price formation. This gets a bi
 The prices we used in table 1 are those that prevail AFTER the arbs have put on their trades. If there were no trades coming in during a period, the price would remain unchanged. If there were only noise trading, the price goes down when noise traders sell and up when they buy. If there is also some trade by arbs, the price changes by the net amount of trade. That is:
 
 $$
-P _ {t} = \left\{ \begin{array}{l l} P _ {t - 1} + \text {N o i s e t r a d e} + \text {a r b t r a d e s} & (\text {h a p p e n s w i t h p r o b q}) \\ P _ {t - 1} + \text {N e w s t r a d e s} & (\text {h a p p e n s w i t h p r o b 1 - q}) \end{array} \right\}
+P_{t} = \left\{ \begin{array}{l l} P_{t - 1} + \text{No is et ra de} + \text{ar bt ra de s} & (\text{ha pp en sw it hp ro bq}) \\ P_{t - 1} + \text{Ne ws tr ad es} & (\text{ha pp en sw it hp ro b1 -q}) \end{array} \right\}
 $$
 
 We could allow for arb trades in addition to news trades, but in normal circumstances, news trades from many investors who see the mis-pricing will be sufficient to remove arbitrage opportunities.
@@ -2142,7 +2142,7 @@ Table 4: A delayed meltdown if LTCM can wait to liquidate:
 Let us compute the expected price change from date 1 to 2. With probability  $q$ , there is a noise trade that forces it down to 15, because LTCM is forced out. With probability  $1 - q$ , there is a news trade, that pushes the price up to 75 (and then LTCM is not forced out). The expected price change is then:
 
 $$
-\mathrm {q} (1 5 - 5 5) + (1 - \mathrm {q}) (7 5 - 5 5) = 2 0 - \mathrm {q} (6 0)
+\mathrm{q} (1 5 - 5 5) + (1 - \mathrm{q}) (7 5 - 5 5) = 2 0 - \mathrm{q} (6 0)
 $$
 
 For  $q = .25$ , this is  $+5$ , but for  $q = 0.5$ , it is  $-10$ . Let's assume  $q = 0.5$ , and we will learn something about the front running problem faced by LTCM.
@@ -2193,7 +2193,7 @@ There is a lower value of value of Terra and Luna together if Terra is not a sta
 
 Case A (no run) Suppose everyone expects TerraUSD to survive, be worth  $1 and be stable, and \mathrm{T} < \mathrm{VS}$  the value if it persists as a stable coin. In this case the value of Luna (equity) is VS -  $\mathrm{T} > 0$ . One could convert Terra to Luna at  $\$ 1$ , but would have no reason to do so once the value of Terra is  $\$ 1$ . This is a self-fulfilling prophecy. For the numbers, suppose that  $\mathrm{T} = 25$ . Then Terra USD is worth 25 and Luna is worth VS-T = 30 - 25 = 5.
 
-Case B (run). Suppose that the value of Terra satisfies  $T > \mathrm{VU}$ . If this happens then the value of Luna today is zero because it would be  $\mathrm{VU - T < 0}$ , apart from limited liability. For the numbers, suppose that  $T = 25$ , then Terra is worth  $\mathrm{VU} = 10$  and Luna is worth zero.
+Case B (run). Suppose that the value of Terra satisfies  $T > \mathrm{VU}$ . If this happens then the value of Luna today is zero because it would be  $\mathrm{VU -T <0}$ , apart from limited liability. For the numbers, suppose that  $T = 25$ , then Terra is worth  $\mathrm{VU} = 10$  and Luna is worth zero.
 
 In a run, anyone who holds Terra would want to convert to Luna if the price valued a TerraUSD at \$1, and the stable coin Terra will not persist. Terra will drop in value to VU, Luna will be worth zero and there will be run on the stable coin because it is unstable. Terra will become an unstable coin.
 

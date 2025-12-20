@@ -374,13 +374,13 @@ During the financial crisis, the Fed also significantly reduced the spread (prem
 The third monetary policy tool available to the Federal Reserve to achieve its monetary targets is depository institution reserve requirements. As defined previously, reserve requirements determine the minimum amount of reserve assets (vault cash plus bank deposits at Federal Reserve Banks) that depository institutions must maintain by law to back transaction deposit accounts (e.g., demand deposits and interest-bearing checking accounts) held as liabilities on their balance sheets. This requirement is usually set as a ratio of transaction accounts—for example, 10 percent (see Chapter 13 for a detailed description of the process used by depository institutions to calculate required reserves). A decrease in the reserve requirement ratio means that depository institutions may hold fewer reserves (vault cash plus reserve deposits at the Fed) against their transaction accounts (deposits). Consequently, they are able to lend out a greater percentage of their deposits, thus increasing credit availability in the economy. As new loans are issued and used to finance consumption and investment expenditures, some of these funds spent will return to depository institutions as new deposits by those receiving them in return for supplying consumer and investment goods to bank borrowers. In turn, these new deposits, after deducting the appropriate reserve requirement, can be used by banks to create additional loans, and so on. This process continues until the banks' deposits have grown sufficiently large such that banks willingly hold their current reserve balances at the new lower reserve ratio. Thus, a decrease in the reserve requirement results in a multiplier increase in the supply of bank deposits and thus the money supply. The multiplier effect can be written as follows:
 
 $$
-\begin{array}{l} \text {C h a n g e i n b a n k d e p o s i t s} = (1 / \text {N e w r e s e r v e r e q u i r m e n t}) \\ \times \text {I n c r e a s e i n r e s e r v e s c r e a t e d b y r e s e r v e r e q u i r m e n t c h a n g e} \\ \end{array}
+\begin{array}{l} \text{Ch an ge in ba nk de po si ts} = (1 / \text{Ne wr es er ve re qu ir me nt}) \\ \times \text{In cr ea se in re se rv es cr ea te db yr es er ve re qu ir me nt ch an ge} \\ \end{array}
 $$
 
 Conversely, an increase in the reserve requirement ratio means that depository institutions must hold more reserves against the transaction accounts (deposits) on their balance sheet. Consequently, they are able to lend out a smaller percentage of their deposits than before, thus decreasing credit availability and lending, and eventually, leading to a multiple contraction in deposits and a decrease in the money supply. Now the multiplier effect is written as:
 
 $$
-\begin{array}{l} \text {C h a n g e i n b a n k d e p o s i t s} = (1 / \text {N e w r e s e r v e r e q u i r e m e n t}) \\ \times \text {D e c r e a s e i n r e s e r v e s c r e a t e d b y r e s e r v e r e q u i r m e n t c h a n g e} \\ \end{array}
+\begin{array}{l} \text{Ch an ge in ba nk de po si ts} = (1 / \text{Ne wr es er ve re qu ir em en t}) \\ \times \text{De cr ea se in re se rv es cr ea te db yr es er ve re qu ir me nt ch an ge} \\ \end{array}
 $$
 
 # EXAMPLE 4-3 Increasing the Money Supply by Lowering Banks' Reserve Requirements on Transaction Accounts
@@ -413,13 +413,13 @@ Figure 4-5 Deposit Growth Multiplier
 While the deposit multiplier effect has been illustrated here using the example of a change in reserve requirements, it also holds when other monetary policy tools or instruments are changed as well (e.g., open market operations). For example, suppose the FOMC instructs the FRBNY Trading Desk to purchase  \$200 million in U.S. Treasury securities. If the reserve requirement is set at 10 percent, the\$ 200 million open market purchase will result in an increase in bank reserves of \$200 million, and ultimately, via the multiplier (1/0.1), an increase in bank deposits and the money supply of \$2 billion:
 
 $$
-1 / 0. 1 \times \$ 2 0 0 \text {m i l l o n} = \$ 2, 0 0 0 \text {m i l l o n} = \$ 2 \text {b i l l o n}
+1 / 0. 1 \times \$ 2 0 0 \text{mi ll on} = \$ 2, 0 0 0 \text{mi ll on} = \$ 2 \text{bi ll on}
 $$
 
 We have made some critical assumptions about the behavior of banks and borrowers to simplify our illustration of the impact of a change in open market operations and reserve requirements on bank deposits and the money supply. In Example 4-3 we assume that City Bank is the only bank, that it converts all (100 percent) of its excess reserves into loans, that all (100 percent) of these funds are spent by borrowers, and that all are returned to City Bank as "new" transaction deposits. If these assumptions are relaxed, the overall impact of a decrease in the reserve requirement ratio, or increase in excess reserves from an open market purchase, on the amount of bank deposits and the money supply will be smaller than illustrated, albeit still a multiplier similar to that above, and the precise effect of a change in the reserve base on the money supply is less certain. For example, in Example 4-3, if only 90 percent of any funds lent by City Bank are returned to the bank in the form of transaction deposits and 10 percent is held in cash, then the resulting change in City Bank's deposits will be:
 
 $$
-\begin{array}{l} \text {C h a n g e i n b a n k d e p o s i t s} = [ 1 / (\text {N e w r e s e r v e r e q u i r e m e n t} + \mathrm {c}) ] \\ \times \text {C h a n g e i n r e s e r v e s c r e a t e d b y r e s e r v e r e q u i r m e n t c h a n g e} \\ \end{array}
+\begin{array}{l} \text{Ch an ge in ba nk de po si ts} = [ 1 / (\text{Ne wr es er ve re qu ir em en t} + \mathrm{c}) ] \\ \times \text{Ch an ge in re se rv es cr ea te db yr es er ve re qu ir me nt ch an ge} \\ \end{array}
 $$ where  c  is the public's cash-to-deposit ratio or preference for holding cash outside banks relative to bank deposits  = 0.1  (or  10 / 100 ). Thus, City Bank's change in deposits  = [1 / (0.05 + 0.1)] \times (40\mathrm{m} - 20\mathrm{m}) = \ 133.33  million.
 
 

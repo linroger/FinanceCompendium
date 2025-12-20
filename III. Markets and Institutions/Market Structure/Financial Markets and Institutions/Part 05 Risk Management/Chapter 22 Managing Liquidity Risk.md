@@ -190,7 +190,7 @@ The average cost of core deposits is 6 percent and the average yield on loans is
 Decrease in interest income-loans
 
 $$
-- 0. 0 8 \times \$ 2 \mathrm {m} = - \$ 1 6 0, 0 0 0
+- 0. 0 8 \times \$ 2 \mathrm{m} = - \$ 1 6 0, 0 0 0
 $$
 
 Decrease in interest expense-core deposits
@@ -210,13 +210,13 @@ If the DI uses purchased liquidity management to manage liquidity risk, it issue
 Decrease in interest expense-core deposits
 
 $$
-- 0. 0 6 \times \$ 2 \mathrm {m} = \quad \$ 1 2 0, 0 0 0
+- 0. 0 6 \times \$ 2 \mathrm{m} = \quad \$ 1 2 0, 0 0 0
 $$
 
 Increase in interest expense—short-term debt
 
 $$
-- (- 0. 0 7 5) \times \$ 2 \mathrm {m} = - \$ 1 5 0, 0 0 0
+- (- 0. 0 7 5) \times \$ 2 \mathrm{m} = - \$ 1 5 0, 0 0 0
 $$
 
 Change in net income
@@ -252,13 +252,13 @@ The difference between a DI's average loans and average (core) deposits.
 Financing Gap and the Financing Requirement. A first way to measure liquidity risk exposure is to determine the DI's financing gap. As we discussed earlier, even though demand depositors can withdraw their funds immediately, they do not do so in normal circumstances. On average, most demand deposits stay at DIs for quite long periods, often two years or more. Thus, a DI manager often thinks of the average deposit base, including demand deposits, as a core source of funds that over time can fund a DI's average amount of loans. We define a financing gap as the difference between a DI's average loans and average (core) deposits, or:
 
 $$
-\text {F i n a n c i n g} = \text {A v e r a g e l o a n s - A v e r a g e d e p o s i t s}
+\text{Fi na nc in g} = \text{Av er ag el oa ns -A ve ra ge de po si ts}
 $$
 
 If this financing gap is positive, the DI must find liquidity to fund the gap. This funding can come via either purchased liquidity management (i.e., borrowing funds) or stored liquidity management (i.e., liquidating assets), as discussed previously. Thus:
 
 $$
-\text {F i n a n c i n g} = - \text {L i q u i d a s s e t s} + \text {B o r r o w e d f u n d s}
+\text{Fi na nc in g} = - \text{Li qu id as se ts} + \text{Bo rr ow ed fu nd s}
 $$
 
 We can write this relationship as:
@@ -274,7 +274,7 @@ As expressed in this fashion, the liquidity and managerial implications of the f
 The balance sheet in Table 22-8 indicates the relationship between the financing gap, liquid assets, and the borrowed funds financing requirement. This is seen in the following equation:
 
 $$
-\begin{array}{l l} \text {F i n a n c i n g g a p} & + \text {L i q u i d a s s e t s} \\ (\S 5 \text {m i l l o n}) & (\S 5 \text {m i l l o n}) \end{array} = \begin{array}{l} \text {F i n a n c i n g r e q u i r e m e n t} \\ (\S 1 0 \text {m i l l o n}) \end{array}
+\begin{array}{l l} \text{Fi na nc in gg ap} & + \text{Li qu id as se ts} \\ (\S 5 \text{mi ll on}) & (\S 5 \text{mi ll on}) \end{array} = \begin{array}{l} \text{Fi na nc in gr eq ui re me nt} \\ (\S 1 0 \text{mi ll on}) \end{array}
 $$
 
 A widening financing gap can warn of future liquidity problems for a DI since it may indicate increased deposit withdrawals (core deposits falling below  \$20 million in Table 22-8) and increasing loans due to more exercise of loan commitments (loans rising above\$ 25 million). If the DI does not reduce its liquid assets—that is, if they stay at 5 million—the manager must resort to more money market borrowings. As these borrowings rise, sophisticated lenders in the money market may be concerned about the DI's creditworthiness. They may react by imposing higher-risk premiums on borrowed funds or establishing stricter credit limits by not rolling over funds lent to the DI. If the DI's financing requirements dramatically exceed such limits, it may become insolvent.
@@ -308,7 +308,7 @@ A measure of the potential losses a DI could suffer as the result of a sudden (o
 Liquidity Index. A final way to measure liquidity risk is to use a liquidity index. This index measures the potential losses a DI could suffer from a sudden or fire-sale disposal of assets compared to the amount it would receive at a fair market value established under normal market conditions, which might take a lengthy period of time as a result of a careful search and bidding process. The larger the differences between immediate fire-sale asset prices  $(P_{i})$  and fair market prices  $\left(P_{i}^{*}\right)$ , the less liquid is the DI's portfolio of assets. Define an index I such that:
 
 $$
-\mathrm {I} = \sum_ {i = 1} ^ {N} [ (w _ {i}) (P _ {i} / P _ {i} ^ {*}) ]
+\mathrm{I} = \sum_{i = 1}^{N} [ (w_{i}) (P_{i} / P_{i}^{*}) ]
 $$ where
 
 
@@ -316,13 +316,13 @@ $w_{i} =$  Percentage of each asset in the DI's portfolio
 
 $$
 
-\sum w _ {i} = 1
+\sum w_{i} = 1
 
 $$
 
 $P_{i} =$  Price if a DI liquidates asset  $i$  today
 
-$P_{i}^{*} = \text{Price if a DI liquidates asset } i \text{ at some future point in time (e.g., in one month)}$
+$P_{i}^{*} = \text{Priceifa DIliquidatesasset } i \text{ atsomefuturepointintime (e.g.,inonemonth)}$
 
 The liquidity index will always lie between 0 and 1. The liquidity index for a particular DI could also be compared with indexes calculated for a peer group of similar DIs.
 
@@ -356,7 +356,7 @@ The liquidity coverage ratio (LCR) aims to ensure that a DI maintains an adequat
 
 $$
 
-\text{Liquidity coverage ratio} = \frac {\text {Stock of high - quality liquid assets}}{\text {Total net cash outflows over the next 30 calendar days}} \geq 100 \%
+\text{Liquiditycoverageratio} = \frac{\text{Stockofhigh -qualityliquidassets}}{\text{Totalnetcashoutflowsoverthenext30calendardays}} \geq 100 \%
 
 $$
 
@@ -366,7 +366,7 @@ The NSFR is intended to ensure that long-term assets are funded with stable liab
 
 $$
 
-\text{Net stable funding ratio} = \frac{\text{Available amount of stable funding}}{\text{Required amount of stable funding}} >100\%
+\text{Netstablefundingratio} = \frac{\text{Availableamountofstablefunding}}{\text{Requiredamountofstablefunding}} >100\%
 
 $$
 
@@ -556,7 +556,7 @@ Now consider the investment fund with 100 shareholders who invested  \$1 each fo
 
 $$
 
-P = \frac {\text {V a l u e o f a s s e t s}}{\text {S h a r e s o u t s t a n d i n g}} = \text {N A V}
+P = \frac{\text{Va lu eo fa ss et s}}{\text{Sh ar es ou ts ta nd in g}} = \text{NA V}
 
 $$
 
@@ -566,7 +566,7 @@ In Table 22-13, the value of each shareholder's claim is:
 
 $$
 
-P = \frac {\mathbb {S} 9 0}{1 0 0} = \mathbb {S} 0. 9 0
+P = \frac{\mathbb {S} 9 0}{1 0 0} = \mathbb {S} 0. 9 0
 
 $$
 

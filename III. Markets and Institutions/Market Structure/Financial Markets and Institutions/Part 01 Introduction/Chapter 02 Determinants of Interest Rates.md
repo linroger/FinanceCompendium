@@ -253,7 +253,7 @@ The continual increase in the price level of a basket of goods and services.
 The first factor to affect interest rates is actual or expected inflation in the economy. Inflation of the general price index of goods and services  $(IP)$  is defined as the (percentage) increase in the price of a standardized basket of goods and services over a given period of time. The higher the level of actual or expected inflation, the higher will be the level of interest rates. The intuition behind the positive relationship between interest rates and inflation rates is that an investor who buys a financial asset must earn a higher interest rate when inflation increases to compensate for the increased cost of forgoing consumption of real goods and services today and buying these more highly priced goods and services in the future. In other words, the higher the rate of inflation, the more expensive the same basket of goods and services will be in the future. In the United States, inflation is measured using indexes such as the consumer price index  $(CPI)$  and the producer price index  $(PPI)$ . For example, the annual inflation rate using the CPI index between years  $t$  and  $t + 1$  would be equal to:
 
 $$
-\text {I n f l a t i o n} (I P) = \frac {C P I _ {t + 1} - C P I _ {t}}{C P I _ {t}} \times 1 0 0
+\text{In fl at io n} (I P) = \frac{C P I_{t + 1} - C P I_{t}}{C P I_{t}} \times 1 0 0
 $$
 
 # real risk-free rate
@@ -310,7 +310,7 @@ The risk that a security issuer will default on that security by being late on o
 Default risk is the risk that a security issuer will fail to make its promised interest and principal payments to the buyer of a security. The higher the default risk, the higher the interest rate that will be demanded by the buyer of the security to compensate him or her for this default (or credit) risk exposure. Not all securities exhibit default risk. For example, U.S. Treasury securities are regarded as having no default risk since they are issued by the U.S. government, and the probability of the U.S. government defaulting on its debt payments is practically zero given its taxation powers and its ability to print currency. Some borrowers, however, such as corporations or individuals, have less predictable cash flows (and no taxation powers), and therefore investors charge them an interest rate risk premium reflecting their perceived probability of default and the potential recovery of the amount loaned. The difference between a quoted interest rate on a security ( $\text{security } j$ ) and a Treasury security with similar maturity, liquidity, tax, and other features (such as callability or convertibility) is called a default or credit risk premium ( $DRP_{j}$ ). That is:
 
 $$
-D R P _ {j} = i _ {j t} - i _ {T t} \tag {2-3}
+D R P_{j} = i_{j t} - i_{T t} \tag {2-3}
 $$ where
 
 
@@ -326,13 +326,13 @@ In September 2019, the 10-year Treasury interest rate, or yield, was 1.47 percen
 
 $$
 
-D R P _ {A a a} = 2.98 \% - 1.47 \% = 1.51 \%
+D R P_{A a a} = 2.98 \% - 1.47 \% = 1.51 \%
 
 $$
 
 $$
 
-D R P _ {B a a} = 3.87 \% - 1.47 \% = 2.40 \%
+D R P_{B a a} = 3.87 \% - 1.47 \% = 2.40 \%
 
 $$
 
@@ -386,7 +386,7 @@ Source: U.S. Treasury, Daily Treasury Yield Curves, various dates, www.ustreas.g
 
 Putting the factors that impact interest rates in different markets together, we can use the following general equation to determine the factors that functionally impact the fair interest rate  $(i_j^*)$  on an individual (jth) financial security:
 
-$$ i _ {j} ^ {*} = f (I P, R F R, D R P _ {j}, L R P _ {j}, S C P _ {j}, M P _ {j}) \tag {2-4}
+$$ i_{j}^{*} = f (I P, R F R, D R P_{j}, L R P_{j}, S C P_{j}, M P_{j}) \tag {2-4}
 $$
 
 # DO YOU UNDERSTAND?
@@ -436,13 +436,13 @@ Market segmentation theory—assumes that investors do not consider securities w
 Figure 2-8 Unbiased Expectations Theory of the Term Structure of Interest Rates
 
 $$
-\left(1 + _ {1} R _ {N}\right) ^ {N} = \left(1 + _ {1} R _ {1}\right) \left(1 + E \left(_ {2} r _ {1}\right)\right) \dots \left(1 + E \left(_ {N} r _ {1}\right)\right) \tag {2-5}
+\left(1 +_{1} R_{N}\right)^{N} = \left(1 +_{1} R_{1}\right) \left(1 + E \left(_ {2} r_{1}\right)\right) \dots \left(1 + E \left(_ {N} r_{1}\right)\right) \tag {2-5}
 $$ therefore:
 
 
 $$
 
-{ } _ { 1 } R _ { N } = \left[ ( 1 + { } _ { 1 } R _ { 1 } ) ( 1 + E ( { } _ { 2 } r _ { 1 } ) ) \dots ( 1 + E ( { } _ { N } r _ { 1 } ) ) \right] ^ { 1 / N } - 1
+{ }_{ 1 } R_{ N } = \left[ ( 1 + { }_{ 1 } R_{ 1 } ) ( 1 + E ( { }_{ 2 } r_{ 1 } ) ) \dots ( 1 + E ( { }_{ N } r_{ 1 } ) ) \right]^{ 1 / N } - 1
 
 $$ where
 
@@ -471,7 +471,7 @@ Using the unbiased expectations theory, current (or today's) rates for one-, two
 
 $$
 
-\begin{array}{l} { } _ { 1 } R _ { 1 } = 1 . 94 \% \\ { } _ { 1 } R _ { 2 } = \left[ ( 1 + 0 . 0 1 9 4 ) ( 1 + 0 . 0 3 ) \right] ^ { 1 / 2 } - 1 = 2 . 4 7 \% \\ { } _ { 1 } R _ { 3 } = [ ( 1 + 0 . 0 1 9 4 ) ( 1 + 0 . 0 3 ) ( 1 + 0 . 0 3 7 4 ) ] ^ { 1 / 3 } - 1 = 2 . 8 9 \% \\ { } _ { 1 } R _ { 4 } = [ ( 1 + 0 . 0 1 9 4 ) ( 1 + 0 . 0 3 ) ( 1 + 0 . 0 3 7 4 ) ( 1 + 0 . 0 4 1 ) ] ^ { 1 / 4 } - 1 = 3 . 1 9 \% \\ \end{array}
+\begin{array}{l} { }_{ 1 } R_{ 1 } = 1 . 94 \% \\ { }_{ 1 } R_{ 2 } = \left[ ( 1 + 0 . 0 1 9 4 ) ( 1 + 0 . 0 3 ) \right]^{ 1 / 2 } - 1 = 2 . 4 7 \% \\ { }_{ 1 } R_{ 3 } = [ ( 1 + 0 . 0 1 9 4 ) ( 1 + 0 . 0 3 ) ( 1 + 0 . 0 3 7 4 ) ]^{ 1 / 3 } - 1 = 2 . 8 9 \% \\ { }_{ 1 } R_{ 4 } = [ ( 1 + 0 . 0 1 9 4 ) ( 1 + 0 . 0 3 ) ( 1 + 0 . 0 3 7 4 ) ( 1 + 0 . 0 4 1 ) ]^{ 1 / 4 } - 1 = 3 . 1 9 \% \\ \end{array}
 
 $$ and the current yield curve will be upward sloping as shown:
 
@@ -498,7 +498,7 @@ Figure 2-9 Yield Curve under the Unbiased Expectations Theory (UET) versus the L
 
 $$
 
-{ } _ { 1 } R _ { N } = \left[ ( 1 + { } _ { 1 } R _ { 1 } ) ( 1 + E ( { } _ { 2 } r _ { 1 } ) + L _ { 2 } ) \dots ( 1 + E ( { } _ { N } r _ { 1 } ) + L _ { N } ) \right] ^ { 1 / N } - 1 \tag {2-6}
+{ }_{ 1 } R_{ N } = \left[ ( 1 + { }_{ 1 } R_{ 1 } ) ( 1 + E ( { }_{ 2 } r_{ 1 } ) + L_{ 2 } ) \dots ( 1 + E ( { }_{ N } r_{ 1 } ) + L_{ N } ) \right]^{ 1 / N } - 1 \tag {2-6}
 
 $$ where
 
@@ -507,7 +507,7 @@ $L_{t} =$  Liquidity premium for a period  $t$
 
 $$
 
-L _ {2} <   L _ {3} <   \dots L _ {N}
+L_{2} <   L_{3} <   \dots L_{N}
 
 $$
 
@@ -517,7 +517,7 @@ Suppose that the current one-year rate (one-year spot rate) and expected one-yea
 
 $$
 
-{ } _ { 1 } R _ { 1 } = 1 . 94 \% , \quad E ( _ { 2 } r _ { 1 } ) = 3 . 00 \% , \quad E ( _ { 3 } r _ { 1 } ) = 3 . 74 \% , \quad E ( _ { 4 } r _ { 1 } ) = 4 . 10 \%
+{ }_{ 1 } R_{ 1 } = 1 . 94 \% , \quad E (_{ 2 } r_{ 1 } ) = 3 . 00 \% , \quad E (_{ 3 } r_{ 1 } ) = 3 . 74 \% , \quad E (_{ 4 } r_{ 1 } ) = 4 . 10 \%
 
 $$
 
@@ -525,7 +525,7 @@ In addition, investors charge a liquidity premium on longer-term securities such
 
 $$
 
-L _ {2} = 0.10 \%, \quad L _ {3} = 0.20 \%, \quad L _ {4} = 0.30 \%
+L_{2} = 0.10 \%, \quad L_{3} = 0.20 \%, \quad L_{4} = 0.30 \%
 
 $$
 
@@ -533,7 +533,7 @@ Using the liquidity premium theory, current rates for one-, two-, three-, and fo
 
 $$
 
-\begin{array}{l} { } _ { 1 } R _ { 1 } = 1 . 94 \% \\ { } _ { 1 } R _ { 2 } = [ ( 1 + 0 . 0 1 9 4 ) ( 1 + 0 . 0 3 + 0 . 0 0 1 ) ] ^ { 1 / 2 } - 1 = 2 . 5 2 \% \\ { } _ { 1 } R _ { 3 } = \left[ ( 1 + 0 . 0 1 9 4 ) ( 1 + 0 . 0 3 + 0 . 0 0 1 ) ( 1 + 0 . 0 3 7 4 + 0 . 0 0 2 ) \right] ^ { 1 / 3 } - 1 = 2 . 9 9 \% \\ \begin{aligned} {}_{1}R_{4} & = [(1 + 0.0194)(1 + 0.03 + 0.001)(1 + 0.0374 + 0.002)(1 + 0.041 + 0.003)]^{1 / 4} - 1\\ & = 3.34\% \end{aligned} \\ \end{array}
+\begin{array}{l} { }_{ 1 } R_{ 1 } = 1 . 94 \% \\ { }_{ 1 } R_{ 2 } = [ ( 1 + 0 . 0 1 9 4 ) ( 1 + 0 . 0 3 + 0 . 0 0 1 ) ]^{ 1 / 2 } - 1 = 2 . 5 2 \% \\ { }_{ 1 } R_{ 3 } = \left[ ( 1 + 0 . 0 1 9 4 ) ( 1 + 0 . 0 3 + 0 . 0 0 1 ) ( 1 + 0 . 0 3 7 4 + 0 . 0 0 2 ) \right]^{ 1 / 3 } - 1 = 2 . 9 9 \% \\ \begin{aligned} {}_{1}R_{4} & = [(1 + 0.0194)(1 + 0.03 + 0.001)(1 + 0.0374 + 0.002)(1 + 0.041 + 0.003)]^{1 / 4} - 1\\ & = 3.34\% \end{aligned} \\ \end{array}
 
 $$ and the current yield curve will be upward sloping as shown:
 
@@ -583,14 +583,14 @@ To find an implied forward rate on a one-year security to be issued one year fro
 
 $$
 
-{ } _ { 1 } R _ { 2 } = \left[ ( 1 + { } _ { 1 } R _ { 1 } ) ( 1 + { } _ { 2 } f _ { 1 } ) \right] ^ { 1 / 2 } - 1
+{ }_{ 1 } R_{ 2 } = \left[ ( 1 + { }_{ 1 } R_{ 1 } ) ( 1 + { }_{ 2 } f_{ 1 } ) \right]^{ 1 / 2 } - 1
 
 $$ where
 
 
 $$
 
-{ } _ { 2 } f _ { 1 } = \text { E x p e c t e d ~ o n e - y e a r ~ r a t e ~ f o r ~ y e a r ~ 2 , ~ o r ~ t h e ~ i m p l i e d ~ f o r w a r d ~ o n e - y e a r ~ r a t e ~ }
+{ }_{ 2 } f_{ 1 } = \text{ Ex pe ct ed ~o ne -y ea r ~r at e ~f or ~y ea r ~2 , ~o r ~t he ~i mp li ed ~f or wa rd ~o ne -y ea r ~r at e ~ }
 
 $$
 
@@ -598,7 +598,7 @@ Therefore,  ${}_{2}f_{1}$  is the market's estimate of the expected one-year rat
 
 $$
 
-{ } _ { 2 } f _ { 1 } = [ ( 1 + { } _ { 1 } R _ { 2 } ) ^ { 2 } / ( 1 + { } _ { 1 } R _ { 1 } ) ] - 1
+{ }_{ 2 } f_{ 1 } = [ ( 1 + { }_{ 1 } R_{ 2 } )^{ 2 } / ( 1 + { }_{ 1 } R_{ 1 } ) ] - 1
 
 $$
 
@@ -606,7 +606,7 @@ In general, we can find the one-year forward rate for any year,  $N$  years into
 
 $$
 
-{ } _ { N } f _ { 1 } = \left[ ( 1 + _ { 1 } R _ { N } ) ^ { N } / ( 1 + _ { 1 } R _ { N - 1 } ) ^ { N - 1 } \right] - 1 \tag {2-7}
+{ }_{ N } f_{ 1 } = \left[ ( 1 +_{ 1 } R_{ N } )^{ N } / ( 1 +_{ 1 } R_{ N - 1 } )^{ N - 1 } \right] - 1 \tag {2-7}
 
 $$
 
@@ -620,7 +620,7 @@ $$
 
 $$
 
-\left. _ {N - K} f _ {K} = \left[ \frac {(1 + R _ {N}) ^ {N}}{(1 + R _ {N - K}) ^ {N - K}} \right] ^ {1 / K} - 1 \right.
+\left._{N - K} f_{K} = \left[ \frac{(1 + R_{N})^{N}}{(1 + R_{N - K})^{N - K}} \right]^{1 / K} - 1 \right.
 
 $$
 
@@ -633,13 +633,13 @@ Note that these rates suggest an inverted yield curve. Using the unbiased expect
 
 $$
 
-{ } _ { 2 } f _ { 1 } = [ ( 1 . 0 1 4 5 2 ) ^ { 2 } / ( 1 . 0 1 6 9 8 ) ] - 1 = 1 . 2 0 7 \%
+{ }_{ 2 } f_{ 1 } = [ ( 1 . 0 1 4 5 2 )^{ 2 } / ( 1 . 0 1 6 9 8 ) ] - 1 = 1 . 2 0 7 \%
 
 $$
 
 $$
 
-{ } _ { 3 } f _ { 1 } = [ ( 1 . 0 1 3 7 5 ) ^ { 3 } / ( 1 . 0 1 4 5 2 ) ^ { 2 } ] - 1 = 1 . 2 2 1 \%
+{ }_{ 3 } f_{ 1 } = [ ( 1 . 0 1 3 7 5 )^{ 3 } / ( 1 . 0 1 4 5 2 )^{ 2 } ] - 1 = 1 . 2 2 1 \%
 
 $$
 
@@ -679,7 +679,7 @@ Present value  $(PV)$  of a lump sum received at the end of the investment horiz
 
 $$
 
-P V = F V _ {t} / (1 + r) ^ {t} \tag {2-8}
+P V = F V_{t} / (1 + r)^{t} \tag {2-8}
 
 $$ where
 
@@ -710,7 +710,7 @@ You have been offered a security investment such as a bond that will pay you 10,
 
 $$
 
-P V = F V _ {t} / (1 + r) ^ {t} = \ 1 0,0 0 0 / (1 + 0. 0 8) ^ {6} = \ 1 0,0 0 0 (0. 6 3 0 1 7 0) = \ 6,3 0 1. 7 0
+P V = F V_{t} / (1 + r)^{t} = \ 1 0,0 0 0 / (1 + 0. 0 8)^{6} = \ 1 0,0 0 0 (0. 6 3 0 1 7 0) = \ 6,3 0 1. 7 0
 
 $$
 
@@ -718,7 +718,7 @@ If the annual interest rate on the investment rises to 12 percent, the present v
 
 $$
 
-P V = \ 10,000 / (1 + 0.12) ^ {6} = \ 10,000 (0.506631) = \$ 5,066.31
+P V = \ 10,000 / (1 + 0.12)^{6} = \ 10,000 (0.506631) = \$ 5,066.31
 
 $$
 
@@ -726,7 +726,7 @@ If the annual interest rate on the investment rises to 16 percent, the present v
 
 $$
 
-P V = \$ 10,000 / (1 + 0.16) ^ {6} = \$ 10,000 (0.410442) = \$ 4,104.42
+P V = \$ 10,000 / (1 + 0.16)^{6} = \$ 10,000 (0.410442) = \$ 4,104.42
 
 $$
 
@@ -734,7 +734,7 @@ Finally, if the annual interest rate on the investment of 16 percent is compound
 
 $$
 
-P V = \ 10,000 / (1 + 0.08) ^ {12} = \ 10,000 (0.397114) = \ 3,971.14
+P V = \ 10,000 / (1 + 0.08)^{12} = \ 10,000 (0.397114) = \ 3,971.14
 
 $$
 
@@ -751,7 +751,7 @@ Future value  $(FV)$  of a lump sum received at the beginning of the investment 
 
 $$
 
-F V _ {t} = P V (1 + r) ^ {t} \tag {2-9}
+F V_{t} = P V (1 + r)^{t} \tag {2-9}
 
 $$
 
@@ -793,7 +793,7 @@ You plan to invest 10,000 today in exchange for a fixed payment at the end of si
 
 $$
 
-F V = P V (1 + r) ^ {t} = \$ 1 0, 0 0 0 (1 + 0. 0 8) ^ {6} = \$ 1 0, 0 0 0 (1. 5 8 6 8 7 4) = \$ 1 5, 8 6 8. 7 4
+F V = P V (1 + r)^{t} = \$ 1 0, 0 0 0 (1 + 0. 0 8)^{6} = \$ 1 0, 0 0 0 (1. 5 8 6 8 7 4) = \$ 1 5, 8 6 8. 7 4
 
 $$
 
@@ -801,7 +801,7 @@ If the annual interest rate on the investment rises to 12 percent, the future va
 
 $$
 
-F V = \$ 10,000 (1 + 0. 1 2) ^ {6} = \$ 10,000 (1. 9 7 3 8 2 3) = \$ 1 9, 7 3 8. 2 3
+F V = \$ 10,000 (1 + 0. 1 2)^{6} = \$ 10,000 (1. 9 7 3 8 2 3) = \$ 1 9, 7 3 8. 2 3
 
 $$
 
@@ -809,7 +809,7 @@ If the annual interest rate on the investment rises to 16 percent, the future va
 
 $$
 
-F V = \$ 10,000 (1 + 0. 1 6) ^ {6} = \$ 1 0,0 0 0 (2. 4 3 6 3 9 6) = \$ 2 4, 3 6 3. 9 6
+F V = \$ 10,000 (1 + 0. 1 6)^{6} = \$ 1 0,0 0 0 (2. 4 3 6 3 9 6) = \$ 2 4, 3 6 3. 9 6
 
 $$
 
@@ -817,7 +817,7 @@ Finally, if the annual interest rate on the investment of 16 percent is compound
 
 $$
 
-F V = \$ 10,000 (1 + 0. 0 8) ^ {1 2} = \$ 1 0, 0 0 0 (2. 5 1 8 1 7 0) = \$ 2 5, 1 8 1. 7 0
+F V = \$ 10,000 (1 + 0. 0 8)^{1 2} = \$ 1 0, 0 0 0 (2. 5 1 8 1 7 0) = \$ 2 5, 1 8 1. 7 0
 
 $$
 
@@ -825,12 +825,12 @@ $$
 
 $$
 
-P V = F V _ {t} [ 1 / (1 + r / \infty) ] ^ {n \infty} = F V _ {n} (e ^ {- r m})
+P V = F V_{t} [ 1 / (1 + r / \infty) ]^{n \infty} = F V_{n} (e^{- r m})
 
 $$ where  $n$  is the number of years in the investment horizon (period). Thus, in Example 2-5, if the annual interest rate on the investment is 16 percent compounded continuously, the present value of the 10,000 investment in six years is:
 
 $$
-P V = \$ 10,000 \left(e ^ {- 0.16 \times 6}\right) = \$ 10,000 (0.382893) = \$ 3,828.93
+P V = \$ 10,000 \left(e^{- 0.16 \times 6}\right) = \$ 10,000 (0.382893) = \$ 3,828.93
 $$
 
 CALCULATOR HINTS
@@ -848,13 +848,13 @@ Present Value of an Annuity. The present value of an annuity equation converts a
 Present value  $(PV)$  of an annuity stream (PMT) received in the future:
 
 $$
-P V = P M T \sum_ {j = 1} ^ {t} [ 1 / (1 + r) ] ^ {j} \tag {2-10}
+P V = P M T \sum_{j = 1}^{t} [ 1 / (1 + r) ]^{j} \tag {2-10}
 $$ which can be reduced to the simpler equation:
 
 
 $$
 
-P V = P M T \times \left[ \frac {1 - \frac {1}{(1 + r) ^ {t}}}{r} \right]
+P V = P M T \times \left[ \frac{1 - \frac{1}{(1 + r)^{t}}}{r} \right]
 
 $$ where
 
@@ -863,7 +863,7 @@ ${PMT} =$  Periodic annuity payment received during an investment horizon
 
 $$
 
-\sum_ {j = 1} ^ {t} = \text {S u m m a t i o n s i g n f o r a d d i t i o n o f a l l t e r m s f r o m j = 1 t o j = t}.
+\sum_{j = 1}^{t} = \text{Su mm at io ns ig nf or ad di ti on of al lt er ms fr om j =1 to j =t}.
 
 $$
 
@@ -905,7 +905,7 @@ You have been offered a bond that will pay you 10,000 on the last day of every y
 
 $$
 
-\begin{array}{l} P V = P M T \times \left[ \frac {1 - \frac {1}{(1 + r) ^ {t}}}{r} \right] \\ = \$ 10,000 \times \left[ \frac {1 - \frac {1}{(1 + 0 . 0 8) ^ {6}}}{0 . 0 8} \right] \\ = \$ 10,000 (4.622880) = \$ 46,228.80 \\ \end{array}
+\begin{array}{l} P V = P M T \times \left[ \frac{1 - \frac{1}{(1 + r)^{t}}}{r} \right] \\ = \$ 10,000 \times \left[ \frac{1 - \frac{1}{(1 + 0 . 0 8)^{6}}}{0 . 0 8} \right] \\ = \$ 10,000 (4.622880) = \$ 46,228.80 \\ \end{array}
 
 $$
 
@@ -913,7 +913,7 @@ If the investment pays you 10,000 on the last day of every quarter for the next 
 
 $$
 
-\begin{array}{l} P V = \$ 10,000 \times \left[ \frac {1 - \frac {1}{(1 + 0 . 0 2) ^ {2 4}}}{0 . 0 2} \right] \\ = \$ 10,000 (18.9 1 3 9 2 6) = \$ 1 8 9, 1 3 9. 2 6 \\ \end{array}
+\begin{array}{l} P V = \$ 10,000 \times \left[ \frac{1 - \frac{1}{(1 + 0 . 0 2)^{2 4}}}{0 . 0 2} \right] \\ = \$ 10,000 (18.9 1 3 9 2 6) = \$ 1 8 9, 1 3 9. 2 6 \\ \end{array}
 
 $$
 
@@ -921,7 +921,7 @@ If the annuity is paid on the first day of each quarter (referred to as an annui
 
 $$
 
-P V = P M T \left[ \frac {1 - \frac {1}{(1 + r) ^ {t}}}{r} \right] (1 + r)
+P V = P M T \left[ \frac{1 - \frac{1}{(1 + r)^{t}}}{r} \right] (1 + r)
 
 $$
 
@@ -929,7 +929,7 @@ The present value of this investment becomes:
 
 $$
 
-\begin{array}{l} P V = \$ 10,000 \left[ \frac {1 - \frac {1}{(1 + 0 . 0 2) ^ {2 4}}}{0 . 0 2} \right] (1 + 0. 0 2) \\ = \$ 10,000 (1 8. 9 1 3 9 2 6) (1. 0 2) = \$ 1 9 2, 9 2 2. 0 4 \\ \end{array}
+\begin{array}{l} P V = \$ 10,000 \left[ \frac{1 - \frac{1}{(1 + 0 . 0 2)^{2 4}}}{0 . 0 2} \right] (1 + 0. 0 2) \\ = \$ 10,000 (1 8. 9 1 3 9 2 6) (1. 0 2) = \$ 1 9 2, 9 2 2. 0 4 \\ \end{array}
 
 $$
 
@@ -939,14 +939,14 @@ Future value  $(FV)$  of an annuity payment stream received over an investment h
 
 $$
 
-F V _ {t} = P M T \sum_ {j = 0} ^ {t - 1} (1 + r) ^ {j} \tag {2-11}
+F V_{t} = P M T \sum_{j = 0}^{t - 1} (1 + r)^{j} \tag {2-11}
 
 $$ which can be reduced to the simpler equation:
 
 
 $$
 
-F V _ {t} = P M T \times \left[ \frac {(1 + r) ^ {t} - 1}{r} \right]
+F V_{t} = P M T \times \left[ \frac{(1 + r)^{t} - 1}{r} \right]
 
 $$
 
@@ -964,7 +964,7 @@ You plan to invest 10,000 on the last day of every year for the next six years. 
 
 $$
 
-\begin{array}{l} F V = \$ 10,000 \left[ \frac {(1 + 0 . 0 8) ^ {6} - 1}{0 . 0 8} \right] \\ = \$ 10,000 (7.335929) = \$ 73,359.29 \\ \end{array}
+\begin{array}{l} F V = \$ 10,000 \left[ \frac{(1 + 0 . 0 8)^{6} - 1}{0 . 0 8} \right] \\ = \$ 10,000 (7.335929) = \$ 73,359.29 \\ \end{array}
 
 $$
 
@@ -977,7 +977,7 @@ If the investment pays you \$10,000 on the last day of every quarter for the nex
 
 $$
 
-\begin{array}{l} F V = \$ 10,000 \left[ \frac {(1 + 0 . 0 2) ^ {2 4} - 1}{0 . 0 2} \right] \\ = \$ 10,000 (30.421862) = \$ 304,218.62 \\ \end{array}
+\begin{array}{l} F V = \$ 10,000 \left[ \frac{(1 + 0 . 0 2)^{2 4} - 1}{0 . 0 2} \right] \\ = \$ 10,000 (30.421862) = \$ 304,218.62 \\ \end{array}
 
 $$
 
@@ -985,7 +985,7 @@ If the annuity is paid on the first day of each quarter (an annuity due), an ext
 
 $$
 
-F V = P M T \left[ \frac {(1 + r) ^ {t} - 1}{r} \right] (1 + r)
+F V = P M T \left[ \frac{(1 + r)^{t} - 1}{r} \right] (1 + r)
 
 $$
 
@@ -993,7 +993,7 @@ Thus, the future value of this investment becomes:
 
 $$
 
-\begin{array}{l} F V = \$ 10,000 \left[ \frac {(1 + 0 . 0 2) ^ {2 4} - 1}{0 . 0 2} \right] (1 + 0. 0 2) \\ = \$ 10,000 (30.421862) (1.02) = \$ 310,303.00 \\ \end{array}
+\begin{array}{l} F V = \$ 10,000 \left[ \frac{(1 + 0 . 0 2)^{2 4} - 1}{0 . 0 2} \right] (1 + 0. 0 2) \\ = \$ 10,000 (30.421862) (1.02) = \$ 310,303.00 \\ \end{array}
 
 $$
 
@@ -1036,7 +1036,7 @@ b. What is the fair interest rate on Moore Corporation 30-year bonds?
 
 $$
 
-{ } _ { 1 } R _ { 1 } = 6 \% , E ( { } _ { 2 } r _ { 1 } ) = 7 \% , E ( { } _ { 3 } r _ { 1 } ) = 7 . 5 \% , E ( { } _ { 4 } r _ { 1 } ) = 7 . 85 \%
+{ }_{ 1 } R_{ 1 } = 6 \% , E ( { }_{ 2 } r_{ 1 } ) = 7 \% , E ( { }_{ 3 } r_{ 1 } ) = 7 . 5 \% , E ( { }_{ 4 } r_{ 1 } ) = 7 . 85 \%
 
 $$
 
@@ -1053,7 +1053,7 @@ Using the unbiased expectations theory, calculate the current (long-term) rates 
 
 $$
 
-\begin{array}{l} { } _ { 1 } R _ { 1 } = 5 . 6 5 \% \\ E _ {(2} r _ {1}) = 6.75 \% \quad L _ {2} = 0.05 \% \\ E _ {(3} r _ {1}) = 6.85 \% \quad L _ {3} = 0.10 \% \\ E _ {(4} r _ {1}) = 7.15 \% \quad L _ {4} = 0.12 \% \\ \end{array}
+\begin{array}{l} { }_{ 1 } R_{ 1 } = 5 . 6 5 \% \\ E_{(2} r_{1}) = 6.75 \% \quad L_{2} = 0.05 \% \\ E_{(3} r_{1}) = 6.85 \% \quad L_{3} = 0.10 \% \\ E_{(4} r_{1}) = 7.15 \% \quad L_{4} = 0.12 \% \\ \end{array}
 
 $$
 
@@ -1073,7 +1073,7 @@ Using the liquidity premium theory, plot the current yield curve. Make sure you 
 
 $$
 
-{ } _ { 1 } R _ { 1 } = 4 . 75 \% , \quad { } _ { 1 } R _ { 2 } = 4 . 95 \% , \quad { } _ { 1 } R _ { 3 } = 5 . 25 \% , \quad { } _ { 1 } R _ { 4 } = 5 . 65 \%
+{ }_{ 1 } R_{ 1 } = 4 . 75 \% , \quad { }_{ 1 } R_{ 2 } = 4 . 95 \% , \quad { }_{ 1 } R_{ 3 } = 5 . 25 \% , \quad { }_{ 1 } R_{ 4 } = 5 . 65 \%
 
 $$
 

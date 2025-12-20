@@ -164,7 +164,7 @@ Note: G.O. denotes general obligation.
 tax-exempts and taxables. Yields on tax-exempt securities are frequently stated in taxable equivalent terms, or in terms of what taxable interest rate would be necessary to provide the same after-tax interest rate. The basic taxable equivalent formula is
 
 $$
-r _ {T E} = r _ {T F} / (1 - t), \quad (1)
+r_{T E} = r_{T F} / (1 - t), \quad (1)
 $$
 
 where  $r_{TF}$  is the rate paid on the tax-free instrument and  $r_{TE}$  is the taxable equivalent yield for investors with a marginal federal tax rate of  $t$ . For example, if an investor subject to a 28 percent marginal federal tax rate purchases a tax-exempt security paying 5.4 percent, then a taxable security paying 7.5 percent would yield this investor the same after-tax rate as the tax-exempt security. If the investor's taxable equivalent yield on municipal securities is greater than the before-tax yields he can earn on taxable securities of comparable risk then he will profit by investing in tax-exempt securities.
@@ -172,7 +172,7 @@ where  $r_{TF}$  is the rate paid on the tax-free instrument and  $r_{TE}$  is t
 The value of the tax exemption to the investor increases when the income earned also is exempt from state income tax. This is true for investors purchasing securities issued by their home state or by municipalities located in their home state. When the security is exempt from federal and state income taxes it is "double tax-exempt" for the investor and the relevant taxable equivalent formula is
 
 $$
-r _ {T E} = r _ {T F} / \{1 - [ t _ {F} + t _ {S} (1 - t _ {F}) ] \}, \quad (2)
+r_{T E} = r_{T F} / \{1 - [ t_{F} + t_{S} (1 - t_{F}) ] \}, \quad (2)
 $$
 
 where  $t_F$  is the marginal federal tax rate of the investor and  $t_S$  is the marginal state tax rate of the investor. This formula takes into account the deductibility of state income taxes on the federal return. Suppose an investor subject to a 28 percent federal tax rate has a 10 percent state income tax rate. The total tax rate faced by the individual is .28 + .10(1 - .28) = .35. If the municipal security being considered is exempt from state income taxes and is paying a 5.4 percent rate of return, then the taxable equivalent yield for this investor is 8.3 percent.<sup>6</sup>

@@ -136,7 +136,7 @@ Another possible factor influencing the spread between the bill rate and other s
 This is not to say that the tax-exempt feature of bills must cause the spread to rise with the level of interest rates. As noted above, many investors in the bill market are not subject to state and local income taxes. If, however, investors subject to state income tax rate  $t$  dominate the bill market, then the observed relationship between the CD rate (RCD) and the bill rate (RTB)—taking default risk into account—will be:
 
 $$
-R C D (1 - t) = R T B + \text {D e f a u l t R i s k P r e m i u m}.
+R C D (1 - t) = R T B + \text{De fa ul tR is kP re mi um}.
 $$
 
 One study (Cook and Lawler 1983) using data from 1979 through mid-1983, when the spread between the CD and Treasury bill rates was particularly volatile, found that the simple model represented by the equation above did a good job of explaining the spread in that period. This study estimated that the average value of  $t$  over that period was in the neighborhood of 8 percent, which is well within the range of state individual income tax rates on interest income. Another study (Simon 1992) using data from 1980 through 1991 estimated a value of  $t$  of 7 percent.

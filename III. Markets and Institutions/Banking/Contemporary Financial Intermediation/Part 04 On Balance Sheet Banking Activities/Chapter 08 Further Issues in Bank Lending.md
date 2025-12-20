@@ -130,7 +130,7 @@ $=$  [loan interest rate  $\times$  size of loan] - expected loss on the loan,
 we can write:
 
 $$
-\begin{array}{l} \text {L o a n I n t e r s t R a t e} \geq \left[ \frac {\text {I n s t i t u t i o n a l C o s t s}}{\text {L o a n S i z e}} \right] \\ + \left[ \frac {\text {E x p e c t e d L o s s o n L o a n}}{\text {L o a n S i z e}} \right] \\ + \left[ \frac {\text {D e b t F i n a n c i n g i n L o a n}}{\text {L o a n S i z e}} \times \text {B a n k ’ s C o s t o f D e b t} \right] \\ + \left[ \frac {\text {E q u i t y F i n a n c i n g i n L o a n}}{\text {L o a n S i z e}} \times \text {B a n k ’ s C o s t o f E q u i t y} \right] \end{array} \tag {8.1}
+\begin{array}{l} \text{Lo an In te rs tR at e} \geq \left[ \frac{\text{In st it ut io na lC os ts}}{\text{Lo an Si ze}} \right] \\ + \left[ \frac{\text{Ex pe ct ed Lo ss on Lo an}}{\text{Lo an Si ze}} \right] \\ + \left[ \frac{\text{De bt Fi na nc in gi nL oa n}}{\text{Lo an Si ze}} \times \text{Ba nk ’s Co st of De bt} \right] \\ + \left[ \frac{\text{Eq ui ty Fi na nc in gi nL oa n}}{\text{Lo an Si ze}} \times \text{Ba nk ’s Co st of Eq ui ty} \right] \end{array} \tag {8.1}
 $$
 
 # Institutional Costs
@@ -177,7 +177,7 @@ Here we use a well-known result from corporate finance, namely that firms with m
 The pretax cost of the bank's debt is simply the average cost of all of the bank's debt. This includes the costs of various types of insured and uninsured deposits, the cost of various forms of nondeposit short-term borrowings like advances, and the cost of subordinated debt. Then:
 
 $$
-\text {C o s t} = \text {a v e r a g e p r e t a x c o s t} \left[ 1 - T \right] \tag {8.2}
+\text{Co st} = \text{av er ag ep re ta xc os t} \left[ 1 - T \right] \tag {8.2}
 $$
 
 where  $T$  is the bank's effective tax rate.
@@ -198,7 +198,7 @@ FIGURE 8.2 Distribution of Firm's Asset Value.
 \(1 million and the loss given default is \(100\%\). In this case, the bank's expected loss \(= 0.5 \times \\)1 million = \\(0.5 million. The loan loss volatility = standard deviation of loan loss:
 
 $$
-\sqrt {0 . 5 [ \$ 1 \text {m i l l i o n} - \$ 0 . 5 \text {m i l l i o n} ] ^ {2} + 0 . 5 [ 0 - \$ 0 . 5 \text {m i l l i o n} ] ^ {2}} = \$ 0. 5 \text {m i l l i o n}.
+\sqrt{0 . 5 [ \$ 1 \text{mi ll io n} - \$ 0 . 5 \text{mi ll io n} ]^{2} + 0 . 5 [ 0 - \$ 0 . 5 \text{mi ll io n} ]^{2}} = \$ 0. 5 \text{mi ll io n}.
 $$
 
 # Default Risk of a Loan Portfolio
@@ -208,13 +208,13 @@ Now let us consider the effect of forming loan portfolios. Just as with expected
 Note first that the bank's expected loan loss is still \$0.5 million (the sum of the expected loan losses on the two loans, each of which is 0.5×\$0.5 million = \$0.25 million). The loss volatility on each loan is
 
 $$
-\sqrt {0 . 5 [ \$ 0 . 5 \text {m i l l i o n} - \$ 0 . 2 5 \text {m i l l i o n} ] ^ {2} + 0 . 5 [ 0 - \$ 0 . 2 5 \text {m i l l i o n} ] ^ {2}} = \$ 0. 2 5 \text {m i l l i o n}.
+\sqrt{0 . 5 [ \$ 0 . 5 \text{mi ll io n} - \$ 0 . 2 5 \text{mi ll io n} ]^{2} + 0 . 5 [ 0 - \$ 0 . 2 5 \text{mi ll io n} ]^{2}} = \$ 0. 2 5 \text{mi ll io n}.
 $$
 
 Recognizing that each loan has a weight of 0.5 in the portfolio and that the two loans are perfectly negatively correlated, we can use Equation (1.7) to obtain the portfolio loan loss volatility as:
 
 $$
-\sqrt {(0 . 5) ^ {2} (\$ 0 . 2 5 \text {m i l l i o n}) ^ {2} + (0 . 5) ^ {2} (\$ 0 . 2 5 \text {m i l l i o n}) ^ {2} - 2 (0 . 5) (0 . 5) (\$ 0 . 2 5 \text {m i l l i o n}) (\$ 0 . 2 5 \text {m i l l i o n}) ] = 0
+\sqrt{(0 . 5)^{2} (\$ 0 . 2 5 \text{mi ll io n})^{2} + (0 . 5)^{2} (\$ 0 . 2 5 \text{mi ll io n})^{2} - 2 (0 . 5) (0 . 5) (\$ 0 . 2 5 \text{mi ll io n}) (\$ 0 . 2 5 \text{mi ll io n}) ] = 0
 $$
 
 Thus, portfolio diversification eliminates loan loss volatility in this case.
@@ -304,7 +304,7 @@ $$
 The total expected profit of Midtown Community Bank, if it lends at an interest rate of  $29\%$ , is
 
 $$
-\begin{array}{l} \frac {(0 . 5 \times 0 . 9 \times \$ 1 2 9 + 0 . 5 \times 0 . 8 \times \$ 1 2 9) \times 1 0 0 , 0 0 0}{1 . 0 5} \tag {8.3} \\ = \$ 4428.57 \\ \end{array}
+\begin{array}{l} \frac{(0 . 5 \times 0 . 9 \times \$ 1 2 9 + 0 . 5 \times 0 . 8 \times \$ 1 2 9) \times 1 0 0 , 0 0 0}{1 . 0 5} \tag {8.3} \\ = \$ 4428.57 \\ \end{array}
 $$
 
 The expression in Equation (8.3) can be understood as follows. There is a 0.5 probability that the borrower is low risk, in which case the bank gets repaid  \$129 with probability 0.9. Similarly, there is a 0.5 probability that the borrower is high risk, in which case the bank gets repaid\$ 129 with probability 0.8. This explains the term in the parentheses of the numerator in Equation (8.3). This is multiplied by 1000 since the bank can make 1000 such loans. We discount at the riskless rate of 5% since the bank is risk neutral. The initial outlay of \$100,000 is finally subtracted to arrive at the bank's expected profit.
@@ -318,7 +318,7 @@ Clearly, if you raise the loan interest rate above  $29\%$ , the low-risk borrow
 Midtown Community Bank's total expected profit at this interest rate is
 
 $$
-\begin{array}{l} \frac {0 . 8 \times \$ 1 3 4 \times 1 , 0 0 0}{1 . 0 5} - \$ 1 0 0, 0 0 0 \tag {8.4} \\ = \$ 2, 0 9 5. 2 4 \\ \end{array}
+\begin{array}{l} \frac{0 . 8 \times \$ 1 3 4 \times 1 , 0 0 0}{1 . 0 5} - \$ 1 0 0, 0 0 0 \tag {8.4} \\ = \$ 2, 0 9 5. 2 4 \\ \end{array}
 $$
 
 Note that Equation (8.4) recognizes that the bank knows that only the high-risk borrowers will apply.
@@ -438,7 +438,7 @@ We proceed in four steps. First, we show that in scenario (i) the bank denies cr
 Consider case (i) first. Suppose the bank assumes that Kiddie Toys will choose project R. Then it must set the borrower's repayment obligation at  $105 / 0.5 =$ 210 in order to break even in expected value terms. Given this, Kiddie Toys chooses not to borrow. If the bank assumes that Kiddie Toys will choose S, then it must set its repayment obligation at  $105 / 0.8 =$ 131.25 (an interest rate of 31.25%) in order to break even, again in an expected value sense. However, at this interest rate, the expected payoff to Kiddie Toys from choosing S is 0.8(150 - 131.25) = \$15.00, whereas from choosing R it is 0.5(162 - 131.25) = \$15.375. So the bank's belief about the borrower's project choice is contradicted, and it cannot be a Nash equilibrium for the bank to set the loan interest rate at 31.25%. Indeed, the maximum interest rate,  $i_{\max}$ , that the bank can charge such that Kiddie Toys does not strictly prefer R to S is given by the following equation:
 
 $$
-0. 8 [ 1 5 0 - (1 + i _ {\max}) 1 0 0 ] = 0. 5 [ 1 6 2 - (1 + i _ {\max}) 1 0 0 ].
+0. 8 [ 1 5 0 - (1 + i_{\max}) 1 0 0 ] = 0. 5 [ 1 6 2 - (1 + i_{\max}) 1 0 0 ].
 $$
 
 Solving this equation yields  $i_{\mathrm{max}} = 30\%$ . However, at  $30\%$ , the bank fails to break even, regardless of the project chosen by Kiddie Toys. Hence, no credit will be extended to the borrower at any interest rate, that is, we have an extreme form of credit rationing. The expected payoff to the bank as well as to the borrower is zero.
@@ -450,7 +450,7 @@ Now consider scenario (ii). Suppose that as a banker you tell Kiddie Toys: "I'll
 With such a contract, suppose we set  $i_2 = 30\%$ . Then we know that the borrower will choose S in the second period. Given this second-period loan interest rate, let  $i_{\mathrm{max}}^*$  be the maximum value of  $i_1$  such that Kiddie Toys will prefer to invest in S in the first period. Thus,  $i_{\mathrm{max}}^*$  is the solution to the following equation.
 
 $$
-\begin{array}{l} 0. 8 \left\{\left[ 1 5 0 - \left(1 + i _ {\max } ^ {*}\right) 1 0 0 \right] + 0. 8 \times [ 1 5 0 - 1 3 0 ] \right\} \tag {8.5} \\ = 0. 5 \left\{\left[ 1 6 2 - \left(1 + i _ {\max} ^ {*}\right) 1 0 0 \right] + 0. 8 \times \left[ 1 5 0 - 1 3 0 \right] \right\}. \\ \end{array}
+\begin{array}{l} 0. 8 \left\{\left[ 1 5 0 - \left(1 + i_{\max }^{*}\right) 1 0 0 \right] + 0. 8 \times [ 1 5 0 - 1 3 0 ] \right\} \tag {8.5} \\ = 0. 5 \left\{\left[ 1 6 2 - \left(1 + i_{\max}^{*}\right) 1 0 0 \right] + 0. 8 \times \left[ 1 5 0 - 1 3 0 \right] \right\}. \\ \end{array}
 $$
 
 Note that in Equation (8.5), on the left-hand side we have written Kiddie Toys' expected payoff over two periods from choosing S in the first period, given that S will be chosen in the second period. On the right-hand side, we have written Kiddie Toys' expected payoff over two periods from choosing R in the first period, given that S will be chosen in the second period. In each case, we have recognized that second-period credit will be forthcoming only if the first-period project succeeds and the first-period bank loan is repaid; this is done by letting Kiddie Toys' second-period payoff be zero if its first-period project fails and Kiddie Toys consequently defaults on the first-period loan. Solving Equation (8.5) yields  $i_{\mathrm{max}}^{*} = 46\%$ .
@@ -460,7 +460,7 @@ Note that in Equation (8.5), on the left-hand side we have written Kiddie Toys' 
 Given a second-period interest rate of  $30\%$ , let  $I_{1}$  be the first-period interest rate that the bank needs to charge to break even; remember that at  $30\%$ , the bank is making an expected loss on the second period loan. Now,  $\hat{i}_{1}$  is the solution to the following equation:
 
 $$
-[ 0. 8 (1 + \hat {i} _ {1}) \times 1 0 0 - 1 0 5 ] + 0. 8 [ 0. 8 \times 1 3 0 - 1 0 5 ] = 0 \tag {8.6}
+[ 0. 8 (1 + \hat {i}_{1}) \times 1 0 0 - 1 0 5 ] + 0. 8 [ 0. 8 \times 1 3 0 - 1 0 5 ] = 0 \tag {8.6}
 $$
 
 In Equation (8.6), the term  $0.8(1 + \hat{i}_1) \times 100 - 105$  is the bank's expected profit on the first-period loan and  $0.8 \times 130 - 105$  is its expected profit (which is negative) on the second-period loan. The latter is multiplied with 0.8 (the probability of repayment on the first-period loan) since the second-period loan is made only if the first-period loan is repaid. Solving Equation (8.6) gives  $\hat{i}_1 = 32.25\%$ . Note that now the bank is breaking even across two periods rather than in each period.
@@ -470,7 +470,7 @@ In Equation (8.6), the term  $0.8(1 + \hat{i}_1) \times 100 - 105$  is the bank'
 If we assume that on its two-period transaction, the bank can charge 150 basis points above its breakeven rate without losing Kiddie Toys to another bank, then  $i_1$  will be set at  $33.75\%$  (which is  $32.25\% + 1.5\%$ ). Kiddie Toys will now choose S in each period. The bank's expected profit over its two-period relationship is given by
 
 $$
-\begin{array}{l} 0. 8 \left(1 + i _ {1}\right) \times 1 0 0 - 1 0 5 + 0. 8 \left(0. 8 \times 1 3 0 - 1 0 5\right) \\ = 0. 8 \times 1 3 3. 7 5 - 1 0 5 + 0. 8 (0. 8 \times 1 3 0 - 1 0 5) \\ = \$ 1. 2 0. \\ \end{array}
+\begin{array}{l} 0. 8 \left(1 + i_{1}\right) \times 1 0 0 - 1 0 5 + 0. 8 \left(0. 8 \times 1 3 0 - 1 0 5\right) \\ = 0. 8 \times 1 3 3. 7 5 - 1 0 5 + 0. 8 (0. 8 \times 1 3 0 - 1 0 5) \\ = \$ 1. 2 0. \\ \end{array}
 $$
 
 The expected payoff to Kiddie Toys is given by
@@ -516,21 +516,21 @@ $$
 Now, suppose the borrower repays his first-period loan. Then how should Midtown revise its beliefs about the borrower's type? To answer this question, one needs to use Bayes rule, which, as we saw in Chapter 1, says that
 
 $$
-\Pr \left(x _ {i} \mid y _ {i}\right) = \frac {\Pr \left(y _ {i} \mid x _ {i}\right) \Pr \left(x _ {i}\right)}{\sum_ {i = 1} ^ {n} \Pr \left(y _ {i} \mid x _ {i}\right) \Pr \left(x _ {i}\right)} \tag {8.7}
+\Pr \left(x_{i} \mid y_{i}\right) = \frac{\Pr \left(y_{i} \mid x_{i}\right) \Pr \left(x_{i}\right)}{\sum_{i = 1}^{n} \Pr \left(y_{i} \mid x_{i}\right) \Pr \left(x_{i}\right)} \tag {8.7}
 $$
 
 where  $x_{1}, \ldots, x_{n}$  are the possible realizations of the random variable  $x$  and  $\operatorname{Pr}(x_{i})$  is the prior probability that  $x = x_{i}$ , with  $x_{i}$  being some value chosen from  $x_{1}, \ldots, x_{n}$ . Similarly,  $y_{j}$  is some realization of  $y$ . In our context, application of Bayes rule means that
 
-$\operatorname{Pr}(\text{borrower is type G | project succeeds}) = \operatorname{Pr}(\mathrm{G}|\mathrm{S})$
+$\operatorname{Pr}(\text{borroweristypeG |projectsucceeds}) = \operatorname{Pr}(\mathrm{G}|\mathrm{S})$
 
 $$
-\begin{array}{l} = \frac {\Pr (S \mid G) \Pr (G)}{\Pr (S \mid G) \Pr (G) + \Pr (S \mid B) \Pr (B)} \tag {8.8} \\ = \frac {p \gamma}{p \gamma + q (1 - \gamma)}. \\ \end{array}
+\begin{array}{l} = \frac{\Pr (S \mid G) \Pr (G)}{\Pr (S \mid G) \Pr (G) + \Pr (S \mid B) \Pr (B)} \tag {8.8} \\ = \frac{p \gamma}{p \gamma + q (1 - \gamma)}. \\ \end{array}
 $$
 
 Using Equation (8.8), we see that if there is repayment of the first-period loan, then the bank believes that the probability that the borrower is of type G is given by:
 
 $$
-\begin{array}{l} \Pr (G \mid S) = \frac {0 . 9 \times 0 . 8}{0 . 9 \times 0 . 8 + 0 . 4 \times 0 . 2} \\ = 0. 9 0. \\ \end{array}
+\begin{array}{l} \Pr (G \mid S) = \frac{0 . 9 \times 0 . 8}{0 . 9 \times 0 . 8 + 0 . 4 \times 0 . 2} \\ = 0. 9 0. \\ \end{array}
 $$
 
 Hence, the average second-period success probability is given by:
@@ -546,7 +546,7 @@ The breakeven interest rate of the bank on the second-period loan, conditional o
 Note that if there is nonrepayment of the first-period loan due to project failure, then Midtown assesses the probability of the borrower being of type G as (in the equation below, "F" denotes failure)
 
 $$
-\begin{array}{l} \Pr (G \mid F) = \frac {\Pr (F \mid G) \Pr (G)}{\Pr (F \mid G) \Pr (G) + \Pr (F \mid B) \Pr (B)} \\ = \frac {(1 - p) \gamma}{(1 - p) \gamma + (1 - q) (1 - \gamma)} \\ = \frac {0 . 1 \times 0 . 8}{0 . 1 \times 0 . 8 + 0 . 6 \times 0 . 2} \\ = 0. 4. \\ \end{array}
+\begin{array}{l} \Pr (G \mid F) = \frac{\Pr (F \mid G) \Pr (G)}{\Pr (F \mid G) \Pr (G) + \Pr (F \mid B) \Pr (B)} \\ = \frac{(1 - p) \gamma}{(1 - p) \gamma + (1 - q) (1 - \gamma)} \\ = \frac{0 . 1 \times 0 . 8}{0 . 1 \times 0 . 8 + 0 . 6 \times 0 . 2} \\ = 0. 4. \\ \end{array}
 $$
 
 The bank assesses the average success probability for this kind of borrower as

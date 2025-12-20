@@ -149,13 +149,13 @@ Theoretically, an inflation-linked bond series can be thought of as the price of
 To estimate historical real yields, we apply the Domestic Fisher Relation. The nominal yield,  $\mathbf{r}_{\mathrm{N}}$ , is the compounding of the real yield,  $\mathbf{r}_{\mathrm{R}}$ , and expected inflation,  $\mathrm{E}(\mathrm{I})$ , over the investment time horizon.
 
 $$
-\mathrm {r} _ {\mathrm {N}} = \left(1 + \mathrm {r} _ {\mathrm {R}}\right) \times (1 + \mathrm {E} (\mathrm {I})) - 1 \approx \mathrm {r} _ {\mathrm {R}} + \mathrm {E} (\mathrm {I}) \tag {1}
+\mathrm{r}_{\mathrm{N}} = \left(1 + \mathrm{r}_{\mathrm{R}}\right) \times (1 + \mathrm{E} (\mathrm{I})) - 1 \approx \mathrm{r}_{\mathrm{R}} + \mathrm{E} (\mathrm{I}) \tag {1}
 $$
 
 Therefore, the real yield can be approximated by the nominal yield less expected inflation.
 
 $$
-r _ {R} = \left(1 + r _ {N}\right) / \left(1 + E (I)\right) - 1 \approx r _ {N} - E (I) \tag {2}
+r_{R} = \left(1 + r_{N}\right) / \left(1 + E (I)\right) - 1 \approx r_{N} - E (I) \tag {2}
 $$
 
 Historical nominal yields are readily available, and can be estimated from the prices of bonds traded in the open market. However, a measurement of expected inflation is not readily available. The authors agree with Lucas and Queck [1998] that "predicting inflation is a difficult job . . . [and] perhaps this is why the market uses YOY CPI as its inflation forecast; it is as good as any other method." As such, in our analysis, we use an adaptive expectations approach, whereby expected inflation is proxied by the most recent calendar year's inflation rate.
@@ -165,13 +165,13 @@ Both nominal yields and real yields can be observed from the current market pric
 auto-regression, a weighted average of recent inflation and the inflation forecast by the Survey of Professional Forecasters (formerly ASA/NBER Economic Outlook Survey). However, the inflationary expectations formed through these various methods violate the Fisher relation in the current market; the expectations produced are much higher than the implied inflation from the bond yields. If the inflationary expectations from these models are correct, then there is an arbitrage opportunity, where investors should buy inflation-indexed bonds and sell nominal bonds. Since we believe the market is relatively efficient, there should not be such an arbitrage opportunity. Therefore, the inflation models inherent in these various approaches must be inaccurate. We determined to make the simplifying assumption that the inflation process follows a random walk,
 
 $$
-I _ {t} = I _ {t - 1} + \boldsymbol {e}
+I_{t} = I_{t - 1} + \boldsymbol {e}
 $$
 
 and
 
 $$
-E (I _ {t}) = I _ {t - 1}
+E (I_{t}) = I_{t - 1}
 $$
 
 Where,  $\mathbf{I}_{\mathrm{t}}$  is the inflation of period t
@@ -181,13 +181,13 @@ $\varepsilon$  is a random term with zero mean.
 Therefore, the expected real yield on a nominal bond is
 
 $$
-r _ {R} = r _ {N} - E (I) = r _ {N} - I _ {t - 1} \tag {3}
+r_{R} = r_{N} - E (I) = r_{N} - I_{t - 1} \tag {3}
 $$
 
 Investors should be willing to accept a lower real yield for inflation-indexed bonds than nominal bonds, since inflation-indexed bonds provide a perfect inflation hedge. Investors pay a premium for owning inflation-indexed bonds. Intuitively, the real return of an inflation-indexed bond will be lower than the implied real rate of return from a nominal bond, because an inflation-indexed bond guarantees that the return will keep pace with inflation. The current premium is calculated as the difference between the expected real return of the nominal bond and the current real yield of the inflation-indexed bond with a comparable maturity. The following equation expresses this calculation:
 
 $$
-I I P _ {t} = r _ {N, t} - E (I) - r _ {I I, t} = r _ {N, t} - I _ {t - 1} - r _ {I I, t} \tag {4}
+I I P_{t} = r_{N, t} - E (I) - r_{I I, t} = r_{N, t} - I_{t - 1} - r_{I I, t} \tag {4}
 $$
 
 As of 03/05/1999, the nominal yield on a traditional 10-year government bond and the yield on a 10-year inflation-indexed bond were:
@@ -199,7 +199,7 @@ $$
 The increase in inflation during calendar year 1998 was:
 
 $$
-\mathrm{I_{t - 1}} = 1.61\%
+\mathrm{I_{t -1}} = 1.61\%
 $$
 
 The current inflation-index premium, from (4), above  $= 5.67\% -1.61\% -3.89\% = 0.17\%$
@@ -213,7 +213,7 @@ If the inflation volatility is high, then investors are willing to pay a higher 
 inflation index premium can be derived as follows:
 
 $$
-I I P _ {i} = \frac {S _ {i}}{S _ {t}} \times I I P _ {t} \tag {5}
+I I P_{i} = \frac{S_{i}}{S_{t}} \times I I P_{t} \tag {5}
 $$
 
 Where, i is any month in the past (since January 1970)
@@ -227,7 +227,7 @@ Finally, subtracting the inflation index premium from the real yield produces a 
 measurement of historical yields for inflation-indexed bonds.
 
 $$
-r _ {I I, t} = r _ {R, t} - I I P _ {t} = r _ {N} - E (I) - I I P _ {t} = r _ {N} - I _ {t - 1} - I I P _ {t} \tag {6}
+r_{I I, t} = r_{R, t} - I I P_{t} = r_{N} - E (I) - I I P_{t} = r_{N} - I_{t - 1} - I I P_{t} \tag {6}
 $$
 
 Several assumptions were made in the use of the above method:
@@ -243,17 +243,17 @@ The objective of the analysis was to create a synthetic inflation-indexed bond s
 The income and total returns are calculated through the following formulas:
 
 $$
-T R = \frac {\left[ \frac {\text {r e d e m p t i o n}}{\left(1 + \frac {y l d}{\text {f r e q u e n c y}}\right) ^ {N - 1 + \frac {D S C}{E}}} \right] + \left[ \sum_ {k = 1} ^ {N} \frac {1 0 0 \times \frac {\text {r a t e}}{\text {f r e q u e n c y}}}{{\left(1 + \frac {y l d}{\text {f r e q u e n c y}}\right) ^ {N - 1 + \frac {D S C}{E}}}} \right]}{p a r} \times (1 + I) - 1
+T R = \frac{\left[ \frac{\text{re de mp ti on}}{\left(1 + \frac{y l d}{\text{fr eq ue nc y}}\right)^{N - 1 + \frac{D S C}{E}}} \right] + \left[ \sum_{k = 1}^{N} \frac{1 0 0 \times \frac{\text{ra te}}{\text{fr eq ue nc y}}}{{\left(1 + \frac{y l d}{\text{fr eq ue nc y}}\right)^{N - 1 + \frac{D S C}{E}}}} \right]}{p a r} \times (1 + I) - 1
 $$
 
 $$
-I R = \frac {r a t e}{f r e q u e n c y} \times \frac {A}{E}
+I R = \frac{r a t e}{f r e q u e n c y} \times \frac{A}{E}
 $$
 
 Where,  $\mathrm{TR} =$  Total return
 
 $$
-\mathrm {I R} = \text {I n c o m e R e t u r n}
+\mathrm{IR} = \text{In co me Re tu rn}
 $$
 
 $\mathrm{DSC} =$  number of days from settlement day to the next coupon date.

@@ -119,27 +119,27 @@ The gap in each maturity bucket (or bin) is calculated by estimating the differe
 The repricing model measures the change in an FI's net interest income exposure (or profit exposure) to interest rate changes in each different maturity bucket. For example, suppose that an FI has a negative  $10 million difference between assets and liabilities being repriced in one day (or the one-day bucket). Assets and liabilities that are repriced each day are likely to be interbank borrowings on the federal funds or repurchase agreement markets (see Chapter 5). Thus, a negative gap (\mathrm{RSA} < \mathrm{RSL})$  exposes the FI to refinancing risk, in that a rise in these short-term rates would lower the FI's net interest income since the FI has more rate-sensitive liabilities than assets in that bucket. Refinancing risk is a type of interest rate risk in that the cost of refinancing can be more than the return earned on asset investments. In other words, assuming equal changes in interest rates on RSAs and RSLs, interest expense will increase by more than interest revenue. Conversely, if the FI has a positive 20 million difference between its assets and liabilities being repriced in 6 months to 12 months, it has a positive gap ( $\mathrm{RSA} > \mathrm{RSL}$ ) for this period and is exposed to reinvestment risk. By holding shorter-term assets relative to liabilities, it faces uncertainty about the interest rate at which it can reinvest funds borrowed over a longer period. Thus, a drop in rates over this period would lower the FI's net interest income, since interest income would decrease by more than interest expense. Specifically, let:
 
 $$
-\Delta N I I _ {i} = \text {C h a n g e i n n e t i n t e r e s i g m a i n c o m e i n t h e i t h m a t u r y b u c k e t}
+\Delta N I I_{i} = \text{Ch an ge in ne ti nt er es ig ma in co me in th ei th ma tu ry bu ck et}
 $$
 
 $$
-G A P _ {i} = \text {D o l l a r s i z e o f t h e g a p b e t w e e n t h e b o o k v a l u e o f r a t e - s e n s i t i v e a s s e t s}
+G A P_{i} = \text{Do ll ar si ze of th eg ap be tw ee nt he bo ok va lu eo fr at e -s en si ti ve as se ts}
 $$
 
 $$
-\Delta R _ {i} = \text {C h a n g e i n t h e l e v e l o f i n t e r s t r a t e s i m p a c t i n g a s s e t s a n d l i b a l i t i e n t s i n t h e}
+\Delta R_{i} = \text{Ch an ge in th el ev el of in te rs tr at es im pa ct in ga ss et sa nd li ba li ti en ts in th e}
 $$
 
 Then:
 
 $$
-\Delta N I I _ {i} = \left(G A P _ {i}\right) \Delta R _ {i} = \left(R S A _ {i} - R S L _ {i}\right) \Delta R _ {i}
+\Delta N I I_{i} = \left(G A P_{i}\right) \Delta R_{i} = \left(R S A_{i} - R S L_{i}\right) \Delta R_{i}
 $$
 
 In this first bucket, if the gap is negative 10 million and short-term interest rates (such as the fed funds and/or repo rates) rise by 1 percent, the annualized change in the FI's future net interest income is:
 
 $$
-\Delta N I I _ {i} = (- \$ 1 0 \text {m i l l o n}) \times 0. 0 1 = - \$ 1 0 0, 0 0 0
+\Delta N I I_{i} = (- \$ 1 0 \text{mi ll on}) \times 0. 0 1 = - \$ 1 0 0, 0 0 0
 $$
 
 That is, the negative gap and associated refinancing risk result in a loss of 100,000 in net interest income for the FI.
@@ -149,13 +149,13 @@ This approach is very simple and intuitive. We will see later in this section, h
 The FI manager can also estimate cumulative gaps (CGAP) over various repricing categories or buckets. A common cumulative gap of interest is the one-year repricing gap estimated from Table 23-1 as:
 
 $$
-\mathrm {C G A P} = (- \mathrm {\# 1 0 m}) + (- \mathrm {\# 1 0 m}) + (- 1 5 \mathrm {m}) + \mathrm {\# 2 0 m} = - 1 5 \text {m i l l i o n}
+\mathrm{CG AP} = (- \mathrm{\#1 0m}) + (- \mathrm{\#1 0m}) + (- 1 5 \mathrm{m}) + \mathrm{\#2 0m} = - 1 5 \text{mi ll io n}
 $$
 
 If  $\Delta R_{i}$  is the average interest rate change affecting assets and liabilities that can be repriced within a year, the cumulative effect on the bank's net interest income is:
 
 $$
-\begin{array}{l} \Delta N I I = \left(\sum_ {i = 1 \text {d a y}} ^ {1 \text {y e a r}} R S A _ {i} - \sum_ {i = 1 \text {d a y}} ^ {1 \text {y e a r}} R S L _ {i}\right) \Delta R _ {i} \\ = (C G A P) \Delta R _ {i} \\ = (- \$ 15 \text {m i l l o n}) (0. 0 1) = - \$ 1 5 0, 0 0 0 \\ \end{array}
+\begin{array}{l} \Delta N I I = \left(\sum_{i = 1 \text{da y}}^{1 \text{ye ar}} R S A_{i} - \sum_{i = 1 \text{da y}}^{1 \text{ye ar}} R S L_{i}\right) \Delta R_{i} \\ = (C G A P) \Delta R_{i} \\ = (- \$ 15 \text{mi ll on}) (0. 0 1) = - \$ 1 5 0, 0 0 0 \\ \end{array}
 $$
 
 We next look at an example of calculating the cumulative one-year gap using an FI in the form of a commercial bank. Remember that the manager considers whether each asset or liability will, or can, have its interest rate changed within the next year. If it will or can, it is a rate-sensitive asset or liability. If not, it is a rate-insensitive asset or liability.
@@ -201,13 +201,13 @@ Similar arguments for and against the inclusion of retail passbook savings accou
 The four repriced liabilities ( $40 +$ 20 + $60 + $20) sum to  \$140 million, and the four repriced assets ($ 50 + $30 + $35 + $40) sum to \$155 million. Given this, the cumulative one-year repricing gap (CGAP) for the bank is:
 
 $$
-\begin{array}{l} \mathrm {C G A P} = (\text {O n e - y e a r R S A}) - (\text {O n e - y e a r R S A}) \\ = \mathrm {R S A} - \mathrm {R S L} \\ = \$ 155 \text {m i l l i o n} - \$ 140 \text {m i l l i o n} = \$ 15 \text {m i l l i o n} \\ \end{array}
+\begin{array}{l} \mathrm{CG AP} = (\text{On e -y ea rR SA}) - (\text{On e -y ea rR SA}) \\ = \mathrm{RS A} - \mathrm{RS L} \\ = \$ 155 \text{mi ll io n} - \$ 140 \text{mi ll io n} = \$ 15 \text{mi ll io n} \\ \end{array}
 $$
 
 Interest rate sensitivity can also be expressed as a percentage of assets (A), commonly referred to as the gap ratio:
 
 $$
-\mathrm{GAP ratio} = \frac{CGAP}{A} = \frac{\mathbb{S}15\text{million}}{\mathbb{S}270\text{million}} = 0.056 = 5.6\%
+\mathrm{GAPratio} = \frac{CGAP}{A} = \frac{\mathbb{S}15\text{million}}{\mathbb{S}270\text{million}} = 0.056 = 5.6\%
 $$
 
 Expressing the repricing gap in this way is useful since it tells us (1) the direction of the interest rate exposure (positive or negative CGAP) and (2) the scale of that exposure as indicated by dividing the gap by the asset size of the institution. In our example, the bank has a CGAP equal to 5.6 percent of the value of its total assets. This version of the gap ratio is used by regulators to measure interest rate risk.[5]
@@ -221,13 +221,13 @@ Equal Changes in Rates on RSAs and RSLs. The CGAP provides a measure of an FI's 
 Suppose that, for the bank depicted in Table 23-2, interest rates rise by 1 percent on both RSAs and RSLs. The CGAP would project the expected annual change in net interest income  $(\Delta NII)$  of the bank as:
 
 $$
-\begin{array}{l} \Delta N I I = (R S A \times \Delta R) - (R S L \times \Delta R) = C G A P \times \Delta R \\ = (\$ 1 5 5 \text {m i l l i o n} \times 0. 0 1) - (\$ 1 4 0 \text {m i l l i o n} \times 0. 0 1) = (\$ 1 5 \text {m i l l i o n}) \times 0. 0 1 \\ = (\$ 1. 5 5 \text {m i l l i o n} - \$ 1. 4 0 \text {m i l l i o n}) = \$ 1 5 0, 0 0 0 \\ \end{array}
+\begin{array}{l} \Delta N I I = (R S A \times \Delta R) - (R S L \times \Delta R) = C G A P \times \Delta R \\ = (\$ 1 5 5 \text{mi ll io n} \times 0. 0 1) - (\$ 1 4 0 \text{mi ll io n} \times 0. 0 1) = (\$ 1 5 \text{mi ll io n}) \times 0. 0 1 \\ = (\$ 1. 5 5 \text{mi ll io n} - \$ 1. 4 0 \text{mi ll io n}) = \$ 1 5 0, 0 0 0 \\ \end{array}
 $$
 
 Similarly, if interest rates fall equally for RSAs and RSLs (row 2, Table 23-4), NII will fall when CGAP is positive. As rates fall, interest income falls by more than interest expense. Thus, NII falls. Suppose that for our bank, rates fall by 1 percent. The CGAP predicts that NII will fall by:
 
 $$
-\begin{array}{l} \Delta N I I = [ \$ 1 5 5 \text {m i l l i o n} \times (- 0. 0 1) ] - [ \$ 1 4 0 \text {m i l l i o n} \times (- 0. 0 1) ] = \$ 1 5 \text {m i l l i o n} \times - 0. 0 1 \\ = - \$ 1. 5 5 \text {m i l l i o n} - (- \$ 1. 4 0 \text {m i l l i o n}) = - \$ 1 5 0, 0 0 0 \\ \end{array}
+\begin{array}{l} \Delta N I I = [ \$ 1 5 5 \text{mi ll io n} \times (- 0. 0 1) ] - [ \$ 1 4 0 \text{mi ll io n} \times (- 0. 0 1) ] = \$ 1 5 \text{mi ll io n} \times - 0. 0 1 \\ = - \$ 1. 5 5 \text{mi ll io n} - (- \$ 1. 4 0 \text{mi ll io n}) = - \$ 1 5 0, 0 0 0 \\ \end{array}
 $$
 
 TABLE 23-3 Flushing Financial Corp., Interest Rate Sensitivity Report, 2019
@@ -257,7 +257,7 @@ The effect that a change in the spread between rates on RSAs and RSLs has on net
 To understand spread effect, assume for a moment that both RSAs and RSLs equal 155 million. Suppose that rates rise by 1.2 percent on RSAs and by 1 percent on RSLs (i.e., the spread between the rate on RSAs and RSLs increases by 1.2 percent - 1 percent = 0.2 percent). The resulting change in NII is calculated as:
 
 $$
-\begin{array}{l} \Delta N I I = \left(R S A \times \Delta R _ {R S A}\right) - \left(R S L \times \Delta R _ {R S L}\right) \\ = \Delta \text {I n t e r s t i n c o m e} - \Delta \text {I n t e r s t e x p e n s e} \\ = (\$ 155 \text {million} \times 1.2 \%) - (\$ 155 \text {million} \times 1.0 \%) \\ = \$ 155 \text{ million} (1.2\% - 1.0\%) \\ = \$ 3 1 0, 0 0 0 \\ \end{array}
+\begin{array}{l} \Delta N I I = \left(R S A \times \Delta R_{R S A}\right) - \left(R S L \times \Delta R_{R S L}\right) \\ = \Delta \text{In te rs ti nc om e} - \Delta \text{In te rs te xp en se} \\ = (\$ 155 \text{million} \times 1.2 \%) - (\$ 155 \text{million} \times 1.0 \%) \\ = \$ 155 \text{ million} (1.2\% - 1.0\%) \\ = \$ 3 1 0, 0 0 0 \\ \end{array}
 $$
 
 See Table 23-5 for various combinations of CGAP and spread changes and their effects on NII. The first four rows in Table 23-5 consider a bank with a positive CGAP; the last four rows consider a bank with a negative CGAP. Notice in Table 23-5 that the CGAP and spread effects can both have the same effect on NII. For example, in row 6 of Table 23-5, if CGAP is negative and interest rates increase, the CGAP effect says NII will decrease. If, at the same time, the spread between RSAs and RSLs decreases as interest rates increase, the spread effect also says NII will decrease. In these cases, FI managers can accurately predict the direction of the change in NII as interest rates change (rows indicated with one arrow under the Change in NII column). When the two work in opposite directions, however, the change in NII cannot be predicted without
@@ -283,7 +283,7 @@ TABLE 23-5 Impact of CGAP on the Relation between Changes in Interest Rates and 
 Suppose that for the FI in Table 23-2, interest rates fall by 1.0 percent on RSAs and by 1.2 percent on RSLs. Now the change in NII is calculated as:
 
 $$
-\begin{array}{l} \Delta N I I = [ \$ 1 5 5 \text {m i l l i o n} \times (- 0. 0 1 0) ] - [ \$ 1 4 0 \text {m i l l i o n} \times (- 0. 0 1 2) ] \\ = \$ 1.55 \text {m i l l i o n} - (- \$ 1.68 \text {m i l l i o n}) \\ = \$ 0.13 \text {m i l l o n , o r \$ 1 3 0 , 0 0 0} \\ \end{array}
+\begin{array}{l} \Delta N I I = [ \$ 1 5 5 \text{mi ll io n} \times (- 0. 0 1 0) ] - [ \$ 1 4 0 \text{mi ll io n} \times (- 0. 0 1 2) ] \\ = \$ 1.55 \text{mi ll io n} - (- \$ 1.68 \text{mi ll io n}) \\ = \$ 0.13 \text{mi ll on ,o r \$1 30 ,0 00} \\ \end{array}
 $$
 
 Even though the CGAP effect (i.e., \mathrm{RSA} > \mathrm{RSA}) is putting negative pressure on NII (in Example 23-1, the CGAP effect of a 1 percent decrease in the rate on both RSAs and RSLs produced a decrease in NII of 150,000), the increase in the spread, and the resulting spread effect, is so big that NII increases by 130,000.
@@ -315,7 +315,7 @@ LG 23-3
 In Chapter 3, we demonstrated how to calculate duration and showed that the duration measure has economic meaning as the sensitivity of an asset or liability's value to small changes in interest rates. That is:
 
 $$
-D = -\frac{\% \Delta \text {in the market value of a security}}{\Delta R / (1 + R)}
+D = -\frac{\% \Delta \text{inthemarketvalueofa security}}{\Delta R / (1 + R)}
 $$
 
 # duration gap
@@ -327,20 +327,20 @@ For FIs, the major relevance of duration is its use as a measure of interest rat
 The Duration Gap for a Financial Institution. To estimate the overall duration gap of an FI, we first determine the duration of an FI's asset portfolio  $(A)$  and the duration of its liability portfolio  $(L)$ . Specifically, the duration of a portfolio of assets or liabilities is the market value weighted average of the durations of the components of the portfolio. These can be calculated as:
 
 $$
-D _ {A} = X _ {1 A} D _ {1} ^ {A} + X _ {2 A} D _ {2} ^ {A} + \dots + X _ {n A} D _ {n} ^ {A}
+D_{A} = X_{1 A} D_{1}^{A} + X_{2 A} D_{2}^{A} + \dots + X_{n A} D_{n}^{A}
 $$ and:
 
 
 $$
 
-D _ {L} = X _ {1 L} D _ {1} ^ {L} + X _ {2 L} D _ {2} ^ {L} + \dots + X _ {n L} D _ {n} ^ {L}
+D_{L} = X_{1 L} D_{1}^{L} + X_{2 L} D_{2}^{L} + \dots + X_{n L} D_{n}^{L}
 
 $$ where
 
 
 $$
 
-\begin{array}{l} X _ {1 j} + X _ {2 j} + \ldots + X _ {n j} = 1 \\ j = A, L \\ \end{array}
+\begin{array}{l} X_{1 j} + X_{2 j} + \ldots + X_{n j} = 1 \\ j = A, L \\ \end{array}
 
 $$
 
@@ -380,14 +380,14 @@ From the duration model (assuming annual compounding of interest):
 
 $$
 
-\frac {\Delta A}{A} = - D _ {A} \frac {\Delta R}{(1 + R)}
+\frac{\Delta A}{A} = - D_{A} \frac{\Delta R}{(1 + R)}
 
 $$ and:
 
 
 $$
 
-\frac {\Delta L}{L} = - D _ {L} \frac {\Delta R}{(1 + R)}
+\frac{\Delta L}{L} = - D_{L} \frac{\Delta R}{(1 + R)}
 
 $$
 
@@ -397,14 +397,14 @@ Here we have simply substituted  $\Delta A / A$  or  $\Delta L / L$ , the percen
 
 $$
 
-\Delta A = A \times - D _ {A} \times \frac {\Delta R}{(1 + R)}
+\Delta A = A \times - D_{A} \times \frac{\Delta R}{(1 + R)}
 
 $$ and:
 
 
 $$
 
-\Delta L = L \times - D _ {L} \times \frac {\Delta R}{(1 + R)}
+\Delta L = L \times - D_{L} \times \frac{\Delta R}{(1 + R)}
 
 $$
 
@@ -412,7 +412,7 @@ Since  $\Delta E = \Delta A - \Delta L$ , we can substitute these two expression
 
 $$
 
-\Delta E = - \left(D _ {A} - k D _ {L}\right) \times A \times \frac {\Delta R}{(1 + R)}
+\Delta E = - \left(D_{A} - k D_{L}\right) \times A \times \frac{\Delta R}{(1 + R)}
 
 $$ where
 
@@ -433,14 +433,14 @@ Assuming that the level of interest rates and expected shock to interest rates a
 
 $$
 
-\Delta E = \left[ (- D _ {A}) A + (D _ {L}) L \right] \frac {\Delta R}{(1 + R)}
+\Delta E = \left[ (- D_{A}) A + (D_{L}) L \right] \frac{\Delta R}{(1 + R)}
 
 $$ or:
 
 
 $$
 
-\Delta E = - \left(D _ {A} A - D _ {L} L\right) \frac {\Delta R}{(1 + R)}
+\Delta E = - \left(D_{A} A - D_{L} L\right) \frac{\Delta R}{(1 + R)}
 
 $$
 
@@ -448,7 +448,7 @@ To rearrange the equation in a slightly more intuitive fashion, we multiply and 
 
 $$
 
-\Delta E = - \left[ (A / A) D _ {A} - (L / A) D _ {L} \right] \times A \times [ \Delta R / (1 + R) ]
+\Delta E = - \left[ (A / A) D_{A} - (L / A) D_{L} \right] \times A \times [ \Delta R / (1 + R) ]
 
 $$
 
@@ -456,14 +456,14 @@ Therefore:
 
 $$
 
-\Delta E = - \left[ D _ {A} - (L / A) D _ {L} \right] \times A \times \left[ \Delta R / (1 + R) \right]
+\Delta E = - \left[ D_{A} - (L / A) D_{L} \right] \times A \times \left[ \Delta R / (1 + R) \right]
 
 $$ and thus:
 
 
 $$
 
-\Delta E = - \left(D _ {A} - k D _ {L}\right) \times A \times [ \Delta R / (1 + R) ]
+\Delta E = - \left(D_{A} - k D_{L}\right) \times A \times [ \Delta R / (1 + R) ]
 
 $$ where
 
@@ -474,7 +474,7 @@ $$
 9. We assume that the level of rates and the expected shock to interest rates are the same for both assets and liabilities. This assumption is standard in Macauley duration analysis. Although restrictive, this assumption can be relaxed. Specifically, if  $\Delta R_{A}$  is the shock to assets and  $\Delta R_{L}$  is the shock to liabilities, we can express the duration gap model as:
 
 $$
-\Delta E = - \left[ \left(D _ {A} \times A \times \frac {\Delta R _ {A}}{1 + R _ {A}}\right) - \left(D _ {L} \times L \times \frac {\Delta R _ {L}}{1 + R _ {L}}\right) \right]
+\Delta E = - \left[ \left(D_{A} \times A \times \frac{\Delta R_{A}}{1 + R_{A}}\right) - \left(D_{L} \times L \times \frac{\Delta R_{L}}{1 + R_{L}}\right) \right]
 $$
 
 TABLE 23-6 Fannie Mae Duration Gap
@@ -498,11 +498,11 @@ TABLE 23-7 Impact of DGAP on the Relation between Changes in Interest Rates and 
 Suppose that the FI manager calculates that:
 
 $$
-D _ {A} = 5 \text {y e a r s}
+D_{A} = 5 \text{ye ar s}
 $$
 
 $$
-D _ {L} = 3 \text {y e a r s}
+D_{L} = 3 \text{ye ar s}
 $$
 
 Then the manager learns from an economic forecasting unit that rates are expected to rise from 10 percent to 11 percent in the immediate future. That is:
@@ -522,7 +522,7 @@ The FI's initial balance sheet is:
 The FI manager calculates the potential loss to equity holders' net worth  $(E)$  if the forecast of rising rates proves true:
 
 $$
-\begin{array}{l} \Delta E = - \left(D _ {A} - k D _ {L}\right) \times A \times \frac {\Delta R}{(1 + R)} \\ = - [ 5 - (0. 9) (3) ] \times \$ 1 0 0 \text {m i l l i o n} \times \frac {0 . 0 1}{1 . 1} = - \$ 2. 0 9 \text {m i l l i o n} \\ \end{array}
+\begin{array}{l} \Delta E = - \left(D_{A} - k D_{L}\right) \times A \times \frac{\Delta R}{(1 + R)} \\ = - [ 5 - (0. 9) (3) ] \times \$ 1 0 0 \text{mi ll io n} \times \frac{0 . 0 1}{1 . 1} = - \$ 2. 0 9 \text{mi ll io n} \\ \end{array}
 $$
 
 The FI could lose  \$2.09 million in net worth if rates rise by 1 percent. The FI started with\$ 10 million in equity, so the loss of 2.09 million is almost 21 percent of its initial net worth. The market value balance sheet after the rise in rates by 1 percent then appears as follows:10
@@ -538,7 +538,7 @@ $$
 To do this, the FI should not directly set  $D_A = D_L$ , which ignores the fact that the FI's assets (A) do not equal its borrowed liabilities (L) and that  $k$  (which reflects the ratio  $L / A$ ) is not equal to 1. To see the importance of factoring in leverage (or  $L / A$ ), suppose that the manager increases the duration of the FI's liabilities to five years, the same as  $D_A$ . Then:
 
 $$
-\Delta E = - [ 5 - (0. 9) (5) ] \times \$ 1 0 0 \text {m i l l i o n} \times (0. 0 1 / 1. 1) = - 0. 4 5 \text {m i l l i o n}
+\Delta E = - [ 5 - (0. 9) (5) ] \times \$ 1 0 0 \text{mi ll io n} \times (0. 0 1 / 1. 1) = - 0. 4 5 \text{mi ll io n}
 $$
 
 The FI is still exposed to a loss of 0.45 million if rates rise by 1 percent.
@@ -546,13 +546,13 @@ The FI is still exposed to a loss of 0.45 million if rates rise by 1 percent.
 An appropriate strategy involves changing  $D_{L}$  until:
 
 $$
-D _ {A} = k D _ {L} = 5 \text {y e a r s}
+D_{A} = k D_{L} = 5 \text{ye ar s}
 $$
 
 For example:
 
 $$
-\Delta E = - [ 5 - (0. 9) 5. 5 5 ] \times \$ 1 0 0 \text {m i l l i o n} \times (0. 0 1 / 1. 1) = 0
+\Delta E = - [ 5 - (0. 9) 5. 5 5 ] \times \$ 1 0 0 \text{mi ll io n} \times (0. 0 1 / 1. 1) = 0
 $$
 
 In this case, the FI manager sets  $D_{L} = 5.55$  years, or slightly longer than  $D_{A} = 5$  years, to compensate for the fact that only 90 percent of assets are funded by borrowed liabilities, with the other 10 percent funded by equity. Note that the FI manager has at least three other ways to reduce the duration gap to zero:
@@ -560,7 +560,7 @@ In this case, the FI manager sets  $D_{L} = 5.55$  years, or slightly longer tha
 1. Reduce  $D_A$ . Reduce  $D_A$  from 5 years to 2.7 years (equal to  $kD_L$ , or [0.9][3]) so that
 
 $$
-\left(D _ {A} - k D _ {L}\right) = [ 2. 7 - (0. 9) (3) ] = 0
+\left(D_{A} - k D_{L}\right) = [ 2. 7 - (0. 9) (3) ] = 0
 $$
 
 10. These values are calculated as follows:
@@ -572,7 +572,7 @@ $$ and:
 
 $$
 
-\begin{array}{l} \frac {\Delta L}{L} = - 3 \left(\frac {0 . 0 1}{1 . 1}\right) = - 0. 0 2 7 2 7 = - 2. 7 2 7 \\ 9 0 + (- 0. 0 2 7 2 7) 9 0 = 8 7. 5 4 \\ \end{array}
+\begin{array}{l} \frac{\Delta L}{L} = - 3 \left(\frac{0 . 0 1}{1 . 1}\right) = - 0. 0 2 7 2 7 = - 2. 7 2 7 \\ 9 0 + (- 0. 0 2 7 2 7) 9 0 = 8 7. 5 4 \\ \end{array}
 
 $$
 
@@ -580,7 +580,7 @@ $$
 
 $$
 
-\left(D _ {A} - k D _ {L}\right) = [ 4 - (0. 9) (4. 4 4) ] = 0
+\left(D_{A} - k D_{L}\right) = [ 4 - (0. 9) (4. 4 4) ] = 0
 
 $$
 
@@ -588,7 +588,7 @@ $$
 
 $$
 
-\left(D _ {A} - k D _ {L}\right) = \left[ 5 - (0. 9 5) (5. 2 6) \right] = 0
+\left(D_{A} - k D_{L}\right) = \left[ 5 - (0. 9 5) (5. 2 6) \right] = 0
 
 $$
 
@@ -600,13 +600,13 @@ Suppose that in Example 23-4 the FI manager learns that rates are expected to ri
 
 $$
 
-\Delta R _ {A} = 1 \% = 0.015 \quad \text {and} \quad 1 + R _ {A} = 1.10
+\Delta R_{A} = 1 \% = 0.015 \quad \text{and} \quad 1 + R_{A} = 1.10
 
 $$
 
 $$
 
-\Delta R _ {L} = 1 \% = 0.010 \quad \text {and} \quad 1 + R _ {L} = 1.10
+\Delta R_{L} = 1 \% = 0.010 \quad \text{and} \quad 1 + R_{L} = 1.10
 
 $$
 
@@ -614,14 +614,14 @@ The FI manager calculates the potential loss to equity holders' net worth  $(E)$
 
 $$
 
-\Delta A = - D _ {A} \frac {d R _ {A}}{1 + R _ {A}} A = \Delta A = - 5 \times \frac {0 . 0 1 5}{1 . 1 0} \times \$ 1 0 0 \text {m i l l i o n} = - \$ 6. 8 2 \text {m i l l i o n}
+\Delta A = - D_{A} \frac{d R_{A}}{1 + R_{A}} A = \Delta A = - 5 \times \frac{0 . 0 1 5}{1 . 1 0} \times \$ 1 0 0 \text{mi ll io n} = - \$ 6. 8 2 \text{mi ll io n}
 
 $$ and
 
 
 $$
 
-\Delta L = - D _ {L} \frac {d R _ {L}}{1 + R _ {L}} L = \Delta L = - 4 \times \frac {0 . 0 1 0}{1 . 1 0} \times \$ 9 0 \text {m i l l i o n} = - \$ 3. 2 7 \text {m i l l i o n}
+\Delta L = - D_{L} \frac{d R_{L}}{1 + R_{L}} L = \Delta L = - 4 \times \frac{0 . 0 1 0}{1 . 1 0} \times \$ 9 0 \text{mi ll io n} = - \$ 3. 2 7 \text{mi ll io n}
 
 $$
 
@@ -629,7 +629,7 @@ Thus,
 
 $$
 
-\Delta E = \Delta A - \Delta L = - \$ 6.82 \text {m i l l i o n} - (- \$ 3.27 \text {m i l l i o n}) = - \$ 3.55 \text {m i l l i o n}
+\Delta E = \Delta A - \Delta L = - \$ 6.82 \text{mi ll io n} - (- \$ 3.27 \text{mi ll io n}) = - \$ 3.55 \text{mi ll io n}
 
 $$
 
@@ -675,7 +675,7 @@ Consider a four-year bond that pays 8 percent coupons annually and has a yield t
 
 $$
 
-V _ {b} = \left(\frac {8 0}{1 + 0 . 1 2}\right) ^ {1} + \left(\frac {8 0}{1 + 0 . 1 2}\right) ^ {2} + \left(\frac {8 0}{1 + 0 . 1 2}\right) ^ {3} + \left(\frac {8 0}{1 + 0 . 1 2}\right) ^ {4} = \$ 8 7 8. 5 0 6
+V_{b} = \left(\frac{8 0}{1 + 0 . 1 2}\right)^{1} + \left(\frac{8 0}{1 + 0 . 1 2}\right)^{2} + \left(\frac{8 0}{1 + 0 . 1 2}\right)^{3} + \left(\frac{8 0}{1 + 0 . 1 2}\right)^{4} = \$ 8 7 8. 5 0 6
 
 $$
 
@@ -804,7 +804,7 @@ In actual practice, we can get an idea of the discrepancy between book values (B
 
 $$
 
-M V = \frac {\text {M a r k e t v a l u e o f e q u i t y o w i n s h i p i n s h a r e s o u t s t a n d i n g}}{\text {N u m b e r o f s h a r e s}}
+M V = \frac{\text{Ma rk et va lu eo fe qu it yo wi ns hi pi ns ha re so ut st an di ng}}{\text{Nu mb er of sh ar es}}
 
 $$
 
@@ -820,7 +820,7 @@ By contrast, the historical or book value of the FI's equity per share (BV) is e
 
 $$
 
-B V = \frac {\text {P a r v a l u e o f e q u i t y} + \text {S u r p l u s v a l u e} + \text {R e t a i n e d e a r n i n g s}}{\text {N u m b e r o f s h a r e s}}
+B V = \frac{\text{Pa rv al ue of eq ui ty} + \text{Su rp lu sv al ue} + \text{Re ta in ed ea rn in gs}}{\text{Nu mb er of sh ar es}}
 
 $$
 

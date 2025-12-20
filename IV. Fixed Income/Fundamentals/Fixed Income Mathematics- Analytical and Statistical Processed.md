@@ -243,19 +243,19 @@ $$
 A shorthand notation for this calculation is
 
 $$
-\$ 1,000(1.07) ^ {8} = \$ 1,718.19.
+\$ 1,000(1.07)^{8} = \$ 1,718.19.
 $$
 
 To generalize the formula, suppose that \(1,000 is invested for \(N\) periods at an annual interest rate of \(i\) (expressed as a decimal). Then, the future value \(N\) years from now can be expressed as follows:
 
 $$
-\$ 1,000(1 + i) ^ {N}.
+\$ 1,000(1 + i)^{N}.
 $$
 
 For example, if  \$1,000 is invested for 4 years at an annual interest rate of \(10\%$ $(i = 0.10)$ , then the future value will be \)1,464.10:
 
 $$
-\$ 1,000 (1.10) ^ {4} = \$ 1,000 (1.464 1) = \$ 1,464.1 0.
+\$ 1,000 (1.10)^{4} = \$ 1,000 (1.464 1) = \$ 1,464.1 0.
 $$
 
 The expression  $(1 + i)^N$  is the amount to which \$1 will grow at the end of  $N$  years if an annual interest rate of  $i$  is earned. This expression is called the future value of \$1. The future value of \$1 multiplied by the original principal yields the future value of the original principal.
@@ -271,7 +271,7 @@ $$
 We can generalize the formula for the future value as follows:
 
 $$
-F V = P (1 + i) ^ {N},
+F V = P (1 + i)^{N},
 $$
 
 where
@@ -293,13 +293,13 @@ P = \$ 10,000,000; i = 0. 0 8 7; N = 5.
 $$
 
 $$
-\begin{array}{l} F V = \$ 10,000,000 (1. 0 8 7) ^ {5} \\ = \\( 10,000,000 (1. 5 1 7 5 6 6 5) = \\) 1 5,1 7 5,6 6 5 . \\ \end{array}
+\begin{array}{l} F V = \$ 10,000,000 (1. 0 8 7)^{5} \\ = \\( 10,000,000 (1. 5 1 7 5 6 6 5) = \\) 1 5,1 7 5,6 6 5 . \\ \end{array}
 $$
 
 Illustration 2-2. A life insurance company receives a premium of  \$10 million, which it invests for 5 years. The investment promises to pay an annual interest rate of \(9.25\%$ . The future value of \)10 million at the end of 5 years is \$15,563,500, as shown below:
 
 $$
-\begin{array}{l} P = \$ 10,000,000; i = 0. 0 9 2 5; N = 5. \\ F V = \$ 10,000,000 (1. 0 9 2 5) ^ {5} \\ = \$ 10,000,000 (1. 5 5 6 3 5 0 0) = \$ 1 5, 5 6 3, 5 0 0. \\ \end{array}
+\begin{array}{l} P = \$ 10,000,000; i = 0. 0 9 2 5; N = 5. \\ F V = \$ 10,000,000 (1. 0 9 2 5)^{5} \\ = \$ 10,000,000 (1. 5 5 6 3 5 0 0) = \$ 1 5, 5 6 3, 5 0 0. \\ \end{array}
 $$
 
 Illustration 2-3. Suppose that a life insurance company has guaranteed a payment of  \$14 million to a pension fund 4 years from now. If the life insurance company receives a premium of\$ 11 million and can invest the entire premium for 4 years at an annual interest rate of 6.5%, will it have sufficient funds from this investment to meet the \$14 million obligation?
@@ -307,7 +307,7 @@ Illustration 2-3. Suppose that a life insurance company has guaranteed a payment
 The future value of the  \$11 million investment at the end of 4 years is\$ 14,151,130, as shown below:
 
 $$
-\begin{array}{l} P = \$ 1 1, 0 0 0, 0 0 0; i = 0. 0 6 5; N = 4. \\ F V = \$ 1 1, 0 0 0, 0 0 0 (1. 0 6 5) ^ {4} \\ = \\( 1 1,0 0 0,0 0 0 (1. 2 8 6 4 6 6 4) = \\) 1 4,1 5 1,1 3 0. \\ \end{array}
+\begin{array}{l} P = \$ 1 1, 0 0 0, 0 0 0; i = 0. 0 6 5; N = 4. \\ F V = \$ 1 1, 0 0 0, 0 0 0 (1. 0 6 5)^{4} \\ = \\( 1 1,0 0 0,0 0 0 (1. 2 8 6 4 6 6 4) = \\) 1 4,1 5 1,1 3 0. \\ \end{array}
 $$
 
 Because the future value is expected to be  \$14,151,130, the life insurance company will have sufficient funds from this investment to satisfy the\$ 14 million obligation to the pension fund.
@@ -317,13 +317,13 @@ Illustration 2-4. The portfolio manager of a tax-exempt fund is considering inve
 Future value of the \$400,000 investment for 4 years at 5.7%:
 
 $$
-\begin{array}{l} P = \$ 400,000; i = 0. 0 5 7; N = 4. \\ F V = \$ 4 0 0, 0 0 0 (1. 0 5 7) ^ {4} \\ = \\( 4 0 0, 0 0 0 (1. 2 4 8 2 4 5) = \\) 4 9 9, 2 9 8. \\ \end{array}
+\begin{array}{l} P = \$ 400,000; i = 0. 0 5 7; N = 4. \\ F V = \$ 4 0 0, 0 0 0 (1. 0 5 7)^{4} \\ = \\( 4 0 0, 0 0 0 (1. 2 4 8 2 4 5) = \\) 4 9 9, 2 9 8. \\ \end{array}
 $$
 
 Future value of \$499,298 reinvested for 3 years at 7.2%:
 
 $$
-\begin{array}{l} P = \$ 4 9 9, 2 9 8; i = 0. 0 7 2; N = 3. \\ F V = \$ 4 9 9, 2 9 8 (1. 0 7 2) ^ {3} \\ = \\( 4 9 9, 2 9 8 (1. 2 3 1 9 2 5) = \\) 6 1 5, 0 9 8 . \\ \end{array}
+\begin{array}{l} P = \$ 4 9 9, 2 9 8; i = 0. 0 7 2; N = 3. \\ F V = \$ 4 9 9, 2 9 8 (1. 0 7 2)^{3} \\ = \\( 4 9 9, 2 9 8 (1. 2 3 1 9 2 5) = \\) 6 1 5, 0 9 8 . \\ \end{array}
 $$
 
 Illustration 2-5. Suppose that the portfolio manager in the previous illustration has the opportunity to invest the \(400,000 for 7 years in an instrument that promises to pay an annual interest rate of \(6.15\%\). Is this alternative a more attractive investment than the one analyzed in the previous illustration?
@@ -331,7 +331,7 @@ Illustration 2-5. Suppose that the portfolio manager in the previous illustratio
 The future value of  \$400,000 invested for 7 years at \(6.15\%$  is \)607,435:
 
 $$
-\begin{array}{l} P = \$ 400,000; i = 0. 0 6 1 5; N = 7. \\ F V = \$ 4 0 0, 0 0 0 (1. 0 6 1 5) ^ {7} \\ = \$ 4 0 0, 0 0 0 (1. 5 1 8 5 8 8) = \$ 6 0 7, 4 3 5. \\ \end{array}
+\begin{array}{l} P = \$ 400,000; i = 0. 0 6 1 5; N = 7. \\ F V = \$ 4 0 0, 0 0 0 (1. 0 6 1 5)^{7} \\ = \$ 4 0 0, 0 0 0 (1. 5 1 8 5 8 8) = \$ 6 0 7, 4 3 5. \\ \end{array}
 $$
 
 Assuming that both investments have the same default risk, the investment in the previous illustration will provide a greater future value at the end of 7 years if the expectation of the portfolio manager—concerning the annual interest rate at which the rolled-over funds can be reinvested—is realized.
@@ -345,7 +345,7 @@ For example, suppose that \(100,000 is invested for 7 years and 3 months. Becaus
 an annual interest rate of  $5\%$ , the future value of \$100,000 invested for 7 years and 3 months is \$ 142,437, as shown below:
 
 $$
-\begin{array}{l} P = \$ 100,000; i = 0. 0 5; N = 7. 2 5. \\ F V = \$ 1 0 0, 0 0 0 (1. 0 5) ^ {7. 2 5} \\ = \$ 100,000 (1. 4 2 4 3 6 9) = \$ 1 4 2, 4 3 7. \\ \end{array}
+\begin{array}{l} P = \$ 100,000; i = 0. 0 5; N = 7. 2 5. \\ F V = \$ 1 0 0, 0 0 0 (1. 0 5)^{7. 2 5} \\ = \$ 100,000 (1. 4 2 4 3 6 9) = \$ 1 4 2, 4 3 7. \\ \end{array}
 $$
 
 # Compounding More than One Time per Year
@@ -355,7 +355,7 @@ An investment may pay interest more than one time per year. For example, interes
 Mathematically, we can express the future value when interest is paid  $m$  times per year as follows:
 
 $$
-F V = P (1 + i) ^ {\mathrm {n}},
+F V = P (1 + i)^{\mathrm{n}},
 $$
 
 where
@@ -367,7 +367,7 @@ $n =$  number of interest payments  $(= N\times m)$
 Illustration 2-6. Suppose that a portfolio manager invests  \$1 million in an investment that promises to pay an annual interest rate of \(6.4\%$  for 6 years. Interest on this investment is paid semiannually. The future value is \)1,459,340, as shown below:
 
 $$
-\begin{array}{l} P = \$ 1,000,000; m = 2; i = 0.032 (= 0.064 / 2); N = 6; n = 1 2 (6 \times 2). \\ F V = \$ 1,000,000 (1. 0 3 2) ^ {1 2} \\ = \\( 1,000,000 (1. 4 5 9 3 4 0) = \\) 1,4 5 9,3 4 0. \\ \end{array}
+\begin{array}{l} P = \$ 1,000,000; m = 2; i = 0.032 (= 0.064 / 2); N = 6; n = 1 2 (6 \times 2). \\ F V = \$ 1,000,000 (1. 0 3 2)^{1 2} \\ = \\( 1,000,000 (1. 4 5 9 3 4 0) = \\) 1,4 5 9,3 4 0. \\ \end{array}
 $$
 
 If interest were paid only once per year, the future value would be  \$1,450,941 instead of\$ 1,459,340. The higher future value when interest is paid semiannually reflects the more frequent opportunity for reinvesting the interest paid.
@@ -375,7 +375,7 @@ If interest were paid only once per year, the future value would be  \$1,450,941
 Illustration 2-7. Suppose that in the previous illustration, interest is paid quarterly rather than semiannually. The future value is \(1,463,690, as shown below:
 
 $$
-\begin{array}{l} P = \$ 1,000,000; m = 4; i = 0. 0 1 6 (= 0. 0 6 4 / 4); N = 6; n = 2 4 (6 \times 4). \\ F V = \$ 1,000,000 (1. 0 1 6) ^ {2 4} \\ = \\( 1,000,000 (1. 4 6 3 6 9 0) = \\) 1,4 6 3,6 9 0. \\ \end{array}
+\begin{array}{l} P = \$ 1,000,000; m = 4; i = 0. 0 1 6 (= 0. 0 6 4 / 4); N = 6; n = 2 4 (6 \times 4). \\ F V = \$ 1,000,000 (1. 0 1 6)^{2 4} \\ = \\( 1,000,000 (1. 4 6 3 6 9 0) = \\) 1,4 6 3,6 9 0. \\ \end{array}
 $$
 
 The future value is greater than if interest were paid semiannually.
@@ -393,7 +393,7 @@ When the same amount of money is received (or paid) periodically, it is referred
 In Chapter 10, you will need to know how to compute the future value of an ordinary annuity. Of course, the procedure we just followed—whereby we computed the future value of each investment—can be used. Fortunately, there is a formula that can be used to speed up this computation. The formula is
 
 $$
-F V = A \bigg [ \frac {(1 + i) ^ {N} - 1}{i} \bigg ],
+F V = A \bigg [ \frac{(1 + i)^{N} - 1}{i} \bigg ],
 $$
 
 # EXHIBIT 2-1
@@ -415,7 +415,7 @@ Using the previous example in which \(10,000 is invested each year for the next 
 $A = \$  10,000; i = 0.06; N = 5; $therefore,$
 
 $$
-\begin{array}{l} F V = \$ 10,000 \left[ \frac {(1 . 0 6) ^ {5} - 1}{0 . 0 6} \right] \\ = \$ 10,000 \left[ \frac {1 . 3 3 8 2 2 5 6 - 1}{0 . 0 6} \right] \\ = \\( 1 0, 0 0 0 (5. 6 3 7 1 0) = \\) 5 6, 3 7 1. \\ \end{array}
+\begin{array}{l} F V = \$ 10,000 \left[ \frac{(1 . 0 6)^{5} - 1}{0 . 0 6} \right] \\ = \$ 10,000 \left[ \frac{1 . 3 3 8 2 2 5 6 - 1}{0 . 0 6} \right] \\ = \\( 1 0, 0 0 0 (5. 6 3 7 1 0) = \\) 5 6, 3 7 1. \\ \end{array}
 $$
 
 This value agrees with our earlier calculation in Exhibit 2-1.
@@ -431,7 +431,7 @@ The amount that the portfolio manager will have at the end of 10 years will be e
 We can determine the sum of (2) and (3) by applying the formula for the future value of an ordinary annuity. In this illustration, the annuity is  \$400,000 per year$ 0.08 × $5,000,000. Therefore,
 
 $$
-\begin{array}{l} A = \$ 4 0 0, 0 0 0; i = 0. 0 6 7; N = 1 0. \\ F V = \$ 4 0 0, 0 0 0 \left[ \frac {(1 . 0 6 7) ^ {1 0} - 1}{0 . 0 6 7} \right] \\ = \$ 400,000 \left[ \frac {1 . 9 1 2 6 8 8 - 1}{0 . 0 6 7} \right] \\ = \$ 4 0 0, 0 0 0 (1 3. 6 2 2 2 1) = \$ 5, 4 4 8, 8 8 4. \\ \end{array}
+\begin{array}{l} A = \$ 4 0 0, 0 0 0; i = 0. 0 6 7; N = 1 0. \\ F V = \$ 4 0 0, 0 0 0 \left[ \frac{(1 . 0 6 7)^{1 0} - 1}{0 . 0 6 7} \right] \\ = \$ 400,000 \left[ \frac{1 . 9 1 2 6 8 8 - 1}{0 . 0 6 7} \right] \\ = \$ 4 0 0, 0 0 0 (1 3. 6 2 2 2 1) = \$ 5, 4 4 8, 8 8 4. \\ \end{array}
 $$
 
 The future value of the ordinary annuity of  \$400,000 per year for 10 years invested at \(6.7\%$  is \)5,448,884. Because  \$4,000,000 of this future value represents the total annual interest payments made by the issuer and invested by the portfolio manager,$ 1,448,884 ( $5,448,884 -\$ 4,000,000) must be the interest earned by reinvesting the annual interest payments. Therefore, the total amount that the portfolio manager will have at the end of 10 years by making the investment will be
@@ -453,7 +453,7 @@ We can easily generalize the future value of an ordinary annuity formula to hand
 The general formula for the future value of an ordinary annuity when payments occur  $m$  times per year is
 
 $$
-F V = A \left[ \frac {(1 + i) ^ {n} - 1}{i} \right],
+F V = A \left[ \frac{(1 + i)^{n} - 1}{i} \right],
 $$
 
 where
@@ -473,7 +473,7 @@ A = \$ 200,000; m = 2; i = 0. 0 3 3 5 (0. 0 6 7 / 2); n = 2 0 (1 0 \times 2).
 $$
 
 $$
-\begin{array}{l} F V = \$ 2 0 0, 0 0 0 \left[ \frac {(1 . 0 3 3 5) ^ {2 0} - 1}{0 . 0 3 3 5} \right] \\ = \$ 200,000 \left[ \frac {1 . 9 3 2 9 0 1 - 1}{0 . 0 3 3 5} \right] \\ = \$ 2 0 0, 0 0 0 [ 2 7. 8 4 7 7 9 ] = \$ 5, 5 6 9, 5 5 8. \\ \end{array}
+\begin{array}{l} F V = \$ 2 0 0, 0 0 0 \left[ \frac{(1 . 0 3 3 5)^{2 0} - 1}{0 . 0 3 3 5} \right] \\ = \$ 200,000 \left[ \frac{1 . 9 3 2 9 0 1 - 1}{0 . 0 3 3 5} \right] \\ = \$ 2 0 0, 0 0 0 [ 2 7. 8 4 7 7 9 ] = \$ 5, 5 6 9, 5 5 8. \\ \end{array}
 $$
 
 Because the interest payments are equal to  \$4,000,000, the interest earned on the interest payments invested is\$ 1,569,558. Because of the more frequent reinvestment of the interest payments received, the interest of \$1,569,558 earned by investing the interest payments exceeds the interest earned if interest is paid only one time per year, that is, \$1,448,884 (see Illustration 2-8).
@@ -493,7 +493,7 @@ Total \\(10,569,558
 Thus far we have explained how to deal with compounding more than once per year. There is a special-case formula for dealing with continuous compounding. Mathematically, it can be shown that the future value of  $P$  invested for 1 year compounded continuously is
 
 $$
-F V = P e ^ {i},
+F V = P e^{i},
 $$
 
 where  $e$  is the base of the natural logarithm (2.71828...).
@@ -501,13 +501,13 @@ where  $e$  is the base of the natural logarithm (2.71828...).
 For example, suppose that  $P$  is \$10,000 and  $i$  is 8%. Then
 
 $$
-F V = \\( 10,000 e ^ {0. 0 8} = \\) 10,832. 8 7 .
+F V = \\( 10,000 e^{0. 0 8} = \\) 10,832. 8 7 .
 $$
 
 This formula is for continuous compounding for 1 year. If there is more than 1 year, say  $N$  years, then the future value over the  $N$  years is computed as follows:
 
 $$
-F V = P e ^ {N \times i} c.
+F V = P e^{N \times i} c.
 $$
 
 This page intentionally left blank
@@ -521,25 +521,25 @@ In the previous chapter we illustrated how to compute the future value of an inv
 Recall from the previous chapter that the future value of a sum invested for  $N$  years can be expressed as
 
 $$
-F V = P (1 + i) ^ {N},
+F V = P (1 + i)^{N},
 $$
 
 where
 
 $$
-F V = \text {f u t u r e v a l u e (\$)};
+F V = \text{fu tu re va lu e (\$)};
 $$
 
 $$
-P = \text {o r i g i n a l p r i n c i p a l} (\mathbb {S});
+P = \text{or ig in al pr in ci pa l} (\mathbb {S});
 $$
 
 $$
-i = \text {i n t e r s t r a t e (i n d e c i m a l f o r m)};
+i = \text{in te rs tr at e (in de ci ma lf or m)};
 $$
 
 $$
-N = \text {n u m b e r o f y e a r s};
+N = \text{nu mb er of ye ar s};
 $$
 
 $(1 + i)^{N} =$  future value of  $\$ 1$ invested at  $i$  for  $N$  years.
@@ -547,13 +547,13 @@ $(1 + i)^{N} =$  future value of  $\$ 1$ invested at  $i$  for  $N$  years.
 How do we determine the amount of money that must be invested today, earning an interest rate of  $i$  for  $N$  years, in order to produce a specific future value? This is done by solving the future value formula for  $P$ , the original principal:
 
 $$
-P = F V \bigg [ \frac {1}{(1 + i) ^ {N}} \bigg ].
+P = F V \bigg [ \frac{1}{(1 + i)^{N}} \bigg ].
 $$
 
 Instead of using  $P$  in the formula, we denote the present value as  $PV$ . Therefore, the present value formula can be rewritten as
 
 $$
-P V = F V \bigg [ \frac {1}{(1 + i) ^ {N}} \bigg ].
+P V = F V \bigg [ \frac{1}{(1 + i)^{N}} \bigg ].
 $$
 
 The term in brackets is equal to the present value of  \$1; that is, it indicates how much must be set aside today, earning an interest rate of \(i$ , in order to have \)1 N years from now.
@@ -569,7 +569,7 @@ F V = \$ 9,000,000; i = 0. 0 7 5; N = 6.
 $$
 
 $$
-\begin{array}{l} P V = \$ 9,000,000 \left[ \frac {1}{(1 . 0 7 5) ^ {6}} \right] \\ = \$ 9,000,000 \left[ \frac {1}{1 . 5 4 3 3 0 2} \right] \\ = \\( 9,000,000 (0.647961) = \\) 5,831,654. \\ \end{array}
+\begin{array}{l} P V = \$ 9,000,000 \left[ \frac{1}{(1 . 0 7 5)^{6}} \right] \\ = \$ 9,000,000 \left[ \frac{1}{1 . 5 4 3 3 0 2} \right] \\ = \\( 9,000,000 (0.647961) = \\) 5,831,654. \\ \end{array}
 $$
 
 Illustration 3-2. Suppose now that the pension fund manager could earn  $8.3\%$  instead of  $7.5\%$ ; then the present value of the \$9 million to be paid 6 years from now would be \$ 5,577,912, as shown below:
@@ -579,7 +579,7 @@ F V = \$ 9,000,000; i = 0. 0 8 3; N = 6.
 $$
 
 $$
-\begin{array}{l} P V = \$ 9,000,000 \left[ \frac {1}{(1 . 0 8 3) ^ {6}} \right] \\ = \$ 9,000,000 \left[ \frac {1}{1 . 6 1 3 5 0 7} \right] \\ = \\( 9,000,000 (0. 6 1 9 7 6 8) = \\) 5,5 7 7,9 1 2. \\ \end{array}
+\begin{array}{l} P V = \$ 9,000,000 \left[ \frac{1}{(1 . 0 8 3)^{6}} \right] \\ = \$ 9,000,000 \left[ \frac{1}{1 . 6 1 3 5 0 7} \right] \\ = \\( 9,000,000 (0. 6 1 9 7 6 8) = \\) 5,5 7 7,9 1 2. \\ \end{array}
 $$
 
 Illustration 3-3. Suppose that a money manager has the opportunity to purchase a financial instrument that promises to pay  \$800,000 in 4 years. The price of the financial instrument is\$ 572,000. Should the money manager invest in this financial instrument if she wants a 7.8% annual interest rate?
@@ -591,7 +591,7 @@ F V = \$ 8 0 0, 0 0 0; i = 0. 0 7 8; N = 4.
 $$
 
 $$
-\begin{array}{l} P V = \$ 800,000 \left[ \frac {1}{(1 . 0 7 8) ^ {4}} \right] \\ = \$ 800,000 \left[ \frac {1}{1 . 3 5 0 4 3 9} \right] \\ = \$ 8 0 0, 0 0 0 (0. 7 4 0 5 0 0) = \$ 5 9 2, 4 0 0 (\text {t h e p r e s e n t v a l u e}). \\ \end{array}
+\begin{array}{l} P V = \$ 800,000 \left[ \frac{1}{(1 . 0 7 8)^{4}} \right] \\ = \$ 800,000 \left[ \frac{1}{1 . 3 5 0 4 3 9} \right] \\ = \$ 8 0 0, 0 0 0 (0. 7 4 0 5 0 0) = \$ 5 9 2, 4 0 0 (\text{th ep re se nt va lu e}). \\ \end{array}
 $$
 
 Because the price of the financial instrument is  \$572,000, the money manager will realize more than a \(7.8\%$  annual interest rate if the financial instrument is purchased and the issuer pays \)800,000 in 4 years. In the next chapter we'll show how to compute the annual interest rate that the money manager would realize.
@@ -603,7 +603,7 @@ P = \$ 5 7 2, 0 0 0; i = 0. 0 7 8; N = 4.
 $$
 
 $$
-\begin{array}{l} F V = \$ 5 7 2, 0 0 0 (1. 0 7 8) ^ {4} \\ = \$ 5 7 2, 0 0 0 (1. 3 5 0 4 3 9) = \$ 7 7 2, 4 5 1. \\ \end{array}
+\begin{array}{l} F V = \$ 5 7 2, 0 0 0 (1. 0 7 8)^{4} \\ = \$ 5 7 2, 0 0 0 (1. 3 5 0 4 3 9) = \$ 7 7 2, 4 5 1. \\ \end{array}
 $$
 
 A \(572,000 investment at \(7.8\%\) would grow to only \(\$ 772,451\). Yet an investment of \(\$ 572,000\) in the particular financial instrument produces \(\$ 800,000\) in 4 years. Consequently, the financial instrument offers more than a \(7.8\%\) annual interest rate. The present value of \(\$ 592,400\) tells the money manager that as long as she pays no more than \(\$ 592,400\) (the present value), an annual interest rate of at least \(7.8\%\) will be earned from this investment.
@@ -617,7 +617,7 @@ F V = \$ 8 0 0, 0 0 0; i = 0. 0 7 8; N = 5.
 $$
 
 $$
-\begin{array}{l} P V = \$ 800,000 \left[ \frac {1}{(1 . 0 7 8) ^ {5}} \right] \\ = \$ 800,000 \left[ \frac {1}{1 . 4 5 5 7 3 3} \right] \\ = \$ 8 0 0, 0 0 0 (0. 6 8 6 9 2 0) = \$ 5 4 9, 5 3 6. \\ \end{array}
+\begin{array}{l} P V = \$ 800,000 \left[ \frac{1}{(1 . 0 7 8)^{5}} \right] \\ = \$ 800,000 \left[ \frac{1}{1 . 4 5 5 7 3 3} \right] \\ = \$ 8 0 0, 0 0 0 (0. 6 8 6 9 2 0) = \$ 5 4 9, 5 3 6. \\ \end{array}
 $$
 
 Here the present value is less than the price of \( \\( {572},{000} \) ,so the financial instrument offers an annual interest rate that is less than 7.8%.
@@ -627,11 +627,11 @@ Here the present value is less than the price of \( \\( {572},{000} \) ,so the f
 If a future value is to be received or paid over a fractional part of a year, the number of years is adjusted accordingly. For example, if \(1,000 is to be received 9 years and 3 months from now and the interest rate is \(7\%\), the present value is determined as follows:
 
 $$
-F V = \$ 1,000; i = 0. 0 7; N = 9. 2 5 \text {y e a r s (3 m o n t h s i s 0 . 2 5 y e a r) .}
+F V = \$ 1,000; i = 0. 0 7; N = 9. 2 5 \text{ye ar s (3m on th si s0 .2 5y ea r) .}
 $$
 
 $$
-\begin{array}{l} P V = \$ 1,000\left[ \frac {1}{(1 . 0 7) ^ {9 . 2 5}} \right] \\ = \$ 1,000 \left[ \frac {1}{1 . 8 6 9 8 2} \right] \\ = \$ 1, 0 0 0 (0. 5 3 4 8 1) = \$ 5 3 4. 8 1. \\ \end{array}
+\begin{array}{l} P V = \$ 1,000\left[ \frac{1}{(1 . 0 7)^{9 . 2 5}} \right] \\ = \$ 1,000 \left[ \frac{1}{1 . 8 6 9 8 2} \right] \\ = \$ 1, 0 0 0 (0. 5 3 4 8 1) = \$ 5 3 4. 8 1. \\ \end{array}
 $$
 
 # PROPERTIES OF PRESENT VALUE
@@ -687,7 +687,7 @@ Of course, one way to compute the present value of an ordinary annuity is to fol
 each future value and then total the present values. Fortunately, there is a formula that can be employed to compute—in one step—the present value of an ordinary annuity:
 
 $$
-P V = A \bigg [ \frac {1 - \bigg [ \frac {1}{(1 + i) ^ {N}} \bigg ]}{i} \bigg ],
+P V = A \bigg [ \frac{1 - \bigg [ \frac{1}{(1 + i)^{N}} \bigg ]}{i} \bigg ],
 $$
 
 where
@@ -707,7 +707,7 @@ A = \$ 500; i = 0. 0 5 5; N = 2 0.
 $$
 
 $$
-\begin{array}{l} P V = \$ 500 \left[ \frac {1 - \left[ \frac {1}{(1 . 0 5 5) ^ {2 0}} \right]}{0 . 0 5 5} \right] \\ = \$ 500 \left[ \frac {1 - \left[ \frac {1}{2 . 9 1 7 7 5 7} \right]}{0 . 0 5 5} \right] \\ = \$ 500 \left[ \frac {1 - 0 . 3 4 2 7 2 9}{0 . 0 5 5} \right] \\ = \$ 5 0 0 (1 1. 9 5 0 3 8 2) = \$ 5, 9 7 5. 1 9. \\ \end{array}
+\begin{array}{l} P V = \$ 500 \left[ \frac{1 - \left[ \frac{1}{(1 . 0 5 5)^{2 0}} \right]}{0 . 0 5 5} \right] \\ = \$ 500 \left[ \frac{1 - \left[ \frac{1}{2 . 9 1 7 7 5 7} \right]}{0 . 0 5 5} \right] \\ = \$ 500 \left[ \frac{1 - 0 . 3 4 2 7 2 9}{0 . 0 5 5} \right] \\ = \$ 5 0 0 (1 1. 9 5 0 3 8 2) = \$ 5, 9 7 5. 1 9. \\ \end{array}
 $$
 
 Because the present value of an ordinary annuity of  \$500 per year when discounted at \(5.5\%$  exceeds the price of the financial instrument (\)5,300), this financial instrument offers an annual interest rate in excess of  $5.5\%$ . Therefore, it is an attractive investment for this investor.
@@ -721,7 +721,7 @@ A = \$ 100; i = 0. 0 6 2 5; N = 5.
 $$
 
 $$
-\begin{array}{l} P V = \$ 100 \left[ \frac {1 - \left[ \frac {1}{(1 . 0 6 2 5) ^ {5}} \right]}{0 . 0 6 2 5} \right] \\ = \$ 100 \left[ \frac {1 - \left[ \frac {1}{1 . 3 5 4 0 8 1} \right]}{0 . 0 6 2 5} \right] \\ = \$ 100 \left[ \frac {1 - 0 . 7 3 8 5 0 8}{0 . 0 6 2 5} \right] \\ = \$ 1 0 0 (4. 1 8 3 8) = \$ 4 1 8. 3 8. \\ \end{array}
+\begin{array}{l} P V = \$ 100 \left[ \frac{1 - \left[ \frac{1}{(1 . 0 6 2 5)^{5}} \right]}{0 . 0 6 2 5} \right] \\ = \$ 100 \left[ \frac{1 - \left[ \frac{1}{1 . 3 5 4 0 8 1} \right]}{0 . 0 6 2 5} \right] \\ = \$ 100 \left[ \frac{1 - 0 . 7 3 8 5 0 8}{0 . 0 6 2 5} \right] \\ = \$ 1 0 0 (4. 1 8 3 8) = \$ 4 1 8. 3 8. \\ \end{array}
 $$
 
 The present value of the  \$1,000 to be received 5 years from now is\$ 738.51, as shown below:
@@ -731,7 +731,7 @@ F V = \$ 1,000; i = 0. 0 6 2 5; N = 5.
 $$
 
 $$
-\begin{array}{l} P V = \$ 1,000 \left[ \frac {1}{(1 . 0 6 2 5) ^ {5}} \right] \\ = \$ 1,000 \left[ \frac {1}{1 . 3 5 4 0 8 1} \right] \\ = \\( 1,000 (0. 7 3 8 5 0 8) = \\) 7 3 8. 5 1. \\ \end{array}
+\begin{array}{l} P V = \$ 1,000 \left[ \frac{1}{(1 . 0 6 2 5)^{5}} \right] \\ = \$ 1,000 \left[ \frac{1}{1 . 3 5 4 0 8 1} \right] \\ = \\( 1,000 (0. 7 3 8 5 0 8) = \\) 7 3 8. 5 1. \\ \end{array}
 $$
 
 The present value of the series offered by this financial instrument is then
@@ -749,7 +749,7 @@ This agrees with the computation in Illustration 3-6.
 So far we have shown how to compute the present value of an ordinary annuity over a specific time period. Suppose, instead, that the annuity will last forever. This is called a perpetual annuity. The formula for a perpetual annuity is<sup>1</sup>
 
 $$
-P V = \frac {A}{i}.
+P V = \frac{A}{i}.
 $$
 
 Illustration 3-9. An investor can purchase for  \$1,000 a financial instrument that promises to pay\$ 80 per year forever. The investor wants an annual interest rate of 10% from this investment. Is this investment attractive to the investor?
@@ -761,7 +761,7 @@ A = \$ 80; i = 0.10
 $$
 
 $$
-P V = \frac {\mathbb {S} 8 0}{0 . 1 0} = \mathbb {S} 8 0 0.
+P V = \frac{\mathbb {S} 8 0}{0 . 1 0} = \mathbb {S} 8 0 0.
 $$
 
 Because the  \$1,000 price for the financial instrument is greater than the present value of the perpetual annuity (\$ 800), the investment offers an annual interest rate that is less than 10%; therefore, it is not an attractive investment given the minimum annual interest rate required by the investor.
@@ -773,7 +773,7 @@ In the computations of present value we have assumed that the future value is to
 The general formula for the present value of a future sum is
 
 $$
-P V = F V \left[ \frac {1}{(1 + i) ^ {n}} \right],
+P V = F V \left[ \frac{1}{(1 + i)^{n}} \right],
 $$
 
 where
@@ -797,7 +797,7 @@ The most that the investor should pay in order to earn an annual interest rate o
 When the present value of an ordinary annuity is sought, the general formula is
 
 $$
-P V = A \left[ \frac {1 - \left[ \frac {1}{(1 + i) ^ {n}} \right]}{i} \right],
+P V = A \left[ \frac{1 - \left[ \frac{1}{(1 + i)^{n}} \right]}{i} \right],
 $$
 
 where
@@ -821,7 +821,7 @@ The present value of the ordinary annuity for
 is
 
 $$
-\begin{array}{l} P V = \$ 50 \left[ \frac {1 - \left[ \frac {1}{(1 . 0 3 1 2 5) ^ {1 0}} \right]}{0 . 0 3 1 2 5} \right] \\ = \$ 50 \left[ \frac {1 - \left[ \frac {1}{1 . 3 6 0 3 1 5} \right]}{0 . 0 3 1 2 5} \right] \\ = \$ 50 \left[ \frac {1 -. 7 3 5 1 2 4}{0 . 0 3 1 2 5} \right] \\ = \$ 50 (8. 4 7 6 0) = \$ 4 2 3. 8 0. \\ \end{array}
+\begin{array}{l} P V = \$ 50 \left[ \frac{1 - \left[ \frac{1}{(1 . 0 3 1 2 5)^{1 0}} \right]}{0 . 0 3 1 2 5} \right] \\ = \$ 50 \left[ \frac{1 - \left[ \frac{1}{1 . 3 6 0 3 1 5} \right]}{0 . 0 3 1 2 5} \right] \\ = \$ 50 \left[ \frac{1 -. 7 3 5 1 2 4}{0 . 0 3 1 2 5} \right] \\ = \$ 50 (8. 4 7 6 0) = \$ 4 2 3. 8 0. \\ \end{array}
 $$
 
 The present value of the \$1,000 to be received after ten 6-month periods is
@@ -835,7 +835,7 @@ $n = 10$  (5 years times 2)
 is
 
 $$
-\begin{array}{l} P V = \$ 1,000\left[ \frac {1}{(1 . 0 3 1 2 5) ^ {1 0}} \right] \\ = \$ 1,000 \left[ \frac {1}{1 . 3 6 0 3 1 5} \right] \\ = \\( 1,000 (0.735124) = \\) 735.12 \\ \end{array}
+\begin{array}{l} P V = \$ 1,000\left[ \frac{1}{(1 . 0 3 1 2 5)^{1 0}} \right] \\ = \$ 1,000 \left[ \frac{1}{1 . 3 6 0 3 1 5} \right] \\ = \\( 1,000 (0.735124) = \\) 735.12 \\ \end{array}
 $$
 
 The present value of the future value series offered by the financial instrument is then
@@ -855,13 +855,13 @@ Illustration 3-12. Suppose that a banker agrees to make a \(100,000 thirty-year 
 We can employ the formula for the present value of an ordinary annuity to determine the fixed monthly payment. The banker wants to receive an annuity of some fixed monthly amount such that the present value of that ordinary annuity, at an annual interest rate of  $12\%$ , is  $\$100,000$ . In the formula for the present value of an ordinary annuity, the number of monthly payments is 360 (30 years times 12), and the interest rate is  $1\%$  ( $12\%$  divided by 12). Therefore, we know the following:
 
 $$
-\$ 100,000 = A \left[ \frac {1 - \left[ \frac {1}{(1 . 0 1) ^ {3 6 0}} \right]}{0 . 0 1} \right].
+\$ 100,000 = A \left[ \frac{1 - \left[ \frac{1}{(1 . 0 1)^{3 6 0}} \right]}{0 . 0 1} \right].
 $$
 
 The unknown is  $A$ , the monthly annuity or monthly loan payment. We can solve for  $A$  as follows:
 
 $$
-\$ 100,000 = A \left[ \frac {1 - \left[ \frac {1}{3 5 . 9 4 9 6 4 1} \right]}{0 . 0 1} \right]
+\$ 100,000 = A \left[ \frac{1 - \left[ \frac{1}{3 5 . 9 4 9 6 4 1} \right]}{0 . 0 1} \right]
 $$
 
 $$
@@ -875,7 +875,7 @@ $$
 Solving for  $A$
 
 $$
-A = \left[ \frac {\mathbb {S} 1 0 0 , 0 0 0}{9 7 . 2 1 8 3 3} \right] = \mathbb {S} 1, 0 2 8. 6 1.
+A = \left[ \frac{\mathbb {S} 1 0 0 , 0 0 0}{9 7 . 2 1 8 3 3} \right] = \mathbb {S} 1, 0 2 8. 6 1.
 $$
 
 Therefore, the fixed monthly payment must be \$1,028.61.
@@ -912,31 +912,31 @@ The cash flow in any period is simply the difference between the cash inflow and
 In Chapter 2 we explained that the future value based on continuous compounding is
 
 $$
-F V = P e ^ {i},
+F V = P e^{i},
 $$
 
 where  $e$  is the base of the natural logarithm (2.71828 ...). The present value when there is continuous compounding is a special-case formula. Solving this equation for  $P$  and replacing  $P$  with  $PV$  (for present value), we obtain
 
 $$
-P V = F V e ^ {- i}
+P V = F V e^{- i}
 $$
 
 For example, suppose that \(1,000 is to be received 1 year from now. Assuming that interest can be earned at \(5\%\) continuously compounded, the present value is
 
 $$
-P V = \\( 1,000 e ^ {- 0. 0 5} = \\) 9 5 1. 2 3 .
+P V = \\( 1,000 e^{- 0. 0 5} = \\) 9 5 1. 2 3 .
 $$
 
 The formula above is for the present value when there is continuous compounding for 1 year. If it is more than 1 year into the future, say  $N$  years, then the present value after  $N$  years is computed as follows:
 
 $$
-P V = F V e ^ {- N \times i}.
+P V = F V e^{- N \times i}.
 $$
 
 For example, the present value of \$1,000 to be received 5 years from now assuming an interest rate of  $5\%$  is
 
 $$
-P V = \\( 1,000 e ^ {-(5 \times 0.05)} = \\) 778.80.
+P V = \\( 1,000 e^{-(5 \times 0.05)} = \\) 778.80.
 $$
 
 # YIELD (INTERNAL RATE OF RETURN)
@@ -948,7 +948,7 @@ In the previous chapter we showed how to use present value to determine whether 
 The yield on any investment is computed by determining the interest rate that will make the present value of the cash flow from the investment equal to its price. Mathematically, the yield  $y$  on any investment is the interest rate that will make the following relationship hold:
 
 $$
-p = \frac {C _ {1}}{(1 + y) ^ {1}} + \frac {C _ {2}}{(1 + y) ^ {2}} + \frac {C _ {3}}{(1 + y) ^ {3}} + \dots + \frac {C _ {N}}{(1 + y) ^ {N}},
+p = \frac{C_{1}}{(1 + y)^{1}} + \frac{C_{2}}{(1 + y)^{2}} + \frac{C_{3}}{(1 + y)^{3}} + \dots + \frac{C_{N}}{(1 + y)^{N}},
 $$
 
 where
@@ -964,7 +964,7 @@ The individual terms summed to produce the price are the present values of the c
 Alternatively, using the capital Greek letter sigma to denote summation, the above expression can be rewritten as
 
 $$
-p = \sum_ {t = 1} ^ {N} \frac {C _ {t}}{(1 + y) ^ {t}}.
+p = \sum_{t = 1}^{N} \frac{C_{t}}{(1 + y)^{t}}.
 $$
 
 Solving for the yield  $y$  requires an iterative procedure. The objective is to find the interest rate that will make the present value of the cash flows equal to the
@@ -1016,7 +1016,7 @@ The present value of the cash flows is now equal to the price of the financial i
 Although the formula for the yield is based on annual cash flows, the formula can be generalized to any number of periodic payments in a year. The generalized formula for determining the yield is
 
 $$
-p = \frac {C _ {1}}{(1 + y) ^ {1}} + \frac {C _ {2}}{(1 + y) ^ {2}} + \frac {C _ {3}}{(1 + y) ^ {3}} + \dots + \frac {C _ {n}}{(1 + y) ^ {n}},
+p = \frac{C_{1}}{(1 + y)^{1}} + \frac{C_{2}}{(1 + y)^{2}} + \frac{C_{3}}{(1 + y)^{3}} + \dots + \frac{C_{n}}{(1 + y)^{n}},
 $$
 
 where
@@ -1028,7 +1028,7 @@ $n =$  number of periods.
 In shorthand notation, this can be expressed as
 
 $$
-p = \sum_ {t = 1} ^ {n} \frac {C _ {t}}{(1 + y) ^ {t}}.
+p = \sum_{t = 1}^{n} \frac{C_{t}}{(1 + y)^{t}}.
 $$
 
 Keep in mind that the yield computed is now the yield for the period. That is, if the cash flows are semiannual, the yield is a semiannual yield. If the cash flows are monthly, the yield is a monthly yield. The annual interest rate must be computed by multiplying the yield for the period by the appropriate factor  $(m)$ .
@@ -1079,17 +1079,17 @@ There is a special case where it is unnecessary to go through the iterative proc
 Illustration 4-4. A financial instrument that can be purchased for  $6,805.82$  promises to pay  $\$ 10,000$  in 5 years. The yield is the interest rate that will make  $\$ 6,805.82$  grow to  $\$ 10,000$  in 5 years. That is, we are looking for the value of  $y$  that will satisfy the following relationship:
 
 $$
-\$ 10,000 = \$ 6,805.82 (1 + y) ^ {5}.
+\$ 10,000 = \$ 6,805.82 (1 + y)^{5}.
 $$
 
 We can solve this equation as follows. Divide both sides by \( \\(6,805.82 \):
 
 $$
-\frac {\mathbb {S} 1 0 , 0 0 0}{\mathbb {S} 6 , 8 0 5 . 8 2} = (1 + y) ^ {5}
+\frac{\mathbb {S} 1 0 , 0 0 0}{\mathbb {S} 6 , 8 0 5 . 8 2} = (1 + y)^{5}
 $$
 
 $$
-1. 4 6 9 3 3 = (1 + y) ^ {5}.
+1. 4 6 9 3 3 = (1 + y)^{5}.
 $$
 
 Take the fifth root of both sides:
@@ -1111,17 +1111,17 @@ $$
 It is not necessary to go through all the steps in Illustration 4-4 to compute the yield. The following formula is consistent with those steps:
 
 $$
-y = (\text {f u t u r e} \quad \text {v a l u e} \quad \text {p e r d o l l a r} \quad \text {i n v e s t e d}) ^ {1 / n} - 1,
+y = (\text{fu tu re} \quad \text{va lu e} \quad \text{pe rd ol la r} \quad \text{in ve st ed})^{1 / n} - 1,
 $$
 
 where
 
 $$
-n = \text {n u m b e r o f p e r i o d s u n t i l t h e c a s h f l o w w i l l b e r e c i e v e d};
+n = \text{nu mb er of pe ri od su nt il th ec as hf lo ww il lb er ec ie ve d};
 $$
 
 $$
-\text {F u t u r e v a l u e p e r d o l l a r d i n v e s t e d} = \frac {\text {c a s h f l o w f r o m i n v e s t m e n t}}{\text {a m o u n t i n v e s t e d (o r p r i c e)}}.
+\text{Fu tu re va lu ep er do ll ar di nv es te d} = \frac{\text{ca sh fl ow fr om in ve st me nt}}{\text{am ou nt in ve st ed (or pr ic e)}}.
 $$
 
 Illustration 4-5 An investment offers a payment 20 years from now of  \$84,957. The price of the investment is\$ 20,000. The yield for this investment is 7.50%, as shown below:
@@ -1131,11 +1131,11 @@ n = 2 0;
 $$
 
 $$
-\text {F u t u r e v a l u e p e r d o l l a r i n v e s t e d} = \frac {\mathbb {S} 8 4 , 9 5 7}{\mathbb {S} 2 0 , 0 0 0} = 4. 2 4 7 8 5.
+\text{Fu tu re va lu ep er do ll ar in ve st ed} = \frac{\mathbb {S} 8 4 , 9 5 7}{\mathbb {S} 2 0 , 0 0 0} = 4. 2 4 7 8 5.
 $$
 
 $$
-\begin{array}{l} y = (4. 2 4 7 8 5) ^ {1 / 2 0} - 1 = 1. 0 7 4 9 9 - 1 \\ = 0.074999 \text {or} 7.5 \% \\ \end{array}
+\begin{array}{l} y = (4. 2 4 7 8 5)^{1 / 2 0} - 1 = 1. 0 7 4 9 9 - 1 \\ = 0.074999 \text{or} 7.5 \% \\ \end{array}
 $$
 
 Illustration 4-6 In Illustration 2-8, we computed how many dollars would be available to a portfolio manager if he invests  \$5 million (the par value) in a bond that matures in 10 years and promises to pay an annual interest rate of \(8\%$ . The interest is assumed to be paid once per year, and these payments are assumed to be reinvested at an annual interest rate of  $6.7\%$ . We calculated that at the end of 10 years, the portfolio manager would have \)10,448,884, consisting of \$5 million in par value, \$4 million in annual interest payments, and the balance, \$1,448,884, from interest earned on the reinvestment of the annual interest payments.
@@ -1147,11 +1147,11 @@ n = 1 0 (= N);
 $$
 
 $$
-\text {F u t u r e v a l u e p e r d o l l a r} = \frac {\mathbb {S} 1 0 , 4 4 8 , 8 8 4}{\mathbb {S} 5 , 0 0 0 , 0 0 0} = 2. 0 8 9 7 8.
+\text{Fu tu re va lu ep er do ll ar} = \frac{\mathbb {S} 1 0 , 4 4 8 , 8 8 4}{\mathbb {S} 5 , 0 0 0 , 0 0 0} = 2. 0 8 9 7 8.
 $$
 
 $$
-\begin{array}{l} y = (2. 0 8 9 7 8) ^ {1 / 1 0} - 1 \\ = 1.07649 - 1 = 0.07649 \text{or} 7.65\% \\ \end{array}
+\begin{array}{l} y = (2. 0 8 9 7 8)^{1 / 1 0} - 1 \\ = 1.07649 - 1 = 0.07649 \text{or} 7.65\% \\ \end{array}
 $$
 
 # ANNUALIZING YIELDS
@@ -1163,7 +1163,7 @@ multiplying by 2. Alternatively, if we had an annual interest rate and wanted to
 This single procedure for computing the annual interest rate given a periodic (weekly, monthly, quarterly, semiannual, etc.) interest rate is not correct. To see why, suppose that  \$100 is invested for 1 year at an annual interest rate of \(8\%$ . At the end of 1 year, the interest is \)8. Suppose, instead, that \$100 is invested for 1 year at an annual interest rate of  $8\%$ , but interest is paid semiannually at  $4\%$  (one-half the annual interest rate). The interest at the end of 1 year is found by first calculating the future value of \$100 at the end of 1 year:
 
 $$
-\$ 100 (1. 0 4) ^ {2} = \$ 1 0 0 (1. 0 8 1 6) = \$ 1 0 8. 1 6
+\$ 100 (1. 0 4)^{2} = \$ 1 0 0 (1. 0 8 1 6) = \$ 1 0 8. 1 6
 $$
 
 Interest is therefore  $8.16 on a$ 100 investment. The interest rate or yield on the \$100 investment is therefore 8.16% ($8.16/$100). The 8.16% is called the effective annual yield.
@@ -1172,7 +1172,7 @@ Investors who are familiar with certificates of deposit offered by banks and thr
 
 To obtain the effective annual yield associated with a periodic interest rate, the following formula can be used:
 
-Effective annual yield  $= (1 + \text{periodic interest rate})^m - 1$ ,
+Effective annual yield  $= (1 + \text{periodicinterestrate})^m - 1$ ,
 
 where
 
@@ -1226,7 +1226,7 @@ In our illustrations, we shall assume that the coupon interest is paid semianual
 Consequently, the cash flows for an option-free bond consist of an annuity (i.e., the fixed coupon interest paid every 6 months) and the par or maturity value. For example, a 20-year bond with a  $9\%$  coupon rate ( $4.5\%$  every 6 months) and a par or maturity value of \$1,000 has the following cash flows:
 
 $$
-\text {S e m i a n u a l c o o p i n t} = \$ 1,0 0 0 \times 0. 0 4 5 = \$ 4 5;
+\text{Se mi an ua lc oo pi nt} = \$ 1,0 0 0 \times 0. 0 4 5 = \$ 4 5;
 $$
 
 $$
@@ -1253,25 +1253,25 @@ Given the cash flows of a bond and the required yield, we have all the necessary
 In general, the price of a bond can be computed using the formula
 
 $$
-p = \frac {c}{(1 + i) ^ {1}} + \frac {c}{(1 + i) ^ {2}} + \frac {c}{(1 + i) ^ {3}} + \dots + \frac {c}{(1 + i) ^ {n}} + \frac {M}{(1 + i) ^ {n}},
+p = \frac{c}{(1 + i)^{1}} + \frac{c}{(1 + i)^{2}} + \frac{c}{(1 + i)^{3}} + \dots + \frac{c}{(1 + i)^{n}} + \frac{M}{(1 + i)^{n}},
 $$
 
 where
 
 $$
-\begin{array}{l} p = \text {p r i c e} (\$); \\ c = \text {s e m i a n u a l} (\mathbb {S}); \\ i = \text {p e r i o d i c} \\ n = \text {n u m b e r o f p e r i o d s (n u m b e r o f y e a r s} \times 2); \\ M = \text {m a t u r i t y} \\ \end{array}
+\begin{array}{l} p = \text{pr ic e} (\$); \\ c = \text{se mi an ua l} (\mathbb {S}); \\ i = \text{pe ri od ic} \\ n = \text{nu mb er of pe ri od s (nu mb er of ye ar s} \times 2); \\ M = \text{ma tu ri ty} \\ \end{array}
 $$
 
 Because the semiannual coupon payments are equivalent to an ordinary annuity, the present value of the coupon payments, that is, the present value of
 
 $$
-p = \frac {c}{(1 + i) ^ {1}} + \frac {c}{(1 + i) ^ {2}} + \frac {c}{(1 + i) ^ {3}} + \dots + \frac {c}{(1 + i) ^ {n}},
+p = \frac{c}{(1 + i)^{1}} + \frac{c}{(1 + i)^{2}} + \frac{c}{(1 + i)^{3}} + \dots + \frac{c}{(1 + i)^{n}},
 $$
 
 can be expressed as
 
 $$
-c \bigg [ \frac {1 - \bigg [ \frac {1}{(1 + i) ^ {n}} \bigg ]}{i} \bigg ].
+c \bigg [ \frac{1 - \bigg [ \frac{1}{(1 + i)^{n}} \bigg ]}{i} \bigg ].
 $$
 
 This formula is the same as the formula for the present value of an ordinary annuity for  $n$  periods introduced in Chapter 3 (see Illustration 3-10). Instead of using  $A$  to represent the annuity, we have used  $c$ , the semiannual coupon payment.
@@ -1292,13 +1292,13 @@ c = \$ 45; n = 40; i = 0.06.
 $$
 
 $$
-\begin{array}{l} \$ 45 \left[ \frac {1 - \left[ \frac {1}{(1 . 0 6) ^ {4 0}} \right]}{0 . 0 6} \right] \\ = \$ 45 \left[ \frac {1 - \left[ \frac {1}{1 0 . 2 8 5 7 2} \right]}{0 . 0 6} \right] \\ = \$ 45 (1 5. 0 4 6 3 0) = \$ 6 7 7. 0 8. \\ \end{array}
+\begin{array}{l} \$ 45 \left[ \frac{1 - \left[ \frac{1}{(1 . 0 6)^{4 0}} \right]}{0 . 0 6} \right] \\ = \$ 45 \left[ \frac{1 - \left[ \frac{1}{1 0 . 2 8 5 7 2} \right]}{0 . 0 6} \right] \\ = \$ 45 (1 5. 0 4 6 3 0) = \$ 6 7 7. 0 8. \\ \end{array}
 $$
 
 The present value of the par or maturity value forty 6-month periods from now discounted at  $6\%$  is  $\$97.22$ , as shown below:
 
 $$
-\begin{array}{l} M = \$ 1,000; n = 40; i = 0.06. \\ \$ 1,000\left[\frac{1}{(1.06)^{40}}\right] \\ = \$ 1,000 \left[ \frac {1}{1 0 . 2 8 5 7 2} \right] \\ = \\( 1,000 (0.097222) = \\) 97.22. \\ \end{array}
+\begin{array}{l} M = \$ 1,000; n = 40; i = 0.06. \\ \$ 1,000\left[\frac{1}{(1.06)^{40}}\right] \\ = \$ 1,000 \left[ \frac{1}{1 0 . 2 8 5 7 2} \right] \\ = \\( 1,000 (0.097222) = \\) 97.22. \\ \end{array}
 $$
 
 The price of the bond is then equal to the sum of the two present values, \( \\(744.30 \)\\)677.08 + \$97.22) \)
@@ -1310,13 +1310,13 @@ The cash flows are unchanged, but the periodic interest rate is now  $3.5\%$ $(7
 The present value of the 40 semiannual coupon payments of  \$45 discounted at \(3.5\%$  is \)960.98, as shown below:
 
 $$
-\begin{array}{l} c = \$ 45; n = 40; i = 0. 0 3 5. \\ \$ 45 \left[ \frac {1 - \left[ \frac {1}{(1 . 0 3 5) ^ {4 0}} \right]}{0 . 0 3 5} \right] \\ = \$ 45 \left[ \frac {1 - \left[ \frac {1}{3 . 9 5 9 2 6} \right]}{0 . 0 3 5} \right] \\ = \$ 45 (2 1. 3 5 5 0 9) = \$ 9 6 0. 9 8. \\ \end{array}
+\begin{array}{l} c = \$ 45; n = 40; i = 0. 0 3 5. \\ \$ 45 \left[ \frac{1 - \left[ \frac{1}{(1 . 0 3 5)^{4 0}} \right]}{0 . 0 3 5} \right] \\ = \$ 45 \left[ \frac{1 - \left[ \frac{1}{3 . 9 5 9 2 6} \right]}{0 . 0 3 5} \right] \\ = \$ 45 (2 1. 3 5 5 0 9) = \$ 9 6 0. 9 8. \\ \end{array}
 $$
 
 The present value of the par or maturity value of  \$1,000 forty 6-month periods from now discounted at \(3.5\%$  is \)252.57, as shown below:
 
 $$
-\begin{array}{l} M = \$ 1,000; n = 4 0; i = 0. 0 3 5. \\ \$ 1,000\left[\frac{1}{(1.035)^{40}}\right] \\ = \$ 1,000 \left[ \frac {1}{3 . 9 5 9 2 6} \right] \\ = \\( 1,000 (0.252572) = \\) 252.57. \\ \end{array}
+\begin{array}{l} M = \$ 1,000; n = 4 0; i = 0. 0 3 5. \\ \$ 1,000\left[\frac{1}{(1.035)^{40}}\right] \\ = \$ 1,000 \left[ \frac{1}{3 . 9 5 9 2 6} \right] \\ = \\( 1,000 (0.252572) = \\) 252.57. \\ \end{array}
 $$
 
 The price of the bond is then equal to the sum of the two present values,  $1,213.55$  ( $960.98 +$ 252.57).
@@ -1333,7 +1333,7 @@ The semiannual or periodic interest rate is  $6\%$ .
 The present value of the 32 semiannual coupon payments of \(45 discounted at \(6\%\) is
 
 $$
-\begin{array}{l} c = \$ 45; n = 32; i = 0. 0 6. \\ \$ 45\left[ \frac {1 - \left[ \frac {1}{(1 . 0 6) ^ {3 2}} \right]}{0 . 0 6} \right] \\ = \$ 45 \left[ \frac {1 - \left[ \frac {1}{6 . 4 5 3 3 9} \right]}{0 . 0 6} \right] \\ = \$ 45 (1 4. 0 8 4 0 4) = \$ 6 3 3. 7 8. \\ \end{array}
+\begin{array}{l} c = \$ 45; n = 32; i = 0. 0 6. \\ \$ 45\left[ \frac{1 - \left[ \frac{1}{(1 . 0 6)^{3 2}} \right]}{0 . 0 6} \right] \\ = \$ 45 \left[ \frac{1 - \left[ \frac{1}{6 . 4 5 3 3 9} \right]}{0 . 0 6} \right] \\ = \$ 45 (1 4. 0 8 4 0 4) = \$ 6 3 3. 7 8. \\ \end{array}
 $$
 
 The present value of the par or maturity value thirty-two 6-month periods from now discounted at  $6\%$  is
@@ -1343,7 +1343,7 @@ M = \$ 1,000; n = 32; i = 0.06.
 $$
 
 $$
-\begin{array}{l} \$ 1,000\left[ \frac {1}{(1 . 0 6) ^ {3 2}} \right] \\ = \$ 1, 0 0 0 \left[ \frac {1}{6 . 4 5 3 3 9} \right] \\ = \\( 1,000 (0. 1 5 4 9 5 7) = \\) 1 5 4. 9 6. \\ \end{array}
+\begin{array}{l} \$ 1,000\left[ \frac{1}{(1 . 0 6)^{3 2}} \right] \\ = \$ 1, 0 0 0 \left[ \frac{1}{6 . 4 5 3 3 9} \right] \\ = \\( 1,000 (0. 1 5 4 9 5 7) = \\) 1 5 4. 9 6. \\ \end{array}
 $$
 
 The price of the bond is then equal to the sum of the two present values,  $788.84$  ( $633.78 +$ 154.96).
@@ -1371,7 +1371,7 @@ Price/Yield Relationship for a 20-Year,  $9\%$  Coupon Bond
 *Computed as follows:
 
 $$
-\$ 45\left[ \frac {1 - \left[ \frac {1}{(1 + i) ^ {40}} \right]}{i} \right],
+\$ 45\left[ \frac{1 - \left[ \frac{1}{(1 + i)^{40}} \right]}{i} \right],
 $$
 
 where  $i$  is one-half the required yield.
@@ -1480,13 +1480,13 @@ interest by the amount of the difference between the maturity value and the purc
 The pricing of a zero-coupon bond is no different from the pricing of a coupon bond: its price is the present value of the expected cash flows. In the case of a zero-coupon bond, the only cash flow is the maturity value. Therefore, the formula for the price of a zero-coupon bond that matures  $N$  years from now is
 
 $$
-p = M \left[ \frac {1}{(1 + i) ^ {n}} \right],
+p = M \left[ \frac{1}{(1 + i)^{n}} \right],
 $$
 
 where
 
 $$
-p = \text {p r i c e};
+p = \text{pr ic e};
 $$
 
 $M =$  maturity value;
@@ -1508,7 +1508,7 @@ M = \$ 1,000; i = 0. 0 4 3 (0. 0 8 6 / 2); N = 1 0; n = 2 0 (2 \times 1 0).
 $$
 
 $$
-\begin{array}{l} p = \$ 1,000 \left[ \frac {1}{(1 . 0 4 3) ^ {2 0}} \right] \\ = \$ 1,000 \left[ \frac {1}{2 . 3 2 1 0 5 9} \right] \\ = \\( 1,000 (0.43083) = \\) 430.83. \\ \end{array}
+\begin{array}{l} p = \$ 1,000 \left[ \frac{1}{(1 . 0 4 3)^{2 0}} \right] \\ = \$ 1,000 \left[ \frac{1}{2 . 3 2 1 0 5 9} \right] \\ = \\( 1,000 (0.43083) = \\) 430.83. \\ \end{array}
 $$
 
 # PRICE QUOTATIONS
@@ -1608,7 +1608,7 @@ Once the number of days between the settlement date and the next coupon date is 
 2. Compute the ratio
 
 $$
-w = \frac {\text {n u m b e r o f d a y s b e t w e e n s e t t l e m e n t a n d n e x t c o u p o n p a y m e n t}}{\text {n u m b e r o f d a y s i n t h e c o u p o n p e r i o d}}.
+w = \frac{\text{nu mb er of da ys be tw ee ns et tl em en ta nd ne xt co up on pa ym en t}}{\text{nu mb er of da ys in th ec ou po np er io d}}.
 $$
 
 For a corporate bond, municipal bond, or agency security, the number of days in the coupon period will be 180, because a year is assumed to have 360 days. For a coupon-bearing Treasury security, the number of days is the actual number of days. The number of days in the coupon period is called the basis.
@@ -1616,14 +1616,14 @@ For a corporate bond, municipal bond, or agency security, the number of days in 
 3. For a bond with  $n$  coupon payments remaining to maturity, the price is
 
 $$
-p = \frac {c}{(1 + i) ^ {w}} + \frac {c}{(1 + i) ^ {1 + w}} + \frac {c}{(1 + i) ^ {2 + w}} + \dots + \frac {c}{(1 + i) ^ {n - 1 + w}} + \frac {M}{(1 + i) ^ {n - 1 + w}},
+p = \frac{c}{(1 + i)^{w}} + \frac{c}{(1 + i)^{1 + w}} + \frac{c}{(1 + i)^{2 + w}} + \dots + \frac{c}{(1 + i)^{n - 1 + w}} + \frac{M}{(1 + i)^{n - 1 + w}},
 $$
 
 where
 
 $p = \text{price} (\mathbb{S})$ ;
 
-$c = \text{semiannual coupon payment}(\$)$ ;
+$c = \text{semiannualcouponpayment}(\$)$ ;
 
 $i =$  periodic interest rate (required yield divided by 2) (in decimal form);
 
@@ -1638,7 +1638,7 @@ Illustration 5-7. Suppose that a corporate bond with a coupon rate of  $10\%$  m
 The next coupon payment will be made on September 1, 2022. Because the bond is a corporate bond, the 30/360 day count convention is that there are 44 days between the settlement date and the next coupon date. The number of days in the coupon period is 180 days. Therefore,
 
 $$
-w = \frac {4 4}{1 8 0} = 0. 2 4 4 4 4.
+w = \frac{4 4}{1 8 0} = 0. 2 4 4 4 4.
 $$
 
 The number of coupon payments remaining  $n$  is 12. The semiannual interest rate is  $3.25\%$  (6.5%/2).
@@ -1654,12 +1654,12 @@ Calculation of accrued interest assumes that the coupon payment takes place on t
 The accrued interest is calculated as follows:
 
 $$
-A I = c \left[ \frac {\text {n u m b e r o f d a y s f r o m l a s t c o u p o n p a y m e n t t o s e t t l e m e n t d a t e}}{\text {n u m b e r o f d a y s i n c o u p o n p e r i o d}} \right],
+A I = c \left[ \frac{\text{nu mb er of da ys fr om la st co up on pa ym en tt os et tl em en td at e}}{\text{nu mb er of da ys in co up on pe ri od}} \right],
 $$
 
 where
 
-$AI = \text{accrued interest}(\mathbb{S})$ ;
+$AI = \text{accruedinterest}(\mathbb{S})$ ;
 
 $c =$  semiannual coupon payment  $(\$  1$).
 
@@ -1668,13 +1668,13 @@ Accrued interest is not computed for all bonds. No accrued interest is computed 
 Illustration 5-8. Let's continue with the hypothetical corporate bond in Illustration 5-7. Because the number of days between settlement (July 17, 2022) and the next coupon payment (September 1, 2022) is 44 days and the number of days in the coupon period is 180, the number of days from the last coupon payment date (March 1, 2022) to the settlement date is 136 (180 - 44). The accrued interest per \$100 of par value is
 
 $$
-A I - \mathbb {S} 5 \left(\frac {1 3 6}{1 8 0}\right) = \mathbb {S} 3. 7 7 7 7 7 8.
+A I - \mathbb {S} 5 \left(\frac{1 3 6}{1 8 0}\right) = \mathbb {S} 3. 7 7 7 7 7 8.
 $$
 
 Illustration 5-9. If the bond in the previous illustration were a Treasury bond rather than a corporate bond, the accrued interest would be computed as follows. The number of days in the coupon period is based on the actual number of days. Between March 1 and September 1 the actual number of days is 184. The actual number of days between March 1 and July 17 is 138. Accrued interest per \$100 of par value is then
 
 $$
-A I = \\( 5 \left(\frac {1 3 8}{1 8 4}\right) = \\) 3. 7 5.
+A I = \\( 5 \left(\frac{1 3 8}{1 8 4}\right) = \\) 3. 7 5.
 $$
 
 # Cum-Dividend and Ex-Dividend Trading
@@ -1702,27 +1702,27 @@ In the previous chapter we explained how to compute the price of a bond given th
 The current yield relates the annual coupon interest to the market price. The formula for the current yield is
 
 $$
-\text {C u r r e n t} = \frac {\text {a n n u a l d o l l a r c o u p o n i n t h e s t}}{\text {p r i c e}}.
+\text{Cu rr en t} = \frac{\text{an nu al do ll ar co up on in th es t}}{\text{pr ic e}}.
 $$
 
 Illustration 6-1. The current yield for an 18-year, \(6\%\) coupon bond selling for \\(700.89 is \(8.56\%\), as shown below:
 
 $$
-\text {A n n u a l d o r d a r e c o u p o n i n t e s t} = \$ 1, 0 0 0 \times 0. 0 6 = \$ 6 0
+\text{An nu al do rd ar ec ou po ni nt es t} = \$ 1, 0 0 0 \times 0. 0 6 = \$ 6 0
 $$
 
 $$
-\text{Current yield} = \frac {\mathbb {S} 60}{\mathbb {S} 700.89} = 0.0856 \text {or} 8.56 \%
+\text{Currentyield} = \frac{\mathbb {S} 60}{\mathbb {S} 700.89} = 0.0856 \text{or} 8.56 \%
 $$
 
 Illustration 6-2. The current yield for a 19-year, \(11\%\) coupon bond selling for \\(1,233.64 is \(8.92\%\), as shown below:
 
 $$
-\text {A n n u a l d o r d a r c o u p o n i s t e r} = \$ 1, 0 0 0 \times 0. 1 1 = \$ 1 1 0
+\text{An nu al do rd ar co up on is te r} = \$ 1, 0 0 0 \times 0. 1 1 = \$ 1 1 0
 $$
 
 $$
-\text{Current yield} = \frac{\mathbb{S}110}{\mathbb{S}1,233.64} = 0.0892\text{or} 8.92\% .
+\text{Currentyield} = \frac{\mathbb{S}110}{\mathbb{S}1,233.64} = 0.0892\text{or} 8.92\% .
 $$
 
 The current yield considers only the coupon interest and no other source of return that will affect an investor's yield. For example, in Illustration 6-1, no consideration is given to the capital gain that the investor will realize when the bond matures; in Illustration 6-2, no recognition is given to the capital loss that the investor will realize when the bond matures.
@@ -1732,13 +1732,13 @@ The current yield considers only the coupon interest and no other source of retu
 In Chapter 4 we explained how to compute the yield or internal rate of return on any investment. The yield is the interest rate that will make the present value of the cash flows equal to the price (or initial investment). The yield to maturity is computed in the same way as the yield; the cash flows are those that the investor would realize by holding the bond to maturity. For a semiannual-pay bond whose next coupon payment will be received 6 months from now, the yield to maturity is computed by solving the following relationship for  $y$ :
 
 $$
-p = \frac {c}{(1 + y) ^ {1}} + \frac {c}{(1 + y) ^ {2}} + \frac {c}{(1 + y) ^ {3}} + \dots + \frac {c}{(1 + y) ^ {n}} + \frac {M}{(1 + y) ^ {n}},
+p = \frac{c}{(1 + y)^{1}} + \frac{c}{(1 + y)^{2}} + \frac{c}{(1 + y)^{3}} + \dots + \frac{c}{(1 + y)^{n}} + \frac{M}{(1 + y)^{n}},
 $$
 
 where
 
 $$
-\begin{array}{l} p = \text {p r i c e} (\mathbb {S}); \\ c = \text {s e m i a n u a l} (\mathbb {S}); \\ y = \text {o n e - h a l f} \\ n = \text {n u m b e r o f p e r i o d s (n u m b e r o f y e a r s} \times 2); \\ M = \text {m a t u r i t y} (\$). \\ \end{array}
+\begin{array}{l} p = \text{pr ic e} (\mathbb {S}); \\ c = \text{se mi an ua l} (\mathbb {S}); \\ y = \text{on e -h al f} \\ n = \text{nu mb er of pe ri od s (nu mb er of ye ar s} \times 2); \\ M = \text{ma tu ri ty} (\$). \\ \end{array}
 $$
 
 For a semiannual-pay bond, doubling the interest rate or discount rate  $(y)$  gives the yield to maturity.
@@ -1746,7 +1746,7 @@ For a semiannual-pay bond, doubling the interest rate or discount rate  $(y)$  g
 Using the Greek letter sigma to denote summation, we can express this relationship as follows:
 
 $$
-p = \sum_ {t = 1} ^ {n} \frac {c}{(1 + y) ^ {t}} + \frac {M}{(1 + y) ^ {n}}.
+p = \sum_{t = 1}^{n} \frac{c}{(1 + y)^{t}} + \frac{M}{(1 + y)^{n}}.
 $$
 
 The yield to maturity considers not only the current coupon income but any capital gain or loss that the investor will realize by holding the bond to maturity. The yield to maturity also considers the timing of the cash flows.
@@ -1782,11 +1782,10 @@ Computation of Yield to Maturity for an 18-Year, \(6\%\) Coupon Bond Selling at 
 \$1,000 thirty-six 6-month periods from now.</td></tr><tr><td>Annual Interest Rate (%)</td><td>Semiannual Rate (%)</td><td>Present Value of 36 Payments of $30 ($)*</td><td>Present Value of \$1,000 Thirty-Six Periods from Now ($)**</td><td>Present Value of Cash Flows ($)</td></tr><tr><td>6.50</td><td>3.25</td><td>631.20</td><td>316.20</td><td>947.40</td></tr><tr><td>7.00</td><td>3.50</td><td>608.71</td><td>289.83</td><td>898.54</td></tr><tr><td>7.50</td><td>3.75</td><td>587.42</td><td>265.72</td><td>583.14</td></tr><tr><td>8.00</td><td>4.00</td><td>567.25</td><td>243.67</td><td>810.92</td></tr><tr><td>8.50</td><td>4.25</td><td>548.12</td><td>223.49</td><td>771.61</td></tr><tr><td>9.00</td><td>4.50</td><td>529.98</td><td>205.03</td><td>735.01</td></tr><tr><td>9.50</td><td>4.75</td><td>512.76</td><td>188.13</td><td>700.89</td></tr></table>
 
 $$
-* \$ 30 \left[ \frac {1 - \left[ \frac {1}{(1 + \text {s e m i a n u a l i n t e r e s t r a t e}) ^ {3 6}} \right]}{\text {s e m i a n u a l i n t e r e s t r a t e}} \right]
+* \$ 30 \left[ \frac{1 - \left[ \frac{1}{(1 + \text{se mi an ua li nt er es tr at e})^{3 6}} \right]}{\text{se mi an ua li nt er es tr at e}} \right]
 $$
 
-$$
-^ {* *} \S 1, 0 0 0 \left[ \frac {1}{(1 + \text {s e m i a n u a l} \text {i n t e r s e t} \text {r a t e}) ^ {3 6}} \right]
+$$^{* *} \S 1, 0 0 0 \left[ \frac{1}{(1 + \text{se mi an ua l} \text{in te rs et} \text{ra te})^{3 6}} \right]
 $$
 
 4.25% (corresponding to annual interest rates from 6.0% to 8.50%, respectively) can be easily determined. The present value of the cash flows is equal to the price when a 4.25% interest rate is used. The value for  $y$  is therefore 4.25%. Doubling 4.25% produces the yield to maturity of 8.50%.
@@ -1796,17 +1795,17 @@ $$
 In Chapter 4 we explained that when there is only one cash flow, it is much easier to compute the yield on an investment. A zero-coupon bond is characterized by a single cash flow resulting from the investment. Consequently, the following formula, presented in Chapter 4 (Illustration 4-4), can be applied to compute the yield to maturity for a zero-coupon bond:
 
 $$
-y = (\text {f u t u r e} \quad \text {v a l u e p e r d o l l a r i n v e s t e d}) ^ {1 / n} - 1,
+y = (\text{fu tu re} \quad \text{va lu ep er do ll ar in ve st ed})^{1 / n} - 1,
 $$
 
 where
 
 $$
-y = \text {o n e - h a l f}
+y = \text{on e -h al f}
 $$
 
 $$
-\text {F u t u r e v a l u e p e r d o l l a r i n v e s t e d} = \frac {\text {m a t u r i t y v a l u e}}{\text {p r i c e}}
+\text{Fu tu re va lu ep er do ll ar in ve st ed} = \frac{\text{ma tu ri ty va lu e}}{\text{pr ic e}}
 $$
 
 Once again, doubling  $y$  gives the yield to maturity. Remember that the number of periods used in the formula is double the number of years.
@@ -1814,11 +1813,11 @@ Once again, doubling  $y$  gives the yield to maturity. Remember that the number
 Illustration 6-5. The yield to maturity for a zero-coupon bond selling for  \$274.78 with a maturity value of\$ 1,000, maturing in 15 years, is 8.8%, as computed below:
 
 $$
-\text {F u t u r e v a l u e p e r d o l l a r d i n v e s t e d} = \frac {\mathbb {S} 1 , 0 0 0 . 0 0}{\mathbb {S} 2 7 4 . 7 8} = 3. 6 3 9 2 7 5;
+\text{Fu tu re va lu ep er do ll ar di nv es te d} = \frac{\mathbb {S} 1 , 0 0 0 . 0 0}{\mathbb {S} 2 7 4 . 7 8} = 3. 6 3 9 2 7 5;
 $$
 
 $$
-\begin{array}{l} n = 3 0 (1 5 \times 2); \\ y = (3. 6 3 9 2 7 5) ^ {1 / 3 0} - 1 \\ = (3. 6 3 9 2 7 5) ^ {0. 0 3 3 3 3 3} - 1 \\ = 1.044 - 1 = 0.044 \text{or} 4.4\% \\ \end{array}
+\begin{array}{l} n = 3 0 (1 5 \times 2); \\ y = (3. 6 3 9 2 7 5)^{1 / 3 0} - 1 \\ = (3. 6 3 9 2 7 5)^{0. 0 3 3 3 3 3} - 1 \\ = 1.044 - 1 = 0.044 \text{or} 4.4\% \\ \end{array}
 $$
 
 Doubling  $4.4\%$  gives the yield to maturity of  $8.8\%$ .
@@ -1830,13 +1829,13 @@ In the previous chapter we explained how to determine the price that the buyer p
 cash flows equal to the dirty price. That is, for a semiannual-pay bond with  $n$  coupon payments remaining, we must solve the following relationship for  $y$ :
 
 $$
-\begin{array}{l} t p = \frac {c}{(1 + y) ^ {w}} + \frac {c}{(1 + y) ^ {1 + w}} + \frac {c}{(1 + y) ^ {2 + w}} \\ + \dots + \frac {c}{(1 + y) ^ {n - 1 + w}} + \frac {M}{(1 + y) ^ {n - 1 + w}}, \\ \end{array}
+\begin{array}{l} t p = \frac{c}{(1 + y)^{w}} + \frac{c}{(1 + y)^{1 + w}} + \frac{c}{(1 + y)^{2 + w}} \\ + \dots + \frac{c}{(1 + y)^{n - 1 + w}} + \frac{M}{(1 + y)^{n - 1 + w}}, \\ \end{array}
 $$
 
 where
 
 $$
-\begin{array}{l} t p = \text {d i r t y} (\mathbb {S}); \\ c = \text {s e m i a n n u a l} (\mathbb {S}); \\ y = \text {o n e - h a l f} \\ w = \frac {\text {n u m b e r o f d a y s b e t w e e n s e t t l e m e n t a n d t h e n e x t c o u p o n p a y m e n t}}{\text {n u m b e r o f d a y s i n t h e c o u p o n p e r i o d}}; \\ n = \text {n u m b e r o f c o u p o n p a y m e n t s r e m a i n i n g}; \\ M = \text {m a t u r i t y} \\ \end{array}
+\begin{array}{l} t p = \text{di rt y} (\mathbb {S}); \\ c = \text{se mi an nu al} (\mathbb {S}); \\ y = \text{on e -h al f} \\ w = \frac{\text{nu mb er of da ys be tw ee ns et tl em en ta nd th en ex tc ou po np ay me nt}}{\text{nu mb er of da ys in th ec ou po np er io d}}; \\ n = \text{nu mb er of co up on pa ym en ts re ma in in g}; \\ M = \text{ma tu ri ty} \\ \end{array}
 $$
 
 Doubling  $y$  gives the yield to maturity.
@@ -1844,7 +1843,7 @@ Doubling  $y$  gives the yield to maturity.
 Using the Greek letter sigma to denote summation, the formula can be expressed as follows:
 
 $$
-t p = \sum_ {t = 1} ^ {n} \frac {c}{(1 + y) ^ {t - 1 + w}} + \frac {M}{(1 + y) ^ {n - 1 + w}}.
+t p = \sum_{t = 1}^{n} \frac{c}{(1 + y)^{t - 1 + w}} + \frac{M}{(1 + y)^{n - 1 + w}}.
 $$
 
 Illustration 6-6. Suppose that a  $10\%$  coupon corporate bond maturing on March 1, 2028, has a dirty price of \$118.778. The settlement date is July 17, 2022. The cash flows for this bond per \$100 of par value and the corresponding periods they will be received are
@@ -1860,7 +1859,7 @@ Number of days from settlement to next coupon payment  $= 46$
 Number of days in coupon period  $= 184$
 
 $$
-w = \frac {4 6}{1 8 4} = 0. 2 5.
+w = \frac{4 6}{1 8 4} = 0. 2 5.
 $$
 
 The cash flows for this bond per \(100 of par value and the corresponding periods they will be received are
@@ -1912,13 +1911,13 @@ An adjustment is required to make a direct comparison between the yield to matur
 Yield to maturity on a bond-equivalent basis
 
 $$
-= 2 \left[ (1 + \text {y i e l d t o m a t u r i t y}) ^ {1 / 2} - 1 \right].
+= 2 \left[ (1 + \text{yi el dt om at ur it y})^{1 / 2} - 1 \right].
 $$
 
 Illustration 6-9. For the annual-pay bond issue in the previous illustration whose yield to maturity is  $9.23\%$ , the yield to maturity on a bond-equivalent basis is
 
 $$
-2 \left[ (1.0923) ^ {1 / 2} - 1 \right] = 0.0903 = 9.03\%.
+2 \left[ (1.0923)^{1 / 2} - 1 \right] = 0.0903 = 9.03\%.
 $$
 
 Notice that the yield to maturity on a bond-equivalent basis will always be less than the yield to maturity on an annual-pay bond.
@@ -1928,7 +1927,7 @@ Alternatively, to convert the yield to maturity on a bond-equivalent basis of a 
 Yield to maturity on an annual-pay basis
 
 $$
-= \left(1 + \frac {\text {y i e l d t o m a t u r i t y o n a b o n d - e q u i v a l e n t b a s i s}}{2}\right) ^ {2} - 1.
+= \left(1 + \frac{\text{yi el dt om at ur it yo na bo nd -e qu iv al en tb as is}}{2}\right)^{2} - 1.
 $$
 
 Illustration 6-10. Suppose that an investor wants to compare the yield to maturity of a 10-year, \(9.125\%\) coupon Eurobond and the yield to maturity of a 10-year, \(9\%\) coupon U.S. bond issue. A Eurobond issue is an annual-pay bond. Suppose that the price of the Eurobond is \(993.33\) and the price of the U.S. bond issue is \)990.31. From Illustration 6-8, we know that the yield to maturity is \(9.23\%\), and from Illustration 6-9, we know that the yield to maturity on a bond-equivalent basis is \(9.03\%\). For the U.S. bond issue, the yield to maturity on a bond-equivalent basis is \(9.15\%\) if the price is \)990.31. To convert this yield to an annual-pay basis, the previous formula is used:
@@ -1958,13 +1957,13 @@ When a bond is callable, an investor can calculate a yield to an assumed call da
 the yield to an assumed call date for a bond on which the next coupon payment will be due 6 months from now can be expressed as follows:
 
 $$
-p = \frac {c}{(1 + y) ^ {1}} + \frac {c}{(1 + y) ^ {2}} + \frac {c}{(1 + y) ^ {3}} + \dots + \frac {c}{(1 + y) ^ {n ^ {\star}}} + \frac {C P}{(1 + y) ^ {n ^ {\star}}},
+p = \frac{c}{(1 + y)^{1}} + \frac{c}{(1 + y)^{2}} + \frac{c}{(1 + y)^{3}} + \dots + \frac{c}{(1 + y)^{n^{\star}}} + \frac{C P}{(1 + y)^{n^{\star}}},
 $$
 
 where
 
 $$
-\begin{array}{l} p = \text {p r i c e} (\$); \\ c = \text {s e m i a n u a l} (\$); \\ y = \text {o n e - h a l f t h e y i e l d t o c a l l (i n d e c i m a l f o r m)}; \\ n ^ {*} = \text {n u m b e r o f p e r i o d s u n t i l l a s s u m e d c a l l d a t e (n u m b e r o f y e a r s \times 2)}; \\ C P = \text {c a l l p r i c e} \\ \end{array}
+\begin{array}{l} p = \text{pr ic e} (\$); \\ c = \text{se mi an ua l} (\$); \\ y = \text{on e -h al ft he yi el dt oc al l (in de ci ma lf or m)}; \\ n^{*} = \text{nu mb er of pe ri od su nt il la ss um ed ca ll da te (nu mb er of ye ar s \times2)}; \\ C P = \text{ca ll pr ic e} \\ \end{array}
 $$
 
 For a semiannual-pay bond, doubling the interest rate  $(y)$  gives the yield to call.
@@ -1972,7 +1971,7 @@ For a semiannual-pay bond, doubling the interest rate  $(y)$  gives the yield to
 Alternatively, the yield to call can be expressed as follows:
 
 $$
-p = \sum_ {t = 1} ^ {n ^ {*}} \frac {c}{(1 + y) ^ {t}} + \frac {C P}{(1 + y) ^ {n ^ {*}}}.
+p = \sum_{t = 1}^{n^{*}} \frac{c}{(1 + y)^{t}} + \frac{C P}{(1 + y)^{n^{*}}}.
 $$
 
 Two commonly used call dates are the first call date and the first par call date. To calculate the yield to the first call date, the value for  $CP$  used in the formula is the call price on the first call date as given in the call schedule. In computing the yield to the first par call date, the par value is used for  $CP$  in the formula.
@@ -2011,14 +2010,14 @@ provision gives the bondholder the right to change the maturity of the bond. A b
 For a putable bond, a yield to put can be calculated for any possible put date. The formula for the yield to put for any assumed put date is
 
 $$
-p = \frac {c}{(1 + y) ^ {1}} + \frac {c}{(1 + y) ^ {2}} + \frac {c}{(1 + y) ^ {3}} + \dots + \frac {c}{(1 + y) ^ {n ^ {\star}}} + \frac {P P}{(1 + y) ^ {n ^ {\star}}},
+p = \frac{c}{(1 + y)^{1}} + \frac{c}{(1 + y)^{2}} + \frac{c}{(1 + y)^{3}} + \dots + \frac{c}{(1 + y)^{n^{\star}}} + \frac{P P}{(1 + y)^{n^{\star}}},
 $$
 
 where
 
 $p = \text{price} (\mathbb{S})$
 
-$c = \text{semiannual coupon interest}(\$)$ ;
+$c = \text{semiannualcouponinterest}(\$)$ ;
 
 $y =$  one-half the yield to put (in decimal form);
 
@@ -2031,7 +2030,7 @@ Doubling  $y$  gives the yield to put on a bond-equivalent basis.
 Alternatively, the yield to put can be expressed as follows:
 
 $$
-p = \sum_ {t = 1} ^ {n ^ {\star}} \frac {c}{(1 + y) ^ {t}} + \frac {P P}{(1 + y) ^ {n ^ {\star}}}.
+p = \sum_{t = 1}^{n^{\star}} \frac{c}{(1 + y)^{t}} + \frac{P P}{(1 + y)^{n^{\star}}}.
 $$
 
 # YIELD TO WORST
@@ -2055,7 +2054,7 @@ $K =$  number of securities in the portfolio;
 then the weighted-average portfolio yield is
 
 $$
-w _ {1} y _ {1} + w _ {2} y _ {2} + w _ {3} y _ {3} + \dots + w _ {K} y _ {K}.
+w_{1} y_{1} + w_{2} y_{2} + w_{3} y_{3} + \dots + w_{K} y_{K}.
 $$
 
 Illustration 6-14. Consider the following three-bond portfolio:
@@ -2065,15 +2064,15 @@ Illustration 6-14. Consider the following three-bond portfolio:
 In this illustration, the total market value of the portfolio is  $57,259,000, K$  is equal to 3, and
 
 $$
-w _ {1} = 9, 2 0 9, 0 0 0 / 5 7, 2 5 9, 0 0 0 = 0. 1 6 1 \quad y _ {1} = 0. 0 9 0;
+w_{1} = 9, 2 0 9, 0 0 0 / 5 7, 2 5 9, 0 0 0 = 0. 1 6 1 \quad y_{1} = 0. 0 9 0;
 $$
 
 $$
-w _ {2} = 2 0, 0 0 0, 0 0 0 / 5 7, 2 5 9, 0 0 0 = 0. 3 4 9 \quad y _ {2} = 0. 1 0 5;
+w_{2} = 2 0, 0 0 0, 0 0 0 / 5 7, 2 5 9, 0 0 0 = 0. 3 4 9 \quad y_{2} = 0. 1 0 5;
 $$
 
 $$
-w _ {3} = 2 8, 0 5 0, 0 0 0 / 5 7, 2 5 9, 0 0 0 = 0. 4 9 0 \quad y _ {3} = 0. 0 8 5.
+w_{3} = 2 8, 0 5 0, 0 0 0 / 5 7, 2 5 9, 0 0 0 = 0. 4 9 0 \quad y_{3} = 0. 0 8 5.
 $$
 
 The weighted-average portfolio yield is then
@@ -2155,7 +2154,7 @@ The basic principle is that the value of a Treasury coupon security should be eq
 The present value of the cash flows is then
 
 $$
-\frac {4 . 2 5}{(1 + z _ {1}) ^ {1}} + \frac {4 . 2 5}{(1 + z _ {2}) ^ {2}} + \frac {1 0 4 . 2 5}{(1 + z _ {3}) ^ {3}},
+\frac{4 . 2 5}{(1 + z_{1})^{1}} + \frac{4 . 2 5}{(1 + z_{2})^{2}} + \frac{1 0 4 . 2 5}{(1 + z_{3})^{3}},
 $$
 
 # EXHIBIT 7-2
@@ -2175,37 +2174,37 @@ $z_{3} =$  one-half the 1.5-year theoretical spot rate.
 Because the 6-month spot rate and 1-year spot rate are  $8.0\%$  and  $8.3\%$ , respectively, then
 
 $$
-z _ {1} = 0. 0 4 \text {a n d} z _ {2} = 0. 0 4 1 5.
+z_{1} = 0. 0 4 \text{an d} z_{2} = 0. 0 4 1 5.
 $$
 
 Therefore, the present value of the 1.5-year coupon Treasury security is
 
 $$
-\frac {4 . 2 5}{(1 . 0 4 0 0) ^ {1}} + \frac {4 . 2 5}{(1 . 0 4 1 5) ^ {2}} + \frac {1 0 4 . 2 5}{(1 + z _ {3}) ^ {3}}.
+\frac{4 . 2 5}{(1 . 0 4 0 0)^{1}} + \frac{4 . 2 5}{(1 . 0 4 1 5)^{2}} + \frac{1 0 4 . 2 5}{(1 + z_{3})^{3}}.
 $$
 
 Because the price of the 1.5-year coupon Treasury security is \(99.45, the following relationship must hold:
 
 $$
-9 9. 4 5 = \frac {4 . 2 5}{(1 . 0 4 0 0) ^ {1}} + \frac {4 . 2 5}{(1 . 0 4 1 5) ^ {2}} + \frac {1 0 4 . 2 5}{(1 + z _ {3}) ^ {3}}.
+9 9. 4 5 = \frac{4 . 2 5}{(1 . 0 4 0 0)^{1}} + \frac{4 . 2 5}{(1 . 0 4 1 5)^{2}} + \frac{1 0 4 . 2 5}{(1 + z_{3})^{3}}.
 $$
 
 We can now solve for the theoretical 1.5-year spot rate as follows:
 
 $$
-9 9. 4 5 = 4. 0 8 6 5 4 + 3. 9 1 8 0 5 + \frac {1 0 4 . 2 5}{\left(1 + z _ {3}\right) ^ {3}};
+9 9. 4 5 = 4. 0 8 6 5 4 + 3. 9 1 8 0 5 + \frac{1 0 4 . 2 5}{\left(1 + z_{3}\right)^{3}};
 $$
 
 $$
-9 1. 4 4 5 1 = \frac {1 0 4 . 2 5}{\left(1 + z _ {3}\right) ^ {3}};
+9 1. 4 4 5 1 = \frac{1 0 4 . 2 5}{\left(1 + z_{3}\right)^{3}};
 $$
 
 $$
-\left(1 + z _ {3}\right) ^ {3} = 1. 1 4 0 0 2 4;
+\left(1 + z_{3}\right)^{3} = 1. 1 4 0 0 2 4;
 $$
 
 $$
-z _ {3} = 0. 0 4 4 6 5.
+z_{3} = 0. 0 4 4 6 5.
 $$
 
 Doubling this yield, we obtain the bond-equivalent yield of 0.0893 or  $8.93\%$ , which is the theoretical 1.5-year spot rate.
@@ -2223,7 +2222,7 @@ Given the theoretical 1.5-year spot rate, we can obtain the theoretical 2-year s
 The present value of the cash flows is as follows:
 
 $$
-\frac {4 . 5 0}{(1 + z _ {1}) ^ {1}} + \frac {4 . 5 0}{(1 + z _ {2}) ^ {2}} + \frac {4 . 5 0}{(1 + z _ {3}) ^ {3}} + \frac {4 . 5 0}{(1 + z _ {4}) ^ {4}},
+\frac{4 . 5 0}{(1 + z_{1})^{1}} + \frac{4 . 5 0}{(1 + z_{2})^{2}} + \frac{4 . 5 0}{(1 + z_{3})^{3}} + \frac{4 . 5 0}{(1 + z_{4})^{4}},
 $$
 
 where
@@ -2233,29 +2232,29 @@ $z_{4} =$  one-half the 2-year theoretical spot rate.
 The 6-month spot rate, 1-year spot rate, and 1.5-year spot rate are  $8.0\%$ ,  $8.3\%$ , and  $8.93\%$ , respectively, so
 
 $$
-z _ {1} = 0. 0 4, z _ {2} = 0. 0 4 1 5, \text {a n d} z _ {3} = 0. 0 4 4 6 5.
+z_{1} = 0. 0 4, z_{2} = 0. 0 4 1 5, \text{an d} z_{3} = 0. 0 4 4 6 5.
 $$
 
 Therefore, the present value of the 2-year coupon Treasury security is
 
 $$
-\frac {4 . 5 0}{(1 . 0 4 0 0) ^ {1}} + \frac {4 . 5 0}{(1 . 0 4 1 5) ^ {2}} + \frac {4 . 5 0}{(1 . 0 4 4 6 5) ^ {3}} + \frac {1 0 4 . 5 0}{(1 + z _ {4}) ^ {4}}.
+\frac{4 . 5 0}{(1 . 0 4 0 0)^{1}} + \frac{4 . 5 0}{(1 . 0 4 1 5)^{2}} + \frac{4 . 5 0}{(1 . 0 4 4 6 5)^{3}} + \frac{1 0 4 . 5 0}{(1 + z_{4})^{4}}.
 $$
 
 Because the price of the 2-year coupon Treasury security is \(99.64, the following relationship must hold:
 
 $$
-9 9. 6 4 = \frac {4 . 5 0}{(1 . 0 4 0 0) ^ {1}} + \frac {4 . 5 0}{(1 . 0 4 1 5) ^ {2}} + \frac {4 . 5 0}{(1 . 0 4 4 6 5) ^ {3}} + \frac {1 0 4 . 5 0}{(1 + z _ {4}) ^ {4}}.
+9 9. 6 4 = \frac{4 . 5 0}{(1 . 0 4 0 0)^{1}} + \frac{4 . 5 0}{(1 . 0 4 1 5)^{2}} + \frac{4 . 5 0}{(1 . 0 4 4 6 5)^{3}} + \frac{1 0 4 . 5 0}{(1 + z_{4})^{4}}.
 $$
 
 We can now solve for the theoretical 2-year spot rate as follows:
 
 $$
-9 9. 6 4 = 4. 3 2 6 9 2 + 4. 1 4 8 5 3 + 3. 9 4 7 3 0 + \frac {1 0 4 . 5 0}{\left(1 + z _ {4}\right) ^ {4}};
+9 9. 6 4 = 4. 3 2 6 9 2 + 4. 1 4 8 5 3 + 3. 9 4 7 3 0 + \frac{1 0 4 . 5 0}{\left(1 + z_{4}\right)^{4}};
 $$
 
 $$
-\begin{array}{l} 8 7. 2 1 7 2 5 = \frac {1 0 4 . 5 0}{\left(1 + z _ {4}\right) ^ {4}}; \\ \left(1 + z _ {4}\right) ^ {4} = 1. 1 9 8 1 5 8; \\ z _ {4} = 0. 0 4 6 2 3 5. \\ \end{array}
+\begin{array}{l} 8 7. 2 1 7 2 5 = \frac{1 0 4 . 5 0}{\left(1 + z_{4}\right)^{4}}; \\ \left(1 + z_{4}\right)^{4} = 1. 1 9 8 1 5 8; \\ z_{4} = 0. 0 4 6 2 3 5. \\ \end{array}
 $$
 
 Doubling this yield, we obtain the theoretical 2-year spot-rate bond-equivalent yield of  $9.247\%$ .
@@ -2263,12 +2262,12 @@ Doubling this yield, we obtain the theoretical 2-year spot-rate bond-equivalent 
 We can then use the theoretical 2-year spot rate and the 2.5-year coupon Treasury in Exhibit 7-2 to compute the 2.5-year theoretical spot rate. In general, to compute the theoretical spot rate for the  $n$ th 6-month period, the following equation must be solved:
 
 $$
-P _ {n} = \frac {c ^ {*}}{\left(1 + z _ {1}\right) ^ {1}} + \frac {c ^ {*}}{\left(1 + z _ {2}\right) ^ {2}} + \frac {c ^ {*}}{\left(1 + z _ {3}\right) ^ {3}} + \dots + \frac {c ^ {*} + 1 0 0}{\left(1 + z _ {n}\right) ^ {n}},
+P_{n} = \frac{c^{*}}{\left(1 + z_{1}\right)^{1}} + \frac{c^{*}}{\left(1 + z_{2}\right)^{2}} + \frac{c^{*}}{\left(1 + z_{3}\right)^{3}} + \dots + \frac{c^{*} + 1 0 0}{\left(1 + z_{n}\right)^{n}},
 $$
 
 where
 
-$P_{n} = \frac{\text{price of the coupon Treasury with } n \text{ periods to maturity (per $100 of par value)}}{2}$
+$P_{n} = \frac{\text{priceofthecouponTreasurywith } n \text{ periodstomaturity (per $100ofparvalue)}}{2}$
 
 $c^* =$  semiannual coupon interest for the coupon Treasury with  $n$  periods to maturity per \$100 of par value;
 
@@ -2277,13 +2276,13 @@ and  $z_{t}$  for  $t = 1,2,\dots,n - 1$  are the theoretical spot rates that ar
 This expression can be rewritten as
 
 $$
-P _ {n} = c ^ {*} \sum_ {t = 1} ^ {n - 1} \frac {1}{\left(1 + z _ {t}\right) ^ {t}} + \frac {c ^ {*} + 1 0 0}{\left(1 + z _ {n}\right) ^ {n}}.
+P_{n} = c^{*} \sum_{t = 1}^{n - 1} \frac{1}{\left(1 + z_{t}\right)^{t}} + \frac{c^{*} + 1 0 0}{\left(1 + z_{n}\right)^{n}}.
 $$
 
 Solving for  $z_{n}$ , we get
 
 $$
-z _ {n} = \left[ \frac {c ^ {*} + 1 0 0}{P _ {n} - c ^ {*} \sum_ {t = 1} ^ {n - 1} \frac {1}{\left(1 + z _ {t}\right) ^ {t}}} \right] ^ {1 / n} - 1.
+z_{n} = \left[ \frac{c^{*} + 1 0 0}{P_{n} - c^{*} \sum_{t = 1}^{n - 1} \frac{1}{\left(1 + z_{t}\right)^{t}}} \right]^{1 / n} - 1.
 $$
 
 Doubling  $z_{n}$  gives the theoretical spot rate on a bond-equivalent basis.
@@ -2365,7 +2364,7 @@ The investor will be indifferent between the two alternatives if they produce th
 By investing in the 1-year Treasury bill, the investor will receive the maturity value at the end of 1 year. Suppose that the maturity value of the 1-year Treasury bill is \$100. The price (cost) of the 1-year Treasury bill would be as follows:
 
 $$
-\frac {1 0 0}{(1 + z _ {2}) ^ {2}},
+\frac{1 0 0}{(1 + z_{2})^{2}},
 $$
 
 where  $z_{2}$  is one-half the bond-equivalent yield of the theoretical 1-year spot rate.
@@ -2373,7 +2372,7 @@ where  $z_{2}$  is one-half the bond-equivalent yield of the theoretical 1-year 
 Suppose that an investor purchases a 6-month Treasury bill for  $P$  dollars. At the end of 6 months, the value of this investment would be
 
 $$
-P (1 + z _ {1}),
+P (1 + z_{1}),
 $$
 
 where  $z_{1}$  is one-half the bond-equivalent yield of the theoretical 6-month spot rate.
@@ -2381,31 +2380,31 @@ where  $z_{1}$  is one-half the bond-equivalent yield of the theoretical 6-month
 Let  $f$  be one-half the forward rate on a 6-month Treasury bill available 6 months from now. Then the future dollars available at the end of 1 year from the  $P$  dollars invested would be given by
 
 $$
-P (1 + z _ {1}) (1 + f).
+P (1 + z_{1}) (1 + f).
 $$
 
 Suppose that today we want to know how many  $P$  dollars an investor must invest in order to get \$100 in 1 year. This can be found as follows:
 
 $$
-P \left(1 + z _ {1}\right) (1 + f) = 1 0 0.
+P \left(1 + z_{1}\right) (1 + f) = 1 0 0.
 $$
 
 Solving for  $P$ , we get
 
 $$
-P = \frac {1 0 0}{(1 + z _ {1}) (1 + f)}.
+P = \frac{1 0 0}{(1 + z_{1}) (1 + f)}.
 $$
 
 The investor will be indifferent between the two alternatives if the same dollar investment is made and \(100 is received from both investments at the end of 1 year. That is, an investor will be indifferent if
 
 $$
-\frac {1 0 0}{(1 + z _ {2}) ^ {2}} = \frac {1 0 0}{(1 + z _ {1}) (1 + f)}.
+\frac{1 0 0}{(1 + z_{2})^{2}} = \frac{1 0 0}{(1 + z_{1}) (1 + f)}.
 $$
 
 Solving for  $f$ , we get
 
 $$
-f = \frac {(1 + z _ {2}) ^ {2}}{(1 + z _ {1})} - 1.
+f = \frac{(1 + z_{2})^{2}}{(1 + z_{1})} - 1.
 $$
 
 Doubling  $f$  gives the bond-equivalent yield for the 6-month forward rate.
@@ -2419,7 +2418,7 @@ To illustrate application of this equation, we will use the theoretical spot rat
 Substituting into the equation, we have
 
 $$
-f = \frac {(1 . 0 4 1 5) ^ {2}}{1 . 0 4 0 0} - 1 = 0. 0 4 3.
+f = \frac{(1 . 0 4 1 5)^{2}}{1 . 0 4 0 0} - 1 = 0. 0 4 3.
 $$
 
 The forward rate on a 6-month security, quoted on a bond-equivalent basis, is  $8.60\%$ $(0.043\times 2)$
@@ -2427,7 +2426,7 @@ The forward rate on a 6-month security, quoted on a bond-equivalent basis, is  $
 We can confirm these results. The price of a 1-year Treasury bill with a \$100 maturity value is
 
 $$
-\frac {1 0 0}{(1 . 0 4 1 5) ^ {2}} = 9 2. 1 9.
+\frac{1 0 0}{(1 . 0 4 1 5)^{2}} = 9 2. 1 9.
 $$
 
 If \(92.19 is invested for 6 months at the 6-month spot rate of \(4\%\) for 6 months (8% annually), the amount at the end of 6 months would be
@@ -2483,7 +2482,7 @@ An investor will be indifferent between the two alternatives if they produce the
 The price of the 5-year zero-coupon Treasury security with a maturity value of \$100 would be
 
 $$
-\frac {1 0 0}{(1 + z _ {1 0}) ^ {1 0}},
+\frac{1 0 0}{(1 + z_{1 0})^{1 0}},
 $$
 
 where  $z_{10}$  is one-half the bond-equivalent yield of the theoretical 5-year spot rate.
@@ -2491,37 +2490,37 @@ where  $z_{10}$  is one-half the bond-equivalent yield of the theoretical 5-year
 Suppose that an investor purchases a 3-year zero-coupon Treasury security for  $P$  dollars. At the end of 3 years, the value of this investment would be
 
 $$
-P (1 + z _ {6}) ^ {6},
+P (1 + z_{6})^{6},
 $$
 
 where  $z_{6}$  is one-half the bond-equivalent yield of the theoretical 3-year spot rate. Let  $_{6}f_{4}$  be the semiannual 2-year forward rate 3 years from now. Then the future dollars available at the end of 5 years from the  $P$  dollars invested are
 
 $$
-P (1 + z _ {6}) ^ {6} (1 + _ {6} f _ {4}) ^ {4}.
+P (1 + z_{6})^{6} (1 +_{6} f_{4})^{4}.
 $$
 
 Suppose that today we want to know how many  $P$  dollars an investor must invest in order to get \$100 one year from now. This can be found as follows:
 
 $$
-P (1 + z _ {6}) ^ {6} (1 + _ {6} f _ {4}) ^ {4} = 1 0 0.
+P (1 + z_{6})^{6} (1 +_{6} f_{4})^{4} = 1 0 0.
 $$
 
 Solving for  $P$
 
 $$
-P = \frac {1 0 0}{(1 + z _ {6}) ^ {6} (1 + _ {6} f _ {4}) ^ {4}}.
+P = \frac{1 0 0}{(1 + z_{6})^{6} (1 +_{6} f_{4})^{4}}.
 $$
 
 An investor will be indifferent between the two alternatives if he makes the same dollar investment and receives \$100 at the end of 5 years from both alternatives. That is, an investor will be indifferent if
 
 $$
-\frac {1 0 0}{(1 + z _ {1 0}) ^ {1 0}} = \frac {1 0 0}{(1 + z _ {6}) ^ {6} (1 + _ {6} f _ {4}) ^ {4}}.
+\frac{1 0 0}{(1 + z_{1 0})^{1 0}} = \frac{1 0 0}{(1 + z_{6})^{6} (1 +_{6} f_{4})^{4}}.
 $$
 
 Solving for  $_{6}f_{4}$ , we get
 
 $$
-{ } _ { 6 } f _ { 4 } = \left[ \frac { ( 1 + z _ { 1 0 } ) ^ { 1 0 } } { ( 1 + z _ { 6 } ) ^ { 6 } } \right] ^ { 1 / 4 } - 1 .
+{ }_{ 6 } f_{ 4 } = \left[ \frac{ ( 1 + z_{ 1 0 } )^{ 1 0 } } { ( 1 + z_{ 6 } )^{ 6 } } \right]^{ 1 / 4 } - 1 .
 $$
 
 Doubling  $_{6}f_{4}$  gives the bond-equivalent yield for the 2-year forward rate 3 years from now.
@@ -2535,25 +2534,25 @@ To illustrate this, we use the theoretical spot rates shown in Exhibit 7-4. We k
 Substituting into the equation, we have
 
 $$
-\begin{array}{l} { } _ { 6 } f _ { 4 } = \left[ \frac { ( 1 . 0 5 5 1 0 5 ) ^ { 1 0 } } { ( 1 . 0 4 8 9 3 5 ) ^ { 6 } } \right] ^ { 1 / 4 } - 1 \\ = \left[ \frac {(1 . 7 0 9 8 4 5) ^ {1 0}}{(1 . 3 3 1 9 6 1) ^ {6}} \right] ^ {1 / 4} - 1 \\ = 0. 0 6 4 4. \\ \end{array}
+\begin{array}{l} { }_{ 6 } f_{ 4 } = \left[ \frac{ ( 1 . 0 5 5 1 0 5 )^{ 1 0 } } { ( 1 . 0 4 8 9 3 5 )^{ 6 } } \right]^{ 1 / 4 } - 1 \\ = \left[ \frac{(1 . 7 0 9 8 4 5)^{1 0}}{(1 . 3 3 1 9 6 1)^{6}} \right]^{1 / 4} - 1 \\ = 0. 0 6 4 4. \\ \end{array}
 $$
 
 The forward rate on a 2-year Treasury security 3 years from now, quoted on a bond-equivalent basis, is calculated as  $12.88\%$ $(0.0644 \times 2)$ . Let's confirm our results. The price of a 5-year zero-coupon Treasury security with a \$100 maturity value is
 
 $$
-\frac {1 0 0}{(1 . 0 5 5 1 0 5) ^ {1 0}} = 5 8. 4 8.
+\frac{1 0 0}{(1 . 0 5 5 1 0 5)^{1 0}} = 5 8. 4 8.
 $$
 
 If \$58.48 is invested for 3 years at the 3-year spot rate of  $9.787\%$ , the amount at the end of 6 periods will be
 
 $$
-\$ 58.48 (1.048935) ^ {6} = \$ 77.8931.
+\$ 58.48 (1.048935)^{6} = \$ 77.8931.
 $$
 
 If \$77.8931 is reinvested for another 2 years (four periods) at  $6.44\%$  (12.88% annually), the amount at the end of the fifth year will be
 
 $$
-\$ 77.8931 (1.0644) ^ {4} = \$ 100.
+\$ 77.8931 (1.0644)^{4} = \$ 100.
 $$
 
 Each alternative does have the same \(100 payoff if the 2-year Treasury rate 3 years from now is \(6.44\%\) (12.88% on a bond-equivalent basis).
@@ -2561,7 +2560,7 @@ Each alternative does have the same \(100 payoff if the 2-year Treasury rate 3 y
 In general, the formula for the forward rate is
 
 $$
-{ } _ { n } f _ { t } = \left\lceil \frac { ( 1 + z _ { n + 1 } ) ^ { n + t } } { ( 1 + z _ { n } ) ^ { n } } \right\rceil ^ { 1 / t } - 1 ,
+{ }_{ n } f_{ t } = \left\lceil \frac{ ( 1 + z_{ n + 1 } )^{ n + t } } { ( 1 + z_{ n } )^{ n } } \right\rceil^{ 1 / t } - 1 ,
 $$
 
 where  $z_{n}$  is a semiannual spot rate. Doubling  ${}_{n}f_{t}$  gives the forward rate on a bond-equivalent basis.
@@ -2569,13 +2568,13 @@ where  $z_{n}$  is a semiannual spot rate. Doubling  ${}_{n}f_{t}$  gives the fo
 To illustrate application of the general equation for the forward rate, consider the earlier example where we sought the 6-month forward rate 6 months from now. That is, we sought  ${}_{1}f_{1}$ . Because  $n$  is equal to 1 and  $t$  is equal to 1,
 
 $$
-{ } _ { 1 } f _ { 1 } = \left[ \frac { ( 1 + z _ { 1 + 1 } ) ^ { 1 + 1 } } { ( 1 + z _ { 1 } ) ^ { 1 } } \right] ^ { 1 / 1 } - 1
+{ }_{ 1 } f_{ 1 } = \left[ \frac{ ( 1 + z_{ 1 + 1 } )^{ 1 + 1 } } { ( 1 + z_{ 1 } )^{ 1 } } \right]^{ 1 / 1 } - 1
 $$
 
 or
 
 $$
-= \frac {(1 + z _ {2}) ^ {2}}{(1 + z _ {1}) ^ {1}} - 1.
+= \frac{(1 + z_{2})^{2}}{(1 + z_{1})^{1}} - 1.
 $$
 
 This agrees with our earlier equation for a 1-period spot rate 1 period from now.
@@ -2585,15 +2584,15 @@ This agrees with our earlier equation for a 1-period spot rate 1 period from now
 Suppose that an investor purchases a 5-year zero-coupon Treasury security for  \$58.48 with a maturity value of\$ 100. The investor instead could buy a 6-month Treasury bill and reinvest the proceeds every 6 months for 5 years. The number of dollars that will be realized will depend on the 6-month forward rates. If an investor could actually reinvest the proceeds maturing every 6 months at the 6-month forward rates, let's see how many dollars would accumulate at the end of 5 years. The 6-month forward rates were calculated for the yield curve given in Exhibit 7-2. The semiannual forward rates from Exhibit 7-3 are
 
 $$
-{ } _ { 1 } f _ { 1 } = 0 . 0 4 3 0 0 0 ; { } _ { 2 } f _ { 1 } = 0 . 0 5 0 9 8 0 ; { } _ { 3 } f _ { 1 } = 0 . 0 5 1 0 0 5 ;
+{ }_{ 1 } f_{ 1 } = 0 . 0 4 3 0 0 0 ; { }_{ 2 } f_{ 1 } = 0 . 0 5 0 9 8 0 ; { }_{ 3 } f_{ 1 } = 0 . 0 5 1 0 0 5 ;
 $$
 
 $$
-{ } _ { 4 } f _ { 1 } = 0 . 0 5 1 7 7 0 ; { } _ { 5 } f _ { 1 } = 0 . 0 5 6 9 4 5 ; { } _ { 6 } f _ { 1 } = 0 . 0 6 0 9 6 5 ;
+{ }_{ 4 } f_{ 1 } = 0 . 0 5 1 7 7 0 ; { }_{ 5 } f_{ 1 } = 0 . 0 5 6 9 4 5 ; { }_{ 6 } f_{ 1 } = 0 . 0 6 0 9 6 5 ;
 $$
 
 $$
-{ } _ { 7 } f _ { 1 } = 0 . 0 6 9 3 1 0 ; { } _ { 8 } f _ { 1 } = 0 . 0 6 4 6 2 5 ; { } _ { 9 } f _ { 1 } = 0 . 0 6 2 8 3 0 .
+{ }_{ 7 } f_{ 1 } = 0 . 0 6 9 3 1 0 ; { }_{ 8 } f_{ 1 } = 0 . 0 6 4 6 2 5 ; { }_{ 9 } f_{ 1 } = 0 . 0 6 2 8 3 0 .
 $$
 
 By investing the \$58.48 at the 6-month spot rate of  $4\%$  (8% on a bond-equivalent basis) and reinvesting at the forward rates above, the number of dollars accumulated at the end of 5 years will be
@@ -2609,13 +2608,13 @@ security at the 5-year spot rate. From this illustration, we can see that the 5-
 In general, the relationship among a  $t$ -period spot rate, the current 6-month spot rate, and the 6-month forward rates is as follows:
 
 $$
-z _ {t} = \left[ \left(1 + z _ {1}\right) \left(1 + _ {1} f _ {1}\right) \left(1 + _ {2} f _ {1}\right) \left(1 + _ {3} f _ {1}\right) \dots \left(1 + _ {p} f _ {1}\right) \right] ^ {1 / t} - 1.
+z_{t} = \left[ \left(1 + z_{1}\right) \left(1 +_{1} f_{1}\right) \left(1 +_{2} f_{1}\right) \left(1 +_{3} f_{1}\right) \dots \left(1 +_{p} f_{1}\right) \right]^{1 / t} - 1.
 $$
 
 For example, the 5-year spot rate  $(2 \times z_{10})$  can be computed from the current 6-month rate  $(z_{1})$  of  $4\%$  and the nine 6-month forward rates. This is demonstrated below:
 
 $$
-\begin{array}{l} z _ {1 0} = [ (1. 0 4) (1. 0 4 3) (1. 0 5 0 9 8) (1. 0 5 1 0 0 5) (1. 0 5 1 7 7) (1. 0 5 6 9 4 5) \\ \times (1. 0 6 0 9 6 5) (1. 0 6 9 3 1) (1. 0 6 4 6 2 5) (1. 0 6 2 8 3) ] ^ {1 / 1 0} - 1 \\ = 0. 0 5 5 1 0 5. \\ \end{array}
+\begin{array}{l} z_{1 0} = [ (1. 0 4) (1. 0 4 3) (1. 0 5 0 9 8) (1. 0 5 1 0 0 5) (1. 0 5 1 7 7) (1. 0 5 6 9 4 5) \\ \times (1. 0 6 0 9 6 5) (1. 0 6 9 3 1) (1. 0 6 4 6 2 5) (1. 0 6 2 8 3) ]^{1 / 1 0} - 1 \\ = 0. 0 5 5 1 0 5. \\ \end{array}
 $$
 
 The 5-year spot rate is then  $11.021\%$ , which agrees with the value in Exhibit 7-4.
@@ -2625,13 +2624,13 @@ The 5-year spot rate is then  $11.021\%$ , which agrees with the value in Exhibi
 Because spot rates and forward rates are related, it makes no difference whether spot rates or forward rates are used to determine the present value of a cash flow. In general, the present value of a cash flow  $c$  in period  $t$  using forward rates is
 
 $$
-\frac {c}{(1 + z _ {1}) (1 + {} _ {1} f _ {1}) (1 + {} _ {2} f _ {1}) \cdots (1 + {} _ {n} f _ {1})}.
+\frac{c}{(1 + z_{1}) (1 + {}_{1} f_{1}) (1 + {}_{2} f_{1}) \cdots (1 + {}_{n} f_{1})}.
 $$
 
 The general formula for using forward rates to value an  $n$ -period-maturity bond whose semiannual cash flow is denoted by  $c$  and maturity value is denoted by  $M$  is
 
 $$
-\begin{array}{l} \text {P r i c e} = \frac {c}{\left(1 + z _ {t}\right)} + \frac {c}{\left(1 + z _ {1}\right) \left(1 + f _ {1}\right)} + \frac {c}{\left(1 + z _ {1}\right) \left(1 + {} _ {1} f _ {1}\right) \left(1 + {} _ {2} f _ {1}\right)} \\ + \dots + \frac {c + M}{(1 + z _ {1}) (1 + {} _ {1} f _ {1}) (1 + {} _ {2} f _ {1}) \cdots (1 + {} _ {n} f _ {1})}. \\ \end{array}
+\begin{array}{l} \text{Pr ic e} = \frac{c}{\left(1 + z_{t}\right)} + \frac{c}{\left(1 + z_{1}\right) \left(1 + f_{1}\right)} + \frac{c}{\left(1 + z_{1}\right) \left(1 + {}_{1} f_{1}\right) \left(1 + {}_{2} f_{1}\right)} \\ + \dots + \frac{c + M}{(1 + z_{1}) (1 + {}_{1} f_{1}) (1 + {}_{2} f_{1}) \cdots (1 + {}_{n} f_{1})}. \\ \end{array}
 $$
 
 Often vendors of analytical systems will state how they value cash flows. Some state that spot rates are used, while others state that forward rates are used. The results from the discounting process will be the same.
@@ -2697,7 +2696,7 @@ The interest-on-interest component can represent a substantial portion of a bond
 The portion of the potential total dollar return from coupon interest and interest on interest can be computed by using the formula for the future value of an annuity (see Chapter 2):
 
 $$
-F V = A \bigg [ \frac {(1 + i) ^ {n} - 1}{i} \bigg ],
+F V = A \bigg [ \frac{(1 + i)^{n} - 1}{i} \bigg ],
 $$
 
 where
@@ -2724,7 +2723,7 @@ $n =$  double the number of years to maturity.
 
 Letting
 
-$c = \text{semiannual coupon interest}(\$)$
+$c = \text{semiannualcouponinterest}(\$)$
 
 and
 
@@ -2741,7 +2740,7 @@ Total coupon interest  $= n \times c$ .
 The interest-on-interest component is then the difference between the coupon interest plus interest on interest and the total coupon interest. Mathematically, this can be expressed as
 
 $$
-\text {I n t e r e s t} = c \left[ \frac {(1 + r) ^ {n} - 1}{r} \right] - n \times c.
+\text{In te re st} = c \left[ \frac{(1 + r)^{n} - 1}{r} \right] - n \times c.
 $$
 
 The reinvestment rate assumed for the yield to maturity is the yield to maturity.
@@ -2753,7 +2752,7 @@ Illustration 8-1. Suppose that an investor is considering purchasing a 7-year bo
 Remember that a yield to maturity of  $9\%$  as conventionally computed means a  $4.5\%$  semiannual yield. $^{1}$  If an investor is promised a yield of  $4.5\%$  for fourteen 6-month periods (7 years) on a \$1,000 investment, the amount at the end of fourteen 6-month periods would be $^{2}$
 
 $$
-\$ 1,000 (1. 0 4 5) ^ {1 4} = \$ 1, 8 5 2.
+\$ 1,000 (1. 0 4 5)^{1 4} = \$ 1, 8 5 2.
 $$
 
 Because the investment is  \$1,000, the total dollar return that the investor expects is\$ 852.
@@ -2772,7 +2771,7 @@ c = \$ 45; m = 2; r = 0. 0 4 5 (= 0. 0 9 / 2); n = 1 4 (= 7 \times 2).
 $$
 
 $$
-\begin{array}{l} \text {C o u p o n i n t e r s t p l u s i n t e r e s t o n i n t e r s t} = \$ 45 \left[ \frac {(1 . 0 4 5) ^ {1 4} - 1}{0 . 0 4 5} \right] \\ = \$ 45 \left[ \frac {(1 . 8 5 1 9) - 1}{0 . 0 4 5} \right] \\ = \$ 45 (1 8. 9 3 2 1) = \$ 8 5 2. \\ \end{array}
+\begin{array}{l} \text{Co up on in te rs tp lu si nt er es to ni nt er st} = \$ 45 \left[ \frac{(1 . 0 4 5)^{1 4} - 1}{0 . 0 4 5} \right] \\ = \$ 45 \left[ \frac{(1 . 8 5 1 9) - 1}{0 . 0 4 5} \right] \\ = \$ 45 (1 8. 9 3 2 1) = \$ 8 5 2. \\ \end{array}
 $$
 
 Notice that the total dollar return for this bond is the same as the return that we computed for an investment of \(1,000 for fourteen 6-month periods at \(4.5\%\).
@@ -2782,7 +2781,7 @@ The total coupon interest is  $14 \times \$ 45 = \ $630\$ .
 The interest-on-interest component is then \$222, as shown below:
 
 $$
-\begin{array}{l} \text {I n t e r s t o n i n t e r s t} = \\ 4 5 \left[ \frac {(1 . 0 4 5) ^ {1 4} - 1}{0 . 0 4 5} \right] - 1 4 (\$ 4 5) \\ = \$ 8 5 2 - \$ 6 3 0 = \$ 2 2 2. \\ \end{array}
+\begin{array}{l} \text{In te rs to ni nt er st} = \\ 4 5 \left[ \frac{(1 . 0 4 5)^{1 4} - 1}{0 . 0 4 5} \right] - 1 4 (\$ 4 5) \\ = \$ 8 5 2 - \$ 6 3 0 = \$ 2 2 2. \\ \end{array}
 $$
 
 Interest on interest as a percentage of total dollar return is therefore  $26\%$  ( $222/$ 852),
@@ -2808,7 +2807,7 @@ $$
 Coupon interest plus interest on interest = \$35 [ (1.045)40 - 1 / 0.045 ]
 
 $$
-\begin{array}{l} = \$ 35 \left[ \frac {5 . 8 1 6 4 - 1}{0 . 0 4 5} \right] \\ = \\( 35 (1 0 7. 0 3 1) = \\) 3, 7 4 6. \\ \end{array}
+\begin{array}{l} = \$ 35 \left[ \frac{5 . 8 1 6 4 - 1}{0 . 0 4 5} \right] \\ = \\( 35 (1 0 7. 0 3 1) = \\) 3, 7 4 6. \\ \end{array}
 $$
 
 The total coupon interest is  \$40 \times \\(35 = \$ 1,400\).
@@ -2816,7 +2815,7 @@ The total coupon interest is  \$40 \times \\(35 = \$ 1,400\).
 The interest-on-interest component is then \(2,346, as shown by the following calculation:
 
 $$
-\begin{array}{l} \text {I n t e r s t o n i n t e r s t} = \$ 35 \left[ \frac {(1 . 0 4 5) ^ {4 0} - 1}{0 . 0 4 5} \right] - 4 0 (\$ 3 5) \\ = \\( 3,746 - \\) 1,400 = \\( 2,346. \\ \end{array}
+\begin{array}{l} \text{In te rs to ni nt er st} = \$ 35 \left[ \frac{(1 . 0 4 5)^{4 0} - 1}{0 . 0 4 5} \right] - 4 0 (\$ 3 5) \\ = \\( 3,746 - \\) 1,400 = \\( 2,346. \\ \end{array}
 $$
 
 The total dollar return is then
@@ -2848,7 +2847,7 @@ $$
 Coupon interest plus interest on interest = \$60 [ (1.045)50 - 1 / 0.045 ]
 
 $$
-\begin{array}{l} = \$ 60 \left[ \frac {9 . 0 3 2 6 - 1}{0 . 0 4 5} \right] \\ = \$ 60 (1 7 8. 5 0 3) = \$ 1 0, 7 1 0. \\ \end{array}
+\begin{array}{l} = \$ 60 \left[ \frac{9 . 0 3 2 6 - 1}{0 . 0 4 5} \right] \\ = \$ 60 (1 7 8. 5 0 3) = \$ 1 0, 7 1 0. \\ \end{array}
 $$
 
 The total coupon interest is  $50 \times \$ 60 = \ $3,000\$ .
@@ -2856,7 +2855,7 @@ The total coupon interest is  $50 \times \$ 60 = \ $3,000\$ .
 The interest-on-interest component is then \( \\(7,710 \), as shown below:
 
 $$
-\begin{array}{l} \text {I n t e r s t o n i n t e r s t} = \$ 60 \left[ \frac {(1 . 0 4 5) ^ {5 0} - 1}{0 . 0 4 5} \right] - 5 0 (\$ 6 0) \\ = \$ 1 0, 7 1 0 - \$ 3, 0 0 0 = \$ 7, 7 1 0. \\ \end{array}
+\begin{array}{l} \text{In te rs to ni nt er st} = \$ 60 \left[ \frac{(1 . 0 4 5)^{5 0} - 1}{0 . 0 4 5} \right] - 5 0 (\$ 6 0) \\ = \$ 1 0, 7 1 0 - \$ 3, 0 0 0 = \$ 7, 7 1 0. \\ \end{array}
 $$
 
 The total dollar return is then
@@ -2927,21 +2926,21 @@ More formally, the steps for computing the total return for a bond held to matur
 Step 1. Compute the total future amount that will be received from the investment. This is the sum of the amount that will be received from the coupon payments, interest on interest based on the coupon payments and the assumed reinvestment rate, and the par value. The coupon payments plus the interest on interest can be computed by using the formula presented in the previous chapter:
 
 $$
-\text {C o u p o n i n t e r s t p l u s i n t e r e s t o n i n t e r e s t} = c \left[ \frac {(1 + r) ^ {n} - 1}{r} \right],
+\text{Co up on in te rs tp lu si nt er es to ni nt er es t} = c \left[ \frac{(1 + r)^{n} - 1}{r} \right],
 $$
 
 where
 
 $$
-c = \text {s e m i a n u a l} \\ c = \text {s e m i a n u a l} \\ c = \text {s e m i a n u a l} \\ c = \text {s e m i a n u a l} \\ c = \text {s e m i a n u a l} \\ c = \text {s e m i a n u a l} \\ c = \text {s e m i a n u a l} \\ c = \text {\Delta}
+c = \text{se mi an ua l} \\ c = \text{se mi an ua l} \\ c = \text{se mi an ua l} \\ c = \text{se mi an ua l} \\ c = \text{se mi an ua l} \\ c = \text{se mi an ua l} \\ c = \text{se mi an ua l} \\ c = \text{\Delta}
 $$
 
 $$
-r = \text {s e m i a n u a l}
+r = \text{se mi an ua l}
 $$
 
 $$
-n = \text {n u m b e r o f p e r i o d s t o m a t u r i t y}.
+n = \text{nu mb er of pe ri od st om at ur it y}.
 $$
 
 In the case of the yield to maturity, the reinvestment rate is assumed to be one-half the yield to maturity. In computing the total return, the reinvestment rate
@@ -2955,7 +2954,7 @@ Total dollar return  $=$  total future amount - price of bond.
 Step 2. To obtain the semiannual total return, use the following formula:
 
 $$
-\left[ \frac {\text {T o t a l f u t u r e a m o u n t}}{\text {P r i c e o f b o n d}} \right] ^ {1 / n} - 1.
+\left[ \frac{\text{To ta lf ut ur ea mo un t}}{\text{Pr ic eo fb on d}} \right]^{1 / n} - 1.
 $$
 
 This formula is an application of the yield discussed in Chapter 3 for an investment that has only one cash flow.
@@ -2963,7 +2962,7 @@ This formula is an application of the yield discussed in Chapter 3 for an invest
 Step 3. Because interest is assumed to be paid semiannually, double the interest rate found in Step 2. The resulting interest rate is the total return on a bond-equivalent basis. The total return can also be computed by compounding the semiannual rate as follows:
 
 $$
-(1 + \text {s e m i a n u a l} ^ {2} - 1.
+(1 + \text{se mi an ua l}^{2} - 1.
 $$
 
 The total return calculated in this manner is said to be on an effective rate basis.
@@ -2993,7 +2992,7 @@ $$
 Coupon interest plus interest on interest = \$45 [ (1.025)14 - 1 / 0.025 ]
 
 $$
-\begin{array}{l} = \$ 45 \left[ \frac {1 . 4 1 3 0 - 1}{0 . 0 2 5} \right] \\ = \$ 45 (1 6. 5 1 8 9) \\ = \$ 7 4 3. 3 5. \\ \end{array}
+\begin{array}{l} = \$ 45 \left[ \frac{1 . 4 1 3 0 - 1}{0 . 0 2 5} \right] \\ = \$ 45 (1 6. 5 1 8 9) \\ = \$ 7 4 3. 3 5. \\ \end{array}
 $$
 
 Total future amount:
@@ -3007,7 +3006,7 @@ Total \\(1,743.35
 Step 2 Compute the following:
 
 $$
-\begin{array}{l} \left[ \frac {\mathbb {S} 1 , 7 4 3 . 3 5}{\mathbb {S} 1 , 0 0 0 . 0 0} \right] ^ {1 / 1 4} - 1 \\ = (1.74335)^{0.07143} - 1 = 0.0405 \text{or} 4.05\% . \\ \end{array}
+\begin{array}{l} \left[ \frac{\mathbb {S} 1 , 7 4 3 . 3 5}{\mathbb {S} 1 , 0 0 0 . 0 0} \right]^{1 / 1 4} - 1 \\ = (1.74335)^{0.07143} - 1 = 0.0405 \text{or} 4.05\% . \\ \end{array}
 $$
 
 Step 3 Doubling  $4.05\%$  gives a total return of  $8.1\%$ .
@@ -3031,7 +3030,7 @@ $$
 Coupon interest plus interest on interest = \$45 [1.045)^{14} - 1 / 0.045]
 
 $$
-\begin{array}{l} = \$ 45 \left[ \frac {1 . 8 5 1 9 - 1}{0 . 0 4 5} \right] \\ = \$ 45 (1 8. 9 3 2 1) \\ = \$ 851.94. \\ \end{array}
+\begin{array}{l} = \$ 45 \left[ \frac{1 . 8 5 1 9 - 1}{0 . 0 4 5} \right] \\ = \$ 45 (1 8. 9 3 2 1) \\ = \$ 851.94. \\ \end{array}
 $$
 
 Total future amount:
@@ -3045,7 +3044,7 @@ Total \\(1,851.94
 Step 2 Compute the following:
 
 $$
-\begin{array}{l} \left[ \frac {\mathbb {S} 1 , 8 5 1 . 9 4}{\mathbb {S} 1 , 0 0 0 . 0 0} \right] ^ {1 / 1 4} - 1 \\ = (1.85194)^{0.07143} - 1 = 0.0450 \text {or} 4.50\%. \\ \end{array}
+\begin{array}{l} \left[ \frac{\mathbb {S} 1 , 8 5 1 . 9 4}{\mathbb {S} 1 , 0 0 0 . 0 0} \right]^{1 / 1 4} - 1 \\ = (1.85194)^{0.07143} - 1 = 0.0450 \text{or} 4.50\%. \\ \end{array}
 $$
 
 Step 3 Doubling  $4.50\%$  gives a total return of  $9.0\%$ .
@@ -3081,7 +3080,7 @@ $$
 Coupon interest plus interest on interest = \$45\left[\frac{(1.047)^{10} - 1}{0.047}\right]
 
 $$
-\begin{array}{l} = \$ 45 \left[ \frac {1 . 5 8 3 0 - 1}{0 . 0 4 7} \right] \\ = \$ 45 (1 2. 4 0 3 2) \\ = \$ 5 8 8. 1 4. \\ \end{array}
+\begin{array}{l} = \$ 45 \left[ \frac{1 . 5 8 3 0 - 1}{0 . 0 4 7} \right] \\ = \$ 45 (1 2. 4 0 3 2) \\ = \$ 5 8 8. 1 4. \\ \end{array}
 $$
 
 # EXHIBIT 9-3
@@ -3093,17 +3092,17 @@ The expected price of the bond 5 years from now is determined as follows:
 (a) Present value of coupon interest payments, assuming that the required yield to maturity at the end of the investment horizon is  $11.2\%$ :
 
 $$
-c = \$ 45; i = 0. 0 5 6 (= 0. 1 1 2 / 2); n = 4 (= \text {r e m a i n i n g y e a r s t o} \text {m a t u r i t y} \times 2).
+c = \$ 45; i = 0. 0 5 6 (= 0. 1 1 2 / 2); n = 4 (= \text{re ma in in gy ea rs to} \text{ma tu ri ty} \times 2).
 $$
 
 $$
-\begin{array}{l} P V = \$ 4 5 \left[ \frac {1 - \left[ \frac {1}{(1 . 0 5 6) ^ {4}} \right]}{0 . 0 5 6} \right] \\ = \$ 45 \left[ \frac {1 - 0 . 8 0 4 2}{0 . 0 5 6} \right] \\ = \$ 45 (3. 4 9 6 4) = \$ 1 5 7. 3 4. \\ \end{array}
+\begin{array}{l} P V = \$ 4 5 \left[ \frac{1 - \left[ \frac{1}{(1 . 0 5 6)^{4}} \right]}{0 . 0 5 6} \right] \\ = \$ 45 \left[ \frac{1 - 0 . 8 0 4 2}{0 . 0 5 6} \right] \\ = \$ 45 (3. 4 9 6 4) = \$ 1 5 7. 3 4. \\ \end{array}
 $$
 
 (b) Present value of the maturity value:
 
 $$
-\frac {\mathbb {S} 1 , 0 0 0}{(1 . 0 5 6) ^ {4}} = \mathbb {S} 8 0 4. 1 6.
+\frac{\mathbb {S} 1 , 0 0 0}{(1 . 0 5 6)^{4}} = \mathbb {S} 8 0 4. 1 6.
 $$
 
 Expected price \(= \\) 157.34 + \\( 804.16 = \\) 961.50.\(
@@ -3119,7 +3118,7 @@ Total \$1,519.64
 Step 2 Compute the following:
 
 $$
-\begin{array}{l} \left[ \frac {\mathbb {S} 1 , 5 1 9 . 6 4}{\mathbb {S} 1 , 0 0 0 . 0 0} \right] ^ {1 / 1 0} - 1 \\ = (1.51964)^{0.10} - 1 = 0.0427 \text {or} 4.27\%. \\ \end{array}
+\begin{array}{l} \left[ \frac{\mathbb {S} 1 , 5 1 9 . 6 4}{\mathbb {S} 1 , 0 0 0 . 0 0} \right]^{1 / 1 0} - 1 \\ = (1.51964)^{0.10} - 1 = 0.0427 \text{or} 4.27\%. \\ \end{array}
 $$
 
 Step 3 Doubling  $4.27\%$  gives a total return of  $8.54\%$ .
@@ -3155,7 +3154,7 @@ $$
 Coupon interest plus interest on interest = \$55 [1.03)^6 - 1/0.03
 
 $$
-= \$ 55 \left[ \frac {1 . 1 9 4 1 - 1}{0 . 0 3} \right]
+= \$ 55 \left[ \frac{1 . 1 9 4 1 - 1}{0 . 0 3} \right]
 $$
 
 $$
@@ -3169,7 +3168,7 @@ $$
 This gives the coupon interest plus interest on interest as of the end of the third year (six periods) when the bond is called. Adding the call price of \(1,055 gives the total proceeds that must be reinvested at \(3\%\) until the end of the investment horizon, for 2 years or 4 periods.
 
 $$
-\begin{array}{l} \text {P r o c e e d s t o b e r e i n v e s t e d} = \$ 3 5 5. 7 6 + \$ 1, 0 5 5 \\ = \$ 1,410.76. \\ \end{array}
+\begin{array}{l} \text{Pr oc ee ds to be re in ve st ed} = \$ 3 5 5. 7 6 + \$ 1, 0 5 5 \\ = \$ 1,410.76. \\ \end{array}
 $$
 
 Reinvesting \$1,410.76 for 4 periods at 3%:
@@ -3183,7 +3182,7 @@ Therefore, the total future amount is \$1,587.82.
 Step 2 Compute the following:
 
 $$
-\begin{array}{l} \left[ \frac {\mathbb {S} 1 , 5 8 7 . 8 2}{\mathbb {S} 1 , 1 4 4 . 8 8} \right] ^ {1 / 1 0} \\ = (1. 3 8 6 8 9) ^ {0. 1 0} - 1 \\ = 1.0304 - 1 = 0.0333 \text {or} 3.33\%. \\ \end{array}
+\begin{array}{l} \left[ \frac{\mathbb {S} 1 , 5 8 7 . 8 2}{\mathbb {S} 1 , 1 4 4 . 8 8} \right]^{1 / 1 0} \\ = (1. 3 8 6 8 9)^{0. 1 0} - 1 \\ = 1.0304 - 1 = 0.0333 \text{or} 3.33\%. \\ \end{array}
 $$
 
 Step 3 Doubling  $3.33\%$  gives a total return of  $6.66\%$ .
@@ -3223,7 +3222,7 @@ The rate of return, or simply return, expresses the dollar return in terms of th
 In equation form, the portfolio period return realized can be expressed as follows:
 
 $$
-R _ {p} = \frac {V _ {1} - V _ {0} + D}{V _ {0}},
+R_{p} = \frac{V_{1} - V_{0} + D}{V_{0}},
 $$
 
 where
@@ -3239,7 +3238,7 @@ $D =$  cash distributions from the portfolio to the client during the evaluation
 Illustration 10-1. Assume the following information for an external manager for a pension plan sponsor: the portfolio's market values at the beginning and end of the evaluation period are  \$100 million and\$ 112 million, respectively, and during the evaluation period, \$5 million is distributed to the plan sponsor from investment income. Thus
 
 $$
-\begin{array}{l} V _ {1} = \\) 1 1 2, 0 0 0, 0 0 0; V _ {0} = \\( 1 0 0, 0 0 0, 0 0 0; D = \\) 5, 0 0 0, 0 0 0. \\ R _ {p} = \frac {\mathbb {S} 1 1 2 , 0 0 0 , 0 0 0 - \mathbb {S} 1 0 0 , 0 0 0 , 0 0 0 + \mathbb {S} 5 , 0 0 0 , 0 0 0}{\mathbb {S} 1 0 0 , 0 0 0 , 0 0 0} \\ = 0.17 = 17\% \\ \end{array}
+\begin{array}{l} V_{1} = \\) 1 1 2, 0 0 0, 0 0 0; V_{0} = \\( 1 0 0, 0 0 0, 0 0 0; D = \\) 5, 0 0 0, 0 0 0. \\ R_{p} = \frac{\mathbb {S} 1 1 2 , 0 0 0 , 0 0 0 - \mathbb {S} 1 0 0 , 0 0 0 , 0 0 0 + \mathbb {S} 5 , 0 0 0 , 0 0 0}{\mathbb {S} 1 0 0 , 0 0 0 , 0 0 0} \\ = 0.17 = 17\% \\ \end{array}
 $$
 
 # Assumptions in Calculating the Return
@@ -3279,7 +3278,7 @@ There are three methodologies that have been used in practice to calculate the a
 The arithmetic average rate of return is an unweighted average of the subperiod returns. The general formula is
 
 $$
-R _ {A} = \frac {R _ {p 1} + R _ {p 2} + \cdots + R _ {p N}}{N},
+R_{A} = \frac{R_{p 1} + R_{p 2} + \cdots + R_{p N}}{N},
 $$
 
 where
@@ -3293,11 +3292,11 @@ $N =$  number of subperiods in the evaluation period.
 Illustration 10-2. Suppose that the portfolio subperiod returns were  $12\%$ ,  $25\%$ ,  $-15\%$ , and  $-2\%$  in months 1, 2, 3, and 4, respectively. The arithmetic average monthly return is  $5\%$ , as shown below:
 
 $$
-N = 4; R _ {P 1} = 0. 1 2; R _ {P 2} = 0. 2 5; R _ {P 3} = - 0. 1 5; R _ {P 4} = - 0. 0 2.
+N = 4; R_{P 1} = 0. 1 2; R_{P 2} = 0. 2 5; R_{P 3} = - 0. 1 5; R_{P 4} = - 0. 0 2.
 $$
 
 $$
-R _ {A} = \frac {0 .12 + 0 .25 + (-0.15) + (-0.2)}{4} = 0.05 = 5 \%
+R_{A} = \frac{0 .12 + 0 .25 + (-0.15) + (-0.2)}{4} = 0.05 = 5 \%
 $$
 
 There is a major problem with using the arithmetic average rate of return. To see this problem, suppose that the initial market value of a portfolio is  \$140 million and that the market values at the end of the next 2 months are\$ 280 million and \$140 million, and assume that there are no distributions or cash inflows from the client for either month. The subperiod return for the first month  $R_{P1}$  is  $100\%$ , and the subperiod return for the second month  $R_{P2}$  is  $-50\%$ . The arithmetic average rate of return is then  $25\%$ . Not a bad return! But think about this number. The portfolio's initial market value was \$140 million. Its market value at the end of 2 months is \$140 million. The return over this 2-month evaluation period is zero. Yet the arithmetic average rate of return says it is a whopping  $25\%$ .
@@ -3311,7 +3310,7 @@ The time-weighted rate of return measures the compounded rate of growth of the i
 referred to as the geometric rate of return because it is computed by taking the geometric average of the portfolio subperiod returns. The general formula is
 
 $$
-R _ {T} = \left[ \left(1 + R _ {p 1}\right) \left(1 + R _ {p 2}\right) \dots \left(1 + R _ {p N}\right) \right] ^ {1 / N} - 1;
+R_{T} = \left[ \left(1 + R_{p 1}\right) \left(1 + R_{p 2}\right) \dots \left(1 + R_{p N}\right) \right]^{1 / N} - 1;
 $$
 
 where
@@ -3323,7 +3322,7 @@ $R_{Pk}$  and  $N$  are as defined earlier.
 Illustration 10-3. Assume that the portfolio returns were  $12\%$ ,  $25\%$ ,  $-15\%$ , and  $-2\%$  in month 1, month 2, and month 3, as in Illustration 10-2. Then the time-weighted rate of return is
 
 $$
-\begin{array}{l} R _ {T} = \left[ (1 + 0. 1 2) (1 + 0. 2 5) (1 + (- 0. 1 5)) (1 + (- 0. 0 2)) \right] ^ {1 / 4} - 1 \\ = \left[(1.12)(1.25)(0.85)(0.98)\right]^{1 / 4} - 1 = 0.0392 = 3.92\% . \\ \end{array}
+\begin{array}{l} R_{T} = \left[ (1 + 0. 1 2) (1 + 0. 2 5) (1 + (- 0. 1 5)) (1 + (- 0. 0 2)) \right]^{1 / 4} - 1 \\ = \left[(1.12)(1.25)(0.85)(0.98)\right]^{1 / 4} - 1 = 0.0392 = 3.92\% . \\ \end{array}
 $$
 
 Because the time-weighted rate of return is  $3.92\%$  per month,  $\$1$  invested in the portfolio at the beginning of month 1 would have grown at a rate of  $3.92\%$  per month during the 4-month evaluation period.
@@ -3331,7 +3330,7 @@ Because the time-weighted rate of return is  $3.92\%$  per month,  $\$1$  invest
 The time-weighted rate of return in the example where the first month's return is  $100\%$  followed by a return of  $50\%$  in the second month is  $0\%$ , as expected, as shown below:
 
 $$
-\begin{array}{l} R _ {T} = \left[ (1 + 1. 0 0) (1 + (- 0. 5 0)) \right] ^ {1 / 2} - 1 \\ = \left[ (2.00)(0.50) \right] ^ {1 / 2} - 1 = 0 \% \\ \end{array}
+\begin{array}{l} R_{T} = \left[ (1 + 1. 0 0) (1 + (- 0. 5 0)) \right]^{1 / 2} - 1 \\ = \left[ (2.00)(0.50) \right]^{1 / 2} - 1 = 0 \% \\ \end{array}
 $$
 
 In general, the arithmetic and time-weighted average returns will give different values for the portfolio return over some evaluation period. This is because in computing the arithmetic average rate of return, the amount invested is assumed to be maintained (through additions or withdrawals) at its initial portfolio market value. The time-weighted return, in contrast, is the return on a portfolio that varies in size because of the assumption that all proceeds are reinvested.
@@ -3339,7 +3338,7 @@ In general, the arithmetic and time-weighted average returns will give different
 In general, the arithmetic average rate of return will exceed the time-weighted average rate of return. The exception is in the special situation where all the subperiod returns are the same, in which case the averages are identical. The magnitude of the difference between the two averages is smaller than the variation in the subperiod returns over the evaluation period. For example, suppose that the evaluation period is 4 months and that the 4 monthly returns are as follows:
 
 $$
-R _ {P 1} = 0. 0 4, \quad R _ {P 2} = 0. 0 6, \quad R _ {P 3} = 0. 0 2 \quad \text {a n d} \quad R _ {P 4} = - 0. 0 2.
+R_{P 1} = 0. 0 4, \quad R_{P 2} = 0. 0 6, \quad R_{P 3} = 0. 0 2 \quad \text{an d} \quad R_{P 4} = - 0. 0 2.
 $$
 
 The average arithmetic rate of return is  $2.5\%$ , and the time-weighted average rate of return is  $2.46\%$  not much of a difference. In our earlier example in which we
@@ -3353,7 +3352,7 @@ The dollar-weighted rate of return, also referred to as the money-weighted retur
 The dollar-weighted rate of return is simply an internal rate of return calculation; hence it is also called the internal rate of return. The general formula for the dollar-weighted return is
 
 $$
-V _ {0} = \frac {C _ {1}}{\left(1 + R _ {D}\right)} + \frac {C _ {2}}{\left(1 + R _ {D}\right) ^ {2}} + \dots + \frac {C _ {N} + V _ {N}}{\left(1 + R _ {D}\right) ^ {n}},
+V_{0} = \frac{C_{1}}{\left(1 + R_{D}\right)} + \frac{C_{2}}{\left(1 + R_{D}\right)^{2}} + \dots + \frac{C_{N} + V_{N}}{\left(1 + R_{D}\right)^{n}},
 $$
 
 where
@@ -3369,7 +3368,7 @@ $C_k^{\mathrm{v}} =$  cash flow for the portfolio (cash inflows minus cash outfl
 Illustration 10-4. Consider a portfolio with a market value of  \$100,000 at the beginning of month 1; capital withdrawals of\$ 5,000 at the end of months 1, 2, and 3; no cash inflows from the client in any month; and a market value at the end of month 3 of \$110,000. Then
 
 $$
-V _ {0} = \$ 1 0 0, 0 0 0; N = 3; C _ {1}, C _ {2}, \text {a n d} C _ {3} = \$ 5, 0 0 0; V _ {3} = \$ 1 1 0, 0 0 0.
+V_{0} = \$ 1 0 0, 0 0 0; N = 3; C_{1}, C_{2}, \text{an d} C_{3} = \$ 5, 0 0 0; V_{3} = \$ 1 1 0, 0 0 0.
 $$
 
 $R_{D}$  is the interest rate that satisfies the following equation:
@@ -3405,13 +3404,13 @@ Despite this limitation, the dollar-weighted rate of return does provide informa
 The evaluation period may be less than or greater than 1 year. Typically, return measures are reported as an average annual return. This requires annualization of the subperiod returns. The subperiod returns are typically calculated for a period of less than 1 year for the reasons explained earlier. The subperiod returns are then annualized using the following formula:
 
 $$
-\text {A n n u a l r e t u r n} = \left(1 + \text {a v e r a g e p e r i o d r e t u r n}\right) ^ {\text {n u m b e r o f p e r i o d s i n y e a r}} - 1.
+\text{An nu al re tu rn} = \left(1 + \text{av er ag ep er io dr et ur n}\right)^{\text{nu mb er of pe ri od si ny ea r}} - 1.
 $$
 
 Thus, for example, suppose that the evaluation period is 3 years and a monthly period return is calculated. Suppose further that the average monthly return is  $2\%$ . Then the annual return would be
 
 $$
-\text{Annual return} = (1.02)^{12} - 1 = 26.8\% .
+\text{Annualreturn} = (1.02)^{12} - 1 = 26.8\% .
 $$
 
 # TRAILING RETURNS AND ROLLING RETURNS
@@ -3464,7 +3463,7 @@ Active return  $=$  portfolio return - benchmark return.
 Sometimes, in practice, the terms active return and excess return are used interchangeably despite the fact that the excess return can have as its target return or reference portfolio something other than the benchmark return. In practice, the active return is often referred to as alpha and reflects the value added over the benchmark. However, this is not technically correct. The proper definition of alpha is that it is the risk-adjusted return over a benchmark. The risk adjustment is based on market risk. That is,
 
 $$
-\begin{array}{l} \text {A l p h a} = \text {r i s k - a d j u s t e d a c t i v e r e t u r n} \\ = \text {p o r t f i l o} - \text {r i s k - a d j u s t e d b e n c h m a r k} \\ \end{array}
+\begin{array}{l} \text{Al ph a} = \text{ri sk -a dj us te da ct iv er et ur n} \\ = \text{po rt fi lo} - \text{ri sk -a dj us te db en ch ma rk} \\ \end{array}
 $$
 
 In the equity market, the market adjustment is based on the portfolio's beta. Similar type measures can be used in the bond market. Therefore, despite the fact that alpha is technically not equivalent to the active return, we use the two terms interchangeably in this book.
@@ -3506,7 +3505,7 @@ and applied it to evaluate the performance of mutual funds. The numerator of the
 The Sharpe ratio is therefore
 
 $$
-\text {S h a r p e} = \frac {\text {p o r t f i l o}}{\text {s t a n d a r d}}
+\text{Sh ar pe} = \frac{\text{po rt fi lo}}{\text{st an da rd}}
 $$
 
 The Sharpe ratio can be interpreted as follows: it is the value added by the portfolio manager above the risk-free asset taking into account the extra volatility accepted for investing in a risky asset rather than holding the risk-free asset.
@@ -3514,13 +3513,13 @@ The Sharpe ratio can be interpreted as follows: it is the value added by the por
 Illustration 11-1. Calculation of the Sharpe ratio involves computing the numerator for each time period and then calculating the average excess return. This is illustrated in Exhibit 11-1 using the hypothetical portfolio return for 30 months. The realized returns are shown in the second column, and the third column shows the monthly risk-free rate. The average excess monthly portfolio return is  $0.359\%$ , or 3.59 basis points. Annualized by multiplying by 12 gives  $4.31\%$  and is the numerator of the Sharpe ratio. The standard deviation of the realized monthly returns is  $1.01\%$ . Annualizing by multiplying  $1.01\%$  by the square root of 12 gives  $3.50\%$ , which is the denominator of the Sharpe ratio. Therefore, the Sharpe ratio over the 30 months is
 
 $$
-\text{Sharpe ratio} = \frac {4.31 \%}{3.50 \%} = 1.23.
+\text{Sharperatio} = \frac{4.31 \%}{3.50 \%} = 1.23.
 $$
 
 Sharpe used yearly returns in his illustrations of the calculation of the ratio. We annualized the Sharpe ratio when using monthly returns by annualizing the monthly returns by multiplying the average return by 12 and the standard deviation by the square root. In general, annualizing based on returns that are less than annual is done as follows:
 
 $$
-\text {A n n u a l i z e d S h a r p e r a t i o} = \sqrt {F} \times (\text {S h a r p e r a t i o b a s e d o n f r e q u e n c y}),
+\text{An nu al iz ed Sh ar pe ra ti o} = \sqrt{F} \times (\text{Sh ar pe ra ti ob as ed on fr eq ue nc y}),
 $$
 
 where frequency refers to the time period over which the return is calculated. That is, when monthly returns are used, the frequency is 12. When weekly returns are used, the frequency is 52. When working with daily returns, the number of days in a year is not used. Instead, typically the frequency is 252 because that is the assumed number of trading days in a year. Notice in our illustration that multiplying the numerator by 12 and the denominator by the square root of 12 is equivalent to multiplying the monthly Sharpe ratio by the square root of 12.
@@ -3574,13 +3573,13 @@ that investors view as unfavorable, such as negative skewness and positive exces
 A well-known risk-adjusted return that measures reward on a relative return basis is the Sortino ratio, as described in Sortino and van der Meer<sup>5</sup> and Sortino and Price.<sup>6</sup> The Sortino ratio addresses the criticism of the Sharpe ratio of using the standard deviation of realized returns. Instead, the Sortino ratio uses, as the measure of relative performance, a client-specified return that these authors refer to as the minimum acceptable return (MAR). The risk measure is not the standard deviation of the realized returns but the standard deviation of the realized returns that are below the client-specified MAR. That is, instead of calculating total volatility (i.e., standard deviation), the risk measure only considers "bad" volatility, which is calculated using returns below the MAR. The Sortino ratio is
 
 $$
-\text {S o r t i n o} = \frac {\text {r e a l i z e d p o r t f o l i o r e t u r n - M A R}}{\text {s t a n d a r d d e v i a t i o n o f t h e r e a l i z e d r e t u r n s b e l o w M A R}}.
+\text{So rt in o} = \frac{\text{re al iz ed po rt fo li or et ur n -M AR}}{\text{st an da rd de vi at io no ft he re al iz ed re tu rn sb el ow MA R}}.
 $$
 
 Illustration 11-2. We illustrate the calculation using the portfolio realized returns in Exhibit 11-1. We use a MAR of  $0\%$  in our illustration—basically an absolute return target for the fund manager. The data for calculation of the Sortino ratio are provided in Exhibit 11-2. From this exhibit it can be seen that the annual realized return is  $9.25\%$ . Because in our illustration the numerator of the Sortino ratio, the MAR, is assumed to be zero, the annual realized return is equal to the annual realized return minus the MAR. Note that care should be taken in calculating the denominator. The third column of Exhibit 11-2 shows the returns below the MAR. There are only 9 months where the fund manager failed to earn a positive return. It is those months that are used to calculate the standard deviation. The annual standard deviation of the realized return below the MAR is  $2.29\%$ . Therefore,
 
 $$
-\text{Sortino ratio} = \frac {9.25 \%}{2.29 \%} = 4.05.
+\text{Sortinoratio} = \frac{9.25 \%}{2.29 \%} = 4.05.
 $$
 
 # EXHIBIT 11-2
@@ -3596,7 +3595,7 @@ Minimum acceptable return  $(\mathrm{MAR}) = 0\%$
 Sharpe proposed a measure that takes into account performance versus a benchmark designated by a client using the tracking error of the actively managed portfolio as a measure of risk.<sup>7</sup> The ratio Sharpe proposed has been labeled the information ratio, calculated as follows:
 
 $$
-\text {I n f o r m a t i o n} = \frac {\text {a l p h a}}{\text {b a c k w a r d t r a c k i n g e r r o r}}.
+\text{In fo rm at io n} = \frac{\text{al ph a}}{\text{ba ck wa rd tr ac ki ng er ro r}}.
 $$
 
 The reward is alpha, which is measured by the average of the active return over a time period. The risk is the backward-looking tracking error described in Chapter 32 and is the standard deviation of a portfolio's active return. The higher the information ratio, the better the asset manager performed relative to the risk assumed.
@@ -3604,7 +3603,7 @@ The reward is alpha, which is measured by the average of the active return over 
 Illustration 11-3. To illustrate calculation of the information ratio, consider the active returns for the hypothetical portfolio shown in the first column of Exhibit 11-1. The annual average active return or alpha as shown in Exhibit 11-3 is  $1.292\%$ . Because the backward-looking tracking error is  $2.138\%$ , the information ratio is therefore
 
 $$
-\text{Information ratio} = \frac {1.292 \%}{2.138 \%} = 0.66
+\text{Informationratio} = \frac{1.292 \%}{2.138 \%} = 0.66
 $$
 
 Obviously, the higher the information ratio, the better is the performance. According to Zephyr StyleADVISOR, which specializes in performance analysis software, generally an information ratio in the range of 0.40 to 0.60 is viewed as good performance, and it is rare to have an information ratio of 1.00 for long evaluation periods. $^{8}$  A negative information ratio means that the active manager was not able to earn an excess return at all. StyleADVISOR looked at the range of 10-year information ratios for peer groups of managed accounts for several asset classes, including investment-grade and high-yield bonds for the period January 2003 to December 2012 to demonstrate how rare it is to find managers with an information ratio of 1 or more over long time periods. Grinold and Kahn state that investment managers who are in the top quartile typically have an information ratio of about 0.5. $^{9}$
@@ -3666,7 +3665,7 @@ Percentage Price Change as Yield Changes for Nine Hypothetical Bonds
 of par value is  $-\$ 6.43$ , as shown in Exhibit 12-3. The percentage price change is then
 
 $$
-\frac {\mathbb {S} 78.20 - \mathbb {S} 84.63}{\mathbb {S} 84.63} = - 0.076 \text {or} - 7.60 \%
+\frac{\mathbb {S} 78.20 - \mathbb {S} 84.63}{\mathbb {S} 84.63} = - 0.076 \text{or} - 7.60 \%
 $$
 
 This is shown in Exhibit 12-4.
@@ -3746,7 +3745,7 @@ Price Change for a 100 Basis Point Change in Yield for  $10\%$ , 15-Year Bonds T
 The Effect of the Yield Level on Price Volatility
 
 $$
-\begin{array}{l} \left(Y _ {H} ^ {\prime} - Y _ {H}\right) = \left(Y _ {H} - Y _ {H} ^ {\prime \prime}\right) = \left(Y _ {L} ^ {\prime} - Y _ {L}\right) = \left(Y _ {L} - Y _ {L} ^ {\prime \prime}\right) \\ \left(P _ {H} - P _ {H} ^ {\prime}\right) <   \left(P _ {L} - P _ {L} ^ {\prime}\right) a n d \\ (P _ {H} - P _ {H} ^ {\prime \prime}) <   (P _ {L} - P _ {L} ^ {\prime \prime}) \\ \end{array}
+\begin{array}{l} \left(Y_{H}^{\prime} - Y_{H}\right) = \left(Y_{H} - Y_{H}^{\prime \prime}\right) = \left(Y_{L}^{\prime} - Y_{L}\right) = \left(Y_{L} - Y_{L}^{\prime \prime}\right) \\ \left(P_{H} - P_{H}^{\prime}\right) <   \left(P_{L} - P_{L}^{\prime}\right) a n d \\ (P_{H} - P_{H}^{\prime \prime}) <   (P_{L} - P_{L}^{\prime \prime}) \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/3349fca6-d86c-4f7f-97a9-ac92567de92d/08455f875a6d3779480f3aeac8eba49ed34ddc1f9893e84c9f62d4e9899077c1.jpg)
@@ -3806,7 +3805,7 @@ The same analysis can be used to determine the exposure of a bond dealer's inven
 So far we have dealt with the dollar price change. If we want to know the percentage price change, we can find it by dividing the price value of a basis point by the initial price. That is,
 
 $$
-\text {P e r t e n a g e p r i c e} = \frac {\text {p r i c e v a l u e o f a b s i s p o i n t}}{\text {i n i t i a l p r i c e}}.
+\text{Pe rt en ag ep ri ce} = \frac{\text{pr ic ev al ue of ab si sp oi nt}}{\text{in it ia lp ri ce}}.
 $$
 
 # Application to Hedging
@@ -3827,18 +3826,18 @@ Dollar price change of bond to be hedged
 $=$  dollar price change of hedging vehicle
 
 $$
-\times \frac {\text {d o d a r p r i c e v o l a t i l i t y o f b o n d t o b e h e g h e d}}{\text {d o d a r p r i c e v o l a t i l i t y o f h e d g i n g v e h i c l e}}.
+\times \frac{\text{do da rp ri ce vo la ti li ty of bo nd to be he gh ed}}{\text{do da rp ri ce vo la ti li ty of he dg in gv eh ic le}}.
 $$
 
 The last ratio is commonly referred to as the hedge ratio. The hedge ratio can be computed from the price value of a basis point by the following formula:
 
 Price value of a basis point for bond to be hedged Price value of a basis point for hedging vehicle  
-change in yield for bond to be hedged  $\times \frac{\text{change in yield for hedging vehicle}}{\text{change in yield for hedging vehicle}}$ .
+change in yield for bond to be hedged  $\times \frac{\text{changeinyieldforhedgingvehicle}}{\text{changeinyieldforhedgingvehicle}}$ .
 
 The first ratio shows the price change for the bond to be hedged relative to the price change for the hedging vehicle, both based on a yield change of one basis point. The second ratio indicates the relative change in the yield of the two instruments. This ratio is commonly referred to as the yield beta and is estimated using the statistical technique of regression analysis, which is described in Chapter 31. Therefore, the hedge ratio can be rewritten as
 
 $$
-\frac {\text {P r i c e v a l u e o f a b a s i s p o i n t f o r b o n d t o b e h e g h e d}}{\text {P r i c e v a l u e o f a b a s i s p o i n t f o r h e d g i n g v e h i c l e}} \times \text {y i e l d b e t a}.
+\frac{\text{Pr ic ev al ue of ab as is po in tf or bo nd to be he gh ed}}{\text{Pr ic ev al ue of ab as is po in tf or he dg in gv eh ic le}} \times \text{yi el db et a}.
 $$
 
 To illustrate this relationship, we'll look at how to hedge a \$10 million long position in a 15-year, 8% coupon bond selling to yield 10% with a 10% coupon bond with the same maturity and selling at the same yield. The following information is known:
@@ -3858,7 +3857,7 @@ Price value of a basis point per \$100 of par = 0.0768.
 For this illustration, we shall assume that the yield beta is 1. The hedge ratio is then
 
 $$
-\frac {0 . 0 6 8 1}{0 . 0 7 6 8} \times 1 = 0. 8 8 6 7.
+\frac{0 . 0 6 8 1}{0 . 0 7 6 8} \times 1 = 0. 8 8 6 7.
 $$
 
 The hedge ratio of 0.8867 means that for every  \$1 of par value of the 15-year, \(8\%$  coupon bond to be hedged, the hedger should short \)0.8867 of \$1 par of the hedging vehicle. Because this illustration involves a long position of \$10 million of the 15-year,  $8\%$  coupon bond, a short position of \$8.867 million of the 15-year,  $10\%$  bond should be taken.
@@ -3884,7 +3883,7 @@ Mathematically, Macaulay duration is computed as follows:
 Macaulay duration (in periods)
 
 $$
-= \frac {(1) P V C F _ {1} + (2) P V C F _ {2} + (3) P V C F _ {3} + \cdots + (n) P V C F _ {n}}{P V T C F},
+= \frac{(1) P V C F_{1} + (2) P V C F_{2} + (3) P V C F_{3} + \cdots + (n) P V C F_{n}}{P V T C F},
 $$
 
 where
@@ -3902,7 +3901,7 @@ For an option-free bond with semiannual payments, the cash flow for periods 1 to
 The formula for Macaulay duration gives a value in terms of periods. Dividing by the number of payments per year converts Macaulay duration to years. That is,
 
 $$
-\text {M a c a u l a y d u r a t i o n (i n y e a r s)} = \frac {\text {M a c a u l a y d u r a t i o n (i n p e r i o d s)}}{k}.
+\text{Ma ca ul ay du ra ti on (in ye ar s)} = \frac{\text{Ma ca ul ay du ra ti on (in pe ri od s)}}{k}.
 $$
 
 Exhibit 13-1 shows the calculation of Macaulay duration for a  $10\%$ , 5-year bond assuming that the bond is selling to yield  $10\%$ . The Macaulay duration in years for our nine hypothetical bonds is given below:
@@ -3931,19 +3930,19 @@ Notice the consistency between the properties of bond price volatility that we d
 Mathematically, Macaulay duration for a semiannual-pay bond can be shown to be equivalent to<sup>4</sup>
 
 $$
-\text {M a c a u l a y d u r a t i o n (i n 6 - m o n t h p e r i o d s)} = \left[ \frac {1 + y}{y} \right] H + \left[ \frac {y - c}{y} \right] n (1 - H),
+\text{Ma ca ul ay du ra ti on (in 6 -m on th pe ri od s)} = \left[ \frac{1 + y}{y} \right] H + \left[ \frac{y - c}{y} \right] n (1 - H),
 $$
 
 where
 
 $$
-\begin{array}{l} y = \text {o n e - h a l f t h e y i e l d}; \\ H = \text {r a t i o} \\ c = \text {o n e - h a l f} \\ \end{array}
+\begin{array}{l} y = \text{on e -h al ft he yi el d}; \\ H = \text{ra ti o} \\ c = \text{on e -h al f} \\ \end{array}
 $$
 
 From Chapter 3, the present value of the semiannual coupon payments is
 
 $$
-1 0 0 c \left\{\frac {1 - \left[ \frac {1}{(1 + y) ^ {n}} \right]}{y} \right\}.
+1 0 0 c \left\{\frac{1 - \left[ \frac{1}{(1 + y)^{n}} \right]}{y} \right\}.
 $$
 
 Illustration 13-1. We can use the formula above to calculate Macaulay duration for the  $14\%$  coupon bond with 5 years to maturity, selling to yield  $10\%$ , by inserting the values
@@ -3955,13 +3954,13 @@ $$
 The price of this bond is \(115.44 (see Exhibit 12-1 of Chapter 12). The present value of the coupon payments is
 
 $$
-\begin{array}{l} \$ 100(0.07) \left\{\frac {1 - \left[ \frac {1}{(1 . 0 5) ^ {1 0}} \right]}{0 . 0 5} \right\} \\ = \$ 7 \left[ \frac {1 - 0 . 6 1 3 9 1 3}{0 . 0 5} \right] = \$ 5 4. 0 5. \\ \end{array}
+\begin{array}{l} \$ 100(0.07) \left\{\frac{1 - \left[ \frac{1}{(1 . 0 5)^{1 0}} \right]}{0 . 0 5} \right\} \\ = \$ 7 \left[ \frac{1 - 0 . 6 1 3 9 1 3}{0 . 0 5} \right] = \$ 5 4. 0 5. \\ \end{array}
 $$
 
 Then
 
 $$
-H = \frac {\mathbb {S} 5 4 . 0 5}{\mathbb {S} 1 1 5 . 4 4} = 0. 4 6 8 2
+H = \frac{\mathbb {S} 5 4 . 0 5}{\mathbb {S} 1 1 5 . 4 4} = 0. 4 6 8 2
 $$
 
 and
@@ -3969,7 +3968,7 @@ and
 Macaulay duration (in 6-month periods)
 
 $$
-= \frac {1 . 0 5}{0 . 0 5} (0. 4 6 8 2) + \left(\frac {0 . 0 5 - 0 . 0 7}{0 . 0 5}\right) (1 0) (1 - 0. 4 6 8 2) = 7. 7 0 5.
+= \frac{1 . 0 5}{0 . 0 5} (0. 4 6 8 2) + \left(\frac{0 . 0 5 - 0 . 0 7}{0 . 0 5}\right) (1 0) (1 - 0. 4 6 8 2) = 7. 7 0 5.
 $$
 
 Dividing by 2 to give Macaulay duration in years, we have 3.85.
@@ -3987,19 +3986,19 @@ $$
 The present value of the coupon payments is
 
 $$
-\$ 100(0.05) \left\{\frac {1 - \left[ \frac {1}{(1 . 0 5) ^ {1 0}} \right]}{0 . 0 5} \right\} = \$ 3 8. 6 1.
+\$ 100(0.05) \left\{\frac{1 - \left[ \frac{1}{(1 . 0 5)^{1 0}} \right]}{0 . 0 5} \right\} = \$ 3 8. 6 1.
 $$
 
 Then
 
 $$
-H = \frac {\S 3 8 . 6 1}{\S 1 0 0} = 0. 3 8 6 1
+H = \frac{\S 3 8 . 6 1}{\S 1 0 0} = 0. 3 8 6 1
 $$
 
 and
 
 $$
-\begin{array}{l} \text {M a c a u l a y d u r a t i o n (i n 6 - m o n t h p e r i o d s)} = \frac {1 . 0 5}{0 . 0 5} (0. 3 8 6 1) \\ = 2 1 (0. 3 8 6 1) = 8. 1 0 8 1. \\ \end{array}
+\begin{array}{l} \text{Ma ca ul ay du ra ti on (in 6 -m on th pe ri od s)} = \frac{1 . 0 5}{0 . 0 5} (0. 3 8 6 1) \\ = 2 1 (0. 3 8 6 1) = 8. 1 0 8 1. \\ \end{array}
 $$
 
 Dividing by 2 gives 4.05, the Macaulay duration in years. This result agrees with the calculation of Macaulay duration in Exhibit 13-1.
@@ -4007,7 +4006,7 @@ Dividing by 2 gives 4.05, the Macaulay duration in years. This result agrees wit
 For a zero-coupon bond, the present value of the coupon payments is obviously zero; thus  $H$  is zero. The Macaulay duration for a zero-coupon bond in 6-month periods is
 
 $$
-\left(\frac {1 + y}{y}\right) H + \left(\frac {y - c}{y}\right) n (1 - H) = \left(\frac {1 + y}{y}\right) 0 + \left(\frac {y - 0}{y}\right) n (1 - 0) = n.
+\left(\frac{1 + y}{y}\right) H + \left(\frac{y - c}{y}\right) n (1 - H) = \left(\frac{1 + y}{y}\right) 0 + \left(\frac{y - 0}{y}\right) n (1 - 0) = n.
 $$
 
 Thus we see that the Macaulay duration of a zero-coupon bond in periods is just the number of 6-month periods. Dividing by 2 gives the term of the bond in years.
@@ -4021,7 +4020,7 @@ The link between bond price volatility and Macaulay duration can be shown to be<
 Approximate percentage change in price
 
 $$
-= - \left[ \frac {1}{(1 + y)} \right] \times \text {M a c a u l a y d u r a t i o n} \times \text {y i e l d}
+= - \left[ \frac{1}{(1 + y)} \right] \times \text{Ma ca ul ay du ra ti on} \times \text{yi el d}
 $$
 
 where
@@ -4031,7 +4030,7 @@ $y =$  one-half the yield to maturity.
 Generally, the first two terms are combined, and the resulting measure is called modified duration; that is,
 
 $$
-\text {M o d i f i e d} = \frac {\text {M a c a u l a y} \quad \text {d u r a t i o n}}{(1 + y)}.
+\text{Mo di fi ed} = \frac{\text{Ma ca ul ay} \quad \text{du ra ti on}}{(1 + y)}.
 $$
 
 The relationship can then be expressed as
@@ -4039,13 +4038,13 @@ The relationship can then be expressed as
 Approximate percentage change in price
 
 $$
-= - \text {m o d i f i e d}
+= - \text{mo di fi ed}
 $$
 
 Illustration 13-3. Consider the  $8\%$ , 15-year bond selling at 84.63 to yield  $10\%$ . The Macaulay duration for this bond is 8.45. Modified duration is 8.05:
 
 $$
-\text {M o d i f i e d} = \frac {8 . 4 5}{(1 . 0 5)} = 8. 0 5.
+\text{Mo di fi ed} = \frac{8 . 4 5}{(1 . 0 5)} = 8. 0 5.
 $$
 
 If the yield increases instantaneously from  $10.00\%$  to  $10.10\%$ , a yield change of  $+0.0010$ , the approximate percentage change in price is
@@ -4073,7 +4072,7 @@ The reason that modified duration provides a good approximation for small change
 Ignoring the direction of the change in yield, for a 100 basis point change in yield, the percentage change in the bond's price is
 
 $$
-\text {M o d i f i e d} \times 0. 0 1.
+\text{Mo di fi ed} \times 0. 0 1.
 $$
 
 For example, if the modified duration is 6, the approximate percentage change in the bond's price for a 100 basis point change in yield is
@@ -4131,13 +4130,13 @@ The modified duration of a bond can be used to approximate the percentage change
 The dollar duration of a basis point change in yield can be calculated as follows:
 
 $$
-\text {D o l l a r d u r a t i o n o f a b a s i s p o i n t} = \frac {\text {m o d i f i e d d u r a t i o n} \times \text {p r i c e}}{1 0 , 0 0 0}.
+\text{Do ll ar du ra ti on of ab as is po in t} = \frac{\text{mo di fi ed du ra ti on} \times \text{pr ic e}}{1 0 , 0 0 0}.
 $$
 
 For example, consider an  $8\%$  coupon, 15-year bond selling to yield  $10\%$ . The price of this bond per \$100 par value is \$84.6275. The bond's modified duration is 8.05. Therefore,
 
 $$
-\text {D o l l a r d u r a t i o n o f a b a s i s p o i n t} = \frac {8 . 0 5 \times \$ 8 4 . 6 2 7 5}{1 0 , 0 0 0} = \$ 0. 0 6 8 1 2 5.
+\text{Do ll ar du ra ti on of ab as is po in t} = \frac{8 . 0 5 \times \$ 8 4 . 6 2 7 5}{1 0 , 0 0 0} = \$ 0. 0 6 8 1 2 5.
 $$
 
 To find the dollar duration for more than one basis point, the dollar duration of a basis point is simply multiplied by the number of basis points. For example, for a 50 basis point change in yield, the dollar duration would be \$3.40625.
@@ -4153,7 +4152,7 @@ How good an estimate of the dollar price change is provided by dollar duration? 
 A portfolio's modified duration can be obtained by calculating the weighted average of the modified duration of the bonds in the portfolio. The weight is the proportion of the portfolio that a security comprises. Mathematically, a portfolio's modified duration can be calculated as
 
 $$
-w _ {1} D _ {1} + w _ {2} D _ {2} + w _ {3} D _ {3} + \dots + w _ {K} D _ {K},
+w_{1} D_{1} + w_{2} D_{2} + w_{3} D_{3} + \dots + w_{K} D_{K},
 $$
 
 where
@@ -4203,49 +4202,49 @@ $V_{+} =$  estimated value of the bond if the yield is increased by  $\Delta y$
 Then, for a decrease in yield, the percentage price change is
 
 $$
-\frac {V _ {-} - V _ {0}}{V _ {0}}.
+\frac{V_{-} - V_{0}}{V_{0}}.
 $$
 
 The percentage price change per basis point change is found by dividing the percentage price change by the number of basis points  $(\Delta y \times 100)$ . That is,
 
 $$
-\frac {V _ {-} - V _ {0}}{V _ {0} (\Delta y) 1 0 0}.
+\frac{V_{-} - V_{0}}{V_{0} (\Delta y) 1 0 0}.
 $$
 
 Similarly, the percentage price change per basis point increase in yield is
 
 $$
-\frac {V _ {0} - V _ {0}}{V _ {0} (\Delta y) 1 0 0}.
+\frac{V_{0} - V_{0}}{V_{0} (\Delta y) 1 0 0}.
 $$
 
 As explained in the previous chapter, the percentage price change for an increase and decrease in interest rates will not be the same. Consequently, the average percentage price change per basis point change in yield can be calculated. This is done as follows:
 
 $$
-\frac {1}{2} \left[ \frac {V _ {-} - V _ {0}}{V _ {0} (\Delta y) 1 0 0} + \frac {V _ {0} - V _ {+}}{V _ {0} (\Delta y) 1 0 0} \right]
+\frac{1}{2} \left[ \frac{V_{-} - V_{0}}{V_{0} (\Delta y) 1 0 0} + \frac{V_{0} - V_{+}}{V_{0} (\Delta y) 1 0 0} \right]
 $$
 
 or, equivalently,
 
 $$
-\frac {V _ {-} - V _ {+}}{2 V _ {0} (\Delta y) 1 0 0}.
+\frac{V_{-} - V_{+}}{2 V_{0} (\Delta y) 1 0 0}.
 $$
 
 The approximate percentage price change for a 100 basis point change in yield is found by multiplying the previous formula by 100:
 
 $$
-\text {A p p r o x i m a t e} = \frac {V _ {-} + V _ {+}}{2 V _ {0} (\Delta y)}.
+\text{Ap pr ox im at e} = \frac{V_{-} + V_{+}}{2 V_{0} (\Delta y)}.
 $$
 
 To illustrate this formula for approximating modified duration, consider a 20-year,  $7\%$  coupon bond selling at \$74.26 to yield  $10\%$ . Suppose that we evaluate the price changes for a 20 basis point change up and down. Then
 
 $$
-V _ {-} = 7 5. 6 4; V _ {+} = 7 2. 9 2; V _ {0} = 7 4. 2 6; \Delta y = 0. 0 0 2.
+V_{-} = 7 5. 6 4; V_{+} = 7 2. 9 2; V_{0} = 7 4. 2 6; \Delta y = 0. 0 0 2.
 $$
 
 Substituting into the formula,
 
 $$
-\frac {7 5 . 6 4 - 7 2 . 9 2}{2 (7 4 . 2 6) (0 . 0 0 2)} = 9. 1 6.
+\frac{7 5 . 6 4 - 7 2 . 9 2}{2 (7 4 . 2 6) (0 . 0 0 2)} = 9. 1 6.
 $$
 
 The modified duration for this bond calculated using the formula presented earlier in this chapter is 9.18.
@@ -4271,27 +4270,27 @@ Mathematically, this problem can be expressed as follows:
 Let
 
 $$
-\begin{array}{l} \mathbb {S} D _ {\mathrm {X}} = \text {d o l l a r d u r a t i o n p e r 1 0 0 b a s i s p o i n t c h a n g e i n y i e l d f o r b o n d X f o r} \\ \text {t h e m a r k e t v a l u e o f b o n d X h e l l ;} \end{array}
+\begin{array}{l} \mathbb {S} D_{\mathrm{X}} = \text{do ll ar du ra ti on pe r1 00 ba si sp oi nt ch an ge in yi el df or bo nd Xf or} \\ \text{th em ar ke tv al ue of bo nd Xh el l ;} \end{array}
 $$
 
 $$
-M D _ {\mathrm {Y}} = \text {m o d i f i e d}
+M D_{\mathrm{Y}} = \text{mo di fi ed}
 $$
 
 $$
-M V _ {\mathrm {Y}} = \text {m a r k e t} \quad \text {v a l u e} \quad \text {b o n d} \quad \mathrm {Y} \text {n e c e d} \quad \text {t o} \quad \text {o b t a i n t h e s a m e d o l l a r d u d u a t i o n} \quad \text {a s} \quad \text {b o n d} \quad \mathrm {X}.
+M V_{\mathrm{Y}} = \text{ma rk et} \quad \text{va lu e} \quad \text{bo nd} \quad \mathrm{Y} \text{ne ce d} \quad \text{to} \quad \text{ob ta in th es am ed ol la rd ud ua ti on} \quad \text{as} \quad \text{bo nd} \quad \mathrm{X}.
 $$
 
 Then the following equation sets the dollar duration for bond X equal to the dollar duration for bond Y:
 
 $$
-\$ D _ {X} = (M D _ {Y} / 1 0 0) M V _ {Y}.
+\$ D_{X} = (M D_{Y} / 1 0 0) M V_{Y}.
 $$
 
 Solving for  $MV_{Y}$
 
 $$
-M V _ {\mathrm {Y}} = \mathbb {S} D _ {\mathrm {X}} / (M D _ {\mathrm {Y}} / 1 0 0).
+M V_{\mathrm{Y}} = \mathbb {S} D_{\mathrm{X}} / (M D_{\mathrm{Y}} / 1 0 0).
 $$
 
 Dividing by the price per \$1 of par value of bond Y gives the par value of bond Y that has an approximately equivalent dollar duration as bond X.
@@ -4299,7 +4298,7 @@ Dividing by the price per \$1 of par value of bond Y gives the par value of bond
 In our illustration, \(D_{\mathrm{X}}\) is \)400,000 and \(MD_{\mathrm{Y}}\) is 4, so
 
 $$
-M Y _ {\mathrm {Y}} = \$ 4 0 0, 0 0 0 / (4 / 1 0 0) = \$ 1 0, 0 0 0, 0 0 0.
+M Y_{\mathrm{Y}} = \$ 4 0 0, 0 0 0 / (4 / 1 0 0) = \$ 1 0, 0 0 0, 0 0 0.
 $$
 
 Because the market value of bond Y is $90 per $100 of par value, the price per \$1 of par value is \$0.9. Dividing \$10 million by 0.9 indicates that the par value of bond Y that should be purchased is \$11.11 million.
@@ -4311,7 +4310,7 @@ Failure to adjust a portfolio repositioning based on some expected change in yie
 Modified duration is related to percentage price volatility. As explained in the previous chapter, in hedging we are interested in dollar price changes. Consequently, to compute the hedge ratio using duration, dollar duration should be used, not modified duration. The hedge ratio is computed from dollar duration as follows:
 
 $$
-\frac {\text {D o l d a r d u r a t i o n f o r b o n d t o b e h e g h e d}}{\text {D o l d a r d u r a t i o n f o r h e d g i n g v e h i c l e}} \times \text {y i e l d b e t a}.
+\frac{\text{Do ld ar du ra ti on fo rb on dt ob eh eg he d}}{\text{Do ld ar du ra ti on fo rh ed gi ng ve hi cl e}} \times \text{yi el db et a}.
 $$
 
 Recall that the dollar duration per basis point per \(100 of par value is the same as the price value of a basis point. Therefore, dollar duration will produce the same hedge ratio as the price value of a basis point.
@@ -4496,7 +4495,7 @@ The convexity of an option-free bond at a given yield level is measured as follo
 Convexity (in periods)
 
 $$
-= \frac {1 (2) P V C F _ {1} + 2 (3) P V C F _ {2} + 3 (4) P V C F _ {3} + \cdots + n (n + 1) P V C F _ {n}}{(1 + y) ^ {2} \times P V T C F}, \tag {14-1}
+= \frac{1 (2) P V C F_{1} + 2 (3) P V C F_{2} + 3 (4) P V C F_{3} + \cdots + n (n + 1) P V C F_{n}}{(1 + y)^{2} \times P V T C F}, \tag {14-1}
 $$
 
 where
@@ -4514,13 +4513,13 @@ $PVTCF =$  Total present value of the cash flow of the bond, where the present v
 For a zero-coupon bond, the convexity in periods reduces to
 
 $$
-\text {C o n v e x i t y} = \frac {n (n + 1)}{(1 + y) ^ {2}}.
+\text{Co nv ex it y} = \frac{n (n + 1)}{(1 + y)^{2}}.
 $$
 
 To convert a bond's convexity from periods to years, the following formula is used:
 
 $$
-\text {C o n v e x i t y (i n y e a r s)} = \frac {\text {c o n v e x i t y (i n p e r i o d s)}}{k ^ {2}},
+\text{Co nv ex it y (in ye ar s)} = \frac{\text{co nv ex it y (in pe ri od s)}}{k^{2}},
 $$
 
 where  $k =$  number of payments per year (i.e.,  $k = 2$  for semiannual-pay bonds,  $k = 12$  for monthly pay bonds).
@@ -4530,7 +4529,7 @@ For an option-free bond, the convexity measure will always be positive.
 Exhibit 14-4 shows the calculation of convexity for an  $8\%$ , 5-year bond whose Macaulay duration is calculated in Exhibit 13-1 of Chapter 13, assuming that each bond is selling to yield  $10\%$ . For the 5-year, zero-coupon bond,  $n = 10$  (number of periods) and  $y$  is 0.05. Therefore,
 
 $$
-\text {C o n v e x i t y} = \frac {1 0 (1 0 + 1)}{(1 . 0 5) ^ {2}} = 2 4. 9 4.
+\text{Co nv ex it y} = \frac{1 0 (1 0 + 1)}{(1 . 0 5)^{2}} = 2 4. 9 4.
 $$
 
 The convexities in years for the nine hypothetical bonds we examined in the previous chapter are
@@ -4554,7 +4553,7 @@ Modified duration provides a first approximation to the percentage change in pri
 Approximate percentage change in price due to convexity
 
 $$
-= (0. 5) \times \text {c o n v e x i t y} \times (\text {y i e l d c h a n g e}) ^ {2}. \tag {14-2}
+= (0. 5) \times \text{co nv ex it y} \times (\text{yi el dc ha ng e})^{2}. \tag {14-2}
 $$
 
 Because the convexity measure is always positive for an option-free bond, the approximate percentage change in price due to convexity is positive for either an increase or a decrease in yield.
@@ -4562,7 +4561,7 @@ Because the convexity measure is always positive for an option-free bond, the ap
 Illustration 14-1. Consider the  $8\%$ , 15-year bond selling to yield  $10\%$ . If the yield increases from  $10\%$  to  $13\%$  (a 300 basis point or 0.03 yield change), then the approximate percentage price change due to convexity is
 
 $$
-0.5 \times 94.36 \times (0.03) ^ {2} = 0.0425 = 4.25\%.
+0.5 \times 94.36 \times (0.03)^{2} = 0.0425 = 4.25\%.
 $$
 
 If the yield decreases by 300 basis points, from  $10\%$  to  $7\%$ , the approximate percentage price change due to convexity is  $4.25\%$ .
@@ -4602,13 +4601,13 @@ Exhibit 14-6 shows the percentage price changes due to both duration and convexi
 In the previous chapter we explained that dollar duration can be obtained by multiplying modified duration by the initial price. Dollar convexity can be obtained by multiplying convexity by the initial price:
 
 $$
-D o l a r \quad \text {c o n v e x i t y} = \text {c o n v e x i t y} \times \text {i n i t i a l p r i c e}.
+D o l a r \quad \text{co nv ex it y} = \text{co nv ex it y} \times \text{in it ia lp ri ce}.
 $$
 
 To determine the dollar price change, the following formula is used:
 
 $$
-\begin{array}{l} D o l a r p r i c e \text {c h a n g e} \\ = (0. 5) \times \text {d o l l a r c o n v e x i t y} \times (\text {y i e l d c h a n g e}) ^ {2}. \\ \end{array}
+\begin{array}{l} D o l a r p r i c e \text{ch an ge} \\ = (0. 5) \times \text{do ll ar co nv ex it y} \times (\text{yi el dc ha ng e})^{2}. \\ \end{array}
 $$
 
 Illustration 14-3. For the  $8\%$ , 15-year bond selling to yield  $10\%$ , the dollar convexity per \$100 of par value is
@@ -4620,7 +4619,7 @@ $$
 The dollar price change due to convexity per \(100 of par value for a 100 basis point change is
 
 $$
-(0. 5) \times \$ 7, 9 8 5. 6 9 \times (0. 0 1) ^ {2} = \$ 0. 3 9 9.
+(0. 5) \times \$ 7, 9 8 5. 6 9 \times (0. 0 1)^{2} = \$ 0. 3 9 9.
 $$
 
 Thus, for a 100 basis point change, the price of the bond will change by approximately $0.40 per $100 par value due to convexity.
@@ -4628,7 +4627,7 @@ Thus, for a 100 basis point change, the price of the bond will change by approxi
 For a 200 basis point change, the dollar price change per \$100 of par value due to convexity is
 
 $$
-(0. 5) \times \$ 7, 9 8 5. 6 9 \times (0. 0 2) ^ {2} = \$ 1. 5 9 7.
+(0. 5) \times \$ 7, 9 8 5. 6 9 \times (0. 0 2)^{2} = \$ 1. 5 9 7.
 $$
 
 For a 200 basis point change, the dollar price change due to convexity is approximately $1.60 per $100 of par value—quadruple the \$0.40 for a 100 basis point
@@ -4710,7 +4709,7 @@ $$
 Cash-flow yield of barbell**
 
 $$
-= \frac {(8 . 5 \times 0 . 5 0 2 \times 4 . 0 0 5 4 4) + (9 . 5 \times 0 . 4 9 8 \times 8 . 8 8 1 5 1)}{6 . 4 3 4} = 9. 1 8 7.
+= \frac{(8 . 5 \times 0 . 5 0 2 \times 4 . 0 0 5 4 4) + (9 . 5 \times 0 . 4 9 8 \times 8 . 8 8 1 5 1)}{6 . 4 3 4} = 9. 1 8 7.
 $$
 
 Yield pickup = yield on bullet - cash-flow yield of barbell
@@ -4761,7 +4760,7 @@ The key point here is that looking at measures such as yield (yield to maturity 
 The convexity measure of any bond can be approximated using the following formula:
 
 $$
-\text {C o n v e x i t y} = \frac {V _ {+} + V _ {-} - 2 V _ {0}}{V _ {0} (\Delta y) ^ {2}},
+\text{Co nv ex it y} = \frac{V_{+} + V_{-} - 2 V_{0}}{V_{0} (\Delta y)^{2}},
 $$
 
 where
@@ -4779,13 +4778,13 @@ These are the same values used for approximating duration.
 For example, consider the 20-year,  $7\%$  coupon bond selling at 74.26 to yield  $10\%$  that we used in the previous chapter to illustrate how to approximate modified duration. Suppose that we evaluate the price change for a 20 basis point change up and down. Then
 
 $$
-V _ {+} = 7 2. 9 2; V _ {-} = 7 5. 6 4; V _ {0} = 7 4. 2 6; \Delta y = 0. 0 0 2.
+V_{+} = 7 2. 9 2; V_{-} = 7 5. 6 4; V_{0} = 7 4. 2 6; \Delta y = 0. 0 0 2.
 $$
 
 Substituting these values in the formula, we get
 
 $$
-\frac {7 2 . 9 2 + 7 5 . 6 4 - 2 (7 4 . 2 6)}{(7 4 . 2 6) (0 . 0 0 2) ^ {2}} = 1 3 4. 6 6.
+\frac{7 2 . 9 2 + 7 5 . 6 4 - 2 (7 4 . 2 6)}{(7 4 . 2 6) (0 . 0 0 2)^{2}} = 1 3 4. 6 6.
 $$
 
 The convexity is equal to 132.08, so the approximate convexity (134.66) has proven itself to be a good approximation of convexity (132.08).
@@ -4923,7 +4922,7 @@ curve by a mathematical function that is described in terms of level, slope, cur
 The mathematical representation of the yield curve used by Willner is
 
 $$
-Y = L + (S + C) \frac {(1 - e ^ {- M / H})}{M / H} - C (e ^ {- M / H}),
+Y = L + (S + C) \frac{(1 - e^{- M / H})}{M / H} - C (e^{- M / H}),
 $$
 
 where
@@ -4974,7 +4973,7 @@ What we seek is a duration measure that takes into account how the reshaping of 
 To calculate the SEDUR of each bond in the portfolio, the percentage change in the bond's price is calculated for (1) a steepening of the yield curve at the short end by 50 basis points and (2) a flattening of the yield curve at the short end of the yield curve by 50 basis points. Then the bond's SEDUR is computed as follows:
 
 $$
-\mathrm {S E D U R} = \frac {P _ {s} - P _ {f}}{P _ {0}} \times 1 0 0,
+\mathrm{SE DU R} = \frac{P_{s} - P_{f}}{P_{0}} \times 1 0 0,
 $$
 
 where
@@ -4988,7 +4987,7 @@ $P_{0} =$  bond's current market price.
 To calculate the LEDUR, we use the same procedure for each bond in the portfolio: calculate the price for (1) a flattening of the yield curve at the long end by 50 basis points and (2) a steepening of the yield curve at the long end of the yield curve by 50 basis points. Then the bond's LEDUR is computed in the following manner:
 
 $$
-\mathrm {S E D U R} = \frac {P _ {f} - P _ {s}}{P _ {0}} \times 1 0 0.
+\mathrm{SE DU R} = \frac{P_{f} - P_{s}}{P_{0}} \times 1 0 0.
 $$
 
 The SEDUR and LEDUR calculations are equivalent to the formula for approximating duration given in Chapter 13 when a 50 basis point change is used in the formula. Because in our illustration we are using Treasury issues, the modified duration for each bond is the appropriate measure. For example, the SEDUR for the 2-year Treasury in Exhibit 15-7 is 1.9, and its LEDUR is zero. The SEDUR
@@ -4998,11 +4997,11 @@ for the 30-year bond is zero, and its LEDUR is 11.1. The analysis proceeds from 
 The portfolio SEDUR and LEDUR are the weighted average of the corresponding durations for each bond in the portfolio. For example, the SEDUR for the two portfolios is calculated as follows.
 
 $$
-\text {P o r t f l o i s} A: 0. 2 (1. 9) + 0. 4 (0) + 0. 2 (0) = 3. 8;
+\text{Po rt fl oi s} A: 0. 2 (1. 9) + 0. 4 (0) + 0. 2 (0) = 3. 8;
 $$
 
 $$
-\text {P o r t f l o i s} B: 0. 3 9 (1. 9) + 0. 2 (0) + 0. 4 1 (0) = 7. 4.
+\text{Po rt fl oi s} B: 0. 3 9 (1. 9) + 0. 2 (0) + 0. 4 1 (0) = 7. 4.
 $$
 
 A SEDUR of 3.8 means that if the short end of the yield curve shifts by 50 basis points, the portfolio value will change by approximately  $1.9\%$ . A similar shift for portfolio B will result in a  $3.7\%$  change in the portfolio's value.
@@ -5010,11 +5009,11 @@ A SEDUR of 3.8 means that if the short end of the yield curve shifts by 50 basis
 The LEDUR for the two portfolios is calculated in the following manner:
 
 $$
-\text {P o r t f i l o} A: 0. 2 (0) + 0. 4 (0) + 0. 2 (1 1. 1) = 2. 2;
+\text{Po rt fi lo} A: 0. 2 (0) + 0. 4 (0) + 0. 2 (1 1. 1) = 2. 2;
 $$
 
 $$
-\text {P o r t f l o i s} 0. 3 9 (0) + 0. 2 (0) + 0. 4 1 (1 1. 1) = 4. 6.
+\text{Po rt fl oi s} 0. 3 9 (0) + 0. 2 (0) + 0. 4 1 (1 1. 1) = 4. 6.
 $$
 
 So far we have looked at only bonds with maturities at the three points on the yield curve that are used to define the short end and long end. The methodology can be generalized to other maturities as follows.
@@ -5047,7 +5046,7 @@ emerging-market bonds, floating-rate securities, and Treasury futures.2 We will 
 As explained in Chapter 14, a bond's analytical duration can be estimated as follows:
 
 $$
-\text {D u r a t i o n} = \frac {V _ {-} - V _ {+}}{2 (V _ {0}) (\Delta y)}, \tag {16-1}
+\text{Du ra ti on} = \frac{V_{-} - V_{+}}{2 (V_{0}) (\Delta y)}, \tag {16-1}
 $$
 
 where
@@ -5073,7 +5072,7 @@ Change in security's price  $= a + b$  (change in relevant yield).
 Given the estimate of  $b$ , the empirical duration is then calculated as follows:
 
 $$
-\text {E m p i r i c a l d u r a t i o n} = \frac {b (\text {c h a n g e i n s e c u r i t y p r i c e / c h a n g e i n r e l e v a n t y i e l d})}{\text {f u l l p r i c e o f s e c u r i t y}}. \tag {16-2}
+\text{Em pi ri ca ld ur at io n} = \frac{b (\text{ch an ge in se cu ri ty pr ic e /c ha ng ei nr el ev an ty ie ld})}{\text{fu ll pr ic eo fs ec ur it y}}. \tag {16-2}
 $$
 
 From an implementation perspective, there is no standardization as to the frequency of the data that should be used (i.e., daily, weekly, monthly), the length of the time period that should be used, and even the appropriate relevant yield that should be used.
@@ -5106,23 +5105,23 @@ The Barclays Research Group used daily data for the period August 1998 to Novemb
 The research by Barclays Research Group has shown that the true duration of a portfolio for a corporate bond requires adjusting the analytical duration as follows:
 
 $$
-M = \left[ 1 + \text {c o r r e l a t i o n} \left(\frac {\text {S D o f T r e a s u r y y i e l d c h a n g e}}{\text {S D o f c o r p o r a t e b o n d c r e d i t - s p r e a d c h a n g e}}\right) \right], \tag {16-3}
+M = \left[ 1 + \text{co rr el at io n} \left(\frac{\text{SD of Tr ea su ry yi el dc ha ng e}}{\text{SD of co rp or at eb on dc re di t -s pr ea dc ha ng e}}\right) \right], \tag {16-3}
 $$
 
 where
 
 $$
-M = \text {a d j u s t m e n t f a c t o r , s o m e t i m e s r e f e r e r d t o a s t h e d u r a t i o n} _ {\text {m u l t i p l i e r}};
+M = \text{ad ju st me nt fa ct or ,s om et im es re fe re rd to as th ed ur at io n}_{\text{mu lt ip li er}};
 $$
 
 $$
-\begin{array}{l} \begin{array}{l} \text {c o r r e l a t i o n = c o r r e l a t i o n b e t w e e n t h e c h a n g e i n c o r p o r a t e b o n d y i e l d s a n d} \\ \text {c h a n g e i n T r e a s u r y y i e l d s ;} \end{array} \\ \mathrm {S D} = \text {s t a n d a r d} \\ \end{array}
+\begin{array}{l} \begin{array}{l} \text{co rr el at io n =c or re la ti on be tw ee nt he ch an ge in co rp or at eb on dy ie ld sa nd} \\ \text{ch an ge in Tr ea su ry yi el ds ;} \end{array} \\ \mathrm{SD} = \text{st an da rd} \\ \end{array}
 $$
 
 The empirical duration then is
 
 $$
-\text {E m p i r i c a l d u r a t i o n} = M D, \tag {16-4}
+\text{Em pi ri ca ld ur at io n} = M D, \tag {16-4}
 $$
 
 where  $D$  is the model effective duration computed using equation (16-1).
@@ -5174,19 +5173,19 @@ To illustrate the calculation of coupon-curve duration, let's use the following 
 Suppose that the coupon-curve duration for the 4's is sought. If the yield declines by 50 basis points, the assumption is that the price of the 4's will increase to the price of the 4.5's. Thus the price will increase from 106.4063 to 108.3750. Similarly, if the yield increases by 50 basis points, the assumption is that the price of the 4's will decline to the price of the 3.5's (103.9688). Using the model duration formula, the corresponding values are
 
 $$
-V _ {0} = 1 0 6. 4 0 6 3; V _ {-} = 1 0 8. 3 7 5 0; V _ {+} = 1 0 3. 9 6 8 8; \Delta y = 0. 0 0 5.
+V_{0} = 1 0 6. 4 0 6 3; V_{-} = 1 0 8. 3 7 5 0; V_{+} = 1 0 3. 9 6 8 8; \Delta y = 0. 0 0 5.
 $$
 
 Then
 
 $$
-\text {C u r r e n t c o u p o n d u r a t i o n} = \frac {1 0 8 . 3 7 5 0 - 1 0 3 . 9 6 8 8}{2 (1 0 6 . 4 0 6 3) (0 . 0 0 5)} = 4. 1 4.
+\text{Cu rr en tc ou po nd ur at io n} = \frac{1 0 8 . 3 7 5 0 - 1 0 3 . 9 6 8 8}{2 (1 0 6 . 4 0 6 3) (0 . 0 0 5)} = 4. 1 4.
 $$
 
 Note that if a 100 basis-points rate shock is used, the current coupon duration would be
 
 $$
-\text {C u r r e n t c o u p o n d u r a t i o n} = \frac {1 1 0 . 5 6 2 5 - 1 0 1 . 0 0 0 0}{2 (1 0 6 . 4 0 6 3) (0 . 0 1)} = 4. 4 9.
+\text{Cu rr en tc ou po nd ur at io n} = \frac{1 1 0 . 5 6 2 5 - 1 0 1 . 0 0 0 0}{2 (1 0 6 . 4 0 6 3) (0 . 0 1)} = 4. 4 9.
 $$
 
 While two advantages of the coupon-curve duration are the simplicity of its calculation and the fact that current prices embody market expectations, there are disadvantages. The approach is limited to generic agency mortgage passthrough securities and to-be-announced (TBA) securities but difficult to use for mortgage derivatives such as bond classes of collateral mortgage obligations and stripped MBS.
@@ -5277,7 +5276,7 @@ Step 3. The median monthly return for the first half of the data set is  $-0.09\
 
 Step 4. The median monthly return for the second half of the data set is  $0.85\%$  and is therefore Q3.
 
-Step 5. The IQR is equal to  $\mathrm{Q3 - Q1} = 0.85\% - (-0.09\%) = 0.94\%$ . Annualizing the return by simply multiplying by 12 gives an annualized IQR of  $11.28\%$ .
+Step 5. The IQR is equal to  $\mathrm{Q3 -Q1} = 0.85\% - (-0.09\%) = 0.94\%$ . Annualizing the return by simply multiplying by 12 gives an annualized IQR of  $11.28\%$ .
 
 # EXHIBIT 17-2
 
@@ -5292,13 +5291,13 @@ There are measures that overcome the shortcomings of the range and IQR as measur
 could be the mean of the historical returns, the median of the historical returns, the risk-free rate or return, or some minimum acceptable return specified by a client. The MAD for historical returns is computed as follows:
 
 $$
-\mathrm {M A D} = \frac {1}{T} \left| \sum_ {1} ^ {T} r _ {t} - \text {r e f e r e n c e r e t u r n} \right|,
+\mathrm{MA D} = \frac{1}{T} \left| \sum_{1}^{T} r_{t} - \text{re fe re nc er et ur n} \right|,
 $$
 
 where
 
 $$
-r _ {t} = \text {r e t u r n f o r p e r i o d} t;
+r_{t} = \text{re tu rn fo rp er io d} t;
 $$
 
 $T =$  number of time periods in the sample.
@@ -5314,7 +5313,7 @@ The variance is the measure of dispersion used in finance. Unlike MAD, which ave
 The variance of historical returns is computed by the following formula:
 
 $$
-\text {V a r i a n c e} = \frac {1}{T} \sum_ {1} ^ {T} \left(r _ {t} - \text {m e a n r e t u r n}\right) ^ {2}.
+\text{Va ri an ce} = \frac{1}{T} \sum_{1}^{T} \left(r_{t} - \text{me an re tu rn}\right)^{2}.
 $$
 
 Related to the variance is the even more commonly stated measure of dispersion, the standard deviation. The reason is that the units of the standard deviation correspond to the original units of the data, whereas the units are squared in the case of the variance. In the case of historical returns, variance measures the unit of measurement in returns squared, while standard deviation is measured in terms of return. The standard deviation is defined to be the positive square root of the variance.
@@ -5332,7 +5331,7 @@ As with MAD, because the variance penalizes favorable returns, it is a drawback 
 A way to correct the problem of the variance that penalizes returns above the mean historical return is to ignore in the calculation the squared deviations of historical returns above the mean and is called the semi-variance. That is,
 
 $$
-\text {S e m i - v a r i a n c e} = \frac {1}{T} \sum_ {1} ^ {T} \left(r _ {t *} - \text {m e a n r e t u r n}\right) ^ {2},
+\text{Se mi -v ar ia nc e} = \frac{1}{T} \sum_{1}^{T} \left(r_{t *} - \text{me an re tu rn}\right)^{2},
 $$
 
 where  $r_{t^*}$  indicates an observation where the historical return is less than the mean return. The square root of the semi-variance is the semi-standard deviation.
@@ -5346,7 +5345,7 @@ Because the semi-variance does not penalize volatility for historical returns ab
 Another measure of downside risk or shortfall risk that overcomes the problem of using the mean historical return from which to measure deviation is the lower partial moment (LPM). The formula for the LPM is
 
 $$
-\mathrm {L P M} = \frac {1}{T} \sum_ {1} ^ {T} \left(r _ {\#} - \text {r e f e r e n c e r e t u r n}\right) ^ {p},
+\mathrm{LP M} = \frac{1}{T} \sum_{1}^{T} \left(r_{\#} - \text{re fe re nc er et ur n}\right)^{p},
 $$
 
 where  $r_{\#}$  denotes returns below the reference return.
@@ -5362,7 +5361,7 @@ For ETF A, for  $p = 2$ , the LPM for various reference returns is summarized be
 Skewness is a measure of the asymmetry of the distribution of a data set. The most popular measure of skewness is the Pearson coefficient of skewness, which is defined as three times the difference between the median and the mean divided by the standard deviation.<sup>1</sup> Using historical returns, the Pearson coefficient of skewness is computed as follows:
 
 $$
-\text {P e r s o n c o e f f i c i e n t o f s k e w n e s s} = 3 \left(\frac {\text {m e d i a n h i s t o r i c a l r e t u r n - m e a n h i s t o r i c a l r e t u r n}}{\text {s t a n d a r d d e v i a t i o n o f r e t u r n}}\right).
+\text{Pe rs on co ef fi ci en to fs ke wn es s} = 3 \left(\frac{\text{me di an hi st or ic al re tu rn -m ea nh is to ri ca lr et ur n}}{\text{st an da rd de vi at io no fr et ur n}}\right).
 $$
 
 Note the following for the Pearson coefficient of skewness:
@@ -5378,7 +5377,7 @@ is true for a return distribution because the mean return is further to the righ
 For ETF A, the historical mean monthly return and median monthly return are  $0.37\%$  and  $0.32\%$ , respectively. The standard deviation of the monthly returns is  $1.01\%$ ; therefore,
 
 $$
-\text{Pearson coefficient of skewness} = 3 \left(\frac {0.32 \% - 0.37 \%}{1.01 \%}\right) = - 0.144.
+\text{Pearsoncoefficientofskewness} = 3 \left(\frac{0.32 \% - 0.37 \%}{1.01 \%}\right) = - 0.144.
 $$
 
 Note that this calculation is in terms of monthly returns; to annualize, the monthly Pearson coefficient must be multiplied by the square root of 12.²
@@ -5390,7 +5389,7 @@ An investor is concerned with how heavy or fat the tails of a probability distri
 Kurtosis measures indicate whether tails of a return distribution are heavy. By heavy, we mean how the distribution compares to a normal distribution. In a normal distribution, the kurtosis measure is 3. The following kurtosis measure is called excess kurtosis because it shows kurtosis relative to the normal distribution:
 
 $$
-\text {E x c e s s k u r t o s i s} = \left\{\frac {1}{T} \frac {\left[ \sum_ {1} ^ {T} \left(r _ {t} - \text {h i s t o r i c a l m e a n r e t u r n}\right) ^ {4} \right]}{\left(\text {s t a n d a r d d e v i a t i o n}\right) ^ {4}} \right\} - 3.
+\text{Ex ce ss ku rt os is} = \left\{\frac{1}{T} \frac{\left[ \sum_{1}^{T} \left(r_{t} - \text{hi st or ic al me an re tu rn}\right)^{4} \right]}{\left(\text{st an da rd de vi at io n}\right)^{4}} \right\} - 3.
 $$
 
 A positive value for excess kurtosis means that the return distribution exhibits a heavy tail relative to the normal distribution. A negative value for the excess kurtosis means that the return distribution is light relative to a normal distribution.
@@ -5398,7 +5397,7 @@ A positive value for excess kurtosis means that the return distribution exhibits
 For ETF A,
 
 $$
-\text{Excess kurtosis} = \left[\frac{1}{60}\frac{(0.002116\%)}{\left(1.02987e^{-8}\right)}\right] - 3 = 0.424.
+\text{Excesskurtosis} = \left[\frac{1}{60}\frac{(0.002116\%)}{\left(1.02987e^{-8}\right)}\right] - 3 = 0.424.
 $$
 
 Thus there is positive excess kurtosis, suggesting that the return distribution exhibits a heavy tail.
@@ -5424,13 +5423,13 @@ An input to valuation models and interest-rate modeling is the estimated yield v
 The most commonly used measure of volatility is the standard deviation of the percentage change in yield between two dates over some time period. For example, suppose that we are interested in the daily percentage change in yields. Let  $X_{t}$  denote the percentage change in yield from day  $t$  and the prior day  $t - 1$ . Letting  $y_{t}$  denote the yield on day  $t$  and  $y_{t - 1}$  denote the yield on day  $t - 1$ , then  $X_{t}$ , which is the natural logarithm (ln) of the percentage change in yield between two days, can be expressed as
 
 $$
-X _ {t} = 1 0 0 \left(\ln \frac {y _ {t}}{y _ {t - 1}}\right).
+X_{t} = 1 0 0 \left(\ln \frac{y_{t}}{y_{t - 1}}\right).
 $$
 
 For example, suppose that on day 1 the yield is  $2.92\%$  and on the next day it is  $2.77\%$ . Therefore, the natural logarithm of  $X$ , the daily percentage yield change, is
 
 $$
-X _ {t} = 1 0 0 \left(\ln \frac {2 . 7 7}{2 . 9 2}\right) = - 5. 2 7 3 6 3.
+X_{t} = 1 0 0 \left(\ln \frac{2 . 7 7}{2 . 9 2}\right) = - 5. 2 7 3 6 3.
 $$
 
 The value for  $X$  can be calculated for each day for the interval of time that the investor wants to calculate yield volatility. Using the historical daily yield change, the standard deviation of the daily percentage yield change can be computed using the standard formula for the standard deviation. The daily standard deviation will vary depending on the number of days selected to compute yield volatility. Selection of the number of observations can have a significant effect on the calculated daily standard deviation.
@@ -5439,7 +5438,7 @@ The value for  $X$  can be calculated for each day for the interval of time that
 
 The daily standard deviation can be annualized by multiplying it by the square root of the number of days in a year. That is,
 
-Daily standard deviation  $= \sqrt{\text{number of days in a year}}$ .
+Daily standard deviation  $= \sqrt{\text{numberofdaysina year}}$ .
 
 Market practice varies with respect to the number of days in the year that should be used in this annualizing formula. Typically, either 250 days, 260 days, or 365 days are used. Thus, in calculating an annual standard deviation, the investor must decide on (1) the number of daily observations to use and (2) the number of days in the year to use to annualize the daily standard deviation.
 
@@ -5507,7 +5506,7 @@ The equally weighted moving-average method assigns an equal weight to all observ
 is calculated. For example, suppose that 30 trading days are used. Recalling that  $X_{t}$  is the daily percentage change in the yield, the weighted average for the 30-day trading period is computed as follows:
 
 $$
-W _ {1} X _ {1} + W _ {2} X _ {2} + \dots + W _ {3 0} X _ {3 0},
+W_{1} X_{1} + W_{2} X_{2} + \dots + W_{3 0} X_{3 0},
 $$
 
 where  $W_{t}(t = 1,\dots,30)$  is the weight assigned to the  $i$ th observation, and the sum of the weights must be equal to 1.
@@ -5515,29 +5514,29 @@ where  $W_{t}(t = 1,\dots,30)$  is the weight assigned to the  $i$ th observatio
 The weights are also such that the observations closest to the current date are assigned a larger weight or, equivalently, the early observations are given a smaller weight. One approach suggested by RiskMetrics<sup>7</sup> is to use an exponential moving average (or exponentially weighted moving average) given by
 
 $$
-W _ {t} = \frac {1 - \beta}{\beta^ {t}} \times 1 0 0,
+W_{t} = \frac{1 - \beta}{\beta^{t}} \times 1 0 0,
 $$
 
 where  $\beta$  is a value between 0 and 1. The observations are arrayed so that the closest observation is  $t = 0$ , the second closest is  $t = 1$ , and so on. For example, if  $\beta$  is 0.87, then the weight for the closest six observations ( $t = 0$  to  $t = 4$ ) is
 
 $$
-W _ {0} = \left[ (1 - 0.87) / (0.87) ^ {0} \right] \times 100 = 13.00 \%
+W_{0} = \left[ (1 - 0.87) / (0.87)^{0} \right] \times 100 = 13.00 \%
 $$
 
 $$
-W _ {1} = \left[ (1 - 0.87) / (0.87) ^ {1} \right] \times 100 = 11.31 \%
+W_{1} = \left[ (1 - 0.87) / (0.87)^{1} \right] \times 100 = 11.31 \%
 $$
 
 $$
-W _ {2} = \left[ (1 - 0.87) / (0.87) ^ {2} \right] \times 100 = 9.84 \%;
+W_{2} = \left[ (1 - 0.87) / (0.87)^{2} \right] \times 100 = 9.84 \%;
 $$
 
 $$
-W _ {3} = \left[ (1 - 0.87) / (0.87) ^ {3} \right] \times 100 = 8.56 \%;
+W_{3} = \left[ (1 - 0.87) / (0.87)^{3} \right] \times 100 = 8.56 \%;
 $$
 
 $$
-W _ {4} = \left[ (1 - 0.87) / (0.87) ^ {4} \right] \times 100 = 7.45 \%
+W_{4} = \left[ (1 - 0.87) / (0.87)^{4} \right] \times 100 = 7.45 \%
 $$
 
 The parameter  $\beta$  is measuring how quickly the information contained in past observations is decaying and hence is referred to as the decay factor. The smaller the  $\beta$ , the faster is the decay. What decay factor to use depends on how fast the mean value for the random variable changes over time. A random variable whose mean value changes slowly over time will have a decay factor close to 1. A discussion of how the decay factor should be selected is beyond the scope of this chapter. $^{8}$
@@ -5557,17 +5556,17 @@ The first econometric model used to forecast volatility was developed by Engle a
 The ARCH model is
 
 $$
-\sigma_ {t} ^ {2} = a + b \left(x _ {t - 1} - \bar {x}\right) ^ {2}, \tag {18-1}
+\sigma_{t}^{2} = a + b \left(x_{t - 1} - \bar {x}\right)^{2}, \tag {18-1}
 $$
 
 where
 
 $$
-\sigma_ {t} ^ {2} = \text {v a r i a n c e o n d a y} t;
+\sigma_{t}^{2} = \text{va ri an ce on da y} t;
 $$
 
 $$
-x _ {t - 1} - \bar {x} = \text {d e v i a t i o n f r o m}
+x_{t - 1} - \bar {x} = \text{de vi at io nf ro m}
 $$
 
 $a$  and  $b$  are the parameters to be estimated typically using regression analysis.
@@ -5581,7 +5580,7 @@ the direction, of the deviation. Use of the deviation on day  $t - 1$  means tha
 The ARCH model given by equation (18-1) can be generalized in several ways. First, information for days prior to  $t - 1$  are ignored in the ARCH model. If information is believed to be provided by older data, information about days prior to  $t - 1$  can be incorporated into equation (18-1) by using the squared deviations for several prior days. For example, suppose that three prior days are believed to provide information. Then equation (18-1) can be generalized to
 
 $$
-\sigma_ {t} ^ {2} = a + b _ {1} \left(x _ {t - 1} - \bar {x}\right) ^ {2} + b _ {2} \left(x _ {t - 2} - \bar {x}\right) ^ {2} + b _ {3} \left(x _ {t - 3} - \bar {x}\right) ^ {2}, \tag {18-2}
+\sigma_{t}^{2} = a + b_{1} \left(x_{t - 1} - \bar {x}\right)^{2} + b_{2} \left(x_{t - 2} - \bar {x}\right)^{2} + b_{3} \left(x_{t - 3} - \bar {x}\right)^{2}, \tag {18-2}
 $$
 
 where  $a, b_1, b_2, b_3,$  and  $b_4$  are parameters to be estimated using regression.
@@ -5589,7 +5588,7 @@ where  $a, b_1, b_2, b_3,$  and  $b_4$  are parameters to be estimated using reg
 A second way that the ARCH model has been generalized is to include not only squared deviations from prior days as a random variable on which the variance is conditional but also the estimated variance for prior days. For example, the following equation generalizes equation (18-1) for the case where the variance at time  $t$  is conditional on the deviation squared at time  $t - 1$  and the variance at time  $t - 1$ :
 
 $$
-\sigma_ {t} ^ {2} = a + b \left(x _ {t - 1} - \bar {x}\right) ^ {2} + c \sigma_ {t - 1} ^ {2}. \tag {18-3}
+\sigma_{t}^{2} = a + b \left(x_{t - 1} - \bar {x}\right)^{2} + c \sigma_{t - 1}^{2}. \tag {18-3}
 $$
 
 Now there is a third parameter,  $c$ , to be estimated by regression analysis in addition to  $a$  and  $b$ .
@@ -5597,7 +5596,7 @@ Now there is a third parameter,  $c$ , to be estimated by regression analysis in
 The ARCH model can be further generalized by combining further lags (i.e., use information for days prior to day  $t - 1$ ) for both the squared deviations (as done in equation (18-2)) and the prior variances (as done in equation (18-3)). For example, suppose that the variance at time  $t$  is assumed to be conditional on three prior periods of squared deviations and two prior variances; then equation (18-1) can be generalized as follows:
 
 $$
-\sigma_ {t} ^ {2} = a + b _ {1} \left(x _ {t - 1} - \bar {x}\right) ^ {2} + b _ {2} \left(x _ {t - 2} - \bar {x}\right) ^ {2} + b _ {3} \left(x _ {t - 3} - \bar {x}\right) ^ {2} + c _ {1} \sigma_ {t - 1} ^ {2} + c _ {2} \sigma_ {t - 1} ^ {2}. \tag {18-4}
+\sigma_{t}^{2} = a + b_{1} \left(x_{t - 1} - \bar {x}\right)^{2} + b_{2} \left(x_{t - 2} - \bar {x}\right)^{2} + b_{3} \left(x_{t - 3} - \bar {x}\right)^{2} + c_{1} \sigma_{t - 1}^{2} + c_{2} \sigma_{t - 1}^{2}. \tag {18-4}
 $$
 
 The models given by equations (18-2)-(18-4) are referred to as the generalized ARCH or GARCH model that was developed by Bollerslev. Because the GARCH models depend on the number of prior squared deviations and the number of prior variances, the convention in the market is to use the notation  $\mathrm{GARCH}(i,j)$  to describe the model where  $i$  indicates the number of prior squared deviations and  $j$  the number of prior variances.
@@ -5705,13 +5704,13 @@ $$
 The mean reversion term,  $\rho(t)$ , depends on the interest-rate local volatility as follows:
 
 $$
-\rho (t) = \frac {d}{d t} \ln [ \sigma (t) ] = \frac {\sigma^ {\prime} (t)}{\sigma (t)}.
+\rho (t) = \frac{d}{d t} \ln [ \sigma (t) ] = \frac{\sigma^{\prime} (t)}{\sigma (t)}.
 $$
 
 which gives
 
 $$
-d \ln (r) = \left\{\theta (t) + \left[ \frac {\sigma^ {\prime} (t)}{\sigma (t)} \right] \ln (r) \right\} d t + \sigma (t) d z. \tag {19-5}
+d \ln (r) = \left\{\theta (t) + \left[ \frac{\sigma^{\prime} (t)}{\sigma (t)} \right] \ln (r) \right\} d t + \sigma (t) d z. \tag {19-5}
 $$
 
 Comparing the BDT model given by equation (19-5) with the KWF model given by equation (19-3), we observe that if the volatility term structure is flat so that  $\sigma(t)$  is constant, then  $\sigma'(t) = 0$  and  $\rho(t) = 0$ , so the BDT model reduces to the KWF model. In this sense, the KWF model is a special case of the BDT model for constant local volatility. When the local volatility term structure is decreasing (i.e., if  $\sigma'(t) < 0$ ), the BDT model will exhibit mean reversion. If  $\sigma'(t) > 0$  (i.e., if the local volatility term structure is increasing), the BDT model will not exhibit mean reversion. Hence mean reversion depends entirely on the shape of the local volatility term structure.
@@ -5767,7 +5766,7 @@ Today  $t_1$  t2 t3 t4
 values for the interest rate next period in the binomial lattice are  $r_{1,1}$  and  $r_{2,1}$ , and the no-arbitrage property is satisfied by the following constraint, which requires the one-period spot rate, followed by the one-period rate at the next time step,  $r_{1,1}$  or  $r_{2,1}$ , to be equal to the two-period spot rate:
 
 $$
-\left(1 + \frac {1}{2} z\right) ^ {2} = \left(1 + \frac {1}{2} r _ {1, 0}\right) \left[ p _ {u} \left(1 + \frac {1}{2} r _ {1, 1}\right) + p _ {d} \left(1 + \frac {1}{2} r _ {2, 1}\right) \right], \tag {19-8}
+\left(1 + \frac{1}{2} z\right)^{2} = \left(1 + \frac{1}{2} r_{1, 0}\right) \left[ p_{u} \left(1 + \frac{1}{2} r_{1, 1}\right) + p_{d} \left(1 + \frac{1}{2} r_{2, 1}\right) \right], \tag {19-8}
 $$
 
 where  $p_u$  and  $p_d$  are the probabilities of the up and down move, respectively. Imposing the no-arbitrage constraint ensures that pricing option-free bonds using the interest-rate lattice generates prices that are consistent with the observed spot curve produced from market prices. Because of this property, the no-arbitrage models have practical appeal and are useful for pricing and risk-management purposes.
@@ -6140,7 +6139,7 @@ the price of the underlying bond changes. Once again, because of the convexity o
 The slope of the tangent line shows how the theoretical call option price will change for small changes in the price of the underlying bond. The slope of the tangent line is commonly referred to as the delta of the option.<sup>8</sup> Specifically,
 
 $$
-\mathrm {D e l t a} = \frac {\text {c h a n g e i n p r i c e o f c a l l o p t i o n}}{\text {c h a n g e i n p r i c e o f u n d e r l y i n g b o n d}}.
+\mathrm{De lt a} = \frac{\text{ch an ge in pr ic eo fc al lo pt io n}}{\text{ch an ge in pr ic eo fu nd er ly in gb on d}}.
 $$
 
 For example, a delta of 0.5 means that a \$1 change in the price of the underlying bond will change the price of the call option by \$0.50.
@@ -6162,7 +6161,7 @@ Thus the delta for a call option varies from 0 (for call options deep out of the
 Related to the delta is the lambda of an option, which measures the percentage change in the price of the option for a  $1\%$  change in the price of the underlying bond. That is,
 
 $$
-\mathrm {L a m b d a} = \frac {\text {p e r c e n t a g e c h a n g e i n t h e p r i c e o f t h e c a l l o p t i o n}}{\text {p e r c e n t a g e c h a n g e i n t h e p r i c e o f t h e u n d e r l y i n g b o n d}}.
+\mathrm{La mb da} = \frac{\text{pe rc en ta ge ch an ge in th ep ri ce of th ec al lo pt io n}}{\text{pe rc en ta ge ch an ge in th ep ri ce of th eu nd er ly in gb on d}}.
 $$
 
 For example, a lambda of 1.5 indicates that if the price of the call option changes by  $1\%$ , the call option's price will change by  $1.5\%$ . The lambda of a call option will be greater than 1 because of the leverage offered by an option. As the price of the underlying bond increases, the option's lambda decreases.
@@ -6170,7 +6169,7 @@ For example, a lambda of 1.5 indicates that if the price of the call option chan
 In Chapter 14 we measured the convexity of an option-free bond. We also can measure the convexity of a call option. Recall from Chapter 14 that the convexity of a bond measures the rate of change in dollar duration. For call options, convexity measures the rate of change in delta. The measure of convexity for options is commonly referred to as gamma, defined as follows:
 
 $$
-G a m m a = \frac {\text {c h a n g e i n d e l t a}}{\text {c h a n g e i n p r i c e o f u n d e r l y i n g b o n d}}.
+G a m m a = \frac{\text{ch an ge in de lt a}}{\text{ch an ge in pr ic eo fu nd er ly in gb on d}}.
 $$
 
 # The Call Option Price and Time to Expiration
@@ -6178,7 +6177,7 @@ $$
 All other factors constant, the longer the time to expiration, the higher is the option price. Because each day the option moves closer to the expiration date, the time to expiration decreases. The theta of an option measures the change in the option price as the time to expiration decreases. That is,
 
 $$
-\text {T h e t a} = \frac {\text {c h a n g e i n p r i c e o f o p t i o n}}{\text {d e c r e a s e i n t i m e t o e x p i r a t i o n}}.
+\text{Th et a} = \frac{\text{ch an ge in pr ic eo fo pt io n}}{\text{de cr ea se in ti me to ex pi ra ti on}}.
 $$
 
 Assuming that the price of the underlying bond does not change so that the intrinsic value of the option does not change, theta measures how quickly the time value of the option changes as the option moves toward expiration.
@@ -6188,7 +6187,7 @@ Assuming that the price of the underlying bond does not change so that the intri
 All other factors constant, a change in the expected interest-rate volatility will change the option price. The kappa (or vega) of an option measures the dollar change in the price of the option for a  $1\%$  change in the expected interest-rate volatility. That is,
 
 $$
-\text {Kappa (vega)} = \frac {\text {change in option price}}{1 \% \text {change in expected interest-rate volatility}}.
+\text{Kappa (vega)} = \frac{\text{changeinoptionprice}}{1 \% \text{changeinexpectedinterest-ratevolatility}}.
 $$
 
 # DURATION OF AN OPTION
@@ -6198,7 +6197,7 @@ The modified duration of a bond is an indicator of its price sensitivity to chan
 Modified duration for an option
 
 $$
-\begin{array}{l} = \left( \begin{array}{c} \text {m o d i f i e d d u r a t i o n o f t h e} \\ \text {u n d e r l y i n g i n s t r u m e n t} \end{array} \right) \times \text {d e l t a} \\ \times \left(\frac {\text {p r i c e o f u n d e r l y i n g i n s t r u m e n t}}{\text {p r i c e o f o p t i o n}}\right) \\ \end{array}
+\begin{array}{l} = \left( \begin{array}{c} \text{mo di fi ed du ra ti on of th e} \\ \text{un de rl yi ng in st ru me nt} \end{array} \right) \times \text{de lt a} \\ \times \left(\frac{\text{pr ic eo fu nd er ly in gi ns tr um en t}}{\text{pr ic eo fo pt io n}}\right) \\ \end{array}
 $$
 
 Therefore, the modified duration for an option depends on three factors: (1) the modified duration of the underlying instrument, (2) the delta of the option, and (3) the ratio of the price of the underlying instrument to the price of the option. This last factor can be thought of as a measure of the "leverage" in the option.
@@ -6208,7 +6207,7 @@ Therefore, the modified duration for an option depends on three factors: (1) the
 There is a relationship between the price of a call option and the price of a put option on the same underlying bond with the same strike price and the same expiration date. This relationship is commonly referred to as the put-call parity relationship. For coupon-bearing bonds it is
 
 $$
-\begin{array}{l} \text {P u t p r i c e} = \text {c a l l p r i c e} + \text {p r e s e n t v a l u e o f s t r i k e p r i c e} \\ + \text {p r e s e n t v a l u e o f c o u p o n} - \text {p r i c e o f u n d e r l y b o n d} \\ \end{array}
+\begin{array}{l} \text{Pu tp ri ce} = \text{ca ll pr ic e} + \text{pr es en tv al ue of st ri ke pr ic e} \\ + \text{pr es en tv al ue of co up on} - \text{pr ic eo fu nd er ly bo nd} \\ \end{array}
 $$
 
 This relationship is one form of the put-call parity relationship for European options. It is approximately true for American options. The relationship is based on arbitrage arguments.
@@ -6324,13 +6323,13 @@ Current 1-year forward rate  $= 3.500\%$
 Now consider an option-free bond with 3 years remaining to maturity and a coupon rate of  $5.25\%$ . The value of this bond can be calculated in one of two ways, both producing the same value. First, the coupon payments can be discounted at the zero-coupon rates as shown below:
 
 $$
-\frac {\mathbb {S} 5 . 2 5}{(1 . 0 3 5)} + \frac {\mathbb {S} 5 . 2 5}{(1 . 0 4 0 1) ^ {2}} + \frac {\mathbb {S} 1 0 0 + \mathbb {S} 5 . 2 5}{(1 . 0 4 5 3 1) ^ {3}} = \mathbb {S} 1 0 2. 0 7 5.
+\frac{\mathbb {S} 5 . 2 5}{(1 . 0 3 5)} + \frac{\mathbb {S} 5 . 2 5}{(1 . 0 4 0 1)^{2}} + \frac{\mathbb {S} 1 0 0 + \mathbb {S} 5 . 2 5}{(1 . 0 4 5 3 1)^{3}} = \mathbb {S} 1 0 2. 0 7 5.
 $$
 
 The second way is to discount by the 1-year forward rates as shown below:
 
 $$
-\frac {\mathbb {S} 5 . 2 5}{(1 . 0 3 5)} + \frac {\mathbb {S} 5 . 2 5}{(1 . 0 3 5) (1 . 0 4 5 2 3)} + \frac {\mathbb {S} 1 0 0 + \mathbb {S} 5 . 2 5}{(1 . 0 3 5) (1 . 0 4 5 2 3) (1 . 0 5 5 8)} = \mathbb {S} 1 0 2. 0 7 5.
+\frac{\mathbb {S} 5 . 2 5}{(1 . 0 3 5)} + \frac{\mathbb {S} 5 . 2 5}{(1 . 0 3 5) (1 . 0 4 5 2 3)} + \frac{\mathbb {S} 1 0 0 + \mathbb {S} 5 . 2 5}{(1 . 0 3 5) (1 . 0 4 5 2 3) (1 . 0 5 5 8)} = \mathbb {S} 1 0 2. 0 7 5.
 $$
 
 # Lattice Interest-Rate Tree
@@ -6358,7 +6357,7 @@ $r_{1,H} =$  higher 1-year forward rate 1 year from now.
 The relationship between  $r_{1,L}$  and  $r_{1,H}$  is as follows:
 
 $$
-r _ {1, H} = r _ {1, L} (e ^ {2 \sigma})
+r_{1, H} = r_{1, L} (e^{2 \sigma})
 $$
 
 where  $e$  is the basis of the natural logarithm, 2.71828. For example, suppose that  $r_{1,L}$  is  $4.074\%$  and  $\sigma$  is  $10\%$  per year. Then
@@ -6378,19 +6377,19 @@ $r_{2,HL} = 1$ -year forward rate in the second year assuming the higher forward
 The relationship between  $r_{2,LL}$  and the other two forward rates is as follows:
 
 $$
-r _ {2, H H} = r _ {2, L L} \left(e ^ {4 \sigma}\right)
+r_{2, H H} = r_{2, L L} \left(e^{4 \sigma}\right)
 $$
 
 and
 
 $$
-r _ {2, H L} = r _ {2, L L} (e ^ {2 \sigma}).
+r_{2, H L} = r_{2, L L} (e^{2 \sigma}).
 $$
 
 So, for example, if  $r_{2,LL}$  is  $4.53\%$ , and assuming once again that  $\sigma$  is  $10\%$ , then
 
 $$
-r _ {2, H H} = 4.53 \% (e ^ {4 \times 10}) = 6.757 \%
+r_{2, H H} = 4.53 \% (e^{4 \times 10}) = 6.757 \%
 $$
 
 and
@@ -6455,7 +6454,7 @@ $\frac{V_L + C}{(1 + r^*)} =$  present value for the lower 1-year forward rate.
 Then the value of the bond at the node is found as follows:
 
 $$
-\text {V a l u e} = \frac {1}{2} \left[ \frac {V _ {H} + C}{\left(1 + r ^ {*}\right)} + \frac {V _ {L} + C}{\left(1 + r ^ {*}\right)} \right].
+\text{Va lu e} = \frac{1}{2} \left[ \frac{V_{H} + C}{\left(1 + r^{*}\right)} + \frac{V_{L} + C}{\left(1 + r^{*}\right)} \right].
 $$
 
 # Constructing the Binomial Interest-Rate Tree
@@ -6488,25 +6487,25 @@ example. The present value is  $98.582 (=$ 104/1.05496). This is the value of  $
 3e. Calculate the present value of the two values using the 1-year forward rate  $r^*$ . At this point in the valuation,  $r^*$  is the root rate,  $3.50\%$ . Therefore,
 
 $$
-\frac {V _ {H} + C}{1 + r ^ {*}} = \frac {\$ 1 0 2 . 5 8 2}{1 . 0 3 5} = \$ 9 9. 1 1 3
+\frac{V_{H} + C}{1 + r^{*}} = \frac{\$ 1 0 2 . 5 8 2}{1 . 0 3 5} = \$ 9 9. 1 1 3
 $$
 
 and
 
 $$
-\frac {V _ {L} + C}{1 + r ^ {*}} = \frac {\mathbb {S} 1 0 3 . 5 2 2}{1 . 0 3 5} = \mathbb {S} 1 0 0. 0 2 1.
+\frac{V_{L} + C}{1 + r^{*}} = \frac{\mathbb {S} 1 0 3 . 5 2 2}{1 . 0 3 5} = \mathbb {S} 1 0 0. 0 2 1.
 $$
 
 Step 4. Calculate the average present value of the two cash flows in Step 3. This is the value we referred to earlier as
 
 $$
-\text {V a l u e} = \frac {1}{2} \left[ \frac {V _ {H} + C}{(1 + r ^ {*})} + \frac {V _ {L} + C}{(1 + r ^ {*})} \right].
+\text{Va lu e} = \frac{1}{2} \left[ \frac{V_{H} + C}{(1 + r^{*})} + \frac{V_{L} + C}{(1 + r^{*})} \right].
 $$
 
 In our example we have
 
 $$
-\text {V a l u e} = \frac {1}{2} (\$ 9 9. 1 1 3 + \$ 1 0 0. 0 2 1) = \$ 9 9. 5 6 7.
+\text{Va lu e} = \frac{1}{2} (\$ 9 9. 1 1 3 + \$ 1 0 0. 0 2 1) = \$ 9 9. 5 6 7.
 $$
 
 Step 5. Compare the value in Step 4 to the bond's market value. If the two values are the same, then the  $r_1$  used in this trial is the one we seek. This is the 1-year forward rate that would then be used in the binomial interest-rate tree for the lower forward rate and the corresponding higher forward rate. If, instead, the value found in Step 4 is not equal to the market value of the bond, this means that the value  $r_1$  in this trial is not the 1-year forward rate that is consistent with (1) the volatility assumption of  $10\%$ , (2) the process assumed to generate the 1-year forward rate, and (3) the observed market value of the bond. In this case the five steps are repeated with a different value for  $r_1$ .
@@ -6535,13 +6534,13 @@ The 1-Year Forward Rates for Year 1 by Using the 2-Year,  $4\%$  On-the-Run Issu
 3e. The present value of the two cash flows using the 1-year forward rate at the node to the left,  $3.5\%$ , gives
 
 $$
-\frac {V _ {H} + C}{(1 + r ^ {*})} = \frac {\mathbb {S} 1 0 3 . 0 7 1}{1 . 0 3 5} = \mathbb {S} 9 9. 5 8 6
+\frac{V_{H} + C}{(1 + r^{*})} = \frac{\mathbb {S} 1 0 3 . 0 7 1}{1 . 0 3 5} = \mathbb {S} 9 9. 5 8 6
 $$
 
 and
 
 $$
-\frac {V _ {L} + C}{1 + r ^ {*}} = \frac {\mathbb {S} 1 0 3 . 9 2 9}{1 . 0 3 5} = \mathbb {S} 1 0 0. 4 1 4.
+\frac{V_{L} + C}{1 + r^{*}} = \frac{\mathbb {S} 1 0 3 . 9 2 9}{1 . 0 3 5} = \mathbb {S} 1 0 0. 4 1 4.
 $$
 
 Step 4. The average present value is \$100, which is the value at the node.
@@ -6671,7 +6670,7 @@ options because the expected cash flows change as interest rates change. For exa
 While modified duration may be inappropriate as a measure of a bond's price sensitivity to interest-rate changes, there is a duration measure that is more appropriate for bonds with embedded options. Because duration measures price responsiveness to changes in interest rates, the duration for a bond with an embedded option can be estimated by letting interest rates change by a small number of basis points above and below the prevailing yield and seeing how the prices change. As explained and illustrated in Chapter 13, the duration for any bond can be approximated as follows:
 
 $$
-\text {A p p r o x i m a t e} = \frac {V _ {-} - V _ {+}}{2 V _ {0} (\Delta y)},
+\text{Ap pr ox im at e} = \frac{V_{-} - V_{+}}{2 V_{0} (\Delta y)},
 $$
 
 where
@@ -6709,7 +6708,7 @@ To determine the value of  $V_{-}$ , the same five steps are followed except tha
 Let's return to the example of the callable  $5.25\%$  3-year bond. Given the yield curve and volatility assumptions we have been using,  $V_{0}$  is  $\$101.432$ . Following the five steps above for a shift of the yield curve by 10 basis points down and up gives values for  $V_{-}$  and  $V_{+}$  of  $\$101.628$  and  $\$101.234$ , respectively. The effective duration is then
 
 $$
-\text {E f f e c t i v e} = \frac {\mathbb {S} 1 0 1 . 6 2 8 - \mathbb {S} 1 0 1 . 2 3 4}{2 (1 0 1 . 4 3 2) (0 . 0 0 1)} = 1. 9 4.
+\text{Ef fe ct iv e} = \frac{\mathbb {S} 1 0 1 . 6 2 8 - \mathbb {S} 1 0 1 . 2 3 4}{2 (1 0 1 . 4 3 2) (0 . 0 0 1)} = 1. 9 4.
 $$
 
 # Effective Convexity
@@ -6717,7 +6716,7 @@ $$
 In the same manner, the standard convexity measure explained in Chapter 14 may be inappropriate for a bond with embedded options because it does not consider the effect of a change in interest rates on the bond's cash flow. The convexity of any bond can be approximated using the following formula:
 
 $$
-\text {C o n v e x i t y} = \frac {V _ {+} + V _ {-} - 2 V _ {0}}{V _ {0} (\Delta y) ^ {2}}.
+\text{Co nv ex it y} = \frac{V_{+} + V_{-} - 2 V_{0}}{V_{0} (\Delta y)^{2}}.
 $$
 
 The values in the formula are the same values used in the duration formula.
@@ -6725,7 +6724,7 @@ The values in the formula are the same values used in the duration formula.
 When the prices used in this formula assume that the cash flows do not change when yields change, the resulting convexity is a good approximation of the standard convexity for an option-free bond. When the prices used in the formula are derived by changing the cash flows when yields change, the resulting convexity is called effective convexity or option-adjusted convexity. In our illustration, the effective convexity is
 
 $$
-\text {E f f e c t i v e} = \frac {\mathbb {S} 1 0 1 . 6 2 8 + \mathbb {S} 1 0 1 . 2 3 4 - 2 (1 0 1 . 4 3 2)}{(1 0 1 . 4 3 2) (0 . 0 0 1) ^ {2}} = 6. 7 7.
+\text{Ef fe ct iv e} = \frac{\mathbb {S} 1 0 1 . 6 2 8 + \mathbb {S} 1 0 1 . 2 3 4 - 2 (1 0 1 . 4 3 2)}{(1 0 1 . 4 3 2) (0 . 0 0 1)^{2}} = 6. 7 7.
 $$
 
 This page intentionally left blank
@@ -6898,13 +6897,13 @@ Exhibit 22-2 shows the value of the note if it were not callable. The coupon in 
 Consider a floater with a coupon indexed to the 1-year rate (the reference rate) plus a spread. For our purposes, assume a 25 basis point spread (i.e., quoted margin) to the reference rate. In Exhibit 22-4 we use the tree from Exhibit 22-2, and as was the case with the option-free fixed-rate coupon bond, at each node we have entered the cash flow expected at the end of each period. Using the same valuation method as before, we can find the value at each node. Consider  $N_{HLL}$ :
 
 $$
-V _ {3} \left[ N _ {H L L} \right] = 0. 5 \left(\frac {1 0 0 + 6 . 4 1 6}{1 . 0 6 1 6 6}\right) + 0. 5 \left(\frac {1 0 0 + 6 . 4 1 6}{1 . 0 6 1 6 6}\right) = \$ 1 0 0. 2 3 5.
+V_{3} \left[ N_{H L L} \right] = 0. 5 \left(\frac{1 0 0 + 6 . 4 1 6}{1 . 0 6 1 6 6}\right) + 0. 5 \left(\frac{1 0 0 + 6 . 4 1 6}{1 . 0 6 1 6 6}\right) = \$ 1 0 0. 2 3 5.
 $$
 
 Stepping back one period,
 
 $$
-V _ {2} \left[ N _ {L L} \right] = 0. 5 \left(\frac {1 0 0 . 2 3 5 + 4 . 9 4 5 8}{1 . 0 4 6 9 5 8}\right) + 0. 5 \left(\frac {1 0 0 . 2 3 8 + 4 . 9 4 5 8}{1 . 0 4 6 9 5 8 6}\right) = \$ 1 0 0. 4 6 5.
+V_{2} \left[ N_{L L} \right] = 0. 5 \left(\frac{1 0 0 . 2 3 5 + 4 . 9 4 5 8}{1 . 0 4 6 9 5 8}\right) + 0. 5 \left(\frac{1 0 0 . 2 3 8 + 4 . 9 4 5 8}{1 . 0 4 6 9 5 8 6}\right) = \$ 1 0 0. 4 6 5.
 $$
 
 Valuing a Single Step-up Noncallable Note with 4 Years to Maturity (10% Volatility Assumed)
@@ -6920,13 +6919,13 @@ Following this same procedure, we arrive at the price of \(100.893. How would th
 Assume that the cap is  $7.25\%$ . Exhibit 22-5 provides a picture of the effects of the cap on the value of the bond. As rates move higher, there is a possibility that the current reference rate exceeds the cap. Such is the case at  $N_{HHH}$  and  $N_{HHL}$ . The coupon is subject to the following constraint:
 
 $$
-C _ {t} = \max  \left[ R _ {t}, 7.25 \% \right].
+C_{t} = \max  \left[ R_{t}, 7.25 \% \right].
 $$
 
 As a result of the cap, the value of the bond in the upper nodes at  $t = 4$  falls below par. Explicitly,
 
 $$
-V _ {3} \left[ N _ {H H H} \right] = 0. 5 \left(\frac {1 0 0 + 7 . 2 5}{1 . 0 9 1 8 7}\right) + 0. 5 \left(\frac {1 0 0 + 7 . 2 5}{1 . 0 9 1 8 7}\right) = \$ 9 8. 2 5.
+V_{3} \left[ N_{H H H} \right] = 0. 5 \left(\frac{1 0 0 + 7 . 2 5}{1 . 0 9 1 8 7}\right) + 0. 5 \left(\frac{1 0 0 + 7 . 2 5}{1 . 0 9 1 8 7}\right) = \$ 9 8. 2 5.
 $$
 
 Valuing recursively through the tree, we arrive at the current value of the capped floater, \$100.516. This last calculation gives us a means for pricing the cap. Without a cap, the bond is priced at \$100.893. With the cap, it is priced at \$100.516. The difference between these two prices is the value of the cap, \$0.377. It is
@@ -7189,7 +7188,7 @@ An important tool in credit risk management is a credit-scoring model. The stati
 Below we discuss each of these statistical techniques. All the models have a similar structure, given in general linear form by
 
 $$
-Y = a + b _ {1} X _ {1} + b _ {2} X _ {2} + \dots + b _ {K} X _ {K} + e,
+Y = a + b_{1} X_{1} + b_{2} X_{2} + \dots + b_{K} X_{K} + e,
 $$
 
 where
@@ -7217,7 +7216,7 @@ From the above description of MDA, it can be seen why it has been applied to the
 In one of Altman's earlier models, referred to as the  $Z$ -score model, he found that the following MDA could be used to predict corporate bankruptcy<sup>10</sup>:
 
 $$
-Z = 1. 2 X _ {1} + 1. 4 X _ {2} + 3. 3 X _ {3} + 0. 6 X _ {4} + 1. 0 X _ {5},
+Z = 1. 2 X_{1} + 1. 4 X_{2} + 3. 3 X_{3} + 0. 6 X_{4} + 1. 0 X_{5},
 $$
 
 where
@@ -7265,7 +7264,7 @@ A major drawback of the linear probability model is that the predicted value may
 The probit regression model is a nonlinear regression model in which the dependent variable is a binary variable. The predicted values are between 0 and 1 because what is being predicted is the standard normal cumulative probability distribution. The general form for the probit regression model is
 
 $$
-\text {P r o b a b i l i t y} (Y = 1 \mid X _ {1}, X _ {2}, \dots , X _ {K}) = N \left(a + b _ {1} X _ {1} + b _ {2} X _ {2} + \dots + b _ {K} X _ {K}\right),
+\text{Pr ob ab il it y} (Y = 1 \mid X_{1}, X_{2}, \dots , X_{K}) = N \left(a + b_{1} X_{1} + b_{2} X_{2} + \dots + b_{K} X_{K}\right),
 $$
 
 where  $N$  is the cumulative standard normal distribution function. The method for estimating the parameters is beyond the scope of this chapter.
@@ -7273,13 +7272,13 @@ where  $N$  is the cumulative standard normal distribution function. The method 
 To illustrate the model, suppose that there are three factors that have been found historically to explain defaults. The probit regression model is then
 
 $$
-\operatorname {P r o b a b i l i t y} (Y = 1 \mid X _ {1}, X _ {2}, X _ {3}) = N \left(a + b _ {1} X _ {1} + b _ {2} X _ {2} + b _ {3} X _ {3}\right).
+\operatorname{Pr ob ab il it y} (Y = 1 \mid X_{1}, X_{2}, X_{3}) = N \left(a + b_{1} X_{1} + b_{2} X_{2} + b_{3} X_{3}\right).
 $$
 
 Suppose that the following parameters are estimated:  $a = -2.1$ ;  $b_{1} = 1.9$ ;  $b_{2} = 0.3$ ; and  $b_{3} = 0.8$ . Then
 
 $$
-N \left(a + b _ {1} X _ {1} + b _ {2} X _ {2} + b _ {3} X _ {3}\right) = N (- 2. 1 + 1. 9 X _ {1} + 0. 3 X _ {2} + 0. 8 X _ {3}).
+N \left(a + b_{1} X_{1} + b_{2} X_{2} + b_{3} X_{3}\right) = N (- 2. 1 + 1. 9 X_{1} + 0. 3 X_{2} + 0. 8 X_{3}).
 $$
 
 Now suppose that the probability of default of a borrower with the following values for the independent variables is sought:  $X_{1} = 0.2$ ;  $X_{2} = 0.9$ ; and  $X_{3} = 1.0$ . Substituting these values, we get
@@ -7299,19 +7298,19 @@ probability distribution, it is the standard cumulative probability distribution
 The general formula for the logit regression model is
 
 $$
-\begin{array}{l} \text {P r o b a b i l i t y} (Y = 1 \mid X _ {1}, X _ {2}, \dots , X _ {K}) = F \left(a + b _ {1} X _ {1} + b _ {2} X _ {2} + \dots + b _ {K} X _ {K}\right) \\ = 1 / \left(1 + e ^ {- W}\right), \\ \end{array}
+\begin{array}{l} \text{Pr ob ab il it y} (Y = 1 \mid X_{1}, X_{2}, \dots , X_{K}) = F \left(a + b_{1} X_{1} + b_{2} X_{2} + \dots + b_{K} X_{K}\right) \\ = 1 / \left(1 + e^{- W}\right), \\ \end{array}
 $$
 
 where
 
 $$
-W = a + b _ {1} X _ {1} + b _ {2} X _ {2} + \dots + b _ {K} X _ {K}.
+W = a + b_{1} X_{1} + b_{2} X_{2} + \dots + b_{K} X_{K}.
 $$
 
 Using our previous illustration,  $W = -0.65$ . Therefore,
 
 $$
-1 / (1 + e ^ {- W}) = 1 / (1 + e ^ {- (-0.65)}) = 34.3\%.
+1 / (1 + e^{- W}) = 1 / (1 + e^{- (-0.65)}) = 34.3\%.
 $$
 
 Hence the probability of default for the borrower with these characteristics is  $34.3\%$ .
@@ -7375,19 +7374,19 @@ $\Delta s =$  change in the credit spread.
 The absolute percentage change in price due to a change in the spread is
 
 $$
-\left| \frac {\Delta P _ {\mathrm {s p r e a d}}}{P} \right|.
+\left| \frac{\Delta P_{\mathrm{sp re ad}}}{P} \right|.
 $$
 
 Then
 
 $$
-\left| \frac {\Delta P _ {\text {s p r e a d}}}{P} \right| = D _ {\text {s p r e a d}} (\Delta s)
+\left| \frac{\Delta P_{\text{sp re ad}}}{P} \right| = D_{\text{sp re ad}} (\Delta s)
 $$
 
 If we multiply the numerator and the denominator on the right-hand side of this equation by the credit spread  $s$ , we get
 
 $$
-\left| \frac {\Delta P _ {\mathrm {s p r e a d}}}{P} \right| = D _ {\mathrm {s p r e a d}} s \frac {\Delta s}{s}.
+\left| \frac{\Delta P_{\mathrm{sp re ad}}}{P} \right| = D_{\mathrm{sp re ad}} s \frac{\Delta s}{s}.
 $$
 
 This equation tells us that the percentage change in price is the product of three terms: credit spread duration ( $D_{\mathrm{spread}}$ ), credit spread ( $s$ ), and percentage change in the spread ( $\Delta s / s$ ). The product of the first two terms is DTS.
@@ -7572,13 +7571,13 @@ The proprietary product developed by Barclays, called the Liquidity Cost Score (
 Calculation of the LCS for a particular bond depends on whether there are real-time bid-ask quotes available from the firm's trading desks, or the bid-ask spreads need to be estimated. If bid-ask quotes are available, LCS is computed in one of two conceptually similar ways depending on whether the bond is quoted on spread to Treasuries (e.g., U.S. dollar investment-grade credit) or price (e.g., U.S. dollar high yield and essentially all non-U.S. bond markets):
 
 $$
-\mathrm {L C S} = (\text {b i d s p r e a d - a s k s p r e a d}) \times \mathrm {O A S D}
+\mathrm{LC S} = (\text{bi ds pr ea d -a sk sp re ad}) \times \mathrm{OA SD}
 $$
 
 if the bond is spread quoted, and
 
 $$
-\mathrm {L C S} = \frac {\text {a s k p r i c e - b i d p r i c e}}{\text {b i d p r i c e}}
+\mathrm{LC S} = \frac{\text{as kp ri ce -b id pr ic e}}{\text{bi dp ri ce}}
 $$
 
 if the bond is price quoted, where OASD is the option-adjusted spread duration.
@@ -7676,7 +7675,7 @@ The contract defines the interest rate (i.e., contract rate), the term of the lo
 In Chapter 3 we explained the calculation of the present value of an ordinary annuity. To compute the monthly mortgage payment for a level-payment fixed-rate mortgage requires application of the formula for the present value of an ordinary annuity formula, which is
 
 $$
-P V = A \left\{\frac {1 - \left[ \frac {1}{(1 + i) ^ {n}} \right]}{i} \right\},
+P V = A \left\{\frac{1 - \left[ \frac{1}{(1 + i)^{n}} \right]}{i} \right\},
 $$
 
 where
@@ -7692,7 +7691,7 @@ $n =$  number of periods.
 We can redefine these terms to yield a formula for a level-payment fixed-rate mortgage as follows:
 
 $$
-M B _ {0} = M P \left\{\frac {1 - \left[ \frac {1}{(1 + i) ^ {n}} \right]}{i} \right\},
+M B_{0} = M P \left\{\frac{1 - \left[ \frac{1}{(1 + i)^{n}} \right]}{i} \right\},
 $$
 
 where
@@ -7708,19 +7707,19 @@ $n =$  number of months.
 Solving for the monthly mortgage payment  $(MP)$  gives
 
 $$
-M P = \frac {M B _ {0}}{\left\{ \begin{array}{l} 1 - \left[ \frac {1}{(1 + i) ^ {n}} \right] \\ \hline i \end{array} \right\}}.
+M P = \frac{M B_{0}}{\left\{ \begin{array}{l} 1 - \left[ \frac{1}{(1 + i)^{n}} \right] \\ \hline i \end{array} \right\}}.
 $$
 
 This can be expressed in a simplified form as follows:
 
 $$
-M P = M B _ {0} \left\{\frac {i (1 + i) ^ {n}}{[ (1 + i) ^ {n} - 1 ]} \right\}. \tag {25-1}
+M P = M B_{0} \left\{\frac{i (1 + i)^{n}}{[ (1 + i)^{n} - 1 ]} \right\}. \tag {25-1}
 $$
 
 Illustration 25-1. Suppose that a homeowner enters into a mortgage for \(100,000 for 360 months (30 years) at a mortgage rate of \(9.5\%\). The monthly mortgage payment is determined as follows:
 
 $$
-M B _ {0} = \$ 1 0 0, 0 0 0;
+M B_{0} = \$ 1 0 0, 0 0 0;
 $$
 
 $$
@@ -7734,7 +7733,7 @@ $$
 The monthly mortgage payment is then
 
 $$
-\begin{array}{l} M P = \$ 100,000 \left\{\frac {0 . 0 0 7 9 1 6 7 (1 . 0 0 7 9 1 6 7) ^ {3 6 0}}{[ (1 . 0 0 7 9 1 6 7) ^ {3 6 0} - 1 ]} \right\} \\ = \$ 100,000 \left\{\frac {0 . 0 0 7 9 1 6 7 (1 7 . 0 9 5)}{(1 7 . 0 9 5 - 1)} \right\} \\ = \$ 840.85. \\ \end{array}
+\begin{array}{l} M P = \$ 100,000 \left\{\frac{0 . 0 0 7 9 1 6 7 (1 . 0 0 7 9 1 6 7)^{3 6 0}}{[ (1 . 0 0 7 9 1 6 7)^{3 6 0} - 1 ]} \right\} \\ = \$ 100,000 \left\{\frac{0 . 0 0 7 9 1 6 7 (1 7 . 0 9 5)}{(1 7 . 0 9 5 - 1)} \right\} \\ = \$ 840.85. \\ \end{array}
 $$
 
 # CASH FLOW OF A LEVEL-PAYMENT FIXED-RATE MORTGAGE
@@ -7757,7 +7756,7 @@ As Exhibit 25-1 clearly shows, the portion of the monthly mortgage payment appli
 It is not necessary to construct an amortization schedule such as Exhibit 25-1 in order to determine the remaining mortgage balance for any month. The following formula can be used:
 
 $$
-M B _ {t} = M B _ {0} \left\{\frac {\left[ (1 + i) ^ {n} - (1 + i) ^ {t} \right]}{\left[ (1 + i) ^ {n} - 1 \right]} \right\}, \tag {25-2}
+M B_{t} = M B_{0} \left\{\frac{\left[ (1 + i)^{n} - (1 + i)^{t} \right]}{\left[ (1 + i)^{n} - 1 \right]} \right\}, \tag {25-2}
 $$
 
 where
@@ -7781,11 +7780,11 @@ Amortization Schedule for a Level-Payment Fixed-Rate Mortgage (Continued)
 Illustration 25-3. For the mortgage in Illustration 25-1, the mortgage balance after the 210th month is
 
 $$
-t = 2 1 0; M B _ {0} = \$ 1 0 0, 0 0 0; i = 0. 0 0 7 9 1 6 7; n = 3 6 0.
+t = 2 1 0; M B_{0} = \$ 1 0 0, 0 0 0; i = 0. 0 0 7 9 1 6 7; n = 3 6 0.
 $$
 
 $$
-\begin{array}{l} M B _ {2 1 0} = \$ 1 0 0, 0 0 0 \left\{\frac {\left[ (1 . 0 0 7 9 1 6 7) ^ {3 6 0} - (1 . 0 0 7 9 1 6 7) ^ {2 1 0} \right]}{\left[ (1 . 0 0 7 9 1 6 7) ^ {3 6 0} - 1 \right]} \right\} \\ = \$ 100,000 \left\{\frac {(17 . 0 9 5 - 5 . 2 3 8 1)}{(1 7 . 0 9 5 - 1)} \right\} = \$ 7 3, 6 6 8. \\ \end{array}
+\begin{array}{l} M B_{2 1 0} = \$ 1 0 0, 0 0 0 \left\{\frac{\left[ (1 . 0 0 7 9 1 6 7)^{3 6 0} - (1 . 0 0 7 9 1 6 7)^{2 1 0} \right]}{\left[ (1 . 0 0 7 9 1 6 7)^{3 6 0} - 1 \right]} \right\} \\ = \$ 100,000 \left\{\frac{(17 . 0 9 5 - 5 . 2 3 8 1)}{(1 7 . 0 9 5 - 1)} \right\} = \$ 7 3, 6 6 8. \\ \end{array}
 $$
 
 This agrees with the ending mortgage balance for month 210 shown in Exhibit 25-1.
@@ -7793,7 +7792,7 @@ This agrees with the ending mortgage balance for month 210 shown in Exhibit 25-1
 Another formula can be used to determine the amount of the scheduled principal repayment in month  $t$ :
 
 $$
-P _ {t} = M B _ {0} \left\{\frac {\left[ i (1 + i) ^ {t - 1} \right]}{\left[ (1 + i) ^ {n} - 1 \right]} \right\}, \tag {25-3}
+P_{t} = M B_{0} \left\{\frac{\left[ i (1 + i)^{t - 1} \right]}{\left[ (1 + i)^{n} - 1 \right]} \right\}, \tag {25-3}
 $$
 
 where  $P_{t}$  is scheduled principal repayment for month  $t$ .
@@ -7801,7 +7800,7 @@ where  $P_{t}$  is scheduled principal repayment for month  $t$ .
 Illustration 25-4. The scheduled principal repayment for the 210th month for the mortgage in Illustration 25-1 is
 
 $$
-\begin{array}{l} \$ 100,000 \left\{\frac {[ 0 . 0 0 7 9 1 6 7 (1 . 0 0 7 9 1 6 7) ^ {2 1 0 - 1} ]}{[ (1 . 0 0 7 9 1 6 7) ^ {3 6 0} - 1 ]} \right\} \\ = \$ 100,000 \left\{\frac {[ 0 . 0 0 7 9 1 6 7 (5 . 1 9 6 9 6) ]}{(1 7 . 0 9 5 - 1)} \right\} = \$ 2 5 5. 6 2. \\ \end{array}
+\begin{array}{l} \$ 100,000 \left\{\frac{[ 0 . 0 0 7 9 1 6 7 (1 . 0 0 7 9 1 6 7)^{2 1 0 - 1} ]}{[ (1 . 0 0 7 9 1 6 7)^{3 6 0} - 1 ]} \right\} \\ = \$ 100,000 \left\{\frac{[ 0 . 0 0 7 9 1 6 7 (5 . 1 9 6 9 6) ]}{(1 7 . 0 9 5 - 1)} \right\} = \$ 2 5 5. 6 2. \\ \end{array}
 $$
 
 Once again, this agrees with Exhibit 25-1.
@@ -7809,7 +7808,7 @@ Once again, this agrees with Exhibit 25-1.
 To compute the interest paid for month  $t$ , a final formula can be used:
 
 $$
-I _ {t} = M B _ {0} \left\{\frac {i [ (1 + i) ^ {n} - (1 + i) ^ {t - 1} ]}{[ (1 + i) ^ {n} - 1 ]} \right\},
+I_{t} = M B_{0} \left\{\frac{i [ (1 + i)^{n} - (1 + i)^{t - 1} ]}{[ (1 + i)^{n} - 1 ]} \right\},
 $$
 
 where  $I_{t}$  is interest for month  $t$ .
@@ -7817,7 +7816,7 @@ where  $I_{t}$  is interest for month  $t$ .
 Illustration 25-5. For the 210th month, the interest for the mortgage in Illustration 25-1 is
 
 $$
-\begin{array}{l} I _ {2 1 0} = \$ 1 0 0, 0 0 0 \left\{\frac {0 . 0 0 7 9 1 6 7 [ (1 . 0 0 7 9 1 6 7) ^ {3 6 0} - (1 . 0 0 7 9 1 6 7) ^ {2 1 0 - 1} ]}{[ (1 . 0 0 7 9 1 6 7) ^ {3 6 0} - 1 ]} \right\} \\ = \$ 100,000 \left\{\frac {0 . 0 0 7 9 1 6 7 (1 7 . 0 9 5 - 5 . 1 9 6 9 6)}{(1 7 . 0 9 5 - 1)} \right\} = \$ 5 8 5. 2 3. \\ \end{array}
+\begin{array}{l} I_{2 1 0} = \$ 1 0 0, 0 0 0 \left\{\frac{0 . 0 0 7 9 1 6 7 [ (1 . 0 0 7 9 1 6 7)^{3 6 0} - (1 . 0 0 7 9 1 6 7)^{2 1 0 - 1} ]}{[ (1 . 0 0 7 9 1 6 7)^{3 6 0} - 1 ]} \right\} \\ = \$ 100,000 \left\{\frac{0 . 0 0 7 9 1 6 7 (1 7 . 0 9 5 - 5 . 1 9 6 9 6)}{(1 7 . 0 9 5 - 1)} \right\} = \$ 5 8 5. 2 3. \\ \end{array}
 $$
 
 This result can be confirmed by examination of Exhibit 25-1.
@@ -7966,13 +7965,13 @@ One way to project prepayments and cash flow is to assume that some fraction of 
 The CPR is an annual prepayment rate. To estimate monthly prepayments, the CPR must be converted into a monthly prepayment rate, commonly referred to as the single monthly mortality rate (SMM). The following formula can be used to determine the SMM for a given CPR:
 
 $$
-\mathrm {S M M} = 1 - (1 - \mathrm {C P R}) ^ {1 / 1 2}.
+\mathrm{SM M} = 1 - (1 - \mathrm{CP R})^{1 / 1 2}.
 $$
 
 Illustration 26-1. Suppose that the CPR used to project prepayments is  $6\%$ . The corresponding SMM is
 
 $$
-\begin{array}{l} \mathrm {S M M} = 1 - (1 - 0. 0 6) ^ {1 / 1 2} \\ = 1 - (0. 9 4) ^ {0. 0 8 3 3 3 3} = 0. 0 0 5 1 4 3. \\ \end{array}
+\begin{array}{l} \mathrm{SM M} = 1 - (1 - 0. 0 6)^{1 / 1 2} \\ = 1 - (0. 9 4)^{0. 0 8 3 3 3 3} = 0. 0 0 5 1 4 3. \\ \end{array}
 $$
 
 An SMM of  $w\%$  means that approximately  $w\%$  of the remaining mortgage balance at the beginning of the month after subtracting the scheduled principal payment will prepay that month. That is,
@@ -7999,7 +7998,7 @@ More specifically, the PSA standard prepayment benchmark assumes the following p
 This benchmark is referred to as  $100\%$  PSA and can be expressed as follows:
 
 $$
-\begin{array}{l} \text{If} t \leq 30, \text{then CPR} = \frac {6 \% t}{30}; \\ \text{if} t > 30, \text{then CPR} = 6 \% \\ \end{array}
+\begin{array}{l} \text{If} t \leq 30, \text{thenCPR} = \frac{6 \% t}{30}; \\ \text{if } t > 30, \text{thenCPR} = 6 \% \\ \end{array}
 $$
 
 where  $t$  is the number of months since the mortgage originated.
@@ -8015,7 +8014,7 @@ $$
 $$
 
 $$
-\begin{array}{l} \mathrm {S M M} = 1 - (1 - 0. 0 1) ^ {1 / 1 2} \\ = 1 - (0. 9 9) ^ {0. 0 8 3 3 3 3} = 0. 0 0 0 8 3 7. \\ \end{array}
+\begin{array}{l} \mathrm{SM M} = 1 - (1 - 0. 0 1)^{1 / 1 2} \\ = 1 - (0. 9 9)^{0. 0 8 3 3 3 3} = 0. 0 0 0 8 3 7. \\ \end{array}
 $$
 
 For month 20:
@@ -8025,13 +8024,13 @@ $$
 $$
 
 $$
-\begin{array}{l} \mathrm {S M M} = 1 - (1 - 0. 0 4) ^ {1 / 1 2} \\ = 1 - (0. 9 6) ^ {0. 0 8 3 3 3 3} = 0. 0 0 3 3 9 6. \\ \end{array}
+\begin{array}{l} \mathrm{SM M} = 1 - (1 - 0. 0 4)^{1 / 1 2} \\ = 1 - (0. 9 6)^{0. 0 8 3 3 3 3} = 0. 0 0 3 3 9 6. \\ \end{array}
 $$
 
 For months 31-360:
 
 $$
-\begin{array}{l} \mathrm{CPR} = 6\%; \\ \mathrm {S M M} = 1 - (1 - 0. 0 6) ^ {1 / 1 2} \\ = 1 - (0. 9 4) ^ {0. 0 8 3 3 3} = 0. 0 0 5 1 4 3. \\ \end{array}
+\begin{array}{l} \mathrm{CPR} = 6\%; \\ \mathrm{SM M} = 1 - (1 - 0. 0 6)^{1 / 1 2} \\ = 1 - (0. 9 4)^{0. 0 8 3 3 3} = 0. 0 0 5 1 4 3. \\ \end{array}
 $$
 
 Illustration 26-4. The SMM for month 5, month 20, and months 31 through 360, assuming  $150\%$  PSA, are computed as follows:
@@ -8043,7 +8042,7 @@ $$
 $$
 
 $$
-\begin{array}{l} 150 \% \mathrm {PSA} = 1.5 (0.01) = 0.015; \\ \mathrm {S M M} = 1 - (1 - 0. 0 1 5) ^ {1 / 1 2} \\ = 1 - (0. 9 8 5) ^ {0. 0 8 3 3 3 3} = 0. 0 0 1 2 5 9. \\ \end{array}
+\begin{array}{l} 150 \% \mathrm{PSA} = 1.5 (0.01) = 0.015; \\ \mathrm{SM M} = 1 - (1 - 0. 0 1 5)^{1 / 1 2} \\ = 1 - (0. 9 8 5)^{0. 0 8 3 3 3 3} = 0. 0 0 1 2 5 9. \\ \end{array}
 $$
 
 For month 20:
@@ -8053,13 +8052,13 @@ $$
 $$
 
 $$
-\begin{array}{l} 150\% \mathrm{PSA} = 1.5(0.04) = 0.06; \\ \mathrm {S M M} = 1 - (1 - 0. 0 6) ^ {1 / 1 2} \\ = 1 - (0. 9 4) ^ {0. 0 8 3 3 3 3} = 0. 0 0 5 1 4 3. \\ \end{array}
+\begin{array}{l} 150\% \mathrm{PSA} = 1.5(0.04) = 0.06; \\ \mathrm{SM M} = 1 - (1 - 0. 0 6)^{1 / 1 2} \\ = 1 - (0. 9 4)^{0. 0 8 3 3 3 3} = 0. 0 0 5 1 4 3. \\ \end{array}
 $$
 
 For months 31-360:
 
 $$
-\begin{array}{l} \mathrm{CPR} = 6\% = 0.06; \\ 150 \% \mathrm {PSA} = 1.5 (0.06) = 0.09; \\ \mathrm {S M M} = 1 - (1 - 0. 0 9) ^ {1 / 1 2} \\ = 1 - (0. 9 1) ^ {0. 0 8 3 3 3 3} = 0. 0 0 7 8 2 8. \\ \end{array}
+\begin{array}{l} \mathrm{CPR} = 6\% = 0.06; \\ 150 \% \mathrm{PSA} = 1.5 (0.06) = 0.09; \\ \mathrm{SM M} = 1 - (1 - 0. 0 9)^{1 / 1 2} \\ = 1 - (0. 9 1)^{0. 0 8 3 3 3 3} = 0. 0 0 7 8 2 8. \\ \end{array}
 $$
 
 Notice that the SMM assuming  $150\%$  PSA is not just 1.5 times the SMM assuming  $100\%$  PSA. It is the CPR that is a multiple of the CPR assuming  $100\%$  PSA.
@@ -8073,19 +8072,19 @@ $$
 $$
 
 $$
-\begin{array}{l} 50 \% \mathrm {PSA} = 0.5 (0.01) = 0.005; \\ \mathrm {S M M} = 1 - (1 - 0. 0 0 5) ^ {1 / 1 2} \\ = 1 - (0. 9 9 5) ^ {0. 0 8 3 3 3 3} = 0. 0 0 0 4 1 8. \\ \end{array}
+\begin{array}{l} 50 \% \mathrm{PSA} = 0.5 (0.01) = 0.005; \\ \mathrm{SM M} = 1 - (1 - 0. 0 0 5)^{1 / 1 2} \\ = 1 - (0. 9 9 5)^{0. 0 8 3 3 3 3} = 0. 0 0 0 4 1 8. \\ \end{array}
 $$
 
 For month 20:
 
 $$
-\begin{array}{l} \mathrm{CPR} = \frac{6\%(20)}{30} = 4\% = 0.04; \\ 50 \% \mathrm {PSA} = 0.5(0.04) = 0.02; \\ \mathrm {S M M} = 1 - (1 - 0. 0 2) ^ {1 / 1 2} \\ = 1 - (0. 9 8) ^ {0. 0 8 3 3 3 3} = 0. 0 0 1 6 8 2. \\ \end{array}
+\begin{array}{l} \mathrm{CPR} = \frac{6\%(20)}{30} = 4\% = 0.04; \\ 50 \% \mathrm{PSA} = 0.5(0.04) = 0.02; \\ \mathrm{SM M} = 1 - (1 - 0. 0 2)^{1 / 1 2} \\ = 1 - (0. 9 8)^{0. 0 8 3 3 3 3} = 0. 0 0 1 6 8 2. \\ \end{array}
 $$
 
 For months 31-360:
 
 $$
-\begin{array}{l} \mathrm{CPR} = 6\% = 0.06; \\ 50 \% \mathrm {PSA} = 0.5 (0.06) = 0.03; \\ \mathrm {S M M} = 1 - (1 - 0. 0 3) ^ {1 / 1 2} \\ = 1 - (0. 9 7) ^ {0. 0 8 3 3 3 3} = 0. 0 0 2 5 3 5. \\ \end{array}
+\begin{array}{l} \mathrm{CPR} = 6\% = 0.06; \\ 50 \% \mathrm{PSA} = 0.5 (0.06) = 0.03; \\ \mathrm{SM M} = 1 - (1 - 0. 0 3)^{1 / 1 2} \\ = 1 - (0. 9 7)^{0. 0 8 3 3 3 3} = 0. 0 0 2 5 3 5. \\ \end{array}
 $$
 
 Once again, notice that the SMM assuming  $50\%$  PSA is not just half the SMM assuming  $100\%$  PSA. It is the CPR that is a multiple of the CPR assuming  $100\%$  PSA.
@@ -8095,19 +8094,19 @@ Once again, notice that the SMM assuming  $50\%$  PSA is not just half the SMM a
 We can construct a cash-flow schedule for a mortgage passthrough security on the basis of some assumed prepayment rate (or rates) using several formulas. First, the formula to obtain the projected monthly mortgage payment for any month is
 
 $$
-\overline {{M P}} _ {t} = \overline {{M B}} _ {t - 1} \left[ \frac {i (1 + i) ^ {n - t + 1}}{(1 + i) ^ {n - t + 1} - 1} \right],
+\overline {{M P}}_{t} = \overline {{M B}}_{t - 1} \left[ \frac{i (1 + i)^{n - t + 1}}{(1 + i)^{n - t + 1} - 1} \right],
 $$
 
 where
 
 $$
-\begin{array}{l} \overline {{M P}} _ {t} = \text {p r o j e c t e d m o n t h l y m o r g a t e p a y m e n t f o r m o n t h} t; \\ \overline {{M B}} _ {t - 1} = \text {p r o j e c t e d m o r g a t e b a l a n c e a t t h e e n d o f m o n t h} t \text {g i v e n t h a t} \text {p r e p a y m e n t s h a v e c o u r r e d i n t h e p a s t (w h i c h i s t h e p r o j e c t e d} \\ i = \text {s i m p l e} \\ n = \text {o r i g i n a l} \\ \end{array}
+\begin{array}{l} \overline {{M P}}_{t} = \text{pr oj ec te dm on th ly mo rg at ep ay me nt fo rm on th} t; \\ \overline {{M B}}_{t - 1} = \text{pr oj ec te dm or ga te ba la nc ea tt he en do fm on th} t \text{gi ve nt ha t} \text{pr ep ay me nt sh av ec ou rr ed in th ep as t (wh ic hi st he pr oj ec te d} \\ i = \text{si mp le} \\ n = \text{or ig in al} \\ \end{array}
 $$
 
 Second, to compute the portion of the projected monthly mortgage payment that is interest, the formula is
 
 $$
-\bar {I} _ {t} = \overline {{M B}} _ {t - 1} i,
+\bar {I}_{t} = \overline {{M B}}_{t - 1} i,
 $$
 
 where  $\overline{I}_t$  is projected monthly interest for month  $t$ .
@@ -8115,7 +8114,7 @@ where  $\overline{I}_t$  is projected monthly interest for month  $t$ .
 This formula states that the projected monthly interest is found by multiplying the mortgage balance at the end of the previous month by the monthly interest rate. The projected monthly interest rate can be divided into two parts: (1) the projected net monthly interest rate after the servicing fee and (2) the servicing fee. The formulas are as follows:
 
 $$
-\begin{array}{l} \overline {{N I}} _ {t} = \overline {{M B}} _ {t - 1} (i - s), \\ \bar {S} _ {t} = \overline {{M B}} _ {t - 1} s, \\ \end{array}
+\begin{array}{l} \overline {{N I}}_{t} = \overline {{M B}}_{t - 1} (i - s), \\ \bar {S}_{t} = \overline {{M B}}_{t - 1} s, \\ \end{array}
 $$
 
 where
@@ -8129,7 +8128,7 @@ $\overline{S}_t =$  projected servicing fee for month  $t$
 The projected monthly scheduled principal payment is found by subtracting from the projected monthly mortgage payment the projected monthly interest. In terms of our notation,
 
 $$
-\overline {{S P}} _ {t} = \overline {{M P}} _ {t} - \bar {I} _ {t},
+\overline {{S P}}_{t} = \overline {{M P}}_{t} - \bar {I}_{t},
 $$
 
 where  $\overline{SP}_t$  is projected monthly scheduled principal payment for month  $t$ .
@@ -8137,7 +8136,7 @@ where  $\overline{SP}_t$  is projected monthly scheduled principal payment for m
 As explained earlier, the projected monthly principal prepayment is found by multiplying the SMM by the difference between the outstanding balance at the beginning of the month (the ending balance in the previous month) and the projected scheduled principal payment for the month. That is,
 
 $$
-\overline {{P R}} _ {t} = S M M _ {t} \left(\overline {{M B}} _ {t - 1} - \overline {{S P}} _ {t}\right),
+\overline {{P R}}_{t} = S M M_{t} \left(\overline {{M B}}_{t - 1} - \overline {{S P}}_{t}\right),
 $$
 
 where
@@ -8149,13 +8148,13 @@ $\mathrm{SMM}_t =$  assumed single monthly mortality rate for month  $t$
 The cash flow to the investor is then the sum of (1) the projected monthly interest net of the servicing fee, (2) the projected monthly scheduled principal payment, and (3) the projected monthly principal prepayment. That is,
 
 $$
-\overline {{C F}} _ {t} = \overline {{N I}} _ {t} + \overline {{S P}} _ {t} + \overline {{P R}} _ {t},
+\overline {{C F}}_{t} = \overline {{N I}}_{t} + \overline {{S P}}_{t} + \overline {{P R}}_{t},
 $$
 
 where  $\overline{CF}_t$  is projected cash flow for month  $t$ . Alternatively, this can be expressed as
 
 $$
-\overline {{C F _ {t}}} = \bar {I} _ {t} + \bar {S P} _ {t} + \bar {P R} _ {t} - \bar {S} _ {t}.
+\overline {{C F_{t}}} = \bar {I}_{t} + \bar {S P}_{t} + \bar {P R}_{t} - \bar {S}_{t}.
 $$
 
 The next three illustrations demonstrate the application of these formulas.
@@ -8165,7 +8164,7 @@ Illustration 26-6. Suppose that an investor owns a passthrough with an original 
 Using our notation:
 
 $$
-M B _ {0} = \$ 1 0 0, 0 0 0, 0 0 0; n = 3 6 0; i = 0. 0 0 7 9 1 6 7 (0. 0 9 5 / 1 2); s = 0. 0 0 0 4 1 6 7 (0. 0 0 5 / 1 2).
+M B_{0} = \$ 1 0 0, 0 0 0, 0 0 0; n = 3 6 0; i = 0. 0 0 7 9 1 6 7 (0. 0 9 5 / 1 2); s = 0. 0 0 0 4 1 6 7 (0. 0 0 5 / 1 2).
 $$
 
 Exhibit 26-6 shows the cash flow for the passthrough for selected months. The SMMs shown in the third column agree with those computed earlier.
@@ -8187,7 +8186,7 @@ Illustration 26-7. Now suppose that instead of  $100\%$  PSA,  $150\%$  PSA is a
 Illustration 26-8. Consider the passthrough we have been using in all previous illustrations. Assuming a prepayment speed of  $100\%$  PSA, the projected monthly mortgage payment for month 8 is
 
 $$
-\overline {{M P}} _ {8} = \overline {{b}} _ {7} M P.
+\overline {{M P}}_{8} = \overline {{b}}_{7} M P.
 $$
 
 Projected Cash Flow Assuming  $100\%$  PSA  
@@ -8201,7 +8200,7 @@ $MB_{t - 1} =$  projected mortgage balance at the end of month  $t - 1$
 $SMM_{t} =$  single monthly mortality rate;
 
 $$
-b _ {t - 1} = \left(1 - \mathrm {S M M} _ {t - 1}\right) \left(1 - \mathrm {S M M} _ {t - 2}\right) \dots \left(1 - \mathrm {S M M} _ {2}\right) \left(1 - \mathrm {S M M} _ {1}\right);
+b_{t - 1} = \left(1 - \mathrm{SM M}_{t - 1}\right) \left(1 - \mathrm{SM M}_{t - 2}\right) \dots \left(1 - \mathrm{SM M}_{2}\right) \left(1 - \mathrm{SM M}_{1}\right);
 $$
 
 $MP_{t} =$  projected monthly mortgage payment for month  $t$ ;
@@ -8225,25 +8224,25 @@ Projected Cash Flow Assuming  $150\%$  PSA*
 The monthly mortgage payment assuming no principal prepayments is \(840,850. The SMM for each month is shown in column (3) of Exhibit 26-6. Then
 
 $$
-\begin{array}{l} \bar {b} _ {8} = (1 - 0. 0 0 0 1 6 6) (1 - 0. 0 0 0 3 3 3) (1 - 0. 0 0 0 5 0 1) (1 - 0. 0 0 0 6 6 9) \\ \times (1 - 0. 0 0 0 8 3 7) (1 - 0. 0 0 1 0 0 5) (1 - 0. 0 0 1 1 7 4) = 0. 9 9 5 3 2. \\ \end{array}
+\begin{array}{l} \bar {b}_{8} = (1 - 0. 0 0 0 1 6 6) (1 - 0. 0 0 0 3 3 3) (1 - 0. 0 0 0 5 0 1) (1 - 0. 0 0 0 6 6 9) \\ \times (1 - 0. 0 0 0 8 3 7) (1 - 0. 0 0 1 0 0 5) (1 - 0. 0 0 1 1 7 4) = 0. 9 9 5 3 2. \\ \end{array}
 $$
 
 So
 
 $$
-\overline {{M P}} _ {8} = (0. 9 9 5 3 2) \mathbb {S} 8 4 0, 8 5 0 = \mathbb {S} 8 3 6, 9 1 5.
+\overline {{M P}}_{8} = (0. 9 9 5 3 2) \mathbb {S} 8 4 0, 8 5 0 = \mathbb {S} 8 3 6, 9 1 5.
 $$
 
 The projected scheduled principal payment is
 
 $$
-\overline {{S P}} _ {8} = \bar {b} _ {7} P _ {8}.
+\overline {{S P}}_{8} = \bar {b}_{7} P_{8}.
 $$
 
 The scheduled principal payment in month 8 assuming no prepayments is \(52,000. The projected scheduled principal payment is then
 
 $$
-\overline {{S P}} _ {8} = (0. 9 9 5 3 2) \\ \mathbb {S} 5 2, 0 0 0 = \\ \mathbb {S} 5 1, 7 5 7.
+\overline {{S P}}_{8} = (0. 9 9 5 3 2) \\ \mathbb {S} 5 2, 0 0 0 = \\ \mathbb {S} 5 1, 7 5 7.
 $$
 
 Notice that both the values computed here agree with the values for month 8 shown in Exhibit 26-6 (\(837,000 for \)MP_8\$ and \$52,000 for \)SP_8\$).
@@ -8319,13 +8318,13 @@ The cash flow for an MBS is typically monthly. Thus the cash-flow yield as just 
 The market practice is to calculate a yield so as to make it comparable to the yield to maturity on a bond-equivalent yield basis. The formula for annualizing the monthly cash-flow yield on an MBS is
 
 $$
-\text {B o n d - e q u i v a l e n t y i e l d} = 2 \left[ (1 + i _ {M}) ^ {6} - 1 \right],
+\text{Bo nd -e qu iv al en ty ie ld} = 2 \left[ (1 + i_{M})^{6} - 1 \right],
 $$
 
 where  $i_{M}$  is the interest rate that will equate the present value of the projected monthly cash flow equal to the price of the MBS (plus accrued interest). The bond-equivalent semiannual yield for a monthly pay MBS is
 
 $$
-(1 + i _ {M}) ^ {6} - 1.
+(1 + i_{M})^{6} - 1.
 $$
 
 # Drawbacks of the Cash-Flow Yield Measure
@@ -8351,13 +8350,13 @@ The numerator of the Macaulay duration is the present value of the projected cas
 month). For our passthrough, the numerator is \(6,998,347. Macaulay duration is then found by dividing by the price of the passthrough. Thus
 
 $$
-\text {M a c a u l a y d u r a t i o n (i n m o n t h s)} = \frac {\mathbb {S} 6 , 9 9 8 , 3 4 7}{\mathbb {S} 9 4 , 5 2 1} = 7 4. 0 4.
+\text{Ma ca ul ay du ra ti on (in mo nt hs)} = \frac{\mathbb {S} 6 , 9 9 8 , 3 4 7}{\mathbb {S} 9 4 , 5 2 1} = 7 4. 0 4.
 $$
 
 To convert the Macaulay duration in months to Macaulay duration in years:
 
 $$
-\text {M a c a u l a y d u r a t i o n (i n y e a r s)} = \frac {7 4 . 0 4}{1 2} = 6. 1 7.
+\text{Ma ca ul ay du ra ti on (in ye ar s)} = \frac{7 4 . 0 4}{1 2} = 6. 1 7.
 $$
 
 # Average Life
@@ -8367,7 +8366,7 @@ A second measure commonly used to compare Treasury securities and MBS is the ave
 Mathematically, the average life is expressed as follows:
 
 $$
-\text {A v e r a g e} = \frac {1}{1 2} \sum_ {t = 1} ^ {n} \frac {t (\text {p r i n c i p a l r e c e i v e d a t t i m e} t)}{\text {t o t a l p r i n c i p a l r e c e i v e d}},
+\text{Av er ag e} = \frac{1}{1 2} \sum_{t = 1}^{n} \frac{t (\text{pr in ci pa lr ec ei ve da tt im e} t)}{\text{to ta lp ri nc ip al re ce iv ed}},
 $$
 
 where  $n$  is the number of months remaining. (The tail is defined as the principal payments that extend from the average life to the last principal payment.)
@@ -8379,13 +8378,13 @@ Given the required yield for an MBS, the price is simply the present value of th
 To convert a bond-equivalent yield to a monthly interest rate, we can use the following formula:
 
 $$
-i _ {M} = [ 1 + (0. 5) \text {b o n d - e q u i v a l e n t y i e l d} ] ^ {1 / 6} - 1.
+i_{M} = [ 1 + (0. 5) \text{bo nd -e qu iv al en ty ie ld} ]^{1 / 6} - 1.
 $$
 
 Illustration 27-2. Suppose that the investor wants a yield of  $12.30\%$ . Also assume that the investor believes that a  $25\%$  PSA rate is appropriate to project the cash flow. The monthly interest rate is determined as follows:
 
 $$
-\begin{array}{l} i _ {M} = [ 1 + (0. 5) 0. 1 2 3 0 ] ^ {1 / 6} - 1 \\ = (1. 0 6 1 5) ^ {0. 1 6 6 6 7} - 1 = 0. 0 1. \\ \end{array}
+\begin{array}{l} i_{M} = [ 1 + (0. 5) 0. 1 2 3 0 ]^{1 / 6} - 1 \\ = (1. 0 6 1 5)^{0. 1 6 6 6 7} - 1 = 0. 0 1. \\ \end{array}
 $$
 
 The cash flows of IO and PO securities depend on the cash flows of the underlying passthrough, which, in turn, depend on the cash flows of the underlying pool of mortgages. Thus, to determine the price of an IO or PO, a prepayment rate must be assumed. The price of an IO is the present value of the projected interest payments net of the servicing fee. The price of a PO is the present value of the projected principal payments (projected scheduled principal payments and projected principal prepayments).
@@ -8405,7 +8404,7 @@ For example, if the required yield decreases instantaneously from  $10.21\%$  to
 The proper measure to use is the effective duration. This measure allows for the cash flow to change when interest rates change. The formula to approximate duration is
 
 $$
-\text {A p p r o x i m a t e} = \frac {V _ {-} - V _ {+}}{2 V _ {0} (\Delta y)},
+\text{Ap pr ox im at e} = \frac{V_{-} - V_{+}}{2 V_{0} (\Delta y)},
 $$
 
 where
@@ -8455,13 +8454,13 @@ To make this more concrete, consider a newly issued mortgage passthrough securit
 Given the cash flow on an interest-rate path, its present value can be calculated. The discount rate for determining the present value is the simulated spot rate for each month on the interest-rate path plus an appropriate spread. The spot rate on a path can be determined from the simulated future monthly rates. The relationship that holds between the simulated spot rate for month  $T$  on path  $n$  and the simulated future 1-month rates is
 
 $$
-z _ {T} (n) = \left\{\left[ 1 + f _ {1} (n) \right] \left[ 1 + f _ {2} (n) \right] \dots \left[ 1 + f _ {T} (n) \right] \right\} ^ {1 / T} - 1,
+z_{T} (n) = \left\{\left[ 1 + f_{1} (n) \right] \left[ 1 + f_{2} (n) \right] \dots \left[ 1 + f_{T} (n) \right] \right\}^{1 / T} - 1,
 $$
 
 where
 
 $$
-\begin{array}{l} z _ {T} (n) = \text {s i m u l a t e d s p o t r a t e f o r m o n t h} T \text {o n p a t h} n; \\ f _ {j} (n) = \text {s i m u l a t e d f u t u r e 1 - m o n t h r a t e f o r m o n t h j o n p a t h n}. \\ \end{array}
+\begin{array}{l} z_{T} (n) = \text{si mu la te ds po tr at ef or mo nt h} T \text{on pa th} n; \\ f_{j} (n) = \text{si mu la te df ut ur e1 -m on th ra te fo rm on th jo np at hn}. \\ \end{array}
 $$
 
 # EXHIBIT 27-1
@@ -8491,7 +8490,7 @@ Simulated Cash Flow on Each of the Interest-Rate Paths
 <table><tr><td rowspan="2">Month</td><td colspan="7">Interest-Rate Path Number</td></tr><tr><td>1</td><td>2</td><td>3</td><td>...</td><td>n</td><td>...</td><td>N</td></tr><tr><td>1</td><td>C1(1)</td><td>C1(2)</td><td>C1(3)</td><td>...</td><td>C1(n)</td><td>...</td><td>C1(N)</td></tr><tr><td>2</td><td>C2(1)</td><td>C2(2)</td><td>C2(3)</td><td>...</td><td>C2(n)</td><td>...</td><td>C2(N)</td></tr><tr><td>3</td><td>C3(1)</td><td>C3(2)</td><td>C3(3)</td><td>...</td><td>C3(n)</td><td>...</td><td>C3(N)</td></tr><tr><td>t</td><td>Ct(1)</td><td>Ct(2)</td><td>Ct(3)</td><td>...</td><td>Ct(n)</td><td>...</td><td>Ct(N)</td></tr><tr><td>358</td><td>C358(1)</td><td>C358(2)</td><td>C358(3)</td><td>...</td><td>C358(n)</td><td>...</td><td>C358(N)</td></tr><tr><td>359</td><td>C359(1)</td><td>C359(2)</td><td>C359(3)</td><td>...</td><td>C359(n)</td><td>...</td><td>C359(N)</td></tr><tr><td>360</td><td>C360(1)</td><td>C360(2)</td><td>C360(3)</td><td>...</td><td>C360(n)</td><td>...</td><td>C360(N)</td></tr></table>
 
 Key:  
-$C_t(n) = \text{cash flow for month } t \text{ on path } n$ ;  
+$C_t(n) = \text{cashflowformonth } t \text{ onpath } n$ ;  
 $N =$  total number of interest-rate paths.
 
 Consequently, the interest-rate path for the simulated future 1-month rates can be converted to the interest-rate path for the simulated monthly spot rates as shown in Exhibit 27-4.
@@ -8499,7 +8498,7 @@ Consequently, the interest-rate path for the simulated future 1-month rates can 
 Therefore, the present value of the cash flow for month  $T$  on interest-rate path  $n$  discounted at the simulated spot rate for month  $T$  plus some spread is
 
 $$
-P V [ C _ {T} (n) ] = \frac {C _ {T} (n)}{[ 1 + z _ {T} (n) + K ] ^ {1 / T}},
+P V [ C_{T} (n) ] = \frac{C_{T} (n)}{[ 1 + z_{T} (n) + K ]^{1 / T}},
 $$
 
 where
@@ -8515,7 +8514,7 @@ $K =$  spread.
 The present value for path  $n$  is the sum of the present value of the cash flow for each month on path  $n$ . That is,
 
 $$
-P V [ \text {p a t h} (n) ] = P V [ C _ {1} (n) ] + P V [ C _ {2} (n) ] + \dots + P V [ C _ {3 6 0} (n) ],
+P V [ \text{pa th} (n) ] = P V [ C_{1} (n) ] + P V [ C_{2} (n) ] + \dots + P V [ C_{3 6 0} (n) ],
 $$
 
 where  $PV[\mathrm{path}(n)]$  is the present value of interest-rate path  $n$ .
@@ -8537,7 +8536,7 @@ $N =$  total number of interest-rate paths.
 the passthrough can be determined by calculating the average of the theoretical value of all the interest-rate paths. That is,
 
 $$
-\text {T h e o r e t i c a l v a l u e} = \frac {P V [ \text {p a t h} (1) ] + P V [ \text {p a t h} (2) ] + \cdots + P V [ \text {p a t h} (N) ]}{N},
+\text{Th eo re ti ca lv al ue} = \frac{P V [ \text{pa th} (1) ] + P V [ \text{pa th} (2) ] + \cdots + P V [ \text{pa th} (N) ]}{N},
 $$
 
 where  $N$  is the number of interest-rate paths.
@@ -8563,7 +8562,7 @@ As explained in Chapter 21, the option-adjusted spread (OAS) is a measure of the
 In the Monte Carlo simulation model, the OAS is the spread  $K$  that when added to all the spot rates on all interest-rate paths will make the average present value of the paths equal to the observed market price (plus accrued interest). Mathematically, OAS is the spread that will satisfy the following condition:
 
 $$
-\text {M a r k e t} = \frac {P V [ \text {p a t h} (1) ] + P V [ \text {p a t h} (2) ] + \cdots + P V [ \text {p a t h} (N) ]}{N},
+\text{Ma rk et} = \frac{P V [ \text{pa th} (1) ] + P V [ \text{pa th} (2) ] + \cdots + P V [ \text{pa th} (N) ]}{N},
 $$
 
 where  $N$  is the number of interest-rate paths.
@@ -8809,7 +8808,7 @@ Treasury return  $= -\mathrm{{DMT}} \times$  duration.
 For example, for the corporate sector,
 
 $$
-\text {Treasury return} = -(-2.00\%) \times 3.1 = 6.2\%.
+\text{Treasuryreturn} = -(-2.00\%) \times 3.1 = 6.2\%.
 $$
 
 Also shown in Exhibit 28-2 is the spread return. To obtain the spread return, the following formula is used:
@@ -8835,7 +8834,7 @@ where
 Benchmark spread change
 
 $$
-= \frac {- (\text {b e n c h m a r k t o t a l r e t u r n - b e n c h m a r k i n c o m e r e t u r n - b e n c h m a r k T r e a s u r y r e t u r n})}{\text {b e n c h m a r k d u r a t i o n}}.
+= \frac{- (\text{be nc hm ar kt ot al re tu rn -b en ch ma rk in co me re tu rn -b en ch ma rk Tr ea su ry re tu rn})}{\text{be nc hm ar kd ur at io n}}.
 $$
 
 For example, for the corporate sector,
@@ -8851,13 +8850,13 @@ Benchmark duration  $= 3.0$
 Therefore,
 
 $$
-\text {Benchmark spread change} = \frac {- (8.00 \% - 1.00 \% - 6.00 \%)}{3.0} = - 0.333 \%
+\text{Benchmarkspreadchange} = \frac{- (8.00 \% - 1.00 \% - 6.00 \%)}{3.0} = - 0.333 \%
 $$
 
 Because the portfolio duration is 3.1,
 
 $$
-\text{Spread return} = -3.1 \times -0.333 \% = 1.03 \%
+\text{Spreadreturn} = -3.1 \times -0.333 \% = 1.03 \%
 $$
 
 Panels A and B in Exhibit 28-3 provide the portfolio return and benchmark return attribution based on income, Treasury, and spread effects. Panel A provides this for the portfolio, whereas panel B, for the benchmark. Look at the portfolio return attribution (panel A) for the corporate sector. The return attributable to income is  $1.00\%$ , obtained from panel A of Exhibit 28-1. The Treasury and spread returns are obtained from panel A of Exhibit 28-2. Where does the selection return attribution come from? This is the residual of the actual portfolio return that cannot be explained by the other three effects. From Exhibit 28-2 we see that the total return of the portfolio for the corporate sector is  $8.25\%$ . The sum of the income, Treasury, and spread returns is  $8.23\%$  ( $1.00\% + 6.20\% + 1.03\%$ ). The difference between  $8.25\%$  and  $8.23\%$  is  $0.02\%$ , which is shown in Exhibit 28-3.
@@ -8909,13 +8908,13 @@ The basic Campisi model can be extended by decomposing the Treasury return into 
 Exhibit 28-6 shows the breakdown of the Treasury return portfolio (panel A) and benchmark (panel B) into the shift and twist returns. Let's look at the shift return and twist returns for the corporate sector for the portfolio (panel A). The shift return is found as follows:
 
 $$
-\text {S h i f t} = - \text {d u r a t i o n} \times 5 \text {y e a r K R D y i e l d c h a n g e}.
+\text{Sh if t} = - \text{du ra ti on} \times 5 \text{ye ar KR Dy ie ld ch an ge}.
 $$
 
 For example, look at panel A of Exhibit 28-5, which shows the shift return for the corporate sector of the portfolio. The shift return is  $4.65\%$ , which is found using the duration of 3.1 and the 5-year KRD yield change of  $-1.50\%$  from Exhibit 28-5 to obtain
 
 $$
-\text{Shift return} = -3.1 \times (-1.50\%) = 4.65\%.
+\text{Shiftreturn} = -3.1 \times (-1.50\%) = 4.65\%.
 $$
 
 The twist return is then the return that is not attributable to a shift in the 5-year KRD. In our illustration, the Treasury return for the corporate sector of the portfolio is  $6.20\%$  (see panel A of Exhibit 28-3), and the shift is  $4.65\%$ . Therefore, the twist return is  $1.55\%$  ( $= 6.20\% - 4.65\%$ )
@@ -9076,7 +9075,7 @@ Style Factor Correlations from February 2, 2000, to December 27, 2019
 Applying the RBSA model suggested by Sharpe is typically done to identify the style exposure and return contribution of the specific factors. The general RBSA model is
 
 $$
-r _ {t} ^ {\text {p o r t f o l i o}} = \sum_ {i} \beta_ {i} r _ {t} ^ {\text {f a c t o r} i} + \varepsilon_ {t}, \tag {29-1}
+r_{t}^{\text{po rt fo li o}} = \sum_{i} \beta_{i} r_{t}^{\text{fa ct or} i} + \varepsilon_{t}, \tag {29-1}
 $$
 
 where
@@ -9094,11 +9093,11 @@ A condition that must be satisfied by the regression model given by equation (29
 Usually, regression-style models apply over a prespecified historical period. In our illustration, we use weekly returns from February 2, 2000, to December 27, 2019. This corresponds to 935 weekly observations. In our illustration, there are seven style factors, so equation (29-1) can be rewritten as
 
 $$
-r _ {t} ^ {\text {p o r t f o l i o}} = \beta_ {1} r _ {t} ^ {\text {b o n d t r e n d}} + \beta_ {2} r _ {t} ^ {\text {b o n d c a r r y}} + \beta_ {3} r _ {t} ^ {\text {F X v o l a t i l i t y}} + \beta_ {4} r _ {t} ^ {\text {F X c a r r y}} + \beta_ {5} r _ {t} ^ {\text {F X t r e n d}} +
+r_{t}^{\text{po rt fo li o}} = \beta_{1} r_{t}^{\text{bo nd tr en d}} + \beta_{2} r_{t}^{\text{bo nd ca rr y}} + \beta_{3} r_{t}^{\text{FX vo la ti li ty}} + \beta_{4} r_{t}^{\text{FX ca rr y}} + \beta_{5} r_{t}^{\text{FX tr en d}} +
 $$
 
 $$
-\beta_ {6} r _ {t} ^ {\mathrm {F X v a l u e}} + \beta_ {7} r _ {t} ^ {\mathrm {r a t e v o l a t i l i t y}} + \varepsilon_ {t},
+\beta_{6} r_{t}^{\mathrm{FX va lu e}} + \beta_{7} r_{t}^{\mathrm{ra te vo la ti li ty}} + \varepsilon_{t},
 $$
 
 where  $r_t^{\text{portfolio}}$  is the return on the portfolio that we are applying the RBSA to (the Bloomberg Barclays Global Aggregate Bond Index) at time  $t$ , and  $\beta_t$  is the exposure
@@ -9179,7 +9178,7 @@ The first moment used to describe a probability distribution is a "typical value
 The most commonly used measure of location is the mean or average value. For a probability distribution, the mean is referred to as the expected value and is simply the weighted-average value of the distribution. The weights in this case are the probabilities associated with the random variable  $X$ . The expected value of a random variable is denoted by  $E(X)$  and is computed using the following expression:
 
 $$
-E (X) = P _ {1} X _ {1} + P _ {2} X _ {2} + \dots + P _ {n} X _ {n},
+E (X) = P_{1} X_{1} + P_{2} X_{2} + \dots + P_{n} X_{n},
 $$
 
 where  $P_{i}$  is the probability associated with the outcome  $X_{i}$ .
@@ -9199,7 +9198,7 @@ The second measure of a probability distribution is how spread out the values ar
 The variance of a random variable  $X$ , denoted by  $\operatorname{var}(X)$ , is computed as
 
 $$
-\operatorname {v a r} (X) = \left[ X _ {1} - E (X) \right] ^ {2} P _ {1} + \left[ X _ {2} - E (X) \right] ^ {2} P _ {2} + \dots + \left[ X _ {n} - E (X) \right] ^ {2} P _ {n}.
+\operatorname{va r} (X) = \left[ X_{1} - E (X) \right]^{2} P_{1} + \left[ X_{2} - E (X) \right]^{2} P_{2} + \dots + \left[ X_{n} - E (X) \right]^{2} P_{n}.
 $$
 
 Notice that the variance is simply a weighted average of the deviations of each possible outcome from the expected value, where the weight is the probability of an outcome occurring. The greater the variance, the wider is the distribution of the possible outcomes for the random variable. The reason that the deviations from the expected value are squared is so that outcomes above and below the expected value will not cancel each other out.
@@ -9207,7 +9206,7 @@ Notice that the variance is simply a weighted average of the deviations of each 
 One problem with using the variance as a measure of dispersion is that it is expressed in terms of squared units of the random variable. Consequently, we use the positive square root of the variance, called the standard deviation, as a better measure of the degree of dispersion. Mathematically, this can be expressed as
 
 $$
-\operatorname {s t d} (X) = \sqrt {\operatorname {v a r} (X)},
+\operatorname{st d} (X) = \sqrt{\operatorname{va r} (X)},
 $$
 
 where  $\operatorname{std}(X)$  denotes the standard deviation of the random variable  $X$ .
@@ -9215,7 +9214,7 @@ where  $\operatorname{std}(X)$  denotes the standard deviation of the random var
 The variance for the 6-month total return whose probability distribution is given in Exhibit 30-1 is calculated as follows:
 
 $$
-\begin{array}{l} \operatorname {var}(X) = 0.05(3.61\% -[-18.86\% ])^{2} + 0.08(3.61\% -[-14.16\% ])^{2} \\ + 0.10(3.61\% - [ - 9.06\% ]) ^ {2} + 0.16(3.61\% - [ - 3.52\% ]) ^ {2} \\ + 0.22 (3.61 \% - 2.50 \%) ^ {2} + 0.16 (3.61 \% - 9.05 \%) ^ {2} \\ + 0.10 (3.61 \% - 16.18 \%) ^ {2} + 0.08 (3.61 \% - 23.95 \%) ^ {2} \\ + 0.05 (3.61 \% - 32.42 \%) ^ {2} = 1.70 \%. \\ \end{array}
+\begin{array}{l} \operatorname{var}(X) = 0.05(3.61\% -[-18.86\% ])^{2} + 0.08(3.61\% -[-14.16\% ])^{2} \\ + 0.10(3.61\% - [ - 9.06\% ])^{2} + 0.16(3.61\% - [ - 3.52\% ])^{2} \\ + 0.22 (3.61 \% - 2.50 \%)^{2} + 0.16 (3.61 \% - 9.05 \%)^{2} \\ + 0.10 (3.61 \% - 16.18 \%)^{2} + 0.08 (3.61 \% - 23.95 \%)^{2} \\ + 0.05 (3.61 \% - 32.42 \%)^{2} = 1.70 \%. \\ \end{array}
 $$
 
 The standard deviation is  $13.04\%$ , which is the square root of the variance,  $1.70\%$ .
@@ -9253,7 +9252,7 @@ the relationship between these three measures is mean  $>$  median  $>$  mode. T
 The skewness of a distribution can be measured. In the case of a discrete distribution for a random variable  $X$ , it is
 
 $$
-\operatorname {S k e w n e s s} (X) = \frac {[ X _ {t} - E (X) ] ^ {3} P _ {1} + [ X _ {2} - E (X) ] ^ {3} P _ {2} + \cdots + [ X _ {n} - E (X) ] ^ {3} P _ {n}}{[ \operatorname {s t d} (X) ] ^ {3}}.
+\operatorname{Sk ew ne ss} (X) = \frac{[ X_{t} - E (X) ]^{3} P_{1} + [ X_{2} - E (X) ]^{3} P_{2} + \cdots + [ X_{n} - E (X) ]^{3} P_{n}}{[ \operatorname{st d} (X) ]^{3}}.
 $$
 
 A normal distribution has a skewness equal to 0.
@@ -9275,7 +9274,7 @@ that we will discuss later in this chapter) has less mass in the tails than the 
 The joint measure of peakedness and tail fatness is called kurtosis. Distributions with a high peak are said to be leptokurtic; distributions with a flat peak are said to be platykurtic. The kurtosis measure for a discrete probability distribution  $X$  is
 
 $$
-\text {K u r t o s i s} (X) = \frac {\left[ X _ {1} - E (X) \right] ^ {4} P _ {1} + \left[ X _ {2} - E (X) \right] ^ {4} P _ {2} + \cdots + \left[ X _ {n} - E (X) \right] ^ {4} P _ {n}}{\left[ \operatorname {s t d} (X) \right] ^ {4}}.
+\text{Ku rt os is} (X) = \frac{\left[ X_{1} - E (X) \right]^{4} P_{1} + \left[ X_{2} - E (X) \right]^{4} P_{2} + \cdots + \left[ X_{n} - E (X) \right]^{4} P_{n}}{\left[ \operatorname{st d} (X) \right]^{4}}.
 $$
 
 A kurtosis value of 3 means that a distribution is neither leptokurtic (i.e., excessively peaked) nor platykurtic (i.e., excessively flat).
@@ -9307,19 +9306,19 @@ The Bernoulli distribution is the building block for more complicated discrete p
 The binomial distribution gives the discrete probability distribution of obtaining exactly  $k$  successful outcomes out of  $n$  independent Bernoulli trials when the probability of success is equal to  $p$ . Letting  $k (k \leq n)$  equal a random variable representing the number of successes observed, then the probability of observing  $k$  successes is given by
 
 $$
-B (k, n, p) = \left( \begin{array}{c} n \\ k \end{array} \right) p ^ {k} (1 - p) ^ {n - k},
+B (k, n, p) = \left( \begin{array}{c} n \\ k \end{array} \right) p^{k} (1 - p)^{n - k},
 $$
 
 where  $\binom{n}{k}$  means
 
 $$
-\frac {n !}{(n - k) ! k !}.
+\frac{n !}{(n - k) ! k !}.
 $$
 
 Recall that the factorial of a positive integer  $n$  is denoted by  $n!$  and is equal to  $n(n - 1)(n - 2) \cdots 2 \cdot 1$ . For example, if  $n$  is 10 and  $k$  is 7, then
 
 $$
-\begin{array}{l} \left( \begin{array}{c} 1 0 \\ 7 \end{array} \right) = \frac {1 0 !}{(1 0 - 7) ! 7 !} \\ = \frac {1 0 \cdot 9 \cdot 8 \cdot 7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1}{(3 \cdot 2 \cdot 1) (7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1)} \\ = \frac {3 , 6 2 8 , 8 0 0}{3 0 , 2 4 0} = 1 2 0. \\ \end{array}
+\begin{array}{l} \left( \begin{array}{c} 1 0 \\ 7 \end{array} \right) = \frac{1 0 !}{(1 0 - 7) ! 7 !} \\ = \frac{1 0 \cdot 9 \cdot 8 \cdot 7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1}{(3 \cdot 2 \cdot 1) (7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1)} \\ = \frac{3 , 6 2 8 , 8 0 0}{3 0 , 2 4 0} = 1 2 0. \\ \end{array}
 $$
 
 To illustrate the binomial distribution, suppose that the Bernoulli trial involves flipping 10 coins and we are interested in knowing the probability of realizing 7 heads, where a head is labeled a success. Then, we know that
@@ -9331,7 +9330,7 @@ $$
 Substituting these values into the formula for the binomial distribution:
 
 $$
-\begin{array}{l} B (7, 1 0, 0. 5) = \left( \begin{array}{c} 1 0 \\ 7 \end{array} \right) (0. 5) ^ {7} (1 - 0. 5) ^ {1 0 - 7} \\ = 120(0.0078125)(0.125) = 0.1172 = 11.72\% \\ \end{array}
+\begin{array}{l} B (7, 1 0, 0. 5) = \left( \begin{array}{c} 1 0 \\ 7 \end{array} \right) (0. 5)^{7} (1 - 0. 5)^{1 0 - 7} \\ = 120(0.0078125)(0.125) = 0.1172 = 11.72\% \\ \end{array}
 $$
 
 In credit-risk modeling, a portfolio manager is concerned not with just the default of a single company but also with the many companies whose debt obligations are included in the portfolio. Assuming that  $n$  companies have the same annualized probability of default  $p$ , the probability that  $k$  of these companies will default can be obtained from the binomial distribution. A situation in which a portfolio manager needs this information is if the portfolio manager has a position in a credit default swap on a basket of companies because payments by a credit-protection seller may depend on the number of companies that default.
@@ -9345,7 +9344,7 @@ $$
 Substituting these values into the formula for the binomial distribution:
 
 $$
-\begin{array}{l} B (2, 2 0, 0. 0 3) = \left( \begin{array}{c} 2 0 \\ 2 \end{array} \right) (0. 0 3) ^ {2} (1 - 0. 0 3) ^ {2 0 - 2} \\ = 0.0988 = 9.88\% \\ \end{array}
+\begin{array}{l} B (2, 2 0, 0. 0 3) = \left( \begin{array}{c} 2 0 \\ 2 \end{array} \right) (0. 0 3)^{2} (1 - 0. 0 3)^{2 0 - 2} \\ = 0.0988 = 9.88\% \\ \end{array}
 $$
 
 Note that the assumption is that the Bernoulli trials are independent. When applying this to credit-risk modeling, this assumption must be carefully investigated because the default of one credit in a portfolio may be highly correlated with the default of other credits.
@@ -9357,7 +9356,7 @@ The Poisson distribution depends on only one parameter,  $\lambda$ , and can be 
 The probability distribution of a Poisson-distributed random variable  $N$  is described by the following equation:
 
 $$
-P (N = k) = \frac {\lambda^ {k}}{k !} \cdot e ^ {- \lambda}, \qquad k = 0, 1, 2, \dots .
+P (N = k) = \frac{\lambda^{k}}{k !} \cdot e^{- \lambda}, \qquad k = 0, 1, 2, \dots .
 $$
 
 The Poisson distribution occurs in the context of finance as a generic distribution of a stochastic process, called a Poisson process, that is used to model the time of default in some credit-risk models. To understand the use of the Poisson distribution in a credit-risk model, let's briefly describe the two general models that are in use today: structural models and reduced-form models.<sup>4</sup>
@@ -9377,7 +9376,7 @@ We begin with a description of the normal distribution, and it will become clear
 Exhibit 30-5 shows a graphical presentation of the normal distribution or, as it is also referred to, a Gaussian distribution. The area under the normal distribution (or normal curve) between any two points on the horizontal axis represents the probability of obtaining a value between those two values. For example, the probability of realizing a value for the random variable  $X$  that is between  $X_{1}$  and  $X_{2}$  in Exhibit 30-5 is shown by the shaded area. Mathematically, the probability of realizing a value for  $X$  between these two values can be written as
 
 $$
-P (X _ {1} <   X <   X _ {2}).
+P (X_{1} <   X <   X_{2}).
 $$
 
 # EXHIBIT 30-5
@@ -9394,7 +9393,7 @@ The normal distribution has the following properties:
 2. The distribution is symmetric around the expected value. That is, half the distribution is to the left of the expected value and the other half is to the right. Thus the probability of obtaining a value less than the expected value is  $50\%$ . The probability of obtaining a value greater than the expected value is also  $50\%$ . Mathematically, this is expressed as
 
 $$
-P [ X <   E (X) ] = 0. 5 \quad \text {a n d} \quad P [ X > E (X) ] = 0. 5.
+P [ X <   E (X) ] = 0. 5 \quad \text{an d} \quad P [ X > E (X) ] = 0. 5.
 $$
 
 3. The probability that the actual outcome will be within a range of one standard deviation above the expected value and one standard deviation below the expected value is  $68.26\%$ , rounded to  $68.3\%$ .  
@@ -9476,7 +9475,7 @@ The standardized value indicates the number of standard deviations away from the
 Suppose that a portfolio manager wants to construct a confidence interval for the rate of return on a portfolio. Assuming that the rate of return is normally distributed with an expected value of  $7\%$  and a standard deviation of  $4\%$ , then a  $95\%$  confidence interval would be
 
 $$
-(7 \% - 1.96 \times 4 \%) \text {to} (7 \% + 1.96 \times 4 \%) \quad \text {or} \quad -0.84 \% \text {to} 14.84 \%
+(7 \% - 1.96 \times 4 \%) \text{to} (7 \% + 1.96 \times 4 \%) \quad \text{or} \quad -0.84 \% \text{to} 14.84 \%
 $$
 
 Notice that the larger the standard deviation, the wider is the confidence interval. For a confidence interval with a smaller probability, the standardized value is smaller, and therefore the confidence interval is narrower for a given standard deviation.
@@ -9539,7 +9538,7 @@ Our objective here is to explain how regression analysis is used in fixed-income
 Suppose that a bond portfolio manager wants to estimate the relationship between the yield on A-rated medium-term industrial bonds and the yield on 10-year Treasuries. Assume that the portfolio manager believes the industrial bond/Treasury yield relationship can be expressed as
 
 $$
-\text {I n d u s t r i a l} = b _ {0} + b _ {1} (\text {T r e a s u r y} \text {y i e l d}). \tag {31-1}
+\text{In du st ri al} = b_{0} + b_{1} (\text{Tr ea su ry} \text{yi el d}). \tag {31-1}
 $$
 
 If the values for  $b_{0}$  and  $b_{1}$  can be estimated, the bond portfolio manager can use the industrial bond/Treasury yield relationship to estimate the yield on A-rated medium-term industrial bonds for a given yield level of 10-year Treasuries. The values  $b_{0}$  and  $b_{1}$  are called the parameters of the model. The parameter  $b_{0}$  is referred to as the intercept term in the regression. The objective of regression analysis is to estimate the parameters.
@@ -9549,13 +9548,13 @@ There are several points to understand about this relationship. First, there are
 Second, it is highly unlikely that the estimated industrial bond/Treasury yield relationship above will describe the true relationship between the two yields exactly because other factors besides the level of 10-year Treasuries may influence the yield on new A-rated medium-term industrial bonds. Consequently, this industrial bond/Treasury yield relationship may be described more accurately by adding a random error term to the relationship. That is, the industrial bond/Treasury yield relationship can be expressed as
 
 $$
-\text {I n d u s t r i a l} = b _ {0} + b _ {1} (\text {T r e a s u r y} \text {y i e l d}) + \text {r a n d o m} \tag {31-2}
+\text{In du st ri al} = b_{0} + b_{1} (\text{Tr ea su ry} \text{yi el d}) + \text{ra nd om} \tag {31-2}
 $$
 
 This equation can be written in shorthand notation as
 
 $$
-Y = b _ {0} + b _ {1} X + e, \tag {31-3}
+Y = b_{0} + b_{1} X + e, \tag {31-3}
 $$
 
 where
@@ -9573,19 +9572,19 @@ Given data on historical returns for A-rated medium-term industrial bonds and 10
 To illustrate this, we will use the relationship of 45 monthly observations in Exhibit 31-1. Because we have observations over time, we are estimating a time-series regression model. If we denote an observation using the subscript  $t$ , then equation (31-3) can be written as
 
 $$
-Y _ {t} = b _ {0} + b _ {1} X _ {t} + e _ {t}. \tag {31-4}
+Y_{t} = b_{0} + b_{1} X_{t} + e_{t}. \tag {31-4}
 $$
 
 For example, for the third observation  $(t = 3)$ , equation (31-4) is
 
 $$
-9. 8 0 0 = b _ {0} + b _ {1} (8. 9 8 3) + e _ {3}.
+9. 8 0 0 = b_{0} + b_{1} (8. 9 8 3) + e_{3}.
 $$
 
 For the sixth observation  $(t = 6)$ , equation (31-4) is
 
 $$
-9. 9 5 0 = b _ {0} + b _ {1} (9. 0 5 7) + e _ {6}.
+9. 9 5 0 = b_{0} + b_{1} (9. 0 5 7) + e_{6}.
 $$
 
 The values for  $e_3$  and  $e_6$  are referred to as the observed error terms for the observation. Note that the value of the observed error term for both observations will depend on the values selected for  $b_0$  and  $b_1$ . This suggests a criterion for selecting the two parameters: the parameters should be estimated so that the sum of the observed error terms for all observations is as small as possible.
@@ -9661,7 +9660,7 @@ Total sum of squares  $=$  explained sum of squares
 How much of the total sum of squares is explained by  $X$  is what we are interested in—one way, therefore, to measure how good the relationship is to determine what percent of the total sum of squares is explained by  $X$ . That is, how good the relationship is can be measured by dividing the explained sum of squares by the total sum of squares. This ratio is the coefficient of determination:
 
 $$
-\text {C o e f f i c i e n t} = \frac {\text {e x p l a i n e d s u m o f s q u a r e s}}{\text {t o t a l s u m o f s q u a r e s}}.
+\text{Co ef fi ci en t} = \frac{\text{ex pl ai ne ds um of sq ua re s}}{\text{to ta ls um of sq ua re s}}.
 $$
 
 The coefficient of determination can take on a value between 0 and 1. If the total sum of squares is fully explained by  $X$ , the coefficient of determination is 1. When none of the total sum of squares is explained by  $X$ , the coefficient of determination is 0. Hence the closer the coefficient of determination is to 1, the stronger is the relationship between the variables.
@@ -9697,7 +9696,7 @@ The interpretation of a  $95\%$  confidence interval is as follows: if the proce
 In many real-world applications, a dependent variable is best explained by more than one explanatory variable. When a regression model has more than one explanatory variable, it is said to be a multiple linear regression model and has the following general form:
 
 $$
-Y = b _ {0} + b _ {1} X _ {1} + b _ {2} X _ {2} + \dots + b _ {K} X _ {K} + e \tag {31-5}
+Y = b_{0} + b_{1} X_{1} + b_{2} X_{2} + \dots + b_{K} X_{K} + e \tag {31-5}
 $$
 
 where
@@ -9855,7 +9854,7 @@ $J <   K$
 Then
 
 $$
-F _ {j} = c _ {j 1} X _ {1} + c _ {j 2} X _ {2} + \dots + c _ {j K} X _ {K}.
+F_{j} = c_{j 1} X_{1} + c_{j 2} X_{2} + \dots + c_{j K} X_{K}.
 $$
 
 The coefficients  $c_{jk}$  are the parameters to be estimated by PCA and are referred to as the factor loadings. The resulting PCs or factors are such that they are
@@ -10014,7 +10013,7 @@ Monthly Tracking Error for Risk Factors
 each isolated tracking error for each risk factor, summing them, and then taking the square root. That is, for the general case where there are  $K$  risk factors,
 
 $$
-\text {P o r t f i l o} T E = \left[ \left(T E _ {1}\right) ^ {2} + \left(T E _ {2}\right) ^ {2} + \dots + \left(T E _ {K}\right) ^ {2} \right] ^ {1 / 2},
+\text{Po rt fi lo} T E = \left[ \left(T E_{1}\right)^{2} + \left(T E_{2}\right)^{2} + \dots + \left(T E_{K}\right)^{2} \right]^{1 / 2},
 $$
 
 where  $TE$  denotes tracking error, and the subscript denotes the risk factor.
@@ -10022,13 +10021,13 @@ where  $TE$  denotes tracking error, and the subscript denotes the risk factor.
 Thus, for the 50-security portfolio in this illustration whose monthly isolated tracking error for each risk factor is shown in Exhibit 32-4, the portfolio isolated systematic  $TE$  is 6.24 basis points per month:
 
 $$
-\begin{array}{l} \text {P o r t f i l o} T E = [ (3. 9) ^ {2} + (2. 6) ^ {2} + (1. 3) ^ {2} + (0. 8) ^ {2} \\ + (2. 8) ^ {2} + (2. 5) ^ {2} ] ^ {1 / 2} = 6. 2 4. \\ \end{array}
+\begin{array}{l} \text{Po rt fi lo} T E = [ (3. 9)^{2} + (2. 6)^{2} + (1. 3)^{2} + (0. 8)^{2} \\ + (2. 8)^{2} + (2. 5)^{2} ]^{1 / 2} = 6. 2 4. \\ \end{array}
 $$
 
 The assumption that there is zero correlation between every pair of factor risks must be investigated. Obviously, to address this, correlations or covariances must be brought into the analysis. Calculation of the portfolio risk then involves use of the variance-covariance matrix for the risk factors.<sup>3</sup> Let's consider the case where there are only two risk factors,  $F_{1}$  and  $F_{2}$ . Then the portfolio tracking error can be shown to be equal to
 
 $$
-\text {P o r t f o l i o} T E = \left[ \left(T E _ {F 1}\right) ^ {2} + \left(T E _ {F 2}\right) ^ {2} + 2 \operatorname {c o v} \left(F _ {1}, F _ {2}\right) \right] ^ {1 / 2}
+\text{Po rt fo li o} T E = \left[ \left(T E_{F 1}\right)^{2} + \left(T E_{F 2}\right)^{2} + 2 \operatorname{co v} \left(F_{1}, F_{2}\right) \right]^{1 / 2}
 $$
 
 where  $\operatorname{cov}(F_1, F_2)$  is the covariance between risk factor exposures 1 and 2.
@@ -10036,13 +10035,13 @@ where  $\operatorname{cov}(F_1, F_2)$  is the covariance between risk factor exp
 In our illustration, there are six risk factors that we denote as follows:
 
 $$
-\begin{array}{l} F _ {1} = \text {y i e l d - c u r v e r i s k}; F _ {2} = \text {s w a p - s p r e a d r i s k}; F _ {3} = \text {v o l a t i l i t y r i s k}; \\ F _ {4} = \text {g o v e n m e n t - r e l a t e d s p r e a d r i s k}; F _ {5} = \text {c o r p o r a t e s p r e a d r i s k}; \\ F _ {6} = \text {s e c u r i t i z e d s p r e a d r i s k}. \\ \end{array}
+\begin{array}{l} F_{1} = \text{yi el d -c ur ve ri sk}; F_{2} = \text{sw ap -s pr ea dr is k}; F_{3} = \text{vo la ti li ty ri sk}; \\ F_{4} = \text{go ve nm en t -r el at ed sp re ad ri sk}; F_{5} = \text{co rp or at es pr ea dr is k}; \\ F_{6} = \text{se cu ri ti ze ds pr ea dr is k}. \\ \end{array}
 $$
 
 The variance-covariance matrix is then
 
 $$
-\left[ \begin{array}{c c c c c c} \operatorname {v a r} \left(F _ {1}\right) & \operatorname {c o v} \left(F _ {1}, F _ {2}\right) & \operatorname {c o v} \left(F _ {1}, F _ {3}\right) & \operatorname {c o v} \left(F _ {1}, F _ {4}\right) & \operatorname {c o v} \left(F _ {1}, F _ {5}\right) & \operatorname {c o v} \left(F _ {1}, F _ {6}\right) \\ \operatorname {c o v} \left(F _ {2}, F _ {1}\right) & \operatorname {v a r} \left(F _ {2}\right) & \operatorname {c o v} \left(F _ {2}, F _ {3}\right) & \operatorname {c o v} \left(F _ {2}, F _ {4}\right) & \operatorname {c o v} \left(F _ {2}, F _ {5}\right) & \operatorname {c o v} \left(F _ {2}, F _ {6}\right) \\ \operatorname {c o v} \left(F _ {3}, F _ {1}\right) & \operatorname {c o v} \left(F _ {3}, F _ {2}\right) & \operatorname {v a r} \left(F _ {3}\right) & \operatorname {c o v} \left(F _ {3}, F _ {4}\right) & \operatorname {c o v} \left(F _ {3}, F _ {5}\right) & \operatorname {c o v} \left(F _ {3}, F _ {6}\right) \\ \operatorname {c o v} \left(F _ {4}, F _ {1}\right) & \operatorname {c o v} \left(F _ {4}, F _ {2}\right) & \operatorname {c o v} \left(F _ {4}, F _ {3}\right) & \operatorname {v a r} \left(F _ {4}\right) & \operatorname {c o v} \left(F _ {4}, F _ {5}\right) & \operatorname {c o v} \left(F _ {4}, F _ {6}\right) \\ \operatorname {c o v} \left(F _ {5}, F _ {1}\right) & \operatorname {c o v} \left(F _ {5}, F _ {2}\right) & \operatorname {c o v} \left(F _ {5}, F _ {3}\right) & \operatorname {c o v} \left(F _ {5}, F _ {4}\right) & \operatorname {v a r} \left(F _ {5}\right) & \operatorname {c o v} \left(F _ {5}, F _ {6}\right) \\ \operatorname {c o v} \left(F _ {6}, F _ {1}\right) & \operatorname {c o v} \left(F _ {6}, F _ {2}\right) & \operatorname {c o v} \left(F _ {6}, F _ {3}\right) & \operatorname {c o v} \left(F _ {6}, F _ {4}\right) & \operatorname {c o v} \left(F _ {6}, F _ {5}\right) & \operatorname {v a r} \left(F _ {6}\right) \end{array} \right]
+\left[ \begin{array}{c c c c c c} \operatorname{va r} \left(F_{1}\right) & \operatorname{co v} \left(F_{1}, F_{2}\right) & \operatorname{co v} \left(F_{1}, F_{3}\right) & \operatorname{co v} \left(F_{1}, F_{4}\right) & \operatorname{co v} \left(F_{1}, F_{5}\right) & \operatorname{co v} \left(F_{1}, F_{6}\right) \\ \operatorname{co v} \left(F_{2}, F_{1}\right) & \operatorname{va r} \left(F_{2}\right) & \operatorname{co v} \left(F_{2}, F_{3}\right) & \operatorname{co v} \left(F_{2}, F_{4}\right) & \operatorname{co v} \left(F_{2}, F_{5}\right) & \operatorname{co v} \left(F_{2}, F_{6}\right) \\ \operatorname{co v} \left(F_{3}, F_{1}\right) & \operatorname{co v} \left(F_{3}, F_{2}\right) & \operatorname{va r} \left(F_{3}\right) & \operatorname{co v} \left(F_{3}, F_{4}\right) & \operatorname{co v} \left(F_{3}, F_{5}\right) & \operatorname{co v} \left(F_{3}, F_{6}\right) \\ \operatorname{co v} \left(F_{4}, F_{1}\right) & \operatorname{co v} \left(F_{4}, F_{2}\right) & \operatorname{co v} \left(F_{4}, F_{3}\right) & \operatorname{va r} \left(F_{4}\right) & \operatorname{co v} \left(F_{4}, F_{5}\right) & \operatorname{co v} \left(F_{4}, F_{6}\right) \\ \operatorname{co v} \left(F_{5}, F_{1}\right) & \operatorname{co v} \left(F_{5}, F_{2}\right) & \operatorname{co v} \left(F_{5}, F_{3}\right) & \operatorname{co v} \left(F_{5}, F_{4}\right) & \operatorname{va r} \left(F_{5}\right) & \operatorname{co v} \left(F_{5}, F_{6}\right) \\ \operatorname{co v} \left(F_{6}, F_{1}\right) & \operatorname{co v} \left(F_{6}, F_{2}\right) & \operatorname{co v} \left(F_{6}, F_{3}\right) & \operatorname{co v} \left(F_{6}, F_{4}\right) & \operatorname{co v} \left(F_{6}, F_{5}\right) & \operatorname{va r} \left(F_{6}\right) \end{array} \right]
 $$
 
 The diagonal terms in the variance-covariance matrix are the variance or, equivalently, the square of the tracking error.
@@ -10080,7 +10079,7 @@ As with equities where a portfolio beta is computed that shows the movement of a
 A beta-type measure can be estimated for each risk factor. For example, consider the risk factor measuring changes in the level of the yield curve, which is the portfolio's duration. A duration beta can be calculated as follows:
 
 $$
-\text {D u r a t i o n} = \frac {\text {p o r t f o l i o d u r a t i o n}}{\text {b e n c h m a r k d u r a t i o n}}
+\text{Du ra ti on} = \frac{\text{po rt fo li od ur at io n}}{\text{be nc hm ar kd ur at io n}}
 $$
 
 For our portfolio and benchmark, because the durations are 5.56 and 5.41, respectively (see Exhibit 32-3), the duration beta is 1.03.
@@ -10136,13 +10135,13 @@ Return impact of a typical movement  $= -$  (net key rate duration)  $\times$  t
 For example, for the 5-year key rate duration, we have
 
 $$
-\begin{array}{l} \text {R e t u r n i m p a c t o f a t y p i c a l m o v e m e n t} = - 0. 0 9 \times 2 9. 4 8 \\ = - 2. 8 \text {b a s i e p o i n t s p e r m o n t h}. \\ \end{array}
+\begin{array}{l} \text{Re tu rn im pa ct of at yp ic al mo ve me nt} = - 0. 0 9 \times 2 9. 4 8 \\ = - 2. 8 \text{ba si ep oi nt sp er mo nt h}. \\ \end{array}
 $$
 
 Looking at the 10-year key rate, we have
 
 $$
-\begin{array}{l} \text {R e t u r n i m p a c t o f a t y p i c a l m o v e m e n t} = - (- 0. 1 2) \times 3 0. 4 2 \\ = 3. 6 \text {b a s i s p o i n t s p e r m o n t h}. \\ \end{array}
+\begin{array}{l} \text{Re tu rn im pa ct of at yp ic al mo ve me nt} = - (- 0. 1 2) \times 3 0. 4 2 \\ = 3. 6 \text{ba si sp oi nt sp er mo nt h}. \\ \end{array}
 $$
 
 Recall the difference between isolated and correlated return impact. Notice that for the 10-year key rate, the isolated return impact of a typical movement in the 10-year rate is positive, but when correlation between factors is considered, it is -2 basis points per month.
@@ -10279,7 +10278,7 @@ The predictive or forward-looking tracking error, defined as the annualized pred
 
 is computed based on the covariance matrix of the fixed-income risk model factors and the portfolio price exposures. The covariance matrix is estimated from an exponentially weighted moving average of factor return time series with weekly overlapping returns using a half-life of 1 year and a look-back period of 4 years.
 
-The constructed portfolio is somewhat overweight in U.S. Treasuries and sovereign bonds and underweight in corporate and MBS bonds relative to the benchmark. The total tracking error of this portfolio relative to the benchmark is 50 basis points. The active risk decomposition is given in Exhibit 32-13. For various risk types, the exhibit shows the absolute level of active risk in basis points as well as the percentage contribution to variance, which at each level of the decomposition is additive to the next level. At the top level, the percentage contribution to variance of the systematic risk plus the percentage contribution to variance of the specific risk sums to  $100\%$ . Because systematic risk and specific risk are by construction uncorrelated, this corresponds to  $(40\text{basis points})^2 + (30\text{basis points})^2 = (50\text{basis points})^2$ .
+The constructed portfolio is somewhat overweight in U.S. Treasuries and sovereign bonds and underweight in corporate and MBS bonds relative to the benchmark. The total tracking error of this portfolio relative to the benchmark is 50 basis points. The active risk decomposition is given in Exhibit 32-13. For various risk types, the exhibit shows the absolute level of active risk in basis points as well as the percentage contribution to variance, which at each level of the decomposition is additive to the next level. At the top level, the percentage contribution to variance of the systematic risk plus the percentage contribution to variance of the specific risk sums to  $100\%$ . Because systematic risk and specific risk are by construction uncorrelated, this corresponds to  $(40\text{basispoints})^2 + (30\text{basispoints})^2 = (50\text{basispoints})^2$ .
 
 # EXHIBIT 32-13
 
@@ -10483,7 +10482,7 @@ outcome of the simulation. For example, for a financial instrument (security or 
 The mean standard error is a commonly used measure of how good the estimate is. The mean standard error is defined as
 
 $$
-\text {M e a n s t a n d a r d e r r o r} = \sqrt {\frac {\text {v a r i a n c e o f t h e t r i a l v a l u e}}{\text {n u m b e r o f t r i a l s}}}.
+\text{Me an st an da rd er ro r} = \sqrt{\frac{\text{va ri an ce of th et ri al va lu e}}{\text{nu mb er of tr ia ls}}}.
 $$
 
 A confidence interval for the estimate of the value sought can be constructed using the mean standard error. The smaller the mean standard error, the greater is the precision of the estimated value.
@@ -10539,7 +10538,7 @@ $c_{i} = 6$  -month coupon payment for bond  $i$
 The total future dollars from each bond at the end of the 6-month horizon is then  $\nu_{i} + c_{i}$ . The 6-month total return for the three-bond portfolio whose initial portfolio value is \$15 million is then
 
 $$
-\text {T o t a l} = \frac {\left(V _ {1} + c _ {1}\right) + \left(V _ {2} + c _ {2}\right) + \left(V _ {3} + c _ {3}\right)}{\mathbb {S} 1 5 , 0 0 0 , 0 0 0}
+\text{To ta l} = \frac{\left(V_{1} + c_{1}\right) + \left(V_{2} + c_{2}\right) + \left(V_{3} + c_{3}\right)}{\mathbb {S} 1 5 , 0 0 0 , 0 0 0}
 $$
 
 Doubling the total return gives an annualized total return on a bond-equivalent yield basis.
@@ -10699,7 +10698,7 @@ $p_i =$  price of issue  $i$  (as a percent of par value  $P$ , e.g., 0.90, 1.00
 Then the total cost of the portfolio is
 
 $$
-w _ {1} p _ {1} + w _ {2} p _ {2} + \dots + w _ {2 5 0 0} p _ {2 5 0 0}
+w_{1} p_{1} + w_{2} p_{2} + \dots + w_{2 5 0 0} p_{2 5 0 0}
 $$
 
 This expression represents the objective function. The objective function is linear, and the portfolio manager would seek to minimize the objective function subject to the constraints imposed.
@@ -10707,13 +10706,13 @@ This expression represents the objective function. The objective function is lin
 Two examples of a linear constraint would be that a minimum of  \$10 million of the portfolio must be invested in Treasury issues and that no more than\$ 35 million may be invested in BBB-rated corporate bonds. Mathematically, assuming that issues 1, 2, ..., 150 are the Treasury issues, the first constraint can be expressed as
 
 $$
-w _ {1} p _ {1} + w _ {2} p _ {2} + \dots + w _ {1 5 0} p _ {1 5 0} \geq \$ 1 0, 0 0 0, 0 0 0.
+w_{1} p_{1} + w_{2} p_{2} + \dots + w_{1 5 0} p_{1 5 0} \geq \$ 1 0, 0 0 0, 0 0 0.
 $$
 
 Assuming that issues 425-500 are BBB-rated corporate bonds, the second constraint can be expressed mathematically as
 
 $$
-w _ {4 2 5} p _ {4 2 5} + w _ {4 2 6} p _ {4 2 6} + \dots + w _ {5 0 0} p _ {5 0 0} \leq \$ 3 5, 0 0 0, 0 0 0.
+w_{4 2 5} p_{4 2 5} + w_{4 2 6} p_{4 2 6} + \dots + w_{5 0 0} p_{5 0 0} \leq \$ 3 5, 0 0 0, 0 0 0.
 $$
 
 One common linear constraint in structured portfolio strategies is a restriction on portfolio duration. For example, a dedicated portfolio strategy (discussed later in this chapter) would constrain portfolio duration to match the duration of the liability. Assuming no short selling, all the decision variables are then constrained to be greater than or equal to zero.
@@ -10808,13 +10807,13 @@ Let the cash obligations (i.e., the amount that must be paid out to the benefici
 The objective is to be able to create a minimum-cost portfolio of the five Treasury securities to satisfy the eight payments that must be paid to the beneficiaries. The decision variables in this illustration are the amount of each bond to be purchased. If we let  $x_{\mathrm{i}}$  be the amount invested in Treasury security  $i$ , then there are five decision variables  $(x_{1}, \ldots, x_{5})$ . Because the objective is to create a minimum-cost portfolio comprised of the five bonds, then  $p_{i}x_{\mathrm{i}}$  is the cost of purchasing Treasury security  $x_{\mathrm{i}}$ ; the cost for the entire portfolio is
 
 $$
-p _ {1} x _ {1} + p _ {2} x _ {2} + p _ {3} x _ {3} + p _ {4} x _ {4} + p _ {5} x _ {5}.
+p_{1} x_{1} + p_{2} x_{2} + p_{3} x_{3} + p_{4} x_{4} + p_{5} x_{5}.
 $$
 
 Then the objective is to minimize the above expression. Therefore, the objective function is
 
 $$
-\operatorname {M i n} \left(p _ {1} x _ {1} + p _ {2} x _ {2} + p _ {3} x _ {3} + p _ {4} x _ {4} + p _ {5} x _ {5}\right).
+\operatorname{Mi n} \left(p_{1} x_{1} + p_{2} x_{2} + p_{3} x_{3} + p_{4} x_{4} + p_{5} x_{5}\right).
 $$
 
 There are 13 constraints. There is a constraint for each of the eight time periods that specify that the cash flow generated from all five Treasury securities
@@ -10834,7 +10833,7 @@ Data for the Five Treasury Securities for the Cash-Flow Matching Illustration
 must be greater than or equal to the amount of the obligation. For each time period  $(t = 1, \dots, 8)$ ,
 
 $$
-c _ {1 r} x _ {1} + c _ {2 r} x _ {2} + c _ {3 r} x _ {3} + c _ {4 r} x _ {4} + c _ {5 r} x _ {5} \geq m _ {t}.
+c_{1 r} x_{1} + c_{2 r} x_{2} + c_{3 r} x_{3} + c_{4 r} x_{4} + c_{5 r} x_{5} \geq m_{t}.
 $$
 
 The final constraint is that the amount purchased must be greater than or equal to zero. That is, short selling (i.e., a value for  $x_{\mathrm{i}}$  less than zero) is not permitted. Thus a constraint for each of the five decision variables is that  $x_{\mathrm{i}} > 0$ .
@@ -10842,23 +10841,23 @@ The final constraint is that the amount purchased must be greater than or equal 
 In practice, the amounts for the bond investments may need to be presented as round lots. This can be achieved by using integer variables. New integer variables  $z_{i}$  ( $z_{1}, \ldots, z_{5}$ ) are introduced that correspond to the number of lots to buy of each bond. Suppose that a lot for bond  $i$  is  $l_{i}$ . To obtain the optimal number of lots of each bond to purchase, we rewrite the problem formulation and add the following 10 more constraints:
 
 $$
-x _ {i} = z _ {i} l _ {i}, \quad i = 1, \dots , 5;
+x_{i} = z_{i} l_{i}, \quad i = 1, \dots , 5;
 $$
 
 $$
-z _ {i} \text {i n t e g e r}, \quad i = 1, \dots , 5.
+z_{i} \text{in te ge r}, \quad i = 1, \dots , 5.
 $$
 
 The cash-flow matching problem is then
 
 $$
-\min  \left(p _ {1} x _ {1} + p _ {2} x _ {2} + p _ {3} x _ {3} + p _ {4} x _ {4} + p _ {5} x _ {5}\right)
+\min  \left(p_{1} x_{1} + p_{2} x_{2} + p_{3} x_{3} + p_{4} x_{4} + p_{5} x_{5}\right)
 $$
 
 subject to  $c_{1r}x_{1} + c_{2r}x_{2} + c_{3r}x_{3} + c_{4r}x_{4} + c_{5r}x_{5}\geq m_{t},\qquad t = 1,\ldots ,8$
 
 $$
-\begin{array}{l} x _ {\mathrm {i}} \geq 0, \quad I = 1, \dots , 5 \\ x _ {i} = z _ {i} l _ {i}, \quad i = 1, \dots , 5 \\ z _ {i} \text {i n t e g e r}, \quad i = 1, \dots , 5 \\ \end{array}
+\begin{array}{l} x_{\mathrm{i}} \geq 0, \quad I = 1, \dots , 5 \\ x_{i} = z_{i} l_{i}, \quad i = 1, \dots , 5 \\ z_{i} \text{in te ge r}, \quad i = 1, \dots , 5 \\ \end{array}
 $$
 
 Exhibit 34-5 shows the optimization problem for our cash-flow matching problem. The question is what type of optimization problem this is. Because the objective function and the constraints are linear, it seems that this is a linear programming problem. However, there are decision variables that can take on any positive value, and there are decision variables that can only take on integer values. Therefore, this is a mixed-integer linear programming problem.
@@ -10870,7 +10869,7 @@ The objective of an asset-allocation model is to divide funds among major asset 
 The basic inputs for an asset-allocation model are expected returns of the major asset classes, risk estimates, and correlations (or covariances) for each major asset class. The portfolio's expected return is simply the weighted average of the expected value of each asset class, where the weight is the proportion of the portfolio devoted to the asset class. That is, if  $x_{i}$  denotes the proportion of the portfolio allocated to asset class  $i$  and  $r_{i}$  denotes the expected return for asset class  $i$ , the portfolio's expected return, assuming that there are  $m$  major asset classes, can be expressed as
 
 $$
-E (r _ {p}) = x _ {1} r _ {1} + x _ {2} r _ {2} + \dots + x _ {m} r _ {m},
+E (r_{p}) = x_{1} r_{1} + x_{2} r_{2} + \dots + x_{m} r_{m},
 $$
 
 where  $E(r_{p})$  is the expected return for the portfolio.
@@ -10878,7 +10877,7 @@ where  $E(r_{p})$  is the expected return for the portfolio.
 The expected risk of a portfolio is measured by the variance of the portfolio. Unlike the expected portfolio return, which is a weighted average of the expected return of each asset class, the portfolio variance also depends on the covariance (or correlation) between the asset classes. For example, if there are only two asset classes, the portfolio variance is calculated as
 
 $$
-\operatorname {v a r} \left(r _ {p}\right) = x _ {1} ^ {2} \operatorname {v a r} \left(r _ {1}\right) + x _ {2} ^ {2} \operatorname {v a r} \left(r _ {2}\right) + 2 x _ {1} x _ {2} \operatorname {c o v} \left(r _ {1}, r _ {2}\right),
+\operatorname{va r} \left(r_{p}\right) = x_{1}^{2} \operatorname{va r} \left(r_{1}\right) + x_{2}^{2} \operatorname{va r} \left(r_{2}\right) + 2 x_{1} x_{2} \operatorname{co v} \left(r_{1}, r_{2}\right),
 $$
 
 # EXHIBIT 34-5
@@ -10886,111 +10885,111 @@ $$
 Optimization Problem for the Cash-Flow Matching Illustration
 
 $$
-\min  : \mathbb {S} 1 0 2. 3 6 x _ {1} + \mathbb {S} 1 1 0. 8 3 x _ {2} + \mathbb {S} 9 6. 8 4 x _ {3} + \mathbb {S} 1 1 4. 6 5 x _ {4} + \mathbb {S} 9 6. 6 3 x _ {5}
+\min  : \mathbb {S} 1 0 2. 3 6 x_{1} + \mathbb {S} 1 1 0. 8 3 x_{2} + \mathbb {S} 9 6. 8 4 x_{3} + \mathbb {S} 1 1 4. 6 5 x_{4} + \mathbb {S} 9 6. 6 3 x_{5}
 $$
 
 subject to: constraints to satisfy the amount needed to meet semiannual payments
 
 $$
-\$ 2.50x _ {1} + \$ 5.00x _ {2} + \$ 3.00x _ {3} + \$ 4.00x _ {4} + \$ 3.50x _ {5} \geq \$ 1,000,000
+\$ 2.50x_{1} + \$ 5.00x_{2} + \$ 3.00x_{3} + \$ 4.00x_{4} + \$ 3.50x_{5} \geq \$ 1,000,000
 $$
 
 $$
-\$ 2.50x _ {1} + \$ 5.00x _ {2} + \$ 3.00x _ {3} + \$ 4.00x _ {4} + \$ 3.50x _ {5} \geq \$ 2,000,000
+\$ 2.50x_{1} + \$ 5.00x_{2} + \$ 3.00x_{3} + \$ 4.00x_{4} + \$ 3.50x_{5} \geq \$ 2,000,000
 $$
 
 $$
-\$ 2.50x _ {1} + \$ 5.00x _ {2} + \$ 3.00x _ {3} + \$ 4.00x _ {4} + \$ 3.50x _ {5} \geq \$ 1,000,000
+\$ 2.50x_{1} + \$ 5.00x_{2} + \$ 3.00x_{3} + \$ 4.00x_{4} + \$ 3.50x_{5} \geq \$ 1,000,000
 $$
 
 $$
-\$ 2.50x _ {1} + \$ 5.00x _ {2} + \$ 3.00x _ {3} + \$ 4.00x _ {4} + \$ 3.50x _ {5} \geq \$ 2,000,000
+\$ 2.50x_{1} + \$ 5.00x_{2} + \$ 3.00x_{3} + \$ 4.00x_{4} + \$ 3.50x_{5} \geq \$ 2,000,000
 $$
 
 $$
-\$ 102.50x _ {1} + \$ 5.00x _ {2} + \$ 3.00x _ {3} + \$ 4.00x _ {4} + \$ 3.50x _ {5} \geq \$ 8,000,000
+\$ 102.50x_{1} + \$ 5.00x_{2} + \$ 3.00x_{3} + \$ 4.00x_{4} + \$ 3.50x_{5} \geq \$ 8,000,000
 $$
 
 $$
-\$ 105.00x _ {2} + \$ 3.00x _ {3} + \$ 4.00x _ {4} + \$ 3.50x _ {5} \geq \$ 12,000,000
+\$ 105.00x_{2} + \$ 3.00x_{3} + \$ 4.00x_{4} + \$ 3.50x_{5} \geq \$ 12,000,000
 $$
 
 $$
-\$ 103.00x _ {3} + \$ 4.00x _ {4} + \$ 3.50x _ {5} \geq \$ 4,000,000
+\$ 103.00x_{3} + \$ 4.00x_{4} + \$ 3.50x_{5} \geq \$ 4,000,000
 $$
 
 $$
-\$ 104.00x _ {4} + \$ 103.50x _ {5} \geq \$ 10,000,000
+\$ 104.00x_{4} + \$ 103.50x_{5} \geq \$ 10,000,000
 $$
 
 Nonshorting constraints:
 
 $$
-x _ {1} \geq 0
+x_{1} \geq 0
 $$
 
 $$
-x _ {2} \geq 0
+x_{2} \geq 0
 $$
 
 $$
-x _ {3} \geq 0
+x_{3} \geq 0
 $$
 
 $$
-x _ {4} \geq 0
+x_{4} \geq 0
 $$
 
 $$
-x _ {5} \geq 0
+x_{5} \geq 0
 $$
 
 Round-lot constraints:
 
 $$
-x _ {1} = z _ {1} l _ {1} \quad z _ {1} \text {i n t e g e r}
+x_{1} = z_{1} l_{1} \quad z_{1} \text{in te ge r}
 $$
 
 $$
-x _ {2} = z _ {2} l _ {2} \quad z _ {2} \text {i n t e g e r}
+x_{2} = z_{2} l_{2} \quad z_{2} \text{in te ge r}
 $$
 
 $$
-x _ {3} = z _ {3} l _ {3} \quad z _ {3} \text {i n t e g e r}
+x_{3} = z_{3} l_{3} \quad z_{3} \text{in te ge r}
 $$
 
 $$
-x _ {4} = z _ {4} l _ {4} \quad z _ {4} \text {i n t e g e r}
+x_{4} = z_{4} l_{4} \quad z_{4} \text{in te ge r}
 $$
 
 $$
-x _ {5} = z _ {5} l _ {5} \quad z _ {5} \text {i n t e g e r}
+x_{5} = z_{5} l_{5} \quad z_{5} \text{in te ge r}
 $$
 
 where
 
-$\operatorname{var}(r_p) = \text{portfolio return variance}$ ;
+$\operatorname{var}(r_p) = \text{portfolioreturnvariance}$ ;
 
 $\operatorname{var}(r_i) = \operatorname{variance}$  of asset class  $i$  returns;
 
-$\operatorname{cov}(r_1, r_2) = \text{covariance between the returns for asset classes 1 and 2.}$
+$\operatorname{cov}(r_1, r_2) = \text{covariancebetweenthereturnsforassetclasses1 and2.}$
 
 Alternatively, the portfolio variance can be expressed as
 
 $$
-\operatorname {v a r} \left(r _ {p}\right) = x _ {1} ^ {2} \operatorname {v a r} \left(r _ {1}\right) + x _ {2} ^ {2} \operatorname {v a r} \left(r _ {2}\right) + 2 x _ {1} x _ {2} \operatorname {s t d} \left(r _ {1}\right) \operatorname {s t d} \left(r _ {2}\right) \operatorname {c o r r} \left(r _ {1}, r _ {2}\right),
+\operatorname{va r} \left(r_{p}\right) = x_{1}^{2} \operatorname{va r} \left(r_{1}\right) + x_{2}^{2} \operatorname{va r} \left(r_{2}\right) + 2 x_{1} x_{2} \operatorname{st d} \left(r_{1}\right) \operatorname{st d} \left(r_{2}\right) \operatorname{co rr} \left(r_{1}, r_{2}\right),
 $$
 
 where
 
 $\mathrm{std}(r_i) =$  standard deviation of the returns of asset class  $i$
 
-$\operatorname{corr}(r_1, r_2) = \text{correlation between the returns for asset classes 1 and 2.}$
+$\operatorname{corr}(r_1, r_2) = \text{correlationbetweenthereturnsforassetclasses1 and2.}$
 
 A constraint that is imposed is that the sum of the weights must equal 1. That is, if there are  $m$  asset classes,
 
 $$
-x _ {1} + x _ {2} + \dots + x _ {m} = 1.
+x_{1} + x_{2} + \dots + x_{m} = 1.
 $$
 
 If no short selling of an asset class is permitted, then there are  $m$  constraints imposed requiring that  $x_{i} > 0 (i = 1, \dots, m)$ .
@@ -11321,7 +11320,7 @@ Four-Year Binomial Interest Rate Tree
 The interest rate model we will use to construct the binomial tree assumes that the one-year rate evolves over time based on a log-normal random walk with a known (stationary) volatility. Technically, the tree represents a one-factor model. Under the distributional assumption, the relationship between any two adjacent rates at a point in time is calculated via the following equation:
 
 $$
-r _ {1, H} = r _ {1, L} e ^ {2 \sigma \sqrt {t}}
+r_{1, H} = r_{1, L} e^{2 \sigma \sqrt{t}}
 $$
 
 where  $\sigma$  is the assumed volatility of the one-year rate,  $t$  is time in years, and  $e$  is the base of the natural logarithm. Since we assume a one-year interval, that is,  $t = 1$ , we can disregard the calculation of the square root of  $t$  in the exponent.
@@ -11335,7 +11334,7 @@ $$
 In the second year, there are three possible values for the one-year rate. The relationship between  $r_{2,LL}$  and the other two one-year rates is as follows:
 
 $$
-r _ {2, H H} = r _ {2, L L} \left(e ^ {4 \sigma}\right) \quad \text {a n d} \quad r _ {2, H L} = r _ {2, L L} \left(e ^ {2 \sigma}\right)
+r_{2, H H} = r_{2, L L} \left(e^{4 \sigma}\right) \quad \text{an d} \quad r_{2, H L} = r_{2, L L} \left(e^{2 \sigma}\right)
 $$
 
 # EXHIBIT 36-2
@@ -11348,13 +11347,13 @@ $^{*}r_{t}$  is the lowest one-year rate at each point in time.
 Thus, for example, if  $r_{2,LL}$  is  $4.6958\%$ , and assuming once again that  $\sigma$  is  $10\%$ , then
 
 $$
-r _ {2, H H} = 4.6958 \% (e ^ {4 \times 0.10}) = 7.0053 \%
+r_{2, H H} = 4.6958 \% (e^{4 \times 0.10}) = 7.0053 \%
 $$
 
 and
 
 $$
-r _ {2, H L} = 4.6958 \% (e ^ {2 \times 0.10}) = 5.7354 \%
+r_{2, H L} = 4.6958 \% (e^{2 \times 0.10}) = 5.7354 \%
 $$
 
 This relationship between rates holds for each point in time. Exhibit 36-2 shows the interest rate tree using this new notation.
@@ -11394,7 +11393,7 @@ $\frac{V_L + C}{(1 + r^*)} =$  present value for the lower one-year rate
 Then the value of the bond at the node is found as follows:
 
 $$
-\text {V a l u e} = \frac {1}{2} \left[ \frac {V _ {H} + C}{\left(1 + r ^ {*}\right)} + \frac {V _ {L} + C}{\left(1 + r ^ {*}\right)} \right]
+\text{Va lu e} = \frac{1}{2} \left[ \frac{V_{H} + C}{\left(1 + r^{*}\right)} + \frac{V_{L} + C}{\left(1 + r^{*}\right)} \right]
 $$
 
 # CALIBRATING THE LATTICE
@@ -11485,7 +11484,7 @@ The valuation of bonds with embedded options proceeds in the same fashion as in 
 In the case of a call option, the call will be made when the present value (PV) of the future cash flows is greater than the call price at the node where the decision to exercise is being made. Effectively, the following calculation is made:
 
 $$
-V _ {t} = \min  [ \text {c a l l p r i c e}, \mathrm {P V} (\text {f u t u r e c a s h f l o w s}) ]
+V_{t} = \min  [ \text{ca ll pr ic e}, \mathrm{PV} (\text{fu tu re ca sh fl ow s}) ]
 $$
 
 # EXHIBIT 36-9
@@ -11515,7 +11514,7 @@ The value of the call option is computed as the difference between the value of 
 A putable bond is one in which the bondholder has the right to force the issuer to pay off the bond prior to the maturity date. The analysis of the putable bond follows closely that of the callable bond. In the case of the putable, we must establish the rule by which the decision to put is made. The reasoning is similar to that for the callable bond. If the PV of the future cash flows is less than the put price (i.e., par), then the bond will be put. In equation form,
 
 $$
-V _ {t} = \max  [ \text {p u t p r i c e}, \text {P V (f u t u r e c a s h f l o w s)} ]
+V_{t} = \max  [ \text{pu tp ri ce}, \text{PV (fu tu re ca sh fl ow s)} ]
 $$
 
 Exhibit 36-14 is analogous to Exhibit 36-3. It shows the binomial tree with the values based on whether or not the investor exercises the put option at each node.
@@ -11646,25 +11645,25 @@ $$
 $$
 
 $$
-V _ {+} = 1 0 1. 6 2 1
+V_{+} = 1 0 1. 6 2 1
 $$
 
 $$
-V _ {=} 1 0 2. 7 6 5
+V_{=} 1 0 2. 7 6 5
 $$
 
 $$
-V _ {0} = 1 0 2. 2 1 8
+V_{0} = 1 0 2. 2 1 8
 $$
 
 Therefore,
 
 $$
-\text {E f f e c t i v e} = \frac {1 0 2 . 7 6 5 - 1 0 1 . 6 2 1}{2 (1 0 2 . 2 1 8) (0 . 0 0 2 5)} = 2. 2 4
+\text{Ef fe ct iv e} = \frac{1 0 2 . 7 6 5 - 1 0 1 . 6 2 1}{2 (1 0 2 . 2 1 8) (0 . 0 0 2 5)} = 2. 2 4
 $$
 
 $$
-\text {E f f e c t i v e} = \frac {1 0 1 . 6 2 1 + 1 0 2 . 7 6 5 - 2 (1 0 2 . 2 1 8)}{2 (1 0 2 . 2 1 8) (0 . 0 0 2 5) ^ {2}} = - 3 9. 1 3 2 1
+\text{Ef fe ct iv e} = \frac{1 0 1 . 6 2 1 + 1 0 2 . 7 6 5 - 2 (1 0 2 . 2 1 8)}{2 (1 0 2 . 2 1 8) (0 . 0 0 2 5)^{2}} = - 3 9. 1 3 2 1
 $$
 
 Notice that this callable bond exhibits negative convexity.

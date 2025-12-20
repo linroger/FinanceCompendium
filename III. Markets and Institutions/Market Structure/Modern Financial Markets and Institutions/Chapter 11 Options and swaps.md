@@ -243,7 +243,7 @@ Source: http://www.euronext.com
 First the investor has to calculate the number of option contracts needed to hedge the underlying. With the index at 5,902 on 20 December 2010 and each point of that index settled at £10, one contract has a value of  $5,902 \times £10 = £59,020$ . To cover an £1,175,000 portfolio (£1,175,000 ÷ £59,020 = 19.9) twenty contracts are needed (investors can trade in whole contracts only). The investor opts to buy 20 January 5,850 puts for 71.50 points per contract – see Exhibit 11.11. The premium payable is:
 
 $$
-7 1. 5 0 \text {p o i n t s} \times £ 1 0 \times 2 0 = £ 1 4, 3 0 0
+7 1. 5 0 \text{po in ts} \times £ 1 0 \times 2 0 = £ 1 4, 3 0 0
 $$
 
 This amounts to a 1.2 per cent 'insurance premium' (£14,300/£1,175,000) against a downturn in the market.
@@ -294,7 +294,7 @@ Furthermore, if the bet starts to go against you and the position is held open o
 
 Imagine you placed an 'up bet' on Vodafone when the spread quote is  $103p - 104p$ . You therefore 'buy' at  $104p$ , betting  $\mathbb{£}100$  per penny movement. The maximum possible loss occurs when Vodafone goes to zero:  $104p$  loss at  $\mathbb{£}100$  per penny is equal to  $\mathbb{£}10,400$ . The spread betting company requires 10 per cent of this maximum loss (in this particular case), so you deposit  $\mathbb{£}1,040$ .[11] If the Vodafone spread falls by  $5p$  to  $98p - 99p$  the next day, your account will be debited  $\mathbb{£}500$  ( $5 \times \mathbb{£}100 = \mathbb{£}500$ ). The spread betting company then asks you to top up your account by paying an additional margin of  $\mathbb{£}500$ . For the next two weeks Vodafone oscillates greatly. On some days your account is credited, on others you are asked for more margin through 'cash calls'. After 14 days you close your position by telephoning the spread betting company and telling the dealer that you would like to sell Vodafone 'to close'. It is important to make it clear that you are not selling Vodafone 'to open' as that means a fresh separate bet on Vodafone falling.
 
-The spread quoted is  $108\mathrm{p - 109p}$ . You have gained  $\mathbb{£}400$  (sold at  $108\mathrm{p}$  and bought at  $104\mathrm{p}$ , i.e. a  $4\mathrm{p}$  rise at  $\mathbb{£}100$  per penny). This is a good return on an initial cash injection of  $\mathbb{£}1,040$  (plus a few cash calls during the two weeks). However, the potential risk of it all going wrong was also very high.
+The spread quoted is  $108\mathrm{p -109p}$ . You have gained  $\mathbb{£}400$  (sold at  $108\mathrm{p}$  and bought at  $104\mathrm{p}$ , i.e. a  $4\mathrm{p}$  rise at  $\mathbb{£}100$  per penny). This is a good return on an initial cash injection of  $\mathbb{£}1,040$  (plus a few cash calls during the two weeks). However, the potential risk of it all going wrong was also very high.
 
 An alternative to betting and then being subject to a series of cash calls is to place a 'stop-loss' at the time of the bet. Under a stop-loss the spread betting company closes your position for you if the underlying share moves to the stated stop-loss price. At the time that you place the bet you hand over margin to the spread betting company equal to the maximum loss that could occur should the stop-loss be triggered. For example, if you make an up bet on Pearson when the spread quote is 780p-800p at £10 per penny and you set a stop-loss at 640p (i.e. 20 per cent below the bet level) the maximum loss if the stop-loss is triggered is  $160 \times £10 = £1,600$ , so you will be asked to provide £1,600 of margin. This cash may already be in a special account opened when you registered with the spread betting company, or could be transferred by debit card over the telephone.
 
@@ -779,7 +779,7 @@ $\mathrm{e} =$  mathematical fixed constant: 2.718 …
 # 1 Options have a minimum value of zero
 
 $$
-\mathrm {C} \geq 0
+\mathrm{C} \geq 0
 $$
 
 Even if the share price falls significantly below the exercise price of the option the worst that can happen to the option holder is that the option becomes worth nothing – no further loss is created.
@@ -791,7 +791,7 @@ Market value = Intrinsic value + Time value
 3 Intrinsic value  $(S - X)$  rises as share price increases or exercise price falls. However this simple relationship needs to be made a little more sophisticated because  $S - X$  is based on the assumption of immediate exercise when the option is about to expire. However if the option is not about to expire there is some value in not having to pay the exercise price until the future exercise date. (Instead of buying the share a call option could be purchased and the remainder invested in a risk-free asset until the exercise date.) So intrinsic value is given a boost by discounting the exercise price by the risk-free rate of return:
 
 $$
-\text {I n t r i n s i c v a l u e} = S - \frac {X}{\left(1 + r _ {f}\right) ^ {t}}
+\text{In tr in si cv al ue} = S - \frac{X}{\left(1 + r_{f}\right)^{t}}
 $$
 
 4 The higher the risk-free rate of return the higher will be intrinsic value, because the money saved by buying an option rather than the underlying security can be invested in a riskless rate of return until the option expires.
@@ -809,18 +809,18 @@ $$
 Black and Scholes' option pricing model (BSOPM) was published in 1973 and is still widely employed today despite the more recent modifications to the original model and the development of different option-pricing models. The BSOPM is as follows:
 
 $$
-C = S N (d _ {1}) - X e ^ {- \mathrm {r} _ {\mathrm {f}} t} N (d _ {2})
+C = S N (d_{1}) - X e^{- \mathrm{r}_{\mathrm{f}} t} N (d_{2})
 $$ where:
 
 
 $\mathrm{N}(.) =$  cumulative normal distribution function of  $d_{1}$  and  $d_{2}$
 
-$$ d _ {1} = \frac {\ln (S / X) + \left(r _ {f} + \sigma^ {2} / 2\right) t}{\sigma \sqrt {t}}
+$$ d_{1} = \frac{\ln (S / X) + \left(r_{f} + \sigma^{2} / 2\right) t}{\sigma \sqrt{t}}
 $$
 
 $\operatorname{In} =$  natural log
 
-$$ d _ {2} = d _ {1} - \sigma \sqrt {t}
+$$ d_{2} = d_{1} - \sigma \sqrt{t}
 $$
 
 # References and further reading
@@ -1067,7 +1067,7 @@ You have £20,000 to set aside for either a spread bet deal or a CFD deal in Geo
 
 (b) What profits/losses will be made on the spread bet if the spread bet prices move to 640p-650p? What is that as a percentage of initial notional trading margin?
 
-(c) What profits/losses will be made on the spread bet if the spread bet prices move to  $480\mathrm{p - 490p}$ ? What is that as a percentage of initial notional trading margin?
+(c) What profits/losses will be made on the spread bet if the spread bet prices move to  $480\mathrm{p -490p}$ ? What is that as a percentage of initial notional trading margin?
 
 (d) What profits/losses will be made on the contract for difference if the contract for difference prices move to  $620\mathrm{p} - 630\mathrm{p}$ ? What is that as a percentage of initial margin?
 

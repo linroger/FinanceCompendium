@@ -406,7 +406,7 @@ The assumption in the formulas above that value-adding growth will continue into
 The two-stage version of the PE target multiple formula is:
 
 $$
-\frac {P}{E} = \frac {R O E - g}{R O E \times (C O E - g)} \times \left(1 - \frac {(1 + g) ^ {n}}{(1 + C O E) ^ {n}}\right) + \frac {1}{C O E} \times \frac {(1 + g) ^ {n}}{(1 + C O E) ^ {n}}
+\frac{P}{E} = \frac{R O E - g}{R O E \times (C O E - g)} \times \left(1 - \frac{(1 + g)^{n}}{(1 + C O E)^{n}}\right) + \frac{1}{C O E} \times \frac{(1 + g)^{n}}{(1 + C O E)^{n}}
 $$
 
 Initial growth period
@@ -427,13 +427,13 @@ Two-stage formulas are used in the Global Valuation Group (GVG) target multiple 
 - Simple model, value added: Now consider a company with a return on equity of  $12\%$  and a growth rate of  $5\%$  to perpetuity. Because the company generates a return above your cost of equity, you will pay a higher PE ratio; the higher the growth rate, the more value added and the higher the PE you will pay. The fair PE ratio in this instance is:
 
 $$
-\frac {P}{E} = \frac {. 1 2 -. 0 5}{. 1 2 (. 1 0 -. 0 5)} = 1 2 x
+\frac{P}{E} = \frac{. 1 2 -. 0 5}{. 1 2 (. 1 0 -. 0 5)} = 1 2 x
 $$
 
 - Two-stage model, value added in first stage: Now let's assume that instead, the company grows at  $5\%$  pa but for ten years only. Thereafter any cash flows are discounted at the cost of equity of  $10\%$ . In this case the fair PE ratio is
 
 $$
-\frac {P}{E} = \frac {. 1 2 -. 0 5}{. 1 2 (. 1 0 -. 0 5)} \times \left(1 - \frac {1 . 0 5 ^ {1 0}}{1 . 1 0 ^ {1 0}}\right) + \frac {1}{. 1 0} \times \frac {1 . 0 5 ^ {1 0}}{1 . 1 0 ^ {1 0}} = 4. 3 + 6. 3 = 1 0. 6 x
+\frac{P}{E} = \frac{. 1 2 -. 0 5}{. 1 2 (. 1 0 -. 0 5)} \times \left(1 - \frac{1 . 0 5^{1 0}}{1 . 1 0^{1 0}}\right) + \frac{1}{. 1 0} \times \frac{1 . 0 5^{1 0}}{1 . 1 0^{1 0}} = 4. 3 + 6. 3 = 1 0. 6 x
 $$
 
 which is between the  $10\mathrm{x}$  multiple of the simple no-value added case and the  $12\mathrm{x}$  multiple of the perpetuity value-added case. This is the basic formula used in the GVG target multiple model.
@@ -447,7 +447,7 @@ In effect, this model states a discounted cash flow calculation as a multiple.
 - Two-stage model, value added both stages: The formula can be further extended to allow for value-adding growth in the perpetuity or second stage. This formula is stated as
 
 $$
-\frac {P}{E} = \frac {R O E - g}{R O E \times (C O E - g)} \times \left(1 - \frac {(1 + g) ^ {n}}{(1 + C O E) ^ {n}}\right) + \frac {R O E _ {L T} - g _ {L T}}{R O E _ {L T} \times (C O E _ {L T} - g _ {L T})} \times \frac {(1 + g) ^ {n}}{(1 + C O E) ^ {n}}
+\frac{P}{E} = \frac{R O E - g}{R O E \times (C O E - g)} \times \left(1 - \frac{(1 + g)^{n}}{(1 + C O E)^{n}}\right) + \frac{R O E_{L T} - g_{L T}}{R O E_{L T} \times (C O E_{L T} - g_{L T})} \times \frac{(1 + g)^{n}}{(1 + C O E)^{n}}
 $$
 
 These formulas restate a discounted cash flow calculation as a multiple
@@ -467,7 +467,7 @@ In other words, the two terms of the equation are equivalent to the explicit for
 Applying the same assumptions as above, and assuming that return on equity and cost of equity remain the same but growth falls to  $2\%$  pa, fair value PE is:
 
 $$
-\frac {P}{E} = \frac {. 1 2 -. 0 5}{. 1 2 (. 1 0 -. 0 5)} \times \left(1 - \frac {1 . 0 5 ^ {1 0}}{1 . 1 0 ^ {1 0}}\right) + \frac {. 0 9 -. 0 2}{. 0 9 (0 . 0 8 -. 0 2)} \times \frac {1 . 0 5 ^ {1 0}}{1 . 1 0 ^ {1 0}} = 4. 3 + 8. 1 = 1 2. 5 x
+\frac{P}{E} = \frac{. 1 2 -. 0 5}{. 1 2 (. 1 0 -. 0 5)} \times \left(1 - \frac{1 . 0 5^{1 0}}{1 . 1 0^{1 0}}\right) + \frac{. 0 9 -. 0 2}{. 0 9 (0 . 0 8 -. 0 2)} \times \frac{1 . 0 5^{1 0}}{1 . 1 0^{1 0}} = 4. 3 + 8. 1 = 1 2. 5 x
 $$
 
 Although the growth rate has fallen, even this lower growth adds value (12.5x - 10.6x = 1.9x earnings) because the return on equity is higher than the required return.
@@ -508,19 +508,19 @@ Growth due to efficiency gains
 Reinvestment at the cost of capital Growth as a result of reinvestment at the cost of capital does not add value, and neither the share price nor the PE ratio is affected. In this case the PE formula reduces to:
 
 $$
-\frac {1}{\mathrm {C O E}}
+\frac{1}{\mathrm{CO E}}
 $$
 
 Reinvestment at a premium to the cost of capital Growth as a result of reinvestment at an incremental return higher than the cost of capital will produce value-adding growth. (Conversely, if the company reinvests at an incremental return that is below the cost of capital, value is destroyed.) The formula is the same as that for the single-stage PE target multiple discussed above:
 
 $$
-\frac {\mathrm {R O E} - \mathrm {g}}{\mathrm {R O E} \times (\mathrm {C O E} - \mathrm {g})}
+\frac{\mathrm{RO E} - \mathrm{g}}{\mathrm{RO E} \times (\mathrm{CO E} - \mathrm{g})}
 $$
 
 Inflationary growth Growth resulting from a general increase in the price level (which produces higher earnings) results in a lower multiple (although not necessarily lower value, because of the higher nominal value of earnings). This is because the replacement value of fixed assets and working capital rises, requiring more investment to fund that increase in value.
 
 $$
-\frac {\mathrm {R O E} _ {\mathrm {r}} - \mathrm {g} _ {\mathrm {r}}}{\left(\mathrm {R O E} _ {\mathrm {r}} + \Pi\right) \times \left(\mathrm {C O E} _ {\mathrm {r}} - \mathrm {g} _ {\mathrm {r}}\right)}
+\frac{\mathrm{RO E}_{\mathrm{r}} - \mathrm{g}_{\mathrm{r}}}{\left(\mathrm{RO E}_{\mathrm{r}} + \Pi\right) \times \left(\mathrm{CO E}_{\mathrm{r}} - \mathrm{g}_{\mathrm{r}}\right)}
 $$
 
 The subscript  $r$  denotes real rather than nominal.  $\Pi =$  inflation
@@ -528,7 +528,7 @@ The subscript  $r$  denotes real rather than nominal.  $\Pi =$  inflation
 Efficiency gains Productivity gains not requiring additional investment, such as those resulting from cost control or higher market share, are a valuable source of growth. Even small gains can produce large increases in the PE ratio.
 
 $$
-\frac {\mathrm {R O E} - (\mathrm {g} - \mathrm {g} _ {\text {e f f}})}{\mathrm {R O E} \times (\mathrm {C O E} - \mathrm {g})}
+\frac{\mathrm{RO E} - (\mathrm{g} - \mathrm{g}_{\text{ef f}})}{\mathrm{RO E} \times (\mathrm{CO E} - \mathrm{g})}
 $$
 
 $g =$  total forecast growth;  $g_{\mathrm{eff}} =$  growth achieved from efficiency gains
@@ -742,7 +742,7 @@ Adjustments should be made to both enterprise value and the denominator where ne
 
 Definition: Core EV/sales.
 
-Formula: \frac {E V}{S a l e s} = \frac {R O I C - g}{R O I C \times (W A C C - g)} \times (1 - T) \times M
+Formula: \frac{E V}{S a l e s} = \frac{R O I C - g}{R O I C \times (W A C C - g)} \times (1 - T) \times M
 
 # When to use it
 
@@ -787,7 +787,7 @@ where the target company is the one being valued.
 
 Definition: Core EV/earnings before associates, interest, tax, depreciation, amortisation, non-cash changes in provisions and before reported exceptional items.
 
-Formula: \frac {E V}{E B I T D A} = \frac {R O I C - g}{R O I C \times (W A C C - g)} \times (1 - T) \times (1 - D)
+Formula: \frac{E V}{E B I T D A} = \frac{R O I C - g}{R O I C \times (W A C C - g)} \times (1 - T) \times (1 - D)
 
 # When to use it
 
@@ -830,7 +830,7 @@ Definition: Core EV/core earnings before goodwill amortisation (but after amorti
 
 Alternatively, this multiple may be defined as total EV/total EBIT (instead of core EV/core EBIT).
 
-Formula:  $\frac{\text { EV }}{\text { EBIT }} = \frac{\text { ROIC - g }}{\text { ROIC x (WACC - g)}} \times (1 - T)$
+Formula:  $\frac{\text{ EV }}{\text{ EBIT }} = \frac{\text{ ROIC -g }}{\text{ ROICx (WACC -g)}} \times (1 - T)$
 
 # When to use it
 
@@ -858,7 +858,7 @@ NOPLAT is post-tax EBIT. However, as commonly used, NOPLAT (or NOPAT) refers to 
 
 Some adjustments include adding back goodwill amortisation, LIFO reserve increase, implied interest expense on operating leases, increases in bad debt and capitalised R&D, and the adjustment of reported tax to a cash basis.[9]
 
-Formula: \frac {E V}{N O P L A T} = \frac {R O I C - g}{R O I C \times (W A C C - g)}
+Formula: \frac{E V}{N O P L A T} = \frac{R O I C - g}{R O I C \times (W A C C - g)}
 
 # When to use it
 
@@ -879,7 +879,7 @@ Table 12: Components of Operating Free Cash Flow
 <table><tr><td>Item</td><td>Note</td></tr><tr><td>Earnings before interest and taxes</td><td>Before non-core earnings (associates, investments and other)</td></tr><tr><td>Plus: depreciation</td><td>Per cash flow statement</td></tr><tr><td>Less: maintenance capital spending</td><td>Estimated annual reinvestment requirement</td></tr><tr><td>Less/plus: net working capital inflation</td><td>Estimated annual reinvestment requirement (working capital is current cost, so this would normally equal expected inflation in working capital items). Working capital is assumed to be at an appropriate level relative to sales; adjustment may be needed</td></tr><tr><td>Equals: operating free cash flow</td><td></td></tr></table>
 
 Source: UBS Warburg  
-Formula: \frac {E V}{O p F C F} = \frac {R O I C - g}{R O I C \times (W A C C - g)} x (1 - T)  
+Formula: \frac{E V}{O p F C F} = \frac{R O I C - g}{R O I C \times (W A C C - g)} x (1 - T)  
 Stewart, G.B. III, Quest for Value, Harper Collins (1991).
 
 OpFCF is a suitable basis for valuation than either EBITDA or EBIT
@@ -902,7 +902,7 @@ This multiple cannot be used when current cash flow is negative. Use normalised 
 Definition: Core EV/normalised after-tax core enterprise free cash flow (or FCF, also known as free cash flow to the firm). ROIC is calculated using after-tax FCF in the numerator.
 
 $$
-\text {F o r m u l a :} \frac {\mathrm {E V}}{\mathrm {F C F}} = \frac {1}{(\mathrm {W A C C - g})}
+\text{Fo rm ul a :} \frac{\mathrm{EV}}{\mathrm{FC F}} = \frac{1}{(\mathrm{WA CC -g})}
 $$
 
 # Enterprise Free Cash Flow
@@ -963,7 +963,7 @@ Alternative calculations are possible:
 - Adjusted capital employed: This is total capital employed adjusted to bring book capital closer to economic capital. These adjustments (to assets; from Stern, Stewart) include adding back accumulated goodwill amortisation, LIFO reserve and cumulative write-offs of special items, among others.  
 - Replacement capital employed: Capital employed at replacement value, intended to better approximate the cost of replacing the capital base at current prices and therefore the return on assets at market value. This can be roughly approximated by adding back accumulated depreciation in addition to making the other adjustments noted above.
 
-Formula:  $\frac{\text{EV}}{\text{Invested capital}} = \left( \frac{\text{ROIC - g}}{\text{ROIC x (WACC - g)}} \times \text{ROIC} \right) \text{or} \frac{\text{ROIC - g}}{\text{WACC - g}}$
+Formula:  $\frac{\text{EV}}{\text{Investedcapital}} = \left( \frac{\text{ROIC -g}}{\text{ROICx (WACC -g)}} \times \text{ROIC} \right) \text{or} \frac{\text{ROIC -g}}{\text{WACC -g}}$
 
 # When to use it
 
@@ -983,7 +983,7 @@ Differences in per-unit profitability will determine differences in valuation
 
 Definition: Core EV/units of capacity (such as tonnes of cement capacity) or another revenue-generating unit (such as subscribers).
 
-Formula: \frac {E V}{U n i t} = \frac {R O I C - g}{R O I C x (W A C C - g)} \times \frac {N O P L A T}{U n i t}
+Formula: \frac{E V}{U n i t} = \frac{R O I C - g}{R O I C x (W A C C - g)} \times \frac{N O P L A T}{U n i t}
 
 # When to use it
 
@@ -996,7 +996,7 @@ These measures tell us nothing about the relative underlying profitability of th
 - Consider, for example, a cement firm with a return on capital of  $12\%$  growing at  $3\%$  pa. It if earns US\$10 per tonne in operating profit than an investor with a required return on capital of \(10\%$  will be willing to pay up to US\\)107 per tonne of capacity:
 
 $$
-\frac {\text {E V}}{\text {T o n n e}} = \frac {. 1 2 -. 0 3}{. 1 2 (. 1 0 -. 0 3)} \times \text {U S} \$ 1 0 = 1 0. 7 \times \text {U S} \$ 1 0 = \text {U S} \$ 1 0 7 \text {p e r t o n n e}
+\frac{\text{EV}}{\text{To nn e}} = \frac{. 1 2 -. 0 3}{. 1 2 (. 1 0 -. 0 3)} \times \text{US} \$ 1 0 = 1 0. 7 \times \text{US} \$ 1 0 = \text{US} \$ 1 0 7 \text{pe rt on ne}
 $$
 
 # Section 5
@@ -1017,7 +1017,7 @@ As we have noted earlier, the statistic must relate to the value being measured.
 
 Definition: Current market capitalisation/net income attributable to common shareholders or alternatively, price per share/attributable earnings per share.
 
-Formula:  $\frac{\text{Market cap}}{\text{Net income}} = \frac{\text{ROE - g}}{\text{ROE x (COE - g)}}$
+Formula:  $\frac{\text{Marketcap}}{\text{Netincome}} = \frac{\text{ROE -g}}{\text{ROEx (COE -g)}}$
 
 # When to use it
 
@@ -1061,7 +1061,7 @@ As a result, price to cash earnings is difficult to use as a base valuation meas
 
 Definition: Market capitalisation/book value (alternatively price per share/book value per share).
 
-Formula:  $\frac{\text { Market cap }}{\text { Book value }} = \left(\frac{\text { ROE } - \mathrm{g}}{\text { ROE } \times (\text { COE } - \mathrm{g})} \times \text { ROE }\right) \text { or } \frac{\text { ROE } - \mathrm{g}}{\text { COE } - \mathrm{g}}$
+Formula:  $\frac{\text{ Marketcap }}{\text{ Bookvalue }} = \left(\frac{\text{ ROE } - \mathrm{g}}{\text{ ROE } \times (\text{ COE } - \mathrm{g})} \times \text{ ROE }\right) \text{ or } \frac{\text{ ROE } - \mathrm{g}}{\text{ COE } - \mathrm{g}}$
 
 # When to use it
 
@@ -1085,7 +1085,7 @@ This ratio is most widely used in valuing financials, especially banks, which sq
 Definition: The 'PEG' ratio is the prospective PE divided by average forecast earnings growth. It is most widely used to value growth companies where it is assumed that growth opportunities arise from reinvesting at a premium rate of return or from efficiency gains.[11]
 
 $$
-\text {F o r m u l a :} \frac {\mathrm {P E}}{\text {G r o w t h}} = \frac {\mathrm {R O E - g}}{1 0 0 \times \mathrm {g} \times \mathrm {R O E} \times (\mathrm {C O E - g})}
+\text{Fo rm ul a :} \frac{\mathrm{PE}}{\text{Gr ow th}} = \frac{\mathrm{RO E -g}}{1 0 0 \times \mathrm{g} \times \mathrm{RO E} \times (\mathrm{CO E -g})}
 $$
 
 # When to use it
@@ -1142,25 +1142,25 @@ Valuation is a function of value drivers – growth, return on capital, investor
 # EV/Sales Multiple
 
 $$
-\frac {\mathrm {E V}}{\text {S a l e s}} = \frac {\mathrm {R O I C} - \mathrm {g}}{\mathrm {R O I C} \times (\mathrm {W A C C} - \mathrm {g})} \times \left(1 - \frac {(1 + \mathrm {g}) ^ {\mathrm {n}}}{(1 + \mathrm {W A C C}) ^ {\mathrm {n}}}\right) + \frac {1}{\mathrm {W A C C}} \times \frac {(1 + \mathrm {g}) ^ {\mathrm {n}}}{(1 + \mathrm {W A C C}) ^ {\mathrm {n}}} \times (1 - \mathrm {T}) \times \mathrm {M}
+\frac{\mathrm{EV}}{\text{Sa le s}} = \frac{\mathrm{RO IC} - \mathrm{g}}{\mathrm{RO IC} \times (\mathrm{WA CC} - \mathrm{g})} \times \left(1 - \frac{(1 + \mathrm{g})^{\mathrm{n}}}{(1 + \mathrm{WA CC})^{\mathrm{n}}}\right) + \frac{1}{\mathrm{WA CC}} \times \frac{(1 + \mathrm{g})^{\mathrm{n}}}{(1 + \mathrm{WA CC})^{\mathrm{n}}} \times (1 - \mathrm{T}) \times \mathrm{M}
 $$
 
 # EV/EBITDA Multiple
 
 $$
-\frac {\mathrm {E V}}{\text {E B I T D A}} = \frac {\text {R O I C - g}}{\text {R O I C x (W A C C - g)}} \times \left(1 - \frac {(1 + \mathrm {g}) ^ {\mathrm {n}}}{(1 + \text {W A C C}) ^ {\mathrm {n}}}\right) + \frac {1}{\text {W A C C}} \times \frac {(1 + \mathrm {g}) ^ {\mathrm {n}}}{(1 + \text {W A C C}) ^ {\mathrm {n}}} \times (1 - \mathrm {T}) \times (1 - \mathrm {D})
+\frac{\mathrm{EV}}{\text{EB IT DA}} = \frac{\text{RO IC -g}}{\text{RO IC x (WA CC -g)}} \times \left(1 - \frac{(1 + \mathrm{g})^{\mathrm{n}}}{(1 + \text{WA CC})^{\mathrm{n}}}\right) + \frac{1}{\text{WA CC}} \times \frac{(1 + \mathrm{g})^{\mathrm{n}}}{(1 + \text{WA CC})^{\mathrm{n}}} \times (1 - \mathrm{T}) \times (1 - \mathrm{D})
 $$
 
 # EV/EBIT Multiple
 
 $$
-\frac {\mathrm {E V}}{\mathrm {E B I T}} = \frac {\mathrm {R O I C} - \mathrm {g}}{\mathrm {R O I C} \times (\mathrm {W A C C} - \mathrm {g})} \mathrm {x} \left(1 - \frac {(1 + \mathrm {g}) ^ {\mathrm {n}}}{(1 + \mathrm {W A C C}) ^ {\mathrm {n}}}\right) + \frac {1}{\mathrm {W A C C}} \mathrm {x} \frac {(1 + \mathrm {g}) ^ {\mathrm {n}}}{(1 + \mathrm {W A C C}) ^ {\mathrm {n}}} \mathrm {x} (1 - \mathrm {T})
+\frac{\mathrm{EV}}{\mathrm{EB IT}} = \frac{\mathrm{RO IC} - \mathrm{g}}{\mathrm{RO IC} \times (\mathrm{WA CC} - \mathrm{g})} \mathrm{x} \left(1 - \frac{(1 + \mathrm{g})^{\mathrm{n}}}{(1 + \mathrm{WA CC})^{\mathrm{n}}}\right) + \frac{1}{\mathrm{WA CC}} \mathrm{x} \frac{(1 + \mathrm{g})^{\mathrm{n}}}{(1 + \mathrm{WA CC})^{\mathrm{n}}} \mathrm{x} (1 - \mathrm{T})
 $$
 
 # EV/NOPLAT Multiple
 
 $$
-\frac {\mathrm {E V}}{\text {N O P L A T}} = \frac {\text {R O I C - g}}{\text {R O I C x (W A C C - g)}} \times \left(1 - \frac {(1 + \mathrm {g}) ^ {\mathrm {n}}}{(1 + \text {W A C C}) ^ {\mathrm {n}}}\right) + \frac {1}{\text {W A C C}} \times \frac {(1 + \mathrm {g}) ^ {\mathrm {n}}}{(1 + \text {W A C C}) ^ {\mathrm {n}}}
+\frac{\mathrm{EV}}{\text{NO PL AT}} = \frac{\text{RO IC -g}}{\text{RO IC x (WA CC -g)}} \times \left(1 - \frac{(1 + \mathrm{g})^{\mathrm{n}}}{(1 + \text{WA CC})^{\mathrm{n}}}\right) + \frac{1}{\text{WA CC}} \times \frac{(1 + \mathrm{g})^{\mathrm{n}}}{(1 + \text{WA CC})^{\mathrm{n}}}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2433722d-0268-4e0d-912c-deddef6c655e/e1690de310263101a1fbf416f1c71da1b26095daea25955e448c8fc3a38ebc73.jpg)
@@ -1172,49 +1172,49 @@ Each formula is based upon a standard DCF model which has a constant growth rate
 The link between NOPLAT, FCF and the reinvestment rate (r):
 
 $$
-\mathrm {F C F} = \mathrm {N O P L A T} \times (1 - \mathrm {r}) \quad \dots 1
+\mathrm{FC F} = \mathrm{NO PL AT} \times (1 - \mathrm{r}) \quad \dots 1
 $$
 
 The link between growth (g), post-tax return on invested capital (ROIC) and reinvestment rate (r):
 
 $$
-\mathrm {g} = \text {R O I C} \times \mathrm {r} \quad \text {o r} \quad \mathrm {r} = \mathrm {g} / \text {R O I C} \tag {2}
+\mathrm{g} = \text{RO IC} \times \mathrm{r} \quad \text{or} \quad \mathrm{r} = \mathrm{g} / \text{RO IC} \tag {2}
 $$
 
 The value (EV) of a perpetuity of cash flow (FCF) growing at a constant rate (g) and discounted at the weighted average cost of capital (WACC):
 
 $$
-\mathrm {E V} = \frac {\mathrm {F C F} _ {1}}{(\mathrm {W A C C} - \mathrm {g})} \quad \dots 3
+\mathrm{EV} = \frac{\mathrm{FC F}_{1}}{(\mathrm{WA CC} - \mathrm{g})} \quad \dots 3
 $$
 
 Formula 3 above can be modified to apply to a growing annuity of cash flows which stops after n years:
 
 $$
-\mathrm {E V} = \frac {\mathrm {F C F} _ {1}}{\left(\mathrm {W A C C} - \mathrm {g}\right)} \times \left[ 1 - \frac {\left(1 + \mathrm {g}\right) ^ {\mathrm {n}}}{\left(1 + \mathrm {W A C C}\right) ^ {\mathrm {n}}} \right] \tag {4}
+\mathrm{EV} = \frac{\mathrm{FC F}_{1}}{\left(\mathrm{WA CC} - \mathrm{g}\right)} \times \left[ 1 - \frac{\left(1 + \mathrm{g}\right)^{\mathrm{n}}}{\left(1 + \mathrm{WA CC}\right)^{\mathrm{n}}} \right] \tag {4}
 $$
 
 Substituting equations 1 and 2 into 3 gives:
 
 $$
-\mathrm {E V} = \frac {\mathrm {N O P L A T} _ {1} \mathrm {x} \left(1 - \frac {\mathrm {g}}{\mathrm {R O I C}}\right)}{(\mathrm {W A C C} - \mathrm {g})} \tag {5}
+\mathrm{EV} = \frac{\mathrm{NO PL AT}_{1} \mathrm{x} \left(1 - \frac{\mathrm{g}}{\mathrm{RO IC}}\right)}{(\mathrm{WA CC} - \mathrm{g})} \tag {5}
 $$
 
 and rearranging:
 
 $$
-\mathrm {E V} = \frac {\mathrm {N O P L A T} _ {1} \mathrm {x} (\mathrm {R O I C} - \mathrm {g})}{\mathrm {R O I C} \mathrm {x} (\mathrm {W A C C} - \mathrm {g})} \tag {6}
+\mathrm{EV} = \frac{\mathrm{NO PL AT}_{1} \mathrm{x} (\mathrm{RO IC} - \mathrm{g})}{\mathrm{RO IC} \mathrm{x} (\mathrm{WA CC} - \mathrm{g})} \tag {6}
 $$
 
 In calculating a terminal value at the end of the growth period, it is assumed that ROIC equals WACC (ie conditions of zero value-adding growth). Therefore equation 6 becomes:
 
 $$
-\mathrm {E V} = \frac {\mathrm {N O P L A T} _ {1}}{\mathrm {W A C C}} \tag {7}
+\mathrm{EV} = \frac{\mathrm{NO PL AT}_{1}}{\mathrm{WA CC}} \tag {7}
 $$
 
 Formulae 1 and 2 can also be substituted into equation 4. Following rearrangement this becomes:
 
 $$
-\mathrm {E V} = \frac {\mathrm {N O P L A T} _ {1} \mathrm {x} (\mathrm {R O I C} - \mathrm {g})}{\mathrm {R O I C} \mathrm {x} (\mathrm {W A C C} - \mathrm {g})} \mathrm {x} \left[ 1 - \frac {(1 + \mathrm {g}) ^ {\mathrm {n}}}{(1 + \mathrm {W A C C}) ^ {\mathrm {n}}} \right] \tag {8}
+\mathrm{EV} = \frac{\mathrm{NO PL AT}_{1} \mathrm{x} (\mathrm{RO IC} - \mathrm{g})}{\mathrm{RO IC} \mathrm{x} (\mathrm{WA CC} - \mathrm{g})} \mathrm{x} \left[ 1 - \frac{(1 + \mathrm{g})^{\mathrm{n}}}{(1 + \mathrm{WA CC})^{\mathrm{n}}} \right] \tag {8}
 $$
 
 # Putting it Together
@@ -1222,45 +1222,45 @@ $$
 Equation 8 represents the value of cash flows in the growth period. Equation 7 can be used to value subsequent cash flows, although  $\mathrm{NOPLAT}_1$  needs to be replaced by  $\mathrm{NOPLAT}_{(\mathrm{n} + 1)}$  and this 'terminal value' must be discounted to a present value. The overall value then becomes:
 
 $$
-\mathrm {E V} = \frac {\mathrm {N O P L A T} _ {1} \mathrm {x} (\mathrm {R O I C} - \mathrm {g})}{\mathrm {R O I C} \mathrm {x} (\mathrm {W A C C} - \mathrm {g})} \mathrm {x} \left[ 1 - \frac {(1 + \mathrm {g}) ^ {\mathrm {n}}}{(1 + \mathrm {W A C C}) ^ {\mathrm {n}}} \right] + \frac {\mathrm {N O P L A T} _ {1} \mathrm {x} (1 + \mathrm {g}) ^ {\mathrm {n}}}{\mathrm {W A C C}} \mathrm {x} \frac {1}{(1 + \mathrm {W A C C}) ^ {\mathrm {n}}} \quad \dots \dots 9
+\mathrm{EV} = \frac{\mathrm{NO PL AT}_{1} \mathrm{x} (\mathrm{RO IC} - \mathrm{g})}{\mathrm{RO IC} \mathrm{x} (\mathrm{WA CC} - \mathrm{g})} \mathrm{x} \left[ 1 - \frac{(1 + \mathrm{g})^{\mathrm{n}}}{(1 + \mathrm{WA CC})^{\mathrm{n}}} \right] + \frac{\mathrm{NO PL AT}_{1} \mathrm{x} (1 + \mathrm{g})^{\mathrm{n}}}{\mathrm{WA CC}} \mathrm{x} \frac{1}{(1 + \mathrm{WA CC})^{\mathrm{n}}} \quad \dots \dots 9
 $$
 
 Dividing by  $\mathrm{NOPLAT}_1$  gives the formula for the EV/NOPLAT multiple:
 
 $$
-\frac {\mathrm {E V}}{\mathrm {N O P L A T} _ {1}} = \frac {\left(\mathrm {R O I C} - \mathrm {g}\right)}{\mathrm {R O I C} \times (\mathrm {W A C C} - \mathrm {g})} \times \left[ 1 - \frac {(1 + \mathrm {g}) ^ {\mathrm {n}}}{(1 + \mathrm {W A C C}) ^ {\mathrm {n}}} \right] + \frac {1}{\mathrm {W A C C}} \times \frac {(1 + \mathrm {g}) ^ {\mathrm {n}}}{(1 + \mathrm {W A C C}) ^ {\mathrm {n}}} \quad \dots \dots 1 0
+\frac{\mathrm{EV}}{\mathrm{NO PL AT}_{1}} = \frac{\left(\mathrm{RO IC} - \mathrm{g}\right)}{\mathrm{RO IC} \times (\mathrm{WA CC} - \mathrm{g})} \times \left[ 1 - \frac{(1 + \mathrm{g})^{\mathrm{n}}}{(1 + \mathrm{WA CC})^{\mathrm{n}}} \right] + \frac{1}{\mathrm{WA CC}} \times \frac{(1 + \mathrm{g})^{\mathrm{n}}}{(1 + \mathrm{WA CC})^{\mathrm{n}}} \quad \dots \dots 1 0
 $$
 
 If the effective rate of corporation tax is  $\mathrm{T}\%$ , depreciation as a percentage of EBITDA is  $\mathrm{D}\%$  and the EBIT margin is  $\mathrm{M}\%$ , then the following links can be derived:
 
 $$
-\text {S a l e s} \times \mathrm {M} = \text {E B I T} \quad \dots 1 1
+\text{Sa le s} \times \mathrm{M} = \text{EB IT} \quad \dots 1 1
 $$
 
 $$
-\mathrm {E B I T} \times (1 - \mathrm {T}) = \text {N O P L A T} \quad \dots 1 2
+\mathrm{EB IT} \times (1 - \mathrm{T}) = \text{NO PL AT} \quad \dots 1 2
 $$
 
 $$
-\mathrm {E B I T D A} \times (1 - \mathrm {D}) = \mathrm {E B I T} \quad \dots 1 3
+\mathrm{EB IT DA} \times (1 - \mathrm{D}) = \mathrm{EB IT} \quad \dots 1 3
 $$
 
 Substituting equation 12 into equation 10 gives the formula for the EV/EBIT multiple:
 
 $$
-\frac {\mathrm {E V}}{\mathrm {E B I T}} = \frac {\mathrm {R O I C} - \mathrm {g}}{\mathrm {R O I C} \times (\mathrm {W A C C} - \mathrm {g})} \times \left(1 - \frac {(1 + \mathrm {g}) ^ {\mathrm {n}}}{(1 + \mathrm {W A C C}) ^ {\mathrm {n}}}\right) + \frac {1}{\mathrm {W A C C}} \times \frac {(1 + \mathrm {g}) ^ {\mathrm {n}}}{(1 + \mathrm {W A C C}) ^ {\mathrm {n}}} \times (1 - \mathrm {T}) \tag {...... 14}
+\frac{\mathrm{EV}}{\mathrm{EB IT}} = \frac{\mathrm{RO IC} - \mathrm{g}}{\mathrm{RO IC} \times (\mathrm{WA CC} - \mathrm{g})} \times \left(1 - \frac{(1 + \mathrm{g})^{\mathrm{n}}}{(1 + \mathrm{WA CC})^{\mathrm{n}}}\right) + \frac{1}{\mathrm{WA CC}} \times \frac{(1 + \mathrm{g})^{\mathrm{n}}}{(1 + \mathrm{WA CC})^{\mathrm{n}}} \times (1 - \mathrm{T}) \tag {...... 14}
 $$
 
 Substituting equations 13 into equation 14 gives the formula for the EV/EBITDA multiple:
 
 $$
-\frac {\mathrm {E V}}{\text {E B I T D A}} = \frac {\text {R O I C - g}}{\text {R O I C x (W A C C - g)}} \times \left(1 - \frac {(1 + \mathrm {g}) ^ {\mathrm {n}}}{(1 + \text {W A C C}) ^ {\mathrm {n}}}\right) + \frac {1}{\text {W A C C}} \times \frac {(1 + \mathrm {g}) ^ {\mathrm {n}}}{(1 + \text {W A C C}) ^ {\mathrm {n}}} \times (1 - \mathrm {T}) \times (1 - \mathrm {D}) \quad \dots 1 5
+\frac{\mathrm{EV}}{\text{EB IT DA}} = \frac{\text{RO IC -g}}{\text{RO IC x (WA CC -g)}} \times \left(1 - \frac{(1 + \mathrm{g})^{\mathrm{n}}}{(1 + \text{WA CC})^{\mathrm{n}}}\right) + \frac{1}{\text{WA CC}} \times \frac{(1 + \mathrm{g})^{\mathrm{n}}}{(1 + \text{WA CC})^{\mathrm{n}}} \times (1 - \mathrm{T}) \times (1 - \mathrm{D}) \quad \dots 1 5
 $$
 
 Substituting equations 11 into equation 14 gives the formula for the EV/sales multiple:
 
 $$
-\frac {\mathrm {E V}}{\text {S a l e s}} = \frac {\mathrm {R O I C} - \mathrm {g}}{\mathrm {R O I C} \times (\mathrm {W A C C} - \mathrm {g})} \mathrm {x} \left(1 - \frac {(1 + \mathrm {g}) ^ {\mathrm {n}}}{(1 + \mathrm {W A C C}) ^ {\mathrm {n}}}\right) + \frac {1}{\mathrm {W A C C}} \mathrm {x} \frac {(1 + \mathrm {g}) ^ {\mathrm {n}}}{(1 + \mathrm {W A C C}) ^ {\mathrm {n}}} \mathrm {x} (1 - \mathrm {T}) \mathrm {x M} \quad \dots 1 6
+\frac{\mathrm{EV}}{\text{Sa le s}} = \frac{\mathrm{RO IC} - \mathrm{g}}{\mathrm{RO IC} \times (\mathrm{WA CC} - \mathrm{g})} \mathrm{x} \left(1 - \frac{(1 + \mathrm{g})^{\mathrm{n}}}{(1 + \mathrm{WA CC})^{\mathrm{n}}}\right) + \frac{1}{\mathrm{WA CC}} \mathrm{x} \frac{(1 + \mathrm{g})^{\mathrm{n}}}{(1 + \mathrm{WA CC})^{\mathrm{n}}} \mathrm{x} (1 - \mathrm{T}) \mathrm{xM} \quad \dots 1 6
 $$
 
 Note: In using these formula there is a problem where WACC is exactly the same as g as this produces a 'divide by zero' error. However, the formula works for any values of WACC and g where these are different even if they are very close in value. To avoid the 'divide by zero' problem the formula actually used in the GVG target multiple model have a very small number (0.0000001) added to the input value of g. This has no material effect on the multiples produced but does virtually ensure that the 'divide by zero' error will not arise, even if the user happens to choose the same values for WACC and g.

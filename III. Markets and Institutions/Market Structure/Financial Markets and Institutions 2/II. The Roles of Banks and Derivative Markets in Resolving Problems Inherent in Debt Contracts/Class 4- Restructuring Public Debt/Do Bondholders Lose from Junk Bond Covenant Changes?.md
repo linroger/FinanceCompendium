@@ -122,11 +122,11 @@ holder receives, in exchange for his old bond, a package of new securities and c
 Let  $S$  denote the vector of actions by the  $N + 1$  players and let  $S_{i}$  denote the vector of actions of all players but player  $i$ . The payoff functions of the game, following directly from the rules described above, are as follows:
 
 $$
-\pi_ {i} (C, S _ {- i}) = \left\{ \begin{array}{l l} B _ {n} + p & \text {i f a t l e a s t M + 1 o t h e r h o l d e r s c o n s e n t ;} \\ B _ {n} + p & \text {i f e x a c t l y M o t h e r h o l d e r s c o n s e n t ;} \\ B & \text {i f a t m o s t M - 1 o t h e r h o l d e r s c o n s e n t ;} \end{array} \right.
+\pi_{i} (C, S_{- i}) = \left\{ \begin{array}{l l} B_{n} + p & \text{if at le as tM +1 ot he rh ol de rs co ns en t ;} \\ B_{n} + p & \text{if ex ac tl yM ot he rh ol de rs co ns en t ;} \\ B & \text{if at mo st M -1 ot he rh ol de rs co ns en t ;} \end{array} \right.
 $$
 
 $$
-\pi_ {i} (N C, S _ {- i}) = \left\{ \begin{array}{l l} B ^ {\prime} & \text {i f a t l e a s t M + 1 o t h e r h o l d e r s c o n s e n t ;} \\ B & \text {i f e x a c t l y M o t h e r h o l d e r s c o n s e n t ;} \\ B & \text {i f a t m o s t M - 1 o t h e r h o l d e r s c o n s e n t .} \end{array} \right.
+\pi_{i} (N C, S_{- i}) = \left\{ \begin{array}{l l} B^{\prime} & \text{if at le as tM +1 ot he rh ol de rs co ns en t ;} \\ B & \text{if ex ac tl yM ot he rh ol de rs co ns en t ;} \\ B & \text{if at mo st M -1 ot he rh ol de rs co ns en t .} \end{array} \right.
 $$
 
 If  $B_{n} + p \geq B$ , that is, if the bondholders weakly benefit from the solicitation, the weakly dominant strategy equilibrium has everyone consenting. This inequality would hold if the stockholders are willing at least to compensate bondholders for the losses suffered from the removal or weakening of the protective covenants. In that case, stockholders benefit from the solicitation only if the modifications increase firm value.
@@ -203,13 +203,13 @@ $\Delta s$  : the change in the credit spread between bonds of similar ratings a
 Let  $P(y)$  denote the standard pricing function for a given yield-to-maturity,  $y$ . For all monthly data, abnormal returns were defined as
 
 $$
-a = \left\{P _ {+ 1} / P _ {- 1} \right\} - \left\{P \left(y _ {- 1} + \Delta y _ {T} + \Delta s\right) / P _ {- 1} \right\}.
+a = \left\{P_{+ 1} / P_{- 1} \right\} - \left\{P \left(y_{- 1} + \Delta y_{T} + \Delta s\right) / P_{- 1} \right\}.
 $$
 
 This definition adjusts for both interest rate changes and credit spread changes over the event date. Since credit spread data were not available on a daily basis, daily abnormal returns were defined as
 
 $$
-a = \left\{P _ {+ 1} / P _ {- 1} \right\} - \left\{\mathrm {P} \left(y _ {- 1} + \Delta y _ {T}\right) / P _ {- 1} \right\},
+a = \left\{P_{+ 1} / P_{- 1} \right\} - \left\{\mathrm{P} \left(y_{- 1} + \Delta y_{T}\right) / P_{- 1} \right\},
 $$
 
 which controls only for interest rate changes. Since the window around the event was typically set between 3 and 5 days, the failure to control for credit spread changes should not have much of an effect on the results.
@@ -405,21 +405,21 @@ LEMMA. If  $Y \geq M + 1$ , then  $\theta / \lambda \to 0$  as  $q \to 0$ . If  
 Proof. The probabilities  $\theta$  and  $\lambda$  are given by the following expressions:
 
 $$
-\theta = \sum_ {i + j = M} \binom {Y} {i} \binom {N - Y} {j} q ^ {Y - i + j} (1 - q) ^ {i + N - Y - j},
+\theta = \sum_{i + j = M} \binom {Y} {i} \binom {N - Y} {j} q^{Y - i + j} (1 - q)^{i + N - Y - j},
 $$
 
 $$
-\lambda = \sum_ {k = M + 1} ^ {N} \sum_ {i + j = k} \binom {Y} {i} \binom {N - Y} {j} q ^ {Y - i + j} (1 - q) ^ {i + N - Y - j}.
+\lambda = \sum_{k = M + 1}^{N} \sum_{i + j = k} \binom {Y} {i} \binom {N - Y} {j} q^{Y - i + j} (1 - q)^{i + N - Y - j}.
 $$
 
 As  $q \to 0$ , only the terms with the smallest exponents of  $q$  contribute to the summations. Therefore, as  $q \to 0$ ,
 
 $$
-\theta \approx \left\{ \begin{array}{c c} \binom {N - Y} {M - Y} q ^ {M - Y} (1 - q) ^ {N - M + Y} & M \geq Y \\ \binom {Y} {M} q ^ {Y - M} (1 - q) ^ {M + N - Y} & M <   Y, \end{array} \right.
+\theta \approx \left\{ \begin{array}{c c} \binom {N - Y} {M - Y} q^{M - Y} (1 - q)^{N - M + Y} & M \geq Y \\ \binom {Y} {M} q^{Y - M} (1 - q)^{M + N - Y} & M <   Y, \end{array} \right.
 $$
 
 $$
-\lambda \approx \left\{ \begin{array}{c c} \binom {N - Y} {M + 1 - Y} q ^ {M + 1 - Y} (1 - q) ^ {N - M - 1 + Y} & M + 1 > Y \\ (1 - q) ^ {N} & M + 1 \leq Y. \end{array} \right.
+\lambda \approx \left\{ \begin{array}{c c} \binom {N - Y} {M + 1 - Y} q^{M + 1 - Y} (1 - q)^{N - M - 1 + Y} & M + 1 > Y \\ (1 - q)^{N} & M + 1 \leq Y. \end{array} \right.
 $$
 
 Finally, taking the ratio  $\theta / \lambda$  leaves a positive power of  $q$  in the numerator when  $Y \geq M + 1$  and a positive power of  $q$  in the denominator when  $Y \leq M$ .
@@ -435,19 +435,19 @@ First, consider the Nash equilibrium in which all players consent. A sufficient 
 The expected value of consenting is
 
 $$
-\lambda \left(B _ {n} + p\right) + \theta \left(B _ {n} + p\right) + \mu B. \tag {B1}
+\lambda \left(B_{n} + p\right) + \theta \left(B_{n} + p\right) + \mu B. \tag {B1}
 $$
 
 The expected value of not consenting is
 
 $$
-\lambda B ^ {\prime} + \theta B + \mu B. \tag {B2}
+\lambda B^{\prime} + \theta B + \mu B. \tag {B2}
 $$
 
 Therefore,  $C$  may be chosen so long as
 
 $$
-B _ {n} + p - B ^ {\prime} > (\theta / \lambda) [ B - (B _ {n} + p) ]. \tag {B3}
+B_{n} + p - B^{\prime} > (\theta / \lambda) [ B - (B_{n} + p) ]. \tag {B3}
 $$
 
 Note that the inequality conditions of the problem ensure that  $B_{n} + p - B' > 0$  and that  $B - (B_{n} + p) > 0$ . Since all players consent in the Nash equilibrium under consideration, the lemma reveals that  $\theta / \lambda \to 0$  as  $q \to 0$ . So, in the limit, (B3) is satisfied and all consenting is THP.
@@ -459,23 +459,23 @@ PROPOSITION 2. The unique, symmetric THP Nash equilibrium of game 2 is one in wh
 Proof. The payoff functions of the game are
 
 $$
-\pi_ {i} (C, S _ {- i}) = \left\{ \begin{array}{l l} B _ {n} + p & \text {i f a t l e a s t M + 1 o t h e r h o l d e r s c o n s e n t ;} \\ B _ {n} + p & \text {i f e x a c t l y M o t h e r h o l d e r s c o n s e n t ;} \\ B + p & \text {i f a t m o s t M - 1 o t h e r h o l d e r s c o n s e n t ;} \end{array} \right.
+\pi_{i} (C, S_{- i}) = \left\{ \begin{array}{l l} B_{n} + p & \text{if at le as tM +1 ot he rh ol de rs co ns en t ;} \\ B_{n} + p & \text{if ex ac tl yM ot he rh ol de rs co ns en t ;} \\ B + p & \text{if at mo st M -1 ot he rh ol de rs co ns en t ;} \end{array} \right.
 $$
 
 $$
-\pi_ {i} (N C, S _ {- i}) = \left\{ \begin{array}{l l} B ^ {\prime} & \text {i f a t l e a s t M + 1 o t h e r h o l d e r s c o n s e n t ;} \\ B & \text {i f e x a c t l y M o t h e r h o l d e r s c o n s e n t ;} \\ B & \text {i f a t m o s t M - 1 o t h e r h o l d e r s c o n s e n t .} \end{array} \right.
+\pi_{i} (N C, S_{- i}) = \left\{ \begin{array}{l l} B^{\prime} & \text{if at le as tM +1 ot he rh ol de rs co ns en t ;} \\ B & \text{if ex ac tl yM ot he rh ol de rs co ns en t ;} \\ B & \text{if at mo st M -1 ot he rh ol de rs co ns en t .} \end{array} \right.
 $$
 
 It is easy to verify that the only symmetric Nash equilibrium of this game has all players consenting. The expected value of consenting is
 
 $$
-\lambda \left(B _ {n} + p\right) + \theta \left(B _ {n} + p\right) + \mu (B + p).
+\lambda \left(B_{n} + p\right) + \theta \left(B_{n} + p\right) + \mu (B + p).
 $$
 
 Using (2), the expected value of not consenting, players will consent so long as
 
 $$
-B _ {n} + p - B ^ {\prime} > (\theta / \lambda) \left[ B _ {n} + p) \right] - (\mu / \lambda) p. \tag {B4}
+B_{n} + p - B^{\prime} > (\theta / \lambda) \left[ B_{n} + p) \right] - (\mu / \lambda) p. \tag {B4}
 $$
 
 From the probability expressions given in the proof of the lemma, it follows directly that all consenting implies that  $\theta \to 0$ ,  $\lambda \to 1$ , and  $\mu \to 0$ . Therefore, the right-hand side of (B4) goes to 0. Since the conditions of the problem ensure that  $B_{n} + p - B^{\prime} > 0$ , (B4) is satisfied and all consenting is THP. Q.E.D.

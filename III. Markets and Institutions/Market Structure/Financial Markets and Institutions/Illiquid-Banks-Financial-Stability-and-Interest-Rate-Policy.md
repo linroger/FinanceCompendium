@@ -127,7 +127,7 @@ LEMMA 1. If  $r_{12}^{s} \geq e_{2}^{H} / (e_{1} - D)$ , both households leave a
 Assume first that the bank can repay depositors without failing. In equilibrium, markets for goods at date 1 and date 2 have to clear. At date 1, goods are produced when banks liquidate projects. Because all banks have the same distribution of projects and will liquidate projects with  $Y_{2} < Y_{2}^{s} = r_{12}^{s}X_{1} / \gamma$ , date 1 liquidation proceeds are  $1 / \bar{Y}_2\int_0^{\bar{Y}_2^3}X_1dY_2 = [r_{12}^s (X_1)^2 ] / \gamma \bar{Y}_2$ . Because this should equal the goods consumed by withdrawing households, it must be that
 
 $$
-\theta^ {s} w _ {1} ^ {H, s} + (1 - \theta^ {s}) w _ {1} ^ {L, s} = \frac {r _ {1 2} ^ {s} \left(X _ {1}\right) ^ {2}}{\gamma \bar {Y} _ {2}}, \tag {1}
+\theta^{s} w_{1}^{H, s} + (1 - \theta^{s}) w_{1}^{L, s} = \frac{r_{1 2}^{s} \left(X_{1}\right)^{2}}{\gamma \bar {Y}_{2}}, \tag {1}
 $$
 
 where  $\theta^s$  is the fraction of  $H$  households in state  $s$ . An equilibrium at date 1 in state  $s$  is an interest rate  $r_{12}^s$  and withdrawals by the  $H$  and  $L$  households,  $w_1^{H,s}, w_1^{L,s}$  such that the date 1 supply of goods equals the date 1 consumption, banks liquidate enough projects to meet withdrawals, and households do not want to, or cannot, withdraw more.
@@ -280,19 +280,19 @@ If, however, the central bank introduces a small nonpecuniary cost,
 11 Since  $b_1^s \leq e_1$ , the lowest feasible interest rate is the maximum of the storage rate and the interest that would prevail without such a floor and with  $b_1^s = e_1$ . The latter interest rate is obtained by solving
 
 $$
-\frac {e _ {2} ^ {L} + b _ {1} ^ {s} r _ {1 2} ^ {s , i} + (D - w _ {1} ^ {L , s , i}) r _ {1 2} ^ {s , i}}{e _ {1} - b _ {1} ^ {s} + w _ {1} ^ {L , s , i}} = r _ {1 2} ^ {s, i}
+\frac{e_{2}^{L} + b_{1}^{s} r_{1 2}^{s , i} + (D - w_{1}^{L , s , i}) r_{1 2}^{s , i}}{e_{1} - b_{1}^{s} + w_{1}^{L , s , i}} = r_{1 2}^{s, i}
 $$
 
 and
 
 $$
-\theta^ {s} D + (1 - \theta^ {s}) w _ {1} ^ {L, s, i} = \frac {r _ {1 2} ^ {s , i} (X _ {1}) ^ {2}}{\gamma \tilde {Y} _ {2}} + b _ {1} ^ {s}
+\theta^{s} D + (1 - \theta^{s}) w_{1}^{L, s, i} = \frac{r_{1 2}^{s , i} (X_{1})^{2}}{\gamma \tilde {Y}_{2}} + b_{1}^{s}
 $$
 
 for  $\{r_{12}^{s,i},w_1^{L,s,i}\}$  if there is a solution with  $w_{1}^{L,s,i} < D$  or solving
 
 $$
-D = \frac {r _ {1 2} ^ {s , i} (X _ {1}) ^ {2}}{\gamma \bar {Y} _ {2}} + b _ {1} ^ {s}
+D = \frac{r_{1 2}^{s , i} (X_{1})^{2}}{\gamma \bar {Y}_{2}} + b_{1}^{s}
 $$
 
 for  $r_{12}^{s,i}$  if there is not. In the first case, the social planner's intervention does not force the interest rate so low that the  $L$  household withdraws totally from the system; in the latter case, it does.
@@ -366,7 +366,7 @@ be true if the unconditional probability of being a high type is large and  $e_2
 A banker will choose the liquidity of his portfolio, taking future state-contingent interest rates as given, to maximize his residual claim. The total value (at date 1) of the bank's assets in state  $s$  is
 
 $$
-\frac {Z}{\bar {Y} _ {2}} \left[ \int_ {0} ^ {Y _ {2} (r _ {1 2} ^ {*})} X _ {1} d Y _ {2} + \frac {\gamma}{Z r _ {1 2} ^ {s}} \int_ {Y _ {2} (r _ {1 2} ^ {*})} ^ {\bar {Y} _ {2}} Y _ {2} d Y _ {2} \right] \equiv V _ {1} (r _ {1 2} ^ {s}, Z).
+\frac{Z}{\bar {Y}_{2}} \left[ \int_{0}^{Y_{2} (r_{1 2}^{*})} X_{1} d Y_{2} + \frac{\gamma}{Z r_{1 2}^{s}} \int_{Y_{2} (r_{1 2}^{*})}^{\bar {Y}_{2}} Y_{2} d Y_{2} \right] \equiv V_{1} (r_{1 2}^{s}, Z).
 $$
 
 It is easily seen that  $\partial V_1 / \partial r_{12}^S\partial Z > 0$ , that is, a higher prospective date 1 interest rate makes it more valuable to have a more liquid project portfolio.
@@ -428,13 +428,13 @@ Why Demand Deposits Are the Constrained Optimal Contract
 Under what circumstances are demand deposits an optimal financing contract for the bank? Before we impose the constraints that imply their optimality, we begin by imposing only the resource constraints, the constraint that all contracts (including deposits) are voluntary, and the constraint that a central planner, like the bank, can only force each entrepreneur to pay a fraction  $\gamma$  of his realized value of  $\tilde{Y}_2$  at date 2. The planner maximizes household utility, taking as given the need to give producers (bank plus firms) a minimum utility level  $\Lambda$ . By altering this minimum utility level, we can trace out the Pareto frontier. Start first with a contract that requires household  $H$  to receive (or pay if negative)  $V_{t}^{H,s}$  at date  $t$  in state  $s$  and similarly for the  $L$  household. The planner will never liquidate a project with higher realization of  $\tilde{Y}_2$  before liquidating one with a lower realization, so the socially optimal liquidation policy is to choose a value  $Y^s$  such that all projects with realization less than or equal to  $Y^s$  are liquidated in state  $s$ , with total liquidation value  $(Y^s / \bar{Y})X_1$ . Let  $\Upsilon(Y^s) = \{[(\bar{Y})^2 - (Y^s)^2] / 2\bar{Y}\}$  be the value of projects that are not liquidated (the precise functional form is not important, so we write it more generally below). The unconstrained planner's problem is
 
 $$
-\begin{array}{l} \max  _ {V _ {1} ^ {H, s}, V _ {2} ^ {H, s}, V _ {1} ^ {H, s}, V _ {2} ^ {H, s}} E \left\{\theta^ {s} \left[ U \left(e _ {1} + V _ {1} ^ {H, s}\right) + U \left(e _ {2} ^ {H} + V _ {2} ^ {H, s}\right) \right] \right. \\ + (1 - \theta^ {s}) [ U (e _ {1} + V _ {1} ^ {L, s}) + U (e _ {2} ^ {L} + V _ {2} ^ {L, s}) ] ], \\ \end{array}
+\begin{array}{l} \max_{V_{1}^{H, s}, V_{2}^{H, s}, V_{1}^{H, s}, V_{2}^{H, s}} E \left\{\theta^{s} \left[ U \left(e_{1} + V_{1}^{H, s}\right) + U \left(e_{2}^{H} + V_{2}^{H, s}\right) \right] \right. \\ + (1 - \theta^{s}) [ U (e_{1} + V_{1}^{L, s}) + U (e_{2}^{L} + V_{2}^{L, s}) ] ], \\ \end{array}
 $$
 
 subject to
 
 $$
-\begin{array}{l} \theta_ {s} V _ {2} ^ {L, s} + \left(1 - \theta_ {s}\right) V _ {2} ^ {H, s} \leq \gamma \Upsilon (Y ^ {s}) (\text {s o l v e n c y c o n s t r a i n t ; r e s o u r c e s a t d a t e 2}), \\ \theta^ {s} V _ {1} ^ {H, s} + (1 - \theta^ {s}) V _ {1} ^ {T, s} \leq \left(Y ^ {s} / \bar {Y}\right) X _ {1} (\text {l i q u i d i t y c o n s t r a i n t}; \text {r e s o u r c e s a t d a t e 1}), \\ \begin{array}{l} E \{\Upsilon (Y ^ {s}) - \theta^ {s} V _ {2} ^ {H, s} - (1 - \theta^ {s}) V _ {2} ^ {L, s} + [ (Y ^ {s} / \bar {Y}) X _ {1} - \theta^ {s} V _ {1} ^ {H, s} - (1 - \theta^ {s}) V _ {1} ^ {L, s} ] \} \geq \Lambda \} (\text {f l o o r}) \\ \text {o n p r o d u c t o r u t i l y l e v e l}), \end{array} \\ V _ {1} ^ {L, s} \geq - e _ {1}, V _ {1} ^ {H, s} \geq - e _ {1}, V _ {2} ^ {L, s} \geq - e _ {2} ^ {L}, V _ {2} ^ {H, s} \geq - e _ {2} ^ {H} (\text {f e a s i b i l i t y c o n s t r a i n t s : h o u s c h o l d c a n o n t p a y m o r e m a t h e n i t s}) \\ Y ^ {s} \in [ 0, \bar {Y} ] (\text {f e a s i b l e l i q u i d a t i o n c h o i c e s}). \\ \end{array}
+\begin{array}{l} \theta_{s} V_{2}^{L, s} + \left(1 - \theta_{s}\right) V_{2}^{H, s} \leq \gamma \Upsilon (Y^{s}) (\text{so lv en cy co ns tr ai nt ;r es ou rc es at da te 2}), \\ \theta^{s} V_{1}^{H, s} + (1 - \theta^{s}) V_{1}^{T, s} \leq \left(Y^{s} / \bar {Y}\right) X_{1} (\text{li qu id it yc on st ra in t}; \text{re so ur ce sa td at e1}), \\ \begin{array}{l} E \{\Upsilon (Y^{s}) - \theta^{s} V_{2}^{H, s} - (1 - \theta^{s}) V_{2}^{L, s} + [ (Y^{s} / \bar {Y}) X_{1} - \theta^{s} V_{1}^{H, s} - (1 - \theta^{s}) V_{1}^{L, s} ] \} \geq \Lambda \} (\text{fl oo r}) \\ \text{on pr od uc to ru ti ly le ve l}), \end{array} \\ V_{1}^{L, s} \geq - e_{1}, V_{1}^{H, s} \geq - e_{1}, V_{2}^{L, s} \geq - e_{2}^{L}, V_{2}^{H, s} \geq - e_{2}^{H} (\text{fe as ib il it yc on st ra in ts :h ou sc ho ld ca no nt pa ym or em at he ni ts}) \\ Y^{s} \in [ 0, \bar {Y} ] (\text{fe as ib le li qu id at io nc ho ic es}). \\ \end{array}
 $$
 
 This is a standard problem equivalent to optimal competitive consumption, production, and risk sharing with complete markets (subject to the ability to commit to make payments). It is easily shown that the solution to this maximization problem is to equate the marginal utilities of each type of household in each state. Thus  $V_{1}^{H,s} = V_{1}^{L,s}$  and  $V_{2}^{H,s} = V_{2}^{L,s} - (e_{2}^{H} - e_{2}^{L})$ . So we achieve perfect risk sharing. Also it is optimal to choose  $Y^{s}$  such that the marginal rate of transformation of date 2 consumption to date 1 consumption goods, which equals  $\gamma Y^{s} / X_{1}$ , is equated to the common marginal rate of substitution of the households. We refer to the solution as the first-best allocation.
@@ -456,7 +456,7 @@ $$
 Also, the banker has no incentive to pay more than he is forced to by the deposit claim, so
 
 $$
-\max  _ {w _ {1} ^ {\tau , s}} U (e _ {1} + w _ {1} ^ {\tau , s}) + U [ e _ {2} ^ {\tau} + (D ^ {\tau , s} - w _ {1} ^ {\tau , s}) r _ {1 2} ^ {s} ] \geq U (e _ {1} + V _ {1} ^ {\tau , s}) + U (e _ {2} ^ {\tau} + V _ {2} ^ {\tau , s}).
+\max_{w_{1}^{\tau , s}} U (e_{1} + w_{1}^{\tau , s}) + U [ e_{2}^{\tau} + (D^{\tau , s} - w_{1}^{\tau , s}) r_{1 2}^{s} ] \geq U (e_{1} + V_{1}^{\tau , s}) + U (e_{2}^{\tau} + V_{2}^{\tau , s}).
 $$
 
 Thus the two weak inequalities imply equality, and the demandable claim determines the present value of what depositors get. Also feasibility requires  $w_{1}^{H,s} \geq -e_{1}$ ,  $w_{1}^{L,s} \geq -e_{1}$ . It is clear then that with a state-contingent date 0 deposit contract that results in date 1 household-type-specific state-contingent deposit contracts  $D^{H,s} = V_{1}^{H,s} + (V_{2}^{H,s} / r_{12}^{s})$  and  $D^{L,s} = V_{1}^{L,s} + (V_{2}^{L,s} / r_{12}^{s})$ , the first-best allocation can be attained, even with limited banker commitment.
@@ -494,19 +494,19 @@ Suppose not. Can there, for instance, be another equilibrium with the same inter
 When both households are on their first-order condition, the  $H$  household withdraws more than the  $L$  household. The  $H$  household withdraws  $D$  fully before the  $L$  household withdraws. Hence it (weakly) withdraws more and  $w_{1}^{H,S} \geq w_{1}^{L,S}$ . (i) Totally differentiating (1) with respect to  $\theta^S$ , we get
 
 $$
-\left(w _ {1} ^ {H, S} - w _ {1} ^ {L, S}\right) + \theta^ {s} \frac {d w _ {1} ^ {H , S}}{d \theta^ {s}} + \left(1 - \theta^ {s}\right) \frac {d w _ {1} ^ {L , S}}{d \theta^ {s}} - \frac {X _ {1} ^ {2}}{\gamma (\bar {Y} _ {2})} \frac {d r _ {1 2} ^ {S}}{d \theta^ {s}} = 0.
+\left(w_{1}^{H, S} - w_{1}^{L, S}\right) + \theta^{s} \frac{d w_{1}^{H , S}}{d \theta^{s}} + \left(1 - \theta^{s}\right) \frac{d w_{1}^{L , S}}{d \theta^{s}} - \frac{X_{1}^{2}}{\gamma (\bar {Y}_{2})} \frac{d r_{1 2}^{S}}{d \theta^{s}} = 0.
 $$
 
 Now
 
 $$
-\frac {d w _ {1} ^ {H , S}}{d \theta^ {S}} = \frac {\partial w _ {1} ^ {H , S}}{\partial r _ {1 2} ^ {S}} \frac {d r _ {1 2} ^ {S}}{d \theta^ {S}},
+\frac{d w_{1}^{H , S}}{d \theta^{S}} = \frac{\partial w_{1}^{H , S}}{\partial r_{1 2}^{S}} \frac{d r_{1 2}^{S}}{d \theta^{S}},
 $$
 
 where  $\partial w_1^{H,S} / \partial r_{12}^S\leq 0$  from the expressions for  $w_{1}^{H,S}$ . Similarly for  $dw_{1}^{L,S} / d\theta^{S}$ . Thus
 
 $$
-\frac {d r _ {1 2} ^ {S}}{d \theta^ {S}} = \frac {\left(w _ {1} ^ {H , S} - w _ {1} ^ {L , S}\right)}{\left[ X _ {1} ^ {2} / \gamma (\tilde {Y} _ {2}) \right] - \theta^ {S} \left(\partial w _ {1} ^ {H , S} / \partial r _ {1 2} ^ {S}\right) - \left(1 - \theta^ {S}\right) \left(\partial w _ {1} ^ {L , S} / \partial r _ {1 2} ^ {S}\right)} \geq 0
+\frac{d r_{1 2}^{S}}{d \theta^{S}} = \frac{\left(w_{1}^{H , S} - w_{1}^{L , S}\right)}{\left[ X_{1}^{2} / \gamma (\tilde {Y}_{2}) \right] - \theta^{S} \left(\partial w_{1}^{H , S} / \partial r_{1 2}^{S}\right) - \left(1 - \theta^{S}\right) \left(\partial w_{1}^{L , S} / \partial r_{1 2}^{S}\right)} \geq 0
 $$
 
 because  $w_{1}^{H,S}\geq w_{1}^{L,S}$
@@ -518,13 +518,13 @@ in  $\theta^s$ . Finally, the fraction liquidated increases in  $r_{12}^s$ ; hen
 Turning to the effect of  $D$ , we have on totally differentiating (1)
 
 $$
-\theta^ {s} \frac {d w _ {1} ^ {H , S}}{d D} + (1 - \theta^ {s}) \frac {d w _ {1} ^ {L , S}}{d D} - \frac {X _ {1} ^ {2}}{\gamma (\tilde {Y} _ {2})} \frac {d r _ {1 2} ^ {S}}{d D} = 0.
+\theta^{s} \frac{d w_{1}^{H , S}}{d D} + (1 - \theta^{s}) \frac{d w_{1}^{L , S}}{d D} - \frac{X_{1}^{2}}{\gamma (\tilde {Y}_{2})} \frac{d r_{1 2}^{S}}{d D} = 0.
 $$
 
 Now either  $\frac{dw_1^s}{dD} = 1$  if the household is off its first-order condition and has withdrawn everything, or it is given by
 
 $$
-\frac {1}{2} \left[ 1 - \dot {e _ {2}} \left(\frac {1}{r _ {1 2} ^ {s}}\right) ^ {2} \frac {d r _ {1 2} ^ {s}}{d D} \right].
+\frac{1}{2} \left[ 1 - \dot {e_{2}} \left(\frac{1}{r_{1 2}^{s}}\right)^{2} \frac{d r_{1 2}^{s}}{d D} \right].
 $$
 
 Substituting and simplifying, we get  $dr_{12}^{s} / dD \geq 0$ . Given  $r_{12}^{s}$  increases in  $D$ , the other comparative statics follow for the same reasons as above.
@@ -532,7 +532,7 @@ Substituting and simplifying, we get  $dr_{12}^{s} / dD \geq 0$ . Given  $r_{12}
 (iii) The date 1 asset value of banks is
 
 $$
-(1 / \bar {Y} _ {2}) \int_ {\bar {Y} _ {2}} ^ {Y _ {2} (r _ {2} ^ {\prime})} X _ {1} d Y _ {2} + (1 / \bar {Y} _ {2}) \int_ {Y _ {2} (r _ {2} ^ {\prime})} ^ {\bar {Y} _ {2}} (\gamma Y _ {2} / r _ {1 2} ^ {s}) d Y _ {2}
+(1 / \bar {Y}_{2}) \int_{\bar {Y}_{2}}^{Y_{2} (r_{2}^{\prime})} X_{1} d Y_{2} + (1 / \bar {Y}_{2}) \int_{Y_{2} (r_{2}^{\prime})}^{\bar {Y}_{2}} (\gamma Y_{2} / r_{1 2}^{s}) d Y_{2}
 $$
 
 while the liabilities are  $D$ . The asset value falls in  $r_{12}^{s}$ , so it falls in  $\theta^s$  and  $D$ . The liabilities increase in  $D$ . Hence the net worth (= assets - liabilities) falls in  $\theta^s$  and  $D$ .
@@ -542,19 +542,19 @@ while the liabilities are  $D$ . The asset value falls in  $r_{12}^{s}$ , so it 
 Let  $U(p, D) = \sum_{s}^{s} p^{s} U^{s}(D)$ , where  $U^{s}(D)$  is the utility of households in state  $s$ . Then  $U(p, D^{\mathrm{Max}}(s*)) = \sum_{s}^{s*} p^{s} U^{s}(D^{\mathrm{Max}}(s*)) + \sum_{s*}^{s} p^{s} U^{s, \mathrm{Run}}(D^{\mathrm{Max}}(s*))$ , where  $U^{s, \mathrm{Run}}(D)$  is the utility of households in state  $s$  when their bank is run and they hold deposits  $D$ . Now consider a state  $t > s^*$ . We have
 
 $$
-\begin{array}{l} U (p, D ^ {\operatorname {M a x}} (s ^ {*})) - U (p, D ^ {\operatorname {M a x}} (t)) = \sum_ {s} ^ {s ^ {*}} p ^ {s} [ U ^ {s} (D ^ {\operatorname {M a x}} (s ^ {*})) - U ^ {s} (D ^ {\operatorname {M a x}} (t)) ] \\ + \sum_ {s ^ {*} + 1} ^ {t} p ^ {s} \left[ U ^ {s, \text {R u n}} \left(D ^ {\operatorname {M a x}} (s ^ {*})\right) - U ^ {s} \left(D ^ {\operatorname {M a x}} (t) \right] \right. \\ + \sum_ {t + 1} ^ {\bar {s}} p ^ {s} \left[ U ^ {s, \text {R u n}} \left(D ^ {\operatorname {M a x}} (s ^ {*})\right) - U ^ {s} \left(D ^ {\operatorname {M a x}} (t) \right] \right]. \\ \end{array}
+\begin{array}{l} U (p, D^{\operatorname{Ma x}} (s^{*})) - U (p, D^{\operatorname{Ma x}} (t)) = \sum_{s}^{s^{*}} p^{s} [ U^{s} (D^{\operatorname{Ma x}} (s^{*})) - U^{s} (D^{\operatorname{Ma x}} (t)) ] \\ + \sum_{s^{*} + 1}^{t} p^{s} \left[ U^{s, \text{Ru n}} \left(D^{\operatorname{Ma x}} (s^{*})\right) - U^{s} \left(D^{\operatorname{Ma x}} (t) \right] \right. \\ + \sum_{t + 1}^{\bar {s}} p^{s} \left[ U^{s, \text{Ru n}} \left(D^{\operatorname{Ma x}} (s^{*})\right) - U^{s} \left(D^{\operatorname{Ma x}} (t) \right] \right]. \\ \end{array}
 $$
 
 Now consider a decrease  $\Delta$  in probability in one of the states  $s^* + k - j$  to the left of  $s^*$  (i.e., where  $j > k$ ) and a commensurate increase in probability in one of the states  $s^* + k$  to the right of  $s^*$ . Then when  $s^* + k \leq t$ , the change in  $U(p, D^{\mathrm{Max}}(s^*)) - U(p, D^{\mathrm{Max}}(t))$  is
 
 $$
-\begin{array}{l} - \Delta \left[ U ^ {s ^ {*} + k - j} \left(D ^ {\operatorname {M a x}} (s ^ {*})\right) - U ^ {s ^ {*} + k - j} \left(D ^ {\operatorname {M a x}} (t)\right) \right] \\ + \Delta \left[ U ^ {s ^ {*} + k _ {i} \operatorname {R u n}} \left(D ^ {\operatorname {M a x}} (s ^ {*})\right) - U ^ {s ^ {*} + k} \left(D ^ {\operatorname {M a x}} (t)\right) \right]. \\ \end{array}
+\begin{array}{l} - \Delta \left[ U^{s^{*} + k - j} \left(D^{\operatorname{Ma x}} (s^{*})\right) - U^{s^{*} + k - j} \left(D^{\operatorname{Ma x}} (t)\right) \right] \\ + \Delta \left[ U^{s^{*} + k_{i} \operatorname{Ru n}} \left(D^{\operatorname{Ma x}} (s^{*})\right) - U^{s^{*} + k} \left(D^{\operatorname{Ma x}} (t)\right) \right]. \\ \end{array}
 $$
 
 The first term in square brackets is positive because  $D^{\mathrm{Max}}(s^{*}) > D^{\mathrm{Max}}(t)$  so  $U^{s^{*} + k - j}(D^{\mathrm{Max}}(s^{*})) > U^{s^{*} + k - j}(D^{\mathrm{Max}}(t))$ . The second term in square brackets is negative because runs are costly and  $U^{s^{*} + k, \mathrm{Run}}(D^{\mathrm{Max}}(s^{*})) < U^{s^{*} + k}(D^{\mathrm{Max}}(t))$ . When  $s^{*} + k > t$ , the change in  $U(p, D^{\mathrm{Max}}(s^{*})) - U(p, D^{\mathrm{Max}}(t))$  is
 
 $$
-\begin{array}{l} - \Delta \left[ U ^ {s ^ {*} + k - j} \left(D ^ {\operatorname {M a x}} \left(s ^ {*}\right)\right) - U ^ {s ^ {*} + k - j} \left(D ^ {\operatorname {M a x}} (t)\right) \right] \\ + \Delta \left[ U ^ {s ^ {*} + k, \operatorname {R u n}} \left(D ^ {\operatorname {M a x}} (s ^ {*})\right) - U ^ {s ^ {*} + k, \operatorname {R u n}} \left(D ^ {\operatorname {M a x}} (t)\right) \right]. \\ \end{array}
+\begin{array}{l} - \Delta \left[ U^{s^{*} + k - j} \left(D^{\operatorname{Ma x}} \left(s^{*}\right)\right) - U^{s^{*} + k - j} \left(D^{\operatorname{Ma x}} (t)\right) \right] \\ + \Delta \left[ U^{s^{*} + k, \operatorname{Ru n}} \left(D^{\operatorname{Ma x}} (s^{*})\right) - U^{s^{*} + k, \operatorname{Ru n}} \left(D^{\operatorname{Ma x}} (t)\right) \right]. \\ \end{array}
 $$
 
 The first term in square brackets is positive as before. The second term in square brackets is negative because runs produce lower household utility when promised deposits are higher, and  $D^{\mathrm{Max}}(s^{*}) > D^{\mathrm{Max}}(t)$ .
@@ -566,13 +566,13 @@ Therefore, the change in probabilities makes the previous optimal deposit promis
 First, it is clear that both types of households are better off in state  $s$  if promised deposits are raised without precipitating a run, that is, to  $D^{\mathrm{Max}}(s)$ . We then have
 
 $$
-\frac {d U ^ {L , s}}{d D} = \frac {1}{e _ {1} + w _ {1} ^ {L , s}} \left(\frac {d w _ {1} ^ {L , s}}{d D}\right) - \frac {r _ {1 2} ^ {S}}{e _ {2} ^ {L} + (D - w _ {1} ^ {L , s}) r _ {1 2} ^ {S}} \left(\frac {d w _ {1} ^ {L , s}}{d D}\right) + \frac {r _ {1 2} ^ {S} + (D - w _ {1} ^ {L , s}) (d r _ {1 2} ^ {S} / d D)}{e _ {2} ^ {L} + (D - w _ {1} ^ {L , s}) r _ {1 2} ^ {S}}.
+\frac{d U^{L , s}}{d D} = \frac{1}{e_{1} + w_{1}^{L , s}} \left(\frac{d w_{1}^{L , s}}{d D}\right) - \frac{r_{1 2}^{S}}{e_{2}^{L} + (D - w_{1}^{L , s}) r_{1 2}^{S}} \left(\frac{d w_{1}^{L , s}}{d D}\right) + \frac{r_{1 2}^{S} + (D - w_{1}^{L , s}) (d r_{1 2}^{S} / d D)}{e_{2}^{L} + (D - w_{1}^{L , s}) r_{1 2}^{S}}.
 $$
 
 Because
 
 $$
-\frac {1}{e _ {1} + w _ {1} ^ {L , s}} - \frac {r _ {1 2} ^ {S}}{e _ {2} ^ {L} + (D - w _ {1} ^ {L , s}) r _ {1 2} ^ {S}} = 0,
+\frac{1}{e_{1} + w_{1}^{L , s}} - \frac{r_{1 2}^{S}}{e_{2}^{L} + (D - w_{1}^{L , s}) r_{1 2}^{S}} = 0,
 $$
 
 the first two terms are zero. The last term is positive. So  $dU^{L_s / s} / dD > 0$ . Similarly, if  $H$  households are on their first-order condition, we can show that  $dU^{H_s / s} / dD > 0$ . If they are not—either they withdraw everything or leave everything in the bank—their utility clearly increases in  $D$ .
@@ -582,25 +582,25 @@ Suppose now that we increase  $D$  from  $D^{\mathrm{Max}}(s)$  while lowering  
 Post intervention,  $U^{L,s} = \log (e_1 + w_1^{L,s} - t) + \log (e_2^L +(D - w_1^{L,s} + t)r_{12}^S)$  such that  $V(r_{12}^{S}) = D$ , where  $V$  is the value of the bank at date 1 (before withdrawals). We then have
 
 $$
-\begin{array}{l} \frac {d U ^ {L , s}}{d D} = \frac {1}{e _ {1} + w _ {1} ^ {L , s} - t} \left(\frac {d w _ {1} ^ {L , s}}{d D} - \frac {d t}{d D}\right) \\ - \frac {r _ {1 2} ^ {S}}{e _ {2} ^ {L} + (D - w _ {1} ^ {L , s} + t) r _ {1 2} ^ {S}} \left(\frac {d w _ {1} ^ {L , s}}{d D} - \frac {d t}{d D}\right) \\ + \frac {r _ {1 2} ^ {S} + (D - w _ {1} ^ {L , s} + t) (d r _ {1 2} ^ {S} / d D)}{e _ {2} ^ {L} + (D - w _ {1} ^ {L , s} + t) r _ {1 2} ^ {S}}. \\ \end{array}
+\begin{array}{l} \frac{d U^{L , s}}{d D} = \frac{1}{e_{1} + w_{1}^{L , s} - t} \left(\frac{d w_{1}^{L , s}}{d D} - \frac{d t}{d D}\right) \\ - \frac{r_{1 2}^{S}}{e_{2}^{L} + (D - w_{1}^{L , s} + t) r_{1 2}^{S}} \left(\frac{d w_{1}^{L , s}}{d D} - \frac{d t}{d D}\right) \\ + \frac{r_{1 2}^{S} + (D - w_{1}^{L , s} + t) (d r_{1 2}^{S} / d D)}{e_{2}^{L} + (D - w_{1}^{L , s} + t) r_{1 2}^{S}}. \\ \end{array}
 $$
 
 Because the  $L$  households are on their first-order condition, the first two terms sum to zero again. We also have from the requirement of solvency that
 
 $$
-\frac {d r _ {1 2} ^ {S}}{d D} = \frac {- 1}{d V / d r _ {1 2} ^ {S}}.
+\frac{d r_{1 2}^{S}}{d D} = \frac{- 1}{d V / d r_{1 2}^{S}}.
 $$
 
 Simple algebra suggests that
 
 $$
-\begin{array}{l} \frac {d V}{d r _ {1 2} ^ {s}} = \frac {1}{(\bar {Y} _ {2})} \left(\frac {(X _ {1}) ^ {2}}{2 \gamma} - \frac {\bar {Y} ^ {2} \gamma}{2 (r _ {1 2} ^ {s}) ^ {2}}\right) \\ = \frac {- 1}{r _ {1 2} ^ {s}} (\text {P r e s e n t v a l u e o f b a n k (a f t e r w i t d r a w a l s)}). \\ \end{array}
+\begin{array}{l} \frac{d V}{d r_{1 2}^{s}} = \frac{1}{(\bar {Y}_{2})} \left(\frac{(X_{1})^{2}}{2 \gamma} - \frac{\bar {Y}^{2} \gamma}{2 (r_{1 2}^{s})^{2}}\right) \\ = \frac{- 1}{r_{1 2}^{s}} (\text{Pr es en tv al ue of ba nk (af te rw it dr aw al s)}). \\ \end{array}
 $$
 
 This then means that
 
 $$
-\frac {d U ^ {L , s}}{d D} = \frac {r _ {1 2} ^ {S} (1 - [ (D - w _ {1} ^ {L , s} + t) / \text {P r e s e n t v a l u e o f b a n k} ])}{e _ {2} ^ {L} + (D - w _ {1} ^ {L , s} + t) r _ {1 2} ^ {S}} <   0
+\frac{d U^{L , s}}{d D} = \frac{r_{1 2}^{S} (1 - [ (D - w_{1}^{L , s} + t) / \text{Pr es en tv al ue of ba nk} ])}{e_{2}^{L} + (D - w_{1}^{L , s} + t) r_{1 2}^{S}} <   0
 $$
 
 because if the bank is just solvent after withdrawals, the present value of the bank  $= (1 - \theta)(D - w_{1}^{L,s}) + t < D - w_{1}^{L,s} + t$ . What about the  $H$  household? With lower  $D$ , and compensation for taxes at a rate that is less than its marginal rate of substitution, it is worse off. So households are worse off if  $D$  is set above  $D^{\mathrm{Max}}(s)$  and the planner intervenes to restore solvency.

@@ -35,13 +35,13 @@ Table 4.1: Zero Curve
 A bench marked 5-year Treasury issue is paying  $3.5\%$  and is priced at par:
 
 $$
-\begin{array}{l} 1 0 0 = \sum_ {i = 1} ^ {1 0} \frac {c _ {i}}{\left(1 + r _ {i}\right) ^ {i}} \\ = \frac {1.75}{(1 + 1.2408 \% / 2)} + \frac {1.75}{(1 + 1.9340 \% / 2) ^ {2}} + \dots + \frac {101.75}{(1 + 3.5434 \% / 2) ^ {10}} \\ \end{array}
+\begin{array}{l} 1 0 0 = \sum_{i = 1}^{1 0} \frac{c_{i}}{\left(1 + r_{i}\right)^{i}} \\ = \frac{1.75}{(1 + 1.2408 \% / 2)} + \frac{1.75}{(1 + 1.9340 \% / 2)^{2}} + \dots + \frac{101.75}{(1 + 3.5434 \% / 2)^{10}} \\ \end{array}
 $$
 
 This is reasonable as Treasuries do not suffer default risk and hence their coupons should be less than the corresponding corporate bonds. The OAS of the corporate bond can be computed as:
 
 $$
-\begin{array}{l} 1 0 0 = \sum_ {i = 1} ^ {1 0} \frac {c _ {i}}{(1 + (r _ {i} + s) / 2) ^ {i}} \\ = \frac {2}{(1 + (1 . 2 4 0 8 \% + s) / 2)} + \frac {2}{(1 + (1 . 9 3 4 0 \% + s) / 2) ^ {2}} + \dots + \frac {1 0 2}{(1 + (3 . 5 4 3 4 \% + s) / 2) ^ {1 0}} \\ \end{array}
+\begin{array}{l} 1 0 0 = \sum_{i = 1}^{1 0} \frac{c_{i}}{(1 + (r_{i} + s) / 2)^{i}} \\ = \frac{2}{(1 + (1 . 2 4 0 8 \% + s) / 2)} + \frac{2}{(1 + (1 . 9 3 4 0 \% + s) / 2)^{2}} + \dots + \frac{1 0 2}{(1 + (3 . 5 4 3 4 \% + s) / 2)^{1 0}} \\ \end{array}
 $$ and then we can solve for the spread as  $0.5062\%$ , or 50.62 basis points.
 
 
@@ -113,7 +113,7 @@ A floating rate corporate bond, or often called a corporate floater, pays an ext
 
 $$
 
-1 = \frac {\left(L _ {1} + s _ {0}\right) / 2}{\left(1 + \frac {L _ {1} + s _ {0}}{2}\right)} + \frac {\left(L _ {2} + s _ {0}\right) / 2}{\left(1 + \frac {L _ {1} + s _ {0}}{2}\right) \left(1 + \frac {L _ {2} + s _ {0}}{2}\right)} + \dots + \frac {1 + \left(L _ {2 n} + s _ {0}\right) / 2}{\prod_ {i = 1} ^ {2 n} \left(1 + \frac {L _ {i} + s _ {0}}{2}\right)} \tag {4.1}
+1 = \frac{\left(L_{1} + s_{0}\right) / 2}{\left(1 + \frac{L_{1} + s_{0}}{2}\right)} + \frac{\left(L_{2} + s_{0}\right) / 2}{\left(1 + \frac{L_{1} + s_{0}}{2}\right) \left(1 + \frac{L_{2} + s_{0}}{2}\right)} + \dots + \frac{1 + \left(L_{2 n} + s_{0}\right) / 2}{\prod_{i = 1}^{2 n} \left(1 + \frac{L_{i} + s_{0}}{2}\right)} \tag {4.1}
 
 $$
 
@@ -121,7 +121,7 @@ We have explained why this equation is an identity of 1 (par value). Unlike the 
 
 $$
 
-1 \neq \frac {\left(L _ {1} + s _ {0}\right) / 2}{\left(1 + \frac {L _ {1} + s _ {1}}{2}\right)} + \frac {\left(L _ {2} + s _ {0}\right) / 2}{\left(1 + \frac {L _ {1} + s _ {1}}{2}\right) \left(1 + \frac {L _ {2} + s _ {1}}{2}\right)} + \dots + \frac {1 + \left(L _ {2 n - 1} + s _ {1}\right) / 2}{\prod_ {i = 1} ^ {2 n - 1} \left(1 + \frac {L _ {i} + s _ {1}}{2}\right)} \tag {4.2}
+1 \neq \frac{\left(L_{1} + s_{0}\right) / 2}{\left(1 + \frac{L_{1} + s_{1}}{2}\right)} + \frac{\left(L_{2} + s_{0}\right) / 2}{\left(1 + \frac{L_{1} + s_{1}}{2}\right) \left(1 + \frac{L_{2} + s_{1}}{2}\right)} + \dots + \frac{1 + \left(L_{2 n - 1} + s_{1}\right) / 2}{\prod_{i = 1}^{2 n - 1} \left(1 + \frac{L_{i} + s_{1}}{2}\right)} \tag {4.2}
 
 $$
 
@@ -139,13 +139,13 @@ Figure 4.1: Corporate Floater Example
 
 $$
 
-\bullet L _ {2 n} = f \left(0, 2 n - ^ {1 / 4}, 2 n\right)
+\bullet L_{2 n} = f \left(0, 2 n -^{1 / 4}, 2 n\right)
 
 $$
 
 $$
 
-P = \frac {\frac {f (0 , 1 / 4 , 1 / 2) + s _ {0}}{2}}{\left(1 + \frac {y}{2}\right)} + \frac {\frac {f (0 , 1 / 2 , 3 / 4) + s _ {0}}{2}}{\left(1 + \frac {y}{2}\right) ^ {2}} + \dots + \frac {1 + \frac {f (0 , 2 n - 1 / 4 , 2 n) + s _ {0}}{2}}{\left(1 + \frac {y}{2}\right) ^ {2 n}} \tag {4.3}
+P = \frac{\frac{f (0 , 1 / 4 , 1 / 2) + s_{0}}{2}}{\left(1 + \frac{y}{2}\right)} + \frac{\frac{f (0 , 1 / 2 , 3 / 4) + s_{0}}{2}}{\left(1 + \frac{y}{2}\right)^{2}} + \dots + \frac{1 + \frac{f (0 , 2 n - 1 / 4 , 2 n) + s_{0}}{2}}{\left(1 + \frac{y}{2}\right)^{2 n}} \tag {4.3}
 
 $$ where  $f(t,T_i,T_j)$  is the discrete forward rate between  $T_{i}$  and  $T_{j}$  observed today  $t$ . See the example: <See Excel>
 
@@ -178,38 +178,38 @@ Each coupon is weighted by the corresponding survival probability  $Q(t, T_i)$  
 Figure 4.2: Jarrow-Turnbull Model
 
 $$
-\begin{array}{l} \Pi^ {*} (t, \underline {{T}}; c) = \sum_ {i = 1} ^ {2 n} \frac {c ^ {*}}{2} P (t, T _ {i}) Q (t, T _ {i}) + P (t, T _ {2 n}) Q (t, T _ {2 n}) \\ + \sum_ {i = 1} ^ {2 n} R _ {i} P (t, T _ {i}) [ Q (t, T _ {i}) - Q (t, T _ {i - 1}) ] \\ \end{array}
+\begin{array}{l} \Pi^{*} (t, \underline {{T}}; c) = \sum_{i = 1}^{2 n} \frac{c^{*}}{2} P (t, T_{i}) Q (t, T_{i}) + P (t, T_{2 n}) Q (t, T_{2 n}) \\ + \sum_{i = 1}^{2 n} R_{i} P (t, T_{i}) [ Q (t, T_{i}) - Q (t, T_{i - 1}) ] \\ \end{array}
 $$ where  $\Pi^{*}$  and  $c^*$  are corporate bond price and coupon rate respectively, and (intensity  $\lambda$ ):
 
 
 $$
 
-Q (t, T _ {i}) = Q (t, T _ {i - 1}) e ^ {- \lambda_ {i} (T _ {i} - T _ {i - 1})}
+Q (t, T_{i}) = Q (t, T_{i - 1}) e^{- \lambda_{i} (T_{i} - T_{i - 1})}
 
 $$ and then the spread is:
 
 
-$$ s = y ^ {*} - y
+$$ s = y^{*} - y
 $$
 
 The notation is parallel to that of risk-free but with an asterisk in superscript. The yield of this bond is:
 
 $$
-\Pi^ {*} = 1 = \sum_ {i = 1} ^ {2 n} \frac {c ^ {*} / 2}{(1 + y ^ {*} / 2) ^ {i}} + \frac {1}{(1 + y ^ {*} / 2) ^ {n}}
+\Pi^{*} = 1 = \sum_{i = 1}^{2 n} \frac{c^{*} / 2}{(1 + y^{*} / 2)^{i}} + \frac{1}{(1 + y^{*} / 2)^{n}}
 $$
 
 $$
-\Pi = 1 = \sum_ {i = 1} ^ {2 n} \frac {c / 2}{(1 + y / 2) ^ {i}} + \frac {1}{(1 + y / 2) ^ {n}}
+\Pi = 1 = \sum_{i = 1}^{2 n} \frac{c / 2}{(1 + y / 2)^{i}} + \frac{1}{(1 + y / 2)^{n}}
 $$
 
 If the risk-free rate is flat and the default intensity is flat, and recovery is 0, then:
 
 $$
-P (t, T) = e ^ {- r (T - t)}
+P (t, T) = e^{- r (T - t)}
 $$
 
 $$
-Q (t, T) = e ^ {- \lambda (T - t)}
+Q (t, T) = e^{- \lambda (T - t)}
 $$ and  $\lambda$  is the spread.
 
 
@@ -253,13 +253,13 @@ Table 4.9: Par Spread Example
 
 $$
 
-\Pi^ {*} = \sum_ {i = 1} ^ {2 n} \frac {C _ {i}}{(1 + \frac {y + s _ {0}}{2}) ^ {i}}
+\Pi^{*} = \sum_{i = 1}^{2 n} \frac{C_{i}}{(1 + \frac{y + s_{0}}{2})^{i}}
 
 $$
 
 $$
 
-D ^ {*} = - \frac {d \Pi^ {*}}{d s} \frac {1}{\Pi^ {*}} = \frac {1}{\Pi^ {*}} \frac {1}{2 (1 + \frac {y + s _ {0}}{2})} \sum_ {i = 1} ^ {2 n} i \frac {c _ {i}}{(1 + \frac {y + s _ {0}}{2}) ^ {i}}
+D^{*} = - \frac{d \Pi^{*}}{d s} \frac{1}{\Pi^{*}} = \frac{1}{\Pi^{*}} \frac{1}{2 (1 + \frac{y + s_{0}}{2})} \sum_{i = 1}^{2 n} i \frac{c_{i}}{(1 + \frac{y + s_{0}}{2})^{i}}
 
 $$
 
@@ -288,7 +288,7 @@ The objective of a dealer is to choose the b/a spread which maximizes his/er exp
 
 $$
 
-\max p \mathbb {E} [ \max \{K _ {a} - S, 0 \} ] + (1 - p) \mathbb {E} [ \max \{S - K _ {b}, 0 \} ]
+\max p \mathbb {E} [ \max \{K_{a} - S, 0 \} ] + (1 - p) \mathbb {E} [ \max \{S - K_{b}, 0 \} ]
 
 $$ where  $p$  is the percentage of investors who seek to buy and  $1 - p$  is the percentage of investors who seek to sell. The former is a put option and the latter is a call option.
 
@@ -317,21 +317,21 @@ Chen (2014).
 Figure 4.5: Demand Squeeze
 
 $$
-\begin{array}{l} X ^ {*} (t) = e ^ {- r (T - t)} \left\{K N (- h _ {-}) - V (t) e ^ {\mu (T - t)} N (- h _ {+}) - \frac {e ^ {\mu (T - t)} - e ^ {r (T - t)}}{e ^ {\mu (T - t)} \left(e ^ {\sigma^ {2} (T - t)} - 1\right)} \times \right. \\ \frac {e ^ {\mu (T - t)}}{\left(e ^ {\mu^ {2} (T - t)}\right)} \left\{K [ N (h _ {-}) - N (h _ {+}) ] + V (t) e ^ {\mu (T - t)} \left[ N (- h _ {+}) - e ^ {\sigma^ {2} (T - t)} N (- h _ {+} - \sigma \sqrt {T - t}) \right] \right\} \\ \end{array}
+\begin{array}{l} X^{*} (t) = e^{- r (T - t)} \left\{K N (- h_{-}) - V (t) e^{\mu (T - t)} N (- h_{+}) - \frac{e^{\mu (T - t)} - e^{r (T - t)}}{e^{\mu (T - t)} \left(e^{\sigma^{2} (T - t)} - 1\right)} \times \right. \\ \frac{e^{\mu (T - t)}}{\left(e^{\mu^{2} (T - t)}\right)} \left\{K [ N (h_{-}) - N (h_{+}) ] + V (t) e^{\mu (T - t)} \left[ N (- h_{+}) - e^{\sigma^{2} (T - t)} N (- h_{+} - \sigma \sqrt{T - t}) \right] \right\} \\ \end{array}
 $$ where
 
 
-$$ h _ {\pm} = \frac {\ln V (t) - \ln K + (\mu \pm 1 / 2 \sigma^ {2}) (T - t)}{\sigma \sqrt {T - t}}
+$$ h_{\pm} = \frac{\ln V (t) - \ln K + (\mu \pm 1 / 2 \sigma^{2}) (T - t)}{\sigma \sqrt{T - t}}
 $$
 
 To compare, we present the liquid price (put option) as follows:
 
 $$
-X (t) = K e ^ {- r (T - t)} N (- d _ {-}) - V (t) N (- d _ {+})
+X (t) = K e^{- r (T - t)} N (- d_{-}) - V (t) N (- d_{+})
 $$ where
 
 
-$$ d _ {\pm} = \frac {\ln V (t) - \ln K + (r \pm 1 / 2 \sigma^ {2}) (T - t)}{\sigma \sqrt {T - t}}
+$$ d_{\pm} = \frac{\ln V (t) - \ln K + (r \pm 1 / 2 \sigma^{2}) (T - t)}{\sigma \sqrt{T - t}}
 $$
 
 # 4.6 Discount Margin
@@ -379,7 +379,7 @@ All coupon payments are unknown, with the exception of the first, and must be es
 The current price,  $P$ , equals the summation of the following fraction for all time periods from the beginning time period to maturity:
 
 $$
-P = \sum_ {i = 1} ^ {n} \frac {c (i)}{\left(1 + \frac {I (1) + \mathrm {D M}}{1 0 0} \frac {d (1) - d (s)}{3 6 0}\right) \prod_ {j = 2} ^ {i} \left(1 + \frac {I (j) + \mathrm {D M}}{1 0 0} \frac {d (j)}{3 6 0}\right)},
+P = \sum_{i = 1}^{n} \frac{c (i)}{\left(1 + \frac{I (1) + \mathrm{DM}}{1 0 0} \frac{d (1) - d (s)}{3 6 0}\right) \prod_{j = 2}^{i} \left(1 + \frac{I (j) + \mathrm{DM}}{1 0 0} \frac{d (j)}{3 6 0}\right)},
 $$
 
 It is easily seen that if  $I(i) = L(i)$  which is LIBOR, then  $c(i)$  could be  $(L(i) + s_0) \times 100$  and DM is very close to  $s_0$  which is LIBOR spread at current time 0.
@@ -426,7 +426,7 @@ Finally, we review the related risk measures to convexity. As we know, convexity
 
 Lets look at the Taylor's series expansion of equation (3.1) in Chapter 3:
 
-$$ d P = \frac {\partial P}{\partial \underline {{y}}} d \underline {{y}} + \frac {\partial^ {2} P}{\partial \underline {{y}} ^ {2}} d \underline {{y}} ^ {2} + \frac {\partial P}{\partial \underline {{v}}} d \underline {{v}} + \frac {\partial P}{\partial t} d t + o (d t)
+$$ d P = \frac{\partial P}{\partial \underline {{y}}} d \underline {{y}} + \frac{\partial^{2} P}{\partial \underline {{y}}^{2}} d \underline {{y}}^{2} + \frac{\partial P}{\partial \underline {{v}}} d \underline {{v}} + \frac{\partial P}{\partial t} d t + o (d t)
 $$ where  $\underline{y}$  represents the whole yield curve (i.e. vector of yields) and  $\underline{v}$  represents the whole volatility curve. The first term is clearly the effective duration (i.e. price impact on whole yield curve shift). The second term is the convexity on the whole yield curve. The last term is the vega which the price impact of the volatility curve shift.
 
 

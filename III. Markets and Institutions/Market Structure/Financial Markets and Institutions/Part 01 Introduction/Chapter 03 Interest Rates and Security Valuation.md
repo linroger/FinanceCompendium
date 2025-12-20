@@ -169,18 +169,18 @@ The interest rate an investor should receive on a security, given its risk.
 (CFs) on the security at an appropriate interest rate. (For easy reference to the notation used in this chapter, we list and define all variables used in this chapter at the end of the chapter.) The interest rate used to find the fair present value of a financial security is called the required rate of return  $(r)$ . This interest rate is a function of the various risks associated with a security (discussed in Chapter 2) and is thus the interest rate the investor should receive on the security given its risk (default risk, liquidity risk, etc.). The required rate of return is thus an ex ante (before the fact) measure of the interest rate on a security. The present value  $(PV)$  is determined by the following formula:
 
 $$
-P V = \frac {C F _ {1}}{(1 + r) ^ {1}} + \frac {C F _ {2}}{(1 + r) ^ {2}} + \frac {C F _ {3}}{(1 + r) ^ {3}} + \ldots + \frac {C F _ {n}}{(1 + r) ^ {n}} = \sum_ {t = 1} ^ {n} \frac {C F _ {t}}{(1 + r) ^ {t}}
+P V = \frac{C F_{1}}{(1 + r)^{1}} + \frac{C F_{2}}{(1 + r)^{2}} + \frac{C F_{3}}{(1 + r)^{3}} + \ldots + \frac{C F_{n}}{(1 + r)^{n}} = \sum_{t = 1}^{n} \frac{C F_{t}}{(1 + r)^{t}}
 $$ where
 
 
-$$ r = \text {R e q u i r e d}
+$$ r = \text{Re qu ir ed}
 $$
 
 $$
-C F _ {t} = \text {C a s h f l o w p r o j e c t e d i n p e r i o d} t (t = 1, \dots , n)
+C F_{t} = \text{Ca sh fl ow pr oj ec te di np er io d} t (t = 1, \dots , n)
 $$
 
-$$ n = \text {N u m b e r o f p e r i o d s i n t h e i n v e s t m e n t h o r i z o n}
+$$ n = \text{Nu mb er of pe ri od si nt he in ve st me nt ho ri zo n}
 $$
 
 Once a  $PV$  is calculated, market participants then compare this present value with the current market price  $(\overline{P})$  at which the security is trading in a financial market. If the current market price of the security  $(\overline{P})$  is less than its fair value  $(PV)$ , the security is currently undervalued. The market participant would want to buy more of this security at its current price. If the current market price of the security is greater than its present value, the security is overvalued. The market participant would not want to buy this security at its current price. If the present value of the security equals its current market price, the security is said to be fairly priced given its risk characteristics. In this case,  $PV$  equals  $\overline{P}$ .
@@ -196,7 +196,7 @@ $$
 A Walmart bond you purchased two years ago for \$890 is now selling for \$925. The bond paid \$100 per year in coupon interest on the last day of each year (the last payment made today). You intend to hold the bond for four more years and project that you will be able to sell it at the end of year 4 for \$960. You also project that the bond will continue paying 100 in interest per year. Given the risk associated with the bond, its required rate of return (r) over the next four years is 11.25 percent. Accordingly, the bond's fair present value is:
 
 $$
-\begin{array}{l} P V = \frac {1 0 0}{(1 + 0 . 1 1 2 5) ^ {1}} + \frac {1 0 0}{(1 + 0 . 1 1 2 5) ^ {2}} + \frac {1 0 0}{(1 + 0 . 1 1 2 5) ^ {3}} + \frac {1 0 0 + 9 6 0}{(1 + 0 . 1 1 2 5) ^ {4}} \\ = \$ 935.31 \\ \end{array}
+\begin{array}{l} P V = \frac{1 0 0}{(1 + 0 . 1 1 2 5)^{1}} + \frac{1 0 0}{(1 + 0 . 1 1 2 5)^{2}} + \frac{1 0 0}{(1 + 0 . 1 1 2 5)^{3}} + \frac{1 0 0 + 9 6 0}{(1 + 0 . 1 1 2 5)^{4}} \\ = \$ 935.31 \\ \end{array}
 $$
 
 Given the current selling price of the Walmart bond,  \$925, relative to the fair present value,\$ 935.31, this bond is currently undervalued.
@@ -218,7 +218,7 @@ TABLE 3-2 The Relation between Required Rate of Return and Expected Rate of Retu
 The expected rate of return is the discount rate in the present value equation that just makes the present value of projected cash flows equal to its current market price  $(\bar{P})^3$  That is:
 
 $$
-\bar {P} = \frac {C F _ {1}}{\left[ 1 + E (r) \right] ^ {1}} + \frac {C F _ {2}}{\left[ 1 + E (r) \right] ^ {2}} + \frac {C F _ {3}}{\left[ 1 + E (r) \right] ^ {3}} + \dots + \frac {C F _ {n}}{\left[ 1 + E (r) \right] ^ {n}}
+\bar {P} = \frac{C F_{1}}{\left[ 1 + E (r) \right]^{1}} + \frac{C F_{2}}{\left[ 1 + E (r) \right]^{2}} + \frac{C F_{3}}{\left[ 1 + E (r) \right]^{3}} + \dots + \frac{C F_{n}}{\left[ 1 + E (r) \right]^{n}}
 $$ where
 
 
@@ -248,7 +248,7 @@ Refer to information in Example 3-1 describing a Walmart bond you purchased two 
 
 $$
 
-\begin{array}{l} 9 2 5 = \frac {1 0 0}{[ 1 + E (r) ] ^ {1}} + \frac {1 0 0}{[ 1 + E (r) ] ^ {2}} + \frac {1 0 0}{[ 1 + E (r) ] ^ {3}} + \frac {1 0 0 + 9 6 0}{[ 1 + E (r) ] ^ {4}} \\ \Rightarrow E(r) = 11.607 \% \\ \end{array}
+\begin{array}{l} 9 2 5 = \frac{1 0 0}{[ 1 + E (r) ]^{1}} + \frac{1 0 0}{[ 1 + E (r) ]^{2}} + \frac{1 0 0}{[ 1 + E (r) ]^{3}} + \frac{1 0 0 + 9 6 0}{[ 1 + E (r) ]^{4}} \\ \Rightarrow E(r) = 11.607 \% \\ \end{array}
 
 $$
 
@@ -286,14 +286,14 @@ To calculate a realized rate of return  $(\bar{r})$ , all cash flows actually pa
 
 $$
 
-\bar {P} = \frac {R C F _ {1}}{(1 + \bar {r}) ^ {1}} + \frac {R C F _ {2}}{(1 + \bar {r}) ^ {2}} + \dots + \frac {R C F _ {n}}{(1 + \bar {r}) ^ {n}}
+\bar {P} = \frac{R C F_{1}}{(1 + \bar {r})^{1}} + \frac{R C F_{2}}{(1 + \bar {r})^{2}} + \dots + \frac{R C F_{n}}{(1 + \bar {r})^{n}}
 
 $$ where
 
 
 $$
 
-R C F _ {t} = \text {R e a l i z e d c a s h f l o w i n p e r i o d} t (t = 1, \dots , n)
+R C F_{t} = \text{Re al iz ed ca sh fl ow in pe ri od} t (t = 1, \dots , n)
 
 $$
 
@@ -339,7 +339,7 @@ Consider again the Walmart bond investment described in Examples 3-1 and 3-2. Us
 
 $$
 
-\begin{array}{l} 8 9 0 = \frac {1 0 0}{(1 + \bar {r}) ^ {1}} + \frac {1 0 0 + 9 2 5}{(1 + \bar {r}) ^ {2}} \\ \Rightarrow \bar{r} = 13.08\% \\ \end{array}
+\begin{array}{l} 8 9 0 = \frac{1 0 0}{(1 + \bar {r})^{1}} + \frac{1 0 0 + 9 2 5}{(1 + \bar {r})^{2}} \\ \Rightarrow \bar{r} = 13.08\% \\ \end{array}
 
 $$
 
@@ -365,43 +365,43 @@ Using time value of money formulas, and assuming that the bond issuer makes its 
 
 $$
 
-\begin{array}{l} V _ {b} = \frac {I N T / 2}{(1 + r _ {b} / 2) ^ {1}} + \frac {I N T / 2}{(1 + r _ {b} / 2) ^ {2}} + \ldots + \frac {I N T / 2}{(1 + r _ {b} / 2) ^ {2 T}} + \frac {M}{(1 + r _ {b} / 2) ^ {2 T}} \\ = \frac {I N T}{2} \sum_ {t = 1} ^ {2 T} \left(\frac {1}{1 + r _ {b} / 2}\right) ^ {t} + \frac {M}{(1 + r _ {b} / 2) ^ {2 T}} \\ = \frac {I N T}{(2)} \left[ \frac {1 - \frac {1}{\left(1 + r _ {b} / 2\right) ^ {2 T}}}{r _ {b} / 2} \right] + M \left[ \frac {1}{\left(1 + r _ {b} / 2\right) ^ {2 T}} \right] \\ \end{array}
+\begin{array}{l} V_{b} = \frac{I N T / 2}{(1 + r_{b} / 2)^{1}} + \frac{I N T / 2}{(1 + r_{b} / 2)^{2}} + \ldots + \frac{I N T / 2}{(1 + r_{b} / 2)^{2 T}} + \frac{M}{(1 + r_{b} / 2)^{2 T}} \\ = \frac{I N T}{2} \sum_{t = 1}^{2 T} \left(\frac{1}{1 + r_{b} / 2}\right)^{t} + \frac{M}{(1 + r_{b} / 2)^{2 T}} \\ = \frac{I N T}{(2)} \left[ \frac{1 - \frac{1}{\left(1 + r_{b} / 2\right)^{2 T}}}{r_{b} / 2} \right] + M \left[ \frac{1}{\left(1 + r_{b} / 2\right)^{2 T}} \right] \\ \end{array}
 
 $$ where
 
 
 $$
 
-V _ {b} = \text {P r e s e n t v a l u e o f t h e b o n d}
+V_{b} = \text{Pr es en tv al ue of th eb on d}
 
 $$
 
 $$
 
-M = \text {P a r o r f a c e v a l u e o f t h e b o n d}
+M = \text{Pa ro rf ac ev al ue of th eb on d}
 
 $$
 
 $$
 
-I N T = \text {A n n u a l i n t e r s t (o r c o u p o n)} \text {p a y m e n t o n t h e b o n d ; e q u a l s t h e p a r v a l u e o f t h e}
+I N T = \text{An nu al in te rs t (or co up on)} \text{pa ym en to nt he bo nd ;e qu al st he pa rv al ue of th e}
 
 $$
 
 $$
 
-T = \text {N u m b e r o f y e a r s u n t i l t h e b o n d m a t u r e s}
+T = \text{Nu mb er of ye ar su nt il th eb on dm at ur es}
 
 $$
 
-$$ r _ {b} = \text {A n n u a l i n t e r s t r a t e u s e d t o d i s c o u n t c a h f l o w s o n t h e b o n d}
+$$ r_{b} = \text{An nu al in te rs tr at eu se dt od is co un tc ah fl ow so nt he bo nd}
 $$
 
 5. Variable rate bonds pay interest that is indexed to some broad interest rate measure (such as Treasury bill rates) and thus experience variable coupon payments. Income bonds pay interest only if the issuer has sufficient earnings to make the promised payments. Index (or purchasing power) bonds pay interest based on an inflation index. Each of these types of bonds, therefore, can have variable interest payments.
 6. More generally, for bonds that pay interest other than semiannually:
 
 $$
-V _ {b} = \frac {I N T}{m} \left[ \frac {1 - \frac {1}{\left(1 + r _ {b} / m\right) ^ {m T}}}{r _ {b} / m} \right] + M \left[ \frac {1}{\left(1 + r _ {b} / m\right) ^ {m T}} \right]
+V_{b} = \frac{I N T}{m} \left[ \frac{1 - \frac{1}{\left(1 + r_{b} / m\right)^{m T}}}{r_{b} / m} \right] + M \left[ \frac{1}{\left(1 + r_{b} / m\right)^{m T}} \right]
 $$ where  $m =$  Number of times per year interest is paid.
 
 
@@ -419,7 +419,7 @@ You are considering the purchase of a  \$1,000 face value bond issued by ExxonMo
 
 $$
 
-\begin{array}{l} V _ {b} = \frac {1 , 0 0 0 (0 . 1 0)}{2} \left[ \frac {1 - \frac {1}{[ 1 + (0 . 0 8 / 2) ] ^ {2 (1 2)}}}{0 . 0 8 / 2} \right] + 1, 0 0 0 / [ 1 + (0. 0 8 / 2) ] ^ {2 (1 2)} \\ = 5 0 (1 5. 2 4 6 9 6) + 1, 0 0 0 (0. 3 9 0 1 2) = \$ 1, 1 5 2. 4 7 \\ \end{array}
+\begin{array}{l} V_{b} = \frac{1 , 0 0 0 (0 . 1 0)}{2} \left[ \frac{1 - \frac{1}{[ 1 + (0 . 0 8 / 2) ]^{2 (1 2)}}}{0 . 0 8 / 2} \right] + 1, 0 0 0 / [ 1 + (0. 0 8 / 2) ]^{2 (1 2)} \\ = 5 0 (1 5. 2 4 6 9 6) + 1, 0 0 0 (0. 3 9 0 1 2) = \$ 1, 1 5 2. 4 7 \\ \end{array}
 
 $$ or an investor would be willing to pay no more than 1,152.47 for this bond.
 
@@ -428,7 +428,7 @@ If the required rate of return on this bond is 10 percent, the market value of t
 
 $$
 
-\begin{array}{l} V _ {b} = \frac {1 , 0 0 0 (0 . 1 0)}{2} \left[ \frac {1 - \frac {1}{[ 1 + (0 . 1 0 / 2) ] ^ {2 (1 2)}}}{0 . 1 0 / 2} \right] + 1, 0 0 0 / [ 1 + (0. 1 0 / 2) ] ^ {2 (1 2)} \\ = 5 0 (1 3. 7 9 8 6 4) + 1, 0 0 0 (0. 3 1 0 0 7) = \$ 1, 0 0 0. 0 0 \\ \end{array}
+\begin{array}{l} V_{b} = \frac{1 , 0 0 0 (0 . 1 0)}{2} \left[ \frac{1 - \frac{1}{[ 1 + (0 . 1 0 / 2) ]^{2 (1 2)}}}{0 . 1 0 / 2} \right] + 1, 0 0 0 / [ 1 + (0. 1 0 / 2) ]^{2 (1 2)} \\ = 5 0 (1 3. 7 9 8 6 4) + 1, 0 0 0 (0. 3 1 0 0 7) = \$ 1, 0 0 0. 0 0 \\ \end{array}
 
 $$ or an investor would be willing to pay no more than 1,000.00 for this bond.
 
@@ -437,7 +437,7 @@ If the required rate of return on this bond is 12 percent, the market value of t
 
 $$
 
-\begin{array}{l} V _ {b} = \frac {1 , 0 0 0 (0 . 1 0)}{2} \left[ \frac {1 - \frac {1}{[ 1 + (0 . 1 2 / 2) ] ^ {2 (1 2)}}}{0 . 1 2 / 2} \right] + 1, 0 0 0 / [ 1 + (0. 1 2 / 2) ] ^ {2 (1 2)} \\ = 5 0 (1 2. 5 5 0 3 6) + 1, 0 0 0 (0. 2 4 6 9 8) = \$ 8 7 4. 5 0 \\ \end{array}
+\begin{array}{l} V_{b} = \frac{1 , 0 0 0 (0 . 1 0)}{2} \left[ \frac{1 - \frac{1}{[ 1 + (0 . 1 2 / 2) ]^{2 (1 2)}}}{0 . 1 2 / 2} \right] + 1, 0 0 0 / [ 1 + (0. 1 2 / 2) ]^{2 (1 2)} \\ = 5 0 (1 2. 5 5 0 3 6) + 1, 0 0 0 (0. 2 4 6 9 8) = \$ 8 7 4. 5 0 \\ \end{array}
 
 $$ or an investor would be willing to pay no more than 874.50 for this bond.
 
@@ -486,7 +486,7 @@ Rewriting the bond valuation formula, where  $V_{b}$  is the current market pric
 
 $$
 
-\begin{array}{l} V _ {b} = \frac {I N T / 2}{(1 + y t m / 2) ^ {1}} + \frac {I N T / 2}{(1 + y t m / 2) ^ {2}} + \dots + \frac {I N T / 2}{(1 + y t m / 2) ^ {2 T}} + \frac {M}{(1 + y t m / 2) ^ {2 T}} \\ = \frac {I N T}{2} \left[ \frac {1 - \frac {1}{(1 + y t m / 2) ^ {2 T}}}{y t m / 2} \right] + M [ 1 + (y t m / 2) ] ^ {2 T} \\ \end{array}
+\begin{array}{l} V_{b} = \frac{I N T / 2}{(1 + y t m / 2)^{1}} + \frac{I N T / 2}{(1 + y t m / 2)^{2}} + \dots + \frac{I N T / 2}{(1 + y t m / 2)^{2 T}} + \frac{M}{(1 + y t m / 2)^{2 T}} \\ = \frac{I N T}{2} \left[ \frac{1 - \frac{1}{(1 + y t m / 2)^{2 T}}}{y t m / 2} \right] + M [ 1 + (y t m / 2) ]^{2 T} \\ \end{array}
 
 $$
 
@@ -522,7 +522,7 @@ You are considering the purchase of a  \$1,000 face value bond that pays 11 perc
 
 $$
 
-9 3 1. 1 7 6 = \frac {1 , 0 0 0 (0 . 1 1)}{2} \left[ \frac {1 - \frac {1}{(1 + y t m / 2) ^ {2 (1 5)}}}{y t m / 2} \right] + 1, 0 0 0 / (1 + y t m / 2) ^ {2 (1 5)}
+9 3 1. 1 7 6 = \frac{1 , 0 0 0 (0 . 1 1)}{2} \left[ \frac{1 - \frac{1}{(1 + y t m / 2)^{2 (1 5)}}}{y t m / 2} \right] + 1, 0 0 0 / (1 + y t m / 2)^{2 (1 5)}
 
 $$
 
@@ -536,23 +536,23 @@ We begin by defining the variables we use to value an equity:
 
 $$
 
-D i v _ {t} = \text {D i v i d e n d p a i t o}
+D i v_{t} = \text{Di vi de nd pa it o}
 
 $$
 
 $$
 
-P _ {t} = \text {P r i c e o f a f i r m ' s c o m m o n g s t o k a t t h e e n d o f t h e y e a r} t
+P_{t} = \text{Pr ic eo fa fi rm 's co mm on gs to ka tt he en do ft he ye ar} t
 
 $$
 
 $$
 
-P _ {0} = \text {C u r r e n t p r i c e o f a f i r m s}
+P_{0} = \text{Cu rr en tp ri ce of af ir ms}
 
 $$
 
-$$ r _ {s} = \text {I n t e r s t r a t e}
+$$ r_{s} = \text{In te rs tr at e}
 $$
 
 As described above, time value of money equations can be used to evaluate a stock from several different perspectives. For example, the realized rate of return  $(\bar{r}_s)$  is the appropriate interest rate (discount rate) to apply to cash flows when evaluating the historical performance of an equity.
@@ -560,13 +560,13 @@ As described above, time value of money equations can be used to evaluate a stoc
 9. The yield to maturity is the nominal return on the bond. Its effective annual return is calculated as:
 
 $$
-E A R = (1 + y t m / 2) ^ {2} - 1 = (1 + 0.12 / 2) ^ {2} - 1 = 12.36 \%
+E A R = (1 + y t m / 2)^{2} - 1 = (1 + 0.12 / 2)^{2} - 1 = 12.36 \%
 $$
 
 10. Firms that pay no dividends can be valued using a firm's free cash flows (FCF) (cash flows available for distribution to investors after the company has made all the investments in fixed assets and working capital necessary to sustain ongoing operations) discounted at the weighted average cost of capital. Such that the value of the firm is equal to:
 
 $$
-V = \sum_ {t = 1} ^ {\infty} \frac {\mathrm {F C F} _ {\mathrm {t}}}{(1 + \mathrm {W A C C}) ^ {\mathrm {t}}} = \frac {F C F _ {t + 1}}{W A C C - g}
+V = \sum_{t = 1}^{\infty} \frac{\mathrm{FC F}_{\mathrm{t}}}{(1 + \mathrm{WA CC})^{\mathrm{t}}} = \frac{F C F_{t + 1}}{W A C C - g}
 $$
 
 The fair price of each share of stock would then be equal to  $V$  / number of shares of common stock outstanding.
@@ -584,13 +584,13 @@ $$
 Suppose you owned stock in General Monsanto for the last two years. You originally bought the stock two years ago for 25 \left( P_{-2} \right)  and just sold it for 35 \left( P_0 \right). The stock paid an annual dividend of 1(Div) on the last day of each of the past two years. Your realized rate of return on the General Monsanto stock investment can be calculated using the following time value of money equation:
 
 $$
-P _ {- 2} = D i v \left[ \frac {1 - \frac {1}{\left(1 + \bar {r} _ {s}\right) ^ {2}}}{\bar {r} _ {s}} \right] + P _ {0} / (1 + \bar {r} _ {s}) ^ {2}
+P_{- 2} = D i v \left[ \frac{1 - \frac{1}{\left(1 + \bar {r}_{s}\right)^{2}}}{\bar {r}_{s}} \right] + P_{0} / (1 + \bar {r}_{s})^{2}
 $$ or
 
 
 $$
 
-2 5 = 1 \left[ \frac {1 - \frac {1}{\left(1 + \bar {r} _ {s}\right) ^ {2}}}{\bar {r} _ {s}} \right] + 3 5 / \left(1 + \bar {r} _ {s}\right) ^ {2}
+2 5 = 1 \left[ \frac{1 - \frac{1}{\left(1 + \bar {r}_{s}\right)^{2}}}{\bar {r}_{s}} \right] + 3 5 / \left(1 + \bar {r}_{s}\right)^{2}
 
 $$
 
@@ -620,14 +620,14 @@ You are considering the purchase of stock in Hewlett-Packard (HP). You expect to
 
 $$
 
-P _ {0} = D i v \left[ \frac {1 - \frac {1}{\left[ 1 + E \left(r _ {s}\right) \right] ^ {3}}}{E \left(r _ {s}\right)} \right] + P _ {3} / \left[ 1 + E \left(r _ {s}\right) \right] ^ {3}
+P_{0} = D i v \left[ \frac{1 - \frac{1}{\left[ 1 + E \left(r_{s}\right) \right]^{3}}}{E \left(r_{s}\right)} \right] + P_{3} / \left[ 1 + E \left(r_{s}\right) \right]^{3}
 
 $$ or
 
 
 $$
 
-3 2 = 1. 5 0 \left[ \frac {1 - \frac {1}{\left[ 1 + E \left(r _ {s}\right) \right] ^ {3}}}{E \left(r _ {s}\right)} \right] + 4 5 / \left[ 1 + E \left(r _ {s}\right) \right] ^ {3}
+3 2 = 1. 5 0 \left[ \frac{1 - \frac{1}{\left[ 1 + E \left(r_{s}\right) \right]^{3}}}{E \left(r_{s}\right)} \right] + 4 5 / \left[ 1 + E \left(r_{s}\right) \right]^{3}
 
 $$
 
@@ -640,7 +640,7 @@ Present value methodology applies time value of money to evaluate a stock's cash
 
 $$
 
-P _ {0} = \frac {D i v _ {1}}{(1 + r _ {s}) ^ {1}} + \frac {D i v _ {2}}{(1 + r _ {s}) ^ {2}} + \dots + \frac {D i v _ {\infty}}{(1 + r _ {s}) ^ {\infty}}
+P_{0} = \frac{D i v_{1}}{(1 + r_{s})^{1}} + \frac{D i v_{2}}{(1 + r_{s})^{2}} + \dots + \frac{D i v_{\infty}}{(1 + r_{s})^{\infty}}
 
 $$
 
@@ -652,7 +652,7 @@ Zero growth in dividends means that dividends on a stock are expected to remain 
 
 $$
 
-P _ {0} = \frac {D i v _ {1}}{(1 + r _ {s}) ^ {1}} + \frac {D i v _ {2}}{(1 + r _ {s}) ^ {2}} + \ldots + \frac {D i v _ {\infty}}{(1 + r _ {s}) ^ {\infty}} = D i v \sum_ {t = 1} ^ {\infty} \left(\frac {1}{1 + r _ {s}}\right) ^ {t}
+P_{0} = \frac{D i v_{1}}{(1 + r_{s})^{1}} + \frac{D i v_{2}}{(1 + r_{s})^{2}} + \ldots + \frac{D i v_{\infty}}{(1 + r_{s})^{\infty}} = D i v \sum_{t = 1}^{\infty} \left(\frac{1}{1 + r_{s}}\right)^{t}
 
 $$ where
 
@@ -664,7 +664,7 @@ Div  $t =$  Value of dividends at time  $t = 1,2,\dots ,\infty$ or11
 
 $$
 
-P _ {0} = D i v / r _ {s}
+P_{0} = D i v / r_{s}
 
 $$
 
@@ -672,13 +672,13 @@ This formula can be generalized as follows:
 
 $$
 
-P _ {t} = D i v / r _ {s}
+P_{t} = D i v / r_{s}
 
 $$
 
 Companies that issue preferred stock usually pay investors dividends that exhibit zero growth through time. The value of a stock with zero growth in dividends is equal to the (current) dividend divided by the return on the stock. If the required rate of return  $(r_s)$  is applied to the formula, the price we solve for is the fair market price. If the expected return  $E(r_s)$  is applied to the formula, the price we solve for is the current market price. Furthermore, the formula can be rearranged to determine a return on the stock if it were purchased at a price,  $P_0$ .
 
-$$ r _ {s} = D i v / P _ {0}
+$$ r_{s} = D i v / P_{0}
 $$
 
 If the fair present value is applied to this formula, the return we solve for is the required rate of return  $(r_s)$ . If the current market price is applied to the formula, the return we solve for is the expected return  $E(r_s)$ . Recall from above, in efficient markets the required rate of return equals the expected rate of return. Thus, the current market price on a security equals its fair present value.
@@ -686,13 +686,13 @@ If the fair present value is applied to this formula, the return we solve for is
 11. Remember that, in the limit:
 
 $$
-\sum_ {t = 1} ^ {\infty} \left(\frac {1}{1 + x}\right) ^ {t} = \left(\frac {1}{1 + x}\right) ^ {1} + \left(\frac {1}{1 + x}\right) ^ {2} + \dots + \left(\frac {1}{1 + x}\right) ^ {\infty} = \frac {1}{x}
+\sum_{t = 1}^{\infty} \left(\frac{1}{1 + x}\right)^{t} = \left(\frac{1}{1 + x}\right)^{1} + \left(\frac{1}{1 + x}\right)^{2} + \dots + \left(\frac{1}{1 + x}\right)^{\infty} = \frac{1}{x}
 $$
 
 Thus:
 
 $$
-\sum_ {t = 1} ^ {\infty} \left(\frac {1}{1 + r _ {s}}\right) ^ {t} = \frac {1}{r _ {s}}
+\sum_{t = 1}^{\infty} \left(\frac{1}{1 + r_{s}}\right)^{t} = \frac{1}{r_{s}}
 $$
 
 # EXAMPLE 3-8 Calculation of Stock Price with Zero Growth in Dividends
@@ -700,7 +700,7 @@ $$
 A preferred stock you are evaluating is expected to pay a constant dividend of 5 per year each year into the future. The required rate of return, r_s, on the stock is 12 percent. The fair value (or price) of this stock is calculated as follows:
 
 $$
-P _ {0} = 5 / 0. 1 2 = \$ 4 1. 6 7
+P_{0} = 5 / 0. 1 2 = \$ 4 1. 6 7
 $$
 
 # Constant Growth in Dividends
@@ -708,13 +708,13 @@ $$
 Constant growth in dividends means that dividends on a stock are expected to grow at a constant rate,  $g$ , each year into the future. Thus,  $Div_{1} = Div_{0}(1 + g)^{1}$ ,  $Div_{2} = Div_{0}(1 + g)^{2}$ ,  $\ldots$ ,  $Div_{\infty} = Div_{0}(1 + g)^{\infty}$ . Accordingly, the equity valuation formula can now be written as follows:
 
 $$
-P _ {0} = \frac {D i v _ {0} (1 + g) ^ {1}}{(1 + r _ {s}) ^ {1}} + \frac {D i v _ {0} (1 + g) ^ {2}}{(1 + r _ {s}) ^ {2}} + \dots + \frac {D i v _ {0} (1 + g) ^ {\infty}}{(1 + r _ {s}) ^ {\infty}} = D i v _ {0} \sum_ {t = 1} ^ {\infty} \left[ \frac {(1 + g)}{(1 + r _ {s})} \right] ^ {t}
+P_{0} = \frac{D i v_{0} (1 + g)^{1}}{(1 + r_{s})^{1}} + \frac{D i v_{0} (1 + g)^{2}}{(1 + r_{s})^{2}} + \dots + \frac{D i v_{0} (1 + g)^{\infty}}{(1 + r_{s})^{\infty}} = D i v_{0} \sum_{t = 1}^{\infty} \left[ \frac{(1 + g)}{(1 + r_{s})} \right]^{t}
 $$ or12
 
 
 $$
 
-P _ {0} = \frac {D i v _ {0} (1 + g) ^ {1}}{r _ {s} - g} = \frac {D i v _ {1}}{r _ {s} - g}
+P_{0} = \frac{D i v_{0} (1 + g)^{1}}{r_{s} - g} = \frac{D i v_{1}}{r_{s} - g}
 
 $$
 
@@ -722,13 +722,13 @@ This formula can be generalized as follows:
 
 $$
 
-P _ {t} = \frac {\operatorname {D i v} _ {0} (1 + g) ^ {t + 1}}{r _ {s} - g} = \frac {\operatorname {D i v} _ {t + 1}}{r _ {s} - g}
+P_{t} = \frac{\operatorname{Di v}_{0} (1 + g)^{t + 1}}{r_{s} - g} = \frac{\operatorname{Di v}_{t + 1}}{r_{s} - g}
 
 $$
 
 If the required rate of return  $(r_s)$  is applied to the formula, the price we solve for is the fair present value. If the expected return,  $E(r_s)$ , is applied to the formula, the price we solve for is the current market price. The equity valuation formula can also be rearranged to determine a rate of return on the stock if it were purchased at a price  $P_0$ :
 
-$$ r _ {s} = \frac {D i v _ {0} (1 + g)}{P _ {0}} + g = \frac {D i v _ {1}}{P _ {0}} + g
+$$ r_{s} = \frac{D i v_{0} (1 + g)}{P_{0}} + g = \frac{D i v_{1}}{P_{0}} + g
 $$
 
 If the fair present value is applied to the formula, the return we solve for is the required rate of return  $(r_s)$ . If the current market price is applied to the formula, the return we solve for is the expected return  $E(r_s)$ .
@@ -740,13 +740,13 @@ You are evaluating JPMorgan Chase (JPM) stock. The stock paid a dividend at the 
 12. Remember that in the limit:
 
 $$
-\sum_ {t = 1} ^ {\infty} \left(\frac {1 + g}{1 + r _ {s}}\right) ^ {t} = \sum_ {t = 1} ^ {\infty} \left(\frac {1}{1 + \frac {r _ {s} - g}{1 + g}}\right) ^ {t} = \frac {1 + g}{r _ {s} - g}
+\sum_{t = 1}^{\infty} \left(\frac{1 + g}{1 + r_{s}}\right)^{t} = \sum_{t = 1}^{\infty} \left(\frac{1}{1 + \frac{r_{s} - g}{1 + g}}\right)^{t} = \frac{1 + g}{r_{s} - g}
 $$
 
 The required rate of return  $(r_s)$  on the stock is 10 percent. The fair present value (or price) of JPM stock is calculated as follows:
 
 $$
-P _ {0} = \frac {3 . 5 0 (1 + 0 . 0 2)}{0 . 1 0 - 0 . 0 2} = \$ 4 4. 6 2 5
+P_{0} = \frac{3 . 5 0 (1 + 0 . 0 2)}{0 . 1 0 - 0 . 0 2} = \$ 4 4. 6 2 5
 $$
 
 As an investor, you would be willing to pay no more than 44.625 for this stock.
@@ -756,7 +756,7 @@ As an investor, you would be willing to pay no more than 44.625 for this stock.
 You are evaluating Bank of America (BOA) stock. The stock paid a dividend at the end of last year of  \$4.80. Dividends have grown at a constant rate of 1.75 percent per year over the last 15 years, and this constant growth rate is expected to continue into the future. The stock is currently selling at a price of\$ 52 per share. The expected rate of return on BOA stock is calculated as follows:
 
 $$
-E \left(r _ {s}\right) = \frac {4 . 8 0 (1 + 0 . 0 1 7 5)}{5 2} + 0. 0 1 7 5 = 1 1. 1 4
+E \left(r_{s}\right) = \frac{4 . 8 0 (1 + 0 . 0 1 7 5)}{5 2} + 0. 0 1 7 5 = 1 1. 1 4
 $$
 
 # Supernormal (or Nonconstant) Growth in Dividends
@@ -789,13 +789,13 @@ Step 2: Find the present value of dividends after the period of supernormal grow
 a. Find stock value at beginning of constant growth period:
 
 $$
-P _ {5} = \frac {\text {D i v} _ {6}}{r _ {s} - g} = \frac {\text {D i v} _ {0} \left(1 + g _ {s}\right) ^ {5} (1 + g) ^ {1}}{r _ {s} - g} = \frac {4 (1 + 0 . 1) ^ {5} (1 + 0 . 0 4) ^ {1}}{0 . 1 5 - 0 . 0 4} = \$ 6 0. 9 0 6
+P_{5} = \frac{\text{Di v}_{6}}{r_{s} - g} = \frac{\text{Di v}_{0} \left(1 + g_{s}\right)^{5} (1 + g)^{1}}{r_{s} - g} = \frac{4 (1 + 0 . 1)^{5} (1 + 0 . 0 4)^{1}}{0 . 1 5 - 0 . 0 4} = \$ 6 0. 9 0 6
 $$ b. Find present value of constant growth dividends:
 
 
 $$
 
-P _ {0} = P _ {5} / (1 + 0. 1 5) ^ {5} = 6 0. 9 0 6 (0. 4 9 7 2) = \$ 3 0. 2 8 3
+P_{0} = P_{5} / (1 + 0. 1 5)^{5} = 6 0. 9 0 6 (0. 4 9 7 2) = \$ 3 0. 2 8 3
 
 $$
 
@@ -951,7 +951,7 @@ $CF_{1/2}$  is the  \$40 promised payment of (semiannual) coupon interest (\$ 1,
 
 $$
 
-\begin{array}{l} C F _ {1 / 2} = \$ 40 \quad P V _ {1 / 2} = \$ 40 / (1. 0 5) = \$ 3 8. 1 0 \\ C F _ {1} = \$ 1, 0 4 0 \quad P V _ {1} = \$ 1, 0 4 0 / (1. 0 5) ^ {2} = \$ 9 4 3. 3 1 \\ P V _ {1 / 2} + P V _ {1} = \$ 981.41 \\ \end{array}
+\begin{array}{l} C F_{1 / 2} = \$ 40 \quad P V_{1 / 2} = \$ 40 / (1. 0 5) = \$ 3 8. 1 0 \\ C F_{1} = \$ 1, 0 4 0 \quad P V_{1} = \$ 1, 0 4 0 / (1. 0 5)^{2} = \$ 9 4 3. 3 1 \\ P V_{1 / 2} + P V_{1} = \$ 981.41 \\ \end{array}
 
 $$
 
@@ -968,7 +968,7 @@ In present value terms, the bond holder receives 3.88 percent of the cash flows 
 
 $$
 
-X _ {1 / 2} + X _ {1} = 1
+X_{1 / 2} + X_{1} = 1
 
 $$
 
@@ -980,7 +980,7 @@ We can now calculate the duration  $(D)$ , or the weighted-average time to matur
 
 $$
 
-\begin{array}{l} D _ {L} = X _ {1 / 2} \times \left(t _ {1 / 2}\right) + X _ {1} \times \left(t _ {1}\right) \\ = 0. 0 3 8 8 \times \left(\frac {1}{2}\right) + 0. 9 6 1 2 \times (1) = 0. 9 8 0 6 \text {y e a r s} \\ \end{array}
+\begin{array}{l} D_{L} = X_{1 / 2} \times \left(t_{1 / 2}\right) + X_{1} \times \left(t_{1}\right) \\ = 0. 0 3 8 8 \times \left(\frac{1}{2}\right) + 0. 9 6 1 2 \times (1) = 0. 9 8 0 6 \text{ye ar s} \\ \end{array}
 
 $$
 
@@ -992,7 +992,7 @@ You can calculate the duration for any fixed-income security that pays interest 
 
 $$
 
-D = \frac {\sum_ {t = 1} ^ {N} \frac {C F _ {t} \times t}{(1 + r) ^ {t}}}{\sum_ {t = 1} ^ {N} \frac {C F _ {t}}{(1 + r) ^ {t}}} = \frac {\sum_ {t = 1} ^ {N} P V _ {t} \times t}{\sum_ {t = 1} ^ {N} P V _ {t}}
+D = \frac{\sum_{t = 1}^{N} \frac{C F_{t} \times t}{(1 + r)^{t}}}{\sum_{t = 1}^{N} \frac{C F_{t}}{(1 + r)^{t}}} = \frac{\sum_{t = 1}^{N} P V_{t} \times t}{\sum_{t = 1}^{N} P V_{t}}
 
 $$ where
 
@@ -1013,7 +1013,7 @@ For bonds that pay interest semiannually, the duration equation becomes:13
 
 $$
 
-D = \frac {\sum_ {t = 1 / 2} ^ {N} \frac {C F _ {t} \times t}{(1 + r / 2) ^ {2 t}}}{\sum_ {t = 1 / 2} ^ {N} \frac {C F _ {t}}{(1 + r / 2) ^ {2 t}}}
+D = \frac{\sum_{t = 1 / 2}^{N} \frac{C F_{t} \times t}{(1 + r / 2)^{2 t}}}{\sum_{t = 1 / 2}^{N} \frac{C F_{t}}{(1 + r / 2)^{2 t}}}
 
 $$ where  $t = \frac{1}{2}, 1, \frac{1}{2}, \dots, N$ .
 
@@ -1022,7 +1022,7 @@ Notice that the denominator of the duration equation is the present value of the
 13. In general, the duration equation is written as:
 
 $$
-D = \frac {\sum_ {t = 1 / m} ^ {N} \frac {C F _ {t} \times t}{(1 + r / m) ^ {m t}}}{\sum_ {t = 1 / m} ^ {N} \frac {C F _ {t}}{(1 + r / m) ^ {m t}}}
+D = \frac{\sum_{t = 1 / m}^{N} \frac{C F_{t} \times t}{(1 + r / m)^{m t}}}{\sum_{t = 1 / m}^{N} \frac{C F_{t}}{(1 + r / m)^{m t}}}
 $$ where  $m =$  number of times per year interest is paid.
 
 
@@ -1062,7 +1062,7 @@ The Duration of a Zero-Coupon Bond. Zero-coupon bonds sell at a discount from fa
 
 $$
 
-P = 1, 0 0 0 / (1 + r _ {b} / 2) ^ {2 T _ {Z C}}
+P = 1, 0 0 0 / (1 + r_{b} / 2)^{2 T_{Z C}}
 
 $$ where
 
@@ -1077,7 +1077,7 @@ Because the only cash flow received on these securities is the final payment at 
 
 $$
 
-D _ {z c} = T _ {z c}
+D_{z c} = T_{z c}
 
 $$
 
@@ -1089,13 +1089,13 @@ Suppose that you have a zero-coupon bond with a face value of 1,000, a maturity 
 
 $$
 
-\begin{array}{c c c c c} t & C F _ {4} & \frac {1}{(1 + 8 \% / 2) ^ {2 \times 4}} & \frac {C F _ {4}}{(1 + 8 \% / 2) ^ {2 \times 4}} & \frac {C F _ {4} \times 4}{(1 + 8 \% / 2) ^ {2 \times 4}} \\ \hline 4 & \$ 1,000 & 0.7307 & 730 & 2,923 \end{array}
+\begin{array}{c c c c c} t & C F_{4} & \frac{1}{(1 + 8 \% / 2)^{2 \times 4}} & \frac{C F_{4}}{(1 + 8 \% / 2)^{2 \times 4}} & \frac{C F_{4} \times 4}{(1 + 8 \% / 2)^{2 \times 4}} \\ \hline 4 & \$ 1,000 & 0.7307 & 730 & 2,923 \end{array}
 
 $$
 
 $$
 
-D = 2, 9 2 3 / 7 3 0 = 4 \text {y e a r s}
+D = 2, 9 2 3 / 7 3 0 = 4 \text{ye ar s}
 
 $$ or duration equals the maturity of the zero-coupon bond.
 
@@ -1148,7 +1148,7 @@ So far we have calculated duration for a number of different bonds. In addition 
 
 $$
 
-\frac {\Delta P / P}{\Delta r _ {b} / \left(1 + r _ {b}\right)} = - D
+\frac{\Delta P / P}{\Delta r_{b} / \left(1 + r_{b}\right)} = - D
 
 $$
 
@@ -1156,7 +1156,7 @@ For securities with semiannual receipt (compounding) of interest, it is represen
 
 $$
 
-\frac {\Delta P / P}{\Delta r _ {b} / (1 + r _ {b} / 2)} = - D
+\frac{\Delta P / P}{\Delta r_{b} / (1 + r_{b} / 2)} = - D
 
 $$
 
@@ -1166,27 +1166,27 @@ The definition of duration can be rearranged in another useful way for interpret
 
 $$
 
-\frac {\Delta P}{P} = - D \left[ \frac {\Delta r _ {b}}{1 + r _ {b}} \right]
+\frac{\Delta P}{P} = - D \left[ \frac{\Delta r_{b}}{1 + r_{b}} \right]
 
 $$ or
 
 
 $$
 
-\frac {\Delta P}{P} = - D \left[ \frac {\Delta r _ {b}}{1 + r _ {b} / 2} \right]
+\frac{\Delta P}{P} = - D \left[ \frac{\Delta r_{b}}{1 + r_{b} / 2} \right]
 
 $$ for annual and semiannual compounding of interest, respectively. This equation shows that for small changes in interest rates, bond prices move in an inversely proportional manner according to the size of  $D$ . Clearly, for any given change in interest rates, long duration securities suffer a larger capital loss (or receive a higher capital gain) should interest rates rise (fall) than do short duration securities.[16]
 
 The duration equation can be rearranged, combining  $D$  and  $(1 + r_b)$  into a single variable  $D / (1 + r_b)$ , to produce what practitioners call modified duration (MD). For annual compounding of interest:
 
 $$
-\frac {\Delta P}{P} = - M D \times \Delta r _ {b}
+\frac{\Delta P}{P} = - M D \times \Delta r_{b}
 $$ where
 
 
 $$
 
-M D = \frac {D}{1 + r _ {b}}
+M D = \frac{D}{1 + r_{b}}
 
 $$
 
@@ -1202,14 +1202,14 @@ For semiannual compounding of interest:
 
 $$
 
-\frac {\Delta P}{P} = - M D \times \Delta r _ {b}
+\frac{\Delta P}{P} = - M D \times \Delta r_{b}
 
 $$ where
 
 
 $$
 
-M D = \frac {D}{1 + r _ {b} / 2}
+M D = \frac{D}{1 + r_{b} / 2}
 
 $$
 
@@ -1221,7 +1221,7 @@ Consider a four-year bond with a 10 percent coupon paid semiannually (or 5 perce
 
 $$
 
-\begin{array}{l} \frac {\Delta P}{P} = - (3. 4 2) \left[ \frac {0 . 0 0 1}{1 . 0 4} \right] \\ = - 0. 0 0 3 2 9 \\ \end{array}
+\begin{array}{l} \frac{\Delta P}{P} = - (3. 4 2) \left[ \frac{0 . 0 0 1}{1 . 0 4} \right] \\ = - 0. 0 0 3 2 9 \\ \end{array}
 
 $$ or
 
@@ -1238,7 +1238,7 @@ With a lower coupon rate of 6 percent, as shown in Table 3-8, the bond's duratio
 
 $$
 
-\frac {\Delta P}{P} = - (3. 6 0) \left(\frac {0 . 0 0 1}{1 . 0 4}\right) = - 0. 0 0 3 4 6
+\frac{\Delta P}{P} = - (3. 6 0) \left(\frac{0 . 0 0 1}{1 . 0 4}\right) = - 0. 0 0 3 4 6
 
 $$ or
 
@@ -1277,13 +1277,13 @@ Specifically, duration predicts that the relationship between an interest rate c
 To see the importance of accounting for the effects of convexity in assessing the impact of large interest rate changes, consider the four-year,  \$1,000 face value bond with a 10 percent coupon paid semiannually and an 8 percent rate of return. In Table 3-8 we found this bond has a duration of 3.42 years, and its current price is\$ 1,067.34. We represent this as point A in Figure 3-8. If rates rise from 8 percent to 10 percent, the duration model predicts that the bond price will fall by 6.577 percent; that is:
 
 $$
-\frac {\Delta P}{P} = - 3.42 (0.02 / 1.04) = - 6.577 \%
+\frac{\Delta P}{P} = - 3.42 (0.02 / 1.04) = - 6.577 \%
 $$ or from a price of  $1,067.34 to$ 997.14 (see point B in Figure 3-8). However, using time value of money formulas to calculate the exact change in the bond's price after a rise in rates to 10 percent, we find its true value is:
 
 
 $$
 
-V _ {b} = 5 0 \left[ \frac {1 - \frac {1}{[ 1 + (0 . 1 0 / 2) ] ^ {2 ^ {(4)}}}}{0 . 1 0 / 2} \right] + 1, 0 0 0 / [ 1 + (0. 1 0 / 2) ] ^ {2 ^ {(4)}} = \$ 1, 0 0 0
+V_{b} = 5 0 \left[ \frac{1 - \frac{1}{[ 1 + (0 . 1 0 / 2) ]^{2^{(4)}}}}{0 . 1 0 / 2} \right] + 1, 0 0 0 / [ 1 + (0. 1 0 / 2) ]^{2^{(4)}} = \$ 1, 0 0 0
 
 $$
 
@@ -1312,7 +1312,7 @@ To illustrate the third characteristic, we can take the four-year, 10 percent co
 
 $$
 
-V _ {b} = \frac {5 0}{(1 + 0) ^ {1}} + \frac {5 0}{(1 + 0) ^ {2}} + \dots + \frac {1 , 0 5 0}{(1 + 0) ^ {8}} = \$ 1, 4 0 0
+V_{b} = \frac{5 0}{(1 + 0)^{1}} + \frac{5 0}{(1 + 0)^{2}} + \dots + \frac{1 , 0 5 0}{(1 + 0)^{8}} = \$ 1, 4 0 0
 
 $$
 
@@ -1320,7 +1320,7 @@ The price is just the simple undiscounted sum of the coupon values and the face 
 
 $$
 
-V _ {b} = \frac {5 0}{(1 + \infty) ^ {1}} + \frac {5 0}{(1 + \infty) ^ {2}} + \dots + \frac {1 , 0 5 0}{(1 + \infty) ^ {8}} = \$ 0
+V_{b} = \frac{5 0}{(1 + \infty)^{1}} + \frac{5 0}{(1 + \infty)^{2}} + \dots + \frac{1 , 0 5 0}{(1 + \infty)^{8}} = \$ 0
 
 $$
 

@@ -244,7 +244,7 @@ Employee's one-year return  $= \left( {{\\ }_{10},{044} - \$ 5,{175}}\right) /\$
 Assuming the employee's salary, tax rate, and 401(k) yield remain constant over a 20-year career, when the employee retires, the 401(k) will be worth:
 
 $$
-\$ 9,300 \left(\left[ (1 + 0.08) ^ {20} - 1 \right] / 0.08\right) = \$ 425,586
+\$ 9,300 \left(\left[ (1 + 0.08)^{20} - 1 \right] / 0.08\right) = \$ 425,586
 $$
 
 The employee's net of tax contributions over the period total  $\ 5,175 \times 20 = \$  103,500 .
@@ -313,19 +313,19 @@ The terminal value of the 401(k) plan, assuming all returns and contributions re
 # Option 1:
 
 $$
-\begin{array}{l} 1 2, 0 0 0 (0. 6) \left(\left[ (1 + 0. 1 0) ^ {3 0} - 1 \right] / 0. 1 0\right) + 1 2, 0 0 0 (0. 4) \left(\left[ (1 + 0. 0 6) ^ {3 0} - 1 \right] / 0. 0 6\right) \\ = \$ 1,563,836 \\ \end{array}
+\begin{array}{l} 1 2, 0 0 0 (0. 6) \left(\left[ (1 + 0. 1 0)^{3 0} - 1 \right] / 0. 1 0\right) + 1 2, 0 0 0 (0. 4) \left(\left[ (1 + 0. 0 6)^{3 0} - 1 \right] / 0. 0 6\right) \\ = \$ 1,563,836 \\ \end{array}
 $$
 
 # Option 2:
 
 $$
-\begin{array}{l} 1 2, 0 0 0 (0. 5) \left(\left[ (1 + 0. 1 0) ^ {3 0} - 1 \right] / 0. 1 0\right) + 1 2, 0 0 0 (0. 3) \left(\left[ (1 + 0. 0 6) ^ {3 0} - 1 \right] / 0. 0 6\right) \\ + 1 2, 0 0 0 (0. 2) \left[ \left(1 + 0. 0 4\right) ^ {3 0} - 1 \right] / 0. 0 4) = \$ 1, 4 0 6, 1 7 7 \\ \end{array}
+\begin{array}{l} 1 2, 0 0 0 (0. 5) \left(\left[ (1 + 0. 1 0)^{3 0} - 1 \right] / 0. 1 0\right) + 1 2, 0 0 0 (0. 3) \left(\left[ (1 + 0. 0 6)^{3 0} - 1 \right] / 0. 0 6\right) \\ + 1 2, 0 0 0 (0. 2) \left[ \left(1 + 0. 0 4\right)^{3 0} - 1 \right] / 0. 0 4) = \$ 1, 4 0 6, 1 7 7 \\ \end{array}
 $$
 
 # Option 3:
 
 $$
-\begin{array}{l} 1 2, 0 0 0 (0. 4) \left[ \left(1 + 0. 1 0\right) ^ {3 0} - 1 \right] / 0. 1 0) + 1 2, 0 0 0 (0. 5) \left[ \left(1 + 0. 0 6\right) ^ {3 0} - 1 \right] / 0. 0 6) \\ + 1 2, 0 0 0 (0. 1) \left[ \left[ (1 + 0. 0 4) ^ {3 0} - 1 \right] / 0. 0 4 \right] = \$ 1, 3 3 1, 2 2 2 \\ \end{array}
+\begin{array}{l} 1 2, 0 0 0 (0. 4) \left[ \left(1 + 0. 1 0\right)^{3 0} - 1 \right] / 0. 1 0) + 1 2, 0 0 0 (0. 5) \left[ \left(1 + 0. 0 6\right)^{3 0} - 1 \right] / 0. 0 6) \\ + 1 2, 0 0 0 (0. 1) \left[ \left[ (1 + 0. 0 4)^{3 0} - 1 \right] / 0. 0 4 \right] = \$ 1, 3 3 1, 2 2 2 \\ \end{array}
 $$
 
 Notice that Option 1, which includes the largest investment in equities, produces the largest terminal value for the  $401(\mathrm{k})$  plan, while Option 3, with the smallest investment in equities, produces the smallest terminal value. However, as discussed in Chapter 3, equity investments are riskier than bond and money market investments. Thus, the larger the portion of funds invested in equities, the higher the return risk of the pension plan—that is, the more uncertain the final (terminal) value of the plan. For example, suppose the economy slumped and equity investments earned only a 3 percent annual return over the 30 years the employee worked. In this case, the terminal value of the  $401(\mathrm{k})$  plan would be:
@@ -333,19 +333,19 @@ Notice that Option 1, which includes the largest investment in equities, produce
 # Option 1:
 
 $$
-\begin{array}{l} 1 2, 0 0 0 (0. 6) \left(\left[ (1 + 0. 0 3) ^ {3 0} - 1 \right] / 0. 0 3\right) + 1 2, 0 0 0 (0. 4) \left(\left[ (1 + 0. 0 6) ^ {3 0} - 1 \right] / 0. 0 6\right) \\ = \$ 7 2 2, 0 2 2 \\ \end{array}
+\begin{array}{l} 1 2, 0 0 0 (0. 6) \left(\left[ (1 + 0. 0 3)^{3 0} - 1 \right] / 0. 0 3\right) + 1 2, 0 0 0 (0. 4) \left(\left[ (1 + 0. 0 6)^{3 0} - 1 \right] / 0. 0 6\right) \\ = \$ 7 2 2, 0 2 2 \\ \end{array}
 $$
 
 # Option 2:
 
 $$
-\begin{array}{l} 1 2, 0 0 0 (0. 5) \left[ \left(1 + 0. 0 3\right) ^ {3 0} - 1 \right] / 0. 0 3) + 1 2, 0 0 0 (0. 3) \left[ \left(1 + 0. 0 6\right) ^ {3 0} - 1 \right] / 0. 0 6) \\ + 1 2, 0 0 0 (0. 2) \left[ \left(1 + 0. 0 4\right) ^ {3 0} - 1 \right] / 0. 0 4) = \$ 7 0 4, 6 6 6 \\ \end{array}
+\begin{array}{l} 1 2, 0 0 0 (0. 5) \left[ \left(1 + 0. 0 3\right)^{3 0} - 1 \right] / 0. 0 3) + 1 2, 0 0 0 (0. 3) \left[ \left(1 + 0. 0 6\right)^{3 0} - 1 \right] / 0. 0 6) \\ + 1 2, 0 0 0 (0. 2) \left[ \left(1 + 0. 0 4\right)^{3 0} - 1 \right] / 0. 0 4) = \$ 7 0 4, 6 6 6 \\ \end{array}
 $$
 
 # Option 3:
 
 $$
-\begin{array}{l} 1 2, 0 0 0 (0. 4) \left[ \left(1 + 0. 0 3\right) ^ {3 0} - 1 \right] / 0. 0 3) + 1 2, 0 0 0 (0. 5) \left[ \left(1 + 0. 0 6\right) ^ {3 0} - 1 \right] / 0. 0 6) \\ + 1 2, 0 0 0 (0. 1) \left[ \left(1 + 0. 0 4\right) ^ {3 0} - 1 \right] / 0. 0 4) = \$ 7 7 0, 0 1 3 \\ \end{array}
+\begin{array}{l} 1 2, 0 0 0 (0. 4) \left[ \left(1 + 0. 0 3\right)^{3 0} - 1 \right] / 0. 0 3) + 1 2, 0 0 0 (0. 5) \left[ \left(1 + 0. 0 6\right)^{3 0} - 1 \right] / 0. 0 6) \\ + 1 2, 0 0 0 (0. 1) \left[ \left(1 + 0. 0 4\right)^{3 0} - 1 \right] / 0. 0 4) = \$ 7 7 0, 0 1 3 \\ \end{array}
 $$
 
 In this case, Option 3, which involves the smallest investment in risky equities, produces the largest terminal value for the  $401(\mathrm{k})$  plan.

@@ -157,13 +157,13 @@ fails to exist if the spot riskless rate at  $t = 1$  is  $15\%$ . The reason is
 Consider alternative (i). Suppose the interest rate at  $t = 1$  is  $5\%$  and you assume that Knight Apparel will choose S. Then the interest rate,  $i_{s}$ , that you should charge the borrower in order to just break even on the loan is obtained as a solution to the following equation:
 
 $$
-0. 9 \times \left(1 + i _ {s}\right) = 1. 0 5 \tag {10.1}
+0. 9 \times \left(1 + i_{s}\right) = 1. 0 5 \tag {10.1}
 $$
 
 where 0.9 is the probability that you will be repaid by Knight Apparel. Solving Equation (10.1) gives  $i_{\mathrm{s}} = 16.67\%$ . If Knight Apparel chooses S, its expected payoff at  $t = 2$  is
 
 $$
-0. 9 \times (1 5 0 - 1 1 6. 6 7) = \$ 3 0 \text {a p p r o x i m a t e l y}.
+0. 9 \times (1 5 0 - 1 1 6. 6 7) = \$ 3 0 \text{ap pr ox im at el y}.
 $$
 
 On the other hand, if Knight Apparel chooses R, its expected payoff at  $t = 2$  is
@@ -179,13 +179,13 @@ Thus, Knight Apparel will prefer S to R, and it is a Nash equilibrium for you to
 Now suppose the interest rate at  $t = 1$  is  $15\%$ . If you assume that Knight Apparel will choose S, then you should charge an interest rate,  $i_{s}^{\prime}$ , that solves the following equation
 
 $$
-0. 9 \times \left(1 + i _ {s} ^ {\prime}\right) = 1. 1 5 \tag {10.2}
+0. 9 \times \left(1 + i_{s}^{\prime}\right) = 1. 1 5 \tag {10.2}
 $$
 
 Solving Equation (10.2) yields  $i_{\mathrm{S}}' = 27.78\%$ . If Knight Apparel does indeed choose S, its expected payoff at  $t = 2$  will be
 
 $$
-0. 9 \times (1 5 0 - 1 2 7. 7 8) = \$ 2 0 \text {a p p r o x i m a t e l y}.
+0. 9 \times (1 5 0 - 1 2 7. 7 8) = \$ 2 0 \text{ap pr ox im at el y}.
 $$
 
 On the other hand, if Knight Apparel chooses R, its expected payoff at  $t = 2$  will be
@@ -197,7 +197,7 @@ $$
 Clearly, Knight Apparel will prefer R to S, and it is not a Nash equilibrium for you to offer the loan at  $27.78\%$ . But suppose you assume that Knight Apparel will choose R. Then, the interest rate,  $i_{R}^{\prime}$ , that you should charge solves
 
 $$
-0. 7 \left(1 + i _ {R} ^ {\prime}\right) = 1. 1 5,
+0. 7 \left(1 + i_{R}^{\prime}\right) = 1. 1 5,
 $$
 
 which yields  $i_{\mathrm{R}}' = 64.29\%$ . However, at this interest rate Knight Apparel will not borrow since its repayment obligation would exceed the maximum cash flow of the project.
@@ -227,7 +227,7 @@ $$
 Since the probability of the  $15\%$  interest rate is 0.5 and we must discount from  $t = 2$  back to  $t = 1$  (at  $15\%$ ) and from  $t = 1$  back to  $t = 0$  (at the  $10\%$  riskless rate prevailing at  $t = 0$ ), we have the following present value at  $t = 0$  of the bank's expected loss at  $t = 2$ :
 
 $$
-\frac {0 . 5 \times \$ 9 . 9 9}{1 . 1 5 \times 1 . 1 0} = \$ 3. 9 5
+\frac{0 . 5 \times \$ 9 . 9 9}{1 . 1 5 \times 1 . 1 0} = \$ 3. 9 5
 $$
 
 Thus, the commitment fee that the bank should charge Knight Apparel is \(3.95, given a zero expected profit on the loan and the loan commitment. It is important to note that Knight Apparel pays the commitment fee at \(t = 0\), so that when it confronts its project choice at \(t = 1\) it treats this fee as a sunk cost and its project choice is not affected by it.
@@ -237,13 +237,13 @@ Thus, the commitment fee that the bank should charge Knight Apparel is \(3.95, g
 We can compute the overall benefit from the loan commitment by comparing Knight Apparel's NPV under arrangements (i) and (ii). Under (i), since borrowing only takes place when the spot riskless rate at  $t = 1$  is  $5\%$ , Knight Apparel's NPV is
 
 $$
-\frac {0 . 5 \times \$ 3 0 . 0 0}{1 . 0 5 \times 1 . 1 0} = \$ 1 2. 9 9
+\frac{0 . 5 \times \$ 3 0 . 0 0}{1 . 0 5 \times 1 . 1 0} = \$ 1 2. 9 9
 $$
 
 where you will recall that  \$30 is Knight Apparel's net expected payoff at t = 2 when it chooses S and is obliged to repay the bank\$ 116.67 (an interest rate of 16.67%). Under (ii), the expected NPV is
 
 $$
-\begin{aligned} & \frac {0.5 \times \$ 30.00}{1.05 \times 1.10} + \frac {0.5 \times \$ 30.00}{1.05 \times 1.10} - \\ & (\text {riskless rate at} \\ & t = 1 \text {is 5 percent}) \\ & = \$ 20.90 \end{aligned} (\text {riskless rate at} \\ & t = 1 \text {is 5 \%}) \quad (\text {commitment fee})
+\begin{aligned} & \frac{0.5 \times \$ 30.00}{1.05 \times 1.10} + \frac{0.5 \times \$ 30.00}{1.05 \times 1.10} - \\ & (\text{risklessrateat} \\ & t = 1 \text{is5 percent}) \\ & = \$ 20.90 \end{aligned} (\text{risklessrateat} \\ & t = 1 \text{is5 \%}) \quad (\text{commitmentfee})
 $$
 
 Thus, Knight Apparel experiences a net gain of \$7.91 (which is $20.90–$12.99) by purchasing the loan commitment. Note that this improvement is the net of the commitment fee.
@@ -280,13 +280,13 @@ We solve this problem in five steps. First, we consider the spot credit alternat
 Let us first consider the spot credit alternative. Since the project has a success probability of 0.9 (regardless of θ) and the riskless rate is 5%, we know from Example 10.1 that the competitive loan interest rate is 16.67%. Thus, the repayment obligation of the \$100 spot loan will be \$116.67%. If the trade creditors assume that NBM will invest in the project regardless of θ, then the interest rate on trade credit should also be 16.67%, that is, the firm's repayment obligation should be $20 × 1.1667 = $23.33. The total repayment obligation is then $116.67 + $23.33 = \$140. But then if θ = B, its NPV is
 
 $$
-\frac {0 . 9 (0)}{1 . 0 5} - \$ 1 = - \$ 1
+\frac{0 . 9 (0)}{1 . 0 5} - \$ 1 = - \$ 1
 $$
 
 where we have subtracted the decision maker's personal cost of  \$1 in computing the NPV. Note that the zero in the numerator of the first term in the left-hand side of the above equation reflects limited liability (without which the zero would be replaced by 130 - 140 = -\$  10). Thus, the firm will not undertake the project if it observes  $\theta = \mathbb{B}$ . If  $\theta = \mathbb{G}$  is observed at  $t = 1$ , then the firm's NPV is
 
 $$
-\frac {0 . 9 (\$ 2 5 0 - \$ 1 4 0)}{1 . 0 5} - 1 = \$ 5 0. 4 3
+\frac{0 . 9 (\$ 2 5 0 - \$ 1 4 0)}{1 . 0 5} - 1 = \$ 5 0. 4 3
 $$
 
 so that the project will be undertaken.
@@ -296,13 +296,13 @@ so that the project will be undertaken.
 This means that it cannot be a Nash equilibrium for the trade creditors or the bank to believe that NBM will undertake the project regardless of  $\theta$ . Suppose they assume that the project will be undertaken only if  $\theta = G$ . Then, since the probability of the project being undertaken is only 0.5, the interest rate  $i_t$ , charged for trade credit (with spot borrowing of the \$100 investment) must satisfy
 
 $$
-0. 5 \times 0. 9 \times \left(1 + i _ {t}\right) = 1. 0 5,
+0. 5 \times 0. 9 \times \left(1 + i_{t}\right) = 1. 0 5,
 $$
 
 which yields  $i_t = 133.33\%$ . NBM's repayment obligation to the trade creditors is therefore  $\\(20 \times 2.3333 = \$ 46.67 \). Its total repayment obligation now becomes  $\\(116.67 + \$ 46.67 = \$163.34 \). If  $\theta = G$  occurs, NBM's NPV is
 
 $$
-\frac {0 . 9 (\$ 2 0 0 - \$ 1 6 3 . 3 4)}{1 . 0 5} - 1 = \$ 3 0. 4 2,
+\frac{0 . 9 (\$ 2 0 0 - \$ 1 6 3 . 3 4)}{1 . 0 5} - 1 = \$ 3 0. 4 2,
 $$
 
 so that the project will be undertaken in that state. However, the project will not be undertaken if \(\theta = \mathbb{B}\). Hence, the beliefs of the trade creditors about NBM's future behavior are consistent (rationalized by NBM's behavior), and it is a Nash equilibrium for them to offer trade credit at an interest rate of \(133.33\%\). Note that the NPV to NBM from the spot borrowing alternative, computed at \(t = 0\) (prior to the realization of \(\theta\)) is \(0.5 \times 30.42 = \\)15.21\), since the firm knows that it will invest only if \(\theta = G\).
@@ -320,7 +320,7 @@ To verify that we have a Nash equilibrium with the loan commitment, we also need
 The NPV for NBM, assessed at  $t = 0$ , is
 
 $$
-\frac {0 . 5 [ 0 . 9 \times (\$ 2 0 0 - \$ 1 0 5 - \$ 2 3 . 3 3) ]}{1 . 0 5} + \frac {0 . 5 [ 0 . 9 \times (\$ 1 3 0 - \$ 1 0 5 - \$ 2 3 . 3 3) ]}{1 . 0 5} - 1 0 - 1 = \$ 2 0. 4 3.
+\frac{0 . 5 [ 0 . 9 \times (\$ 2 0 0 - \$ 1 0 5 - \$ 2 3 . 3 3) ]}{1 . 0 5} + \frac{0 . 5 [ 0 . 9 \times (\$ 1 3 0 - \$ 1 0 5 - \$ 2 3 . 3 3) ]}{1 . 0 5} - 1 0 - 1 = \$ 2 0. 4 3.
 $$
 
 Since this exceeds NBM's NPV with spot borrowing ( \$15.21), we have a Nash equilibrium with NBM purchasing a loan commitment at \( t = 0\$  to borrow  $\$ 100 \) at  $5\%$ , and suppliers extending trade credit at  $16.67\%$ .
@@ -332,13 +332,13 @@ In this case, the loan commitment reduces the firm's overall cost of credit. Rec
 The underinvestment problem arises because the project has a positive NPV to NBM (and a positive total NPV) in state  $\theta = B$  only if the project's cost is just the \$100 investment. In this case, the total NPV of the project is
 
 $$
-\frac {0 . 9 \times \$ 1 3 0}{1 . 0 5} - \$ 1 0 0 - \$ 1 = \$ 1 0. 4 3,
+\frac{0 . 9 \times \$ 1 3 0}{1 . 0 5} - \$ 1 0 0 - \$ 1 = \$ 1 0. 4 3,
 $$
 
 so that the loan commitment helps to avoid a real underinvestment problem. This conclusion is appropriate if we view the \$20 worth of raw materials as a purchase that NBM would make even if the project were not available, that is, the raw materials do not add to the cost of the project. But if we interpret that \$20 as adding to the cost of the project (i.e., these raw materials would not be purchased if the project were unavailable), then the total NPV of the project is
 
 $$
-\frac {0 . 9 \times \$ 1 3 0}{1 . 0 5} - \$ 1 0 0 - \$ 2 0 - \$ 1 = - \$ 9. 5 7.
+\frac{0 . 9 \times \$ 1 3 0}{1 . 0 5} - \$ 1 0 0 - \$ 2 0 - \$ 1 = - \$ 9. 5 7.
 $$
 
 In this case the project is socially inefficient in the  $\theta = \mathrm{B}$  state, so that the loan commitment (which still results in the project being undertaken when  $\theta = \mathrm{B}$ ) does not resolve an underinvestment problem in the usual sense. $^{16}$  Indeed, it ends up inducing an overinvestment $^{17}$  by NBM that makes it better off ex ante. In this case, the role played by the loan commitment $^{18}$  is quite different from that played by collateral in our discussions in Chapter 7.
@@ -398,19 +398,19 @@ The probability of  $i_1^+$  is  $p$  and the probability of  $i_1^-$  is  $1 - 
 At  $t = 1$ , suppose the spot yield on the borrower's debt is  $i_1^-$ . Then it is clear that the borrower has no incentive to take down the loan commitment since cheaper credit is available in the spot market. But if the spot yield is  $i_1^+$ , then the borrower will take down the commitment since the commitment rate is  $i_c < i_1^+$ . The value of the borrower's debt at  $t = 1$  in this state is:
 
 $$
-\frac {F \left[ 1 + i _ {\mathrm {c}} \right]}{\left[ 1 + i _ {1} ^ {+} \right]} \tag {10.3}
+\frac{F \left[ 1 + i_{\mathrm{c}} \right]}{\left[ 1 + i_{1}^{+} \right]} \tag {10.3}
 $$
 
 where  $F[1 + i_{\mathrm{c}}]$  is the borrower's future repayment obligation at  $t = 2$ , which is discounted back to  $t = 1$  at the spot yield  $i_1^+$ . Note that the borrower is receiving  $\\(F$  from the bank when it takes down the loan, and in exchange the bank is receiving a debt security worth the amount given by (10.3). That is, the borrower is selling the bank a debt security worth  $F[1 + i_{\mathrm{c}}] / [1 + i_1^+]$  for  $\$ F \) when it exercises its loan commitment put option. The gain to the borrower from exercising the put option is:
 
 $$
-F - \frac {F \left[ 1 + i _ {\mathrm {c}} \right]}{\left[ 1 + i _ {1} ^ {+} \right]} \tag {10.4}
+F - \frac{F \left[ 1 + i_{\mathrm{c}} \right]}{\left[ 1 + i_{1}^{+} \right]} \tag {10.4}
 $$
 
 The value of the loan commitment to the borrower at  $t = 0$  is then:
 
 $$
-\frac {p \left\{F - \frac {F \left[ 1 + i _ {\mathrm {c}} \right]}{\left[ 1 + i _ {1} ^ {*} \right]} \right\}}{\left[ 1 + i _ {0} \right]}
+\frac{p \left\{F - \frac{F \left[ 1 + i_{\mathrm{c}} \right]}{\left[ 1 + i_{1}^{*} \right]} \right\}}{\left[ 1 + i_{0} \right]}
 $$
 
 where the expression in Equation (10.4) is multiplied with the probability of the yield  $i_1^+$  and is discounted back to  $t = 0$  at the riskless rate  $i_0$  (since everybody is risk neutral).
@@ -545,7 +545,7 @@ There are two common types of currency swaps: traditional fixed/fixed currency s
 - Caps: A cap is a swap contract in which the interest payments themselves have option characteristics. That is, the exercise (strike) price is set at particular interest rate levels. For example, suppose party A goes to a swap broker and buys a cap based on the 3-month LIBOR from a "cap writer" (party B), who represents the other party to the contract. Party A pays a premium (the price of the options) to the swap broker who subtracts his fee and passes along the remainder to party B. Now, party B is obliged to periodically (on each reset date) pay party A an amount equal to:
 
 $$
-\text {n o t i o n a l p r i n c i p a l} \times \max  \{0, 3 - \text {m o n t h s p o t L I B O R} - \text {s t i k e r a t e} \},
+\text{no ti on al pr in ci pa l} \times \max  \{0, 3 - \text{mo nt hs po tL IB OR} - \text{st ik er at e} \},
 $$
 
 where  $\max(x, y)$  means the greater of  $x$  and  $y$ . Suppose the strike rate is  $10\%$ . Then if the 3-month spot LIBOR is  $12\%$ , party B must pay party A an amount equal to  $2\%$  of the notional principal, whereas if the 3-month spot LIBOR is  $9\%$ , party B pays nothing on the reset date. Thus, a cap is simply a sequence of consecutive expiration options. These options can be viewed as call options on the specified interest rate or put options on the underlying security. When rates rise, the security's price falls and the option becomes more valuable. As with a standard common stock option, the value of a cap (and hence the initial option premium) increases as the interest rate rises.
