@@ -513,7 +513,7 @@ We will show very soon that complete sufficiency implies minimal sufficiency, ex
 Example 4.4. Consider  $Y_{1},\ldots ,Y_{n}$  to be i.i.d.  $\sim \mathrm{Unif}\left[\theta -\frac{1}{2},\theta +\frac{1}{2}\right]$ , for some  $\theta \in \mathbb{R}$ . Then, as shown earlier,  $T(Y) = (Y_{(1)},Y_{(n)})$  is minimal sufficient. However,  $T$  is not complete sufficient because if  $h(T) = Y_{(n)} - Y_{(1)}$ , then  $h(T)\mid \theta \sim \mathrm{Beta}(n - 1,2)$ . This means that
 
 $$
-\mathbf {E} _ {\theta} \left[ h (T) - \frac {n - 1}{n + 1} \right] = 0,
+\mathbf{E}_{\theta} \left[ h (T) - \frac{n - 1}{n + 1} \right] = 0,
 $$
 
 so  $T$  is not complete sufficient.

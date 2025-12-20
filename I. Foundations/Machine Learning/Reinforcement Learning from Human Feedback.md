@@ -1561,13 +1561,13 @@ $$
 This function  $S$  returns a vector of indices, where each index corresponds to the column with the maximum reward for each row in  $R$ . We can then use these indices to select our chosen completions:
 
 $$
-Y _ {c h o s e n} = \left[ y _ {1, S (R) _ {1}}, y _ {2, S (R) _ {2}}, \dots , y _ {M, S (R) _ {M}} \right]
+Y_{chosen} = \left[ y_{1,S(R)_{1}}, y_{2,S(R)_{2}}, \dots, y_{M,S(R)_{M}} \right]
 $$
 
 10.1.2.2 Top Overall Prompts Alternatively, we can select the top K prompt-completion pairs from the entire set. First, let's flatten our reward matrix R into a single vector:
 
 $$
-R _ {f l a t} = \left[ r _ {1, 1}, r _ {1, 2}, \dots , r _ {1, N}, r _ {2, 1}, r _ {2, 2}, \dots , r _ {2, N}, \dots , r _ {M, 1}, r _ {M, 2}, \dots , r _ {M, N} \right]
+R_{flat} = \left[ r_{1,1}, r_{1,2}, \dots, r_{1,N}, r_{2,1}, r_{2,2}, \dots, r_{2,N}, \dots, r_{M,1}, r_{M,2}, \dots, r_{M,N} \right]
 $$
 
 This  $R_{flat}$  vector has length  $M \times N$ , where M is the number of prompts and N is the number of completions per prompt.

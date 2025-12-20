@@ -740,7 +740,7 @@ Order statistics generalize properties like the minimum, maximum, median, and qu
 Definition 7.6 (Order statistics). Given a joint family of random variables  $X_{1},\ldots ,X_{n}$ , we call their  $k$ -th order statistic  $X_{(k)}$  a variable reflecting to the  $k$ -th smallest of the values. In other words, the order statistics together are a rearrangement of the variables in increasing order:
 
 $$
-X _ {(1)} \leq X _ {(2)} \leq \dots \leq X _ {(n)}.
+X_{(1)} \leq X_{(2)} \leq \dots \leq X_{(n)}.
 $$
 
 Order statistics tend to be of general use in many cases. For example, insurance companies will often care about the worst of several events, and the probability of that happening.<sup>8</sup> We will first consider a case of interest: when  $X_{i}$  are i.i.d. exponential r.v.s.
@@ -748,7 +748,7 @@ Order statistics tend to be of general use in many cases. For example, insurance
 Proposition 7.7 (Rényi representation). If  $X_{1},\ldots ,X_{n}$  are i.i.d.  $\sim$  Expo, then their order statistics are jointly distributed as
 
 $$
-X _ {(1)} \sim \frac {1}{n} Y _ {1},
+X_{(1)} \sim \frac{1}{n} Y_{1},
 $$
 
 $$

@@ -325,13 +325,13 @@ $$
 so that
 
 $$
-Y _ {t} = Y _ {0} + \mu \int_ {0} ^ {t} e ^ {\gamma s} (\gamma s + 1) d s + \sigma \int_ {0} ^ {t} e ^ {\gamma s} d W _ {s} \tag {14}
+Y_{t} = Y_{0} + \mu \int_{0}^{t} e^{\gamma s} (\gamma s + 1) d s + \sigma \int_{0}^{t} e^{\gamma s} d W_{s} \tag{14}
 $$
 
 or alternatively (after simplifying the Riemann integral in (14))
 
 $$
-X _ {t} = X _ {0} e ^ {- \gamma t} + \mu t + \sigma e ^ {- \gamma t} \int_ {0} ^ {t} e ^ {\gamma s} d W _ {s}. \tag {15}
+X_{t} = X_{0} e^{- \gamma t} + \mu t + \sigma e^{- \gamma t} \int_{0}^{t} e^{\gamma s} d W_{s}. \tag{15}
 $$
 
 Once again, note that  $X_{t}$  does not appear on the right-hand-side of (15) so that we have indeed solved the SDE. We also obtain  $\operatorname{E}[X_t] = X_0 e^{-\gamma t} + \mu t$  and
