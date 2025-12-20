@@ -1832,7 +1832,7 @@ The baseline is a value used to reduce variance of policy updates (more on this 
 For language models, some of these concepts do not make as much sense. For example, we know that for a deterministic policy the value function is defined as  $V(s) = \max_{a} Q(s, a)$  or for a stochastic policy as  $V(s) = \mathbb{E}_{a \sim \pi(a|s)}[Q(s, a)]$ . If we define  $s + a$  as the continuation  $a$  to the prompt  $s$ , then  $Q(s, a) = V(s + a)$ , which gives a different advantage trick:
 
 $$
-A (s, a) = Q (s, a) - V (s) = V (s + a) - V (s) = r + \gamma V (s + a) - V (s) \tag {43}
+A(s, a) = Q(s, a) - V(s) = V(s + a) - V(s) = r + \gamma V(s + a) - V(s) \tag{43}
 $$
 
 Which is a combination of the reward, the value of the prompt, and the discounted value of the entire utterance.
@@ -1842,7 +1842,7 @@ Which is a combination of the reward, the value of the prompt, and the discounte
 The vanilla policy gradient implementation optimizes the above expression for  $J(\theta)$  by differentiating with respect to the policy parameters. A simple version, with respect to the overall return, is:
 
 $$
-\nabla_ {\theta} J (\theta) = \mathbb {E} _ {\tau} \left[ \sum_ {t = 0} ^ {T} \nabla_ {\theta} \log \pi_ {\theta} \left(a _ {t} \mid s _ {t}\right) R _ {t} \right] \tag {44}
+\nabla_{\theta} J(\theta) = \mathbb{E}_{\tau} \left[ \sum_{t=0}^{T} \nabla_{\theta} \log \pi_{\theta} \left(a_{t} \mid s_{t}\right) R_{t} \right] \tag{44}
 $$
 
 A common problem with vanilla policy gradient algorithms is the high variance in gradient updates, which can be mitigated in multiple ways. The high variance comes from the gradient updates being computed from estimating the return  $G$  from an often small set of rollouts in the environment that tend to be susceptible to noise (e.g. the stochastic nature of generating from language models with temperature  $> 0$ ), especially with sparse rewards. In order to alleviate this, various techniques are used to normalize the value estimation, called baselines. Baselines accomplish this in multiple ways, effectively normalizing by the value of the state relative to the downstream action (e.g. in the case of Advantage, which is the difference between the Q value and the value). The simplest baselines are averages over the batch of rewards or a moving average. Even these baselines can de-bias the gradients so  $\mathbb{E}_{a\sim \pi (a|s)}[\nabla_{\theta}\log \pi_{\theta}(a|s)] = 0$ , improving the learning signal substantially.
@@ -1850,7 +1850,7 @@ A common problem with vanilla policy gradient algorithms is the high variance in
 Many of the policy gradient algorithms discussed in this chapter build on the advantage formulation of policy gradient:
 
 $$
-\nabla_ {\theta} J (\theta) = \mathbb {E} _ {\tau} \left[ \sum_ {t = 0} ^ {T} \nabla_ {\theta} \log \pi_ {\theta} \left(a _ {t} \mid s _ {t}\right) A ^ {\pi_ {\theta}} \left(s _ {t}, a _ {t}\right) \right] \tag {45}
+\nabla_{\theta} J(\theta) = \mathbb{E}_{\tau} \left[ \sum_{t=0}^{T} \nabla_{\theta} \log \pi_{\theta} \left(a_{t} \mid s_{t}\right) A^{\pi_{\theta}} \left(s_{t}, a_{t}\right) \right] \tag{45}
 $$
 
 # 11.1.2 REINFORCE
@@ -1868,19 +1868,19 @@ The three components of this are how to do the reward increment, a.k.a. the poli
 Thus, the form looks quite familiar:
 
 $$
-\Delta_ {\theta} = \alpha (r - b) e \tag {46}
+\Delta_{\theta} = \alpha (r - b) e \tag{46}
 $$
 
 With more modern notation and the generalized return  $G$ , the REINFORCE operator appears as:
 
 $$
-\nabla_ {\theta} J (\theta) = \mathbb {E} _ {\tau \sim \pi_ {\theta}} \left[ \sum_ {t = 0} ^ {T} \nabla_ {\theta} \log \pi_ {\theta} \left(a _ {t} \mid s _ {t}\right) \left(G _ {t} - b \left(s _ {t}\right)\right) \right], \tag {47}
+\nabla_{\theta} J(\theta) = \mathbb{E}_{\tau \sim \pi_{\theta}} \left[ \sum_{t=0}^{T} \nabla_{\theta} \log \pi_{\theta} \left(a_{t} \mid s_{t}\right) \left(G_{t} - b \left(s_{t}\right)\right) \right], \tag{47}
 $$
 
 Here, the value  $G_{t} - b(s_{t})$  is the advantage of the policy at the current state, so we can reformulate the policy gradient in a form that we continue later with the advantage,  $A$ :
 
 $$
-\nabla_ {\theta} J (\theta) = \mathbb {E} _ {\tau \sim \pi_ {\theta}} \left[ \sum_ {t = 0} ^ {T} \nabla_ {\theta} \log \pi_ {\theta} \left(a _ {t} \mid s _ {t}\right) A _ {t} \right], \tag {48}
+\nabla_{\theta} J(\theta) = \mathbb{E}_{\tau \sim \pi_{\theta}} \left[ \sum_{t=0}^{T} \nabla_{\theta} \log \pi_{\theta} \left(a_{t} \mid s_{t}\right) A_{t} \right], \tag{48}
 $$
 
 REINFORCE is a specific implementation of vanilla policy gradient that uses a Monte Carlo estimator of the gradient.

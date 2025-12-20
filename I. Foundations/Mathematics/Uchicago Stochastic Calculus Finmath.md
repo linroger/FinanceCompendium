@@ -526,7 +526,7 @@ $$
 where the bet  $B_{1} = 1$  and for  $j > 1$
 
 $$
-B_{j} = 2^{j - 1} \mathrm{if} X_{1} = X_{2} = \dots = X_{j - 1} = - 1,
+B_{j} = 2^{j - 1} \text{if} X_{1} = X_{2} = \dots = X_{j - 1} = - 1,
 $$
 
 and otherwise  $B_{j} = 0$ . This is an example of a discrete stochastic integral as in the previous example, and hence, we know that  $W_{n}$  must be a martingale. In particular, for each  $n$ ,  $\mathbb{E}[W_n] = 0$ . We can check this directly by noting that  $W_{n} = 1$  unless  $X_{1} = X_{2} = \dots = X_{n} = -1$  in which case
@@ -4005,7 +4005,7 @@ Suppose that  $f$  is defined only on an interval  $I = (a, b)$  and  $B_0 \in I
 Let
 
 $$
-T_{\epsilon} = \inf \{t: B_{t} \leq a + \epsilon \mathrm{or} B_{t} \geq b - \epsilon \}, \quad T = T_{0}.
+T_{\epsilon} = \inf \{t: B_{t} \leq a + \epsilon \text{or} B_{t} \geq b - \epsilon \}, \quad T = T_{0}.
 $$
 
 We can apply Ito's formula to conclude for all  $t$  and all  $\epsilon > 0$ .
@@ -5755,7 +5755,7 @@ $$
 Then  $P_{X}\ll \mu$  and we can write
 
 $$
-P_{X} (A) = \int_{A} \frac{d P_{X}}{d \mu} d \mu \quad \mathrm{where} \quad \frac{d P_{X}}{d \mu} = f.
+P_{X} (A) = \int_{A} \frac{d P_{X}}{d \mu} d \mu \quad \text{where} \quad \frac{d P_{X}}{d \mu} = f.
 $$
 
 If  $f(x) > 0$  for all  $x$ , then  $P_X(A) > 0$  whenever  $\mu(A) > 0$  and hence  $\mu \ll P_X$ . If  $Y$  is another continuous random variable with density  $g$ , let
@@ -7646,7 +7646,7 @@ In the Poisson process, the process jumps from  $x$  to  $x + 1$  at rate  $\lam
 - Let  $N_{t}$  denote the corresponding Poisson process as in the previous section,
 
 $$
-N_{t} = n \quad \mathrm{if} \quad T_{1} + \dots + T_{n} \leq t <   T_{1} + \dots + T_{n + 1}.
+N_{t} = n \quad \text{if} \quad T_{1} + \dots + T_{n} \leq t <   T_{1} + \dots + T_{n + 1}.
 $$
 
 - Let  $Y_{1}, Y_{2}, Y_{3}, \ldots$  be independent random variables, independent of  $T_{1}, T_{2}, \ldots$ , with distribution function  $F$ , and let
@@ -8066,7 +8066,7 @@ This expression uses the fact  $M_{t} = M_{t - }$  for all rational  $t$ . Using
 We now assume that  $A_{t}$  is adapted, left-continuous, and uniformly bounded, that is, with probability one,  $|A_{t}| \leq C$  for all  $t$ . Define  $A_{t}^{n}$  by
 
 $$
-A_{t}^{n} = A_{j / n} \quad \mathrm{if} \quad \frac{j}{n} <   t \leq \frac{j + 1}{n}.
+A_{t}^{n} = A_{j / n} \quad \text{if} \quad \frac{j}{n} <   t \leq \frac{j + 1}{n}.
 $$
 
 Left-continuity implies that with probability one for all  $t$

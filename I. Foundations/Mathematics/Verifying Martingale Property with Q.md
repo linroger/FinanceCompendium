@@ -199,19 +199,19 @@ $$
 For a particular history  $\omega$  of the stock, each  $Z_{i}(\omega)$  will take on the definite value of either  $I$  or  $-I$ . Applying the Taylor series above to
 
 $$
-x = \frac {\mu}{n} + \frac {\sigma Z _ {i} (\omega)}{\sqrt {n}}
+x = \frac{\mu}{n} + \frac{\sigma Z_i(\omega)}{\sqrt{n}}
 $$
 
 for each  $i$  results in:
 
 $$
-\begin{array}{l} l n S _ {k} ^ {(n)} (\omega) = l n S _ {0} + \sum_ {i = 1} ^ {k} \left[ \frac {\mu}{n} + \frac {\sigma Z _ {i} (\omega)}{\sqrt {n}} - \frac {1}{2} \left(\frac {\mu}{n} + \frac {\sigma Z _ {i} (\omega)}{\sqrt {n}}\right) ^ {2} + \frac {1}{3} \left(\frac {\mu}{n} + \frac {\sigma Z _ {i} (\omega)}{\sqrt {n}}\right) ^ {3} - \dots \right] \\ = l n S _ {0} + \mu \frac {k}{n} + \sigma \sum_ {i = 1} ^ {k} \frac {Z _ {i} (\omega)}{\sqrt {n}} - \frac {\sigma^ {2}}{2 n} \sum_ {i = 1} ^ {k} \left(Z _ {i} (\omega)\right) ^ {2} + e r r o r t e r m s. \\ \end{array}
+\begin{array}{l} \ln S_k^{(n)} (\omega) = \ln S_0 + \sum_{i = 1}^{k} \left[ \frac{\mu}{n} + \frac{\sigma Z_i(\omega)}{\sqrt{n}} - \frac{1}{2} \left(\frac{\mu}{n} + \frac{\sigma Z_i(\omega)}{\sqrt{n}}\right)^2 + \frac{1}{3} \left(\frac{\mu}{n} + \frac{\sigma Z_i(\omega)}{\sqrt{n}}\right)^3 - \dots \right] \\ = \ln S_0 + \mu \frac{k}{n} + \sigma \sum_{i = 1}^{k} \frac{Z_i(\omega)}{\sqrt{n}} - \frac{\sigma^2}{2n} \sum_{i = 1}^{k} \left(Z_i(\omega)\right)^2 + error\,terms. \\ \end{array}
 $$
 
 Since  $Z_{i}(\omega)$  is always 1 or -1, then  $(Z_{i}(\omega))^{2} = 1$ . So, we have:
 
 $$
-l n S _ {k} ^ {(n)} (\omega) = l n S _ {0} + \left(\mu - \frac {\sigma^ {2}}{2}\right) \frac {k}{n} + \sigma \sum_ {i = 1} ^ {k} \frac {Z _ {i} (\omega)}{\sqrt {n}} + e r r o r t e r m s.
+\ln S_k^{(n)} (\omega) = \ln S_0 + \left(\mu - \frac{\sigma^2}{2}\right) \frac{k}{n} + \sigma \sum_{i = 1}^{k} \frac{Z_i(\omega)}{\sqrt{n}} + error\,terms.
 $$
 
 Similar to the derivation of Brownian motion from the discrete model, pick a particular time  $t$  on the continuous time axis. Choose the integer  $k$  so that  $k / n \leq t$  and  $k / n$  best approximates  $t$ . As before,  $|k / n - t| \leq 1 / n$ , and so  $k / n \to t$  as  $n \to \infty$ . It is also not hard to show that the error terms are bounded by  $C(t, \mu, \sigma) / \sqrt{n}$  where  $C(t, \mu, \sigma)$  is a value independent of  $n$ . Thus, the error
@@ -219,19 +219,19 @@ Similar to the derivation of Brownian motion from the discrete model, pick a par
 terms approach 0 as  $n \to \infty$ . We showed in the derivation of Brownian motion from the discrete model that  $\sum_{i=1}^{k} \frac{Z_i(\omega)}{\sqrt{n}}$  converges to  $Z_t(\omega)$  where  $Z_t$  is standard Brownian motion. These observations show  $\ln S_k^{(n)}(\omega)$  converges to
 
 $$
-l n S _ {0} + \left(\mu - \frac {\sigma^ {2}}{2}\right) t + \sigma Z _ {t} (\omega)
+\ln S_0 + \left(\mu - \frac{\sigma^2}{2}\right) t + \sigma Z_t(\omega)
 $$
 
 as  $n\to \infty$  . Exponentiating, we have  $S_{k}^{(n)}(\omega)$  converges to
 
 $$
-S _ {0} e ^ {\left(\mu - \frac {\sigma^ {2}}{2}\right) t + \sigma Z _ {t} (\omega)}.
+S_0 e^{\left(\mu - \frac{\sigma^2}{2}\right) t + \sigma Z_t(\omega)}.
 $$
 
 Let's label this resulting continuous stochastic process as  $S_{t}(\omega)$ . Since this result holds for all possible histories  $\omega$  in the sample space, then
 
 $$
-S _ {t} = S _ {0} e ^ {\left(\mu - \frac {\sigma^ {2}}{2}\right) t + \sigma Z _ {t}}.
+S_t = S_0 e^{\left(\mu - \frac{\sigma^2}{2}\right) t + \sigma Z_t}.
 $$
 
 # Verification of the Tower Property
@@ -239,13 +239,13 @@ $$
 First, we state the Tower Property: Suppose  $X_{t}$  is a stochastic process with an adapted filtration  $\{\mathcal{F}_{t}\}$ . If  $s \leq t$ , then for any  $T \geq t$ , we have
 
 $$
-E \big [ E \big [ X _ {T} | \mathcal {F} _ {t} \big ] | \mathcal {F} _ {s} \big ] = E \big [ X _ {T} | \mathcal {F} _ {s} \big ].
+E \big [ E \big [ X_T | \mathcal{F}_t \big ] | \mathcal{F}_s \big ] = E \big [ X_T | \mathcal{F}_s \big ].
 $$
 
 To verify this property for the case that the filtrations are finite, consider the following more general theorem. Suppose  $\mathcal{G}$  and  $\mathcal{F}$  are  $\sigma$ -algebras with  $\mathcal{G} \subseteq \mathcal{F}$ , and  $X$  is a random variable with respect to the  $\sigma$ -algebra with  $\mathcal{F}$ . Then, the following expectation result holds:
 
 $$
-E \left[ X | \mathcal {G} \right] = E \left[ E \left[ X | \mathcal {F} \right] | \mathcal {G} \right].
+E \left[ X | \mathcal{G} \right] = E \left[ E \left[ X | \mathcal{F} \right] | \mathcal{G} \right].
 $$
 
 Observe that the tower property follows from this result by choosing  $\mathcal{G} = \mathcal{F}_s$  and  $\mathcal{F} = \mathcal{F}_t$ . We are going to prove this more general statement for the case that the  $\sigma$ -algebras are finite.
@@ -257,37 +257,37 @@ Verification of the theorem: Since we are assuming the  $\sigma$ -algebra  $\mat
 sets. Since  $\mathcal{G} \subseteq \mathcal{F}$  and  $\mathcal{F}$  is finite, then we can further decompose each set  $G_{\mathrm{i}}$  into disjoint sets  $F_{\mathrm{ij}}$  for  $j = 1, \ldots, n_{\mathrm{i}}$  so that
 
 $$
-G _ {i} = \bigcup_ {j = 1} ^ {n _ {i}} F _ {i j}
+G_i = \bigcup_{j = 1}^{n_i} F_{ij}
 $$
 
 and  $\mathcal{F}$  consists of the sets  $F_{\mathrm{ij}}$  and all of the possible unions of these sets. To find  $E[X|\mathcal{G}]$  means to calculate  $E[X|G_{\mathrm{i}}]$  for each  $i$ . Suppose  $p(x)$  denotes the probability that the random variable  $X = x$ . Then, by definition,
 
 $$
-E [ X | G _ {i} ] = \frac {\sum_ {x \in G _ {i}} x p (x)}{\sum_ {x \in G _ {i}} p (x)}.
+E [ X | G_i ] = \frac{\sum_{x \in G_i} x p(x)}{\sum_{x \in G_i} p(x)}.
 $$
 
 To find  $E[X|\mathcal{F}]$  means to calculate  $E[X|F_{\mathrm{ij}}]$  for each  $i$  and  $j$ . By definition,
 
 $$
-E \left[ X \mid F _ {i j} \right] = \frac {\sum_ {x \in F _ {i j}} x p (x)}{\sum_ {x \in F _ {i j}} p (x)}.
+E \left[ X \mid F_{ij} \right] = \frac{\sum_{x \in F_{ij}} x p(x)}{\sum_{x \in F_{ij}} p(x)}.
 $$
 
 To find  $E[E[X|\mathcal{F}]|\mathcal{G}]$  means to calculate  $E[E[X|\mathcal{F}]|G_i]$  for each  $i$ .  $E[X|\mathcal{F}]$  is a random variable that takes on the values  $E[X|F_{ij}]$  with probability  $\sum_{x\in F_{ij}}p(x)$ . Thus:
 
 $$
-\begin{array}{l} E \left[ E [ X | \mathcal {F} ] | G _ {i} \right] = \frac {\sum_ {j = 1} ^ {n _ {i}} E \left[ X \mid F _ {i j} \right] (\sum_ {x \in F _ {i j}} p (x))}{\sum_ {x \in G _ {i}} p (x)} \\ = \frac {\sum_ {j = 1} ^ {n _ {i}} \left[ \frac {\sum_ {x \in F _ {i j}} x p (x)}{\sum_ {x \in F _ {i j}} p (x)} \right] (\sum_ {x \in F _ {i j}} p (x))}{\sum_ {x \in G _ {i}} p (x)} = \frac {\sum_ {j = 1} ^ {n _ {i}} \sum_ {x \in F _ {i j}} x p (x)}{\sum_ {x \in G _ {i}} p (x)} \\ \end{array}
+\begin{array}{l} E \left[ E [ X | \mathcal{F} ] | G_i \right] = \frac{\sum_{j = 1}^{n_i} E \left[ X \mid F_{ij} \right] (\sum_{x \in F_{ij}} p(x))}{\sum_{x \in G_i} p(x)} \\ = \frac{\sum_{j = 1}^{n_i} \left[ \frac{\sum_{x \in F_{ij}} x p(x)}{\sum_{x \in F_{ij}} p(x)} \right] (\sum_{x \in F_{ij}} p(x))}{\sum_{x \in G_i} p(x)} = \frac{\sum_{j = 1}^{n_i} \sum_{x \in F_{ij}} x p(x)}{\sum_{x \in G_i} p(x)} \\ \end{array}
 $$
 
 Since the sets  $F_{\mathrm{ij}}$  are disjoint from one another and  $\bigcup_{j=1}^{n_i} F_{ij} = G_i$ , then
 
 $$
-\sum_ {j = 1} ^ {n _ {i}} \sum_ {x \in F _ {i j}} x p (x) = \sum_ {x \in G _ {i}} x p (x).
+\sum_{j = 1}^{n_i} \sum_{x \in F_{ij}} x p(x) = \sum_{x \in G_i} x p(x).
 $$
 
 We conclude that
 
 $$
-E [ E [ X | \mathcal {F} ] | \mathcal {G} ] = \frac {\sum_ {x \in G _ {i}} x p (x)}{\sum_ {x \in G _ {i}} p (x)} = E [ X | G _ {i} ]
+E [ E [ X | \mathcal{F} ] | \mathcal{G} ] = \frac{\sum_{x \in G_i} x p(x)}{\sum_{x \in G_i} p(x)} = E [ X | G_i ]
 $$
 
 as we wished to prove.

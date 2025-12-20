@@ -1028,7 +1028,7 @@ $$
 We will now cover some common convergence from analysis. Oftentimes in many branches of mathematics, we want to ask questions of the following commutative form: can I swap two operators in an expression? Oftentimes we draw this as a commutative square. In this case, we're concerned with the commutative square shown below:
 
 $$
-\begin{array}{c} \{X _ {j} \} \xrightarrow {\underset {j \to \infty} {\lim}} X \\ \mathbf {E} \Big \downarrow \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \Big \downarrow^ {\mathbf {E}} \\ \{\mathbf {E} [ X _ {j} ] \} \xrightarrow {\underset {j \to \infty} {\lim}} \mathbf {E} [ X ]. \end{array}
+\begin{array}{c} \{X_{j}\} \xrightarrow{\underset{j \to \infty}{\lim}} X \\ \mathbf{E} \Big \downarrow \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \Big \downarrow^{\mathbf{E}} \\ \{\mathbf{E}[X_{j}]\} \xrightarrow{\underset{j \to \infty}{\lim}} \mathbf{E}[X]. \end{array}
 $$
 
 In other words, when does  $\lim_{j\to \infty}\mathbf{E}[X_j] = \mathbf{E}[\lim_{j\to \infty}X_j]$ ? It turns out that this intuitive statement holds most of the time, but there are counterexamples where it fails to hold.
@@ -1036,7 +1036,7 @@ In other words, when does  $\lim_{j\to \infty}\mathbf{E}[X_j] = \mathbf{E}[\lim_
 Example 10.5 (Failure of convergence). Consider the sequence of discrete random variables  $X_{n}$  where  $X_{n}$  is  $n^2$  with probability  $1 / n^2$  and 0 otherwise. By the Borel-Cantelli lemma, note that
 
 $$
-\sum_ {n = 1} ^ {\infty} P (X _ {n} > 0) = \sum_ {n = 1} ^ {\infty} \frac {1}{j ^ {2}} = \frac {\pi^ {2}}{6} <   \infty ,
+\sum_{n=1}^{\infty} P(X_{n} > 0) = \sum_{n=1}^{\infty} \frac{1}{j^{2}} = \frac{\pi^{2}}{6} < \infty ,
 $$
 
 so with probability 1, at most finitely many of the  $X_{n}$  will be nonzero. This means that  $X_{n}\to X$  almost surely, where  $X = 0$  is in a Dirac delta distribution. However, now we have a counterexample, as  $\mathbf{E}[X_n] = 1$  for all  $n$ , yet  $\mathbf{E}[X] = 0$ .
@@ -1046,19 +1046,19 @@ Despite this pessimistic example, under some mild assumptions we can prove that 
 Proposition 10.6 (Monotone convergence theorem). If  $0 \leq X_1 \leq X_2 \leq \dots$ , and  $X_1, X_2, \ldots \to X$  in probability, then
 
 $$
-\lim _ {n \to \infty} \mathbf {E} [ X _ {n} ] = \mathbf {E} [ X ].
+\lim_{n \to \infty} \mathbf{E}[X_{n}] = \mathbf{E}[X].
 $$
 
 Proposition 10.7 (Dominated convergence theorem). If there exists a random variable  $W$  such that  $|X_{n}| \leq W$  for all  $n$ ,  $\mathbf{E}[W] < \infty$ , and  $X_{1}, X_{2}, \ldots \to X$  in probability, then
 
 $$
-\lim _ {n \to \infty} \mathbf {E} \left[ X _ {n} \right] = \mathbf {E} \left[ X \right].
+\lim_{n \to \infty} \mathbf{E} \left[X_{n} \right] = \mathbf{E} \left[X \right].
 $$
 
 Corollary 10.7.1 (Bounded convergence theorem). If  $|X_{n}| \leq c$  for some  $c$ , and  $X_{1}, X_{2}, \ldots \to X$  in probability, then
 
 $$
-\lim _ {n \to \infty} \mathbf {E} \left[ X _ {n} \right] = \mathbf {E} \left[ X \right].
+\lim_{n \to \infty} \mathbf{E} \left[X_{n} \right] = \mathbf{E} \left[X \right].
 $$
 
 See Section 4.6 of the book for proofs of each of these theorems.
@@ -1074,13 +1074,13 @@ Recall the bounded convergence theorem from last lecture, i.e., Corollary 10.7.1
 Definition 11.1 (Convergence in probability). If  $X_{1}, X_{2}, \ldots$  and  $X$  are random variables, then we say that  $X_{1}, X_{2}, \ldots \rightarrow X$  in probability if for all  $\epsilon > 0$ ,
 
 $$
-\lim _ {n \to \infty} P (| X _ {n} - X | > \epsilon) = 0.
+\lim_{n \to \infty} P(|X_{n} - X| > \epsilon) = 0.
 $$
 
 Definition 11.2 (Almost sure convergence). If  $X_1, X_2, \ldots$  and  $X$  are random variables, then we say that  $X_1, X_2, \ldots \to X$  strongly, or almost surely converges, if
 
 $$
-P \left(\lim  _ {n \rightarrow \infty} X _ {n} = X\right) = 1.
+P \left(\lim_{n \rightarrow \infty} X_{n} = X\right) = 1.
 $$
 
 In general, almost sure convergence is a stronger condition than convergence in probability, which is likewise stronger than convergence in distribution. The bounded convergence theorem works generally for random variables that converge in probability. Let's walk through the proof.
@@ -1088,19 +1088,19 @@ In general, almost sure convergence is a stronger condition than convergence in 
 Proof of Corollary 10.7.1. In the statement of the bounded convergence theorem, we assumed that  $|X_{n}|\leq c$  for all  $n$ . Let's first try to bound  $X$  as well. To do this, we will take a strategy of adding some slack to the variable. $^{16}$  For any  $n$  and  $\epsilon >0$ , note that by a union bound,
 
 $$
-\begin{array}{l} P (| X | > c + \epsilon) \leq P (| X _ {n} | > c \vee | X _ {n} - X | > \epsilon) \\ \leq P \left(\left| X _ {n} \right| > c\right) + P \left(\left| X _ {n} - X \right| > \epsilon\right) \\ = P \left(\left| X _ {n} - X \right| > \epsilon\right). \\ \end{array}
+\begin{array}{l} P(|X| > c + \epsilon) \leq P(|X_{n}| > c \vee |X_{n} - X| > \epsilon) \\ \leq P \left(\left|X_{n}\right| > c\right) + P \left(\left|X_{n} - X\right| > \epsilon\right) \\ = P \left(\left|X_{n} - X\right| > \epsilon\right). \\ \end{array}
 $$
 
 However, as  $n \to \infty$ , this probability just goes immediately to zero. We can view this as "taking the limit" on both sides, except the left-hand side doesn't actually contain the variable  $n$  in it. Therefore, by the squeeze theorem,
 
 $$
-P (| X | > c + \epsilon) = \lim _ {n \to \infty} P (| X | > c + \epsilon) \leq \lim _ {n \to \infty} P (| X _ {n} - X | > \epsilon) = 0,
+P(|X| > c + \epsilon) = \lim_{n \to \infty} P(|X| > c + \epsilon) \leq \lim_{n \to \infty} P(|X_{n} - X| > \epsilon) = 0,
 $$
 
 where the last step follows from the definition of convergence in probability. For the next part of our proof, consider  $\mathbf{E}\left[|X_n - X|\right]$  for varying  $n$ . By the triangle inequality, since  $|X_{n}|, |X| \leq c$ , we must have  $|X_{n} - X| \leq 2c$ . Then,
 
 $$
-\begin{array}{l} \mathbf {E} \left[ | X _ {n} - X | \right] \leq 2 c P (X _ {n} - X > \epsilon) + \epsilon P (X _ {n} - X \leq \epsilon) \\ \leq 2 c P \left(X _ {n} - X > \epsilon\right) + \epsilon . \\ \end{array}
+\begin{array}{l} \mathbf{E} \left[|X_{n} - X| \right] \leq 2c P(X_{n} - X > \epsilon) + \epsilon P(X_{n} - X \leq \epsilon) \\ \leq 2c P \left(X_{n} - X > \epsilon\right) + \epsilon . \\ \end{array}
 $$
 
 For any  $\epsilon$ , as  $n \to \infty$ , the first term on the right-hand side approaches zero. Therefore,

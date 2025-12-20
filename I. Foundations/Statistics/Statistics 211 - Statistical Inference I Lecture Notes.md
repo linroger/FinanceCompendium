@@ -802,21 +802,21 @@ Note that the empirical variance appears, but it lacks the more subtle  $\frac{1
 Example 7.7 (MOM for  $\operatorname{Binom}(k,p)$ ). If  $Y_{1},\ldots ,Y_{n}\sim \operatorname {Binom}(k,p)$ , then equating the sample moments with the population moments yields
 
 $$
-\bar {Y} = k p,
+\bar{Y} = k p,
 $$
 
 $$
-\frac {1}{n} \sum_ {i = 1} ^ {n} Y _ {i} ^ {2} = \mathbf {E} \left[ Y _ {1} ^ {2} \right] = k p (1 - p) + k ^ {2} p ^ {2}.
+\frac{1}{n} \sum_{i = 1}^{n} Y_i^2 = \mathbf{E} \left[ Y_1^2 \right] = k p (1 - p) + k^2 p^2.
 $$
 
 If we solve these equations for the parameters, we get the method of moments estimators:
 
 $$
-\hat {k} _ {\mathrm {M O M}} = \frac {\overline {{Y}} ^ {2}}{\overline {{Y}} - \frac {1}{n} \sum_ {i = 1} ^ {n} (Y _ {i} - \overline {{Y}}) ^ {2}},
+\hat{k}_{\mathrm{MOM}} = \frac{\overline{{Y}}^2}{\overline{{Y}} - \frac{1}{n} \sum_{i = 1}^{n} (Y_i - \overline{{Y}})^2},
 $$
 
 $$
-\hat {p} _ {\mathrm {M O M}} = \overline {{Y}} / \hat {k} _ {\mathrm {M O M}}.
+\hat{p}_{\mathrm{MOM}} = \overline{{Y}} / \hat{k}_{\mathrm{MOM}}.
 $$
 
 Note that these estimators are sketchy, since the difference between the sample mean and raw sample variance in the denominator could be negative, which gives strange results in that case. But in general, finding the MLE for the binomial distribution is hard, so the MOM estimator provides a good starting point.
@@ -824,19 +824,19 @@ Note that these estimators are sketchy, since the difference between the sample 
 Example 7.8 (MOM for exponential family). If  $f_{\theta}(y)$  belongs to an exponential family
 
 $$
-f _ {\theta} (y) = \exp \{\eta (\theta) T (y) - \psi (\eta (\theta)) \} h (y),
+f_{\theta} (y) = \exp \{\eta (\theta) T (y) - \psi (\eta (\theta)) \} h (y),
 $$
 
 then differentiating under the integral sign (Definition 6.2) with respect to  $\eta$  yields
 
 $$
-\int T (y) \exp \{\eta T (y) - \psi (y) \} h (y) d y = \psi^ {\prime} (\eta) \int \exp \{\eta T (y) - \psi (y) \} h (y) d y.
+\int T (y) \exp \{\eta T (y) - \psi (y) \} h (y) d y = \psi^{\prime} (\eta) \int \exp \{\eta T (y) - \psi (y) \} h (y) d y.
 $$
 
 This means that  $\mathbf{E}_{\theta}[T(Y)] = \psi'(\eta)$ , so if we transform the samples of an exponential family by  $T$ , we get the method of moments estimator by solving:
 
 $$
-\frac {1}{n} \sum_ {i = 1} ^ {n} T (Y _ {i}) = \psi^ {\prime} (\eta (\theta)).
+\frac{1}{n} \sum_{i = 1}^{n} T (Y_i) = \psi^{\prime} (\eta (\theta)).
 $$
 
 # 7.3 Maximum Likelihood Estimation
@@ -846,13 +846,13 @@ The maximum likelihood estimator (MLE) of  $\theta$  is the parameter value that
 Example 7.9 (MLE for exponential family). Once again, suppose that we have an exponential family with parameter  $\theta$ , and observe that the log-likelihood function is
 
 $$
-\ell_ {\mathbf {Y}} (\theta) = \left(\sum_ {i = 1} ^ {n} T \left(Y _ {i}\right)\right) \eta (\theta) - n \psi (\eta (\theta)) + \sum_ {i = 1} ^ {n} \log h \left(Y _ {i}\right).
+\ell_{\mathbf{Y}} (\theta) = \left(\sum_{i = 1}^{n} T \left(Y_i\right)\right) \eta (\theta) - n \psi (\eta (\theta)) + \sum_{i = 1}^{n} \log h \left(Y_i\right).
 $$
 
 If we take the derivative with respect to  $\eta$  and set it to zero (to find local extrema), we get the equation for  $\eta$  given by
 
 $$
-\frac {\partial \ell}{\partial \eta} = 0 \Rightarrow \frac {1}{n} \sum_ {i = 1} ^ {n} T (Y _ {i}) = \psi^ {\prime} (\eta (\theta)).
+\frac{\partial \ell}{\partial \eta} = 0 \Rightarrow \frac{1}{n} \sum_{i = 1}^{n} T (Y_i) = \psi^{\prime} (\eta (\theta)).
 $$
 
 Note that this is the exact same as the equation for the MOM estimator!
@@ -901,7 +901,7 @@ Also, let  $\overline{\ell} (\theta ,\theta_0) = \mathbf{E}_{\theta_0}\left[\log
 Second, note that  $\overline{\ell} (\theta ,\theta_0)$  is uniquely maximized by  $\theta$ , since KL divergence is nonnegative. This is a result known as Gibb's inequality, which can be verified by checking that
 
 $$
-\mathbf {E} _ {\theta_ {0}} \left[ \log f _ {\theta} (y _ {i}) \right] - \mathbf {E} _ {\theta_ {0}} \left[ \log f _ {\theta_ {0}} (y _ {i}) \right] = \mathbf {E} _ {\theta_ {0}} \left[ \log \frac {f _ {\theta} (y _ {i})}{f _ {\theta_ {0}} (y _ {i})} \right] \leq \mathbf {E} _ {\theta_ {0}} \left[ \frac {f _ {\theta} (y _ {i})}{f _ {\theta_ {0}} (y _ {i})} \right] = 0.
+\mathbf{E}_{\theta_0} \left[ \log f_{\theta} (y_i) \right] - \mathbf{E}_{\theta_0} \left[ \log f_{\theta_0} (y_i) \right] = \mathbf{E}_{\theta_0} \left[ \log \frac{f_{\theta} (y_i)}{f_{\theta_0} (y_i)} \right] \leq \mathbf{E}_{\theta_0} \left[ \frac{f_{\theta} (y_i)}{f_{\theta_0} (y_i)} \right] = 0.
 $$
 
 Combining these two facts, we conclude that  $\operatorname{Pr}_{\theta_0}(\bar{\ell}_n(\theta) \geq \bar{\ell}_n(\theta_0)) \to 0$  for all  $\theta \in \Theta \setminus \{\theta_0\}$ . Therefore, the probability that  $\theta_0$  uniquely maximizes the empirical likelihood function converges almost surely to 1 as  $n \to \infty$ , as desired.
