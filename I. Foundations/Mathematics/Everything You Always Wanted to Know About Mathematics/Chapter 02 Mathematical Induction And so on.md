@@ -1,36 +1,26 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
+aliases:
+tags:
+key_concepts:
+parent_directory:
 cssclasses: academia
 title: Chapter 2
 linter-yaml-title-alias: Chapter 2
 primary_tags:
-- different proofs
-- induction puzzle
-- some equations
-- mathematical rigor
-- fibonacci numbers
-- following questions
+  - different proofs
+  - induction puzzle
+  - some equations
+  - mathematical rigor
+  - fibonacci numbers
+  - following questions
 secondary_tags:
-- mathematical induction
-- two example puzzles
-- puzzles learning
-- mathematically inductive definition
-- main goals
-- inductive structure
-- (3) challenge
-- few examples
-- last section
-- recursive program inductive
-- first one
-- any verbal explanations
-- some geometric arguments
-- new facts
-- geometric puzzle
-- one point
-tags_extracted: '2025-12-18T17:56:39.144721'
+  - mathematical induction
+  - puzzles learning
+  - mathematically inductive definition
+  - inductive structure
+  - recursive program inductive
+  - geometric puzzle
+tags_extracted: 2025-12-18T17:56:39.144721
 tags_method: max_quality_v1
 ---
 
@@ -406,25 +396,19 @@ Pretend you have a skeptical friend who says, "Hey, I heard about this formula f
 $$
 1 ^ {2} = 1 = \frac {1}{6} (1) (2) (3)
 $$
-
 $$
 1 ^ {2} + 2 ^ {2} = 5 = \frac {1}{6} (2) (3) (5)
 $$
-
 $$
 1 ^ {2} + 2 ^ {2} + 3 ^ {2} = 1 4 = \frac {1}{6} (3) (4) (7)
 $$
-
 $$
 1 ^ {2} + 2 ^ {2} + 3 ^ {2} + 4 ^ {2} = 3 0 = \frac {1}{6} (4) (5) (9)
 $$
-
 and so on. We could even check, by hand, a large value of  $n$ , if we wanted to:
-
 $$
 1 ^ {2} + 2 ^ {2} + 3 ^ {2} + 4 ^ {2} + 5 ^ {2} + 6 ^ {2} + 7 ^ {2} + 8 ^ {2} + 9 ^ {2} + 1 0 ^ {2} = 3 8 5 = \frac {1}{6} (1 0) (1 1) (2 1)
 $$
-
 Remember, though, that this formula is claimed to be valid for any value of  $n$ . Checking individual results by hand would take forever, because there are an infinite number of natural numbers. No matter how many individual values of  $n$  we check, there will always be larger values, and how do we know that the formula doesn't break down for some large value? We need a far more efficient procedure, mathematically and temporally speaking, to somehow verify the formula for all values of  $n$  in just a few steps. We have an idea in mind, of course (it's the upcoming rigorous version of mathematical induction), and here we will explain how the procedure works, in a broad sense.
 
 # 2.3.1 The Domino Analogy
@@ -436,29 +420,21 @@ written on them, instead of the standard array of dots. Let's also pretend that 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/44fa662e-a015-46fb-8608-ecf0fb518d19/ff0938ddf57b4792e8aa7416b85e04d29abcfaf6fecb9be11d54a44e5acedc52.jpg)
 
 For this particular example, to verify the formula
-
 $$
 \sum_ {k = 1} ^ {n} k ^ {2} = \frac {1}{6} n (n + 1) (2 n + 1)
 $$
-
 we will imagine a particular "fact" written on each domino. Specifically, we will imagine that the 1st domino has the expression
-
 $$
 \sum_ {k = 1} ^ {1} k ^ {2} = \frac {1}{6} (1) (2) (3)
 $$
-
 written on it, and the 2nd domino has the expression
-
 $$
 \sum_ {k = 1} ^ {2} k ^ {2} = \frac {1}{6} (2) (3) (5)
 $$
-
 written on it. In general, we imagine that the  $n$ -th domino in the infinite line has the following "fact" written on it:
-
 $$
 \sum_ {k = 1} ^ {n} k ^ {2} = \frac {1}{6} n (n + 1) (2 n + 1)
 $$
-
 Since we're dealing with dominos that are meant to fall into each other and knock each other over, let's pretend that whenever a domino falls, that means the corresponding "fact" written on it is a true statement. This is how we will relate our physical interpretation of the dominos to the mathematical interpretation of the validity of the formula we derived.
 
 We did check the sum for  $n = 1$  by hand:  $1^2 = \frac{1}{6} (1)(2)(3)$ . Thus, the fact written on the first domino is a true statement, so we know that the first domino will, indeed, fall over. We also checked the sum for  $n = 2$  by hand, so we know that the second domino will fall over:
@@ -655,10 +631,9 @@ $$
 $$
 
 (4) Suppose we have a series of facts that are indexed by natural numbers. Let's use the expression " $P(n)$ " to represent the  $n$ -th fact.
-
-(a) If we want to prove every instance is True, for every natural number  $n$ , how can we do this?  
-(b) What if we want to prove that only every even value of  $n$  makes a True statement? Can we do this? Can you come up with a modification of one of the analogies we gave that would describe your method?  
-(c) What if we want to prove that only every value of  $n$  greater than or equal to 4 makes a True statement? Can we do this? Can you come up with a modification of one of the analogies we gave that would describe your method?
+- (a) If we want to prove every instance is True, for every natural number  $n$ , how can we do this?  
+- (b) What if we want to prove that only every even value of  $n$  makes a True statement? Can we do this? Can you come up with a modification of one of the analogies we gave that would describe your method?  
+- (c) What if we want to prove that only every value of  $n$  greater than or equal to 4 makes a True statement? Can we do this? Can you come up with a modification of one of the analogies we gave that would describe your method?
 
 # 2.4 Two More (Different) Examples
 
