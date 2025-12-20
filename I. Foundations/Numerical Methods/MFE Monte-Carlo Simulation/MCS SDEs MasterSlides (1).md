@@ -52,7 +52,7 @@ Multilevel Monte-Carlo
 Have an SDE of the form
 
 $$
-d X _ {t} = \mu (t, X _ {t}) d t + \sigma (t, X _ {t}) d W _ {t}. \tag {1}
+d X_{t} = \mu (t, X_{t}) d t + \sigma (t, X_{t}) d W_{t}. \tag {1}
 $$
 
 Wish to simulate values of  $X_{T}$  but we don't know its distribution.
@@ -66,7 +66,7 @@ and  $m = \lfloor T / h\rfloor$
 The simplest and most commonly used scheme is the Euler scheme:
 
 $$
-\hat {X} _ {k h} = \hat {X} _ {(k - 1) h} + \mu \left((k - 1) h, \hat {X} _ {(k - 1) h}\right) h + \sigma \left((k - 1) h, \hat {X} _ {(k - 1) h}\right) \sqrt {h} Z _ {k} \tag {2}
+\hat {X}_{k h} = \hat {X}_{(k - 1) h} + \mu \left((k - 1) h, \hat {X}_{(k - 1) h}\right) h + \sigma \left((k - 1) h, \hat {X}_{(k - 1) h}\right) \sqrt{h} Z_{k} \tag {2}
 $$
 
 where the  $Z_{k}$ 's are IID  $N(0,1)$ .
@@ -105,17 +105,17 @@ Two approaches for measuring the error in a discretization scheme:
 1. A strong error criterion might take the form
 
 $$
-\mathsf {E} \left[ | | \hat {X} _ {m h} - X _ {T} | | \right] \tag {3}
+\mathsf {E} \left[ | | \hat {X}_{m h} - X_{T} | | \right] \tag {3}
 $$
 
 $$
-\mathsf {E} \left[ \sup  _ {0 \leq t \leq T} | | \hat {X} _ {\lfloor t / h \rfloor h} - X _ {t} | | \right]
+\mathsf {E} \left[ \sup_{0 \leq t \leq T} | | \hat {X}_{\lfloor t / h \rfloor h} - X_{t} | | \right]
 $$
 
 2. A weak error criterion takes the form
 
 $$
-\left| \mathsf {E} [ f (\hat {X} _ {m h}) ] - \mathsf {E} [ f (X _ {T}) ] \right| \tag {4}
+\left| \mathsf {E} [ f (\hat {X}_{m h}) ] - \mathsf {E} [ f (X_{T}) ] \right| \tag {4}
 $$
 
 where  $f$  ranges over "smooth" functions from  $\mathbb{R}^d$  to  $\mathbb{R}$ .
@@ -131,7 +131,7 @@ Given an error criterion, can assess the performance of the Euler scheme (and ot
 Definition. We say the discretization  $\hat{X}$  has a strong order of convergence of  $\beta > 0$  if
 
 $$
-\mathsf {E} \left[ | | \hat {X} _ {m h} - X _ {T} | | \right] \leq c h ^ {\beta} \tag {5}
+\mathsf {E} \left[ | | \hat {X}_{m h} - X_{T} | | \right] \leq c h^{\beta} \tag {5}
 $$
 
 for some constant  $c$  and all sufficiently small  $h$ .
@@ -139,7 +139,7 @@ for some constant  $c$  and all sufficiently small  $h$ .
 Definition. We say the discretization  $\hat{X}$  has a weak order of convergence of  $\beta > 0$  if
 
 $$
-\left| \mathsf {E} [ f (\hat {X} _ {m h}) ] - \mathsf {E} [ f (X _ {T}) ] \right| \leq c h ^ {\beta} \tag {6}
+\left| \mathsf {E} [ f (\hat {X}_{m h}) ] - \mathsf {E} [ f (X_{T}) ] \right| \leq c h^{\beta} \tag {6}
 $$
 
 for some constant  $c$  (possibly depending on  $f$ ), all sufficiently small  $h$ , and all sufficiently smooth  $f$ .
@@ -166,13 +166,13 @@ As a result, experimentation is often required to understand which schemes perfo
 # A scalar SDE
 
 $$
-d X _ {t} = \mu (X _ {t}) d t + \sigma (X _ {t}) d W _ {t}
+d X_{t} = \mu (X_{t}) d t + \sigma (X_{t}) d W_{t}
 $$
 
 has Euler scheme
 
 $$
-\hat {X} _ {k h} = \hat {X} _ {(k - 1) h} + \mu (\hat {X} _ {(k - 1) h}) h + \sigma (\hat {X} _ {(k - 1) h}) \sqrt {h} Z _ {k}.
+\hat {X}_{k h} = \hat {X}_{(k - 1) h} + \mu (\hat {X}_{(k - 1) h}) h + \sigma (\hat {X}_{(k - 1) h}) \sqrt{h} Z_{k}.
 $$
 
 Can apply Itô's Lemma to  $\sigma(X_t)$  to construct a superior approximation for the diffusion term over the interval  $[(k - 1)h, kh]$ .
@@ -180,7 +180,7 @@ Can apply Itô's Lemma to  $\sigma(X_t)$  to construct a superior approximation 
 This leads to "the" Milstein scheme
 
 $$
-\hat {X} _ {k h} = \hat {X} _ {(k - 1) h} + \mu (\hat {X} _ {(k - 1) h}) h + \sigma (\hat {X} _ {(k - 1) h}) \sqrt {h} Z _ {k} + \frac {1}{2} \sigma^ {\prime} (\hat {X} _ {(k - 1) h}) \sigma (\hat {X} _ {(k - 1) h}) h \left(Z _ {k} ^ {2} - 1\right). \tag {7}
+\hat {X}_{k h} = \hat {X}_{(k - 1) h} + \mu (\hat {X}_{(k - 1) h}) h + \sigma (\hat {X}_{(k - 1) h}) \sqrt{h} Z_{k} + \frac{1}{2} \sigma^{\prime} (\hat {X}_{(k - 1) h}) \sigma (\hat {X}_{(k - 1) h}) h \left(Z_{k}^{2} - 1\right). \tag {7}
 $$
 
 Approximation in (7) means that both drift and diffusion terms have both been expanded to  $O(h)$ .
@@ -201,13 +201,13 @@ To simplify notation, we write  $\hat{X}_T^h$  for  $\hat{X}_{\lfloor T / h\rflo
 First recall the Euler (often) has weak order 1 so that
 
 $$
-\left| \mathsf {E} [ f (\hat {X} _ {T} ^ {h}) ] - \mathsf {E} [ f (X _ {T}) ] \right| \leq C h. \tag {8}
+\left| \mathsf {E} [ f (\hat {X}_{T}^{h}) ] - \mathsf {E} [ f (X_{T}) ] \right| \leq C h. \tag {8}
 $$
 
 Can sometimes strengthen (8) so that
 
 $$
-\mathsf {E} [ f (\hat {X} _ {T} ^ {h}) ] = \mathsf {E} [ f (X _ {T}) ] + c h + o (h) \tag {9}
+\mathsf {E} [ f (\hat {X}_{T}^{h}) ] = \mathsf {E} [ f (X_{T}) ] + c h + o (h) \tag {9}
 $$
 
 where  $c$  depends on  $f$ .
@@ -217,13 +217,13 @@ where  $c$  depends on  $f$ .
 Then can apply (9) with discretization step  $2h$  to obtain
 
 $$
-\mathbb {E} [ f \left(\hat {X} _ {T} ^ {2 h}\right) ] = \mathbb {E} [ f (X _ {T}) ] + 2 c h + o (h). \tag {10}
+\mathbb {E} [ f \left(\hat {X}_{T}^{2 h}\right) ] = \mathbb {E} [ f (X_{T}) ] + 2 c h + o (h). \tag {10}
 $$
 
 Can then combine estimators in (9) and (10) to eliminate the leading  $O(h)$  term:
 
 $$
-2 \mathsf {E} [ f (\hat {X} _ {T} ^ {h}) ] - \mathsf {E} [ f (\hat {X} _ {T} ^ {2 h}) ] = \mathsf {E} [ f (X _ {T}) ] + o (h). \tag {11}
+2 \mathsf {E} [ f (\hat {X}_{T}^{h}) ] - \mathsf {E} [ f (\hat {X}_{T}^{2 h}) ] = \mathsf {E} [ f (X_{T}) ] + o (h). \tag {11}
 $$
 
 Suggests an obvious improvement to the basic Euler scheme:
@@ -241,7 +241,7 @@ So if we use  $\sqrt{h} Z_1, \sqrt{h} Z_2, \ldots$  as Brownian increments for  
 Using such a construction amounts to rewriting (11) as
 
 $$
-\mathbb {E} \left[ 2 f \left(\hat {X} _ {T} ^ {h}\right) - f \left(\hat {X} _ {T} ^ {2 h}\right) \right] = \mathbb {E} \left[ f \left(X _ {T}\right) \right] + o (h). \tag {12}
+\mathbb {E} \left[ 2 f \left(\hat {X}_{T}^{h}\right) - f \left(\hat {X}_{T}^{2 h}\right) \right] = \mathbb {E} \left[ f \left(X_{T}\right) \right] + o (h). \tag {12}
 $$
 
 and then computing  $2f(\hat{X}_T^h) - f(\hat{X}_T^{2h})$  along each sample path.
@@ -249,7 +249,7 @@ and then computing  $2f(\hat{X}_T^h) - f(\hat{X}_T^{2h})$  along each sample pat
 Variance of this estimator is
 
 $$
-\mathsf {V a r} \left(2 f (\hat {X} _ {T} ^ {h}) - f (\hat {X} _ {T} ^ {2 h})\right) = 4 \mathsf {V a r} \left(f (\hat {X} _ {T} ^ {h})\right) + \mathsf {V a r} \left(f (\hat {X} _ {T} ^ {2 h})\right) - 4 \mathsf {C o v} \left(f (\hat {X} _ {T} ^ {h}), f (\hat {X} _ {T} ^ {2 h})\right).
+\mathsf {V a r} \left(2 f (\hat {X}_{T}^{h}) - f (\hat {X}_{T}^{2 h})\right) = 4 \mathsf {V a r} \left(f (\hat {X}_{T}^{h})\right) + \mathsf {V a r} \left(f (\hat {X}_{T}^{2 h})\right) - 4 \mathsf {C o v} \left(f (\hat {X}_{T}^{h}), f (\hat {X}_{T}^{2 h})\right).
 $$
 
 A variance reduction will therefore be obtained if the covariance term is positive - not always the case but can be guaranteed under monotonicity conditions.
@@ -259,7 +259,7 @@ A variance reduction will therefore be obtained if the covariance term is positi
 Consider pricing of a European call option in the Black-Scholes framework by simulating the SDE
 
 $$
-d S _ {t} = r S _ {t} d t + \sigma S _ {t} d W _ {t}
+d S_{t} = r S_{t} d t + \sigma S_{t} d W_{t}
 $$
 
 with parameters  $S_0 = K = 100$ ,  $T = .5$  years,  $r = .01$  and  $\sigma = 0.4$ .
@@ -285,11 +285,11 @@ Also see superior performance of the Euler scheme with Richardson extrapolation 
 Consider Heston's stochastic volatility model:
 
 $$
-d S _ {t} = r S _ {t} d t + \sqrt {V _ {t}} S _ {t} d W _ {t} ^ {(1)} \tag {13}
+d S_{t} = r S_{t} d t + \sqrt{V_{t}} S_{t} d W_{t}^{(1)} \tag {13}
 $$
 
 $$
-d V _ {t} = \kappa (\theta - V _ {t}) d t + \sigma \sqrt {V _ {t}} d W _ {t} ^ {(2)}. \tag {14}
+d V_{t} = \kappa (\theta - V_{t}) d t + \sigma \sqrt{V_{t}} d W_{t}^{(2)}. \tag {14}
 $$
 
 with  $dW_{t}^{(1)}\times dW_{t}^{(2)} = \rho dt$
@@ -363,7 +363,7 @@ A common strategy is to choose a  $g$  (if possible) so that the dynamics of  $\
 Consider a jump-diffusion process of the form
 
 $$
-d X _ {t} = \mu (t, X _ {t}) d t + \sigma (t, X _ {t}) d W _ {t} + c \left(X _ {t -}, Y _ {N _ {t -} + 1}\right) d N _ {t} \tag {15}
+d X_{t} = \mu (t, X_{t}) d t + \sigma (t, X_{t}) d W_{t} + c \left(X_{t -}, Y_{N_{t -} + 1}\right) d N_{t} \tag {15}
 $$
 
 where:
@@ -376,7 +376,7 @@ Note  $X_{t-} \coloneqq \lim_{u \uparrow t} X_u$  so if  $t$  is a jump time the
 If the  $n^{th}$  jump in the Poisson process occurs at time  $t$ , then
 
 $$
-X _ {t} - X _ {t -} = c \left(X _ {t -}, Y _ {n}\right)
+X_{t} - X_{t -} = c \left(X_{t -}, Y_{n}\right)
 $$
 
 If a jump does not occur at time  $t$  then  $X_{t - } = X_{t}$ .
@@ -398,7 +398,7 @@ If the intensity is bounded above by some constant  $\bar{\lambda}$ , how would 
 Consider a short rate model of the form
 
 $$
-d r _ {t} = \mu (t, r _ {t}) d t + \sigma (t, r _ {t}) d W _ {t}.
+d r_{t} = \mu (t, r_{t}) d t + \sigma (t, r_{t}) d W_{t}.
 $$
 
 When pricing a derivative that matures at time  $T$  using an Euler scheme it is necessary to generate the path  $(W_h, W_{2h}, \ldots, W_{mh} = W_T)$ .
@@ -415,7 +415,7 @@ Might want to stratify using  $W_{T}$ . This is easy since:
 To see this note that for  $s < t < v$
 
 $$
-\left(W _ {t} \mid W _ {s} = x, W _ {v} = y\right) \sim \mathbb {N} \left(\frac {(v - t) x + (t - s) y}{v - s}, \frac {(v - t) (t - s)}{v - s}\right) \tag {16}
+\left(W_{t} \mid W_{s} = x, W_{v} = y\right) \sim \mathbb {N} \left(\frac{(v - t) x + (t - s) y}{v - s}, \frac{(v - t) (t - s)}{v - s}\right) \tag {16}
 $$
 
 and can use this result to generate  $(W_{h}|W_{0},W_{T})$
@@ -423,7 +423,7 @@ and can use this result to generate  $(W_{h}|W_{0},W_{T})$
 More generally, can use (16) to successively simulate
 
 $$
-\left(W _ {h} \mid W _ {0}, W _ {T}\right), \left(W _ {2 h} \mid W _ {h}, W _ {T}\right), \dots , \left(W _ {T - h} \mid W _ {T - 2 h}, W _ {T}\right).
+\left(W_{h} \mid W_{0}, W_{T}\right), \left(W_{2 h} \mid W_{h}, W_{T}\right), \dots , \left(W_{T - h} \mid W_{T - 2 h}, W_{T}\right).
 $$
 
 Can in fact simulate the points on the sample path in any order we like.
@@ -442,7 +442,7 @@ Question: How should we choose  $n = \#$  of sample paths and  $m = \#$  of disc
 Suppose then
 
 $$
-d X _ {t} = \mu (t, X _ {t}) d t + \sigma (t, X _ {t}) d W _ {t}
+d X_{t} = \mu (t, X_{t}) d t + \sigma (t, X_{t}) d W_{t}
 $$
 
 and we wish to estimate  $\theta \coloneqq \mathsf{E}[f(X_T)]$  using a scheme with weak order  $\beta$ .
@@ -450,7 +450,7 @@ and we wish to estimate  $\theta \coloneqq \mathsf{E}[f(X_T)]$  using a scheme w
 Bias then satisfies
 
 $$
-\text {B i a s} \approx a m ^ {- \beta}.
+\text{Bi as} \approx a m^{- \beta}.
 $$
 
 Suppose we have a fixed computational budget,  $C$ , and that each simulation step costs  $c -$  must therefore have  $n = C / mc$ .
@@ -464,7 +464,7 @@ Do this by minimizing the mean squared error (MSE), i.e. sum of the bias squared
 We have
 
 $$
-\mathrm {M S E} \approx \frac {a ^ {2}}{m ^ {2 \beta}} + \frac {v}{n} \tag {17}
+\mathrm{MS E} \approx \frac{a^{2}}{m^{2 \beta}} + \frac{v}{n} \tag {17}
 $$
 
 for sufficiently large  $m$ .
@@ -472,11 +472,11 @@ for sufficiently large  $m$ .
 Substituting for  $n$  in (17), easy to see that's optimal to take
 
 $$
-m \propto C ^ {1 / (2 \beta + 1)} \tag {18}
+m \propto C^{1 / (2 \beta + 1)} \tag {18}
 $$
 
 $$
-n \propto C ^ {2 \beta / (2 \beta + 1)} \tag {19}
+n \propto C^{2 \beta / (2 \beta + 1)} \tag {19}
 $$
 
 with the optimal MSE  $\approx C^{-\frac{2\beta}{2\beta + 1}}$
@@ -506,7 +506,7 @@ Suppose  $X_{t}$  is a standard Brownian motion and let  $M_{t} \coloneqq \max_{
 Then maximum of corresponding Euler process given by
 
 $$
-\hat {M} _ {m} ^ {h} := \max  \left\{X _ {0}, \hat {X} _ {h}, \hat {X} _ {2 h}, \dots , \hat {X} _ {m h} \right\}. \tag {20}
+\hat {M}_{m}^{h} := \max  \left\{X_{0}, \hat {X}_{h}, \hat {X}_{2 h}, \dots , \hat {X}_{m h} \right\}. \tag {20}
 $$
 
 Can be shown that the weak order of convergence of this discretization scheme for  $M_t$  cannot be better than  $1/2$
@@ -520,7 +520,7 @@ Can resolve this by simulating  $M_T$  directly for any value of  $T$ . We do th
 2. Simulating  $M_T \mid X_T$ . This can be done because it is known that
 
 $$
-M _ {T} \mid X _ {T} \sim \frac {X _ {T} + \sqrt {X _ {T} ^ {2} - 2 T \log U}}{2} \tag {21}
+M_{T} \mid X_{T} \sim \frac{X_{T} + \sqrt{X_{T}^{2} - 2 T \log U}}{2} \tag {21}
 $$
 
 where  $U\sim \mathsf{U}(0,1)$  (independent of  $X_{T}$ ).
@@ -532,7 +532,7 @@ This procedure can easily be adapted to handle more general processes.
 Let  $\hat{X}_{kh}$  for  $k = 0,1,\ldots$  be a discretization scheme for  $X_{t}$  satisfying
 
 $$
-d X _ {t} = \mu (t, X _ {t}) d t + \sigma (t, X _ {t}) d W _ {t} \tag {22}
+d X_{t} = \mu (t, X_{t}) d t + \sigma (t, X_{t}) d W_{t} \tag {22}
 $$
 
 We interpolate over each interval  $[kh, (k + 1)h]$  by using a Brownian bridge with fixed parameters  $\mu(kh, \hat{X}_{kh})$  and  $\sigma_k := \sigma(kh, \hat{X}_{kh})$ .
@@ -540,7 +540,7 @@ We interpolate over each interval  $[kh, (k + 1)h]$  by using a Brownian bridge 
 So given endpoints  $\hat{X}_{kh}$  and  $\hat{X}_{(k + 1)h}$ , the max of the process on  $[kh, (k + 1)h]$  can be simulated as
 
 $$
-\hat {M} _ {k} = \frac {\hat {X} _ {(k + 1) h} + \hat {X} _ {k h} + \sqrt {\left(\hat {X} _ {(k + 1) h} - \hat {X} _ {k h}\right) ^ {2} - 2 h \sigma_ {k} ^ {2} \log U _ {i}}}{2} \tag {23}
+\hat {M}_{k} = \frac{\hat {X}_{(k + 1) h} + \hat {X}_{k h} + \sqrt{\left(\hat {X}_{(k + 1) h} - \hat {X}_{k h}\right)^{2} - 2 h \sigma_{k}^{2} \log U_{i}}}{2} \tag {23}
 $$
 
 where the  $U_{i}$  's are IID  $\mathsf{U}(0,1)$  random variables.
@@ -548,7 +548,7 @@ where the  $U_{i}$  's are IID  $\mathsf{U}(0,1)$  random variables.
 The maximum of  $X$  over  $[0, T]$  can then approximated using
 
 $$
-\max  \left\{\hat {M} _ {0}, \hat {M} _ {h}, \hat {M} _ {2}, \dots , \hat {M} _ {m - 1} \right\}.
+\max  \left\{\hat {M}_{0}, \hat {M}_{h}, \hat {M}_{2}, \dots , \hat {M}_{m - 1} \right\}.
 $$
 
 # Extremes and Barrier Crossings
@@ -558,7 +558,7 @@ Same ideas can be immediately applied to the pricing of barrier options.
 e.g. Suppose we wish to price a knock-out put option with time  $T$  payoff
 
 $$
-\left(K - X _ {T}\right) ^ {+} 1 _ {\{\tau > T \}}
+\left(K - X_{T}\right)^{+} 1_{\{\tau > T \}}
 $$
 
 where  $\tau = \inf \{t\geq 0:X_t > B\}$  and with  $X_0 < B$
@@ -566,7 +566,7 @@ where  $\tau = \inf \{t\geq 0:X_t > B\}$  and with  $X_0 < B$
 Simplest approach would be to approximate  $\tau$  with  $\hat{\tau}$  where
 
 $$
-\hat {\tau} := \inf  \left\{k: \hat {X} _ {k h} > B \right\}.
+\hat {\tau} := \inf  \left\{k: \hat {X}_{k h} > B \right\}.
 $$
 
 But can do much better by using the construction in (23).
@@ -576,7 +576,7 @@ We note that barrier is crossed in the interval  $[kh, (k + 1)h]$  if the maximu
 Can thus approximate the option payoff with
 
 $$
-\left. (K - \hat {X} _ {m h}) ^ {+} \prod_ {k = 0} ^ {m - 1} 1 _ {\left\{\hat {M} _ {k} \leq B \right\}} \right. \tag {24}
+\left. (K - \hat {X}_{m h})^{+} \prod_{k = 0}^{m - 1} 1_{\left\{\hat {M}_{k} \leq B \right\}} \right. \tag {24}
 $$
 
 with  $\hat{M}_k$  generated as in (23) and  $mh = T$ .
@@ -586,7 +586,7 @@ with  $\hat{M}_k$  generated as in (23) and  $mh = T$ .
 Question: Can simplify approximation of survival indicator  $1_{\{\tau > T\}}$  in (24) with
 
 $$
-\prod_ {k = 0} ^ {m - 1} 1 _ {\left\{U _ {k} \leq \hat {p} _ {k} \right\}}. \tag {25}
+\prod_{k = 0}^{m - 1} 1_{\left\{U_{k} \leq \hat {p}_{k} \right\}}. \tag {25}
 $$
 
 Provide an expression for  $\hat{p}_k$  in terms of  $B$ ,  $\hat{X}_{kh}$  and  $\hat{X}_{(k + 1)h}$ .
@@ -594,7 +594,7 @@ Provide an expression for  $\hat{p}_k$  in terms of  $B$ ,  $\hat{X}_{kh}$  and 
 Question: Explain how this leads to a superior estimator of the form
 
 $$
-\left(K - \hat {X} _ {m h}\right) ^ {+} \prod_ {k = 0} ^ {m - 1} \hat {p} _ {k}.
+\left(K - \hat {X}_{m h}\right)^{+} \prod_{k = 0}^{m - 1} \hat {p}_{k}.
 $$
 
 In what sense is this estimator superior to the estimator in (24)? Is there any sense in which the estimator might be inferior?
@@ -606,7 +606,7 @@ Multilevel Monte-Carlo is a recently developed approach that optimizes the alloc
 Can motivate the technique by considering the Paley-Wiener representation of Brownian motion on the interval  $[0, 2\pi]$ :
 
 $$
-W _ {t} = Z _ {0} \frac {t}{\sqrt {2 \pi}} + \frac {2}{\sqrt {\pi}} \sum_ {n = 1} ^ {\infty} Z _ {n} \frac {\sin \left(\frac {n t}{2}\right)}{n} \tag {26}
+W_{t} = Z_{0} \frac{t}{\sqrt{2 \pi}} + \frac{2}{\sqrt{\pi}} \sum_{n = 1}^{\infty} Z_{n} \frac{\sin \left(\frac{n t}{2}\right)}{n} \tag {26}
 $$
 
 where the  $Z_{i}$ 's are IID  $\mathsf{N}(0,1)$ .
@@ -614,7 +614,7 @@ where the  $Z_{i}$ 's are IID  $\mathsf{N}(0,1)$ .
 This representation suggests an obvious approximation to  $W_{t}$ :
 
 $$
-W _ {t} ^ {(m)} = Z _ {0} \frac {t}{\sqrt {2 \pi}} + \frac {2}{\sqrt {\pi}} \sum_ {n = 1} ^ {m} Z _ {n} \frac {\sin \left(\frac {n t}{2}\right)}{n} \tag {27}
+W_{t}^{(m)} = Z_{0} \frac{t}{\sqrt{2 \pi}} + \frac{2}{\sqrt{\pi}} \sum_{n = 1}^{m} Z_{n} \frac{\sin \left(\frac{n t}{2}\right)}{n} \tag {27}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/85553570-75c0-4701-8504-5cf601b84136/8bc31dba815b481bc491f8c960b433cf8cda3f40f59f11f334f38224ef216afc.jpg)

@@ -70,7 +70,7 @@ Application: Hedging in Black-Scholes
 Suppose then that we want to compute
 
 $$
-\theta := \int_ {0} ^ {1} g (x) d x.
+\theta := \int_{0}^{1} g (x) d x.
 $$
 
 If we cannot compute  $\theta$  analytically, then we could use numerical methods. But can also use Monte-Carlo simulation by noting that
@@ -87,7 +87,7 @@ Can use this to estimate  $\theta$  as follows:
 2. Estimate  $\theta$  with
 
 $$
-\widehat {\theta} _ {n} := \frac {g (U _ {1}) + \ldots + g (U _ {n})}{n}
+\widehat {\theta}_{n} := \frac{g (U_{1}) + \ldots + g (U_{n})}{n}
 $$
 
 # Monte Carlo Integration
@@ -108,7 +108,7 @@ Wish to estimate  $\theta = \int_{1}^{3}(x^{2} + x)dx$  again using simulation.
 Can estimate it by noting that
 
 $$
-\begin{array}{l} \theta = 2 \int_ {1} ^ {3} \frac {x ^ {2} + x}{2} d x \\ = 2 \mathbb {E} [ X ^ {2} + X ] \\ \end{array}
+\begin{array}{l} \theta = 2 \int_{1}^{3} \frac{x^{2} + x}{2} d x \\ = 2 \mathbb {E} [ X^{2} + X ] \\ \end{array}
 $$
 
 where  $X\sim U(1,3)$
@@ -120,7 +120,7 @@ So can estimate  $\theta$  by:
 3. Then taking
 
 $$
-\widehat {\theta} _ {n} := 2 \sum_ {i = 1} ^ {n} \left(X _ {i} ^ {2} + X _ {i}\right) / n.
+\widehat {\theta}_{n} := 2 \sum_{i = 1}^{n} \left(X_{i}^{2} + X_{i}\right) / n.
 $$
 
 # High-Dimensional Monte Carlo Integration
@@ -130,7 +130,7 @@ Can also apply Monte Carlo integration to more general problems.
 e.g. Suppose we want to estimate
 
 $$
-\theta := \int \int_ {A} g (x, y) f (x, y) d x d y
+\theta := \int \int_{A} g (x, y) f (x, y) d x d y
 $$
 
 where  $f(x,y)$  is a density function on  $A$ .
@@ -140,7 +140,7 @@ Then observe that  $\theta = \mathbb{E}[g(X,Y)]$  where  $X, Y$  have joint dens
 To estimate  $\theta$  using simulation we simply generate  $n$  random vectors  $(X, Y)$  with joint density  $f(x, y)$  and then estimate  $\theta$  with
 
 $$
-\widehat {\theta} _ {n} := \frac {g (X _ {1} , Y _ {1}) + \ldots + g (X _ {n} , Y _ {n})}{n}.
+\widehat {\theta}_{n} := \frac{g (X_{1} , Y_{1}) + \ldots + g (X_{n} , Y_{n})}{n}.
 $$
 
 # Generating Univariate Random Variables
@@ -157,7 +157,7 @@ There are many methods for generating univariate random variables:
 Suppose  $X$  can take on  $n$  distinct values,  $x_{1} < x_{2} < \ldots < x_{n}$ , with
 
 $$
-P (X = x _ {i}) = p _ {i} \quad \text {f o r} \quad i = 1, \ldots , n.
+P (X = x_{i}) = p_{i} \quad \text{fo r} \quad i = 1, \ldots , n.
 $$
 
 Then to generate a sample value of  $X$  we:
@@ -200,7 +200,7 @@ This suggests that when  $X$  is continuous, we might generate  $X$  as follows:
 Need to prove that this algorithm actually works! But this follows since
 
 $$
-\begin{array}{l} P (X \leq x) = P \left(F _ {x} ^ {- 1} (U) \leq x\right) \\ = P (U \leq F _ {x} (x)) \\ = F _ {x} (x) \\ \end{array}
+\begin{array}{l} P (X \leq x) = P \left(F_{x}^{- 1} (U) \leq x\right) \\ = P (U \leq F_{x} (x)) \\ = F_{x} (x) \\ \end{array}
 $$
 
 as desired.
@@ -231,7 +231,7 @@ Suppose  $X$  has CDF  $F_{x}$  and let  $X_{1},\ldots ,X_{n}$  be  $\mathbb{I}\
 Let  $X_{(1)},\ldots ,X_{(n)}$  be the ordered sample so that
 
 $$
-X _ {(1)} \leq X _ {(2)} \leq \ldots \leq X _ {(n)}.
+X_{(1)} \leq X_{(2)} \leq \ldots \leq X_{(n)}.
 $$
 
 We say  $X_{(i)}$  is the  $i^{th}$  ordered statistic.
@@ -243,7 +243,7 @@ Several questions arise:
 3. Can we do even better? Hint: Suppose  $Z \sim \beta a(a, b)$  on  $(0, 1)$  so that
 
 $$
-f (z) = c z ^ {a - 1} (1 - z) ^ {b - 1} \quad \text {f o r} 0 \leq z \leq 1
+f (z) = c z^{a - 1} (1 - z)^{b - 1} \quad \text{fo r} 0 \leq z \leq 1
 $$
 
 where  $c$  is a constant.
@@ -260,7 +260,7 @@ Principal disadvantage is that  $F_{x}^{-1}$  may not always be computable.
 e.g. Suppose  $X \sim \mathsf{N}(0,1)$ . Then
 
 $$
-F _ {x} (x) = \int_ {- \infty} ^ {x} \frac {1}{\sqrt {2 \pi}} \exp \left(\frac {- z ^ {2}}{2}\right) d z
+F_{x} (x) = \int_{- \infty}^{x} \frac{1}{\sqrt{2 \pi}} \exp \left(\frac{- z^{2}}{2}\right) d z
 $$
 
 so that we cannot even express  $F_{x}$  in closed form.
@@ -276,7 +276,7 @@ One possible solution to these problems is to find  $F_{x}^{-1}$  numerically.
 Can often write
 
 $$
-F _ {x} (x) = \sum_ {j = 1} ^ {\infty} p _ {j} F _ {j} (x)
+F_{x} (x) = \sum_{j = 1}^{\infty} p_{j} F_{j} (x)
 $$
 
 where the  $F_{j}$ 's are also CDFs,  $p_{j} \geq 0$  for all  $j$ , and  $\sum p_{j} = 1$ .
@@ -284,7 +284,7 @@ where the  $F_{j}$ 's are also CDFs,  $p_{j} \geq 0$  for all  $j$ , and  $\sum 
 Equivalently, if the densities exist then we can write
 
 $$
-f _ {x} (x) = \sum_ {j = 1} ^ {\infty} p _ {j} f _ {j} (x).
+f_{x} (x) = \sum_{j = 1}^{\infty} p_{j} f_{j} (x).
 $$
 
 Such a representation often occurs very naturally.
@@ -292,7 +292,7 @@ Such a representation often occurs very naturally.
 e.g. Suppose  $X \sim$  Hyperexponential  $(\lambda_1, \alpha_1, \ldots, \lambda_n, \alpha_n)$  so that
 
 $$
-f _ {x} (x) = \sum_ {j = 1} ^ {n} \alpha_ {i} \lambda_ {i} e ^ {- \lambda_ {i} x}
+f_{x} (x) = \sum_{j = 1}^{n} \alpha_{i} \lambda_{i} e^{- \lambda_{i} x}
 $$
 
 where  $\lambda_{i}$ ,  $\alpha_{i} \geq 0$ , and  $\sum_{i}^{n} \alpha_{i} = 1$ .
@@ -310,7 +310,7 @@ Claim that  $X$  has the desired distribution!
 Proof. We have
 
 $$
-\begin{array}{l} P (X \leq x) = \sum_ {j = 1} ^ {\infty} P (X \leq x | I = j) P (I = j) \\ = \sum_ {j = 1} ^ {\infty} P (Y _ {j} \leq x) P (I = j) \\ = \sum_ {j = 1} ^ {\infty} F _ {j} (x) p _ {j} \\ = F _ {x} (x). \\ \end{array}
+\begin{array}{l} P (X \leq x) = \sum_{j = 1}^{\infty} P (X \leq x | I = j) P (I = j) \\ = \sum_{j = 1}^{\infty} P (Y_{j} \leq x) P (I = j) \\ = \sum_{j = 1}^{\infty} F_{j} (x) p_{j} \\ = F_{x} (x). \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/84644a6c-8b31-4244-840a-7ca4f0b0280c/65b162e154a73c5d7879bc2f17c5308f50c645ee4d2c016fa94573a6b3ce02c0.jpg)
@@ -328,7 +328,7 @@ Towards this end let  $Y$  be another r.var. with density  $g(\cdot)$  and suppo
 If there exists a constant  $a$  such that
 
 $$
-\frac {f (x)}{g (x)} \leq a \text {f o r a l l} x
+\frac{f (x)}{g (x)} \leq a \text{fo ra ll} x
 $$
 
 then can simulate a value of  $X$  as follows.
@@ -354,19 +354,19 @@ We need to show that  $P(X \leq x) = F_{x}(x)$ .
 Proof. First observe
 
 $$
-P (X \leq x) = P (Y \leq x | B) = \frac {P \left((Y \leq x) \cap B\right)}{P (B)}. \tag {1}
+P (X \leq x) = P (Y \leq x | B) = \frac{P \left((Y \leq x) \cap B\right)}{P (B)}. \tag {1}
 $$
 
 We can compute  $P(B)$  as
 
 $$
-P (B) = P \left(U \leq \frac {f (Y)}{a g (Y)}\right) = \frac {1}{a}
+P (B) = P \left(U \leq \frac{f (Y)}{a g (Y)}\right) = \frac{1}{a}
 $$
 
 while the numerator in (1) satisfies
 
 $$
-\begin{array}{l} P \left(\left(Y \leq x\right) \cap B\right) = \int_ {- \infty} ^ {\infty} P \left(\left(Y \leq x\right) \cap B \mid Y = y\right) g (y) d y \\ = \int_ {- \infty} ^ {\infty} P \left(\left(Y \leq x\right) \cap \left(U \leq \frac {f (Y)}{a g (Y)}\right) \mid Y = y\right) g (y) d y \\ = \int_ {- \infty} ^ {x} P (U \leq \frac {f (y)}{a g (y)}) g (y) d y \quad (\text {w h y ?}) \\ = \frac {F _ {x} (x)}{a} \\ \end{array}
+\begin{array}{l} P \left(\left(Y \leq x\right) \cap B\right) = \int_{- \infty}^{\infty} P \left(\left(Y \leq x\right) \cap B \mid Y = y\right) g (y) d y \\ = \int_{- \infty}^{\infty} P \left(\left(Y \leq x\right) \cap \left(U \leq \frac{f (Y)}{a g (Y)}\right) \mid Y = y\right) g (y) d y \\ = \int_{- \infty}^{x} P (U \leq \frac{f (y)}{a g (y)}) g (y) d y \quad (\text{wh y ?}) \\ = \frac{F_{x} (x)}{a} \\ \end{array}
 $$
 
 Therefore  $P(X \leq x) = F_x(x)$ , as required.
@@ -376,7 +376,7 @@ Therefore  $P(X \leq x) = F_x(x)$ , as required.
 Suppose we wish to simulate from the  $\mathrm{Beta}(4,3)$  so that
 
 $$
-f (x) = 6 0 x ^ {3} (1 - x) ^ {2} \quad \text {f o r} 0 \leq x \leq 1.
+f (x) = 6 0 x^{3} (1 - x)^{2} \quad \text{fo r} 0 \leq x \leq 1.
 $$
 
 We could integrate  $f(\cdot)$  to find  $F(\cdot)$  and then try to use the inverse transform approach.
@@ -387,13 +387,13 @@ But no analytic expression for  $F^{-1}(\cdot)$  so let's use the acceptance-rej
 2. now find  $a$ . Recall we must have
 
 $$
-\frac {f (x)}{g (x)} \leq a \text {f o r} \text {a l l} x,
+\frac{f (x)}{g (x)} \leq a \text{fo r} \text{al l} x,
 $$
 
 which implies
 
 $$
-6 0 x ^ {3} (1 - x) ^ {2} \leq a \text {f o r a l l} x \in [ 0, 1 ].
+6 0 x^{3} (1 - x)^{2} \leq a \text{fo ra ll} x \in [ 0, 1 ].
 $$
 
 So take  $a = 3$
@@ -432,7 +432,7 @@ Question: How should we choose  $g(\cdot)$ ?
 Suppose we want to simulate a value of a random variable,  $X$ , and we know that
 
 $$
-X \sim g (Y _ {1}, \dots , Y _ {n})
+X \sim g (Y_{1}, \dots , Y_{n})
 $$
 
 for some random variables  $Y_{1},\ldots ,Y_{n}$  and some function  $g(\cdot)$
@@ -453,7 +453,7 @@ Nonetheless worthwhile understanding how to do this.
 First note that if  $Z\sim \mathsf{N}(0,1)$  then
 
 $$
-X := \mu + \sigma Z \sim \mathsf {N} (\mu , \sigma^ {2})
+X := \mu + \sigma Z \sim \mathsf {N} (\mu , \sigma^{2})
 $$
 
 so only need to concern ourselves with generating  $\mathsf{N}(0,1)$  random variables.
@@ -477,11 +477,11 @@ The Box-Muller algorithm uses two IID  $U(0,1)$  random variables to produce two
 generate  $U_{1}$  and  $U_{2}$  IID  $U(0,1)$  set
 
 $$
-X = \sqrt {- 2 \log (U _ {1})} \cos (2 \pi U _ {2})
+X = \sqrt{- 2 \log (U_{1})} \cos (2 \pi U_{2})
 $$
 
 $$
-Y = \sqrt {- 2 \log (U _ {1})} \sin (2 \pi U _ {2}).
+Y = \sqrt{- 2 \log (U_{1})} \sin (2 \pi U_{2}).
 $$
 
 # Rational Approximations
@@ -495,7 +495,7 @@ Finding  $\Phi^{-1}$  in closed form is not possible but instead, we can instead
 e.g. For  $0.5 \leq u \leq 1$
 
 $$
-x _ {u} \approx t - \frac {a _ {0} + a _ {1} t}{1 + b _ {1} t + b _ {2} t ^ {2}}
+x_{u} \approx t - \frac{a_{0} + a_{1} t}{1 + b_{1} t + b_{2} t^{2}}
 $$
 
 where  $a_0, a_1, b_1$  and  $b_2$  are constants, and  $t = \sqrt{-2\log(1 - u)}$ .
@@ -509,7 +509,7 @@ Even more accurate approximations are available, and since they are very fast, m
 If  $\mathbf{X}$  multivariate normal with mean vector  $\pmb{\mu}$  and covariance matrix  $\boldsymbol{\Sigma}$  then write
 
 $$
-\mathbf {X} \sim \mathrm {M N} _ {n} (\boldsymbol {\mu}, \boldsymbol {\Sigma}).
+\mathbf {X} \sim \mathrm{MN}_{n} (\boldsymbol {\mu}, \boldsymbol {\Sigma}).
 $$
 
 Standard multivariate normal:  $\pmb{\mu} = \mathbf{0}$  and  $\pmb{\Sigma} = \mathbf{I}_{\mathbf{n}}$ , the  $n \times n$  identity matrix.
@@ -517,7 +517,7 @@ Standard multivariate normal:  $\pmb{\mu} = \mathbf{0}$  and  $\pmb{\Sigma} = \m
 PDF of  $\mathbf{X}$  given by
 
 $$
-f (\mathbf {x}) = \frac {1}{(2 \pi) ^ {n / 2} | \boldsymbol {\Sigma} | ^ {1 / 2}} e ^ {- \frac {1}{2} (\mathbf {x} - \boldsymbol {\mu}) ^ {\top} \boldsymbol {\Sigma} ^ {- 1} (\mathbf {x} - \boldsymbol {\mu})} \tag {2}
+f (\mathbf {x}) = \frac{1}{(2 \pi)^{n / 2} | \boldsymbol {\Sigma} |^{1 / 2}} e^{- \frac{1}{2} (\mathbf {x} - \boldsymbol {\mu})^{\top} \boldsymbol {\Sigma}^{- 1} (\mathbf {x} - \boldsymbol {\mu})} \tag {2}
 $$
 
 where  $|\cdot |$  denotes the determinant.
@@ -525,7 +525,7 @@ where  $|\cdot |$  denotes the determinant.
 Characteristic function satisfies
 
 $$
-\phi_ {\mathbf {X}} (s) = \mathsf {E} \left[ e ^ {i s ^ {\top} \mathbf {X}} \right] = e ^ {i s ^ {\top} \boldsymbol {\mu} - \frac {1}{2} s ^ {\top} \boldsymbol {\Sigma} s}.
+\phi_{\mathbf {X}} (s) = \mathsf {E} \left[ e^{i s^{\top} \mathbf {X}} \right] = e^{i s^{\top} \boldsymbol {\mu} - \frac{1}{2} s^{\top} \boldsymbol {\Sigma} s}.
 $$
 
 # The Multivariate Normal Distribution
@@ -533,7 +533,7 @@ $$
 Let  $\mathbf{X}_1 = (X_1, \ldots, X_k)^\top$  and  $\mathbf{X}_2 = (X_{k+1}, \ldots, X_n)^\top$  be a partition of  $\mathbf{X}$  with
 
 $$
-\boldsymbol {\mu} = \left( \begin{array}{c} \boldsymbol {\mu} _ {1} \\ \boldsymbol {\mu} _ {2} \end{array} \right) \quad \text {a n d} \quad \boldsymbol {\Sigma} = \left( \begin{array}{c c} \boldsymbol {\Sigma} _ {1 1} & \boldsymbol {\Sigma} _ {1 2} \\ \boldsymbol {\Sigma} _ {2 1} & \boldsymbol {\Sigma} _ {2 2} \end{array} \right).
+\boldsymbol {\mu} = \left( \begin{array}{c} \boldsymbol {\mu}_{1} \\ \boldsymbol {\mu}_{2} \end{array} \right) \quad \text{an d} \quad \boldsymbol {\Sigma} = \left( \begin{array}{c c} \boldsymbol {\Sigma}_{1 1} & \boldsymbol {\Sigma}_{1 2} \\ \boldsymbol {\Sigma}_{2 1} & \boldsymbol {\Sigma}_{2 2} \end{array} \right).
 $$
 
 Then marginal distribution of a multivariate normal random vector is itself (multivariate) normal. In particular,  $\mathbf{X}_{\mathbf{i}}\sim \mathsf{MN}(\pmb{\mu}_{i},\pmb{\Sigma}_{ii})$ , for  $i = 1,2$
@@ -541,17 +541,17 @@ Then marginal distribution of a multivariate normal random vector is itself (mul
 Assuming  $\Sigma$  is positive definite, the conditional distribution of a multivariate normal distribution is also a (multivariate) normal distribution. In particular,
 
 $$
-\mathbf {X} _ {2} \mid \mathbf {X} _ {1} = \mathbf {x} _ {1} \sim \operatorname {M N} \left(\boldsymbol {\mu} _ {2, 1}, \boldsymbol {\Sigma} _ {2, 1}\right)
+\mathbf {X}_{2} \mid \mathbf {X}_{1} = \mathbf {x}_{1} \sim \operatorname{MN} \left(\boldsymbol {\mu}_{2, 1}, \boldsymbol {\Sigma}_{2, 1}\right)
 $$
 
 where
 
 $$
-\boldsymbol {\mu} _ {2. 1} = \boldsymbol {\mu} _ {2} + \boldsymbol {\Sigma} _ {2 1} \boldsymbol {\Sigma} _ {1 1} ^ {- 1} \left(\mathbf {x} _ {1} - \boldsymbol {\mu} _ {1}\right)
+\boldsymbol {\mu}_{2. 1} = \boldsymbol {\mu}_{2} + \boldsymbol {\Sigma}_{2 1} \boldsymbol {\Sigma}_{1 1}^{- 1} \left(\mathbf {x}_{1} - \boldsymbol {\mu}_{1}\right)
 $$
 
 $$
-\boldsymbol {\Sigma} _ {2. 1} = \boldsymbol {\Sigma} _ {2 2} - \boldsymbol {\Sigma} _ {2 1} \boldsymbol {\Sigma} _ {1 1} ^ {- 1} \boldsymbol {\Sigma} _ {1 2}.
+\boldsymbol {\Sigma}_{2. 1} = \boldsymbol {\Sigma}_{2 2} - \boldsymbol {\Sigma}_{2 1} \boldsymbol {\Sigma}_{1 1}^{- 1} \boldsymbol {\Sigma}_{1 2}.
 $$
 
 # Generating MN Distributed Random Vectors
@@ -563,7 +563,7 @@ Let  $\mathbf{Z} = (Z_1, \ldots, Z_n)^\top$  where  $Z_i \sim \mathsf{N}(0, 1)$ 
 If  $\mathbf{C}$  and  $(n\times m)$  matrix then
 
 $$
-\mathbf {C} ^ {\top} \mathbf {Z} \sim \operatorname {M N} (0, \mathbf {C} ^ {\top} \mathbf {C}).
+\mathbf {C}^{\top} \mathbf {Z} \sim \operatorname{MN} (0, \mathbf {C}^{\top} \mathbf {C}).
 $$
 
 Problem therefore reduces to finding  $\mathbf{C}$  such that  $\mathbf{C}^{\top}\mathbf{C} = \boldsymbol{\Sigma}$ .
@@ -575,7 +575,7 @@ Usually find such a matrix,  $\mathbf{C}$ , via the Cholesky decomposition of  $
 Any symmetric positive-definite matrix,  $\mathbf{M}$ , may be written as
 
 $$
-\mathbf {M} = \mathbf {U} ^ {\top} \mathbf {D} \mathbf {U}
+\mathbf {M} = \mathbf {U}^{\top} \mathbf {D} \mathbf {U}
 $$
 
 where:
@@ -586,11 +586,11 @@ where:
 Since  $\pmb{\Sigma}$  is symmetric positive-definite, can therefore write
 
 $$
-\begin{array}{l} \boldsymbol {\Sigma} = \mathbf {U} ^ {\top} \mathbf {D} \mathbf {U} \\ = (\mathbf {U} ^ {\top} \sqrt {\mathbf {D}}) (\sqrt {\mathbf {D}} \mathbf {U}) \\ = (\sqrt {\mathbf {D}} \mathbf {U}) ^ {\top} (\sqrt {\mathbf {D}} \mathbf {U}). \\ \end{array}
+\begin{array}{l} \boldsymbol {\Sigma} = \mathbf {U}^{\top} \mathbf {D} \mathbf {U} \\ = (\mathbf {U}^{\top} \sqrt{\mathbf {D}}) (\sqrt{\mathbf {D}} \mathbf {U}) \\ = (\sqrt{\mathbf {D}} \mathbf {U})^{\top} (\sqrt{\mathbf {D}} \mathbf {U}). \\ \end{array}
 $$
 
 $$
-\mathbf {C} = \sqrt {\mathbf {D}} \mathbf {U} \text {t h e r e f o r e s a t i s f i e s} \mathbf {C} ^ {\top} \mathbf {C} = \boldsymbol {\Sigma}
+\mathbf {C} = \sqrt{\mathbf {D}} \mathbf {U} \text{th er ef or es at is fi es} \mathbf {C}^{\top} \mathbf {C} = \boldsymbol {\Sigma}
 $$
 
 - $\mathbf{C}$  is called the Cholesky Decomposition of  $\boldsymbol{\Sigma}$ .
@@ -637,7 +637,7 @@ Must also be careful that  $\Sigma$  is indeed a genuine variance-covariance mat
 A Poisson process,  $N(t)$ , with intensity  $\lambda$  is a process such that
 
 $$
-P \left(N (t) = r\right) = \frac {(\lambda t) ^ {r} e ^ {- \lambda t}}{r !}.
+P \left(N (t) = r\right) = \frac{(\lambda t)^{r} e^{- \lambda t}}{r !}.
 $$
 
 For a Poisson process the numbers of arrivals in non-overlapping intervals are independent and the distribution of the number of arrivals in an interval only depends on the length of the interval.
@@ -679,13 +679,13 @@ If  $\lambda(t) \geq 0$  is the intensity of the process at time  $t$ , then we 
 Define the function  $m(t)$  by
 
 $$
-m (t) := \int_ {0} ^ {t} \lambda (s) d s.
+m (t) := \int_{0}^{t} \lambda (s) d s.
 $$
 
 Can be shown that  $N(t + s) - N(t)$  is a Poisson random variable with parameter  $m(t + s) - m(t)$ , i.e.,
 
 $$
-P \left(N (t + s) - N (t) = r\right) = \frac {\exp \left(- m _ {t , s}\right) \left(m _ {t , s}\right) ^ {r}}{r !}
+P \left(N (t + s) - N (t) = r\right) = \frac{\exp \left(- m_{t , s}\right) \left(m_{t , s}\right)^{r}}{r !}
 $$
 
 where  $m_{t,s} \coloneqq m(t + s) - m(t)$ .
@@ -729,7 +729,7 @@ Definition. A stochastic process,  $\{X_{t}:t\geq 0\}$ , is a Brownian motion wi
 1. For  $0 < t_1 < t_2 < \ldots < t_{n-1} < t_n$
 
 $$
-\left(X _ {t _ {2}} - X _ {t _ {1}}\right), \left(X _ {t _ {3}} - X _ {t _ {2}}\right), \dots , \left(X _ {t _ {n}} - X _ {t _ {n - 1}}\right)
+\left(X_{t_{2}} - X_{t_{1}}\right), \left(X_{t_{3}} - X_{t_{2}}\right), \dots , \left(X_{t_{n}} - X_{t_{n - 1}}\right)
 $$
 
 are mutually independent.
@@ -740,7 +740,7 @@ are mutually independent.
 Say that  $X$  is a  $B(\mu, \sigma)$  Brownian motion with drift,  $\mu$ , and volatility,  $\sigma$ . When  $\mu = 0$  and  $\sigma = 1$  we have a standard Brownian motion (SBM). If  $X \sim B(\mu, \sigma)$  and  $X_0 = x$  then can write
 
 $$
-X _ {t} = x + \mu t + \sigma B _ {t}.
+X_{t} = x + \mu t + \sigma B_{t}.
 $$
 
 # Simulating a Brownian Motion
@@ -762,7 +762,7 @@ Question: Can you suggest another method to generate  $B_{t_i}$  for  $t_1 < t_2
 Definition. A stochastic process,  $\{X_{t}:t\geq 0\}$ , is a  $(\mu ,\sigma)$  geometric Brownian motion (GBM) if
 
 $$
-\log (X) \sim \mathsf {B} (\mu - \sigma^ {2} / 2, \sigma).
+\log (X) \sim \mathsf {B} (\mu - \sigma^{2} / 2, \sigma).
 $$
 
 We write  $X \sim \mathrm{GBM}(\mu, \sigma)$  and call  $\mu$  the drift and  $\sigma$  the volatility.
@@ -788,13 +788,13 @@ $S_0$  is the known stock price at  $t = 0$
 $S_{t}$  is the random stock price at time  $t$  and satisfies
 
 $$
-S _ {t} = S _ {0} e ^ {(\mu - \sigma^ {2} / 2) t + \sigma B _ {t}}.
+S_{t} = S_{0} e^{(\mu - \sigma^{2} / 2) t + \sigma B_{t}}.
 $$
 
 so that
 
 $$
-S _ {t + \Delta t} = S _ {t} e ^ {(\mu - \sigma^ {2} / 2) \Delta t + \sigma (B _ {t + \Delta t} - B _ {t})}.
+S_{t + \Delta t} = S_{t} e^{(\mu - \sigma^{2} / 2) \Delta t + \sigma (B_{t + \Delta t} - B_{t})}.
 $$
 
 # E.G: Parameter Uncertainty and Hedging in Black-Scholes
@@ -824,11 +824,11 @@ $P_{t}$  denotes time  $t$  value of the discrete-time s.f. strategy and  $C_0$ 
 The replicating strategy is then satisfies
 
 $$
-P _ {0} := C _ {0} \tag {3}
+P_{0} := C_{0} \tag {3}
 $$
 
 $$
-P _ {t _ {i + 1}} = P _ {t _ {i}} + \left(P _ {t _ {i}} - \delta_ {t _ {i}} S _ {t _ {i}}\right) r \Delta t + \delta_ {t _ {i}} \left(S _ {t _ {i + 1}} - S _ {t _ {i}} + q S _ {t _ {i}} \Delta t\right) \tag {4}
+P_{t_{i + 1}} = P_{t_{i}} + \left(P_{t_{i}} - \delta_{t_{i}} S_{t_{i}}\right) r \Delta t + \delta_{t_{i}} \left(S_{t_{i + 1}} - S_{t_{i}} + q S_{t_{i}} \Delta t\right) \tag {4}
 $$
 
 where:
@@ -845,7 +845,7 @@ Note that (3) and (4) respect the s.f. condition.
 Stock prices are simulated assuming  $S_{t}\sim \mathrm{GBM}(\mu ,\sigma)$  so that
 
 $$
-S _ {t + \Delta t} = S _ {t} e ^ {(\mu - \sigma^ {2} / 2) \Delta t + \sigma \sqrt {\Delta t} Z}
+S_{t + \Delta t} = S_{t} e^{(\mu - \sigma^{2} / 2) \Delta t + \sigma \sqrt{\Delta t} Z}
 $$
 
 where  $Z\sim \mathsf{N}(0,1)$
@@ -853,7 +853,7 @@ where  $Z\sim \mathsf{N}(0,1)$
 In the case of a short position in a call option with strike  $K$  and maturity  $T$ , the final trading P&L is then defined as
 
 $$
-\mathrm {P} \& \mathrm {L} := P _ {T} - \left(S _ {T} - K\right) ^ {+} \tag {5}
+\mathrm{P} \& \mathrm{L} := P_{T} - \left(S_{T} - K\right)^{+} \tag {5}
 $$
 
 where  $P_{T}$  is the terminal value of the replicating strategy in (4).
@@ -897,7 +897,7 @@ The payoff from delta-hedging an option is in general path-dependent.
 Can be shown that the payoff from continuously delta-hedging an option satisfies
 
 $$
-\mathsf {P} \& \mathsf {L} = \int_ {0} ^ {T} \frac {S _ {t} ^ {2}}{2} \frac {\partial^ {2} V _ {t}}{\partial S ^ {2}} \left(\sigma_ {i m p} ^ {2} - \sigma_ {t} ^ {2}\right) d t
+\mathsf {P} \& \mathsf {L} = \int_{0}^{T} \frac{S_{t}^{2}}{2} \frac{\partial^{2} V_{t}}{\partial S^{2}} \left(\sigma_{i m p}^{2} - \sigma_{t}^{2}\right) d t
 $$
 
 where  $V_{t}$  is the time  $t$  value of the option and  $\sigma_{t}$  is the realized instantaneous volatility at time  $t$ .

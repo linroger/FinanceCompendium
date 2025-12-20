@@ -2693,7 +2693,7 @@ $$
 $$
 
 $$
-\text{L'Hopital ' s} = \lim_{y \rightarrow 0} \frac{t M^{\prime} (t y)}{2 y M (t y)}
+\text{L'Hopital 's} = \lim_{y \rightarrow 0} \frac{t M^{\prime} (t y)}{2 y M (t y)}
 $$
 
 $$

@@ -96,7 +96,7 @@ Let  $S$  be a sample space and let  $B_{1},\ldots ,B_{K}$  be a partition of  $
 Bayes's Theorem: Let  $A$  be any event. Then for any  $1 \leq k \leq K$  we have
 
 $$
-P (B _ {k} \mid A) = \frac {P (A \mid B _ {k}) P (B _ {k})}{P (A)} = \frac {P (A \mid B _ {k}) P (B _ {k})}{\sum_ {j = 1} ^ {K} P (A \mid B _ {j}) P (B _ {j})}.
+P (B_{k} \mid A) = \frac{P (A \mid B_{k}) P (B_{k})}{P (A)} = \frac{P (A \mid B_{k}) P (B_{k})}{\sum_{j = 1}^{K} P (A \mid B_{j}) P (B_{j})}.
 $$
 
 Of course there is also a continuous version of Bayes's Theorem with sums replaced by integrals.
@@ -121,13 +121,13 @@ The joint distribution of  $\pmb{\theta}$  and  $\mathbf{X}$  is then given by  
 - we can integrate to get the marginal distribution of  $\mathbf{X}$
 
 $$
-p (\mathbf {x}) = \int_ {\boldsymbol {\theta}} \pi (\boldsymbol {\theta}) p (\mathbf {x} \mid \boldsymbol {\theta}) d \boldsymbol {\theta}
+p (\mathbf {x}) = \int_{\boldsymbol {\theta}} \pi (\boldsymbol {\theta}) p (\mathbf {x} \mid \boldsymbol {\theta}) d \boldsymbol {\theta}
 $$
 
 We can compute the posterior distribution via Bayes's Theorem:
 
 $$
-\pi (\boldsymbol {\theta} \mid \mathbf {x}) = \frac {\pi (\boldsymbol {\theta}) p (\mathbf {x} \mid \boldsymbol {\theta})}{p (\mathbf {x})} = \frac {\pi (\boldsymbol {\theta}) p (\mathbf {x} \mid \boldsymbol {\theta})}{\int_ {\boldsymbol {\theta}} \pi (\boldsymbol {\theta}) p (\mathbf {x} \mid \boldsymbol {\theta}) d \boldsymbol {\theta}} \tag {1}
+\pi (\boldsymbol {\theta} \mid \mathbf {x}) = \frac{\pi (\boldsymbol {\theta}) p (\mathbf {x} \mid \boldsymbol {\theta})}{p (\mathbf {x})} = \frac{\pi (\boldsymbol {\theta}) p (\mathbf {x} \mid \boldsymbol {\theta})}{\int_{\boldsymbol {\theta}} \pi (\boldsymbol {\theta}) p (\mathbf {x} \mid \boldsymbol {\theta}) d \boldsymbol {\theta}} \tag {1}
 $$
 
 # The Prior and Posterior Distributions
@@ -137,7 +137,7 @@ The mode of the posterior is called the maximum a posterior (MAP) estimator whil
 The posterior predictive distribution is the distribution of a new as yet unseen data-point,  $\mathbf{X}_{\text{new}}$ :
 
 $$
-p (\mathbf {x} _ {\text {n e w}}) = \int_ {\boldsymbol {\theta}} \pi (\boldsymbol {\theta} \mid \mathbf {x}) p (\mathbf {x} _ {\text {n e w}} \mid \boldsymbol {\theta}) d \boldsymbol {\theta}
+p (\mathbf {x}_{\text{ne w}}) = \int_{\boldsymbol {\theta}} \pi (\boldsymbol {\theta} \mid \mathbf {x}) p (\mathbf {x}_{\text{ne w}} \mid \boldsymbol {\theta}) d \boldsymbol {\theta}
 $$
 
 which is obtained using the posterior distribution of  $\theta$  given the observed data  $\mathbf{X}$ .
@@ -158,19 +158,19 @@ which is what we often work with:
 Let  $\theta \in (0,1)$  represent some unknown probability. We assume a  $\operatorname{Beta}(\alpha, \beta)$  prior so that
 
 $$
-\pi (\theta) = \frac {\theta^ {\alpha - 1} (1 - \theta) ^ {\beta - 1}}{B (\alpha , \beta)}, \quad 0 <   \theta <   1.
+\pi (\theta) = \frac{\theta^{\alpha - 1} (1 - \theta)^{\beta - 1}}{B (\alpha , \beta)}, \quad 0 <   \theta <   1.
 $$
 
-We also assume that  $X\mid \theta \sim \operatorname {Bin}(n,\theta)$  so that
+We also assume that  $X\mid \theta \sim \operatorname{Bin}(n,\theta)$  so that
 
 $$
-p (x \mid \theta) = \binom {n} {x} \theta^ {x} (1 - \theta) ^ {n - x}, x = 0, \ldots , n.
+p (x \mid \theta) = \binom {n} {x} \theta^{x} (1 - \theta)^{n - x}, x = 0, \ldots , n.
 $$
 
 The posterior then satisfies
 
 $$
-\begin{array}{l} p (\theta \mid x) \propto \pi (\theta) p (x \mid \theta) \\ = \frac {\theta^ {\alpha - 1} (1 - \theta) ^ {\beta - 1}}{B (\alpha , \beta)} \binom {n} {x} \theta^ {x} (1 - \theta) ^ {n - x} \\ \propto \theta^ {\alpha + x - 1} (1 - \theta) ^ {n - x + \beta - 1} \\ \end{array}
+\begin{array}{l} p (\theta \mid x) \propto \pi (\theta) p (x \mid \theta) \\ = \frac{\theta^{\alpha - 1} (1 - \theta)^{\beta - 1}}{B (\alpha , \beta)} \binom {n} {x} \theta^{x} (1 - \theta)^{n - x} \\ \propto \theta^{\alpha + x - 1} (1 - \theta)^{n - x + \beta - 1} \\ \end{array}
 $$
 
 which we recognize as the  $\mathrm{Beta}(\alpha +x,\beta +n - x)$  distribution!
@@ -190,7 +190,7 @@ data  $\mathbf{X} = (X_{1},\dots ,X_{N})\sim p(\mathbf{x}\mid \boldsymbol {\thet
 As we saw before posterior distribution satisfies
 
 $$
-p (\boldsymbol {\theta} \mid \mathbf {x}) \propto p (\boldsymbol {\theta}, \mathbf {x}) = p (\mathbf {x} \mid \boldsymbol {\theta}) \pi (\boldsymbol {\theta}; \boldsymbol {\alpha} _ {0})
+p (\boldsymbol {\theta} \mid \mathbf {x}) \propto p (\boldsymbol {\theta}, \mathbf {x}) = p (\mathbf {x} \mid \boldsymbol {\theta}) \pi (\boldsymbol {\theta}; \boldsymbol {\alpha}_{0})
 $$
 
 Say the prior  $\pi (\pmb {\theta}\mid \alpha)$  is a conjugate prior for the likelihood  $p(\mathbf{x}\mid \pmb {\theta})$  if the posterior satisfies
@@ -212,13 +212,13 @@ so  $\alpha_0 = (\mu_0,\gamma_0^2)$  and  $\sigma^2$  is assumed known.
 If  $\mathbf{X} = (X_{1},\ldots ,X_{N})$  we then have
 
 $$
-\begin{array}{l} p (\theta \mid \mathbf {x}) \propto p (\mathbf {x} \mid \boldsymbol {\theta}) \pi (\theta ; \alpha_ {0}) \\ \propto e ^ {- \frac {(\theta - \mu_ {0}) ^ {2}}{2 \gamma_ {0} ^ {2}}} \prod_ {i = 1} ^ {N} e ^ {- \frac {(x _ {i} - \theta) ^ {2}}{2 \sigma^ {2}}} \\ \propto \exp \left(- \frac {(\theta - \mu_ {1}) ^ {2}}{2 \gamma_ {1} ^ {2}}\right) \\ \end{array}
+\begin{array}{l} p (\theta \mid \mathbf {x}) \propto p (\mathbf {x} \mid \boldsymbol {\theta}) \pi (\theta ; \alpha_{0}) \\ \propto e^{- \frac{(\theta - \mu_{0})^{2}}{2 \gamma_{0}^{2}}} \prod_{i = 1}^{N} e^{- \frac{(x_{i} - \theta)^{2}}{2 \sigma^{2}}} \\ \propto \exp \left(- \frac{(\theta - \mu_{1})^{2}}{2 \gamma_{1}^{2}}\right) \\ \end{array}
 $$
 
 where
 
 $$
-\begin{array}{l} \gamma_ {1} ^ {- 2} := \gamma_ {0} ^ {- 2} + N \sigma^ {- 2} \\ \text {a n d} \mu_ {1} := \gamma_ {1} ^ {2} \left(\mu_ {0} \gamma_ {0} ^ {- 2} + \sum_ {i = 1} ^ {n} x _ {i} \sigma^ {- 2}\right). \\ \end{array}
+\begin{array}{l} \gamma_{1}^{- 2} := \gamma_{0}^{- 2} + N \sigma^{- 2} \\ \text{an d} \mu_{1} := \gamma_{1}^{2} \left(\mu_{0} \gamma_{0}^{- 2} + \sum_{i = 1}^{n} x_{i} \sigma^{- 2}\right). \\ \end{array}
 $$
 
 Of course we recognize  $p(\theta \mid \mathbf{x})$  as the  $\mathsf{N}(\mu_1,\gamma_1^2)$  distribution.
@@ -232,7 +232,7 @@ Now assume  $\mu$  and  $\sigma^2$  are unknown so  $\pmb{\theta} = (\mu, \sigma
 We assume a joint prior of the form
 
 $$
-\begin{array}{l} \pi (\mu , \sigma^ {2}) = \pi (\mu \mid \sigma^ {2}) \pi (\sigma^ {2}) \\ = \mathsf {N} \left(\mu_ {0}, \sigma^ {2} / \kappa_ {0}\right) \times \ln v - \chi^ {2} \left(\nu_ {0}, \sigma_ {0} ^ {2}\right) \\ \propto \sigma^ {- 1} (\sigma^ {2}) ^ {- (\nu_ {0} / 2 + 1)} \exp \left(- \frac {1}{2 \sigma^ {2}} [ \nu_ {0} \sigma_ {0} ^ {2} + \kappa_ {0} (\mu_ {0} - \mu) ^ {2} ]\right) \\ \end{array}
+\begin{array}{l} \pi (\mu , \sigma^{2}) = \pi (\mu \mid \sigma^{2}) \pi (\sigma^{2}) \\ = \mathsf {N} \left(\mu_{0}, \sigma^{2} / \kappa_{0}\right) \times \ln v - \chi^{2} \left(\nu_{0}, \sigma_{0}^{2}\right) \\ \propto \sigma^{- 1} (\sigma^{2})^{- (\nu_{0} / 2 + 1)} \exp \left(- \frac{1}{2 \sigma^{2}} [ \nu_{0} \sigma_{0}^{2} + \kappa_{0} (\mu_{0} - \mu)^{2} ]\right) \\ \end{array}
 $$
 
 - the N-Inv- $\chi^2(\mu_0, \sigma_0^2 / \kappa_0, \nu_0, \sigma_0^2)$  density.
@@ -244,7 +244,7 @@ Exercise: Show that multiplying this prior by the normal likelihood yields a  $N
 Canonical form of the exponential family distribution is
 
 $$
-p (\mathbf {x} \mid \boldsymbol {\theta}) = h (\mathbf {x}) e ^ {\boldsymbol {\theta} ^ {\top} \mathbf {u} (\mathbf {x}) - \psi (\boldsymbol {\theta})}
+p (\mathbf {x} \mid \boldsymbol {\theta}) = h (\mathbf {x}) e^{\boldsymbol {\theta}^{\top} \mathbf {u} (\mathbf {x}) - \psi (\boldsymbol {\theta})}
 $$
 
 - $\pmb{\theta} \in \mathbb{R}^{m}$  is a parameter vector  
@@ -257,13 +257,13 @@ The exponential family is essentially the only distribution with a non-trivial c
 The conjugate prior takes the form
 
 $$
-\pi (\boldsymbol {\theta}; \boldsymbol {\alpha}, \gamma) \propto e ^ {\boldsymbol {\theta} ^ {\top} \boldsymbol {\alpha} - \gamma \psi (\boldsymbol {\theta})}
+\pi (\boldsymbol {\theta}; \boldsymbol {\alpha}, \gamma) \propto e^{\boldsymbol {\theta}^{\top} \boldsymbol {\alpha} - \gamma \psi (\boldsymbol {\theta})}
 $$
 
 since
 
 $$
-\begin{array}{l} p (\boldsymbol {\theta} \mid \mathbf {x}, \boldsymbol {\alpha}, \gamma) \propto e ^ {\boldsymbol {\theta} ^ {\top} \mathbf {u} (\mathbf {x}) - \psi (\boldsymbol {\theta})} e ^ {\boldsymbol {\theta} ^ {\top} \boldsymbol {\alpha} - \gamma \psi (\boldsymbol {\theta})} = e ^ {\boldsymbol {\theta} ^ {\top} (\boldsymbol {\alpha} + \mathbf {u} (\mathbf {x})) - (\gamma + 1) \psi (\boldsymbol {\theta})} \\ = \pi (\boldsymbol {\theta} \mid \boldsymbol {\alpha} + \mathbf {u} (\mathbf {x}), \gamma + 1) \\ \end{array}
+\begin{array}{l} p (\boldsymbol {\theta} \mid \mathbf {x}, \boldsymbol {\alpha}, \gamma) \propto e^{\boldsymbol {\theta}^{\top} \mathbf {u} (\mathbf {x}) - \psi (\boldsymbol {\theta})} e^{\boldsymbol {\theta}^{\top} \boldsymbol {\alpha} - \gamma \psi (\boldsymbol {\theta})} = e^{\boldsymbol {\theta}^{\top} (\boldsymbol {\alpha} + \mathbf {u} (\mathbf {x})) - (\gamma + 1) \psi (\boldsymbol {\theta})} \\ = \pi (\boldsymbol {\theta} \mid \boldsymbol {\alpha} + \mathbf {u} (\mathbf {x}), \gamma + 1) \\ \end{array}
 $$
 
 # Selecting a Prior
@@ -308,7 +308,7 @@ This leads to the following sampling problem:
 Suppose we are given a distribution function
 
 $$
-p (\mathbf {z}) = \frac {1}{Z _ {p}} \tilde {p} (\mathbf {z})
+p (\mathbf {z}) = \frac{1}{Z_{p}} \tilde {p} (\mathbf {z})
 $$
 
 where  $\tilde{p} (\mathbf{z})\geq 0$  is easy to compute but  $Z_{p}$  is (too) hard to compute.
@@ -384,13 +384,13 @@ e.g. Buffon's needle (1700's), Lord Kelvin (1901), Fermi (1930's).
 Definition: A sequence of random variables  $\{\mathbf{X}_1, \mathbf{X}_2, \ldots, \mathbf{X}_t\}$  on a discrete state space  $\Omega$  is called a (first-order) Markov Chain if
 
 $$
-p \left(\mathbf {X} _ {t} = \mathbf {x} _ {t} \mid \mathbf {X} _ {t - 1} = \mathbf {x} _ {t - 1}, \dots , \mathbf {X} _ {1} = \mathbf {x} _ {1}\right) = p \left(\mathbf {X} _ {t} = \mathbf {x} _ {t} \mid \mathbf {X} _ {t - 1} = \mathbf {x} _ {t - 1}\right).
+p \left(\mathbf {X}_{t} = \mathbf {x}_{t} \mid \mathbf {X}_{t - 1} = \mathbf {x}_{t - 1}, \dots , \mathbf {X}_{1} = \mathbf {x}_{1}\right) = p \left(\mathbf {X}_{t} = \mathbf {x}_{t} \mid \mathbf {X}_{t - 1} = \mathbf {x}_{t - 1}\right).
 $$
 
 We will restrict ourselves to time-homogeneous Markov chains:
 
 $$
-p (\mathbf {X} _ {t} = \mathbf {x} _ {t} \mid \mathbf {X} _ {t - 1} = \mathbf {x} _ {t - 1}) = \mathbf {P} (\mathbf {x} _ {t} \mid \mathbf {x} _ {t - 1}) \in \mathbb {R} ^ {\Omega \times \Omega}
+p (\mathbf {X}_{t} = \mathbf {x}_{t} \mid \mathbf {X}_{t - 1} = \mathbf {x}_{t - 1}) = \mathbf {P} (\mathbf {x}_{t} \mid \mathbf {x}_{t - 1}) \in \mathbb {R}^{\Omega \times \Omega}
 $$
 
 Easy to check that  $[p(\mathbf{X}_{t + 1} = \mathbf{x}_t\mid \mathbf{X}_{t - 1} = \mathbf{x}_{t - 1})]_{(\mathbf{x}_t,\mathbf{x}_{t - 1})\in \Omega} = \mathbf{P}^2$
@@ -405,7 +405,7 @@ Definition: A Markov chain is called ergodic if there exists  $r$  such that  $\
 Definition: A stationary distribution of a Markov chain is a distribution  $\pi$  on  $\Omega$  such that
 
 $$
-\pi (\mathbf {y}) = \sum_ {\mathbf {x} \in \Omega} P (\mathbf {y} \mid \mathbf {x}) \pi (\mathbf {x}).
+\pi (\mathbf {y}) = \sum_{\mathbf {x} \in \Omega} P (\mathbf {y} \mid \mathbf {x}) \pi (\mathbf {x}).
 $$
 
 Theorem: A finite ergodic Markov Chain has a unique stationary distribution.
@@ -413,13 +413,13 @@ Theorem: A finite ergodic Markov Chain has a unique stationary distribution.
 Definition: The total variation distance,  $d_{TV}(\mu, \nu)$ , between two probability measures  $\mu, \nu$  on  $\Omega$  is defined as
 
 $$
-\| \mu - \nu \| _ {T V} := \max _ {S \subset \Omega} \{\mu (S) - \nu (S) \} = \frac {1}{2} \sum_ {\mathbf {z} \in \Omega} | \mu (\mathbf {z}) - \nu (\mathbf {z}) |
+\| \mu - \nu \|_{T V} := \max_{S \subset \Omega} \{\mu (S) - \nu (S) \} = \frac{1}{2} \sum_{\mathbf {z} \in \Omega} | \mu (\mathbf {z}) - \nu (\mathbf {z}) |
 $$
 
 The mixing time of  $\tau_{\mathrm{mix}}(\epsilon)$  defined as the time until the total variation distance to  $\pi$  is below  $\epsilon$
 
 $$
-\tau_ {\mathrm {m i x}} (\epsilon) = \max _ {\mathbf {x} _ {0} \in \Omega} \min \left\{t: \left\| P ^ {t} (\cdot , \mathbf {x} _ {0}) - \pi (\cdot) \right\| _ {T V} \leq \epsilon \right\} \sim \ln \left(\frac {1}{\epsilon}\right)
+\tau_{\mathrm{mi x}} (\epsilon) = \max_{\mathbf {x}_{0} \in \Omega} \min \left\{t: \left\| P^{t} (\cdot , \mathbf {x}_{0}) - \pi (\cdot) \right\|_{T V} \leq \epsilon \right\} \sim \ln \left(\frac{1}{\epsilon}\right)
 $$
 
 Would like to have similar properties for continuous sample spaces!
@@ -435,7 +435,7 @@ $$
 Easy to check that if  $\pi$  satisfies (3) then it is the stationary distribution of the Markov chain since then
 
 $$
-\sum_ {\mathbf {x}} P (\mathbf {y} \mid \mathbf {x}) \pi (\mathbf {x}) = \sum_ {\mathbf {x}} P (\mathbf {x} \mid \mathbf {y}) \pi (\mathbf {y}) = \pi (\mathbf {y})
+\sum_{\mathbf {x}} P (\mathbf {y} \mid \mathbf {x}) \pi (\mathbf {x}) = \sum_{\mathbf {x}} P (\mathbf {x} \mid \mathbf {y}) \pi (\mathbf {y}) = \pi (\mathbf {y})
 $$
 
 - so (3) then implies the chain moves from  $\mathbf{x}$  to  $\mathbf{y}$  at the same rate it moves from  $\mathbf{y}$  to  $\mathbf{x}$  (when in equilibrium)  
@@ -474,7 +474,7 @@ Can therefore sample from  $p(\mathbf{x})$  by running the algorithm until stati
 Proof of Claim: We just check that  $p(\mathbf{x})$  satisfies the detailed balance equations:
 
 $$
-\begin{array}{l} \underbrace {\alpha (\mathbf {y} \mid \mathbf {x}) Q (\mathbf {y} \mid \mathbf {x})} _ {P (\mathbf {y} \mid \mathbf {x})} p (\mathbf {x}) = \min  \left\{\frac {p (\mathbf {y})}{p (\mathbf {x})} \cdot \frac {Q (\mathbf {x} \mid \mathbf {y})}{Q (\mathbf {y} \mid \mathbf {x})}, 1 \right\} Q (\mathbf {y} \mid \mathbf {x}) p (\mathbf {x}) \\ = \min  \left\{Q (\mathbf {x} \mid \mathbf {y}) p (\mathbf {y}), Q (\mathbf {y} \mid \mathbf {x}) p (\mathbf {x}) \right\} \\ = \min  \left\{1, \frac {p (\mathbf {x})}{p (\mathbf {y})} \cdot \frac {Q (\mathbf {y} \mid \mathbf {x})}{Q (\mathbf {x} \mid \mathbf {y})} \right\} Q (\mathbf {x} \mid \mathbf {y}) p (\mathbf {y}) \\ = \underbrace {\alpha (\mathbf {x} \mid \mathbf {y}) Q (\mathbf {x} \mid \mathbf {y})} _ {P (\mathbf {x} | \mathbf {y})} p (\mathbf {y}). \\ \end{array}
+\begin{array}{l} \underbrace {\alpha (\mathbf {y} \mid \mathbf {x}) Q (\mathbf {y} \mid \mathbf {x})}_{P (\mathbf {y} \mid \mathbf {x})} p (\mathbf {x}) = \min  \left\{\frac{p (\mathbf {y})}{p (\mathbf {x})} \cdot \frac{Q (\mathbf {x} \mid \mathbf {y})}{Q (\mathbf {y} \mid \mathbf {x})}, 1 \right\} Q (\mathbf {y} \mid \mathbf {x}) p (\mathbf {x}) \\ = \min  \left\{Q (\mathbf {x} \mid \mathbf {y}) p (\mathbf {y}), Q (\mathbf {y} \mid \mathbf {x}) p (\mathbf {x}) \right\} \\ = \min  \left\{1, \frac{p (\mathbf {x})}{p (\mathbf {y})} \cdot \frac{Q (\mathbf {y} \mid \mathbf {x})}{Q (\mathbf {x} \mid \mathbf {y})} \right\} Q (\mathbf {x} \mid \mathbf {y}) p (\mathbf {y}) \\ = \underbrace {\alpha (\mathbf {x} \mid \mathbf {y}) Q (\mathbf {x} \mid \mathbf {y})}_{P (\mathbf {x} | \mathbf {y})} p (\mathbf {y}). \\ \end{array}
 $$
 
 Question: How do we determine when stationarity is achieved?
@@ -519,7 +519,7 @@ A very popular method when the (true) conditional distributions,  $p(\mathbf{x}_
 Easy to see that Gibbs sampling is a special case of Metropolis-Hastings sampling with
 
 $$
-Q _ {k} (\mathbf {y} \mid \mathbf {x}) = \left\{ \begin{array}{l l} p (\mathbf {y} _ {k} \mid \mathbf {x} _ {- k}) & \mathbf {y} _ {- k} = \mathbf {x} _ {- k} \\ 0 & \text {o t h e r w i s e .} \end{array} \right.
+Q_{k} (\mathbf {y} \mid \mathbf {x}) = \left\{ \begin{array}{l l} p (\mathbf {y}_{k} \mid \mathbf {x}_{- k}) & \mathbf {y}_{- k} = \mathbf {x}_{- k} \\ 0 & \text{ot he rw is e .} \end{array} \right.
 $$
 
 and that each component update will be accepted with probability 1.
@@ -539,12 +539,12 @@ If not possible to simulate directly from one or more of the conditional distrib
 Consider the distribution
 
 $$
-p (x, y) = \frac {n !}{(n - x) ! x !} y ^ {(x + \alpha - 1)} (1 - y) ^ {(n - x + \beta - 1)}, \quad x \in \{0, \ldots , n \}, y \in [ 0, 1 ].
+p (x, y) = \frac{n !}{(n - x) ! x !} y^{(x + \alpha - 1)} (1 - y)^{(n - x + \beta - 1)}, \quad x \in \{0, \ldots , n \}, y \in [ 0, 1 ].
 $$
 
 Hard to simulate directly from  $p(x, y)$  but the conditional distributions are easy to work with. We see that
 
-$p(x\mid y)\equiv \operatorname {Bin}(n,y)$  
+$p(x\mid y)\equiv \operatorname{Bin}(n,y)$  
 
 - $p(y \mid x) \equiv \operatorname{Beta}(x + \alpha, n - x + \beta)$
 
@@ -581,7 +581,7 @@ A uniform prior is assumed for  $(\mu, \log \sigma, \tau)$  so  $p(\mu, \log \si
 The posterior then given by
 
 $$
-p (\boldsymbol {\theta}, \mu , \log \sigma , \log \tau \mid \mathbf {y}) \propto \tau \prod_ {j = 1} ^ {J} \mathsf {N} \left(\theta_ {j} \mid \mu , \tau^ {2}\right) \prod_ {j = 1} ^ {J} \prod_ {i = 1} ^ {n _ {j}} \mathsf {N} \left(y _ {i j} \mid \theta_ {j}, \sigma^ {2}\right).
+p (\boldsymbol {\theta}, \mu , \log \sigma , \log \tau \mid \mathbf {y}) \propto \tau \prod_{j = 1}^{J} \mathsf {N} \left(\theta_{j} \mid \mu , \tau^{2}\right) \prod_{j = 1}^{J} \prod_{i = 1}^{n_{j}} \mathsf {N} \left(y_{i j} \mid \theta_{j}, \sigma^{2}\right).
 $$
 
 # The Gibbs Sampler for the Hierarchical Normal Model
@@ -593,17 +593,17 @@ Will see that all conditional distributions required for Gibbs sampler have simp
 Just gather terms from posterior that only involve  $\theta_{j}$  and then simplify to obtain
 
 $$
-\theta_ {j} \mid (\boldsymbol {\theta} _ {- j}, \mu , \sigma , \tau , \mathbf {y}) \sim \mathrm {N} \left(\hat {\theta} _ {j}, V _ {\theta_ {j}}\right)
+\theta_{j} \mid (\boldsymbol {\theta}_{- j}, \mu , \sigma , \tau , \mathbf {y}) \sim \mathrm{N} \left(\hat {\theta}_{j}, V_{\theta_{j}}\right)
 $$
 
 where
 
 $$
-\hat {\theta} _ {j}   :=   \frac {\frac {1}{\tau^ {2}} \mu + \frac {n _ {j}}{\sigma^ {2}} \bar {y} _ {. j}}{\frac {1}{\tau^ {2}} + \frac {n _ {j}}{\sigma^ {2}}}
+\hat {\theta}_{j}   :=   \frac{\frac{1}{\tau^{2}} \mu + \frac{n_{j}}{\sigma^{2}} \bar {y}_{. j}}{\frac{1}{\tau^{2}} + \frac{n_{j}}{\sigma^{2}}}
 $$
 
 $$
-V _ {\theta_ {j}}   :=   \frac {1}{\frac {1}{\tau^ {2}} + \frac {n _ {j}}{\sigma^ {2}}}.
+V_{\theta_{j}}   :=   \frac{1}{\frac{1}{\tau^{2}} + \frac{n_{j}}{\sigma^{2}}}.
 $$
 
 These conditional distributions are independent so generating the  $\theta_{j}$ 's one at a time is equivalent to drawing  $\pmb{\theta}$  all at once.
@@ -613,13 +613,13 @@ These conditional distributions are independent so generating the  $\theta_{j}$ 
 Again, just gather terms from posterior that only involve  $\mu$  and then simplify to obtain
 
 $$
-\mu \mid (\boldsymbol {\theta}, \sigma , \tau , \mathbf {y}) \sim \mathsf {N} \left(\hat {\mu}, \frac {\tau^ {2}}{J}\right)
+\mu \mid (\boldsymbol {\theta}, \sigma , \tau , \mathbf {y}) \sim \mathsf {N} \left(\hat {\mu}, \frac{\tau^{2}}{J}\right)
 $$
 
 where
 
 $$
-\hat {\mu} := \frac {1}{J} \sum_ {j = 1} ^ {J} \theta_ {j}.
+\hat {\mu} := \frac{1}{J} \sum_{j = 1}^{J} \theta_{j}.
 $$
 
 # 3. Conditional Posterior Distribution of  $\sigma^2$
@@ -627,13 +627,13 @@ $$
 Again, just gather terms from posterior that only involve  $\sigma$  and then simplify to obtain
 
 $$
-\sigma^ {2} \mid (\boldsymbol {\theta}, \mu , \tau , \mathbf {y}) \sim \ln v - \chi^ {2} (n, \hat {\sigma} ^ {2})
+\sigma^{2} \mid (\boldsymbol {\theta}, \mu , \tau , \mathbf {y}) \sim \ln v - \chi^{2} (n, \hat {\sigma}^{2})
 $$
 
 where
 
 $$
-\hat {\sigma} ^ {2} := \frac {1}{n} \sum_ {j = 1} ^ {J} \sum_ {i = 1} ^ {n _ {j}} (y _ {i j} - \theta_ {j}) ^ {2}.
+\hat {\sigma}^{2} := \frac{1}{n} \sum_{j = 1}^{J} \sum_{i = 1}^{n_{j}} (y_{i j} - \theta_{j})^{2}.
 $$
 
 # 4. Conditional Posterior Distribution of  $\tau^2$
@@ -641,13 +641,13 @@ $$
 Again, gather terms from posterior that only involve  $\tau$  and then simplify to obtain
 
 $$
-\tau^ {2} \mid (\boldsymbol {\theta}, \mu , \sigma , \mathbf {y}) \sim \operatorname {I n v} - \chi^ {2} (J - 1, \hat {\tau} ^ {2})
+\tau^{2} \mid (\boldsymbol {\theta}, \mu , \sigma , \mathbf {y}) \sim \operatorname{In v} - \chi^{2} (J - 1, \hat {\tau}^{2})
 $$
 
 where
 
 $$
-\hat {\tau} ^ {2} := \frac {1}{J - 1} \sum_ {j = 1} ^ {J} (\theta_ {j} - \mu) ^ {2}.
+\hat {\tau}^{2} := \frac{1}{J - 1} \sum_{j = 1}^{J} (\theta_{j} - \mu)^{2}.
 $$
 
 To start the Gibbs sampler we need starting points for  $\theta$  and  $\mu$  - but not (why?) for  $\tau$  or  $\sigma$ .
@@ -697,11 +697,11 @@ But there is a subtle issue here: it is not the case that a set of proper well-d
 e.g. Consider the following 2-dimensional example with
 
 $$
-f (x \mid y) = y e ^ {- y x}, \quad 0 <   x <   \infty \tag {4}
+f (x \mid y) = y e^{- y x}, \quad 0 <   x <   \infty \tag {4}
 $$
 
 $$
-f (y \mid x) = x e ^ {- x y}, \quad 0 <   y <   \infty \tag {5}
+f (y \mid x) = x e^{- x y}, \quad 0 <   y <   \infty \tag {5}
 $$
 
 so both conditionals are exponential distributions (and therefore well-defined).
@@ -719,7 +719,7 @@ Let  $\psi (\pmb {\theta})$  be one such function.
 If we have  $n$  MCMC samples from the stationary distribution then we have  $n$  samples of  $\psi(\pmb{\theta})$ :
 
 $$
-\left\{\psi_ {1} := \psi \left(\boldsymbol {\theta} _ {1}\right), \dots , \psi_ {n} := \psi \left(\boldsymbol {\theta} _ {n}\right) \right\}.
+\left\{\psi_{1} := \psi \left(\boldsymbol {\theta}_{1}\right), \dots , \psi_{n} := \psi \left(\boldsymbol {\theta}_{n}\right) \right\}.
 $$
 
 The sample mean is then given by  $\bar{\psi} = n^{-1}\sum_{i = 1}^{n}\psi_{1}$
@@ -799,11 +799,11 @@ Let  $\psi_{ij}$  for  $i = 1,\ldots n$  and  $j = 1,\ldots ,m$  be the MCMC sam
 The betweenand within-sequence variances,  $B$  and  $W$ , are computed as
 
 $$
-B := \frac {n}{m - 1} \sum_ {j = 1} ^ {m} \left(\bar {\psi} _ {. j} - \bar {\psi} _ {. .}\right) ^ {2}
+B := \frac{n}{m - 1} \sum_{j = 1}^{m} \left(\bar {\psi}_{. j} - \bar {\psi}_{. .}\right)^{2}
 $$
 
 $$
-W := \frac {1}{m} \sum_ {j = 1} ^ {m} s _ {j} ^ {2} \quad \text {w h e r e} \quad s _ {j} ^ {2} := \frac {1}{n - 1} \sum_ {i = 1} ^ {n} \left(\psi_ {i j} - \bar {\psi} _ {. j}\right) ^ {2}
+W := \frac{1}{m} \sum_{j = 1}^{m} s_{j}^{2} \quad \text{wh er e} \quad s_{j}^{2} := \frac{1}{n - 1} \sum_{i = 1}^{n} \left(\psi_{i j} - \bar {\psi}_{. j}\right)^{2}
 $$
 
 and where  $\bar{\psi}_{\cdot j} := \frac{1}{n}\sum_{i=1}^{n}\psi_{ij}$  and  $\bar{\psi}_{\cdot \cdot} := \frac{1}{m}\sum_{j=1}^{m}\bar{\psi}_{\cdot j}$ .
@@ -815,7 +815,7 @@ $B$  contains a factor of  $n$  because it is based on the variance of the withi
 We can estimate  $\operatorname{Var}(\psi \mid \mathbf{X})$  as a weighted average of  $W$  and  $B$  with
 
 $$
-\widehat {\mathbf {V a r}} ^ {+} (\psi \mid \mathbf {X}) = \frac {n - 1}{n} W + \frac {1}{n} B
+\widehat {\mathbf {V a r}}^{+} (\psi \mid \mathbf {X}) = \frac{n - 1}{n} W + \frac{1}{n} B
 $$
 
 - overestimates the marginal posterior variance since starting distribution is over-dispersed  
@@ -831,7 +831,7 @@ But also have for any finite  $n$  that  $W$  should be an underestimate of  $\o
 We therefore monitor convergence through
 
 $$
-\hat {R} := \sqrt {\frac {\widehat {\operatorname {V a r}} ^ {+} (\psi \mid \mathbf {X})}{W}}
+\hat {R} := \sqrt{\frac{\widehat {\operatorname{Va r}}^{+} (\psi \mid \mathbf {X})}{W}}
 $$
 
 Note that should have  $\hat{R} > 1$  for any finite  $n$  by above argument.
@@ -853,7 +853,7 @@ Variance of the mean of this sample would be estimated as  $\widehat{\mathsf{Var
 Equating the two estimates yields the effective sample size,  $n_{eff}$ , as
 
 $$
-n _ {e f f} := m n \frac {\widehat {\operatorname {V a r}} ^ {+} (\psi \mid \mathbf {X})}{B} \tag {6}
+n_{e f f} := m n \frac{\widehat {\operatorname{Va r}}^{+} (\psi \mid \mathbf {X})}{B} \tag {6}
 $$
 
 Generally  $n_{eff} < mn$  since samples within each sequence will be auto-correlated
@@ -890,7 +890,7 @@ There are Bayesian versions of classification, regression etc. as well as many o
 The probit regression model is a GLM where
 
 $$
-p _ {i} := P \left(y _ {i} = 1\right) = \Phi \left(x _ {i 1} \beta_ {1} + \dots + x _ {i k} \beta_ {k}\right).
+p_{i} := P \left(y_{i} = 1\right) = \Phi \left(x_{i 1} \beta_{1} + \dots + x_{i k} \beta_{k}\right).
 $$
 
 Goal is to estimate  $\beta \coloneqq (\beta_{1},\dots ,\beta_{k})$
@@ -902,7 +902,7 @@ But we will use a Bayesian approach!
 If we assume a prior  $\pi (\beta)$  on  $\beta$  then posterior given by
 
 $$
-\begin{array}{l} g (\boldsymbol {\beta} \mid \mathbf {y}) \propto \pi (\boldsymbol {\beta}) \prod_ {i = 1} ^ {n} p _ {i} ^ {y _ {i}} (1 - p _ {i}) ^ {1 - y _ {i}} \\ = \pi (\beta) \prod_ {i = 1} ^ {n} \Phi \left(\mathbf {x} _ {i} ^ {\top} \boldsymbol {\beta}\right) ^ {y _ {i}} (1 - \Phi \left(\mathbf {x} _ {i} ^ {\top} \boldsymbol {\beta}\right)) ^ {1 - y _ {i}}. \tag {7} \\ \end{array}
+\begin{array}{l} g (\boldsymbol {\beta} \mid \mathbf {y}) \propto \pi (\boldsymbol {\beta}) \prod_{i = 1}^{n} p_{i}^{y_{i}} (1 - p_{i})^{1 - y_{i}} \\ = \pi (\beta) \prod_{i = 1}^{n} \Phi \left(\mathbf {x}_{i}^{\top} \boldsymbol {\beta}\right)^{y_{i}} (1 - \Phi \left(\mathbf {x}_{i}^{\top} \boldsymbol {\beta}\right))^{1 - y_{i}}. \tag {7} \\ \end{array}
 $$
 
 Not clear how to generate samples of  $\beta$  from the posterior in (7) using Gibbs.
@@ -910,7 +910,7 @@ Not clear how to generate samples of  $\beta$  from the posterior in (7) using G
 A clever way to resolve this problem is to define latent variables
 
 $$
-z _ {i} := x _ {i 1} \beta_ {1} + \dots + x _ {i k} \beta_ {k} + \epsilon_ {i}
+z_{i} := x_{i 1} \beta_{1} + \dots + x_{i k} \beta_{k} + \epsilon_{i}
 $$
 
 where the  $\epsilon_{i}$ 's are IID  $N(0,1)$  for  $i = 1,\ldots ,n$ .
@@ -918,7 +918,7 @@ where the  $\epsilon_{i}$ 's are IID  $N(0,1)$  for  $i = 1,\ldots ,n$ .
 Note that (why?)
 
 $$
-p _ {i} = P \left(z _ {i} > 0\right) = \Phi \left(\mathbf {x} _ {i} ^ {\top} \beta\right).
+p_{i} = P \left(z_{i} > 0\right) = \Phi \left(\mathbf {x}_{i}^{\top} \beta\right).
 $$
 
 Can now regard the problem as a missing data problem where instead of observing the  $z_{i}$ 's we only observe the indicators  $y_{i} \coloneqq 1_{\{z_{i} > 0\}}$ .
@@ -926,7 +926,7 @@ Can now regard the problem as a missing data problem where instead of observing 
 Posterior distribution is now over  $(\beta, \mathbf{z})$  and is given by
 
 $$
-\begin{array}{l} g (\boldsymbol {\beta}, \mathbf {z} \mid \mathbf {y}) \propto g (\boldsymbol {\beta}, \mathbf {z}, y) \\ = \pi (\beta) \prod_ {i = 1} ^ {n} \left[ 1 _ {\{z _ {i} > 0 \}} 1 _ {\{y _ {i} = 1 \}} + 1 _ {\{z _ {i} \leq 0 \}} 1 _ {\{y _ {i} = 0 \}} \right] \phi \left(z _ {i}; \mathbf {x} _ {i} ^ {\top} \beta , 1\right) \tag {8} \\ \end{array}
+\begin{array}{l} g (\boldsymbol {\beta}, \mathbf {z} \mid \mathbf {y}) \propto g (\boldsymbol {\beta}, \mathbf {z}, y) \\ = \pi (\beta) \prod_{i = 1}^{n} \left[ 1_{\{z_{i} > 0 \}} 1_{\{y_{i} = 1 \}} + 1_{\{z_{i} \leq 0 \}} 1_{\{y_{i} = 0 \}} \right] \phi \left(z_{i}; \mathbf {x}_{i}^{\top} \beta , 1\right) \tag {8} \\ \end{array}
 $$
 
 where  $\phi (\cdot ;\mu ,\sigma^2)$  denotes the PDF for a normal random variable with mean  $\mu$  and variance  $\sigma^2$
@@ -942,7 +942,7 @@ Can then use a block Gibbs sampler where we simulate successively from  $g(\bold
 Relatively(!) easy then to see that
 
 $$
-g (\boldsymbol {\beta} \mid \mathbf {z}, \mathbf {y}) \sim \operatorname {M V N} _ {k} \left(\left(\mathbf {X} ^ {\top} \mathbf {X}\right) ^ {- 1} \mathbf {X} ^ {\top} \mathbf {z}, \left(\mathbf {X} ^ {\top} \mathbf {X}\right) ^ {- 1}\right). \tag {9}
+g (\boldsymbol {\beta} \mid \mathbf {z}, \mathbf {y}) \sim \operatorname{MV N}_{k} \left(\left(\mathbf {X}^{\top} \mathbf {X}\right)^{- 1} \mathbf {X}^{\top} \mathbf {z}, \left(\mathbf {X}^{\top} \mathbf {X}\right)^{- 1}\right). \tag {9}
 $$
 
 Question: How would you justify (9)?
@@ -956,7 +956,7 @@ Consider the data-set on the Donner party, a group of wagon trail emigrants who 
 Interested in estimating the model
 
 $$
-P \left(y _ {i} = 1\right) = \Phi \left(\beta_ {0} + \beta_ {1} \mathrm {M a l e} _ {i} + \beta_ {2} \mathrm {A g e} _ {i}\right) \tag {10}
+P \left(y_{i} = 1\right) = \Phi \left(\beta_{0} + \beta_{1} \mathrm{Ma le}_{i} + \beta_{2} \mathrm{Ag e}_{i}\right) \tag {10}
 $$
 
 where  $y_{i} = 1$  denotes the death of the  $i^{th}$  person in the party and  $y_{i} = 0$  denotes their survival.
@@ -994,7 +994,7 @@ Suppose the investor believes that  $g(\mathbf{X}_{t + 1})$  will equal  $\mathb
 Then we construct the conditional distribution of  $\mathbf{X}_{t + 1}$  given  $\mathbf{V} = \mathbf{v}$  and obtain
 
 $$
-\begin{array}{l} f (\mathbf {X} _ {t + 1} \mid \mathbf {V} = \mathbf {v}) \quad \propto \quad f (\mathbf {X} _ {t + 1}, \mathbf {v}) \\ = f (\mathbf {v} \mid \mathbf {X} _ {t + 1}) f (\mathbf {X} _ {t + 1}). \tag {11} \\ \end{array}
+\begin{array}{l} f (\mathbf {X}_{t + 1} \mid \mathbf {V} = \mathbf {v}) \quad \propto \quad f (\mathbf {X}_{t + 1}, \mathbf {v}) \\ = f (\mathbf {v} \mid \mathbf {X}_{t + 1}) f (\mathbf {X}_{t + 1}). \tag {11} \\ \end{array}
 $$
 
 We can use MCMC to simulate many samples from (11) which can then be used to construct portfolios.
@@ -1014,7 +1014,7 @@ The problem was to decode a collection of coded messages – see example below. 
 Goal then is to crack this cipher and find the function
 
 $$
-f: \{\text {c o d e s p a c e} \} \rightarrow \{\text {u s u a l a l p h a b e t} \}. \tag {12}
+f: \{\text{co de sp ac e} \} \rightarrow \{\text{us ua la lp ha be t} \}. \tag {12}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1f734246-7026-481c-b3ab-2f675f614081/2a93df037d257966557b019a45a455c6a2d0f24126c1802f9f4d7028053adb70.jpg)  
@@ -1026,7 +1026,7 @@ Figure taken from "The Markov Chain Monte Carlo Revolution", by Persi Diaconis i
 2. Can then define a plausibility to any function  $f(\cdot)$  vis
 
 $$
-\operatorname {P l} (f) := \prod_ {i} M \left(f \left(s _ {i}\right), f \left(s _ {i + 1}\right)\right)
+\operatorname{Pl} (f) := \prod_{i} M \left(f \left(s_{i}\right), f \left(s_{i + 1}\right)\right)
 $$
 
 where  $s_i$  runs over symbols in coded message.
@@ -1155,13 +1155,13 @@ Figure 8.2 from Bishop
 Note ordering of nodes in the DAG of Figure 8.2. This ordering can be used to write
 
 $$
-\begin{array}{l} p \left(x _ {1}, x _ {2}, \dots , x _ {7}\right) = p \left(x _ {7} \mid x _ {4}, x _ {5}\right) \cdot p \left(x _ {6} \mid x _ {4}\right). \\ p \left(x _ {5} \mid x _ {1}, x _ {3}\right) \cdot p \left(x _ {4} \mid x _ {1}, x _ {2}, x _ {3} \right. \\ p (x _ {3}) \cdot p (x _ {2}) \cdot p (x _ {1}). \\ \end{array}
+\begin{array}{l} p \left(x_{1}, x_{2}, \dots , x_{7}\right) = p \left(x_{7} \mid x_{4}, x_{5}\right) \cdot p \left(x_{6} \mid x_{4}\right). \\ p \left(x_{5} \mid x_{1}, x_{3}\right) \cdot p \left(x_{4} \mid x_{1}, x_{2}, x_{3} \right. \\ p (x_{3}) \cdot p (x_{2}) \cdot p (x_{1}). \\ \end{array}
 $$
 
 More generally for any DAG we have
 
 $$
-p (\mathbf {x}) = \prod_ {k = 1} ^ {K} p \left(x _ {k} \mid \mathfrak {p a} \left(x _ {k}\right)\right) \tag {13}
+p (\mathbf {x}) = \prod_{k = 1}^{K} p \left(x_{k} \mid \mathfrak {p a} \left(x_{k}\right)\right) \tag {13}
 $$
 
 where  $\mathfrak{pa}(x)$  denotes the "parents" of node  $x_{k}$ .
@@ -1181,7 +1181,7 @@ Suppose now that  $x_{3}, x_{5}$  and  $x_{6}$  have been observed and we want t
 Using (13) this conditional distribution satisfies
 
 $$
-\begin{array}{l} p \left(x _ {1}, x _ {2}, x _ {4}, x _ {7} \mid x _ {3}, x _ {5}, x _ {6}\right) = \frac {p \left(x _ {1} , x _ {2} , x _ {3} , x _ {4} , x _ {5} , x _ {6} , x _ {7}\right)}{p \left(x _ {3} , x _ {5} , x _ {6}\right)} \\ = \frac {p \left(x _ {1} , x _ {2} , x _ {3} , x _ {4} , x _ {5} , x _ {6} , x _ {7}\right)}{\sum_ {x _ {1} , x _ {2} , x _ {4} , x _ {7}} p \left(x _ {1} , x _ {2} , x _ {3} , x _ {4} , x _ {5} , x _ {6} , x _ {7}\right)} \\ = \frac {\prod_ {k = 1} ^ {7} p \left(x _ {k} \mid \mathfrak {p a} \left(x _ {k}\right)\right)}{\sum_ {x _ {1} , x _ {2} , x _ {4} , x _ {7}} \prod_ {k = 1} ^ {7} p \left(x _ {k} \mid \mathfrak {p a} \left(x _ {k}\right)\right)} \tag {14} \\ \end{array}
+\begin{array}{l} p \left(x_{1}, x_{2}, x_{4}, x_{7} \mid x_{3}, x_{5}, x_{6}\right) = \frac{p \left(x_{1} , x_{2} , x_{3} , x_{4} , x_{5} , x_{6} , x_{7}\right)}{p \left(x_{3} , x_{5} , x_{6}\right)} \\ = \frac{p \left(x_{1} , x_{2} , x_{3} , x_{4} , x_{5} , x_{6} , x_{7}\right)}{\sum_{x_{1} , x_{2} , x_{4} , x_{7}} p \left(x_{1} , x_{2} , x_{3} , x_{4} , x_{5} , x_{6} , x_{7}\right)} \\ = \frac{\prod_{k = 1}^{7} p \left(x_{k} \mid \mathfrak {p a} \left(x_{k}\right)\right)}{\sum_{x_{1} , x_{2} , x_{4} , x_{7}} \prod_{k = 1}^{7} p \left(x_{k} \mid \mathfrak {p a} \left(x_{k}\right)\right)} \tag {14} \\ \end{array}
 $$
 
 where  $x_{3}, x_{5}$  and  $x_{6}$  are "clamped" at their observed values in (14).
@@ -1203,13 +1203,13 @@ At each step of the Gibbs sampler we need to simulate from  $p(x_{i} \mid \mathb
 But it's easy to see (why?) that
 
 $$
-p (x _ {i} \mid \mathbf {x} _ {- i}) = \frac {1}{Z} p (x _ {i} \mid p a (x _ {i})) \prod_ {j \in c h (i)} p (x _ {j} \mid p a (x _ {j}))
+p (x_{i} \mid \mathbf {x}_{- i}) = \frac{1}{Z} p (x_{i} \mid p a (x_{i})) \prod_{j \in c h (i)} p (x_{j} \mid p a (x_{j}))
 $$
 
 where  $pa(x_{i})$  and  $ch(i)$  are the parent and children nodes, respectively, of  $x_{i}$ , and  $Z$  is the (usually easy to compute) normalization constant
 
 $$
-Z = \sum_ {x _ {i}} p (x _ {i} \mid p a (x _ {i})) \prod_ {j \in c h (i)} p (x _ {j} \mid p a (x _ {j})).
+Z = \sum_{x_{i}} p (x_{i} \mid p a (x_{i})) \prod_{j \in c h (i)} p (x_{j} \mid p a (x_{j})).
 $$
 
 The parents of  $x_{i}$ , the children of  $x_{i}$  and the parents of the children of  $x_{i}$  are known collectively as the Markov blanket of  $x_{i}$ .
@@ -1266,7 +1266,7 @@ We model them as a specified number of IID Bernoulli trials with a uniform prior
 Let  $s := \sum y_i$ . Then posterior is
 
 $$
-\begin{array}{l} p (\theta \mid \mathbf {y}) \propto p (\mathbf {y} \mid \theta) p (\theta) \\ = \theta^ {s} (1 - \theta) ^ {n - s} \\ \end{array}
+\begin{array}{l} p (\theta \mid \mathbf {y}) \propto p (\mathbf {y} \mid \theta) p (\theta) \\ = \theta^{s} (1 - \theta)^{n - s} \\ \end{array}
 $$
 
 Recognize this as the Beta  $(\sum y_{i} + 1, n - \sum y_{i} + 1)$  distribution.
@@ -1337,7 +1337,7 @@ Cross-validation can clearly be computationally very demanding.
 Given two models  $H_{1}$  and  $H_{2}$ , the Bayes factor,  $B(H_{2};H_{1})$ , is
 
 $$
-B (H _ {2}; H _ {1}) := \frac {p (\mathbf {X} \mid H _ {2})}{p (\mathbf {X} \mid H _ {1})} = \frac {\int_ {\boldsymbol {\theta} _ {2}} p (\mathbf {X} \mid \boldsymbol {\theta} _ {2} , H _ {2}) p (\boldsymbol {\theta} _ {2} \mid H _ {2}) d \boldsymbol {\theta} _ {2}}{\int_ {\boldsymbol {\theta} _ {1}} p (\mathbf {X} \mid \boldsymbol {\theta} _ {1} , H _ {1}) p (\boldsymbol {\theta} _ {1} \mid H _ {1}) d \boldsymbol {\theta} _ {1}}
+B (H_{2}; H_{1}) := \frac{p (\mathbf {X} \mid H_{2})}{p (\mathbf {X} \mid H_{1})} = \frac{\int_{\boldsymbol {\theta}_{2}} p (\mathbf {X} \mid \boldsymbol {\theta}_{2} , H_{2}) p (\boldsymbol {\theta}_{2} \mid H_{2}) d \boldsymbol {\theta}_{2}}{\int_{\boldsymbol {\theta}_{1}} p (\mathbf {X} \mid \boldsymbol {\theta}_{1} , H_{1}) p (\boldsymbol {\theta}_{1} \mid H_{1}) d \boldsymbol {\theta}_{1}}
 $$
 
 not defined if priors  $p(\pmb{\theta}_i \mid H_i)$  not proper  
@@ -1373,7 +1373,7 @@ Hamiltonian Monte-Carlo is an MCMC method for continuous variables. It makes non
 To begin, we write the target distribution as
 
 $$
-p (\mathbf {x}) = \frac {1}{Z _ {x}} e ^ {H _ {x} (\mathbf {x})}
+p (\mathbf {x}) = \frac{1}{Z_{x}} e^{H_{x} (\mathbf {x})}
 $$
 
 where as usual  $Z_{x}$  is unknown.
@@ -1381,7 +1381,7 @@ where as usual  $Z_{x}$  is unknown.
 Now introduce a new auxiliary variable  $\mathbf{y}$  with
 
 $$
-p (\mathbf {y}) = \frac {1}{Z _ {y}} e ^ {H _ {y} (\mathbf {y})}
+p (\mathbf {y}) = \frac{1}{Z_{y}} e^{H_{y} (\mathbf {y})}
 $$
 
 - almost always choose  $\mathbf{y}$  to be Gaussian so that  $H_{y}(\mathbf{y}) = -\frac{1}{2}\mathbf{y}^{\top}\mathbf{y}$ .
@@ -1389,7 +1389,7 @@ $$
 We also assume
 
 $$
-p (\mathbf {x}, \mathbf {y}) = p (\mathbf {x}) p (\mathbf {y}) = \frac {1}{Z _ {x} Z _ {y}} e ^ {H _ {x} (\mathbf {x}) + H _ {y} (\mathbf {y})} = \frac {1}{Z} e ^ {H (\mathbf {x}, \mathbf {y})}
+p (\mathbf {x}, \mathbf {y}) = p (\mathbf {x}) p (\mathbf {y}) = \frac{1}{Z_{x} Z_{y}} e^{H_{x} (\mathbf {x}) + H_{y} (\mathbf {y})} = \frac{1}{Z} e^{H (\mathbf {x}, \mathbf {y})}
 $$
 
 where  $Z\coloneqq Z_{x}Z_{y}$  and  $H(\mathbf{x},\mathbf{y})\coloneqq H_{x}(\mathbf{x}) + H_{y}(\mathbf{y})$
@@ -1410,7 +1410,7 @@ Can do this as follows: given a current sample  $(\mathbf{x},\mathbf{y})$  we:
 We want the new sample  $(\mathbf{x}',\mathbf{y}')$  to satisfy
 
 $$
-H (\mathbf {x} ^ {\prime}, \mathbf {y} ^ {\prime}) \approx H (\mathbf {x}, \mathbf {y})
+H (\mathbf {x}^{\prime}, \mathbf {y}^{\prime}) \approx H (\mathbf {x}, \mathbf {y})
 $$
 
 so that it will be accepted with high probability in the M-H algorithm.
@@ -1422,7 +1422,7 @@ We can achieve this by moving (approximately) along a contour of  $H$  from  $(\
 A first-order Taylor approximation implies
 
 $$
-\begin{array}{l} H \left(\mathbf {x} ^ {\prime}, \mathbf {y} ^ {\prime}\right) = H (\mathbf {x} + \Delta \mathbf {x}, \mathbf {y} + \Delta \mathbf {y}) \\ \approx \quad H (\mathbf {x}, \mathbf {y}) + \nabla_ {x} H _ {x} (\mathbf {x}) ^ {\top} \Delta \mathbf {x} + \nabla_ {y} H _ {y} (\mathbf {y}) ^ {\top} \Delta \mathbf {y} \tag {15} \\ \end{array}
+\begin{array}{l} H \left(\mathbf {x}^{\prime}, \mathbf {y}^{\prime}\right) = H (\mathbf {x} + \Delta \mathbf {x}, \mathbf {y} + \Delta \mathbf {y}) \\ \approx \quad H (\mathbf {x}, \mathbf {y}) + \nabla_{x} H_{x} (\mathbf {x})^{\top} \Delta \mathbf {x} + \nabla_{y} H_{y} (\mathbf {y})^{\top} \Delta \mathbf {y} \tag {15} \\ \end{array}
 $$
 
 To move (approximately) along a contour of  $H$  would like to set sum of last two terms in (15) to 0 - a 1-dimensional constraint so many solutions possible.
@@ -1430,7 +1430,7 @@ To move (approximately) along a contour of  $H$  would like to set sum of last t
 Customary to use so-called Hamiltonian dynamics whereby
 
 $$
-\Delta \mathbf {x} := \epsilon \nabla_ {y} H (\mathbf {y}) \quad \text {a n d} \quad \Delta \mathbf {y} := - \epsilon \nabla_ {x} H (\mathbf {x})
+\Delta \mathbf {x} := \epsilon \nabla_{y} H (\mathbf {y}) \quad \text{an d} \quad \Delta \mathbf {y} := - \epsilon \nabla_{x} H (\mathbf {x})
 $$
 
 so that  $H(\mathbf{x}',\mathbf{y}')\approx H(\mathbf{x},\mathbf{y})$  as desired.
@@ -1438,7 +1438,7 @@ so that  $H(\mathbf{x}',\mathbf{y}')\approx H(\mathbf{x},\mathbf{y})$  as desire
 We take  $L$  such Hamiltonian steps all with the same value of  $\epsilon$  which is drawn randomly according to
 
 $$
-\epsilon = \left\{ \begin{array}{l l} + \epsilon_ {0}, & \text {w i t h p r o b . 0 . 5} \\ - \epsilon_ {0}, & \text {w i t h p r o b . 0 . 5} \end{array} \right.
+\epsilon = \left\{ \begin{array}{l l} + \epsilon_{0}, & \text{wi th pr ob .0 .5} \\ - \epsilon_{0}, & \text{wi th pr ob .0 .5} \end{array} \right.
 $$
 
 so that the proposal distribution,  $Q(\cdot \mid \cdot)$ , is symmetric.
@@ -1502,7 +1502,7 @@ Let  $X_{k}$  denote the number of claims made in a single year by policy holder
 Assume  $X_{k}$  is Poisson with parameter  $\theta_{k}$  so that
 
 $$
-P \left(X _ {k} = x\right) = p _ {\theta_ {k}} (x) := \frac {e ^ {- \theta_ {k}} \theta_ {k} ^ {x}}{x !}, \quad x = 0, 1, 2, \dots . \tag {16}
+P \left(X_{k} = x\right) = p_{\theta_{k}} (x) := \frac{e^{- \theta_{k}} \theta_{k}^{x}}{x !}, \quad x = 0, 1, 2, \dots . \tag {16}
 $$
 
 Assume the  $\theta_{k}$ 's are random with prior  $g(\theta)$ .
@@ -1510,7 +1510,7 @@ Assume the  $\theta_{k}$ 's are random with prior  $g(\theta)$ .
 Consider now an individual customer with observed number of claims  $x$ . Then we have (why?)
 
 $$
-\mathbb {E} [ \theta \mid x ] = \frac {\int_ {0} ^ {\infty} \theta p _ {\theta} (x) g (\theta) d \theta}{\int_ {0} ^ {\infty} p _ {\theta} (x) g (\theta) d \theta}. \tag {17}
+\mathbb {E} [ \theta \mid x ] = \frac{\int_{0}^{\infty} \theta p_{\theta} (x) g (\theta) d \theta}{\int_{0}^{\infty} p_{\theta} (x) g (\theta) d \theta}. \tag {17}
 $$
 
 Note that (17) also yields the expected number of claims made by the customer next year since (why?)  $\mathbb{E}[\theta \mid x] = \mathbb{E}[X\mid x]$ .
@@ -1530,13 +1530,13 @@ In that case considerably more work required to compute  $g$  and calculate (17)
 Alternatively we can be a little clever! Using (16) and (17) we have
 
 $$
-\begin{array}{l} \mathbb {E} [ \theta \mid x ] = \frac {\int_ {0} ^ {\infty} \left[ e ^ {- \theta} \theta^ {x + 1} / x ! \right] g (\theta) d \theta}{\int_ {0} ^ {\infty} \left[ e ^ {- \theta} \theta^ {x} / x ! \right] g (\theta) d \theta} \\ = \frac {(x + 1) \int_ {0} ^ {\infty} \left[ e ^ {- \theta} \theta^ {x + 1} / (x + 1)! \right] g (\theta) d \theta}{\int_ {0} ^ {\infty} \left[ e ^ {- \theta} \theta^ {x} / x! \right] g (\theta) d \theta} \\ = (x + 1) \frac {f (x + 1)}{f (x)} \tag {18} \\ \end{array}
+\begin{array}{l} \mathbb {E} [ \theta \mid x ] = \frac{\int_{0}^{\infty} \left[ e^{- \theta} \theta^{x + 1} / x ! \right] g (\theta) d \theta}{\int_{0}^{\infty} \left[ e^{- \theta} \theta^{x} / x ! \right] g (\theta) d \theta} \\ = \frac{(x + 1) \int_{0}^{\infty} \left[ e^{- \theta} \theta^{x + 1} / (x + 1)! \right] g (\theta) d \theta}{\int_{0}^{\infty} \left[ e^{- \theta} \theta^{x} / x! \right] g (\theta) d \theta} \\ = (x + 1) \frac{f (x + 1)}{f (x)} \tag {18} \\ \end{array}
 $$
 
 where
 
 $$
-f (x) = \int_ {0} ^ {\infty} p _ {\theta} (x) g (\theta) d \theta
+f (x) = \int_{0}^{\infty} p_{\theta} (x) g (\theta) d \theta
 $$
 
 is the marginal density of  $X$ .
@@ -1548,7 +1548,7 @@ Clear from (18) that to answer the insurance company's question we only need  $f
 But we have a lot of data and can easily estimate  $f(\cdot)$  directly to obtain Robbins' approximation
 
 $$
-\begin{array}{l} \widehat {\mathbb {E}} [ \theta \mid x ] = (x + 1) \frac {\hat {f} (x + 1)}{\hat {f} (x)} \\ = (x + 1) \frac {y _ {x + 1}}{y _ {x}} \tag {19} \\ \end{array}
+\begin{array}{l} \widehat {\mathbb {E}} [ \theta \mid x ] = (x + 1) \frac{\hat {f} (x + 1)}{\hat {f} (x)} \\ = (x + 1) \frac{y_{x + 1}}{y_{x}} \tag {19} \\ \end{array}
 $$
 
 with  $y_{x}$  denoting # of observations with  $x$  claims.
@@ -1564,7 +1564,7 @@ Can help resolve this issue by using a parametric empirical Bayesian approach in
 Now assume prior  $g(\cdot)$  is  $\mathrm{Gamma}(\nu, \sigma)$  with
 
 $$
-g (\theta) = \frac {\theta^ {\nu - 1} e ^ {- \theta / \sigma}}{\sigma^ {\nu} \Gamma (\nu)}, \quad \theta \geq 0
+g (\theta) = \frac{\theta^{\nu - 1} e^{- \theta / \sigma}}{\sigma^{\nu} \Gamma (\nu)}, \quad \theta \geq 0
 $$
 
 with  $(\nu, \sigma)$  unknown.
@@ -1574,7 +1574,7 @@ Instead of placing a (hyper-) prior on  $(\nu, \sigma)$  can estimate them from 
 Then simply compute the MLE's  $\hat{\nu}$  and  $\hat{\sigma}$  to obtain
 
 $$
-\hat {\mathbb {E}} [ \theta \mid x ] = (x + 1) \frac {f _ {\hat {\nu} , \hat {\sigma}} (x + 1)}{f _ {\hat {\nu} , \hat {\sigma}} (x)} \tag {20}
+\hat {\mathbb {E}} [ \theta \mid x ] = (x + 1) \frac{f_{\hat {\nu} , \hat {\sigma}} (x + 1)}{f_{\hat {\nu} , \hat {\sigma}} (x)} \tag {20}
 $$
 
 as our estimator - now see fourth row of table.

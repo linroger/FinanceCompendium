@@ -128,7 +128,7 @@ is definitely not a mathematical statement. It's a perfectly valid English sente
 Likewise, the sentence
 
 $$
-x ^ {2} - 1 = 0
+x^{2} - 1 = 0
 $$
 
 is not a mathematical statement, despite being composed entirely of mathematical symbols. The problem is that we cannot verify whether it is True or False purely from axioms and logical inferences. This statement depends on  $x$ , whatever that value is (i.e.  $x$  is a variable) and without imposing extra assumptions about it, we cannot declare whether this sentence is True or False. This type of sentence will be referred to later as a variable proposition: its truth depends on a variable inside the sentence.
@@ -142,7 +142,7 @@ Definition 4.2.1. A mathematical statement (or proposition or logical statement)
 By "grammatically-correct" we mean that the words and symbols contained in the sentence are used and combined correctly and make sense. This eliminates strings of symbols/words that are nonsensical when placed together, like
 
 $$
-1 + = 2 \quad , \quad \mathrm {B r e n d a n} ^ {2} = 1 \quad , \quad \{\{\emptyset \} \} - 7 > 5 \pi \quad , \quad \mathrm {Y o u a m s m a r t}
+1 + = 2 \quad , \quad \mathrm{Br en da n}^{2} = 1 \quad , \quad \{\{\emptyset \} \} - 7 > 5 \pi \quad , \quad \mathrm{Yo ua ms ma rt}
 $$
 
 For instance, the third one above is not a mathematical statement because  $\{\{\varnothing\}\}$  is not a number, so we don't know how to interpret "subtracting 7" from that set.
@@ -194,7 +194,7 @@ We'll let you think about that one on your own. Suffice it to say that paradoxic
 Other examples of sentences that are not mathematical statements are sentences that involve unquantified variables. For instance, take the sentence
 
 $$
-“ x ^ {2} - 1 = 0 ”
+“ x^{2} - 1 = 0 ”
 $$
 
 This is certainly grammatically correct and we can make sense of it, but what is its truth value? We don't know! If  $x = 1$ , then the sentence is True, but if  $x = 8$ , it is False, and if  $x = \mathbb{N}$  or  $x = \text{Brendan}$ , then the sentence doesn't even make sense! As such, we want to disallow sentences like this, as well. These types of sentences are useful and common, though; we will call them variable propositions because they make a claim that depends on some variable.
@@ -260,7 +260,7 @@ Likewise, given a value for  $x$  and  $y$ , the statement " $x^2 - 7 = y$ " is 
 If we had said,
 
 $$
-\text {L e t} T (x, y) \text {b e} “ x ^ {2} - 7 = y ”.
+\text{Le t} T (x, y) \text{be} “ x^{2} - 7 = y ”.
 $$
 
 that would have been perfect.
@@ -270,7 +270,7 @@ Okay, that's enough non-examples for now. We don't want to put any bad ideas in 
 One final note on variable propositions. It is not essential to say where the variables come from when defining a proposition. That can be filled in later when the proposition is invoked, or when a specific value of a variable is used or quantified. That is, we can make the definition
 
 $$
-\text {L e t} T (x, y) \text {b e} “ x ^ {2} - 7 = y ”.
+\text{Le t} T (x, y) \text{be} “ x^{2} - 7 = y ”.
 $$
 
 without needing to specify whether  $x$  and  $y$  are natural numbers, or integers, or complex numbers, or anything like that. Later on, we can say that  $T(3,2)$  is True and  $T(\pi, -1)$  is False, and that  $T(\varnothing, \mathbb{N})$  has no meaning, but we wouldn't need to somehow anticipate any of those interpretations when defining  $T(x,y)$ .
@@ -299,7 +299,7 @@ Answering the following questions briefly, either out loud or in writing. These 
 (4) What is wrong with the following attempt at defining a variable proposition?
 
 $$
-\text {L e t} Q (x, y, z) \text {b e} 7 x - 5 y + z
+\text{Le t} Q (x, y, z) \text{be} 7 x - 5 y + z
 $$
 
 # Try It
@@ -378,7 +378,7 @@ Example 4.3.2. Let's consider some simple examples first, to get our feet wet. I
 This is a straightforward statement that is, in fact, True. We would write it as:
 
 $$
-\forall x \in \mathbb {R}. x ^ {2} \geq 0
+\forall x \in \mathbb {R}. x^{2} \geq 0
 $$
 
 The "big dot" separates the quantified part of the statement from the claim made about the variable  $x$  (which was introduced in the quantification).
@@ -467,7 +467,7 @@ to mean "both  $x$  and  $y$  are elements of the set  $S$ ". The "big dot" is j
 Since our mathematical careers are still young, relatively speaking, we encourage you to sometimes write the helping phrases like "such that" and "holds True" to guide your understanding, whenever possible. This reminds you what the sentences mean and helps you practice reading and writing statements like this in such a condensed form. Remember that you are learning a language here and you need to practice translating sentences from one language you know (English) to another (mathematics). For instance, you might want to write out the line above as
 
 $$
-\exists y \in \mathbb {R} \text {s u c h t h a t} \forall x \in \mathbb {R}. P (x, y) \text {i s T r u e .}
+\exists y \in \mathbb {R} \text{su ch th at} \forall x \in \mathbb {R}. P (x, y) \text{is Tr ue .}
 $$
 
 or, at least, say it this way in your head.
@@ -485,7 +485,7 @@ $$
 What would happen if we read it out loud but misplaced the phrase "such that" and used it after the " $\forall$  " instead of the " $\exists$ "? That would yield this sentence:
 
 $$
-\exists y \in \mathbb {R} \quad \forall x \in \mathbb {R} \text {s u c h t h a t} P (x, y) \text {i s T r u e}.
+\exists y \in \mathbb {R} \quad \forall x \in \mathbb {R} \text{su ch th at} P (x, y) \text{is Tr ue}.
 $$
 
 We claim that this can be interpreted in two ways, neither of which is really the correct intended meaning, which is why we've written in red!
@@ -495,7 +495,7 @@ On the one hand, one might argue that such a sentence is not grammatical at all 
 On the other hand, one might read into the sentence a little bit and argue that what the writer really meant was
 
 $$
-\exists y \in \mathbb {R}, \forall x \in \mathbb {R}, \text {s u c h t h a t} P (x, y) \text {i s T r u e}.
+\exists y \in \mathbb {R}, \forall x \in \mathbb {R}, \text{su ch th at} P (x, y) \text{is Tr ue}.
 $$
 
 or, writing out the words,
@@ -505,23 +505,23 @@ There exists an  $x\in \mathbb{R}$ , for each  $y\in \mathbb{R}$ , such that  $P
 Here, the commas indicate an inversion of phrase order, as is common in English language. (For instance, consider the following sentence: "I laugh, at every episode of 30 Rock, wholeheartedly." This is the same as saying "I laugh wholeheartedly at every episode of 30 Rock.") This sentence would be equivalent, then, to writing
 
 $$
-\forall x \in \mathbb {R}. \exists y \in \mathbb {R} \text {s u c h t h a t} P (x, y) \text {i s T r u e .}
+\forall x \in \mathbb {R}. \exists y \in \mathbb {R} \text{su ch th at} P (x, y) \text{is Tr ue .}
 $$
 
 This is not the same as the original mathematical statement we considered and, in fact, it is actually the other statement we saw in the previous section (see Section 4.2.4), which was False! Recall that the other statement was similar but the phrases were reversed:
 
 $$
-\text {T h e r e i s a r e a l n u m b e r} x \text {s u c h t h a t , f o r e v e r y r e a l n u m b e r} y, \text {w e h a v e}
+\text{Th er ei sa re al nu mb er} x \text{su ch th at ,f or ev er yr ea ln um be r} y, \text{we ha ve}
 $$
 
 $$
-y = x ^ {3}.
+y = x^{3}.
 $$
 
 which we can symbolize as
 
 $$
-\exists x \in \mathbb {R}. \forall y \in \mathbb {R} \text {s u c h t h a t} P (x, y) \text {i s t r u e}
+\exists x \in \mathbb {R}. \forall y \in \mathbb {R} \text{su ch th at} P (x, y) \text{is tr ue}
 $$
 
 Look at that! The misplacement of the phrase "such that" led to a reasonable linguistic interpretation of the sentence that has the exact opposite meaning as what was originally intended. Yikes! This is why we must be careful to use "such that" always and only after an existential quantification. Remember that we will not always write that helper phrase, so you must remember to use it properly when reading a sentence to yourself in your head, or out loud to others, to make sure you have the correct, intended interpretation.
@@ -581,7 +581,7 @@ Is this statement True or False? Why?
 Another aspect of quantifiers we want to emphasize is that we must specify a set whenever we use quantifiers. The sentence
 
 $$
-\forall x. x ^ {2} \geq 0
+\forall x. x^{2} \geq 0
 $$
 
 may "look true" but it is, in fact, meaningless. What is  $x$ ? Where does it come from? "For every  $x \ldots$ " from where? What if  $x$  is not a number?
@@ -589,13 +589,13 @@ may "look true" but it is, in fact, meaningless. What is  $x$ ? Where does it co
 We need to specify where the object  $x$  "comes from" so that we know whether  $x^2 \geq 0$  is even a well-defined, grammatical phrase, let alone whether it is True. If we amend the sentence to say
 
 $$
-\forall x \in \mathbb {R}. x ^ {2} \geq 0
+\forall x \in \mathbb {R}. x^{2} \geq 0
 $$
 
 then this is a well-defined, grammatical (and True!) mathematical statement. However, if we amend the sentence to say
 
 $$
-\forall x \in \mathbb {C}. x ^ {2} \geq 0
+\forall x \in \mathbb {C}. x^{2} \geq 0
 $$
 
 then this is a well-defined yet False mathematical statement! This is because  $i \in \mathbb{C}$  but  $i^2 = -1 < 0$ . (Remember, we will not make significant use of the set of complex numbers  $\mathbb{C}$  in this book, but it makes for interesting and enlightening examples, like this.)
@@ -632,7 +632,7 @@ Answering the following questions briefly, either out loud or in writing. These 
 (2) How would you read the following statement out loud?
 
 $$
-\forall x \in \mathbb {R}. \exists y \in \mathbb {R}. x = y ^ {3}
+\forall x \in \mathbb {R}. \exists y \in \mathbb {R}. x = y^{3}
 $$
 
 (3) Why is the following sentence not a proper mathematical statement?
@@ -761,7 +761,7 @@ are referring to, we can necessarily conclude that the proposition  $R(x)$  is t
 If it's False that every element  $x \in S$  satisfies a certain property, it must be that at least one element does not satisfy that property. To prove this, we would be expected to produce such a value; we would have to define (i.e. identify) an element  $x$  and explain why  $R(x)$  does not hold for that particular element. (Think about how we understand this negation linguistically. We do this all the time in everyday language without even thinking about it.) The conclusion, then, is that the negation of the original statement is
 
 $$
-\exists x \in S \text {s u c h t h a t} R (x) \text {i s F a l s e}
+\exists x \in S \text{su ch th at} R (x) \text{is Fa ls e}
 $$
 
 We now introduce the notational symbol  $\neg$  to mean "logical negation" or "not". With this in hand we can rewrite the negated statement
@@ -781,7 +781,7 @@ The concluding phrase of that statement,  $\neg R(x)$ , could be simplified, dep
 For instance, if  $S = \mathbb{R}$  and  $R(x)$  is " $x^2 \geq 0$ ", then the negated statement would read
 
 $$
-“ \exists x \in \mathbb {R} \mathrm {s u c h t h a t} x ^ {2} <   0 ”
+“ \exists x \in \mathbb {R} \mathrm{su ch th at} x^{2} <   0 ”
 $$
 
 since  $x^2 < 0$  is logically equivalent to  $\neg (x^2 \geq 0)$ .
@@ -847,19 +847,19 @@ $$
 Now, we know that  $C(y)$  is a universally quantified statement itself:
 
 $$
-\forall x \in \mathbb {R}. y = x ^ {3}
+\forall x \in \mathbb {R}. y = x^{3}
 $$
 
 We know how to negate that type of statement, too! That negation,  $\neg C(y)$ , is
 
 $$
-\exists x \in \mathbb {R}. y \neq x ^ {3}
+\exists x \in \mathbb {R}. y \neq x^{3}
 $$
 
 This step just uses the other negation procedure that we saw above. Then, putting it all together, we can say that  $\neg A$  is the statement
 
 $$
-\forall y \in \mathbb {R}. \exists x \in \mathbb {R}. y \neq x ^ {3}
+\forall y \in \mathbb {R}. \exists x \in \mathbb {R}. y \neq x^{3}
 $$
 
 This claim we can prove to be true, thus showing that the original statement must be False.
@@ -877,7 +877,7 @@ $$
 To start negating it, we would break off the first quantification, and treat the rest as its own proposition,  $R(a)$ , that depends only on  $a$ :
 
 $$
-\forall a \in A. \left(\underbrace {\exists b \in B . \exists c \in C . \forall d , e \in D . Q (a , b , c , d , e)} _ {R (a)}\right)
+\forall a \in A. \left(\underbrace {\exists b \in B . \exists c \in C . \forall d , e \in D . Q (a , b , c , d , e)} _{R (a)}\right)
 $$
 
 The negation can therefore be written as
@@ -984,7 +984,7 @@ The number  $\sqrt{2}^{\sqrt{2}}$  is either rational or irrational. (This is wh
 - Now, suppose that the number  $\sqrt{2}^{\sqrt{2}}$  is irrational. In this case, we can use  $a = \sqrt{2}^{\sqrt{2}}$  and  $b = \sqrt{2}$  as the example we seek, because  $a$  and  $b$  are both irrational and
 
 $$
-a ^ {b} = (\sqrt {2} ^ {\sqrt {2}}) ^ {\sqrt {2}} = \sqrt {2} ^ {\sqrt {2} \cdot \sqrt {2}} = (\sqrt {2}) ^ {2} = 2
+a^{b} = (\sqrt{2}^{\sqrt{2}})^{\sqrt{2}} = \sqrt{2}^{\sqrt{2} \cdot \sqrt{2}} = (\sqrt{2})^{2} = 2
 $$
 
 which is rational.
@@ -1010,11 +1010,11 @@ With those observations now made, we can rewrite those definitions of indexed se
 Definition 4.4.2. Suppose  $I$  is an index set and  $\forall i \in I$ .  $A_i \subseteq U$ , for some universal set  $U$ . Then
 
 $$
-\bigcup_ {i \in I} A _ {i} = \{x \in U \mid \exists k \in I. x \in A _ {k} \}
+\bigcup_{i \in I} A_{i} = \{x \in U \mid \exists k \in I. x \in A_{k} \}
 $$
 
 $$
-\bigcap_ {i \in I} A _ {i} = \left\{x \in U \mid \forall i \in I. x \in A _ {i} \right\}
+\bigcap_{i \in I} A_{i} = \left\{x \in U \mid \forall i \in I. x \in A_{i} \right\}
 $$
 
 Try working with some of the examples and exercises in that Section 3.6.2 again. Do the definitions make more sense now?
@@ -1072,25 +1072,25 @@ Then, determine what the set is, and write your answer using set-builder notatio
 (a)
 
 $$
-S = \bigcup_ {x \in I} \{y \in \mathbb {R} \mid x <   y <   2 \}
+S = \bigcup_{x \in I} \{y \in \mathbb {R} \mid x <   y <   2 \}
 $$
 
 (b)
 
 $$
-T = \bigcap_ {x \in I} \left\{y \in \mathbb {R} \mid - x <   y <   x \right\}
+T = \bigcap_{x \in I} \left\{y \in \mathbb {R} \mid - x <   y <   x \right\}
 $$
 
 (c)
 
 $$
-V = \bigcup_ {x \in I} \left\{y \in \mathbb {R} \mid - 3 x <   y <   4 x \right\}
+V = \bigcup_{x \in I} \left\{y \in \mathbb {R} \mid - 3 x <   y <   4 x \right\}
 $$
 
 (4) Let  $P = \{y \in \mathbb{R} \mid y > 0\}$ . Consider this statement:
 
 $$
-\forall \varepsilon \in P. \exists \delta \in P. \forall x \in \left\{y \in \mathbb {R} \mid - \delta <   y <   \delta \right\}. | x ^ {3} | <   \varepsilon
+\forall \varepsilon \in P. \exists \delta \in P. \forall x \in \left\{y \in \mathbb {R} \mid - \delta <   y <   \delta \right\}. | x^{3} | <   \varepsilon
 $$
 
 Write out the logical negation of this statement.
@@ -1137,7 +1137,7 @@ somewhere in an overall statement to make the variable proposition into a proper
 To say
 
 $$
-" P \text {a n d} Q ^ {\prime \prime} \text {i s T r u e}
+" P \text{an d} Q^{\prime \prime} \text{is Tr ue}
 $$
 
 means that both statements have the truth value: True. If either one of the statements  $P$  or  $Q$  were False, then the statement "  $P$  and  $Q$ " would be False, as well. This definition encapsulates this idea:
@@ -1153,19 +1153,19 @@ Here are some examples to demonstrate this definition:
 Example 4.5.2.
 
 $$
-(1 + 3 = 4) \wedge (\forall x \in \mathbb {R}. x ^ {2} \geq 0)
+(1 + 3 = 4) \wedge (\forall x \in \mathbb {R}. x^{2} \geq 0)
 $$
 
 True
 
 $$
-(1 + 3 = 5) \wedge (\forall x \in \mathbb {R} \cdot x ^ {2} \geq 0)
+(1 + 3 = 5) \wedge (\forall x \in \mathbb {R} \cdot x^{2} \geq 0)
 $$
 
 False
 
 $$
-(1 + 3 = 5) \wedge (\exists x \in \mathbb {Q}. x ^ {2} = 2)
+(1 + 3 = 5) \wedge (\exists x \in \mathbb {Q}. x^{2} = 2)
 $$
 
 False
@@ -1175,7 +1175,7 @@ False
 It's sometimes common to drop the parentheses that we used in the examples above. For example, the first line in the above example can be written equivalently as
 
 $$
-1 + 3 = 4 \land \forall x \in \mathbb {R}. x ^ {2} \geq 0
+1 + 3 = 4 \land \forall x \in \mathbb {R}. x^{2} \geq 0
 $$
 
 Using the parentheses tends to make the statement more readable. Without them, we have to think for a few extra moments about where one part of the statement ends and the next one begins, but we can still eventually make sense of it. We will try to use parentheses whenever they make a statement more easily understandable.
@@ -1191,7 +1191,7 @@ As we will discuss below in Section 4.5.4, we can write the definition of " $\ca
 To say
 
 $$
-" P \text {o r} Q" \text {i s T r u e}
+" P \text{or} Q" \text{is Tr ue}
 $$
 
 means that " $P$  is True, or  $Q$  is True". We need to know that one of the statements is True to declare that the entire statement has the truth value True. We don't care whether both  $P$  and  $Q$  are true or not, merely that at least one of them is true.
@@ -1207,7 +1207,7 @@ The truth value of  $P \vee Q$  is True when at least one of  $P$  and  $Q$  is 
 Example 4.5.4.
 
 $$
-\begin{array}{l} (1 + 3 = 4) \vee (\forall x \in \mathbb {R}. x ^ {2} \geq 0) \quad \text {T r u e} \\ (1 + 3 = 5) \vee (\forall x \in \mathbb {R}. x ^ {2} \geq 0) \quad \text {T r u e} \\ (1 + 3 = 5) \vee (\exists x \in \mathbb {R}. x ^ {2} <   0) \quad \text {F a l s e} \\ \end{array}
+\begin{array}{l} (1 + 3 = 4) \vee (\forall x \in \mathbb {R}. x^{2} \geq 0) \quad \text{Tr ue} \\ (1 + 3 = 5) \vee (\forall x \in \mathbb {R}. x^{2} \geq 0) \quad \text{Tr ue} \\ (1 + 3 = 5) \vee (\exists x \in \mathbb {R}. x^{2} <   0) \quad \text{Fa ls e} \\ \end{array}
 $$
 
 # Notation
@@ -1257,31 +1257,31 @@ That key word "whenever" in the definition should indicate to you why the false 
 Here are several examples to help you get the idea:
 
 $$
-(1 + 3 = 4) \Longrightarrow (\forall x \in \mathbb {R}. x ^ {2} \geq 0) \quad T r u e
+(1 + 3 = 4) \Longrightarrow (\forall x \in \mathbb {R}. x^{2} \geq 0) \quad T r u e
 $$
 
 $$
-(1 + 3 = 5) \Longrightarrow (\forall x \in \mathbb {R}. x ^ {2} \geq 0) \quad T r u e
+(1 + 3 = 5) \Longrightarrow (\forall x \in \mathbb {R}. x^{2} \geq 0) \quad T r u e
 $$
 
 $$
-(1 + 3 = 5) \Longrightarrow (\text {A b r a h a m L i n c o l n i s a l i v e}) \quad \text {T r u e}
+(1 + 3 = 5) \Longrightarrow (\text{Ab ra ha mL in co ln is al iv e}) \quad \text{Tr ue}
 $$
 
 $$
-(1 + 1 = 2) \Longrightarrow (0 = 1) \quad \text {F a l s e}
+(1 + 1 = 2) \Longrightarrow (0 = 1) \quad \text{Fa ls e}
 $$
 
 $$
-(0 = 0) \Longrightarrow (\exists x \in \mathbb {R}. x ^ {2} <   0) \quad F a l s e
+(0 = 0) \Longrightarrow (\exists x \in \mathbb {R}. x^{2} <   0) \quad F a l s e
 $$
 
 $$
-\text {(P y t h a g o r e a n T h e o r e m)} \Longrightarrow (1 = 1) \quad \text {T r u e}
+\text{(Py th ag or ea nT he or em)} \Longrightarrow (1 = 1) \quad \text{Tr ue}
 $$
 
 $$
-(0 = 1) \Rightarrow (1 = 1) \quad \text {T r u e}
+(0 = 1) \Rightarrow (1 = 1) \quad \text{Tr ue}
 $$
 
 Notice that the second and third examples are True because they have the false hypothesis " $1 + 3 = 5$ ". Regardless of the conclusion, the entire conditional statement must be True because of this. It doesn't matter that " $\forall x \in \mathbb{R} \cdot x^2 \geq 0$ " happens to be True or that "Abraham Lincoln is alive" happens to be False; that false hypothesis determines the statement's truth value.
@@ -1311,7 +1311,7 @@ This is a True conditional statement, and our minds probably recognize this beca
 Look back at the first example given above:
 
 $$
-(1 + 3 = 4) \Rightarrow (\forall x \in \mathbb {R}. x ^ {2} \geq 0)
+(1 + 3 = 4) \Rightarrow (\forall x \in \mathbb {R}. x^{2} \geq 0)
 $$
 
 What does the fact that  $1 + 3 = 4$  have to do with the fact that any real number squared is non-negative? Does it even have any connection? We don't actually care! We can still identify this conditional statement as True, whether or not we can find a way to deduce the conclusion directly from the hypothesis (and whether or not such a deduction even exists). Only the truth values of the constituent statements matter.
@@ -1323,7 +1323,7 @@ Granted, when we work on proving conditional statements, we will likely try to d
 In mathematics, we often want to prove conditional statements that involve variables. For instance, we might want to show that, in the context of the real numbers  $\mathbb{R}$ , the following conditional claim holds:
 
 $$
-x > 1 \Longrightarrow x ^ {2} - 1 > 0
+x > 1 \Longrightarrow x^{2} - 1 > 0
 $$
 
 That sentence, written in the line above, is itself a variable proposition, and the definition of the symbol " $\Rightarrow$ " applies to it.
@@ -1333,7 +1333,7 @@ If we knew that  $x > 1$  and also  $x^2 - 1 > 0$ , then we could declare the co
 Remember, though, that the conditional claim, as written above, is not technically a mathematical statement. We were making that claim in the context of the real numbers, so it would really make sense to write
 
 $$
-\forall x \in \mathbb {R}. (x > 1 \Rightarrow x ^ {2} - 1 > 0)
+\forall x \in \mathbb {R}. (x > 1 \Rightarrow x^{2} - 1 > 0)
 $$
 
 This is, ultimately, what the writer was trying to claim, so they should just say so! We make the same recommendation to you. These logical connectives— $\land$  and  $\lor$  and  $\Rightarrow$ —make sense and can be applied to variable propositions. Outside of that scope, somewhere else in the statement you're putting together, there must be some kind of quantification on those variables. Only then can we be assured that the sentence is a mathematical statement with one truth value.
@@ -1437,7 +1437,7 @@ For now, let's make a few more remarks about the " $\Longrightarrow$ " connectiv
 above), but it does not tell us anything about the truth values of  $P$  and  $Q$ . So, if you just write down the claim
 
 $$
-\text {B l a h b l a h} \quad \Longrightarrow \quad \text {Y a d a y a d a}
+\text{Bl ah bl ah} \quad \Longrightarrow \quad \text{Ya da ya da}
 $$
 
 on your paper, we have no idea if you're trying to assert whether "Blah blah" or "Yada yada" are True or False! To a mathematician, this just says:
@@ -1447,7 +1447,7 @@ The conditional statement "'Blah blah' implies 'Yada yada'" is True.
 If you wish to make some kind of inference or deduction, then use some helping words and sentences to indicate that. Write something like this:
 
 $$
-P \Rightarrow Q \text {b e c a u s e} \dots
+P \Rightarrow Q \text{be ca us e} \dots
 $$
 
 Also,  $P$  holds because  $\ldots$
@@ -1564,19 +1564,19 @@ Try answering the following short-answer questions. They require you to actually
 (4) Let's define the following variable propositions:
 
 $$
-P (x) \text {i s} “ \frac {1}{2} <   x ”
+P (x) \text{is} “ \frac{1}{2} <   x ”
 $$
 
 $$
-Q (x) \text {i s} “ x <   \frac {3}{2} ”
+Q (x) \text{is} “ x <   \frac{3}{2} ”
 $$
 
 $$
-R (x) \text {i s} “ x ^ {2} = 4 ”
+R (x) \text{is} “ x^{2} = 4 ”
 $$
 
 $$
-S (x) \text {i s} “ x + 1 \in \mathbb {N} ”
+S (x) \text{is} “ x + 1 \in \mathbb {N} ”
 $$
 
 For each of the following statements, determine whether it is True or False.
@@ -1692,13 +1692,13 @@ Each of these is an assertion that the expressions on both sides of the  $\Longl
 Logical equivalence has a nice relationship with the phrase "if and only if". To say " $P$  if and only if  $Q$ " means we are asserting that both " $P$  if  $Q$ " and " $P$  only if  $Q$ " hold. One of these corresponds to  $P \Rightarrow Q$  and the other corresponds to  $Q \Rightarrow P$ , so asserting both are true means exactly what we have described:
 
 $$
-P \Longleftrightarrow Q \quad \text {i s t h e s a m e a s s a y i n g} \quad (P \Longrightarrow Q) \wedge (Q \Longrightarrow P)
+P \Longleftrightarrow Q \quad \text{is th es am ea ss ay in g} \quad (P \Longrightarrow Q) \wedge (Q \Longrightarrow P)
 $$
 
 Now, which one is which, though? When we say " $P$  if  $Q$ , this means "If  $Q$ , then  $P$ ." That is,
 
 $$
-" P \text {i f} Q ^ {\prime \prime} \quad \text {i s t h e s a m e a s s a y i n g} \quad Q \Longrightarrow P
+" P \text{if } Q^{\prime \prime} \quad \text{is th es am ea ss ay in g} \quad Q \Longrightarrow P
 $$
 
 Sussing out the other direction is a little harder! What does "  $P$  only if  $Q$  " really mean? This sentence is asserting that, in a situation where  $P$  holds, it must also be the case that  $Q$  holds. That is, knowing  $P$  holds means we also immediately know  $Q$  holds. Put even another way, whenever  $P$  is true, we necessarily know that  $Q$  is true. This is the same as saying  $P \Rightarrow Q$  holds!
@@ -1722,13 +1722,13 @@ Hey look, that's logically equivalent to  $P \Rightarrow Q$ , as we observed alr
 We will also often use the " $\Longleftrightarrow$ " symbol in a definition to indicate that the term defined is an equivalent term for the property that is used in the definition. For example:
 
 $$
-\text {W e} x \in \mathbb {Z} \text {i s} \text {e v e n} \Longleftrightarrow \exists k \in \mathbb {Z}. x = 2 k
+\text{We} x \in \mathbb {Z} \text{is} \text{ev en} \Longleftrightarrow \exists k \in \mathbb {Z}. x = 2 k
 $$
 
 That is, the notion of an integer being even is equivalent to knowing that the number is twice an integer. Similarly, we can define odd:
 
 $$
-\text {W e} x \in \mathbb {Z} \text {i s} \mathbf {o d d} \Longleftrightarrow \exists k \in \mathbb {Z}. x = 2 k + 1
+\text{We} x \in \mathbb {Z} \text{is} \mathbf {o d d} \Longleftrightarrow \exists k \in \mathbb {Z}. x = 2 k + 1
 $$
 
 These are formal definitions, mind you, and are the only way of guaranteeing an integer is even (or odd). We will use these definitions soon to rigorously prove some facts about integers and arithmetic. Every time we want to assert a particular integer (call it  $x$ ) is even, we need to show there exists an integer  $k$  that satisfies  $x = 2k$ . That is, we have to satisfy the definition by appealing to the logical equivalence given in the definition.
@@ -1748,7 +1748,7 @@ is a perfect example of a logical equivalence. Without telling you what  $P$  an
 The situation is slightly different when the two statements on either side of the " $\Longleftrightarrow$ " are actually proper mathematical statements, with no undefined propositions. For instance, consider this statement:
 
 $$
-\forall x \in \mathbb {R}. (x > 0) \Longleftrightarrow \left(\frac {1}{x} > 0\right)
+\forall x \in \mathbb {R}. (x > 0) \Longleftrightarrow \left(\frac{1}{x} > 0\right)
 $$
 
 This is a logical claim, and it asserts that, whenever  $x$  is a real number, knowing one of those two facts— $x > 0$  or  $\frac{1}{x} > 0$ —necessarily guarantees the other. That is, if I told you I have a real number in mind and it is positive, you get to conclude that its reciprocal is positive, too. Also, if I told you I have a real number in mind whose reciprocal is positive, you would get to conclude that the number itself is positive, too. It goes both ways. (Question: What if I told you I had a negative real number in mind? Could you conclude anything about its reciprocal? Why or why not?)
@@ -1758,7 +1758,7 @@ Do you see how this is different? Given an arbitrary  $x \in \mathbb{R}$ , the s
 For lack of a better, widespread term for these kinds of statements, we will refer to them as biconditionals. This is because they are really meant to represent two conditional statements that go "in opposite directions":
 
 $$
-\forall x \in \mathbb {R}. \left[ \left((x > 0) \Rightarrow \left(\frac {1}{x} > 0\right)\right) \wedge \left(\left(\frac {1}{x} > 0\right) \Rightarrow (x > 0)\right) \right]
+\forall x \in \mathbb {R}. \left[ \left((x > 0) \Rightarrow \left(\frac{1}{x} > 0\right)\right) \wedge \left(\left(\frac{1}{x} > 0\right) \Rightarrow (x > 0)\right) \right]
 $$
 
 This is what the statement above says: each part of the statement implies the other one.
@@ -1780,7 +1780,7 @@ If we identify some interesting fact or property—call it  $P$ —of a mathemat
 Let's say we have identified a proposition  $Q$  as a sufficient condition for  $P$ . How can we express this logically? Well, knowing  $Q$  is sufficient to conclude  $P$ , so we can easily write this as a conditional statement:
 
 $$
-Q \Rightarrow P \quad \text {m e a n s} Q \text {i s a s u f f i c i e n t c o n d i t i o n f o r} P
+Q \Rightarrow P \quad \text{me an s} Q \text{is as uf fi ci en tc on di ti on fo r} P
 $$
 
 Said another way, this conditional statement expresses: " $P$ , if  $Q$ ".
@@ -1794,7 +1794,7 @@ Think about the logical connections here. Say we have established a property  $Q
 to be true. This is expressed as
 
 $$
-P \Longrightarrow Q \quad \text {m e a n s} Q \text {i s a n e c e s s a r y c o n d i t i o n f o r} P
+P \Longrightarrow Q \quad \text{me an s} Q \text{is an ec es sa ry co nd it io nf or} P
 $$
 
 Said another way, this conditional statement expresses: "  $P$  only if  $Q$ ".
@@ -2045,7 +2045,7 @@ We will prove these claims using logical equivalences and DeMorgan's Laws for Lo
 Proof. Let's prove the first set equality. Let  $x \in U$  be arbitrary and fixed. Then,
 
 $$
-\begin{array}{l} x \in \overline {{A \cup B}} \iff x \notin A \cup B \quad \text {D e f i n i t i o n o f c o m p l e m e n t} \\ \iff \neg (x \in A \cup B) \quad \text {D e f i n i t i o n} \notin \\ \iff \neg [ (x \in A) \vee (x \in B) ] \quad \text {D e f i n i t i o n} \cup \text {a n d} \vee \\ \Longleftrightarrow \neg (x \in A) \wedge \neg (x \in B) \quad \text {D e M o r g a n ' s L a w f o r L o g i c} \\ \iff (x \notin A) \land (x \notin B) \quad \text {D e f i n i t i o n} \not \in \\ \Longleftrightarrow (x \in \bar {A}) \wedge (x \in \bar {B}) \quad \text {D e f i n i t i o n} \\ \iff x \in \bar {A} \cap \bar {B} \quad \text {D e f i n i t i o n} \wedge \text {a n d} \cap \\ \end{array}
+\begin{array}{l} x \in \overline {{A \cup B}} \iff x \notin A \cup B \quad \text{De fi ni ti on of co mp le me nt} \\ \iff \neg (x \in A \cup B) \quad \text{De fi ni ti on} \notin \\ \iff \neg [ (x \in A) \vee (x \in B) ] \quad \text{De fi ni ti on} \cup \text{an d} \vee \\ \Longleftrightarrow \neg (x \in A) \wedge \neg (x \in B) \quad \text{De Mo rg an 's La wf or Lo gi c} \\ \iff (x \notin A) \land (x \notin B) \quad \text{De fi ni ti on} \not \in \\ \Longleftrightarrow (x \in \bar {A}) \wedge (x \in \bar {B}) \quad \text{De fi ni ti on} \\ \iff x \in \bar {A} \cap \bar {B} \quad \text{De fi ni ti on} \wedge \text{an d} \cap \\ \end{array}
 $$
 
 Remember that " $\wedge$ " is a logical operation, while " $\cap$ " is a set operation. We had to be careful about which one made sense in every sentence we wrote. Also, notice that we used DeMorgan's Law for Logic in the middle of the proof, to convert a negation of a disjunction into the conjunction of two negations.
@@ -2191,7 +2191,7 @@ You might recognize this claim as Problem 3.11.17! In that problem, we asked you
 Proof. Let  $X, Y, Z$  be any sets, with  $X, Y, Z \subseteq U$ , for some universal set  $U$ . Let  $x \in U$  be arbitrary and fixed. We can write the following chain of logical equivalences:
 
 $$
-\begin{array}{l} x \in (X \cup Y) - Z \iff x \in X \cup Y \wedge x \notin Z \quad \text {D e f n} - \\ \Longleftrightarrow (x \in X \vee x \in Y) \wedge x \notin Z \quad \text {D e f n} \cup \\ \iff (x \in X \wedge x \notin Z) \vee (x \in Y \wedge x \notin Z) \quad \text {D i s t r . L a w} \\ \end{array}
+\begin{array}{l} x \in (X \cup Y) - Z \iff x \in X \cup Y \wedge x \notin Z \quad \text{De fn} - \\ \Longleftrightarrow (x \in X \vee x \in Y) \wedge x \notin Z \quad \text{De fn} \cup \\ \iff (x \in X \wedge x \notin Z) \vee (x \in Y \wedge x \notin Z) \quad \text{Di st r .L aw} \\ \end{array}
 $$
 
 Scratch work:
@@ -2229,7 +2229,7 @@ $$
 To help us figure out how to get there, let's do some scratch work here to rewrite the statement on the right-hand side; then, we can see how to get there from where we are already:
 
 $$
-\begin{array}{l} x \in X \cup (Y - Z) \iff x \in X \lor x \in Y - Z \quad \text {D e f n} \\ \Longleftrightarrow x \in X \vee (x \in Y \wedge x \notin Z) \quad \text {D e f n o f} - \\ \end{array}
+\begin{array}{l} x \in X \cup (Y - Z) \iff x \in X \lor x \in Y - Z \quad \text{De fn} \\ \Longleftrightarrow x \in X \vee (x \in Y \wedge x \notin Z) \quad \text{De fn of} - \\ \end{array}
 $$
 
 This is similar to the last logical equivalence we derived up above, but this one differs in the term on the left. Can you see how the one up above implies this one? Think about it, and then read on for the rest of our proof, resumed.
@@ -2416,7 +2416,7 @@ $$
 Proof. Observe that
 
 $$
-\begin{array}{l} \neg (P \Longrightarrow Q) \iff \neg (\neg P \lor Q) \quad \text {L o g i c a l e q u i v a l e n c e p r o v e n a l r e a d y} \\ \Longleftrightarrow \neg (\neg P) \wedge \neg Q \quad \text {D e M o r g a n ' s L a w f o r L o g i c} \\ \Longleftrightarrow P \wedge \neg Q \quad \text {s i n c e} \neg (\neg P) \iff P \\ \end{array}
+\begin{array}{l} \neg (P \Longrightarrow Q) \iff \neg (\neg P \lor Q) \quad \text{Lo gi ca le qu iv al en ce pr ov en al re ad y} \\ \Longleftrightarrow \neg (\neg P) \wedge \neg Q \quad \text{De Mo rg an 's La wf or Lo gi c} \\ \Longleftrightarrow P \wedge \neg Q \quad \text{si nc e} \neg (\neg P) \iff P \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/44fa662e-a015-46fb-8608-ecf0fb518d19/fe535268fe13d6633a6c4ca3923ef37803f993850ea2c27066d65ff3b7a853fb.jpg)
@@ -2486,7 +2486,7 @@ We see that this negation is True because  $0 \in \mathbb{R}$  and  $0 \leq 0$  
 Example 4.7.3. Find the logical negation of
 
 $$
-\exists n \in \mathbb {N}. n \geq 1 0 \wedge \sqrt {n} \leq 3
+\exists n \in \mathbb {N}. n \geq 1 0 \wedge \sqrt{n} \leq 3
 $$
 
 This statement says "There exists a natural number  $n$  that satisfies both  $n \geq 10$  and  $\sqrt{n} \leq 3$ .
@@ -2494,7 +2494,7 @@ This statement says "There exists a natural number  $n$  that satisfies both  $n
 The logical negation is
 
 $$
-\forall n \in \mathbb {N}. n <   1 0 \vee \sqrt {n} > 3
+\forall n \in \mathbb {N}. n <   1 0 \vee \sqrt{n} > 3
 $$
 
 That is, the logical negation says "Every natural number  $n$  satisfies either  $n > 10$  or  $\sqrt{n} < 3$ .
@@ -2502,7 +2502,7 @@ That is, the logical negation says "Every natural number  $n$  satisfies either 
 Example 4.7.4. Find the logical negation of
 
 $$
-\exists x \in \mathbb {R}. \forall y \in \mathbb {R}. x \geq y \Longrightarrow x ^ {2} \geq y ^ {2}
+\exists x \in \mathbb {R}. \forall y \in \mathbb {R}. x \geq y \Longrightarrow x^{2} \geq y^{2}
 $$
 
 This statement says "There exists a real number  $x$  such that whenever we have a real number  $y$  that satisfies  $x \geq y$ , we may conclude that  $x^2 \geq y^2$ ".
@@ -2510,7 +2510,7 @@ This statement says "There exists a real number  $x$  such that whenever we have
 The logical negation is
 
 $$
-\forall x \in \mathbb {R}. \exists y \in \mathbb {R}. x \geq y \wedge x ^ {2} <   y ^ {2}
+\forall x \in \mathbb {R}. \exists y \in \mathbb {R}. x \geq y \wedge x^{2} <   y^{2}
 $$
 
 Can you prove that this logical negation is, in fact, the True statement? Try it!
@@ -2623,7 +2623,7 @@ Then, negate each one, and explain how those negations also differ. What are the
 (a)  $\forall \varepsilon \in P.\forall x\in P.\exists \delta \in P.\forall y\in \mathbb{R}.\left(|x - y| <   \delta \Rightarrow \left|\frac{1}{x} -\frac{1}{y}\right| <   \varepsilon\right)$
 
 $$
-\forall \varepsilon \in P. \exists \delta \in P. \forall x \in P. \forall y \in \mathbb {R}. \left(| x - y | <   \delta \Rightarrow \left| \frac {1}{x} - \frac {1}{y} \right| <   \varepsilon\right) \tag {b}
+\forall \varepsilon \in P. \exists \delta \in P. \forall x \in P. \forall y \in \mathbb {R}. \left(| x - y | <   \delta \Rightarrow \left| \frac{1}{x} - \frac{1}{y} \right| <   \varepsilon\right) \tag {b}
 $$
 
 Hint/suggestion: A statement like  $|a| < b$  can be written as  $-b < a < b$ . Also, a statement like  $a < b < c$  can be written as  $a < b \land b < c$ . This might help you rewrite the statements when determining their truth values.
@@ -2651,7 +2651,7 @@ There is a convenient and interesting relationship between sets (and their corre
 Suppose we have two variable propositions,  $P(x)$  and  $Q(x)$ . Further, suppose these propositions make sense for any input  $x$  that comes from some universal set  $U$ . (This set  $U$  depends on the specific statements inside  $P(x)$  and  $Q(x)$ , of course, but we don't really care what they are for this general discussion.) For each of these propositions, we can define a truth set; that is, we can consider the set of all instances  $x$  from the universe  $U$  that make those propositions evaluate as True. We define
 
 $$
-\begin{array}{l} T _ {P} = \{x \in U \mid P (x) \text {i s T r u e} \} \\ T _ {Q} = \{x \in U \mid Q (x) \text {i s T r u e} \} \\ \end{array}
+\begin{array}{l} T_{P} = \{x \in U \mid P (x) \text{is Tr ue} \} \\ T_{Q} = \{x \in U \mid Q (x) \text{is Tr ue} \} \\ \end{array}
 $$
 
 Perhaps the propositions  $P(x)$  and  $Q(x)$  are related somehow. Let's suppose that, in fact,
@@ -2663,13 +2663,13 @@ $$
 holds. What does this say about those truth sets? This conditional statement says that any  $x$  that satisfies  $P(x)$  (i.e. makes  $P(x)$  True) must also satisfy  $Q(x)$ . Written another way, using those truth sets, we have
 
 $$
-\forall x \in U. x \in T _ {P} \Rightarrow x \in T _ {Q}
+\forall x \in U. x \in T_{P} \Rightarrow x \in T_{Q}
 $$
 
 This is precisely the definition of "subset"! What we have just discovered is that
 
 $$
-T _ {P} \subseteq T _ {Q}
+T_{P} \subseteq T_{Q}
 $$
 
 when that conditional statement above holds.
@@ -2683,7 +2683,7 @@ $$
 holds. We just discovered that  $T_P \subseteq T_Q$ , and applying the exact same reasoning to the "other direction" of that  $\iff$  statement (that is, the  $Q(x) \Rightarrow P(x)$  part of it) will show us that  $T_Q \subseteq T_P$ , as well. By the definition of set equality, this means that
 
 $$
-T _ {P} = T _ {Q}
+T_{P} = T_{Q}
 $$
 
 when that biconditional statement above holds.
@@ -2695,19 +2695,19 @@ Similarly, we can consider the conjunction  $P(x) \lor Q(x)$ . An instance  $x$ 
 Let's summarize these relationships we have discovered:
 
 $$
-\forall x \in U. \left(P (x) \Longrightarrow Q (x)\right) \Longleftrightarrow \left(T _ {P} \subseteq T _ {Q}\right)
+\forall x \in U. \left(P (x) \Longrightarrow Q (x)\right) \Longleftrightarrow \left(T_{P} \subseteq T_{Q}\right)
 $$
 
 $$
-\forall x \in U. \left(P (x) \Longleftrightarrow Q (x)\right) \Longleftrightarrow \left(T _ {P} = T _ {Q}\right)
+\forall x \in U. \left(P (x) \Longleftrightarrow Q (x)\right) \Longleftrightarrow \left(T_{P} = T_{Q}\right)
 $$
 
 $$
-\forall x \in U. \left(P (x) \land Q (x)\right) \iff \left(x \in T _ {P} \cap T _ {Q}\right)
+\forall x \in U. \left(P (x) \land Q (x)\right) \iff \left(x \in T_{P} \cap T_{Q}\right)
 $$
 
 $$
-\forall x \in U. (P (x) \vee Q (x)) \iff (x \in T _ {P} \cup T _ {Q})
+\forall x \in U. (P (x) \vee Q (x)) \iff (x \in T_{P} \cup T_{Q})
 $$
 
 Can you come up with some characterizations, using truth sets, for the following statements? Fill in the blanks!
@@ -2851,17 +2851,17 @@ The main lesson here is that we do not need to show this scratch work in our pro
 Proof. Since  $ad - bc \neq 0$  (by assumption), we may define
 
 $$
-x = \frac {d e - b f}{a d - b c} \qquad \text {a n d} \qquad y = \frac {a f - c e}{a d - b c}
+x = \frac{d e - b f}{a d - b c} \qquad \text{an d} \qquad y = \frac{a f - c e}{a d - b c}
 $$
 
 and know that  $x,y\in \mathbb{R}$  . Then,
 
 $$
-a x + b y = \frac {(a d e - a b f) + (a b f - b c e)}{a d - b c} = \frac {a d e - b c e}{a d - b c} = \frac {e (a d - b c)}{a d - b c} = e
+a x + b y = \frac{(a d e - a b f) + (a b f - b c e)}{a d - b c} = \frac{a d e - b c e}{a d - b c} = \frac{e (a d - b c)}{a d - b c} = e
 $$
 
 $$
-c x + d y = \frac {(c d e - b c f) + (a d f - c d e)}{a d - b c} = \frac {a d f - b c d}{a d - b c} = \frac {f (a d - b c)}{a d - b c} = f
+c x + d y = \frac{(c d e - b c f) + (a d f - c d e)}{a d - b c} = \frac{a d f - b c d}{a d - b c} = \frac{f (a d - b c)}{a d - b c} = f
 $$
 
 so  $S(x,y)$  holds.
@@ -2895,13 +2895,13 @@ Statement: Suppose  $n \in \mathbb{N}$  and we have  $n$  real numbers,  $a_1, a
 We claim that one of the numbers is at least as large as their average. That is,
 
 $$
-\exists B \in [ n ] \cdot a _ {B} \geq \frac {1}{n} \sum_ {i = 1} ^ {n} a _ {i}
+\exists B \in [ n ] \cdot a_{B} \geq \frac{1}{n} \sum_{i = 1}^{n} a_{i}
 $$
 
 Proof. AFSOC none of the numbers are at least as large as the average, i.e.
 
 $$
-\forall i \in [ n ] \cdot a _ {i} <   \frac {1}{n} \sum_ {i = 1} ^ {n} a _ {i}
+\forall i \in [ n ] \cdot a_{i} <   \frac{1}{n} \sum_{i = 1}^{n} a_{i}
 $$
 
 Define the constant  $S = \sum_{i=1}^{n} a_i$ , so that  $a_i < \frac{S}{n}$ .
@@ -2909,7 +2909,7 @@ Define the constant  $S = \sum_{i=1}^{n} a_i$ , so that  $a_i < \frac{S}{n}$ .
 Then we can sum all of the  $a_{i}$ s and observe that
 
 $$
-S = \sum_ {i = 1} ^ {n} a _ {i} <   \sum_ {i = 1} ^ {n} \frac {S}{n} = n \cdot \frac {S}{n} = S
+S = \sum_{i = 1}^{n} a_{i} <   \sum_{i = 1}^{n} \frac{S}{n} = n \cdot \frac{S}{n} = S
 $$
 
 This shows that the real number  $S$  is strictly less than itself:  $S < S$ . This is a contradiction.  $\text{※}$
@@ -2955,7 +2955,7 @@ Factoring, we get  $4xy \leq (x + y)^2$ .
 Dividing by 4 and putting that into the square, we get
 
 $$
-x y \leq \left(\frac {x + y}{2}\right) ^ {2}
+x y \leq \left(\frac{x + y}{2}\right)^{2}
 $$
 
 This result is known as the AGM Inequality because it deals with the Arithmetic Mean (AM) and the Geometric Mean (GM) of two real numbers.
@@ -3073,7 +3073,7 @@ This yields  $x \geq 1$ .
 This proves a necessary condition for a real number to be less than (or equal to) its square. Is this condition—namely,  $x \geq 1 \lor x \leq 0$ —also a sufficient condition? Prove it! It's easy, and once you've done so, we will have together proven this biconditional statement:
 
 $$
-\forall x \in \mathbb {R}. x ^ {2} \geq x \Longleftrightarrow (x \geq 1 \vee x \leq 0)
+\forall x \in \mathbb {R}. x^{2} \geq x \Longleftrightarrow (x \geq 1 \vee x \leq 0)
 $$
 
 # Indirect Method (Proof by Contradiction)
@@ -3147,13 +3147,13 @@ Define  $y = x - 1$ . Notice  $y \in \mathbb{R}$ .
 Notice  $y \leq x$ . Also, notice that
 
 $$
-y ^ {2} = (x - 1) ^ {2} = x ^ {2} - 2 x + 1 = x ^ {2} - (2 x - 1)
+y^{2} = (x - 1)^{2} = x^{2} - 2 x + 1 = x^{2} - (2 x - 1)
 $$
 
 Since  $x \leq 0$ , we know  $2x \leq 0$  and so  $2x - 1 \leq -1$ . Thus,
 
 $$
-x ^ {2} - (2 x - 1) \geq x ^ {2} - 1 > x ^ {2}
+x^{2} - (2 x - 1) \geq x^{2} - 1 > x^{2}
 $$
 
 and therefore,  $y^{2} > x^{2}$
@@ -3167,13 +3167,13 @@ Notice  $y < 0$  and  $x > 0$ , so  $y \leq x$ . (In fact,  $y < x$ , even.)
 Also, notice that
 
 $$
-y ^ {2} = (- x - 1) ^ {2} = x ^ {2} + 2 x + 1 = x ^ {2} + (2 x + 1)
+y^{2} = (- x - 1)^{2} = x^{2} + 2 x + 1 = x^{2} + (2 x + 1)
 $$
 
 Since  $x > 0$ , we know  $2x + 1 > 0$ . Thus,
 
 $$
-x ^ {2} + (2 x + 1) > x ^ {2}
+x^{2} + (2 x + 1) > x^{2}
 $$
 
 and therefore,  $y^{2} > x^{2}$
@@ -3247,11 +3247,11 @@ Example 4.9.8. Working with inequalities:
 Statement: We define the following variable propositions:
 
 $$
-P (x) \text {i s} “ \frac {x - 3}{x + 2} > 1 - \frac {1}{x} ”
+P (x) \text{is} “ \frac{x - 3}{x + 2} > 1 - \frac{1}{x} ”
 $$
 
 $$
-Q (x) \text {i s} “ \frac {x + 3}{x + 2} <   1 + \frac {1}{x} ”
+Q (x) \text{is} “ \frac{x + 3}{x + 2} <   1 + \frac{1}{x} ”
 $$
 
 Define  $S = \{x\in \mathbb{R}\mid x > 0\}$
@@ -3269,25 +3269,25 @@ We're guessing that a direct method will work here, so let's try to manipulate t
 So we start with that inequality
 
 $$
-\frac {x - 3}{x + 2} > 1 - \frac {1}{x}
+\frac{x - 3}{x + 2} > 1 - \frac{1}{x}
 $$
 
 and we'll try multiplying both sides by  $x + 2$ . Can we do this? Oh right,  $x > 0$  and so  $x + 2 > 0$ , as well. Phew! This gives us
 
 $$
-x - 3 > (x + 2) - \frac {x + 2}{x} = x + 2 - 1 - \frac {2}{x} = x + 1 - \frac {2}{x}
+x - 3 > (x + 2) - \frac{x + 2}{x} = x + 2 - 1 - \frac{2}{x} = x + 1 - \frac{2}{x}
 $$
 
 We want to see an  $x + 3$  somewhere, so we'll add/subtract on both sides:
 
 $$
-x - 1 + \frac {2}{x} > x + 3
+x - 1 + \frac{2}{x} > x + 3
 $$
 
 Can we divide by  $x + 2$  and make the right fraction? Hmm … Oh wait! We already simplified the fraction  $\frac{x + 2}{x}$  and moved it to one side. Maybe we shouldn't have simplified it first, so let's try undoing that:
 
 $$
-x + 3 <   x - 1 + \frac {2}{x} = (x + 2) + \frac {x + 2}{x} - 4 = (x + 2) \left(1 + \frac {1}{x}\right) - 4
+x + 3 <   x - 1 + \frac{2}{x} = (x + 2) + \frac{x + 2}{x} - 4 = (x + 2) \left(1 + \frac{1}{x}\right) - 4
 $$
 
 Aha, that looks better! We even have some "wiggle room" in the form of the negative 4 there. We know the right-hand side is less than what we wanted it to be, so the result holds.
@@ -3301,13 +3301,13 @@ Proof. Let  $x \in S$  be arbitrary and fixed.
 Suppose that  $P(x)$  holds; that is, suppose
 
 $$
-\frac {x - 3}{x + 2} > 1 - \frac {1}{x}
+\frac{x - 3}{x + 2} > 1 - \frac{1}{x}
 $$
 
 We will show that the inequality
 
 $$
-\frac {x + 3}{x + 2} <   1 + \frac {1}{x}
+\frac{x + 3}{x + 2} <   1 + \frac{1}{x}
 $$
 
 also holds, necessarily.
@@ -3315,31 +3315,31 @@ also holds, necessarily.
 Since  $x \in S$ , we know  $x > 0$  and so, certainly,  $x + 2 > 0$ , as well. Thus, we can multiply both sides of the known inequality by  $x + 2$ , yielding
 
 $$
-x - 3 > (x + 2) \left(1 - \frac {1}{x}\right) = x + 2 - \frac {x + 2}{x}
+x - 3 > (x + 2) \left(1 - \frac{1}{x}\right) = x + 2 - \frac{x + 2}{x}
 $$
 
 Adding  $3 + \frac{x + 2}{x}$  to both sides, subtracting 2 from both sides, and rewriting in the reverse direction (for ease of reading), we obtain
 
 $$
-x + 3 <   x - 2 + \frac {x + 2}{x}
+x + 3 <   x - 2 + \frac{x + 2}{x}
 $$
 
 Since  $x - 2 < x + 2$ , we deduce that
 
 $$
-x + 3 <   x + 2 + \frac {x + 2}{x}
+x + 3 <   x + 2 + \frac{x + 2}{x}
 $$
 
 and factoring tells us
 
 $$
-x + 3 <   (x + 2) \left(1 + \frac {1}{x}\right)
+x + 3 <   (x + 2) \left(1 + \frac{1}{x}\right)
 $$
 
 Again, since  $x + 2 > 0$ , we can divide both sides by  $x + 2$ , obtaining
 
 $$
-\frac {x + 3}{x + 2} <   1 + \frac {1}{x}
+\frac{x + 3}{x + 2} <   1 + \frac{1}{x}
 $$
 
 which was the desired inequality. This shows  $P(x) \Rightarrow Q(x)$ , and since  $x$  was arbitrary, we have proven the claim.
@@ -3451,13 +3451,13 @@ AFSOC that  $x + \frac{1}{x} < 2$ .
 Since  $x > 0$ , we can multiply through this inequality by  $x$ , yielding
 
 $$
-x ^ {2} + 1 <   2 x
+x^{2} + 1 <   2 x
 $$
 
 Subtracting and factoring, we obtain
 
 $$
-(x - 1) ^ {2} <   0
+(x - 1)^{2} <   0
 $$
 
 This is a contradiction, since  $(x - 1)^2 \geq 0$ .  $\times$
@@ -3477,25 +3477,25 @@ Define  $y = \frac{1}{x}$ , so  $y\in \mathbb{R}$ .
 Then, the AGM inequality applies to  $x$  and  $y$  (since that fact holds for arbitrary  $x, y \in \mathbb{R}$ ). This tells us that
 
 $$
-x \cdot {\frac {1}{x}} \leq \left({\frac {x + {\frac {1}{x}}}{2}}\right) ^ {2}
+x \cdot {\frac{1}{x}} \leq \left({\frac{x + {\frac{1}{x}}}{2}}\right)^{2}
 $$
 
 Simplifying both sides slightly yields
 
 $$
-1 \leq \frac {1}{4} \left(x + \frac {1}{x}\right) ^ {2}
+1 \leq \frac{1}{4} \left(x + \frac{1}{x}\right)^{2}
 $$
 
 and then multiplying both sides by 4 yields
 
 $$
-4 \leq \left(x + \frac {1}{x}\right) ^ {2}
+4 \leq \left(x + \frac{1}{x}\right)^{2}
 $$
 
 Since both sides are non-negative, we can take the square root of both sides and deduce that
 
 $$
-2 \leq x + \frac {1}{x}
+2 \leq x + \frac{1}{x}
 $$
 
 This proves the claim.
@@ -3545,7 +3545,7 @@ Let's rewrite this claim using logical symbolic notation.
 Let  $E(z)$  be the proposition "  $z$  is even". Then we claim that
 
 $$
-\forall z \in \mathbb {Z}. \left(E (z) \Longleftrightarrow E \left(z ^ {2}\right)\right)
+\forall z \in \mathbb {Z}. \left(E (z) \Longleftrightarrow E \left(z^{2}\right)\right)
 $$
 
 # Implementation:
@@ -3557,7 +3557,7 @@ $(\Rightarrow)$  First, assume  $z$  is even, so  $\exists k \in \mathbb{Z}$ .  
 Since  $z = 2k$ , we can square both sides and obtain
 
 $$
-z ^ {2} = (2 k) ^ {2} = 4 k ^ {2} = 2 (2 k ^ {2})
+z^{2} = (2 k)^{2} = 4 k^{2} = 2 (2 k^{2})
 $$
 
 Define  $\ell = 2k^2$ . Notice that  $\ell \in \mathbb{Z}$  and  $z^2 = 2\ell$
@@ -3573,7 +3573,7 @@ Suppose  $z$  is odd, so  $\exists m\in \mathbb{Z}$ $z = 2m + 1$  . Let such an 
 Since  $z = 2m + 1$ , we can square both sides and obtain
 
 $$
-z ^ {2} = (2 m + 1) ^ {2} = 4 m ^ {2} + 4 m + 1 = 2 (2 m ^ {2} + 2 m) + 1
+z^{2} = (2 m + 1)^{2} = 4 m^{2} + 4 m + 1 = 2 (2 m^{2} + 2 m) + 1
 $$
 
 Define  $n = 2m^2 + 2m$ . Notice that  $n \in \mathbb{Z}$  and  $z^2 = 2n + 1$ .
@@ -3585,7 +3585,7 @@ Thus,  $\neg E(z) \Rightarrow \neg E(z^2)$ ; by contrapositive, then,  $E(z^2) \
 Since we have shown both directions, we conclude that
 
 $$
-E (z) \Longleftrightarrow E (z ^ {2})
+E (z) \Longleftrightarrow E (z^{2})
 $$
 
 and since  $z$  was arbitrary, this biconditional holds for all integers  $z$ .
@@ -3655,11 +3655,11 @@ $$
 and then defined two variable propositions:
 
 $$
-P (x) \text {i s} “ \frac {x - 3}{x + 2} > 1 - \frac {1}{x} ”
+P (x) \text{is} “ \frac{x - 3}{x + 2} > 1 - \frac{1}{x} ”
 $$
 
 $$
-Q (x) \text {i s} “ \frac {x + 3}{x + 2} <   1 + \frac {1}{x} ”
+Q (x) \text{is} “ \frac{x + 3}{x + 2} <   1 + \frac{1}{x} ”
 $$
 
 Then, we proved that
@@ -3687,13 +3687,13 @@ $$
 This means we need to find a specific real number  $x$  that satisfies three conditions: (1) the inequality  $x > 0$ , (2) the inequality
 
 $$
-\frac {x + 3}{x + 2} <   1 + \frac {1}{x}
+\frac{x + 3}{x + 2} <   1 + \frac{1}{x}
 $$
 
 and (3) the inequality
 
 $$
-\frac {x - 3}{x + 2} \leq 1 - \frac {1}{x}
+\frac{x - 3}{x + 2} \leq 1 - \frac{1}{x}
 $$
 
 There are a few strategies we could use. Like we mentioned above, we could try to (erroneously, of course) prove that the first inequality does, indeed, imply the second one, and ascertain where this breaks down. Alternatively, we could "try some values" using an "educated guess" method.
@@ -3709,13 +3709,13 @@ Consider  $x = 1$ . Notice that  $x \in \mathbb{R}$  and  $x > 0$ .
 Also, notice that  $Q(1)$  holds because
 
 $$
-\frac {1 + 3}{1 + 2} = \frac {4}{3} <   2 = 1 + \frac {1}{1}
+\frac{1 + 3}{1 + 2} = \frac{4}{3} <   2 = 1 + \frac{1}{1}
 $$
 
 Also, notice that  $P(1)$  fails because
 
 $$
-\frac {1 - 3}{1 + 2} = - \frac {2}{3} \neq 0 = 1 - \frac {1}{1}
+\frac{1 - 3}{1 + 2} = - \frac{2}{3} \neq 0 = 1 - \frac{1}{1}
 $$
 
 Thus, we have shown that
@@ -3771,7 +3771,7 @@ If you assert the existence of several variables and want to introduce them, jus
 Let such  $x,y,z$  be given. Observe that …
 
 $$
-" P \Rightarrow Q" \text {v s .} " P, \text {t h e r e f o r e} Q"
+" P \Rightarrow Q" \text{vs .} " P, \text{th er ef or e} Q"
 $$
 
 This distinction hinges on an idea similar to the previous example we just mentioned. Specifically, there is a difference between writing a statement to assert its validity and writing a statement to show the reader you are making a conclusion from it. In the last example, this was the distinction between saying something exists versus introducing such an object.
@@ -3813,7 +3813,7 @@ There exists an even natural number that can be written as the sum of two primes
 (4) Prove that every natural number is either less than  $\sqrt{10}$  or bigger than 3. That is, prove
 
 $$
-\forall n \in \mathbb {N}. n <   \sqrt {1 0} \vee n > 3
+\forall n \in \mathbb {N}. n <   \sqrt{1 0} \vee n > 3
 $$
 
 (5) Let  $A, B, C, D$  be sets. Prove that, if  $A \cup B \subseteq C \cup D$  and  $C \subseteq A$  and  $A \cap B = \emptyset$ , then  $B \subseteq D$ .  
@@ -3927,7 +3927,7 @@ Is it true that  $\exists s\in S.\forall t\in T.\exists v\in V.s + t = v?$
 Problem 4.11.5. Prove or disprove the following claim rigorously:
 
 $$
-\exists x \in \mathbb {R}. \forall y \in \mathbb {R}. x ^ {2} - y ^ {2} \geq 0
+\exists x \in \mathbb {R}. \forall y \in \mathbb {R}. x^{2} - y^{2} \geq 0
 $$
 
 Problem 4.11.6. Prove or disprove the following claim rigorously:
@@ -3954,7 +3954,7 @@ Problem 4.11.12. Use logical equivalences to prove that
 Problem 4.11.13. Define the sets
 
 $$
-A = \left\{(x, y) \in \mathbb {R} \times \mathbb {R} \mid \frac {x}{y} + \frac {y}{x} \geq 2 \right\}
+A = \left\{(x, y) \in \mathbb {R} \times \mathbb {R} \mid \frac{x}{y} + \frac{y}{x} \geq 2 \right\}
 $$
 
 and
@@ -3972,7 +3972,7 @@ Problem 4.11.14. Let  $P = \{y \in \mathbb{R} \mid y > 0\}$  be the set of posit
 Prove the following claim:
 
 $$
-\forall \varepsilon \in P. \exists \delta \in P. \forall x \in \mathbb {R}. | x | <   \delta \Rightarrow | x ^ {2} | <   \varepsilon
+\forall \varepsilon \in P. \exists \delta \in P. \forall x \in \mathbb {R}. | x | <   \delta \Rightarrow | x^{2} | <   \varepsilon
 $$
 
 Problem 4.11.15. What is wrong with the following "proof" of the claim that  $\mathcal{P}(C \cup D) = \mathcal{P}(C) \cup \mathcal{P}(D)$ ?
@@ -3996,7 +3996,7 @@ Is the converse of this statement True? If so, prove it; otherwise, exhibit a co
 Problem 4.11.17. Define the proposition  $E(z)$  to be " $z$  is even. Prove that
 
 $$
-\forall z \in \mathbb {Z}. E (z) \Longleftrightarrow E \left(z ^ {3}\right)
+\forall z \in \mathbb {Z}. E (z) \Longleftrightarrow E \left(z^{3}\right)
 $$
 
 Problem 4.11.18. Use the result of Problem 4.11.17 to prove that  $\sqrt[3]{2}$  is irrational.
@@ -4004,7 +4004,7 @@ Problem 4.11.18. Use the result of Problem 4.11.17 to prove that  $\sqrt[3]{2}$ 
 Problem 4.11.19. Let  $P = \{y \in \mathbb{R} \mid y > 0\}$ . Prove that
 
 $$
-\bigcap_ {x \in P} \left\{y \in \mathbb {R} \mid 1 - \frac {1}{x} <   y <   2 \right\} = \left\{z \in \mathbb {R} \mid 1 <   z <   2 \right\}
+\bigcap_{x \in P} \left\{y \in \mathbb {R} \mid 1 - \frac{1}{x} <   y <   2 \right\} = \left\{z \in \mathbb {R} \mid 1 <   z <   2 \right\}
 $$
 
 Problem 4.11.20. Let  $A, B, C \subseteq U$  be sets. Define
@@ -4026,7 +4026,7 @@ Is  $T \subseteq S$ ? If so, prove it; otherwise, find a counterexample.
 Problem 4.11.21. For each  $x \in \mathbb{R}$ , define the set
 
 $$
-S _ {x} = \{y \in \mathbb {R} \mid - x \leq y \leq x \}
+S_{x} = \{y \in \mathbb {R} \mid - x \leq y \leq x \}
 $$
 
 Also, define the set
@@ -4038,23 +4038,23 @@ $$
 Prove each of the following claims.
 
 $$
-\bigcap_ {x \in P} S _ {x} = \{0 \}
+\bigcap_{x \in P} S_{x} = \{0 \}
 $$
 
 $$
-\bigcap_ {x \in \mathbb {N}} S _ {x} = \{y \in \mathbb {R} \mid - 1 \leq y \leq 1 \}
+\bigcap_{x \in \mathbb {N}} S_{x} = \{y \in \mathbb {R} \mid - 1 \leq y \leq 1 \}
 $$
 
 Problem 4.11.22. Let  $P(x)$  be the variable proposition
 
 $$
-“ \frac {x ^ {2} + 4}{x ^ {2} + 1} <   1 + \frac {1}{x} ”
+“ \frac{x^{2} + 4}{x^{2} + 1} <   1 + \frac{1}{x} ”
 $$
 
 and let  $Q(x)$  be the variable proposition
 
 $$
-“ \frac {x ^ {2} - 4}{x ^ {2} + 1} > 1 - \frac {1}{x} ”
+“ \frac{x^{2} - 4}{x^{2} + 1} > 1 - \frac{1}{x} ”
 $$
 
 Also, let  $S = \{x \in \mathbb{R} \mid x > 0\}$  be the set of positive real numbers.

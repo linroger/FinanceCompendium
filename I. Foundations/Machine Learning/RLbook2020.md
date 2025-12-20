@@ -585,7 +585,7 @@ In this book we do not worry about balancing exploration and exploitation in a s
 We begin by looking more closely at methods for estimating the values of actions and for using the estimates to make action selection decisions, which we collectively call action-value methods. Recall that the true value of an action is the mean reward when that action is selected. One natural way to estimate this is by averaging the rewards actually received:
 
 $$
-Q_{t} (a) \doteq \frac{\text{sum of rewards when a taken prior to} t}{\text{number of times a taken prior to} t} = \frac{\sum_{i = 1} ^{t - 1} R_{i} \cdot \mathbb{1}_{A_{i} = a}}{\sum_{i = 1} ^{t - 1} \mathbb{1}_{A_{i} = a}}, \tag {2.1}
+Q_{t} (a) \doteq \frac{\text{sumofrewardswhena takenpriorto} t}{\text{numberoftimesa takenpriorto} t} = \frac{\sum_{i = 1} ^{t - 1} R_{i} \cdot \mathbb{1}_{A_{i} = a}}{\sum_{i = 1} ^{t - 1} \mathbb{1}_{A_{i} = a}}, \tag {2.1}
 $$
 
 where  $\mathbb{1}_{predicate}$  denotes the random variable that is 1 if predicate is true and 0 if it is not. If the denominator is zero, then we instead define  $Q_{t}(a)$  as some default value, such as 0. As the denominator goes to infinity, by the law of large numbers,  $Q_{t}(a)$  converges to  $q_{*}(a)$ . We call this the sample-average method for estimating action values because each estimate is an average of the sample of relevant rewards. Of course this is just one way to estimate action values, and not necessarily the best one. Nevertheless, for now let us stay with this simple estimation method and turn to the question of how the estimates might be used to select actions.
@@ -649,7 +649,7 @@ which holds even for  $n = 1$ , obtaining  $Q_{2} = R_{1}$  for arbitrary  $Q_{1
 This update rule (2.3) is of a form that occurs frequently throughout this book. The general form is
 
 $$
-\text{New Estimate} \leftarrow \text{Old Estimate} + \text{Step Size} \left[ \text{Target} - \text{Old Estimate} \right]. \tag {2.4}
+\text{NewEstimate} \leftarrow \text{OldEstimate} + \text{StepSize} \left[ \text{Target} - \text{OldEstimate} \right]. \tag {2.4}
 $$
 
 The expression  $\left[\text{Target} - \text{OldEstimate}\right]$  is an error in the estimate. It is reduced by taking a step toward the "Target." The target is presumed to indicate a desirable direction in which to move, though it may be noisy. In the case above, for example, the target is the  $n$ th reward.
@@ -675,7 +675,7 @@ $$
 Loop forever:
 
 $$
-A \leftarrow \left\{ \begin{array}{l l} \operatorname{argmax}_{a} Q (a) & \text{with probability} 1 - \varepsilon \quad (\text{breaking ties randomly}) \\ \text{a random action} & \text{with probability} \varepsilon \end{array} \right.
+A \leftarrow \left\{ \begin{array}{l l} \operatorname{argmax}_{a} Q (a) & \text{with probability } 1 - \varepsilon \quad (\text{breakingtiesrandomly}) \\ \text{arandomaction} & \text{with probability } \varepsilon \end{array} \right.
 $$
 
 $$
@@ -844,7 +844,7 @@ $$
 Recall that our plan has been to write the performance gradient as an expectation of something that we can sample on each step, as we have just done, and then update on each step in proportion to the sample. Substituting a sample of the expectation above for the performance gradient in (2.13) yields:
 
 $$
-H_{t + 1} (a) = H_{t} (a) + \alpha \bigl (R_{t} - \bar{R}_{t} \bigr) \bigl (\mathbb{1}_{a = A_{t}} - \pi_{t} (a) \bigr), \qquad \mathrm{for all} a,
+H_{t + 1} (a) = H_{t} (a) + \alpha \bigl (R_{t} - \bar{R}_{t} \bigr) \bigl (\mathbb{1}_{a = A_{t}} - \pi_{t} (a) \bigr), \qquad \mathrm{forall} a,
 $$
 
 which you may recognize as being equivalent to our original algorithm (2.12).
@@ -1857,7 +1857,7 @@ The overall idea of on-policy Monte Carlo control is still that of GPI. As in Mo
 On-policy first-visit MC control (for  $\varepsilon$ -soft policies), estimates  $\pi \approx \pi_*$  
 Algorithm parameter: small  $\varepsilon >0$    
 Initialize:  $\pi \gets$  an arbitrary  $\varepsilon$  -soft policy  $Q(s,a)\in \mathbb{R}$  (arbitrarily), for all  $s\in S$ $a\in \mathcal{A}(s)$  Returns(s,a)  $\leftarrow$  empty list, for all  $s\in S$ $a\in \mathcal{A}(s)$    
-Repeat forever (for each episode): Generate an episode following  $\pi$  ..  $S_0,A_0,R_1,\ldots ,S_{T - 1},A_{T - 1},R_T$ $G\gets 0$  Loop for each step of episode,  $t = T - 1,T - 2,\dots ,0$ $G\gets \gamma G + R_{t + 1}$  Unless the pair  $S_{t},A_{t}$  appears in  $S_0,A_0,S_1,A_1\dots ,S_{t - 1},A_{t - 1}$  . Append  $G$  to Returns(St,At)  $Q(S_{t},A_{t})\gets$  average(Returns(St,At))  $A^{*}\gets \operatorname{argmax}_{a}Q(S_{t},a)$  (with ties broken arbitrarily) For all  $a\in \mathcal{A}(S_t)$ $\pi (a|S_t)\gets \left\{ \begin{array}{ll}1 - \varepsilon +\varepsilon /|\mathcal{A}(S_t)| & \text{if} a = A^*\\ \varepsilon /|\mathcal{A}(S_t)| & \text{if} a\neq A^* \end{array} \right.$
+Repeat forever (for each episode): Generate an episode following  $\pi$  ..  $S_0,A_0,R_1,\ldots ,S_{T - 1},A_{T - 1},R_T$ $G\gets 0$  Loop for each step of episode,  $t = T - 1,T - 2,\dots ,0$ $G\gets \gamma G + R_{t + 1}$  Unless the pair  $S_{t},A_{t}$  appears in  $S_0,A_0,S_1,A_1\dots ,S_{t - 1},A_{t - 1}$  . Append  $G$  to Returns(St,At)  $Q(S_{t},A_{t})\gets$  average(Returns(St,At))  $A^{*}\gets \operatorname{argmax}_{a}Q(S_{t},a)$  (with ties broken arbitrarily) For all  $a\in \mathcal{A}(S_t)$ $\pi (a|S_t)\gets \left\{ \begin{array}{ll}1 - \varepsilon +\varepsilon /|\mathcal{A}(S_t)| & \text{if } a = A^*\\ \varepsilon /|\mathcal{A}(S_t)| & \text{if } a\neq A^* \end{array} \right.$
 
 That any  $\varepsilon$ -greedy policy with respect to  $q_{\pi}$  is an improvement over any  $\varepsilon$ -soft policy  $\pi$  is assured by the policy improvement theorem. Let  $\pi'$  be the  $\varepsilon$ -greedy policy. The conditions of the policy improvement theorem apply because for any  $s \in \mathbb{S}$ :
 
@@ -1974,7 +1974,7 @@ $$
 To compute this expectation, we break it down into cases based on episode length and termination. First note that, for any episode ending with the right action, the importance sampling ratio is zero, because the target policy would never take this action; these episodes thus contribute nothing to the expectation (the quantity in parenthesis will be zero) and can be ignored. We need only consider episodes that involve some number (possibly zero) of left actions that transition back to the nonterminal state, followed by a left action transitioning to termination. All of these episodes have a return of 1, so the  $G_0$  factor can be ignored. To get the expected square we need only consider each length of episode, multiplying the probability of the episode's occurrence by the square of its importance-sampling ratio, and add these up:
 
 $$
-\begin{array}{l} = \frac{1}{2} \cdot 0. 1 \left(\frac{1}{0.5}\right)^{2} \quad (\text{the length 1episode}) \\ + \frac{1}{2} \cdot 0. 9 \cdot \frac{1}{2} \cdot 0. 1 \left(\frac{1}{0.5} \frac{1}{0.5}\right)^{2} \quad (\text{the length 2episode}) \\ + \frac{1}{2} \cdot 0. 9 \cdot \frac{1}{2} \cdot 0. 9 \cdot \frac{1}{2} \cdot 0. 1 \left(\frac{1}{0.5} \frac{1}{0.5} \frac{1}{0.5}\right)^{2} \quad (\text{the length 3episode}) \\ + \dots \\ \end{array}
+\begin{array}{l} = \frac{1}{2} \cdot 0. 1 \left(\frac{1}{0.5}\right)^{2} \quad (\text{thelength1episode}) \\ + \frac{1}{2} \cdot 0. 9 \cdot \frac{1}{2} \cdot 0. 1 \left(\frac{1}{0.5} \frac{1}{0.5}\right)^{2} \quad (\text{thelength2episode}) \\ + \frac{1}{2} \cdot 0. 9 \cdot \frac{1}{2} \cdot 0. 9 \cdot \frac{1}{2} \cdot 0. 1 \left(\frac{1}{0.5} \frac{1}{0.5} \frac{1}{0.5}\right)^{2} \quad (\text{thelength3episode}) \\ + \dots \\ \end{array}
 $$
 
 $$
@@ -4597,7 +4597,7 @@ The root cause of the difficulties with the discounted control setting is that w
 Perhaps discounting can be saved by choosing an objective that sums discounted values over the distribution with which states occur under the policy:
 
 $$
-\begin{array}{l} J (\pi) = \sum_{s} \mu_{\pi} (s) v_{\pi} ^{\gamma} (s) \quad \text{(where} v_{\pi} ^{\gamma} \text{isthediscountedvaluefunction)} \\ = \sum_{s} \mu_{\pi} (s) \sum_{a} \pi (a | s) \sum_{s^{\prime}} \sum_{r} p \left(s^{\prime}, r \mid s, a\right) [ r + \gamma v_{\pi} ^{\gamma} \left(s^{\prime}\right) ] \quad (\text{Bellman Eq .}) \\ = r (\pi) + \sum_{s} \mu_{\pi} (s) \sum_{a} \pi (a | s) \sum_{s^{\prime}} \sum_{r} p \left(s^{\prime}, r | s, a\right) \gamma v_{\pi} ^{\gamma} \left(s^{\prime}\right) \quad \text{(from (10.7))} \\ = r (\pi) + \gamma \sum_{s^{\prime}} v_{\pi} ^{\gamma} \left(s^{\prime}\right) \sum_{s} \mu_{\pi} (s) \sum_{a} \pi (a | s) p \left(s^{\prime} \mid s, a\right) \quad \text{(from (3.4))} \\ = r (\pi) + \gamma \sum_{s^{\prime}} v_{\pi} ^{\gamma} \left(s^{\prime}\right) \mu_{\pi} \left(s^{\prime}\right) \quad \text{(from (10.8))} \\ = r (\pi) + \gamma J (\pi) \\ = r (\pi) + \gamma r (\pi) + \gamma^{2} J (\pi) \\ = r (\pi) + \gamma r (\pi) + \gamma^{2} r (\pi) + \gamma^{3} r (\pi) + \dots \\ = \frac{1}{1 - \gamma} r (\pi). \\ \end{array}
+\begin{array}{l} J (\pi) = \sum_{s} \mu_{\pi} (s) v_{\pi} ^{\gamma} (s) \quad \text{(where} v_{\pi} ^{\gamma} \text{isthediscountedvaluefunction)} \\ = \sum_{s} \mu_{\pi} (s) \sum_{a} \pi (a | s) \sum_{s^{\prime}} \sum_{r} p \left(s^{\prime}, r \mid s, a\right) [ r + \gamma v_{\pi} ^{\gamma} \left(s^{\prime}\right) ] \quad (\text{BellmanEq .}) \\ = r (\pi) + \sum_{s} \mu_{\pi} (s) \sum_{a} \pi (a | s) \sum_{s^{\prime}} \sum_{r} p \left(s^{\prime}, r | s, a\right) \gamma v_{\pi} ^{\gamma} \left(s^{\prime}\right) \quad \text{(from (10.7))} \\ = r (\pi) + \gamma \sum_{s^{\prime}} v_{\pi} ^{\gamma} \left(s^{\prime}\right) \sum_{s} \mu_{\pi} (s) \sum_{a} \pi (a | s) p \left(s^{\prime} \mid s, a\right) \quad \text{(from (3.4))} \\ = r (\pi) + \gamma \sum_{s^{\prime}} v_{\pi} ^{\gamma} \left(s^{\prime}\right) \mu_{\pi} \left(s^{\prime}\right) \quad \text{(from (10.8))} \\ = r (\pi) + \gamma J (\pi) \\ = r (\pi) + \gamma r (\pi) + \gamma^{2} J (\pi) \\ = r (\pi) + \gamma r (\pi) + \gamma^{2} r (\pi) + \gamma^{3} r (\pi) + \dots \\ = \frac{1}{1 - \gamma} r (\pi). \\ \end{array}
 $$
 
 The proposed discounted objective orders policies identically to the undiscounted (average reward) objective. The discount rate  $\gamma$  does not influence the ordering!
@@ -4983,7 +4983,7 @@ $$
 A possible objective function then is what one might call the mean square  $TD$  error:
 
 $$
-\begin{array}{l} \overline{{\mathrm{TDE}}} (\mathbf{w}) = \sum_{s \in \mathcal{S}} \mu (s) \mathbb{E} \left[ \delta_{t} ^{2} \mid S_{t} = s, A_{t} \sim \pi \right] \\ = \sum_{s \in \mathbb{S}} \mu (s) \mathbb{E} \left[ \rho_{t} \delta_{t} ^{2} \mid S_{t} = s, A_{t} \sim b \right] \\ = \mathbb{E}_{b} \left[ \rho_{t} \delta_{t} ^{2} \right]. \quad (\text{if} \mu \text{isthedistributionencounteredunder} b) \\ \end{array}
+\begin{array}{l} \overline{{\mathrm{TDE}}} (\mathbf{w}) = \sum_{s \in \mathcal{S}} \mu (s) \mathbb{E} \left[ \delta_{t} ^{2} \mid S_{t} = s, A_{t} \sim \pi \right] \\ = \sum_{s \in \mathbb{S}} \mu (s) \mathbb{E} \left[ \rho_{t} \delta_{t} ^{2} \mid S_{t} = s, A_{t} \sim b \right] \\ = \mathbb{E}_{b} \left[ \rho_{t} \delta_{t} ^{2} \right]. \quad (\text{if } \mu \text{isthedistributionencounteredunder} b) \\ \end{array}
 $$
 
 The last equation is of the form needed for SGD; it gives the objective as an expectation that can be sampled from experience (remember the experience is due to the behavior policy  $b$ ). Thus, following the standard SGD approach, one can derive the per-step update based on a sample of this expected value:
@@ -5168,7 +5168,7 @@ where  $\beta > 0$  is another step-size parameter. We can use this method to ef
 Given a stored estimate  $\mathbf{v}_t$  approximating (11.28), we can update our main parameter vector  $\mathbf{w}_t$  using SGD methods based on (11.27). The simplest such rule is
 
 $$
-\begin{array}{l} \mathbf{w}_{t + 1} = \mathbf{w}_{t} - \frac{1}{2} \alpha \nabla \overline{{\mathrm{PBE}}} (\mathbf{w}_{t}) \quad \text{(the general SGDrule)} \\ = \mathbf{w}_{t} - \frac{1}{2} \alpha 2 \mathbb{E} \left[ \rho_{t} \left(\gamma \mathbf{x}_{t + 1} - \mathbf{x}_{t}\right) \mathbf{x}_{t} ^{\top} \right] \mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] ^{- 1} \mathbb{E} \left[ \rho_{t} \delta_{t} \mathbf{x}_{t} \right] \quad (\text{from  (11.27)}) \\ = \mathbf{w}_{t} + \alpha \mathbb{E} \left[ \rho_{t} \left(\mathbf{x}_{t} - \gamma \mathbf{x}_{t + 1}\right) \mathbf{x}_{t} ^{\top} \right] \mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] ^{- 1} \mathbb{E} \left[ \rho_{t} \delta_{t} \mathbf{x}_{t} \right] (11.29) \\ \approx \mathbf{w}_{t} + \alpha \mathbb{E} \left[ \rho_{t} \left(\mathbf{x}_{t} - \gamma \mathbf{x}_{t + 1}\right) \mathbf{x}_{t} ^{\top} \right] \mathbf{v}_{t} \quad (\text{based on (11.28)}) \\ \approx \mathbf{w}_{t} + \alpha \rho_{t} \left(\mathbf{x}_{t} - \gamma \mathbf{x}_{t + 1}\right) \mathbf{x}_{t} ^{\top} \mathbf{v}_{t}. (sampling) \\ \end{array}
+\begin{array}{l} \mathbf{w}_{t + 1} = \mathbf{w}_{t} - \frac{1}{2} \alpha \nabla \overline{{\mathrm{PBE}}} (\mathbf{w}_{t}) \quad \text{(thegeneralSGDrule)} \\ = \mathbf{w}_{t} - \frac{1}{2} \alpha 2 \mathbb{E} \left[ \rho_{t} \left(\gamma \mathbf{x}_{t + 1} - \mathbf{x}_{t}\right) \mathbf{x}_{t} ^{\top} \right] \mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] ^{- 1} \mathbb{E} \left[ \rho_{t} \delta_{t} \mathbf{x}_{t} \right] \quad (\text{from  (11.27)}) \\ = \mathbf{w}_{t} + \alpha \mathbb{E} \left[ \rho_{t} \left(\mathbf{x}_{t} - \gamma \mathbf{x}_{t + 1}\right) \mathbf{x}_{t} ^{\top} \right] \mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] ^{- 1} \mathbb{E} \left[ \rho_{t} \delta_{t} \mathbf{x}_{t} \right] (11.29) \\ \approx \mathbf{w}_{t} + \alpha \mathbb{E} \left[ \rho_{t} \left(\mathbf{x}_{t} - \gamma \mathbf{x}_{t + 1}\right) \mathbf{x}_{t} ^{\top} \right] \mathbf{v}_{t} \quad (\text{basedon (11.28)}) \\ \approx \mathbf{w}_{t} + \alpha \rho_{t} \left(\mathbf{x}_{t} - \gamma \mathbf{x}_{t + 1}\right) \mathbf{x}_{t} ^{\top} \mathbf{v}_{t}. (sampling) \\ \end{array}
 $$
 
 This algorithm is called  $GTD2$ . Note that if the final inner product  $(\mathbf{x}_t^\top \mathbf{v}_t)$  is done first, then the entire algorithm is of  $O(d)$  complexity.
@@ -5176,7 +5176,7 @@ This algorithm is called  $GTD2$ . Note that if the final inner product  $(\math
 A slightly better algorithm can be derived by doing a few more analytic steps before substituting in  $\mathbf{v}_t$ . Continuing from (11.29):
 
 $$
-\begin{array}{l} \mathbf{w}_{t + 1} = \mathbf{w}_{t} + \alpha \mathbb{E} \big [ \rho_{t} (\mathbf{x}_{t} - \gamma \mathbf{x}_{t + 1}) \mathbf{x}_{t} ^{\top} \big ] \mathbb{E} \big [ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \big ] ^{- 1} \mathbb{E} \big [ \rho_{t} \delta_{t} \mathbf{x}_{t} \big ] \\ = \mathbf{w}_{t} + \alpha \left(\mathbb{E} \left[ \rho_{t} \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] - \gamma \mathbb{E} \left[ \rho_{t} \mathbf{x}_{t + 1} \mathbf{x}_{t} ^{\top} \right]\right) \mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] ^{- 1} \mathbb{E} [ \rho_{t} \delta_{t} \mathbf{x}_{t} ] \\ = \mathbf{w}_{t} + \alpha \left(\mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] - \gamma \mathbb{E} \left[ \rho_{t} \mathbf{x}_{t + 1} \mathbf{x}_{t} ^{\top} \right]\right) \mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] ^{- 1} \mathbb{E} [ \rho_{t} \delta_{t} \mathbf{x}_{t} ] \\ = \mathbf{w}_{t} + \alpha \left(\mathbb{E} \left[ \rho_{t} \delta_{t} \mathbf{x}_{t} \right] - \gamma \mathbb{E} \left[ \rho_{t} \mathbf{x}_{t + 1} \mathbf{x}_{t} ^{\top} \right] \mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] ^{- 1} \mathbb{E} \left[ \rho_{t} \delta_{t} \mathbf{x}_{t} \right]\right) \\ \approx \mathbf{w}_{t} + \alpha \left(\mathbb{E} \left[ \rho_{t} \delta_{t} \mathbf{x}_{t} \right] - \gamma \mathbb{E} \left[ \rho_{t} \mathbf{x}_{t + 1} \mathbf{x}_{t} ^{\top} \right] \mathbf{v}_{t}\right) \quad (\text{based on (11.28)}) \\ \approx \mathbf{w}_{t} + \alpha \rho_{t} \left(\delta_{t} \mathbf{x}_{t} - \gamma \mathbf{x}_{t + 1} \mathbf{x}_{t} ^{\top} \mathbf{v}_{t}\right), \quad (\text{sampling}) \\ \end{array}
+\begin{array}{l} \mathbf{w}_{t + 1} = \mathbf{w}_{t} + \alpha \mathbb{E} \big [ \rho_{t} (\mathbf{x}_{t} - \gamma \mathbf{x}_{t + 1}) \mathbf{x}_{t} ^{\top} \big ] \mathbb{E} \big [ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \big ] ^{- 1} \mathbb{E} \big [ \rho_{t} \delta_{t} \mathbf{x}_{t} \big ] \\ = \mathbf{w}_{t} + \alpha \left(\mathbb{E} \left[ \rho_{t} \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] - \gamma \mathbb{E} \left[ \rho_{t} \mathbf{x}_{t + 1} \mathbf{x}_{t} ^{\top} \right]\right) \mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] ^{- 1} \mathbb{E} [ \rho_{t} \delta_{t} \mathbf{x}_{t} ] \\ = \mathbf{w}_{t} + \alpha \left(\mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] - \gamma \mathbb{E} \left[ \rho_{t} \mathbf{x}_{t + 1} \mathbf{x}_{t} ^{\top} \right]\right) \mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] ^{- 1} \mathbb{E} [ \rho_{t} \delta_{t} \mathbf{x}_{t} ] \\ = \mathbf{w}_{t} + \alpha \left(\mathbb{E} \left[ \rho_{t} \delta_{t} \mathbf{x}_{t} \right] - \gamma \mathbb{E} \left[ \rho_{t} \mathbf{x}_{t + 1} \mathbf{x}_{t} ^{\top} \right] \mathbb{E} \left[ \mathbf{x}_{t} \mathbf{x}_{t} ^{\top} \right] ^{- 1} \mathbb{E} \left[ \rho_{t} \delta_{t} \mathbf{x}_{t} \right]\right) \\ \approx \mathbf{w}_{t} + \alpha \left(\mathbb{E} \left[ \rho_{t} \delta_{t} \mathbf{x}_{t} \right] - \gamma \mathbb{E} \left[ \rho_{t} \mathbf{x}_{t + 1} \mathbf{x}_{t} ^{\top} \right] \mathbf{v}_{t}\right) \quad (\text{basedon (11.28)}) \\ \approx \mathbf{w}_{t} + \alpha \rho_{t} \left(\delta_{t} \mathbf{x}_{t} - \gamma \mathbf{x}_{t + 1} \mathbf{x}_{t} ^{\top} \mathbf{v}_{t}\right), \quad (\text{sampling}) \\ \end{array}
 $$
 
 which again is  $O(d)$  if the final product  $(\mathbf{x}_t^\top \mathbf{v}_t)$  is done first. This algorithm is known as either  $TD(0)$  with gradient correction (TDC) or, alternatively, as  $GTD(0)$ .
@@ -5613,7 +5613,7 @@ The eligibility trace (12.11) used in true online  $\mathrm{TD}(\lambda)$  is ca
 Earlier work often used a third kind of trace called the replacing trace, defined only for the tabular case or for binary feature vectors such as those produced by tile coding. The replacing trace is defined on a component-by-component basis depending on whether the component of the feature vector was 1 or 0:
 
 $$
-z_{i, t} \doteq \left\{ \begin{array}{l l} 1 & \text{if} x_{i, t} = 1 \\ \gamma \lambda z_{i, t - 1} & \text{otherwise .} \end{array} \right. \tag {12.12}
+z_{i, t} \doteq \left\{ \begin{array}{l l} 1 & \text{if } x_{i, t} = 1 \\ \gamma \lambda z_{i, t - 1} & \text{otherwise .} \end{array} \right. \tag {12.12}
 $$
 
 Nowadays, we see replacing traces as crude approximations to Dutch traces, which largely supersede them. Dutch traces usually perform better than replacing traces and have a clearer theoretical basis. Accumulating traces remain of interest for nonlinear function approximations where Dutch traces are not available.
@@ -6143,7 +6143,7 @@ With function approximation it may seem challenging to change the policy paramet
 With just elementary calculus and re-arranging of terms, we can prove the policy gradient theorem from first principles. To keep the notation simple, we leave it implicit in all cases that  $\pi$  is a function of  $\theta$ , and all gradients are also implicitly with respect to  $\theta$ . First note that the gradient of the state-value function can be written in terms of the action-value function as
 
 $$
-\begin{array}{l} \nabla v_{\pi} (s) = \nabla \left[ \sum_{a} \pi (a | s) q_{\pi} (s, a) \right], \quad \text{for all} s \in \mathcal{S} \tag {Exercise 3.18} \\ = \sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \nabla q_{\pi} (s, a) \right] (\text{product rule of calculus}) \\ = \sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \nabla \sum_{s^{\prime}, r} p \left(s^{\prime}, r | s, a\right) \left(r + v_{\pi} \left(s^{\prime}\right)\right) \right] \\ \end{array}
+\begin{array}{l} \nabla v_{\pi} (s) = \nabla \left[ \sum_{a} \pi (a | s) q_{\pi} (s, a) \right], \quad \text{for all} s \in \mathcal{S} \tag {Exercise 3.18} \\ = \sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \nabla q_{\pi} (s, a) \right] (\text{productruleofcalculus}) \\ = \sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \nabla \sum_{s^{\prime}, r} p \left(s^{\prime}, r | s, a\right) \left(r + v_{\pi} \left(s^{\prime}\right)\right) \right] \\ \end{array}
 $$
 
 (Exercise 3.19 and Equation 3.2)
@@ -6155,7 +6155,7 @@ $$
 after repeated unrolling, where  $\operatorname*{Pr}(s\to x,k,\pi)$  is the probability of transitioning from state  $s$  to state  $x$  in  $k$  steps under policy  $\pi$ . It is then immediate that
 
 $$
-\begin{array}{l} \nabla J (\pmb{\theta}) = \nabla v_{\pi} (s_{0}) \\ = \sum_{s} \left(\sum_{k = 0} ^{\infty} \Pr (s_{0} \rightarrow s, k, \pi)\right) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) \\ = \sum_{s} \eta (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) \quad (\text{boxpage 19 9}) \\ = \sum_{s^{\prime}} \eta (s^{\prime}) \sum_{s} \frac{\eta (s)}{\sum_{s^{\prime}} \eta (s^{\prime})} \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) \\ = \sum_{s^{\prime}} \eta \left(s^{\prime}\right) \sum_{s} \mu (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) (Eq.9.3) \\ \propto \sum_{s} \mu (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) (Q.E.D.) \\ \end{array}
+\begin{array}{l} \nabla J (\pmb{\theta}) = \nabla v_{\pi} (s_{0}) \\ = \sum_{s} \left(\sum_{k = 0} ^{\infty} \Pr (s_{0} \rightarrow s, k, \pi)\right) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) \\ = \sum_{s} \eta (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) \quad (\text{boxpage199}) \\ = \sum_{s^{\prime}} \eta (s^{\prime}) \sum_{s} \frac{\eta (s)}{\sum_{s^{\prime}} \eta (s^{\prime})} \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) \\ = \sum_{s^{\prime}} \eta \left(s^{\prime}\right) \sum_{s} \mu (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) (Eq.9.3) \\ \propto \sum_{s} \mu (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) (Q.E.D.) \\ \end{array}
 $$
 
 on the state distribution is a function of the environment and is typically unknown. How can we estimate the performance gradient with respect to the policy parameter when the gradient depends on the unknown effect of policy changes on the state distribution?
@@ -6436,7 +6436,7 @@ With these alternate definitions, the policy gradient theorem as given for the e
 The proof of the policy gradient theorem for the continuing case begins similarly to the episodic case. Again we leave it implicit in all cases that  $\pi$  is a function of  $\pmb{\theta}$  and that the gradients are with respect to  $\pmb{\theta}$ . Recall that in the continuing case  $J(\pmb{\theta}) = r(\pi)$  (13.15) and that  $v_{\pi}$  and  $q_{\pi}$  denote values with respect to the differential return (13.17). The gradient of the state-value function can be written, for any  $s \in \mathbb{S}$ , as
 
 $$
-\begin{array}{l} \nabla v_{\pi} (s) = \nabla \left[ \sum_{a} \pi (a | s) q_{\pi} (s, a) \right], \quad \text{for all} s \in \mathcal{S} \tag {Exercise 3.18} \\ = \sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \nabla q_{\pi} (s, a) \right] \quad (\text{product rule of calculus}) \\ = \sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \nabla \sum_{s^{\prime}, r} p \left(s^{\prime}, r | s, a\right) \left(r - r (\boldsymbol{\theta}) + v_{\pi} \left(s^{\prime}\right)\right) \right] \\ = \sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \left[ - \nabla r (\theta) + \sum_{s^{\prime}} p \left(s^{\prime} \mid s, a\right) \nabla v_{\pi} \left(s^{\prime}\right) \right] \right]. \\ \end{array}
+\begin{array}{l} \nabla v_{\pi} (s) = \nabla \left[ \sum_{a} \pi (a | s) q_{\pi} (s, a) \right], \quad \text{for all} s \in \mathcal{S} \tag {Exercise 3.18} \\ = \sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \nabla q_{\pi} (s, a) \right] \quad (\text{productruleofcalculus}) \\ = \sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \nabla \sum_{s^{\prime}, r} p \left(s^{\prime}, r | s, a\right) \left(r - r (\boldsymbol{\theta}) + v_{\pi} \left(s^{\prime}\right)\right) \right] \\ = \sum_{a} \left[ \nabla \pi (a | s) q_{\pi} (s, a) + \pi (a | s) \left[ - \nabla r (\theta) + \sum_{s^{\prime}} p \left(s^{\prime} \mid s, a\right) \nabla v_{\pi} \left(s^{\prime}\right) \right] \right]. \\ \end{array}
 $$
 
 After re-arranging terms, we obtain
@@ -6452,7 +6452,7 @@ $$
 $$
 
 $$
-\begin{array}{l} = \sum_{s} \mu (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) \\ + \sum_{s^{\prime}} \underbrace {\sum_{s} \mu (s) \sum_{a} \pi (a | s) p \left(s^{\prime} \mid s , a\right)}_{\mu \left(s^{\prime}\right)} \nabla v_{\pi} \left(s^{\prime}\right) - \sum_{s} \mu (s) \nabla v_{\pi} (s) \\ = \sum_{s} \mu (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) + \sum_{s^{\prime}} \mu \left(s^{\prime}\right) \nabla v_{\pi} \left(s^{\prime}\right) - \sum_{s} \mu (s) \nabla v_{\pi} (s) \\ = \sum_{s} \mu (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a). \quad \text{Q . E . D .} \\ \end{array}
+\begin{array}{l} = \sum_{s} \mu (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) \\ + \sum_{s^{\prime}} \underbrace {\sum_{s} \mu (s) \sum_{a} \pi (a | s) p \left(s^{\prime} \mid s , a\right)}_{\mu \left(s^{\prime}\right)} \nabla v_{\pi} \left(s^{\prime}\right) - \sum_{s} \mu (s) \nabla v_{\pi} (s) \\ = \sum_{s} \mu (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a) + \sum_{s^{\prime}} \mu \left(s^{\prime}\right) \nabla v_{\pi} \left(s^{\prime}\right) - \sum_{s} \mu (s) \nabla v_{\pi} (s) \\ = \sum_{s} \mu (s) \sum_{a} \nabla \pi (a | s) q_{\pi} (s, a). \quad \text{Q .E .D .} \\ \end{array}
 $$
 
 # 13.7 Policy Parameterization for Continuous Actions
@@ -7763,11 +7763,11 @@ To measure the performance of the policies produced by the greedy and LTV approa
 website visitors:
 
 $$
-\mathrm{CTR} = \frac{\text{Total \#of Clicks}}{\text{Total \#of Visits}},
+\mathrm{CTR} = \frac{\text{Total \#ofClicks}}{\text{Total \#ofVisits}},
 $$
 
 $$
-\mathrm{LTV} = \frac{\text{Total \#of Clicks}}{\text{Total \#of Visitors}}.
+\mathrm{LTV} = \frac{\text{Total \#ofClicks}}{\text{Total \#ofVisitors}}.
 $$
 
 Figure 16.8 illustrates how these metrics differ. Each circle represents a user visit to the site; black circles are visits at which the user clicks. Each row represents visits by a particular user. By not distinguishing between visitors, the CTR for these sequences is 0.35, whereas the LTV is 1.5. Because LTV is larger than CTR to the extent that
@@ -7963,7 +7963,7 @@ that determining long-term predictions from single-step predictions is exponenti
 An example of obtaining Markov states through a state-update function is provided by the popular Bayesian approach known as Partially Observable MDPs, or POMDPs. In this approach the environment is assumed to have a well defined latent state  $X_{t}$  that underlies and produces the environment's observations, but is never available to the agent (and is not to be confused with the state  $S_{t}$  used by the agent to make predictions and decisions). The natural Markov state,  $S_{t}$ , for a POMDP is the distribution over the latent states given the history, called the belief state. For concreteness, assume the usual case in which there are a finite number of hidden states,  $X_{t} \in \{1,2,\dots,d\}$ . Then the belief state is the vector  $S_{t} \doteq \mathbf{s}_{t} \in [0,1]^{d}$  with components
 
 $$
-\mathbf{s}_{t} [ i ] \doteq \Pr \left\{X_{t} = i \mid H_{t} \right\}, \text{for all possible latent states} i \in \{1, 2, \dots , d \}. \tag {17.9}
+\mathbf{s}_{t} [ i ] \doteq \Pr \left\{X_{t} = i \mid H_{t} \right\}, \text{forallpossiblelatentstates} i \in \{1, 2, \dots , d \}. \tag {17.9}
 $$
 
 The belief state remains the same size (same number of components) even as  $t$  grows. It can also be incrementally updated by Bayes' rule, assuming complete knowledge of the internal workings of the environment. Specifically, the  $i$ th component of the belief-state update function is

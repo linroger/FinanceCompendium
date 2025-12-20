@@ -949,19 +949,19 @@ $$
 Then, there exists a consist zero  $\hat{\theta}_n$  of the score function  $S_{n}$ , such that  $S_{n}(\hat{\theta}_{n}) = 0$ . As  $n\to \infty$
 
 $$
-\sqrt {n} (\hat {\theta} _ {n} - \theta_ {0}) \stackrel {d} {\to} \mathcal {N} \bigg (0, \frac {1}{I _ {1} (\theta_ {0})} \bigg).
+\sqrt{n} (\hat{\theta}_n - \theta_0) \stackrel{d}{\to} \mathcal{N} \bigg (0, \frac{1}{I_1 (\theta_0)} \bigg).
 $$
 
 Proof. First, we will show the existence of the consistent root  $\hat{\theta}_n$ . The key in this proof is to take a Taylor expansion of the score function  $S_{n}$ . A second-order Taylor expansion with Lagrange form of the remainder tells us that
 
 $$
-S _ {n} (\hat {\theta} _ {n}) = S _ {n} (\hat {\theta} _ {n}) + S _ {n} ^ {\prime} (\hat {\theta} _ {n}) (\hat {\theta} _ {n} - \theta_ {0}) + \frac {1}{2} S _ {n} ^ {\prime \prime} (\hat {\theta} _ {n} ^ {*}) (\hat {\theta} _ {n} - \theta_ {0}) ^ {2},
+S_n (\hat{\theta}_n) = S_n (\hat{\theta}_n) + S_n^{\prime} (\hat{\theta}_n) (\hat{\theta}_n - \theta_0) + \frac{1}{2} S_n^{\prime \prime} (\hat{\theta}_n^*) (\hat{\theta}_n - \theta_0)^2,
 $$
 
 where  $\hat{\theta}_n^*$  is some value between  $\theta_0$  and  $\hat{\theta}_n$ . Roughly speaking, we can "solve" for  $\hat{\theta}_n - \theta_0$  to get
 
 $$
-\sqrt {n} (\hat {\theta} _ {n} - \theta_ {0}) = \frac {S _ {n} (\theta_ {0}) / \sqrt {n}}{- \frac {1}{n} S _ {n} ^ {\prime} (\theta_ {0}) - \frac {1}{2 n} S _ {n} ^ {\prime \prime} (\theta_ {n} ^ {*}) (\hat {\theta} _ {n} - \theta_ {0})}.
+\sqrt{n} (\hat{\theta}_n - \theta_0) = \frac{S_n (\theta_0) / \sqrt{n}}{- \frac{1}{n} S_n^{\prime} (\theta_0) - \frac{1}{2 n} S_n^{\prime \prime} (\theta_n^*) (\hat{\theta}_n - \theta_0)}.
 $$
 
 The numerator of this fraction converges in distribution to  $\mathcal{N}(0, I_1(\theta_0))$  by the central limit theorem, and the first term  $-\frac{1}{n} S_n'(\theta_0)$  of the denominator converges in probability to  $I_1(\theta_0)$  by the weak law of large numbers.
@@ -981,11 +981,11 @@ First, a remark about Theorem 8.1. Note that the normality of the MLE implies th
 Definition 9.1 (Asymptotic relative efficiency). If  $W_{n}$  and  $V_{n}$  be two estimators of a parametric function  $g(\theta)$  such that
 
 $$
-\sqrt {n} (W _ {n} - g (\theta)) \stackrel {d} {\to} \mathcal {N} (0, \sigma_ {W} ^ {2}),
+\sqrt{n} (W_n - g (\theta)) \stackrel{d}{\to} \mathcal{N} (0, \sigma_W^2),
 $$
 
 $$
-\sqrt {n} (V _ {n} - g (\theta)) \stackrel {d} {\to} \mathcal {N} (0, \sigma_ {V} ^ {2}),
+\sqrt{n} (V_n - g (\theta)) \stackrel{d}{\to} \mathcal{N} (0, \sigma_V^2),
 $$
 
 then the asymptotic relative efficiency (ARE) of  $V_{n}$  with respect to  $W_{n}$  is  $\sigma_W^2 /\sigma_V^2$ .
@@ -995,7 +995,7 @@ The normality of the MLE for the parameter  $\hat{\theta}$  is a nice result, es
 Theorem 9.2 (Delta method). If  $\sqrt{n}(T_n - \theta) \xrightarrow{d} \mathcal{N}(0, v(\theta))$ , then if  $g$  is continuously differentiable at  $\theta$  and  $g'(\theta) \neq 0$ ,
 
 $$
-\sqrt {n} (g (T _ {n}) - g (\theta)) \stackrel {d} {\to} \mathcal {N} \big (0, v (\theta) (g ^ {\prime} (\theta)) ^ {2} \big).
+\sqrt{n} (g (T_n) - g (\theta)) \stackrel{d}{\to} \mathcal{N} \big (0, v (\theta) (g^{\prime} (\theta))^2 \big).
 $$
 
 Proof. We offer a proof sketch. Take the first-order Taylor expansion of  $g(T_{n})$  to get

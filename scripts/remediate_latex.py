@@ -108,6 +108,32 @@ def remediate_latex(content):
         content = re.sub(r'(\S)(\s+)_\s+\{', r'\1_{', content)
         stats['subscript_fixes'] += matches
 
+    # Fix 8: Targeted Word Fixes (Mashed words)
+    replacements = {
+        r'\\text\{positivepart\}': r'\\text{positive part}',
+        r'\\text\{negativepart\}': r'\\text{negative part}',
+        r'\\text\{foranyset\}': r'\\text{for any set}',
+        r'\\text\{samplemedian\}': r'\\text{sample median}',
+        r'\\text\{forall\}': r'\\text{for all}',
+        r'\\text\{foreach\}': r'\\text{for each}',
+        r'\\text\{withprobability\}': r'\\text{with probability }',
+        r'\\text\{typeIerror\}': r'\\text{type I error}',
+        r'\\text\{typeIIerror\}': r'\\text{type II error}',
+        r'\\text\{iscontinuous\}': r'\\text{is continuous}',
+        r'\\text\{isdiscrete\}': r'\\text{is discrete}',
+        r'\\text\{forallintegers\}': r'\\text{for all integers}',
+        r'\\text\{if\}': r'\\text{if }',  # careful with this one
+    }
+    
+    targeted_fixes = 0
+    for pat, repl in replacements.items():
+        # Count occurences first
+        c = len(re.findall(pat, content))
+        if c > 0:
+            content = re.sub(pat, repl, content)
+            targeted_fixes += c
+    stats['targeted_word_fixes'] = targeted_fixes
+
     return content, stats
 
 def main():

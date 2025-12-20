@@ -173,7 +173,7 @@ has  $V_{\mathrm{liminf}}(x) = 0 < V_1(x) = V_2(x) = \frac{1}{2}$ .
 1.3.2. Marinacci's extension of the classic analyses. The sequence of  $x_{t}$
 
 $$
-\underbrace {1 1} _ {2 ^ {1}} \underbrace {0 0 0 0} _ {2 ^ {2}} \underbrace {1 1 1 1 1 1 1 1} _ {2 ^ {3}} \dots
+\underbrace {1 1}_{2^{1}} \underbrace {0 0 0 0}_{2^{2}} \underbrace {1 1 1 1 1 1 1 1}_{2^{3}} \dots
 $$
 
 is of the form  $x_{\pi}$  for a peculiar kind of  $\pi$ . Further  $V_{\mathrm{liminf}}^{average}(x) \coloneqq \lim \inf_T \frac{1}{T} \sum_{t=1}^T x_t = \frac{1}{3} < V_{\mathrm{limsup}}^{average}(x) \coloneqq \lim \sup_T \frac{1}{T} \sum_{t=1}^T x_t = \frac{2}{3}$ . An alternate criterion combining the averaging and minimizing is  $V_3(x) \coloneqq \lim_{T \to \infty} \{\inf_{j \geq 1} \frac{1}{T} \sum_{t=1}^T x_{t+j}\}$ . Note  $V_3(x) = 0 < \frac{1}{3}$ .
@@ -183,7 +183,7 @@ The  $\pi$  above is "peculiar" because it does not preserve upper densities —
 Marinacci defines patience as invariance under permutations that preserve upper densities, and asks for all such  $\pi$ ,  $V(x) = V(x_{\pi})$ . He arrives at the Polya criterion —
 
 $$
-V _ {P o l y a} (x) := \lim _ {\epsilon \to 0} \left[ \lim _ {T} \inf \frac {1}{\epsilon T} \sum_ {t = (1 - \epsilon) T} ^ {T} x _ {t} \right].
+V_{P o l y a} (x) := \lim_{\epsilon \to 0} \left[ \lim_{T} \inf \frac{1}{\epsilon T} \sum_{t = (1 - \epsilon) T}^{T} x_{t} \right].
 $$
 
 $V_{Polya}(x)$  exists for all  $x \in \mathbb{R}^{\mathbb{N}}$ , and for  $x$  such that  $V_{\mathrm{liminf}}^{average}(x) = V_{\mathrm{limsup}}^{average}(x)$ ,  $V_{Polya}(x) = V_{\mathrm{liminf}}^{average}(x)$ .
@@ -214,13 +214,13 @@ Proof.
 In intermediate micro, one starts with a utility function,  $u$ , that represents preferences, that is,  $x \succsim y$  iff  $u(x) \geq u(y)$ , and then derives demand behavior,  $x(p, m)$  from the solutions to
 
 $$
-\max  u (x) \text {s u b j e c t} p \cdot x \leq m, x \in \mathbb {R} _ {+} ^ {\ell}.
+\max  u (x) \text{su bj ec t} p \cdot x \leq m, x \in \mathbb {R}_{+}^{\ell}.
 $$
 
 The demand function,  $x(p,m)$ , is unaffected by monotonic transformations of  $u$ , that is, if  $f: \mathbb{R} \to \mathbb{R}$  satisfies  $[[r > s] \Rightarrow [f(r) > f(s)]$  and  $v(x) \coloneqq f(u(x))$ , then  $x(p,m)$  also solves the problem
 
 $$
-\max  v (x) \text {s u b j e c t} p \cdot x \leq m, x \in \mathbb {R} _ {+} ^ {\ell}.
+\max  v (x) \text{su bj ec t} p \cdot x \leq m, x \in \mathbb {R}_{+}^{\ell}.
 $$
 
 Utility functions do not measure anything. They are no more than a convenient device to represent preferences.
@@ -246,7 +246,7 @@ Lemma 1.4.4. If  $K$  is convex, then for all  $\epsilon >0$ ,  $\overline{K}\su
 Given a convex profit function  $\Pi(\cdot)$ ,  $Y_{\Pi} \coloneqq \{y : \forall p > 0, p \cdot y \leq \Pi(p)\}$ , relate to convex-closed sets, do the work in the example to show the basic duality result for profit functions,
 
 $$
-Y = Y _ {\Pi_ {Y}}.
+Y = Y_{\Pi_{Y}}.
 $$
 
 This means that I can give you a profit function and I have implicitly specified the technology, or I can give you a technology, and I have implicitly specified the profit function, and these two representations are (loosely) duals of each other.
@@ -284,7 +284,7 @@ has  $V_{\lim \inf}(x) = 0 < V_1(x) = V_2(x) = \frac{1}{2}$ .
 Problem 1.2. Show that the sequence of  $x_{t}$
 
 $$
-\underbrace {1 1} _ {2 ^ {1}} \underbrace {0 0 0 0} _ {2 ^ {2}} \underbrace {1 1 1 1 1 1 1 1} _ {2 ^ {3}} \dots
+\underbrace {1 1}_{2^{1}} \underbrace {0 0 0 0}_{2^{2}} \underbrace {1 1 1 1 1 1 1 1}_{2^{3}} \dots
 $$
 
 is a permutation of the sequence
@@ -338,13 +338,13 @@ Theorem 1.6.1. A twice continuously differentiable  $f: \mathbb{R}^n \to \mathbb
 The principal sub-matrices of a symmetric  $n \times n$  matrix  $\mathbf{A} = (a_{ij})_{i,j=1,\ldots,n}$  are the  $m \times m$  matrices  $(a_{ij})_{i,j=1,\ldots,m}$ ,  $m \leq n$ . Thus, the 3 principal sub-matrices of the  $3 \times 3$  matrix
 
 $$
-\mathbf {A} = \left[ \begin{array}{l l l} 3 & 0 & 0 \\ 0 & 4 & \sqrt {3} \\ 0 & \sqrt {3} & 6 \end{array} \right]
+\mathbf {A} = \left[ \begin{array}{l l l} 3 & 0 & 0 \\ 0 & 4 & \sqrt{3} \\ 0 & \sqrt{3} & 6 \end{array} \right]
 $$
 
 are
 
 $$
-\left[ \begin{array}{l} 3 \end{array} \right], \quad \left[ \begin{array}{l l} 3 & 0 \\ 0 & 4 \end{array} \right], \mathrm {a n d} \quad \left[ \begin{array}{l l l} 3 & 0 & 0 \\ 0 & 4 & \sqrt {3} \\ 0 & \sqrt {3} & 6 \end{array} \right].
+\left[ \begin{array}{l} 3 \end{array} \right], \quad \left[ \begin{array}{l l} 3 & 0 \\ 0 & 4 \end{array} \right], \mathrm{an d} \quad \left[ \begin{array}{l l l} 3 & 0 & 0 \\ 0 & 4 & \sqrt{3} \\ 0 & \sqrt{3} & 6 \end{array} \right].
 $$
 
 Theorem 1.6.2. A matrix  $\mathbf{A}$  is negative semi-definite (respectively negative definite) iff the sign of  $m$ th principal sub-matrix is either 0 or  $-1^{m}$  (respectively, the sign of the  $m$ th principal sub-matrix is  $-1^{m}$ ). It is positive semi-definite (respectively positive definite) if you replace " $-1^{m}$ " with " $+1^{m}$ " throughout.
@@ -362,13 +362,13 @@ Problem 1.10. Suppose that  $f:(a,b)\to \mathbb{R}$  is twice continuously diffe
 1. Show that if  $f''(x) \leq 0$  for all  $x \in (a, b)$ , then  $f$  is concave. [Hint: We know that  $f'$  is non-increasing. Pick  $x, y$  with  $a < x < y < b$  and pick  $\alpha \in (0, 1)$ , define  $z = \alpha x + (1 - \alpha)y$ . Note that  $(z - x) = (1 - \alpha)(y - x)$  and  $(y - z) = \alpha(y - x)$ . Show]
 
 $$
-\begin{array}{l} f (z) - f (x) = \int_ {x} ^ {z} f ^ {\prime} (t) d t \geq f ^ {\prime} (z) (z - x) = f ^ {\prime} (z) (1 - \alpha) (y - x), \\ f (y) - f (z) = \int_ {z} ^ {y} f ^ {\prime} (t) d t \leq f ^ {\prime} (z) (y - z) = f ^ {\prime} (z) \alpha (y - x). \\ \end{array}
+\begin{array}{l} f (z) - f (x) = \int_{x}^{z} f^{\prime} (t) d t \geq f^{\prime} (z) (z - x) = f^{\prime} (z) (1 - \alpha) (y - x), \\ f (y) - f (z) = \int_{z}^{y} f^{\prime} (t) d t \leq f^{\prime} (z) (y - z) = f^{\prime} (z) \alpha (y - x). \\ \end{array}
 $$
 
 Therefore,
 
 $$
-f (z) \geq f (x) + f ^ {\prime} (z) (1 - \alpha) (y - x), f (z) \geq f (y) - f ^ {\prime} (z) \alpha (y - x).
+f (z) \geq f (x) + f^{\prime} (z) (1 - \alpha) (y - x), f (z) \geq f (y) - f^{\prime} (z) \alpha (y - x).
 $$
 
 Multiply the lhs by  $\alpha$ , the rhs by  $(1 - \alpha)$ , and …
@@ -405,7 +405,7 @@ Proof: You should know why this is true. If not, you need some more review.
 Define  $g(\lambda) = |\mathbf{A} - \lambda \mathbf{I}|$  so that  $g$  is an  $n$ 'th degree polynomial in  $\lambda$ . The fundamental theorem of algebra tells us that any  $n$ 'th degree polynomial has  $n$  roots, counting multiplicities, in the complex plane. To be a bit more concrete, this means that there are complex numbers  $\lambda_i$ ,  $i = 1, \ldots, n$  such that
 
 $$
-g (y) = (\lambda_ {1} - y) (\lambda_ {2} - y) \dots (\lambda_ {n} - y).
+g (y) = (\lambda_{1} - y) (\lambda_{2} - y) \dots (\lambda_{n} - y).
 $$
 
 The "counting multiplicities" phrase means that the  $\lambda_{i}$  need not be distinct.
@@ -433,35 +433,35 @@ Taking the complex conjugate of both sides,
 (2)
 
 $$
-\mathbf {A} x ^ {*} = \lambda^ {*} x ^ {*}
+\mathbf {A} x^{*} = \lambda^{*} x^{*}
 $$
 
 because  $\mathbf{A}$  has only real entries.
 
 $$
-[ \mathbf {A} x = \lambda x ] \Rightarrow [ (x ^ {*}) ^ {T} \mathbf {A} x = (x ^ {*}) ^ {T} \lambda x = \lambda x ^ {T} x ^ {*} ],
+[ \mathbf {A} x = \lambda x ] \Rightarrow [ (x^{*})^{T} \mathbf {A} x = (x^{*})^{T} \lambda x = \lambda x^{T} x^{*} ],
 $$
 
 $$
-\left[ \mathbf {A} x ^ {*} = \lambda^ {*} x ^ {*} \right] \Rightarrow \left[ x ^ {T} \mathbf {A} x ^ {*} = x ^ {T} \lambda^ {*} x ^ {*} = \lambda^ {*} x ^ {T} x ^ {*} \right].
+\left[ \mathbf {A} x^{*} = \lambda^{*} x^{*} \right] \Rightarrow \left[ x^{T} \mathbf {A} x^{*} = x^{T} \lambda^{*} x^{*} = \lambda^{*} x^{T} x^{*} \right].
 $$
 
 Subtracting,
 
 $$
-\left(x ^ {*}\right) ^ {T} \mathbf {A} x - x ^ {T} \mathbf {A} x ^ {*} = (\lambda - \lambda^ {*}) x ^ {T} x ^ {*}.
+\left(x^{*}\right)^{T} \mathbf {A} x - x^{T} \mathbf {A} x^{*} = (\lambda - \lambda^{*}) x^{T} x^{*}.
 $$
 
 Since the matrix  $\mathbf{A}$  is symmetric,
 
 $$
-\left(\boldsymbol {x} ^ {*}\right) ^ {T} \mathbf {A} \boldsymbol {x} - \boldsymbol {x} ^ {T} \mathbf {A} \boldsymbol {x} ^ {*} = 0.
+\left(\boldsymbol {x}^{*}\right)^{T} \mathbf {A} \boldsymbol {x} - \boldsymbol {x}^{T} \mathbf {A} \boldsymbol {x}^{*} = 0.
 $$
 
 Since  $x \neq 0$ ,  $x^T x^* \neq 0$ . Therefore,
 
 $$
-[ (\lambda - \lambda^ {*}) x ^ {T} x ^ {*} = 0 ] \Rightarrow [ (\lambda - \lambda^ {*}) = 0 ],
+[ (\lambda - \lambda^{*}) x^{T} x^{*} = 0 ] \Rightarrow [ (\lambda - \lambda^{*}) = 0 ],
 $$
 
 which can only happen if  $\lambda$  is a real number.
@@ -471,25 +471,25 @@ The eigenvector part: From the previous part, all eigenvalues are real. Since  $
 Let  $\lambda_i \neq \lambda_j$  be distinct eigenvalues and  $x_i, x_j$  their associated eigenvectors so that
 
 $$
-\mathbf {A} x _ {i} = \lambda_ {i} x _ {i}, \quad \mathbf {A} x _ {j} = \lambda_ {j} x _ {j}.
+\mathbf {A} x_{i} = \lambda_{i} x_{i}, \quad \mathbf {A} x_{j} = \lambda_{j} x_{j}.
 $$
 
 Pre-multiplying by the appropriate vectors,
 
 $$
-x _ {j} ^ {T} \mathbf {A} x _ {i} = \lambda_ {i} x _ {j} ^ {T} x _ {i}, \quad x _ {i} ^ {T} \mathbf {A} x _ {j} = \lambda_ {j} x _ {i} ^ {T} x _ {j}.
+x_{j}^{T} \mathbf {A} x_{i} = \lambda_{i} x_{j}^{T} x_{i}, \quad x_{i}^{T} \mathbf {A} x_{j} = \lambda_{j} x_{i}^{T} x_{j}.
 $$
 
 We know that  $x_{i}^{T}x_{j} = x_{j}^{T}x_{i}$  (by properties of dot products). Because  $\mathbf{A}$  is symmetric,
 
 $$
-x _ {j} ^ {T} \mathbf {A} x _ {i} = x _ {i} ^ {T} \mathbf {A} x _ {j}.
+x_{j}^{T} \mathbf {A} x_{i} = x_{i}^{T} \mathbf {A} x_{j}.
 $$
 
 Combining,
 
 $$
-(\lambda_ {i} - \lambda_ {j}) x _ {j} ^ {T} x _ {i} = 0.
+(\lambda_{i} - \lambda_{j}) x_{j}^{T} x_{i} = 0.
 $$
 
 Since  $(\lambda_i - \lambda_j) \neq 0$ , we conclude that  $x_i \cdot x_j = 0$ , the orthogonality we were looking for.
@@ -503,7 +503,7 @@ A careful proof shows that if  $\mathbf{A}$  has an eigenvalue  $\lambda_{i}$  w
 Problem 1.16. Find eigenvalues and eigenvectors for
 
 $$
-\left[ \begin{array}{c c} 4 & \sqrt {3} \\ \sqrt {3} & 6 \end{array} \right] a n d \left[ \begin{array}{c c c} 3 & 0 & 0 \\ 0 & 4 & \sqrt {3} \\ 0 & \sqrt {3} & 6 \end{array} \right].
+\left[ \begin{array}{c c} 4 & \sqrt{3} \\ \sqrt{3} & 6 \end{array} \right] a n d \left[ \begin{array}{c c c} 3 & 0 & 0 \\ 0 & 4 & \sqrt{3} \\ 0 & \sqrt{3} & 6 \end{array} \right].
 $$
 
 Let  $\lambda_1, \ldots, \lambda_n$  be the eigenvalues of  $\mathbf{A}$  (repeating any multiplicities), and let  $u_1, \ldots, u_n$  be a corresponding set of orthonormal eigenvectors. Let  $\mathbf{Q} = (u_1, \ldots, u_n)$  be the matrix with the eigenvectors as columns. Note that  $\mathbf{Q}^T\mathbf{Q} = \mathbf{I}$  so that  $\mathbf{Q}^{-1} = \mathbf{Q}^T$ . A matrix with its transpose being its inverse is an orthogonal matrix. Let  $\Lambda$  be the  $n \times n$  matrix with  $\Lambda_{ii} = \lambda_i$  and with 0's in the off-diagonal.
@@ -521,7 +521,7 @@ Proof:  $z^T\mathbf{A}z = z^T\mathbf{Q}^T\boldsymbol{\Lambda}\mathbf{Q}z = v^T\b
 We defined  $g(y) = |\mathbf{A} - y\mathbf{I}|$  so that  $g$  is an  $n$ 'th degree polynomial in  $\lambda$ , and used the fundamental theorem of algebra (and some calculation) to tell us that
 
 $$
-g (y) = (\lambda_ {1} - y) (\lambda_ {2} - y) \dots (\lambda_ {n} - y)
+g (y) = (\lambda_{1} - y) (\lambda_{2} - y) \dots (\lambda_{n} - y)
 $$
 
 where the  $\lambda_{i}$  are the eigenvalues of  $\mathbf{A}$ . Note that  $g(0) = |\mathbf{A} - 0\mathbf{I}| = |\mathbf{A}| = \lambda_1\cdot \lambda_2\cdot \cdot \cdot \lambda_n$ , that is,
@@ -537,7 +537,7 @@ Problem 1.18. A is negative definite iff for all  $m \leq n$  and all non-zero  
 Looking at  $m = 1$ , we must check if
 
 $$
-(x _ {1}, 0, 0, \ldots , 0) \left[ \begin{array}{c c c c} a _ {1 1} & a _ {1 2} & \dots & a _ {1 n} \\ a _ {2 1} & a _ {2 2} & \dots & a _ {2 n} \\ \vdots & \vdots & & \vdots \\ a _ {n 1} & a _ {n 2} & \dots & a _ {n n} \end{array} \right] \left( \begin{array}{c} x _ {1} \\ 0 \\ 0 \\ \vdots \\ 0 \end{array} \right) = a _ {1 1} x _ {1} ^ {2} <   0.
+(x_{1}, 0, 0, \ldots , 0) \left[ \begin{array}{c c c c} a_{1 1} & a_{1 2} & \dots & a_{1 n} \\ a_{2 1} & a_{2 2} & \dots & a_{2 n} \\ \vdots & \vdots & & \vdots \\ a_{n 1} & a_{n 2} & \dots & a_{n n} \end{array} \right] \left( \begin{array}{c} x_{1} \\ 0 \\ 0 \\ \vdots \\ 0 \end{array} \right) = a_{1 1} x_{1}^{2} <   0.
 $$
 
 This is true iff the first principal sub-matrix of  $\mathbf{A}$  has the same sign as  $-1^{m} = -1^{1} = -1$ .
@@ -545,13 +545,13 @@ This is true iff the first principal sub-matrix of  $\mathbf{A}$  has the same s
 Looking at  $m = 2$ , we must check if
 
 $$
-(x _ {1}, x _ {2}, 0, \ldots , 0) \left[ \begin{array}{c c c c} a _ {1 1} & a _ {1 2} & \dots & a _ {1 n} \\ a _ {2 1} & a _ {2 2} & \dots & a _ {2 n} \\ \vdots & \vdots & & \vdots \\ a _ {n 1} & a _ {n 2} & \dots & a _ {n n} \end{array} \right] \left( \begin{array}{c} x _ {1} \\ x _ {2} \\ 0 \\ \vdots \\ 0 \end{array} \right) <   0.
+(x_{1}, x_{2}, 0, \ldots , 0) \left[ \begin{array}{c c c c} a_{1 1} & a_{1 2} & \dots & a_{1 n} \\ a_{2 1} & a_{2 2} & \dots & a_{2 n} \\ \vdots & \vdots & & \vdots \\ a_{n 1} & a_{n 2} & \dots & a_{n n} \end{array} \right] \left( \begin{array}{c} x_{1} \\ x_{2} \\ 0 \\ \vdots \\ 0 \end{array} \right) <   0.
 $$
 
 This is true iff the matrix
 
 $$
-\left[ \begin{array}{l l} a _ {1 1} & a _ {1 2} \\ a _ {2 1} & a _ {2 2} \end{array} \right]
+\left[ \begin{array}{l l} a_{1 1} & a_{1 2} \\ a_{2 1} & a_{2 2} \end{array} \right]
 $$
 
 is negative definite, which is true iff all of its eigenvalues are negative. There are two eigenvalues, the product of two negative numbers is positive, so the  $m = 2$  case is handled by having the sign of the determinant of the  $2 \times 2$  principal submatrix being  $-1^2$ .
@@ -559,7 +559,7 @@ is negative definite, which is true iff all of its eigenvalues are negative. The
 Looking at  $m = 3$ , we must check if
 
 $$
-\left[ \begin{array}{l l l} a _ {1 1} & a _ {1 2} & a _ {1 3} \\ a _ {2 1} & a _ {2 2} & a _ {2 3} \\ a _ {3 1} & a _ {3 2} & a _ {3 3} \end{array} \right]
+\left[ \begin{array}{l l l} a_{1 1} & a_{1 2} & a_{1 3} \\ a_{2 1} & a_{2 2} & a_{2 3} \\ a_{3 1} & a_{3 2} & a_{3 3} \end{array} \right]
 $$
 
 is negative definite, which is true iff all of its eigenvalues are negative. There are three eigenvalues, the product of three negative numbers is negative, so the  $m = 3$  case is handled by having the sign of the determinant of the  $3 \times 3$  principal submatrix being  $-1^3$ .
@@ -601,7 +601,7 @@ Dfn cdf. These give probabilities on the field  $\mathcal{F}_0$  generated by  $
 A metric on cdf's is
 
 $$
-\begin{array}{l} \rho (F, G) = \inf  \{\epsilon > 0: \forall x \in \mathbb {R}, G (x) \leq F (x + \epsilon) + \epsilon \\ \text {a n d} F (x) \leq G (x + \epsilon) + \epsilon \}. \\ \end{array}
+\begin{array}{l} \rho (F, G) = \inf  \{\epsilon > 0: \forall x \in \mathbb {R}, G (x) \leq F (x + \epsilon) + \epsilon \\ \text{an d} F (x) \leq G (x + \epsilon) + \epsilon \}. \\ \end{array}
 $$
 
 Levy ribbons and the triangle inequality. Weak* convergence aka convergence in distribution turns out to be equivalent to  $\rho$ -convergence. Let  $F_{\infty}$  be the cdf of  $\delta_0$ , look at  $B(F, \epsilon)$ , let  $\Phi$  be the standard normal cdf, look at  $B(\Phi, \epsilon)$ .
@@ -696,7 +696,7 @@ Optimization in dynamic contexts is more difficult, and substantive results that
 Each  $(Y_{t},d_{t})$  compact,  $t = 0,1,\ldots ,Y\coloneqq \times_{t}Y_{t}$  , the metric on  $Y$  is
 
 $$
-d (x, y) := \sum_ {t} 2 ^ {- t} \min \{1, d _ {n} (x _ {t}, y _ {t}) \}.
+d (x, y) := \sum_{t} 2^{- t} \min \{1, d_{n} (x_{t}, y_{t}) \}.
 $$
 
 Theorem 3.1.1.  $(Y,d)$  is compact.
@@ -706,7 +706,7 @@ Theorem 3.1.1.  $(Y,d)$  is compact.
 If  $u: Y \to \mathbb{R}$  is  $d$ -cts, then it is asymptotically tail-insensitive, indeed, to within any  $\epsilon > 0$ , a cts  $u$  depends ctsly on only finitely many coordinates. To say this more precisely, for  $x, y \in Y$  and  $t \in \mathbb{N}$  let  $x / _t y \in Y$  be the point (i.e. sequence) which is  $x$  up to and including time  $t$  and is  $y$  thereafter, i.e.
 
 $$
-x / _ {t} y = \left(x _ {0}, x _ {1}, x _ {2}, \dots , x _ {t - 1}, x _ {t}, y _ {t + 1}, y _ {t + 2}, \dots\right).
+x /_{t} y = \left(x_{0}, x_{1}, x_{2}, \dots , x_{t - 1}, x_{t}, y_{t + 1}, y_{t + 2}, \dots\right).
 $$
 
 Note that many of the ways we valued sequences of rewards are NOT continuous, e.g.  $V_{\mathrm{liminf}}(x)$  is discontinuous — let  $\tilde{r}$  denote the sequence  $(r,r,r,r,\ldots)$ , for any  $x$  and any  $r$ ,  $x / _t\tilde{r}\to_t x$ , and for all  $t$ ,  $V_{\mathrm{liminf}}(x / _t\tilde{r}) = r$ . More specifically, Let  $x = (0,1,0,1,0,1,0,1,0,1,\ldots)$ ,  $V_{\mathrm{liminf}}(x) = 0$ ,  $(x / _t\tilde{r})\to_t x$ , and  $V_{\mathrm{liminf}}(x / _t\tilde{r})\nrightarrow 0$  unless  $r = 0$ .
@@ -714,7 +714,7 @@ Note that many of the ways we valued sequences of rewards are NOT continuous, e.
 Theorem 3.1.2. If  $u:Y\to \mathbb{R}$  is continuous, then for all  $\epsilon >0$ $\exists T\forall t\geq T$
 
 $$
-\max  \left\{\left| u \left(x / _ {t} y\right) - u \left(x / _ {t} y ^ {\prime}\right) \right|: x, y, y ^ {\prime} \in Y \right\} <   \epsilon .
+\max  \left\{\left| u \left(x /_{t} y\right) - u \left(x /_{t} y^{\prime}\right) \right|: x, y, y^{\prime} \in Y \right\} <   \epsilon .
 $$
 
 Proof: Uniform continuity and shape of the  $d$ -balls.
@@ -727,7 +727,7 @@ Some notation,  $(x_0,x_1,x_2,\ldots) = (x_0,x_{1 + })$
 2. $\exists \varphi :X\times X\to \mathbb{R}$  cts such that
 
 $$
-u \left(x _ {0}, x _ {1 +}\right) = \varphi \left(x _ {0}, x _ {1}\right) + \sum_ {t \geq 1} \beta^ {t} \varphi \left(x _ {t}, x _ {t + 1}\right)
+u \left(x_{0}, x_{1 +}\right) = \varphi \left(x_{0}, x_{1}\right) + \sum_{t \geq 1} \beta^{t} \varphi \left(x_{t}, x_{t + 1}\right)
 $$
 
 for some  $\beta \in (0,1)$ , and
@@ -745,7 +745,7 @@ Theorem 3.2.1. For all  $x \in X$ , if  $(x_{t}^{*}) \in \Gamma_{\infty}(x)$  sa
 A crucial implication is that once one has found  $V$ , the optimal policy can be found by
 
 $$
-P ^ {*} (x) = \arg \max  \left\{\varphi (x, y) + \beta V (y): y \in \Gamma (x) \right\}.
+P^{*} (x) = \arg \max  \left\{\varphi (x, y) + \beta V (y): y \in \Gamma (x) \right\}.
 $$
 
 While there may be many best ways to do something, that is,  $P^{*}(x)$  may contain more than one point, the value of doing any one of the best things is unique. The remaining problem is how to find  $V$ . There is an approximation method based on the Contraction Mapping Theorem.
@@ -769,7 +769,7 @@ Definition 3.2.3. Let  $(Y,d)$  be a metric space. A function  $f:Y\to Y$  is a 
 Any contraction mapping must be cts,
 
 $$
-[ d (y ^ {n}, y) \rightarrow 0 ] \Rightarrow [ d (f (y ^ {n}), f (y)) \leq \beta \cdot d (y ^ {n}, y) \rightarrow 0 ].
+[ d (y^{n}, y) \rightarrow 0 ] \Rightarrow [ d (f (y^{n}), f (y)) \leq \beta \cdot d (y^{n}, y) \rightarrow 0 ].
 $$
 
 Lemma 3.2.4.  $\Psi : C_b(X) \to C_b(X)$  is a contraction mapping.
@@ -785,19 +785,19 @@ Proof: Step 1 — if such a  $y^{*}$  exists, it is unique. To see why, suppose 
 Step 2 — existence. Pick an arbitrary  $y \in Y$ . Inductively define  $f^0(y) = y$  and  $f^n(y) = f(f^{n-1}(y))$ . Applying the definition of a contraction mapping  $n$  times, we have
 
 $$
-d (f ^ {n + m} (y), f ^ {n} (y)) \leq \beta^ {n} d (f ^ {m} (y), y).
+d (f^{n + m} (y), f^{n} (y)) \leq \beta^{n} d (f^{m} (y), y).
 $$
 
 Using the triangle inequality  $m$  times, we have
 
 $$
-\beta^ {n} d (f ^ {m} (y), y) \leq \beta^ {n} [ d (f ^ {m} (y), f ^ {m - 1} (y)) + \dots + d (f (y), y) ].
+\beta^{n} d (f^{m} (y), y) \leq \beta^{n} [ d (f^{m} (y), f^{m - 1} (y)) + \dots + d (f (y), y) ].
 $$
 
 By the definition of a contraction mapping,
 
 $$
-\beta^ {n} \left[ d \left(f ^ {m} (y), f ^ {m - 1} (y)\right) + \dots + d (f (y), y) \right] \leq \beta^ {n} d (f (y), y) [ 1 + \beta + \dots + \beta^ {m - 1} ].
+\beta^{n} \left[ d \left(f^{m} (y), f^{m - 1} (y)\right) + \dots + d (f (y), y) \right] \leq \beta^{n} d (f (y), y) [ 1 + \beta + \dots + \beta^{m - 1} ].
 $$
 
 This last term,  $\beta^n d(f(y), y)[1 + \beta + \dots + \beta^{m-1}]$ , goes to 0 as  $n \uparrow \infty$ . Since  $Y$  is complete, there exists a  $y^*$  such that  $y^* = \lim_n f^n(y) = \lim_n f^{n+1}(y)$ . Because the function  $f$  is continuous,  $f(y^*) = f(\lim_n f^n(y)) = \lim_n f^{n+1}(y) = y^*$ .
@@ -867,7 +867,7 @@ In general, we would like to know about the likelihood that our estimator is ver
 The Best MSE estimators are biased, the better ones are called "shrunken" estimators. Suppose that  $\hat{\theta} \in \mathbb{R}_{++}$  is an unbiased estimator of a location parameter  $\theta \in \mathbb{R}_{++}$  based on an iid. sample  $X_{i}, i = 1, \ldots, n$ . The question to be asked is what multiple of  $\hat{\theta}$  minimizes mean squared error? To answer the question, we take a detour through the following calculation:
 
 $$
-\begin{array}{l} (3) \quad E (\hat {\theta} - \theta) ^ {2} = E ((\hat {\theta} - E \hat {\theta}) + (E \hat {\theta} - \theta)) ^ {2} \\ = E (\hat {\theta} - E \hat {\theta}) ^ {2} + E (E \hat {\theta} - \theta) ^ {2} + 2 E (\hat {\theta} - E \hat {\theta}) (E \hat {\theta} - \theta) \\ = \operatorname {V a r} (\hat {\theta}) + \operatorname {B i a s} ^ {2} (\hat {\theta}), \tag {5} \\ \end{array}
+\begin{array}{l} (3) \quad E (\hat {\theta} - \theta)^{2} = E ((\hat {\theta} - E \hat {\theta}) + (E \hat {\theta} - \theta))^{2} \\ = E (\hat {\theta} - E \hat {\theta})^{2} + E (E \hat {\theta} - \theta)^{2} + 2 E (\hat {\theta} - E \hat {\theta}) (E \hat {\theta} - \theta) \\ = \operatorname{Va r} (\hat {\theta}) + \operatorname{Bi as}^{2} (\hat {\theta}), \tag {5} \\ \end{array}
 $$
 
 where the last equality happens because  $E\hat{\theta}$  is unbiased.
@@ -875,13 +875,13 @@ where the last equality happens because  $E\hat{\theta}$  is unbiased.
 We now apply this to the class of estimators  $a\hat{\theta}$  where  $\hat{\theta}$  is unbiased. Define
 
 $$
-f (a) = E (a \hat {\theta} - \theta) ^ {2} = a ^ {2} \mathrm {V a r} (\hat {\theta}) + \theta^ {2} (a - 1) ^ {2}.
+f (a) = E (a \hat {\theta} - \theta)^{2} = a^{2} \mathrm{Va r} (\hat {\theta}) + \theta^{2} (a - 1)^{2}.
 $$
 
 Let  $v = \operatorname{Var}(\hat{\theta})$ , so that  $f(a) = a^2v + \theta^2(a - 1)^2$ . Because  $f$  is a quadratic in  $a$  with positive coefficients on  $a^2$ , the first order conditions are sufficient for a maximum. Taking derivatives,  $\frac{1}{2}f'(a) = av + \theta^2(a - 1)$  so that
 
 $$
-a ^ {*} = \frac {\theta^ {2}}{v + \theta^ {2}} = \frac {1}{1 + v ^ {\circ}} <   1,
+a^{*} = \frac{\theta^{2}}{v + \theta^{2}} = \frac{1}{1 + v^{\circ}} <   1,
 $$
 
 where  $v^{\circ} \coloneqq \frac{v}{\theta^{2}}$  (which is known as the standardized variation of  $\hat{\theta}$ ). Thus, the optimal MSE (Mean Squared Error) estimator which is a linear function of  $\hat{\theta}$  is given by  $a^{*}\hat{\theta}$ . Because  $a^{*} < 1$ , these are sometimes called shrunken estimators.
@@ -893,7 +893,7 @@ Note that as  $v^{\circ}$  becomes large,  $a^{*}$  becomes small. As  $n \uparr
 Suppose that we know that the true value of  $\theta$  (changing the notation for  $p$  here) is in the interval  $[\frac{1}{2}, 1]$ , and that intervals of equal size in  $[\frac{1}{2}, 1]$  are equally likely, that is, our prior distribution† is  $U[\frac{1}{2}, 1]$ . The posterior density as a function of the data is
 
 $$
-P (\boldsymbol {\theta} | \mathbf {x}) = k _ {x} \boldsymbol {\theta} \cdot \Pi_ {i} \boldsymbol {\theta} ^ {X _ {i}} (1 - \boldsymbol {\theta}) ^ {1 - X _ {i}}, \quad \boldsymbol {\theta} \in [ \frac {1}{2}, 1 ],
+P (\boldsymbol {\theta} | \mathbf {x}) = k_{x} \boldsymbol {\theta} \cdot \Pi_{i} \boldsymbol {\theta}^{X_{i}} (1 - \boldsymbol {\theta})^{1 - X_{i}}, \quad \boldsymbol {\theta} \in [ \frac{1}{2}, 1 ],
 $$
 
 where  $k_{x}$  is some constant chosen to make  $\int_{[\frac{1}{2},1]}kP(\theta |\mathbf{x})d\theta = 1$ . Take logarithms and maximize over  $[\frac{1}{2},1]$  to find the Bayesian MLE estimator, watch out for corner solutions.
@@ -903,13 +903,13 @@ One of the fascinating aspects of the study of statistics is the interplay betwe
 Suppose that  $\theta \in \Theta$ , and a Bayesian has a prior distribution with density  $p(\theta)$ , and we observe  $X_{1},\ldots ,X_{n}$  with density  $f(x|\theta)$ . Then the posterior distribution has density
 
 $$
-P (\theta | X _ {1}, \ldots , X _ {n}) = k p (\theta) L (X _ {1}, \ldots , X _ {n} | \theta)
+P (\theta | X_{1}, \ldots , X_{n}) = k p (\theta) L (X_{1}, \ldots , X_{n} | \theta)
 $$
 
 for some constant  $k$ . A Bayesian might well solve the problem  $\max_{\theta} P(\theta | X_1, \ldots, X_n)$ . Taking logarithms, this gives
 
 $$
-\max _ {\theta} [ \log p (\theta) + \sum_ {i} \log f (X _ {i} | \theta) ] = \max _ {\theta} \sum_ {i} [ \log f (X _ {i} | \theta) + \frac {1}{n} \log p (\theta) ].
+\max_{\theta} [ \log p (\theta) + \sum_{i} \log f (X_{i} | \theta) ] = \max_{\theta} \sum_{i} [ \log f (X_{i} | \theta) + \frac{1}{n} \log p (\theta) ].
 $$
 
 You should be able to convince yourself that the solution to this problem approaches the MLE as  $n \uparrow \infty$ . We interpret this as saying that the prior distribution becomes irrelevant, it is eventually swamped by the data. For moderate  $n$ , the approximation may not be that good.
@@ -941,7 +941,7 @@ Continuing in our simplest of examples, we suppose  $H_0: p = p_0$ ,  $H_1: p = 
 4.5. An Information Inequality. We saw the Cauchy-Schwarz inequality for vectors,  $xy = \| x\| \| y\| \cos \theta$ , equivalently,  $\sum_{i}x_{i}y_{i} = \sqrt{\sum_{i}x_{i}^{2}}\sqrt{\sum_{i}y_{i}^{2}}\cos \theta$ , so that  $(\sum_{i}x_{i}y_{i})^{2}\leq \sum_{i}x_{i}^{2}\sum_{i}y_{i}^{2}$ . When  $\Omega = \{1,\dots ,n\}$  with  $P(\omega)\equiv 1 / n$ , we get an inequality about expectations that is also an inequality about Variances and Covariances,
 
 $$
-\operatorname {C o v} (X, Y) ^ {2} \leq \operatorname {V a r} (X) \operatorname {V a r} (Y)
+\operatorname{Co v} (X, Y)^{2} \leq \operatorname{Va r} (X) \operatorname{Va r} (Y)
 $$
 
 with equality iff  $X - EX$  is linear function of  $Y - EY$ .
@@ -951,7 +951,7 @@ Go through definition  $\operatorname{Cov}(X, Y) = E(X - EX)(Y - EY) = EXY - EXE
 Now,  $\operatorname{Var}(Y) > 0$  iff  $P(Y \neq EY) > 0$ , so division yields
 
 $$
-\operatorname {V a r} (X) \geq \frac {\operatorname {C o v} (X , Y) ^ {2}}{\operatorname {V a r} (Y)}
+\operatorname{Va r} (X) \geq \frac{\operatorname{Co v} (X , Y)^{2}}{\operatorname{Va r} (Y)}
 $$
 
 for all of the interesting  $Y$ 's.
@@ -959,13 +959,13 @@ for all of the interesting  $Y$ 's.
 We are going to take  $R = \widehat{p}$ ,  $S = D_p \log f(\mathbf{X}|p)$  and look at
 
 $$
-\mathrm {V a r} _ {p} (R) \geq \frac {\mathrm {C o v} _ {p} (R , S) ^ {2}}{\mathrm {V a r} _ {p} (S)}.
+\mathrm{Va r}_{p} (R) \geq \frac{\mathrm{Co v}_{p} (R , S)^{2}}{\mathrm{Va r}_{p} (S)}.
 $$
 
 Here  $E_{p}X$  is the expectation of the rv  $X$  when the true value is  $p$ . We will show that when  $R$  is unbiased,  $\operatorname{Cov}_p(R, S)^2 = 1$ . We will also show that  $E_{p}(D_{p}\log f(\mathbf{X}|p)) = 0$ . This means that for any unbiased estimator,  $\hat{p}$ , of  $p$ ,
 
 $$
-\mathrm {V a r} _ {p} (\hat {p}) \geq \frac {1}{E _ {p} (D _ {p} \log f (\mathbf {X} | p)) ^ {2}},
+\mathrm{Va r}_{p} (\hat {p}) \geq \frac{1}{E_{p} (D_{p} \log f (\mathbf {X} | p))^{2}},
 $$
 
 known as the Cramér-Rao lower bound. It really is a bound on all unbiased estimators, the right hand side does not depend on which  $\hat{p}$  you choose. If we have an unbiased estimator where this inequality is satisfied as an equality, then we have found the smallest possible variance amongst all unbiased estimators. Sometimes there is no estimator satisfying the bound.
@@ -1004,13 +1004,13 @@ Problem 4.3. Suppose that  $X_{1},\ldots ,X_{n}$  are iid Poisson  $(\lambda)$ ,
 Problem 4.4 (Neyman-Pearson). Suppose that  $\mathbf{X} = (X_1, \ldots, X_n)$  has pdf (or pmf, in which case the integrals below are replaced by sums)  $f(\mathbf{x}|\theta)$ ,  $\theta \in \Theta = \{\theta_0, \theta_1\}$ . We have seen that there is typically a tradeoff between  $\alpha$ , the probability of a Type I error, and  $\beta$ , the probability of a Type II error. Let us suppose that we dislike both types of errors, and in particular, that we are trying to devise a test, characterized by its rejection region,  $\mathbb{X}_r$ , to minimize
 
 $$
-a \cdot \alpha (\mathbb {X} _ {r}) + b \cdot \beta (\mathbb {X} _ {r})
+a \cdot \alpha (\mathbb {X}_{r}) + b \cdot \beta (\mathbb {X}_{r})
 $$
 
 where  $a, b > 0$ ,  $\alpha(\mathbb{X}_r) = P(\mathbf{X} \in \mathbb{X}_r | \theta_0)$ , and  $\beta(\mathbb{X}_r) = P(\mathbf{X} \notin \mathbb{X}_r | \theta_1)$ . The idea is that the ratio of  $a$  to  $b$  specifies our tradeoff between the two Types of error, the higher is a relative to  $b$ , the lower we want  $\alpha$  to be relative to  $\beta$ . This problem asks about tests of the form
 
 $$
-\mathbb {X} _ {a, b} = \left\{\mathbf {x}: a f (\mathbf {x} | \theta_ {0}) <   b f (\mathbf {x} | \theta_ {1}) \right\} = \left\{\mathbf {x}: \frac {f (\mathbf {x} | \theta_ {1})}{f (\mathbf {x} | \theta_ {0})} > \frac {a}{b} \right\}.
+\mathbb {X}_{a, b} = \left\{\mathbf {x}: a f (\mathbf {x} | \theta_{0}) <   b f (\mathbf {x} | \theta_{1}) \right\} = \left\{\mathbf {x}: \frac{f (\mathbf {x} | \theta_{1})}{f (\mathbf {x} | \theta_{0})} > \frac{a}{b} \right\}.
 $$
 
 This decision rule is based on the likelihood ratio, and likelihood ratio tests appear regularly in statistics.
@@ -1032,19 +1032,19 @@ Problem 4.5. Suppose that  $X_{1},\ldots ,X_{n}$  are iid Poisson  $(\lambda)$ ,
 Differentiating under the integral sign. From Lebesgue's Dominated Convergence Theorem — if  $(x,y) \mapsto h(x,y)$  is continuous at  $y_0$  for each  $x$  and  $|h(x,y)| \leq g(x)$  for some  $g(x)$  satisfying  $\int_{\mathbb{R}} |g(x)| dx < \infty$ , then
 
 $$
-\lim  _ {y \to y _ {0}} \int_ {\mathbb {R}} h (x, y) d x = \int_ {\mathbb {R}} \lim  _ {y \to y _ {0}} h (x, y) d x.
+\lim_{y \to y_{0}} \int_{\mathbb {R}} h (x, y) d x = \int_{\mathbb {R}} \lim_{y \to y_{0}} h (x, y) d x.
 $$
 
 Corollary, if  $(x,\theta)\mapsto f(x,\theta)$  is differentiable at  $\theta_0$  for every  $x$ , that is,
 
 $$
-\lim _ {\theta \to \theta_ {0}} \frac {f (x , \theta) - f (x , \theta_ {0})}{(\theta - \theta_ {0})} = \frac {\partial}{\partial \theta} f (x, \theta) | _ {\theta = \theta_ {0}},
+\lim_{\theta \to \theta_{0}} \frac{f (x , \theta) - f (x , \theta_{0})}{(\theta - \theta_{0})} = \frac{\partial}{\partial \theta} f (x, \theta) |_{\theta = \theta_{0}},
 $$
 
 by which I mean that the indicated limit exists, and there exists a function  $g(x,\theta_0)$ ,  $\int_{\mathbb{R}}|g|dx < \infty$ , such that  $|(f(x,\theta_0 + \delta) - f(x,\theta_0)) / \delta| \leq g(x,\theta_0)$  uniformly in  $x$  for all  $\delta$  small, then
 
 $$
-\frac {\partial}{\partial \theta} \left[ \int_ {\mathbb {R}} f (x, \theta) d x \right] | _ {\theta = \theta_ {0}} = \int_ {\mathbb {R}} \left[ \frac {\partial}{\partial \theta} f (x, \theta) | _ {\theta = \theta_ {0}} \right] d x.
+\frac{\partial}{\partial \theta} \left[ \int_{\mathbb {R}} f (x, \theta) d x \right] |_{\theta = \theta_{0}} = \int_{\mathbb {R}} \left[ \frac{\partial}{\partial \theta} f (x, \theta) |_{\theta = \theta_{0}} \right] d x.
 $$
 
 Applications to finding how  $n$ 'th moments change with parameters.
@@ -1080,7 +1080,7 @@ where  $K > r, s > 0$ . The random arrival time of the monsoon has cumulative di
 Problem 5.5 (Some hazard rate models). When  $T > 0$  is a random variable with a density giving the random length of life of something, or the random waiting time till the next event, then the hazard rate at  $t$  is defined by
 
 $$
-h _ {T} (t) = \lim _ {\delta \downarrow 0} \frac {P (t \leq T <   t + \delta | T \geq t)}{\delta}.
+h_{T} (t) = \lim_{\delta \downarrow 0} \frac{P (t \leq T <   t + \delta | T \geq t)}{\delta}.
 $$
 
 This is the proportional rate of change of the probability of surviving another instant given that survival to  $t$  has happened,  $h_T(t) = -\frac{d}{dt}\ln (1 - F_T(t))$ .
@@ -1101,13 +1101,13 @@ This section is mostly about getting used to doing calculations and using some o
 A random variable  $X$  has the uniform distribution on  $[0,1]$ , written  $X \sim U[0,1]$ , if it has density
 
 $$
-f _ {X} (x) = \left\{ \begin{array}{l l} 1 & \text {i f} 0 <   x <   1 \\ 0 & \text {o t h e r w i s e} \end{array} \right.
+f_{X} (x) = \left\{ \begin{array}{l l} 1 & \text{if } 0 <   x <   1 \\ 0 & \text{ot he rw is e} \end{array} \right.
 $$
 
 The cdf is
 
 $$
-F _ {X} (x) = \left\{ \begin{array}{l l} 0 & \text {i f} x \leq 0 \\ x & \text {i f} 0 <   x \leq 1 \\ 1 & \text {o t h e r w i s e} \end{array} \right.
+F_{X} (x) = \left\{ \begin{array}{l l} 0 & \text{if } x \leq 0 \\ x & \text{if } 0 <   x \leq 1 \\ 1 & \text{ot he rw is e} \end{array} \right.
 $$
 
 [Note that you can give the density or the cdf to specify a continuous random variable, where by "continuous rv" I mean one with its cdf being the integral of its derivative.]
@@ -1117,7 +1117,7 @@ Suppose that  $X \sim U[0,1]$  and  $Y = aX + b$ . Then  $Y \sim U[b,b + a]$ . G
 Now, take the transformation  $Y = g(X)$ , where  $g(x) = -\log x$ .  $g(\cdot)$  is a monotonically decreasing function on the interval (0,1), check the derivative,  $g((0,1)) = (0, + \infty)$ . To get the cdf of  $Y$ ,
 
 $$
-F _ {Y} (y) = P (Y \leq y) = P (- \log x \leq y) = P (\log x \geq - y) = P (x \geq e ^ {- y}) = 1 - F _ {X} (e ^ {- y}) = 1 - e ^ {- y}.
+F_{Y} (y) = P (Y \leq y) = P (- \log x \leq y) = P (\log x \geq - y) = P (x \geq e^{- y}) = 1 - F_{X} (e^{- y}) = 1 - e^{- y}.
 $$
 
 This gives you the negative exponential rv's as monotonic transformations of  $U[0,1]$ .
@@ -1127,11 +1127,11 @@ Given a cdf,  $F_{Y}(x)$ , it is possible to express the random variable  $Y$  a
 Suppose that  $\theta \in \Theta = [0,\infty)$  is the unknown size of the largest fish in a given body of water. Suppose that  $P_{\theta} = U[0,\theta]$ , so that if  $\theta$  is true, then the data, the size of the  $n$  fish you've caught, are independent and uniformly distributed over the interval  $[0,\theta]$ . Here are two possible estimators:
 
 $$
-\hat {\theta} _ {1} (X _ {1}, \ldots , X _ {n}) = \max \{X _ {i}: i = 1, \ldots , n \},
+\hat {\theta}_{1} (X_{1}, \ldots , X_{n}) = \max \{X_{i}: i = 1, \ldots , n \},
 $$
 
 $$
-\hat {\theta} _ {2} \left(X _ {1}, \dots , X _ {n}\right) = 2 \cdot \frac {1}{n} \sum_ {i = 1} ^ {n} X _ {i}.
+\hat {\theta}_{2} \left(X_{1}, \dots , X_{n}\right) = 2 \cdot \frac{1}{n} \sum_{i = 1}^{n} X_{i}.
 $$
 
 We know that  $\hat{\theta}_2$  is not biased, that is,  $E_{\theta}\hat{\theta}_{2} = \theta$ . We also know that  $\hat{\theta}_1$  is biased downwards, that is  $E_{\theta}\hat{\theta}_{1} < \theta$ . Being unbiased, we can see that a substantial part of the time,  $\hat{\theta}_2$  will be a really stupid estimator, that is, we'll have  $\hat{\theta}_2 < \hat{\theta}_1$ , and since we know that  $\hat{\theta}_1 < \theta$ , this is really not sensible. This suggests the estimator  $\hat{\theta}_3 \coloneqq \max \{\hat{\theta}_1, \hat{\theta}_2\}$ , which is less biased than  $\hat{\theta}_1$  and less regularly stupid than  $\hat{\theta}_2$ . Yet another approach is Bayesian, suppose that your prior distribution is that  $\theta \sim \mathrm{exponential}(2)$ , write out the likelihood, look at the MLE.
@@ -1141,7 +1141,7 @@ The moral of the story, for later purposes, is that there are many estimators an
 6.2. The normal or Gaussian family of distributions,  $N(\mu, \sigma^2)$ . The random variable  $Z$  has the standard normal distribution, aka the standardized Gaussian, if it has density
 
 $$
-f _ {Z} (z) = \frac {1}{\sqrt {2 \pi}} e ^ {- z ^ {2} / 2}, - \infty <   z <   \infty .
+f_{Z} (z) = \frac{1}{\sqrt{2 \pi}} e^{- z^{2} / 2}, - \infty <   z <   \infty .
 $$
 
 Important: From now on, we will reserve  $Z$  to mean a random variable with this distribution. It is written  $Z \sim N(0,1)$ .
@@ -1151,7 +1151,7 @@ The constant  $\frac{1}{\sqrt{2\pi}}$  is there to make the density integrate to
 No-one knows a closed form formula for the cdf of the Gaussian, that is
 
 $$
-F _ {Z} (a) = \int_ {- \infty} ^ {a} \frac {1}{\sqrt {2 \pi}} e ^ {- z ^ {2} / 2} d z
+F_{Z} (a) = \int_{- \infty}^{a} \frac{1}{\sqrt{2 \pi}} e^{- z^{2} / 2} d z
 $$
 
 is the best we can do. This cdf turns out to be so useful that its numerical values have been calculated to very high degrees of precision and the results have been tabulated. These are included in all statistical software and many spread sheets.
@@ -1159,43 +1159,43 @@ is the best we can do. This cdf turns out to be so useful that its numerical val
 $z^2$  is symmetric about 0, so that  $e^{-z^2 /2}$  is symmetric. This implies that  $EZ = 0$ . That was the easy way to get the result, now we're going to do it by change of variable, a technique that is useful enough that simple reviews are worthwhile.
 
 $$
-E Z = \int_ {- \infty} ^ {+ \infty} z e ^ {- z ^ {2} / 2} d z = \int_ {- \infty} ^ {0} z e ^ {- z ^ {2} / 2} d z + \int_ {0} ^ {+ \infty} z e ^ {- z ^ {2} / 2} d z.
+E Z = \int_{- \infty}^{+ \infty} z e^{- z^{2} / 2} d z = \int_{- \infty}^{0} z e^{- z^{2} / 2} d z + \int_{0}^{+ \infty} z e^{- z^{2} / 2} d z.
 $$
 
 Using the change of variable  $x = -z$  so that  $dz = -dx$ , and noting that  $(-z)^2 = z^2$ ,
 
 $$
-\int_ {- \infty} ^ {0} z e ^ {- z ^ {2} / 2} d z = \int_ {0} ^ {+ \infty} - x e ^ {- x ^ {2} / 2} d x = - \int_ {0} ^ {+ \infty} x e ^ {- x ^ {2} / 2} d x.
+\int_{- \infty}^{0} z e^{- z^{2} / 2} d z = \int_{0}^{+ \infty} - x e^{- x^{2} / 2} d x = - \int_{0}^{+ \infty} x e^{- x^{2} / 2} d x.
 $$
 
 Combining,
 
 $$
-E Z = \int_ {- \infty} ^ {0} z e ^ {- z ^ {2} / 2} d z + \int_ {0} ^ {+ \infty} z e ^ {- z ^ {2} / 2} d z = - \int_ {0} ^ {+ \infty} z e ^ {- z ^ {2} / 2} d z + \int_ {- \infty} ^ {0} z e ^ {- z ^ {2} / 2} d z = 0.
+E Z = \int_{- \infty}^{0} z e^{- z^{2} / 2} d z + \int_{0}^{+ \infty} z e^{- z^{2} / 2} d z = - \int_{0}^{+ \infty} z e^{- z^{2} / 2} d z + \int_{- \infty}^{0} z e^{- z^{2} / 2} d z = 0.
 $$
 
 If  $Z \sim N(0,1)$  and  $Y = \sigma Z$ , then we write  $Y \sim N(0,\sigma^2)$ , and  $EY = 0$  and  $\operatorname{Var}(Y) = \sigma^2$ . Since  $Z$  is symmetric about 0, the sign of  $\sigma$  does not matter, and by convention,  $\sigma > 0$ . We need to get the density of  $Y$ . We'll get an expression for the cdf, and use the chain rule to get the density.
 
 $$
-F _ {Y} (a) = P (Y \leq a) = P (\sigma Z \leq a) = P (Z \leq a / \sigma) = F _ {Z} (a / \sigma).
+F_{Y} (a) = P (Y \leq a) = P (\sigma Z \leq a) = P (Z \leq a / \sigma) = F_{Z} (a / \sigma).
 $$
 
 Therefore,
 
 $$
-f _ {Y} (a) = F _ {Y} ^ {\prime} (a) = \frac {d}{d a} F _ {Z} (a / \sigma) = f _ {Z} (a / \sigma) \cdot \frac {1}{\sigma} = \frac {1}{\sigma} \frac {1}{\sqrt {2 \pi}} e ^ {- (a / \sigma) ^ {2} / 2} = \frac {1}{\sigma \sqrt {2 \pi}} e ^ {- a ^ {2} / 2 \sigma^ {2}}.
+f_{Y} (a) = F_{Y}^{\prime} (a) = \frac{d}{d a} F_{Z} (a / \sigma) = f_{Z} (a / \sigma) \cdot \frac{1}{\sigma} = \frac{1}{\sigma} \frac{1}{\sqrt{2 \pi}} e^{- (a / \sigma)^{2} / 2} = \frac{1}{\sigma \sqrt{2 \pi}} e^{- a^{2} / 2 \sigma^{2}}.
 $$
 
 If  $Y \sim N(0, \sigma^2)$  and  $X = Y + \mu$ , then we write  $X \sim N(\mu, \sigma^2)$ , and  $E X = \mu$ ,  $\operatorname{Var}(X) = \sigma^2$ . To get the density of  $X$ , we note that
 
 $$
-F _ {X} (a) = P (X \leq a) = P (Y + \mu \leq a) = P (Y \leq (a - \mu)).
+F_{X} (a) = P (X \leq a) = P (Y + \mu \leq a) = P (Y \leq (a - \mu)).
 $$
 
 Applying the chain rule again, this yields
 
 $$
-f _ {X} (a) = f _ {Y} (a - \mu) = \frac {1}{\sigma \sqrt {2 \pi}} e ^ {- (a - \mu) ^ {2} / 2 \sigma^ {2}}.
+f_{X} (a) = f_{Y} (a - \mu) = \frac{1}{\sigma \sqrt{2 \pi}} e^{- (a - \mu)^{2} / 2 \sigma^{2}}.
 $$
 
 Going in the other direction, if  $X \sim N(\mu, \sigma^2)$ , then the standardized version of  $X$  is the rv  $X_s = \frac{X - \mu}{\sigma}$ , and  $X_s \sim N(0,1)$ . Shifting and scaling are all that are at work in all of this. Go through a couple of problems on standardizing and then reading from the normal tables.
@@ -1205,7 +1205,7 @@ Going in the other direction, if  $X \sim N(\mu, \sigma^2)$ , then the standardi
 6.4. The gamma family,  $\Gamma (\alpha ,\beta)$ . This is a family of strictly positive rvs. For  $y > 0$ ,  $y^{\alpha -1}e^{-y} > 0$ , and it should be pretty easy to believe that for any  $\alpha >0$ , the integral  $\int_0^\infty y^{\alpha -1}e^{-y}dy$  is finite. Therefore, if we define the function  $\Gamma (\alpha) = \int_0^\infty y^{\alpha -1}e^{-y}dy$ , then for every  $\alpha >0$ , the following is a density,
 
 $$
-f (y) = \frac {1}{\Gamma (\alpha)} y ^ {\alpha - 1} e ^ {- y}, y > 0.
+f (y) = \frac{1}{\Gamma (\alpha)} y^{\alpha - 1} e^{- y}, y > 0.
 $$
 
 Such a rv is written  $Y \sim \Gamma(\alpha, 1)$ , and the role of the 1 will become clear soon.
@@ -1217,19 +1217,19 @@ You should check that  $\Gamma(1) = 1$ . Integration by parts gives  $\Gamma(\al
 Review of integration by parts:
 
 $$
-\int_ {a} ^ {b} f d g = f g | _ {a} ^ {b} - \int_ {a} ^ {b} g d f,
+\int_{a}^{b} f d g = f g |_{a}^{b} - \int_{a}^{b} g d f,
 $$
 
 this comes from the product rule,  $dfg = fdg + gdf$  so that  $fdg = fdg - gdf$ .
 
 $$
-\Gamma (\alpha + 1) = \int_ {0} ^ {\infty} y ^ {\alpha} e ^ {- y} d y,
+\Gamma (\alpha + 1) = \int_{0}^{\infty} y^{\alpha} e^{- y} d y,
 $$
 
 set  $f = y^{\alpha}$ ,  $dg = e^{-y} dy$  so that  $df = \alpha y^{\alpha - 1}$  and  $g = -e^{-y}$ , and we have
 
 $$
-\int_ {0} ^ {\infty} y ^ {\alpha} e ^ {- y} d y = - y ^ {\alpha} e ^ {- y} | _ {0} ^ {\infty} - \int_ {0} ^ {\infty} \alpha y ^ {\alpha - 1} (- e ^ {- y}) d y = (0 - 0) + \alpha \int_ {0} ^ {\infty} y ^ {\alpha - 1} e ^ {- y} d y = \alpha \Gamma (\alpha - 1).
+\int_{0}^{\infty} y^{\alpha} e^{- y} d y = - y^{\alpha} e^{- y} |_{0}^{\infty} - \int_{0}^{\infty} \alpha y^{\alpha - 1} (- e^{- y}) d y = (0 - 0) + \alpha \int_{0}^{\infty} y^{\alpha - 1} e^{- y} d y = \alpha \Gamma (\alpha - 1).
 $$
 
 It may not come as a surprised that when  $\alpha$  is not an integer, we do not have any closed form expression for  $\int_{c}^{d}\frac{1}{\Gamma(\alpha)} y^{\alpha - 1}e^{-y}dy$ , so, we have tables and numerical integration programs to find it for us.
@@ -1237,13 +1237,13 @@ It may not come as a surprised that when  $\alpha$  is not an integer, we do not
 If  $Y \sim \Gamma(\alpha, 1)$ , then  $EY = \operatorname{Var}(Y) = \alpha$ . This is not at all obvious until you've fooled with the integrals a bit.
 
 $$
-\int_ {0} ^ {\infty} y \frac {1}{\Gamma (\alpha)} y ^ {\alpha - 1} e ^ {- y} d y.
+\int_{0}^{\infty} y \frac{1}{\Gamma (\alpha)} y^{\alpha - 1} e^{- y} d y.
 $$
 
 Now, for all  $\alpha > 0$ ,  $\Gamma(\alpha) = \int_{0}^{\infty} y^{\alpha - 1} e^{-y} dy$ . Therefore,
 
 $$
-E Y = \frac {1}{\Gamma (\alpha)} \int_ {0} ^ {\infty} y y ^ {\alpha - 1} e ^ {- y} d y = \frac {1}{\Gamma (\alpha)} \int_ {0} ^ {\infty} y ^ {(\alpha + 1) - 1} e ^ {- y} d y = \frac {\Gamma (\alpha + 1)}{\Gamma (\alpha)} = \alpha .
+E Y = \frac{1}{\Gamma (\alpha)} \int_{0}^{\infty} y y^{\alpha - 1} e^{- y} d y = \frac{1}{\Gamma (\alpha)} \int_{0}^{\infty} y^{(\alpha + 1) - 1} e^{- y} d y = \frac{\Gamma (\alpha + 1)}{\Gamma (\alpha)} = \alpha .
 $$
 
 The same logic (more or less) tells us that  $EY^{2} = \alpha (\alpha +1)$ , so that  $\operatorname{Var}(Y) = \alpha (\alpha +1) - \alpha^{2} = \alpha$ .
@@ -1253,19 +1253,19 @@ The  $\Gamma$  class of distributions can be scaled, but not shifted. This last 
 If  $Y \sim \Gamma(\alpha, 1)$ , and  $X = \beta \cdot Y$ ,  $\beta > 0$ , then we can use the same technique we had above to find the density of  $X$ .
 
 $$
-F _ {X} (x) = P (X \leq x) = P (\beta Y \leq x) = P (Y \leq x / \beta) = F _ {Y} (x / \beta) = \int_ {0} ^ {x / \beta} \frac {1}{\Gamma (\alpha)} y ^ {\alpha - 1} e ^ {- y} d y.
+F_{X} (x) = P (X \leq x) = P (\beta Y \leq x) = P (Y \leq x / \beta) = F_{Y} (x / \beta) = \int_{0}^{x / \beta} \frac{1}{\Gamma (\alpha)} y^{\alpha - 1} e^{- y} d y.
 $$
 
 Therefore,
 
 $$
-f _ {X} (x) = \frac {d}{d x} F _ {Y} (x / \beta) = f _ {Y} (x / \beta) \cdot \frac {1}{\beta} = \frac {1}{\beta} \frac {1}{\Gamma (\alpha)} (x / \beta) ^ {\alpha - 1} e ^ {- (x / \beta)}.
+f_{X} (x) = \frac{d}{d x} F_{Y} (x / \beta) = f_{Y} (x / \beta) \cdot \frac{1}{\beta} = \frac{1}{\beta} \frac{1}{\Gamma (\alpha)} (x / \beta)^{\alpha - 1} e^{- (x / \beta)}.
 $$
 
 After re-organizing the  $\beta$  terms, we get
 
 $$
-f _ {X} (x) = \frac {1}{\beta^ {\alpha} \Gamma (\alpha)} x ^ {\alpha - 1} e ^ {- (x / \beta)},
+f_{X} (x) = \frac{1}{\beta^{\alpha} \Gamma (\alpha)} x^{\alpha - 1} e^{- (x / \beta)},
 $$
 
 and we write this as  $X \sim \Gamma(\alpha, \beta)$ . This gives a large class of distributions connected to any number of random phenomena.
@@ -1280,7 +1280,7 @@ Example: Suppose that  $Y \sim \Gamma(1, 100)$  and  $X = \min\{Y, 200\}$ , find
 Along this line, it turns out that all of the Poisson waiting time distributions are contained in the  $\Gamma$  family. If  $Y\sim \Gamma (\alpha ,1)$ ,  $\alpha$  an integer, then for any  $t > 0$ ,
 
 $$
-P (Y > t) = \int_ {t} ^ {\infty} \frac {1}{\Gamma (\alpha)} y ^ {\alpha - 1} e ^ {- y} d y = \sum_ {n = 0} ^ {\alpha - 1} \frac {t ^ {n} e ^ {- t}}{n !} = P (\mathrm {P o i s s o n} (t) \leq \alpha - 1).
+P (Y > t) = \int_{t}^{\infty} \frac{1}{\Gamma (\alpha)} y^{\alpha - 1} e^{- y} d y = \sum_{n = 0}^{\alpha - 1} \frac{t^{n} e^{- t}}{n !} = P (\mathrm{Po is so n} (t) \leq \alpha - 1).
 $$
 
 We already know this result for  $\alpha = 1$ . Getting the rest of the  $\alpha$  is a good exercise in applying integration by parts.
@@ -1288,7 +1288,7 @@ We already know this result for  $\alpha = 1$ . Getting the rest of the  $\alpha
 6.5.2. Squares of standard normals. If  $Y \sim \Gamma(v/2, 2)$ ,  $v$  an integer, then  $Y$  has a  $\chi_{(v)}^2$  distribution, read as a chi squared distribution with  $v$  degrees of freedom. Reading off directly, we have
 
 $$
-f _ {Y} (y) = \frac {1}{\Gamma (\frac {v}{2})} x ^ {\frac {v}{2} - 1} e ^ {- x}.
+f_{Y} (y) = \frac{1}{\Gamma (\frac{v}{2})} x^{\frac{v}{2} - 1} e^{- x}.
 $$
 
 Directly checking, you can see that if  $Z \sim N(0,1)$ , i.e. has density  $(2\pi)^{-\frac{1}{2}}e^{\frac{x^2}{2}}$ , the density of  $Z^2$  is  $f_{Y}(y) = \frac{1}{\Gamma(\frac{1}{2})} x^{\frac{1}{2} - 1}e^{-x}$ .
@@ -1298,13 +1298,13 @@ Check that the moment generating function of a  $X \sim \Gamma(\alpha, \beta)$  
 6.6. Cauchy random variables. From calculus we know that  $d\arctan(t) / dt = (1 + t^2)^{-1}$ , so that
 
 $$
-f (x) = \frac {1}{\pi} \frac {1}{1 + x ^ {2}}
+f (x) = \frac{1}{\pi} \frac{1}{1 + x^{2}}
 $$
 
 is a density. It is the standard Cauchy density. By shifting location, we get the family
 
 $$
-f (x | \theta) = \frac {1}{\pi} \frac {1}{1 + (x - \theta) ^ {2}}.
+f (x | \theta) = \frac{1}{\pi} \frac{1}{1 + (x - \theta)^{2}}.
 $$
 
 The MLE estimator of  $\theta$  is weird, check it's behavior. Some of the weirdness comes from the fact that if  $X_{1},\ldots ,X_{n}$  are iid Cauchy(0), then  $\frac{1}{n}\sum_{i\leq n}X_i$  is Cauchy(0). We get this easily after we do that harder calculation that  $X\sim \mathrm{Cauchy}(0)$  implies that  $\varphi_X(t) = Ee^{itX} = e^{-|t|}$  and doing the calculation for  $\varphi_{\frac{1}{n}\sum_{i\leq n}X_i}(t)$ .
@@ -1312,7 +1312,7 @@ The MLE estimator of  $\theta$  is weird, check it's behavior. Some of the weird
 6.7. Exponential Families. A class of pdf's of the form
 
 $$
-f (x | \boldsymbol {\theta}) = h (x) c (\boldsymbol {\theta}) \exp \left(\sum_ {i \leq I} w _ {i} (\boldsymbol {\theta}) t _ {i} (x)\right)
+f (x | \boldsymbol {\theta}) = h (x) c (\boldsymbol {\theta}) \exp \left(\sum_{i \leq I} w_{i} (\boldsymbol {\theta}) t_{i} (x)\right)
 $$
 
 is called an exponential family. Implicit in this notation is that  $c(\cdot)$  and the  $w_{i}(\cdot)$  do NOT depend on  $x$ , and that  $h(\cdot)$  and the  $t_i(\cdot)$  do NOT depend on  $\theta$ .
@@ -1322,7 +1322,7 @@ Look at the MLE's.
 E.g. binomial  $(n,p)$ ,  $0 < p < 1$ , is
 
 $$
-f (x | p) = _ {n} C _ {x} (1 - p) ^ {n} \exp \left(\log \left(\frac {p}{1 - p}\right) x\right),
+f (x | p) =_{n} C_{x} (1 - p)^{n} \exp \left(\log \left(\frac{p}{1 - p}\right) x\right),
 $$
 
 so that  $h(x) = {}_nC_x1_{\{0,1,\ldots ,n\}}(x), c(p) = (1 - p)^n, I = 1, w_1 = \log (\frac{p}{1 - p}),$  and  $t_1(x) = x$ .
@@ -1332,7 +1332,7 @@ E.g. normal  $(\mu, \sigma)$  is an exponential family.
 Not all families are exponential, a basic problem arises when the support depends on  $\pmb{\theta}$ . If the mapping  $\pmb{\theta} \mapsto (w_i(\pmb{\theta}))_{i \leq I}$  is one-to-one and invertible, we can replace the  $\pmb{\theta}$ 's by  $\eta_i$ 's in the reparametrization
 
 $$
-f (x | \eta) = h (x) c ^ {*} (\eta) \exp \left(\sum_ {i \leq I} \eta_ {i} t _ {i} (x)\right),
+f (x | \eta) = h (x) c^{*} (\eta) \exp \left(\sum_{i \leq I} \eta_{i} t_{i} (x)\right),
 $$
 
 and the set of  $\eta_{i}$ 's that make this a density is the so-called natural parameter space for the class of densities. It's convex, which is nice.
@@ -1340,7 +1340,7 @@ and the set of  $\eta_{i}$ 's that make this a density is the so-called natural 
 6.8. Some (in)equalities. Tchebyshev and it's higher moment versions. The  $3\sigma$  rule.  $P(|Z|\geq t)\leq \sqrt{2 / \pi}\cdot e^{-t^2 /2} / t,$  from
 
 $$
-P (Z \geq t) = 1 / \sqrt {2 \pi} \int_ {t} ^ {\infty} e ^ {- x ^ {2} / 2} d x \leq 1 / \sqrt {2 \pi} \int_ {t} ^ {\infty} \frac {x}{t} e ^ {- x ^ {2} / 2} d x = 1 / \sqrt {2 \pi} e ^ {- t ^ {2} / 2} / t.
+P (Z \geq t) = 1 / \sqrt{2 \pi} \int_{t}^{\infty} e^{- x^{2} / 2} d x \leq 1 / \sqrt{2 \pi} \int_{t}^{\infty} \frac{x}{t} e^{- x^{2} / 2} d x = 1 / \sqrt{2 \pi} e^{- t^{2} / 2} / t.
 $$
 
 If  $X \sim N(\theta, \sigma^2)$ ,  $g$  continuously differentiable and  $E|g'(X)| < \infty$ , then  $E[g(X)(X - \theta)] = \sigma^2 E g'(X)$ . E.g.  $g(x) = ax + b$ , or  $g(x) = x^2$  (which gives  $E X^3 = 3\theta \sigma^2 + \theta^3$ ). [Integrate by parts with  $u = g$ ,  $dv = (x - \theta)e^{-(x - \theta)^2 / 2\sigma^2}$ .]
@@ -1376,7 +1376,7 @@ A very subtle concept is  $E(Y|X)$ , since  $X$  is a rv … It is a random vari
 The following is the justification for most of regression analysis, linear and non-linear too. Amongst the functions  $g(x)$  depending only on  $x$ , the one that solves the problem
 
 $$
-\min _ {g (x)} E \left(Y - g (X)\right) ^ {2}
+\min_{g (x)} E \left(Y - g (X)\right)^{2}
 $$
 
 is the function  $g(x) = E(Y|X = x)$ . The function  $E(Y|X)$  is called the regression of  $Y$  on  $X$ . Do this first by conditioning on  $X = x$  and looking point by point, then more generally. The mapping from  $Y$  to  $E(Y|X)$  is a projection.
@@ -1386,7 +1386,7 @@ is the function  $g(x) = E(Y|X = x)$ . The function  $E(Y|X)$  is called the reg
 Suppose that we observe  $n$  values of  $y$ , arranged in an  $n \times 1$  vector  $Y$ , and  $n$  values of  $x_{i}$ ,  $i = 1, \ldots, k$ , arranged in an  $n \times k$  matrix  $X$ . We assume that  $n > k$  and that the columns of  $X$  are independent. We are after the  $\beta$  that makes
 
 $$
-f (\beta) := (Y - X \beta) ^ {\prime} (Y - X \beta) = e _ {\beta} ^ {\prime} e _ {\beta}
+f (\beta) := (Y - X \beta)^{\prime} (Y - X \beta) = e_{\beta}^{\prime} e_{\beta}
 $$
 
 as small as possible where  $e_{\beta} = Y - X\beta$ . Let  $M$  be the column span of  $X$ . Do the algebra, get the classic formula, and the projection and residual matrixes. Show that  $e^{*}$  is perpendicular to  $M$ , and that you could just look for  $\beta$  to make that happen.
@@ -1446,7 +1446,7 @@ Show why, an easy continuous counter-example is  $(X,Y)$  uniformly distributed 
 7.6. Bivariate normals. If  $X_{1}, X_{2}$  have the joint density
 
 $$
-f (x _ {1}, x _ {2}) = k e ^ {- \frac {1}{2} (x - \mu) ^ {\prime} \Sigma (x - \mu)},
+f (x_{1}, x_{2}) = k e^{- \frac{1}{2} (x - \mu)^{\prime} \Sigma (x - \mu)},
 $$
 
 where  $k = \frac{1}{2\pi\sigma_1\sigma_2\sqrt{1 - \rho^2}}$ ,  $\Sigma$  the variance-covariance matrix,  $\mu$  the mean vector, then we have a bivariate normal distribution. Note that the part of denominator of  $k$  that is not about  $2\pi$  is the square root of the determinant of  $\Sigma$ .
@@ -1458,13 +1458,13 @@ If  $Z_{1}, Z_{2}$  are independent  $N(0,1)$ 's, and  $X$  and  $Y$  are differ
 A
 
 $$
-\begin{array}{c c c} 1. 1 0 & \frac {1}{3} & \frac {1}{6} \\ 1. 0 4 & \frac {1}{6} & \frac {1}{3} \\ \hline Y \uparrow / X \to & 1. 0 0 & 1. 2 2 \end{array}
+\begin{array}{c c c} 1. 1 0 & \frac{1}{3} & \frac{1}{6} \\ 1. 0 4 & \frac{1}{6} & \frac{1}{3} \\ \hline Y \uparrow / X \to & 1. 0 0 & 1. 2 2 \end{array}
 $$
 
 B
 
 $$
-\begin{array}{c c c} 1. 1 0 & \frac {1}{6} & \frac {1}{3} \\ 1. 0 4 & \frac {1}{3} & \frac {1}{6} \\ \hline Y \uparrow / X \to & 1. 0 0 & 1. 2 2 \end{array}
+\begin{array}{c c c} 1. 1 0 & \frac{1}{6} & \frac{1}{3} \\ 1. 0 4 & \frac{1}{3} & \frac{1}{6} \\ \hline Y \uparrow / X \to & 1. 0 0 & 1. 2 2 \end{array}
 $$
 
 The marginal distributions are, in all four cases,  $(\frac{1}{2}, \frac{1}{2})$ . Eyeballing the two cases, A has negative correlation and B positive between  $X$  and  $Y$ .
@@ -1486,13 +1486,13 @@ We're particularly interested in the case where  $0 \leq a \leq 1$  and  $a + b 
 The variance of a portfolio, as a function of  $a$  is
 
 $$
-f (a) = \operatorname {V a r} (a X + (1 - a) Y) = a ^ {2} \operatorname {V a r} (X) + (1 - a) ^ {2} \operatorname {V a r} (Y) + 2 a (1 - a) \operatorname {C o v} (X, Y).
+f (a) = \operatorname{Va r} (a X + (1 - a) Y) = a^{2} \operatorname{Va r} (X) + (1 - a)^{2} \operatorname{Va r} (Y) + 2 a (1 - a) \operatorname{Co v} (X, Y).
 $$
 
 This can be re-written as
 
 $$
-f (a) = a ^ {2} [ \sigma_ {X} ^ {2} + \sigma_ {Y} ^ {2} - 2 \sigma_ {X, Y} ] + 2 a [ \sigma_ {X, Y} - \sigma_ {Y} ^ {2} ] + \sigma_ {Y} ^ {2}.
+f (a) = a^{2} [ \sigma_{X}^{2} + \sigma_{Y}^{2} - 2 \sigma_{X, Y} ] + 2 a [ \sigma_{X, Y} - \sigma_{Y}^{2} ] + \sigma_{Y}^{2}.
 $$
 
 The term multiplying  $a^2$  is strictly positive (being the variance of  $X - Y$ ). Therefore, this is a parabola opening upwards.  $f(0) = \sigma_Y^2$  and  $f(1) = \sigma_X^2$ , and the only remaining question is where the parabola reaches its minimum.
@@ -1500,13 +1500,13 @@ The term multiplying  $a^2$  is strictly positive (being the variance of  $X - Y
 It's minimum happens when  $f'(a) = 0$ , that is, when
 
 $$
-2 a [ \sigma_ {X} ^ {2} + \sigma_ {Y} ^ {2} - 2 \sigma_ {X, Y} ] + 2 [ \sigma_ {X, Y} - \sigma_ {Y} ^ {2} ] = 0,
+2 a [ \sigma_{X}^{2} + \sigma_{Y}^{2} - 2 \sigma_{X, Y} ] + 2 [ \sigma_{X, Y} - \sigma_{Y}^{2} ] = 0,
 $$
 
 that is, when  $a = a^{*}$
 
 $$
-a ^ {*} = \frac {\sigma_ {Y} ^ {2} - \sigma_ {X , Y}}{\sigma_ {X} ^ {2} + \sigma_ {Y} ^ {2} - 2 \sigma_ {X , Y}}.
+a^{*} = \frac{\sigma_{Y}^{2} - \sigma_{X , Y}}{\sigma_{X}^{2} + \sigma_{Y}^{2} - 2 \sigma_{X , Y}}.
 $$
 
 Some special cases:
@@ -1515,7 +1515,7 @@ Some special cases:
 2. $f^{\prime}(0) > 0$  gives  $a^{*} = 0$ , this happens when  $\sigma_{X,Y} - \sigma_Y^2 \geq 0$ , that is, when
 
 $$
-\rho_ {X, Y} \geq \frac {\sigma_ {Y}}{\sigma_ {X}}.
+\rho_{X, Y} \geq \frac{\sigma_{Y}}{\sigma_{X}}.
 $$
 
 This NEVER happens if  $\rho_{X,Y} < 0$ , and there is a good intuition, negative correlation means that bad shocks to one stock are (somewhat) likely to be offset by good shocks to the other, and vv.  $a^{*} = 0$  can only happen when  $\rho_{X,Y} > 0$  and  $\sigma_{Y}$  is (very) small relative to  $\sigma_{X}$ , that is,  $Y$  has much less variance and is positively correlated with the much riskier  $X$ .
@@ -1523,7 +1523,7 @@ This NEVER happens if  $\rho_{X,Y} < 0$ , and there is a good intuition, negativ
 3. Doing the algebra for  $f^{\prime}(1) < 0$ , which gives  $a^{*} = 1$ , gives the condition
 
 $$
-\rho_ {X, Y} \geq \frac {\sigma_ {X}}{\sigma_ {Y}},
+\rho_{X, Y} \geq \frac{\sigma_{X}}{\sigma_{Y}},
 $$
 
 and again, this NEVER happens if  $\rho_{X,Y} < 0$ , and all that has changed is that  $X$  must be the small variance random variable.
@@ -1539,49 +1539,49 @@ The text proves the last claim by using a clever device involving the determinan
 Another, even more clever argument runs through the Cauchy-Schwarz inequality: For any  $a, b$ ,  $(a - b)^2 \geq 0$  with equality iff  $a = b$ . This means that  $a^2 - 2ab + b^2 \geq 0$  with equality iff  $a = b$ . This in turn means that  $a^2 + b^2 \geq 2ab$  or
 
 $$
-\frac {1}{2} a ^ {2} + \frac {1}{2} b ^ {2} \geq a b \mathrm {w i t h e q u a l i t y i f f} a = b.
+\frac{1}{2} a^{2} + \frac{1}{2} b^{2} \geq a b \mathrm{wi th eq ua li ty if f} a = b.
 $$
 
 Now, for each  $\omega \in \Omega$ , let
 
 $$
-a (\omega) = \frac {X (\omega)}{\sqrt {E X ^ {2}}}, \mathrm {a n d} b (\omega) = \frac {Y (\omega)}{\sqrt {E Y ^ {2}}}.
+a (\omega) = \frac{X (\omega)}{\sqrt{E X^{2}}}, \mathrm{an d} b (\omega) = \frac{Y (\omega)}{\sqrt{E Y^{2}}}.
 $$
 
 Applying the inequality we had above at each  $\omega$ , we get
 
 $$
-\frac {1}{2} (a (\omega)) ^ {2} + \frac {1}{2} (b (\omega)) ^ {2} \geq a (\omega) b (\omega),
+\frac{1}{2} (a (\omega))^{2} + \frac{1}{2} (b (\omega))^{2} \geq a (\omega) b (\omega),
 $$
 
 which is re-written as
 
 $$
-\frac {1}{2} \frac {X ^ {2} (\omega)}{E X ^ {2}} + \frac {1}{2} \frac {Y ^ {2} (\omega)}{E Y ^ {2}} \geq \frac {X Y (\omega)}{\sqrt {E X ^ {2}} \sqrt {E Y ^ {2}}} \mathrm {w i t h e q u a l i t y i f f} X (\omega) = c Y (\omega),
+\frac{1}{2} \frac{X^{2} (\omega)}{E X^{2}} + \frac{1}{2} \frac{Y^{2} (\omega)}{E Y^{2}} \geq \frac{X Y (\omega)}{\sqrt{E X^{2}} \sqrt{E Y^{2}}} \mathrm{wi th eq ua li ty if f} X (\omega) = c Y (\omega),
 $$
 
 where the constant  $c$  is equal to  $\sqrt{EX^2} / \sqrt{EY^2}$ , something independent of  $\omega$ . This last equality holds for all  $\omega$ , taking expectations, the left hand side is equal to 1, rearranging gives
 
 $$
-E X Y \leq \sqrt {E X ^ {2}} \sqrt {E Y ^ {2}}.
+E X Y \leq \sqrt{E X^{2}} \sqrt{E Y^{2}}.
 $$
 
 Since  $X^2 = |X|^2$  and  $|XY| = |X| \cdot |Y|$ , the same logic gives
 
 $$
-E \left| X Y \right| \leq \sqrt {E X ^ {2}} \sqrt {E Y ^ {2}},
+E \left| X Y \right| \leq \sqrt{E X^{2}} \sqrt{E Y^{2}},
 $$
 
 known as the Cauchy-Schwarz inequality. Since  $-|XY| \leq XY \leq |XY|$ ,  $|EXY| \leq E|XY|$ . Along with the C-S inequality,
 
 $$
-| E (X - \mu_ {X}) (Y - \mu_ {Y}) | \leq \sqrt {E (X - \mu_ {X}) ^ {2}} \sqrt {E (Y - \mu_ {Y}) ^ {2}}.
+| E (X - \mu_{X}) (Y - \mu_{Y}) | \leq \sqrt{E (X - \mu_{X})^{2}} \sqrt{E (Y - \mu_{Y})^{2}}.
 $$
 
 Squaring both sides gives
 
 $$
-\big (\mathrm {C o v} (X, Y) \big) ^ {2} \leq \sigma_ {X} ^ {2} \sigma_ {Y} ^ {2},
+\big (\mathrm{Co v} (X, Y) \big)^{2} \leq \sigma_{X}^{2} \sigma_{Y}^{2},
 $$
 
 which tells us that  $(\rho(X, Y))^2 \leq 1$ .
@@ -1597,7 +1597,7 @@ Example:  $X \sim U(0,1)$  and  $Y = X^2$ , explicitly calculate  $\rho_{X,Y}$ .
 Going back to case A, since  $\rho_{X,Y} = -\frac{1}{3} < 0$ , we know that  $0 < a^{*} < 1$ , specifically, it is
 
 $$
-a ^ {*} = \frac {0 . 0 0 0 9 - (- 0 . 0 0 1 1)}{0 . 0 1 2 1 + 0 . 0 0 0 9 - 2 (- 0 . 0 0 1 1)} \simeq 0. 1 3,
+a^{*} = \frac{0 . 0 0 0 9 - (- 0 . 0 0 1 1)}{0 . 0 1 2 1 + 0 . 0 0 0 9 - 2 (- 0 . 0 0 1 1)} \simeq 0. 1 3,
 $$
 
 so, to minimize variance in case A, have  $13\%$  of your portfolio in  $X$ , the rest in  $Y$ . Graph  $a$  vs.  $g(a) \coloneqq E(aX + (1 - a)Y)$  and  $\sqrt{f(a)} = \sigma_{aX + (1 - a)Y}$ . Also graph  $g(a)$  on the horizontal axis and the corresponding  $f(a)$  on the vertical. Note that for mean rates of return less than  $1.07 + (0.13) \cdot (1.11 - 1.07) \simeq 1.075$ , taking a lower rate of return gives you a higher variance, not generally considered a sensible way to behave. Go through the gradients of a utility function that depends positively on mean and negatively on standard deviation.
@@ -1609,13 +1609,13 @@ Going back to case B, since  $\rho_{X,Y} = \frac{1}{3}$ , and  $\frac{1}{3} > \s
 starting point is  $E a^T X = a^T \mu$  and  $\operatorname{Var}(a^T X) = a^T \Sigma a$ , which you can get by looking at the matrix formulation (with enough blackboard space). Let  $\Delta = \{a \geq 0 : a^T \tilde{1} = 1\}$ . The efficient portfolio problem for the rate of return  $r$  is
 
 $$
-\text {P r o b l e m} r \colon \min  _ {a \in \Delta} a ^ {T} \Sigma a \text {s u b j e c t t o} a ^ {T} \mu \geq r.
+\text{Pr ob le m} r \colon \min_{a \in \Delta} a^{T} \Sigma a \text{su bj ec tt o} a^{T} \mu \geq r.
 $$
 
 This has a dual problem for variance  $v$ ,
 
 $$
-\text {P r o b l e m} v: \max  _ {a \in \Delta} a ^ {T} \mu \text {s u b j e c t t o} a ^ {T} \Sigma a \leq v.
+\text{Pr ob le m} v: \max_{a \in \Delta} a^{T} \mu \text{su bj ec tt o} a^{T} \Sigma a \leq v.
 $$
 
 # 7.9. Problems.
@@ -1713,13 +1713,13 @@ for all  $t$  in the range of  $T$ , all  $\theta \in \Theta$ , and all  $x$  in
 Proof: If  $T(\mathbf{X})$  is sufficient, then
 
 $$
-f (\mathbf {x} | \theta) = P _ {\theta} (\mathbf {X} = \mathbf {x}) = P _ {\theta} (\mathbf {X} = \mathbf {x} | T (\mathbf {X}) = T (\mathbf {x})) P _ {\theta} (T (\mathbf {X}) = T (\mathbf {x})) = h (\mathbf {x}) g (T (\mathbf {x}) | \theta).
+f (\mathbf {x} | \theta) = P_{\theta} (\mathbf {X} = \mathbf {x}) = P_{\theta} (\mathbf {X} = \mathbf {x} | T (\mathbf {X}) = T (\mathbf {x})) P_{\theta} (T (\mathbf {X}) = T (\mathbf {x})) = h (\mathbf {x}) g (T (\mathbf {x}) | \theta).
 $$
 
 Now suppose that  $f(\mathbf{x}|\theta) = g(T(\mathbf{x})|\theta)h(\mathbf{x})$ . Let  $q(t|\theta)$  be the pmf for  $T$  and let  $A_{x} = \{\mathbf{y}: T(\mathbf{y}) = T(\mathbf{x})\}$ .
 
 $$
-\begin{array}{l} \frac {f (\mathbf {x} | \theta)}{q (T (\mathbf {x}) | \theta)} = \frac {g (T (\mathbf {x}) | \theta) h (\mathbf {x})}{\sum_ {\mathbf {y} \in A _ {x}} g (T (\mathbf {y}) | \theta) h (\mathbf {y})} \\ = \frac {g (T (\mathbf {x}) | \theta) h (\mathbf {x})}{g (T (\mathbf {x}) | \theta) \sum_ {\mathbf {y} \in A _ {x}} h (\mathbf {y})} \\ = \frac {h (\mathbf {x})}{\sum_ {\mathbf {y} \in A _ {x}} h (\mathbf {y})}, \\ \end{array}
+\begin{array}{l} \frac{f (\mathbf {x} | \theta)}{q (T (\mathbf {x}) | \theta)} = \frac{g (T (\mathbf {x}) | \theta) h (\mathbf {x})}{\sum_{\mathbf {y} \in A_{x}} g (T (\mathbf {y}) | \theta) h (\mathbf {y})} \\ = \frac{g (T (\mathbf {x}) | \theta) h (\mathbf {x})}{g (T (\mathbf {x}) | \theta) \sum_{\mathbf {y} \in A_{x}} h (\mathbf {y})} \\ = \frac{h (\mathbf {x})}{\sum_{\mathbf {y} \in A_{x}} h (\mathbf {y})}, \\ \end{array}
 $$
 
 which does not depend on  $\theta$
@@ -1730,7 +1730,7 @@ Two observations:
 2. The Halmos-Savage theorem gives us, essentially for free, the following observation:
 
 $$
-\begin{array}{l} \text {I f} f (\mathbf {x} | \theta) = h (\mathbf {x}) c (\theta) \exp \left(\sum_ {i = 1} ^ {k} w _ {i} (\theta) t _ {i} (\mathbf {x})\right), \text {t h e n} \\ T (\mathbf {X}) = \left(\sum_ {j = 1} ^ {n} t _ {1} \left(X _ {j}\right), \dots , \sum_ {j = 1} ^ {n} t _ {k} \left(X _ {j}\right)\right) \\ \end{array}
+\begin{array}{l} \text{If} f (\mathbf {x} | \theta) = h (\mathbf {x}) c (\theta) \exp \left(\sum_{i = 1}^{k} w_{i} (\theta) t_{i} (\mathbf {x})\right), \text{th en} \\ T (\mathbf {X}) = \left(\sum_{j = 1}^{n} t_{1} \left(X_{j}\right), \dots , \sum_{j = 1}^{n} t_{k} \left(X_{j}\right)\right) \\ \end{array}
 $$
 
 is a sufficient statistic for  $\theta$ ,  $\theta \in \mathbb{R}^d$ ,  $d \leq k$ .
@@ -1746,13 +1746,13 @@ Since the result holds for any unbiased estimator, what we know is that  $\varph
 Proof: For unbiasedness,
 
 $$
-\theta \equiv E _ {\theta} \widehat {\theta} = E _ {\theta} [ E (\widehat {\theta} | T) ] = E _ {\theta} \varphi (T).
+\theta \equiv E_{\theta} \widehat {\theta} = E_{\theta} [ E (\widehat {\theta} | T) ] = E_{\theta} \varphi (T).
 $$
 
 For minimal variance,
 
 $$
-\begin{array}{l} \operatorname {V a r} _ {\theta} \widehat {\theta} = \operatorname {V a r} _ {\theta} [ E (\widehat {\theta} | T) ] + E _ {\theta} [ \operatorname {V a r} (\widehat {\theta} | T) ] \\ = \operatorname {V a r} _ {\theta} (\varphi (T)) + E _ {\theta} [ \operatorname {V a r} (\widehat {\theta} | T) ] \\ \geq \operatorname {V a r} _ {\theta} (\varphi (T)). \\ \end{array}
+\begin{array}{l} \operatorname{Va r}_{\theta} \widehat {\theta} = \operatorname{Va r}_{\theta} [ E (\widehat {\theta} | T) ] + E_{\theta} [ \operatorname{Va r} (\widehat {\theta} | T) ] \\ = \operatorname{Va r}_{\theta} (\varphi (T)) + E_{\theta} [ \operatorname{Va r} (\widehat {\theta} | T) ] \\ \geq \operatorname{Va r}_{\theta} (\varphi (T)). \\ \end{array}
 $$
 
 Finally, since  $T$  is a sufficient statistic for  $\theta$ , after conditioning on  $T$ , the result cannot depend on  $\theta$ , which shows that  $\varphi(T)$  is really an estimator.
@@ -1794,7 +1794,7 @@ Compare this to  $F_{\hat{\theta}_n}(x) = \int \dots \int_{-\infty}^x f(y|\hat{\
 10.1. The basic Gaussian example.  $X_{1},\ldots ,X_{n}$  are iid with distribution belonging  $\{f(x|(\mu ,\sigma^2)):(\mu ,\sigma^2)\in \mathbb{R}\times \mathbb{R}_{+ + }\}$  where
 
 $$
-f (x | (\mu , \sigma^ {2})) = \frac {1}{\sqrt {2 \pi} \sigma} e ^ {\frac {(x - \mu) ^ {2}}{2 \sigma^ {2}}}.
+f (x | (\mu , \sigma^{2})) = \frac{1}{\sqrt{2 \pi} \sigma} e^{\frac{(x - \mu)^{2}}{2 \sigma^{2}}}.
 $$
 
 The basic statistics we form are
@@ -1815,15 +1815,15 @@ Using this claim is one of the basic set of competencies to be learned in an int
 $nS^2 /\sigma^2 = \frac{n}{n - 1}\sum_{i\leq n}(X_i - \overline{X}_n)^2 /\sigma^2\sim \chi^2 (n - 1) / \sigma^2.$  Let  $X\sim \chi^2 (n - 1)$ , from a table, find  $r^\prime < r''$  so that  $P(X\leq r^{\prime}) = 0.01$  and  $P(X\leq r^{\prime \prime}) = 0.99$  so that  $P(r^{\prime}\leq X\leq r^{\prime \prime}) = 0.98$  Then
 
 $$
-P \left(\frac {n}{n - 1} \sum_ {i \leq n} (X _ {i} - \overline {{X}} _ {n}) ^ {2} / \sigma^ {2} \leq r ^ {\prime}\right) = P \left(S ^ {2} \leq \frac {\sigma^ {2} \cdot r ^ {\prime}}{n}\right) = 0. 0 1,
+P \left(\frac{n}{n - 1} \sum_{i \leq n} (X_{i} - \overline {{X}}_{n})^{2} / \sigma^{2} \leq r^{\prime}\right) = P \left(S^{2} \leq \frac{\sigma^{2} \cdot r^{\prime}}{n}\right) = 0. 0 1,
 $$
 
 $$
-P \left(\frac {n}{n - 1} \sum_ {i \leq n} (X _ {i} - \overline {{X}} _ {n}) ^ {2} / \sigma^ {2} \leq r ^ {\prime \prime}\right) = P \left(S ^ {2} \leq \frac {\sigma^ {2} \cdot r ^ {\prime \prime}}{n}\right) = 0. 9 9,
+P \left(\frac{n}{n - 1} \sum_{i \leq n} (X_{i} - \overline {{X}}_{n})^{2} / \sigma^{2} \leq r^{\prime \prime}\right) = P \left(S^{2} \leq \frac{\sigma^{2} \cdot r^{\prime \prime}}{n}\right) = 0. 9 9,
 $$
 
 $$
-P \left(r ^ {\prime} \leq \frac {n}{n - 1} \sum_ {i \leq n} (X _ {i} - \overline {{X}} _ {n}) ^ {2} / \sigma^ {2} \leq r ^ {\prime \prime}\right) = P \left(\frac {\sigma^ {2} \cdot r ^ {\prime}}{n} \leq S ^ {2} \leq \frac {\sigma^ {2} \cdot r ^ {\prime \prime}}{n}\right) = 0. 9 8.
+P \left(r^{\prime} \leq \frac{n}{n - 1} \sum_{i \leq n} (X_{i} - \overline {{X}}_{n})^{2} / \sigma^{2} \leq r^{\prime \prime}\right) = P \left(\frac{\sigma^{2} \cdot r^{\prime}}{n} \leq S^{2} \leq \frac{\sigma^{2} \cdot r^{\prime \prime}}{n}\right) = 0. 9 8.
 $$
 
 This expresses the intervals as proportions of the true  $\sigma^2$ . If we take square roots all over the place, this expresses the intervals as proportions of the true  $\sigma$ .
@@ -1833,7 +1833,7 @@ Do some examples of using the tabulated  $\chi^2$
 10.1.3. Intervals around our guess of  $\mu$ ,  $\sigma$  not known. If  $Z \sim N(0,1)$ ,  $V \sim \chi^2(r)$  and  $Z \perp V$ , then the name of the random variable
 
 $$
-T = \frac {Z}{\sqrt {V / r}}
+T = \frac{Z}{\sqrt{V / r}}
 $$
 
 is Student's  $t$  with  $r$  degrees of freedom, name after the famous (not!) Guinness brewery employee, W. S. Gosset. Going back to the claim,
@@ -1856,7 +1856,7 @@ we just need to scale  $\overline{X}_n$  and  $nS^2/\sigma^2 \sim \chi^2(n-1)$ ,
 8. The monsoons will come at some random time  $T$  in the next month,  $T \in [0,1]$ . A farmer must pre-commit to a planting time,  $a$ . As a function of  $a$  and  $t$ , the realized value of  $T$ , the harvest will be
 
 $$
-h (a, t) = \left\{ \begin{array}{l l} K - r | a - t | & \text {i f} a \leq t \\ K - s | a - t | & \text {i f} a > t \end{array} \right.
+h (a, t) = \left\{ \begin{array}{l l} K - r | a - t | & \text{if } a \leq t \\ K - s | a - t | & \text{if } a > t \end{array} \right.
 $$
 
 where  $K > r, s > 0$ . The random arrival time of the monsoon has cumulative distribution function  $F(\cdot)$ , and  $f(x) = F'(x)$  is its strictly positive probability density function. We've observed  $T_{1}, T_{2}, \ldots, T_{n}$  monsoon arrival times in the past, and want to estimate the optimal time.
@@ -1899,13 +1899,13 @@ Three really stupid estimators, and one pretty good one:
 A general criterion for picking between estimators so as to make some, hopefully sensible, kind of tradeoff between bias and variance is called Mean Squared Error (MSE). It is
 
 $$
-\mathrm {M S E} _ {\theta} (\hat {\theta}) := E _ {\theta} (\hat {\theta} - \theta) ^ {2}.
+\mathrm{MS E}_{\theta} (\hat {\theta}) := E_{\theta} (\hat {\theta} - \theta)^{2}.
 $$
 
 The basic result about MSE's is
 
 $$
-\mathrm {M S E} _ {\theta} (\hat {\theta}) = \mathrm {B i a s} _ {\theta} ^ {2} (\hat {\theta}) + \mathrm {V a r} _ {\theta} (\hat {\theta}).
+\mathrm{MS E}_{\theta} (\hat {\theta}) = \mathrm{Bi as}_{\theta}^{2} (\hat {\theta}) + \mathrm{Va r}_{\theta} (\hat {\theta}).
 $$
 
 Do this calculation.
@@ -1922,7 +1922,7 @@ Draw a graph of the MSE's of the four estimators as a function of  $\theta$ , se
 1. Unbiased estimators. If for all  $\theta \in \Theta$
 
 $$
-E _ {\theta} \hat {\theta} (X _ {1}, \ldots , X _ {n}) = \theta ,
+E_{\theta} \hat {\theta} (X_{1}, \ldots , X_{n}) = \theta ,
 $$
 
 then you have an unbiased estimator. This means that, on average, your estimator is right.  $\hat{\theta}_{rs}$  is an example that shows that this is not enough.
@@ -1930,7 +1930,7 @@ then you have an unbiased estimator. This means that, on average, your estimator
 2. Best unbiased estimators (BUE's). If you have many unbiased estimators of  $\theta$ , maybe it makes sense to pick the one with the lowest variance, which, in this case is the same as picking the one with the lowest MSE. Such an estimator is called a BUE. The relative efficiency of two unbiased estimators  $\hat{\theta}_1$  and  $\hat{\theta}_2$  is given by
 
 $$
-\frac {\mathrm {V a r} (\hat {\theta} _ {1})}{\mathrm {V a r} (\hat {\theta} _ {2})}.
+\frac{\mathrm{Va r} (\hat {\theta}_{1})}{\mathrm{Va r} (\hat {\theta}_{2})}.
 $$
 
 Because we've asked for unbiased, the problem of division by 0 (as in  $\hat{\theta}_{rs}^{\prime}$ ) does not arise.
@@ -1942,7 +1942,7 @@ Example: Find the BLUE for the mean of iid mean  $\mu$  rv's  $\{X_{i}\}_{i = 1}
 Example: We're given non-zero numbers  $x_{1}, \ldots, x_{n}$  and the rv's  $Y_{1}, \ldots, Y_{n}$  are independent, having the distribution described by
 
 $$
-Y _ {i} = \beta x _ {i} + \varepsilon_ {i}, \varepsilon_ {i} \sim N (0, \sigma^ {2}),
+Y_{i} = \beta x_{i} + \varepsilon_{i}, \varepsilon_{i} \sim N (0, \sigma^{2}),
 $$
 
 $\beta$  and  $\sigma^2$  unknown. Notice that the  $\varepsilon_{i}$  are iid but the  $Y_{i}$  are not (unless the  $x_{i}$  are all equal to each other). Another way to write this is that the independent  $Y_{i}$  satisfy  $Y_{i} \sim N(\beta x_{i}, \sigma^{2})$ . The essential intuition is when  $|x_{i}|$  is large, the  $i$ 'th observation tells one more about the value of  $\beta$ . Here are three unbiased estimators of  $\beta$ , compare their variances:  $\hat{\beta}_{MLE}$  (find it, it's the obvious one);  $\hat{\beta}' = (\sum_{i} Y_{i}) / (\sum_{i} X_{i})$ ; and  $\hat{\beta}'' = \frac{1}{n} \sum_{i} (Y_{i} / X_{i})$ .
@@ -1962,7 +1962,7 @@ Problem 11.4. Casella & Berger, 7.49.
 Problem 11.5. Suppose that  $X_{1}, \ldots, X_{n}$  are iid  $f(x|\theta)$ ,  $\theta \in \Theta \subset \mathbb{R}_{++}$  and that  $\hat{\theta}(X_{1}, \ldots, X_{n})$  is an unbiased estimator of  $\theta$ , and suppose that neither the  $X_{i}$  nor  $\hat{\theta}$  are degenerate random variables. By considering the estimators  $s \cdot \hat{\theta}$ ,  $0 < s < 1$ , show that  $\hat{\theta}$  does not minimize MSE. One way to proceed is to define
 
 $$
-f (s) = E (s \hat {\theta} - \theta) ^ {2} = s ^ {2} v a r (\hat {\theta}) + \theta^ {2} (s - 1) ^ {2}.
+f (s) = E (s \hat {\theta} - \theta)^{2} = s^{2} v a r (\hat {\theta}) + \theta^{2} (s - 1)^{2}.
 $$
 
 This is a quadratic in  $s$  that opens upwards. Find its minimum and show that it happens for  $s < 1$ . [The "s" is a "shrinkage factor," this problem tells us that unbiased estimators do not minimize MSE.]
@@ -2029,13 +2029,13 @@ Go through the Wonnacott and Wonnacott Gaussian one-sided hypothesis testing pic
 12.4. The Likelihood Ratio Tests. The number
 
 $$
-\lambda (\mathbf {x}) = \frac {\sup _ {\theta \in \Theta_ {0}} L (\mathbf {x} | \theta)}{\sup _ {\theta \in \Theta} L (\mathbf {x} | \theta)}
+\lambda (\mathbf {x}) = \frac{\sup_{\theta \in \Theta_{0}} L (\mathbf {x} | \theta)}{\sup_{\theta \in \Theta} L (\mathbf {x} | \theta)}
 $$
 
 must be in the interval [0, 1]. The class of likelihood ratio tests (LRTs) are
 
 $$
-\mathbb {X} _ {r} (c) = \{\mathbf {x}: \lambda (\mathbf {x}) \leq c \}.
+\mathbb {X}_{r} (c) = \{\mathbf {x}: \lambda (\mathbf {x}) \leq c \}.
 $$
 
 In the perfect power function example, for any  $0 < c < 1$ , the LRT is the same, and is the one we gave above.
@@ -2047,7 +2047,7 @@ Example:  $\Theta = [0,1]$ ,  $X_{1},\ldots ,X_{n}$  are iid Bernoulli  $(\theta
 Detour through properties of the function  $f(x) = x \log x$ : If  $x > 0$ , then  $f(x) = x \log x$  is well defined. By calculation,  $f^{(1)}(x) = \log x + 1$  which has a critical point at  $x^* = \exp(-1)$ . Further,  $f^{(2)}(x) = x^{-1} > 0$ . So, on  $(0, \infty)$ ,  $f(x)$  is strictly convex achieving its global minimum at  $\exp(-1)$ . To calculate behavior around  $x = 0$ , consider the following two substitutions:
 
 $$
-\lim  _ {x \rightarrow 0} x \log x = \lim  _ {y \rightarrow - \infty} \exp (y) \log (\exp (y)) = \lim  _ {z \rightarrow + \infty} \frac {- z}{\exp (z)} = 0 -.
+\lim_{x \rightarrow 0} x \log x = \lim_{y \rightarrow - \infty} \exp (y) \log (\exp (y)) = \lim_{z \rightarrow + \infty} \frac{- z}{\exp (z)} = 0 -.
 $$
 
 Hence,  $f(0)$  can be defined equal to 0 by continuity.
@@ -2055,13 +2055,13 @@ Hence,  $f(0)$  can be defined equal to 0 by continuity.
 Alright, let's calculate the LRTs for the example.  $L(\mathbf{x}|\theta) = \Pi_{i=1}^{n}\theta^{x_i}(1 - \theta)^{(1 - x_i)}$ . Therefore,
 
 $$
-\lambda (\mathbf {x}) = \frac {\sup _ {\theta \in \Theta_ {0}} L (\mathbf {x} | \theta)}{\sup _ {\theta \in \Theta} L (\mathbf {x} | \theta)} = \mathrm {e t c .}
+\lambda (\mathbf {x}) = \frac{\sup_{\theta \in \Theta_{0}} L (\mathbf {x} | \theta)}{\sup_{\theta \in \Theta} L (\mathbf {x} | \theta)} = \mathrm{et c .}
 $$
 
 After doing some algebra, the rejection region is the set of  $\mathbf{x}$  such that the sample average,  $\overline{\mathbf{x}} = \frac{1}{n}\sum_{i=1}^{n}x_{i}$  satisfies
 
 $$
-\overline {{\mathbf {x}}} \log (\overline {{\mathbf {x}}}) + (1 - \overline {{\mathbf {x}}}) \log (1 - \overline {{\mathbf {x}}}) \geq \log \frac {1}{2} - \frac {\log c}{n}.
+\overline {{\mathbf {x}}} \log (\overline {{\mathbf {x}}}) + (1 - \overline {{\mathbf {x}}}) \log (1 - \overline {{\mathbf {x}}}) \geq \log \frac{1}{2} - \frac{\log c}{n}.
 $$
 
 Note that the lhs of the inequality is symmetric about  $\frac{1}{2}$ , that  $\overline{\mathbf{x}} = \frac{1}{2}$  never satisfies the inequality for  $0 < c < 1$ , and that the rejection region is of the form pair of intervals  $[0, \frac{1}{2} - a) \cup (\frac{1}{2} + a, 1]$  for some  $0 < a < \frac{1}{2}$ . Find  $\beta(\theta)$ ,  $\alpha$  and  $\beta$ .
@@ -2079,13 +2079,13 @@ Example: We see iid  $X_{1}, \ldots, X_{n}$  and iid  $Y_{1}, \ldots, Y_{m}$ , b
 The null hypothesis is  $\mu = \mu_0$ , that is,  $\Theta_0 = \{\mu_0\} \subset \mathbb{R}$ . We accept  $H_0$  at the confidence level  $(1 - \alpha)$  if
 
 $$
-[ \overline {{X}} - t _ {\alpha / 2, n} S, \overline {{X}} - t _ {\alpha / 2, n} S ] \cap \Theta_ {0} \neq \emptyset ,
+[ \overline {{X}} - t_{\alpha / 2, n} S, \overline {{X}} - t_{\alpha / 2, n} S ] \cap \Theta_{0} \neq \emptyset ,
 $$
 
 that is, if
 
 $$
-\mu_ {0} \in [ \overline {{X}} - t _ {\alpha / 2, n} S, \overline {{X}} - t _ {\alpha / 2, n} S ],
+\mu_{0} \in [ \overline {{X}} - t_{\alpha / 2, n} S, \overline {{X}} - t_{\alpha / 2, n} S ],
 $$
 
 otherwise we reject  $H_0$  at the  $\alpha$  level.
@@ -2095,7 +2095,7 @@ Typically,  $\alpha$  is one of the following list of numbers: 0.1, 0.05, 0.01, 
 The  $p$ -value gets around the problem of how to report rejection/acceptance. Specifically, we find the smallest number  $r$  such that
 
 $$
-\mu_ {0} \in [ \overline {{X}} - t _ {r / 2, n} S, \overline {{X}} - t _ {r / 2, n} S ],
+\mu_{0} \in [ \overline {{X}} - t_{r / 2, n} S, \overline {{X}} - t_{r / 2, n} S ],
 $$
 
 and this is the  $p$ -value.

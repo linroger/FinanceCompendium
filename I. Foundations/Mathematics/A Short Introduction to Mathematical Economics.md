@@ -222,11 +222,11 @@ NB.2, technically, you can express either quantity as a function of price or pri
 Imagine there is a market for a takeaway pizza where two groups of consumers demand the product: students and workers. Their respective demand functions could be:
 
 $$
-Q _ {s} = 1 6 - 2 P _ {s}
+Q _{s} = 1 6 - 2 P _{s}
 $$
 
 $$
-Q _ {w} = 2 0 - P _ {w}
+Q _{w} = 2 0 - P _{w}
 $$
 
 How would we then find an overall market demand?
@@ -248,13 +248,13 @@ The remaining part is the range  $0 \leq P \leq 8$ . To understand what's happen
 At  $\mathrm{P} = 4$ ,  $Q_{s} = 16 - 2 * 4 = 8$ , while  $Q_{w} = 20 - 4 = 16$ . The overall market quantity is then  $Q = 8 + 16 = 24$ , or, the sum of two quantities demanded. In other words, when  $0 \leq P \leq 8$ :
 
 $$
-Q _ {\text {m a r k e t}} = Q _ {s} + Q _ {w} = 2 0 - P + 1 6 - 2 P = 3 6 - 3 P
+Q _{\text{ma rk et}} = Q _{s} + Q _{w} = 2 0 - P + 1 6 - 2 P = 3 6 - 3 P
 $$
 
 In economics, this is called a horizontal sum. A formal definition of the market demand will then be:
 
 $$
-Q _ {\text {m a r k e t}} = \sum_ {i = 1} ^ {n} Q _ {i} (P)
+Q _{\text{ma rk et}} = \sum_{i = 1} ^{n} Q _{i} (P)
 $$
 
 This formal definition tells us that for each price  $P$  the quantity demanded on the market will be the sum of all individual quantities demanded at this price level. In the aforementioned case we can rewrite the table to account for the formal definition to get the final answer:
@@ -292,11 +292,11 @@ In general, applying horizontal summation to the supply function requires the sa
 As with other mathematical functions, to find the equilibrium (a point where supply crosses demand) we want to express both  $Q_{s}$  and  $Q_{d}$  as a function of price (or price as a function of quantity) and equalise them. For example, if:
 
 $$
-Q _ {s} = 1 0 + P
+Q _{s} = 1 0 + P
 $$
 
 $$
-Q _ {d} = 2 0 - P
+Q _{d} = 2 0 - P
 $$
 
 Then  $Q_{s} = Qd \Rightarrow 10 + P = 20 - P \Rightarrow P = 5, Q = 10 + 5 = 15$
@@ -312,13 +312,13 @@ Because of that, the utility of 100 gained from consuming the good  $x_{1}$  doe
 As such, the statement:
 
 $$
-U _ {x _ {1}} = 1 0 0 > U _ {x _ {2}} = 5 0
+U _{x _{1}} = 1 0 0 > U _{x _{2}} = 5 0
 $$
 
 is equivalent to the statement
 
 $$
-U _ {x _ {1}} = 1 0 0 0 > U _ {x _ {2}} = 2 0
+U _{x _{1}} = 1 0 0 0 > U _{x _{2}} = 2 0
 $$
 
 because both statements show that the consumer prefers the good  $x_{1}$  more than the good  $x_{2}$ .
@@ -334,7 +334,7 @@ to a certain combination of  $x$  and  $y$  as bundles. However, we will also lo
 A typical utility function might look like:
 
 $$
-U (x _ {1}, x _ {2}) = x _ {1} * x _ {2}
+U (x _{1}, x _{2}) = x _{1} * x _{2}
 $$
 
 or
@@ -380,25 +380,25 @@ that the bundle  $(\infty, \infty)$  would always be the most preferred. However
 If a bundle  $B_{1}$  is more preferred by the consumer than the bundle  $B_{2}$ , it is denoted as:
 
 $$
-B _ {1} \succ B _ {2}
+B _{1} \succ B _{2}
 $$
 
 and hence,
 
 $$
-B _ {2} \prec B _ {1}
+B _{2} \prec B _{1}
 $$
 
 If, on the other hand, the consumer is indifferent between the bundles, it is denoted as:
 
 $$
-B _ {1} \sim B _ {2}
+B _{1} \sim B _{2}
 $$
 
 Also, in utility theory we can use the "preferred or indifferent to" sign, by the same logic as we use the greater or equal  $(\geq)$  or less or equal  $(\leq)$  signs in Maths:
 
 $$
-B _ {1} \succeq B _ {2}
+B _{1} \succeq B _{2}
 $$
 
 # 3.4 Utility Principles and assumptions
@@ -472,13 +472,13 @@ More intuitively, a unique bundle  $B_{i}$  representing the point of intersecti
 If monotonicity holds (more of a good is better than less of that good) then indifference curves must be downward sloping. This is because, if a bundle  $B_{2}(\alpha + \triangle \alpha, \beta + \triangle \beta)$  is more preferred than the bundle  $B_{1}(\alpha, \beta)$ , then  $B_{2}$  must bring higher utility than  $B_{1}$ :
 
 $$
-U (B _ {2}) > U (B _ {1})
+U (B _{2}) > U (B _{1})
 $$
 
 However, an upward-sloping indifference curve means that both bundles  $B_{1}$  and  $B_{2}$  lie on the same indifference curve, meaning the same utility for both bundles. This effectively means:
 
 $$
-U (B _ {1}) = U (B _ {2})
+U (B _{1}) = U (B _{2})
 $$
 
 which contradicts the statement above.
@@ -490,11 +490,11 @@ Of course, if monotonicity does not hold, the indifference curve might be upward
 for  $U = y + 9 - x^{2}$ :
 
 $$
-\overline {{U}} = y + 9 - x ^ {2}
+\overline {{U}} = y + 9 - x ^{2}
 $$
 
 $$
-y = \bar {U} + x ^ {2} - 9
+y = \bar{U} + x ^{2} - 9
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/f1c5e64e-4746-468f-9197-552ab4bd1c5e/69a02d27da1ffbc254fda5f017c63c4de7b1acc0ad52d18a80529f3dc84a2f92.jpg)
@@ -512,7 +512,7 @@ Marginal utility is the extra utility gained from consuming the smallest possibl
 In other words, if  $\mathrm{U} = \mathrm{U}(\mathbf{x})$  (utility as a function of one good), then:
 
 $$
-M U _ {x} = \lim _ {h \to 0} \frac {U (x + h) - U (x)}{h}
+M U _{x} = \lim _{h \to 0} \frac{U (x + h) - U (x)}{h}
 $$
 
 However, as we remember, utility is usually a function of two variables -  $x$  and  $y$ . In that
@@ -520,7 +520,7 @@ However, as we remember, utility is usually a function of two variables -  $x$  
 case, we would be interested to look at the marginal change of utility as a result of a marginal change in one good, leaving the other one constant. This is called a partial derivative and by definition is:
 
 $$
-M U _ {x} = \frac {\partial U}{\partial x} = \lim  _ {h \rightarrow 0} \frac {U (x + h , y) - U (x , y)}{h}
+M U _{x} = \frac{\partial U}{\partial x} = \lim  _{h \rightarrow 0} \frac{U (x + h , y) - U (x , y)}{h}
 $$
 
 , where  $\partial$  shows the partial change.
@@ -528,11 +528,11 @@ $$
 In practice, to find a partial derivative we just treat the other variable as a constant or a parameter. For example, if  $U(x,y) = xy$ , then
 
 $$
-M U _ {x} = \frac {\partial U}{\partial x} = y
+M U _{x} = \frac{\partial U}{\partial x} = y
 $$
 
 $$
-M U _ {y} = \frac {\partial U}{\partial y} = x
+M U _{y} = \frac{\partial U}{\partial y} = x
 $$
 
 # 3.6.4 Marginal Rate of Substitution
@@ -542,7 +542,7 @@ The next important bit is the marginal rate of substitution. As the name suggest
 In other words:
 
 $$
-M R S = - \frac {d y}{d x}
+M R S = - \frac{d y}{d x}
 $$
 
 so that  $dU = 0$
@@ -554,7 +554,7 @@ To derive the formula for  $MRS_{x,y}$  let's first introduce the concept called
 If  $z = f(x_{1},x_{2},x_{3},\ldots ,x_{n})$  , then:
 
 $$
-d z \approx \frac {\partial z}{\partial x _ {1}} * \triangle x _ {1} + \frac {\partial z}{\partial x _ {2}} * \triangle x _ {2} + \ldots + \frac {\partial z}{\partial x _ {n}} * \triangle x _ {n}
+d z \approx \frac{\partial z}{\partial x _{1}} * \triangle x _{1} + \frac{\partial z}{\partial x _{2}} * \triangle x _{2} + \ldots + \frac{\partial z}{\partial x _{n}} * \triangle x _{n}
 $$
 
 , where each partial derivative is evaluated at the base point.
@@ -562,7 +562,7 @@ $$
 For  $dz$  to become equal to the expression, each change in the variable should be infinitely small. In other words:
 
 $$
-d z = \frac {\partial z}{\partial x _ {1}} * d x _ {1} + \frac {\partial z}{\partial x _ {2}} * d x _ {2} + \ldots + \frac {\partial z}{\partial x _ {n}} * d x _ {n}
+d z = \frac{\partial z}{\partial x _{1}} * d x _{1} + \frac{\partial z}{\partial x _{2}} * d x _{2} + \ldots + \frac{\partial z}{\partial x _{n}} * d x _{n}
 $$
 
 , where each partial derivative is evaluated at the base point.
@@ -576,19 +576,19 @@ You can look this up to find out more.
 Then, by applying it to our two-variable utility function the overall change in utility is:
 
 $$
-d U = \frac {\partial U}{\partial x} * d x + \frac {\partial U}{\partial y} * d y
+d U = \frac{\partial U}{\partial x} * d x + \frac{\partial U}{\partial y} * d y
 $$
 
 Since by definition of MRS the overall change in utility is zero:
 
 $$
-d U = 0 = \frac {\partial U}{\partial x} * d x + \frac {\partial U}{\partial y} * d y
+d U = 0 = \frac{\partial U}{\partial x} * d x + \frac{\partial U}{\partial y} * d y
 $$
 
 By rearranging we get:
 
 $$
-M R S = - \frac {d y}{d x} = \frac {\frac {\partial U}{\partial x}}{\frac {\partial U}{\partial y}} = \frac {M U _ {x}}{M U _ {y}}
+M R S = - \frac{d y}{d x} = \frac{\frac{\partial U}{\partial x}}{\frac{\partial U}{\partial y}} = \frac{M U _{x}}{M U _{y}}
 $$
 
 A slightly different way of deriving the MRS formula is to think from scratch.
@@ -596,37 +596,37 @@ A slightly different way of deriving the MRS formula is to think from scratch.
 Think of how utility changes when quantities change. Each change of the parameter would have its own "coefficient", indicating how small or large the change in utility is, caused by the change in quantity (think of the price and quantity analogy again). From that we can derive:
 
 $$
-\triangle U \approx M U _ {x} * \triangle x + M U _ {y} * \triangle y
+\triangle U \approx M U _{x} * \triangle x + M U _{y} * \triangle y
 $$
 
 since  $\triangle U = 0$ , we get that
 
 $$
-\frac {\triangle y}{\triangle x} \approx - \frac {M U _ {x}}{M U _ {y}}
+\frac{\triangle y}{\triangle x} \approx - \frac{M U _{x}}{M U _{y}}
 $$
 
 By making  $\triangle x, \triangle y$  infinitely small:
 
 $$
-\frac {d y}{d x} = \lim _ {\triangle x, \triangle y \to 0} \frac {\triangle y}{\triangle x} = - \frac {M U _ {x}}{M U _ {y}}
+\frac{d y}{d x} = \lim _{\triangle x, \triangle y \to 0} \frac{\triangle y}{\triangle x} = - \frac{M U _{x}}{M U _{y}}
 $$
 
 Since
 
 $$
-M R S = - \frac {d y}{d x}
+M R S = - \frac{d y}{d x}
 $$
 
 we get that
 
 $$
-M R S = - \lim _ {\triangle y, \triangle x \to 0} \frac {\triangle y}{\triangle x} = - - \frac {M U _ {x}}{M U _ {y}} = \frac {M U _ {x}}{M U _ {y}}
+M R S = - \lim _{\triangle y, \triangle x \to 0} \frac{\triangle y}{\triangle x} = - - \frac{M U _{x}}{M U _{y}} = \frac{M U _{x}}{M U _{y}}
 $$
 
 Note that in some textbooks authors will write
 
 $$
-M R S = \frac {d y}{d x} = - \frac {M U _ {x}}{M U _ {y}}
+M R S = \frac{d y}{d x} = - \frac{M U _{x}}{M U _{y}}
 $$
 
 This depends on the interpretation and as long as you are consistent, you will be okay.
@@ -638,7 +638,7 @@ Let's reconcile the definition of MRS:
 The marginal rate of substitution of  $x$  for  $y$  is the amount by which  $x$  must change in response to a change in  $y$ , in order to keep utility constant.
 
 $$
-M R S = \frac {M U _ {x}}{M U _ {y}}
+M R S = \frac{M U _{x}}{M U _{y}}
 $$
 
 At the same time, the indifference curve represents all the bundles of  $x$  and  $y$  which represent the same utility. In other words, when we move across the utility curve, we are changing both variables in such a way that  $dU = 0$ .
@@ -646,7 +646,7 @@ At the same time, the indifference curve represents all the bundles of  $x$  and
 Combining those two facts, we deduce that the slope of the derivative function is:
 
 $$
-\frac {d y}{d x} = - M R S = - \frac {M U _ {x}}{M U _ {y}}
+\frac{d y}{d x} = - M R S = - \frac{M U _{x}}{M U _{y}}
 $$
 
 # 3.6.6 Indifference curves are convex (in general)
@@ -664,17 +664,17 @@ Initially it might be easy to substitute one tea for a cake. However, as we cons
 that means that:
 
 $$
-\frac {d}{d x} M R S <   0
+\frac{d}{d x} M R S <   0
 $$
 
 $$
-\frac {d}{d x} (- \frac {d y}{d x}) = - \frac {d ^ {2} y}{d x ^ {2}} <   0
+\frac{d}{d x} (- \frac{d y}{d x}) = - \frac{d ^{2} y}{d x ^{2}} <   0
 $$
 
 so
 
 $$
-\frac {d ^ {2} y}{d x ^ {2}} > 0
+\frac{d ^{2} y}{d x ^{2}} > 0
 $$
 
 meaning that the function is convex by definition.
@@ -682,7 +682,7 @@ meaning that the function is convex by definition.
 That said, we can imagine a utility function whose indifference curves are concave. For example:
 
 $$
-U = x ^ {2} + y
+U = x ^{2} + y
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/f1c5e64e-4746-468f-9197-552ab4bd1c5e/207ec7ef907b78d30209ad43d0b9b0ed6f10c9c22307dc32e53726398dfb9d38.jpg)
@@ -702,19 +702,19 @@ The next logical step for our utility analysis is utility maximisation.
 As we said before, consumers want to receive the highest utility from their consumption. To do so, they choose different quantities of goods - bundles which will give them the highest satisfaction. However, if a consumer did not encounter any costs associated with their consumption, they would just choose an infinite bundle of goods. In reality, there is always a cost. While we could imagine a cost being time or any other abstract thing, we usually say that each good has its own price -  $P_{i}$  - while a person has a limited budget  $M$ . Together, they are called a budget constraint. Mathematically, it is represented as:
 
 $$
-P _ {1} * x _ {1} + P _ {2} * x _ {2} + \dots + P _ {n} * x _ {n} \leq M
+P _{1} * x _{1} + P _{2} * x _{2} + \dots + P _{n} * x _{n} \leq M
 $$
 
 Less-or-equal-to sign arises from the fact that in some problems consuming less is less preferable (monotonicity does not hold), for example, for  $U = 8x - x^2 - y : \frac{\partial U}{\partial x} = 8 - 2x < 0$  for  $x > 4$  and  $\frac{\partial U}{\partial y} = -1 < 0$  for all  $y$ . This means that after  $x = 4$  and  $y = 0$  the consumer will not consume. However, if monotonicity holds, then the budget constraint becomes
 
 $$
-P _ {1} * x _ {1} + P _ {2} * x _ {2} + \dots + P _ {n} * x _ {n} = M
+P _{1} * x _{1} + P _{2} * x _{2} + \dots + P _{n} * x _{n} = M
 $$
 
 In general, such a step - when a budget constraint goes from inequality to equality - should be explained. For our two-good example, a budget constraint would look like:
 
 $$
-P _ {x} * x + P y * y \leq M
+P _{x} * x + P y * y \leq M
 $$
 
 As you can see, it is just a region below the curve  $P_x * x + Py * y = M$ :
@@ -730,7 +730,7 @@ U = x y \rightarrow m a x
 $$
 
 $$
-P _ {x} = 2, P y = 4, M = 4 0
+P _{x} = 2, P y = 4, M = 4 0
 $$
 
 First, let's write the budget constraint properly:
@@ -758,7 +758,7 @@ x = 2 0 - 2 y
 $$
 
 $$
-U = (2 0 - 2 y) * y = 2 0 y - 2 y ^ {2}
+U = (2 0 - 2 y) * y = 2 0 y - 2 y ^{2}
 $$
 
 As you could've noticed, this is a parabola that opens down:
@@ -770,7 +770,7 @@ As we can clearly see, there is a maximum of that function. Now, there are gener
 1. Find a derivative As we know from A-Level Maths, at the vertex  $\frac{dU}{dy} = 0$ . Thus:
 
 $$
-\frac {d U}{d y} = 2 0 - 4 y = 0
+\frac{d U}{d y} = 2 0 - 4 y = 0
 $$
 
 Which gives us  $y$  optimal  $= 5$ , or in proper notation  $y^{*} = 5$ . From the budget constraint then  $x = 20 - 2 * 5 = 10$ . 2. Completing the square This is a standard A-Level method,
@@ -778,7 +778,7 @@ Which gives us  $y$  optimal  $= 5$ , or in proper notation  $y^{*} = 5$ . From 
 although the longest one, so I do not recommend using it. Nevertheless:
 
 $$
-U = - 2 (- 1 0 y + y ^ {2} + 2 5 - 2 5) = - 2 (y - 5) ^ {2} + 5 0
+U = - 2 (- 1 0 y + y ^{2} + 2 5 - 2 5) = - 2 (y - 5) ^{2} + 5 0
 $$
 
 As we can clearly see, the vertex is at  $y = 5$ , and from the budget constraint we get  $x = 10$  again. 3. The formula Even though I'm not a big fan of formulas, this one is very simple.
@@ -786,13 +786,13 @@ As we can clearly see, the vertex is at  $y = 5$ , and from the budget constrain
 For a function
 
 $$
-y = a x ^ {2} + b x + c
+y = a x ^{2} + b x + c
 $$
 
 the vertex  $x$ -coordinate will be:
 
 $$
-x ^ {*} = \frac {- b}{2 a}
+x ^{*} = \frac{- b}{2 a}
 $$
 
 Which might be derived again from taking a derivative or completing the square for a general function  $y = ax^{2} + bx + c$ .
@@ -806,17 +806,17 @@ However, the brute-force method works only with simple functions. If you had a u
 The next method is to look at the indifference curves and the budget constraint on the same graph. Let's work with  $U = \sqrt{x} * y$ :
 
 $$
-U = \sqrt {x} * y \rightarrow m a x
+U = \sqrt{x} * y \rightarrow m a x
 $$
 
 $$
-P _ {x} = 1, P _ {y} = 2, M = 4 0
+P _{x} = 1, P _{y} = 2, M = 4 0
 $$
 
 By rearranging and completing the budget constraint methods:
 
 $$
-y = \frac {\overline {{U}}}{\sqrt {x}}, x + 2 y \leq 4 0
+y = \frac{\overline {{U}}}{\sqrt{x}}, x + 2 y \leq 4 0
 $$
 
 Let's draw them on the same graph:
@@ -842,7 +842,7 @@ The latter  $= \frac{dy}{dx} = -MRS = -\frac{MU_x}{MU_y}$
 By removing the minus signs, the optimisation condition is:
 
 $$
-\frac {M U _ {x}}{M U _ {y}} = \frac {P _ {x}}{P _ {y}}
+\frac{M U _{x}}{M U _{y}} = \frac{P _{x}}{P _{y}}
 $$
 
 This optimisation method works perfectly well for convex functions, but does not work well
@@ -850,11 +850,11 @@ This optimisation method works perfectly well for convex functions, but does not
 for concave ones. Let's use the following conditions:
 
 $$
-U = x ^ {2} + y \rightarrow m a x
+U = x ^{2} + y \rightarrow m a x
 $$
 
 $$
-P _ {x} = 4, P _ {y} = 1, M = 3 2
+P _{x} = 4, P _{y} = 1, M = 3 2
 $$
 
 Let's again draw indifference curves and the budget constraint together:
@@ -870,7 +870,7 @@ As such, when the indifference curve is a concave function, the solution will be
 The next method of utility maximisation is quite similar to the previous one. It involves looking at the following expressions:
 
 $$
-\frac {M U _ {x}}{M C _ {x}}, \frac {M U _ {y}}{M C _ {y}}
+\frac{M U _{x}}{M C _{x}}, \frac{M U _{y}}{M C _{y}}
 $$
 
 This expression does not have a widely accepted name, so I would just call it the "MU-MC" value.
@@ -880,11 +880,11 @@ The "MU-MC" value of  $x$  shows the marginal utility per unit of cost spent on 
 So, for  $U = xy$  and  $P_x = 2$ ,  $P_y = 4$ :
 
 $$
-\frac {M U _ {x}}{M C _ {x}} = \frac {\frac {\partial U}{\partial x}}{P _ {x}} = \frac {y}{2}
+\frac{M U _{x}}{M C _{x}} = \frac{\frac{\partial U}{\partial x}}{P _{x}} = \frac{y}{2}
 $$
 
 $$
-\frac {M U _ {y}}{M C _ {y}} = \frac {\frac {\partial U}{\partial y}}{P _ {y}} = \frac {x}{4}
+\frac{M U _{y}}{M C _{y}} = \frac{\frac{\partial U}{\partial y}}{P _{y}} = \frac{x}{4}
 $$
 
 To maximise the function with this method we should look at how the "MU-MC" values of  $x$  and  $y$  change relative to each other with different values of  $x$  and  $y$ , and whether they eventually converge or not. Let's look at it more closely: Suppose for some combination of
@@ -892,13 +892,13 @@ To maximise the function with this method we should look at how the "MU-MC" valu
 $x,y$  ..
 
 $$
-\frac {M U _ {x}}{M C _ {x}} = \frac {y}{2} <   \frac {M U _ {y}}{M C _ {y}} = \frac {x}{4}
+\frac{M U _{x}}{M C _{x}} = \frac{y}{2} <   \frac{M U _{y}}{M C _{y}} = \frac{x}{4}
 $$
 
 It then means that an additional monetary unit spent on  $y$  will bring us more utility than an additional monetary unit spent on  $x$ . Consequently, it will be more valuable for the consumer to increase their consumption of  $y$ . Then, since  $y$  increases, so does  $\frac{MU_x}{MC_x} = \frac{y}{2}$ , going closer to the unchanging  $\frac{MU_y}{MC_y} = \frac{x}{4}$ . It will then be more valuable for the consumer to do so until  $\frac{MU_x}{MC_x} = \frac{MU_y}{MC_y}$ . Vice versa, if for some combination of  $x, y$ :
 
 $$
-\frac {M U _ {x}}{M C _ {x}} = \frac {y}{2} > \frac {M U _ {y}}{M C _ {y}} = \frac {x}{4}
+\frac{M U _{x}}{M C _{x}} = \frac{y}{2} > \frac{M U _{y}}{M C _{y}} = \frac{x}{4}
 $$
 
 It will also be more profitable to increase  $\mathbf{x}$ , thus increasing  $\frac{MU_y}{MC_y}$  until it is equal to the "MU-MC" value of  $\mathbf{x}$ .
@@ -906,7 +906,7 @@ It will also be more profitable to increase  $\mathbf{x}$ , thus increasing  $\f
 Thus, in this context the "MU-MC" values converge, so that:
 
 $$
-\frac {y}{2} = \frac {x}{4}
+\frac{y}{2} = \frac{x}{4}
 $$
 
 By rearranging:
@@ -928,7 +928,7 @@ Suppose we have a utility function  $U = x^{2} + 3y$ ,  $P_{x} = 2$ ,  $P_{y} = 
 Then:
 
 $$
-\frac {M U _ {x}}{M C _ {x}} = \frac {2 x}{2} = x, \frac {M U _ {y}}{M C _ {y}} = \frac {3}{3} = 1
+\frac{M U _{x}}{M C _{x}} = \frac{2 x}{2} = x, \frac{M U _{y}}{M C _{y}} = \frac{3}{3} = 1
 $$
 
 Suppose  $\frac{MU_x}{MC_x} >\frac{MU_y}{MC_y}$
@@ -972,7 +972,7 @@ a x = b y
 $$
 
 $$
-y = \frac {a x}{b}, m = \frac {a}{b}
+y = \frac{a x}{b}, m = \frac{a}{b}
 $$
 
 And so the optimum ratio will be  $y = mx$ .
@@ -998,7 +998,7 @@ where  $a$  and  $b$  are arbitrary constants (usually positive).
 In that case,
 
 $$
-M R S = \frac {M U _ {x}}{M U _ {y}} = \frac {a}{b}
+M R S = \frac{M U _{x}}{M U _{y}} = \frac{a}{b}
 $$
 
 which is a constant.
@@ -1008,7 +1008,7 @@ Cobb-Douglas Utility Function
 The Cobb-Douglas utility function looks as follows:
 
 $$
-U = A * x ^ {\alpha} * y ^ {\beta}
+U = A * x ^{\alpha} * y ^{\beta}
 $$
 
 , where  $\alpha$  and  $\beta$  represent the relative importance of x and y, and  $A$  is a constant.
@@ -1018,19 +1018,19 @@ This function is a good choice for many models because, as opposed to a linear o
 If we want to maximise, we can equalise the slopes, since the function is convex:
 
 $$
-M R S = \frac {M U _ {x}}{M U _ {y}} = \frac {\alpha * A * x ^ {\alpha - 1} y ^ {\beta}}{\beta * A * x ^ {\alpha} * y ^ {\beta - 1}} = \frac {\alpha * x ^ {\alpha - 1} y ^ {\beta}}{\beta * x ^ {\alpha} * y ^ {\beta - 1}} = \frac {P _ {x}}{P _ {y}}
+M R S = \frac{M U _{x}}{M U _{y}} = \frac{\alpha * A * x ^{\alpha - 1} y ^{\beta}}{\beta * A * x ^{\alpha} * y ^{\beta - 1}} = \frac{\alpha * x ^{\alpha - 1} y ^{\beta}}{\beta * x ^{\alpha} * y ^{\beta - 1}} = \frac{P _{x}}{P _{y}}
 $$
 
 Or:
 
 $$
-\frac {\alpha}{\beta} * \frac {x ^ {- 1}}{y ^ {- 1}} = \frac {\alpha}{\beta} * \frac {y}{x} = \frac {P _ {x}}{P _ {y}}
+\frac{\alpha}{\beta} * \frac{x ^{- 1}}{y ^{- 1}} = \frac{\alpha}{\beta} * \frac{y}{x} = \frac{P _{x}}{P _{y}}
 $$
 
 So:
 
 $$
-y = \frac {P _ {x} * \beta}{P _ {y} * \alpha} * x
+y = \frac{P _{x} * \beta}{P _{y} * \alpha} * x
 $$
 
 is our optimal relation between  $y$  and  $x$ .
@@ -1038,11 +1038,11 @@ is our optimal relation between  $y$  and  $x$ .
 If you then plug this into the utility function, you would get:
 
 $$
-x ^ {*} = \frac {\alpha}{\alpha + \beta} * \frac {M}{P _ {x}}
+x ^{*} = \frac{\alpha}{\alpha + \beta} * \frac{M}{P _{x}}
 $$
 
 $$
-y ^ {*} = \frac {\beta}{\alpha + \beta} * \frac {M}{P _ {y}}
+y ^{*} = \frac{\beta}{\alpha + \beta} * \frac{M}{P _{y}}
 $$
 
 In practice,  $\alpha$  and  $\beta$  usually follow the relation:
@@ -1056,7 +1056,7 @@ This is because in Economics it is common to represent relative importance as a 
 For example, in Macroeconomics one of the growth models is represented as:
 
 $$
-Y = A * K ^ {\alpha} * L ^ {1 - \alpha}
+Y = A * K ^{\alpha} * L ^{1 - \alpha}
 $$
 
 , where  $\mathrm{Y}$  is output (GDP),  $\mathrm{K}$ ,  $\mathrm{L}$  are capital and labour in the economy,  $\mathrm{A}$  is the total factor productivity, and  $\alpha$  is "capital share", that is, the part of the income that goes to capital (subsequently,  $1 - \alpha$  is labour share).
@@ -1068,11 +1068,11 @@ What we've done before in the Cobb-Douglas example - maximised utility for some 
 Hence, in our Cobb-Douglas example the demand functions are:
 
 $$
-x = \frac {\alpha}{\alpha + \beta} * \frac {M}{P _ {x}}
+x = \frac{\alpha}{\alpha + \beta} * \frac{M}{P _{x}}
 $$
 
 $$
-y = \frac {\beta}{\alpha + \beta} * \frac {M}{P _ {y}}
+y = \frac{\beta}{\alpha + \beta} * \frac{M}{P _{y}}
 $$
 
 As such, to find the demand function for some arbitrary utility function, we should treat the price of this good as a variable and the price of the other good as constant. For example:
@@ -1082,27 +1082,27 @@ U = x y \rightarrow m a x
 $$
 
 $$
-P _ {x}, P y, M = 4 0
+P _{x}, P y, M = 4 0
 $$
 
 By treating  $P_{x}$  as variable and  $P_{y}$  as constant (let's set  $P_{y} = c$ ):
 
 $$
-M R S = \frac {y}{x} = \frac {P _ {x}}{c}
+M R S = \frac{y}{x} = \frac{P _{x}}{c}
 $$
 
 By rearranging:
 
 $$
-y = \frac {P _ {x}}{c} x
+y = \frac{P _{x}}{c} x
 $$
 
 $$
-x * P _ {x} + \frac {P _ {x}}{c} x * c = 4 0
+x * P _{x} + \frac{P _{x}}{c} x * c = 4 0
 $$
 
 $$
-x = \frac {2 0}{P _ {x}}
+x = \frac{2 0}{P _{x}}
 $$
 
 Which is a demand function as a price of  $\mathbf{x}$ .
@@ -1124,19 +1124,19 @@ In that case, the optimal solution will be a corner solution, meaning that the c
 For example:
 
 $$
-\begin{array}{l} U = \sqrt {x} + y \rightarrow m a x \\ P x = P _ {y} = 1, M = 0. 1 \\ \end{array}
+\begin{array}{l} U = \sqrt{x} + y \rightarrow m a x \\ P x = P _{y} = 1, M = 0. 1 \\ \end{array}
 $$
 
 In that case:
 
 $$
-\frac {M U _ {x}}{M C _ {x}} = \frac {1}{2 \sqrt {x}}, \frac {M U _ {y}}{M C _ {y}} = 1
+\frac{M U _{x}}{M C _{x}} = \frac{1}{2 \sqrt{x}}, \frac{M U _{y}}{M C _{y}} = 1
 $$
 
 By considering two cases  $\frac{MU_x}{MC_x} > \frac{MU_y}{MC_y}$  and  $\frac{MU_x}{MC_x} < \frac{MU_y}{MC_y}$ , we can conclude that this combination converges. Hence:
 
 $$
-\frac {1}{2 \sqrt {x}} = 1 \Rightarrow x = \frac {1}{4}
+\frac{1}{2 \sqrt{x}} = 1 \Rightarrow x = \frac{1}{4}
 $$
 
 From the budget constraint  $(x + y = 0.1)$  we can clearly see that  $x = 0.25$  results in  $y = -0.15$ , which is not possible. Thus, the solution is the closest possible corner point, so  $x = 0.1$ .
@@ -1150,19 +1150,19 @@ Technically, it does not give the wrong answer, but rather an answer which does 
 # Hard problem 2
 
 $$
-U = x ^ {2} y \rightarrow m a x
+U = x ^{2} y \rightarrow m a x
 $$
 
 and
 
 $$
-P _ {x} = 2, P _ {y} = 4, M = 1 0 0
+P _{x} = 2, P _{y} = 4, M = 1 0 0
 $$
 
 Now, if we try to solve the problem using tangency to the indifference curve we would easily do it, since:
 
 $$
-y = \frac {\overline {{U}}}{x ^ {2}}
+y = \frac{\overline {{U}}}{x ^{2}}
 $$
 
 which is a convex function:
@@ -1172,11 +1172,11 @@ which is a convex function:
 As such, there will be a unique and optimal solution:
 
 $$
-M R S = \frac {P _ {x}}{P _ {y}}
+M R S = \frac{P _{x}}{P _{y}}
 $$
 
 $$
-\frac {2 x y}{x ^ {2}} = \frac {2 y}{x} = \frac {2}{4}
+\frac{2 x y}{x ^{2}} = \frac{2 y}{x} = \frac{2}{4}
 $$
 
 So that
@@ -1192,19 +1192,19 @@ $$
 $$
 
 $$
-y ^ {*} = \frac {2 5}{3}
+y ^{*} = \frac{2 5}{3}
 $$
 
 Thus,
 
 $$
-x ^ {*} = \frac {1 0 0}{3}
+x ^{*} = \frac{1 0 0}{3}
 $$
 
 However, the hard part starts when we try to use the "MU-MC" method. For our functions:
 
 $$
-\frac {M U _ {x}}{M C _ {x}} = \frac {2 x y}{2} = x y, \frac {M U _ {y}}{M C _ {y}} = \frac {x ^ {2}}{4}
+\frac{M U _{x}}{M C _{x}} = \frac{2 x y}{2} = x y, \frac{M U _{y}}{M C _{y}} = \frac{x ^{2}}{4}
 $$
 
 Suppose  $\frac{MU_x}{MC_x} >\frac{MU_y}{MC_y}$
@@ -1216,7 +1216,7 @@ Then, we can definitely say that  $\frac{MU_y}{MC_y} = \frac{x^2}{4}$  will incr
 Yet, it is then unclear what happens to  $\frac{MU_x}{MC_x} = xy$ . In fact, it can both increase or decrease, depending on  $x$  and  $y$ , since:
 
 $$
-\frac {\partial}{\partial x} \left(\frac {M U x}{M C x}\right) = y, \frac {\partial}{\partial y} \left(\frac {M U x}{M C x}\right) = x
+\frac{\partial}{\partial x} \left(\frac{M U x}{M C x}\right) = y, \frac{\partial}{\partial y} \left(\frac{M U x}{M C x}\right) = x
 $$
 
 Thus, if  $y > x$ ,  $\frac{MUx}{MCx}$  will increase, moving the two values further from convergence initially. As we established previously by looking at indifference curves, eventually convergence will happen. This is because when the consumer increases their consumption of  $x$  and decreases their consumption of  $y$ , eventually  $x$  becomes larger than  $y$  and so  $\frac{MUx}{MCx}$  goes down; thus convergence does happen.
@@ -1228,17 +1228,17 @@ To conclude, it does not matter whether the initial combination diverges. What m
 # Hard Problem 3
 
 $$
-U = \sqrt {x} + \sqrt {y} + \sqrt {z}
+U = \sqrt{x} + \sqrt{y} + \sqrt{z}
 $$
 
 $$
-P _ {x} = 1, P _ {y} = 2, P _ {z} = 3, M = 4 0
+P _{x} = 1, P _{y} = 2, P _{z} = 3, M = 4 0
 $$
 
 Here we come to the problem with equalising the slopes of the indifference curve and the budget constraint. Since we have 3 variables, we simply cannot make this happen with our current A-Level mathematical knowledge. And so, we need to use the "MU-MC" method.
 
 $$
-\frac {M U _ {x}}{M C _ {x}} = \frac {1}{2 \sqrt {x}}, \frac {M U _ {y}}{M C _ {y}} = \frac {1}{4 \sqrt {y}}, \frac {M U _ {z}}{M C _ {z}} = \frac {1}{6 \sqrt {z}}
+\frac{M U _{x}}{M C _{x}} = \frac{1}{2 \sqrt{x}}, \frac{M U _{y}}{M C _{y}} = \frac{1}{4 \sqrt{y}}, \frac{M U _{z}}{M C _{z}} = \frac{1}{6 \sqrt{z}}
 $$
 
 Suppose first that we treat  $\mathbf{z}$  as constant and change only  $\mathbf{x}$  and  $\mathbf{y}$ .
@@ -1250,13 +1250,13 @@ On the other hand, if  $\frac{MU_y}{MC_y} > \frac{MU_x}{MC_x}$ , then it is bene
 We can do the same with the two remaining pairs: "x-z", "y-z". As a consequence, we get:
 
 $$
-\left\{ \begin{array}{l} \frac {1}{2 \sqrt {x}} = \frac {1}{4 \sqrt {y}}, \\ \frac {1}{2 \sqrt {x}} = \frac {1}{6 \sqrt {z}}, \\ \frac {1}{4 \sqrt {y}} = \frac {1}{6 \sqrt {z}} \end{array} \right.
+\left\{ \begin{array}{l} \frac{1}{2 \sqrt{x}} = \frac{1}{4 \sqrt{y}}, \\ \frac{1}{2 \sqrt{x}} = \frac{1}{6 \sqrt{z}}, \\ \frac{1}{4 \sqrt{y}} = \frac{1}{6 \sqrt{z}} \end{array} \right.
 $$
 
 By simplifying and taking squares:
 
 $$
-\left\{ \begin{array}{l} x = 4 y, \\ x = 9 z, \\ y = \frac {9}{4} z \end{array} \right.
+\left\{ \begin{array}{l} x = 4 y, \\ x = 9 z, \\ y = \frac{9}{4} z \end{array} \right.
 $$
 
 And finally, by substituting this into the budget constraint:
@@ -1266,11 +1266,11 @@ x + 2 y + 3 z = 4 0
 $$
 
 $$
-4 y + 2 y + 3 * \frac {4}{9} y = 4 0
+4 y + 2 y + 3 * \frac{4}{9} y = 4 0
 $$
 
 $$
-y = \frac {6 0}{1 1}, z = \frac {8 0}{3 3}, x = \frac {2 4 0}{1 1}
+y = \frac{6 0}{1 1}, z = \frac{8 0}{3 3}, x = \frac{2 4 0}{1 1}
 $$
 
 And so, we maximised our utility. As such, we can use the "MU-MC" method to solve problems with 3 or more variables. As said before, if the "MU-MC" values diverge, this means that we spend all our budget on one good only.
@@ -1282,17 +1282,17 @@ The final method of utility maximisation is the Lagrangian Multiplier. This meth
 Suppose again:
 
 $$
-U = \sqrt {x} + \sqrt {y} + \sqrt {z}
+U = \sqrt{x} + \sqrt{y} + \sqrt{z}
 $$
 
 $$
-P _ {x} = 1, P _ {y} = 2, P _ {z} = 3, M = 4 0
+P _{x} = 1, P _{y} = 2, P _{z} = 3, M = 4 0
 $$
 
 The method involves setting the following function:
 
 $$
-\mathcal {L} = U (x, y, z) + \lambda (M - P _ {x} x - P _ {y} y - P _ {z} z)
+\mathcal {L} = U (x, y, z) + \lambda (M - P _{x} x - P _{y} y - P _{z} z)
 $$
 
 which is called the Lagrangian Multiplier
@@ -1300,25 +1300,25 @@ which is called the Lagrangian Multiplier
 And then solving:
 
 $$
-\left\{ \begin{array}{l} \frac {\partial \mathcal {L}}{\partial x} = M U _ {x} - \lambda p _ {x} = 0 \\ \frac {\partial \mathcal {L}}{\partial y} = M U _ {y} - \lambda p _ {y} = 0 \\ \frac {\partial \mathcal {L}}{\partial z} = M U _ {z} - \lambda p _ {z} = 0 \\ \frac {\partial \mathcal {L}}{\partial \lambda} = M - P _ {x} x - P _ {y} y - P _ {z} z = 0. \end{array} \right.
+\left\{ \begin{array}{l} \frac{\partial \mathcal {L}}{\partial x} = M U _{x} - \lambda p _{x} = 0 \\ \frac{\partial \mathcal {L}}{\partial y} = M U _{y} - \lambda p _{y} = 0 \\ \frac{\partial \mathcal {L}}{\partial z} = M U _{z} - \lambda p _{z} = 0 \\ \frac{\partial \mathcal {L}}{\partial \lambda} = M - P _{x} x - P _{y} y - P _{z} z = 0. \end{array} \right.
 $$
 
 Or, in our case:
 
 $$
-\left\{ \begin{array}{l l} \frac {\partial \mathcal {L}}{\partial x} = \frac {1}{2 \sqrt {x}} - \lambda = 0 \\ \frac {\partial \mathcal {L}}{\partial y} = \frac {1}{2 \sqrt {y}} - 2 \lambda = 0 \\ \frac {\partial \mathcal {L}}{\partial z} = \frac {1}{2 \sqrt {z}} - 3 \lambda = 0 \\ \frac {\partial \mathcal {L}}{\partial \lambda} = 4 0 - x - 2 y - 3 z = 0 \end{array} \right.
+\left\{ \begin{array}{l l} \frac{\partial \mathcal {L}}{\partial x} = \frac{1}{2 \sqrt{x}} - \lambda = 0 \\ \frac{\partial \mathcal {L}}{\partial y} = \frac{1}{2 \sqrt{y}} - 2 \lambda = 0 \\ \frac{\partial \mathcal {L}}{\partial z} = \frac{1}{2 \sqrt{z}} - 3 \lambda = 0 \\ \frac{\partial \mathcal {L}}{\partial \lambda} = 4 0 - x - 2 y - 3 z = 0 \end{array} \right.
 $$
 
 If we then rearrange the top three equations as  $\lambda = \ldots$  and move  $-x - 2y - 3z$  to the left of 0 in the last equation we would get:
 
 $$
-\left\{ \begin{array}{l} \lambda = \frac {1}{2 \sqrt {x}} \\ \lambda = \frac {1}{4 \sqrt {y}} \\ \lambda = \frac {1}{6 \sqrt {z}} \\ 4 0 = x + 2 y + 3 z \end{array} \right.
+\left\{ \begin{array}{l} \lambda = \frac{1}{2 \sqrt{x}} \\ \lambda = \frac{1}{4 \sqrt{y}} \\ \lambda = \frac{1}{6 \sqrt{z}} \\ 4 0 = x + 2 y + 3 z \end{array} \right.
 $$
 
 If you then look at this system carefully, the top three equations are identical to the ones which we got while trying to maximise the utility function using the "MU-MC" method, just not yet equalised:
 
 $$
-\left\{ \begin{array}{l} \frac {1}{2 \sqrt {x}} = \frac {1}{4 \sqrt {y}}, \\ \frac {1}{2 \sqrt {x}} = \frac {1}{6 \sqrt {z}}, \\ \frac {1}{4 \sqrt {y}} = \frac {1}{6 \sqrt {z}} \\ 4 0 = x + 2 y + 3 z \end{array} \right.
+\left\{ \begin{array}{l} \frac{1}{2 \sqrt{x}} = \frac{1}{4 \sqrt{y}}, \\ \frac{1}{2 \sqrt{x}} = \frac{1}{6 \sqrt{z}}, \\ \frac{1}{4 \sqrt{y}} = \frac{1}{6 \sqrt{z}} \\ 4 0 = x + 2 y + 3 z \end{array} \right.
 $$
 
 Where the fourth equation is just the budget constraint.
@@ -1388,7 +1388,7 @@ T C = 2 K + L \rightarrow m i n
 $$
 
 $$
-Q = 3 \sqrt {L} + 5 K
+Q = 3 \sqrt{L} + 5 K
 $$
 
 # 4.2.1 Method 1: Brute Force
@@ -1396,13 +1396,13 @@ $$
 As we said before, the goal is to minimise the cost under a given quantity. As such, we can treat  $Q$  as a constant. Because of that, we can then express  $K$  as a function of  $L$  for a given  $Q$ :
 
 $$
-K = \frac {Q - 3 \sqrt {L}}{5}
+K = \frac{Q - 3 \sqrt{L}}{5}
 $$
 
 By substituting this into the TC function:
 
 $$
-T C = 2 * \left(\frac {Q - 3 \sqrt {L}}{5}\right) + L
+T C = 2 * \left(\frac{Q - 3 \sqrt{L}}{5}\right) + L
 $$
 
 Since we don't like to work with square roots, let's make a substitution:  $\sqrt{L} = t, L = t^2$ .
@@ -1410,7 +1410,7 @@ Since we don't like to work with square roots, let's make a substitution:  $\sqr
 Then, TC becomes:
 
 $$
-T C = \frac {2}{5} (Q - 3 t) + t ^ {2}
+T C = \frac{2}{5} (Q - 3 t) + t ^{2}
 $$
 
 If we plot this as a function of  $t$  with a parameter  $Q$ , we can clearly see that this is a parabola that has a minimum at the vertex:
@@ -1420,7 +1420,7 @@ If we plot this as a function of  $t$  with a parameter  $Q$ , we can clearly se
 By using the formula for a vertex, we can deduce that:
 
 $$
-t ^ {*} = \frac {- - \frac {6}{5}}{2 * 1} = \frac {3}{5}
+t ^{*} = \frac{- - \frac{6}{5}}{2 * 1} = \frac{3}{5}
 $$
 
 Hence,  $L^{*} = \frac{9}{25}$
@@ -1428,7 +1428,7 @@ Hence,  $L^{*} = \frac{9}{25}$
 Since  $K = \frac{Q - 3\sqrt{L}}{5}$ :
 
 $$
-K ^ {*} = \frac {Q - 3 * \frac {3}{5}}{5} = \frac {Q - \frac {9}{5}}{5}
+K ^{*} = \frac{Q - 3 * \frac{3}{5}}{5} = \frac{Q - \frac{9}{5}}{5}
 $$
 
 However, as you might notice,  $\mathrm{K}$  will be negative for  $Q < \frac{9}{5}$ , which contradicts our assumption
@@ -1436,7 +1436,7 @@ However, as you might notice,  $\mathrm{K}$  will be negative for  $Q < \frac{9}
 that  $\mathrm{K}$  is non-negative. Thus, by taking the closest point that fits into our assumption  $(\mathrm{K} = 0)$ , we get:
 
 $$
-K = \left\{ \begin{array}{l} 0, Q \leq \frac {9}{5} \\ \frac {Q - \frac {9}{5}}{5}, Q > \frac {9}{5} \end{array} \right.
+K = \left\{ \begin{array}{l} 0, Q \leq \frac{9}{5} \\ \frac{Q - \frac{9}{5}}{5}, Q > \frac{9}{5} \end{array} \right.
 $$
 
 This means that to produce any quantity of the good that is less than  $\frac{9}{5}$ , we do not use capital at all, producing every bit with labour only.
@@ -1444,17 +1444,17 @@ This means that to produce any quantity of the good that is less than  $\frac{9}
 Thus, for  $Q < \frac{9}{5}$ :
 
 $$
-Q = 3 \sqrt {L} + 0
+Q = 3 \sqrt{L} + 0
 $$
 
 so that
 
 $$
-L = \frac {Q ^ {2}}{9}
+L = \frac{Q ^{2}}{9}
 $$
 
 $$
-L = \left\{ \begin{array}{l} \frac {Q ^ {2}}{9}, Q \leq \frac {9}{5} \\ \frac {9}{2 5}, Q > \frac {9}{5} \end{array} \right.
+L = \left\{ \begin{array}{l} \frac{Q ^{2}}{9}, Q \leq \frac{9}{5} \\ \frac{9}{2 5}, Q > \frac{9}{5} \end{array} \right.
 $$
 
 *Note that both L and K should be more than zero for every Q. We checked for  $\mathrm{K} > 0$  and we can clearly see that  $\mathrm{L} > 0$  for any positive Q, so we are fine.
@@ -1462,7 +1462,7 @@ $$
 Then, by substituting those values into the TC formula:
 
 $$
-T C = \left\{ \begin{array}{l} \frac {Q ^ {2}}{9}, Q \leq \frac {9}{5} \\ 2 * \frac {Q - \frac {9}{5}}{5} + \frac {9}{2 5}, Q > \frac {9}{5} \end{array} \right.
+T C = \left\{ \begin{array}{l} \frac{Q ^{2}}{9}, Q \leq \frac{9}{5} \\ 2 * \frac{Q - \frac{9}{5}}{5} + \frac{9}{2 5}, Q > \frac{9}{5} \end{array} \right.
 $$
 
 # 4.2.2 Method 2: MP-MC Method
@@ -1472,17 +1472,17 @@ As with utility, using marginal functions could be beneficial. However, this tim
 Similarly to the utility:
 
 $$
-\frac {M P _ {K}}{M C _ {K}} = \frac {\frac {\partial Q}{\partial K}}{\frac {\partial T C}{\partial K}}
+\frac{M P _{K}}{M C _{K}} = \frac{\frac{\partial Q}{\partial K}}{\frac{\partial T C}{\partial K}}
 $$
 
 $$
-\frac {M P _ {L}}{M C _ {L}} = \frac {\frac {\partial Q}{\partial L}}{\frac {\partial T C}{\partial L}}
+\frac{M P _{L}}{M C _{L}} = \frac{\frac{\partial Q}{\partial L}}{\frac{\partial T C}{\partial L}}
 $$
 
 Let's consider an example:
 
 $$
-Q = \sqrt {K} + \sqrt {L}
+Q = \sqrt{K} + \sqrt{L}
 $$
 
 $$
@@ -1498,11 +1498,11 @@ $$
 And then,
 
 $$
-\frac {M P _ {K}}{M C _ {K}} = \frac {1}{2 \sqrt {K}}
+\frac{M P _{K}}{M C _{K}} = \frac{1}{2 \sqrt{K}}
 $$
 
 $$
-\frac {M P _ {L}}{M C _ {L}} = \frac {1}{4 \sqrt {L}}
+\frac{M P _{L}}{M C _{L}} = \frac{1}{4 \sqrt{L}}
 $$
 
 $^*$  since  $MC_{K} = r, MC_{L} = w$  by definition.
@@ -1514,7 +1514,7 @@ On the other hand, if  $\frac{MP_K}{MC_K} < \frac{MP_L}{MC_L}$ , then it is bene
 Thus, the optimal production will be when:
 
 $$
-\frac {M P _ {K}}{M C _ {K}} = \frac {1}{2 \sqrt {K}} = \frac {M P _ {L}}{M C _ {L}} = \frac {1}{4 \sqrt {L}}
+\frac{M P _{K}}{M C _{K}} = \frac{1}{2 \sqrt{K}} = \frac{M P _{L}}{M C _{L}} = \frac{1}{4 \sqrt{L}}
 $$
 
 So,
@@ -1526,17 +1526,17 @@ $$
 We can then substitute into the production function:
 
 $$
-Q = \sqrt {4 L} + \sqrt {L} = 3 \sqrt {L}
+Q = \sqrt{4 L} + \sqrt{L} = 3 \sqrt{L}
 $$
 
 $$
-L = \frac {Q ^ {2}}{9}
+L = \frac{Q ^{2}}{9}
 $$
 
 Finally, by substituting this into the TC function:
 
 $$
-T C = 4 L + 2 L = 6 * \frac {Q ^ {2}}{9} = \frac {2 Q ^ {2}}{3}
+T C = 4 L + 2 L = 6 * \frac{Q ^{2}}{9} = \frac{2 Q ^{2}}{3}
 $$
 
 which is the final answer.
@@ -1546,7 +1546,7 @@ However, as seen before in utility, "MP-MC" values might diverge. Let's look at 
 Suppose
 
 $$
-Q = 2 K ^ {2} + 3 L ^ {3}
+Q = 2 K ^{2} + 3 L ^{3}
 $$
 
 $$
@@ -1556,7 +1556,7 @@ $$
 Then,
 
 $$
-\frac {M P _ {K}}{M C _ {K}} = \frac {4 K}{1}, \frac {M P _ {L}}{M C _ {L}} = \frac {9 L ^ {2}}{1}
+\frac{M P _{K}}{M C _{K}} = \frac{4 K}{1}, \frac{M P _{L}}{M C _{L}} = \frac{9 L ^{2}}{1}
 $$
 
 Suppose that  $\frac{MP_K}{MC_K} > \frac{MP_L}{MC_L}$ . Then it is beneficial for the consumer to increase K and decrease L. However, as you can see, this will then increase  $\frac{MP_K}{MC_K}$  and decrease  $\frac{MP_L}{MC_L}$ , meaning divergence. Vice versa, if  $\frac{MP_K}{MC_K} < \frac{MP_L}{MC_L}$ , it is beneficial to increase L and decrease K, leading to divergence once again.
@@ -1566,39 +1566,39 @@ By the same logic as before, when the "MP-MC" values diverge, we set either  $\m
 if  $\mathrm{L} = 0$
 
 $$
-Q = 2 K ^ {2}
+Q = 2 K ^{2}
 $$
 
 $$
-T C = 0 + K = \sqrt {\frac {Q}{2}}
+T C = 0 + K = \sqrt{\frac{Q}{2}}
 $$
 
 if  $\mathrm{K} = 0$
 
 $$
-Q = 3 L ^ {3}
+Q = 3 L ^{3}
 $$
 
 $$
-T C = 0 + L = \sqrt [ 3 ]{\frac {Q}{3}}
+T C = 0 + L = \sqrt [ 3 ]{\frac{Q}{3}}
 $$
 
 Now, let's solve:
 
 $$
-\sqrt {\frac {Q}{2}} > \sqrt [ 3 ]{\frac {Q}{3}}
+\sqrt{\frac{Q}{2}} > \sqrt [ 3 ]{\frac{Q}{3}}
 $$
 
 Leading to:
 
 $$
-Q > \frac {8}{9}
+Q > \frac{8}{9}
 $$
 
 Hence, the optimal cost function will be:
 
 $$
-T C = \left\{ \begin{array}{l} \sqrt {\frac {Q}{2}}, 0 <   Q <   \frac {8}{9} \\ \sqrt [ 3 ]{\frac {Q}{3}}, Q \geq \frac {8}{9} \end{array} \right.
+T C = \left\{ \begin{array}{l} \sqrt{\frac{Q}{2}}, 0 <   Q <   \frac{8}{9} \\ \sqrt [ 3 ]{\frac{Q}{3}}, Q \geq \frac{8}{9} \end{array} \right.
 $$
 
 Meaning that for  $0 < Q < \frac{8}{9}$  we use capital only, whereas for  $Q \geq \frac{8}{9}$  we use laboronly.
@@ -1616,7 +1616,7 @@ Let's first remind ourselves of the main types of costs:
 TC - total costs. This is just a function representing how much in total it would cost to produce some output Q. For instance:
 
 $$
-T C = 4 Q ^ {2} + 3 Q + 1
+T C = 4 Q ^{2} + 3 Q + 1
 $$
 
 VC - Variable Costs. These costs depend on the output, and could represent, say, materials used during the production process, labour costs used to produce a unit of output, etc.
@@ -1640,7 +1640,7 @@ $$
 ATC - average total costs. These represent the average cost of producing a unit of output. Mathematically:
 
 $$
-A T C (Q) = \frac {T C (Q)}{Q}
+A T C (Q) = \frac{T C (Q)}{Q}
 $$
 
 AVC, AFC - average variable/fixed costs. Similarly, these represent the average variable cost of producing a unit of output and the average fixed cost of producing a unit of output.
@@ -1648,7 +1648,7 @@ AVC, AFC - average variable/fixed costs. Similarly, these represent the average 
 Note that while  $AVC$  might have any shape, depending on the  $VC$  function (we will look at the standard  $AVC$  function later),  $AFC$  would always be a single function that looks like:
 
 $$
-A F C = \frac {c}{Q}
+A F C = \frac{c}{Q}
 $$
 
 , where c is a constant.
@@ -1656,7 +1656,7 @@ $$
 and,AVC:
 
 $$
-A V C = \frac {V C (Q)}{Q} = \frac {T C (Q) - F C}{Q} = A T C (Q) - A F C (Q)
+A V C = \frac{V C (Q)}{Q} = \frac{T C (Q) - F C}{Q} = A T C (Q) - A F C (Q)
 $$
 
 MC - marginal cost. The marginal cost, as we learned earlier, represents the cost of an extra unit of the good produced.
@@ -1670,13 +1670,13 @@ $$
 However, if goods are infinitely divisible (which in most cases is true):
 
 $$
-M C = \lim _ {\triangle Q \to 0} f (Q) \frac {T C (Q + \triangle Q) - T C (Q)}{\triangle Q}
+M C = \lim _{\triangle Q \to 0} f (Q) \frac{T C (Q + \triangle Q) - T C (Q)}{\triangle Q}
 $$
 
 which is by definition:
 
 $$
-M C = \frac {d}{d Q} (T C (Q))
+M C = \frac{d}{d Q} (T C (Q))
 $$
 
 This means that if  $MC = 2Q$ , then if  $Q = 3$  was already produced, the next infinitely small unit of the good would cost an extra 6 monetary units.
@@ -1698,13 +1698,13 @@ The point denoted as "inflection" is the point of inflection of the curve - when
 Before the point of inflection, then:
 
 $$
-\frac {d ^ {2} f}{d L ^ {2}} > 0
+\frac{d ^{2} f}{d L ^{2}} > 0
 $$
 
 or, in other words:
 
 $$
-\frac {d}{d L} \left(\frac {d f}{d L}\right) > 0
+\frac{d}{d L} \left(\frac{d f}{d L}\right) > 0
 $$
 
 This tells us that the rate at which output is growing is increasing. Based on theory, we know this happens because of specialisation: when workers produce more they practise and master the skills required for the job.
@@ -1716,7 +1716,7 @@ At this point, we are no longer getting any benefits from specialisation; rather
 This behaviour can be achieved via the following standard cubic function:
 
 $$
-f (L) = a + b L + c L ^ {2} + d L ^ {3}
+f (L) = a + b L + c L ^{2} + d L ^{3}
 $$
 
 where:
@@ -1728,17 +1728,17 @@ $$
 For example:
 
 $$
-f (L) = 3 L + 8 L ^ {2} - L ^ {3}
+f (L) = 3 L + 8 L ^{2} - L ^{3}
 $$
 
 we can then use this to derive marginal product and average product:
 
 $$
-M P = \frac {d f}{d L} = 3 + 1 6 L - 3 L ^ {2}
+M P = \frac{d f}{d L} = 3 + 1 6 L - 3 L ^{2}
 $$
 
 $$
-A P = \frac {f (L)}{L} = 3 + 8 L - L ^ {2}
+A P = \frac{f (L)}{L} = 3 + 8 L - L ^{2}
 $$
 
 Let's draw them all together:
@@ -1760,7 +1760,7 @@ As we can see, the  $TC$  function is constantly increasing. However, before  $Q
 When the function is concave, this means that:
 
 $$
-\frac {d}{d Q} \left(\frac {d T C}{d Q}\right) <   0
+\frac{d}{d Q} \left(\frac{d T C}{d Q}\right) <   0
 $$
 
 Meaning that the rate at which  $TC$  grows is decreasing with every Q. This is because workers become more specialised, thus produce more goods in one labour hour (what we saw previously with the production function). Assuming constant wages, the same monetary unit then brings higher output, meaning the rate of growth of  $TC$  decreases ( $MC$  decreases).
@@ -1770,7 +1770,7 @@ However, after  $Q = 40$ , those benefits of specialisation are offset by misman
 This function behaviour could be achieved with a cubic function:
 
 $$
-T C (Q) = a Q ^ {3} - b Q ^ {2} + c Q + d
+T C (Q) = a Q ^{3} - b Q ^{2} + c Q + d
 $$
 
 , where
@@ -1782,7 +1782,7 @@ $$
 For example:
 
 $$
-T C (Q) = 0. 0 0 5 Q ^ {3} - 0. 6 Q ^ {2} + 2 5 Q + 5 0 0
+T C (Q) = 0. 0 0 5 Q ^{3} - 0. 6 Q ^{2} + 2 5 Q + 5 0 0
 $$
 
 which is depicted in the graph above.
@@ -1790,7 +1790,7 @@ which is depicted in the graph above.
 Then, for this TC function:
 
 $$
-V C (Q) = 0. 0 0 5 Q ^ {3} - 0. 6 Q ^ {2} + 2 5 Q
+V C (Q) = 0. 0 0 5 Q ^{3} - 0. 6 Q ^{2} + 2 5 Q
 $$
 
 $$
@@ -1798,17 +1798,17 @@ F C (Q) = 5 0 0
 $$
 
 $$
-M C (Q) = 0. 0 1 5 Q ^ {2} - 1. 2 Q + 2 5.
+M C (Q) = 0. 0 1 5 Q ^{2} - 1. 2 Q + 2 5.
 $$
 
 so:
 
 $$
-A V C (Q) = 0. 0 0 5 Q ^ {2} - 0. 6 Q + 2 5
+A V C (Q) = 0. 0 0 5 Q ^{2} - 0. 6 Q + 2 5
 $$
 
 $$
-A F C (Q) = \frac {5 0 0}{Q}
+A F C (Q) = \frac{5 0 0}{Q}
 $$
 
 Let's first plot AFC:
@@ -1842,15 +1842,15 @@ This is another useful property in cost theory. You can explore how the graphs b
 Let's also look at  $ATC$  vs  $AVC$ :
 
 $$
-\text {i f} T C = 0. 0 0 5 Q ^ {3} - 0. 6 Q ^ {2} + 2 5 Q + 5 0 0:
+\text{if } T C = 0. 0 0 5 Q ^{3} - 0. 6 Q ^{2} + 2 5 Q + 5 0 0:
 $$
 
 $$
-A T C = 0. 0 0 5 Q ^ {2} - 0. 6 Q + 2 5 + \frac {5 0 0}{Q}
+A T C = 0. 0 0 5 Q ^{2} - 0. 6 Q + 2 5 + \frac{5 0 0}{Q}
 $$
 
 $$
-A V C = 0. 0 0 5 Q ^ {2} - 0. 6 Q + 2 5
+A V C = 0. 0 0 5 Q ^{2} - 0. 6 Q + 2 5
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/f1c5e64e-4746-468f-9197-552ab4bd1c5e/e63280f07302f73827be56afcd2dc7bc7bc22a834e2c46c15e679bec926ceedd.jpg)
@@ -1898,7 +1898,7 @@ $$
 or
 
 $$
-T R = (4 0 - 2 Q) Q = 4 0 Q - 2 Q ^ {2}
+T R = (4 0 - 2 Q) Q = 4 0 Q - 2 Q ^{2}
 $$
 
 By differentiating:
@@ -1920,17 +1920,17 @@ The optimum quantity for a monopoly firm occurs when  $MR = MC$ . This is becaus
 By solving  $MR = MC$ :
 
 $$
-4 0 - 4 Q = 0. 1 5 Q ^ {2} - 1. 2 Q + 2 5
+4 0 - 4 Q = 0. 1 5 Q ^{2} - 1. 2 Q + 2 5
 $$
 
 $$
-Q ^ {*} = 4. 3 4 (2 d p)
+Q ^{*} = 4. 3 4 (2 d p)
 $$
 
 We then find the price from the demand curve, because it's the maximum price consumers are ready to pay for the given  $Q^{*}$ :
 
 $$
-P ^ {*} = 4 0 - 2 * 4. 3 4 = 3 1. 3 2 (2 d p)
+P ^{*} = 4 0 - 2 * 4. 3 4 = 3 1. 3 2 (2 d p)
 $$
 
 At  $(Q^{*},P^{*}):(4.34,31.32)$
@@ -1944,7 +1944,7 @@ Thus, the supernormal profit is marked by the red rectangle, where the blue dot 
 Numerically, it will be:
 
 $$
-\pi = P * Q ^ {*} - A T C * Q ^ {*} = 4. 3 4 (3 1. 3 2 - 2 5. 6 4) = 2 4. 6 5 (2 d p)
+\pi = P * Q ^{*} - A T C * Q ^{*} = 4. 3 4 (3 1. 3 2 - 2 5. 6 4) = 2 4. 6 5 (2 d p)
 $$
 
 This is it for standard cost functions and monopolies.
@@ -1954,7 +1954,7 @@ This is it for standard cost functions and monopolies.
 Suppose we have two factories and each factory has a certain cost function. Suppose also we have an arbitrary quantity  $Q$  that we want to produce. The question is then how we are going to split production between the two factories so that we can produce the value  $Q$  at the lowest cost. In other words, we want to find such a function  $TC(Q)$  that will show how much it would cost us to produce a certain amount of good  $Q$  if we produce it in the most efficient way. Let's look at the example:
 
 $$
-T C: \left\{ \begin{array}{l} T C _ {1} = Q _ {1} ^ {2} \\ T C _ {2} = Q _ {2} \end{array} \right.
+T C: \left\{ \begin{array}{l} T C _{1} = Q _{1} ^{2} \\ T C _{2} = Q _{2} \end{array} \right.
 $$
 
 $$
@@ -1970,13 +1970,13 @@ Again, there are two main methods: the brute-force one and the marginal one.
 Since we have only two factories to produce and an overall quantity  $Q$ , we can deduce that:
 
 $$
-Q = Q _ {1} + Q _ {2}
+Q = Q _{1} + Q _{2}
 $$
 
 and
 
 $$
-T C = T C _ {1} (Q _ {1}) + T C _ {2} (Q _ {2}) = Q _ {1} ^ {2} + Q _ {2}
+T C = T C _{1} (Q _{1}) + T C _{2} (Q _{2}) = Q _{1} ^{2} + Q _{2}
 $$
 
 Let's then treat  $Q$  as a parameter and  $Q_{1}$  and  $Q_{2}$  as variables and try to minimise our total cost based on that. The idea is simple: express  $Q_{1}$  or  $Q_{2}$  as a function of  $Q$  (where  $Q$  is a parameter) and the other variable, and then minimise (because we want to produce for the lowest cost) a function of one variable with a parameter, as we did before.
@@ -1984,11 +1984,11 @@ Let's then treat  $Q$  as a parameter and  $Q_{1}$  and  $Q_{2}$  as variables a
 As we can see, we can express both  $Q_{1}$  in terms of  $Q_{2}$  and vice versa. However, since in  $TC = Q_{1}^{2} + Q_{2}Q_{2}$  is to the power of one, while  $Q_{1}$  is to the power of two, it will be easier to substitute  $Q_{2}$  as a function of  $Q_{1}$ :
 
 $$
-Q _ {2} = Q - Q _ {1}
+Q _{2} = Q - Q _{1}
 $$
 
 $$
-T C = Q _ {1} ^ {2} + Q - Q _ {1} = Q _ {1} ^ {2} - Q _ {1} + Q \rightarrow m i n
+T C = Q _{1} ^{2} + Q - Q _{1} = Q _{1} ^{2} - Q _{1} + Q \rightarrow m i n
 $$
 
 As we can see, this is a parabola in terms of  $Q_{1}$  that opens up. Thus, it has the minimum at the vertex.
@@ -1996,13 +1996,13 @@ As we can see, this is a parabola in terms of  $Q_{1}$  that opens up. Thus, it 
 Using the formula, we can deduce that:
 
 $$
-Q _ {1} ^ {*} = \frac {- - 1}{2 * 1} = \frac {1}{2}
+Q _{1} ^{*} = \frac{- - 1}{2 * 1} = \frac{1}{2}
 $$
 
 As such:
 
 $$
-Q _ {2} = Q - \frac {1}{2}
+Q _{2} = Q - \frac{1}{2}
 $$
 
 But we must not forget that  $Q_{1} \geq 0$  and  $Q_{2} \geq 0$ .
@@ -2012,17 +2012,17 @@ Thus, when  $Q \leq \frac{1}{2} Q_{2} = 0$  (since when the optimum solution doe
 As a result:
 
 $$
-Q _ {2} ^ {*} = \left\{ \begin{array}{l} 0, Q \leq \frac {1}{2} \\ Q - \frac {1}{2}, Q > \frac {1}{2} \end{array} \right.
+Q _{2} ^{*} = \left\{ \begin{array}{l} 0, Q \leq \frac{1}{2} \\ Q - \frac{1}{2}, Q > \frac{1}{2} \end{array} \right.
 $$
 
 $$
-Q _ {1} ^ {*} = \left\{ \begin{array}{l} Q, Q \leq \frac {1}{2} \\ \frac {1}{2}, Q > \frac {1}{2} \end{array} \right.
+Q _{1} ^{*} = \left\{ \begin{array}{l} Q, Q \leq \frac{1}{2} \\ \frac{1}{2}, Q > \frac{1}{2} \end{array} \right.
 $$
 
 Combining those two together:
 
 $$
-T C (Q) = \left\{ \begin{array}{l} Q ^ {2}, Q \leq \frac {1}{2} \\ \frac {1}{4} + Q - \frac {1}{2} = Q - \frac {1}{4}, Q > \frac {1}{2} \end{array} \right.
+T C (Q) = \left\{ \begin{array}{l} Q ^{2}, Q \leq \frac{1}{2} \\ \frac{1}{4} + Q - \frac{1}{2} = Q - \frac{1}{4}, Q > \frac{1}{2} \end{array} \right.
 $$
 
 Note that a good way to check whether you've done something wrong with finding an overall TC function (although one which doesn't guarantee that you found an optimum) is to check the values of  $\mathrm{TC(Q)}$  at the boundary points:
@@ -2030,7 +2030,7 @@ Note that a good way to check whether you've done something wrong with finding a
 Here, the boundary point is  $Q = \frac{1}{2}$ . Thus, at  $Q = \frac{1}{2}$ :
 
 $$
-T C = \left\{ \begin{array}{l} (\frac {1}{2}) ^ {2} = \frac {1}{4} \\ \frac {1}{2} - \frac {1}{4} = \frac {1}{4} \end{array} \right.
+T C = \left\{ \begin{array}{l} (\frac{1}{2}) ^{2} = \frac{1}{4} \\ \frac{1}{2} - \frac{1}{4} = \frac{1}{4} \end{array} \right.
 $$
 
 This is a necessary but insufficient condition for checking whether your solution is correct.
@@ -2040,7 +2040,7 @@ This is a necessary but insufficient condition for checking whether your solutio
 Let's try to solve the same problem using MC:
 
 $$
-T C: \left\{ \begin{array}{l} T C _ {1} = Q _ {1} ^ {2} \\ T C _ {2} = Q _ {2} \end{array} \right.
+T C: \left\{ \begin{array}{l} T C _{1} = Q _{1} ^{2} \\ T C _{2} = Q _{2} \end{array} \right.
 $$
 
 $$
@@ -2050,11 +2050,11 @@ $$
 Let's find  $MC_{1}$  and  $MC_{2}$  and look at them on the same graph (by treating  $Q_{1}, Q_{2}$  as a single variable (for now)):
 
 $$
-M C _ {1} = \frac {d}{d Q _ {1}} (T C _ {1}) = 2 Q _ {1}
+M C _{1} = \frac{d}{d Q _{1}} (T C _{1}) = 2 Q _{1}
 $$
 
 $$
-M C _ {2} = \frac {d}{d Q _ {2}} (T C _ {2}) = 1
+M C _{2} = \frac{d}{d Q _{2}} (T C _{2}) = 1
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/f1c5e64e-4746-468f-9197-552ab4bd1c5e/a3507724a26b16240ba79b80b1cb3c410ef5e2f934838c4d6de7aa542ed1045f.jpg)
@@ -2062,17 +2062,17 @@ $$
 As you can clearly see, before  $Q = 0.5$ , the MC of producing an extra unit of the good is smaller for the first factory. However, when  $Q$  reaches 0.5, an extra unit of the good becomes less expensive to produce at the second factory. As a consequence, for every quantity below  $Q = 0.5$ , we would use only the first factory to produce, while  $Q_{2}$  will remain zero. However, for every quantity above  $Q = 0.5$ , we would only produce at the first factory  $Q_{1} = 0.5$  and then swap over to the second factory to produce the rest. As such, we get a similar result to the first method:
 
 $$
-Q _ {1} ^ {*} = \left\{ \begin{array}{l} Q, Q \leq \frac {1}{2} \\ \frac {1}{2}, Q > \frac {1}{2} \end{array} \right.
+Q _{1} ^{*} = \left\{ \begin{array}{l} Q, Q \leq \frac{1}{2} \\ \frac{1}{2}, Q > \frac{1}{2} \end{array} \right.
 $$
 
 $$
-Q _ {2} ^ {*} = \left\{ \begin{array}{l} 0, Q \leq \frac {1}{2} \\ Q - \frac {1}{2}, Q > \frac {1}{2} \end{array} \right.
+Q _{2} ^{*} = \left\{ \begin{array}{l} 0, Q \leq \frac{1}{2} \\ Q - \frac{1}{2}, Q > \frac{1}{2} \end{array} \right.
 $$
 
 So, we would get the same answer:
 
 $$
-T C (Q) = \left\{ \begin{array}{l} Q ^ {2}, Q \leq \frac {1}{2} \\ \frac {1}{4} + Q - \frac {1}{2} = Q - \frac {1}{4}, Q > \frac {1}{2} \end{array} \right.
+T C (Q) = \left\{ \begin{array}{l} Q ^{2}, Q \leq \frac{1}{2} \\ \frac{1}{4} + Q - \frac{1}{2} = Q - \frac{1}{4}, Q > \frac{1}{2} \end{array} \right.
 $$
 
 # 4.4.3 Hard Problems
@@ -2082,19 +2082,19 @@ $$
 Using the marginal cost to find the optimal production split might be slightly less obvious if both  $MC_{1}$  and  $MC_{2}$  become non-linear. Let's look at an example:
 
 $$
-T C: \left\{ \begin{array}{l} T C _ {1} = 2 Q _ {1} ^ {2} \\ T C _ {2} = Q _ {2} ^ {2} + Q _ {2} \end{array} \right.
+T C: \left\{ \begin{array}{l} T C _{1} = 2 Q _{1} ^{2} \\ T C _{2} = Q _{2} ^{2} + Q _{2} \end{array} \right.
 $$
 
 then:
 
 $$
-T C = 2 Q _ {1} ^ {2} + Q _ {2} ^ {2} + Q _ {2}
+T C = 2 Q _{1} ^{2} + Q _{2} ^{2} + Q _{2}
 $$
 
 Let's first find MC:
 
 $$
-M C: \left\{ \begin{array}{l} M C _ {1} = 4 Q _ {1} \\ M C _ {2} = 2 Q _ {2} + 1 \end{array} \right.
+M C: \left\{ \begin{array}{l} M C _{1} = 4 Q _{1} \\ M C _{2} = 2 Q _{2} + 1 \end{array} \right.
 $$
 
 Now, let's use the same method we've used previously:
@@ -2106,41 +2106,41 @@ Similarly, if  $MC_{1} > MC_{2}$ , we increase  $Q_{2}$  and decrease  $Q_{1}$ ,
 As a result, in the optimum the MCs will converge, meaning:
 
 $$
-M C _ {1} = M C _ {2}
+M C _{1} = M C _{2}
 $$
 
 so:
 
 $$
-4 Q _ {1} = 2 Q _ {2} + 1
+4 Q _{1} = 2 Q _{2} + 1
 $$
 
 or
 
 $$
-Q _ {1} = \frac {2 Q _ {2} + 1}{4}
+Q _{1} = \frac{2 Q _{2} + 1}{4}
 $$
 
 As we remembered previously:
 
 $$
-Q _ {1} + Q _ {2} = Q
+Q _{1} + Q _{2} = Q
 $$
 
 so:
 
 $$
-\frac {2 Q _ {2} + 1}{4} + Q _ {2} = Q
+\frac{2 Q _{2} + 1}{4} + Q _{2} = Q
 $$
 
 $$
-2 Q _ {2} + 1 + 4 Q _ {2} = 4 Q
+2 Q _{2} + 1 + 4 Q _{2} = 4 Q
 $$
 
 as such:
 
 $$
-Q _ {2} ^ {*} = \frac {4 Q - 1}{6}
+Q _{2} ^{*} = \frac{4 Q - 1}{6}
 $$
 
 Note that for  $Q < 0.25$ $Q_{2}$  becomes less than zero, which does not fit our assumption of  $Q_{2} \geq 0$ . As a consequence, for  $Q < 0.25$ $Q_{2} = 0$  and  $Q_{1} = Q$ .
@@ -2148,13 +2148,13 @@ Note that for  $Q < 0.25$ $Q_{2}$  becomes less than zero, which does not fit ou
 You could actually see that  $Q_{2} = 0$  for  $Q < 0.25$  even without equalising MC. Note that
 
 $$
-M C _ {2} = 2 Q _ {2} + 1
+M C _{2} = 2 Q _{2} + 1
 $$
 
 , while
 
 $$
-M C _ {1} = 4 Q _ {1}
+M C _{1} = 4 Q _{1}
 $$
 
 As you can see, the moment you start producing anything at the second factory, you will get  $MC > 1$ , because for  $Q_{2} \geq 0$ $MC_{2} \geq 1$ . As such, until  $MC_{1}$  reaches  $MC_{1} = 1$  (which happens when  $4Q_{1} = 1$ , so  $Q_{1} = 0.25$ ), we will not produce anything at the second factory.
@@ -2162,47 +2162,47 @@ As you can see, the moment you start producing anything at the second factory, y
 Back to our problem. Our optimal solution for  $Q > 0.25$  is:
 
 $$
-Q _ {1} = \frac {2 (\frac {4 Q - 1}{6}) + 1}{4}
+Q _{1} = \frac{2 (\frac{4 Q - 1}{6}) + 1}{4}
 $$
 
 $$
-Q _ {1} = \frac {\frac {4 Q}{3} - \frac {1}{3} + 1}{4}
+Q _{1} = \frac{\frac{4 Q}{3} - \frac{1}{3} + 1}{4}
 $$
 
 $$
-Q _ {1} = \frac {2 Q + 1}{6}
+Q _{1} = \frac{2 Q + 1}{6}
 $$
 
 as such:
 
 $$
-Q _ {1} ^ {*} = \left\{ \begin{array}{l} Q, Q \leq 0. 2 5 \\ \frac {2 Q + 1}{6}, Q > 0. 2 5 \end{array} \right.
+Q _{1} ^{*} = \left\{ \begin{array}{l} Q, Q \leq 0. 2 5 \\ \frac{2 Q + 1}{6}, Q > 0. 2 5 \end{array} \right.
 $$
 
 $$
-Q _ {2} ^ {*} = \left\{ \begin{array}{l} 0, Q \leq 0. 2 5 \\ \frac {4 Q - 1}{6}, Q > 0. 2 5 \end{array} \right.
+Q _{2} ^{*} = \left\{ \begin{array}{l} 0, Q \leq 0. 2 5 \\ \frac{4 Q - 1}{6}, Q > 0. 2 5 \end{array} \right.
 $$
 
 by substituting this into the TC function we get:
 
 $$
-T C = 2 Q _ {1} ^ {2} + Q _ {2} ^ {2} + Q _ {2}
+T C = 2 Q _{1} ^{2} + Q _{2} ^{2} + Q _{2}
 $$
 
 $$
-T C = \left\{ \begin{array}{l} 2 Q ^ {2}, Q \leq 0. 2 5 \\ 2 (\frac {2 Q + 1}{6}) ^ {2} + (\frac {4 Q - 1}{6}) ^ {2} + \frac {4 Q - 1}{6}, Q > 0. 2 5 \end{array} \right.
+T C = \left\{ \begin{array}{l} 2 Q ^{2}, Q \leq 0. 2 5 \\ 2 (\frac{2 Q + 1}{6}) ^{2} + (\frac{4 Q - 1}{6}) ^{2} + \frac{4 Q - 1}{6}, Q > 0. 2 5 \end{array} \right.
 $$
 
 or by simplifying:
 
 $$
-T C = \left\{ \begin{array}{l} 2 Q ^ {2}, Q \leq 0. 2 5 \\ \frac {8 Q ^ {2} + 8 Q - 1}{1 2}, Q > 0. 2 5 \end{array} \right.
+T C = \left\{ \begin{array}{l} 2 Q ^{2}, Q \leq 0. 2 5 \\ \frac{8 Q ^{2} + 8 Q - 1}{1 2}, Q > 0. 2 5 \end{array} \right.
 $$
 
 Let's check that TC matches at the boundary point:
 
 $$
-T C = \left\{ \begin{array}{l l} 2 * (\frac {1}{4}) ^ {2} = \frac {1}{8} \\ \frac {8 * (\frac {1}{4}) ^ {2} + 8 * \frac {1}{4} - 1}{1 2} = \frac {\frac {3}{2}}{1 2} = \frac {3}{2 4} = \frac {1}{8} \end{array} \right.
+T C = \left\{ \begin{array}{l l} 2 * (\frac{1}{4}) ^{2} = \frac{1}{8} \\ \frac{8 * (\frac{1}{4}) ^{2} + 8 * \frac{1}{4} - 1}{1 2} = \frac{\frac{3}{2}}{1 2} = \frac{3}{2 4} = \frac{1}{8} \end{array} \right.
 $$
 
 $TC$  matching is a good sign, so we probably did everything right:)
@@ -2210,19 +2210,19 @@ $TC$  matching is a good sign, so we probably did everything right:)
 If, on the other hand,  $MC_{1}$  and  $MC_{2}$  diverge, we would look at where it is cheapest to produce using only one factory. For instance:
 
 $$
-T C: \left\{ \begin{array}{l} T C _ {1} = \sqrt {Q _ {1}} \\ T C _ {2} = Q _ {2} \end{array} \right.
+T C: \left\{ \begin{array}{l} T C _{1} = \sqrt{Q _{1}} \\ T C _{2} = Q _{2} \end{array} \right.
 $$
 
 If we find MC:
 
 $$
-M C: \left\{ \begin{array}{l} M C _ {1} = \frac {1}{2 \sqrt {Q _ {1}}} \\ M C _ {2} = 1 \end{array} \right.
+M C: \left\{ \begin{array}{l} M C _{1} = \frac{1}{2 \sqrt{Q _{1}}} \\ M C _{2} = 1 \end{array} \right.
 $$
 
 If  $MC_{1} > MC_{2}$  it is beneficial to increase  $Q_{2}$  and decrease  $Q_{1}$ . Thus,  $MC_{1}$  will increase while  $MC_{2}$  will remain constant, meaning no convergence will happen. Vice versa, if  $MC_{1} < MC_{2}$  and we increase  $Q_{1}$  and decrease  $Q_{2}$ , convergence will not happen because  $MC_{1}$  will decrease even further. Thus, we would always produce using one factory only. The options are:
 
 $$
-T C = \sqrt {Q}
+T C = \sqrt{Q}
 $$
 
 and
@@ -2234,7 +2234,7 @@ $$
 By solving  $Q \leq \sqrt{Q} \Rightarrow 0 \leq Q \leq 1$ :
 
 $$
-T C = \left\{ \begin{array}{l} Q, Q \leq 1 \\ \sqrt {Q}, Q > 1 \end{array} \right.
+T C = \left\{ \begin{array}{l} Q, Q \leq 1 \\ \sqrt{Q}, Q > 1 \end{array} \right.
 $$
 
 As you can clearly see, TC matches at the boundary point.
@@ -2244,25 +2244,25 @@ As you can clearly see, TC matches at the boundary point.
 Let's imagine the following TC function:
 
 $$
-T C: \left\{ \begin{array}{l} T C _ {1} = Q _ {1} ^ {2} \\ T C _ {2} = Q _ {2} + 3 6 \end{array} \right.
+T C: \left\{ \begin{array}{l} T C _{1} = Q _{1} ^{2} \\ T C _{2} = Q _{2} + 3 6 \end{array} \right.
 $$
 
 Let's try to solve it using the MC method:
 
 $$
-M C: \left\{ \begin{array}{l} M C _ {1} = 2 Q _ {1} \\ M C _ {2} = 1 \end{array} \right.
+M C: \left\{ \begin{array}{l} M C _{1} = 2 Q _{1} \\ M C _{2} = 1 \end{array} \right.
 $$
 
 By equalising we can see that we don't want to start using the second one until  $Q = 0.5$ . So:
 
 $$
-Q _ {1} = \left\{ \begin{array}{l} Q, Q \leq 0. 5 \\ \frac {1}{2}, Q > 0. 5 \end{array} \right.
+Q _{1} = \left\{ \begin{array}{l} Q, Q \leq 0. 5 \\ \frac{1}{2}, Q > 0. 5 \end{array} \right.
 $$
 
 and
 
 $$
-Q _ {2} = \left\{ \begin{array}{l} 0, Q \leq 0. 5 \\ Q - \frac {1}{2}, Q > 0. 5 \end{array} \right.
+Q _{2} = \left\{ \begin{array}{l} 0, Q \leq 0. 5 \\ Q - \frac{1}{2}, Q > 0. 5 \end{array} \right.
 $$
 
 And... this is wrong.
@@ -2272,7 +2272,7 @@ As we noted at the beginning of the book, economists make decisions at the margi
 If you look closely enough, you can see that:
 
 $$
-T C _ {2} = Q _ {2} + 3 6
+T C _{2} = Q _{2} + 3 6
 $$
 
 When we differentiate  $TC_2$ , the constant  $FC = 36$  (fixed costs) disappears. However, this means that when we start producing anything using the second factory, we need to pay an extra  $FC = 36$ .
@@ -2294,7 +2294,7 @@ We can represent the horizontal side of the blue triangle as  $\mathbf{x}$ , and
 The area of this triangle will then be:
 
 $$
-A = \frac {1}{2} * x * 2 x = x ^ {2} = 3 6
+A = \frac{1}{2} * x * 2 x = x ^{2} = 3 6
 $$
 
 which leads to:
@@ -2312,17 +2312,17 @@ $$
 As such, before  $Q = 6.5$  we would still use only the first factory to produce, while after that we would produce  $Q = \frac{1}{2}$  using the first factory and  $Q - \frac{1}{2}$  using the second one:
 
 $$
-Q _ {1} ^ {*} = \left\{ \begin{array}{l} Q, Q \leq 6. 5 \\ \frac {1}{2}, Q > 6. 5 \end{array} \right.
+Q _{1} ^{*} = \left\{ \begin{array}{l} Q, Q \leq 6. 5 \\ \frac{1}{2}, Q > 6. 5 \end{array} \right.
 $$
 
 $$
-Q _ {2} ^ {*} = \left\{ \begin{array}{l} 0, Q \leq 6. 5 \\ Q - \frac {1}{2}, Q > 6. 5 \end{array} \right.
+Q _{2} ^{*} = \left\{ \begin{array}{l} 0, Q \leq 6. 5 \\ Q - \frac{1}{2}, Q > 6. 5 \end{array} \right.
 $$
 
 Let's check whether TC matches at the boundary point:
 
 $$
-T C = \left\{ \begin{array}{l} 6. 5 ^ {2} = 4 2. 2 5 \\ 6. 5 + 3 5. 7 5 = 4 2. 2 5 \end{array} \right.
+T C = \left\{ \begin{array}{l} 6. 5 ^{2} = 4 2. 2 5 \\ 6. 5 + 3 5. 7 5 = 4 2. 2 5 \end{array} \right.
 $$
 
 Which again is a good sign that we did everything right.
@@ -2330,7 +2330,7 @@ Which again is a good sign that we did everything right.
 Note that after we surpass  $Q = 6.5$  it doesn't mean that only at that moment we start to use the second factory, meaning  $Q_{2} = Q - 6.5$ .  $Q = 6.5$  is the moment when the loss from not producing on the second one (with the lower MC) becomes larger than the loss from starting to produce at the second factory ( $FC = 36$ ). At this moment it is beneficial to bear the loss and keep going with the second factory.
 
 $$
-T C = \left\{ \begin{array}{l} Q ^ {2}, Q \leq 6. 5 \\ \frac {1}{4} + Q - \frac {1}{2} + 3 6 = Q + 3 5. 7 5, Q > 6. 5 \end{array} \right.
+T C = \left\{ \begin{array}{l} Q ^{2}, Q \leq 6. 5 \\ \frac{1}{4} + Q - \frac{1}{2} + 3 6 = Q + 3 5. 7 5, Q > 6. 5 \end{array} \right.
 $$
 
 # 4.4.4 Deriving Supply Function
@@ -2362,43 +2362,43 @@ $$
 Let's take the following  $TC(Q)$  function:
 
 $$
-T C (Q) = \left\{ \begin{array}{l} Q ^ {2} + Q, Q \leq 4 \\ Q ^ {2} + 4, Q > 4 \end{array} \right.
+T C (Q) = \left\{ \begin{array}{l} Q ^{2} + Q, Q \leq 4 \\ Q ^{2} + 4, Q > 4 \end{array} \right.
 $$
 
 Thus:
 
 $$
-\pi = \left\{ \begin{array}{l} P Q - Q ^ {2} - Q, Q \leq 4 \\ P Q - Q ^ {2} - 4, Q > 4 \end{array} \right.
+\pi = \left\{ \begin{array}{l} P Q - Q ^{2} - Q, Q \leq 4 \\ P Q - Q ^{2} - 4, Q > 4 \end{array} \right.
 $$
 
 For  $Q \leq 4$ :  $\pi = PQ - Q - Q^2 = Q(P - 1) - Q^2$  is a parabola that opens down. Thus, it has a maximum at its vertex:
 
 $$
-Q ^ {*} = \frac {- (P - 1)}{2 * (- 1)} = \frac {P - 1}{2}
+Q ^{*} = \frac{- (P - 1)}{2 * (- 1)} = \frac{P - 1}{2}
 $$
 
 That means that a firm would supply any quantity for at least  $P = 1$ , and for  $P < 1$ $Q^{*} = 0$ . Thus, for  $Q \leq 4$ :
 
 $$
-Q ^ {*} = \left\{ \begin{array}{l} \frac {P - 1}{2}, P > 1 \\ 0, P \leq 1 \end{array} \right.
+Q ^{*} = \left\{ \begin{array}{l} \frac{P - 1}{2}, P > 1 \\ 0, P \leq 1 \end{array} \right.
 $$
 
 For  $Q \leq 4$  to be true:
 
 $$
-\begin{array}{l} \frac {P - 1}{2} \leq 4 \\ P \leq 9 \\ \end{array}
+\begin{array}{l} \frac{P - 1}{2} \leq 4 \\ P \leq 9 \\ \end{array}
 $$
 
 For  $Q > 4$ :  $\pi = PQ - Q^2 - 4$  is again a parabola that opens down with a maximum at its vertex:
 
 $$
-Q ^ {*} = \frac {- P}{- 2 * 1} = \frac {P}{2}
+Q ^{*} = \frac{- P}{- 2 * 1} = \frac{P}{2}
 $$
 
 For  $Q > 4$
 
 $$
-\begin{array}{l} \frac {P}{2} > 4 \\ P > 8 \\ \end{array}
+\begin{array}{l} \frac{P}{2} > 4 \\ P > 8 \\ \end{array}
 $$
 
 Thus, we have the question of what to do for  $P \in (8,9)$ , because we have two different  $Q^*$  on this interval.
@@ -2406,19 +2406,19 @@ Thus, we have the question of what to do for  $P \in (8,9)$ , because we have tw
 To tackle this, we need to find what brings a higher profit: if  $Q^{*} = \frac{P - 1}{2}$ :
 
 $$
-\pi = P \left(\frac {P - 1}{2}\right) - \left(\frac {P - 1}{2}\right) ^ {2} - \frac {P - 1}{2} = \frac {(P - 1) ^ {2}}{4}
+\pi = P \left(\frac{P - 1}{2}\right) - \left(\frac{P - 1}{2}\right) ^{2} - \frac{P - 1}{2} = \frac{(P - 1) ^{2}}{4}
 $$
 
 if  $Q^{*} = \frac{P}{2}$ :
 
 $$
-\pi = P * \frac {P}{2} - (\frac {P}{2}) ^ {2} - 4 = \frac {P ^ {2} - 1 6}{4}
+\pi = P * \frac{P}{2} - (\frac{P}{2}) ^{2} - 4 = \frac{P ^{2} - 1 6}{4}
 $$
 
 Now we set:
 
 $$
-\frac {(P - 1) ^ {2}}{4} \geq \frac {P ^ {2} - 1 6}{4}
+\frac{(P - 1) ^{2}}{4} \geq \frac{P ^{2} - 1 6}{4}
 $$
 
 which is true for  $P\leq 8.5$
@@ -2426,7 +2426,7 @@ which is true for  $P\leq 8.5$
 Thus:
 
 $$
-Q ^ {*} = \left\{ \begin{array}{l} 0, P \leq 1 \\ \frac {P - 1}{2}, 1 \leq P \leq 8. 5 \\ \frac {P}{2}, P > 8. 5 \end{array} \right.
+Q ^{*} = \left\{ \begin{array}{l} 0, P \leq 1 \\ \frac{P - 1}{2}, 1 \leq P \leq 8. 5 \\ \frac{P}{2}, P > 8. 5 \end{array} \right.
 $$
 
 which is our final supply function.
@@ -2471,19 +2471,19 @@ For a straight line, the opportunity cost of good  $X$  over good  $Y$  equals t
 For example, for PPF  $Y = 50 - 2X$ ,  $OC_{X} = 2$ . Also, for a straight line, it is true that:
 
 $$
-O C _ {Y} = \frac {1}{O C _ {X}}.
+O C _{Y} = \frac{1}{O C _{X}}.
 $$
 
 This is because, since for a straight line:
 
 $$
-Y = a - b X, \quad \mathrm {w i t h} O C _ {X} = b,
+Y = a - b X, \quad \mathrm{wi th} O C _{X} = b,
 $$
 
 and
 
 $$
-X = \frac {a}{b} - \frac {1}{b} Y.
+X = \frac{a}{b} - \frac{1}{b} Y.
 $$
 
 For PPF  $Y = 50 - 2X$ , the opportunity cost of  $Y$  equals  $\frac{1}{2}$ . This is also intuitive: if we can produce a pair (10,30), in one direction we can go to (9,32) with  $OC_{X} = 2$ , or in the other direction to (31,9.5) with  $OC_{Y} = \frac{1}{2}$ .
@@ -2493,7 +2493,7 @@ For PPF  $Y = 50 - 2X$ , the opportunity cost of  $Y$  equals  $\frac{1}{2}$ . T
 Imagine now a farm has two fields, i.e., two PPFs. They are:
 
 $$
-Y _ {1} = 4 0 - X _ {1} \quad \mathrm {a n d} \quad Y _ {2} = 5 0 - 2 X _ {2}.
+Y _{1} = 4 0 - X _{1} \quad \mathrm{an d} \quad Y _{2} = 5 0 - 2 X _{2}.
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/f1c5e64e-4746-468f-9197-552ab4bd1c5e/860ef4dd3562094328dd34a7af23c36da8bc0ee090ab3bb3ea22d402e94fb751.jpg)
@@ -2503,7 +2503,7 @@ $$
 The maximum  $X$  which can be produced on field one is 40 (denoted  $x_{1_{\max}}$ ) and 25 on the second field (denoted  $x_{2_{\max}}$ ). So, the maximum  $X$  is:
 
 $$
-x _ {\mathrm {m a x}} = x _ {1 _ {\mathrm {m a x}}} + x _ {2 _ {\mathrm {m a x}}}.
+x _{\mathrm{ma x}} = x _{1 _{\mathrm{ma x}}} + x _{2 _{\mathrm{ma x}}}.
 $$
 
 To sum up two PPFs means to find a function, representing some combination of two PPFs, which denotes an optimum production of each combination of  $X$  and  $Y$ . In simpler terms, if we want to produce some given number of potatoes within [0, 65], what is the maximum number of carrots we can produce alongside this number of potatoes (if potatoes = 0, maximum carrots = 90; if potatoes = 65, maximum carrots = 0; etc).
@@ -2511,7 +2511,7 @@ To sum up two PPFs means to find a function, representing some combination of tw
 For the general case, we want to find such a function for which for each  $X$  the corresponding  $Y$  is maximum. Mathematically, we want to find  $Y(x)$  so that:
 
 $$
-\forall x _ {i} \in [ 0, x _ {\max } ]: \quad Y (x _ {i}) \rightarrow \max .
+\forall x _{i} \in [ 0, x _{\max } ]: \quad Y (x _{i}) \rightarrow \max .
 $$
 
 If we think about this definition, to achieve that result we want to produce each next bit of  $X$  with the lowest possible opportunity cost (OC). As such, to sum up two PPFs means to find a function for which each  $x$  is produced with the lowest OC, or with the lowest absolute gradient.
@@ -2579,7 +2579,7 @@ Note that point (40, 50) is included in the first segment, but it makes no diffe
 In fact, with this method we can sum up infinitely many straight-line PPFs. For instance, if we sum up infinitely many PPFs with slopes ranging over  $(0,\infty)$  and the intervals  $h$  of  $X$  (with  $h\to 0$ ), we would get a PPF which is a quarter of a circle with centre  $(0,0)$ . Such a PPF might look like:
 
 $$
-Y = \sqrt {a - X ^ {2}},
+Y = \sqrt{a - X ^{2}},
 $$
 
 for non-negative  $X$  and  $Y$ .
@@ -2593,7 +2593,7 @@ It is quite easy to work with linear PPFs, yet working with PPFs like the circul
 A non-linear PPF is a PPF for which the slope (i.e.,  $OC_{x}$ ) is not constant. For instance, for a PPF
 
 $$
-Y = 3 0 - X ^ {2},
+Y = 3 0 - X ^{2},
 $$
 
 the derivative is  $-2X$ , so as mentioned earlier,  $OC_{x} = 2X$ .
@@ -2601,13 +2601,13 @@ the derivative is  $-2X$ , so as mentioned earlier,  $OC_{x} = 2X$ .
 Thus, for any PPF:
 
 $$
-O C _ {x} = \left| \frac {d y}{d x} \right|,
+O C _{x} = \left| \frac{d y}{d x} \right|,
 $$
 
 where  $|f(x)|$  denotes the absolute value. (This is the same result we get for a linear PPF, since for  $Y = 40 - X$ , we have  $\left|\frac{dy}{dx}\right| = 1$ .) However, because we assume that a PPF has a negative derivative, we can write:
 
 $$
-O C _ {x} = - \frac {d y}{d x}.
+O C _{x} = - \frac{d y}{d x}.
 $$
 
 It is important to note that we denote by  $x_{1}$  and  $x_{2}$  the amounts of good  $X$  produced on PPF1 and PPF2 respectively.
@@ -2675,17 +2675,17 @@ First, let's look at when both functions are concave:
 Let
 
 $$
-Y _ {1} = 4 - x _ {1} ^ {2}, \quad x _ {1} \leq 2,
+Y _{1} = 4 - x _{1} ^{2}, \quad x _{1} \leq 2,
 $$
 
 $$
-Y _ {2} = 2 - \frac {x _ {2} ^ {2}}{8}, \quad x _ {2} \leq 4,
+Y _{2} = 2 - \frac{x _{2} ^{2}}{8}, \quad x _{2} \leq 4,
 $$
 
 then:
 
 $$
-O C _ {1} = 2 x _ {1}, \quad O C _ {2} = 0. 2 5 x _ {2}.
+O C _{1} = 2 x _{1}, \quad O C _{2} = 0. 2 5 x _{2}.
 $$
 
 Suppose at some point we have produced some  $x_{1}, x_{2}$  on both fields such that  $OC_{1} < OC_{2}$ . Thus, it will be beneficial for us to increase  $x_{1}$  and decrease  $x_{2}$  (because the aim is to produce with the lowest OC possible). As a result, since  $OC_{1}$  is an increasing function,  $OC_{1}$  will increase, while  $OC_{2}$  will decrease until  $OC_{1} = OC_{2}$ .
@@ -2695,29 +2695,29 @@ Suppose otherwise  $OC_{1} > OC_{2}$ . Thus, it will be beneficial for us to inc
 As a consequence, setting  $2x_{1} = 0.25x_{2}$  gives  $x_{1} = 0.125x_{2}$ .
 
 $$
-x = x _ {1} + x _ {2}
+x = x _{1} + x _{2}
 $$
 
 thus:
 
 $$
-x = 0. 1 2 5 x _ {2} + x _ {2} = \frac {9}{8} x _ {2}
+x = 0. 1 2 5 x _{2} + x _{2} = \frac{9}{8} x _{2}
 $$
 
 as such:
 
 $$
-x _ {2} = \frac {8}{9} x
+x _{2} = \frac{8}{9} x
 $$
 
 and
 
 $$
-x _ {1} = \frac {1}{8} * \frac {8}{9} x = \frac {x}{9}
+x _{1} = \frac{1}{8} * \frac{8}{9} x = \frac{x}{9}
 $$
 
 $$
-Y = 4 - x _ {1} ^ {2} + 2 - \frac {x _ {2} ^ {2}}{8} = 6 - (\frac {x}{9}) ^ {2} - \frac {(\frac {8}{9} x) ^ {2}}{8} = 6 - \frac {x ^ {2}}{9}
+Y = 4 - x _{1} ^{2} + 2 - \frac{x _{2} ^{2}}{8} = 6 - (\frac{x}{9}) ^{2} - \frac{(\frac{8}{9} x) ^{2}}{8} = 6 - \frac{x ^{2}}{9}
 $$
 
 Since  $x_{1} \leq 2$  and  $x_{2} \leq 4$ , we should look at when our boundaries break. Clearly, since  $x_{1} = \frac{1}{9} x$  and  $x_{2} = \frac{8x}{9}$  ( $x_{2}$  grows 8 times as fast as  $x_{1}$ ), while  $\max(x_{1})$  is only twice as low as  $\max(x_{2})$ ,  $x_{2}$  will be exhausted faster.
@@ -2725,19 +2725,19 @@ Since  $x_{1} \leq 2$  and  $x_{2} \leq 4$ , we should look at when our boundari
 As such, when  $x_{2} = 4$ , we have produced 0.5 units of  $x_{1}$ , so the total  $X = 4.5$ . Thus, for  $X \leq 4.5$ , the PPF will be:
 
 $$
-Y = 6 - \frac {x ^ {2}}{9}
+Y = 6 - \frac{x ^{2}}{9}
 $$
 
 for  $X > 4.5$  we would produce  $x_{2} = 4$  and  $x_{1} = 0.5$  and then start using only the first PPF until it is fully exhausted, since now  $x_{1} + 4 = x$ :
 
 $$
-Y = 4 - (x - 4) ^ {2}.
+Y = 4 - (x - 4) ^{2}.
 $$
 
 Thus, the final PPF is:
 
 $$
-Y (x) = \left\{ \begin{array}{l l} 6 - \frac {x ^ {2}}{9}, & x \leq 4. 5, \\ 4 - (x - 4) ^ {2}, & 4. 5 <   x \leq 6. \end{array} \right.
+Y (x) = \left\{ \begin{array}{l l} 6 - \frac{x ^{2}}{9}, & x \leq 4. 5, \\ 4 - (x - 4) ^{2}, & 4. 5 <   x \leq 6. \end{array} \right.
 $$
 
 # 5.1.2 Using Vectors and Minkowski Addition
@@ -2751,7 +2751,7 @@ y = 1 - x
 $$
 
 $$
-y = 1 - \sqrt {x}
+y = 1 - \sqrt{x}
 $$
 
 Let's draw them:
@@ -2791,7 +2791,7 @@ Then, a vector by which we are translating is  $(a, 1 - 2a)$  or  $(a, y(a))$ , 
 Then, our overall PPF will look as follows.
 
 $$
-V (x) = \max _ {a \in A (x)} \{L (a) + N (x - a) \},
+V (x) = \max _{a \in A (x)} \{L (a) + N (x - a) \},
 $$
 
 where  $N(x - a)$  is the translation of the non-linear PPF by  $(a,0)$ ,  $L(a)$  is the translation by  $(0,L(a))$ , and  $A(x)$  denotes the range for  $a$ . This is called Minkowski addition.
@@ -2813,13 +2813,13 @@ Then, a minimum possible value of  $a$  will be  $x - 1$  or  $0$ , depending on
 Then, the boundary for  $a$  is  $A(x)$  as follows.
 
 $$
-A (x) = \left\{a: \max  (0, x - 1) \leq a \leq \min  (x, \frac {1}{2}) \right\}
+A (x) = \left\{a: \max  (0, x - 1) \leq a \leq \min  (x, \frac{1}{2}) \right\}
 $$
 
 Let's see when those boundaries break.
 
 $$
-0 = x - 1 \text {s o} x = 1
+0 = x - 1 \text{so} x = 1
 $$
 
 And  $x = \frac{1}{2}$
@@ -2827,15 +2827,15 @@ And  $x = \frac{1}{2}$
 As such, we have 3 regions where we will be maximising  $V(x)$ :
 
 $$
-0 \leq x \leq \frac {1}{2}
+0 \leq x \leq \frac{1}{2}
 $$
 
 $$
-\frac {1}{2} <   x \leq 1
+\frac{1}{2} <   x \leq 1
 $$
 
 $$
-1 <   x \leq \frac {3}{2}
+1 <   x \leq \frac{3}{2}
 $$
 
 Region 1,  $0 \leq x \leq \frac{1}{2}$
@@ -2851,7 +2851,7 @@ $$
 And
 
 $$
-V (x) = \max  _ {a \in A (x)} \left\{1 - 2 a + 1 - \sqrt {x - a} \right\}
+V (x) = \max  _{a \in A (x)} \left\{1 - 2 a + 1 - \sqrt{x - a} \right\}
 $$
 
 Since the maximisation occurs on a closed interval, the extreme value theorem says a maximum/minimum of  $V(x)$  occurs either at the endpoints or at an interior point (when  $\frac{dy}{dx} = 0$ ). However, since our non-linear function is convex, the interior point actually gives a minimum. As such, for the given functions, we can just check the endpoints for all three regions.
@@ -2861,7 +2861,7 @@ a = 0:
 $$
 
 $$
-V (x) = 2 - \sqrt {x}
+V (x) = 2 - \sqrt{x}
 $$
 
 $$
@@ -2875,7 +2875,7 @@ $$
 Then,
 
 $$
-2 - 2 x > 2 - \sqrt {x}
+2 - 2 x > 2 - \sqrt{x}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/f1c5e64e-4746-468f-9197-552ab4bd1c5e/3f18c990ddb3b8429714794af2b55d25a1cf54474338cf6da3738ce1e0dfbbeb.jpg)
@@ -2883,7 +2883,7 @@ $$
 As such, the maximum over region 1 is:
 
 $$
-V (x) = \left\{ \begin{array}{l l} 2 - 2 x, & 0 \leq x \leq \frac {1}{4} \\ 2 - \sqrt {x}, & \frac {1}{4} <   x \leq \frac {1}{2} \end{array} \right.
+V (x) = \left\{ \begin{array}{l l} 2 - 2 x, & 0 \leq x \leq \frac{1}{4} \\ 2 - \sqrt{x}, & \frac{1}{4} <   x \leq \frac{1}{2} \end{array} \right.
 $$
 
 Region 2,  $\frac{1}{2} < x \leq 1$
@@ -2897,21 +2897,21 @@ a = 0:
 $$
 
 $$
-V (x) = 2 - \sqrt {x}
+V (x) = 2 - \sqrt{x}
 $$
 
 $$
-a = \frac {1}{2}:
+a = \frac{1}{2}:
 $$
 
 $$
-V (x) = 1 - \sqrt {x - \frac {1}{2}}
+V (x) = 1 - \sqrt{x - \frac{1}{2}}
 $$
 
 Then,
 
 $$
-2 - \sqrt {x} > 1 - \sqrt {x - \frac {1}{2}}
+2 - \sqrt{x} > 1 - \sqrt{x - \frac{1}{2}}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/f1c5e64e-4746-468f-9197-552ab4bd1c5e/c3d60745afc37c758a56baf1725366e83aded7d8bf8b0fc7851e5003e1bd5085.jpg)
@@ -2919,7 +2919,7 @@ $$
 As such, for region two,
 
 $$
-V (x) = 2 - \sqrt {x}, \quad \frac {1}{2} <   x \leq 1
+V (x) = 2 - \sqrt{x}, \quad \frac{1}{2} <   x \leq 1
 $$
 
 Region 3,  $1 < x \leq \frac{3}{2}$
@@ -2935,17 +2935,17 @@ V (x) = 3 - 2 x
 $$
 
 $$
-a = \frac {1}{2}:
+a = \frac{1}{2}:
 $$
 
 $$
-V (x) = 1 - \sqrt {x - \frac {1}{2}}
+V (x) = 1 - \sqrt{x - \frac{1}{2}}
 $$
 
 Then,
 
 $$
-3 - 2 x > 1 - \sqrt {x - \frac {1}{2}}
+3 - 2 x > 1 - \sqrt{x - \frac{1}{2}}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/f1c5e64e-4746-468f-9197-552ab4bd1c5e/6f509a450c3497ce45cdad73e7ecc90e5b5925c26276e34d817bd355df11a170.jpg)
@@ -2953,13 +2953,13 @@ $$
 As such,
 
 $$
-V (x) = 3 - 2 x, \quad 1 <   x \leq \frac {3}{2}
+V (x) = 3 - 2 x, \quad 1 <   x \leq \frac{3}{2}
 $$
 
 By combining the three regions, the overall sum is:
 
 $$
-y = \left\{ \begin{array}{l l} 2 - 2 x, & 0 \leq x \leq \frac {1}{4} \\ 2 - \sqrt {x}, & \frac {1}{4} <   x \leq 1 \\ 3 - 2 x, & 1 <   x \leq \frac {3}{2} \end{array} \right.
+y = \left\{ \begin{array}{l l} 2 - 2 x, & 0 \leq x \leq \frac{1}{4} \\ 2 - \sqrt{x}, & \frac{1}{4} <   x \leq 1 \\ 3 - 2 x, & 1 <   x \leq \frac{3}{2} \end{array} \right.
 $$
 
 This is the principle of using Minkowski addition to sum two PPFs. Note that in this example we got three regions, but in other cases it could be as few as one or more than three.

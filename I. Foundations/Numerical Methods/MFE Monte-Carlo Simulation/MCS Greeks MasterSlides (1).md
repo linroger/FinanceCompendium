@@ -73,7 +73,7 @@ In general an explicit expression for  $\alpha'(\theta)$  not available
 One approach is to use the forward-difference ratio
 
 $$
-\Delta_ {F} := \frac {\alpha (\theta + h) - \alpha (\theta)}{h}.
+\Delta_{F} := \frac{\alpha (\theta + h) - \alpha (\theta)}{h}.
 $$
 
 Generally don't know  $\alpha (\theta +h)$  (or  $\alpha (\theta)$ ) but we can estimate them.
@@ -85,7 +85,7 @@ Simulate  $n$  samples of  $Y(\theta)$  and a further  $n$  samples of  $Y(\thet
 Let  $\bar{Y}_n(\theta)$  and  $\bar{Y}_n(\theta + h)$  be their averages and then take
 
 $$
-\hat {\Delta} _ {F} := \frac {\bar {Y} _ {n} (\theta + h) - \bar {Y} _ {n} (\theta)}{h}
+\hat {\Delta}_{F} := \frac{\bar {Y}_{n} (\theta + h) - \bar {Y}_{n} (\theta)}{h}
 $$
 
 as our estimator.
@@ -93,13 +93,13 @@ as our estimator.
 If  $\alpha$  twice differentiable at  $\theta$  then
 
 $$
-\alpha (\theta + h) = \alpha (\theta) + \alpha^ {\prime} (\theta) h + \frac {1}{2} \alpha^ {\prime \prime} (\theta) h ^ {2} + o (h ^ {2})
+\alpha (\theta + h) = \alpha (\theta) + \alpha^{\prime} (\theta) h + \frac{1}{2} \alpha^{\prime \prime} (\theta) h^{2} + o (h^{2})
 $$
 
 and so the bias of  $\hat{\Delta}_F$  satisfies
 
 $$
-\operatorname {B i a s} \left(\hat {\Delta} _ {F}\right) := \mathrm {E} \left[ \hat {\Delta} _ {F} - \alpha^ {\prime} (\theta) \right] = \frac {1}{2} \alpha^ {\prime \prime} (\theta) h + o (h). \tag {1}
+\operatorname{Bi as} \left(\hat {\Delta}_{F}\right) := \mathrm{E} \left[ \hat {\Delta}_{F} - \alpha^{\prime} (\theta) \right] = \frac{1}{2} \alpha^{\prime \prime} (\theta) h + o (h). \tag {1}
 $$
 
 # Finite Difference Approximations
@@ -107,7 +107,7 @@ $$
 Could instead, however, simulate at  $\theta - h$  and  $\theta + h$  and then use the central-difference estimator
 
 $$
-\hat {\Delta} _ {C} := \frac {\bar {Y} _ {n} (\theta + h) - \bar {Y} _ {n} (\theta - h)}{2 h} \tag {2}
+\hat {\Delta}_{C} := \frac{\bar {Y}_{n} (\theta + h) - \bar {Y}_{n} (\theta - h)}{2 h} \tag {2}
 $$
 
 as our estimator of  $\alpha^{\prime}(\theta)$
@@ -115,7 +115,7 @@ as our estimator of  $\alpha^{\prime}(\theta)$
 The same Taylor expansion argument then shows that the bias of  $\hat{\Delta}_C$  satisfies
 
 $$
-\operatorname {B i a s} \left(\hat {\Delta} _ {C}\right) := \operatorname {E} \left[ \hat {\Delta} _ {C} - \alpha^ {\prime} (\theta) \right] = o (h)
+\operatorname{Bi as} \left(\hat {\Delta}_{C}\right) := \operatorname{E} \left[ \hat {\Delta}_{C} - \alpha^{\prime} (\theta) \right] = o (h)
 $$
 
 which is superior to the  $O(h)$  bias of  $\hat{\Delta}_F$  in (1).
@@ -131,7 +131,7 @@ Very reasonable to assume the pairs  $(Y(\theta + h), Y(\theta - h))$  and  $(Y_
 Then follows from (2) that
 
 $$
-\operatorname {V a r} \left(\hat {\Delta} _ {C}\right) = \frac {\operatorname {V a r} \left(Y (\theta + h) - Y (\theta - h)\right)}{4 n h ^ {2}} \tag {3}
+\operatorname{Va r} \left(\hat {\Delta}_{C}\right) = \frac{\operatorname{Va r} \left(Y (\theta + h) - Y (\theta - h)\right)}{4 n h^{2}} \tag {3}
 $$
 
 so analyzing  $\operatorname{Var}\left(\hat{\Delta}_C\right)$  comes down to analyzing  $\operatorname{Var}\left(Y(\theta + h) - Y(\theta - h)\right)$ .
@@ -139,13 +139,13 @@ so analyzing  $\operatorname{Var}\left(\hat{\Delta}_C\right)$  comes down to ana
 There are three cases that typically arise:
 
 $$
-\operatorname {V a r} (Y (\theta + h) - Y (\theta - h)) = \left\{ \begin{array}{l l} O (1), & \text {C a s e (i)} \\ O (h), & \text {C a s e (i i)} \\ O \left(h ^ {2}\right), & \text {C a s e (i i i)}. \end{array} \right. \tag {4}
+\operatorname{Va r} (Y (\theta + h) - Y (\theta - h)) = \left\{ \begin{array}{l l} O (1), & \text{Ca se (i)} \\ O (h), & \text{Ca se (ii)} \\ O \left(h^{2}\right), & \text{Ca se (ii i)}. \end{array} \right. \tag {4}
 $$
 
 Case (i) occurs if we simulate  $Y(\theta + h)$  and  $Y(\theta - h)$  independently since then
 
 $$
-\begin{array}{l} \operatorname {V a r} (Y (\theta + h) - Y (\theta - h)) = \operatorname {V a r} (Y (\theta + h)) + (Y (\theta - h)) \\ \rightarrow \quad 2 \operatorname {V a r} (Y (\theta)). \\ \end{array}
+\begin{array}{l} \operatorname{Va r} (Y (\theta + h) - Y (\theta - h)) = \operatorname{Va r} (Y (\theta + h)) + (Y (\theta - h)) \\ \rightarrow \quad 2 \operatorname{Va r} (Y (\theta)). \\ \end{array}
 $$
 
 # Variance of the Finite Difference Estimators
@@ -185,7 +185,7 @@ System operator needs to install a server to service the arrivals and he has a c
 In the event that  $M$  is chosen, let  $S_{i}^{m}$  denote the service time of the  $i^{th}$  customer, and let  $X^{m}$  denote the total time in the system of all the customers who arrive before time  $T$ . That is,
 
 $$
-X ^ {m} = \sum_ {i = 1} ^ {N (T)} W _ {i} ^ {m}
+X^{m} = \sum_{i = 1}^{N (T)} W_{i}^{m}
 $$
 
 where  $W_{i}^{m}$  is the total time in the system of the  $i^{th}$  customer.
@@ -199,7 +199,7 @@ $S_{i}^{n}$ ,  $X^{n}$ ,  $W_{i}^{n}$  and  $Q_{i}^{n}$  are all defined in the 
 The operator wants to estimate
 
 $$
-\theta = \mathsf {E} [ X ^ {m} ] - \mathsf {E} [ X ^ {n} ].
+\theta = \mathsf {E} [ X^{m} ] - \mathsf {E} [ X^{n} ].
 $$
 
 Obvious approach is to estimate  $\theta_{m} \coloneqq \mathsf{E}[X^{m}]$  and  $\theta_{n} \coloneqq \mathsf{E}[X^{n}]$  independently and then set  $\hat{\theta} = \hat{\theta}_{m} - \hat{\theta}_{n}$ .
@@ -207,13 +207,13 @@ Obvious approach is to estimate  $\theta_{m} \coloneqq \mathsf{E}[X^{m}]$  and  
 Variance of  $\hat{\theta}$  then given by
 
 $$
-\mathsf {V a r} (\hat {\theta}) = \mathsf {V a r} (\hat {\theta} _ {m}) + \mathsf {V a r} (\hat {\theta} _ {n}).
+\mathsf {V a r} (\hat {\theta}) = \mathsf {V a r} (\hat {\theta}_{m}) + \mathsf {V a r} (\hat {\theta}_{n}).
 $$
 
 But can do better by allowing  $\hat{\theta}_m$  and  $\hat{\theta}_n$  to be dependent for then
 
 $$
-\operatorname {V a r} (\hat {\theta}) = \operatorname {V a r} (\hat {\theta} _ {m}) + \operatorname {V a r} (\hat {\theta} _ {n}) - 2 \operatorname {C o v} (\hat {\theta} _ {m}, \hat {\theta} _ {n}).
+\operatorname{Va r} (\hat {\theta}) = \operatorname{Va r} (\hat {\theta}_{m}) + \operatorname{Va r} (\hat {\theta}_{n}) - 2 \operatorname{Co v} (\hat {\theta}_{m}, \hat {\theta}_{n}).
 $$
 
 If we can arrange it that  $\operatorname{Cov}(\hat{\theta}_m, \hat{\theta}_n) > 0$ , then can achieve a variance reduction.
@@ -227,17 +227,17 @@ Let  $X_1^m, \ldots, X_r^m$  and  $X_1^n, \ldots, X_r^n$  be the sets of  $r$  s
 Now set
 
 $$
-Z _ {i} := X _ {i} ^ {m} - X _ {i} ^ {n}, \qquad i = 1, \dots , r.
+Z_{i} := X_{i}^{m} - X_{i}^{n}, \qquad i = 1, \dots , r.
 $$
 
 If the  $Z_{i}$ 's are IID, then
 
 $$
-{\hat {\theta}} {=} {\frac {\sum_ {i = 1} ^ {r} Z _ {i}}{r}}
+{\hat {\theta}} {=} {\frac{\sum_{i = 1}^{r} Z_{i}}{r}}
 $$
 
 $$
-\mathsf {V a r} (\hat {\theta}) = \frac {\mathsf {V a r} (X _ {i} ^ {m}) + \mathsf {V a r} (X _ {i} ^ {n}) - 2 \mathsf {C o v} (X _ {i} ^ {m} , X _ {i} ^ {n})}{r}.
+\mathsf {V a r} (\hat {\theta}) = \frac{\mathsf {V a r} (X_{i}^{m}) + \mathsf {V a r} (X_{i}^{n}) - 2 \mathsf {C o v} (X_{i}^{m} , X_{i}^{n})}{r}.
 $$
 
 To reduce  $\operatorname{Var}(\hat{\theta})$ , would like to make  $\operatorname{Cov}(X_i^m, X_i^n)$  as large as possible.
@@ -263,7 +263,7 @@ For example, if  $X_{i}^{m}$  is large, then that would suggest that there have 
 Recalling that  $\alpha (\theta)\coloneqq \mathsf{E}\left[Y(\theta)\right]$ , the pathwise estimator is calculated by interchanging the order of differentiation and expectation to obtain
 
 $$
-\alpha^ {\prime} (\theta) = \frac {\partial}{\partial \theta} \mathsf {E} [ Y (\theta) ] = \mathsf {E} \left[ \frac {\partial Y (\theta)}{\partial \theta} \right]. \tag {5}
+\alpha^{\prime} (\theta) = \frac{\partial}{\partial \theta} \mathsf {E} [ Y (\theta) ] = \mathsf {E} \left[ \frac{\partial Y (\theta)}{\partial \theta} \right]. \tag {5}
 $$
 
 Need to justify the interchange of differentiation and expectation in (5)!
@@ -275,7 +275,7 @@ We assume there is a collection of random variables  $\{Y(\theta):\theta \in \Th
 If we fix  $\omega \in \Omega$  then can consider  $\theta \mapsto Y(\theta, \omega)$  as a random function on  $\Theta$  so
 
 $$
-Y ^ {\prime} (\theta) = \frac {\partial Y (\theta)}{\partial \theta} = Y ^ {\prime} (\theta , \omega)
+Y^{\prime} (\theta) = \frac{\partial Y (\theta)}{\partial \theta} = Y^{\prime} (\theta , \omega)
 $$
 
 is the derivative of this random function with respect to  $\theta$ , taking  $\omega$  as fixed.
@@ -300,17 +300,17 @@ But before addressing this issue we consider various examples from Glasserman â€
 Consider a European call strike  $\mathsf{K}$ , maturity  $T$  in the Black-Scholes framework. First write the option payoff as
 
 $$
-Y = e ^ {- r T} \left(S _ {T} - K\right) ^ {+} \tag {6}
+Y = e^{- r T} \left(S_{T} - K\right)^{+} \tag {6}
 $$
 
 $$
-S _ {T} = S _ {0} e ^ {\left(r - \frac {\sigma^ {2}}{2}\right) T + \sigma \sqrt {T} Z} \tag {7}
+S_{T} = S_{0} e^{\left(r - \frac{\sigma^{2}}{2}\right) T + \sigma \sqrt{T} Z} \tag {7}
 $$
 
 where  $Z\sim \mathsf{N}(0,1)$  . It follows from (6) and (7) that
 
 $$
-\begin{array}{l} \frac {\partial Y}{\partial S _ {0}} = \frac {\partial Y}{\partial S _ {T}} \frac {\partial S _ {T}}{\partial S _ {0}} \\ = e ^ {- r T} 1 _ {\left\{S _ {T} > K \right\}} \frac {S _ {T}}{S _ {0}}. \tag {8} \\ \end{array}
+\begin{array}{l} \frac{\partial Y}{\partial S_{0}} = \frac{\partial Y}{\partial S_{T}} \frac{\partial S_{T}}{\partial S_{0}} \\ = e^{- r T} 1_{\left\{S_{T} > K \right\}} \frac{S_{T}}{S_{0}}. \tag {8} \\ \end{array}
 $$
 
 The estimator (8) is easily calculated via a Monte-Carlo simulation.
@@ -322,7 +322,7 @@ Should also be clear that (8) is valid for any model of security prices where  $
 A similar argument shows the pathwise estimator for the vega of a call option in the Black-Scholes world is given by
 
 $$
-\begin{array}{l} \frac {\partial Y}{\partial \sigma} = e ^ {- r T} (- \sigma T + \sqrt {T} Z) S _ {T} 1 _ {\{S _ {T} > K \}} \\ = e ^ {- r T} \left(\frac {\log \left(S _ {T} / S _ {0}\right) - (r + \sigma^ {2} / 2) T}{\sigma}\right) S _ {T} 1 _ {\{S _ {T} > K \}}. \tag {9} \\ \end{array}
+\begin{array}{l} \frac{\partial Y}{\partial \sigma} = e^{- r T} (- \sigma T + \sqrt{T} Z) S_{T} 1_{\{S_{T} > K \}} \\ = e^{- r T} \left(\frac{\log \left(S_{T} / S_{0}\right) - (r + \sigma^{2} / 2) T}{\sigma}\right) S_{T} 1_{\{S_{T} > K \}}. \tag {9} \\ \end{array}
 $$
 
 # The Pathwise Estimator: Path-Dependent Deltas
@@ -330,7 +330,7 @@ $$
 Consider an Asian option with payoff
 
 $$
-Y = e ^ {- r T} \left[ \bar {S} - K \right] ^ {+}, \quad \bar {S} := \frac {1}{m} \sum_ {i = 1} ^ {m} S _ {t _ {i}}
+Y = e^{- r T} \left[ \bar {S} - K \right]^{+}, \quad \bar {S} := \frac{1}{m} \sum_{i = 1}^{m} S_{t_{i}}
 $$
 
 for some fixed dates  $0 < t_{1} < \dots < t_{m} \leq T$ .
@@ -338,7 +338,7 @@ for some fixed dates  $0 < t_{1} < \dots < t_{m} \leq T$ .
 Assuming the Black-Scholes framework, would like to construct the pathwise estimator for the delta of this option. We have
 
 $$
-\begin{array}{l} \frac {\partial Y}{\partial S _ {0}} = \frac {\partial Y}{\partial \bar {S}} \frac {\partial \bar {S}}{\partial S _ {0}} = e ^ {- r T} 1 _ {\{\bar {S} > K \}} \frac {\partial \bar {S}}{\partial S _ {0}} \\ { = } { e ^ { - r T } 1 _ { \{ \bar { S } > K \} } \frac { 1 } { m } \sum _ { i = 1 } ^ { m } \frac { \partial S _ { t _ { i } } } { \partial S _ { 0 } } } \\ { = } { e ^ { - r T } 1 _ { \{ \bar { S } > K \} } \frac { 1 } { m } \sum _ { i = 1 } ^ { m } \frac { S _ { t _ { i } } } { S _ { 0 } } } \\ { = } { e ^ { - r T } 1 _ { \{ \bar { S } > K \} } \frac { \bar { S } } { S _ { 0 } } . } \\ \end{array}
+\begin{array}{l} \frac{\partial Y}{\partial S_{0}} = \frac{\partial Y}{\partial \bar {S}} \frac{\partial \bar {S}}{\partial S_{0}} = e^{- r T} 1_{\{\bar {S} > K \}} \frac{\partial \bar {S}}{\partial S_{0}} \\ { = } { e^{ - r T } 1_{ \{ \bar { S } > K \} } \frac{ 1 } { m } \sum_{ i = 1 }^{ m } \frac{ \partial S_{ t_{ i } } } { \partial S_{ 0 } } } \\ { = } { e^{ - r T } 1_{ \{ \bar { S } > K \} } \frac{ 1 } { m } \sum_{ i = 1 }^{ m } \frac{ S_{ t_{ i } } } { S_{ 0 } } } \\ { = } { e^{ - r T } 1_{ \{ \bar { S } > K \} } \frac{ \bar { S } } { S_{ 0 } } . } \\ \end{array}
 $$
 
 # The Pathwise Estimator
@@ -358,7 +358,7 @@ This means in particular that the pathwise method does not work in general for b
 Exercise: Show that the pathwise estimator of the vega of the Asian option is given by
 
 $$
-\frac {\partial Y}{\partial \sigma} = e ^ {- r T} 1 _ {\{\bar {S} > K \}} \frac {1}{m} \sum_ {i = 1} ^ {m} \frac {\partial S _ {t _ {i}}}{\partial \sigma} \tag {10}
+\frac{\partial Y}{\partial \sigma} = e^{- r T} 1_{\{\bar {S} > K \}} \frac{1}{m} \sum_{i = 1}^{m} \frac{\partial S_{t_{i}}}{\partial \sigma} \tag {10}
 $$
 
 where  $\partial S_{t_i} / \partial \sigma$  is given by the term in parentheses in (9) with  $T = t_i$  times  $S_{t_i}$ .
@@ -370,7 +370,7 @@ Have only considered GBM models so far but the pathwise method can be applied to
 e.g. Suppose a security price  $S_{t}$  satisfies the SDE
 
 $$
-d S _ {t} = \mu_ {t} S _ {t} d t + \sigma_ {t} S _ {t} d W _ {t}
+d S_{t} = \mu_{t} S_{t} d t + \sigma_{t} S_{t} d W_{t}
 $$
 
 where  $\mu_t$  and  $\sigma_t$  could be stochastic but do not depend on  $S_0$ .
@@ -378,7 +378,7 @@ where  $\mu_t$  and  $\sigma_t$  could be stochastic but do not depend on  $S_0$
 Then Ito's Lemma implies
 
 $$
-S _ {T} = S _ {0} \exp \left(\int_ {0} ^ {T} \left(\mu_ {t} - \sigma_ {t} ^ {2} / 2\right) d t + \int_ {0} ^ {T} \sigma_ {t} d W _ {t}\right) \tag {11}
+S_{T} = S_{0} \exp \left(\int_{0}^{T} \left(\mu_{t} - \sigma_{t}^{2} / 2\right) d t + \int_{0}^{T} \sigma_{t} d W_{t}\right) \tag {11}
 $$
 
 and so we still have  $\partial S_T / \partial S_0 = S_T / S_0$
@@ -392,13 +392,13 @@ The following example is one where the process is not linear in its state.
 Suppose  $X_{t}$  satisfies the SDE
 
 $$
-d X _ {t} = \kappa (\beta - X _ {t}) d t + \sigma \sqrt {X _ {t}} d W _ {t}.
+d X_{t} = \kappa (\beta - X_{t}) d t + \sigma \sqrt{X_{t}} d W_{t}.
 $$
 
 Can't find an explicit expression for  $X_{t}$  it is well known that
 
 $$
-X _ {t} \sim c _ {1} \chi_ {\nu} ^ {\prime 2} (c _ {2} X _ {0})
+X_{t} \sim c_{1} \chi_{\nu}^{\prime 2} (c_{2} X_{0})
 $$
 
 where  $\chi_{\nu}^{\prime 2}\left(c_2X_0\right)$  is the non-central chi-squared distribution with  $\nu$  d.o.f and non-centrality parameter  $c_2X_0$ .
@@ -406,7 +406,7 @@ where  $\chi_{\nu}^{\prime 2}\left(c_2X_0\right)$  is the non-central chi-square
 As long as  $\nu > 1$  then  $X_{t}$  can be generated using the representation
 
 $$
-X _ {t} = c _ {1} \left(\left(Z + \sqrt {c _ {2} X _ {0}}\right) ^ {2} + \chi_ {\nu - 1} ^ {2}\right) \tag {12}
+X_{t} = c_{1} \left(\left(Z + \sqrt{c_{2} X_{0}}\right)^{2} + \chi_{\nu - 1}^{2}\right) \tag {12}
 $$
 
 with  $Z \sim \mathsf{N}(0,1)$  and  $\chi_{\nu - 1}^2$  an ordinary chi-squared random variable with  $\nu - 1$  d.o.f and independent of  $Z$ .
@@ -416,13 +416,13 @@ with  $Z \sim \mathsf{N}(0,1)$  and  $\chi_{\nu - 1}^2$  an ordinary chi-squared
 It follows that
 
 $$
-\frac {\partial X _ {t}}{\partial X _ {0}} = c _ {1} c _ {2} \left(1 + \frac {Z}{\sqrt {c _ {2} X _ {0}}}\right). \tag {13}
+\frac{\partial X_{t}}{\partial X_{0}} = c_{1} c_{2} \left(1 + \frac{Z}{\sqrt{c_{2} X_{0}}}\right). \tag {13}
 $$
 
 More generally, if we need to simulate a path of  $X_{t}$  at the times  $t_1 < t_2 < \dots < t_i$ , then we can use (13) (with 0 and  $t$  replaced by  $t_i$  and  $t_{i+1}$ , respectively) to obtain the recursion
 
 $$
-\begin{array}{l} \frac {\partial X _ {t _ {i + 1}}}{\partial X _ {0}} = \frac {\partial X _ {t _ {i + 1}}}{\partial X _ {t _ {i}}} \frac {\partial X _ {t _ {i}}}{\partial X _ {0}} \\ = c _ {1, i} c _ {2, i} \left(1 + \frac {Z _ {i + 1}}{\sqrt {c _ {1 , 2} X _ {t _ {i}}}}\right) \frac {\partial X _ {t _ {i}}}{\partial X _ {0}} \\ \end{array}
+\begin{array}{l} \frac{\partial X_{t_{i + 1}}}{\partial X_{0}} = \frac{\partial X_{t_{i + 1}}}{\partial X_{t_{i}}} \frac{\partial X_{t_{i}}}{\partial X_{0}} \\ = c_{1, i} c_{2, i} \left(1 + \frac{Z_{i + 1}}{\sqrt{c_{1 , 2} X_{t_{i}}}}\right) \frac{\partial X_{t_{i}}}{\partial X_{0}} \\ \end{array}
 $$
 
 where  $Z_{i + 1}\sim \mathsf{N}(0,1)$  is used to generate  $X_{t_{i + 1}}$  from  $X_{t_i}$
@@ -434,7 +434,7 @@ The constants  $c_{1,i}$  and  $c_{2,i}$  depend on the time increment  $t_{i+1}
 Consider a digital call option which has discounted payoff
 
 $$
-Y = e ^ {- r T} 1 _ {\{S _ {T} > K \}}. \tag {14}
+Y = e^{- r T} 1_{\{S_{T} > K \}}. \tag {14}
 $$
 
 Note that  $\partial Y / \partial S_0 = 0$  everywhere except at  $S_{T} = K$  where the derivative does not exist.
@@ -442,7 +442,7 @@ Note that  $\partial Y / \partial S_0 = 0$  everywhere except at  $S_{T} = K$  w
 The pathwise derivative therefore exists and equals zero almost surely. Therefore have
 
 $$
-0 = \mathsf {E} \left[ \frac {\partial Y}{\partial S _ {0}} \right] \neq \frac {\partial}{\partial S _ {0}} \mathsf {E} [ Y ]
+0 = \mathsf {E} \left[ \frac{\partial Y}{\partial S_{0}} \right] \neq \frac{\partial}{\partial S_{0}} \mathsf {E} [ Y ]
 $$
 
 so clearly the interchange of expectation and differentiation is not valid here!
@@ -456,7 +456,7 @@ For the same reason the Black-Scholes gamma cannot be estimated via the pathwise
 In particular, the gamma for a European call option with  $Y$  as in (6) is given by
 
 $$
-\begin{array}{l} \frac {\partial^ {2}}{\partial S _ {0} ^ {2}} \mathsf {E} [ Y ] = \frac {\partial}{\partial S _ {0}} \left(\frac {\partial}{\partial S _ {0}} \mathsf {E} [ Y ]\right) \\ = \frac {\partial}{\partial S _ {0}} \mathsf {E} \left[ \frac {\partial Y}{\partial S _ {0}} \right] (15) \\ = \frac {\partial}{\partial S _ {0}} \mathsf {E} \left[ e ^ {- r T} 1 _ {\{S _ {T} > K \}} \frac {S _ {T}}{S _ {0}} \right]. (16) \\ \end{array}
+\begin{array}{l} \frac{\partial^{2}}{\partial S_{0}^{2}} \mathsf {E} [ Y ] = \frac{\partial}{\partial S_{0}} \left(\frac{\partial}{\partial S_{0}} \mathsf {E} [ Y ]\right) \\ = \frac{\partial}{\partial S_{0}} \mathsf {E} \left[ \frac{\partial Y}{\partial S_{0}} \right] (15) \\ = \frac{\partial}{\partial S_{0}} \mathsf {E} \left[ e^{- r T} 1_{\{S_{T} > K \}} \frac{S_{T}}{S_{0}} \right]. (16) \\ \end{array}
 $$
 
 The interchange of expectation and differentiation in (15) is justified (as we noted earlier) by our rule of thumb.
@@ -483,7 +483,7 @@ We assume that  $X$  has a density  $g$  and that  $\theta$  is a parameter of t
 Can therefore write
 
 $$
-\mathsf {E} _ {\theta} [ Y ] = \int_ {\mathbb {R} ^ {m}} f (x) g _ {\theta} (x) d x. \tag {17}
+\mathsf {E}_{\theta} [ Y ] = \int_{\mathbb {R}^{m}} f (x) g_{\theta} (x) d x. \tag {17}
 $$
 
 # The Likelihood Ratio Method
@@ -491,7 +491,7 @@ $$
 Can now differentiate across (17) to obtain
 
 $$
-\begin{array}{l} \alpha^ {\prime} (\theta) = \frac {\partial}{\partial \theta} \mathsf {E} _ {\theta} [ Y ] \\ = \int_ {\mathbb {R} ^ {m}} f (x) \frac {\partial}{\partial \theta} g _ {\theta} (x) d x \tag {18} \\ \end{array}
+\begin{array}{l} \alpha^{\prime} (\theta) = \frac{\partial}{\partial \theta} \mathsf {E}_{\theta} [ Y ] \\ = \int_{\mathbb {R}^{m}} f (x) \frac{\partial}{\partial \theta} g_{\theta} (x) d x \tag {18} \\ \end{array}
 $$
 
 - have assumed the interchange of the order of differentiation and integration is again justified.
@@ -499,7 +499,7 @@ $$
 Writing  $\dot{g}_{\theta}$  for  $\partial g_{\theta} / \partial \theta$  we can multiply and divide the integrand in (18) by  $g_{\theta}$  to obtain
 
 $$
-\begin{array}{l} \alpha^ {\prime} (\theta) = \int_ {\mathbb {R} ^ {m}} f (x) \frac {\dot {g} _ {\theta} (x)}{g _ {\theta} (x)} g _ {\theta} (x) d x \\ = \mathsf {E} _ {\theta} \left[ f (X) \frac {\dot {g} _ {\theta} (X)}{g _ {\theta} (X)} \right]. \tag {19} \\ \end{array}
+\begin{array}{l} \alpha^{\prime} (\theta) = \int_{\mathbb {R}^{m}} f (x) \frac{\dot {g}_{\theta} (x)}{g_{\theta} (x)} g_{\theta} (x) d x \\ = \mathsf {E}_{\theta} \left[ f (X) \frac{\dot {g}_{\theta} (X)}{g_{\theta} (X)} \right]. \tag {19} \\ \end{array}
 $$
 
 The ratio  $\dot{g}_{\theta}(X) / g_{\theta}(X)$  is known as the score function.
@@ -521,7 +521,7 @@ But could also have written the density as a function of  $S_0$  as we now do â€
 The lognormal density of  $S_T$  is given by
 
 $$
-g (x) = \frac {1}{x \sigma \sqrt {T}} \phi (\zeta (x)), \quad \zeta (x) := \frac {\log (x / S _ {0}) - (r - \sigma^ {2} / 2) T}{\sigma \sqrt {T}}
+g (x) = \frac{1}{x \sigma \sqrt{T}} \phi (\zeta (x)), \quad \zeta (x) := \frac{\log (x / S_{0}) - (r - \sigma^{2} / 2) T}{\sigma \sqrt{T}}
 $$
 
 where  $\phi (\cdot)$  denotes the standard normal density.
@@ -529,7 +529,7 @@ where  $\phi (\cdot)$  denotes the standard normal density.
 Taking  $\theta = S_0$  we see that the score is given by
 
 $$
-\begin{array}{l} \frac {d g (x) / d S _ {0}}{g (x)} = - \zeta (x) \frac {d \zeta (x)}{d S _ {0}} \\ { = } { \frac { \log ( x / S _ { 0 } ) - ( r - \sigma ^ { 2 } / 2 ) T } { S _ { 0 } \sigma ^ { 2 } T } . } \\ \end{array}
+\begin{array}{l} \frac{d g (x) / d S_{0}}{g (x)} = - \zeta (x) \frac{d \zeta (x)}{d S_{0}} \\ { = } { \frac{ \log ( x / S_{ 0 } ) - ( r - \sigma^{ 2 } / 2 ) T } { S_{ 0 } \sigma^{ 2 } T } . } \\ \end{array}
 $$
 
 An unbiased estimator of the delta in then obtained by multiplying the score by the option payoff as in (19).
@@ -539,7 +539,7 @@ An unbiased estimator of the delta in then obtained by multiplying the score by 
 If  $S_T$  is generated from  $S_0$  as in (7) with  $Z \sim \mathsf{N}(0,1)$  then  $\zeta(S_T) = Z$  and the estimator simplifies to
 
 $$
-\frac {\partial C}{\partial S _ {0}} = \mathsf {E} \left[ e ^ {- r T} \left(S _ {T} - K\right) ^ {+} \frac {Z}{S _ {0} \sigma \sqrt {T}} \right] \tag {20}
+\frac{\partial C}{\partial S_{0}} = \mathsf {E} \left[ e^{- r T} \left(S_{T} - K\right)^{+} \frac{Z}{S_{0} \sigma \sqrt{T}} \right] \tag {20}
 $$
 
 where  $C = \mathsf{E}_{\theta}[Y]$  denote the Black-Scholes call price.
@@ -553,7 +553,7 @@ Note that given the score  $Z / S_0 \sigma \sqrt{T}$ , we can immediately comput
 e.g. The delta of a digital can be estimated using
 
 $$
-e ^ {- r T} 1 _ {\{S _ {T} > K \}} \frac {Z}{S _ {0} \sigma \sqrt {T}}.
+e^{- r T} 1_{\{S_{T} > K \}} \frac{Z}{S_{0} \sigma \sqrt{T}}.
 $$
 
 # Path-Dependent Deltas
@@ -563,19 +563,19 @@ Consider our Asian option where the payoff is a function of  $S_{t_1}, \ldots, S
 Markov property of GBM implies we can factor joint density of  $(S_{t_1},\ldots ,S_{t_m})$  as
 
 $$
-g \left(x _ {1}, \dots , x _ {m}\right) = g _ {1} \left(x _ {1} \mid S _ {0}\right) g _ {2} \left(x _ {2} \mid x _ {1}\right) \dots g _ {m} \left(x _ {m} \mid x _ {m - 1}\right) \tag {21}
+g \left(x_{1}, \dots , x_{m}\right) = g_{1} \left(x_{1} \mid S_{0}\right) g_{2} \left(x_{2} \mid x_{1}\right) \dots g_{m} \left(x_{m} \mid x_{m - 1}\right) \tag {21}
 $$
 
 where each  $g_{j}(x_{j} \mid x_{j-1})$  is the (lognormal) transition density from time  $t_{j-1}$  to time  $t_{j}$  and satisfies
 
 $$
-g _ {j} (x _ {j} | x _ {j - 1}) = \frac {1}{x _ {j} \sigma \sqrt {t _ {j} - t _ {j - 1}}} \phi (\zeta_ {j} (x _ {j} | x _ {j - 1}))
+g_{j} (x_{j} | x_{j - 1}) = \frac{1}{x_{j} \sigma \sqrt{t_{j} - t_{j - 1}}} \phi (\zeta_{j} (x_{j} | x_{j - 1}))
 $$
 
 with
 
 $$
-\zeta_ {j} (x _ {j} | x _ {j - 1}) := \frac {\log (x _ {j} / x _ {j - 1}) - (r - \sigma^ {2} / 2) (t _ {j} - t _ {j - 1})}{\sigma \sqrt {t _ {j} - t _ {j - 1}}}.
+\zeta_{j} (x_{j} | x_{j - 1}) := \frac{\log (x_{j} / x_{j - 1}) - (r - \sigma^{2} / 2) (t_{j} - t_{j - 1})}{\sigma \sqrt{t_{j} - t_{j - 1}}}.
 $$
 
 Note that  $S_0$  is a parameter of the first factor  $g_1$  but not of the other factors.
@@ -585,13 +585,13 @@ Note that  $S_0$  is a parameter of the first factor  $g_1$  but not of the othe
 From (21) it therefore follows that the score satisfies
 
 $$
-\begin{array}{l} \frac {\partial \log (g (S _ {t _ {1}} , \ldots , S _ {t _ {m}}))}{\partial S _ {0}} = \frac {\partial \log (g _ {1} (S _ {t _ {1}} \mid S _ {0}))}{\partial S _ {0}} \\ = \frac {\zeta_ {1} (S _ {1} | S _ {0})}{S _ {0} \sigma \sqrt {t _ {1}}}. \\ \end{array}
+\begin{array}{l} \frac{\partial \log (g (S_{t_{1}} , \ldots , S_{t_{m}}))}{\partial S_{0}} = \frac{\partial \log (g_{1} (S_{t_{1}} \mid S_{0}))}{\partial S_{0}} \\ = \frac{\zeta_{1} (S_{1} | S_{0})}{S_{0} \sigma \sqrt{t_{1}}}. \\ \end{array}
 $$
 
 This last expression can be written as
 
 $$
-\frac {Z _ {1}}{S _ {0} \sigma \sqrt {t _ {1}}}
+\frac{Z_{1}}{S_{0} \sigma \sqrt{t_{1}}}
 $$
 
 where  $Z_{1}$  is the standard normal used to generate  $S_{t_1}$  from  $S_{0}$  as in (7).
@@ -599,7 +599,7 @@ where  $Z_{1}$  is the standard normal used to generate  $S_{t_1}$  from  $S_{0}
 The LR estimator of the Asian option delta is therefore given by
 
 $$
-e ^ {- r T} \left(\bar {S} - K\right) ^ {+} \frac {Z _ {1}}{S _ {0} \sigma \sqrt {t _ {1}}}.
+e^{- r T} \left(\bar {S} - K\right)^{+} \frac{Z_{1}}{S_{0} \sigma \sqrt{t_{1}}}.
 $$
 
 # Path-Dependent Vega
@@ -611,7 +611,7 @@ First note that  $\sigma$  appears in every transition density  $g_{j}$  rather 
 Omitting some of the calculations, this implies the score takes the form
 
 $$
-\begin{array}{l} \frac {\partial \log (g (S _ {t _ {1}} , \dots , S _ {t _ {m}}))}{\partial \sigma} = \sum_ {j = 1} ^ {m} \frac {\partial \log (g _ {j} (S _ {t _ {j}} \mid S _ {t _ {j - 1}}))}{\partial \sigma} \\ = - \sum_ {j = 1} ^ {m} \left(\frac {1}{\sigma} + \zeta_ {j} \left(S _ {t _ {j}} \mid S _ {t _ {j - 1}}\right) \frac {\partial \zeta_ {j}}{\partial \sigma}\right) \\ = \sum_ {j = 1} ^ {m} \left(\frac {Z _ {j} ^ {2} - 1}{\sigma} - Z _ {j} \sqrt {t _ {j} - t _ {j - 1}}\right) \tag {22} \\ \end{array}
+\begin{array}{l} \frac{\partial \log (g (S_{t_{1}} , \dots , S_{t_{m}}))}{\partial \sigma} = \sum_{j = 1}^{m} \frac{\partial \log (g_{j} (S_{t_{j}} \mid S_{t_{j - 1}}))}{\partial \sigma} \\ = - \sum_{j = 1}^{m} \left(\frac{1}{\sigma} + \zeta_{j} \left(S_{t_{j}} \mid S_{t_{j - 1}}\right) \frac{\partial \zeta_{j}}{\partial \sigma}\right) \\ = \sum_{j = 1}^{m} \left(\frac{Z_{j}^{2} - 1}{\sigma} - Z_{j} \sqrt{t_{j} - t_{j - 1}}\right) \tag {22} \\ \end{array}
 $$
 
 with the  $Z_{j}$ 's IID normal and each  $Z_{j}$  used to generate  $S_{t_j}$  from  $S_{t_{j - 1}}$ .
@@ -629,7 +629,7 @@ But worth considering the issue as it will help shed some light on why the varia
 Recall that the goal is to compute
 
 $$
-\begin{array}{l} \alpha^ {\prime} (\theta) = \frac {\partial}{\partial \theta} \int_ {\mathbb {R} ^ {m}} f (x) g _ {\theta} (x) d x \\ = \lim  _ {h \rightarrow 0} \int_ {\mathbb {R} ^ {m}} f (x) \left(\frac {g _ {\theta + h} (x) - g _ {\theta} (x)}{h}\right) d x \\ = \lim  _ {h \rightarrow 0} \int_ {\mathbb {R} ^ {m}} f (x) \frac {1}{h} \left(\frac {g _ {\theta + h} (x)}{g _ {\theta} (x)} - 1\right) g _ {\theta} (x) d x \\ = \lim  _ {h \rightarrow 0} \frac {1}{h} \left(\mathsf {E} _ {\theta} \left[ f (X) \frac {g _ {\theta + h} (X)}{g _ {\theta} (X)} \right] - \mathsf {E} _ {\theta} [ f (X) ]\right). \tag {23} \\ \end{array}
+\begin{array}{l} \alpha^{\prime} (\theta) = \frac{\partial}{\partial \theta} \int_{\mathbb {R}^{m}} f (x) g_{\theta} (x) d x \\ = \lim_{h \rightarrow 0} \int_{\mathbb {R}^{m}} f (x) \left(\frac{g_{\theta + h} (x) - g_{\theta} (x)}{h}\right) d x \\ = \lim_{h \rightarrow 0} \int_{\mathbb {R}^{m}} f (x) \frac{1}{h} \left(\frac{g_{\theta + h} (x)}{g_{\theta} (x)} - 1\right) g_{\theta} (x) d x \\ = \lim_{h \rightarrow 0} \frac{1}{h} \left(\mathsf {E}_{\theta} \left[ f (X) \frac{g_{\theta + h} (X)}{g_{\theta} (X)} \right] - \mathsf {E}_{\theta} [ f (X) ]\right). \tag {23} \\ \end{array}
 $$
 
 Let's now fix  $h$  and consider the first expectation in (23).
@@ -645,7 +645,7 @@ Glasserman provides a simple example where this absolute continuity condition fa
 In particular, let
 
 $$
-g _ {\theta} (x) := \frac {1}{\theta} 1 _ {\{0 <   x <   \theta \}}
+g_{\theta} (x) := \frac{1}{\theta} 1_{\{0 <   x <   \theta \}}
 $$
 
 and note that it is differentiable in  $\theta$  for any fixed  $x\in (0,\theta)$
@@ -705,13 +705,13 @@ Pathwise versus likelihood ratio method for estimating the vega of an Asian call
 A similar argument to the one that lead to (19) can be used to show that
 
 $$
-f (X) \frac {\ddot {g} _ {\theta} (X)}{g _ {\theta} (X)} \tag {24}
+f (X) \frac{\ddot {g}_{\theta} (X)}{g_{\theta} (X)} \tag {24}
 $$
 
 is an unbiased estimator of the second derivative
 
 $$
-\alpha^ {\prime \prime} (\theta) := \frac {\partial^ {2}}{\partial \theta^ {2}} \mathrm {E} _ {\theta} [ f (X) ].
+\alpha^{\prime \prime} (\theta) := \frac{\partial^{2}}{\partial \theta^{2}} \mathrm{E}_{\theta} [ f (X) ].
 $$
 
 Of course the correctness of (24) relies as usual on the interchange of the order of expectation and differentiation being justified â€“ which is typically the case with the LR method.
@@ -733,13 +733,13 @@ Know that the pathwise approach cannot be used directly here.
 Nonetheless can proceed by writing the digital payoff as
 
 $$
-\begin{array}{l} 1 _ {\{x > K \}} = f _ {\epsilon} (x) + \left(1 _ {\{x > K \}} - f _ {\epsilon} (x)\right) \\ = f _ {\epsilon} (x) + h _ {\epsilon} (x) \\ \end{array}
+\begin{array}{l} 1_{\{x > K \}} = f_{\epsilon} (x) + \left(1_{\{x > K \}} - f_{\epsilon} (x)\right) \\ = f_{\epsilon} (x) + h_{\epsilon} (x) \\ \end{array}
 $$
 
 where
 
 $$
-f _ {\epsilon} (x) := \min \left\{1, \frac {\max \left\{0 , x - K + \epsilon \right\}}{2 \epsilon} \right\}
+f_{\epsilon} (x) := \min \left\{1, \frac{\max \left\{0 , x - K + \epsilon \right\}}{2 \epsilon} \right\}
 $$
 
 and  $h_\epsilon(x) \coloneqq 1_{\{x > K\}} - f_\epsilon(x)$ .
@@ -753,7 +753,7 @@ We can apply the pathwise estimator to  $f_{\epsilon}(S_T)$  (since it's continu
 Assuming as before that  $S_{t} \sim \mathrm{GBM}(r, \sigma)$ , the resulting estimator is given by
 
 $$
-e ^ {- r T} \times \left[ \frac {1}{2 \epsilon} 1 _ {\{| S _ {T} - K | <   \epsilon \}} \frac {S _ {T}}{S _ {0}} + h _ {\epsilon} (S _ {T}) \frac {\zeta (S _ {T})}{S _ {0} \sigma \sqrt {T}} \right]. \tag {25}
+e^{- r T} \times \left[ \frac{1}{2 \epsilon} 1_{\{| S_{T} - K | <   \epsilon \}} \frac{S_{T}}{S_{0}} + h_{\epsilon} (S_{T}) \frac{\zeta (S_{T})}{S_{0} \sigma \sqrt{T}} \right]. \tag {25}
 $$
 
 Figure on next slide plots the variance of the estimator in (25) as a function of  $\epsilon$ .

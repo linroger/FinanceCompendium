@@ -198,7 +198,7 @@ $$
 Now what can we say about the relationship between  $\hat{L}(\hat{h}_{\mathrm{ERM}})$  and  $L(\hat{h}_{\mathrm{ERM}})$ ? The key point is that  $\hat{h}_{\mathrm{ERM}}$  depends on  $\hat{L}$ , so  $\hat{L}(\hat{h}_{\mathrm{ERM}})$  is no longer an average of i.i.d. random variables; in fact, it's quite a narly beast. Intuitively, the training error should be smaller than the test error and hence less reliable, but how do we formalize this? Using uniform convergence, we will show that:
 
 $$
-\underbrace{L(\hat{h}_{\mathrm{ERM}})}_{\mathrm{test\ error}} \leq \underbrace{\hat{L}(\hat{h}_{\mathrm{ERM}})}_{\mathrm{training\ error}} + O_p\left(\sqrt{\frac{\mathrm{Complexity}(\mathcal{H})}{n}}\right). \tag{2}
+\underbrace{L(\hat{h}_{\mathrm{ERM}})}_{\mathrm{test\error}} \leq \underbrace{\hat{L}(\hat{h}_{\mathrm{ERM}})}_{\mathrm{training\error}} + O_p\left(\sqrt{\frac{\mathrm{Complexity}(\mathcal{H})}{n}}\right). \tag{2}
 $$
 
 - The rate of convergence is governed by the complexity of  $\mathcal{H}$ . We will devote a good deal of time computing the complexity of various function classes  $\mathcal{H}$ . VC dimension, covering numbers, and Rademacher complexity are different ways of measuring how big a set of functions is. For example, we will see that if  $\mathcal{H}$  contains  $d$ -dimensional linear classifiers that are  $s$ -sparse, then  $\mathrm{Complexity}(\mathcal{H}) = O(s\log d)$ , which means we can tolerate exponentially more irrelevant features! All of these results are distribution-free, makes no assumptions on the underlying data-generating distribution!  
@@ -432,7 +432,7 @@ $$
 - Note that the  $\frac{1}{n}$  term is independent of  $d$ , unlike in the Gaussian case, where the result was  $\frac{d\sigma^2}{n}$ . The difference is that in the Gaussian case, each dimension had standard deviation  $\sigma$ , whereas in the multinomial case here, it is about  $\sqrt{\frac{1}{d}}$  for the uniform distribution.
 
 $$
-[\text{begin lecture 2}] \tag{2}
+[\text{beginlecture2}] \tag{2}
 $$
 
 # 2.4 Exponential families (Lecture 2)
@@ -694,13 +694,13 @@ Although KL is not a distance metric (it's not even symmetric), we can still tal
 - Just for intuition: First, observe that  $\mathcal{Q}$ , the set of distributions consistent with a set of moments is closed under convex combinations of the distributions:
 
 $$
-q_{1}, q_{2} \in \mathcal{Q} \quad \Rightarrow \quad \alpha q_{1} + (1 - \alpha) q_{2} \in \mathcal{Q} \quad \text{forall} \alpha \in [ 0, 1 ] \tag{48}
+q_{1}, q_{2} \in \mathcal{Q} \quad \Rightarrow \quad \alpha q_{1} + (1 - \alpha) q_{2} \in \mathcal{Q} \quad \text{for all} \alpha \in [ 0, 1 ] \tag{48}
 $$
 
 Second, observe that  $\mathcal{P}$ , the set of distributions in the exponential family is closed under convex combinations of the parameters:
 
 $$
-p_{\theta_{1}}, p_{\theta_{2}} \in \mathcal{P} \quad \Rightarrow \quad p_{\alpha \theta_{1} + (1 - \alpha) \theta_{2}} \in \mathcal{P} \quad \text{forall} \alpha \in [ 0, 1 ] \tag{49}
+p_{\theta_{1}}, p_{\theta_{2}} \in \mathcal{P} \quad \Rightarrow \quad p_{\alpha \theta_{1} + (1 - \alpha) \theta_{2}} \in \mathcal{P} \quad \text{for all} \alpha \in [ 0, 1 ] \tag{49}
 $$
 
 So both  $\mathcal{P}$  and  $\mathcal{Q}$  are in some sense convex when viewed appropriately.
@@ -716,7 +716,7 @@ So both  $\mathcal{P}$  and  $\mathcal{Q}$  are in some sense convex when viewed
 * Then a Pythagorean identity holds:
 
 $$
-\boxed{\mathrm{KL} (q \| p) = \mathrm{KL} (q \| \hat{p}) + \mathrm{KL} (\hat{p} \| p) \quad \text{forall} q \in \mathcal{Q}, p \in \mathcal{P}.} \tag{50}
+\boxed{\mathrm{KL} (q \| p) = \mathrm{KL} (q \| \hat{p}) + \mathrm{KL} (\hat{p} \| p) \quad \text{for all} q \in \mathcal{Q}, p \in \mathcal{P}.} \tag{50}
 $$
 
 This theorem says that some of the intuitions of Euclidean geometry carry over to information geometry when restricted to certain nice families of distributions. See Figure 5 for a visualization.
@@ -1017,7 +1017,7 @@ For simplicity, we will study the expectation  $\mathbb{E}[L(\hat{\theta})]$ , w
 - The goal will be to understand this quantity geometrically. The basic idea is to expand  $Y = X\theta^{*} + \epsilon$ ; the rest is just algebra. We have:
 
 $$
-\begin{array}{l} L (\theta) = \frac{1}{n} \mathbb{E} [ \| X \theta - Y \| _{2} ^{2} ] (69) \\ = \frac{1}{n} \mathbb{E} [ \| X \theta - X \theta^{*} + \epsilon \| _{2} ^{2} ] \quad [ \text{by} (70) \\ = \frac{1}{n} \mathbb{E} [ \| X \theta - X \theta^{*} \| _{2} ^{2} + \| \epsilon \| _{2} ^{2} ] \quad [ \text{crosstermsvanish} ] (71) \\ = \frac{1}{n} \left(\theta - \theta^{*}\right) ^{\top} \left(X^{\top} X\right) \left(\theta - \theta^{*}\right) + \sigma^{2} \quad [ \text{algebra}, \text{definition of } \epsilon ] (72) \\ = \| \theta - \theta^{*} \| _{\Sigma} ^{2} + \sigma^{2}. (73) \\ \end{array}
+\begin{array}{l} L (\theta) = \frac{1}{n} \mathbb{E} [ \| X \theta - Y \| _{2} ^{2} ] (69) \\ = \frac{1}{n} \mathbb{E} [ \| X \theta - X \theta^{*} + \epsilon \| _{2} ^{2} ] \quad [ \text{by} (70) \\ = \frac{1}{n} \mathbb{E} [ \| X \theta - X \theta^{*} \| _{2} ^{2} + \| \epsilon \| _{2} ^{2} ] \quad [ \text{crosstermsvanish} ] (71) \\ = \frac{1}{n} \left(\theta - \theta^{*}\right) ^{\top} \left(X^{\top} X\right) \left(\theta - \theta^{*}\right) + \sigma^{2} \quad [ \text{algebra}, \text{definitionof } \epsilon ] (72) \\ = \| \theta - \theta^{*} \| _{\Sigma} ^{2} + \sigma^{2}. (73) \\ \end{array}
 $$
 
 - Intuitively, the first term of the expected risk is the squared distance between the estimate  $\theta$  and the true parameters  $\theta^{*}$  as measured by the shape of the data. If the data does not vary much in one direction, then the discrepancy between  $\theta$  and  $\theta^{*}$  will be downweighted in that direction, because that direction doesn't matter for prediction, which depends on  $x\cdot \theta$ .
@@ -1034,7 +1034,7 @@ $$
 - Assume that  $X^{\top}X \succ 0$  (which means necessarily that  $n \geq d$ ). The key is to expand  $\hat{\theta}$  and  $Y$  based on their definitions and perform algebra. The expectation is over the test data now. Rewriting the excess risk:
 
 $$
-\begin{array}{l} L (\hat{\theta}) - L \left(\theta^{*}\right) = \| \hat{\theta} - \theta^{*} \| _{\Sigma} ^{2} [ \text{by} (4) ] (75) \\ = \frac{1}{n} \| X \hat{\theta} - X \theta^{*} \| _{2} ^{2} (76) \\ = \frac{1}{n} \| X \left(X^{\top} X\right) ^{- 1} X^{\top} \left(X \theta^{*} + \epsilon\right) - X \theta^{*} \| _{2} ^{2} (77) \\ = \frac{1}{n} \| \Pi X \theta^{*} + \Pi \epsilon - X \theta^{*} \| _{2} ^{2} [ \text{projection} \Pi \stackrel{\text{def}} {=} X (X^{\top} X) ^{- 1} X^{\top} ] (78) \\ = \frac{1}{n} \| \Pi \epsilon \| _{2} ^{2} [ \text{p r o j e c t i o n d o e s n ’ t c h a n g e} X \theta^{*}, \text{cancel} ] (79) \\ = \frac{1}{n} \operatorname{tr} \left(\Pi \epsilon \epsilon^{\top}\right) [ \text{projectionisidempotentandsymmetric} ]. (80) \\ \end{array}
+\begin{array}{l} L (\hat{\theta}) - L \left(\theta^{*}\right) = \| \hat{\theta} - \theta^{*} \| _{\Sigma} ^{2} [ \text{by} (4) ] (75) \\ = \frac{1}{n} \| X \hat{\theta} - X \theta^{*} \| _{2} ^{2} (76) \\ = \frac{1}{n} \| X \left(X^{\top} X\right) ^{- 1} X^{\top} \left(X \theta^{*} + \epsilon\right) - X \theta^{*} \| _{2} ^{2} (77) \\ = \frac{1}{n} \| \Pi X \theta^{*} + \Pi \epsilon - X \theta^{*} \| _{2} ^{2} [ \text{projection} \Pi \stackrel{\text{def}} {=} X (X^{\top} X) ^{- 1} X^{\top} ] (78) \\ = \frac{1}{n} \| \Pi \epsilon \| _{2} ^{2} [ \text{pr oj ec ti on do es n ’t ch an ge} X \theta^{*}, \text{cancel} ] (79) \\ = \frac{1}{n} \operatorname{tr} \left(\Pi \epsilon \epsilon^{\top}\right) [ \text{projectionisidempotentandsymmetric} ]. (80) \\ \end{array}
 $$
 
 - Taking expectations (over the training data), and using the fact that  $\mathbb{E}[\epsilon \epsilon^{\top}] = \sigma^{2}I$ , we get:
@@ -1439,7 +1439,7 @@ If  $\lambda = 0$ , then the squared bias is zero as expected. As  $\lambda \to 
 - Compute the variance term of the expected risk:
 
 $$
-\begin{array}{l} \operatorname{Var} = \mathbb{E} [ \| \hat{\theta} - \bar{\theta} \| _{\Sigma} ^{2} ] (124) \\ = \mathbb{E} \left[ \| \Sigma_{\lambda} ^{- 1} n^{- 1} X^{\top} \epsilon \| _{\Sigma} ^{2} \right] [ \text{definition of } \hat{\theta} ] (125) \\ = \frac{1}{n^{2}} \mathbb{E} \left[ \epsilon^{\top} X \Sigma_{\lambda} ^{- 1} \Sigma \Sigma_{\lambda} ^{- 1} X^{\top} \epsilon \right] [\text{expand}] (126) \\ = \frac{1}{n^{2}} \operatorname{tr} \left(\Sigma_{\lambda} ^{- 1} \Sigma \Sigma_{\lambda} ^{- 1} X^{\top} \mathbb{E} [ \epsilon \epsilon^{\top} ] X\right) \quad [ \text{cyclic trace } ] (127) \\ = \frac{\sigma^{2}}{n} \operatorname{tr} \left(\Sigma_{\lambda} ^{- 1} \Sigma \Sigma_{\lambda} ^{- 1} \Sigma\right) [\text{since}\mathbb{E} [ \epsilon \epsilon^{\top} ] = \sigma^{2} I ] (128) \\ = \frac{\sigma^{2}}{n} \sum_{j = 1} ^{d} \frac{\tau_{j} ^{2}}{(\tau_{j} + \lambda) ^{2}} [ \text{matrices are diagonal } ]. (129) \\ \end{array}
+\begin{array}{l} \operatorname{Var} = \mathbb{E} [ \| \hat{\theta} - \bar{\theta} \| _{\Sigma} ^{2} ] (124) \\ = \mathbb{E} \left[ \| \Sigma_{\lambda} ^{- 1} n^{- 1} X^{\top} \epsilon \| _{\Sigma} ^{2} \right] [ \text{definitionof } \hat{\theta} ] (125) \\ = \frac{1}{n^{2}} \mathbb{E} \left[ \epsilon^{\top} X \Sigma_{\lambda} ^{- 1} \Sigma \Sigma_{\lambda} ^{- 1} X^{\top} \epsilon \right] [\text{expand}] (126) \\ = \frac{1}{n^{2}} \operatorname{tr} \left(\Sigma_{\lambda} ^{- 1} \Sigma \Sigma_{\lambda} ^{- 1} X^{\top} \mathbb{E} [ \epsilon \epsilon^{\top} ] X\right) \quad [ \text{cyclictrace } ] (127) \\ = \frac{\sigma^{2}}{n} \operatorname{tr} \left(\Sigma_{\lambda} ^{- 1} \Sigma \Sigma_{\lambda} ^{- 1} \Sigma\right) [\text{since}\mathbb{E} [ \epsilon \epsilon^{\top} ] = \sigma^{2} I ] (128) \\ = \frac{\sigma^{2}}{n} \sum_{j = 1} ^{d} \frac{\tau_{j} ^{2}}{(\tau_{j} + \lambda) ^{2}} [ \text{matricesarediagonal } ]. (129) \\ \end{array}
 $$
 
 If we didn't regularize, the variance would be  $\frac{d\sigma^2}{n}$ . Regularization reduces the variance since  $\frac{\tau_j^2}{(\tau_j + \lambda)^2} \leq 1$ .
@@ -1666,7 +1666,7 @@ $$
 Usually, think of  $\log (1 / \delta)$  as a constant (e.g.,  $\delta = 0.01$ , then  $\log (1 / \delta) \cong 4.6$ ), so the
 
 $$
-\underbrace{L (\hat{h})} _{\text{expected risk}} = O \left(\overbrace{\underbrace{\log | \mathcal{H} |} _{\text{number of training examples}}}\right) \tag{145}
+\underbrace{L (\hat{h})} _{\text{expectedrisk}} = O \left(\overbrace{\underbrace{\log | \mathcal{H} |} _{\text{numberoftrainingexamples}}}\right) \tag{145}
 $$
 
 * Interpretation 2: how many examples  $n$  (sample complexity) do I need to obtain expected risk at most  $\epsilon$  with confidence at least  $1 - \delta$ ? Answer: With probability at least  $1 - \delta$ :
@@ -1922,7 +1922,7 @@ The distribution over  $X_{1} + X_{2}$  can be computed using a convolution, whi
 - Applying Markov's inequality to  $Z = e^{tX}$ , we get that
 
 $$
-\mathbb{P} [ X \geq \epsilon ] \leq \frac{M_{X} (t)}{e^{t \epsilon}} \text{forall} t > 0. \tag{172}
+\mathbb{P} [ X \geq \epsilon ] \leq \frac{M_{X} (t)}{e^{t \epsilon}} \text{for all} t > 0. \tag{172}
 $$
 
 We can apply this to the case of sample means  $(X = \hat{\mu}_n)$  by computing  $\mathbb{P}[\hat{\mu}_n\geq \epsilon ] = \mathbb{P}[X_1 + \dots +X_n\geq n\epsilon ]$ . We get that all  $t > 0$ :
@@ -2706,7 +2706,7 @@ Lemma 6 (Sauer's lemma)
 - Then
 
 $$
-\boxed{s (\mathcal{H}, n) \leq \sum_{i = 0} ^{d} \binom{n} {i} \leq \left\{ \begin{array}{l l} 2^{n} & \text{if} n \leq d \\ \left(\frac{e n}{d}\right) ^{d} & \text{if} n > d. \end{array} \right.} \tag{249}
+\boxed{s (\mathcal{H}, n) \leq \sum_{i = 0} ^{d} \binom{n} {i} \leq \left\{ \begin{array}{l l} 2^{n} & \text{if } n \leq d \\ \left(\frac{e n}{d}\right) ^{d} & \text{if } n > d. \end{array} \right.} \tag{249}
 $$
 
 - Intuition
@@ -3152,7 +3152,7 @@ Proof of Theorem 14:
 - The proof follows from manipulating the empirical Rademacher complexity:
 
 $$
-\begin{array}{l} \hat{R} _{n} (\mathcal{F}) = \mathbb{E} \left[ \sup_{f \in \mathcal{F}} \langle \sigma , f \rangle \right] (286) \\ = \mathbb{E} \left[ \sup_{g \in C} \sup_{f \in \mathcal{F} \cap B_{\epsilon} (g)} \langle \sigma , g \rangle + \langle \sigma , f - g \rangle \right] (287) \\ = \mathbb{E} \left[ \sup_{g \in C} \frac{1}{n} \langle \sigma , g \rangle + \epsilon \right] \quad [ \text{Cauchy-Schwarz } ] (288) \\ = \sqrt{\frac{2 \log N (\epsilon , \mathcal{F} , L_{2} (P_{n}))}{n}} + \epsilon \quad [ \text{M a s s a r t ' s f i n i t e l e m m a} ]. (289) \\ \end{array}
+\begin{array}{l} \hat{R} _{n} (\mathcal{F}) = \mathbb{E} \left[ \sup_{f \in \mathcal{F}} \langle \sigma , f \rangle \right] (286) \\ = \mathbb{E} \left[ \sup_{g \in C} \sup_{f \in \mathcal{F} \cap B_{\epsilon} (g)} \langle \sigma , g \rangle + \langle \sigma , f - g \rangle \right] (287) \\ = \mathbb{E} \left[ \sup_{g \in C} \frac{1}{n} \langle \sigma , g \rangle + \epsilon \right] \quad [ \text{Cauchy-Schwarz } ] (288) \\ = \sqrt{\frac{2 \log N (\epsilon , \mathcal{F} , L_{2} (P_{n}))}{n}} + \epsilon \quad [ \text{Ma ss ar t 's fi ni te le mm a} ]. (289) \\ \end{array}
 $$
 
 Example 9 (non-decreasing functions (with simple discretization))
@@ -3215,7 +3215,7 @@ $$
 - Now compute the empirical Rademacher complexity:
 
 $$
-\begin{array}{l} \hat{R} _{n} (\mathcal{F}) = \mathbb{E} \left[ \sup_{f \in \mathcal{F}} \langle \sigma , f \rangle \right] [ \text{definition} ] (295) \\ = \mathbb{E} \left[ \sup_{f \in \mathcal{F}} \langle \sigma , f - g_{m} \rangle + \sum_{j = 1} ^{m} \langle \sigma , g_{j} - g_{j - 1} \rangle \right] \quad [ \text{decompose} f ] (296) \\ \leq \epsilon_{m} + \mathbb{E} \left[ \sup_{f \in \mathcal{F}} \sum_{j = 1} ^{m} \langle \sigma , g_{j} - g_{j - 1} \rangle \right] \quad [ \text{Cauchy-Schwarz } ] (297) \\ \leq \epsilon_{m} + \sum_{j = 1} ^{m} \mathbb{E} \left[ \sup_{f \in \mathcal{F}} \langle \sigma , g_{j} - g_{j - 1} \rangle \right] [ \text{push} \\ \leq \epsilon_{m} + \sum_{j = 1} ^{m} \mathbb{E} \left[ \sup_{g_{j} \in C_{j}, g_{j - 1} \in C_{j - 1}} \langle \sigma , g_{j} - g_{j - 1} \rangle \right] \quad [ \text{refinedependence} ] (299) \\ \leq \epsilon_{m} + \sum_{j = 1} ^{m} \left(3 \epsilon_{j}\right) \sqrt{\frac{2 \log \left(\left| C_{j} \right| \left| C_{j - 1} \right|\right)}{n}} \quad [ \text{M a s s a r t ' s f i n i t e l e m m a} ] (300) \\ \leq \epsilon_{m} + \sum_{j = 1} ^{m} \left(6 \epsilon_{j}\right) \sqrt{\frac{\log | C_{j} |}{n}} \quad [\text{since}| C_{j} | \geq | C_{j - 1} | ] (301) \\ = \epsilon_{m} + \sum_{j = 1} ^{m} 2 \left(\epsilon_{j} - \epsilon_{j + 1}\right) \sqrt{\frac{\log | C_{j} |}{n}} \quad [\text{since}\epsilon_{j} = 2 \left(\epsilon_{j} - \epsilon_{j + 1}\right) ] (302) \\ \leq 2 \int_{0} ^{\infty} \sqrt{\frac{\log N (\epsilon , \mathcal{F} , L_{2} (P_{n}))}{n}} d \epsilon \quad [ \text{boundsumwithintegral} ] (303) \\ \end{array}
+\begin{array}{l} \hat{R} _{n} (\mathcal{F}) = \mathbb{E} \left[ \sup_{f \in \mathcal{F}} \langle \sigma , f \rangle \right] [ \text{definition} ] (295) \\ = \mathbb{E} \left[ \sup_{f \in \mathcal{F}} \langle \sigma , f - g_{m} \rangle + \sum_{j = 1} ^{m} \langle \sigma , g_{j} - g_{j - 1} \rangle \right] \quad [ \text{decompose} f ] (296) \\ \leq \epsilon_{m} + \mathbb{E} \left[ \sup_{f \in \mathcal{F}} \sum_{j = 1} ^{m} \langle \sigma , g_{j} - g_{j - 1} \rangle \right] \quad [ \text{Cauchy-Schwarz } ] (297) \\ \leq \epsilon_{m} + \sum_{j = 1} ^{m} \mathbb{E} \left[ \sup_{f \in \mathcal{F}} \langle \sigma , g_{j} - g_{j - 1} \rangle \right] [ \text{push} \\ \leq \epsilon_{m} + \sum_{j = 1} ^{m} \mathbb{E} \left[ \sup_{g_{j} \in C_{j}, g_{j - 1} \in C_{j - 1}} \langle \sigma , g_{j} - g_{j - 1} \rangle \right] \quad [ \text{refinedependence} ] (299) \\ \leq \epsilon_{m} + \sum_{j = 1} ^{m} \left(3 \epsilon_{j}\right) \sqrt{\frac{2 \log \left(\left| C_{j} \right| \left| C_{j - 1} \right|\right)}{n}} \quad [ \text{Ma ss ar t 's fi ni te le mm a} ] (300) \\ \leq \epsilon_{m} + \sum_{j = 1} ^{m} \left(6 \epsilon_{j}\right) \sqrt{\frac{\log | C_{j} |}{n}} \quad [\text{since}| C_{j} | \geq | C_{j - 1} | ] (301) \\ = \epsilon_{m} + \sum_{j = 1} ^{m} 2 \left(\epsilon_{j} - \epsilon_{j + 1}\right) \sqrt{\frac{\log | C_{j} |}{n}} \quad [\text{since}\epsilon_{j} = 2 \left(\epsilon_{j} - \epsilon_{j + 1}\right) ] (302) \\ \leq 2 \int_{0} ^{\infty} \sqrt{\frac{\log N (\epsilon , \mathcal{F} , L_{2} (P_{n}))}{n}} d \epsilon \quad [ \text{boundsumwithintegral} ] (303) \\ \end{array}
 $$
 
 In the last step, we took  $m\to \infty$  , which makes the additive penalty  $\epsilon_{m}\rightarrow 0$
@@ -3633,7 +3633,7 @@ The latter term has to do with how expressive  $\mathcal{H}$  is.
 - But we can sneakily replace  $\langle w, x \rangle$  with  $\langle w, \phi(x) \rangle$ , where  $\phi: \mathcal{X} \to \mathbb{R}^d$  is an arbitrary feature map:
 
 - Example:  $\phi(x) = (1, x, x^2)$  for  $x \in \mathbb{R}$  
-- Example:  $\phi(x) = (\text{count of } a \text{ appearing in } x, \ldots)$  for a string  $x$ .
+- Example:  $\phi(x) = (\text{countof } a \text{ appearingin } x, \ldots)$  for a string  $x$ .
 
 Note that  $x$  does not even need to be a real vector. In general, we assume that  $x \in \mathcal{X}$  for some set  $\mathcal{X}$  of all possible inputs (we won't assume any further structure on  $\mathcal{X}$  for now).
 
@@ -3873,7 +3873,7 @@ Definition 19 (bounded functional)
 - Given a Hilbert space  $\mathcal{H}$ , a functional  $L: \mathcal{H} \to \mathbb{R}$  is bounded iff there exists an  $M < \infty$  such that
 
 $$
-| L (f) | \leq M \| f \| _{\mathcal{H}} \text{forall} f \in \mathcal{H}. \tag{357}
+| L (f) | \leq M \| f \| _{\mathcal{H}} \text{for all} f \in \mathcal{H}. \tag{357}
 $$
 
 - Example:  $\mathcal{H} = \mathbb{R}^d$  with the usual inner product,  $L(f) = \langle c, f \rangle$  is bounded (with  $M = \|c\|_2$  by Cauchy-Schwartz)
@@ -3917,7 +3917,7 @@ Proof (construction of the kernel)
 - Applying this theorem to the evaluation functionals  $L_{x}$ , we can conclude that for each  $x \in \mathcal{X}$ , there exists a unique representer  $R_{x} \in \mathcal{H}$  such that  $L_{x}(f) = \langle R_{x}, f \rangle$ . Recall that we also have  $L_{x}(f) = f(x)$  by definition. Combining yields the reproducing property:
 
 $$
-\boxed{f (x) = \langle R_{x}, f \rangle \text{forall} f \in \mathcal{H}.} \tag{359}
+\boxed{f (x) = \langle R_{x}, f \rangle \text{for all} f \in \mathcal{H}.} \tag{359}
 $$
 
 This is the key property: function evaluations can be expressed as inner products.
@@ -3987,7 +3987,7 @@ for all  $b$ . Note that  $\langle f, f \rangle = \alpha^\top K\alpha = 0$ . We 
 - So far we have a valid Hilbert space, but we need to still check that all evaluation functionals  $L_{x}$  are bounded to get an RKHS. Also, we should check that  $R_{x} \stackrel{\mathrm{def}}{=} k(x, \cdot)$  is indeed a representative of function evaluations. Take any  $f \in \mathcal{H}_0$ . Then:
 
 $$
-\begin{array}{l} f (x) = \sum_{i = 1} ^{n} \alpha_{i} k \left(x_{i}, x\right) [ \text{definition of } f ] (366) \\ = \langle f, k (x, \cdot) \rangle \quad [ \text{definitionofinnerproduct} ] (367) \\ = \left\langle R_{x}, f \right\rangle \quad [ \text{definition} R_{x} ]. (368) \\ \end{array}
+\begin{array}{l} f (x) = \sum_{i = 1} ^{n} \alpha_{i} k \left(x_{i}, x\right) [ \text{definitionof } f ] (366) \\ = \langle f, k (x, \cdot) \rangle \quad [ \text{definitionofinnerproduct} ] (367) \\ = \left\langle R_{x}, f \right\rangle \quad [ \text{definition} R_{x} ]. (368) \\ \end{array}
 $$
 
 Boundedness of  $L_{x}$  follows from  $|L_{x}(f)| = |\langle f, k(x,\cdot)\rangle| \leq \| f\|_{\mathcal{H}} \| k(x,\cdot)\| = \| f\|_{\mathcal{H}}k(x,x)$  by Cauchy-Schwartz.
@@ -4053,7 +4053,7 @@ Proof
 - Define the orthogonal complement:
 
 $$
-V_{\perp} = \{g \in \mathcal{H}: \langle f, g \rangle = 0 \text{forall} f \in V \}. \tag{372}
+V_{\perp} = \{g \in \mathcal{H}: \langle f, g \rangle = 0 \text{for all} f \in V \}. \tag{372}
 $$
 
 - Any  $f \in \mathcal{H}$  can be decomposed in to a part in the span of the examples and an orthogonal part:
@@ -4538,7 +4538,7 @@ Note that the last line follows because  $|\alpha(\omega_i)| \leq C$  and  $\phi
 * We can bound the mean by passing to the variance:
 
 $$
-\begin{array}{l} \mathbb{E} \left[ D \left(\omega_{1: m}\right) \right] \leq \sqrt{\mathbb{E} \left[ D \left(\omega_{1 : m}\right) ^{2} \right]} \quad [ \text{J e n s e n ' s i n e q u a l i t y} ] (425) \\ = \sqrt{\mathbb{E} \left[ \left\| \frac{1}{m} \sum_{i = 1} ^{m} \left(\alpha \left(\omega_{i}\right) \phi_{\omega_{i}} - f^{*}\right) \right\| ^{2} \right]} \quad [\text{expand}] (426) \\ = \sqrt{\frac{1}{m^{2}} \sum_{i = 1} ^{m} \mathbb{E} \left[ \left\| \alpha \left(\omega_{i}\right) \phi_{\omega_{i}} - f^{*} \right\| ^{2} \right]} \quad [ \text{variance of i.i.d. sum } ] (427) \\ \leq \frac{C}{\sqrt{m}} \quad [ \text{use} | \alpha (\omega_{i}) | \leq C ]. (428) \\ \end{array}
+\begin{array}{l} \mathbb{E} \left[ D \left(\omega_{1: m}\right) \right] \leq \sqrt{\mathbb{E} \left[ D \left(\omega_{1 : m}\right) ^{2} \right]} \quad [ \text{Je ns en 's in eq ua li ty} ] (425) \\ = \sqrt{\mathbb{E} \left[ \left\| \frac{1}{m} \sum_{i = 1} ^{m} \left(\alpha \left(\omega_{i}\right) \phi_{\omega_{i}} - f^{*}\right) \right\| ^{2} \right]} \quad [\text{expand}] (426) \\ = \sqrt{\frac{1}{m^{2}} \sum_{i = 1} ^{m} \mathbb{E} \left[ \left\| \alpha \left(\omega_{i}\right) \phi_{\omega_{i}} - f^{*} \right\| ^{2} \right]} \quad [ \text{varianceofi.i.d.sum } ] (427) \\ \leq \frac{C}{\sqrt{m}} \quad [ \text{use} | \alpha (\omega_{i}) | \leq C ]. (428) \\ \end{array}
 $$
 
 * Applying McDiarmid's inequality (Theorem 8), we get that
@@ -5011,7 +5011,7 @@ Definition 25 (convexity)
 A function  $f: S \to \mathbb{R}$  is convex iff for all points  $w \in S$ , there is some vector  $z \in \mathbb{R}^d$  such that
 
 $$
-\boxed{f (u) \geq f (w) + z \cdot (u - w) \quad \text{forall} u \in S.} \tag{467}
+\boxed{f (u) \geq f (w) + z \cdot (u - w) \quad \text{for all} u \in S.} \tag{467}
 $$
 
 This says that at any point  $w \in S$ , we can find a linear approximation (RHS of (467)) that lower bounds the function  $f$  (LHS of (467)).
@@ -5021,7 +5021,7 @@ Definition 26 (subgradient)
 For each  $w \in S$ , the set of all  $z$  satisfying (467) are known as the subgradients at  $w$ :
 
 $$
-\left| \partial f (w) \stackrel{\text{def}} {=} \{z: f (u) \geq f (w) + z \cdot (u - w) \text{forall} u \in S \}. \right| \tag{468}
+\left| \partial f (w) \stackrel{\text{def}} {=} \{z: f (u) \geq f (w) + z \cdot (u - w) \text{for all} u \in S \}. \right| \tag{468}
 $$
 
 If  $f$  is differentiable at  $w$ , then there is one subgradient equal to the gradient:  $\partial f(w) = \{\nabla f(w)\}$ .
@@ -5177,13 +5177,13 @@ Proof by induction:
 * Assume the inductive hypothesis on  $T - 1$ :
 
 $$
-\sum_{t = 1} ^{T - 1} f_{t} \left(w_{t + 1}\right) \leq \sum_{t = 1} ^{T - 1} f_{t} (u) \quad \text{forall} u \in S. \tag{479}
+\sum_{t = 1} ^{T - 1} f_{t} \left(w_{t + 1}\right) \leq \sum_{t = 1} ^{T - 1} f_{t} (u) \quad \text{for all} u \in S. \tag{479}
 $$
 
 * Add  $f_{T}(w_{T + 1})$  to both sides:
 
 $$
-\sum_{t = 1} ^{T} f_{t} \left(w_{t + 1}\right) \leq \sum_{t = 1} ^{T - 1} f_{t} (u) + f_{T} \left(w_{T + 1}\right) \text{forall} u \in S. \tag{480}
+\sum_{t = 1} ^{T} f_{t} \left(w_{t + 1}\right) \leq \sum_{t = 1} ^{T - 1} f_{t} (u) + f_{T} \left(w_{T + 1}\right) \text{for all} u \in S. \tag{480}
 $$
 
 * In particular, this holds for  $u = w_{T + 1}$ , so we have:
@@ -5195,7 +5195,7 @@ $$
 * Since  $w_{T + 1} \in \arg \min_u \sum_{t = 1}^T f_t(u)$  by definition of FTL, we have:
 
 $$
-\sum_{t = 1} ^{T} f_{t} \left(w_{t + 1}\right) \leq \sum_{t = 1} ^{T} f_{t} (u) \text{forall} u \in S, \tag{482}
+\sum_{t = 1} ^{T} f_{t} \left(w_{t + 1}\right) \leq \sum_{t = 1} ^{T} f_{t} (u) \text{for all} u \in S, \tag{482}
 $$
 
 which is the inductive hypothesis for  $T$ .
@@ -5699,7 +5699,7 @@ by the Fenchel-Young inequality. Note that we have equality if  $u$  is the best
 - The learner:
 
 $$
-\begin{array}{l} \psi^{*} \left(\theta_{T + 1}\right) = \psi^{*} \left(\theta_{1}\right) + \sum_{t = 1} ^{T} \left[ \psi^{*} \left(\theta_{t + 1}\right) - \psi^{*} \left(\theta_{t}\right) \right] \quad [ \text{telescopingsums} ] (531) \\ = \psi^{*} \left(\theta_{1}\right) + \sum_{t = 1} ^{T} \left[ \nabla \psi^{*} \left(\theta_{t}\right) \cdot \left(\theta_{t + 1} - \theta_{t}\right) + D_{\psi^{*}} \left(\theta_{t + 1} \| \theta_{t}\right) \right] \quad \text{[ B r e g m a n d e f i n i t i ]} (532) \\ = \psi^{*} \left(\theta_{1}\right) + \sum_{t = 1} ^{T} \left[ - w_{t} \cdot z_{t} + D_{\psi^{*}} \left(\theta_{t + 1} \| \theta_{t}\right) \right] \quad [ \text{d e f i n i t i o n o f O M D (6) a n d} \theta_{t} ]. (533) \\ \end{array}
+\begin{array}{l} \psi^{*} \left(\theta_{T + 1}\right) = \psi^{*} \left(\theta_{1}\right) + \sum_{t = 1} ^{T} \left[ \psi^{*} \left(\theta_{t + 1}\right) - \psi^{*} \left(\theta_{t}\right) \right] \quad [ \text{telescopingsums} ] (531) \\ = \psi^{*} \left(\theta_{1}\right) + \sum_{t = 1} ^{T} \left[ \nabla \psi^{*} \left(\theta_{t}\right) \cdot \left(\theta_{t + 1} - \theta_{t}\right) + D_{\psi^{*}} \left(\theta_{t + 1} \| \theta_{t}\right) \right] \quad \text{[B re gm an de fi ni ti ]} (532) \\ = \psi^{*} \left(\theta_{1}\right) + \sum_{t = 1} ^{T} \left[ - w_{t} \cdot z_{t} + D_{\psi^{*}} \left(\theta_{t + 1} \| \theta_{t}\right) \right] \quad [ \text{de fi ni ti on of OM D (6)a nd} \theta_{t} ]. (533) \\ \end{array}
 $$
 
 Note that  $\psi^{*}(\theta_{1}) = -\psi (w_{1})$  since  $\theta_{1} = 0$
@@ -5969,7 +5969,7 @@ $$
 - The rest is just applying the two facts and watching stuff cancel:
 
 $$
-\begin{array}{l} D_{\psi^{*}} \left(\theta_{t + 1} \| \theta_{t}\right) = \psi^{*} \left(\theta_{t + 1}\right) - \psi^{*} \left(\theta_{t}\right) + w_{t} \cdot z_{t} (557) \\ = \frac{1}{\eta} \log \left(\frac{\sum_{j = 1} ^{d} e^{\eta \theta_{t + 1 , j}}}{\sum_{j = 1} ^{d} e^{\eta \theta_{t , j}}}\right) + w_{t} \cdot z_{t} \quad [ \text{definition of } \psi^{*} ] (558) \\ = \frac{1}{\eta} \log \left(\sum_{j = 1} ^{d} w_{t, j} e^{- \eta z_{t, j}}\right) + w_{t} \cdot z_{t} [ \text{definition of } \theta_{t} ] (559) \\ \leq \frac{1}{\eta} \log \left(\sum_{j = 1} ^{d} w_{t, j} [ 1 - (\eta z_{t, j} - \eta^{2} z_{t, j} ^{2}) ]\right) + w_{t} \cdot z_{t} \quad [ \mathrm{f a c t 1} ] \quad (0) \\ = \frac{1}{\eta} \log \left(1 - \sum_{j = 1} ^{d} w_{t, j} (\eta z_{t, j} - \eta^{2} z_{t, j} ^{2})\right) + w_{t} \cdot z_{t} [ w_{t} \in \Delta_{d} ] (1) \\ \leq \frac{1}{\eta} \sum_{j = 1} ^{d} w_{t, j} \left(- \eta z_{t, j} + \eta^{2} z_{t, j} ^{2}\right) + w_{t} \cdot z_{t} [ \text{fact} 2 ] (562) \\ = \eta \sum_{j = 1} ^{d} w_{t, j} z_{t, j} ^{2} [\text{algebra}]. (563) \\ \end{array}
+\begin{array}{l} D_{\psi^{*}} \left(\theta_{t + 1} \| \theta_{t}\right) = \psi^{*} \left(\theta_{t + 1}\right) - \psi^{*} \left(\theta_{t}\right) + w_{t} \cdot z_{t} (557) \\ = \frac{1}{\eta} \log \left(\frac{\sum_{j = 1} ^{d} e^{\eta \theta_{t + 1 , j}}}{\sum_{j = 1} ^{d} e^{\eta \theta_{t , j}}}\right) + w_{t} \cdot z_{t} \quad [ \text{definitionof } \psi^{*} ] (558) \\ = \frac{1}{\eta} \log \left(\sum_{j = 1} ^{d} w_{t, j} e^{- \eta z_{t, j}}\right) + w_{t} \cdot z_{t} [ \text{definitionof } \theta_{t} ] (559) \\ \leq \frac{1}{\eta} \log \left(\sum_{j = 1} ^{d} w_{t, j} [ 1 - (\eta z_{t, j} - \eta^{2} z_{t, j} ^{2}) ]\right) + w_{t} \cdot z_{t} \quad [ \mathrm{fa ct 1} ] \quad (0) \\ = \frac{1}{\eta} \log \left(1 - \sum_{j = 1} ^{d} w_{t, j} (\eta z_{t, j} - \eta^{2} z_{t, j} ^{2})\right) + w_{t} \cdot z_{t} [ w_{t} \in \Delta_{d} ] (1) \\ \leq \frac{1}{\eta} \sum_{j = 1} ^{d} w_{t, j} \left(- \eta z_{t, j} + \eta^{2} z_{t, j} ^{2}\right) + w_{t} \cdot z_{t} [ \text{fact} 2 ] (562) \\ = \eta \sum_{j = 1} ^{d} w_{t, j} z_{t, j} ^{2} [\text{algebra}]. (563) \\ \end{array}
 $$
 
 $$
@@ -6001,7 +6001,7 @@ improving the  $\| z_t\|_\infty^2$  from the standard mirror descent analysis (E
 * However, the EG algorithm does not:
 
 $$
-w_{t} \propto \left\{ \begin{array}{l l} {[ 1, 1 ]} & {\text{if} t \text{isodd}} \\ {[ 1, \exp (- \eta) ]} & {\text{if} t \text{iseven}.} \end{array} \right. \tag{565}
+w_{t} \propto \left\{ \begin{array}{l l} {[ 1, 1 ]} & {\text{if } t \text{isodd}} \\ {[ 1, \exp (- \eta) ]} & {\text{if } t \text{iseven}.} \end{array} \right. \tag{565}
 $$
 
 EG doesn't penalize expert 2 on the odd rounds at all and barely penalizes it on the even rounds, because expert 2 redeems itself on the even rounds.
@@ -6079,7 +6079,7 @@ $$
 Proof of Theorem 34:
 
 $$
-\begin{array}{l} u \cdot \theta_{T + 1} - \psi_{T + 1} (u) \leq \psi_{T + 1} ^{*} \left(\theta_{T + 1}\right) \quad [ \text{Fenchel-Young } ] (577) \\ = \psi_{1} ^{*} (\theta_{1}) + \sum_{t = 1} ^{T} \left[ \psi_{t + 1} ^{*} \left(\theta_{t + 1}\right) - \psi_{t} ^{*} \left(\theta_{t}\right) \right] \quad [ \text{telescoping} ] (578) \\ = \psi_{1} ^{*} (\theta_{1}) + \sum_{t = 1} ^{T} \left[ \psi_{t + 1} ^{*} \left(\theta_{t + 1}\right) - \psi_{t} ^{*} \left(\tilde{\theta} _{t}\right) - \underbrace{\nabla \psi^{*} \left(\tilde{\theta} _{t}\right)} _{w_{t}} \cdot m_{t} \right] \quad [ \text{convexityof} \psi_{t} ^{*} ] (579) \\ = \psi_{1} ^{*} \left(\theta_{1}\right) + \sum_{t = 1} ^{T} - w_{t} \cdot z_{t} [ \text{loss-bounding property } ] (580) \\ = - \psi_{1} \left(w_{1}\right) + \sum_{t = 1} ^{T} - w_{t} \cdot z_{t} [\text{since}m_{1} = 0 ]. (581) \\ \end{array}
+\begin{array}{l} u \cdot \theta_{T + 1} - \psi_{T + 1} (u) \leq \psi_{T + 1} ^{*} \left(\theta_{T + 1}\right) \quad [ \text{Fenchel-Young } ] (577) \\ = \psi_{1} ^{*} (\theta_{1}) + \sum_{t = 1} ^{T} \left[ \psi_{t + 1} ^{*} \left(\theta_{t + 1}\right) - \psi_{t} ^{*} \left(\theta_{t}\right) \right] \quad [ \text{telescoping} ] (578) \\ = \psi_{1} ^{*} (\theta_{1}) + \sum_{t = 1} ^{T} \left[ \psi_{t + 1} ^{*} \left(\theta_{t + 1}\right) - \psi_{t} ^{*} \left(\tilde{\theta} _{t}\right) - \underbrace{\nabla \psi^{*} \left(\tilde{\theta} _{t}\right)} _{w_{t}} \cdot m_{t} \right] \quad [ \text{convexityof} \psi_{t} ^{*} ] (579) \\ = \psi_{1} ^{*} \left(\theta_{1}\right) + \sum_{t = 1} ^{T} - w_{t} \cdot z_{t} [ \text{loss-boundingproperty } ] (580) \\ = - \psi_{1} \left(w_{1}\right) + \sum_{t = 1} ^{T} - w_{t} \cdot z_{t} [\text{since}m_{1} = 0 ]. (581) \\ \end{array}
 $$
 
 Recall that  $\theta_{T + 1} = -\sum_{t = 1}^{T}z_{t}$ . Algebra completes the proof.
@@ -6174,11 +6174,11 @@ $$
 - Then:
 
 $$
-\operatorname{Regret} (u) \leq \psi_{T + 1} (u) - \psi \left(w_{1}\right) [ \text{f r o m T h e o r e m 4} ] \tag{595}
+\operatorname{Regret} (u) \leq \psi_{T + 1} (u) - \psi \left(w_{1}\right) [ \text{fr om Th eo re m4} ] \tag{595}
 $$
 
 $$
-\leq \psi (u) + \eta \sum_{t = 1} ^{T} u \cdot a_{t} - \psi \left(w_{1}\right) [ \text{definition of } \psi_{t} ]. \tag{596}
+\leq \psi (u) + \eta \sum_{t = 1} ^{T} u \cdot a_{t} - \psi \left(w_{1}\right) [ \text{definitionof } \psi_{t} ]. \tag{596}
 $$
 
 - Now let us apply this result to the expert advice setting.  
@@ -6376,7 +6376,7 @@ $$
 - Given these two constraints, it's not hard to see that the only choice for  $\hat{z}_t$  is:
 
 $$
-\hat{z} _{t, a} = \left\{ \begin{array}{l l} \frac{z_{t , a}}{w_{t , a}} & \text{if} a = a_{t} \\ 0 & \text{o t h e r w i s e .} \end{array} \right. \tag{614}
+\hat{z} _{t, a} = \left\{ \begin{array}{l l} \frac{z_{t , a}}{w_{t , a}} & \text{if } a = a_{t} \\ 0 & \text{ot he rw is e .} \end{array} \right. \tag{614}
 $$
 
 Note that dividing  $w_{t,a}$  compensates for sampling  $a_t \sim w_t$ .
@@ -6961,7 +6961,7 @@ $$
 - Note that weights  $\{w^J\}$  are orthogonal in the following sense:
 
 $$
-\mathbb{E} _{w \sim \mathbb{C} (R) ^{d}} \left[ w^{J} \overline{{w^{J^{\prime}}}} \right] = \left\{ \begin{array}{l l} R^{2 | J |} & \text{if} J = J^{\prime} \\ 0 & \text{o t h e r w i s e .} \end{array} \right. \tag{668}
+\mathbb{E} _{w \sim \mathbb{C} (R) ^{d}} \left[ w^{J} \overline{{w^{J^{\prime}}}} \right] = \left\{ \begin{array}{l l} R^{2 | J |} & \text{if } J = J^{\prime} \\ 0 & \text{ot he rw is e .} \end{array} \right. \tag{668}
 $$
 
 This stems from the fact that each  $w_{j}\sim \mathbb{C}(R)$  means  $w_{j} = e^{it}$  where  $t\sim$  Uniform([0, 2π]); and  $\mathbb{E}_{t\sim \mathrm{Uniform}([0,2\pi])}[e^{iat}\overline{e^{ibt}}] = \mathbb{I}[a = b]$ .
@@ -7332,7 +7332,7 @@ $$
 - Indicator (one-zero) function:
 
 $$
-\mathbb{I} [ \text{condition} ] \stackrel{\text{def}} {=} \left\{ \begin{array}{l l} 1 & \text{ifconditionistrue} \\ 0 & \text{o t h e r w i s e .} \end{array} \right. \tag{694}
+\mathbb{I} [ \text{condition} ] \stackrel{\text{def}} {=} \left\{ \begin{array}{l l} 1 & \text{ifconditionistrue} \\ 0 & \text{ot he rw is e .} \end{array} \right. \tag{694}
 $$
 
 - Probability simplex:

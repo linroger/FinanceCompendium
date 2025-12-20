@@ -56,13 +56,13 @@ As usual we wish to estimate  $\theta \coloneqq \mathbb{E}[h(\mathbf{X})]$ . Sta
 3. Approximate  $100(1 - \alpha)\%$  confidence intervals are then given by
 
 $$
-\left[ \hat {\theta} _ {n} - z _ {1 - \alpha / 2} \frac {\hat {\sigma} _ {n}}{\sqrt {n}}, \hat {\theta} _ {n} + z _ {1 - \alpha / 2} \frac {\hat {\sigma} _ {n}}{\sqrt {n}} \right].
+\left[ \hat {\theta}_{n} - z_{1 - \alpha / 2} \frac{\hat {\sigma}_{n}}{\sqrt{n}}, \hat {\theta}_{n} + z_{1 - \alpha / 2} \frac{\hat {\sigma}_{n}}{\sqrt{n}} \right].
 $$
 
 Can measure quality of  $\hat{\theta}_n$  by the half-width  $HW$  of the CI
 
 $$
-H W = z _ {1 - \alpha / 2} \sqrt {\frac {\operatorname {V a r} (Y)}{n}}.
+H W = z_{1 - \alpha / 2} \sqrt{\frac{\operatorname{Va r} (Y)}{n}}.
 $$
 
 Would like  $HW$  to be small but sometimes this is difficult to achieve.
@@ -94,7 +94,7 @@ Question: Which method is more efficient,  $M_w$  or  $M_y$ ?
 To answer this, let  $n_w$  and  $n_y$  be the number of samples of  $W$  and  $Y$ , respectively, that are needed to achieve a half-width,  $HW$ . Then
 
 $$
-\begin{array}{l} n _ {w} = \left(\frac {z _ {1 - \alpha / 2}}{H W}\right) ^ {2} \operatorname {V a r} (W) \\ {n _ {y}} = {\left(\frac {z _ {1 - \alpha / 2}}{H W}\right) ^ {2} \mathsf {V a r} (Y).} \\ \end{array}
+\begin{array}{l} n_{w} = \left(\frac{z_{1 - \alpha / 2}}{H W}\right)^{2} \operatorname{Va r} (W) \\ {n_{y}} = {\left(\frac{z_{1 - \alpha / 2}}{H W}\right)^{2} \mathsf {V a r} (Y).} \\ \end{array}
 $$
 
 Let  $E_w$  and  $E_y$  denote the amount of computational effort required to produce one sample of  $W$  and  $Y$ , respectively.
@@ -104,13 +104,13 @@ Let  $E_w$  and  $E_y$  denote the amount of computational effort required to pr
 Then the total effort expended by  $M_w$  and  $M_y$ , respectively, to achieve  $HW$  are
 
 $$
-\begin{array}{l} T E _ {w} = \left(\frac {z _ {1 - \alpha / 2}}{H W}\right) ^ {2} \mathsf {V a r} (W) E _ {w} \\ { T E _ { y } } { = } { \left( \frac { z _ { 1 - \alpha / 2 } } { H W } \right) ^ { 2 } \mathsf { V a r } ( Y ) ~ E _ { y } . } \\ \end{array}
+\begin{array}{l} T E_{w} = \left(\frac{z_{1 - \alpha / 2}}{H W}\right)^{2} \mathsf {V a r} (W) E_{w} \\ { T E_{ y } } { = } { \left( \frac{ z_{ 1 - \alpha / 2 } } { H W } \right)^{ 2 } \mathsf { V a r } ( Y ) ~ E_{ y } . } \\ \end{array}
 $$
 
 Say  $M_w$  is more efficient than  $M_y$  if  $TE_w < TE_y$ . This occurs if and only if
 
 $$
-\operatorname {V a r} (W) E _ {w} <   \operatorname {V a r} (Y) E _ {y}. \tag {1}
+\operatorname{Va r} (W) E_{w} <   \operatorname{Va r} (Y) E_{y}. \tag {1}
 $$
 
 Will therefore use  $\operatorname{Var}(W)E_w$  as a measure of  $M_w$ 's efficiency of the.
@@ -137,13 +137,13 @@ Then can construct many unbiased estimators of  $\theta$ :
 Variance of  $\hat{\theta}_c$  satisfies
 
 $$
-\operatorname {V a r} \left(\hat {\theta} _ {c}\right) = \operatorname {V a r} (Y) + c ^ {2} \operatorname {V a r} (Z) + 2 c \operatorname {C o v} (Y, Z). \tag {2}
+\operatorname{Va r} \left(\hat {\theta}_{c}\right) = \operatorname{Va r} (Y) + c^{2} \operatorname{Va r} (Z) + 2 c \operatorname{Co v} (Y, Z). \tag {2}
 $$
 
 Can choose  $c$  to minimize this quantity and optimal value given by
 
 $$
-c ^ {*} = - \frac {\operatorname {C o v} (Y , Z)}{\operatorname {V a r} (Z)}.
+c^{*} = - \frac{\operatorname{Co v} (Y , Z)}{\operatorname{Va r} (Z)}.
 $$
 
 # Control variates
@@ -151,7 +151,7 @@ $$
 Minimized variance satisfies
 
 $$
-\begin{array}{l} \operatorname {V a r} \left(\hat {\theta} _ {c ^ {*}}\right) = \operatorname {V a r} (Y) - \frac {\operatorname {C o v} (Y , Z) ^ {2}}{\operatorname {V a r} (Z)} \\ = \mathsf {V a r} (\hat {\theta}) - \frac {\operatorname {C o v} (Y , Z) ^ {2}}{\operatorname {V a r} (Z)}. \\ \end{array}
+\begin{array}{l} \operatorname{Va r} \left(\hat {\theta}_{c^{*}}\right) = \operatorname{Va r} (Y) - \frac{\operatorname{Co v} (Y , Z)^{2}}{\operatorname{Va r} (Z)} \\ = \mathsf {V a r} (\hat {\theta}) - \frac{\operatorname{Co v} (Y , Z)^{2}}{\operatorname{Va r} (Z)}. \\ \end{array}
 $$
 
 In order to achieve a variance reduction therefore only necessary that  $\operatorname{Cov}(Y,Z) \neq 0$ .
@@ -159,7 +159,7 @@ In order to achieve a variance reduction therefore only necessary that  $\operat
 New resulting Monte Carlo algorithm proceeds by generating  $n$  samples of  $Y$  and  $Z$  and then setting
 
 $$
-\hat {\theta} _ {c ^ {*}} = \frac {\sum_ {i = 1} ^ {n} \left(Y _ {i} + c ^ {*} (Z _ {i} - \mathbb {E} [ Z ])\right)}{n}.
+\hat {\theta}_{c^{*}} = \frac{\sum_{i = 1}^{n} \left(Y_{i} + c^{*} (Z_{i} - \mathbb {E} [ Z ])\right)}{n}.
 $$
 
 There is a problem with this, however, as we usually do not know  $\operatorname{Cov}(Y,Z)$ .
@@ -167,7 +167,7 @@ There is a problem with this, however, as we usually do not know  $\operatorname
 Resolve this problem by doing  $p$  pilot simulations and setting
 
 $$
-\widehat {\operatorname {C o v}} (Y, Z) = \frac {\sum_ {j = 1} ^ {p} \left(Y _ {j} - \overline {{Y}} _ {p}\right) \left(Z _ {j} - \mathbb {E} [ Z ]\right)}{p - 1}.
+\widehat {\operatorname{Co v}} (Y, Z) = \frac{\sum_{j = 1}^{p} \left(Y_{j} - \overline {{Y}}_{p}\right) \left(Z_{j} - \mathbb {E} [ Z ]\right)}{p - 1}.
 $$
 
 # Control variates
@@ -175,13 +175,13 @@ $$
 If it is also the case that  $\operatorname{Var}(Z)$  is unknown, then can also estimate it with
 
 $$
-\widehat {\operatorname {V a r}} (Z) = \frac {\sum_ {j = 1} ^ {p} (Z _ {j} - \mathbb {E} [ Z ]) ^ {2}}{p - 1}
+\widehat {\operatorname{Va r}} (Z) = \frac{\sum_{j = 1}^{p} (Z_{j} - \mathbb {E} [ Z ])^{2}}{p - 1}
 $$
 
 and finally set
 
 $$
-\hat {c} ^ {*} = - \frac {\widehat {\operatorname {C o v}} (Y , Z)}{\widehat {\operatorname {V a r}} (Z)}.
+\hat {c}^{*} = - \frac{\widehat {\operatorname{Co v}} (Y , Z)}{\widehat {\operatorname{Va r}} (Z)}.
 $$
 
 Our control variate simulation algorithm is as follows:
@@ -191,13 +191,13 @@ Our control variate simulation algorithm is as follows:
 for  $i = 1$  to  $p$
 
 $$
-\text {g e n e r a t e} \left(Y _ {i}, Z _ {i}\right)
+\text{ge ne ra te} \left(Y_{i}, Z_{i}\right)
 $$
 
 end for
 
 $$
-\text {c o m p u t e} \hat {c} ^ {*}
+\text{co mp ut e} \hat {c}^{*}
 $$
 
 /\* Now do main simulation \*/
@@ -207,7 +207,7 @@ for  $i = 1$  to  $n$
 generate  $(Y_{i},Z_{i})$
 
 $$
-\operatorname {s e t} V _ {i} = Y _ {i} + \hat {c} ^ {*} (Z _ {i} - \mathbb {E} [ Z ])
+\operatorname{se t} V_{i} = Y_{i} + \hat {c}^{*} (Z_{i} - \mathbb {E} [ Z ])
 $$
 
 end for
@@ -219,7 +219,7 @@ set  $\hat{\sigma}_{n,v}^2 = \sum (V_i - \hat{\theta}_{\hat{c}^*})^2 /(n - 1)$
 set  $100(1 - \alpha)\%$
 
 $$
-\mathsf {C I} = \left[ \hat {\theta} _ {\hat {c} ^ {*}} - z _ {1 - \alpha / 2} \frac {\hat {\sigma} _ {n , v}}{\sqrt {n}}, \hat {\theta} _ {\hat {c} ^ {*}} + z _ {1 - \alpha / 2} \frac {\hat {\sigma} _ {n , v}}{\sqrt {n}} \right]
+\mathsf {C I} = \left[ \hat {\theta}_{\hat {c}^{*}} - z_{1 - \alpha / 2} \frac{\hat {\sigma}_{n , v}}{\sqrt{n}}, \hat {\theta}_{\hat {c}^{*}} + z_{1 - \alpha / 2} \frac{\hat {\sigma}_{n , v}}{\sqrt{n}} \right]
 $$
 
 # e.g. Pricing an Asian Call Option
@@ -227,7 +227,7 @@ $$
 Payoff of an Asian call option given by
 
 $$
-h (\mathbf {X}) := \max  \left(0, \frac {\sum_ {i = 1} ^ {m} S _ {i T / m}}{m} - K\right)
+h (\mathbf {X}) := \max  \left(0, \frac{\sum_{i = 1}^{m} S_{i T / m}}{m} - K\right)
 $$
 
 where  $\mathbf{X} \coloneqq \{S_{iT / m} : i = 1, \dots, m\}$ ,  $K$  is the strike and  $T$  the expiration date.
@@ -235,7 +235,7 @@ where  $\mathbf{X} \coloneqq \{S_{iT / m} : i = 1, \dots, m\}$ ,  $K$  is the st
 Price of option then given by
 
 $$
-C _ {a} = \mathbb {E} _ {0} ^ {Q} \left[ e ^ {- r T} h (\mathbf {X}) \right].
+C_{a} = \mathbb {E}_{0}^{Q} \left[ e^{- r T} h (\mathbf {X}) \right].
 $$
 
 Will assume as usual that  $S_{t} \sim GBM(r, \sigma)$  under  $Q$ .
@@ -243,7 +243,7 @@ Will assume as usual that  $S_{t} \sim GBM(r, \sigma)$  under  $Q$ .
 Usual simulation method for estimating  $C_a$  is to generate  $n$  independent samples of the payoff,  $Y_i \coloneqq e^{-rT} h(\mathbf{X}_i)$ , for  $i = 1, \ldots, n$ , and to set
 
 $$
-\hat {C} _ {a} = \frac {\sum_ {i = 1} ^ {n} Y _ {i}}{n}.
+\hat {C}_{a} = \frac{\sum_{i = 1}^{n} Y_{i}}{n}.
 $$
 
 # e.g. Pricing an Asian Call Option
@@ -263,7 +263,7 @@ Question: Which one would lead to the greatest variance reduction?
 Question: Explain why you could also use the value of the option with payoff
 
 $$
-g (\mathbf {X}) := \max  \left(0, \left(\prod_ {i = 1} ^ {m} S _ {i T / m}\right) ^ {1 / m} - K\right)
+g (\mathbf {X}) := \max  \left(0, \left(\prod_{i = 1}^{m} S_{i T / m}\right)^{1 / m} - K\right)
 $$
 
 as a control variate. Do you think it would result in a substantial variance reduction?
@@ -285,7 +285,7 @@ The barber closes the shop after  $T = 9$  hours but still serves any customers 
 Quantity that he wants to estimate is  $\theta \coloneqq \mathbb{E}[Y]$  where
 
 $$
-Y := \sum_ {j = 1} ^ {N (T)} W _ {j}.
+Y := \sum_{j = 1}^{N (T)} W_{j}.
 $$
 
 # e.g. The Barbershop
@@ -295,7 +295,7 @@ Assume the service times of customers are IID with CDF,  $F(.)$ , and that they 
 Usual simulation algorithm: simulate  $n$  days of operation in the barbershop, thereby obtaining  $n$  samples,  $Y_{1},\ldots ,Y_{n}$ , and then set
 
 $$
-\hat {\theta} _ {n} = \frac {\sum_ {j = 1} ^ {n} Y _ {j}}{n}.
+\hat {\theta}_{n} = \frac{\sum_{j = 1}^{n} Y_{j}}{n}.
 $$
 
 However, a better estimate could be obtained by using a control variate.
@@ -303,7 +303,7 @@ However, a better estimate could be obtained by using a control variate.
 Let  $Z$  denote the total time customers on a given day spend in service so that
 
 $$
-Z := \sum_ {j = 1} ^ {N (T)} S _ {j}
+Z := \sum_{j = 1}^{N (T)} S_{j}
 $$
 
 where  $S_{j}$  is the service time of the  $j^{th}$  customer. Then easy to see that
@@ -325,13 +325,13 @@ Also suppose that for  $i = 1, \ldots, m$ ,  $Z_{i}$  is an output or that we ca
 Can then construct unbiased estimators of  $\theta$  by defining
 
 $$
-\hat {\theta} _ {c} := Y + c _ {1} \left(Z _ {1} - \mathbb {E} \left[ Z _ {1} \right]\right) + \dots + c _ {m} \left(Z _ {m} - \mathbb {E} \left[ Z _ {m} \right]\right).
+\hat {\theta}_{c} := Y + c_{1} \left(Z_{1} - \mathbb {E} \left[ Z_{1} \right]\right) + \dots + c_{m} \left(Z_{m} - \mathbb {E} \left[ Z_{m} \right]\right).
 $$
 
 Variance of  $\hat{\theta}_c$  satisfies
 
 $$
-\operatorname {V a r} \left(\hat {\theta} _ {c}\right) = \operatorname {V a r} (Y) + 2 \sum_ {i = 1} ^ {m} c _ {i} \operatorname {C o v} (Y, Z _ {i}) + \sum_ {i = 1} ^ {m} \sum_ {i = 1} ^ {m} c _ {i} c _ {j} \operatorname {C o v} \left(Z _ {i}, Z _ {j}\right) \tag {3}
+\operatorname{Va r} \left(\hat {\theta}_{c}\right) = \operatorname{Va r} (Y) + 2 \sum_{i = 1}^{m} c_{i} \operatorname{Co v} (Y, Z_{i}) + \sum_{i = 1}^{m} \sum_{i = 1}^{m} c_{i} c_{j} \operatorname{Co v} \left(Z_{i}, Z_{j}\right) \tag {3}
 $$
 
 Can easily minimize  $\mathsf{Var}(\hat{\theta}_c)$  w.r.t the  $c_{i}$ 's.
@@ -343,13 +343,13 @@ As before, however, optimal solutions  $c_{i}^{*}$  will involve unknown covaria
 A convenient way of doing this is to observe that
 
 $$
-\hat {c} _ {i} ^ {*} = - b _ {i}
+\hat {c}_{i}^{*} = - b_{i}
 $$
 
 where the  $b_{i}$ 's are the least squares solution to the following linear regression:
 
 $$
-Y = a + b _ {1} Z _ {1} + \dots + b _ {m} Z _ {m} + \epsilon . \tag {4}
+Y = a + b_{1} Z_{1} + \dots + b_{m} Z_{m} + \epsilon . \tag {4}
 $$
 
 The simulation algorithm with multiple control variates is exactly analogous to the simulation algorithm with just a single control variate.
@@ -363,13 +363,13 @@ Suppose we have generated two samples,  $Y_{1}$  and  $Y_{2}$ .
 Then an unbiased estimate of  $\theta$  is given by
 
 $$
-\hat {\theta} := (Y _ {1} + Y _ {2}) / 2
+\hat {\theta} := (Y_{1} + Y_{2}) / 2
 $$
 
 with
 
 $$
-\operatorname {V a r} (\hat {\theta}) = \frac {\operatorname {V a r} (Y _ {1}) + \operatorname {V a r} (Y _ {2}) + 2 \operatorname {C o v} (Y _ {1} , Y _ {2})}{4}.
+\operatorname{Va r} (\hat {\theta}) = \frac{\operatorname{Va r} (Y_{1}) + \operatorname{Va r} (Y_{2}) + 2 \operatorname{Co v} (Y_{1} , Y_{2})}{4}.
 $$
 
 If  $Y_{1}$  and  $Y_{2}$  are IID, then  $\operatorname{Var}(\hat{\theta}) = \operatorname{Var}(Y) / 2$ .
@@ -441,13 +441,13 @@ Both algorithms require approximately the same amount of effort so comparing the
 Easy to see that
 
 $$
-\operatorname {V a r} (\hat {\theta} _ {2 n}) = \operatorname {V a r} \left(\frac {\sum_ {i = 1} ^ {2 n} Y _ {i}}{2 n}\right) = \frac {\operatorname {V a r} (Y)}{2 n}
+\operatorname{Va r} (\hat {\theta}_{2 n}) = \operatorname{Va r} \left(\frac{\sum_{i = 1}^{2 n} Y_{i}}{2 n}\right) = \frac{\operatorname{Va r} (Y)}{2 n}
 $$
 
 and
 
 $$
-\begin{array}{l} \mathsf {V a r} (\hat {\theta} _ {n, a}) = \mathsf {V a r} \left(\frac {\sum_ {i = 1} ^ {n} Z _ {i}}{n}\right) = \frac {\mathsf {V a r} (Z)}{n} \\ = \frac {\operatorname {V a r} (Y + \tilde {Y})}{4 n} = \frac {\operatorname {V a r} (Y)}{2 n} + \frac {\operatorname {C o v} (Y , \tilde {Y})}{2 n} \\ = \mathsf {V a r} (\hat {\theta} _ {2 n}) + \frac {\mathsf {C o v} (Y , \tilde {Y})}{2 n}. \\ \end{array}
+\begin{array}{l} \mathsf {V a r} (\hat {\theta}_{n, a}) = \mathsf {V a r} \left(\frac{\sum_{i = 1}^{n} Z_{i}}{n}\right) = \frac{\mathsf {V a r} (Z)}{n} \\ = \frac{\operatorname{Va r} (Y + \tilde {Y})}{4 n} = \frac{\operatorname{Va r} (Y)}{2 n} + \frac{\operatorname{Co v} (Y , \tilde {Y})}{2 n} \\ = \mathsf {V a r} (\hat {\theta}_{2 n}) + \frac{\mathsf {C o v} (Y , \tilde {Y})}{2 n}. \\ \end{array}
 $$
 
 Therefore  $\mathsf{Var}(\hat{\theta}_{n,a}) < \mathsf{Var}(\hat{\theta}_{2n})$  if and only  $\mathsf{Cov}(Y, \tilde{Y}) < 0$ .
@@ -455,7 +455,7 @@ Therefore  $\mathsf{Var}(\hat{\theta}_{n,a}) < \mathsf{Var}(\hat{\theta}_{2n})$ 
 Recalling that  $Y = h(\mathbf{U})$  and  $\tilde{Y} = h(1 - \mathbf{U})$ , this means that
 
 $$
-\operatorname {V a r} \left(\hat {\theta} _ {n, a}\right) <   \operatorname {V a r} \left(\hat {\theta} _ {2 n}\right) \Longleftrightarrow \operatorname {C o v} (h (\mathbf {U}), h (1 - \mathbf {U})) <   0.
+\operatorname{Va r} \left(\hat {\theta}_{n, a}\right) <   \operatorname{Va r} \left(\hat {\theta}_{2 n}\right) \Longleftrightarrow \operatorname{Co v} (h (\mathbf {U}), h (1 - \mathbf {U})) <   0.
 $$
 
 # When Can a Variance Reduction Be Guaranteed?
@@ -479,7 +479,7 @@ Say  $h(u_1, \ldots, u_m)$  is a monotonic function of each of its  $m$  argumen
 Theorem. If  $h(u_1, \ldots, u_m)$  is a monotonic function of each of its arguments on  $[0, 1]^m$ , then for a set  $\mathbf{U} := (U_1, \ldots, U_m)$  of IID  $U(0, 1)$  random variables
 
 $$
-\operatorname {C o v} (h (\mathbf {U}), h (1 - \mathbf {U})) <   0
+\operatorname{Co v} (h (\mathbf {U}), h (1 - \mathbf {U})) <   0
 $$
 
 where  $\operatorname{Cov}(h(\mathbf{U}), h(1 - \mathbf{U})) \coloneqq \operatorname{Cov}(h(U_1, \ldots, U_m), h(1 - U_1, \ldots, 1 - U_m))$ .
@@ -505,7 +505,7 @@ To see this, suppose  $F_{i}(.)$  is the CDF of  $X_{i}$ . If  $U_{i} \sim U(0,1
 So can generate  $Y$  by generating  $U_{1},\ldots ,U_{m}\sim \mathrm{IID} U(0,1)$  and setting
 
 $$
-Z = h \left(F _ {1} ^ {- 1} \left(U _ {1}\right), \dots , F _ {m} ^ {- 1} \left(U _ {m}\right)\right).
+Z = h \left(F_{1}^{- 1} \left(U_{1}\right), \dots , F_{m}^{- 1} \left(U_{m}\right)\right).
 $$
 
 Since the CDF of any random variable is non-decreasing, it follows that  $F_{i}^{-1}(.)$  also non-decreasing.
@@ -525,7 +525,7 @@ There is also a service time,  $S_{j} =$  amount of time the barber spends cutti
 Therefore there is some function,  $h(\cdot)$ , for which
 
 $$
-Y = h (I _ {1}, \dots , I _ {1 0 0}, S _ {1}, \dots , S _ {1 0 0}).
+Y = h (I_{1}, \dots , I_{1 0 0}, S_{1}, \dots , S_{1 0 0}).
 $$
 
 For many queueing systems,  $h(.)$  will be a monotonic function of its arguments. Why?
@@ -559,7 +559,7 @@ Question: What would you expect if  $Z \sim \mathsf{N}(0.5, 1)$ ?
 Wish to price a knock-in option where the payoff is given by
 
 $$
-h (S _ {T}) = \max  (0, S _ {T} - K) I _ {\{S _ {T} > B \}}
+h (S_{T}) = \max  (0, S_{T} - K) I_{\{S_{T} > B \}}
 $$
 
 where  $B$  is some fixed constant and  $S_{t}\sim GBM(r,\sigma^{2})$  under  $Q$ .
@@ -567,7 +567,7 @@ where  $B$  is some fixed constant and  $S_{t}\sim GBM(r,\sigma^{2})$  under  $Q
 Option price may be then written as
 
 $$
-C _ {0} = \mathbb {E} _ {0} ^ {Q} [ e ^ {- r T} \max (0, S _ {T} - K) I _ {\{S _ {T} > B \}} ]
+C_{0} = \mathbb {E}_{0}^{Q} [ e^{- r T} \max (0, S_{T} - K) I_{\{S_{T} > B \}} ]
 $$
 
 Can write  $S_T = S_0 e^{(r - \sigma^2 / 2)T + \sigma \sqrt{T} X}$  where  $X \sim \mathsf{N}(0,1)$  so we can use antithetic variates to estimate  $C_0$ .
@@ -599,7 +599,7 @@ To determine the better estimator we compare variances of  $Y$  and  $V = \mathb
 To do this, recall the conditional variance formula:
 
 $$
-\operatorname {V a r} (Y) = \mathbb {E} [ \operatorname {V a r} (Y | \mathbf {Z}) ] + \operatorname {V a r} (\mathbb {E} [ Y | \mathbf {Z} ]). \tag {5}
+\operatorname{Va r} (Y) = \mathbb {E} [ \operatorname{Va r} (Y | \mathbf {Z}) ] + \operatorname{Va r} (\mathbb {E} [ Y | \mathbf {Z} ]). \tag {5}
 $$
 
 # Conditional Monte Carlo
@@ -607,7 +607,7 @@ $$
 Must have (why?)  $\mathbb{E}[\mathrm{Var}(Y|\mathbf{Z})]\geq 0$  but then (5) implies
 
 $$
-\operatorname {V a r} (Y) \geq \operatorname {V a r} (\mathbb {E} [ Y | \mathbf {Z} ]) = \operatorname {V a r} (V)
+\operatorname{Va r} (Y) \geq \operatorname{Va r} (\mathbb {E} [ Y | \mathbf {Z} ]) = \operatorname{Va r} (V)
 $$
 
 so we can conclude (can we?!) that  $V$  is a better estimator of  $\theta$  than  $Y$ .
@@ -662,7 +662,7 @@ Let  $Y \coloneqq I_{\{U + Z > 4\}}$  then  $\theta = \mathbb{E}[Y]$  and can us
 Set  $V = \mathbb{E}[Y|Z]$  so that
 
 $$
-\mathbb {E} [ Y | Z = z ] = P (U + Z > 4 | Z = z) = P (U > 4 - z) = 1 - F _ {u} (4 - z)
+\mathbb {E} [ Y | Z = z ] = P (U + Z > 4 | Z = z) = P (U > 4 - z) = 1 - F_{u} (4 - z)
 $$
 
 where  $F_{u}(.)$  is the CDF of  $U$ .
@@ -670,13 +670,13 @@ where  $F_{u}(.)$  is the CDF of  $U$ .
 Therefore
 
 $$
-1 - F _ {u} (4 - z) = \left\{ \begin{array}{l l} e ^ {- (4 - z)} & \text {i f} 0 \leq z \leq 4, \\ 1 & \text {i f} z > 4. \end{array} \right.
+1 - F_{u} (4 - z) = \left\{ \begin{array}{l l} e^{- (4 - z)} & \text{if } 0 \leq z \leq 4, \\ 1 & \text{if } z > 4. \end{array} \right.
 $$
 
 which implies
 
 $$
-V = \mathbb {E} [ Y | Z ] = \left\{ \begin{array}{l l} e ^ {- (4 - Z)} & \text {i f} 0 \leq Z \leq 4, \\ 1 & \text {i f} Z > 4. \end{array} \right.
+V = \mathbb {E} [ Y | Z ] = \left\{ \begin{array}{l l} e^{- (4 - Z)} & \text{if } 0 \leq Z \leq 4, \\ 1 & \text{if } Z > 4. \end{array} \right.
 $$
 
 # An Example of Conditional Monte Carlo
@@ -697,7 +697,7 @@ Definition. Let  $c(x, t, K, r, \sigma)$  be the Black-Scholes price of a Europe
 Want to estimate price of a European option with payoff
 
 $$
-h (\mathbf {X}) = \left\{ \begin{array}{l l} \max  (0, S _ {T} - K _ {1}) & \text {i f} S _ {T / 2} \leq L, \\ \max  (0, S _ {T} - K _ {2}) & \text {o t h e r w i s e}. \end{array} \right.
+h (\mathbf {X}) = \left\{ \begin{array}{l l} \max  (0, S_{T} - K_{1}) & \text{if } S_{T / 2} \leq L, \\ \max  (0, S_{T} - K_{2}) & \text{ot he rw is e}. \end{array} \right.
 $$
 
 where  $\mathbf{X} = (S_{T / 2}, S_T)$ .
@@ -705,7 +705,7 @@ where  $\mathbf{X} = (S_{T / 2}, S_T)$ .
 Can write option price as
 
 $$
-C _ {0} = \mathbb {E} _ {0} ^ {Q} \left[ e ^ {- r T} \left(\max  (0, S _ {T} - K _ {1}) I _ {\{S _ {T / 2} \leq L \}} + \max  (0, S _ {T} - K _ {2}) I _ {\{S _ {T / 2} > L \}}\right) \right]
+C_{0} = \mathbb {E}_{0}^{Q} \left[ e^{- r T} \left(\max  (0, S_{T} - K_{1}) I_{\{S_{T / 2} \leq L \}} + \max  (0, S_{T} - K_{2}) I_{\{S_{T / 2} > L \}}\right) \right]
 $$
 
 where as usual  $S_{t}\sim GBM(r,\sigma^{2})$  under  $Q$

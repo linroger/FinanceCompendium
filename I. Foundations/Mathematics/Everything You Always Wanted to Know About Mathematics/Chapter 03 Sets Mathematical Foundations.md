@@ -109,7 +109,7 @@ Definition 3.3.1. A set is a collection of all objects that have a common, well-
 Let's dive right in with some specific examples of sets (and non-sets, even) to illustrate this definition. It is common in mathematics to use capital letters to refer to sets and lowercase letters to refer to elements of sets, and we will frequently follow this convention (but not always). To define or describe a set, we need to identify that common, well-defined property that associates the elements of the set with each other. For instance, we could define  $B$  to be the set of all teams in Major League Baseball. Is this a well-defined property? If we present you with an object, is there a definite Yes/No answer to the question of "Does this object have this defining property?" Yes, this is the case here, so this is a property that characterizes a set. (To avoid confusion for readers in the future, let us be more specific and say  $B$  refers to MLB teams from the 2012 season.) In the language of mathematics, we would write
 
 $$
-B = \{\text {M a j o r L e a g u e B a s e b a l l t e a m s f r o m t h e 2 0 1 2 s e a s o n} \}
+B = \{\text{Ma jo rL ea gu eB as eb al lt ea ms fr om th e2 01 2s ea so n} \}
 $$
 
 The "curly braces"—{ and }—indicate that the description between them will identify a set, and the text inside is a description of the objects and their common, well-defined property. It now makes sense to say Pittsburgh Pirates  $\in$ $B$  and Pittsburgh Penguins  $\notin$ $B$ .
@@ -121,7 +121,7 @@ use "is an element of" because it is the least ambiguous of them, and uses the m
 We've also already seen some commonly-used sets of numbers. You know what they are from previous work with these numbers, but you might not usually think of them as sets, which is what they are!
 
 $$
-\begin{array}{l} \mathbb {N} = \{\text {n a t u r a l n u m b e r s} \} = \{1, 2, 3, \dots \} \\ \mathbb {Z} = \{\text {i n t e g e r s} \} = \{\dots , - 2, - 1, 0, 1, 2, \dots \} \\ \mathbb {Q} = \{\text {r a t i o n a l n u m b e r s} \} \\ = \{\text {n u m b e r s o f t h e f o r m} \frac {a}{b}, \text {w h e r e} a, b \in \mathbb {Z} \text {a n d} b \neq 0 \} \\ \mathbb {R} = \{\text {r e a l n u m b e r s} \} \\ \end{array}
+\begin{array}{l} \mathbb{N} = \{\text{naturalnumbers}\} = \{1, 2, 3, \dots \} \\ \mathbb{Z} = \{\text{integers}\} = \{\dots , - 2, - 1, 0, 1, 2, \dots \} \\ \mathbb{Q} = \{\text{rationalnumbers}\} \\ = \{\text{numbersoftheform} \frac{a}{b}, \text{where} a, b \in \mathbb{Z} \text{and} b \neq 0 \} \\ \mathbb{R} = \{\text{realnumbers}\} \\ \end{array}
 $$
 
 Think about how the second definition of  $\mathbb{Q}$  above makes sense. We will see, quite soon, a more condensed way to write out a phrase like "numbers of the form … blah blah … with the additional information that … blah blah". Also, notice that we can't really define  $\mathbb{R}$  except to just say they're the real numbers.
@@ -133,7 +133,7 @@ How do you even define what a real number is? Have you ever tried?
 Another way of defining or describing a set is simply listing all of its elements. This is convenient when the number of elements in the set is small. For instance, the following definitions of the set  $V$  are all equivalent:
 
 $$
-\begin{array}{l} V = \{\mathrm {A}, \mathrm {E}, \mathrm {I}, \mathrm {O}, \mathrm {U} \} \\ V = \{\text {v o w e l s i n t h e E n g l i s h l a n g u a g e} \} \\ V = \{\mathrm {U}, \mathrm {E}, \mathrm {I}, \mathrm {A}, \mathrm {O} \} \\ \end{array}
+\begin{array}{l} V = \{\mathrm{A}, \mathrm{E}, \mathrm{I}, \mathrm{O}, \mathrm{U} \} \\ V = \{\text{vo we ls in th eE ng li sh la ng ua ge} \} \\ V = \{\mathrm{U}, \mathrm{E}, \mathrm{I}, \mathrm{A}, \mathrm{O} \} \\ \end{array}
 $$
 
 By "equivalent", we mean that each line above defines the same set  $V$ , using different terms. (Note: we have adopted the convention that  $y$  is a consonant, so  $y \notin V$ .) The common, well-defined property that associated the objects A, E, I, O, and U is the fact that they are all vowels (exhibited in the second definition) and since there are only five such objects, it is simple and convenient to list them all (as in the first definition).
@@ -159,7 +159,7 @@ Surely, this is a set because we just defined it by listing its elements. What i
 Sometimes, when there is no confusion about the set in question, or it has been defined in another way and we wish to list a few elements as illustrative examples, then it is convenient to use ellipses to condense the listing of elements of a set. For instance, we might write
 
 $$
-E = \{\text {e v e n n a t u r a l n u m b e r s} \} = \{2, 4, 6, 8, 1 0, \dots \}
+E = \{\text{ev en na tu ra ln um be rs} \} = \{2, 4, 6, 8, 1 0, \dots \}
 $$
 
 This set is infinitely large, in fact, so we could not even list all of its elements if we tried, but it is clear enough from the first few elements listed that we are referring to even numbers, especially because we have already referred to  $E$  as "the set of even natural numbers". However, we cannot stress enough that this is not a precise definition of the set in question. It suffices in an informal context, but it is not mathematically rigorous, and this will become clear as we discuss the following proper way of defining sets.
@@ -181,11 +181,11 @@ The bar symbol | is read as "such that" and indicates that the information to th
 This is an example of the very popular and useful set-builder notation. We call it this because we are building a set by drawing elements from a "larger" set of possibilities, and only including those that have a particular property. To do this, we need to tell the reader (1) what the larger set is, and (2) what the common property is. Let's illustrate this idea with a few examples:
 
 $$
-\begin{array}{l} S = \{x \in \mathbb {N} \mid 1 \leq x \leq 1 0 0 \} = \{1, 2, 3, \dots , 1 0 0 \} \\ T = \{z \in \mathbb {Z} \mid \text {w e c a n f i n d s o m e} k \in \mathbb {Z} \text {s u c h t h a t} z = 2 k \} \\ = \{\dots , - 4, - 2, 0, 2, 4, \dots \} \\ \end{array}
+\begin{array}{l} S = \{x \in \mathbb {N} \mid 1 \leq x \leq 1 0 0 \} = \{1, 2, 3, \dots , 1 0 0 \} \\ T = \{z \in \mathbb {Z} \mid \text{we ca nf in ds om e} k \in \mathbb {Z} \text{su ch th at} z = 2 k \} \\ = \{\dots , - 4, - 2, 0, 2, 4, \dots \} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} U = \left\{x \in \mathbb {R} \mid x ^ {2} - 2 = 0 \right\} = \left\{- \sqrt {2}, \sqrt {2} \right\} \\ V = \left\{x \in \mathbb {N} \mid x ^ {2} - 2 = 0 \right\} = \{\quad \} \\ \end{array}
+\begin{array}{l} U = \left\{x \in \mathbb{R} \mid x^{2} - 2 = 0 \right\} = \left\{- \sqrt{2}, \sqrt{2} \right\} \\ V = \left\{x \in \mathbb{N} \mid x^{2} - 2 = 0 \right\} = \{\quad \} \\ \end{array}
 $$
 
 The last two examples show how the context is extremely important. The same common property (satisfying  $x^{2} - 2 = 0$ ) can be satisfied by a different set of elements when we change the larger set from which we draw elements. Two real numbers satisfy that property, but no natural numbers satisfy it! Do any rational numbers satisfy that property? What do you think?
@@ -213,7 +213,7 @@ Try to write similar sentences for the other definitions. Try getting a verbal d
 Consider a definition of the rational numbers  $\mathbb{Q}$  that we saw before, and notice that we can rewrite it as:
 
 $$
-\begin{array}{l} \mathbb {Q} = \left\{\frac {a}{b} , \text {w h e r e} a, b \in \mathbb {Z} \text {a n d} b \neq 0 \right\} \\ = \left\{x \in \mathbb {R} \mid \text {w e c a n f i n d} a, b \in \mathbb {Z} \text {s u c h t h a t} \frac {a}{b} = x \text {a n d} b \neq 0 \right\} \\ \end{array}
+\begin{array}{l} \mathbb{Q} = \left\{\frac{a}{b} , \text{where} a, b \in \mathbb{Z} \text{and} b \neq 0 \right\} \\ = \left\{x \in \mathbb{R} \mid \text{wecanfind} a, b \in \mathbb{Z} \text{suchthat} \frac{a}{b} = x \text{and} b \neq 0 \right\} \\ \end{array}
 $$
 
 Notice the subtle difference between the two definitions. The upper one tells us that all rational numbers are of the form  $\frac{a}{b}$ , and then tells us the particular assumptions of  $a$  and  $b$  that must be satisfied. The lower one tells us that all rational numbers are real numbers with a particular property, namely that we can express that real number as a ratio of integers. We strongly prefer the lower definition, because it tells us more information.
@@ -233,7 +233,7 @@ In the notation  $P(x)$ , the letter  $x$  represents a variable object, and dep
 Returning to our example of the set  $E$  of even natural numbers, it is more precise to write
 
 $$
-\begin{array}{l} E = \{\mathrm {e v e n n a t u r a l n u m b e r s} \} \\ = \{x \in \mathbb {N} \mid \text {t h e r e i s a n a t u r a l n u m b e r} n \text {s u c h t h a t} x = 2 n \} \\ \end{array}
+\begin{array}{l} E = \{\mathrm{ev en na tu ra ln um be rs} \} \\ = \{x \in \mathbb {N} \mid \text{th er ei sa na tu ra ln um be r} n \text{su ch th at} x = 2 n \} \\ \end{array}
 $$
 
 Notice that there are two "layers" of properties here. A natural number is included in our set  $E$  if we can find another natural number  $n$  with the additional property that  $x = 2n$ . Try to write down a similar definition for the set of odd numbers, or the set of perfect squares. What about the set of primes? The set of palindromic numbers? The set of perfect numbers? Can you write definitions for these sets using set-builder notation?
@@ -243,7 +243,7 @@ Notice that there are two "layers" of properties here. A natural number is inclu
 What if no elements satisfy a property  $P(x)$ ? What happens then? For instance, consider the definition
 
 $$
-S = \left\{x \in \mathbb {N} \mid x ^ {2} - 2 = 0 \right\}
+S = \left\{x \in \mathbb{N} \mid x^{2} - 2 = 0 \right\}
 $$
 
 We know that the number  $x$  we are "looking for" with that property is  $\sqrt{2}$  (and  $-\sqrt{2}$ , too) but  $\sqrt{2} \notin \mathbb{N}$ . Thus, no matter what element of  $\mathbb{N}$  we let  $x$  represent, the property  $P(x)$  given by  $"x^2 - 2 = 0"$  actually fails. Thus, there are no elements of this set. Is this really a set?
@@ -255,7 +255,7 @@ Definition 3.3.2. The empty set is the set which has no elements. It is denoted 
 There are many ways to define the empty set using set-builder notation. (And yes, we do mean the empty set; there is only one set with no elements!) We saw one example above, and we're sure you can come up with many others. Consider for example, the following sets:
 
 $$
-\begin{array}{l} \left\{a \in \mathbb {N} \mid a <   0 \right\} \\ \left\{r \in \mathbb {R} \mid r ^ {2} <   0 \right\} \\ \{q \in \mathbb {Q} \mid q ^ {2} \notin \mathbb {Q} \} \\ \end{array}
+\begin{array}{l} \left\{a \in \mathbb{N} \mid a <   0 \right\} \\ \left\{r \in \mathbb{R} \mid r^{2} <   0 \right\} \\ \{q \in \mathbb{Q} \mid q^{2} \notin \mathbb{Q} \} \\ \end{array}
 $$
 
 Do you see why these all define the same set, the one with no elements?
@@ -265,7 +265,7 @@ Do you see why these all define the same set, the one with no elements?
 We should also note again the significance of specifying the larger set  $X$  from which we draw our variable element  $x$  in a set-builder definition like the one above. For instance, consider the following two sets:
 
 $$
-\begin{array}{l} S _ {1} = \{x \in \mathbb {N} \mid | x | = 5 \} = \{5 \} \\ S _ {2} = \{x \in \mathbb {R} \mid | x | = 5 \} = \{- 5, 5 \} \\ \end{array}
+\begin{array}{l} S_{1} = \{x \in \mathbb{N} \mid | x | = 5 \} = \{5 \} \\ S_{2} = \{x \in \mathbb{R} \mid | x | = 5 \} = \{- 5, 5 \} \\ \end{array}
 $$
 
 (Note: It is also quite common to index sets with the subscript notation you see above, allowing us to use the same letter many times.)
@@ -283,7 +283,7 @@ First, we should point out that this discussion will introduce the notion that s
 For a concrete example, think back to our set  $B$  of all Major League Baseball Teams. We could also regard each team as a set, where its elements are the players on the team. Thus, it would make sense to say
 
 $$
-\mathrm {D e r e k J e t e r} \in \mathrm {N e w Y o r k Y a n k e e s} \in B
+\mathrm{De re kJ et er} \in \mathrm{Ne wY or kY an ke es} \in B
 $$
 
 since Derek Jeter is an element of the set New York Yankees, which is itself an element of the set  $B$ . (Notice, however, that Derek Jeter  $\notin B$ . The relationship signified by " $\in$  " is not transitive. We will hold off on defining this term until much later. For now, we will point out that the relationship signified by " $\leq$  " on the set of real numbers is transitive. If we know  $x \leq y \leq z$ , then we can deduce  $x \leq z$ . This is not the case with the " $\in$  " relationship, though.)
@@ -343,7 +343,7 @@ The main issue is that not specifying a "larger set" from which to draw objects,
 There is nothing inherently wrong with the property  $P(x)$  given by " $x \notin x$ ", though. The issue is with that "larger set" we use. For instance, take the set
 
 $$
-\mathcal {S} = \left\{x \in \left\{\frac {1}{2}, \frac {3}{4}, \frac {5}{2} \right\} \middle | x \notin x \right\}
+\mathcal{S} = \left\{x \in \left\{\frac{1}{2}, \frac{3}{4}, \frac{5}{2} \right\} \middle | x \notin x \right\}
 $$
 
 What are its elements? The only possibilities are those elements drawn from the larger set  $\left\{\frac{1}{2}, \frac{3}{4}, \frac{5}{2}\right\}$ . Notice that none of those numbers are sets that contain themselves as elements. Thus, this is a proper definition of the set  $\left\{\frac{1}{2}, \frac{3}{4}, \frac{5}{2}\right\}$ , itself! With the previous definition for  $\mathcal{R}$ , the object we were attempting to define was allowed as one of the variable objects  $x$  in its own definition, and that is where the issue arose.
@@ -411,11 +411,11 @@ Try answering the following short-answer questions. They require you to actually
 (8) Consider the following sets:
 
 $$
-A = \left\{x \in \mathbb {R} \mid x ^ {2} - 3 x + 2 \geq 0 \right\}
+A = \left\{x \in \mathbb{R} \mid x^{2} - 3 x + 2 \geq 0 \right\}
 $$
 
 $$
-B = \{y \in \mathbb {R} \mid y \leq 1 \text {o r} y \geq 2 \}
+B = \{y \in \mathbb{R} \mid y \leq 1 \text{ or } y \geq 2 \}
 $$
 
 Explain why  $A = B$
@@ -423,11 +423,11 @@ Explain why  $A = B$
 (9) Consider the following sets:
 
 $$
-C = \left\{x \in \mathbb {R} \mid x ^ {2} - 4 \geq 0 \right\}
+C = \left\{x \in \mathbb{R} \mid x^{2} - 4 \geq 0 \right\}
 $$
 
 $$
-D = \{y \in \mathbb {R} \mid y \geq 2 \}
+D = \{y \in \mathbb{R} \mid y \geq 2 \}
 $$
 
 Is  $C = D$ ? Why or why not? Write your explanation with good mathematical notation, using  $\in$  and  $\notin$ .
@@ -475,7 +475,7 @@ regardless of the set  $X$  and the property  $P(x)$ . Depending on the set  $X$
 Try to come up with some examples of sets  $X$  and properties  $P(x)$  so that  $\subseteq$  applies, then try to come up with some examples where  $\subset$  applies. Try to come up with one set  $X$  and two different properties  $P_{1}(x)$  and  $P_{2}(x)$  so that  $\subset$  applies for  $P_{1}(x)$  and  $\subseteq$  applies for  $P_{2}(x)$ . Try to identify two different sets  $X_{1}$  and  $X_{2}$  and two different properties  $P_{1}(x)$  and  $P_{2}(x)$  so that
 
 $$
-\{x \in X _ {1} \mid P _ {1} (x) \} = \{x \in X _ {2} \mid P _ {2} (x) \}
+\{x \in X_{1} \mid P_{1} (x) \} = \{x \in X_{2} \mid P_{2} (x) \}
 $$
 
 Can you do it?
@@ -489,11 +489,11 @@ $$
 $$
 
 $$
-\left\{\sqrt {3}, - \pi , 8. 2 \right\} \subseteq \mathbb {R}
+\left\{\sqrt{3}, - \pi , 8. 2 \right\} \subseteq \mathbb {R}
 $$
 
 $$
-\left\{x \in \mathbb {R} \mid x ^ {2} = 1 \right\} \subseteq \mathbb {Z}
+\left\{x \in \mathbb{R} \mid x^{2} = 1 \right\} \subseteq \mathbb{Z}
 $$
 
 Do you see why these are True?
@@ -505,11 +505,11 @@ $$
 $$
 
 $$
-\left\{\sqrt {3}, - \pi , 8. 2 \right\} \not \subseteq \mathbb {Q}
+\left\{\sqrt{3}, - \pi , 8. 2 \right\} \not \subseteq \mathbb {Q}
 $$
 
 $$
-\left\{x \in \mathbb {R} \mid x ^ {2} = 5 \right\} \not \subseteq \mathbb {Z}
+\left\{x \in \mathbb{R} \mid x^{2} = 5 \right\} \not \subseteq \mathbb{Z}
 $$
 
 # Finding All Subsets of a Set
@@ -733,19 +733,19 @@ $$
 Example 3.5.2. Define the following sets:
 
 $$
-\begin{array}{l} S _ {1} = \{1, 2, 3, 4, 5 \} \\ S _ {2} = \{1, 3, 7 \} \\ S _ {3} = \{2, 4, 7 \} \\ U = \mathbb {N} \\ \end{array}
+\begin{array}{l} S_{1} = \{1, 2, 3, 4, 5 \} \\ S_{2} = \{1, 3, 7 \} \\ S_{3} = \{2, 4, 7 \} \\ U = \mathbb{N} \\ \end{array}
 $$
 
 Then, we see that, for example,
 
 $$
-\begin{array}{l} S _ {1} \cap S _ {2} = \{1, 3 \} \\ S _ {1} \cap S _ {3} = \{2, 4 \} \\ S _ {2} \cap S _ {3} = \{7 \} \\ \end{array}
+\begin{array}{l} S_{1} \cap S_{2} = \{1, 3 \} \\ S_{1} \cap S_{3} = \{2, 4 \} \\ S_{2} \cap S_{3} = \{7 \} \\ \end{array}
 $$
 
 Also, since  $S_{1} \cap S_{2}$  is, itself, a set, it makes sense to consider  $(S_{1} \cap S_{2}) \cap S_{3}$ . However, those two sets share no elements, so we write
 
 $$
-\left(S _ {1} \cap S _ {2}\right) \cap S _ {3} = \varnothing
+\left(S_{1} \cap S_{2}\right) \cap S_{3} = \varnothing
 $$
 
 The situation where two sets have no common elements, as seen in the above example, is common enough that we have a specific term to describe such sets:
@@ -795,13 +795,13 @@ Notice that the "or" in the definition is an inclusive "or", meaning that  $A \c
 Example 3.5.6. Returning to the sets  $S_{1}, S_{2}, S_{3}$  we defined above in Example 3.5.2, we can say
 
 $$
-\begin{array}{l} S _ {1} \cup S _ {2} = \{1, 2, 3, 4, 5, 7 \} \\ S _ {1} \cup S _ {3} = \{1, 2, 3, 4, 5, 7 \} \\ S _ {2} \cup S _ {3} = \{1, 2, 3, 4, 7 \} \\ \end{array}
+\begin{array}{l} S_{1} \cup S_{2} = \{1, 2, 3, 4, 5, 7 \} \\ S_{1} \cup S_{3} = \{1, 2, 3, 4, 5, 7 \} \\ S_{2} \cup S_{3} = \{1, 2, 3, 4, 7 \} \\ \end{array}
 $$
 
 Also, since each of these unions are sets themselves, we could find their union with another set. For example,
 
 $$
-(S _ {1} \cup S _ {2}) \cup S _ {3} = \{1, 2, 3, 4, 5, 7 \} \cup \{2, 4, 7 \} = \{1, 2, 3, 4, 5, 7 \}
+(S_{1} \cup S_{2}) \cup S_{3} = \{1, 2, 3, 4, 5, 7 \} \cup \{2, 4, 7 \} = \{1, 2, 3, 4, 5, 7 \}
 $$
 
 # Unions and Subsets
@@ -843,7 +843,7 @@ $$
 Example 3.5.9. Returning to the sets  $S_{1}, S_{2}, S_{3}$  we defined above in Example 3.5.2, we can say, for example, that
 
 $$
-\begin{array}{l} S _ {1} - S _ {2} = \{2, 4, 5 \} \\ S _ {2} - S _ {1} = \{7 \} \\ S _ {2} - S _ {3} = \{1, 3 \} \\ \end{array}
+\begin{array}{l} S_{1} - S_{2} = \{2, 4, 5 \} \\ S_{2} - S_{1} = \{7 \} \\ S_{2} - S_{3} = \{1, 3 \} \\ \end{array}
 $$
 
 # Set Difference Is Not Symmetric
@@ -873,13 +873,13 @@ Remember that we assumed  $A, B, U$  are given sets that satisfy  $A \subseteq U
 Example 3.5.11. For instance, let's return to the sets  $S_{1}, S_{2}, S_{3}$  we defined above in Example 3.5.2. There, we used the context  $U = \mathbb{Z}$ . In that case,
 
 $$
-\bar {S} _ {1} = \{6, 7, 8, 9, \dots \}
+\overline{S}_{1} = \{6, 7, 8, 9, \dots \}
 $$
 
 However, what if we had used  $U = \{1,2,3,4,5,6,7\}$ ? In that case,
 
 $$
-\bar {S} _ {1} = \{6, 7 \}
+\overline{S}_{1} = \{6, 7 \}
 $$
 
 Since the symbolic notation  $\bar{A}$  makes no indication of the set  $U$  that it depends on, it is important to make this set clear in whatever context we are working. Try identifying some sets  $A, U_1, U_2$  so that  $\bar{A}$  in  $U_1$  is different from  $\bar{A}$  in  $U_2$ , and try identifying some sets so that  $\bar{A}$  is the same in both cases.
@@ -940,7 +940,7 @@ number of sets "all at once". There is really no new mathematical content in thi
 We'll start with a related concept that we have seen before. Remember when we investigated sums of natural numbers in Chapter 1? We mentioned some special notation that allowed us to condense a long string of terms in a sum into one concise form, using the  $\sum$  symbol. For instance, we could write an informal sum ("informal" meaning "not rigorous" because of the use of ellipses) in the  $\sum$  notation as follows:
 
 $$
-1 + 2 + 3 + 4 + \dots + (n - 1) + n = \sum_ {i = 1} ^ {n} i
+1 + 2 + 3 + 4 + \dots + (n - 1) + n = \sum_{i = 1}^{n} i
 $$
 
 Why does this notation work and make sense? The index variable  $i$  is the key component of condensing the sum into this form. Writing " $i = 1$ " underneath the  $\sum$  symbol means that the value of the variable  $i$  should start at 1 and increase by 1 until it reaches the terminal value,  $n$ , written above the  $\sum$  symbol. For each allowable value of  $i$  in that range (from 1 to  $n$ ), we include a term in the sum of the form written to the right of the  $\sum$  symbol; in this case, that term is  $i$ . Thus, we should have the terms  $1, 2, 3, \ldots, n$  with  $a + sign$  between each.
@@ -954,27 +954,27 @@ Let's see the process of defining indexed sets via an example first. We will als
 Example 3.6.1. We can similarly condense some set operation notation. For instance, let's define the sets  $A_{1}, A_{2}, A_{3}, \ldots, A_{10}$  by
 
 $$
-A _ {1} = \{1, 2 \}
+A_{1} = \{1, 2 \}
 $$
 
 $$
-A _ {2} = \{2, 4 \}
+A_{2} = \{2, 4 \}
 $$
 
 $$
-A _ {3} = \{3, 6 \}
-$$
-
-中 中
-
-$$
-A _ {i} = \{i, 2 i \}
+A_{3} = \{3, 6 \}
 $$
 
 中 中
 
 $$
-A _ {1 0} = \{1 0, 2 0 \}
+A_{i} = \{i, 2 i \}
+$$
+
+中 中
+
+$$
+A_{1 0} = \{1 0, 2 0 \}
 $$
 
 We included the definition of  $A_{i}$  for an arbitrary value  $i$  to give these sets a rigorous definition. Without defining that set—which defines  $A_{i}$  for any relevant value of  $i$ —we would be leaving it up to the reader to interpret the pattern among the sets  $A_{1}, A_{2}, A_{3}, A_{10}$ , and there could be multiple ways of interpreting that. By defining the term  $A_{i}$  explicitly like this, there is no confusion as to what we want these ten sets to be.
@@ -984,7 +984,7 @@ Furthermore, we can more easily express the union of all of these sets, for inst
 How can we write this union concisely and precisely? Let's follow the same motivation of the  $\sum$  notation. The index of these sets runs from 1 to 10, so we should write  $i = 1$  below a " $\cup$ " symbol and 10 above it. Each term in the union is of the form  $\{i, 2i\}$ , so we should write that to the right of the " $\cup$ " symbol. For indexed unions like this one, though, we use a slightly larger " $\bigcup$ " symbol, like so:
 
 $$
-A _ {1} \cup A _ {2} \cup A _ {3} \cup \dots \cup A _ {1 0} = \bigcup_ {i = 1} ^ {1 0} A _ {i} = \bigcup_ {i = 1} ^ {1 0} \{i, 2 i \}
+A_{1} \cup A_{2} \cup A_{3} \cup \dots \cup A_{1 0} = \bigcup_{i = 1}^{1 0} A_{i} = \bigcup_{i = 1}^{1 0} \{i, 2 i \}
 $$
 
 This is far more concise than writing the elements of all 10 sets, so you can see how useful this notation is. We will keep reminding you of the imprecision of the ellipses in the union on the left and tell you that, in fact, an expression like the one on the right is a truly rigorous mathematical statement about this union. The expression on the left is more of an intuitive, heuristic way of describing the union operation applied to these ten sets.
@@ -1000,7 +1000,7 @@ In this case, if we have a prime number  $i$ , we would like to include the term
 number and that all possible prime numbers should be included. The index set  $I$  of allowable values should, therefore, be the set of all prime numbers. That is, we can write this sum as
 
 $$
-\sum_ {i \in I} \frac {1}{i ^ {2}} \quad , \text {w h e r e} I = \{i \in \mathbb {N} \mid i \text {i s p r i m e} \}
+\sum_{i \in I} \frac{1}{i^{2}} \quad , \text{wh er e} I = \{i \in \mathbb {N} \mid i \text{is pr im e} \}
 $$
 
 Look at what this notation accomplishes! Not only have we condensed an infinite number of terms into one expression, we have indicated that the values of the arbitrary index  $i$  should be restricted to prime numbers, which do not behave in the "usual" and convenient way as with a sum like  $\sum_{i=1}^{n} i$ .
@@ -1008,7 +1008,7 @@ Look at what this notation accomplishes! Not only have we condensed an infinite 
 Example 3.6.2. This concept of an index set is extremely useful and extends to arbitrary sets and even non-mathematical objects. For instance, in our discussion of sets above we used the set  $B$  of all Major League Baseball teams. How can we use this set to express the set  $P$  of all Major League Baseball players? Each team is, itself, a set whose elements are the players on that team, so a union of all of the teams (i.e., a union of all sets in  $B$ ) should produce exactly this set of all players! In this case, our index set is  $B$ , and for each element  $b \in B$ , we want to include  $b$  as a set in our union. Thus, we would write
 
 $$
-P = \bigcup_ {b \in B} b
+P = \bigcup_{b \in B} b
 $$
 
 The individual terms in this union are not even dependent on natural numbers, so there would have been no way to express this union without the use of an index set, like this. Also, this union is dependent on the fact that the terms of the union are elements of the index set  $B$ , but they are also sets themselves; thus, applying the union operation to them makes mathematical sense. This might still seem like an odd idea, so be sure to think carefully about this idea of sets having elements that are sets, themselves.
@@ -1038,7 +1038,7 @@ Let's give a precise definition of this union operation for more than one set, s
 Definition 3.6.3. The union of a collection of sets  $A_{i}$  indexed by the set  $I$  is
 
 $$
-\bigcup_ {i \in I} A _ {i} = \left\{x \in U \mid x \in A _ {i} f o r s o m e (i. e. a t l e a s t o n e) i \in I \right\}
+\bigcup_{i \in I} A_{i} = \left\{x \in U \mid x \in A_{i} f o r s o m e (i. e. a t l e a s t o n e) i \in I \right\}
 $$
 
 where we assume there is a set  $U$  such that  $A_{i}\subseteq U$  for every  $i\in I$
@@ -1050,7 +1050,7 @@ Following this idea, we can make a similar definition for set intersections.
 Definition 3.6.4. The intersection of a collection of sets  $A_{i}$  indexed by the set  $I$  is
 
 $$
-\bigcap_ {i \in I} A _ {i} = \{x \in U \mid x \in A _ {i} f o r e v e r y i \in I \}
+\bigcap_{i \in I} A_{i} = \{x \in U \mid x \in A_{i} f o r e v e r y i \in I \}
 $$
 
 where we assume there is a set  $U$  such that  $A_{i}\subseteq U$  for every  $i\in I$
@@ -1062,19 +1062,19 @@ Let's return to a previous example and make these ideas clearer.
 Example 3.6.5. Previously, in Example 3.6.1, we defined
 
 $$
-A _ {i} = \{i, 2 i \}
+A_{i} = \{i, 2 i \}
 $$
 
 for every natural number  $i$  between 1 and 10. Another way of defining this collection is to consider the index set  $I = [10]$  (recall the notation  $[n] = \{i \in \mathbb{N} \mid 1 \leq i \leq n\}$ ) and define  $A$  to be the set
 
 $$
-A = \left\{A _ {i} \mid i \in I \right\}, \text {w h e r e} A _ {i} = \left\{i, 2 i \right\} \text {f o r e v e r y} i \in I
+A = \left\{A_{i} \mid i \in I \right\}, \text{wh er e} A_{i} = \left\{i, 2 i \right\} \text{fo re ve ry} i \in I
 $$
 
 This defines every set  $A_{i}$ , dependent on the index value  $i$  chosen from the index set  $I$ , and it "collects" all of these sets into one set  $A$ . Then, another way of writing that union we wrote before would be
 
 $$
-\bigcup_ {i \in I} A _ {i}
+\bigcup_{i \in I} A_{i}
 $$
 
 with the given definitions of  $I$  and  $A_{i}$
@@ -1084,49 +1084,49 @@ with the given definitions of  $I$  and  $A_{i}$
 Example 3.6.6. Let  $I = \{1,2,3\}$  and, for every  $i \in I$ , define
 
 $$
-A _ {i} = \{i - 2, i - 1, i, i + 1, i + 2 \}
+A_{i} = \{i - 2, i - 1, i, i + 1, i + 2 \}
 $$
 
 Let's identify and write out the elements of the following sets:
 
 $$
-\bigcup_ {i \in I} A _ {i} \qquad \text {a n d} \qquad \bigcap_ {i \in I} A _ {i}
+\bigcup_{i \in I} A_{i} \qquad \text{an d} \qquad \bigcap_{i \in I} A_{i}
 $$
 
 Notice that we can write out the elements of each  $A_{i}$  set, as follows:
 
 $$
-\begin{array}{l} A _ {1} = \{- 1, 0, 1, 2, 3 \} \\ A _ {2} = \{0, 1, 2, 3, 4 \} \\ A _ {3} = \{1, 2, 3, 4, 5 \} \\ \end{array}
+\begin{array}{l} A_{1} = \{- 1, 0, 1, 2, 3 \} \\ A_{2} = \{0, 1, 2, 3, 4 \} \\ A_{3} = \{1, 2, 3, 4, 5 \} \\ \end{array}
 $$
 
 Thus,
 
 $$
-\bigcup_ {i \in I} A _ {i} = A _ {1} \cup A _ {2} \cup A _ {3} = \{- 1, 0, 1, 2, 3, 4, 5 \}
+\bigcup_{i \in I} A_{i} = A_{1} \cup A_{2} \cup A_{3} = \{- 1, 0, 1, 2, 3, 4, 5 \}
 $$
 
 and
 
 $$
-\bigcap_ {i \in I} A _ {i} = A _ {1} \cap A _ {2} \cap A _ {3} = \{1, 2, 3 \}
+\bigcap_{i \in I} A_{i} = A_{1} \cap A_{2} \cap A_{3} = \{1, 2, 3 \}
 $$
 
 Now, consider  $J = \{-1,0,1\}$ , with  $A_{j}$  defined in the same way as before. Let's identify the elements of the sets
 
 $$
-\bigcup_ {j \in J} A _ {j} \qquad \text {a n d} \qquad \bigcap_ {j \in J} A _ {j}
+\bigcup_{j \in J} A_{j} \qquad \text{an d} \qquad \bigcap_{j \in J} A_{j}
 $$
 
 Writing out the elements of each set, we can determine that
 
 $$
-\bigcup_ {j \in J} A _ {j} = A _ {- 1} \cup A _ {0} \cup A _ {1} = \{- 3, - 2, - 1, 0, 1, 2, 3 \}
+\bigcup_{j \in J} A_{j} = A_{- 1} \cup A_{0} \cup A_{1} = \{- 3, - 2, - 1, 0, 1, 2, 3 \}
 $$
 
 and
 
 $$
-\bigcap_ {j \in J} A _ {j} = A _ {- 1} \cap A _ {0} \cap A _ {1} = \{- 1, 0, 1 \}
+\bigcap_{j \in J} A_{j} = A_{- 1} \cap A_{0} \cap A_{1} = \{- 1, 0, 1 \}
 $$
 
 Try answering the same questions with different index sets.
@@ -1136,13 +1136,13 @@ For instance, consider  $K = \{1,2,3,4,5\}$  or  $L = \{-3, - 2, - 1,0,1,2,3\}$ 
 Example 3.6.7. Define the index set  $I = \mathbb{N}$ . For every  $i \in I$ , define the set
 
 $$
-C _ {i} = \left\{x \in \mathbb {R} \mid 1 \leq x \leq \frac {i + 1}{i} \right\}
+C_{i} = \left\{x \in \mathbb {R} \mid 1 \leq x \leq \frac{i + 1}{i} \right\}
 $$
 
 Then we claim that
 
 $$
-\bigcup_ {i \in I} C _ {i} = \{y \in \mathbb {R} \mid 1 \leq y \leq 2 \} \quad \text {a n d} \quad \bigcap_ {i \in I} C _ {i} = \{1 \}
+\bigcup_{i \in I} C_{i} = \{y \in \mathbb {R} \mid 1 \leq y \leq 2 \} \quad \text{an d} \quad \bigcap_{i \in I} C_{i} = \{1 \}
 $$
 
 Can you see why these are true? We will discuss the techniques required to prove such equalities later on. For now, we ask you to just think about why these are true. Can you explain them to a classmate or a friend? What sort of techniques might you use to prove these claims?
@@ -1150,7 +1150,7 @@ Can you see why these are true? We will discuss the techniques required to prove
 Example 3.6.8. Let  $S$  be the set of students taking this course. For every  $s \in S$ , let  $C_s$  be the set of courses that student  $s$  is taking this semester. What do the following expressions represent?
 
 $$
-\bigcup_ {s \in S} C _ {s} \qquad \text {a n d} \qquad \bigcap_ {s \in S} C _ {s}
+\bigcup_{s \in S} C_{s} \qquad \text{an d} \qquad \bigcap_{s \in S} C_{s}
 $$
 
 We bet you can identify at least one element of the set on the right!
@@ -1185,7 +1185,7 @@ $E\cup O = \mathbb{N}$
 (2) Consider the set  $\mathbb{R}$ . For every  $z \in \mathbb{Z}$ , define the set  $S_z$  by
 
 $$
-S _ {z} = \left\{r \in \mathbb {R} \mid z \leq r <   z + 1 \right\}
+S_{z} = \left\{r \in \mathbb {R} \mid z \leq r <   z + 1 \right\}
 $$
 
 We claim  $\{.,S_{-2},S_{-1},S_0,S_1,S_2,\ldots \}$  is a partition of  $\mathbb{R}$ . Can you see why? Try to write out the conditions required for this collection of sets to be a partition, and see if you can understand why they hold.
@@ -1228,7 +1228,7 @@ Answering the following questions briefly, either out loud or in writing. These 
 (2) Let  $I = \mathbb{N}$ , and for every  $i \in I$ , let  $A_i = \{i, -i\}$ . Why are the following sets all the same set?
 
 $$
-\bigcup_ {i \in I} A _ {i} \qquad \bigcup_ {x \in \mathbb {N}} A _ {x} \qquad \bigcup_ {j \in I} A _ {j}
+\bigcup_{i \in I} A_{i} \qquad \bigcup_{x \in \mathbb {N}} A_{x} \qquad \bigcup_{j \in I} A_{j}
 $$
 
 By the way, what are the elements of this set?
@@ -1302,7 +1302,7 @@ $$
 This definition incorporates the order of the pair, as well, in the sense that
 
 $$
-(a, b) = (c, d) \text {i f a n d o n l y i f} a = c \text {a n d} b = d
+(a, b) = (c, d) \text{if an do nl yi f} a = c \text{an d} b = d
 $$
 
 Checking the singleton element in the set tells us the first coordinate, and checking the other element in the set with two elements tells us the second coordinate. If we have the ordered pair  $(a, a)$ , then the set reduces to  $\{\{a\}\}$ , which tells us  $a$  appears in both coordinates.
@@ -1389,7 +1389,7 @@ Follow-up challenge: Can you characterize all possible situations like this one.
 (6) For every  $n\in \mathbb{N}$ , let  $A_{n} = [n]\times [n]$ . Consider the set
 
 $$
-B = \bigcup_ {n \in \mathbb {N}} A _ {n}
+B = \bigcup_{n \in \mathbb {N}} A_{n}
 $$
 
 Is  $B = \mathbb{N}\times \mathbb{N}$  or not? Explain, with examples.
@@ -1498,7 +1498,7 @@ Then the statement  $P(n)$  must be true for every natural number  $n \in \mathb
 
 Let us first prove this theorem before discussing its assumptions and consequences in detail.
 
-Proof. Define the set  $S$  to be the natural numbers for which the statement  $P$  is true. That is, define  $S = \{n \in \mathbb{N} \mid P(n) \text{ is true}\}$ . By definition,  $S \subseteq \mathbb{N}$ .
+Proof. Define the set  $S$  to be the natural numbers for which the statement  $P$  is true. That is, define  $S = \{n \in \mathbb{N} \mid P(n) \text{ istrue}\}$ . By definition,  $S \subseteq \mathbb{N}$ .
 
 Furthermore, the assumptions of the theorem guarantee that  $1 \in S$  and that whenever  $k \in S$ , we know  $k + 1 \in S$ , as well. This means  $S$  is an inductive set. By the observation we made after defining  $\mathbb{N}$ , we know that  $\mathbb{N} \subseteq S$ .
 
@@ -1515,7 +1515,7 @@ There are a few minor issues that we have left undiscussed. Specifically, what d
 Answering the following questions briefly, either out loud or in writing. These are all based on the section you just read, so if you can't recall a specific definition or concept or example, go back and reread that part. Making sure you can confidently answer these before moving on will help your understanding and memory!
 
 (1) What is an inductive set? Give an example of one that is not  $\mathbb{N}$  or  $\mathbb{Z}$ .  
-(2) We defined  $S = \{n \in \mathbb{N} \mid P(n) \text{ is true}\}$  in the proof of the Principle of Mathematical Induction. What does this mean? Describe this set in words.  
+(2) We defined  $S = \{n \in \mathbb{N} \mid P(n) \text{ istrue}\}$  in the proof of the Principle of Mathematical Induction. What does this mean? Describe this set in words.  
 (3) Come up with your own analogy for how Induction works.
 
 # Try It
@@ -1656,7 +1656,7 @@ Let's see another example of proving two sets are equal. This one will be a litt
 Proposition 3.9.6.
 
 $$
-\left\{x \in \mathbb {N} \mid x + \frac {8}{x} \leq 6 \right\} = \{2, 3, 4 \}
+\left\{x \in \mathbb {N} \mid x + \frac{8}{x} \leq 6 \right\} = \{2, 3, 4 \}
 $$
 
 Proof. Let's define  $A = \{x \in \mathbb{N} \mid x + \frac{8}{x} \leq 6\}$ , and  $B = \{2,3,4\}$ .
@@ -1666,15 +1666,15 @@ To show  $A = B$ , we will show  $A \subseteq B$  and  $B \subseteq A$ .
 First, we will show  $B \subseteq A$ . We can consider each of the three elements separately, and verify that they satisfy the defining inequality of  $B$ :
 
 $$
-2 + \frac {8}{2} = 6 \leq 6
+2 + \frac{8}{2} = 6 \leq 6
 $$
 
 $$
-3 + \frac {8}{3} = \frac {1 7}{3} \leq 6
+3 + \frac{8}{3} = \frac{1 7}{3} \leq 6
 $$
 
 $$
-4 + \frac {8}{4} = 6 \leq 6
+4 + \frac{8}{4} = 6 \leq 6
 $$
 
 Since  $2,3,4\in \mathbb{N}$ , we deduce that  $2\in A$  and  $3\in A$  and  $4\in A$ , so  $B\subseteq A$ .
@@ -1700,7 +1700,7 @@ Let's see another example of proving set equality. This one is only slightly dif
 Proposition 3.9.7. For every  $n \in \mathbb{N}$ , define  $S_{n} = \mathbb{N} - [n]$ . Then
 
 $$
-\bigcap_ {n \in \mathbb {N}} S _ {n} = \varnothing
+\bigcap_{n \in \mathbb {N}} S_{n} = \varnothing
 $$
 
 We suggest you play around with this statement first, if it doesn't make sense. For instance, try identifying the element of the sets  $S_{1}$ , and  $S_{1} \cap S_{2}$ , and  $S_{1} \cap S_{2} \cap S_{3}$ , and so on. Try to come up with a candidate element of the big intersection on the left, and then figure out why it actually is not an element of that set. After that, try to figure out a formal proof and write it out; then, look at ours below!
@@ -1726,7 +1726,7 @@ similar problems in the exercises for this section. We encourage you to work on 
 Proposition 3.9.8. For every  $n \in \mathbb{N}$ , define  $A_{n} = \left\{x \in \mathbb{R} \mid 0 \leq x < \frac{1}{n}\right\}$ . Then,
 
 $$
-\bigcap_ {n \in \mathbb {N}} A _ {n} = \{0 \}
+\bigcap_{n \in \mathbb {N}} A_{n} = \{0 \}
 $$
 
 Think about what this claim means. Draw a picture of the  $A_{n}$  sets on a number line. What does the " $\bigcap$ " intersection accomplish? Why does it work out that 0 is an element of that intersection? Why is it the only element?
@@ -1736,7 +1736,7 @@ The definition of  $\bigcap$  will be crucial in this proof, so let's recall the
 Definition 3.9.9. The intersection of a collection of sets  $A_{i}$  indexed by the set  $I$  is
 
 $$
-\bigcap_ {i \in I} A _ {i} = \{x \in U \mid x \in A _ {i} f o r e v e r y i \in I \}
+\bigcap_{i \in I} A_{i} = \{x \in U \mid x \in A_{i} f o r e v e r y i \in I \}
 $$
 
 where we assume there is a set  $U$  such that  $A_{i}\subseteq U$  for every  $i\in I$
@@ -1746,7 +1746,7 @@ That is, remember that the indexed intersection of several sets collects togethe
 Proof. First, we will prove that
 
 $$
-\{0 \} \subseteq \bigcap_ {n \in \mathbb {N}} A _ {n}
+\{0 \} \subseteq \bigcap_{n \in \mathbb {N}} A_{n}
 $$
 
 This requires us to show that  $0 \in A_{n}$  for every  $n \in \mathbb{N}$ .
@@ -1762,13 +1762,13 @@ This shows that  $\{0\} \subseteq \bigcap_{n\in \mathbb{N}}A_n$
 Second, we will prove that
 
 $$
-\bigcap_ {n \in \mathbb {N}} A _ {n} \subseteq \{0 \}
+\bigcap_{n \in \mathbb {N}} A_{n} \subseteq \{0 \}
 $$
 
 We will do this by considering the complements of these sets, in the context of  $\mathbb{R}$ . Specifically, we will show that
 
 $$
-\overline {{\{0 \}}} \subseteq \overline {{\bigcap_ {n \in \mathbb {N}} A _ {n}}}
+\overline {{\{0 \}}} \subseteq \overline {{\bigcap_{n \in \mathbb {N}} A_{n}}}
 $$
 
 which means we will show that every nonzero real number is not an element of every  $A_{n}$ .
@@ -1824,7 +1824,7 @@ Let's see how the process of finding and stating a counterexample would work for
 Example 3.9.10. Recall the claim:
 
 $$
-\text {F o r a n y s e t s} F, G, H, \text {i f} F \subseteq G \cup H, \text {t h e n e i t h e r} F \subseteq G \text {o r} F \subseteq H.
+\text{Fo ra ny se ts} F, G, H, \text{if } F \subseteq G \cup H, \text{th en ei th er} F \subseteq G \text{or} F \subseteq H.
 $$
 
 This claim is supposed to work for any sets  $F, G, H$ , so when we describe our counterexample, we better describe exactly what those three sets are going to be. We can't just explain our way around the issue and argue about how there might exist three sets out there with a certain property. Nope, we have to tell a reader exactly what they are by explicitly defining them. This is what the first line of our disproof of the claim will be, but we can't just jump right into that, because we don't know how to define them yet!
@@ -1918,29 +1918,29 @@ Second, find a counterexample to the claim that those sets are actually always e
 (8) For every  $n \in \mathbb{N}$  let  $S_{n} = \left\{x \in \mathbb{R} \mid -\frac{1}{n} < x < \frac{1}{n}\right\}$ . Prove that
 
 $$
-\bigcap_ {n \in \mathbb {N}} S _ {n} = \{0 \}
+\bigcap_{n \in \mathbb {N}} S_{n} = \{0 \}
 $$
 
 (9) Let  $I = \{x \in \mathbb{R} \mid 0 < x < 1\}$ . For every  $x \in I$ , define  $S_x = \{y \in \mathbb{R} \mid x < y < x + 1\}$ . Prove that
 
 $$
-\bigcup_ {x \in I} S _ {x} = \left\{z \in \mathbb {R} \mid 0 <   z <   2 \right\}
+\bigcup_{x \in I} S_{x} = \left\{z \in \mathbb {R} \mid 0 <   z <   2 \right\}
 $$
 
 (10) For every  $n \in \mathbb{N}$ , define the sets  $A_{n}$  and  $B_{n}$  by
 
 $$
-A _ {n} = \left\{x \in \mathbb {R} \mid 0 \leq x <   \frac {n - 1}{n} \right\}
+A_{n} = \left\{x \in \mathbb {R} \mid 0 \leq x <   \frac{n - 1}{n} \right\}
 $$
 
 $$
-B _ {n} = \left\{y \in \mathbb {R} \mid - \frac {1}{n} <   y <   1 \right\}
+B_{n} = \left\{y \in \mathbb {R} \mid - \frac{1}{n} <   y <   1 \right\}
 $$
 
 Prove the following set equality by a double-containment argument:
 
 $$
-\bigcup_ {n \in \mathbb {N}} A _ {n} = \bigcap_ {n \in \mathbb {N}} B _ {n}
+\bigcup_{n \in \mathbb {N}} A_{n} = \bigcap_{n \in \mathbb {N}} B_{n}
 $$
 
 # 3.10 Summary
@@ -1976,7 +1976,7 @@ B = \{y \in \mathbb {Z} \mid - 5 <   y <   6 \}
 $$
 
 $$
-C = \left\{x \in \mathbb {R} \mid x ^ {2} \geq 9 \right\}
+C = \left\{x \in \mathbb {R} \mid x^{2} \geq 9 \right\}
 $$
 
 $$
@@ -1984,7 +1984,7 @@ D = \{x \in \mathbb {R} \mid x <   - 3 \}
 $$
 
 $$
-E = \left\{n \in \mathbb {N} \mid n \text {i s e v e n} \right\}
+E = \left\{n \in \mathbb {N} \mid n \text{is ev en} \right\}
 $$
 
 (a)  $A\subseteq B$  
@@ -2014,7 +2014,7 @@ Problem 3.11.4. Rewrite the following sentences using the "set-builder notation"
 Problem 3.11.5. Define the following sets:
 
 $$
-A = \left\{x \in \mathbb {R} \mid x ^ {2} - x - 1 2 > 0 \right\}
+A = \left\{x \in \mathbb {R} \mid x^{2} - x - 1 2 > 0 \right\}
 $$
 
 $$
@@ -2043,7 +2043,7 @@ Problem 3.11.9. Let  $(a,b)$  be a point on the Cartesian plane, i.e.  $(a,b) \i
 Let  $C_{(a,b),\varepsilon}$  be the set of real numbers that are "close" to  $(a,b)$ , defined as follows:
 
 $$
-C _ {(a, b), \varepsilon} = \left\{(x, y) \in \mathbb {R} \times \mathbb {R} \mid \sqrt {(x - a) ^ {2} + (y - b) ^ {2}} <   \varepsilon \right\}
+C_{(a, b), \varepsilon} = \left\{(x, y) \in \mathbb {R} \times \mathbb {R} \mid \sqrt{(x - a)^{2} + (y - b)^{2}} <   \varepsilon \right\}
 $$
 
 1. Come up with a geometric description of the set  $C_{(a,b),\varepsilon}$ .
@@ -2059,7 +2059,7 @@ What happens as we change  $\varepsilon$ ?
 Problem 3.11.10. Consider the (false!) claim that
 
 $$
-\bigcup_ {n \in \mathbb {N}} \mathcal {P} ([ n ]) = \mathcal {P} (\mathbb {N})
+\bigcup_{n \in \mathbb {N}} \mathcal {P} ([ n ]) = \mathcal {P} (\mathbb {N})
 $$
 
 (a) What is wrong with the following "proof" of the claim? Point out any error(s) and explain why it/they ruin the "proof".
@@ -2067,7 +2067,7 @@ $$
 First, we will show that
 
 $$
-\bigcup_ {n \in \mathbb {N}} \mathcal {P} ([ n ]) \subseteq \mathcal {P} (\mathbb {N})
+\bigcup_{n \in \mathbb {N}} \mathcal {P} ([ n ]) \subseteq \mathcal {P} (\mathbb {N})
 $$
 
 Consider an arbitrary element  $X$  of the union on the left.
@@ -2091,7 +2091,7 @@ Since we have shown  $\subseteq$  and  $\supseteq$ , we know the two sets are eq
 (b) Disprove the claim by defining an explicit example of a set  $S$  such that
 
 $$
-S \in \mathcal {P} (\mathbb {N}) \qquad \text {a n d} \qquad S \notin \bigcup_ {n \in \mathbb {N}} \mathcal {P} ([ n ])
+S \in \mathcal {P} (\mathbb {N}) \qquad \text{an d} \qquad S \notin \bigcup_{n \in \mathbb {N}} \mathcal {P} ([ n ])
 $$
 
 Problem 3.11.11. Let  $A = [3] \times [4]$ . (Remember that  $[n] = \{1,2,3,\ldots,n\}$ .)
@@ -2104,7 +2104,7 @@ Let  $B = \{(x,y)\in \mathbb{Z}\times \mathbb{Z}\mid 0\leq 3x - y + 1\leq 9\}$
 Problem 3.11.12. Let  $n \in \mathbb{N}$  be a fixed natural number. Let  $S = [n] \times [n]$ . Let  $T$  be the set
 
 $$
-T = \left\{(x, y) \in \mathbb {Z} \times \mathbb {Z} \mid 0 \leq n x + y - (n + 1) \leq n ^ {2} - 1 \right\}
+T = \left\{(x, y) \in \mathbb {Z} \times \mathbb {Z} \mid 0 \leq n x + y - (n + 1) \leq n^{2} - 1 \right\}
 $$
 
 Prove that  $S \subseteq T$  but  $S \neq T$ .
@@ -2124,7 +2124,7 @@ Problem 3.11.14. Let  $S$  and  $T$  be sets whose elements are sets, themselves
 Prove that
 
 $$
-\bigcup_ {X \in S} X \subseteq \bigcup_ {Y \in T} Y
+\bigcup_{X \in S} X \subseteq \bigcup_{Y \in T} Y
 $$
 
 Problem 3.11.15. Let  $A, B, C, D$  be sets.
@@ -2160,7 +2160,7 @@ Problem 3.11.19. Find examples of sets  $R, S, T$  such that  $R \in S$  and  $S
 Problem 3.11.20. Identify what each of the following sets are, and prove your claims.
 
 $$
-\bigcap_ {n \in \mathbb {N}} [ n ] \qquad \text {a n d} \qquad \bigcup_ {n \in \mathbb {N}} [ n ]
+\bigcap_{n \in \mathbb {N}} [ n ] \qquad \text{an d} \qquad \bigcup_{n \in \mathbb {N}} [ n ]
 $$
 
 Problem 3.11.21. Let  $I = \{-1,0,1\}$ . For each  $i \in I$ , define  $A_{i} = \{i - 2,i - 1,i,i + 1,i + 2\}$  and  $B_{i} = \{-2i, - i,i,2i\}$ .

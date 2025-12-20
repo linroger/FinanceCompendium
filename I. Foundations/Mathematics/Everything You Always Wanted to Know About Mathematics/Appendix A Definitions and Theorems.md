@@ -36,7 +36,7 @@ tags_method: max_quality_v1
 - The natural numbers are
 
 $$
-\mathbb {N} = \{1, 2, 3, 4, 5, \ldots \}
+\mathbb{N} = \{1, 2, 3, 4, 5, \ldots \}
 $$
 
 Note:  $0\notin \mathbb{N}$
@@ -44,19 +44,19 @@ Note:  $0\notin \mathbb{N}$
 - For every  $n \in \mathbb{N}$ , the set  $[n]$  ("brackets  $n$ " ) is defined by
 
 $$
-[ n ] = \{x \in \mathbb {N} \mid 1 \leq x \leq n \} = \{1, 2, 3, \ldots , n \}
+[ n ] = \{x \in \mathbb{N} \mid 1 \leq x \leq n \} = \{1, 2, 3, \ldots , n \}
 $$
 
 The integers are
 
 $$
-\mathbb {Z} = \{\dots , - 3, - 2, - 1, 0, 1, 2, 3, \dots \}
+\mathbb{Z} = \{\dots , - 3, - 2, - 1, 0, 1, 2, 3, \dots \}
 $$
 
 - The rational numbers are
 
 $$
-\mathbb {Q} = \left\{x \in \mathbb {R} \mid \exists a, b \in \mathbb {Z}. b \neq 0 \text {a n d} \frac {a}{b} = x \right\}
+\mathbb{Q} = \left\{x \in \mathbb{R} \mid \exists a, b \in \mathbb{Z}. b \neq 0 \text{ and } \frac{a}{b} = x \right\}
 $$
 
 - The real numbers are denoted by  $\mathbb{R}$ . Every real number is either rational or irrational.  
@@ -67,7 +67,7 @@ $$
 - If  $U$  is a set and  $P(x)$  is some property that either does or does not hold for any given  $x$ , then we can always define a new set by writing
 
 $$
-S = \{x \in U \mid P (x) \text {h o l d s} \}
+S = \{x \in U \mid P (x) \text{ holds } \}
 $$
 
 - This is called set-builder notation. It is essential to identify the universal set  $U$  and the property  $P(x)$ .
@@ -126,7 +126,7 @@ This means  $S \subseteq T$  and  $S \neq T$ .
 - Let  $S$  be a set. The power set of  $S$  is denoted by  $\mathcal{P}(S)$  and is defined by
 
 $$
-\mathcal {P} (S) = \{A \mid A \subseteq S \}
+\mathcal{P} (S) = \{A \mid A \subseteq S \}
 $$
 
 That is,  $\mathcal{P}(S)$  is the set of all subsets of  $S$ .
@@ -138,7 +138,7 @@ That is,  $\mathcal{P}(S)$  is the set of all subsets of  $S$ .
 - To say "  $S$  and  $T$  are equal sets", we write  $S = T$ . This is defined by
 
 $$
-S = T \text {i f a n d o n l y i f} S \subseteq T \text {a n d} T \subseteq S
+S = T \text{ ifandonlyif } S \subseteq T \text{ and } T \subseteq S
 $$
 
 - To prove two sets are equal, like  $S = T$ , we need to do something like this:
@@ -166,7 +166,7 @@ Suppose  $S, T, U$  are sets and  $S \subseteq U$  and  $T \subseteq U$ .
 - The union of two sets is defined by
 
 $$
-S \cup T = \{x \in U \mid x \in S \text {o r} x \in T \}
+S \cup T = \{x \in U \mid x \in S \text{ or } x \in T \}
 $$
 
 It is the set of all elements that belong to at least one of the two sets,  $S$  and  $T$ .
@@ -174,7 +174,7 @@ It is the set of all elements that belong to at least one of the two sets,  $S$ 
 - The intersection of two sets is defined by
 
 $$
-S \cap T = \{x \in U \mid x \in S \text {a n d} x \in T \}
+S \cap T = \{x \in U \mid x \in S \text{ and } x \in T \}
 $$
 
 It is the set of all elements that belong to both sets,  $S$  and  $T$ .
@@ -182,7 +182,7 @@ It is the set of all elements that belong to both sets,  $S$  and  $T$ .
 - The difference of two sets is defined by
 
 $$
-S - T = \{x \in U \mid x \in S \text {a n d} x \notin T \}
+S - T = \{x \in U \mid x \in S \text{ and } x \notin T \}
 $$
 
 It is the set of all elements of  $S$  that are not elements of  $T$ .
@@ -190,7 +190,7 @@ It is the set of all elements of  $S$  that are not elements of  $T$ .
 - The complement of a set is defined by
 
 $$
-\overline {{S}} = \{x \in U \mid x \notin S \} = U - S
+\overline{S} = \{x \in U \mid x \notin S \} = U - S
 $$
 
 It is the set of all elements of the universal set that are not elements of  $S$ .
@@ -198,7 +198,7 @@ It is the set of all elements of the universal set that are not elements of  $S$
 - The Cartesian product of two sets is defined by
 
 $$
-S \times T = \{(x, y) \mid x \in S \text {a n d} y \in T \}
+S \times T = \{(x, y) \mid x \in S \text{ and } y \in T \}
 $$
 
 It is the set of all ordered pairs, where the first coordinate is an element of  $S$  and the second coordinate is an element of  $T$ .
@@ -210,7 +210,7 @@ Suppose  $I$  is an index set and  $U$  is a universal set, and we have defined 
 - The indexed union of all of the  $A_{i}$  sets is defined by
 
 $$
-\bigcup_ {i \in I} A _ {i} = \left\{x \in U \mid \exists k \in I. x \in A _ {k} \right\}
+\bigcup_{i \in I} A_{i} = \left\{x \in U \mid \exists k \in I. x \in A_{k} \right\}
 $$
 
 It is the set of all elements  $x$  in the universal set such that  $x$  is an element of at least one of the indexed sets in the union.
@@ -218,7 +218,7 @@ It is the set of all elements  $x$  in the universal set such that  $x$  is an e
 - The indexed intersection of all of the  $A_{i}$  sets is defined by
 
 $$
-\bigcap_ {i \in I} A _ {i} = \left\{x \in U \mid \forall i \in I. x \in A _ {i} \right\}
+\bigcap_{i \in I} A_{i} = \left\{x \in U \mid \forall i \in I. x \in A_{i} \right\}
 $$
 
 It is the set of all elements  $x$  in the universal set such that  $x$  is an element of all of the indexed sets in the intersection.
@@ -228,7 +228,7 @@ It is the set of all elements  $x$  in the universal set such that  $x$  is an e
 - Let  $S$  be a set. A partition of  $S$  is a collection of sets that are pairwise disjoint and whose union is  $S$ . That is, a partition is formed by an index set  $I$  and non-empty sets  $S_{i}$  (defined for every  $i \in I$ ) that satisfy:
 
 $$
-\begin{array}{l} - \forall i \in I. S _ {i} \neq \emptyset \\ - \forall i \in I. S _ {i} \subseteq S \\ - \forall i, j \in I. i \neq j \Rightarrow S _ {i} \cap S _ {j} = \varnothing \\ - \bigcup_ {i \in I} S _ {i} = S \\ \end{array}
+\begin{array}{l} - \forall i \in I. S_{i} \neq \emptyset \\ - \forall i \in I. S_{i} \subseteq S \\ - \forall i, j \in I. i \neq j \Rightarrow S_{i} \cap S_{j} = \varnothing \\ - \bigcup_{i \in I} S_{i} = S \\ \end{array}
 $$
 
 # A.2 Logic
@@ -600,7 +600,7 @@ Let  $A$  be a set and let  $R$  be a relation on  $A$ .
 - If  $R$  is an equivalence relation and  $x \in A$ , then the equivalence class corresponding to  $x$  (under the relation  $R$ ) is
 
 $$
-[ x ] _ {R} = \{y \in A \mid (x, y) \in R \}
+[ x ]_{R} = \{y \in A \mid (x, y) \in R \}
 $$
 
 which is the set of all elements related to  $x$ .
@@ -608,7 +608,7 @@ which is the set of all elements related to  $x$ .
 - If  $R$  is an equivalence relation, then  $A / R$  is a modulo  $R$ ; it is the set of all equivalence classes:
 
 $$
-A / R = \left\{\left[ x \right] _ {R} \mid x \in A \right\}
+A / R = \left\{\left[ x \right]_{R} \mid x \in A \right\}
 $$
 
 - Theorem: If  $R$  is an equivalence relation on  $A$ , then the equivalence classes (i.e. the elements of  $A / R$ ) form a partition of  $A$ .  
@@ -630,7 +630,7 @@ We write this as  $x \equiv y \mod n$ .
 - Division Lemma: Let  $n \in \mathbb{N}$  be given. Let  $x \in \mathbb{Z}$  be given. Then
 
 $$
-\exists ! k, r \in \mathbb {Z}. \left[ (x = k n + r) \wedge (0 \leq r \leq n - 1) \right]
+\exists ! k, r \in \mathbb{Z}. \left[ (x = k n + r) \wedge (0 \leq r \leq n - 1) \right]
 $$
 
 Notice that " $\exists$ !" indicates this representation of  $x$  as a multiple of  $n$  plus a remainder is unique.
@@ -640,7 +640,7 @@ Notice that " $\exists$ !" indicates this representation of  $x$  as a multiple 
 Suppose that  $a \equiv r \mod n$  and  $b \equiv s \mod n$ . Then,
 
 $$
-a + b \equiv r + s \mod n \qquad \text {a n d} \qquad a \cdot b \equiv r \cdot s \mod n
+a + b \equiv r + s \mod n \qquad \text{ and } \qquad a \cdot b \equiv r \cdot s \mod n
 $$
 
 # Multiplicative Inverses in  $\mathbb{Z}$  mod  $n$
@@ -669,7 +669,7 @@ Suppose we also have  $r$  integers,  $a_1, a_2, \ldots, a_r$ .
 Then there exists a solution  $X$  to the system of congruences defined by the  $n_i$  and  $a_i$ ; that is,
 
 $$
-\exists X \in \mathbb {Z}. \forall i \in [ r ]. X \equiv a _ {i} \mod n _ {i}
+\exists X \in \mathbb{Z}. \forall i \in [ r ]. X \equiv a_{i} \mod n_{i}
 $$
 
 Furthermore, if we define  $N = \prod_{i\in [r]}n_i$ , then all of the infinitely-many solutions  $Y$  to the system of congruences satisfy  $X\equiv Y\bmod N$ .
@@ -717,13 +717,13 @@ knowing that there is exactly one such  $b$  for each  $a$ .
 - Let  $f: A \to B$  be a function. Let  $X \subseteq A$ . The image of  $X$  under the function  $f$  is
 
 $$
-\operatorname {I m} _ {f} (X) = \{b \in B \mid \exists a \in X, f (a) = b \}
+\operatorname{Im}_{f} (X) = \{b \in B \mid \exists a \in X, f (a) = b \}
 $$
 
 An equivalent way of writing this set is
 
 $$
-\operatorname {I m} _ {f} (X) = \{f (a) \mid a \in X \}
+\operatorname{Im}_{f} (X) = \{f (a) \mid a \in X \}
 $$
 
 # A.5. FUNCTIONS
@@ -733,7 +733,7 @@ $$
 - Let  $f: A \to B$  be a function. Let  $Z \subseteq B$ . The pre-image of  $Z$  under the function  $f$  is
 
 $$
-\operatorname {P r e I m} _ {f} (Z) = \{a \in A \mid f (a) \in Z \}
+\operatorname{PreIm}_{f} (Z) = \{a \in A \mid f (a) \in Z \}
 $$
 
 (Intuitively, this is the set of all "inputs" whose output "lands" in  $Z$ .)
@@ -747,7 +747,7 @@ Note:  $\operatorname{Im}_f(\varnothing) = \varnothing$  and  $\operatorname{Pre
 The definition of image gives us this equivalent formulation of surjectivity:
 
 $$
-f \text {i s} \quad \Longleftrightarrow \forall b \in B. \exists a \in A. f (a) = b
+f \text{ is } \quad \Longleftrightarrow \forall b \in B. \exists a \in A. f (a) = b
 $$
 
 (Intuitively,  $f$  is surjective when all of the codomain elements are "hit" by the function.)
@@ -755,7 +755,7 @@ $$
 - Let  $f: A \to B$  be a function. If  $f$  has the property that
 
 $$
-\forall a _ {1}, a _ {2} \in A. a _ {1} \neq a _ {2} \Rightarrow f (a _ {1}) \neq f (a _ {2})
+\forall a_{1}, a_{2} \in A. a_{1} \neq a_{2} \Rightarrow f (a_{1}) \neq f (a_{2})
 $$
 
 then we say  $f$  is injective, or it is an injection.
@@ -763,7 +763,7 @@ then we say  $f$  is injective, or it is an injection.
 The contrapositive of this conditional statement yields an equivalent formulation of injectivity:
 
 $$
-\forall a _ {1}, a _ {2} \in A. f (a _ {1}) = f (a _ {2}) \Rightarrow a _ {1} = a _ {2}
+\forall a_{1}, a_{2} \in A. f (a_{1}) = f (a_{2}) \Rightarrow a_{1} = a_{2}
 $$
 
 (Intuitively,  $f$  is injective when two different inputs always yield different outputs, or equivalently when having equal outputs means they came from the same input.)
@@ -999,13 +999,13 @@ Suppose there is a surjection  $f:A\to B$  . Then  $|A|\geq |B|$
 - **Rule Of Sum:** Let  $A$  be a finite set. Let  $n \in \mathbb{N}$ . Suppose  $\{S_i \mid i \in [n]\}$  is a partition of  $A$ . Then
 
 $$
-| A | = \sum_ {i = 1} ^ {n} | S _ {i} | = | S _ {1} | + | S _ {2} | + \dots + | S _ {n} |
+| A | = \sum_{i = 1}^{n} | S_{i} | = | S_{1} | + | S_{2} | + \dots + | S_{n} |
 $$
 
 - **Rule Of Product:** Suppose we have a process that is completed in  $n$  steps. Suppose that step  $i$  (where  $1 \leq i \leq n$ ) can be completed in  $w_i$  ways, independent of the choices made in the previous step. Then the number of outcomes of this process is
 
 $$
-\prod_ {i = 1} ^ {n} w _ {i} = w _ {1} \cdot w _ {2} \dots w _ {n}
+\prod_{i = 1}^{n} w_{i} = w_{1} \cdot w_{2} \dots w_{n}
 $$
 
 # A.7.3 Formulas
@@ -1052,15 +1052,15 @@ Pascal's Identity:  $\binom{n}{k} + \binom{n}{k+1} = \binom{n+1}{k+1}$
 We have a universal set  $U$  and some subsets  $A_{1}, A_{2}, \ldots, A_{n} \subseteq U$ . We want to count the elements of  $U$  that are outside of all of the  $A_{i}$  sets.
 
 $$
-\left| U - A _ {1} \right| = \left| U \right| - \left| A _ {1} \right|
+\left| U - A_{1} \right| = \left| U \right| - \left| A_{1} \right|
 $$
 
 $$
-\left| U - \left(A _ {1} \cup A _ {2}\right) \right| = \left| U \right| - \left| A _ {1} \right| - \left| A _ {2} \right| + \left| A _ {1} \cap A _ {2} \right|
+\left| U - \left(A_{1} \cup A_{2}\right) \right| = \left| U \right| - \left| A_{1} \right| - \left| A_{2} \right| + \left| A_{1} \cap A_{2} \right|
 $$
 
 $$
-\begin{array}{l} | U - \left(A _ {1} \cup A _ {2} \cup A _ {3}\right) | = | U | - | A _ {1} | - | A _ {2} | - | A _ {3} | \\ + \left| A _ {1} \cap A _ {2} \right| + \left| A _ {1} \cap A _ {3} \right| + \left| A _ {2} \cap A _ {3} \right| \\ - \left| A _ {1} \cap A _ {2} \cap A _ {3} \right| \\ \end{array}
+\begin{array}{l} | U - \left(A_{1} \cup A_{2} \cup A_{3}\right) | = | U | - | A_{1} | - | A_{2} | - | A_{3} | \\ + \left| A_{1} \cap A_{2} \right| + \left| A_{1} \cap A_{3} \right| + \left| A_{2} \cap A_{3} \right| \\ - \left| A_{1} \cap A_{2} \cap A_{3} \right| \\ \end{array}
 $$
 
 and so on.
@@ -1068,13 +1068,13 @@ and so on.
 In general, for  $n$  many sets, we have
 
 $$
-| U - (A _ {1} \cup A _ {2} \cup \dots \cup A _ {n}) | = \sum_ {S \subseteq [ n ]} (- 1) ^ {| S |} \left| \bigcap_ {i \in S} A _ {i} \right| \quad \text {w h e r e} \quad \bigcap_ {i \in \emptyset} A _ {i} = U
+| U - (A_{1} \cup A_{2} \cup \dots \cup A_{n}) | = \sum_{S \subseteq [ n ]} (- 1)^{| S |} \left| \bigcap_{i \in S} A_{i} \right| \quad \text{wh er e} \quad \bigcap_{i \in \emptyset} A_{i} = U
 $$
 
 In the (convenient) case where the size of the intersection of  $k$ -many sets only depends on that value  $k$  (and not which sets we are intersecting), then we can write
 
 $$
-| U - (A _ {1} \cup A _ {2} \cup \dots \cup A _ {n}) | = \sum_ {k = 0} ^ {n} (- 1) ^ {k} {\binom {n} {k}} | S _ {1} \cap S _ {2} \cap \dots \cap S _ {k} |
+| U - (A_{1} \cup A_{2} \cup \dots \cup A_{n}) | = \sum_{k = 0}^{n} (- 1)^{k} {\binom {n} {k}} | S_{1} \cap S_{2} \cap \dots \cap S_{k} |
 $$
 
 # A.7.8 Pigeonhole Principle

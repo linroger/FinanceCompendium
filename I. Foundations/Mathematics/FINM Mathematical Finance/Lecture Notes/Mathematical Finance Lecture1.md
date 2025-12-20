@@ -59,7 +59,7 @@ A (European) call option is a contract between two agents, a BUYER and a SELLER,
 If the BUYER behaves rationally (as we shall assume all agents in the economy do) he/she will exercise the option at expiration if and only if the share price  $S_{1}$  of the underlying asset STOCK exceeds the strike price  $K$ . Because the share of STOCK may be immediately resold for the amount  $S_{1}$  is CASH, it follows that the value of the call option at expiration is
 
 $$
-\begin{array}{l} V _ {1} = (S _ {1} - K) _ {+} = S _ {1} - K \quad \text {i f} S _ {1} \geq K; \tag {1} \\ = 0 \quad \text {i f} S _ {1} \leq K. \\ \end{array}
+\begin{array}{l} V_{1} = (S_{1} - K)_{+} = S_{1} - K \quad \text{if } S_{1} \geq K; \tag{1} \\ = 0 \quad \text{if } S_{1} \leq K. \\ \end{array}
 $$
 
 The market value  $V_{0}$  of the call option at time  $t = 0$ , however, depends on the uncertainty about the value of the underlying asset (STOCK) at the expiration time  $t = 1$ , as the following examples show. We assume, as in the discussion of the forward contract, that there is a riskless asset MONEYMARKET with rate of return  $r$ .
@@ -67,7 +67,7 @@ The market value  $V_{0}$  of the call option at time  $t = 0$ , however, depend
 3.1. Two-Scenario Market. Suppose that there are only two possible market scenarios, labelled  $\omega_{1},\omega_{2}$ . The value of one share of STOCK at time 1 is  $S_{1}(\omega_{1}) = d_{1}$  in scenario  $\omega_{1}$ , and is  $S_{1}(\omega_{2}) = d_{2}$  in scenario  $\omega_{2}$ . Let's consider the price  $V_{0}$  at time  $t = 0$  of the call option with strike price  $K$  under the following hypotheses:
 
 $$
-\begin{array}{l} \quad \left. d _ {1} \leq K \leq d _ {2} \right. (2) \\ d _ {1} \leq S _ {0} e ^ {r} \leq d _ {2} (3) \\ \end{array}
+\begin{array}{l} \quad \left. d_{1} \leq K \leq d_{2} \right. (2) \\ d_{1} \leq S_{0} e^{r} \leq d_{2} (3) \\ \end{array}
 $$
 
 These hypotheses are forced by the Efficient Market Hypothesis. Clearly, if  $d_{1}, d_{2}$  were the only conceivable values of  $S_{1}$  then no rational agent would ever buy an option with strike  $K > d_{2}$ , or sell one with strike  $K < d_{1}$ .
@@ -77,7 +77,7 @@ EXERCISE: Show that if one of the inequalities (3) were violated then there woul
 Proposition 2. The market price of the call option with strike price  $K$  at time  $t = 0$  is
 
 $$
-V _ {0} = v := \left(d _ {2} - K\right) \left(\frac {S _ {0} e ^ {r} - d _ {1}}{d _ {2} - d _ {1}}\right) e ^ {- r}. \tag {4}
+V_{0} = v := \left(d_{2} - K\right) \left(\frac{S_{0} e^{r} - d_{1}}{d_{2} - d_{1}}\right) e^{-r}. \tag{4}
 $$
 
 REMARK. The fraction  $p \coloneqq (S_0 e^r - d_1) / (d_2 - d_1)$  is, in effect, the probability that the market places on scenario  $\omega_2$ , as we shall see. Thus, the value of  $V_0$  is the market expectation of the value of the call at termination.
@@ -91,13 +91,13 @@ The financed option strategy is an arbitrage, because you invested 0 at time 0 (
 (1) Under scenario  $\omega_{1}$ , you owe  $ad_{1}$  to repay the  $a$  shares of STOCK, but your cash on hand (from the MONEYMARKET) is
 
 $$
-\begin{array}{l} (a S _ {0} - V _ {0}) e ^ {r} = a d _ {1} + (a S _ {0} - a d _ {1} e ^ {- r}) e ^ {r} - V _ {0} e ^ {r} \\ = a d _ {1} + \left(v - V _ {0}\right) e ^ {r} > a d _ {1}; \\ \end{array}
+\begin{array}{l} (a S_{0} - V_{0}) e^{r} = a d_{1} + (a S_{0} - a d_{1} e^{-r}) e^{r} - V_{0} e^{r} \\ = a d_{1} + \left(v - V_{0}\right) e^{r} > a d_{1}; \\ \end{array}
 $$
 
 (2) Under scenario  $\omega_{2}$ , you owe  $ad_{2}$  to repay the  $a$  shares of STOCK, but your cash on hand (from selling the OPTION, valued now at  $d_{2} - K$ , and from selling your MONEYMARKETS) is
 
 $$
-\begin{array}{l} \left(d _ {2} - K\right) + \left(a S _ {0} - V _ {0}\right) e ^ {r} > \left(d _ {2} - K\right) + \left(a S _ {0} - v\right) e ^ {r} \\ = \left(d _ {2} - K\right) + \left(a S _ {0} - a \left(S _ {0} - d _ {1} e ^ {- r}\right)\right) e ^ {r} \\ = (d _ {2} - K) + a d _ {1} \\ = a d _ {2}. \\ \end{array}
+\begin{array}{l} \left(d_{2} - K\right) + \left(a S_{0} - V_{0}\right) e^{r} > \left(d_{2} - K\right) + \left(a S_{0} - v\right) e^{r} \\ = \left(d_{2} - K\right) + \left(a S_{0} - a \left(S_{0} - d_{1} e^{-r}\right)\right) e^{r} \\ = (d_{2} - K) + a d_{1} \\ = a d_{2}. \\ \end{array}
 $$
 
 To complete the proof we must show that if  $V_0 > v$  then there is an arbitrage. But this is now easy - you just reverse the financed option strategy above! In particular: At time  $t = 0$ , sell 1 call OPTION, borrow  $aS_0 - V_0$ , and use it together with the proceeds of the call option sale to buy  $a$  shares of STOCK. (If  $V_0 > aS_0$ , there is no need to borrow anything.) This strategy is an arbitrage, as you should check (EXERCISE!)
@@ -105,13 +105,13 @@ To complete the proof we must show that if  $V_0 > v$  then there is an arbitrag
 3.2. Three-Scenario Market. Suppose now that there are three distinct market scenarios,  $\omega_{1},\omega_{2},\omega_{3}$ , and that the values  $d_{i} = S_{1}(\omega_{i})$  of the STOCK at  $t = 1$  in the three scenarios satisfy
 
 $$
-\quad \left. d _ {1} <   d _ {2} <   d _ {3}. \right. \tag {5}
+\quad \left. d_{1} < d_{2} < d_{3}. \right. \tag{5}
 $$
 
 As usual, suppose that there is a riskless asset MONEYMARKET whose rate of return is, as before,  $r$ . Finally, suppose that
 
 $$
-\quad \left. d _ {1} <   S _ {0} e ^ {r} <   d _ {3}. \right. \tag {6}
+\quad \left. d_{1} < S_{0} e^{r} < d_{3}. \right. \tag{6}
 $$
 
 (Note: As in the two-scenario market, the no-arbitrage hypothesis forces  $d_{1} \leq S_{0}e^{r} \leq d_{3}$ .) Consider the call option with strike price  $K$ , where  $d_{1} < K < d_{3}$ . What is its value  $V_{0}$  at  $t = 0$  under the no-arbitrage hypothesis? The answer is that it is not determined. The most that can be said is the following:
@@ -119,7 +119,7 @@ $$
 Proposition 3. Define  $\mathcal{V}$  to be the set of all real numbers
 
 $$
-v = e ^ {- r} \left(p _ {2} \left(d _ {2} - K\right) _ {+} + p _ {3} \left(d _ {3} - K\right)\right) \tag {7}
+v = e^{-r} \left(p_{2} \left(d_{2} - K\right)_{+} + p_{3} \left(d_{3} - K\right)\right) \tag{7}
 $$
 
 where  $(p_1, p_2, p_3)$  ranges over the set of all probability distributions such that  $S_0 e^r = p_1 d_1 + p_2 d_2 + p_3 d_3$ . Then for each  $v \in \mathcal{V}$  there exists an arbitrage-free market in which the call option has value  $V_0 = v$  and the STOCK has price  $S_0$  at  $t = 0$ , and the scenarios for the STOCK price  $S_1$  are as specified above, that is,  $S_1(\omega_i) = d_i$  for  $i = 1, 2, 3$ .
@@ -133,25 +133,25 @@ Single Period Market: Consider a market in which  $K$  assets, labelled  $A_{1},
 Observe that, since asset  $A_{1}$  is riskless, there is a constant  $r$ , called the riskless rate of return, such that the share price  $S_{1}^{1}$  of  $A_{1}$  in any scenario  $\omega_{i}$  is
 
 $$
-S _ {1} ^ {1} \left(\omega_ {j}\right) = e ^ {r} \quad \forall i = 1, 2, \dots , N. \tag {8}
+S_{1}^{1} \left(\omega_{j}\right) = e^{r} \quad \forall i = 1, 2, \dots , N. \tag{8}
 $$
 
 Portfolios: A portfolio is a vector
 
 $$
-\boldsymbol {\theta} = (\theta_ {1}, \theta_ {2}, \dots , \theta_ {K}) \in \mathbb {R} ^ {K}
+\boldsymbol{\theta} = (\theta_{1}, \theta_{2}, \dots , \theta_{K}) \in \mathbb{R}^{K}
 $$
 
 of  $K$  real numbers. The entry  $\theta_{j}$  represents the number of shares of asset  $A_{j}$  that are owned; if  $\theta_{j} < 0$  then the portfolio is said to be short  $|\theta_{j}|$  shares of asset  $A_{j}$ . The value of the portfolio  $\theta$  at time  $t = 0$  is
 
 $$
-V _ {0} (\theta) = \sum_ {j = 1} ^ {K} \theta_ {j} S _ {0} ^ {j}, \tag {9}
+V_{0} (\theta) = \sum_{j = 1}^{K} \theta_{j} S_{0}^{j}, \tag{9}
 $$
 
 and the value of the portfolio  $\theta$  at time  $t = 1$  in market scenario  $\omega_{i}$  is
 
 $$
-V _ {1} (\theta ; \omega_ {i}) = \sum_ {j = 1} ^ {K} \theta_ {j} S _ {1} ^ {j} (\omega_ {i}). \tag {10}
+V_{1} (\theta ; \omega_{i}) = \sum_{j = 1}^{K} \theta_{j} S_{1}^{j} (\omega_{i}). \tag{10}
 $$
 
 Arbitrage: An arbitrage is a portfolio  $\theta$  that "makes money from nothing", formally, a portfolio  $\theta$  such that either
@@ -163,7 +163,7 @@ Arbitrage: An arbitrage is a portfolio  $\theta$  that "makes money from nothing
 Equilibrium Measure: A probability distribution  $\pi_i = \pi(\omega_i)$  on the set  $\Omega$  of possible market scenarios is said to be an equilibrium measure (or risk-neutral measure) if, for every asset  $A$ , the share price of  $A$  at time  $t = 0$  is the discounted expectation, under  $\pi$ , of the share price at time  $t = 1$ , that is, if
 
 $$
-S _ {0} ^ {j} = e ^ {- r} \sum_ {i = 1} ^ {N} \pi \left(\omega_ {i}\right) S _ {1} ^ {j} \left(\omega_ {i}\right) \quad \forall j = 1, 2, \dots , K. \tag {13}
+S_{0}^{j} = e^{-r} \sum_{i = 1}^{N} \pi \left(\omega_{i}\right) S_{1}^{j} \left(\omega_{i}\right) \quad \forall j = 1, 2, \dots , K. \tag{13}
 $$
 
 Theorem 1. (Fundamental Theorem of Arbitrage Pricing) There exists an equilibrium measure if and only if arbitrages do not exist.
@@ -171,7 +171,7 @@ Theorem 1. (Fundamental Theorem of Arbitrage Pricing) There exists an equilibriu
 The first implication is easy to prove. Suppose that there is an equilibrium measure  $\pi$ . Then for any portfolio  $\theta$ , the portfolio values at time  $t = 0$  and  $t = 1$  are related by discounted expectation:
 
 $$
-V _ {0} (\theta) = \sum_ {i = 1} ^ {N} \pi \left(\omega_ {i}\right) e ^ {- r} V \left(\theta ; \omega_ {i}\right). \tag {14}
+V_{0} (\theta) = \sum_{i = 1}^{N} \pi \left(\omega_{i}\right) e^{-r} V \left(\theta ; \omega_{i}\right). \tag{14}
 $$
 
 (To see this, just multiply equation (13) by  $\theta_j$ , sum on  $j$ , and use the definitions of portfolio value in (9)-(10) above.) If  $V(\theta; \omega_i) > 0$  for every market scenario  $\omega_i$  (as must be the case for an arbitrage portfolio), then equation (14) implies that  $V_0(\theta) > 0$ , and so  $\theta$  cannot be an arbitrage. Thus, arbitrages do not exist.
@@ -183,23 +183,23 @@ Example: The Call Option, Revisited. Let's consider again the pricing of the Eur
 Two-Scenario Market: There are two possible market scenarios,  $\omega_{1},\omega_{2}$ . The value of one share of STOCK at time 1 is  $S_{1}(\omega_{i}) = d_{i}$  in scenario  $\omega_{i}$ , with  $d_{1} < d_{2}$ . The riskless rate of return is  $r$ . By the fundamental theorem, in an arbitrage-free market, there is a probability distribution  $\pi$  on the two scenarios that determines prices by discounted expectation, and so, in particular,
 
 $$
-S _ {0} = \pi \left(\omega_ {1}\right) e ^ {- r} d _ {1} + \pi \left(\omega_ {2}\right) e ^ {- r} d _ {2}. \tag {15}
+S_{0} = \pi \left(\omega_{1}\right) e^{-r} d_{1} + \pi \left(\omega_{2}\right) e^{-r} d_{2}. \tag{15}
 $$
 
 Thus, the share price of STOCK at time zero must satisfy inequalities (3). Moreover, because there are only two market scenarios, equation (15) uniquely determines the equilibrium measure  $\pi$ :
 
 $$
-\pi \left(\omega_ {1}\right) = \left(d _ {2} - S _ {0} e ^ {r}\right) / \left(d _ {2} - d _ {1}\right), \tag {16}
+\pi \left(\omega_{1}\right) = \left(d_{2} - S_{0} e^{r}\right) / \left(d_{2} - d_{1}\right), \tag{16}
 $$
 
 $$
-\pi \left(\omega_ {2}\right) = \left(S _ {0} e ^ {r} - d _ {1}\right) / \left(d _ {2} - d _ {1}\right). \tag {17}
+\pi \left(\omega_{2}\right) = \left(S_{0} e^{r} - d_{1}\right) / \left(d_{2} - d_{1}\right). \tag{17}
 $$
 
 Finally, if the call option is to be freely traded, and if the market is to remain arbitrage-free, then its value at time  $t = 0$  is also determined by discounted expectation. Since there is only one possible equilibrium measure, as in the last displayed equations, the value of the call at time  $t = 0$  is
 
 $$
-V _ {0} = \pi \left(\omega_ {2}\right) \left(d _ {2} - K\right), \tag {18}
+V_{0} = \pi \left(\omega_{2}\right) \left(d_{2} - K\right), \tag{18}
 $$
 
 which agrees with the pricing formula (4).
@@ -213,25 +213,25 @@ This proves Proposition 3.
 Replicating Portfolios: Consider a market in which there are freely traded assets  $B$  and  $A^1, A^2, \ldots, A^K$ . Denote the share prices of assets  $A^j$  and  $B$  at time  $t$  in market scenario  $\omega_i$  by  $S_t^j(\omega_i)$  and  $S_t^B(\omega_i)$ . Say that a portfolio  $\theta = (\theta_1, \ldots, \theta_K)$  in the assets  $A^1, A^2, \ldots, A^K$  is a replicating portfolio for the asset  $B$  if
 
 $$
-S _ {1} ^ {B} \left(\omega_ {i}\right) = \sum_ {j = 1} ^ {K} \theta_ {j} S _ {1} ^ {j} \left(\omega_ {i}\right) \quad \forall i = 1, 2 \dots , N. \tag {19}
+S_{1}^{B} \left(\omega_{i}\right) = \sum_{j = 1}^{K} \theta_{j} S_{1}^{j} \left(\omega_{i}\right) \quad \forall i = 1, 2 \dots , N. \tag{19}
 $$
 
 Proposition 4. Suppose that  $\theta = (\theta_{1},\dots \theta_{K})$  is a replicating portfolio for asset  $B$  in the assets  $A^1,A^2,\ldots ,A^K$ . If the market is arbitrage-free, then the  $t = 0$  share values of the assets are related by
 
 $$
-S _ {0} ^ {B} = \sum_ {j = 1} ^ {K} \theta_ {j} S _ {0} ^ {j}. \tag {20}
+S_{0}^{B} = \sum_{j = 1}^{K} \theta_{j} S_{0}^{j}. \tag{20}
 $$
 
 Proof. Suppose to the contrary that  $S_0^B \neq \sum \theta_j S_0^j$ . There are two possibilities:  $<$  or  $>$ . Consider the possibility  $S_0^B < \sum \theta_j S_0^j$ . Then the portfolio  $\theta_* = (1, -\theta_1, -\theta_2, \ldots, -\theta_K)$  in the assets  $B, A^1, A^2, \ldots, A^K$  is an arbitrage, because at  $t = 0$  its value is
 
 $$
-S _ {0} ^ {B} - \sum_ {j = 1} ^ {K} \theta_ {j} S _ {0} ^ {j} <   0
+S_{0}^{B} - \sum_{j = 1}^{K} \theta_{j} S_{0}^{j} < 0
 $$
 
 but its value at  $t = 1$  in market scenario  $\omega_{i}$  is
 
 $$
-S _ {1} ^ {B} (\omega_ {i}) - \sum_ {j = 1} ^ {K} \theta_ {j} S _ {1} ^ {j} (\omega_ {i}) = 0,
+S_{1}^{B} (\omega_{i}) - \sum_{j = 1}^{K} \theta_{j} S_{1}^{j} (\omega_{i}) = 0,
 $$
 
 this last by the assumption that  $\theta$  is a replicating portfolio for asset  $B$ . Similarly, if it were the case that  $S_0^B > \sum \theta_j S_0^j$ , then the portfolio  $\theta^* = (-1, +\theta_1, +\theta_2, \ldots, +\theta_K)$  in the assets  $B, A^1, A^2, \ldots, A^K$  would be an arbitrage.
@@ -257,7 +257,7 @@ The proof of the Completeness Theorem is given in section 8 below.
 We must show that if the market does not admit arbitrages, then it has an equilibrium measure  $\pi$ , that is, a probability distribution  $\pi(\omega_i)$  on the set  $\Omega$  of market scenarios  $\omega_i$  such that equation (13) holds. When  $j = 1$ , this equation holds for trivial reasons: Asset 1 is the riskless asset, so its share price at time  $t = 0$  is  $S_0^1 = 1$  and its share price at time  $t = 1$ , under any scenario  $\omega_i$ , is  $e^r$ , and so, for any probability distribution  $\pi$  on the set of market scenarios,
 
 $$
-1 = S _ {0} ^ {1} = e ^ {- r} \sum_ {i = 1} ^ {N} \pi \left(\omega_ {i}\right) e ^ {r} = e ^ {- r} \sum_ {i = 1} ^ {N} \pi \left(\omega_ {i}\right) S _ {1} ^ {1} \left(\omega_ {i}\right). \tag {21}
+1 = S_{0}^{1} = e^{- r} \sum_{i = 1}^{N} \pi \left(\omega_{i}\right) e^{r} = e^{- r} \sum_{i = 1}^{N} \pi \left(\omega_{i}\right) S_{1}^{1} \left(\omega_{i}\right). \tag {21}
 $$
 
 Thus, what we must show is that, in the absence of arbitrages, there is a probability distribution  $\pi$  such that  $(\ref{eq:1})$  holds for  $2 \leq j \leq K$ .
@@ -265,7 +265,7 @@ Thus, what we must show is that, in the absence of arbitrages, there is a probab
 Consider the set  $\mathcal{E}$  of all vectors that can be obtained from the discounted share prices by averaging against some probability distribution on  $\Omega$ , that is,  $\mathcal{E}$  is the set of all vectors  $y = (y_{2}, y_{3}, \ldots, y_{K})$  such that, for some probability distribution  $\pi$  on  $\Omega$ ,
 
 $$
-y _ {j} = e ^ {- r} \sum_ {i = 1} ^ {N} \pi \left(\omega_ {i}\right) S _ {1} ^ {j} \left(\omega_ {i}\right) \quad \forall j = 2, 3, \dots , K. \tag {22}
+y_{j} = e^{-r} \sum_{i = 1}^{N} \pi \left(\omega_{i}\right) S_{1}^{j} \left(\omega_{i}\right) \quad \forall j = 2, 3, \dots , K. \tag{22}
 $$
 
 The set  $\mathcal{E}$  is a bounded, closed, convex polytope in  $\mathbb{R}^{K - 1}$ . (It might be helpful to sketch the set  $\mathcal{E}$  in the case  $d = 3$  when there are 3 or 4 market scenarios. In general, if there are  $N$  market scenarios, the polytope  $\mathcal{E}$  will have  $N$  extreme points [corners]; the extreme point corresponding to market scenario  $\omega_{i}$  is the vector of discounted prices  $D_{ij}^{*}$ .) We may now restate our objective in terms of the set  $\mathcal{E}$ : we must show that, in the absence of arbitrages, the  $t = 0$  price vector  $\mathbf{S} = (S_0^2,S_0^3,\dots ,S_0^K)$  is contained in  $\mathcal{E}$ . Equivalently, we must show that if  $\mathbf{S}\notin \mathcal{E}$  then there would be an arbitrage. This we shall accomplish by a geometric argument, using the following lemma.
@@ -273,7 +273,7 @@ The set  $\mathcal{E}$  is a bounded, closed, convex polytope in  $\mathbb{R}^{K
 Lemma 1. Let  $F$  be a closed, bounded, convex subset of  $\mathbb{R}^m$  and let  $x$  be a point in  $\mathbb{R}^m$  that is not an element of  $F$ . Then there is a nonzero vector  $v \in \mathbb{R}^k$  such that
 
 $$
-v \cdot x <   v \cdot y \quad \forall y \in F, \tag {23}
+v \cdot x < v \cdot y \quad \forall y \in F, \tag{23}
 $$
 
 where  $v \cdot w$  is the dot product of  $v$  with  $w$ .
@@ -283,13 +283,13 @@ Proof. There is no loss of generality in assuming that  $x = 0$  (the origin in 
 Because the dot product is unchanged by rotations of  $\mathbb{R}^k$  about the origin, we may assume without loss of generality that the vector  $v$  lies on the first coordinate axis, that is, that
 
 $$
-v = (a, 0, 0, \dots , 0) \qquad \text {f o r s o m e} a > 0.
+v = (a, 0, 0, \dots , 0) \qquad \text{forsome } a > 0.
 $$
 
 Thus, to prove that  $v \cdot y > 0$  for all elements  $y \in F$ , it suffices to show that there is no  $y \in F$  whose first coordinate is nonpositive. Here we shall use the convexity of  $F$ . If there were a point  $y \in F$  with nonpositive first coordinate, then the line segment  $L$  with endpoints  $v$  and  $y$  would be entirely contained in  $F$ . Because this line segment must cross the hyperplane consisting of points with first coordinate 0, we may suppose that  $y$  has the form
 
 $$
-y = (0, y _ {2}, y _ {3}, \ldots , y _ {k}),
+y = (0, y_{2}, y_{3}, \ldots , y_{k}),
 $$
 
 and so  $L$  consists of all points of the form  $y(\epsilon) \coloneqq ((1 - \epsilon)a, \epsilon y_2, \epsilon y_3, \ldots, \epsilon y_k)$ , where  $0 \leq \epsilon \leq 1$ . Now the closest point to the origin on  $L$  should be  $v$ . However, a simple calculation (do it!) shows that for all sufficiently small  $\epsilon > 0$  the point  $y(\epsilon)$  is actually closer to the origin than  $v$ , a contradiction.
@@ -299,19 +299,19 @@ Note: A variation of this argument shows that the hypothesis that  $F$  is bound
 Proof of the Fundamental Theorem. We must show that if the time-zero price vector  $\mathbf{S}$  is not an element of  $\mathcal{E}$ , then there is an arbitrage. Suppose, then, that  $\mathbf{S} \notin \mathcal{E}$ . Since  $\mathcal{E}$  is a closed, bounded, convex set, the Separating Hyperplane Theorem implies that there is a nonzero vector
 
 $$
-\theta^ {*} = \left(\theta_ {2}, \theta_ {3}, \dots , \theta_ {K}\right) \tag {24}
+\theta^{*} = \left(\theta_{2}, \theta_{3}, \dots , \theta_{K}\right) \tag {24}
 $$
 
 such that for any element  $y \in \mathcal{E}$ , the dot product of  $y$  with  $\theta^{*}$  is strictly greater than the dot product of  $\mathbf{S}$  with  $\theta^{*}$ . Because  $\mathcal{E}$  includes its extreme points, that is, those points of the form (22) where the probability distribution  $\pi$  puts all its mass on a single scenario  $\omega_{i}$ , it follows that, for each scenario  $\omega_{i}$ ,
 
 $$
-e ^ {- r} \sum_ {j = 2} ^ {K} \theta_ {j} S _ {1} ^ {j} \left(\omega_ {i}\right) > \sum_ {j = 2} ^ {K} \theta_ {j} S _ {0} ^ {j}. \tag {25}
+e^{- r} \sum_{j = 2}^{K} \theta_{j} S_{1}^{j} \left(\omega_{i}\right) > \sum_{j = 2}^{K} \theta_{j} S_{0}^{j}. \tag {25}
 $$
 
 Choose a real number  $-\theta_{1}$  that lies between these two values; adding  $\theta_{1}$  to both sides of the inequality (25) shows that for every market scenario  $\omega_{i}$ ,
 
 $$
-e ^ {- r} \sum_ {j = 1} ^ {K} \theta_ {j} S _ {1} ^ {j} \left(\omega_ {i}\right) > 0 > \sum_ {j = 1} ^ {K} \theta_ {j} S _ {0} ^ {j}. \tag {26}
+e^{- r} \sum_{j = 1}^{K} \theta_{j} S_{1}^{j} \left(\omega_{i}\right) > 0 > \sum_{j = 1}^{K} \theta_{j} S_{0}^{j}. \tag {26}
 $$
 
 This implies that the portfolio  $\theta = (\theta_{1},\theta_{2},\dots,\theta_{K})$  is an arbitrage.
@@ -321,39 +321,39 @@ This implies that the portfolio  $\theta = (\theta_{1},\theta_{2},\dots,\theta_{
 (A) Suppose that for every derivative security there is a replicating portfolio in the assets  $A^1, \ldots, A^K$ . We must show that the equilibrium measure is uniquely determined. Fix a particular market scenario  $\omega_{i*}$ , and consider the derivative security  $\mathcal{D}_{i*}$  whose value  $V_1(\omega_i)$  at  $t = 1$  in market scenario  $\omega_i$  is given by
 
 $$
-V _ {1} \left(\omega_ {i}\right) = 1 \quad \text {i f} \quad i = i ^ {*} \tag {27}
+V_{1} \left(\omega_{i}\right) = 1 \quad \text{if } \quad i = i^{*} \tag {27}
 $$
 
 $$
-V _ {1} (\omega_ {i}) = 0 \qquad \text {i f} \qquad i \neq i ^ {*}
+V_{1} (\omega_{i}) = 0 \qquad \text{if } \qquad i \neq i^{*}
 $$
 
 By hypothesis, there is a replicating portfolio  $\theta = (\theta_{1},\theta_{2},\dots,\theta_{K})$  in the assets  $A^1,\ldots ,A^K$  for the derivative security  $\mathcal{D}_{i^{*}}$ . By Proposition 4, the  $t = 0$  share price of  $\mathcal{D}_{i^*}$  must be
 
 $$
-V _ {0} = \sum_ {j = 1} ^ {K} \theta_ {j} A _ {0} ^ {j}.
+V_{0} = \sum_{j = 1}^{K} \theta_{j} A_{0}^{j}.
 $$
 
 If  $\pi$  is an equilibrium measure, then by definition the time-zero price of any security must be the discounted expectation, under  $\pi$ , of its time-one value. Thus, in particular, the time-zero value of  $\mathcal{D}_{j^*}$  must be
 
 $$
-V _ {0} = e ^ {- r} \sum_ {i = 1} ^ {N} V _ {1} (\omega_ {i}) \pi (\omega_ {i}) = e ^ {- r} \pi (\omega_ {i *}),
+V_{0} = e^{- r} \sum_{i = 1}^{N} V_{1} (\omega_{i}) \pi (\omega_{i}) = e^{- r} \pi (\omega_{i *}),
 $$
 
 where  $r$  is the riskless rate of return. Therefore, the only possible equilibrium probability for scenario  $\omega_{i^*}$  is
 
 $$
-\pi \left(\omega_ {i ^ {*}}\right) = e ^ {r} \sum_ {j = 1} ^ {K} \theta_ {j} A _ {0} ^ {j}. \tag {28}
+\pi \left(\omega_{i^{*}}\right) = e^{r} \sum_{j = 1}^{K} \theta_{j} A_{0}^{j}. \tag {28}
 $$
 
 (B) Now suppose that the equilibrium measure  $\pi(\omega_i)$  is unique, and that  $\pi(\omega_i) > 0$  for every market scenario  $\omega_i$ . We must show that every derivative security has a replicating portfolio in the assets  $A^1, \ldots, A^K$ . Suppose, to the contrary, that for some derivative security  $\mathcal{D}$  there is no replicating portfolio; we will obtain a contradiction by showing that there is an equilibrium measure different from  $\pi$ . Denote by  $f(\omega_i) = f_i$  the value of  $\mathcal{D}$  in market scenario  $\omega_i$ , and set
 
 $$
-\mathbf {f} = \left(f \left(\omega_ {1}\right), f \left(\omega_ {2}\right), \dots , f \left(\omega_ {N}\right)\right), \tag {29}
+\mathbf {f} = \left(f \left(\omega_{1}\right), f \left(\omega_{2}\right), \dots , f \left(\omega_{N}\right)\right), \tag {29}
 $$
 
 $$
-\mathbf {a} ^ {j} = \left(S _ {1} ^ {j} \left(\omega^ {1}\right), S _ {1} ^ {j} \left(\omega_ {2}\right), \dots , S _ {1} ^ {j} \left(\omega_ {N}\right)\right), \tag {30}
+\mathbf {a}^{j} = \left(S_{1}^{j} \left(\omega^{1}\right), S_{1}^{j} \left(\omega_{2}\right), \dots , S_{1}^{j} \left(\omega_{N}\right)\right), \tag {30}
 $$
 
 where  $S_{t}^{j}(\omega_{i})$  denotes the share price of asset  $A^j$  at time  $t$  in scenario  $\omega_{i}$ . Since, by hypothesis, there is no replicating portfolio for the security  $\mathcal{D}$  in the assets  $A^j$ , the vector  $\mathbf{f}$  is not a linear
@@ -361,25 +361,25 @@ where  $S_{t}^{j}(\omega_{i})$  denotes the share price of asset  $A^j$  at time
 combination of the vectors  $\mathbf{a}^j$ . Hence, the vectors  $\mathbf{a}^j$  do not span the vector space  $\mathbb{R}^N$ , and so there is a nonzero vector  $\mathbf{v} = (v(\omega_1), v(\omega_2), \ldots, v(\omega_N))$  that is orthogonal to every  $\mathbf{a}^j$ , that is,
 
 $$
-\sum_ {i = 1} ^ {N} v \left(\omega_ {i}\right) S _ {1} ^ {j} \left(\omega_ {i}\right) = 0 \quad \forall j = 1, 2, \dots , K. \tag {31}
+\sum_{i = 1}^{N} v \left(\omega_{i}\right) S_{1}^{j} \left(\omega_{i}\right) = 0 \quad \forall j = 1, 2, \dots , K. \tag {31}
 $$
 
 Recall that asset  $A^1$  is riskless, and so its value  $A_1^1(\omega_i) = e^r$  at time  $t = 1$  is the same in all market scenarios  $\omega_i$ . Thus, (31) implies that the vector  $\mathbf{v}$  is orthogonal to a scalar multiple  $e^r$  of the vector  $(1, 1, \ldots, 1)$ . It follows that
 
 $$
-(3 2) \qquad \qquad \qquad \sum_ {i = 1} ^ {N} v (\omega_ {i}) = 0.
+(3 2) \qquad \qquad \qquad \sum_{i = 1}^{N} v (\omega_{i}) = 0.
 $$
 
 Now let  $\varepsilon > 0$  be a very small number, and consider the assignment
 
 $$
-\pi^ {*} (\omega_ {i}) = \pi (\omega_ {i}) + \varepsilon v (\omega_ {i}). \tag {33}
+\pi^{*} (\omega_{i}) = \pi (\omega_{i}) + \varepsilon v (\omega_{i}). \tag {33}
 $$
 
 Since the sum of the values  $\pi (\omega_i)$  is 1, so is the sum of the values  $\pi^{*}(\omega_{i})$ , by (32). Moreover, if  $\varepsilon >0$  is sufficiently small, then  $\pi^{*}(\omega_{i}) > 0$  for each  $i$  because, by hypothesis, each  $\pi (\omega_i) > 0$ . Consequently,  $\pi^{*}$  is a probability distribution on the set  $\Omega$  of market scenarios  $\omega_{i}$ . Now by the orthogonality relation (31),
 
 $$
-(3 4) \qquad \qquad \sum_ {i = 1} ^ {N} \pi^ {*} (\omega_ {i}) S ^ {j} (\omega_ {i}) = \sum_ {i = 1} ^ {N} \pi (\omega_ {i}) S ^ {j} (\omega_ {i}) \qquad \forall j = 1, 2, \dots , K.
+(3 4) \qquad \qquad \sum_{i = 1}^{N} \pi^{*} (\omega_{i}) S^{j} (\omega_{i}) = \sum_{i = 1}^{N} \pi (\omega_{i}) S^{j} (\omega_{i}) \qquad \forall j = 1, 2, \dots , K.
 $$
 
 But this implies that  $\pi^{*}$  is another equilibrium measure! This is a contradiction, and so our hypothesis that there is a derivative security with no replicating portfolio must be false.
@@ -395,7 +395,7 @@ In the following problems, all markets are assumed to be arbitrage-free, and to 
 (a) Let  $S_0$  and  $S_1$  denote the price of the STOCK at the initial and terminal times. Note that  $S_1$  is subject to uncertainty, that is, it is a function of the market scenario. Let  $r$  be the rate of return on the riskless asset MONEYMARKET, so that  $S_0^B = 1$  and  $S_1^B = e^r$  are the initial and terminal values of one share of MONEYMARKET. Explain why, if  $F$  is the forward price of the stock, then
 
 $$
-E _ {Q} S _ {1} = F, \tag {35}
+E_{Q} S_{1} = F, \tag {35}
 $$
 
 where  $Q$  is any equilibrium (risk-neutral) measure.
@@ -437,15 +437,15 @@ HINT: Mimic the proof given in the lecture notes for the case of finite-scenario
 7. Consider a market with 3 traded assets  $A^1, A^2$ , and  $B$ , where  $B$  is riskless, with rate of return 0. Let
 
 $$
-\Omega = \left\{\left(a _ {1}, a _ {2}\right): a _ {1} > 0, a _ {2} > 0, \text {a n d} a _ {1} + a _ {2} > 1 \right\} \cup \{(0, 1) \};
+\Omega = \left\{\left(a_{1}, a_{2}\right): a_{1} > 0, a_{2} > 0, \text{an d} a_{1} + a_{2} > 1 \right\} \cup \{(0, 1) \};
 $$
 
 $$
-S _ {1} ^ {1} \left(\left(a _ {1}, a _ {2}\right) = a _ {1} \text {a n d} S _ {0} ^ {1} = 0; \right.
+S_{1}^{1} \left(\left(a_{1}, a_{2}\right) = a_{1} \text{an d} S_{0}^{1} = 0; \right.
 $$
 
 $$
-S _ {1} ^ {2} \left(\left(a _ {1}, a _ {2}\right)\right) = a _ {2} \text {a n d} S _ {0} ^ {2} = 2.
+S_{1}^{2} \left(\left(a_{1}, a_{2}\right)\right) = a_{2} \text{an d} S_{0}^{2} = 2.
 $$
 
 (a) Prove that  $\mathcal{E} = \Omega$  

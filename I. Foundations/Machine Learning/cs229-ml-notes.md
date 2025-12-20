@@ -637,7 +637,7 @@ If we compare this to the LMS update rule, we see that it looks identical; but t
 We now digress to talk briefly about an algorithm that's of some historical interest, and that we will also return to later when we talk about learning theory. Consider modifying the logistic regression method to "force" it to output values that are either 0 or 1 or exactly. To do so, it seems natural to change the definition of  $g$  to be the threshold function:
 
 $$
-g(z) = \left\{ \begin{array}{l l} 1 & \text{if} z \geq 0 \\ 0 & \text{if} z < 0 \end{array} \right. \tag {2.16}
+g(z) = \left\{ \begin{array}{l l} 1 & \text{if } z \geq 0 \\ 0 & \text{if } z < 0 \end{array} \right. \tag {2.16}
 $$
 
 If we then let  $h_{\theta}(x) = g(\theta^{\top}x)$  as before but using this modified definition of  $g$ , and if we use the update rule
@@ -1597,7 +1597,7 @@ Given a training set, it seems from our previous discussion that a natural desid
 For now, we will assume that we are given a training set that is linearly separable; i.e., that it is possible to separate the positive and negative examples using some separating hyperplane. How will we find the one that achieves the maximum geometric margin? We can pose the following optimizationproblem:
 
 $$
-\begin{array}{l} \max_{\gamma , w, b} \gamma \\ \begin{array}{r l} \text{s . t .} & y^{(i)}(w^{\top} x^{(i)} + b) \geq \gamma , i = 1, \dots , n \end{array} \\ \| w \| = 1. \\ \end{array}
+\begin{array}{l} \max_{\gamma , w, b} \gamma \\ \begin{array}{r l} \text{s .t .} & y^{(i)}(w^{\top} x^{(i)} + b) \geq \gamma , i = 1, \dots , n \end{array} \\ \| w \| = 1. \\ \end{array}
 $$
 
 I.e., we want to maximize  $\gamma$ , subject to each training example having functional margin at least  $\gamma$ . The  $\|w\| = 1$  constraint moreover ensures that the functional margin equals to the geometric margin, so we are also guaranteed that all the geometric margins are at least  $\gamma$ . Thus, solving this problem will result in  $(w, b)$  with the largest possible geometric margin with respect to the training set.
@@ -1605,7 +1605,7 @@ I.e., we want to maximize  $\gamma$ , subject to each training example having fu
 If we could solve the optimization problem above, we'd be done. But the  $\parallel w\parallel  = {1}^{\prime \prime }$  constraint is a nasty(non-convex) one,and this problem certainly isn't in any format that we can plug into standard optimization software to solve. So, let's try transforming the problem into a nicer one. Consider:
 
 $$
-\begin{array}{l} \max_{\hat {\gamma}, w, b} \frac{\hat {\gamma}}{\| w \|} \\ \begin{array}{l l} \text{s . t .} & y^{(i)}(w^{\top} x^{(i)} + b) \geq \hat {\gamma}, \quad i = 1, \dots , n \end{array} \\ \end{array}
+\begin{array}{l} \max_{\hat {\gamma}, w, b} \frac{\hat {\gamma}}{\| w \|} \\ \begin{array}{l l} \text{s .t .} & y^{(i)}(w^{\top} x^{(i)} + b) \geq \hat {\gamma}, \quad i = 1, \dots , n \end{array} \\ \end{array}
 $$
 
 Here, we're going to maximize  $\hat{\gamma} / \| w \|$ , subject to the functional margins all being at least  $\hat{\gamma}$ . Since the geometric and functional margins are related by  $\gamma = \hat{\gamma} / \| w \|$ , this will give us the answer we want. Moreover, we've gotten rid of the constraint  $\| w \| = 1$  that we didn't like. The downside is that we now have a nasty(again, non-convex) objective  $\frac{\hat{\gamma}}{\| w \|}$  function; and, we still don't have any off-the-shelf software that can solve this form of an optimization problem.
@@ -1619,7 +1619,7 @@ $$
 Since multiplying  $w$  and  $b$  by some constant results in the functional margin being multiplied by that same constant, this is indeed a scaling constraint, and can be satisfied by rescaling  $w, b$ . Plugging this into our problem above, and noting that maximizing  $\hat{\gamma} / \| w \| = 1 / \| w \|$  is the same thing as minimizing  $\| w \|^{2}$ , we now have the following optimization problem:
 
 $$
-\begin{array}{l} \min_{w, b} \frac{1}{2} \| w \| ^{2} \\ \begin{array}{l l} \text{s . t .} & y^{(i)}(w^{\top} x^{(i)} + b) \geq 1, \quad i = 1, \dots , n \end{array} \\ \end{array}
+\begin{array}{l} \min_{w, b} \frac{1}{2} \| w \| ^{2} \\ \begin{array}{l l} \text{s .t .} & y^{(i)}(w^{\top} x^{(i)} + b) \geq 1, \quad i = 1, \dots , n \end{array} \\ \end{array}
 $$
 
 We've now transformed the problem into a form that can be efficiently solved. The above is an optimization problem with a convex quadratic objective and only linear constraints. Its solution gives us the optimal margin classifier. This optimization problem can be solved using commercial quadratic programming(QP) code.<sup>1</sup>
@@ -1631,7 +1631,7 @@ While we could call the problem solved here, what we will instead do is make a d
 Let's temporarily put aside SVMs and maximum margin classifiers, and talk about solving constrained optimization problems. Consider a problem of the following form:
 
 $$
-\begin{array}{l} \min_{w} f(w) \\ \begin{array}{l l} \text{s . t .} & h_{i}(w) = 0, \quad i = 1, \ldots , l. \end{array} \\ \end{array}
+\begin{array}{l} \min_{w} f(w) \\ \begin{array}{l l} \text{s .t .} & h_{i}(w) = 0, \quad i = 1, \ldots , l. \end{array} \\ \end{array}
 $$
 
 You may be familiar with linear programming, which solves optimization problems that have linear objectives and linear constraints. QP software is also widely available, which allows convex quadratic objectives and linear constraints.
@@ -1655,7 +1655,7 @@ In this section, we will generalize this to constrained optimization problems in
 Consider the following, which we'll call the primal optimization problem:
 
 $$
-\begin{array}{l} \min_{w} f(w) \\ \begin{array}{l l} \text{s . t .} & g_{i}(w) \leq 0, \quad i = 1, \dots , k \end{array} \\ h_{i}(w) = 0, \quad i = 1, \ldots , l. \\ \end{array}
+\begin{array}{l} \min_{w} f(w) \\ \begin{array}{l l} \text{s .t .} & g_{i}(w) \leq 0, \quad i = 1, \dots , k \end{array} \\ h_{i}(w) = 0, \quad i = 1, \ldots , l. \\ \end{array}
 $$
 
 To solve it, we start by defining the generalized Lagrangian
@@ -1859,7 +1859,7 @@ The derivation of the SVM as presented so far assumed that the data is linearly 
 To make the algorithm work for non-linearly separable datasets as well as be less sensitive to outliers, we reformulate our optimization(using  $\ell_1$  regularization) as follows:
 
 $$
-\begin{array}{l} \min_{\gamma , w, b} \frac{1}{2} \| w \| ^{2} + C \sum_{i =1}^{n} \xi_{i} \\ \text{s . t .} \quad y^{(i)} \left(w^{\top} x^{(i)} + b\right) \geq 1 - \xi_{i}, \quad i = 1, \dots , n \\ \xi_{i} \geq 0, \quad i = 1, \dots , n. \\ \end{array}
+\begin{array}{l} \min_{\gamma , w, b} \frac{1}{2} \| w \| ^{2} + C \sum_{i =1}^{n} \xi_{i} \\ \text{s .t .} \quad y^{(i)} \left(w^{\top} x^{(i)} + b\right) \geq 1 - \xi_{i}, \quad i = 1, \dots , n \\ \xi_{i} \geq 0, \quad i = 1, \dots , n. \\ \end{array}
 $$
 
 Thus, examples are now permitted to have(functional) margin less than 1, and if an example has functional margin  $1 - \xi_{i}$  (with  $\xi > 0$ ), we would pay a cost of the objective function being increased by  $C\xi_{i}$ . The parameter  $C$  controls the relative weighting between the twin goals of making the  $\| w\|^2$  small(which we saw earlier makes the margin large) and of ensuring that most examples have functional margin at least 1.
@@ -1941,7 +1941,7 @@ $$
 $$
 
 $$
-\mathrm{s . t .} \quad 0 \leq \alpha_{i} \leq C, \quad i = 1, \dots , n \tag {7.21}
+\mathrm{s .t .} \quad 0 \leq \alpha_{i} \leq C, \quad i = 1, \dots , n \tag {7.21}
 $$
 
 $$
@@ -2008,7 +2008,7 @@ $$
 Treating  $\alpha_{3},\ldots ,\alpha_{n}$  as constants, you should be able to verify that this is just some quadratic function in  $\alpha_{2}$ . I.e., this can also be expressed in the form  $a\alpha_{2}^{2} + b\alpha_{2} + c$  for some appropriate  $a,b$ , and  $c$ . If we ignore the "box" constraints 7.21 (or, equivalently, that  $L\leq \alpha_{2}\leq H$ ), then we can easily maximize this quadratic function by setting its derivative to zero and solving. We'll let  $\alpha_{2}^{\mathrm{new,unclipped}}$  denote the resulting value of  $\alpha_{2}$ . You should also be able to convince yourself that if we had instead wanted to maximize  $W$  with respect to  $\alpha_{2}$  but subject to the box constraint, then we can find the resulting value optimal simply by taking  $\alpha_{2}^{\mathrm{new,unclipped}}$  and "clipping" it to lie in the  $[L,H]$  interval, to get
 
 $$
-\alpha_{2}^{\text{new}} = \left\{ \begin{array}{l l} H & \text{if} \alpha_{2}^{\text{new , unclipped}} > H \\ \alpha_{2}^{\text{new , unclipped}} & \text{if} L \leq \alpha_{2}^{\text{new , unclipped}} \leq H \\ L & \text{if} \alpha_{2}^{\text{new , unclipped}} <   L \end{array} \right.
+\alpha_{2}^{\text{new}} = \left\{ \begin{array}{l l} H & \text{if } \alpha_{2}^{\text{new ,unclipped}} > H \\ \alpha_{2}^{\text{new ,unclipped}} & \text{if } L \leq \alpha_{2}^{\text{new ,unclipped}} \leq H \\ L & \text{if } \alpha_{2}^{\text{new ,unclipped}} <   L \end{array} \right.
 $$
 
 Finally, having found the  $\alpha_{2}^{\mathrm{new}}$ , we can use section 7.9 to go back and find the optimal value of  $\alpha_{1}^{\mathrm{new}}$ .
@@ -2444,7 +2444,7 @@ Vectorization and abstraction. The computation above can be summarized into:
 Claim 2. Suppose the real-valued output variable  $J$  and vectors  $z, a \in \mathbb{R}^m$  satisfy the following:
 
 $$
-a = \sigma(z) \quad(\text{where} \sigma \text{isanelement - wiseactivation}, z, a \in \mathbb {R}^{m})
+a = \sigma(z) \quad(\text{where} \sigma \text{isanelement -wiseactivation}, z, a \in \mathbb {R}^{m})
 $$
 
 $$
@@ -2496,7 +2496,7 @@ Compute the values of  $z \in \mathbb{R}^m, a \in \mathbb{R}^m$ , and  $o \in \m
 Compute:
 
 $$
-\begin{array}{l} \delta^{[ 2 ]} \triangleq \frac{\partial J}{\partial o} = (o - y) \in \mathbb {R} \\ \delta^{[ 1 ]} \triangleq \frac{\partial J}{\partial z} = \left(W^{[ 2 ]^{\top}}(o - y)\right) \odot \mathbb {1} \{z \geq 0 \} \in \mathbb {R}^{m \times 1} \quad(\text{byclaim2and10 . 10}) \\ \end{array}
+\begin{array}{l} \delta^{[ 2 ]} \triangleq \frac{\partial J}{\partial o} = (o - y) \in \mathbb {R} \\ \delta^{[ 1 ]} \triangleq \frac{\partial J}{\partial z} = \left(W^{[ 2 ]^{\top}}(o - y)\right) \odot \mathbb {1} \{z \geq 0 \} \in \mathbb {R}^{m \times 1} \quad(\text{byclaim2and10 .10}) \\ \end{array}
 $$
 
 Compute:
@@ -2843,13 +2843,13 @@ Now, condition on the points we draw, namely  $X$ . Then, recall that randomness
 Recall a fact about the multivariate normal distribution:
 
 $$
-\text{if} y \sim N(\mu , \Sigma) \text{then} A y \sim \mathcal {N} \left(A \mu , A \Sigma A^{\top}\right) \tag {15.6}
+\text{if } y \sim N(\mu , \Sigma) \text{then} A y \sim \mathcal {N} \left(A \mu , A \Sigma A^{\top}\right) \tag {15.6}
 $$
 
 Using linearity, we can verify that the expectation of  $\hat{\theta}$  is:
 
 $$
-\begin{array}{l} \mathbb {E} [ \hat {\theta} ] = \mathbb {E} \left[ \left(X^{\top} X + \lambda I\right)^{- 1} X^{\top} y \right] (15.7) \\ = \mathbb {E} \left[ \left(X^{\top} X + \lambda I\right)^{- 1} X^{\top} \left(X \theta^{*} + \mathcal {N} \left(0, \tau^{2} I\right)\right) \right] (15.8) \\ = \mathbb {E} \left[ \left(X^{\top} X + \lambda I\right)^{- 1} X^{\top} \left(X \theta^{*}\right) \right] (15.9) \\ = \left(X^{\top} X + \lambda I\right)^{- 1} \left(X^{\top} X\right) \theta^{*} \quad \text{(essentiallya “ shrunk ”} \theta^{*}) \\ \end{array}
+\begin{array}{l} \mathbb {E} [ \hat {\theta} ] = \mathbb {E} \left[ \left(X^{\top} X + \lambda I\right)^{- 1} X^{\top} y \right] (15.7) \\ = \mathbb {E} \left[ \left(X^{\top} X + \lambda I\right)^{- 1} X^{\top} \left(X \theta^{*} + \mathcal {N} \left(0, \tau^{2} I\right)\right) \right] (15.8) \\ = \mathbb {E} \left[ \left(X^{\top} X + \lambda I\right)^{- 1} X^{\top} \left(X \theta^{*}\right) \right] (15.9) \\ = \left(X^{\top} X + \lambda I\right)^{- 1} \left(X^{\top} X\right) \theta^{*} \quad \text{(essentiallya “shrunk ”} \theta^{*}) \\ \end{array}
 $$
 
 The last line above suggests that the more regularization we add(larger the  $\lambda$ ), the more the estimated  $\hat{\theta}$  will be shrunk towards 0. In other words, regularization adds bias(towards zero in this case). Though we paid the cost of higher bias, we gain by reducing the variance of  $\hat{\theta}$ . To see this bias-variance tradeoff concretely, observe the covariance matrix of  $\hat{\theta}$ :
@@ -3653,15 +3653,15 @@ $$
 Next, to find  $\Sigma$ , we need to calculate:
 
 $$
-\Sigma_{z z} = \mathbb {E} \left[ (z - \mathbb {E} [ z ]) (z - \mathbb {E} [ z ])^{\top} \right] \quad(\text{theupper - leftblockof} \Sigma)
+\Sigma_{z z} = \mathbb {E} \left[ (z - \mathbb {E} [ z ]) (z - \mathbb {E} [ z ])^{\top} \right] \quad(\text{theupper -leftblockof} \Sigma)
 $$
 
 $$
-\Sigma_{z x} = \mathbb {E} \left[ (z - \mathbb {E} [ z ]) (x - \mathbb {E} [ x ])^{\top} \right] \quad(\text{upper - rightblock})
+\Sigma_{z x} = \mathbb {E} \left[ (z - \mathbb {E} [ z ]) (x - \mathbb {E} [ x ])^{\top} \right] \quad(\text{upper -rightblock})
 $$
 
 $$
-\Sigma_{x x} = \mathbb {E} \left[ (x - \mathbb {E} [ x ]) (x - \mathbb {E} [ x ])^{\top} \right] \quad(\text{lower - rightblock})
+\Sigma_{x x} = \mathbb {E} \left[ (x - \mathbb {E} [ x ]) (x - \mathbb {E} [ x ])^{\top} \right] \quad(\text{lower -rightblock})
 $$
 
 Now, since  $z \sim \mathcal{N}(0, I)$ , we easily find that  $\Sigma_{zz} = \operatorname{Cov}(z) = I$ . Also,
@@ -4479,7 +4479,7 @@ The first condition is exactly the condition that  $x$  be a critical point in t
 Generalizing to Nonlinear Equality Constraints. Lagrange multipliers are a much more general technique. If you want to handle non-linear equality constraints, then you will need a little extra machinery: the implicit function theorem. However, the key idea is that you find the space of solutions and you optimize. In that case, finding the critical points of
 
 $$
-f(x) \text{s . t .} g(x) = c \text{leadsto} \mathcal {L}(x, \mu) = f(x) + \mu^{\top}(g(x) - c).
+f(x) \text{s .t .} g(x) = c \text{leadsto} \mathcal {L}(x, \mu) = f(x) + \mu^{\top}(g(x) - c).
 $$
 
 The gradient condition here is  $\nabla f(x) + J^{\top}\mu = 0$ , where  $J$  is the Jacobian matrix of  $g$ . For the case where we have a single constraint, the gradient condition reduces to  $\nabla f(x) = -\mu_1\nabla_{g_1}(x)$ , which we can view as saying, "at a critical point, the gradient of the surface must be parallel to the gradient of the function." This connects us back to the picture that we drew during lecture.
@@ -4674,7 +4674,7 @@ One of the major advantages of boosting algorithms is that they automatically ge
 There are a number of strategies for weak learners, and here we focus on one, known as decision stumps. For concreteness in this description, let us suppose that the input variables  $x \in \mathbb{R}^n$  are real-valued. A decision stump is a function  $f$ , which is parameterized by a threshold  $s$  and index  $j \in 1,2,\ldots,n$ , and returns
 
 $$
-\phi_{j, s}(x) = \operatorname{sign} \left(x_{j} - s\right) = \left\{ \begin{array}{l l} 1 & \text{if} x_{j} \geq s \\ - 1 & \text{otherwise .} \end{array} \right. \tag {B.2}
+\phi_{j, s}(x) = \operatorname{sign} \left(x_{j} - s\right) = \left\{ \begin{array}{l l} 1 & \text{if } x_{j} \geq s \\ - 1 & \text{otherwise .} \end{array} \right. \tag {B.2}
 $$
 
 These classifiers are simple enough that we can fit them efficiently even to a weighted dataset, as we now describe.
@@ -4712,7 +4712,7 @@ $$
 There are a huge number of variations on the basic boosted decision stumps idea. First, we do not require that the input features  $x_{j}$  be real-valued. Some of them may be categorical, meaning that  $x_{j} \in \{1,2,\ldots,k\}$  for some  $k$ , in which case natural decision stumps are of the form
 
 $$
-\phi_{j}(x) = \left\{ \begin{array}{l l} 1 & \text{if} x_{j} = l \\ - 1 & \text{otherwise .} \end{array} \right.
+\phi_{j}(x) = \left\{ \begin{array}{l l} 1 & \text{if } x_{j} = l \\ - 1 & \text{otherwise .} \end{array} \right.
 $$
 
 as well as variants setting  $\phi_j(x) = 1$  if  $x_j \in C$  for some set  $C \subset \{1, \ldots, k\}$  of categories.
@@ -4722,7 +4722,7 @@ Another natural variation is the boosted decision tree, in which instead of a si
 We now give an example showing the behavior of boosting on a simple dataset. In particular, we consider a problem with data points  $x \in \mathbb{R}^2$ , where the optimal classifier is
 
 $$
-y = \left\{ \begin{array}{l l} 1 & \text{if} x_{1} < 0. 6 \text{and} x_{2} < 0. 6 \\ - 1 & \text{otherwise .} \end{array} \right. \tag {B.4}
+y = \left\{ \begin{array}{l l} 1 & \text{if } x_{1} < 0. 6 \text{and} x_{2} < 0. 6 \\ - 1 & \text{otherwise .} \end{array} \right. \tag {B.4}
 $$
 
 This is a simple non-linear decision rule, but it is impossible for standard linear classifiers, such as logistic regression, to learn. In ??, we show the best decision line that logistic regression learns, where positive examples are circles and negative examples are x's. It is clear that logistic regression is not fitting the data particularly well.

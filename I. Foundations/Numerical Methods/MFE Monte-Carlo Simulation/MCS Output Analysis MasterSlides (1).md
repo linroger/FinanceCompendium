@@ -38,13 +38,13 @@ Recall our simulation framework for estimating  $\theta \coloneqq \mathbb{E}[h(\
 We first simulate  $\mathbf{X}_1, \ldots, \mathbf{X}_n$  IID and then set
 
 $$
-\widehat {\theta} _ {n} = \frac {h \left(\mathbf {X} _ {1}\right) + \ldots + h \left(\mathbf {X} _ {n}\right)}{n}.
+\widehat {\theta}_{n} = \frac{h \left(\mathbf {X}_{1}\right) + \ldots + h \left(\mathbf {X}_{n}\right)}{n}.
 $$
 
 The Strong Law of Large Numbers (SLLN) implies
 
 $$
-\widehat {\theta} _ {n} \rightarrow \theta \quad \text {a s} n \rightarrow \infty \mathrm {w . p .} 1.
+\widehat {\theta}_{n} \rightarrow \theta \quad \text{as} n \rightarrow \infty \mathrm{w .p .} 1.
 $$
 
 But how large  $n$  should be so that we can have confidence in our estimator,  $\hat{\theta}_n$ ?
@@ -80,7 +80,7 @@ $Y_{i}$  's are assumed IID so  $\mathsf{Var}(\widehat{\theta}_n) = \sigma^2 /n$
 Indeed Chebyshev's Inequality states that for any  $k > 0$  we have
 
 $$
-P \left(\left| \widehat {\theta} _ {n} - \theta \right| \geq k\right) \leq \frac {\operatorname {V a r} \left(\widehat {\theta} _ {n}\right)}{k ^ {2}}. \tag {1}
+P \left(\left| \widehat {\theta}_{n} - \theta \right| \geq k\right) \leq \frac{\operatorname{Va r} \left(\widehat {\theta}_{n}\right)}{k^{2}}. \tag {1}
 $$
 
 Could easily use Chebyshev's Inequality to construct (how?) confidence intervals for  $\theta$  but it is generally very conservative.
@@ -98,7 +98,7 @@ Instead, will use the Central Limit Theorem (CLT) to obtain better estimates of 
 Suppose  $Y_{1},\ldots ,Y_{n}$  are IID and  $\mathbb{E}[Y_i^2 ] <   \infty$  . Then
 
 $$
-\frac {\widehat {\theta} _ {n} - \theta}{\sigma / \sqrt {n}} \xrightarrow {d} \mathsf {N} (0, 1) \text {a s} n \to \infty
+\frac{\widehat {\theta}_{n} - \theta}{\sigma / \sqrt{n}} \xrightarrow {d} \mathsf {N} (0, 1) \text{as} n \to \infty
 $$
 
 where  $\widehat{\theta}_n = \sum_{i=1}^n Y_i / n$ ,  $\theta := \mathbb{E}[Y_i]$  and  $\sigma^2 := \operatorname{Var}(Y_i)$ .
@@ -108,7 +108,7 @@ where  $\widehat{\theta}_n = \sum_{i=1}^n Y_i / n$ ,  $\theta := \mathbb{E}[Y_i]
 Let  $z_{1 - \alpha /2}$  be the the  $(1 - \alpha /2)$  percentile point of the  $N(0,1)$  distribution so that
 
 $$
-P (- z _ {1 - \alpha / 2} \leq Z \leq z _ {1 - \alpha / 2}) = 1 - \alpha
+P (- z_{1 - \alpha / 2} \leq Z \leq z_{1 - \alpha / 2}) = 1 - \alpha
 $$
 
 when  $Z\sim \mathsf{N}(0,1)$
@@ -128,13 +128,13 @@ The CLT implies  $\sqrt{n}\left(\widehat{\theta}_n - \theta\right) / \sigma$  is
 Therefore have
 
 $$
-\begin{array}{l} P \left(- z _ {1 - \alpha / 2} \leq \frac {\sqrt {n} (\widehat {\theta_ {n}} - \theta)}{\sigma} \leq z _ {1 - \alpha / 2}\right) \approx 1 - \alpha \\ \Rightarrow P \left(- z _ {1 - \alpha / 2} \frac {\sigma}{\sqrt {n}} \leq \widehat {\theta} _ {n} - \theta \leq z _ {1 - \alpha / 2} \frac {\sigma}{\sqrt {n}}\right) \approx 1 - \alpha \\ \Rightarrow P \left(\widehat {\theta} _ {n} - z _ {1 - \alpha / 2} \frac {\sigma}{\sqrt {n}} \leq \theta \leq \widehat {\theta} _ {n} + z _ {1 - \alpha / 2} \frac {\sigma}{\sqrt {n}}\right) \approx 1 - \alpha . \\ \end{array}
+\begin{array}{l} P \left(- z_{1 - \alpha / 2} \leq \frac{\sqrt{n} (\widehat {\theta_{n}} - \theta)}{\sigma} \leq z_{1 - \alpha / 2}\right) \approx 1 - \alpha \\ \Rightarrow P \left(- z_{1 - \alpha / 2} \frac{\sigma}{\sqrt{n}} \leq \widehat {\theta}_{n} - \theta \leq z_{1 - \alpha / 2} \frac{\sigma}{\sqrt{n}}\right) \approx 1 - \alpha \\ \Rightarrow P \left(\widehat {\theta}_{n} - z_{1 - \alpha / 2} \frac{\sigma}{\sqrt{n}} \leq \theta \leq \widehat {\theta}_{n} + z_{1 - \alpha / 2} \frac{\sigma}{\sqrt{n}}\right) \approx 1 - \alpha . \\ \end{array}
 $$
 
 Our approximate  $100(1 - \alpha)\%$  CI for  $\theta$  is therefore given by
 
 $$
-[ L (\mathbf {Y}), U (\mathbf {Y}) ] = \left[ \widehat {\theta} _ {n} - z _ {1 - \alpha / 2} \frac {\sigma}{\sqrt {n}}, \widehat {\theta} _ {n} + z _ {1 - \alpha / 2} \frac {\sigma}{\sqrt {n}} \right]. \tag {2}
+[ L (\mathbf {Y}), U (\mathbf {Y}) ] = \left[ \widehat {\theta}_{n} - z_{1 - \alpha / 2} \frac{\sigma}{\sqrt{n}}, \widehat {\theta}_{n} + z_{1 - \alpha / 2} \frac{\sigma}{\sqrt{n}} \right]. \tag {2}
 $$
 
 Recall that  $\widehat{\theta}_n = (Y_1 + \ldots + Y_n) / n$ , so  $L$  and  $U$  are indeed functions of  $\mathbf{Y}$ .
@@ -144,7 +144,7 @@ Recall that  $\widehat{\theta}_n = (Y_1 + \ldots + Y_n) / n$ , so  $L$  and  $U$
 There is still a problem, however, as we do not usually know  $\sigma^2$ . We resolve this issue by estimating  $\sigma^2$  with
 
 $$
-\hat {\sigma} _ {n} ^ {2} = \frac {\sum_ {i = 1} ^ {n} (Y _ {i} - \hat {\theta} _ {n}) ^ {2}}{n - 1}.
+\hat {\sigma}_{n}^{2} = \frac{\sum_{i = 1}^{n} (Y_{i} - \hat {\theta}_{n})^{2}}{n - 1}.
 $$
 
 Easy to show that  $\hat{\sigma}_n^2$  is an unbiased estimator of  $\sigma^2$  and that  $\hat{\sigma}_n^2 \to \sigma^2$  w.p. 1 as  $n \to \infty$ .
@@ -152,7 +152,7 @@ Easy to show that  $\hat{\sigma}_n^2$  is an unbiased estimator of  $\sigma^2$  
 So now replace  $\sigma$  with  $\hat{\sigma}_n$  in (2) to obtain
 
 $$
-[ L (\mathbf {Y}), U (\mathbf {Y}) ] = \left[ \widehat {\theta} _ {n} - z _ {1 - \alpha / 2} \frac {\widehat {\sigma} _ {n}}{\sqrt {n}}, \widehat {\theta} _ {n} + z _ {1 - \alpha / 2} \frac {\widehat {\sigma} _ {n}}{\sqrt {n}} \right] \tag {3}
+[ L (\mathbf {Y}), U (\mathbf {Y}) ] = \left[ \widehat {\theta}_{n} - z_{1 - \alpha / 2} \frac{\widehat {\sigma}_{n}}{\sqrt{n}}, \widehat {\theta}_{n} + z_{1 - \alpha / 2} \frac{\widehat {\sigma}_{n}}{\sqrt{n}} \right] \tag {3}
 $$
 
 as our approximate  $100(1 - \alpha)\%$  CI for  $\theta$  when  $n$  is "large".
@@ -168,7 +168,7 @@ Instead, say that we are  $100(1 - \alpha)\%$  confident that  $[L(\mathbf{y}), 
 The width of the confidence interval is given by
 
 $$
-U - L = \frac {2 \hat {\sigma} _ {n} z _ {1 - \alpha / 2}}{\sqrt {n}}
+U - L = \frac{2 \hat {\sigma}_{n} z_{1 - \alpha / 2}}{\sqrt{n}}
 $$
 
 and so the half-width is  $(U - L) / 2$ .
@@ -201,25 +201,25 @@ Goal then is to choose  $n$  so that error criterion is (approximately satisfied
 Suppose (for example) we want to control absolute error,  $E_{a}$ . Then
 
 $$
-P \left(\hat {\theta} _ {n} - z _ {1 - \alpha / 2} \frac {\sigma}{\sqrt {n}} \leq \theta \leq \hat {\theta} _ {n} + z _ {1 - \alpha / 2} \frac {\sigma}{\sqrt {n}}\right) \approx 1 - \alpha .
+P \left(\hat {\theta}_{n} - z_{1 - \alpha / 2} \frac{\sigma}{\sqrt{n}} \leq \theta \leq \hat {\theta}_{n} + z_{1 - \alpha / 2} \frac{\sigma}{\sqrt{n}}\right) \approx 1 - \alpha .
 $$
 
 Therefore  $P\left(|\widehat{\theta}_n - \theta |\leq z_{1 - \alpha /2}\frac{\sigma}{\sqrt{n}}\right)\approx 1 - \alpha$  , i.e.
 
 $$
-P \left(E _ {a} \leq z _ {1 - \alpha / 2} \frac {\sigma}{\sqrt {n}}\right) \approx 1 - \alpha .
+P \left(E_{a} \leq z_{1 - \alpha / 2} \frac{\sigma}{\sqrt{n}}\right) \approx 1 - \alpha .
 $$
 
 If we then want  $P(E_{a} \leq \epsilon) \approx 1 - \alpha$ , then clearly suffices to choose  $n$  such that
 
 $$
-n = \sigma^ {2} z _ {1 - \alpha / 2} ^ {2} / \epsilon^ {2}.
+n = \sigma^{2} z_{1 - \alpha / 2}^{2} / \epsilon^{2}.
 $$
 
 Similar argument implies that  $P(E_r \leq \epsilon) \approx 1 - \alpha$  if
 
 $$
-n = \sigma^ {2} z _ {1 - \alpha / 2} ^ {2} / \theta^ {2} \epsilon^ {2}.
+n = \sigma^{2} z_{1 - \alpha / 2}^{2} / \theta^{2} \epsilon^{2}.
 $$
 
 # Run-Length Control
@@ -238,7 +238,7 @@ There are two methods we can use to overcome this problem: the two-stage method 
 Can view output analysis problem as one of estimating
 
 $$
-\operatorname {M S E} (F) := \mathbb {E} _ {F} \left[ \left(g \left(Y _ {1}, \dots , Y _ {n}\right) - \theta (F)\right) ^ {2} \right] \tag {4}
+\operatorname{MS E} (F) := \mathbb {E}_{F} \left[ \left(g \left(Y_{1}, \dots , Y_{n}\right) - \theta (F)\right)^{2} \right] \tag {4}
 $$
 
 where  $\theta (F) = \mathbb{E}_F[X]$ ,  $g(Y_{1},\ldots ,Y_{n})\coloneqq \bar{Y}$  and  $F$  denotes the CDF of  $Y$ .
@@ -260,7 +260,7 @@ To begin, recall the empirical distribution,  $F_{e}$ , is the CDF that places a
 The empirical CDF therefore satisfies
 
 $$
-F _ {e} (y) = \frac {\sum_ {i = 1} ^ {n} 1 _ {\{Y _ {i} \leq y \}}}{n}.
+F_{e} (y) = \frac{\sum_{i = 1}^{n} 1_{\{Y_{i} \leq y \}}}{n}.
 $$
 
 For large  $n$  can be shown (and should be intuitively clear) that  $F_{e}$  should be a good approximation to  $F$ .
@@ -268,7 +268,7 @@ For large  $n$  can be shown (and should be intuitively clear) that  $F_{e}$  sh
 Therefore, if  $\theta$  sufficiently well-behaved function of  $F$ , then for sufficiently large  $n$  should have
 
 $$
-\operatorname {M S E} (F) \approx \operatorname {M S E} \left(F _ {e}\right) = \mathbb {E} _ {F _ {e}} \left[ \left(g \left(Y _ {1}, \dots , Y _ {n}\right) - \theta \left(F _ {e}\right)\right) ^ {2} \right]. \tag {5}
+\operatorname{MS E} (F) \approx \operatorname{MS E} \left(F_{e}\right) = \mathbb {E}_{F_{e}} \left[ \left(g \left(Y_{1}, \dots , Y_{n}\right) - \theta \left(F_{e}\right)\right)^{2} \right]. \tag {5}
 $$
 
 $\operatorname{MSE}(F_e)$  is known as the bootstrap approximation to  $\operatorname{MSE}(F)$ .
@@ -286,13 +286,13 @@ As noted above, the bootstrap is not necessary in this case as we can apply the 
 Equivalently, we can estimate the MSE,  $\mathbb{E}\left[\left(\bar{Y} -\theta\right)^2\right] = \sigma^2 /n$  , with
 
 $$
-\hat {\sigma} _ {n} ^ {2} / n = \sum_ {i = 1} ^ {n} (y _ {i} - \bar {y}) ^ {2} / (n (n - 1)).
+\hat {\sigma}_{n}^{2} / n = \sum_{i = 1}^{n} (y_{i} - \bar {y})^{2} / (n (n - 1)).
 $$
 
 Let  $\bar{y}$  denote mean of simulated data-points  $y_{1},\ldots ,y_{n}$ . Bootstrap estimator then given by
 
 $$
-\begin{array}{l} {\sf M S E} (F _ {e}) = {\mathbb {E}} _ {F _ {e}} \left[ \left(\frac {\sum_ {i = 1} ^ {n} Y _ {i}}{n} - \bar {y}\right) ^ {2} \right] \\ = \operatorname {V a r} _ {F _ {e}} \left(\frac {\sum_ {i = 1} ^ {n} Y _ {i}}{n}\right) (6) \\ = \frac {\operatorname {V a r} _ {F _ {e}} (Y)}{n} (7) \\ = \frac {\sum_ {i = 1} ^ {n} (y _ {i} - \bar {y}) ^ {2}}{n ^ {2}}. \\ \end{array}
+\begin{array}{l} {\sf M S E} (F_{e}) = {\mathbb {E}}_{F_{e}} \left[ \left(\frac{\sum_{i = 1}^{n} Y_{i}}{n} - \bar {y}\right)^{2} \right] \\ = \operatorname{Va r}_{F_{e}} \left(\frac{\sum_{i = 1}^{n} Y_{i}}{n}\right) (6) \\ = \frac{\operatorname{Va r}_{F_{e}} (Y)}{n} (7) \\ = \frac{\sum_{i = 1}^{n} (y_{i} - \bar {y})^{2}}{n^{2}}. \\ \end{array}
 $$
 
 # The Bootstrap Algorithm
@@ -328,13 +328,13 @@ Let  $\theta$  and  $1 - \theta$  be fractions of our wealth invested in  $X$  a
 Goal is to choose  $\theta$  to minimize the total variance
 
 $$
-\operatorname {V a r} \left(\theta R _ {x} + (1 - \theta) R _ {z}\right).
+\operatorname{Va r} \left(\theta R_{x} + (1 - \theta) R_{z}\right).
 $$
 
 Easy to see the minimizing  $\theta$  satisfies
 
 $$
-\theta = \frac {\sigma_ {z} ^ {2} - \sigma_ {x z}}{\sigma_ {x} ^ {2} + \sigma_ {z} ^ {2} - 2 \sigma_ {x z}}. \tag {8}
+\theta = \frac{\sigma_{z}^{2} - \sigma_{x z}}{\sigma_{x}^{2} + \sigma_{z}^{2} - 2 \sigma_{x z}}. \tag {8}
 $$
 
 In practice have to estimate  $\sigma_z^2$ ,  $\sigma_x^2$  and  $\sigma_{xz}$  from historical return data  $Y_{1},\ldots ,Y_{n}$  with  $Y_{i}:= \left(R_{x}^{(i)},R_{z}^{(i)}\right)$  the joint return in period  $i$ .
@@ -342,7 +342,7 @@ In practice have to estimate  $\sigma_z^2$ ,  $\sigma_x^2$  and  $\sigma_{xz}$  
 Therefore obtain
 
 $$
-\hat {\theta} = \frac {\hat {\sigma} _ {z} ^ {2} - \hat {\sigma} _ {x z}}{\hat {\sigma} _ {x} ^ {2} + \hat {\sigma} _ {z} ^ {2} - 2 \hat {\sigma} _ {x z}}. \tag {9}
+\hat {\theta} = \frac{\hat {\sigma}_{z}^{2} - \hat {\sigma}_{x z}}{\hat {\sigma}_{x}^{2} + \hat {\sigma}_{z}^{2} - 2 \hat {\sigma}_{x z}}. \tag {9}
 $$
 
 as our estimator.
@@ -366,13 +366,13 @@ Let  $q_{l}$  and  $q_{u}$  be the  $\alpha / 2$  lowerand upper-sample quantile
 Fraction of bootstrap samples satisfying
 
 $$
-q _ {l} \leq \hat {\theta} ^ {b} \leq q _ {u} \tag {10}
+q_{l} \leq \hat {\theta}^{b} \leq q_{u} \tag {10}
 $$
 
 is  $1 - \alpha$ . But (10) is equivalent to
 
 $$
-\hat {\theta} - q _ {u} \leq \hat {\theta} - \hat {\theta} ^ {b} \leq \hat {\theta} - q _ {l} \tag {11}
+\hat {\theta} - q_{u} \leq \hat {\theta} - \hat {\theta}^{b} \leq \hat {\theta} - q_{l} \tag {11}
 $$
 
 where  $\hat{\theta} = g(y_1, \ldots, y_n)$  is our estimate of  $\theta$  computed using original data-set.
@@ -388,7 +388,7 @@ The basic bootstrap assumes they are also the quantiles for  $\theta -\hat{\thet
 Therefore follows that
 
 $$
-\hat {\theta} - q _ {u} \leq \theta - \hat {\theta} \leq \hat {\theta} - q _ {l} \tag {12}
+\hat {\theta} - q_{u} \leq \theta - \hat {\theta} \leq \hat {\theta} - q_{l} \tag {12}
 $$
 
 will occur in approximately in a fraction  $1 - \alpha$  of samples.
@@ -396,5 +396,5 @@ will occur in approximately in a fraction  $1 - \alpha$  of samples.
 Adding  $\hat{\theta}$  across (12) yields an approximate  $(1 - \alpha)\%$  CI for  $\theta$  of
 
 $$
-\left(2 \hat {\theta} - q _ {u}, 2 \hat {\theta} - q _ {l}\right).
+\left(2 \hat {\theta} - q_{u}, 2 \hat {\theta} - q_{l}\right).
 $$

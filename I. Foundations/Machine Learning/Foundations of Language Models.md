@@ -195,7 +195,7 @@ $$
 \begin{array}{l} \operatorname * {P r}_{\omega , \hat {\theta}} (\cdot | \mathbf {x}) = \operatorname{Classify}_{\omega} (\mathbf {H}) \\ = \operatorname{Classify}_{\omega} \left(\operatorname{Encode}_{\hat {\theta}} (\mathbf {x})\right) \tag {1.3} \\ \end{array}
 $$
 
-Here  $\operatorname{Pr}_{\omega, \hat{\theta}}(\cdot|\mathbf{x})$  is a probability distribution over the label set  $\{\text{positive, negative, neutral}\}$ , and the label with the highest probability in this distribution is selected as output. To keep the notation uncluttered, we will use  $F_{\omega, \hat{\theta}}(\cdot)$  to denote  $\operatorname{Classify}_{\omega}(\operatorname{Encode}_{\hat{\theta}}(\cdot))$ .
+Here  $\operatorname{Pr}_{\omega, \hat{\theta}}(\cdot|\mathbf{x})$  is a probability distribution over the label set  $\{\text{positive,negative,neutral}\}$ , and the label with the highest probability in this distribution is selected as output. To keep the notation uncluttered, we will use  $F_{\omega, \hat{\theta}}(\cdot)$  to denote  $\operatorname{Classify}_{\omega}(\operatorname{Encode}_{\hat{\theta}}(\cdot))$ .
 
 Because the model parameters  $\omega$  and  $\hat{\theta}$  are not optimized for the classification task, we cannot directly use this model. Instead, we must use a modified version of the model that is adapted to the task. A typical way is to fine-tune the model by giving explicit labeling in downstream tasks. We can train  $F_{\omega,\hat{\theta}}(\cdot)$  on a labeled dataset, treating it as a common supervised learning task. The outcome of the fine-tuning is the parameters  $\tilde{\omega}$  and  $\tilde{\theta}$  that are further optimized. Alternatively, we can freeze the encoder parameters  $\hat{\theta}$  to maintain their pre-trained state, and focus solely on optimizing  $\omega$ . This allows the classifier to be efficiently adapted to work in tandem with the pre-trained encoder.
 
@@ -2197,7 +2197,7 @@ This rotary positional embedding can be extended to multi-dimensional embeddings
 the complex space is given by
 
 $$
-C (\mathbf {x}, t \theta) = \sum_{k = 1}^{d / 2} x_{k}^{\prime} e^{i t \theta_{k}} \vec {e}_{k} \tag {2.91}
+C (\mathbf {x}, t \theta) = \sum_{k = 1}^{d / 2} x_{k}^{\prime} e^{i t \theta_{k}} \vec{e}_{k} \tag {2.91}
 $$
 
 where  $\vec{e}_k$  is the standard basis vector with a single non-zero value in the  $k$ -th coordinate and 0's elsewhere [Biderman et al., 2021].
@@ -4543,7 +4543,7 @@ While pointwise methods are conceptually simpler and can directly guide the rewa
 
 predict scores, they might not always be the best choice in RLHF. A problem is that these methods may struggle with high variance in human feedback, especially when different experts provide inconsistent scores for similar outputs. Because they focus on fitting to absolute scores rather than relative differences, inconsistencies in scoring can lead to poor model performance. Moreover, fitting to specific scored outputs might discourage generalization, particularly given that training data is often very limited in RLHF. In contrast, methods that consider relative preferences can promote the learning of more generalized patterns of success and failure. Nevertheless, there are scenarios where pointwise methods might still be suitable. For example, in tasks where training data is abundant and the costs of obtaining accurate, consistent annotations are low, pointwise methods can prove effective.
 
-In fact, to make the supervision signal for training the reward model more robust, we can also introduce additional regularization terms into training. For example, if we consider the first term  $U_{\mathrm{ppo - clip}}(\mathbf{x},\mathbf{y};\theta)$  in Eq. (4.54) as a type of generalized reward, then the second term (i.e., the penalty term) can be viewed as a form of regularization for the reward model, except that here the goal is to train the policy rather than the reward model. Another example is that Eisenstein et al. [2023] develop a regularization term based on the squared sum of rewards, and add it to the pairwise comparison loss in RLHF:
+In fact, to make the supervision signal for training the reward model more robust, we can also introduce additional regularization terms into training. For example, if we consider the first term  $U_{\mathrm{ppo -clip}}(\mathbf{x},\mathbf{y};\theta)$  in Eq. (4.54) as a type of generalized reward, then the second term (i.e., the penalty term) can be viewed as a form of regularization for the reward model, except that here the goal is to train the policy rather than the reward model. Another example is that Eisenstein et al. [2023] develop a regularization term based on the squared sum of rewards, and add it to the pairwise comparison loss in RLHF:
 
 $$
 \begin{array}{l} \mathcal {L}_{\text{reg}} = \mathcal {L}_{\text{pair}} + \left(- \mathbb {E}_{(\mathbf {x}, \mathbf {y}_{a}, \mathbf {y}_{b}) \sim \mathcal {D}_{r}} \left[ r (\mathbf {x}, \mathbf {y}_{a}) + r (\mathbf {x}, \mathbf {y}_{b}) \right]^{2}\right) \\ = - \mathbb {E}_{(\mathbf {x}, \mathbf {y}_{a}, \mathbf {y}_{b}) \sim \mathcal {D}_{r}} \left[ \log \Pr_{\phi} (\mathbf {y}_{a} \succ \mathbf {y}_{b} | \mathbf {x}) \right] \\ - \mathbb {E}_{(\mathbf {x}, \mathbf {y}_{a}, \mathbf {y}_{b}) \sim \mathcal {D}_{r}} \left[ r (\mathbf {x}, \mathbf {y}_{a}) + r (\mathbf {x}, \mathbf {y}_{b}) \right]^{2} \tag {4.63} \\ \end{array}
@@ -5058,8 +5058,8 @@ Probability:
 node  $0 \to 0$   
 node  $3 \to \log \operatorname{Pr}(\text{"cats"}| \mathbf{x})$   
 node  $9 \to \log \operatorname{Pr}(\text{"are"}| \mathbf{x}, \text{"cats}")$   
-node  $11 \to \log \operatorname{Pr}(\text{"playful"}| \mathbf{x}, \text{"cats are}")$   
-node  $17 \to \log \operatorname{Pr}(\text{"."}| \mathbf{x}, \text{"cats are playful}")$
+node  $11 \to \log \operatorname{Pr}(\text{"playful"}| \mathbf{x}, \text{"catsare}")$   
+node  $17 \to \log \operatorname{Pr}(\text{"."}| \mathbf{x}, \text{"catsareplayful}")$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/12b0a37d-91d2-4358-a416-f79314d9b2d1/1c61f19efab490f62d31f35ed6caa4a345bd74a23a580c23acffee5a760c1093.jpg)  
 Fig. 5.4: A search tree for decoding. At each node, we expand the tree by considering all possible tokens, each leading to a new node representing a potential continuation of the text. Here we highlight a path through nodes 0, 3, 9, 11, and 17. The path represents the output sequence "cats are playful," whose log-probability can be computed by accumulating the log-probabilities of these nodes.

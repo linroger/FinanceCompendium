@@ -98,13 +98,13 @@ then  $I$  is called an inductive set.
 Definition 5.2.4. The set of all natural numbers is the set
 
 $$
-\mathbb {N} := \{x \mid f o r e v e r y i n d u c t i v e s e t I, x \in I \}
+\mathbb{N} := \{x \mid \text{everyinductiveset } I, x \in I \}
 $$
 
 Put another way,  $\mathbb{N}$  is the smallest inductive set:
 
 $$
-\mathbb{N} = \bigcap_{I\in \{S|S i s i n d u c t i v e\}}I
+\mathbb{N} = \bigcap_{I\in \{S | S \text{ isinductive}\}}I
 $$
 
 Okay, now we're ready for the proof!
@@ -117,7 +117,7 @@ Proof. Let  $P(n)$  be a variable proposition, defined for every natural number 
 Let  $S$  be the set of instances for which  $P(n)$  is True. That is, define
 
 $$
-S = \{n \in \mathbb {N} \mid P (n) \text {i s T r u e} \}
+S = \{n \in \mathbb{N} \mid P(n) \text{ isTrue} \}
 $$
 
 By definition (using set-builder notation),  $S \subseteq \mathbb{N}$ .
@@ -233,7 +233,7 @@ Claim: The sum of the first  $n$  odd natural numbers is  $n^2$ .
 Proof. Let  $P(n)$  be the proposition
 
 $$
-\quad \text {＂} 1 + 3 + 5 + \dots + 2 n - 1 = \sum_ {i = 1} ^ {n} (2 i - 1) = n ^ {2} \quad ”
+\quad \text{``} 1 + 3 + 5 + \dots + 2 n - 1 = \sum_{i=1}^{n}(2i-1) = n^{2} \quad \text{''}
 $$
 
 We will prove that  $\forall n\in \mathbb{N}$ $P(n)$  by induction on  $n$
@@ -241,13 +241,13 @@ We will prove that  $\forall n\in \mathbb{N}$ $P(n)$  by induction on  $n$
 BC: Consider  $n = 1$ . Notice that
 
 $$
-\sum_ {i = 1} ^ {1} (2 i - 1) = 1 \quad \text {a n d} \quad 1 ^ {2} = 1
+\sum_{i=1}^{1}(2i-1) = 1 \quad \text{ and } \quad 1^{2} = 1
 $$
 
 and so
 
 $$
-\sum_ {i = 1} ^ {1} (2 i - 1) = 1 ^ {2}
+\sum_{i=1}^{1}(2i-1) = 1^{2}
 $$
 
 Thus,  $P(1)$  is True, because  $1 = 1$ .
@@ -255,13 +255,13 @@ Thus,  $P(1)$  is True, because  $1 = 1$ .
 IH: Let  $k \in \mathbb{N}$  be arbitrary and fixed. Suppose  $P(k)$  holds. This means
 
 $$
-\sum_ {i = 1} ^ {n} (2 k - 1) = n ^ {2}
+\sum_{i=1}^{n}(2k-1) = n^{2}
 $$
 
 IS: Consider  $k + 1$ . We can write
 
 $$
-\sum_ {i = 1} ^ {k + 1} (2 i - 1) = 2 (k + 1) - 1 + \sum_ {i = 1} ^ {k} (2 i - 1) = 2 k + 1 + \sum_ {i = 1} ^ {k} (2 i - 1)
+\sum_{i=1}^{k+1}(2i-1) = 2(k+1)-1 + \sum_{i=1}^{k}(2i-1) = 2k+1 + \sum_{i=1}^{k}(2i-1)
 $$
 
 by separating out the  $(k + 1)$ -th term of the summation.
@@ -269,13 +269,13 @@ by separating out the  $(k + 1)$ -th term of the summation.
 We now use the IH to replace the summation on the right-hand side and deduce that
 
 $$
-\sum_ {i = 1} ^ {k + 1} (2 i - 1) = 2 k + 1 + k ^ {2}
+\sum_{i=1}^{k+1}(2i-1) = 2k + 1 + k^{2}
 $$
 
 Factoring then tells us
 
 $$
-\sum_ {i = 1} ^ {k + 1} (2 i - 1) = (k + 1) ^ {2}
+\sum_{i=1}^{k+1}(2i-1) = (k+1)^{2}
 $$
 
 and therefore  $P(k + 1)$  holds.
@@ -291,13 +291,13 @@ Example 5.2.6. Geometric series formula:
 Claim: For every  $q \in \mathbb{R} - \{0,1\}$  and for every  $n \in \mathbb{N}$ , the following formula holds:
 
 $$
-\sum_ {i = 0} ^ {n - 1} q ^ {i} = 1 + q + q ^ {2} + \dots + q ^ {n - 1} = \frac {q ^ {n} - 1}{q - 1}
+\sum_{i=0}^{n-1}q^{i} = 1 + q + q^{2} + \dots + q^{n-1} = \frac{q^{n}-1}{q-1}
 $$
 
 Proof. Let  $q \in \mathbb{R} - \{0,1\}$  be arbitrary and fixed. Define  $P(n)$  to be the proposition
 
 $$
-“ \sum_ {i = 0} ^ {n - 1} q ^ {i} = \frac {q ^ {n} - 1}{q - 1} ”
+\text{``} \sum_{i=0}^{n-1}q^{i} = \frac{q^{n}-1}{q-1} \text{''}
 $$
 
 We will prove  $\forall n\in \mathbb{N}$ $P(n)$  by induction on  $n$
@@ -305,13 +305,13 @@ We will prove  $\forall n\in \mathbb{N}$ $P(n)$  by induction on  $n$
 BC: Consider  $n = 1$ . Observe that
 
 $$
-\sum_ {i = 0} ^ {n - 1} q ^ {i} = \sum_ {i = 0} ^ {0} q ^ {i} = q ^ {0} = 1
+\sum_{i=0}^{n-1}q^{i} = \sum_{i=0}^{0}q^{i} = q^{0} = 1
 $$
 
 since  $q \neq 0$ . Also, observe that
 
 $$
-\frac {q ^ {n} - 1}{q - 1} = \frac {q - 1}{q - 1} = 1
+\frac{q^{n}-1}{q-1} = \frac{q-1}{q-1} = 1
 $$
 
 since  $q \neq 1$ . Thus,  $P(1)$  holds.
@@ -319,13 +319,13 @@ since  $q \neq 1$ . Thus,  $P(1)$  holds.
 IH: Let  $k \in \mathbb{N}$  be arbitrary and fixed and suppose  $P(k)$  holds. This means
 
 $$
-\sum_ {i = 0} ^ {k - 1} q ^ {i} = \frac {q ^ {k} - 1}{q - 1}
+\sum_{i=0}^{k-1}q^{i} = \frac{q^{k}-1}{q-1}
 $$
 
 IS: WWTS  $P(k + 1)$  holds. (Remember, WWTS means "We want to show".) That is, WWTS
 
 $$
-\sum_ {i = 0} ^ {k} q ^ {i} = \frac {q ^ {k + 1} - 1}{q - 1}
+\sum_{i=0}^{k}q^{i} = \frac{q^{k+1}-1}{q-1}
 $$
 
 noticing that  $(k + 1) - 1 = k$
@@ -366,7 +366,7 @@ Try answering the following short-answer questions. They require you to actually
 (1) Prove that
 
 $$
-\sum_ {i = 1} ^ {n} i ^ {3} = \left[ \frac {n (n + 1)}{2} \right] ^ {2}
+\sum_{i=1}^{n}i^{3} = \left[\frac{n(n+1)}{2}\right]^{2}
 $$
 
 holds for every  $n\in \mathbb{N}$
@@ -374,7 +374,7 @@ holds for every  $n\in \mathbb{N}$
 (2) Prove that the square of every odd natural number is one more than a multiple of 8. That is, prove that
 
 $$
-(2 n + 1) ^ {2} - 1 \text {i s a m u l t i p l e o f 8}
+(2n+1)^{2} - 1 \text{ isa multipleof } 8
 $$
 
 for every  $n\in \mathbb{N}$
@@ -386,7 +386,7 @@ Rewrite this claim using logical symbolic notation. Then, prove it by induction.
 (4) Recall that the Fibonacci Numbers are defined by
 
 $$
-f _ {0} = 0 \text {a n d} f _ {1} = 1 \text {a n d} \forall n \in \mathbb {N} - \{1 \}. f _ {n} = f _ {n - 1} + f _ {n - 2}
+f_{0} = 0 \text{ and } f_{1} = 1 \text{ and } \forall n \in \mathbb{N} - \{1\}. f_{n} = f_{n-1} + f_{n-2}
 $$
 
 Prove the following claims hold for every  $n\in \mathbb{N}$ , by induction on  $n$ :
@@ -420,7 +420,7 @@ Suppose that
 
 Then  $\forall n\in S\cdot P(n)$  holds True.
 
-This theorem says exactly what we were discussing: if we want to prove a proposition holds for every value greater than or equal to some specific value  $(M, \text{in the theorem statement})$ , then we can just start inducting from that value.
+This theorem says exactly what we were discussing: if we want to prove a proposition holds for every value greater than or equal to some specific value  $(M, \text{inthetheoremstatement})$ , then we can just start inducting from that value.
 
 We make that our BC and apply the IH and IS to every value greater than or equal to it. Everything else is exactly the same.
 
@@ -487,7 +487,7 @@ Example 5.3.2. How  $2^n$  compares to  $n^2$ :
 # Claim:
 
 $$
-2 ^ {n} > n ^ {2} \Longleftrightarrow n \in \{0, 1 \} \cup \{z \in \mathbb {N} \mid z \geq 5 \}
+2^{n} > n^{2} \Longleftrightarrow n \in \{0, 1\} \cup \{z \in \mathbb{N} \mid z \geq 5\}
 $$
 
 That is, the only integers  $z$  that satisfy  $2^{z} > z^{2}$  are  $z = 0,1,5,6,7\ldots$
@@ -499,7 +499,7 @@ Proof. Let  $P(n)$  be the proposition " $2^n > n^2$ ".
 First, observe the following cases:
 
 $$
-\begin{array}{l} 2 ^ {0} > 0 ^ {2} \Longleftrightarrow 1 > 0 \quad \text {s o} P (0) \text {i s T r u e} \\ 2 ^ {1} > 1 ^ {2} \Longleftrightarrow 2 > 1 \quad \text {s o} P (1) \text {i s T r u e} \\ 2 ^ {2} > 2 ^ {2} \Longleftrightarrow 4 > 4 \quad \text {s o} P (2) \text {i s F a l s e} \\ 2 ^ {3} > 3 ^ {2} \Longleftrightarrow 8 > 9 \quad \text {s o} P (3) \text {i s F a l s e} \\ 2 ^ {4} > 4 ^ {2} \Longleftrightarrow 1 6 > 1 6 \quad \text {s o} P (4) \text {i s F a l s e} \\ \end{array}
+\begin{array}{l} 2^{0} > 0^{2} \Longleftrightarrow 1 > 0 \quad \text{so } P(0) \text{ isTrue} \\ 2^{1} > 1^{2} \Longleftrightarrow 2 > 1 \quad \text{so } P(1) \text{ isTrue} \\ 2^{2} > 2^{2} \Longleftrightarrow 4 > 4 \quad \text{so } P(2) \text{ isFalse} \\ 2^{3} > 3^{2} \Longleftrightarrow 8 > 9 \quad \text{so } P(3) \text{ isFalse} \\ 2^{4} > 4^{2} \Longleftrightarrow 16 > 16 \quad \text{so } P(4) \text{ isFalse} \\ \end{array}
 $$
 
 Notice that whenever  $z \leq -1$ , we have  $2^z < 1$  and  $z^2 \geq 1$ , so  $2^z \ngeq z^2$ . Thus,  $P(n)$  is False for every  $n$  that satisfies  $n \leq -1$ .
@@ -519,7 +519,7 @@ Thus,  $k - 1 > 3$  and so  $(k - 1)^2 > 9$ ; certainly, then,  $(k - 1)^2 > 2$ 
 Observe the following chain of manipulations of this inequality:
 
 $$
-\begin{array}{l} (k - 1) ^ {2} > 2 \Longrightarrow (k - 1) ^ {2} - 2 > 0 \\ \Longrightarrow k ^ {2} - 2 k - 1 > 0 \\ \Longrightarrow k ^ {2} > 2 k + 1 \\ \Longrightarrow 2 k ^ {2} > k ^ {2} + 2 k + 1 \\ \Longrightarrow 2 k ^ {2} > (k + 1) ^ {2} \\ \end{array}
+\begin{array}{l} (k-1)^{2} > 2 \Longrightarrow (k-1)^{2} - 2 > 0 \\ \Longrightarrow k^{2} - 2k - 1 > 0 \\ \Longrightarrow k^{2} > 2k + 1 \\ \Longrightarrow 2k^{2} > k^{2} + 2k + 1 \\ \Longrightarrow 2k^{2} > (k+1)^{2} \\ \end{array}
 $$
 
 Since we observed the first inequality holds, we can deduce that the final inequality above also holds.
@@ -529,13 +529,13 @@ Since we observed the first inequality holds, we can deduce that the final inequ
 By the IH  $P(k)$ , we know  $k^2 < 2^k$ . This tells us
 
 $$
-2 k ^ {2} <   2 \cdot 2 ^ {k} = 2 ^ {k + 1}
+2 k^{2} <   2 \cdot 2^{k} = 2^{k + 1}
 $$
 
 Applying the transitivity property of inequalities, we can deduce that
 
 $$
-(k + 1) ^ {2} <   2 k ^ {2} <   2 ^ {k + 1}
+(k + 1)^{2} <   2 k^{2} <   2^{k + 1}
 $$
 
 and so  $P(k + 1)$  holds.
@@ -584,7 +584,7 @@ $$
 Look at what happens when we divide them by 8; specifically look at the remainders (indicated by the numerators of the fractions in each case):
 
 $$
-0 + \frac {1}{8}, 0 + \frac {4}{8}, 1 + \frac {1}{8}, 2 + \frac {0}{8}, 3 + \frac {1}{8}, 4 + \frac {2}{8}, 6 + \frac {1}{8}, \dots
+0 + \frac{1}{8}, 0 + \frac{4}{8}, 1 + \frac{1}{8}, 2 + \frac{0}{8}, 3 + \frac{1}{8}, 4 + \frac{2}{8}, 6 + \frac{1}{8}, \dots
 $$
 
 Notice that we left fractions like  $\frac{4}{8}$  and  $\frac{2}{8}$  unsimplified, keeping the denominator as 8, to indicate the remainders. Those remainders follow this pattern:
@@ -628,7 +628,7 @@ By the IH, we know  $\exists \ell \in \mathbb{N}$ .  $k^2 = 8\ell +1$ . Let such
 Now, we take these observations and use them to see that
 
 $$
-\begin{array}{l} (k + 2) ^ {2} = k ^ {2} + 4 k + 4 \\ = (8 \ell + 1) + 4 (2 m + 1) + 4 \\ = 8 \ell + 8 m + 8 + 1 \\ = 8 (\ell + m) + 1 \\ \end{array}
+\begin{array}{l} (k + 2)^{2} = k^{2} + 4 k + 4 \\ = (8 \ell + 1) + 4 (2 m + 1) + 4 \\ = 8 \ell + 8 m + 8 + 1 \\ = 8 (\ell + m) + 1 \\ \end{array}
 $$
 
 Since  $\ell, m \in \mathbb{Z}$ , we know  $\ell + m \in \mathbb{Z}$ , as well. Thus,  $(k + 2)^2$  is one more than a multiple of 8. Therefore,  $P(k + 2)$  holds.
@@ -690,7 +690,7 @@ Claim: For every  $n \in \mathbb{N}$ , the number  $2^n + 1$  is not a multiple 
 Proof. Define the sets  $A_{1}, A_{2}, A_{3}$  to be
 
 $$
-\begin{array}{l} A _ {1} = \{n \in \mathbb {N} \mid \exists m \in \mathbb {N} \cup \{0 \}. n = 3 m + 1 \} = \{1, 4, 7, 1 0, \dots \} \\ A _ {2} = \{n \in \mathbb {N} \mid \exists m \in \mathbb {N} \cup \{0 \}. n = 3 m + 2 \} = \{2, 5, 8, 1 1, \dots \} \\ A _ {3} = \{n \in \mathbb {N} \mid \exists m \in \mathbb {N} \cup \{0 \}. n = 3 m \} = \{3, 6, 9, 1 2, \dots \} \\ \end{array}
+\begin{array}{l} A_{1} = \{n \in \mathbb {N} \mid \exists m \in \mathbb {N} \cup \{0 \}. n = 3 m + 1 \} = \{1, 4, 7, 1 0, \dots \} \\ A_{2} = \{n \in \mathbb {N} \mid \exists m \in \mathbb {N} \cup \{0 \}. n = 3 m + 2 \} = \{2, 5, 8, 1 1, \dots \} \\ A_{3} = \{n \in \mathbb {N} \mid \exists m \in \mathbb {N} \cup \{0 \}. n = 3 m \} = \{3, 6, 9, 1 2, \dots \} \\ \end{array}
 $$
 
 (That is, these three sets partition  $\mathbb{N}$  based on remainders when divided by 3.)
@@ -700,15 +700,15 @@ Let  $P(n)$  be the proposition " $2^n + 1$  is not divisible by 3". We will pro
 Define the propositions  $Q(n)$  and  $R(n)$  and  $S(n)$  as follows:
 
 $$
-Q (n) \text {i s} “ \exists \ell \in \mathbb {N} \cup \{0 \}. 2 ^ {n} + 1 = 7 \ell + 3 ”
+Q (n) \text{is} “ \exists \ell \in \mathbb {N} \cup \{0 \}. 2^{n} + 1 = 7 \ell + 3 ”
 $$
 
 $$
-R (n) \text {i s} “ \exists \ell \in \mathbb {N} \cup \{0 \}. 2 ^ {n} + 1 = 7 \ell + 5 ”
+R (n) \text{is} “ \exists \ell \in \mathbb {N} \cup \{0 \}. 2^{n} + 1 = 7 \ell + 5 ”
 $$
 
 $$
-S (n) \text {i s} “ \exists \ell \in \mathbb {N} \cup \{0 \}. 2 ^ {n} + 1 = 7 \ell + 2 ”
+S (n) \text{is} “ \exists \ell \in \mathbb {N} \cup \{0 \}. 2^{n} + 1 = 7 \ell + 2 ”
 $$
 
 Observe that
@@ -734,13 +734,13 @@ By the IH, we know  $\exists \ell \in \mathbb{N}$ .  $2^{k} + 1 = 7\ell + 3$ . L
 We can deduce that
 
 $$
-2 ^ {k + 3} = 2 ^ {3} \cdot 2 ^ {k} = 8 \cdot (7 \ell + 2) = 5 6 \ell + 1 6
+2^{k + 3} = 2^{3} \cdot 2^{k} = 8 \cdot (7 \ell + 2) = 5 6 \ell + 1 6
 $$
 
 Thus,
 
 $$
-2 ^ {k + 3} + 1 = 5 6 \ell + 1 7 = 7 (8 \ell) + 1 4 + 3 = 7 (8 \ell + 2) + 3
+2^{k + 3} + 1 = 5 6 \ell + 1 7 = 7 (8 \ell) + 1 4 + 3 = 7 (8 \ell + 2) + 3
 $$
 
 and so  $Q(k + 3)$  holds, as well. Therefore,  $\forall n\in A_1$ .  $Q(n)$
@@ -758,13 +758,13 @@ By the IH, we know  $\exists \ell \in \mathbb{N}$ .  $2^{k} + 1 = 7\ell + 5$ . L
 We can deduce that
 
 $$
-2 ^ {k + 3} = 2 ^ {3} \cdot 2 ^ {k} = 8 \cdot (7 \ell + 4) = 5 6 \ell + 3 2
+2^{k + 3} = 2^{3} \cdot 2^{k} = 8 \cdot (7 \ell + 4) = 5 6 \ell + 3 2
 $$
 
 Thus,
 
 $$
-2 ^ {k + 3} + 1 = 5 6 \ell + 3 3 = 7 (8 \ell) + 2 8 + 5 = 7 (8 \ell + 4) + 5
+2^{k + 3} + 1 = 5 6 \ell + 3 3 = 7 (8 \ell) + 2 8 + 5 = 7 (8 \ell + 4) + 5
 $$
 
 and so  $R(k + 3)$  holds, as well. Therefore,  $\forall n \in A_2 \cdot R(n)$ .
@@ -782,13 +782,13 @@ By the IH, we know  $\exists \ell \in \mathbb{N}$ .  $2^{k} + 1 = 7\ell + 2$ . L
 We can deduce that
 
 $$
-2 ^ {k + 3} = 2 ^ {3} \cdot 2 ^ {k} = 8 \cdot (7 \ell + 1) = 5 6 \ell + 8
+2^{k + 3} = 2^{3} \cdot 2^{k} = 8 \cdot (7 \ell + 1) = 5 6 \ell + 8
 $$
 
 Thus,
 
 $$
-2 ^ {k + 3} + 1 = 5 6 \ell + 9 = 7 (8 \ell) + 7 + 2 = 7 (8 \ell + 1) + 2
+2^{k + 3} + 1 = 5 6 \ell + 9 = 7 (8 \ell) + 7 + 2 = 7 (8 \ell + 1) + 2
 $$
 
 and so  $S(k + 3)$  holds, as well. Therefore,  $\forall n \in A_3$ .  $S(n)$ .
@@ -802,7 +802,7 @@ In this section's exercises, we have included a couple of exercises that guide y
 It's worth mentioning, at this point, that you could quite easily adapt these methods to any situation you face, as long as the "jumps" you want to make follow some easily identifiable pattern. In the previous example, we made jumps of size 3, and so we split the set of all natural numbers into three sets and jumped along within those sets. In essence, this relies on the fact that we had a "formula" for how to get to the "next" instance of the proposition: we start with  $P(k)$  and try to deduce  $P(k + 3)$ . You could conceivably make jumps of size 4, or 10, or even make jumps that double your value; that is, you could prove that some proposition  $P(n)$  holds for every  $n$  that is a power of 2, say, by proving
 
 $$
-P (1) \text {h o l d s , a n d} \forall n \in \mathbb {N}. P (n) \Longrightarrow P (2 n)
+P (1) \text{ho ld s ,a nd} \forall n \in \mathbb {N}. P (n) \Longrightarrow P (2 n)
 $$
 
 Again, all of this relies on having some kind of "formula" or "rule" that tells us what the next instance under consideration is. For this reason, we cannot induct on the set of all prime numbers. If you're trying to prove some fact holds
@@ -835,13 +835,13 @@ Try answering the following short-answer questions. They require you to actually
 (5) Define a sequence of numbers by
 
 $$
-x _ {1} = 2 \text {a n d} x _ {2} = 2 \text {a n d} \forall n \in \mathbb {N} - \{1, 2 \}. x _ {n} = x _ {n - 2} + 1
+x_{1} = 2 \text{an d} x_{2} = 2 \text{an d} \forall n \in \mathbb {N} - \{1, 2 \}. x_{n} = x_{n - 2} + 1
 $$
 
 Let  $P(n)$  be the proposition
 
 $$
-x _ {n} = \frac {1}{2} (n + 1) + \frac {1}{4} \left(1 + (- 1) ^ {n}\right)
+x_{n} = \frac{1}{2} (n + 1) + \frac{1}{4} \left(1 + (- 1)^{n}\right)
 $$
 
 (a) Let  $O$  be the set of odd natural numbers. Prove that  $\forall n \in O$ .  $P(n)$  by induction.  
@@ -850,13 +850,13 @@ $$
 (6) Consider the following claim:
 
 $$
-\sum_ {k = 1} ^ {n} (- 1) ^ {k - 1} k ^ {2} = (- 1) ^ {k - 1} \sum_ {k = 1} ^ {n} k
+\sum_{k = 1}^{n} (- 1)^{k - 1} k^{2} = (- 1)^{k - 1} \sum_{k = 1}^{n} k
 $$
 
 That is, we claim that
 
 $$
-1 ^ {2} - 2 ^ {2} + 3 ^ {2} - 4 ^ {2} + \dots + (- 1) ^ {n - 1} n ^ {2} = (- 1) ^ {n - 1} (1 + 2 + 3 + \dots + 9)
+1^{2} - 2^{2} + 3^{2} - 4^{2} + \dots + (- 1)^{n - 1} n^{2} = (- 1)^{n - 1} (1 + 2 + 3 + \dots + 9)
 $$
 
 holds for every  $n\in \mathbb{N}$
@@ -874,13 +874,13 @@ Now, we will see why our previous work with induction constitutes "Regular" Indu
 Look back to the examples from Section 2.4. There, we made some observations about the number of ways to tile a  $2 \times n$  rectangular board with dominoes, and we played the game of Takeaway. In working through the inductive arguments for each of those examples, we found the situation to be slightly different than previous inductive arguments. When we proved something like
 
 $$
-\sum_ {k = 1} ^ {n} \frac {n (n + 1)}{2}
+\sum_{k = 1}^{n} \frac{n (n + 1)}{2}
 $$
 
 holds for every  $n \in \mathbb{N}$ , we could, in the inductive step, appeal to the immediately preceding case and invoke the inductive hypothesis, like so:
 
 $$
-\sum_ {k = 1} ^ {n + 1} k = (n + 1) + \sum_ {k = 1} ^ {n} k = n + 1 + \frac {n (n + 1)}{2} = \frac {(n + 1) (n + 2)}{2}
+\sum_{k = 1}^{n + 1} k = (n + 1) + \sum_{k = 1}^{n} k = n + 1 + \frac{n (n + 1)}{2} = \frac{(n + 1) (n + 2)}{2}
 $$
 
 Of course, we didn't refer to these parts of our argument as the "IH" or "IS" yet, but that is what we were doing.
@@ -933,7 +933,7 @@ Think about how Regular Induction followed the Domino Analogy. We only needed to
 Let's put this another way. Think about the chain of implications connecting all of our propositions. Our BC will tell us  $P(1)$  is True. Great. This will imply that  $P(2)$  holds. (Use  $n = 1$  in condition (2) of SPMI.) Knowing these two will together imply that  $P(3)$  holds. (Use  $n = 2$  in condition (2) of SPMI.) Knowing all three of those will collectively imply  $P(4)$  holds. And so and so on:
 
 $$
-\underbrace {\overbrace {\left(P (1)\right) \stackrel {{\text {U s e I S}}} {{\Longrightarrow}} \left(P (2)\right)} _ {\text {K n o w} P (1) \wedge P (2)} \underbrace {\Longrightarrow \left(P (3)\right)} _ {\text {U s e I S} \text {G e t} T} \Rightarrow \left(P (4)\right) \Rightarrow \left(P (5)\right) \Rightarrow
+\underbrace {\overbrace {\left(P (1)\right) \stackrel {{\text{Us eI S}}} {{\Longrightarrow}} \left(P (2)\right)}_{\text{Kn ow} P (1) \wedge P (2)} \underbrace {\Longrightarrow \left(P (3)\right)}_{\text{Us eI S} \text{Ge t} T} \Rightarrow \left(P (4)\right) \Rightarrow \left(P (5)\right) \Rightarrow
 $$
 
 In some sense, this points to why the method works, overall. We prove  $P(1)$  holds, just like with Regular Induction. But then, to "get to" the truth of  $P(2)$ , that first step— $P(1) \Rightarrow P(2)$ —is the same in Strong Induction as it is in Regular Induction. (Use  $n = 1$  in condition (2) of SPMI and PMI. It's the same condition.) From there on out, when we use Strong Induction, we're just making use of the fact that all of the previous instances of the proposition have held True; we might as well use them to keep traveling through and deducing the truths of the next propositions! Regular Induction doesn't bother with this. It says, "Okay, great, all of the previous instances have held. We don't actually need them to prove the next instance; we only need the immediately preceding one."
@@ -947,7 +947,7 @@ True. Let's just package those instances all together and label them as one big 
 As the previous paragraph hinted, the proof below will make use of PMI. (In fact, we will even use the proof template for a proof by induction that we saw in the previous section!) In this sense, we are really proving this statement:
 
 $$
-\mathrm {P M I} \Rightarrow \mathrm {S P M I}
+\mathrm{PM I} \Rightarrow \mathrm{SP MI}
 $$
 
 Let's do it!
@@ -1015,13 +1015,13 @@ This was the goal, so our proof is complete.
 Look at what we've accomplished: we used Regular Induction to prove that Strong Induction is a valid technique. This tells us the PMI Theorem implies the SPMI Theorem, as we mentioned above:
 
 $$
-\mathrm {P M I} \Rightarrow \mathrm {S P M I}
+\mathrm{PM I} \Rightarrow \mathrm{SP MI}
 $$
 
 But certainly, this works the other way around, too! If we had already somehow proven (by other means) that Strong Induction is valid, then Regular Induction would have to be valid, as well. That is, we also know that
 
 $$
-\mathrm {S P M I} \Rightarrow \mathrm {P M I}
+\mathrm{SP MI} \Rightarrow \mathrm{PM I}
 $$
 
 Said another way: if we already had Strong Induction in hand as a valid proof technique, then whenever we would want to use Regular Induction to prove something, we would just use Strong Induction to accomplish our goal. In that sense, Strong Induction "subsumes" Regular Induction as a technique.
@@ -1029,7 +1029,7 @@ Said another way: if we already had Strong Induction in hand as a valid proof te
 Together, these two observations tell us something remarkable about the theorems PMI and SPMI as they are in the world of mathematical truths. We have now shown that they are equivalent:
 
 $$
-\mathrm {P M I} \iff \mathrm {S P M I}
+\mathrm{PM I} \iff \mathrm{SP MI}
 $$
 
 Each theorem implies the other one.
@@ -1079,7 +1079,7 @@ Example 5.4.2. A formula for a recursively-defined sequence:
 Claim: Let the sequence  $s_n$  be defined by
 
 $$
-s _ {0} = 1 \text {a n d} \forall n \in \mathbb {N}. s _ {n} = 1 + \sum_ {i = 0} ^ {n - 1} s _ {i}
+s_{0} = 1 \text{an d} \forall n \in \mathbb {N}. s_{n} = 1 + \sum_{i = 0}^{n - 1} s_{i}
 $$
 
 Find and prove a closed formula for  $s_n$  for every  $n \in \mathbb{N} \cup \{0\}$ .
@@ -1093,7 +1093,7 @@ IH: Let  $k \in \mathbb{N} \cup \{0\}$  be arbitrary and fixed. Suppose  $P(0) \
 IS: Observe that
 
 $$
-\begin{array}{l} s _ {k + 1} = 1 + \sum_ {i = 0} ^ {k} s _ {i} \quad \text {D e f i n i t i o n} s _ {k + 1} \\ = 1 + \sum_ {i = 0} ^ {k} 2 ^ {i} \quad \text {U s i n g I H s :} P (0) \wedge \dots \wedge P (k) \\ = 1 + \left(2 ^ {k + 1} - 1\right) \quad \text {S t a n d a r d} \\ = 2 ^ {k + 1} \\ \end{array}
+\begin{array}{l} s_{k + 1} = 1 + \sum_{i = 0}^{k} s_{i} \quad \text{De fi ni ti on} s_{k + 1} \\ = 1 + \sum_{i = 0}^{k} 2^{i} \quad \text{Us in gI Hs :} P (0) \wedge \dots \wedge P (k) \\ = 1 + \left(2^{k + 1} - 1\right) \quad \text{St an da rd} \\ = 2^{k + 1} \\ \end{array}
 $$
 
 Thus,  $P(k + 1)$  holds. Therefore,  $\forall n \in \mathbb{N} \cup \{0\}$ .  $P(n)$  holds, by induction.
@@ -1155,13 +1155,13 @@ Example 5.4.4. A closed form for the Fibonacci Sequence:
 Claim: Define the standard Fibonacci Sequence by
 
 $$
-f _ {0} = 0 \text {a n d} f _ {1} = 1 \text {a n d} \forall n \in \mathbb {N} - \{1 \}. f _ {n} = f _ {n - 1} + f _ {n - 2}
+f_{0} = 0 \text{an d} f_{1} = 1 \text{an d} \forall n \in \mathbb {N} - \{1 \}. f_{n} = f_{n - 1} + f_{n - 2}
 $$
 
 Define  $\varphi = \frac{1 + \sqrt{5}}{2}$ . Then the following equality holds for every  $n \in \mathbb{N} \cup \{0\}$ :
 
 $$
-f _ {n} = \frac {1}{\sqrt {5}} \left(\varphi^ {n} - (1 - \varphi) ^ {n}\right)
+f_{n} = \frac{1}{\sqrt{5}} \left(\varphi^{n} - (1 - \varphi)^{n}\right)
 $$
 
 Proof. Let  $f_{n}$  and  $\varphi$  be defined as in the claim above.
@@ -1169,25 +1169,25 @@ Proof. Let  $f_{n}$  and  $\varphi$  be defined as in the claim above.
 We will first prove the following equation:
 
 $$
-1 + \varphi = \varphi^ {2} \quad (\star_ {1})
+1 + \varphi = \varphi^{2} \quad (\star_{1})
 $$
 
 Observe that
 
 $$
-\begin{array}{l} \varphi^ {2} = \left(\frac {1 + \sqrt {5}}{2}\right) ^ {2} = \frac {1 + 2 \sqrt {5} + 5}{4} = \frac {6 + 2 \sqrt {5}}{4} \\ = \frac {3 + \sqrt {5}}{2} = 1 + \frac {1 + \sqrt {5}}{2} = 1 + \varphi \\ \end{array}
+\begin{array}{l} \varphi^{2} = \left(\frac{1 + \sqrt{5}}{2}\right)^{2} = \frac{1 + 2 \sqrt{5} + 5}{4} = \frac{6 + 2 \sqrt{5}}{4} \\ = \frac{3 + \sqrt{5}}{2} = 1 + \frac{1 + \sqrt{5}}{2} = 1 + \varphi \\ \end{array}
 $$
 
 Then, we can use this to prove the following equation:
 
 $$
-2 - \varphi = (1 - \varphi) ^ {2} \quad (\star_ {2})
+2 - \varphi = (1 - \varphi)^{2} \quad (\star_{2})
 $$
 
 Observe that
 
 $$
-(1 - \varphi) ^ {2} = 1 - 2 \varphi + \varphi^ {2} = 1 - 2 \varphi + (\varphi + 1) = 2 - \varphi
+(1 - \varphi)^{2} = 1 - 2 \varphi + \varphi^{2} = 1 - 2 \varphi + (\varphi + 1) = 2 - \varphi
 $$
 
 where we have used fact  $(\star_{1})$
@@ -1197,7 +1197,7 @@ We will make use of both of these facts below.
 Let  $P(n)$  be the proposition
 
 $$
-“ f _ {n} = \frac {1}{\sqrt {5}} \left(\varphi^ {n} - (1 - \varphi) ^ {n}\right) ”
+“ f_{n} = \frac{1}{\sqrt{5}} \left(\varphi^{n} - (1 - \varphi)^{n}\right) ”
 $$
 
 We will prove that  $\forall n\in \mathbb{N}\cup \{0\} .P(n)$  by induction on  $n$
@@ -1205,7 +1205,7 @@ We will prove that  $\forall n\in \mathbb{N}\cup \{0\} .P(n)$  by induction on  
 BC: Observe that  $f_0 = 0$  and
 
 $$
-\frac {1}{\sqrt {5}} \left(\varphi^ {0} - (1 - \varphi) ^ {0}\right) = \frac {1}{\sqrt {5}} (1 - 1) = 0
+\frac{1}{\sqrt{5}} \left(\varphi^{0} - (1 - \varphi)^{0}\right) = \frac{1}{\sqrt{5}} (1 - 1) = 0
 $$
 
 Thus,  $P(0)$  holds.
@@ -1217,7 +1217,7 @@ IS: Our goal now is to deduce that  $P(k + 1)$  holds.
 Case 1: Suppose  $k = 0$ . Then we can directly observe that  $f_{1} = 1$  and
 
 $$
-\frac {1}{\sqrt {5}} \left(\varphi^ {1} - (1 - \varphi) ^ {1}\right) = \frac {1}{\sqrt {5}} \left(2 \varphi - 1\right) = \frac {1}{\sqrt {5}} \left(1 + \sqrt {5} - 1\right) = \frac {1}{\sqrt {5}} \left(\sqrt {5}\right) = 1
+\frac{1}{\sqrt{5}} \left(\varphi^{1} - (1 - \varphi)^{1}\right) = \frac{1}{\sqrt{5}} \left(2 \varphi - 1\right) = \frac{1}{\sqrt{5}} \left(1 + \sqrt{5} - 1\right) = \frac{1}{\sqrt{5}} \left(\sqrt{5}\right) = 1
 $$
 
 This shows that  $P(1)$  holds.
@@ -1225,7 +1225,7 @@ This shows that  $P(1)$  holds.
 Case 2: Suppose  $k \geq 1$ . Then, observe that
 
 $$
-\begin{array}{l} f _ {k + 1} = f _ {k} + f _ {k - 1} \quad \text {D e f n , s i n c e} k \geq 1 \\ = \frac {1}{\sqrt {5}} \left(\varphi^ {k} - (1 - \varphi) ^ {k}\right) + \frac {1}{\sqrt {5}} \left(\varphi^ {k - 1} - (1 - \varphi) ^ {k - 1}\right) \quad \mathbf {I H s} P (k), P (k - 1) \\ = \frac {1}{\sqrt {5}} \left(\varphi^ {k} + \varphi^ {k - 1} - (1 - \varphi) ^ {k} - (1 - \varphi) ^ {k - 1}\right) \quad \text {S i m p l i f y} \\ = \frac {1}{\sqrt {5}} \left(\varphi^ {k - 1} (\varphi + 1) - (1 - \varphi) ^ {k - 1} ((1 - \varphi) + 1)\right) \quad \text {F a c t o r} \\ = \frac {1}{\sqrt {5}} \left(\varphi^ {k - 1} \cdot \varphi^ {2} - (1 - \varphi) ^ {k - 1} (2 - \varphi)\right) \quad \text {B y} (\star_ {1}) \\ = \frac {1}{\sqrt {5}} \left(\varphi^ {k + 1} - (1 - \varphi) ^ {k - 1} (1 - \varphi) ^ {2}\right) \quad \text {B y} (\star_ {2}) \\ = \frac {1}{\sqrt {5}} \left(\varphi^ {k + 1} - (1 - \varphi) ^ {k + 1}\right) \\ \end{array}
+\begin{array}{l} f_{k + 1} = f_{k} + f_{k - 1} \quad \text{De fn ,s in ce} k \geq 1 \\ = \frac{1}{\sqrt{5}} \left(\varphi^{k} - (1 - \varphi)^{k}\right) + \frac{1}{\sqrt{5}} \left(\varphi^{k - 1} - (1 - \varphi)^{k - 1}\right) \quad \mathbf {I H s} P (k), P (k - 1) \\ = \frac{1}{\sqrt{5}} \left(\varphi^{k} + \varphi^{k - 1} - (1 - \varphi)^{k} - (1 - \varphi)^{k - 1}\right) \quad \text{Si mp li fy} \\ = \frac{1}{\sqrt{5}} \left(\varphi^{k - 1} (\varphi + 1) - (1 - \varphi)^{k - 1} ((1 - \varphi) + 1)\right) \quad \text{Fa ct or} \\ = \frac{1}{\sqrt{5}} \left(\varphi^{k - 1} \cdot \varphi^{2} - (1 - \varphi)^{k - 1} (2 - \varphi)\right) \quad \text{By} (\star_{1}) \\ = \frac{1}{\sqrt{5}} \left(\varphi^{k + 1} - (1 - \varphi)^{k - 1} (1 - \varphi)^{2}\right) \quad \text{By} (\star_{2}) \\ = \frac{1}{\sqrt{5}} \left(\varphi^{k + 1} - (1 - \varphi)^{k + 1}\right) \\ \end{array}
 $$
 
 Thus,  $P(k + 1)$  holds.
@@ -1245,7 +1245,7 @@ Proof.
 BC: Observe that  $f_0 = 0$  and
 
 $$
-\frac {1}{\sqrt {5}} \big (\varphi^ {0} - (1 - \varphi) ^ {0} \big) = \frac {1}{\sqrt {5}} (1 - 1) = 0
+\frac{1}{\sqrt{5}} \big (\varphi^{0} - (1 - \varphi)^{0} \big) = \frac{1}{\sqrt{5}} (1 - 1) = 0
 $$
 
 Thus,  $P(0)$  holds.
@@ -1253,7 +1253,7 @@ Thus,  $P(0)$  holds.
 Also, observe that  $f_{1} = 1$  and
 
 $$
-\frac {1}{\sqrt {5}} \big (\varphi^ {1} - (1 - \varphi) ^ {1} \big) = \frac {1}{\sqrt {5}} \big (2 \varphi - 1 \big) = \frac {1}{\sqrt {5}} \big (1 + \sqrt {5} - 1 \big) = \frac {1}{\sqrt {5}} \big (\sqrt {5} \big) = 1
+\frac{1}{\sqrt{5}} \big (\varphi^{1} - (1 - \varphi)^{1} \big) = \frac{1}{\sqrt{5}} \big (2 \varphi - 1 \big) = \frac{1}{\sqrt{5}} \big (1 + \sqrt{5} - 1 \big) = \frac{1}{\sqrt{5}} \big (\sqrt{5} \big) = 1
 $$
 
 Thus,  $P(1)$  holds.
@@ -1283,13 +1283,13 @@ Claim: Let  $U$  be a universal set. For every  $i \in \mathbb{N}$ , let  $A_i \
 Then, the following equality holds for every  $n \in \mathbb{N}$ :
 
 $$
-\overline {{\bigcup_ {i = 1} ^ {n} A _ {i}}} = \bigcap_ {i = 1} ^ {n} \overline {{A _ {i}}}
+\overline {{\bigcup_{i = 1}^{n} A_{i}}} = \bigcap_{i = 1}^{n} \overline {{A_{i}}}
 $$
 
 Written another way, this claim says that, for every  $n \in \mathbb{N}$ , we have
 
 $$
-\overline {{A _ {1} \cup A _ {2} \cup \cdots \cup A _ {n}}} = \overline {{A _ {1}}} \cap \overline {{A _ {2}}} \cap \dots \cap \overline {{A _ {n}}}
+\overline {{A_{1} \cup A_{2} \cup \cdots \cup A_{n}}} = \overline {{A_{1}}} \cap \overline {{A_{2}}} \cap \dots \cap \overline {{A_{n}}}
 $$
 
 Proof. Let  $U$  and  $A_{1}, A_{2}, \ldots$  be defined as in the claim.
@@ -1297,7 +1297,7 @@ Proof. Let  $U$  and  $A_{1}, A_{2}, \ldots$  be defined as in the claim.
 Let  $P(n)$  be the proposition
 
 $$
-\overline {{\bigcup_ {i = 1} ^ {n} A _ {i}}} = \bigcap_ {i = 1} ^ {n} \overline {{A _ {i}}} ”
+\overline {{\bigcup_{i = 1}^{n} A_{i}}} = \bigcap_{i = 1}^{n} \overline {{A_{i}}} ”
 $$
 
 We will prove  $\forall n\in \mathbb{N}$ $P(n)$  by induction on  $n$
@@ -1311,43 +1311,43 @@ IH: Let  $k \in \mathbb{N} - \{1\}$  be arbitrary and fixed. Suppose  $\forall i
 IS: Our goal now is to deduce that  $P(k + 1)$  holds. First, observe that
 
 $$
-\bigcup_ {i = 1} ^ {k + 1} A _ {i} = A _ {k + 1} \cup \bigcup_ {i = 1} ^ {k} A _ {i}
+\bigcup_{i = 1}^{k + 1} A_{i} = A_{k + 1} \cup \bigcup_{i = 1}^{k} A_{i}
 $$
 
 so let's define
 
 $$
-B _ {k} = \bigcup_ {i = 1} ^ {k} A _ {i}
+B_{k} = \bigcup_{i = 1}^{k} A_{i}
 $$
 
 Then, observe that
 
 $$
-\overline {{\bigcup_ {i = 1} ^ {k + 1} A _ {i}}} = \overline {{A _ {k + 1} \cup B _ {k}}}
+\overline {{\bigcup_{i = 1}^{k + 1} A_{i}}} = \overline {{A_{k + 1} \cup B_{k}}}
 $$
 
 Defn of  $B_{k}$
 
 $$
-= \overline {{A _ {k + 1}}} \cap \overline {{B _ {k}}}
+= \overline {{A_{k + 1}}} \cap \overline {{B_{k}}}
 $$
 
 By BC,  $P(2)$  (a.k.a. DeMorgan)
 
 $$
-= \overline {{A _ {k + 1}}} \cap \overline {{\bigcup_ {i = 1} ^ {k} A _ {i}}}
+= \overline {{A_{k + 1}}} \cap \overline {{\bigcup_{i = 1}^{k} A_{i}}}
 $$
 
 Defn of  $B_{k}$
 
 $$
-= \overline {{A _ {k = 1}}} \cap \bigcap_ {i = 1} ^ {k} \overline {{A _ {i}}}
+= \overline {{A_{k = 1}}} \cap \bigcap_{i = 1}^{k} \overline {{A_{i}}}
 $$
 
 By IH,  $P(k)$
 
 $$
-= \bigcap_ {i = 1} ^ {k + 1} \overline {{A _ {i}}}
+= \bigcap_{i = 1}^{k + 1} \overline {{A_{i}}}
 $$
 
 Simplify
@@ -1386,19 +1386,19 @@ Try answering the following short-answer questions. They require you to actually
 (1) Define a sequence of numbers by
 
 $$
-x _ {1} = 2 \text {a n d} x _ {2} = 3 \text {a n d} \forall n \in \mathbb {N} - \{1, 2 \}. x _ {n} = 3 x _ {n - 1} - 2 x _ {n - 2}
+x_{1} = 2 \text{an d} x_{2} = 3 \text{an d} \forall n \in \mathbb {N} - \{1, 2 \}. x_{n} = 3 x_{n - 1} - 2 x_{n - 2}
 $$
 
 Prove that
 
 $$
-\forall n \in \mathbb {N}. x _ {n} = 2 ^ {n - 1} + 1
+\forall n \in \mathbb {N}. x_{n} = 2^{n - 1} + 1
 $$
 
 (2) Let the sequence  $a_{n}$  be defined by  $a_0 = 0$  and  $a_1 = 1$  and
 
 $$
-\forall n \in \mathbb {N} - \{1 \}. a _ {n} = 5 a _ {n - 1} - 6 a _ {n - 2}
+\forall n \in \mathbb {N} - \{1 \}. a_{n} = 5 a_{n - 1} - 6 a_{n - 2}
 $$
 
 That is,  $\langle a_n\rangle = \langle 0,1,5,19,65,211,\ldots \rangle$
@@ -1408,19 +1408,19 @@ Prove that  $a_{n} = 3^{n} - 2^{n}$  for every  $n\in \mathbb{N}\cup \{0\}$ .
 (3) Let  $a_1 \in \mathbb{Z}$  be arbitrary and fixed. Define a sequence by setting
 
 $$
-\forall n \in \mathbb {N} - \{1 \}. a _ {n} = \sum_ {k = 1} ^ {n - 1} k ^ {2} a _ {k}
+\forall n \in \mathbb {N} - \{1 \}. a_{n} = \sum_{k = 1}^{n - 1} k^{2} a_{k}
 $$
 
 Prove that
 
 $$
-a _ {1} \text {i s e v e n} \Rightarrow \forall n \in \mathbb {N}. a _ {n} \text {i s e v e n}
+a_{1} \text{is ev en} \Rightarrow \forall n \in \mathbb {N}. a_{n} \text{is ev en}
 $$
 
 (4) Define a sequence  $\langle t_n\rangle$  by setting
 
 $$
-t _ {1} = t _ {2} = 2 \mathrm {a n d} \forall n \in \mathbb {N} - \{1, 2 \}. t _ {n} = \frac {1}{2 t _ {n - 2}} (t _ {n - 1} - 4) (t _ {n - 1} - 6)
+t_{1} = t_{2} = 2 \mathrm{an d} \forall n \in \mathbb {N} - \{1, 2 \}. t_{n} = \frac{1}{2 t_{n - 2}} (t_{n - 1} - 4) (t_{n - 1} - 6)
 $$
 
 Prove that  $\forall n\in \mathbb{N}$ $t_n = 2$
@@ -1434,7 +1434,7 @@ $$
 (where  $|x|$  is the absolute value of  $x$ ). Prove that this inequality holds with  $n$  variables, not just 2; that is, prove that if we have a sequence of real numbers  $x_{i}$ , where  $\forall i \in \mathbb{N}$ .  $x_{i} \in \mathbb{R}$ , then
 
 $$
-\forall n \in \mathbb {N}. \left| \sum_ {k = 1} ^ {n} x _ {i} \right| \leq \sum_ {k = 1} ^ {n} | x _ {i} |
+\forall n \in \mathbb {N}. \left| \sum_{k = 1}^{n} x_{i} \right| \leq \sum_{k = 1}^{n} | x_{i} |
 $$
 
 (Note: Prove the  $n = 2$  case, as well. We do not want you to just assume it!)
@@ -1528,7 +1528,7 @@ Example 5.5.1. Expressing naturals uniquely as a product:
 Claim: Every  $n \in \mathbb{N}$  can be expressed uniquely as a power of 2 times an odd number. That is,
 
 $$
-\forall n \in \mathbb {N}. \exists m, \ell \in \mathbb {N} \cup \{0 \}. n = 2 ^ {m} \cdot (2 \ell + 1)
+\forall n \in \mathbb {N}. \exists m, \ell \in \mathbb {N} \cup \{0 \}. n = 2^{m} \cdot (2 \ell + 1)
 $$
 
 and the  $\ell, m$  that exist are the only values that satisfy this equality.
@@ -1550,13 +1550,13 @@ Thus,  $P\left(\frac{k + 1}{2}\right)$  fails in this case (for non-existence).
 Next, suppose  $k + 1$  has at least two such representations:
 
 $$
-k + 1 = 2 ^ {m _ {1}} \left(2 \ell_ {1} + 1\right) \text {a n d} k + 1 = 2 ^ {m _ {2}} \left(2 \ell_ {2} + 1\right)
+k + 1 = 2^{m_{1}} \left(2 \ell_{1} + 1\right) \text{an d} k + 1 = 2^{m_{2}} \left(2 \ell_{2} + 1\right)
 $$
 
 We are assuming they are different, i.e.  $(m_1,\ell_1)\neq (m_2,\ell_2)$ . Since  $k + 1$  is even, we know  $m_{1},m_{2}\geq 1$ . By decreasing the powers of 2 by 1 each, we see that
 
 $$
-\frac {k + 1}{2} = 2 ^ {m _ {1} - 1} (2 \ell_ {1} + 1) \text {a n d} \frac {k + 1}{2} = 2 ^ {m _ {2} - 1} (2 \ell_ {2} + 1)
+\frac{k + 1}{2} = 2^{m_{1} - 1} (2 \ell_{1} + 1) \text{an d} \frac{k + 1}{2} = 2^{m_{2} - 1} (2 \ell_{2} + 1)
 $$
 
 are two representations of  $\frac{k + 1}{2}$ . (Also note that  $m_1 - 1, m_2 - 1 \geq 0$ .) These are different because  $(m_1 - 1, \ell_1) \neq (m_2 - 1, \ell_2)$ , based on our assumption above.
@@ -1568,7 +1568,7 @@ In either situation, we find that  $P\left(\frac{k + 1}{2}\right)$  fails.
 Case 2: Suppose  $k + 1$  is odd. This means  $\exists \ell \in \mathbb{N} \cup \{0\}$ .  $k + 1 = 2\ell + 1$ . Then certainly we can represent  $k + 1$  as
 
 $$
-k + 1 = 2 ^ {0} \cdot (2 \ell + 1)
+k + 1 = 2^{0} \cdot (2 \ell + 1)
 $$
 
 Also, there is certainly no other way to do this. Using a different power of 2 will make the product even (but  $k + 1$  is odd), and using a different odd factor will make the product different. Thus, this case is a contradiction.
@@ -1636,19 +1636,19 @@ WOP: The Well-Ordering Principle
 By the way we proved PSI and WOP, we can already deduce that
 
 $$
-\mathrm {P M I} \Rightarrow \mathrm {P S I} \quad \text {a n d} \quad \mathrm {P M I} \Rightarrow \mathrm {W O P}
+\mathrm{PM I} \Rightarrow \mathrm{PS I} \quad \text{an d} \quad \mathrm{PM I} \Rightarrow \mathrm{WO P}
 $$
 
 We also described in Section 5.4.2 how
 
 $$
-\mathrm {P S I} \Longrightarrow \mathrm {P M I}
+\mathrm{PS I} \Longrightarrow \mathrm{PM I}
 $$
 
 so now we know that
 
 $$
-\mathrm {P M I} \Longleftrightarrow \mathrm {P S I} \quad \text {a n d} \quad \mathrm {P M I} \Longrightarrow \mathrm {W O P}
+\mathrm{PM I} \Longleftrightarrow \mathrm{PS I} \quad \text{an d} \quad \mathrm{PM I} \Longrightarrow \mathrm{WO P}
 $$
 
 To complete the proof, we will show that  $\mathrm{WOP} \Longrightarrow \mathrm{PMI}$ . This will show that  $\mathrm{WOP} \Longleftrightarrow \mathrm{PMI}$ , and the equivalence above will allow us to deduce that all three are logically equivalent.
@@ -1660,7 +1660,7 @@ Suppose we have a proposition  $P(n)$ , defined for every  $n \in \mathbb{N}$ . 
 Define the set  $F$  to be the set of "False instances" of  $P(n)$ . That is, define
 
 $$
-F = \{n \in \mathbb {N} \mid P (n) \text {i s} \mathsf {F a l s e} \}
+F = \{n \in \mathbb {N} \mid P (n) \text{is} \mathsf {F a l s e} \}
 $$
 
 To prove that  $\forall n\in \mathbb{N}$ $P(n)$  , we will AFSOC that  $F\neq \varnothing$
@@ -1732,7 +1732,7 @@ For example,  $2 = 2$  and  $8 = 6 + 2$  and  $101 = 3 \cdot 33 + 2$ .
 That is, we are defining
 
 $$
-T = \left\{x \in \mathbb {N} \mid \exists y, z \in \mathbb {N}. 4 x ^ {4} + 2 y ^ {4} = z ^ {4} \right\}
+T = \left\{x \in \mathbb {N} \mid \exists y, z \in \mathbb {N}. 4 x^{4} + 2 y^{4} = z^{4} \right\}
 $$
 
 and pre-supposing that this set is non-empty (i.e. the equation has solutions) so that  $T$  has a least element.
@@ -1769,7 +1769,7 @@ Particularly challenging problems have been marked with a  $\star$ .
 Problem 5.7.1. Prove that
 
 $$
-\forall n \in \mathbb {N}. \sum_ {k = 1} ^ {n} k ^ {3} = \left(\sum_ {k = 1} ^ {n} k\right) ^ {2}
+\forall n \in \mathbb {N}. \sum_{k = 1}^{n} k^{3} = \left(\sum_{k = 1}^{n} k\right)^{2}
 $$
 
 Problem 5.7.2. For each of the following inequalities, determine the set of natural numbers for which it holds. Make a claim and then prove it (by induction, if necessary).
@@ -1807,7 +1807,7 @@ For each of the following pairs  $(x,y)$ , state and prove a claim that identifi
 Problem 5.7.5. Prove that for any  $n \in \mathbb{N}$ , for any real numbers  $x_1, x_2, \ldots, x_n$  that satisfy  $\forall i \in [n]$ .  $0 \leq x_i \leq 1$ , the following inequality holds:
 
 $$
-\prod_ {i = 1} ^ {n} \left(1 - x _ {i}\right) \geq 1 - \sum_ {i = 1} ^ {n} x _ {i}
+\prod_{i = 1}^{n} \left(1 - x_{i}\right) \geq 1 - \sum_{i = 1}^{n} x_{i}
 $$
 
 This is known as Bernoulli's Inequality.
@@ -1835,7 +1835,7 @@ Problem 5.7.8. (a) Identify the set of natural numbers  $n$  for which the inequ
 Problem 5.7.9.  $\star$  Prove the following generalization of the previous problem:
 
 $$
-\forall m \in \mathbb {N} - \{1 \}. \exists B _ {m} \in \mathbb {N}. \forall n \in \mathbb {N}. n \geq B _ {m} \Rightarrow n! > m ^ {n}
+\forall m \in \mathbb {N} - \{1 \}. \exists B_{m} \in \mathbb {N}. \forall n \in \mathbb {N}. n \geq B_{m} \Rightarrow n! > m^{n}
 $$
 
 Problem 5.7.10. Recall that the Fibonacci Numbers are defined by setting  $f_0 = 0$  and  $f_1 = 1$  and then, for every  $n \geq 2$ , setting  $f_n = f_{n-1} + f_{n-2}$ .
@@ -1855,7 +1855,7 @@ In this problem, we want you to prove the converse of this assertion, that the o
 Claim: Suppose  $\langle a_i\rangle$  is a sequence of real numbers, i.e.  $\forall i\in \mathbb{N}$ $a_{i}\in \mathbb{R}$  Suppose this sequence has the property that
 
 $$
-\forall n \in \mathbb {N}. \sum_ {k = 1} ^ {n} a _ {k} ^ {3} = \left(\sum_ {k = 1} ^ {n} a _ {k}\right) ^ {2}
+\forall n \in \mathbb {N}. \sum_{k = 1}^{n} a_{k}^{3} = \left(\sum_{k = 1}^{n} a_{k}\right)^{2}
 $$
 
 Prove that, necessarily,  $\forall n\in \mathbb{N}$ $a_{n} = n$  , by induction on  $n$
@@ -1876,13 +1876,13 @@ Problem 5.7.15. Prove that  $n^3 + 5n$  is a multiple of 6 for every  $n \in \ma
 Problem 5.7.16. Prove that the following summation equality holds for every  $n \in \mathbb{N}$ :
 
 $$
-\sum_ {k = n} ^ {2 n - 1} 2 k + 1 = 3 n ^ {2}
+\sum_{k = n}^{2 n - 1} 2 k + 1 = 3 n^{2}
 $$
 
 Problem 5.7.17. For every  $n\in \mathbb{N}\cup \{0\}$  , define
 
 $$
-s _ {n} = \left(3 + \sqrt {5}\right) ^ {n} + \left(3 - \sqrt {5}\right) ^ {n}
+s_{n} = \left(3 + \sqrt{5}\right)^{n} + \left(3 - \sqrt{5}\right)^{n}
 $$
 
 Prove that every such  $s_n$  is actually an integer. Also, prove that, in fact,  $s_n$  is a multiple of  $2^n$ . (!)
@@ -1890,7 +1890,7 @@ Prove that every such  $s_n$  is actually an integer. Also, prove that, in fact,
 Problem 5.7.18. In this problem, we will prove that the familiar Harmonic Series, given by
 
 $$
-\sum_ {k = 1} ^ {\infty} \frac {1}{k} = 1 + \frac {1}{2} + \frac {1}{3} + \frac {1}{4} + \dots
+\sum_{k = 1}^{\infty} \frac{1}{k} = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \dots
 $$
 
 is divergent; that is, we will prove that the sum of all the terms does not approach a finite limit.
@@ -1898,7 +1898,7 @@ is divergent; that is, we will prove that the sum of all the terms does not appr
 We claim that the following inequality holds for every natural number  $n$ :
 
 $$
-\sum_ {k = 1} ^ {2 ^ {n}} \frac {1}{k} > \frac {n + 1}{2}
+\sum_{k = 1}^{2^{n}} \frac{1}{k} > \frac{n + 1}{2}
 $$
 
 Call this inequality  $\star$
@@ -1913,7 +1913,7 @@ Deduce that  $\star$  also holds for the value  $n = m + 1$ . Be sure to cite wh
 Problem 5.7.19. Prove that the following inequality holds for every  $n \in \mathbb{N}$ :
 
 $$
-\sum_ {k = 1} ^ {n} \frac {1}{\sqrt {k}} = 1 + \frac {1}{\sqrt {2}} + \frac {1}{\sqrt {3}} + \dots \frac {1}{\sqrt {n}} \geq \sqrt {n}
+\sum_{k = 1}^{n} \frac{1}{\sqrt{k}} = 1 + \frac{1}{\sqrt{2}} + \frac{1}{\sqrt{3}} + \dots \frac{1}{\sqrt{n}} \geq \sqrt{n}
 $$
 
 Use this to deduce that the infinite series  $\sum_{k=1}^{\infty} \frac{1}{\sqrt{k}}$  does not converge to a finite limit.
@@ -1921,7 +1921,7 @@ Use this to deduce that the infinite series  $\sum_{k=1}^{\infty} \frac{1}{\sqrt
 Problem 5.7.20. Prove that the following inequality holds for every  $n \in \mathbb{N}$ :
 
 $$
-\prod_ {i = 1} ^ {n} \left(i + \frac {1}{i ^ {2}}\right) = \left(1 + \frac {1}{1 ^ {2}}\right) \left(1 + \frac {1}{2 ^ {2}}\right) \dots \left(1 + \frac {1}{n ^ {2}}\right) <   4 - \frac {1}{n}
+\prod_{i = 1}^{n} \left(i + \frac{1}{i^{2}}\right) = \left(1 + \frac{1}{1^{2}}\right) \left(1 + \frac{1}{2^{2}}\right) \dots \left(1 + \frac{1}{n^{2}}\right) <   4 - \frac{1}{n}
 $$
 
 Problem 5.7.21. In this problem, you will prove the Well-Ordering Principle of the natural numbers. This is stated in Theorem 5.5.2, but we'll restate it here:

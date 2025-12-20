@@ -142,7 +142,7 @@ $\Rightarrow \mathsf{P} \downarrow$  due to competition among sellers
 Claim: In a market equilibrium a quantity  $Q^{*}$  must be sold, so that
 
 $$
-P ^ {D} (Q ^ {*}) = P ^ {S} (Q ^ {*}) = P ^ {*}
+P^{D} (Q^{*}) = P^{S} (Q^{*}) = P^{*}
 $$
 
 In a competitive market:  $MB(Q^{*}) = MC(Q^{*}) = P^{*}$
@@ -163,7 +163,7 @@ If  $Q$  is prevented from reaching  $Q^{*}$ , the potential unrealized surplus 
 # Out-of-equilibrium states and quantity-equilibrating mechanisms
 
 $$
-\mathrm {I f} Q > Q ^ {*}, P ^ {D} (Q) <   P ^ {S} (Q)
+\mathrm{If} Q > Q^{*}, P^{D} (Q) <   P^{S} (Q)
 $$
 
 $\Rightarrow$  depending on the price, either the buyers are paying more than their reservation price, or sellers are selling at below their reservation price, or both
@@ -236,11 +236,11 @@ Conclusions
 - Demand and supply price elasticities:
 
 $$
-\varepsilon_ {x, P _ {x}} ^ {D} = \frac {\partial x ^ {D}}{\partial P _ {x}} \times \frac {P _ {x}}{x ^ {D}}
+\varepsilon_{x, P_{x}}^{D} = \frac{\partial x^{D}}{\partial P_{x}} \times \frac{P_{x}}{x^{D}}
 $$
 
 $$
-\varepsilon_ {\boldsymbol {x}, \boldsymbol {P} _ {\boldsymbol {x}}} ^ {s} = \frac {\partial \boldsymbol {x} ^ {s}}{\partial \boldsymbol {P} _ {\boldsymbol {x}}} \times \frac {\boldsymbol {P} _ {\boldsymbol {x}}}{\boldsymbol {x} ^ {s}}
+\varepsilon_{\boldsymbol {x}, \boldsymbol {P}_{\boldsymbol {x}}}^{s} = \frac{\partial \boldsymbol {x}^{s}}{\partial \boldsymbol {P}_{\boldsymbol {x}}} \times \frac{\boldsymbol {P}_{\boldsymbol {x}}}{\boldsymbol {x}^{s}}
 $$
 
 # Demand elasticity
@@ -498,7 +498,7 @@ $\rightarrow$  The DWL introduced by a price ceiling depends on the elasticity o
 Recall the price elasticities of supply and demand:
 
 $$
-\begin{array}{l} \varepsilon_ {Q ^ {S}, P} = \varepsilon^ {S} = \frac {\partial Q ^ {S}}{\partial P} \times \frac {P}{Q ^ {s}} = \frac {\Delta Q ^ {S} / Q ^ {S}}{\Delta P / P} \\ \varepsilon_ {Q ^ {D}, P} = \varepsilon^ {D} = \frac {\partial Q ^ {D}}{\partial P} \times \frac {P}{Q ^ {D}} = \frac {\Delta Q ^ {D} / Q ^ {D}}{\Delta P / P} \\ \end{array}
+\begin{array}{l} \varepsilon_{Q^{S}, P} = \varepsilon^{S} = \frac{\partial Q^{S}}{\partial P} \times \frac{P}{Q^{s}} = \frac{\Delta Q^{S} / Q^{S}}{\Delta P / P} \\ \varepsilon_{Q^{D}, P} = \varepsilon^{D} = \frac{\partial Q^{D}}{\partial P} \times \frac{P}{Q^{D}} = \frac{\Delta Q^{D} / Q^{D}}{\Delta P / P} \\ \end{array}
 $$
 
 # Inefficiency introduced by a price ceiling
@@ -510,11 +510,11 @@ $$
 e.g.  $P^{*} = \$ 5, Q^{*} = 100$
 
 $$
-P _ {c e i l i n g} = \$ 4
+P_{c e i l i n g} = \$ 4
 $$
 
 $$
-\varepsilon^ {S} = 0. 2 5
+\varepsilon^{S} = 0. 2 5
 $$
 
 # Price ceiling with elastic supply
@@ -524,19 +524,19 @@ $$
 e.g.  $P^{*} = \$ 5, Q^{*} = 100$
 
 $$
-P _ {c e i l i n g} = \$ 4
+P_{c e i l i n g} = \$ 4
 $$
 
 $$
-\varepsilon^ {S} = 2 \Rightarrow Q ^ {\prime} = 6 0
+\varepsilon^{S} = 2 \Rightarrow Q^{\prime} = 6 0
 $$
 
 $$
-\varepsilon^ {S} = \frac {\Delta Q / Q}{\Delta P / P} \Rightarrow \frac {\Delta Q}{Q} = \varepsilon^ {S} \times \frac {\Delta P}{P} = 0.25 \times 20 \% = 5 \%
+\varepsilon^{S} = \frac{\Delta Q / Q}{\Delta P / P} \Rightarrow \frac{\Delta Q}{Q} = \varepsilon^{S} \times \frac{\Delta P}{P} = 0.25 \times 20 \% = 5 \%
 $$
 
 $$
-\Rightarrow Q ^ {\prime} = 9 5
+\Rightarrow Q^{\prime} = 9 5
 $$
 
 # Inefficiency introduced by a price floor
@@ -671,7 +671,7 @@ Then the profit maximizing condition is:  $MC(q) + t = P$
 $\Rightarrow MC = P - t,$  from which we obtain the firm's supply:
 
 $$
-q ^ {s ^ {\prime}} (P) = q ^ {s} (P - t)
+q^{s^{\prime}} (P) = q^{s} (P - t)
 $$
 
 $\Rightarrow$  At the market level:  $Q^{s^{\prime}}(P) = Q^{s}(P - t)$
@@ -679,7 +679,7 @@ $\Rightarrow$  At the market level:  $Q^{s^{\prime}}(P) = Q^{s}(P - t)$
 - Alternatively, if the tax is collected from consumers, we can think of adding it to the price they pay:
 
 $$
-q ^ {D ^ {\prime}} (P) = q ^ {D} (P + t)
+q^{D^{\prime}} (P) = q^{D} (P + t)
 $$
 
 (then supply would stay unchanged)
@@ -701,7 +701,7 @@ If taxes are collected from buyers (or we simply take the producer's perspective
 Tax  $t$  introduces a wedge between the prices faced by the demand and supply sides ( $p^d$  and  $p^s$ ):
 
 $$
-p ^ {d} = p ^ {s} + t
+p^{d} = p^{s} + t
 $$
 
 What happens to the quantity produced?
@@ -750,7 +750,7 @@ Uniform pricing
 Tax  $t$  introduces a wedge between the prices faced by the demand and supply sides ( $P^D$  and  $P^S$ )
 
 $$
-P ^ {D} = P ^ {S} + t
+P^{D} = P^{S} + t
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/67703631761e836cf53a2157ed5408714878a44cb059c85d85c96393ec4fffd0.jpg)
@@ -758,7 +758,7 @@ $$
 $\rightarrow$  Algebraically, look for quantity  $Q'$  so that
 
 $$
-P ^ {D} (Q ^ {\prime}) = P ^ {S} (Q ^ {\prime}) + t
+P^{D} (Q^{\prime}) = P^{S} (Q^{\prime}) + t
 $$
 
 $\rightarrow$  Graphically, we can shift supply up by  $t$
@@ -774,11 +774,11 @@ We can also show PS in relation to  $S'$ :
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/48bfc6d0f4b0b85a0b1289f45bb14766dc960e235b137d812e799a926bcae87b.jpg)
 
 $$
-Q ^ {D} = 6 0 - P
+Q^{D} = 6 0 - P
 $$
 
 $$
-Q ^ {S} = 2 P
+Q^{S} = 2 P
 $$
 
 $$
@@ -788,7 +788,7 @@ $$
 Without tax:
 
 $$
-Q ^ {D} (P) = Q ^ {S} (P)
+Q^{D} (P) = Q^{S} (P)
 $$
 
 $$
@@ -796,37 +796,37 @@ $$
 $$
 
 $$
-P ^ {*} = 2 0
+P^{*} = 2 0
 $$
 
 $$
-Q ^ {*} = 4 0
+Q^{*} = 4 0
 $$
 
 With tax:
 
 $$
-Q ^ {D} (P ^ {d}) = Q ^ {S} (P ^ {S})
+Q^{D} (P^{d}) = Q^{S} (P^{S})
 $$
 
 $$
-w h e r e P ^ {s} = P ^ {d} - t
+w h e r e P^{s} = P^{d} - t
 $$
 
 $$
-6 0 - P ^ {d} = 2 \left(P ^ {d} - 1 2\right)
+6 0 - P^{d} = 2 \left(P^{d} - 1 2\right)
 $$
 
 $$
-P ^ {d} = 2 0 + 2 ^ {*} t / 3 = 2 8
+P^{d} = 2 0 + 2^{*} t / 3 = 2 8
 $$
 
 $$
-P ^ {S} = 2 0 - t / 3 = 1 6
+P^{S} = 2 0 - t / 3 = 1 6
 $$
 
 $$
-Q ^ {\prime} = 2 ^ {*} 1 6 = 3 2
+Q^{\prime} = 2^{*} 1 6 = 3 2
 $$
 
 # Incidence of a tax
@@ -875,7 +875,7 @@ But what is  $P$ ?  $P$  is the highest price the firm can charge per unit
 - For a small undifferentiated producer:  $P = P_{mkt}$
 
 $$
-\begin{array}{l} \Rightarrow q ^ {s} = q \mathrm {f o r w h i c h} P _ {m k t} = M C (q) \\ \Rightarrow \text {i n v e r s e} P ^ {S} (q) = M C (q) \\ \end{array}
+\begin{array}{l} \Rightarrow q^{s} = q \mathrm{fo rw hi ch} P_{m k t} = M C (q) \\ \Rightarrow \text{in ve rs e} P^{S} (q) = M C (q) \\ \end{array}
 $$
 
 - For a large/differentiated producer,  $P$  is given by …  
@@ -916,7 +916,7 @@ Monopsony = market with a single buyer (assume many sellers)
 How does the firm decide how much to produce?
 
 $$
-q ^ {s} = \arg \max (P \times q - T C (q))
+q^{s} = \arg \max (P \times q - T C (q))
 $$
 
 For a monopolist:  $\pi = P^{D}(Q) \times Q - TC(Q)$
@@ -924,7 +924,7 @@ For a monopolist:  $\pi = P^{D}(Q) \times Q - TC(Q)$
 $1^{\mathrm{st}}$  order condition:  $\pi'(Q) = 0$
 
 $$
-\frac {\partial \pi}{\partial Q} = \underbrace {\frac {\partial P ^ {D} (Q)}{\partial Q} \times Q + P ^ {D} (Q)} _ {M R (Q)} - M C (Q) = 0
+\frac{\partial \pi}{\partial Q} = \underbrace {\frac{\partial P^{D} (Q)}{\partial Q} \times Q + P^{D} (Q)}_{M R (Q)} - M C (Q) = 0
 $$
 
 If  $P^{D}(Q) = a - bQ$ :
@@ -967,7 +967,7 @@ Uniform pricing
 How does the firm decide how much to produce?
 
 $$
-q ^ {s} = \arg \max (P \times q - T C (q))
+q^{s} = \arg \max (P \times q - T C (q))
 $$
 
 For a monopolist:  $\pi = P^{D}(Q) \times Q - TC(Q)$
@@ -975,7 +975,7 @@ For a monopolist:  $\pi = P^{D}(Q) \times Q - TC(Q)$
 $1^{\mathrm{st}}$  order condition:  $\pi'(Q) = 0$
 
 $$
-\frac {\partial \pi}{\partial Q} = \underbrace {\frac {\partial P ^ {D} (Q)}{\partial Q} \times Q + P ^ {D} (Q)} _ {M R (Q)} - M C (Q) = 0
+\frac{\partial \pi}{\partial Q} = \underbrace {\frac{\partial P^{D} (Q)}{\partial Q} \times Q + P^{D} (Q)}_{M R (Q)} - M C (Q) = 0
 $$
 
 If  $P^{D}(Q) = a - bQ$ :
@@ -995,7 +995,7 @@ So far we've only imposed the  $1^{\text{st}}$  order condition, which is met fo
 To ensure that we are at a maximum, the  $2^{\text{nd}}$  order condition will be:
 
 $$
-\frac {\partial^ {2} \pi}{\partial Q ^ {2}} <   0
+\frac{\partial^{2} \pi}{\partial Q^{2}} <   0
 $$
 
 For a competitive firm:  $\pi (q) = P_{mkt}\times q - TC(q)$
@@ -1019,7 +1019,7 @@ $2^{\text{nd}}$  order condition:  $\pi''(Q) = \frac{\partial MR(Q)}{\partial Q}
 For linear demand  $(P^{D}(Q) = a - bQ)$  we showed  $MR = a - 2bQ$
 
 $$
-\begin{array}{l} \Rightarrow \pi^ {\prime \prime} (Q) = - 2 b - \frac {\partial M C (Q)}{\partial Q} <   0 \\ \Rightarrow \mathrm {w e c a n h a v e a s o l u t i o n e v e n w h e n} M C \downarrow \\ \end{array}
+\begin{array}{l} \Rightarrow \pi^{\prime \prime} (Q) = - 2 b - \frac{\partial M C (Q)}{\partial Q} <   0 \\ \Rightarrow \mathrm{we ca nh av ea so lu ti on ev en wh en} M C \downarrow \\ \end{array}
 $$
 
 # Inverse elasticity pricing rule
@@ -1029,23 +1029,23 @@ $$
 $$
 
 $$
-\frac {\partial \pi}{\partial q} = \frac {\partial T R}{\partial q} - \frac {\partial T C}{\partial q} = 0 \Leftrightarrow M R = M C
+\frac{\partial \pi}{\partial q} = \frac{\partial T R}{\partial q} - \frac{\partial T C}{\partial q} = 0 \Leftrightarrow M R = M C
 $$
 
 $$
-M R = \frac {\partial T R}{\partial q} = P + \frac {\partial P}{\partial q} \times q = P \left(1 - \frac {1}{| \varepsilon^ {D} |}\right)
+M R = \frac{\partial T R}{\partial q} = P + \frac{\partial P}{\partial q} \times q = P \left(1 - \frac{1}{| \varepsilon^{D} |}\right)
 $$
 
 $$
-M R = M C \mathrm {l e a d s t o :} \quad \frac {(P - M C)}{P} = \frac {1}{| \varepsilon^ {D} |}
+M R = M C \mathrm{le ad st o :} \quad \frac{(P - M C)}{P} = \frac{1}{| \varepsilon^{D} |}
 $$
 
 $$
-P - M C = “ \mathrm {m a r k - u p}"
+P - M C = “ \mathrm{ma rk -u p}"
 $$
 
 $$
-\frac {(P - M C)}{P} = “ \mathrm {L e r n e r i n d e x}"
+\frac{(P - M C)}{P} = “ \mathrm{Le rn er in de x}"
 $$
 
 # The Lerner Index and IEPR
@@ -1079,7 +1079,7 @@ Applying IEPR we get:  $90\% = \left|\frac{1}{\varepsilon_{Q,P}}\right|$  so  $\
 - what is marginal revenue?
 
 $$
-M R = \frac {\partial T R}{\partial q} = \frac {\partial (P _ {m a r k e t} \times q)}{\partial q} = P _ {m a r k e t}
+M R = \frac{\partial T R}{\partial q} = \frac{\partial (P_{m a r k e t} \times q)}{\partial q} = P_{m a r k e t}
 $$
 
 # Under a monopoly?
@@ -1093,7 +1093,7 @@ $$
 - what is marginal revenue?
 
 $$
-M R = \frac {\partial T R}{\partial q} = \frac {\partial (P \times q)}{\partial q} = P + \frac {\partial P}{\partial q} \times q
+M R = \frac{\partial T R}{\partial q} = \frac{\partial (P \times q)}{\partial q} = P + \frac{\partial P}{\partial q} \times q
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/d3f50a855fb8fc8faf7ffb560972ceb8c429148cbecfe742c07523f4fc95f336.jpg)
@@ -1103,13 +1103,13 @@ Consider demand  $Q^{D} = a - bP$
 To find MR, write inverse demand:
 
 $$
-\operatorname {P} (Q) = \frac {a}{b} - \frac {Q}{b}
+\operatorname{P} (Q) = \frac{a}{b} - \frac{Q}{b}
 $$
 
 Apply the formula for MR:
 
 $$
-\begin{array}{l} M R (Q) = \frac {\partial T R}{\partial Q} = P + Q * \frac {\partial P}{\partial Q} \\ = \left(\frac {a}{b} - \frac {Q}{b}\right) + Q * \left(- \frac {1}{b}\right) \\ \Rightarrow M R (Q) = \frac {a}{b} - 2 \frac {Q}{b} \\ \end{array}
+\begin{array}{l} M R (Q) = \frac{\partial T R}{\partial Q} = P + Q * \frac{\partial P}{\partial Q} \\ = \left(\frac{a}{b} - \frac{Q}{b}\right) + Q * \left(- \frac{1}{b}\right) \\ \Rightarrow M R (Q) = \frac{a}{b} - 2 \frac{Q}{b} \\ \end{array}
 $$
 
 At what quantity  $Q$  does marginal revenue drop to zero?  $a / 2$
@@ -1125,13 +1125,13 @@ Consider demand  $Q^{D} = a - bP$
 To find MR, write inverse demand:
 
 $$
-\operatorname {P} (Q) = \frac {a}{b} - \frac {Q}{b}
+\operatorname{P} (Q) = \frac{a}{b} - \frac{Q}{b}
 $$
 
 Apply the formula for MR:
 
 $$
-\begin{array}{l} M R (Q) = \frac {\partial T R}{\partial Q} = P + Q * \frac {\partial P}{\partial Q} \\ = \left(\frac {a}{b} - \frac {Q}{b}\right) + Q * \left(- \frac {1}{b}\right) \\ \Rightarrow M R (Q) = \frac {a}{b} - 2 \frac {Q}{b} \\ \end{array}
+\begin{array}{l} M R (Q) = \frac{\partial T R}{\partial Q} = P + Q * \frac{\partial P}{\partial Q} \\ = \left(\frac{a}{b} - \frac{Q}{b}\right) + Q * \left(- \frac{1}{b}\right) \\ \Rightarrow M R (Q) = \frac{a}{b} - 2 \frac{Q}{b} \\ \end{array}
 $$
 
 At what quantity  $Q$  does marginal revenue drop to zero?  $a / 2$
@@ -1196,10 +1196,10 @@ Calculate  $MR = \frac{\partial TR}{\partial q} = P^{D}(q) + \frac{\partial P^{D
 To find consumer surplus, note that it simply represents the sum of unit-level surplus amounts  $(MB_{i} - P)$ , for all the units  $i$  consumed. In the continuous case this becomes an integral:
 
 $$
-C S = \sum_ {i} (M B _ {i} - P) \rightarrow \int_ {0} ^ {Q ^ {M}} (M B (x) - P) d x
+C S = \sum_{i} (M B_{i} - P) \rightarrow \int_{0}^{Q^{M}} (M B (x) - P) d x
 $$
 
-Similarly:  $P S = \int_ { 0 } ^ { Q ^ { M } } ( P - M C ( x ) ) d x$
+Similarly:  $P S = \int_{ 0 }^{ Q^{ M } } ( P - M C ( x ) ) d x$
 
 Deadweight loss:  $DWL = \int_{Q^M}^{Q^*}(MB(x) - MC(x))dx$  (assuming no externalities)
 
@@ -1216,11 +1216,11 @@ Does  $P^M$  change?
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/2d6b956b261709063747653eabe3db5252ce08370870766e33464a4f4bcf285a.jpg)
 
 $$
-\pi_ {m a x} <   0
+\pi_{m a x} <   0
 $$
 
 $$
-\Rightarrow \mathrm {n o m a r k e t}
+\Rightarrow \mathrm{no ma rk et}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/206af0278bcaf3dcb39b45c66793a2ef7b32046cbc19ef4131f44ec3d6af8ae7.jpg)
@@ -1234,13 +1234,13 @@ Find PS, CS, DWL.
 Inverse demand is:
 
 $$
-P ^ {D} = 5 - Q / 4
+P^{D} = 5 - Q / 4
 $$
 
 The monopolist's marginal revenue is then:
 
 $$
-\mathrm {M R} = 5 - \mathrm {Q} / 2
+\mathrm{MR} = 5 - \mathrm{Q} / 2
 $$
 
 Set MR = MC
@@ -1248,23 +1248,23 @@ Set MR = MC
 $5 - Q / 2 = 1$ , which leads to:
 
 $$
-Q ^ {M} = 8
+Q^{M} = 8
 $$
 
 $$
-P ^ {M} = 5 - 8 / 4 = \$ 3
+P^{M} = 5 - 8 / 4 = \$ 3
 $$
 
 $$
-P S = (3 - 1) ^ {*} 8 = \$ 1 6
+P S = (3 - 1)^{*} 8 = \$ 1 6
 $$
 
 $$
-C S = (5 - 3) ^ {*} 8 / 2 = \$ 8
+C S = (5 - 3)^{*} 8 / 2 = \$ 8
 $$
 
 $$
-D W L = (3 - 1) ^ {*} (1 6 - 8) / 2 = \$ 8
+D W L = (3 - 1)^{*} (1 6 - 8) / 2 = \$ 8
 $$
 
 Does this monopolist earn positive profits?
@@ -1286,17 +1286,17 @@ What if marginal cost MC decreases linearly?
 Unlike for a price-taking firm, we can have a solution at MR=MC even with MC decreasing, as long as MR decreases faster than MC.
 
 $$
-\mathrm {N e e d} \frac {\partial^ {2} \pi}{\partial Q ^ {2}} <   0
+\mathrm{Ne ed} \frac{\partial^{2} \pi}{\partial Q^{2}} <   0
 $$
 
 $$
-\Leftrightarrow \frac {\partial}{\partial Q} (M R - M C) <   0
+\Leftrightarrow \frac{\partial}{\partial Q} (M R - M C) <   0
 $$
 
 Remember for price taker,
 
 $$
-M R = P _ {m a r k e t} \Rightarrow \frac {\partial M R}{\partial q} = 0
+M R = P_{m a r k e t} \Rightarrow \frac{\partial M R}{\partial q} = 0
 $$
 
 So  $2^{\text{nd}}$  order cond. was  $\frac{\partial MC}{\partial q} > 0$
@@ -1429,13 +1429,13 @@ Econ 100C: Intermediate Microeconomics Fall 2021
 Show marginal cost pricing in each of these graphs
 
 $$
-\pi <   0 \mathrm {a t} Q = Q ^ {*}
+\pi <   0 \mathrm{at} Q = Q^{*}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/34e68a05eaf0db2443d710457842f99d93229615392723debb2a83337469922e.jpg)
 
 $$
-\pi > 0 \mathrm {a t} Q = Q ^ {*}
+\pi > 0 \mathrm{at} Q = Q^{*}
 $$
 
 # Dealing with a monopoly
@@ -1574,11 +1574,11 @@ What is the monopolist's surplus with uniform pricing?
 P (\$/unit)
 
 $$
-\begin{array}{l} Q ^ {D} = 5 0 0 - 5 0 P \\ \Rightarrow P ^ {D} = 1 0 - Q / 5 0 \\ M R = \frac {\partial P Q}{\partial Q} = 1 0 - Q / 2 5 \\ \end{array}
+\begin{array}{l} Q^{D} = 5 0 0 - 5 0 P \\ \Rightarrow P^{D} = 1 0 - Q / 5 0 \\ M R = \frac{\partial P Q}{\partial Q} = 1 0 - Q / 2 5 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \mathrm {M R} = \mathrm {M C}, \mathrm {t h e r e f o r e} 1 0 - \mathrm {Q} / 2 5 = 2 \\ \Rightarrow Q ^ {M} = 8 ^ {*} 2 5 = 2 0 0 \\ P ^ {M} = 1 0 - Q ^ {M} / 5 0 = \$ 6 \\ P S = (6 - 2) ^ {*} 2 0 0 = \$ 8 0 0 \\ \end{array}
+\begin{array}{l} \mathrm{MR} = \mathrm{MC}, \mathrm{th er ef or e} 1 0 - \mathrm{Q} / 2 5 = 2 \\ \Rightarrow Q^{M} = 8^{*} 2 5 = 2 0 0 \\ P^{M} = 1 0 - Q^{M} / 5 0 = \$ 6 \\ P S = (6 - 2)^{*} 2 0 0 = \$ 8 0 0 \\ \end{array}
 $$
 
 # Two-part tariff example, cont'd
@@ -1668,7 +1668,7 @@ This process of rising price can be prevented by:
 (assuming competitive demand)
 
 $$
-\begin{array}{l} \max  _ {Q} (P \times Q - \int_ {Q} M C (Q) d Q) \\ = \text {t o t a l} \\ \text {r e v e n u e T R} \end{array} \quad \begin{array}{l} \text {t o t a l (v a r i a b l e) c o s t} \\ = \text {a r e a u n d e r M C} \end{array}
+\begin{array}{l} \max_{Q} (P \times Q - \int_{Q} M C (Q) d Q) \\ = \text{to ta l} \\ \text{re ve nu eT R} \end{array} \quad \begin{array}{l} \text{to ta l (va ri ab le)c os t} \\ = \text{ar ea un de rM C} \end{array}
 $$
 
 1 $^{\text{st}}$  order condition:
@@ -1678,7 +1678,7 @@ M R = M C
 $$
 
 $$
-\mathrm {w h e r e} M R = \frac {\partial (P \times Q)}{\partial Q} = P ^ {D} + Q \times \frac {\partial P ^ {D}}{\partial Q}
+\mathrm{wh er e} M R = \frac{\partial (P \times Q)}{\partial Q} = P^{D} + Q \times \frac{\partial P^{D}}{\partial Q}
 $$
 
 # Monopsonist
@@ -1687,7 +1687,7 @@ $$
 (assuming competitive supply)
 
 $$
-\max  _ {Q} \left(\underbrace {\int_ {Q} M B (Q) d Q - P \times Q}\right)   \begin{array}{c} \text {T o t a l b e n e f i t =} \\ \text {a r e a u n d e r M B} \end{array} = \begin{array}{c} \text {e x p e n d i t u r e} \\ E \end{array}
+\max_{Q} \left(\underbrace {\int_{Q} M B (Q) d Q - P \times Q}\right)   \begin{array}{c} \text{To ta lb en ef it =} \\ \text{ar ea un de rM B} \end{array} = \begin{array}{c} \text{ex pe nd it ur e} \\ E \end{array}
 $$
 
 $$
@@ -1695,7 +1695,7 @@ M B = M E
 $$
 
 $$
-\mathrm {w h e r e} M E = \frac {\partial (P \times Q)}{\partial Q} = P ^ {S} + Q \times \frac {\partial P ^ {S}}{\partial Q}
+\mathrm{wh er e} M E = \frac{\partial (P \times Q)}{\partial Q} = P^{S} + Q \times \frac{\partial P^{S}}{\partial Q}
 $$
 
 # Practical steps
@@ -1709,7 +1709,7 @@ Monopsonist
 Find marginal revenue:
 
 $$
-M R (Q) = \frac {\partial [ P ^ {D} (Q) \times Q ]}{\partial Q}
+M R (Q) = \frac{\partial [ P^{D} (Q) \times Q ]}{\partial Q}
 $$
 
 - Set  $MR(Q) = MC(Q)$
@@ -1721,7 +1721,7 @@ Find  $P^{M} = P^{D}(Q^{M})$
 - Find marginal expenditure:
 
 $$
-M E (Q) = \frac {\partial \left[ P ^ {S} (Q) \times Q \right]}{\partial Q}
+M E (Q) = \frac{\partial \left[ P^{S} (Q) \times Q \right]}{\partial Q}
 $$
 
 - Set  $MB(Q) = ME(Q)$
@@ -1741,13 +1741,13 @@ Marginal expenditure:  $ME(Q) = \frac{\partial E(Q)}{\partial Q} = (2 + 3Q) + 3 
 Optimization condition:  $MB(Q) = ME(Q)$
 
 $$
-\begin{array}{l} 2 0 - 2 Q = 2 + 6 Q \\ \Rightarrow Q ^ {m} = \frac {1 8}{8} = 2. 2 5 \\ P ^ {m} = P ^ {S} (2. 2 5) = 8. 7 5 \\ \end{array}
+\begin{array}{l} 2 0 - 2 Q = 2 + 6 Q \\ \Rightarrow Q^{m} = \frac{1 8}{8} = 2. 2 5 \\ P^{m} = P^{S} (2. 2 5) = 8. 7 5 \\ \end{array}
 $$
 
 The efficient outcome:  $MB(Q) = MC(Q)$
 
 $$
-\begin{array}{l} 2 0 - 2 Q = 2 + 3 Q \\ \Rightarrow Q ^ {*} = \frac {1 8}{5} = 3. 6 \\ P ^ {*} = P ^ {S} (3. 6) = 1 2. 8 \\ \end{array}
+\begin{array}{l} 2 0 - 2 Q = 2 + 3 Q \\ \Rightarrow Q^{*} = \frac{1 8}{5} = 3. 6 \\ P^{*} = P^{S} (3. 6) = 1 2. 8 \\ \end{array}
 $$
 
 # Calculating surpluses
@@ -1755,15 +1755,15 @@ $$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/7df6cabd2dd3dff813556de649e8bd83c73f532bf3fd4d0f8877a76b40d64c14.jpg)
 
 $$
-C S = \frac {(2 0 - 8 . 7 5) + (1 5 . 5 - 8 . 7 5)}{2} \times 2. 2 5
+C S = \frac{(2 0 - 8 . 7 5) + (1 5 . 5 - 8 . 7 5)}{2} \times 2. 2 5
 $$
 
 $$
-P S = \frac {1}{2} \times (8. 7 5 - 2) \times 2. 2 5
+P S = \frac{1}{2} \times (8. 7 5 - 2) \times 2. 2 5
 $$
 
 $$
-D W L = \frac {1}{2} \times (1 5. 5 - 8. 7 5) \times (3. 6 - 2. 2 5)
+D W L = \frac{1}{2} \times (1 5. 5 - 8. 7 5) \times (3. 6 - 2. 2 5)
 $$
 
 # Introducing a price floor
@@ -1777,15 +1777,15 @@ Exercise for at home:
 Calculate the new price, quantity and surpluses in this example if a floor of  $\$ 10$ is introduced.
 
 $$
-Q ^ {S} (P) = \frac {P - 2}{3}
+Q^{S} (P) = \frac{P - 2}{3}
 $$
 
 $$
-P = P _ {f l o o r} = 1 0
+P = P_{f l o o r} = 1 0
 $$
 
 $$
-Q = Q ^ {S} (1 0) = 2. 6 7
+Q = Q^{S} (1 0) = 2. 6 7
 $$
 
 Surpluses are calculated as before
@@ -1908,7 +1908,7 @@ At each stage, players observe outcomes at earlier stages
 - Since the entrant moves first, its strategies are of the same style as in simultaneous move games
 
 $$
-\triangleright S _ {E} = (\text {E n t e r}) \text {o r} (\text {N o t e n t e r})
+\triangleright S_{E} = (\text{En te r}) \text{or} (\text{No te nt er})
 $$
 
 - The incumbent needs to use contingent strategies
@@ -1918,7 +1918,7 @@ Each contingent strategy chooses an action based on anything that could be obser
 > One possible strategy is "if Enter then Cut, if Not Enter then Maintain", shorthand for this is (C, M)
 
 $$
-\triangleright S _ {1} = (M, M), (M, C), (C, M) \text {o r} (C, C)
+\triangleright S_{1} = (M, M), (M, C), (C, M) \text{or} (C, C)
 $$
 
 # Normal Form Representation
@@ -2021,7 +2021,7 @@ The outcome will be a subgame perfect Nash equilibrium because players choose be
 E.g. duopoly in the lemonade market (Annie and Billy)
 
 $$
-P ^ {D} (Q) = 7 - \frac {Q}{1 0}, M C _ {1} = M C _ {2} = c = 1
+P^{D} (Q) = 7 - \frac{Q}{1 0}, M C_{1} = M C_{2} = c = 1
 $$
 
 We can think of Annie and Billy as deciding prices, or quantities
@@ -2105,13 +2105,13 @@ Quantityor price-based
 Quantity-based competition: Each firm  $i$  produces quantity  $q_{i}$
 
 $$
-P = P ^ {D} (Q) = P ^ {D} (q _ {1} + q _ {2} + \dots + q _ {n})
+P = P^{D} (Q) = P^{D} (q_{1} + q_{2} + \dots + q_{n})
 $$
 
 Price-based competition: Each firm  $i$  sets price  $p_i$
 
 $$
-P = \min (p _ {1}, p _ {2}, \ldots)
+P = \min (p_{1}, p_{2}, \ldots)
 $$
 
 # Duopoly competition
@@ -2129,7 +2129,7 @@ II. More generally, we can use algebraic/calculus-based analysis to find reactio
 E.g. duopoly in the lemonade market (Annie and Billy)
 
 $$
-P ^ {D} (Q) = 7 - \frac {Q}{1 0}, \qquad M C _ {1} = M C _ {2} = c = 1
+P^{D} (Q) = 7 - \frac{Q}{1 0}, \qquad M C_{1} = M C_{2} = c = 1
 $$
 
 Quantity-based - Static & sequential
@@ -2145,7 +2145,7 @@ https://youtu.be/Uxlwz7E1emM
 https://youtu.be/YlvrXwcGumE
 
 $$
-\mathrm {A s s u m i n g :} P ^ {D} (Q) = 7 - \frac {Q}{1 0}, M C _ {1} = M C _ {2} = c = 1
+\mathrm{As su mi ng :} P^{D} (Q) = 7 - \frac{Q}{1 0}, M C_{1} = M C_{2} = c = 1
 $$
 
 # Duopoly example, quantity-based
@@ -2156,17 +2156,17 @@ $$
 Billy's profits depend on how much he produces  $(q_{2})$  and how much he can charge per unit  $(P^{D}(q_{1} + q_{2}))$ :
 
 $$
-\begin{array}{l} \pi_ {2} = P ^ {D} (q _ {1} + q _ {2}) \times q _ {2} - T C _ {2} (q _ {2}) \\ \pi_ {2} = \left(7 - \frac {(q _ {1} + q _ {2})}{1 0}\right) \times q _ {2} - q _ {2} \quad (\mathrm {s i n c e} M C _ {2} = 1) \\ \end{array}
+\begin{array}{l} \pi_{2} = P^{D} (q_{1} + q_{2}) \times q_{2} - T C_{2} (q_{2}) \\ \pi_{2} = \left(7 - \frac{(q_{1} + q_{2})}{1 0}\right) \times q_{2} - q_{2} \quad (\mathrm{si nc e} M C_{2} = 1) \\ \end{array}
 $$
 
 $1^{\mathrm{st}}$  order condition:  $\frac{\partial \pi_2}{\partial q_2} = 0$
 
 $$
-\begin{array}{l} \Rightarrow \left(7 - \frac {(q _ {1} + q _ {2})}{1 0}\right) + \left(- \frac {1}{1 0}\right) \times q _ {2} = 1 \\ 7 - \frac {q _ {1}}{1 0} - 2 \frac {q _ {2}}{1 0} = 1 \\ \end{array}
+\begin{array}{l} \Rightarrow \left(7 - \frac{(q_{1} + q_{2})}{1 0}\right) + \left(- \frac{1}{1 0}\right) \times q_{2} = 1 \\ 7 - \frac{q_{1}}{1 0} - 2 \frac{q_{2}}{1 0} = 1 \\ \end{array}
 $$
 
 $$
-\Rightarrow q _ {2} = 3 0 - \frac {q _ {1}}{2} = \text {B i l l y ' s " r e a c t i o n f u n c t i o n "} q _ {2} (q _ {1}), \text {w h i c h s h o w s u s B i l l y ' s}
+\Rightarrow q_{2} = 3 0 - \frac{q_{1}}{2} = \text{Bi ll y 's "r ea ct io nf un ct io n "} q_{2} (q_{1}), \text{wh ic hs ho ws us Bi ll y 's}
 $$
 
 # Duopoly example, quantity-based cont'd
@@ -2176,13 +2176,13 @@ Is there a unique Nash Equilibrium?
 Through the same analysis, we can find Annie's reaction function:
 
 $$
-q _ {1} = 3 0 - \frac {q _ {2}}{2}
+q_{1} = 3 0 - \frac{q_{2}}{2}
 $$
 
 We now have enough information to solve for the equilibrium: the  $(q_{1}, q_{2})$  strategy profile where both players are best-responding:
 
 $$
-\begin{array}{l} q _ {2} = 3 0 - \frac {q _ {1}}{2} = 3 0 - \frac {\left(3 0 - \frac {q _ {2}}{2}\right)}{2} \\ \Rightarrow q _ {1} = q _ {2} = 2 0 \\ Q = 4 0, P = 7 - \frac {4 0}{1 0} = \$ 3 \\ \pi_ {1} = \pi_ {2} = (3 - 1) \times 2 0 = \$ 4 0 \\ \end{array}
+\begin{array}{l} q_{2} = 3 0 - \frac{q_{1}}{2} = 3 0 - \frac{\left(3 0 - \frac{q_{2}}{2}\right)}{2} \\ \Rightarrow q_{1} = q_{2} = 2 0 \\ Q = 4 0, P = 7 - \frac{4 0}{1 0} = \$ 3 \\ \pi_{1} = \pi_{2} = (3 - 1) \times 2 0 = \$ 4 0 \\ \end{array}
 $$
 
 This is the Cournot oligopoly model
@@ -2196,7 +2196,7 @@ The second mover's (Billy's) problem is the same, except that he is reacting to 
 But now the first mover (Annie) knows that Billy will react to her actions, so in her optimization problem she no longer treats Billy's production as exogenous. Instead, she factors in his reaction function:
 
 $$
-\begin{array}{l} \pi_ {1} = \left(7 - \frac {\left(q _ {1} + q _ {2} \left(q _ {1}\right)\right)}{1 0}\right) \times q _ {1} - q _ {1} \quad \text {w h e r e} q _ {2} \left(q _ {1}\right) = 3 0 - \frac {q _ {1}}{2} \\ \Rightarrow \pi_ {1} = \left(7 - \frac {\left(3 0 + \frac {q _ {1}}{2}\right)}{1 0}\right) \times q _ {1} - q _ {1} = \left(4 - \frac {q _ {1}}{2 0}\right) \times q _ {1} - q _ {1} \\ 1 ^ {\mathrm {s t}} \text {o r d e r} 4 - \frac {q _ {1}}{2 0} + \left(- \frac {1}{2 0}\right) q _ {1} - 1 = 0 \\ \Rightarrow q _ {1} = 3 0; q _ {2} = 3 0 - \frac {3 0}{2} = 1 5; Q = 4 5, P = \$ 3. 5 \\ \end{array}
+\begin{array}{l} \pi_{1} = \left(7 - \frac{\left(q_{1} + q_{2} \left(q_{1}\right)\right)}{1 0}\right) \times q_{1} - q_{1} \quad \text{wh er e} q_{2} \left(q_{1}\right) = 3 0 - \frac{q_{1}}{2} \\ \Rightarrow \pi_{1} = \left(7 - \frac{\left(3 0 + \frac{q_{1}}{2}\right)}{1 0}\right) \times q_{1} - q_{1} = \left(4 - \frac{q_{1}}{2 0}\right) \times q_{1} - q_{1} \\ 1^{\mathrm{st}} \text{or de r} 4 - \frac{q_{1}}{2 0} + \left(- \frac{1}{2 0}\right) q_{1} - 1 = 0 \\ \Rightarrow q_{1} = 3 0; q_{2} = 3 0 - \frac{3 0}{2} = 1 5; Q = 4 5, P = \$ 3. 5 \\ \end{array}
 $$
 
 Annie produces much more than she would in the simultaneous game, because she knows that Billy will produce less as a result
@@ -2213,13 +2213,13 @@ Write the expression for firm  $i$ 's profit.
 - Initially: 2 firms
 
 $$
-\Rightarrow \pi_ {1} = \left(a - b (q _ {1} + q _ {2})\right) \times q _ {1} - c \times q _ {1}
+\Rightarrow \pi_{1} = \left(a - b (q_{1} + q_{2})\right) \times q_{1} - c \times q_{1}
 $$
 
 The first order optimization condition  $\left(\frac{\partial\pi_1}{\partial q_1} = 0\right)$  leads to:
 
 $$
-\begin{array}{l} \left(a - b \left(q _ {1} + q _ {2}\right)\right) - b q _ {1} - c = 0 \\ a - 2 b q _ {1} - b q _ {2} - c = 0 \Rightarrow q _ {1} = \frac {(a - c)}{2 b} - \frac {q _ {2}}{2} \\ \end{array}
+\begin{array}{l} \left(a - b \left(q_{1} + q_{2}\right)\right) - b q_{1} - c = 0 \\ a - 2 b q_{1} - b q_{2} - c = 0 \Rightarrow q_{1} = \frac{(a - c)}{2 b} - \frac{q_{2}}{2} \\ \end{array}
 $$
 
 We assumed  $q_{2}$  is independent of  $q_{1}$ :  $\frac{\partial q_{2}}{\partial q_{1}} = 0$
@@ -2237,7 +2237,7 @@ We can think of Firm 1 as being a monopoly within the residual market, after fir
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/bf15f36af56e39d4fd8d882c2f2367962a515824ee411787cda100c621f91a1a.jpg)
 
 $$
-P ^ {D} (Q) = (a - b q _ {2}) - b Q
+P^{D} (Q) = (a - b q_{2}) - b Q
 $$
 
 # Cournot Duopoly – Nash equilibrium
@@ -2252,7 +2252,7 @@ $\Rightarrow$  both reaction functions have to hold.
 Find the resulting market outcome (Q's, P, etc.)
 
 $$
-q _ {1} = q _ {2} = \frac {(a - c)}{3 b}, \ldots
+q_{1} = q_{2} = \frac{(a - c)}{3 b}, \ldots
 $$
 
 The Cournot equilibrium lies at the intersection of the two Cournot reaction functions:
@@ -2266,13 +2266,13 @@ Suppose  $c_1 \neq c_2$ :
 Each firm's reaction function depends on its own costs:
 
 $$
-q _ {1} = \frac {(a - c _ {1})}{2 b} - \frac {q _ {2}}{2}, q _ {2} = \frac {(a - c _ {2})}{2 b} - \frac {q _ {1}}{2}
+q_{1} = \frac{(a - c_{1})}{2 b} - \frac{q_{2}}{2}, q_{2} = \frac{(a - c_{2})}{2 b} - \frac{q_{1}}{2}
 $$
 
 Solve for the equilibrium:
 
 $$
-\begin{array}{l} q _ {1} = \frac {(a - c _ {1})}{2 b} - \frac {\left(\frac {(a - c _ {2})}{2 b} - \frac {q _ {1}}{2}\right)}{2} = \frac {(a - c _ {1})}{2 b} - \frac {(a - c _ {2})}{4 b} + \frac {q _ {1}}{4} \\ \Rightarrow q _ {1} = \frac {a - 2 c _ {1} + c _ {2}}{3 b}, q _ {2} = \frac {a - 2 c _ {2} + c _ {1}}{3 b}, Q = \frac {2 a - c _ {1} - c _ {2}}{3 b} \\ \end{array}
+\begin{array}{l} q_{1} = \frac{(a - c_{1})}{2 b} - \frac{\left(\frac{(a - c_{2})}{2 b} - \frac{q_{1}}{2}\right)}{2} = \frac{(a - c_{1})}{2 b} - \frac{(a - c_{2})}{4 b} + \frac{q_{1}}{4} \\ \Rightarrow q_{1} = \frac{a - 2 c_{1} + c_{2}}{3 b}, q_{2} = \frac{a - 2 c_{2} + c_{1}}{3 b}, Q = \frac{2 a - c_{1} - c_{2}}{3 b} \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/731992242e9cbabfa32a19d85f36d22e4317e8e8b9e5ba7e1d680c24da9d04c7.jpg)
@@ -2282,13 +2282,13 @@ Suppose  $c_1 \neq c_2$ :
 Each firm's reaction function depends on its own costs:
 
 $$
-q _ {1} = \frac {(a - c _ {1})}{2 b} - \frac {q _ {2}}{2}, q _ {2} = \frac {(a - c _ {2})}{2 b} - \frac {q _ {1}}{2}
+q_{1} = \frac{(a - c_{1})}{2 b} - \frac{q_{2}}{2}, q_{2} = \frac{(a - c_{2})}{2 b} - \frac{q_{1}}{2}
 $$
 
 Solve for the equilibrium:
 
 $$
-\begin{array}{l} q _ {1} = \frac {(a - c _ {1})}{2 b} - \frac {\left(\frac {(a - c _ {2})}{2 b} - \frac {q _ {1}}{2}\right)}{2} = \frac {(a - c _ {1})}{2 b} - \frac {(a - c _ {2})}{4 b} + \frac {q _ {1}}{4} \\ \Rightarrow q _ {1} = \frac {a - 2 c _ {1} + c _ {2}}{3 b}, q _ {2} = \frac {a - 2 c _ {2} + c _ {1}}{3 b}, Q = \frac {2 a - c _ {1} - c _ {2}}{3 b} \\ \end{array}
+\begin{array}{l} q_{1} = \frac{(a - c_{1})}{2 b} - \frac{\left(\frac{(a - c_{2})}{2 b} - \frac{q_{1}}{2}\right)}{2} = \frac{(a - c_{1})}{2 b} - \frac{(a - c_{2})}{4 b} + \frac{q_{1}}{4} \\ \Rightarrow q_{1} = \frac{a - 2 c_{1} + c_{2}}{3 b}, q_{2} = \frac{a - 2 c_{2} + c_{1}}{3 b}, Q = \frac{2 a - c_{1} - c_{2}}{3 b} \\ \end{array}
 $$
 
 What will be the effect when a firm becomes more efficient?
@@ -2296,15 +2296,15 @@ What will be the effect when a firm becomes more efficient?
 e.g. if  $c_1 \downarrow$ $q_1 \uparrow$  or  $\downarrow$ ?
 
 $$
-\begin{array}{l} q _ {2} \uparrow \mathrm {o r} \downarrow ? \\ Q \uparrow \mathrm {o r} \downarrow ? \\ P \uparrow \mathrm {o r} \downarrow ? \\ \end{array}
+\begin{array}{l} q_{2} \uparrow \mathrm{or} \downarrow ? \\ Q \uparrow \mathrm{or} \downarrow ? \\ P \uparrow \mathrm{or} \downarrow ? \\ \end{array}
 $$
 
 $$
-\frac {a - c _ {1}}{2 b}
+\frac{a - c_{1}}{2 b}
 $$
 
 $$
-\frac {a - c _ {2}}{b}
+\frac{a - c_{2}}{b}
 $$
 
 q1
@@ -2364,13 +2364,13 @@ Quantityor price-based
 Quantity-based competition: Each firm  $i$  produces quantity  $q_{i}$
 
 $$
-P = P ^ {D} (Q) = P ^ {D} (q _ {1} + q _ {2} + \dots + q _ {n})
+P = P^{D} (Q) = P^{D} (q_{1} + q_{2} + \dots + q_{n})
 $$
 
 Price-based competition: Each firm  $i$  sets price  $p_i$
 
 $$
-P = \min (p _ {1}, p _ {2}, \ldots)
+P = \min (p_{1}, p_{2}, \ldots)
 $$
 
 # Cournot oligopoly – N firms
@@ -2384,13 +2384,13 @@ For a firm  $i$ , let  $q_{-i} = Q - q_i =$  the quantity made by all other firm
 Then firm  $i$  will produce quantity  $q_{i}$  that (it believes) will maximize its profit:
 
 $$
-\pi_ {i} = P ^ {D} (q _ {i} + q _ {- i}) \times q _ {i} - T C _ {i} (q _ {i})
+\pi_{i} = P^{D} (q_{i} + q_{- i}) \times q_{i} - T C_{i} (q_{i})
 $$
 
 Set 1st order optimization condition for firm  $i$ :  $\frac{\partial \pi_i}{\partial q_i} = 0$  & assume  $\frac{\partial q_{-i}}{\partial q_i} = 0$
 
 $$
-\Rightarrow P ^ {D} (q _ {i} + q _ {- i}) + q _ {i} \times \frac {\partial P ^ {D}}{\partial Q} = M C _ {i} (q _ {i})
+\Rightarrow P^{D} (q_{i} + q_{- i}) + q_{i} \times \frac{\partial P^{D}}{\partial Q} = M C_{i} (q_{i})
 $$
 
 [Recall monopoly optimization:  $P^{D}(Q) + Q \times \frac{\partial P^{D}}{\partial Q} = MC(Q)$ ]
@@ -2404,11 +2404,11 @@ cont'd from last slide:  $P^{D}(q_{i} + q_{-i}) + q_{i}\times \frac{\partial P^{
 Let  $P^{D}(Q) = a - bQ$ ,  $c = MC_{i}(q_{i})$
 
 $$
-\Rightarrow a - b \times (q _ {i} + q _ {- i}) + q _ {i} \times (- b) = c
+\Rightarrow a - b \times (q_{i} + q_{- i}) + q_{i} \times (- b) = c
 $$
 
 $$
-\Rightarrow q _ {i} = \frac {(a - c)}{2 b} - \frac {q _ {- i}}{2}
+\Rightarrow q_{i} = \frac{(a - c)}{2 b} - \frac{q_{- i}}{2}
 $$
 
 There are  $N$  such reaction functions  $\rightarrow$  we can solve for  $N$  quantities
@@ -2416,7 +2416,7 @@ There are  $N$  such reaction functions  $\rightarrow$  we can solve for  $N$  q
 If firms are identical, then in equilibrium  $q_{1} = q_{2} = \dots = q_{N} \Rightarrow q_{-i} = (N - 1)q_{i}$
 
 $$
-\begin{array}{l} \Rightarrow q _ {i} = \frac {(a - c)}{2 b} - \frac {(N - 1) q _ {i}}{2} \\ \Rightarrow q _ {i} = \frac {1}{N + 1} \times \frac {(a - c)}{b} \\ \end{array}
+\begin{array}{l} \Rightarrow q_{i} = \frac{(a - c)}{2 b} - \frac{(N - 1) q_{i}}{2} \\ \Rightarrow q_{i} = \frac{1}{N + 1} \times \frac{(a - c)}{b} \\ \end{array}
 $$
 
 # Cournot oligopoly, cont'd
@@ -2424,13 +2424,13 @@ $$
 Find the market quantity, price and profits for N identical firms under Cournot oligopoly. (Assuming  $P^{D}(Q) = a - bQ$ ,  $c = MC_{i}(q_{i})$
 
 $$
-\begin{array}{l} q _ {i} = \frac {1}{N + 1} \times \frac {(a - c)}{b} \\ \Rightarrow Q = N q _ {i} = \frac {N}{N + 1} \times \frac {(a - c)}{b} \\ P = a - b Q = a - \frac {N}{N + 1} \times (a - c) = \frac {a N + a - N a + N c}{N + 1} \\ \Rightarrow P = \frac {a + N c}{N + 1} \\ \end{array}
+\begin{array}{l} q_{i} = \frac{1}{N + 1} \times \frac{(a - c)}{b} \\ \Rightarrow Q = N q_{i} = \frac{N}{N + 1} \times \frac{(a - c)}{b} \\ P = a - b Q = a - \frac{N}{N + 1} \times (a - c) = \frac{a N + a - N a + N c}{N + 1} \\ \Rightarrow P = \frac{a + N c}{N + 1} \\ \end{array}
 $$
 
 What happens when  $N \to \infty$ ?
 
 $$
-P = \frac {\frac {a}{N} + c}{1 + \frac {1}{N}} \rightarrow \frac {0 + c}{1 + 0} = c
+P = \frac{\frac{a}{N} + c}{1 + \frac{1}{N}} \rightarrow \frac{0 + c}{1 + 0} = c
 $$
 
 # Example 2, cont'd
@@ -2438,7 +2438,7 @@ $$
 For demand  $P^{D}(Q) = 7 - \frac{Q}{10}$ , and if all firms have MC=1, fill in the table:
 
 $$
-\Rightarrow P = \frac {a + N c}{N + 1} = \frac {(7 + N)}{N + 1}
+\Rightarrow P = \frac{a + N c}{N + 1} = \frac{(7 + N)}{N + 1}
 $$
 
 <table><tr><td></td><td>Monopoly (N=1)</td><td>Cournot N=2</td><td>Cournot N=3</td><td>Cournot N=5</td><td>Cournot N=10</td><td>Perfect competition</td></tr><tr><td>Market price</td><td>4</td><td>3</td><td>2.5</td><td>2</td><td>17/11 ≈ 1.5</td><td>1</td></tr><tr><td>Market quantity</td><td>30</td><td>40</td><td>45</td><td>50</td><td>~55</td><td>60</td></tr><tr><td>Market-level profit</td><td>90</td><td>80</td><td>67.5</td><td>50</td><td></td><td>0</td></tr><tr><td>Firm-level profit</td><td>90</td><td>40</td><td>22.5</td><td>10</td><td></td><td>0</td></tr></table>
@@ -2454,17 +2454,17 @@ $\succ$  Also known as the collusive model
 - Cartel chooses  $q_{j}$  for each firm so as to maximize total industry profits
 
 $$
-\pi = P ^ {D} (q _ {i} + q _ {- i}) \times Q - [ T C _ {1} (q _ {1}) + T C _ {2} (q _ {2}) + \dots + T C _ {N} ]
+\pi = P^{D} (q_{i} + q_{- i}) \times Q - [ T C_{1} (q_{1}) + T C_{2} (q_{2}) + \dots + T C_{N} ]
 $$
 
 The first-order conditions for a maximum are that  $\frac{\partial\pi}{\partial q_i} = 0,\qquad \forall i\in \{1,N\}$
 
 $$
-\Rightarrow P ^ {D} (Q) + Q \times \frac {\partial P ^ {D (Q)}}{\partial Q} = M C _ {i} (q _ {i})
+\Rightarrow P^{D} (Q) + Q \times \frac{\partial P^{D (Q)}}{\partial Q} = M C_{i} (q_{i})
 $$
 
 $$
-M R (Q) = M C _ {i} (q _ {i})
+M R (Q) = M C_{i} (q_{i})
 $$
 
 Unlike under oligopoly, producers in a cartel take into account combined revenues
@@ -2478,7 +2478,7 @@ There is a large informational requirement
 The outcome is unstable: Each firm has an incentive to expand output because  $MR_{i} > MC_{i}$
 
 $$
-\begin{array}{l} M R _ {i} (q _ {i}) = P ^ {D} (Q) + q _ {i} \times \frac {\partial P ^ {D (Q)}}{\partial Q} \\ > P ^ {D} (Q) + Q \times \frac {\partial P ^ {D (Q)}}{\partial Q} = M C _ {i} \\ \end{array}
+\begin{array}{l} M R_{i} (q_{i}) = P^{D} (Q) + q_{i} \times \frac{\partial P^{D (Q)}}{\partial Q} \\ > P^{D} (Q) + Q \times \frac{\partial P^{D (Q)}}{\partial Q} = M C_{i} \\ \end{array}
 $$
 
 - This problem is much more severe under Bertrand (price-based) competition, where undercutting the cartel price leads to large gains, not just incremental ones.  
@@ -2529,7 +2529,7 @@ Again, consider the inverse demand function  $P = 7 - Q / 10$
 - We found that even with just two firms, the Bertrand equilibrium is the same as the competitive market equilibrium: prices are set equal to marginal cost.
 
 $$
-P _ {D D} = P _ {B} = c
+P_{D D} = P_{B} = c
 $$
 
 What did we assume?
@@ -2666,7 +2666,7 @@ $$
 TS (or SS) represents the net gains created by this market for everyone (not just market participants)
 
 $$
-P S + C S = \int_ {Q} \left(M B (Q) - M C (Q)\right) \times d Q
+P S + C S = \int_{Q} \left(M B (Q) - M C (Q)\right) \times d Q
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/585e083993dd5a439ca03329566d14e838bf2a86747b2ae290c2523dc3883393.jpg)
@@ -2679,11 +2679,11 @@ M B (Q) = M C (Q)
 $$
 
 $$
-\left(\text {a n d} M B (Q) <   M C (Q) \text {f o r h i g h e r Q}\right)
+\left(\text{an d} M B (Q) <   M C (Q) \text{fo rh ig he rQ}\right)
 $$
 
 $$
-T S = \int_ {Q} \left(S M B (Q) - S M C (Q)\right) \times d Q
+T S = \int_{Q} \left(S M B (Q) - S M C (Q)\right) \times d Q
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/04734962d95edee04a09e02274943e84703d5acedc39e42ee6345527de8534ca.jpg)
@@ -2746,13 +2746,13 @@ The farm downstream suffers an external cost  $EMC = 4$  per ton of output Solve
 How might the social optimum be reached?
 
 $$
-q ^ {C} = ? \quad M C = \frac {\partial T C}{\partial q} = 2 q = P M C
+q^{C} = ? \quad M C = \frac{\partial T C}{\partial q} = 2 q = P M C
 $$
 
 Set MC=MB:  $2q = 20 \Rightarrow q^{C} = 10$
 
 $$
-q ^ {e} = ? \quad S M C = P M C + E M C = 2 q + 4
+q^{e} = ? \quad S M C = P M C + E M C = 2 q + 4
 $$
 
 Set SMB=SMC:  $2q + 4 = 20 \Rightarrow q^{e} = 8$
@@ -2798,7 +2798,7 @@ When an agent's activities impose costs on others that he does not pay for in so
 Consider the numerical example, where  $Q = \#$  trips to store/month
 
 $$
-\begin{array}{l} Q ^ {D} (P) = 3 0 - P / 2 \\ M C = 2 0 + Q / 2 \\ E M C = 5 + Q \\ \end{array}
+\begin{array}{l} Q^{D} (P) = 3 0 - P / 2 \\ M C = 2 0 + Q / 2 \\ E M C = 5 + Q \\ \end{array}
 $$
 
 # Examples, cont'd
@@ -2808,7 +2808,7 @@ $$
 We derive inverse demand (MB):
 
 $$
-\mathrm {M B} = \mathrm {P} ^ {\mathrm {D}} = 6 0 - 2 \mathrm {Q}
+\mathrm{MB} = \mathrm{P}^{\mathrm{D}} = 6 0 - 2 \mathrm{Q}
 $$
 
 The privately chosen outcome is at
@@ -2822,7 +2822,7 @@ $$
 $$
 
 $$
-\mathrm {S o} \quad Q ^ {\mathrm {c}} = 2 ^ {*} 4 0 / 5 = 1 6
+\mathrm{So} \quad Q^{\mathrm{c}} = 2^{*} 4 0 / 5 = 1 6
 $$
 
 Socially efficient level is at SMB=SMC:
@@ -2842,7 +2842,7 @@ $$
 $$
 
 $$
-\mathrm {S o} Q ^ {\mathrm {e}} = 2 ^ {*} 3 5 / 7 = 1 0
+\mathrm{So} Q^{\mathrm{e}} = 2^{*} 3 5 / 7 = 1 0
 $$
 
 # Solutions, cont'd
@@ -2874,7 +2874,7 @@ $$
 What tax would be needed to correct for the externality in the previous example?
 
 $$
-\begin{array}{l} t = \mathrm {E M C a t h e e f f i c i e n t q u a t i t y} \\ = \$ 15 \text {p e r t r i p} \\ \end{array}
+\begin{array}{l} t = \mathrm{EM Ca th ee ff ic ie nt qu at it y} \\ = \$ 15 \text{pe rt ri p} \\ \end{array}
 $$
 
 What about limiting how many times people can go to the store?
@@ -2965,7 +2965,7 @@ $$
 What tax would be needed to correct for the externality in the previous example?
 
 $$
-\begin{array}{l} t = \mathrm {E M C a t h e e f f i c i e n t q u a t i t y} \\ = \$ 15 \text {p e r t r i p} \\ \end{array}
+\begin{array}{l} t = \mathrm{EM Ca th ee ff ic ie nt qu at it y} \\ = \$ 15 \text{pe rt ri p} \\ \end{array}
 $$
 
 What about limiting how many times people can go to the store?
@@ -2988,7 +2988,7 @@ What about limiting how many times people can go to the store?
 Exercise: consider a perfectly competitive market.
 
 $$
-\boxed {P ^ {D} = 1 4 - Q, M C = 2 + \frac {Q}{2}}
+\boxed {P^{D} = 1 4 - Q, M C = 2 + \frac{Q}{2}}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/568b8e06eaffc930ccf9acb05b035cc4fb6d26ca49cca894ed29a6e38a8ca5a4.jpg)  
@@ -2997,7 +2997,7 @@ of onions
 1. Find the market equilibrium  $(P^{*}, Q^{*})$  and indicate producer and consumer surplus. If there are no externalities, what is the efficient level of production  $Q^{e}$ ?
 
 $$
-P ^ {D} = M C \Rightarrow Q ^ {*} = 8, P = 6
+P^{D} = M C \Rightarrow Q^{*} = 8, P = 6
 $$
 
 No externalities:
@@ -3005,17 +3005,17 @@ No externalities:
 $\Rightarrow$  SMC=SMB at the same point as
 
 $$
-\mathrm {M C} = \mathrm {M B} \Rightarrow Q ^ {e} = Q ^ {*}
+\mathrm{MC} = \mathrm{MB} \Rightarrow Q^{e} = Q^{*}
 $$
 
 $$
-\begin{array}{l} C S = \frac {(1 4 - 6) * 8}{2} = \$ 3 2 \\ P S = \frac {(6 - 2) * 8}{2} = \$ 1 6 \\ \Rightarrow T S = C S + P S = \$ 4 8 \\ \end{array}
+\begin{array}{l} C S = \frac{(1 4 - 6) * 8}{2} = \$ 3 2 \\ P S = \frac{(6 - 2) * 8}{2} = \$ 1 6 \\ \Rightarrow T S = C S + P S = \$ 4 8 \\ \end{array}
 $$
 
 # Introducing a negative externality.
 
 $$
-P ^ {D} = 1 4 - Q, M C = 2 + \frac {Q}{2}, E M C = 3
+P^{D} = 1 4 - Q, M C = 2 + \frac{Q}{2}, E M C = 3
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/82fdf14ce0035d58a33aa2bb65fa431a6beed28a0e282cddbbb1a8cb78e0aa77.jpg)  
@@ -3039,7 +3039,7 @@ TS
 # Introducing a negative externality.
 
 $$
-P ^ {D} = 1 4 - Q, M C = 2 + \frac {Q}{2}, E M C = 3
+P^{D} = 1 4 - Q, M C = 2 + \frac{Q}{2}, E M C = 3
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/253a81fcc4162ae51cb62b57f74f7e11df37466effc78985d502ce858e1067ec.jpg)  
@@ -3083,7 +3083,7 @@ Solutions:
 # Introducing a positive externality
 
 $$
-P ^ {D} = 1 4 - Q, M C = 2 + \frac {Q}{2}, E M B = 4. 5
+P^{D} = 1 4 - Q, M C = 2 + \frac{Q}{2}, E M B = 4. 5
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/f40332baa3e4b6c2e44f6445f8393fd316140cfc19069fe3ab2f8ca45af8a625.jpg)  
@@ -3104,7 +3104,7 @@ TS
 # Introducing a positive externality
 
 $$
-P ^ {D} = 1 4 - Q, M C = 2 + \frac {Q}{2}, E M B = 4. 5
+P^{D} = 1 4 - Q, M C = 2 + \frac{Q}{2}, E M B = 4. 5
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/abe0aa18b6097789dbf9886acfd16493eedde9e81fff6b80e8f82822ae81c11b.jpg)  
@@ -3125,7 +3125,7 @@ TS
 # Introducing a positive externality
 
 $$
-P ^ {D} = 1 4 - Q, M C = 2 + \frac {Q}{2}, E M B = 4. 5
+P^{D} = 1 4 - Q, M C = 2 + \frac{Q}{2}, E M B = 4. 5
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/c3a9207728a12d81d46e5eeca320fd9d660d8a7ada13bd79992b78c7fc445efa.jpg)  
@@ -3154,11 +3154,11 @@ $/mile
 Assume MC=0, EMC=2
 
 $$
-P ^ {D 1} = 1 4 - Q
+P^{D 1} = 1 4 - Q
 $$
 
 $$
-P ^ {D 2} = 6 - Q
+P^{D 2} = 6 - Q
 $$
 
 # miles driven per day
@@ -3206,11 +3206,11 @@ M B = 1 0 - Q / 1 0
 $$
 
 $$
-Q ^ {*} = 9 0
+Q^{*} = 9 0
 $$
 
 $$
-Q ^ {e} = 0
+Q^{e} = 0
 $$
 
 Private surplus \(= \frac{(10 - 1) \times 90}{2} = \\(405,000\)
@@ -3332,7 +3332,7 @@ D. (2)
 # Aggregating demand – private goods
 
 $$
-Q _ {m k t} = \sum_ {i} q _ {i}
+Q_{m k t} = \sum_{i} q_{i}
 $$
 
 How did we add demand for ice cream? Suppose:
@@ -3340,21 +3340,21 @@ How did we add demand for ice cream? Suppose:
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/3c255ed80421acc3d5818f65c0a47e5a95f2084cd903f46f79d50fd67046e4e0.jpg)
 
 $$
-q _ {1} ^ {D} (P) = 7 - P
+q_{1}^{D} (P) = 7 - P
 $$
 
 $$
-q _ {2} ^ {D} (P) = 5 - P
+q_{2}^{D} (P) = 5 - P
 $$
 
 $$
-Q _ {m a r k e t} ^ {D} (P) = \sum_ {i} q _ {i} ^ {D} (P)
+Q_{m a r k e t}^{D} (P) = \sum_{i} q_{i}^{D} (P)
 $$
 
 # Aggregating demand – public goods
 
 $$
-S M B = \sum_ {i} M B _ {i}
+S M B = \sum_{i} M B_{i}
 $$
 
 - How should we add (house-level) demand for house plants? Suppose:
@@ -3370,13 +3370,13 @@ m a r g i n a l b e n e f i t = m a r g i n a l c o s t
 $$
 
 $$
-S M B (Q) = \sum_ {i} M B _ {i} (Q) = M C (Q)
+S M B (Q) = \sum_{i} M B_{i} (Q) = M C (Q)
 $$
 
 Equivalently, we can write the "Samuelson condition" for the efficient provision of a public good:
 
 $$
-\sum_ {i} M R S _ {G, x} ^ {i} = M R T _ {G, x} = \frac {P _ {G}}{P _ {x}}
+\sum_{i} M R S_{G, x}^{i} = M R T_{G, x} = \frac{P_{G}}{P_{x}}
 $$
 
 Recall  $MRS_{G,x} = \#$  units of good  $x$  the consumer is willing to give up for 1 unit of  $G$ .
@@ -3411,11 +3411,11 @@ $\mathbb{S}/$ hour
 Consider 2 consumers with the following demand functions for a public good:
 
 $$
-Q _ {1} = 1 0 - p
+Q_{1} = 1 0 - p
 $$
 
 $$
-Q _ {2} = 2 0 - p
+Q_{2} = 2 0 - p
 $$
 
 What is the marginal social benefit in this market at different quantity levels?
@@ -3432,7 +3432,7 @@ What are the socially efficient and privately chosen levels of provision if: MC=
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/2ef735b4d6391fc130b1820e3ca1a510be9b66b4eeec9661043e684b7a5fc804.jpg)
 
 $$
-\begin{array}{l} Q ^ {*} = 7. 5 \\ Q _ {2} = 5 \\ Q _ {1} = 0 \mathrm {(f r e e r i d i n g)} \\ \end{array}
+\begin{array}{l} Q^{*} = 7. 5 \\ Q_{2} = 5 \\ Q_{1} = 0 \mathrm{(fr ee ri di ng)} \\ \end{array}
 $$
 
 The good is under-provided
@@ -3457,7 +3457,7 @@ What are the socially efficient and privately chosen levels of provision if: MC=
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/7d2c1f260fae1fe36b9570a8617722eeb04a2d9e0075016b5e9265451e44b9ec.jpg)
 
 $$
-\begin{array}{l} Q ^ {*} = 1 2. 5 \\ Q _ {2} = 1 2. 5 \\ Q _ {1} = 0 \text {(f r e e r i d i n g)} \\ \end{array}
+\begin{array}{l} Q^{*} = 1 2. 5 \\ Q_{2} = 1 2. 5 \\ Q_{1} = 0 \text{(fr ee ri di ng)} \\ \end{array}
 $$
 
 # Example, cont'd
@@ -3471,7 +3471,7 @@ How many potential strategies does each person have, strictly speaking?
 Fill out at home:
 
 $$
-\pi_ {1} = T B _ {1} (Q _ {1} + Q _ {2}) - Q _ {1} \times M C
+\pi_{1} = T B_{1} (Q_{1} + Q_{2}) - Q_{1} \times M C
 $$
 
 Person 2
@@ -3543,23 +3543,23 @@ What quantity G do consumers choose to buy, and what quantity is efficient?
 # Individual optimization:
 
 $$
-\begin{array}{l} \max _ {\mathbf {g} _ {1}, \mathbf {x} _ {1}} \big (\sqrt {g _ {1} + g _ {2}} + \sqrt {x _ {1}} \big), \\ \mathrm {s u b j e c t} p _ {G} g _ {1} + p _ {x} x _ {1} = I _ {1} \\ \end{array}
+\begin{array}{l} \max_{\mathbf {g}_{1}, \mathbf {x}_{1}} \big (\sqrt{g_{1} + g_{2}} + \sqrt{x_{1}} \big), \\ \mathrm{su bj ec t} p_{G} g_{1} + p_{x} x_{1} = I_{1} \\ \end{array}
 $$
 
 $$
-\max _ {\mathbf {g} _ {1}} \left(\sqrt {g _ {1} + g _ {2}} + \sqrt {I _ {1} - g _ {1}}\right)
+\max_{\mathbf {g}_{1}} \left(\sqrt{g_{1} + g_{2}} + \sqrt{I_{1} - g_{1}}\right)
 $$
 
 $$
-\mathrm {f . o . c .} \frac {1}{2 \sqrt {g _ {1} + g _ {2}}} - \frac {1}{2 \sqrt {I _ {1} - g _ {1}}} = 0
+\mathrm{f .o .c .} \frac{1}{2 \sqrt{g_{1} + g_{2}}} - \frac{1}{2 \sqrt{I_{1} - g_{1}}} = 0
 $$
 
 $$
-\begin{array}{l} g _ {1} + g _ {2} = I _ {1} - g _ {1} \\ \Rightarrow g _ {1} = \frac {I _ {1}}{2} - \frac {g _ {2}}{2} \\ \mathrm {S i m i l a r l y :} g _ {2} = \frac {I _ {2}}{2} - \frac {g _ {1}}{2} \\ \end{array}
+\begin{array}{l} g_{1} + g_{2} = I_{1} - g_{1} \\ \Rightarrow g_{1} = \frac{I_{1}}{2} - \frac{g_{2}}{2} \\ \mathrm{Si mi la rl y :} g_{2} = \frac{I_{2}}{2} - \frac{g_{1}}{2} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} g _ {1} = \frac {I _ {1}}{2} - \frac {\frac {I _ {2}}{2} - \frac {g _ {1}}{2}}{2} \\ \frac {3 g _ {1}}{4} = \frac {I _ {1}}{2} - \frac {I _ {2}}{4} \\ \Rightarrow g _ {1} ^ {*} = \frac {2 I _ {1}}{3} - \frac {I _ {2}}{3} \\ g _ {2} ^ {*} = \frac {2 I _ {2}}{3} - \frac {I _ {1}}{3} \\ G ^ {p} = \frac {I _ {1}}{3} + \frac {I _ {2}}{3} \\ \end{array}
+\begin{array}{l} g_{1} = \frac{I_{1}}{2} - \frac{\frac{I_{2}}{2} - \frac{g_{1}}{2}}{2} \\ \frac{3 g_{1}}{4} = \frac{I_{1}}{2} - \frac{I_{2}}{4} \\ \Rightarrow g_{1}^{*} = \frac{2 I_{1}}{3} - \frac{I_{2}}{3} \\ g_{2}^{*} = \frac{2 I_{2}}{3} - \frac{I_{1}}{3} \\ G^{p} = \frac{I_{1}}{3} + \frac{I_{2}}{3} \\ \end{array}
 $$
 
 # Example 1, cont'd
@@ -3571,45 +3571,45 @@ What quantity G do consumers choose to buy, and what quantity is efficient?
 # Social optimization:
 
 $$
-\begin{array}{l} \max _ {g _ {1}, x _ {1}, g _ {2}, x _ {2}} \left(\sqrt {g _ {1} + g _ {2}} + \sqrt {x _ {1}} + \sqrt {g _ {1} + g _ {2}} + \sqrt {x _ {2}}\right), \\ \mathrm {s u b j e c t t o} p _ {G} g _ {1} + p _ {x} x _ {1} = I _ {1}, p _ {G} g _ {2} + p _ {x} x _ {2} = I _ {2} \\ \end{array}
+\begin{array}{l} \max_{g_{1}, x_{1}, g_{2}, x_{2}} \left(\sqrt{g_{1} + g_{2}} + \sqrt{x_{1}} + \sqrt{g_{1} + g_{2}} + \sqrt{x_{2}}\right), \\ \mathrm{su bj ec tt o} p_{G} g_{1} + p_{x} x_{1} = I_{1}, p_{G} g_{2} + p_{x} x_{2} = I_{2} \\ \end{array}
 $$
 
 $$
-\max _ {\mathrm {g} _ {1}, g _ {2}} \left(2 \sqrt {g _ {1} + g _ {2}} + \sqrt {I _ {1} - g _ {1}} + \sqrt {I _ {2} - g _ {2}}\right)
+\max_{\mathrm{g}_{1}, g_{2}} \left(2 \sqrt{g_{1} + g_{2}} + \sqrt{I_{1} - g_{1}} + \sqrt{I_{2} - g_{2}}\right)
 $$
 
 f.o.c.  $\frac{1}{\sqrt{g_{1} + g_{2}}} - \frac{1}{2\sqrt{I_{1} - g_{1}}} = 0$
 
 $$
-\frac {1}{\sqrt {g _ {1} + g _ {2}}} - \frac {1}{2 \sqrt {I _ {2} - g _ {2}}} = 0
+\frac{1}{\sqrt{g_{1} + g_{2}}} - \frac{1}{2 \sqrt{I_{2} - g_{2}}} = 0
 $$
 
 $$
-g _ {1} + g _ {2} = 4 \left(I _ {1} - g _ {1}\right) = 4 \left(I _ {2} - g _ {2}\right)
+g_{1} + g_{2} = 4 \left(I_{1} - g_{1}\right) = 4 \left(I_{2} - g_{2}\right)
 $$
 
 $$
-g _ {1} = I _ {1} - I _ {2} + g _ {2}
+g_{1} = I_{1} - I_{2} + g_{2}
 $$
 
 $$
-I _ {1} - I _ {2} + g _ {2} + g _ {2} = 4 (I _ {2} - g _ {2})
+I_{1} - I_{2} + g_{2} + g_{2} = 4 (I_{2} - g_{2})
 $$
 
 $$
-6 g _ {2} = 5 I _ {2} - I _ {1}
+6 g_{2} = 5 I_{2} - I_{1}
 $$
 
 $$
-\Rightarrow g _ {2} ^ {e} = \frac {5 I _ {2} - I _ {1}}{6}, g _ {1} ^ {e} = \frac {5 I _ {1} - I _ {2}}{6}
+\Rightarrow g_{2}^{e} = \frac{5 I_{2} - I_{1}}{6}, g_{1}^{e} = \frac{5 I_{1} - I_{2}}{6}
 $$
 
 $$
-G ^ {e} = \frac {2}{3} (I _ {1} + I _ {2})
+G^{e} = \frac{2}{3} (I_{1} + I_{2})
 $$
 
 $$
-\mathsf {v s} G ^ {p} = \frac {1}{3} (I _ {1} + I _ {2})
+\mathsf {v s} G^{p} = \frac{1}{3} (I_{1} + I_{2})
 $$
 
 # Example 2
@@ -3625,7 +3625,7 @@ And since consumers are identical,  $g_{-i} = (N - 1)g_i$ $\Rightarrow \frac{10 
 The efficient quantity  $G^{e}$  is where:
 
 $$
-\begin{array}{c} \sum_ {i} M R S _ {G, x} ^ {i} = \frac {\sum_ {i} x _ {i}}{G} = \frac {P _ {G}}{P _ {x}} = 1 \\ \frac {N (1 0 - g _ {i})}{N g _ {i}} = 1 \Rightarrow G ^ {e} = N g _ {i} = 5 N \end{array}
+\begin{array}{c} \sum_{i} M R S_{G, x}^{i} = \frac{\sum_{i} x_{i}}{G} = \frac{P_{G}}{P_{x}} = 1 \\ \frac{N (1 0 - g_{i})}{N g_{i}} = 1 \Rightarrow G^{e} = N g_{i} = 5 N \end{array}
 $$
 
 So we can see that the privately-provided quantity  $(G^{p})$  is below the efficient level  $(G^{e})$  for all  $N > 1$ . The higher  $N$  gets, the bigger the gap between them.
@@ -3655,7 +3655,7 @@ Can the two consumers arrive at an efficient level of provision through benefits
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/b95812f3797495d022b3537e211b12727cf37acf82dec8e1463bf9cb6135a5c6.jpg)
 
-If Person 2 is asked to pay \(70 \% * 25 = \\) 17.5 / hour\( & Person 1 is asked to pay \(30 \% * 25 = \\( 7.5 / hour,\) they would both agree to purchase \(Q ^ {e} = 2.5\)
+If Person 2 is asked to pay \(70 \% * 25 = \\) 17.5 / hour\( & Person 1 is asked to pay \(30 \% * 25 = \\( 7.5 / hour,\) they would both agree to purchase \(Q^{e} = 2.5\)
 
 $\rightarrow$  Efficient level of provision, AND both consumers contribute  
 $\rightarrow$  There is no free-riding because consumer 1 knows that if he or she doesn't contribute, the good will not be available at all.
@@ -3721,11 +3721,11 @@ Hours of gardening/week in the park
 Can we achieve optimal provision if: MC=\$15?
 
 $$
-\left(\mathrm {R e c a l l :} Q ^ {e} = 7. 5, Q _ {1} ^ {*} = 5, Q _ {2} ^ {*} = 0\right)
+\left(\mathrm{Re ca ll :} Q^{e} = 7. 5, Q_{1}^{*} = 5, Q_{2}^{*} = 0\right)
 $$
 
 $$
-\mathrm {C o s t} \quad Q ^ {e} = 1 5 \times 7. 5 = 1 1 2. 5
+\mathrm{Co st} \quad Q^{e} = 1 5 \times 7. 5 = 1 1 2. 5
 $$
 
 In order to demand  $G = G^{e} = 7.5$ ,
@@ -3799,7 +3799,7 @@ Club goods (non-rival but excludable) can be withheld from consumers  $\rightarr
 Non-rival  $\rightarrow$  marginal cost from consumption is  $MC = 0$
 
 $$
-\begin{array}{l} \Rightarrow P ^ {e} = 0 \\ \Rightarrow \pi <   0 \\ \end{array}
+\begin{array}{l} \Rightarrow P^{e} = 0 \\ \Rightarrow \pi <   0 \\ \end{array}
 $$
 
 $\rightarrow$  More of this next week
@@ -3904,7 +3904,7 @@ Club goods (non-rival but excludable) can be withheld from consumers  $\rightarr
 Non-rival  $\rightarrow$  marginal cost from consumption is  $MC = 0$
 
 $$
-\begin{array}{l} \Rightarrow P ^ {e} = 0 \\ \Rightarrow \pi <   0 \\ \end{array}
+\begin{array}{l} \Rightarrow P^{e} = 0 \\ \Rightarrow \pi <   0 \\ \end{array}
 $$
 
 - Sometimes a club good becomes non-excludable
@@ -4278,13 +4278,13 @@ $\Rightarrow$  An individual's optimization
 problem:  $\frac{\partial U_{i}}{\partial H_{i}} = 0$
 
 $$
-\Rightarrow \frac {1 0 0}{n} \frac {\partial (H _ {i} + H _ {- i})}{\partial H _ {i}} = 2 H _ {i} \Rightarrow \boxed {H _ {i} ^ {*} = \frac {5 0}{n}}
+\Rightarrow \frac{1 0 0}{n} \frac{\partial (H_{i} + H_{- i})}{\partial H_{i}} = 2 H_{i} \Rightarrow \boxed {H_{i}^{*} = \frac{5 0}{n}}
 $$
 
 $\Rightarrow H = 50$ , and each gets utility
 
 $$
-\begin{array}{l} U _ {i} ^ {*} = \frac {1 0 0 \times 5 0}{n} - \left(\frac {5 0}{n}\right) ^ {2} = \frac {5 , 0 0 0}{n} - \frac {2 5 0 0}{n ^ {2}} = \\ \frac {2 , 5 0 0}{n} \left(2 - \frac {1}{n}\right) \\ \end{array}
+\begin{array}{l} U_{i}^{*} = \frac{1 0 0 \times 5 0}{n} - \left(\frac{5 0}{n}\right)^{2} = \frac{5 , 0 0 0}{n} - \frac{2 5 0 0}{n^{2}} = \\ \frac{2 , 5 0 0}{n} \left(2 - \frac{1}{n}\right) \\ \end{array}
 $$
 
 What if we maximize the sum of all utilities?
@@ -4294,13 +4294,13 @@ Choose  $H_{1}, H_{2}, \ldots$  so as to maximize:
 $\Rightarrow \frac{\partial \pi}{\partial H_{i}} - 2 H_{i} = 0$ , for all  $i$
 
 $$
-\begin{array}{l} U _ {t o t a l} = \pi - H _ {1} ^ {2} - H _ {2} ^ {2} - \dots - H _ {n} ^ {2} \\ \Rightarrow 1 0 0 - 2 \mathrm {H} _ {\mathrm {i}} = 0 \Rightarrow \boxed {H _ {i} ^ {e} = 5 0} \\ \end{array}
+\begin{array}{l} U_{t o t a l} = \pi - H_{1}^{2} - H_{2}^{2} - \dots - H_{n}^{2} \\ \Rightarrow 1 0 0 - 2 \mathrm{H}_{\mathrm{i}} = 0 \Rightarrow \boxed {H_{i}^{e} = 5 0} \\ \end{array}
 $$
 
 $\Rightarrow H = 50 n$ , and each gets utility
 
 $$
-U _ {i} ^ {e} = \frac {1 0 0 \times 5 0 n}{n} - 2, 5 0 0 = 2, 5 0 0
+U_{i}^{e} = \frac{1 0 0 \times 5 0 n}{n} - 2, 5 0 0 = 2, 5 0 0
 $$
 
 $\Rightarrow U_{i}^{*} = U_{i}^{e}$  only for  $n = 1$
@@ -4360,7 +4360,7 @@ Cody's project entails even more risk: although if things go well the value will
 - In practice, the bank can't recover money that doesn't exist (and can't force borrowers to take on more debt)  $\rightarrow$  the borrower has limited liability and if a project goes poorly, the bank will have to settle for getting less than what they are owed.
 
 $$
-1 3 8 0 0 \cdot 1 1 0 0 ^ {6} \quad 5 0 8 0 \rightarrow 1 2 0 ^ {0}
+1 3 8 0 0 \cdot 1 1 0 0^{6} \quad 5 0 8 0 \rightarrow 1 2 0^{0}
 $$
 
 # Payoffs from a 10,000 loan, if  $r = 10\%$

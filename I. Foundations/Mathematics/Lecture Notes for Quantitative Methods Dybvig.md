@@ -903,16 +903,16 @@ where  $k_{x}$  is some constant chosen to make  $\int_{[\frac{1}{2},1]}kP(\thet
 
 One of the fascinating aspects of the study of statistics is the interplay between the ideas implicit in the MLE approach and this Bayesian approach. The basic issues in epistemology appear, how do we know the information in the prior? And how sure of it are we? One way to answer these questions appear when there is a lot of data. In this case, there is a tight relation between Bayesian estimators and MLE estimators.
 
-Suppose that  $\theta \in \Theta$ , and a Bayesian has a prior distribution with density  $p(\theta)$ , and we observe  $X_{1},\ldots ,X_{n}$  with density  $f(x|\theta)$ . Then the posterior distribution has density
+Suppose that  $\theta\in\Theta$ , and a Bayesian has a prior distribution with density  $p(\theta)$ , and we observe  $X_{1},\ldots,X_{n}$  with density  $f(x|\theta)$ . Then the posterior distribution has density
 
 $$
-P (\theta | X _ {1}, \ldots , X _ {n}) = k p (\theta) L (X _ {1}, \ldots , X _ {n} | \theta)
+P(\theta|X_{1},\ldots,X_{n})=kp(\theta)L(X_{1},\ldots,X_{n}|\theta)
 $$
 
-for some constant  $k$ . A Bayesian might well solve the problem  $\max_{\theta} P(\theta | X_1, \ldots, X_n)$ . Taking logarithms, this gives
+for some constant  $k$ . A Bayesian might well solve the problem  $\max_{\theta}P(\theta|X_1,\ldots,X_n)$ . Taking logarithms, this gives
 
 $$
-\max _ {\theta} [ \log p (\theta) + \sum_ {i} \log f (X _ {i} | \theta) ] = \max _ {\theta} \sum_ {i} [ \log f (X _ {i} | \theta) + \frac {1}{n} \log p (\theta) ].
+\max_{\theta}\left[\log p(\theta)+\sum_{i}\log f(X_{i}|\theta)\right]=\max_{\theta}\sum_{i}\left[\log f(X_{i}|\theta)+\frac{1}{n}\log p(\theta)\right].
 $$
 
 You should be able to convince yourself that the solution to this problem approaches the MLE as  $n \uparrow \infty$ . We interpret this as saying that the prior distribution becomes irrelevant, it is eventually swamped by the data. For moderate  $n$ , the approximation may not be that good.
@@ -941,34 +941,34 @@ We can then examine the probabilistic properties of the decision rule using the 
 
 Continuing in our simplest of examples, we suppose  $H_0: p = p_0$ ,  $H_1: p = p_1$ ,  $p_0 \neq p_1$ . Notice how much structure we've already put on the problem of picking a decision rule. We'll suppose that  $p_0 < p_1$ , the opposite case just reverses inequalities. There is a pretty strong intuition that the best decision rule is to accept  $H_0$  if  $\widehat{p_n} < p^*$ , and to reject otherwise, for some  $p^* \in (p_0, p_1)$ . Work through why this is true, thinking of the analogy with filling bookcases with the lightest possible set of books.
 
-4.5. An Information Inequality. We saw the Cauchy-Schwarz inequality for vectors,  $xy = \| x\| \| y\| \cos \theta$ , equivalently,  $\sum_{i}x_{i}y_{i} = \sqrt{\sum_{i}x_{i}^{2}}\sqrt{\sum_{i}y_{i}^{2}}\cos \theta$ , so that  $(\sum_{i}x_{i}y_{i})^{2}\leq \sum_{i}x_{i}^{2}\sum_{i}y_{i}^{2}$ . When  $\Omega = \{1,\dots ,n\}$  with  $P(\omega)\equiv 1 / n$ , we get an inequality about expectations that is also an inequality about Variances and Covariances,
+4.5. An Information Inequality. We saw the Cauchy-Schwarz inequality for vectors,  $xy=\|x\|\|y\|\cos\theta$ , equivalently,  $\sum_{i}x_{i}y_{i}=\sqrt{\sum_{i}x_{i}^{2}}\sqrt{\sum_{i}y_{i}^{2}}\cos\theta$ , so that  $(\sum_{i}x_{i}y_{i})^{2}\leq\sum_{i}x_{i}^{2}\sum_{i}y_{i}^{2}$ . When  $\Omega=\{1,\dots,n\}$  with  $P(\omega)\equiv 1/n$ , we get an inequality about expectations that is also an inequality about Variances and Covariances,
 
 $$
-\operatorname {C o v} (X, Y) ^ {2} \leq \operatorname {V a r} (X) \operatorname {V a r} (Y)
+\operatorname{Cov}(X,Y)^{2}\leq\operatorname{Var}(X)\operatorname{Var}(Y)
 $$
 
-with equality iff  $X - EX$  is linear function of  $Y - EY$ .
+with equality iff  $X-EX$  is linear function of  $Y-EY$ .
 
-Go through definition  $\operatorname{Cov}(X, Y) = E(X - EX)(Y - EY) = EXY - EXEY$ . Defining the  $L^2$  norm, and  $\min_{\lambda} \| X - \lambda Y \|$  for a more general version.
+Go through definition  $\operatorname{Cov}(X,Y)=E(X-EX)(Y-EY)=EXY-EXEY$ . Defining the  $L^2$  norm, and  $\min_{\lambda}\|X-\lambda Y\|$  for a more general version.
 
-Now,  $\operatorname{Var}(Y) > 0$  iff  $P(Y \neq EY) > 0$ , so division yields
+Now,  $\operatorname{Var}(Y)>0$  iff  $P(Y\neq EY)>0$ , so division yields
 
 $$
-\operatorname {V a r} (X) \geq \frac {\operatorname {C o v} (X , Y) ^ {2}}{\operatorname {V a r} (Y)}
+\operatorname{Var}(X)\geq\frac{\operatorname{Cov}(X,Y)^{2}}{\operatorname{Var}(Y)}
 $$
 
 for all of the interesting  $Y$ 's.
 
-We are going to take  $R = \widehat{p}$ ,  $S = D_p \log f(\mathbf{X}|p)$  and look at
+We are going to take  $R=\widehat{p}$ ,  $S=D_p\log f(\mathbf{X}|p)$  and look at
 
 $$
-\mathrm {V a r} _ {p} (R) \geq \frac {\mathrm {C o v} _ {p} (R , S) ^ {2}}{\mathrm {V a r} _ {p} (S)}.
+\mathrm{Var}_{p}(R)\geq\frac{\mathrm{Cov}_{p}(R,S)^{2}}{\mathrm{Var}_{p}(S)}.
 $$
 
-Here  $E_{p}X$  is the expectation of the rv  $X$  when the true value is  $p$ . We will show that when  $R$  is unbiased,  $\operatorname{Cov}_p(R, S)^2 = 1$ . We will also show that  $E_{p}(D_{p}\log f(\mathbf{X}|p)) = 0$ . This means that for any unbiased estimator,  $\hat{p}$ , of  $p$ ,
+Here  $E_{p}X$  is the expectation of the rv  $X$  when the true value is  $p$ . We will show that when  $R$  is unbiased,  $\operatorname{Cov}_p(R,S)^2=1$ . We will also show that  $E_{p}(D_{p}\log f(\mathbf{X}|p))=0$ . This means that for any unbiased estimator,  $\hat{p}$ , of  $p$ ,
 
 $$
-\mathrm {V a r} _ {p} (\hat {p}) \geq \frac {1}{E _ {p} (D _ {p} \log f (\mathbf {X} | p)) ^ {2}},
+\mathrm{Var}_{p}(\hat{p})\geq\frac{1}{E_{p}(D_{p}\log f(\mathbf{X}|p))^{2}},
 $$
 
 known as the Cramér-Rao lower bound. It really is a bound on all unbiased estimators, the right hand side does not depend on which  $\hat{p}$  you choose. If we have an unbiased estimator where this inequality is satisfied as an equality, then we have found the smallest possible variance amongst all unbiased estimators. Sometimes there is no estimator satisfying the bound.
@@ -1007,13 +1007,13 @@ Problem 4.3. Suppose that  $X_{1},\ldots ,X_{n}$  are iid Poisson  $(\lambda)$ ,
 Problem 4.4 (Neyman-Pearson). Suppose that  $\mathbf{X} = (X_1, \ldots, X_n)$  has pdf (or pmf, in which case the integrals below are replaced by sums)  $f(\mathbf{x}|\theta)$ ,  $\theta \in \Theta = \{\theta_0, \theta_1\}$ . We have seen that there is typically a tradeoff between  $\alpha$ , the probability of a Type I error, and  $\beta$ , the probability of a Type II error. Let us suppose that we dislike both types of errors, and in particular, that we are trying to devise a test, characterized by its rejection region,  $\mathbb{X}_r$ , to minimize
 
 $$
-a \cdot \alpha (\mathbb {X} _ {r}) + b \cdot \beta (\mathbb {X} _ {r})
+a\cdot\alpha(\mathbb{X}_{r})+b\cdot\beta(\mathbb{X}_{r})
 $$
 
-where  $a, b > 0$ ,  $\alpha(\mathbb{X}_r) = P(\mathbf{X} \in \mathbb{X}_r | \theta_0)$ , and  $\beta(\mathbb{X}_r) = P(\mathbf{X} \notin \mathbb{X}_r | \theta_1)$ . The idea is that the ratio of  $a$  to  $b$  specifies our tradeoff between the two Types of error, the higher is a relative to  $b$ , the lower we want  $\alpha$  to be relative to  $\beta$ . This problem asks about tests of the form
+where  $a,b>0$ ,  $\alpha(\mathbb{X}_r)=P(\mathbf{X}\in\mathbb{X}_r|\theta_0)$ , and  $\beta(\mathbb{X}_r)=P(\mathbf{X}\notin\mathbb{X}_r|\theta_1)$ . The idea is that the ratio of  $a$  to  $b$  specifies our tradeoff between the two Types of error, the higher is a relative to  $b$ , the lower we want  $\alpha$  to be relative to  $\beta$ . This problem asks about tests of the form
 
 $$
-\mathbb {X} _ {a, b} = \left\{\mathbf {x}: a f (\mathbf {x} | \theta_ {0}) <   b f (\mathbf {x} | \theta_ {1}) \right\} = \left\{\mathbf {x}: \frac {f (\mathbf {x} | \theta_ {1})}{f (\mathbf {x} | \theta_ {0})} > \frac {a}{b} \right\}.
+\mathbb{X}_{a,b}=\left\{\mathbf{x}:af(\mathbf{x}|\theta_{0})<bf(\mathbf{x}|\theta_{1})\right\}=\left\{\mathbf{x}:\frac{f(\mathbf{x}|\theta_{1})}{f(\mathbf{x}|\theta_{0})}>\frac{a}{b}\right\}.
 $$
 
 This decision rule is based on the likelihood ratio, and likelihood ratio tests appear regularly in statistics.
@@ -1032,22 +1032,22 @@ Problem 4.5. Suppose that  $X_{1},\ldots ,X_{n}$  are iid Poisson  $(\lambda)$ ,
 
 5.2. Transformations and Expectations. Chain rule and  $F_{Y}(y)$ ,  $Y = g(X)$ ,  $g$  monotonic,  $g$  not monotonic, Leibniz's rule, applications from Chapter 2.
 
-Differentiating under the integral sign. From Lebesgue's Dominated Convergence Theorem — if  $(x,y) \mapsto h(x,y)$  is continuous at  $y_0$  for each  $x$  and  $|h(x,y)| \leq g(x)$  for some  $g(x)$  satisfying  $\int_{\mathbb{R}} |g(x)| dx < \infty$ , then
+Differentiating under the integral sign. From Lebesgue's Dominated Convergence Theorem — if  $(x,y)\mapsto h(x,y)$  is continuous at  $y_0$  for each  $x$  and  $|h(x,y)|\leq g(x)$  for some  $g(x)$  satisfying  $\int_{\mathbb{R}}|g(x)|\mathrm{d}x<\infty$ , then
 
 $$
-\lim  _ {y \to y _ {0}} \int_ {\mathbb {R}} h (x, y) d x = \int_ {\mathbb {R}} \lim  _ {y \to y _ {0}} h (x, y) d x.
+\lim_{y\to y_{0}}\int_{\mathbb{R}}h(x,y)\mathrm{d}x=\int_{\mathbb{R}}\lim_{y\to y_{0}}h(x,y)\mathrm{d}x.
 $$
 
 Corollary, if  $(x,\theta)\mapsto f(x,\theta)$  is differentiable at  $\theta_0$  for every  $x$ , that is,
 
 $$
-\lim _ {\theta \to \theta_ {0}} \frac {f (x , \theta) - f (x , \theta_ {0})}{(\theta - \theta_ {0})} = \frac {\partial}{\partial \theta} f (x, \theta) | _ {\theta = \theta_ {0}},
+\lim_{\theta\to\theta_{0}}\frac{f(x,\theta)-f(x,\theta_{0})}{(\theta-\theta_{0})}=\frac{\partial}{\partial\theta}f(x,\theta)\Big|_{\theta=\theta_{0}},
 $$
 
-by which I mean that the indicated limit exists, and there exists a function  $g(x,\theta_0)$ ,  $\int_{\mathbb{R}}|g|dx < \infty$ , such that  $|(f(x,\theta_0 + \delta) - f(x,\theta_0)) / \delta| \leq g(x,\theta_0)$  uniformly in  $x$  for all  $\delta$  small, then
+by which I mean that the indicated limit exists, and there exists a function  $g(x,\theta_0)$ ,  $\int_{\mathbb{R}}|g|\mathrm{d}x<\infty$ , such that  $|(f(x,\theta_0+\delta)-f(x,\theta_0))/\delta|\leq g(x,\theta_0)$  uniformly in  $x$  for all  $\delta$  small, then
 
 $$
-\frac {\partial}{\partial \theta} \left[ \int_ {\mathbb {R}} f (x, \theta) d x \right] | _ {\theta = \theta_ {0}} = \int_ {\mathbb {R}} \left[ \frac {\partial}{\partial \theta} f (x, \theta) | _ {\theta = \theta_ {0}} \right] d x.
+\frac{\partial}{\partial\theta}\left[\int_{\mathbb{R}}f(x,\theta)\mathrm{d}x\right]\Bigg|_{\theta=\theta_{0}}=\int_{\mathbb{R}}\left[\frac{\partial}{\partial\theta}f(x,\theta)\Big|_{\theta=\theta_{0}}\right]\mathrm{d}x.
 $$
 
 Applications to finding how  $n$ 'th moments change with parameters.

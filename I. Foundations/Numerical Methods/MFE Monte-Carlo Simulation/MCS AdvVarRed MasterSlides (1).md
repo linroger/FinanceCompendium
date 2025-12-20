@@ -57,7 +57,7 @@ Standard Monte-Carlo approach proceeds as follows:
 4. Compute approximate  $95\%$  CI as
 
 $$
-\hat {\theta} _ {n} \pm 1. 9 6 \times \hat {\sigma} _ {n} / \sqrt {n}.
+\hat {\theta}_{n} \pm 1. 9 6 \times \hat {\sigma}_{n} / \sqrt{n}.
 $$
 
 Question: Why is this a bad idea?
@@ -71,7 +71,7 @@ Suppose we wish to estimate  $\theta = \mathsf{E}_f[h(X)]$  where  $X$  has PDF 
 Let  $g$  be another PDF with the property that  $g(x) \neq 0$  whenever  $f(x) \neq 0$ . Then
 
 $$
-\theta = \mathsf {E} _ {f} [ h (X) ] = \int h (x) \frac {f (x)}{g (x)} g (x) d x = \mathsf {E} _ {g} \left[ \frac {h (X) f (X)}{g (X)} \right]
+\theta = \mathsf {E}_{f} [ h (X) ] = \int h (x) \frac{f (x)}{g (x)} g (x) d x = \mathsf {E}_{g} \left[ \frac{h (X) f (X)}{g (X)} \right]
 $$
 
 - has very important implications for estimating  $\theta$ .
@@ -81,7 +81,7 @@ Original simulation method generates  $n$  samples of  $X$  from  $f$  and sets 
 Alternative method is to generate  $n$  values of  $X$  from  $g$  and set
 
 $$
-\hat {\theta} _ {n, i s} = \sum_ {j = 1} ^ {n} \frac {h (X _ {j}) f (X _ {j})}{n g (X _ {j})}.
+\hat {\theta}_{n, i s} = \sum_{j = 1}^{n} \frac{h (X_{j}) f (X_{j})}{n g (X_{j})}.
 $$
 
 # The Importance Sampling Estimator
@@ -91,7 +91,7 @@ $\hat{\theta}_{n,is}$  is then an unbiased estimator of  $\theta$
 We often define
 
 $$
-h ^ {*} (X) := \frac {h (X) f (X)}{g (X)}
+h^{*} (X) := \frac{h (X) f (X)}{g (X)}
 $$
 
 so that  $\theta = \mathsf{E}_g[h^* (X)]$
@@ -105,7 +105,7 @@ Also refer to  $f / g$  as the likelihood ratio.
 Recall we want to estimate  $\theta = P(X\geq 25) = \mathsf{E}[I_{\{X\geq 25\}}]$  when  $X\sim \mathsf{N}(0,1)$ . We write
 
 $$
-\begin{array}{l} \theta = \mathsf {E} [ I _ {\{X \geq 2 5 \}} ] = \int_ {- \infty} ^ {\infty} I _ {\{X \geq 2 5 \}} \frac {1}{\sqrt {2 \pi}} e ^ {- \frac {x ^ {2}}{2}} d x \\ = \int_ {- \infty} ^ {\infty} I _ {\{X \geq 2 5 \}} \left(\frac {\frac {1}{\sqrt {2 \pi}} e ^ {- \frac {x ^ {2}}{2}}}{\frac {1}{\sqrt {2 \pi}} e ^ {- \frac {(x - \mu) ^ {2}}{2}}}\right) \frac {1}{\sqrt {2 \pi}} e ^ {- \frac {(x - \mu) ^ {2}}{2}} d x \\ = \mathsf {E} _ {\mu} \left[ I _ {\{X \geq 2 5 \}} e ^ {- \mu X + \mu^ {2} / 2} \right] \\ \end{array}
+\begin{array}{l} \theta = \mathsf {E} [ I_{\{X \geq 2 5 \}} ] = \int_{- \infty}^{\infty} I_{\{X \geq 2 5 \}} \frac{1}{\sqrt{2 \pi}} e^{- \frac{x^{2}}{2}} d x \\ = \int_{- \infty}^{\infty} I_{\{X \geq 2 5 \}} \left(\frac{\frac{1}{\sqrt{2 \pi}} e^{- \frac{x^{2}}{2}}}{\frac{1}{\sqrt{2 \pi}} e^{- \frac{(x - \mu)^{2}}{2}}}\right) \frac{1}{\sqrt{2 \pi}} e^{- \frac{(x - \mu)^{2}}{2}} d x \\ = \mathsf {E}_{\mu} \left[ I_{\{X \geq 2 5 \}} e^{- \mu X + \mu^{2} / 2} \right] \\ \end{array}
 $$
 
 and where now  $X\sim \mathsf{N}(\mu ,1)$
@@ -123,7 +123,7 @@ Suppose we wish to estimate  $\theta = \mathsf{E}_f[h(\mathbf{X})]$
 Let  $g(x_{1},\ldots ,x_{n})$  be another PDF such that  $g(\mathbf{x})\neq 0$  whenever  $f(\mathbf{x})\neq 0$ . Then
 
 $$
-\begin{array}{l} \theta = \mathsf {E} _ {f} [ h (\mathbf {X}) ] \\ = \mathrm {E} _ {g} \left[ h ^ {*} (\mathbf {X}) \right] \\ \end{array}
+\begin{array}{l} \theta = \mathsf {E}_{f} [ h (\mathbf {X}) ] \\ = \mathrm{E}_{g} \left[ h^{*} (\mathbf {X}) \right] \\ \end{array}
 $$
 
 where  $h^{*}(\mathbf{X}) \coloneqq h(\mathbf{X})f(\mathbf{X}) / g(\mathbf{X})$ .
@@ -139,7 +139,7 @@ Now let  $g$  be another density with support equal to that of  $f$ .
 Then we know
 
 $$
-\theta = \mathsf {E} _ {f} [ h (\mathbf {X}) ] = \mathsf {E} _ {g} [ h ^ {*} (\mathbf {X}) ]
+\theta = \mathsf {E}_{f} [ h (\mathbf {X}) ] = \mathsf {E}_{g} [ h^{*} (\mathbf {X}) ]
 $$
 
 and this gives rise to two estimators:
@@ -152,19 +152,19 @@ and this gives rise to two estimators:
 The variance of importance sampling estimator is given by
 
 $$
-\begin{array}{l} \operatorname {V a r} _ {g} \left(h ^ {*} (\mathbf {X})\right) = \int h ^ {*} (\mathbf {x}) ^ {2} g (\mathbf {x}) d \mathbf {x} - \theta^ {2} \\ = \int \frac {h (\mathbf {x}) ^ {2} f (\mathbf {x})}{g (\mathbf {x})} f (\mathbf {x}) d \mathbf {x} - \theta^ {2}. \\ \end{array}
+\begin{array}{l} \operatorname{Va r}_{g} \left(h^{*} (\mathbf {X})\right) = \int h^{*} (\mathbf {x})^{2} g (\mathbf {x}) d \mathbf {x} - \theta^{2} \\ = \int \frac{h (\mathbf {x})^{2} f (\mathbf {x})}{g (\mathbf {x})} f (\mathbf {x}) d \mathbf {x} - \theta^{2}. \\ \end{array}
 $$
 
 Variance of original estimator is given by
 
 $$
-\operatorname {V a r} _ {f} (h (\mathbf {X})) = \int h (\mathbf {x}) ^ {2} f (\mathbf {x}) d \mathbf {x} - \theta^ {2}.
+\operatorname{Va r}_{f} (h (\mathbf {X})) = \int h (\mathbf {x})^{2} f (\mathbf {x}) d \mathbf {x} - \theta^{2}.
 $$
 
 So reduction in variance is
 
 $$
-\operatorname {V a r} _ {f} \left(h (\mathbf {X})\right) - \operatorname {V a r} _ {g} \left(h ^ {*} (\mathbf {X})\right) = \int h (\mathbf {x}) ^ {2} \left(1 - \frac {f (\mathbf {x})}{g (\mathbf {x})}\right) f (\mathbf {x}) d \mathbf {x}.
+\operatorname{Va r}_{f} \left(h (\mathbf {X})\right) - \operatorname{Va r}_{g} \left(h^{*} (\mathbf {X})\right) = \int h (\mathbf {x})^{2} \left(1 - \frac{f (\mathbf {x})}{g (\mathbf {x})}\right) f (\mathbf {x}) d \mathbf {x}.
 $$
 
 - would like this reduction to be positive.
@@ -195,7 +195,7 @@ Further guidance on how to choose  $g$  is obtained from the following observati
 - Then easy to see that
 
 $$
-\mathsf {V a r} _ {g} (h ^ {*} (\mathbf {X})) = \theta^ {2} - \theta^ {2} = 0
+\mathsf {V a r}_{g} (h^{*} (\mathbf {X})) = \theta^{2} - \theta^{2} = 0
 $$
 
 so that we have a zero variance estimator!
@@ -235,13 +235,13 @@ If we sample from a PDF,  $g$ , that is also normal with variance 1 but mean  $\
 Therefore, a good choice of  $\mu$  might be
 
 $$
-\mu = \arg \max _ {x} h (x) f (x) = \arg \max _ {x \geq 2} x ^ {4} e ^ {- x ^ {2} / 4} = \sqrt {8}.
+\mu = \arg \max_{x} h (x) f (x) = \arg \max_{x \geq 2} x^{4} e^{- x^{2} / 4} = \sqrt{8}.
 $$
 
 Then
 
 $$
-\theta = \mathsf {E} _ {g} [ h ^ {*} (X) ] = \mathsf {E} _ {g} [ X ^ {4} e ^ {X ^ {2} / 4} e ^ {- \sqrt {8} X + 4} I _ {\{X \geq 2 \}} ]
+\theta = \mathsf {E}_{g} [ h^{*} (X) ] = \mathsf {E}_{g} [ X^{4} e^{X^{2} / 4} e^{- \sqrt{8} X + 4} I_{\{X \geq 2 \}} ]
 $$
 
 where  $g(\cdot)$  denotes the  $\mathsf{N}(\sqrt{8},1)$  PDF.
@@ -253,7 +253,7 @@ e.g.  $S_{t}\sim GBM(r,\sigma^{2})$  , where  $S_{t}$  is the stock price at tim
 Want to price an Asian call option whose payoff at time  $T$  is given by
 
 $$
-h (\mathbf {S}) := \max  \left(0, \frac {\sum_ {i = 1} ^ {m} S _ {i T / m}}{m} - K\right) \tag {1}
+h (\mathbf {S}) := \max  \left(0, \frac{\sum_{i = 1}^{m} S_{i T / m}}{m} - K\right) \tag {1}
 $$
 
 where  $\mathbf{S} \coloneqq \{S_{iT / m} : i = 1, \dots, m\}$  and  $K$  is the strike price.
@@ -263,7 +263,7 @@ The price of this option is then given by  $C_a = \mathsf{E}_0^Q[e^{-rT}h(\mathb
 Can write
 
 $$
-S _ {i T / m} = S _ {0} e ^ {(r - \sigma^ {2} / 2) \frac {i T}{m} + \sigma \sqrt {\frac {T}{m}} (X _ {1} + \ldots + X _ {i})}
+S_{i T / m} = S_{0} e^{(r - \sigma^{2} / 2) \frac{i T}{m} + \sigma \sqrt{\frac{T}{m}} (X_{1} + \ldots + X_{i})}
 $$
 
 where the  $X_{i}$  's are IID  $\mathsf{N}(0,1)$
@@ -271,7 +271,7 @@ where the  $X_{i}$  's are IID  $\mathsf{N}(0,1)$
 If  $f$  is the risk-neutral PDF of  $\mathbf{X} = (X_1, \ldots, X_m)$ , then (with mild abuse of notation) may write
 
 $$
-C _ {a} = \mathsf {E} _ {f} [ h (X _ {1}, \dots , X _ {n}) ].
+C_{a} = \mathsf {E}_{f} [ h (X_{1}, \dots , X_{n}) ].
 $$
 
 # Pricing an Asian Option
@@ -323,7 +323,7 @@ Let  $M_x(t) \coloneqq \mathsf{E}[e^{tX}]$  denote the MGF.
 Then for  $-\infty < t < \infty$ , a tilted density of  $f$  is given by
 
 $$
-f _ {t} (x) = \frac {e ^ {t x} f (x)}{M _ {x} (t)}.
+f_{t} (x) = \frac{e^{t x} f (x)}{M_{x} (t)}.
 $$
 
 If we want to sample more often from region where  $X$  tends to be large (and positive), then could use  $f_{t}$  with  $t > 0$  as our sampling density  $g$ .
@@ -343,7 +343,7 @@ Since  $S_{n}$  is large when  $X_{i}$ 's are large it makes sense to sample eac
 May then write
 
 $$
-\begin{array}{l} \theta = \mathsf {E} [ I _ {\{S _ {n} \geq a \}} ] = \mathsf {E} _ {t} \left[ I _ {\{S _ {n} \geq a \}} \prod_ {i = 1} ^ {n} \frac {f _ {i} (X _ {i})}{f _ {i , t} (X _ {i})} \right] \\ = \mathsf {E} _ {t} \left[ I _ {\{S _ {n} \geq a \}} \left(\prod_ {i = 1} ^ {n} M _ {i} (t)\right) e ^ {- t S _ {n}} \right] \\ \end{array}
+\begin{array}{l} \theta = \mathsf {E} [ I_{\{S_{n} \geq a \}} ] = \mathsf {E}_{t} \left[ I_{\{S_{n} \geq a \}} \prod_{i = 1}^{n} \frac{f_{i} (X_{i})}{f_{i , t} (X_{i})} \right] \\ = \mathsf {E}_{t} \left[ I_{\{S_{n} \geq a \}} \left(\prod_{i = 1}^{n} M_{i} (t)\right) e^{- t S_{n}} \right] \\ \end{array}
 $$
 
 where  $\mathsf{E}_t[\cdot]$  denotes expectation with respect to the  $X_i$ 's under the tilted densities,  $f_{i,t}(\cdot)$ , and  $M_{i}(t)$  is the moment generating function of  $X_{i}$ .
@@ -353,7 +353,7 @@ where  $\mathsf{E}_t[\cdot]$  denotes expectation with respect to the  $X_i$ 's 
 If we write  $M(t) \coloneqq \prod_{i=1}^{n} M_i(t)$ , then easy to see the importance sampling estimator,  $\hat{\theta}_{n,i}$ , satisfies
 
 $$
-\hat {\theta} _ {n, i} \leq M (t) e ^ {- t a}. \tag {2}
+\hat {\theta}_{n, i} \leq M (t) e^{- t a}. \tag {2}
 $$
 
 Therefore a good choice of  $t$  would be that value that minimizes the bound in (2) - why is this?
@@ -373,7 +373,7 @@ If  $\mathsf{E}[X_1] > 0$  and the  $X_{i}$ 's are IID with MGF,  $M_X(t)$ , the
 The case of interest is then when  $\mathsf{E}[X_1] \leq 0$ . We obtain
 
 $$
-\begin{array}{l} \theta = \mathsf {E} [ I _ {\{\tau_ {a} <   \infty \}} ] = \mathsf {E} \left[ \sum_ {n = 1} ^ {\infty} 1 _ {\{\tau_ {a} = n \}} \right] = \sum_ {n = 1} ^ {\infty} \mathsf {E} \left[ 1 _ {\{\tau_ {a} = n \}} \right] \\ = \sum_ {n = 1} ^ {\infty} E _ {t} \left[ 1 _ {\{\tau_ {a} = n \}} (M _ {X} (t)) ^ {n} e ^ {- t S _ {n}} \right] \\ = \sum_ {n = 1} ^ {\infty} E _ {t} \left[ 1 _ {\{\tau_ {a} = n \}} (M _ {X} (t)) ^ {\tau_ {a}} e ^ {- t S _ {\tau_ {a}}} \right] \\ = \mathsf {E} _ {t} \left[ I _ {\{\tau_ {a} <   \infty \}} e ^ {- t S _ {\tau_ {a}} + \tau_ {a} \psi (t)} \right] \\ \end{array}
+\begin{array}{l} \theta = \mathsf {E} [ I_{\{\tau_{a} <   \infty \}} ] = \mathsf {E} \left[ \sum_{n = 1}^{\infty} 1_{\{\tau_{a} = n \}} \right] = \sum_{n = 1}^{\infty} \mathsf {E} \left[ 1_{\{\tau_{a} = n \}} \right] \\ = \sum_{n = 1}^{\infty} E_{t} \left[ 1_{\{\tau_{a} = n \}} (M_{X} (t))^{n} e^{- t S_{n}} \right] \\ = \sum_{n = 1}^{\infty} E_{t} \left[ 1_{\{\tau_{a} = n \}} (M_{X} (t))^{\tau_{a}} e^{- t S_{\tau_{a}}} \right] \\ = \mathsf {E}_{t} \left[ I_{\{\tau_{a} <   \infty \}} e^{- t S_{\tau_{a}} + \tau_{a} \psi (t)} \right] \\ \end{array}
 $$
 
 where  $\psi (t)\coloneqq \log (M_X(t))$  is the cumulant generating function.
@@ -383,7 +383,7 @@ where  $\psi (t)\coloneqq \log (M_X(t))$  is the cumulant generating function.
 Note that if  $\mathsf{E}_t[X_1] > 0$  then  $\tau_{a} < \infty$  almost surely and so we obtain
 
 $$
-\theta = \mathsf {E} _ {t} \left[ e ^ {- t S _ {\tau_ {a}} + \tau_ {a} \psi (t)} \right].
+\theta = \mathsf {E}_{t} \left[ e^{- t S_{\tau_{a}} + \tau_{a} \psi (t)} \right].
 $$
 
 In fact, importance sampling this way ensures the simulation stops almost surely!
@@ -414,13 +414,13 @@ e.g. Suppose we wish to estimate  $\theta = \mathsf{E}[h(\mathbf{X})|\mathbf{X}\
 Then the density of  $\mathbf{X}$ , given that  $\mathbf{X} \in A$ , is
 
 $$
-f (\mathbf {x} | \mathbf {x} \in A) = \frac {f (\mathbf {x})}{P (\mathbf {X} \in A)}, \quad \text {f o r} \mathbf {x} \in A
+f (\mathbf {x} | \mathbf {x} \in A) = \frac{f (\mathbf {x})}{P (\mathbf {X} \in A)}, \quad \text{fo r} \mathbf {x} \in A
 $$
 
 so
 
 $$
-\theta = \frac {\mathsf {E} [ h (\mathbf {X}) I _ {\{\mathbf {X} \in A \}} ]}{\mathsf {E} [ I _ {\{\mathbf {X} \in A \}} ]}.
+\theta = \frac{\mathsf {E} [ h (\mathbf {X}) I_{\{\mathbf {X} \in A \}} ]}{\mathsf {E} [ I_{\{\mathbf {X} \in A \}} ]}.
 $$
 
 Since  $A$  is a rare event we would be better off using a sampling density,  $g$ , that makes  $A$  more likely to occur.
@@ -428,7 +428,7 @@ Since  $A$  is a rare event we would be better off using a sampling density,  $g
 Then we would have
 
 $$
-\theta = \frac {\mathsf {E} _ {g} [ h (\mathbf {X}) I _ {\{\mathbf {X} \in A \}} f (\mathbf {X}) / g (\mathbf {X}) ]}{\mathsf {E} _ {g} [ I _ {\{\mathbf {X} \in A \}} f (\mathbf {X}) / g (\mathbf {X}) ]}.
+\theta = \frac{\mathsf {E}_{g} [ h (\mathbf {X}) I_{\{\mathbf {X} \in A \}} f (\mathbf {X}) / g (\mathbf {X}) ]}{\mathsf {E}_{g} [ I_{\{\mathbf {X} \in A \}} f (\mathbf {X}) / g (\mathbf {X}) ]}.
 $$
 
 # Estimating Conditional Expectations
@@ -436,7 +436,7 @@ $$
 To estimate  $\theta$  using importance sampling, we generate  $\mathbf{X}_1,\ldots ,\mathbf{X}_n$  with density  $g$ , and set
 
 $$
-\hat {\theta} _ {n, i} = \frac {\sum_ {i = 1} ^ {n} h (\mathbf {X} _ {\mathbf {i}}) I _ {\{\mathbf {X} _ {\mathbf {i}} \in A \}} f (\mathbf {X} _ {\mathbf {i}}) / g (\mathbf {X} _ {\mathbf {i}})}{\sum_ {i = 1} ^ {n} I _ {\{\mathbf {X} _ {\mathbf {i}} \in A \}} f (\mathbf {X} _ {\mathbf {i}}) / g (\mathbf {X} _ {\mathbf {i}})}.
+\hat {\theta}_{n, i} = \frac{\sum_{i = 1}^{n} h (\mathbf {X}_{\mathbf {i}}) I_{\{\mathbf {X}_{\mathbf {i}} \in A \}} f (\mathbf {X}_{\mathbf {i}}) / g (\mathbf {X}_{\mathbf {i}})}{\sum_{i = 1}^{n} I_{\{\mathbf {X}_{\mathbf {i}} \in A \}} f (\mathbf {X}_{\mathbf {i}}) / g (\mathbf {X}_{\mathbf {i}})}.
 $$
 
 In contrast to our usual estimators,  $\hat{\theta}_{n,i}$  is no longer an average of  $n$  IID random variables but instead, it is the ratio of two such averages
@@ -453,13 +453,13 @@ Definition: Let  $p < m$  and let  $\Psi = (\Psi_1, \ldots, \Psi_p)^\top$  be a 
 Then we say the random vector  $\mathbf{Y} = (Y_1, \ldots, Y_m)^\top$  follows a Bernoulli mixture model with factor vector  $\Psi$  if there are functions
 
 $$
-p _ {i}: \mathbb {R} ^ {p} \to [ 0, 1 ], 1 \leq i \leq m,
+p_{i}: \mathbb {R}^{p} \to [ 0, 1 ], 1 \leq i \leq m,
 $$
 
 such that conditional on  $\Psi$  the components of  $\mathbf{Y}$  are independent Bernoulli random variables satisfying
 
 $$
-P (Y _ {i} = 1 \mid \Psi = \psi) = p _ {i} (\psi).
+P (Y_{i} = 1 \mid \Psi = \psi) = p_{i} (\psi).
 $$
 
 # An Application to Portfolio Credit Risk
@@ -484,19 +484,19 @@ Define  $\Omega$  to be the state space of  $\mathbf{Y}$  so that  $\Omega = \{0
 Then
 
 $$
-P (\{\mathbf {y} \}) = \prod_ {i = 1} ^ {m} p _ {i} ^ {y _ {i}} (1 - p _ {i}) ^ {1 - y _ {i}}, \quad \mathbf {y} \in \Omega
+P (\{\mathbf {y} \}) = \prod_{i = 1}^{m} p_{i}^{y_{i}} (1 - p_{i})^{1 - y_{i}}, \quad \mathbf {y} \in \Omega
 $$
 
 so that
 
 $$
-M _ {L} (t) = \mathsf {E} _ {f} [ e ^ {t L} ] = \prod_ {i = 1} ^ {m} \mathsf {E} [ e ^ {t e _ {i} Y _ {i}} ] = \prod_ {i = 1} ^ {m} \left(p _ {i} e ^ {t e _ {i}} + 1 - p _ {i}\right).
+M_{L} (t) = \mathsf {E}_{f} [ e^{t L} ] = \prod_{i = 1}^{m} \mathsf {E} [ e^{t e_{i} Y_{i}} ] = \prod_{i = 1}^{m} \left(p_{i} e^{t e_{i}} + 1 - p_{i}\right).
 $$
 
 Let  $Q_{t}$  be the corresponding tilted probability measure so that
 
 $$
-\begin{array}{l} Q _ {t} (\{\mathbf {y} \}) = \frac {e ^ {t \sum_ {i = 1} ^ {m} e _ {i} y _ {i}}}{M _ {L} (t)} P (\{\mathbf {y} \}) = \prod_ {i = 1} ^ {m} \frac {e ^ {t e _ {i} y _ {i}}}{(p _ {i} e ^ {t e _ {i}} + 1 - p _ {i})} p _ {i} ^ {y _ {i}} (1 - p _ {i}) ^ {1 - y _ {i}} \\ = \prod_ {i = 1} ^ {m} q _ {t, i} ^ {y _ {i}} (1 - q _ {t, i}) ^ {1 - y _ {i}} \\ \end{array}
+\begin{array}{l} Q_{t} (\{\mathbf {y} \}) = \frac{e^{t \sum_{i = 1}^{m} e_{i} y_{i}}}{M_{L} (t)} P (\{\mathbf {y} \}) = \prod_{i = 1}^{m} \frac{e^{t e_{i} y_{i}}}{(p_{i} e^{t e_{i}} + 1 - p_{i})} p_{i}^{y_{i}} (1 - p_{i})^{1 - y_{i}} \\ = \prod_{i = 1}^{m} q_{t, i}^{y_{i}} (1 - q_{t, i})^{1 - y_{i}} \\ \end{array}
 $$
 
 where  $q_{t,i} \coloneqq p_i e^{te_i} / (p_i e^{te_i} + 1 - p_i)$  is the  $Q_t$  probability of the  $i^{th}$  credit defaulting.
@@ -510,7 +510,7 @@ Since  $q_{t,i} \to 1$  as  $t \to \infty$  and  $q_{t,i} \to 0$  as  $t \to -\i
 The same argument that was used in the partial sum example suggests that we should take  $t$  equal to that value that solves
 
 $$
-\mathsf {E} _ {t} [ L ] = \sum_ {i = 1} ^ {m} q _ {i, t} e _ {i} = c.
+\mathsf {E}_{t} [ L ] = \sum_{i = 1}^{m} q_{i, t} e_{i} = c.
 $$
 
 This value can be found easily using numerical methods.
@@ -538,7 +538,7 @@ Corresponding likelihood ratio,  $r_{\mu}(\Psi)$ , is given by ratio of the two 
 It satisfies
 
 $$
-\begin{array}{l} {r _ {\boldsymbol {\mu}} (\boldsymbol {\Psi})} = {\frac {\exp \left(- \frac {1}{2} \boldsymbol {\Psi} ^ {\top} \boldsymbol {\Sigma} ^ {- 1} \boldsymbol {\Psi}\right)}{\exp \left(- \frac {1}{2} (\boldsymbol {\Psi} - \boldsymbol {\mu}) ^ {\top} \boldsymbol {\Sigma} ^ {- 1} (\boldsymbol {\Psi} - \boldsymbol {\mu})\right)}} \\ = \exp (- \boldsymbol {\mu} ^ {\top} \boldsymbol {\Sigma} ^ {- 1} \boldsymbol {\Psi} + \frac {1}{2} \boldsymbol {\mu} ^ {\top} \boldsymbol {\Sigma} ^ {- 1} \boldsymbol {\mu}). \\ \end{array}
+\begin{array}{l} {r_{\boldsymbol {\mu}} (\boldsymbol {\Psi})} = {\frac{\exp \left(- \frac{1}{2} \boldsymbol {\Psi}^{\top} \boldsymbol {\Sigma}^{- 1} \boldsymbol {\Psi}\right)}{\exp \left(- \frac{1}{2} (\boldsymbol {\Psi} - \boldsymbol {\mu})^{\top} \boldsymbol {\Sigma}^{- 1} (\boldsymbol {\Psi} - \boldsymbol {\mu})\right)}} \\ = \exp (- \boldsymbol {\mu}^{\top} \boldsymbol {\Sigma}^{- 1} \boldsymbol {\Psi} + \frac{1}{2} \boldsymbol {\mu}^{\top} \boldsymbol {\Sigma}^{- 1} \boldsymbol {\mu}). \\ \end{array}
 $$
 
 # Case 2: How Do We Choose  $\mu$ ?
@@ -548,7 +548,7 @@ Recall the quantity of interest is  $\theta \coloneqq P(L\geq c) = \mathsf{E}[P(
 Know from earlier discussion that we'd like to choose importance sampling density,  $g^{*}(\Psi)$ , so that
 
 $$
-g ^ {*} (\Psi) \propto P (L \geq c \mid \Psi) \exp \left(- \frac {1}{2} \Psi^ {\top} \Sigma^ {- 1} \Psi\right). \tag {3}
+g^{*} (\Psi) \propto P (L \geq c \mid \Psi) \exp \left(- \frac{1}{2} \Psi^{\top} \Sigma^{- 1} \Psi\right). \tag {3}
 $$
 
 Of course this is not possible since we do not know  $P(L \geq c \mid \Psi)$ , the very quantity that we wish to estimate.
@@ -570,7 +570,7 @@ Let  $\hat{\theta}_{n_1}^{IS}(\Psi_i)$  be the corresponding estimator based on 
 3. Full importance sampling estimator then given by
 
 $$
-\hat {\theta} _ {n} ^ {I S} = \frac {1}{n} \sum_ {i = 1} ^ {n} r _ {\boldsymbol {\mu}} (\boldsymbol {\Psi} _ {i}) \hat {\theta} _ {n _ {1}} ^ {I S} (\boldsymbol {\Psi} _ {i}).
+\hat {\theta}_{n}^{I S} = \frac{1}{n} \sum_{i = 1}^{n} r_{\boldsymbol {\mu}} (\boldsymbol {\Psi}_{i}) \hat {\theta}_{n_{1}}^{I S} (\boldsymbol {\Psi}_{i}).
 $$
 
 # Stratified Sampling: A Motivating Example
@@ -595,7 +595,7 @@ Payoff,  $Y$ , of each contestant is simulated as follows:
 Average payoff,  $\theta \coloneqq \mathsf{E}[Y]$ , then estimated by
 
 $$
-\hat {\theta} _ {n} := \frac {\sum_ {j = 1} ^ {n} Y _ {j}}{n}.
+\hat {\theta}_{n} := \frac{\sum_{j = 1}^{n} Y_{j}}{n}.
 $$
 
 Now suppose  $n = 1000$ , and that a red ball was chosen 246 times, a green ball 270 times, a blue ball 226 times and a yellow ball 258 times.
@@ -613,13 +613,13 @@ Know each ball color should be selected  $\frac{1}{4}$  of the time so we could 
 Note that
 
 $$
-\mathsf {E} [ Y ] = \frac {1}{4} \mathsf {E} [ Y | I = r ] + \frac {1}{4} \mathsf {E} [ Y | I = g ] + \frac {1}{4} \mathsf {E} [ Y | I = b ] + \frac {1}{4} \mathsf {E} [ Y | I = y ]
+\mathsf {E} [ Y ] = \frac{1}{4} \mathsf {E} [ Y | I = r ] + \frac{1}{4} \mathsf {E} [ Y | I = g ] + \frac{1}{4} \mathsf {E} [ Y | I = b ] + \frac{1}{4} \mathsf {E} [ Y | I = y ]
 $$
 
 so an unbiased estimator of  $\theta$  is obtained by setting
 
 $$
-\hat {\theta} _ {s t, n} := \frac {1}{4} \hat {\theta} _ {r, n _ {r}} + \frac {1}{4} \hat {\theta} _ {g, n _ {g}} + \frac {1}{4} \hat {\theta} _ {b, n _ {b}} + \frac {1}{4} \hat {\theta} _ {y, n _ {y}} \tag {4}
+\hat {\theta}_{s t, n} := \frac{1}{4} \hat {\theta}_{r, n_{r}} + \frac{1}{4} \hat {\theta}_{g, n_{g}} + \frac{1}{4} \hat {\theta}_{b, n_{b}} + \frac{1}{4} \hat {\theta}_{y, n_{y}} \tag {4}
 $$
 
 where  $\theta_c\coloneqq \mathsf{E}[Y|I = c]$  for  $c = r,g,b,y$
@@ -633,7 +633,7 @@ To answer this we assume (for now) that  $n_c = n / 4$  for each  $c$ , and that
 Then a fair comparison of  $\mathsf{Var}(\hat{\theta}_n)$  with  $\mathsf{Var}(\hat{\theta}_{st,n})$  should compare
 
 $$
-\operatorname {V a r} \left(Y _ {1} + Y _ {2} + Y _ {3} + Y _ {4}\right) \text {w i t h} \operatorname {V a r} \left(Y _ {r} + Y _ {g} + Y _ {b} + Y _ {y}\right) \tag {5}
+\operatorname{Va r} \left(Y_{1} + Y_{2} + Y_{3} + Y_{4}\right) \text{wi th} \operatorname{Va r} \left(Y_{r} + Y_{g} + Y_{b} + Y_{y}\right) \tag {5}
 $$
 
 - $Y_{1}$ ,  $Y_{2}$ ,  $Y_{3}$  and  $Y_{4}$  are IID samples from the original simulation algorithm  
@@ -642,13 +642,13 @@ $$
 Now recall the conditional variance formula which states
 
 $$
-\operatorname {V a r} (Y) = \mathsf {E} [ \operatorname {V a r} (Y | I) ] + \operatorname {V a r} (\mathsf {E} [ Y | I ]). \tag {6}
+\operatorname{Va r} (Y) = \mathsf {E} [ \operatorname{Va r} (Y | I) ] + \operatorname{Va r} (\mathsf {E} [ Y | I ]). \tag {6}
 $$
 
 Each term in the right-hand-side of (6) is non-negative so this implies
 
 $$
-\begin{array}{l} \operatorname {V a r} (Y) \geq \operatorname {E} [ \operatorname {V a r} (Y | I) ] \\ = \frac {1}{4} \mathsf {V a r} (Y | I = r) + \frac {1}{4} \mathsf {V a r} (Y | I = g) + \frac {1}{4} \mathsf {V a r} (Y | I = b) + \frac {1}{4} \mathsf {V a r} (Y | I = y) \\ = \frac {\operatorname {V a r} \left(Y _ {r} + Y _ {g} + Y _ {b} + Y _ {y}\right)}{4}. \\ \end{array}
+\begin{array}{l} \operatorname{Va r} (Y) \geq \operatorname{E} [ \operatorname{Va r} (Y | I) ] \\ = \frac{1}{4} \mathsf {V a r} (Y | I = r) + \frac{1}{4} \mathsf {V a r} (Y | I = g) + \frac{1}{4} \mathsf {V a r} (Y | I = b) + \frac{1}{4} \mathsf {V a r} (Y | I = y) \\ = \frac{\operatorname{Va r} \left(Y_{r} + Y_{g} + Y_{b} + Y_{y}\right)}{4}. \\ \end{array}
 $$
 
 # Stratified Sampling
@@ -656,7 +656,7 @@ $$
 This implies
 
 $$
-\begin{array}{l} \operatorname {V a r} \left(Y _ {1} + Y _ {2} + Y _ {3} + Y _ {4}\right) = 4 \operatorname {V a r} (Y) \\ \geq \mathsf {V a r} (Y _ {r} + Y _ {g} + Y _ {b} + Y _ {y}). \\ \end{array}
+\begin{array}{l} \operatorname{Va r} \left(Y_{1} + Y_{2} + Y_{3} + Y_{4}\right) = 4 \operatorname{Va r} (Y) \\ \geq \mathsf {V a r} (Y_{r} + Y_{g} + Y_{b} + Y_{y}). \\ \end{array}
 $$
 
 Can therefore conclude that using  $\hat{\theta}_{st,n}$  leads to a variance reduction.
@@ -690,13 +690,13 @@ Now divide  $\mathbb{R}$  into  $m$  non-overlapping subintervals,  $\Delta_1,\l
 Therefore have
 
 $$
-\theta_ {j} = \mathsf {E} [ Y | I = j ] = \mathsf {E} [ Y ^ {(j)} ]
+\theta_{j} = \mathsf {E} [ Y | I = j ] = \mathsf {E} [ Y^{(j)} ]
 $$
 
 and
 
 $$
-\sigma_ {j} ^ {2} = \mathsf {V a r} (Y | I = j) = \mathsf {V a r} (Y ^ {(j)}).
+\sigma_{j}^{2} = \mathsf {V a r} (Y | I = j) = \mathsf {V a r} (Y^{(j)}).
 $$
 
 # Stratified Sampling
@@ -704,7 +704,7 @@ $$
 In particular obtain
 
 $$
-\begin{array}{l} \theta = \mathsf {E} [ Y ] = \mathsf {E} [ \mathsf {E} [ Y | I ] ] = p _ {1} \mathsf {E} [ Y | I = 1 ] + \dots + p _ {m} \mathsf {E} [ Y | I = m ] \\ = p _ {1} \theta_ {1} + \dots + p _ {m} \theta_ {m}. \\ \end{array}
+\begin{array}{l} \theta = \mathsf {E} [ Y ] = \mathsf {E} [ \mathsf {E} [ Y | I ] ] = p_{1} \mathsf {E} [ Y | I = 1 ] + \dots + p_{m} \mathsf {E} [ Y | I = m ] \\ = p_{1} \theta_{1} + \dots + p_{m} \theta_{m}. \\ \end{array}
 $$
 
 To estimate  $\theta$  we only need to estimate the  $\theta_{i}$ 's since the  $p_i$ 's are easily computed by condition 1.
@@ -714,7 +714,7 @@ And we know how to estimate the  $\theta_{i}$ 's by condition 2.
 If we use  $n_i$  samples to estimate  $\theta_i$ , then an estimate of  $\theta$  is given by
 
 $$
-\hat {\theta} _ {s t, n} = p _ {1} \hat {\theta} _ {1, n _ {1}} + \dots + p _ {m} \hat {\theta} _ {m, n _ {m}}.
+\hat {\theta}_{s t, n} = p_{1} \hat {\theta}_{1, n_{1}} + \dots + p_{m} \hat {\theta}_{m, n_{m}}.
 $$
 
 Clear that  $\hat{\theta}_{st,n}$  will be unbiased if each  $\hat{\theta}_{i,n_i}$  is unbiased.
@@ -732,7 +732,7 @@ Consider, however, the sub-optimal allocation where we set  $n_j \coloneqq np_j$
 Then
 
 $$
-\begin{array}{l} \mathsf {V a r} (\hat {\theta} _ {s t, n}) = \mathsf {V a r} (p _ {1} \hat {\theta} _ {1, n _ {1}} + \ldots + p _ {m} \hat {\theta} _ {m, n _ {m}}) \\ { = } { p _ { 1 } ^ { 2 } \frac { \sigma _ { 1 } ^ { 2 } } { n _ { 1 } } + \ldots + p _ { m } ^ { 2 } \frac { \sigma _ { m } ^ { 2 } } { n _ { m } } } \\ = \frac {\sum_ {j = 1} ^ {m} p _ {j} \sigma_ {j} ^ {2}}{n}. \\ \end{array}
+\begin{array}{l} \mathsf {V a r} (\hat {\theta}_{s t, n}) = \mathsf {V a r} (p_{1} \hat {\theta}_{1, n_{1}} + \ldots + p_{m} \hat {\theta}_{m, n_{m}}) \\ { = } { p_{ 1 }^{ 2 } \frac{ \sigma_{ 1 }^{ 2 } } { n_{ 1 } } + \ldots + p_{ m }^{ 2 } \frac{ \sigma_{ m }^{ 2 } } { n_{ m } } } \\ = \frac{\sum_{j = 1}^{m} p_{j} \sigma_{j}^{2}}{n}. \\ \end{array}
 $$
 
 # Obtaining a Variance Reduction
@@ -744,7 +744,7 @@ Therefore, need only show that  $\sum_{j=1}^{m} p_j \sigma_j^2 < \sigma^2$  to p
 But the conditional variance formula implies
 
 $$
-\begin{array}{l} \sigma^ {2} = \operatorname {V a r} (Y) \\ \geq \quad E [ \operatorname {V a r} (Y | I) ] \\ = \sum_ {j = 1} ^ {m} p _ {j} \sigma_ {j} ^ {2} \\ \end{array}
+\begin{array}{l} \sigma^{2} = \operatorname{Va r} (Y) \\ \geq \quad E [ \operatorname{Va r} (Y | I) ] \\ = \sum_{j = 1}^{m} p_{j} \sigma_{j}^{2} \\ \end{array}
 $$
 
 and the proof is complete!
@@ -754,7 +754,7 @@ and the proof is complete!
 We know
 
 $$
-\hat {\theta} _ {s t, n} = p _ {1} \frac {\sum_ {i = 1} ^ {n _ {1}} Y _ {i} ^ {(1)}}{n _ {1}} + \dots + p _ {m} \frac {\sum_ {i = 1} ^ {n _ {m}} Y _ {i} ^ {(m)}}{n _ {m}}
+\hat {\theta}_{s t, n} = p_{1} \frac{\sum_{i = 1}^{n_{1}} Y_{i}^{(1)}}{n_{1}} + \dots + p_{m} \frac{\sum_{i = 1}^{n_{m}} Y_{i}^{(m)}}{n_{m}}
 $$
 
 where for a fixed  $j$ , the  $Y_{i}^{(j)},$  s are  $\mathbb{I}\mathbb{D}\sim Y^{(j)}$
@@ -762,13 +762,13 @@ where for a fixed  $j$ , the  $Y_{i}^{(j)},$  s are  $\mathbb{I}\mathbb{D}\sim Y
 This then implies
 
 $$
-\mathsf {V a r} \left(\hat {\theta} _ {s t, n}\right) = p _ {1} ^ {2} \frac {\sigma_ {1} ^ {2}}{n _ {1}} + \dots + p _ {m} ^ {2} \frac {\sigma_ {m} ^ {2}}{n _ {m}} = \sum_ {j = 1} ^ {m} \frac {p _ {j} ^ {2} \sigma_ {j} ^ {2}}{n _ {j}}. \tag {7}
+\mathsf {V a r} \left(\hat {\theta}_{s t, n}\right) = p_{1}^{2} \frac{\sigma_{1}^{2}}{n_{1}} + \dots + p_{m}^{2} \frac{\sigma_{m}^{2}}{n_{m}} = \sum_{j = 1}^{m} \frac{p_{j}^{2} \sigma_{j}^{2}}{n_{j}}. \tag {7}
 $$
 
 To minimize  $\operatorname{Var}(\hat{\theta}_{st,n})$  must therefore solve the following constrained optimization problem:
 
 $$
-\min  _ {n _ {j}} \sum_ {j = 1} ^ {m} \frac {p _ {j} ^ {2} \sigma_ {j} ^ {2}}{n _ {j}} \quad \text {s u b j e c t} n _ {1} + \dots + n _ {m} = n. \tag {8}
+\min_{n_{j}} \sum_{j = 1}^{m} \frac{p_{j}^{2} \sigma_{j}^{2}}{n_{j}} \quad \text{su bj ec t} n_{1} + \dots + n_{m} = n. \tag {8}
 $$
 
 # Optimizing the Stratified Estimator
@@ -776,13 +776,13 @@ $$
 Can easily solve (8) using a Lagrange multiplier to obtain
 
 $$
-n _ {j} ^ {*} = \left(\frac {p _ {j} \sigma_ {j}}{\sum_ {j = 1} ^ {m} p _ {j} \sigma_ {j}}\right) n. \tag {9}
+n_{j}^{*} = \left(\frac{p_{j} \sigma_{j}}{\sum_{j = 1}^{m} p_{j} \sigma_{j}}\right) n. \tag {9}
 $$
 
 Minimized variance is given by
 
 $$
-\mathsf {V a r} (\hat {\theta} _ {s t, n ^ {*}}) = \frac {\left(\sum_ {j = 1} ^ {m} p _ {j} \sigma_ {j}\right) ^ {2}}{n}.
+\mathsf {V a r} (\hat {\theta}_{s t, n^{*}}) = \frac{\left(\sum_{j = 1}^{m} p_{j} \sigma_{j}\right)^{2}}{n}.
 $$
 
 Note that the solution (9) makes intuitive sense:
@@ -827,7 +827,7 @@ Wish to price a European call option where we assume  $S_{t} \sim GBM(r, \sigma^
 Then
 
 $$
-C _ {0} = \mathsf {E} \left[ e ^ {- r T} \max  (0, S _ {T} - K) \right] = \mathsf {E} [ Y ]
+C_{0} = \mathsf {E} \left[ e^{- r T} \max  (0, S_{T} - K) \right] = \mathsf {E} [ Y ]
 $$
 
 where  $Y = h(X) = e^{-rT} \max \left(0, S_0 e^{(r - \sigma^2 / 2)T + \sigma \sqrt{T} X} - K\right)$  for  $X \sim \mathsf{N}(0,1)$ .
@@ -846,7 +846,7 @@ Therefore clear that we can estimate  $C_0$  using  $X$  as a stratification var
 The discounted payoff of an Asian call option is given by
 
 $$
-Y := e ^ {- r T} \max  \left(0, \frac {\sum_ {i = 1} ^ {m} S _ {i T / m}}{m} - K\right) \tag {10}
+Y := e^{- r T} \max  \left(0, \frac{\sum_{i = 1}^{m} S_{i T / m}}{m} - K\right) \tag {10}
 $$
 
 - its price therefore given by  $C_a = \mathsf{E}[Y]$ .
@@ -854,7 +854,7 @@ $$
 Now each  $S_{iT / m}$  may be expressed as
 
 $$
-S _ {i T / m} = S _ {0} \exp \left((r - \sigma^ {2} / 2) \frac {i T}{m} + \sigma \sqrt {\frac {T}{m}} \left(X _ {1} + \dots + X _ {i}\right)\right) \tag {11}
+S_{i T / m} = S_{0} \exp \left((r - \sigma^{2} / 2) \frac{i T}{m} + \sigma \sqrt{\frac{T}{m}} \left(X_{1} + \dots + X_{i}\right)\right) \tag {11}
 $$
 
 where the  $X_{i}$  's are IID  $\mathsf{N}(0,1)$
@@ -881,7 +881,7 @@ Since  $X_{1},\ldots ,X_{m}$  are IID  $\mathsf{N}(0,1)$ , we immediately have t
 If  $\Delta = [a,b]$  then
 
 $$
-\begin{array}{l} P (W \in \Delta) = P (\mathsf {N} (0, m) \in \Delta) = P (a \leq \mathsf {N} (0, m) \leq b) \\ = P \left(\frac {a}{\sqrt {m}} \leq \mathsf {N} (0, 1) \leq \frac {b}{\sqrt {m}}\right) \\ = \Phi \left(\frac {b}{\sqrt {m}}\right) - \Phi \left(\frac {a}{\sqrt {m}}\right). \\ \end{array}
+\begin{array}{l} P (W \in \Delta) = P (\mathsf {N} (0, m) \in \Delta) = P (a \leq \mathsf {N} (0, m) \leq b) \\ = P \left(\frac{a}{\sqrt{m}} \leq \mathsf {N} (0, 1) \leq \frac{b}{\sqrt{m}}\right) \\ = \Phi \left(\frac{b}{\sqrt{m}}\right) - \Phi \left(\frac{a}{\sqrt{m}}\right). \\ \end{array}
 $$
 
 Similarly, if  $\Delta = [b,\infty)$ , then  $P(W\in \Delta) = 1 - \Phi \left(\frac{b}{\sqrt{m}}\right)$ .
@@ -896,7 +896,7 @@ Need two results from the theory of multivariate normal random variables:
 - If we wish to generate a sample vector  $\mathbf{X}$ , we first generate  $\mathbf{Z} \sim \mathrm{MVN}(\mathbf{0}, \mathbf{I}_{\mathbf{m}})$  and then set
 
 $$
-\mathbf {X} = \mathbf {C} ^ {T} \mathbf {Z} \tag {12}
+\mathbf {X} = \mathbf {C}^{T} \mathbf {Z} \tag {12}
 $$
 
 where  $\mathbf{C}^T\mathbf{C} = \boldsymbol{\Sigma}$
@@ -907,19 +907,19 @@ where  $\mathbf{C}^T\mathbf{C} = \boldsymbol{\Sigma}$
 Let  $\mathbf{a} = (a_{1} a_{2} \ldots a_{m})$  satisfy  $||a|| = 1$ , i.e.  $\sqrt{a_1^2 + \ldots + a_m^2} = 1$ , and let  $\mathbf{Z} = (Z_{1}, \ldots, Z_{m}) \sim \mathsf{MVN}(\mathbf{0}, \mathbf{I}_{\mathbf{m}})$ . Then
 
 $$
-\left\{\left(Z _ {1}, \dots , Z _ {m}\right) \mid \sum_ {i = 1} ^ {m} a _ {i} Z _ {i} = w \right\} \sim \operatorname {M V N} \left(w \mathbf {a} ^ {\top}, \mathbf {I} _ {\mathbf {m}} - \mathbf {a} ^ {\top} \mathbf {a}\right).
+\left\{\left(Z_{1}, \dots , Z_{m}\right) \mid \sum_{i = 1}^{m} a_{i} Z_{i} = w \right\} \sim \operatorname{MV N} \left(w \mathbf {a}^{\top}, \mathbf {I}_{\mathbf {m}} - \mathbf {a}^{\top} \mathbf {a}\right).
 $$
 
 Therefore, to generate  $\{(Z_1,\ldots,Z_m) | \sum_{i=1}^{m} a_i Z_i = w\}$  just need to generate  $\mathbf{V}$  where
 
 $$
-\mathbf {V} \sim \operatorname {M V N} \left(w \mathbf {a} ^ {\top}, \mathbf {I} _ {\mathbf {m}} - \mathbf {a} ^ {\top} \mathbf {a}\right) = w \mathbf {a} ^ {\top} + \operatorname {M V N} (\mathbf {0}, \mathbf {I} _ {\mathbf {m}} - \mathbf {a} ^ {\top} \mathbf {a}).
+\mathbf {V} \sim \operatorname{MV N} \left(w \mathbf {a}^{\top}, \mathbf {I}_{\mathbf {m}} - \mathbf {a}^{\top} \mathbf {a}\right) = w \mathbf {a}^{\top} + \operatorname{MV N} (\mathbf {0}, \mathbf {I}_{\mathbf {m}} - \mathbf {a}^{\top} \mathbf {a}).
 $$
 
 Generating such a  $\mathbf{V}$  is very easy since
 
 $$
-\left(\mathbf {I} _ {\mathbf {m}} - \mathbf {a} ^ {\top} \mathbf {a}\right) ^ {\top} \left(\mathbf {I} _ {\mathbf {m}} - \mathbf {a} ^ {\top} \mathbf {a}\right) = \mathbf {I} _ {\mathbf {m}} - \mathbf {a} ^ {\top} \mathbf {a}.
+\left(\mathbf {I}_{\mathbf {m}} - \mathbf {a}^{\top} \mathbf {a}\right)^{\top} \left(\mathbf {I}_{\mathbf {m}} - \mathbf {a}^{\top} \mathbf {a}\right) = \mathbf {I}_{\mathbf {m}} - \mathbf {a}^{\top} \mathbf {a}.
 $$
 
 That is,  $\pmb{\Sigma}^{\top}\pmb{\Sigma} = \pmb{\Sigma}$  where  $\pmb {\Sigma} = \mathbf{I}_{\mathbf{m}} - \mathbf{a}^{\top}\mathbf{a}$
@@ -937,7 +937,7 @@ To do this, suppose again that  $\Delta = [a,b]$
 Then
 
 $$
-\left[ \left(X _ {1}, \ldots , X _ {m}\right) \Big | \sum_ {i = 1} ^ {m} X _ {i} \in [ a, b ] \right] \equiv \left[ \left(X _ {1}, \ldots , X _ {m}\right) \Big | \frac {1}{\sqrt {m}} \sum_ {i = 1} ^ {m} X _ {i} \in \left[ \frac {a}{\sqrt {m}}, \frac {b}{\sqrt {m}} \right] \right].
+\left[ \left(X_{1}, \ldots , X_{m}\right) \Big | \sum_{i = 1}^{m} X_{i} \in [ a, b ] \right] \equiv \left[ \left(X_{1}, \ldots , X_{m}\right) \Big | \frac{1}{\sqrt{m}} \sum_{i = 1}^{m} X_{i} \in \left[ \frac{a}{\sqrt{m}}, \frac{b}{\sqrt{m}} \right] \right].
 $$
 
 Now we can generate  $\left[(X_1,\ldots ,X_m)\mid \sum_{i = 1}^{m}X_i\in \Delta \right]$  in two steps:
@@ -949,7 +949,7 @@ Step 1: Generate  $\left[\frac{1}{\sqrt{m}}\sum_{i=1}^{m}X_{i}\right|\left[\frac
 Easy to do since  $\frac{1}{\sqrt{m}}\sum_{i=1}^{m}X_{i}\sim\mathsf{N}(0,1)$  so just need to generate
 
 $$
-\left(\mathsf {N} (0, 1) \mid \mathsf {N} (0, 1) \in \left[ \frac {a}{\sqrt {m}}, \frac {b}{\sqrt {m}} \right]\right).
+\left(\mathsf {N} (0, 1) \mid \mathsf {N} (0, 1) \in \left[ \frac{a}{\sqrt{m}}, \frac{b}{\sqrt{m}} \right]\right).
 $$
 
 Let  $w$  be the generated value.
@@ -959,7 +959,7 @@ Let  $w$  be the generated value.
 Now generate
 
 $$
-\left[ \left(X _ {1}, \dots , X _ {m}\right) \mid \frac {1}{\sqrt {m}} \sum_ {i = 1} ^ {m} X _ {i} = w \right]
+\left[ \left(X_{1}, \dots , X_{m}\right) \mid \frac{1}{\sqrt{m}} \sum_{i = 1}^{m} X_{i} = w \right]
 $$
 
 which we can do by Result 2 and the comments that follow.

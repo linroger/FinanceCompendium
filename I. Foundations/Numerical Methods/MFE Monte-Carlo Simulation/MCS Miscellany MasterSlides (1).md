@@ -51,14 +51,14 @@ Suppose we have determined the risk,  $\varrho (L)$ , of this loss.
 The capital allocation problem seeks a decomposition,  $AC_{1}, \ldots, AC_{n}$ , such that
 
 $$
-\varrho (L) = \sum_ {i = 1} ^ {n} A C _ {i} \tag {1}
+\varrho (L) = \sum_{i = 1}^{n} A C_{i} \tag {1}
 $$
 
 - $AC_{i}$  is interpreted as the risk capital allocated to the  $i^{th}$  loss,  $L_{i}$ .
 
 This problem is important in the setting of performance evaluation where we want to compute a risk-adjusted return on capital (RAROC).
 
-e.g. We might set  $\mathrm{RAROC}_i = \text{Expected Profit}_i / \text{Risk Capital}_i$
+e.g. We might set  $\mathrm{RAROC}_i = \text{ExpectedProfit}_i / \text{RiskCapital}_i$
 
 - must determine risk capital of each  $L_{i}$  in order to compute  $\mathrm{RAROC}_{i}$ .
 
@@ -73,7 +73,7 @@ Let  $\varrho(\cdot)$  be a risk measure on a space  $\mathcal{M}$  that contain
 Then the associated risk measure function,  $r_{\varrho}:\Lambda \to \mathbb{R}$ , is defined by
 
 $$
-r _ {\varrho} (\boldsymbol {\lambda}) = \varrho (L (\boldsymbol {\lambda})).
+r_{\varrho} (\boldsymbol {\lambda}) = \varrho (L (\boldsymbol {\lambda})).
 $$
 
 We have the following definition …
@@ -85,7 +85,7 @@ Definition: Let  $r_{\varrho}$  be a risk measure function on some set  $\Lambda
 Then a mapping,  $f^{r_{\varrho}}: \Lambda \to \mathbb{R}^n$ , is called a per-unit capital allocation principle associated with  $r_{\varrho}$  if, for all  $\lambda \in \Lambda$ , we have
 
 $$
-\sum_ {i = 1} ^ {n} \lambda_ {i} f _ {i} ^ {r _ {\varrho}} (\boldsymbol {\lambda}) = r _ {\varrho} (\boldsymbol {\lambda}). \tag {2}
+\sum_{i = 1}^{n} \lambda_{i} f_{i}^{r_{\varrho}} (\boldsymbol {\lambda}) = r_{\varrho} (\boldsymbol {\lambda}). \tag {2}
 $$
 
 - We then interpret  $f_{i}^{r_{o}}$  as the amount of capital allocated to one unit of  $L_{i}$  when the overall portfolio loss is  $L(\lambda)$ .  
@@ -96,13 +96,13 @@ $$
 Definition: If  $r_{\varrho}$  is a positive-homogeneous risk-measure function which is differentiable on the set  $\Lambda$ , then the per-unit Euler capital allocation principle associated with  $r_{\varrho}$  is the mapping
 
 $$
-f ^ {r _ {e}}: \Lambda \to \mathbb {R} ^ {n}: f _ {i} ^ {r _ {e}} (\boldsymbol {\lambda}) = \frac {\partial r _ {\varrho}}{\partial \lambda_ {i}} (\boldsymbol {\lambda}).
+f^{r_{e}}: \Lambda \to \mathbb {R}^{n}: f_{i}^{r_{e}} (\boldsymbol {\lambda}) = \frac{\partial r_{\varrho}}{\partial \lambda_{i}} (\boldsymbol {\lambda}).
 $$
 
 - The Euler allocation principle is a full allocation principle since a well-known property of any positive homogeneous and differentiable function,  $r(\cdot)$  is that it satisfies
 
 $$
-r (\pmb {\lambda}) = \sum_ {i = 1} ^ {n} \lambda_ {i} \frac {\partial r}{\partial \lambda_ {i}} (\pmb {\lambda}).
+r (\pmb {\lambda}) = \sum_{i = 1}^{n} \lambda_{i} \frac{\partial r}{\partial \lambda_{i}} (\pmb {\lambda}).
 $$
 
 - The Euler allocation principle therefore gives us different risk allocations for different positive homogeneous risk measures.  
@@ -115,7 +115,7 @@ Let  $r_{VaR}^{\alpha}(\lambda) = \mathsf{VaR}_{\alpha}(L(\lambda))$  be our ris
 Then subject to technical conditions can be shown that
 
 $$
-\begin{array}{l} {f _ {i} ^ {r _ {V a R} ^ {\alpha}} (\pmb {\lambda})} = {\frac {\partial r _ {V a R} ^ {\alpha}}{\partial \lambda_ {i}} (\pmb {\lambda})} \\ = \mathsf {E} [ L _ {i} \mid L (\boldsymbol {\lambda}) = \mathsf {V a R} _ {\alpha} (L (\boldsymbol {\lambda})) ], \quad \text {f o r} i = 1, \dots , n. \tag {3} \\ \end{array}
+\begin{array}{l} {f_{i}^{r_{V a R}^{\alpha}} (\pmb {\lambda})} = {\frac{\partial r_{V a R}^{\alpha}}{\partial \lambda_{i}} (\pmb {\lambda})} \\ = \mathsf {E} [ L_{i} \mid L (\boldsymbol {\lambda}) = \mathsf {V a R}_{\alpha} (L (\boldsymbol {\lambda})) ], \quad \text{fo r} i = 1, \dots , n. \tag {3} \\ \end{array}
 $$
 
 Capital allocation,  $AC_{i}$ , for  $L_{i}$  is then obtained by setting  $\lambda = 1$  in (3).
@@ -131,7 +131,7 @@ Recall total portfolio loss is  $L = \sum_{i=1}^{n} L_i$ .
 According to (3) with  $\lambda = 1$  we know that
 
 $$
-\begin{array}{l} A C _ {i} = \mathsf {E} [ L _ {i} \mid L = \mathsf {V a R} _ {\alpha} (L) ] (4) \\ = \left. \frac {\partial \operatorname {V a R} _ {\alpha} (\boldsymbol {\lambda})}{\partial \lambda_ {i}} \right| _ {\lambda = 1} \\ = w _ {i} \frac {\partial \mathrm {V a R} _ {\alpha}}{\partial w _ {i}} (5) \\ \end{array}
+\begin{array}{l} A C_{i} = \mathsf {E} [ L_{i} \mid L = \mathsf {V a R}_{\alpha} (L) ] (4) \\ = \left. \frac{\partial \operatorname{Va R}_{\alpha} (\boldsymbol {\lambda})}{\partial \lambda_{i}} \right|_{\lambda = 1} \\ = w_{i} \frac{\partial \mathrm{Va R}_{\alpha}}{\partial w_{i}} (5) \\ \end{array}
 $$
 
 for  $i = 1, \ldots, n$  and where  $w_{i}$  is the number of units of the  $i^{th}$  security held in the portfolio.
@@ -147,7 +147,7 @@ As  $AC_{i}$  is a (mathematical) derivative we could estimate it numerically us
 Such an estimator based on (5) would take the form
 
 $$
-\widehat {A C} _ {i} := \frac {\mathrm {V a R} _ {\alpha} ^ {i , +} - \mathrm {V a R} _ {\alpha} ^ {i , -}}{2 \delta_ {i}} \tag {6}
+\widehat {A C}_{i} := \frac{\mathrm{Va R}_{\alpha}^{i , +} - \mathrm{Va R}_{\alpha}^{i , -}}{2 \delta_{i}} \tag {6}
 $$
 
 where  $\mathrm{VaR}_{\alpha}^{i, + }\left(\mathrm{VaR}_{\alpha}^{i, - }\right)$  is the portfolio VaR when number of units of the  $i^{th}$  security is increased (decreased) by  $\delta_{i}w_{i}$  units.
@@ -187,7 +187,7 @@ In particular, say  $K(x; h) \coloneqq K\left(\frac{x}{h}\right)$  is a kernel f
 A simple choice is to take the triangle kernel so that
 
 $$
-K (x; h) := \max  \left(1 - \left| \frac {x}{h} \right|, 0\right).
+K (x; h) := \max  \left(1 - \left| \frac{x}{h} \right|, 0\right).
 $$
 
 # A Third Approach: Kernel Smoothing Monte-Carlo
@@ -195,7 +195,7 @@ $$
 The kernel estimate of  $AC_{i}$  is then given by
 
 $$
-\widehat {A C} _ {i} ^ {k e r} := \frac {\sum_ {j = 1} ^ {N} K \left(L ^ {(j)} - \mathsf {V a R} _ {\alpha} ; h\right) L _ {i} ^ {(j)}}{\sum_ {j = 1} ^ {N} K \left(L ^ {(j)} - \mathsf {V a R} _ {\alpha} ; h\right)} \tag {7}
+\widehat {A C}_{i}^{k e r} := \frac{\sum_{j = 1}^{N} K \left(L^{(j)} - \mathsf {V a R}_{\alpha} ; h\right) L_{i}^{(j)}}{\sum_{j = 1}^{N} K \left(L^{(j)} - \mathsf {V a R}_{\alpha} ; h\right)} \tag {7}
 $$
 
 where  $\widehat{\mathrm{VaR}}_{\alpha} := L^{(m)}$  with  $m$  as defined above.
@@ -203,7 +203,7 @@ where  $\widehat{\mathrm{VaR}}_{\alpha} := L^{(m)}$  with  $m$  as defined above
 One minor problem with (7) is that the additivity property doesn't hold. Can easily correct this by instead setting
 
 $$
-\widehat {A C} _ {i} ^ {k e r} := \widehat {\mathsf {V a R}} _ {\alpha} \frac {\sum_ {j = 1} ^ {N} K \left(L ^ {(j)} - \mathsf {V a R} _ {\alpha} ; h\right) L _ {i} ^ {(j)}}{\sum_ {j = 1} ^ {N} K \left(L ^ {(j)} - \mathsf {V a R} _ {\alpha} ; h\right) L ^ {(j)}}. \tag {8}
+\widehat {A C}_{i}^{k e r} := \widehat {\mathsf {V a R}}_{\alpha} \frac{\sum_{j = 1}^{N} K \left(L^{(j)} - \mathsf {V a R}_{\alpha} ; h\right) L_{i}^{(j)}}{\sum_{j = 1}^{N} K \left(L^{(j)} - \mathsf {V a R}_{\alpha} ; h\right) L^{(j)}}. \tag {8}
 $$
 
 Must choose an appropriate value of smoothing parameter,  $h$ .
@@ -211,7 +211,7 @@ Must choose an appropriate value of smoothing parameter,  $h$ .
 Can be shown that an optimal choice is to set
 
 $$
-h = 2. 5 7 5 \sigma N ^ {- 1 / 5}
+h = 2. 5 7 5 \sigma N^{- 1 / 5}
 $$
 
 where  $\sigma = \operatorname{std}(L)$ , a quantity that we can easily estimate.
@@ -221,7 +221,7 @@ where  $\sigma = \operatorname{std}(L)$ , a quantity that we can easily estimate
 If  $L_{1},\ldots ,L_{N}$  have an elliptical distribution then it may be shown that
 
 $$
-A C _ {i} = \mathsf {E} [ L _ {i} ] + \frac {\operatorname {C o v} (L , L _ {i})}{\operatorname {V a r} (L)} (\operatorname {V a R} _ {\alpha} (L) - \mathsf {E} [ L ]). \tag {9}
+A C_{i} = \mathsf {E} [ L_{i} ] + \frac{\operatorname{Co v} (L , L_{i})}{\operatorname{Va r} (L)} (\operatorname{Va R}_{\alpha} (L) - \mathsf {E} [ L ]). \tag {9}
 $$
 
 In numerical example below, we assume 10 security returns are elliptically distributed. In particular, losses satisfy  $(L_{1},\ldots ,L_{n})\sim \mathsf{MN}_{n}(\mathbf{0},\Sigma)$
@@ -281,13 +281,13 @@ Hence the term Quasi Monte Carlo often used to refer to approaches that use LDS 
 If the objective is to calculate
 
 $$
-\theta := \mathsf {E} [ f (U _ {1}, \dots , U _ {d}) ] = \int_ {[ 0, 1) ^ {d}} f (x) d x
+\theta := \mathsf {E} [ f (U_{1}, \dots , U_{d}) ] = \int_{[ 0, 1)^{d}} f (x) d x
 $$
 
 then we can estimate it with
 
 $$
-\hat {\theta} := \frac {1}{n} \sum_ {i = 1} ^ {n} f (x _ {i})
+\hat {\theta} := \frac{1}{n} \sum_{i = 1}^{n} f (x_{i})
 $$
 
 where  $x_{1}, \ldots, x_{n}$  are a d-dimensional sequence of low-discrepancy points from the unit hypercube,  $[0, 1)^{d}$ .
@@ -295,7 +295,7 @@ where  $x_{1}, \ldots, x_{n}$  are a d-dimensional sequence of low-discrepancy p
 Definition: Given a collection,  $\mathcal{A}$ , of subsets of  $[0,1)^d$ , we define the discrepancy of a set of points  $\{x_1,\ldots ,x_n\}$  relative to  $\mathcal{A}$  as
 
 $$
-D (x _ {1}, \ldots , x _ {n}; \mathcal {A}) := \sup  _ {A \in \mathcal {A}} \left| \frac {\# \{x _ {i} \in A \}}{n} - \operatorname {v o l} (A) \right|
+D (x_{1}, \ldots , x_{n}; \mathcal {A}) := \sup_{A \in \mathcal {A}} \left| \frac{\# \{x_{i} \in A \}}{n} - \operatorname{vo l} (A) \right|
 $$
 
 where  $\operatorname{vol}(A)$  denotes the volume of  $A$ .
@@ -303,7 +303,7 @@ where  $\operatorname{vol}(A)$  denotes the volume of  $A$ .
 - The discrepancy of a sequence,  $D(x_{1}, \ldots, x_{n})$ , is then obtained by taking  $\mathcal{A}$  to be the collection of rectangles of the form
 
 $$
-\prod_ {j = 1} ^ {d} \left[ u _ {j}, v _ {j}\right), \quad 0 \leq u _ {j} <   v _ {j} \leq 1. \tag {10}
+\prod_{j = 1}^{d} \left[ u_{j}, v_{j}\right), \quad 0 \leq u_{j} <   v_{j} \leq 1. \tag {10}
 $$
 
 - The star discrepancy,  $D^{*}(x_{1},\ldots ,x_{n})$  is obtained by taking  $u_{j} = 0$  in (10).  
@@ -323,7 +323,7 @@ This dependence on the dimensionality of the problem is clear when we realize th
 Question: How might you evaluate an expectation
 
 $$
-\theta := \operatorname {E} [ f (\mathbf {X}) ]
+\theta := \operatorname{E} [ f (\mathbf {X}) ]
 $$
 
 where  $\mathbf{X}$  is a  $d$ -dimensional multivariate normal random vector? Consider first the case where the  $d$  normal random variables are independent.
@@ -376,7 +376,7 @@ There are now methods available to randomize LDS, however, and so approximate CI
 One method is to generate a uniform random vector,  $U_{1} \in R^{d}$ , and then set
 
 $$
-\hat {\theta} _ {1} := \frac {1}{n} \sum_ {i = 1} ^ {n} f \left(\left(x _ {i} + U _ {1}\right) \bmod 1\right)
+\hat {\theta}_{1} := \frac{1}{n} \sum_{i = 1}^{n} f \left(\left(x_{i} + U_{1}\right) \bmod 1\right)
 $$
 
 where the mod 1 operation is applied separately to each of the  $d$  coordinates.
@@ -426,7 +426,7 @@ We need a prepayment model and a term-structure model.
 We assume
 
 $$
-C P R _ {k} = R I _ {k} \times A G E _ {k} \times M M _ {k} \times B M _ {k} \tag {11}
+C P R_{k} = R I_{k} \times A G E_{k} \times M M_{k} \times B M_{k} \tag {11}
 $$
 
 where:
@@ -434,7 +434,7 @@ where:
 - $RI_{k}$  is the refinancing incentive with
 
 $$
-R I _ {k} := . 2 8 +. 1 4 \tan^ {- 1} (- 8. 5 7 + 4 3 0 (W A C - r _ {k} (1 0))) \tag {12}
+R I_{k} := . 2 8 +. 1 4 \tan^{- 1} (- 8. 5 7 + 4 3 0 (W A C - r_{k} (1 0))) \tag {12}
 $$
 
 where  $r_k(10)$  is the prevailing 10-year spot rate at time  $k$ .
@@ -462,7 +462,7 @@ The term structure model will be used to:
 Will assume a Vasicek model for the term structure so that
 
 $$
-d r _ {t} = \alpha (\mu - r _ {t}) d t + \sigma d W _ {t}
+d r_{t} = \alpha (\mu - r_{t}) d t + \sigma d W_{t}
 $$
 
 where  $r_0 = .08$ ,  $\alpha = 0.2$ ,  $\mu = 0.1$ ,  $\sigma = .05$  and  $W_{t}$  is a  $Q$ -Brownian motion.
@@ -498,11 +498,11 @@ Both of these estimates are inside the  $95\%$  Monte-Carlo CIs
 If instead we use 10 blocks of 10,000 low discrepancy points where we randomize each block, then we obtain
 
 $$
-95 \% \text {CI for IO Price} = [ \$ 4.013m, \$ 4.016m ]
+95 \% \text{CIforIOPrice} = [ \$ 4.013m, \$ 4.016m ]
 $$
 
 $$
-95 \% \text {CI for PO Price} = [ \$ 6.252m, \$ 6.256m ]
+95 \% \text{CIforPOPrice} = [ \$ 6.252m, \$ 6.256m ]
 $$
 
 Note that these CIs are inside the CIs that were obtained using Monte-Carlo.
@@ -514,7 +514,7 @@ Of course five times as many points were used to obtain these LDS-based CIs but 
 The general Bermudan option pricing problem at time  $t = 0$  is to compute
 
 $$
-V _ {0} := \sup  _ {\tau \in \mathcal {T}} \mathsf {E} _ {0} ^ {\mathcal {Q}} \left[ \frac {h _ {\tau}}{B _ {\tau}} \right] \tag {13}
+V_{0} := \sup_{\tau \in \mathcal {T}} \mathsf {E}_{0}^{\mathcal {Q}} \left[ \frac{h_{\tau}}{B_{\tau}} \right] \tag {13}
 $$
 
 - $\mathcal{T} = \{0\leq t_1,\dots ,t_n = T\}$  is the set of possible exercise dates  
@@ -529,11 +529,11 @@ e.g. In the case of a Bermudan swaption in the LIBOR market model  $X_{t}$  woul
 In theory (13) is easily solved using value iteration:
 
 $$
-V _ {T} = h (X _ {T}) \quad \text {a n d}
+V_{T} = h (X_{T}) \quad \text{an d}
 $$
 
 $$
-{V _ {t}} = {\max \left(h (X _ {t}), \mathsf {E} _ {t} ^ {\mathcal {Q}} \left[ \frac {B _ {t}}{B _ {t + 1}} V _ {t + 1} (X _ {t + 1}) \right]\right).}
+{V_{t}} = {\max \left(h (X_{t}), \mathsf {E}_{t}^{\mathcal {Q}} \left[ \frac{B_{t}}{B_{t + 1}} V_{t + 1} (X_{t + 1}) \right]\right).}
 $$
 
 - option price then given by  $V_{0}(X_{0})$ .
@@ -545,7 +545,7 @@ An alternative to value iteration is Q-value iteration.
 The Q-value function is the value of the option conditional on it not being exercised today, i.e. the Q-value is the continuation value of the option
 
 $$
-Q _ {t} \left(X _ {t}\right) = \mathsf {E} _ {t} ^ {\mathcal {Q}} \left[ \frac {B _ {t}}{B _ {t + 1}} V _ {t + 1} \left(X _ {t + 1}\right) \right]. \tag {14}
+Q_{t} \left(X_{t}\right) = \mathsf {E}_{t}^{\mathcal {Q}} \left[ \frac{B_{t}}{B_{t + 1}} V_{t + 1} \left(X_{t + 1}\right) \right]. \tag {14}
 $$
 
 # Q-Value Iteration
@@ -553,13 +553,13 @@ $$
 Option value at time  $t + 1$  then given by
 
 $$
-V _ {t + 1} \left(X _ {t + 1}\right) = \max  \left(h \left(X _ {t + 1}\right), Q _ {t + 1} \left(X _ {t + 1}\right)\right) \tag {15}
+V_{t + 1} \left(X_{t + 1}\right) = \max  \left(h \left(X_{t + 1}\right), Q_{t + 1} \left(X_{t + 1}\right)\right) \tag {15}
 $$
 
 so that if we substitute (15) into (14) we obtain
 
 $$
-Q _ {t} \left(X _ {t}\right) = \mathsf {E} _ {t} ^ {\mathcal {Q}} \left[ \frac {B _ {t}}{B _ {t + 1}} \max  \left(h \left(X _ {t + 1}\right), Q _ {t + 1} \left(X _ {t + 1}\right)\right) \right]. \tag {16}
+Q_{t} \left(X_{t}\right) = \mathsf {E}_{t}^{\mathcal {Q}} \left[ \frac{B_{t}}{B_{t + 1}} \max  \left(h \left(X_{t + 1}\right), Q_{t + 1} \left(X_{t + 1}\right)\right) \right]. \tag {16}
 $$
 
 - this is Q-value iteration.
@@ -579,7 +579,7 @@ These basis functions define a linear architecture that will be used to approxim
 In particular, will approximate  $Q_{t}(X_{t})$  with
 
 $$
-\widetilde {Q} _ {t} (X _ {t}) := r _ {1} ^ {(t)} \phi_ {1} (X _ {t}) + \ldots + r _ {m} ^ {(t)} \phi_ {m} (X _ {t})
+\widetilde {Q}_{t} (X_{t}) := r_{1}^{(t)} \phi_{1} (X_{t}) + \ldots + r_{m}^{(t)} \phi_{m} (X_{t})
 $$
 
 where  $r_t \coloneqq (r_1^{(t)}, \ldots, r_m^{(t)})$  is a vector of time  $t$  parameters.
@@ -619,13 +619,13 @@ $\underline{V}_0$  obtained by simulating the exercise strategy that is defined 
 That is, define
 
 $$
-\widetilde {\tau} := \min  \{t \in \mathcal {T}: \widetilde {Q} _ {t} \leq h _ {t} \}
+\widetilde {\tau} := \min  \{t \in \mathcal {T}: \widetilde {Q}_{t} \leq h_{t} \}
 $$
 
 and
 
 $$
-\underline {{V}} _ {0} := \mathsf {E} _ {0} ^ {\mathcal {Q}} \left[ \frac {h _ {\widetilde {\tau}}}{B _ {\widetilde {\tau}}} \right].
+\underline {{V}}_{0} := \mathsf {E}_{0}^{\mathcal {Q}} \left[ \frac{h_{\widetilde {\tau}}}{B_{\widetilde {\tau}}} \right].
 $$
 
 Question: Why is  $\underline{V}_0$  is an unbiased lower bound on  $V_0$ ?
@@ -647,7 +647,7 @@ This means that it is possible to have large errors in  $\widetilde{Q}_t(\cdot)$
 For an arbitrary super-martingale,  $\pi_t$ , value of the Bermudan option satisfies
 
 $$
-\begin{array}{l} V _ {0} = \sup  _ {\tau \in \mathcal {T}} \mathsf {E} _ {0} ^ {\mathcal {Q}} \left[ \frac {h _ {\tau}}{B _ {\tau}} \right] = \sup  _ {\tau \in \mathcal {T}} \mathsf {E} _ {0} ^ {\mathcal {Q}} \left[ \frac {h _ {\tau}}{B _ {\tau}} - \pi_ {\tau} + \pi_ {\tau} \right] \\ \leq \sup  _ {\tau \in \mathcal {T}} \mathsf {E} _ {0} ^ {\mathcal {Q}} \left[ \frac {h _ {\tau}}{B _ {\tau}} - \pi_ {\tau} \right] + \sup  _ {\tau \in \mathcal {T}} \mathsf {E} _ {0} ^ {\mathcal {Q}} \left[ \pi_ {\tau} \right] \\ \leq \sup  _ {\tau \in \mathcal {T}} \mathsf {E} _ {0} ^ {\mathcal {Q}} \left[ \frac {h _ {\tau}}{B _ {\tau}} - \pi_ {\tau} \right] + \pi_ {0} \\ \leq \mathsf {E} _ {0} ^ {\mathcal {Q}} \left[ \max  _ {t \in \mathcal {T}} \left(\frac {h _ {t}}{B _ {t}} - \pi_ {t}\right) \right] + \pi_ {0} \tag {17} \\ \end{array}
+\begin{array}{l} V_{0} = \sup_{\tau \in \mathcal {T}} \mathsf {E}_{0}^{\mathcal {Q}} \left[ \frac{h_{\tau}}{B_{\tau}} \right] = \sup_{\tau \in \mathcal {T}} \mathsf {E}_{0}^{\mathcal {Q}} \left[ \frac{h_{\tau}}{B_{\tau}} - \pi_{\tau} + \pi_{\tau} \right] \\ \leq \sup_{\tau \in \mathcal {T}} \mathsf {E}_{0}^{\mathcal {Q}} \left[ \frac{h_{\tau}}{B_{\tau}} - \pi_{\tau} \right] + \sup_{\tau \in \mathcal {T}} \mathsf {E}_{0}^{\mathcal {Q}} \left[ \pi_{\tau} \right] \\ \leq \sup_{\tau \in \mathcal {T}} \mathsf {E}_{0}^{\mathcal {Q}} \left[ \frac{h_{\tau}}{B_{\tau}} - \pi_{\tau} \right] + \pi_{0} \\ \leq \mathsf {E}_{0}^{\mathcal {Q}} \left[ \max_{t \in \mathcal {T}} \left(\frac{h_{t}}{B_{t}} - \pi_{t}\right) \right] + \pi_{0} \tag {17} \\ \end{array}
 $$
 
 where the second inequality follows from the optional sampling theorem.
@@ -655,7 +655,7 @@ where the second inequality follows from the optional sampling theorem.
 Taking the infimum over  $\pi_t$  on  $\mathbf{r}\mathbf{h}\mathbf{s}$  of (17) implies
 
 $$
-V _ {0} \leq U _ {0} := \inf  _ {\pi} \mathsf {E} _ {0} ^ {\mathcal {Q}} \left[ \max  _ {t \in \mathcal {T}} \left(\frac {h _ {t}}{B _ {t}} - \pi_ {t}\right) \right] + \pi_ {0}. \tag {18}
+V_{0} \leq U_{0} := \inf_{\pi} \mathsf {E}_{0}^{\mathcal {Q}} \left[ \max_{t \in \mathcal {T}} \left(\frac{h_{t}}{B_{t}} - \pi_{t}\right) \right] + \pi_{0}. \tag {18}
 $$
 
 # Computing Upper Bounds on Bermudan Option Prices
@@ -663,7 +663,7 @@ $$
 But it is known(!) that  $V_{t} / B_{t}$  is itself a super-martingale so
 
 $$
-U _ {0} \leq \mathsf {E} _ {0} ^ {\mathcal {Q}} \left[ \max _ {t \in \mathcal {T}} \left(h _ {t} / B _ {t} - V _ {t} / B _ {t}\right) \right] + V _ {0}.
+U_{0} \leq \mathsf {E}_{0}^{\mathcal {Q}} \left[ \max_{t \in \mathcal {T}} \left(h_{t} / B_{t} - V_{t} / B_{t}\right) \right] + V_{0}.
 $$
 
 Since  $V_{t} \geq h_{t}$  for all  $t$ , can conclude that  $U_{0} \leq V_{0}$ .
@@ -683,11 +683,11 @@ Suggests a tight upper bound can be obtained by using an accurate approximation,
 One possibility is to define  $\pi_t$  as a martingale:
 
 $$
-\pi_ {0} = \widetilde {V} _ {0} \tag {19}
+\pi_{0} = \widetilde {V}_{0} \tag {19}
 $$
 
 $$
-\pi_ {t + 1} = \pi_ {t} + \frac {\widetilde {V} _ {t + 1}}{B _ {t + 1}} - \frac {\widetilde {V} _ {t}}{B _ {t}} - \mathsf {E} _ {t} \left[ \frac {\widetilde {V} _ {t + 1}}{B _ {t + 1}} - \frac {\widetilde {V} _ {t}}{B _ {t}} \right]. \tag {20}
+\pi_{t + 1} = \pi_{t} + \frac{\widetilde {V}_{t + 1}}{B_{t + 1}} - \frac{\widetilde {V}_{t}}{B_{t}} - \mathsf {E}_{t} \left[ \frac{\widetilde {V}_{t + 1}}{B_{t + 1}} - \frac{\widetilde {V}_{t}}{B_{t}} \right]. \tag {20}
 $$
 
 Let  $\overline{V}_0$  denote the upper bound from (17) corresponding to choice of super-martingale in (19) and (20).
@@ -695,5 +695,5 @@ Let  $\overline{V}_0$  denote the upper bound from (17) corresponding to choice 
 Then easy to see the upper bound explicitly given by
 
 $$
-\overline {{V}} _ {0} = \widetilde {V} _ {0} + \mathsf {E} _ {0} ^ {\mathcal {Q}} \left[ \max  _ {t \in \mathcal {T}} \left(\frac {h _ {t}}{B _ {t}} - \frac {\widetilde {V} _ {t}}{B _ {t}} + \sum_ {j = 1} ^ {t} \mathsf {E} _ {j - 1} ^ {\mathcal {Q}} \left[ \frac {\widetilde {V} _ {j}}{B _ {j}} - \frac {\widetilde {V} _ {j - 1}}{B _ {j - 1}} \right]\right) \right]. \tag {21}
+\overline {{V}}_{0} = \widetilde {V}_{0} + \mathsf {E}_{0}^{\mathcal {Q}} \left[ \max_{t \in \mathcal {T}} \left(\frac{h_{t}}{B_{t}} - \frac{\widetilde {V}_{t}}{B_{t}} + \sum_{j = 1}^{t} \mathsf {E}_{j - 1}^{\mathcal {Q}} \left[ \frac{\widetilde {V}_{j}}{B_{j}} - \frac{\widetilde {V}_{j - 1}}{B_{j - 1}} \right]\right) \right]. \tag {21}
 $$

@@ -94,7 +94,7 @@ There is just one block left to be filled, and it's the very top corner. Adding 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/44fa662e-a015-46fb-8608-ecf0fb518d19/72dcf865d8db8ba943a41ac6f01a352c8b0acf50e8986a7cf7975f6c993a65c2.jpg)
 
 $$
-2 ^ {3} = 1 + 3 + 3 + 1
+2^{3} = 1 + 3 + 3 + 1
 $$
 
 # 2-Cube into a 3-Cube
@@ -110,7 +110,7 @@ Let's start with a 2-cube and construct a 3-cube from it. (You can even try this
 we see that we need to "enlarge" the three exposed faces of the 2-cube but, in this case, the amount by which we need to enlarge them is different than before (with the 1-cube) since we are working with a larger initial cube. Specifically, each face must be enlarged by a  $2 \times 2$  square of blocks (whereas, in the previous case, we added a  $1 \times 1$  square of blocks). Thus, an equation to account for this addition is
 
 $$
-3 ^ {3} = 2 ^ {3} + 3 \cdot 2 ^ {2} + \underline {{}}
+3^{3} = 2^{3} + 3 \cdot 2^{2} + \underline{}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/44fa662e-a015-46fb-8608-ecf0fb518d19/a73733a04a8907e53967ee2eb16b2e53bc18441fcc3a4844dd97f9cac8e357da.jpg)
@@ -118,7 +118,7 @@ $$
 After we do this, we see that we need to fill in the gaps between those enlarged faces with  $2 \times 1$  of blocks (whereas, in the previous case, we added  $1 \times 1$  rows of blocks). An equation to account for the additions thus far is
 
 $$
-3 ^ {3} = 2 ^ {3} + 3 \cdot 2 ^ {2} + 3 \cdot 2 + \underline {{}}
+3^{3} = 2^{3} + 3 \cdot 2^{2} + 3 \cdot 2 + \underline{}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/44fa662e-a015-46fb-8608-ecf0fb518d19/abdb1c7366773243bd19760808680db58b0dbc836fecafa5749e60a2a0173a12.jpg)
@@ -134,7 +134,7 @@ After we do this, we see that there is only the top corner left to fill in. Acco
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/44fa662e-a015-46fb-8608-ecf0fb518d19/3b57efadb6b6e630aab289f356c1880e5933387792f0cd215a88362e89d4767b.jpg)
 
 $$
-3 ^ {3} = 2 ^ {3} + 3 \cdot 2 ^ {2} + 3 \cdot 2 + 1
+3^{3} = 2^{3} + 3 \cdot 2^{2} + 3 \cdot 2 + 1
 $$
 
 $n$ -Cube into an  $(n + 1)$ -Cube
@@ -144,7 +144,7 @@ Do you see now how this process will generalize? What if we started with an  $n$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/44fa662e-a015-46fb-8608-ecf0fb518d19/0d984cd9c5f29b9249ae7fef835d86dd841e7d1ff34ab4affcb40666acc27a12.jpg)
 
 $$
-(n + 1) ^ {3} = n ^ {3} + 3 n ^ {2} + \underline {{}}
+(n + 1)^{3} = n^{3} + 3n^{2} + \underline{}
 $$
 
 Next, we would fill in the gaps between these enlarged faces with rows of blocks. How long are those rows? Well, they each lie along the edges of the squares of blocks we just added, so they will each be of size  $n \times 1$ , accounting for  $n$  blocks for each gap:
@@ -152,19 +152,19 @@ Next, we would fill in the gaps between these enlarged faces with rows of blocks
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/44fa662e-a015-46fb-8608-ecf0fb518d19/9268a91fdd23524420c86b7fc30bf8877f3cd41d45ede6b7ac2b850387de278d.jpg)
 
 $$
-(n + 1) ^ {3} = n ^ {3} + 3 n ^ {2} + 3 n + \underline {{}}
+(n + 1)^{3} = n^{3} + 3n^{2} + 3n + \underline{}
 $$
 
 Finally, there will only be the top corner left to fill in! Therefore,
 
 $$
-(n + 1) ^ {3} = n ^ {3} + 3 n ^ {2} + 3 n + 1
+(n + 1)^{3} = n^{3} + 3n^{2} + 3n + 1
 $$
 
 "Wait a minute!" you might say, abruptly. "We already knew that, right?" In a way, yes; the equation above is an algebraic identity that we can also easily see by just expanding the product on the left and collecting terms:
 
 $$
-\begin{array}{l} (n + 1) ^ {3} = (n + 1) \cdot (n + 1) ^ {2} \\ = (n + 1) \cdot \left(n ^ {2} + 2 n + 1\right) \\ = \left(n ^ {3} + 2 n ^ {2} + n\right) + \left(n ^ {2} + 2 n + 1\right) \\ = n ^ {3} + 3 n ^ {2} + 3 n + 1 \\ \end{array}
+\begin{array}{l} (n + 1)^{3} = (n + 1) \cdot (n + 1)^{2} \\ = (n + 1) \cdot \left(n^{2} + 2n + 1\right) \\ = \left(n^{3} + 2n^{2} + n\right) + \left(n^{2} + 2n + 1\right) \\ = n^{3} + 3n^{2} + 3n + 1 \\ \end{array}
 $$
 
 So what have we really accomplished? Well, the main point behind deriving this identity in this geometric and visual way is that it exhibits how this identity represents some kind of inductive process. We sought to explain how to derive one "fact" (a cubic number,  $(n + 1)^3$ ) from a previously known "fact" (the next smallest cubic number,  $n^3$ ) and properly explained how to do just that. Compare this to one of the methods we used to investigate the fact that the sums of odd integers yield perfect squares, too. That observation also belies an
@@ -174,13 +174,13 @@ inductive process and, although we didn't describe it as such at the time, we en
 The benefit of the method we've used is that we now know how to describe cubic numbers in terms of smaller cubic numbers, all the way down to 1; that is, any time we see a cubic number in an expression, we know precisely how to write that value in terms of a smaller cubic number and some leftover terms. Furthermore, each of those expressions and leftover terms have an inherent structure to them that depends on the cubic number in question. Thus, by iteratively replacing any cubic number, like  $(n + 1)^3$ , with an expression like the one we derived above, and continuing until we can't replace any more, should produce an equation that has some built in symmetry. This idea is best illustrated by actually doing it, so let's see what happens. Let's start with the expression we derived, for some arbitrary value of  $n$ ,
 
 $$
-(n + 1) ^ {3} = n ^ {3} + 3 n ^ {2} + 3 n + 1
+(n + 1)^{3} = n^{3} + 3n^{2} + 3n + 1
 $$
 
 and then recognize that we now know a similar expression
 
 $$
-n ^ {3} = (n - 1) ^ {3} + 3 (n - 1) ^ {2} + 3 (n - 1) + 1
+n^{3} = (n - 1)^{3} + 3(n - 1)^{2} + 3(n - 1) + 1
 $$
 
 We proved that this equation holds when we gave a general argument for the expression above for  $n^3$ , since that only relied on the fact that  $n \geq 1$ . We can follow the same logical steps, throughout replacing  $n$  with  $n - 1$ , and end up with the second expression above, for  $(n - 1)^3$ . (Does this keep going, for any value of  $n$ ? Think about this for a minute. Does our argument make any sense when  $n \leq 0$ ? Would it make physical sense to talk about, say, constructing a  $(-2) \times (-2) \times (-2)$  cube from a different cube?)
@@ -188,37 +188,37 @@ We proved that this equation holds when we gave a general argument for the expre
 Therefore, we can replace the  $n^3$  term in the line above
 
 $$
-\begin{array}{l} (n + 1) ^ {3} = \quad \pi^ {\mathcal {Z}} \quad + \quad 3 n ^ {2} \quad + \quad 3 n \quad + \quad 1 \\ + (n - 1) ^ {3} + 3 (n - 1) ^ {2} + 3 (n - 1) + 1 \\ \end{array}
+\begin{array}{l} (n + 1)^{3} = n^{3} \quad + \quad 3n^{2} \quad + \quad 3n \quad + \quad 1 \\ + (n - 1)^{3} + 3(n - 1)^{2} + 3(n - 1) + 1 \\ \end{array}
 $$
 
 This is also an algebraic identity, but it's certainly not one that we would easily think to write down just by expanding the product on the left-hand side and grouping terms. Here, we are taking advantage of the structure of our result to apply it over and over and obtain new expressions that we wouldn't have otherwise thought to write down. Let's continue with this substitution process and see where it takes us! Next, we replace  $(n - 1)^3$  with the corresponding expression and find
 
 $$
-\begin{array}{l} (n + 1) ^ {3} = \quad 3 n ^ {2} \quad + \quad 3 n \quad + \quad 1 \\ (n - 1) ^ {3} + 3 (n - 1) ^ {2} + 3 (n - 1) + 1 \\ + (n - 2) ^ {3} + 3 (n - 2) ^ {2} + 3 (n - 2) + 1 \\ \end{array}
+\begin{array}{l} (n + 1)^{3} = \quad 3n^{2} \quad + \quad 3n \quad + \quad 1 \\ (n - 1)^{3} + 3(n - 1)^{2} + 3(n - 1) + 1 \\ + (n - 2)^{3} + 3(n - 2)^{2} + 3(n - 2) + 1 \\ \end{array}
 $$
 
 Perhaps you see where this is going? We can do this substitution process over and over, and the columns that we've arranged above will continue to grow, showing us that there is something deep and mathematically symmetric going on here. But where does this process stop? We want to write down a concise version of this iterative process and be able to explain all of the terms that arise, so we need to know where it ends. Remember the very first step in our investigation of the cubic numbers? We figured out how to write  $2^{3} = 1^{3} + 3 + 3 + 1$ . Since this was our first step in building this inductive process, it should be the last step we apply when building backwards, as we are now. Accordingly, we can write
 
 $$
-\begin{array}{l} (n + 1) ^ {3} = \quad 3 n ^ {2} \quad + \quad 3 n \quad + \quad 1 \\ + \quad 3 (n - 1) ^ {2} + \quad 3 (n - 1) + 1 \\ + \quad 3 (n - 2) ^ {2} + \quad 3 (n - 2) + 1 \\ + \quad 3 (n - 3) ^ {2} + \quad 3 (n - 3) + 1 \\ \begin{array}{c c c c c} \vdots & & & & \\ & + & & + & \vdots \end{array} \\ + \quad 3 \cdot 2 ^ {2} \quad + \quad 3 \cdot 2 \quad + \quad 1 \\ + \quad 1 ^ {3} \quad + \quad 3 \cdot 1 ^ {2} \quad + \quad 3 \cdot 1 \quad + \quad 1 \\ \end{array}
+\begin{array}{l} (n + 1)^{3} = \quad 3n^{2} \quad + \quad 3n \quad + \quad 1 \\ + \quad 3(n - 1)^{2} + \quad 3(n - 1) + 1 \\ + \quad 3(n - 2)^{2} + \quad 3(n - 2) + 1 \\ + \quad 3(n - 3)^{2} + \quad 3(n - 3) + 1 \\ \begin{array}{c c c c c} \vdots & & & & \\ & + & & + & \vdots \end{array} \\ + \quad 3 \cdot 2^{2} \quad + \quad 3 \cdot 2 \quad + \quad 1 \\ + \quad 1^{3} \quad + \quad 3 \cdot 1^{2} \quad + \quad 3 \cdot 1 \quad + \quad 1 \\ \end{array}
 $$
 
 This is definitely an identity we wouldn't have come up with off the top of our heads! In addition to being relatively pretty-looking on the page like this, it also allows us to apply some of our previous knowledge and simplify the expression. To see how we can do that, let's apply summation notation to the columns above and collect a bunch of terms into some simple expressions:
 
 $$
-(n + 1) ^ {3} = 1 ^ {3} + 3 \cdot \sum_ {k = 1} ^ {n} k ^ {2} + 3 \cdot \sum_ {k = 1} ^ {n} k + \sum_ {k = 1} ^ {n} 1
+(n + 1)^{3} = 1^{3} + 3 \cdot \sum_{k = 1}^{n} k^{2} + 3 \cdot \sum_{k = 1}^{n} k + \sum_{k = 1}^{n} 1
 $$
 
 In the last chapter, we saw a couple of different proofs that told us
 
 $$
-\sum_ {k = 1} ^ {n} k = \frac {n (n + 1)}{2}
+\sum_{k = 1}^{n} k = \frac{n(n + 1)}{2}
 $$
 
 Let's use that fact in the line above, and also simplify the term on the far right, to write
 
 $$
-(n + 1) ^ {3} = 1 + 3 \cdot \sum_ {k = 1} ^ {n} k ^ {2} + \frac {3 n (n + 1)}{2} + n
+(n + 1)^{3} = 1 + 3 \cdot \sum_{k = 1}^{n} k^{2} + \frac{3n(n + 1)}{2} + n
 $$
 
 What does this tell us? What have we accomplished after all this algebraic manipulation? Well, we previously proved a result about the sum of the first  $n$  natural numbers, so a natural question to ask after that is: What is the sum of the first  $n$  natural numbers squared? How could we begin to answer that? That's a trick question, because we already have! Let's do one or two more algebraic steps with the equation above by isolating the summation term and
@@ -226,17 +226,17 @@ What does this tell us? What have we accomplished after all this algebraic manip
 then dividing:
 
 $$
-(n + 1) ^ {3} - 1 - n - \frac {3 n (n + 1)}{2} = 3 \cdot \sum_ {k = 1} ^ {n} k ^ {2}
+(n + 1)^{3} - 1 - n - \frac{3n(n + 1)}{2} = 3 \cdot \sum_{k = 1}^{n} k^{2}
 $$
 
 $$
-\frac {1}{3} (n + 1) ^ {3} - \frac {1}{3} (n + 1) - \frac {n (n + 1)}{2} = \sum_ {k = 1} ^ {n} k ^ {2}
+\frac{1}{3}(n + 1)^{3} - \frac{1}{3}(n + 1) - \frac{n(n + 1)}{2} = \sum_{k = 1}^{n} k^{2}
 $$
 
 This is what we've accomplished: we've derived a formula for the sum of the first  $n$  square natural numbers! Of course, the expression on the left in the line above isn't particularly nice looking and we could perform some further simplification, and we will leave it to you to verify that this yields the expression below:
 
 $$
-\sum_ {k = 1} ^ {n} k ^ {2} = \frac {1}{6} n (n + 1) (2 n + 1)
+\sum_{k = 1}^{n} k^{2} = \frac{1}{6}n(n + 1)(2n + 1)
 $$
 
 # "And so on" is not rigorous!
@@ -248,13 +248,13 @@ that we collected into particular sums, writing : in the middle of those columns
 As an example, consider this:
 
 $$
-1, 2, 3, 4, \dots , 1 0 0
+1, 2, 3, 4, \dots, 100
 $$
 
 What is that list of numbers? You probably interpreted it as "all the natural numbers between 1 and 100, inclusive". That seems reasonable. But what if we actually meant this list?
 
 $$
-1, 2, 3, 4, 7, 1 0, 1 1, 1 2, 1 4, \dots , 1 0 0
+1, 2, 3, 4, 7, 10, 11, 12, 14, \dots, 100
 $$
 
 Why, of course, we meant the list of natural numbers from 1 to 100 that don't have an "i" in their English spelling! Wasn't it obvious?
@@ -336,19 +336,19 @@ $$
 Since we know  $R(1) = 2$ , we can say
 
 $$
-R (n + 1) = 2 + (2 + 3 + \dots + n + (n + 1)) = 2 + \left(\sum_ {k = 1} ^ {n + 1} k\right) - 1 = 1 + \sum_ {k = 1} ^ {n + 1} k
+R(n + 1) = 2 + (2 + 3 + \dots + n + (n + 1)) = 2 + \left(\sum_{k = 1}^{n + 1} k\right) - 1 = 1 + \sum_{k = 1}^{n + 1} k
 $$
 
 and this is a sum we have investigated before! (Also notice that we had to subtract 1 because of the missing first term of the sum in parentheses.) Recall that  $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ , and to represent the sum we have in the equation above, we just replace  $n$  with  $n+1$ . Therefore,
 
 $$
-R (n + 1) = 1 + \frac {(n + 1) (n + 2)}{2}
+R(n + 1) = 1 + \frac{(n + 1)(n + 2)}{2}
 $$
 
 One final simplification we would like to make is to replace  $n + 1$  with  $n$  throughout the equation, because it makes more sense to have an expression for  $R(n)$  (For what values of  $n$  is this valid?)
 
 $$
-R (n) = 1 + \frac {n (n + 1)}{2}
+R(n) = 1 + \frac{n(n + 1)}{2}
 $$
 
 Finally, we have arrived at an answer to the originally-posed puzzle! In so doing, we employed an inductive technique: we explained how one "fact", namely the value of  $R(n + 1)$ , depends on the value of a "previous fact", namely  $R(n)$ , and used these iterative dependencies to work backwards until we reached a particular, known value, namely  $R(1)$ .
@@ -369,7 +369,7 @@ Answering the following questions briefly, either out loud or in writing. These 
 (4) Work through the algebraic steps to obtain our final expression for the sum of the first  $n$  squares; that is, verify that
 
 $$
-\frac {1}{3} (n + 1) ^ {3} - \frac {1}{3} (n + 1) - \frac {n (n + 1)}{2} = \frac {1}{6} n (n + 1) (2 n + 1)
+\frac{1}{3} (n + 1)^{3} - \frac{1}{3} (n + 1) - \frac{n (n + 1)}{2} = \frac{1}{6} n (n + 1) (2 n + 1)
 $$
 
 (5) Try to recall the argument that adding the  $(n + 1)$ -th line on the plane created exactly  $n + 1$  new regions. Can you work through the argument for a friend and convince him/her that it is valid?  
@@ -394,20 +394,20 @@ To properly motivate the forthcoming definition of mathematical induction as a p
 Pretend you have a skeptical friend who says, "Hey, I heard about this formula for the sum of the first  $n$  natural numbers squared. Somebody told me that they add up to  $\frac{1}{6} n(n + 1)(2n + 1)$ . I checked the first two natural numbers, and it worked, so it's gotta be right. Pass it on!" Being a logical thinker, but also a good friend, you nod along and say, "I did hear that, but let's make sure it's correct for every number." How would you proceed? Your friend is right that the first few values "work out" nicely:
 
 $$
-1 ^ {2} = 1 = \frac {1}{6} (1) (2) (3)
+1^{2} = 1 = \frac{1}{6} (1) (2) (3)
 $$
 $$
-1 ^ {2} + 2 ^ {2} = 5 = \frac {1}{6} (2) (3) (5)
+1^{2} + 2^{2} = 5 = \frac{1}{6} (2) (3) (5)
 $$
 $$
-1 ^ {2} + 2 ^ {2} + 3 ^ {2} = 1 4 = \frac {1}{6} (3) (4) (7)
+1^{2} + 2^{2} + 3^{2} = 1 4 = \frac{1}{6} (3) (4) (7)
 $$
 $$
-1 ^ {2} + 2 ^ {2} + 3 ^ {2} + 4 ^ {2} = 3 0 = \frac {1}{6} (4) (5) (9)
+1^{2} + 2^{2} + 3^{2} + 4^{2} = 3 0 = \frac{1}{6} (4) (5) (9)
 $$
 and so on. We could even check, by hand, a large value of  $n$ , if we wanted to:
 $$
-1 ^ {2} + 2 ^ {2} + 3 ^ {2} + 4 ^ {2} + 5 ^ {2} + 6 ^ {2} + 7 ^ {2} + 8 ^ {2} + 9 ^ {2} + 1 0 ^ {2} = 3 8 5 = \frac {1}{6} (1 0) (1 1) (2 1)
+1^{2} + 2^{2} + 3^{2} + 4^{2} + 5^{2} + 6^{2} + 7^{2} + 8^{2} + 9^{2} + 1 0^{2} = 3 8 5 = \frac{1}{6} (1 0) (1 1) (2 1)
 $$
 Remember, though, that this formula is claimed to be valid for any value of  $n$ . Checking individual results by hand would take forever, because there are an infinite number of natural numbers. No matter how many individual values of  $n$  we check, there will always be larger values, and how do we know that the formula doesn't break down for some large value? We need a far more efficient procedure, mathematically and temporally speaking, to somehow verify the formula for all values of  $n$  in just a few steps. We have an idea in mind, of course (it's the upcoming rigorous version of mathematical induction), and here we will explain how the procedure works, in a broad sense.
 
@@ -421,19 +421,19 @@ written on them, instead of the standard array of dots. Let's also pretend that 
 
 For this particular example, to verify the formula
 $$
-\sum_ {k = 1} ^ {n} k ^ {2} = \frac {1}{6} n (n + 1) (2 n + 1)
+\sum_{k = 1}^{n} k^{2} = \frac{1}{6} n (n + 1) (2 n + 1)
 $$
 we will imagine a particular "fact" written on each domino. Specifically, we will imagine that the 1st domino has the expression
 $$
-\sum_ {k = 1} ^ {1} k ^ {2} = \frac {1}{6} (1) (2) (3)
+\sum_{k = 1}^{1} k^{2} = \frac{1}{6} (1) (2) (3)
 $$
 written on it, and the 2nd domino has the expression
 $$
-\sum_ {k = 1} ^ {2} k ^ {2} = \frac {1}{6} (2) (3) (5)
+\sum_{k = 1}^{2} k^{2} = \frac{1}{6} (2) (3) (5)
 $$
 written on it. In general, we imagine that the  $n$ -th domino in the infinite line has the following "fact" written on it:
 $$
-\sum_ {k = 1} ^ {n} k ^ {2} = \frac {1}{6} n (n + 1) (2 n + 1)
+\sum_{k = 1}^{n} k^{2} = \frac{1}{6} n (n + 1) (2 n + 1)
 $$
 Since we're dealing with dominos that are meant to fall into each other and knock each other over, let's pretend that whenever a domino falls, that means the corresponding "fact" written on it is a true statement. This is how we will relate our physical interpretation of the dominos to the mathematical interpretation of the validity of the formula we derived.
 
@@ -446,19 +446,19 @@ However, continuing like this brings us back to the same problem as before: we d
 Let's look at this situation for the first two dominos. Knowing that Domino 1 falls, can we guarantee that Domino 2 falls without rewriting all of the terms of the sum? How are the statements written on the two dominos related? Each statement is a sum of squared natural numbers, and the one on the second domino has exactly one more term. Thus, knowing already that Domino 1 has fallen, we can use the true statement written on Domino 1 to verify the truth of the statement written on Domino 2:
 
 $$
-\sum_ {k = 1} ^ {2} k ^ {2} = 1 ^ {2} + 2 ^ {2} = 1 + 2 ^ {2} = 5 = \frac {1}{6} (2) (3) (5)
+\sum_{k = 1}^{2} k^{2} = 1^{2} + 2^{2} = 1 + 2^{2} = 5 = \frac{1}{6} (2) (3) (5)
 $$
 
 Now, this may seem a little silly because the only "work" we have saved is not having to "do the arithmetic" to write  $1^2 = 1$ . Let's use this procedure on a case with larger numbers so we can more convincingly illustrate the benefit of this method. Let's assume that Domino 10 has fallen. (In case you are worried about this assumption, we wrote the full sum a few paragraphs ago and you can verify it there.) This means we know that
 
 $$
-\sum_ {k = 1} ^ {1 0} k ^ {2} = \frac {1}{6} (1 0) (1 1) (2 1) = 3 8 5
+\sum_{k = 1}^{1 0} k^{2} = \frac{1}{6} (1 0) (1 1) (2 1) = 3 8 5
 $$
 
 is a true statement. Let's use this to verify the statement written on Domino 11, which is
 
 $$
-\sum_ {k = 1} ^ {1 1} k ^ {2} = \frac {1}{6} (1 1) (1 2) (2 3)
+\sum_{k = 1}^{1 1} k^{2} = \frac{1}{6} (1 1) (1 2) (2 3)
 $$
 
 The sum written on Domino 11 has 11 terms, and the first 10 are exactly the sum written on Domino 10! Since we know something about that sum, let's just separate that 11th term from the sum and apply our knowledge of the other
@@ -466,7 +466,7 @@ The sum written on Domino 11 has 11 terms, and the first 10 are exactly the sum 
 terms:
 
 $$
-\begin{array}{l} \sum_ {k = 1} ^ {1 1} k ^ {2} = \left(1 ^ {2} + 2 ^ {2} + \dots + 1 0 ^ {2}\right) + 1 1 ^ {2} \\ = \left(\sum_ {k = 1} ^ {1 0} k ^ {2}\right) + 1 1 ^ {2} \\ = 3 8 5 + 1 2 1 \\ = 5 0 6 \\ = \frac {1}{6} 3 0 3 6 = \frac {1}{6} (1 1) (1 2) (2 3) \\ \end{array}
+\begin{array}{l} \sum_{k = 1}^{1 1} k^{2} = \left(1^{2} + 2^{2} + \dots + 1 0^{2}\right) + 1 1^{2} \\ = \left(\sum_{k = 1}^{1 0} k^{2}\right) + 1 1^{2} \\ = 3 8 5 + 1 2 1 \\ = 5 0 6 \\ = \frac{1}{6} 3 0 3 6 = \frac{1}{6} (1 1) (1 2) (2 3) \\ \end{array}
 $$
 
 Look at all of the effort we saved! Why bother reading the first 10 terms of the sum if we know something about them already?
@@ -481,37 +481,37 @@ With only these two steps, we can guarantee every domino falls and, therefore, p
 We have already accomplished step (a), so now we have to complete step (b). We have done this for specific cases in the previous paragraphs (Domino 1 topples Domino 2, and Domino 10 topples Domino 11), so let's try to follow along with the steps of those cases and generalize to an arbitrary value of  $n$ . We assume, for some specific but arbitrary value of  $n$ , that Domino  $n$  falls, which tells us that the equation
 
 $$
-\sum_ {k = 1} ^ {n} k ^ {2} = \frac {1}{6} n (n + 1) (2 n + 1)
+\sum_{k = 1}^{n} k^{2} = \frac{1}{6} n (n + 1) (2 n + 1)
 $$
 
 is a true statement. Now, we want to relate this to the statement written on Domino  $(n + 1)$  and apply the knowledge given in the equation above. Let's do what we did before and write a sum of  $n + 1$  terms as a sum of  $n$  terms plus the last term:
 
 $$
-\sum_ {k = 1} ^ {n + 1} k ^ {2} = 1 ^ {2} + 2 ^ {2} + \dots + n ^ {2} + (n + 1) ^ {2} = \left(\sum_ {k = 1} ^ {n} k ^ {2}\right) + (n + 1) ^ {2}
+\sum_{k = 1}^{n + 1} k^{2} = 1^{2} + 2^{2} + \dots + n^{2} + (n + 1)^{2} = \left(\sum_{k = 1}^{n} k^{2}\right) + (n + 1)^{2}
 $$
 
 Next, we can apply our assumption that Domino  $n$  has fallen (which tells us that the fact written on it is true) and write
 
 $$
-\sum_ {k = 1} ^ {n + 1} k ^ {2} = \frac {1}{6} n (n + 1) (2 n + 1) + (n + 1) ^ {2}
+\sum_{k = 1}^{n + 1} k^{2} = \frac{1}{6} n (n + 1) (2 n + 1) + (n + 1)^{2}
 $$
 
 Is this the same as the fact written on Domino  $(n + 1)$ ? Let's look at what that is, first, and then compare. The "fact" on Domino  $(n + 1)$  is similar to the fact on Domino  $n$ , except everywhere we see " $n$ " we replace it with " $n + 1$ :
 
 $$
-\sum_ {k = 1} ^ {n + 1} k ^ {2} = \frac {1}{6} (n + 1) ((n + 1) + 1) (2 (n + 1) + 1) = \frac {1}{6} (n + 1) (n + 2) (2 n + 3)
+\sum_{k = 1}^{n + 1} k^{2} = \frac{1}{6} (n + 1) ((n + 1) + 1) (2 (n + 1) + 1) = \frac{1}{6} (n + 1) (n + 2) (2 n + 3)
 $$
 
 It is not clear yet whether the expression we have derived thus far is actually equal to this. We could attempt to simplify the expression we've derived and factor it to make it "look like" this new expression, but it might be easier to just expand both expressions and compare all the terms. (This is motivated by the general idea that expanding a factored polynomial is far easier than recognizing a polynomial can be factored.) For the first expression, we get
 
 $$
-\begin{array}{l} \frac {1}{6} n (n + 1) (2 n + 1) + (n + 1) ^ {2} = \frac {1}{6} n (2 n ^ {2} + 3 n + 1) + (n ^ {2} + 2 n + 1) \\ = \frac {1}{3} n ^ {3} + \frac {1}{2} n ^ {2} + \frac {1}{6} n + n ^ {2} + 2 n + 1 \\ = \frac {1}{3} n ^ {3} + \frac {3}{2} n ^ {2} + \frac {1 3}{6} n + 1 \\ \end{array}
+\begin{array}{l} \frac{1}{6} n (n + 1) (2 n + 1) + (n + 1)^{2} = \frac{1}{6} n (2 n^{2} + 3 n + 1) + (n^{2} + 2 n + 1) \\ = \frac{1}{3} n^{3} + \frac{1}{2} n^{2} + \frac{1}{6} n + n^{2} + 2 n + 1 \\ = \frac{1}{3} n^{3} + \frac{3}{2} n^{2} + \frac{1 3}{6} n + 1 \\ \end{array}
 $$
 
 and for the second expression, we get
 
 $$
-\begin{array}{l} \frac {1}{6} (n + 1) (n + 2) (2 n + 3) = \frac {1}{6} (n + 1) (2 n ^ {2} + 7 n + 6) \\ = \frac {1}{6} \left[ \left(2 n ^ {3} + 7 n ^ {2} + 6 n\right) + \left(2 n ^ {2} + 7 n + 6\right) \right] \\ = \frac {1}{3} n ^ {3} + \frac {3}{2} n ^ {2} + \frac {1 3}{6} n + 1 \\ \end{array}
+\begin{array}{l} \frac{1}{6} (n + 1) (n + 2) (2 n + 3) = \frac{1}{6} (n + 1) (2 n^{2} + 7 n + 6) \\ = \frac{1}{6} \left[ \left(2 n^{3} + 7 n^{2} + 6 n\right) + \left(2 n^{2} + 7 n + 6\right) \right] \\ = \frac{1}{3} n^{3} + \frac{3}{2} n^{2} + \frac{1 3}{6} n + 1 \\ \end{array}
 $$
 
 Look at that; they're identical! Also, notice how much easier this was than trying to rearrange one of the expressions and "morph" it into the other. We proved they were identical by manipulating them both and finding the same expression, ultimately. Now, let's look back and assess what we have accomplished:
@@ -519,7 +519,7 @@ Look at that; they're identical! Also, notice how much easier this was than tryi
 1. We likened proving the validity of the formula
 
 $$
-\sum_ {k = 1} ^ {n} k ^ {2} = \frac {1}{6} n (n + 1) (2 n + 1)
+\sum_{k = 1}^{n} k^{2} = \frac{1}{6} n (n + 1) (2 n + 1)
 $$
 
 for all values of  $n$  to knocking over an infinite line of dominos.
@@ -537,19 +537,19 @@ Imagine that we have defined the expression  $R(n)$  to represent the number of 
 First, we need to check that Domino 1 does, indeed fall. This amounts to verifying the statement: " $R(1) = 1 + \frac{1(2)}{2} = 1 + 1 = 2$ " . Is this a true statement? Yes, of course, we saw this before; one line divides the plane into two regions. Second, we need to prove that Domino  $n$  will topple into Domino  $(n + 1)$  for any arbitrary value of  $n$ . That is, let's assume that " $R(n) = 1 + \frac{n(n + 1)}{2}$ " is a true statement for some value of  $n$  and show that " $R(n + 1) = 1 + \frac{(n + 1)(n + 2)}{2}$ " must also be a true statement. How can we do this? Well, let's follow along with the argument we used before to relate  $R(n + 1)$  to  $R(n)$ . By considering the geometric consequences of adding an extra line to any diagram with  $n$  lines (that also fit our rules about the lines) we proved that  $R(n + 1) = R(n) + n + 1$ . Using this knowledge and our assumption about Domino  $n$  falling, we can say that
 
 $$
-R (n + 1) = R (n) + n + 1 = 1 + \frac {n (n + 1)}{2} + n + 1
+R (n + 1) = R (n) + n + 1 = 1 + \frac{n (n + 1)}{2} + n + 1
 $$
 
 Is this the same expression as what is written on Domino  $(n + 1)$ ? Again, let's simplify both expressions to verify they are the same. We have
 
 $$
-1 + \frac {n (n + 1)}{2} + n + 1 = 2 + n + \frac {n ^ {2} + n}{2} = \frac {1}{2} n ^ {2} + \frac {3}{2} n + 2
+1 + \frac{n (n + 1)}{2} + n + 1 = 2 + n + \frac{n^{2} + n}{2} = \frac{1}{2} n^{2} + \frac{3}{2} n + 2
 $$
 
 and
 
 $$
-1 + \frac {(n + 1) (n + 2)}{2} = 1 + \frac {n ^ {2} + 3 n + 2}{2} = \frac {1}{2} n ^ {2} + \frac {3}{2} n + 2
+1 + \frac{(n + 1) (n + 2)}{2} = 1 + \frac{n^{2} + 3 n + 2}{2} = \frac{1}{2} n^{2} + \frac{3}{2} n + 2
 $$
 
 Look at that; they're identical! Thus, we have shown that Domino  $n$  is guaranteed to fall into Domino  $(n + 1)$ , for any value of  $n$ . Accordingly, we can declare that all dominos will fall!
@@ -615,19 +615,19 @@ Try answering the following short-answer questions. They require you to actually
 (1) Work through the inductive steps to prove the formula
 
 $$
-\sum_ {k = 1} ^ {n} k = \frac {n (n + 1)}{2}
+\sum_{k = 1}^{n} k = \frac{n (n + 1)}{2}
 $$
 
 (2) Work through the inductive steps to prove the formula
 
 $$
-\sum_ {k = 1} ^ {n} (2 k - 1) = n ^ {2}
+\sum_{k = 1}^{n} (2 k - 1) = n^{2}
 $$
 
 (3) Work through the inductive steps to prove the formula
 
 $$
-\sum_ {k = 1} ^ {n} k ^ {3} = \left(\frac {n (n + 1)}{2}\right) ^ {2}
+\sum_{k = 1}^{n} k^{3} = \left(\frac{n (n + 1)}{2}\right)^{2}
 $$
 
 (4) Suppose we have a series of facts that are indexed by natural numbers. Let's use the expression " $P(n)$ " to represent the  $n$ -th fact.
@@ -893,7 +893,7 @@ This shows that the way to solve the 3-disk puzzle involves two iterations of so
 Now that we have some insight into how to optimally solve the puzzle, let's identify how many moves that procedure requires. Recognizing that solving this puzzle uses a recursive algorithm, we realize that proving anything about the optimal solution will require induction. Accordingly, we would need to identify a "starting point" for our line of dominos, and it should correspond to the "smallest" or "simplest" version of the puzzle. For the Tower of Hanoi, this is the 1-disk puzzle. Of course, this is hardly a "puzzle" because we can solve it in one move, by simply shifting the only disk from one rod to any other rod. If we let  $M(n)$  represent the number of moves required to optimally solve the  $n$ -disk puzzle, then we've just identified  $M(1) = 1$ . To identify  $M(2)$ , we can use our observation from the previous paragraph and say that
 
 $$
-\underbrace {M (2)} _ {\text {s o l v e 2 - d i s k}} = \underbrace {M (1)} _ {\text {s o l v e 1 - d i s k}} + \underbrace {1} _ {\text {s h i f t l a r g e s t d i s k}} + \underbrace {M (1)} _ {\text {s o l v e 1 - d i s k}} = 1 + 1 + 1 = 3
+\underbrace {M (2)}_{\text{so lv e2 -d is k}} = \underbrace {M (1)}_{\text{so lv e1 -d is k}} + \underbrace {1}_{\text{sh if tl ar ge st di sk}} + \underbrace {M (1)}_{\text{so lv e1 -d is k}} = 1 + 1 + 1 = 3
 $$
 
 and then it must be that
@@ -911,7 +911,7 @@ $$
 and so on. Do you notice a pattern yet? Each of these numbers is one less than a power of 2, and specifically, we notice that  $M(n) = 2^{n} - 1$ , for each of the cases we have seen thus far. It's important to point out that observing this pattern doesn't prove the pattern; just because it works for the first 4 cases does not mean the trend will continue, but that's exactly what an induction proof would accomplish. Also, recognizing that pattern and "observing" that  $M(n) = 2^{n} - 1$  is a non-trivial matter, itself. We happened to know the answer and had no problem identifying the formula for you. You should probably try, on your own, to "solve" the following relationship
 
 $$
-M (n) = 2 M (n - 1) + 1 \quad \text {a n d} \quad M (1) = 1
+M (n) = 2 M (n - 1) + 1 \quad \text{an d} \quad M (1) = 1
 $$
 
 # 2.5. APPLICATIONS
@@ -948,7 +948,7 @@ Here are some problems to get you comfortable working with inductive-style argum
 Problem 2.7.1. Prove the following summation formula holds for every natural number, and for  $n = 0$ , as well:
 
 $$
-\sum_ {i = 0} ^ {n} 2 ^ {i} = 2 ^ {n + 1} - 1
+\sum_{i = 0}^{n} 2^{i} = 2^{n + 1} - 1
 $$
 
 Follow-up question: use this result to state how many games are required to determine a winner in a single-elimination bracket tournament with  $2^{n}$  teams. (For example, the NCAA March Madness Tournament uses this format, with  $n = 6$ .)
@@ -975,7 +975,7 @@ By winning strategy we mean a method of play that Player 1 follows that guarante
 Problem 2.7.5. Find and prove a formula for the sum of a geometric series, which is a series of the form
 
 $$
-\sum_ {i = 0} ^ {n - 1} q ^ {i}
+\sum_{i = 0}^{n - 1} q^{i}
 $$
 
 for some real number  $q$  and some natural number  $n$ . (Hint: be careful when  $q = 1$ .)
@@ -987,7 +987,7 @@ Problem 2.7.7. What is wrong with the following "spoof" of the claim that  $a^n 
 "Proof": Let  $a$  be a nonzero real number. Notice that  $a^0 = 1$ . Also, notice that we can inductively write
 
 $$
-a ^ {n + 1} = a ^ {n} \cdot a = a ^ {n} \cdot \frac {a ^ {n}}{a ^ {n - 1}} = 1 \cdot \frac {1}{1} = 1
+a^{n + 1} = a^{n} \cdot a = a^{n} \cdot \frac{a^{n}}{a^{n - 1}} = 1 \cdot \frac{1}{1} = 1
 $$
 
 "□"
@@ -1017,7 +1017,7 @@ Problem 2.7.14. Recall that the Fibonacci Numbers are defined by setting  $f_0 =
 You might not know that the Fibonacci Numbers also have a closed form; that is, there is a specific formula that defines them, in addition to the usual recursive definition given above. Here it is:
 
 $$
-f _ {n} = \frac {1}{\sqrt {5}} \left[ \left(\frac {1 + \sqrt {5}}{2}\right) ^ {n} - \left(\frac {1 - \sqrt {5}}{2}\right) ^ {n} \right]
+f_{n} = \frac{1}{\sqrt{5}} \left[ \left(\frac{1 + \sqrt{5}}{2}\right)^{n} - \left(\frac{1 - \sqrt{5}}{2}\right)^{n} \right]
 $$
 
 Prove that this formula is correct for all values of  $n \geq 0$ .
@@ -1035,7 +1035,7 @@ Problem 2.7.16. Try to provide an inductive argument that explains why every nat
 Problem 2.7.17. Prove that
 
 $$
-\sum_ {k = 1} ^ {n} k \cdot k! = 1 \cdot 1! + 2 \cdot 2! + 3 \cdot 3! + \dots + n \cdot n! = (n + 1)! - 1
+\sum_{k = 1}^{n} k \cdot k! = 1 \cdot 1! + 2 \cdot 2! + 3 \cdot 3! + \dots + n \cdot n! = (n + 1)! - 1
 $$
 
 Problem 2.7.18. What is wrong with the following "spoof" that all pens have the same color.

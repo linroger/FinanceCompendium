@@ -2,219 +2,124 @@
 """
 extract_latex_equations.py
 
-Extracts all block LaTeX equations from a Markdown file for review.
-Each equation is displayed with line numbers for easy reference.
+Extracts and analyzes block LaTeX equations ($$...$$) from a Markdown file.
+Flags potential formatting issues based on the Style Guide.
 
 Usage:
-    python scripts/extract_latex_equations.py <path_to_markdown_file>
-
-Output:
-    For each block equation found, prints:
-    - Line range where the equation appears
-    - The full equation content
-    - Potential issues detected
-
-This script is designed for subagents to quickly assess all LaTeX
-equations in a document before making targeted fixes.
+    python3 extract_latex_equations.py <file_path> [--issues-only]
 """
 
-import argparse
-import re
 import sys
+import re
+import argparse
 from pathlib import Path
-from typing import List, Tuple, Dict
 
-# Common LaTeX issues to flag
-ISSUE_PATTERNS = [
-    # Spacing issues
-    (r'\w\s+_\s*\{', 'Space before/after underscore in subscript'),
-    (r'\w\s+\^\s*\{', 'Space before/after caret in superscript'),
-    (r'_\s+\{', 'Space between underscore and brace'),
-    (r'\^\s+\{', 'Space between caret and brace'),
-
-    # Spaced text inside \text{} or \mathrm{}
-    (r'\\text\s*\{\s*\w(\s+\w)+\s*\}', 'Spaced letters inside \\text{}'),
-    (r'\\mathrm\s*\{\s*\w(\s+\w)+\s*\}', 'Spaced letters inside \\mathrm{}'),
-    (r'\\operatorname\s*\{\s*\w(\s+\w)+\s*\}', 'Spaced letters inside \\operatorname{}'),
-
-    # Spaced numbers
-    (r'(?<!\d)\d\s+\d(?!\d)', 'Spaced digits (OCR artifact)'),
-    (r'\d\s+\.\s+\d', 'Spaced decimal point'),
-
-    # Potential bullet/symbol issues
-    (r'^\\circ(?!\w)', 'Bare \\circ at line start (possible bullet)'),
-    (r'^\\bullet(?!\w)', 'Bare \\bullet at line start (possible bullet)'),
-
-    # Misformatted commands
-    (r'\\text\s+\{', 'Space between \\text and brace'),
-    (r'\\mathrm\s+\{', 'Space between \\mathrm and brace'),
-    (r'\\frac\s+\{', 'Space between \\frac and brace'),
-    (r'\\sqrt\s+\{', 'Space between \\sqrt and brace'),
-
-    # Missing \text{} for words
-    (r'(?<![\\a-zA-Z])(where|if|for|and|or|such that|given)(?![a-zA-Z])',
-     'Unescaped word (should use \\text{})'),
-
-    # Percentage issues
-    (r'(?<!\\)%', 'Unescaped percent sign'),
-
-    # Common operator issues
-    (r'(?<![\\a-zA-Z])(log|ln|exp|sin|cos|tan|max|min|lim|inf|sup)(?!\{)',
-     'Operator without backslash'),
-]
-
-
-def extract_block_equations(content: str) -> List[Tuple[int, int, str]]:
+def analyze_equation(equation_content, line_num):
     """
-    Extract all block equations ($$...$$) from the content.
-
-    Returns list of (start_line, end_line, equation_content) tuples.
-    """
-    equations = []
-    lines = content.split('\n')
-
-    in_equation = False
-    equation_start = 0
-    equation_lines = []
-
-    for i, line in enumerate(lines, start=1):
-        stripped = line.strip()
-
-        if stripped == '$$' and not in_equation:
-            # Start of equation block
-            in_equation = True
-            equation_start = i
-            equation_lines = []
-        elif stripped == '$$' and in_equation:
-            # End of equation block
-            in_equation = False
-            equation_content = '\n'.join(equation_lines)
-            equations.append((equation_start, i, equation_content))
-        elif in_equation:
-            equation_lines.append(line)
-        elif stripped.startswith('$$') and stripped.endswith('$$') and len(stripped) > 4:
-            # Single-line block equation: $$ content $$
-            equation_content = stripped[2:-2].strip()
-            equations.append((i, i, equation_content))
-
-    return equations
-
-
-def detect_issues(equation: str) -> List[str]:
-    """
-    Detect potential issues in an equation.
-    Returns list of issue descriptions.
+    Analyze a single equation block for common issues.
+    Returns a list of issue descriptions.
     """
     issues = []
-    for pattern, description in ISSUE_PATTERNS:
-        if re.search(pattern, equation, re.IGNORECASE):
-            issues.append(description)
+    
+    # 1. Spaced text inside commands (e.g., \text{m a r k e t})
+    if re.search(r'\\(text|mathrm|operatorname)\s*(\{\s*\\w){2,}\}', equation_content):
+        issues.append("Spaced text inside command (OCR artifact)")
+        
+    # 2. Spaced numbers (e.g., 0 . 0 5)
+    if re.search(r'\d\s+\.\s+\d', equation_content) or re.search(r'\s\d\s\d\s', equation_content):
+        # Refine regex to avoid false positives in matrices, but catch "1 6 - 2 P"
+        if re.search(r'\d\s+\d', equation_content): 
+             issues.append("Spaced numbers (OCR artifact)")
+
+    # 3. Spaced subscripts/superscripts (e.g., _ { t })
+    if re.search(r'(_|\^)\s+\{', equation_content):
+        issues.append("Space between _/^ and brace")
+
+    # 4. Unescaped %
+    # Check if % is used without \ (and not part of a comment, though comments inside $$ are tricky)
+    # Simple check: % not preceded by \
+    if re.search(r'(?<!\\)%', equation_content):
+        issues.append("Unescaped % sign")
+
+    # 5. Missing \text{} for words (Heuristic: sequence of >3 letters not in a command)
+    # This is hard to perfect, but we can look for " where " or " if "
+    # text_words = ["where", "if", "and", "or", "given", "subject to"]
+    # for word in text_words:
+    #     if re.search(r'(?<!\\text{)\b' + word + r'\b', equation_content):
+    #         issues.append(f"Potential missing \\text{{}} for '{word}'")
+
     return issues
 
+def process_file(file_path, issues_only=False):
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+    except Exception as e:
+        print(f"Error reading file: {e}")
+        return
 
-def format_equation_display(eq_num: int, start_line: int, end_line: int,
-                            content: str, issues: List[str]) -> str:
-    """Format an equation for display."""
-    output = []
-    output.append(f"\n{'='*60}")
-    output.append(f"EQUATION #{eq_num} | Lines {start_line}-{end_line}")
-    output.append('='*60)
-    output.append(content)
+    equations = []
+    in_equation = False
+    current_eq_lines = []
+    start_line = 0
 
-    if issues:
-        output.append(f"\n⚠️  POTENTIAL ISSUES DETECTED:")
-        for issue in issues:
-            output.append(f"   • {issue}")
-    else:
-        output.append(f"\n✅ No obvious issues detected")
+    for i, line in enumerate(lines):
+        stripped = line.strip()
+        
+        # Check for $$ delimiters
+        # Note: This handles standard "$$" on its own line or "$$ ... $$" inline block (less common but possible)
+        # The prompt implies standard block equations "$$" on separate lines.
+        
+        if stripped == '$$':
+            if in_equation:
+                # End of equation
+                end_line = i + 1
+                content = "".join(current_eq_lines)
+                issues = analyze_equation(content, start_line)
+                
+                equations.append({
+                    'start': start_line,
+                    'end': end_line,
+                    'content': content,
+                    'issues': issues
+                })
+                
+                in_equation = False
+                current_eq_lines = []
+            else:
+                # Start of equation
+                in_equation = True
+                start_line = i + 1
+        elif in_equation:
+            current_eq_lines.append(line)
+        # Handle inline block "$$ eq $$" ? Assuming standard styleguide "$$" on separate lines.
 
-    return '\n'.join(output)
+    # Reporting
+    if not issues_only:
+        print(f"File: {file_path}")
+        print(f"Total Block Equations: {len(equations)}")
+        print("-" * 40)
 
+    issues_count = 0
+    for eq in equations:
+        if eq['issues']:
+            issues_count += 1
+            print(f"[Line {eq['start']}-{eq['end']}] Issues: {', '.join(eq['issues'])}")
+            print(f"Content:\n{eq['content'].strip()}")
+            print("-" * 20)
+        elif not issues_only:
+            print(f"[Line {eq['start']}-{eq['end']}] OK")
+            # print(f"{eq['content'].strip()[:50]}...")
 
-def analyze_file(filepath: Path) -> Dict:
-    """
-    Analyze a file and extract all equations with potential issues.
+    if issues_only and issues_count == 0:
+        pass # Print nothing if clean
+    elif issues_only:
+        print(f"Found {issues_count} equations with issues in {file_path}")
 
-    Returns a dict with:
-    - 'filepath': path to file
-    - 'total_equations': count of block equations
-    - 'equations_with_issues': count with detected issues
-    - 'equations': list of equation details
-    """
-    content = filepath.read_text(encoding='utf-8')
-    equations = extract_block_equations(content)
-
-    result = {
-        'filepath': str(filepath),
-        'total_equations': len(equations),
-        'equations_with_issues': 0,
-        'equations': []
-    }
-
-    for i, (start, end, eq_content) in enumerate(equations, start=1):
-        issues = detect_issues(eq_content)
-        if issues:
-            result['equations_with_issues'] += 1
-
-        result['equations'].append({
-            'number': i,
-            'start_line': start,
-            'end_line': end,
-            'content': eq_content,
-            'issues': issues
-        })
-
-    return result
-
-
-def main():
-    parser = argparse.ArgumentParser(
-        description='Extract and analyze LaTeX equations from Markdown files'
-    )
-    parser.add_argument('filepath', help='Path to Markdown file')
-    parser.add_argument('--json', action='store_true',
-                        help='Output in JSON format')
-    parser.add_argument('--issues-only', action='store_true',
-                        help='Only show equations with detected issues')
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("file_path", help="Path to markdown file")
+    parser.add_argument("--issues-only", action="store_true", help="Only show equations with flagged issues")
     args = parser.parse_args()
-
-    filepath = Path(args.filepath).expanduser().resolve()
-
-    if not filepath.exists():
-        print(f"Error: File not found: {filepath}", file=sys.stderr)
-        sys.exit(1)
-
-    if not filepath.suffix.lower() == '.md':
-        print(f"Warning: File does not appear to be Markdown: {filepath}",
-              file=sys.stderr)
-
-    result = analyze_file(filepath)
-
-    if args.json:
-        import json
-        print(json.dumps(result, indent=2))
-    else:
-        print(f"\n📄 FILE: {result['filepath']}")
-        print(f"📊 SUMMARY: {result['total_equations']} equations, "
-              f"{result['equations_with_issues']} with potential issues")
-
-        for eq in result['equations']:
-            if args.issues_only and not eq['issues']:
-                continue
-
-            display = format_equation_display(
-                eq['number'],
-                eq['start_line'],
-                eq['end_line'],
-                eq['content'],
-                eq['issues']
-            )
-            print(display)
-
-        print(f"\n{'='*60}")
-        print("END OF ANALYSIS")
-        print('='*60)
-
-
-if __name__ == '__main__':
-    main()
+    
+    process_file(args.file_path, args.issues_only)

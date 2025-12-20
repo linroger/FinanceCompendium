@@ -34,7 +34,7 @@ In these lecture notes we describe the principal methods that are used to genera
 Monte-Carlo simulation can also be used for estimating integrals and we begin with one-dimensional integrals. Suppose then that we want to compute
 
 $$
-\theta := \int_ {0} ^ {1} g (x) d x.
+\theta := \int_{0}^{1} g (x) d x.
 $$
 
 If we cannot compute  $\theta$  analytically, then we could use numerical methods. However, we can also use simulation and this can be especially useful for high-dimensional integrals. The key observation is to note that  $\theta = \mathbb{E}[g(U)]$  where  $U\sim U(0,1)$ . We can use this observation as follows:
@@ -43,7 +43,7 @@ If we cannot compute  $\theta$  analytically, then we could use numerical method
 2. Estimate  $\theta$  with
 
 $$
-\widehat {\theta} _ {n} := \frac {g (U _ {1}) + \ldots + g (U _ {n})}{n}
+\widehat {\theta}_{n} := \frac{g (U_{1}) + \ldots + g (U_{n})}{n}
 $$
 
 There are two reasons that explain why  $\widehat{\theta}_n$  is a good estimator:
@@ -56,7 +56,7 @@ Example 1 Suppose we wish to estimate  $\int_0^1 x^3 dx$  using simulation. We k
 Example 2 We wish to estimate  $\theta = \int_{1}^{3}(x^{2} + x)dx$  again using simulation. Once again we know the exact answer (it's 12.67) but we can also estimate it by noting that
 
 $$
-\theta = 2 \int_ {1} ^ {3} \frac {x ^ {2} + x}{2} d x = 2 \mathbb {E} [ X ^ {2} + X ]
+\theta = 2 \int_{1}^{3} \frac{x^{2} + x}{2} d x = 2 \mathbb {E} [ X^{2} + X ]
 $$
 
 where  $X \sim U(1,3)$ . So we can estimate  $\theta$  by generating  $n$  IID  $U(0,1)$  random variables, converting them (how?) to  $U(1,3)$  variables,  $X_{1},\ldots ,X_{n}$ , and then taking  $\widehat{\theta}_n \coloneqq 2\sum_i(X_i^2 +X_i) / n$ .
@@ -66,7 +66,7 @@ where  $X \sim U(1,3)$ . So we can estimate  $\theta$  by generating  $n$  IID  
 Suppose now that we wish to approximate
 
 $$
-\theta = \int_ {0} ^ {1} \int_ {0} ^ {1} g (x _ {1}, x _ {2}) d x _ {1} d x _ {2}.
+\theta = \int_{0}^{1} \int_{0}^{1} g (x_{1}, x_{2}) d x_{1} d x_{2}.
 $$
 
 Then we can write  $\theta = \mathbb{E}[g(U_1,U_2)]$  where  $U_{1},U_{2}$  are IID  $U(0,1)$  random variables. Note that the joint PDF satisfies  $f_{u_1,u_2}(u_1,u_2) = f_{u_1}(u_1)f_{u_2}(u_2) = 1$  on  $[0,1]^2$ . As before we can estimate  $\theta$  using simulation by performing the following steps:
@@ -76,7 +76,7 @@ Then we can write  $\theta = \mathbb{E}[g(U_1,U_2)]$  where  $U_{1},U_{2}$  are 
 3. Estimate  $\theta$  with
 
 $$
-\widehat {\theta} _ {n} = \frac {g (U _ {1} ^ {1} , U _ {2} ^ {1}) + \ldots + g (U _ {1} ^ {n} , U _ {2} ^ {n})}{n}
+\widehat {\theta}_{n} = \frac{g (U_{1}^{1} , U_{2}^{1}) + \ldots + g (U_{1}^{n} , U_{2}^{n})}{n}
 $$
 
 As before, the SLLN justifies this approach and guarantees that  $\widehat{\theta}_n\to \theta$  w.p. 1 as  $n\to \infty$
@@ -86,7 +86,7 @@ As before, the SLLN justifies this approach and guarantees that  $\widehat{\thet
 We can use Monte Carlo to estimate
 
 $$
-\begin{array}{l} \theta := \int_ {0} ^ {1} \int_ {0} ^ {1} \left(4 x ^ {2} y + y ^ {2}\right) d x d y \\ = \mathbb {E} \left[ 4 X ^ {2} Y + Y ^ {2} \right] \\ \end{array}
+\begin{array}{l} \theta := \int_{0}^{1} \int_{0}^{1} \left(4 x^{2} y + y^{2}\right) d x d y \\ = \mathbb {E} \left[ 4 X^{2} Y + Y^{2} \right] \\ \end{array}
 $$
 
 where  $X, Y$  are IID  $U(0,1)$ . (The true value of  $\theta$  is easily calculated to be 1.)
@@ -94,13 +94,13 @@ where  $X, Y$  are IID  $U(0,1)$ . (The true value of  $\theta$  is easily calcu
 We can also apply Monte Carlo integration to more general problems. For example, if we want to estimate
 
 $$
-\theta = \int \int_ {A} g (x, y) f (x, y) d x d y
+\theta = \int \int_{A} g (x, y) f (x, y) d x d y
 $$
 
 where  $f(x,y)$  is a density function on  $A$ , then we observe that  $\theta = \mathbb{E}[g(X,Y)]$  where  $X, Y$  have joint density  $f(x,y)$ . To estimate  $\theta$  using simulation we simply generate  $n$  random vectors  $(X,Y)$  with joint density  $f(x,y)$  and then estimate  $\theta$  with
 
 $$
-\widehat {\theta} _ {n} := \frac {g (X _ {1} , Y _ {1}) + \ldots + g (X _ {n} , Y _ {n})}{n}.
+\widehat {\theta}_{n} := \frac{g (X_{1} , Y_{1}) + \ldots + g (X_{n} , Y_{n})}{n}.
 $$
 
 # 2 Generating Univariate Random Variables
@@ -114,13 +114,13 @@ The Inverse Transform Method for Discrete Random Variables
 Suppose  $X$  is a discrete random variable with probability mass function (PMF)
 
 $$
-X = \left\{ \begin{array}{l l} x _ {1}, & \mathsf {w . p .} p _ {1} \\ x _ {2}, & \mathsf {w . p .} p _ {2} \\ x _ {3}, & \mathsf {w . p .} p _ {3} \end{array} \right.
+X = \left\{ \begin{array}{l l} x_{1}, & \mathsf {w . p .} p_{1} \\ x_{2}, & \mathsf {w . p .} p_{2} \\ x_{3}, & \mathsf {w . p .} p_{3} \end{array} \right.
 $$
 
 where  $p_1 + p_2 + p_3 = 1$ . We would like to generate a value of  $X$  and we can do this by using our  $U(0,1)$  generator as follows. First generate  $U$  and then set
 
 $$
-X = \left\{ \begin{array}{l l} x _ {1}, & \text {i f} \quad 0 \leq U \leq p _ {1} \\ x _ {2}, & \text {i f} \quad p _ {1} <   U \leq p _ {1} + p _ {2} \\ x _ {3}, & \text {i f} \quad p _ {1} + p _ {2} <   U \leq 1. \end{array} \right.
+X = \left\{ \begin{array}{l l} x_{1}, & \text{if } \quad 0 \leq U \leq p_{1} \\ x_{2}, & \text{if } \quad p_{1} <   U \leq p_{1} + p_{2} \\ x_{3}, & \text{if } \quad p_{1} + p_{2} <   U \leq 1. \end{array} \right.
 $$
 
 We can easily check that this is correct: note that  $\mathbf{P}(X = x_1) = \mathbf{P}(0 \leq U \leq p_1) = p_1$  since  $U$  is  $U(0, 1)$ . The same is true for  $\mathbf{P}(X = x_2)$  and  $\mathbf{P}(X = x_3)$ .
@@ -128,7 +128,7 @@ We can easily check that this is correct: note that  $\mathbf{P}(X = x_1) = \mat
 More generally, suppose  $X$  can take on  $n$  distinct values,  $x_{1} < x_{2} < \ldots < x_{n}$ , with
 
 $$
-\mathbf {P} (X = x _ {i}) = p _ {i} \quad \text {f o r} i = 1, \dots , n.
+\mathbf {P} (X = x_{i}) = p_{i} \quad \text{fo r} i = 1, \dots , n.
 $$
 
 Then to generate a sample value of  $X$  we:
@@ -159,7 +159,7 @@ Suppose that  $X$  is Poisson(λ) so that  $\mathbf{P}(X = n) = \exp(-\lambda) \
 How do we find  $j$ ? We could use the following algorithm.
 
 $$
-\begin{array}{l} \text {s e t} j = 0, p = e ^ {- \lambda}, F = p \\ \text {w h i l e} U > F \\ \text {s e t} p = \lambda p / (j + 1), F = F + p, j = j + 1 \\ \operatorname {s e t} X = j \\ \end{array}
+\begin{array}{l} \text{se t} j = 0, p = e^{- \lambda}, F = p \\ \text{wh il e} U > F \\ \text{se t} p = \lambda p / (j + 1), F = F + p, j = j + 1 \\ \operatorname{se t} X = j \\ \end{array}
 $$
 
 Questions: How much work does this take? What if  $\lambda$  is large? Can we find  $j$  more efficiently?
@@ -178,7 +178,7 @@ Suppose now that  $X$  is a continuous random variable and we want to generate a
 We need to prove that this algorithm actually works! But this follows immediately since
 
 $$
-\mathbf {P} (X \leq x) = \mathbf {P} \left(F _ {x} ^ {- 1} (U) \leq x\right) = \mathbf {P} \left(U \leq F _ {x} (x)\right) = F _ {x} (x)
+\mathbf {P} (X \leq x) = \mathbf {P} \left(F_{x}^{- 1} (U) \leq x\right) = \mathbf {P} \left(U \leq F_{x} (x)\right) = F_{x} (x)
 $$
 
 as desired. This argument assumes  $F_x^{-1}$  exists but there is no problem even when  $F_x^{-1}$  does not exist. All we have to do is
@@ -201,7 +201,7 @@ We wish to generate  $X \sim \operatorname{Gamma}(n, \lambda)$  where  $n$  is a
 Order statistics are very important and have many applications in statistics, engineering and even finance. So suppose  $X$  has CDF  $F_{x}$  and let  $X_{1},\ldots ,X_{n}$  be IID  $\sim X$ . Let  $X_{(1)},\ldots ,X_{(n)}$  be the ordered sample so that
 
 $$
-X _ {(1)} \leq X _ {(2)} \leq \dots \leq X _ {(n)}.
+X_{(1)} \leq X_{(2)} \leq \dots \leq X_{(n)}.
 $$
 
 We say  $X_{(i)}$  is the  $i^{th}$  ordered statistic. Several questions arise:
@@ -219,7 +219,7 @@ Question: Can we do even better?
 Method 3: Suppose  $Z \sim \mathrm{beta}(a, b)$  on  $(0, 1)$  so that
 
 $$
-f (z) = c z ^ {a - 1} (1 - z) ^ {b - 1} \quad \text {f o r} 0 \leq z \leq 1
+f (z) = c z^{a - 1} (1 - z)^{b - 1} \quad \text{fo r} 0 \leq z \leq 1
 $$
 
 where  $c$  is a constant so that the density integrates to 1. How can we use this distribution?
@@ -238,7 +238,7 @@ There are two principal advantages to the inverse transform method:
 The principal disadvantage of the inverse transform method is that  $F_{x}^{-1}$  may not always be computable. For example, suppose  $X \sim \mathsf{N}(0,1)$ . Then
 
 $$
-F _ {x} (x) = \int_ {- \infty} ^ {x} \frac {1}{\sqrt {2 \pi}} \exp \left(\frac {- z ^ {2}}{2}\right) d z
+F_{x} (x) = \int_{- \infty}^{x} \frac{1}{\sqrt{2 \pi}} \exp \left(\frac{- z^{2}}{2}\right) d z
 $$
 
 so that we cannot even express  $F_{x}$  in closed form. Even if  $F_{x}$  is available in closed form, it may not be possible to find  $F_{x}^{-1}$  in closed form. For example, suppose  $F_{x}(x) = x^{5}(1 + x)^{3} / 8$  for  $0 \leq x \leq 1$ . Then we cannot compute  $F_{x}^{-1}$ . One possible solution to these problems is to find  $F_{x}^{-1}$  numerically.
@@ -248,13 +248,13 @@ so that we cannot even express  $F_{x}$  in closed form. Even if  $F_{x}$  is av
 Another method for generating random variables is the composition approach. Suppose again that  $X$  has CDF  $F_{x}$  and that we wish to simulate a value of  $X$ . We can often write
 
 $$
-F _ {x} (x) = \sum_ {j = 1} ^ {\infty} p _ {j} F _ {j} (x)
+F_{x} (x) = \sum_{j = 1}^{\infty} p_{j} F_{j} (x)
 $$
 
 where the  $F_{j}$ 's are also CDFs,  $p_{j} \geq 0$  for all  $j$ , and  $\sum p_{j} = 1$ . Equivalently, if the densities exist then we can write
 
 $$
-f _ {x} (x) = \sum_ {j = 1} ^ {\infty} p _ {j} f _ {j} (x).
+f_{x} (x) = \sum_{j = 1}^{\infty} p_{j} f_{j} (x).
 $$
 
 Such a representation often occurs very naturally. For example, suppose
@@ -262,7 +262,7 @@ Such a representation often occurs very naturally. For example, suppose
 $X\sim$  Hyperexponential  $(\lambda_1,\alpha_1,\dots ,\lambda_n,\alpha_n)$  so that
 
 $$
-f _ {x} (x) = \sum_ {j = 1} ^ {n} \alpha_ {i} \lambda_ {i} e ^ {- \lambda_ {i} x}
+f_{x} (x) = \sum_{j = 1}^{n} \alpha_{i} \lambda_{i} e^{- \lambda_{i} x}
 $$
 
 where  $\lambda_{i}$ ,  $\alpha_{i} \geq 0$ , and  $\sum_{i}^{n} \alpha_{i} = 1$ . Here  $\alpha_{i} = 0$  for  $i > n$ . If it's difficult to simulate  $X$  directly using the inverse transform method then we could use the composition algorithm (see below) instead.
@@ -278,7 +278,7 @@ We claim that  $X$  has the desired distribution!
 Proof: We have
 
 $$
-\begin{array}{l} \mathbf {P} (X \leq x) = \sum_ {j = 1} ^ {\infty} \mathbf {P} (X \leq x | I = j) \mathbf {P} (I = j) \\ = \sum_ {j = 1} ^ {\infty} \mathbf {P} \left(Y _ {j} \leq x\right) \mathbf {P} (I = j) \\ = \sum_ {j = 1} ^ {\infty} F _ {j} (x) p _ {j} \\ = F _ {x} (x) \\ \end{array}
+\begin{array}{l} \mathbf {P} (X \leq x) = \sum_{j = 1}^{\infty} \mathbf {P} (X \leq x | I = j) \mathbf {P} (I = j) \\ = \sum_{j = 1}^{\infty} \mathbf {P} \left(Y_{j} \leq x\right) \mathbf {P} (I = j) \\ = \sum_{j = 1}^{\infty} F_{j} (x) p_{j} \\ = F_{x} (x) \\ \end{array}
 $$
 
 The proof actually suggests that the composition approach might arise naturally from 'sequential' type experiments. Consider the following example.
@@ -294,19 +294,19 @@ What is the distribution of  $X$ ? How do we simulate a value of  $X$ ?
 Let  $X \sim \text{Hyperexponential}(\lambda_1, \alpha_1, \lambda_2, \alpha_2)$  so that  $f_x(x) = \alpha_1 \lambda_1 e^{-\lambda_1 x} + \alpha_2 \lambda_2 e^{-\lambda_2 x}$ . In our earlier notation we have
 
 $$
-\alpha_ {1} = p _ {1}
+\alpha_{1} = p_{1}
 $$
 
 $$
-\alpha_ {2} = p _ {2}
+\alpha_{2} = p_{2}
 $$
 
 $$
-f _ {1} (x) = \lambda_ {1} e ^ {- \lambda_ {1} x}
+f_{1} (x) = \lambda_{1} e^{- \lambda_{1} x}
 $$
 
 $$
-f _ {2} (x) = \lambda_ {2} e ^ {- \lambda_ {2} x}
+f_{2} (x) = \lambda_{2} e^{- \lambda_{2} x}
 $$
 
 and the following algorithm will then generate a sample of  $X$ .
@@ -316,25 +316,25 @@ generate  $U_{1}$
 if  $U_{1}\leq p_{1}$  then
 
 $$
-\text {s e t} i = 1
+\text{se t} i = 1
 $$
 
 else
 
 $$
-\text {s e t} i = 2
+\text{se t} i = 2
 $$
 
 generate  $U_{2}$
 
 $$
-/ * \text {N o w} X \text {f r o m} \operatorname {E x p} \left(\lambda_ {i}\right) * /
+/ * \text{No w} X \text{fr om} \operatorname{Ex p} \left(\lambda_{i}\right) * /
 $$
 
 set
 
 $$
-X = - \frac {1}{\lambda_ {i}} \log (U _ {2})
+X = - \frac{1}{\lambda_{i}} \log (U_{2})
 $$
 
 Question: How would you simulate a value of  $X$  if  $F_{x}(x) = (x + x^{3} + x^{5}) / 3$ ?
@@ -342,7 +342,7 @@ Question: How would you simulate a value of  $X$  if  $F_{x}(x) = (x + x^{3} + x
 When the decomposition
 
 $$
-F _ {x} = \sum_ {j = 1} ^ {\infty} p _ {j} F _ {j} (x)
+F_{x} = \sum_{j = 1}^{\infty} p_{j} F_{j} (x)
 $$
 
 is not obvious, we can create an artificial decomposition by splitting.
@@ -352,7 +352,7 @@ is not obvious, we can create an artificial decomposition by splitting.
 Suppose
 
 $$
-f _ {x} (x) = \frac {1}{5} 1 _ {[ - 1, 0 ]} (x) + \frac {6}{1 5} 1 _ {[ 0, 2 ]} (x).
+f_{x} (x) = \frac{1}{5} 1_{[ - 1, 0 ]} (x) + \frac{6}{1 5} 1_{[ 0, 2 ]} (x).
 $$
 
 How do we simulate a value of  $X$  using vertical splitting? How would horizontal splitting work?
@@ -362,7 +362,7 @@ How do we simulate a value of  $X$  using vertical splitting? How would horizont
 Let  $X$  be a random variable with density,  $f(\cdot)$ , and CDF,  $F_{x}(\cdot)$ . Suppose it's hard to simulate a value of  $X$  directly using either the inverse transform or composition algorithm. We might then wish to use the acceptance-rejection algorithm. Towards this end let  $Y$  be another random variable with density  $g(\cdot)$  and suppose that it is easy to simulate a value of  $Y$ . If there exists a constant  $a$  such that
 
 $$
-\frac {f (x)}{g (x)} \leq a \text {f o r} a l l x
+\frac{f (x)}{g (x)} \leq a \text{fo r} a l l x
 $$
 
 then we can simulate a value of  $X$  as follows.
@@ -388,19 +388,19 @@ We must now prove that this algorithm does indeed work. We define  $B$  to be th
 Proof: First observe
 
 $$
-\begin{array}{l} \mathbf {P} (X \leq x) = \mathbf {P} (Y \leq x | B) \\ = \frac {\mathbf {P} ((Y \leq x) \cap B)}{\mathbf {P} (B)}. \tag {1} \\ \end{array}
+\begin{array}{l} \mathbf {P} (X \leq x) = \mathbf {P} (Y \leq x | B) \\ = \frac{\mathbf {P} ((Y \leq x) \cap B)}{\mathbf {P} (B)}. \tag {1} \\ \end{array}
 $$
 
 We can compute  $\mathbf{P}(B)$  as
 
 $$
-\mathbf {P} (B) = \mathbf {P} \left(U \leq \frac {f (Y)}{a g (Y)}\right) = \frac {1}{a}
+\mathbf {P} (B) = \mathbf {P} \left(U \leq \frac{f (Y)}{a g (Y)}\right) = \frac{1}{a}
 $$
 
 while the numerator in (1) satisfies
 
 $$
-\begin{array}{l} \mathbf {P} \left((Y \leq x) \cap B\right) = \int_ {- \infty} ^ {\infty} \mathbf {P} \left((Y \leq x) \cap B \mid Y = y\right) g (y) d y \\ = \int_ {- \infty} ^ {\infty} \mathbf {P} \left((Y \leq x) \cap \left(U \leq \frac {f (Y)}{a g (Y)}\right) \mid Y = y\right) g (y) d y \\ = \int_ {- \infty} ^ {x} \mathbf {P} \left(U \leq \frac {f (y)}{a g (y)}\right) g (y) d y \quad (\text {w h y ?}) \\ = \frac {F _ {x} (x)}{a} \\ \end{array}
+\begin{array}{l} \mathbf {P} \left((Y \leq x) \cap B\right) = \int_{- \infty}^{\infty} \mathbf {P} \left((Y \leq x) \cap B \mid Y = y\right) g (y) d y \\ = \int_{- \infty}^{\infty} \mathbf {P} \left((Y \leq x) \cap \left(U \leq \frac{f (Y)}{a g (Y)}\right) \mid Y = y\right) g (y) d y \\ = \int_{- \infty}^{x} \mathbf {P} \left(U \leq \frac{f (y)}{a g (y)}\right) g (y) d y \quad (\text{wh y ?}) \\ = \frac{F_{x} (x)}{a} \\ \end{array}
 $$
 
 Therefore  $\mathbf{P}(X\leq x) = F_x(x)$ , as required.
@@ -410,7 +410,7 @@ Therefore  $\mathbf{P}(X\leq x) = F_x(x)$ , as required.
 Recall that  $X$  has a  $\operatorname{Beta}(a, b)$  distribution if  $f(x) = cx^{a - 1}(1 - x)^{b - 1}$  for  $0 \leq x \leq 1$ . Suppose now that we wish to simulate from the  $\operatorname{Beta}(4, 3)$  so that
 
 $$
-f (x) = 6 0 x ^ {3} (1 - x) ^ {2} \quad \text {f o r} 0 \leq x \leq 1.
+f (x) = 6 0 x^{3} (1 - x)^{2} \quad \text{fo r} 0 \leq x \leq 1.
 $$
 
 We could, for example, integrate  $f(\cdot)$  to find  $F(\cdot)$ , and then try to use the inverse transform approach. However, it is hard to find  $F^{-1}(\cdot)$ . Instead, let's use the acceptance-rejection algorithm:
@@ -419,13 +419,13 @@ We could, for example, integrate  $f(\cdot)$  to find  $F(\cdot)$ , and then try
 2. Then find  $a$ . Recall that we must have
 
 $$
-\frac {f (x)}{g (x)} \leq a \text {f o r} a \text {f o r} x,
+\frac{f (x)}{g (x)} \leq a \text{fo r} a \text{fo r} x,
 $$
 
 which implies
 
 $$
-6 0 x ^ {3} (1 - x) ^ {2} \leq a \text {f o r} a \in [ 0, 1 ].
+6 0 x^{3} (1 - x)^{2} \leq a \text{fo r} a \in [ 0, 1 ].
 $$
 
 So take  $a = 3$ . It is easy to check that this value works. We then have the following algorithm.
@@ -457,13 +457,13 @@ $\mathbb{E}[N] = a$  , so clearly we would like  $a$  to be as small as possible
 Recall the Beta(4,3) example with PDF  $f(x) = 60x^{3}(1 - x)^{2}$  for  $x \in [0,1]$ . We chose  $g(y) = 1$  for  $y \in [0,1]$  so that  $Y \sim U(0,1)$ . The constant  $a$  had to satisfy
 
 $$
-\frac {f (x)}{g (x)} \leq a \quad \text {f o r a l l} x \in [ 0, 1 ]
+\frac{f (x)}{g (x)} \leq a \quad \text{fo ra ll} x \in [ 0, 1 ]
 $$
 
 and we chose  $a = 3$ . We can do better by choosing
 
 $$
-a = \max _ {x \in [ 0, 1 ]} \frac {f (x)}{g (x)} \approx 2. 0 7 3.
+a = \max_{x \in [ 0, 1 ]} \frac{f (x)}{g (x)} \approx 2. 0 7 3.
 $$
 
 # How Do We Choose  $g(\cdot)?$
@@ -528,7 +528,7 @@ We briefly mentioned this earlier in Example 7 when we described how to generate
 More generally, suppose we want to simulate a value of a random variable,  $X$ , and we know that
 
 $$
-X \sim g (Y _ {1}, \dots , Y _ {n})
+X \sim g (Y_{1}, \dots , Y_{n})
 $$
 
 for some random variables  $Y_{i}$  and some function  $g(\cdot)$ . Note that the  $Y_{i}$ 's need not necessarily be IID. If we know how to generate  $(Y_{1},\ldots ,Y_{n})$  then we can generate  $X$  by generating  $(Y_{1},\dots ,Y_{n})$  and setting  $X = g(Y_{1},\ldots ,Y_{n})$ . We saw such an application in Example 7.
@@ -552,7 +552,7 @@ Question: How would you generate a  $\chi_n^2$  random variable?
 Suppose  $X \sim \mathsf{N}(0,1)$  and  $Y \sim \chi_n^2$  with  $X$  and  $Y$  independent. Then
 
 $$
-Z := \frac {X}{\sqrt {\frac {Y}{n}}}
+Z := \frac{X}{\sqrt{\frac{Y}{n}}}
 $$
 
 has a  $t$  distribution with  $n$  degrees of freedom, i.e.,  $Z \sim t_{n}$ .
@@ -564,7 +564,7 @@ Example 18 (Generating  $F_{m,n}$  Random Variables)
 Suppose  $X \sim \chi_m^2$  and  $Y \sim \chi_n^2$  with  $X$  and  $Y$  independent. Then
 
 $$
-Z := \frac {\left(\frac {X}{m}\right)}{\left(\frac {Y}{n}\right)}
+Z := \frac{\left(\frac{X}{m}\right)}{\left(\frac{Y}{n}\right)}
 $$
 
 has an  $F$  distribution with  $m$  and  $n$  degrees of freedom, i.e.,  $Z \sim F_{m,n}$ .
@@ -576,7 +576,7 @@ Question: How would you generate a  $F_{m,n}$  random variable?
 While we typically rely on software packages to generate normal random variables for us, it is nonetheless worthwhile having an understanding of how to do this. We first note that if  $Z \sim \mathsf{N}(0,1)$  then
 
 $$
-X := \mu + \sigma Z \sim \mathsf {N} (\mu , \sigma^ {2})
+X := \mu + \sigma Z \sim \mathsf {N} (\mu , \sigma^{2})
 $$
 
 so that we need only concern ourselves with generating  $\mathsf{N}(0,1)$  random variables. One possibility for doing this is to use the inverse transform method. But we would then have to use numerical methods since we cannot find  $F_{z}^{-1}(\cdot) \coloneqq \Phi^{-1}(\cdot)$  in closed form. Other approaches for generating  $\mathsf{N}(0,1)$  random variables include:
@@ -598,7 +598,7 @@ generate  $U_{1}$  and  $U_{2}$  IID  $U(0,1)$
 set
 
 $$
-X = \sqrt {- 2 \log (U _ {1})} \cos (2 \pi U _ {2}) \quad \text {a n d} \quad Y = \sqrt {- 2 \log (U _ {1})} \sin (2 \pi U _ {2})
+X = \sqrt{- 2 \log (U_{1})} \cos (2 \pi U_{2}) \quad \text{an d} \quad Y = \sqrt{- 2 \log (U_{1})} \sin (2 \pi U_{2})
 $$
 
 We now show that this algorithm does indeed produce two IID  $\mathsf{N}(0,1)$  random variables,  $X$  and  $Y$ .
@@ -606,37 +606,37 @@ We now show that this algorithm does indeed produce two IID  $\mathsf{N}(0,1)$  
 Proof: We need to show that
 
 $$
-f (x, y) = \frac {1}{\sqrt {2 \pi}} \exp \left(- \frac {x ^ {2}}{2}\right) \frac {1}{\sqrt {2 \pi}} \exp \left(- \frac {y ^ {2}}{2}\right)
+f (x, y) = \frac{1}{\sqrt{2 \pi}} \exp \left(- \frac{x^{2}}{2}\right) \frac{1}{\sqrt{2 \pi}} \exp \left(- \frac{y^{2}}{2}\right)
 $$
 
 First, make a change of variables:
 
 $$
-\begin{array}{l} R := \sqrt {X ^ {2} + Y ^ {2}} \\ \theta := \tan^ {- 1} \left(\frac {Y}{X}\right) \\ \end{array}
+\begin{array}{l} R := \sqrt{X^{2} + Y^{2}} \\ \theta := \tan^{- 1} \left(\frac{Y}{X}\right) \\ \end{array}
 $$
 
 so  $R$  and  $\theta$  are polar coordinates of  $(X, Y)$ . To transform back, note  $X = R\cos(\theta)$  and  $Y = R\sin(\theta)$ . Note also that  $R = \sqrt{-2\log(U_1)}$  and  $\theta = 2\pi U_2$ . Since  $U_1$  and  $U_2$  are IID,  $R$  and  $\theta$  are independent. Clearly  $\theta \sim U(0, 2\pi)$  so  $f_\theta(\theta) = 1/2\pi$  for  $0 \leq \theta \leq 2\pi$ . It is also easy to see that  $f_R(r) = r e^{-r^2/2}$  for  $r \geq 0$ , so that
 
 $$
-f _ {R, \theta} (r, \theta) = \frac {1}{2 \pi} r e ^ {- r ^ {2} / 2}, 0 \leq \theta \leq 2 \pi , r \geq 0.
+f_{R, \theta} (r, \theta) = \frac{1}{2 \pi} r e^{- r^{2} / 2}, 0 \leq \theta \leq 2 \pi , r \geq 0.
 $$
 
 This implies
 
 $$
-\begin{array}{l} \mathbf {P} (X \leq x _ {1}, Y \leq y _ {1}) = \mathbf {P} (R \cos (\theta) \leq x _ {1}, R \sin (\theta) \leq y _ {1}) \\ = \iint_ {A} \frac {1}{2 \pi} r e ^ {- r ^ {2} / 2} d r d \theta \tag {2} \\ \end{array}
+\begin{array}{l} \mathbf {P} (X \leq x_{1}, Y \leq y_{1}) = \mathbf {P} (R \cos (\theta) \leq x_{1}, R \sin (\theta) \leq y_{1}) \\ = \iint_{A} \frac{1}{2 \pi} r e^{- r^{2} / 2} d r d \theta \tag {2} \\ \end{array}
 $$
 
 where  $A = \{(r,\theta):r\cos (\theta)\leq x,r\sin (\theta)\leq y\}$ . We now transform back to  $(x,y)$  coordinates with
 
 $$
-x = r \cos (\theta) \quad \text {a n d} \quad y = r \sin (\theta)
+x = r \cos (\theta) \quad \text{an d} \quad y = r \sin (\theta)
 $$
 
 and note that  $dx \, dy = r dr \, d\theta$ , i.e., the Jacobian of the transformation is  $r$ . We then use (2) to obtain
 
 $$
-\begin{array}{l} \mathbf {P} (X \leq x _ {1}, Y \leq y _ {1}) = \frac {1}{2 \pi} \int_ {- \infty} ^ {x _ {1}} \int_ {- \infty} ^ {y _ {1}} e x p \left(- \frac {\left(x ^ {2} + y ^ {2}\right)}{2}\right) d x d y \\ = \frac {1}{\sqrt {2 \pi}} \int_ {- \infty} ^ {x _ {1}} \exp (- x ^ {2} / 2) d x \frac {1}{\sqrt {2 \pi}} \int_ {- \infty} ^ {y _ {1}} \exp (- y ^ {2} / 2) d y \\ \end{array}
+\begin{array}{l} \mathbf {P} (X \leq x_{1}, Y \leq y_{1}) = \frac{1}{2 \pi} \int_{- \infty}^{x_{1}} \int_{- \infty}^{y_{1}} e x p \left(- \frac{\left(x^{2} + y^{2}\right)}{2}\right) d x d y \\ = \frac{1}{\sqrt{2 \pi}} \int_{- \infty}^{x_{1}} \exp (- x^{2} / 2) d x \frac{1}{\sqrt{2 \pi}} \int_{- \infty}^{y_{1}} \exp (- y^{2} / 2) d y \\ \end{array}
 $$
 
 as required.
@@ -658,7 +658,7 @@ set  $V_{1} = 2U_{1} - 1$ ,  $V_{2} = 2U_{2} - 1$  and  $S = V_{1}^{2} + V_{2}^{
 set
 
 $$
-X = \sqrt {\frac {- 2 \log (S)}{S}} V _ {1} \quad \text {a n d} \quad Y = \sqrt {\frac {- 2 \log (S)}{S}} V _ {2}
+X = \sqrt{\frac{- 2 \log (S)}{S}} V_{1} \quad \text{an d} \quad Y = \sqrt{\frac{- 2 \log (S)}{S}} V_{2}
 $$
 
 Can you see why this algorithm works?
@@ -672,7 +672,7 @@ Let  $X \sim \mathsf{N}(0,1)$  and recall that  $\Phi(x) = \mathbf{P}(X \leq x)$
 For  $0.5 \leq u \leq 1$
 
 $$
-x _ {u} \approx t - \frac {a _ {0} + a _ {1} t}{1 + b _ {1} t + b _ {2} t ^ {2}}
+x_{u} \approx t - \frac{a_{0} + a_{1} t}{1 + b_{1} t + b_{2} t^{2}}
 $$
 
 where  $a_0, a_1, b_1$  and  $b_2$  are constants, and  $t = \sqrt{-2\log(1 - u)}$ . The error is bounded in this case by .003. Even more accurate approximations are available, and since they are very fast, many packages (including Matlab) use them for generating normal random variables.
@@ -682,25 +682,25 @@ where  $a_0, a_1, b_1$  and  $b_2$  are constants, and  $t = \sqrt{-2\log(1 - u)
 If the  $n$ -dimensional vector  $\mathbf{X}$  is multivariate normal with mean vector  $\mu$  and covariance matrix  $\Sigma$  then we write
 
 $$
-\mathbf {X} \sim \mathrm {M N} _ {n} (\boldsymbol {\mu}, \boldsymbol {\Sigma}).
+\mathbf {X} \sim \mathrm{MN}_{n} (\boldsymbol {\mu}, \boldsymbol {\Sigma}).
 $$
 
 The standard multivariate normal has  $\pmb{\mu} = \mathbf{0}$  and  $\pmb{\Sigma} = \mathbf{I}_{\mathbf{n}}$ , the  $n \times n$  identity matrix. The PDF of  $\mathbf{X}$  is given by
 
 $$
-f (\mathbf {x}) = \frac {1}{(2 \pi) ^ {n / 2} | \boldsymbol {\Sigma} | ^ {1 / 2}} e ^ {- \frac {1}{2} (\mathbf {x} - \boldsymbol {\mu}) ^ {\top} \boldsymbol {\Sigma} ^ {- 1} (\mathbf {x} - \boldsymbol {\mu})} \tag {3}
+f (\mathbf {x}) = \frac{1}{(2 \pi)^{n / 2} | \boldsymbol {\Sigma} |^{1 / 2}} e^{- \frac{1}{2} (\mathbf {x} - \boldsymbol {\mu})^{\top} \boldsymbol {\Sigma}^{- 1} (\mathbf {x} - \boldsymbol {\mu})} \tag {3}
 $$
 
 where  $|\cdot|$  denotes the determinant, and its characteristic function satisfies
 
 $$
-\phi_ {\mathbf {X}} (\mathbf {s}) = \operatorname {E} \left[ e ^ {i \mathbf {s} ^ {\top} \mathbf {X}} \right] = e ^ {i \mathbf {s} ^ {\top} \boldsymbol {\mu} - \frac {1}{2} \mathbf {s} ^ {\top} \boldsymbol {\Sigma} s}. \tag {4}
+\phi_{\mathbf {X}} (\mathbf {s}) = \operatorname{E} \left[ e^{i \mathbf {s}^{\top} \mathbf {X}} \right] = e^{i \mathbf {s}^{\top} \boldsymbol {\mu} - \frac{1}{2} \mathbf {s}^{\top} \boldsymbol {\Sigma} s}. \tag {4}
 $$
 
 Recall again our partition of  $\mathbf{X}$  into  $\mathbf{X_1} = (X_1,\ldots ,X_k)^\top$  and  $\mathbf{X_2} = (X_{k + 1},\dots ,X_n)^\top$ . If we extend this notation naturally so that
 
 $$
-\boldsymbol {\mu} = \left( \begin{array}{c} \mu_ {1} \\ \mu_ {2} \end{array} \right) \quad \text {a n d} \quad \boldsymbol {\Sigma} = \left( \begin{array}{c c} \boldsymbol {\Sigma} _ {1 1} & \boldsymbol {\Sigma} _ {1 2} \\ \boldsymbol {\Sigma} _ {2 1} & \boldsymbol {\Sigma} _ {2 2} \end{array} \right).
+\boldsymbol {\mu} = \left( \begin{array}{c} \mu_{1} \\ \mu_{2} \end{array} \right) \quad \text{an d} \quad \boldsymbol {\Sigma} = \left( \begin{array}{c c} \boldsymbol {\Sigma}_{1 1} & \boldsymbol {\Sigma}_{1 2} \\ \boldsymbol {\Sigma}_{2 1} & \boldsymbol {\Sigma}_{2 2} \end{array} \right).
 $$
 
 then we obtain the following results regarding the marginal and conditional distributions of  $\mathbf{X}$ .
@@ -714,7 +714,7 @@ The marginal distribution of a multivariate normal random vector is itself multi
 Assuming  $\Sigma$  is positive definite, the conditional distribution of a multivariate normal distribution is also a multivariate normal distribution. In particular,
 
 $$
-\mathbf {X} _ {\mathbf {2}} \mid \mathbf {X} _ {\mathbf {1}} = \mathbf {x} _ {\mathbf {1}} \sim \operatorname {M N} (\mu_ {\mathbf {2}, 1}, \Sigma_ {\mathbf {2}, 1})
+\mathbf {X}_{\mathbf {2}} \mid \mathbf {X}_{\mathbf {1}} = \mathbf {x}_{\mathbf {1}} \sim \operatorname{MN} (\mu_{\mathbf {2}, 1}, \Sigma_{\mathbf {2}, 1})
 $$
 
 where  $\mu_{2,1} = \mu_2 + \Sigma_{21}\Sigma_{11}^{-1}\left(\mathbf{x}_1 - \mu_1\right)$  and  $\Sigma_{2,1} = \Sigma_{22} - \Sigma_{21}\Sigma_{11}^{-1}\Sigma_{12}$ .
@@ -724,11 +724,11 @@ where  $\mu_{2,1} = \mu_2 + \Sigma_{21}\Sigma_{11}^{-1}\left(\mathbf{x}_1 - \mu_
 Linear combinations of multivariate normal random vectors remain normally distributed with mean vector and covariance matrix given by
 
 $$
-\mathrm {E} \left[ \mathbf {A} \mathbf {X} + \mathbf {a} \right] = \mathbf {A} \mathrm {E} \left[ \mathbf {X} \right] + \mathbf {a}
+\mathrm{E} \left[ \mathbf {A} \mathbf {X} + \mathbf {a} \right] = \mathbf {A} \mathrm{E} \left[ \mathbf {X} \right] + \mathbf {a}
 $$
 
 $$
-\operatorname {C o v} (\mathbf {A X} + \mathbf {a}) = \mathbf {A} \operatorname {C o v} (\mathbf {X}) \mathbf {A} ^ {\top}.
+\operatorname{Co v} (\mathbf {A X} + \mathbf {a}) = \mathbf {A} \operatorname{Co v} (\mathbf {X}) \mathbf {A}^{\top}.
 $$
 
 # Estimation of Multivariate Normal Distributions
@@ -744,7 +744,7 @@ There are many tests that can be employed for testing normality of random variab
 Suppose that we wish to generate  $\mathbf{X} = (X_{1},\ldots ,X_{n})$  where  $\mathbf{X}\sim \mathsf{MN}_n(\mathbf{0},\mathbf{\Sigma})$ . Note that it is then easy to handle the case where  $\mathbb{E}[\mathbf{X}]\neq \mathbf{0}$ . Let  $\mathbf{Z} = (Z_1,\dots,Z_n)^\top$  where the  $Z_{i}$ 's are IID  $\mathsf{N}(0,1)$  for  $i = 1,\ldots ,n$ . If  $\mathbf{C}$  is an  $(n\times m)$  matrix then it follows that
 
 $$
-\mathbf {C} ^ {\top} \mathbf {Z} \sim \operatorname {M N} (0, \mathbf {C} ^ {\top} \mathbf {C}).
+\mathbf {C}^{\top} \mathbf {Z} \sim \operatorname{MN} (0, \mathbf {C}^{\top} \mathbf {C}).
 $$
 
 Our problem therefore reduces to finding  $\mathbf{C}$  such that  $\mathbf{C}^{\top}\mathbf{C} = \boldsymbol{\Sigma}$ . We can use the Cholesky decomposition of  $\boldsymbol{\Sigma}$  to find such a matrix,  $\mathbf{C}$ .
@@ -754,13 +754,13 @@ Our problem therefore reduces to finding  $\mathbf{C}$  such that  $\mathbf{C}^{
 A well known fact from linear algebra is that any symmetric positive-definite matrix,  $\mathbf{M}$ , may be written as
 
 $$
-\mathbf {M} = \mathbf {U} ^ {\top} \mathbf {D} \mathbf {U}
+\mathbf {M} = \mathbf {U}^{\top} \mathbf {D} \mathbf {U}
 $$
 
 where  $\mathbf{U}$  is an upper triangular matrix and  $\mathbf{D}$  is a diagonal matrix with positive diagonal elements. Since  $\pmb{\Sigma}$  is symmetric positive-definite, we can therefore write
 
 $$
-\boldsymbol {\Sigma} = \mathbf {U} ^ {\top} \mathbf {D} \mathbf {U} = (\mathbf {U} ^ {\top} \sqrt {\mathbf {D}}) (\sqrt {\mathbf {D}} \mathbf {U}) = (\sqrt {\mathbf {D}} \mathbf {U}) ^ {\top} (\sqrt {\mathbf {D}} \mathbf {U}).
+\boldsymbol {\Sigma} = \mathbf {U}^{\top} \mathbf {D} \mathbf {U} = (\mathbf {U}^{\top} \sqrt{\mathbf {D}}) (\sqrt{\mathbf {D}} \mathbf {U}) = (\sqrt{\mathbf {D}} \mathbf {U})^{\top} (\sqrt{\mathbf {D}} \mathbf {U}).
 $$
 
 The matrix  $\mathbf{C} = \sqrt{\mathbf{D}}\mathbf{U}$  therefore satisfies  $\mathbf{C}^{\top}\mathbf{C} = \boldsymbol{\Sigma}$ . It is called the Cholesky Decomposition of  $\boldsymbol{\Sigma}$ .
@@ -792,7 +792,7 @@ set  $\mathbf{X} = \mathbf{C}^{\top}\mathbf{Z}$
 Recall that a Poisson process,  $N(t)$ , with intensity  $\lambda$  is a process such that
 
 $$
-\mathbf {P} \left(N (t) = r\right) = \frac {\left(\lambda t\right) ^ {r} e ^ {- \lambda t}}{r !}.
+\mathbf {P} \left(N (t) = r\right) = \frac{\left(\lambda t\right)^{r} e^{- \lambda t}}{r !}.
 $$
 
 For a Poisson process the numbers of arrivals in non-overlapping intervals are independent and the distribution of the number of arrivals in an interval only depends on the length of the interval.
@@ -813,13 +813,13 @@ while  $t <   T$ $\begin{array}{r}\mathbf{set}I = I + 1,S(I) = t\\ \mathbf{gener
 A non-homogeneous Poisson process,  $N(t)$ , is obtained by relaxing the assumption that the intensity,  $\lambda$ , is constant. Instead we take it to be a deterministic function of time,  $\lambda(t)$ . More formally, if  $\lambda(t) \geq 0$  is the intensity of the process at time  $t$ , then we say that  $N(t)$  is a non-homogeneous Poisson process with intensity  $\lambda(t)$ . Define the function  $m(t)$  by
 
 $$
-m (t) := \int_ {0} ^ {t} \lambda (s) d s.
+m (t) := \int_{0}^{t} \lambda (s) d s.
 $$
 
 Then it can be shown that  $N(t + s) - N(t)$  is a Poisson random variable with parameter  $m(t + s) - m(t)$ , i.e.,
 
 $$
-\mathbf {P} (N (t + s) - N (t) = r) = \frac {\exp (- m _ {t , s}) (m _ {t , s}) ^ {r}}{r !}
+\mathbf {P} (N (t + s) - N (t) = r) = \frac{\exp (- m_{t , s}) (m_{t , s})^{r}}{r !}
 $$
 
 where  $m_{t,s} \coloneqq m(t + s) - m(t)$ .
@@ -860,7 +860,7 @@ Definition 1 A stochastic process,  $\{X_{t}:t\geq 0\}$ , is a Brownian motion w
 1. For  $0 < t_1 < t_2 < \ldots < t_{n-1} < t_n$
 
 $$
-\left(X _ {t _ {2}} - X _ {t _ {1}}\right), \left(X _ {t _ {3}} - X _ {t _ {2}}\right), \ldots , \left(X _ {t _ {n}} - X _ {t _ {n - 1}}\right)
+\left(X_{t_{2}} - X_{t_{1}}\right), \left(X_{t_{3}} - X_{t_{2}}\right), \ldots , \left(X_{t_{n}} - X_{t_{n - 1}}\right)
 $$
 
 are mutually independent.
@@ -871,7 +871,7 @@ are mutually independent.
 We say that  $X$  is a  $B(\mu, \sigma)$  Brownian motion with drift,  $\mu$ , and volatility,  $\sigma$ . When  $\mu = 0$  and  $\sigma = 1$  we have a standard Brownian motion (SBM). We will use  $B_{t}$  to denote a SBM and we will always assume (unless otherwise stated) that  $B_{0} = 0$ . Note that if  $X \sim B(\mu, \sigma)$  and  $X_{0} = x$  then we can write
 
 $$
-X _ {t} = x + \mu t + \sigma B _ {t}
+X_{t} = x + \mu t + \sigma B_{t}
 $$
 
 where  $B$  is a SBM. We will usually write a  $B(\mu, \sigma)$  Brownian motion in this way.
@@ -893,7 +893,7 @@ Sometimes, however, the quantity of interest,  $\theta$ , that we are trying to 
 In either case, we need to be able to simulate  $B_{t_i}$  for  $t_1 < t_2 < \ldots < t_n$  and for a fixed  $n$ . We will now see how to do this. The first observation we make is that
 
 $$
-\left(B _ {t _ {2}} - B _ {t _ {1}}\right), \left(B _ {t _ {3}} - B _ {t _ {2}}\right), \ldots , \left(B _ {t _ {n}} - B _ {t _ {n - 1}}\right)
+\left(B_{t_{2}} - B_{t_{1}}\right), \left(B_{t_{3}} - B_{t_{2}}\right), \ldots , \left(B_{t_{n}} - B_{t_{n - 1}}\right)
 $$
 
 are mutually independent, and for  $s > 0$ ,  $B_{t + s} - B_t \sim \mathsf{N}(0,s)$ . The idea then is as follows: we begin with  $t_0 = 0$  and  $B_{t_0} = 0$ . We then generate  $B_{t_1}$  which we can do since  $B_{t_1} \sim \mathsf{N}(0,t_1)$ . We now generate  $B_{t_2}$  by first observing that  $B_{t_2} = B_{t_1} + (B_{t_2} - B_{t_1})$ . Then since  $(B_{t_2} - B_{t_1})$  is independent of  $B_{t_1}$ , we can generate  $B_{t_2}$  by generating an  $\mathsf{N}(0,t_2 - t_1)$  random variable and simply adding it to  $B_{t_1}$ . More generally, if we have already generated  $B_{t_i}$  then we can generate  $B_{t_{i + 1}}$  by generating an  $\mathsf{N}(0,t_{i + 1} - t_i)$  random variable and adding it to  $B_{t_i}$ . We have the following algorithm.
@@ -901,19 +901,19 @@ are mutually independent, and for  $s > 0$ ,  $B_{t + s} - B_t \sim \mathsf{N}(0
 # Simulating a Standard Brownian Motion
 
 $$
-\mathbf {s e t} \quad t _ {0} = 0, B _ {t _ {0}} = 0
+\mathbf {s e t} \quad t_{0} = 0, B_{t_{0}} = 0
 $$
 
 $$
-\text {f o r} i = 1 \text {t o} n
+\text{fo r} i = 1 \text{to} n
 $$
 
 $$
-\operatorname {g e n e r a t e} X \sim \mathsf {N} (0, t _ {i} - t _ {i - 1}))
+\operatorname{ge ne ra te} X \sim \mathsf {N} (0, t_{i} - t_{i - 1}))
 $$
 
 $$
-\mathbf {s e t} B _ {t _ {i}} = B _ {t _ {i - 1}} + X
+\mathbf {s e t} B_{t_{i}} = B_{t_{i - 1}} + X
 $$
 
 Remark 3 It is very important that when you generate  $B_{t_{i+1}}$ , you do so conditional on the value of  $B_{t_i}$ . If you generate  $B_{t_i}$  and  $B_{t_{i+1}}$  independently of one another then you are effectively simulating from different sample paths of the Brownian motion. This is not correct! In fact when we generate  $(B_{t_1}, B_{t_2}, \ldots, B_{t_n})$  we are actually generating a random vector that does not consist of IID random variables.
@@ -967,7 +967,7 @@ This suggests that GBM might be a reasonable model for stock prices. In fact, we
 - $S_{t}$  is the random stock price at time  $t$  and
 
 $$
-S _ {t} = S _ {0} e ^ {(\mu - \sigma^ {2} / 2) t + \sigma B _ {t}}
+S_{t} = S_{0} e^{(\mu - \sigma^{2} / 2) t + \sigma B_{t}}
 $$
 
 where  $B$  is a standard BM. The drift is  $\mu, \sigma$  is the volatility and  $S$  is a therefore a  $GBM(\mu, \sigma)$  process that begins at  $S_0$ .
@@ -981,7 +981,7 @@ where  $B$  is a standard BM. The drift is  $\mu, \sigma$  is the volatility and
 Suppose now that we wish to simulate  $S \sim GBM(\mu, \sigma)$ . Then we know
 
 $$
-S _ {t + \Delta t} = S _ {t} e ^ {(\mu - \sigma^ {2} / 2) \Delta t + \sigma (B _ {t + \Delta t} - B _ {t})}
+S_{t + \Delta t} = S_{t} e^{(\mu - \sigma^{2} / 2) \Delta t + \sigma (B_{t + \Delta t} - B_{t})}
 $$
 
 so that we can simulate  $S_{t + \Delta t}$  conditional on  $S_{t}$  for any  $\Delta t > 0$  by simply simulating an  $\mathsf{N}(0, \Delta t)$  random variable.
@@ -993,23 +993,23 @@ In this extended example we consider the use of the Black-Scholes model to hedge
 Towards this end, let  $P_{t}$  denote the time  $t$  value of the discrete-time s.f. strategy that attempts to replicate the option payoff and let  $C_0$  denote the initial value of the option. The replicating strategy is then given by
 
 $$
-P _ {0} := C _ {0} \tag {5}
+P_{0} := C_{0} \tag {5}
 $$
 
 $$
-P _ {t _ {i + 1}} = P _ {t _ {i}} + \left(P _ {t _ {i}} - \delta_ {t _ {i}} S _ {t _ {i}}\right) r \Delta t + \delta_ {t _ {i}} \left(S _ {t _ {i + 1}} - S _ {t _ {i}} + q S _ {t _ {i}} \Delta t\right) \tag {6}
+P_{t_{i + 1}} = P_{t_{i}} + \left(P_{t_{i}} - \delta_{t_{i}} S_{t_{i}}\right) r \Delta t + \delta_{t_{i}} \left(S_{t_{i + 1}} - S_{t_{i}} + q S_{t_{i}} \Delta t\right) \tag {6}
 $$
 
 where  $\Delta t\coloneqq t_{i + 1} - t_i$  is the length of time between re-balancing (assumed constant for all  $i$ ),  $r$  is the annual risk-free interest rate (assuming per-period compounding),  $q$  is the dividend yield and  $\delta_{t_i}$  is the Black-Scholes delta at time  $t_i$ . This delta is a function of  $S_{t_i}$  and some assumed implied volatility,  $\sigma_{imp}$  say. Note that (5) and (6) respect the self-financing condition. Stock prices are simulated assuming  $S_{t}\sim \mathrm{GBM}(\mu ,\sigma)$  so that
 
 $$
-S _ {t + \Delta t} = S _ {t} e ^ {(\mu - \sigma^ {2} / 2) \Delta t + \sigma \sqrt {\Delta t} Z}
+S_{t + \Delta t} = S_{t} e^{(\mu - \sigma^{2} / 2) \Delta t + \sigma \sqrt{\Delta t} Z}
 $$
 
 where  $Z \sim \mathsf{N}(0,1)$ . In the case of a short position in a call option with strike  $K$  and maturity  $T$ , the final trading P&L is then defined as
 
 $$
-\mathrm {P} \& \mathrm {L} := P _ {T} - \left(S _ {T} - K\right) ^ {+} \tag {7}
+\mathrm{P} \& \mathrm{L} := P_{T} - \left(S_{T} - K\right)^{+} \tag {7}
 $$
 
 where  $P_T$  is the terminal value of the replicating strategy in (6). In the Black-Scholes world we have  $\sigma = \sigma_{imp}$  and the P&L will be 0 along every price path in the limit as  $\Delta t \to 0$ .
@@ -1021,7 +1021,7 @@ Clearly then this is a situation where substantial errors in the form of non-zer
 Note that the payoff from delta-hedging an option is in general path-dependent, i.e. it depends on the price path taken by the stock over the entire time interval. In fact, it can be shown that the payoff from continuously delta-hedging an option satisfies
 
 $$
-\mathsf {P} \& \mathsf {L} = \int_ {0} ^ {T} \frac {S _ {t} ^ {2}}{2} \frac {\partial^ {2} V _ {t}}{\partial S ^ {2}} \left(\sigma_ {i m p} ^ {2} - \sigma_ {t} ^ {2}\right) d t \tag {8}
+\mathsf {P} \& \mathsf {L} = \int_{0}^{T} \frac{S_{t}^{2}}{2} \frac{\partial^{2} V_{t}}{\partial S^{2}} \left(\sigma_{i m p}^{2} - \sigma_{t}^{2}\right) d t \tag {8}
 $$
 
 where  $V_{t}$  is the time  $t$  value of the option and  $\sigma_{t}$  is the realized instantaneous volatility at time  $t$ . We recognize the term  $\frac{S_t^2}{2}\frac{\partial^2V_t}{\partial S^2}$  as the dollar gamma. It is always positive for a call or put option, but it goes to zero as the
@@ -1042,7 +1042,7 @@ Returning to the self-financing trading strategy of (5) and (6), note that we ca
 It is often the case that we wish to simulate a vector of geometric Brownian motion paths. In this case we again have
 
 $$
-S _ {t + \Delta t} ^ {(i)} = S _ {t} ^ {(i)} e ^ {\left(\mu_ {i} - \sigma_ {i} ^ {2} / 2\right) \Delta t + \sigma_ {i} \left(B _ {t + \Delta t} ^ {(i)} - B _ {t} ^ {(i)}\right)} \tag {9}
+S_{t + \Delta t}^{(i)} = S_{t}^{(i)} e^{\left(\mu_{i} - \sigma_{i}^{2} / 2\right) \Delta t + \sigma_{i} \left(B_{t + \Delta t}^{(i)} - B_{t}^{(i)}\right)} \tag {9}
 $$
 
 for  $i = 1, \dots, n$ , and where the Brownian increments  $B_{t + \Delta t}^{(i)} - B_t^{(i)}$  and  $B_{t + \Delta t}^{(j)} - B_t^{(j)}$  have correlation  $\rho_{i,j}$ . Since we know how to simulate multivariate normal distribution using the Cholesky decomposition method of Section 5.1, it should be clear how to simulate (9) for  $i = 1, \dots, n$ .

@@ -164,7 +164,7 @@ you write down the "rule" that defines it rigorously? Doesn't it seem better to 
 We would define this function in the following way. Let  $S$  be the set of all finite binary strings, i.e. sequences of 0s and 1s. Then we let  $B: \mathbb{N} \to S$  be the function defined by
 
 $$
-B = \{(n, s) \mid n \in \mathbb {N} \text {a n d} s \text {i s t h e b i n a r y r e p r e s e n t a t i o n o f} n \}
+B = \{(n, s) \mid n \in \mathbb{N} \text{ and } s \text{ isthebinaryrepresentationof } n \}
 $$
 
 Example 7.2.3. Consider the "squaring function" again: Let  $f: \mathbb{R} \to \mathbb{R}$  be defined by  $\forall x \in \mathbb{R}$ .  $f(x) = x^2$ . Is this function any different from the following functions?
@@ -172,13 +172,13 @@ Example 7.2.3. Consider the "squaring function" again: Let  $f: \mathbb{R} \to \
 - Let  $g: \mathbb{R} \to \mathbb{C}$  be the function defined by
 
 $$
-\forall x \in \mathbb {R}. g (x) = x ^ {2}
+\forall x \in \mathbb{R}. g(x) = x^2
 $$
 
 - Let  $h: \mathbb{Z} \to \mathbb{R}$  be the function defined by
 
 $$
-\forall x \in \mathbb {Z}. h (x) = x ^ {2}
+\forall x \in \mathbb{Z}. h(x) = x^2
 $$
 
 The function  $g$  has a different codomain but, in fact,  $\mathbb{R} \subseteq \mathbb{C}$ . All of the ordered pairs  $(x, x^2) \in g$  still satisfy  $x \in \mathbb{R}$  and  $x^2 \in \mathbb{R}$ . In this sense,  $f$  and  $g$  are the same function, and we would write  $f = g$ . We will see later on precisely what it means for two functions to be equal. For now, it suffices to say that the underlying relations corresponding to  $f$  and  $g$  have the same ordered pairs of real numbers as elements. The function  $g$  theoretically allows for complex numbers in the second coordinate, but the way the domain and the "rule" are established, this doesn't actually happen.
@@ -190,7 +190,7 @@ Example 7.2.4. We can define a function piece-wise, as well. For instance, consi
 Let  $a:\mathbb{R}\to \mathbb{R}$  be the function defined by
 
 $$
-\forall x \in \mathbb {R}  . \quad a (x) = \left\{ \begin{array}{l l} x & \text {i f} x \geq 0 \\ - x & \text {i f} x <   0 \end{array} \right.
+\forall x \in \mathbb{R}. \quad a(x) = \left\{ \begin{array}{ll} x & \text{if } x \geq 0 \\ -x & \text{if } x < 0 \end{array} \right.
 $$
 
 Every domain element falls into exactly one of the cases, so there is no ambiguity.
@@ -222,7 +222,7 @@ In any case, we see that the "rule" that defines  $f$  does indeed yield a natur
 Example 7.2.7. Let  $P$  be the set of all people in the world. Let  $b: P \to \mathbb{N} \cup \{0\}$  be the function defined by
 
 $$
-b = \{(p, n) \mid p \in P \wedge \text {p e r s o n} p \text {h a s} n \text {s i s t e r s} \}
+b = \{(p, n) \mid p \in P \wedge \text{ person } p \text{ has } n \text{ sisters} \}
 $$
 
 (Notice that we have used one of the sets-emphasizing notation styles here, for practice. Also, it might look funny to combine math symbols and words, as in "  $b(p) =$  the number of sisters person  $p$  has".)
@@ -240,7 +240,7 @@ out that … yes, we can! Think back to a similar question we considered when ta
 Definition 7.2.9. Let  $S$  be a set. The identity function on  $S$  is defined to be the function  $\operatorname{Id}: S \to S$  given by
 
 $$
-\forall x \in S. \operatorname {I d} (x) = x
+\forall x \in S. \operatorname{Id} (x) = x
 $$
 
 That is, the identity function "outputs exactly what it inputs". (Thinking of a function as a machine, this is a lazy machine that does nothing, and just spits out whatever came in.)
@@ -312,21 +312,21 @@ This provides us with a handy way of showing that two functions are equal withou
 Example 7.2.13. Let  $A = \{-1,0,1\}$ . Define the functions  $f_{1}:A\to \mathbb{Z}$  and  $f_{2}:A\to \mathbb{Z}$  by
 
 $$
-\forall x \in A. f _ {1} (x) = x \wedge f _ {2} (x) = x ^ {3}
+\forall x \in A. f_1(x) = x \wedge f_2(x) = x^3
 $$
 
 Let's prove that  $f_{1} = f_{2}$ . Since the domain only contains three elements, we can verify these outputs one by one. Notice that
 
 $$
-f _ {1} (- 1) = - 1 = (- 1) ^ {3} = f _ {2} (- 1)
+f_1(-1) = -1 = (-1)^3 = f_2(-1)
 $$
 
 $$
-f _ {1} (0) = 0 = 0 ^ {3} = f _ {2} (0)
+f_1(0) = 0 = 0^3 = f_2(0)
 $$
 
 $$
-f _ {1} (1) = 1 = 1 ^ {3} = f _ {2} (1)
+f_1(1) = 1 = 1^3 = f_2(1)
 $$
 
 Thus, for every allowable input (i.e.  $\forall x\in A$ ) the functions  $f_{1}$  and  $f_{2}$  have the same output (i.e.  $f_{1}(x) = f_{2}(x)$ ). Therefore,  $f_{1} = f_{2}$ .
@@ -334,33 +334,33 @@ Thus, for every allowable input (i.e.  $\forall x\in A$ ) the functions  $f_{1}$
 Example 7.2.14. Let  $B = \{1,2,3\}$ . Define the functions  $g_1: B \to \mathbb{Z}$  and  $g_2: B \to \mathbb{Z}$  by
 
 $$
-\forall n \in B. g _ {1} (n) = n ^ {3} - n ^ {2} - 6 \wedge g _ {2} (n) = 5 n ^ {2} - 1 1 n
+\forall n \in B. g_1(n) = n^3 - n^2 - 6 \wedge g_2(n) = 5n^2 - 11n
 $$
 
 Let's prove that  $g_{1} = g_{2}$ . Again, we only have three elements to consider, so we can just verify all of the equalities by hand:
 
 $$
-g _ {1} (1) = 1 ^ {3} - 1 ^ {2} - 6 = 1 - 1 - 6 = - 6
+g_1(1) = 1^3 - 1^2 - 6 = 1 - 1 - 6 = -6
 $$
 
 $$
-g _ {2} (1) = 5 \cdot 1 ^ {2} - 1 1 \cdot 1 = 5 - 1 1 = - 6
+g_2(1) = 5 \cdot 1^2 - 11 \cdot 1 = 5 - 11 = -6
 $$
 
 $$
-g _ {1} (2) = 2 ^ {3} - 2 ^ {2} - 6 = 8 - 4 - 6 = - 2
+g_1(2) = 2^3 - 2^2 - 6 = 8 - 4 - 6 = -2
 $$
 
 $$
-g _ {2} (2) = 5 \cdot 2 ^ {2} - 1 1 \cdot 2 = 2 0 - 2 2 = - 2
+g_2(2) = 5 \cdot 2^2 - 11 \cdot 2 = 20 - 22 = -2
 $$
 
 $$
-g _ {1} (3) = 3 ^ {3} - 3 ^ {2} - 6 = 2 7 - 9 - 6 = 1 2
+g_1(3) = 3^3 - 3^2 - 6 = 27 - 9 - 6 = 12
 $$
 
 $$
-g _ {2} (3) = 5 \cdot 3 ^ {2} - 1 1 \cdot 3 = 4 5 - 3 3 = 1 2
+g_2(3) = 5 \cdot 3^2 - 11 \cdot 3 = 45 - 33 = 12
 $$
 
 Thus,  $\forall n\in B$ .  $g_{1}(n) = g_{2}(n)$ , and so  $g_{1} = g_{2}$ .
@@ -370,7 +370,7 @@ Since the domains in these two examples were "small", we were able to examine ev
 Let  $n \in B$  be given. Since  $g_{1}(n), g_{2}(n) \in \mathbb{Z}$ , we can consider their difference. Specifically, we see that
 
 $$
-\begin{array}{l} g _ {1} (n) - g _ {2} (n) = \left(n ^ {3} - n ^ {2} - 6\right) - \left(5 n ^ {2} - 1 1 n\right) \\ = n ^ {3} - 6 n ^ {2} - 1 1 n - 6 \\ = (n - 1) (n - 2) (n - 3) \\ \end{array}
+\begin{array}{l} g_1(n) - g_2(n) = \left(n^3 - n^2 - 6\right) - \left(5n^2 - 11n\right) \\ = n^3 - 6n^2 - 11n - 6 \\ = (n - 1)(n - 2)(n - 3) \\ \end{array}
 $$
 
 (Note: the reader can verify the last equality by simply expanding the product of the three terms.)
@@ -378,7 +378,7 @@ $$
 Since  $n \in B$ , we know  $n = 1$  or  $n = 2$  or  $n = 3$ . In each case, one of the terms—either  $n - 1$  or  $n - 2$  or  $n - 3$ —must be zero. Thus,
 
 $$
-g _ {1} (n) - g _ {2} (n) = (n - 1) (n - 2) (n - 3) = 0
+g_1(n) - g_2(n) = (n - 1)(n - 2)(n - 3) = 0
 $$
 
 Accordingly, by adding to both sides, we find  $g_{1}(n) = g_{2}(n)$ . Since this holds for arbitrary  $n \in B$ , we conclude that  $g_{1} = g_{2}$ .
@@ -422,13 +422,13 @@ Reflection through the origin can also be represented by matrix multiplication, 
 This allows us to fully represent the actions of  $F_{1}$  and  $F_{2}$ . Since  $F_{1}$  says "rotate counterclockwise by  $90^{\circ}$  and negate both entries", we can write
 
 $$
-F _ {1} \left(\left[ \begin{array}{c} a \\ b \end{array} \right]\right) = - \left[ \begin{array}{c c} 0 & - 1 \\ 1 & 0 \end{array} \right] \left[ \begin{array}{c} a \\ b \end{array} \right] = \left[ \begin{array}{c} b \\ - a \end{array} \right]
+F_1\left(\left[ \begin{array}{c} a \\ b \end{array} \right]\right) = -\left[ \begin{array}{cc} 0 & -1 \\ 1 & 0 \end{array} \right] \left[ \begin{array}{c} a \\ b \end{array} \right] = \left[ \begin{array}{c} b \\ -a \end{array} \right]
 $$
 
 (where the - sign out front accomplishes the negation), and since  $F_{2}$  says "rotate clockwise by  $90^{\circ}$ ", we can write
 
 $$
-F _ {2} \left(\left[ \begin{array}{c} a \\ b \end{array} \right]\right) = \left[ \begin{array}{c c} 0 & 1 \\ - 1 & 0 \end{array} \right] \left[ \begin{array}{c} a \\ b \end{array} \right] = \left[ \begin{array}{c} b \\ - a \end{array} \right]
+F_2\left(\left[ \begin{array}{c} a \\ b \end{array} \right]\right) = \left[ \begin{array}{cc} 0 & 1 \\ -1 & 0 \end{array} \right] \left[ \begin{array}{c} a \\ b \end{array} \right] = \left[ \begin{array}{c} b \\ -a \end{array} \right]
 $$
 
 By following the rules of matrix and vector multiplication, we can easily see that these two expressions are equal, for any  $a$  and  $b$ . So, assuming some knowledge about rotation matrices, this proves  $F_{1} = F_{2}!$
@@ -493,7 +493,7 @@ Definition 7.3.1. Let  $A, B$  be sets and let  $f: A \to B$  be a function. Let
 The image of  $X$  under the function  $f$  is written and defined as
 
 $$
-\operatorname {I m} _ {f} (X) = \{b \in B \mid \exists a \in X. f (a) = b \}
+\operatorname{Im}_f(X) = \{b \in B \mid \exists a \in X. f(a) = b \}
 $$
 
 That is, the image of  $X$  under  $f$  is the set of all "outputs" that come from "inputs" in the set  $X$ .
@@ -501,7 +501,7 @@ That is, the image of  $X$  under  $f$  is the set of all "outputs" that come fr
 An equivalent way of writing this is
 
 $$
-\operatorname {I m} _ {f} (X) = \{f (a) \mid a \in X \}
+\operatorname{Im}_f(X) = \{f(a) \mid a \in X \}
 $$
 
 (We will sometimes abbreviate the notation as just  $\operatorname{Im}(X)$ , when the function is clearly identified and unambiguous, and consequently refer to the set as just "the image of  $X$ ", instead of "the image of  $X$  under  $f$ ).)
@@ -515,7 +515,7 @@ Notice that this is defined for any subset of the domain,  $X \subseteq A$ , so 
 Notice that
 
 $$
-\operatorname {I m} _ {f} (A) \subseteq B
+\operatorname{Im}_f(A) \subseteq B
 $$
 
 no matter what  $f$  and  $A$  and  $B$  are. This follows by definition, since we used set-builder notation to define the image via elements of  $B$ . In the next section, we will explore what happens when  $\operatorname{Im}_f(A) = B$ .
@@ -571,7 +571,7 @@ $$
 and define the function  $F:C\to \mathbb{R}$  by
 
 $$
-\forall c \in C. F (c) = \frac {9}{5} c + 3 2
+\forall c \in C. F(c) = \frac{9}{5}c + 32
 $$
 
 What is  $\operatorname{Im}_F(C)$ ? What does it represent?
@@ -587,7 +587,7 @@ Solution: Define  $S = \{y \in \mathbb{R} \mid 32 < y < 212\}$ . (Notice that th
 It is hard to give advice about how to come up with claims like this, in general. Most often, this relies on some playing around with the function and testing some values, and perhaps some insight about some other properties of the function. In this specific case, we notice that this function is increasing; that is, if we have two input values with  $c_{1} < c_{2}$ , then we know that  $F(c_{1}) < F(c_{2})$ . We can glean this information from the graph of the function (see above) and/or recognizing it is a linear polynomial. Accordingly, to identify the image, we just have to consider the smallest and largest inputs and identify their outputs. (Again, we can glean this information from a graph.) We find that
 
 $$
-F (0) = 0 + 3 2 = 3 2 \quad \mathrm {a n d} \quad F (1 0 0) = \frac {9 0 0}{5} + 3 2 = 2 1 2
+F (0) = 0 + 3 2 = 3 2 \quad \mathrm{an d} \quad F (1 0 0) = \frac{9 0 0}{5} + 3 2 = 2 1 2
 $$
 
 From this, we defined the set  $S$ . (Also, notice that we had to use "<" in the inequality because, in fact,  $0 \notin C$ , the domain!) We also give this set a name so that we can refer to it later without implicitly claiming, already, that it is the image. This is a somewhat subtle distinction, but an important one! Now, let's prove our claim.
@@ -603,7 +603,7 @@ By the definition of  $C$ , we know  $0 < x < 100$ . By the definition of  $F$ ,
 $F(x) = \frac{9}{5} x + 32$ . Since multiplying by a positive number and adding to both sides preserves inequalities, we can deduce that
 
 $$
-\frac {9}{5} \cdot 0 + 3 2 <   F (x) <   \frac {9}{5} \cdot 1 0 0 + 3 2
+\frac{9}{5} \cdot 0 + 3 2 <   F (x) <   \frac{9}{5} \cdot 1 0 0 + 3 2
 $$
 
 and, simplifying, this tells u
@@ -625,7 +625,7 @@ Define  $c = \frac{5}{9} (s - 32)$
 Let's show  $c \in C$ . By using the information we have about  $s$  and manipulating the inequalities, we observe that
 
 $$
-\begin{array}{l} 3 2 <   s <   2 1 2 \Longrightarrow 0 <   s - 3 2 <   1 8 0 \\ \Longrightarrow 0 <   \frac {5}{9} (s - 3 2) <   \frac {5}{9} \cdot 1 8 0 = 1 0 0 \\ \Longrightarrow 0 <   c <   1 0 0 \\ \end{array}
+\begin{array}{l} 3 2 <   s <   2 1 2 \Longrightarrow 0 <   s - 3 2 <   1 8 0 \\ \Longrightarrow 0 <   \frac{5}{9} (s - 3 2) <   \frac{5}{9} \cdot 1 8 0 = 1 0 0 \\ \Longrightarrow 0 <   c <   1 0 0 \\ \end{array}
 $$
 
 Since  $c\in \mathbb{R}$ , certainly, this shows that  $c\in C$
@@ -633,7 +633,7 @@ Since  $c\in \mathbb{R}$ , certainly, this shows that  $c\in C$
 Next, let's show that  $F(c) = s$ . We observe that
 
 $$
-\begin{array}{l} F (c) = \frac {9}{5} c + 3 2 = \frac {9}{5} \left(\frac {5}{9} (s - 3 2)\right) + 3 2 \\ = (s - 3 2) + 3 2 = s \\ \end{array}
+\begin{array}{l} F (c) = \frac{9}{5} c + 3 2 = \frac{9}{5} \left(\frac{5}{9} (s - 3 2)\right) + 3 2 \\ = (s - 3 2) + 3 2 = s \\ \end{array}
 $$
 
 Together, this shows that  $s \in \operatorname{Im}_F(C)$ , as well. Thus,  $S \subseteq \operatorname{Im}_F(C)$ .
@@ -643,7 +643,7 @@ Overall, by a double-containment argument, we conclude that  $S = \operatorname{
 The second half of our proof is certainly the harder part, and this is generally true of proofs like this. In coming up with a candidate  $c$ , we essentially have to "undo" the process that the function  $F$  does and find an input  $c$  for our given output  $s$ . In a case like this, where the function is a numerical/arithmetical operation on real numbers, the best route is to set up the desired equality, like
 
 $$
-\frac {9}{5} c + 3 2 = s
+\frac{9}{5} c + 3 2 = s
 $$
 
 and solve the equality for  $c$ . This function is linear, so this process only produces one such  $s$  but, in general, we might expect multiple values of  $s$  to work. Ultimately, we only need one working value to complete this part of the proof, so we can just select any one that works and use that as our claim. Sometimes, though, this makes it harder to find such a value. It all depends on the example at hand. Other times, we might be working with functions that aren't defined on sets of numbers, and we have to use some more abstract insight to come up with a candidate element. Again, this all depends on the given situation, and with practice, you'll become much better at it!
@@ -655,7 +655,7 @@ Let's look at another example of proving the image of a function is a particular
 Example 7.3.4. Define  $f:\mathbb{R}\to \mathbb{R}$  by
 
 $$
-\forall x \in \mathbb {R}. f (x) = \frac {x ^ {2}}{1 + x ^ {2}}
+\forall x \in \mathbb {R}. f (x) = \frac{x^{2}}{1 + x^{2}}
 $$
 
 Let's determine the image,  $\operatorname{Im}_f(\mathbb{R})$ , and prove our claim!
@@ -679,7 +679,7 @@ We now follow the same type of strategy we employed in the previous example. Bef
 In that part, we will be working with an arbitrary element  $y \in T$  and we will want to find an element  $x \in \mathbb{R}$  that satisfies  $f(x) = y$ . To find such an  $x$ , let's set up the equality and try to solve for  $x$ :
 
 $$
-\begin{array}{l} y = \frac {x ^ {2}}{1 + x ^ {2}} \iff (1 + x ^ {2}) y = x ^ {2} \\ \Longleftrightarrow y + y x ^ {2} - x ^ {2} = 0 \\ \Longleftrightarrow (y - 1) x ^ {2} = - y \\ \Longleftrightarrow x ^ {2} = \frac {y}{1 - y} \\ \end{array}
+\begin{array}{l} y = \frac{x^{2}}{1 + x^{2}} \iff (1 + x^{2}) y = x^{2} \\ \Longleftrightarrow y + y x^{2} - x^{2} = 0 \\ \Longleftrightarrow (y - 1) x^{2} = - y \\ \Longleftrightarrow x^{2} = \frac{y}{1 - y} \\ \end{array}
 $$
 
 Now what? Can we be assured  $\frac{y}{1 - y} \in \mathbb{R}$ , even? Can we be assured it's nonnegative, so that there exists such an  $x$ ? What about the fact that there might be two roots? Think about these potential issues and try to write your own version of this proof before reading on for ours!
@@ -711,7 +711,7 @@ Notice that  $y \geq 0$ , and  $y < 1$  implies  $-y > -1$  so  $1 - y > 0$ . Th
 Next, notice that  $x^{2} = \frac{y}{1 - y}$ , and so
 
 $$
-f (x) = \frac {x ^ {2}}{1 + x ^ {2}} = \frac {\frac {y}{1 - y}}{1 + \frac {y}{1 - y}} = \frac {\frac {y}{1 - y}}{\frac {(1 - y) + y}{1 - y}} = \frac {\frac {y}{1 - y}}{\frac {1}{1 - y}} = \frac {y}{1 - y} \cdot \frac {1 - y}{1} = \frac {y}{1} = y
+f (x) = \frac{x^{2}}{1 + x^{2}} = \frac{\frac{y}{1 - y}}{1 + \frac{y}{1 - y}} = \frac{\frac{y}{1 - y}}{\frac{(1 - y) + y}{1 - y}} = \frac{\frac{y}{1 - y}}{\frac{1}{1 - y}} = \frac{y}{1 - y} \cdot \frac{1 - y}{1} = \frac{y}{1} = y
 $$
 
 This shows that  $y \in \operatorname{Im}_f(\mathbb{R})$ , and so  $T \subseteq \operatorname{Im}_f(\mathbb{R})$ .
@@ -764,7 +764,7 @@ $$
 p (a, b) = p (v - 1, 1) = (v - 1) \cdot 1 + 1 = v - 1 + 1 = v
 $$
 
-Thus,  $p(a,b) = v$ , and so  $(a,b)\in \mathrm{Im}_p(N\times \mathbb{N})$ . Therefore,  $V\subseteq \operatorname {Im}_p(\mathbb{N}\times \mathbb{N})$
+Thus,  $p(a,b) = v$ , and so  $(a,b)\in \mathrm{Im}_p(N\times \mathbb{N})$ . Therefore,  $V\subseteq \operatorname{Im}_p(\mathbb{N}\times \mathbb{N})$
 
 By a double-containment proof, we have shown  $V = \operatorname{Im}_p(\mathbb{N} \times \mathbb{N})$ .
 
@@ -777,7 +777,7 @@ You might have observed the following fact by playing around with some of the ex
 Proposition 7.3.6. Let  $A, B$  be sets. Let  $f: A \to B$  be a function. Let  $S, T \subseteq A$ . Then,
 
 $$
-\operatorname {I m} _ {f} (S \cap T) \subseteq \operatorname {I m} _ {f} (S) \cap \operatorname {I m} _ {f} (T)
+\operatorname{Im}_{f} (S \cap T) \subseteq \operatorname{Im}_{f} (S) \cap \operatorname{Im}_{f} (T)
 $$
 
 Proof. Let  $z \in \operatorname{Im}_f(S \cap T)$  be arbitrary and fixed. This means  $\exists a \in S \cap T$  such that  $f(a) = z$ . Let such an  $a$  be given.
@@ -861,7 +861,7 @@ Definition 7.3.8. Let  $A, B$  be sets and let  $f: A \to B$  be a function. Let
 The pre-image of  $Y$  under the function  $f$  is written and defined as
 
 $$
-\operatorname {P r e I m} _ {f} (Y) = \left\{a \in A \mid f (a) \in Y \right\}
+\operatorname{Pr eI m}_{f} (Y) = \left\{a \in A \mid f (a) \in Y \right\}
 $$
 
 That is, the pre-image of  $Y$  under  $f$  is the set of all "inputs" that produce an "output" in  $Y$ .
@@ -922,7 +922,7 @@ Notice that the following claim is one of equality. Compare this to Proposition 
 Proposition 7.3.11. Let  $A, B$  be sets. Let  $f: A \to B$  be a function. Let  $X, Y \subseteq B$ . Then,
 
 $$
-\operatorname {P r e I m} _ {f} (X \cap Y) = \operatorname {P r e I m} _ {f} (X) \cap \operatorname {P r e I m} _ {f} (Y)
+\operatorname{Pr eI m}_{f} (X \cap Y) = \operatorname{Pr eI m}_{f} (X) \cap \operatorname{Pr eI m}_{f} (Y)
 $$
 
 Notice how the proof below appeals directly to the formal definition of preimages. We will jump right in and prove both parts. The exercises will ask you to investigate this claim with " $\cup$ " instead of " $\cap$ ".
@@ -960,7 +960,7 @@ Let's work on one result that involves both of the concepts we have introduced i
 Proposition 7.3.12. Let  $A, B$  be sets. Let  $f: A \to B$  be a function. Let  $Y \subseteq B$ . Then,
 
 $$
-\operatorname {I m} _ {f} \big (\operatorname {P r e} \operatorname {I m} _ {f} (Y) \big) \subseteq Y
+\operatorname{Im}_{f} \big (\operatorname{Pr e} \operatorname{Im}_{f} (Y) \big) \subseteq Y
 $$
 
 Proof. Let  $b \in \mathrm{Im}_f\big(\mathrm{Pre}\mathrm{Im}_f(Y)\big)$  be arbitrary and fixed.
@@ -1012,7 +1012,7 @@ Prove that  $\operatorname{PreIm}_h(P) = U$ .
 (4) Look back at Proposition 7.3.12. Consider the reverse containment:
 
 $$
-\operatorname {I m} _ {f} \left(\operatorname {P r e} \operatorname {I m} _ {f} (Y)\right) \supseteq Y
+\operatorname{Im}_{f} \left(\operatorname{Pr e} \operatorname{Im}_{f} (Y)\right) \supseteq Y
 $$
 
 Disprove the claim that this holds for any function  $f: A \to B$  and any  $Y \subseteq B$  by constructing a specific counterexample and proving that it works.
@@ -1034,7 +1034,7 @@ Equivalently, we just say "  $f$  is surjective" (adjunctival form), or that "  
 Referring back to the definition of image, we can state this property equivalently in the form of a quantified statement:
 
 $$
-f \text {i s} \quad \text {s u r j e c t i v e} \Longleftrightarrow \forall b \in B. \exists a \in A. f (a) = b
+f \text{is} \quad \text{su rj ec ti ve} \Longleftrightarrow \forall b \in B. \exists a \in A. f (a) = b
 $$
 
 That is,  $f$  is surjective if and only if every output has at least one corresponding input.
@@ -1108,7 +1108,7 @@ In either case, we are able to define  $(a,b)\in \mathbb{N}\times \mathbb{N}$ . 
 Example 7.4.5. Let  $g: \mathbb{R} - \{-1\} \to \mathbb{R}$  be the function defined by
 
 $$
-\forall x \in \mathbb {R}. g (x) = \frac {x}{1 + x}
+\forall x \in \mathbb {R}. g (x) = \frac{x}{1 + x}
 $$
 
 (Notice why we have removed  $-1$  from the domain. This ensures  $g$  is a well-defined function!)
@@ -1136,7 +1136,7 @@ By multiplying this inequality by the negative term  $\frac{1}{x + 1}$  and swit
 In either case  $g(x) \neq 1$ . These cases cover all possibilities because  $x \in \mathbb{R} - \{-1\}$  was arbitrary (and we need not consider  $x = -1$ ). This shows
 
 $$
-1 \notin \operatorname {I m} _ {g} (\mathbb {R} - \{- 1 \})
+1 \notin \operatorname{Im}_{g} (\mathbb {R} - \{- 1 \})
 $$
 
 so  $g$  is not a surjection.
@@ -1148,7 +1148,7 @@ Notice that this first proof proves an interesting qualitative observation about
 Proof 2 (Contradiction). AFSOC that  $g$  is surjective. This means
 
 $$
-\forall y \in \mathbb {R}. y \in \operatorname {I m} _ {g} (\mathbb {R} - \{- 1 \})
+\forall y \in \mathbb {R}. y \in \operatorname{Im}_{g} (\mathbb {R} - \{- 1 \})
 $$
 
 In particular, then, we know  $1 \in \operatorname{Im}_g(\mathbb{R} - \{-1\})$ , so  $\exists x \in \mathbb{R} - \{-1\} \cdot g(x) = 1$ . Let such an  $x$  be given.
@@ -1170,7 +1170,7 @@ When trying to prove a function is surjective, we took an arbitrary element of t
 Definition 7.4.6. Let  $A, B$  be sets and let  $f: A \to B$  be a function. We say  $f$  is an injective function if and only if it has the property that
 
 $$
-\forall a _ {1}, a _ {2} \in A. a _ {1} \neq a _ {2} \Rightarrow f (a _ {1}) \neq f (a _ {2})
+\forall a_{1}, a_{2} \in A. a_{1} \neq a_{2} \Rightarrow f (a_{1}) \neq f (a_{2})
 $$
 
 Equivalently, we just say "  $f$  is injective" (adjunctival form), or that "  $f$  is an injection" (nounal form).
@@ -1182,7 +1182,7 @@ In other words, this defining property requires that "distinct inputs yield dist
 outputs". Also, remembering that the contrapositive of a statement is logically equivalent, we can express this property as
 
 $$
-\forall a _ {1}, a _ {2} \in A. f (a _ {1}) = f (a _ {2}) \Rightarrow a _ {1} = a _ {2}
+\forall a_{1}, a_{2} \in A. f (a_{1}) = f (a_{2}) \Rightarrow a_{1} = a_{2}
 $$
 
 This expresses the equivalent notion that "if two outputs are equal, they must come from the same input".
@@ -1198,7 +1198,7 @@ Let's motivate this by a particular application of functions. Think of a functio
 It might be helpful to think about the property of being an injection in terms of a schematic diagram, and in terms of the negation of the definition. Let's find that negation first:
 
 $$
-\begin{array}{l} \neg \left(\forall a _ {1}, a _ {2} \in A. a _ {1} \neq a _ {2} \Rightarrow f (a _ {1}) \neq f (a _ {2})\right) \\ \Longleftrightarrow \left(\exists a _ {1}, a _ {2} \in A. a _ {1} \neq a _ {2} \wedge f (a _ {1}) = f (a _ {2})\right) \\ \end{array}
+\begin{array}{l} \neg \left(\forall a_{1}, a_{2} \in A. a_{1} \neq a_{2} \Rightarrow f (a_{1}) \neq f (a_{2})\right) \\ \Longleftrightarrow \left(\exists a_{1}, a_{2} \in A. a_{1} \neq a_{2} \wedge f (a_{1}) = f (a_{2})\right) \\ \end{array}
 $$
 
 (Remember that the negation of  $P \Rightarrow Q$  is  $P \land \neg Q!$ )
@@ -1244,7 +1244,7 @@ Consider the pairs  $(2,1) \in \mathbb{N} \times \mathbb{N}$  and  $(3,2) \in \m
 Example 7.4.10. Let  $F:\mathcal{P}(\mathbb{N})\to \mathcal{P}(\mathbb{Z})$  be defined by
 
 $$
-\forall X \in \mathcal {P} (\mathbb {N}). F (X) = \bigcup_ {a \in X} \{a, - a \}
+\forall X \in \mathcal {P} (\mathbb {N}). F (X) = \bigcup_{a \in X} \{a, - a \}
 $$
 
 Do you see what this function does? (Can you explain why it's even a well-defined function?)
@@ -1252,11 +1252,11 @@ Do you see what this function does? (Can you explain why it's even a well-define
 Let's show you a few examples to give you an idea:
 
 $$
-\begin{array}{l} F \big (\{1 \} \big) = \bigcup_ {a \in \{1 \}} \{a, - a \} = \{- 1, 1 \} \\ F\big(\{1,3,5\} \big) = \bigcup_ {a \in \{1,3,5 \}} \{a, - a \} = \{- 1,1 \} \cup \{- 3,3 \} \cup \{- 5,5 \} \\ = \{- 5, - 3, - 1, 1, 3, 5 \} \\ \end{array}
+\begin{array}{l} F \big (\{1 \} \big) = \bigcup_{a \in \{1 \}} \{a, - a \} = \{- 1, 1 \} \\ F\big(\{1,3,5\} \big) = \bigcup_{a \in \{1,3,5 \}} \{a, - a \} = \{- 1,1 \} \cup \{- 3,3 \} \cup \{- 5,5 \} \\ = \{- 5, - 3, - 1, 1, 3, 5 \} \\ \end{array}
 $$
 
 $$
-F (\varnothing) = \bigcup_ {a \in \varnothing} \{- a, a \} = \varnothing
+F (\varnothing) = \bigcup_{a \in \varnothing} \{- a, a \} = \varnothing
 $$
 
 $$
@@ -1362,7 +1362,7 @@ We proved that  $d$  is surjective but not injective, so it is not a bijection.
 (c) Let  $g:\mathbb{R} - \{-1\} \to \mathbb{R}$  be the function defined by
 
 $$
-\forall x \in \mathbb {R}. g (x) = \frac {x}{1 + x}
+\forall x \in \mathbb {R}. g (x) = \frac{x}{1 + x}
 $$
 
 We proved that  $g$  is not surjective. (Specifically, we showed  $1 \notin \operatorname{Im}_g(\mathbb{R} - \{-1\})$ .) We will ask you in this section's exercises to prove that  $g$  is an injection, though. Together this means  $g$  is not a bijection.
@@ -1436,7 +1436,7 @@ Then, prove that  $f$  need not be surjective by defining an increasing function
 (2) Let  $g: \mathbb{R} - \{-1\} \to \mathbb{R}$  be the function defined by
 
 $$
-\forall x \in \mathbb {R}. g (x) = \frac {x}{1 + x}
+\forall x \in \mathbb {R}. g (x) = \frac{x}{1 + x}
 $$
 
 Is  $g$  injective or not? Prove your claim.
@@ -1534,7 +1534,7 @@ $$
 Let  $F:\mathbb{R}\to \mathbb{R}$  be defined by
 
 $$
-\forall x \in \mathbb {R}. F (x) = \frac {9}{5} x + 3 2
+\forall x \in \mathbb {R}. F (x) = \frac{9}{5} x + 3 2
 $$
 
 The function  $C$  converts a temperature from degrees Kelvin to degrees Celsius. The function  $F$  converts from degrees Celsius to degrees Fahrenheit.
@@ -1544,7 +1544,7 @@ Then the function  $F \circ C$  converts from degrees Kelvin to degrees Fahrenhe
 directly. We can compose the "rules" for the functions and find a formula for this direct conversion:
 
 $$
-\begin{array}{l} \forall x \in \mathbb {R}. (F \circ C) (x) = F (C (x)) = F (x - 2 7 3. 1 5) \\ = \frac {9}{5} \cdot (x - 2 7 3. 1 5) + 3 2 = \frac {9}{5} x - 4 5 9. 6 7 \\ \end{array}
+\begin{array}{l} \forall x \in \mathbb {R}. (F \circ C) (x) = F (C (x)) = F (x - 2 7 3. 1 5) \\ = \frac{9}{5} \cdot (x - 2 7 3. 1 5) + 3 2 = \frac{9}{5} x - 4 5 9. 6 7 \\ \end{array}
 $$
 
 Example 7.5.3. Let  $f: \mathbb{R} \to \mathbb{Z}$  be the function defined by
@@ -1556,13 +1556,13 @@ $$
 (Recall that  $\lfloor x\rfloor$  is the floor of  $x$ : it is the largest integer  $z\in \mathbb{Z}$  that satisfies  $z\leq x$ . Let  $g:\mathbb{Z}\to \mathbb{N}$  be the function defined by
 
 $$
-\forall z \in \mathbb {Z}. g (z) = \left\{ \begin{array}{l l} - z & \text {i f} z <   0 \\ z + 1 & \text {i f} z \geq 0 \end{array} \right.
+\forall z \in \mathbb {Z}. g (z) = \left\{ \begin{array}{l l} - z & \text{if } z <   0 \\ z + 1 & \text{if } z \geq 0 \end{array} \right.
 $$
 
 Let's find  $g \circ f$ . Notice that whenever  $x \in \mathbb{R}$  satisfies  $x < 0$ , we will have  $\lfloor x \rfloor x < 0$ , as well. Similarly, whenever  $x \in \mathbb{R}$  satisfies  $x \geq 0$ , we will have  $\lfloor x \rfloor \geq 0$ . This tells us that the composition  $g \circ f$  will also be a piece-wise function:
 
 $$
-\forall x \in \mathbb {R} _ {\bullet} (g \circ f) (x) = \left\{ \begin{array}{l l} - \lfloor x \rfloor & \text {i f} x <   0 \\ \lfloor x \rfloor + 1 & \text {i f} x \geq 0 \end{array} \right.
+\forall x \in \mathbb {R}_{\bullet} (g \circ f) (x) = \left\{ \begin{array}{l l} - \lfloor x \rfloor & \text{if } x <   0 \\ \lfloor x \rfloor + 1 & \text{if } x \geq 0 \end{array} \right.
 $$
 
 Questions: Is this function injective? Surjective? Try to prove your claims!
@@ -1570,7 +1570,7 @@ Questions: Is this function injective? Surjective? Try to prove your claims!
 Example 7.5.4. Define  $f: \mathbb{N} \to \mathbb{N}$  and  $g: \mathbb{N} \to \mathbb{N}$  and  $h: \mathbb{N} \to \mathbb{N}$  by
 
 $$
-\begin{array}{l} \forall n \in \mathbb {N}. f (n) = n + 3 \\ \forall n \in \mathbb {N}. g (n) = n ^ {2} \\ \forall n \in \mathbb {N}. h (n) = 2 n - 1 \\ \end{array}
+\begin{array}{l} \forall n \in \mathbb {N}. f (n) = n + 3 \\ \forall n \in \mathbb {N}. g (n) = n^{2} \\ \forall n \in \mathbb {N}. h (n) = 2 n - 1 \\ \end{array}
 $$
 
 (Question: Are you sure these are well-defined functions? Why?)
@@ -1578,19 +1578,19 @@ $$
 We can find "rules" for the compositions  $g \circ f$  and  $h \circ f$ :
 
 $$
-\begin{array}{l} \forall n \in \mathbb {N}. (g \circ f) (n) = g (f (n)) = g (n + 3) = (n + 3) ^ {2} = n ^ {2} + 6 n + 9 \\ \forall n \in \mathbb {N}. (h \circ g) (n) = h (g (n)) = h \left(n ^ {2}\right) = 2 n ^ {2} - 1 \\ \end{array}
+\begin{array}{l} \forall n \in \mathbb {N}. (g \circ f) (n) = g (f (n)) = g (n + 3) = (n + 3)^{2} = n^{2} + 6 n + 9 \\ \forall n \in \mathbb {N}. (h \circ g) (n) = h (g (n)) = h \left(n^{2}\right) = 2 n^{2} - 1 \\ \end{array}
 $$
 
 We can then use these to find a rule for a further composition, like  $h \circ (g \circ f)$ :
 
 $$
-\begin{array}{l} \forall n \in \mathbb {N}. (h \circ (g \circ f)) (n) = h ((g \circ f) (n)) = h (n ^ {2} + 6 n + 9) \\ = 2 \left(n ^ {2} + 6 n + 9\right) - 1 = 2 n ^ {2} + 1 2 n + 1 7 \\ \end{array}
+\begin{array}{l} \forall n \in \mathbb {N}. (h \circ (g \circ f)) (n) = h ((g \circ f) (n)) = h (n^{2} + 6 n + 9) \\ = 2 \left(n^{2} + 6 n + 9\right) - 1 = 2 n^{2} + 1 2 n + 1 7 \\ \end{array}
 $$
 
 Likewise, we can use these to find a rule for  $(h\circ g)\circ f$  ..
 
 $$
-\begin{array}{l} \forall n \in \mathbb {N}. \left(\left(h \circ g\right) \circ f\right) (n) = \left(h \circ g\right) (f (n)) = (h \circ g) (n + 3) \\ = 2 (n + 3) ^ {2} - 1 = 2 \left(n ^ {2} + 6 n + 9\right) - 1 \\ = 2 n ^ {2} + 1 2 n + 1 7 \\ \end{array}
+\begin{array}{l} \forall n \in \mathbb {N}. \left(\left(h \circ g\right) \circ f\right) (n) = \left(h \circ g\right) (f (n)) = (h \circ g) (n + 3) \\ = 2 (n + 3)^{2} - 1 = 2 \left(n^{2} + 6 n + 9\right) - 1 \\ = 2 n^{2} + 1 2 n + 1 7 \\ \end{array}
 $$
 
 Look at that, they're the same rule! That is, we just proved that
@@ -1700,7 +1700,7 @@ Let's look back at a function we saw before when we discussed bijections. With y
 Example 7.5.9. Let  $h: \mathbb{R} - \{-1\} \to \mathbb{R} - \{1\}$  be defined by
 
 $$
-\forall x \in \mathbb {R} - \{- 1 \}. h (x) = \frac {x}{1 + x}
+\forall x \in \mathbb {R} - \{- 1 \}. h (x) = \frac{x}{1 + x}
 $$
 
 To find a candidate function that will be the inverse of  $h$ , it usually helps to set the "rule" for  $h$  equal to some new variable, and then solve for  $x$ .
@@ -1708,7 +1708,7 @@ To find a candidate function that will be the inverse of  $h$ , it usually helps
 Here, let's say  $h(x) = y$ . How can we "reverse" this process and identify what  $x$  is, in terms of  $y$ ? Observe that we can make some algebraic steps, as follows:
 
 $$
-\begin{array}{l} h (x) = y \Longleftrightarrow \frac {x}{1 + x} = y \\ \Longleftrightarrow (1 + x) y = x \\ \Longleftrightarrow x y + y = x \\ \Longleftrightarrow y = x (1 - y) \\ \Longleftrightarrow x = \frac {y}{1 - y} \\ \end{array}
+\begin{array}{l} h (x) = y \Longleftrightarrow \frac{x}{1 + x} = y \\ \Longleftrightarrow (1 + x) y = x \\ \Longleftrightarrow x y + y = x \\ \Longleftrightarrow y = x (1 - y) \\ \Longleftrightarrow x = \frac{y}{1 - y} \\ \end{array}
 $$
 
 This scratch work has given us a candidate for the inverse of  $h$ . We haven't proven anything with these observations! What we have to do now is make a claim and then demonstrate, for the reader, all of the essential facts. Notice that we took care to define a new function  $H$ , and used it to prove that  $H = h^{-1}$ , in fact. It would be presumptuous and erroneous to define  $h^{-1}$  and then work with it. We are trying to show  $h$  has an inverse, so we can't just declare it has one at the beginning of our proof!
@@ -1724,13 +1724,13 @@ Furthermore, we can argue that  $\frac{y}{1 - y} \neq -1$ . AFSOC that  $\frac{y
 Second, let's show that  $H \circ h = \operatorname{Id}_S$ . Let  $x \in S$  be given. Observe that
 
 $$
-\begin{array}{l} (H \circ h) (x) = H (h (x)) = H \left(\frac {x}{1 + x}\right) \\ = \frac {\frac {x}{1 + x}}{1 - \frac {x}{1 + x}} \cdot \frac {1 + x}{1 + x} = \frac {x}{(1 + x) - x} \\ = \frac {x}{1} = x \\ \end{array}
+\begin{array}{l} (H \circ h) (x) = H (h (x)) = H \left(\frac{x}{1 + x}\right) \\ = \frac{\frac{x}{1 + x}}{1 - \frac{x}{1 + x}} \cdot \frac{1 + x}{1 + x} = \frac{x}{(1 + x) - x} \\ = \frac{x}{1} = x \\ \end{array}
 $$
 
 Third, let's show that  $h \circ H = \operatorname{Id}_T$ . Let  $y \in T$  be given. Observe that
 
 $$
-\begin{array}{l} (h \circ H) (y) = h (H (y)) = h \left(\frac {y}{1 - y}\right) \\ = \frac {\frac {y}{1 - y}}{1 + \frac {y}{1 - y}} \cdot \frac {1 - y}{1 - y} = \frac {y}{(1 + y) - y} \\ = \frac {y}{1} = y \\ \end{array}
+\begin{array}{l} (h \circ H) (y) = h (H (y)) = h \left(\frac{y}{1 - y}\right) \\ = \frac{\frac{y}{1 - y}}{1 + \frac{y}{1 - y}} \cdot \frac{1 - y}{1 - y} = \frac{y}{(1 + y) - y} \\ = \frac{y}{1} = y \\ \end{array}
 $$
 
 Therefore, by the definition of inverse,  $H = h^{-1}$
@@ -1742,7 +1742,7 @@ Therefore, by the definition of inverse,  $H = h^{-1}$
 Let's say  $f: A \to B$  is a function, and you have made a claim about  $f$  having an inverse by defining a function  $g: B \to A$ . It is extremely important that you show both compositions yield the identity function; that is, you must show both
 
 $$
-f \circ g = \operatorname {I d} _ {B} \quad \text {a n d} \quad g \circ f = \operatorname {I d} _ {A}
+f \circ g = \operatorname{Id}_{B} \quad \text{an d} \quad g \circ f = \operatorname{Id}_{A}
 $$
 
 You might occasionally forget to do so, or you just might not see why this is necessary. To help you understand this importance, we have included Exercise
@@ -1756,7 +1756,7 @@ As we have been hinting at all along, a bijective function has an inverse. This 
 Theorem 7.5.10. Let  $A, B$  be any sets. Let  $f: A \to B$  be a function. Then,
 
 $$
-f \text {i s b i j e c t i v e} \iff f \text {h a s a n i n v e r s e} f ^ {- 1}: B \to A
+f \text{is bi je ct iv e} \iff f \text{ha sa ni nv er se} f^{- 1}: B \to A
 $$
 
 Proof. (  $\Rightarrow$  ) Assume  $f$  is bijective. This means  $f$  is surjective and injective.
@@ -1780,7 +1780,7 @@ $(\Longleftarrow)$  Assume  $f$  has an inverse function,  $f^{-1}:B\to A$
 First, let's show  $f$  is injective. Let  $a_1, a_2 \in A$  be given. Observe that
 
 $$
-\begin{array}{l} f (a _ {1}) = f (a _ {2}) \Longrightarrow f ^ {- 1} (f (a _ {1})) = f ^ {- 1} (f (a _ {2})) \quad f ^ {- 1}: B \to A \text {i s a f u n c t i o n} \\ \Longrightarrow (f ^ {- 1} \circ f) (a _ {1}) = (f ^ {- 1} \circ f) (a _ {2}) \quad \text {d e f i n i t i o n o f c o m p o s i t i o n} \\ \Longrightarrow \operatorname {I d} _ {A} (a _ {1}) = \operatorname {I d} _ {A} (a _ {2}) \quad \text {d e f i n i t i o n o f i d e n t i t y} \\ \Longrightarrow a _ {1} = a _ {2} \quad \text {d e f i n i t i o n o f i d e n t i t y} \\ \end{array}
+\begin{array}{l} f (a_{1}) = f (a_{2}) \Longrightarrow f^{- 1} (f (a_{1})) = f^{- 1} (f (a_{2})) \quad f^{- 1}: B \to A \text{is af un ct io n} \\ \Longrightarrow (f^{- 1} \circ f) (a_{1}) = (f^{- 1} \circ f) (a_{2}) \quad \text{de fi ni ti on of co mp os it io n} \\ \Longrightarrow \operatorname{Id}_{A} (a_{1}) = \operatorname{Id}_{A} (a_{2}) \quad \text{de fi ni ti on of id en ti ty} \\ \Longrightarrow a_{1} = a_{2} \quad \text{de fi ni ti on of id en ti ty} \\ \end{array}
 $$
 
 Thus,  $f$  is injective.
@@ -1790,7 +1790,7 @@ Second, let's show  $f$  surjective. Let  $b \in B$  be given. Since  $f^{-1}$  
 a.
 
 $$
-\begin{array}{l} f ^ {- 1} (b) = a \Longrightarrow f \left(f ^ {- 1} (b)\right) = f (a) \quad f: A \rightarrow B \text {i s a f u n c t i o n} \\ \Longrightarrow (f \circ f ^ {- 1}) (b) = f (a) \quad \text {d e f i n i t i o n o f c o m p o s i t i o n} \\ \Longrightarrow \operatorname {I d} _ {B} (b) = f (a) \quad \text {d e f i n i t i o n o f i d e n t i t y} \\ \Rightarrow b = f (a) \quad \text {d e f i n i t i o n o f i d e n t i t y} \\ \end{array}
+\begin{array}{l} f^{- 1} (b) = a \Longrightarrow f \left(f^{- 1} (b)\right) = f (a) \quad f: A \rightarrow B \text{is af un ct io n} \\ \Longrightarrow (f \circ f^{- 1}) (b) = f (a) \quad \text{de fi ni ti on of co mp os it io n} \\ \Longrightarrow \operatorname{Id}_{B} (b) = f (a) \quad \text{de fi ni ti on of id en ti ty} \\ \Rightarrow b = f (a) \quad \text{de fi ni ti on of id en ti ty} \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ecbf1fa0-5400-4650-b5f0-4ac2f3f54595/772795aaec5896b0f227300b677585c05afe23dfb9687ca6e6024079a289e80c.jpg)
@@ -1870,7 +1870,7 @@ Prove that  $g$  is a bijection by finding  $g^{-1}$
 (4) Define the function  $f: \mathbb{Z} \to \mathbb{N}$  by
 
 $$
-\forall z \in \mathbb {Z}. f (z) = \left\{ \begin{array}{l l} - 2 z + 2 & \text {i f} z \leq 0 \\ 2 z - 1 & \text {i f} z > 0 \end{array} \right.
+\forall z \in \mathbb {Z}. f (z) = \left\{ \begin{array}{l l} - 2 z + 2 & \text{if } z \leq 0 \\ 2 z - 1 & \text{if } z > 0 \end{array} \right.
 $$
 
 Prove that  $f$  is a bijection by finding  $f^{-1}$ .
@@ -2051,7 +2051,7 @@ WWTS  $|A \cup B| = |A| + |B| = a + b$ ; that is, WWTS there is a bijection  $h:
 Define the function  $h: A \cup B \to [a + b]$  by
 
 $$
-\forall x \in A \cup B. \quad h (x) = \left\{ \begin{array}{l l} f (x) & \text {i f} x \in A \\ g (x) + a & \text {i f} x \in B \end{array} \right.
+\forall x \in A \cup B. \quad h (x) = \left\{ \begin{array}{l l} f (x) & \text{if } x \in A \\ g (x) + a & \text{if } x \in B \end{array} \right.
 $$
 
 Notice that  $h$  is well-defined because  $A \cap B = \emptyset$ , so every  $x \in A \cup B$  satisfies  $x \in A$  or  $x \in B$  and certainly not both. Also,  $1 \leq h(x) \leq a$  for every  $x \in A$ , and  $a + 1 \leq h(x) \leq a + b$  for every  $x \in B$ , so  $h(x) \in [a + b]$  for every  $x$  in the domain of  $h$ .
@@ -2059,7 +2059,7 @@ Notice that  $h$  is well-defined because  $A \cap B = \emptyset$ , so every  $x
 We claim that the function  $H:[a + b]\to A\cup B$ , defined by
 
 $$
-\forall y \in [ a + b ]. \quad H (y) = \left\{ \begin{array}{l l} f ^ {- 1} (y) & \text {i f} 1 \leq y \leq a \\ g ^ {- 1} (y - a) & \text {i f} a + 1 \leq y \leq a + b \end{array} \right.
+\forall y \in [ a + b ]. \quad H (y) = \left\{ \begin{array}{l l} f^{- 1} (y) & \text{if } 1 \leq y \leq a \\ g^{- 1} (y - a) & \text{if } a + 1 \leq y \leq a + b \end{array} \right.
 $$
 
 is the inverse of  $h$ . If this holds, then we have proven that  $h$  is a bijection.
@@ -2071,7 +2071,7 @@ Let's show that  $h \circ H = \operatorname{Id}_{[a + b]}$ . Let  $y \in [a + b]
 (1) Suppose  $1 \leq y \leq a$ ; that is, suppose  $y \in [a]$ . Then,
 
 $$
-(h \circ H) (y) = h (H (y)) = h \left(f ^ {- 1} (y)\right) = f \left(f ^ {- 1} (y)\right) = \operatorname {I d} _ {[ a ]} (y) = y
+(h \circ H) (y) = h (H (y)) = h \left(f^{- 1} (y)\right) = f \left(f^{- 1} (y)\right) = \operatorname{Id}_{[ a ]} (y) = y
 $$
 
 where we used the fact  $f^{-1}(y) \in A$ .
@@ -2079,7 +2079,7 @@ where we used the fact  $f^{-1}(y) \in A$ .
 (2) Suppose  $a + 1 \leq y \leq b$ ; that is, suppose  $y - a \in [b]$ . Then,
 
 $$
-\begin{array}{l} (h \circ H) (y) = h (H (y)) = h (g ^ {- 1} (y - a)) = g (g ^ {- 1} (y - a)) + a \\ = \operatorname {I d} _ {[ b ]} (y - a) + a = (y - a) + a = y \\ \end{array}
+\begin{array}{l} (h \circ H) (y) = h (H (y)) = h (g^{- 1} (y - a)) = g (g^{- 1} (y - a)) + a \\ = \operatorname{Id}_{[ b ]} (y - a) + a = (y - a) + a = y \\ \end{array}
 $$
 
 where we used the fact that  $g^{-1}(y - a)\in B$
@@ -2091,7 +2091,7 @@ Next, let's show that  $H \circ h = \operatorname{Id}_{A \cup B}$ . Let  $x \in 
 (1) Suppose  $x \in A$ . Then,
 
 $$
-(H \circ h) (x) = H (h (x)) = H (f (x)) = f ^ {- 1} (f (x)) = \operatorname {I d} _ {A} (x) = A
+(H \circ h) (x) = H (h (x)) = H (f (x)) = f^{- 1} (f (x)) = \operatorname{Id}_{A} (x) = A
 $$
 
 where we used the fact that  $f(x) \in [a]$ .
@@ -2099,7 +2099,7 @@ where we used the fact that  $f(x) \in [a]$ .
 (2) Suppose  $x \in B$ . Then,
 
 $$
-\begin{array}{l} (H \circ h) (x) = H (h (x)) = H \big (g (x) + a \big) = g ^ {- 1} \left(\big (g (x) + a \big) - a\right) \\ = g ^ {- 1} (g (x)) = \operatorname {I d} _ {B} (x) = x \\ \end{array}
+\begin{array}{l} (H \circ h) (x) = H (h (x)) = H \big (g (x) + a \big) = g^{- 1} \left(\big (g (x) + a \big) - a\right) \\ = g^{- 1} (g (x)) = \operatorname{Id}_{B} (x) = x \\ \end{array}
 $$
 
 where we have used the fact that  $g(x) \in [b]$  so  $a + 1 \leq g(x) + a \leq a + b$ .
@@ -2269,7 +2269,7 @@ Let's define a function  $f: \mathbb{Z} \to \mathbb{N}$  and then prove it is a 
 Explicit bijection: We choose to define  $f:\mathbb{Z}\to \mathbb{N}$  by setting
 
 $$
-\forall z \in \mathbb {Z}. f (z) = \left\{ \begin{array}{l l} - 2 z + 2 & \text {i f} z \leq 0 \\ 2 z - 1 & \text {i f} z > 0 \end{array} \right.
+\forall z \in \mathbb {Z}. f (z) = \left\{ \begin{array}{l l} - 2 z + 2 & \text{if } z \leq 0 \\ 2 z - 1 & \text{if } z > 0 \end{array} \right.
 $$
 
 We chose this function because it "pairs off" the integers with the natural numbers like this:
@@ -2283,7 +2283,7 @@ $$
 Next, Define  $F:\mathbb{N}\to \mathbb{Z}$  by
 
 $$
-F (n) = \left\{ \begin{array}{l l} - \frac {n}{2} + 1 & \text {i f n i s e v e n} \\ \frac {n + 1}{2} & \text {i f n i s o d d} \end{array} \right.
+F (n) = \left\{ \begin{array}{l l} - \frac{n}{2} + 1 & \text{if ni se ve n} \\ \frac{n + 1}{2} & \text{if ni so dd} \end{array} \right.
 $$
 
 Let's show  $F = f^{-1}$ . Let  $z \in \mathbb{Z}$  be given. We have two cases.
@@ -2291,13 +2291,13 @@ Let's show  $F = f^{-1}$ . Let  $z \in \mathbb{Z}$  be given. We have two cases.
 - Suppose  $z \geq 1$ . Then  $f(z) = 2z - 1$ . Notice that  $2z - 1 \in \mathbb{N}$  and  $2z - 1$  is odd. This means
 
 $$
-(F \circ f) (z) = F (f (z)) = F (2 z - 1) = \frac {(2 z - 1) + 1}{2} = \frac {2 z}{2} = z
+(F \circ f) (z) = F (f (z)) = F (2 z - 1) = \frac{(2 z - 1) + 1}{2} = \frac{2 z}{2} = z
 $$
 
 - Suppose  $z \leq 0$ . Then  $f(z) = -2z + 2$ . Notice that  $-2z \geq 0$  so  $-2z + 2 \geq 2$  so  $-2z + 2 \in \mathbb{N}$ . Also,  $-2z + 2$  is even. This means
 
 $$
-\begin{array}{l} (F \circ f) (z) = F (f (z)) = F (- 2 z + 2) = - \frac {- 2 z + 2}{2} + 1 \\ = - (- z + 1) + 1 = (z - 1) + 1 = z \\ \end{array}
+\begin{array}{l} (F \circ f) (z) = F (f (z)) = F (- 2 z + 2) = - \frac{- 2 z + 2}{2} + 1 \\ = - (- z + 1) + 1 = (z - 1) + 1 = z \\ \end{array}
 $$
 
 In either case,  $(F\circ f)(z) = z$  . This shows  $F\circ f = \mathrm{Id}_{\mathbb{Z}}$
@@ -2307,13 +2307,13 @@ Next, let  $n \in \mathbb{N}$ . We have two cases.
 Suppose  $n$  is even. Then  $F(n) = -\frac{n}{2} + 1$ . Notice that  $\frac{n}{2} \geq 1$  and so  $-\frac{n}{2} \leq -1 + 1 = 0$ . This means
 
 $$
-\begin{array}{l} (f \circ F) (n) = f (F (n)) = f \left(- \frac {n}{2} + 1\right) = - 2 \left(- \frac {n}{2} + 1\right) + 2 \\ = \left(\frac {2 n}{2} - 2\right) + 2 = n \\ \end{array}
+\begin{array}{l} (f \circ F) (n) = f (F (n)) = f \left(- \frac{n}{2} + 1\right) = - 2 \left(- \frac{n}{2} + 1\right) + 2 \\ = \left(\frac{2 n}{2} - 2\right) + 2 = n \\ \end{array}
 $$
 
 - Suppose  $n$  is odd. Then  $F(n) = \frac{n + 1}{2}$ . Notice that  $n + 1 \geq 2$  and so  $\frac{n + 1}{2} \geq 1$ . This means
 
 $$
-\begin{array}{l} (f \circ F) (n) = f (F (n)) = f \left(\frac {n + 1}{2}\right) = 2 \left(\frac {n + 1}{2}\right) - 1 = \frac {2 n + 2}{2} - 1 \\ = (n + 1) - 1 = n \\ \end{array}
+\begin{array}{l} (f \circ F) (n) = f (F (n)) = f \left(\frac{n + 1}{2}\right) = 2 \left(\frac{n + 1}{2}\right) - 1 = \frac{2 n + 2}{2} - 1 \\ = (n + 1) - 1 = n \\ \end{array}
 $$
 
 In either case,  $(f\circ F)(n) = n$ . This shows  $f\circ F = \mathrm{Id}_{\mathbb{N}}$ . Therefore,  $F = f^{-1}$ .
@@ -2331,7 +2331,7 @@ Rather than finding its inverse, though, we will prove it is surjective, and ask
 Explicit bijection: Define  $f:\mathbb{N}\times \mathbb{N}\to \mathbb{N}$  by setting
 
 $$
-\forall (x, y) \in \mathbb {N} \times \mathbb {N}. \quad f (x, y) = 2 ^ {x - 1} (2 y - 1)
+\forall (x, y) \in \mathbb {N} \times \mathbb {N}. \quad f (x, y) = 2^{x - 1} (2 y - 1)
 $$
 
 In proving that  $f$  is a bijection, we will be proving this fact:
@@ -2341,7 +2341,7 @@ Every natural number can be written uniquely as a power of 2 times an odd natura
 Look at the function we defined. It takes a pair of natural numbers and outputs a power of 2 times an odd natural number. Proving this is a bijection shows that it never outputs the same natural twice (injectivity) and every natural number is an output of some pair (surjectivity). You might try playing around with the function, plugging in some values and seeing what happens. Also, you might try working "backwards", trying to figure out what  $f^{-1}$  might possibly do. For instance, take your favorite  $n \in \mathbb{N}$ . Can you express it as a power of 2 times an odd? If  $n$  is odd, this is quite easy, since  $2^0 = 1$ . For instance,
 
 $$
-1 1 = 1 \cdot 1 1 = 2 ^ {0} \cdot (2 \cdot 6 - 1) = f (1, 6)
+1 1 = 1 \cdot 1 1 = 2^{0} \cdot (2 \cdot 6 - 1) = f (1, 6)
 $$
 
 (Notice that we had to use  $x - 1$  and  $2y - 1$  in the definition of  $f$  because we are working with  $\mathbb{N}$ , and  $0 \notin \mathbb{N}$ .)
@@ -2349,18 +2349,18 @@ $$
 If  $n$  is even, we can just divide by 2 iteratively until we can't anymore; what's left must be an odd number. For instance:
 
 $$
-4 0 = 2 \cdot 2 0 = 4 \cdot 1 0 = 8 \cdot 5 = 2 ^ {3} \cdot (2 \cdot 3 - 1) = f (4, 3)
+4 0 = 2 \cdot 2 0 = 4 \cdot 1 0 = 8 \cdot 5 = 2^{3} \cdot (2 \cdot 3 - 1) = f (4, 3)
 $$
 
 and
 
 $$
-3 2 = 2 \cdot 1 6 = 2 ^ {2} \cdot 8 = 2 ^ {3} \cdot 4 = 2 ^ {4} \cdot 2 = 2 ^ {5} = 2 ^ {5} \cdot (2 \cdot 1 - 1) = f (6, 1)
+3 2 = 2 \cdot 1 6 = 2^{2} \cdot 8 = 2^{3} \cdot 4 = 2^{4} \cdot 2 = 2^{5} = 2^{5} \cdot (2 \cdot 1 - 1) = f (6, 1)
 $$
 
 This observation is crucial in proving that  $f$  is surjective:
 
-$f$  is surjective: We claim  $\forall n\in \mathbb{N}$ $n\in \operatorname {Im}_f(\mathbb{N}\times \mathbb{N})$  . We prove this by a "minimal criminal" argument.
+$f$  is surjective: We claim  $\forall n\in \mathbb{N}$ $n\in \operatorname{Im}_f(\mathbb{N}\times \mathbb{N})$  . We prove this by a "minimal criminal" argument.
 
 BC: Notice that  $f(1,1) = 2^0 \cdot 1 = 1$ . Thus,  $1 \in \operatorname{Im}_f(\mathbb{N} \times \mathbb{N})$ .
 
@@ -2371,7 +2371,7 @@ IS: We have two cases:
 - If  $n$  is odd, then … well,  $n \cdot 2^0 = n \cdot 1 = n$  is such a representation. That is, we know  $\frac{n + 1}{2} \in \mathbb{N}$  and we see that
 
 $$
-f \left(1, \frac {n + 1}{2}\right) = 2 ^ {0} \cdot \left(2 \cdot \frac {n + 1}{2} - 1\right) = 1 \cdot (n + 1 - 1) = n
+f \left(1, \frac{n + 1}{2}\right) = 2^{0} \cdot \left(2 \cdot \frac{n + 1}{2} - 1\right) = 1 \cdot (n + 1 - 1) = n
 $$
 
 so  $n \in \operatorname{Im}_f(\mathbb{N} \times \mathbb{N})$ . This contradicts our assumption that  $n \notin \operatorname{Im}_f(\mathbb{N} \times \mathbb{N})$  so this case is not valid.
@@ -2379,7 +2379,7 @@ so  $n \in \operatorname{Im}_f(\mathbb{N} \times \mathbb{N})$ . This contradicts
 - If  $n$  is even, then, consider  $\frac{n}{2}$ . AFSOC we have a representation of  $\frac{n}{2}$  as a power of 2 times an odd, i.e. suppose  $\frac{n}{2} \in \operatorname{Im}_f(\mathbb{N} \times \mathbb{N})$ . This means  $\exists (x,y) \in \mathbb{N} \times \mathbb{N}$ .  $f(x,y) = \frac{n}{2}$ . Let such  $(x,y)$  be given. Consider, then,  $f(x + 1,y)$  (which is valid since  $x + 1 \in \mathbb{N}$ , as well). We see that
 
 $$
-f (x + 1, y) = 2 ^ {x + 1} \cdot (2 y - 1) = 2 \cdot \left(2 ^ {x} \cdot (2 y - 1)\right) = 2 \cdot f (x, y) = 2 \cdot \frac {n}{2} = n
+f (x + 1, y) = 2^{x + 1} \cdot (2 y - 1) = 2 \cdot \left(2^{x} \cdot (2 y - 1)\right) = 2 \cdot f (x, y) = 2 \cdot \frac{n}{2} = n
 $$
 
 This shows we would have such a representation for  $n$ ; i.e., in fact,  $n \in \operatorname{Im}_f(\mathbb{N} \times \mathbb{N})$ . Again, this contradicts our assumption that  $n \notin \operatorname{Im}_f(\mathbb{N} \times \mathbb{N})$ .
@@ -2425,7 +2425,7 @@ In this example, we will present several arguments for this fact, especially bec
 Consider the following "representation" of  $\mathbb{Q}$  as a union of sets:
 
 $$
-\mathbb {Q} “ = ” \quad \mathrm {N} \times \mathrm {N} ” \cup “ - ” (\mathrm {N} \times \mathrm {N}) \cup \{0 \}
+\mathbb {Q} “ = ” \quad \mathrm{N} \times \mathrm{N} ” \cup “ - ” (\mathrm{N} \times \mathrm{N}) \cup \{0 \}
 $$
 
 In some sense,  $\mathbb{N} \times \mathbb{N}$  corresponds to all the positive rationals. To see why, just consider the function  $f: \mathbb{N} \times \mathbb{N} \to \mathbb{Q}_+$  defined by  $f(x,y) = \frac{x}{y}$ . We definitely output all positive rationals (so  $f$  is a surjection), but  $\frac{4}{2} = \frac{2}{1}$  so this is not an injection. At least, this shows  $|\mathbb{N} \times \mathbb{N}| \geq |\mathbb{Q}|$  because  $f$  is a surjection. Since  $\mathbb{N} \times \mathbb{N}$  is countably infinite, and we certainly expect  $\mathbb{Q}$  to be infinite, this shows the positive rationals are countably infinite.
@@ -2457,7 +2457,7 @@ Consider this: We can definitely agree a priori that  $|\mathbb{Q}| \geq |\mathb
 We will prove below that that  $\mathbb{Z} \times \mathbb{N}$  is countable. (That is, we will prove generally that the Cartesian product of any two countably infinite sets is also countably infinite.) We can then define the function  $f: \mathbb{Z} \times \mathbb{N} \to \mathbb{Q}$  by
 
 $$
-\forall (z, n) \in \mathbb {Z} \times \mathbb {N}. f (z, n) = \frac {z}{n}
+\forall (z, n) \in \mathbb {Z} \times \mathbb {N}. f (z, n) = \frac{z}{n}
 $$
 
 This is a surjection onto  $\mathbb{Q}$ . It is definitely not injective (why not?) but we don't care. It shows that  $|\mathbb{Z} \times \mathbb{N}| = |\mathbb{Q}|$ . Once we have proven that  $|\mathbb{Z} \times \mathbb{N}| = |\mathbb{N}|$ , this will have shown that  $|\mathbb{N}| = |\mathbb{Q}|$ .
@@ -2519,7 +2519,7 @@ Since  $p$  and  $g$  are bijections, we know  $p \circ g : B \to \mathbb{Z} - \
 Next, we define the piece-wise function  $q:A\cup B\to \mathbb{Z}$  by setting
 
 $$
-\forall x \in A \cup B. \qquad q (x) = \left\{ \begin{array}{l l} f (x) & \text {i f} x \in A \\ p (g (x)) & \text {i f} x \in B \end{array} \right.
+\forall x \in A \cup B. \qquad q (x) = \left\{ \begin{array}{l l} f (x) & \text{if } x \in A \\ p (g (x)) & \text{if } x \in B \end{array} \right.
 $$
 
 This is well-defined because  $A \cap B = \varnothing$ . Furthermore, this is a bijection because it is a bijection on each of the pieces is a bijection. (Again, check this for yourself to make sure it makes sense. Also, see Exercise 7.8.31 which proves this, in generality.)
@@ -2553,7 +2553,7 @@ $$
 We claim this is a bijection. Since  $f, g$  are invertible, we claim that  $H: \mathbb{N} \times \mathbb{N} \to A \times B$  given by
 
 $$
-\forall (k, \ell) \in \mathbb {N} \times \mathbb {N}. \quad H (k, \ell) = \left(f ^ {- 1} (k), g ^ {- 1} (\ell)\right)
+\forall (k, \ell) \in \mathbb {N} \times \mathbb {N}. \quad H (k, \ell) = \left(f^{- 1} (k), g^{- 1} (\ell)\right)
 $$
 
 satisfies  $H = h^{-1}$
@@ -2561,13 +2561,13 @@ satisfies  $H = h^{-1}$
 To see why, notice that
 
 $$
-\begin{array}{l} \forall (x, y) \in A \times B. \quad (H \circ h) (x, y) = H (h (x, y)) = H (f (x), g (y)) \\ = \left(f ^ {- 1} (f (x)), g ^ {- 1} (g (y))\right) = (x, y) \\ \end{array}
+\begin{array}{l} \forall (x, y) \in A \times B. \quad (H \circ h) (x, y) = H (h (x, y)) = H (f (x), g (y)) \\ = \left(f^{- 1} (f (x)), g^{- 1} (g (y))\right) = (x, y) \\ \end{array}
 $$
 
 and
 
 $$
-\begin{array}{l} \forall (k, \ell) \in \mathbb {N} \times \mathbb {N}. \quad (h \circ H) (k, \ell) = h (H (k, \ell)) = h (f ^ {- 1} (k), g ^ {- 1} (\ell)) \\ = \left(f (f ^ {- 1} (k)), g (g ^ {- 1} (\ell))\right) = (k, \ell) \\ \end{array}
+\begin{array}{l} \forall (k, \ell) \in \mathbb {N} \times \mathbb {N}. \quad (h \circ H) (k, \ell) = h (H (k, \ell)) = h (f^{- 1} (k), g^{- 1} (\ell)) \\ = \left(f (f^{- 1} (k)), g (g^{- 1} (\ell))\right) = (k, \ell) \\ \end{array}
 $$
 
 so  $H\circ h = \mathrm{Id}_{A\times B}$  and  $h\circ H = \mathrm{Id}_{\mathbb{N}\times \mathbb{N}}$  . This shows  $H = h^{-1}$
@@ -2593,7 +2593,7 @@ You might wonder now what happens when we take a union or product of a countably
 Theorem 7.6.22. Suppose we have, for each  $n \in \mathbb{N}$ , a countably infinite set  $A_{n}$ . Then the set
 
 $$
-A = \bigcup_ {n \in \mathbb {N}} A _ {n} = A _ {1} \cup A _ {2} \cup A _ {3} \cup \dots
+A = \bigcup_{n \in \mathbb {N}} A_{n} = A_{1} \cup A_{2} \cup A_{3} \cup \dots
 $$
 
 is also countably infinite.
@@ -2603,7 +2603,7 @@ We will prove this in the case that the sets are pairwise-disjoint, and leave th
 Proof. Suppose we have, for each  $n \in \mathbb{N}$ , a countably infinite set  $A_{n}$ . Furthermore, suppose  $\forall i, j \in \mathbb{N}$ .  $i \neq j \Rightarrow A_{i} \cap A_{j} = \emptyset$ . Define
 
 $$
-A = \bigcup_ {n \in \mathbb {N}} A _ {n}
+A = \bigcup_{n \in \mathbb {N}} A_{n}
 $$
 
 We claim  $A$  is countably infinite.
@@ -2615,7 +2615,7 @@ Let's define a function  $F: A \to \mathbb{N} \times \mathbb{N}$ . Given any  $x
 We claim that  $F$  is a bijection. To see why, consider the function  $G:\mathbb{N}\times \mathbb{N}\to A$  defined by
 
 $$
-\forall (a, b) \in \mathbb {N} \times \mathbb {N}. G (a, b) = f _ {a} ^ {- 1} (b)
+\forall (a, b) \in \mathbb {N} \times \mathbb {N}. G (a, b) = f_{a}^{- 1} (b)
 $$
 
 That is,  $G$  uses the first coordinate  $a$  to identify the set  $A_{a}$ , and then uses the function  $f_{a}$  to identify the element of  $A_{a}$  that produced  $b \in \mathbb{N}$  as an output.
@@ -2629,7 +2629,7 @@ In the case where the  $A_{n}$  sets are not necessarily pairwise-disjoint … w
 Corollary 7.6.23. Suppose we have, for every  $n \in \mathbb{N}$ , a finite set  $A_{n}$ . Furthermore, suppose that these sets are pairwise-disjoint. Define
 
 $$
-A = \bigcup_ {n \in \mathbb {N}} A _ {n}
+A = \bigcup_{n \in \mathbb {N}} A_{n}
 $$
 
 Then  $A$  is countably infinite.
@@ -2643,13 +2643,13 @@ This result is very powerful. Let's see it applied to two examples.
 Recall the Hilbert Hotel discussion, where we accommodated infinitely many conventions of people that were each infinitely large. We sent people to rooms corresponding to powers of primes. For every  $n \in \mathbb{N}$ , define  $p_n$  to be the  $n$ -th prime number. Then, for every  $n \in \mathbb{N}$ , define
 
 $$
-A _ {n} = \{p _ {n} ^ {k} \mid k \in \mathbb {N} \}
+A_{n} = \{p_{n}^{k} \mid k \in \mathbb {N} \}
 $$
 
 which is the set of all powers of the  $n$ -th prime. The theorem above says that
 
 $$
-\bigcup_ {n \in \mathbb {N}} A _ {n} = \{\text {a l l p o w e r s o f p r i m e s} \}
+\bigcup_{n \in \mathbb {N}} A_{n} = \{\text{al lp ow er so fp ri me s} \}
 $$
 
 is countably infinite, as well. Indeed, we should have expected that because that union is just a subset of the natural numbers, which is countably infinite itself!
@@ -2667,13 +2667,13 @@ $$
 For every  $n \in \mathbb{N}$ , let's define  $F_{n}$  to be the set of all binary strings of length  $n$ . For instance,
 
 $$
-\begin{array}{l} F _ {1} = \left\{ \begin{array}{c} 0, 1 \end{array} \right\} \\ F _ {2} = \{0 0, 0 1, 1 0, 1 1 \} \\ F _ {3} = \{0 0 0, 0 0 1, 0 1 0, 1 0 0, 0 1 1, 1 0 1, 1 1 0, 1 1 1 \} \\ \end{array}
+\begin{array}{l} F_{1} = \left\{ \begin{array}{c} 0, 1 \end{array} \right\} \\ F_{2} = \{0 0, 0 1, 1 0, 1 1 \} \\ F_{3} = \{0 0 0, 0 0 1, 0 1 0, 1 0 0, 0 1 1, 1 0 1, 1 1 0, 1 1 1 \} \\ \end{array}
 $$
 
 and so on. (Notice that  $|F_n| = 2^n$ . Try to prove that!) Then, define the set of all finite binary strings by
 
 $$
-F = \bigcup_ {n \in \mathbb {N}} F _ {n}
+F = \bigcup_{n \in \mathbb {N}} F_{n}
 $$
 
 An element of  $F$  must have come from some set in the big union; this means that an arbitrary element  $x \in F$  is some binary string with some finite length. That length could be a huuuuuuuuge number, but it is finite. (This points out the distinction between allowing something to be "arbitrarily large (but finite)" and allowing something to be "infinite".)
@@ -2685,7 +2685,7 @@ The point of this example is that  $F$  is countably infinite, according to the 
 We proved above that if  $A$  and  $B$  are countably infinite, then so are  $A \cup B$  and  $A \times B$ . We also encouraged you to prove (by induction on the number of sets in the union/product) that
 
 $$
-A _ {1} \cup A _ {2} \cup \dots \cup A _ {n} = \bigcup_ {i \in [ n ]} A _ {i} \qquad \text {a n d} \qquad \prod_ {i \in [ n ]} A _ {i} = A _ {1} \times A _ {2} \times \dots \times A _ {n}
+A_{1} \cup A_{2} \cup \dots \cup A_{n} = \bigcup_{i \in [ n ]} A_{i} \qquad \text{an d} \qquad \prod_{i \in [ n ]} A_{i} = A_{1} \times A_{2} \times \dots \times A_{n}
 $$
 
 are both countably infinite, as well, for any  $n\in \mathbb{N}$
@@ -2693,13 +2693,13 @@ are both countably infinite, as well, for any  $n\in \mathbb{N}$
 What do these results tell us, if anything, about
 
 $$
-A _ {1} \cup A _ {2} \cup A _ {3} \cup \dots = \bigcup_ {k \in \mathbb {N}} A _ {k}
+A_{1} \cup A_{2} \cup A_{3} \cup \dots = \bigcup_{k \in \mathbb {N}} A_{k}
 $$
 
 and
 
 $$
-A _ {1} \times A _ {2} \times A _ {3} \dots = \prod_ {k \in \mathbb {N}} A _ {k}
+A_{1} \times A_{2} \times A_{3} \dots = \prod_{k \in \mathbb {N}} A_{k}
 $$
 
 That is, what happens when we try to "jump to the limit" from having a finite union/product (of arbitrarily large size, but still finite) to having an infinite union/product? Can we make necessary conclusions? Can we find counterexamples?
@@ -2715,13 +2715,13 @@ A similar notion appears in calculus. We promised we would not use calculus, but
 Consider a limit, something like
 
 $$
-\lim  _ {x \to \infty} \frac {1}{x} = 0
+\lim_{x \to \infty} \frac{1}{x} = 0
 $$
 
 In what sense is this limit equal to 0? Why would we, as mathematicians over the years, choose to define limits in this way? Formally, this limit makes sense because of the quantified definition of a limit. Let  $P$  be the set of positive real numbers. Then the definition of limit (applied to this example) says
 
 $$
-\forall \varepsilon \in P. \exists M \in \mathbb {N}. \forall n \in \mathbb {N}. (n > M \Rightarrow \left| \frac {1}{x} \right| <   \varepsilon)
+\forall \varepsilon \in P. \exists M \in \mathbb {N}. \forall n \in \mathbb {N}. (n > M \Rightarrow \left| \frac{1}{x} \right| <   \varepsilon)
 $$
 
 That is, for any small positive threshold  $(\varepsilon > 0)$ , we can find a specific cutoff point (a large natural number  $M$  that depends on  $\varepsilon$  somehow) such that, for every point after  $M$ , the function  $\frac{1}{x}$  falls within that  $\varepsilon$ -threshold of the limit point, zero.
@@ -2737,7 +2737,7 @@ To start our discussion of uncountable sets, let's prove a result we've mentione
 Theorem 7.6.26. A countably infinite Cartesian product of sets with just two elements is uncountably infinite. That is,
 
 $$
-\{0, 1 \} ^ {\mathbb {N}} = \{0, 1 \} \times \{0, 1 \} \times \{0, 1 \} \times \dots
+\{0, 1 \}^{\mathbb {N}} = \{0, 1 \} \times \{0, 1 \} \times \{0, 1 \} \times \dots
 $$
 
 is uncountably infinite.
@@ -2747,23 +2747,23 @@ Proof. AFSOC that this set  $\{0,1\}^{\mathbb{N}}$  is actually countably infini
 We don't know exactly what these elements are, we are just guaranteed that this correspondence exists. Still, we can write out all the elements  $y_{i}$  of  $\{0,1\}^{\mathbb{N}}$  in a list. Each  $y_{i}$  is an ordered, infinite list of 0s and 1s, so we can write them like this:
 
 $$
-1 \quad \leftrightarrow \quad (a _ {1, 1}, a _ {1, 2}, a _ {1, 3}, a _ {1, 4}, a _ {1, 5}, \ldots) = y _ {1}
+1 \quad \leftrightarrow \quad (a_{1, 1}, a_{1, 2}, a_{1, 3}, a_{1, 4}, a_{1, 5}, \ldots) = y_{1}
 $$
 
 $$
-2 \quad \leftrightarrow \quad \left(a _ {2, 1}, a _ {2, 2}, a _ {2, 3}, a _ {2, 4}, a _ {2, 5}, \ldots\right) = y _ {2}
+2 \quad \leftrightarrow \quad \left(a_{2, 1}, a_{2, 2}, a_{2, 3}, a_{2, 4}, a_{2, 5}, \ldots\right) = y_{2}
 $$
 
 $$
-3 \quad \leftrightarrow \quad \left(a _ {3, 1}, a _ {3, 2}, a _ {3, 3}, a _ {3, 4}, a _ {3, 5}, \dots\right) = y _ {3}
+3 \quad \leftrightarrow \quad \left(a_{3, 1}, a_{3, 2}, a_{3, 3}, a_{3, 4}, a_{3, 5}, \dots\right) = y_{3}
 $$
 
 $$
-4 \quad \leftrightarrow \quad \left(a _ {4, 1}, a _ {4, 2}, a _ {4, 3}, a _ {4, 4}, a _ {4, 5}, \dots\right) = y _ {4}
+4 \quad \leftrightarrow \quad \left(a_{4, 1}, a_{4, 2}, a_{4, 3}, a_{4, 4}, a_{4, 5}, \dots\right) = y_{4}
 $$
 
 $$
-5 \quad \leftrightarrow \quad \left(a _ {5, 1}, a _ {5, 2}, a _ {5, 3}, a _ {5, 4}, a _ {5, 5}, \dots\right) = y _ {5}
+5 \quad \leftrightarrow \quad \left(a_{5, 1}, a_{5, 2}, a_{5, 3}, a_{5, 4}, a_{5, 5}, \dots\right) = y_{5}
 $$
 
 .
@@ -2775,7 +2775,7 @@ Since we have assumed the correspondence is a bijection, we know that this list 
 Let's define the object  $x = (x_{1},x_{2},x_{3},\ldots)$  by saying
 
 $$
-x _ {i} = \left\{ \begin{array}{l l} 0 & \text {i f} a _ {i, i} = 1 \\ 1 & \text {i f} a _ {i, i} = 0 \end{array} \right.
+x_{i} = \left\{ \begin{array}{l l} 0 & \text{if } a_{i, i} = 1 \\ 1 & \text{if } a_{i, i} = 0 \end{array} \right.
 $$
 
 That is, we are constructing  $x$  by going down the main diagonal of the grid of elements (so we see all of the elements  $a_{i,i}$ ) and switching the value from a 1 to a 0, or vice-versa.
@@ -2783,7 +2783,7 @@ That is, we are constructing  $x$  by going down the main diagonal of the grid o
 The following diagram is a specific example of how to do this, and is not part of this more general proof. However, we are including it for the sake of illustration:
 
 $$
-\begin{array}{l} 1 \quad \leftrightarrow \quad (\bigoplus , 1, 0, 0, 1, \dots) = y _ {1} \\ 2 \quad \leftrightarrow \quad (1, \widehat {0}, 0, 0, 1, \dots) = y _ {2} \\ 3 \quad \leftrightarrow \quad (0, 0, \bigoplus_ {1}, 1, 0, \dots) = y _ {3} \\ 4 \quad \leftrightarrow \quad (1, 1, 0, (\underline {{1}}), 1, \dots) = y _ {4} \\ 5 \quad \leftrightarrow \quad (0, 1, 1, 1, \widehat {(0)}, \dots) = y _ {5} \\ \begin{array}{l} \vdots \\ = \left(\bigcirc , \bigcirc , \bigcirc , \bigcirc , \bigcirc , \bigcirc , \dots\right) \end{array} \\ \end{array}
+\begin{array}{l} 1 \quad \leftrightarrow \quad (\bigoplus , 1, 0, 0, 1, \dots) = y_{1} \\ 2 \quad \leftrightarrow \quad (1, \widehat {0}, 0, 0, 1, \dots) = y_{2} \\ 3 \quad \leftrightarrow \quad (0, 0, \bigoplus_{1}, 1, 0, \dots) = y_{3} \\ 4 \quad \leftrightarrow \quad (1, 1, 0, (\underline {{1}}), 1, \dots) = y_{4} \\ 5 \quad \leftrightarrow \quad (0, 1, 1, 1, \widehat {(0)}, \dots) = y_{5} \\ \begin{array}{l} \vdots \\ = \left(\bigcirc , \bigcirc , \bigcirc , \bigcirc , \bigcirc , \bigcirc , \dots\right) \end{array} \\ \end{array}
 $$
 
 Why would we choose to do this? Well, think about whether or not the object  $x$  could possibly belong to the list of elements above.
@@ -2795,7 +2795,7 @@ Why would we choose to do this? Well, think about whether or not the object  $x$
 In general, for an arbitrary  $i \in \mathbb{N}$ , we can guarantee that  $x$  and  $y_i$  differ in the  $i$ -th coordinate. Accordingly, none of the  $y_i$  objects can be equal to this new object  $x$ . That is,
 
 $$
-\left(\forall i \in \mathbb {N}. x _ {i} \neq y _ {i, i}\right) \Rightarrow \left(\forall i \in \mathbb {N}. x \neq y _ {i}\right)
+\left(\forall i \in \mathbb {N}. x_{i} \neq y_{i, i}\right) \Rightarrow \left(\forall i \in \mathbb {N}. x \neq y_{i}\right)
 $$
 
 But the way we defined  $x$ , it is just an ordered, infinite list of 0s and 1s, so it is definitely an element of  $\{0,1\}^{\mathbb{N}}$ , itself.
@@ -2843,7 +2843,7 @@ $$
 which is the interval  $[0,1]\subseteq \mathbb{R}$ . We will show that
 
 $$
-| \{0, 1 \} ^ {\mathbb {N}} | = | \mathcal {P} (\mathbb {N}) | = | I |
+| \{0, 1 \}^{\mathbb {N}} | = | \mathcal {P} (\mathbb {N}) | = | I |
 $$
 
 and then apply some results about bijections between intervals and  $\mathbb{R}$ .
@@ -2853,7 +2853,7 @@ Consider the function  $f_{1}:\{0,1\}^{\mathbb{N}} \to I$  that takes in an infi
 As an example, consider the element that is  $(1,1,0,0,1,0,\ldots)$  where the rest are 0s. Then
 
 $$
-f _ {1} (1, 1, 0, 0, 1, 0, \dots) = 0. 1 1 0 0 1 0 \dots_ {\mathrm {D E C}} = \frac {1}{1 0 ^ {1}} + \frac {1}{1 0 ^ {2}} + \frac {1}{1 0 ^ {5}} = \frac {1 1 0 0 1}{1 0 0 0 0 0}
+f_{1} (1, 1, 0, 0, 1, 0, \dots) = 0. 1 1 0 0 1 0 \dots_{\mathrm{DE C}} = \frac{1}{1 0^{1}} + \frac{1}{1 0^{2}} + \frac{1}{1 0^{5}} = \frac{1 1 0 0 1}{1 0 0 0 0 0}
 $$
 
 Notice that this is a function because any output is definitely a real number (since it has a decimal expansion; we just provided it) and it is somewhere between 0 and 1, since we put the decimal point in front. Furthermore, notice that  $f_{1}$  is an injection; two different infinite binary strings must be different in some coordinate, so they yield two decimal expansions that differ somewhere and, thus, cannot be the same real number. This shows that  $|\{0,1\}^{\mathbb{N}}| \leq |I|$ .
@@ -2863,13 +2863,13 @@ Consider the function  $f_{2}:\{0,1\}^{\mathbb{N}} \to I$  that takes in an infi
 As an example, consider the same element as above. Then
 
 $$
-f _ {2} (1, 1, 0, 0, 1, 0, \dots) = 0. 1 1 0 0 1 0 \dots_ {\mathrm {B I N}} = \frac {1}{2 ^ {1}} + \frac {1}{2 ^ {2}} + \frac {1}{2 ^ {5}} = \frac {2 5}{3 2}
+f_{2} (1, 1, 0, 0, 1, 0, \dots) = 0. 1 1 0 0 1 0 \dots_{\mathrm{BI N}} = \frac{1}{2^{1}} + \frac{1}{2^{2}} + \frac{1}{2^{5}} = \frac{2 5}{3 2}
 $$
 
 Notice that this is a function because any output is definitely a real number; just evaluate the resulting sum of fractions and it yields a real number between 0 and 1 (and even if the series is infinite, it is guaranteed to converge). For example, the input of all 0s yields 0 as an output, and the input of all 1s yields 1 as an output since
 
 $$
-\frac {1}{2} + \frac {1}{4} + \frac {1}{8} + \dots = \sum_ {k \in \mathbb {N}} \frac {1}{2 ^ {k}} = 1
+\frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \dots = \sum_{k \in \mathbb {N}} \frac{1}{2^{k}} = 1
 $$
 
 Furthermore, notice that  $f_{2}$  is a surjection. This fact hinges on some external knowledge about rational/irrational numbers; specifically, it is true that any irrational number can be approximated by a sequence of dyadic rational numbers (rationals whose denominators are powers of 2). We won't state or prove these results, but we think that by playing around with some examples, you'll start to see why this works. In fact, do some Googling for binary expansions of irrational numbers and you'll find some interesting results.
@@ -2940,13 +2940,13 @@ Since  $C$  is countably infinite, we can list the elements of  $C$  as  $\{y_1,
 Define  $f:A\to B$  by
 
 $$
-\forall y \in A. \quad f (y) = \left\{ \begin{array}{l l} y & \text {i f} y \neq y _ {i} \text {f o r a l l} i \in \mathbb {N} \text {a n d} y \neq x \\ y _ {1} & \text {i f} y = x \\ y _ {i + 1} & \text {i f} y = y _ {i} \text {f o r s o m e} i \in \mathbb {N} \end{array} \right.
+\forall y \in A. \quad f (y) = \left\{ \begin{array}{l l} y & \text{if } y \neq y_{i} \text{fo ra ll} i \in \mathbb {N} \text{an d} y \neq x \\ y_{1} & \text{if } y = x \\ y_{i + 1} & \text{if } y = y_{i} \text{fo rs om e} i \in \mathbb {N} \end{array} \right.
 $$
 
 This is a bijection because we can identify its inverse function  $F: B \to A$ , which is
 
 $$
-\forall z \in B. \quad F (z) = \left\{ \begin{array}{l l} z & \text {i f} z \neq y _ {i} \text {f o r e v e r y} i \in \mathbb {N} \\ x & \text {i f} z = y _ {1} \\ y _ {i - 1} & \text {i f} z = y _ {i} \text {f o r s o m e} i \in \mathbb {N} - \{1 \} \end{array} \right.
+\forall z \in B. \quad F (z) = \left\{ \begin{array}{l l} z & \text{if } z \neq y_{i} \text{fo re ve ry} i \in \mathbb {N} \\ x & \text{if } z = y_{1} \\ y_{i - 1} & \text{if } z = y_{i} \text{fo rs om e} i \in \mathbb {N} - \{1 \} \end{array} \right.
 $$
 
 We will leave it as an exercise for the reader to verify that  $F = f^{-1}$ . (Draw a picture to intuitively convince yourself, at the very least.)
@@ -2988,7 +2988,7 @@ $$
 If  $A_{1},\ldots ,A_{n}$  are finite and pairwise-disjoint, then
 
 $$
-\left| A _ {1} \cup \dots \cup A _ {n} \right| = \left| A _ {1} \right| + \dots + \left| A _ {n} \right|
+\left| A_{1} \cup \dots \cup A_{n} \right| = \left| A_{1} \right| + \dots + \left| A_{n} \right|
 $$
 
 (3) Find the flaw in the following "spoof" that  $\mathbb{R}$  is countably infinite:
@@ -3004,7 +3004,7 @@ Since  $\mathbb{Z}$  is countably infinite, each set  $A_{x}$  is countably infi
 Also, notice that
 
 $$
-\mathbb {R} = \bigcup_ {x \in S} A _ {x}
+\mathbb {R} = \bigcup_{x \in S} A_{x}
 $$
 
 This is a union of countably infinite sets, so  $\mathbb{R}$  is also countably infinite.
@@ -3101,7 +3101,7 @@ Find a function  $F$  that is the inverse of  $f$ , and prove that it is. What d
 Problem 7.8.8. Define the set  $S = \{x \in \mathbb{R} \mid 0 < x < 1\}$ . Define the function  $g: S \to \mathbb{R}$  by
 
 $$
-g (x) = \frac {2 x - 1}{2 x (1 - x)}
+g (x) = \frac{2 x - 1}{2 x (1 - x)}
 $$
 
 Prove that  $\operatorname{Im}_g(S) = \mathbb{R}$ .
@@ -3129,7 +3129,7 @@ Problem 7.8.13. Let  $A, B$  be sets and let  $f: A \to B$  be a function. Suppo
 (a) Is it necessarily true that the following equality holds?
 
 $$
-\operatorname {I m} _ {f} (X \cup Y) = \operatorname {I m} _ {f} (X) \cup \operatorname {I m} _ {f} (Y)
+\operatorname{Im}_{f} (X \cup Y) = \operatorname{Im}_{f} (X) \cup \operatorname{Im}_{f} (Y)
 $$
 
 State your claim and prove it.
@@ -3137,7 +3137,7 @@ State your claim and prove it.
 (b) Is it necessarily true that the following equality holds?
 
 $$
-\operatorname {I m} _ {f} (X \cap Y) = \operatorname {I m} _ {f} (X) \cap \operatorname {I m} _ {f} (Y)
+\operatorname{Im}_{f} (X \cap Y) = \operatorname{Im}_{f} (X) \cap \operatorname{Im}_{f} (Y)
 $$
 
 State your claim and prove it.
@@ -3145,7 +3145,7 @@ State your claim and prove it.
 Problem 7.8.14. Let  $f: A \to B$  be a function. Define the relation  $\sim$  on  $B$  by saying, for any  $x, y \in B$ ,
 
 $$
-x \sim y \iff \operatorname {P r e I m} _ {f} (\{x \}) = \operatorname {P r e I m} _ {f} (\{y \})
+x \sim y \iff \operatorname{Pr eI m}_{f} (\{x \}) = \operatorname{Pr eI m}_{f} (\{y \})
 $$
 
 Explain why  $\sim$  is an equivalence relation.
@@ -3189,7 +3189,7 @@ Problem 7.8.20. Prove Corollary 7.6.19. That is, suppose  $A$  and  $B$  are cou
 Problem 7.8.21. Look back at Example 7.6.13. There, we defined  $f: \mathbb{N} \times \mathbb{N} \to \mathbb{N}$  by setting
 
 $$
-\forall (x, y) \in \mathbb {N} \times \mathbb {N}. \quad f (x, y) = 2 ^ {x - 1} (2 y - 1)
+\forall (x, y) \in \mathbb {N} \times \mathbb {N}. \quad f (x, y) = 2^{x - 1} (2 y - 1)
 $$
 
 Prove that  $f$  is injective.
@@ -3197,13 +3197,13 @@ Prove that  $f$  is injective.
 Problem 7.8.22. Prove Corollary 7.6.21. That is, suppose we have finitely-many sets— $A_1, A_2, \ldots, A_n$ —where each set is countably infinite; prove that
 
 $$
-A _ {1} \cup A _ {2} \cup \dots \cup A _ {n}
+A_{1} \cup A_{2} \cup \dots \cup A_{n}
 $$
 
 and
 
 $$
-A _ {1} \times A _ {2} \times \dots \times A _ {n}
+A_{1} \times A_{2} \times \dots \times A_{n}
 $$
 
 are both also countably infinite.
@@ -3222,7 +3222,7 @@ Prove that  $A$  is countably infinite in two ways:
 Problem 7.8.24. Define  $g: \mathbb{N} \times \mathbb{N} \to \mathbb{N}$  by setting
 
 $$
-g: \mathbb {N} \times \mathbb {N} \rightarrow \mathbb {N} \quad \forall (x, y) \in \mathbb {N} \times \mathbb {N}. \quad g (x, y) = (x + y) ^ {2} + x
+g: \mathbb {N} \times \mathbb {N} \rightarrow \mathbb {N} \quad \forall (x, y) \in \mathbb {N} \times \mathbb {N}. \quad g (x, y) = (x + y)^{2} + x
 $$
 
 Prove that  $g$  is (a) injective and (b) not surjective.
@@ -3235,7 +3235,7 @@ Problem 7.8.25. Let  $A, B, C$  be sets. Let  $f: A \to B$  and  $g: B \to C$  a
 Problem 7.8.26. Let  $A, B$  be finite sets, with  $|A| = |B| = n$ . Suppose  $f: A \to B$  is a function. Prove that
 
 $$
-f \text {i s i n j e c t i v e} \Longleftrightarrow f \text {i s s u r j e c t i v e}
+f \text{is in je ct iv e} \Longleftrightarrow f \text{is su rj ec ti ve}
 $$
 
 Problem 7.8.27. Consider the following claim:
@@ -3283,13 +3283,13 @@ Prove that  $f$  must also necessarily be surjective by showing  $\operatorname{
 Problem 7.8.30. Let  $k \in \mathbb{N} - \{1\}$  be given. Define
 
 $$
-S _ {1} = \{X \in \mathcal {P} ([ k ]) \mid k \notin X \}
+S_{1} = \{X \in \mathcal {P} ([ k ]) \mid k \notin X \}
 $$
 
 and
 
 $$
-S _ {2} = \left\{X \in \mathcal {P} ([ k ]) \mid k \in X \right\}
+S_{2} = \left\{X \in \mathcal {P} ([ k ]) \mid k \in X \right\}
 $$
 
 (a) Prove that the sets  $S_{1}$  and  $S_{2}$  form a partition of  $\mathcal{P}([k])$  
@@ -3306,7 +3306,7 @@ Suppose  $f: A \to B$  and  $g: C \to D$  are bijections.
 Define the piece-wise function  $h:A\cup B\to C\cup D$  by setting
 
 $$
-\forall x \in A \cup B. h (x) = \left\{ \begin{array}{l l} f (x) & \text {i f} x \in A \\ g (x) & \text {i f} x \in B) \end{array} \right.
+\forall x \in A \cup B. h (x) = \left\{ \begin{array}{l l} f (x) & \text{if } x \in A \\ g (x) & \text{if } x \in B) \end{array} \right.
 $$
 
 Explain why  $h$  is a well-defined function. Then, prove it is a bijection.
@@ -3389,7 +3389,7 @@ Find a bijective (or, at least, injective) function from  $T_{k}$  to  $\mathbb{
 Problem 7.8.39. (a) Let  $n \in \mathbb{N}$ . Consider the set
 
 $$
-S = \{f: [ n ] \to [ n ] \mid f \text {i s a b i j e c t i o n} \}
+S = \{f: [ n ] \to [ n ] \mid f \text{is ab ij ec ti on} \}
 $$
 
 Show that  $S$  is closed under composition; that is, prove that
@@ -3403,7 +3403,7 @@ $$
 (b) Consider the set
 
 $$
-T = \left\{f: \mathbb {N} \to \mathbb {N} \mid f \text {i s a b i j e c t i o n a n d} \{i \in \mathbb {N} \mid f (i) \neq i \} \text {i s f i n i t e} \right\}
+T = \left\{f: \mathbb {N} \to \mathbb {N} \mid f \text{is ab ij ec ti on an d} \{i \in \mathbb {N} \mid f (i) \neq i \} \text{is fi ni te} \right\}
 $$
 
 Show that  $T$  is also closed under composition.
@@ -3411,13 +3411,13 @@ Show that  $T$  is also closed under composition.
 (c) Show that  $T$  is closed under inverses; that is, prove that
 
 $$
-\forall f \in T. f ^ {- 1} \text {e x i s t s} \wedge f ^ {- 1} \in T
+\forall f \in T. f^{- 1} \text{ex is ts} \wedge f^{- 1} \in T
 $$
 
 (d) Consider the set
 
 $$
-U = \left\{f: \mathbb {N} \to \mathbb {N} \mid f \text {i s a b i j e c t i o n} \right\}
+U = \left\{f: \mathbb {N} \to \mathbb {N} \mid f \text{is ab ij ec ti on} \right\}
 $$
 
 Prove that  $U$  is closed under inverses.

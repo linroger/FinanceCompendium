@@ -126,7 +126,7 @@ Specific types of continuous random variables include normal, exponential, beta,
 EXAMPLE 1.1.3: Let  $X$  be the amount of time in hours that an electrical component functions before breaking down. This random variable might have the pdf
 
 $$
-f(x) = \lambda \exp(-\lambda x) I_{[0,\infty)}(x) = \left\{\begin{array}{ll} \lambda \exp(-\lambda x) & \text{if} x \geq 0, \\ 0 & \text{if} x < 0, \end{array} \right.
+f(x) = \lambda \exp(-\lambda x) I_{[0,\infty)}(x) = \left\{\begin{array}{ll} \lambda \exp(-\lambda x) & \text{if } x \geq 0, \\ 0 & \text{if } x < 0, \end{array} \right.
 $$
 
 which we recognize as an exponential distribution. The probability that the part functions for at least  $c$  hours is  $P(X \geq 100) = \int_{c}^{\infty} f(x) \, dx = \exp(-c\lambda)$ .
@@ -197,7 +197,7 @@ Now let  $X$  and  $Y$  be continuous random variables instead.
 - The joint pdf of  $X$  and  $Y$  is a nonnegative function  $f^{(X,Y)}(x,y)$  such that
 
 $$
-\iint_A f^{(X,Y)}(x,y) \, dx \, dy = P[(X,Y) \in A] \qquad \text{foranyset} A \subset \mathbb{R}^2.
+\iint_A f^{(X,Y)}(x,y) \, dx \, dy = P[(X,Y) \in A] \qquad \text{for any set} A \subset \mathbb{R}^2.
 $$
 
 Note: When we write  $f(x,y)$  without clarification, we mean the joint pdf  $f^{(X,Y)}(x,y)$ .
@@ -245,7 +245,7 @@ If the positive part yields  $\infty$  and the negative part yields  $-\infty$ ,
 EXAMPLE 1.2.1: Let  $X$  have a  $t$  distribution with one degree of freedom (also known as a Cauchy distribution), which has the pdf  $f(x) = [\pi(1 + x^2)]^{-1}$  for all  $x \in \mathbb{R}$ . Since the pdf is symmetric about zero, it might seem as though  $E(X)$  should be zero. However, this is false:
 
 $$
-E(X) = \int_{-\infty}^{\infty} \frac{x}{\pi(1 + x^2)} \, dx = \underbrace{\int_0^{\infty} \frac{x}{\pi(1 + x^2)} \, dx}_{\text{positivepart}} + \underbrace{\int_{-\infty}^0 \frac{x}{\pi(1 + x^2)} \, dx}_{\text{negativepart}} = \infty - \infty.
+E(X) = \int_{-\infty}^{\infty} \frac{x}{\pi(1 + x^2)} \, dx = \underbrace{\int_0^{\infty} \frac{x}{\pi(1 + x^2)} \, dx}_{\text{positive part}} + \underbrace{\int_{-\infty}^0 \frac{x}{\pi(1 + x^2)} \, dx}_{\text{negative part}} = \infty - \infty.
 $$
 
 Thus,  $E(X)$  does not exist.
@@ -720,7 +720,7 @@ Any function of the data can be considered an estimator for any parameter. Howev
 
 EXAMPLE 3.0.1: Suppose  $X_1, \ldots, X_n \sim \mathrm{iid} \, \mathrm{Exp}(\lambda)$ , and we wish to estimate  $\lambda = 1 / E(X)$ .
 
-- Estimators such as  $\hat{\lambda} = \left(\overline{X}\right)^{-1}$  or  $\hat{\lambda} = (\text{samplemedian})^{-1}$  might be good estimators.  
+- Estimators such as  $\hat{\lambda} = \left(\overline{X}\right)^{-1}$  or  $\hat{\lambda} = (\text{sample median})^{-1}$  might be good estimators.  
 - Estimators such as  $\hat{\lambda} = 1 + \left(\overline{X}\right)^3$  or  $\hat{\lambda} = 17$  are probably bad estimators.  
 - Anything involving  $\lambda$  itself is not an estimator.
 
@@ -797,7 +797,7 @@ $$
 It can be seen from the form of  $\ell_{\pmb{x}}(\lambda)$  that this critical point is indeed the maximizer, i.e.,
 
 $$
-\ell_{\boldsymbol{x}} (\overline{{x}}) = \max_{\lambda \geq 0} \ell_{\boldsymbol{x}} (\lambda) \qquad \text{forall} \boldsymbol{x} \in \left(\mathbb{N} _{0}\right) ^{n},
+\ell_{\boldsymbol{x}} (\overline{{x}}) = \max_{\lambda \geq 0} \ell_{\boldsymbol{x}} (\lambda) \qquad \text{for all} \boldsymbol{x} \in \left(\mathbb{N} _{0}\right) ^{n},
 $$
 
 where  $\mathbb{N}_0 = \{0,1,2,\ldots\}$ . Thus, the maximum likelihood estimator of  $\lambda$  is  $\hat{\lambda}^{\mathrm{MLE}} = \overline{X}$ .
@@ -843,7 +843,7 @@ Thus, the maximum likelihood estimators of  $\mu$  and  $\sigma^2$  are, respect
 EXAMPLE 3.2.3: Let  $\mathbf{X}$  be an  $n \times p$  matrix of known constants (not random variables, despite the capital letter), and let  $Y_{1},\ldots ,Y_{n}$  be independent random variables with
 
 $$
-Y_{i} \sim N \left(\sum_{j=1} ^{p} \beta_{j} x_{i j}, \sigma^{2}\right) \qquad \text{foreach} i \in \{1, \dots , n \},
+Y_{i} \sim N \left(\sum_{j=1} ^{p} \beta_{j} x_{i j}, \sigma^{2}\right) \qquad \text{for each} i \in \{1, \dots , n \},
 $$
 
 where  $\pmb{\beta} = (\beta_{1},\dots,\beta_{p})\in \mathbb{R}^{p}$  and  $\sigma^2 >0$  are both unknown. Let  $\mathbf{Y} = (Y_1,\ldots ,Y_n)$ . It can be shown (see, e.g., Theorem 11.5.1 of DeGroot & Schervish) that if the matrix  $\mathbf{X}$  has rank  $p$ , then the maximum likelihood estimators of  $\pmb{\beta}$  and  $\sigma^2$  are  $\hat{\pmb{\beta}}^{\mathrm{MLE}} = (\pmb{X}^T\pmb{X})^{-1}\pmb{X}^T\pmb{Y}$  and  $(\hat{\sigma}^2)^{\mathrm{MLE}} = n^{-1}\| \pmb{Y} - \pmb{X}\hat{\pmb{\beta}}^{\mathrm{MLE}}\| _2^2$ , respectively, where  $\| \pmb{u}\| _2^2 = \sum_{i=1}^k u_i^2$  for any  $\pmb{u}\in \mathbb{R}^k$ .
@@ -959,13 +959,13 @@ $$
 and hence the pmf of  $U$  is
 
 $$
-f^{(U)} (u) = \left\{\begin{array}{cl} 99 / 10 0 & \text{if} u = 1 / 2, \\ 1 / 10 0 & \text{if} u = 3 / 4. \end{array} \right.
+f^{(U)} (u) = \left\{\begin{array}{cl} 99 / 10 0 & \text{if } u = 1 / 2, \\ 1 / 10 0 & \text{if } u = 3 / 4. \end{array} \right.
 $$
 
 After selecting a coin, we flip it five times, and we let  $X$  count the number of heads in these flips. Then for  $x \in \{0, 1, \ldots, 5\}$ , the conditional pmf of  $X$  given  $U$  is
 
 $$
-f^{(X | U)} (x \mid u) = \left\{\begin{array}{ll} \frac{5 !}{x ! (5 - x) !} \Big (\frac{1}{2} \Big) ^{x} \Big (\frac{1}{2} \Big) ^{5 - x} & \text{if} u = \frac{1}{2}, \\ \frac{5 !}{x ! (5 - x) !} \Big (\frac{3}{4} \Big) ^{x} \Big (\frac{1}{4} \Big) ^{5 - x} & \text{if} u = \frac{3}{4}. \end{array} \right.
+f^{(X | U)} (x \mid u) = \left\{\begin{array}{ll} \frac{5 !}{x ! (5 - x) !} \Big (\frac{1}{2} \Big) ^{x} \Big (\frac{1}{2} \Big) ^{5 - x} & \text{if } u = \frac{1}{2}, \\ \frac{5 !}{x ! (5 - x) !} \Big (\frac{3}{4} \Big) ^{x} \Big (\frac{1}{4} \Big) ^{5 - x} & \text{if } u = \frac{3}{4}. \end{array} \right.
 $$
 
 Now suppose we wish to determine the probability that we have drawn the unfair coin conditional on the fact that we observe that all five flips are heads. This is simply
@@ -1529,7 +1529,7 @@ EXAMPLE 6.2.5: Let  $X_1, \ldots, X_n \sim \mathrm{iid} \, \mathrm{Poisson}(\lam
 Note: This is where our assumption that the parameter space is an open interval becomes relevant. Since we have  $\lambda > 0$  (strictly), we have
 
 $$
-\begin{array}{l} P_{\lambda} \left(\bar{X} _{n} > 0 \text{forsome} n \geq 1\right) = 1 - P_{\lambda} \left(X_{n} = 0 \text{forall} n \geq 1\right) \\ = 1 - \prod_{n=1} ^{\infty} P_{\lambda} (X_{i} = 0) = 1 - \prod_{n=1} ^{\infty} \exp (- \lambda) = 1 - 0 = 1, \\ \end{array}
+\begin{array}{l} P_{\lambda} \left(\bar{X} _{n} > 0 \text{forsome} n \geq 1\right) = 1 - P_{\lambda} \left(X_{n} = 0 \text{for all} n \geq 1\right) \\ = 1 - \prod_{n=1} ^{\infty} P_{\lambda} (X_{i} = 0) = 1 - \prod_{n=1} ^{\infty} \exp (- \lambda) = 1 - 0 = 1, \\ \end{array}
 $$
 
 so the MLE exists for sufficiently large  $n$  with probability 1.
@@ -1765,7 +1765,7 @@ $$
 noting that  $E_{\theta}[\ell_{\pmb{X}}^{\prime}(\theta)] = 0$  by Lemma 6.2.1. Now observe that  $\ell_{\pmb{X}}^{\prime}(\theta) = L_{\pmb{X}}^{\prime}(\theta) / L_{\pmb{X}}(\theta)$ , so
 
 $$
-\operatorname{Cov} _{\theta} \bigl [ \tilde{\xi}, \ell_{\boldsymbol{X}} ^{\prime} (\theta) \bigr ] = E_{\theta} \biggl [ \tilde{\xi} \frac{L_{\boldsymbol{X}} ^{\prime} (\theta)}{L_{\boldsymbol{X}} (\theta)} \biggr ] = \left\{\begin{array}{ll} \int_{\mathbb{R} ^{n}} \tilde{\xi} (\boldsymbol{x})   L_{\boldsymbol{x}} ^{\prime} (\theta)   d \boldsymbol{x} & \text{if} \boldsymbol{X} \text{iscontinuous,} \\ \sum_{\boldsymbol{x} \in \mathcal{X} ^{n}} \tilde{\xi} (\boldsymbol{x})   L_{\boldsymbol{x}} ^{\prime} (\theta) & \text{if} \boldsymbol{X} \text{isdiscrete,} \end{array} \right.
+\operatorname{Cov} _{\theta} \bigl [ \tilde{\xi}, \ell_{\boldsymbol{X}} ^{\prime} (\theta) \bigr ] = E_{\theta} \biggl [ \tilde{\xi} \frac{L_{\boldsymbol{X}} ^{\prime} (\theta)}{L_{\boldsymbol{X}} (\theta)} \biggr ] = \left\{\begin{array}{ll} \int_{\mathbb{R} ^{n}} \tilde{\xi} (\boldsymbol{x})   L_{\boldsymbol{x}} ^{\prime} (\theta)   d \boldsymbol{x} & \text{if } \boldsymbol{X} \text{iscontinuous,} \\ \sum_{\boldsymbol{x} \in \mathcal{X} ^{n}} \tilde{\xi} (\boldsymbol{x})   L_{\boldsymbol{x}} ^{\prime} (\theta) & \text{if } \boldsymbol{X} \text{isdiscrete,} \end{array} \right.
 $$
 
 noting that  $\left[L_{\boldsymbol{x}}^{\prime}(\theta) / L_{\boldsymbol{x}}(\theta)\right]L_{\boldsymbol{x}}(\theta) = L_{\boldsymbol{x}}^{\prime}(\theta)$ . Then due to the regularity conditions, we have
@@ -1898,7 +1898,7 @@ Note: The process of applying the Rao-Blackwell theorem to a naïve unbiased est
 EXAMPLE 7.2.3: In Example 7.2.1, we stated that an unbiased estimator of  $\zeta = \exp(-\lambda)$  is  $\tilde{\zeta} = n^{-1}\sum_{i=1}^{n}I_{\{0\}}(X_i)$ . However, consider the even simpler unbiased estimator defined by
 
 $$
-\tilde{\zeta} _{1} = I_{\{0 \}} (X_{1}) = \left\{\begin{array}{ll} 0 & \text{if} X_{1} = 0, \\ 1 & \text{if} X_{1} > 0. \end{array} \right.
+\tilde{\zeta} _{1} = I_{\{0 \}} (X_{1}) = \left\{\begin{array}{ll} 0 & \text{if } X_{1} = 0, \\ 1 & \text{if } X_{1} > 0. \end{array} \right.
 $$
 
 Suppose we now apply the Rao-Blackwell theorem to the unbiased estimator  $\tilde{\zeta}_1$  with the sufficient statistic  $Y = \sum_{i=1}^{n} X_i$ . Then
@@ -2053,7 +2053,7 @@ Note: We will write  $\mathrm{Power}(\theta)$  to avoid any notational confusion
 Notice that the power function provides the probabilities of both error types:
 
 $$
-\operatorname{Power} (\theta) = P_{\theta} (\boldsymbol{X} \in R) = \left\{\begin{array}{ll} P_{\theta} (\text{typeIerror}) & \text{if} \theta \in \Theta_{0}, \\ 1 - P_{\theta} (\text{typeIIerror}) & \text{if} \theta \in \Theta_{1}. \end{array} \right.
+\operatorname{Power} (\theta) = P_{\theta} (\boldsymbol{X} \in R) = \left\{\begin{array}{ll} P_{\theta} (\text{type I error}) & \text{if } \theta \in \Theta_{0}, \\ 1 - P_{\theta} (\text{type II error}) & \text{if } \theta \in \Theta_{1}. \end{array} \right.
 $$
 
 Note: When people use the word "power" in the context of hypothesis tests, they usually mean  $1 - P_{\theta}$  (type II error), i.e., they mean the values of  $\operatorname{Power}(\theta)$  for  $\theta \in \Theta_1$ . The definition of the power function above is simply the logical extension to  $\theta \in \Theta_0$  as well. Note, however, that it is actually bad if  $\operatorname{Power}(\theta)$  is large for  $\theta \in \Theta_0$ .
@@ -2122,7 +2122,7 @@ Thus, fixing a maximum probability of a type I error is equivalent to specifying
 Suppose we have a test of the hypotheses  $H_0: \theta \in \Theta_0$  and  $H_1: \theta \in \Theta_1$  that rejects  $H_0$  if and only if  $T(\mathbf{X}) \geq c$  for some test statistic  $T(\mathbf{X})$  and some critical value  $c$ . We often wish to choose  $c$  so that the test will have a specified significance level  $\alpha$  (such as  $\alpha = 0.05$ ). The test has level  $\alpha$  if
 
 $$
-P_{\theta} \left[ T (\boldsymbol{X}) \geq c \right] \leq \alpha \quad \text{forall} \theta \in \Theta_{0},
+P_{\theta} \left[ T (\boldsymbol{X}) \geq c \right] \leq \alpha \quad \text{for all} \theta \in \Theta_{0},
 $$
 
 so our goal is to find  $c$  such that this is the case.
@@ -2188,7 +2188,7 @@ EXAMPLE 8.3.2: In Example 8.3.1, we can obtain a test with size  $\alpha$  by ta
 If the null hypothesis is composite, then it may not as easy to achieve a test with a specified level or size based on a particular test statistic  $T(\mathbf{X})$ . However, sometimes we find that
 
 $$
-\sup_{\theta \in \Theta_{0}} P_{\theta} \left[ T (\boldsymbol{X}) \geq c \right] = P_{\theta^{\star}} \left[ T (\boldsymbol{X}) \geq c \right] \quad \text{forall} c \in \mathbb{R}
+\sup_{\theta \in \Theta_{0}} P_{\theta} \left[ T (\boldsymbol{X}) \geq c \right] = P_{\theta^{\star}} \left[ T (\boldsymbol{X}) \geq c \right] \quad \text{for all} c \in \mathbb{R}
 $$
 
 for some  $\theta^{\star} \in \Theta_0 \cup \Theta_1$ . (Often  $\theta^{\star}$  is on the boundary of  $\Theta_0$ .) Then we can proceed as if the set  $\Theta_0$  were instead simply  $\{\theta^{\star}\}$ , i.e., as if the null hypothesis were simply  $H_0: \theta = \theta^{\star}$ .
@@ -2562,7 +2562,7 @@ Unlike a Wald test, a score test does not involve the maximum likelihood estimat
 EXAMPLE 10.2.2: Let  $X_{1}, \ldots, X_{n}$  be iid continuous random variables with pdf
 
 $$
-f_{\theta} (x) = \left\{\begin{array}{ll} \frac{\theta}{(\theta + x) ^{2}} & \text{if} x \geq 0, \\ 0 & \text{if} x < 0, \end{array} \right.
+f_{\theta} (x) = \left\{\begin{array}{ll} \frac{\theta}{(\theta + x) ^{2}} & \text{if } x \geq 0, \\ 0 & \text{if } x < 0, \end{array} \right.
 $$
 
 where  $\theta > 0$  is unknown. The score function is
@@ -2853,13 +2853,13 @@ Asymptotic confidence intervals based on the likelihood ratio test can also be c
 $\triangleright$  SOLUTION: First, note that
 
 $$
-Y = \left\{\begin{array}{ll} 0 & \text{if} \quad 0 \leq X < 1 / 2, \\ 1 & \text{if} 1 / 2 < X < 3 / 2, \\ 2 & \text{if} 3 / 2 < X < 5 / 2, \\ 3 & \text{if} 5 / 2 < X < 7 / 2, \\ 4 & \text{if} 7 / 2 < X \leq 4. \end{array} \right.
+Y = \left\{\begin{array}{ll} 0 & \text{if } \quad 0 \leq X < 1 / 2, \\ 1 & \text{if } 1 / 2 < X < 3 / 2, \\ 2 & \text{if } 3 / 2 < X < 5 / 2, \\ 3 & \text{if } 5 / 2 < X < 7 / 2, \\ 4 & \text{if } 7 / 2 < X \leq 4. \end{array} \right.
 $$
 
 The value of  $Y$  is not clear if  $X \in \{1/2, 3/2, 5/2, 7/2\}$ , but  $P(X \in \{1/2, 3/2, 5/2, 7/2\}) = 0$ , so this ambiguity is irrelevant. Now note that the cdf of  $X$  is
 
 $$
-F (x) = P (X \leq x) = \left\{\begin{array}{ll} 0 & \text{if} x < 0, \\ x^{2} / 16 & \text{if} 0 \leq x \leq 4, \\ 1 & \text{if} x > 4, \end{array} \right.
+F (x) = P (X \leq x) = \left\{\begin{array}{ll} 0 & \text{if } x < 0, \\ x^{2} / 16 & \text{if } 0 \leq x \leq 4, \\ 1 & \text{if } x > 4, \end{array} \right.
 $$
 
 and thus the pmf of  $Y$  is
@@ -2921,7 +2921,7 @@ $\triangleright$  SOLUTION TO (b): No,  $X$  and  $Y$  are not independent since
 $\triangleright$  SOLUTION: The cdf of  $X$  is
 
 $$
-F^{(X)} (x) = \left\{\begin{array}{ll} 0 & \text{if} x \leq 0, \\ 1 - \exp (- x) & \text{if} x > 0. \end{array} \right.
+F^{(X)} (x) = \left\{\begin{array}{ll} 0 & \text{if } x \leq 0, \\ 1 - \exp (- x) & \text{if } x > 0. \end{array} \right.
 $$
 
 Then the cdf of  $Y$  is  $F^{(Y)}(y) = P(Y \leq y) = P(X \leq y^2) = F^{(X)}(y^2) = 1 - \exp(-y^2)$  if  $y > 0$ , with  $F^{(Y)}(y) = 0$  if  $y \leq 0$ . We then differentiate to find that the pdf of  $Y$  is  $f^{(Y)}(y) = 2y\exp(-y^2)$  if  $y > 0$ , with  $f^{(Y)}(y) = 0$  if  $y \leq 0$ .
@@ -3174,7 +3174,7 @@ Observe that the likelihood  $L_{\pmb{x}}(\theta)$  is strictly positive and str
 $\triangleright$  SOLUTION TO (b): We could instead simply take the pdf to be
 
 $$
-f_{\theta} (x) = \left\{\begin{array}{ll} \exp (\theta - x) & \text{if} x \geq \theta , \\ 0 & \text{if} x <   \theta . \end{array} \right.
+f_{\theta} (x) = \left\{\begin{array}{ll} \exp (\theta - x) & \text{if } x \geq \theta , \\ 0 & \text{if } x <   \theta . \end{array} \right.
 $$
 
 Then  $L_{\pmb{x}}(m) = 1$ , so the likelihood attains its maximum at  $\theta = m$ . Thus, the maximum likelihood estimator of  $\theta$  is  $\hat{\theta} = m = \min_{1 \leq i \leq n} X_i$ .
@@ -3225,7 +3225,7 @@ $$
 and it can be seen that this critical point is indeed the maximizer, i.e.,
 
 $$
-\ell_{x} \left(\frac{x}{n}\right) = \max_{0 \leq \theta \leq 1} \ell_{x} (\theta) \qquad \text{forall} x \in \{0, \dots , n \}.
+\ell_{x} \left(\frac{x}{n}\right) = \max_{0 \leq \theta \leq 1} \ell_{x} (\theta) \qquad \text{for all} x \in \{0, \dots , n \}.
 $$
 
 Thus, the maximum likelihood estimator of  $\theta$  is  $\hat{\theta}_n = X_n / n$ .
@@ -3254,7 +3254,7 @@ $$
 and it can be seen that this critical point is indeed the maximizer, i.e.,
 
 $$
-\ell_{y} \left(\frac{1}{y + 1}\right) = \max_{0 <   \theta \leq 1} \ell_{y} (\theta) \qquad \text{forallintegers} y \geq 0.
+\ell_{y} \left(\frac{1}{y + 1}\right) = \max_{0 <   \theta \leq 1} \ell_{y} (\theta) \qquad \text{for all integers} y \geq 0.
 $$
 
 Thus, the maximum likelihood estimator of  $\theta$  is  $\hat{\theta} = 1 / (Y + 1)$ .
@@ -3270,7 +3270,7 @@ $\triangleright$  SOLUTION TO (b): In part (a) of problem 9, the maximum likelih
 3. Let  $X_{1}, \ldots, X_{n}$  be iid random variables with a continuous uniform distribution on  $[0, \theta]$ , where  $\theta > 0$  is unknown. Suppose we assign to  $\theta$  the prior pdf
 
 $$
-\pi (\theta) = \left\{\begin{array}{ll} \frac{q k^{q}}{\theta^{q + 1}} & \text{if} \theta \geq k, \\ 0 & \text{if} \theta <   k, \end{array} \right.
+\pi (\theta) = \left\{\begin{array}{ll} \frac{q k^{q}}{\theta^{q + 1}} & \text{if } \theta \geq k, \\ 0 & \text{if } \theta <   k, \end{array} \right.
 $$
 
 where  $k > 0$  and  $q > 0$  are constants. Note: This is called the Pareto  $(k,q)$  distribution, and its mean is  $kq / (q - 1)$  if  $q > 1$  (and  $\infty$  if  $q \leq 1$ ). You may use these facts without proof.
@@ -3337,7 +3337,7 @@ where  $\gamma_{n} = n / (b + n)$ . Clearly  $\gamma_{n} = 1 / (1 + n^{-1}b) \to
 3. Let  $X_{1},\ldots ,X_{n}$  be iid random variables with a continuous uniform distribution on  $[0,\theta ]$ , where  $\theta >0$  is unknown. Suppose we assign to  $\theta$  the prior pdf
 
 $$
-\pi (\theta) = \left\{\begin{array}{ll} \frac{q k^{q}}{\theta^{q + 1}} & \text{if} \theta \geq k, \\ 0 & \text{if} \theta <   k, \end{array} \right.
+\pi (\theta) = \left\{\begin{array}{ll} \frac{q k^{q}}{\theta^{q + 1}} & \text{if } \theta \geq k, \\ 0 & \text{if } \theta <   k, \end{array} \right.
 $$
 
 where  $k > 0$  and  $q > 0$  are constants. Note: This is called the Pareto  $(k,q)$  distribution, and its mean is  $kq / (q - 1)$  if  $q > 1$  (and  $\infty$  if  $q \leq 1$ ). You may use these facts without proof.
@@ -3405,7 +3405,7 @@ which is some polynomial function of  $\theta$ . For  $\tilde{\xi}$  to be unbia
 $\triangleright$  SOLUTION TO (a): The likelihood is
 
 $$
-L_{x} (N) = \frac{1}{N} I_{\{1, \ldots , N \}} (x) = \frac{1}{N} I_{\{x, x + 1, \ldots \}} (N) = \left\{\begin{array}{ll} 0 & \text{if} N <   x, \\ \frac{1}{N} & \text{if} N \geq x. \end{array} \right.
+L_{x} (N) = \frac{1}{N} I_{\{1, \ldots , N \}} (x) = \frac{1}{N} I_{\{x, x + 1, \ldots \}} (N) = \left\{\begin{array}{ll} 0 & \text{if } N <   x, \\ \frac{1}{N} & \text{if } N \geq x. \end{array} \right.
 $$
 
 Then clearly  $L_{x}(N)$  is maximized at  $N = x$ , so the MLE of  $N$  is  $\hat{N} = X$ .
@@ -3457,7 +3457,7 @@ for all  $N > 1$ . (Note that if  $N = 1$ , then both estimators have an MSE of 
 1. Let  $X \sim \operatorname{Bin}(1, \theta)$  (a single observation). Observe that any estimator  $\tilde{\theta} = \tilde{\theta}(X)$  of  $\theta$  can be expressed as
 
 $$
-\tilde{\theta} (X) = \left\{\begin{array}{ll} t_{0} & \text{if} X = 0, \\ t_{1} & \text{if} X = 1, \end{array} \right.
+\tilde{\theta} (X) = \left\{\begin{array}{ll} t_{0} & \text{if } X = 0, \\ t_{1} & \text{if } X = 1, \end{array} \right.
 $$
 
 where  $t_0,t_1\in \mathbb{R}$
@@ -3483,7 +3483,7 @@ where  $t_0,t_1\in \mathbb{R}$
 7. Let  $X_{1},\ldots ,X_{n}\sim \mathrm{iid}\operatorname{Pareto}(k,\alpha)$ , where the  $\operatorname{Pareto}(k,\alpha)$  distribution has pdf
 
 $$
-f (x) = \left\{\begin{array}{ll} \frac{\alpha k^{\alpha}}{x^{\alpha + 1}} & \text{if} x \geq k, \\ 0 & \text{if} x <   k. \end{array} \right.
+f (x) = \left\{\begin{array}{ll} \frac{\alpha k^{\alpha}}{x^{\alpha + 1}} & \text{if } x \geq k, \\ 0 & \text{if } x <   k. \end{array} \right.
 $$
 
 Suppose that  $k > 0$  is known and  $\alpha > 0$  is unknown.
@@ -3500,7 +3500,7 @@ Suppose that  $k > 0$  is known and  $\alpha > 0$  is unknown.
 1. Let  $X \sim \operatorname{Bin}(1, \theta)$  (a single observation). Observe that any estimator  $\tilde{\theta} = \tilde{\theta}(X)$  of  $\theta$  can be expressed as
 
 $$
-\tilde{\theta} (X) = \left\{\begin{array}{ll} t_{0} & \text{if} X = 0, \\ t_{1} & \text{if} X = 1, \end{array} \right.
+\tilde{\theta} (X) = \left\{\begin{array}{ll} t_{0} & \text{if } X = 0, \\ t_{1} & \text{if } X = 1, \end{array} \right.
 $$
 
 where  $t_0,t_1\in \mathbb{R}$
@@ -3542,7 +3542,7 @@ so the weighted average MSE is minimized by taking  $t_0 = 1/3$  and  $t_1 = 2/3
 $\triangleright$  SOLUTION TO (d): By Theorem 5.2.6 from the notes, the weighted average MSE with weighting function  $w(\theta)$  is minimized by the posterior mean that results from a Bayesian analysis with prior  $\pi (\theta) = w(\theta)$ . Now note that  $w(\theta) = 1$  for  $0\leq \theta \leq 1$  is the pdf of a  $\operatorname{Beta}(1,1)$  distribution. Then we can simply reuse the result from Examples 4.2.1 and 4.3.1 of the notes, in which we found that the posterior mean of  $\theta$  for a  $\operatorname{Bin}(n,\theta)$  likelihood and a  $\operatorname{Beta}(a,b)$  prior on  $\theta$  is
 
 $$
-\hat{\theta} ^{B} (X) = E (\theta \mid X) = \frac{x + a}{n + a + b} = \frac{x + 1}{3} = \left\{\begin{array}{ll} 1 / 3 & \text{if} X = 0, \\ 2 / 3 & \text{if} X = 1, \end{array} \right.
+\hat{\theta} ^{B} (X) = E (\theta \mid X) = \frac{x + a}{n + a + b} = \frac{x + 1}{3} = \left\{\begin{array}{ll} 1 / 3 & \text{if } X = 0, \\ 2 / 3 & \text{if } X = 1, \end{array} \right.
 $$
 
 noting that  $n = a = b = 1$
@@ -3688,7 +3688,7 @@ A
 7. Let  $X_{1},\ldots ,X_{n}\sim \mathrm{iid}\operatorname{Pareto}(k,\alpha)$  , where the Pareto  $(k,\alpha)$  distribution has pdf
 
 $$
-f (x) = \left\{\begin{array}{ll} \frac{\alpha k^{\alpha}}{x^{\alpha + 1}} & \text{if} x \geq k, \\ 0 & \text{if} x <   k. \end{array} \right.
+f (x) = \left\{\begin{array}{ll} \frac{\alpha k^{\alpha}}{x^{\alpha + 1}} & \text{if } x \geq k, \\ 0 & \text{if } x <   k. \end{array} \right.
 $$
 
 Suppose that  $k > 0$  is known and  $\alpha > 0$  is unknown.
@@ -3815,14 +3815,14 @@ for all  $p > 0$ . You may use any of these facts without proof.
 6. Let  $X$  be a single observation of an  $\operatorname{Exp}(\lambda)$  random variable, which has pdf
 
 $$
-f_{\lambda} (x) = \left\{\begin{array}{ll} \lambda \exp (- \lambda x) & \text{if} x \geq 0, \\ 0 & \text{if} x < 0. \end{array} \right.
+f_{\lambda} (x) = \left\{\begin{array}{ll} \lambda \exp (- \lambda x) & \text{if } x \geq 0, \\ 0 & \text{if } x < 0. \end{array} \right.
 $$
 
 Consider testing  $H_0:\lambda \geq \lambda_0$  versus  $H_{1}:\lambda <  \lambda_{0}$
 
 (a) Find the power function of the hypothesis test that rejects  $H_0$  if and only if  $X \geq c$ .  
 (b) Let  $0 < \alpha < 1$ . Find a value of  $c$  such that the test in part (a) has size  $\alpha$ .  
-(c) For what true values of  $\lambda$  is  $P_{\lambda}(\text{typeIIerror}) \geq 1/2$  for the test in part (a) with size  $\alpha$  as in (b)?
+(c) For what true values of  $\lambda$  is  $P_{\lambda}(\text{type II error}) \geq 1/2$  for the test in part (a) with size  $\alpha$  as in (b)?
 
 7. Let  $X_1, X_2 \sim \mathrm{iid}\operatorname{Bin}(1,\theta)$ , and consider testing  $H_0: \theta = 1/3$  versus  $H_1: \theta < 1/3$ .
 
@@ -3990,7 +3990,7 @@ Thus, the size of the test is  $(3 / 4)^n$ .
 6. Let  $X$  be a single observation of an  $\operatorname{Exp}(\lambda)$  random variable, which has pdf
 
 $$
-f_{\lambda} (x) = \left\{\begin{array}{ll} \lambda \exp (- \lambda x) & \text{if} x \geq 0, \\ 0 & \text{if} x < 0. \end{array} \right.
+f_{\lambda} (x) = \left\{\begin{array}{ll} \lambda \exp (- \lambda x) & \text{if } x \geq 0, \\ 0 & \text{if } x < 0. \end{array} \right.
 $$
 
 Consider testing  $H_0:\lambda \geq \lambda_0$  versus  $H_{1}:\lambda <  \lambda_{0}$
@@ -4021,7 +4021,7 @@ noting that  $\log \alpha$  is negative since  $0 < \alpha < 1$ .
 
 #
 
-(c) For what true values of  $\lambda$  is  $P_{\lambda}(\text{typeIIerror}) \geq 1/2$  for the test in part (a) with size  $\alpha$  as in (b)?
+(c) For what true values of  $\lambda$  is  $P_{\lambda}(\text{type II error}) \geq 1/2$  for the test in part (a) with size  $\alpha$  as in (b)?
 
 $\triangleright$  SOLUTION:  $P_{\lambda}$  (type II error)  $\geq 1 / 2$  if and only if both  $\lambda < \lambda_0$  and  $\mathrm{Power}(\lambda)\leq 1 / 2$  The test in part (a) with size  $\alpha$  as in (b) has power function
 
@@ -4035,7 +4035,7 @@ $$
 \operatorname{Power} (\lambda) \leq 1 / 2 \iff \lambda \geq - \frac{\lambda_{0} \log 2}{\log \alpha},
 $$
 
-again noting that  $\log \alpha$  is negative. Thus,  $P_{\lambda}(\text{typeIIerror}) \geq 1/2$  if and only if
+again noting that  $\log \alpha$  is negative. Thus,  $P_{\lambda}(\text{type II error}) \geq 1/2$  if and only if
 
 $$
 - \frac{\lambda_{0} \log 2}{\log \alpha} \leq \lambda <   \lambda_{0}.

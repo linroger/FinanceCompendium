@@ -41,35 +41,35 @@ Assume that there are riskless assets US MONEYMARKET and UK MONEYMARKET in dolla
 investor; the choice of numeraire (dollar or pound sterling) determines which asset is riskless. Let's take the point of view of the pound-sterling investor. Let  $Y_{t}$  be the rate of exchange at time  $t$  (that is,  $Y_{t}$  is the number of British pounds that one dollar will buy at time  $t$ ). In the simplest model<sup>3</sup>,  $Y_{t}$  behaves like a geometric Brownian motion, that is, it follows a stochastic differential equation of the form
 
 $$
-d Y _ {t} = \mu Y _ {t} d t + \sigma Y _ {t} d W _ {t}, \tag {1}
+dY_{t} = \mu Y_{t}dt + \sigma Y_{t}dW_{t}, \tag{1}
 $$
 
 where  $W_{t}$  is a Wiener process. Let  $A_{t}$  and  $B_{t}$  denote the share prices of the assets US MONEY-MARKET and UK MONEY MARKET, reported in units of dollars and British pounds, respectively, and normalized so that the time-zero share prices are both 1. Then
 
 $$
-A _ {t} = \exp \left\{r _ {A} t \right\} \quad \text {a n d} \tag {2}
+A_{t} = \exp\{r_{A}t\} \quad \text{and} \tag{2}
 $$
 
 $$
-B _ {t} = \exp \left\{r _ {B} t \right\}. \tag {3}
+B_{t} = \exp\{r_{B}t\}. \tag{3}
 $$
 
 The share price of US MONEYMARKET at time  $t$  in pounds sterling is  $A_{t}Y_{t}$ . Solving the stochastic differential equation (1) gives the explicit formula
 
 $$
-A _ {t} Y _ {t} = Y _ {0} \exp \left\{r _ {A} t + \mu t - \sigma^ {2} t / 2 + \sigma W _ {t} \right\}. \tag {4}
+A_{t}Y_{t} = Y_{0}\exp\{r_{A}t + \mu t - \sigma^{2}t/2 + \sigma W_{t}\}. \tag{4}
 $$
 
 Proposition 1. Let  $Q_B$  be a risk-neutral probability measure for the pound-sterling investor. If the dollar/pound sterling exchange rate obeys a stochastic differential equation of the form (1), and if the riskless rates of return for dollar investors and pound-sterling investors are  $r_A$  and  $r_B$ , respectively, then under  $Q_B$  it must be the case that
 
 $$
-\mu = r _ {B} - r _ {A}. \tag {5}
+\mu = r_{B} - r_{A}. \tag{5}
 $$
 
 Therefore, exchange rate  $Y_{t}$  is given by
 
 $$
-Y _ {t} = Y _ {0} \exp \left\{\left(r _ {B} - r _ {A}\right) t - \sigma^ {2} t / 2 + \sigma W _ {t} \right\}, \tag {6}
+Y_{t} = Y_{0}\exp\{(r_{B} - r_{A})t - \sigma^{2}t/2 + \sigma W_{t}\}, \tag{6}
 $$
 
 where under the measure  $Q_B$  the process  $W_t$  is a standard Wiener process.
@@ -77,7 +77,7 @@ where under the measure  $Q_B$  the process  $W_t$  is a standard Wiener process
 Proof. Under  $Q_B$ , the discounted share price of the asset US MONEYMARKET in pound sterling must be a martingale. But the discounted share price is  $\exp\{-r_B t\} A_t Y_t$ , which by equation (4) equals
 
 $$
-Y _ {0} \exp \{(r _ {A} - r _ {B}) t + \mu t \} \exp \{- \sigma^ {2} t / 2 + \sigma W _ {t} \}.
+Y_{0}\exp\{(r_{A} - r_{B})t + \mu t\}\exp\{-\sigma^{2}t/2 + \sigma W_{t}\}.
 $$
 
 The second exponential is by itself a martingale (see Lecture 8), and the first exponential is nonrandom. Thus, in order that the product of the two exponentials be a martingale it must be that  $r_A - r_B + \mu = 0$ .
@@ -89,7 +89,7 @@ Proposition 1 is fairly straightforward, given the results from stochastic calcu
 Proposition 2. Let  $Q_A$  be a risk-neutral probability measure for the dollar investor. If the dollar/pound sterling exchange rate obeys a stochastic differential equation of the form (1), where  $W_t$  is a standard Brownian motion under  $Q_A$ , and if the riskless rates of return for dollar investors and pound-sterling investors are  $r_A$  and  $r_B$ , respectively, then under  $Q_A$  it must be the case that
 
 $$
-\mu = r _ {B} - r _ {A} + \sigma^ {2}. \tag {7}
+\mu = r_{B} - r_{A} + \sigma^{2}. \tag{7}
 $$
 
 Proof. Homework.
@@ -103,39 +103,39 @@ The risk-neutral probability measures  $Q_{A}$  and  $Q_{B}$  for dollar and pou
 Proposition 3. The measures  $Q_{A}$  and  $Q_{B}$  are mutually absolutely continuous, that is, they are related by the likelihood ratio
 
 $$
-\left(\frac {d Q _ {A}}{d Q _ {B}}\right) _ {\mathcal {F} _ {T}} = \exp \left\{\sigma W _ {T} - \sigma^ {2} T / 2 \right\}. \tag {8}
+\left(\frac{dQ_{A}}{dQ_{B}}\right)_{\mathcal{F}_{T}} = \exp\{\sigma W_{T} - \sigma^{2}T/2\}. \tag{8}
 $$
 
 Proof. Consider a contingent claim whose value at time  $t$  in dollars is  $V_{t}$ . The price  $V_{0}$  of this claim at time  $t = 0$ , in dollars, is the discounted expected value of its price, in dollars, at time  $T$ , where the expectation is computed under  $Q_{A}$ , the risk-neutral measure for dollar investors:
 
 $$
-V _ {0} = e ^ {- r _ {A} T} E _ {A} V _ {T}. \tag {9}
+V_{0} = e^{-r_{A}T}E_{A}V_{T}. \tag{9}
 $$
 
 Let  $U_{t}$  be the time- $t$  price of the claim in pounds sterling. Then  $U_{t} = V_{t}Y_{t}$ , where  $Y_{t}$  is the rate of exchange between dollars and pounds sterling. Since the claim is a tradeable asset, its price in pounds sterling must be a martingale under  $Q_{B}$ , the risk-neutral measure for pound-sterling investors. In particular, the time-zero price must be the discounted expected value of the time- $T$  price:
 
 $$
-U _ {0} = e ^ {- r _ {B} T} E _ {B} U _ {T} \quad \Longrightarrow
+U_{0} = e^{-r_{B}T}E_{B}U_{T} \quad \Longrightarrow
 $$
 
 $$
-V _ {0} Y _ {0} = e ^ {- r _ {B} T} E _ {B} \left(V _ {T} Y _ {T}\right) \quad \Longrightarrow
+V_{0}Y_{0} = e^{-r_{B}T}E_{B}(V_{T}Y_{T}) \quad \Longrightarrow
 $$
 
 $$
-V _ {0} = e ^ {- r _ {A} T} E _ {B} \left(V _ {T} \left(Y _ {T} / Y _ {0}\right) e ^ {\left(r _ {A} - r _ {B}\right) T}\right). \tag {10}
+V_{0} = e^{-r_{A}T}E_{B}(V_{T}(Y_{T}/Y_{0})e^{(r_{A} - r_{B})T}). \tag{10}
 $$
 
 Comparing equations (9) and (10) shows that the expectation operators  $E_{A}$  and  $E_{B}$  are related as follows:
 
 $$
-E _ {A} V _ {T} = E _ {B} (V _ {T} (Y _ {T} / Y _ {0}) e ^ {(r _ {A} - r _ {B}) T}).
+E_{A}V_{T} = E_{B}(V_{T}(Y_{T}/Y_{0})e^{(r_{A} - r_{B})T}).
 $$
 
 Since this formula holds for any nonnegative,  $\mathcal{F}_T$ -measurable random variable  $V_T$ , it follows from equation (6) above that
 
 $$
-\left(\frac {d Q _ {A}}{d Q _ {B}}\right) _ {\mathcal {F} _ {T}} = (Y _ {T} / Y _ {0}) e ^ {(r _ {A} - r _ {B}) T} = \exp \{\sigma W _ {T} - \sigma^ {2} T / 2 \}.
+\left(\frac{dQ_{A}}{dQ_{B}}\right)_{\mathcal{F}_{T}} = (Y_{T}/Y_{0})e^{(r_{A} - r_{B})T} = \exp\{\sigma W_{T} - \sigma^{2}T/2\}.
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/14eaf832-35e9-45e0-b1ee-e2cd1bf0a97a/b84ccf2db0b9212ecfe7f3201c12dba3c05d4db585bcf0000680f2ab1c5a771d.jpg)
@@ -147,10 +147,10 @@ It is noteworthy that the likelihood ratio (8) is of the same type as occurs in 
 then under  $Q_A$  the process  $\{\tilde{W}_t\}_{0 \leq t \leq T}$  is a standard Wiener process. Substituting this equation into formula (6) gives the following alternative form for the exchange rate process  $Y_t$ :
 
 $$
-Y _ {t} = Y _ {0} \exp \left\{\left(r _ {B} - r _ {A}\right) t - \sigma^ {2} t / 2 + \sigma W _ {t} \right\}
+Y_{t} = Y_{0}\exp\{(r_{B} - r_{A})t - \sigma^{2}t/2 + \sigma W_{t}\}
 $$
 
-(12)  $= Y_{0}\exp \{(r_{B} - r_{A})t + \sigma^{2}t / 2 + \sigma \tilde{W}_{t}\} .$
+(12)  $= Y_{0}\exp\{(r_{B} - r_{A})t + \sigma^{2}t/2 + \sigma \tilde{W}_{t}\}.$
 
 It follows by Itô's formula that the exchange rate process obeys the stochastic differential equation
 
@@ -165,7 +165,7 @@ Consider an option CALL that gives the owner the right (but no obligation) to ex
 (14)  $V_{0} = e^{-r_{A}T}E_{A}(K / Y_{T} - 1)_{+}$
 
 $$
-= e ^ {- r _ {A} T} E _ {A} \left(K Y _ {0} \exp \left\{\left(r _ {A} - r _ {B} + \sigma^ {2} / 2\right) t - \sigma W _ {t} \right\} - 1\right) _ {+}.
+= e^{-r_{A}T}E_{A}(KY_{0}\exp\{(r_{A} - r_{B} + \sigma^{2}/2)t - \sigma W_{t}\} - 1)_{+}.
 $$
 
 This last expectation is identical in form to the expectation that we encountered in pricing a European call option on a stock in the Black-Scholes theory, and thus may be evaluated explicitly in terms of the cumulative normal distribution function  $\Phi$ .

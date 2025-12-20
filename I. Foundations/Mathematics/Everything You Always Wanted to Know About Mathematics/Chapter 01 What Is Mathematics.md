@@ -77,13 +77,13 @@ Let's look at some sample "proofs" and see whether they work well enough. (We sa
 The area of the larger square can be computed in two ways: by applying the area formula to the larger square or by adding the area of the smaller square to the area of the four triangles. Thus, it must be true that
 
 $$
-(a + b) ^ {2} = c ^ {2} + 4 \cdot \frac {a b}{2} = c ^ {2} + 2 a b
+(a + b)^{2} = c^{2} + 4 \cdot \frac{a b}{2} = c^{2} + 2 a b
 $$
 
 Expanding the expression on the left and canceling a common term on both sides yields
 
 $$
-a ^ {2} + 2 a b + b ^ {2} = c ^ {2} + 2 a b
+a^{2} + 2 a b + b^{2} = c^{2} + 2 a b
 $$
 
 Therefore,  $a^2 + b^2 = c^2$  is true.
@@ -99,19 +99,19 @@ Are you convinced? Did each step make sense? Maybe you're not sure yet, so let's
 Since the Pythagorean Theorem is true, we can apply it to all three of the right triangles in the diagram, namely  $ABC, BCD, ACD$ . This tells us (defining  $e = c - d$ )
 
 $$
-\begin{array}{l} a ^ {2} = d ^ {2} + f ^ {2} \\ b ^ {2} = f ^ {2} + e ^ {2} \\ c ^ {2} = a ^ {2} + b ^ {2} \\ \end{array}
+\begin{array}{l} a^{2} = d^{2} + f^{2} \\ b^{2} = f^{2} + e^{2} \\ c^{2} = a^{2} + b^{2} \\ \end{array}
 $$
 
 Adding the first two equations together and replacing this sum in the third equation, we get
 
 $$
-c ^ {2} = d ^ {2} + e ^ {2} + 2 f ^ {2}
+c^{2} = d^{2} + e^{2} + 2 f^{2}
 $$
 
 Notice that angles  $\angle ABC$  and  $\angle ACD$  are equal, because they are both complementary to angle  $\angle CAB$ , so we know triangles  $\triangle CDB$  and  $\triangle ADC$  are similar triangles. (We are now assuming some familiarity with plane geometry.) This tells us  $\frac{e}{f} = \frac{f}{d}$ , and thus  $f^2 = ed$ . We can use this to replace  $f^2$  in the line above and factor, as follows:
 
 $$
-c ^ {2} = d ^ {2} + e ^ {2} + 2 d e = (d + e) ^ {2}
+c^{2} = d^{2} + e^{2} + 2 d e = (d + e)^{2}
 $$
 
 Taking the square root of both sides (and knowing  $c, d, e$  are all positive numbers) tells us  $c = d + e$ , which is true by the definition of the lengths  $d$  and  $e$ . Therefore, our assumption that the Pythagorean Theorem is true was valid.
@@ -209,7 +209,7 @@ Theorem 1.1.3 (Infinitude of the Primes). There are infinitely-many prime number
 "Proof". Assume instead that there are only finitely-many prime numbers, and list them in ascending order:  $p_1, p_2, p_3, \ldots, p_k$ , so that  $p_k$  is the largest of these prime numbers. Define the new number
 
 $$
-N = \left(p _ {1} \cdot p _ {2} \cdot p _ {3} \cdot \dots \cdot p _ {k}\right) + 1
+N = \left(p_{1} \cdot p_{2} \cdot p_{3} \cdot \dots \cdot p_{k}\right) + 1
 $$
 
 It must be true that  $N$  is divisible by some prime number. However, it cannot be divisible by  $p_1$  or  $p_2$  or … or  $p_k$ , because that would leave a remainder of 1,
@@ -253,7 +253,7 @@ Proof. We know  $\sqrt{2}$  is an irrational number. Consider the number  $x = \
 - However, if  $x$  is irrational, then we can choose  $a = \sqrt{2}^{\sqrt{2}}$  and  $b = \sqrt{2}$  because then
 
 $$
-a ^ {b} = \left(\sqrt {2} ^ {\sqrt {2}}\right) ^ {\sqrt {2}} = \left(\sqrt {2}\right) ^ {\sqrt {2} \cdot \sqrt {2}} = \left(\sqrt {2}\right) ^ {2} = 2
+a^{b} = \left(\sqrt{2}^{\sqrt{2}}\right)^{\sqrt{2}} = \left(\sqrt{2}\right)^{\sqrt{2} \cdot \sqrt{2}} = \left(\sqrt{2}\right)^{2} = 2
 $$
 
 and 2 is a rational number.
@@ -349,11 +349,11 @@ x = y
 $$
 
 $$
-x ^ {2} = x y
+x^{2} = x y
 $$
 
 $$
-x ^ {2} - y ^ {2} = x y - y ^ {2}
+x^{2} - y^{2} = x y - y^{2}
 $$
 
 $$
@@ -397,19 +397,19 @@ Here's another proof of a similar "fact", namely that  $0 = 36$ .
 "Proof". Consider the equation  $x^{2} + y^{2} = 25$ . Rearranging to isolate  $x$  tells us
 
 $$
-x = \sqrt {2 5 - y ^ {2}}
+x = \sqrt{25 - y^{2}}
 $$
 
 and then adding 3 to both sides and squaring yields
 
 $$
-(x + 3) ^ {2} = \left(3 + \sqrt {2 5 - y ^ {2}}\right) ^ {2}
+(x + 3)^{2} = \left(3 + \sqrt{25 - y^{2}}\right)^{2}
 $$
 
 Notice that  $x = -3$  and  $y = 4$  is a solution to the original equation, so the final equation should be true, as well. Plugging in these values for  $x$  and  $y$  tells us
 
 $$
-0 = (- 3 + 3) ^ {2} = \left(3 + \sqrt {2 5 - 1 6}\right) ^ {2} = (3 + 3) ^ {2} = 3 6
+0 = (-3 + 3)^{2} = \left(3 + \sqrt{25 - 16}\right)^{2} = (3 + 3)^{2} = 36
 $$
 
 Therefore,  $0 = 36$
@@ -419,11 +419,11 @@ What happened here? Can you spot the illogical step? Perhaps it would help if we
 $x$  and  $y$  that we chose towards the end:
 
 $$
-\begin{array}{l} (- 3) ^ {2} + 4 ^ {2} = 2 5 \\ - 3 = \sqrt {2 5 - 4 ^ {2}} \\ \end{array}
+\begin{array}{l} (-3)^{2} + 4^{2} = 25 \\ -3 = \sqrt{25 - 4^{2}} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} (- 3 + 3) ^ {2} = \left(3 + \sqrt {2 5 - 4 ^ {2}}\right) ^ {2} \\ 0 = 3 6 \\ \end{array}
+\begin{array}{l} (-3 + 3)^{2} = \left(3 + \sqrt{25 - 4^{2}}\right)^{2} \\ 0 = 36 \\ \end{array}
 $$
 
 It's obvious now, isn't it? There's an issue with applying the square root operation to both sides of an equation, and it's dependent on the fact that  $(-x)^{2} = x^{2}$ .
@@ -431,7 +431,7 @@ It's obvious now, isn't it? There's an issue with applying the square root opera
 When we are looking to solve an equation like  $z^2 = x^2$ , we have to remember there are two roots of this equation:  $z = -x$  and  $z = x$ . Accordingly, starting from an equation and squaring both sides is a completely logical step (the truth of the resulting equations follows from the truth of the original equation), but working the other way is an illogical step (the truth of the squared equation does not necessarily tell us that the square-rooted equation is also true). This is an issue with conditional statements or logical implications, an idea we will discuss in detail later on (in Section 4.5.3). For now, we can summarize this idea with the following line:
 
 $$
-\text {I f} a = b \text {t h e n} a ^ {2} = b ^ {2}, \text {b u t i f} a ^ {2} = b ^ {2} \text {t h e n} a = b \text {o r} a = - b.
+\text{If } a = b \text{ then } a^{2} = b^{2}, \text{ butif } a^{2} = b^{2} \text{ then } a = b \text{ or } a = -b.
 $$
 
 This shows why moving from  $x^{2} + y^{2} = 25$  to  $x = \sqrt{25 - y^2}$  in the "proof" above is an illogical step: we are immediately assuming one particular choice for the square root when there are two possible options. What would have happened if we had chosen the negative square root there? Try rewriting the proof with the second step reading  $-x = \sqrt{25 - y^2}$ , instead, and then use the same values for  $x$  and  $y$  at the end. What happens? What if you use  $x = 3$  and  $y = -4$  instead? Or  $x = -5$  and  $y = 0$ ? Can you describe how to determine when we should use the positive root  $x$  and when we should use the negative root  $-x$ ?
@@ -463,7 +463,7 @@ Fact: Consider the polynomial function  $f(x) = x^4 - 8x^2 + 16$ . This function
 like this:
 
 $$
-f (x) = x ^ {4} - 8 x ^ {2} + 1 6 = (x - 2) ^ {2} (x + 2) ^ {2}
+f (x) = x^{4} - 8 x^{2} + 16 = (x - 2)^{2} (x + 2)^{2}
 $$
 
 Now, any number  $z$  must be less than  $-2$ , or greater than 2, or strictly between  $-2$  and 2, or equal to one of them. When  $z > 2$  then  $z - 2$  and  $z + 2$  are both greater than 0 so  $f(z) > 0$ . When  $z < -2$  then both terms are negative and a negative squared is positive so  $f(z) > 0$ , too. When  $-2 < x < 2$ , a similar thing happens, and when  $x = 2$  or  $x = -2$  one of the terms is 0 so  $f = 0$ . Therefore, what we were trying to prove has to be true.
@@ -473,13 +473,13 @@ What is there to criticize in this proof? First of all, is it correct? Is it pre
 Proof. We begin by factoring the function  $f(x)$  by considering it as a quadratic function in the variable  $x^2$
 
 $$
-f (x) = \left(x ^ {2}\right) ^ {2} - 8 x ^ {2} + 1 6 = \left(x ^ {2} - 4\right) ^ {2}
+f (x) = \left(x^{2}\right)^{2} - 8 x^{2} + 16 = \left(x^{2} - 4\right)^{2}
 $$
 
 Next, we can factor  $x^{2} - 4 = (x + 2)(x - 2)$  and rewrite the original function as
 
 $$
-f (x) = \left((x + 2) (x - 2)\right) ^ {2} = (x + 2) ^ {2} (x - 2) ^ {2}
+f (x) = \left((x + 2) (x - 2)\right)^{2} = (x + 2)^{2} (x - 2)^{2}
 $$
 
 Now, for any real number  $x$ ,  $(x + 2)^2 \geq 0$  and  $(x - 2)^2 \geq 0$ , since a squared quantity is always nonnegative. A product of two nonnegative terms is also nonnegative, so  $f(x) = (x + 2)^2 (x - 2)^2 \geq 0$ , for any value of  $x$ .
@@ -539,7 +539,7 @@ Now, this is not a precise analogy, mind you, and the study of abstract logic is
 One very important application of the ideas and results of logic is in the development and study of computer science, particularly theoretical computer science and computability theory. This particular branch of mathematics was initially motivated by one of David Hilbert's Twenty-Three Problems: this was a list of famously unsolved conjectures in the world of mathematics at the time of their publishing, in 1900. Problem number ten dealt with solving Diophantine Equations, which are equations of the form
 
 $$
-a _ {1} x _ {1} ^ {p _ {1}} + a _ {2} x _ {2} ^ {p _ {2}} + a _ {3} x _ {3} ^ {p _ {3}} + \dots + a _ {n} x _ {n} ^ {p _ {n}} = c
+a_{1} x_{1}^{p_{1}} + a_{2} x_{2}^{p_{2}} + a_{3} x_{3}^{p_{3}} + \dots + a_{n} x_{n}^{p_{n}} = c
 $$
 
 where  $a_1, a_2, \ldots, a_n$  and  $c$  are fixed, given constants,  $p_1, \ldots, p_n$  are fixed natural numbers, and  $x_1, x_2, \ldots, x_n$  are variables that are left to be determined so that they make the equation true.
@@ -742,19 +742,19 @@ $$
 Following the method we just described, we would rearrange the first equation to write  $y$  in terms of  $x$
 
 $$
-y = \frac {1}{4} (- 2 - 7 x)
+y = \frac{1}{4} (- 2 - 7 x)
 $$
 
 then substitute this into the second equation
 
 $$
-- 2 x + 3 \cdot \frac {1}{4} (- 2 - 7 x) = 1 3
+- 2 x + 3 \cdot \frac{1}{4} (- 2 - 7 x) = 13
 $$
 
 and solve that new equation for  $x$ :
 
 $$
-\begin{array}{l} - 2 x - \frac {3}{2} - \frac {2 1}{4} x = 1 3 \\ - \frac {2 9}{4} x = \frac {2 9}{2} \\ x = - 2 \\ \end{array}
+\begin{array}{l} - 2 x - \frac{3}{2} - \frac{21}{4} x = 13 \\ - \frac{29}{4} x = \frac{29}{2} \\ x = - 2 \\ \end{array}
 $$
 
 Then, we would use this value in the first equation and solve for  $y$ :
@@ -808,7 +808,7 @@ $$
 $$
 
 $$
-\frac {9}{2} x - y = 5
+\frac{9}{2} x - y = 5
 $$
 
 These are really the same equation! Accordingly, we wouldn't actually be able to solve them for unique values of  $x$  and  $y$ .
@@ -892,7 +892,7 @@ How old are the three family members?
 Sometimes we will need to work with variables that are squared or cubed or raised to even higher powers. In general, a polynomial is the term we use for a function that has one or more variables raised to integer powers, multiplied by coefficients, and added together. Here are some examples of polynomials:
 
 $$
-x ^ {2} - 7 x + 1, \quad 7 p ^ {6} + 5 p ^ {4} + 3 p ^ {2} + 2 p, \quad \frac {1}{2} z ^ {2} + 9 y ^ {2} z - 2 y + z ^ {3} y ^ {2} - 7 z
+x^{2} - 7 x + 1, \quad 7 p^{6} + 5 p^{4} + 3 p^{2} + 2 p, \quad \frac{1}{2} z^{2} + 9 y^{2} z - 2 y + z^{3} y^{2} - 7 z
 $$
 
 These types of functions are quite common and popular in mathematics, partly due to their convenient properties and partly due to their prevalence in nature. We will see them appear throughout this book. For now, though, let's focus on polynomials that only have one input variable.
@@ -908,7 +908,7 @@ Fact: If  $a$  and  $b$  are real numbers and  $ab = 0$ , then  $a = 0$  or  $b 
 Example 1.3.4. Let's see a specific example. Let's try to factor the following polynomial:
 
 $$
-p (x) = x ^ {2} + 6 x + 8
+p (x) = x^{2} + 6 x + 8
 $$
 
 (It is common notation to define polynomials as  $p(x)$ , where  $p$  stands for polynomial,  $x$  is the input variable, and  $p(x)$  is the output value corresponding to the input value  $x$ . This doesn't have to be the case, though.)
@@ -916,7 +916,7 @@ $$
 You might notice that
 
 $$
-p (x) = x ^ {2} + 6 x + 8 = (x + 4) \cdot (x + 2) = (x + 4) (x + 2)
+p (x) = x^{2} + 6 x + 8 = (x + 4) \cdot (x + 2) = (x + 4) (x + 2)
 $$
 
 (It is also fairly common to drop the  $\cdot$  when there are factors separated by parentheses, so we will adopt that convention from here on out, as well.)
@@ -924,7 +924,7 @@ $$
 The reason this factorization works is because we are applying the distributive property multiple times, in reverse. If we were to expand the factorization we just found, explicitly showing every step, it would look like:
 
 $$
-\begin{array}{l} p (x) = (x + 4) (x + 2) \\ = x (x + 2) + 4 (x + 2) \\ = (x ^ {2} + 2 x) + (4 x + 8) \\ = x ^ {2} + 2 x + 4 x + 8 = x ^ {2} + 6 x + 8 \\ \end{array}
+\begin{array}{l} p (x) = (x + 4) (x + 2) \\ = x (x + 2) + 4 (x + 2) \\ = (x^{2} + 2 x) + (4 x + 8) \\ = x^{2} + 2 x + 4 x + 8 = x^{2} + 6 x + 8 \\ \end{array}
 $$
 
 All we really did to write down the factorization was to notice that the terms  $+4$  and  $+2$  have product  $+8$ , which is the constant term, and they have sum  $+6$ , which is the coefficient on the  $x$  term. Knowing how the subsequent expansion of those factors would work out allows us to write down that factorization without really checking it.
@@ -934,7 +934,7 @@ All we really did to write down the factorization was to notice that the terms  
 Let's take what we did with that specific example and try to generalize to any quadratic function. If we want to factor a quadratic polynomial like
 
 $$
-p (x) = x ^ {2} + b x + c
+p (x) = x^{2} + b x + c
 $$
 
 we seek values  $r$  and  $s$  so that  $r \cdot s = c$  and  $r + s = b$ . Usually, we can do this "by inspection", or by just staring at these two equations and thinking for a minute to come up with the appropriate values. (That's what we did with the last example!)
@@ -942,7 +942,7 @@ we seek values  $r$  and  $s$  so that  $r \cdot s = c$  and  $r + s = b$ . Usua
 What do we do if the coefficient of the  $x^2$  is not 1 but some other number  $a$ ? Well, notice that if we can factor the polynomial  $\frac{p(x)}{a} = x^2 + \frac{b}{a}x + \frac{c}{a}$ , then we can find a factorization of the original polynomial  $p(x)$ , as well, by just multiplying by  $a$ . This won't affect our ability to find roots of the polynomial (our original goal), because we're assuming  $a \neq 0$  (otherwise we didn't really have a quadratic polynomial to begin with and wouldn't need to factor it). Once we've found this factorization, it's easy to identify the roots of  $p(x)$ ; since we want to figure out when  $p(x) = 0$ , we can just use the factorization and the fact we mentioned above to conclude that
 
 $$
-\begin{array}{l} 0 = p (x) = (x + r) (x + s) \quad \text {i m p l i e s} \quad x + r = 0 \text {o r} x + s = 0 \\ w h i c h \quad x = - r \text {o r} x = - s \\ \end{array}
+\begin{array}{l} 0 = p (x) = (x + r) (x + s) \quad \text{im pl ie s} \quad x + r = 0 \text{or} x + s = 0 \\ w h i c h \quad x = - r \text{or} x = - s \\ \end{array}
 $$
 
 That is, the roots must be  $-r$  and  $-s$ .
@@ -952,25 +952,25 @@ What if we have a polynomial of the form  $p(x) = x^2 - a^2$ ? This particular t
 Similar tricks can sometimes be applied to polynomials of higher degree (recall that "degree" means the highest power of the input variable). For instance, the following polynomial has degree 4
 
 $$
-p (x) = 4 x ^ {4} - x ^ {2} - 3
+p (x) = 4 x^{4} - x^{2} - 3
 $$
 
 but we can factor it easily if we define  $y = x^2$  and write it as a quadratic polynomial
 
 $$
-p (y) = 4 y ^ {2} - y - 3 = (4 y + 3) (y - 1)
+p (y) = 4 y^{2} - y - 3 = (4 y + 3) (y - 1)
 $$
 
 Notice that you can think about the factorizations of the coefficients of the  $y^2$ ,  $y$ , and constant terms to jump right to the factorization we found, or you can follow the division trick we mentioned. Here, we would want to factor  $\frac{p(y)}{4} = y^2 - \frac{1}{4}y - \frac{3}{4}$ , so we need  $rs = -\frac{3}{4}$  and  $r + s = -\frac{1}{4}$ ; using  $r = -1$  and  $s = +\frac{3}{4}$  works, so we obtain the factorization
 
 $$
-{\frac {p (x)}{4}} = (y + (- 1)) \left(y + {\frac {3}{4}}\right)
+{\frac{p (x)}{4}} = (y + (- 1)) \left(y + {\frac{3}{4}}\right)
 $$
 
 which can be simplified as
 
 $$
-p (x) = 4 (y - 1) \left(y + \frac {3}{4}\right) = (y - 1) (4 y + 3)
+p (x) = 4 (y - 1) \left(y + \frac{3}{4}\right) = (y - 1) (4 y + 3)
 $$
 
 which is exactly what we had before.
@@ -980,7 +980,7 @@ which is exactly what we had before.
 Of course, this trick of identifying roots can work in reverse, too: if we can easily spot a root of a polynomial, that can help us in identifying one of the factors. As an example, look at the cubic polynomial below and see if you can find a root "by inspection"; that is, see if you can find an input value for  $x$  that will make  $p(x)$  evaluate to zero:
 
 $$
-p (x) = x ^ {3} - 3 x + 2
+p (x) = x^{3} - 3 x + 2
 $$
 
 If you haven't spotted it yet, you might want to try plugging in some "easy values", like the first few integers (both positive and negative) to see what happens. If you do so, you'll find that  $p(1) = 1 - 3 + 2 = 0$ . Accordingly, we
@@ -994,7 +994,7 @@ How do we divide polynomials, though? We seek another polynomial  $q(x)$  so tha
 Now, let's try to apply those same principles to polynomials. Here's an example of the idea of long division applied to  $\frac{x^3 - 3x + 2}{x - 1}$ :
 
 $$
-\begin{array}{l} x - 1) \begin{array}{c c} & x ^ {2} + x - 2 \\ \hline x ^ {3} & - 3 x + 2 \end{array} \\ \frac {- x ^ {3} + x ^ {2}}{x ^ {2}} \\ - x ^ {2} + x \\ - 2 x + 2 \\ \begin{array}{c} 2 x - 2 \\ 0 \end{array} \\ \end{array}
+\begin{array}{l} x - 1) \begin{array}{c c} & x^{2} + x - 2 \\ \hline x^{3} & - 3 x + 2 \end{array} \\ \frac{- x^{3} + x^{2}}{x^{2}} \\ - x^{2} + x \\ - 2 x + 2 \\ \begin{array}{c} 2 x - 2 \\ 0 \end{array} \\ \end{array}
 $$
 
 In each iteration of the method, we try to find the largest "factor" that can "go into" the larger term. In this case, these are just multiples of powers of  $x$ ; we identify the largest power of  $x$  that can "go into" the current term in question. Since the dividend has  $x^3$  and the divisor has  $x$ , we write  $x^2$  above the division line. Then, we multiply  $(x - 1)$  by  $x^2$ , write this below the dividend, and subtract to find the remainder.
@@ -1002,7 +1002,7 @@ In each iteration of the method, we try to find the largest "factor" that can "g
 We repeat the same process until we have a constant term above the division line (i.e. a multiple of  $x^0$ ) and see the remainder. Since the remainder here is 0, we know that we have a factorization with no remainder. We can then factor the resultant quadratic by noticing that  $r = 2$  and  $s = -1$  satisfy  $r + s = 1$  and  $rs = -2$ , so we can finally write
 
 $$
-p (x) = (x - 1) (x - 1) (x + 2) = (x - 1) ^ {2} (x + 2)
+p (x) = (x - 1) (x - 1) (x + 2) = (x - 1)^{2} (x + 2)
 $$
 
 Accordingly, the roots of  $p(x)$  are  $x = 1$  and  $x = -2$ . For this function, the degree of the polynomial is 3 but the function has only 2 roots. Does this strike you as odd? Can you think of a polynomial of degree 3 that has only 1 root? How about a polynomial of degree 3 with no roots? What about 4 roots, or 5 or more? Are any of these possible? Why or why not? What if we were working with a polynomial of degree 4? Of degree  $n$ ? What can you say for sure about the number of roots a polynomial has, relative to its degree?
@@ -1022,7 +1022,7 @@ We've written the  $n$  values on the left side to indicate the correspondence w
 If we were faced with expanding  $(a + b)^2$ , we would read the  $n = 2$  row of Pascal's Triangle and see that the coefficients should be 1, 2, 1, and that these are the coefficients for  $a^2, ab, b^2$ , respectively. Thus,
 
 $$
-(a + b) ^ {2} = a ^ {2} + 2 a b + b ^ {2}
+(a + b)^{2} = a^{2} + 2 a b + b^{2}
 $$
 
 which we could have also accomplished fairly easily by just expanding by hand. What if we were faced with expanding  $\left(x^{2} + 2\right)^{4}$ , say? This isn't done as quickly by hand, so let's see what happens if we use Pascal's Triangle. The  $n = 4$  row
@@ -1030,7 +1030,7 @@ which we could have also accomplished fairly easily by just expanding by hand. W
 tells us the coefficients of  $a^4, a^3b, a^2b^2, ab^3, b^4$  are 1, 4, 6, 4, 1, respectively, where  $a = x^2$  and  $b = 2$ . Thus, we can write
 
 $$
-\begin{array}{l} \left(x ^ {2} + 2\right) ^ {4} = 1 \cdot \left(x ^ {2}\right) ^ {4} + 4 \cdot \left(x ^ {2}\right) ^ {3} \cdot 2 + 6 \cdot \left(x ^ {2}\right) ^ {2} \cdot (2) ^ {2} \\ + 4 \cdot x ^ {2} \cdot (2) ^ {3} + 1 \cdot (2) ^ {4} \\ = x ^ {8} + 4 \cdot x ^ {6} \cdot 2 + 6 \cdot x ^ {4} \cdot 4 + 4 \cdot x ^ {2} \cdot 8 + 1 6 \\ = x ^ {8} + 8 x ^ {6} + 2 4 x ^ {4} + 3 2 x ^ {2} + 1 6 \\ \end{array}
+\begin{array}{l} \left(x^{2} + 2\right)^{4} = 1 \cdot \left(x^{2}\right)^{4} + 4 \cdot \left(x^{2}\right)^{3} \cdot 2 + 6 \cdot \left(x^{2}\right)^{2} \cdot (2)^{2} \\ + 4 \cdot x^{2} \cdot (2)^{3} + 1 \cdot (2)^{4} \\ = x^{8} + 4 \cdot x^{6} \cdot 2 + 6 \cdot x^{4} \cdot 4 + 4 \cdot x^{2} \cdot 8 + 1 6 \\ = x^{8} + 8 x^{6} + 2 4 x^{4} + 3 2 x^{2} + 1 6 \\ \end{array}
 $$
 
 Try performing this expansion step-by-step and compare, too. There are actually some very interesting properties of Pascal's Triangle that are deeply rooted in some other mathematical concepts, and these properties are particularly useful in the field of combinatorics. We will, in fact, examine many of these properties in greater detail later on! For example, you might wonder why it is the case that this procedure—adding the two entries above—yields entries that correspond to expanding factors like this. We will prove that it works when we discuss the Binomial Theorem and its related ideas! (See Section 8.4.4 if you're curious.)
@@ -1042,13 +1042,13 @@ There is one more polynomial-related trick we need to mention before deriving an
 Let's try this procedure with an example and then attempt to generalize. Start with the following polynomial:
 
 $$
-p (x) = x ^ {2} + 8 x + 9
+p (x) = x^{2} + 8 x + 9
 $$
 
 A factorization isn't immediately apparent here, so let's try to complete the square. We want to see a term like  $(x + a)^2$ , where we know the coefficient of  $x$  is 1 since the polynomial has  $1 \cdot x^2$ . Expanding a term like that gives  $x^2 + 2ax + a^2$ . Since we need  $8x$  to appear, we should use  $a = 4$ . This expansion gives  $x^2 + 8x + 16$ , but we really want to see  $+9$  as the constant term, so let's add and subtract 7 from the original polynomial:
 
 $$
-p (x) = x ^ {2} + 8 x + 9 + 7 - 7 = (x ^ {2} + 8 x + 1 6) - 7 = (x + 4) ^ {2} - 7
+p (x) = x^{2} + 8 x + 9 + 7 - 7 = (x^{2} + 8 x + 1 6) - 7 = (x + 4)^{2} - 7
 $$
 
 Does this look familiar? Precisely, it's a difference of squares, and we know how
@@ -1056,7 +1056,7 @@ Does this look familiar? Precisely, it's a difference of squares, and we know ho
 to factor that:
 
 $$
-\begin{array}{l} p (x) = x ^ {2} + 8 x + 9 = (x + 4) ^ {2} - 7 = (x + 4) ^ {2} - \left(\sqrt {7}\right) ^ {2} \\ = (x + 4 + \sqrt {7}) (x + 4 - \sqrt {7}) \\ \end{array}
+\begin{array}{l} p (x) = x^{2} + 8 x + 9 = (x + 4)^{2} - 7 = (x + 4)^{2} - \left(\sqrt{7}\right)^{2} \\ = (x + 4 + \sqrt{7}) (x + 4 - \sqrt{7}) \\ \end{array}
 $$
 
 Accordingly, the roots of this polynomial are  $x = -4 - \sqrt{7}$  and  $x = -4 + \sqrt{7}$ .
@@ -1064,7 +1064,7 @@ Accordingly, the roots of this polynomial are  $x = -4 - \sqrt{7}$  and  $x = -4
 Let's generalize! Suppose we start with a quadratic polynomial of the form
 
 $$
-p (x) = a x ^ {2} + b x + c
+p (x) = a x^{2} + b x + c
 $$
 
 and, to complete the square, we want to add and subtract a particular term. How did we find that term before? Well, the expansion of a term like  $(rx + s)^2$  yields  $r^2 x^2 + 2rsx + s^2$ , and to match these coefficients with the coefficients of the original polynomial, we see that we need  $r^2 = a$ , so we should use  $r = \sqrt{a}$ . (Notice that this requires  $a \geq 0$ , of course! What should we do if  $a < 0$ ?) Then, to have  $2rs = b$ , we need  $s = \frac{b}{2r} = \frac{b}{2\sqrt{a}}$ . Then, when this is expanded we have added on  $s^2 = \frac{b^2}{4a}$ , so we should subtract that from the polynomial.
@@ -1072,7 +1072,7 @@ and, to complete the square, we want to add and subtract a particular term. How 
 These steps are performed below, with some extra algebraic cleanup, of sorts, to make the terms look "nicer":
 
 $$
-\begin{array}{l} p (x) = a x ^ {2} + b x + c = a x ^ {2} + b x + \frac {b ^ {2}}{4 a} + c - \frac {b ^ {2}}{4 a} \\ = \left(\sqrt {a} x + \frac {b}{2 \sqrt {a}}\right) ^ {2} + \left(c - \frac {b ^ {2}}{4 a}\right) \\ = \left(\sqrt {a} \cdot \left(x + \frac {b}{2 a}\right)\right) ^ {2} + \left(c - \frac {b ^ {2}}{4 a}\right) \\ = a \left(x + \frac {b}{2 a}\right) ^ {2} + \left(c - \frac {b ^ {2}}{4 a}\right) \\ \end{array}
+\begin{array}{l} p (x) = a x^{2} + b x + c = a x^{2} + b x + \frac{b^{2}}{4 a} + c - \frac{b^{2}}{4 a} \\ = \left(\sqrt{a} x + \frac{b}{2 \sqrt{a}}\right)^{2} + \left(c - \frac{b^{2}}{4 a}\right) \\ = \left(\sqrt{a} \cdot \left(x + \frac{b}{2 a}\right)\right)^{2} + \left(c - \frac{b^{2}}{4 a}\right) \\ = a \left(x + \frac{b}{2 a}\right)^{2} + \left(c - \frac{b^{2}}{4 a}\right) \\ \end{array}
 $$
 
 This now tells us how to complete the square, given any quadratic polynomial!
@@ -1102,19 +1102,19 @@ This is a helpful trick to keep in mind. It can remind you about both the motiva
 Let's returning to the question of identifying the roots of a polynomial. Specifically, let's recall the quadratic formula. You may have memorized this formula as a way to "solve quadratic equations" but do you know why it actually works? Let's try to figure it out! In general, we start with a quadratic polynomial of the form
 
 $$
-p (x) = a x ^ {2} + b x + c
+p (x) = a x^{2} + b x + c
 $$
 
 where  $a \neq 0$  (otherwise, it's not actually quadratic), and we want to identify the values of  $x$  such that  $p(x) = 0$ . (Did you try to answer our questions above about how many roots this type of polynomial can have? Keep those concepts in mind throughout the following derivation.) We can't hope to factor the polynomial into linear factors too easily, so let's take advantage of the process we used above: completing the square. The benefit of that procedure is that we can set  $p(x) = 0$  and rearrange the terms after completing the square to solve for  $x$ . Observe:
 
 $$
-0 = p (x) = a x ^ {2} + b x + c = a \left(x + \frac {b}{2 a}\right) ^ {2} + \left(c - \frac {b ^ {2}}{4 a}\right)
+0 = p (x) = a x^{2} + b x + c = a \left(x + \frac{b}{2 a}\right)^{2} + \left(c - \frac{b^{2}}{4 a}\right)
 $$
 
 simplifies to:
 
 $$
-\frac {b ^ {2}}{4 a} - c = a \left(x + \frac {b}{2 a}\right) ^ {2}
+\frac{b^{2}}{4 a} - c = a \left(x + \frac{b}{2 a}\right)^{2}
 $$
 
 Now, we want to start "undoing" the processes here to solve for  $x$ , and this would require taking the square root of both sides. But what if  $\frac{b^2}{4a} - c < 0$ ? We couldn't take that square root at all! Or what if  $\frac{b^2}{4a} - c = 0$ ? Is that a problem? Do we have anything to worry about when  $\frac{b^2}{4a} - c > 0$ ? These are issues that are related to the questions we had before about the possible number of roots a polynomial can have. You may have deduced (correctly) that a quadratic polynomial can have at most two roots, but here we have uncovered the possibility (and reasons why) that a quadratic polynomial may have one or zero roots!
@@ -1125,19 +1125,19 @@ Now, we want to start "undoing" the processes here to solve for  $x$ , and this 
 of  $x$
 
 $$
-\begin{array}{l} \frac {b ^ {2}}{4 a} - c = 0 = a \left(x + \frac {b}{2 a}\right) ^ {2} \\ 0 = x + \frac {b}{2 a} \\ x = - \frac {b}{2 a} \\ \end{array}
+\begin{array}{l} \frac{b^{2}}{4 a} - c = 0 = a \left(x + \frac{b}{2 a}\right)^{2} \\ 0 = x + \frac{b}{2 a} \\ x = - \frac{b}{2 a} \\ \end{array}
 $$
 
 The remaining case is when  $\frac{b^2}{4a} - c > 0$ . Here, we can expect two roots of  $p(x)$  because taking the square root of both sides introduces two possible solutions. In general, when we have a situation like  $s^2 = t$ , we can say that the only possible solutions are  $s = \sqrt{t}$  and  $s = -\sqrt{t}$  but we must consider both (we usually write this as  $s = \pm \sqrt{t}$ ). Solving for  $x$  in that case yields
 
 $$
-\begin{array}{l} \frac {b ^ {2}}{4 a} - c = a \left(x + \frac {b}{2 a}\right) ^ {2} \\ \pm \sqrt {\frac {b ^ {2} - 4 a c}{4 a}} = \sqrt {a} \left(x + \frac {b}{2 a}\right) = \sqrt {a} x + \frac {b}{2 \sqrt {a}} \\ - \frac {b}{2 \sqrt {a}} \pm \frac {\sqrt {b ^ {2} - 4 a c}}{\sqrt {4 a}} = \sqrt {a} x \\ - \frac {b}{2 a} \pm \frac {\sqrt {b ^ {2} - 4 a c}}{\sqrt {4 a ^ {2}}} = x \\ \end{array}
+\begin{array}{l} \frac{b^{2}}{4 a} - c = a \left(x + \frac{b}{2 a}\right)^{2} \\ \pm \sqrt{\frac{b^{2} - 4 a c}{4 a}} = \sqrt{a} \left(x + \frac{b}{2 a}\right) = \sqrt{a} x + \frac{b}{2 \sqrt{a}} \\ - \frac{b}{2 \sqrt{a}} \pm \frac{\sqrt{b^{2} - 4 a c}}{\sqrt{4 a}} = \sqrt{a} x \\ - \frac{b}{2 a} \pm \frac{\sqrt{b^{2} - 4 a c}}{\sqrt{4 a^{2}}} = x \\ \end{array}
 $$
 
 Now, we need to be careful about the square root observation we made before. In general,  $\sqrt{4a^2} = \pm 2a$ , but we already know that the fractional term involving that square root already has an associated  $\pm 1$  factor, so this factor won't change that. Therefore, we can conclude
 
 $$
-x = - \frac {b}{2 a} \pm \frac {\sqrt {b ^ {2} - 4 a c}}{2 a} = \frac {- b \pm \sqrt {b ^ {2} - 4 a c}}{2 a}
+x = - \frac{b}{2 a} \pm \frac{\sqrt{b^{2} - 4 a c}}{2 a} = \frac{- b \pm \sqrt{b^{2} - 4 a c}}{2 a}
 $$
 
 Voilà, the quadratic formula!
@@ -1155,7 +1155,7 @@ Problem 1.3.7. Factor  $x^n - 1$  for any natural number  $n$ .
 Problem 1.3.8. Determine the value of  $x$  defined by
 
 $$
-x = \sqrt {2 + \sqrt {2 + \sqrt {2 + \sqrt {2 + \cdots}}}}
+x = \sqrt{2 + \sqrt{2 + \sqrt{2 + \sqrt{2 + \cdots}}}}
 $$
 
 Hint: try to express the infinitely-nested square roots by using  $x$ , itself.
@@ -1187,7 +1187,7 @@ The letter  $\mathbb{Z}$  comes from the German word Zahlen, meaning "number".
 From this set, we can define the collection of rational numbers. These numbers can be represented as a ratio of integers, but they don't seem to have a natural "listing" like the sets  $\mathbb{N}$  and  $\mathbb{Z}$ , so we can't write this set in the way that we did above. For this, we use a very common set notation, as follows:
 
 $$
-\mathbb {Q} = \left\{\frac {a}{b} \mid a, b \in \mathbb {Z} \text {a n d} b \neq 0 \right\}
+\mathbb {Q} = \left\{\frac{a}{b} \mid a, b \in \mathbb {Z} \text{an d} b \neq 0 \right\}
 $$
 
 We read this as:
@@ -1207,7 +1207,7 @@ A popular and convenient way of writing sums and products is to use a shortened 
 Now, that we've brought it up, let's see how to avoid using ellipses. To write the sum we mentioned above, we would use the following notation:
 
 $$
-1 + 2 + 3 + \dots + 4 9 9 + 5 0 0 = \sum_ {i = 1} ^ {5 0 0} i
+1 + 2 + 3 + \dots + 4 9 9 + 5 0 0 = \sum_{i = 1}^{5 0 0} i
 $$
 
 The large sigma  $\sum$  comes from the Greek letter corresponding to S, for "sum", and the index  $i$  tells us to find the values of the individual terms of the sum. Writing  $i = 1$  below and 500 above the  $\sum$  sign means that we let  $i$  assume all of the natural number values between 1 and 500 (inclusive). Using those values, we substitute into the general expression for the term, which is just  $i$ , in this case. Accordingly, we find that the terms are  $1,2,3,\ldots,500$ , as desired. Try to find a few other ways of writing this sum by altering the expression for the general term and/or the values of the index. What if we wanted to find the sum of the first 500 even natural numbers? What about all of the even natural numbers up to (and including) 500? Try to write those sums in the notation style above.
@@ -1217,7 +1217,7 @@ Related to this is the  $\prod$  notation. If we wanted to look at the product o
 values for the index and the general term:
 
 $$
-1 \cdot 2 \cdot 3 \cdot \dots \cdot 4 9 9 \cdot 5 0 0 = \prod_ {i = 1} ^ {5 0 0} i
+1 \cdot 2 \cdot 3 \cdot \dots \cdot 4 9 9 \cdot 5 0 0 = \prod_{i = 1}^{5 0 0} i
 $$
 
 The large pi  $\prod$  comes from the Greek letter corresponding to P, for "product". Again, try expressing this in a different way by changing the general term and/or index values. What if we wanted to find the product of the first 500 even natural numbers? What about all of the even natural numbers up to (and including) 500? Try to write those products in the notation style above.
@@ -1227,7 +1227,7 @@ The large pi  $\prod$  comes from the Greek letter corresponding to P, for "prod
 Problem 1.3.11. Write an English sentence that describes what the following equation means:
 
 $$
-\sum_ {i = 1} ^ {n} i ^ {2} = \frac {n (n + 1) (2 n + 1)}{6}
+\sum_{i = 1}^{n} i^{2} = \frac{n (n + 1) (2 n + 1)}{6}
 $$
 
 Problem 1.3.12. Express, in appropriate notation, the sum and product of the first  $n$  powers of 2, starting with  $2^0 = 1$ . Can you prove a formula for the sum? The product?
@@ -1310,7 +1310,7 @@ Another important fact to remember is that addition is associative and commutati
 Notice that we have written down the desired sum in two different ways, added those two sums entry by entry, and obtained an expression for  $2S$ , twice the desired sum. That new expression can be written as a multiplication because there are 100 terms, each of which is the number 101. Thus,
 
 $$
-2 S = 1 0 1 \cdot 1 0 0 \quad \text {a n d t h e r e f o r e ,} \quad S = 1 0 1 \cdot 5 0 = 5 0 5 0
+2 S = 1 0 1 \cdot 1 0 0 \quad \text{an dt he re fo re ,} \quad S = 1 0 1 \cdot 5 0 = 5 0 5 0
 $$
 
 This is much faster than performing 99 additions, and in fact, if we think carefully, we may be able to do the entire process in our heads!
@@ -1362,7 +1362,7 @@ The caveat in the second sentence rules out a solution of the form given by our 
 If  $n$  is even, we know that we can pair off every number and have no terms leftover:
 
 $$
-\begin{array}{l} S (n) = 1 + 2 + 3 + \dots + \left(\frac {n}{2} - 1\right) + \frac {n}{2} + \left(\frac {n}{2} + 1\right) + \dots \\ + (n - 2) + (n - 1) + n \\ = (1 + n) + (2 + (n - 1)) + (3 + (n - 2)) + \dots \\ + \left(\left(\frac {n}{2} - 1\right) + \left(\frac {n}{2} + 2\right)\right) + \left(\left(\frac {n}{2}\right) + \left(\frac {n}{2} + 1\right)\right) \\ = (n + 1) \cdot \frac {n}{2} = \frac {n ^ {2} + n}{2} \\ \end{array}
+\begin{array}{l} S (n) = 1 + 2 + 3 + \dots + \left(\frac{n}{2} - 1\right) + \frac{n}{2} + \left(\frac{n}{2} + 1\right) + \dots \\ + (n - 2) + (n - 1) + n \\ = (1 + n) + (2 + (n - 1)) + (3 + (n - 2)) + \dots \\ + \left(\left(\frac{n}{2} - 1\right) + \left(\frac{n}{2} + 2\right)\right) + \left(\left(\frac{n}{2}\right) + \left(\frac{n}{2} + 1\right)\right) \\ = (n + 1) \cdot \frac{n}{2} = \frac{n^{2} + n}{2} \\ \end{array}
 $$
 
 Try this formula with some of the even values of  $n$  we examined above (like 100, 1000, 1000000, etc.) It works, doesn't it? Note that the reason we can write terms involving  $\frac{n}{2}$  and be assured they are part of the sum is that  $n$  is even, so  $\frac{n}{2}$  is also a whole number.
@@ -1370,7 +1370,7 @@ Try this formula with some of the even values of  $n$  we examined above (like 1
 Okay, now what happens if  $n$  is odd? We know that we won't be able to pair off every number, so we need to be clever about what we do here. Remember our approach with summing the first 99 numbers? By leaving off the last term of the sum, we could pair off all of the other terms with no leftover, and furthermore, each of those pairs summed to the same value as that last number. Let's try using that approach here:
 
 $$
-\begin{array}{l} S (n) = 1 + 2 + 3 + \dots + \left(\frac {n - 1}{2} - 1\right) + \frac {n - 1}{2} + \left(\frac {n - 1}{2} + 1\right) + \dots \\ + (n - 2) + (n - 1) + n \\ = (1 + (n - 1)) + (2 + (n - 2)) + \dots + \left(\left(\frac {n - 1}{2}\right) + \left(\frac {n - 1}{2} + 1\right)\right) + n \\ = n + n + \dots + \left(\frac {2 n - 2}{2} + 1\right) + n = (n + n + \dots + n) + n \\ \end{array}
+\begin{array}{l} S (n) = 1 + 2 + 3 + \dots + \left(\frac{n - 1}{2} - 1\right) + \frac{n - 1}{2} + \left(\frac{n - 1}{2} + 1\right) + \dots \\ + (n - 2) + (n - 1) + n \\ = (1 + (n - 1)) + (2 + (n - 2)) + \dots + \left(\left(\frac{n - 1}{2}\right) + \left(\frac{n - 1}{2} + 1\right)\right) + n \\ = n + n + \dots + \left(\frac{2 n - 2}{2} + 1\right) + n = (n + n + \dots + n) + n \\ \end{array}
 $$
 
 This has shown that each of the pairs of terms sums to  $n$ , the final number that we removed before the pairing process. Now, let's think carefully about how many pairs we had. Notice that we can number them by looking at the first number of the pair: the first pair was  $(1, n - 1)$ , the second pair was  $(2, n - 2)$ , and so on, and the first number in the last pair was  $\frac{n - 1}{2}$ . Therefore, we had
@@ -1378,7 +1378,7 @@ This has shown that each of the pairs of terms sums to  $n$ , the final number t
 exactly that many pairs:  $\frac{n - 1}{2}$ . (Remember that  $n$  is odd, so we can rest assured that  $n - 1$  is even, so  $\frac{n - 1}{2}$  is a whole number. We haven't been mentioning that every time, so be sure to go back over what we've done so far and convince yourself that every step and every term we write is valid.) To those pairs, we tacked on a final number,  $n$ , so we can write the multiplication for the sum as follows:
 
 $$
-S (n) = \left(\frac {n - 1}{2} + 1\right) \cdot n = \left(\frac {n - 1}{2} + \frac {2}{2}\right) \cdot n = \frac {n + 1}{2} \cdot n = \frac {n ^ {2} + n}{2}
+S (n) = \left(\frac{n - 1}{2} + 1\right) \cdot n = \left(\frac{n - 1}{2} + \frac{2}{2}\right) \cdot n = \frac{n + 1}{2} \cdot n = \frac{n^{2} + n}{2}
 $$
 
 Wow, this is the exact same formula we found in the case where  $n$  is even! Did this surprise you? It's not obvious at all that we should end up with the same formula, even with the similarity of the approaches to the problem. What does this suggest to you? A mathematician would see such a "coincidence" and wonder whether there is a much simpler and direct route to this result; that is, is there a way we could approach this puzzle that would answer both odd and even cases simultaneously? Since we obtained the same answer, there might be a way to do it. Think about this for a minute before reading on.
@@ -1394,7 +1394,7 @@ $$
 In this case, we have  $n$  terms in the sum on the third line, and each term is  $(n + 1)$ . Thus,
 
 $$
-(n + 1) \cdot n = 2 S (n) \quad \mathrm {a n d t h e r e f o r e ,} \quad S (n) = \frac {1}{2} (n + 1) \cdot n = \frac {n ^ {2} + n}{2}
+(n + 1) \cdot n = 2 S (n) \quad \mathrm{an dt he re fo re ,} \quad S (n) = \frac{1}{2} (n + 1) \cdot n = \frac{n^{2} + n}{2}
 $$
 
 This is the formula we have obtained already, and we found it here in a way that didn't depend on whether  $n$  is odd or even! (Look back at the steps we just performed and verify for yourself that the odd/even property of  $n$  is really irrelevant.)
@@ -1412,13 +1412,13 @@ Now, asking for a formula that yields the sum  $S(n)$  is equivalent to asking w
 Look at the area above the  $2 \times 1$  rectangle: it is a  $(n - 2) \times 1$  rectangle. This pattern continues! Eventually, we have a  $1 \times 1$  rectangle above the  $(n - 1) \times 1$  rectangle and then no area above the last  $n \times 1$  rectangle. What is the total area of all of those rectangles? Well, it looks a lot like the sum  $S(n)$  we are considering, but it is just missing the final term,  $n$ . Now, we can add up the areas of all the rectangles by relating them to  $S(n)$  and then to the square's area:
 
 $$
-n ^ {2} = S (n) + (S (n) - n) = 2 S (n) - n
+n^{2} = S (n) + (S (n) - n) = 2 S (n) - n
 $$
 
 Therefore,
 
 $$
-S (n) = \frac {n ^ {2} + n}{2}
+S (n) = \frac{n^{2} + n}{2}
 $$
 
 the same formula we had before!
@@ -1446,19 +1446,19 @@ Does this pattern continue? If we believe that it does, how could we prove such 
 Let's try to write the sums represented by the figures above in numerical terms. The corner pieces are made from  $1 \times 1$  blocks, and there are two more blocks in each corner than the previous one, so each square figure that we saw is represented by a sum like
 
 $$
-1 \quad \text {o r} \quad 1 + 3 \quad \text {o r} \quad 1 + 3 + 5 \quad \text {o r} \quad 1 + 3 + 5 + 7
+1 \quad \text{or} \quad 1 + 3 \quad \text{or} \quad 1 + 3 + 5 \quad \text{or} \quad 1 + 3 + 5 + 7
 $$
 
 and so on. What we notice from these terms is that, indeed, they sum to square numbers:
 
 $$
-1 = 1 ^ {2} \quad 1 + 3 = 4 = 2 ^ {2} \quad 1 + 3 + 5 = 9 = 3 ^ {2} \quad 1 + 3 + 5 + 7 = 1 6 = 4 ^ {2}
+1 = 1^{2} \quad 1 + 3 = 4 = 2^{2} \quad 1 + 3 + 5 = 9 = 3^{2} \quad 1 + 3 + 5 + 7 = 1 6 = 4^{2}
 $$
 
 This is really the pattern that we want to prove; it is equivalent to the geometric pattern we noticed before, but now it is written in terms we can manipulate. Let's think about how can we do this, now. Is this pattern similar to anything we've seen before? Have we proved any results about sums of integers? Of course! Look back at the previous puzzle; we proved (in a few ways, in fact) that
 
 $$
-1 + 2 + 3 + \dots + (n - 1) + n = \frac {n ^ {2} + n}{2}
+1 + 2 + 3 + \dots + (n - 1) + n = \frac{n^{2} + n}{2}
 $$
 
 How might this be useful in this puzzle? The sum formula we proved involves all consecutive integers from 1 to  $n$ , but for the current desired formula, we only want to consider consecutive odd integers.
@@ -1490,13 +1490,13 @@ $$
 These terms are all of the even natural numbers from 2 to  $2n$ . How can we find a formula for this sum? Do we need to do any extra work, or can we apply a previously-proven result? Well, since all of the terms are even, we can divide everything by 2 and write
 
 $$
-\begin{array}{l} \frac {1}{2} (S (2 n) - T (n)) = \frac {1}{2} (2 + 4 + 6 + \dots + (2 n - 2) + 2 n) \\ = 1 + 2 + 3 + \dots + (n - 1) + n = S (n) \\ \end{array}
+\begin{array}{l} \frac{1}{2} (S (2 n) - T (n)) = \frac{1}{2} (2 + 4 + 6 + \dots + (2 n - 2) + 2 n) \\ = 1 + 2 + 3 + \dots + (n - 1) + n = S (n) \\ \end{array}
 $$
 
 and we can be assured that all of the terms in the sum on the far right are, indeed, integers. Not only that, they are all of the consecutive integers from 1 to  $n$ , and we have a formula for that sum! Now, everything is written in terms of formulas we already know, namely  $S(n)$  and  $S(2n)$ , and the one formula that we are seeking, namely  $T(n)$ . The last step now is to rearrange the equation to isolate  $T(n)$  and then substitute what we know about the formulas involving  $S$ :
 
 $$
-\begin{array}{l} \frac {1}{2} \left(S (2 n) - T (n)\right) = S (n) \\ S (2 n) - T (n) = 2 S (n) \\ S (2 n) - 2 S (n) = T (n) \\ \frac {(2 n) ^ {2} + 2 n}{2} - \frac {2 \cdot (n ^ {2} + n)}{2} = T (n) \\ \frac {4 n ^ {2} + 2 n - 2 n ^ {2} - 2 n}{2} = T (n) \\ \frac {2 n ^ {2}}{2} = T (n) \\ n ^ {2} = T (n) \\ \end{array}
+\begin{array}{l} \frac{1}{2} \left(S (2 n) - T (n)\right) = S (n) \\ S (2 n) - T (n) = 2 S (n) \\ S (2 n) - 2 S (n) = T (n) \\ \frac{(2 n)^{2} + 2 n}{2} - \frac{2 \cdot (n^{2} + n)}{2} = T (n) \\ \frac{4 n^{2} + 2 n - 2 n^{2} - 2 n}{2} = T (n) \\ \frac{2 n^{2}}{2} = T (n) \\ n^{2} = T (n) \\ \end{array}
 $$
 
 This looks rather nice, doesn't it? Despite having to muddle through some algebraic steps, we arrived at one of the conclusions we were hoping to prove: that the sum of consecutive odd integers is a perfect square. Not only that, we have managed to prove precisely how that square number is related to the number of terms in the sum. Specifically, a concise way of summarizing the result that we just proved is to say that "the sum of the first  $n$  odd integers is  $n^2$ ."
@@ -1508,13 +1508,13 @@ Could we have proven this in a different way? What if we had not yet proven the 
 Let's go back and think about this in a slightly different way. Specifically, let's see why adding one more term to a sum produces another square number. Suppose we knew already that one of the sums produced a square number; we know this is true for the first sum  $(1 = 1^{2})$ , but let's assume that this happens for some arbitrary number of terms,  $n$ . That is, let's assume that
 
 $$
-1 + 3 + 5 + \dots + (2 n - 3) + (2 n - 1) = n ^ {2}
+1 + 3 + 5 + \dots + (2 n - 3) + (2 n - 1) = n^{2}
 $$
 
 for some value of  $n$ . Given this as a fact, what can we subsequently deduce about the next sum? When we add one more term to the sum, we add on the next odd integer,  $2n + 1$ , so let's see how this affects the value of the sum:
 
 $$
-1 + 3 + 5 + \dots + (2 n - 3) + (2 n - 1) + (2 n + 1) = n ^ {2} + 2 n + 1 = (n + 1) ^ {2}
+1 + 3 + 5 + \dots + (2 n - 3) + (2 n - 1) + (2 n + 1) = n^{2} + 2 n + 1 = (n + 1)^{2}
 $$
 
 This seems to confirm our belief, doesn't it? Knowing that one sum behaves in the way we expect it to ("if the sum of the first  $n$  odd integers is  $n^2 \ldots$ ) allows us to deduce that the next sum must also behave in the same way ("…then the sum of the first  $n + 1$  odd integers is  $(n + 1)^{2}$ ". Does this also prove the result? What do you think? Does it feel strange to essentially assume our result to prove something further about it? Is that really what we did?
@@ -1550,7 +1550,7 @@ $$
 and therefore,
 
 $$
-A (a, c, k) = \frac {k}{2} \cdot (2 a + (k - 1) c)
+A (a, c, k) = \frac{k}{2} \cdot (2 a + (k - 1) c)
 $$
 
 Does this look like what you expected for a result? Did you have any expectations? It sometimes helps to try to "guess" what might happen, and then see if and how the results match up with your intuitions.
@@ -1560,7 +1560,7 @@ Does this look like what you expected for a result? Did you have any expectation
 We mentioned before that the sums we examined previously were both arithmetic series, so does this formula yield the correct value for those sums? In the first puzzle, the values of the variables were  $a = 1$ ,  $c = 1$ , and  $k = n$ ; plugging in those values yields
 
 $$
-A (1, 1, n) = \frac {n}{2} \cdot (2 + (n - 1)) = \frac {n}{2} \cdot (n + 1) = \frac {n ^ {2} + n}{2}
+A (1, 1, n) = \frac{n}{2} \cdot (2 + (n - 1)) = \frac{n}{2} \cdot (n + 1) = \frac{n^{2} + n}{2}
 $$
 
 which is, indeed, what we derived. What about the second sum? What were the values of the variables? Is the formula correct? We will leave it to you to verify that result.
@@ -1765,7 +1765,7 @@ To identify the probability of winning after switching, we need to think careful
 Since there were  $n - m$  goats originally, this case occurs with a probability of  $\frac{n - m}{n}$ . Therefore, the contribution of this case to the total chances of winning after switching is
 
 $$
-{\frac {n - m}{n}} \cdot {\frac {m}{n - 2}} = {\frac {n m - m ^ {2}}{n (n - 2)}}
+{\frac{n - m}{n}} \cdot {\frac{m}{n - 2}} = {\frac{n m - m^{2}}{n (n - 2)}}
 $$
 
 (Think about why we multiplied these probabilities together. Why did we need to do that at all? Why didn't we add them together? What will we do
@@ -1777,19 +1777,19 @@ to combine this probability with the probability associated with the next case?)
 Since there were  $m$  cars originally, this case occurs with a probability of  $\frac{m}{n}$ . Therefore, the contribution of this case to the total chances of winning after switching is
 
 $$
-{\frac {m - 1}{n - 2}} \cdot {\frac {m}{n}} = {\frac {m ^ {2} - m}{n (n - 2)}}
+{\frac{m - 1}{n - 2}} \cdot {\frac{m}{n}} = {\frac{m^{2} - m}{n (n - 2)}}
 $$
 
 Since these two cases occur separately (i.e. they both can't occur simultaneously) we should add these probabilities together. This will tell us the totally probability of winning a car after switching from our original choice to another random door:
 
 $$
-\begin{array}{l} \frac {n m - m ^ {2}}{n (n - 2)} + \frac {m ^ {2} - m}{n (n - 2)} = \frac {n m - m ^ {2} + m ^ {2} - m}{n (n - 2)} \\ = \frac {n m - m}{n (n - 2)} \\ = \frac {m (n - 1)}{n (n - 2)} \\ = \frac {m}{n} \cdot \frac {n - 1}{n - 2} \\ \end{array}
+\begin{array}{l} \frac{n m - m^{2}}{n (n - 2)} + \frac{m^{2} - m}{n (n - 2)} = \frac{n m - m^{2} + m^{2} - m}{n (n - 2)} \\ = \frac{n m - m}{n (n - 2)} \\ = \frac{m (n - 1)}{n (n - 2)} \\ = \frac{m}{n} \cdot \frac{n - 1}{n - 2} \\ \end{array}
 $$
 
 Now, there's a reason we chose to write the fraction the way we did here. We want to compare this probability to the chances of winning after staying with our first choice of door, which was  $\frac{m}{n}$ . We see that the probability of winning after switching is, in fact, a multiple of that other probability, and the factor  $\frac{n - 1}{n - 2} > 1$  because  $n - 1 > n - 2$ . Written in inequality form:
 
 $$
-\frac {m}{n} <   \frac {m}{n} \cdot \underbrace {\frac {n - 1}{n - 2}} _ {> 1}
+\frac{m}{n} <   \frac{m}{n} \cdot \underbrace {\frac{n - 1}{n - 2}}_{> 1}
 $$
 
 Therefore, the chances of winning after switching are strictly better (i.e. not equal to, always better) than the chances of winning after staying. We should always switch to another random door!
@@ -1916,13 +1916,13 @@ How many M&Ms were in the bag to begin with? What is the smallest possible numbe
 Problem 1.5.21. Given a list of real numbers, their arithmetic mean is defined to be their sum divided by the number of terms, and their geometric mean is defined to be their product raised to the power of one over the number of terms. That is, supposing we have  $x_{1}, x_{2}, \ldots, x_{n}$  that are real numbers, then the arithmetic mean is
 
 $$
-\frac {x _ {1} + x _ {2} + \cdots + x _ {n}}{n}
+\frac{x_{1} + x_{2} + \cdots + x_{n}}{n}
 $$
 
 and the geometric mean is
 
 $$
-\sqrt [ n ]{x _ {1} \cdot x _ {2} \cdot \cdot \cdot x _ {n}}
+\sqrt [ n ]{x_{1} \cdot x_{2} \cdot \cdot \cdot x_{n}}
 $$
 
 (Note: The  $n$ -th root of a number is the same as that number raised to the power of  $\frac{1}{n}$ .)

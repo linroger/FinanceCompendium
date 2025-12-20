@@ -105,10 +105,10 @@ $$
 
 # Examples
 
-Example 6.2.4. Let  $W = \{\text{English words}\}$  and  $L = \{\text{English letters}\}$ . Define the relation  $R$  by setting
+Example 6.2.4. Let  $W = \{\text{Englishwords}\}$  and  $L = \{\text{Englishletters}\}$ . Define the relation  $R$  by setting
 
 $$
-(w, \ell) \in R \Longleftrightarrow w \text {b e g i n s w i t h} \ell
+(w, \ell) \in R \Longleftrightarrow w \text{be gi ns wi th} \ell
 $$
 
 Then, (mathematics,m)  $\in R$  and (golf,g)  $\in R$  because these are valid words and we have identified their starting letters. For some non-examples, notice that (knowledge,n)  $\notin R$  and (you,u)  $\notin R$ . Furthermore, note that (zyzyxyqy,z)  $\notin R$  because zzyxyqy\n\n
@@ -118,7 +118,7 @@ It is often the case that  $A = B$ , so  $R$  defines a relation on pairs of ele
 Example 6.2.5. Let  $A = B = \mathbb{Z}$  and define a relation  $R$  on  $\mathbb{Z}$  by setting
 
 $$
-(x, y) \in R \Longleftrightarrow x \text {a n d} y \text {h a v e t h e s a m e p a r i t y}
+(x, y) \in R \Longleftrightarrow x \text{an d} y \text{ha ve th es am ep ar it y}
 $$
 
 Then  $(2,8)\in R$  and  $(-3,7)\in R$  and  $(-99, - 99)\in R$ , but  $(1,2)\notin R$  and  $(0, - 3)\notin R$  and  $(\pi ,0)\notin R$  (since  $\pi \notin \mathbb{Z}$ ).
@@ -234,7 +234,7 @@ Example 6.2.12. Throughout this example, relations are defined on the set  $\mat
 - Define  $R_{1}$  on  $\mathbb{N}$  by
 
 $$
-(x, y) \in R _ {1} \Longleftrightarrow x \text {d i v i d e s} y
+(x, y) \in R_{1} \Longleftrightarrow x \text{divides} y
 $$
 
 (i.e.  $y$  is divisible by  $x$ , or  $\exists k \in \mathbb{N}$  such that  $y = kx$ . This definition is formally restated below; see Definition 6.2.15)
@@ -246,7 +246,7 @@ The divisibility relation is reflexive.
 - Define  $R_2$  on  $\mathbb{N}$  by
 
 $$
-(x, y) \in R _ {2} \Longleftrightarrow x \text {a n d} y \text {h a v e t h e s a m e p a r i t y}
+(x, y) \in R_{2} \Longleftrightarrow x \text{and} y \text{havethesameparity}
 $$
 
 Then  $R_{2}$  is symmetric because if  $x$  and  $y$  have the same parity then certainly  $y$  and  $x$  have the same parity.
@@ -256,7 +256,7 @@ The "has the same parity" relation is symmetric.
 - Define  $R_{3}$  on  $\mathbb{N}$  by
 
 $$
-(x, y) \in R _ {3} \Longleftrightarrow x <   y
+(x, y) \in R_{3} \Longleftrightarrow x < y
 $$
 
 Then  $R_{3}$  is transitive because if  $x < y$  and  $y < z$  then  $x < y < z$ , so  $x < z$ .
@@ -266,7 +266,7 @@ The  $<<$  relation is transitive.
 - Define  $R_4$  on  $\mathbb{N}$  by
 
 $$
-(x, y) \in R _ {4} \Longleftrightarrow x \leq y
+(x, y) \in R_{4} \Longleftrightarrow x \leq y
 $$
 
 Then  $R_4$  is anti-symmetric because if  $x \leq y$  and  $y \leq x$  then  $x \leq y \leq x$  so  $x = y$ .
@@ -407,7 +407,7 @@ Now let's try to construct  $R$  so that it satisfies these properties. Property
 Let us define  $R$  on  $S$  by
 
 $$
-x R y \Longleftrightarrow x \text {i s} y \text {(i n y e a r s)}
+x R y \Longleftrightarrow x \text{is} y \text{(in ye ar s)}
 $$
 
 Now, let's explore its properties and make sure they are what we wanted them to be. Try to prove/disprove them on your own before reading our solutions! Also, play around with a different relation on  $S$  (make one up!) and see how its properties are different. Can you come up with another relation that has the exact same properties as this one?
@@ -481,7 +481,7 @@ $$
 (4) Define the relation  $T$  on  $\mathbb{R}$  by saying, for any  $x,y\in \mathbb{R}$
 
 $$
-(x, y) \in T \iff \left(\frac {y}{x} \in \mathbb {R} \wedge \frac {y}{x} \geq 0\right)
+(x, y) \in T \iff \left(\frac{y}{x} \in \mathbb{R} \wedge \frac{y}{x} \geq 0\right)
 $$
 
 (a) Find  $x \in \mathbb{R}$  such that  $(x, x) \notin T$ . Does this mean  $T$  is not reflexive? Why or why not?  
@@ -543,7 +543,7 @@ We will attempt to explain the reasons for these terms by giving several related
 Example 6.3.3. Define the following four relations on  $\mathbb{R}$ :
 
 $$
-\begin{array}{l} (x, y) \in R _ {1} \Longleftrightarrow x \leq y \\ (x, y) \in R _ {2} \Longleftrightarrow x <   y \\ (x, y) \in R _ {3} \Longleftrightarrow x = y \\ (x, y) \in R _ {4} \Longleftrightarrow \lfloor x \rfloor = \lfloor y \rfloor \\ \end{array}
+\begin{array}{l} (x, y) \in R_{1} \Longleftrightarrow x \leq y \\ (x, y) \in R_{2} \Longleftrightarrow x <   y \\ (x, y) \in R_{3} \Longleftrightarrow x = y \\ (x, y) \in R_{4} \Longleftrightarrow \lfloor x \rfloor = \lfloor y \rfloor \\ \end{array}
 $$
 
 (Recall that  $\lfloor x\rfloor = \max \{a\in \mathbb{Z}\mid a\leq x\}$  is the "floor" of a real number; it is the integer we get by rounding down.)
@@ -575,7 +575,7 @@ You might wonder what the connection is to non-strict order relations here. Well
 Lemma 6.3.6. Let  $(A,R_1)$  be a partially ordered set. Then the relation  $S_{1}$  defined by
 
 $$
-(x, y) \in S _ {1} \Longleftrightarrow [ (x, y) \in R _ {1} \wedge x \neq y ]
+(x, y) \in S_{1} \Longleftrightarrow [ (x, y) \in R_{1} \wedge x \neq y ]
 $$
 
 is a strict partial order on  $A$ .
@@ -583,7 +583,7 @@ is a strict partial order on  $A$ .
 Let  $(A,R_2)$  be a totally ordered set. Then the relation  $S_{2}$  defined by
 
 $$
-(x, y) \in S _ {2} \Longleftrightarrow [ (x, y) \in R _ {2} \wedge x \neq y ]
+(x, y) \in S_{2} \Longleftrightarrow [ (x, y) \in R_{2} \wedge x \neq y ]
 $$
 
 is a strict total order on  $A$ .
@@ -591,7 +591,7 @@ is a strict total order on  $A$ .
 Let  $(A, S_3)$  be a strictly partially ordered set. Then the relation  $R_3$  defined by
 
 $$
-(x, y) \in R _ {3} \Longleftrightarrow [ (x, y) \in S _ {3} \vee x = y ]
+(x, y) \in R_{3} \Longleftrightarrow [ (x, y) \in S_{3} \vee x = y ]
 $$
 
 is a (non-strict) partial order.
@@ -599,7 +599,7 @@ is a (non-strict) partial order.
 Let  $(A, S_4)$  be a strictly totally ordered set. Then the relation  $R_4$  defined by
 
 $$
-(x, y) \in R _ {4} \Longleftrightarrow [ (x, y) \in S _ {4} \vee x = y ]
+(x, y) \in R_{4} \Longleftrightarrow [ (x, y) \in S_{4} \vee x = y ]
 $$
 
 is a (non-strict) total order.
@@ -617,7 +617,7 @@ Let's explore some examples in a context other than  $\mathbb{R}$ . One of these
 Example 6.3.7. Let  $S = [3]$  and consider the power set,  $\mathcal{P}(S)$ . (Remember that the power set of  $S$  is the set of all subsets of  $S$ .) Define the following relations on  $\mathcal{P}(S)$ , where  $X, Y \subseteq S$ :
 
 $$
-\begin{array}{l} (X, Y) \in R _ {1} \Longleftrightarrow X \subseteq Y \\ (X, Y) \in R _ {2} \Longleftrightarrow X \subset Y \\ (X, Y) \in R _ {3} \Longleftrightarrow X \cap Y = \varnothing \\ (X, Y) \in R _ {4} \Longleftrightarrow X \Delta Y = S \\ \end{array}
+\begin{array}{l} (X, Y) \in R_{1} \Longleftrightarrow X \subseteq Y \\ (X, Y) \in R_{2} \Longleftrightarrow X \subset Y \\ (X, Y) \in R_{3} \Longleftrightarrow X \cap Y = \varnothing \\ (X, Y) \in R_{4} \Longleftrightarrow X \Delta Y = S \\ \end{array}
 $$
 
 Recall that  $X \Delta Y$  is the symmetric difference of  $X$  and  $Y$ , and is defined as  $X \Delta Y = (X - Y) \cup (Y - X) = (X \cup Y) - (X \cap Y)$ .
@@ -632,7 +632,7 @@ Now, to prove that  $R_{1}$  is a partial order, we must show that it is reflexi
 This relation separates the entire set  $\mathcal{P}(S)$  into chains that are ordered within themselves, but separate chains may contain elements that are incomparable. For instance, consider the following subsets of  $\mathcal{P}(S)$ :
 
 $$
-\begin{array}{l} A _ {1} = \{\varnothing , \{1 \}, \{1, 2 \}, \{1, 2, 3 \} \} \\ A _ {2} = \{\varnothing , \{1 \}, \{1, 3 \}, \{1, 2, 3 \} \} \\ A _ {3} = \{\varnothing , \{2 \}, \{1, 2 \}, \{1, 2, 3 \} \} \\ A _ {4} = \left\{\{3 \}, \{2, 3 \} \right\} \\ \end{array}
+\begin{array}{l} A_{1} = \{\varnothing , \{1 \}, \{1, 2 \}, \{1, 2, 3 \} \} \\ A_{2} = \{\varnothing , \{1 \}, \{1, 3 \}, \{1, 2, 3 \} \} \\ A_{3} = \{\varnothing , \{2 \}, \{1, 2 \}, \{1, 2, 3 \} \} \\ A_{4} = \left\{\{3 \}, \{2, 3 \} \right\} \\ \end{array}
 $$
 
 These sets are not disjoint, so they do not form a partition of  $\mathcal{P}(S)$ . Notice, though, that  $R_{1}$  does induce a total order within each subset. By "induce" we mean that we use the same defining property of  $R_{1}$  but restrict our domain to the set  $A_{1}$ , for instance, instead of all of  $\mathcal{P}(S)$ . Of course, there are even more sets we could define that are chains under this relation.
@@ -642,7 +642,7 @@ Let's formalize this notion and then continue our example
 Definition 6.3.8. Let  $(A,R)$  be a partially ordered set, and let  $B\subseteq A$ . Let  $\hat{R}$  denote the relation induced by  $R$  on  $B$ ; that is, we set
 
 $$
-\forall x, y \in A _ {\bullet} (x, y) \in \hat {R} \Longleftrightarrow [ x, y \in B \land (x, y) \in R ]
+\forall x, y \in A_{\bullet} (x, y) \in \hat{R} \Longleftrightarrow [ x, y \in B \land (x, y) \in R ]
 $$
 
 If  $(B,\hat{R})$  is a totally ordered set, then we say  $B$  is a chain of  $A$  (under  $R$ ).
@@ -672,13 +672,13 @@ Example 6.3.10. Let  $A$  be the standard English alphabet of 26 letters, and le
 $W$ . It helps to represent  $A$  as the set [26], where  $\mathrm{a} = 1$  and  $\mathrm{b} = 2$  and so on, until  $\mathrm{z} = 26$ . Then, we say a word  $w \in W$  is represented by
 
 $$
-w = \left(w _ {1}, w _ {2}, \dots , w _ {n}\right) \quad \text {w h e r e} n \in \mathbb {N} \text {a n d} \forall i \in [ n ]. w _ {i} \in A
+w = \left(w_{1}, w_{2}, \dots , w_{n}\right) \quad \text{wh er e} n \in \mathbb {N} \text{an d} \forall i \in [ n ]. w_{i} \in A
 $$
 
 Notice that for any two words  $v, w \in W$ , we can compare them "letter by letter" reading left to right until we reach a difference between them. Wherever that difference occurs, we sort the two words according to the comparison of those two letters. If one word is longer than the other and they have the same letters otherwise, we want to sort the longer one after the shorter one, just like "there" comes before "therefore" in the dictionary.
 
 $$
-\begin{array}{c} (v, w) \in L \Longleftrightarrow \text {a t t h e s m a l l e s t i n d e x} i \text {w h e r e} v _ {i} \neq w _ {i}, \text {w e h a v e} v _ {i} <   w _ {i} \\ \text {(a n d w h e r e a b l a n k s p a c e i s t r a t e d a s 2 7)} \end{array}
+\begin{array}{c} (v, w) \in L \Longleftrightarrow \text{at th es ma ll es ti nd ex} i \text{wh er e} v_{i} \neq w_{i}, \text{we ha ve} v_{i} <   w_{i} \\ \text{(an dw he re ab la nk sp ac ei st ra te da s2 7)} \end{array}
 $$
 
 Think about why this corresponds to the usual ordering of words in the dictionary. (Could you define this using more rigorous mathematical notation? Try it!)
@@ -785,7 +785,7 @@ Let's say we have an equivalence relation  $R$  on a set  $A$ . The reason we ma
 Definition 6.4.4. Let  $R$  be an equivalence relation on the set  $A$ , and let  $x \in A$ . The equivalence class of  $x$  (under the relation  $R$ ) is the set of all elements related to  $x$  and is denoted by  $[x]_R$ . That is,
 
 $$
-[ x ] _ {R} = \{y \in A \mid (x, y) \in R \}
+[ x ]_{R} = \{y \in A \mid (x, y) \in R \}
 $$
 
 # Motivation and Examples
@@ -795,13 +795,13 @@ The idea behind this definition is that equivalence classes allow us to partitio
 Example 6.4.5. Let's return to the original motivating example from this section. We define the relation  $R$  on  $\mathbb{R}$  by
 
 $$
-\forall x, y \in \mathbb {R}. (x, y) \in R \Longleftrightarrow \lfloor x \rfloor = \lfloor y \rfloor
+\forall x, y \in \mathbb{R}. (x, y) \in R \Longleftrightarrow \lfloor x \rfloor = \lfloor y \rfloor
 $$
 
 Let's think about a particular equivalence class, using the definition we just made. Specifically, let's consider
 
 $$
-\begin{array}{l} [ 0 ] _ {R} = \left\{y \in \mathbb {R} \mid (0, y) \in R \right\} = \left\{y \in \mathbb {R} \mid \lfloor 0 \rfloor = \lfloor y \rfloor \right\} = \left\{y \in \mathbb {R} \mid \lfloor y \rfloor = 0 \right\} \\ = \left\{y \in \mathbb {R} \mid 0 \leq y <   1 \right\} \\ \end{array}
+\begin{array}{l} [ 0 ]_{R} = \left\{y \in \mathbb{R} \mid (0, y) \in R \right\} = \left\{y \in \mathbb{R} \mid \lfloor 0 \rfloor = \lfloor y \rfloor \right\} = \left\{y \in \mathbb{R} \mid \lfloor y \rfloor = 0 \right\} \\ = \left\{y \in \mathbb{R} \mid 0 \leq y <   1 \right\} \\ \end{array}
 $$
 
 By using the definition of  $[0]_R$  from above, the definition of  $R$ , and some knowledge of what  $\lfloor y \rfloor$  means, we have figured out that the equivalence class of 0 under the relation  $R$  is this particular interval, between 0 (inclusive) and 1 (exclusive). We can picture that interval like this:
@@ -811,7 +811,7 @@ By using the definition of  $[0]_R$  from above, the definition of  $R$ , and so
 Similarly, we could find that
 
 $$
-[ 1 ] _ {R} = \{y \in \mathbb {R} \mid (1, y) \in R \} = \{y \in \mathbb {R} \mid 1 \leq y <   2 \}
+[ 1 ]_{R} = \{y \in \mathbb{R} \mid (1, y) \in R \} = \{y \in \mathbb{R} \mid 1 \leq y <   2 \}
 $$
 
 and picture that set like this:
@@ -821,13 +821,13 @@ and picture that set like this:
 Notice that these two sets are disjoint (they don't overlap) because the first one does not include 1 as an element, but the second one does. Also, notice that every real number belongs to exactly one interval like this. For example, we can say things like
 
 $$
-\pi \in [ 3 ] _ {R}, \mathrm {e} \in [ 2 ] _ {R}, - 1. 5 \in [ - 2 ] _ {R}, \frac {1}{2} \in [ 0 ] _ {R}
+\pi \in [ 3 ]_{R}, \mathrm{e} \in [ 2 ]_{R}, - 1. 5 \in [ - 2 ]_{R}, \frac{1}{2} \in [ 0 ]_{R}
 $$
 
 However, notice that the definition of equivalence class doesn't say that we have to use exactly one element to represent that class. For example, we can say
 
 $$
-[ 0 ] _ {R} = \left[ \frac {1}{2} \right] _ {R}
+[ 0 ]_{R} = \left[ \frac{1}{2} \right]_{R}
 $$
 
 because the two sets are equal; they contain the same elements, because any real number whose "floor" is 0 is related to 0 (under  $R$ ), and therefore also related to  $\frac{1}{2}$  under  $R$  (because its floor is also 0).
@@ -841,13 +841,13 @@ Now that we've explored the idea that equivalence classes partition a set, let's
 Definition 6.4.6. Let  $R$  be an equivalence relation on the set  $A$ . The set of equivalence classes (under  $R$ ), denoted by  $A / R$ , is a modulo  $R$ . That is,
 
 $$
-A / R = \left\{\left[ x \right] _ {R} \mid x \in A \right\}
+A / R = \left\{\left[ x \right]_{R} \mid x \in A \right\}
 $$
 
 Equivalently,
 
 $$
-A / R = \{X \subseteq A \mid \exists x \in A. X = [ x ] _ {R} \}
+A / R = \{X \subseteq A \mid \exists x \in A. X = [ x ]_{R} \}
 $$
 
 Let's look at a few examples to get a handle on these ideas before we prove an important result. In each example, let's convince ourselves that we have an equivalence relation, examine the equivalence classes, and think about what the modulo operation does.
@@ -857,7 +857,7 @@ Example 6.4.7. Consider, again, the relation  $R$  defined on  $\mathbb{R}$  by 
 Any two elements that are related have the same equivalence class, by definition. For instance,  $[0]_R = [0.5]_R = [0.999]_R$ . Likewise,  $[3.5]_R = [3.75]_R$ , and  $[- \pi]_R = [-4]_R$ , but  $[\pi]_R \neq [4]_R$ . Every real number  $x \in \mathbb{R}$  has an associated equivalence class,  $[x]_R$ , but the idea of the modulo operation is to reduce the set  $\mathbb{R}$  by considering only as many equivalence classes as are necessary. Since  $[0]_R = [0.5]_R = [0.333]_R$  and so on, we can represent all of those identical sets by one set, namely  $[0]_R$ . Thus, we can say
 
 $$
-\mathbb {R} / R = \{\dots , [ - 2 ] _ {R}, [ - 1 ] _ {R}, [ 0 ] _ {R}, [ 1 ] _ {R}, [ 2 ] _ {R}, \dots \}
+\mathbb{R} / R = \{\dots , [ - 2 ]_{R}, [ - 1 ]_{R}, [ 0 ]_{R}, [ 1 ]_{R}, [ 2 ]_{R}, \dots \}
 $$
 
 In essence, then,  $\mathbb{R} / R$  "is" the set of integers  $\mathbb{Z}$ . However, we really only feel comfortable writing  $\mathbb{R} / R^{“} = \mathbb{Z}$  because this equality is not exact. In particular, we haven't even rigorously derived the real numbers or the integers yet, only  $\mathbb{N}$ . Here, we have just observed some kind of "correspondence" between the set of equivalence classes under this relation and the set of integers. We can identify one with the other, and vice-versa, but this doesn't mean they are equal, technically speaking.
@@ -876,7 +876,7 @@ an equivalence relation? Well, any person has the same birth month as himself (r
 
 Equivalence classes under this relation correspond to months! Since we are characterizing people by which month they were born in, an equivalence class is a set of people all born in the same month. For instance, Paul Erdős and Emmy Noether were both born in March, so we can say Emmy Noether  $\in$  [Paul Erdős]B. This equivalence class corresponds to the month of March, but notice that it is defined in terms of a particular element of the set  $S$  (of all people).
 
-If we define  $M$  to be the set of all people ever born in the month of March, then we can say  $M = [\text{Paul Erdős}]_B$ . Taking these observations all together, we can say this: The set of people modulo birth month, written  $S / B$ , consists of 12 sets, each corresponding to a different month and containing all of the people born in that month.
+If we define  $M$  to be the set of all people ever born in the month of March, then we can say  $M = [\text{PaulErdős}]_B$ . Taking these observations all together, we can say this: The set of people modulo birth month, written  $S / B$ , consists of 12 sets, each corresponding to a different month and containing all of the people born in that month.
 
 Example 6.4.9. Consider the set  $\mathbb{R} \times \mathbb{R}$  of all ordered-pairs of real numbers. We define a relation  $R$  on  $\mathbb{R} \times \mathbb{R}$  by declaring when two pairs are related. Specifically, let's say that
 
@@ -895,7 +895,7 @@ Thus, the set of equivalence classes,  $(\mathbb{R}\times \mathbb{R}) / R$ , is 
 Here's another relation on  $\mathbb{R} \times \mathbb{R}$ . Define  $S$  by setting
 
 $$
-\left(\left(x, y\right), \left(u, v\right)\right) \in S \Longleftrightarrow \sqrt {x ^ {2} + y ^ {2}} = \sqrt {u ^ {2} + v ^ {2}}
+\left(\left(x, y\right), \left(u, v\right)\right) \in S \Longleftrightarrow \sqrt{x^{2} + y^{2}} = \sqrt{u^{2} + v^{2}}
 $$
 
 Remembering some basic geometry and algebra, you might recognize that the expression  $\sqrt{x^2 + y^2}$  describes the distance from the point  $(x,y)$  to the origin  $(0,0)$ . (In mathematics, we call such an expression a metric.) Thus, the relation says that two points are related whenever they are the same distance from the origin. Visually, this explains why  $S$  is an equivalence relation, and it shows us that the equivalence classes are circles centered around the origin! Therefore, we can describe the elements of the set  $(\mathbb{R} \times \mathbb{R}) / S$  by just representing these circles by their one distinguishing feature: their radius, some real number  $r \geq 0$ . Accordingly, the set of equivalence classes, under  $S$ , is "identical" to the set of non-negative real numbers!
@@ -928,12 +928,12 @@ $$
 \mathcal {F} = \{\{1, 4 \} \{2, 3, 5 \}, \{6 \} \}
 $$
 
-Notice that  $\mathcal{F}$  is a partition of  $S$  because the sets are disjoint, none are empty, and their union is  $S$ . Wouldn't it be nice if there were some equivalence relation  $R$  that yielded these sets when we considered  $S / R$ ? It turns out that there is! Of course, we may not be able to define it in a nice way, like the relations we have seen so far, which are usually defined as " $(x, y) \in R \iff x \text{ and } y \text{ share some common property}"$ . However, having the partition in hand already allows us to define the relation in terms of the partition. Specifically, the partition sets are the equivalence classes. The partition itself builds in the equivalence class structure, and we can just define an equivalence relation  $R$  by saying  $(x, y) \in R \iff x \text{ and } y \text{ belong to the same partition set.}$
+Notice that  $\mathcal{F}$  is a partition of  $S$  because the sets are disjoint, none are empty, and their union is  $S$ . Wouldn't it be nice if there were some equivalence relation  $R$  that yielded these sets when we considered  $S / R$ ? It turns out that there is! Of course, we may not be able to define it in a nice way, like the relations we have seen so far, which are usually defined as " $(x, y) \in R \iff x \text{ and } y \text{ sharesomecommonproperty}"$ . However, having the partition in hand already allows us to define the relation in terms of the partition. Specifically, the partition sets are the equivalence classes. The partition itself builds in the equivalence class structure, and we can just define an equivalence relation  $R$  by saying  $(x, y) \in R \iff x \text{ and } y \text{ belongtothesamepartitionset.}$
 
 In this example, we would define  $S_{1} = \{1,4\}$  and  $S_{2} = \{2,3,5\}$  and  $S_{3} = \{6\}$ . Then, we define the relation  $R$  by
 
 $$
-(x, y) \in R \Longleftrightarrow \exists i \in [ 3 ]. (x \in S _ {i} \wedge y \in S _ {i})
+(x, y) \in R \Longleftrightarrow \exists i \in [ 3 ]. (x \in S_{i} \wedge y \in S_{i})
 $$
 
 Think about why this works. Do you see why this is an equivalence relation? Do you see what the equivalence classes are?
@@ -947,19 +947,19 @@ As we hinted at above, this result hinges entirely upon the fact that a partitio
 Proof. Let  $\mathcal{F}$  be a partition of  $S$ . This means we have an index set  $I$ , and
 
 $$
-\mathcal {F} = \{S _ {i} \mid i \in I \}
+\mathcal {F} = \{S_{i} \mid i \in I \}
 $$
 
 where the sets  $S_{i}$  satisfy  $S_{i} \subseteq S$  and  $S_{i} \neq \emptyset$  and
 
 $$
-\bigcup_ {i \in I} S _ {i} = S \qquad \text {a n d} \qquad \forall i, j \in I. i \neq j \Rightarrow S _ {i} \cap S _ {j} = \varnothing
+\bigcup_{i \in I} S_{i} = S \qquad \text{an d} \qquad \forall i, j \in I. i \neq j \Rightarrow S_{i} \cap S_{j} = \varnothing
 $$
 
 Let's define the relation  $R$  on  $S$  by
 
 $$
-(x, y) \in R \iff \exists i \in I. (x \in S _ {i} \wedge y \in S _ {i})
+(x, y) \in R \iff \exists i \in I. (x \in S_{i} \wedge y \in S_{i})
 $$
 
 We will now prove  $R$  is an equivalence relation.
@@ -1017,7 +1017,7 @@ This means the set of equivalence classes  $\mathbb{Z} / R$  forms a partition o
 Consider  $[0]_R$ . This is the set of all integers related to 0, i.e. the set of integers that have the same parity as 0, namely all the even integers. Thus, in this case
 
 $$
-\mathbb {Z} / R = \left\{O _ {\mathbb {Z}}, E _ {\mathbb {Z}} \right\}
+\mathbb {Z} / R = \left\{O_{\mathbb {Z}}, E_{\mathbb {Z}} \right\}
 $$
 
 where  $O_{\mathbb{Z}}$  is the set of odd integers and  $E_{\mathbb{Z}}$  is the set of even integers. There are two equivalence classes, each infinitely big.
@@ -1057,13 +1057,13 @@ Remember that crazy exercise from Chapter 3 that had you prove something about a
 What that exercise showed is that (essentially, we are glossing over some details here) any negative integer is represented as the equivalence class of pairs of integers whose difference is that negative integer. That is,
 
 $$
-- 1 \quad “ = ” [ (1, 2) ] _ {R} = \{(1, 2), (2, 3), (3, 4), \dots \}
+- 1 \quad “ = ” [ (1, 2) ]_{R} = \{(1, 2), (2, 3), (3, 4), \dots \}
 $$
 
 and, for another example,
 
 $$
-- 3 “ = ” [ (1, 4) ] _ {R} = \{(1, 4), (2, 5), (3, 6), \dots \}
+- 3 “ = ” [ (1, 4) ]_{R} = \{(1, 4), (2, 5), (3, 6), \dots \}
 $$
 
 This is only an intuitive explanation and not rigorous, mathematically speaking, but that's the main idea!
@@ -1107,7 +1107,7 @@ Compare this to the previous exercise. What do you notice?
 (3) Consider the set  $[5] = \{1,2,3,4,5\}$ . Define the relation  $\approx$  on [5] by setting, for any  $x,y\in [5]$
 
 $$
-x \approx y \quad \Longleftrightarrow \quad | x ^ {2} - y ^ {2} | \leq 5
+x \approx y \quad \Longleftrightarrow \quad | x^{2} - y^{2} | \leq 5
 $$
 
 For every  $x \in [5]$ , let  $S(x)$  be the set of all elements  $y \in [5]$  such that  $x \approx y$ .
@@ -1161,7 +1161,7 @@ $$
 We stop at 6 because it satisfies  $0 \leq 6 < a = 8$ . This tells us  $r = 6$ . We also notice that we subtracted  $a$  from  $b$  seven times, since there are eight terms in our list, with the first one being just  $b - 0 \cdot a$ . Thus, we can write
 
 $$
-\underbrace {6 2} _ {b} = \underbrace {7} _ {k} \cdot \underbrace {8} _ {a} + \underbrace {6} _ {r}
+\underbrace {6 2}_{b} = \underbrace {7}_{k} \cdot \underbrace {8}_{a} + \underbrace {6}_{r}
 $$
 
 The main point here is that there exists such a way to find this remainder, and that it is unique. With that result in hand, let's use it to define some relations on  $\mathbb{Z}$ . We will go on to show that these are all equivalence relations and, more specifically, see how useful their equivalence classes are!
@@ -1187,7 +1187,7 @@ Remark 6.5.6. In practice (i.e. in solving problems and proving other results), 
 Let's see why that works. Let's say their shared remainder is  $r$ . This means there exist  $k, \ell \in \mathbb{Z}$  such that
 
 $$
-a = k n + r \quad \text {a n d} \quad b = \ell n + r
+a = k n + r \quad \text{an d} \quad b = \ell n + r
 $$
 
 (They have the same remainder, but they might not have the same multiple of  $n$ .) Subtracting to solve for  $r$  and then setting them equal, we find
@@ -1298,7 +1298,7 @@ Thus,  $a + b \equiv r + s \mod n$ , since we can express  $a + b$  as a multipl
 Multiplying the two equations yields
 
 $$
-a \cdot b = (k n + r) \cdot (\ell n + s) = k \ell n ^ {2} + (k s + \ell r) n + r \cdot s = n \cdot (k \ell n + k s + \ell r) + r \cdot s
+a \cdot b = (k n + r) \cdot (\ell n + s) = k \ell n^{2} + (k s + \ell r) n + r \cdot s = n \cdot (k \ell n + k s + \ell r) + r \cdot s
 $$
 
 Thus,  $a \cdot b \equiv r \cdot s \mod n$ , since we can express  $a \cdot b$  as a multiple of  $n$  plus the remainder  $r \cdot s$ .
@@ -1336,7 +1336,7 @@ a multiple of 7—i.e. congruent to 1 modulo 7—and we don't need to know immed
 We start with  $5^1 \equiv 5 \mod 7$ . We multiply this by 5, yielding
 
 $$
-5 ^ {2} \equiv 5 \cdot 5 \equiv 2 5 \equiv 4 \mod 7
+5^{2} \equiv 5 \cdot 5 \equiv 2 5 \equiv 4 \mod 7
 $$
 
 We found this by just noticing that  $25 = 21 + 4$ , and knowing 21 is a multiple of 7. (When the numbers are "small" like this, we can often do arithmetic by inspection. That is, we can just look at it for a minute and do some mental arithmetic. Of course, we could always apply the Division Algorithm if we weren't sure, just subtracting 7s from 25 until we were left with a remainder.)
@@ -1344,21 +1344,21 @@ We found this by just noticing that  $25 = 21 + 4$ , and knowing 21 is a multipl
 We can then find
 
 $$
-5 ^ {3} \equiv 5 ^ {2} \cdot 5 \equiv 4 \cdot 5 \equiv 2 0 \equiv 6 \mod 7
+5^{3} \equiv 5^{2} \cdot 5 \equiv 4 \cdot 5 \equiv 2 0 \equiv 6 \mod 7
 $$
 
 Again, we just found "by inspection" that  $20 = 14 + 6$ . Notice that we now know what  $5^3$  is congruent to modulo 7 but we didn't have to actually compute  $5^3 = 125$  and then reduce it. Because we have been reducing all the numbers modulo 7 along the way, we are saving ourselves a lot of computation. Specifically, we are always reducing to something smaller than 7, so the largest numbers we might even have to look at, in any case, are in the 20s and 30s. How convenient! Let's keep going and see what we get:
 
 $$
-5 ^ {4} \equiv 5 ^ {3} \cdot 5 \equiv 6 \cdot 5 \equiv 3 0 \equiv 2 \mod 7
+5^{4} \equiv 5^{3} \cdot 5 \equiv 6 \cdot 5 \equiv 3 0 \equiv 2 \mod 7
 $$
 
 $$
-5 ^ {5} \equiv 5 ^ {4} \cdot 5 \equiv 2 \cdot 5 \equiv 1 0 \equiv 3 \mod 7
+5^{5} \equiv 5^{4} \cdot 5 \equiv 2 \cdot 5 \equiv 1 0 \equiv 3 \mod 7
 $$
 
 $$
-5 ^ {6} \equiv 5 ^ {5} \cdot 5 \equiv 3 \cdot 5 \equiv 1 5 \equiv 1 \mod 7
+5^{6} \equiv 5^{5} \cdot 5 \equiv 3 \cdot 5 \equiv 1 5 \equiv 1 \mod 7
 $$
 
 That's what we were looking for! We have ascertained that  $5^6$  is 1 more than a multiple of 7. And this was much easier than calculating  $5^6 = 15625$  and figuring out that  $15625 = 7 \cdot 2232 + 1$ , wasn't it?
@@ -1374,7 +1374,7 @@ have included parenthetical statements that work out the details with a specific
 Proof. Let  $x \in \mathbb{N}$  be arbitrary and fixed. We can represent this number using its decimal expansion by writing
 
 $$
-x = \sum_ {k = 0} ^ {n - 1} x _ {k} \cdot 1 0 ^ {k}
+x = \sum_{k = 0}^{n - 1} x_{k} \cdot 1 0^{k}
 $$
 
 where  $n$  is the number of digits in the number  $x$ , and  $x_{k}$  is the digit corresponding to the  $10^{k}$ -th place, so  $0 \leq x_{k} \leq 9$ . (That is,  $x_{k}$  is the  $(k + 1)$ -th digit of  $x$  reading right to left.)
@@ -1384,13 +1384,13 @@ where  $n$  is the number of digits in the number  $x$ , and  $x_{k}$  is the di
 The Divisibility Trick claims that
 
 $$
-x \equiv 0 \mod 3 \Longleftrightarrow \sum_ {k = 0} ^ {n - 1} x _ {k} \equiv 0 \mod 3
+x \equiv 0 \mod 3 \Longleftrightarrow \sum_{k = 0}^{n - 1} x_{k} \equiv 0 \mod 3
 $$
 
 To prove this, we will consider the decimal expansion modulo 3. Notice that  $10 \equiv 1 \mod 3$ , since  $10 = 9 + 1$ . Thus,
 
 $$
-\forall k \in \mathbb {N} \cup \{0 \}. 1 0 ^ {k} \equiv 1 ^ {k} \equiv 1 \mod 3
+\forall k \in \mathbb {N} \cup \{0 \}. 1 0^{k} \equiv 1^{k} \equiv 1 \mod 3
 $$
 
 (This follow from the Modular Arithmetic Lemma and the fact that  $1^k = 1$  for any  $k$ . Think about this!)
@@ -1398,7 +1398,7 @@ $$
 This allows us to replace the powers of 10 in the decimal expansion with 1s! Therefore,
 
 $$
-\begin{array}{l} x \equiv 0 \mod 3 \iff \sum_ {k = 0} ^ {n - 1} x _ {k} \cdot 1 0 ^ {k} \equiv 0 \mod 3 \text {R e w r i t e} x \text {i n d e c i m a l f o r m} \\ \iff \sum_ {k = 0} ^ {n - 1} x _ {k} \cdot 1 ^ {k} \equiv 0 \mod 3 \qquad \text {S i n c e} 1 0 \equiv 1 \mod 3 \\ \Longleftrightarrow \sum_ {k = 0} ^ {n - 1} x _ {k} \equiv 0 \mod 3 \\ \end{array}
+\begin{array}{l} x \equiv 0 \mod 3 \iff \sum_{k = 0}^{n - 1} x_{k} \cdot 1 0^{k} \equiv 0 \mod 3 \text{Re wr it e} x \text{in de ci ma lf or m} \\ \iff \sum_{k = 0}^{n - 1} x_{k} \cdot 1^{k} \equiv 0 \mod 3 \qquad \text{Si nc e} 1 0 \equiv 1 \mod 3 \\ \Longleftrightarrow \sum_{k = 0}^{n - 1} x_{k} \equiv 0 \mod 3 \\ \end{array}
 $$
 
 This proves the claim.
@@ -1434,7 +1434,7 @@ By the definition of mod, we know this means  $z$  has a remainder of 0 when we 
 What about knowing  $z \in [1]_{\mathrm{mod} 4}$ ? What does this say about  $z$ ? Having a remainder of 1 means  $z$  is expressible as  $4k + 1$ ; that is, there exists such a  $k$  that allows us to write  $z$  in this way. What could that  $k$  be? Well, any choice of  $k \in \mathbb{Z}$  creates such a number  $z$ , so we can consider letting  $k = 0$  and  $k = 1$  and  $k = 2 \ldots$  as well as  $k = -1$  and  $k = -2 \ldots$  and see what happens. We find that this generates the set
 
 $$
-\begin{array}{l} [ 1 ] _ {\mathrm {m o d} 4} = \{\dots , - 7, - 3, 1, 5, 9, \dots \} \\ = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 4 k + 1 \} = \{4 k + 1 \mid k \in \mathbb {Z} \} \\ \end{array}
+\begin{array}{l} [ 1 ]_{\mathrm{mo d} 4} = \{\dots , - 7, - 3, 1, 5, 9, \dots \} \\ = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 4 k + 1 \} = \{4 k + 1 \mid k \in \mathbb {Z} \} \\ \end{array}
 $$
 
 Notice that we resorted to "… notation at first to show you the pattern we noticed, and then we rewrote this set using set-builder notation (in two different ways).
@@ -1452,27 +1452,27 @@ The equivalence class corresponding to remainder  $r$  will collect together all
 Given  $n\in \mathbb{N}$ , there are exactly  $n$  equivalence classes:
 
 $$
-[ 0 ] _ {\mathrm {m o d} n}, [ 1 ] _ {\mathrm {m o d} n}, [ 2 ] _ {\mathrm {m o d} n}, \dots , [ n - 1 ] _ {\mathrm {m o d} n}
+[ 0 ]_{\mathrm{mo d} n}, [ 1 ]_{\mathrm{mo d} n}, [ 2 ]_{\mathrm{mo d} n}, \dots , [ n - 1 ]_{\mathrm{mo d} n}
 $$
 
 They are characterized by:
 
 $$
-\begin{array}{l} [ 0 ] _ {\mathrm {m o d} n} = \left\{\dots , - 2 n, - n, 0, n, 2 n, \dots \right\} \\ = \left\{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = k n \right\} \\ \end{array}
+\begin{array}{l} [ 0 ]_{\mathrm{mo d} n} = \left\{\dots , - 2 n, - n, 0, n, 2 n, \dots \right\} \\ = \left\{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = k n \right\} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} [ 1 ] _ {\mathrm {m o d} n} = \{\dots , - 2 n + 1, - n + 1, 1, n + 1, 2 n + 1, \dots \} \\ = \left\{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = k n + 1 \right\} \\ \end{array}
+\begin{array}{l} [ 1 ]_{\mathrm{mo d} n} = \{\dots , - 2 n + 1, - n + 1, 1, n + 1, 2 n + 1, \dots \} \\ = \left\{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = k n + 1 \right\} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} [ 2 ] _ {\mathrm {m o d} n} = \{\dots , - 2 n + 2, - n + 2, 2, n + 2, 2 n + 2, \dots \} \\ = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = k n + 2 \} \\ \end{array}
+\begin{array}{l} [ 2 ]_{\mathrm{mo d} n} = \{\dots , - 2 n + 2, - n + 2, 2, n + 2, 2 n + 2, \dots \} \\ = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = k n + 2 \} \\ \end{array}
 $$
 
 中
 
 $$
-\begin{array}{l} [ n - 1 ] _ {\mathrm {m o d} n} = \{\dots , - n - 1, - 1, n - 1, 2 n - 1, 3 n - 1, \dots \} \\ = \left\{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = k n + (n - 1) \right\} \\ = \left\{z \in \mathbb {Z} \mid \exists \ell \in \mathbb {Z}. z = \ell n - 1 \right\} \\ \end{array}
+\begin{array}{l} [ n - 1 ]_{\mathrm{mo d} n} = \{\dots , - n - 1, - 1, n - 1, 2 n - 1, 3 n - 1, \dots \} \\ = \left\{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = k n + (n - 1) \right\} \\ = \left\{z \in \mathbb {Z} \mid \exists \ell \in \mathbb {Z}. z = \ell n - 1 \right\} \\ \end{array}
 $$
 
 This summarizes all of our observations in full generality. Here are a few examples with specific values of  $n$ .
@@ -1480,43 +1480,43 @@ This summarizes all of our observations in full generality. Here are a few examp
 - Consider  $n = 2$ . The equivalence classes are
 
 $$
-\begin{array}{l} [ 0 ] _ {\text {m o d} 2} = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 2 k \} = \{\text {e v e n i n t e g e r s} \} \\ = \{\dots , - 6, - 4, - 2, 0, 2, 4, 6 \dots \} \\ \end{array}
+\begin{array}{l} [ 0 ]_{\text{mo d} 2} = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 2 k \} = \{\text{ev en in te ge rs} \} \\ = \{\dots , - 6, - 4, - 2, 0, 2, 4, 6 \dots \} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} [ 1 ] _ {\mathrm {m o d} 2} = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 2 k + 1 \} = \{\text {o d d i n t e g e r s} \} \\ = \{\dots , - 5, - 3, - 1, 1, 3, 5, \dots \} \\ \end{array}
+\begin{array}{l} [ 1 ]_{\mathrm{mo d} 2} = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 2 k + 1 \} = \{\text{od di nt eg er s} \} \\ = \{\dots , - 5, - 3, - 1, 1, 3, 5, \dots \} \\ \end{array}
 $$
 
 - Consider  $n = 3$ . The equivalence classes are
 
 $$
-\begin{array}{l} [ 0 ] _ {\mathrm {m o d} 3} = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 3 k \} = \{\text {m u l t i p l e s} 3 \} \\ = \{\dots , - 9, - 6, - 3, 0, 3, 6, 9, \dots \} \\ \end{array}
+\begin{array}{l} [ 0 ]_{\mathrm{mo d} 3} = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 3 k \} = \{\text{mu lt ip le s} 3 \} \\ = \{\dots , - 9, - 6, - 3, 0, 3, 6, 9, \dots \} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} [ 1 ] _ {\mathrm {m o d} 3} = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 3 k + 1 \} = \{\text {m u l t i p l e s o f} 3, \text {p l u s} 1 \} \\ = \{\dots , - 8, - 5, - 2, 1, 4, 7, 1 0, \dots \} \\ \end{array}
+\begin{array}{l} [ 1 ]_{\mathrm{mo d} 3} = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 3 k + 1 \} = \{\text{mu lt ip le so f} 3, \text{pl us} 1 \} \\ = \{\dots , - 8, - 5, - 2, 1, 4, 7, 1 0, \dots \} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} [ 2 ] _ {\mathrm {m o d} 3} = \left\{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 3 k + 2 \right\} = \{\text {m u l t i p l e s o f} 3, \text {p l u s} 2 \} \\ = \{\dots , - 7, - 4, - 1, 2, 5, 8, 1 1 \dots \} \\ \end{array}
+\begin{array}{l} [ 2 ]_{\mathrm{mo d} 3} = \left\{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 3 k + 2 \right\} = \{\text{mu lt ip le so f} 3, \text{pl us} 2 \} \\ = \{\dots , - 7, - 4, - 1, 2, 5, 8, 1 1 \dots \} \\ \end{array}
 $$
 
 - Consider  $n = 4$ . The equivalence classes are
 
 $$
-\begin{array}{l} [ 0 ] _ {\mathrm {m o d} 4} = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 4 k \} = \{\text {m u l t i p l e s} 4 \} \\ = \{\dots , - 1 2, - 8, - 4, 0, 4, 8, 1 2, \dots \} \\ \end{array}
+\begin{array}{l} [ 0 ]_{\mathrm{mo d} 4} = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 4 k \} = \{\text{mu lt ip le s} 4 \} \\ = \{\dots , - 1 2, - 8, - 4, 0, 4, 8, 1 2, \dots \} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} [ 1 ] _ {\mathrm {m o d} 4} = \left\{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 4 k + 1 \right\} = \{\text {m u l t i p l e s} 4, \text {p l u s} 1 \} \\ = \{\dots , - 1 1, - 7, - 3, 1, 5, 9, 1 3, \dots \} \\ \end{array}
+\begin{array}{l} [ 1 ]_{\mathrm{mo d} 4} = \left\{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 4 k + 1 \right\} = \{\text{mu lt ip le s} 4, \text{pl us} 1 \} \\ = \{\dots , - 1 1, - 7, - 3, 1, 5, 9, 1 3, \dots \} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} [ 2 ] _ {\mathrm {m o d} 4} = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 4 k + 2 \} = \{\text {m u l t i p l e s o f} 4, \text {p l u s} 2 \} \\ = \{\dots , - 1 0, - 6, - 2, 2, 4, 6, 1 0, 1 4, \dots \} \\ \end{array}
+\begin{array}{l} [ 2 ]_{\mathrm{mo d} 4} = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 4 k + 2 \} = \{\text{mu lt ip le so f} 4, \text{pl us} 2 \} \\ = \{\dots , - 1 0, - 6, - 2, 2, 4, 6, 1 0, 1 4, \dots \} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} [ 3 ] _ {\mathrm {m o d} 4} = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 4 k + 3 \} = \{\text {m u l t i p l e s o f} 4, \text {p l u s} 3 \} \\ = \{\dots , - 9, - 5, - 1, 3, 7, 1 1, 1 5, \dots \} \\ \end{array}
+\begin{array}{l} [ 3 ]_{\mathrm{mo d} 4} = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 4 k + 3 \} = \{\text{mu lt ip le so f} 4, \text{pl us} 3 \} \\ = \{\dots , - 9, - 5, - 1, 3, 7, 1 1, 1 5, \dots \} \\ \end{array}
 $$
 
 # Using the Equivalence Classes
@@ -1528,7 +1528,7 @@ The fact that  $\mathbb{Z}$  is partitioned by these equivalence classes is extr
 Example 6.5.14. Consider the following claim:
 
 $$
-\forall n \in \mathbb {N}. 6 \mid n ^ {3} + 5 n
+\forall n \in \mathbb {N}. 6 \mid n^{3} + 5 n
 $$
 
 We asked you to prove this by induction on  $n$  previously! (See Problem 5.7.15 in Section 5.7.) Here, we will take advantage of equivalence classes to prove this instead!
@@ -1692,7 +1692,7 @@ We have now seen that, no matter what situation applies, there is at least one c
 This is fruitful for us, because we can look back at our list of cubic residues and notice something: the only base whose cube is congruent to 0 modulo 7 is 0 itself! Said another way,
 
 $$
-\forall z \in \mathbb {Z}. z ^ {3} \equiv 0 \mod 7 \Longrightarrow z \equiv 0 \mod 7
+\forall z \in \mathbb {Z}. z^{3} \equiv 0 \mod 7 \Longrightarrow z \equiv 0 \mod 7
 $$
 
 This means that, in every situation outlined above, we have at least one of the cubes being congruent to 0 modulo 7, which means further that we have at least one of the base variables congruent to 0 modulo 7. By listing the possibilities and then analyzing a few cases, we have now proved a property about all possible solutions to this equation without having to find any solutions!
@@ -1756,7 +1756,7 @@ Given a particular mathematical objects, its multiplicative inverse is another o
 Example 6.5.18. Let's consider a familiar example first. Suppose our context is the set of real numbers  $\mathbb{R}$  with the usual multiplication. Let's take the number 2. What is its multiplicative inverse? That is, is there another real number  $x$  such that  $2 \cdot x = 1$ , and if so, what is it? Certainly,  $x = \frac{1}{2}$  works! Notice that  $2 \cdot \frac{1}{2} = 1$ . For this reason, we write
 
 $$
-2 ^ {- 1} = \frac {1}{2} \quad \mathrm {i n t h e c o n t e x t o f \mathbb {R}}
+2^{- 1} = \frac{1}{2} \quad \mathrm{in th ec on te xt of \mathbb{R}}
 $$
 
 When we "divide both sides of an equation by 2", we are actually multiplying both sides by the multiplicative inverse of 2.
@@ -1768,7 +1768,7 @@ Now, let's say that "multiplying" two rotations together is simply doing one rot
 The point of establishing these conventions—what our context is, what the objects are, what "multiply" means, and what "1" means—is that we can identify the multiplicative inverse of any rotation. If you think about it for a minute, you'll see that if we take the object "θ (in degrees) rotation" and multiply it by the "360 - θ (in degrees) rotation", then we have rotated the clock completely around by  $360^{\circ}$  and arrived with the standard placement, our "1" in this context. This means
 
 $$
-\left(\theta (\text {i n d e g r e e s}) \text {r o t a t i o n}\right) ^ {- 1} = 3 6 0 - \theta (\text {i n d e g r e e s}) \text {r o t a t i o n}
+\left(\theta (\text{in de gr ee s}) \text{ro ta ti on}\right)^{- 1} = 3 6 0 - \theta (\text{in de gr ee s}) \text{ro ta ti on}
 $$
 
 in our current context.
@@ -1810,7 +1810,7 @@ This is convenient! In particular, we now know that whenever  $p$  is a prime, a
 Let's talk about what multiplicative inverse means in the context of  $\mathbb{Z}$  modulo  $n$ . Here, "multiply" means the usual multiplication, but everything is reduced modulo  $n$ . Also, "1" really means the equivalence class corresponding to 1. In this sense, we will say that for any  $x \in \mathbb{Z}$ , its multiplicative inverse—written as  $x^{-1}$ —is equal to  $y$  if and only if  $xy \equiv 1 \mod n$ . That is,
 
 $$
-\forall x \in \mathbb {Z}. \forall y \in \mathbb {Z}. y \equiv x ^ {- 1} \mod n \Longleftrightarrow x y \equiv 1 \mod n
+\forall x \in \mathbb {Z}. \forall y \in \mathbb {Z}. y \equiv x^{- 1} \mod n \Longleftrightarrow x y \equiv 1 \mod n
 $$
 
 Notice that all of these claims are made in the context of  $\mathbb{Z}$  modulo  $n$ , so we don't write " $y = x^{-1}$ ". The number  $x$  represents an entire equivalence class, as does  $x^{-1}$ .
@@ -1818,7 +1818,7 @@ Notice that all of these claims are made in the context of  $\mathbb{Z}$  modulo
 Let's practice finding these multiplicative inverses, or determining when they don't exist. The key observation to make here is the following:
 
 $$
-\text {I f} x \cdot y \equiv 1 \bmod n, \text {t h e n} x \cdot (y + k n) \equiv 1 \bmod n \text {f o r e v e r y} k \in \mathbb {Z}.
+\text{If} x \cdot y \equiv 1 \bmod n, \text{th en} x \cdot (y + k n) \equiv 1 \bmod n \text{fo re ve ry} k \in \mathbb {Z}.
 $$
 
 To see why, we can just distribute the  $x$  in the expression on the right:
@@ -1842,7 +1842,7 @@ Example 6.5.23. Throughout this example, we will provide an  $n \in \mathbb{N}$ 
 We know we just need to check  $y = 1$  and  $y = 2$ . Notice that  $2 \cdot 2 \equiv 4 \equiv 1 \mod 3$ , so
 
 $$
-2 ^ {- 1} \equiv 2 \mod 3
+2^{- 1} \equiv 2 \mod 3
 $$
 
 - $\mathrm{n} = 4$  and  $\mathrm{x} = 3$ :
@@ -1850,7 +1850,7 @@ $$
 We know we just need to check  $y = 1$  and  $y = 2$  and  $y = 3$ . Notice that  $3 \cdot 3 \equiv 4 \equiv 1 \mod 3$ , so
 
 $$
-3 ^ {- 1} \equiv 3 \mod 4
+3^{- 1} \equiv 3 \mod 4
 $$
 
 - $\mathrm{n} = 4$  and  $\mathrm{x} = 2$ :
@@ -1868,13 +1868,13 @@ $$
 Aha! This means
 
 $$
-3 ^ {- 1} \equiv 7 \mod 1 0
+3^{- 1} \equiv 7 \mod 1 0
 $$
 
 Notice that this also shows
 
 $$
-7 ^ {- 1} \equiv 3 \mod 1 0
+7^{- 1} \equiv 3 \mod 1 0
 $$
 
 because multiplication is commutative (i.e. the order does not matter).
@@ -1894,7 +1894,7 @@ $$
 so
 
 $$
-7 ^ {- 1} \equiv 1 3 \mathrm {m o d} 1 5
+7^{- 1} \equiv 1 3 \mathrm{mo d} 1 5
 $$
 
 We will also leave it to you to verify that, for example, 6 has no multiplicative inverse modulo 15.
@@ -2007,7 +2007,7 @@ Proof of claim: We will prove this by induction on the sum  $a + b$ . Before sta
 In either case, we can use  $x = a$  and  $y = 0$  to write
 
 $$
-a x + b y = a ^ {2} + 0 = 1
+a x + b y = a^{2} + 0 = 1
 $$
 
 The same argument applies for the case when  $b = 1$  or  $b = -1$  (i.e.  $a$  must be 0 or 1).
@@ -2036,7 +2036,7 @@ Now, we may proceed with our proof by (strong) induction on the sum  $a + b$ . S
 Given  $a, b \in \mathbb{N}$ , define  $P(a, b)$  to be the statement
 
 $$
-“ a \text {a n d} b \text {a r e r e l a t i v e l y p r i m e} \Rightarrow \exists x, y \in \mathbb {Z}. a x + b y = 1 ”
+“ a \text{an d} b \text{ar er el at iv el yp ri me} \Rightarrow \exists x, y \in \mathbb {Z}. a x + b y = 1 ”
 $$
 
 BC: Consider  $P(2)$ , i.e. assume  $a, b \in \mathbb{N}$ ,  $a$  and  $b$  are relatively prime, and  $a + b = 2$ . This means  $a = b = 1$ , and so we can choose  $x = 1$  and  $y = 0$ , yielding
@@ -2078,7 +2078,7 @@ $$
 We now want to manipulate this into a linear combination of  $a$  and  $b$  that yields 1. To do this, we will just rewrite the above equation and relabel the coefficients:
 
 $$
-u b + v (a - b) = 1 \Longleftrightarrow \underbrace {v} _ {x} a + b \underbrace {(u - v)} _ {y} = 1
+u b + v (a - b) = 1 \Longleftrightarrow \underbrace {v}_{x} a + b \underbrace {(u - v)}_{y} = 1
 $$
 
 That is, we can now define  $x = v$  and  $y = u - v$ , so that  $x, y \in \mathbb{Z}$  and  $ax + by = 1$ .
@@ -2096,7 +2096,7 @@ That second assumption tells us  $\exists k\in \mathbb{Z}$ $bc = ak$  . Let such
 We will multiply through that first assumption's equation by  $c$ , and then apply the second assumption:
 
 $$
-a x + b y = 1 \Rightarrow a c x + (b c) y = 1 \Rightarrow a c x + (a k) y = c \Rightarrow c = a \underbrace {(c x + k y)} _ {\ell}
+a x + b y = 1 \Rightarrow a c x + (b c) y = 1 \Rightarrow a c x + (a k) y = c \Rightarrow c = a \underbrace {(c x + k y)}_{\ell}
 $$
 
 That is, knowing  $ax + by = 1$  lets us deduce that  $c = a\ell$ , where  $\ell \in \mathbb{Z}$  is defined in terms of other integers.
@@ -2138,7 +2138,7 @@ Assuming we can find all of these integers  $x \in \mathbb{Z}$ , we can easily f
 Notice that  $3^{-1} \equiv 5 \mod 7$ , since  $3 \cdot 5 \equiv 15 \equiv 2 \cdot 7 + 1 \equiv 1 \mod 7$ . Thus, by the MAL, we can multiply both sides of a congruence by  $3^{-1}$ , yielding
 
 $$
-\begin{array}{l} \forall x \in \mathbb {Z}. 3 x \equiv 1 1 \mod 7 \Longleftrightarrow 3 ^ {- 1} \cdot 3 \cdot x \equiv 3 ^ {- 1} \cdot 1 1 \mod 7 \\ \Longleftrightarrow 1 \cdot x \equiv 5 \cdot 4 \mod 7 \\ \iff x \equiv 2 0 \equiv 6 \mod 7 \\ \end{array}
+\begin{array}{l} \forall x \in \mathbb {Z}. 3 x \equiv 1 1 \mod 7 \Longleftrightarrow 3^{- 1} \cdot 3 \cdot x \equiv 3^{- 1} \cdot 1 1 \mod 7 \\ \Longleftrightarrow 1 \cdot x \equiv 5 \cdot 4 \mod 7 \\ \iff x \equiv 2 0 \equiv 6 \mod 7 \\ \end{array}
 $$
 
 Since we know that  $3^{-1}$  characterizes all of the solutions to this congruence (i.e. it represents the equivalence class of the multiplicative inverse of 3 modulo 7), then we can deduce that
@@ -2152,7 +2152,7 @@ This characterizes all of the possible values of  $x \in \mathbb{Z}$  for a solu
 Now, we use this to identify the corresponding values of  $y \in \mathbb{Z}$  for a solution. Suppose we have been given  $k \in \mathbb{Z}$  with  $x = 7k + 6$ . Then we substitute and find that
 
 $$
-y = \frac {3 x - 1 1}{7} = \frac {3 (7 k + 6) - 1 1}{7} = \frac {2 1 k + 7}{7} = 3 k + 1
+y = \frac{3 x - 1 1}{7} = \frac{3 (7 k + 6) - 1 1}{7} = \frac{2 1 k + 7}{7} = 3 k + 1
 $$
 
 Now, we have a form that represents all possible solutions to the given equation. We know that any  $k \in \mathbb{Z}$  yields a corresponding  $x$ , which yields a corresponding  $y$ . Furthermore, since our derivation uses  $\iff$  statements, we know that this characterizes all the solutions.
@@ -2176,7 +2176,7 @@ Example 6.5.27. Let's now see an example that uses a similar procedure as the pr
 Claim: There are no integral solutions  $x, y \in \mathbb{Z}$  to
 
 $$
-3 x ^ {2} - 5 y ^ {2} = 1
+3 x^{2} - 5 y^{2} = 1
 $$
 
 Let  $x,y\in \mathbb{Z}$  be given. WWTS that  $3x^{2} - 5y^{2} = 1$  is impossible.
@@ -2184,19 +2184,19 @@ Let  $x,y\in \mathbb{Z}$  be given. WWTS that  $3x^{2} - 5y^{2} = 1$  is impossi
 We start by rewriting the given equation as
 
 $$
-3 x ^ {2} = 5 y ^ {2} + 1
+3 x^{2} = 5 y^{2} + 1
 $$
 
 This means, in particular, that
 
 $$
-3 x ^ {2} \equiv 1 \mod 5
+3 x^{2} \equiv 1 \mod 5
 $$
 
 since  $5y^{2} \equiv 0 \mod 5$ . Notice that  $3^{-1} \equiv 2 \mod 5$ , since  $3 \cdot 2 = 6 = 5 + 1$ . We can thus multiply both sides by  $3^{-1}$  and simplify:
 
 $$
-3 x ^ {2} \equiv 1 \mod 5 \Longleftrightarrow 3 ^ {- 1} \cdot 3 x ^ {2} \equiv 3 ^ {- 1} \cdot 1 \mod 5 \Longleftrightarrow x ^ {2} \equiv 2 \mod 5
+3 x^{2} \equiv 1 \mod 5 \Longleftrightarrow 3^{- 1} \cdot 3 x^{2} \equiv 3^{- 1} \cdot 1 \mod 5 \Longleftrightarrow x^{2} \equiv 2 \mod 5
 $$
 
 However, look back at Example 6.5.15 where we examined quadratic residues. We saw that the set of quadratic residues modulo 5 is  $\{0,1,4\}$ . That is, it is not possible to have an integer  $x$  satisfy  $x^2 \equiv 2 \mod 5$ . This means no integral solutions exist to the given equation.
@@ -2220,45 +2220,45 @@ has a corresponding class of multiplicative inverses.
 For example, consider  $p = 5$ . Notice that
 
 $$
-1 ^ {- 1} \equiv 1 \mod 5
+1^{- 1} \equiv 1 \mod 5
 $$
 
 $$
-2 ^ {- 1} \equiv 3 \mod 5
+2^{- 1} \equiv 3 \mod 5
 $$
 
 $$
-3 ^ {- 1} \equiv 2 \mod 5
+3^{- 1} \equiv 2 \mod 5
 $$
 
 $$
-4 ^ {- 1} \equiv 4 \mod 5
+4^{- 1} \equiv 4 \mod 5
 $$
 
 As another example, consider  $p = 7$ . Notice that
 
 $$
-1 ^ {- 1} \equiv 1 \mod 7
+1^{- 1} \equiv 1 \mod 7
 $$
 
 $$
-2 ^ {- 1} \equiv 4 \mod 7
+2^{- 1} \equiv 4 \mod 7
 $$
 
 $$
-3 ^ {- 1} \equiv 5 \mod 7
+3^{- 1} \equiv 5 \mod 7
 $$
 
 $$
-4 ^ {- 1} \equiv 2 \mod 7
+4^{- 1} \equiv 2 \mod 7
 $$
 
 $$
-5 ^ {- 1} \equiv 3 \mod 7
+5^{- 1} \equiv 3 \mod 7
 $$
 
 $$
-6 ^ {- 1} \equiv 6 \mod 7
+6^{- 1} \equiv 6 \mod 7
 $$
 
 Notice that all of the elements have a multiplicative inverse.
@@ -2270,7 +2270,7 @@ This is certainly not the case when we consider  $\mathbb{Z}$  modulo  $n$ , whe
 For example, consider  $n = 6$ . Then,
 
 $$
-\begin{array}{l} 1 ^ {- 1} \equiv 1 \mod 6 \\ 2 ^ {- 1} \quad \text {D o e s N o t E x i s t} \mod 6 \\ 3 ^ {- 1} \text {D o e s N o t E x i s t} \mod 6 \\ 4 ^ {- 1} \text {D o e s N o t E x i s t} \mod 6 \\ 5 ^ {- 1} \equiv 5 \mod 6 \\ \end{array}
+\begin{array}{l} 1^{- 1} \equiv 1 \mod 6 \\ 2^{- 1} \quad \text{Do es No tE xi st} \mod 6 \\ 3^{- 1} \text{Do es No tE xi st} \mod 6 \\ 4^{- 1} \text{Do es No tE xi st} \mod 6 \\ 5^{- 1} \equiv 5 \mod 6 \\ \end{array}
 $$
 
 Because of this distinction, the mathematical "structure" of  $\mathbb{Z}$  modulo  $p$  stands out. It has some "nice" properties, and "behaves well" in some sense. These are vague terms we are using, of course, but the main idea is this: having inverses for all of its elements makes  $\mathbb{Z}$  modulo  $p$  special. In fact,  $\mathbb{Z}$  modulo  $p$  forms a kind of mathematical structure known as a group.
@@ -2424,7 +2424,7 @@ Secondly, we can explain that, in fact, any number that is congruent to 7 modulo
 That's it! We now know that (1) any solution  $x$  must satisfy  $x \equiv 7 \mod 30$ , and (2) any such  $x$  actually is a solution. Together, these statements form an  $\iff$  statement, namely
 
 $$
-x \text {i s a s o l u t i o n t o a l l t h r e e c o n g r u e n c e s} \Longleftrightarrow x \equiv 7 \mod 3 0
+x \text{is as ol ut io nt oa ll th re ec on gr ue nc es} \Longleftrightarrow x \equiv 7 \mod 3 0
 $$
 
 and therefore the set  $S$  of all solutions is given by
@@ -2450,17 +2450,17 @@ The Chinese Remainder Theorem tells us when there are guaranteed to be solutions
 Theorem 6.5.28. Suppose we are given a system of  $r$ -many different congruences. That is, suppose  $r \in \mathbb{N}$  and we have  $r$  natural numbers,  $n_1, n_2, \ldots, n_r \in \mathbb{N}$ , and we also have  $r$  integers,  $a_1, a_2, \ldots, a_r \in \mathbb{Z}$ , and the system of congruences is given by
 
 $$
-x \equiv a _ {1} \mod n _ {1}
+x \equiv a_{1} \mod n_{1}
 $$
 
 $$
-x \equiv a _ {2} \mod n _ {2}
+x \equiv a_{2} \mod n_{2}
 $$
 
 ：
 
 $$
-x \equiv a _ {r} \mod n _ {r}
+x \equiv a_{r} \mod n_{r}
 $$
 
 (Put another way, the system asks for  $x \in \mathbb{Z}$  such that  $\forall i \in [r]$ .  $x \equiv a_i \mod n_i$ .)
@@ -2470,7 +2470,7 @@ If the moduli  $n_i$  are pair-wise relatively prime—that is, no two of the nu
 Furthermore, in this case, there are in fact infinitely-many solutions, and they are all congruent modulo  $N$ , where  $N$  is defined as the product of the moduli:
 
 $$
-N = \prod_ {i \in [ r ]} n _ {i}
+N = \prod_{i \in [ r ]} n_{i}
 $$
 
 Notice that the main conclusion is the "If…then…" statement. Remember what we said about conditional statements like this? This theorem is offering no statement about what happens when two of the moduli are not relatively prime. Anything could happen in that case! The example we saw above had non-relatively prime moduli: one congruence was given modulo 4 and the other modulo 6, and 4 and 6 share the common factor of 2. However, the theorem does not say there are no solutions; we had to figure that out for ourselves. What if
@@ -2550,13 +2550,13 @@ $$
 This means that  $a$  and  $b$  are relatively prime. This is a general fact:
 
 $$
-a \text {a n d} b \text {a r e r e l a t i v e l y p r i m e} \Longleftrightarrow \operatorname * {g c d} (a, b) = 1
+a \text{an d} b \text{ar er el at iv el yp ri me} \Longleftrightarrow \operatorname * {g c d} (a, b) = 1
 $$
 
 Furthermore,
 
 $$
-\forall a, b \in \mathbb {N}. a \text {p r i m e} \Longrightarrow (\operatorname * {g c d} (a, b) = 1 \Longleftrightarrow a \nmid b)
+\forall a, b \in \mathbb {N}. a \text{pr im e} \Longrightarrow (\operatorname * {g c d} (a, b) = 1 \Longleftrightarrow a \nmid b)
 $$
 
 Now, we feel ready to state and prove Bézout's Identity!
@@ -2570,7 +2570,7 @@ $$
 Also, define  $M$  to be the set of all multiplied of  $\gcd(a, b)$ ; that is, define
 
 $$
-M = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = k \cdot \operatorname {g c d} (a, b) \} = \{k \cdot \operatorname {g c d} (a, b) \mid k \in \mathbb {Z} \}
+M = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = k \cdot \operatorname{gc d} (a, b) \} = \{k \cdot \operatorname{gc d} (a, b) \mid k \in \mathbb {Z} \}
 $$
 
 Then,
@@ -2596,7 +2596,7 @@ Since  $\gcd(a, b)$  divides both  $a$  and  $b$ , we know  $\exists k, \ell \in
 We take these expressions for  $a$  and  $b$  and replace them in the equation above:
 
 $$
-z = a x + b y = k \cdot \operatorname * {g c d} (a, b) \cdot x + \ell \cdot \operatorname * {g c d} (a, b) \cdot y = \operatorname * {g c d} (a, b) \cdot \underbrace {\left(k x + \ell y\right)} _ {m}
+z = a x + b y = k \cdot \operatorname * {g c d} (a, b) \cdot x + \ell \cdot \operatorname * {g c d} (a, b) \cdot y = \operatorname * {g c d} (a, b) \cdot \underbrace {\left(k x + \ell y\right)}_{m}
 $$
 
 Define  $m = kx + \ell y$ . Since  $m \in \mathbb{Z}$ , this shows that  $z$  is a multiple of  $\gcd(a, b)$ .
@@ -2700,7 +2700,7 @@ Problem 6.7.1.  $\triangleright$  Consider the set  $A = \{1,2,3,4\}$ . For each
 Problem 6.7.2. Define the relation  $\sim$  on  $\mathbb{R}$  by setting
 
 $$
-\forall a, b \in \mathbb {R}. a \sim b \Longleftrightarrow \forall x \in \mathbb {R}. x > 0 \Longrightarrow a x ^ {2} + b x > 0
+\forall a, b \in \mathbb{R}. a \sim b \Longleftrightarrow \forall x \in \mathbb{R}. x > 0 \Longrightarrow a x^{2} + b x > 0
 $$
 
 For each of the four properties of relations—(i) reflexive, (ii) symmetric, (iii) transitive, (iv) anti-symmetric—either prove that  $\sim$  has that property, or else disprove it by finding a counterexample.
@@ -2708,7 +2708,7 @@ For each of the four properties of relations—(i) reflexive, (ii) symmetric, (i
 Problem 6.7.3. Define the relation  $\approx$  on  $\mathcal{P}(\mathbb{R})$  by setting
 
 $$
-\forall X, Y \in \mathcal {P} (\mathbb {R}). X \approx Y \Longleftrightarrow X - Y \subseteq \mathbb {N}
+\forall X, Y \in \mathcal {P} (\mathbb{R}). X \approx Y \Longleftrightarrow X - Y \subseteq \mathbb {N}
 $$
 
 For each of the four properties of relations—(i) reflexive, (ii) symmetric, (iii) transitive, (iv) anti-symmetric—either prove that  $\sim$  has that property, or else disprove it by finding a counterexample.
@@ -2735,13 +2735,13 @@ Problem 6.7.6. Use Euclid's Lemma (see Lemma 6.5.25) to prove that prime factori
 Problem 6.7.7. Define the relation  $T$  on  $\mathbb{R}$  by setting
 
 $$
-\forall x, y \in \mathbb {R}. (x, y) \in T \iff \left(\frac {y}{x} \in \mathbb {R} \wedge \frac {y}{x} \geq 0\right)
+\forall x, y \in \mathbb{R}. (x, y) \in T \iff \left(\frac{y}{x} \in \mathbb{R} \wedge \frac{y}{x} \geq 0\right)
 $$
 
 (a) For every  $x\in \mathbb{R}$ , let the set  $S(x)$  be
 
 $$
-S (x) = \{y \in \mathbb {R} \mid (x, y) \in T \}
+S (x) = \{y \in \mathbb{R} \mid (x, y) \in T \}
 $$
 
 Write down what the sets  $S(-1)$ ,  $S(0)$ , and  $S(1)$  are.
@@ -2795,7 +2795,7 @@ What is wrong with the following "spoof" of the claim:
 WWTS  $1\equiv 0$  mod 3. Observe that
 
 $$
-\begin{array}{l} 1 \equiv 4 \Longrightarrow 2 ^ {1} \equiv 2 ^ {4} \equiv 2 \equiv 1 6 \Longrightarrow 2 \equiv 1 \\ \Longrightarrow 2 - 1 \equiv 1 - 1 \Longrightarrow 1 \equiv 0 \\ \end{array}
+\begin{array}{l} 1 \equiv 4 \Longrightarrow 2^{1} \equiv 2^{4} \equiv 2 \equiv 1 6 \Longrightarrow 2 \equiv 1 \\ \Longrightarrow 2 - 1 \equiv 1 - 1 \Longrightarrow 1 \equiv 0 \\ \end{array}
 $$
 
 Problem 6.7.12. Complete the proof of Bézout's Identity (Theorem 6.5.31) by proving that  $M \subseteq L$ . (These sets are defined in the theorem statement.)
@@ -2805,7 +2805,7 @@ Problem 6.7.13. In this problem, you will prove the converse of Theorem 6.4.12. 
 Remember that we use the notation  $[x]_R$  to mean the equivalence class corresponding to  $x$ , and it is the set of all elements of  $S$  that are related to  $x$ ; that is,
 
 $$
-[ x ] _ {R} = \{y \in S \mid (x, y) \in R \}
+[ x ]_{R} = \{y \in S \mid (x, y) \in R \}
 $$
 
 Throughout the parts of this problem, we are assuming that  $S$  is a set and  $R$  is an equivalence relation on  $S$ , so that  $R$  is reflexive, symmetric, and transitive.
@@ -2895,7 +2895,7 @@ Problem 6.7.22. For each of the following claims, determine whether it is True o
 Challenge: Can you make a conjecture about which values of  $n$  make the following statement True?
 
 $$
-\forall x, y \in \mathbb {Z}. (x + y) ^ {n} \equiv x ^ {n} + y ^ {n} \mod n
+\forall x, y \in \mathbb {Z}. (x + y)^{n} \equiv x^{n} + y^{n} \mod n
 $$
 
 Can you prove it? Can you also characterize what values of  $n$  make the statement False?
@@ -2903,7 +2903,7 @@ Can you prove it? Can you also characterize what values of  $n$  make the statem
 Problem 6.7.23. Determine whether or not there are any integral solutions  $x, y \in \mathbb{Z}$  to the equation
 
 $$
-3 x ^ {2} - 5 y ^ {2} = 2
+3 x^{2} - 5 y^{2} = 2
 $$
 
 (Hint: Use multiplicative inverses and quadratic residues.)
@@ -2911,7 +2911,7 @@ $$
 Problem 6.7.24. Prove that there are no integral solutions  $x, y \in \mathbb{Z}$  to the equation
 
 $$
-3 x ^ {2} - 5 y ^ {2} = 1 5
+3 x^{2} - 5 y^{2} = 1 5
 $$
 
 Problem 6.7.25. For each of the following equations, identify the set of all integral solutions  $x, y \in \mathbb{Z}$ , or else explain why no such solutions exist.
@@ -2926,7 +2926,7 @@ Problem 6.7.26. In this problem, you will prove the Chinese Remainder Theorem (T
 (a) Suppose we have two congruences to solve simultaneously
 
 $$
-\begin{array}{l} x \equiv a _ {1} \mod n _ {1} \\ x \equiv a _ {2} \mod n _ {2} \\ \end{array}
+\begin{array}{l} x \equiv a_{1} \mod n_{1} \\ x \equiv a_{2} \mod n_{2} \\ \end{array}
 $$
 
 where  $n_1, n_2$  are relatively prime.
@@ -2948,7 +2948,7 @@ Suppose  $r \in \mathbb{N} - \{1\}$  and we have  $r$  natural numbers,  $n_1, n
 We will have you prove
 
 $$
-\exists X \in \mathbb {Z}. \forall i \in [ r ]. X \equiv a _ {i} \mod n _ {i}
+\exists X \in \mathbb {Z}. \forall i \in [ r ]. X \equiv a_{i} \mod n_{i}
 $$
 
 by induction on  $r$ , the number of congruences given.
@@ -2971,7 +2971,7 @@ Suppose  $r \in \mathbb{N}$  and we have  $r$  natural numbers,  $n_1, n_2, \ldo
 We will have you prove
 
 $$
-\exists X \in \mathbb {Z}. \forall i \in [ r ]. X \equiv a _ {i} \mod n _ {i}
+\exists X \in \mathbb {Z}. \forall i \in [ r ]. X \equiv a_{i} \mod n_{i}
 $$
 
 by helping you to define such an  $X$  and then proving it does indeed satisfy all of the congruences.
@@ -2979,7 +2979,7 @@ by helping you to define such an  $X$  and then proving it does indeed satisfy a
 Throughout this problem, we use  $N$  as given by the definition in the theorem statement:
 
 $$
-N = \prod_ {i \in [ r ]} n _ {i}
+N = \prod_{i \in [ r ]} n_{i}
 $$
 
 (a) For every  $i \in [r]$ , define  $N_{i} = \frac{N}{n_{i}}$ . Explain why  $n_{i}$  and  $N_{i}$  are relatively prime.
@@ -2989,7 +2989,7 @@ $$
 (c) Define
 
 $$
-X = \sum_ {j = 1} ^ {r} a _ {j} N _ {j} y _ {j}
+X = \sum_{j = 1}^{r} a_{j} N_{j} y_{j}
 $$
 
 Our goal now is to prove that  $X \equiv a_{i} \mod n_{i}$  for every  $i \in [r]$ .
@@ -2997,13 +2997,13 @@ Our goal now is to prove that  $X \equiv a_{i} \mod n_{i}$  for every  $i \in [r
 Let  $i \in [r]$  be arbitrary and fixed. Show that for every  $j \neq i$ , the corresponding term in the sum above is congruent to 0 modulo  $n_i$ ; that is, show
 
 $$
-\forall j \in [ r ] \cdot j \neq i \Longrightarrow a _ {j} N _ {j} y _ {j} \equiv 0 \bmod n _ {i}
+\forall j \in [ r ] \cdot j \neq i \Longrightarrow a_{j} N_{j} y_{j} \equiv 0 \bmod n_{i}
 $$
 
 (d) Take  $i$  to be the same fixed value as in the last part. Now, show that when  $j = i$ , the corresponding term in the sum above that defines  $X$  is congruent to  $a_i$  modulo  $n_i$ ; that is, show
 
 $$
-a _ {i} N _ {i} y _ {i} \equiv a _ {i} \mod n _ {i}
+a_{i} N_{i} y_{i} \equiv a_{i} \mod n_{i}
 $$
 
 (e) Use what you have just proven to explain why  $X$  satisfies all of the  $r$ -many congruences.
@@ -3071,7 +3071,7 @@ $$
 Prove that
 
 $$
-R \subseteq S \iff A / R \text {r e f i n e s} A / S
+R \subseteq S \iff A / R \text{re fi ne s} A / S
 $$
 
 # 6.8 Lookahead

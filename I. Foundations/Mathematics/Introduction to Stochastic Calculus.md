@@ -89,7 +89,7 @@ Theorem 1 The quadratic variation of a Brownian motion is equal to  $T$  with pr
 The functions with which you are normally familiar, e.g. continuous differentiable functions, have quadratic variation equal to zero. Note that any continuous stochastic process or function<sup>1</sup> that has non-zero quadratic variation must have infinite total variation where the total variation of a process,  $X_{t}$ , on  $[0,T]$  is defined as
 
 $$
-\text{Total Variation} := \lim_{\Delta t \rightarrow 0} \sum_{i = 1}^{n} | X_{t_{k}} - X_{t_{k - 1}} |.
+\text{TotalVariation} := \lim_{\Delta t \rightarrow 0} \sum_{i = 1}^{n} | X_{t_{k}} - X_{t_{k - 1}} |.
 $$
 
 This follows by observing that
@@ -337,7 +337,7 @@ $$
 Once again, note that  $X_{t}$  does not appear on the right-hand-side of (15) so that we have indeed solved the SDE. We also obtain  $\operatorname{E}[X_t] = X_0 e^{-\gamma t} + \mu t$  and
 
 $$
-\begin{array}{l} \operatorname{Var} \left(X_{t}\right) = \operatorname{Var} \left(\sigma e^{- \gamma t} \int_{0}^{t} e^{\gamma s} d W_{s}\right) = \sigma^{2} e^{- 2 \gamma t} \operatorname{E} \left[ \left(\int_{0}^{t} e^{\gamma s} d W_{s}\right)^{2} \right] \\ = \sigma^{2} e^{- 2 \gamma t} \int_{0}^{t} e^{2 \gamma s} d s \quad (\text{by Ito's Isometry}) \\ = \frac{\sigma^{2}}{2 \gamma} \left(1 - e^{- 2 \gamma t}\right). \\ \end{array}
+\begin{array}{l} \operatorname{Var} \left(X_{t}\right) = \operatorname{Var} \left(\sigma e^{- \gamma t} \int_{0}^{t} e^{\gamma s} d W_{s}\right) = \sigma^{2} e^{- 2 \gamma t} \operatorname{E} \left[ \left(\int_{0}^{t} e^{\gamma s} d W_{s}\right)^{2} \right] \\ = \sigma^{2} e^{- 2 \gamma t} \int_{0}^{t} e^{2 \gamma s} d s \quad (\text{byIto'sIsometry}) \\ = \frac{\sigma^{2}}{2 \gamma} \left(1 - e^{- 2 \gamma t}\right). \\ \end{array}
 $$
 
 These moments should be compared with the corresponding moments for  $\log (S_t)$  in the previous example.

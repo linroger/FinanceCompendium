@@ -130,21 +130,21 @@ What if we wanted to partition the set of people in this room by separating them
 Example 8.2.3. Now, let's see a non-finite partition. Consider the set  $A = \mathbb{N}$  and the index set  $I = \mathbb{N}$ . For every  $i \in \mathbb{N}$ , define the set
 
 $$
-S _ {i} = \left\{2 i - 1, 2 i \right\}
+S_{i} = \left\{2i - 1, 2i \right\}
 $$
 
 Is the set  $S = \{S_i \mid i \in \mathbb{N}\}$  a partition of  $\mathbb{N}$ ? We think so; let's investigate why. We could start by writing out what the first few sets look like (indeed, this is usually a good first strategy: just write out the first few cases and see what happens):
 
 $$
-S _ {1} = \{1, 2 \}
+S_{1} = \{1, 2 \}
 $$
 
 $$
-S _ {2} = \{3, 4 \}
+S_{2} = \{3, 4 \}
 $$
 
 $$
-S _ {3} = \{5, 6 \}
+S_{3} = \{5, 6 \}
 $$
 
 ：
@@ -163,7 +163,7 @@ The first and fourth cases immediately imply that  $i = j$ , by some simple alge
 Second, let's show that the union of all of the  $S_{i}$  sets is  $\mathbb{N}$ . That is, let's prove
 
 $$
-\bigcup_ {i \in \mathbb {N}} S _ {i} = \mathbb {N}
+\bigcup_{i \in \mathbb{N}} S_{i} = \mathbb{N}
 $$
 
 Remember that the set on the left-hand side consists of all of the elements  $x$  such that  $\exists i \in I$  that satisfies  $x \in S_i$ . (Think about why this makes sense, even though  $I$  is infinite. This just means the union contains all of the elements that belong to at least one of the sets  $S_i$ .) Notice that for every  $i \in \mathbb{N}$ , the elements  $2i - 1, 2i \in S_i$  are both natural numbers. Thus,
@@ -187,7 +187,7 @@ For the remainder of the chapter, we will only consider finite partitions of fin
 Proposition 8.2.4. Let  $A$  be a finite set, let  $n \in \mathbb{N}$ , and let  $S = \{S_i \mid i \in [n]\}$  be a finite partition of  $A$ . The Rule of Sum states that
 
 $$
-| A | = \sum_ {i \in [ n ]} | S _ {i} |
+| A | = \sum_{i \in [n]} | S_{i} |
 $$
 
 The Rule of Sum tells us that the size of a set can be found by partitioning it into a finite number of smaller sets and summing their sizes. Notice that this is precisely Corollary 7.6.10 that we saw last chapter in our discussion of finite sets! There, we asked you to prove this claim by induction, in Exercise 2 in Section 7.6.5. With this result in hand, we'll move on to see some examples.
@@ -252,7 +252,7 @@ We will actually make two separate statements of the Rule of Product. The first 
 Proposition 8.2.7. Consider a process that is completed in  $n$  distinct steps. Assume that the  $i$ -th step, for every  $i \in [n]$ , has exactly  $w_i$  different ways to be completed; moreover, assume that this number  $w_i \in \mathbb{N}$  does not depend on the choices made in the previous steps. Also, assume that no two distinct choices at any step yield the same outcome. Then the Rule of Product states that the total number of outcomes,  $N$ , of this  $n$ -step process is
 
 $$
-N = \prod_ {i \in [ n ]} w _ {i}
+N = \prod_{i \in [n]} w_{i}
 $$
 
 Let's relate this statement back to the previous example with the people and stickers before moving on and stating the Rule of Product more rigorously.
@@ -288,7 +288,7 @@ The benefit of this diagram is that we can see exactly what the 24 outcomes of t
 $C_1$  and  $P_{1}$ ; alternatively, we can represent this as the ordered triple  $(M_1,C_1,P_1)$ . Further down that column, we see a vertex corresponding to the ordered triple  $(M_2,C_3,P_1)$ , for example. Every vertex has an ordered triple representation! What we are really doing when we apply the Rule of Product is identifying the cardinality of some set that is a Cartesian product of several constituent sets. The process corresponds to identifying elements of the constituent sets and arranging them in an ordered tuple. The Rule of Product tells us how many ways we can do this by identifying the cardinality of the product set consisting of all such tuples. In this specific example, we have
 
 $$
-| \mathcal {M} \times \mathcal {C} \times \mathcal {P} | = | \mathcal {M} | \cdot | \mathcal {C} | \cdot | \mathcal {P} | = 4 \cdot 3 \cdot 2 = 2 4
+| \mathcal{M} \times \mathcal{C} \times \mathcal{P} | = | \mathcal{M} | \cdot | \mathcal{C} | \cdot | \mathcal{P} | = 4 \cdot 3 \cdot 2 = 24
 $$
 
 Does this make more sense, now? Does this provide you any insight into how the Rule of Product actually works?
@@ -302,7 +302,7 @@ See Exercise 8.9.1, which asks for a proof of the following theorem. This is a m
 Let  $n\in \mathbb{N}$ . Suppose that  $\forall i\in \mathbb{N}\cdot T_{i}$  is a finite set. Then,
 
 $$
-\left| \prod_ {i \in [ n ]} T _ {i} \right| = | T _ {1} \times T _ {2} \times \dots \times T _ {n} | = | T _ {1} | \cdot | T _ {2} | \dots | T _ {n} | = \prod_ {i \in [ n ]} | T _ {i} |
+\left| \prod_{i \in [n]} T_{i} \right| = | T_{1} \times T_{2} \times \dots \times T_{n} | = | T_{1} | \cdot | T_{2} | \dots | T_{n} | = \prod_{i \in [n]} | T_{i} |
 $$
 
 The relationship with the previously-stated rule of product is as follows. The elements of the set  $T_{1}$  are the choices that can be made in Step 1 of the process. For every element of  $T_{1}$ , we define the set  $T_{2}$  to be the set of choices that can be made in Step 2 of the process after that choice made in Step 1. By assumption, there is an equal number of such choices, regardless of the choice made in Step 1. Thus, it makes sense that the conclusion of the Theorem only incorporates  $|T_{2}|$ , since this value is well-defined. Likewise,  $T_{3}$  is the set of choices for Step 3 that can follow the choices made in Steps 1 and 2, and by assumption,  $|T_{3}|$  is well-defined.
@@ -340,7 +340,7 @@ There are 6 choices for which position is a digit, then 10 choices for how to fi
 In total, by ROS, there are
 
 $$
-(3 6 ^ {6} + 6 \cdot 1 0 \cdot 3 6 ^ {5}) + (3 6 ^ {7} + 7 \cdot 1 0 \cdot 3 6 ^ {6})
+(3 6^{6} + 6 \cdot 1 0 \cdot 3 6^{5}) + (3 6^{7} + 7 \cdot 1 0 \cdot 3 6^{6})
 $$
 
 total outcomes.
@@ -354,7 +354,7 @@ We could follow the same method we used with the previous question, and partitio
 Instead, let's take advantage of the work we just did! Let's partition the set of all license plates (call this set  $Y$ ) into those with at most 1 digit (call this set  $X_{1}$ ) and those with at least 2 digits (call this set  $X_{2}$ ). Notice that this is a partition, so ROS tells us  $|Y| = |X_1| + |X_2|$ . Subtracting algebraically, this tells us the expression we want is
 
 $$
-\begin{array}{l} \left| X _ {2} \right| = \left| Y \right| - \left| X _ {1} \right| \\ = \left(3 6 ^ {6} + 3 6 ^ {7}\right) - \left[ \left(3 6 ^ {6} + 6 \cdot 1 0 \cdot 3 6 ^ {5}\right) + \left(3 6 ^ {7} + 7 \cdot 1 0 \cdot 3 6 ^ {6}\right) \right] \\ \end{array}
+\begin{array}{l} \left| X_{2} \right| = \left| Y \right| - \left| X_{1} \right| \\ = \left(36^{6} + 36^{7}\right) - \left[ \left(36^{6} + 6 \cdot 10 \cdot 36^{5}\right) + \left(36^{7} + 7 \cdot 10 \cdot 36^{6}\right) \right] \\ \end{array}
 $$
 
 by just substituting in the expressions we've already derived. How convenient!
@@ -366,7 +366,7 @@ In general, this is a good strategy: to count a set, we can count its complement
 This condition just limits the number of choices at each step. There are only 21 letters and 5 digits to choose from, so we get
 
 $$
-2 6 ^ {6} + 2 6 ^ {7}
+2 6^{6} + 2 6^{7}
 $$
 
 total outcomes, by ROP and ROS.
@@ -382,7 +382,7 @@ Let's create a shuffling by taking a deck of cards in our hands and, one by one,
 These observations allow us to directly cite the Rule of Product to answer the question: how many shufflings of a standard deck of cards are there? The number is …
 
 $$
-5 2 \cdot 5 1 \cdot 5 0 \dots 3 \cdot 2 \cdot 1 = \prod_ {k \in [ 5 2 ]} k = 8. 0 6 5 8 1 7 5 2 \times 1 0 ^ {6 7}
+52 \cdot 51 \cdot 50 \dots 3 \cdot 2 \cdot 1 = \prod_{k \in [52]} k = 8.0658175 2 \times 10^{67}
 $$
 
 Yowza! That's a big number. For the sake of comparison, Avogadro's Constant (the number of atoms in a mole) is on the order of  $10^{23}$ . There is a much better notation for this kind of product that says "multiply all the natural numbers from 52 down to 1", and you've probably seen it before, but we'll define it now.
@@ -390,7 +390,7 @@ Yowza! That's a big number. For the sake of comparison, Avogadro's Constant (the
 Definition 8.2.12. Let  $n \in \mathbb{N}$ . The natural number  $n!$ , read as  $n$  factorial, is given by
 
 $$
-n! = \prod_ {k \in [ n ]} k = k \cdot (k - 1) \cdot (k - 2) \dots 3 \cdot 2 \cdot 1
+n! = \prod_{k \in [n]} k = k \cdot (k - 1) \cdot (k - 2) \dots 3 \cdot 2 \cdot 1
 $$
 
 By definition,  $0! = 1$ .
@@ -436,7 +436,7 @@ $$
 and therefore
 
 $$
-X = \frac {5 2 !}{5 ! \cdot 4 7 !}
+X = \frac{52!}{5! \cdot 47!}
 $$
 
 Think about what this formula tells us. We let  $X$  designate the number of ways to choose a set of five cards from a set of 52 cards. What was special about five or 52? Again, that's right, nothing! We have essentially derived a formula for the number of ways to select any number of objects from a larger set of objects. It might not seem like it, but we are now very close to solving the poker hands problem. Before we finish that project, let's make one comment.
@@ -470,7 +470,7 @@ The number of  $k$ -selections from  $[n]$  is represented by  $\binom{n}{k}$ . 
 Proposition 8.2.16. Let  $k, n \in \mathbb{N}$  with  $n \geq k$ . The number of  $k$ -selections from  $[n]$  is given by
 
 $$
-\binom {n} {k} = \frac {n !}{k ! \cdot (n - k) !}
+\binom{n}{k} = \frac{n!}{k! \cdot (n - k)!}
 $$
 
 Proof. Left for the reader as Exercise 2 in Section 8.2.4
@@ -543,7 +543,7 @@ Let's summarize the standard counting objects and formulas we have defined and d
 Each of these questions can be answer with Yes or No, and each of the four ways to answer them yields a different formulation of the original question.
 
 $$
-\begin{array}{c c c c} & & \text {R e p e a t s ?} \\ & \text {Y e s} & & \text {N o} \\ & \text {Y e s} & n ^ {k} & \frac {n !}{(n - k) !} \\ \text {O r d e r} & & & \\ \text {M a t t e r s ?} & & & \\ & \text {N o} & \ref {e q : 1. 2 . 3} \\ & & & \binom {n} {k} \end{array}
+\begin{array}{c c c c} & & \text{Repeats?} \\ & \text{Yes} & & \text{No} \\ & \text{Yes} & n^{k} & \frac{n!}{(n - k)!} \\ \text{Order} & & & \\ \text{Matters?} & & & \\ & \text{No} & \ref{eq:1.2.3} \\ & & & \binom{n}{k} \end{array}
 $$
 
 (Note: Sometimes, the roles of  $n$  and  $k$  are reversed in a problem. Be careful about this! We'll try to stick to these conventions but, in general, the letters aren't important; it's what they represent.)
@@ -583,7 +583,7 @@ Try answering the following short-answer questions. They require you to actually
 (2) Prove Proposition 8.2.16, i.e. prove that
 
 $$
-\binom {n} {k} = \frac {n !}{k ! (n - k) !}
+\binom{n}{k} = \frac{n!}{k! (n - k)!}
 $$
 
 Do this by adapting the argument we used for counting the number of 5 card hands from a standard deck.
@@ -591,7 +591,7 @@ Do this by adapting the argument we used for counting the number of 5 card hands
 (3) Prove Proposition 8.2.18. That is, prove there are
 
 $$
-\frac {n !}{(n - k) !}
+\frac{n!}{(n - k)!}
 $$
 
 possible  $k$ -arrangements from  $[n]$ .
@@ -599,7 +599,7 @@ possible  $k$ -arrangements from  $[n]$ .
 (4) Prove Proposition 8.2.21. That is, prove there are
 
 $$
-n ^ {k}
+n^{k}
 $$
 
 possible  $k$ -arrangements with repetition from  $[n]$ .
@@ -646,7 +646,7 @@ We aren't quite done constructing a poker hand with one pair. We need to choose 
 Why did we need step 2? Look back at the definition of selection; it is an unordered list, or a set. Thus, it wouldn't make sense to jump into step 2 by saying "Choose a suit for the 1st of those chosen cards" because, well, there is no 1st card! We need to impose some kind of ordering on the cards to refer to them individually. You might be tempted to order them as we remove them from the deck. This would break step 1 into 3 sub-steps: (a) choose the 1st card:  $\binom{12}{1}$  options; (b) choose the 2nd card:  $\binom{11}{1}$  options; (c) choose the 3rd card:  $\binom{10}{1}$  options. Applying the Rule of Product to this step yields a different number than step 1:
 
 $$
-\binom {1 2} {1} \cdot \binom {1 1} {1} \cdot \binom {1 0} {1} = 1 2 \cdot 1 1 \cdot 1 0 \neq \binom {1 2} {3} = \frac {1 2 !}{3 ! \cdot 9 !} = \frac {1 2 \cdot 1 1 \cdot 1 0}{6}
+\binom{12}{1} \cdot \binom{11}{1} \cdot \binom{10}{1} = 12 \cdot 11 \cdot 10 \neq \binom{12}{3} = \frac{12!}{3! \cdot 9!} = \frac{12 \cdot 11 \cdot 10}{6}
 $$
 
 This is because the (a)-(b)-(c) step imposes an order on those three cards that doesn't actually matter within our poker hand. When playing cards, you don't care how you receive your cards, only what they are! (However, notice that if we "divide out" by the number of ways to order 3 cards, namely 3!, we get the same number. This hints at an interesting concept, a kind of "inverse" of the Rule of Product. We will discuss this at the end of this section.) This is why we couldn't refer to "the 1st card" in step 2. Instead, we found an inherent ordering of the cards, a particular property they possess that allows us to refer to specific cards among them without applying an external ordering.
@@ -654,7 +654,7 @@ This is because the (a)-(b)-(c) step imposes an order on those three cards that 
 Again, the Rule of Product applies because any selection of 3 cards of different ranks could only come from one set of choices made in these steps. Furthermore, we can think of selecting a pair as Step 1 and selecting three other cards of different ranks as Step 2 and apply the Rule of Product to this entire process. This finally gives us an answer for the number of "one pair" poker hands:
 
 $$
-\left( \begin{array}{c} 1 3 \\ 1 \end{array} \right) \cdot \left( \begin{array}{c} 4 \\ 2 \end{array} \right) \cdot \left( \begin{array}{c} 1 2 \\ 3 \end{array} \right) \cdot \left( \begin{array}{c} 4 \\ 1 \end{array} \right) ^ {3}
+\left( \begin{array}{c} 1 3 \\ 1 \end{array} \right) \cdot \left( \begin{array}{c} 4 \\ 2 \end{array} \right) \cdot \left( \begin{array}{c} 1 2 \\ 3 \end{array} \right) \cdot \left( \begin{array}{c} 4 \\ 1 \end{array} \right)^{3}
 $$
 
 Notice that we have combined the three numbers from the last steps above into one coefficient raised to the third power. Now, this type of numerical answer is totally acceptable and is far better than just writing down 1,098,240. If you make a "typo" on your homework or make a calculator error, how can we identify the error and offer a comment?  $\odot$
@@ -662,7 +662,7 @@ Notice that we have combined the three numbers from the last steps above into on
 We did previously note the commutativity of multiplication and the idea of doing steps in different orders. However, we hope you'll agree that explaining a product like
 
 $$
-\left( \begin{array}{c} 4 \\ 1 \end{array} \right) ^ {3} \cdot \left( \begin{array}{c} 1 3 \\ 1 \end{array} \right) \cdot \left( \begin{array}{c} 1 2 \\ 3 \end{array} \right) \cdot \left( \begin{array}{c} 4 \\ 2 \end{array} \right)
+\left( \begin{array}{c} 4 \\ 1 \end{array} \right)^{3} \cdot \left( \begin{array}{c} 1 3 \\ 1 \end{array} \right) \cdot \left( \begin{array}{c} 1 2 \\ 3 \end{array} \right) \cdot \left( \begin{array}{c} 4 \\ 2 \end{array} \right)
 $$
 
 even though it represents the same process, is far more intricate, and unnecessarily so, at that.
@@ -674,7 +674,7 @@ Question: How many 5-card poker hands are "one pair" hands?
 Answer: We claim there are
 
 $$
-\left( \begin{array}{c} 1 3 \\ 1 \end{array} \right) \cdot \left( \begin{array}{c} 4 \\ 2 \end{array} \right) \cdot \left( \begin{array}{c} 1 2 \\ 3 \end{array} \right) \cdot \left( \begin{array}{c} 4 \\ 1 \end{array} \right) ^ {3}
+\left( \begin{array}{c} 1 3 \\ 1 \end{array} \right) \cdot \left( \begin{array}{c} 4 \\ 2 \end{array} \right) \cdot \left( \begin{array}{c} 1 2 \\ 3 \end{array} \right) \cdot \left( \begin{array}{c} 4 \\ 1 \end{array} \right)^{3}
 $$
 
 such hands. To show this, we will identify a four-step process and apply ROP. An outcome of this process is a "one pair" poker hand:
@@ -708,7 +708,7 @@ Question: How many 5-card poker hands are "one pair" hands?
 Answer: We claim there are
 
 $$
-\left( \begin{array}{c} 1 3 \\ 4 \end{array} \right) \left( \begin{array}{c} 4 \\ 1 \end{array} \right) \left( \begin{array}{c} 4 \\ 2 \end{array} \right) \left( \begin{array}{c} 4 \\ 1 \end{array} \right) ^ {3}
+\left( \begin{array}{c} 1 3 \\ 4 \end{array} \right) \left( \begin{array}{c} 4 \\ 1 \end{array} \right) \left( \begin{array}{c} 4 \\ 2 \end{array} \right) \left( \begin{array}{c} 4 \\ 1 \end{array} \right)^{3}
 $$
 
 "one pair" poker hands. We will identify a six-step process and apply ROP. The main idea is that a one pair hand can be identified by choosing all four ranks that appear and identifying which one is repeated twice (leaving the others to appear just once).
@@ -739,7 +739,7 @@ By ROP, and simplifying  $\binom{4}{1}\binom{4}{1}\binom{4}{1}=\binom{4}{1}^{3}$
 Isn't that neat? We'll leave it to you to verify that
 
 $$
-\binom {1 3} {4} \binom {4} {1} \binom {4} {2} \binom {4} {1} ^ {3} = 1 0 9 8 2 4 0 = \binom {1 3} {1} \binom {4} {2} \binom {1 2} {3} \binom {4} {1} ^ {3}
+\binom {1 3} {4} \binom {4} {1} \binom {4} {2} \binom {4} {1}^{3} = 1 0 9 8 2 4 0 = \binom {1 3} {1} \binom {4} {2} \binom {1 2} {3} \binom {4} {1}^{3}
 $$
 
 is true, numerically speaking. Without calculating that number in the middle, though, we could be sure that the two expressions, on the left and right, are absolutely equal representations of the same number because they count the same thing: the number of one pair poker hands. This is another instance of that idea of "counting in two ways" that we are building towards.
@@ -773,7 +773,7 @@ The ranks of the cards in a straight are uniquely determined by the "starting ra
 We claim there are
 
 $$
-\binom {1 0} {1} \left[ \binom {4} {1} ^ {5} - \binom {4} {1} \right] = 1 0 \cdot (4 ^ {5} - 4)
+\binom {1 0} {1} \left[ \binom {4} {1}^{5} - \binom {4} {1} \right] = 1 0 \cdot (4^{5} - 4)
 $$
 
 5 card hands that are straights.
@@ -797,7 +797,7 @@ We can find  $|Y|$  by noticing that any such selection amounts to picking one o
 Accordingly, we can rearrange the above equality and write
 
 $$
-| X | = | U | - | Y | = 4 ^ {5} - 4
+| X | = | U | - | Y | = 4^{5} - 4
 $$
 
 Since  $|X|$  is the number of options in Step (2) above, by ROP, we have proven the claim.
@@ -832,7 +832,7 @@ ii. Choose 2 suits for this rank:  $\binom{4}{2}$  options
 Then, by the Rules of Product and Sum (since we have separate cases in a process), we find there are
 
 $$
-\left( \begin{array}{c} 4 \\ 3 \end{array} \right) \left[ \left( \begin{array}{c} 1 2 \\ 2 \end{array} \right) \left( \begin{array}{c} 4 \\ 1 \end{array} \right) ^ {2} + \left( \begin{array}{c} 1 2 \\ 1 \end{array} \right) \left( \begin{array}{c} 4 \\ 2 \end{array} \right) \right]
+\left( \begin{array}{c} 4 \\ 3 \end{array} \right) \left[ \left( \begin{array}{c} 1 2 \\ 2 \end{array} \right) \left( \begin{array}{c} 4 \\ 1 \end{array} \right)^{2} + \left( \begin{array}{c} 1 2 \\ 1 \end{array} \right) \left( \begin{array}{c} 4 \\ 2 \end{array} \right) \right]
 $$
 
 hands with exactly 3 Aces.
@@ -846,7 +846,7 @@ Second, IF there are exactly 4 Aces in the hand, we need to determine the charac
 We can apply the Rule of Product and conclude that there are then  $\binom{4}{4}\binom{12}{1}\binom{4}{1}$  hands with exactly 4 Aces. Now, we must apply the Rule of Sum! What we have here is a partition of the set of desired hands—those with at least three Aces—into two subsets—those with exactly three Aces and those with exactly four Aces. Since those subsets partition the larger set (i.e. every hand with at least three Aces has either three Aces or four Aces, not both and not neither), we may apply the rule of sum and conclude that there are
 
 $$
-\binom {4} {3} \left[ \binom {1 2} {2} \binom {4} {1} ^ {2} + \binom {1 2} {1} \binom {4} {2} \right] + \binom {4} {4} \binom {1 2} {1} \binom {4} {1}
+\binom {4} {3} \left[ \binom {1 2} {2} \binom {4} {1}^{2} + \binom {1 2} {1} \binom {4} {2} \right] + \binom {4} {4} \binom {1 2} {1} \binom {4} {1}
 $$
 
 poker hands with at least three Aces.
@@ -876,7 +876,7 @@ total poker hands with at least 3 Aces. You will see (and use) this approach mor
 shouldn't we expect the same final number? Well, yes, and we recommend that you perform the requisite algebraic manipulations to convince yourself that
 
 $$
-\binom {4} {3} \binom {4 8} {2} + \binom {4 8} {1} = \binom {4} {3} \left[ \binom {1 2} {2} \binom {4} {1} ^ {2} + \binom {1 2} {1} \binom {4} {2} \right] + \binom {4} {4} \binom {1 2} {1} \binom {4} {1}
+\binom {4} {3} \binom {4 8} {2} + \binom {4 8} {1} = \binom {4} {3} \left[ \binom {1 2} {2} \binom {4} {1}^{2} + \binom {1 2} {1} \binom {4} {2} \right] + \binom {4} {4} \binom {1 2} {1} \binom {4} {1}
 $$
 
 It will only take a minute, and it is worthwhile.
@@ -956,7 +956,7 @@ How many 5-card hands have at least one card of each suit?
 Here is an incorrect argument:
 
 $$
-\text {T h e r e a r e} \binom {1 3} {1} ^ {4} \cdot \binom {4 8} {1} = 1 3 7 0 9 2 8 \text {s u c h h a n d s}.
+\text{Th er ea re} \binom {1 3} {1}^{4} \cdot \binom {4 8} {1} = 1 3 7 0 9 2 8 \text{su ch ha nd s}.
 $$
 
 We can use a five-step process. In step 1, we select one of the 13 Hearts. In step 2, we select one of the 13 Diamonds. In step 3, we select one of the 13 Spades. In step 4, we select one of the 13 Clubs. There are  $\binom{13}{1}$  ways to do each of these steps.
@@ -993,7 +993,7 @@ There are  $\binom{13}{1}^3$  ways to do this.
 By ROP, we find there are
 
 $$
-\binom {4} {1} \binom {1 3} {2} \binom {1 3} {1} ^ {3} = 6 8 5 4 6 4
+\binom {4} {1} \binom {1 3} {2} \binom {1 3} {1}^{3} = 6 8 5 4 6 4
 $$
 
 many 5-card hands with at least one card of each suit.
@@ -1098,7 +1098,7 @@ A deck of cards is a nice, standard, physical set of objects to count. Most peop
 Definition 8.3.9. Let  $n, k \in \mathbb{N}$  be given. Then
 
 $$
-T _ {k, n} = [ k ] ^ {n} = \left\{\left(a _ {1}, a _ {2}, \dots , a _ {n}\right) \mid \forall i. a _ {i} \in [ k ] \right\}
+T_{k, n} = [ k ]^{n} = \left\{\left(a_{1}, a_{2}, \dots , a_{n}\right) \mid \forall i. a_{i} \in [ k ] \right\}
 $$
 
 That is,  $T_{k,n}$  is the set of all  $n$ -tuples whose elements belong to  $[k]$ .
@@ -1108,7 +1108,7 @@ Note: We chose the letter  $T$  because these objects are  $n$ -tuples, i.e. ord
 instead of  $\{1,2\}$ . Since we are interested in combinatorial aspects of these sets (i.e. "How many sequences with property  $P$  are there?") we don't, in fact, care which convention is chosen. It is actually a simple exercise to prove that
 
 $$
-\left| T _ {k, n} \right| = \left| [ k ] ^ {n} \right| = k ^ {n} = \left| \left(\left[ k - 1 \right] \cup \{0 \}\right) ^ {n} \right|
+\left| T_{k, n} \right| = \left| [ k ]^{n} \right| = k^{n} = \left| \left(\left[ k - 1 \right] \cup \{0 \}\right)^{n} \right|
 $$
 
 by establishing a bijection between the underlying sets,  $[k]$  and  $[k - 1] \cup \{0\}$ . We will leave this for you to do  $\odot$
@@ -1142,7 +1142,7 @@ Perhaps we were a bit verbose in this argument. We could have had two steps, whe
 We can use a similar argument to count the number of elements of  $T_{3,4}$  with exactly 2 ones. The only difference is in Step 1: we must select 2 of the 4 spots to be filled with 1s. There are  $\binom{4}{2}$  ways to do this. Then, there are two spots to be filled from  $\{2,3\}$ . Thus, there are
 
 $$
-\left( \begin{array}{c} 4 \\ 2 \end{array} \right) \cdot 2 ^ {2} = 2 4
+\left( \begin{array}{c} 4 \\ 2 \end{array} \right) \cdot 2^{2} = 2 4
 $$
 
 such elements of  $T_{3,4}$
@@ -1160,7 +1160,7 @@ To answer question (b), we employ the same technique as in (a), but generalize f
 of binary  $n$ -tuples with exactly  $\ell$  1s. Every binary  $n$ -tuple with at least three ones belongs to exactly one of the  $A_{\ell}$  sets. Thus, we have identified a partition of the set of tuples we want to count, based on exactly how many 1s there are. Accordingly, the number we seek, by the Rule of Sum, is
 
 $$
-\sum_ {\ell = 3} ^ {n} | A _ {\ell} | = \sum_ {\ell = 3} ^ {n} \binom {n} {\ell}
+\sum_{\ell = 3}^{n} | A_{\ell} | = \sum_{\ell = 3}^{n} \binom {n} {\ell}
 $$
 
 You might be wondering whether this answer, in summation notation, is acceptable. In some sense, it is; not 10 minutes ago, we had no idea how many binary  $n$ -tuples there were with at least three 1s, and now we have a much better sense of that number. However, the solution, as presented, is more of a method for finding the precise number. If someone came up to you on the street and said, "Quick! Tell me the number of binary  $n$ -tuples with at least three 1s!", what would you do? You'd say, "Hold on, I just need to sum this series by evaluating each of the terms individually and then adding …" Not ideal, right? It would be nicer, more convenient, to have a simple form of the solution; perhaps we could write it as just one binomial coefficient, or a sum/difference/product/quotient of two or three or some small number of such coefficients. That way, no matter what  $n$  is (i.e. no matter how large it becomes), we know we can always calculate the answer efficiently in a few short steps; moreover, we want to know that the number of such steps does not increase as  $n$  increases. With the summation form above, the number of terms in the sum grows as  $n$  does. This is not ideal.
@@ -1168,13 +1168,13 @@ You might be wondering whether this answer, in summation notation, is acceptable
 We will leave the details for you to verify and explain, but we claim that an appropriate partition of the set of all binary  $k$ -tuples can be established to prove that
 
 $$
-2 ^ {n} = \left( \begin{array}{c} n \\ 0 \end{array} \right) + \left( \begin{array}{c} n \\ 1 \end{array} \right) + \left( \begin{array}{c} n \\ 2 \end{array} \right) + \sum_ {\ell = 3} ^ {n} \left( \begin{array}{c} n \\ \ell \end{array} \right)
+2^{n} = \left( \begin{array}{c} n \\ 0 \end{array} \right) + \left( \begin{array}{c} n \\ 1 \end{array} \right) + \left( \begin{array}{c} n \\ 2 \end{array} \right) + \sum_{\ell = 3}^{n} \left( \begin{array}{c} n \\ \ell \end{array} \right)
 $$
 
 by invoking the Rule of Sum. (In fact, the proof of this equality delves into some of the techniques we will discuss in the next section, but we believe you can understand what the terms of this equation mean and why the equality must hold.) What we want to emphasize, though, is that we can rearrange that equation to obtain a better, in some qualitative sense, form of the original solution we sought:
 
 $$
-\sum_ {\ell = 3} ^ {n} \binom {n} {\ell} = 2 ^ {n} - \binom {n} {0} - \binom {n} {1} - \binom {n} {2}
+\sum_{\ell = 3}^{n} \binom {n} {\ell} = 2^{n} - \binom {n} {0} - \binom {n} {1} - \binom {n} {2}
 $$
 
 Look at what we have achieved! No matter how large  $N$  is, we only have four terms to evaluate. The fact that this number is fixed is the main point. In fact, solutions of this form are given a name because we like them so much: closed form. The idea is that there is no "unnecessary" summation and the number of terms is fixed, regardless of the value of the variables contained therein.
@@ -1186,7 +1186,7 @@ a non-closed (some might say "open") form of a solution, but it might take some 
 Now, let's not forget about question (c)! To answer it, we employ a similar technique as in (b) and partition the set of binary  $n$ -tuples with an even number of 1s into those with exactly zero 1s (remember, 0 is an even number!), those with exactly two 1s, those with exactly four 1s, and so on. We have to be careful about the upper limit, though, because  $n$  is not necessarily even, itself! Recall the floor function that rounds a number down to the largest integer smaller than that number; an example is  $\lfloor 5.7 \rfloor = 5$ . With this in mind, we claim that there are
 
 $$
-\sum_ {\ell = 0} ^ {\lfloor n / 2 \rfloor} \binom {n} {2 \ell}
+\sum_{\ell = 0}^{\lfloor n / 2 \rfloor} \binom {n} {2 \ell}
 $$
 
 binary  $n$ -tuples with an even number of 1s. We will leave it to you to fill in a proper explanation of this claim. Try presenting it to your friend and convincing them it is correct. Don't give up until they're fully convinced! We will forgo trying to find a closed form of this solution because it is not within our grasp … or is it? See what you can deduce about this summation! What happens when  $n$  is even? When  $n$  is odd? Are there similar sums you can relate this expression to? What can you conclude?
@@ -1249,13 +1249,13 @@ A consonant is a non-vowel, so there are  $26 - 5 = 21$  consonants in the alpha
 of words in question into three corresponding sets,  $S_0, S_1, S_2$ , and count each separately. By applying the Rule of Product, we find that
 
 $$
-\begin{array}{l} | S _ {0} | = 5 ^ {4} \\ | S _ {1} | = \left( \begin{array}{c} 4 \\ 1 \end{array} \right) \cdot 2 1 \cdot 5 ^ {3} \\ | S _ {2} | = \left( \begin{array}{c} 4 \\ 2 \end{array} \right) \cdot 2 1 ^ {2} \cdot 5 ^ {2} \\ \end{array}
+\begin{array}{l} | S_{0} | = 5^{4} \\ | S_{1} | = \left( \begin{array}{c} 4 \\ 1 \end{array} \right) \cdot 2 1 \cdot 5^{3} \\ | S_{2} | = \left( \begin{array}{c} 4 \\ 2 \end{array} \right) \cdot 2 1^{2} \cdot 5^{2} \\ \end{array}
 $$
 
 and, therefore, there are
 
 $$
-5 ^ {4} + 4 \cdot 2 1 \cdot 5 ^ {3} + \binom {4} {2} \cdot 2 1 ^ {2} \cdot 5 ^ {2}
+5^{4} + 4 \cdot 2 1 \cdot 5^{3} + \binom {4} {2} \cdot 2 1^{2} \cdot 5^{2}
 $$
 
 four-letter words with at most two consonants. (Challenge problem: How many four-letter words have at least three consonants? Use this to make a claim about the number  $26^4$ .)
@@ -1263,7 +1263,7 @@ four-letter words with at most two consonants. (Challenge problem: How many four
 What is wrong with the following argument about  $S_{2}$ : Construct a four-letter word with exactly two consonants by selecting two consonants, then selecting a position for the first consonant, then selecting a position for the second consonant, then filling the remaining two spots with vowels, yielding
 
 $$
-\left( \begin{array}{c} 2 1 \\ 2 \end{array} \right) \cdot 4 \cdot 3 \cdot 5 ^ {2}
+\left( \begin{array}{c} 2 1 \\ 2 \end{array} \right) \cdot 4 \cdot 3 \cdot 5^{2}
 $$
 
 such words.
@@ -1283,7 +1283,7 @@ four-letter words with four distinct letters.
 Does this look familiar, though? Look back to where we defined arrangements. This is precisely the idea we are using here! From a set of 26 elements, we want to construct an ordered list of length 4 with no repetition, i.e. a 4-arrangement from a set of 26 elements. The formula we derived tells us there are exactly
 
 $$
-\binom {2 6} {4} \cdot 4! = \frac {2 6 !}{4 ! 2 2 !} 4! = \frac {2 6 !}{2 2 !} = 2 6 \cdot 2 5 \cdot 2 4 \cdot 2 3
+\binom {2 6} {4} \cdot 4! = \frac{2 6 !}{4 ! 2 2 !} 4! = \frac{2 6 !}{2 2 !} = 2 6 \cdot 2 5 \cdot 2 4 \cdot 2 3
 $$
 
 such arrangements. That's the lesson of this example: by taking advantage of previously defined terms and derived formulas, and relating a current question to those ideas, we can "jump" to a solution.
@@ -1325,7 +1325,7 @@ To answer this question, we can think of constructing the elements of  $M$  from
 Since there are  $2! = 2$  ways to permute the two Ps within the word, we have shown that  $|G| \cdot 2! = |M|$ . We described a two-step process to generate elements of  $M$  and applied the Rule of Product. Accordingly, we can rearrange this equation to find the quantity we were looking for:
 
 $$
-| G | \cdot 2! = | M | \Rightarrow | G | = \frac {| M |}{2 !} = \frac {5 !}{2 !} = 6 0
+| G | \cdot 2! = | M | \Rightarrow | G | = \frac{| M |}{2 !} = \frac{5 !}{2 !} = 6 0
 $$
 
 For a slightly harder example, let's count the anagrams of COMBINATORICS. We want to apply the same strategy as the previous example and label the repeated letters to relate the anagrams to permutations of, in this case, 13 distinct elements. Again, let's define  $G$  to be the set of anagrams of COMBINATORICS and  $M$  to be the set of permutations of the 13 distinct elements in  $\{\mathrm{C}_1\mathrm{O}_1\mathrm{MBI}_1\mathrm{NATO}_2\mathrm{RI}_2\mathrm{C}_2\mathrm{S}\}$ . We can describe a four-step process that generates elements of  $M$ :
@@ -1338,7 +1338,7 @@ For a slightly harder example, let's count the anagrams of COMBINATORICS. We wan
 Thus, by the Rule of Product, we may conclude
 
 $$
-| M | = | G | \cdot 2! \cdot 2! \cdot 2! \Rightarrow | G | = \frac {| M |}{2 ! \cdot 2 ! \cdot 2 !} = \frac {1 3 !}{2 ! \cdot 2 ! \cdot 2 !}
+| M | = | G | \cdot 2! \cdot 2! \cdot 2! \Rightarrow | G | = \frac{| M |}{2 ! \cdot 2 ! \cdot 2 !} = \frac{1 3 !}{2 ! \cdot 2 ! \cdot 2 !}
 $$
 
 You might wonder why we chose to write  $2! \cdot 2! \cdot 2!$  instead of just 8. We find it more enlightening and illustrative to leave our answer in terms of factorials because it indicates where those terms came from, too.
@@ -1346,7 +1346,7 @@ You might wonder why we chose to write  $2! \cdot 2! \cdot 2!$  instead of just 
 What happens if a letter is repeated more than twice? The only difference occurs when we consider permuting the repeated instances of that letter. We will let you fill in the details of the argument, but we claim that the word AABBBCCCDD has
 
 $$
-\frac {1 1 !}{2 ! \cdot 2 ! \cdot 3 ! \cdot 4 !}
+\frac{1 1 !}{2 ! \cdot 2 ! \cdot 3 ! \cdot 4 !}
 $$
 
 anagrams. Can you "see" why without going through the details completely yet? Can you fill in those details to confirm your intuition? Can you prove this fact and convince a friend? Try it!
@@ -1364,7 +1364,7 @@ $\{0,1,2,3,4,5,6,7,8,9\}$ , but neither the area code nor local number can begin
 This is easy to count by establishing a 10 step process, corresponding to the 10 total digits of a phone number. Eight of the digits have 10 options, and two of them have 9 options (no 0), so the Rule of Product tells us there are
 
 $$
-1 0 ^ {8} \cdot 9 ^ {2} = 8, 1 0 0, 0 0 0, 0 0 0
+1 0^{8} \cdot 9^{2} = 8, 1 0 0, 0 0 0, 0 0 0
 $$
 
 possible phone numbers. This number is slightly larger than the current world population, so it seems like our system is safe, for now!
@@ -1444,7 +1444,7 @@ Definition 8.3.19. Let  $(x,y) \in (\mathbb{N} \cup \{0\})^2$ . A lattice path t
 More rigorously, given  $(x,y)$  a lattice path is an  $n$ -tuple  $(P_{1},P_{2},\ldots ,P_{n})$ , for some  $n\in \mathbb{N}$ , where each  $P_{i} = (x_{i},y_{i})$  is a point in the lattice, and
 
 $$
-\forall i \in [ n - 1 ]. (x _ {i + 1}, y _ {i + 1}) = (x _ {i} + 1, y _ {i}) \vee (x _ {i + 1}, y _ {i + 1}) = (x _ {i}, y _ {i} + 1)
+\forall i \in [ n - 1 ]. (x_{i + 1}, y_{i + 1}) = (x_{i} + 1, y_{i}) \vee (x_{i + 1}, y_{i + 1}) = (x_{i}, y_{i} + 1)
 $$
 
 and, furthermore,  $(x_{1},y_{1}) = (0,0)$  and  $(x_{n},y_{n}) = (x,y)$ .
@@ -1738,7 +1738,7 @@ Several examples of counting in two ways proofs involving committees and subcomm
 Proposition 8.4.4 (Committees of all Sizes). Let  $n \in \mathbb{N}$ . Then,
 
 $$
-\sum_ {k = 0} ^ {n} \binom {n} {k} = 2 ^ {n}
+\sum_{k = 0}^{n} \binom {n} {k} = 2^{n}
 $$
 
 Proof strategy: The right-hand side could represent a number of things, but it seems likely that it involves an  $n$ -step process, where each step has 2 options. Let's re-examine that term in a minute. The left-hand side represents a partition, because we have a sum of several terms. Each individual term in the summation, of the form  $\binom{n}{k}$ , represents the number of ways to select a committee of  $k$  people, chosen from  $n$  total people. When we allow  $k$  to range from 0 to  $n$ , we are considering all possible sizes of committees. This indicates that we are counting all possible committees chosen from a set of  $n$  people. Now that we know what the right-hand side must count, we can construct an argument for that … Try to do that on your own before reading our proof!
@@ -1746,7 +1746,7 @@ Proof strategy: The right-hand side could represent a number of things, but it s
 Proof. Let  $n \in \mathbb{N}$  and let  $S$  be the set of all committees, of any size, chosen from a set of  $n$  people. Each element of  $S$  is a committee of a certain size from 0 to  $n$ , inclusive; for every  $k \in [n] \cup \{0\}$ , let  $S_k$  be the set of committees that have size exactly  $k$ . Then the set  $\{S_k \mid k \in [n] \cup \{0\}\}$  is a partition of  $S$ . Thus, by the Rule of Sum, we conclude that
 
 $$
-| S | = \sum_ {k = 0} ^ {n} | S _ {k} | = \sum_ {k = 0} ^ {n} \binom {n} {k}
+| S | = \sum_{k = 0}^{n} | S_{k} | = \sum_{k = 0}^{n} \binom {n} {k}
 $$
 
 where  $|S_k| = \binom{n}{k}$  because  $S_k$  is the set of all  $k$ -selections from  $[n]$ .
@@ -1754,7 +1754,7 @@ where  $|S_k| = \binom{n}{k}$  because  $S_k$  is the set of all  $k$ -selection
 We can also count the elements of  $S$  as follows: take our set of  $n$  people and assign them numbers from 1 to  $n$ . (This can be done by giving everyone a t-shirt with their unique number on it, say.) To construct a committee, we line everyone up in numerical order and move along the line, saying "Yes" or "No" to each person, indicating whether or not they belong to the committee we are creating. Every sequence of  $n$  "Yes" and "No" assignments produces a unique committee. Since this is a  $n$ -step process with two choices at each step, the Rule of Product tells us there are  $2^n$  ways to complete this process, so  $|S| = n$ . By equating these two expressions for  $|S|$ , we conclude that
 
 $$
-\sum_ {k = 0} ^ {n} \binom {n} {k} = 2 ^ {n}
+\sum_{k = 0}^{n} \binom {n} {k} = 2^{n}
 $$
 
 Proof summary: Count all subsets of  $[n]$  by partitioning based on size. (Note: this summary is written in terms of sets, but the proof itself is easier to write and understand in terms of committees, we feel.)
@@ -1768,7 +1768,7 @@ The next combinatorial identity is very useful, and will appear in subsequent pr
 Theorem 8.4.5 (Summation Identity). Let  $n, k \in \mathbb{N}$ . Then,
 
 $$
-\sum_ {i = 0} ^ {n} \binom {i} {k} = \binom {n + 1} {k + 1}
+\sum_{i = 0}^{n} \binom {i} {k} = \binom {n + 1} {k + 1}
 $$
 
 Proof 1 strategy: Seeing a single binomial term on the right-hand side indicates that we are looking at subsets of  $[n + 1]$  with size exactly  $k + 1$ . With a summation on the left-hand side, we are partitioning the set of all such subsets based on some property. Since the binomial coefficient inside the summation has a  $k$ , instead of a  $k + 1$ , in the bottom term, this means the index  $i$  somehow represents a particular element being included in a subset. See if you can fill in the details of this partition before reading on …
@@ -1782,7 +1782,7 @@ $$
 By the definition of  $(k + 1)$ -selections from  $[n + 1]$ , we know that  $|S| = \binom{n+1}{k+1}$ . Next, for every  $i \in [n] \cup \{0\}$ , define the set
 
 $$
-S _ {i} = \{T \in S \mid i + 1 \in T \wedge (\forall j \in T. j \leq i + 1) \}
+S_{i} = \{T \in S \mid i + 1 \in T \wedge (\forall j \in T. j \leq i + 1) \}
 $$
 
 That is,  $S_{i}$  is the set of all subsets of  $[n + 1]$  with size  $k + 1$  whose maximally-indexed element is  $i + 1$ . We claim that  $\{S_{i} \mid i \in [n] \cup \{0\}\}$  is a partition of  $S$ .
@@ -1798,13 +1798,13 @@ Next, we must identify  $|S_i|$  for every  $i \in [n] \cup \{0\}$ . To construc
 Thus, by the Rule of Sum, we conclude that
 
 $$
-| S | = \sum_ {i = 0} ^ {n} | S _ {i} | = \sum_ {i = 0} ^ {n} \left( \begin{array}{c} i \\ k \end{array} \right)
+| S | = \sum_{i = 0}^{n} | S_{i} | = \sum_{i = 0}^{n} \left( \begin{array}{c} i \\ k \end{array} \right)
 $$
 
 By equating these two expressions for  $|S|$ , we conclude that
 
 $$
-\sum_ {i = 0} ^ {n} \binom {i} {k} = \binom {n + 1} {k + 1}
+\sum_{i = 0}^{n} \binom {i} {k} = \binom {n + 1} {k + 1}
 $$
 
 □
@@ -1816,7 +1816,7 @@ $$
 $$
 
 $$
-\begin{array}{l} S _ {1} = \varnothing \\ S _ {2} = \varnothing \\ S _ {3} = \left\{\{1, 2, 3 \} \right\} \\ S _ {4} = \left\{\{1, 2, 4 \}, \{1, 3, 4 \}, \{2, 3, 4 \} \right\} \\ S _ {5} = \left\{\{1, 2, 5 \}, \{1, 3, 5 \}, \{1, 4, 5 \}, \{2, 3, 5 \}, \{2, 4, 5 \}, \{3, 4, 5 \} \right\} \\ \end{array}
+\begin{array}{l} S_{1} = \varnothing \\ S_{2} = \varnothing \\ S_{3} = \left\{\{1, 2, 3 \} \right\} \\ S_{4} = \left\{\{1, 2, 4 \}, \{1, 3, 4 \}, \{2, 3, 4 \} \right\} \\ S_{5} = \left\{\{1, 2, 5 \}, \{1, 3, 5 \}, \{1, 4, 5 \}, \{2, 3, 5 \}, \{2, 4, 5 \}, \{3, 4, 5 \} \right\} \\ \end{array}
 $$
 
 Proof 1 summary: Count the  $(k + 1)$ -element subsets of  $[n + 1]$  by partitioning based on the maximally-indexed element of any subset.
@@ -1834,13 +1834,13 @@ Now, we verify that  $\{S_i \mid i \in [n + 1]\}$  is a partition of  $S$ . Firs
 Thus, by the Rule of Sum
 
 $$
-| S | = \sum_ {j = 1} ^ {n + 1} | S _ {j} | = \sum_ {j = 1} ^ {n + 1} \left( \begin{array}{c} j - 1 \\ k \end{array} \right)
+| S | = \sum_{j = 1}^{n + 1} | S_{j} | = \sum_{j = 1}^{n + 1} \left( \begin{array}{c} j - 1 \\ k \end{array} \right)
 $$
 
 By redefining the index of summation as  $i = j - 1$ , we can write
 
 $$
-| S | = \sum_ {i = 0} ^ {n} \left( \begin{array}{c} i \\ k \end{array} \right)
+| S | = \sum_{i = 0}^{n} \left( \begin{array}{c} i \\ k \end{array} \right)
 $$
 
 and equating the two expressions for  $|S|$ , we have proved the result.
@@ -1858,23 +1858,23 @@ $$
 $$
 
 $$
-S _ {1} = \varnothing
+S_{1} = \varnothing
 $$
 
 $$
-S _ {2} = \varnothing
+S_{2} = \varnothing
 $$
 
 $$
-S _ {3} = \left\{\{1 1 1 0 0 \} \right\}
+S_{3} = \left\{\{1 1 1 0 0 \} \right\}
 $$
 
 $$
-S _ {4} = \left\{\{1 1 0 1 0 \}, \{1 0 1 1 0 \}, \{0 1 1 1 0 \} \right\}
+S_{4} = \left\{\{1 1 0 1 0 \}, \{1 0 1 1 0 \}, \{0 1 1 1 0 \} \right\}
 $$
 
 $$
-S _ {5} = \left\{\{1 1 0 0 1 \}, \{1 0 1 0 1 \}, \{1 0 0 1 1 \}, \{0 1 1 0 1 \}, \{0 1 0 1 1 \}, \{0 0 1 1 1 \} \right\}
+S_{5} = \left\{\{1 1 0 0 1 \}, \{1 0 1 0 1 \}, \{1 0 0 1 1 \}, \{0 1 1 0 1 \}, \{0 1 0 1 1 \}, \{0 0 1 1 1 \} \right\}
 $$
 
 Proof 2 summary: Count the binary  $(n + 1)$ -tuples with exactly  $k + 1$  ls by partitioning based on where the rightmost 1 occurs.
@@ -1886,7 +1886,7 @@ Before we move on, though, we want to present one final counting in two ways: pr
 Proposition 8.4.6 (Gauss' Sum by Pairs). For any  $n \in \mathbb{N}$ ,
 
 $$
-\sum_ {k = 1} ^ {n} k = \frac {n (n + 1)}{2}
+\sum_{k = 1}^{n} k = \frac{n (n + 1)}{2}
 $$
 
 Proof. First, observe that  $\frac{n(n + 1)}{2} = \binom{n + 1}{2}$ .
@@ -1940,7 +1940,7 @@ Other terms, beside binomial coefficients, that appear frequently in combinatori
 Consider a term like
 
 $$
-\left( \begin{array}{c} n \\ k \end{array} \right) 2 ^ {k}
+\left( \begin{array}{c} n \\ k \end{array} \right) 2^{k}
 $$
 
 Let's assume that we have assigned a "commitees" interpretation to the problem, based on the rest of the identity, and that we have declared that the binomial coefficient  $\binom{n}{k}$  represents a selection of a committee of  $k$  people from a class of  $n$  students. What does the  $2^k$  term then represent? Remember that this term could come from a  $k$ -step process, where each step can be done in one of two ways. Since  $k$  is the size of the committee chosen, then we can simply describe some 2-step decision process for every member of the committee. For instance, we could assign every committee member either a red hat or a blue hat; or, for each committee member, we could choose whether or not to give him/her a gold star; or, we could force the committee members to choose whether to become a Republican or a Democrat. Be creative, if you'd like! Of course, the chosen interpretation will have to work with the rest of the identity, so sometimes one interpretation is easier to explain than the other. Keep that in mind, and be willing to go back and change your interpretation if you find that it's hard to convey what you're thinking.
@@ -1948,7 +1948,7 @@ Let's assume that we have assigned a "commitees" interpretation to the problem, 
 Now, consider a term like
 
 $$
-\left( \begin{array}{c} n \\ k \end{array} \right) 2 ^ {n}
+\left( \begin{array}{c} n \\ k \end{array} \right) 2^{n}
 $$
 
 Again, assume we have assigned a "committees" interpretation to the problem. How is this different from the above situation? In this case, the exponent matches the "top term" of the binomial coefficient. Thus, the selection of a committee doesn't necessarily have anything to do with the subsequent  $n$ -step process. This term might describe a selection of  $k$  class officers from an  $n$  student class, and then an assignment of every student into either Block A or Block B (regardless of the officer assignments). If we weren't using the "committees" interpretation, this term might describe a binary  $n$ -tuple with exactly  $k$  1s where some unknown number of the 0s and 1s are circled. The choice of interpretation will depend on the rest of the problem and how comfortable you feel explaining the terms.
@@ -1956,13 +1956,13 @@ Again, assume we have assigned a "committees" interpretation to the problem. How
 Think about how to modify these interpretations with slightly different numbers. With a term like
 
 $$
-\left( \begin{array}{c} n \\ k \end{array} \right) 4 ^ {n}
+\left( \begin{array}{c} n \\ k \end{array} \right) 4^{n}
 $$
 
 we might describe a committee of  $k$  members, each of whom has a Red, Blue, Green, or Yellow hat. With a term like
 
 $$
-\left( \begin{array}{c} n \\ k \end{array} \right) 5 ^ {n}
+\left( \begin{array}{c} n \\ k \end{array} \right) 5^{n}
 $$
 
 we might describe a binary  $n$ -tuple with exactly  $k$  1s, where every 0 and 1 has either 1, 2, 3, 4 or 5 circles around it.
@@ -1970,7 +1970,7 @@ we might describe a binary  $n$ -tuple with exactly  $k$  1s, where every 0 and 
 Next, let's examine some terms where the base is a variable and the exponent is fixed. For instance, consider a term like
 
 $$
-\left( \begin{array}{c} n \\ k \end{array} \right) k ^ {2}
+\left( \begin{array}{c} n \\ k \end{array} \right) k^{2}
 $$
 
 In this case, we are somehow selecting  $k$  objects from  $n$  total objects and performing a 2-step process with  $k$  choices at each step. That is, the selection of the  $k$  objects first affects the outcome of the second part, the 2-step process. If we are operating in a "commitees" context, we might interpret this term as selecting a committee of  $k$  people, and then choosing 2 officers of the committee—say, a speaker and a treasurer—where any person on the committee can be chosen as an officer and, furthermore, any member can potentially serve in both office positions.
@@ -1980,7 +1980,7 @@ If we wanted to use a "tuples" interpretation, we might describe this term as se
 Now, consider a term like
 
 $$
-\left( \begin{array}{c} n \\ k \end{array} \right) n ^ {3}
+\left( \begin{array}{c} n \\ k \end{array} \right) n^{3}
 $$
 
 in a "commitees" context. Since the base of the exponential term is the same as the "top term" of the binomial coefficient, there isn't necessarily a relationship between the committee that the  $\binom{n}{k}$  term represents and the subsequent 3-step process. Thus, we might describe a selection of a  $k$ -person committee, and then an assignment of one Red, one Blue, and one Green ribbon, where one person might receive multiple ribbons, and anyone (on or off the committee) may receive a ribbon (or ribbons). We will leave it to you to construct an appropriate interpretation of a term like this under a "binary  $n$ -tuples" interpretation. Do try it!
@@ -1998,7 +1998,7 @@ We will illustrate those through an example.
 Example 8.4.7. Pro/Con Committee Identity:
 
 $$
-\binom {n} {k} 2 ^ {n - k} = \sum_ {i = k} ^ {n} \binom {n} {i} \binom {i} {k}
+\binom {n} {k} 2^{n - k} = \sum_{i = k}^{n} \binom {n} {i} \binom {i} {k}
 $$
 
 Intuition: Create a committee of size  $k$  from  $n$  people. Then, determine whether the non-committee people are for or against the committee's decisions. We could also do this by first selecting at least  $k$  people who will be on/for the committee, and set everyone else to be off and against. Then, from that pool, we select  $k$  people to actually be on the committee, setting the others to be for it. (Note: It's important to say all of the steps we will perform in these constructions. Don't assume anything is obvious to the reader.)
@@ -2056,7 +2056,7 @@ We can prove a powerful and important theorem using this proof technique, counti
 Theorem 8.4.8. Let  $x, y \in \mathbb{R}$  and  $n \in \mathbb{N}$ . Then,
 
 $$
-(x + y) ^ {n} = \sum_ {k = 0} ^ {n} \binom {n} {k} x ^ {k} y ^ {n - k}
+(x + y)^{n} = \sum_{k = 0}^{n} \binom {n} {k} x^{k} y^{n - k}
 $$
 
 We will explain a few different ways to prove this.
@@ -2072,19 +2072,19 @@ Proof 2. Let's prove this for general  $x, y \in \mathbb{R}$  by counting the nu
 Consider the product
 
 $$
-(x + y) ^ {n} = \underbrace {(x + y) \cdot (x + y) \cdots (x + y)} _ {n \text {f a c t o r s}}
+(x + y)^{n} = \underbrace {(x + y) \cdot (x + y) \cdots (x + y)}_{n \text{fa ct or s}}
 $$
 
 Think about multiplying out these  $n$  factors by applying the Distributive Property over and over. For example, with  $n = 2$ , we have
 
 $$
-\begin{array}{l} (x + y) ^ {2} = (x + y) (x + y) = x (x + y) + y (x + y) = x \cdot x + x \cdot y + x \cdot y + y \cdot \\ = x ^ {2} + 2 x y + y ^ {2} \\ \end{array}
+\begin{array}{l} (x + y)^{2} = (x + y) (x + y) = x (x + y) + y (x + y) = x \cdot x + x \cdot y + x \cdot y + y \cdot \\ = x^{2} + 2 x y + y^{2} \\ \end{array}
 $$
 
 and with  $n = 3$ , we have
 
 $$
-(x + y) ^ {3} = (x + y) (x + y) (x + y) = x (x + y) (x + y) + y (x + y) (x + y) = \dots
+(x + y)^{3} = (x + y) (x + y) (x + y) = x (x + y) (x + y) + y (x + y) (x + y) = \dots
 $$
 
 The general idea is this: To find a term in the ultimate product, we select either an  $x$  or a  $y$  from each factor  $(x + y)$ . Every such term looks like  $x^k \cdot y^{n - k}$ , for some  $k$  between 0 and  $n$ . All we need to do is identify how many ways there are to create a term like  $x^k \cdot y^{n - k}$ . This amounts to finding the number of ways to select  $k$  of the  $n$  factors, and say that we chose "  $x$ " from those factors and "  $y$ " from the other  $n - k$  factors. By definition of selection, there are precisely  $\binom{n}{k}$  many ways to do this!
@@ -2096,7 +2096,7 @@ Example 8.4.9. Let's show how this theorem is useful.
 - Apply the Binomial Theorem to show
 
 $$
-2 ^ {n} = \sum_ {k = 0} ^ {n} \binom {n} {k}
+2^{n} = \sum_{k = 0}^{n} \binom {n} {k}
 $$
 
 Proof. Use  $x = 1$  and  $y = 1$ .
@@ -2108,7 +2108,7 @@ That's it! A result we proved already by induction and then by a counting in two
 - Prove that the number of odd-sized subsets of  $[n]$  is equal to the number of even-sized subsets of  $[n]$ ; that is,
 
 $$
-\sum_ {k = 0} ^ {\lceil n / 2 \rceil - 1} \binom {n} {2 k + 1} = \sum_ {k = 0} ^ {\lfloor n / 2 \rfloor} \binom {n} {2 k}
+\sum_{k = 0}^{\lceil n / 2 \rceil - 1} \binom {n} {2 k + 1} = \sum_{k = 0}^{\lfloor n / 2 \rfloor} \binom {n} {2 k}
 $$
 
 One can prove this by finding a bijection between the set of even-sized subsets and the set of odd-sized subsets. We could even try to explain this with a counting argument.
@@ -2116,7 +2116,7 @@ One can prove this by finding a bijection between the set of even-sized subsets 
 Instead, let's subtract on both sides and rewrite the equality as
 
 $$
-\sum_ {k = 0} ^ {n} (- 1) ^ {k} \binom {n} {k} = 0
+\sum_{k = 0}^{n} (- 1)^{k} \binom {n} {k} = 0
 $$
 
 Notice that this is precisely what Binomial Theorem says, with  $x = -1$  and  $y = 1$ . Amazing!
@@ -2147,7 +2147,7 @@ by a counting in two ways argument.
 (2) Prove that
 
 $$
-n \cdot 2 ^ {n - 1} = \sum_ {k = 1} ^ {n} \binom {n} {k} \cdot k
+n \cdot 2^{n - 1} = \sum_{k = 1}^{n} \binom {n} {k} \cdot k
 $$
 
 by a counting in two ways argument.
@@ -2155,7 +2155,7 @@ by a counting in two ways argument.
 (3) Prove
 
 $$
-3 ^ {n} = \sum_ {k = 0} ^ {n} \binom {n} {k} 2 ^ {n - k} = \sum_ {k = 0} ^ {n} \binom {n} {k} 2 ^ {k}
+3^{n} = \sum_{k = 0}^{n} \binom {n} {k} 2^{n - k} = \sum_{k = 0}^{n} \binom {n} {k} 2^{k}
 $$
 
 by a counting in two ways argument.
@@ -2169,13 +2169,13 @@ Then, explain how it follows from the Binomial Theorem, as well.
 Apply the Summation Identity to deduce that
 
 $$
-\sum_ {k = 1} ^ {n} k ^ {2} = \frac {n (n + 1) (2 n + 1)}{6}
+\sum_{k = 1}^{n} k^{2} = \frac{n (n + 1) (2 n + 1)}{6}
 $$
 
 (5) Prove the following Geometric Series Formula by a counting in two ways: proof:
 
 $$
-\forall q \in \mathbb {N} - \{1 \}. \forall n \in \mathbb {N}. \quad 1 + q + q ^ {2} + q ^ {3} + \dots + q ^ {n - 1} = \sum_ {k = 0} ^ {n - 1} q ^ {k} = \frac {q ^ {n} - 1}{q - 1}
+\forall q \in \mathbb {N} - \{1 \}. \forall n \in \mathbb {N}. \quad 1 + q + q^{2} + q^{3} + \dots + q^{n - 1} = \sum_{k = 0}^{n - 1} q^{k} = \frac{q^{n} - 1}{q - 1}
 $$
 
 (Note: This formula holds true, in fact, for any real number  $q \neq 1$ , but the counting in two ways proof we are asking for only applies to natural numbers  $q \neq 1$ . To prove the real-valued version, use induction.)
@@ -2223,7 +2223,7 @@ This "dividers" argument allows us to count the number of ways to complete this 
 Example 8.5.3. For example, with  $k = 3$  and  $n = 7$ , we might have a distribution like this:
 
 $$
-\begin{array}{c c c c} \text {O} & \text {O O O O} & \text {O O} \end{array}
+\begin{array}{c c c c} \text{O} & \text{OO OO} & \text{OO} \end{array}
 $$
 
 In this case, Pirate 1 receives 1 gold, Pirate 2 receives 4 gold, and Pirate 3 receives 2 gold.
@@ -2231,7 +2231,7 @@ In this case, Pirate 1 receives 1 gold, Pirate 2 receives 4 gold, and Pirate 3 r
 Notice that this is different from the following outcome:
 
 $$
-\begin{array}{c c c} \text {O O O O} & \text {O O} & \text {O} \end{array}
+\begin{array}{c c c} \text{OO OO} & \text{OO} & \text{O} \end{array}
 $$
 
 In this case, Pirate 1 receives 4 gold, Pirate 2 receives 2 gold, and Pirate 3 receives 1 gold.
@@ -2283,13 +2283,13 @@ Implicit in our derivation, mind you, is that pirates could conceivably receive 
 Consider reformulating the Pirates & Gold problem as follows. Let's define  $x_{i} \in \mathbb{N} \cup \{0\}$  to be the number of gold pieces that Pirate  $\# i$  receives in the distribution. The conditions of the problem require that
 
 $$
-\forall i \in [ k ]. x _ {i} \in \mathbb {N} \cup \{0 \}
+\forall i \in [ k ]. x_{i} \in \mathbb {N} \cup \{0 \}
 $$
 
 and that
 
 $$
-\sum_ {i = 1} ^ {k} x _ {i} = x _ {1} + x _ {2} + x _ {3} + \dots + x _ {k} = n
+\sum_{i = 1}^{k} x_{i} = x_{1} + x_{2} + x_{3} + \dots + x_{k} = n
 $$
 
 Aha! What if we had asked about the number of solutions to such an equation? This corresponds exactly (in a bijective manner) with the ways to solve the Pirates & Gold problem. Given a solution to this equation, we just give Pirate  $\# i$  exactly  $x_{i}$  pieces of gold. This gives us a different way of stating the problem:
@@ -2327,7 +2327,7 @@ This is like selecting 20 objects from 3 types, with repetition allowed. Wheneve
 By the above selection formula, there are
 
 $$
-\binom {2 0 + 3 - 1} {2 0} = \binom {2 2} {2 0} = \frac {2 2 \cdot 2 1}{2} = 2 3 1
+\binom {2 0 + 3 - 1} {2 0} = \binom {2 2} {2 0} = \frac{2 2 \cdot 2 1}{2} = 2 3 1
 $$
 
 ways to do this.
@@ -2337,7 +2337,7 @@ ways to do this.
 Let's just give everyone two pieces of gold right away. Then, we have  $20 - 6 = 14$  pieces of gold left to distribute amongst all 3 pirates, so there are
 
 $$
-\binom {1 4 + 2} {1 4} = \binom {1 6} {1 4} = \frac {1 6 \cdot 1 5}{2} = 1 2 0
+\binom {1 4 + 2} {1 4} = \binom {1 6} {1 4} = \frac{1 6 \cdot 1 5}{2} = 1 2 0
 $$
 
 ways to do this. Think about why this works. We are essentially re-defining what "getting 0 gold pieces" means. Instead of starting with 20 pieces and worrying about whether or not everyone gets at least two pieces, we can just ensure that condition is met right away, and then distribute what's left over.
@@ -2347,7 +2347,7 @@ ways to do this. Think about why this works. We are essentially re-defining what
 Just like the last one, let's give Redbear and Blackbeard 2 pieces each, and let's give Kidd 6 pieces. This leaves us with  $20 - 4 - 6 = 10$  pieces left to distribute amongst all 3 pirates, so there are
 
 $$
-\binom {1 0 + 2} {1 0} = \binom {1 2} {1 0} = \frac {1 2 \cdot 1 1}{2} = 6 6
+\binom {1 0 + 2} {1 0} = \binom {1 2} {1 0} = \frac{1 2 \cdot 1 1}{2} = 6 6
 $$
 
 ways to do this.
@@ -2367,7 +2367,7 @@ $$
 If we give Red/Blackbeard 2 golds each, then we have 16 pieces left to distribute amongst all 3 of the pirates, so there are
 
 $$
-\binom {1 6 + 2} {1 6} = \binom {1 8} {1 6} = \frac {1 8 \cdot 1 7}{2} = 1 5 3
+\binom {1 6 + 2} {1 6} = \binom {1 8} {1 6} = \frac{1 8 \cdot 1 7}{2} = 1 5 3
 $$
 
 ways to do this step.
@@ -2375,7 +2375,7 @@ ways to do this step.
 Then, if we give Red/Blackbeard 2 golds each and give Kidd 3 pieces and then distribute the remaining 13 amongst all 3 of the pirates, there are
 
 $$
-\binom {1 3 + 2} {1 3} = \binom {1 5} {1 3} = \frac {1 5 \cdot 1 4}{2} = 1 0 5
+\binom {1 3 + 2} {1 3} = \binom {1 5} {1 3} = \frac{1 5 \cdot 1 4}{2} = 1 0 5
 $$
 
 ways to do this step. We want to remove these possibilities from the previous count. Thus, in total, there are
@@ -2391,7 +2391,7 @@ ways to give Redbeard and Blackbeard at least two each, but give Kidd no more th
 Example 8.5.5. Consider the following equation:
 
 $$
-x _ {1} + x _ {2} + x _ {3} + x _ {4} + x _ {5} = 2 5
+x_{1} + x_{2} + x_{3} + x_{4} + x_{5} = 2 5
 $$
 
 Let's identify the number of solutions to this equation where each variable  $x_{i}$  is a non-negative integer. We'll impose certain conditions and count the number of solutions that satisfy them.
@@ -2411,7 +2411,7 @@ This is exactly like asking for Captain Redbeard to get at least 4 gold pieces. 
 More formally, we define  $y_{1} = x_{1} - 4$ . The condition requires only  $y_{1} \geq 0$ . Thus, we are trying to solve the equation
 
 $$
-\begin{array}{l} x _ {1} + x _ {2} + x _ {3} + x _ {4} + x _ {5} = 2 5 \Longleftrightarrow (x _ {1} - 4) + x _ {2} + x _ {3} + x _ {4} + x _ {5} = 2 1 \\ \Longleftrightarrow y _ {1} + x _ {2} + x _ {3} + x _ {4} + x _ {5} = 2 1 \\ \end{array}
+\begin{array}{l} x_{1} + x_{2} + x_{3} + x_{4} + x_{5} = 2 5 \Longleftrightarrow (x_{1} - 4) + x_{2} + x_{3} + x_{4} + x_{5} = 2 1 \\ \Longleftrightarrow y_{1} + x_{2} + x_{3} + x_{4} + x_{5} = 2 1 \\ \end{array}
 $$
 
 Applying the formula, we see there are
@@ -2427,7 +2427,7 @@ such solutions.
 Using a method exactly like the last one, we see that we're trying to solve
 
 $$
-y _ {1} + y _ {2} + y _ {3} + y _ {4} + y _ {5} = 9
+y_{1} + y_{2} + y_{3} + y_{4} + y_{5} = 9
 $$
 
 where  $y_{i} = x_{i} - 5$  for  $i = 1,2$ , and  $y_{i} = x_{i} - 2$  for  $i = 3,4,5$ . The right-hand side has been changed to  $25 - 5 - 5 - 2 - 2 = 9$ . By the formula, we know there are
@@ -2455,13 +2455,13 @@ $$
 Second, we could write this as a sum, finding the number of solutions that satisfy  $x_{2} = \ell$ , for  $0 \leq \ell \leq 5$ :
 
 $$
-\sum_ {\ell = 0} ^ {5} \binom {2 8 - \ell} {3} = \binom {2 8} {3} + \binom {2 7} {3} + \binom {2 6} {3} + \binom {2 5} {3} + \binom {2 4} {3} + \binom {2 3} {3}
+\sum_{\ell = 0}^{5} \binom {2 8 - \ell} {3} = \binom {2 8} {3} + \binom {2 7} {3} + \binom {2 6} {3} + \binom {2 5} {3} + \binom {2 4} {3} + \binom {2 3} {3}
 $$
 
 Interestingly enough, if we had only thought to solve this in the second way, we could still reduce the expression to the first one. We just need to use the Summation Identity! Observe that
 
 $$
-\begin{array}{l} \sum_ {\ell = 0} ^ {5} \binom {2 8 - \ell} {3} = \binom {2 8} {3} + \binom {2 7} {3} + \binom {2 6} {3} + \binom {2 5} {3} + \binom {2 4} {3} + \binom {2 3} {3} \\ = \sum_ {k = 0} ^ {2 8} \binom {k} {3} - \sum_ {k = 0} ^ {2 2} \binom {k} {3} \\ = \binom {2 9} {4} - \binom {2 3} {4} \\ \end{array}
+\begin{array}{l} \sum_{\ell = 0}^{5} \binom {2 8 - \ell} {3} = \binom {2 8} {3} + \binom {2 7} {3} + \binom {2 6} {3} + \binom {2 5} {3} + \binom {2 4} {3} + \binom {2 3} {3} \\ = \sum_{k = 0}^{2 8} \binom {k} {3} - \sum_{k = 0}^{2 2} \binom {k} {3} \\ = \binom {2 9} {4} - \binom {2 3} {4} \\ \end{array}
 $$
 
 Neat, right?
@@ -2562,7 +2562,7 @@ Theorem 8.6.2 (Pigeonhole Principle). (1) If a set  $S$  with  $|S| = n$  is par
 Proof. AFSOC  $k < n$  and  $S$  is partitioned into  $S_{1},\ldots ,S_{k}$  that also satisfy  $|S_{i}| < \frac{n}{k}$  for every  $i$ . Since the sets form a partition of  $S$ , we have
 
 $$
-n = | S | = \sum_ {i = 1} ^ {k} | S _ {i} | <   \sum_ {i = 1} ^ {k} \frac {n}{k} = n
+n = | S | = \sum_{i = 1}^{k} | S_{i} | <   \sum_{i = 1}^{k} \frac{n}{k} = n
 $$
 
 so  $n < n$ . This is a contradiction!  $\times$
@@ -2570,7 +2570,7 @@ so  $n < n$ . This is a contradiction!  $\times$
 AFSOC all of the numbers  $x_{i}$  satisfy  $x_{i} < \frac{z}{n}$ . Then,
 
 $$
-z = \sum_ {i = 1} ^ {n} x _ {i} <   \sum_ {i = 1} ^ {n} \frac {z}{n} = n \cdot \frac {z}{n} = z
+z = \sum_{i = 1}^{n} x_{i} <   \sum_{i = 1}^{n} \frac{z}{n} = n \cdot \frac{z}{n} = z
 $$
 
 so  $z <   z$  . This is a contradiction.
@@ -2653,15 +2653,15 @@ What happens if we remove two sets from a larger one? What if they overlap someh
 Here are some expressions that describe what is going for "small cases". Suppose we have a universal set  $U$  and some subsets  $A_{1}, A_{2}, \ldots, A_{n} \subseteq U$ . We want to count the elements of  $U$  that are outside of all of the  $A_{i}$  sets. We can do this by writing:
 
 $$
-\left| U - A _ {1} \right| = \left| U \right| - \left| A _ {1} \right|
+\left| U - A_{1} \right| = \left| U \right| - \left| A_{1} \right|
 $$
 
 $$
-| U - (A _ {1} \cup A) 2) | = | U | - | A _ {1} | - | A _ {2} | + | A _ {1} \cap A _ {2} |
+| U - (A_{1} \cup A) 2) | = | U | - | A_{1} | - | A_{2} | + | A_{1} \cap A_{2} |
 $$
 
 $$
-\begin{array}{l} \left| U - \left(A _ {1} \cup A _ {2} \cup A _ {3}\right) \right| = \left| U \right| - \left| A _ {1} \right| - \left| A _ {2} \right| - \left| A _ {3} \right| \\ + \left| A _ {1} \cap A _ {2} \right| + \left| A _ {1} \cap A _ {3} \right| + \left| A _ {2} \cap A _ {3} \right| - \left| A _ {1} \cap A _ {2} \cap A _ {3} \right| \\ \end{array}
+\begin{array}{l} \left| U - \left(A_{1} \cup A_{2} \cup A_{3}\right) \right| = \left| U \right| - \left| A_{1} \right| - \left| A_{2} \right| - \left| A_{3} \right| \\ + \left| A_{1} \cap A_{2} \right| + \left| A_{1} \cap A_{3} \right| + \left| A_{2} \cap A_{3} \right| - \left| A_{1} \cap A_{2} \cap A_{3} \right| \\ \end{array}
 $$
 
 Do you see why these work? Try thinking of an element  $x \in U$  and considering how many of the  $A_i$  sets it belongs to. Where will this element get counted in the expressions on the leftand right-hand sides? Is it counted the appropriate number of times on both sides? Can you see how to generalize this idea?
@@ -2681,7 +2681,7 @@ You might see now how to generalize these expressions, and prove them, for any n
 Theorem 8.7.1 (Inclusion/Exclusion). Suppose we have a universal set  $U$  and some subsets  $A_{1}, A_{2}, \ldots, A_{n} \subseteq U$ . Then,
 
 $$
-| U - (A _ {1} \cup A _ {2} \cup \dots \cup A _ {n}) | = \sum_ {S \subseteq [ n ]} (- 1) ^ {| S |} \left| \bigcap_ {i \in S} A _ {i} \right| \qquad w h e r e \quad \bigcap_ {i \in \emptyset} A _ {i} = U
+| U - (A_{1} \cup A_{2} \cup \dots \cup A_{n}) | = \sum_{S \subseteq [ n ]} (- 1)^{| S |} \left| \bigcap_{i \in S} A_{i} \right| \qquad w h e r e \quad \bigcap_{i \in \emptyset} A_{i} = U
 $$
 
 (Try writing out the above expression in the cases where  $n = 1$  and  $n = 2$  and  $n = 3$  to see why they're the same as the ones we wrote in the previous section.
@@ -2705,13 +2705,13 @@ Sometimes, it happens that all of the intersections of  $k$ -many of the  $A_{i}
 Corollary 8.7.2. Suppose we have a universal set  $U$ , and suppose we have some sets  $A_{1}, A_{2}, \ldots, A_{n}$  that are all subsets of  $U$ . Furthermore, suppose that the intersection of any  $k$  of the  $A_{i}$  sets has a fixed size—call it  $S(k)$ —independent of which sets are intersected. Then,
 
 $$
-| U - (A _ {1} \cup A _ {2} \cup \dots \cup A _ {n}) | = \sum_ {k = 0} ^ {n} (- 1) ^ {k} {\binom {n} {k}} S (k)
+| U - (A_{1} \cup A_{2} \cup \dots \cup A_{n}) | = \sum_{k = 0}^{n} (- 1)^{k} {\binom {n} {k}} S (k)
 $$
 
 Proof. This follows from the result of Theorem 8.7.1 by combining identical terms. Specifically, we know there are  $\binom{n}{k}$  sets  $S \subseteq [n]$  that satisfy  $|S| = k$ . By the assumption of this corollary, all such sets with  $|S| = k$  will yield
 
 $$
-\left| \bigcap_ {i \in S} A _ {i} \right| = S (k)
+\left| \bigcap_{i \in S} A_{i} \right| = S (k)
 $$
 
 Combining those terms together, and summing over the possible sizes of  $S$ , we obtain the above result.
@@ -2743,13 +2743,13 @@ Let  $A_{D}$  be the set of 13 card hands that don't have any Diamonds.
 Then we seek an expression for
 
 $$
-\circledast = \left| U - \left(A _ {H} \cup A _ {S} \cup A _ {C} \cup A _ {D}\right) \right|
+\circledast = \left| U - \left(A_{H} \cup A_{S} \cup A_{C} \cup A_{D}\right) \right|
 $$
 
 Accounting for all possible intersections, we have
 
 $$
-\begin{array}{l} \odot = | U | - | A _ {H} | - | A _ {S} | - | A _ {C} | - | A _ {D} | \\ + \left| A _ {H} \cap A _ {S} \right| + \left| A _ {H} \cap A _ {C} \right| + \left| A _ {H} \cap A _ {D} \right| \\ + \left| A _ {S} \cap A _ {C} \right| + \left| A _ {S} \cap A _ {D} \right| + \left| A _ {C} \cap A _ {D} \right| \\ - \left| A _ {H} \cap A _ {S} \cap A _ {C} \right| - \left| A _ {H} \cap A _ {S} \cap A _ {D} \right| \\ - \left| A _ {S} \cap A _ {C} \cap A _ {D} \right| - \left| A _ {H} \cap A _ {D} \cap A _ {C} \right| \\ + \left| A _ {H} \cap A _ {S} \cap A _ {C} \cap A _ {D} \right| \\ \end{array}
+\begin{array}{l} \odot = | U | - | A_{H} | - | A_{S} | - | A_{C} | - | A_{D} | \\ + \left| A_{H} \cap A_{S} \right| + \left| A_{H} \cap A_{C} \right| + \left| A_{H} \cap A_{D} \right| \\ + \left| A_{S} \cap A_{C} \right| + \left| A_{S} \cap A_{D} \right| + \left| A_{C} \cap A_{D} \right| \\ - \left| A_{H} \cap A_{S} \cap A_{C} \right| - \left| A_{H} \cap A_{S} \cap A_{D} \right| \\ - \left| A_{S} \cap A_{C} \cap A_{D} \right| - \left| A_{H} \cap A_{D} \cap A_{C} \right| \\ + \left| A_{H} \cap A_{S} \cap A_{C} \cap A_{D} \right| \\ \end{array}
 $$
 
 Since there are 4 "bad sets", we need to consider all possible ways they can intersect. However, counting these intersections is actually quite convenient because the sizes of the intersection only depend on how many sets are intersected, not which ones they are.
@@ -2791,13 +2791,13 @@ Let  $A_{3}$  be the set of all such functions with the property that  $3 \notin
 Then we seek an expression for  $N = |U - (A_1 \cup A_2 \cup A_3)|$ . We have
 
 $$
-N = | U | - | A _ {1} | - | A _ {2} | - | A _ {3} | + | A _ {1} \cap A _ {2} | + | A _ {1} \cap A _ {3} | + | A _ {2} \cap A _ {3} | - | A _ {1} \cap A _ {2} \cap A _ {3} |
+N = | U | - | A_{1} | - | A_{2} | - | A_{3} | + | A_{1} \cap A_{2} | + | A_{1} \cap A_{3} | + | A_{2} \cap A_{3} | - | A_{1} \cap A_{2} \cap A_{3} |
 $$
 
 Remembering that, generally, the number of functions  $f:[m] \to [n]$  is  $n^m$  ( $n$  choices of output for each of  $m$  inputs), we have
 
 $$
-N = 3 ^ {5} - \binom {3} {1} 2 ^ {5} + \binom {3} {2} 1 ^ {5} - \binom {3} {3} 0 ^ {5} = 3 ^ {5} - 3 \cdot 2 ^ {5} + 3 = 2 4 3 - 9 6 + 3 = 1 5 0
+N = 3^{5} - \binom {3} {1} 2^{5} + \binom {3} {2} 1^{5} - \binom {3} {3} 0^{5} = 3^{5} - 3 \cdot 2^{5} + 3 = 2 4 3 - 9 6 + 3 = 1 5 0
 $$
 
 Example 8.7.5. Find the number of natural numbers from 1 to 1000 that are neither perfect squares, cubes, nor fourth powers.
@@ -2805,7 +2805,7 @@ Example 8.7.5. Find the number of natural numbers from 1 to 1000 that are neithe
 Let  $U = [1000]$ . For  $i \in \{2, 3, 4\}$ , let  $A_i$  be the set of elements of  $U$  that are perfect  $i$ -th powers of some natural number. That is, define
 
 $$
-A _ {i} = \left\{x \in U \mid \exists b \in \mathbb {N}. x = b ^ {i} \right\}
+A_{i} = \left\{x \in U \mid \exists b \in \mathbb {N}. x = b^{i} \right\}
 $$
 
 Then we seek the number  $M = |U - (A_{2} \cup A_{3} \cup A_{4})|$ .
@@ -2950,13 +2950,13 @@ Problem 8.9.14. Prove the Binomial Theorem (see Theorem 8.4.8) by induction on  
 Problem 8.9.15. Prove that
 
 $$
-\binom {n} {k} 2 ^ {k} = \sum_ {i = 0} ^ {k} \binom {n} {i} \binom {n - i} {k - i}
+\binom {n} {k} 2^{k} = \sum_{i = 0}^{k} \binom {n} {i} \binom {n - i} {k - i}
 $$
 
 Problem 8.9.16. Let  $a, b, k \in \mathbb{N}$  with  $a + b \geq k$ . Prove that
 
 $$
-\binom {a + b} {k} = \sum_ {i = 0} ^ {k} \binom {a} {i} \binom {b} {k - i}
+\binom {a + b} {k} = \sum_{i = 0}^{k} \binom {a} {i} \binom {b} {k - i}
 $$
 
 Problem 8.9.17. Three men walk into the bathroom and find seven urinals in a row on the wall. In how many ways can the men arrange themselves so that they don't violate the "bro code"? (That is, they must make sure no two adjacent urinals are occupied.)
@@ -2972,7 +2972,7 @@ Problem 8.9.18. Let  $n \in \mathbb{N}$  be given. Prove the following identitie
 Problem 8.9.19. Prove that
 
 $$
-\sum_ {i = 0} ^ {n} \left( \begin{array}{c} r + i \\ i \end{array} \right) = \left( \begin{array}{c} r + n + 1 \\ n \end{array} \right)
+\sum_{i = 0}^{n} \left( \begin{array}{c} r + i \\ i \end{array} \right) = \left( \begin{array}{c} r + n + 1 \\ n \end{array} \right)
 $$
 
 by a counting in two ways argument.
@@ -3004,7 +3004,7 @@ by a counting in two ways argument. Use the exact form given; do not simplify al
 Problem 8.9.23. Prove that
 
 $$
-4 ^ {n} = \sum_ {k = 0} ^ {n} \binom {n} {k} 3 ^ {k}
+4^{n} = \sum_{k = 0}^{n} \binom {n} {k} 3^{k}
 $$
 
 by a counting in two ways argument.
@@ -3014,7 +3014,7 @@ Problem 8.9.24. Let  $p \in \mathbb{N}$  be prime. Let  $k \in \mathbb{N}$  be g
 Problem 8.9.25. Let  $p \in \mathbb{N}$  be prime. Use the previous Problem 8.9.24 to prove that
 
 $$
-\forall x, y \in \mathbb {Z}. (x + y) ^ {p} \equiv x ^ {p} + y ^ {p} \mod p
+\forall x, y \in \mathbb {Z}. (x + y)^{p} \equiv x^{p} + y^{p} \mod p
 $$
 
 (Look back at Problem 6.7.22 where we investigated this before. You just proved it in generality!)
@@ -3022,7 +3022,7 @@ $$
 Problem 8.9.26. Let  $p \in \mathbb{N}$  be prime, and let  $a \in \mathbb{Z}$ . Use the result of Problem 8.9.24 and the Binomial Theorem to prove that
 
 $$
-a ^ {p} \equiv a \mod p
+a^{p} \equiv a \mod p
 $$
 
 This result is known as Fermat's Little Theorem.
@@ -3034,13 +3034,13 @@ Problem 8.9.27. Prove the Summation Identity (see Theorem 8.4.5) by a counting i
 Problem 8.9.28. In this problem, you will prove the following summation formula that you've proved by induction before!
 
 $$
-\forall n \in \mathbb {N}. \quad \sum_ {k = 1} ^ {n} k ^ {3} = \left(\frac {n (n + 1)}{2}\right) ^ {2}
+\forall n \in \mathbb {N}. \quad \sum_{k = 1}^{n} k^{3} = \left(\frac{n (n + 1)}{2}\right)^{2}
 $$
 
 (a) Let  $k \in \mathbb{N}$  be given. Prove the following equality by a counting in two ways argument:
 
 $$
-\forall k \in \mathbb {N}. \quad k ^ {3} = 6 \binom {k} {3} + 6 \binom {k} {2} + \binom {k} {1}
+\forall k \in \mathbb {N}. \quad k^{3} = 6 \binom {k} {3} + 6 \binom {k} {2} + \binom {k} {1}
 $$
 
 (Hint: Consider counting words of length 3 from an alphabet of  $k$  letters.)
@@ -3070,13 +3070,13 @@ Problem 8.9.33. Consider an equilateral triangle with side length  $1\mathrm{cm}
 Problem 8.9.34. Let  $n \in \mathbb{N}$  be given. Prove the following identity by a counting in two ways argument:
 
 $$
-\binom {2 n} {n} = \sum_ {k = 0} ^ {n} \binom {n} {k} ^ {2}
+\binom {2 n} {n} = \sum_{k = 0}^{n} \binom {n} {k}^{2}
 $$
 
 Problem 8.9.35. Let  $n \in \mathbb{N}$  be given. Consider the following identity:
 
 $$
-4 ^ {n} = \sum_ {k = 0} ^ {n} \binom {n} {k} 2 ^ {n}
+4^{n} = \sum_{k = 0}^{n} \binom {n} {k} 2^{n}
 $$
 
 Deduce it from the Binomial Theorem. Then, prove it by a counting in two ways argument.
@@ -3084,7 +3084,7 @@ Deduce it from the Binomial Theorem. Then, prove it by a counting in two ways ar
 Problem 8.9.36. Let  $n, k \in \mathbb{N}$  be given. Consider Equation  $\star$ :
 
 $$
-\sum_ {i \in [ k ]} x _ {i} = x _ {1} + x _ {2} + \dots + x _ {k} = n
+\sum_{i \in [ k ]} x_{i} = x_{1} + x_{2} + \dots + x_{k} = n
 $$
 
 In this problem, we will discuss solutions to  $\star$ , where a solution is an assignment of values for  $x_{1}, x_{2}, \ldots, x_{k}$  such that their sum is  $n$  and such that each one satisfies  $x_{i} \in \mathbb{N} \cup \{0\}$ .
@@ -3096,7 +3096,7 @@ In this problem, we will discuss solutions to  $\star$ , where a solution is an 
 (e) Consider the following modification to  $\star$ :
 
 $$
-x _ {1} + x _ {2} + \dots + x _ {k} \leq n
+x_{1} + x_{2} + \dots + x_{k} \leq n
 $$
 
 How many solutions to this inequality exist? (Again, a solution requires  $x_{i} \in \mathbb{N} \cup \{0\}$ .)
@@ -3156,7 +3156,7 @@ $$
 - The rational numbers are
 
 $$
-\mathbb {Q} = \left\{x \in \mathbb {R} \mid \exists a, b \in \mathbb {Z}. b \neq 0 \text {a n d} \frac {a}{b} = x \right\}
+\mathbb {Q} = \left\{x \in \mathbb {R} \mid \exists a, b \in \mathbb {Z}. b \neq 0 \text{an d} \frac{a}{b} = x \right\}
 $$
 
 - The real numbers are denoted by  $\mathbb{R}$ . Every real number is either rational or irrational.  
@@ -3167,7 +3167,7 @@ $$
 - If  $U$  is a set and  $P(x)$  is some property that either does or does not hold for any given  $x$ , then we can always define a new set by writing
 
 $$
-S = \{x \in U \mid P (x) \text {h o l d s} \}
+S = \{x \in U \mid P (x) \text{ho ld s} \}
 $$
 
 - This is called set-builder notation. It is essential to identify the universal set  $U$  and the property  $P(x)$ .
@@ -3238,7 +3238,7 @@ That is,  $\mathcal{P}(S)$  is the set of all subsets of  $S$ .
 - To say "  $S$  and  $T$  are equal sets", we write  $S = T$ . This is defined by
 
 $$
-S = T \text {i f a n d o n l y i f} S \subseteq T \text {a n d} T \subseteq S
+S = T \text{if an do nl yi f} S \subseteq T \text{an d} T \subseteq S
 $$
 
 - To prove two sets are equal, like  $S = T$ , we need to do something like this:
@@ -3266,7 +3266,7 @@ Suppose  $S, T, U$  are sets and  $S \subseteq U$  and  $T \subseteq U$ .
 - The union of two sets is defined by
 
 $$
-S \cup T = \{x \in U \mid x \in S \text {o r} x \in T \}
+S \cup T = \{x \in U \mid x \in S \text{or} x \in T \}
 $$
 
 It is the set of all elements that belong to at least one of the two sets,  $S$  and  $T$ .
@@ -3274,7 +3274,7 @@ It is the set of all elements that belong to at least one of the two sets,  $S$ 
 - The intersection of two sets is defined by
 
 $$
-S \cap T = \{x \in U \mid x \in S \text {a n d} x \in T \}
+S \cap T = \{x \in U \mid x \in S \text{an d} x \in T \}
 $$
 
 It is the set of all elements that belong to both sets,  $S$  and  $T$ .
@@ -3282,7 +3282,7 @@ It is the set of all elements that belong to both sets,  $S$  and  $T$ .
 - The difference of two sets is defined by
 
 $$
-S - T = \{x \in U \mid x \in S \text {a n d} x \notin T \}
+S - T = \{x \in U \mid x \in S \text{an d} x \notin T \}
 $$
 
 It is the set of all elements of  $S$  that are not elements of  $T$ .
@@ -3298,7 +3298,7 @@ It is the set of all elements of the universal set that are not elements of  $S$
 - The Cartesian product of two sets is defined by
 
 $$
-S \times T = \{(x, y) \mid x \in S \text {a n d} y \in T \}
+S \times T = \{(x, y) \mid x \in S \text{an d} y \in T \}
 $$
 
 It is the set of all ordered pairs, where the first coordinate is an element of  $S$  and the second coordinate is an element of  $T$ .
@@ -3310,7 +3310,7 @@ Suppose  $I$  is an index set and  $U$  is a universal set, and we have defined 
 - The indexed union of all of the  $A_{i}$  sets is defined by
 
 $$
-\bigcup_ {i \in I} A _ {i} = \left\{x \in U \mid \exists k \in I. x \in A _ {k} \right\}
+\bigcup_{i \in I} A_{i} = \left\{x \in U \mid \exists k \in I. x \in A_{k} \right\}
 $$
 
 It is the set of all elements  $x$  in the universal set such that  $x$  is an element of at least one of the indexed sets in the union.
@@ -3318,7 +3318,7 @@ It is the set of all elements  $x$  in the universal set such that  $x$  is an e
 - The indexed intersection of all of the  $A_{i}$  sets is defined by
 
 $$
-\bigcap_ {i \in I} A _ {i} = \left\{x \in U \mid \forall i \in I. x \in A _ {i} \right\}
+\bigcap_{i \in I} A_{i} = \left\{x \in U \mid \forall i \in I. x \in A_{i} \right\}
 $$
 
 It is the set of all elements  $x$  in the universal set such that  $x$  is an element of all of the indexed sets in the intersection.
@@ -3328,7 +3328,7 @@ It is the set of all elements  $x$  in the universal set such that  $x$  is an e
 - Let  $S$  be a set. A partition of  $S$  is a collection of sets that are pairwise disjoint and whose union is  $S$ . That is, a partition is formed by an index set  $I$  and non-empty sets  $S_{i}$  (defined for every  $i \in I$ ) that satisfy:
 
 $$
-\begin{array}{l} - \forall i \in I. S _ {i} \neq \emptyset \\ - \forall i \in I. S _ {i} \subseteq S \\ - \forall i, j \in I. i \neq j \Rightarrow S _ {i} \cap S _ {j} = \varnothing \\ - \bigcup_ {i \in I} S _ {i} = S \\ \end{array}
+\begin{array}{l} - \forall i \in I. S_{i} \neq \emptyset \\ - \forall i \in I. S_{i} \subseteq S \\ - \forall i, j \in I. i \neq j \Rightarrow S_{i} \cap S_{j} = \varnothing \\ - \bigcup_{i \in I} S_{i} = S \\ \end{array}
 $$
 
 # A.2 Logic
@@ -3700,7 +3700,7 @@ Let  $A$  be a set and let  $R$  be a relation on  $A$ .
 - If  $R$  is an equivalence relation and  $x \in A$ , then the equivalence class corresponding to  $x$  (under the relation  $R$ ) is
 
 $$
-[ x ] _ {R} = \{y \in A \mid (x, y) \in R \}
+[ x ]_{R} = \{y \in A \mid (x, y) \in R \}
 $$
 
 which is the set of all elements related to  $x$ .
@@ -3708,7 +3708,7 @@ which is the set of all elements related to  $x$ .
 - If  $R$  is an equivalence relation, then  $A / R$  is a modulo  $R$ ; it is the set of all equivalence classes:
 
 $$
-A / R = \left\{\left[ x \right] _ {R} \mid x \in A \right\}
+A / R = \left\{\left[ x \right]_{R} \mid x \in A \right\}
 $$
 
 - Theorem: If  $R$  is an equivalence relation on  $A$ , then the equivalence classes (i.e. the elements of  $A / R$ ) form a partition of  $A$ .  
@@ -3740,7 +3740,7 @@ Notice that " $\exists$ !" indicates this representation of  $x$  as a multiple 
 Suppose that  $a \equiv r \mod n$  and  $b \equiv s \mod n$ . Then,
 
 $$
-a + b \equiv r + s \mod n \qquad \text {a n d} \qquad a \cdot b \equiv r \cdot s \mod n
+a + b \equiv r + s \mod n \qquad \text{an d} \qquad a \cdot b \equiv r \cdot s \mod n
 $$
 
 # Multiplicative Inverses in  $\mathbb{Z}$  mod  $n$
@@ -3769,7 +3769,7 @@ Suppose we also have  $r$  integers,  $a_1, a_2, \ldots, a_r$ .
 Then there exists a solution  $X$  to the system of congruences defined by the  $n_i$  and  $a_i$ ; that is,
 
 $$
-\exists X \in \mathbb {Z}. \forall i \in [ r ]. X \equiv a _ {i} \mod n _ {i}
+\exists X \in \mathbb {Z}. \forall i \in [ r ]. X \equiv a_{i} \mod n_{i}
 $$
 
 Furthermore, if we define  $N = \prod_{i\in [r]}n_i$ , then all of the infinitely-many solutions  $Y$  to the system of congruences satisfy  $X\equiv Y\bmod N$ .
@@ -3817,13 +3817,13 @@ knowing that there is exactly one such  $b$  for each  $a$ .
 - Let  $f: A \to B$  be a function. Let  $X \subseteq A$ . The image of  $X$  under the function  $f$  is
 
 $$
-\operatorname {I m} _ {f} (X) = \{b \in B \mid \exists a \in X, f (a) = b \}
+\operatorname{Im}_{f} (X) = \{b \in B \mid \exists a \in X, f (a) = b \}
 $$
 
 An equivalent way of writing this set is
 
 $$
-\operatorname {I m} _ {f} (X) = \{f (a) \mid a \in X \}
+\operatorname{Im}_{f} (X) = \{f (a) \mid a \in X \}
 $$
 
 # A.5. FUNCTIONS
@@ -3833,7 +3833,7 @@ $$
 - Let  $f: A \to B$  be a function. Let  $Z \subseteq B$ . The pre-image of  $Z$  under the function  $f$  is
 
 $$
-\operatorname {P r e I m} _ {f} (Z) = \{a \in A \mid f (a) \in Z \}
+\operatorname{Pr eI m}_{f} (Z) = \{a \in A \mid f (a) \in Z \}
 $$
 
 (Intuitively, this is the set of all "inputs" whose output "lands" in  $Z$ .)
@@ -3847,7 +3847,7 @@ Note:  $\operatorname{Im}_f(\varnothing) = \varnothing$  and  $\operatorname{Pre
 The definition of image gives us this equivalent formulation of surjectivity:
 
 $$
-f \text {i s} \quad \Longleftrightarrow \forall b \in B. \exists a \in A. f (a) = b
+f \text{is} \quad \Longleftrightarrow \forall b \in B. \exists a \in A. f (a) = b
 $$
 
 (Intuitively,  $f$  is surjective when all of the codomain elements are "hit" by the function.)
@@ -3855,7 +3855,7 @@ $$
 - Let  $f: A \to B$  be a function. If  $f$  has the property that
 
 $$
-\forall a _ {1}, a _ {2} \in A. a _ {1} \neq a _ {2} \Rightarrow f (a _ {1}) \neq f (a _ {2})
+\forall a_{1}, a_{2} \in A. a_{1} \neq a_{2} \Rightarrow f (a_{1}) \neq f (a_{2})
 $$
 
 then we say  $f$  is injective, or it is an injection.
@@ -3863,7 +3863,7 @@ then we say  $f$  is injective, or it is an injection.
 The contrapositive of this conditional statement yields an equivalent formulation of injectivity:
 
 $$
-\forall a _ {1}, a _ {2} \in A. f (a _ {1}) = f (a _ {2}) \Rightarrow a _ {1} = a _ {2}
+\forall a_{1}, a_{2} \in A. f (a_{1}) = f (a_{2}) \Rightarrow a_{1} = a_{2}
 $$
 
 (Intuitively,  $f$  is injective when two different inputs always yield different outputs, or equivalently when having equal outputs means they came from the same input.)
@@ -4099,13 +4099,13 @@ Suppose there is a surjection  $f:A\to B$  . Then  $|A|\geq |B|$
 - **Rule Of Sum:** Let  $A$  be a finite set. Let  $n \in \mathbb{N}$ . Suppose  $\{S_i \mid i \in [n]\}$  is a partition of  $A$ . Then
 
 $$
-| A | = \sum_ {i = 1} ^ {n} | S _ {i} | = | S _ {1} | + | S _ {2} | + \dots + | S _ {n} |
+| A | = \sum_{i = 1}^{n} | S_{i} | = | S_{1} | + | S_{2} | + \dots + | S_{n} |
 $$
 
 - **Rule Of Product:** Suppose we have a process that is completed in  $n$  steps. Suppose that step  $i$  (where  $1 \leq i \leq n$ ) can be completed in  $w_i$  ways, independent of the choices made in the previous step. Then the number of outcomes of this process is
 
 $$
-\prod_ {i = 1} ^ {n} w _ {i} = w _ {1} \cdot w _ {2} \dots w _ {n}
+\prod_{i = 1}^{n} w_{i} = w_{1} \cdot w_{2} \dots w_{n}
 $$
 
 # A.7.3 Formulas
@@ -4152,15 +4152,15 @@ Pascal's Identity:  $\binom{n}{k} + \binom{n}{k+1} = \binom{n+1}{k+1}$
 We have a universal set  $U$  and some subsets  $A_{1}, A_{2}, \ldots, A_{n} \subseteq U$ . We want to count the elements of  $U$  that are outside of all of the  $A_{i}$  sets.
 
 $$
-\left| U - A _ {1} \right| = \left| U \right| - \left| A _ {1} \right|
+\left| U - A_{1} \right| = \left| U \right| - \left| A_{1} \right|
 $$
 
 $$
-\left| U - \left(A _ {1} \cup A _ {2}\right) \right| = \left| U \right| - \left| A _ {1} \right| - \left| A _ {2} \right| + \left| A _ {1} \cap A _ {2} \right|
+\left| U - \left(A_{1} \cup A_{2}\right) \right| = \left| U \right| - \left| A_{1} \right| - \left| A_{2} \right| + \left| A_{1} \cap A_{2} \right|
 $$
 
 $$
-\begin{array}{l} | U - \left(A _ {1} \cup A _ {2} \cup A _ {3}\right) | = | U | - | A _ {1} | - | A _ {2} | - | A _ {3} | \\ + \left| A _ {1} \cap A _ {2} \right| + \left| A _ {1} \cap A _ {3} \right| + \left| A _ {2} \cap A _ {3} \right| \\ - \left| A _ {1} \cap A _ {2} \cap A _ {3} \right| \\ \end{array}
+\begin{array}{l} | U - \left(A_{1} \cup A_{2} \cup A_{3}\right) | = | U | - | A_{1} | - | A_{2} | - | A_{3} | \\ + \left| A_{1} \cap A_{2} \right| + \left| A_{1} \cap A_{3} \right| + \left| A_{2} \cap A_{3} \right| \\ - \left| A_{1} \cap A_{2} \cap A_{3} \right| \\ \end{array}
 $$
 
 and so on.
@@ -4168,13 +4168,13 @@ and so on.
 In general, for  $n$  many sets, we have
 
 $$
-| U - (A _ {1} \cup A _ {2} \cup \dots \cup A _ {n}) | = \sum_ {S \subseteq [ n ]} (- 1) ^ {| S |} \left| \bigcap_ {i \in S} A _ {i} \right| \quad \text {w h e r e} \quad \bigcap_ {i \in \emptyset} A _ {i} = U
+| U - (A_{1} \cup A_{2} \cup \dots \cup A_{n}) | = \sum_{S \subseteq [ n ]} (- 1)^{| S |} \left| \bigcap_{i \in S} A_{i} \right| \quad \text{wh er e} \quad \bigcap_{i \in \emptyset} A_{i} = U
 $$
 
 In the (convenient) case where the size of the intersection of  $k$ -many sets only depends on that value  $k$  (and not which sets we are intersecting), then we can write
 
 $$
-| U - (A _ {1} \cup A _ {2} \cup \dots \cup A _ {n}) | = \sum_ {k = 0} ^ {n} (- 1) ^ {k} {\binom {n} {k}} | S _ {1} \cap S _ {2} \cap \dots \cap S _ {k} |
+| U - (A_{1} \cup A_{2} \cup \dots \cup A_{n}) | = \sum_{k = 0}^{n} (- 1)^{k} {\binom {n} {k}} | S_{1} \cap S_{2} \cap \dots \cap S_{k} |
 $$
 
 # A.7.8 Pigeonhole Principle
